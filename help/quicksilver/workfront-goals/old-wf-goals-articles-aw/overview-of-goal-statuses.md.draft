@@ -1,0 +1,39 @@
+---
+filename: overview-of-goal-statuses
+content-type: overview
+product-previous: workfront-goals
+navigation-topic: old-workfront-goals-articles
+title: Overview of goal statuses in the new Adobe Workfront experience
+description: From Alla's document - EDIT ME.
+author: Alina
+hidefromtoc: true
+---
+
+# Overview of goal statuses in the new Adobe Workfront experience
+
+From&nbsp;Alla's document:
+
+Any user can change status to any goal according to the rules below:
+
+| From/&nbsp;To |Draft |Active |Inactive |Closed |
+|---|---|---|---|---|
+| Draft |-  |Yes |No |No |
+| Active |No |-  |Yes |Yes |
+| Inactive |No |Yes |-  |No |
+| Closed |No |Yes |No |- |
+
+Goal is created in Draft status. This is the first stage where the goal can be changed without any restrictions. Draft goals are displayed in the Goal alignment, in the Goal list, on the Check-in page (as contributing goals), but Draft goals are not calculated to get the average progress in Graphs.
+
+To Activate a goal there should be at least one Result/Activity/Contribution (to drive progress).
+
+Active goal status can be changed to Inactive in case a user has stopped working on it or made a pause (vacation, changed priorities) or the goal is not relevant anymore. Workfront does not include Inactive goals in the Goals Alignment chart and in the graphs, and it does not calculate their progress. Users can't make check-ins in Inactive goals.
+
+Active goal status can be changed to Closed if a user wants to finalize, state the result and analyze their accomplishments.
+
+Closed goal can be reopened and change status to Active again, if a user wants to make additional changes before closing.
+
+Inactive goal can be changed to Active if a user wants to continue working on the goal.
+
+Difference between Draft and Inactive status is that Inactive goal can have a progress history because it was Active before. Draft goal doesn't have any progress history and can be deleted once it's not relevant anymore.
+
+Draft status can't be changed to Closed because a Draft goal doesn't have any progress we could state before closing.

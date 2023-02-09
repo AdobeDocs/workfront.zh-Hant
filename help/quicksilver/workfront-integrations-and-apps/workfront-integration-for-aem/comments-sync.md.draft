@@ -1,0 +1,70 @@
+---
+title: ```Workfront Tools for AEM User Guide : Comments Sync```  {#title-heading}
+description: ```Workfront Tools for AEM User Guide : Comments Sync```  {#title-heading}
+author: Courtney
+draft: Probably
+---
+# ```Workfront Tools for AEM User Guide : Comments Sync```  {#title-heading}
+
+Creates a comment under an asset representing the Adobe Workfront Note object.
+
+## Access requirements
+
+You must have the following access to perform the steps in this article:
+
+<table style="table-layout:auto"> 
+ <col> 
+ </col> 
+ <col> 
+ </col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
+   <td> <p>[!UICONTROL Pro] or higher</p> </td> 
+  </tr> <!--
+   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+    <td role="rowheader">[!DNL Adobe Workfront] license*</td> 
+    <td> <p>Review or higher</p> </td> 
+   </tr>
+  --> 
+  <tr> 
+   <td role="rowheader">Product</td> 
+   <td>You must have a license to Adobe Experience Manager</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>View permissions to the object the note is attached to</p> <p>For information on requesting additional access, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+
+## Prerequisites
+
+* You must install Workfront Tools for Adobe Experience Manager before you can use it to auto publish assets.
+
+  For instructions, see [Workfront Tools for AEM User Guide: Installation Guide 1.x.x](../../workfront-integrations-and-apps/workfront-integration-for-aem/installation-guide.md)
+
+## Create Event Subscriptions for Note Objects {#commentssync-createeventsubscriptionsfornoteobjects}
+
+1. Navigate to ```Tools → Cloud Services → Workfront Tools Configuration```. Select the configuration and click ```Properties```.  
+   ![](assets/properties-config-350x280.png)
+
+   ![](assets/wf-tools-350x286.png)
+
+1. Select the ```Event Subscriptions``` tab. Under the ```Create a new event subscription``` menu, select ```create``` from the Event dropdown and under the Object dropdown select ```note```. This we create a workflow step that listens for comments added to Workfront linked documents and add the comment in AEM.
+
+   ![](assets/event-subs-350x238.png)
+
+   ![](assets/create-note-event-350x225.png)
+
+1. Test the Create Note Event
+
+   1. Navigate to a linked document in Workfront and leave a comment in the Updates tab.
+   1. Navigate to the same linked document in AEM. Once the document is selected, navigate to the Timeline menu in the left navigation and select ```Comments```. Here you should see you synced comments from Workfront.
+
+      ![](assets/update-stream-comment-350x225.png)
+
+      ![](assets/699826215-350x225.png)
+

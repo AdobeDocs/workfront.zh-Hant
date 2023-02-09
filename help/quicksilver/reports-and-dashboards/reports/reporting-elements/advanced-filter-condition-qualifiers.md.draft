@@ -1,0 +1,90 @@
+---
+filename: advanced-filter-condition-qualifiers
+content-type: reference
+product-area: reporting
+navigation-topic: reporting-elements
+title: Advanced Filter and condition qualifiers
+description: Advanced Filter and condition qualifiers
+author: Nolan
+hidefromtoc: true
+---
+
+# Advanced Filter and condition qualifiers
+
+<!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: Alina: Discontinuing this article because the information has been merged to this one:&nbsp;https://support.workfront.com/hc/en-us/articles/217196097 - Filter and Condition Modifiers) </p>
+-->
+
+## Overview
+
+Provides an overview of filter and condition qualifiers​&nbsp;used for text mode statements.&nbsp;
+
+## Details
+
+There are several advanced filter and condition qualifiers that allow you to determine how your field source will be used to narrow search results. These qualifiers are used in text mode statements. Each qualifier has a counterpart allowing you to either include or exclude values from the field source. Below is a description of the implied function of the most relevant modifiers.
+
+### Advanced Filter and Condition Qualifiers
+
+**contains**
+
+(Case sensitive) Searches for the specified text throughout an entire text string.
+
+* Example: Using 'contains Inf' will capture anything with Inf in it, such as the word 'Infinity'.
+
+**cicontains**
+
+This is the case insensitive version of contains.&nbsp;
+
+* Example: 'contains inf' will capture anything with 'Inf' or 'inf'.
+
+**like**&nbsp;  
+(Case sensitive) Searches for portions of a text string in similar fashion to 'contains.' However, 'like' provides the ability to insert wild card characters to break up the text.&nbsp;
+
+* Example: When searching for notes, using 'like %Current% %Dead%' will return any note that contains the phrase "Current to Dead". It will not include any notes that contain "Dead to Current". Each value is searched in the order it is listed. The % represents a wild card to replace characters or segments of text.
+
+**cilike** 
+This is the case insensitive version of like.&nbsp;
+
+* Example: 'cilike%Current% %Dead%' will return any notes that contain "Current to Dead" or "current to dead".
+
+**notcontains** 
+(Case sensitive) This is the inverse of contains.
+
+**cinotcontains**&nbsp;  
+This is the case insensitive version of notcontains.
+
+**equal**&nbsp;
+
+(Case sensitive) This searches for an exact match in the text string.
+
+**ciequal**&nbsp;
+
+This is the case insensitive version of equal.
+
+**notequal**&nbsp;
+
+This is the inverse of equal.
+
+**cinotequal** 
+This is the case insensitive version of notequal.
+
+**in**&nbsp;
+
+(Case sensitive) This allows you to create a comma-separated list of variables to compare to a single attribute evaluated in a filter. The entire list is treated as an OR statement and will return any results that meet the criteria of one or more of the variables.
+
+* Example: When searching for projects, using 'in CUR, PLN, CPL' will return all projects that are in the Current, OR Planning, OR Complete status.
+
+**ciin** 
+This is the case insensitive version of in.
+
+**notin**
+
+(Case sensitive) This is the inverse of in. It will only return results not in the specified list.
+
+**cinotin**
+
+This is the case insensitive version of notin.
+
+## Considerations
+
+Text mode syntax needs to be used in reporting statements to produced the desired results. To learn more about using text mode refer to our&nbsp;Advanced Reporting course.&nbsp;

@@ -1,0 +1,57 @@
+---
+filename: team-scheduling-beta
+content-type: reference
+navigation-topic: betas
+title: Team scheduling beta
+description: The Team Scheduling area (formerly known as Team Builder) is being updated with a new look and feel, updated architecture for better performance, and support for new functionality.
+author: Luke
+hidefromtoc: true
+---
+
+# Team scheduling beta
+
+The Team Scheduling area (formerly known as Team Builder)&nbsp;is being updated&nbsp;with a new look and feel, updated&nbsp;architecture for better performance, and support for new functionality.
+
+Use the following information to begin testing the new Team Scheduling area in Workfront:
+
+## Supported environments
+
+The Team Scheduling&nbsp;beta is available to test in the Workfront Preview environment by invitation only.
+
+For more information about the Workfront Preview environment, see&nbsp; [The Adobe Workfront Preview Sandbox Environment](../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md).
+
+## Team Scheduling&nbsp;improvements
+
+The new Team Scheduling area&nbsp;contains the following improvements:
+
+* New look and feel
+* Updated architecture for better performance and browser support
+* View current resource allocations for members of the project team, allowing you to make more informed decisions when making assignments
+* Visual representation of task durations on the scheduling timeline
+* Filter what information is displayed on the scheduling timeline
+* Easily add and remove users from the project team, directly from the scheduling timeline
+
+## Enroll in the Team Scheduling&nbsp;beta
+
+Enrollment in the Team Scheduling Beta is by invitation only.
+
+## Test the Team Scheduling area
+
+You can test the Team Scheduling area&nbsp;by invitation only.
+
+The following areas are ready for testing:
+
+* Add users to the Project Team from the Team Scheduling Area.  
+  For more information, see [Team scheduling beta](#manually-adding-users-to-a-project-team__with_id_115000141154__missing).
+
+* Unassign a user from all tasks and issues in the Team Scheduling area. Users remain on the project team until manually removed from the project team.
+* Remove a user from the project team when the user is no longer assigned any tasks or issues.  
+  For more information about removing users from the project team, see [Project Team overview](../../manage-work/projects/planning-a-project/project-team-overview.md)The user is also removed from the People area on the project (as described in [Remove users from projects](../../manage-work/projects/manage-projects/remove-users-from-projects.md).)
+
+## Submit your feedback
+
+To submit feedback during the beta process:
+
+## Known issues and limitations
+
+The following are known issues or limitations associated with the proofing viewer beta:

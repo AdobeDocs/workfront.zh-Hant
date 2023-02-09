@@ -1,0 +1,31 @@
+---
+title: 23.1 release activity week of october 10, 2022
+description: 23.1 release activity Week of October 10, 2022
+author: Luke
+draft: Probably
+feature: Product Announcements
+exl-id: 52fdda0c-400d-44b2-bd6a-4f5ae1e2aed8
+---
+# 23.1 release activity: Week of October 10, 2022
+
+This page describes all enhancements made with the 23.1 release to the Preview environment the week of October 10, 2022. These enhancements will be made available in the Production environment later this year.
+
+For a list of all changes available at this point in the 23.1 release cycle, see [23.1 Release overview](/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-release-overview.md).
+
+## Rename pins and a new experience when deleting pins
+
+The following updates are now available for pins:
+
+* Rename existing pins
+
+* An improved experience when deleting a pin
+
+The options to rename a pin and remove a pin appear in a drop-down menu when you hover over the pin.
+
+For more information, see [Pin pages to customize your workspace](/help/quicksilver/workfront-basics/the-new-workfront-experience/pin-pages.md).
+
+## Copy a direct link for a document folder
+
+You can now copy and share document folder links to provide quick access to the folder. Users must have at least View access to the object to view the folder.
+
+For more information, see [Copy and share a link to a document folder](/help/quicksilver/documents/managing-documents/copy-a-doc-folder-url.md).

@@ -1,0 +1,24 @@
+---
+title: 22.4 release activity week of aug 7, 2022
+description: 22.4 release activity Week of August 7, 2022
+author: Luke
+draft: Probably
+feature: Product Announcements
+exl-id: ec8463f5-02e5-4ee4-b6f7-27431ce04ff1
+---
+
+# 22.4 release activity: Week of August 7, 2022
+
+This page describes all enhancements made in the Preview environment the week of August 7, 2022. These enhancements will be made available in the Production environment with the 22.4 release later this year.
+
+For a list of all changes available at this point in the 22.4 release cycle, see [22.4 Release overview](/help/quicksilver/product-announcements/product-releases/22.4-release-activity/22-4-release-overview.md).
+
+## Expanded team description
+
+In the Teams area, you can now view the full team description by clicking the description to display it in a pop-up. Any URLs in the description are clickable in the pop-up, and you can click in the description text to edit it (if you have access to edit the team settings). 
+
+Previously, scrolling through the description in a narrow area was the only way to see all of the content.
+
+This enhancement to the description applies to both agile and non-agile teams.
+
+For more information, see [Create a team](/help/quicksilver/people-teams-and-groups/create-and-manage-teams/create-a-team.md).

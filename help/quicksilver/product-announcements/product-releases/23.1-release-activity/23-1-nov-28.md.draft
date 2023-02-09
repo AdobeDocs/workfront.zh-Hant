@@ -1,0 +1,96 @@
+---
+title: 23.1 release activity week of November 28, 2022
+description: 23.1 release activity Week of November 28, 2022
+author: Luke
+draft: Probably
+feature: Product Announcements
+exl-id: 6f432621-1e0a-419c-9351-4e4389e61b11
+---
+# 23.1 release activity: Week of November 28, 2022
+
+This page describes all enhancements made with the 23.1 release to the Preview environment the week of November 28, 2022. These enhancements will be made available in the Production environment later this year.
+
+For a list of all changes available at this point in the 23.1 release cycle, see [23.1 Release overview](/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-release-overview.md).
+
+## **List Controls (from the Interface area in Setup)**
+
+List Controls in Setup > Interface will be removed with the 23.1 release. 
+
+Some list control funtionality is moving to the Setup > Interface > Filters/Views/Grouping areas.
+
+## New list control functionality in Interface > Filters, Views, and Groupings
+
+We've added list control functionality to the Filters, Views, and Groupings pages in the Setup area. There, you can enable or disable filters, views, and groupings for the Layout Template.
+
+For more information, see [Create, edit, and share default filters, views, and groupings](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/create-and-share-default-fvgs.md).
+
+[View a video demonstration of this feature](https://video.tv.adobe.com/v/3412057/){target=_blank}
+
+## Board checklist items and Workfront subtasks are now linked
+
+>[!NOTE]
+>
+>This feature is available only through the early feature opt-in for Workfront Boards.
+
+When you add a connected card to a board for a Workfront task, any subtasks are imported as checklist items on the card. Also, when you create a checklist item on a connected card, a subtask is added to the Workfront task. Checklist items on issues are not connected to any Workfront objects.
+
+Previously, checklist items and subtasks were not linked. If you wanted to include a subtask on the board you could import it as a separate connected card or manually add a checklist item to a card.
+
+For more information, see [Use connected cards on boards](/help/quicksilver/agile/get-started-with-boards/connected-cards.md) and [Manage checklist items on cards](/help/quicksilver/agile/get-started-with-boards/manage-checklist-items.md).
+
+[View a video demonstration of this feature](https://video.tv.adobe.com/v/3411951/){target=_blank}
+
+## Due dates on cards map to planned completion date on Workfront object
+
+>[!NOTE]
+>
+>This feature is available only through the early feature opt-in for Workfront Boards.
+
+Due dates on connected cards in Workfront Boards now map to the planned completion date on the associated Workfront object. If you update the due date on a card, the planned completion date is updated on the task or issue. Changing the planned completion date also changes the due date on the card. Previously, the card due date was a manual entry and was not mapped to any date on a task or issue.
+
+Date mapping also applies to connected checklist items that are synced to subtasks.
+
+The due date on both connected cards and ad hoc cards now also includes a time field.
+
+For more information, see [Use connected cards on boards](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
+
+[View a video demonstration of this feature](https://video.tv.adobe.com/v/3411952/){target=_blank}
+
+## Boards is now available in the mobile app
+
+>[!NOTE]
+>
+>These features will be generally available in the Apple App Store and Google Play Store in mid-to-late January 2023.
+
+Adobe Workfront Boards are now available in the mobile app! You can access Boards directly from the home screen and see all of the boards you have access to in the desktop version of Workfront. In a specific board, you can view and edit all of its columns and cards. Card details include name, description, column, assignees, status, due date, estimation, tags, and checklist items. Both ad hoc and connected cards are visible on the board.
+
+Additional features include:
+
+* Add an ad hoc card to a column
+* Select and drag cards between columns
+* Search in the board
+* Filter the board by member or tag
+* View the intake column and move cards from the intake column onto the board
+
+Any changes you make to columns and cards in the app are also reflected in the desktop version of the board. At this time, you can only open your desktop boards and cannot create new boards in the app.
+
+The following articles will be updated when the app is released to the app stores:
+
+* [Adobe Workfront for Android](/help/quicksilver/workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-android.md)
+* [Adobe Workfront for iOS](/help/quicksilver/workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-ios.md)
+
+## Enhanced filter experience generally available in Adobe Workfront
+
+An upgrade to the filter experience was released to public beta on project, task, and issue lists in August 2022. Most lists now offer the enhanced filters. (To review all of these lists, see the [23.1 look-and-feel updates release note](/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-look-and-feel-updates.md).) As a "fast follow" to the 23.1 release, the enhanced filter experience will be generally available and become the standard filter builder in the February/March 2023 timeframe.
+
+The following will be available in Workfront before the enhanced filters are generally available:
+
+* Global filter setup capability will be added to the filters setup page
+* The ability to add and delete system default filters will be added to layout templates
+* List controls will be deprecated
+
+These features fix issues related to curated filter lists not appearing correctly in the public beta filters.
+
+You can still access the legacy filters on lists by enabling them in the filter panel. Legacy filters will be deprecated from lists in the future, but they will remain available in reports because the enhanced filters are not available in reports.
+
+For details about the enhanced filters and a video demonstration, see the [filters public beta release note](/help/quicksilver/product-announcements/product-releases/22.4-release-activity/22-4-project-enhancements.md).

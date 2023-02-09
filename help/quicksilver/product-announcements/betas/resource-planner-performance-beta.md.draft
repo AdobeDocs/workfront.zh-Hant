@@ -1,0 +1,99 @@
+---
+filename: resource-planner-performance-beta
+content-type: reference
+navigation-topic: betas
+title: Resource Planner performance beta
+description: Resource Planner performance beta
+author: Luke
+hidefromtoc: true
+---
+
+# Resource Planner performance beta
+
+<!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: Alina: save as a draft for an example of a RM beta)</p>
+-->
+
+The new Workfront Resource Planner enables you to ensure that your people are working on the right work, at a right time, and helps to prevent burnout. You can manage demand by job role or user, providing visibility into the availability of the team members, as well as prioritizing strategic work to ensure the top priority work is assigned the resources it needs to be successful. Additionally, the Resource Planner can help you:
+
+* budget your resources by job role or user both system-wide and for an individual project;
+* view the data by Hours, FTE or Costs;
+* simulate a scenario when the project can be moved into the future 
+* and much more!
+
+These new capabilities will fully replace the Legacy Resource Planning functionality in the near future.
+
+Our Product team is also focused on ensuring the resulting functionality is performant and meets your business needs. For that reason, we are currently working on performance-related improvements and are conducting a beta program to make sure that our final product meets your expectations.
+
+## Format of the Beta Program
+
+The performance improvements will be deployed to the Preview environment with our upcoming Beta releases. We will update this page when new functionality is added to Preview and you can follow it to know when you can start performing targeted testing.
+
+For more information about the Resource Planner, including the necessary prerequisites, and how to access it, see [Resource Planning in Adobe Workfront](../../resource-mgmt/resource-planning/resource-planning-overview.md).
+
+Because these features are released to everyone in their Preview environment, we encourage everyone to participate in this beta program. We estimate that the maximum amount of time needed for testing is about 5 hours a week. We welcome any amount of time you can invest in this testing.
+
+>[!IMPORTANT]
+>
+>The Preview environment is refreshed every week with the Production data. To save time, we recommend that you set up all the necessary information for working in the Resource Planner in the Production environment first which will allow you to avoid recreating the data every week in the Preview environment. Setting up the correct data for testing Resource Planning will not affect your work in the Legacy Resource Planning tools. For more information about the prerequisites that must be in place before you can start using the Resource Planner, see the section in [Get started with Resource Planning](../../resource-mgmt/resource-planning/get-started-resource-planning.md)
+
+## Current Improvements Released to the Preview Environment
+
+The following improvements have been released to the Preview environment since the opening of this Beta program:
+
+* Improvements to the User View introduced in 18.2 Beta 1 Release:
+
+   * When you first access the Resource Planner, the User View is the new default view, replacing the Project View.  
+     You do not need to be a Resource Manager to view information in the User View.&nbsp;
+   * New limits for how many users, projects, roles, and tasks display have been introduced.
+   * Users lazy load (they display slowly, as you scroll down the page, instead of displaying all the results at once).&nbsp;
+   * You have control over how many projects, roles, tasks, and issues you display for one user at one time.&nbsp;
+   * Filters pull information after polling the entire Workfront database, instead of limiting the results on the screen.  
+     For more information about how filters work in the Resource Planner, see the "Understanding How Information is Filtered in the Resource Planner" section in [Filter information in the Resource Planner](../../resource-mgmt/resource-planning/filter-resource-planner.md).
+   
+   * We have added the option to see the Resource Planner in full screen.&nbsp;
+   * Exporting the information from the User View is temporarily unavailable.&nbsp;
+
+For more information about all limitations in the User View, see [Resource Planner display limitations](../../resource-mgmt/resource-planning/resource-planner-display-limitations.md)For more information about the 18.2 Beta 1 release, see the [User View Improvements in the Resource Planner](../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018.2-beta-1-release-activity.md#user-view-improvements-in-the-resource-planner) section in [2018.2 Beta 1 release activity](../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018.2-beta-1-release-activity.md).
+
+## Functionality That We Would Like You to Test
+
+While participating in this beta program, we would like you to focus on the areas of functionality listed below. We would like you to tell us how you rank the current functionality when comparing it to the Resource Planning tools currently in production, as well as to your expectations.
+
+Please send us feedback on the following:
+
+* Loading the Resource Planner for the first time
+* Saving Budgeted data
+* Switching between Week/Month/Quarter time periods
+* Switching between the Role/User/Project views
+* Switching between Hours/FTE/Cost data types
+* Navigating through time periods using the Next, Previous, and Today buttons
+* Exporting the data from the Resource Planner
+* Using the menus inside the Project and Job Role Options icons in the Project and Role views (for example, Set Planned Hours as Budgeted, Total Users' Budgeted Hours)
+* Changing the project priority by giving a project a new priority number
+* Changing the project priority by dragging and dropping it to a new spot
+* Make the same observations on the Resource Planner which displays on the Business Case of a project.
+
+For details about the functionality that has already been released, see “Understanding Currently Released Resource Management Functionality ”
+
+## Feedback about Testing the Performance of the Resource Planner
+
+We are looking for separate sets of feedback based on your configuration of the Resource Planner. We are also looking for separate sets of feedback depending on which release you are testing the functionality for.  
+Depending on which view you use in the Resource Planner and what release you are referring to, please submit a separate survey for the following:&nbsp;
+
+* User View
+
+   * Compare the current functionality in Production with the functionality in the 17.3 release:&nbsp; [Survey Link](https://goo.gl/forms/VHvL7Kb0vsNo6yo83)
+   * Compare the current functionality in Preview with the current functionality in Production: [Survey Link](https://goo.gl/forms/AOwa4dPxTK3yVRcO2)
+
+* Project View
+
+   * Compare the current functionality in Production with the functionality in the 17.3 release:&nbsp; [Survey Link](https://goo.gl/forms/qjgROLMKo0hIr2Wq1)
+
+* Role View
+
+   * Compare the current functionality in Production with the functionality in the 17.3 release:&nbsp; [Survey Link](https://goo.gl/forms/ztio5oZ6LUNmHPyu1)
+
+For more information about functionality release in the 17.3 release, see [2017.3 release activity overview](../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017.3-release-activity-overview.md).
+
+We will update this page when new functionality is added to Preview. Consider testing the Resource Planner and submitting a survey with your findings after each functionality release.

@@ -1,0 +1,31 @@
+---
+title: 22.4 release activity week of August 29, 2022
+description: 22.4 release activity Week of August 29, 2022
+author: Luke
+draft: Probably
+feature: Product Announcements
+---
+
+# 22.4 release activity: Week of August 29, 2022
+
+This page describes all enhancements made with the 22.4 release to the Preview environment the week of August 29, 2022. These enhancements will be made available in the Production environment later this year.
+
+For a list of all changes available at this point in the 22.4 release cycle, see [22.4 Release overview](/help/quicksilver/product-announcements/product-releases/22.4-release-activity/22-4-release-overview.md).
+
+## Use unlocked statuses in an approval processes
+
+>[!NOTE]
+>
+>This feature was first introduced in the Preview environment during the 22.3 release time frame. It releases to Production September 15, 2022.
+
+To give you more control over the approval processes and statuses in your system, we’ve made it possible to create an approval process based on an unlocked system status. Moreover, you can now unlock any status that is already used in an approval process. Previously, a system status used in an approval process had to be locked. This made it available for all groups—without the possibility of removing or renaming it—so group administrators couldn’t streamline their group’s list of statuses to fit their specific needs.
+
+## Assign multiple teams to a task or issue
+
+To give you much more flexibility in the way you manage tasks and issues, we have made it possible to assign multiple teams to a task or issue. Previously, only one team could be assigned to a task or issue.
+
+>[!NOTE]
+>
+>This functionality is not currently available in the Workload Balancer in the Teams area.
+
+For more information, see [Assign tasks](/help/quicksilver/manage-work/tasks/assign-tasks/assign-tasks.md) and [Assign issues](/help/quicksilver/manage-work/issues/manage-issues/assign-issues.md).

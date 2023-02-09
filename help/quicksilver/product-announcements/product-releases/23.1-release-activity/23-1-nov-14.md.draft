@@ -1,0 +1,35 @@
+---
+title: 23.1 release activity week of November 14, 2022
+description: 23.1 release activity Week of November 14, 2022
+author: Luke
+draft: Probably
+feature: Product Announcements
+exl-id: 61784ffa-360f-4c86-9042-fec2c7e95b34
+---
+# 23.1 release activity: Week of November 14, 2022
+
+This page describes all enhancements made with the 23.1 release to the Preview environment the week of November 14, 2022. These enhancements will be made available in the Production environment later this year.
+
+For a list of all changes available at this point in the 23.1 release cycle, see [23.1 Release overview](/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-release-overview.md).
+
+## Card counter on board columns
+
+>[!NOTE]
+>
+>This feature is available only through the early feature opt-in for Workfront Boards.
+
+A new configuration setting is available to turn on a card counter for all of the columns on a board. If you are using the WIP limit on a column, a separate card counter is not added.
+
+For more information, see [Manage board columns](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md).
+
+## Introducing Adobe Workfront for design and video 
+
+We're excited to announce the expansion of our Adobe Workfront for InDesign plugin to include Adobe Premiere Pro, and After Effects. The plugin will be renamed to Adobe Workfront for design and video. 
+
+The updated plugin, Adobe Workfront for design and video, will now support InDesign, Premiere Pro, and After Effects—with Illustrator soon to follow. 
+
+This plugin allows you to access work item details, collaborate with coworkers in the Updates area, and log time–all without leaving your favorite Creative Cloud application.  
+
+ Download [Adobe Workfront for design and video](https://exchange.adobe.com/apps/cc/108938/adobe-workfront-for-design-and-video) in the marketplace today. 
+
+Administrators can also create a package with the plugins from the Admin Console and deploy to users either in a managed or self-managed manner.

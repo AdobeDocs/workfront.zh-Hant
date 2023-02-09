@@ -1,0 +1,2874 @@
+---
+content-type: reference
+navigation-topic: workfront-navigation
+title: Glossary of Adobe Workfront terminology
+description: The following table is a list of commonly used terms in Adobe Workfront - EDIT ME.
+feature: Get Started with Workfront
+---
+
+# Glossary of Adobe Workfront terminology
+
+**Important:** This article should be used as a reference to understand the terms that you may encounter in the Adobe Workfront application, in the Workfront documentation, or when generally speaking about planning and managing work. We are currently updating this information and as a result this table might not be complete. We will remove this disclaimer when we consider this information exhaustive. 
+
+The following table is a list of commonly used terms in Adobe Workfront:
+
+A - C
+-----
+
+ 
+
+Object Name
+
+Description
+
+Access Level
+
+A user profile that determines how a user can interact with different objects and tools within Workfront.
+
+Active Task
+
+An incomplete task in a current project that is not prevented from being worked on by a predecessor task and does not have a task constraint with a future planned start date. In other words, it can be worked on today.
+
+Activity
+
+In Workfront Goals, an activity is a progress indicator for a goal. It can be a progress bar that you update manually, or a project that is associated with the goal. You cannot display activities in a report and you cannot access them through the Workfront API. For information about activities, see Get started with results and activities in Adobe Workfront Goals.
+
+Actual Cost
+
+For tasks and issues, this is the cost associated with the actual hours logged in relation to the Cost per hour rate of the resource assigned to the task or issue. For projects, this is a total of all Actual Costs from tasks and issues on the project. For information, see Track costs.
+
+Actual Expense Cost
+
+The sum of the Actual Amounts for all expenses logged for a project or a task.
+
+**Example:** If you create an expense for Task 1 and enter $600.00 in the Actual Amount field, the Actual Expense Cost for this task is $600.00.
+
+For a project, Workfront uses the following formula to calculate Actual Expense Cost:
+
+`Project Actual Expense Cost = SUM (All Project Actual Expense Costs) + SUM (All Tasks Actual Expense Costs)`  
+
+**Important:** If the value in the Actual Amount field for an expense is negative, Workfront will ignore that expense record. For example, if the value in the Planned Amount field is $200.00 but the value in the Actual Amount field is -$300.00, the system will ignore this entire expense record which means you would not include the $200.00 planned value or the -$300.00 actual value in any calculations for Planned Expense Cost or Actual Expense Cost. (drafting this because not sure if this is still correct)
+
+Actual Hours
+
+In a project, task, or issue report, Actual Hours are the sum of all hours logged on the project, task, or issue. 
+
+**Example:** If from the Updates tab for Task 1, you click ‘Log Time’ and enter 25 hours, the Actual Hours of Task 1 = 25 hours.
+
+Workfront calculates Actual Hours for parent tasks or projects using the following formulas:
+
+*   `For parent tasks = children Actual Hours + Actual Hours on the parent task.`
+    
+*   `For projects = Actual Hours logged on the project + Actual Hours logged on standalone or children tasks in the project`
+    
+
+Actual Labor Cost
+
+The Actual Cost associated with the labor invested in a task or a project.
+
+For a task, Workfront calculates the Actual Labor Cost using the following formula:
+
+`Task Actual Labor Cost = Number of Actual Hours on the task * User or Job Role Hourly Cost Rate`
+
+**Note:** If the task has a Cost Type of User Hourly, Workfront uses the user rate. If the task has a Cost Type of Role Hourly, Workfront uses the job role rate to calculate Actual Labor Cost.
+
+For a project, Workfront uses the following formula to calculate the Actual Labor Cost:
+
+`Project Actual Labor Cost = SUM(All Tasks Actual Labor Cost)`
+
+For more information, see Track costs.
+
+**Example:** For example, if a user logs 5 hours for a task with a User Hourly Cost Type and their hourly rate is $100, the Actual Labor Cost is $500.
+
+  
+
+Actual Revenue
+
+The Actual Revenue of a project or a task is the amount of money associated with the Actual Hours of the project or the task.
+
+For information about tracking revenue in Workfront see Overview of Billing and Revenue.
+
+Actual Start
+
+The timestamp when a user changes an object in in-progress on work assigned to them.
+
+Ad hoc
+
+A type of work process that is unplanned.
+
+Additional Schedules
+
+An additional preset to be used for a new user group.
+
+Agile Methodology
+
+A type of methodology based on the collaborative evolution of needs and solutions with cross-functional teams. It encourages flexibility and change based on a fixed timeline.
+
+Agile Team
+
+Differ from traditional team because they take their prospective work from a backlog and work on it within a set period of time that is called an Iteration.
+
+All My Teams
+
+When this is referenced in filters, this field displays either users that belong to the any of the teams that the logged-in user belongs to, or work items assigned to any of the teams that the logged-in user belongs to.
+
+We recommend using this field in a filter to make reports more generic when sharing them with other users. This way, you can build only one report which will display different information depending on who logs in to view it, as the information is always customized for the logged-in user.
+
+Allocation Date
+
+You can find this field in the following types of reports:
+
+*   Resource Estimates
+*   Project (Financial Data)
+*   Budgeted Hour
+
+For a Resource Estimates or Project (Financial Data) report:
+
+*   Build this report when trying to understand how resources are budgeted for work, or the amount of Planned Hours that is assigned to your resources.
+*   The Allocation Date is the first day (Sunday) of a week in which the allocation of a Job Role to a task starts. A resource (Job Role) can have as many Allocation Dates as it has weeks during the Duration of the tasks that it is assigned to. If tasks span over multiple months, then the first day of a month can also become an Allocation Date, if it falls within the Duration of the task. 
+    
+    For example, you can have a Job Role assigned to a task that spans over 3 weeks and has 90 Planned Hours. These hours are spread evenly during the duration of the task, which makes every day assign 6 Planned Hours to your job role:
+    
+    _Daily Planned Hours = Total Planned Hours/ Number of Work Days during the Duration of the task_
+    
+    As a result, there are three Allocation Dates, one for every Sunday of every week during the Duration of the task, each with a certain number of Planned Hours associated with them.  
+    If the task starts in the middle of the last week of a month and ends two weeks after the beginning of a new month, the task will have four Allocation Dates: one for every Sunday of every week during the Duration of the task, and one for the first day of the new month.
+    
+    To make the most use of this information, we recommend that you build a Resource Estimates or a Project (Financial Data) report and add a matrix grouping for Allocation Date, then group the results weekly, monthly, quarterly, or yearly for the most accurate data.  
+    For information about building a matrix grouping, see the article Create a matrix report.
+    
+
+**Warning:** Financial information populates in Project (Financial Data) reports only when the data associated with it is less than 5 years old. For example, if a job role was allocated to a task in January 2015 and today is September 2021, a financial filed like the Allocation Date for the job role does not populate in the Project (Financial Data) report.
+
+For a Budgeted Hour report:
+
+*   Build this report when trying to understand the amount of Budgeted Hours that is allocated to your resources or to your projects in the Resource Planner.
+*   The Allocation Date is the first day (a Sunday) of the week for which you budgeted the hours in the Resource Planner.
+    
+    **Tips:**
+    
+    If a week spans for two months, it will generate two rows in the report: one corresponding to the first day of the week (Sunday of the first week which is during the first month), and the second row displays the first day of the second month.
+    
+    For example, if you budget 8 hours for a user for the week of June 30 (Sunday) - July 6 (Saturday), the two rows show an Allocation Date of June 30, and July 1.
+    
+    For information about budgeting resources in the Resource Planner, see the article Budget resources in the Resource Planner using the Project and Role views.
+    
+    For information about building a Budgeted Hour report, see Report: Budgeted Hour.
+    
+
+Announcements
+
+A way to communicate to users information within the system. This information is often coming from Workfront to the Administrator or from the Administrator to the user.
+
+For more information, see Send announcements
+
+App Integration
+
+An app most commonly represents a connector to a software application, but can also represent special functions that manipulate data.
+
+Approver Decision
+
+In the Proof Approval report, this field displays proof approval decisions for proofs that are no longer active.
+
+Approver stage
+
+In the Proof Approval report, this field displays information about a proofs current stage.
+
+Approval
+
+A given work item, such as a task, document, or timesheet, may require that a supervisor or other user sign off on the work item. This process of signing off is called approval.
+
+For more information, see Approval process overview.
+
+Approval date
+
+In the Proof Approval report, this field displays the date a proof was approved.
+
+Approver
+
+A user or job role that must sign off on a given work item, or the user that approves hour entries on timesheets.
+
+Assigned To
+
+In a Task or Issue report, this field displays the Owner of the task or the issue, or the Primary Assignee. You can filter or group by this field, as well. 
+
+Assignment
+
+A user, job role, or team assigned to an issue or a task . Projects, portfolios, or programs cannot have assignments.
+
+Assignments
+
+In a Task or Issue report, this field displays a list of all entities (users, job roles, teams) that are assigned to the task or issue. You can filter by this field using the fields Assignment Users and Assignment Roles. You can filter by the team assigned to the task or issue using the Team field. You cannot group a report by this field.
+
+**Note:** Work items that have been placed in the Recycle Bin will continue to display in some reports that refer to the Assignment object where an OR filter modifier is used.
+
+Assignment Roles
+
+In a Task or Issue report, this field displays information about the job roles assigned to the tasks or issues. This field displays Primary Owners, as well as other job roles assigned to tasks or issues.
+
+Assignment Status
+
+In an assignment, task, or issue report, the Assignment Status displays whether the users assigned to a work item have clicked the Work On It or the Done button to accept or complete the work. The following Assignment Statuses exist:
+
+*   **Requested**: the user has been assigned to the task or issue, but they have not clicked the Work On It button to start working on it yet.
+*   **Working**: the user has clicked the Work On It button and is currently working on the item.
+*   **Done**: the user has clicked the Done button and has completed their work on the item.
+
+For more information, see Work On It and Done button overview.
+
+Assignment Users
+
+In a Task or Issue report, this field displays information about the users assigned to the tasks or issues. This field displays Primary Owners, as well as other users assigned to tasks or issues.
+
+Attribute
+
+An attribute is a trait of a Workfront object.
+
+Audit Area
+
+Audits are system messages that record an action tha happened in Workfront. The following audit types are recorded:
+
+*   Scope Change
+*   Attachment Action
+*   General Edit
+*   Status Change
+*   Note
+*   Combined Entry
+*   Error Entry
+*   Status Change
+*   Subscription Change
+
+Audit Trail
+
+The collection of notes automatically generated by events that are tracked through the Recorded Changes (Audit Areas). Each note records who did the action, what they did, and when they did it.
+
+Automatic And On Change
+
+One of the Project Update types. This will recalculate the Project's Projected and Planned timelines when the nightly recalculation process runs and when any update is made to the Project or Tasks within the Project.
+
+For more information, see Select the project Update Type .
+
+Automatic Only
+
+One of the Project Update types. This will recalculate Projected and Planned timelines when the nightly recalculation process runs.
+
+For more information, see Select the project Update Type .
+
+BAU
+
+"Business as usual" work that contributes to running the everday primary business goals.
+
+Backlog
+
+The area in an agile environment where new issues are kept until they are ready to be worked on.
+
+Baseline
+
+A source of data to measure iterations against in an agile environment.
+
+Billing Record
+
+Records the revenue, hours, or expenses that can be billed. This information can be used to create invoices in an external accounting system.
+
+For more information, see Create billing records.
+
+(NOTE: Combined from Taxonomy: take hours and expenses recorded in Workfront and create invoices in an external financial system.)
+
+Branding
+
+The process of customizing Workfront to give the interface an appearance that mirrors your company by using your colors and logos.
+
+Breadcrumbs
+
+The area at the top of the page that shows the hierarchical location of where the user is in the application.
+
+For more information, see Breadcrumbs overview in the new Adobe Workfront experience.
+
+Budget Status
+
+This is a deprecated field. Any information that this field might display is related to a feature that Workfront has removed. This field cannot be updated.
+
+This field shows whether the project was added to the Capacity Planner and if the budget calculation has been completed for it. The Capacity Planner has been removed from Workfront.
+
+*   If the project is not added to the capacity planner, its value is _Not Included_. 
+*   If the project is added to the Capacity Planner but is excluded from the budget calculation, the value is _Included but not Calculated_. 
+*   If the project is added to the Capacity Planner and included in the budget calculation, the value is _Included and Calculated_.
+
+Budgeted Completion Date
+
+This is a deprecated field. Any information that this field might display is related to a feature that Workfront has removed. This field cannot be updated.
+
+The field is still visible in project and task reports and lists. 
+
+This is a deprecated field that shows the date when the budgeting of resources ends, as defined in the Legacy Resource Estimates area of the Business Case of a project, or the Capacity Planner. The field is available in project and task reports. 
+
+Budgeted Cost
+
+This is the cost associated with budgeting resources for a project.
+
+The field displays in the following areas of Workfront under the following names:
+
+*   **Budgeted Cost**: in the Business Case Summary panel.
+    
+*   **Cost**: in the Utilization areas when viewing information by Cost.
+    
+*   **Project Budgeted Cost**: in lists and reports
+    
+
+The Budgeted Cost or the Project Budgeted Cost for the project is calculated using the following formula:  
+
+`Project Budgeted Cost (or Budgeted Cost)= Budgeted Expense Cost + Budgeted Labor Cost + Fixed Cost of the project`
+
+For more information about calculating Project Budgeted Cost and to understand various names for this concept in Workfront, see the article Calculate Project Budgeted Cost.
+
+The Budgeted Labor Cost in the calculation above may refer to either of the following fields:
+
+*   Labor costs for hours budgeted in the Resource Budgeting area of the Business Case of the project (or in the Resource Planner).
+    
+*   Labor costs for hours budgeted in the Legacy Resource Estimates area of a project (or in the Capacity Planner)
+    
+    **Important:** This is a deprecated field. Any information that this field might display is related to a feature that Workfront has removed. This field cannot be updated.
+    
+
+You can locate the Budgeted Cost field based on the hours budgeted in the Resource Planner in the following areas and reports in Workfront:
+
+*   Business Case Summary
+*   Portfolio Optimizer (in the Cost field)
+*   In the following reports, in the Project Budgeted Cost field:
+    
+    *   Resource Estimates report
+    *   Budgeted Hour report
+    *   Project report
+    *   Project (Financial Data)
+    *   Task report
+    *   Issue report
+
+You can locate the Budgeted Cost field based on the hours formerly budgeted in the Capacity Planner or Legacy Resource Estimates area of the Business Case in the reports listed below.
+
+**Important:** The Capacity Planner and Legacy Resource Estimates areas have been removed from Workfront. You cannot update any information that might display in these fields.
+
+*   Resource Estimates report (in the Project: Budgeted Cost field)
+*   Budgeted Hour report
+*   Project report
+*   Project (Financial Data) report
+*   Task report
+*   Issue report
+
+Budgeted Hours
+
+The hours budgeted for resources for the work they need to complete on projects. This field refers to the hours budgeted in the Resource Budgeting area of the Business Case (or in the Resource Planner) for the project or for the project resources.
+
+For more information, see Understand Budgeted Labor Cost and Budgeted Hours for projects.
+
+*   Hours that were formerly budgeted in the Legacy Resource Estimates area of a project (or in the Capacity Planner)
+    
+    **Important:** This is a deprecated field. Any information that this field might display is related to a feature that Workfront has removed. This field cannot be updated.
+    
+
+For information about budgeting Users in the Resource Planner, see the article Budget resources in the Resource Planner using the Project and Role views.
+
+The hours budgeted in the Resource Budgeting area of the Business Case or the Resource Planner display in the following areas of Workfront and under the following names:
+
+*   Hours: Resource Budgeting area of the Business Case
+    
+*   BDG: Resource Planner viewed by Hours
+    
+*   Budgeted Hours: Utilization report Hours view
+    
+    For information, see View resource utilization information .
+    
+*   **Bud. Hours**: Budgeted Hour report
+    
+    The Budgeted Hour object in the Budgeted Hour report refers to information related to a deprecated resource management tool. Only the "Bud. Hours" field in this report refers to the hours budgeted in the Resource Planner or the Resource Budgeting area of the project's Business Case.
+    
+*   For more information about creating a report, see the article Create a custom report.
+    
+*   Resource Planner Budgeted Hours: in the following reports:
+    
+    *   Project report
+        
+    *   Project (Financial Data) report
+        
+    *   Task report
+        
+    *   Issue report
+        
+    *   Budgeted Hour report
+        
+
+**Note:** Any other mention of "Budgeted Hours" in Workfront refers to hours budgeted using deprecated features that have been removed from Workfront . These are view-only fields and do not update with current information when you use current resource budgeting tools.
+
+You can locate the Budgeted Hours from theResource Planner in the areas and reports listed below.
+
+*   Resource Planner Hours view (in the BDG column)
+*   Utilization report Hours view
+*   Resource Budgeting area of the Business Case (in the Hours field)
+*   Budgeted Hour report (the Bud. Hours field refers to hours budgeted for users; the Pln. Bud. Hours field refers to hours budgeted for roles or projects)
+*   Resource Estimates report (in the Project: Budgeted Hours field)
+
+The fields listed below display in the reports listed and are hours formerly budgeted in the Capacity Planner or the Legacy Resource Estimates area of the Business Case.
+
+**Important:** The Capacity Planner and Legacy Resource Estimates have been removed from Workfront. You cannot update any information that might display in these fields.
+
+*   Capacity Planner
+*   Legacy Resource Estimates area of the Business Case (in the Hours field)
+*   Resource Estimates report (in the Bud. Hours field)
+*   Budgeted Hour report (in the Budgeted Hours field)
+*   Project report (in the Budgeted Hours field)
+*   Project (Financial Data) report
+*   Task report (in the Project: Budgeted Hours field)
+*   Issue report (in the Project: Budgeted Hours field)
+
+Budgeted Labor Cost
+
+This is the cost associated with the hours that you, as the Resource Manager, budget for your job roles for the work they need to complete on projects.
+
+The Budgeted Labor Cost in a project report is calculated using the following formula:
+
+`Budgeted Labor Cost = SUM(Job Role Cost per Hour * Budgeted Hours per Job Role)`
+
+This field may refer to the following:
+
+*   Labor costs displayed in the Resource Budgeting area of the Business Case or in the Resource Planner that are associated with the cost of job roles on a project. For information about calculating the Budgeted Labor Cost, see the article Understand Budgeted Labor Cost and Budgeted Hours for projects . 
+    
+*   Labor costs displayed in the Resource Budgeting area of the Business Case that reflect the People Costs estimated in an initiative linked to the project from the Scenario Planner when you use the Scenario Planner to budget your project resources. For information about initiatives, see Initiatives overview in the Scenario Planner.
+    
+    **Note:** The Scenario Planner is available only in the new Adobe Workfront experience and requires an additional license. For information about the Workfront Scenario Planner, see The Scenario Planner overview.
+    
+
+It displays in the following areas of Workfront under the following names:
+
+*   **Budgeted Labor Cost**: in the Resource Budgeting area of the Business Case.
+    
+*   **Budgeted Cost**: in the Utilization report Cost view
+    
+    For more information, see View resource utilization information .
+    
+*   **BDG**: in the Resource Planner Project or Role views, when viewing by Cost
+    
+*   Resource Planner **Budgeted Labor Cost**: in the following reports:
+    
+    *   Project report
+        
+    *   Project (Financial Data) report
+        
+    *   Task report
+        
+    *   Issue report
+        
+    *   Budgeted Hour report
+        
+
+For information about creating a report, see the article Create a custom report.
+
+*   Labor costs for hours budgeted in the Legacy Resource Estimates area of a project (or in the Capacity Planner). This was available only in Adobe Workfront Classic.
+    
+
+**Important:** This is a deprecated field. Any information that this field might display is related to a feature that Workfront has removed. This field cannot be updated.
+
+You can locate the Budgeted Labor Cost field based on the hours budgeted in the Resource Planner in the following areas and reports in Workfront:
+
+*   Resource Planner Cost view (in the BDG column)
+*   Utilization report Cost view (in the Budgeted Cost column)
+*   Resource Budgeting area of the Business Case
+
+You can locate the Budgeted Labor Cost associated with resources budgeted in the Resource Planner in the Resource Planner Resource Budgeted Cost field in the following reports:
+
+*   Budgeted Hour report
+*   Project report
+*   Task report
+*   Issue report
+
+You can locate a Budgeted Labor Cost field that contains information from a tool that has been deprecated in the reports listed below. You can no longer update the fields displayed in these reports and budgeting your resources on the projects does not update them:
+
+*   Resource Estimates report
+*   Budgeted Hour report
+*   Project report
+*   Task report
+*   Issue report
+
+For more information about calculating the Budgeted Labor Cost, see the article Understand Budgeted Labor Cost and Budgeted Hours for projects . 
+
+Budgeted Start Date
+
+This is a deprecated field. Any information that this field might display is related to a feature that Workfront has removed. This field cannot be updated.
+
+The field is still visible in project and task reports and lists. 
+
+This field shows the date when the budgeting of resources starts, as defined in the Legacy Resource Estimates area of the Business Case of a project, or the Capacity Planner. 
+
+**Important:** These areas have been removed from Workfront.
+
+Burndown Chart
+
+A line chart that provides a visual representation of completed and remaining work.
+
+Business Case
+
+A tool used to evaluate whether a project should be moved forward from the Idea status to the Planning status. In other words, a business case helps the organization decide whether it is worthwhile to launch and complete the project or not, especially when comparing projects with others in a portfolio.
+
+For more information, see Create a Business Case for a project .
+
+Business Case Budgeted Hours
+
+This is a deprecated field. Any information that this field might display is related to a feature that Workfront has removed. This field cannot be updated.
+
+The field is still visible in project and task lists and reports.
+
+Calculated Assignment
+
+One of the task Duration Types. This will calculate the percentage of an 8-hour work day that the user assigned to the task will be allocated to the task, based on the Duration of the task and the Work Required.
+
+For more information, see Overview of Task Duration and Duration Type.
+
+Calculated Work
+
+One of the task Duration Types. This will calculate the WOrk Required on a task, given the Duration and the user Assignment percentages (which are based on an 8-hour work day).
+
+For more information, see Overview of Task Duration and Duration Type.
+
+Calendar
+
+There are two types of calendars in Workfront: the Home Calendar and calendar reports.
+
+The Home Calendar is a personal calendar that allows a user to manage their workload against their available hours in Workfront. The user can also integrate their Home Calendar with Outlook (Google and Microsoft integration to come).
+
+For more information about the Home Calendar, see Home Calendar view.
+
+A calendar report is a dynamic report in which users can view the date and other important details of an event, including the due date, status of work, and the user to whom the event is assigned.
+
+For more information about calendar reports, see Calendar reports overview.
+
+Calendar Report
+
+ 
+
+Can Start
+
+This field indicates whether a task is ready to start to be worked on. If the start is ready to be worked on the Can Start field on the task is set to True.
+
+For more information, see "Can Start" overview for tasks.
+
+(NOTE: everything below is drafted because I created a new article linked above with all this information - it was getting kind of too big for just a table cell)
+
+Workfront checks for the following things before it marks a task as True for the Can Start field:  
+
+*   If the task has a parent, it checks to see if the value of Can Start for the parent it set to True. If the value for the parent is False, then all the subtasks have the value of Can Start set to False, as well. 
+*   It also checks to see if the predecessors of the task as well as the predecessors of their parents are complete. If they are complete, the Can Start value for the task is set to True. If any of the task predecessors or their parents' predecessors are not complete, or have a status of Complete-Pending Approval, then the Can Start value for the task is set to False. 
+
+For information about task predecessors, see Overview of task predecessors.
+
+**Tip:** If the Dependency Type between a task and its predecessors is Start-Start, the predecessor must start before the predecessor relationship is considered resolved and the successor tasks can start. For information about dependency types, see Overview of task dependency types.
+
+Capacity
+
+The total availability (measure in either hours or FTE) of a designated user, resource pool, team, rob role, or company.
+
+Category
+
+A category is a custom form. You can build reports for this object and you can show it in other object reports, as well. Not all objects can have a custom form, or category. The following objects can have a custom form:   
+
+*   Project
+*   Task
+*   Issue
+*   Portfolio
+*   Document
+*   Expense
+*   Program
+*   User
+*   Company
+
+Iteration
+
+Category Name
+
+When added as a column to the view of any of the following objects it displays a list of all custom forms associated with these objects:
+
+*   Project
+*   Task  
+    
+*   Issue  
+    
+*   Portfolio  
+    
+*   Document  
+    
+*   Expense  
+    
+*   Program  
+    
+*   User  
+    
+*   Company
+*   Iteration
+
+Change Management
+
+A practice area focused on defining, understanding, and adapting planned work to changes in scope, schedule, cost, and resource factors.
+
+Change Order
+
+A type of issue raised against a project that outlines a requested change to the agreed scope.
+
+Change Only
+
+One of the Project Update Types. It only updates Project Projected and Planned timelines when Updates are made to Tasks or edits are performed on the Project or Tasks.
+
+Change Order
+
+One of the Issue types, usually indicating that an unplanned amount of work must be done before the project can be completed.
+
+For more information on Issue types, see the section "Default issue types" in the article Customize default issue types.
+
+Child Task
+
+A task that is a Subtask of a Parent Task (Summary Task).
+
+Children
+
+The collection of Subtasks to a Parent Task (Summary Task).
+
+Coaching and Training
+
+Learning modules, certifications, standards, or a community of practice.
+
+Commit
+
+A communication tool for users to set expectations regarding task deliverables.
+
+Commit Date
+
+A communication tool for user's to set expectations around task deliverables.
+
+Communication and Reporting
+
+Standards to review the exceptions and health of a project, program, or portfolio
+
+Company
+
+A Company is an organizational unit in Workfront.
+
+You can associate a user or a project with one company. For more information, see Create and edit companies.
+
+An organizational unit in Workfront that can define a user's financials, permissions, access and organizational hierarchy. (NOTE: From Taxonomy)
+
+Completion date
+
+The date that a project, task, or issue is set to be completed. There are several types of Completion dates in Workfront:
+
+*   Actual Completion Date. For more information, see Overview of the project Actual Completion Date .
+*   Planned Completion Date. For more information, see Set the project Planned Completion Date and Overview of the task Planned Completion Date.
+*   Projected Completion Date. For more information, see Overview of the Projected Completion Date for projects, tasks, and issues.
+
+Completion Day
+
+The day, relative to the start of the Template, that a Template Task or a Template is supposed to be complete.
+
+Completion Mode
+
+This indicates how a project will be marked as Complete. It can have two values:
+
+*   Manual: A user must change the project status to Complete.
+*   Automatic: The project status will automatically change to Complete when all of the tasks in the project are 100% Complete and all of the issues are closed.
+
+Condition
+
+This is a visual representation of the progress of a task, issue or project. 
+
+For projects, the condition can be manually set by the project owner or it can be automatically set by Workfront, based on the progress status of the project.
+
+The possible values for the project condition are:
+
+*   On Target
+*   At Risk
+*   In Trouble
+
+For more information about project condition, see the article Overview of Project Condition and Condition Type. 
+
+For tasks, the condition is set manually by the task owner. The possible values for the task condition are:
+
+*   Going Smoothly  
+    
+*   Some Concerns  
+    
+*   Major Roadblocks
+
+For more information about task condition, see the article Update Condition for tasks and issues.
+
+For issues, the condition is set manually by the issue owner. The possible values for the task condition are:  
+
+*   Going Smoothly  
+    
+*   Some Concerns  
+    
+*   Major Roadblocks
+
+Condition Update
+
+This field shows the current condition of tasks, projects or issues. This option shows the most recent updates that the owners of tasks, projects or issues have provided in the Update Status field, along with the new condition. 
+
+Comments made on condition updates are not displayed in the Condition Update column; only the main update is displayed.
+
+Constraint Date
+
+If you are using a Task Constraint that is tied to a specific date, such as Must Start On, then that specific date becomes the Constraint Date of the task.
+
+The following task constraints update the Constraint Date field:
+
+*   Must Start On
+*   Must Finish On
+*   Start No Later Than
+*   Start No Earlier Than
+
+**Tips:**
+
+*   A task with a Constraint of Fixed Dates has no Constraint Date.
+    
+*   Constraint Date is only viewable in a report or customized view.
+    
+
+Constraint Day
+
+If you are using a Task Constraint in a template task that is tied to a specific day, such as Must Start On, then that specific day becomes the Constraint Day of the template task. 
+
+The following task constraints update the Constraint Day field:
+
+*   Must Start On
+*   Must Finish On
+*   Start No Later Than
+*   Start No Earlier Than
+
+**Tip:** Constraint Day is only viewable in a report or customized view.
+
+Constraint Type
+
+The scheduling tendency of a Task. For example, As Soon as Possible will schedule a Task to begin as soon as possible, and Finish No Later Than will schedule a Task to finish by the Constraint Date and no later.
+
+For more information, see Task Constraint overview.
+
+Contextual Menu
+
+A menu, located on the left side of the screen, on which the items change to correlate with the active content. For example, when a user is viewing a Project, the Contextual Menu will display links to Project-related information and tools.
+
+Converted Issue Originator
+
+A field in a project or task report that displays information about the user who is the Primary Contact of an issue when the issue is converted into a project or task. The field also displays in the Project Details section where it displays the name of the Primary Contact of the converted issue.
+
+Cost
+
+The monetary amount that you must spend when completing a project, task, or issue.
+
+You can track various types of costs for labor, expenses, risks that relate to the project. For information about tracking costs in Workfront see Track costs.
+
+A measurement of the amount of time and effort for work (NOTE: From Taxonomy)
+
+Cost Type
+
+For a task, the Cost Type determines how the task will accrue costs. Some examples include Fixed Hourly, User Hourly, and User Hourly plus Fixed.
+
+Cross-Project Dependencies
+
+A task of one project is dependent on a task from a different project.
+
+For more information, see Create cross-project predecessors.
+
+Custom Data
+
+Data that is unique to an organization. Organizations can customize the Workfront application by creating custom forms and custom fields. This custom information can drive reporting for KPIs, auditing, and demand mix.
+
+Custom Data can be linked to:
+
+*   Projects
+*   Tasks
+*   Users
+*   Companies
+*   Issues
+*   Documents
+*   Expenses
+*   Portfolios
+*   Programs
+*   Iterations
+
+Custom Data Type
+
+The option to specify if a Custom Data Field is stored in the database as Text, a Date, a Number, or Currency.
+
+Custom Display Type
+
+The field display type of a custom field. Examples include Drop-Down, Text Field, Text Area, Radio Buttons, etc.
+
+Custom Field
+
+For Custom data that allow the user to select from several options, these are the values from which a User can select. Custom Options are only valid on Drop-Down, Multi-Select Drop-Down, Radio Buttons, and Checkboxes.
+
+Custom Form Label
+
+When using a Custom Display Type with Custom Options, this is the User Interface text that will display in the Drop-Down menu, the Checkboxes, or the Radio Buttons for that Custom Option.
+
+Custom Value
+
+When using a Custom field with Custom Options, this is the value that will be store in the database for a particular Option.
+
+Custom View
+
+A definition of the data fields, or columns, that are displayed for each object in a list.
+
+Customer
+
+An organization that uses an instance of Workfront.
+
+D - F
+-----
+
+ 
+
+Object Name
+
+Description
+
+Dashboards
+
+You can add this field in a report or a list of the report object, to display the dashboards on which the report is listed in a list.
+
+You can use this field to filter for reports that are listed on a specific dashboard, as well.
+
+For more information about including dashboard information on report object reports, see the “Understanding What Reports Are Listed on Dashboards” section in the article Access and organize reports
+
+Data Type
+
+See _Custom Data Type_.
+
+Days Late
+
+This field shows a date difference between Planned Start and Today if the Actual Completion Date is missing.
+
+Also shows a date difference between Actual Completion and Planned Completion, when an Actual Completion Date is present.
+
+Default Schedule
+
+Customizable default working hours to be assigned to users and projects within an organization.
+
+Schedules are used to calculate the planned, start, and completion dates of tasks that are assigned to users.
+
+Deliverable
+
+Quantifiable goods or services that must be provided upon the completion of a project.
+
+Demand Management
+
+Scoring and prioritization of the intake processes.
+
+Department Goals
+
+Goals unique to a specific department that focus on improving operational metrics within the department.
+
+Dependency
+
+The link between two tasks that require one task to change status before the other task can also change status.
+
+Dependency Type
+
+The type of scheduling relationship between a task and its predecessor(s). One example is Finish-Start, which requires that the fist task must Finish before the second task can Start.
+
+For more information, see Overview of task dependency types.
+
+Document
+
+Any file that is attached to an object within Workfront.
+
+Document Version
+
+Each time the same document is uploaded to the same object, it is assigned a version number. Users can view and change several options for a previous version of a document.
+
+For more information, see Manage document versions.
+
+Duration
+
+The window of time allocated for completion of a task issue, or project (as determined by the number of days between the Planned Start and the Planned Completion). (NOTE: From Taxonomy)
+
+*   For tasks, the Duration is an editable field if the Duration Type of the task is not Simple. If the Duration Type of the task is Simple, or if the Task Constraint is Fixed Dates, the Duration is a calculation performed by Workfront. 
+*   For issues, the Duration is always an editable field and it should represent an estimate of a number of days that would require the issue to be resolved. 
+*   For projects, the Duration is a calculation performed by Workfront and it represents the difference in days between the Planned Start of the earliest task and the Planned Completion of the latest task on the project. 
+
+For more information about the difference between Duration and Planned Duration for tasks, see the article Difference between Planned Duration and Duration for tasks.
+
+Duration in Minutes
+
+This field displays the same information as the Duration field in minutes instead of days.
+
+Duration per Occurrence
+
+This displays in the Task Details and the Edit Task boxes of a parent of recurring tasks. It displays the duration of each recurring task. For information about creating recurring tasks, see Create recurring tasks.
+
+**Note:** Durations modified in individual recurring tasks do not display the value indicated in this field.
+
+Duration Type
+
+A task field that indicates how the work required to complete the task is allocated to the assignees across the task duration. It represents the relationship between the Duration of the task, the Work Required, and the amount of time, or Allocation, the assigned resources should spend on the task to complete it.
+
+This field appears on the Details tab of a task.
+
+Option are:
+
+*   Calculated assignment
+*   Calculated Work
+*   Effort Driven
+*   Simple
+
+For more information, see Overview of Task Duration and Duration Type.
+
+Task field used by the planner to set how the work required is allocated to the assignees across the duration.
+
+Duration Unit
+
+The unit that is used to measure time in a power search.
+
+Effort Driven
+
+The relationship between the number of users and the amount of time the task will take to complete. As you add more users, the total time scheduled for the task to complete decreases, but the duration of the task stays the same. For example if a task is shelling a barrel of peanuts, adding more people will decrease the time scheduled, but the duration in person-days will remain the same.
+
+Elapsed Time
+
+Elapsed time is a unit of time for a task's Duration. It is the time between the Planned Start Date and the Planned Completion Date of a task that includes holidays, weekends, and time off. In other words, elapsed time is the passage of calendar days.
+
+Workfront supports the following elapsed time units for task duration:
+
+*   Elapsed Minutes
+    
+*   Elapsed Hours
+    
+*   Elapsed Days
+    
+*   Elapsed Weeks
+    
+*   Elapsed Months
+    
+
+For more information about task duration, including elapsed time, see Overview of Task Duration and Duration Type.
+
+End Date
+
+In a Rate report, this is the date when a new billing rate for a job role at the project level ends. The hours associated with the project that are before this date are multiplied by this billing rate to calculate the revenue on the project.
+
+Engagement
+
+The Work Performance Indicator (WPI) that indicates when commitment and belief in the task, project, team, or organization is waning. This indicates that you need to act to revive that belief and commitment. WPI would be measured by asking the simple questions, “Did you understand what was expected of you? Did the work you were assigned make a difference to the organization? Did you do great work?”
+
+Enterprise Goals
+
+Cross-functional goals that contribute to the metrics of the company goals.
+
+Event
+
+Any change in a project or task.
+
+Event Handler
+
+Automated tasks that occur when Events take place. A common example is an automated email notification.
+
+Event notification
+
+Email that is generated from an event handler.
+
+Expenses
+
+A non-labor cost on tasks or projects.
+
+External
+
+Typically, a license type, or a user with such a license, which only has the ability to review information in the system.
+
+For more information, see Adobe Workfront licenses overview.
+
+External System
+
+Any services or software that is stored and governed outside the designated system of record.
+
+Filter
+
+One of the main building blocks of a report or a list element that defines what information displays on the screen. For more information about reporting elements, see Reporting elements: filters, views, and groupings.
+
+The Filter determines the results that display in a report or on an Workfront panel listing, like projects, tasks, or issues.
+
+Financial Work Management
+
+Process to manage labor costs, expenses, and revenue data in Workfront.
+
+Fixed Cost
+
+You can define a fixed amount of cost for a project. This is part of the Planned Cost of the project which represents the amount of money that you need to complete the project. For information about costs, see Track costs.
+
+Fixed Revenue
+
+You can define a fixed amount of revenue for a project. This is part of the Planned Revenue of the project which represents the amount of money that you might obtain if you complete the project. For information about revenue, see Overview of Billing and Revenue.
+
+Flags
+
+This is the same field as Status Icons, but it is only available for the following views:
+
+*   Templates
+*   Expenses
+
+For more information, see the article Built-in Status Icons in Views.
+
+Folder
+
+Folders are used to organize documents or reports associated with an object.
+
+FTE
+
+The designated full time equivalency for users. A full-time user should have 100% FTE and part-time user should have a percentage that equals their working hours.
+
+G - I
+-----
+
+ 
+
+Object Name
+
+Description
+
+Gantt Chart
+
+A visual timeline of the project dates in a calendar view based on the planned or projected dates as the tasks of the project are currently scheduled.
+
+Goal
+
+(NOTE: this stays in both NWE and Classic >> because goals information is visible in reports in classic too!)
+
+There are two concepts of goals in Workfront:
+
+*   A set of business objectives agreed to by the relevant stakeholders. Project goals are part of the Business Case of a project.
+    
+    You cannot display project goals in lists or reports but you can access them through the API.
+    
+    For information about Business Case project goals, see Create Business Case goals .
+    
+*   A strategic goal is an objective that you create to plan your work strategy for a specific time-period. You can create these types of goals using Workfront Goals. Your organization must purchase an additional license and you must have access to this feature to be able to create strategic goals. Workfront Goals are available only in the new Adobe Workfront experience. (NOTE: stays in both QS and classic)
+    
+    For more information, see [Workfront Goals overview](https://one.workfront.com/s/document-item?bundleId=the-new-workfront-experience&topicId=Content%2FWorkfront_Goals%2FGoal_management%2Fwf-goals-overview.htm&_LANG=en).
+    
+    You can display strategic goals in a goal or a project report and access them through the API.
+    
+
+Goal Hierarchy
+
+(NOTE: stays in both QS and classic)
+
+In Goal and Project reports, this is a collection field that displays the goals in the hierarchy that a strategic goal belongs to when it aligns to other goals. The goals are separated by a ▸ delimiter.
+
+Only the parents of the goal and the goal display in this field. Children goals do not display.
+
+For information about aligning goals in Workfront Goals, see [Goal alignment overview in Workfront Goals](https://one.workfront.com/s/document-item?bundleId=the-new-workfront-experience&topicId=Content%2FWorkfront_Goals%2FGoal_alignment%2Fgoal-alignment-overview.htm&_LANG=en).
+
+This field is visible only if your organization has purchased Workfront Goals. For information about managing strategic goals using Workfront Goals, see [Workfront Goals overview](https://one.workfront.com/s/document-item?bundleId=the-new-workfront-experience&topicId=Content%2FWorkfront_Goals%2FGoal_management%2Fwf-goals-overview.htm&_LANG=en). (NOTE: Link is hard coded to work both in QS and classic)
+
+Goal Success Score
+
+In a Project report this field used to refer to project-level goals associated with the Business Case. Currently, this is a deprecated field and is not associated with any functionality.
+
+Goals
+
+(NOTE: stays in both QS and classic)
+
+In a Project report, this is a collection field that displays all the goals that are associated with a project. The goals are separated by commas.
+
+This field is visible only if your organization has purchased Workfront Goals. For information about managing strategic goals using Workfront Goals, see [Workfront Goals overview](https://one.workfront.com/s/document-item?bundleId=the-new-workfront-experience&topicId=Content%2FWorkfront_Goals%2FGoal_management%2Fwf-goals-overview.htm&_LANG=en). (NOTE: Link is hard coded to work both in QS and classic)
+
+Global Interface Preferences
+
+Interface settings that affect all users. Global Interface Preferences can be overwritten by the User Interface Preferences.
+
+Group
+
+A collection of users (possibly from the same department or business unit) that have access to the same objects. In addition to users, groups can be associated with portfolios, programs, projects, project templates, companies, teams, schedules, layout templates, and timesheet profiles.
+
+You can also grant permissions to objects by group. For more information, see Groups overview.
+
+In a list or report of objects of one of the following types, you can use the Group field to list which objects of that type are associated with a particular group: user, portfolio, program, project, project template, company, team, schedule, layout template or timesheet profile.
+
+Group Administrator
+
+Users who manage the objects, access, and users of designated user groups.
+
+In a Group report, this field displays the names of the users designated as Group Administrators in the Group. For more information about Group Administrators, see Group administrators.
+
+Group with Administration Access
+
+In a Layout Template, Timesheet Profile, or Schedule report, this field displays the Groups whose Group Administrators have access to modify the template. You can also filter this report by this field.
+
+For more information, see Create and manage layout templates.
+
+Grouping
+
+A reporting element used to categorize information in a list by a common criterion.
+
+For more information, see the "Groupings" section in the article Reporting elements: filters, views, and groupings.
+
+Handoff Date
+
+The date when a task becomes available for work. The Handoff Date is a calculation and cannot be set manually.  
+For more information about the Handoff Date, see the article Task Handoff Date overview.
+
+Help Desk
+
+The portion of Workfront that holds all issue queues. The Help Desk can be used to process customer support tickets, project requests, help desk tickets, etc. This is the same as the Requests area.
+
+Owner
+
+In an Hour report, the Owner is the user to whom the hours are attributed. This is different than the user who is actually logging the time. These two entities can sometimes be two different users.  
+For more information about logging time for another user, see the article Log time.
+
+Hour Type
+
+An attribute that can be set for Actual Hours that users log for tasks, issues, or projects. This is also an attribute for the hours logged that are not directly linked to work, such as Vacation and Time Off.
+
+For more information, see Manage hour types.
+
+ID
+
+The ID is an alphanumeric indicator associated with every object in Workfront. It uniquely identifies each object in the Workfront database. You can view the ID of any object in a report or a list for each object.
+
+**Tip:**
+
+You can also view the ID in the URL of the object's page. For example, the ID of a project might look something like the number outlined in the following URL, when you access the Project Details page:
+
+`https://<your domain>.my.workfront.com/project/**5e29c8010027d8eb334762d4fff3ffca**/overview`
+
+Individual Goals
+
+Individual goals which contribute to the metrics of the team goals, but not related to personal or career development.
+
+Inherited Access
+
+Sharing function that allows access to propagate from object to another. For example, project user's inherit access defined in program and portfolio records.
+
+Initiative
+
+In the Workfront Scenario Planner, you can divide a plan into several initiatives to make it easier to manage the plan. You can build an Initiative report and you can access Initiative information in a Project report.
+
+The Scenario Planner is available only in the new Adobe Workfront experience and requires an additional license. For information about the Workfront Scenario Planner, see The Scenario Planner overview.
+
+The Initiative report is not visible in your Workfront instance unless your company has purchased a Workfront Scenario Planner license.
+
+Initiative Job Role
+
+The Initiative Job Role report type displays information about the job roles associated with a plan initiative in the Workfront Scenario Planner.
+
+The Scenario Planner is available only in the new Adobe Workfront experience and requires an additional license. For information about the Workfront Scenario Planner, see The Scenario Planner overview.
+
+This report type is not visible in your Workfront instance unless your company has purchased a Workfront Scenario Planner license. For information about initiatives in the Scenario Planner, see [Initiatives overview in the Workfront Scenario Planner](https://one.workfront.com/s/csh?context=2066&pubname=the-new-workfront-experience).
+
+Initiative Job Role Hours
+
+In an Initiative Job Role report, this displays the number of hours associated with a job role in an initiative.
+
+The Scenario Planner is available only in the new Adobe Workfront experience and requires an additional license. For information about the Workfront Scenario Planner, see The Scenario Planner overview.
+
+This field and the Initiative Job Role report type are not visible in your Workfront instance unless your company has purchased a Workfront Scenario Planner license.For information about initiatives in the Scenario Planner and associating them with job roles, see [Create and edit initiatives in the Workfront Scenario Planner.](https://one.workfront.com/s/csh?context=2061&pubname=the-new-workfront-experience)
+
+Initiative Job Role Count
+
+In an Initiative Job Role report, this displays the number of a specific job role associated with an initiative.
+
+The Scenario Planner is available only in the new Adobe Workfront experience and requires an additional license. For information about the Workfront Scenario Planner, see The Scenario Planner overview.
+
+This field and the Initiative Job Role report type are not visible in your Workfront instance unless your company has purchased a Workfront Scenario Planner license. For information about initiatives in the Scenario Planner and associating them with job roles, seeCreate and edit initiatives in the Scenario Planner
+
+Initiative Last Published Date
+
+A field in an Initiative, Initiative Job Role, and Project reports that displays the date that a plan initiative was last published to a project. You can publish initiatives to create projects or to update projects linked to the initiatives.
+
+The Scenario Planner is available only in the new Adobe Workfront experience and requires an additional license. For information about the Workfront Scenario Planner, see The Scenario Planner overview.
+
+For information about publishing initiatives, see [Publish scenarios to create and update projects in the Workfront Scenario Planner](https://one.workfront.com/s/csh?context=2153&pubname=the-new-workfront-experience). This field is not visible in your Workfront instance unless your company has purchased a Workfront Scenario Planner license.
+
+Inline Search
+
+A search performed, in the process of completing a form, to find possible entries for one specific field.
+
+Interface Setup
+
+The area of the application that allows defining Custom Views, Filters, Groupings, List Controls, etc.
+
+Is Company
+
+Goal
+
+(NOTE: it stays in both QS and classic)
+
+In goal reports, this displays a "True/ False" value for each strategic goal to indicate whether your organization is assigned to the goal as its owner.
+
+(NOTE: link in the second snippet below is hard-coded for Goals)
+
+This requires an additional license. For information about Workfront Goals, see Adobe Workfront Goals overview.
+
+This field is visible only if your organization has purchased Workfront Goals. For information about managing strategic goals using Workfront Goals, see [Workfront Goals overview](https://one.workfront.com/s/document-item?bundleId=the-new-workfront-experience&topicId=Content%2FWorkfront_Goals%2FGoal_management%2Fwf-goals-overview.htm&_LANG=en). (NOTE: Link is hard coded to work both in QS and classic)
+
+Issue
+
+An unplanned work item that usually indicates that there is a problem preventing the completion of a task or project. It is triaged and evaluated for further work effort consideration
+
+An Issue can also be a Help Desk request. Change Orders, Requests, and Bugs are also Issues.
+
+Issue Management
+
+The process and rules governing the definition of issue types and the routing, triage, or traffic process associated with each type.
+
+Issue Owner
+
+The team or users responsible for triaging and completing an issue.
+
+Iteration
+
+A period of time in which a team produces a pre-defined set of deliverables.
+
+J - L
+-----
+
+ 
+
+Object Name
+
+Description
+
+Job Role
+
+Used to identify a user's day-to-day job functions and responsibilities. Job roles can be assigned to work items to identify the required skill needed to complete a work process without assigning it to a specific user.
+
+A user can have more than one role. Examples include Graphic Designer or Consultant.
+
+For more information, see Create and manage job roles.
+
+Journal Entry
+
+A reportable object that tells you information about system updates for tracked fields that appear in the Updates area of projects, tasks, issues, and other objects.
+
+To learn more, see Report on the Updates area.
+
+Kanban Flag
+
+In a Task Report or Issue Report, the Kanban Flag field displays the flag status that is set on the story on the Kanban board. Possible values are On Track, Ready to Pull, and Is Blocked.
+
+For more information about setting flag status on stories on the Kanban story board, see  the article Use flags on stories on the Kanban board.
+
+KPIs
+
+A measurable value that demonstrates how effectively a company is achieving key business objectives.
+
+Lag
+
+Amount of time that must pass after the predecessor task's Planned Completion Date has passed until the dependent task can begin.
+
+Lag Types
+
+The method of calculating the Lag. It can be:
+
+*   Days (work days)
+*   Calendar Days (ignore holidays)
+*   Percent
+*   Day of Week
+
+For more information, see the section "Lag Types overview" in Overview of Lag Types
+
+Large Thumbnail
+
+In a Document list or report, it displays a preview of the document in a thumbnail.
+
+Select Large Thumbnail to view a 400 pixel-wide thumbnail in the report.
+
+The size of the thumbnail adjusts when you modify the width of the column in a list or report.
+
+See also "Thumbnail" in this document.
+
+Last 10 Viewers
+
+In a report list, this field displays the names of up to 10 users who have viewed the report most recently.  
+For more information about usage information in report lists, see the article View report usage.
+
+Last Condition Note
+
+This field displays the update last entered on an object by the owner of the object, This is the owner's most recent activity or interaction on an object.
+
+The Last Condition Note column is empty if the note text of the last note of an object has been deleted. When a new note is entered on the object, it becomes the last note and it displays again in the column. 
+
+Last Finance Update Date
+
+In a project report, this field captures the date and the time when the project finances were last calculated and updated. For information about project finances, see Project finances overview.
+
+Last Note
+
+This field displays the update last entered on an object by any user. This is the most recent activity or interaction on an object.
+
+The Last Note column is empty if the text of the last note of an object has been deleted. When a new note is entered on the object, it becomes the last note and it displays again in the column.
+
+(NOTE: Follow up and see if this is fixed after New Reporting releases.)
+
+**Note:** When this field is added to a Task report, any updates left on child objects—such as issues, subtasks, documents, etc.—of the task do not display in this column.
+
+Last Viewed By
+
+In a report list, this field displays information about the user who viewed the report last.  
+For more information about usage information in report lists, see the article View report usage.  
+
+Last Viewed Date
+
+In a report list, this field displays the date on which the report was displayed last.  
+For more information about usage information in report lists, see the article View report usage.
+
+Layout Template
+
+Defined by the System Administrator or Group Administrator to identify the tabs and reports that display in a given user's workspace.
+
+Layout Type
+
+In conjunction with Custom Views, the Layout Type specifies the type of Custom View. Currently, only List is available. In the future, Detail (the Detail view of an object) may become available.
+
+Legacy Budgeted Cost
+
+This is a deprecated field. Any information that this field might display is related to a feature that Workfront has removed. This field cannot be updated.
+
+The field is still visible in some reports and lists, but the information displayed cannot be updated.
+
+See _Budgeted Cost_.
+
+Legacy Budgeted Hours
+
+This is a deprecated field. Any information that this field might display is related to a feature that Workfront has removed. This field cannot be updated.
+
+The field is still visible in some reports and lists, but the information displayed cannot be updated.
+
+See _Budgeted Hours_.
+
+This field shows the number of hours budgeted for the project in the Legacy Resource Estimates area of the Business Case or in the Capacity Planner.  
+If there are multiple job roles, this is a summary of the budgeted hours for all job roles. The Legacy Budgeted Hours are calculated after you have used the "Set budget to schedule" feature, or after you have defined how many of the Planned Hours should be budgeted, in the Resource Estimates area of the Business Case of the project or in the Capacity Planner. 
+
+Legacy Budgeted Labor Cost
+
+This is a deprecated field. Any information that this field might display is related to a feature that Workfront has removed. This field cannot be updated.
+
+The field is still visible in some reports and lists.
+
+See _Budgeted Labor Cost_.
+
+In a project report, this field shows the labor cost associated with the project, taking into account the Cost per Hour rate of every job role and the amount of Legacy Budgeted Hours estimated in the Legacy Resource Estimates area of the Business Case that is needed for each role to complete the project. 
+
+The Legacy Budgeted Labor Cost in a project report is calculated using the following formula:
+
+`Legacy Budgeted Labor Cost = SUM(Job Role Cost per Hour * Legacy Budgeted Hours per Job Role)`
+
+For more information about calculating Legacy Budgeted Labor Cost, see the article Understand Budgeted Labor Cost and Budgeted Hours for projects  
+
+Legacy Resource Pool
+
+This is a deprecated field. Any information that this field might display is related to a feature that Workfront has removed. This field cannot be updated.
+
+Although not recommended, you may update the information in this report using the API.
+
+See _Resource Pools_ for updated fields.
+
+The Legacy Resource Pool is a collection of job roles associated with a project or a user. The functionality of the Legacy Resource Pools is displayed in the tools available in the Legacy Resource Planning tab of the People area. This is a deprecated field.
+
+Library Task
+
+A template for a single task that is used to provide consistent naming of Tasks and Template Tasks across the application.
+
+License Type
+
+The type of license allocated to an Access Level. It is either Full User, Limited User, or Requester.
+
+License Limit Plan
+
+In a Group view or report, this field shows the maximum number of Plan licenses that can be assigned to users who have the respective group designated as their Home Group.
+
+License Limit Work
+
+In a Group view or report, this field shows the maximum number of Work licenses that can be assigned to users who have the respective group designated as their Home Group.
+
+Limited User
+
+A License Type that allows creation of an Access Level that contains view-only privileges, with the ability to submit issues, enter notes, and upload documents.
+
+List Controls
+
+A part of Interface Setup that allows linking custom Filters, Views, and Groupings to individual Users or globally to all Users.
+
+For more information, see Edit list controls: filters, views, and groupings.
+
+M - O
+-----
+
+ 
+
+Object Name
+
+Description
+
+Manual Only
+
+One of a Project's Update Types. This setting allows Project Projected and Planned timelines to be updated only when "Recalculated Timelines" is clicked. Projects set up this way will be ignored during the lightly recalculation process and when the Project or Task in the Project are updated.
+
+For more information, see Select the project Update Type .
+
+Me
+
+This refers to the currently logged-in user.
+
+We recommend using this field in a filter to make reports more generic when sharing them with other users. This way, you can build only one report which will display different information depending on who logs in to view it, as the information is always customized for the logged-in user.
+
+Max Users
+
+This is a deprecated field. Any information that this field might display is related to a feature that Workfront has removed. This field cannot be updated.
+
+In previous releases of Workfront, you could update this field when creating or editing a job role. It displayed the total number of users that can be associated with a role on each project. A value of zero allowed for an unlimited number of users that can be assigned on a project.
+
+The field is still visible in some reports and lists, but the information displayed cannot be updated.
+
+Milestone
+
+A marker that you can associate with a task to indicate that a key point in the Project has been achieved when the task is completed. You generally can use milestones to show a significant event such as the completion of a phase of the project or a set of critical activities. Milestones are typically associated with parent tasks. You must create the milestones before you can attach them to tasks. For information about milestones, see Create a milestone path and Associate milestones with tasks.
+
+A way to observe, measure, and monitor the progress or performance of a project, often tied to approvals. (NOTE: From Taxonomy)
+
+Milestone Path
+
+A collection of milestones. Milestone Paths are used on Projects to distinguish Projects with certain types of Milestones from Projects with a different set of Milestones.
+
+Milestone Task
+
+A task flagged to indicate a reportable event to measure.
+
+Module
+
+A single step within a scenario that performs some function based upon the associated app.
+
+My Primary Role
+
+When this is referenced in filters, this displays either users that have the same Primary Role as the logged-in user, or work items assigned to the Primary Role of the logged-in user.
+
+We recommend using this field in a filter to make reports more generic when sharing them with other users. This way, you can build only one report which will display different information depending on who logs in to view it, as the information is always customized for the logged-in user.
+
+My Home Team
+
+When this is referenced in filters, this field displays either users that belong to the Home Team of the logged-in user, or work items assigned to the Home Team of the logged-in user.
+
+We recommend using this field in a filter to make reports more generic when sharing them with other users. This way, you can build only one report which will display different information depending on who logs in to view it, as the information is always customized for the logged-in user.
+
+Naming convention
+
+An organization-wide set of rules that uses data to create names of projects, tasks, and deliverables.
+
+Native Integration
+
+An integration that requires no manual coding or API configuration. Also referred to as an "out-of-the-box" integration.
+
+Navigation Menu
+
+The top-center panel of the application that has links to main areas of Workfront.
+
+Non Work Day
+
+A day that is not allocation to the completion of any assignments. This is usually a vacation day, holiday, or weekend.
+
+Note
+
+A comment or update made on a Workfront object.
+
+Note Text
+
+This displays the text of an update entered by an user on any object. 
+
+Number of Linked Goals
+
+(NOTE: stays in both NWE and classic - visible in both)
+
+In a Project report, this is the number of strategic goals that are associated with the project. For information about associating projects with strategic goals, see[Overview of connecting projects to goals in Workfront Goals](https://one.workfront.com/s/document-item?bundleId=the-new-workfront-experience&topicId=Content%2FWorkfront_Goals%2FResults_and_activities%2Fconnect-projects-to-goals-overview.htm&_LANG=en).
+
+For information about strategic goals, also see "Goal" in this table.
+
+This field is visible only if your organization has purchased Workfront Goals. For information about managing strategic goals using Workfront Goals, see [Workfront Goals overview](https://one.workfront.com/s/document-item?bundleId=the-new-workfront-experience&topicId=Content%2FWorkfront_Goals%2FGoal_management%2Fwf-goals-overview.htm&_LANG=en). (NOTE: Link is hard coded to work both in QS and classic)
+
+Object
+
+An organization's work items and reports, as well as the groups of users that manage them in Workfront. Objects can be:
+
+*   Portfolios
+*   Programs
+*   Projects
+*   Tasks
+*   Issues
+*   Documents
+*   Dashboards
+*   Reports
+*   Groups
+*   Teams
+*   Users
+*   Companies
+
+For more information, see Understand objects in Adobe Workfront.
+
+Object Types
+
+If you create a report or list containing all of your custom forms, you can use this field as a view or filter to see which object types are associated with each form.
+
+On Change Only
+
+One of the Project Update Types. When this is selected, the Project Projected and Planned timelines update only when an update or change is made to the Project or to a Task within the Project. It does not update the project every night.
+
+For more information, see Select the project Update Type .
+
+Op Task
+
+The name for Issue in the Workfront database, used in text mode reports or calculated custom data.
+
+Open
+
+An Issue or Task that is not complete, but being worked on.
+
+Org Chart
+
+Short for Organizational Chart. This is a chart showing the hierarchy of an organization. It is also on the Tab on the User detail screen that displays and allows setting the User's Company and Reporting relationships.
+
+Organizational Setup
+
+This defines Companies, Groups, and Security Profiles for your organization.
+
+Other Groups
+
+In a report or view that lists users, this field displays all the groups where each user is a member.
+
+Override Currency
+
+In a Job Role report, this is the currency associated with a job role. It is an override of the Base Currency as established in the Setup area by the Workfront administrator.
+
+For more information, see Create and manage job roles.
+
+Override Currency Billing/ Hour
+
+In a Job Role report, this is the billing per hour rate of the job role using the selected Override Currency of the job role.
+
+For more information, see Create and manage job roles.
+
+Override Currency Cost/ Hour
+
+In a Job Role report, this is the cost per hour rate of the job role using the selected Override Currency of the job role.
+
+For more information, see Create and manage job roles.
+
+Owner
+
+The user responsible for the completion of the designated object.
+
+Owner Type
+
+In a Goal report, this displays the type of owner that is assigned to a strategic goal. The following are the goal owner types:
+
+*   User
+    
+*   Team
+    
+*   Group
+    
+
+No value displays in this field when the goal owner is your organization.
+
+This requires an additional license. For information about Workfront Goals, see Adobe Workfront Goals overview.
+
+P - R
+-----
+
+ 
+
+Object Name
+
+Description
+
+Parameter
+
+A parameter is a custom field. You can build a report for all parameters, or custom fields in your system. 
+
+Parent
+
+In a report, this field shows information about the parent of the object. For example, in an issue report, it might show information about the task or project that the issue is logged under; in a task report, it might show information about the direct parent task or about the project. For more information about what objects might have parents in Workfront, see the "Interdependency and hierarchy of objects" section in the article Understand objects in Adobe Workfront.
+
+Parent Lag
+
+The amount of time that must pass between the Parent Task start and the Subtask Start.
+
+Parent Task
+
+Also known as a Summary Task. This is a task that has Subtasks (also called Children Tasks). The Duration, Work Required, and Percent Complete of the Parent Task is calculated from the Subtasks.
+
+Part-Time Resources
+
+A licensed user who has less capacity than the default schedule defined in the system.
+
+Percent Complete
+
+A project, task, or issue field that shows what percentage of the work associated with the task, project, or issue is completed.
+
+You can update this field manually for issues and working tasks.
+
+For projects and parent tasks, this field is a roll-up from all the working tasks and you cannot update it manually.
+
+For more information, see Project Percent Complete overview.
+
+Permission
+
+Rights that are granted to a user on an object, typically given so they can complete work on the item or view the item. You can grant permissions to:
+
+*   Projects
+*   Tasks
+*   Issues
+*   Portfolios
+*   Programs
+*   Reports
+*   Dashboards
+*   Documents
+*   Custom Forms
+*   Views
+*   Filters
+*   Groupings
+
+For more information, see Overview of sharing permissions on objects.
+
+Plan
+
+This is a full license type in the Workfront system. Users must have this to access all of the features in Workfront.
+
+For more information, see Adobe Workfront licenses overview.
+
+Plan (in the Scenario Planner)
+
+A plan is the main object when working with the Workfront Scenario Planner. You can outline the strategy for your company's near and long-term future and identify each high-level outcome and add it as a plan to the Workfront Scenario Planner.
+
+You cannot display Scenario Planner plans in a report and you cannot access them through the Workfront API.
+
+The Scenario Planner is available only in the new Adobe Workfront experience and requires an additional license. For information about the Workfront Scenario Planner, see The Scenario Planner overview.
+
+Planned
+
+The time frame within which something is scheduled to occur. When you create projects, tasks, or issues in Workfront, you establish the planned start and end dates, as well as the planned timeframe during which they occur. These values represent your original intention or estimate of how long a work time should take to complete.
+
+The timestamp used to baseline task KPIs (NOTE: From Taxonomy)
+
+Planned Benefit
+
+This is a manual entry for the Project Manager to estimate whether completing a project would bring any monetary benefit to the organization. Specifying this value can be part of putting together a Business Case for the project. You must have Manage permissions to the project to update this value.
+
+Planned Budgeted Hours
+
+In a Budgeted Hour report, this displays the amount of hours budgeted for Projects or Job Roles in the Resource Planner.
+
+For information about budgeting Projects or Roles in the Resource Planner, see the article Budget resources in the Resource Planner using the Project and Role views. For information about the Budgeted Hours report, see the article Report: Budgeted Hour.
+
+Planned Completion Date
+
+You can manually set the Planned Completion Date to a date of your choosing. If you do not set the Planned Completion Date, Workfront sets it automatically. When set automatically, the Planned Completion Date is: Planned Start Date + Duration
+
+For more information, see the following articles:
+
+*   Overview of the task Planned Completion Date
+    
+*   Set the project Planned Completion Date
+    
+
+Planned Cost
+
+A total of the Planned Labor Cost and the Planned Expense Cost of the project. This does not include the Planned Risk Cost on the project.  
+
+Planned Duration
+
+A task's Planned Duration is usually the same as the task's Duration. It represents the difference in days between the Planned Start and the Planned Completion Dates of the task. 
+
+When the task has a Duration Type of Effort Driven, the Planned Duration can differ from the Duration of the task, based on how many resources you assign to the task. 
+
+For example, if a task with a Duration Type of Effort Driven has a Duration of 3 days and you assign one resource with a full time schedule to the task, the Planned Duration is 3 days, as well. If you assign three resources with a full time schedule to the same task, the Duration stays 3 days, but the Planned Duration becomes 1 day. The Planned Duration also changes the Planned Start and Planned Completion dates of the task, to reflect the new Planned Duration. As a result, the timeline of the project is affected as well. 
+
+For more information about the difference between Duration and Planned Duration for tasks, see the article Difference between Planned Duration and Duration for tasks.
+
+Projects and issues don't have a Planned Duration. 
+
+Planned Duration Minutes
+
+The Planned Duration Minutes of a project or an issue is the Duration of the project or issue in minutes. 
+
+Tasks don't have a Planned Duration Minutes field. 
+
+Template Tasks have a Planned Duration Minutes field which displays the Planned Duration of the task in minutes. 
+
+Planned Expense Cost
+
+The sum of the Planned Amounts for all expenses logged for a project or a task.
+
+**Example:** If you create an expense for Task 1 and enter $600.00 in the Planned Amount field, the Planned Expense Cost for this task is $600.00.
+
+For a project, Workfront uses the following formula to calculate Planned Expense Cost:
+
+`Project Planned Expense Cost = SUM (All Project Planned Expense Costs) + SUM (All Tasks Planned Expense Costs)`
+
+**Important:** If the value in the Actual Amount field for an expense is negative, Workfront will ignore that expense record. For example, if the value in the Planned Amount field is $200.00 but the value in the Actual Amount field is -$300.00, the system will ignore this entire expense record which means you would not include the $200.00 planned value or the -$300.00 actual value in any calculations for Planned Expense Cost or Actual Expense Cost. (Drafting this because not sure if this is correct anymore)
+
+Planned Hours
+
+This field appears in the projects, tasks, and issues areas, reports for projects, tasks, or issues, and resource management tools like the Resource Planner, Workload Balancer and the Utilization report.
+
+It shows the amount of hours that the Project Owner estimates that each task or issue should take to complete. For projects, it is generally a roll-up of the Planned Hours from the tasks on the project.
+
+The Planned Hours field might display different information depending on where you view it from. For information about Planned Hours, see Planned Hours overview.
+
+**Note:** Planned Hours are stored in minutes in the Workfront database. When writing calculations using this field, ensure you account for the fact that the hours display as minutes.  
+
+By default, Planned Hours are distributed equally to all the days within the duration of a work item and also equally for all resources assigned to the task. Users can update the daily amount of Planned Hours for a work item or the individual Planned Hours for each assignee.
+
+Updating this field differs for projects, tasks, and issues:
+
+*   For issues, you can manually update this field. Issue Planned Hours are not added to the Project Planned Hours. 
+    
+    **Tip:** In an issue report, one of the Planned Hours fields is replaced by the Work field. The field displays the number of Planned Hours on the issue. For more information, see the "work" or "Work" fields in this table.
+    
+
+*   For tasks, you can manually update this field when the Duration Type of the task is Calculated Assignment or Simple. This field is calculated by Workfront when the Duration Type of the task is Calculated Work or Effort Driven.  
+    For information about Task Duration, see the article Overview of Task Duration and Duration Type.
+    
+
+*   For projects, Workfront calculates the Planned Hours by adding all Planned Hours from all the tasks on the project.
+    
+
+**Tip:** You can display Planned Hours in project, task, or issues reports also by using text mode and reference additional fields. For more information, see the "`work`", "Work", and "`workRequiredExpression`" fields in this table.
+
+A baseline measurement for task KPI and a communication tool for the resource managers
+
+(NOTE: above, From Taxonomy)
+
+Planned Labor Cost
+
+(NOTE: this is linked elsewhere)
+
+For a task, the hourly rate of the user or role multiplied by the number of hours assigned to the user or role. 
+
+For a project, it is a total of all Planned Labor Costs of all the tasks.  
+
+Whether the rate of the user or role is used depends on the Cost Type that is selected for the given task.
+
+For more information, see Track costs.
+
+Planned Revenue
+
+Tasks and projects can display a value for Planned Revenue in Workfront. Planned Revenue represents the amount of money associated with the Planned Hours of the tasks on the project. For projects, it can also include the Fixed Revenue of the project.
+
+For tasks, this is the revenue associated with the Planned Hours of tasks. The Planned Hours from all tasks roll up to the Planned Hours of the project to contribute to the calculation of the project Planned Hours.
+
+Workfront calculates Planned Revenue for tasks and projects using the following formulas:
+
+`Task Planned Revenue = Planned Hours * Billing hourly rate`
+
+`Project Planned Revenue = SUM (All tasks Planned Revenue) + Fixed Revenue`
+
+(the note below is duplicated in this article: /Content/Resource Mgmt/Resource utilization/view-utilization-information.htm and in the glossary)
+
+**Note:**
+
+The project Planned Revenue that displays in the Project Details area and in project reports differs from the Planned Revenue that displays in the Utilization report.
+
+The Planned Revenue in the Project Details area reflects the task revenue as well as the Fixed Revenue of the project. The Planned Revenue in the Utilization Report displays Planned Revenue associated only with the tasks in the project.
+
+**Example:**
+
+If the project has 1 task with 10 hours, assigned to a Consultant with $20 hourly rate, and the project has $100 Fixed Revenue, the Utilization report displays $200 for Planned Revenue (the Planned Revenue associated with the hours on the task). The Project Details section displays $300 (the Planned Revenue from the task and the Fixed Revenue for the project.)
+
+For information about tracking revenue in Workfront see Overview of Billing and Revenue.
+
+For information about Planned Revenue calculations in the Utilization report, see View resource utilization information .
+
+Planned Risk Cost
+
+The total of the Potential Cost of all the risks on the project factoring in their Probability of occurring. This amount is not included in the Planned Cost of the project.
+
+The Planned Risk Cost of a project is calculated by the following formula:
+
+`Planned Risk Cost = SUM(Potential Risk Cost * Probability / 100)`
+
+Portal Profile
+
+An administrator-defined collection of Tabs and Portal Sections that appears on the Workfront Application Home and other Dashboards.
+
+Portal Section
+
+One component of a Tab on a Dashboard or Portal Page. Usually a single Report, Chart, Calendar, or list of key information.
+
+Portal Tab
+
+A Tab on a Portal or Dashboard that contains up to three Portal Sections.
+
+Portfolio
+
+A collection of projects that have unifying characteristics. Those projects usually compete for the same resources, budget, or time slot. You can divide Portfolios into Programs and associate the projects with the Programs before they are added to a Portfolio.
+
+For more information about portfolios, see Portfolio overview in Adobe Workfront.
+
+A collection of projects and programs grouped by common data points and sharing similar resource pools and budgets to achieve a strategic objective.
+
+Portfolio Management
+
+A practice area focused on managing a collection or related programs and project efforts.
+
+Portfolio Optimizer
+
+A Workfront tool to assist in assessing and prioritizing projects within a portfolio.
+
+Portfolio Owner
+
+The stakeholder responsible for the prioritization and budget for a portfolio.
+
+Potential Risk Cost
+
+This is a project field that you can locate in lists and reports. It shows the potential cost for the risks associated with the project, should they occur. For more information see Calculate Potential Risk Cost .
+
+Predecessor
+
+A Task that must be complete prior to the completion of a Dependent Task. Also a Task that is marked as a Dependency for another Task. Predecessors allow the planner to set sequence-dependency logic, such as to start a task after another task finishes.
+
+For More information, see Overview of task predecessors.
+
+Primary Company
+
+The Company that the user belongs to as designated in their user settings. Companies can also be associated with Projects.
+
+Priority
+
+A value that can be assigned to a Task, Issue or Project to designate how important it is.
+
+Private
+
+On a Note or Document, this option makes that object hidden to most viewers. For a Private Help Desk Queue, only Users on the Queue Team can submit issues to that Queue through the Help Desk Area.
+
+Profile
+
+All information about a user account.
+
+Program
+
+A subset within a portfolio, where similar projects can be grouped together in order to achieve a well-defined benefit.
+
+Program Management
+
+Management of cross-project dependencies, risks, issues, requirements, and solutions to keep the program healthy and achieve the defined program benefit.
+
+Program Owner
+
+The stakeholder responsible for supervising and organizing activities to ensure that project goals align with the company objectives.
+
+Progress
+
+(NOTE: stays in both QS and classic)
+
+In a Goal report, this displays the percent of how close a strategic goal is to completing. The percent of progress displays as a number. For information about strategic goals, also see "Goal" in this table.
+
+This field is visible only if your organization has purchased Workfront Goals. For information about managing strategic goals using Workfront Goals, see [Workfront Goals overview](https://one.workfront.com/s/document-item?bundleId=the-new-workfront-experience&topicId=Content%2FWorkfront_Goals%2FGoal_management%2Fwf-goals-overview.htm&_LANG=en). (NOTE: Link is hard coded to work both in QS and classic)
+
+Progress Status
+
+In a Project, Task, and Goal report, this field displays the Progress Status of projects, tasks, or strategic goals. For more information, see the following articles:
+
+*   Project Progress Status overview
+    
+*   Task Progress Status overview
+    
+*   [Calculate Goal Progress in Workfront Goals](https://one.workfront.com/s/document-item?bundleId=the-new-workfront-experience&topicId=Content%2FWorkfront_Goals%2FGoal_management%2Fcalculate-goal-progress.htm&_LANG=en)(NOTE: hard-coded link)
+    
+    The Goal report and the Progress Status for goals field are visible only if your organization has purchased Workfront Goals. For information about strategic goals in Workfront Goals, see [Workfront Goals overview](https://one.workfront.com/s/document-item?bundleId=the-new-workfront-experience&topicId=Content%2FWorkfront_Goals%2FGoal_management%2Fwf-goals-overview.htm&_LANG=en).
+    
+
+Project
+
+A large amount of work that must be completed within a specific timeframe and must use a specific budget and number of resources. To make it manageable, you divide the project into a series of tasks that need to be completed first in order to deliver the common outcome defined by the project. For information about planning a project, see Plan a project overview.
+
+A collection of tasks with a well-defined scope, beginning, and end to produce a specific deliverables, service, or benefit.
+
+Project Assignment Planned Hours
+
+(NOTE: stays in both QS and classic after production - available in both)
+
+In an Initiative Job Role report, this displays the number of Planned Hours associated with a job role assigned to tasks or issues in the project. This field and the Initiative Job Role report type do not display in your Workfront instance unless your company has purchased a Workfront Scenario Planner license. For information about the Workfront Scenario Planner, see[The Workfront Scenario Planner overview](https://one.workfront.com/s/csh?context=2069&pubname=the-new-workfront-experience).
+
+Project Details
+
+The details of the current status of a Project
+
+Project Budgeted Cost
+
+This is the Budgeted Cost of a project, as it appears in lists and reports.
+
+See _Budgeted Cost_
+
+Project Management
+
+A set of policies that governs the thresholds for project creation, categorization, and naming of the projects.
+
+Project Overhead
+
+In an Hour report, this field is reserved for financial information tied to the hours logged with the hour type of Project Time. Projects can have their own Billing Rates and if an hour is logged directly on a project, then those rates will be used in calculations. Based on the project settings, projects can also have different currencies and there can be a currency conversion for those hours. The Project Overhead object allows Workfront to get that information.
+
+Project Owner
+
+The user responsible for managing the scope, timeline, and assignments of a project. The default approver for change orders, financial changes, and deliverables.
+
+Project Planning
+
+Processes to develop and maintain the project schedule.
+
+Project Sponsor
+
+A designated stakeholder profile that each of your user's should relate to. In Workfront, these are designated as Access Levels
+
+Project Teams
+
+The collection of Users or Roles assigned to a Project
+
+For more information, see Project Team overview.
+
+Project tracking
+
+The data used to measure the health and scope of a project
+
+Projected
+
+(NOTE: From Taxonomy)
+
+An estimate of the timestamp of when the work will be completed based on the planned hours and percentage complete of a task.
+
+This refers to dates or Duration of tasks, issues, or projects. Usually, it designated dates and durations that are more true to the life of the work items, after some work has already been completed or some time has passed.
+
+For example, the Projected Completion Date of a task is the date when Workfront estimates that task will complete, based on how much work has been done on it so far, how many people are assigned to it, and how much time has passed since the start date.
+
+Proof Deadline
+
+In reports that contain the Document Version object (such as a Document Version report and Proof Approval report), This field displays the day of the week, date, time of day, and year of the proof deadline.
+
+Proof Decision
+
+In reports that contain the Document Version object (such as a Document Version report  and Proof Approval report), this field displays the decision status of the proof (pending, changes required, or approved)
+
+Proof Name
+
+In reports that contain the Document Version object (such as a Document Version report and Proof Approval report), this field displays the proof name.
+
+Proof Pages
+
+In reports that contain the Document Version object (such as a Document Version report and Proof Approval report), this field displays the number of pages included in the proof.
+
+Proof Progress
+
+In reports that contain the Document Version object (such as a Document Version report and Proof Approval report), displays the progress status of the proof (Sent, Opened, Commented, Decision Made).
+
+For more information, see Proof progress overview in Proof progress and status overview.
+
+Proofing
+
+A review process where one or more users mark and comment on content that should be changed in an image, a text document, a video, or interactive web content.
+
+Public
+
+On a Note or Document, this option makes that object accessible to other users, or even people from outside Workfront. For a Help Desk Queue, Public means that all users that can submit Issues can submit Issues through the Help Desk Area.
+
+Quality
+
+The perception of work quality within the organization.
+
+Queue
+
+Also called Help Desk Queue. This is a Project that has been published to the Help Desk area to allow users to submit Issues to it. Usually Queues are created for particular topics, such as Bugs, Project Requests, etc.
+
+Queue Properties
+
+These settings define Issue submission rules for a Project that is being published to the Help Desk.
+
+Queue Topic
+
+A property on a Help Desk Queue that allows users submitting an Issue to select a Topic. Topics can:
+
+*   Be associated with a Custom Data Form.
+*   Assign the Issue automatically to a User, Role, or Team through the Routing Rule set on the selected Topic.
+*   Move the issue to a different Project or Queue through the routing rule set on the selected topic.
+
+For more information, see Create Queue Topics.
+
+Rank
+
+In an Access Level report, you can manually indicate a Rank of the Access Level. This helps you, as the Workfront administrator, to visually identify the level of complexity associated with each Access Level. For example, you can give lower numbers for more complex (Plan-level) Access Levels, and higher numbers for less complex (Requester-level) Access Levels. You cannot rank the standard Access Levels. 
+
+Ready
+
+This field on a task report indicates whether an Agile task has been marked as Ready on the backlog. This flag only applies to Agile tasks, which are tasks assigned to an Agile team. 
+
+Recurrence Frequency
+
+A field that displays in the Task Details or the Edit Task box of a parent of recurring tasks. It is the frequency with which the tasks in the recurrence occur. For information about creating recurring tasks, see Create recurring tasks.
+
+Reference Number
+
+Projects, tasks, and issues are automatically associated with a unique reference number as they are created. You can view the Reference Number in the Details page of projects, tasks, or issues, or in a list or report.
+
+**Tip:** You can defer to reference numbers when two items have the same name, as reference numbers are always unique.
+
+Workfront automatically generates sequential reference number at the system level. Each project, task, or issue gets the next available number in the sequence.  
+
+For example, if User A creates a task, Workfront might automatically assign the task the Reference Number of 100. If User B creates an issue right after this, Workfront assigns the issue the Reference Number of 101. You cannot manually edit Reference Numbers.
+
+Rejection Issue
+
+In a project or a task report, this is the issue that is created when the approval for the project or the task is rejected. For information about rejection issues, see the article Create an approval process for work items.
+
+Remaining Risk Cost
+
+A project field that shows the difference between the Planned Risk Cost of a project and the total of all Actual Costs of all risks on the project.
+
+The Remaining Risk Cost for a project is calculated using on the following formula:
+
+`Remaining Risk Cost = Project Planned Risk Cost - SUM(Actual Cost for all risks)`
+
+Replanning
+
+Changing the dates of a Project to repair or overcome problems. For example, a project that has been on hold for several months would need to be replanned to reflect accurate dates.
+
+Report
+
+A chart or table containing information about one given Workfront object and its related attributes.
+
+Request
+
+A type of issue that is triaged in a single centralized queue and is unrelated to an ongoing work effort.
+
+Request Queue
+
+The backlog of issues that is managed by a traffic and triage process.
+
+Request velocity
+
+Total work cycle time to intake and complete a request.
+
+Requester
+
+Typically a license type. A user with a Requester license can submit requests for new work to occur in the system.
+
+Reserved Time
+
+Days specified on a User's Personal Time, indicating that the User will not be available for work. See _Non Work Days_.
+
+Resolve Issue
+
+In an issue report, use this field in views or filters to refer to the issue that resolves the issue.
+
+For information about displaying resolving objects in reports, see View Resolvable and Resolving Object information in a report in Overview of Resolving and Resolvable Objects .
+
+Resolve Project
+
+In an issue report, use this field in views or filters to refer to the project that resolves the issue.
+
+For information about displaying resolving objects in reports, see View Resolvable and Resolving Object information in a report in Overview of Resolving and Resolvable Objects .
+
+Resolve Task
+
+In an issue report, use this field in views or filters to refer to the task that resolves the issue.
+
+For information about displaying resolving objects in reports, see View Resolvable and Resolving Object information in a report in Overview of Resolving and Resolvable Objects .
+
+Resource
+
+User(s) and/or Role(s) existing in the system and assigned to Project Teams and Tasks.
+
+Resource Estimates
+
+This report captures information about an area in Workfront that has been removed. The report might display legacy information but it does not update with current data. Although not recommended, you may update the information in this report using the API. For information about how you estimate resources for projects, see Resource Planner overview.
+
+Resource Grid
+
+A visual table showing the allocation of resources.
+
+Resource Management
+
+Resource Management is an enterprise set of tool that allows you to accurately forecast the use of your resources based on their availability so that the work that must be done is completed on time and on budget. 
+
+With Resource Management tools you can plan long term capacity and short term scheduling needs for your resources.
+
+For information about Resource Management in Workfront, see Get started with Resource Management.
+
+Resource Manager IDs
+
+(NOTE: Same as "Resource Managers" (above), but this is for the filter.)
+
+In a project report, you can use this option  when creating a filter to find a specific resource manager.
+
+Resource Managers can perform resource scheduling actions on a project.
+
+For more information, see Designate Resource Managers for a project or template .
+
+Resource Managers
+
+In a project report or list view, this is a field that displays the active users who can perform resource scheduling actions for the project. They utilize the enterprise resource management tools in Workfront to review capacity, monitor utilization, and assign project tasks. The field also displays in the Edit Project box or the Project Details area.
+
+Being designated as a Resource Manager on a project is a prerequisite to using the scheduling tools in Workfront. For information about resource scheduling, see Get started with Resource Scheduling.
+
+When you use "Resource Managers" in a report, a list of resource managers is displayed, with each resource manager on the project separated by a comma (there can be up to 10 resource managers on a given project).
+
+For more information, see the article Designate Resource Managers for a project or template .
+
+Resource Planner Budgeted Hours
+
+The hours budgeted for the project and the resources associated with it in the Resource Planner.
+
+See _Budgeted Hours_.
+
+Resource Planner
+
+An advanced Workfront tool that lets you view and manage resources across projects, job roles, or users. For information, see Resource Planner overview.
+
+Resource Planner Budgeted Labor Cost
+
+These are the costs associated with the hours budgeted for project's job roles using the Resource Planner.
+
+See _Budgeted Labor Cost_.
+
+Resource Pools
+
+Resource Pools are collections of users that can be associated with a project. The users in the same Resource Pool usually belong to the same department, have similar or complementary skills, or are funded by the same budget. You can associate multiple Resource Pools to a project or to a user.
+
+For more information about resource pools, see Resource pools overview .
+
+In project reports, Resource Pools show all the pools associated with a project. This object cannot be used in a grouping.  
+
+A collection of resources available for assignment to project tasks. A resource pool can be assigned exclusively to a project or shared by several projects.
+
+Resource Utilization
+
+A Report displaying the number of hours available during a certain time period and the number of hours scheduled for each user in the report. This is also calculated into Average Hours Per Day and an allocation percentage.
+
+Result
+
+In Workfront Goals, a result is a progress indicator for a goal. It can be a number, a percentage value, or a currency amount that you update manually. You cannot display results in a report and you cannot access them through the Workfront API. For information about activities, see Get started with results and activities in Adobe Workfront Goals.
+
+Revenue
+
+A billable amount for the task or project. The amount can be hourly, fixed, or a combination of both.
+
+Revenue Type
+
+Revenue type determines how the task will accrue revenue. Some examples include Fixed Hourly, Role Hourly, and Role Hourly w/Cap. For information about tracking revenue in Workfront see Overview of Billing and Revenue.
+
+Reviewer
+
+Typically a license type. A User with a Reviewer license has the ability to review and approve work items in the system.
+
+Risk
+
+This may refer to the following concepts in Workfront:
+
+*   A field on a project that indicates how risky a project can be. You can prioritize the execution of your projects based on the level of risk. Projects can have the following levels of risk:
+    
+    \- Very Low
+    
+    \- Low
+    
+    \- Medium
+    
+    \- High
+    
+    \- Very High
+    
+    **Note:** The levels of risks you indicate for a project cannot be customized.
+    
+    For information about updating the Risk of a project, see the "Project Settings" section of the article Edit projects. You can display the risk field of a project in reports.
+    
+*   An event that might occur during the life of a project that identifies a potential impact to the cost, scope, or schedule of the project. You define potential risks to a project and associate a probability of them occurring or a cost as you build the project's Business Case. For information about adding risks to the Business Case of the project, see Create and edit risks on projects.
+    
+    **Tip:** You cannot display risks defined in the Business Case in reports. You can only display several types of Risk Costs in reports and lists.
+    
+
+Risk Cost
+
+The cost associated with the risks on a project. The following are risk costs associated with projects that you can display in reports:
+
+*   Actual Cost: a field on a risk that shows the actual cost for the risk that has occurred. In addition to reports and lists, you can locate it in the Edit Risk box when editing or creating a risk.
+    
+    For project, task, or issue costs, see "Actual Cost" in this article.
+    
+*   Planned Risk Cost: a field on the project that shows a total of all Potential Risk Costs for the project. See also "Planned Risk Cost" in this article.
+    
+    For information about Potential Risk Cost, see Calculate Potential Risk Cost .
+    
+*   Remaining Risk Cost: a field on the project that displays the difference between the total of the Actual Costs of all risks and the Planned Risk Cost. See also "Remaining Risk Cost" in this article. See also "Remaining Risk Cost" in this article.
+    
+
+Risk Management
+
+Processes to identify, mitigate, and monitor risk.
+
+Role
+
+See _Job Role_.
+
+Routing
+
+Automatically assigning or moving an Issue, usually due to a Queue Topic or by way of being the Default Route (Routing RUle) for the Queue.
+
+Routing Rule
+
+A setting on Projects and Queues that automatically assigns an Issue to a User, Role, or Team, or moved the Issue to another Project or Queue. Routing Rules are generally used with Help Desk Queues to automatically assign incoming Issues.
+
+S - U
+-----
+
+ 
+
+Object Name
+
+Description
+
+Saved Search
+
+A search for which the search criteria have been saved. Saved Searches make it easy to run the same each again without having to enter the search criteria again.
+
+Scenario (in Workfront Fusion)
+
+A scenario is comprised of a series of steps (modules) that indicate how data should be transferred and transformed between apps/ services.
+
+For information about scenarios in Workfront Fusion, see Adobe Workfront Fusion scenario overview.
+
+Scenario (in the Workfront Scenario Planner)
+
+In the Scenario Planner, a scenario is a copy of a plan.
+
+The Scenario Planner is available only in the new Adobe Workfront experience and requires an additional license. For information about the Workfront Scenario Planner, see The Scenario Planner overview.
+
+For information, see Create and compare plan scenarios in the Scenario Planner.
+
+Schedule
+
+The weekly work schedule, including working times, combined with Days off (such as Holidays) and exception days (such as a Saturday work day). Schedules can be applied to Projects and Users.
+
+Schedule Exemption
+
+Also knows as a Modified Shift. Days scheduled in contrast to the regular weekly work times as defined by the schedule. For example, a Saturday scheduled to work, when the Schedule is set up to only Work Monday Through Friday, would be a Schedule Exemption.
+
+Scheduled Report
+
+When you build a report of reports, you can display information about the schedules of the report, if the report is scheduled for delivery using the Scheduled Report field. This field shows multiple values, one for each schedule of each report, in a bulleted list. For more information about scheduling reports, see the article Report delivery overview.
+
+Because this field shows multiple values, it cannot be used in a grouping. You can access it only in a filter or a view. 
+
+Scope Change
+
+An Audit Trail that, if active, generates a note any time a change is made to the Scope of a Project or Task, such as if a Task Duration or Predecessors are changed.
+
+Section
+
+An area on the screen, with its own header, created to organize the Custom Data for display purposes.
+
+Section Break
+
+A gap or border between sections.
+
+Security
+
+The settings that allow a User to interact with certain objects in the system and not others. See _Access Levels_.
+
+Setup
+
+The area where administrators can set up system configurations and preferences.
+
+Severity
+
+Severity is an indication of how likely an item is to impact the completion of the work. For example, an Issue with high Severity may completely block a Task's completion, but an Issue with low Severity may be merely cosmetic.
+
+For more information, see Update issue severity.
+
+Severities
+
+See _Severity_.
+
+Sharing
+
+The action of allowing other Users to view or edit a specific item in Workfront.
+
+Slack Date
+
+In a task view or report, the Slack Date displays the exact date when a task could definitely impact the Completion Date of the project. For information about the Slack Date of a task, see Task Slack Date overview.
+
+Smart Assignments
+
+When assigning Tasks or Issues to Users, Workfront makes recommendations (Smart Assignments) about who the best users are to complete the work, based on the time they have available to complete it and their relationship to the project.
+
+For more information , see Smart assignments overview.
+
+Source
+
+Indicates the parent object of another object. For example, a document attached to a task has the name of the task in the Source field of a Document report or view; an issue logged under a project has the name of the project in the Source field of an Issue report or view. 
+
+Start Date
+
+The Date when the work on an item is set to start. There are several Start Dates in Workfront:
+
+*   Planned
+*   Actual
+*   Projected
+
+In a Rate report, this is the date when a new billing rate for a job role at the project level starts. The hours associated with the project that are after this date are multiplied by this billing rate to calculate the revenue on the project.
+
+Status
+
+(NOTE: From Taxonomy)
+
+An indicator used to signal a workflow position of a work item or for a strategic goal.
+
+For Projects, the Status is a setting on the Project that indicates whether the Project is:
+
+*   Current
+*   On Hold
+*   Complete
+*   Dead
+
+For more information on Project Status, see Access the list of system project statuses.
+
+For Tasks, the Status is a setting on the Task that indicates whether the Task is:
+
+*   New
+*   In Progress
+*   Complete
+
+For more information on Task Status, see Access the list of system task statuses
+
+For Issues, the Status is a setting on the Issue that indicates whether this Issue is:
+
+*   New
+*   In Progress
+*   Awaiting Feedback
+*   On Hold
+*   Resolved
+*   Won't Resolve
+*   Cannot Duplicate
+*   Verified Complete
+*   Reopened
+
+For more information on Issue Statuses, see Access the list of system issue statuses.
+
+For strategic goals, the Status is a setting on the goal that indicates whether the goal is:
+
+*   Active
+*   Draft
+*   Inactive
+*   Closed
+
+For more information about strategic goals, also see "Goal" or "Goals" in this table.
+
+(NOTE: Link below is hard coded. Leave in both classic and NWE, as this is abailable in both)
+
+This field is visible only if your organization has purchased Workfront Goals. For information about managing strategic goals using Workfront Goals, see [Workfront Goals overview](https://one.workfront.com/s/document-item?bundleId=the-new-workfront-experience&topicId=Content%2FWorkfront_Goals%2FGoal_management%2Fwf-goals-overview.htm&_LANG=en). (NOTE: Link is hard coded to work both in QS and classic)
+
+Status Change
+
+An Audit Trail. A note is generated when a User changes the Status of the Project, Task, or Issue.
+
+Status Icons
+
+You can add the built-in Status Icons field as a column in your views to enhance visibility into key points about your objects, like:
+
+*   An object has documents attached
+*   An object is associated with an approval process
+*   An object has additional notes associated with it
+*   An expense is billable or reimbursable 
+*   A task is on a critical path
+*   A user belongs to a company, a team, or is located in a different time zone 
+
+You can add the Status Icons field in the views of the following objects: 
+
+*   Tasks
+*   Issues
+*   Projects
+*   Template Tasks
+*   Templates
+*   Expenses
+*   Documents
+*   Users
+
+For more information, see Built-in Status Icons in Views.
+
+Status Update
+
+This field shows the most recent status update that users have provided in the 'Update Status' field. Comments made on status updates are not displayed in the Status Update column.
+
+To show the 'New,' 'In Process,' and 'Complete' statuses, use the Status column.
+
+Comments made on status updates are not displayed in the Status Update column.
+
+For more information on statuses, see the article Update task status.
+
+Statuses
+
+See _Status_.
+
+Storyboard
+
+A chart that represents the status of stories (tasks in the agile methodology) and how they are progressing toward completion.
+
+Story Hours
+
+A metric used to measure the difficulty or complexity of a Story. Agile teams can choose whether to use Hours or Points.
+
+Story Points
+
+A metric used to measure the difficulty or complexity of a Story. Agile teams can choose whether to use Hours or Points.
+
+Strategic
+
+Long-term work that changes the organization or how the organization works.
+
+Strategic Alignment
+
+Measuring and aligning company goals across portfolios and programs.
+
+Subscribers
+
+Users that subscribe to Projects, Tasks, or Issues.
+
+When you use this field in a report, a list of subscribers displays, with each subscriber separated by a comma.
+
+For more information, see the article Subscribe to items in Adobe Workfront.
+
+Summary Task
+
+See _Parent Task_.
+
+Subtask
+
+A child task, which is located under a parent task.
+
+System Governance
+
+A set of policies that governs changes and maintenance of a system.
+
+System Integration
+
+The process of linking together different computing systems and software applications physically or functionally in order to act as a coordinated whole.
+
+Task
+
+An activity that must be performed as a step toward achieving a final goal (completing the Project).
+
+For more information, see Tasks overview.
+
+Task Attribute
+
+Other fields or objects that are associated with a Task and indicate certain details about the Task. Some examples are Planned Completion Date and Status.
+
+Task Constraint
+
+See _Constraint Type_ and _Constraint Date_.
+
+Task Management
+
+A set of policies that governs the thresholds for task creation, assignment, closure, and visibility.
+
+Task Owner
+
+The team or user responsible for the estimation of effort and completion of the task
+
+Team
+
+A collection of users working toward similar goals or business objectives. These users can be collectively assigned to a work item by assigning the team to the work item. You cannot assign more than one team to a work item.
+
+For more information on Teams, see Teams overview.
+
+Projects can have a Project Team, which contains all the users or roles associated with the work on the project.
+
+For more information about Project Teams, see Project Team overview
+
+Team Goals
+
+Team goals which contribute to the metrics of enterprise or department goals.
+
+Template
+
+Project templates are generic outlines of your most repeatable projects. You can define tasks, queue topics, custom forms, attach documents or approvals when you create a project template to save you time when you must create a new project.
+
+You can attach templates to existing projects, or you can use them to build new projects. All the information specified on the template transfers to the projects that are created using it.
+
+For more information about templates, see Project template overview.
+
+The steps, instructions, and custom data required for deliverable completion.
+
+Template Task
+
+A Task that is part of a Template. Template Tasks become Tasks in the Project where the Template is located,
+
+Thread
+
+A Note and its collection of replies that relate to a particular topic.
+
+Thumbnail 
+
+In a Document list or report, it displays a preview of the document in a thumbnail.
+
+Select Thumbnail  to view a 33-66 pixel-wide thumbnail in the report.
+
+The size of the thumbnail adjusts when you modify the width of the column in a list or report.
+
+See also "Large Thumbnail" in this document.
+
+Time Off
+
+You can build a Time Off report to view when users have indicated time off in their profile.
+
+Timesheet
+
+A virtual timecard that allows users to enter actual hours that they spent working on projects, tasks, or issues, or hours they spent for other activities not related to work, like meetings or training. In addition to entering the amount of time you spent working, you can also indicate whether the time is work-related or it amounts to overhead time by using Hour Types for your time entries. For information about timesheets, see Timesheets overview.
+
+Periodic summary list view of active assignments by project that have been planned to have or have had time logged. (NOTE: From Taxonomy, but too obscure and not helpful)
+
+Timesheet Profile
+
+A Timesheet Profile is a template that Workfront uses to automatically create timesheets for the users associated with them.
+
+You can configure a number of settings that will apply to each timesheet as it is created. Some of these settings are: how often the timesheet should be created (weekly, every other week, twice a month, or monthly), the start day of the timesheet, the timesheet approvers, the available Hour Types that users can associate with recorded hours.
+
+Top Parent ID
+
+This field allows you to identify and filter data about a top-level group and its subgroups in a list or report.
+
+Top Parent Name
+
+This field allows you to identify data about a top-level group and its subgroups in a View for a list or report.
+
+You can also do this using the Top Parent ID field.
+
+Total Hours
+
+In a project report, this field displays the rounded sum of all hours on the project, the last time the project finances were calculated. Actual Hours reflect the exact hours logged on the project. Typically, the Actual Hours should match the Total Hours. If the Total Hours appears significantly different than the Actual Hours field, you must Recalculate Finances on the project.
+
+For more information about recalculating project finances, see the article Recalculate project finances.
+
+In a timesheet Standard view, this field refers to the total hours logged for items for the dates displayed on a timesheet. The Total Hours field for timesheets in this built-in view references the "hoursDuration" field which dynamically calculates the difference in hours between the timesheet Start and End dates. This is used to display the Total Hours column in red if the user logs more time than the available hours in the timesheet's time frame. For more information, see View total hours on the timesheet.
+
+Tracking Mode
+
+An attribute of a Task. This determined how and then the Projected timelines will be updated for a Task. For example:
+
+*   User Must Update requires that a Task be updated manually. Otherwise, it will become Behind Schedule, then Late.
+*   Auto Complete will automatically complete a Task when the Due Date, or Planned Completion Date, has passed.
+
+For more information, see Task Tracking Mode overview.
+
+Trigger
+
+An event that starts a scenario.
+
+Trouble Task
+
+An incomplete Task with a condition of Late, Behind Schedule, or At Risk.
+
+Unassigned Task
+
+A Task that is not assigned to any User, Role, or Team.
+
+Update Type
+
+A setting on the Project that determines when the Project's Projected timeline will be recalculated. Options are:
+
+*   Automatic and On Change
+*   Automatic Only
+*   Manual Only
+
+For more information, see Select the project Update Type .
+
+User
+
+An account created in Workfront to allow a person to log in and interact with the system.
+
+User Delegation
+
+A reportable object that tells you:
+
+*   Which users have delegated task, issue, and project approvals
+*   Which users have had task, issue, and project approvals delegated to them
+*   When these delegations start and end
+
+To learn more, see Create a User Delegation report.
+
+User Interface
+
+All visual and interactive aspects of the Workfront application.
+
+User Interface Preferences
+
+User Interface Setup. Workfront administrators can change these settings to customize aspects of the user interface.
+
+Utilization
+
+The availability for a user or role based on the assigned schedule, PTO, and current workload.
+
+User Utilization
+
+A search combined with a report that shows how Users (Resources) are allocated or over-allocated. See _Resource Utilization_.
+
+V - Z
+-----
+
+   
+
+Object Name
+
+Description
+
+Maturity level
+
+New
+
+Velocity
+
+A measure of the total work cycle time (how long it takes to complete a piece of work) and how frequently work is done in the time originally committed (work-to-commit ratio).
+
+Ad hoc
+
+ 
+
+View
+
+Views can be used to modify the columns in a Report or in a list of projects, tasks, or issues, or they can be used to indicate a user's right to only view information on an access level or at a permissions sharing level.
+
+Ad hoc
+
+ 
+
+View Icons
+
+This is the same field as Status Icons, but it is only available for the following views:
+
+*   Documents
+
+For more information, see the article Built-in Status Icons in Views.
+
+ 
+
+ 
+
+Views Last Month
+
+In a report list, it displays the number of times the report has been viewed during the last month.  
+For more information about usage information in report lists, see the article View report usage.
+
+ 
+
+ 
+
+Views Last Quarter
+
+In a report list, it displays the number of times the report has been viewed during the last quarter.  
+For more information about usage information in report lists, see the article View report usage.
+
+ 
+
+ 
+
+Views Last Year
+
+In a report list, it displays the number of times the report has been viewed during the last year.  
+For more information about usage information in report lists, see the article View report usage.
+
+ 
+
+ 
+
+Views This Month
+
+In a report list, it displays the number of times the report has been viewed during this month.  
+For more information about usage information in report lists, see the article View report usage.
+
+ 
+
+ 
+
+Views This Quarter
+
+In a report list, it displays the number of times the report has been viewed during this quarter.  
+For more information about usage information in report lists, see the article View report usage.
+
+ 
+
+ 
+
+Views This Year
+
+In a report list, it displays the number of times the report has been viewed during this year.  
+For more information about usage information in report lists, see the article View report usage.
+
+ 
+
+ 
+
+`work`
+
+In a project, task, or issue report, using the following statement in text mode displays the Planned Hours of the project, task, or issue:
+
+valuefield=work 
+
+valueformat=HTML
+
+For information about using text mode, see Text mode syntax overview.
+
+**Tip:** In an issue report, adding one of the Planned Hours fields adds the `work` field to the report.
+
+ 
+
+ 
+
+Work
+
+One of the two primary License Types. This has less access than Plan, but can create and make updates in the system. This mas more abilities than External, Reviewer, or Requester License Types.
+
+For more information, see Adobe Workfront licenses overview.
+
+Work might refer to the number of Planned Hours for a project, task, or issue. For more information, see the "work" field in this table.
+
+**Tip:** In an issue report, adding one of the Planned Hours fields adds the `work` field to the report.
+
+ 
+
+ 
+
+Work Breakdown Structure
+
+A hierarchical structure of the tasks to be executed by the project team based on the parent/ child relationship.
+
+Managed
+
+ 
+
+Work Effort
+
+A project manager might decide to use this field instead of Planned Hours to estimate the effort needed to complete a task. This field is visible only when the following conditions are met:
+
+*   The task has a Simple Duration Type.
+    
+    **Tip:** If you update the task Duration Type to any other type, this field becomes hidden.
+    
+*   The project manager has enabled the Use Work Effort to automatically calculate task Planned Hours field on the project.
+
+For information about using Work Effort instead of Planned Hours to estimate task effort, see Work Effort overview.
+
+You can display this field in task reports and lists.
+
+ 
+
+ 
+
+Work Item
+
+This field refers to either tasks or issues in Workfront.
+
+The Work Item report displays information for both tasks and issues.
+
+ 
+
+ 
+
+Work management mix
+
+A Work Performance Indicator (WPI) of the proportion of work allocated to run your business versus change your business. The Mix WPI helps you understand, at an organizational level, whether your strategy has any real work allocation applied to it.
+
+Managed
+
+ 
+
+Work Management Persona
+
+ 
+
+Ad hoc
+
+ 
+
+Work Management Resource
+
+A designation of a persona in the system who is eligible to receive work or track time.
+
+Integrated
+
+ 
+
+Work Management Role and Responsibilities
+
+Defining the owners and stakeholders for managing the scope, execution, and approvals of the designated issue, task, project, program, or portfolio.
+
+Ad hoc
+
+ 
+
+Work management SLA
+
+A quantifiable metric agreed upon by all stakeholders.
+
+Ad hoc
+
+ 
+
+Work Management Stakeholder
+
+A collection of users with a vested interest in the outcomes of a work request.
+
+Ad hoc
+
+ 
+
+Work management touchpoints
+
+Digitized records of communication between stakeholders.
+
+Managed
+
+ 
+
+Work Performance Indicators
+
+Mix ratio, capacity, velocity, quality, and engagement.
+
+WPI is a common acronym for Work Performance Indicator.
+
+Ad hoc
+
+ 
+
+Work Process
+
+The method in which work is received, prioritized, and executed. The way you execute the work is typically called "the workflow" or "project plan" (a list of tasks with dates, predecessor relationships, and so forth).
+
+Examples of a work process might be the production of a single asset or the delivery of a multi-asset campaign.
+
+Ad hoc
+
+ 
+
+Workflow template
+
+In the Proof Approval report, this field displays any workflow templates attached to a proof. If there are no templates attached, the column is blank.
+
+ 
+
+ 
+
+Working time
+
+The data that makes up your schedules.
+
+Ad hoc
+
+ 
+
+`workRequiredExpression`
+
+In a project, task, or issue report, using the following statement in text mode displays the number of Planned Hours of the project, task, or issue followed by the word "Hours":
+
+valuefield=workRequiredExpression
+
+valueformat=HTML
+
+For information about using text mode, see Text mode syntax overview.

@@ -1,0 +1,92 @@
+---
+title: 22.4 release activity week of August 22, 2022
+description: 22.4 release activity Week of August 22, 2022
+author: Luke
+draft: Probably
+feature: Product Announcements
+exl-id: 423eaf1f-e439-4976-817f-f2ae764551ed
+---
+# 22.4 release activity: Week of August 22, 2022
+
+This page describes all enhancements made with the 22.4 release to the Preview environment the week of August 22, 2022. These enhancements will be made available in the Production environment later this year.
+
+For a list of all changes available at this point in the 22.4 release cycle, see [22.4 Release overview](/help/quicksilver/product-announcements/product-releases/22.4-release-activity/22-4-release-overview.md).
+
+## Blueprints icon on the Main Menu now controlled through layout templates
+
+System administrators can now add or remove the Blueprints icon on the Main Menu through layout template configuration. This provides greater control of who can browse the Blueprints catalog.
+
+The Blueprints icon appears in the Main Menu when:
+
+* The user has no layout template assigned
+
+* The user's layout template has the Blueprints option in the Active Items list
+
+* The user's layout template has the Blueprints option in the Available Items list, the icon does not appear in the Main Menu.
+
+Existing layout templates automatically include the Blueprints icon, and administrators can remove the icon from layout templates to restrict visibility of the Blueprints catalog. New layout templates created after the 22.4 release will include the Blueprints icon in the Active Items list.
+
+For more information, see [Configure access to Blueprints](/help/quicksilver/administration-and-setup/blueprints/configure-access-to-blueprints.md).
+
+## Migration to Adobe Unified Experience
+
+If your organization has been onboarded to the Adobe Admin Console, your Workfront instance will be migrated to the Adobe Unified Experience with the 22.4 release.
+
+The Adobe Unified Experience includes:
+
+* A single login for all Adobe applications through Adobe Experience Cloud
+
+* An "organization switcher" to move between Workfront organizations and environments
+
+* Navigation with options for Workfront pages, Adobe Experience Cloud preferences, and your Workfront profile
+
+For more information, see [Adobe Unified Experience for Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
+
+## Task header customization
+
+As a Workfront or group administrator, you can now customize the fields that display in the header of a task when you use a Layout Template. 
+
+This update includes the following enhancements: 
+
+* Remove or rearrange existing fields from the task header.  
+
+* Add new, non-editable Task Overview fields. You cannot add custom fields or fields that can be edited. You can also display editable fields that are currently on the task header (for example, Status or Percent Complete).    
+
+* The task header can include up to five fields. 
+
+Prior to this release, only project headers could be customized. 
+
+For more information, see [Customize object headers using a Layout Template](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md).
+
+## Workload Balancer enhancements for Work-license users and Issue settings 
+
+The following enhancements have been added to the Workload Balancer, in preparation for the deprecation of the Scheduling tools:  
+
+* Work-license users can now adjust allocations  
+
+* Issues display in the Unassigned Work area when enabling the "Include hours from issues" setting 
+
+Prior to these enhancements, only Plan-license users could adjust user allocations and issues displayed only in the Assigned Work area.  
+
+For more information, see the following articles:  
+
+* [Navigate the Workload Balancer](/help/quicksilver/resource-mgmt/workload-balancer/navigate-the-workload-balancer.md). 
+
+* [Manage user allocations in the Workload Balancer](/help/quicksilver/resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md). 
+
+For more information about the deprecation of Scheduling, see [Deprecation of Resource Scheduling tools in Adobe Workfront](/help/quicksilver/resource-mgmt/resource-mgmt-overview/deprecate-resource-scheduling.md).
+
+## Smart user selection for project roles in the Edit and Details areas 
+
+We have improved the way users display when you add them to the following project fields from the Edit box and the Details section of the project:  
+
+* Project Owner 
+
+* Project Sponsor 
+
+* Resource Manager 
+
+Now, when you add a user to any of these fields in the Edit or Details areas, in addition to their name and avatar, we also display their Primary Role and their email. This helps distinguish between multiple users with similar or identical names.    
+
+For more information, see [Edit Projects](/help/quicksilver/manage-work/projects/manage-projects/edit-projects.md).
+

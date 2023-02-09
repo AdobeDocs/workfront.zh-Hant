@@ -1,0 +1,527 @@
+---
+filename: understand-fields-lists-reports
+content-type: reference
+product-area: reporting
+navigation-topic: reporting-navigation-topic
+title: Fields in lists and reports
+description: Fields in lists and reports
+author: Nolan
+hidefromtoc: true
+---
+
+# Fields in lists and reports
+
+<!--
+<div data-mc-conditions="QuicksilverOrClassic.Draft mode">
+<p>(NOTE: Alina: ********ALWAYS READ THIS BEFORE YOU CREATE A NEW DRAFT: ALL WRITERS ARE WORKING ON THIS ARTICLE. IF YOU WANT TO UPDATE THIS, DO A SEARCH AND MAKE SURE THAT THERE ARE NO OTHER DRAFTS THAT WILL OVERWRITE YOURS, OR THAT YOU WON'T OVERWRITE SOMEONE ELSE'S!****</p>
+<p>After 18.2, when the Resource Budgeted Hours might come back, this needs to be added back in:</p>
+<p>Planned Budgeted Hours =&nbsp;In a Resource Budgeted Hour report, the Planned Budgeted Hours are the hours budgeted for a project, job role, or user in the Resource Planner.&nbsp;For more information about budgeting hours in the Resource Planner, see the "Budgeting Allocations in the Resource Planner" section in "Planning in the Resource Planner.") </p>
+</div>
+-->
+
+>[!NOTE]
+>
+>The information in this article has been added to the Adobe Workfront glossary. This article will be deleted in the near future. For the Workfront glossary, see [Glossary of Adobe Workfront terminology](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
+
+<!--
+<note type="important">  This article should be used as a reference to understand the fields that are visible through the report builder in Workfront. The fields available in the report builder are listed in the following table in alphabetical order. We are currently&nbsp;updating this information and as a result this table might not be complete. We will remove this disclaimer when we consider this information exhaustive.&nbsp;
+</note>
+-->
+
+Workfront fields are available to be configured in the following reporting elements:
+
+* Views
+* Filters
+* Groupings
+* Prompts
+
+For more information about reporting elements, see the article [Reporting elements overview](../../../reports-and-dashboards/reports/reporting-elements/reporting-elements-overview.md).
+
+For more information about building reports, see[Create and manage reports](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-manage-reports.md).
+
+When creating a report, you can select what objects or fields associated with those objects you want to show in your report. Those will become your report columns, groupings, filters, or prompts. You can build standalone views, filters, and groupings for lists of objects, as well, in the same manner you would build them inside the report builder.&nbsp;
+
+![](assets/4-350x176.png)
+
+The following table is a list of commonly used objects and fields that you can display in reports and lists. Not all fields are available on all objects:&nbsp;&nbsp;
+
+<!--
+<table style="table-layout:auto">
+<col>
+<col>
+<thead>
+<tr>
+<th>Object Name</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td> <p>Actual Hours</p> </td>
+<td> <p>In a project, task, or issue report, Actual Hours are the sum of all hours logged on the project, task, or issue.&nbsp;</p> </td>
+</tr>
+<tr>
+<td> <p>Allocation Date</p> </td>
+<td> <p>You can find this field in the following types of reports:</p>
+<ul>
+<li>Resource Estimates</li>
+<li>Project (Financial Data)</li>
+<li>Budgeted Hour</li>
+</ul> <p>For a Resource Estimates or Project (Financial Data) report: </p>
+<ul>
+<li>Build these reports when trying to understand how resources are budgeted for work, or the amount of Planned Hours that is assigned to your resources.</li>
+<li> <p>The Allocation Date is the first day (Sunday) of a week in which the allocation of a Job Role to a task starts. A resource (Job Role) can have as many Allocation Dates as it has weeks during the Duration of the tasks that it is assigned to. If tasks span over multiple months, then the first day of a month can also become an Allocation Date, if it falls within the Duration of the task.&nbsp;</p> <p>For example, you can have a Job Role assigned to a task that spans over 3 weeks and has 90 Planned Hours. These hours are spread evenly during the duration of the task, which makes every day assign 6 Planned Hours to your job role:</p> <p><em> Daily Planned Hours = Total Planned Hours/ Number of Work Days during the Duration of the task </em> </p> <p>As a result, there are three Allocation Dates, one for every Sunday of every week during the Duration of the task, each with a certain number of Planned Hours associated with them.<br>If the task starts in the middle of the last week of a month and ends two weeks after the beginning of a new month, the task will have four Allocation Dates: one for every Sunday of every week during the Duration of the task, and one for the first day of the new month.</p> <p>To make the most use of this information, we recommend that you build a Resource Estimates or a Project (Financial Data) report and add a matrix grouping for Allocation Date, and group the results weekly, monthly, quarterly, or yearly for the most accurate data.<br>For information about building a matrix grouping, see the article <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/create-matrix-report.md" class="MCXref xref">Create a matrix report</a>.</p> </li>
+</ul>
+<div>
+<p>For a Budgeted Hour report:</p>
+<ul>
+<li>Build this report when trying to understand the amount of Budgeted Hours that is allocated to your resources or to your projects in the Resource Planner.</li>
+<li> <p>The Allocation Date is the first day (a Sunday) of the week for which you budgeted the hours in the Resource Planner. </p> <note type="tip">  
+<p>If a week spans for two months, it will generate two rows in the report: one corresponding to the first day of the week (Sunday of the first week which is during the first month), and the second row displays the first day of the second month. </p>
+<p>For example, if you budget 8 hours for a user for the week of June 30 (Sunday) - July 6 (Saturday), the two rows show an Allocation Date of June 30, and July 1. </p>
+</note> <p>For information about budgeting resources in the Resource Planner, see the article <a href="../../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md" class="MCXref xref">Budget resources in the Resource Planner using the Project and Role views</a>.</p> </li>
+</ul>
+</div> <p> &nbsp; </p> </td>
+</tr>
+<tr>
+<td> <p>Approver Decision</p> </td>
+<td> <p>In the Proof Approval report, displays&nbsp;proof approval decisions for proofs that are no longer active.</p> </td>
+</tr>
+<tr>
+<td> <p>Assigned To</p> </td>
+<td> <p>In a Task or Issue report, this field displays the Owner of the task or the issue, or the Primary Assignee. You can filter or group by this field, as well.&nbsp;</p> </td>
+</tr>
+<tr>
+<td> <p>Assignments</p> </td>
+<td> <p>In a Task or Issue report, this field displays a list of all entities (users, job roles, teams) that are assigned to the task or issue. You can filter by this field only in a text mode filter. You cannot group the&nbsp;report by this field.&nbsp;</p> </td>
+</tr>
+<tr>
+<td>Assignment Users</td>
+<td>In a Task or Issue report, this field displays information about the users assigned to the tasks or issues.&nbsp;This field displays Primary&nbsp;Owners, as well as other users assigned to tasks or issues. </td>
+</tr>
+<tr>
+<td>Assignment Roles</td>
+<td>In a Task or Issue report, this field displays information about the job roles assigned to the tasks or issues.&nbsp;This field displays Primary&nbsp;Owners, as well as other job roles assigned to tasks or issues. </td>
+</tr>
+<tr>
+<td> <p>Budget Status</p> </td>
+<td> <p>Shows&nbsp;whether the project is currently added to the capacity planner and if the budget calculation has been completed&nbsp;for it.</p> <p>If the project is&nbsp;not added to the capacity planner, its value is "Not Included."&nbsp;</p> <p>If the project is&nbsp;added to the Capacity Planner but is excluded from the budget calculation,&nbsp;the value is "Included but not Calculated."&nbsp;</p> <p> If the project is&nbsp;added to the Capacity Planner and included in the budget calculation, the value is "Included and Calculated." </p> </td>
+</tr>
+<tr>
+<td> <p>Budgeted Completion Date</p> </td>
+<td> <p>This is a deprecated field that shows the date when the budgeting of resources ends, as defined in the Legacy Resource Estimates area of the Business Case of a project, or the Capacity Planner. The field is available in project and task reports.&nbsp;</p> <!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: I am leaving this in for quicksilver, too, because the field does exist in QS as well - Pandora won't hide it going forward so we need to document it because it still pulls in reports)&nbsp;</p>
+--> </td>
+</tr>
+<tr>
+<td> <p>Budgeted Cost or Project Budgeted Cost</p> </td>
+<td> <p>The Budgeted Cost for the project is calculated using the following formula:<br></p> <p><code>Budgeted Cost =&nbsp;Budgeted Expense Cost + Budgeted Labor Cost + Fixed Cost of the project</code> </p> <p>The Budgeted Labor Cost in the calculation above refers to both labor costs for hours budgeted in the Legacy Resource Estimates area of a project (or in the Capacity Planner), and hours budgeted in the Resource Budgeting area of the Business Case (or in the Resource Planner). </p> <note type="important">
+The Capacity Planner and Legacy&nbsp;Resource Estimates areas are currently deprecated and will be removed from&nbsp;Workfront.
+</note> <!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: remove this info from the whole article when this is removed)</p>
+--> <p>You can locate the Budgeted Cost field based on the hours budgeted in the Resource Planner in the following areas and reports in&nbsp;Workfront: </p>
+<ul>
+<li>Business Case Summary</li>
+<li>Portfolio Optimizer (in the Cost field)</li>
+<li> <p>In the following reports, in the Project Budgeted Cost field: </p>
+<ul>
+<li>Resource Estimates report</li>
+<li>Budgeted Hour report </li>
+<li>Project report</li>
+<li>Project (Financial&nbsp;Data)</li>
+<li>Task&nbsp;report</li>
+<li>Issue report</li>
+</ul> </li>
+</ul> <p>You can locate the Budgeted Cost field based on the hours budgeted in the Capacity Planner in the following areas and reports in&nbsp;Workfront: </p>
+<ul>
+<li>Resource Estimates report</li>
+<li>Budgeted Hour report </li>
+<li>Project report</li>
+<li>Project (Financial Data)</li>
+<li>Task&nbsp;report</li>
+<li>Issue report</li>
+</ul> <p>For more information about calculating Budgeted Cost, see the article <a href="../../../manage-work/projects/project-finances/budgeted-cost.md" class="MCXref xref">Calculate Budgeted Cost</a>. </p> </td>
+</tr>
+<tr>
+<td>Budgeted Hours or Bud. Hours or Pln. Bud. Hours</td>
+<td> <p>These are the hours that you, as the Resource Manager, budget for your resources for the work they need to complete on projects. This field refers to both hours budgeted in the Legacy Resource Estimates area of a project (or in the Capacity Planner), and hours budgeted in the Resource Budgeting area of the Business Case (or in the Resource Planner). </p> <p>You can locate the Budgeted Hours from the Resource Planner in the following areas and reports in&nbsp;Workfront: </p>
+<ul>
+<li>Resource Planner Hours view (in the BDG column)</li>
+<li>Utilization report Hours view</li>
+<li>Resource Budgeting area of the Business Case (in the Hours field)</li>
+<li>Budgeted Hour report (the Bud. Hours field refers to hours budgeted for users; the Pln. Bud. Hours field refers to hours budgeted for roles or projects)</li>
+</ul> <p>You can locate the Budgeted Hours from the&nbsp;Capacity Planner in the following areas and reports in&nbsp;Workfront: </p>
+<ul>
+<li>Capacity Planner</li>
+<li>Legacy&nbsp;Resource Estimates area of the Business Case (in the Hours field)</li>
+<li>Resource Estimates report (in the Bud. Hours field)</li>
+<li>Budgeted Hour report (in the Budgeted Hours field)</li>
+<li>Project report</li>
+<li>Project (Financial&nbsp;Data)</li>
+<li>Task&nbsp;report</li>
+<li>Issue report</li>
+</ul> <p>The Capacity Planner and Legacy&nbsp;Resource Estimates areas are currently deprecated and will be removed from Workfront. For information about budgeting Users in the Resource Planner, see the article <a href="../../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md" class="MCXref xref">Budget resources in the Resource Planner using the Project and Role views</a>.</p> </td>
+</tr>
+<tr>
+<td> <p>Budgeted Labor Cost or Resource Planner Budgeted Cost </p> </td>
+<td> <p>This is the cost associated with the hours that you, as the Resource Manager, budget for your resources for the work they need to complete on projects. </p> <p>The Budgeted Labor Cost in a project report is calculated using the following formula:</p> <p><code style="font-style: normal;">Budgeted Labor Cost = SUM(Job Role Cost per Hour * Budgeted Hours per Job Role)</code> </p> <p>This field refers to both labor costs for hours budgeted in the Legacy Resource Estimates area of a project (or in the Capacity Planner), and hours budgeted in the Resource Budgeting area of the Business Case (or in the Resource Planner). </p> <note type="important">
+The Capacity Planner and Legacy&nbsp;Resource Estimates areas are currently deprecated and will be removed from&nbsp;Workfront.
+</note> <!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: remove this info from the whole article when this is removed) </p>
+--> <p>You can locate the Budgeted Labor Cost field based on the hours budgeted in the Resource Planner in the following areas and reports in&nbsp;Workfront: </p>
+<ul>
+<li>Resource Planner Cost view (in the BDG column)</li>
+<li>Utilization report Cost view (in the Budgeted Cost column)</li>
+<li>Resource Budgeting area of the Business Case </li>
+<li> <p>In the following reports, in the Resource Planner Budgeted Labor Cost field: </p>
+<ul>
+<li>Resource Estimates report</li>
+<li>Budgeted Hour report </li>
+<li>Project report</li>
+<li>Project (Financial&nbsp;Data)</li>
+<li>Task&nbsp;report</li>
+<li>Issue report</li>
+</ul> </li>
+</ul> <p>You can locate the Budgeted Labor Cost based on the hours budgeted in the Capacity Planner in the following areas and reports in&nbsp;Workfront: </p>
+<ul>
+<li>Capacity Planner</li>
+<li>Legacy&nbsp;Resource Estimates area of the Business Case (in the Legacy Budgeted Labor Cost field)</li>
+<li>Resource Estimates report</li>
+<li>Budgeted Hour report </li>
+<li>Project report</li>
+<li>Project (Financial Data)</li>
+<li>Task&nbsp;report</li>
+<li>Issue report</li>
+</ul> <p>For more information about calculating the Budgeted Labor Cost, see the article <a href="../../../manage-work/projects/project-finances/budgeted-labor-cost.md" class="MCXref xref">Understand Budgeted Labor Cost and Budgeted Hours for projects</a>&nbsp;&nbsp;</p> </td>
+</tr>
+<tr>
+<td> <p>Budgeted Start Date</p> </td>
+<td> <!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: I am leaving this in for quicksilver, too, because the field does exist in QS as well - Pandora won't hide it going forward so we need to document it because it still pulls in reports)</p>
+--> <p>This is a deprecated field that shows the date when the budgeting of resources starts, as defined in the Legacy Resource Estimates area of the Business Case of a project, or the Capacity Planner.&nbsp;The field is available in project and task reports.&nbsp;</p> </td>
+</tr>
+<tr>
+<td>Completion Day</td>
+<td>In a template or template task report, this is the day in the timeline of the template when the template task or the template completes. By default, the template has a Completion Day of 0 before you start adding template tasks to it. After adding the template tasks, the tasks and the template show a Completion Day of 1 because Workfront assumes a Duration of 1 Day for each new template task. When you start adding Task&nbsp;Constraints, Duration, or dependencies to your template tasks, the Completion Day might change to reflect these changes.<p>For more information about the Completion&nbsp;Day in a template, see <a href="../../../manage-work/projects/create-and-manage-templates/edit-templates.md" class="MCXref xref">Edit project templates</a>.</p></td>
+</tr>
+<tr>
+<td> <p>Can Start</p> </td>
+<td> <p>Shows if a task is ready to start to be worked on. &nbsp;The system checks for the following things before it marks a task as "True" for the "Can Start" field:<br></p> <p>- If the task has a parent, it checks to see if the value of "Can Start" for the parent it set to "True". If the value for the parent is "False", then all the subtasks have the value of "Can Start" set to "False", as well.&nbsp;</p> <p>- It also checks to see if the predecessors of the task are complete. If they are complete, the "Can Start" value for the task is set to "True". If any of the predecessors is not complete, or has a status of "Complete - Pending Approval", then the "Can Start" value for the task is set to "False".&nbsp;</p> </td>
+</tr>
+<tr>
+<td> <p>Category</p> </td>
+<td> <p>A category is a custom form. You can build reports for this object and you can show it in other object reports, as well. <br>Not all objects can have a custom form, or category. <br>The following objects can have a custom form:&nbsp;<br>- Project<br>- Task<br>- Issue<br>- Portfolio<br>- Document<br>- Expense<br>- Program<br>- User<br>- Company<br>- Iteration</p> </td>
+</tr>
+<tr>
+<td>Category&nbsp;Name</td>
+<td> <p>When added as a column to the view of any of the following objects it displays a list of all custom forms associated with these objects:</p> <p>- Project<br>- Task<br>- Issue<br>- Portfolio<br>- Document<br>- Expense<br>- Program<br>- User<br>- Company<br>- Iteration</p> </td>
+</tr>
+<tr>
+<td> <p>Condition</p> </td>
+<td> <p>It is a visual representation of the progress of a task, issue or project.&nbsp;</p> <p>For projects, the condition can be manually set by the project owner or it can be automatically set by Workfront, based on the progress status of the project. For more information about project condition, see the article <a href="../../../manage-work/projects/manage-projects/project-condition-and-condition-type.md" class="MCXref xref">Overview of Project Condition and Condition Type</a>.</p> <p>The possible values for the project condition are:<br>- On Target<br>- At Risk<br>- In Trouble</p> <p>For tasks, the condition is set manually by the task&nbsp;owner.<br>The possible values for the task condition are:<br>- Going Smoothly<br>- Some Concerns<br>- Major Roadblocks</p> <p>For more information about task condition, see the article <a href="../../../manage-work/projects/updating-work-in-a-project/update-condition-for-tasks-and-issues.md" class="MCXref xref">Update Condition for tasks and issues</a>.</p> <p>For issues, the condition is set manually by the issue&nbsp;owner.<br>The possible values for the task condition are:<br>- Going Smoothly<br>- Some Concerns<br>- Major Roadblocks</p> </td>
+</tr>
+<tr>
+<td> <p>Condition Update</p> </td>
+<td> <p>Shows the current condition of tasks, projects or issues.</p> <p>This option&nbsp;shows the most recent&nbsp;updates&nbsp;that the owners of tasks, projects or issues&nbsp;have provided in the 'Update Status' field, along with the new condition.&nbsp;</p> <p>Comments made on condition updates are not displayed in the 'Condition Update' column; only the main update is displayed.</p> </td>
+</tr>
+<tr>
+<td> <p>Constraint Date</p> </td>
+<td> <p>If you are using a Task Constraint that is tied to a specific date, such as Must Start On, then that specific date becomes the Constraint Date of the task.<br><br>The following task constraints update the Constraint Date field:</p>
+<ul>
+<li>Must Start On</li>
+<li>Must Finish On</li>
+<li>Start No Later Than</li>
+<li>Start No Earlier Than</li>
+</ul> <note type="note">  Constraint Date is only viewable in a report or customized view.
+</note> </td>
+</tr>
+<tr>
+<td>Constraint Day</td>
+<td> <p>If you are using a Task Constraint in a template task that is tied to a specific day, such as Must Start On, then that specific day becomes the Constraint Day of the template task.&nbsp;</p> <p>The following task constraints update the Constraint Day field:</p>
+<ul>
+<li>Must Start On</li>
+<li>Must Finish On</li>
+<li>Start No Later Than</li>
+<li>Start No Earlier Than</li>
+</ul> <note type="note">  Constraint Day is only viewable in a report or customized view.
+</note> </td>
+</tr>
+<tr>
+<td> <p>Dashboards</p> </td>
+<td> <p> You can add this field in a report or a list of the report object, to display the dashboards on which the report is listed in a list. </p> <p> You can use this field to filter for reports that are listed on a specific dashboard, as well. </p> <p> For more information about including dashboard information on report object reports, see the “Understanding What Reports Are Listed on Dashboards” section in the article <a href="../../../reports-and-dashboards/reports/report-usage/access-organize-reports.md" class="MCXref xref">Access and organize reports</a>.</p> </td>
+</tr>
+<tr>
+<td> <p>Days Late</p> </td>
+<td> <p>Shows a date difference between Planned Start and Today if the Actual Completion Date is missing.</p> <p>Also&nbsp;shows a date difference between Actual Completion and Planned Completion, when an Actual Completion Date is present.</p> </td>
+</tr>
+<tr>
+<td> <p>Duration</p> </td>
+<td> <p>This field appears on projects, tasks and issues. It is the number of days between the Planned Start and the Planned Completion Date of the object.&nbsp;</p> <p>For tasks, the Duration is an editable field if the Duration Type of the task is not Simple. If the Duration Type of the task is Simple, or if the Task Constraint is Fixed Dates, the Duration is a calculation performed by Workfront.&nbsp;</p> <p>For issues, the Duration is always an editable field and it should represent an estimate of a number of days that would require the issue to be resolved.&nbsp;</p> <p>For projects, the Duration is a calculation performed by Workfront and it represents the difference in days between the Planned Start of the earliest task and the Planned Completion of the latest task on the project.&nbsp;</p> <p>For more information about the difference between Duration and Planned Duration for tasks, see the article <a href="../../../manage-work/tasks/task-information/planned-duration-vs-duration-for-tasks.md" class="MCXref xref">Difference between Planned Duration and Duration for tasks</a>.</p> </td>
+</tr>
+<tr>
+<td> <p>End Date</p> </td>
+<td> <p> In a Rate report, this is the date when a new billing rate for a job role at the project level ends. The hours associated with the project that are before this date are multiplied by this billing rate to calculate the revenue on the project. </p> </td>
+</tr>
+<tr>
+<td> <p>Flags</p> </td>
+<td> <p> This is the same field as Status Icons, but it is only available for the following views: </p>
+<ul>
+<li> Templates </li>
+<li> Expenses </li>
+</ul> <p> For more information, see the article <a href="../../../reports-and-dashboards/reports/using-built-in-reports/built-in-status-icons-views.md" class="MCXref xref">Built-in Status Icons in Views</a>.</p> </td>
+</tr>
+<tr>
+<td> <p>Group Administrator</p> </td>
+<td> <p> In a Group report, this field displays the names of the users designated as Group Administrators in the Group. For more information, see <a href="../../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">Group administrators</a>.</p> </td>
+</tr>
+<tr>
+<td> <p>Group with Administration Access</p> </td>
+<td> <p> In a Layout Template, Timesheet Profile, or Schedule report, this field displays the Groups whose Group Administrators have access to modify the template. You can also filter this report by this field. For more information about Group with Administration Access, see the article <a href="../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md" class="MCXref xref">Create and manage layout templates</a>.</p> </td>
+</tr>
+<tr>
+<td> <p>Handoff Date</p> </td>
+<td> <p>The date when a task becomes available for work. The Handoff Date is a calculation and cannot be set manually. <br>For more information about the Handoff Date, see the article <a href="../../../manage-work/tasks/task-information/handoff-task-date.md" class="MCXref xref">Task Handoff Date overview</a>.</p> </td>
+</tr>
+<tr>
+<td> <p>(Hour) Owner</p> </td>
+<td> <p>In an Hour report, the&nbsp;Hour Owner is the user to whom the hours are attributed. This is different than the user who is actually logging the time. These two entities can sometimes be two different users. <br>For more information about logging time for another user, see the article <a href="../../../timesheets/create-and-manage-timesheets/log-time.md" class="MCXref xref">Log time</a>.</p> </td>
+</tr>
+<tr>
+<td> <p>Kanban Flag</p> </td>
+<td> <p>In a Task Report or Issue Report,&nbsp;the Kanban Flag field displays the flag status that is set on the story on the Kanban board. Possible values are On Track, Ready to Pull, and Is Blocked.</p> <p>For more information about setting flag status on stories on the Kanban story board, see&nbsp; the article <a href="../../../agile/use-kanban-in-an-agile-team/use-flags-on-stories.md" class="MCXref xref">Use flags on stories on the Kanban board</a>.</p> </td>
+</tr>
+<tr>
+<td> <p>Last 10 Viewers</p> </td>
+<td> <p>In a report list, it displays the names of up to 10 users who have viewed the report most recently.<br>For more information about usage information in report lists, see the article <a href="../../../reports-and-dashboards/reports/report-usage/view-report-usage.md" class="MCXref xref">View report usage</a>.</p> </td>
+</tr>
+<tr>
+<td> <p>Last Condition Note</p> </td>
+<td> <p>Displays the update last entered on an object by the&nbsp;owner of the object.<br>This field is helpful to display the owner's most recent activity or interaction on an object.</p> <p>The Last Condition Note column is&nbsp;empty if the note text of the last note of an object has been deleted. When a new note is entered on the object, it becomes the last note and it displays again in the column.&nbsp;</p> </td>
+</tr>
+<tr>
+<td> <p>Last Note</p> </td>
+<td> <p>Displays the update last entered on an object by any user.<br>This field is helpful to display the most recent activity or interaction on an object.</p> <p>The Last Note column is empty if the text of the last note of an object has been deleted. When a new note is entered on the object, it becomes the last note and it displays again in the column.&nbsp;</p> </td>
+</tr>
+<tr>
+<td> <p>Last Viewed By</p> </td>
+<td> <p>In a report list, it displays information about the user who viewed the report last.<br>For more information about usage information in report lists, see the article <a href="../../../reports-and-dashboards/reports/report-usage/view-report-usage.md" class="MCXref xref">View report usage</a>.<br></p> </td>
+</tr>
+<tr>
+<td> <p>Last Viewed Date</p> </td>
+<td> <p>In a report list, it displays the date on which the report was displayed last.<br>For more information about usage information in report lists, see the article <a href="../../../reports-and-dashboards/reports/report-usage/view-report-usage.md" class="MCXref xref">View report usage</a>.</p> </td>
+</tr>
+<tr>
+<td> <p>Legacy Resource Pool</p> </td>
+<td> <p>The Legacy Resource Pool is a collection&nbsp;of job roles associated with a project or a user. The functionality of the Legacy Resource Pools is displayed in the tools available in the Legacy Resource Planning tab of the People area. For more information about Legacy Resource Planning, see the article <a href="../../../resource-mgmt/resource-planning/resource-planning-overview.md">Resource Planning</a>. This is a deprecated field. </p> <!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: Leave this field in both classic and Qs because it exists in both) </p>
+--> </td>
+</tr>
+<tr>
+<td> <p>License Type Limit: Planner Limit</p> </td>
+<td> <p>In a Group view or report, this shows the maximum number of Plan licenses that can be assigned to users who have the respective group designated as their Home Group.</p> </td>
+</tr>
+<tr>
+<td> <p>License Type Limit: Worker Limit</p> </td>
+<td> <p>In a Group view or report, this shows the maximum number of Work licenses that can be assigned to users who have the respective group designated as their Home Group.</p> </td>
+</tr>
+<tr>
+<td> <p>Note Text</p> </td>
+<td> <p>Displays the text of an update entered by an user on any object.&nbsp;</p> </td>
+</tr>
+<tr>
+<td> <p>Parameter</p> </td>
+<td> <p>A parameter is a custom field. You can build a report for all parameters, or custom fields in your system.&nbsp;</p> </td>
+</tr>
+<tr>
+<td>Percent Complete</td>
+<td> <p>A project, task, or issue field that shows what percentage of the work associated with the task, project, or issue is completed.</p> <p>You can update this field manually for issues and working tasks. </p> <p>For projects and parent tasks, this field is a roll-up from all the working tasks and you cannot update it manually. </p> </td>
+</tr>
+<tr>
+<td>Planned Budgeted Hours</td>
+<td> <p>In a Budgeted Hour report, this displays the amount of hours budgeted for Projects or Job Roles in the Resource Planner. </p> <p>For information about budgeting Projects or Roles in the Resource Planner, see the article <a href="../../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md" class="MCXref xref">Budget resources in the Resource Planner using the Project and Role views</a>. For information about the Budgeted Hours report, see the article <a href="../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/report-budgeted-hour.md" class="MCXref xref">Report: Budgeted Hour</a>.</p> </td>
+</tr>
+<tr>
+<td> <p>Planned Completion Date</p> </td>
+<td> <p>You can manually set the Planned Completion Date to a date of your choosing. If you do not set the Planned Completion Date, Workfront&nbsp;sets it automatically. When set automatically, the Planned Completion Date is:&nbsp;Planned Start Date + Duration</p> <p>For more information, see the article <a href="../../../manage-work/projects/planning-a-project/project-planned-completion-date.md" class="MCXref xref">Set the project Planned Completion Date</a>.</p> </td>
+</tr>
+<tr>
+<td> <p>Planned Cost</p> </td>
+<td> <p>A total of the Planned Labor Cost&nbsp;and the Planned Expense Cost of the project. This does not include the Planned Risk Cost on the project.&nbsp;&nbsp;</p> </td>
+</tr>
+<tr>
+<td> <p>Planned Duration</p> </td>
+<td> <p>A task's Planned Duration is usually the same as the task's Duration. It represents the difference in days between the Planned Start and the Planned Completion Dates of the task.&nbsp;</p> <p>When the task has a Duration Type of Effort Driven, the Planned Duration can differ from the Duration of the task, based on how many resources you assign to the task.&nbsp;</p> <p>For example, if a task with a Duration Type of Effort Driven has a Duration of 3 days and you assign one resource with a full time schedule to the task, the Planned Duration is 3 days, as well. If you assign three resources with a full time schedule to the same task, the Duration stays 3 days, but the Planned Duration becomes 1 day. The Planned Duration also changes the Planned Start and Planned Completion dates of the task, to reflect the new Planned Duration. As a result, the timeline of the project is affected as well.&nbsp;</p> <p>For more information about the difference between Duration and Planned Duration for tasks, see the article <a href="../../../manage-work/tasks/task-information/planned-duration-vs-duration-for-tasks.md" class="MCXref xref">Difference between Planned Duration and Duration for tasks</a>.</p> <p>Projects and issues don't have a Planned Duration.&nbsp;</p> </td>
+</tr>
+<tr>
+<td> <p>Planned Duration Minutes</p> </td>
+<td> <p>The Planned Duration Minutes of a project or an issue is the Duration of the project or issue in minutes.&nbsp;</p> <p>Tasks don't have a Planned Duration Minutes field.&nbsp;</p> <p>Template Tasks have a Planned Duration Minutes field which displays the Planned Duration of the task in minutes.&nbsp;</p> </td>
+</tr>
+<tr>
+<td> <p>Planned Expense Cost</p> </td>
+<td> <p>Total&nbsp;of the Planned Amounts&nbsp;of all the expenses on the project.</p> </td>
+</tr>
+<tr>
+<td> <p>Planned Hours</p> </td>
+<td> <p>This field appears on projects, tasks, and issues.&nbsp;</p> <p>It shows the amount of hours that the Project Owner estimates that each task or issue should take to complete. </p> <p>For tasks, you can manually update this field when the Duration Type of the task is Calculated Assignment. This field is calculated by Workfront when the Duration Type of the task is Calculated Work, Effort Driven, or Simple.<br>For information about Task Duration, see the article <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">Overview of Task Duration and Duration Type</a>.<br>Planned Hours are distributed equally to all the days within the duration of each task. They are stored in minutes in the Workfront database.<br></p> <p>Workfront calculates the Planned Hours of a Project by adding all Planned Hours from all the tasks on the project. </p> <p>You can manually update this field for Issues.&nbsp;Issue Planned Hours are not added to the Project Planned Hours.&nbsp;</p> </td>
+</tr>
+<tr>
+<td> <p>Planned Labor Cost</p> </td>
+<td> <p>For a task, the hourly rate of the user or role, multiplied by the number of hours assigned to the user or role.&nbsp;</p> <p>For a project, it is a total of all Planned Labor Costs of all the tasks.&nbsp;&nbsp;</p> <p>Whether the rate of the user or role is used depends on the Cost Type that is selected for the given task, as described in the section <a href="../../../manage-work/projects/project-finances/track-costs.md#modifying-cost-types-for-individual-tasks">Modifying Cost Types for Individual Tasks</a> in&nbsp; the article <a href="../../../manage-work/projects/project-finances/track-costs.md" class="MCXref xref">Track costs</a>.</p> <!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: Alina: this is linked elsewhere)</p>
+--> </td>
+</tr>
+<tr>
+<td> <p>Planned Risk Cost</p> </td>
+<td> <p>The total of the Potential Cost of all the risks on the project. This amount is not included in the Planned Cost of the project.</p> </td>
+</tr>
+<tr>
+<td>Project Budgeted Cost</td>
+<td>See Budgeted&nbsp;Cost</td>
+</tr>
+<tr>
+<td> <p>Proof Deadline</p> </td>
+<td> <p>In reports that contain the Document Version object (such as a Document Version report and Proof Approval report), displays the day of the week, date, time of day, and year of the proof deadline.</p> </td>
+</tr>
+<tr>
+<td> <p>Proof Decision</p> </td>
+<td> <p>In reports that contain the Document Version object (such as a Document Version report&nbsp; and Proof Approval report), displays the decision status of the proof (pending, changes required, or approved)</p> </td>
+</tr>
+<tr>
+<td> <p>Proof Name</p> </td>
+<td> <p>In reports that contain the Document Version object (such as a Document Version report and Proof Approval report), displays the proof name.</p> </td>
+</tr>
+<tr>
+<td> <p>Proof Pages</p> </td>
+<td> <p>In reports that contain the Document Version object (such as a Document Version report and Proof Approval report), displays the number of pages included in the proof.</p> </td>
+</tr>
+<tr>
+<td> <p>Proof Progress</p> </td>
+<td> <p>In reports that contain the Document Version object (such as a Document Version report and Proof Approval report), displays the progress status of the proof (Sent, Opened, Commented, Decision Made).</p> <p>For more information, see the section <a href="../../../review-and-approve-work/proofing/proofing-overview/view-progress-status-proof.md#understanding-progress-and-status" class="MCXref xref">Proof progress overview</a> in the article <a href="../../../review-and-approve-work/proofing/proofing-overview/view-progress-status-proof.md" class="MCXref xref">Proof progress and status overview</a>.</p> </td>
+</tr>
+<tr>
+<td> <p>Rank</p> </td>
+<td> <p>In an Access Level report, you can manually indicate a Rank of the Access Level. This helps you, as the Workfront administrator, to visually identify the level of complexity associated with each Access Level. For example, you can give lower numbers for more complex (Plan-level) Access Levels, and higher numbers for less complex (Requestor-level) Access Levels. You cannot rank the standard Access Levels.&nbsp;</p> </td>
+</tr>
+<tr>
+<td> <p>Ready</p> </td>
+<td> <p>This is a field on a task report which indicates whether&nbsp;an Agile task has been marked as "Ready" on the backlog. This flag only applies to Agile tasks, which are tasks assigned to an Agile team.&nbsp;</p> </td>
+</tr>
+<tr>
+<td>Rejection&nbsp;Issue</td>
+<td>In a project or a task report, this is the issue that is created when the approval for the project or the task is rejected. For information about rejection issues, see the article <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md" class="MCXref xref">Create an approval process for work items</a>. </td>
+</tr>
+<tr>
+<td> <p>Resolve Issue/ Project/ Task</p> </td>
+<td> <p>In an issue report, use this field in views or filters to refer to the issue, the project, or the task that resolves the issue. </p> <p>For information about displaying resolving objects in reports, see the section <a href="../../../manage-work/issues/convert-issues/resolving-and-resolvable-objects.md" class="MCXref xref">Overview of Resolving and Resolvable Objects </a> in the article <a href="../../../manage-work/issues/convert-issues/resolving-and-resolvable-objects.md" class="MCXref xref">Overview of Resolving and Resolvable Objects </a>.</p> </td>
+</tr>
+<tr>
+<td> <p>Resource Managers</p> </td>
+<td> <p>Resource Managers can perform resource scheduling actions on a project.&nbsp;</p> <p>When you use this in a report, a list of resource managers is displayed, with each resource manager on the project separated by a comma (there can be up to 10 resource managers on a given project).</p> <p>For more information, see the article <a href="../../../manage-work/projects/planning-a-project/designate-resource-managers-for-projects-and-templates.md" class="MCXref xref">Designate Resource Managers for a project or template </a>.</p> </td>
+</tr>
+<tr>
+<td> <p>Resource Manager IDs</p> </td>
+<td> <p>Use this option &nbsp;when creating a filter to find a specific resource manager.</p> <p>Begin typing the name of the resource manager that you want to use in the filter, then click the name when it appears in the drop-down list.</p> <p>Resource Managers can perform resource scheduling actions on a project.</p> <p>For more information, see the article <a href="../../../manage-work/projects/planning-a-project/designate-resource-managers-for-projects-and-templates.md" class="MCXref xref">Designate Resource Managers for a project or template </a>.</p> <!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: Alina: Same as "Resource Managers" (above), but this is for the filter.)</p>
+--> </td>
+</tr>
+<tr>
+<td>Resource Planner Budgeted Labor&nbsp;Cost</td>
+<td>See Budgeted Labor&nbsp;Cost. </td>
+</tr>
+<tr>
+<td> <p>Resource Pool</p> </td>
+<td> <p>A collection&nbsp;of job roles associated with a project or a user. The functionality of the Resource Pools is displayed in the tools available in the Resource Planning tab of the People area in the Production environment.&nbsp;</p> </td>
+</tr>
+<tr>
+<td> <p>Resource Pools</p> </td>
+<td> <p>In project reports, Resource Pools show all the pools associated with a project. &nbsp;Resource Pools are collections of users that can be associated with a project.&nbsp;This object cannot be used in a grouping. <br>For more information about the functionality of Resource Pools see the&nbsp;section <a href="../../../resource-mgmt/resource-planning/resource-planning-overview.md">Resource Planning</a>.&nbsp;</p> </td>
+</tr>
+<tr>
+<td>Resource Scope</td>
+<td>A task-level field that is applicable only when using a Task Constraint of Fixed Dates. For more information about the Fixed Dates Task Constraint, see the article <a href="../../../manage-work/tasks/task-constraints/fixed-dates.md">Fixed Dates</a>. The value of the Resource Scope on a task is intended to prevent other tasks from being assigned to the same user during the time frame of the task. For more information about Resource Scope, see the article Understanding Resource Scope.</td>
+</tr>
+<tr>
+<td> <p>Scheduled Report</p> </td>
+<td> <p>When you build a report of reports, you can display&nbsp;information about the schedules of the report, if the report is scheduled for delivery using the Scheduled Report field. This field shows multiple values, one for each schedule of each report, in a bulleted list. For more information about scheduling reports, see the article <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md" class="MCXref xref">Report delivery overview</a>.</p> <p>Because this field shows multiple values, it cannot be used in a grouping. You can access it only in a filter or a view.&nbsp;</p> </td>
+</tr>
+<tr>
+<td> <p>Source</p> </td>
+<td> <p>Indicates the parent object of another object. For example, a document attached to a task has the name of the task in the Source field of a Document report or view; an issue logged under a project has the name of the project in the Source field of an Issue report or view.&nbsp;</p> </td>
+</tr>
+<tr>
+<td> <p>Start Date</p> </td>
+<td> <p> In a Rate report, this is the date when a new billing rate for a job role at the project level starts. The hours associated with the project that are after this date are multiplied by this billing rate to calculate the revenue on the project. </p> </td>
+</tr>
+<tr>
+<td>Start Day</td>
+<td> <p>In a template or template task report, this is the day in the timeline of the template when the template task or the template starts. By default, the template and any template tasks indicate a Start Day of 0. When you start adding Task&nbsp;Constraints, Duration, or dependencies to your template tasks, the Start Day might change to reflect these changes. </p> <p>For more information about the Start Day in a template, see <a href="../../../manage-work/projects/create-and-manage-templates/edit-templates.md" class="MCXref xref">Edit project templates</a>.</p> </td>
+</tr>
+<tr>
+<td> <p>Status</p> </td>
+<td> <p>Shows the most recent status of tasks. This is&nbsp;the 'New,' 'In Process,' and 'Complete' statuses that users can select when updating a task.</p> <p>For more information about task status, see the article <a href="../../../manage-work/projects/updating-work-in-a-project/update-task-status.md" class="MCXref xref">Update task status</a>.</p> </td>
+</tr>
+<tr>
+<td> <p>Status Icons</p> </td>
+<td> <p>You can add the built-in Status Icons field as a column in your views to enhance visibility into key points about your objects, like:</p>
+<ul>
+<li>An object has documents attached</li>
+<li>An object is associated with an approval process</li>
+<li>An object has additional notes associated with it</li>
+<li>An expense is billable or reimbursable&nbsp;</li>
+<li>A task is on a critical path</li>
+<li>A user belongs to a company, a team, or is located in a different time zone&nbsp;</li>
+</ul> <p>You can add the Status Icons field in the views of the following objects:&nbsp;</p>
+<ul>
+<li>Tasks</li>
+<li>Issues</li>
+<li>Projects</li>
+<li>Template Tasks</li>
+<li>Templates</li>
+<li>Expenses</li>
+<li>Documents</li>
+<li>Users</li>
+</ul> <p>For more information, see the article <a href="../../../reports-and-dashboards/reports/using-built-in-reports/built-in-status-icons-views.md" class="MCXref xref">Built-in Status Icons in Views</a>.</p> </td>
+</tr>
+<tr>
+<td> <p>Status Update</p> </td>
+<td> <p>Shows the most recent status update&nbsp;on&nbsp;tasks.&nbsp;</p> <p>This option&nbsp;shows the most recent status updates&nbsp;that users have provided in the 'Update Status' field.&nbsp;&nbsp;</p> <p>(To show the 'New,' 'In Process,' and 'Complete' statuses, use the Status column.)</p> <p>Comments made on&nbsp;status&nbsp;updates are not displayed in the 'Status Update' column; only the main update is displayed.</p> <p>For more information on statuses, see the article <a href="../../../manage-work/projects/updating-work-in-a-project/update-task-status.md" class="MCXref xref">Update task status</a>.</p> </td>
+</tr>
+<tr>
+<td> <p>Subscribers</p> </td>
+<td> <p>Lists the subscribers to projects, tasks, or issues.</p> <p>When you use this field in a report, a list of subscribers displays, with each subscriber separated by a comma.</p> <p>For more information, see the article <a href="../../../workfront-basics/using-notifications/subscribe-to-items-in-workfront.md" class="MCXref xref">Subscribe to items in Adobe Workfront</a>.</p> </td>
+</tr>
+<tr>
+<td><span>Time Off</span> </td>
+<td>You can build a Time Off report to view when users have indicated time off in their profile. </td>
+</tr>
+<tr>
+<td> <p>Total Hours</p> </td>
+<td> <p>In a project report, Total Hours display&nbsp;the rounded sum of all hours on the project, the last time the project finances were calculated.</p> <p>Actual Hours reflect the exact hours logged on the project. Typically, the Actual Hours should match the Total Hours.</p> <p>If the Total Hours appears significantly different than the Actual Hours field, you must Recalculate Finances on the project.<br>For more information about recalculating project finances, see the article <a href="../../../manage-work/projects/project-finances/recalculate-project-finances.md" class="MCXref xref">Recalculate project finances</a>.</p> </td>
+</tr>
+<tr>
+<td> <p>Thumbnail / Large Thumbnail&nbsp;</p> </td>
+<td> <p> In a Document list or report, it displays a preview of the document in a thumbnail. </p> <p> Do one of the following: </p>
+<ul>
+<li> Select <strong>Thumbnail</strong> &nbsp;to view a 33-66 pixel-wide thumbnail in the report. </li>
+<li>Select <strong>Large Thumbnail</strong> to view a 400 pixel-wide thumbnail in the report.</li>
+</ul> <p>The size of the thumbnail adjusts when you modify the width of the column in a list or report.</p> </td>
+</tr>
+<tr>
+<td> <p>View Icons</p> </td>
+<td> <p> This is the same field as Status Icons, but it is only available for the following views: </p>
+<ul>
+<li> Documents </li>
+</ul> <p> For more information, see the article <a href="../../../reports-and-dashboards/reports/using-built-in-reports/built-in-status-icons-views.md" class="MCXref xref">Built-in Status Icons in Views</a>.</p> </td>
+</tr>
+<tr>
+<td> <p>Views Last Month/ Quarter/ Year</p> </td>
+<td> <p>In a report list, it displays the number of times the report has been viewed during the last month, quarter, or year.<br>For more information about usage information in report lists, see the article <a href="../../../reports-and-dashboards/reports/report-usage/view-report-usage.md" class="MCXref xref">View report usage</a>.</p> </td>
+</tr>
+<tr>
+<td> <p>Views This Month/ Quarter/ Year</p> </td>
+<td> <p>In a report list, it displays the number of times the report has been viewed during this month, quarter, or year.<br>For more information about usage information in report lists, see the article <a href="../../../reports-and-dashboards/reports/report-usage/view-report-usage.md" class="MCXref xref">View report usage</a>.</p> </td>
+</tr>
+</tbody>
+</table>
+-->
+

@@ -1,0 +1,48 @@
+---
+filename: custom-mailhook
+content-type: reference
+product-previous: workfront-fusion
+product-area: workfront-integrations
+navigation-topic: connections-annd-webhooks
+title: Create a custom mailhook
+description: Yo a mailhook that monitors your arriving emails without the need to have a scheduled run.
+author: Becky
+hidefromtoc: true
+---
+
+# Create a custom mailhook
+
+Yo a mailhook that monitors your arriving emails without the need to have a scheduled run.
+
+You can use our custom mailhook.
+
+![](assets/custom-mail-hook.png)
+
+This module creates your own email address that you can copy the address to the clipboard. Once you have done so, click OK, then Save the scenario and activate it before moving on to the next steps.
+
+![](assets/webhook-activate-scenario-350x206.png)
+
+With the copied email address from the custom mailhook, go to your Gmail account or any other email account, and open the settings menu.
+
+Then search for the Forwarding and POP/IMAP sub settings.
+
+In the POP/IMAP setting look for the forwarding field as shown in the picture below select the forward if the mailhook address already exists, if not select the Add a forwarding address.
+
+![](assets/pop-imap-350x39.png)
+
+A popup box appears requiring you to enter the mailhook address. Click **Next**, then confirm when prompted.
+
+Once you have confirmed, you will see another message stating that you have received a verification code. You will find this code in your scenario. Either refresh the page, or select the history tab and then select the Detail of the log as shown below.
+
+![](assets/webhook-verification-code-350x158.png)
+
+On your Log, you will then need to open the bundle that contains the data. There you will find the confirmation number in the subject field as shown below. Or, open the Text field and copy the confirmation number from the text field.
+
+![](assets/copy-confirmation-code-350x314.png)
+
+If the data is stored in the queue open the queue either by opening the webhook with right-click and then select show queue and then select detail and copy and paste the confirmation code in the Gmail settings.
+
+>[!TIP]
+>
+>The sender and various recipient addresses (To: CC: and BCC:) are resolved in the data structure of the incoming mail, the Reply-To: can be found in the Header section
+

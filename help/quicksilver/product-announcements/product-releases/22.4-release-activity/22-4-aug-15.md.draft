@@ -1,0 +1,47 @@
+---
+title: 22.4 release activity week of aug 15, 2022
+description: 22.4 release activity Week of August 15, 2022
+author: Luke
+draft: Probably
+feature: Product Announcements
+exl-id: c7e8782d-5fa0-4f20-a4ab-c2073e41c5c7
+---
+# 22.4 release activity: Week of August 15, 2022
+
+This page describes all enhancements made in the Preview environment the week of August 15, 2022. These enhancements will be made available in the Production environment with the 22.4 release later this year.
+
+For a list of all changes available at this point in the 22.4 release cycle, see [22.4 Release overview](/help/quicksilver/product-announcements/product-releases/22.4-release-activity/22-4-release-overview.md).
+
+## Custom form field calculation editor displays error information
+
+>[!NOTE]
+>
+>This feature was first introduced in the Preview environment during the 22.3 release time frame. It releases to Production with the 22.4 release.
+
+Editing calculations for custom fields is now easier with helpful error information indicated directly in the calculation. While you are creating a calculated field in a custom form, errors are highlighted in pink. When you hover over the highlighted portion, a tooltip displays to describe what the problem is.
+
+For more information, see [Add calculated data to a custom form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
+
+## Enhancements to checklist items on boards
+
+>[!NOTE]
+>
+>This feature is only available through the early feature opt-in for Workfront Boards.
+
+Opening a checklist item on a card now allows you to add more detailed information about the item, including a description, due date, assignees, and estimation. You can also copy a checklist item, which was not available previously.
+
+For more information, see [Manage checklist items on cards](/help/quicksilver/agile/get-started-with-boards/manage-checklist-items.md).
+
+## Calculated date fields are always saved based on Coordinated Universal Time (UTC)
+
+Now, you can be sure that all date functions in calculated fields work consistently and produce the same result for everyone, regardless of how a custom data expression is updated, or where users are collaborating on the object across the world. 
+
+All calculations are now calculated and saved by one standard— Coordinated Universal Time (UTC)—not by the time zone configurations set for your organization's instance and your individual user profile. However, calculations are displayed in a custom form based on each users' individual time zones set in their browser.
+
+Previously, time settings in calculations caused confusion when they varied in these situations:
+
+* If someone recalculated a calculated field expression using “Update previous calculations" on the form builder, date function results were determined by UTC time zone of your organization.
+
+* If someone edited the object and that caused the calculated field expression to recalculate, date function results were determined by the user's local time zone. Calculated date field results in this scenario will also be calculated based on the UTC.
+
+For more information, see [Working across time zones](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/working-across-timezones.md).

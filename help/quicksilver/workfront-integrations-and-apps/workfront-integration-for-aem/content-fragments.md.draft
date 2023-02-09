@@ -1,0 +1,68 @@
+---
+title: ```Workfront Tools for AEM User Guide : Content Fragments```  {#title-heading}
+description: ```Workfront Tools for AEM User Guide : Content Fragments```  {#title-heading}
+author: Courtney
+draft: Probably
+---
+# ```Workfront Tools for AEM User Guide : Content Fragments```  {#title-heading}
+
+This workflow step will allow a user to map Adobe Workfront metadata fields to an AEM Content Fragment Model.
+
+## Access requirements
+
+You must have the following access to perform the steps in this article:
+
+<table style="table-layout:auto"> 
+ <col> 
+ </col> 
+ <col> 
+ </col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
+   <td> <p>[!UICONTROL Pro] or higher</p> </td> 
+  </tr> <!--
+   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+    <td role="rowheader">[!DNL Adobe Workfront] license*</td> 
+    <td> <p>Review or higher</p> </td> 
+   </tr>
+  --> 
+  <tr> 
+   <td role="rowheader">Product</td> 
+   <td>You must have a license to Adobe Experience Manager</td> 
+  </tr> 
+ </tbody> 
+</table>
+
+&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+
+## Prerequisites
+
+* You must install Workfront Tools for Adobe Experience Manager before you can use it to map metadata.
+
+  For instructions, see [Workfront Tools for AEM User Guide: Installation Guide 1.x.x](../../workfront-integrations-and-apps/workfront-integration-for-aem/installation-guide.md)
+
+## Create the event subscription {#contentfragments-createtheeventsubscription}
+
+1. Navigate to ```Tools → Cloud Services → Workfront Tools Configuration```. Select the configuration and click ```Properties```.
+
+   ![](assets/tools-config-350x280.png)
+
+   ![](assets/wf-tools-350x286.png)
+
+1. Select the **Event Subscriptions** tab. Under the **Create a new event subscription** menu, select **update** from the Event dropdown and under the Object dropdown select **task** if you want to create content fragments from a task custom form or select **issue** if you want to create content fragments from an issue custom form.
+
+   ![](assets/event-sub--objects-350x254.png)
+
+1. Next, navigate back to ```Tools → Assets → Content Fragment Models```. Select an existing Content Fragment Model or create a new model.
+
+   ![](assets/contelt-frag-models-350x297.png)
+
+1. Select an existing data field or add a new field. With the field selected, navigate to the Workfront Custom Form Field drop-down menu and select the custom form field you'd like to map.
+
+   ![](assets/form-example-350x286.png)
+
+1. After you've mapped your desired fields, return to the ```Tools → Cloud Services → Workfront Tools Configuration```.
+
+   ![](assets/tools-config-350x280.png)
+

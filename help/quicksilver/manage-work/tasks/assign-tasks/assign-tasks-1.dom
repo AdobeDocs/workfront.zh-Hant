@@ -1,0 +1,26 @@
+<html>
+ <head>
+  <title>Assign tasks</title>
+ </head>
+ <body>
+  <div class="body-container" aemmigrated="true"> 
+   <div id="mc-main-content" role="main" data-mc-content-body="True" aemmigrated="true"> 
+    <h1 aemmigrated="true">Assign tasks</h1> 
+    <p aemmigrated="true">You can manage task assignments in various ways in Adobe Workfront. The methods in this section describe the different ways you can assign tasks to users, teams, and job roles.</p> <note aemmigrated="true">
+     Assigning tasks and assigning issues is similar in Workfront.
+    </note> 
+    <p aemmigrated="true">This section contains the following articles:</p> 
+    <ul aemmigrated="true"> 
+     <li aemmigrated="true"><a href="../../../manage-work/tasks/assign-tasks/modify-task-assignments-overview.md" class="MCXref xref" xrefformat="{para}" aemmigrated="true">Overview of modifying task assignments</a> </li> 
+     <li aemmigrated="true"><a href="../../../manage-work/tasks/assign-tasks/assign-tasks.md" class="MCXref xref" xrefformat="{para}" aemmigrated="true">Assign tasks</a> </li> 
+     <li aemmigrated="true"><a href="../../../manage-work/tasks/assign-tasks/create-advanced-assignments.md" class="MCXref xref" xrefformat="{para}" aemmigrated="true">Create advanced assignments</a> </li> 
+     <li aemmigrated="true"><a href="../../../manage-work/tasks/assign-tasks/smart-assignments.md" class="MCXref xref" xrefformat="{para}" aemmigrated="true">Smart assignments overview</a> </li> 
+     <li aemmigrated="true"><a href="../../../manage-work/tasks/assign-tasks/make-smart-assignments.md" class="MCXref xref" xrefformat="{para}" aemmigrated="true">Make smart assignments</a> </li> 
+     <li aemmigrated="true"><a href="../../../manage-work/tasks/assign-tasks/modify-multiple-assignments-in-task-list.md" class="MCXref xref" xrefformat="{para}" aemmigrated="true">Modify multiple user assignments in a task list</a> </li> 
+     <li aemmigrated="true"><a href="../../../manage-work/tasks/assign-tasks/manage-allocation-hours-on-tasks.md" class="MCXref xref" xrefformat="{para}" aemmigrated="true">Manage user and role allocation hours on tasks </a> </li> 
+     <li aemmigrated="true"><a href="../../../manage-work/tasks/assign-tasks/manage-allocation-percentage-on-tasks.md" class="MCXref xref" xrefformat="{para}" aemmigrated="true">Manage user or role allocation percentage on tasks</a> </li> 
+    </ul> 
+   </div> 
+  </div>
+ </body>
+</html>

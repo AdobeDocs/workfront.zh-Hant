@@ -1,0 +1,19 @@
+<html>
+ <head>
+  <title>Portfolios</title>
+ </head>
+ <body>
+  <div class="body-container" aemmigrated="true"> 
+   <div id="mc-main-content" role="main" data-mc-content-body="True" aemmigrated="true"> 
+    <h1 aemmigrated="true">Portfolios</h1> 
+    <p aemmigrated="true">This section contains the following articles:</p> 
+    <ul aemmigrated="true"> 
+     <li aemmigrated="true"><a href="../../../manage-work/portfolios/portfolios-overview/portfolio-managament-overview.md" class="MCXref xref" xrefformat="{para}" aemmigrated="true">Portfolio Management overview</a> </li> 
+     <li aemmigrated="true"><a href="../../../manage-work/portfolios/portfolios-overview/portfolio-overview.md" class="MCXref xref" xrefformat="{para}" aemmigrated="true">Portfolio overview in Adobe Workfront</a> </li> 
+     <li aemmigrated="true"><a href="../../../manage-work/portfolios/portfolios-overview/navigate-within-portfolio.md" class="MCXref xref" xrefformat="{para}" aemmigrated="true">Navigate within a portfolio </a> </li> 
+    </ul> 
+    <p aemmigrated="true">&nbsp;</p> 
+   </div> 
+  </div>
+ </body>
+</html>

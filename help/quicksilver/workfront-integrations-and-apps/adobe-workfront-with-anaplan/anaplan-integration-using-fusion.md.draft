@@ -1,0 +1,393 @@
+---
+filename: anaplan-integration-using-fusion
+product-area: workfront-integrations;setup
+navigation-topic: adobe-workfront-with-anaplan
+title: Integrate with [!DNL Anaplan] using Adobe Workfront Fusion
+description: Do not undraft
+author: Becky
+hidefromtoc: true
+---
+
+# Integrate with [!DNL Anaplan] using Adobe Workfront Fusion
+
+<!--
+<p style="color: #ff0000;" data-mc-conditions="QuicksilverOrClassic.Draft mode">Do not undraft</p>
+-->
+
+Adobe Workfront Fusion allows you to integrate Workfront with your [!DNL Anaplan] account. For example, you can create campaigns in Anaplan, then create a Workfront project or program linked to the campaign. Any costs tracked in Workfront can then be uploaded back to [!DNL Anaplan] to review campaign performance.
+
+Campaign in this article refers to the [!DNL Anaplan] object. Campaigns in [!DNL Anaplan] are in no way related to the Campaign object in Workfront, nor are they related to the Fusion connector for Adobe Campaign.
+
+## Access requirements
+
+You must have the following access to use the functionality in this article:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
+   <td> <p>[!UICONTROL Pro] or higher</p> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader">[!DNL Adobe Workfront] license*</td> 
+   <td> <p>Plan, Work</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront Fusion license**</td> 
+   <td> <p>Workfront Fusion for Work Automation and Integration </p>  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Product</td> 
+   <td>Your organization must purchase Adobe Workfront Fusion as well as Adobe Workfront to use functionality described in this article.</td> 
+  </tr> <!--
+   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+    <td role="rowheader">Access level configurations*</td> 
+    <td> <!--
+      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your organization.</p>
+     --> <!--
+      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your team.</p>
+     --> </td> 
+   </tr>
+  --> 
+ </tbody> 
+</table>
+
+&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+
+&#42;&#42;For information on Adobe Workfront Fusion licenses, see [[!DNL Adobe Workfront Fusion] licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md)
+
+## Prerequisites
+
+You must have an [!DNL Anaplan] account in addition to your Workfront Fusion account.
+
+The user must be have [!DNL Anaplan] administrator permissions
+
+## Example: Configure [!DNL Anaplan] for integration with Workfront Fusion
+
+This example provides all the lists, modules, and actions that are needed to integrate an [!DNL Anaplan] model to use for marketing relationship management with Workfront.
+
+### [!DNL Anaplan] Lists for Workfront
+
+1. Campaigns - this list can roll up to a brand or a geography hierarchy
+
+   1. Create as a numbered list
+   1. Add a text property called Display Name and set this as the Display Name
+   1. Choose
+
+1. Campaign Expenses - This list will roll up to Campaigns and will hold the expense elements from Workfront
+
+   1. Create as a numbered list
+   1. Add a text property called Display Name and set this as the Display Name
+   1. Choose Campaigns as list parent
+
+1. Roles - flat list of roles. This is used to collect hours information from Workfront by specific role
+
+   1. Set Top Level Item as All Roles
+
+>[!NOTE]
+>
+>Campaigns can be a list on their own or they can roll up to a Geography or Product Hierarchy. The list here is provided with a roll up by brand and geography
+
+### [!DNL Anaplan] Modules for Workfront
+
+Modules have been built out in the [!DNL Anaplan] Model to hold imported data and to perform basic data input tasks.
+
+#### Campaigns module
+
+This module is used to request new budgeted spend. It should include whatever line items are needed to collect information about this spend. An example is shown below. The module should also include the line items that are needed to send the data to Workfront
+
+Applies to
+
+* Campaigns
+
+Line Items
+
+| Line item name |Format |Formula |Summary |Notes |
+|---|---|---|---|---|
+| Campaign Name  |Text |  |None  |  |
+| Brand + Campaign Name  |Text |'Sub Region M4'.Display Name[LOOKUP: 'Sub-Region'] & ": " & Campaign Name  |None |In the demo model there are duplicate campaigns for different regions so we concatenate the name to make them easier to compare in Workfront. |
+| ITEM: Campaigns  |Campaigns  |ITEM('Campaigns')  |None |  |
+| NAME: Campaigns  |Text |NAME('ITEM: Campaigns')  |None  |  |
+| Create Code Staging  |Text |RIGHT('NAME: Campaigns', LENGTH('NAME: Campaigns') - 1)  |None  |  |
+| Campaign Code  |Text  |C & RIGHT("000000" & 'Create Code Staging', 6)  |None  |This is an example of creating a code using the numbered list number  |
+| Send to Adobe Workfront?  |Boolean |Submit Budget Request? AND CMO Approved? = 'Approve/Reject'.APPROVED AND Regional Review Complete? = 'Approve/Reject'.APPROVED AND NOT Already Sent to Adobe?  |ANY  |Use the approval criteria that is necessary for your business to send projects to Workfront |
+| Already Sent to Adobe Workfront?  |Boolean  |  |None  |  |
+| Workfront GUID  |Text |  |None |  |
+
+{style="table-layout:auto"}
+
+##### Create views
+
+* Load Campaigns to Adobe Workfront
+
+  <table style="table-layout:auto"> 
+   <col> 
+   <col> 
+   <tbody> 
+    <tr> 
+     <td role="rowheader">Line items</td> 
+     <td> 
+      <ul> 
+       <li> <p>Brand + Campaign Name</p> </li> 
+       <li> <p> Campaign Name</p> </li> 
+       <li> <p>Campaign Code</p> </li> 
+       <li> <p>Send to Adobe Workfront?</p> </li> 
+       <li> <p>Budget Allocated</p> </li> 
+       <li> <p>Expected Revenue</p> </li> 
+       <li> <p>In market start date</p> </li> 
+       <li> <p>In Market End Date</p> </li> 
+       <li> <p>Sub-Region</p> </li> 
+      </ul> </td> 
+    </tr> 
+    <tr> 
+     <td role="rowheader">Filter</td> 
+     <td><b>Send to Adobe?</b> Boolean line item is true</td> 
+    </tr> 
+   </tbody> 
+  </table>
+
+  <!--
+  <p data-mc-conditions="QuicksilverOrClassic.Draft mode"><span style="color: #ff0000;">(Screenshot)</span> </p>
+  -->
+
+* Update Campaigns to Adobe Workfront
+
+  <table style="table-layout:auto"> 
+   <col> 
+   <col> 
+   <tbody> 
+    <tr> 
+     <td role="rowheader">Line items</td> 
+     <td> 
+      <ul> 
+       <li> <p>Brand + Campaign Name</p> </li> 
+       <li> <p> Campaign Name</p> </li> 
+       <li> <p>Campaign Code</p> </li> 
+       <li> <p>Send to Adobe Workfront?</p> </li> 
+       <li> <p>Budget Allocated</p> </li> 
+       <li> <p>Expected Revenue</p> </li> 
+       <li> <p>In market start date</p> </li> 
+       <li> <p>In Market End Date</p> </li> 
+       <li> <p>Sub-Region</p> </li> 
+      </ul> </td> 
+    </tr> 
+    <tr> 
+     <td role="rowheader">Filter</td> 
+     <td><b>Already sent to Adobe?</b> Boolean line item is true</td> 
+    </tr> 
+   </tbody> 
+  </table>
+
+  <!--
+  <p data-mc-conditions="QuicksilverOrClassic.Draft mode"><span style="color: #ff0000;">(Screenshot)</span> </p>
+  -->
+
+#### Workfront Integration: Campaign Data by Role by Month
+
+This module is used to load hours by campaign by role.
+
+This module can also be configured using a different time scale depending on client requirements.
+
+Applies to
+
+* Campaigns
+* Role
+* Month
+
+Line items
+
+| Line item name |Format |Formula |Summary |Notes |
+|---|---|---|---|---|
+| Hours |Number |  |None |  |
+
+{style="table-layout:auto"}
+
+ 
+
+#### Workfront integration: Campaign expense data
+
+This module is used to load the details behind the campaign expense data that is loaded from Workfront. The expense data is loaded for each Workfront Project GUID.
+
+Clients may customize the columns or data from Workfront, and these should be built into this module
+
+Applies to
+
+* Campaign expenses
+
+Line items
+
+| Line item name |Format |Formula |Summary |Notes |
+|---|---|---|---|---|
+| Workfront Project GUID  |Text  |Code(item(Campaign expenses)  |None  |  |
+| Description  |Text  |  |None  |Data Load  |
+| Expense Type  |Text  |  |None  |Data Load  |
+| Planned Date  |Date  |  |None  |Data Load  |
+| Effective Date  |Date  |  |None  |Data Load  |
+| Project Name  |Text  |  |None  |Data Load  |
+| Planned Amount  |Number  |  |Sum |Data Load  |
+| Actual Amount  |Number  |  |Sum |Data Load  |
+| MONTH: Effective Date  |Month  |Period(Effective Date)  |None  |Used to sum amount to a monthly module view  |
+| MONTH: Planned Date  |Month  |Period(Planned Date)  |None  |Used to sum amount to a monthly module view  |
+
+{style="table-layout:auto"}
+
+#### Workfront integration: Campaign detail
+
+This module is used to load data from Workfront to [!DNL Anaplan] to hold project level (campaign) details.
+
+Clients may customize the columns or data from Workfront, and these should be built into this module
+
+Applies to
+
+* Campaigns
+
+Line items
+
+| Line Item Name  |Format  |Formula  |Summary  |Notes  |
+|---|---|---|---|---|
+| [!DNL Anaplan] ID  |Text  |Code(item(Campaigns)  |None  |  |
+| Workfront - Name  |Text  |  |None  |Data Load  |
+| Workfront - ownerID  |Text  |  |None  |Data Load  |
+| Workfront - ProjectID  |Text  |  |None  |Data Load  |
+| Percent Complete  |Number  |  |Sum |Data Load  |
+| Planned Start Date  |Date  |  |None  |Data Load  |
+| Planned Completion Date  |Number  |  |Sum  |Data Load  |
+| Planned Hours  |Number  |  |Sum  |Data Load  |
+| Planned Cost  |Number  |  |Sum  |Data Load  |
+| Planned Expense Cost  |Number  |  |Sum  |Data Load  |
+| Actual Labor Cost  |Number  |  |Sum  |Data Load  |
+| Planned Labor Cost  |Number  |  |Sum  |Data Load  |
+| Status  |Text |  |  |Data Load  |
+
+{style="table-layout:auto"}
+
+### [!DNL Anaplan] Actions for Workfront
+
+#### (Import) Workfront integration: Add Roles
+
+Add items to a Roles list before loading hours by Role.
+
+Target Object: Role List
+
+Source Object: WorkfrontUpdateLinkedProjects_HoursRoles.csv
+
+<!--
+<p style="color: #ff0000;" data-mc-conditions="QuicksilverOrClassic.Draft mode">Screenshot</p>
+-->
+
+#### (Import) Workfront integration: Campaign Hours by Role and Month
+
+Loads data from a flat file form Workfront to see Hours by Campaign, Role, and Month.
+
+Target Object: Workfront Integration - Campaign Data by Role by Month
+
+Source Object: WorkfrontUpdateLinkedProjects_HoursRoles.csv
+
+<!--
+<p style="color: #ff0000;" data-mc-conditions="QuicksilverOrClassic.Draft mode">Screenshot</p>
+-->
+
+<!--
+<p style="color: #ff0000;" data-mc-conditions="QuicksilverOrClassic.Draft mode">Screenshot</p>
+-->
+
+#### (Import) Workfront integration: Campaign Expense Actuals List
+
+Loads the Workfront expense GUID to a list that roles up to campaigns
+
+Target Object: Campaign Expenses C2 List
+
+Source Object: WorkfrontUpdateLinkedProjects_ActExpenses.csv
+
+<!--
+<p style="color: #ff0000;" data-mc-conditions="QuicksilverOrClassic.Draft mode">Screenshot</p>
+-->
+
+#### (Import) Workfront integration: Campaign Expense Actuals
+
+Loads the data for Campaign Expense Actuals data from Workfront to [!DNL Anaplan] based on the Work Expense GUID.
+
+Target Object: Workfront Integration - Campaign Expense Data Module
+
+Source Object: WorkfrontUpdateLinkedProjects_ActExpenses.csv
+
+<!--
+<p style="color: #ff0000;" data-mc-conditions="QuicksilverOrClassic.Draft mode">Screenshot</p>
+-->
+
+<!--
+<p style="color: #ff0000;" data-mc-conditions="QuicksilverOrClassic.Draft mode">Screenshot</p>
+-->
+
+#### (Import) Workfront integration: Campaign Expense Planned
+
+Loads the data for Campaign Expense Planned data from Workfront to [!DNL Anaplan] based on the Workfront Expense GUID.
+
+>[!NOTE]
+>
+>Not all items are mapped in this action as some fields for the Workfront Expense GUID will be the same between Actual and Planned Expenses
+
+Target Object: Workfront Integration - Campaign Expense Data
+
+Source Object: WorkfrontUpdateLinkedProjects_PlannedExpenses.csv
+
+<!--
+<p style="color: #ff0000;" data-mc-conditions="QuicksilverOrClassic.Draft mode">Screenshot</p>
+-->
+
+<!--
+<p style="color: #ff0000;" data-mc-conditions="QuicksilverOrClassic.Draft mode">Screenshot</p>
+-->
+
+(Import) Workfront integration: Update Campaign Details
+
+Loads the data for Campaign Details from Workfront to [!DNL Anaplan] based on the Mapped [!DNL Anaplan] ItemID to Workfront Project GUID.
+
+Target Object: Workfront Integration - Campaign Details
+
+Source Object: WorkfrontUpdateLinkedProject.csv
+
+<!--
+<p style="color: #ff0000;" data-mc-conditions="QuicksilverOrClassic.Draft mode">Screenshot</p>
+-->
+
+<!--
+<p style="color: #ff0000;" data-mc-conditions="QuicksilverOrClassic.Draft mode">Screenshot</p>
+-->
+
+### [!DNL Anaplan] processes for Workfront
+
+#### (Process) Workfront integration - Load Project Hours by Role
+
+Include the following import actions:
+
+* (Process) Workfront integration - Add Roles
+* (Process) Workfront integration - Campaign Hours by Role and Month
+
+#### (Process) Workfront integration - Load Project Expenses
+
+Include the following import actions:
+
+* Workfront integration - Campaign Expense Actuals List
+* Workfront integration - Campaign Expense Actuals
+* Workfront integration - Campaign Expense Planned
+
+#### (Process) Workfront integration - Update Campaign Details
+
+Include the following import actions:
+
+* Workfront Integration - Update Campaign Details
+
+### Sample Data Input Files
+
+Many of the actions described above will use .csv files to load data from Workfront to Anaplan. The following sample CSV files will be provided with the documentation
+
+WorkfrontUpdateLinkedProject.csv
+
+WorkfrontUpdateLinkedProjects_PlannedExpenses.csv
+
+WorkfrontUpdateLinkedProjects_ActExpenses.csv
+
+WorkfrontUpdateLinkedProjects_HoursRoles.csv

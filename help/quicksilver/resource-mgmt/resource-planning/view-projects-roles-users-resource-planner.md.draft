@@ -1,0 +1,106 @@
+---
+filename: view-projects-roles-users-resource-planner
+content-type: reference
+product-area: resource-management;projects
+navigation-topic: resource-planning
+title: View projects, roles, and users using the Resource Planner
+description: "(This used to be a standlone article (brand new article and name, split from the former Understanding the Areas in the Resource Planner (now: Resource Planner Navigation Overview)) >>> But it has been added back to the Get-Started-Resource-Planner article in March 2021. This is now a draft!)"
+author: Alina
+hidefromtoc: true
+---
+
+# View projects, roles, and users using the Resource Planner
+
+<!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(This used to be a standlone article (brand new article and name, split from the former Understanding the Areas in the Resource Planner (now: Resource Planner Navigation Overview)) >>> But it has been added back to the Get-Started-Resource-Planner article in March 2021. This is now a draft!)</p>
+-->
+
+You can view or manage the allocation of your resources in the Resource Planner by viewing it at the project or role level. You can view the availability and planned work of your users by viewing it at the user level.
+
+There is a hierarchy of how these objects display in the Resource Planner, and this changes with the type of view that you select. For information about changing the view in the Resource Planner, see the [ [Project/ Role/ User view selection](../../resource-mgmt/resource-planning/resource-planner-navigation.md#project-role-view-selection)](../../resource-mgmt/resource-planning/resource-planner-navigation.md#project-role-view-selection) section in the [Resource Planner navigation overview](../../resource-mgmt/resource-planning/resource-planner-navigation.md) article.
+
+You can view the following levels of information in the Resource Planner:
+
+* Project Name
+* Project Planning Priority
+* Job Role Name
+* User Name
+* "No Role" and "No User" sections
+
+## Project Name
+
+You can see the following projects in the Resource Planner:
+
+* Projects you have permissions to at least view.
+
+  You must also have access to at least View Resource Management in your access level.
+
+  For information about the access needed to use the Resource Planner see [Access needed to budget resources in Adobe Workfront](../../resource-mgmt/resource-planning/access-needed-to-budget-resources.md). 
+
+* Projects limited by the filter applied to the Resource Planner.
+
+  For more information about filtering information in the Resource Planner, see [Filter information in the Resource Planner](../../resource-mgmt/resource-planning/filter-resource-planner.md).
+
+  >[!NOTE]
+  >
+  >We recommend using filters to reduce the number of projects you display in the Resource Planner.
+
+## Project Planning Priority
+
+Projects are listed in order of priority in the Resource Planner with the most important project at the top. The priority is indicated by a number in front of the project name.
+
+![](assets/rp-planner-priority-highlighted-350x186.png)
+
+You can also enable a setting to display the project priorities according to their portfolios, when they are associated with a portfolio. For information about prioritizing projects and displaying portfolio priorities in the Resource Planner, see [Prioritize projects in the Resource Planner](../../resource-mgmt/resource-planning/prioritize-projects-resource-planner.md).
+
+## Job Role Name
+
+The following categories of job roles are listed in the Resource Planner:
+
+* The job roles that are assigned to tasks.  
+* The job roles that are not assigned to tasks, but are the primary job roles of the users associated with the Resource Pools of the projects. 
+* The secondary job roles of users who are assigned to tasks in those job roles. 
+* The secondary job roles of users who have a valid **Percentage of FTE Availability** in their profile.  
+  For more information about the **Percentage of FTE Availability** for job roles, see [Edit a user's profile](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md) .
+
+>[!NOTE]
+>
+>Job roles assigned to issues are also listed when the **Include hours from Issue** setting is enabled. For more information about enabling issue hours in the Resource Planner, see the [Settings](../../resource-mgmt/resource-planning/resource-planner-navigation.md#settings) section in the [Resource Planner navigation overview](../../resource-mgmt/resource-planning/resource-planner-navigation.md) article.
+
+## User Name
+
+The users listed in the Project and Role views in the Resource Planner belong to the Resource Pools associated with the projects.   
+For more information about populating Resource Pools with users, see [Resource pools overview](../../resource-mgmt/resource-planning/resource-pools/work-with-resource-pools.md).
+
+All users that you have access to View and who have logged in to Adobe Workfront at least once display in the User View.
+
+In the Project and Role Views, users could appear listed under the following types of job roles:
+
+* Their primary job role
+* Their secondary job role, in the following scenarios:
+
+   * If the secondary job role has a valid number for the **Percentage of FTE Availability** in their user profile.
+   * If the user is assigned to tasks in those roles.
+
+For more information about the **Percentage of FTE Availability** for a job role, see [Edit a user's profile](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md) .
+
+## "No Role" and "No User" sections
+
+* ["No Role" section](#no-role-section) 
+* ["No User" section](#no-user-section)
+
+### "No Role" section  {#no-role-section}
+
+When a user belongs to a Resource Pool associated with a project, but they do not have a job role associated with them, they appear in the **No Role** section, instead of under a specific job role.
+
+You cannot budget hours for a user in a **No Role** section. The user must have at least one job role associated with them to be budgeted for work.  
+![no_role_with_user___res_planner.png](assets/no-role-with-user---res-planner-350x165.png)
+
+### "No User" section  {#no-user-section}
+
+When you assign a task to a team, or you leave it unassigned, the Planned Hours appear under the **No User** section which appears under the **No Role** section in the Resource Planner. These tasks do not appear in the Resource Planner when using the **View by User** view.
+
+You can see the amount of Planned Hours attributed to tasks on the project in the **No User** section in the Resource Planner, but you cannot budget for these allocations.
+
+![no_user_and_no_role___res_planner.png](assets/no-user-and-no-role---res-planner-350x129.png)
+

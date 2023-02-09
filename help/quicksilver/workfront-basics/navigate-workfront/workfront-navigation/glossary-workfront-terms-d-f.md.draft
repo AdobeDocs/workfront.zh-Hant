@@ -1,0 +1,182 @@
+---
+filename: glossary-workfront-terms-d-f
+content-type: reference
+navigation-topic: workfront-navigation
+title: Glossary of Workfront terms (D-F)
+description: For the full glossary, see Glossary of Workfront terms.
+hidefromtoc: true
+---
+
+# Glossary of Workfront terms (D-F)
+
+>[!IMPORTANT]
+>
+>This article should be used as a reference to understand the terms that you may encounter in the Adobe Workfront application or in the Workfront documentation. We are currently&nbsp;updating this information and as a result this table might not be complete. We will remove this disclaimer when we consider this information exhaustive.&nbsp;
+
+For the full glossary, see [Glossary of Workfront terms](../../../workfront-basics/navigate-workfront/workfront-navigation/glossary-of-workfront-terms.md).
+
+The following table is a list of commonly used terms in Adobe Workfront:&nbsp;&nbsp;
+
+## D-F
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <thead> 
+  <tr> 
+   <th>Object Name</th> 
+   <th>Description</th> 
+  </tr> 
+ </thead> 
+ <tbody> 
+  <tr> 
+   <td> <p>Dashboards</p> </td> 
+   <td> <p> You can add this field in a report or a list of the report object, to display the dashboards on which the report is listed in a list. </p> <p> You can use this field to filter for reports that are listed on a specific dashboard, as well. </p> <p> For more information about including dashboard information on report object reports, see the “Understanding What Reports Are Listed on Dashboards” section in the article <a href="../../../reports-and-dashboards/reports/report-usage/access-organize-reports.md" class="MCXref xref">Access and organize reports</a></p> </td> 
+  </tr> 
+  <tr> 
+   <td>Data Type</td> 
+   <td>See <i>Custom Data Type</i>.</td> 
+  </tr> 
+  <tr> 
+   <td> <p>Days Late</p> </td> 
+   <td> <p>This field shows a date difference between Planned Start and Today if the Actual Completion Date is missing.</p> <p>Also&nbsp;shows a date difference between Actual Completion and Planned Completion, when an Actual Completion Date is present.</p> </td> 
+  </tr> <!--
+   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+    <td>Default Schedule</td> 
+    <td> <p>Customizable default working hours to be assigned to users and projects within an organization. </p> <p>Schedules are used to calculate the planned, start, and completion dates of tasks that are assigned to users.</p> </td> 
+   </tr>
+  --> <!--
+   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+    <td>Deliverable</td> 
+    <td>Quantifiable goods or services that must be provided upon the completion of a project.</td> 
+   </tr>
+  --> <!--
+   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+    <td>Demand Management</td> 
+    <td>Scoring and prioritization of the intake processes.</td> 
+   </tr>
+  --> <!--
+   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+    <td>Department Goals</td> 
+    <td>Goals unique to a specific department that focus on improving operational metrics within the department.</td> 
+   </tr>
+  --> 
+  <tr> 
+   <td>Dependency</td> 
+   <td>The link between two tasks that require one task to change status before the other task can also change status.</td> 
+  </tr> 
+  <tr> 
+   <td>Dependency Type</td> 
+   <td> <p>The type of scheduling relationship between a task and its predecessor(s). One example is Finish-Start, which requires that the fist task must Finish before the second task can Start.</p> <p>For more information, see <a href="../../../manage-work/tasks/use-prdcssrs/task-dependency-types.md" class="MCXref xref">Overview of task dependency types</a>.</p> </td> 
+  </tr> 
+  <tr> 
+   <td>Document</td> 
+   <td>Any file that is attached to an object within Workfront.</td> 
+  </tr> 
+  <tr> 
+   <td>Document Version</td> 
+   <td> <p>Each time the same document is uploaded to the same object, it is assigned a version number. Users can view and change several options for a previous version of a document.</p> <p>For more information, see <a href="../../../documents/managing-documents/manage-document-versions.md" class="MCXref xref">Manage document versions</a>.</p> </td> 
+  </tr> 
+  <tr> 
+   <td> <p>Duration</p> </td> 
+   <td> <p>The window of time allocated for completion of a task issue, or project (as determined by the number of days between the Planned Start and the Planned Completion). </p> 
+    <ul> 
+     <li>For tasks, the Duration is an editable field if the Duration Type of the task is not Simple. If the Duration Type of the task is Simple, or if the Task Constraint is Fixed Dates, the Duration is a calculation performed by Workfront.&nbsp;</li> 
+     <li>For issues, the Duration is always an editable field and it should represent an estimate of a number of days that would require the issue to be resolved.&nbsp;</li> 
+     <li>For projects, the Duration is a calculation performed by Workfront and it represents the difference in days between the Planned Start of the earliest task and the Planned Completion of the latest task on the project.&nbsp;</li> 
+    </ul> <p>For more information about the difference between Duration and Planned Duration for tasks, see the article <a href="../../../manage-work/tasks/task-information/planned-duration-vs-duration-for-tasks.md" class="MCXref xref">Difference between Planned Duration and Duration for tasks</a>.</p> </td> 
+  </tr> 
+  <tr> 
+   <td>Duration Type</td> 
+   <td> <p>A task field that indicates how the work required to complete the task is allocated to the assignees across the task duration. It represents the relationship between the Duration of the task, the Work Required, and the amount of time, or Allocation, the assigned resources should spend on the task to complete it. </p> <p>This field appears on the Details tab of a task. </p> <p>Option are:</p> 
+    <ul> 
+     <li>Calculated assignment</li> 
+     <li>Calculated Work</li> 
+     <li>Effort Driven</li> 
+     <li>Simple</li> 
+    </ul> <p>For more information, see <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">Overview of Task Duration and Duration Type</a>.</p> <!--
+     <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Task field used by the planner to set how the work required is allocated to the assignees across the duration.</p>
+    --> </td> 
+  </tr> 
+  <tr> 
+   <td>Duration Unit</td> 
+   <td>The unit that is used to measure time in a power search.</td> 
+  </tr> 
+  <tr> 
+   <td>Effort Driven</td> 
+   <td>The relationship between the number of users and the amount of time the task will take to complete. As you add more users, the total time scheduled for the task to complete decreases, but the duration of the task stays the same. For example if a task is shelling a barrel of peanuts, adding more people will decrease the time scheduled, but the duration in person-days will remain the same.</td> 
+  </tr> 
+  <tr> 
+   <td> <p>End Date</p> </td> 
+   <td> <p> In a Rate report, this is the date when a new billing rate for a job role at the project level ends. The hours associated with the project that are before this date are multiplied by this billing rate to calculate the revenue on the project. </p> </td> 
+  </tr> <!--
+   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+    <td>Engagement</td> 
+    <td>The Work Performance Indicator (WPI) that indicates when commitment and belief in the task, project, team, or organization is waning. This indicates that you need to act to revive that belief and commitment. WPI would be measured by asking the simple questions, “Did you understand what was expected of you? Did the work you were assigned make a difference to the organization? Did you do great work?”</td> 
+   </tr>
+  --> <!--
+   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+    <td>Enterprise Goals</td> 
+    <td>Cross-functional goals that contribute to the metrics of the company goals.</td> 
+   </tr>
+  --> 
+  <tr> 
+   <td>Event</td> 
+   <td>Any change in a project or task.</td> 
+  </tr> 
+  <tr> 
+   <td>Event Handler</td> 
+   <td>Automated tasks that occur when Events take place. A common example is an automated email notification.</td> 
+  </tr> 
+  <tr> 
+   <td>Event notification</td> 
+   <td>Email that is generated from an event handler.</td> 
+  </tr> <!--
+   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+    <td>Expenses</td> 
+    <td>A non-labor cost on tasks or projects.</td> 
+   </tr>
+  --> 
+  <tr> 
+   <td>External</td> 
+   <td> <p>Typically, an access level that allows people who don't have Workfront, to review information in the system.</p> <p>For more information, see <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md" class="MCXref xref">Access levels overview</a>.</p> </td> 
+  </tr> <!--
+   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+    <td>External System</td> 
+    <td>Any services or software that is stored and governed outside the designated system of record.</td> 
+   </tr>
+  --> 
+  <tr> 
+   <td>Financial Management</td> 
+   <td>Process to manage labor costs, expenses, and revenue data in Workfront.</td> 
+  </tr> 
+  <tr> 
+   <td>Fixed Cost</td> 
+   <td>You can define a fixed amount of cost for a project. This is part of the Planned Cost of the project which represents the amount of money that you need to complete the project. </td> 
+  </tr> 
+  <tr> 
+   <td>Filter</td> 
+   <td> <p>One of the main building blocks of a report or a list element that defines what information displays on the screen. For more information about reporting elements, see <a href="../../../reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md" class="MCXref xref">Reporting elements: filters, views, and groupings</a>.</p> <!--
+     <p data-mc-conditions="QuicksilverOrClassic.Draft mode">The Filter determines the results that display in a report or on an Workfront panel listing, like projects, tasks, or issues.</p>
+    --> </td> 
+  </tr> 
+  <tr> 
+   <td> <p>Flags</p> </td> 
+   <td> <p> This is the same field as Status Icons, but it is only available for the following views: </p> 
+    <ul> 
+     <li> Templates </li> 
+     <li> Expenses </li> 
+    </ul> <p> For more information, see the article <a href="../../../reports-and-dashboards/reports/using-built-in-reports/built-in-status-icons-views.md" class="MCXref xref">Built-in Status Icons in Views</a>.</p> </td> 
+  </tr> 
+  <tr> 
+   <td>Folder</td> 
+   <td>Folders are used to organize documents or reports associated with an object.</td> 
+  </tr> <!--
+   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+    <td>FTE</td> 
+    <td>The designated full time equivalency for users. A full-time user should have 100% FTE and part-time user should have a percentage that equals their working hours.</td> 
+   </tr>
+  --> 
+ </tbody> 
+</table>
+

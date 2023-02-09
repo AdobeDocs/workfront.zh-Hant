@@ -1,0 +1,68 @@
+---
+filename: projects-api
+content-type: api
+product-area: projects
+navigation-topic: general-api
+title: Projects API
+description: You can use the Projects API to interact with projects within Adobe Workfront. The calls included with this API interact directly with the project itself.
+author: John
+hidefromtoc: true
+---
+
+# Projects API
+
+You can use the Projects API to interact with projects within Adobe Workfront. The calls included with this API interact directly with the project itself.
+
+Following are some examples of how you can interact with projects through the API:
+
+* Create projects dynamically when certain criteria are met
+* View information about project statuses
+
+## General Requirements
+
+[This is where we'll put boilerplate text that applies to all APIs (Documents API, Issues API, etc.) for information about how to authenticate, etc. Will reference the “Getting Started with the Workfront API” for this information.]
+
+## API
+
+[This is where we'll embed the actual Swagger-generated documentation. Each endpoint will contain more information than you see in this example.]
+
+## JSON Format
+
+Projects are represented as JSON objects with the following attributes:
+
+| **Name** |**Field Type** |**Code** |**Description** |
+|---|---|---|---|
+| BC Completion State |string[] |BCCompletionState |&nbsp; |
+| ID |&nbsp; |&nbsp; |&nbsp; |
+| URL |&nbsp; |&nbsp; |&nbsp; |
+| accessorIDs |&nbsp; |&nbsp; |&nbsp; |
+| Actual Benefit |&nbsp; |&nbsp; |&nbsp; |
+| &nbsp; |&nbsp; |&nbsp; |&nbsp; |
+| &nbsp; |&nbsp; |&nbsp; |&nbsp; |
+| &nbsp; |&nbsp; |&nbsp; |&nbsp; |
+| &nbsp; |&nbsp; |&nbsp; |&nbsp; |
+| &nbsp; |&nbsp; |&nbsp; |&nbsp; |
+
+{style="table-layout:auto"}
+
+## Get a Project
+
+GET/proj/{JSON Format name }
+
+### URL Format
+
+&nbsp;
+
+For information about how to get information about a project (such as tasks associated with a project) see
+
+## Create a Project
+
+&nbsp;
+
+## Update a Project
+
+&nbsp;
+
+## Delete a Project
+
+&nbsp;

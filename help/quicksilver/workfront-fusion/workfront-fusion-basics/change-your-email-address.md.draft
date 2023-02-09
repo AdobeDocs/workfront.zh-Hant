@@ -1,0 +1,65 @@
+---
+filename: change-your-email-address
+product-previous: workfront-fusion
+product-area: workfront-integrations;user-management
+navigation-topic: workfront-fusion-basics
+title: Change your email address in Adobe Workfront Fusion
+description: You can change the email address associated with your Adobe Workfront Fusion account.
+author: Becky
+hidefromtoc: true
+---
+
+# Change your email address in Adobe Workfront Fusion
+
+You can change the email address associated with your Adobe Workfront Fusion account.
+
+## Access requirements
+
+You must have the following access to use the functionality in this article:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+    <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
+   <td> <p>[!DNL Pro] or higher</p> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader">[!DNL Adobe Workfront] license*</td> 
+   <td> <p>[!UICONTROL Plan], [!UICONTROL Work]</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Adobe Workfront Fusion] license**</td> 
+   <td> <p>[!UICONTROL [!DNL Workfront Fusion] for Work Automation and Integration] </p>  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Product</td> 
+   <td>Your organization must purchase Adobe Workfront Fusion as well as Adobe Workfront to use functionality described in this article.</td> 
+  </tr> <!--
+   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+    <td role="rowheader">Access level configurations*</td> 
+    <td> <!--
+      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your organization.</p>
+     --> <!--
+      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your team.</p>
+     --> </td> 
+   </tr>
+  --> 
+ </tbody> 
+</table>
+
+To find out what plan, license type, or access you have, contact your Workfront administrator.
+
+For information on [!DNL Adobe Workfront Fusion] licenses, see [[!DNL Adobe Workfront Fusion] licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+
+## Change your email address
+
+1. Click your username in the bottom of the left panel.
+1. Click **Profile**.
+1. Click the **Options** dropdown menu in the top right corner.
+1. Click **Change email address**.
+1. Type your new email address in the **Email** field.
+1. Type your current password in the **Password** field.
+1. Click **Save**.
+

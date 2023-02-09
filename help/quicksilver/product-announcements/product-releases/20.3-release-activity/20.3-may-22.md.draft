@@ -1,0 +1,47 @@
+---
+filename: 20.3-may-22
+content-type: release-notes
+navigation-topic: 2020-3-release-activity
+title: 20.3 release activity May 22, 20202
+description: Test
+author: Luke
+hidefromtoc: true
+---
+
+# 20.3 release activity: May 22, 2020
+
+Test
+
+This page describes all enhancements made with the {Release Version] release to the Preview the week of [Release Date].
+
+<!--
+<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
+These enhancements will be made available in the Production environment the week of May 11, 2020.
+</MadCap:conditionalText>
+-->
+
+For a list of all changes available at this point in the {Release Version] release cycle, see [20.3 release overview](../../../product-announcements/product-releases/20.3-release-activity/20.3-release-overview.md).
+
+<!--[ ![Closed](assets/transparent.gif)](#) [New for administrators: New Setup sidebar](#)
+-->
+
+>[!NOTE]
+>
+>This feature is available only in the new Adobe Workfront experience
+
+The left sidebar in Setup is now faster and easier to use and leverages the basic layout and functionality you already know. Along with a more modern look and feel, here's what else is new:
+
+* A new off-white background in the sidebar makes it easier to differentiate from the rest of the Setup area.
+* Icons in the sidebar are a bit larger and some are redesigned to suggest more clearly what the option does.
+* More vertical space between sidebar items makes them easier to read.
+* You can collapse the sidebar when you need room in the main area to see and do more, such as viewing additional columns. And you can expand the sidebar again when you need to see feature names.
+* While the sidebar is collapsed, you see only the icons for each feature. To see the sub-items under a main sidebar item, hover over its icon to display them in a flyout menu. For example, hover over the Processes icon to display a menu containing Approvals and Milestone Paths.
+* You can access the two Kick-Starts options (Import Data and Export Data) one click faster. They have moved out from under System to display on the main level of the sidebar.
+
+For information about how to use the Setup area, see [Administration and setup](../../../administration-and-setup/administration-and-setup.md).
+
+## Removed ability to create duplicate Event Subscriptions
+
+To prevent the delivery of duplicate messages, you can no longer create duplicate subscriptions. Additionally, any duplicate subscriptions created previously have been removed.
+
+For more information, see [FAQs - Event Subscriptions](../../../wf-api/general/event-subs-faq.md).

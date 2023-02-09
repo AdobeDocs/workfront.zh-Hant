@@ -1,0 +1,121 @@
+<html>
+ <head>
+  <title>Comment on a proof</title>
+ </head>
+ <body>
+  <div class="body-container" aemmigrated="true"> 
+   <div id="mc-main-content" role="main" data-mc-content-body="True" aemmigrated="true"> 
+    <h1 aemmigrated="true">Comment on a proof</h1> 
+    <p aemmigrated="true">Comments enable you&nbsp;to provide feedback on content and collaborate with other users in the proofing viewer. </p> 
+    <p aemmigrated="true">When tagging users in comments on a proof, the users you are able to tag might differ depending on various factors, such as individual user permissions and your membership in the organization:</p> 
+    <ul aemmigrated="true"> 
+     <li aemmigrated="true">If you are the proof creator, owner, or have specific permissions enabled, you can tag users outside of the proof workflow and share the proof with them.</li> 
+     <li aemmigrated="true"> If you were added to the proof as an outside user and you are a member of another environment with a different proof account, you can tag only those users from your original environment. For more information, see <a href="../../../../review-and-approve-work/proofing/tips-tricks-and-troubleshooting/collaboration-with-members-outside-of-your-organization.md" class="MCXref xref" aemmigrated="true">Proofing collaboration limitations with people outside of your organization</a></li> 
+    </ul> 
+    <h2 aemmigrated="true">Access requirements</h2> 
+    <p aemmigrated="true">You must have the following access to perform the steps in this article:</p> 
+    <table style="table-layout:auto"> 
+     <col aemmigrated="true"> 
+     <col aemmigrated="true"> 
+     <tbody aemmigrated="true"> 
+      <tr aemmigrated="true"> 
+       <td role="rowheader" aemmigrated="true">Adobe Workfront plan*</td> 
+       <td aemmigrated="true"> <p aemmigrated="true">Current plan: Pro or Higher</p> <p aemmigrated="true">or</p> <p aemmigrated="true">Legacy plan: Select or Premium</p> <p aemmigrated="true">For more information about proofing access with the different plans, see .</p> </td> 
+      </tr> 
+      <tr aemmigrated="true"> 
+       <td role="rowheader" aemmigrated="true">Adobe Workfront license*</td> 
+       <td aemmigrated="true"> <p aemmigrated="true">Current plan: Work or Plan</p> <p aemmigrated="true">Legacy plan: Any (You must have proofing enabled for the user)</p> </td> 
+      </tr> 
+      <tr aemmigrated="true"> 
+       <td role="rowheader" aemmigrated="true">Proof Permission Profile </td> 
+       <td aemmigrated="true">Manager or higher</td> 
+      </tr> 
+      <tr aemmigrated="true"> 
+       <td role="rowheader" aemmigrated="true">Proof role</td> 
+       <td aemmigrated="true">Reviewer, Reviewer &amp; Approver, Moderator, Author</td> 
+      </tr> 
+      <tr aemmigrated="true"> 
+       <td role="rowheader" aemmigrated="true">Access level configurations*</td> 
+       <td aemmigrated="true"> <p aemmigrated="true">Edit access to Documents</p> <p aemmigrated="true">For information on requesting additional access, see <a href="../../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref" aemmigrated="true">Request access to objects </a>.</p> </td> 
+      </tr> 
+     </tbody> 
+    </table> 
+    <p aemmigrated="true">*To find out what plan, role, or Proof Permission Profile you have, contact your Workfront or Workfront Proof administrator.</p> 
+    <h2 aemmigrated="true">Comment on a proof</h2> 
+    <ol aemmigrated="true"> 
+     <li value="1" aemmigrated="true"> <p aemmigrated="true">Go to the project, task, or issue that contains the document, then select <strong aemmigrated="true">Documents</strong>.</p> </li> 
+     <li value="2" aemmigrated="true"> <p aemmigrated="true">Find the proof you need, then click <strong aemmigrated="true">Open proof</strong>.</p> </li> 
+    </ol> 
+    <ol start="3" aemmigrated="true"> 
+     <li value="3" aemmigrated="true"> <p aemmigrated="true">At the top of the proofing viewer, click <strong aemmigrated="true">Add comment</strong>.</p> </li> 
+     <li value="4" aemmigrated="true"> <p aemmigrated="true">(Conditional) If this is a video proof, play the video proof, then click<strong aemmigrated="true">Add comment</strong> at the point in the video where you want the comment using the playheads</p> <note aemmigrated="true"> 
+       <ol aemmigrated="true"> 
+        <li value="1" aemmigrated="true"> <p aemmigrated="true"> For ease of use, pause the video, click in the time line where you want the comment.</p> </li> 
+        <li value="2" aemmigrated="true"> <p aemmigrated="true">For better precision, you can click the values above the playheads and type new values.<br aemmigrated="true"></p> </li> 
+        <li value="3" aemmigrated="true"> <p aemmigrated="true">To comment on a range of video footage, drag the playheads left and right in the timeline to indicate a range of footage you want to comment on.</p> </li> 
+        <li value="4" aemmigrated="true"> <p aemmigrated="true">To comment on a range of video footage, drag the playheads left and right in the timeline to indicate a range of footage you want to comment on.</p> </li> 
+       </ol> 
+      </note> </li> 
+     <li value="5" aemmigrated="true"> <p aemmigrated="true">To draw attention to a specific location on the proof, click the markup tool you want in the toolbar, then mark the area of the proof that you want to comment on:</p> 
+      <table style="table-layout:auto"> 
+       <col aemmigrated="true"> 
+       <col aemmigrated="true"> 
+       <col aemmigrated="true"> 
+       <tbody aemmigrated="true"> 
+        <tr aemmigrated="true"> 
+         <td role="rowheader" aemmigrated="true"><strong aemmigrated="true">Draw a freehand line</strong> </td> 
+         <td aemmigrated="true"> <img src="assets/freehand-line.png" aemmigrated="true"> </td> 
+         <td aemmigrated="true">Lets you add a freehand line on the selected area.</td> 
+        </tr> 
+        <tr aemmigrated="true"> 
+         <td role="rowheader" aemmigrated="true"><strong aemmigrated="true">Draw a line</strong> </td> 
+         <td aemmigrated="true"> <img src="assets/line.png" aemmigrated="true"> </td> 
+         <td aemmigrated="true">Lets you draw a line on the selected area.</td> 
+        </tr> 
+        <tr aemmigrated="true"> 
+         <td role="rowheader" aemmigrated="true"><strong aemmigrated="true">Draw an arrow</strong> </td> 
+         <td aemmigrated="true"> <img src="assets/arrow.png" aemmigrated="true"> </td> 
+         <td aemmigrated="true">Lets you add an arrow to an area you select.</td> 
+        </tr> 
+        <tr aemmigrated="true"> 
+         <td role="rowheader" aemmigrated="true"><strong aemmigrated="true">Highlight an area</strong> </td> 
+         <td aemmigrated="true"> <img src="assets/highlight.png" aemmigrated="true"> </td> 
+         <td aemmigrated="true">Highlights the area you select.</td> 
+        </tr> 
+        <tr aemmigrated="true"> 
+         <td role="rowheader" aemmigrated="true"><strong aemmigrated="true">Draw a rectangle</strong> </td> 
+         <td aemmigrated="true"> <img src="assets/rectangle.png" aemmigrated="true"> </td> 
+         <td aemmigrated="true">Lets you draw a rectangle around an area.</td> 
+        </tr> 
+        <tr aemmigrated="true"> 
+         <td role="rowheader" aemmigrated="true"><strong aemmigrated="true">Polyline</strong> </td> 
+         <td aemmigrated="true"> <img src="assets/polyline.png" aemmigrated="true"> </td> 
+         <td aemmigrated="true"> <p aemmigrated="true">Draws a connected sequence of line segments that you can leave open or close as a shape. You can move or delete any of the points you add. </p> <p aemmigrated="true">This tool is useful for working with technical and architectural images.</p> </td> 
+        </tr> 
+        <tr aemmigrated="true"> 
+         <td role="rowheader" aemmigrated="true"><strong aemmigrated="true">Change markup color, thickness, or opacity</strong> </td> 
+         <td aemmigrated="true"> <img src="assets/change-color.png" aemmigrated="true"> </td> 
+         <td aemmigrated="true">Lets you change the color, thickness and opacity of the markup tools.</td> 
+        </tr> 
+        <tr aemmigrated="true"> 
+         <td role="rowheader" aemmigrated="true"><strong aemmigrated="true">Text</strong> </td> 
+         <td aemmigrated="true"> <img src="assets/copy-of-text.png" aemmigrated="true"> </td> 
+         <td aemmigrated="true"> <p aemmigrated="true">This tool appears on the left of the other tools when the proof is a text-based document. It provides markup tools for commenting on text in proofs. <br aemmigrated="true"></p> <p aemmigrated="true">When you click this tool and then select text on your proof, annotation options appear beneath the selected text.<br aemmigrated="true"></p> </td> 
+        </tr> 
+       </tbody> 
+      </table> </li> <note type="note" aemmigrated="true">
+      In static proofs, you can mark multiple areas on multiple pages for one comment. For example, if you want to make the same comment on multiple pages, select an area on one page, then go to the next page where you want to make the same comment and select an area there. (This applies only to the regular annotation markup tools, not the text markup tools.)
+     </note> 
+     <li value="6" aemmigrated="true">Type your comment in the <strong aemmigrated="true">Add comment</strong> box on the right.</li> 
+     <li value="7" aemmigrated="true"> <p aemmigrated="true">(Optional) To tag another user in your comment and add them to the proof's workflow, type @ in the comment box, then type the user's name or email address and select the user in the menu that appears.&nbsp;For more information, see <a href="../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/tag-users-to-share-proof.md" class="MCXref xref" aemmigrated="true">Tag users to share a proof</a>.</p> </li> 
+     <li value="8" aemmigrated="true"> (Optional) To attach&nbsp;a file to a comment, do either of the following: 
+      <ul aemmigrated="true">
+       <li aemmigrated="true">Click the paper clip icon in the lower-right corner of the comment, then find and select the file you want to upload.</li>
+       <li aemmigrated="true">Drag a file from a&nbsp;location on your computer and drop it into the comment area.</li>
+      </ul></li> 
+     <li value="9" aemmigrated="true">Click <strong aemmigrated="true">Post</strong>.</li> 
+    </ol> 
+   </div> 
+  </div>
+ </body>
+</html>

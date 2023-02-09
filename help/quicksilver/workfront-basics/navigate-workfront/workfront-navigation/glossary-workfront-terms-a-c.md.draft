@@ -1,0 +1,564 @@
+---
+filename: glossary-workfront-terms-a-c
+content-type: reference
+navigation-topic: workfront-navigation
+title: Glossary of Workfront terms (A-C)
+description: For the full glossary, see Glossary of Workfront terms.
+hidefromtoc: true
+---
+
+# Glossary of Workfront terms (A-C)
+
+>[!IMPORTANT]
+>
+>This article should be used as a reference to understand the terms that you may encounter in the Adobe Workfront application or in the Workfront documentation. We are currently&nbsp;updating this information and as a result this table might not be complete. We will remove this disclaimer when we consider this information exhaustive.&nbsp;
+
+For the full glossary, see [Glossary of Workfront terms](../../../workfront-basics/navigate-workfront/workfront-navigation/glossary-of-workfront-terms.md).
+
+The following table is a list of commonly used terms in Adobe Workfront:&nbsp;&nbsp;
+
+[A](#a)
+
+[B](#b)
+
+[C](#c)
+
+### A {#a}
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <thead> 
+  <tr> 
+   <th>Object Name</th> 
+   <th>Description</th> 
+  </tr> 
+ </thead> 
+ <tbody> <!--
+   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+    <td>Access Level</td> 
+    <td>A user profile that determines how a user can interact with different objects and tools within Workfront.</td> 
+   </tr>
+  --> 
+  <tr> 
+   <td>Active Task</td> 
+   <td>An incomplete task in a current project that is not prevented from being worked on by a predecessor task and does not have a task constraint with a future planned start date. In other words, it can be worked on today.</td> 
+  </tr> 
+  <tr> 
+   <td>Actual&nbsp;Expense Cost</td> 
+   <td>Total&nbsp;of the Actual Amounts&nbsp;of all the expenses on a project or a task.</td> 
+  </tr> 
+  <tr> 
+   <td> <p>Actual Hours</p> </td> 
+   <td> <p>In a project, task, or issue report, Actual Hours are the sum of all hours logged on the project, task, or issue.&nbsp;</p> </td> 
+  </tr> 
+  <tr> 
+   <td>Actual Labor Cost</td> 
+   <td> <p>For a task, the number of hours logged by a user multiplied by their hourly rate or the rate of their Primary Job&nbsp;Role.&nbsp;</p> <p>For a project, it is a total of all Actual Labor Costs of all the tasks.&nbsp;&nbsp;</p> <p>For more information, see <a href="../../../manage-work/projects/project-finances/track-costs.md" class="MCXref xref">Track costs</a>.</p> </td> 
+  </tr> 
+  <tr> 
+   <td>Actual&nbsp;Revenue </td> 
+   <td> <p>The Actual Revenue of a project or a task is the amount of money associated with the Actual Hours of the project or the task. </p> <p>For information about tracking revenue in&nbsp;Workfront see <a href="../../../manage-work/projects/project-finances/billing-and-revenue-overview.md" class="MCXref xref">Overview of Billing and Revenue</a>. </p> </td> 
+  </tr> 
+  <tr> 
+   <td>Ad hoc</td> 
+   <td>A type of work process that is unplanned.</td> 
+  </tr> <!--
+   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+    <td>Additional Schedules</td> 
+    <td>An additional preset to be used for a new user group.</td> 
+   </tr>
+  --> <!--
+   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+    <td>Agile Methodology</td> 
+    <td>A type of methodology based on the collaborative evolution of needs and solutions with cross-functional teams. It encourages flexibility and change based on a fixed timeline.</td> 
+   </tr>
+  --> <!--
+   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+    <td>Agile Team</td> 
+    <td>Differ from traditional team because they take their prospective work from a backlog and work on it within a set period of time that is called an Iteration.</td> 
+   </tr>
+  --> 
+  <tr> 
+   <td> <p>Allocation Date</p> </td> 
+   <td> <p>You can find this field in the following types of reports:</p> 
+    <ul> 
+     <li>Resource Estimates</li> 
+     <li>Project (Financial Data)</li> 
+     <li>Budgeted Hour</li> 
+    </ul> <p>For a Resource Estimates or Project (Financial Data) report: </p> 
+    <ul> 
+     <li>Build these reports when trying to understand how resources are budgeted for work, or the amount of Planned Hours that is assigned to your resources.</li> 
+     <li> <p>The Allocation Date is the first day (Sunday) of a week in which the allocation of a Job Role to a task starts. A resource (Job Role) can have as many Allocation Dates as it has weeks during the Duration of the tasks that it is assigned to. If tasks span over multiple months, then the first day of a month can also become an Allocation Date, if it falls within the Duration of the task.&nbsp;</p> <p>For example, you can have a Job Role assigned to a task that spans over 3 weeks and has 90 Planned Hours. These hours are spread evenly during the duration of the task, which makes every day assign 6 Planned Hours to your job role:</p> <p><em> Daily Planned Hours = Total Planned Hours/ Number of Work Days during the Duration of the task </em> </p> <p>As a result, there are three Allocation Dates, one for every Sunday of every week during the Duration of the task, each with a certain number of Planned Hours associated with them.<br>If the task starts in the middle of the last week of a month and ends two weeks after the beginning of a new month, the task will have four Allocation Dates: one for every Sunday of every week during the Duration of the task, and one for the first day of the new month.</p> <p>To make the most use of this information, we recommend that you build a Resource Estimates or a Project (Financial Data) report and add a matrix grouping for Allocation Date, and group the results weekly, monthly, quarterly, or yearly for the most accurate data.<br>For information about building a matrix grouping, see the article <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/create-matrix-report.md" class="MCXref xref">Create a matrix report</a>.</p> </li> 
+    </ul> 
+    <div> 
+     <p>For a Budgeted Hour report:</p> 
+     <ul> 
+      <li>Build this report when trying to understand the amount of Budgeted Hours that is allocated to your resources or to your projects in the Resource Planner.</li> 
+      <li> <p>The Allocation Date is the first day (a Sunday) of the week for which you budgeted the hours in the Resource Planner. </p> <p>Tip:   <p>If a week spans for two months, it will generate two rows in the report: one corresponding to the first day of the week (Sunday of the first week which is during the first month), and the second row displays the first day of the second month. </p> <p>For example, if you budget 8 hours for a user for the week of June 30 (Sunday) - July 6 (Saturday), the two rows show an Allocation Date of June 30, and July 1. </p> </p> <p>For information about budgeting resources in the Resource Planner, see the article <a href="../../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md" class="MCXref xref">Budget resources in the Resource Planner using the Project and Role views</a>.</p> </li> 
+     </ul> 
+    </div> </td> 
+  </tr> 
+  <tr> 
+   <td>Announcements</td> 
+   <td> <p>A way to communicate to users information within the system. This information is often coming from Workfront to the Administrator or from the Administrator to the user. </p> <p>For more information, see <a href="../../../administration-and-setup/get-started-wf-administration/view-send-announcements.md" class="MCXref xref">Send announcements</a></p> </td> 
+  </tr> 
+  <tr> 
+   <td>App Integration</td> 
+   <td>An app most commonly represents a connector to a software application, but can also represent special functions that manipulate data.</td> 
+  </tr> 
+  <tr> 
+   <td> <p>Approver Decision</p> </td> 
+   <td> <p>In the Proof Approval report, this field displays&nbsp;proof approval decisions for proofs that are no longer active.</p> </td> 
+  </tr> 
+  <tr> 
+   <td>Approval</td> 
+   <td> <p>A given work item, such as a task, document, or timesheet, may require that a supervisor or other user sign off on the work item. This process of signing off is called approval. </p> <p>For more information, see <a href="../../../review-and-approve-work/manage-approvals/approval-process-in-workfront.md" class="MCXref xref">Approval process overview</a>.</p> </td> 
+  </tr> 
+  <tr> 
+   <td>Approver</td> 
+   <td>A user or job role that must sign off on a given work item, or the user that approves hour entries on timesheets.</td> 
+  </tr> 
+  <tr> 
+   <td> <p>Assigned To</p> </td> 
+   <td> <p>In a Task or Issue report, this field displays the Owner of the task or the issue, or the Primary Assignee. You can filter or group by this field, as well.&nbsp;</p> </td> 
+  </tr> 
+  <tr> 
+   <td>Assignment</td> 
+   <td>An Issue or Task assigned to a user. Projects can not be assigned.</td> 
+  </tr> 
+  <tr> 
+   <td> <p>Assignments (field)</p> </td> 
+   <td> <p>In a Task or Issue report, this field displays a list of all entities (users, job roles, teams) that are assigned to the task or issue. You can filter by this field only in a text mode filter. You cannot group the&nbsp;report by this field.&nbsp;</p> </td> 
+  </tr> 
+  <tr> 
+   <td>Assignment Users</td> 
+   <td>In a Task or Issue report, this field displays information about the users assigned to the tasks or issues.&nbsp;This field displays Primary&nbsp;Owners, as well as other users assigned to tasks or issues. </td> 
+  </tr> 
+  <tr> 
+   <td>Assignment Roles</td> 
+   <td>In a Task or Issue report, this field displays information about the job roles assigned to the tasks or issues.&nbsp;This field displays Primary&nbsp;Owners, as well as other job roles assigned to tasks or issues. </td> 
+  </tr> 
+  <tr> 
+   <td>Attribute</td> 
+   <td>An attribute is a trait of a Workfront object.</td> 
+  </tr> 
+  <tr> 
+   <td>Audit Area</td> 
+   <td> <p>Audits are system messages that record an action tha happened in Workfront. The following audit types are recorded:</p> 
+    <ul> 
+     <li>Scope Change</li> 
+     <li>Attachment Action</li> 
+     <li>General Edit</li> 
+     <li>Status Change</li> 
+     <li>Note</li> 
+     <li>Combined Entry</li> 
+     <li>Error Entry</li> 
+     <li>Status Change</li> 
+     <li>Subscription Change</li> 
+    </ul> </td> 
+  </tr> 
+  <tr> 
+   <td>Audit Trail</td> 
+   <td>The collection of notes automatically generated by events that are tracked through the Recorded Changes (Audit Areas). Each note records who did the action, what they did, and when they did it.</td> 
+  </tr> 
+  <tr> 
+   <td>Automatic And On Change</td> 
+   <td> <p>One of the Project Update types. This will recalculate the Project's Projected and Planned timelines when the nightly recalculation process runs and when any update is made to the Project or Tasks within the Project. </p> <p>For more information, see <a href="../../../manage-work/projects/manage-projects/select-project-update-type.md" class="MCXref xref">Select the project Update Type </a>.</p> </td> 
+  </tr> 
+  <tr> 
+   <td>Automatic Only</td> 
+   <td> <p>One of the Project Update types. This will recalculate Projected and Planned timelines when the nightly recalculation process runs.</p> <p>For more information, see <a href="../../../manage-work/projects/manage-projects/select-project-update-type.md" class="MCXref xref">Select the project Update Type </a>.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+### B {#b}
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <thead> 
+  <tr> 
+   <th>Object Name</th> 
+   <th>Description</th> 
+  </tr> 
+ </thead> 
+ <tbody> <!--
+   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+    <td>BAU</td> 
+    <td>"Business as usual" work that contributes to running the everday primary business goals.</td> 
+   </tr>
+  --> <!--
+   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+    <td>Backlog</td> 
+    <td>The area in an agile environment where new issues are kept until they are ready to be worked on.</td> 
+   </tr>
+  --> <!--
+   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+    <td>Baseline</td> 
+    <td>A source of data to measure iterations against in an agile environment.</td> 
+   </tr>
+  --> 
+  <tr> 
+   <td>Billing Record</td> 
+   <td> <p>Records the revenue, hours, or expenses that can be billed. This information can be used to create invoices in an external accounting system.</p> <p>For more information, see <a href="../../../manage-work/projects/project-finances/create-billing-records.md" class="MCXref xref">Create billing records</a>.</p> </td> 
+  </tr> 
+  <tr> 
+   <td>Branding</td> 
+   <td>The process of customizing Workfront to give the interface an appearance that mirrors your organization by using your colors and logos.</td> 
+  </tr> 
+  <tr> 
+   <td>Breadcrumbs</td> 
+   <td> <p>The area at the top of the page that shows the hierarchical location of where the user is in the application.</p> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">For more information, see <a href="../../../workfront-basics/the-new-workfront-experience/breadcrumb-overview.md" class="MCXref xref">Breadcrumbs overview in the new Adobe Workfront experience</a>.</p> </td> 
+  </tr> 
+  <tr> 
+   <td> <p>Budget Status</p> </td> 
+   <td> <p>This field shows&nbsp;whether the project is currently added to the capacity planner and if the budget calculation has been completed&nbsp;for it.</p> 
+    <ul> 
+     <li>If the project is&nbsp;not added to the capacity planner, its value is <i>Not Included</i>.&nbsp;</li> 
+     <li>If the project is&nbsp;added to the Capacity Planner but is excluded from the budget calculation,&nbsp;the value is <i>Included but not Calculated</i>.&nbsp;</li> 
+     <li> If the project is&nbsp;added to the Capacity Planner and included in the budget calculation, the value is <i>Included and Calculated</i>. </li> 
+    </ul> </td> 
+  </tr> 
+  <tr> 
+   <td> <p>Budgeted Completion Date</p> </td> 
+   <td> <p>This is a deprecated field that shows the date when the budgeting of resources ends, as defined in the Legacy Resource Estimates area of the Business Case of a project, or the Capacity Planner. The field is available in project and task reports.&nbsp;</p> </td> 
+  </tr> 
+  <tr> 
+   <td> <p>Budgeted Cost</p> </td> 
+   <td> <p>The Budgeted Cost for the project is calculated using the following formula:<br></p> <p><code>Budgeted Cost =&nbsp;Budgeted Expense Cost + Budgeted Labor Cost + Fixed Cost of the project</code> </p> <p>The Budgeted Labor Cost in the calculation above refers to both labor costs for hours budgeted in the Legacy Resource Estimates area of a project (or in the Capacity Planner), and hours budgeted in the Resource Budgeting area of the Business Case (or in the Resource Planner). </p> <p>Important: The Capacity Planner and Legacy&nbsp;Resource Estimates areas are currently deprecated and will be removed from&nbsp;Workfront.</p> <p>You can locate the Budgeted Cost field based on the hours budgeted in the Resource Planner in the following areas and reports in&nbsp;Workfront: </p> 
+    <ul> 
+     <li>Business Case Summary</li> 
+     <li>Portfolio Optimizer (in the Cost field)</li> 
+     <li> <p>In the following reports, in the Project Budgeted Cost field: </p> 
+      <ul> 
+       <li>Resource Estimates report</li> 
+       <li>Budgeted Hour report </li> 
+       <li>Project report</li> 
+       <li>Project (Financial&nbsp;Data)</li> 
+       <li>Task&nbsp;report</li> 
+       <li>Issue report</li> 
+      </ul> </li> 
+    </ul> <p>You can locate the Budgeted Cost field based on the hours budgeted in the Capacity Planner in the following areas and reports in&nbsp;Workfront: </p> 
+    <ul> 
+     <li>Resource Estimates report</li> 
+     <li>Budgeted Hour report </li> 
+     <li>Project report</li> 
+     <li>Project (Financial Data)</li> 
+     <li>Task&nbsp;report</li> 
+     <li>Issue report</li> 
+    </ul> <p>For more information about calculating Budgeted Cost, see the article <a href="../../../manage-work/projects/project-finances/budgeted-cost.md" class="MCXref xref">Calculate Budgeted Cost</a>. </p> </td> 
+  </tr> 
+  <tr> 
+   <td>Budgeted Hours</td> 
+   <td> <p>These are the hours that you, as the Resource Manager, budget for your resources for the work they need to complete on projects. This field refers to both hours budgeted in the Legacy Resource Estimates area of a project (or in the Capacity Planner), and hours budgeted in the Resource Budgeting area of the Business Case (or in the Resource Planner). </p> <p>You can locate the Budgeted Hours from the Resource Planner in the following areas and reports in&nbsp;Workfront: </p> 
+    <ul> 
+     <li>Resource Planner Hours view (in the BDG column)</li> 
+     <li>Utilization report Hours view</li> 
+     <li>Resource Budgeting area of the Business Case (in the Hours field)</li> 
+     <li>Budgeted Hour report (the Bud. Hours field refers to hours budgeted for users; the Pln. Bud. Hours field refers to hours budgeted for roles or projects)</li> 
+    </ul> <p>You can locate the Budgeted Hours from the&nbsp;Capacity Planner in the following areas and reports in&nbsp;Workfront: </p> 
+    <ul> 
+     <li>Capacity Planner</li> 
+     <li>Legacy&nbsp;Resource Estimates area of the Business Case (in the Hours field)</li> 
+     <li>Resource Estimates report (in the Bud. Hours field)</li> 
+     <li>Budgeted Hour report (in the Budgeted Hours field)</li> 
+     <li>Project report</li> 
+     <li>Project (Financial&nbsp;Data)</li> 
+     <li>Task&nbsp;report</li> 
+     <li>Issue report</li> 
+    </ul> <p>The Capacity Planner and Legacy&nbsp;Resource Estimates areas are currently deprecated and will be removed from Workfront. For information about budgeting Users in the Resource Planner, see the article <a href="../../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md" class="MCXref xref">Budget resources in the Resource Planner using the Project and Role views</a>.</p> </td> 
+  </tr> 
+  <tr> 
+   <td> <p>Budgeted Labor Cost</p> </td> 
+   <td> <p>This is the cost associated with the hours that you, as the Resource Manager, budget for your resources for the work they need to complete on projects. </p> <p>The Budgeted Labor Cost in a project report is calculated using the following formula:</p> <p><code style="font-style: normal;">Budgeted Labor Cost = SUM(Job Role Cost per Hour * Budgeted Hours per Job Role)</code> </p> <p>This field refers to both labor costs for hours budgeted in the Legacy Resource Estimates area of a project (or in the Capacity Planner), and hours budgeted in the Resource Budgeting area of the Business Case (or in the Resource Planner). </p> <p>Important: The Capacity Planner and Legacy&nbsp;Resource Estimates areas are currently deprecated and will be removed from&nbsp;Workfront.</p> <p>You can locate the Budgeted Labor Cost field based on the hours budgeted in the Resource Planner in the following areas and reports in&nbsp;Workfront: </p> 
+    <ul> 
+     <li>Resource Planner Cost view (in the BDG column)</li> 
+     <li>Utilization report Cost view (in the Budgeted Cost column)</li> 
+     <li>Resource Budgeting area of the Business Case </li> 
+     <li> <p>In the following reports, in the Resource Planner Budgeted Labor Cost field: </p> 
+      <ul> 
+       <li>Resource Estimates report</li> 
+       <li>Budgeted Hour report </li> 
+       <li>Project report</li> 
+       <li>Project (Financial&nbsp;Data)</li> 
+       <li>Task&nbsp;report</li> 
+       <li>Issue report</li> 
+      </ul> </li> 
+    </ul> <p>You can locate the Budgeted Labor Cost based on the hours budgeted in the Capacity Planner in the following areas and reports in&nbsp;Workfront: </p> 
+    <ul> 
+     <li>Capacity Planner</li> 
+     <li>Legacy&nbsp;Resource Estimates area of the Business Case (in the Legacy Budgeted Labor Cost field)</li> 
+     <li>Resource Estimates report</li> 
+     <li>Budgeted Hour report </li> 
+     <li>Project report</li> 
+     <li>Project (Financial Data)</li> 
+     <li>Task&nbsp;report</li> 
+     <li>Issue report</li> 
+    </ul> <p>For more information about calculating the Budgeted Labor Cost, see the article <a href="../../../manage-work/projects/project-finances/budgeted-labor-cost.md" class="MCXref xref">Understand Budgeted Labor Cost and Budgeted Hours for projects</a>&nbsp;&nbsp;</p> </td> 
+  </tr> 
+  <tr> 
+   <td> <p>Budgeted Start Date</p> </td> 
+   <td> <p>This is a deprecated field that shows the date when the budgeting of resources starts, as defined in the Legacy Resource Estimates area of the Business Case of a project, or the Capacity Planner.&nbsp;The field is available in project and task reports.&nbsp;</p> </td> 
+  </tr> <!--
+   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+    <td>Burndown Chart</td> 
+    <td>A line chart that provides a visual representation of completed and remaining work.</td> 
+   </tr>
+  --> 
+  <tr> 
+   <td>Business Case</td> 
+   <td> <p>A tool used to evaluate whether a project should be moved forward from the Idea status to the Planning status. In other words, a business case helps the organization decide whether it is worthwhile to launch and complete the project or not, especially when comparing projects with others in a portfolio.</p> <p>For more information, see <a href="../../../manage-work/projects/define-a-business-case/create-business-case.md" class="MCXref xref">Create a Business Case for a project </a>.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+### C {#c}
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <thead> 
+  <tr> 
+   <th>Object Name</th> 
+   <th>Description</th> 
+  </tr> 
+ </thead> 
+ <tbody> 
+  <tr> 
+   <td>Calculated Assignment</td> 
+   <td> <p>One of the task Duration Types. This will calculate the percentage of an 8-hour work day that the user assigned to the task will be allocated to the task, based on the Duration of the task and the Work Required.</p> <p>For more information, see <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">Overview of Task Duration and Duration Type</a>.</p> </td> 
+  </tr> 
+  <tr> 
+   <td>Calculated Work</td> 
+   <td> <p>One of the task Duration Types. This will calculate the WOrk Required on a task, given the Duration and the user Assignment percentages (which are based on an 8-hour work day).</p> <p>For more information, see <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">Overview of Task Duration and Duration Type</a>.</p> </td> 
+  </tr> 
+  <tr> 
+   <td>Calendar</td> 
+   <td> <p>There are two types of calendars in Workfront: the Home Calendar and calendar reports.</p> <p>The Home Calendar is a personal calendar that allows a user to manage their workload against their available hours in Workfront. The user can also integrate their Home Calendar with Outlook (Google and Microsoft integration to come). </p> <p>For more information about the Home Calendar, see <a href="../../../workfront-basics/using-home/using-the-home-area/home-calendar-view.md" class="MCXref xref">Home Calendar view</a>.</p> <p>A calendar report is a dynamic report in which users can view the date and other important details of an event, including the due date, status of work, and the user to whom the event is assigned.</p> <p> For more information about calendar reports, see <a href="../../../reports-and-dashboards/reports/calendars/calendar-reports-overview.md" class="MCXref xref">Calendar reports overview</a>.</p> </td> 
+  </tr> 
+  <tr> 
+   <td> <p>Can Start</p> </td> 
+   <td> <p>This field shows if a task is ready to start to be worked on. &nbsp;The system checks for the following things before it marks a task as <i>True</i> for the <i>Can Start</i> field:<br></p> 
+    <ul> 
+     <li> If the task has a parent, it checks to see if the value of <i>Can Start</i> for the parent it set to <i>True</i>. If the value for the parent is <i>False</i>, then all the subtasks have the value of <i>Can Start</i> set to <i>False</i>, as well.&nbsp;</li> 
+     <li> It also checks to see if the predecessors of the task are complete. If they are complete, the <i>Can Start</i> value for the task is set to <i>True</i>. If any of the predecessors is not complete, or has a status of <i>Complete - Pending Approval</i>, then the <i>Can Start</i> value for the task is set to <i>False</i>.&nbsp;</li> 
+    </ul> </td> 
+  </tr> <!--
+   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+    <td>Capacity</td> 
+    <td>The total availability (measure in either hours or FTE) of a designated user, resource pool, team, rob role, or company.</td> 
+   </tr>
+  --> 
+  <tr> 
+   <td> <p>Category</p> </td> 
+   <td> <p>A category is a custom form. You can build reports for this object and you can show it in other object reports, as well. Not all objects can have a custom form, or category. The following objects can have a custom form:&nbsp;<br></p> 
+    <ul> 
+     <li>Project</li> 
+     <li>Task</li> 
+     <li>Issue</li> 
+     <li>Portfolio</li> 
+     <li>Document</li> 
+     <li>Expense</li> 
+     <li>Program</li> 
+     <li>User</li> 
+     <li>Company</li> 
+    </ul> <p>Iteration</p> </td> 
+  </tr> 
+  <tr> 
+   <td>Category&nbsp;Name</td> 
+   <td> <p>When added as a column to the view of any of the following objects it displays a list of all custom forms associated with these objects:</p> 
+    <ul> 
+     <li>Project</li> 
+     <li>Task<br></li> 
+     <li>Issue<br></li> 
+     <li>Portfolio<br></li> 
+     <li>Document<br></li> 
+     <li>Expense<br></li> 
+     <li>Program<br></li> 
+     <li>User<br></li> 
+     <li>Company</li> 
+     <li>Iteration</li> 
+    </ul> </td> 
+  </tr> <!--
+   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+    <td>Change Order</td> 
+    <td>A type of issue raised against a project that outlines a requested change to the agreed scope.</td> 
+   </tr>
+  --> <!--
+   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+    <td>Change Management</td> 
+    <td>A practice area focused on defining, understanding, and adapting planned work to changes in scope, schedule, cost, and resource factors.</td> 
+   </tr>
+  --> 
+  <tr> 
+   <td>Change Only</td> 
+   <td>One of the Project Update Types. It only updates Project Projected and Planned timelines when Updates are made to Tasks or edits are performed on the Project or Tasks.</td> 
+  </tr> 
+  <tr> 
+   <td>Change Order</td> 
+   <td> <p>One of the Issue types, usually indicating that an unplanned amount of work must be done before the project can be completed.</p> <p>For more information on Issue types, see <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/customize-default-issue-types.md#default-issue-types" class="MCXref xref">Customize default issue types</a> in <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/customize-default-issue-types.md" class="MCXref xref">Customize default issue types</a>.</p> </td> 
+  </tr> 
+  <tr> 
+   <td>Child Task</td> 
+   <td>A task that is a Subtask of a Parent Task (Summary Task).</td> 
+  </tr> 
+  <tr> 
+   <td>Children</td> 
+   <td>The collection of Subtasks to a Parent Task (Summary Task).</td> 
+  </tr> <!--
+   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+    <td>Coaching and Training</td> 
+    <td>Learning modules, certifications, standards, or a community of practice.</td> 
+   </tr>
+  --> <!--
+   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+    <td>Commit</td> 
+    <td>A communication tool for users to set expectations regarding task deliverables.</td> 
+   </tr>
+  --> <!--
+   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+    <td>Communication and Reporting</td> 
+    <td>Standards to review the exceptions and health of a project, program, or portfolio</td> 
+   </tr>
+  --> 
+  <tr> 
+   <td>Company</td> 
+   <td> <p>A Company is an organizational unit in Workfront. </p> <p> You can associate a user or a project with one company. For more information, see <a href="../../../administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md" class="MCXref xref">Create and edit companies</a>.</p> <!--
+     <p data-mc-conditions="QuicksilverOrClassic.Draft mode">An organizational unit in Workfront that can define a user's financials, permissions, access and organizational hierarchy.</p>
+    --> </td> 
+  </tr> 
+  <tr> 
+   <td>Completion date</td> 
+   <td> <p>The date that a project, task, or issue is set to be completed. There are several types of Completion dates in Workfront:</p> 
+    <ul> 
+     <li>Actual Completion Date. For more information, see <a href="../../../manage-work/projects/planning-a-project/project-actual-completion-date.md" class="MCXref xref">Overview of the project Actual Completion Date </a>.</li> 
+     <li>Planned Completion Date. For more information, see <a href="../../../manage-work/projects/planning-a-project/project-planned-completion-date.md" class="MCXref xref">Set the project Planned Completion Date</a>.</li> 
+     <li>Projected Completion Date. For more information, see <a href="../../../manage-work/projects/planning-a-project/project-projected-completion-date.md" class="MCXref xref">Overview of the Projected Completion Date for projects, tasks, and issues</a>.</li> 
+    </ul> </td> 
+  </tr> 
+  <tr> 
+   <td>Completion Day</td> 
+   <td>The day, relative to the start of the Template, that a Template Task or a Template is supposed to be complete.</td> 
+  </tr> 
+  <tr> 
+   <td>Completion Mode</td> 
+   <td> <p>This indicates how a project will be marked as Complete. It can have two values:</p> 
+    <ul> 
+     <li>Manual: A user must change the project status to Complete.</li> 
+     <li>Automatic: The project status will automatically change to Complete when all of the tasks in the project are 100% Complete and all of the issues are closed.</li> 
+    </ul> </td> 
+  </tr> 
+  <tr> 
+   <td> <p>Condition</p> </td> 
+   <td> <p>This is a visual representation of the progress of a task, issue or project.&nbsp;</p> <p>For projects, the condition can be manually set by the project owner or it can be automatically set by Workfront, based on the progress status of the project. </p> <p>The possible values for the project condition are:</p> 
+    <ul> 
+     <li>On Target</li> 
+     <li>At Risk</li> 
+     <li>In Trouble</li> 
+    </ul> <p>For more information about project condition, see the article <a href="../../../manage-work/projects/manage-projects/project-condition-and-condition-type.md" class="MCXref xref">Overview of Project Condition and Condition Type</a>.&nbsp;</p> <p>For tasks, the condition is set manually by the task&nbsp;owner. The possible values for the task condition are:</p> 
+    <ul> 
+     <li>Going Smoothly<br></li> 
+     <li> Some Concerns<br></li> 
+     <li>Major Roadblocks</li> 
+    </ul> <p>For more information about task condition, see the article <a href="../../../manage-work/projects/updating-work-in-a-project/update-condition-for-tasks-and-issues.md" class="MCXref xref">Update Condition for tasks and issues</a>.</p> <p>For issues, the condition is set manually by the issue&nbsp;owner. The possible values for the task condition are:<br></p> 
+    <ul> 
+     <li>Going Smoothly<br></li> 
+     <li>Some Concerns<br></li> 
+     <li>Major Roadblocks</li> 
+    </ul> </td> 
+  </tr> 
+  <tr> 
+   <td> <p>Condition Update</p> </td> 
+   <td> <p>This field shows the current condition of tasks, projects or issues. This option&nbsp;shows the most recent&nbsp;updates&nbsp;that the owners of tasks, projects or issues&nbsp;have provided in the Update Status field, along with the new condition.&nbsp;</p> <p>Comments made on condition updates are not displayed in the Condition Update column; only the main update is displayed.</p> </td> 
+  </tr> 
+  <tr> 
+   <td> <p>Constraint Date</p> </td> 
+   <td> <p>If you are using a Task Constraint that is tied to a specific date, such as Must Start On, then that specific date becomes the Constraint Date of the task.</p> <p>The following task constraints update the Constraint Date field:</p> 
+    <ul> 
+     <li>Must Start On</li> 
+     <li>Must Finish On</li> 
+     <li>Start No Later Than</li> 
+     <li>Start No Earlier Than</li> 
+    </ul> <p>Note:   Constraint Date is only viewable in a report or customized view. </p> </td> 
+  </tr> 
+  <tr> 
+   <td>Constraint Day</td> 
+   <td> <p>If you are using a Task Constraint in a template task that is tied to a specific day, such as Must Start On, then that specific day becomes the Constraint Day of the template task.&nbsp;</p> <p>The following task constraints update the Constraint Day field:</p> 
+    <ul> 
+     <li>Must Start On</li> 
+     <li>Must Finish On</li> 
+     <li>Start No Later Than</li> 
+     <li>Start No Earlier Than</li> 
+    </ul> <p>Note:   Constraint Day is only viewable in a report or customized view. </p> </td> 
+  </tr> 
+  <tr> 
+   <td>Constraint Type</td> 
+   <td> <p>The scheduling tendency of a Task. For example, As Soon as Possible will schedule a Task to begin as soon as possible, and Finish No Later Than will schedule a Task to finish by the Constraint Date and no later.</p> <p>For more information, see <a href="../../../manage-work/tasks/task-constraints/task-constraint-overview.md" class="MCXref xref">Task Constraint overview</a>.</p> </td> 
+  </tr> 
+  <tr> 
+   <td>Contextual Menu</td> 
+   <td>A menu, located on the left side of the screen, on which the items change to correlate with the active content. For example, when a user is viewing a Project, the Contextual Menu will display links to Project-related information and tools.</td> 
+  </tr> 
+  <tr> 
+   <td>Cost</td> 
+   <td> <p>The monetary amount that you must spend when completing a project, task, or issue. </p> <p>You can track various types of costs for labor, expenses, risks that relate to the project.&nbsp;For information about tracking costs in&nbsp;Workfront see <a href="../../../manage-work/projects/project-finances/track-costs.md" class="MCXref xref">Track costs</a>.</p> <!--
+     <p data-mc-conditions="QuicksilverOrClassic.Draft mode">A measurement of the amount of time and effort for work</p>
+    --> </td> 
+  </tr> 
+  <tr> 
+   <td>Cost Type</td> 
+   <td>For a task, the Cost Type determines how the task will accrue costs. Some examples include Fixed Hourly, User Hourly, and User Hourly plus Fixed. </td> 
+  </tr> 
+  <tr> 
+   <td>Cross-Project Dependencies</td> 
+   <td> <p>A task of one project is dependent on a task from a different project.</p> <p>For more information, see <a href="../../../manage-work/tasks/use-prdcssrs/cross-project-predecessors.md" class="MCXref xref">Create cross-project predecessors</a>.</p> </td> 
+  </tr> 
+  <tr> 
+   <td>Custom Data</td> 
+   <td> <p>Data that is unique to an organization. Organizations can customize the Workfront application by creating custom forms and custom fields. This custom information can drive reporting for KPIs, auditing, and demand mix. </p> <p>Custom Data can be linked to:</p> 
+    <ul> 
+     <li>Projects</li> 
+     <li>Tasks</li> 
+     <li>Users</li> 
+     <li>Companies</li> 
+     <li>Issues</li> 
+     <li>Documents</li> 
+     <li>Expenses</li> 
+     <li>Portfolios</li> 
+     <li>Programs</li> 
+     <li>Iterations</li> 
+    </ul> </td> 
+  </tr> 
+  <tr> 
+   <td>Custom Data Type</td> 
+   <td>The option to specify if a Custom Data Field is stored in the database as Text, a Date, a Number, or Currency.</td> 
+  </tr> 
+  <tr> 
+   <td>Custom Display Type</td> 
+   <td>The field display type of a custom field. Examples include Drop-Down, Text Field, Text Area, Radio Buttons, etc.</td> 
+  </tr> 
+  <tr> 
+   <td>Custom Field</td> 
+   <td>For Custom data that allow the user to select from several options, these are the values from which a User can select. Custom Options are only valid on Drop-Down, Multi-Select Drop-Down, Radio Buttons, and Checkboxes.</td> 
+  </tr> 
+  <tr> 
+   <td>Custom Form Label</td> 
+   <td>When using a Custom Display Type with Custom Options, this is the User Interface text that will display in the Drop-Down menu, the Checkboxes, or the Radio Buttons for that Custom Option.</td> 
+  </tr> 
+  <tr> 
+   <td>Custom Value</td> 
+   <td>When using a Custom field with Custom Options, this is the value that will be store in the database for a particular Option.</td> 
+  </tr> 
+  <tr> 
+   <td>Custom View</td> 
+   <td>A definition of the data fields, or columns, that are displayed for each object in a list.</td> 
+  </tr> 
+  <tr> 
+   <td>Customer</td> 
+   <td>An organization that uses an instance of Workfront.</td> 
+  </tr> 
+ </tbody> 
+</table>
+

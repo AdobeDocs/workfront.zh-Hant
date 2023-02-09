@@ -1,0 +1,60 @@
+---
+filename: aem-cloud-service-connector-overview
+product-area: workfront-integrations
+navigation-topic: workfront-for-adobe-experience-manager
+title: AEM as a Cloud Service Connector overview
+description: passes info immediately
+author: Courtney
+hidefromtoc: true
+---
+
+# AEM as a Cloud Service Connector overview
+
+## Custom forms
+
+passes info immediately
+
+## Comments/Updates
+
+passes info immediately
+
+proof and update comments push
+
+existing comments don't push with the asset.
+
+Historical comments don't push
+
+Once folder is linked, then comments go back and forth?
+
+## New version
+
+Need to manually push the new version with Send to
+
+If sent to the same folder with the same file name, AEM will treat it as a new version.
+
+New version uploaded in AEM can be passed to WF?
+
+Set up to do new version in the config
+
+New versions set up in AEM go over to WF automatically&#42;
+
+If linked from AEM and you add new version in WF, you need to push manually
+
+If uploaded in AEM, it pushes automatically to WF.
+
+## Link Asset
+
+there is a wf logo showing in AEM when linked
+
+Link from AEM
+
+## Link folder
+
+How? Why?
+
+Can't push folder
+
+Can multiselect assets in a folder
+
+Link folders from AEM to Workfront  
+if you add a asset to the linked folder, it shows automatically in AEM 

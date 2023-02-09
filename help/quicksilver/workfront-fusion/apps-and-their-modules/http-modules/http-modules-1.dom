@@ -1,0 +1,27 @@
+<html>
+ <head>
+  <title>HTTP modules</title>
+ </head>
+ <body>
+  <div class="body-container" aemmigrated="true"> 
+   <div id="mc-main-content" role="main" data-mc-content-body="True" aemmigrated="true"> 
+    <h1 aemmigrated="true">HTTP modules</h1> 
+    <div class="workfront_plans" aemmigrated="true"> 
+     <p aemmigrated="true">[!DNL Adobe Workfront Fusion] requires an [!DNL Adobe Workfront Fusion] license in addition to an [!DNL Adobe Workfront license].</p> 
+    </div> 
+    <p aemmigrated="true">The HTTP app provides various modules for communication based on Hypertext Transfer Protocol (HTTP) protocol. HTTP is the foundation of data communication for the World Wide Web. You can use the modules to download web pages and files, call webhooks and API endpoints, and so on.</p> 
+    <p aemmigrated="true">The right choice of the module depends on the authentication/ authorization mechanism that the resource you want to access employs. </p> 
+    <p aemmigrated="true">See the following articles for specific module instructions:</p> 
+    <ul aemmigrated="true"> 
+     <li aemmigrated="true"> <p aemmigrated="true"><a href="../../../workfront-fusion/apps-and-their-modules/http-modules/http-module-make-a-request.md" class="MCXref xref" xrefformat="{para}" aemmigrated="true">HTTP &gt; Make a request module</a> </p> </li> 
+     <li aemmigrated="true"> <p aemmigrated="true"><a href="../../../workfront-fusion/apps-and-their-modules/http-modules/http-module-make-a-basic-auth-request.md" class="MCXref xref" xrefformat="{para}" aemmigrated="true">HTTP &gt; Make a Basic Authorization request module</a> </p> </li> 
+     <li aemmigrated="true"> <p aemmigrated="true"><a href="../../../workfront-fusion/apps-and-their-modules/http-modules/http-module-make-an-oauth-2-request.md" class="MCXref xref" xrefformat="{para}" aemmigrated="true">HTTP &gt; Make an OAuth 2.0 request module</a> </p> </li> 
+     <li aemmigrated="true"> <p aemmigrated="true"><a href="../../../workfront-fusion/apps-and-their-modules/http-modules/http-module-make-a-client-cert-auth-request.md" class="MCXref xref" xrefformat="{para}" aemmigrated="true">HTTP &gt; Make a Client Certificate Authorization request module</a> </p> </li> 
+     <li aemmigrated="true"> <p aemmigrated="true"><a href="../../../workfront-fusion/apps-and-their-modules/http-modules/http-module-make-an-api-key-auth-request.md" class="MCXref xref" xrefformat="{para}" aemmigrated="true">HTTP &gt; Make an API Key Authorization request </a> </p> </li> 
+     <li aemmigrated="true"> <p aemmigrated="true"><a href="../../../workfront-fusion/apps-and-their-modules/http-modules/http-modules.md" class="MCXref xref" xrefformat="{para}" aemmigrated="true">HTTP &gt; Other modules</a> </p> </li> 
+     <li aemmigrated="true"> <p aemmigrated="true"><a href="../../../workfront-fusion/apps-and-their-modules/http-modules/use-mtls-in-http-modules.md" class="MCXref xref" xrefformat="{para}" aemmigrated="true">Use Mutual TLS in HTTP modules in Adobe Workfront Fusion</a> </p> </li> 
+    </ul> 
+   </div> 
+  </div>
+ </body>
+</html>

@@ -1,0 +1,157 @@
+<html>
+ <head>
+  <title>Project finances overview</title>
+ </head>
+ <body>
+  <div class="body-container" aemmigrated="true"> 
+   <div id="mc-main-content" role="main" data-mc-content-body="True" aemmigrated="true"> 
+    <h1 aemmigrated="true">Project finances overview</h1> 
+    <p aemmigrated="true">Keeping track of project finances is critical to managing your projects.</p> 
+    <p aemmigrated="true">As the project manager, you can manually update some financial fields. Other financial data is calculated automatically by Adobe Workfront.</p> 
+    <p aemmigrated="true">You can track your finances with a number of fields that capture budget, cost, and revenue in&nbsp;Workfront. </p> 
+    <p aemmigrated="true">For more information, also see the following articles: </p> 
+    <ul aemmigrated="true"> 
+     <li aemmigrated="true"> <p aemmigrated="true"><a href="../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md" class="MCXref xref" aemmigrated="true">Glossary of Adobe Workfront terminology</a> </p> </li> 
+     <li aemmigrated="true"> <p aemmigrated="true"><a href="../../../manage-work/projects/project-finances/project-finances-overview.md" class="MCXref xref" aemmigrated="true">Project finances</a> </p> </li> 
+     <li aemmigrated="true"> <p aemmigrated="true"><a href="#" class="MCXref xref selected" aemmigrated="true">Project finances overview</a> </p> </li> 
+     <li aemmigrated="true"> <p aemmigrated="true"><a href="../../../manage-work/projects/project-finances/manage-project-finance-area.md" class="MCXref xref" aemmigrated="true">Manage information in the project Finance area</a> </p> </li> 
+     <li aemmigrated="true"> <p aemmigrated="true"><a href="../../../manage-work/tasks/manage-tasks/task-finances-in-details.md" class="MCXref xref" aemmigrated="true">Manage task finances in the Task Details section</a> </p> </li> 
+    </ul> 
+    <h2 aemmigrated="true">How Workfront calculates finances</h2> 
+    <p aemmigrated="true">You can keep track of financial fields at the project and task level in Workfront. You can keep track of limited financial fields for issues.</p> 
+    <p aemmigrated="true">The following table shows some of the finances that you can keep track of in Workfront and for which object:</p> 
+    <table style="table-layout:auto"> 
+     <col aemmigrated="true"> 
+     <col aemmigrated="true"> 
+     <col aemmigrated="true"> 
+     <col aemmigrated="true"> 
+     <col aemmigrated="true"> 
+     <thead aemmigrated="true"> 
+      <tr aemmigrated="true"> 
+       <th aemmigrated="true">Financial Field</th> 
+       <th aemmigrated="true">Field Description</th> 
+       <th aemmigrated="true">Task</th> 
+       <th aemmigrated="true">Project</th> 
+       <th aemmigrated="true">Issue</th> 
+      </tr> 
+     </thead> 
+     <tbody aemmigrated="true"> 
+      <tr aemmigrated="true"> 
+       <td aemmigrated="true">Time</td> 
+       <td aemmigrated="true"> For information about recording time on a project, see <a href="../../../timesheets/create-and-manage-timesheets/log-time.md" class="MCXref xref" aemmigrated="true">Log time</a>. </td> 
+       <td aemmigrated="true">✔</td> 
+       <td aemmigrated="true">✔</td> 
+       <td aemmigrated="true">✔</td> 
+      </tr> 
+      <tr aemmigrated="true"> 
+       <td aemmigrated="true"> Costs</td> 
+       <td aemmigrated="true">For information about tracking costs, see <a href="../../../manage-work/projects/project-finances/track-costs.md" class="MCXref xref" aemmigrated="true">Track costs</a>.</td> 
+       <td aemmigrated="true">✔</td> 
+       <td aemmigrated="true">✔</td> 
+       <td aemmigrated="true">✔</td> 
+      </tr> 
+      <tr aemmigrated="true"> 
+       <td aemmigrated="true">Budget</td> 
+       <td aemmigrated="true"> <p aemmigrated="true">For information about budgeting a project, see <a href="../../../manage-work/projects/project-finances/manage-project-finance-area.md" class="MCXref xref" aemmigrated="true">Manage information in the project Finance area</a>.</p> <p aemmigrated="true">For information about budgeting resources for a project, see <a href="../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case.md" class="MCXref xref" aemmigrated="true">Budget resources in the Business Case</a>.</p> </td> 
+       <td aemmigrated="true">&nbsp;</td> 
+       <td aemmigrated="true">✔</td> 
+       <td aemmigrated="true">&nbsp;</td> 
+      </tr> 
+      <tr aemmigrated="true"> 
+       <td aemmigrated="true">Billing Records</td> 
+       <td aemmigrated="true">For information about creating billing records, see <a href="../../../manage-work/projects/project-finances/create-billing-records.md" class="MCXref xref" aemmigrated="true">Create billing records</a>.</td> 
+       <td aemmigrated="true">&nbsp;</td> 
+       <td aemmigrated="true">✔</td> 
+       <td aemmigrated="true">&nbsp;</td> 
+      </tr> 
+      <tr aemmigrated="true"> 
+       <td aemmigrated="true">Revenue</td> 
+       <td aemmigrated="true"> For information about billing and revenue, see <a href="../../../manage-work/projects/project-finances/billing-and-revenue-overview.md" class="MCXref xref" aemmigrated="true">Overview of Billing and Revenue</a>. </td> 
+       <td aemmigrated="true">✔</td> 
+       <td aemmigrated="true">✔</td> 
+       <td aemmigrated="true">&nbsp;</td> 
+      </tr> 
+      <tr aemmigrated="true"> 
+       <td aemmigrated="true">Expenses</td> 
+       <td aemmigrated="true">For information about managing expenses, see <a href="../../../manage-work/projects/project-finances/manage-project-expenses.md" class="MCXref xref" aemmigrated="true">Manage project expenses </a>.</td> 
+       <td aemmigrated="true">✔</td> 
+       <td aemmigrated="true">✔</td> 
+       <td aemmigrated="true">&nbsp;</td> 
+      </tr> 
+      <tr aemmigrated="true"> 
+       <td aemmigrated="true">Billing Rates</td> 
+       <td aemmigrated="true"> <p aemmigrated="true">You can establish Billing Rates for users or job roles.</p> <p aemmigrated="true">For information about associating users with billing rates, see <a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md" class="MCXref xref" aemmigrated="true">Edit a user's profile</a>.</p> <p aemmigrated="true">For information about associating job roles with billing rates, see <a href="../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md" class="MCXref xref" aemmigrated="true">Create and manage job roles</a>.</p> <p aemmigrated="true">Billing Rates calculate the Revenue of your projects and tasks. You can override role billing rates for a project or for a company. </p> <p aemmigrated="true">For information about overriding billing rates on projects, see <a href="../../../manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md" class="MCXref xref" aemmigrated="true">Overview of overriding Job Role Billing Rates and calculating Revenue on a project</a>.</p> <p aemmigrated="true">For information about overriding billing rates for companies, see <a href="../../../manage-work/projects/project-finances/override-project-level-with-company-level-billing-rates.md" class="MCXref xref" aemmigrated="true">Override Project-Level Billing Rates with Company-Level Billing Rates</a>.</p> </td> 
+       <td aemmigrated="true">✔</td> 
+       <td aemmigrated="true">✔</td> 
+       <td aemmigrated="true">&nbsp;</td> 
+      </tr> 
+      <tr aemmigrated="true"> 
+       <td aemmigrated="true">Return on Investment (ROI)</td> 
+       <td aemmigrated="true"> For information about calculating ROI, see <a href="../../../manage-work/projects/project-finances/calculate-roi.md" class="MCXref xref" aemmigrated="true">Calculate Return On Investment (ROI)</a>. </td> 
+       <td aemmigrated="true">&nbsp;</td> 
+       <td aemmigrated="true">✔</td> 
+       <td aemmigrated="true">&nbsp;</td> 
+      </tr> 
+      <tr aemmigrated="true"> 
+       <td aemmigrated="true">Risk to Net Value</td> 
+       <td aemmigrated="true">For information about calculating risk to net value, see <a href="../../../manage-work/portfolios/portfolio-optimizer/calculate-risk-to-net-value-in-portfolio.md" class="MCXref xref" aemmigrated="true">Calculate the Risk to Net Value in a portfolio</a>.</td> 
+       <td aemmigrated="true">&nbsp;</td> 
+       <td aemmigrated="true">✔</td> 
+       <td aemmigrated="true">&nbsp;</td> 
+      </tr> 
+      <tr aemmigrated="true"> 
+       <td aemmigrated="true">Performance Metrics</td> 
+       <td aemmigrated="true"> <p aemmigrated="true">Performance metrics show how your projects or tasks are performing at a given time. Performance metrics are automatic calculations performed by Workfront for tasks and projects. The performance metrics that you can calculate in Workfront are listed in the following rows. The calculations of the performance metrics vary depending on what type of Performance Index Method you are using. </p> <p aemmigrated="true">For more information about selecting which PIM to use for your system, see <a href="../../../manage-work/projects/project-finances/set-pim.md" class="MCXref xref" aemmigrated="true">Set the Performance Index Method (PIM)</a>.</p> </td> 
+       <td aemmigrated="true">✔</td> 
+       <td aemmigrated="true">✔</td> 
+       <td aemmigrated="true">&nbsp;</td> 
+      </tr> 
+      <tr aemmigrated="true"> 
+       <td aemmigrated="true">Estimate at Completion (EAC)</td> 
+       <td aemmigrated="true"> For information about calculating EAC, see <a href="../../../manage-work/projects/project-finances/calculate-eac.md" class="MCXref xref" aemmigrated="true">Calculate Estimate At Completion (EAC)</a>. </td> 
+       <td aemmigrated="true">✔</td> 
+       <td aemmigrated="true">✔</td> 
+       <td aemmigrated="true">&nbsp;</td> 
+      </tr> 
+      <tr aemmigrated="true"> 
+       <td aemmigrated="true">Schedule Performance Index (SPI)</td> 
+       <td aemmigrated="true">For information about calculating SPI, see <a href="../../../manage-work/projects/project-finances/calculate-spi.md" class="MCXref xref" aemmigrated="true">Calculate Schedule Performance Index (SPI) </a>.</td> 
+       <td aemmigrated="true">✔</td> 
+       <td aemmigrated="true">✔</td> 
+       <td aemmigrated="true">&nbsp;</td> 
+      </tr> 
+      <tr aemmigrated="true"> 
+       <td aemmigrated="true">Cost Performance Index (CPI)</td> 
+       <td aemmigrated="true">For information about calculating CPI, see <a href="../../../manage-work/projects/project-finances/calculate-cpi.md" class="MCXref xref" aemmigrated="true">Calculate Cost Performance Index (CPI)</a>.</td> 
+       <td aemmigrated="true">✔</td> 
+       <td aemmigrated="true">✔</td> 
+       <td aemmigrated="true">&nbsp;</td> 
+      </tr> 
+      <tr aemmigrated="true"> 
+       <td aemmigrated="true">Cost Schedule Performance Index (CSI)</td> 
+       <td aemmigrated="true">For information about calculating CSI, see <a href="../../../manage-work/projects/project-finances/calculate-cpi.md" class="MCXref xref" aemmigrated="true">Calculate Cost Performance Index (CPI)</a>.</td> 
+       <td aemmigrated="true">✔</td> 
+       <td aemmigrated="true">✔</td> 
+       <td aemmigrated="true">&nbsp;</td> 
+      </tr> 
+      <tr aemmigrated="true"> 
+       <td aemmigrated="true">Budgeted Cost of Work Scheduled (BCWS)</td> 
+       <td aemmigrated="true">A performance metric. For information about calculating BCWS, see <a href="../../../manage-work/projects/project-finances/calculate-bcws.md" class="MCXref xref" aemmigrated="true">Calculate Budgeted Cost of Work Scheduled (BCWS)</a>. </td> 
+       <td aemmigrated="true">✔</td> 
+       <td aemmigrated="true">✔</td> 
+       <td aemmigrated="true">&nbsp;</td> 
+      </tr> 
+      <tr aemmigrated="true"> 
+       <td aemmigrated="true">Budgeted Cost of Work Performed (BCWP)</td> 
+       <td aemmigrated="true">A performance metric. For information about calculating BCWP, see <a href="../../../manage-work/projects/project-finances/calculate-bcwp.md" class="MCXref xref" aemmigrated="true">Calculate Budgeted Cost of Work Performed (BCWP) </a>.</td> 
+       <td aemmigrated="true">✔</td> 
+       <td aemmigrated="true">✔</td> 
+       <td aemmigrated="true">&nbsp;</td> 
+      </tr> 
+     </tbody> 
+    </table> 
+    <p aemmigrated="true">&nbsp;</p> 
+   </div> 
+  </div>
+ </body>
+</html>

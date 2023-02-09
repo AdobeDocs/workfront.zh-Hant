@@ -1,0 +1,50 @@
+---
+title: 23.1 release activity week of October 24, 2022
+description: 23.1 release activity Week of October 24, 2022
+author: Luke
+draft: Probably
+feature: Product Announcements
+exl-id: 212cf70e-02d5-4294-ac5a-f43d5adc6129
+---
+# 23.1 release activity: Week of October 24, 2022
+
+This page describes all enhancements made with the 23.1 release to the Preview environment the week of October 24, 2022. These enhancements will be made available in the Production environment later this year.
+
+For a list of all changes available at this point in the 23.1 release cycle, see [23.1 Release overview](/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-release-overview.md).
+
+## Filter by connection on Boards
+
+>[!NOTE]
+>
+>This feature is available only through the early feature opt-in for Workfront Boards.
+
+The list of filters on a board now includes the option to filter by connection, which shows you all of the connected cards for a specific project. You can also filter by cards that are not connected.
+
+For more information, see [Filter and search in a board](/help/quicksilver/agile/get-started-with-boards/filter-search-in-board.md).
+
+## Archive cards from a board on a schedule
+
+>[!NOTE]
+>
+>This feature is available only through the early feature opt-in for Workfront Boards.
+
+You can configure a board so that cards are archived, or "fall off" the board, on a schedule. Options are available to set cards in a particular column to archive in a certain number of days or weeks. For example, you could define the falloff so that cards in a Complete column are archived after they are in the column for two weeks.
+
+If you want to display the cards again after they fall off the board, you can set the board filter to display archived cards.
+
+For more information, see [Configure card falloff](/help/quicksilver/agile/use-boards-agile-planning-tools/configure-card-falloff.md).
+
+## How to access Workfront help, for customers on the Adobe Unified Experience
+
+>[!NOTE]
+>
+>This feature only applies to customers who are onboarded to the Adobe Unified Experience for Workfront.
+
+If your organization has been onboarded to the Adobe Admin Console and the Adobe Unified Experience for Workfront, the Workfront navigation bar no longer includes a link for "Help."
+
+You can access Workfront help on Adobe Experience League in two ways:
+
+*    The Main Menu on the left of the Workfront navigation bar contains a help link at the bottom
+*    The question mark icon in the top navigation area provides links to help, support, and feedback
+
+For more information, see [Adobe Unified Experience for Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md) or [Access Adobe Workfront help](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/access-workfront-help.md).

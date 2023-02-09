@@ -1,0 +1,140 @@
+---
+title: Frequently asked questions about Workfront Goals
+description: Frequently asked questions about Workfront Goals
+author: Alina
+draft: Probably
+---
+# Frequently asked questions about Workfront Goals
+
+## From Michael Swan's pdf - FAQs:
+
+&nbsp;
+
+Frequently Asked Questions
+
+Q: Can we align work (Activities) to Results, rather than Goals?
+
+A: Results are a way to objectively define what successful achievement of a Goal means, by attaching hard numbers to a Goal. If Activities/work you're doing are specifically designed to generate a Result, then specify that Result on a Goal, and align the work to it.
+
+Q: Can we track personal goals in Workfront Align?
+
+A: While it is possible to assign Goals to individual users, we only recommend this in cases where that user owns or is accountable for a sub-outcome to a Team- or Department-level Goal. In most cases, individual users should contribute to goals by owning Results, Activities, Projects, or Tasks on Projects. We do not recommend that you use Workfront Align to track personal/professional development goals for individual employees, because this data is more suitable to an HRIS or performance management tool, rather than a work management tool.
+
+Q: Can one child goal align up to multiple parent goals?
+
+A: Goal setting should be an intentional process, designed to create cascading alignment from the organization's strategy down to the work being executed by employees and teams. It's also important for goals to be highly focused on the most strategically important outcomes. With this in mind, before you create a goal for yourself or your team, look very carefully at the goals above you--usually at your manager's level--and ensure that you can clearly identify how your goal will drive theirs. Doing so will often resolve the need for aligning your goal to multiple parents, because you will know exactly what higher-level strategic goal you are contributing to.
+
+Q: Can multiple Teams/people own a single goal?
+
+A: Ownership is all about accountability--it does not indicate that the owner is the only one responsible for doing the work to achieve the goal. By assigning clear ownership, it's easier to make sure neither check-ins nor the goal itself are forgotten about.
+
+## &nbsp;
+
+## When would I use a metric result to measure the progress on my goal?
+
+A Metric is a quantified way of tracking your progress on an objective, and can be used to track those things which you can measure with currency, percentages, or precise numbers. For items that you cannot measure precisely, try ```using Milestones instead```.
+
+The aim of a Metric Key Result is to track your progress towards a target value. Compare this to milestone key results, which track completion of one-time activities, or range key results, which measure frequency over time.
+
+Metrics are measured from your chosen starting point and progress towards your chosen ending point. Metrics tell you both the current value of your Key Result and your progress towards your target value. For example, for our objective of "Increase Quarterly Revenue", we might have a milestone key result of "Increase opps in sales pipeline from 0 to 50". Having 25 opps in the pipe would mean that you have half the number of opps you wish to achieve by the end of the quarter (in absolute terms), as well as mean that you are at 50% completion for that Key Result.
+
+Visit the following article to learn more on how to ```add metric key results```.
+
+## When would I use a Manual progress type activity to measure progress on my goal?
+
+Milestone Key Results are used to drive progress towards a objective's completion, but are not easily quantifiable. In other words, milestones are key results that cannot be easily measured using currency, percentages, or numbers. Instead, use milestones to track those things which are either "Complete" or "Incomplete", or those which you can roughly estimate.
+
+The aim of a Milestone Key Result is to track accomplishment of one-time activity. Compare this to metric key results, which are explicitly quantifiable, or range key results, which measure recurring activity.
+
+Progress is measured on a scale of 0 - 100%. Rather than reflecting precise numbers, milestones approximate the portion complete. For example, for the objective, "Increase Quarterly Revenue", a milestone key result might be "Hired a New Sales Rep". This is a result that might help to drive completion of the overarching objective, however, it is difficult to measure quantitatively, making it a good candidate for a milestone. This key result can either be completed, or not completed.
+
+Visit the following article to learn more on how to ```add milestone key results```.
+
+## Am I able to contribute to more than one team?
+
+**A few alignment and contribution nuances to be mindful of while using Atiim:**
+
+1. An Objective/Goal cannot contribute to more than one Objective/Goal at once.
+1. As an Employee or a Team Manager, you can contribute to your Team, Department, and Top Company Objectives/Goals. You can't contribute to another Employees' Goals.
+1. As a Department Manager, you can contribute to your Department and Top Company Objectives/Goals. You cannot contribute to Goals of the Teams beneath you.
+1. As a CEO, you can only contribute to Top Company Goals.
+
+## Can I bulk upload OKRs?
+
+Currently in beta, our CSV import feature allows users to bulk upload OKRs to Atiim!
+
+Please contact your Customer Support Manager or send us a message at ```support@atiim.com```&nbsp;if you wish to bulk upload your objectives every quarter. We will provide you with the required CSV and walk you through the steps to upload into Atiim.
+
+>[!TIP]
+>
+>**Keep in mind**: streamlined focus and bottom-up OKR creation are crucial for OKR success. Before bulk uploading, consider whether you can reduce the number of OKR's you are working on.
+
+## Can I complete a check-in after the deadline?
+
+Users are urged to complete their Pulse Check-Ins before the date and time set by their manager. Only Pulse reports that are completed on time will be counted as "consecutive" and be added to the consecutive tracker found on the Home Page.
+
+If you have missed a check-in, it is possible to submit a report after the due date. However, this will not be counted as a consecutive check-in. Past due reports can be found by navigating to **1-on-1 Pulse > View my check-ins**.
+
+Here you will be able to see all Pulse reports by status, and can find any past due reports. Click on the green **Complete**&nbsp;button in order to fill out and submit the past due report.
+
+>[!NOTE]
+>
+>**Note**: Once you have missed a check-in, the consecutive counter will rest
+
+## Can I find objectives from previous quarters?
+
+You can search for any objectives from past quarters or years by using **Explorer**. Simply navigate to **Objectives** > **Explorer** from the left-hand menu.
+
+Once you are on the Explorer page, use the primary filters at the top to establish which group of objectives you wish to find. To view objectives that were owned by you, select&nbsp;**Personal**.
+
+Use the additional filters on the right-hand side to further narrow down your search. Under the **Period**&nbsp;filter, select the previous quarters. To see all objectives from the year 2018, for example, select Q1, Q2, Q3, Q4 and '18.
+
+If you wish to view any objectives from past quarters that were in Draft or Inactive mode, be sure to select those options from the **Status**&nbsp;filter as well.
+
+You should now see all objectives that meet your criteria displayed in the middle of the screen. Use the blue arrow next to each objective title to expand in order to view any associated key results or contributing objectives.
+
+## Can I set custom goal dates? >>> INCORPORATE THIS IN CREATING GOALS?? (ALSO RESULTS??)
+
+There may be a time where a goal or objective's time frame falls outside of the standard quarter. For example, a goal starts and ends in the middle of a quarter. When this happens, it is possible to set custom goal dates within Atiim.
+
+When first creating a goal, you must set a period to link to-either a quarter or a year. Once you have selected a period to link to, you can optionally set a custom start or end date for your goal.
+
+A few important notes to be mindful of when setting custom goal dates:
+
+1. Custom dates exist only at the goal level, and Key Results will inherit the dates from their goal.
+1. Objective time frames must be at least 30 days long. This is to give enough time for you or your team to make real progress on a goal.
+1. If you select a start date, you will also need to select an end date.
+1. Your selected date range must be within the linked time period (i.e., both the start and end date must fall within the quarter or year selected). For example, if you have a goal that overlaps quarters, set the overarching time period to be an annual goal.
+1. You can align and cascade goals with custom dates. However, a contributing goal may not contribute or align to a higher-level goal which ends before it. In other words, it is not possible to contribute to an objective that has already concluded.
+
+Once you save your goal, you can still set and adjust custom dates, so long as your goal is still in **Draft** status. Once Active, you cannot change the start and end dates of your goal. To edit the start and end date of your goal, go to the Objectives Details drawer, click the Settings button on the top right side, and click **Edit Details**.
+
+## Why can't I find the objective I just added?
+
+It happens from time to time: you've just created a new goal and it seems to have disappeared. There are a couple of reasons this might be happening and a couple of ways to find your goals using the Explorer tab under the left hand menu items.
+
+**1. You might be looking under the wrong "Owner"**
+
+On the Explorer page, you will see that at the top you have the ability to select whether you would like to see your Team, Individual, Top Company, Departments, or All Goals. If you are a manager, you might be looking at your individual goals, not your shared team goals (or vice versa).&nbsp;Be sure that you are selecting the correct owner category that you created the goal under.
+
+>[!NOTE]
+>
+>Did you mean to create a team goal, but create a personal one instead? No problem! Just reassign it to your team.
+
+&nbsp;
+
+**2. You might be looking at a different time Period**
+
+You might have created a 2018 Annual Goal, but are in the view for a Q1 2018 goal instead. Under the **Period** filter on the right hand side of the page, be sure that you are filtering for the correct quarter/annual time frame from the drop down menu shown below. Select all that apply.
+
+&nbsp;
+
+**3. You are searching under the incorrect Goal Status**
+
+When you first create a goal or objective, the goal will automatically be saved in Draft status. Be sure that you are filtering correctly for Draft goals under&nbsp;**Objective Status**&nbsp;as shown below. You can also use this function to search for all currently Active goals, or any Closed goals from previous quarters. Select all that apply.
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;

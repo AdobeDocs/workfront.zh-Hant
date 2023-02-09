@@ -1,0 +1,115 @@
+---
+filename: glossary-workfront-terms-g-i
+content-type: reference
+navigation-topic: workfront-navigation
+title: Glossary of Workfront terms (G-I)
+description: For the full glossary, see Glossary of Workfront terms.
+hidefromtoc: true
+---
+
+# Glossary of Workfront terms (G-I)
+
+>[!IMPORTANT]
+>
+>This article should be used as a reference to understand the terms that you may encounter in the Adobe Workfront application or in the Workfront documentation. We are currently&nbsp;updating this information and as a result this table might not be complete. We will remove this disclaimer when we consider this information exhaustive.&nbsp;
+
+For the full glossary, see [Glossary of Workfront terms](../../../workfront-basics/navigate-workfront/workfront-navigation/glossary-of-workfront-terms.md).
+
+The following table is a list of commonly used terms in Adobe Workfront:&nbsp;&nbsp;
+
+## G-I
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <thead> 
+  <tr> 
+   <th>Object Name</th> 
+   <th>Description</th> 
+  </tr> 
+ </thead> 
+ <tbody> 
+  <tr> 
+   <td>Gantt Chart</td> 
+   <td> <p>A visual timeline of the project dates in a calendar view based on the planned or projected dates as the tasks of the project are currently scheduled.</p> </td> 
+  </tr> <!--
+   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+    <td>Goals</td> 
+    <td>A set of business objectives agreed to by the relevant stakeholders.</td> 
+   </tr>
+  --> 
+  <tr> 
+   <td>Global Interface Preferences</td> 
+   <td>Interface settings that affect all users. Global Interface Preferences can be overwritten by the User Interface Preferences.</td> 
+  </tr> 
+  <tr> 
+   <td>Group</td> 
+   <td> <p>A collection of users (often from the same department or business unit) that have access to the same objects. Groups can also be associated with projects, custom forms, and approval processes. You can also grant permissions to objects by group. For more information, see <a href="../../../administration-and-setup/manage-groups/groups-overview/groups.md" class="MCXref xref">Groups overview</a>.</p> <p>Also, you can use the Group field in lists and reports to list objects that are associated with a particular group.</p> </td> 
+  </tr> 
+  <tr> 
+   <td> <p>Group Administrator</p> </td> 
+   <td> <p>Users who manage the objects, access, and users of designated user groups.</p> <p> In a Group report, this field displays the names of the users designated as Group Administrators in the Group. For more information about Group Administrators, see <a href="../../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">Group administrators</a>.</p> </td> 
+  </tr> 
+  <tr> 
+   <td> <p>Group with Administration Access</p> </td> 
+   <td> <p> In a Layout Template, Timesheet Profile, or Schedule report, this field displays the Groups whose Group Administrators have access to modify the template. You can also filter this report by this field. </p> <p> For more information, see <a href="../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md" class="MCXref xref">Create and manage layout templates</a>.</p> </td> 
+  </tr> 
+  <tr> 
+   <td>Grouping</td> 
+   <td> <p>A reporting element used to categorize information in a list by a common criterion.</p> <p>For more information, see <a href="../../../reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md#grouping" class="MCXref xref">Groupings</a> in <a href="../../../reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md" class="MCXref xref">Reporting elements: filters, views, and groupings</a>.</p> </td> 
+  </tr> 
+  <tr> 
+   <td> <p>Handoff Date</p> </td> 
+   <td> <p>The date when a task becomes available for work. The Handoff Date is a calculation and cannot be set manually. <br>For more information about the Handoff Date, see the article <a href="../../../manage-work/tasks/task-information/handoff-task-date.md" class="MCXref xref">Task Handoff Date overview</a>.</p> </td> 
+  </tr> 
+  <tr> 
+   <td>Help Desk</td> 
+   <td>The portion of Workfront that holds all issue queues. The Help Desk can be used to process customer support tickets, project requests, help desk tickets, etc. This is the same as the Requests area.</td> 
+  </tr> 
+  <tr> 
+   <td> <p>(Hour) Owner</p> </td> 
+   <td> <p>In an Hour report, the&nbsp;Hour Owner is the user to whom the hours are attributed. This is different than the user who is actually logging the time. These two entities can sometimes be two different users. <br>For more information about logging time for another user, see the article <a href="../../../timesheets/create-and-manage-timesheets/log-time.md" class="MCXref xref">Log time</a>.</p> </td> 
+  </tr> 
+  <tr> 
+   <td>Hour Type</td> 
+   <td> <p>An attribute that can be set for Actual Hours that users log for tasks, issues, or projects. This is also an attribute for the hours logged that are not directly linked to work, such as Vacation and Time Off.</p> <p>For more information, see <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/hour-types.md" class="MCXref xref">Manage hour types</a>.</p> </td> 
+  </tr> 
+  <tr> 
+   <td>Individual Goals</td> 
+   <td>Individual goals which contribute to the metrics of the team goals, but not related to personal or career development.</td> 
+  </tr> 
+  <tr> 
+   <td>Inherited Access</td> 
+   <td>Sharing function that allows access to propagate from object to another. For example, project user's inherit access defined in program and portfolio records.</td> 
+  </tr> 
+  <tr> 
+   <td>Inline Search</td> 
+   <td>A search performed, in the process of completing a form, to find possible entries for one specific field.</td> 
+  </tr> 
+  <tr> 
+   <td>Interface Setup</td> 
+   <td>The area of the application that allows defining Custom Views, Filters, Groupings, List Controls, etc.</td> 
+  </tr> 
+  <tr> 
+   <td>Is Active</td> 
+   <td>&nbsp;</td> 
+  </tr> 
+  <tr> 
+   <td>Issue</td> 
+   <td> <p>An unplanned work item that usually indicates that there is a problem preventing the completion of a task or project. It is triaged and evaluated for further work effort consideration</p> <p>An Issue can also be a Help&nbsp;Desk request. Change Orders, Requests, and Bugs are also Issues.</p> </td> 
+  </tr> 
+  <tr> 
+   <td>Issue Management</td> 
+   <td> <p>The process and rules governing the definition of issue types and the routing, triage, or traffic process associated with each type.</p> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td>Issue Owner</td> 
+   <td>The team or users responsible for triaging and completing an issue.</td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td>Iteration</td> 
+   <td>A period of time in which a team produces a pre-defined set of deliverables.</td> 
+  </tr> 
+ </tbody> 
+</table>
+

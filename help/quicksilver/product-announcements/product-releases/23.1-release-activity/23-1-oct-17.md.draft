@@ -1,0 +1,40 @@
+---
+title: 23.1 release activity week of october 17, 2022
+description: 23.1 release activity Week of October 17, 2022
+author: Luke
+draft: Probably
+feature: Product Announcements
+exl-id: ed18ac83-47ee-4b1f-bab0-c3d7211eaad3
+---
+# 23.1 release activity: Week of October 17, 2022
+
+This page describes all enhancements made with the 23.1 release to the Preview environment the week of October 17, 2022. These enhancements will be made available in the Production environment later this year.
+
+For a list of all changes available at this point in the 23.1 release cycle, see [23.1 Release overview](/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-release-overview.md).
+
+<!--
+## Filter by connection on Boards
+
+The list of filters on a board now includes the option to filter by connection, which shows you all of the connected cards for a specific project. You can also filter by cards that are not connected.
+
+For more information, see [Filter and search in a board](/help/quicksilver/agile/get-started-with-boards/filter-search-in-board.md).
+-->
+
+## Remove Scheduling sections
+
+As part of the deprecation of the Resource Scheduling tools, we have removed the following areas: 
+
+* The Scheduling section in Resourcing area of the Main Menu 
+
+* The Schedule section of a team's page 
+
+* The Scheduling section of a project's page 
+
+For more information about the deprecation of the Scheduling tools, see [Deprecation of Resource Scheduling tools in Adobe Workfront](/help/quicksilver/resource-mgmt/resource-mgmt-overview/deprecate-resource-scheduling.md).
+
+## Relocation of the "Add users" option on a project
+
+In preparation for the deprecation and removal of the Resource Scheduling tools, we have relocated the "Add users" option from the Scheduling section of a project to the People section. When adding users to a project, the users who are not associated with items on the project become part of the Project Team. 
+
+For more information, see [Manage the Project Team](/help/quicksilver/manage-work/projects/planning-a-project/manage-project-team.md).  
+

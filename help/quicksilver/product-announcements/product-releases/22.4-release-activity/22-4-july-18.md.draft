@@ -1,0 +1,90 @@
+---
+title: 22.4 release activity week of july 18, 2022
+description: 22.4 release activity Week of July 18, 2022
+author: Luke
+draft: Probably
+feature: Product Announcements
+exl-id: 71128984-5476-4f58-9f4f-a11702e1100d
+---
+
+# 22.4 release activity: Week of July 18, 2022
+
+This page describes all enhancements made with the 22.4 release to the Preview environment the week of July 18, 2022. These enhancements will be made available in the Production environment later this year.
+
+For a list of all changes available at this point in the 22.4 release cycle, see [22.4 Release overview](/help/quicksilver/product-announcements/product-releases/22.4-release-activity/22-4-release-overview.md).
+
+## Early feature opt-in for the latest features on boards
+
+We are excited to open new boards features for early feature opt-in. This optional tool is available to all organizations.
+
+Only a Workfront administrator can opt in to the early features. When the administrator opts in to early features, all users in the organization are opted in, and the additional features are enabled in your production Workfront environment.
+
+For more information, see [Early feature opt-in for Adobe Workfront Boards](/help/quicksilver/agile/get-started-with-boards/boards-early-feature-opt-in.md).
+
+## Work In Progress limit now available on board columns
+
+>[!NOTE]
+>
+>This feature is available only through the early feature opt-in for Workfront Boards.
+
+You can now set a Work In Progress (WIP) limit for any column on a board. When you enable a WIP limit, a counter appears on the column with the current number of cards and the limit. The counter turns red if the column contains more cards than the limit. This is simply a visual warning and you are not stopped from adding more cards than the limit.
+
+For more information, see [Manage board columns](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md).
+
+## Estimation field added to cards
+
+>[!NOTE]
+>
+>This feature is only available through the early feature opt-in for Workfront Boards.
+
+A new Estimation field on both ad hoc and connected cards allows you to enter the estimated number of hours for the card to be completed. This is a manual entry, not a calculated value, and the value can't be more than 99. The estimate is displayed on the card on the board as well as in the card details.
+
+## Public Beta - New filter experience for projects, tasks, and issues
+
+Filtering in project, task, and issue lists has been redesigned to help you create and share filters quickly. Features include:
+
+*   An intuitive "beta builder" interface for creating a new filter
+    
+*   The ability to mark a filter as a favorite
+    
+*   Filter stacking (applying more than one saved filter)
+    
+*   Duplicating filters
+    
+*   Sharing filters
+    
+*   Removing filters shared with you
+    
+
+The new filter experience is also available in timesheet lists and the Scenario Planner.
+
+Text mode remains available for advanced filter editing, and system administrators can still assign default filters for all users through the layout templates.
+
+### Where will this be available?
+
+*   Project/Tasks/Issues Lists
+    
+*   Scenario Planner
+    
+*   Timesheets
+    
+
+### We want your Feedback!
+
+With this Public Beta Users are given the opportunity to submit feedback directly to the team working on the filters experience by clicking on the feedback button. We look forward to hearing from you and your users on the new filter experience in public beta. If your team would like to meet with product directly to provide additional feedback, feel free to schedule a meeting here: https://calendly.com/wf-product-and-design-research/filtersfeedbackpublicbeta?month=2022-08&date=2022-08-25
+
+### What is next?
+
+*   New Groupings and Views (also known as Columns) Experience
+    
+    We will begin to work on the new experience for groupings and views (also known as columns) so it will be consistent with the new filters experience and have some of the same great features as the new filters experience.
+    
+*   Implement new filters in other areas of Adobe Workfront
+    
+    We will work with teams across the product to implement the new filters experience in other areas throughout in Workfront.
+    
+
+We want to deliver value to you iteratively so we will continue to deliver as the new experiences and other areas are ready. Stay tuned for more exciting updates.
+
+For more information, see [Filters overview in Adobe Workfront](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/filters-overview.md) and [Create or edit filters in Adobe Workfront](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-filters.md).
+

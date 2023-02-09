@@ -1,0 +1,72 @@
+---
+title: Workfront Tools for AEM User Guide
+description: Workfront Tools for AEM User Guide
+author: Courtney
+draft: Probably
+---
+# Workfront Tools for AEM User Guide : Map Property  {#title-heading}
+
+This workflow step will allow a user to map a property to a Adobe Workfront custom form on a project, task, issue, or document. The Workfront artifact this step affects will be looked up using a relative path from the payload. Which properties to map are controlled within the steps dialog configuration.
+
+## Access requirements
+
+You must have the following access to perform the steps in this article:
+
+<table style="table-layout:auto"> 
+ <col> 
+ </col> 
+ <col> 
+ </col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
+   <td> <p>[!UICONTROL Pro] or higher</p> </td> 
+  </tr> <!--
+   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+    <td role="rowheader">[!DNL Adobe Workfront] license*</td> 
+    <td> <p>Work or higher</p> </td> 
+   </tr>
+  --> 
+  <tr> 
+   <td role="rowheader">Product</td> 
+   <td>You must have a license to Adobe Experience Manager</td> 
+  </tr> 
+ </tbody> 
+</table>
+
+&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+
+## Prerequisites
+
+* You must install Workfront Tools for Adobe Experience Manager before you can use it to map properties.
+
+  For instructions, see [Workfront Tools for AEM User Guide: Installation Guide 1.x.x](../../workfront-integrations-and-apps/workfront-integration-for-aem/installation-guide.md)
+
+## Configuration {#mapproperty-configuration}
+
+* `Type:` This field allows you to select the Workfront object type that the properties should be mapped to.
+* `ID Property:` This field allows you to specify the path to the ID of the Workfront object that the properties should be mapped to. The path specified in this field should be relative to the workflow payload.
+* `Property Assignments:` This multi-field allows you to specify the mappings between AEM properties and Workfront fields. Each item in the multi-field will specify one mapping. Each mapping should have the following format: *<workfront-field>***=***<aem-mapped-property>*
+
+Where workfront-field can be one of the following:
+
+* A custom form field. These are identified by the prefix **DE:**
+* Any editable field. These fields are identified by their name, field names can be found in Workfront's API Explorer ([https://experience.workfront.com/s/api-explorer](https://experience.workfront.com/s/api-explorer))
+
+Where aem-mapped-property can be one of the following:
+
+* (1) A literal value. These should be surrounded by quotation marks.
+* (2) An AEM property. This reference should be relative to the workflow payload.
+* (3) A named value. These should be surrounded by brackets.
+* A concatenation of 1, 2 and 3. This will be specified by **{+}**
+* An alteration of 1, 2 or 3 by surrounding the value with {replace(<value>,”old-char”,”new-char”)}
+
+Examples:
+
+* status="INP"
+* DE:Asset Type=jcr:content/metadata/assetType
+* DE:Path={path}
+* URL=”https://my-aem-author/assets.html”{+}{path} 
+
+![](assets/map-property-350x312.png)
+

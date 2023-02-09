@@ -1,0 +1,126 @@
+---
+filename: view-enhanced-analytics-charts-duration
+title: View Analytics charts by duration
+product-area: enhanced-analytics
+navigation-topic: enhanced-analytics-navigation-topic
+title: View Enhanced analytics visualizations by duration
+description: If your teams do not use planned hours, you can select a duration view of the project data for the following visualizations - EDIT ME.
+author: Nolan
+hidefromtoc: true
+---
+
+# View Enhanced analytics visualizations by duration
+
+If your teams do not use planned hours, you can select a duration view of the project data for the following visualizations:
+
+* Burndown  
+  To learn more about the Burndown visualization, see [View the Burndown visualization in Enhanced analytics](../enhanced-analytics/burndown-overview.md).
+
+* Project treemap  
+  To learn more about the Project treemap visualization, see [View the Project treemap visualization in Enhanced analytics](../enhanced-analytics/project-treemap-overview.md).
+
+In Enhanced analytics, the duration of a project is calculated by the following formulas:
+
+* Planned Timeframe: 
+
+  ```
+  Planned Completion Date of the project - Start Date of the project
+  ```
+
+* Days Worked: 
+
+  ```
+  Planned Duration for tasks completed in the selected date range / Typical hours per work day
+  ```
+
+  >[!NOTE]
+  >
+  >8 hours is the default number for **Typical hours per work day**. An Adobe Workfront administrator can update the **Typical hours per work day** setting under **Setup** > **Project Preferences** > **Projects** > **Timelines**.  
+  >To learn more, see [Configure system-wide project preferences](../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+
+For information on Planned Duration, see [Overview of project Duration](../manage-work/projects/planning-a-project/project-duration.md).
+
+## Access requirements
+
+You must have the following:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader"><a href="https://www.workfront.com/plans" target="_blank">Workfront plan</a>*</td> 
+   <td> <p>Business or higher</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><a href="../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront licenses overview</a>*</td> 
+   <td> <p>Review or higher</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level*</td> 
+   <td> <p>View access to Projects</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see <a href="../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>View</p> <p>For information on requesting additional access, see <a href="../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+
+## Prerequisites
+
+For prerequisites to using Enhanced Analytics, see [Prerequisites](../enhanced-analytics/enhanced-analytics-overview.md#prerequi) in [Enhanced analytics overview](../enhanced-analytics/enhanced-analytics-overview.md).
+
+## View the Burndown visualization by duration {#view-the-burndown-visualization-by-duration}
+
+1. Click the Main Menu icon ![](assets/main-menu-icon-16x12.png), then select **Analytics**.
+
+   >[!TIP]
+   >
+   >If you don't see Analytics in the Main Menu and you know you have the appropriate access, modify the URL by adding "analytics" to it.  
+   >For example, the URL changes to "company.my.workfront.com/analytics" in the address bar.
+
+1. In the **Flight plan** or **Project treemap** visualization, select a project.
+
+   The **Burndown** visualization for that project opens.
+
+1. In the Burndown visualization, click the drop-down arrow, then select **duration**.
+
+   ![](assets/duration-selection-burndown.png)
+
+   The Y axis changes from Hours to Days.
+
+1. Select any point on the visualization to display information for that day.
+
+   This displays the columns Tasks and Days, which contain information about changes to tasks and their duration (in days) for the selected day.
+
+![](assets/duration-burndown-350x112.png)
+
+## View the Project treemap visualization by duration
+
+1. Click the Main Menu icon ![](assets/main-menu-icon-16x12.png), then select **Analytics**.
+
+   >[!TIP]
+   >
+   >If you don't see Analytics in the Main Menu and you know you have the appropriate access, modify the URL by adding "analytics" to it.  
+   >For example, the URL changes to "company.my.workfront ```.com```/analytics" in the address bar.
+
+1. In the **Project treemap** visualization, click the drop-down arrow, then select **duration**.
+
+   ![](assets/duration-selection-treemap-321x191.png)
+
+   The numbers listed in the boxes change from hours to days.
+
+1. (Optional) Hover over a project to see more details, including this duration-specific information:
+
+   * **Planned Timeframe**: The number of days planned to complete the project.
+   * **Days Worked**: The planned duration for each task that was completed within the date range selected at the top, divided by the number of hours in a day.
+
+   ![](assets/duration-treemap-350x159.png)
+
+1. (Optional) Select a project to open the **Burndown** visualization.
+
+   To learn about the duration view for the Burndown visualization, see [View the Burndown visualization by duration](#view-the-burndown-visualization-by-duration).
+

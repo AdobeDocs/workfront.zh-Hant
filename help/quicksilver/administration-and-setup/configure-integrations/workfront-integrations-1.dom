@@ -1,0 +1,275 @@
+<html>
+ <head>
+  <title>Adobe Workfront integrations</title>
+ </head>
+ <body>
+  <div class="body-container" aemmigrated="true"> 
+   <div id="mc-main-content" role="main" data-mc-content-body="True" aemmigrated="true"> 
+    <h1 aemmigrated="true">Adobe Workfront integrations</h1> 
+    <p aemmigrated="true">You can integrate Adobe Workfront with third-party applications. Integrations can extend the utility of Workfront and tailor it to the needs of your organization.</p> 
+    <p aemmigrated="true">The integrations for Workfront fall into the following categories:</p> 
+    <h2 aemmigrated="true">Built-in (native) integrations</h2> 
+    <p aemmigrated="true">Workfront provides various integrations you can configure either directly from the Workfront application, or directly from another application by installing the Workfront add-in for that application.</p> 
+    <p aemmigrated="true">Some of these integrations are available at no additional cost, while other integrations require an additional purchase:</p> 
+    <ul aemmigrated="true"> 
+     <li aemmigrated="true"><a href="#get-started-with-built-in-native-integrations" class="MCXref xref" aemmigrated="true">Get started with built-in (native) integrations</a> </li> 
+     <li aemmigrated="true"><a href="#integrations-available-at-no-additional-cost" class="MCXref xref" aemmigrated="true">Integrations available at no additional cost</a> </li> 
+     <li aemmigrated="true"><a href="#integrations-requiring-an-additional-purchase" class="MCXref xref" aemmigrated="true">Integrations requiring an additional purchase</a> </li> 
+    </ul> 
+    <p><strong>Get started with built-in (native) integrations</strong></p> 
+    <p aemmigrated="true">To get started with built-in (native) integrations, follow the following workflow:</p> 
+    <ol aemmigrated="true"> 
+     <li value="1" aemmigrated="true"> <p aemmigrated="true"><strong aemmigrated="true">Determine which native integration(s) best fits your needs</strong> </p> <p aemmigrated="true">When choosing an integration, it is important to pick an application that people already use regularly. Integrating Workfront with a regularly, or frequently, used application will increase adoption among your users.</p> <p aemmigrated="true">For a list of available integrations, see <a href="#integrations-available-at-no-additional-cost" class="MCXref xref" aemmigrated="true">Integrations available at no additional cost</a> and <a href="#integrations-requiring-an-additional-purchase" class="MCXref xref" aemmigrated="true">Integrations requiring an additional purchase</a>.</p> </li> 
+     <li value="2" aemmigrated="true"> <p aemmigrated="true"><strong aemmigrated="true">Identify your technology admin</strong> </p> <p aemmigrated="true">Identify your organization's technology admin for the application you want to integrate with Workfront. For example, if you choose to integrate with Jira, you must connect with your company's Jira admin and involve them in any configuration needs within their platform. You should also involve this admin in any conversation with Workfront Customer Support.</p> <p aemmigrated="true">To get your admin started, you'll need to provide them with the specific instructions for that integration. For links to these instructions, see <a href="#integrations-available-at-no-additional-cost" class="MCXref xref" aemmigrated="true">Integrations available at no additional cost</a>.</p> </li> 
+     <li value="3" aemmigrated="true"> <p aemmigrated="true"><strong aemmigrated="true">Engage with Workfront Customer Support</strong> </p> <p aemmigrated="true">If your admin has any issues with the native integration setup, you can engage with Workfront Customer Support to help guide or troubleshoot. While Workfront will not set up the integration for you, we are committed to giving you all the necessary tools and resources you need to do it yourself. You can speak directly to Customer Support, or you can explore the extensive resource articles to help you easily set up your integration.</p> <p aemmigrated="true">To connect with customer support, see <a href="../../workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md" class="MCXref xref" aemmigrated="true">Contact Customer Support</a>.</p> <p aemmigrated="true">For links to help articles, see <a href="#integrations-available-at-no-additional-cost" class="MCXref xref" aemmigrated="true">Integrations available at no additional cost</a>. and <a href="#integrations-requiring-an-additional-purchase" class="MCXref xref" aemmigrated="true">Integrations requiring an additional purchase</a>.</p> <p aemmigrated="true">For instruction on creating a support case, see <a href="../../workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md" class="MCXref xref" aemmigrated="true">Contact Customer Support</a>.</p> <note aemmigrated="true">
+       You must be the Assigned Support Contact at your organization to submit a support case. After the case is submitted, you can add your technology admin for the other system to the conversation. They cannot contact support directly by themselves.
+      </note> </li> 
+    </ol> 
+    <p aemmigrated="true">We understand that the available built-in (native) integrations might not meet all of your company needs. If this is the case, contact your Account Executive to discuss a custom integration.</p> 
+    <p><strong>Integrations available at no additional cost</strong></p> 
+    <p aemmigrated="true">Workfront provides the following built-in integrations at no additional cost:</p> 
+    <table style="table-layout:auto"> 
+     <col aemmigrated="true"> 
+     <col aemmigrated="true"> 
+     <col aemmigrated="true"> 
+     <col aemmigrated="true"> 
+     <thead aemmigrated="true"> 
+      <tr aemmigrated="true"> 
+       <th aemmigrated="true">System</th> 
+       <th aemmigrated="true">Overview</th> 
+       <th aemmigrated="true">Requirements</th> 
+       <th aemmigrated="true">Who can install it</th> 
+      </tr> 
+     </thead> 
+     <tbody aemmigrated="true"> 
+      <tr aemmigrated="true"> 
+       <td aemmigrated="true"> <p aemmigrated="true">Adobe Creative Cloud </p> <p aemmigrated="true"> <img src="assets/adobecclogo.png" aemmigrated="true"> </p> </td> 
+       <td aemmigrated="true"> 
+        <ul aemmigrated="true"> 
+         <li aemmigrated="true">Integrate Workfront comments and approvals with InDesign, Illustrator, and Photoshop </li> 
+         <li aemmigrated="true">Download/install from Adobe Exchange or manually</li> 
+        </ul> <p aemmigrated="true">For more information, see <a href="../../documents/workfront-for-adobe-creative-cloud/installl-wf-adobe-cc.md" class="MCXref xref" aemmigrated="true">Install the Workfront Extension for Illustrator and InDesign</a>.</p> </td> 
+       <td aemmigrated="true"> 
+        <ul aemmigrated="true"> 
+         <li aemmigrated="true"> 2017 and newer versions of Adobe CC </li> 
+         <li aemmigrated="true">Creative Cloud Sync enabled</li> 
+        </ul> </td> 
+       <td aemmigrated="true"> 
+        <ul aemmigrated="true"> 
+         <li aemmigrated="true">Adobe CC user</li> 
+        </ul> </td> 
+      </tr> 
+      <tr aemmigrated="true"> 
+       <td aemmigrated="true"> <p aemmigrated="true">Box</p> <p aemmigrated="true"> <img src="assets/box,-inc.-logo.png" aemmigrated="true"> </p> </td> 
+       <td aemmigrated="true"> 
+        <ul aemmigrated="true"> 
+         <li aemmigrated="true">Link documents and folders to Workfront</li> 
+        </ul> <p aemmigrated="true">For more information, see <a href="../../administration-and-setup/configure-integrations/configure-document-integrations.md" class="MCXref xref" aemmigrated="true">Configure document integrations</a>.</p> </td> 
+       <td aemmigrated="true">&nbsp;</td> 
+       <td aemmigrated="true">&nbsp;</td> 
+      </tr> 
+      <tr aemmigrated="true"> 
+       <td aemmigrated="true"> <p aemmigrated="true">Dropbox</p> <p aemmigrated="true"> <img src="assets/dropbox-1-logo-png-transparent.png" aemmigrated="true"> </p> </td> 
+       <td aemmigrated="true"> 
+        <ul aemmigrated="true"> 
+         <li aemmigrated="true">Link documents and folders to Workfront</li> 
+        </ul> <p aemmigrated="true">For more information, see <a href="../../administration-and-setup/configure-integrations/configure-document-integrations.md" class="MCXref xref" aemmigrated="true">Configure document integrations</a>.</p> </td> 
+       <td aemmigrated="true">&nbsp;</td> 
+       <td aemmigrated="true">&nbsp;</td> 
+      </tr> 
+      <tr aemmigrated="true"> 
+       <td aemmigrated="true"> <p aemmigrated="true">G&nbsp;Suite</p> <p aemmigrated="true"> <img src="assets/gsuite.png" style="max-width: 80px;" aemmigrated="true"> </p> </td> 
+       <td aemmigrated="true"> 
+        <ul aemmigrated="true"> 
+         <li aemmigrated="true">Add a G-Suite email to a project or task </li> 
+         <li aemmigrated="true">View and manage Workfront notifications in Gmail</li> 
+         <li aemmigrated="true">Submit requests via Gmail </li> 
+        </ul> <p aemmigrated="true">For more information, see <a href="../../workfront-integrations-and-apps/workfront-for-g-suite/workfront-for-gsuite.md" class="MCXref xref" aemmigrated="true">Adobe Workfront for G Suite</a>.</p> </td> 
+       <td aemmigrated="true"> 
+        <ul aemmigrated="true"> 
+         <li aemmigrated="true">G&nbsp;Suite users must have a Workfront license </li> 
+         <li aemmigrated="true">Workfront view and work sharing permissions must be set per access level </li> 
+         <li aemmigrated="true"> POP enabled email account </li> 
+         <li aemmigrated="true">Workfront request settings must include POP settings </li> 
+        </ul> </td> 
+       <td aemmigrated="true"> 
+        <ul aemmigrated="true"> 
+         <li aemmigrated="true">G&nbsp;Suite administrator</li> 
+         <li aemmigrated="true">Workfront administrator </li> 
+        </ul> </td> 
+      </tr> 
+      <tr aemmigrated="true"> 
+       <td aemmigrated="true"> <p aemmigrated="true">Google Drive</p> <p aemmigrated="true"> <img src="assets/google-drive-logo.png" aemmigrated="true"> </p> </td> 
+       <td aemmigrated="true"> 
+        <ul aemmigrated="true"> 
+         <li aemmigrated="true">Link documents and folders to Workfront</li> 
+        </ul> <p aemmigrated="true">For more information, see <a href="../../administration-and-setup/configure-integrations/configure-document-integrations.md" class="MCXref xref" aemmigrated="true">Configure document integrations</a>.</p> </td> 
+       <td aemmigrated="true">&nbsp;</td> 
+       <td aemmigrated="true">&nbsp;</td> 
+      </tr> 
+      <tr aemmigrated="true"> 
+       <td aemmigrated="true"> <p aemmigrated="true">Jira</p> <p aemmigrated="true"> <img src="assets/jiralogo.png" style="max-width: 80px;" aemmigrated="true"> </p> </td> 
+       <td aemmigrated="true"> 
+        <ul aemmigrated="true"> 
+         <li aemmigrated="true">Create new tickets in Jira based on tasks and issues in Workfront</li> 
+         <li aemmigrated="true">Sync updates and statuses of linked tasks between Workfront and Jira </li> 
+         <li aemmigrated="true">Works on both Jira Server and Jira Cloud </li> 
+        </ul> <p aemmigrated="true">For more information, see <a href="../../workfront-integrations-and-apps/use-workfront-with-jira/workfront-for-jira.md" class="MCXref xref" aemmigrated="true">Adobe Workfront for Jira</a>.</p> </td> 
+       <td aemmigrated="true"> 
+        <ul aemmigrated="true"> 
+         <li aemmigrated="true">Pro Workfront plan or higher</li> 
+        </ul> </td> 
+       <td aemmigrated="true"> 
+        <ul aemmigrated="true"> 
+         <li aemmigrated="true"> Installation only by a Jira administrator</li> 
+         <li aemmigrated="true">Non-Jira administrators ust request and be granted access from the Jira administrator</li> 
+        </ul> </td> 
+      </tr> 
+      <tr aemmigrated="true"> 
+       <td aemmigrated="true">Microsoft Calendars (Office 365 / Outlook Live)</td> 
+       <td aemmigrated="true"> 
+        <ul aemmigrated="true"> 
+         <li aemmigrated="true"> <p aemmigrated="true">Integrate with a web-based version of Outlook in cloud-hosted Office 365 or Outlook Live. </p> </li> 
+         <li aemmigrated="true"> <p aemmigrated="true">Display all events from your Outlook calendar and any associated calendars you select, such as Birthdays and Holidays calendars, in your Home Calendar.</p> </li> 
+        </ul> <p aemmigrated="true">Note: The Outlook calendar configuration is completely separate from the Outlook Add-in (Outlook Integration or Workfront for Outlook). There's no installation required to configure the calendar.</p> <p aemmigrated="true">For more information, see <a href="../../workfront-basics/using-home/using-the-home-area/configure-home-calendar-view.md" class="MCXref xref" aemmigrated="true">Configure your Home Calendar view settings</a>.</p> </td> 
+       <td aemmigrated="true">&nbsp;</td> 
+       <td aemmigrated="true">&nbsp;</td> 
+      </tr> 
+      <tr aemmigrated="true"> 
+       <td aemmigrated="true"> <p aemmigrated="true">Microsoft OneDrive</p> <p aemmigrated="true"> <img src="assets/microsoft-onedrive.png" aemmigrated="true"> </p> </td> 
+       <td aemmigrated="true"> 
+        <ul aemmigrated="true"> 
+         <li aemmigrated="true">Link documents and folders to Workfront</li> 
+        </ul> <p aemmigrated="true">For more information, see <a href="../../administration-and-setup/configure-integrations/configure-document-integrations.md" class="MCXref xref" aemmigrated="true">Configure document integrations</a>.</p> </td> 
+       <td aemmigrated="true">&nbsp;</td> 
+       <td aemmigrated="true">&nbsp;</td> 
+      </tr> 
+      <tr aemmigrated="true"> 
+       <td aemmigrated="true"> <p aemmigrated="true">Microsoft Outlook</p> <p aemmigrated="true"> <img src="assets/outlook.png" style="max-width: 80px;" aemmigrated="true"> </p> </td> 
+       <td aemmigrated="true"> 
+        <ul aemmigrated="true"> 
+         <li aemmigrated="true">Update an existing project/task/issue with info from an email </li> 
+         <li aemmigrated="true">Convert emails into Workfront items right from your inbox </li> 
+         <li aemmigrated="true">Create new tasks from an email </li> 
+         <li aemmigrated="true">Comment on Workfront items </li> 
+        </ul> <p aemmigrated="true">For more information, see <a href="../../workfront-integrations-and-apps/using-workfront-with-outlook/workfront-for-outlook.md" class="MCXref xref" aemmigrated="true">Adobe Workfront for Outlook</a>.</p> </td> 
+       <td aemmigrated="true"> 
+        <ul aemmigrated="true"> 
+         <li aemmigrated="true">Outlook 2013 or 2016 for Windows and Outlook 2016 for Mac </li> 
+         <li aemmigrated="true">Outlook on the web must be for Exchange 2016 and Office 365 </li> 
+         <li aemmigrated="true">Outlook Web Access must be for Exchange 2013 </li> 
+         <li aemmigrated="true">Direct connection to an Exchange Server or Office 365</li> 
+        </ul> </td> 
+       <td aemmigrated="true"> 
+        <ul aemmigrated="true"> 
+         <li aemmigrated="true">Workfront administrator </li> 
+        </ul> </td> 
+      </tr> 
+      <tr aemmigrated="true"> 
+       <td aemmigrated="true"> <p aemmigrated="true">Microsoft Teams</p> <p aemmigrated="true"> <img src="assets/msteamslogo.png" style="max-width: 80px;" aemmigrated="true"> </p> </td> 
+       <td aemmigrated="true"> 
+        <ul aemmigrated="true"> 
+         <li aemmigrated="true">Get Workfront notifications in Microsoft Teams </li> 
+         <li aemmigrated="true">Make approval decisions </li> 
+         <li aemmigrated="true">Search for Workfront projects, tasks, and issues </li> 
+         <li aemmigrated="true">Create Workfront personal tasks </li> 
+         <li aemmigrated="true">Submit Workfront requests </li> 
+        </ul> <p aemmigrated="true">For more information, see <a href="../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/use-workfront-with-ms-teams.md" class="MCXref xref" aemmigrated="true">Adobe Workfront for Microsoft Teams</a>.</p> </td> 
+       <td aemmigrated="true"> 
+        <ul aemmigrated="true"> 
+         <li aemmigrated="true">Each team in your organization must install the integration if more than one team wants to use it</li> 
+        </ul> </td> 
+       <td aemmigrated="true"> 
+        <ul aemmigrated="true"> 
+         <li aemmigrated="true">Team owner</li> 
+        </ul> </td> 
+      </tr> 
+      <tr aemmigrated="true"> 
+       <td aemmigrated="true"> <p aemmigrated="true">Salesforce</p> <p aemmigrated="true"> <img src="assets/salesforce-logo-web-2019.png" style="max-width: 80px;" aemmigrated="true"> </p> </td> 
+       <td aemmigrated="true"> 
+        <ul aemmigrated="true"> 
+         <li aemmigrated="true">Create new Workfront requests from Salesforce </li> 
+         <li aemmigrated="true">Create Workfront projects from Salesforce</li> 
+        </ul> <p aemmigrated="true">For more information, see <a href="../../workfront-integrations-and-apps/using-workfront-with-salesforce/workfront-for-salesforce.md" class="MCXref xref" aemmigrated="true">Adobe Workfront for Salesforce</a>.</p> </td> 
+       <td aemmigrated="true"> 
+        <ul aemmigrated="true"> 
+         <li aemmigrated="true">Pro Workfront plan or higher</li> 
+        </ul> </td> 
+       <td aemmigrated="true"> 
+        <ul aemmigrated="true"> 
+         <li aemmigrated="true">Salesforce administrator</li> 
+         <li aemmigrated="true">Workfront administrator<![CDATA[
+]]></li> 
+        </ul> </td> 
+      </tr> 
+      <tr aemmigrated="true"> 
+       <td aemmigrated="true"> <p aemmigrated="true">Sharepoint</p> <p aemmigrated="true"> <img src="assets/sharepoint.png" aemmigrated="true"> </p> </td> 
+       <td aemmigrated="true"> 
+        <ul aemmigrated="true"> 
+         <li aemmigrated="true">Link documents and folders to Workfront</li> 
+        </ul> <p aemmigrated="true">For more information, see <a href="../../administration-and-setup/configure-integrations/configure-sharepoint-integration.md" class="MCXref xref" aemmigrated="true">Configure the SharePoint integration</a>.</p> </td> 
+       <td aemmigrated="true">&nbsp;</td> 
+       <td aemmigrated="true">&nbsp;</td> 
+      </tr> 
+      <tr aemmigrated="true"> 
+       <td aemmigrated="true"> <p aemmigrated="true">Slack</p> <p aemmigrated="true"> <img src="assets/slacklogo.png" style="max-width: 80px;" aemmigrated="true"> </p> </td> 
+       <td aemmigrated="true"> 
+        <ul aemmigrated="true"> 
+         <li aemmigrated="true">Receive Workfront notifications in Slack </li> 
+         <li aemmigrated="true">Manage approvals in Slack </li> 
+         <li aemmigrated="true">Create Workfront tasks and issues from Slack </li> 
+         <li aemmigrated="true">Post comments to a project or task from Slack</li> 
+        </ul> <p aemmigrated="true">For more information, see <a href="../../workfront-integrations-and-apps/using-workfront-with-slack/use-workfront-for-slack.md" class="MCXref xref" aemmigrated="true">Adobe Workfront for Slack</a>.</p> </td> 
+       <td aemmigrated="true"> 
+        <ul aemmigrated="true"> 
+         <li aemmigrated="true">Slack admin must allow all Slack users to install Workfront for Slack</li> 
+         <li aemmigrated="true">Slack users must have a Workfront license </li> 
+        </ul> </td> 
+       <td aemmigrated="true"> 
+        <ul aemmigrated="true"> 
+         <li aemmigrated="true">Slack administrator</li> 
+         <li aemmigrated="true">Workfront administrator </li> 
+        </ul> </td> 
+      </tr> 
+      <tr aemmigrated="true"> 
+       <td aemmigrated="true"> <p aemmigrated="true">Webdam</p> <p aemmigrated="true"> <img src="assets/webdam-logo.png" aemmigrated="true"> </p> </td> 
+       <td aemmigrated="true"> 
+        <ul aemmigrated="true"> 
+         <li aemmigrated="true">Link documents and folders to Workfront</li> 
+        </ul> <p aemmigrated="true">For more information, see <a href="../../administration-and-setup/configure-integrations/configure-document-integrations.md" class="MCXref xref" aemmigrated="true">Configure document integrations</a>.</p> </td> 
+       <td aemmigrated="true">&nbsp;</td> 
+       <td aemmigrated="true">&nbsp;</td> 
+      </tr> 
+      <tr aemmigrated="true"> 
+       <td aemmigrated="true"> <p aemmigrated="true">Zoom</p> <p aemmigrated="true"> <img src="assets/zoom-logo.png" aemmigrated="true"> </p> </td> 
+       <td aemmigrated="true"> 
+        <ul aemmigrated="true"> 
+         <li aemmigrated="true">Start a Zoom meeting as you collaborate in Workfront by inserting a Zoom link into a comment or a reply in the Updates area</li> 
+        </ul> <p aemmigrated="true">For more information, see <a href="../../workfront-integrations-and-apps/zoom-integration-with-wf/zoom-integration-overview.md" class="MCXref xref" aemmigrated="true">Zoom integration overview</a>.</p> </td> 
+       <td aemmigrated="true"> 
+        <ul aemmigrated="true"> 
+         <li aemmigrated="true">Must be enabled in the Setup area by a Workfront administrator</li> 
+        </ul> </td> 
+       <td aemmigrated="true"> 
+        <ul aemmigrated="true"> 
+         <li aemmigrated="true">Workfront administrator </li> 
+        </ul> </td> 
+      </tr> 
+     </tbody> 
+    </table> 
+    <p><strong>Integrations requiring an additional purchase</strong></p> 
+    <p aemmigrated="true">Workfront enables you to leverage other built-in integrations and integrated products at an additional cost. Consult your Account Representative for pricing details.</p> 
+    <ul aemmigrated="true"> 
+     <li aemmigrated="true"> <p aemmigrated="true">Workfront DAM <br aemmigrated="true"> </p> <p aemmigrated="true">For more information, see <a href="../../documents/workfront-dam-within-workfront/workfront-dam-in-workfrontt.md" class="MCXref xref" aemmigrated="true">Adobe Workfront DAM within Adobe Workfront</a>.</p> </li> 
+     <li aemmigrated="true"> <p aemmigrated="true">Workfront Fusion <br aemmigrated="true"> </p> <p aemmigrated="true">For more information, see <a href="../../workfront-fusion/get-started/workfront-fusion-overview.md" class="MCXref xref" aemmigrated="true">Adobe Workfront Fusion overview</a>.</p> </li> 
+     <li aemmigrated="true"> <p aemmigrated="true">Adobe Experience Manager Assets<br aemmigrated="true"></p> <p aemmigrated="true">For more information, see <a href="../../administration-and-setup/configure-integrations/configure-workfront-aem.md" class="MCXref xref" aemmigrated="true">Configure Workfront with Adobe Experience Manager legacy connector</a>.</p> </li> 
+    </ul> 
+    <h2 aemmigrated="true">Partner integrations</h2> 
+    <p aemmigrated="true">Workfront has a rich partner ecosystem that includes dozens of integrations that enrich your Workfront experience.</p> 
+    <p aemmigrated="true">Examples of existing partner offerings&nbsp;include integrations with Salesforce.com, Oracle Responsys, and Microsoft Visual Studio. For more information about these and other exciting integrations, see the <a href="https://www.workfront.com/enterprise/marketplace/apps/" aemmigrated="true">Workfront Marketplace</a>.</p> 
+    <h2 aemmigrated="true">Workfront API</h2> 
+    <p aemmigrated="true">The Workfront API enables you to extend and enhance your Workfront experience by leveraging our public API. You can create your own integrations using our open API. For a detailed list of available objects in the Workfront API, see the Workfront <a href="../../wf-api/general/api-explorer.md" class="MCXref xref" aemmigrated="true">API Explorer</a>.</p> 
+   </div> 
+  </div>
+ </body>
+</html>

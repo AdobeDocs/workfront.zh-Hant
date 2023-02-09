@@ -1,0 +1,39 @@
+---
+title: 22.4 release activity week of aug 1, 2022
+description: 22.4 release activity Week of August 1, 2022
+author: Luke
+draft: Probably
+feature: Product Announcements
+exl-id: e3ec0136-0ad9-4b1f-ad03-d3130e603da3
+---
+
+# 22.4 release activity: Week of August 1, 2022
+
+This page describes all enhancements made in the Preview environment the week of August 1, 2022. These enhancements will be made available in the Production environment with the 22.4 release later this year.
+
+For a list of all changes available at this point in the 22.4 release cycle, see [22.4 Release overview](/help/quicksilver/product-announcements/product-releases/22.4-release-activity/22-4-release-overview.md).
+
+## Custom form enhancements: Adobe XD and the Quick Filter
+
+Based on your feedback, we've introduced the following enhancements to improve your experience when managing custom forms:
+
+* Add an Adobe XD file to make a custom form more visual and informative. When the form is attached to an object, users who work with the object can view and interact with the XD file from within the form.
+
+    For more information, see [Add or edit an image or other asset widget in a custom form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md).
+
+* Use the Quick Filter to easily locate items in the modernized custom forms and fields list. Also enjoy an improved look and feel while managing your forms and fields.
+
+    For more information about the Quick Filter, see [Apply the quick filter to a list](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/apply-quick-filter-list.md).
+
+## Add a team to a board or a card
+
+>[!NOTE]
+>
+>This feature is only available through the early feature opt-in for Workfront Boards.
+
+You can now add a team as a member of the board. The individual team members are no longer added when you add a team to the board, though all of the team members have access to the board.
+
+After you add the team to the board, you can assign the team to cards. On connected cards, only one team assignment is allowed. On ad hoc cards, you can assign more than one team.
+
+For more information, see [Add or remove members from a board](/help/quicksilver/agile/get-started-with-boards/add-members-to-board.md).
+

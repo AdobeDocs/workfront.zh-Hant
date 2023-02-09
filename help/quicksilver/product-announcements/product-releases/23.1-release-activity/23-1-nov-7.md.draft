@@ -1,0 +1,55 @@
+---
+title: 23.1 release activity week of November 7, 2022
+description: 23.1 release activity Week of November 7, 2022
+author: Luke
+draft: Probably
+feature: Product Announcements
+exl-id: 7e98cf23-60d6-4eb1-9805-5de4a7ad6ca4
+---
+# 23.1 release activity: Week of November 7, 2022
+
+This page describes all enhancements made with the 23.1 release to the Preview environment the week of November 7, 2022. These enhancements will be made available in the Production environment later this year.
+
+For a list of all changes available at this point in the 23.1 release cycle, see [23.1 Release overview](/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-release-overview.md).
+
+## Search and sort on the boards dashboard
+
+>[!NOTE]
+>
+>This feature is available only through the early feature opt-in for Workfront Boards.
+
+You can now sort the boards dashboard by board name or date, and search for a specific board in the list.
+
+For more information, see [Use the boards dashboard](/help/quicksilver/agile/get-started-with-boards/use-boards-page.md).
+
+## Status displays on card
+
+>[!NOTE]
+>
+>This feature is available only through the early feature opt-in for Workfront Boards.
+
+If a card on a board is assigned a status, the status now displays on the card so that you do not have to open the card to see the status. This enhancement applies to both ad hoc and connected cards.
+
+For more information, see [Use connected cards on boards](/help/quicksilver/agile/get-started-with-boards/connected-cards.md) and [Add an ad hoc card to a board](/help/quicksilver/agile/get-started-with-boards/add-card-to-board.md).
+
+![status on card](/help/quicksilver/product-announcements/product-releases/assets/boards-connected-card-details-110922.png)
+
+## Linkable cards now available on boards
+
+>[!NOTE]
+>
+>This feature is available only through the early feature opt-in for Workfront Boards.
+
+You can now send a link to a specific card to another boards user. The person must have access to view the board before they can open the link.
+
+When you open a card on a board, the browser URL looks like this: 
+
+```
+https://<Workfront-URL>/boards/<board-id>/card/<card-id>. 
+```
+
+You can copy the full URL and send it to someone else. They will go directly to the open card when they access the link.
+
+Previously, links were available to boards but not specific cards.
+
+For information on cards, see [Add an ad hoc card to a board](/help/quicksilver/agile/get-started-with-boards/add-card-to-board.md) and [Use connected cards on boards](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).

@@ -1,0 +1,67 @@
+---
+filename: android-search-beta
+content-type: reference
+navigation-topic: betas
+title: Android Search Beta Program
+description: Android Search Beta Program
+author: Luke
+hidefromtoc: true
+---
+
+# Android Search Beta Program
+
+<!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: Alina: keep this as an example for a mobile beta; Use this page as an example for all the Mobile beta programs.This is currently in draft because the beta is closed.)</p>
+-->
+
+Search is coming to the Workfront mobile app! With this new feature, you'll be able to use your Workfront app on your smartphone to search for Projects, Tasks, Issues, Documents or Contacts that you have access to in your Workfront web instance. You will be able to immediately access the same information that you have access to see in the web application.
+
+This new functionality has not been widely released yet, but you can participate in our limited beta program to test out this functionality. We have opened a beta testing window for gathering feedback from you about your experience with the Search feature on the mobile app. This beta program has only been made available for the Android platform, at this time.
+
+If you would like to be part of this beta program and have this functionality enabled in your Workfront app on your Android phone, see [Signing Up for Android Search Beta Program](#signing-up-for-android-search-beta-program).
+
+## Understanding Search on Android
+
+In the version of the Workfront mobile app that we have made available for the beta program, you'll have access to Search, which will allow you to:
+
+* Search for any Project, Task, Issue, Document, even if you are not assigned to them.   
+  You can also search for Contacts. 
+* Quickly access your Recent Items list just like you do in the Web application. 
+* Have synchronized access to your Recent Items so you can quickly resume where you left off on your desktop or smartphone.
+
+&nbsp;
+
+## Signing Up for Android Search Beta Program {#signing-up-for-android-search-beta-program}
+
+If you would like to join the beta testing and experience our new great features, please sign up [here](https://play.google.com/store/apps/details?id=com.workfront.android.aware.beta).
+
+After you are&nbsp;signed up, you can access the Workfront mobile app beta version in Google Play, just like you download or update the final versions.
+
+For the purpose of this beta program, the&nbsp;Mobile Beta release is limited to Android users only. This means that you'll need a google account (@gmail.com) or a google apps account to download the beta app.
+
+## Testing the New Search on Android
+
+As you are testing the new functionality, we would like you to give us feedback on the following things:
+
+* Usefulness: Is Search helping you get things done? 
+* Use cases: Why do you use Search? Outline&nbsp;your main scenarios when Search can help you.
+* Convenience: Is the new Search easy to use and intuitive? Do you like the UI, interactions etc?
+* Speed: Are you satisfied with how fast the search results are displayed? 
+* Relevancy: Did you find what you were looking for? Did you find it easily enough? 
+* Issues: What errors or issues have you encountered when using Search? Did you get lost in the UI, or maybe you didn't find what you were looking for?
+* Improvements: Tell us what you'd like to see improved or added to the Search feature.
+* Satisfaction: On a scale from 1 to 5, with 5 being the most satisfied, how satisfied are you with&nbsp;the new Search feature?
+
+## Sending Feedback to Product&nbsp;Management
+
+After testing Search as described above, you can submit your feedback using the following options:
+
+1. Using your Workfront mobile app:
+
+   1. In the homepage of Workfront app, swipe right to open the side menu, then tap the **Submit Feedback** link and select **Start Survey**. 
+   
+   1. Fill out the **Search Beta Testing Results** survey.
+
+1. Go directly to and fill out&nbsp;the [Search Beta Testing Results](http://survey.qualtrics.com/jfe/form/SV_cUNPXt6pKdv0gZL) survey.&nbsp;
+1. Send an email directly to our Mobile Product Manager at haykfalakyan@workfront.com.
+

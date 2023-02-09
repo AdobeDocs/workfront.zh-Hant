@@ -1,0 +1,20 @@
+<html>
+ <head>
+  <title>Create tasks</title>
+ </head>
+ <body>
+  <div class="body-container" aemmigrated="true"> 
+   <div id="mc-main-content" role="main" data-mc-content-body="True" aemmigrated="true"> 
+    <h1 aemmigrated="true">Create tasks</h1> 
+    <p aemmigrated="true">You can create tasks in a specific project, or you can create tasks from the Home area.</p> 
+    <p aemmigrated="true">This section contains the following articles:</p> 
+    <ul aemmigrated="true"> 
+     <li aemmigrated="true"><a href="../../../manage-work/tasks/create-tasks/create-tasks-overview.md" class="MCXref xref" xrefformat="{para}" aemmigrated="true">Create tasks overview</a> </li> 
+     <li aemmigrated="true"><a href="../../../manage-work/tasks/create-tasks/create-tasks-in-project.md" class="MCXref xref" xrefformat="{para}" aemmigrated="true">Create tasks in a project</a> </li> 
+     <li aemmigrated="true"><a href="../../../manage-work/tasks/create-tasks/create-subtasks.md" class="MCXref xref" xrefformat="{para}" aemmigrated="true">Create subtasks</a> </li> 
+     <li aemmigrated="true"><a href="../../../manage-work/tasks/create-tasks/create-recurring-tasks.md" class="MCXref xref" xrefformat="{para}" aemmigrated="true">Create recurring tasks</a> </li> 
+    </ul> 
+   </div> 
+  </div>
+ </body>
+</html>

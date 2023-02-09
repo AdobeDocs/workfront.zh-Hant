@@ -1,0 +1,28 @@
+---
+filename: tasks-dont-show-as-done
+content-type: tips-tricks-troubleshooting
+product-area: projects
+navigation-topic: tips-tricks-and-troubleshooting-tasks
+title: Tasks not showing as Done with multiple user assignees
+description: "(drafted this article because the info was added to this one: /Content/Workfront basics/Using Home/Using the Home Area/mark-item-done-in-home.html)"
+author: Alina
+hidefromtoc: true
+---
+
+# Tasks not showing as Done with multiple user assignees
+
+<!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(drafted this article because the info was added to this one: /Content/Workfront basics/Using Home/Using the Home Area/mark-item-done-in-home.html)</p>
+-->
+
+## Problem
+
+When multiple users are assigned to an object and a product manager changes the object status to Complete, the assigned users do not show as Done.
+
+## Cause
+
+The "Done" button indicates when the individual assignment to the task has been completed. The status of "Complete" refers to the status of the work item.
+
+## Solution
+
+On a task or issue with multiple assignees, each user is responsible for indicating that their own assignment on the task or issue has actually been completed. For this reason, each assignee must click Done to show they have completed the work assigned to them on the item. 

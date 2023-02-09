@@ -1,0 +1,935 @@
+---
+filename: egnyte-modules
+content-type: reference
+product-previous: workfront-fusion
+product-area: workfront-integrations
+keywords: connector
+navigation-topic: apps-and-their-modules
+title: Egnyte modules
+description: In an Adobe Workfront Fusion scenario, you can automate workflows that use Egnyte, as well as connect it to multiple third-party applications and services.This allows you to monitor, list, retrieve, upload, download, move, copy, lock, unlock, and delete files and folders, as well as create and manage links, or watch events in your Egnyte account.
+author: Becky
+hidefromtoc: true
+---
+
+# Egnyte modules
+
+In an Adobe Workfront Fusion scenario, you can automate workflows that use Egnyte, as well as connect it to multiple third-party applications and services.This allows you to monitor, list, retrieve, upload, download, move, copy, lock, unlock, and delete files and folders, as well as create and manage links, or watch events in your Egnyte account.
+
+## File system modules
+
+* [Watch Files](#watch-files) 
+* [List Files/Subfolders in a Folder](#list-files-subfolders-in-a-folder) 
+* [Get File Info](#get-file-info) 
+* [Upload a File](#upload-a-file) 
+* [Download File](#download-file) 
+* [Move File](#move-file) 
+* [Copy File](#copy-file) 
+* [Lock a File](#lock-a-file) 
+* [Unlock a File](#unlock-a-file) 
+* [Delete a File](#delete-a-file) 
+* [Get Folder Info](#get-folder-info) 
+* [Create a Folder](#create-a-folder) 
+* [Move Folder](#move-folder) 
+* [Copy Folder](#copy-folder) 
+* [Delete a Folder](#delete-a-folder)
+
+### Watch Files {#watch-files}
+
+This module retrieves file details when a new file is added to the specified folder or modified in the specified folder.
+
+You specify the folder and the maximum number of files you want the module to watch.
+
+When you are configuring this module, the following fields display.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td>Connection </td> 
+   <td> <p>For instructions about connecting your Egnyte account to Workfront Fusion, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Adobe Workfront Fusion - Basic instructions</a></p> </td> 
+  </tr> 
+  <tr> 
+   <td>Folder </td> 
+   <td> <p>Click <strong>Click here to choose folder</strong> in order to select the folder you want to watch for new and changed files.</p> </td> 
+  </tr> 
+  <tr> 
+   <td>Limit </td> 
+   <td> <p>Enter or map the maximum number of records you want the module to watch during each scenario execution cycle.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+### List Files/Subfolders in a Folder {#list-files-subfolders-in-a-folder}
+
+This action module retrieves files and/or subfolders from a folder.
+
+You specify the ID or path and how you want the files or folders sorted.
+
+The module returns any standard fields associated with the record, along with any custom fields and values that the connection accesses. You can map this information in subsequent modules in the scenario.
+
+When you are configuring this module, the following fields display.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td>Connection </td> 
+   <td> <p>For instructions about connecting your Egnyte account to Workfront Fusion, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Adobe Workfront Fusion - Basic instructions</a></p> </td> 
+  </tr> 
+  <tr> 
+   <td> <p>Map ID or select/map a path</p> </td> 
+   <td> <p>Select whether you want to map the File ID or select the path manually.</p> 
+    <ul> 
+     <li style="font-weight: bold;">File ID<span style="font-weight: normal;">: Map the File ID from the previous module. For example, Watch Files.</span></li> 
+     <li><strong>Path</strong>: Click <strong>Click here to choose folder</strong> to select the file you want to move.</li> 
+    </ul> </td> 
+  </tr> 
+  <tr> 
+   <td>List </td> 
+   <td> <p>Select whether you want to return files of subfolders.</p> </td> 
+  </tr> 
+  <tr> 
+   <td>Maximum number of results</td> 
+   <td> <p>Enter or map the maximum number of records you want the module to retrieve during each scenario execution cycle.</p> </td> 
+  </tr> 
+  <tr> 
+   <td>Sort By </td> 
+   <td> <p>Select whether you want to sort results by name, last modified, uploaded by, or custom metadata.</p> </td> 
+  </tr> 
+  <tr> 
+   <td>Sort direction </td> 
+   <td> <p>Select the ascending or descending order of results.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+### Get File Info {#get-file-info}
+
+This action module retrieves data about a file.
+
+You specify the ID or path of the file.
+
+The module returns the ID of the file and any associated fields, along with any custom fields and values that the connection accesses. You can map this information in subsequent modules in the scenario.
+
+When you are configuring this module, the following fields display.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td>Connection </td> 
+   <td> <p>For instructions about connecting your Egnyte account to Workfront Fusion, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Adobe Workfront Fusion - Basic instructions</a></p> </td> 
+  </tr> 
+  <tr> 
+   <td> <p>Map ID or select/map a path</p> </td> 
+   <td> <p>Select whether you want to map the File ID or select the path manually.</p> 
+    <ul> 
+     <li style="font-weight: bold;">File ID<span style="font-weight: normal;">: Map the File ID from the previous module. For example, Watch Files.</span></li> 
+     <li><strong>Path</strong>: Click <strong>Click here to choose folder</strong> to select the file you want to move.</li> 
+    </ul> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+### Upload a File {#upload-a-file}
+
+This action module creates or overwrites a file.
+
+You specify the ID of the record.
+
+The module returns the ID of the  file and any associated fields, along with any custom fields and values that the connection accesses. You can map this information in subsequent modules in the scenario.
+
+When you are configuring this module, the following fields display.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td>Connection </td> 
+   <td> <p>For instructions about connecting your Egnyte account to Workfront Fusion, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Adobe Workfront Fusion - Basic instructions</a></p> </td> 
+  </tr> 
+  <tr> 
+   <td>Destination folder</td> 
+   <td> <p> Select or map the folder you want to upload a file to.</p> </td> 
+  </tr> 
+  <tr> 
+   <td> <p>Source file</p> </td> 
+   <td> <p>Map the file from the previous module (for example, Dropbox &gt; Get a File) or enter the file name and file data.</p> <p>Warning: If the file with the entered file name already exists, the file data will be overwritten.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+### Download File {#download-file}
+
+This action module downloads a file from Egnyte.
+
+You specify the path or ID of the file and where you want it to move. You can also provide an optional new file name.
+
+The module returns the ID of the  file and any associated fields, along with any custom fields and values that the connection accesses. You can map this information in subsequent modules in the scenario.
+
+When you are configuring this module, the following fields display.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td>Connection </td> 
+   <td> <p>For instructions about connecting your Egnyte account to Workfront Fusion, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Adobe Workfront Fusion - Basic instructions</a></p> </td> 
+  </tr> 
+  <tr> 
+   <td>Full path to file</td> 
+   <td> <p> Enter or select the file path to the file you want to download from Egnyte.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+### Move File {#move-file}
+
+This action module moves a file to a new location.
+
+You specify the file's path.
+
+The module returns the ID of the  file and any associated fields, along with any custom fields and values that the connection accesses. You can map this information in subsequent modules in the scenario.
+
+When you are configuring this module, the following fields display.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td>Connection </td> 
+   <td> <p>For instructions about connecting your Egnyte account to Workfront Fusion, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Adobe Workfront Fusion - Basic instructions</a></p> </td> 
+  </tr> 
+  <tr> 
+   <td> <p>Map ID or select a path</p> </td> 
+   <td> <p>Select whether you want to map the File ID or select the path manually.</p> 
+    <ul> 
+     <li style="font-weight: bold;">File ID<span style="font-weight: normal;">: Map the File ID from the previous module. For example, Watch Files.</span></li> 
+     <li><strong>Path</strong>: Click <strong>Click here to choose folder</strong> to select the file you want to move.</li> 
+    </ul> </td> 
+  </tr> 
+  <tr> 
+   <td>Destination </td> 
+   <td> <p>Select the target location you want to move the file to.</p> </td> 
+  </tr> 
+  <tr> 
+   <td>New name</td> 
+   <td> <p> Enter the new name of the file (including the file extension) if needed. Or leave this field empty to keep the same file name.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+### Copy File {#copy-file}
+
+This action module allows you to copy a file from the source path to the target location.
+
+You specify the file and the location where you want the copy.
+
+The module returns the ID of the  file and any associated fields, along with any custom fields and values that the connection accesses. You can map this information in subsequent modules in the scenario.
+
+When you are configuring this module, the following fields display.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td>Connection </td> 
+   <td> <p>For instructions about connecting your Egnyte account to Workfront Fusion, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Adobe Workfront Fusion - Basic instructions</a></p> </td> 
+  </tr> 
+  <tr> 
+   <td> <p>Map ID or select a path</p> </td> 
+   <td> <p>Select whether you want to map the File ID or select the path manually.</p> 
+    <ul> 
+     <li style="font-weight: bold;">File ID<span style="font-weight: normal;">: Map the File ID from the previous module. For example, Watch Files.</span></li> 
+     <li><strong>Path</strong>: Click <strong>Click here to choose folder</strong> to select the file you want to move.</li> 
+    </ul> </td> 
+  </tr> 
+  <tr> 
+   <td>Destination </td> 
+   <td> <p>Select the target location you want to copy the file to.</p> </td> 
+  </tr> 
+  <tr> 
+   <td>New name</td> 
+   <td> <p> Enter the new name of the file (including the file extension) if needed. Or leave this field empty to keep the same file name.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+### Lock a File {#lock-a-file}
+
+This action module locks a file.
+
+You specify the file and the lock options.
+
+The module returns the ID of the  file and any associated fields, along with any custom fields and values that the connection accesses. You can map this information in subsequent modules in the scenario.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td>Connection </td> 
+   <td> <p>For instructions about connecting your Egnyte account to Workfront Fusion, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Adobe Workfront Fusion - Basic instructions</a></p> </td> 
+  </tr> 
+  <tr> 
+   <td> <p>Map ID or select a path</p> </td> 
+   <td> <p>Select whether you want to map the File ID or select the path manually.</p> 
+    <ul> 
+     <li style="font-weight: bold;">File ID<span style="font-weight: normal;">: Map the File ID from the previous module. For example, Watch Files.</span></li> 
+     <li><strong>Path</strong>: Click <strong>Click here to choose folder</strong> to select the file you want to move.</li> 
+    </ul> </td> 
+  </tr> 
+  <tr> 
+   <td>Lock token</td> 
+   <td> <p> Enter the token that will be used to lock the file. Or leave this field empty to generate a random token.</p> </td> 
+  </tr> 
+  <tr> 
+   <td>Lock timeout</td> 
+   <td> <p> Enter the time in seconds that you want the file to be locked. Or leave this field empty to use the default timeout (1 hour).</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+### Unlock a File {#unlock-a-file}
+
+This action module unlocks a file.
+
+You specify the path of the file and the lock token.
+
+The module returns the ID of the  file and any associated fields, along with any custom fields and values that the connection accesses. You can map this information in subsequent modules in the scenario.
+
+When you are configuring this module, the following fields display.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td>Connection </td> 
+   <td> <p>For instructions about connecting your Egnyte account to Workfront Fusion, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Adobe Workfront Fusion - Basic instructions</a></p> </td> 
+  </tr> 
+  <tr> 
+   <td> <p>Map ID or select a path</p> </td> 
+   <td> <p>Select whether you want to map the File ID or select the path manually.</p> 
+    <ul> 
+     <li style="font-weight: bold;">File ID<span style="font-weight: normal;">: Map the File ID from the previous module. For example, Watch Files.</span></li> 
+     <li><strong>Path</strong>: Click <strong>Click here to choose folder</strong> to select the file you want to move.</li> 
+    </ul> </td> 
+  </tr> 
+  <tr> 
+   <td>Lock token</td> 
+   <td> <p> Enter the token that will be used to unlock the file.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+### Delete a File {#delete-a-file}
+
+This action module deletes a file.
+
+You specify the ID of the file.
+
+The module returns the ID of the  file and any associated fields, along with any custom fields and values that the connection accesses. You can map this information in subsequent modules in the scenario.
+
+When you are configuring this module, the following fields display.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td>Connection </td> 
+   <td> <p>For instructions about connecting your Egnyte account to Workfront Fusion, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Adobe Workfront Fusion - Basic instructions</a></p> </td> 
+  </tr> 
+  <tr> 
+   <td> <p>Map ID or select a path</p> </td> 
+   <td> <p>Select whether you want to map the File ID or select the path manually.</p> 
+    <ul> 
+     <li style="font-weight: bold;">File ID<span style="font-weight: normal;">: Map the File ID from the previous module. For example, Watch Files.</span></li> 
+     <li><strong>Path</strong>: Click <strong>Click here to choose folder</strong> to select the file you want to move.</li> 
+    </ul> </td> 
+  </tr> 
+  <tr> 
+   <td>Entry ID</td> 
+   <td> <p> Enter (map) the Entry ID of the file to delete a specific file version.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+### Get Folder Info {#get-folder-info}
+
+This action module retrieves information about a folder.
+
+You specify the ID of the folder.
+
+The module returns the ID of the folder and any associated fields, along with any custom fields and values that the connection accesses. You can map this information in subsequent modules in the scenario.
+
+When you are configuring this module, the following fields display.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td>Connection </td> 
+   <td> <p>For instructions about connecting your Egnyte account to Workfront Fusion, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Adobe Workfront Fusion - Basic instructions</a></p> </td> 
+  </tr> 
+  <tr> 
+   <td> <p>Map ID or select a path</p> </td> 
+   <td> <p>Select whether you want to map the File ID or select the path manually.</p> 
+    <ul> 
+     <li style="font-weight: bold;">File ID<span style="font-weight: normal;">: Map the File ID from the previous module. For example, Watch Files.</span></li> 
+     <li><strong>Path</strong>: Click <strong>Click here to choose folder</strong> to select the file you want to move.</li> 
+    </ul> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+### Create a Folder {#create-a-folder}
+
+This action module deletes a file.
+
+You specify a path and name for the folder.
+
+The module returns the ID of the  folder and any associated fields, along with any custom fields and values that the connection accesses. You can map this information in subsequent modules in the scenario.
+
+When you are configuring this module, the following fields display.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td>Connection </td> 
+   <td> <p>For instructions about connecting your Egnyte account to Workfront Fusion, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Adobe Workfront Fusion - Basic instructions</a></p> </td> 
+  </tr> 
+  <tr> 
+   <td>Full path to the folder </td> 
+   <td> <p>Select the folder you want to create a new folder in.</p> </td> 
+  </tr> 
+  <tr> 
+   <td>New folder name</td> 
+   <td> <p> Enter the name for the new folder.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+### Move Folder {#move-folder}
+
+This action module moves a folder to a different location.
+
+You specify the file or folder and where you want to move it.
+
+The module returns the ID of the  file or folder and any associated fields, along with any custom fields and values that the connection accesses. You can map this information in subsequent modules in the scenario.
+
+When you are configuring this module, the following fields display.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td>Connection </td> 
+   <td> <p>For instructions about connecting your Egnyte account to Workfront Fusion, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Adobe Workfront Fusion - Basic instructions</a></p> </td> 
+  </tr> 
+  <tr> 
+   <td> <p>Map ID or select a path</p> </td> 
+   <td> <p>Select whether you want to map the File ID or select the path manually.</p> 
+    <ul> 
+     <li style="font-weight: bold;">File ID<span style="font-weight: normal;">: Map the File ID from the previous module. For example, Watch Files.</span></li> 
+     <li><strong>Path</strong>: Click <strong>Click here to choose folder</strong> to select the file you want to move.</li> 
+    </ul> </td> 
+  </tr> 
+  <tr> 
+   <td>Destination </td> 
+   <td> <p>Select the target location you want to move the folder to.</p> </td> 
+  </tr> 
+  <tr> 
+   <td>New name</td> 
+   <td> <p> Enter the new name of the folder, if needed. Or leave this field empty to keep the same name.</p> </td> 
+  </tr> 
+  <tr> 
+   <td>Permissions</td> 
+   <td> <p> Select whether you want to keep the original folder's permissions or inherit permissions from the parent folder in the target location.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+### Copy Folder {#copy-folder}
+
+This action module copies a folder to a destination.
+
+You specify the folder and where you want to copy it.
+
+The module returns the ID of the  folder and any associated fields, along with any custom fields and values that the connection accesses. You can map this information in subsequent modules in the scenario.
+
+When you are configuring this module, the following fields display.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td>Connection </td> 
+   <td> <p>For instructions about connecting your Egnyte account to Workfront Fusion, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Adobe Workfront Fusion - Basic instructions</a></p> </td> 
+  </tr> 
+  <tr> 
+   <td> <p>Map ID or select a path</p> </td> 
+   <td> <p>Select whether you want to map the File ID or select the path manually.</p> 
+    <ul> 
+     <li style="font-weight: bold;">File ID<span style="font-weight: normal;">: Map the File ID from the previous module. For example, Watch Files.</span></li> 
+     <li><strong>Path</strong>: Click <strong>Click here to choose folder</strong> to select the file you want to move.</li> 
+    </ul> </td> 
+  </tr> 
+  <tr> 
+   <td>Destination </td> 
+   <td> <p>Select the target location you want to copy the folder to.</p> </td> 
+  </tr> 
+  <tr> 
+   <td>New name </td> 
+   <td> <p>Enter the new name of the folder if needed. Or leave this field empty to keep the same name.</p> </td> 
+  </tr> 
+  <tr> 
+   <td> <p>Permissions</p> </td> 
+   <td> <p>Select whether you want to keep original folder's permissions or inherit permissions from the parent folder in the target location.</p> <p>Note: If the no option is selected, default settings from the workgroup settings configuration will be used, (Configuration -&gt; Security &amp; Authentication -&gt; Keep permissions on folder move &amp; copy).</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+### Delete a Folder {#delete-a-folder}
+
+This action module deletes a folder.
+
+You specify the ID of the folder.
+
+The module returns the ID of the  folder and any associated fields, along with any custom fields and values that the connection accesses. You can map this information in subsequent modules in the scenario.
+
+When you are configuring this module, the following fields display.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td>Connection </td> 
+   <td> <p>For instructions about connecting your Egnyte account to Workfront Fusion, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Adobe Workfront Fusion - Basic instructions</a></p> </td> 
+  </tr> 
+  <tr> 
+   <td> <p>Map ID or select a path</p> </td> 
+   <td> <p>Select whether you want to map the File ID or select the path manually.</p> 
+    <ul> 
+     <li style="font-weight: bold;">File ID<span style="font-weight: normal;">: Map the File ID from the previous module. For example, Watch Files.</span></li> 
+     <li><strong>Path</strong>: Click <strong>Click here to choose folder</strong> to select the file you want to move.</li> 
+    </ul> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+## Link modules
+
+* [List Links](#list-links) 
+* [Get a Link](#get-a-link) 
+* [Create a File Link](#create-a-file-link) 
+* [Create a Folder Link](#create-a-folder-link) 
+* [Delete a Link](#delete-a-link)
+
+### List Links {#list-links}
+
+This action module lists links to files or folders.
+
+When you are configuring this module, the following fields display.
+
+>[!NOTE]
+>
+>You may need to extend your permissions in your connection between Workfront Fusion and Egnyte. If prompted, click Continue and grant access to your account by clicking **Allow Access**.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td>Connection </td> 
+   <td> <p>For instructions about connecting your Egnyte account to Workfront Fusion, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Adobe Workfront Fusion - Basic instructions</a></p> </td> 
+  </tr> 
+  <tr> 
+   <td>Maximum number of results</td> 
+   <td> <p>Enter or map the maximum number of records you want the module to list during each scenario execution cycle.</p> </td> 
+  </tr> 
+  <tr> 
+   <td>File or Folder</td> 
+   <td> <p> Select whether to retrieve links to the file or to the folder and select the full file/folder path in the field below.</p> </td> 
+  </tr> 
+  <tr> 
+   <td>Username</td> 
+   <td> <p> Enter the username to list only links created by the corresponding user.</p> </td> 
+  </tr> 
+  <tr> 
+   <td>Created before</td> 
+   <td> <p> Enter the date in the <code>YYYY-MM-DD</code> format to list links created before this date. For a list of supported date and time formats, see <a href="../../workfront-fusion/mapping/type-coercion.md" class="MCXref xref">Type coercion in [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+  </tr> 
+  <tr> 
+   <td>Created after </td> 
+   <td> <p>Enter the date in the <code>YYYY-MM-DD</code> format to list links created after this date. For a list of supported date and time formats, see <a href="../../workfront-fusion/mapping/type-coercion.md" class="MCXref xref">Type coercion in [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+  </tr> 
+  <tr> 
+   <td>Type</td> 
+   <td> <p> Select whether to retrieve links to files or to folders only.</p> </td> 
+  </tr> 
+  <tr> 
+   <td>Accessibility </td> 
+   <td> <p>Returns only links with selected accessibility properties.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+### Get a Link {#get-a-link}
+
+This action module retrieves details about a link.
+
+You specify the ID of the link.
+
+The module returns the ID of the link and any associated fields, along with any custom fields and values that the connection accesses. You can map this information in subsequent modules in the scenario.
+
+When you are configuring this module, the following fields display.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td>Connection </td> 
+   <td> <p>For instructions about connecting your Egnyte account to Workfront Fusion, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Adobe Workfront Fusion - Basic instructions</a></p> </td> 
+  </tr> 
+  <tr> 
+   <td>Link ID</td> 
+   <td> <p> Enter (map) the Link ID of the link you want to retrieve information about.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+### Create a File Link {#create-a-file-link}
+
+This action module creates a public file link.
+
+You specify the link parameters.
+
+The module returns the ID of the  file link and any associated fields, along with any custom fields and values that the connection accesses. You can map this information in subsequent modules in the scenario.
+
+When you are configuring this module, the following fields display.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td>Connection </td> 
+   <td> <p>For instructions about connecting your Egnyte account to Workfront Fusion, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Adobe Workfront Fusion - Basic instructions</a></p> </td> 
+  </tr> 
+  <tr> 
+   <td> <p>File</p> </td> 
+   <td> Select the file path.</td> 
+  </tr> 
+  <tr> 
+   <td>Accessibility </td> 
+   <td> <p>Select who can access the file via the created link. For more information about accessibility, see the Egnyte help desk.</p> </td> 
+  </tr> 
+  <tr> 
+   <td>Link to current </td> 
+   <td> <p>Select the Yes option to make the link always refer to the current version of the file.</p> </td> 
+  </tr> 
+  <tr> 
+   <td>Add file name</td> 
+   <td> <p> Select the Yes option to append the filename to the end of the link.</p> </td> 
+  </tr> 
+  <tr> 
+   <td>View only</td> 
+   <td> <p> Enable this option to create only PREVIEW file link.</p> </td> 
+  </tr> 
+  <tr> 
+   <td>Expiry date </td> 
+   <td> <p>Set the date in the <code>YYYY-MM-DD</code> format when the link will expire.</p> <p>Note: If the expiry date is specified, Expiry Clicks field (below) cannot be set.</p> </td> 
+  </tr> 
+  <tr> 
+   <td>Expiry Clicks</td> 
+   <td> <p> The number of clicks the link is valid for.</p> <p>Note: If expiry clicks are specified, the Expiry date field (above) cannot be set.</p> </td> 
+  </tr> 
+  <tr> 
+   <td>Send email</td> 
+   <td> <p> Enable this option to send the link via email from Egnyte.</p> </td> 
+  </tr> 
+  <tr> 
+   <td>Notify </td> 
+   <td> <p>Enable this option to have an email notification sent to the person who created the link when the link is accessed.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+### Create a Folder Link {#create-a-folder-link}
+
+This action module creates a public folder link.
+
+You specify the link parameters.
+
+The module returns the ID of the  folder and any associated fields, along with any custom fields and values that the connection accesses. You can map this information in subsequent modules in the scenario.
+
+When you are configuring this module, the following fields display.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td>Connection </td> 
+   <td> <p>For instructions about connecting your Egnyte account to Workfront Fusion, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Adobe Workfront Fusion - Basic instructions</a></p> </td> 
+  </tr> 
+  <tr> 
+   <td>Folder </td> 
+   <td> <p>Select the path to the folder.</p> </td> 
+  </tr> 
+  <tr> 
+   <td>Accessibility </td> 
+   <td> <p>Select who can access the folder via the created link. For more information about accessibility please refer to the Egnyte help desk.</p> </td> 
+  </tr> 
+  <tr> 
+   <td>Expiry date</td> 
+   <td> <p> Set the date in the <code>YYYY-MM-DD</code> format when the link will expire.</p> <p>Note: If the expiry date is specified, expiry clicks field (below) cannot be set.</p> </td> 
+  </tr> 
+  <tr> 
+   <td>Expiry Clicks</td> 
+   <td> <p> The number of clicks the link is valid for.</p> <p>Note: If expiry clicks are specified, expiry date field (above) cannot be set.</p> </td> 
+  </tr> 
+  <tr> 
+   <td>Send email </td> 
+   <td> <p>If this option is enabled then the link will be sent via email from Egnyte.</p> </td> 
+  </tr> 
+  <tr> 
+   <td>Notify </td> 
+   <td> <p>Enable this option to have an email notification sent to the person who created the link when the link is accessed.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+### Delete a Link {#delete-a-link}
+
+This action module deletes a particular link.
+
+You specify the ID of the record.
+
+The module returns the ID of the  link and any associated fields, along with any custom fields and values that the connection accesses. You can map this information in subsequent modules in the scenario.
+
+When you are configuring this module, the following fields display.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td>Connection </td> 
+   <td> <p>For instructions about connecting your Egnyte account to Workfront Fusion, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Adobe Workfront Fusion - Basic instructions</a></p> </td> 
+  </tr> 
+  <tr> 
+   <td>Link ID</td> 
+   <td> <p> Enter (map) the Link ID of the link you want to delete.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+## Permission modules
+
+* [Get Folder Permission](#get-folder-permission) 
+* [Set Folder Permissions](#set-folder-permissions)
+
+### Get Folder Permission {#get-folder-permission}
+
+This action module [action].
+
+You specify the folder.
+
+When you are configuring this module, the following fields display.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td>Connection </td> 
+   <td> <p>For instructions about connecting your Egnyte account to Workfront Fusion, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Adobe Workfront Fusion - Basic instructions</a></p> </td> 
+  </tr> 
+  <tr> 
+   <td>Folder Path</td> 
+   <td> <p> Select or enter the folder whose permissions you want to retrieve.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+### Set Folder Permissions {#set-folder-permissions}
+
+This action module allows you to set user and group permissions for a folder.
+
+You specify the folder and the permissions you want.
+
+The module returns the ID of the folder and any associated fields, along with any custom fields and values that the connection accesses. You can map this information in subsequent modules in the scenario.
+
+When you are configuring this module, the following fields display.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td>Connection </td> 
+   <td> <p>For instructions about connecting your Egnyte account to Workfront Fusion, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Adobe Workfront Fusion - Basic instructions</a></p> </td> 
+  </tr> 
+  <tr> 
+   <td>Folder Path</td> 
+   <td> <p> Select or enter the folder whose permissions you want to set.</p> </td> 
+  </tr> 
+  <tr> 
+   <td> <p>User permissions</p> </td> 
+   <td> <p>Set user permissions for the folder.</p> <p style="font-weight: bold;">Username</p> <p>Select the user you want to set the folder permissions for.</p> <p style="font-weight: bold;">Permission</p> <p>Select the permission you want to assign.</p> <p>Note: If the user has NONE permissions that were set through Workfront Fusion, the group permissions will override the NONE user permission.</p> 
+    <table style="table-layout:auto"> 
+     <col> 
+     <col> 
+     <tbody> 
+      <tr> 
+       <td>Viewer </td> 
+       <td> <p>Read only</p> </td> 
+      </tr> 
+      <tr> 
+       <td>Editor </td> 
+       <td> <p>Read/Write (&amp; rename)</p> </td> 
+      </tr> 
+      <tr> 
+       <td>Full </td> 
+       <td> <p>Read/Write/Delete (&amp; rename)</p> </td> 
+      </tr> 
+      <tr> 
+       <td>Owner </td> 
+       <td> <p>Read/Write/Delete and Permissions Management</p> </td> 
+      </tr> 
+     </tbody> 
+    </table> </td> 
+  </tr> 
+  <tr> 
+   <td> <p>Group permissions</p> </td> 
+   <td> <p>Set group permissions for the folder.</p> <p style="font-weight: bold;">Group name</p> <p>Select the group you want to set the folder permissions for.</p> <p style="font-weight: bold;">Permission</p> <p>Select the permission you want to assign to the group.</p> 
+    <table style="table-layout:auto"> 
+     <col> 
+     <col> 
+     <tbody> 
+      <tr> 
+       <td>Viewer </td> 
+       <td> <p>Read only</p> </td> 
+      </tr> 
+      <tr> 
+       <td>Editor </td> 
+       <td> <p>Read/Write (&amp; rename)</p> </td> 
+      </tr> 
+      <tr> 
+       <td>Full </td> 
+       <td> <p>Read/Write/Delete (&amp; rename)</p> </td> 
+      </tr> 
+      <tr> 
+       <td>Owner </td> 
+       <td> <p>Read/Write/Delete and Permissions Management</p> </td> 
+      </tr> 
+     </tbody> 
+    </table> </td> 
+  </tr> 
+  <tr> 
+   <td> <p>Inherit Parent Permissions</p> </td> 
+   <td> <p>Select whether permissions should be inherited from the parent folder.</p> </td> 
+  </tr> 
+  <tr> 
+   <td> <p>Keep Parent Permissions</p> </td> 
+   <td> <p>When the Inherit Parent Permissions (above) is disabled, this option determines whether previously inherited permissions from parent folders should be copied to this folder.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+## Other modules
+
+### Watch Events
+
+This trigger module executes a scenario when [action].
+
+The module returns all standard fields associated with the record or records, along with any custom fields and values that the connection accesses. You can map this information in subsequent modules in the scenario.
+
+When you are configuring this module, the following fields display.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td>Connection </td> 
+   <td> <p>For instructions about connecting your Egnyte account to Workfront Fusion, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Adobe Workfront Fusion - Basic instructions</a></p> </td> 
+  </tr> 
+  <tr> 
+   <td>Type </td> 
+   <td> <p>Select the type of event that triggers the module.</p> </td> 
+  </tr> 
+  <tr> 
+   <td>Limit </td> 
+   <td> <p>Enter or map the maximum number of records you want the module to watch during each scenario execution cycle.</p> </td> 
+  </tr> 
+  <tr> 
+   <td>Suppress </td> 
+   <td> <p>Select whether to return only events generated by the current application or current user.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+### Make an API Call
+
+This action module lets you make a custom authenticated call to the Egnyte API. This way, you can create a data flow automation that can't be accomplished by the other Egnyte modules.
+
+When you are configuring this module, the following fields display.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td>Connection </td> 
+   <td> <p>For instructions about connecting your Egnyte account to Workfront Fusion, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Adobe Workfront Fusion - Basic instructions</a></p> </td> 
+  </tr> 
+  <tr> 
+   <td> <p>URL</p> </td> 
+   <td> <p>Enter a path relative to <code>https://your.domain-egnyte.com/pubapi</code>. For example, <code>projects</code></p> <p>Note: For the list of available endpoints, refer to the <a href="https://developers.egnyte.com/docs/read/">Egnyte API Documentation</a>.</p> </td> 
+  </tr> 
+  <tr> 
+   <td> <p>Method</p> </td> 
+   td> <p>Select the HTTP request method you need to configure the API call. For more information, see <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">HTTP request methods in [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+  </tr> 
+  <tr> 
+   <td>Headers </td> 
+   <td> <p>Enter the desired request headers. You don't have to add authorization headers; we already did that for you.</p> </td> 
+  </tr> 
+  <tr> 
+   <td>Query String</td> 
+   <td> <p> Enter the request query string.</p> </td> 
+  </tr> 
+  <tr> 
+   <td>Body </td> 
+   <td> <p>Enter the body content for your API call.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+**Example:** The following API call returns the list of all Link IDs in your Egnyte account:
+
+2019-08-15_18_51_16-Integration_Meetup___Integromat.png
+
+Matches of the search can be found in the module's Output under Bundle > Body > ids.
+
+In our example, 12 Link IDs were returned:
+
+2019-08-15_18_53_31-Integration_Meetup___Integromat.png
