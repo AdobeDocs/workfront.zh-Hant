@@ -8,7 +8,7 @@ description: 您可以使用Kick-Start功能，在Adobe Workfront中匯入含有
 author: Courtney
 feature: System Setup and Administration
 role: Admin
-source-git-commit: 5e0e1425f45886a805726de49357c43b0aecb7f4
+source-git-commit: 80ad604330e8b55037f1607b754cc8bb34f6a3ec
 workflow-type: tm+mt
 source-wordcount: '2126'
 ht-degree: 0%
@@ -25,16 +25,20 @@ ht-degree: 0%
 * 多選下拉清單
 * 下拉
 * 核取方塊
-* 單選按鈕.
+* 單選按鈕
 
 這些欄位有時可以有許多（有時是數百個）選項。 使用Kick-Start功能匯入這些函式可節省您(身為Workfront管理員)的大量時間，並確保您避免錯誤。
 
-您必須依照以下各節所述的步驟，依序使用啟動匯入具有多個選項的自訂欄位：
+>[!IMPORTANT]
+>
+>您必須依照以下各節所述的步驟，依序使用啟動匯入具有多個選項的自訂欄位：
+>
+>1. 從Workfront匯出現有自訂資料（可選步驟）
+>1. 匯出自訂資料的啟動範本
+>1. 填入Excel開始試算表
+>1. 上傳Excel試算表至Workfront
 
-1. 從Workfront匯出現有自訂資料（可選步驟）
-1. 匯出自訂資料的啟動範本
-1. 填入Excel開始試算表
-1. 上傳Excel試算表至Workfront
+
 
 ## 從Workfront匯出現有自訂資料（可選步驟）
 
@@ -115,15 +119,20 @@ ht-degree: 0%
 
 1. 開啟您在前一節下載的Excel試算表，然後注意到數張工作表。 每個工作表都表示應用程式中的一個對象。
 
-   例如： **參數** （指自訂欄位）, **參數選項**（即「自訂欄位」選項）, **類別** （指自訂表單）。
+   >[!INFO]
+   >
+   >例如， **參數** （指自訂欄位）, **參數選項**（即「自訂欄位」選項）, **類別** （指自訂表單）。
+   >
+   >您必須以Workfront資料庫支援的格式寫入對象的名稱及其屬性。
+   >
+   >如需這些物件含意的相關資訊，請參閱 [Workfront字彙表](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
+   >
+   >有關Workfront資料庫中對象名稱的資訊，請參見 [API Explorer](../../../wf-api/general/api-explorer.md).
+   >
+   >![](assets/sheets-included-in-custom-data-export-kick-start-file.png)
 
-   您必須以Workfront資料庫支援的格式寫入對象的名稱及其屬性。
 
-   如需這些物件含意的相關資訊，請參閱 [Workfront字彙表](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
 
-   有關Workfront資料庫中對象名稱的資訊，請參見 [API Explorer](../../../wf-api/general/api-explorer.md).
-
-   ![](assets/sheets-included-in-custom-data-export-kick-start-file.png)
 
 
 1. 請確定下列資訊的格式正確：
@@ -164,7 +173,9 @@ ht-degree: 0%
 
    * **`setName`** =輸入自訂欄位名稱，如您所希望的顯示在Workfront中。
 
-      例如，我們可匯入兩個自訂欄位，稱為 _品牌_、核取方塊欄位和 _媒體_，選項按鈕欄位。
+      >[!INFO]
+      >
+      >例如，我們可匯入兩個自訂欄位，稱為 _品牌_、核取方塊欄位和 _媒體_，選項按鈕欄位。
 
    * 此 **`setName`** 和 **`setValue`** 欄通常包含相同資訊，且應反映新欄位在Workfront介面中所需的名稱。
    例如，欄位的值是顯示在報表中的名稱，而名稱顯示在附加至物件的自訂表單中。
