@@ -1,0 +1,80 @@
+---
+content-type: overview
+product-area: projects
+navigation-topic: task-information
+title: 任務切換日期概述
+description: 「切換日期」是任務可用於工作的日期。 這通常表示其前置任務已解決，任務的受託人可以開始處理它。
+author: Alina
+feature: Work Management
+exl-id: caf2dbba-5311-418d-8c82-ddcc256f9926
+source-git-commit: 39efbf1d678cf85e9b6b61744fb046664992370c
+workflow-type: tm+mt
+source-wordcount: '476'
+ht-degree: 3%
+
+---
+
+# 任務切換日期概述
+
+「切換日期」是任務可用於工作的日期。 這通常表示其前置任務已解決，任務的受託人可以開始處理它。
+
+>[!TIP]
+>
+>問題和項目不存在切換日期。
+
+## Adobe Workfront如何計算切換日期
+
+>[!NOTE]
+>
+>僅當項目狀態等於以下狀態時，才計算切換日期：
+>
+>* 保留
+>* 目前
+>* 已完成
+>* 廢棄
+>
+
+
+Workfront使用下列規則來計算任務的切換日期：
+
+* **當任務的前置任務不完整時**:任務的切換日期為空。
+* **當任務具有完整的前置任務時**:切換日期與前置任務的實際完成日期相同。 如果前置任務有延遲，Workfront將使用以下公式計算後續任務的切換日期：
+
+   `Successor Handoff Date = Predecessor Actual Completion Date + Lag`
+
+   有關延遲時間的資訊，請參閱 [延遲類型概觀](../use-prdcssrs/lag-types.md).
+
+   如果後繼任務有多個前置任務，則根據前置任務的最近實際完成日期計算切換日期。 例如，如果兩個前任的實際完成日期是2022年11月8日和2022年11月20日，則後任的移交日期是2022年11月20日。
+
+   >[!NOTE]
+   >
+   >   基於實際完成日期或前置任務計算後置任務的切換日期相同，無論前置任務是否被強制。 有關強制前置任務的詳細資訊，請參閱 [強制前置作業](../use-prdcssrs/enforced-predecessors.md).
+
+
+* **任務沒有前置任務和**:
+
+   * **計畫的開始日期為過去**:切換日期與項目的計劃開始日期相同。
+   * **計劃開始日期是將來日期（當前日期之後的任何日期）**:切換日期與項目的計劃開始日期相同。
+
+>[!NOTE]
+>
+>當任務具有跨項目前置項時，只有在以下任一情況發生時，後置項的切換日期才重新計算：
+>
+>* 您可以手動重新計算繼任者項目的時間表。 您必須具有項目的「管理」權限，才能重新計算時間軸。
+>* 後續項目的時間表將在晚上自動重新計算。
+>
+>如需重新計算專案時間軸的相關資訊，請參閱 [重新計算項目時間表](../../../manage-work/projects/manage-projects/recalculate-project-timeline.md).
+
+* **當任務對計畫日期具有強制約束時**:無論其他任何條件如何，切換日期始終與約束設定的日期相同。\
+   以下是任務的強制限制：
+
+   * 必須開始時間
+   * 必須完成時間
+   * 開始時間不早於
+   * 開始時間不晚於
+   * 固定日期
+
+## 找出切換日期
+
+您可以在任務報告或任務清單視圖中顯示任務的「切換日期」。\
+如需建立報表的詳細資訊，請參閱 [建立自訂報表](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).

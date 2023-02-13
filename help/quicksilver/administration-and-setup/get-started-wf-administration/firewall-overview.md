@@ -1,0 +1,121 @@
+---
+user-type: administrator
+content-type: overview
+product-area: system-administration;user-management
+navigation-topic: start-with-workfront-administration
+title: 防火牆概述
+description: 由於Adobe Workfront會與貴組織的網路通訊，因此貴組織的防火牆必須設定為允許該通訊。 防火牆是高效的安全措施，通過將組織的網路與網際網路隔離開來發揮作用。 它們可確保只有選取的資料和網路流量才能移入或移出組織的網路。 防火牆允許或阻止基於發送或接收資料的站點的資料。 身為Adobe Workfront管理員，您必須確保傳送至或從Workfront傳送的資料可以透過組織的防火牆。
+author: Caroline
+feature: System Setup and Administration
+role: Admin
+exl-id: 172999e7-fb05-49a6-ad57-84b59e80a28e
+source-git-commit: d0ab54670d1767e2fa2a9cdf2e7eda1ce8940c7f
+workflow-type: tm+mt
+source-wordcount: '753'
+ht-degree: 0%
+
+---
+
+# 防火牆概述
+
+由於Adobe Workfront會與貴組織的網路通訊，因此貴組織的防火牆必須設定為允許該通訊。 防火牆是高效的安全措施，通過將組織的網路與網際網路隔離開來發揮作用。 它們可確保只有選取的資料和網路流量才能移入或移出組織的網路。 防火牆允許或阻止基於發送或接收資料的站點的資料。 身為Adobe Workfront管理員，您必須確保傳送至或從Workfront傳送的資料可以透過組織的防火牆。
+
+這可透過允許清單完成，此允許清單實質上是允許透過防火牆傳送或接收資料之網站的「清單」。 網站的識別方式有兩種：
+
+* **IP位址**:一系列數字，如52.31.132.175
+* **網域**:URL的一部分，例如www.thisdomain.com中的「thisdomain」
+
+Workfront會使用特定IP位址和網域來進行Web通訊。 您必須先將這些項目新增至組織的允許清單，才能在組織中使用Workfront。
+
+通常，允許清單由網路管理員配置。 請與貴組織的網路管理員合作，確保防火牆允許這些IP位址。 如果您不知道網路管理員是誰，則組織的IT部門可以指向正確的方向。
+
+>[!IMPORTANT]
+>
+>身為Workfront管理員，您必須確定這些IP位址和網域已新增至貴組織的允許清單中。 即使您不自己加上，這也是正確的。 Workfront無法設定貴組織的允許清單。
+
+## 收集配置防火牆的資訊
+
+若要為Workfront設定防火牆，您的網路管理員必須知道要新增哪些IP位址和網域。 其中部分資訊僅供Workfront管理員使用。 作為Workfront管理員，您必須找到此資訊並提供給您的網路管理員。
+
+>[!NOTE]
+>
+>安全性的最佳實務是僅新增IP位址和網域，這些位址和網域會連線至貴組織目前正在使用的功能。 提供此資訊，即可確保遵循此最佳實務。
+
+向網路管理員提供以下資訊：
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">允許的特定IP位址和網域</td> 
+   <td> <p>文章 <a href="../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md" class="MCXref xref">配置防火牆的允許清單</a> 包含貴組織必須新增至允許清單的IP位址和網域清單。 </p> <p>您的網路管理員可能無法存取「設定防火牆」文章。 在這種情況下，您必須提供給他們。 不建議打印硬（紙）拷貝。 數字副本可讓網路管理員複製和貼上地址，這比從硬副本中鍵入地址更快、更準確。</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">您的叢集</td> 
+   <td>若要找出貴組織的叢集，請參閱 <a href="#view-your-organization-s-cluster-and-workfront-plan" class="MCXref xref">檢視貴組織的叢集和Workfront計畫</a></td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">您的Workfront計畫</td> 
+   <td> <p>貴組織的計畫如下：</p> 
+    <ul> 
+     <li> <p>企業 </p> </li> 
+     <li> <p>業務 </p> </li> 
+     <li> <p>Pro </p> </li> 
+     <li> <p>團隊 </p> </li> 
+    </ul> <p>若要尋找您的計畫，請參閱 <a href="#view-your-organization-s-cluster-and-workfront-plan" class="MCXref xref">檢視貴組織的叢集和Workfront計畫。</a></p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">您的網域</td> 
+   <td> <p>若要找到您的網域，請查看您用來連線至Workfront的網址。</p> <p>範例：在網址中 <code>greatcompany.my.workfront.com</code>，網域為「greatcompany」</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">其他Adobe Workfront產品</td> 
+   <td> <p>如果您擁有以下任一項的許可證，請通知您的網路管理員：</p> 
+    <ul> 
+     <li> <p>Adobe Workfront校樣</p> </li> 
+     <li> <p>Adobe Workfront融合 </p> </li> 
+    </ul> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront整合</td> 
+   <td>如果您使用下列任一項，請通知您的網路管理員：
+    <ul>
+     <li><p><p>Workfront為吉拉</p></p></li>
+     <li><p>Workfront for G Suite</p></li>
+     <li><p>Workfront for Microsoft Teams</p></li>
+     <li><p>Workfront for Outlook</p></li>
+     <li><p>Workfront for Salesforce</p></li>
+    </ul></td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">其他功能</td> 
+   <td> <p>如果您使用下列任一項，請通知您的網路管理員：</p> 
+    <ul> 
+     <li> <p>Workfront測試</p> </li> 
+     <li> <p>Workfront晉升</p> </li> 
+    </ul> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+>[!IMPORTANT]
+>
+>如果您稍後新增任何這些產品、整合或功能，您必須聯絡網路管理員，以便他們調整允許清單。
+
+### 檢視貴組織的叢集和Workfront計畫 {#view-your-organization-s-cluster-and-workfront-plan}
+
+1. 按一下 **主菜單** 圖示 ![](assets/main-menu-icon.png) 在Adobe Workfront的右上角，然後按一下 **設定** ![](assets/gear-icon-settings.png).
+
+1. 按一下 **系統** 在左側面板中
+1. 要查看群集，請選擇 **客戶資訊**.
+
+   叢集會顯示在 **基本資訊** 區段。
+
+   ![](assets/locate-cluster.png)
+
+1. 若要檢視您的Workfront計畫，請選取 **授權**.
+
+   您的計畫會顯示在頁面底部附近。
+
+   ![](assets/locate-plan.png)
