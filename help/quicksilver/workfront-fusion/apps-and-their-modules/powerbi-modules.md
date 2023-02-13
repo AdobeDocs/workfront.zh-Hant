@@ -8,9 +8,8 @@ navigation-topic: apps-and-their-modules
 title: Power BI模組
 description: Adobe Workfront Fusion除了需要Adobe Workfront授權外，還需要Adobe Workfront Fusion授權。
 author: Becky
-hidefromtoc: true
 exl-id: 01405f5f-6821-4c38-b34c-373922f63004
-source-git-commit: 3b5f203ead1e7b8ab83bec58adb25dd03c520787
+source-git-commit: 30e9b175e29acaed638f005eb6a701777f65e0bc
 workflow-type: tm+mt
 source-wordcount: '2352'
 ht-degree: 0%
