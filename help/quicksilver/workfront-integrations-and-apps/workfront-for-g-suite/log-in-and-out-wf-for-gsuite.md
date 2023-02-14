@@ -7,14 +7,18 @@ description: 本文說明如何登入或登出 [!DNL Adobe Workfront for] G套�
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 8a91f1d9-bc67-4c27-a6c0-2482488c670b
-source-git-commit: 3143e5a4988b7234d8225da442f5af1d756d461d
+source-git-commit: 0934ae23a8e80dd18872efef7d274bd57d227647
 workflow-type: tm+mt
-source-wordcount: '235'
+source-wordcount: '278'
 ht-degree: 1%
 
 ---
 
 # 登入和登出 [!DNL Adobe Workfront for G Suite]
+
+>[!NOTE]
+>
+>有 [已知問題](https://experienceleague.adobe.com/docs/workfront-known-issues/issues/new-workfront-experience/wf-current/wf-integrations-error-when-opening-wf-for-gsuite.html?lang=en) 與 [!DNL Workfront for G Suite] 未如預期運作。 我們正在開發新版本，並預期會發佈至 [!DNL Google Marketplace] 在不久的將來。
 
 ## 存取需求
 

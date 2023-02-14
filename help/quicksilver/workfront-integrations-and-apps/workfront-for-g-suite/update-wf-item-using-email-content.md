@@ -7,14 +7,18 @@ description: 您可以更新非Adobe Workfront電子郵件中的現有專案、�
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 2ac392f5-98a3-4ab6-a0e3-cda378f0f68b
-source-git-commit: 3143e5a4988b7234d8225da442f5af1d756d461d
+source-git-commit: 0934ae23a8e80dd18872efef7d274bd57d227647
 workflow-type: tm+mt
-source-wordcount: '634'
+source-wordcount: '677'
 ht-degree: 0%
 
 ---
 
 # 更新 [!DNL Adobe Workfront] 項目自 [!DNL G Suite] 使用電子郵件內容
+
+>[!NOTE]
+>
+>有 [已知問題](https://experienceleague.adobe.com/docs/workfront-known-issues/issues/new-workfront-experience/wf-current/wf-integrations-error-when-opening-wf-for-gsuite.html?lang=en) 與 [!DNL Workfront for G Suite] 未如預期運作。 我們正在開發新版本，並預期會發佈至 [!DNL Google Marketplace] 在不久的將來。
 
 您可以更新現有項目、任務或問題，並顯示來自非[!DNL Adobe Workfront] 電子郵件。
 

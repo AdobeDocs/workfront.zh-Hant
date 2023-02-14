@@ -8,14 +8,18 @@ description: Adobe Workfront for G Suite可將您連接至最重要的工作，�
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: dfced3e9-0338-446e-bf70-fa5d07f3ac1f
-source-git-commit: 3143e5a4988b7234d8225da442f5af1d756d461d
+source-git-commit: 0934ae23a8e80dd18872efef7d274bd57d227647
 workflow-type: tm+mt
-source-wordcount: '339'
+source-wordcount: '382'
 ht-degree: 0%
 
 ---
 
 # [!DNL Adobe Workfront for G Suite]
+
+>[!NOTE]
+>
+>有 [已知問題](https://experienceleague.adobe.com/docs/workfront-known-issues/issues/new-workfront-experience/wf-current/wf-integrations-error-when-opening-wf-for-gsuite.html?lang=en) 與 [!DNL Workfront for G Suite] 未如預期運作。 我們正在開發新版本，並預期會發佈至 [!DNL Google Marketplace] 在不久的將來。
 
 [!DNL Adobe Workfront for G Suite] 將您連接到您最重要的工作，並允許您在內部與他人協作 [!DNL Gmail], [!DNL Google Calendar]，和 [!DNL Google Drive]. 不需離開這些應用程式，您就可以擷取以電子郵件傳送的請求或工作更新，並將其新增至 [!DNL Workfront]. 您可以查看 [!DNL Workfront]，包括到期日、優先順序、文檔、更新和其他上下文，無需離開收件箱。 您可以做出批准決定、回覆留言或接受新工作請求。 您也可以將電子郵件轉換為個人專案工作，或將工作和優先順序指派給其他人。
 
