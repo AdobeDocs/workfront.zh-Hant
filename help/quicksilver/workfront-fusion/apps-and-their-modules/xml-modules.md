@@ -88,40 +88,40 @@ ht-degree: 1%
 >1. 建立新藍本。
 >1. 插入 [!UICONTROL HTTP] > [!UICONTROL 取得檔案] 模組
 >1. 開啟模組的設定，並依下列方式進行設定：
-
+>
 >
 >   **URL**:XML檔案的URL(例如 `https://siftrss.com/f/rqLy05ayMBJ`)
 >
 >   ![](assets/url-of-xml-file-350x184.png)
 >
 >1. 按一下 **[!UICONTROL 確定]**&#x200B;以儲存並關閉模組的設定。
-1. 新增 [!UICONTROL XML] > [!UICONTROL 分析XML] 模組，在 [!UICONTROL HTTP] > [!UICONTROL 取得檔案] 模組，並依下列方式進行設定：
-<table style="table-layout:auto"> 
-&gt;    <col> 
-&gt;    <col> 
-&gt;    <tbody> 
-&gt;     <tr> 
-&gt;      <td role="rowheader">[!UICONTROL資料結構]</td> 
-&gt;      <td> 
-&gt;       <ol> 
-&gt;        <li value="1">按一下 <strong>[!UICONTROL添加]</strong> 按鈕。</li> 
-&gt;        <li value="2">按一下 <strong>[!UICONTROL生成器]</strong> 按鈕。</li> 
-&gt;        <li value="3">在網頁瀏覽器中，開啟新的標籤或視窗。</li> 
-&gt;        <li value="4">將您在第三個步驟中使用的URL放入網址列，然後擷取XML檔案。</li> 
-&gt;        <li value="5">選擇所有XML文本，並將其複製到剪貼簿中。</li> 
-&gt;        <li value="6">關閉標籤或視窗，然後返回您的藍本。</li> 
-&gt;        <li value="7">將複製的XML文字貼入範例資料欄位。</li> 
-&gt;        <li value="8">按一下 <strong>[!UICONTROL保存]</strong>.</li> 
-&gt;        <li value="9">驗證已成功生成資料結構。</li> 
-&gt;        <li value="10">按一下 <strong>[!UICONTROL保存]</strong> 以儲存資料結構。</li> 
-&gt;       </ol> <p>您可以略過步驟2到9以提供空白的資料結構。 如果資料結構為空，則在模組至少執行一次之前，模組的輸出在映射面板中不可用。</p> </td> 
-&gt;     </tr> 
-&gt;     <tr> 
-&gt;      <td role="rowheader">[!UICONTROL XML]</td> 
-&gt;      <td> <p>對應 <code>Data </code>項，該項來自[!UICONTROL HTTP] &gt; [!UICONTROL獲取檔案]模組的輸出到欄位中。 使用 <code>toString()</code> 函式將其值從[!UICONTROL緩衝]（二進位資料）類型轉換為[!UICONTROL文本]資料類型。</p> <p>您可以將公式的程式碼複製並貼到欄位中： <code>&#123;&#123;toString(1.data)&#125;&#125;</code></p> <p>如需緩衝和文字資料類型的詳細資訊，請參閱 <a href="../../workfront-fusion/mapping/item-data-types.md" class="MCXref xref">Adobe Workfront Fusion中的項目資料類型</a>.</p> <p> <img src="assets/paste-formula-code-350x99.png" style="width: 350;height: 99;"> </p> </td> 
-&gt;     </tr> 
-&gt;    </tbody> 
-&gt;   </table>
+>1. 新增 [!UICONTROL XML] > [!UICONTROL 分析XML] 模組，在 [!UICONTROL HTTP] > [!UICONTROL 取得檔案] 模組，並依下列方式進行設定：
+><table style="table-layout:auto"> 
+>    <col> 
+>    <col> 
+>    <tbody> 
+>     <tr> 
+>      <td role="rowheader">[!UICONTROL資料結構]</td> 
+>      <td> 
+>       <ol> 
+>        <li value="1">按一下 <strong>[!UICONTROL添加]</strong> 按鈕。</li> 
+>        <li value="2">按一下 <strong>[!UICONTROL生成器]</strong> 按鈕。</li> 
+>        <li value="3">在網頁瀏覽器中，開啟新的標籤或視窗。</li> 
+>        <li value="4">將您在第三個步驟中使用的URL放入網址列，然後擷取XML檔案。</li> 
+>        <li value="5">選擇所有XML文本，並將其複製到剪貼簿中。</li> 
+>        <li value="6">關閉標籤或視窗，然後返回您的藍本。</li> 
+>        <li value="7">將複製的XML文字貼入範例資料欄位。</li> 
+>        <li value="8">按一下 <strong>[!UICONTROL保存]</strong>.</li> 
+>        <li value="9">驗證已成功生成資料結構。</li> 
+>        <li value="10">按一下 <strong>[!UICONTROL保存]</strong> 以儲存資料結構。</li> 
+>       </ol> <p>您可以略過步驟2到9以提供空白的資料結構。 如果資料結構為空，則在模組至少執行一次之前，模組的輸出在映射面板中不可用。</p> </td> 
+>     </tr> 
+>     <tr> 
+>      <td role="rowheader">[!UICONTROL XML]</td> 
+>      <td> <p>對應 <code>Data </code>項，該項來自[!UICONTROL HTTP] &gt; [!UICONTROL獲取檔案]模組的輸出到欄位中。 使用 <code>toString()</code> 函式將其值從[!UICONTROL緩衝]（二進位資料）類型轉換為[!UICONTROL文本]資料類型。</p> <p>您可以將公式的程式碼複製並貼到欄位中： <code>&#123;&#123;toString(1.data)&#125;&#125;</code></p> <p>如需緩衝和文字資料類型的詳細資訊，請參閱 <a href="../../workfront-fusion/mapping/item-data-types.md" class="MCXref xref">Adobe Workfront Fusion中的項目資料類型</a>.</p> <p> <img src="assets/paste-formula-code-350x99.png" style="width: 350;height: 99;"> </p> </td> 
+>     </tr> 
+>    </tbody> 
+>   </table>
 
 
 ## [!UICONTROL 解析XML屬性]
@@ -181,26 +181,31 @@ ht-degree: 1%
 </table>
 
 >[!INFO]
-**範例:**
-典型的使用案例是從 [!DNL Google] >電子錶格到XML。
-1. 放置 [!DNL Google Sheets] > [!UICONTROL 選取列] 模組來擷取資料。 設定模組以從 [!DNL Google] 試算表。 設&#x200B;定&#x200B;**[!UICONTROL 返回行數上限]** 小數字，但大於1以用於測試（例如，3）。 執行 [!DNL Google Sheets] 模組，請按一下滑鼠右鍵並選取「**[!UICONTROL 僅運行此模組]**.&quot; 驗證模組的輸出。
-1. 連接 [!UICONTROL 陣列聚合器] 模組之後 [!DNL Google Sheets] 模組。 在模組的設定中，選取 [!DNL Google Sheets] 模組 **[!UICONTROL 源節點]** 欄位。 暫時保留其他欄位。
-1. 連接 [!UICONTROL XML] > [!UICONTROL 建立XML] 模組之後 [!UICONTROL 陣列聚合器] 模組。
-   模組的設定需要描述XML輸出結構的資料結構。 按一下 **[!UICONTROL 新增]** 按鈕以開啟資料結構設定。 要建立此資料結構，最簡單的方法是從XML範例中自動產生。
-1. 按一下 **[!UICONTROL 產生器]** 按鈕，並將XML範例貼到 [!UICONTROL 範例資料] 欄位：
-
-![](assets/sample-data-field-350x146.png)
-1. 按一下&#x200B;**[!UICONTROL 儲存]**。資料結構中的「規範」欄位現在包含生成的結構。
-1. 將資料結構的名稱變更為更具體的名稱，然後按一下 **[!UICONTROL 儲存]**. 與根陣列屬性對應的欄位會在JSON模組的設定中顯示為可對應欄位。
-1. 按一下 **[!UICONTROL 地圖]** 按鈕，並對應 `Array[]` 項目 [!UICONTROL 陣列聚合器] 輸出到它：
-1. 按一下 **[!UICONTROL 確定]** 關閉XML模組的設定。
-1. 開啟 [!UICONTROL 陣列聚合器] 模組。 變更 **[!UICONTROL 目標結構]** 從自訂到與父XML元素對應的XML模組欄位。映射來自 [!DNL Google Sheets] 模組至適當欄位。
-1. 按一下 **[!UICONTROL 確定]** 關閉陣列聚合器模組的設定。
-1. 執行案例。
-
-   XML模組會輸出正確的XML檔案。
-1. 開啟 [!DNL Google Sheets] 模組和增加 [!UICONTROL 返回行數上限] 大於試算表中處理所有資料的列數。
-   產生的XML可儲存至 [!DNL Dropbox]、透過電子郵件以附件的形式傳送、透過FTP上傳至伺服器等。
+> 
+>**範例:**
+> 
+>典型的使用案例是從 [!DNL Google] >電子錶格到XML。
+>1. 放置 [!DNL Google Sheets] > [!UICONTROL 選取列] 模組來擷取資料。 設定模組以從 [!DNL Google] 試算表。 設&#x200B;定&#x200B;**[!UICONTROL 返回行數上限]** 小數字，但大於1以用於測試（例如，3）。 執行 [!DNL Google Sheets] 模組，請按一下滑鼠右鍵並選取「**[!UICONTROL 僅運行此模組]**.&quot; 驗證模組的輸出。
+>1. 連接 [!UICONTROL 陣列聚合器] 模組之後 [!DNL Google Sheets] 模組。 在模組的設定中，選取 [!DNL Google Sheets] 模組 **[!UICONTROL 源節點]** 欄位。 暫時保留其他欄位。
+>1. 連接 [!UICONTROL XML] > [!UICONTROL 建立XML] 模組之後 [!UICONTROL 陣列聚合器] 模組。
+>   模組的設定需要描述XML輸出結構的資料結構。 按一下 **[!UICONTROL 新增]** 按鈕以開啟資料結構設定。 要建立此資料結構，最簡單的方法是從XML範例中自動產生。
+>1. 按一下 **[!UICONTROL 產生器]** 按鈕，並將XML範例貼到 [!UICONTROL 範例資料] 欄位：
+>
+>   ![](assets/sample-data-field-350x146.png)
+>
+>1. 按一下&#x200B;**[!UICONTROL 儲存]**。資料結構中的「規範」欄位現在包含生成的結構。
+>1. 將資料結構的名稱變更為更具體的名稱，然後按一下 **[!UICONTROL 儲存]**. 與根陣列屬性對應的欄位會在JSON模組的設定中顯示為可對應欄位。
+>1. 按一下 **[!UICONTROL 地圖]** 按鈕，並對應 `Array[]` 項目 [!UICONTROL 陣列聚合器] 輸出到它：
+>1. 按一下 **[!UICONTROL 確定]** 關閉XML模組的設定。
+>1. 開啟 [!UICONTROL 陣列聚合器] 模組。 變更 **[!UICONTROL 目標結構]** 從自訂到與父XML元素對應的XML模組欄位。映射來自 [!DNL Google Sheets] 模組至適當欄位。
+>1. 按一下 **[!UICONTROL 確定]** 關閉陣列聚合器模組的設定。
+>1. 執行案例。
+>
+>   XML模組會輸出正確的XML檔案。
+>
+>1. 開啟 [!DNL Google Sheets] 模組和增加 [!UICONTROL 返回行數上限] 大於試算表中處理所有資料的列數。
+>
+>   產生的XML可儲存至 [!DNL Dropbox]、透過電子郵件以附件的形式傳送、透過FTP上傳至伺服器等。
 
 
 ## 添加XML屬性

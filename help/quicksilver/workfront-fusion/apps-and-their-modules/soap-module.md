@@ -68,30 +68,22 @@ ht-degree: 0%
 >  
 >無法正確識別下列項目 [!UICONTROL Workfront融合]:
 >
->
-```
+>```
 ><complexType name="ArrayOfFloat">
 >
->   
-  <complexContent>
+>   <complexContent>
 >
->      
-     <restriction base="soapenc:Array">
+>      <restriction base="soapenc:Array">
 >
->         
-        <attribute ref="soapenc:arrayType"
+>         <attribute ref="soapenc:arrayType"
 >
->            
-           wsdl:arrayType="xsd:integer[]"/>
+>            wsdl:arrayType="xsd:integer[]"/>
 >
->      
-     </restriction>
+>      </restriction>
 >
->   
-  </complexContent>
+>   </complexContent>
 >
->
-</complexType>
+></complexType>
 >```
 
 其中包括 `soapenc:Array`, `soapenc:arrayType` 和 `wsdl:arrayType` 參考，但 [!UICONTROL Workfront融合].
