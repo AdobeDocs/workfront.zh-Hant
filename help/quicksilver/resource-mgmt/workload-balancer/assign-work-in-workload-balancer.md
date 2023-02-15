@@ -6,7 +6,7 @@ description: 作為資源管理器，您可以使用Adobe Workfront工作負載�
 author: Alina
 feature: Resource Management
 exl-id: 98779b67-b975-4501-8426-63e255b1d7df
-source-git-commit: d6516c0d7b92172ebe10c9f219c9c0ff8d614167
+source-git-commit: 3486a2523a038bdd83c3c2001001a119fd0508ad
 workflow-type: tm+mt
 source-wordcount: '983'
 ht-degree: 0%
@@ -14,6 +14,10 @@ ht-degree: 0%
 ---
 
 # 工作負載平衡器中分配工作的概述
+
+<!--drafted for Work Time story:
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> 
+-->
 
 作為資源管理器，您可以使用Adobe Workfront工作負載平衡器來查看尚未分配給用戶的工作項，並將這些項分配給它們。
 
@@ -47,6 +51,9 @@ Workfront使用以下資訊在工作負載平衡器中計算用戶的容量：
 * 使用者的休息時間。 這表示使用者計畫離開的天數。
 
    如需詳細資訊，請參閱 [在Adobe Workfront中設定個人休假時間](../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/personal-time-overview.md).
+
+<!--drafted for Work Time: 
+* The user's Work Time. This indicates the percentage of FTE time that the user is available to perform actual project-related work, not including overhead. Set the Work Time value to  1 to indicate that the user is available for project-related work their entire full-time equivalent. -->
 
 ## 在工作負載平衡器中分配工作
 

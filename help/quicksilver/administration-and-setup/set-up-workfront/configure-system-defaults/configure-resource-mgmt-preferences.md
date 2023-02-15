@@ -8,9 +8,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 7cde2238-cb34-4bee-baba-69d256a3912d
-source-git-commit: 5433008d93e99d69f8116e222bfce02411b77825
+source-git-commit: 3486a2523a038bdd83c3c2001001a119fd0508ad
 workflow-type: tm+mt
-source-wordcount: '502'
+source-wordcount: '511'
 ht-degree: 0%
 
 ---
@@ -92,7 +92,7 @@ When calculating a user's capacity, Workfront takes into account the following i
 
 <!-drafted for Work Time field  
 
-* <span class="preview">The value of [!UICONTROL Work Time] for the user which refers to time that the user spends on project-related work. This does not include overhead time, like meetings and training. The [!UICONTROL Work Time] equals 1 when the user is available for work the entire time as indicated by the [!UICONTROL FTE] or the schedule, which means they don't spend any time in non-project-related work like meetings or trainings.</span>
+* <span class="preview">The value of [!UICONTROL Work Time] for the user which refers to time that the user spends on project-related work. This does not include overhead time, like meetings and training. The [!UICONTROL Work Time] equals 1 when the user is available for work the entire time as indicated by the [!UICONTROL FTE] or the schedule, which means they don't spend any time on non-project-related work like meetings or trainings.</span>
 
 -->
 
@@ -104,7 +104,7 @@ When calculating a user's capacity, Workfront takes into account the following i
 
 >[!NOTE]
 >
->由於這是全局設定，因此此選擇會影響整個系統、所有用戶、所有資源管理工具以及所有資源池的所有計算。
+>因為這是全局設定，所以此選擇會影響所有資源管理工具中整個系統（對所有用戶）的所有計算。
 
 1. 按一下 **[!UICONTROL 主菜單]** 圖示 ![](assets/main-menu-icon.png) 在 [!DNL Workfront]，然後按一下 **[!UICONTROL 設定]** ![](assets/gear-icon-settings.png).
 1. 按一下 **[!UICONTROL 資源管理]**.
@@ -114,7 +114,7 @@ When calculating a user's capacity, Workfront takes into account the following i
 
       如需排程的詳細資訊，請參閱 [建立排程](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
 
-      如需使用者值的詳細資訊 [!UICONTROL FTE]，請參閱  [編輯使用者的設定檔](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
+      如需關於找到使用者 [!UICONTROL FTE]，請參閱  [編輯使用者的設定檔](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 
       Workfront會在Workfront管理員選擇 [!UICONTROL 預設排程]:
 
@@ -179,16 +179,22 @@ When calculating a user's capacity, Workfront takes into account the following i
 
       >[!NOTE]
       >
-      >如果使用者未與排程相關聯，則會使用 [!UICONTROL 預設排程].
+      >如果使用者未與排程相關聯，系統只會使用 [!UICONTROL 預設排程].
 
       <!--drafted for Work Time field:
       In the Production environment: 
       -->
 
+      使用者的可用小時數依下列公式計算：
+
+      ```
+      User Available Hours = Hours from the [!UICONTROL Schedule] of the User - [!UICONTROL Schedule Exceptions] - Time off hours
+      ```
+
       可用 [!UICONTROL FTE] 使用者的計算公式如下：
 
       ```
-      User Available [!UICONTROL FTE] = (Hours from the [!UICONTROL Schedule] of the User - Time off hours) / [!UICONTROL Default Schedule] hours
+      User Available [!UICONTROL FTE] = (Hours from the [!UICONTROL Schedule] of the User - [!UICONTROL Schedule Exceptions] - Time off hours) / [!UICONTROL Default Schedule] hours
       ```
 
       >[!INFO]
@@ -229,8 +235,7 @@ When calculating a user's capacity, Workfront takes into account the following i
       >```
       >User Weekly Available FTE = [(30-2) * 0.5] / 40 = 0.35
       >```
-      (************ checking this second other with Dev/ Artur - not sure where Exceptions fit in **********)
-
+      
       </div>
       -->
 1. 按一下&#x200B;**[!UICONTROL 儲存]**。

@@ -6,9 +6,9 @@ description: 您可以使用「項目」和「職責」視圖在Adobe Workfront�
 author: Alina
 feature: Resource Management
 exl-id: b1b48529-68e7-4aee-aaa1-d78e91fbb39c
-source-git-commit: a55041ad5a6cd41cd11ec3ade27bf5227ae0ac47
+source-git-commit: 3486a2523a038bdd83c3c2001001a119fd0508ad
 workflow-type: tm+mt
-source-wordcount: '2146'
+source-wordcount: '2160'
 ht-degree: 0%
 
 ---
@@ -146,6 +146,8 @@ ht-degree: 0%
    有關了解業務案例的「資源預算編製」區域的詳細資訊，請參閱文章中的「資源預算編製」一節 [業務案例領域概述](../../manage-work/projects/define-a-business-case/areas-of-business-case.md).
 
 1. （可選）選擇「用戶」視圖，以注意每個用戶在「可用」和「計畫小時數」之間的任何用戶過度分配或利用率不足。 「用戶」視圖中不顯示預算的小時數。
+
+   如需Workfront如何計算使用者可用性的詳細資訊，請參閱 [配置資源管理首選項](../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md).
 
 ### 「角色」視圖中的預算資源 {#budget-resources-in-the-role-view}
 

@@ -8,7 +8,7 @@ author: Courtney, Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 0343fe74-1be4-43e2-9e3d-8aa1f7ea26fa
-source-git-commit: 5433008d93e99d69f8116e222bfce02411b77825
+source-git-commit: 3486a2523a038bdd83c3c2001001a119fd0508ad
 workflow-type: tm+mt
 source-wordcount: '2557'
 ht-degree: 0%
@@ -26,13 +26,17 @@ In the table below, under Resource Planning, add the "Work Time" field and updat
 
 <span class="preview">The field's default is 1, indicating that a user spends their entire FTE on actual, project-related work.</span>  
 
-<span class="preview">The system uses this number to calculate the availability of the user for actual, project-related work.</span> 
+<span class="preview">The system uses this number to calculate the availability of the user for actual, project-related work. </span> 
 
 <span class="preview">For more information about creating schedules in Workfront, see Create a schedule.</span>
 
 <span class="preview">Schedule exceptions and time off might also affect the user capacity. 
 
 Workfront calculates a user's availability depending on the Resource Management preferences in your Setup area. For more information, see Configure Resource Management preferences. (*****INSERT LINK****)
+
+<b>TIP</b>
+
+<span class="preview">Set the Work Time value to  1 to indicate that the user is available for project-related work their entire full-time equivalent.</span>
 
 
 ***UPDATED FTE FIELD***

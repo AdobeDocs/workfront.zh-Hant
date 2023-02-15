@@ -6,9 +6,9 @@ description: 在排定公司較高層次策略的優先順序時，您可以建�
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: 15c0e519-0164-449d-84f3-470d0d4eb795
-source-git-commit: 6c5be4dccff46abbed104f1f1b3c958aaf74d629
+source-git-commit: 3486a2523a038bdd83c3c2001001a119fd0508ad
 workflow-type: tm+mt
-source-wordcount: '2401'
+source-wordcount: '2402'
 ht-degree: 1%
 
 ---
@@ -127,12 +127,14 @@ ht-degree: 1%
       <td role="rowheader"><span>FTE（[!UICONTROL等同全時間]）或[!UICONTROL小時數]</span> </td> 
       <td> <p><span>選擇以下選項之一，以指明要如何估計此計畫的任務職責資訊：</span> </p> 
        <ul> 
-        <li> <p><span><strong>FTE</strong>. 這是預設值 </span> </p> <!--
-          <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: snippet below: this is per Ani; it does NOT look at the system FTE.) </p>
-         --> <p>針對 [!DNL Scenario Planner], [!DNL Workfront] 使用下列值：1 FTE = 8小時。 </p> </li> 
-        <li> <p><strong>[!UICONTROL小時]</strong> </p> </li> 
-       </ul> <p>重要： <span>您在此處選擇的選項決定如何顯示計畫、計畫方案和方案的任務職責資訊。</span> </p> </td> 
-     </tr> 
+      <li> <p><span><strong>FTE</strong>. 這是預設值 </span> </p> 
+      <p><b>重要</b></p>  
+      <p>針對 [!DNL Scenario Planner], [!DNL Workfront] 使用下列值：1 FTE = 8小時。 </p> </li> 
+      <li> <p><strong>[!UICONTROL小時]</strong> </p> </li> 
+       </ul> <p><b>重要</b></p>
+
+   您在此處選擇的選項決定如何顯示計畫、計畫方案和方案的任務職責資訊</p> </td>
+   </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL開始日期]</td> 
       <td> <p>選擇要開始計畫的月份和年份。 您只能在此欄位中選取月。 [!DNL Workfront] 假設計畫的開始日期是所選月份的第一天，而結束日期是其持續時間內月末的最後一天。 </p> </td> 
@@ -148,6 +150,8 @@ ht-degree: 1%
      </tr> 
     </tbody> 
    </table>
+
+<!--for table above - how FTE is calcualted: NOTE: snippet below: this is per Ani; it does NOT look at the system FTE.) </p>-->
 
 1. （有條件）按一下 **[!UICONTROL 下一個]**.
 
