@@ -108,7 +108,7 @@ GET/metadata?id=[文檔或資料夾ID]
 </table>
 
 **範例：** https://www.acme.com/api/metadata?id=12345
-<pre>{<br>標題：「我的文檔」，<br>kind:"file"<br>id":"12345",<br>viewLink:"https://www.acme.com/viewDocument?id=12345",<br>downloadLink:"https://www.acme.com/downloadDocument?id=12345",<br>mimeType:"image/png",<br>dateModified:"20140605T17:39:45.251Z」，<br>大小："32554694"<br>}</pre>
+<pre>{<br>title:"My Document"，<br>kind:"file"<br>id":"12345",<br>viewLink:"https://www.acme.com/viewDocument?id=12345",<br>downloadLink:"https://www.acme.com/downloadDocument?id=12345",<br>mimeType:"image/png",<br>dateModified:"20140605T17:39:45.251Z」，<br>大小："32554694"<br>}</pre>
 
 >[!NOTE]
 >
