@@ -6,9 +6,9 @@ title: 搶先選擇加入 [!DNL Adobe Workfront] 展示板
 description: 閱讀本文以了解 [!DNL Workfront Boards] 搶先使用功能選擇加入。
 author: Lisa
 exl-id: c4a6b045-b0f3-4d4d-994c-c03ef7ad25c8
-source-git-commit: d02c6cd8ed8234bc9f8757835956290334f41e30
+source-git-commit: 4b494093110edaa82ade13756b5f6717e4013efa
 workflow-type: tm+mt
-source-wordcount: '614'
+source-wordcount: '623'
 ht-degree: 0%
 
 ---
@@ -140,6 +140,10 @@ ht-degree: 0%
    <td>將子任務作為檢查清單項導入卡</td>
    <td>計畫</td>
   </tr>
+  <tr>
+   <td>自訂卡片上的欄位顯示</td>
+   <td>部分釋放</td>
+  </tr>  
   <tr>
    <td>為移入欄的卡片定義預設狀態</td>
    <td>部分釋放</td>

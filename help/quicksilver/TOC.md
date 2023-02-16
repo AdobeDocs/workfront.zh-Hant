@@ -2,9 +2,9 @@
 user-guide-title: Workfront 指南
 user-guide-description: 使用文件、教學課程和其他資源，了解如何在您的組織中實施並有效使用 Adobe Workfront。
 feature-set: Workfront
-source-git-commit: 8d9717a5b24c98f31d8248a87145fb7aa4244219
+source-git-commit: 5b7253fb0313e4ba1a2959497c0b3f92cff30e13
 workflow-type: tm+mt
-source-wordcount: '12675'
+source-wordcount: '12683'
 ht-degree: 1%
 
 ---
@@ -891,6 +891,7 @@ ht-degree: 1%
       * [在主板上使用連接的卡](agile/get-started-with-boards/connected-cards.md)
       * [管理卡片](agile/get-started-with-boards/move-board-items.md)
       * [管理卡上的檢查清單項目](/help/quicksilver/agile/get-started-with-boards/manage-checklist-items.md)
+      * [自訂卡片上顯示的欄位](/help/quicksilver/agile/get-started-with-boards/customize-fields-on-card.md)
       * [從展示板刪除或封存資訊卡](agile/get-started-with-boards/delete-board-items.md)
       * [在展示板中篩選和搜尋](agile/get-started-with-boards/filter-search-in-board.md)
       * [新增標籤](agile/get-started-with-boards/add-tags.md)
