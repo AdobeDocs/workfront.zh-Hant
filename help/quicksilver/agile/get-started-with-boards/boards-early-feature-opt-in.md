@@ -6,9 +6,9 @@ title: 搶先選擇加入 [!DNL Adobe Workfront] 展示板
 description: 閱讀本文以了解 [!DNL Workfront Boards] 搶先使用功能選擇加入。
 author: Lisa
 exl-id: c4a6b045-b0f3-4d4d-994c-c03ef7ad25c8
-source-git-commit: 4b494093110edaa82ade13756b5f6717e4013efa
+source-git-commit: e28d3d70e05bc10497e54655499602fe48a392a3
 workflow-type: tm+mt
-source-wordcount: '623'
+source-wordcount: '631'
 ht-degree: 0%
 
 ---
@@ -126,7 +126,7 @@ ht-degree: 0%
   </tr>
   <tr>
    <td>建立展示板集合</td>
-   <td>計畫</td>
+   <td>部分釋放</td>
   </tr>
   <tr>
    <td>建立迭代</td>
@@ -162,7 +162,7 @@ ht-degree: 0%
 僅 [!DNL Workfront] 管理員可以選擇加入展示板的早期功能。 當 [!DNL Workfront] 管理員會啟用早期功能，組織中的所有使用者都會選擇加入。
 
 1. 按一下 **[!UICONTROL 主菜單]** 圖示 ![](assets/main-menu-icon.png) 在 [!DNL Adobe Workfront]，然後按一下 **[!UICONTROL 展示板]**.
-1. 按一下 **[!UICONTROL 搶先使用功能]** 的上方。
+1. 按一下 ![搶先使用功能](assets/early-feature-opt-in-not-enabled.png) ([!UICONTROL 搶先使用功能])即可取得Advertising Cloud的說明。
 1. 按一下 **[!UICONTROL 啟用]**.
 1. 開始使用展示板的早期功能。
 
@@ -192,5 +192,5 @@ ht-degree: 0%
 僅 [!DNL Workfront] 管理員可以選擇退出接收早期功能。 若 [!DNL Workfront] 管理員會停用早期功能，組織中的所有使用者都會選擇退出。
 
 1. 按一下 **[!UICONTROL 主菜單]** 圖示 ![](assets/main-menu-icon.png) 在 [!DNL Adobe Workfront]，然後按一下 **[!UICONTROL 展示板]**.
-1. 按一下 **[!UICONTROL 啟用搶先功能選擇加入]** 的上方。
+1. 按一下 ![啟用搶先功能選擇加入](assets/early-feature-opt-in-enabled.png) ([!UICONTROL 啟用搶先功能選擇加入])即可取得Advertising Cloud的說明。
 1. 按一下 **[!UICONTROL 停用]**.

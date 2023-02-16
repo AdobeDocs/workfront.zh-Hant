@@ -2,9 +2,9 @@
 user-guide-title: Workfront 指南
 user-guide-description: 使用文件、教學課程和其他資源，了解如何在您的組織中實施並有效使用 Adobe Workfront。
 feature-set: Workfront
-source-git-commit: 56af35ff6253a1ddd42ec0a1fdcfb98409d72c40
+source-git-commit: e28d3d70e05bc10497e54655499602fe48a392a3
 workflow-type: tm+mt
-source-wordcount: '12688'
+source-wordcount: '12695'
 ht-degree: 1%
 
 ---
@@ -20,6 +20,7 @@ ht-degree: 1%
       * [準備Adobe Workfront每季發行](product-announcements/product-releases/release-readiness.md)
       * 23.2版 {#release-23-2}
          * [23.2版本概觀](product-announcements/product-releases/23.2-release-activity/23-2-release-overview.md)
+         * [23.2發行活動： 2023年2月13日起的第一週](product-announcements/product-releases/23.2-release-activity/23-2-feb-13.md)
          * [23.2發行活動： 2023年2月6日當周](product-announcements/product-releases/23.2-release-activity/23-2-feb-6.md)
          * [23.2發行活動： 2023年1月23日當周](product-announcements/product-releases/23.2-release-activity/23-1-jan-23.md)
          * [在23.2版本期間更新外觀](product-announcements/product-releases/23.2-release-activity/23-2-look-and-feel.md)
@@ -901,6 +902,7 @@ ht-degree: 1%
       * [向展示板新增進紙欄](agile/use-boards-agile-planning-tools/add-intake-column-to-board.md)
       * [在展示板上使用群組](agile/use-boards-agile-planning-tools/group-cards-on-board.md)
       * [設定卡片流失](agile/use-boards-agile-planning-tools/configure-card-falloff.md)
+      * [管理集合](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md)
    * 敏捷團隊中的看板 {#kanban}
       * [敏捷團隊中的看板](agile/use-kanban-in-an-agile-team/using-kanban-in-an-agile-team.md)
       * [看板概述](agile/use-kanban-in-an-agile-team/kanban-overview.md)

@@ -6,16 +6,20 @@ description: 從 [!UICONTROL 展示板] 控制面板，您可以建立新展示�
 author: Lisa
 feature: Agile
 exl-id: 5f755177-c8ea-4509-a34f-57ffcfd8ba7f
-source-git-commit: 86d168cc13b7b1942877430a9194c38be2dd56de
+source-git-commit: 67870f1bd9b1795b58ced827e888572aa407c28e
 workflow-type: tm+mt
-source-wordcount: '268'
-ht-degree: 0%
+source-wordcount: '500'
+ht-degree: 5%
 
 ---
 
 # 建立或編輯展示板
 
+{{highlighted-preview}}
+
 從 [!UICONTROL 展示板] 控制面板，您可以建立新展示板或編輯現有展示板。
+
+<span class="preview">若要將展示板新增至集合，請參閱 [管理集合](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md).</span>
 
 ## 存取需求
 
@@ -41,7 +45,28 @@ ht-degree: 0%
 ## 建立新展示板
 
 1. 按一下 **[!UICONTROL 主菜單]** 圖示 ![](assets/main-menu-icon.png) 在 [!DNL Adobe Workfront]，然後按一下 **[!UICONTROL 展示板]**.
-1. 按一下 **[!UICONTROL 新建]**.
+1. 若要建立獨立展示板，請按一下 **[!UICONTROL 新建]** 在 [!UICONTROL 展示板] 的上界。 <span class="preview">若要將展示板新增至集合，請參閱 [管理集合](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md).</span>
+
+   >[!NOTE]
+   >
+   > 集合只能透過 [!DNL Workfront] [!UICONTROL 展示板].
+
+1. <span class="preview">為展示板選取範本。</span>
+
+   <div class="preview">
+
+   | 範本 | 說明 |
+   |---------|----------|
+   | 基本展示板 | 展示板上提供三個預設欄。 您可以新增欄，並重新命名或刪除預設欄。 <p>展示板上提供三個預設欄。 您可以新增欄，並重新命名或刪除預設欄。 |
+   | Kanban 展示板 | 展示板上提供下列欄：積壓、新建、正在進行、完成和暫掛。 您可以新增欄，並重新命名或刪除預設欄。<p>要使用積壓，必須為進氣列設定篩選器。 如需詳細資訊，請參閱 [向展示板新增進紙欄](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md). <p>要查看每列的預設策略，請按一下 [!UICONTROL **更多** 功能表] 在欄上選取 [!UICONTROL **編輯**]. 您可以變更任何這些預先設定的原則。 如需詳細資訊，請參閱 [管理展示板欄](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md). |
+   | 追溯展示板 | 展示板上提供下列欄：什麼進展順利？ 有哪些可以改進的地方? 我們應該為誰慶祝? 我們可以做些什麼來加快進度? 您可以新增欄，並重新命名或刪除預設欄。 <p>未應用列策略。 |
+
+   >[!NOTE]
+   >
+   > 展示板範本只能透過 [!DNL Workfront] [!UICONTROL 展示板].
+
+   </div>
+
 1. 在 **[!UICONTROL 展示板]** 欄位並按Enter。
 1. 視需要設定展示板。
 

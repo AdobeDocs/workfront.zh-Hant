@@ -6,16 +6,22 @@ title: 刪除或封存展示板
 description: 您可以刪除或封存Workfront中的展示板。 刪除展示板會從Workfront中永久移除，而封存展示板會保留所有資訊卡，並允許稍後還原。
 author: Lisa
 exl-id: 214a83f6-ecc1-4e4d-aba5-d6483dcabd27
-source-git-commit: 86d168cc13b7b1942877430a9194c38be2dd56de
+source-git-commit: 67870f1bd9b1795b58ced827e888572aa407c28e
 workflow-type: tm+mt
-source-wordcount: '328'
+source-wordcount: '354'
 ht-degree: 1%
 
 ---
 
 # 刪除或封存展示板
 
-您可以在 [!DNL Workfront]. 刪除展示板會從 [!DNL Workfront]，而封存展示板會保留所有資訊卡，並允許稍後還原。
+{{highlighted-preview}}
+
+您可以在 [!DNL Workfront]. 刪除展示板會從 [!DNL Workfront]，而封存展示板會保留所有資訊卡，並允許稍後還原。 <span class="preview">這些選項同時適用於屬於集合的獨立展示板和展示板。</span>
+
+>[!NOTE]
+>
+>集合只能透過Workfront展示板的早期功能選擇加入來取得。
 
 ## 存取需求
 
