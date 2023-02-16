@@ -6,16 +6,16 @@ description: 您可以複製專案，而非從頭建立專案。 一次只能複
 author: Alina
 feature: Work Management
 exl-id: 1bb133a8-eb76-46b8-969f-37f57f9453b4
-source-git-commit: 5e0e1425f45886a805726de49357c43b0aecb7f4
+source-git-commit: 95c999a72020ce825f3a8377662c71e35a194d80
 workflow-type: tm+mt
-source-wordcount: '653'
+source-wordcount: '736'
 ht-degree: 5%
 
 ---
 
 # 複製專案
 
-<!--some areas are drafted for the 23.2 release story-->
+<span class="preview">本頁強調顯示的資訊指的是尚未普遍提供的功能。 它僅在預覽環境中可用。</span>
 
 <!--
 <(LINKED TO THE PRODUCT IN THE COPY PROJECT BOX)</p>
@@ -33,7 +33,7 @@ ht-degree: 5%
 >* 附註
 >* 時數
 >* 跨專案的前置作業
->* 預算時數 <!-- drafted for release 23.2: take this out and move it to the one below IF there is no UI component for the story that allows you to check/uncheck this information as you copy the project. If there is a UI component, take this out of here and just add it to the new screen shot below. -->
+>* <span class="preview">預算時數</span>
 >
 >下列項目一律會從現有專案複製到新專案：
 >
@@ -137,11 +137,6 @@ ht-degree: 5%
 
 1. （選用）取消選取您不要複製到新專案的項目。 下表說明取消選取項目時會發生什麼事：
 
-   <!--drafted for story for the 23.2 release: add another line in the table below for "Budgeted hours" and add this information to that row:
-      Removes the hours budgeted in the Resource Planning area of the project's Business Case from the copied project. 
-      <b>NOTE</b>
-      Hours budgeted using the Scenario Planner are never copied to the new project because the new project is not linked to an initiative in the Scenario Planner. For more information, see <a href="../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-scenario-planner.md">Budget resources in the Business Case using the Scenario Planner</a>
-      -->
 
    <table style="table-layout:auto"> 
     <col> 
@@ -178,9 +173,20 @@ ht-degree: 5%
      </tr> 
      <tr> 
       <td role="rowheader">所有前置任務</td> 
-      <td> <p>刪除項目上任務之間的所有前置任務關係。 </p> <p>提示：跨項目前置任務不會轉移到新項目，無論是否選擇了此項目。 </p> </td> 
-     </tr> 
-     <tr> 
+      <td> <p>刪除項目上任務之間的所有前置任務關係。 </p> <p><b>筆尖</b>
+
+   跨項目前置任務不會轉移到新項目，無論是否選擇了此項目。 </p> </td>
+   </tr>
+
+<tr> 
+      <td role="rowheader"><span class="preview">預算時數</span></td> 
+      <td> <p><span class="preview">從複製的項目中刪除項目業務案例的資源規劃區域中預算的小時數。 <span class="preview"></p>
+
+<b>附註</b>
+
+<span class="preview">使用方案計畫員編製預算的小時數不會複製到新項目，因為新項目未與方案計畫員中的方案連結。 如需詳細資訊，請參閱 <a href="../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-scenario-planner.md">使用方案計畫器在業務案例中的預算資源</a></span>
+</tr></td>
+    <tr> 
       <td role="rowheader">財務資訊</td> 
       <td> <p>移除下列區域中的資訊： </p> 
        <ul> 

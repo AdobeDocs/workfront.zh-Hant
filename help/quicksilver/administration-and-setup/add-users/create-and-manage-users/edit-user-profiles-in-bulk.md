@@ -8,50 +8,16 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: cb709b2f-659e-4110-81ac-a1ef967d534c
-source-git-commit: 5433008d93e99d69f8116e222bfce02411b77825
+source-git-commit: 95c999a72020ce825f3a8377662c71e35a194d80
 workflow-type: tm+mt
-source-wordcount: '2194'
+source-wordcount: '2384'
 ht-degree: 0%
 
 ---
 
 # 大量編輯使用者設定檔
 
-<!--drafted for Work Time field: 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> 
-
-In the table below, under Resource Planning, add the "Work Time" field and update the "FTE" field:
-
-<b><span class="preview">Work Time</span></b>: <span class="preview">Represents the percentage of the Full Time Equivalent (FTE) time that the user is available for actual work, not including overhead. Work Time must be a decimal number up to 1, and it cannot be 0. For example, a 20% availability for actual work would be 0.2.</span> 
-
-<span class="preview">The field's default is 1, indicating that a user spends their entire FTE on actual, project-related work.</span>  
-
-<span class="preview">The system uses this number to calculate the availability of the user for actual, project-related work.</span> 
-
-<span class="preview">For more information about creating schedules in Workfront, see Create a schedule.</span>
-
-<span class="preview">Schedule exceptions and time off might also affect the user capacity. 
-
-Workfront calculates a user's availability depending on the Resource Management preferences in your Setup area. For more information, see Configure Resource Management preferences. (*****INSERT LINK****)
-
-
-***UPDATED FTE FIELD***
-
-FTE: This is the Full Time Equivalent of the user. Workfront uses this number to calculate the availability of the user based on the Default Schedule only when the Resource Management Preferences at the system level are set to The Default Schedule. The FTE indicates the amount of time that the user can spend at work. This includes overhead, and  time that is not spent on project work, but on other type of work. For example, time that is spent in meetings, or training is also included in the FTE. 
-
-The FTE must be a decimal number up to 1, and it cannot be 0. 
-The field's default is 1.
-
-For example, if the FTE value is 0.5 and the Default Schedule in Workfront is 40 hours, the user is available for 20 hours a week. 
-
-Schedule exceptions, time off might, <span class="preview">and the value of Work Time</span> may affect the amount of available hours or the FTE. 
-
-Workfront calculates a user's availability depending on the Resource Management preferences in your Setup area. For more information, see Configure Resource Management preferences. (*****INSERT LINK****)
-
-If the Resource Management Preferences at the system level are set to The User's Schedule, the value you specify here is ignored and the user is considered to be available according to what is specified in their schedule. 
-
-For more information about creating schedules in Workfront, see Create a schedule. (*****INSERT LINK*****)
--->
+<span class="preview">本頁強調顯示的資訊指的是尚未普遍提供的功能。 它僅在預覽環境中可用。</span>
 
 >[!IMPORTANT]
 >
@@ -176,44 +142,76 @@ For more information about creating schedules in Workfront, see Create a schedul
      <tr> 
       <td role="rowheader">資源規劃</td> 
       <td> 
+       <ul>
+
+   <li>
+       <b><span class="preview">工作時間</span></b>: <span class="preview">表示用戶可用於實際工作（不包括間接費用）的等效全職(FTE)時間的百分比。 工作時間必須是十進位數字，最多1，不能是0。 例如，實際工作20%的可用性為0.2。</span>
+
+   <span class="preview">欄位的預設值為1，表示用戶將其整個FTE用於實際的項目相關工作。</span>
+
+   <span class="preview">系統使用此編號來計算用戶在實際項目相關工作中的可用性。 </span>
+
+   <span class="preview">如需在Workfront中建立排程的詳細資訊，請參閱 <a href="../../set-up-workfront/configure-timesheets-schedules/create-schedules.md">建立排程</a>.</span>
+
+   <span class="preview">排程例外和休假時間也可能影響使用者容量。
+
+   Workfront會根據「設定」區域中的「資源管理」首選項來計算用戶的可用性。 如需詳細資訊，請參閱 <a href="../../set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md">配置資源管理首選項</a>.
+
+   <b>筆尖</b>
+
+   <span class="preview">將「工作時間」值設定為1，表示用戶可用於與項目相關的整個全職工作。</span>
+   </li>
+
+   <li><b>計畫停用</b>:如果您想要排程在一段時間後停用使用者，請核取此方塊。</li> 
+       <li><b>計畫的停用日期</b>:使用者停用的日期。 如需排程使用者停用的詳細資訊，請參閱區段 <a href="../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md#scheduling-users-for-deactivation" class="MCXref xref">排程使用者停用</a> in <a href="../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md" class="MCXref xref">停用或重新啟用使用者</a>.</li> 
+       <li> <p><b>主要角色</b>:這是使用者在Workfront中擁有的主要工作角色。 預設情況下，將用戶分配到的每個任務和問題也分配給此作業角色。 作業角色在資源管理中是必不可少的。 有關作業角色的詳細資訊，請參閱 <a href="../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md" class="MCXref xref">建立和管理作業角色</a></p> <p>只有在您擁有具有管理用戶訪問權限的計畫許可證，或者您是Workfront管理員時，才能更新此欄位。 有關設定具有管理用戶訪問權限的用戶的詳細資訊，請參閱 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">授予使用者存取權</a>.</p> </li> 
+       <li>（條件性）如果您選取 <b>主要角色</b>, <b>FTE可用性百分比</b> 欄位。 指定分配給此作業角色的用戶調度的時間百分比。 主要角色的FTE可用性百分比的預設值為100%。</li> 
+       <li> <p><b>其他角色</b>:使用者在Workfront中可以有多個工作角色。 作業角色在資源管理中是必不可少的。 用戶可履行的職務數沒有限制。 但是，我們建議不要將一個用戶分配給過多的作業角色，因為對這些用戶來說，資源管理可能變得太複雜了。</p> <p>有關作業角色的詳細資訊，請參閱 <a href="../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md" class="MCXref xref">建立和管理作業角色</a>.</p> <p>只有在您擁有具有管理用戶訪問權限的計畫許可證，或者您是Workfront管理員時，才能更新此欄位。 有關設定具有管理用戶訪問權限的用戶的詳細資訊，請參閱 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">授予使用者存取權</a>.</p> </li> 
+       <li> <p>（條件性）如果您選取一或多個 <b>其他角色</b>, <b>FTE可用性百分比</b> 欄位隨即顯示。 指定分配給每個作業角色的用戶調度的時間百分比。 其他角色的FTE可用性百分比的預設值為0%。</p> <p><b>附註</b>:  
        <ul> 
-        <li><b>計畫停用</b>:如果您想要排程在一段時間後停用使用者，請核取此方塊。</li> 
-        <li><b>計畫的停用日期</b>:使用者停用的日期。 如需排程使用者停用的詳細資訊，請參閱區段 <a href="../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md#scheduling-users-for-deactivation" class="MCXref xref">排程使用者停用</a> in <a href="../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md" class="MCXref xref">停用或重新啟用使用者</a>.</li> 
-        <li> <p><b>主要角色</b>:這是使用者在Workfront中擁有的主要工作角色。 預設情況下，將用戶分配到的每個任務和問題也分配給此作業角色。 作業角色在資源管理中是必不可少的。 有關作業角色的詳細資訊，請參閱 <a href="../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md" class="MCXref xref">建立和管理作業角色</a></p> <p>只有在您擁有具有管理用戶訪問權限的計畫許可證，或者您是Workfront管理員時，才能更新此欄位。 有關設定具有管理用戶訪問權限的用戶的詳細資訊，請參閱 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">授予使用者存取權</a>.</p> </li> 
-        <li>（條件性）如果您選取 <b>主要角色</b>, <b>FTE可用性百分比</b> 欄位。 指定分配給此作業角色的用戶調度的時間百分比。 主要角色的FTE可用性百分比的預設值為100%。</li> 
-        <li> <p><b>其他角色</b>:使用者在Workfront中可以有多個工作角色。 作業角色在資源管理中是必不可少的。 用戶可履行的職務數沒有限制。 但是，我們建議不要將一個用戶分配給過多的作業角色，因為對這些用戶來說，資源管理可能變得太複雜了。</p> <p>有關作業角色的詳細資訊，請參閱 <a href="../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md" class="MCXref xref">建立和管理作業角色</a>.</p> <p>只有在您擁有具有管理用戶訪問權限的計畫許可證，或者您是Workfront管理員時，才能更新此欄位。 有關設定具有管理用戶訪問權限的用戶的詳細資訊，請參閱 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">授予使用者存取權</a>.</p> </li> 
-        <li> <p>（條件性）如果您選取一或多個 <b>其他角色</b>, <b>FTE可用性百分比</b> 欄位隨即顯示。 指定分配給每個作業角色的用戶調度的時間百分比。 其他角色的FTE可用性百分比的預設值為0%。</p> <p><b>附註</b>:  
-          <ul> 
-           <li>如果其他職責的FTE可用性為0%，則它們不會顯示在資源計畫器中，除非將用戶分配給這些職責中的任務。</li> 
-           <li> <p>所有角色的FTE可用性的所有百分比之和必須等於100%。 每個FTE可用性百分比計算資源計畫員中每個用戶每個角色的可用小時數。 每個用戶的每個角色的可用小時數取決於用戶的可用時間。</p> <p>用戶的可用時間由Workfront計算，具體取決於Workfront管理員在「資源管理首選項」中選擇的計算FTE的方法。</p> <p>有關計算用戶可用性的詳細資訊，請參閱 <a href="../../../resource-mgmt/resource-planning/calculate-hours-fte-for-users-roles-resource-planner.md" class="MCXref xref">在資源計畫員中計算用戶和角色的小時數和FTE的概覽</a>.</p> <p>有關配置資源管理首選項的詳細資訊，請參見 <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md" class="MCXref xref">配置資源管理首選項</a>.</p> </li> 
-          </ul> </p> </li> 
-        <li> <p><b>排程</b>:將排程與使用者建立關聯。 用戶的時間表計算分配給用戶的任務的時間表。</p> <p>Workfront管理員或群組管理員必須先建立排程，才能與使用者建立關聯。</p> <p>選擇系統級或組計畫，將其分配給選定用戶。</p> <p>有關係統級和組計畫的詳細資訊，請參閱 <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md" class="MCXref xref">建立排程</a>.</p> <p><b>重要</b>:只有在「使用計算資源可用性」設定設為「使用者的排程」時，Workfront才會使用使用者的排程。 有關「使用計算資源可用性」設定如何影響用於資源管理的計畫的資訊，請參閱 <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md" class="MCXref xref">配置資源管理首選項</a>.</p> </li> 
-        <li> <p><b>時間表配置檔案</b>:將時間表配置檔案與用戶關聯。 這可確保為用戶自動生成工時單。</p> 
-        <p><b>附註</b>:  
-          <ul> 
-           <li>您在此欄位中可用的時間表配置檔案清單取決於您的訪問權限：
-            <ul>
-             <li>作為Workfront管理員，您可以查看所有系統級和組級時間表配置檔案。</li>
-             <li><p>作為組管理員，您可以查看系統級時間表配置檔案以及與您管理的組關聯的時間表配置檔案。</p></li>
-             <li><p>作為具有計畫員許可證和編輯用戶訪問權限的用戶，您只能查看系統級時間表配置檔案。</p></li>
-            </ul></li> 
-           <li>如果您是群組管理員，您編輯的所有使用者都必須是您所管理之群組的成員。</li> 
-          </ul> </p> </li> 
-        <li><b>預設小時類型</b>:為用戶選擇預設的小時類型。 這是使用者記錄時間時，預設使用的小時類型。</li> 
-        <li> <p><b>可用小時類型</b>:選取使用者應可使用的小時類型。 這些小時類型在Workfront中任何地方都可見，使用者可在其中記錄時間。 使用者只能查看專案層級和使用者層級已啟用的小時類型。</p> 
-        <p>如需使用者可使用的小時類型詳細資訊，請參閱 <a href="../../../timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md" class="MCXref xref">定義工時單的工時類型和可用性</a>.</p> 
-        </li> 
-        <li> <p><b>FTE</b>:只有當系統級別的「資源管理首選項」設定為 <b>預設排程</b>.</p> 
-        <p>例如，如果FTE值為0.5，預設計畫為40小時，則用戶每週可工作20小時。 有關選擇「預設計畫」時計畫異常或超時可能如何影響用戶可用性的詳細資訊，請參閱 <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md" class="MCXref xref">配置資源管理首選項</a>. </p> 
-        <p>如果系統級別上的「資源管理首選項」設定為 <b>使用者的排程</b>，則會忽略您在此指定的值，且會根據使用者的排程指定內容，將使用者視為可用。 在這種情況下，資源計畫員的用戶FTE按以下公式計算：</p>
-        <p><code style="font-style: normal;">User Available FTE = Hours from the Schedule of the User/ Default Schedule Hours</code> </p> <p>有關計算用戶FTE的詳細資訊，請參閱 <a href="../../../resource-mgmt/resource-planning/calculate-hours-fte-for-users-roles-resource-planner.md" class="MCXref xref">在資源計畫員中計算用戶和角色的小時數和FTE的概覽</a>.</p> <p>如需在Workfront中建立排程的詳細資訊，請參閱 <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md" class="MCXref xref">建立排程</a>.</p> <p>有關配置資源管理首選項的詳細資訊，請參見 <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md" class="MCXref xref">配置資源管理首選項</a>.</p> 
-        </li> 
-        <li> <p><b>資源池</b>:將用戶與資源池關聯。</p> <p><b>注意</b>:此欄位中只會顯示所有所選使用者的共同資源池。 如果所選用戶沒有共用資源池，則此欄位為空。 如果此欄位為空，則在此處指定的資源池將覆蓋其各個資源池。</p> 
-        <p>有關資源池的詳細資訊，請參見 <a href="../../../resource-mgmt/resource-planning/resource-pools/work-with-resource-pools.md" class="MCXref xref"> 資源池概述 </a>.</p> </li> 
-        <li><b>每小時成本</b>:使用者每小時的成本金額。 </li> 
-        <li><b>每小時計費</b>:使用者每小時的計費金額。</li> 
-        <li><b>自訂Forms</b>:將現有用戶自定義表單與用戶關聯。 您必須先建立自訂表單，才能將其與使用者建立關聯。 清單中只會顯示使用中的自訂表單。 如需建立自訂表單的相關資訊，請參閱 <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref">建立或編輯自訂表單</a>.</li> 
-        <li><b>註解</b>:在提供的欄位中輸入注釋。 所有選取的使用者都會收到應用程式內通知，以及含有您意見的電子郵件通知。 註解會顯示在使用者設定檔的「更新」標籤中。</li> 
+       <li>如果其他職責的FTE可用性為0%，則它們不會顯示在資源計畫器中，除非將用戶分配給這些職責中的任務。</li> 
+       <li> <p>所有角色的FTE可用性的所有百分比之和必須等於100%。 每個FTE可用性百分比計算資源計畫員中每個用戶每個角色的可用小時數。 每個用戶的每個角色的可用小時數取決於用戶的可用時間。</p> <p>用戶的可用時間由Workfront計算，具體取決於Workfront管理員在「資源管理首選項」中選擇的計算FTE的方法。</p> <p>有關計算用戶可用性的詳細資訊，請參閱 <a href="../../../resource-mgmt/resource-planning/calculate-hours-fte-for-users-roles-resource-planner.md" class="MCXref xref">在資源計畫員中計算用戶和角色的小時數和FTE的概覽</a>.</p> <p>有關配置資源管理首選項的詳細資訊，請參見 <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md" class="MCXref xref">配置資源管理首選項</a>.</p> </li> 
+       </ul> </p> </li> 
+       <li> <p><b>排程</b>:將排程與使用者建立關聯。 用戶的時間表計算分配給用戶的任務的時間表。</p> <p>Workfront管理員或群組管理員必須先建立排程，才能與使用者建立關聯。</p> <p>選擇系統級或組計畫，將其分配給選定用戶。</p> <p>有關係統級和組計畫的詳細資訊，請參閱 <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md" class="MCXref xref">建立排程</a>.</p> <p><b>重要</b>:只有在「使用計算資源可用性」設定設為「使用者的排程」時，Workfront才會使用使用者的排程。 有關「使用計算資源可用性」設定如何影響用於資源管理的計畫的資訊，請參閱 <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md" class="MCXref xref">配置資源管理首選項</a>.</p> </li> 
+       <li> <p><b>時間表配置檔案</b>:將時間表配置檔案與用戶關聯。 這可確保為用戶自動生成工時單。</p> 
+       <p><b>附註</b>:  
+       <ul> 
+       <li>您在此欄位中可用的時間表配置檔案清單取決於您的訪問權限：
+       <ul>
+       <li>作為Workfront管理員，您可以查看所有系統級和組級時間表配置檔案。</li>
+       <li><p>作為組管理員，您可以查看系統級時間表配置檔案以及與您管理的組關聯的時間表配置檔案。</p></li>
+       <li><p>作為具有計畫員許可證和編輯用戶訪問權限的用戶，您只能查看系統級時間表配置檔案。</p></li>
+       </ul></li> 
+       <li>如果您是群組管理員，您編輯的所有使用者都必須是您所管理之群組的成員。</li> 
+       </ul> </p> </li> 
+       <li><b>預設小時類型</b>:為用戶選擇預設的小時類型。 這是使用者記錄時間時，預設使用的小時類型。</li> 
+       <li> <p><b>可用小時類型</b>:選取使用者應可使用的小時類型。 這些小時類型在Workfront中任何地方都可見，使用者可在其中記錄時間。 使用者只能查看專案層級和使用者層級已啟用的小時類型。</p> 
+       <p>如需使用者可使用的小時類型詳細資訊，請參閱 <a href="../../../timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md" class="MCXref xref">定義工時單的工時類型和可用性</a>.</p> 
+       </li> 
+       <li> <b>FTE</b>:此為使用者的等同全職人數。 只有當系統級別的「資源管理首選項」設定為「預設計畫」時，Workfront才使用此數字根據預設計畫計算用戶的可用性。
+
+   <p>FTE指示用戶可以在工作中花費的時間。 這包括額外負荷，以及專案工作所花費的時間。 例如，在會議或培訓中花費的時間也包含在FTE中。</p>
+
+   FTE必須是十進位數，最多1，不能是0。 例如，如果FTE值為0.5，而Workfront中的預設排程為40小時，則使用者每週可使用20小時。
+
+   欄位的預設值為1。
+
+   排程例外，休假時間， <span class="preview">工作時間的價值</span> 可能會影響使用者的可用性。
+
+   Workfront會根據「設定」區域中的「資源管理」首選項來計算用戶的可用性。
+
+   如果系統級別的「資源管理首選項」設定為「用戶的計畫」，則忽略此處指定的值，並根據其計畫中指定的內容將用戶視為可用。
+
+   如需詳細資訊，請參閱 <a href="../../set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md">配置資源管理首選項</a>.
+
+   如需在Workfront中建立排程的詳細資訊，請參閱 <a href="../../set-up-workfront/configure-timesheets-schedules/create-schedules.md">建立排程</a>.
+   </li> 
+       <li> <p><b>資源池</b>:將用戶與資源池關聯。</p> <p><b>注意</b>:此欄位中只會顯示所有所選使用者的共同資源池。 如果所選用戶沒有共用資源池，則此欄位為空。 如果此欄位為空，則在此處指定的資源池將覆蓋其各個資源池。</p> 
+       <p>有關資源池的詳細資訊，請參見 <a href="../../../resource-mgmt/resource-planning/resource-pools/work-with-resource-pools.md" class="MCXref xref"> 資源池概述 </a>.</p> </li> 
+       <li><b>每小時成本</b>:使用者每小時的成本金額。 </li> 
+       <li><b>每小時計費</b>:使用者每小時的計費金額。</li> 
+       <li><b>自訂Forms</b>:將現有用戶自定義表單與用戶關聯。 您必須先建立自訂表單，才能將其與使用者建立關聯。 清單中只會顯示使用中的自訂表單。 如需建立自訂表單的相關資訊，請參閱 <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref">建立或編輯自訂表單</a>.</li> 
+       <li><b>註解</b>:在提供的欄位中輸入注釋。 所有選取的使用者都會收到應用程式內通知，以及含有您意見的電子郵件通知。 註解會顯示在使用者設定檔的「更新」標籤中。</li> 
        </ul> </td> 
      </tr> 
     </tbody> 

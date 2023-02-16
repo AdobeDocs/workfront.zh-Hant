@@ -2,9 +2,9 @@
 user-guide-title: Workfront 指南
 user-guide-description: 使用文件、教學課程和其他資源，了解如何在您的組織中實施並有效使用 Adobe Workfront。
 feature-set: Workfront
-source-git-commit: 5b7253fb0313e4ba1a2959497c0b3f92cff30e13
+source-git-commit: 56af35ff6253a1ddd42ec0a1fdcfb98409d72c40
 workflow-type: tm+mt
-source-wordcount: '12683'
+source-wordcount: '12688'
 ht-degree: 1%
 
 ---
@@ -1088,6 +1088,7 @@ ht-degree: 1%
          * [瀏覽藍圖目錄並請求安裝藍圖](administration-and-setup/blueprints/browse-catalog.md)
          * [複製專案範本](manage-work/projects/create-and-manage-templates/copy-template.md)
          * [將範本附加至專案](manage-work/projects/create-and-manage-templates/attach-template-to-project.md)
+         * [複製和移動模板任務](manage-work/projects/create-and-manage-templates/copy-and-move-template-tasks.md)
          * [編輯專案範本](manage-work/projects/create-and-manage-templates/edit-templates.md)
          * [編輯模板任務](manage-work/projects/create-and-manage-templates/edit-template-task.md)
          * [從專案建立範本](manage-work/projects/create-and-manage-templates/create-template-from-project.md)

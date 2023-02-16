@@ -5,9 +5,9 @@ title: 辭匯表 [!DNL Adobe Workfront] 術語
 description: 此 [!DNL Adobe Workfront] 字彙表列出Adobe Workfront中常用的辭彙。
 feature: Get Started with Workfront
 exl-id: 758072b3-775e-4771-9ae9-da0b38580c93
-source-git-commit: 210ca2e82286ff904bc7defb7b8c9c2559489d66
+source-git-commit: 4a33d72e234ff812a72d7d7a382226697f858df6
 workflow-type: tm+mt
-source-wordcount: '18635'
+source-wordcount: '19106'
 ht-degree: 0%
 
 ---
@@ -221,12 +221,23 @@ ht-degree: 0%
   <tr> 
    <td>[!Uicontrol自動更改]</td> 
    <td> <p>[!UICONTROL項目更新]類型之一。 這將在夜間重新計算流程運行時以及對項目內的項目或任務進行任何更新時重新計算項目的預計和計畫時間表。 </p> <p>如需詳細資訊，請參閱 <a href="../../../manage-work/projects/manage-projects/select-project-update-type.md" class="MCXref xref">選擇項目更新類型 </a>.</p> </td> 
-  </tr> 
-  <tr> 
+  </tr>
+
+<tr> 
+   <td><p>可用性</p></td> 
+   <td> <p>此術語用於「用戶可用性」或「資源可用性」，它說明資源（用戶或作業角色）可用於工作的時間量。 </p> 
+   <p>Workfront使用數個欄位計算用戶可用性，具體取決於系統中「資源管理」首選項的設定。 如需詳細資訊，請參閱 <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md">配置資源管理首選項</a>. </p>
+   <p>有關資源可用性的詳細資訊，請參見 <a href="../../../resource-mgmt/resource-mgmt-overview/get-started-resource-management.md">開始使用資源管理</a></p>
+   或者，「容量」也用於指資源可用性。 
+   </td> 
+  </tr>
+
+<tr> 
    <td>[!UICONTROL僅自動]</td> 
    <td> <p>[!UICONTROL項目更新]類型之一。 這將在夜間重新計算流程運行時重新計算預計時間軸和計畫時間軸。</p> <p>如需詳細資訊，請參閱 <a href="../../../manage-work/projects/manage-projects/select-project-update-type.md" class="MCXref xref">選擇項目更新類型</a>.</p> </td> 
-  </tr> 
-  <tr data-mc-conditions=""> 
+  </tr>
+
+<tr data-mc-conditions=""> 
    <td>[!UICONTROL BAU]</td> 
    <td>「一切照常」工作，有助於實現日常的主要業務目標。</td> 
   </tr> 
@@ -773,11 +784,10 @@ ht-degree: 0%
      <li>[!UICONTROL計算工作]</li> 
      <li>[!UICONTROL工作驅動]</li> 
      <li>[!UICONTROL簡單]</li> 
-    </ul> <p>如需詳細資訊，請參閱 <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">任務[!UICONTROL持續時間]和[!UICONTROL持續時間類型]的概述</a>.</p> <!--
-     <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Task field used by the planner to set how the work required is allocated to the assignees across the duration.</p>
-    --> </td> 
-  </tr> 
-  <tr> 
+    </ul> <p>如需詳細資訊，請參閱 <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">任務[!UICONTROL持續時間]和[!UICONTROL持續時間類型]的概述</a>.</p> 
+    —&gt; </td> 
+   </tr> 
+   <tr> 
    <td>[!UICONTROL持續時間單位]</td> 
    <td>用於測量電源搜索中時間的單位。</td> 
   </tr> 
@@ -858,15 +868,40 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td>[!UICONTROL資料夾]</td> 
-   <td>資料夾用於組織與對象關聯的文檔或報告。</td> 
-  </tr> <!--
-   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode,SnippetConitions_MaturityModel.Integrated"> 
-    <td>FTE</td> 
-    <td>The designated full time equivalency for users. A full-time user should have 100% FTE and part-time user should have a percentage that equals their working hours.</td> 
-   </tr>
-  --> 
- </tbody> 
-</table>
+   <td>資料夾用於組織與對象關聯的文檔或報告。</td> </tr>
+  <tr>
+  <td>FTE（相當於全職人數）</td> 
+   <td>這是「全時等價物」，它指示資源可用於工作的時間量。 
+   FTE欄位顯示在以下區域： 
+  <ul>
+   <li> 編輯或建立使用者時的使用者設定檔 </li>
+   <li> 資源規劃工具 </li>
+   <li> 方案計畫員(需要Workfront方案計畫員的附加許可) </li>
+   <li> 使用者清單和報表 </li> </ul>
+
+<p>FTE必須是十進位數，最多1，不能是0。 </p>
+   <p> FTE為1（如用戶的配置檔案中所定義，是用戶的FTE欄位的預設值）表示資源（用戶或角色）根據計算其可用性的計畫工作整個小時數。 </p>
+   <p>您的Workfront管理員會決定要使用哪個排程來判斷使用者的可用性。  </p>
+   <ul>
+   <li> 使用「預設排程」時，Workfront會使用設定檔中找到之使用者的FTE來計算可用性。 </li>
+   <li> 使用使用者排程時，Workfront會使用使用者的休息時間， <span class="preview">工作時間值</span>，以及預設計畫的小時數，以計算使用者的FTE。 </li> </ul>
+
+<p>如需詳細資訊，請參閱 <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md">配置資源管理首選項</a>.  </p>
+   <p>如需在Workfront中建立排程的詳細資訊，請參閱 <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md">建立排程</a>. </p>
+
+<p><b>附註</b></p>
+   <p>對於方案計畫器中的所有計算，Workfront使用以下值：1 FTE = 8小時。</p>
+   <p>如需詳細資訊，請參閱 <a href="../../../scenario-planner/get-started-with-scenario-planning.md">開始使用方案規劃器</a>. </p>
+   </td> </tr> 
+   </tbody> 
+   </table>
+
+<!--
+     <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Task field used by the planner to set how the work required is allocated to the assignees across the duration.</p>
+<!--
+FTE
+The designated full time equivalency for users. A full-time user should have 100% FTE and part-time user should have a percentage that equals their working hours. 
+-->
 
 ## G - I
 
@@ -2287,10 +2322,26 @@ ht-degree: 0%
   <tr> 
    <td>[!UICONTROL工作流模板]</td> 
    <td>在[!UICONTROL校樣核准]報表中，此欄位會顯示附加至校樣的任何工作流程範本。 如果沒有附加任何模板，則列為空。</td> 
+  </tr>
+
+<tr> 
+   <td>[!UICONTROL工作時間]</td> 
+   <td>
+
+<p><span class="preview">表示用戶可用於實際工作（不包括間接費用）的等效全職(FTE)時間的百分比。 工作時間必須是十進位數字，最多1，不能是0。 例如，實際工作20%的可用性為0.2。</span>  </p>
+   </p><span class="preview">欄位的預設值為1，表示用戶將其整個FTE用於實際的項目相關工作。</span>   </p>
+   <p><span class="preview">系統使用此編號來計算用戶在實際項目相關工作中的可用性。 </span></p>
+   <p> <span class="preview">排程例外和休假時間也可能影響使用者容量。</span> </p>
+   <p><span class="preview">如需在Workfront中建立排程的詳細資訊，請參閱建立排程。 （插入連結）</span> </p>
+    <p>Workfront會根據「設定」區域中的「資源管理」首選項來計算用戶的可用性。 如需詳細資訊，請參閱 <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md/">配置資源管理首選項</a>. </p> 
+   <p><span class="preview">您可以在編輯或建立用戶時更新用戶的工作時間。 如需詳細資訊，請參閱 <a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md">編輯使用者的設定檔</a></span></p> 
+   <b>筆尖</b> 
+   <p><span class="preview">將「工作時間」值設定為1，表示用戶可用於與項目相關的整個全職工作。</span></p> 
+   </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL工作時間]</td> 
-   <td>構成排程的資料。</td> 
+   <td>在Workfront檔案中，此辭彙用於根據排程說明分配給工作的時間。</td> 
   </tr> 
   <tr> 
    <td><code>[!UICONTROL workRequiredExpression]</code> </td> 
