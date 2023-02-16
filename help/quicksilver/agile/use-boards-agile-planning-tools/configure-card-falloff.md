@@ -6,7 +6,7 @@ title: 設定卡片流失
 description: 您可以設定展示板，讓資訊卡依排程封存或從展示板流失。
 author: Lisa
 exl-id: 0e4f6b3c-75aa-4314-9cb0-737e5a9d3bda
-source-git-commit: 2dfa3e7b215a8234453b2d688031c993978e02ae
+source-git-commit: 5114a135c510d5a7020fd0a0862f9dcc61d9ad93
 workflow-type: tm+mt
 source-wordcount: '243'
 ht-degree: 0%
@@ -52,7 +52,7 @@ ht-degree: 0%
 
    ![卡片衰減設定](assets/card-falloff-switch.png)
 
-1. 選取從展示板封存資訊卡的時間。 您可以選擇最多4週或最多30天。
+1. 選取從展示板封存資訊卡的時間。 您可以選擇最多8週或最多60天。
 
    日期由上次修改卡片的時間決定。
 
