@@ -7,9 +7,9 @@ description: 您可以建立和編輯標籤，並將標籤套用至校樣和檔�
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: eb720a1b-5136-4158-9ea0-bcb5755e1761
-source-git-commit: 41ab1312d2ccb8b8271bc851a35e31e9ff18c16b
+source-git-commit: 8e903592456512f1ebf5f1e8d6e496e577a7b352
 workflow-type: tm+mt
-source-wordcount: '923'
+source-wordcount: '920'
 ht-degree: 0%
 
 ---
@@ -77,7 +77,7 @@ ht-degree: 0%
 1. 按一下 **[!UICONTROL 標籤]** > **[!UICONTROL 管理標籤]** 就在名單上。
 
 1. 在 [!UICONTROL 標籤] 標籤中，依 [建立、編輯或刪除標籤。](https://support.workfront.com/knowledge/articles/115004379508/en-us?brand_id=662728&amp;return_to=%2Fhc%2Fen-us%2Farticles%2F115004379508#CreatingEditingDeletingTag)\
-   當標籤旁的核取方塊為深灰色時，標籤會套用至所有選取的項目。 如果為淺灰色，則選定批中的某些項目只會用其標籤。 如果您要從所有選取的項目中移除標籤，請確定標籤旁的勾選方塊為空。\
+   標籤旁的核取方塊為深灰色時，標籤會套用至所有選取的項目。 如果為淺灰色，則選定批中的某些項目只會用其標籤。 如果您要從所有選取的項目中移除標籤，請確定標籤旁的勾選方塊為空。\
    ![Tags_menu_-_Dark_and_light_checks.png](assets/tags-menu---dark-and-light-checks-350x217.png)
 
 ## 從校樣詳細資料或檔案詳細資料管理標籤
