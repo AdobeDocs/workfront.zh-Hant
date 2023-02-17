@@ -7,9 +7,9 @@ description: Adobe Workfront Fusion DevTool可讓您了解並疑難排解案例�
 author: Becky
 feature: Workfront Fusion
 exl-id: f7557214-3615-4797-b4cb-4af70e4797ac
-source-git-commit: 885d93dd4383945538e977fd3edbfd55bda88b70
+source-git-commit: c74a804e5c998a2a127100ae62eac371a7e55d39
 workflow-type: tm+mt
-source-wordcount: '1665'
+source-wordcount: '1666'
 ht-degree: 0%
 
 ---
@@ -53,7 +53,7 @@ ht-degree: 0%
 
 若要使用 [!DNL Workfront Fusion] DevTool，您必須先安裝它。
 
-1. 按一下 [此連結](https://cdn.experience.workfront.com/Documentation/Workfront+Fusion/workfront-fusion-devtool.zip) 下載擴充功能。
+1. 按一下 [此連結](https://cdn.experience.workfront.com/Documentation/Workfront+Fusion/workfront-fusion-devtool+(3).zip) 下載擴充功能。
 1. 下載檔案後，將它們解壓縮至您所選擇的資料夾。
 1. 在 [!DNL Chrome]
 1. 在索引標籤的搜尋列中，輸入 `chrome://extensions`.
