@@ -4,9 +4,9 @@ description: 23.2版本概觀
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: 711f1ca5cfa4a8eec67d4bc8307824fd36b0b53e
+source-git-commit: 7de3ebef55a9d11c3a417872f2cfcd1f4ea03640
 workflow-type: tm+mt
-source-wordcount: '713'
+source-wordcount: '1231'
 ht-degree: 0%
 
 ---
@@ -28,6 +28,8 @@ ht-degree: 0%
 
 * [管理員增強功能](#administrator-enhancements)
 * [敏捷增強功能](#agile-enhancements)
+* [專案管理增強功能](#project-management-enhancements)
+* [資源管理增強功能](#resource-management-enhancements)
 * [其他增強功能](#other-enhancements)
 
 ### 管理員增強功能
@@ -81,6 +83,57 @@ ht-degree: 0%
                         </p>
                     </td>
                 </tr>
+              <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-feb-13.md" class="MCXref xref" xrefformat="{para}">自訂卡片上的欄位顯示</a><span style="color: #ff0000;"> 預覽新增功能！</span></p>
+                        <p>現在可自訂，以設定卡片上顯示的欄位，包括卡片開啟時的完整檢視，以及展示板上的縮合卡片檢視。 當您停用欄位時，兩個檢視中都不會顯示。 您也可以啟用完整檢視中的欄位，並在縮合檢視中隱藏該欄位。</p>
+                    </td>
+                    <td><p><b>可於下列日期使用：</b></p>
+                        <ul>
+                            <li>
+                                <p>預覽版本：2023年2月16日<br /></p>
+                            </li>
+                            <li>
+                                 <p>提早選擇加入的生產版本：2023年2月23日 <span style="color: #ff0000;"> 此功能僅透過Workfront展示板的早期功能選擇加入，才可在生產環境中使用。</span></p>
+                                <p>所有客戶的生產版本：隨第23.2發行版本一起推出</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-feb-13.md" class="MCXref xref" xrefformat="{para}">為移入展示板欄的資訊卡定義預設狀態</a><span style="color: #ff0000;"> 預覽新增功能！</span></p>
+                        <p>您現在可以在欄原則中選取自訂狀態和系統狀態，以設定預設狀態，以套用至移入特定欄的卡。 當您將資訊卡移入欄中時，Workfront會先嘗試套用自訂狀態（例如「等待意見」）。 如果自訂狀態不適用於該卡片，Workfront會改用系統狀態（例如「暫掛」）。 此外，如果連接任務或問題的狀態更改為列策略中設定的自定義或系統狀態，則卡會自動移到列。</p>
+                    </td>
+                    <td><p><b>可於下列日期使用：</b></p>
+                        <ul>
+                            <li>
+                                <p>預覽版本：2023年2月16日<br /></p>
+                            </li>
+                            <li>
+                                 <p>提早選擇加入的生產版本：2023年2月23日 <span style="color: #ff0000;"> 此功能僅透過Workfront展示板的早期功能選擇加入，才可在生產環境中使用。</span></p>
+                                <p>所有客戶的生產版本：隨第23.2發行版本一起推出</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                 <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-feb-13.md" class="MCXref xref" xrefformat="{para}">集合現在可在Adobe Workfront展示板中使用</a><span style="color: #ff0000;"> 預覽新增功能！</span></p>
+                        <p>您現在可以在展示板控制面板上建立集合。 集合是一組用於協作工作的委員會。 為系列命名後，您可以使用一組範本將展示板新增至系列，這些範本提供預先定義的設定，例如欄名稱。</p>
+                    </td>
+                    <td><p><b>可於下列日期使用：</b></p>
+                        <ul>
+                            <li>
+                                <p>預覽版本：2023年2月16日<br /></p>
+                            </li>
+                            <li>
+                                 <p>提早選擇加入的生產版本：2023年2月23日 <span style="color: #ff0000;"> 此功能僅透過Workfront展示板的早期功能選擇加入，才可在生產環境中使用。</span></p>
+                                <p>所有客戶的生產版本：隨第23.2發行版本一起推出</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-1-jan-23.md" class="MCXref xref" xrefformat="{para}">連接卡上的估計欄位映射到Workfront對象上的「文章點」欄位</a></p>
@@ -99,7 +152,6 @@ ht-degree: 0%
                         </ul>
                     </td>
                 </tr>
-                </tr>
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-1-jan-23.md" class="MCXref xref" xrefformat="{para}">進氣列中的預覽卡</a></p>
@@ -113,6 +165,77 @@ ht-degree: 0%
                             <li>
                                  <p>提早選擇加入的生產版本：2023年2月2日 <span style="color: #ff0000;"> 此功能僅透過Workfront展示板的早期功能選擇加入，才可在生產環境中使用。</span></p>
                                 <p>所有客戶的生產版本：隨第23.2發行版本一起推出</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+### 專案管理增強功能
+
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 50%;" />
+            <tbody>
+                <tr>
+                    <td>
+                        <p><span class="bold">功能</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">發行日期</span>
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-feb-13.md" class="MCXref xref" xrefformat="{para}">複製專案時複製預算小時數</a><span style="color: #ff0000;"> 預覽新增功能！</span>
+                        <p>現在，您可以選擇在複製項目時複製業務案例或資源計畫員的「資源預算」區域中預算的小時數。 在此增強功能之前，為項目編入預算的時數不會轉移到複製的項目。</p>
+                    </td>
+                    <td><p><b>可於下列日期使用：</b></p>
+                        <ul>
+                            <li>
+                                <p>預覽版本：2023年2月16日<br /></p>
+                            </li>
+                            <li>
+                                 <p><span class="preview">生產版本：2023年3月2日（非週期）</span></p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+### 資源管理增強功能
+
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 50%;" />
+            <tbody>
+                <tr>
+                    <td>
+                        <p><span class="bold">功能</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">發行日期</span>
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-feb-13.md" class="MCXref xref" xrefformat="{para}">引入「工作時間」欄位以準確計算用戶容量</a><span style="color: #ff0000;"> 預覽新增功能！</span>
+                        <p>為了讓資源經理能夠準確計算用戶的可用性，並說明用戶投入實際、項目相關工作的時間，我們將「工作時間」概念引入Adobe Workfront。</p>
+                        <p>建立或編輯用戶的配置檔案時，您可以為每個用戶定義「工作時間」欄位的值。</p>
+                    </td>
+                    <td><p><b>可於下列日期使用：</b></p>
+                        <ul>
+                            <li>
+                                <p>預覽版本：2023年2月16日<br /></p>
+                            </li>
+                            <li>
+                                 <p><span class="preview">生產版本：2023年3月2日（非週期）</span></p>
                             </li>
                         </ul>
                     </td>
@@ -138,8 +261,8 @@ ht-degree: 0%
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-feb-6.md" class="MCXref xref" xrefformat="{para}">在Adobe Workfront for XD中將畫板匯出為單一PDF或多個PDF檔案</span></a><span style="color: #ff0000;"> 新的生產功能！</span>
-                        <p>在Adobe Workfront for XD外掛程式中，您現在可以選擇將畫板匯出為單一PDF檔案或多個PDF檔案。</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-feb-6.md" class="MCXref xref" xrefformat="{para}">在Adobe Workfront for XD中將畫板匯出為單一PDF或多個PDF檔案</span></a>
+                        </span></a><p>在Adobe Workfront for XD外掛程式中，您現在可以選擇將畫板匯出為單一PDF檔案或多個PDF檔案。</p>
                     </td>
                     <td><p><b>可於下列日期使用：</b></p>
                         <ul>
