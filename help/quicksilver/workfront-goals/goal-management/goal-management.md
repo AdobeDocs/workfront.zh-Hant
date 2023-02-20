@@ -7,9 +7,9 @@ description: 請檢閱下列文章，了解您從何處開始使用Workfront目�
 author: Alina
 feature: Workfront Goals
 exl-id: cba07613-9912-4929-bda4-50f503faa3e1
-source-git-commit: 1d221d10e5845e477dff825f853330b9b4df0adf
+source-git-commit: f4cc5ae89c8746ec4c40ece88bfdb21dc1996575
 workflow-type: tm+mt
-source-wordcount: '262'
+source-wordcount: '254'
 ht-degree: 0%
 
 ---
@@ -65,6 +65,5 @@ For additional information about access to Workfront Goals, see [Requirements to
 * [Adobe Workfront目標中的目標進度和條件概覽](../../workfront-goals/goal-management/calculate-goal-progress.md)
 * [篩選Adobe Workfront目標中的資訊](../../workfront-goals/goal-management/filter-information-wf-goals.md)
 * [管理Adobe Workfront目標中的目標註解](../../workfront-goals/goal-management/manage-goal-comments.md)
-* [列印Adobe Workfront目標中的目標清單](../../workfront-goals/goal-management/print-the-goal-list.md)
 * [更新Adobe Workfront目標中「目標詳細資訊」區段中的目標](../../workfront-goals/goal-management/update-goals-in-goal-details-panel.md)
 * [檢閱Adobe Workfront目標中的問題目標](../../workfront-goals/goal-management/view-in-trouble-goals.md)

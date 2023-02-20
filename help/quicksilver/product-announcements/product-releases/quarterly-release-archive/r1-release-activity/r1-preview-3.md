@@ -6,9 +6,9 @@ description: 本頁介紹了R1.3版本在「預覽」環境中可用的所有更
 author: Luke
 feature: Product Announcements
 exl-id: d1502a17-b131-4d29-9b0c-03ad44be4ba6
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: f4cc5ae89c8746ec4c40ece88bfdb21dc1996575
 workflow-type: tm+mt
-source-wordcount: '1309'
+source-wordcount: '1345'
 ht-degree: 2%
 
 ---
@@ -31,6 +31,10 @@ ht-degree: 2%
 
 ## 更新日曆上的團隊
 
+>[!NOTE]
+>
+>Workfront 23.1版已淘汰資源排程工具，並將其從中移除。 有關使用工作負載平衡器調度資源的資訊，請參見 [工作負載平衡器概述](../../../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
+
 適用於團隊的「工作中」日曆現在包含其他功能和更新的外觀。 「工作日曆」團隊的功能現在類似於項目的資源調度工具。
 
 更新的團隊「工作於」日曆包含下列改良功能：
@@ -52,22 +56,26 @@ ht-degree: 2%
 * 預設情況下，問題會顯示在工作日曆上。\
    排程專案資源時，預設不會顯示問題。
 
-有關使用更新的團隊「工作於」日曆的詳細資訊，請參閱 [資源計畫](../../../../resource-mgmt/resource-scheduling/resource-scheduling-overview.md).
+有關使用更新的團隊「工作日曆」的詳細資訊，請參閱「資源計畫」。
 
 ## 資源計畫增強功能
 
 排程時間表包含下列增強功能：
 
-* [使用篩選器可控制哪些用戶顯示在計畫時間表上](#use-the-filter-to-control-which-users-are-displayed-on-the-scheduling-timeline)
-* [為用戶分配任務後，用戶將保持在時間軸上](#users-remain-on-the-timeline-after-being-assigned-a-task)
+* &quot;使用篩選器來控制在計畫時間表上顯示的用戶&quot;
+* &quot;分配任務後，用戶仍在時間軸上&quot;
 
 ### 使用篩選器可控制哪些用戶顯示在計畫時間表上 {#use-the-filter-to-control-which-users-are-displayed-on-the-scheduling-timeline}
+
+>[!NOTE]
+>
+>Workfront 23.1版已淘汰資源排程工具，並將其從中移除。 有關使用工作負載平衡器調度資源的資訊，請參見 [工作負載平衡器概述](../../../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
 
 此篩選器現在可用於控制在計畫時間表上顯示的用戶，以及在「未分配」區域中顯示的任務和問題。 在篩選器中選擇用戶時，將只顯示您選擇的用戶，而不管他們是否具有與「未分配」區域中任務的角色分配匹配的角色分配。 也會顯示目前指派給該使用者的所有工作。
 
 在此更改前，篩選器僅控制哪些任務和問題顯示在「未分配」區域中。 只有當用戶與「未分配」區域中的任務的角色分配匹配時，才會在計畫時間軸中顯示用戶。
 
-如需使用篩選器來控制排程時間軸上顯示內容的詳細資訊，請參閱  [篩選「排程」區域中的資訊](../../../../resource-mgmt/resource-scheduling/filter-scheduling-area.md)，和  [在「計畫」區域中手動分配未分配的任務和問題](../../../../resource-mgmt/resource-scheduling/manually-assign-items-scheduling-areas.md#automatically-assigning-unassigned-tasks-and-issues) in [在「計畫」區域中手動分配未分配的任務和問題](../../../../resource-mgmt/resource-scheduling/manually-assign-items-scheduling-areas.md).
+有關使用篩選器來控制計畫時間表上顯示內容的詳細資訊，請參閱「在計畫區域中篩選資訊」和「在計畫區域中手動分配未分配的任務和問題」。
 
 ### 為用戶分配任務後，用戶將保持在時間軸上 {#users-remain-on-the-timeline-after-being-assigned-a-task}
 
@@ -75,7 +83,7 @@ ht-degree: 2%
 
 在此更改之前，如果「未分配」區域中沒有任務或問題，且分配了匹配的角色，則在分配任務或問題後，用戶將立即從計畫時間軸中消失。
 
-如需詳細資訊，請參閱  [在「計畫」區域中手動分配未分配的任務和問題](../../../../resource-mgmt/resource-scheduling/manually-assign-items-scheduling-areas.md#automatically-assigning-unassigned-tasks-and-issues) in [在「計畫」區域中手動分配未分配的任務和問題](../../../../resource-mgmt/resource-scheduling/manually-assign-items-scheduling-areas.md).
+如需詳細資訊，請參閱「在排程區域中手動指派未指派的任務和問題」。
 
 ## 透過變更物件名稱來自訂Workfront術語
 

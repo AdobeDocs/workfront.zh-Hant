@@ -7,7 +7,7 @@ description: 您可以將任務指派給使用者、團隊或工作角色，或�
 author: Alina
 feature: Work Management
 exl-id: e774f2db-494d-4f93-8727-3c073e5f930b
-source-git-commit: 7e77223595d3c9cf0d6592a09e893142439adb2c
+source-git-commit: f4cc5ae89c8746ec4c40ece88bfdb21dc1996575
 workflow-type: tm+mt
 source-wordcount: '873'
 ht-degree: 0%
@@ -33,7 +33,7 @@ ht-degree: 0%
 
 * 有關分配任務的資訊，請參閱 [指派任務](../../../manage-work/tasks/assign-tasks/assign-tasks.md) 和 [修改任務清單中的多個用戶分配](../../../manage-work/tasks/assign-tasks/modify-multiple-assignments-in-task-list.md).
 
-* 有關在「計畫」區域中修改多個任務的分配的資訊，請參閱 [修改調度區域中任務的多個用戶分配](../../../resource-mgmt/resource-scheduling/modify-multipl-assignments-scheduling-areas.md).
+* 有關在「計畫」區域中修改多個任務的分配的資訊，請參閱「修改計畫區域中任務的多個用戶分配」。
 * 有關使用工作負載平衡器分配任務的資訊，請參見 [工作負載平衡器中分配工作的概述](../../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md).
 
 本文中的某些資訊也適用於問題的分配。 如需指派問題的詳細資訊和其他考量事項，請參閱 [修改問題分配概覽](../../../manage-work/issues/manage-issues/modify-issue-assignments-overview.md).

@@ -7,9 +7,9 @@ description: 您可以在Adobe Workfront中使用篩選器，減少在清單、�
 author: Lisa
 feature: Reports and Dashboards
 exl-id: 3daacfba-9da7-4c04-be98-ec5f953c3c34
-source-git-commit: a74cc358c547e11a55cce728ad5330712ed0bd49
+source-git-commit: fb538c6511514eedf81f4b9be452d5f87e3f7577
 workflow-type: tm+mt
-source-wordcount: '1854'
+source-wordcount: '1840'
 ht-degree: 1%
 
 ---
@@ -82,9 +82,6 @@ Workfront中有數種篩選器類型。 所有篩選器的用途都與限制您�
 
    如需詳細資訊，請參閱 [篩選利用資訊](../../../resource-mgmt/resource-utilization/view-utilization-information.md#filtering-utilization-information) 在文章中 [查看資源利用資訊](../../../resource-mgmt/resource-utilization/view-utilization-information.md).
 
-* 資源計畫區域\
-   如需詳細資訊，請參閱文章 [篩選「排程」區域中的資訊](../../../resource-mgmt/resource-scheduling/filter-scheduling-area.md).
-
 * 工作負載平衡器
 
    如需詳細資訊，請參閱 [篩選工作負載平衡器中的資訊](../../../resource-mgmt/workload-balancer/filter-information-workload-balancer.md).
@@ -125,7 +122,7 @@ Workfront中有數種篩選器類型。 所有篩選器的用途都與限制您�
 
    如需詳細資訊，請參閱 [篩選Adobe Workfront目標中的資訊](../../../workfront-goals/goal-management/filter-information-wf-goals.md).
 
-* 面板
+* 展示板
 
    您可以套用內建篩選，但無法建立要在「展示板」區域中重複使用的自訂篩選。
 

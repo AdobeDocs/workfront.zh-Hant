@@ -6,9 +6,9 @@ description: 規劃專案概觀
 author: Alina
 feature: Work Management
 exl-id: 23372e16-3933-445d-977c-901f52299cb2
-source-git-commit: 1834439ed43fb97c5287fc33abf860de77683e1b
+source-git-commit: fb538c6511514eedf81f4b9be452d5f87e3f7577
 workflow-type: tm+mt
-source-wordcount: '1410'
+source-wordcount: '1411'
 ht-degree: 0%
 
 ---
@@ -144,11 +144,11 @@ ht-degree: 0%
 
    如需「計畫時數」的詳細資訊，請參閱文章 [計畫小時數概觀](../../../manage-work/tasks/task-information/planned-hours.md).
 
-* 將每個任務指派給負責完成該任務的用戶或組。 
+* 將每個任務指派給負責完成該任務的用戶或組。
 * 檢查分配給任務的用戶的可用性。 確保他們可以自由工作，且不會過度分配，以便能夠完成指派的工作。 如果使用者分配過多或在排程中有休息時間，請考慮下列其中一項：
 
    * 減少每項任務的計畫時數。
    * 向任務添加更多用戶，以確保在為任務分配的時間內可以完成任務。
    * 將任務重新分配給沒有其他約束的可用用戶。\
       如需規劃專案資源的詳細資訊，請參閱文章 [Adobe Workfront資源規劃](../../../resource-mgmt/resource-planning/resource-planning-overview.md).\
-      如需有關排程資源以完成專案工作的詳細資訊，請參閱文章 [資源計畫](../../../resource-mgmt/resource-scheduling/resource-scheduling-overview.md).
+      如需有關排程資源以完成專案工作的詳細資訊，請參閱 [工作負載平衡器概述](../../../resource-mgmt/workload-balancer/overview-workload-balancer.md).

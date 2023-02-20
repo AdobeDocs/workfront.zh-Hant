@@ -2,19 +2,19 @@
 product-previous: workfront-goals
 product-area: projects
 navigation-topic: results-and-activities
-title: 從Adobe Workfront目標中的目標移除結果、活動和專案
+title: 從Adobe Workfront目標中的目標中刪除進度指標
 description: 如果結果、活動和專案不再相關，您可以從Adobe Workfront目標中的目標中移除這些項目。
 author: Alina
 feature: Workfront Goals
 exl-id: 0e064dbd-6168-47b4-98ab-b5c0481e839e
-source-git-commit: afc2124a7fd0d9d52c04be1c174fdba314beec7a
+source-git-commit: fb538c6511514eedf81f4b9be452d5f87e3f7577
 workflow-type: tm+mt
-source-wordcount: '707'
+source-wordcount: '703'
 ht-degree: 0%
 
 ---
 
-# 從Adobe Workfront目標中的目標移除結果、活動和專案
+# 從Adobe Workfront目標中的目標中刪除進度指標
 
 <!-- for goal redesign PRODUCTION RELEASE: Should this article be called "Remove or disconnect progress indicators from goals" when this is available to ALL progress indicators (including "disconnect goals")-- if yes, updte the title everywhere else where this is linked?
 -->

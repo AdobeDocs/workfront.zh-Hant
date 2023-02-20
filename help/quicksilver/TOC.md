@@ -2,9 +2,9 @@
 user-guide-title: Workfront 指南
 user-guide-description: 使用文件、教學課程和其他資源，了解如何在您的組織中實施並有效使用 Adobe Workfront。
 feature-set: Workfront
-source-git-commit: e28d3d70e05bc10497e54655499602fe48a392a3
+source-git-commit: fb538c6511514eedf81f4b9be452d5f87e3f7577
 workflow-type: tm+mt
-source-wordcount: '12695'
+source-wordcount: '12587'
 ht-degree: 1%
 
 ---
@@ -1626,18 +1626,6 @@ ht-degree: 1%
       * [從資源計畫員導出資訊](resource-mgmt/resource-planning/export-resource-planner.md)
       * [資源計畫員預算小時數報表](resource-mgmt/resource-planning/report-on-budgeted-hours.md)
       * [資源計畫器顯示限制](resource-mgmt/resource-planning/resource-planner-display-limitations.md)
-   * 資源排程 {#resource-scheduling}
-      * [資源排程](resource-mgmt/resource-scheduling/resource-scheduling-overview.md)
-      * [開始使用資源計畫](resource-mgmt/resource-scheduling/get-started-resource-scheduling.md)
-      * [排程區域概觀](resource-mgmt/resource-scheduling/overview-scheduling-areas.md)
-      * [在排程區域中配置設定](resource-mgmt/resource-scheduling/configure-settings-scheduling-areas.md)
-      * [在「排程」區域中，無論角色和群組成員資格為何，都允許指派使用者](resource-mgmt/resource-scheduling/assignments-regardless-of-role-or-group-scheduling-areas.md)
-      * [在「計畫」區域中自動分配未分配的任務和問題](resource-mgmt/resource-scheduling/automatically-assign-items-scheduling-areas.md)
-      * [配置Workfront如何計算計畫區域的資源小時數和FTE可用性](resource-mgmt/resource-scheduling/calculate-hours-fte-scheduling-area.md)
-      * [篩選「排程」區域中的資訊](resource-mgmt/resource-scheduling/filter-scheduling-area.md)
-      * [在「計畫」區域中管理用戶分配](resource-mgmt/resource-scheduling/manage-allocations-scheduling-areas.md)
-      * [在「計畫」區域中手動分配未分配的任務和問題](resource-mgmt/resource-scheduling/manually-assign-items-scheduling-areas.md)
-      * [修改調度區域中任務的多個用戶分配](resource-mgmt/resource-scheduling/modify-multipl-assignments-scheduling-areas.md)
    * 資源利用率 {#resource-utilization}
       * [資源利用率](resource-mgmt/resource-utilization/resource-utilization.md)
       * [查看資源利用資訊](resource-mgmt/resource-utilization/view-utilization-information.md)
@@ -1853,7 +1841,6 @@ ht-degree: 1%
       * [篩選Adobe Workfront目標中的資訊](workfront-goals/goal-management/filter-information-wf-goals.md)
       * [Adobe Workfront目標中的目標狀態概觀](workfront-goals/goal-management/goal-status-overview.md)
       * [管理Adobe Workfront目標中的目標註解](workfront-goals/goal-management/manage-goal-comments.md)
-      * [列印Adobe Workfront目標中的目標清單](workfront-goals/goal-management/print-the-goal-list.md)
       * [更新Adobe Workfront目標中「目標詳細資訊」區段中的目標](workfront-goals/goal-management/update-goals-in-goal-details-panel.md)
       * [檢閱Adobe Workfront目標中的問題目標](workfront-goals/goal-management/view-in-trouble-goals.md)
    * Adobe Workfront目標中的目標一致性 {#goal-alignment}
@@ -1869,7 +1856,6 @@ ht-degree: 1%
       * [更新Adobe Workfront目標中的目標進度](workfront-goals/goal-review-and-workfront-goals-sections/check-in-goals.md)
       * [管理Adobe Workfront目標目標清單中的目標](workfront-goals/goal-review-and-workfront-goals-sections/manage-goals-in-goal-list.md)
       * [檢閱圖表以了解Adobe Workfront目標中的目標進度趨勢](workfront-goals/goal-review-and-workfront-goals-sections/review-goal-graphs.md)
-      * [在Adobe Workfront Goals Pulse區段中檢閱目標](workfront-goals/goal-review-and-workfront-goals-sections/review-goals-in-pulse.md)
    * Adobe Workfront目標中的結果和活動 {#results-activities-adobe-workfront-goals}
       * [Adobe Workfront目標中的結果和活動](workfront-goals/results-and-activities/results-and-activities.md)
       * [將活動新增至Adobe Workfront目標中的目標](workfront-goals/results-and-activities/add-activities-to-goals.md)
@@ -1877,7 +1863,7 @@ ht-degree: 1%
       * [將專案新增至Adobe Workfront目標中的目標](workfront-goals/results-and-activities/connect-projects-to-goals-overview.md)
       * [編輯Adobe Workfront目標中的結果和活動](workfront-goals/results-and-activities/edit-results-and-activities.md)
       * [開始使用Adobe Workfront Target中的結果和活動](workfront-goals/results-and-activities/get-started-with-results-and-activities.md)
-      * [從Adobe Workfront目標中的目標移除結果、活動和專案](workfront-goals/results-and-activities/remove-results-activities-from-goals.md)
+      * [從Adobe Workfront目標中的目標中刪除進度指標](workfront-goals/results-and-activities/remove-results-activities-from-goals.md)
    * Adobe Workfront目標設定 {#adobe-workfront-goal-settings}
       * [Adobe Workfront目標設定](workfront-goals/workfront-goals-settings/wf-goals-settings.md)
       * [自訂Adobe Workfront目標術語](workfront-goals/workfront-goals-settings/customize-wf-goals-terminology.md)

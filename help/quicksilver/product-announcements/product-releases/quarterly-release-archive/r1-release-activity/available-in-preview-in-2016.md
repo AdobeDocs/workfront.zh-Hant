@@ -6,9 +6,9 @@ description: 2016年在「預覽」環境中提供了下列功能。 這些功�
 author: Luke
 feature: Product Announcements
 exl-id: 08e0bd72-5979-449e-9fb2-c4d45f51119e
-source-git-commit: aa1bf796982fa91ff9096d92fef1fb95c2e29778
+source-git-commit: f4cc5ae89c8746ec4c40ece88bfdb21dc1996575
 workflow-type: tm+mt
-source-wordcount: '687'
+source-wordcount: '708'
 ht-degree: 0%
 
 ---
@@ -19,19 +19,23 @@ ht-degree: 0%
 
 ## 資源排程改善
 
-現在，您可以查看您是資源管理器的項目上的所有任務，以便您在做出計畫決策時獲得更多資訊。 
+>[!NOTE]
+>
+>Workfront 23.1版已淘汰資源排程工具，並將其從中移除。 有關使用工作負載平衡器調度資源的資訊，請參見 [工作負載平衡器概述](../../../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
 
-有關可用於計畫資源的工具的一般資訊，請參閱 [開始使用資源計畫](../../../../resource-mgmt/resource-scheduling/get-started-resource-scheduling.md)
+現在，您可以查看您是資源管理器的項目上的所有任務，以便您在做出計畫決策時獲得更多資訊。
 
-若要調整排程時間軸上顯示的資訊，請建立篩選器，如 [篩選「排程」區域中的資訊](../../../../resource-mgmt/resource-scheduling/filter-scheduling-area.md)
+有關可用於計畫資源的工具的一般資訊，請參閱「開始使用資源計畫」。
 
-除了查看您負責的項目上的任務外，您還可以使用計畫時間表來更改資源分配。 有關如何在計畫時間表上管理用戶分配的資訊，請參見 [在「計畫」區域中手動分配未分配的任務和問題](../../../../resource-mgmt/resource-scheduling/manually-assign-items-scheduling-areas.md)
+要調整在計畫時間線上顯示的資訊，請建立一個篩選器，如「在計畫區域中篩選資訊」中所述。
+
+除了查看您負責的項目上的任務外，您還可以使用計畫時間表來更改資源分配。 有關如何在計畫時間表上管理用戶分配的資訊，請參閱「在計畫區域中手動分配未分配的任務和問題」。
 
 ## 在計畫時間表上管理用戶分配
 
 現在，使用新的資源計畫工具計畫資源時，您可以確定如何將任務或問題的計畫小時數分配給用戶。 您可以在工作期間和指派的使用者之間，將小時分為不同的天。
 
-如需詳細資訊，請參閱 [在「計畫」區域中管理用戶分配](../../../../resource-mgmt/resource-scheduling/manage-allocations-scheduling-areas.md)
+如需詳細資訊，請參閱「在排程區域中管理使用者配置」。
 
 ## 預設情況下禁用用戶分配
 
@@ -39,7 +43,7 @@ ht-degree: 0%
 
 以前，配置底紋預設為顯示，無法禁用。
 
-如需如何啟用使用者配置選項的詳細資訊，請參閱 [在「計畫」區域中管理用戶分配](../../../../resource-mgmt/resource-scheduling/manage-allocations-scheduling-areas.md) in  [在「計畫」區域中管理用戶分配](../../../../resource-mgmt/resource-scheduling/manage-allocations-scheduling-areas.md)
+有關如何啟用用戶分配選項的詳細資訊，請參閱「在計畫區域中管理用戶分配」。
 
 ## 佈局模板確定新日曆還是舊日曆顯示在「我的工作區」中
 

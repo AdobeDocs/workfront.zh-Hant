@@ -7,9 +7,9 @@ description: 成果和活動是Adobe Workfront目標中目標的進度指標。 
 author: Alina
 feature: Workfront Goals
 exl-id: d166674a-a158-4467-bedf-fa5c997c18ec
-source-git-commit: a9a43cba127917be5c030b79fa099a960c1dcd56
+source-git-commit: fb538c6511514eedf81f4b9be452d5f87e3f7577
 workflow-type: tm+mt
-source-wordcount: '158'
+source-wordcount: '191'
 ht-degree: 0%
 
 ---
@@ -49,6 +49,8 @@ For additional information about access to Workfront Goals, see [Requirements to
 >  請連絡您的Workfront客戶經理，以了解Workfront Target授權。
 >
 >如需存取Workfront目標的詳細資訊，請參閱 [使用Workfront目標的需求](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+
+若要記錄Workfront目標的進度，您必須將進度指標與目標建立關聯。 除了結果和活動之外，您還可以將項目或子目標與目標關聯以記錄進度。
 
 本節包含下列文章：
 

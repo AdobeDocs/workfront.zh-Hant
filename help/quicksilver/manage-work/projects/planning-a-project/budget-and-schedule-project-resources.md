@@ -6,10 +6,10 @@ description: 預算和計畫項目資源
 author: Alina
 feature: Work Management
 exl-id: c6495ce5-fe70-499b-87f5-6a1f2e93a3f4
-source-git-commit: bbd64e9deed1b89d720272508b3562c354578704
+source-git-commit: fb538c6511514eedf81f4b9be452d5f87e3f7577
 workflow-type: tm+mt
-source-wordcount: '138'
-ht-degree: 1%
+source-wordcount: '134'
+ht-degree: 0%
 
 ---
 
@@ -30,9 +30,4 @@ ht-degree: 1%
    * [Adobe Workfront資源規劃](../../../resource-mgmt/resource-planning/resource-planning-overview.md)
    * [開始使用方案規劃器](../../../scenario-planner/get-started-with-scenario-planning.md)
 
-* 排程您的資源，或將資源指派給工作和問題。 將資源分配給任務和問題時，您實際上可以將用戶、團隊或角色關聯到特定工作項，使他們負責完成這些項。.
-
-   如需詳細資訊，請參閱相關文章：
-
-   * [工作負載平衡器概述](../../../resource-mgmt/workload-balancer/overview-workload-balancer.md)
-   * [資源排程](../../../resource-mgmt/resource-scheduling/resource-scheduling-overview.md)
+* 排程您的資源，或將資源指派給工作和問題。 將資源分配給任務和問題時，您實際上可以將用戶、團隊或角色關聯到特定工作項，使他們負責完成這些項。 如需詳細資訊，請參閱 [工作負載平衡器概述](../../../resource-mgmt/workload-balancer/overview-workload-balancer.md).

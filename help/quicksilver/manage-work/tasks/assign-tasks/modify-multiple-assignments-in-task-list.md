@@ -6,9 +6,9 @@ description: 在管理任務分配時，您可以使用任務清單中的批量�
 author: Alina
 feature: Work Management
 exl-id: 04f7761f-da94-4858-85c5-8dc97bd78bee
-source-git-commit: 3f5e5e9832fc33d39ea5dfbbc513b80adbf113f5
+source-git-commit: fb538c6511514eedf81f4b9be452d5f87e3f7577
 workflow-type: tm+mt
-source-wordcount: '999'
+source-wordcount: '976'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,6 @@ ht-degree: 0%
 
 本文涉及修改任務清單中多個任務的多個用戶分配。 另請參閱以下文章，以修改其他領域中多個任務的分配：
 
-* 有關在「計畫」區域中修改多個任務的分配的資訊，請參閱 [修改調度區域中任務的多個用戶分配](../../../resource-mgmt/resource-scheduling/modify-multipl-assignments-scheduling-areas.md).
 * 有關使用工作負載平衡器分配任務的資訊，請參見 [工作負載平衡器中分配工作的概述](../../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md).
 
 有關將任務分配給清單中的一個資源的資訊，請參閱 [指派任務](../../../manage-work/tasks/assign-tasks/assign-tasks.md).

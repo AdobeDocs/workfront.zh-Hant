@@ -8,9 +8,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 7cde2238-cb34-4bee-baba-69d256a3912d
-source-git-commit: 95c999a72020ce825f3a8377662c71e35a194d80
+source-git-commit: fb538c6511514eedf81f4b9be452d5f87e3f7577
 workflow-type: tm+mt
-source-wordcount: '854'
+source-wordcount: '857'
 ht-degree: 0%
 
 ---
@@ -87,7 +87,9 @@ Edit the first part, once they add more settings in the Res Management Preferenc
 * [!UICONTROL 排程] [!UICONTROL 例外] (取決於 [!UICONTROL 排程] ，則可能是使用者排程的例外，或與 [!DNL Workfront] [!UICONTROL 預設排程])
 * 用戶休息時間
 * 全時等價值([!UICONTROL FTE])或 [!DNL Workfront] 系統。 此 [!UICONTROL FTE] 等於1，當使用者全時運作（如排程中所定義）。
-* <span class="preview">的值 [!UICONTROL 工作時間] 指使用者花在專案相關工作上的時間。 這不包括額外費用時間，如會議和培訓。 此 [!UICONTROL 工作時間] 等於1，當使用者可以持續工作時(如 [!UICONTROL FTE] 或者時間表，這意味著他們不會花任何時間在與項目無關的工作上，如會議或培訓。</span>
+<div class="preview">
+*使用者的[!UICONTROL工作時間]值，指使用者在專案相關工作上所花的時間。 這不包括額外費用時間，如會議和培訓。 當使用者可在[!UICONTROL FTE]或排程中指示的整個時間內工作時，[!UICONTROL工作時間]等於1，這表示他們不會花任何時間在非專案相關的工作上，例如會議或培訓。
+</div>
 
 有關計畫和計畫資源的資訊，請參閱 [!DNL Workfront]，請參閱 [開始使用資源管理](../../../resource-mgmt/resource-mgmt-overview/get-started-resource-management.md).
 

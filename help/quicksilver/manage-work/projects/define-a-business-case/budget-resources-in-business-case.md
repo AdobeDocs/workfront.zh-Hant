@@ -5,9 +5,9 @@ description: 作為資源規劃的一部分，您可以在構建業務案例時�
 author: Alina
 feature: Work Management
 exl-id: 85aa13c7-e48d-4b8c-89f7-1ba7f66670b0
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: fb538c6511514eedf81f4b9be452d5f87e3f7577
 workflow-type: tm+mt
-source-wordcount: '273'
+source-wordcount: '261'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->預算資源與項目的計畫資源不同。 在預算資源時，您可以估計完成項目工作所需的角色。 有關實際調度或將用戶分配到項目上的工作，請參閱 [開始使用資源計畫](../../../resource-mgmt/resource-scheduling/get-started-resource-scheduling.md). 如需Adobe Workfront中資源規劃的相關資訊，請參閱 [開始使用資源規劃](../../../resource-mgmt/resource-planning/get-started-resource-planning.md).
+>預算資源與項目的計畫資源不同。 在預算資源時，您可以估計完成項目工作所需的角色。 有關實際調度或將用戶分配到項目上的工作，請參閱 [在工作負載平衡器中管理用戶分配](../../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md)
 
 您必須先將職務角色與項目關聯，然後才能為其預算資源。 以下是將作業角色分配給項目的方法：
 

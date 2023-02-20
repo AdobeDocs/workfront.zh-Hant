@@ -5,9 +5,9 @@ title: 跨時區工作
 description: 了解 [!DNL Adobe Workfront] 使用時區來計算以下內容 — EDIT ME。
 feature: Get Started with Workfront
 exl-id: b6574165-a6dc-4694-a367-d98927abf1e3
-source-git-commit: ecb6928c946203b03a93cf5687fd53abf8e6a8f3
+source-git-commit: fb538c6511514eedf81f4b9be452d5f87e3f7577
 workflow-type: tm+mt
-source-wordcount: '1086'
+source-wordcount: '1072'
 ht-degree: 0%
 
 ---
@@ -93,11 +93,7 @@ ht-degree: 0%
 
    有關為項目或用戶分配計畫的說明，請參閱 [建立排程](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
 
-   有關在計畫中配置的時區如何影響 [!UICONTROL 計畫小時數] 在 [!UICONTROL 排程] 工具和 [!DNL Workload Balancer]，請參閱下列內容：
-
-   * [在 [!UICONTROL 排程] 地區](../../resource-mgmt/resource-scheduling/manage-allocations-scheduling-areas.md)
-   * [在 [!DNL Workload Balancer]](../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md)
-
+   有關在計畫中配置的時區如何影響 [!UICONTROL 計畫小時數] 在 [!DNL Workload Balancer]，請參閱 [在 [!DNL Workload Balancer]](../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md).
 
 
 ### 在自訂表單中使用計算時間欄位 {#use-calculated-time-fields-in-a-custom-form}

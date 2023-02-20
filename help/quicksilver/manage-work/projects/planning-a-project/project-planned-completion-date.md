@@ -7,7 +7,7 @@ description: 項目的計畫完成日期是項目設定完成的日期。
 author: Alina
 feature: Work Management
 exl-id: 996398c5-de92-445e-8e86-36b2efdcf6b5
-source-git-commit: bbd64e9deed1b89d720272508b3562c354578704
+source-git-commit: fb538c6511514eedf81f4b9be452d5f87e3f7577
 workflow-type: tm+mt
 source-wordcount: '530'
 ht-degree: 0%
@@ -98,7 +98,7 @@ ht-degree: 0%
 
 1. 選擇 **專案詳細資料** 在左側面板中，按一下 **編輯專案** 表徵圖。
 
-1. 在 **排程自** 欄位，選擇 **完成日期**.
+1. 在 **排程模式** 欄位，選擇 **完成日期**.
 
 1. 指定 **計畫完成日期** 的URL。
 1. 按一下 **儲存變更**.
@@ -119,7 +119,7 @@ ht-degree: 0%
 
 1. 選擇 **專案詳細資料** 在左側面板中，按一下 **編輯專案** 表徵圖。
 
-1. 在 **排程自** 欄位，選擇 **開始日期**.
+1. 在 **排程模式** 欄位，選擇 **開始日期**.
 
 1. 指定 **計劃開始日期** 的URL。
 1. 按一下 **儲存變更**.
