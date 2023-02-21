@@ -6,9 +6,9 @@ description: 安裝並配置完成後 [!DNL Adobe Workfront] 若是Slack，您�
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: cf4a514a-fe69-4c2f-8e35-5738dfaab24e
-source-git-commit: 04782dfdb8c1ed24bb9c7399a01511c0cbd2dec3
+source-git-commit: 65bfeafe67a10c72e87a02e0ece285df619fcb81
 workflow-type: tm+mt
-source-wordcount: '440'
+source-wordcount: '431'
 ht-degree: 0%
 
 ---
@@ -62,8 +62,7 @@ ht-degree: 0%
    >
    >命令區分大小寫。 您可以使用 `/wf` 而非 `/workfront`.
    >  
-   >必須輸入任務名稱，該名稱將顯示在 [!DNL Workfront] 介面，不含括弧或雙引號。\
-   >![add_task_to_project.png](assets/add-task-to-project-350x63.png)
+   >必須輸入任務名稱，該名稱將顯示在 [!DNL Workfront] 介面，不含括弧或雙引號。
 
 1. （可選）開始鍵入要與新任務關聯的項目名稱，並在新任務出現在清單中時將其選中。\
    您會收到確認訊息，指出工作已新增至選取的專案。
@@ -81,8 +80,7 @@ ht-degree: 0%
    >[!NOTE]
    >
    >命令區分大小寫。 可以使用「/wf」（而不是「/workfront」）啟動命令。 \
-   >必須輸入「問題名稱」，因為它將顯示在 [!DNL Workfront] 介面，不含括弧或雙引號。\
-   >![slack_add_issue_to_project.png](assets/slack-add-issue-to-project-350x88.png)
+   >必須輸入「問題名稱」，因為它將顯示在 [!DNL Workfront] 介面，不含括弧或雙引號。
 
 1. （可選）開始鍵入要與新問題關聯的項目名稱，並在新問題出現在清單中時將其選中。\
    您會收到確認訊息，指出問題已新增至選取的專案。

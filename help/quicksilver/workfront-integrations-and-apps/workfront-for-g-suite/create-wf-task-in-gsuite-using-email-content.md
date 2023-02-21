@@ -7,7 +7,7 @@ description: 您可以轉換外部電子郵件(非由Adobe產生) [!DNL Workfron
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 6bbb4301-2791-4d72-bad8-fef63d6e892a
-source-git-commit: 0934ae23a8e80dd18872efef7d274bd57d227647
+source-git-commit: 925e8f9d57d65fcb44068274800450d9db5c9d34
 workflow-type: tm+mt
 source-wordcount: '958'
 ht-degree: 0%
@@ -59,8 +59,6 @@ ht-degree: 0%
 1. 若 [!UICONTROL Workfront for G Suite] 面板時，按一下 [!DNL Workfront] 圖示 ![](assets/wf-lion-icon.png) 在 [!DNL G Suite] 頁面最右側的附加元件側欄。
 1. 在中開啟電子郵件訊息 [!DNL G Suite]，按一下 [!DNL Workfront for G Suite] 將電子郵件轉換為新 [!DNL Workfront] 任務。
 
-   ![](assets/convert-email-task-issue-update.png)
-
 1. 選取 **[!UICONTROL 新建]** 選項，指明任務是屬於項目的一部分，還是獨立於項目的個人任務。
 1. 如果要將任務附加到父項目，請按一下 **[!UICONTROL 專案名稱]**，開始鍵入要執行任務的項目名稱，然後在項目名稱出現在下面的清單中時按一下。
 1. 進行下列任一變更：
@@ -107,8 +105,6 @@ ht-degree: 0%
    在 **[!UICONTROL 詳細資料]** ，您也可以按一下 **[!UICONTROL 檢視[!DNL Workfront]]** 去Workfront的新任務。
 
    重新整理瀏覽器時，會顯示位於 [!DNL Workfront for G Suite] 面板會確認您已將電子郵件轉換為任務：
-
-   ![](assets/email-was-converted.png)
 
    您可以按一下連結，前往 [!DNL Workfront for G Suite] 面板中，選擇「已建立的任務」。
 

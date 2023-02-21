@@ -6,9 +6,9 @@ description: 整合 [!DNL Adobe Workfront] 使用Slack可讓您存取和建立 [
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: cac75a81-26e8-4713-a6be-453943b431ab
-source-git-commit: 09b4644a63241fa9e0a213bfa6f1a7e4264a1703
+source-git-commit: 65bfeafe67a10c72e87a02e0ece285df619fcb81
 workflow-type: tm+mt
-source-wordcount: '426'
+source-wordcount: '418'
 ht-degree: 0%
 
 ---
@@ -79,11 +79,8 @@ ht-degree: 0%
 1. 按一下 **[!UICONTROL 在中開啟[!DNL Slack]]**.
 
 1. 指定 [!DNL Slack] URL和點按 **[!UICONTROL 繼續]**.\
-   ![Screen_Shot_2017-10-17_at_8.27.38_AM.png](assets/screen-shot-2017-10-17-at-8.27.38-am-350x432.png)
 
 1. 檢查 [!DNL Slack] 請求。 如果您同意此存取權，請按一下 **[!UICONTROL 允許存取]** 授權 [!DNL Workfront] 應用程式。
-
-   ![](assets/integrations-access-screen-350x429.png)
 
 您現在可以存取 [!DNL Workfront] 從 [!DNL Slack]，如 [存取 [!DNL Workfront] 從 [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md#viewing-all-available-commands) section in [Access [!DNL Adobe Workfront] 從 [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md).
 
@@ -98,8 +95,6 @@ ht-degree: 0%
    或
 
    按一下 **[!UICONTROL 新增應用程式]** 圖示 [!DNL Slack] 例項。
-
-   ![add_apps_in_Slack.png](assets/add-apps-in-slack-350x112.png)
 
 1. 開始鍵入 *[!DNL Workfront]* 在搜尋欄位中。
 1. 按Enter鍵。

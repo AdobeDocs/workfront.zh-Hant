@@ -6,9 +6,9 @@ description: 您可以建立 [!DNL Adobe Workfront] 來自Outlook中電子郵件
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 4ecfe632-5f2e-4dc2-8c88-6a8229887f53
-source-git-commit: 04782dfdb8c1ed24bb9c7399a01511c0cbd2dec3
+source-git-commit: 16acba0f1981b75ca141a36d096fb6f5d37c40d1
 workflow-type: tm+mt
-source-wordcount: '383'
+source-wordcount: '375'
 ht-degree: 0%
 
 ---
@@ -56,14 +56,10 @@ ht-degree: 0%
 1. 按一下 **[!DNL Workfront]** 圖示來顯示Workfront增益集。\
    您可能需要按一下電子郵件右上方的向下箭頭，才能存取 [!DNL Workfront] 表徵圖。
 
-1. 按一下 **[!UICONTROL 功能表]** 表徵圖以顯示可用清單 [!DNL Workfront] 選項。
-
-   ![o365_addin_menu2_icon.png](assets/o365-addin-menu2-icon.png)
+1. 按一下 **[!UICONTROL 功能表]** 圖示 ![o365_addin_menu2_icon.png](assets/o365-addin-menu2-icon.png) 顯示可用清單 [!DNL Workfront] 選項。
 
 1. 按一下 **[!UICONTROL 提交請求]**.
 1. 在 **[!UICONTROL 選擇請求類型]** 欄位，選擇要提交請求的請求佇列。
-
-   ![o365_addin_submitrequest.png](assets/o365-addin-submitrequest.png)
 
 1. 指定下列資訊：\
    視請求佇列的設定方式而定，可用欄位可能會有所不同。 如需可能欄位的完整清單和說明，請參閱 [建立和提交 [!DNL Adobe Workfront] 請求](../../manage-work/requests/create-requests/create-submit-requests.md) 文章。
@@ -79,4 +75,3 @@ ht-degree: 0%
 
 1. （選用）導覽回 [!DNL Outlook]，然後選取原始電子郵件。\
    在 [!DNL Workfront] 外掛程式面板中，請注意含有連結的確認，該連結會將電子郵件新增至Workfront以作為請求。 連結包含轉換日期。\
-   ![outlook_submitted_as_a_request.png](assets/outlook-submitted-as-a-request-350x130.png)

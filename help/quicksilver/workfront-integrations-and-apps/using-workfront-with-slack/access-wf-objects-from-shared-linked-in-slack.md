@@ -6,9 +6,9 @@ description: 連結至 [!DNL Adobe Workfront] 在「Slack」通道中與您共�
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 587c6ac7-cc56-480f-852d-f0bd36b3f3cf
-source-git-commit: 04782dfdb8c1ed24bb9c7399a01511c0cbd2dec3
+source-git-commit: eeb90d8f80b1680d880d07f41e9d80c0658495fa
 workflow-type: tm+mt
-source-wordcount: '1121'
+source-wordcount: '1118'
 ht-degree: 2%
 
 ---
@@ -62,8 +62,6 @@ ht-degree: 2%
    >[!NOTE]
    >
    >共用連結的使用者必須至少 [!UICONTROL 檢視] 專案的權限，以便您查看其他相關資訊。
-
-   ![slack_project_details.png](assets/slack-project-details-350x199.png)
 
 1. （選用）按一下專案名稱，以在中開啟 [!DNL Workfront] 中的任何值。
 1. 請考慮檢閱下列關於專案的其他資訊：

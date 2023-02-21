@@ -7,7 +7,7 @@ description: 您可以存取 [!DNL Adobe Workfront] 首頁內容，包括指派�
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: da2ecaf1-5cfb-470e-90a1-fbb386db8670
-source-git-commit: 0934ae23a8e80dd18872efef7d274bd57d227647
+source-git-commit: 925e8f9d57d65fcb44068274800450d9db5c9d34
 workflow-type: tm+mt
 source-wordcount: '393'
 ht-degree: 0%
@@ -56,11 +56,7 @@ ht-degree: 0%
 1. 若 [!UICONTROL Workfront for G Suite] 面板時，按一下 [!DNL Workfront] 圖示 ![](assets/wf-lion-icon.png) 在 [!DNL G Suite] 頁面最右側的附加元件側欄。
 1. 如果您在 [!DNL Workfront] for [!DNL G Suite]，按一下箭頭以前往 [!UICONTROL 首頁] 的上界。
 
-   ![](assets/left-arrow-to-home.png)
-
 1. 在 **[!UICONTROL 排序依據]** 區域，按一下展開箭頭 ![](assets/dropdown-arrow.png)，然後按一下選項以指定如何將工作項目分組，以便找到所需的工作項目。
-
-   ![](assets/sort-by-area.png)
 
    排序依據 **[!UICONTROL 提交日期]** 或 **[!UICONTROL 計畫完成]** 日期，最舊的工作項位於頂部。
 

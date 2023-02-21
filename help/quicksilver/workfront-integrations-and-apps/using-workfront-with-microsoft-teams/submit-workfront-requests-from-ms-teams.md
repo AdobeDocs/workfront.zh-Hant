@@ -6,9 +6,9 @@ description: 當您的團隊擁有者安裝適用於Microsoft Teams的Adobe Work
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 5975d773-eae6-44ae-8296-2013504da3a8
-source-git-commit: 0cb2ddf2a7d9cd9f1d257829097d467c9f0a5666
+source-git-commit: 473a1fe3cb7e247749d9b540e3e5556cbe17a1dd
 workflow-type: tm+mt
-source-wordcount: '502'
+source-wordcount: '500'
 ht-degree: 1%
 
 ---
@@ -49,9 +49,7 @@ ht-degree: 1%
 
 ## 提交 [!DNL Workfront] 請求 [!DNL Microsoft Teams]
 
-1. 按一下 **[!UICONTROL 新增更多應用程式]** 圖示(位於左側導覽列的Microsoft Teams)。
-
-   ![](assets/ms-teams-more-added-apps-icon.png)
+1. 按一下 **[!UICONTROL 新增更多應用程式]** （三點）圖示 [!DNL Microsoft Teams].
 
 1. 按一下 **[!DNL Workfront]** 清單中。
 1. 按一下 **[!UICONTROL 請求]** 標籤。
@@ -89,14 +87,10 @@ ht-degree: 1%
 
 ## 檢視 [!DNL Workfront] 您提交的請求 [!DNL Microsoft Teams]
 
-1. 按一下 **[!UICONTROL 新增更多應用程式]** 圖示(位於左側導覽列的Microsoft Teams)。
-
-   ![](assets/ms-teams-more-added-apps-icon.png)
+1. 按一下 **[!UICONTROL 新增更多應用程式]** （三點）圖示 [!DNL Microsoft Teams].
 
 1. 按一下 **[!DNL Workfront]** 清單中。
 1. 按一下 **[!UICONTROL 請求]** 標籤。
-
-   ![](assets/ms-teams-requests-page-with-count-350x198.png)
 
    您提交的請求會列在 [!UICONTROL 我提交的請求] 區域 [!UICONTROL 請求] 標籤。 您無法設定此索引標籤中顯示之有關您提交之請求的資訊。
 

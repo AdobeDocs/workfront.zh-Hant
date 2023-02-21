@@ -7,7 +7,7 @@ description: 您可以更新非Adobe Workfront電子郵件中的現有專案、�
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 2ac392f5-98a3-4ab6-a0e3-cda378f0f68b
-source-git-commit: 0934ae23a8e80dd18872efef7d274bd57d227647
+source-git-commit: 925e8f9d57d65fcb44068274800450d9db5c9d34
 workflow-type: tm+mt
 source-wordcount: '677'
 ht-degree: 0%
@@ -57,8 +57,6 @@ ht-degree: 0%
 1. 在 **[!UICONTROL 類型]**，按一下下拉箭頭，然後按一下您要新增更新的物件類型。
 1. 按一下 **[!UICONTROL 搜尋]** 選項，開始鍵入要添加更新的對象的名稱，然後在下面的清單中顯示該項目時選擇該項目。
 
-   ![](assets/click-search-for-task-issue.png)
-
    此選項依您在步驟3中選取的項目而異。 可能是 **[!UICONTROL 搜尋專案]**, **[!UICONTROL 搜索任務]**，或 **[!UICONTROL 搜尋問題]**.
 
    >[!NOTE]
@@ -90,8 +88,6 @@ ht-degree: 0%
 1. 按一下 **[!UICONTROL 更新]**.
 
    重新整理瀏覽器時，會顯示位於 [!DNL Workfront for G Suite] 面板會確認您已將電子郵件轉換為更新：
-
-   ![](assets/email-was-converted-as-update.png)
 
    您可以按一下連結，前往 [!UICONTROL 更新] 標籤 [!DNL Workfront] 針對您在步驟4中指定的物件。
 

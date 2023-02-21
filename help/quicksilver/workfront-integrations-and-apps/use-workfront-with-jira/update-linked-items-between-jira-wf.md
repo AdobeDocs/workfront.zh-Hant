@@ -6,9 +6,9 @@ description: 連結時 [!DNL Jira] 問題 [!DNL Adobe Workfront] 任務或問題
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 79ac6ff1-2f7d-4abc-8735-398f6aac5191
-source-git-commit: f533c9000c14d5692c87987973eb0b1d6665229d
+source-git-commit: f22a67cd3235a3111f7b874637ec05f8299de271
 workflow-type: tm+mt
-source-wordcount: '1723'
+source-wordcount: '1703'
 ht-degree: 0%
 
 ---
@@ -106,7 +106,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td>自訂Forms和自訂欄位</td> 
-   <td> <p> 顯示於 [!DNL Workfront] 右面板 [!DNL Jira] 問題。 <br>面板中只會顯示具有實際值的自訂欄位。<br><img src="assets/new-custom-form-in-workfront-side-panel-1012x1314.png" alt="custom_form_in_workfront_side_panel_png" style="width: 1012;height: 1014;"></p> <p>注意：「自訂表單」區段會以 [!DNL Workfront] 管理員。 </p> </td> 
+   <td> <p> 顯示於 [!DNL Workfront] 右面板 [!DNL Jira] 問題。 <br>面板中只會顯示具有實際值的自訂欄位。<br></p> <p>注意：「自訂表單」區段會以 [!DNL Workfront] 管理員。 </p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL問題或任務優先順序]</td> 
@@ -201,8 +201,7 @@ ht-degree: 0%
 
 1. 登入 [!DNL Jira].
 1. 前往 [!DNL Jira] 與 [!DNL Workfront] 項目。
-1. 展開 **[!UICONTROL 更多]** 按一下 **[!UICONTROL 記錄工作]**.\
-   ![log_time_from_More_menu_in_Jira.png](assets/new-log-time-from-more-menu-in-jira-994x594.png)
+1. 展開 **[!UICONTROL 更多]** 按一下 **[!UICONTROL 記錄工作]**.
 
 1. 在 **[!UICONTROL 逗留時間]** 欄位中，指定處理此問題所花費的時間。 您必須使用下列時段來指定時間：
 
@@ -225,8 +224,6 @@ ht-degree: 0%
 
 1. 按一下 **[!UICONTROL 記錄時間]** 表徵圖。
 
-   ![Log_time_in_Jira.png](assets/log-time-in-jira.png)
-
 1. 指定 **[!UICONTROL 小時]** 和 **[!UICONTROL 分鐘]** 您要記錄問題。
 
 1. 按一下 **[!UICONTROL 記錄時間]**.
@@ -246,7 +243,7 @@ ht-degree: 0%
 
    此 [!DNL Workfront] 項目應顯示在 [!DNL Workfront] 問題的右面板。
 
-1. 按一下 **[!UICONTROL 註解]** 圖示 [!DNL Workfront] 或 **[!UICONTROL 註解]** 標籤。 ![Jira_comments_icon.png](assets/jira-comments-icon.png)
+1. 按一下 **[!UICONTROL 註解]** 圖示 [!DNL Workfront] 或 **[!UICONTROL 註解]** 標籤。
 
 1. 開始鍵入注釋，然後按一下 **[!UICONTROL 傳送]**.
 

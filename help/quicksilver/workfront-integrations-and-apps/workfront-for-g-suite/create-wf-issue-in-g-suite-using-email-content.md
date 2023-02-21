@@ -7,7 +7,7 @@ description: 您可以轉換外部電子郵件(非由 [!DNL Adobe Workfront)] �
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 7a15f557-67d8-4be8-8538-4bce06536c0a
-source-git-commit: 0934ae23a8e80dd18872efef7d274bd57d227647
+source-git-commit: 925e8f9d57d65fcb44068274800450d9db5c9d34
 workflow-type: tm+mt
 source-wordcount: '804'
 ht-degree: 0%
@@ -102,8 +102,6 @@ ht-degree: 0%
    在 **[!UICONTROL 詳細資料]** ，您也可以按一下 **[!UICONTROL 在Workfront中檢視]** 去Workfront的新刊。
 
    重新整理瀏覽器時，會顯示位於 [!UICONTROL Workfront for G Suite] 面板會確認您已將電子郵件轉換為問題：
-
-   ![](assets/email-was-converted.png)
 
    您可以按一下連結，前往 [!DNL Workfront for G Suite] 面板，以了解您建立的問題。
 

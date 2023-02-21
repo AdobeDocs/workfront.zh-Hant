@@ -6,9 +6,9 @@ description: 您可以接收來自 [!DNL Adobe Workfront] 關於需要核准的�
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 7771a7d7-7e20-4b3d-95e7-1050aeb3af67
-source-git-commit: 04782dfdb8c1ed24bb9c7399a01511c0cbd2dec3
+source-git-commit: 473a1fe3cb7e247749d9b540e3e5556cbe17a1dd
 workflow-type: tm+mt
-source-wordcount: '1279'
+source-wordcount: '1280'
 ht-degree: 0%
 
 ---
@@ -71,9 +71,7 @@ ht-degree: 0%
 
 若要管理 [!DNL Workfront] 您可在 [!DNL Microsoft Teams]:
 
-1. 按一下 **[!UICONTROL 新增更多]** 左側導覽列中的應用程式圖示(位於 [!DNL Microsoft Teams].
-
-   ![](assets/ms-teams-more-added-apps-icon.png)
+1. 按一下 **[!UICONTROL 新增更多]** （三點）應用程式圖示，位於 [!DNL Microsoft Teams].
 
 1. 按一下 [!DNL Workfront] 清單中。
 1. 選取 **[!UICONTROL 設定]** 標籤。

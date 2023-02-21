@@ -6,9 +6,9 @@ description: 您可以連結 [!DNL Jira] 問題 [!DNL Adobe Workfront] 自動或
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 1c37f361-e866-4ac6-b672-408848a80ed6
-source-git-commit: f533c9000c14d5692c87987973eb0b1d6665229d
+source-git-commit: f22a67cd3235a3111f7b874637ec05f8299de271
 workflow-type: tm+mt
-source-wordcount: '1185'
+source-wordcount: '1160'
 ht-degree: 0%
 
 ---
@@ -102,8 +102,6 @@ As a [!DNL Workfront] 管理員，您可以定義可在 [!DNL Jira] 每次任務
 
    在 **[!UICONTROL 更新]** 在新任務的區域中，會有一則注釋，指出中也已建立新問題 [!DNL Jira].
 
-   ![WF_confirmation_that_Jira_issue_was_created.png](assets/wf-confirmation-that-jira-issue-was-created-350x43.png)
-
 1. （選用）按一下Jira問題的連結，在Jira中開啟它。
 
    或
@@ -142,15 +140,14 @@ As a [!DNL Workfront] 管理員，您可以定義可在 [!DNL Jira] 每次任務
 
    或
 
-   從 [!UICONTROL 詳細資料] 區域 ![](assets/details-icon-in-left-panel.png)，複製 **[!UICONTROL 參考編號]** 在Workfront。
+   從 [!UICONTROL 詳細資料] 區域，複製 **[!UICONTROL 參考編號]** 在Workfront。
 
    >[!NOTE]
    >
    >您必須有 [!DNL Workfront] 登入的授權 [!DNL Workfront]. 否則， [!DNL Workfront] 使用者必須提供此資訊給您。
 
 1. 在 [!DNL Jira]，導覽至您要手動連結至 [!DNL Workfront] 項目。
-1. 在 [!DNL Workfront] 貼上右面板 **URL** 或 **[!UICONTROL 參考編號]** 的 [!DNL Workfront] 項目，以便連結至該項目。\
-   ![manually_link_items_Jira_WF.png](assets/new-manually-link-items-jira-631x394.png)
+1. 在 [!DNL Workfront] 貼上右面板 **URL** 或 **[!UICONTROL 參考編號]** 的 [!DNL Workfront] 項目，以便連結至該項目。
 
 1. 按一下 **[!UICONTROL 連結]**.
 
@@ -168,8 +165,6 @@ As a [!DNL Workfront] 管理員，您可以定義可在 [!DNL Jira] 每次任務
 
 如需如何啟用右側面板中顯示其他欄位的詳細資訊，請參閱 [在 [!DNL Jira] 和 [!DNL Workfront] 項目](../../workfront-integrations-and-apps/use-workfront-with-jira/configure-workfront-for-jira.md#setting-up-field-synchronization) 區段 [設定 [!DNL Adobe Workfront for Jira]](../../workfront-integrations-and-apps/use-workfront-with-jira/configure-workfront-for-jira.md). 來自 [!DNL Workfront] 與整合相關聯的管理員會張貼在 **[!DNL Workfront]** 的 [!DNL Jira] 確認新 [!DNL Jira] 項目已建立。 註解包含的連結 [!DNL Jira] 問題。
 
-![Jira_confirmation_of_the_Jira_issue_created_Workfront_tab.png](assets/new-jira-confirmation-jira-issue-created-workfront-tab-1096x533.png)
-
 ## 取消項目之間的連結 [!DNL Jira] 和 [!DNL Workfront]
 
 之間的連結項目 [!DNL Jira] 和 [!DNL Workfront] 可手動從 [!DNL Jira].\
@@ -185,6 +180,6 @@ As a [!DNL Workfront] 管理員，您可以定義可在 [!DNL Jira] 每次任務
 取消連結 [!DNL Jira] 來自 [!DNL Workfront] 項目：
 
 1. 在 [!DNL Jira]，導覽至連結至 [!DNL Workfront] 任務或問題。
-1. 前往 [!DNL Workfront] 按一下右側面板，然後按一下 **[!UICONTROL 取消連結]** 圖示，然後按一下 **[!UICONTROL 取消連結]**.\
-   ![Jira_WF_unlink_icon.png](assets/new-jira-wf-unlink-icon-631x394.png)\
+1. 前往 [!DNL Workfront] 按一下右側面板，然後按一下 **[!UICONTROL 取消連結]** 圖示，然後按一下 **[!UICONTROL 取消連結]**.
+
    先前連結的 [!DNL Jira] 和 [!DNL Workfront] 項目現在會取消連結。 將來可能在這些欄位上單獨更新的任何欄位、注釋或文檔都不會在其他應用程式中更新其以前的對應項目。

@@ -6,9 +6,9 @@ description: 您可以查看有關Adobe Workfront Outlook載入項版本的詳�
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: f2200d71-c81e-4b15-b631-07e08562609b
-source-git-commit: 04782dfdb8c1ed24bb9c7399a01511c0cbd2dec3
+source-git-commit: 16acba0f1981b75ca141a36d096fb6f5d37c40d1
 workflow-type: tm+mt
-source-wordcount: '211'
+source-wordcount: '205'
 ht-degree: 0%
 
 ---
@@ -47,8 +47,6 @@ ht-degree: 0%
 1. 在中選取電子郵件 [!DNL Outlook].
 1. 按一下 **[!DNL Workfront]** 圖示來顯示Workfront增益集。
 1. 按一下您使用者名稱旁的下拉式箭頭。
-
-   ![outlook_additional_information_for_the_app.png](assets/outlook-additional-information-for-the-app-249x341.png)
 
 1. 按一下下列其中一個選項：
 

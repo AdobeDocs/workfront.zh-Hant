@@ -6,9 +6,9 @@ description: 安裝後 [!DNL Adobe Workfront] Salesforce as a [!DNL Workfront] �
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 81481813-74db-4408-8c85-c3b5b844f932
-source-git-commit: 088570f516bbea2e6fd81b1f711151d8941ca71e
+source-git-commit: ad2fc27db2a19ea231e925d5991dbef27ea48030
 workflow-type: tm+mt
-source-wordcount: '718'
+source-wordcount: '705'
 ht-degree: 1%
 
 ---
@@ -68,8 +68,7 @@ A [!UICONTROL Pro] [!DNL Workfront] 使用此功能需要計畫。 如需各種�
 
    按一下 **[!UICONTROL 新增]** 來新增版面。
 
-1. （選用）拖曳 **[!UICONTROL 區段]** 元件放置到版面中，並將其放置到所需位置。\
-   ![salesforce_new_section_properties.png](assets/salesforce-new-section-properties-350x210.png)
+1. （選用）拖曳 **[!UICONTROL 區段]** 元件，並將其拖曳至所需位置。
 
 1. （選用）指定新區段的名稱。
 
@@ -82,15 +81,13 @@ A [!UICONTROL Pro] [!DNL Workfront] 使用此功能需要計畫。 如需各種�
 1. 按一下 **[!UICONTROL 確定]**.
 1. 在 **[!UICONTROL 版面]** 按一下 **[!UICONTROL 視覺效果強制頁面].**
 
-1. 拖放 **[!UICONTROL WorfrontOpportunities]** 元件至 **[!UICONTROL 機會]** 版面。
+1. 拖放 **[!UICONTROL WorkfrontOpportunity]** 元件至 **[!UICONTROL 機會]** 版面。
 
    或
 
-   拖放 **[!UICONTROL WorkfrontAccounts]** 元件至  **[!UICONTROL 帳戶]** 版面。\
-   ![[!DNL WorkfrontAccounts_component].png](assets/workfrontaccounts-component-350x139.png)
+   拖放 **[!UICONTROL WorkfrontAccounts]** 元件至  **[!UICONTROL 帳戶]** 佈局。\
 
-1. 按一下 **[!UICONTROL 屬性]** 圖示（位於新新增元件的右上角）。\
-   ![](assets/salesforce-visualforce-page-properties-350x174.png)
+1. 按一下 **[!UICONTROL 屬性]** 表徵圖。\
 
 1. 若要獲得最佳顯示，請為 [!DNL Workfront Visualforce] 頁面：
 
@@ -104,8 +101,6 @@ A [!UICONTROL Pro] [!DNL Workfront] 使用此功能需要計畫。 如需各種�
    所有已指派此配置給他們的使用者，現在都可以看到 [!DNL Workfront] 區段 [!UICONTROL 機會] 或 [!UICONTROL 帳戶] 對象。
 
    使用者可看見 [!DNL Workfront] 登入畫面 [!DNL Workfront] 區段。 如果他們沒有 [!DNL Workfront] 帳戶，則它們可以折疊區段，但無法將其從配置中移除。
-
-   ![[!DNL salesforce_classic_opportunity_with_workfront_panel].png](assets/salesforce-classic-opportunity-with-workfront-panel-350x161.png)
 
 ## 設定 [!DNL Workfront] 區段 [!DNL Salesforce Lightning Experience] 框架
 
@@ -142,14 +137,11 @@ A [!UICONTROL Pro] [!DNL Workfront] 使用此功能需要計畫。 如需各種�
 1. 前往 **[!UICONTROL 機會]** 或 **[!UICONTROL 帳戶]**.
 
 1. 按一下 **[!UICONTROL 設定]** 圖示，然後按一下 **[!UICONTROL 編輯頁面]**.\
-   ![salesforce_lightning_opportunity_edit_area.png](assets/salesforce-lightning-opportunity-edit-area-350x116.png)
 
 1. 展開 **[!UICONTROL 自訂管理]** 區段。
 1. 拖放 **[!DNL Workfront]** 元件 [!UICONTROL 機會] 或帳戶頁面。
 
    建議將頁面的全部寬度用於 [!DNL Workfront] 區段，而非版面的其中一欄。
-
-   ![[!DNL salesforce_lightning_builder].png](assets/salesforce-lightning-builder-350x229.png)
 
 1. 按一下&#x200B;**[!UICONTROL 儲存]**。
 
@@ -159,4 +151,3 @@ A [!UICONTROL Pro] [!DNL Workfront] 使用此功能需要計畫。 如需各種�
    >
    >使用者可看見 [!DNL Workfront] 登入畫面 [!DNL Workfront] 區段。 如果他們沒有 [!DNL Workfront] 帳戶，則它們可以折疊區段，但無法將其從配置中移除。 使用者可以使用您已啟用的驗證方法登入：增強驗證或您的安全斷言標籤語言(SAML)URL。
 
-   ![[!DNL salesforce_lightning__workfront_panel].png](assets/salesforce-lightning--workfront-panel-350x127.png)

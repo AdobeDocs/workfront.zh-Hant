@@ -6,9 +6,9 @@ description: 您可以使用 [!DNL Adobe Workfront for Jira] 整合 [!DNL Jira] 
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 959adc88-5201-4945-96c4-ea890f0bd371
-source-git-commit: f533c9000c14d5692c87987973eb0b1d6665229d
+source-git-commit: f22a67cd3235a3111f7b874637ec05f8299de271
 workflow-type: tm+mt
-source-wordcount: '2404'
+source-wordcount: '2400'
 ht-degree: 0%
 
 ---
@@ -143,8 +143,6 @@ ht-degree: 0%
 
    此 **[!UICONTROL 觸發器]** 標籤。
 
-   ![Triggers_tab_Jira_WF.png](assets/new-triggers-tab-jira-wf-1373x754.png)
-
 1. 按一下 **[!UICONTROL 新增觸發程式]** 以新增觸發器。
 1. 在 **[!UICONTROL Workfront團隊/使用者/角色]** 欄位，指定 [!DNL Workfront] 團隊、使用者或工作角色，然後按一下以在清單中顯示時加以選取。
 
@@ -180,8 +178,6 @@ ht-degree: 0%
 1. 按一下 **[!UICONTROL 設定]**.
 1. 登入 [!DNL Workfront] 身為Workfront管理員。
 1. 按一下 **[!UICONTROL 設定]** 標籤。
-
-   ![](assets/new-jira-newsetuptab-1205x1145.png)
 
 1. 在 **[!UICONTROL 從Jira同步到Workfront]** 區段中，選擇要更新的欄位 [!DNL Jira] 在Workfront中更新時。
 
@@ -305,7 +301,7 @@ ht-degree: 0%
            <li>選取 <strong>[!UICONTROL Always]</strong> 您可以啟用整合，以在每次 [!DNL Jira] 沒有 [!DNL Workfront] 帳戶會對連結的 [!DNL Jira] 問題：
             <ul>
              <li>已指派給 [!DNL Jira] 問題</li>
-             <li><p>將時間記錄到 [!DNL Jira] 問題</p><p>此新使用者不會佔用 [!DNL Workfront] 授權。 預設設定為「一律」。 使用者在 [!DNL Workfront] 名稱中新增了「[!UICONTROL Jira]」。</p><p><img src="assets/jira-wf-indication-of-user-created-by-jira-350x66.png" style="width: 350;height: 66;"></p></li>
+             <li><p>將時間記錄到 [!DNL Jira] 問題</p><p>此新使用者不會佔用 [!DNL Workfront] 授權。 預設設定為「一律」。 使用者在 [!DNL Workfront] 名稱中新增了「[!UICONTROL Jira]」。</p></li>
             </ul></li>
            <li>選取 <strong>[!UICONTROL從不]</strong>，會發生下列情況：
             <ul>

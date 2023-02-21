@@ -6,9 +6,9 @@ description: 此 [!DNL Adobe Workfront for Microsoft Teams] 應用程式可讓�
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: a8d4e48c-1ccc-4e6e-a0a0-9b68748590c0
-source-git-commit: 088570f516bbea2e6fd81b1f711151d8941ca71e
+source-git-commit: 473a1fe3cb7e247749d9b540e3e5556cbe17a1dd
 workflow-type: tm+mt
-source-wordcount: '825'
+source-wordcount: '803'
 ht-degree: 0%
 
 ---
@@ -60,8 +60,6 @@ ht-degree: 0%
 1. 選擇要為其安裝的團隊 [!DNL Workfront for Microsoft Teams] 應用程式。
 1. 按一下 **[!UICONTROL 商店]** 在側面導航欄上。
 
-   ![ms_teams_Store_icon.png](assets/ms-teams-store-icon-319x809.png)
-
 1. 在 **[!UICONTROL 全部搜尋]** 框，類型 *[!DNL Workfront]*.
 
 1. 按一下 **[!DNL Workfront]** 卡片，並依照精靈中的指示操作。
@@ -69,9 +67,7 @@ ht-degree: 0%
 
    ![ms_teams_add_to_a_team_option.png](assets/ms-teams-add-to-a-team-option-350x122.png)
 
-1. 選擇 **[!UICONTROL 一般]** 若要在所選團隊的該管道中使用應用程式，請按一下 **[!UICONTROL 設定]**.
-
-   ![teams_select_which_channel_to_use_the_app_install_PNG](assets/teams-select-which-channel-to-use-the-app-install-350x330.png)
+1. 對於通道，請選取 **[!UICONTROL 一般]** 若要在所選團隊的該管道中使用應用程式，請按一下 **[!UICONTROL 設定]** 功能。
 
 1. 安裝完成時，安裝成功的通知會顯示在 [!UICONTROL 一般] 所選團隊的管道。 團隊的所有成員都可以查看此通知。
 1. （選用）固定 [!DNL Workfront] 應用程式可更輕鬆存取：
@@ -79,8 +75,6 @@ ht-degree: 0%
    1. 按一下 **[!UICONTROL 更多]** 圖示 [!UICONTROL 一般] 頻道。
 
    1. 將滑鼠移至 [!DNL Workfront] 清單中的應用程式，然後按一下 **[!UICONTROL 更多]** 表徵圖。
-
-      ![teams_pin_workfront_link.PNG](assets/teams-pin-workfront-link-350x80.png)
 
    1. 按一下 **[!UICONTROL 針]**.
 
@@ -104,18 +98,14 @@ ht-degree: 0%
 1. 登入 [!DNL Microsoft Teams] as a [!DNL Microsoft] 團隊擁有者。
 1. 按一下 **[!UICONTROL 更多]** 表徵圖 [!DNL Workfront for Microsoft Teams].
 
-   ![ms_teams_more_icon_for_team_png](assets/ms-teams-more-icon-for-team-350x177.png)
-
 1. 按一下 **[!UICONTROL 管理團隊]**.
 1. 選取 **[!UICONTROL 應用程式]** ，然後按一下 **[!UICONTROL 上傳自訂應用程式]** 在螢幕的右下角。
 
 1. 瀏覽儲存在電腦上的專用檔案，然後按照安裝步驟進行安裝 [!DNL Workfront for Microsoft Teams].
 1. 安裝完成後，所選團隊的「一般」通道中會顯示安裝成功的通知。 團隊的所有成員都可以查看此通知。
-1. （選用）按一下 **[!UICONTROL 更多]** 圖示 **[!UICONTROL 在這裡輸入您的問題]** 欄位。
+1. （選用）按一下 **[!UICONTROL 更多]** （三個點）圖示 **[!UICONTROL 在這裡輸入您的問題]** 欄位。
 
 1. （可選）將滑鼠移至 [!DNL Workfront] 清單中的應用程式，然後按一下 **[!UICONTROL 更多]** 表徵圖。
-
-   ![teams_pin_workfront_link.PNG](assets/teams-pin-workfront-link-350x80.png)
 
 1. （選用）按一下 **[!UICONTROL 針]**.
 
@@ -138,15 +128,11 @@ As a [!DNL Microsoft Teams] 團隊所有者，您必須安裝 [!DNL Workfront fo
 
    此 [!DNL Workfront] 機器人聊天通道已新增至您的 [!DNL Microsoft Teams] 聊天頻道。
 
-   ![teams_workfront_bot_channel_highled.PNG](assets/teams-workfront-bot-channel-highlighted-350x220.png)
-
 1. 前往 [!DNL Workfront] 機器人聊天通道 [!DNL Microsoft Teams] 和類型 *[!UICONTROL 登入]* 在 **[!UICONTROL 在這裡輸入您的問題]** 欄位。
 
    或
 
    按一下 **[!UICONTROL 登入]**.
-
-   ![](assets/ms-teams-log-in-prompt-with-4-tabs-350x139.png)
 
    隨即開啟新的瀏覽器標籤。
 

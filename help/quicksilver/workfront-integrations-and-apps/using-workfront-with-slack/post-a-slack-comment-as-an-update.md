@@ -6,9 +6,9 @@ description: 您可以新增Slack備注，作為Adobe Workfront中特定專案�
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 18b22f2c-2490-41e2-afb9-0551f9579973
-source-git-commit: 04782dfdb8c1ed24bb9c7399a01511c0cbd2dec3
+source-git-commit: 65bfeafe67a10c72e87a02e0ece285df619fcb81
 workflow-type: tm+mt
-source-wordcount: '271'
+source-wordcount: '275'
 ht-degree: 0%
 
 ---
@@ -45,19 +45,13 @@ ht-degree: 0%
 
 ## 張貼 [!DNL Slack] 以更新形式在 [!DNL Workfront]
 
-1. 將滑鼠指標暫留在 [!DNL Slack] 管道，然後按一下 **[!UICONTROL 更多動作]** 表徵圖。
-
-   ![](assets/slack-more-icon.png)
+1. 將滑鼠指標暫留在 [!DNL Slack] 管道，然後按一下 **[!UICONTROL 更多動作]** （三點）圖示。
 
 1. 按一下 **[!UICONTROL 發佈更新] ...`<the name of your Workfront app>`**.
 
    >[!NOTE]
    >
    >您可能需要按一下 **[!UICONTROL 更多訊息快速鍵]** 並向下捲動以找出 **[!UICONTROL 發佈更新]** 選項。
-   >
-   >
-   >![](assets/slack-more-message-shortcuts.png)
-
 1. 在 **[!UICONTROL 項目、任務或問題]** 框中，開始鍵入要添加更新的項目、任務或問題的名稱，然後按一下項目、任務或問題的名稱，該名稱將出現在清單中。 在對象出現在清單中之前，您必須具有查看對象的訪問權限。
 1. （選用）在 **[!UICONTROL 包括其他用戶]** 框中，開始鍵入您可以查看的更新中包含的用戶的名稱，然後在該名稱出現在清單中時按一下。
 1. 按一下 **[!UICONTROL 提交]**.
@@ -66,6 +60,6 @@ ht-degree: 0%
 
 1. （可選）按一下專案、工作或問題的名稱，您張貼更新以在中存取該更新 [!DNL Workfront].
 
-   在 [!DNL Workfront] 更新源於 [!DNL Slack].
+   注釋源於 [!DNL Slack]，留言會顯示訊息「[!UICONTROL 發佈自 [!DNL Slack]]在 [!DNL Workfront].
 
    ![](assets/slack-update-posted-from-slack-350x112.png)

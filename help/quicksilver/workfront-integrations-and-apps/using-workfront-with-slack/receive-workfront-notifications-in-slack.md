@@ -6,9 +6,9 @@ description: 接收 [!DNL Adobe Workfront] 通知 [!DNL Slack]
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: bc1ce4ea-58be-4cd7-ab59-7dddb82949b9
-source-git-commit: 088570f516bbea2e6fd81b1f711151d8941ca71e
+source-git-commit: 65bfeafe67a10c72e87a02e0ece285df619fcb81
 workflow-type: tm+mt
-source-wordcount: '603'
+source-wordcount: '589'
 ht-degree: 6%
 
 ---
@@ -66,8 +66,6 @@ ht-degree: 6%
 
    `/wf settings`
 
-   <img src="assets/slack-configuring-settings-350x302.png" style="width: 350;height: 302;">
-
 1. 預設會啟用所有通知。\
    停用下列任一通知：
 
@@ -107,25 +105,15 @@ ht-degree: 6%
 
    * 按一下 **[!UICONTROL 努力]** 接受工作。
 
-      <!--   
-     <img src="assets/slack-assigned-to-a-task-notification-350x198.png" alt="slack_assigned_to_a_task_notification.png" style="width: 350;height: 198;" data-mc-conditions="QuicksilverOrClassic.Draft mode">   
-     -->
+   * （條件式和選用式）按一下 **[!UICONTROL 回覆[!DNL Workfront]]** 要回複評論，請鍵入您的回復，然後按一下 **[!UICONTROL 回覆]**.
 
-   * （條件式和選用式）按一下 **[!UICONTROL 回覆[!DNL Workfront]]** 要回複評論，請鍵入您的回復，然後按一下 **[!UICONTROL 回覆]**.\
+   * （條件式和選用式）按一下 **[!UICONTROL 核准]** 或 **[!UICONTROL 拒絕]** 批准或拒絕等待批准的任務、問題或項目。
 
-      ![slack_tagged_in_a_comment_notification.png](assets/slack-tagged-in-a-comment-notification.png)
+   * （條件式和選用式）按一下 **[!UICONTROL 核准]**, **[!UICONTROL 變更]**，或 **[!UICONTROL 拒絕]**、批准、批准更改或拒絕文檔。
 
-   * （條件式和選用式）按一下 **[!UICONTROL 核准]** 或 **[!UICONTROL 拒絕]** 批准或拒絕等待您批准的任務、問題或項目。\
-
-      ![slack_approve_task_notification.png](assets/slack-approve-task-notification-350x105.png)
-
-   * （條件式和選用式）按一下 **[!UICONTROL 核准]**, **[!UICONTROL 變更]**，或 **[!UICONTROL 拒絕]**、批准、批准更改或拒絕文檔。\
-
-      ![slack_approve_a_document.png](assets/slack-approve-a-document-350x362.png)\
       您也可以將滑鼠移至檔案的縮圖上，然後在核准前按一下放大鏡圖示，即可檢視檔案的較大預覽。\
       僅核准Slack [檔案類型](https://api.slack.com/types/file) 可預覽。
 
    * （條件式和選用式）按一下 **[!UICONTROL 授予]** 或 **[!UICONTROL 忽略]** 授予或忽略其他使用者的更多存取權要求。
 
-      ![](assets/slack-access-approvals-list-350x213.png)\
       您會收到確認，確認您的動作已在 [!DNL Workfront]，針對您在通知中做出的每項決策。

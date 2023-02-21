@@ -6,9 +6,9 @@ description: 您可以轉換 [!DNL Outlook] 電子郵件至 [!DNL Adobe Workfron
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: fcd02116-ffeb-43d3-8541-5e30e6cfdc5e
-source-git-commit: 04782dfdb8c1ed24bb9c7399a01511c0cbd2dec3
+source-git-commit: 16acba0f1981b75ca141a36d096fb6f5d37c40d1
 workflow-type: tm+mt
-source-wordcount: '364'
+source-wordcount: '355'
 ht-degree: 0%
 
 ---
@@ -48,11 +48,10 @@ ht-degree: 0%
 1. 按一下 **[!DNL Workfront]** 圖示來顯示 [!DNL Workfront] 載入項。\
    您可能需要按一下電子郵件右上方的向下箭頭，才能存取 [!DNL Workfront] 表徵圖。
 
-1. 按一下 **[!UICONTROL 功能表]** 表徵圖以顯示可用清單 [!DNL Workfront] 選項。\
-   ![o365_addin_menu_icon.png](assets/o365-addin-menu-icon.png)
+1. 按一下 **[!UICONTROL 功能表]** ![o365_addin_menu_icon.png](assets/o365-addin-menu2-icon.png) 表徵圖以顯示可用清單 [!DNL Workfront] 選項。\
+
 
 1. 按一下 **[!UICONTROL 添加到工作]**.\
-   ![outlook_add_to_work_menu.png](assets/outlook-add-to-work-menu-242x337.png)
 
 1. 取消選取 **[!UICONTROL 新增至專案]** 欄位。
 1. （選用）您可以先從電子郵件更新下列資訊，再儲存為任務：
@@ -68,4 +67,3 @@ ht-degree: 0%
 
 1. （選用）導覽回 [!DNL Outlook]，然後選取原始電子郵件。\
    在 [!DNL Workfront] 外掛程式面板中，請注意含有連結的確認，該連結會將電子郵件新增至Workfront作為任務。 連結包含轉換日期。\
-   ![outlook_standalone_task_added.png](assets/outlook-standalone-task-added-350x123.png)

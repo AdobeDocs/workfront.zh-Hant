@@ -6,9 +6,9 @@ description: 當您收到 [!DNL Adobe Workfront] 在Outlook收件箱中，您可
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 36239da6-b5f2-423c-9e81-af78bc31bf26
-source-git-commit: 04782dfdb8c1ed24bb9c7399a01511c0cbd2dec3
+source-git-commit: 16acba0f1981b75ca141a36d096fb6f5d37c40d1
 workflow-type: tm+mt
-source-wordcount: '248'
+source-wordcount: '245'
 ht-degree: 0%
 
 ---
@@ -48,14 +48,13 @@ ht-degree: 0%
 1. 按一下 **[!DNL Workfront]** 圖示來顯示Workfront增益集。\
    您可能需要按一下電子郵件右上方的向下箭頭，才能存取 [!DNL Workfront] 表徵圖。
 
-1. 按一下 **[!UICONTROL 功能表]** 表徵圖以顯示可用清單 [!DNL Workfront] 選項。\
-   ![o365_addin_menu_icon.png](assets/o365-addin-menu-icon.png)
+1. 按一下 **[!UICONTROL 功能表]** 圖示 ![o365_addin_menu_icon.png](assets/o365-addin-menu2-icon.png) 顯示可用清單 [!DNL Workfront] 選項。\
+
 
 1. 按一下 **[!UICONTROL 回覆評論]**.
 1. 在提供的欄位中指定您的註解。
 1. （選用）按一下 **[!UICONTROL 包括其他]**，開始輸入您要納入更新的使用者名稱，然後在下拉式清單中出現時按一下名稱。\
    重複此程式以包含其他使用者，然後按一下 **[!UICONTROL 完成]**.\
    依預設，您回覆的使用者會收到通知，無論您是否加入。\
-   ![o365_addin_includeothers.png](assets/o365-addin-includeothers.png)
 
 1. 按一下 **[!UICONTROL 註解]**.

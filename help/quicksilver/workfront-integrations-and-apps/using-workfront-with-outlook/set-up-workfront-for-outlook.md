@@ -6,9 +6,9 @@ description: Adobe Workfront Fusion提供與Outlook的整合。 本文說明如�
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 57f0560b-68c2-4654-863e-bd728e76da29
-source-git-commit: 088570f516bbea2e6fd81b1f711151d8941ca71e
+source-git-commit: 16acba0f1981b75ca141a36d096fb6f5d37c40d1
 workflow-type: tm+mt
-source-wordcount: '795'
+source-wordcount: '786'
 ht-degree: 0%
 
 ---
@@ -123,8 +123,6 @@ ht-degree: 0%
 
 1. 搜尋 **[!DNL Workfront]** 在 **[!UICONTROL 搜尋增益集]** 欄位，然後按 **[!UICONTROL 輸入]**.
 
-   ![workfront_for_outlook_on_the_web_png](assets/workfront-for-outlook-on-the-web-350x116.png)
-
 1. 當它出現在清單上時，按一下 **新增**.
 
 ### [!DNL Workfront for Outlook] on [!UICONTROL Windows] 或 [!DNL Mac] {#workfront-for-outlook-on-windows-or-mac}
@@ -132,8 +130,6 @@ ht-degree: 0%
 1. 按一下 **[!UICONTROL 首頁]** > **[!UICONTROL 商店]** 在絲帶上。
 
 1. 搜尋 **[!DNL Workfront]** 在 **[!UICONTROL 搜尋]** 欄位，然後按 **[!UICONTROL 輸入]**.
-
-   ![o365_addin_search.png](assets/o365-addin-search-350x158.png)
 
 1. 按一下切換以啟用 **[!UICONTROL [!DNL Workfront]載入項]**.
 

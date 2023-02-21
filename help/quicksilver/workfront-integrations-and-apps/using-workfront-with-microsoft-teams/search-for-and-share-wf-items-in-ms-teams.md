@@ -6,16 +6,16 @@ description: 您可以搜尋 [!DNL Workfront] 任何 [!DNL Adobe WorkfrontWorkfr
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 71d83723-daea-4b7b-8e5b-cfcf414611fe
-source-git-commit: 088570f516bbea2e6fd81b1f711151d8941ca71e
+source-git-commit: 473a1fe3cb7e247749d9b540e3e5556cbe17a1dd
 workflow-type: tm+mt
-source-wordcount: '414'
+source-wordcount: '412'
 ht-degree: 1%
 
 ---
 
 # 搜尋和共用 [!DNL Adobe Workfront] 項目 [!DNL Microsoft Teams]
 
-您可以搜尋 [!DNL Workfront] 任何 [!DNL Adobe WorkfrontWorkfront] 頻道 [!DNL Microsoft Teams] 並與團隊成員共用這些項目。
+您可以搜尋 [!DNL Workfront] 任何 [!DNL Adobe Workfront] 頻道 [!DNL Microsoft Teams] 並與團隊成員共用這些項目。
 
 * [共用的必要條件 [!DNL Workfront] 項目 [!DNL Microsoft Teams]](#prerequisites-for-sharing-workfront-items-in-microsoft-teams-prerequisites-for-sharing-workfront-items-in-microsoft-teams)
 * [搜尋和共用 [!DNL Workfront] 項目 [!DNL Microsoft Teams]](#search-for-and-share-adobe-workfront-items-in-microsoft-teams)
@@ -94,5 +94,5 @@ ht-degree: 1%
    這會傳送訊息，包括 [!DNL Workfront] 項目。\
    管道的所有成員都能看到此訊息，包括 [!DNL Workfront] 卡片。
 
-1. 按一下 **[!UICONTROL 在Workfront中檢視]** 以在Workfront中檢視項目。\
-   只有具有 [!DNL Workfront] 授權可在Workfront中檢視項目。
+1. 按一下 **[!UICONTROL 在Workfront中檢視]** 若要在 [!DNL Workfront].\
+   只有具有 [!DNL Workfront] 許可證可以在 [!DNL Workfront].
