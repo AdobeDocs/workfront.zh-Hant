@@ -7,7 +7,7 @@ description: 您無需離開G Suite即可檢視及管理工作項目的詳細資
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 0f15b05f-3b4a-4f0b-9d9a-21a0f97de1ea
-source-git-commit: 0934ae23a8e80dd18872efef7d274bd57d227647
+source-git-commit: f818eadcfbb5a897485a25c25fc25ad057567116
 workflow-type: tm+mt
 source-wordcount: '484'
 ht-degree: 0%
@@ -57,7 +57,6 @@ ht-degree: 0%
 
    選擇任務或問題時， **[!UICONTROL 詳細資料]** 標籤。 上方的區域 **[!UICONTROL 詳細資料]** 頁簽顯示父對象的名稱、任務或問題的名稱，以及 [!UICONTROL 到期日] （如果是任務）或 [!UICONTROL 優先順序日期] （如果是問題）。
 
-   ![](assets/details-tab.png)
 
    您可以在此標籤上執行各種工作，而不需離開 [!DNL G Suite]，包括下列項目：
 
