@@ -7,7 +7,7 @@ description: 篩選事件訂閱訊息
 author: John
 feature: Workfront API
 exl-id: 8364c4b9-5604-47ab-8b4b-db6836dcd8ca
-source-git-commit: 606d19b8a83b833aba6d6b15231a8683aa2cee40
+source-git-commit: c1cec2c08c66c704385cde1abd0c019fd59702da
 workflow-type: tm+mt
 source-wordcount: '1800'
 ht-degree: 0%
@@ -266,7 +266,7 @@ Java和Python示例之間的主要區別是，在Java示例中，事件訂閱消
 
 事件訂閱服務的逾時限制為 **五秒** 適用於所有傳送請求。 如果郵件的傳送超過允許的時間，事件訂閱服務就會開始該郵件的重試週期。
 
-例如，您建立了類似於 [篩選事件訊息](#filtering-event-messages) 並且您包含資料庫查閱，以判斷是否需要該訊息。 資料庫查找以及所需處理和Lambda冷啟動所需的時間可能需要超過五秒，導致事件訂閱服務重試傳遞消息。
+例如，您建立了類似下列範例中的其中一個專案群組ID篩選器： [篩選事件訊息](#filtering-event-messages) 並且您包含資料庫查閱，以判斷是否需要該訊息。 資料庫查找以及所需處理和Lambda冷啟動所需的時間可能需要超過五秒，導致事件訂閱服務重試傳遞消息。
 
 您可以將流程中耗時的部分與負責確定報文是否要處理和傳送的邏輯分開，以避免重試。 如此一來，您就可以接受訊息，並傳回200層級的回應給事件訂閱服務，同時以非同步方式繼續在背景處理或篩選訊息(請參閱 [Java](#java) 例如)。
 
@@ -301,7 +301,7 @@ Java和Python示例之間的主要區別是，在Java示例中，事件訂閱消
 public static List<Map<String, Object>> projectGroupFilteringStartupRecoveryQuery(LambdaLogger logger) {
     HttpClient httpClient = HttpClientBuilder.create().build();
 
-    // Produces a URL of https://<my-domain>.workfront.com/attask/api/v9.0/PROJ/search?groupID=<DESIRED_GROUP_ID>
+    // Produces a URL of https://<my-domain>.workfront.com/attask/api/v15.0/PROJ/search?groupID=<DESIRED_GROUP_ID>
     replacing <...> with the appropriate values
     URI projectGroupQueryUri = generateProjectRecoveryQueryURI(logger);
 

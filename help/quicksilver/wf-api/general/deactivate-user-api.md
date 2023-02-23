@@ -7,7 +7,7 @@ description: 透過API停用使用者
 author: John
 feature: Workfront API
 exl-id: 45b06cce-4622-4739-b9f3-2edb9101c099
-source-git-commit: 50675b7af3fcd2188a18391732a93a7b67454db9
+source-git-commit: c1cec2c08c66c704385cde1abd0c019fd59702da
 workflow-type: tm+mt
 source-wordcount: '199'
 ht-degree: 0%
@@ -28,7 +28,7 @@ ht-degree: 0%
 1. 使用下列API請求產生API金鑰：
 
 ```
-<domain>.my.workfront.com/attask/api/v7.0/user?action=generateApiKey&username=`username`&password=`password`&method=PUT`
+<domain>.my.workfront.com/attask/api/v15.0/user?action=generateApiKey&username=`username`&password=`password`&method=PUT`
 ```
 
 1. 找出要停用之使用者的GUID。
@@ -36,13 +36,13 @@ ht-degree: 0%
    1. 使用下列API請求來擷取系統中所有使用者的GUID，請注意 **isActive** 欄位顯示 **true** 適用於目前使用中和 **false** 已停用的使用者：
 
 ```
-<domain>`.my.workfront.com/attask/api/v7.0/USER/search?fields=isActive
+<domain>`.my.workfront.com/attask/api/v15.0/USER/search?fields=isActive
 ```
 
 1. 找到要停用的用戶的GUID，請使用以下 **PUT** 請求變更使用者的 **isActive** 欄位值 **false**:
 
 ```
-<domain>`.my.workfront.com/attask/api/v7.0/USER/`<user's GUID>`?updates={"isActive":"false"}&method=put&apiKey=`<apiKey>`&fields=isActive
+<domain>`.my.workfront.com/attask/api/v15.0/USER/`<user's GUID>`?updates={"isActive":"false"}&method=put&apiKey=`<apiKey>`&fields=isActive
 ```
 
 1. 回應會顯示 **isActive** 欄位值已從 **true** to **false**&#x200B;表示用戶已停用：
