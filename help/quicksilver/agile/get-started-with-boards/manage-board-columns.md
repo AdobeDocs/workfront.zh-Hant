@@ -6,16 +6,14 @@ description: 依預設，新展示板包含三欄。 您可以新增更多欄、
 author: Lisa
 feature: Agile
 exl-id: a736cdfe-5ddc-4bf4-82a1-a78d16c0d70b
-source-git-commit: 3032fe730d57418d0680f2423ebb389cbe8bae1e
+source-git-commit: ba6b5db8416e0e564b155dd040933b41fe87c286
 workflow-type: tm+mt
-source-wordcount: '1019'
+source-wordcount: '1062'
 ht-degree: 0%
 
 ---
 
 # 管理展示板欄
-
-{{highlighted-preview}}
 
 依預設，新展示板包含三欄。 您可以新增更多欄、變更欄的順序、重新命名欄，以及刪除您不需要的任何欄。
 
@@ -121,13 +119,17 @@ ht-degree: 0%
       也會顯示已連接卡的狀態轉換選項。 （狀態轉換不適用於臨機卡。） 這些選項決定了應用於中的任務或問題的狀態 [!DNL Workfront] 當已連接的卡移動到此列時。
 
    1. 要更改預設狀態轉換選擇，請按一下 **[!UICONTROL 編輯]** 圖示 ![編輯圖示](assets/edit-icon-spectrum.png).
-   1. <span class="preview">在預覽環境中：選取 [!UICONTROL **自訂**] 狀態和 [!UICONTROL **系統**] 狀態，以套用至「 」卡，適用於工作和問題。</span>
+   1. 如果您使用早期功能選擇加入：選取 [!UICONTROL **自訂**] 狀態，以套用至「 」卡，適用於工作和問題。
 
-      <span class="preview">將資訊卡移至此欄時， [!DNL Workfront] 會先嘗試套用自訂狀態（例如「已解析」）。 如果自訂狀態無法用於該卡片，Workfront會改用系統狀態（例如關閉）。</span>
+      將資訊卡移至此欄時， [!DNL Workfront] 會先嘗試套用自訂狀態（例如「已解析」）。 如果自訂狀態無法用於該卡片，Workfront會改用系統狀態（例如關閉）。 系統狀態是您在上述步驟b中選擇的狀態。
 
-      <span class="preview">此外，如果連接任務或問題的狀態更改為列策略中設定的自定義或系統狀態，則卡會自動移到列。</span>
+      此外，如果連接任務或問題的狀態更改為列策略中設定的自定義或系統狀態，則卡會自動移到列。
 
-   1. 在生產環境中：選擇任務狀態和問題狀態。 僅預設 [!DNL Workfront] 狀態可用，而非自訂狀態。
+      >[!NOTE]
+      >
+      >設定欄的預設自訂狀態只能透過早期功能選擇加入來使用。 如需詳細資訊，請參閱 [搶先選擇加入Adobe Workfront展示板的功能](/help/quicksilver/agile/get-started-with-boards/boards-early-feature-opt-in.md).
+
+   1. 如果您未使用早期功能選擇加入：選擇任務狀態和問題狀態。 僅預設 [!DNL Workfront] 狀態可用，而非自訂狀態。
 
       >[!NOTE]
       >
