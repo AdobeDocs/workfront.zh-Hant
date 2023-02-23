@@ -6,7 +6,7 @@ description: 此 [!UICONTROL 展示板] 控制面板顯示您有權存取的展�
 author: Lisa
 feature: Agile
 exl-id: bb275f4f-efaf-4dcc-b184-40e015f089b6
-source-git-commit: 553e3dd6c903f0ba2f95019b2824cf944745bf09
+source-git-commit: e27965502ef7943f901daecd12897a4d3428068e
 workflow-type: tm+mt
 source-wordcount: '781'
 ht-degree: 0%
@@ -15,15 +15,13 @@ ht-degree: 0%
 
 # 使用展示板控制面板
 
-{{highlighted-preview}}
-
-展示板控制面板顯示展示板清單 <span class="preview">和集合</span> 您有權存取的展示板，包括您建立的展示板和您新增的展示板。 <span class="preview">您有權存取但不屬於集合的個別展示板會先顯示。</span>
+展示板控制面板會顯示您有權存取的展示板和集合清單，包括您已建立的展示板和已新增至的展示板。 您有權存取但不屬於集合的個別展示板會先顯示。
 
 >[!NOTE]
 >
 >集合只能透過 [!DNL Workfront] [!UICONTROL 展示板].
 
-在控制面板上，您可以對展示板和 <span class="preview">集合</span>:
+在控制面板上，您可以對展示板和集合執行下列動作：
 
 * 封存展示板（無法封存集合）
 * 篩選展示板清單
@@ -31,7 +29,7 @@ ht-degree: 0%
 * 搜尋展示板或集合
 * 刪除展示板或集合
 
-有關建立新展示板或編輯現有展示板的資訊，請參閱 [建立或編輯展示板](../../agile/get-started-with-boards/create-edit-board.md). <span class="preview">如需建立新集合的相關資訊，請參閱 [管理集合](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md).</span>
+有關建立新展示板或編輯現有展示板的資訊，請參閱 [建立或編輯展示板](../../agile/get-started-with-boards/create-edit-board.md). 如需建立新集合的相關資訊，請參閱 [管理集合](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md).
 
 ## 存取需求
 
@@ -72,9 +70,9 @@ ht-degree: 0%
 
    在控制面板上套用預設值以外的排序時，排序圖示上會顯示指標 ![已應用排序](assets/sort-applied-boards.png).
 
-## 搜尋展示板 <span class="preview">或集合</span>
+## 搜尋展示板或集合
 
-<span class="preview">您可以在「展示板」區域中搜尋特定展示板，或在「集合」區域中搜尋特定集合。</span>
+您可以在「展示板」區域中搜尋特定展示板，或在「集合」區域中搜尋特定集合。
 
 1. 按一下 **[!UICONTROL 主菜單]** 圖示 ![](assets/main-menu-icon.png) 在 [!DNL Adobe Workfront]，然後按一下 **[!UICONTROL 展示板]**.
 1. 按一下 [!UICONTROL **搜尋**] 並輸入搜尋詞。 然後，按Enter鍵。
@@ -102,11 +100,11 @@ ht-degree: 0%
 
 1. 若要還原已封存的展示板，請按一下 **[!UICONTROL 更多]** 功能表 ![「更多」菜單表徵圖](assets/more-icon-spectrum.png) 在展示板上選取 **[!UICONTROL 還原]**.
 
-## 刪除展示板 <span class="preview">或集合</span>
+## 刪除展示板或集合
 
 當您刪除展示板時，會從 [!DNL Workfront] 無法恢復。 展示板上的任何資訊卡也會隨展示板一起刪除。
 
-<span class="preview">刪除集合會刪除集合中的所有展示板。</span>
+刪除集合會刪除集合中的所有展示板。
 
 >[!NOTE]
 >
@@ -115,11 +113,9 @@ ht-degree: 0%
 1. 按一下 **[!UICONTROL 主菜單]** 圖示 ![](assets/main-menu-icon.png) 在 [!DNL Adobe Workfront]，然後按一下 **[!UICONTROL 展示板]**.
 1. 按一下 **[!UICONTROL 更多]** 功能表 ![[!UICONTROL 更多功能表]](assets/more-icon-spectrum.png) 在展示板或集合上，然後選取 **[!UICONTROL 刪除]**.
 
-   <span class="preview">在集合中，功能表位於右側，位於 [!UICONTROL **檢視集合**] 按鈕。</span>
+   在集合中，功能表位於右側，位於 [!UICONTROL **檢視集合**] 按鈕。
 
 1. 按一下 **[!UICONTROL 刪除展示板]** 或 [!UICONTROL **刪除集合**] 在確認訊息上。
-
-<div class="preview">
 
 ## 將展示板移至集合
 
@@ -135,5 +131,3 @@ ht-degree: 0%
 
    展示板會移入集合中，且不再顯示於 [!UICONTROL 展示板] 的上界。
 如果您尚未建立集合，系統會提示您建立集合，以將展示板移入。
-
-</div>

@@ -5,9 +5,9 @@ title: 自訂卡片上顯示的欄位
 description: 您可以借由停用欄位來自訂卡片上顯示的欄位，使其不會顯示在完整卡片或縮合檢視中，或隱藏縮合卡片檢視上的欄位。
 author: Lisa
 feature: Agile
-source-git-commit: 5b7253fb0313e4ba1a2959497c0b3f92cff30e13
+source-git-commit: e27965502ef7943f901daecd12897a4d3428068e
 workflow-type: tm+mt
-source-wordcount: '293'
+source-wordcount: '300'
 ht-degree: 0%
 
 ---
@@ -15,11 +15,9 @@ ht-degree: 0%
 
 # 自訂卡片上顯示的欄位
 
-{{highlighted-preview-article-level}}
-
 >[!NOTE]
 >
->只有透過Workfront展示板的早期功能選擇，才能使用此功能。
+>只有透過早期的功能選擇加入，才能使用此功能 [!DNL Workfront] [!UICONTROL 展示板]. 如需詳細資訊，請參閱 [搶先選擇加入Adobe Workfront展示板的功能](/help/quicksilver/agile/get-started-with-boards/boards-early-feature-opt-in.md).
 
 依預設，所有可用欄位都會顯示在資訊卡上，包括在資訊卡開啟時的完整檢視，以及展示板上的縮合資訊卡檢視。 您可以自訂要顯示的欄位：
 
@@ -62,7 +60,7 @@ ht-degree: 0%
 1. 按一下 [!UICONTROL **設定**] ，開啟「設定」面板。
 1. 展開 [!UICONTROL **卡片**].
 
-   預設會啟用所有欄位。
+   大部分欄位預設為啟用。
 
 1. 關閉欄位以在兩個卡片檢視中停用該欄位。
 1. 按一下「隱藏」圖示 ![隱藏表徵圖](assets/eye-hide-icon.png) 欄位旁邊，隱藏在縮合的檢視中。

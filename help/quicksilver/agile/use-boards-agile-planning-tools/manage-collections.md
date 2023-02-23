@@ -6,7 +6,7 @@ title: 管理集合
 description: 集合是一組可設定的展示板，用於協作工作。
 author: Lisa
 feature: Agile
-source-git-commit: 553e3dd6c903f0ba2f95019b2824cf944745bf09
+source-git-commit: e27965502ef7943f901daecd12897a4d3428068e
 workflow-type: tm+mt
 source-wordcount: '525'
 ht-degree: 4%
@@ -14,8 +14,6 @@ ht-degree: 4%
 ---
 
 # 管理集合
-
-{{highlighted-preview-article-level}}
 
 集合是一組可設定的展示板，用於協作工作。 集合可以包含從範本建立的不同類型的展示板。
 
