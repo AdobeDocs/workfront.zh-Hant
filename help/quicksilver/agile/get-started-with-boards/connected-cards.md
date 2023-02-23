@@ -6,14 +6,16 @@ description: 您可以在主板上新增資訊卡，連線至Workfront中的現�
 author: Lisa
 feature: Agile
 exl-id: c6d979dd-e4a4-48a5-a91b-b31d7ef848d1
-source-git-commit: de7be49c7ee3fb58c332edd2f6367b31f2f79c17
+source-git-commit: 2a71ffd9180f2fe783675ae005165e1fd078178a
 workflow-type: tm+mt
-source-wordcount: '1079'
-ht-degree: 1%
+source-wordcount: '1227'
+ht-degree: 0%
 
 ---
 
 # 在主板上使用連接的卡
+
+{{highlighted-preview}}
 
 您可以在主板上新增卡片，卡片已連線至 [!DNL Workfront].
 
@@ -163,7 +165,7 @@ ht-degree: 1%
 
 建立隨選卡片後，您可將其轉換為已連線的卡片。 如需臨機卡的詳細資訊，請參閱 [新增臨機卡至展示板](/help/quicksilver/agile/get-started-with-boards/add-card-to-board.md).
 
-1. 存取展示板並開啟臨機卡。
+1. 存取展示板並開啟臨機資訊卡。
 1. 驗證卡上的名稱和說明。 它們將新增至您在中建立的任務或問題 [!DNL Workfront].
 1. 在 [!UICONTROL 連線] 卡片詳細資訊的區域，按一下 **[!UICONTROL 連線Workfront]**.
 1. 在 [!UICONTROL 連接卡] ，選擇是建立任務還是問題。
@@ -182,3 +184,27 @@ ht-degree: 1%
    專案名稱會顯示在卡片詳細資訊的「連線」區域中。
 
 1. 按一下 **[!UICONTROL 關閉]** 回到董事會。
+
+<div class="preview">
+
+## 登錄已連接的卡的時數
+
+>[!NOTE]
+>
+>只有透過Workfront展示板的早期功能選擇，才能使用此功能。
+
+您必須擁有正確的權限才能登錄所連接任務或問題的數小時。
+
+依預設，連線的卡片上不會顯示時間記錄欄位。 您必須啟用 [!UICONTROL **小時**] 在 [!UICONTROL 設定] 區域 [!UICONTROL 卡片]. 如需詳細資訊，請參閱 [自訂卡片上顯示的欄位](/help/quicksilver/agile/get-started-with-boards/customize-fields-on-card.md).
+
+1. 輸入任務或問題的小時數。
+1. 選取 [!UICONTROL 小時類型] （如果與預設值不同）。
+1. 按一下 [!UICONTROL **記錄時間**].
+
+   ![登錄卡時數](assets/log-hours-on-card.png)
+
+   卡上記錄的時間也會儲存在所連接的任務或問題上。
+
+卡上的記錄時間與任務或問題的記錄時間相同。 如需詳細資訊，請參閱文章中的「登入專案、工作或問題的時間」 [記錄時間](/help/quicksilver/timesheets/create-and-manage-timesheets/log-time.md).
+
+</div>
