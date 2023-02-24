@@ -6,14 +6,16 @@ title: 管理集合
 description: 集合是一組可設定的展示板，用於協作工作。
 author: Lisa
 feature: Agile
-source-git-commit: e27965502ef7943f901daecd12897a4d3428068e
+source-git-commit: d14713f75857d00376f576e4b70f036c9b43e503
 workflow-type: tm+mt
-source-wordcount: '525'
+source-wordcount: '510'
 ht-degree: 4%
 
 ---
 
 # 管理集合
+
+{{highlighted-preview-article-level}}
 
 集合是一組可設定的展示板，用於協作工作。 集合可以包含從範本建立的不同類型的展示板。
 
@@ -60,7 +62,7 @@ ht-degree: 4%
 
 | 範本 | 說明 |
 |---------|----------|
-| 基本展示板 | 展示板上提供三個預設欄。 您可以新增欄，並重新命名或刪除預設欄。 <p>展示板上提供三個預設欄。 您可以新增欄，並重新命名或刪除預設欄。 |
+| 基本展示板 | 展示板上提供三個預設欄。 您可以新增欄，並重新命名或刪除預設欄。 <p>未應用列策略。 |
 | Kanban 展示板 | 展示板上提供下列欄：積壓、新建、正在進行、完成和暫掛。 您可以新增欄，並重新命名或刪除預設欄。<p>要使用積壓，必須為進氣列設定篩選器。 如需詳細資訊，請參閱 [向展示板新增進紙欄](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md). <p>要查看每列的預設策略，請按一下 [!UICONTROL **更多** 功能表] 在欄上選取 [!UICONTROL **編輯**]. 您可以變更任何這些預先設定的原則。 如需詳細資訊，請參閱 [管理展示板欄](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md). |
 | 追溯展示板 | 展示板上提供下列欄：什麼進展順利？ 有哪些可以改進的地方? 我們應該為誰慶祝? 我們可以做些什麼來加快進度? 您可以新增欄，並重新命名或刪除預設欄。 <p>未應用列策略。 |
 
