@@ -4,9 +4,9 @@ description: 23.2版本概觀
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: 7de3ebef55a9d11c3a417872f2cfcd1f4ea03640
+source-git-commit: 10c7e95f542cb3e05de62cff24f24439af140c0c
 workflow-type: tm+mt
-source-wordcount: '1231'
+source-wordcount: '1454'
 ht-degree: 0%
 
 ---
@@ -50,8 +50,8 @@ ht-degree: 0%
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-feb-6.md" class="MCXref xref" xrefformat="{para}">更名佈局模板中的管腳</span></a><span style="color: #ff0000;"> 預覽新增功能！</span>
-                        <p>您現在可以重新命名版面範本中的管腳，以讓使用者更有意義，而非使用固定頁面的預設名稱。 管理員建立的管腳將顯示給分配給佈局模板的所有用戶，用戶無法更名這些管腳。</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-feb-6.md" class="MCXref xref" xrefformat="{para}">更名佈局模板中的管腳</span></a>
+                        </span></a><p>您現在可以重新命名版面範本中的管腳，以讓使用者更有意義，而非使用固定頁面的預設名稱。 管理員建立的管腳將顯示給分配給佈局模板的所有用戶，用戶無法更名這些管腳。</p>
                     </td>
                     <td><p><b>可於下列日期使用：</b></p>
                         <ul>
@@ -83,9 +83,26 @@ ht-degree: 0%
                         </p>
                     </td>
                 </tr>
+                 <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-feb-20.md" class="MCXref xref" xrefformat="{para}">登錄主板上連接的卡的時數</a><span style="color: #ff0000;"> 預覽新增功能！</span></p>
+                        <p>您現在可以在連線卡上登錄數小時，就像處理任務或問題時一樣。 您必須擁有任務或問題的正確權限才能記錄時間。</p>
+                    </td>
+                    <td><p><b>可於下列日期使用：</b></p>
+                        <ul>
+                            <li>
+                                <p>預覽版本：2023年2月23日<br /></p>
+                            </li>
+                            <li>
+                                 <p>提早選擇加入的生產版本：2023年3月2日 <span style="color: #ff0000;"> 此功能僅透過Workfront展示板的早期功能選擇加入，才可在生產環境中使用。</span></p>
+                                <p>所有客戶的生產版本：隨第23.2發行版本一起推出</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
               <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-feb-13.md" class="MCXref xref" xrefformat="{para}">自訂卡片上的欄位顯示</a><span style="color: #ff0000;"> 預覽新增功能！</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-feb-13.md" class="MCXref xref" xrefformat="{para}">自訂卡片上的欄位顯示</a></p>
                         <p>現在可自訂，以設定卡片上顯示的欄位，包括卡片開啟時的完整檢視，以及展示板上的縮合卡片檢視。 當您停用欄位時，兩個檢視中都不會顯示。 您也可以啟用完整檢視中的欄位，並在縮合檢視中隱藏該欄位。</p>
                     </td>
                     <td><p><b>可於下列日期使用：</b></p>
@@ -102,7 +119,7 @@ ht-degree: 0%
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-feb-13.md" class="MCXref xref" xrefformat="{para}">為移入展示板欄的資訊卡定義預設狀態</a><span style="color: #ff0000;"> 預覽新增功能！</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-feb-13.md" class="MCXref xref" xrefformat="{para}">為移入展示板欄的資訊卡定義預設狀態</a></p>
                         <p>您現在可以在欄原則中選取自訂狀態和系統狀態，以設定預設狀態，以套用至移入特定欄的卡。 當您將資訊卡移入欄中時，Workfront會先嘗試套用自訂狀態（例如「等待意見」）。 如果自訂狀態不適用於該卡片，Workfront會改用系統狀態（例如「暫掛」）。 此外，如果連接任務或問題的狀態更改為列策略中設定的自定義或系統狀態，則卡會自動移到列。</p>
                     </td>
                     <td><p><b>可於下列日期使用：</b></p>
@@ -119,7 +136,7 @@ ht-degree: 0%
                 </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-feb-13.md" class="MCXref xref" xrefformat="{para}">集合現在可在Adobe Workfront展示板中使用</a><span style="color: #ff0000;"> 預覽新增功能！</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-feb-13.md" class="MCXref xref" xrefformat="{para}">集合現在可在Adobe Workfront展示板中使用</a></p>
                         <p>您現在可以在展示板控制面板上建立集合。 集合是一組用於協作工作的委員會。 為系列命名後，您可以使用一組範本將展示板新增至系列，這些範本提供預先定義的設定，例如欄名稱。</p>
                     </td>
                     <td><p><b>可於下列日期使用：</b></p>
@@ -190,7 +207,7 @@ ht-degree: 0%
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-feb-13.md" class="MCXref xref" xrefformat="{para}">複製專案時複製預算小時數</a><span style="color: #ff0000;"> 預覽新增功能！</span>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-feb-13.md" class="MCXref xref" xrefformat="{para}">複製專案時複製預算小時數</a>
                         <p>現在，您可以選擇在複製項目時複製業務案例或資源計畫員的「資源預算」區域中預算的小時數。 在此增強功能之前，為項目編入預算的時數不會轉移到複製的項目。</p>
                     </td>
                     <td><p><b>可於下列日期使用：</b></p>
@@ -225,7 +242,7 @@ ht-degree: 0%
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-feb-13.md" class="MCXref xref" xrefformat="{para}">引入「工作時間」欄位以準確計算用戶容量</a><span style="color: #ff0000;"> 預覽新增功能！</span>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-feb-13.md" class="MCXref xref" xrefformat="{para}">引入「工作時間」欄位以準確計算用戶容量</a>
                         <p>為了讓資源經理能夠準確計算用戶的可用性，並說明用戶投入實際、項目相關工作的時間，我們將「工作時間」概念引入Adobe Workfront。</p>
                         <p>建立或編輯用戶的配置檔案時，您可以為每個用戶定義「工作時間」欄位的值。</p>
                     </td>
@@ -328,6 +345,21 @@ Workfront Fusion的新功能可在生產環境中，於23.2版發行排程外的
 
 探索每個Adobe Workfront產品版本的學習方案、學習路徑、影片和指南的最新更新內容。 如需詳細資訊，請參閱 [培訓版本更新頁面](https://one.workfront.com/s/training-release-updates).
 
+### 即將從Workfront移除功能
+
+下列功能即將從Workfront中移除：
+
+#### **Workfront預設API的變更**
+
+為確保API呼叫能運用最新的Workfront API功能，我們正在更新預設API。 當API呼叫未指定API的版本時，會呼叫預設API。
+
+現在，預設API將反映API的最新版本。 日後每次發行新API版本時，我們都會更新預設API，因此對預設API的呼叫將一律使用最新版的API。
+
+先前的預設API使用Workfront API 2.0版，現已過時。
+
+如果貴組織目前使用已棄用的預設API，您的Workfront管理員會收到公告中心訊息，其中包含有關預設API的進一步指示。
+
+如需詳細資訊，請參閱 [更新使用預設API版本設定的整合](/help/quicksilver/wf-api/api/update-default-api-versioning.md).
 
 
 <!--
@@ -347,7 +379,7 @@ Workfront Fusion的新功能可在生產環境中，於23.2版發行排程外的
                 </tr>
                 <tr>
                     <td>
-                        <a href="ADD LINK" class="MCXref xref" xrefformat="{para}">Title</a><span style="color: #ff0000;"> Coming soon!</span></p>
+                        <a href="ADD LINK" class="MCXref xref" xrefformat="{para}">Title</a><span style="color: #ff0000;"> New in Preview!</span></p>
                         <p>Body</p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>
