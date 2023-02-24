@@ -6,24 +6,22 @@ title: 管理集合
 description: 集合是一組可設定的展示板，用於協作工作。
 author: Lisa
 feature: Agile
-source-git-commit: d14713f75857d00376f576e4b70f036c9b43e503
+source-git-commit: 5202756d21224d6a704750eec00fcfa24241fb6b
 workflow-type: tm+mt
-source-wordcount: '510'
+source-wordcount: '520'
 ht-degree: 4%
 
 ---
 
 # 管理集合
 
-{{highlighted-preview-article-level}}
+>[!NOTE]
+>
+>集合只能透過 [!UICONTROL [!DNL Workfront] 展示板]. 如需詳細資訊，請參閱 [搶先選擇加入Adobe Workfront展示板的功能](/help/quicksilver/agile/get-started-with-boards/boards-early-feature-opt-in.md).
 
 集合是一組可設定的展示板，用於協作工作。 集合可以包含從範本建立的不同類型的展示板。
 
 集合會連同您可存取但不屬於集合的個別展示板一起顯示在控制面板上。 如需展示板控制面板的相關資訊，請參閱 [使用展示板控制面板](/help/quicksilver/agile/get-started-with-boards/use-boards-page.md). 您可以按一下控制面板上的任何展示板名稱以開啟它。
-
->[!NOTE]
->
->集合只能透過 [!UICONTROL [!DNL Workfront] 展示板].
 
 ## 存取需求
 
