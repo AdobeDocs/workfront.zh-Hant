@@ -3,10 +3,10 @@ content-type: api
 navigation-topic: api-navigation-topic
 title: 在您的整合中指定API版本
 description: 在您的整合中指定API版本
-author: John
+author: Becky
 feature: Workfront API
 exl-id: 2971749d-1d34-42a4-9eda-411aa8c3a2ab
-source-git-commit: 889084f9a3740b40c84c658f9b0c17270b0a37d7
+source-git-commit: f050c8b95145552c9ed67b549608c16115000606
 workflow-type: tm+mt
 source-wordcount: '496'
 ht-degree: 0%

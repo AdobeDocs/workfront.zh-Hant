@@ -4,9 +4,9 @@ content-type: api;tips-tricks-troubleshooting
 navigation-topic: workfront-api
 title: Adobe Workfront API的秘訣、技巧和疑難排解
 description: Adobe Workfront API的秘訣、技巧和疑難排解
-author: John
+author: Becky
 exl-id: 644b9323-c6c3-49bd-8295-b51352992316
-source-git-commit: 9bdc433158e471729bd27d701947d6ae41aa06e7
+source-git-commit: f050c8b95145552c9ed67b549608c16115000606
 workflow-type: tm+mt
 source-wordcount: '102'
 ht-degree: 0%

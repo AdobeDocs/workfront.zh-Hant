@@ -4,9 +4,9 @@ content-type: api
 navigation-topic: workfront-api
 title: API一般主題
 description: API一般主題
-author: John
+author: Becky
 exl-id: 4025002b-4b11-4105-81d6-5d493a0f2255
-source-git-commit: e6bad8cbe84d0f116e9679ecaba5178973a2604f
+source-git-commit: f050c8b95145552c9ed67b549608c16115000606
 workflow-type: tm+mt
 source-wordcount: '54'
 ht-degree: 3%

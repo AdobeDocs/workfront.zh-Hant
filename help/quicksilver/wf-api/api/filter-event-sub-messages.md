@@ -4,10 +4,10 @@ content-type: api
 navigation-topic: api-navigation-topic
 title: 篩選事件訂閱訊息
 description: 篩選事件訂閱訊息
-author: John
+author: Becky
 feature: Workfront API
 exl-id: 8364c4b9-5604-47ab-8b4b-db6836dcd8ca
-source-git-commit: c1cec2c08c66c704385cde1abd0c019fd59702da
+source-git-commit: f050c8b95145552c9ed67b549608c16115000606
 workflow-type: tm+mt
 source-wordcount: '1800'
 ht-degree: 0%

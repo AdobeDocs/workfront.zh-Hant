@@ -3,10 +3,10 @@ content-type: api
 navigation-topic: api-navigation-topic
 title: 終止支援JSONP
 description: 終止支援JSONP
-author: John
+author: Becky
 feature: Workfront API
 exl-id: 681336c2-2f41-4746-8cba-be077f556742
-source-git-commit: 606d19b8a83b833aba6d6b15231a8683aa2cee40
+source-git-commit: f050c8b95145552c9ed67b549608c16115000606
 workflow-type: tm+mt
 source-wordcount: '203'
 ht-degree: 0%

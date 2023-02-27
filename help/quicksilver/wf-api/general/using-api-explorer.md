@@ -3,10 +3,10 @@ content-type: api
 navigation-topic: general-api
 title: 使用API Explorer
 description: 使用API Explorer
-author: John
+author: Becky
 feature: Workfront API
 exl-id: dcb7dadb-4dd8-48da-a559-cbe8ad99ff9e
-source-git-commit: 40698643b0fa530b38da465f3bc1e4d841fcc190
+source-git-commit: f050c8b95145552c9ed67b549608c16115000606
 workflow-type: tm+mt
 source-wordcount: '356'
 ht-degree: 0%

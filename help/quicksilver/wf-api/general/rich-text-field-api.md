@@ -3,10 +3,10 @@ content-type: api
 navigation-topic: general-api
 title: Adobe Workfront API中的RTF欄位
 description: Adobe Workfront API中的RTF欄位
-author: John
+author: Becky
 feature: Workfront API
 exl-id: 67fc34dc-0722-4419-8254-0371ad5abfc3
-source-git-commit: 40698643b0fa530b38da465f3bc1e4d841fcc190
+source-git-commit: f050c8b95145552c9ed67b549608c16115000606
 workflow-type: tm+mt
 source-wordcount: '756'
 ht-degree: 0%

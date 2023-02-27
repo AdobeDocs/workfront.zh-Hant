@@ -4,10 +4,10 @@ product-area: documents
 navigation-topic: documents-webhooks-api
 title: 使用文檔Webhook建立資料夾
 description: 使用文檔Webhook建立資料夾
-author: John
+author: Becky
 feature: Workfront API
 exl-id: 50905915-58c9-4b50-b8a1-133833884a88
-source-git-commit: 1b11a4c5f0fdf1987e9f02f7aa06ec6ec36426d3
+source-git-commit: f050c8b95145552c9ed67b549608c16115000606
 workflow-type: tm+mt
 source-wordcount: '66'
 ht-degree: 7%

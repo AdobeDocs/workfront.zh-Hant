@@ -4,10 +4,10 @@ product-area: documents
 navigation-topic: documents-webhooks-api
 title: 文檔Webhook錯誤處理
 description: 文檔Webhook錯誤處理
-author: John
+author: Becky
 feature: Workfront API
 exl-id: 6e0f3be7-5321-44bd-a404-d5bef1462d82
-source-git-commit: 338cc745a7660ffed8e4d44e19dcadfdc13bc345
+source-git-commit: f050c8b95145552c9ed67b549608c16115000606
 workflow-type: tm+mt
 source-wordcount: '119'
 ht-degree: 0%

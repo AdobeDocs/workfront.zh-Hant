@@ -3,10 +3,10 @@ content-type: api
 navigation-topic: api-navigation-topic
 title: 不再使用API — 內部
 description: 不再使用API — 內部
-author: John
+author: Becky
 feature: Workfront API
 exl-id: 45b42fe8-7ce3-441d-8fbc-b8db7f9b254e
-source-git-commit: c1cec2c08c66c704385cde1abd0c019fd59702da
+source-git-commit: f050c8b95145552c9ed67b549608c16115000606
 workflow-type: tm+mt
 source-wordcount: '218'
 ht-degree: 0%

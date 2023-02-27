@@ -4,10 +4,10 @@ product-area: documents
 navigation-topic: documents-webhooks-api
 title: 通過文檔Webhook進行搜索
 description: 通過文檔Webhook進行搜索
-author: John
+author: Becky
 feature: Workfront API, Digital Content and Documents
 exl-id: 8a3bf0c4-4a20-4311-8c05-15f4ef3a1d42
-source-git-commit: 338cc745a7660ffed8e4d44e19dcadfdc13bc345
+source-git-commit: f050c8b95145552c9ed67b549608c16115000606
 workflow-type: tm+mt
 source-wordcount: '154'
 ht-degree: 4%

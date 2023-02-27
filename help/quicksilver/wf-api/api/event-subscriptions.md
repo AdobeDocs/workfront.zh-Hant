@@ -2,9 +2,9 @@
 content-type: api
 navigation-topic: Event Subscriptions resources
 description: 事件訂閱資源
-author: John
+author: Becky
 feature: Workfront API
-source-git-commit: 1e0c0a5b6dae3aee2e0a76acbddf5140b741df4b
+source-git-commit: f050c8b95145552c9ed67b549608c16115000606
 workflow-type: tm+mt
 source-wordcount: '46'
 ht-degree: 0%

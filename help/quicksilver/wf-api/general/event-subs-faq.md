@@ -3,10 +3,10 @@ content-type: api;faq
 navigation-topic: general-api
 title: 常見問題集 — 事件訂閱
 description: 常見問題集 — 事件訂閱
-author: John
+author: Becky
 feature: Workfront API
 exl-id: a6120939-5d76-4f46-a304-125de6b22502
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: f050c8b95145552c9ed67b549608c16115000606
 workflow-type: tm+mt
 source-wordcount: '937'
 ht-degree: 0%

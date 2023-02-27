@@ -3,10 +3,10 @@ content-type: api
 navigation-topic: general-api
 title: 事件訂閱傳送需求
 description: 事件訂閱傳送需求
-author: John
+author: Becky
 feature: Workfront API
 exl-id: 1b621b35-6c8b-4f6a-bcba-ed6cbfe83a8c
-source-git-commit: 40698643b0fa530b38da465f3bc1e4d841fcc190
+source-git-commit: f050c8b95145552c9ed67b549608c16115000606
 workflow-type: tm+mt
 source-wordcount: '256'
 ht-degree: 0%

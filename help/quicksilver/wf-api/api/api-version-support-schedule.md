@@ -3,10 +3,10 @@ content-type: api
 navigation-topic: api-navigation-topic
 title: API版本設定與支援排程
 description: API版本設定與支援排程
-author: John
+author: Becky
 feature: Workfront API
 exl-id: b072704c-a34c-4a17-aca3-ab93a016dfc8
-source-git-commit: 5804eed9451084614cc6331a4234ae88d9b58b3c
+source-git-commit: f050c8b95145552c9ed67b549608c16115000606
 workflow-type: tm+mt
 source-wordcount: '217'
 ht-degree: 11%

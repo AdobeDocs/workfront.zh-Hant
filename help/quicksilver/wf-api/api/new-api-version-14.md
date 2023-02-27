@@ -3,10 +3,10 @@ content-type: api
 navigation-topic: api-navigation-topic
 title: API 14版的新功能
 description: Adobe Workfront於2021年9月9日發行API 14版。 API 14版提供第14版的下列變更。
-author: John
+author: Becky
 feature: Workfront API
 exl-id: eca5d1cc-6348-445c-be84-c0a29f15980d
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: f050c8b95145552c9ed67b549608c16115000606
 workflow-type: tm+mt
 source-wordcount: '881'
 ht-degree: 2%

@@ -3,10 +3,10 @@ content-type: api;tips-tricks-troubleshooting
 navigation-topic: tips-tricks-and-troubleshooting-workfront-api
 title: 使用Adobe Workfront API新增進階校對選項
 description: 使用Adobe Workfront API新增進階校對選項
-author: John
+author: Becky
 feature: Workfront API, Workfront Proof
 exl-id: 5fcdf07e-d077-4d6a-bc3f-973983877c7c
-source-git-commit: a939e14cbd6936bdd0c46c1ed641acdda497b8fc
+source-git-commit: f050c8b95145552c9ed67b549608c16115000606
 workflow-type: tm+mt
 source-wordcount: '615'
 ht-degree: 0%

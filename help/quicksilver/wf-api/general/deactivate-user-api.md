@@ -4,10 +4,10 @@ product-area: user-management
 navigation-topic: general-api
 title: 透過API停用使用者
 description: 透過API停用使用者
-author: John
+author: Becky
 feature: Workfront API
 exl-id: 45b06cce-4622-4739-b9f3-2edb9101c099
-source-git-commit: c1cec2c08c66c704385cde1abd0c019fd59702da
+source-git-commit: f050c8b95145552c9ed67b549608c16115000606
 workflow-type: tm+mt
 source-wordcount: '199'
 ht-degree: 0%

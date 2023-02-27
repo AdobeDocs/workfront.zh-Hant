@@ -3,10 +3,10 @@ content-type: api
 navigation-topic: api-navigation-topic
 title: API 10版的新功能
 description: 更新的資源
-author: John
+author: Becky
 feature: Workfront API
 exl-id: 8ac384ae-5d65-4c0e-98c1-cf38cfbff460
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: f050c8b95145552c9ed67b549608c16115000606
 workflow-type: tm+mt
 source-wordcount: '571'
 ht-degree: 45%

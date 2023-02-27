@@ -4,10 +4,10 @@ product-area: documents
 navigation-topic: documents-webhooks-api
 title: 測試Webhook連接
 description: 測試Webhook連接
-author: John
+author: Becky
 feature: Workfront API
 exl-id: 7452ebfc-7c72-4fea-99ac-7f76b12404b8
-source-git-commit: a62ae524f922326811423cd17d0656920b7cc9d3
+source-git-commit: f050c8b95145552c9ed67b549608c16115000606
 workflow-type: tm+mt
 source-wordcount: '794'
 ht-degree: 0%

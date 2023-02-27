@@ -3,10 +3,10 @@ content-type: api
 navigation-topic: general-api
 title: 事件訂閱最佳實務
 description: 事件訂閱最佳實務
-author: John
+author: Becky
 feature: Workfront API
 exl-id: 2c6e3567-d5eb-4528-a393-dbf235958ed2
-source-git-commit: 50675b7af3fcd2188a18391732a93a7b67454db9
+source-git-commit: f050c8b95145552c9ed67b549608c16115000606
 workflow-type: tm+mt
 source-wordcount: '269'
 ht-degree: 0%

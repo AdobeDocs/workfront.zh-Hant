@@ -3,10 +3,10 @@ content-type: api
 navigation-topic: api-navigation-topic
 title: API 6版的新功能
 description: API 6版的新功能
-author: John
+author: Becky
 feature: Workfront API
 exl-id: e671a881-b8c2-4234-a3a0-76b1fbfafd32
-source-git-commit: 2ec05c03a5bfa842008870ca47fb617b81fd6ebd
+source-git-commit: f050c8b95145552c9ed67b549608c16115000606
 workflow-type: tm+mt
 source-wordcount: '570'
 ht-degree: 42%

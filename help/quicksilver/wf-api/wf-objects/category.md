@@ -3,10 +3,10 @@ content-type: api
 navigation-topic: workfront-objects
 title: 當APIModel INTERNAL不支援欄位項目id(OpTask)類別時
 description: 當APIModel INTERNAL不支援欄位專案id時(OpTask)
-author: John
+author: Becky
 feature: Workfront API
 exl-id: 24c900ee-a8f1-458e-a18b-c098c6314e0c
-source-git-commit: a939e14cbd6936bdd0c46c1ed641acdda497b8fc
+source-git-commit: f050c8b95145552c9ed67b549608c16115000606
 workflow-type: tm+mt
 source-wordcount: '376'
 ht-degree: 22%

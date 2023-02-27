@@ -3,10 +3,10 @@ content-type: api
 navigation-topic: general-api
 title: 事件訂閱API
 description: 事件訂閱API
-author: John
+author: Becky
 feature: Workfront API
 exl-id: c3646a5d-42f4-4af8-9dd0-e84977506b79
-source-git-commit: c1cec2c08c66c704385cde1abd0c019fd59702da
+source-git-commit: f050c8b95145552c9ed67b549608c16115000606
 workflow-type: tm+mt
 source-wordcount: '2203'
 ht-degree: 3%

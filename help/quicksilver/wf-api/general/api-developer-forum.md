@@ -3,10 +3,10 @@ content-type: api
 navigation-topic: general-api
 title: Adobe Workfront API開發人員論壇
 description: Adobe Workfront API開發人員論壇
-author: John
+author: Becky
 feature: Workfront API
 exl-id: fba505a7-7fea-49e6-bee0-39bee9bc7043
-source-git-commit: e6bad8cbe84d0f116e9679ecaba5178973a2604f
+source-git-commit: f050c8b95145552c9ed67b549608c16115000606
 workflow-type: tm+mt
 source-wordcount: '61'
 ht-degree: 0%

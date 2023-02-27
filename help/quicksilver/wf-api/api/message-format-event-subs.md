@@ -3,10 +3,10 @@ content-type: api
 navigation-topic: api-navigation-topic
 title: 事件訂閱的傳出訊息格式
 description: 事件訂閱的傳出訊息格式
-author: John
+author: Becky
 feature: Workfront API
 exl-id: addcf5bc-a101-4bb0-93a6-46b4af67c848
-source-git-commit: 2ec05c03a5bfa842008870ca47fb617b81fd6ebd
+source-git-commit: f050c8b95145552c9ed67b549608c16115000606
 workflow-type: tm+mt
 source-wordcount: '249'
 ht-degree: 0%

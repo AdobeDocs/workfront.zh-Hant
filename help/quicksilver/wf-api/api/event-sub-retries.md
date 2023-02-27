@@ -3,10 +3,10 @@ content-type: api
 navigation-topic: api-navigation-topic
 title: 事件訂閱重試次數
 description: 事件訂閱重試次數
-author: John
+author: Becky
 feature: Workfront API
 exl-id: b698cb60-4cff-4ccc-87d7-74afb5badc49
-source-git-commit: 606d19b8a83b833aba6d6b15231a8683aa2cee40
+source-git-commit: f050c8b95145552c9ed67b549608c16115000606
 workflow-type: tm+mt
 source-wordcount: '541'
 ht-degree: 0%

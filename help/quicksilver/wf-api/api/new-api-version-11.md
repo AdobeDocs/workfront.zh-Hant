@@ -3,10 +3,10 @@ content-type: api
 navigation-topic: api-navigation-topic
 title: API 11版的新功能
 description: Adobe Workfront API已新增ReportBudgedHour作為報表資源。 它提供DekededHour中不存在的參考欄位、核心欄位和預設欄位。
-author: John
+author: Becky
 feature: Workfront API
 exl-id: b8826dc6-9791-49f6-923d-5a0c5392a8b0
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: f050c8b95145552c9ed67b549608c16115000606
 workflow-type: tm+mt
 source-wordcount: '3600'
 ht-degree: 2%
@@ -430,7 +430,7 @@ ApprovalProcess對象是多步驟審批，可與項目、任務或問題關聯�
    <td>直接欄位</td> 
    <td> 
     <ul> 
-     <li style="font-weight: bold;"> <p>isActive</p> <p style="font-weight: normal;">已新增此欄位，且是布林參數，如果物件作用中，則值為true；如果物件不作用，則為false。 設定為「活動」(Active)的對象會顯示在下拉菜單和「預先輸入」(Type-ahead)欄位中，並可附加到其他對象。 未設定為「活動」的對象在要附加到其他對象的下拉菜單和預鍵入欄位中不可見。  </p> </li> 
+     <li style="font-weight: bold;"> <p>isActive</p> <p style="font-weight: normal;">已新增此欄位，且是布林參數，如果物件作用中，則值為true；如果物件不作用，則為false。 設定為「活動」的對象會顯示在下拉菜單和「預先輸入」欄位中，並可附加到其他對象。 未設定為「活動」的對象在要附加到其他對象的下拉菜單和預鍵入欄位中不可見。  </p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -1156,7 +1156,7 @@ Team對象是可分配給工作項的Users的集合。
    <td>直接欄位</td> 
    <td> 
     <ul> 
-     <li style="font-weight: bold;"> <p>isActive</p> <p style="font-weight: normal;">已新增此欄位，且是布林參數，如果物件作用中，則值為true；如果物件不作用，則為false。 設定為「活動」(Active)的對象會顯示在下拉菜單和「預先輸入」(Type-ahead)欄位中，並可附加到其他對象。 未設定為「活動」的對象在要附加到其他對象的下拉菜單和預鍵入欄位中不可見。  </p> </li> 
+     <li style="font-weight: bold;"> <p>isActive</p> <p style="font-weight: normal;">已新增此欄位，且是布林參數，如果物件作用中，則值為true；如果物件不作用，則為false。 設定為「活動」的對象會顯示在下拉菜單和「預先輸入」欄位中，並可附加到其他對象。 未設定為「活動」的對象在要附加到其他對象的下拉菜單和預鍵入欄位中不可見。  </p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 

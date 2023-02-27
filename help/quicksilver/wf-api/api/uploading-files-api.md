@@ -3,10 +3,10 @@ content-type: api
 navigation-topic: api-navigation-topic
 title: 透過API上傳檔案
 description: 透過API上傳檔案
-author: John
+author: Becky
 feature: Workfront API
 exl-id: 4e0b73b6-0d6d-4971-a87a-dfec85fb031a
-source-git-commit: 03df0ad329255e86780c03bbb4541e0a0a526381
+source-git-commit: f050c8b95145552c9ed67b549608c16115000606
 workflow-type: tm+mt
 source-wordcount: '188'
 ht-degree: 0%

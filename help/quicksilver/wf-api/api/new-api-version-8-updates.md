@@ -3,10 +3,10 @@ content-type: api
 navigation-topic: api-navigation-topic
 title: API第8版的更新
 description: 此版本的Adobe Workfront API已更新下列現有資源。 若要檢視第8版的新資源，請參閱API第8版的新功能。 對資源所做的更改以以下方式表示 — EDIT ME。
-author: John
+author: Becky
 feature: Workfront API
 exl-id: c6d7d2d2-cd21-4ca8-a5a0-afe3669dc959
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: f050c8b95145552c9ed67b549608c16115000606
 workflow-type: tm+mt
 source-wordcount: '619'
 ht-degree: 37%

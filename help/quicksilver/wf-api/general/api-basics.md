@@ -3,10 +3,10 @@ content-type: api
 navigation-topic: general-api
 title: API 基本概念
 description: API 基本概念
-author: John
+author: Becky
 feature: Workfront API
 exl-id: d8c27915-8e1b-4804-9ef8-3a2efd57caac
-source-git-commit: c1cec2c08c66c704385cde1abd0c019fd59702da
+source-git-commit: f050c8b95145552c9ed67b549608c16115000606
 workflow-type: tm+mt
 source-wordcount: '4405'
 ht-degree: 0%

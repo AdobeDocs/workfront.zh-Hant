@@ -1,9 +1,9 @@
 ---
 title: 新的classic端點
 description: 新的classic端點
-author: John
+author: Becky
 draft: Probably
-source-git-commit: de30bd970bda06c706e5156d5195e8568558e593
+source-git-commit: f050c8b95145552c9ed67b549608c16115000606
 workflow-type: tm+mt
 source-wordcount: '146'
 ht-degree: 0%

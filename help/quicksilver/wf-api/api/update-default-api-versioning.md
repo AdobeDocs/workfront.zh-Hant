@@ -3,10 +3,10 @@ content-type: api
 navigation-topic: api-navigation-topic
 title: 更新使用預設API版本設定的整合
 description: 更新使用預設API版本設定的整合
-author: John
+author: Becky
 feature: Workfront API
 exl-id: ac394b41-63cb-481a-a858-30d8d7f840bb
-source-git-commit: 889084f9a3740b40c84c658f9b0c17270b0a37d7
+source-git-commit: f050c8b95145552c9ed67b549608c16115000606
 workflow-type: tm+mt
 source-wordcount: '693'
 ht-degree: 0%

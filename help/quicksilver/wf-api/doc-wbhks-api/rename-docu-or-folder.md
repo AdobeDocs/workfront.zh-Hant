@@ -4,10 +4,10 @@ product-area: documents
 navigation-topic: documents-webhooks-api
 title: 更名文檔或資料夾（尚未實施）
 description: 更名文檔或資料夾
-author: John
+author: Becky
 feature: Workfront API, Digital Content and Documents
 exl-id: 5b1a4a02-a7fd-41f2-9adb-74b40606270b
-source-git-commit: a62ae524f922326811423cd17d0656920b7cc9d3
+source-git-commit: f050c8b95145552c9ed67b549608c16115000606
 workflow-type: tm+mt
 source-wordcount: '81'
 ht-degree: 6%

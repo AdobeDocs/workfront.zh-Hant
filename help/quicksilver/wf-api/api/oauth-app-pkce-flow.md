@@ -3,10 +3,10 @@ content-type: api
 navigation-topic: api-navigation-topic
 title: 使用PKCE流處理OAuth 2應用程式
 description: 使用PKCE流處理OAuth 2應用程式
-author: John
+author: Becky
 feature: Workfront API
 exl-id: 61fe77b6-c6d7-4f23-bfb6-617bccaa1989
-source-git-commit: 03df0ad329255e86780c03bbb4541e0a0a526381
+source-git-commit: f050c8b95145552c9ed67b549608c16115000606
 workflow-type: tm+mt
 source-wordcount: '792'
 ht-degree: 0%
@@ -83,14 +83,18 @@ PKCE生成器代碼建立的輸出類似於以下內容：
 >
 >**範例:**
 >
->```
+>
+```
 >{
 >
->  "code\_verifier":"N28zVMsKU6ptUjHaYWg3T1NFTDQqcW1R4BU5NXywapNac4hhfkxjwfhZQat",
 >
->  "code\_challenge":"wzgjYF9qEiWep-CwqgrTE78-2ghjwCtRO3vj23o4W\_fw"
+  "code\_verifier":"N28zVMsKU6ptUjHaYWg3T1NFTDQqcW1R4BU5NXywapNac4hhfkxjwfhZQat",
 >
->}
+>
+  "code\_challenge":"wzgjYF9qEiWep-CwqgrTE78-2ghjwCtRO3vj23o4W\_fw"
+>
+>
+}
 >```
 
 您的應用程式會儲存 `code_verifier` ，並傳送 `code_challenge` 以及向授權伺服器的 `/authorize` URL。
@@ -104,10 +108,12 @@ PKCE生成器代碼建立的輸出類似於以下內容：
 >**範例:**
 >
 >
->```
+>
+```
 >/authorize?client\_id=<clientID>&response\_type=code&redirect\_uri=<redirectURL>
 >
->&code\_challenge\_method=S256&code\_challenge=wzgjYF9qEiWep-CwqgrTE78-2ghjwCtRO3vj23o4W\_fw"
+>
+&code\_challenge\_method=S256&code\_challenge=wzgjYF9qEiWep-CwqgrTE78-2ghjwCtRO3vj23o4W\_fw"
 >```
 
 請注意要傳遞的參數：
@@ -133,16 +139,21 @@ PKCE生成器代碼建立的輸出類似於以下內容：
 >
 >**範例:**
 >
->```
+>
+```
 >/token \\
 >
->  --header 'accept: application/json' \\
 >
->  --header 'cache-control: no-cache' \\
+  --header 'accept: application/json' \\
 >
->  --header 'content-type: application/x-www-form-urlencoded' \\
 >
->  --data 'grant\_type=authorization\_code&client\_id=<clientID>&redirect\_uri=<redirectURL>&code=<code>&code\_verifier=N28zVMsKU6ptUjHaYWg3T1NFTDQqcW1R4BU5NXywapNac4hhfkxjwfhZQat
+  --header 'cache-control: no-cache' \\
+>
+>
+  --header 'content-type: application/x-www-form-urlencoded' \\
+>
+>
+  --data 'grant\_type=authorization\_code&client\_id=<clientID>&redirect\_uri=<redirectURL>&code=<code>&code\_verifier=N28zVMsKU6ptUjHaYWg3T1NFTDQqcW1R4BU5NXywapNac4hhfkxjwfhZQat
 >```
 
 >[!IMPORTANT]
@@ -168,16 +179,21 @@ PKCE生成器代碼建立的輸出類似於以下內容：
 >
 >**範例:**
 >
->```
+>
+```
 >{
 >
->    "access\_token": "eyJhd\[...\]Yozv",
 >
->    "expires\_in": 3600,
+    "access\_token": "eyJhd\[...\]Yozv",
 >
->    "token\_type": "Bearer"
 >
->}
+    "expires\_in": 3600,
+>
+>
+    "token\_type": "Bearer"
+>
+>
+}
 >```
 
 ## 驗證存取權杖
@@ -190,10 +206,12 @@ PKCE生成器代碼建立的輸出類似於以下內容：
 >
 >**範例:**
 >
->```
+>
+```
 >/attask/api/<api version>/proj/search \\
 >
->  --header 'sessionID: <access\_token>' \\
+>
+  --header 'sessionID: <access\_token>' \\
 >```
 
 ## 請求重新整理Token
@@ -204,14 +222,19 @@ PKCE生成器代碼建立的輸出類似於以下內容：
 >
 >**範例:**
 >
->```
+>
+```
 >/token \\
 >
->  --header 'accept: application/json' \\
 >
->  --header 'cache-control: no-cache' \\
+  --header 'accept: application/json' \\
 >
->  --header 'content-type: application/x-www-form-urlencoded' \\
 >
->  --data 'grant\_type=refresh\_token&client\_id=<clientID>&redirect\_uri=<redirectURL>&refresh\_token=<refresh\_token>
+  --header 'cache-control: no-cache' \\
+>
+>
+  --header 'content-type: application/x-www-form-urlencoded' \\
+>
+>
+  --data 'grant\_type=refresh\_token&client\_id=<clientID>&redirect\_uri=<redirectURL>&refresh\_token=<refresh\_token>
 >```

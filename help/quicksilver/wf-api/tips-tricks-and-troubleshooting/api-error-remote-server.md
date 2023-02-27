@@ -3,10 +3,10 @@ content-type: api;tips-tricks-troubleshooting
 navigation-topic: tips-tricks-and-troubleshooting-workfront-api
 title: API錯誤訊息400錯誤請求
 description: API錯誤訊息400錯誤請求
-author: John
+author: Becky
 feature: Workfront API
 exl-id: ab7c76a9-16ce-41f9-b7af-5943eb2dfdff
-source-git-commit: 368a634b09d38a5b61c3e320f3f72e896694eeb1
+source-git-commit: f050c8b95145552c9ed67b549608c16115000606
 workflow-type: tm+mt
 source-wordcount: '90'
 ht-degree: 0%

@@ -4,9 +4,9 @@ content-type: api;reference
 navigation-topic: api-navigation-topic
 title: API
 description: Workfront API文章
-author: John
+author: Becky
 exl-id: 90e00a71-1a3a-4e3f-99d8-47700052a9dc
-source-git-commit: 53ef8f4fda22c912c274841d07ad865aa04141c8
+source-git-commit: f050c8b95145552c9ed67b549608c16115000606
 workflow-type: tm+mt
 source-wordcount: '141'
 ht-degree: 1%

@@ -3,10 +3,10 @@ content-type: api
 navigation-topic: general-api
 title: API Explorer
 description: API Explorer
-author: John
+author: Becky
 feature: Workfront API
 exl-id: c71ac171-cf94-47f4-b1ac-eb53be7cf2d9
-source-git-commit: e6bad8cbe84d0f116e9679ecaba5178973a2604f
+source-git-commit: f050c8b95145552c9ed67b549608c16115000606
 workflow-type: tm+mt
 source-wordcount: '50'
 ht-degree: 0%

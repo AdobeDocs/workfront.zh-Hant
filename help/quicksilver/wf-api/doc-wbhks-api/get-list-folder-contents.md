@@ -4,10 +4,10 @@ product-area: documents
 navigation-topic: documents-webhooks-api
 title: 列出檔案或資料夾的元資料
 description: 列出檔案或資料夾的元資料
-author: John
+author: Becky
 feature: Workfront API
 exl-id: 9c9f9222-59ac-4643-8297-d4939bec7e64
-source-git-commit: d89d8cec90678aa3a047d1bfc0f1a8dd1682c58a
+source-git-commit: f050c8b95145552c9ed67b549608c16115000606
 workflow-type: tm+mt
 source-wordcount: '100'
 ht-degree: 5%

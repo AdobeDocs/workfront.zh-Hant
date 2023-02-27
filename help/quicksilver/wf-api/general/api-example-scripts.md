@@ -3,10 +3,10 @@ content-type: api
 navigation-topic: general-api
 title: API範例指令碼
 description: FAPI範例指令碼
-author: John
+author: Becky
 feature: Workfront API
 exl-id: 76c5eca6-be82-4331-9da9-9943e0bda669
-source-git-commit: e6bad8cbe84d0f116e9679ecaba5178973a2604f
+source-git-commit: f050c8b95145552c9ed67b549608c16115000606
 workflow-type: tm+mt
 source-wordcount: '252'
 ht-degree: 0%

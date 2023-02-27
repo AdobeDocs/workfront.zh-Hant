@@ -3,10 +3,10 @@ content-type: api
 navigation-topic: api-navigation-topic
 title: 將JWT流程用於自訂OAuth 2應用程式
 description: 將JWT流程用於自訂OAuth 2應用程式
-author: John
+author: Becky
 feature: Workfront API
 exl-id: 4bd56fe6-1f36-4c36-82cd-96de748ad680
-source-git-commit: 38e957253775f73cee7fe0c0d31bfeedb58ebf53
+source-git-commit: f050c8b95145552c9ed67b549608c16115000606
 workflow-type: tm+mt
 source-wordcount: '477'
 ht-degree: 0%

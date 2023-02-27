@@ -4,10 +4,10 @@ product-area: documents
 navigation-topic: documents-webhooks-api
 title: 取得服務的相關資訊
 description: 取得服務的相關資訊
-author: John
+author: Becky
 feature: Workfront API
 exl-id: a3a423ff-29a6-466e-a568-f64e02dcb484
-source-git-commit: 5cb65c3a0c3ffd374c4002867c9c48985378e03c
+source-git-commit: f050c8b95145552c9ed67b549608c16115000606
 workflow-type: tm+mt
 source-wordcount: '266'
 ht-degree: 4%
