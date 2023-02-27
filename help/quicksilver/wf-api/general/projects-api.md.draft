@@ -5,7 +5,7 @@ product-area: projects
 navigation-topic: general-api
 title: Projects API
 description: You can use the Projects API to interact with projects within Adobe Workfront. The calls included with this API interact directly with the project itself.
-author: John
+author: Becky
 hidefromtoc: true
 ---
 
