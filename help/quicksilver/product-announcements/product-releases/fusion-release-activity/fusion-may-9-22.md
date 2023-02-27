@@ -9,9 +9,9 @@ description: 本頁說明2022年5月9日當周在Adobe Workfront Fusion中所做
 author: Luke
 hidefromtoc: true
 exl-id: 199bdc78-08b0-403b-b762-560b25c6d05a
-source-git-commit: 74b86728f7e77ca7c83ae060f244e6459d6e35b2
+source-git-commit: e6995cd57c4210725d49379df5bcd7e93ce4b02a
 workflow-type: tm+mt
-source-wordcount: '208'
+source-wordcount: '209'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 如需所有最近變更的清單，請參閱 [Adobe Workfront Fusion發行活動](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
 
-如需Workfront Fusion最近錯誤修正的清單，請參閱 [Workfront維護更新](https://one.workfront.com/s/article/Workfront-Maintenance-Updates-1882317350) 並檢查任何標示為「Workfront Fusion維護更新」的更新。
+如需Workfront Fusion最近錯誤修正的清單，請參閱 [Workfront維護更新](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) 並檢查任何標示為「Workfront Fusion維護更新」的更新。
 
 
 ## 藍本執行歷史記錄搜索功能的增強

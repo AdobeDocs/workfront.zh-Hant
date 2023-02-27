@@ -9,9 +9,9 @@ author: Luke
 feature: Product Announcements, Workfront Fusion
 hidefromtoc: true
 exl-id: ed844acd-3f1c-466c-89ca-a644fa01c825
-source-git-commit: ffc7205eb995985127d89bdab1187e311490951e
+source-git-commit: e6995cd57c4210725d49379df5bcd7e93ce4b02a
 workflow-type: tm+mt
-source-wordcount: '166'
+source-wordcount: '167'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 如需所有最近變更的清單，請參閱 [Adobe Workfront Fusion發行活動](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
 
-如需Workfront Fusion最近錯誤修正的清單，請參閱 [Workfront維護更新](https://one.workfront.com/s/article/Workfront-Maintenance-Updates-1882317350) 並檢查任何標示為「Workfront Fusion維護更新」的更新。
+如需Workfront Fusion最近錯誤修正的清單，請參閱 [Workfront維護更新](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) 並檢查任何標示為「Workfront Fusion維護更新」的更新。
 
 
 ## Workfront Fusion中Anaplan連接器現已可使用「執行動作」模組

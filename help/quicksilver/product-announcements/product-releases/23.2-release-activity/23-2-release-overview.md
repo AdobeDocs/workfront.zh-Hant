@@ -4,9 +4,9 @@ description: 23.2版本概觀
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: 10c7e95f542cb3e05de62cff24f24439af140c0c
+source-git-commit: e6995cd57c4210725d49379df5bcd7e93ce4b02a
 workflow-type: tm+mt
-source-wordcount: '1454'
+source-wordcount: '1455'
 ht-degree: 0%
 
 ---
@@ -339,7 +339,7 @@ Workfront Fusion的新功能可在生產環境中，於23.2版發行排程外的
 
 ### Workfront 維護更新
 
-如需23.2版期間進行的維護更新相關資訊，請參閱 [Workfront維護更新](https://one.workfront.com/s/article/Workfront-Maintenance-Updates-1882317350).
+如需23.2版期間進行的維護更新相關資訊，請參閱 [Workfront維護更新](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
 ### 培訓更新
 

@@ -7,9 +7,9 @@ description: 「預覽」環境每週更新一次，其中包含新功能。 這
 author: Luke
 feature: Product Announcements
 exl-id: 4cc72e55-8105-420a-9609-e965222399e3
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: e6995cd57c4210725d49379df5bcd7e93ce4b02a
 workflow-type: tm+mt
-source-wordcount: '474'
+source-wordcount: '475'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 0%
 
 ### 維護更新
 
-Adobe Workfront產品的問題修正每週都可在生產環境中使用。 請參閱 [Workfront維護更新](https://one.workfront.com/s/article/Workfront-Maintenance-Updates-1882317350) 頁面，查看最近修正的項目。
+Adobe Workfront產品的問題修正每週都可在生產環境中使用。 請參閱 [Workfront維護更新](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) 頁面，查看最近修正的項目。
 
 ## 從每季版本中移除的功能
 

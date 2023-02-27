@@ -5,9 +5,9 @@ author: Luke
 draft: Probably
 feature: Product Announcements
 exl-id: 04b09d8f-71bf-4c5b-b2f3-09c714740969
-source-git-commit: 80fa784e15c3b4a927ee8ba2d18a80a2d84f4a91
+source-git-commit: e6995cd57c4210725d49379df5bcd7e93ce4b02a
 workflow-type: tm+mt
-source-wordcount: '3273'
+source-wordcount: '3274'
 ht-degree: 0%
 
 ---
@@ -733,7 +733,7 @@ Workfront Fusion的新功能可在生產環境中，於22.4版發行排程外的
 
 ### Workfront 維護更新
 
-如需22.3版期間進行的維護更新相關資訊，請參閱 [Workfront維護更新](https://one.workfront.com/s/article/Workfront-Maintenance-Updates-1882317350).
+如需22.3版期間進行的維護更新相關資訊，請參閱 [Workfront維護更新](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
 ### 22.4發行網路研討會
 
