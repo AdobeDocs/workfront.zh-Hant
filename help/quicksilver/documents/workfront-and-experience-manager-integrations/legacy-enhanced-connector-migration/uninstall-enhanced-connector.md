@@ -6,7 +6,7 @@ description: 您必須將Workfront與Adobe Experience Manager Enhanced Connector
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: c6203c71-a4c4-41ee-ac4e-57137661e5b3
-source-git-commit: 3a1bc4a56cba2fe224a1f0a21c8882c2d9d030de
+source-git-commit: 9673009f12509b5e7051ee91e142d311f333f215
 workflow-type: tm+mt
 source-wordcount: '259'
 ht-degree: 0%
@@ -62,6 +62,7 @@ ht-degree: 0%
        <target>/apps/<path-to-project-install-folder>/install</target>
    </embedded>
    ```
+
 1. 從項目子模組的pom.xml檔案（名為all）中刪除嵌入的以下內容。
 
    ```
