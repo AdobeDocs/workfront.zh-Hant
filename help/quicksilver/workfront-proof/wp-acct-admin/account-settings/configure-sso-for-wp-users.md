@@ -7,9 +7,9 @@ description: 如果您有「選擇」或「高級」計畫，則可以提供單�
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 52ac1919-1821-424f-89f8-72865b236e4e
-source-git-commit: a6cd3fe793c197308105da27369191d84cb59377
+source-git-commit: 007a603ef1df2a02959d7fb623ac784bf5b9cb80
 workflow-type: tm+mt
-source-wordcount: '1266'
+source-wordcount: '1264'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,7 @@ ht-degree: 0%
 
 我們身為服務提供者，已在此發佈實體ID:
 
-[https://yoursubdomain.my.workfront.com/proof/saml/module.php/saml/sp/metadata.php/phq](https://yoursubdomain.my.workfront.com/proof/saml/module.php/saml/sp/metadata.php/phq) （其中「yoursubdomain」為您的帳戶的子網域）
+[https://yoursubdomain.proofhq.com/saml/module.php/saml/sp/metadata.php/phq](https://yoursubdomain.proofhq.com/saml/module.php/saml/sp/metadata.php/phq) （其中「yoursubdomain」為您的帳戶的子網域）
 
 [!DNL Workfront Proof] 需要使用者的電子郵件地址作為其唯一識別碼，可以以下列其中一個屬性傳遞：
 
