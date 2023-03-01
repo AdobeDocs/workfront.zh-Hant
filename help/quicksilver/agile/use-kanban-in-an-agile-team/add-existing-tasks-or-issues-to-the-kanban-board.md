@@ -6,7 +6,7 @@ description: 如果您對項目具有「管理」訪問權限，則可以將任�
 author: Lisa
 feature: Agile
 exl-id: 5f94a451-8530-478f-85c2-41bc15c22dd1
-source-git-commit: 7b72d0eaa715b2094f4f574411d8e240107e080f
+source-git-commit: 1b41124ce48826ac3e77915d8d41e71e59a5003e
 workflow-type: tm+mt
 source-wordcount: '326'
 ht-degree: 0%
@@ -58,10 +58,9 @@ ht-degree: 0%
 1. 按一下 **[!UICONTROL 更多]** > **[!UICONTROL 添加到]** > **[!UICONTROL 看板板]**.
 1. 在 [!UICONTROL 新增動態] 對話框，鍵入看板組的名稱。
 
->[!NOTE]
->
->如果添加多個團隊，則任務或問題只能顯示在一個團隊的 [!DNL kanban] 展示板。 這是您在步驟5中選擇的展示板。
+   >[!NOTE]
+   >
+   >如果添加多個團隊，則任務或問題只能顯示在一個團隊的 [!DNL kanban] 展示板。 這是您在步驟5中選擇的展示板。
 
-1. 如果要添加任務，請按一下 **[!UICONTROL 新增動態]**.\
-   或\
-   如果您新增問題，請按一下 **[!UICONTROL 新增問題]**.
+1. 如果要添加任務，請按一下 **[!UICONTROL 新增動態]**.
+或者，如果您要新增問題，請按一下 **[!UICONTROL 新增問題]**.
