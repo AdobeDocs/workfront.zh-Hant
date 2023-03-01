@@ -7,18 +7,22 @@ description: Workfront Proof可讓您檢視報表，以追蹤團隊的工作進�
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 342f9282-b6f5-425e-a7ef-e23bd011d284
-source-git-commit: 41ab1312d2ccb8b8271bc851a35e31e9ff18c16b
+source-git-commit: a0d76692f9e9d12ed0d538c1344638dbc208d625
 workflow-type: tm+mt
-source-wordcount: '673'
+source-wordcount: '691'
 ht-degree: 0%
 
 ---
 
 # 在中執行報表 [!DNL Workfront Proof]
 
+
 >[!IMPORTANT]
 >
->本文說明獨立產品中的功能 [!DNL Workfront Proof]. 有關內部校對的資訊 [!DNL Adobe Workfront]，請參閱 [校對](../../../review-and-approve-work/proofing/proofing.md).
+>* <span class="previe">中不再提供報表功能 [!DNL Workfront Proof]. 報表標籤仍會顯示，但資料不準確。</span>
+> 
+>* 本文說明獨立產品中的功能 [!DNL Workfront Proof]. 有關內部校對的資訊 [!DNL Adobe Workfront]，請參閱 [校對](../../../review-and-approve-work/proofing/proofing.md).
+
 
 Workfront Proof可讓您檢視報表，以追蹤團隊的工作進度和效率。
 
