@@ -6,14 +6,16 @@ description: 您可以透過篩選限制項目清單中畫面上顯示的資訊�
 author: Lisa
 feature: Reports and Dashboards
 exl-id: 2e912e32-7924-418d-9d55-ce3c09f67d3e
-source-git-commit: fd2723eeb6a8323a8f2fcdb506991704777bdea8
+source-git-commit: b56e6591c7da166bd1548420b562b838cc7fe0f2
 workflow-type: tm+mt
-source-wordcount: '2483'
+source-wordcount: '2513'
 ht-degree: 1%
 
 ---
 
 # 在Adobe Workfront中建立或編輯篩選器
+
+<span class="preview">請注意，在預覽環境中，增強的篩選體驗（先前稱為「測試版」）現在是預設值。 這些增強的篩選現在是「標準」，而舊的篩選體驗是「舊版」。</span>
 
 您可以透過篩選限制項目清單中畫面上顯示的資訊量。 您可以根據有關對象的特定資訊定義特定條件，並只顯示符合這些條件的對象。
 

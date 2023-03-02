@@ -6,9 +6,9 @@ description: 您可以與其他使用者共用您有權檢視的篩選器、檢�
 author: Lisa
 feature: Reports and Dashboards
 exl-id: 63a6db90-d52c-4147-a442-7904ef9e9d49
-source-git-commit: 8ac8981a40f051f11eef231397cd231ae1d8ddff
+source-git-commit: b56e6591c7da166bd1548420b562b838cc7fe0f2
 workflow-type: tm+mt
-source-wordcount: '1332'
+source-wordcount: '1362'
 ht-degree: 1%
 
 ---
@@ -21,6 +21,8 @@ ht-degree: 1%
 <p>(NOTE: This is linked from the TOC article in WF Basics > permissions section)&nbsp;</p>
 </div>
 -->
+
+<span class="preview">請注意，在預覽環境中，增強的篩選體驗（先前稱為「測試版」）現在是預設值。 這些增強的篩選現在是「標準」，而舊的篩選體驗是「舊版」。</span>
 
 您的Adobe Workfront管理員在使用者指派存取層級時，授予他們檢視或編輯物件的存取權。 有關授予對象訪問權限的詳細資訊，請參見 [建立或修改自訂存取層級](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 

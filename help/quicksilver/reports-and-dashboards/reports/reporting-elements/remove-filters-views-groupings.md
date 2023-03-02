@@ -6,14 +6,16 @@ description: 如果您已建立或已與您共用清單和報表，則可以從�
 author: Lisa
 feature: Reports and Dashboards
 exl-id: 422d262e-e19d-4070-85f1-77ecb7430342
-source-git-commit: a3e4eb500570f86c689ef3bef654d659b9c465a2
+source-git-commit: b56e6591c7da166bd1548420b562b838cc7fe0f2
 workflow-type: tm+mt
-source-wordcount: '839'
+source-wordcount: '869'
 ht-degree: 0%
 
 ---
 
 # 移除篩選器、檢視和群組
+
+<span class="preview">請注意，在預覽環境中，增強的篩選體驗（先前稱為「測試版」）現在是預設值。 這些增強的篩選現在是「標準」，而舊的篩選體驗是「舊版」。</span>
 
 如果您已建立或已與您共用清單和報表，則可以從清單和報表中移除篩選、檢視或分組。 您無法移除預設篩選器、檢視或群組。
 
