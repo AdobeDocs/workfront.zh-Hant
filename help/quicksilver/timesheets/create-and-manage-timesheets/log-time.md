@@ -6,7 +6,7 @@ description: 您可以在Adobe Workfront中記錄工作項目的時間(&N)，以
 author: Alina
 feature: Timesheets
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: 1817f3b1a5950823ff6ce600b1fef09ff4ca6767
+source-git-commit: f87f71be1b5f60b95859f3632bae4cf392cc5e84
 workflow-type: tm+mt
 source-wordcount: '2973'
 ht-degree: 0%
@@ -96,7 +96,7 @@ ht-degree: 0%
 * [首頁](#home)
 * [項目、任務或問題](#project-task-or-issue)
 * [摘要面板](#summary-panel)
-* <span class="preview">[展示板](#boards)</span>
+* [展示板](#boards)
 * [行動應用程式](#mobile-app)
 
 ### 時程表 {#timesheet}
