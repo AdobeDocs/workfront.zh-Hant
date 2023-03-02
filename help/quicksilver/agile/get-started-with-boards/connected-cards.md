@@ -6,7 +6,7 @@ description: 您可以在主板上新增資訊卡，連線至Workfront中的現�
 author: Lisa
 feature: Agile
 exl-id: c6d979dd-e4a4-48a5-a91b-b31d7ef848d1
-source-git-commit: 2a71ffd9180f2fe783675ae005165e1fd078178a
+source-git-commit: 1817f3b1a5950823ff6ce600b1fef09ff4ca6767
 workflow-type: tm+mt
 source-wordcount: '1227'
 ht-degree: 0%
@@ -14,8 +14,6 @@ ht-degree: 0%
 ---
 
 # 在主板上使用連接的卡
-
-{{highlighted-preview}}
 
 您可以在主板上新增卡片，卡片已連線至 [!DNL Workfront].
 
@@ -185,8 +183,6 @@ ht-degree: 0%
 
 1. 按一下 **[!UICONTROL 關閉]** 回到董事會。
 
-<div class="preview">
-
 ## 登錄已連接的卡的時數
 
 >[!NOTE]
@@ -207,4 +203,3 @@ ht-degree: 0%
 
 卡上的記錄時間與任務或問題的記錄時間相同。 如需詳細資訊，請參閱文章中的「登入專案、工作或問題的時間」 [記錄時間](/help/quicksilver/timesheets/create-and-manage-timesheets/log-time.md).
 
-</div>
