@@ -8,16 +8,14 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: cb709b2f-659e-4110-81ac-a1ef967d534c
-source-git-commit: 95c999a72020ce825f3a8377662c71e35a194d80
+source-git-commit: 8420f65e84edd42204d91aa503ff0b95153a1e67
 workflow-type: tm+mt
-source-wordcount: '2384'
+source-wordcount: '2363'
 ht-degree: 0%
 
 ---
 
 # 大量編輯使用者設定檔
-
-<span class="preview">本頁強調顯示的資訊指的是尚未普遍提供的功能。 它僅在預覽環境中可用。</span>
 
 >[!IMPORTANT]
 >
@@ -145,21 +143,21 @@ ht-degree: 0%
        <ul>
 
    <li>
-       <b><span class="preview">工作時間</span></b>: <span class="preview">表示用戶可用於實際工作（不包括間接費用）的等效全職(FTE)時間的百分比。 工作時間必須是十進位數字，最多1，不能是0。 例如，實際工作20%的可用性為0.2。</span>
+       <b>工作時間</b>:表示用戶可用於實際工作（不包括間接費用）的等效全職(FTE)時間的百分比。 工作時間必須是十進位數字，最多1，不能是0。 例如，實際工作20%的可用性為0.2。
 
-   <span class="preview">欄位的預設值為1，表示用戶將其整個FTE用於實際的項目相關工作。</span>
+   欄位的預設值為1，表示用戶將其整個FTE用於實際的項目相關工作。
 
-   <span class="preview">系統使用此編號來計算用戶在實際項目相關工作中的可用性。 </span>
+   系統使用此編號來計算用戶在實際項目相關工作中的可用性。
 
-   <span class="preview">如需在Workfront中建立排程的詳細資訊，請參閱 <a href="../../set-up-workfront/configure-timesheets-schedules/create-schedules.md">建立排程</a>.</span>
+   如需在Workfront中建立排程的詳細資訊，請參閱 <a href="../../set-up-workfront/configure-timesheets-schedules/create-schedules.md">建立排程</a>.
 
-   <span class="preview">排程例外和休假時間也可能影響使用者容量。
+   排程例外和休假時間也可能影響使用者容量。
 
    Workfront會根據「設定」區域中的「資源管理」首選項來計算用戶的可用性。 如需詳細資訊，請參閱 <a href="../../set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md">配置資源管理首選項</a>.
 
    <b>筆尖</b>
 
-   <span class="preview">將「工作時間」值設定為1，表示用戶可用於與項目相關的整個全職工作。</span>
+   將「工作時間」值設定為1，表示用戶可用於與項目相關的整個全職工作。
    </li>
 
    <li><b>計畫停用</b>:如果您想要排程在一段時間後停用使用者，請核取此方塊。</li> 
@@ -196,7 +194,7 @@ ht-degree: 0%
 
    欄位的預設值為1。
 
-   排程例外，休假時間， <span class="preview">工作時間的價值</span> 可能會影響使用者的可用性。
+   排程例外、休假時間和工作時間值可能會影響使用者的可用性。
 
    Workfront會根據「設定」區域中的「資源管理」首選項來計算用戶的可用性。
 

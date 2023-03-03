@@ -6,16 +6,14 @@ description: 您可以複製專案，而非從頭建立專案。 一次只能複
 author: Alina
 feature: Work Management
 exl-id: 1bb133a8-eb76-46b8-969f-37f57f9453b4
-source-git-commit: 95c999a72020ce825f3a8377662c71e35a194d80
+source-git-commit: 8420f65e84edd42204d91aa503ff0b95153a1e67
 workflow-type: tm+mt
-source-wordcount: '736'
+source-wordcount: '715'
 ht-degree: 5%
 
 ---
 
 # 複製專案
-
-<span class="preview">本頁強調顯示的資訊指的是尚未普遍提供的功能。 它僅在預覽環境中可用。</span>
 
 <!--
 <(LINKED TO THE PRODUCT IN THE COPY PROJECT BOX)</p>
@@ -33,7 +31,7 @@ ht-degree: 5%
 >* 附註
 >* 時數
 >* 跨專案的前置作業
->* <span class="preview">預算時數</span>
+>* 預算時數
 >
 >下列項目一律會從現有專案複製到新專案：
 >
@@ -179,12 +177,12 @@ ht-degree: 5%
    </tr>
 
 <tr> 
-      <td role="rowheader"><span class="preview">預算時數</span></td> 
-      <td> <p><span class="preview">從複製的項目中刪除項目業務案例的資源規劃區域中預算的小時數。 <span class="preview"></p>
+      <td role="rowheader">預算時數</td> 
+      <td> <p>從複製的項目中刪除項目業務案例的資源規劃區域中預算的小時數。</p>
 
 <b>附註</b>
 
-<span class="preview">使用方案計畫員編製預算的小時數不會複製到新項目，因為新項目未與方案計畫員中的方案連結。 如需詳細資訊，請參閱 <a href="../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-scenario-planner.md">使用方案計畫器在業務案例中的預算資源</a></span>
+使用方案計畫員編製預算的小時數不會複製到新項目，因為新項目未與方案計畫員中的方案連結。 如需詳細資訊，請參閱 <a href="../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-scenario-planner.md">使用方案計畫器在業務案例中的預算資源</a>
 </tr></td>
     <tr> 
       <td role="rowheader">財務資訊</td> 

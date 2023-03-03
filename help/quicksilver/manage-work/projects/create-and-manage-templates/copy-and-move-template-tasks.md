@@ -5,17 +5,15 @@ title: 複製和移動模板任務
 description: 您可以將模板任務複製或移動到同一模板或另一模板。
 author: Alina
 feature: Work Management
-source-git-commit: 4a33d72e234ff812a72d7d7a382226697f858df6
+source-git-commit: 8420f65e84edd42204d91aa503ff0b95153a1e67
 workflow-type: tm+mt
-source-wordcount: '2101'
+source-wordcount: '2065'
 ht-degree: 3%
 
 ---
 
 
 # 複製和移動模板任務
-
-<span class="preview">複製和移動範本任務可在生產環境中使用。 不過，本頁面中概述的步驟僅提及預覽環境中的功能。 此功能將於2023年3月2日在生產環境中推出。</span>
 
 您可以將模板任務從一個模板複製到另一個模板，或者將其移動到另一個模板或同一模板中的另一個位置。
 

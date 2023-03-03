@@ -5,7 +5,7 @@ description: 作為資源計畫的一部分，您可以使用Adobe Workfront方�
 author: Alina
 feature: Work Management
 exl-id: d5f3e348-dc7d-4265-a5ce-8eef152db410
-source-git-commit: 5433008d93e99d69f8116e222bfce02411b77825
+source-git-commit: 8420f65e84edd42204d91aa503ff0b95153a1e67
 workflow-type: tm+mt
 source-wordcount: '927'
 ht-degree: 0%
@@ -13,10 +13,6 @@ ht-degree: 0%
 ---
 
 # 使用方案計畫器在業務案例中的預算資源
-
-<!--drafted for the Budgeted Hours story: 
-
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> -->
 
 作為資源計畫的一部分，您可以使用Adobe Workfront方案計畫器來預算在構建業務案例時完成項目中的工作所需的任務職責。
 
@@ -132,20 +128,16 @@ ht-degree: 0%
 
       Workfront使用連結計畫中所需的工作職責小時數來計算項目的預算人工成本和預算工時。 這是建議的選項。 成本以項目的幣種顯示在「業務案例」中。
 
-      <!--drafted for Budgeted Hours:
-   <span class="preview">在複製項目並選擇將預算小時數複製到新項目時，使用方案計畫程式編製預算的小時數不會複製到新項目。 系統僅複製資源計畫員中預算的小時數。 如需詳細資訊，請參閱 [複製專案](../manage-projects/copy-project.md)</span>
--->
+      在複製項目並選擇將預算小時數複製到新項目時，使用方案計畫程式編製預算的小時數不會複製到新項目。 系統僅複製資源計畫員中預算的小時數。 如需詳細資訊，請參閱 [複製專案](../manage-projects/copy-project.md).
 
-   >[!IMPORTANT]
-   > 
-   >使用方案計畫器來預算項目資源時，預算的人工成本將顯示在Workfront的以下區域：
-   >* 業務案例的資源預算區
-   >* 系統層的方案計畫器作為與項目連結的計畫的人員成本。 如需詳細資訊，請參閱 [在方案計畫器中建立和編輯方案](../../../scenario-planner/create-and-edit-initiatives.md).
+      >[!IMPORTANT]
+      使用方案計畫器來預算項目資源時，預算的人工成本將顯示在Workfront的以下區域：
+      * 業務案例的資源預算區
+      * 系統層的方案計畫器作為與項目連結的計畫的人員成本。 如需詳細資訊，請參閱 [在方案計畫器中建立和編輯方案](../../../scenario-planner/create-and-edit-initiatives.md).
 
 
 1. （選用）按一下 **在方案計畫器中查看** 開啟包含與項目連結的方案的計畫。 這將在新瀏覽器頁簽中開啟方案規劃器。
 1. （可選）更新計畫的資訊。 如需詳細資訊，請參閱 [在方案計畫器中建立和編輯方案](../../../scenario-planner/create-and-edit-initiatives.md).
 
    >[!NOTE]
-   > 
-   >在項目上的「資源預算編製」區域的每次更改後，您必須發佈方案以進行更新。
+   在項目上的「資源預算編製」區域的每次更改後，您必須發佈方案以進行更新。

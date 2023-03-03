@@ -5,7 +5,7 @@ title: 辭匯表 [!DNL Adobe Workfront] 術語
 description: 此 [!DNL Adobe Workfront] 字彙表列出Adobe Workfront中常用的辭彙。
 feature: Get Started with Workfront
 exl-id: 758072b3-775e-4771-9ae9-da0b38580c93
-source-git-commit: fb538c6511514eedf81f4b9be452d5f87e3f7577
+source-git-commit: 8420f65e84edd42204d91aa503ff0b95153a1e67
 workflow-type: tm+mt
 source-wordcount: '19138'
 ht-degree: 0%
@@ -890,7 +890,7 @@ ht-degree: 0%
    <p>您的Workfront管理員會決定要使用哪個排程來判斷使用者的可用性。  </p>
    <ul>
    <li> 使用[!UICONTROL預設計畫]時，Workfront會使用在其設定檔中找到之使用者的[!UICONTROL FTE]來計算可用性。 </li>
-   <li> 使用使用者排程時，Workfront會使用使用者的休息時間， <span class="preview">[!UICONTROL工作時間]值</span>，和[!UICONTROL預設計畫]的小時數來計算用戶的[!UICONTROL FTE]。 </li> </ul>
+   <li> 使用「用戶計畫」時，Workfront會使用用戶的休息時間、[!UICONTROL工作時間]值和[!UICONTROL預設計畫]小時來計算用戶的[!UICONTROL FTE]。 </li> </ul>
 
 <p>如需詳細資訊，請參閱 <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md">配置資源管理首選項</a>.  </p>
    <p>如需在 [!DNL Workfront]，請參閱 <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md">建立排程</a>. </p>
@@ -2334,15 +2334,15 @@ The designated full time equivalency for users. A full-time user should have 100
    <td>[!UICONTROL工作時間]</td> 
    <td>
 
-<p><span class="preview">表示用戶可用於實際工作（不包括間接費用）的等效全職時間([!UICONTROL FTE])的百分比。 [!UICONTROL工作時間]必須是十進位數字，最多1，不能是0。 例如，實際工作20%的可用性為0.2。</span>  </p>
-   </p><span class="preview">欄位的預設值為1，表示使用者花費其整個[!UICONTROL FTE]在實際的專案相關工作上。</span>   </p>
-   <p><span class="preview">系統使用此編號來計算用戶在實際項目相關工作中的可用性。 </span></p>
-   <p> <span class="preview">排程例外和休假時間也可能影響使用者容量。</span> </p>
-   <p><span class="preview">如需在Workfront中建立排程的詳細資訊，請參閱 <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md">建立排程</a>.</span> </p>
+<p>表示用戶可用於實際工作（不包括間接費用）的等效全職時間([!UICONTROL FTE])的百分比。 [!UICONTROL工作時間]必須是十進位數字，最多1，不能是0。 例如，實際工作20%的可用性為0.2。</p>
+   </p>欄位的預設值為1，表示使用者花費其整個[!UICONTROL FTE]在實際的專案相關工作上。  </p>
+   <p>系統使用此編號來計算用戶在實際項目相關工作中的可用性。 </p>
+   <p> 排程例外和休假時間也可能影響使用者容量。 </p>
+   <p>如需在Workfront中建立排程的詳細資訊，請參閱 <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md">建立排程</a>. </p>
     <p>Workfront會根據您的[!UICONTROL設定]區域中的「資源管理」首選項計算用戶的可用性。 如需詳細資訊，請參閱 <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md/">配置資源管理首選項</a>. </p> 
-   <p><span class="preview">您可以在編輯或建立使用者時更新使用者的[!UICONTROL工作時間]。 如需詳細資訊，請參閱 <a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md">編輯使用者的設定檔</a></span></p> 
+   <p>您可以在編輯或建立使用者時更新使用者的[!UICONTROL工作時間]。 如需詳細資訊，請參閱 <a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md">編輯使用者的設定檔</a></p> 
    <b>筆尖</b> 
-   <p><span class="preview">將[!UICONTROL工作時間]值設為1，表示該用戶可用於與項目相關的整個全職工作。</span></p> 
+   <p>將[!UICONTROL工作時間]值設為1，表示該用戶可用於與項目相關的整個全職工作。</p> 
    </td> 
   </tr> 
   <tr> 

@@ -5,18 +5,14 @@ description: 作為資源計畫的一部分，您可以使用項目層資源計�
 author: Alina
 feature: Work Management
 exl-id: 51ebb940-111c-442f-a8a6-287a04d2db68
-source-git-commit: 5433008d93e99d69f8116e222bfce02411b77825
+source-git-commit: 8420f65e84edd42204d91aa503ff0b95153a1e67
 workflow-type: tm+mt
-source-wordcount: '1249'
+source-wordcount: '1284'
 ht-degree: 0%
 
 ---
 
 # 使用資源計畫器在業務案例中的預算資源
-
-<!--drafted for the Budgeted Hours story: 
-
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> -->
 
 作為資源計畫的一部分，您可以使用項目層資源計畫器來預算在構建業務案例時完成項目中的工作所需的任務職責。
 
@@ -174,6 +170,4 @@ ht-degree: 0%
 
    在「業務案例」中指定的預算資訊也顯示在「資源計畫器」中。
 
-   <!--drafted for Budgeted Hours: 
-   <span class="preview">When you copy a project, you have the option to also copy the Budgeted Hours to the new project. Only hours budgeted in the Resource Planner are copied. For more information, see [Copy a project](../manage-projects/copy-project.md)</span>
-   -->
+   複製專案時，您可以選擇將預算小時數複製到新專案。 系統僅複製資源計畫員中預算的小時數。 如需詳細資訊，請參閱 [複製專案](../manage-projects/copy-project.md).
