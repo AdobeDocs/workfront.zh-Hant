@@ -4,9 +4,9 @@ description: 23.2版本概觀
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: e6995cd57c4210725d49379df5bcd7e93ce4b02a
+source-git-commit: 26e15632013bc4ecdad67dd3843bc42ca9cc3ddb
 workflow-type: tm+mt
-source-wordcount: '1455'
+source-wordcount: '1511'
 ht-degree: 0%
 
 ---
@@ -82,10 +82,26 @@ ht-degree: 0%
                         <p><span class="bold">發行日期</span>
                         </p>
                     </td>
-                </tr>
+                </tr><!--
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-feb-27.md" class="MCXref xref" xrefformat="{para}">Add tasks and issues to Workfront Boards from lists and reports</a><span style="color: #ff0000;"> New in Preview!</span></p>
+                        <p>You can now add existing tasks or issues to a Workfront board directly from a list or report view. Any items you add to the board will become connected cards.</p>
+                    </td>
+                    <td><p><b>Available on these dates:</b></p>
+                        <ul>
+                            <li>
+                                <p>Preview release: March 2, 2023<br /></p>
+                            </li>
+                            <li>
+                                <p>Production release: With the 23.2 release</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>-->
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-feb-20.md" class="MCXref xref" xrefformat="{para}">登錄主板上連接的卡的時數</a><span style="color: #ff0000;"> 預覽新增功能！</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-feb-20.md" class="MCXref xref" xrefformat="{para}">登錄主板上連接的卡的時數</a></p>
                         <p>您現在可以在連線卡上登錄數小時，就像處理任務或問題時一樣。 您必須擁有任務或問題的正確權限才能記錄時間。</p>
                     </td>
                     <td><p><b>可於下列日期使用：</b></p>
@@ -203,6 +219,22 @@ ht-degree: 0%
                     <td>
                         <p><span class="bold">發行日期</span>
                         </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-feb-13.md" class="MCXref xref" xrefformat="{para}">增強的篩選體驗，Adobe Workfront中一般提供<span style="color: #ff0000;"> 預覽新增功能！</span></a>
+                        <p>已增強的篩選器體驗將正式推出，並於2023年3月2日於「預覽」中成為標準篩選器產生器。 生產功能也將於3月2日開始分階段推出，第23.2發行版本將供所有客戶使用。</p>
+                    </td>
+                    <td><p><b>可於下列日期使用：</b></p>
+                        <ul>
+                            <li>
+                                <p>預覽版本：2023年3月2日<br /></p>
+                            </li>
+                            <li>
+                                 <p><span class="preview">生產版本：隨第23.2發行版本一起推出</span></p>
+                            </li>
+                        </ul>
                     </td>
                 </tr>
                 <tr>
