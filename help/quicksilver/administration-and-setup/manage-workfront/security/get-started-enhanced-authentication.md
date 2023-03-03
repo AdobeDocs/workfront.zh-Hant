@@ -1,12 +1,12 @@
 ---
-title: 隱藏的測試檔案
+title: 隱藏的檔案
 description: 在搜尋和左側導覽中隱藏
 hidefromtoc: true
 hide: true
 exl-id: bf3c6c6f-ddd5-42d0-9efe-b5eb94549f85
-source-git-commit: ea2fef66d50f07b05648356179d996d3aa4d23df
+source-git-commit: a151fa70a1093db3d9a0af1f4024d5d4cb5fd317
 workflow-type: tm+mt
-source-wordcount: '580'
+source-wordcount: '579'
 ht-degree: 3%
 
 ---
