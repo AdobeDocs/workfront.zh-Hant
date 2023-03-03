@@ -6,9 +6,9 @@ description: API 基本概念
 author: Becky
 feature: Workfront API
 exl-id: d8c27915-8e1b-4804-9ef8-3a2efd57caac
-source-git-commit: f050c8b95145552c9ed67b549608c16115000606
+source-git-commit: 01f5970fc17f9390d48b00541c912d21ba77c0a4
 workflow-type: tm+mt
-source-wordcount: '4405'
+source-wordcount: '4478'
 ht-degree: 0%
 
 ---
@@ -427,11 +427,17 @@ OR陳述式只會傳回API呼叫中符合OR陳述式篩選條件的記錄。 篩
 
 ### 使用編頁回應 {#using-paginated-responses}
 
-要覆蓋「預設結果數」查詢限制並允許200個結果，您可以在查詢中包含$$LIMIT=200篩選器，如下例所示：
-<pre>GET/attask/api/v15.0/project/search?$$LIMIT=200</pre>為保證系統中其他租戶的可靠性和效能，每個查詢允許的最大結果限制為2000個對象。 嘗試指定較大的限制將導致IllegalArgumentException錯誤消息。 
+要覆蓋「預設結果數」查詢限制並允許200個結果，您可以包括 `$$LIMIT=200` 篩選，如下列範例所示：
+<pre>GET/attask/api/v15.0/project/search?$$LIMIT=200</pre>
 
-因此，建議您考慮對大型資料集使用編頁回應。 若要指定應傳回的第一個結果，請新增$$FIRST篩選器。 例如，下列請求會傳回查詢的結果201-250:
-<pre>GET/attask/api/v15.0/project/search?$FIRST=201&amp;$LIMIT=50</pre>
+為確保系統中其他租戶的可靠性和效能，每個查詢允許的最大結果限制為2000個對象。 嘗試指定較大限制會導致 `IllegalArgumentException` 錯誤訊息。 
+
+因此，建議您考慮對大型資料集使用編頁回應。 若要指定應傳回的第一個結果，請新增 `$$FIRST` 篩選。 例如，下列請求會傳回查詢的結果201-250:
+<pre>GET/attask/api/v15.0/project/search?$FIRST=200&amp;$LIMIT=50</pre>
+
+請注意，在上例中， `$$FIRST=200` 返回第201個結果。 `$$FIRST=0` 會傳回第一個結果。 將$$FIRST值視為在傳回結果之前要略過的結果數，可能會有所幫助。
+
+若要確定結果已正確編頁，請使用排序參數。 這可讓結果以相同順序傳回，因此分頁不會重複或略過結果。 例如，若要使用物件ID來排序，請使用 `ID_Sort=asc`.
 
 ### 建立存取規則
 
