@@ -4,7 +4,7 @@ description: Workfront Fusion發行活動2022年12月12日星期
 author: Becky
 feature: Product Announcements, Workfront Fusion
 hidefromtoc: true
-source-git-commit: e6995cd57c4210725d49379df5bcd7e93ce4b02a
+source-git-commit: 5293ea1b83334567da5dfdd85221faec3deeb64b
 workflow-type: tm+mt
 source-wordcount: '162'
 ht-degree: 0%
