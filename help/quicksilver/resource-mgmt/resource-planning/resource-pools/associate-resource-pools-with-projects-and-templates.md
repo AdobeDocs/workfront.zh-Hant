@@ -6,7 +6,7 @@ description: 資源池是協助您在Adobe Workfront中管理資源的使用者�
 author: Alina
 feature: Resource Management
 exl-id: bbfe8257-ff02-4f06-9763-3f2ae4871c9d
-source-git-commit: 6580fec18982215dbc2535d5f2ab159fc32ac3f5
+source-git-commit: 78de23b4d5814e5e2ead6bb61a80bba7bd2aed33
 workflow-type: tm+mt
 source-wordcount: '612'
 ht-degree: 0%
@@ -105,9 +105,9 @@ ht-degree: 0%
    >
    >批量編輯項目或模板時，此欄位中只會顯示所有選定項目或模板的共同資源池。 如果所選項目沒有共用資源池，則此欄位將為空。 您在此處指定的資源池將覆蓋項目或模板的單個資源池。
 
-<!--drafted note for bulk editing projects - update the screen shot below for Edit Projects with the new UI in bulk and add the preview tags to the picture for Preview-->
+   <!--drafted note for bulk editing projects - update the screen shot below for Edit Projects with the new UI in bulk and add the preview tags to the picture for Preview-->
 
-![add_resource_pools_to_multiple_projects.png](assets/add-resource-pools-to-multiple-projects-350x358.png)
+   ![add_resource_pools_to_multiple_projects.png](assets/add-resource-pools-to-multiple-projects-350x358.png)
 
 1. 按一下 **儲存變更**.\
    當資源池與項目或模板相關聯時，您可以在資源計畫器中為項目預算用戶分配。\

@@ -7,7 +7,7 @@ description: 您可以將現有的自訂表單新增至下列任何物件。 自
 author: Alina
 feature: Get Started with Workfront
 exl-id: c06666a7-ab78-4311-8fcb-1d1a68034133
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 0b0140245a636db73ae1b6dc2e4abac2eecc6909
 workflow-type: tm+mt
 source-wordcount: '816'
 ht-degree: 1%
@@ -15,6 +15,9 @@ ht-degree: 1%
 ---
 
 # 將自訂表單新增至物件
+
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> -->
 
 您可以將現有的自訂表單新增至下列任何物件。 自訂表單包含自訂欄位，您可在其中儲存物件的相關資訊。
 
@@ -104,19 +107,23 @@ ht-degree: 1%
 
 ## 將自訂表單大量新增至多個物件
 
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: this will need to be edited when the bulk edit is released for NWE) </p>
--->
-
 您可以在清單中選取自訂表單，將自訂表單新增至多個物件。
+
+<!--
+drafted for bulk-editing projects. When it releases to Prod for projects, take "in the preview environment" and the yellow tags out. Add additional objects here in the same way when they become available:
+
+>[!NOTE]
+>
+><span class="preview">For information about adding custom forms to projects in bulk in the Preview environment, see the article [Edit projects](../../manage-work/projects/manage-projects/edit-projects.md)</span>.
+
+-->
 
 1. 導覽至物件清單。
 1. 在清單中選取多個物件。
 
 1. 按一下 **更多** 功能表 ![](assets/more-icon.png)，然後按一下 **編輯** 圖示  ![](assets/edit-icon.png)，或按一下 **編輯** 圖示 ![](assets/edit-icon.png).
 1. 按一下 **自訂Forms** 中。
-1. 在 **進行選取** 下拉菜單，選擇要與所有選定對象關聯的表單。
-
+1. 選擇要與 **進行選取** 下拉式功能表。
    >[!NOTE]
    >
    >如果在下拉菜單中找不到表單，這意味著至少有一個對象具有已與其關聯的表單。 確定哪個對象是該對象，並在將表單添加到剩餘對象之前將其從您的選擇中刪除。

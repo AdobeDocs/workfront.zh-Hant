@@ -6,7 +6,7 @@ description: 您可以更新附加至一個物件的自訂表單顯示順序、�
 author: Alina
 feature: Get Started with Workfront
 exl-id: e5570a09-32cb-43e3-9c1d-4421db42fa24
-source-git-commit: 6580fec18982215dbc2535d5f2ab159fc32ac3f5
+source-git-commit: 78de23b4d5814e5e2ead6bb61a80bba7bd2aed33
 workflow-type: tm+mt
 source-wordcount: '1080'
 ht-degree: 0%
@@ -14,6 +14,9 @@ ht-degree: 0%
 ---
 
 # 管理附加到對象的自定義表單
+
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span>  -->
 
 您可以更新附加至一個物件的自訂表單顯示順序、移除它們，或大量編輯自訂表單在多個物件上的顯示方式。
 
@@ -92,10 +95,15 @@ ht-degree: 0%
 
 * 如果兩個不同對象上有相同的計算欄位，則其計算必須相同，以避免錯誤。 如需如何將計算欄位新增至自訂表單（包括多個表單）的資訊，請參閱 [將計算資料新增至自訂表單](../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md) .
 
-## 大量編輯物件時編輯多個自訂表單
+## 在大量編輯物件時管理多個自訂表單
 
 <!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: this section will need to be edited when the bulk Edit box is released to NWE; add some screen shots for NWE) </p>
+drafted for bulk-editing projects. When it releases to Prod for projects, take "in the preview environment" and the yellow tags out. Add additional objects here in the same way when they become available:
+
+>[!NOTE]
+>
+><span class="preview">For information about managing custom forms on projects in bulk in the Preview environment, see the article [Edit projects](../../manage-work/projects/manage-projects/edit-projects.md)</span>.
+
 -->
 
 當您大量編輯已套用多個自訂表單的物件時，可以編輯這些物件上自訂表單的顯示方式，以及編輯自訂表單中的常見欄位。

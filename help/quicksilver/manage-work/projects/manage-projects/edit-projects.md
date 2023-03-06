@@ -6,9 +6,9 @@ description: 您可以視需要經常編輯Adobe Workfront中的專案。 理想
 author: Alina
 feature: Work Management
 exl-id: a6a1f178-189a-4c41-835b-7726081a2b49
-source-git-commit: 7b61f6d9380365daa614c597ee7755d6d01d915d
+source-git-commit: 0b0140245a636db73ae1b6dc2e4abac2eecc6909
 workflow-type: tm+mt
-source-wordcount: '6382'
+source-wordcount: '6670'
 ht-degree: 2%
 
 ---
@@ -304,21 +304,40 @@ ht-degree: 2%
 
 ### 自訂表單 {#custom-forms}
 
+
+根據您的存取層級和您對專案的權限，會出現下列情況：
+
+* 如果您沒有專案的「編輯自訂表單」權限，則無法編輯任何附加自訂表單上的欄位。 您只能檢視附加至專案的自訂表單欄位。
+* 如果您有自訂表單上某個區段的「檢視」（而非「編輯」）存取權，則無法編輯該區段中的欄位。
+* 如果您無法存取附加至專案的其中一個自訂表單上的區段，該區段不會顯示在「編輯專案」方塊中。
+
+選取多個專案進行大量編輯時，會出現下列情況：
+
+* 如果您至少對一個選取的專案沒有「編輯自訂表單」權限，則無法編輯任何附加自訂表單上的欄位。 您只能檢視附加自訂表單上的欄位
+* 如果您有自訂表單上某個區段的「檢視」（而非「編輯」）存取權，則無法編輯該區段中的欄位。 您只能檢視該區段中的欄位。
+* 如果您無法存取附加至至少一個專案的其中一個自訂表單上的區段，該區段不會顯示在「編輯專案」方塊中。
+
+如需自訂表單存取的相關資訊，請參閱下列文章：
+
+* [共用自訂表單](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md)
+* [為自訂表單新增區段分頁](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-section-break-to-a-custom-form.md)
+
+若要編輯自訂表單的資訊：
+
+
 1. 依上述方式開始編輯專案。
 1. 按一下 **自訂Forms** 中。
 
    ![](assets/nwe-custom-forms-in-edit-project-box-350x170.png)
 
-1. 按一下 **新增自訂表單** 框中，從清單中選擇一個表單以將其附加到項目。
-
-   您必須先建置自訂表單，才能在此欄位中供選取。 清單中只顯示活動的自訂表單。 如需建立自訂表單的詳細資訊，請參閱 [建立或編輯自訂表單](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md). 您最多可將10個自訂表單新增至專案。
-
-1. （條件性）如果您將自訂表單附加至專案，請編輯表單上的任何欄位。 您必須先指定所有必填欄位，才能儲存專案。
+1. 按一下 **新增自訂表單** 框中，從清單中選擇一個表單以將其附加到項目。 依預設，前40個表單會以字母順序顯示。 如果您在清單中未看到表單，請開始輸入表單名稱，然後在表單中出現時選取它。
 
    >[!NOTE]
    >
-   >根據您的Workfront管理員如何設定自訂表單中各區段的權限，不是每個人都可以在指定的自訂表單上檢視或編輯相同的欄位。 編輯自訂表單區段內欄位的權限，取決於您對專案本身的權限。 如需在自訂表單的區段上設定權限的相關資訊，請參閱 [建立或編輯自訂表單](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md). 如需關於設定專案權限的資訊，請參閱 [在Adobe Workfront中共用專案](../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md).
+   >   您必須先建置自訂表單，才能在此欄位中供選取。 清單中只顯示活動的自訂表單。 如需建立自訂表單的詳細資訊，請參閱 [建立或編輯自訂表單](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md). 您最多可將10個自訂表單新增至專案。
 
+
+1. （條件性）如果您將自訂表單附加至專案，請編輯表單上的任何欄位。 您必須先指定所有必填欄位，才能儲存專案。
 1. （選用）按一下 **X圖示** 按一下自訂表單名稱的右側以將其移除，然後按一下 **移除**.
 1. （可選）根據您要修改的資訊，繼續編輯以下部分
 
@@ -327,6 +346,19 @@ ht-degree: 2%
    按一下&#x200B;**儲存**。
 
 ### 財務 {#finance}
+
+根據您的存取層級和您對專案的權限，會出現下列情況：
+
+* 如果您對項目具有「查看」訪問權限和「查看財務」權限，則只能查看「財務」部分中的欄位。 您無法編輯此區段中的欄位。
+* 如果您對項目具有「編輯」訪問權限和「管理財務」權限，則可以更新本節中的欄位。
+
+選取多個專案以大量編輯，且會出現下列情況：
+
+* 如果您至少選擇一個具有「查看財務」（而非「管理財務」）權限的項目，則只能查看此部分中所有選定項目的欄位。 無法批量編輯「財務」部分中的欄位。
+* 如果您至少選擇一個沒有財務權限的項目，則完全不顯示此部分。
+
+要編輯「財務」區域中的欄位：
+
 
 1. 依上述方式開始編輯專案。
 1. 按一下 **金融** 中。
@@ -657,7 +689,18 @@ ht-degree: 2%
 
 ## 大量編輯專案
 
-您可以大量編輯專案，並同時更新其所有資訊。
+您可以大量編輯專案，並同時更新所有選取專案的資訊。
+
+<!--
+The information you are changing on all the projects selected will overwrite the existing information on individual projects, except for the Resource Manager field. 
+
+Adding a new resource manager when editing projects in bulk adds that manager to all the selected projects. If other resource managers are associated with the selected projects, they remain on the projects in addition to the one added through bulk edit.
+
+Editing projects in bulk differs depending on what environment you choose to update them in. 
+
+### Edit projects in bulk in the Production environment
+
+-->
 
 若要大量編輯專案：
 
@@ -716,9 +759,7 @@ ht-degree: 2%
       <!--   
      <p>(NOTE: ensure this step stays accurate)</p>   
      -->
-   >[!NOTE]
-   >
-   >您正在更改的所有選定項目的資訊將覆蓋有關單個項目的現有資訊，但 **資源管理器** 欄位。 以批量編輯方式添加新的資源管理器將將該管理器添加到所有選定項目。 如果其他資源管理器與所選項目相關聯，則除了通過批量編輯添加的資源管理器之外，它們還將保留在項目上。
+
 
 1. （可選）在「設定」區域中，選取下列任一選項：
 
@@ -750,3 +791,106 @@ ht-degree: 2%
 1. 按一下 **儲存變更**.
 
    您所做的所有變更現在都會顯示在所有選取的專案上。
+
+<!--drafted for bulk editing projects:  
+
+<div class="preview">
+
+### Edit projects in the Preview environment
+
+Consider the following when editing projects in bulk in the Preview environment:
+
+* When you select projects that have different values for the same field, the field displays a "Multiple values" indicator in the Edit projects box. Fields that are checkboxes, radio buttons, and toggles have a "Multiple values" indicator next to them.
+
+   ![](assets/multiple-values-indicator-dates-bulk-edit-projects.png)
+
+* In addition to the "Multiple values" indicator, when the chosen options are different on at least one of the selected projects, fields that have multiple options display in one of the following ways:  
+
+    * Checkbox fields have a line instead of a checkbox for the option that is checked for some but not for all the selected projects.
+
+      ![](assets/multiple-values-indicator-check-boxes-bulk-edit-projects.png)
+
+    * Toggle-type fields display dimmed, with the toggle in the middle for the option that is enabled for some but not for all the selected projects. 
+
+    ![](assets/multiple-values-highlighted-bulk-edit-projects.png)
+
+    * Radio button-type fields that have some options selected but not all, display all radio buttons as empty. 
+
+      ![](assets/multiple-values-indicator-radio-buttons-bulk-edit-projects.png)
+
+* When you update one option in a multiple-option field (such as a field that displays as a set of toggles or checkboxes), all other options must match between the selected projects. 
+
+   >[!IMPORTANT]
+   >
+   >For example, you might have a checkbox field with three checkboxes (Option1, Option 2, and Option 3) and Option 1 is unchecked for all projects, and Option 2 and 3 are checked for some and unchecked for other projects that you selected. If you want to check Option 1 for all projects, you must also make Option 2 and 3 match for all the selected projects before you can save your changes, so you must either select them or deselect them so that they can match on all the selected projects. If you do not change any of the options, you can save the field as is, and the projects maintain their current selection for all options. 
+
+* When you select multiple projects that belong to different groups, the statuses that display in the Status field are system-level statuses and not group-level statuses. 
+
+To edit projects in the Preview environment: 
+
+1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront.
+1. Click **Projects**.
+1. Select several projects in the list.
+1. Click the **Edit** icon ![](assets/edit-icon.png) at the top of the list. 
+The **Edit Projects** dialog box opens. 
+
+   ![](assets/edit-projects-in-bulk-modal-unshimmed.png)
+
+Depending on how your Workfront administrator or Group administrator modified your Layout Template, the areas in the left panel of the Edit Project box or any fields listed in these areas might be rearranged or not display. For information, see [Customize the Details view using a layout template](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md). 
+
+1. Click **Overview** to edit general information about the selected projects.  For more information about editing the Overview area, see the section [Overview](#overview) in this article.
+
+   >[!TIP]
+   >
+   >Fields that you edit display with a light purple background.
+
+1. Click **Custom Forms** to edit, add, or replace custom forms associated with the selected projects. 
+
+   The custom forms that are attached to all the selected projects display in the **Custom forms in common** subsection in the **Custom Forms** area.
+
+   ![](assets/custom-forms-in-common-unshimmed.png) 
+
+   >[!TIP]
+   >
+   >   The names of the forms that are common to all selected projects display in the left panel of the Edit Projects box.
+
+1. Start typing the name of a custom form in the **Add custom form** field.
+
+
+   ![](assets/forms-already-attached-indication-in-bulk-editing-projects-unshimmed.png)
+
+   The custom forms that are already attached to the selected projects display in the **Attached forms** subsection in the **Add custom form** field. 
+   
+   Additional custom forms that can be associated with projects but are not attached to any of the selected projects display in the **Forms to add** subsection in the **Add custom form** field. 
+   
+1. Click to select the additional custom form in the **Add custom form** or **Forms to add** subsections when it displays in the list. 
+
+   When a custom form is already attached to some of the selected projects, there is an indication next to the name of the form how many projects already have the form selected, when adding a form.  
+
+1. (Optional) Click the **x** icon to the right of a custom form's name, then click **Remove** to remove it from all the selected projects.
+
+   >[!CAUTION]
+   >
+   >   Removing custom forms causes all existing custom field information on the forms to be lost. This cannot be recovered. 
+
+   For more information about editing custom forms, see the section [Custom Forms](#custom-forms) in this article.
+
+1. Click **Finance** to edit financial information for all selected projects.
+For more information about editing the Finance area, see the section [Finance](#finance) in this article. 
+1. Click **Project Settings** to edit the settings for all selected projects.
+For more information about editing the Project Settings area, see the section [Project Settings](#project-settings) in this article. 
+1. Click **Task Settings** to edit the task settings for all selected projects. 
+For more information about editing the Task Settings area, see the section [Task Settings](#task-settings) in this article.
+1. Click **Issue Settings** to edit the issue settings for all selected projects.
+For more information about editing the Issue Settings area, see the section [Issue Settings](#issue-settings) in this article.
+1. Click **Access** to edit the access settings for all selected projects.
+For more information about editing the Access area, see the section [Access](#access) in this article.
+1. (Optional) To remove any of the information you added in the Edit Projects box, hover over an edited field, then click the **x** discard icon to the upper-right of the field. 
+
+   ![](assets/discard-icon-for-field-edit-projects-in-bulk-unshimmed.png)
+
+1. (Optional) Click **Cancel** at the bottom of the **Edit projects** page to remove all the changes made to all projects. 
+1. Click **Save**. 
+
+<div>
+-->

@@ -8,7 +8,7 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 1474e1dd-9b10-476e-9526-6577efa8d1c2
-source-git-commit: 6580fec18982215dbc2535d5f2ab159fc32ac3f5
+source-git-commit: 78de23b4d5814e5e2ead6bb61a80bba7bd2aed33
 workflow-type: tm+mt
 source-wordcount: '477'
 ht-degree: 0%
@@ -40,7 +40,7 @@ or billing record
 
 <!--drafted for bulk editing proejcts - make this bullet live and in yellow at Preview: 
 
-* <span class="preview">"Edit objects" screens, such as Edit Projects, when editing projects in bulk</span>
+* <span class="preview">"Edit objects" screens when editing projects in bulk, like Edit Projects</span>
 
   <span>![](assets/customize-edit-projects-in-bulk-box-with-layout-template.png)</span>
   -->
