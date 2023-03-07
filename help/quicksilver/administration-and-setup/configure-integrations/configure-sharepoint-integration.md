@@ -8,9 +8,9 @@ author: Becky, Caroline
 feature: System Setup and Administration, [!DNL Workfront] Integrations and Apps, Digital Content and Documents
 role: Admin
 exl-id: fd45e1bc-9a35-4960-a73a-ff845216afe4
-source-git-commit: 5292069412a73f824dbcd967d47737cff5ef58fa
+source-git-commit: 15aa025c9a35e30867f942047ec1989fdd6834e5
 workflow-type: tm+mt
-source-wordcount: '2515'
+source-wordcount: '2517'
 ht-degree: 0%
 
 ---
@@ -72,6 +72,8 @@ ht-degree: 0%
 個別使用者可以透過新的 [!DNL SharePoint] 整合。 整合不需要管理員配置。 而是使用者登入 [!DNL Microsoft] 帳戶，這可讓整合存取使用者中可用的檔案 [!DNL SharePoint].
 
 使用者首次連線 [!DNL Workfront] [!DNL SharePoint] 整合至 [!DNL SharePoint] 帳戶，他們會看到並同意 [!DNL Workfront] 與使用者互動時的使用 [!UICONTROL SharePoint] 帳戶。 讀取權限允許 [!DNL Workfront] 查看和訪問 [!DNL SharePoint]、和寫入權限可讓使用者將檔案上傳至 [!DNL SharePoint].
+
+![Sharepoint權限](assets/sharepoint-permissions.png)
 
 有關通過新 [!DNL SharePoint] 整合，請參閱 [將外部文檔連結到 [!DNL Workfront]](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md#link-an-external-document-to-workfront)
 
