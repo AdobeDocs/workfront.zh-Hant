@@ -6,9 +6,9 @@ description: 請檢閱這些文章，了解如何使用Workfront中的展示板�
 author: Lisa
 feature: Agile
 exl-id: f9b8b721-d4ba-4ed5-b7a4-ad3610cbc18e
-source-git-commit: 5b7253fb0313e4ba1a2959497c0b3f92cff30e13
+source-git-commit: 53781e0df0c748310d254ca149ec371757b90303
 workflow-type: tm+mt
-source-wordcount: '99'
+source-wordcount: '104'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,7 @@ ht-degree: 0%
 
 本節包含下列文章：
 
+* [Adobe Workfront展示板影片示範](/help/quicksilver/agile/get-started-with-boards/boards-video-demonstrations.md)
 * [展示板早期功能選擇加入](../../agile/get-started-with-boards/boards-early-feature-opt-in.md)
 * [使用展示板控制面板](../../agile/get-started-with-boards/use-boards-page.md)
 * [建立或編輯展示板](../../agile/get-started-with-boards/create-edit-board.md)
