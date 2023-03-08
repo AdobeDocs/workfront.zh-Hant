@@ -6,7 +6,7 @@ description: 從 [!UICONTROL 展示板] 控制面板，您可以建立新展示�
 author: Lisa
 feature: Agile
 exl-id: 5f755177-c8ea-4509-a34f-57ffcfd8ba7f
-source-git-commit: e27965502ef7943f901daecd12897a4d3428068e
+source-git-commit: 03feb17020cb5b8e1c595fd4d8ab683900e2fbfa
 workflow-type: tm+mt
 source-wordcount: '500'
 ht-degree: 5%
@@ -43,7 +43,7 @@ ht-degree: 5%
 ## 建立新展示板
 
 1. 按一下 **[!UICONTROL 主菜單]** 圖示 ![](assets/main-menu-icon.png) 在 [!DNL Adobe Workfront]，然後按一下 **[!UICONTROL 展示板]**.
-1. 若要建立獨立展示板，請按一下 **[!UICONTROL 新建]** 在 [!UICONTROL 展示板] 的上界。 若要將展示板新增至集合，請參閱 [管理集合](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md).
+1. 若要建立獨立展示板，請按一下 **[!UICONTROL 新增展示板]** 在 [!UICONTROL 展示板] 的上界。 若要將展示板新增至集合，請參閱 [管理集合](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md).
 
    >[!NOTE]
    >

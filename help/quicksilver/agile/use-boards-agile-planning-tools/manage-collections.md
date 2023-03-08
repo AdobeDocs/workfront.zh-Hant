@@ -6,7 +6,7 @@ title: 管理集合
 description: 集合是一組可設定的展示板，用於協作工作。
 author: Lisa
 feature: Agile
-source-git-commit: 5202756d21224d6a704750eec00fcfa24241fb6b
+source-git-commit: 03feb17020cb5b8e1c595fd4d8ab683900e2fbfa
 workflow-type: tm+mt
 source-wordcount: '520'
 ht-degree: 4%
@@ -47,7 +47,7 @@ ht-degree: 4%
 ## 建立集合
 
 1. 按一下 **[!UICONTROL 主菜單]** 圖示 ![主菜單](assets/main-menu-icon.png) 在 [!DNL Adobe Workfront]，然後按一下 **[!UICONTROL 展示板]**.
-1. 按一下 **[!UICONTROL 新建]** 在 [!UICONTROL 集合] 的子文檔。
+1. 按一下 **[!UICONTROL 新增集合]** 在 [!UICONTROL 集合] 的子文檔。
 1. 輸入要替換的名稱 **[!UICONTROL 無標題集合]** 按Enter鍵。
 
    您可以新增展示板至系列，或按一下 [!UICONTROL **所有展示板**] 返回控制面板。
@@ -55,7 +55,7 @@ ht-degree: 4%
 ## 在集合中建立新展示板
 
 1. 如果您尚未在集合中，請按一下 [!UICONTROL **檢視集合**] 在控制面板上，開啟現有的集合。
-1. 按一下 **[!UICONTROL 新建]** 在 [!UICONTROL 展示板] 標籤中。
+1. 按一下 **[!UICONTROL 新增展示板]** 在 [!UICONTROL 展示板] 標籤中。
 1. 為展示板選取範本。
 
 | 範本 | 說明 |
