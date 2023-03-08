@@ -6,9 +6,9 @@ description: 事件訂閱API
 author: Becky
 feature: Workfront API
 exl-id: c3646a5d-42f4-4af8-9dd0-e84977506b79
-source-git-commit: f050c8b95145552c9ed67b549608c16115000606
+source-git-commit: e06f6e8ca40da6741982b4ed8c5c53bdbfb253ca
 workflow-type: tm+mt
-source-wordcount: '2203'
+source-wordcount: '2109'
 ht-degree: 3%
 
 ---
@@ -73,65 +73,10 @@ ht-degree: 3%
 
 若要建立、查詢或刪除事件訂閱，您的Workfront使用者需要：
 
-* 「系統管理員」的訪問級別
-* apiKey
+* 使用「事件訂閱」需要「系統管理員」的訪問級別。
+* A `sessionID`  使用事件訂閱API時需要標題。
 
-   >[!NOTE]
-   >
-   >如果您的使用者已使用Workfront的API，則您的使用者應已擁有apiKey。 您可以透過下列HTTP要求擷取apiKey:
-
-**請求URL:**
-
-```
-PUT https://<HOSTNAME>/attask/api/v15.0/USER?action=getApiKey&username=<USERNAME>&password=<PASSWORD>
-```
-
-**請求標題：**
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <thead> 
-  <tr> 
-   <th> <p>標題名稱</p> </th> 
-   <th> <p>標題值</p> </th> 
-  </tr> 
- </thead> 
- <tbody> 
-  <tr> 
-   <td> <p>內容類型</p> </td> 
-   <td> <p>文字/html</p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-**回應代碼：**
-
-| 回應代碼 | 說明 |
-|---|---|
-| 200（確定） | 已成功處理請求，應在回應內文中傳回使用者的現有apiKey。 |
-| 401（未授權） | 伺服器確認請求，但無法處理，因為請求的apiKey/使用者沒有提出此請求的存取權。 |
-
-{style=&quot;table-layout:auto&quot;}
-
-**回應內文範例：**
-
-```
-{
-               "data"{
-               "result": "rekxqndrw9783j4v79yhdsakl56bu1jn"
-               }
-      }
-```
-
->[!NOTE]
->
-> 如果您是第一次使用Workfront API，則需要產生apiKey，您可以透過此連結進行：
-
-
-```
-PUT https://<HOSTNAME>/attask/api/v15.0/USER/generateApiKey?username=<USERNAME>&password=<PASSWORD>
-```
+   如需詳細資訊，請參閱 [驗證](api-basics.md#authentication) in [API基本介紹](api-basics.md).
 
 ## 形成訂閱資源
 
@@ -268,8 +213,8 @@ POST https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions
    <td> <p>application/json</p> </td> 
   </tr> 
   <tr> 
-   <td> <p>授權</p> </td> 
-   <td> <p>apiKey值</p> </td> 
+   <td> <p>sessionID</p> </td> 
+   <td> <p>sessionID值</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -291,13 +236,14 @@ POST https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions
 |---|---|
 | 201（已建立） | 已成功建立事件訂閱。 |
 | 400(Bad Request) | 訂閱資源的URL欄位被視為無效。 |
-| 401（未授權） | 提供的apiKey為空或被視為無效。 |
-| 403（禁止） | 與提供的apiKey相符的使用者沒有管理員存取權。 |
+| 401（未授權） | 提供的sessionID為空或被視為無效。 |
+| 403（禁止） | 符合所提供sessionID的使用者沒有管理員存取權。 |
 
 將訂閱資源傳遞為要求內文（內容類型為「application/json」），會導致針對指定的物件建立事件訂閱。 回應代碼201（已建立）表示已建立訂閱。 201以外的回應代碼表示訂閱為 **NOT** 已建立。
 
 >[!NOTE]
- 「位置」響應標題包含新建立的事件訂閱的URI。
+>
+> 「位置」響應標題包含新建立的事件訂閱的URI。
 
 **回應標題範例：**
 
@@ -342,8 +288,8 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>授權</p> </td> 
-   <td> <p>apiKey值</p> </td> 
+   <td> <p>sessionID</p> </td> 
+   <td> <p>sessionID值</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -352,9 +298,9 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions
 
 | 回應代碼 | 說明 |
 |---|---|
-| 200（確定） | 傳回的請求包含針對符合所提供apiKey之客戶的所有事件訂閱。 |
-| 401（未授權） | 提供的apiKey為空。 |
-| 403（禁止） | 與提供的apiKey相符的使用者沒有管理員存取權。 |
+| 200（確定） | 傳回的請求包含針對符合所提供sessionID之客戶的所有事件訂閱。 |
+| 401（未授權） | 提供的sessionID為空。 |
+| 403（禁止） | 與提供的sessionID相符的使用者沒有管理員存取權。 |
 
 
 **回應標題範例：**
@@ -435,8 +381,8 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/<SUBSCRIPTI
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>授權</p> </td> 
-   <td> <p>apiKey值</p> </td> 
+   <td> <p>sessionID</p> </td> 
+   <td> <p>sessionID值</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -446,8 +392,8 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/<SUBSCRIPTI
 | 回應代碼 | 說明 |
 |---|---|
 | 200（確定） | 傳回的請求與提供的訂閱ID相符的事件訂閱。 |
-| 401（未授權） | 提供的apiKey為空。 |
-| 403（禁止） | 與提供的apiKey相符的使用者沒有管理員存取權。 |
+| 401（未授權） | 提供的sessionID為空。 |
+| 403（禁止） | 與提供的sessionID相符的使用者沒有管理員存取權。 |
 
 
 **回應內文範例：**
@@ -729,8 +675,8 @@ DELETE https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/<SUBSCRI
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>授權</p> </td> 
-   <td> <p> 使用者的apiKey </p> </td> 
+   <td> <p>sessionID</p> </td> 
+   <td> <p> sessionID值 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -753,11 +699,11 @@ DELETE https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/<SUBSCRI
   </tr> 
   <tr> 
    <td>401（未授權）</td> 
-   <td>提供的apiKey為空。</td> 
+   <td>提供的sessionID為空。</td> 
   </tr> 
   <tr> 
    <td>403（禁止）</td> 
-   <td>符合所提供apiKey的使用者沒有管理員存取權。</td> 
+   <td>符合所提供sessionID的使用者沒有管理員存取權。</td> 
   </tr> 
   <tr> 
    <td>404（找不到）</td> 
@@ -949,7 +895,7 @@ base64Encoding欄位是可選欄位，用於啟用事件訂閱負載的Base64編
 
 下列API端點已遭取代，不應用於新實作。 我們也建議將舊實作轉換為 **查詢事件訂閱** 一節。
 
-您可以按照apiKey值的指定，查詢客戶的所有事件訂閱。 列出特定客戶之所有事件訂閱的請求語法如下：
+您可以按照sessionID值的指定查詢客戶的所有事件訂閱。 列出特定客戶之所有事件訂閱的請求語法如下：
 
 <!-- [Copy](javascript:void(0);) -->
 
@@ -970,8 +916,8 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/list
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>授權</p> </td> 
-   <td> <p> 使用者的apiKey </p> </td> 
+   <td> <p>sessionID</p> </td> 
+   <td> <p> sessionID值 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -994,11 +940,11 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/list
   </tr> 
   <tr> 
    <td>401（未授權）</td> 
-   <td>提供的apiKey為空。</td> 
+   <td>提供的sessionID為空。</td> 
   </tr> 
   <tr> 
    <td>403（禁止）</td> 
-   <td>符合所提供apiKey的使用者沒有管理員存取權。</td> 
+   <td>符合所提供sessionID的使用者沒有管理員存取權。</td> 
   </tr> 
  </tbody> 
 </table>
