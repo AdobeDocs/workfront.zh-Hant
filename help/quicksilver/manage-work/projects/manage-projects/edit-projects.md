@@ -6,17 +6,16 @@ description: 您可以視需要經常編輯Adobe Workfront中的專案。 理想
 author: Alina
 feature: Work Management
 exl-id: a6a1f178-189a-4c41-835b-7726081a2b49
-source-git-commit: 0b0140245a636db73ae1b6dc2e4abac2eecc6909
+source-git-commit: 7ed42330837149b1e4b813c24c81aa317f3c8b7e
 workflow-type: tm+mt
-source-wordcount: '6670'
+source-wordcount: '7664'
 ht-degree: 2%
 
 ---
 
 # 編輯專案
 
-<!--drafted for bulk editing projects: 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> -->
+<span class="preview">本頁強調顯示的資訊指的是尚未普遍提供的功能。 它僅在預覽環境中可用。</span>
 
 <!--
 <p>***Linked to many articles,</p>
@@ -691,16 +690,14 @@ ht-degree: 2%
 
 您可以大量編輯專案，並同時更新所有選取專案的資訊。
 
-<!--
-The information you are changing on all the projects selected will overwrite the existing information on individual projects, except for the Resource Manager field. 
 
-Adding a new resource manager when editing projects in bulk adds that manager to all the selected projects. If other resource managers are associated with the selected projects, they remain on the projects in addition to the one added through bulk edit.
+您正在更改的所有選定項目的資訊將覆蓋各個項目的現有資訊，但資源管理器欄位除外。
 
-Editing projects in bulk differs depending on what environment you choose to update them in. 
+大量編輯專案時新增資源管理員，會將該管理員新增至所有選取的專案。 如果其他資源管理器與所選項目相關聯，則除了通過批量編輯添加的資源管理器之外，它們還保留在項目上。
 
-### Edit projects in bulk in the Production environment
+依您選擇在哪個環境中更新專案，大量編輯專案的方式會有所不同。
 
--->
+### 在生產環境中大量編輯專案
 
 若要大量編輯專案：
 
@@ -792,105 +789,103 @@ Editing projects in bulk differs depending on what environment you choose to upd
 
    您所做的所有變更現在都會顯示在所有選取的專案上。
 
-<!--drafted for bulk editing projects:  
-
 <div class="preview">
 
-### Edit projects in the Preview environment
+### 在預覽環境中編輯專案
 
-Consider the following when editing projects in bulk in the Preview environment:
+在「預覽」環境中大量編輯專案時，請考量下列事項：
 
-* When you select projects that have different values for the same field, the field displays a "Multiple values" indicator in the Edit projects box. Fields that are checkboxes, radio buttons, and toggles have a "Multiple values" indicator next to them.
+* 當您為相同欄位選取具有不同值的專案時，欄位會在「編輯專案」方塊中顯示「多個值」指標。 核取方塊、選項按鈕及切換的欄位旁會有「多個值」指標。
 
    ![](assets/multiple-values-indicator-dates-bulk-edit-projects.png)
 
-* In addition to the "Multiple values" indicator, when the chosen options are different on at least one of the selected projects, fields that have multiple options display in one of the following ways:  
+* 除了「多值」指標外，當所選選項在至少一個所選項目上不同時，具有多個選項的欄位將以下列方式之一顯示：
 
-    * Checkbox fields have a line instead of a checkbox for the option that is checked for some but not for all the selected projects.
+   * 核取方塊欄位有一行，而非選取某些選項的核取方塊，但不會針對所有選取的專案核取。
 
       ![](assets/multiple-values-indicator-check-boxes-bulk-edit-projects.png)
 
-    * Toggle-type fields display dimmed, with the toggle in the middle for the option that is enabled for some but not for all the selected projects. 
+   * 切換類型欄位會呈現灰色，中間的切換按鈕會顯示為已針對部分專案啟用，但不會針對所有選取專案啟用的選項。
 
-    ![](assets/multiple-values-highlighted-bulk-edit-projects.png)
+   ![](assets/multiple-values-highlighted-bulk-edit-projects.png)
 
-    * Radio button-type fields that have some options selected but not all, display all radio buttons as empty. 
+   * 選擇鈕類型欄位，選擇了某些選項，但並非全部，將所有選項按鈕顯示為空。
 
       ![](assets/multiple-values-indicator-radio-buttons-bulk-edit-projects.png)
 
-* When you update one option in a multiple-option field (such as a field that displays as a set of toggles or checkboxes), all other options must match between the selected projects. 
+
+* 在多選項欄位中更新一個選項時（例如顯示為一組切換或核取方塊的欄位），所有其他選項必須在選取的專案之間相符。
 
    >[!IMPORTANT]
    >
-   >For example, you might have a checkbox field with three checkboxes (Option1, Option 2, and Option 3) and Option 1 is unchecked for all projects, and Option 2 and 3 are checked for some and unchecked for other projects that you selected. If you want to check Option 1 for all projects, you must also make Option 2 and 3 match for all the selected projects before you can save your changes, so you must either select them or deselect them so that they can match on all the selected projects. If you do not change any of the options, you can save the field as is, and the projects maintain their current selection for all options. 
+   >例如，您可能有一個核取方塊欄位，其中有三個核取方塊（選項1、選項2和選項3），且所有專案都未勾選選項1，而您選取的其他專案則已勾選選項2和選項3。 如果要為所有項目選中「選項1」，則還必須使「選項2」和「選項3」與所有選定項目匹配，然後才能保存更改，因此您必須選擇或取消選擇它們，以便它們能夠匹配所有選定項目。 如果不更改任何選項，則可以按原樣保存該欄位，並且項目將保留其當前對所有選項的選擇。
 
-* When you select multiple projects that belong to different groups, the statuses that display in the Status field are system-level statuses and not group-level statuses. 
+* 當您選擇屬於不同組的多個項目時，「狀態」欄位中顯示的狀態為系統級狀態，而不是組級狀態。
 
-To edit projects in the Preview environment: 
+若要在「預覽」環境中編輯專案：
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront.
-1. Click **Projects**.
-1. Select several projects in the list.
-1. Click the **Edit** icon ![](assets/edit-icon.png) at the top of the list. 
-The **Edit Projects** dialog box opens. 
+1. 按一下 **主菜單** 圖示 ![](assets/main-menu-icon.png) 在Adobe Workfront的右上角。
+1. 按一下 **專案**.
+1. 在清單中選取數個專案。
+1. 按一下 **編輯** 圖示 ![](assets/edit-icon.png) 清單頂端。
+此 **編輯專案** 對話框。
 
    ![](assets/edit-projects-in-bulk-modal-unshimmed.png)
 
-Depending on how your Workfront administrator or Group administrator modified your Layout Template, the areas in the left panel of the Edit Project box or any fields listed in these areas might be rearranged or not display. For information, see [Customize the Details view using a layout template](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md). 
+視您的Workfront管理員或群組管理員修改版面範本的方式而定，「編輯專案」方塊左側面板中的區域，或這些區域中列出的任何欄位，可能會重新排列或不會顯示。 如需詳細資訊，請參閱 [使用版面範本自訂「詳細資料」檢視](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md).
 
-1. Click **Overview** to edit general information about the selected projects.  For more information about editing the Overview area, see the section [Overview](#overview) in this article.
-
-   >[!TIP]
-   >
-   >Fields that you edit display with a light purple background.
-
-1. Click **Custom Forms** to edit, add, or replace custom forms associated with the selected projects. 
-
-   The custom forms that are attached to all the selected projects display in the **Custom forms in common** subsection in the **Custom Forms** area.
-
-   ![](assets/custom-forms-in-common-unshimmed.png) 
+1. 按一下 **概述** 編輯有關所選項目的一般資訊。  如需編輯「概述」區域的詳細資訊，請參閱區段 [概述](#overview) 這篇文章。
 
    >[!TIP]
    >
-   >   The names of the forms that are common to all selected projects display in the left panel of the Edit Projects box.
+   >您編輯的欄位會以淡紫色背景顯示。
 
-1. Start typing the name of a custom form in the **Add custom form** field.
+1. 按一下 **自訂Forms** 要編輯、添加或替換與所選項目關聯的自定義表單，請執行以下操作：
+
+   附加至所有選取專案的自訂表單會顯示在 **共用的自訂表單** 子節 **自訂Forms** 的上界。
+
+   ![](assets/custom-forms-in-common-unshimmed.png)
+
+   >[!TIP]
+   >
+   >   所有選定項目共同的表單名稱顯示在「編輯項目」框的左側面板中。
+
+1. 開始在 **新增自訂表單** 欄位。
 
 
    ![](assets/forms-already-attached-indication-in-bulk-editing-projects-unshimmed.png)
 
-   The custom forms that are already attached to the selected projects display in the **Attached forms** subsection in the **Add custom form** field. 
-   
-   Additional custom forms that can be associated with projects but are not attached to any of the selected projects display in the **Forms to add** subsection in the **Add custom form** field. 
-   
-1. Click to select the additional custom form in the **Add custom form** or **Forms to add** subsections when it displays in the list. 
+   已附加至所選專案的自訂表單會顯示在 **附加表單** 子節 **新增自訂表單** 欄位。
 
-   When a custom form is already attached to some of the selected projects, there is an indication next to the name of the form how many projects already have the form selected, when adding a form.  
+   可與專案相關聯但未附加至任何選取專案的其他自訂表單，會顯示在 **Forms以新增** 子節 **新增自訂表單** 欄位。
 
-1. (Optional) Click the **x** icon to the right of a custom form's name, then click **Remove** to remove it from all the selected projects.
+1. 按一下以選取 **新增自訂表單** 或 **Forms以新增** 子區段。
+
+   當自訂表單已附加至某些選取的專案時，在新增表單時，表單名稱旁會顯示有多少專案已選取表單。
+
+1. （選用）按一下 **x** 圖示（位於自訂表單名稱的右側），然後按一下 **移除** 從所有選定項目中刪除它。
 
    >[!CAUTION]
    >
-   >   Removing custom forms causes all existing custom field information on the forms to be lost. This cannot be recovered. 
+   >   移除自訂表單會導致表單上所有現有的自訂欄位資訊遺失。 無法復原。
 
-   For more information about editing custom forms, see the section [Custom Forms](#custom-forms) in this article.
+   如需編輯自訂表單的詳細資訊，請參閱區段 [自訂Forms](#custom-forms) 這篇文章。
 
-1. Click **Finance** to edit financial information for all selected projects.
-For more information about editing the Finance area, see the section [Finance](#finance) in this article. 
-1. Click **Project Settings** to edit the settings for all selected projects.
-For more information about editing the Project Settings area, see the section [Project Settings](#project-settings) in this article. 
-1. Click **Task Settings** to edit the task settings for all selected projects. 
-For more information about editing the Task Settings area, see the section [Task Settings](#task-settings) in this article.
-1. Click **Issue Settings** to edit the issue settings for all selected projects.
-For more information about editing the Issue Settings area, see the section [Issue Settings](#issue-settings) in this article.
-1. Click **Access** to edit the access settings for all selected projects.
-For more information about editing the Access area, see the section [Access](#access) in this article.
-1. (Optional) To remove any of the information you added in the Edit Projects box, hover over an edited field, then click the **x** discard icon to the upper-right of the field. 
+1. 按一下 **金融** 編輯所有選定項目的財務資訊。
+有關編輯「財務」區域的詳細資訊，請參見 [金融](#finance) 這篇文章。
+1. 按一下 **專案設定** 來編輯所有所選項目的設定。
+如需編輯「專案設定」區域的詳細資訊，請參閱區段 [專案設定](#project-settings) 這篇文章。
+1. 按一下 **任務設定** 編輯所有選定項目的任務設定。
+有關編輯「任務設定」區域的詳細資訊，請參閱 [任務設定](#task-settings) 這篇文章。
+1. 按一下 **問題設定** 編輯所有選定項目的問題設定。
+有關編輯「問題設定」區域的詳細資訊，請參閱 [問題設定](#issue-settings) 這篇文章。
+1. 按一下 **存取** 編輯所有選定項目的訪問設定。
+有關編輯「訪問」區域的詳細資訊，請參閱 [存取](#access) 這篇文章。
+1. （可選）若要移除您在「編輯專案」方塊中新增的任何資訊，請將滑鼠指標暫留在已編輯的欄位上，然後按一下 **x** 捨棄欄位右上角的圖示。
 
    ![](assets/discard-icon-for-field-edit-projects-in-bulk-unshimmed.png)
 
-1. (Optional) Click **Cancel** at the bottom of the **Edit projects** page to remove all the changes made to all projects. 
-1. Click **Save**. 
+1. （選用）按一下 **取消** 在 **編輯專案** 頁面，移除對所有專案所做的所有變更。
+1. 按一下&#x200B;**儲存**。
 
 <div>
--->

@@ -6,9 +6,9 @@ description: 您可以在Adobe Workfront目標中新增評論至您可檢視的�
 author: Alina
 feature: Workfront Goals
 exl-id: 6cf2d2d2-5ba5-40f2-a803-01359c338541
-source-git-commit: 2f10dbcfe35676ff6091ab72db0825557f21bcac
+source-git-commit: 7ed42330837149b1e4b813c24c81aa317f3c8b7e
 workflow-type: tm+mt
-source-wordcount: '501'
+source-wordcount: '507'
 ht-degree: 0%
 
 ---
@@ -188,9 +188,6 @@ You can edit or delete a comment that you entered in this area, or you can like 
 
 -->
 
->[!IMPORTANT]
->此頁面上的內容是指屬於新統一注釋體驗一部分的功能，目前僅可在Adobe Workfront Target中使用。 如需統一注釋體驗的詳細資訊，請參閱 [統一的注釋體驗](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/unified-commenting-experience.md).
-
 您可以在目標頁面的「更新」區段中，將意見新增至目標。
 
 您可以回覆或贊您或其他人在此區域新增的留言。
@@ -203,6 +200,10 @@ You can edit or delete a comment that you entered in this area, or you can like 
 1. 開始在 **撰寫注釋** 框。
 
    ![](assets/comment-box-empty-unshimmed.png)
+
+   >[!TIP]
+   >
+   >在您完成輸入並提交注釋之前，從「更新」部分導航離開該頁面，即使您註銷並重新登錄後，該頁面上的注釋仍以草稿模式保留。 起草的注釋只對輸入它們的用戶可見。
 
 1. （選用）在 **通知** 區域中，開始鍵入用戶的名稱或電子郵件，或要包含在此注釋中的團隊，然後在清單中顯示時選擇它。
 1. 按一下 **提交**.
