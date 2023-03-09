@@ -6,7 +6,7 @@ description: 您可以視需要經常編輯Adobe Workfront中的專案。 理想
 author: Alina
 feature: Work Management
 exl-id: a6a1f178-189a-4c41-835b-7726081a2b49
-source-git-commit: baaaec2087c692ced0d60c9e4ceb86ee94c1d659
+source-git-commit: c8acabde5f4c2588dada4378ff85ff9876681d59
 workflow-type: tm+mt
 source-wordcount: '7664'
 ht-degree: 2%
@@ -64,6 +64,7 @@ ht-degree: 2%
  </tbody> 
 </table>
 -->
+
 您必須具備下列存取權，才能執行本文中的步驟：
 
 <table style="table-layout:auto"> 
@@ -230,10 +231,10 @@ ht-degree: 2%
      <tr> 
       <td role="rowheader"><strong>狀態類型</strong> </td> 
       <td> <p>在下列條件類型之間選取： 
-        <ul> 
-         <li><strong>手動：</strong> 專案擁有者會手動設定專案的條件。</li> 
-         <li><strong>進度狀態：</strong> Workfront會根據關鍵路徑上任務的進度狀態自動設定條件。 有關了解進度狀態的詳細資訊，請參閱 <a href="../../../manage-work/tasks/task-information/task-progress-status.md" class="MCXref xref">任務進度狀態概述</a>.</li> 
-        </ul><p>您的Workfront管理員<span> 或組管理員</span> 為系統選擇項目條件計算方式的預設值 <span>或您的群組</span>. 有關設定項目預設值的資訊，請參閱 <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">配置系統範圍的項目首選項</a>. </p></p> </td> 
+       <ul> 
+       <li><strong>手動：</strong> 專案擁有者會手動設定專案的條件。</li> 
+       <li><strong>進度狀態：</strong> Workfront會根據關鍵路徑上任務的進度狀態自動設定條件。 有關了解進度狀態的詳細資訊，請參閱 <a href="../../../manage-work/tasks/task-information/task-progress-status.md" class="MCXref xref">任務進度狀態概述</a>.</li> 
+       </ul><p>您的Workfront管理員<span> 或組管理員</span> 為系統選擇項目條件計算方式的預設值 <span>或您的群組</span>. 有關設定項目預設值的資訊，請參閱 <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">配置系統範圍的項目首選項</a>. </p></p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>狀況</strong> </td> 
@@ -242,10 +243,10 @@ ht-degree: 2%
      <tr> 
       <td role="rowheader"><strong>時程表模式</strong> </td> 
       <td> <p>指定項目是從「開始日期」還是從「完成日期」計畫。 此選擇確定項目上任務的計畫日期。 
-        <ul> 
-         <li><strong>開始日期</strong>:預設情況下，項目的第一個任務與項目具有相同的計畫起始日期。 有關任務計畫起始日期的資訊，請參閱 <a href="../../../manage-work/tasks/task-information/task-planned-start-date.md" class="MCXref xref">任務計畫起始日期概覽</a>. 項目時間表從起始日期開始計算，項目的完成日期由系統根據所有任務的持續時間計算。 </li> 
-         <li><strong>完成日期</strong>:項目的最後一個任務與項目具有相同的計畫完成日期。 項目時間表從完成日期計算，項目的起始日期由系統計算，方法是從項目的完成日期減去所有任務的持續時間。 </li> 
-        </ul><p>您的Workfront管理員<span> 或組管理員</span> 選擇系統或組的預設「計畫模式」設定。 有關設定項目預設值的資訊，請參閱 <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">配置系統範圍的項目首選項</a>.</p></p> </td> 
+       <ul> 
+       <li><strong>開始日期</strong>:預設情況下，項目的第一個任務與項目具有相同的計畫起始日期。 有關任務計畫起始日期的資訊，請參閱 <a href="../../../manage-work/tasks/task-information/task-planned-start-date.md" class="MCXref xref">任務計畫起始日期概覽</a>. 項目時間表從起始日期開始計算，項目的完成日期由系統根據所有任務的持續時間計算。 </li> 
+       <li><strong>完成日期</strong>:項目的最後一個任務與項目具有相同的計畫完成日期。 項目時間表從完成日期計算，項目的起始日期由系統計算，方法是從項目的完成日期減去所有任務的持續時間。 </li> 
+       </ul><p>您的Workfront管理員<span> 或組管理員</span> 選擇系統或組的預設「計畫模式」設定。 有關設定項目預設值的資訊，請參閱 <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">配置系統範圍的項目首選項</a>.</p></p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>計畫的開始日期和時間</strong> </td> 
@@ -266,10 +267,10 @@ ht-degree: 2%
      <tr> 
       <td role="rowheader"><strong>群組</strong></td> 
       <td> <p> <p>指定與專案相關聯的群組名稱。 </p>這是必填欄位. 您不能有未與組關聯的項目。 </p> <p>您可以將游標移至群組上並按一下資訊圖示，以確定您正在選取正確的群組 <img src="assets/info-icon.png"> 顯示於其旁。 此工具提示會列出群組的相關資訊，例如上方的群組階層及其管理員。</p> 除非您指定其他群組，否則在建立專案時，下列其中一個群組會自動與該專案相關聯：</p> 
-        <ul> 
-         <li> <p><span>從「項目」區域建立項目時，項目建立者的「主組」與項目相關聯。</span> </p> <p>從產品組合或方案的「專案」區段建立專案時，也是如此。</p> </li> 
-         <li> <p>從「設定」區域的組首頁建立項目時，該組與項目相關聯。</p> </li> 
-        </ul> </p> <p> <img src="assets/group-details-widget-350x351.png" style="width: 350;height: 351;"> </p> <p>如果項目或其任務或問題已與使用組層自定義狀態的組層審批流程關聯，則更改組可能會在上一組的審批狀態和系統層的現有狀態之間產生衝突。 在更新組之前，請考慮刪除項目上的組級審批流程，或刪除其任務或問題。 如需建立群組層級核准程式的相關資訊，請參閱 <a href="../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-groups-approval-processes.md" class="MCXref xref">組級審批流程</a>. 如需建立群組層級自訂狀態的相關資訊，請參閱 <a href="../../../administration-and-setup/manage-groups/manage-group-statuses/create-or-edit-a-group-status.md" class="MCXref xref">建立或編輯群組狀態</a></p> </td> 
+       <ul> 
+       <li> <p><span>從「項目」區域建立項目時，項目建立者的「主組」與項目相關聯。</span> </p> <p>從產品組合或方案的「專案」區段建立專案時，也是如此。</p> </li> 
+       <li> <p>從「設定」區域的組首頁建立項目時，該組與項目相關聯。</p> </li> 
+       </ul> </p> <p> <img src="assets/group-details-widget-350x351.png" style="width: 350;height: 351;"> </p> <p>如果項目或其任務或問題已與使用組層自定義狀態的組層審批流程關聯，則更改組可能會在上一組的審批狀態和系統層的現有狀態之間產生衝突。 在更新組之前，請考慮刪除項目上的組級審批流程，或刪除其任務或問題。 如需建立群組層級核准程式的相關資訊，請參閱 <a href="../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-groups-approval-processes.md" class="MCXref xref">組級審批流程</a>. 如需建立群組層級自訂狀態的相關資訊，請參閱 <a href="../../../administration-and-setup/manage-groups/manage-group-statuses/create-or-edit-a-group-status.md" class="MCXref xref">建立或編輯群組狀態</a></p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>公司</strong> </td> 
@@ -293,7 +294,7 @@ ht-degree: 2%
 
    >[!TIP]
    >
-   >   更新「項目所有者」、「項目贊助商」和「資源管理器」欄位時，請注意頭像、用戶的主要角色或其電子郵件地址，以區分名稱相同的用戶。 用戶必須至少與一個作業角色關聯，才能在添加時查看該角色。
+   >更新「項目所有者」、「項目贊助商」和「資源管理器」欄位時，請注意頭像、用戶的主要角色或其電子郵件地址，以區分名稱相同的用戶。 用戶必須至少與一個作業角色關聯，才能在添加時查看該角色。
 
 1. （選用）根據您要修改的資訊，繼續編輯下列章節。
 
@@ -302,7 +303,6 @@ ht-degree: 2%
    按一下&#x200B;**儲存**。
 
 ### 自訂表單 {#custom-forms}
-
 
 根據您的存取層級和您對專案的權限，會出現下列情況：
 
@@ -333,7 +333,7 @@ ht-degree: 2%
 
    >[!NOTE]
    >
-   >   您必須先建置自訂表單，才能在此欄位中供選取。 清單中只顯示活動的自訂表單。 如需建立自訂表單的詳細資訊，請參閱 [建立或編輯自訂表單](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md). 您最多可將10個自訂表單新增至專案。
+   >您必須先建置自訂表單，才能在此欄位中供選取。 清單中只顯示活動的自訂表單。 如需建立自訂表單的詳細資訊，請參閱 [建立或編輯自訂表單](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md). 您最多可將10個自訂表單新增至專案。
 
 
 1. （條件性）如果您將自訂表單附加至專案，請編輯表單上的任何欄位。 您必須先指定所有必填欄位，才能儲存專案。
@@ -514,17 +514,12 @@ ht-degree: 2%
        <td> <p>選擇要與項目關聯的審批流程。 您的Workfront管理員必須先定義系統層級的核准程式，才能將它們與專案建立關聯。 <span>具有管理存取權的核准程式使用者也可以建立群組專屬的核准程式。</span> 如需建立核准程式的詳細資訊，請參閱 <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md" class="MCXref xref">建立工作項的審批流程</a>.</p> <p>新增核准程式時，請考量下列事項： </p> 
        <ul> 
        <li>清單中只會顯示作用中的核准程式。 </li> 
-       <li> <p>清單中顯示系統範圍和組特定的批准流程。 與項目組以外的組相關聯的審批流程不會顯示在清單中。</p> <p>如果與項目關聯的組發生更改，則特定於組的審批流程將變成一次性審批流程。 有關項目組的更改或審批流程中的更改如何影響審批設定的詳細資訊，請參閱 <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/how-changes-affect-group-approvals.md" class="MCXref xref">組和審批流程更改如何影響分配的審批流程</a>. </p> </li>
-
-   <!--(NOTE: this bullet stays here although the sections it might appear in are QS only, so we can use the snippet for both Qs and classic)-->
-
-   <p>大量編輯專案時，會出現下列情況：</p>
-
-   <ul> 
-   <li> <p>從同一組中選擇項目時，系統級和組級審批流程都顯示在此欄位中。</p> </li> 
-   <li> <p>從不同群組選取專案時，此欄位中只會顯示系統層級的核准程式。</p> </li> 
-   <li> <p>如果任何項目附加了一次性審批流程，則會由您選擇的系統級或組級審批流程替換。 </p> </li> 
-   </ul> 
+       <li> <p>清單中顯示系統範圍和組特定的批准流程。 與項目組以外的組相關聯的審批流程不會顯示在清單中。</p> <p>如果與項目關聯的組發生更改，則特定於組的審批流程將變成一次性審批流程。 有關項目組的更改或審批流程中的更改如何影響審批設定的詳細資訊，請參閱 <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/how-changes-affect-group-approvals.md" class="MCXref xref">組和審批流程更改如何影響分配的審批流程</a>. </p> </li> <!--(NOTE: this bullet stays here although the sections it might appear in are QS only, so we can use the snippet for both Qs and classic)-->
+       <p>大量編輯專案時，會出現下列情況：</p> 
+       <ul> 
+       <li> <p>從同一組中選擇項目時，系統級和組級審批流程都顯示在此欄位中。</p> </li> 
+       <li> <p>從不同群組選取專案時，此欄位中只會顯示系統層級的核准程式。</p> </li> 
+       <li> <p>如果任何項目附加了一次性審批流程，則會由您選擇的系統級或組級審批流程替換。 </p> </li> 
       </ul> </td> 
       </tr> 
       <tr> 
@@ -867,7 +862,7 @@ ht-degree: 2%
 
    >[!CAUTION]
    >
-   >   移除自訂表單會導致表單上所有現有的自訂欄位資訊遺失。 無法復原。
+   >移除自訂表單會導致表單上所有現有的自訂欄位資訊遺失。 無法復原。
 
    如需編輯自訂表單的詳細資訊，請參閱區段 [自訂Forms](#custom-forms) 這篇文章。
 
@@ -887,5 +882,3 @@ ht-degree: 2%
 
 1. （選用）按一下 **取消** 在 **編輯專案** 頁面，移除對所有專案所做的所有變更。
 1. 按一下&#x200B;**儲存**。
-
-<div>
