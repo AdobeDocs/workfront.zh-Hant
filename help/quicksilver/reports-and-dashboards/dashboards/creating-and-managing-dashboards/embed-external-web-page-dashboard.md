@@ -6,9 +6,9 @@ description: 您可以在控制面板中嵌入外部網頁，以便從Adobe Work
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 04b623b5-38b0-4c32-b54e-204f1d422e45
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: a8a3aec50b5538de5867ce3ba7723d92c046b50d
 workflow-type: tm+mt
-source-wordcount: '854'
+source-wordcount: '926'
 ht-degree: 0%
 
 ---
@@ -24,6 +24,27 @@ ht-degree: 0%
 >基於安全考量，有些網站不允許您將網頁內嵌為iframe。 如果您要內嵌在控制面板中的網頁不允許此動作，該頁面不會顯示在控制面板中。 不過，您仍可以按一下控制面板的名稱來存取外部頁面。\
 >![](assets/qs-empty-external-page-report-350x165.png)\
 >若要允許內嵌您擁有的網站，請與網頁管理員合作調整 **X-Frame-Options** 設定。 如需詳細資訊，請參閱 [X-Frame-Options](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-Frame-Options).
+
+
+>[!IMPORTANT]
+>
+>控制面板中的內嵌外部頁面不再支援控制面板頁面。 具體而言，下列Workfront.com子網域已不再受支援：
+>
+>* /儀表板&#x200B;
+>* /dashboard/:ID &#x200B;
+>* /portfolio/:ID/content-dashboard__:dashboardID &#x200B;
+>* /program/:ID/content-dashboard__:dashboardID &#x200B;
+>* /project/:ID/content-dashboard__:dashboardID &#x200B;
+>* /task/:ID/content-dashboard__:dashboardID &#x200B;
+>* /template/:ID/content-dashboard__:dashboardID &#x200B;
+>* /templatetask/:ID/content-dashboard__:dashboardID &#x200B;
+>* /resourcemanagement/:ID/content-dashboard__:dashboardID &#x200B;
+>* /team/:ID/content-dashboard__:dashboardID &#x200B;
+>* /iteration/:ID/content-dashboard__:dashboardID &#x200B;
+>* /requests/:ID/content-dashboard__:dashboardID &#x200B;
+>* /group/:ID/content-dashboard__:dashboardID &#x200B;
+>* /billingrecord/:ID/content-dashboard__:dashboardID
+
 
 ## 存取需求
 

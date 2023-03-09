@@ -7,9 +7,9 @@ description: 請參閱這些文章，了解如何在Adobe Workfront中建立控�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: a7f29a8e-1aa8-4c6c-adeb-e6177291999a
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: a8a3aec50b5538de5867ce3ba7723d92c046b50d
 workflow-type: tm+mt
-source-wordcount: '75'
+source-wordcount: '78'
 ht-degree: 10%
 
 ---
@@ -29,3 +29,4 @@ ht-degree: 10%
 * [在控制面板中內嵌外部網頁](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-external-web-page-dashboard.md)
 * [將請求佇列內嵌在控制面板中](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-request-queue-dashboard.md)
 * [從控制面板移除外部頁面](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/remove-external-page-from-dashboard.md)
+* [畫布控制面板概觀](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/canvas-dashboards-overview.md)

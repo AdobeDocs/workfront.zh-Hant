@@ -2,9 +2,9 @@
 user-guide-title: Workfront 指南
 user-guide-description: 使用文件、教學課程和其他資源，了解如何在您的組織中實施並有效使用 Adobe Workfront。
 feature-set: Workfront
-source-git-commit: 53781e0df0c748310d254ca149ec371757b90303
+source-git-commit: a8a3aec50b5538de5867ce3ba7723d92c046b50d
 workflow-type: tm+mt
-source-wordcount: '12602'
+source-wordcount: '12605'
 ht-degree: 1%
 
 ---
@@ -1582,6 +1582,7 @@ ht-degree: 1%
          * [列印控制面板](reports-and-dashboards/dashboards/creating-and-managing-dashboards/print-dashboard.md)
          * [共用控制面板](reports-and-dashboards/dashboards/creating-and-managing-dashboards/share-dashboard.md)
          * [從控制面板移除外部頁面](reports-and-dashboards/dashboards/creating-and-managing-dashboards/remove-external-page-from-dashboard.md)
+         * [畫布控制面板概觀](reports-and-dashboards/dashboards/creating-and-managing-dashboards/canvas-dashboards-overview.md)
    * 增強型分析 {#enhanced-analytics}
       * [增強型分析](enhanced-analytics/enhanced-analytics.md)
       * [增強的分析概觀](enhanced-analytics/enhanced-analytics-overview.md)
