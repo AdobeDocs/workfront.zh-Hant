@@ -2,9 +2,9 @@
 user-guide-title: Workfront 指南
 user-guide-description: 使用文件、教學課程和其他資源，了解如何在您的組織中實施並有效使用 Adobe Workfront。
 feature-set: Workfront
-source-git-commit: a0a5346ff017a32ebb678f90ce812a6969039a4b
+source-git-commit: 6bf7e4f58aa80271d7ec84576723cdbade55ce9b
 workflow-type: tm+mt
-source-wordcount: '12770'
+source-wordcount: '12759'
 ht-degree: 1%
 
 ---
@@ -20,11 +20,12 @@ ht-degree: 1%
       * [準備Adobe Workfront每季發行](product-announcements/product-releases/release-readiness.md)
       * 23.2版 {#release-23-2}
          * [23.2版本概觀](product-announcements/product-releases/23.2-release-activity/23-2-release-overview.md)
-         * [23.2發行活動： 2023年2月27日起的第一週](product-announcements/product-releases/23.2-release-activity/23-2-feb-27.md)
-         * [23.2發行活動： 2023年2月20日當周](product-announcements/product-releases/23.2-release-activity/23-2-feb-20.md)
-         * [23.2發行活動： 2023年2月13日起的第一週](product-announcements/product-releases/23.2-release-activity/23-2-feb-13.md)
-         * [23.2發行活動： 2023年2月6日當周](product-announcements/product-releases/23.2-release-activity/23-2-feb-6.md)
-         * [23.2發行活動： 2023年1月23日當周](product-announcements/product-releases/23.2-release-activity/23-1-jan-23.md)
+         * [23.2管理員增強功能](product-announcements/product-releases/23.2-release-activity/23-2-admin-enhancements.md)
+         * [23.2敏捷增強功能](product-announcements/product-releases/23.2-release-activity/23-2-agile-enhancements.md)
+         * [23.2項目管理增強功能](product-announcements/product-releases/23.2-release-activity/23-2-project-enhancements.md)
+         * [23.2資源管理增強](product-announcements/product-releases/23.2-release-activity/23-2-resource-management-enhancements.md)
+         * [23.2行動增強功能](product-announcements/product-releases/23.2-release-activity/23-2-mobile-enhancements.md)
+         * [23.2其他增強功能](product-announcements/product-releases/23.2-release-activity/23-2-other-enhancements.md)
          * [在23.2版本期間更新外觀](product-announcements/product-releases/23.2-release-activity/23-2-look-and-feel.md)
       * 23.1版 {#release-23-1}
          * [23.1版本概觀](product-announcements/product-releases/23.1-release-activity/23-1-release-overview.md)
