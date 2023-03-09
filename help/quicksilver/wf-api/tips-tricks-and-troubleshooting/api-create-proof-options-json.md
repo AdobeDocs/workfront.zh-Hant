@@ -6,9 +6,9 @@ description: 使用Adobe Workfront API新增進階校對選項
 author: Becky
 feature: Workfront API, Workfront Proof
 exl-id: 5fcdf07e-d077-4d6a-bc3f-973983877c7c
-source-git-commit: f050c8b95145552c9ed67b549608c16115000606
+source-git-commit: e2a334ad16fc16b49d8e8b8186fa89fc0e09d998
 workflow-type: tm+mt
-source-wordcount: '615'
+source-wordcount: '613'
 ht-degree: 0%
 
 ---
@@ -44,7 +44,7 @@ ProofHQ API包含許多無法用於Workfront API中校樣的動作。 透過使�
 1. 使用 `Document createProof` 動作。
 
    >[!NOTE]
-   建立校樣時，請勿包含advancedPookingOptions參數的值。
+   建立校樣時，請設定 `{}` 作為 `advancedProofingOptions` 參數。
 
 1. 建立校樣後，請使用ProofHQ API來新增任何進階選項。
 
