@@ -7,17 +7,16 @@ description: 您可以將現有的自訂表單新增至下列任何物件。 自
 author: Alina
 feature: Get Started with Workfront
 exl-id: c06666a7-ab78-4311-8fcb-1d1a68034133
-source-git-commit: 0b0140245a636db73ae1b6dc2e4abac2eecc6909
+source-git-commit: 23257f11b0795aa1f1e422923f6d596017c58126
 workflow-type: tm+mt
-source-wordcount: '816'
+source-wordcount: '856'
 ht-degree: 1%
 
 ---
 
 # 將自訂表單新增至物件
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> -->
+<span class="preview">本頁強調顯示的資訊指的是尚未普遍提供的功能。 它僅在預覽環境中可用。</span>
 
 您可以將現有的自訂表單新增至下列任何物件。 自訂表單包含自訂欄位，您可在其中儲存物件的相關資訊。
 
@@ -53,8 +52,10 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td role="rowheader">訪問級別配置*</td> 
-   <td> <p>編輯您管理自訂表單之物件的存取權</p> <p>注意：如果您仍無權存取，請洽詢您的Workfront管理員，他們是否在您的存取層級設定其他限制。 如需Workfront管理員如何修改您的存取層級的詳細資訊，請參閱 <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>.</p> </td> 
-  </tr> 
+   <td> <p>編輯您管理自訂表單之物件的存取權</p> <p><b>附註</b></p>
+
+如果您仍無權存取，請洽詢您的Workfront管理員，他們是否在您的存取層級設定其他限制。 如需Workfront管理員如何修改您的存取層級的詳細資訊，請參閱 <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>.</p> </td>
+</tr> 
   <tr> 
    <td role="rowheader">物件權限</td> 
    <td> <p>管理要附加自訂表單之物件的權限。</p> <p>檢視自訂表單的或更高權限，並具有 <b>附加至自訂資料</b> 對象（項目、任務和問題）。 如需詳細資訊，請參閱 <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md" class="MCXref xref">共用自訂表單</a>.</p> <p>重要：如果您沒有具有自訂Forms管理存取權的計畫授權，您必須擁有特定權限，才能至少檢視自訂表單，如 <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md" class="MCXref xref">共用自訂表單</a>. 即使表單在全系統可見，也必須授予您這些權限。 </p> <p>有關請求其他訪問的資訊，請參閱 <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">請求對對象的訪問 </a>.</p> </td> 
@@ -110,13 +111,13 @@ ht-degree: 1%
 您可以在清單中選取自訂表單，將自訂表單新增至多個物件。
 
 <!--
-drafted for bulk-editing projects. When it releases to Prod for projects, take "in the preview environment" and the yellow tags out. Add additional objects here in the same way when they become available:
+drafted for bulk-editing projects. When it releases to Prod for projects, take "in the preview environment" and the yellow tags out. Add additional objects here in the same way when they become available:-->
 
 >[!NOTE]
 >
-><span class="preview">For information about adding custom forms to projects in bulk in the Preview environment, see the article [Edit projects](../../manage-work/projects/manage-projects/edit-projects.md)</span>.
+><span class="preview">如需在預覽環境中大量新增自訂表單至專案的相關資訊，請參閱文章 [編輯專案](../../manage-work/projects/manage-projects/edit-projects.md)</span>.
 
--->
+—>
 
 1. 導覽至物件清單。
 1. 在清單中選取多個物件。
