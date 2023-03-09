@@ -2,24 +2,24 @@
 user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
-title: 配置自定義欄位和小工具的共用
+title: 使用舊版表單產生器設定自訂欄位和小工具的共用
 description: 預設情況下，將新的自定義欄位或介面工具集添加到自定義表單時，系統中有權訪問自定義表單的任何人都可以編輯該項目的屬性，如其標籤和名稱。 您可以控制可以與誰共用，以變更此項目。
 author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: ae774e73-9798-40d1-a96d-a4511f729e7f
-source-git-commit: e20934501c2117455ca7950834d868f78576dee7
+source-git-commit: e02e28d9a62a6bafbe19de7e6fda043b56210cf7
 workflow-type: tm+mt
-source-wordcount: '943'
+source-wordcount: '963'
 ht-degree: 2%
 
 ---
 
-# 配置自定義欄位和小工具的共用
+# 使用舊版表單產生器設定自訂欄位和小工具的共用
 
 預設情況下，將新的自定義欄位或介面工具集添加到自定義表單時，系統中有權訪問自定義表單的任何人都可以編輯該項目的屬性，如其標籤和名稱。 您可以控制可以與誰共用，以變更此項目。
 
-如需自訂表單中自訂欄位和小工具的相關資訊，請參閱 [新增自訂欄位至自訂表單](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md) 和 [在自訂表單中新增或編輯資產介面工具集](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md).
+如需自訂表單中自訂欄位和小工具的相關資訊，請參閱 [使用舊版表單產生器將自訂欄位新增至自訂表單](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md) 和 [使用舊版表單產生器在自訂表單中新增或編輯資產介面工具集](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md).
 
 ## 存取需求
 

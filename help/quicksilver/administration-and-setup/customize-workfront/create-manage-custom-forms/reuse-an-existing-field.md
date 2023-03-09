@@ -2,20 +2,20 @@
 user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
-title: 在自訂表單中重複使用自訂欄位或資產介面工具集
+title: 使用舊版表單產生器，在自訂表單中重複使用自訂欄位或資產介面工具集
 description: 建立或編輯自訂表單時，您可以新增已新增至其他自訂表單的自訂欄位或介面工具集。
 author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 2c617909-48cb-4ee1-b0e8-002f2e57b0f0
-source-git-commit: 63e332ff99d5c9d23f39d7e771c5eb924f1ffca3
+source-git-commit: ac5b7e0237dbcaea14010eda658f7d5a6be089cc
 workflow-type: tm+mt
-source-wordcount: '386'
+source-wordcount: '436'
 ht-degree: 0%
 
 ---
 
-# 在自訂表單中重複使用自訂欄位或資產介面工具集
+# 使用舊版表單產生器，在自訂表單中重複使用自訂欄位或資產介面工具集
 
 建立或編輯自訂表單時，您可以新增已新增至其他自訂表單的自訂欄位或資產介面工具集。
 
@@ -50,7 +50,7 @@ ht-degree: 0%
 
 ## 重複使用已在其他自訂表單中使用的自訂欄位或介面工具集
 
-1. 開始建立或編輯自訂表單，如 [建立或編輯自訂表單](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
+1. 開始建立或編輯自訂表單，如 [使用舊版表單產生器建立或編輯自訂表單](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
 1. 使用 **新增欄位** 選取，按一下 **欄位庫**.
 
 1. 將欄位或介面工具集拖曳至您要的自訂表單中。
@@ -65,10 +65,10 @@ ht-degree: 0%
 
 1. 如果您想以其他方式繼續建立自訂表單，請繼續閱讀下列其中一篇文章：
 
-   * [新增自訂欄位至自訂表單](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md#add2)
-   * [為自訂表單新增區段分頁](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-section-break-to-a-custom-form.md)
-   * [在自訂表單中新增或編輯資產介面工具集](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md)
-   * [將計算資料新增至自訂表單](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md)
-   * [在自訂表單中放置自訂欄位和小工具](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/position-fields-in-a-custom-form.md)
-   * [新增顯示邏輯並略過邏輯至自訂表單](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/display-or-skip-logic-custom-form.md)
-   * [預覽並完成自訂表單](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/preview-and-complete-a-custom-form.md)
+   * [使用舊版表單產生器將自訂欄位新增至自訂表單](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md#add2)
+   * [使用舊版表單產生器，將區段分頁新增至自訂表單](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-section-break-to-a-custom-form.md)
+   * [使用舊版表單產生器在自訂表單中新增或編輯資產介面工具集](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md)
+   * [使用舊版表單產生器將計算資料新增至自訂表單](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md)
+   * [使用舊版表單產生器在自訂表單中放置自訂欄位和介面工具集](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/position-fields-in-a-custom-form.md)
+   * [使用舊版表單產生器將顯示邏輯新增及略過邏輯至自訂表單](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/display-or-skip-logic-custom-form.md)
+   * [使用舊版表單產生器預覽並完成自訂表單](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/preview-and-complete-a-custom-form.md)

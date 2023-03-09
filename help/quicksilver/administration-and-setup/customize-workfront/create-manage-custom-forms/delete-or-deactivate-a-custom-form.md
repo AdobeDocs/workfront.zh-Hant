@@ -2,26 +2,26 @@
 user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
-title: 刪除或停用自訂表單
-description: 您可以從系統中刪除或停用自訂表單。
-author: Caroline
+title: 刪除自訂表單
+description: 您可以從系統刪除自訂表單。
+author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: 4d97badf-b6d0-4e7c-bff8-9ff63e83586b
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 1871b4e4d884c2660e09c2cd49e03bda243a1926
 workflow-type: tm+mt
-source-wordcount: '356'
-ht-degree: 0%
+source-wordcount: '199'
+ht-degree: 1%
 
 ---
 
-# 刪除或停用自訂表單
+# 刪除自訂表單
 
-您可以從系統中刪除或停用自訂表單。
+您可以從系統刪除自訂表單。
 
 >[!CAUTION]
 >
->刪除自訂表單也會刪除與表單關聯之物件上的所有自訂資料。 已刪除的資料無法恢復。 請考慮停用自訂表單 — 停用您不再使用的自訂表單時，您會保留所有相關的歷史資料。
+>刪除自訂表單也會刪除與表單關聯之物件上的所有自訂資料。 已刪除的資料無法恢復。 請考慮停用自訂表單 — 停用您不再使用的自訂表單時，您會保留所有相關的歷史資料。 如需詳細資訊，請參閱 [重新啟用或停用自訂表單](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/manage-a-form/activate-deactivate-form.md)
 
 ## 存取需求
 
@@ -55,20 +55,3 @@ ht-degree: 0%
 1. 按一下 **自訂Forms。**
 1. 選取自訂表單，然後按一下 **刪除**.
 1. 如果您確定要永久刪除自定義表單及其附加對象上的所有關聯資料，請按一下 **是，刪除它**.
-
-## 停用自訂表單
-
-您可以停用不再使用的自訂表單，同時不會遺失其相關聯的歷史資料。 用戶無法向對象添加非活動的自定義表單，但仍然可以查看資料並將其添加到已附加對象的欄位。
-
-非使用中自訂表單上的欄位仍可用於檢視中的內嵌編輯。 如果使用者在內嵌編輯期間從非作用中自訂表單新增欄位，表單會自動附加至物件，即使自訂表單已停用亦然。
-
-如果您重新啟用自訂表單，表單會保留先前的設定，且使用者可以像從未停用一樣與表單互動。
-
-停用自訂表單：
-
-1. 按一下 **主菜單** 圖示 ![](assets/main-menu-icon.png) 在Adobe Workfront的右上角，然後按一下 **設定** ![](assets/gear-icon-settings.png).
-
-1. 按一下您要停用的自訂表單名稱。
-1. 按一下 **表單設定** 標籤。
-1. 停用 **活動** 選項。
-1. 按一下 **儲存+關閉**.

@@ -1,5 +1,5 @@
 ---
-title: 新增顯示邏輯並略過邏輯至自訂表單
+title: 使用舊版表單產生器將顯示邏輯新增及略過邏輯至自訂表單
 user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
@@ -8,14 +8,14 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: c687c4a8-a99d-4ac0-b785-5bfe503a7e2c
-source-git-commit: 59e3b958dd81f2f068bc06c3fe439de0084f9ce4
+source-git-commit: 7835b5f9b5903e19b03cb7e25bfae37c9739f064
 workflow-type: tm+mt
-source-wordcount: '897'
+source-wordcount: '917'
 ht-degree: 0%
 
 ---
 
-# 新增顯示邏輯並略過邏輯至自訂表單
+# 使用舊版表單產生器將顯示邏輯新增及略過邏輯至自訂表單
 
 您可以根據使用者在填寫自訂表單時所做的選擇，決定應顯示或略過自訂表單的哪些區段。
 
@@ -48,7 +48,7 @@ ht-degree: 0%
 
 * 若要在自訂欄位、介面工具集或區段插播上新增顯示邏輯，表單上至少必須先放置一個多選欄位（選項按鈕、下拉式清單或核取方塊）。
 
-   如需自訂表單中自訂欄位和小工具的相關資訊，請參閱 [新增自訂欄位至自訂表單](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md) 和 [在自訂表單中新增或編輯資產介面工具集](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md).
+   如需自訂表單中自訂欄位和小工具的相關資訊，請參閱 [使用舊版表單產生器將自訂欄位新增至自訂表單](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md) 和 [使用舊版表單產生器在自訂表單中新增或編輯資產介面工具集](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md).
 
 * 您無法將略過邏輯新增至介面工具集或區段插播。 您只能將其新增至多個選擇欄位（選項按鈕、下拉式清單或核取方塊）。
 

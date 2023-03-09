@@ -2,19 +2,19 @@
 user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
-title: 為自訂表單新增區段分頁
+title: 使用舊版表單產生器，將區段分頁新增至自訂表單
 description: 您可以將自訂表單中的自訂欄位和Widget分組為具有標題的區段。 這對於向將填寫表單的使用者呈現有條理的體驗非常有用。 此外，如果您需要限制特定使用者對特定自訂欄位和Widget的存取權，您可以將它們放在區段中，然後僅將區段的存取權授予這些使用者。
 feature: System Setup and Administration
 role: Admin
 exl-id: 44a52767-60a7-4aaa-b3b8-6b8fb7da7e72
-source-git-commit: 7fa4791e19a84d7215e341e8bbde8dd4d4d8ccc6
+source-git-commit: e02e28d9a62a6bafbe19de7e6fda043b56210cf7
 workflow-type: tm+mt
-source-wordcount: '1121'
+source-wordcount: '1131'
 ht-degree: 0%
 
 ---
 
-# 為自訂表單新增區段分頁
+# 使用舊版表單產生器，將區段分頁新增至自訂表單
 
 您可以將自訂表單中的自訂欄位和Widget分組為具有標題的區段。 這對於向將填寫表單的使用者呈現有條理的體驗非常有用。 此外，如果您需要限制特定使用者對特定自訂欄位和Widget的存取權，您可以將它們放在區段中，然後僅將區段的存取權授予這些使用者。
 

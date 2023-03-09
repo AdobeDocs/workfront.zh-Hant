@@ -8,9 +8,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: c22a7ced-da81-40b5-bb4d-69d59b855add
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: f43a0aae33b96f5a061d9134122078d73fc21e40
 workflow-type: tm+mt
-source-wordcount: '576'
+source-wordcount: '590'
 ht-degree: 0%
 
 ---
@@ -68,10 +68,14 @@ ht-degree: 0%
 >從具有500多個欄位和小工具的自訂表單中移除自訂欄位時，無法還原。 如果移除欄位，則在表單的欄位和小部件少於500個之前，無法重新添加該欄位。
 
 1. 確定要從原始自定義表單中刪除的自定義欄位，但此時不刪除。
-1. 建立新的自訂表單，如 [建立或編輯自訂表單](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
+1. 建立新的自訂表單：
 
-   1. 將自訂欄位新增至您要從原始自訂表單中移除的新表單，如 [在自訂表單中重複使用自訂欄位或介面工具集](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/reuse-an-existing-field.md).
+   1. 將自訂欄位新增至要從原始自訂表單中移除的新表單。
+
+      * 如果您使用自訂表單產生器，請參閱 [在自訂表單中重複使用自訂欄位或介面工具集](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/reuse-an-existing-field.md).
+      * 如果您是使用表單設計器，請參閱 [新增或現有欄位至自訂表單](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md#add-new-or-existing-fields-to-your-custom-form).
    1. 儲存新的自訂表單。
+
 
 1. 將對自訂表單的存取限制為僅限具有管理存取權限的使用者，如 [共用自訂表單](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md).
 1. 將新自定義表單應用於已應用原始自定義表單的對象，如 [將自訂表單新增至物件](../../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md).

@@ -2,20 +2,20 @@
 user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
-title: 新增自訂欄位至自訂表單
+title: 使用舊版表單產生器將自訂欄位新增至自訂表單
 description: 使用自訂表單時，您可以建立新的自訂欄位，並將其新增至自訂表單。 您也可以新增已新增至其他自訂表單的自訂欄位。
 author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 3579ae0f-1d2e-4ff5-bbdf-58fdd20d01d7
-source-git-commit: a0b483e3ced69cbe59d51cca2edfb017ddadd09a
+source-git-commit: e02e28d9a62a6bafbe19de7e6fda043b56210cf7
 workflow-type: tm+mt
-source-wordcount: '2198'
-ht-degree: 3%
+source-wordcount: '2208'
+ht-degree: 2%
 
 ---
 
-# 新增自訂欄位至自訂表單
+# 使用舊版表單產生器將自訂欄位新增至自訂表單
 
 使用自訂表單時，您可以建立新的自訂欄位，並將其新增至自訂表單。
 

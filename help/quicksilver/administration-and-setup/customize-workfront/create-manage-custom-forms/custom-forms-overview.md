@@ -8,20 +8,14 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: b04ed2e8-c60e-4978-8a9d-b9e087987ef4
-source-git-commit: 02191d80ea58f80de2e7be2ff55f43663e415e31
+source-git-commit: 5b6583172b46e980a11fa9dc00895b9add5701ed
 workflow-type: tm+mt
-source-wordcount: '334'
-ht-degree: 5%
+source-wordcount: '267'
+ht-degree: 6%
 
 ---
 
 # 自訂表單概觀
-
-**視訊**:
-
-請參閱此自訂表單概述影片。
-
-![](assets/video-icon-verysmall.png) [新Forms體驗中的自訂Workfront](https://one.workfront.com/s/learningpath2/custom-forms-in-the-new-workfront-experience-final-MCC2AF4MH6NRHKHJJBXO6T65DHUU)
 
 您可以建立自訂表單，供使用者附加至Workfront物件。 處理物件的使用者可填寫自訂表單，以提供物件的相關資訊。
 
@@ -45,11 +39,12 @@ Workfront提供許多內建欄位供每種物件類型使用。 在自訂表單�
 * 單選按鈕
 * 描述文字
 
-如需詳細資訊，請參閱 [新增自訂欄位至自訂表單](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md).
+## 如何建立自訂表單
 
-您也可以將視覺資產Widget新增至自訂表單。 當您需要納入品牌影像或視覺指示等內容時，這個功能會很實用。 如需詳細資訊，請參閱 [在自訂表單中新增或編輯資產介面工具集](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md).
+在中建立自訂表單有兩個選項 [!DNL Workfront]. 您可以使用舊版自訂表單產生器或新的表單設計工具：
 
-如需建立自訂表單的指示，請參閱 [建立或編輯自訂表單](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
+* [舊版自訂表單產生器](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/use-the-custom-form-builder.md)
+* [表單設計工具](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/form-designer-toc.md)
 
 ## 用戶可以附加自定義表單的對象
 
@@ -68,4 +63,4 @@ Workfront提供許多內建欄位供每種物件類型使用。 在自訂表單�
 
 如需指示，請參閱 [將自訂表單新增至物件](../../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md).
 
-建立自訂表單的使用者可將其設定為處理多個物件類型。 如需詳細資訊，請參閱 [建立或編輯自訂表單](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
+建立自訂表單的使用者可將其設定為處理多個物件類型。

@@ -1,5 +1,5 @@
 ---
-title: 建立或編輯自訂表單
+title: 使用舊版表單產生器建立或編輯自訂表單
 user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
@@ -8,18 +8,18 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 5712e82d-bd1d-4d8a-9a2a-1e19b562b9d1
-source-git-commit: 5d36c2c959dbfd00920eaf0a16409102b99de042
+source-git-commit: bf0d9201d50f16795676928e55b82d854b16211c
 workflow-type: tm+mt
-source-wordcount: '876'
+source-wordcount: '891'
 ht-degree: 0%
 
 ---
 
-# 建立或編輯自訂表單
+# 使用舊版表單產生器建立或編輯自訂表單
 
 您可以建立或編輯新的自訂表單。 本文將對這兩項任務進行說明。
 
-如需從現有表單建立新自訂表單的相關資訊，請參閱 [複製自訂表單以建立新表單](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/copy-custom-form-to-create-a-new-one.md).
+如需從現有表單建立新自訂表單的相關資訊，請參閱 [複製自訂表單以使用舊版表單產生器建立新表單](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/copy-custom-form-to-create-a-new-one.md).
 
 ## 存取需求
 

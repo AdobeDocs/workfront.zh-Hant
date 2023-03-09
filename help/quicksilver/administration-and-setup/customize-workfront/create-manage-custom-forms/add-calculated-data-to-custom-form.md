@@ -1,5 +1,5 @@
 ---
-title: 將計算資料新增至自訂表單
+title: 使用舊版表單產生器將計算資料新增至自訂表單
 user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
@@ -8,14 +8,14 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 9174c4ef-3beb-4d47-9c5c-363f52105a2c
-source-git-commit: e24a0408049e7eb2e7cb97833e7f41ea66e8131b
+source-git-commit: e02e28d9a62a6bafbe19de7e6fda043b56210cf7
 workflow-type: tm+mt
-source-wordcount: '2563'
+source-wordcount: '2573'
 ht-degree: 0%
 
 ---
 
-# 將計算資料新增至自訂表單
+# 使用舊版表單產生器將計算資料新增至自訂表單
 
 在自訂表單中，您可以在自訂表單附加至物件時，新增使用現有資料產生新資料的計算自訂欄位。
 
@@ -145,9 +145,9 @@ ht-degree: 0%
    >* 查找計算錯誤，隨時以粉紅色突出顯示。 您可以將滑鼠移至醒目提示的錯誤上，以顯示其原因的簡短說明。
       >  ![](assets/error-help.png)
    >* 在計算下方的區域中，在現有的Workfront物件上預覽結果。
+      ><!--or by providing test values (NOT READY YET; CHANGE THIS SCREENSHOT WHEN IT IS)-->
 
-   ><!--or by providing test values (NOT READY YET; CHANGE THIS SCREENSHOT WHEN IT IS)-->
-   >  ![](assets/preview-calc.jpg)
+      >  ![](assets/preview-calc.jpg)
    >* 使用左側顯示的行號在長計算中引用表達式。
 
 

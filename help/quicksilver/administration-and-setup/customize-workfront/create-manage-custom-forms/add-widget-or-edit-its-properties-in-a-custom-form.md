@@ -1,18 +1,18 @@
 ---
-title: 在自訂表單中新增或編輯影像或其他資產介面工具集
+title: 使用舊版表單產生器，在自訂表單中新增或編輯影像或其他資產介面工具集
 description: 您可以以自訂表單新增或編輯下列任何資產小工具的屬性，例如影像、影片、PDF檔案和Adobe XD檔案。 當您需要包含品牌影像、教學影片或您所設計應用程式的互動式原型等視覺內容時，這個功能就十分實用。
 author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 62a2f9a1-80de-40e7-9d8b-46ed9df083c1
-source-git-commit: 8e903592456512f1ebf5f1e8d6e496e577a7b352
+source-git-commit: e02e28d9a62a6bafbe19de7e6fda043b56210cf7
 workflow-type: tm+mt
-source-wordcount: '1334'
+source-wordcount: '1344'
 ht-degree: 1%
 
 ---
 
-# 在自訂表單中新增或編輯影像或其他資產介面工具集
+# 使用舊版表單產生器，在自訂表單中新增或編輯影像或其他資產介面工具集
 
 您可以以自訂表單新增或編輯下列任何資產小工具的屬性：
 

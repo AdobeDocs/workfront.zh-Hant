@@ -2,24 +2,24 @@
 user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
-title: 在自訂表單中重複使用現有的計算自訂欄位
+title: 使用舊版表單產生器，在自訂表單中重複使用現有的計算自訂欄位
 description: 您可以對屬於不同物件的自訂表單使用相同的計算自訂欄位。 例如，您可以使用為任務自定義表單上的項目自定義表單建立的「利潤」計算欄位。
 author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 24482fca-94e4-406d-9d62-3db9f51481e6
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: ac5b7e0237dbcaea14010eda658f7d5a6be089cc
 workflow-type: tm+mt
-source-wordcount: '274'
+source-wordcount: '289'
 ht-degree: 0%
 
 ---
 
-# 在自訂表單中重複使用現有的計算自訂欄位
+# 使用舊版表單產生器，在自訂表單中重複使用現有的計算自訂欄位
 
 您可以對屬於不同物件的自訂表單使用相同的計算自訂欄位。 例如，您可以使用為任務自定義表單上的項目自定義表單建立的「利潤」計算欄位。
 
-如需將計算的自訂欄位新增至自訂表單的詳細資訊，請參閱 [將計算資料新增至自訂表單](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
+如需將計算的自訂欄位新增至自訂表單的詳細資訊，請參閱 [使用舊版表單產生器將計算資料新增至自訂表單](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
 
 使用現有的計算自訂欄位時，計算不會轉移至新表單。 您必須在相同欄位上，在新自訂表單上再次新增計算。
 

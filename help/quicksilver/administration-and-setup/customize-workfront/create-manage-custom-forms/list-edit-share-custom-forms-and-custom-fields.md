@@ -2,12 +2,13 @@
 title: 列出並編輯新增至自訂表單的自訂表單和介面工具集
 description: 當您檢視組織的自訂表單清單，以及已新增至自訂欄位和Widget的清單時，您可以使用工具列中的選項來編輯其屬性、限制與誰共用、複製和刪除屬性。 您也可以在顯示的欄中檢視其他資訊，例如每個自訂表單所關聯的物件類型。
 author: Caroline
-source-git-commit: 49d4de3455fc1156efc8a88e8d2bee329c375279
+source-git-commit: 7835b5f9b5903e19b03cb7e25bfae37c9739f064
 workflow-type: tm+mt
 source-wordcount: '560'
 ht-degree: 0%
 
 ---
+
 
 # 列出並編輯新增至自訂表單的自訂表單和介面工具集
 

@@ -2,20 +2,20 @@
 user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
-title: 預覽並完成自訂表單
+title: 使用舊版表單產生器預覽並完成自訂表單
 description: 完成建立或編輯自訂表單後，您可以預覽它，以了解使用者的外觀，然後儲存並關閉它。
 author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 6bf4e7dd-50a6-4a36-947f-326f83aeb8a4
-source-git-commit: 5d36c2c959dbfd00920eaf0a16409102b99de042
+source-git-commit: ac5b7e0237dbcaea14010eda658f7d5a6be089cc
 workflow-type: tm+mt
-source-wordcount: '338'
+source-wordcount: '363'
 ht-degree: 0%
 
 ---
 
-# 預覽並完成自訂表單
+# 使用舊版表單產生器預覽並完成自訂表單
 
 完成建立或編輯自訂表單後，您可以預覽它，以了解使用者的外觀，然後儲存並關閉它。
 
@@ -46,7 +46,7 @@ ht-degree: 0%
 
 ## 預覽並完成自訂表單的建立
 
-1. 如文章所述，開始建立和設定自訂表單 [建立或編輯自訂表單](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md), [新增自訂欄位至自訂表單](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md), [在自訂表單中新增或編輯資產介面工具集](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md)、等。
+1. 如文章所述，開始建立和設定自訂表單 [使用舊版表單產生器建立或編輯自訂表單](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md), [使用舊版表單產生器將自訂欄位新增至自訂表單](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md), [使用舊版表單產生器在自訂表單中新增或編輯資產介面工具集](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md)、等。
 
 1. （選用）按一下 **預覽** 若要查看使用表單時的外觀，請按一下 **結束預覽** 返回編輯表單。
 
