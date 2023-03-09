@@ -7,9 +7,9 @@ description: 您可以使用表單設計器來設計自訂表單。
 author: Courtney
 feature: System Setup and Administration
 role: Admin
-source-git-commit: f416fc6a021a63e3a0cbd905de8e5892455f21a9
+source-git-commit: b56cf20e054b2658ade8aef6c179128e001603c2
 workflow-type: tm+mt
-source-wordcount: '3618'
+source-wordcount: '3803'
 ht-degree: 4%
 
 ---
@@ -124,7 +124,9 @@ ht-degree: 4%
    >[!NOTE]
    >
    >Workfront行動應用程式無法使用格式化的文字欄位（未來版本提供）。
+
 * **描述性文字**:可讓您加入指示並連結至Workfront以外的頁面。
+
 +++
 
 若要新增文字欄位：
@@ -134,7 +136,7 @@ ht-degree: 4%
    * 單行文本：
    * 段落文字
    * 具有格式的文本欄位
-   * 描述性文字
+   * 描述文字
 
    ![](assets/drag-field-to-section.png)
 
@@ -145,6 +147,17 @@ ht-degree: 4%
     <td>輸入</td>
     <td>說明</td>
     <td>適用於 </td>
+    </tr>
+    <tr>
+    <td>大小</td>
+    <td><p>更改表單上文本欄位的大小。<p>
+   </td>
+    <td><ul>
+    <li>單行文字</li>
+    <li>段落文字</li>
+    <li>含格式的文字</li>
+    <li>描述性文字 — 即將推出</li>
+    </ul></td>
     </tr>
     <tr>
     <td>標籤</td>
@@ -209,6 +222,14 @@ ht-degree: 4%
     <td><ul><li>描述文字</li></ul></td>
     </tr>
    </table>
+
+1. （可選）重複上一步以新增任何其他欄位或小工具。
+
+   或
+
+   若要複製欄位，請將滑鼠指標暫留在欄位上，然後按一下復製圖示。
+
+   ![復製圖示](assets/copy-field.png)
 
 1. 若要儲存變更，請按一下 **套用** 並移至其他區段，繼續建立您的表單。
 
@@ -346,6 +367,20 @@ ht-degree: 4%
     </tbody> 
     </table>
 
+1. （可選）重複上一步以新增任何其他欄位或小工具。
+
+   或
+
+   若要複製欄位，請將滑鼠指標暫留在欄位上，然後按一下復製圖示。
+
+   ![復製圖示](assets/copy-field.png)
+
+1. 若要儲存變更，請按一下 **套用** 並移至其他區段，繼續建立您的表單。
+
+   或
+
+   按一下 **儲存並關閉**.
+
 ### 新增提前類型和日期欄位
 
 您可以在自訂表單中新增提前類型和日期欄位。
@@ -445,6 +480,14 @@ ht-degree: 4%
     </tbody> 
    </table>
 
+1. （可選）重複上一步以新增任何其他欄位或小工具。
+
+   或
+
+   若要複製欄位，請將滑鼠指標暫留在欄位上，然後按一下復製圖示。
+
+   ![復製圖示](assets/copy-field.png)
+
 1. 若要儲存變更，請按一下 **套用** 並移至其他區段，繼續建立您的表單。
 
    或
@@ -520,6 +563,14 @@ The Workfront Mobile app -->
     </tbody> 
    </table>
 
+1. （可選）重複上一步以新增任何其他欄位或小工具。
+
+   或
+
+   若要複製欄位，請將滑鼠指標暫留在欄位上，然後按一下復製圖示。
+
+   ![復製圖示](assets/copy-field.png)
+
 1. 若要儲存變更，請按一下 **套用** 並移至其他區段，繼續建立您的表單。
 
    或
@@ -588,6 +639,14 @@ The Workfront Mobile app -->
      </tr> 
     </tbody> 
    </table>
+
+1. （可選）重複上一步以新增任何其他欄位或小工具。
+
+   或
+
+   若要複製欄位，請將滑鼠指標暫留在欄位上，然後按一下復製圖示。
+
+   ![復製圖示](assets/copy-field.png)
 
 1. 若要儲存變更，請按一下 **套用** 並移至其他區段，繼續建立您的表單。
 

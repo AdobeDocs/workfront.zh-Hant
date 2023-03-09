@@ -1,5 +1,5 @@
 ---
-source-git-commit: 6969697714365bf38a77f4972c3b97e4d13a1725
+source-git-commit: e5aa29ba228cf29028b209e6600baa2cfac2d777
 workflow-type: tm+mt
 source-wordcount: '1548'
 ht-degree: 0%
@@ -62,6 +62,7 @@ ht-degree: 0%
 ## 步驟1 — 接近使用者 {#step-1-to-users}
 
 1. 按一下 **[!UICONTROL 主菜單]** 圖示 ![主菜單](assets/main-menu-icon.png) 在Adobe Workfront的右上角，或（如果有）按一下 **[!UICONTROL 主菜單]** 圖示 ![主菜單](assets/main-menu-icon-left-nav.png) 在左上角，然後按一下 **[!UICONTROL 使用者]** ![](assets/users-icon-in-main-menu.png).
+
 
 <!-- Agile -->
 
