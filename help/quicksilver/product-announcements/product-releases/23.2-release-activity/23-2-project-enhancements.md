@@ -4,9 +4,9 @@ description: 23.2專案增強功能
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: 2cfcec04151329918c071b7ed7cb48519d553095
+source-git-commit: 8a533ac04ce35625ed3e6ae5fc7be5148b497cc2
 workflow-type: tm+mt
-source-wordcount: '475'
+source-wordcount: '482'
 ht-degree: 0%
 
 ---
@@ -36,6 +36,8 @@ ht-degree: 0%
 * 我們已從「編輯專案」方塊中移除註解功能。
 
 如需詳細資訊，請參閱 [編輯專案](/help/quicksilver/manage-work/projects/manage-projects/edit-projects.md).
+
+[觀看此功能的影片示範](https://video.tv.adobe.com/v/3416587/){target=_blank}
 
 ## 增強的篩選體驗，Adobe Workfront中一般提供
 

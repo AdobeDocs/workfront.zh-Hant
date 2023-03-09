@@ -4,9 +4,9 @@ description: 23.2管理員增強功能
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: 2cfcec04151329918c071b7ed7cb48519d553095
+source-git-commit: 8a533ac04ce35625ed3e6ae5fc7be5148b497cc2
 workflow-type: tm+mt
-source-wordcount: '298'
+source-wordcount: '305'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,9 @@ ht-degree: 0%
 
 * **更改描述性文本的大小**:您現在可以為「描述性」文字欄位指派小、中或大小。 您也可以在相同列上搭配其他欄位使用。 <span style="color: #ff0000;"> 變更描述性文字的大小暫時延遲，但即將推出。</span></li>
 
-如需詳細資訊，請參閱 [表單設計工具概觀](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/form-designer-overview.md).<!--link is to new article-->
+如需詳細資訊，請參閱 [表單設計工具概觀](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/form-designer-overview.md).
+
+[觀看此功能的影片示範](https://video.tv.adobe.com/v/3416586/){target=_blank}
 
 ## 更名佈局模板中的管腳
 
@@ -37,4 +39,4 @@ ht-degree: 0%
 
 如需詳細資訊，請參閱 [使用版面範本自訂已固定的頁面](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-pinned-pages.md). 有關用戶如何更名其個人固定頁面的詳細資訊，請參閱 [固定頁面以自訂您的工作區](/help/quicksilver/workfront-basics/the-new-workfront-experience/pin-pages.md).
 
-[觀看此功能的影片示範](https://video.tv.adobe.com/v/3414364/)
+[觀看此功能的影片示範](https://video.tv.adobe.com/v/3414364/){target=_blank}
