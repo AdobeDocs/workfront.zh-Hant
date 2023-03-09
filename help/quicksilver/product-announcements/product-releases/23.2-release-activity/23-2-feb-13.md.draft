@@ -1,0 +1,90 @@
+---
+title: 23.2 release activity week of February 13, 2023
+description: 23.2 release activity week of February 13, 2023
+author: Courtney
+draft: Probably
+feature: Product Announcements
+---
+# 23.2 release activity: Week of February 13, 2023
+
+This page describes all enhancements made with the 23.2 release to the Preview environment the week of February 13, 2023. These enhancements will be made available in the Production environment with the 23.2 release. 
+
+For a list of all changes available at this point in the 23.2 release cycle, see [23.2 Release overview](/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-release-overview.md).
+
+## Customize display of fields on a card
+
+>[!NOTE]
+>
+>This feature is available only through the early feature opt-in for Workfront Boards.
+
+
+Customization is now available to configure which fields are displayed on a card, both in the the full view when the card is open, and in the condensed card view on the board. When you disable a field is is not displayed in either view. You can also enable a field in the full view and hide it from the condensed view.
+
+For more information, see [Customize which fields are displayed on a card](/help/quicksilver/agile/get-started-with-boards/customize-fields-on-card.md).
+
+[View a video demonstration of this feature](https://video.tv.adobe.com/v/3415710/){target=_blank} 
+
+## Define a default status for cards moved into a board column
+
+>[!NOTE]
+>
+>This feature is available only through the early feature opt-in for Workfront Boards.
+
+You can now set a default status to apply to cards moved into a specific column, by selecting a custom status and a system status in the column policies. When you move a card into the column, Workfront first tries to apply the custom status (for example, Awaiting Feedback). If the custom status is not available for that card, Workfront will apply the system status instead (for example, On Hold). Also, if the status on the connected task or issue is changed to the custom or system status set in the column policy, the card is automatically moved to the column.
+
+Previously, you were prompted to select a status for every card moved into the column, if multiple statuses were available.
+
+For more information, see [Manage columns](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md).
+
+[View a video demonstration of this feature](https://video.tv.adobe.com/v/3415711/){target=_blank} 
+
+## Collections now available in Adobe Workfront Boards
+
+>[!NOTE]
+>
+>This feature is available only through the early feature opt-in for Workfront Boards.
+
+You can now create collections on the boards dashboard. A collection is a group of boards for collaborating on work. Once you have named the collection, you can add boards to the collection using a set of templates that offer predefined settings such as column names. You can also move standalone boards into a collection. Once a board is in a collection, it can be moved to another collection but it can't become a standalone board.
+
+Adding members to a collection works the same way as adding members to a board. A person or team must be a member on the collection before they can be added as members on a board in the collection.
+
+For more information, see [Manage collections](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md). 
+
+[View a video demonstration of this feature](https://video.tv.adobe.com/v/3415609/){target=_blank} 
+
+## Copy Budgeted Hours when copying a project
+
+>[!NOTE]
+>
+>Preview release: February 16, 2023; Planned Production release: March 2, 2023
+
+Now, you have the option to copy the hours budgeted in the Resource Budgeting area of the Business Case or the Resource Planner when you copy a project. Prior to this enhancement, the hours budgeted for the project were not transferred to the copied project.
+
+For information, see [Copy a project](/help/quicksilver/manage-work/projects/manage-projects/copy-project.md).
+
+[View a video demonstration of this feature](https://video.tv.adobe.com/v/3415713/){target=_blank}
+
+## Introducing the Work Time field to accurately calculate user capacity 
+
+>[!NOTE]
+>
+>Preview release: February 16, 2023; Planned Production release: March 2, 2023
+
+To allow resource managers to accurately calculate the availability of their users and account for the time users devote to actual, project-related work, we are introducing the Work Time concept to Adobe Workfront.
+
+You can define the value of the Work Time field for every user, when you create or edit their profile. For more information, see [Edit a user's profile](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
+
+The Work Time field represents the percentage of Full Time Equivalent (FTE) time that the user is available for actual work, not including overhead. Work Time must be a decimal number with a value between 0 and 1. For example, a 20% availability for actual work would be 0.2.
+
+The field's default is 1, indicating that a user spends their entire FTE on actual, project-related work.
+
+As a result of this update, Workfront calculates the user's availability using the formulas below, depending on your selection in the Resource Management preferences area:
+
+* Default Schedule:
+* User Capacity = [(Schedule Hours – Schedule Exceptions) * FTE – Time off] * Work Time
+* User's Schedule:
+* User Capacity = (Schedule Hours – Schedule Exceptions - Time off) * Work Time.
+
+For more information, see [Configure [!UICONTROL Resource Management] preferences](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md).
+
+[View a video demonstration of this feature](https://video.tv.adobe.com/v/3415608/){target=_blank}

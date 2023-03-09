@@ -1,0 +1,29 @@
+---
+title: 23.2 release activity week of February 6, 2023
+description: 23.2 release activity week of February 6, 2023
+author: Courtney
+draft: Probably
+feature: Product Announcements
+---
+# 23.2 release activity: Week of February 6, 2023
+
+This page describes all enhancements made with the 23.2 release to the Preview environment the week of February 6, 2023. These enhancements will be made available in the Production environment with the 23.2 release. 
+
+For a list of all changes available at this point in the 23.2 release cycle, see [23.2 Release overview](/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-release-overview.md).
+
+## Export artboards as single PDF or multiple PDF files in Adobe Workfront for XD
+
+In the Adobe Workfront for XD plugin, you can now choose to export your artboards as a single PDF file or multiple PDF files.
+
+For more information, see the following articles:
+
+* [Upload [!DNL XD] art boards as documents to [!DNL Workfront]](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-xd-docs.md)
+* [Upload [!DNL XD] art boards as proofs to [!DNL Workfront]](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-xd-proofs.md)
+
+## Rename pins in layout template
+
+You can now rename pins in a layout template to be more meaningful to your users, instead of using the default name for the pinned page. Pins that administrators create are displayed for all users assigned to the layout template, and users can't rename those pins.
+
+For more information, see [Customize pinned pages using a layout template](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-pinned-pages.md). For details about how users can rename their personal pinned pages, see [Pin pages to customize your workspace](/help/quicksilver/workfront-basics/the-new-workfront-experience/pin-pages.md).
+
+[View a video demonstration of this feature](https://video.tv.adobe.com/v/3414364/)

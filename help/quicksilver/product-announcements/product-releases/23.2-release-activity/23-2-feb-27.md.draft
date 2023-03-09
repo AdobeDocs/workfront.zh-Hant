@@ -1,0 +1,30 @@
+---
+title: 23.2 release activity week of February 27, 2023
+description: 23.2 release activity week of February 27, 2023
+author: Courtney
+draft: Probably
+feature: Product Announcements
+---
+# 23.2 release activity: Week of February 27, 2023
+
+This page describes all enhancements made with the 23.2 release to the Preview environment the week of February 27, 2023. These enhancements will be made available in the Production environment with the 23.2 release. 
+
+For a list of all changes available at this point in the 23.2 release cycle, see [23.2 Release overview](/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-release-overview.md).
+
+## Enhanced filter experience generally available in Adobe Workfront
+
+An upgrade to the filter experience was released to public beta on project, task, and issue lists in August 2022. Most lists now offer the enhanced filters. (To review all of these lists, see the [23.1 look-and-feel updates release note](/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-look-and-feel-updates.md).) The enhanced filter experience will be generally available and become the standard filter builder in Preview on March 2, 2023. A phased rollout in Production will also begin on March 2, with availability for all customers in the 23.2 release.
+
+You can still access the legacy filters on lists by enabling them in the filter panel. Legacy filters will be deprecated from lists in the future, but they will remain available in reports because the standard filter builder is not available in reports.
+
+For details about the enhanced filters and a video demonstration, see the [filters public beta release note](/help/quicksilver/product-announcements/product-releases/22.4-release-activity/22-4-project-enhancements.md).
+
+For more information, see [Create or edit filters in Adobe Workfront](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-filters.md).
+
+<!--
+
+## Add tasks and issues to Workfront Boards from lists and reports
+
+You can now add existing tasks or issues to a Workfront board directly from a list or report view. Any items you add to the board will become connected cards.
+
+For more information, see [Add existing tasks or issues to a board](LINK). This article will not be available until I verify the feature is released to Preview and publish the article. -->

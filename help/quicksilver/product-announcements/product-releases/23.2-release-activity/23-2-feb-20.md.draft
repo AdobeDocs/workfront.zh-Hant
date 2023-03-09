@@ -1,0 +1,24 @@
+---
+title: 23.2 release activity week of February 20, 2023
+description: 23.2 release activity week of February 20, 2023
+author: Courtney
+draft: Probably
+feature: Product Announcements
+---
+# 23.2 release activity: Week of February 20, 2023
+
+This page describes all enhancements made with the 23.2 release to the Preview environment the week of February 20, 2023. These enhancements will be made available in the Production environment with the 23.2 release. 
+
+For a list of all changes available at this point in the 23.2 release cycle, see [23.2 Release overview](/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-release-overview.md).
+
+## Log hours on connected cards on a board
+
+>[!NOTE]
+>
+>This feature is available only through the early feature opt-in for Workfront Boards.
+
+You can now log hours on connected cards, the same way you would on a task or issue. You must have the correct permissions to the task or issue to log the time.
+
+The time logging fields are not displayed on connected cards by default. You must enable **Hours** in the Configure area under Cards.
+
+For more information, see [Use connected cards on boards](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).

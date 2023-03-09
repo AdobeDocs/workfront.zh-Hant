@@ -1,0 +1,37 @@
+---
+title: 23.2 release activity week of January 23, 2023
+description: 23.2 release activity week of January 23, 2023
+author: Courtney
+draft: Probably
+feature: Product Announcements
+---
+# 23.2 release activity: Week of January 23, 2023
+
+This page describes all enhancements made with the 23.2 release to the Preview environment the week of January 23, 2023. These enhancements will be made available in the Production environment with the 23.2 release. 
+
+For a list of all changes available at this point in the 23.2 release cycle, see [23.2 Release overview](/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-release-overview.md).
+
+## Estimation field on connected cards maps to Story Points field on Workfront objects
+
+>[!NOTE]
+>
+>This feature is available only through the early feature opt-in for Workfront Boards.
+
+The Estimation field on connected cards in Workfront Boards now maps to the Story Points field for the associated Workfront object. 
+
+The new Story Points field is an editable, free form field that you can add to a view in a list or report for tasks or issues. It is not tied to planned hours or team assignments.
+
+Previously, the card estimation was a manual entry and was not mapped to any field on a task or issue.
+
+Also, the Estimation field on both ad hoc and connected cards no longer has a character limit. Previously, the maximum number of characters was 99.
+
+For more information, see [Use connected cards on boards](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
+
+## Preview card in intake column
+
+>[!NOTE]
+>
+>This feature is available only through the early feature opt-in for Workfront Boards.
+
+You can now click on a connected card in the intake column to see a view-only version of its contents. You can't edit the card contents until the card is moved out of the intake column to another column on the board.
+
