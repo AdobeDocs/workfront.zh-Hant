@@ -6,9 +6,9 @@ description: 請檢閱這些文章，了解如何使用Workfront中的展示板�
 author: Lisa
 feature: Agile
 exl-id: f9b8b721-d4ba-4ed5-b7a4-ad3610cbc18e
-source-git-commit: 53781e0df0c748310d254ca149ec371757b90303
+source-git-commit: c224114b3516937ef7b074f4bf5a403ad9fc41fa
 workflow-type: tm+mt
-source-wordcount: '104'
+source-wordcount: '112'
 ht-degree: 0%
 
 ---
@@ -26,6 +26,7 @@ ht-degree: 0%
 * [管理展示板欄](../../agile/get-started-with-boards/manage-board-columns.md)
 * [新增臨機卡至展示板](../../agile/get-started-with-boards/add-card-to-board.md)
 * [在主板上使用連接的卡](/help/quicksilver/agile/get-started-with-boards/connected-cards.md)
+* [將現有任務或問題新增至展示板](/help/quicksilver/agile/get-started-with-boards/add-card-from-list-to-board.md)
 * [管理卡片](../../agile/get-started-with-boards/move-board-items.md)
 * [管理卡上的檢查清單項目](/help/quicksilver/agile/get-started-with-boards/manage-checklist-items.md)
 * [自訂卡片上顯示的欄位](/help/quicksilver/agile/get-started-with-boards/customize-fields-on-card.md)
