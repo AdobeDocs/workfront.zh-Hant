@@ -5,9 +5,9 @@ description: 您可以使用計分卡來測量專案與先前建立之產品組�
 author: Alina
 feature: Work Management
 exl-id: 21cf5493-147d-4b8d-8b16-2891eb7e0491
-source-git-commit: a849ecaf6097dcdc924aaab2867f37bf57d5bc09
+source-git-commit: 921749caf6a61fa4f0efae9357c6e05c581421c5
 workflow-type: tm+mt
-source-wordcount: '1292'
+source-wordcount: '1399'
 ht-degree: 0%
 
 ---
@@ -92,6 +92,18 @@ ht-degree: 0%
 1. 按一下 **儲存** 儲存計分卡並對專案評分。
 
    計分卡現在會與專案建立關聯，且專案會獲得分數。
+
+1. （條件性）當計分卡問題的值發生變更時，您必須重新計算計分卡，以反映專案分數的新值。 若要重新設定計分卡，請執行下列動作：
+
+   1. 移至專案清單，然後選取清單中的所有專案。
+   1. 按一下 **編輯** 表徵圖。
+   1. 按一下 **設定** 在左側面板中，檢查 **重新計算計分卡** 選項。
+   1. 按一下儲存。這會根據所有所選專案附加的計分卡，重新計算分數值。
+
+      >[!NOTE]
+      >
+      >   <span class="preview">大量編輯專案時，「預覽」環境中已移除重新計算計分卡的選項。 </span>
+
 
 ## 生成對齊分數
 

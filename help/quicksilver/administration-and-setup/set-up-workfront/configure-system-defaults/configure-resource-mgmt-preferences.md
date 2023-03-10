@@ -8,7 +8,7 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 7cde2238-cb34-4bee-baba-69d256a3912d
-source-git-commit: 8420f65e84edd42204d91aa503ff0b95153a1e67
+source-git-commit: 921749caf6a61fa4f0efae9357c6e05c581421c5
 workflow-type: tm+mt
 source-wordcount: '700'
 ht-degree: 0%
@@ -109,9 +109,9 @@ Edit the first part, once they add more settings in the Res Management Preferenc
 
       Workfront會在Workfront管理員選擇 [!UICONTROL 預設排程]:
 
-      ```
-      User Available Hours = [([!UICONTROL Default Schedule] Hours - [!UICONTROL Exceptions]) * [!UICONTROL FTE] - Time off hours] * [!UICONTROL Work Time]
-      ```
+
+      `User Available Hours = [([!UICONTROL Default Schedule] Hours - [!UICONTROL Exceptions]) * [!UICONTROL FTE] - Time off hours] * [!UICONTROL Work Time]`
+
 
       >[!INFO]
       >
@@ -120,9 +120,7 @@ Edit the first part, once they add more settings in the Res Management Preferenc
       >如果使用者一天有1小時的休息時間，其可用小時數的計算方式如下：
       >
       >
-      ```
-      >User Available Hours = [(40 - 0) * 0.5) - 1] * 0.5 = 9.5 hours
-      >```
+      >`User Available Hours = [((40 - 0) * 0.5) - 1] * 0.5 = 9.5 hours`
 
       <!--This used to be the calculation before we implemented the Work Time field: 
     
@@ -166,15 +164,15 @@ Edit the first part, once they add more settings in the Res Management Preferenc
 
       使用者的可用小時數依下列公式計算：
 
-      ```
-      User Available Hours = (Hours from the [!UICONTROL Schedule] of the User - Schedule Exceptions - Time off hours) * [!UICONTROL Work Time]
-      ```
+
+      `User Available Hours = (Hours from the [!UICONTROL Schedule] of the User - Schedule Exceptions - Time off hours) * [!UICONTROL Work Time]`
+
 
       可用 [!UICONTROL FTE] 使用者的計算公式如下：
 
-      ```
-      User Available [!UICONTROL FTE] = [(Hours from the [!UICONTROL Schedule] of the User - Schedule Exceptions - Time off hours) * [!UICONTROL Work Time]] / [!UICONTROL Default Schedule] hours
-      ```
+
+      `User Available [!UICONTROL FTE] = [(Hours from the [!UICONTROL Schedule] of the User - Schedule Exceptions - Time off hours) * [!UICONTROL Work Time]] / [!UICONTROL Default Schedule] hours`
+
 
       >[!INFO]
       >
@@ -183,9 +181,7 @@ Edit the first part, once they add more settings in the Res Management Preferenc
       >如果使用者一天有2小時的休息時間，則可使用每週 [!UICONTROL FTE] 計算方式如下：
       >
       >
-      ```
-      >User Weekly Available [!UICONTROL FTE] = [(30-2) * 0.5] / 40 = 0.35
-      >```
+      >`User Weekly Available [!UICONTROL FTE] = [(30-2) * 0.5] / 40 = 0.35`
 
       <!--This used to be the calculation before we implemented the Work Time field: 
       
