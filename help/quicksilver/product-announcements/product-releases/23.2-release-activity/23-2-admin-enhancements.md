@@ -4,9 +4,9 @@ description: 23.2管理員增強功能
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: 8a533ac04ce35625ed3e6ae5fc7be5148b497cc2
+source-git-commit: ac9155223c22f9872e300111d003fff51bbb4d49
 workflow-type: tm+mt
-source-wordcount: '305'
+source-wordcount: '312'
 ht-degree: 0%
 
 ---
@@ -17,9 +17,9 @@ ht-degree: 0%
 
 如需23.2版本週期中此時所有可用變更的清單，請參閱 [23.2版本概觀](/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-release-overview.md).
 
-## 使用新的表單設計工具建立自訂表單
+## 使用新的表單設計工具測試版建立自訂表單
 
-新的表單設計工具有新的畫布樣式工作區，允許您同時檢視欄位、畫布和欄位設定。
+新的表單設計工具現在已可在公開測試版中使用，其中提供新的畫布樣式工作區，可讓您同時檢視欄位、畫布和欄位設定。
 
 有了新的表單設計工具，我們便能
 
