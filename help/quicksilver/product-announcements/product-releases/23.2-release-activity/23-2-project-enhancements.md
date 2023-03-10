@@ -4,9 +4,9 @@ description: 23.2專案增強功能
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: 8a533ac04ce35625ed3e6ae5fc7be5148b497cc2
+source-git-commit: c4cb27085ddc3bea86081ddd14a88640d0ed5f90
 workflow-type: tm+mt
-source-wordcount: '482'
+source-wordcount: '492'
 ht-degree: 0%
 
 ---
@@ -34,6 +34,8 @@ ht-degree: 0%
 * 指出哪些自訂表單已附加至所選專案，以及已附加特定表單的專案數量。
 
 * 我們已從「編輯專案」方塊中移除註解功能。
+
+* 我們已取消批量編輯項目時的重新計算計分卡選項。
 
 如需詳細資訊，請參閱 [編輯專案](/help/quicksilver/manage-work/projects/manage-projects/edit-projects.md).
 
