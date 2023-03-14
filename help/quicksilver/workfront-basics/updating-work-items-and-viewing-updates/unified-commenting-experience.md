@@ -5,10 +5,10 @@ title: 統一的注釋體驗
 description: 新的統一注釋體驗將
 author: Nolan
 feature: Get Started with Workfront
-source-git-commit: 90b8d467365f18d9e762b5ac339401e7b925eb21
+source-git-commit: b2859f3d268bd947fba5bb0280677465b3039d93
 workflow-type: tm+mt
-source-wordcount: '202'
-ht-degree: 0%
+source-wordcount: '200'
+ht-degree: 1%
 
 ---
 
@@ -18,11 +18,24 @@ ht-degree: 0%
 <!--
 <span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> -->
 
-Adobe Workfront中備注體驗的更新目前正在開發中。 此更新包含新介面、新功能，以及部分物件的「更新」區段中改善的效能。
+Adobe Workfront中備注體驗的更新目前正在開發中。 此更新包含新介面、新功能，以及選取物件的「更新」區段中的效能提升。
 
-有關「更新」(Updates)部分中的對象的資訊，請參見 [更新標籤概觀](../../workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
+<!--drafted for commenting experience on issues: 
 
-此新體驗目前僅實作於「Adobe工作字型目標」中，最終將在Adobe Workfront及整個Adobe Experience Cloud內部統一註解。
+>[!NOTE]
+>
+>The new commenting experience is not available for other areas of Workfront that displays updates. For example, the new experience is not availabe for the following areas:
+>
+>* Home
+>* Summary panel in a list
+>* Summary panel in a timesheet
+>
+>The new commenting experience is only available for the Updates section of select objects. 
+>
+>For information about what objects include the Updates section, see [Updates tab overview](../../workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md). 
+-->
+
+雖然目前僅在Adobe工作字型目標中實作，但這項新體驗將緩慢開放供Workfront中具有更新區段的所有物件使用，之後會擴展至其他Adobe Experience Cloud應用程式。
 
 <!--when we release to Preview for issues with a toggle, we need to remove the last sentence above and replace it with this: 
 
@@ -45,11 +58,11 @@ By enabling the Beta toggle, in the Preview environment:
 
 * Issues
 
-    For more informatiob about managing updates for other objects, including issues, see [Update work](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md). 
+    For more information about managing updates for other objects, including issues, see [Update work](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md). 
 
 </div>
 
-This new experience will slowly become available for the objects with an Updates section in Workfront, and later it will unify the commenting experience across all the Adobe Experience Cloud applications.
+This new experience will slowly become available for all the objects with an Updates section in Workfront, and later it will expand to other Adobe Experience Cloud applications.
 -->
 
 ## 功能
@@ -73,7 +86,7 @@ This new experience will slowly become available for the objects with an Updates
 
 <!-- When releasing this to Issues - preview with 23.2 - remove all the content above in the "Features" section and replace it with this: 
 
-One of the main differences between the current and the new commenting experience is the separation of user-submitted comments and system updates with the introduction of the System Activity tab. There are no changes to the system updates functionality.
+One of the main differences between the current and the new commenting experience is the separation of user-submitted comments and system activity updates with the introduction of the System Activity tab. There are no changes to the way system-generated activity updates function.
 
 Among the improvements included in the new commenting experience are the following:
 
@@ -102,8 +115,20 @@ The following table illustrates the features that will be available in the new c
    <td>Create/read/reply/delete comments 
    </td>
    <td>✓ 
- <p>
- 
+  </td>
+   <td>✓ 
+   </td>
+   <td> 
+   </td>
+   <td> 
+   </td>
+   <td> 
+   </td>
+  </tr>
+  <tr>
+   <td>Rich text (exludes quoting and emojis)
+   </td>
+   <td>✓ 
    </td>
    <td>✓ 
    </td>
@@ -115,20 +140,22 @@ The following table illustrates the features that will be available in the new c
    </td>
   </tr>
   <tr>
-   <td>Rich text 
-   </td>
-   <td>✓ 
+ <tr>
+   <td>Rich text (quoting and emojis)
    </td>
    <td>✓ 
    </td>
    <td> 
    </td>
-   <td> 
+   <td> ✓
+   </td>
+   <td> Q2, 2023
    </td>
    <td> 
    </td>
   </tr>
   <tr>
+
    <td>React to comments (Like) 
    </td>
    <td>✓ 
