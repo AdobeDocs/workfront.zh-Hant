@@ -6,9 +6,9 @@ description: 您可以在Adobe Workfront目標中新增評論至您可檢視的�
 author: Alina
 feature: Workfront Goals
 exl-id: 6cf2d2d2-5ba5-40f2-a803-01359c338541
-source-git-commit: 7ed42330837149b1e4b813c24c81aa317f3c8b7e
+source-git-commit: d7ae3d47cbc4426630260ab5e726380e4775096a
 workflow-type: tm+mt
-source-wordcount: '507'
+source-wordcount: '509'
 ht-degree: 0%
 
 ---
@@ -197,7 +197,7 @@ You can edit or delete a comment that you entered in this area, or you can like 
 1. 找出您要新增備注的目標，然後按一下其名稱以開啟目標頁面。
 1. 按一下  **更新** 中。
 1. 按一下 **註解** 頁簽。
-1. 開始在 **撰寫注釋** 框。
+1. 開始在 **新留言** 框。
 
    ![](assets/comment-box-empty-unshimmed.png)
 
@@ -205,7 +205,7 @@ You can edit or delete a comment that you entered in this area, or you can like 
    >
    >在您完成輸入並提交注釋之前，從「更新」部分導航離開該頁面，即使您註銷並重新登錄後，該頁面上的注釋仍以草稿模式保留。 起草的注釋只對輸入它們的用戶可見。
 
-1. （選用）在 **通知** 區域中，開始鍵入用戶的名稱或電子郵件，或要包含在此注釋中的團隊，然後在清單中顯示時選擇它。
+1. （選用）在 **標籤人員或團隊** 區域中，開始鍵入用戶的名稱或電子郵件，或要包含在此注釋中的團隊，然後在清單中顯示時選擇它。
 1. 按一下 **提交**.
 1. （選用）按一下 **回覆** 若要回覆現有意見，請遵循上述步驟5至7。 <!--insure this stays accurate-->
 1. （選用）按一下 **贊** 圖示![](assets/like-icon.png) 喜歡別人加的評論。 圖示會隨按贊次數更新。
