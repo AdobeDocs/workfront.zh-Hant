@@ -1,0 +1,39 @@
+---
+title: <!-- add release --> release activity week of <!-- add date -->
+description: <!-- add release --> release activity week of <!-- add date -->
+author: Courtney
+draft: Probably
+feature: Product Announcements
+---
+# <!-- add release --> release activity week of <!-- add date -->
+
+This page describes all enhancements made with the <!-- add release --> release to the Preview environment the week of <!-- add date -->. These enhancements will be made available in the Production environment with the <!-- add release --> release. 
+
+For a list of all changes available at this point in the <!-- add release -->release cycle, see [<!-- add release --> Release overview](ADD LINK TO OVERVIEW PAGE).
+
+## <!-- add release note title -->
+
+
+
+<!--
+
+## Add tasks and issues to Workfront Boards from lists and reports
+
+You can now add existing tasks or issues to a Workfront board directly from a list or report view. Any items you add to the board will become connected cards.
+
+For more information, see [Add existing tasks or issues to a board](LINK). This article will not be available until I verify the feature is released to Preview and publish the article. -->
+
+
+
+
+
+<!-- HTML you might need
+
+Video link
+
+[View a video demonstration of this feature](ADD URL){target=_blank}
+
+
+
+
+-->

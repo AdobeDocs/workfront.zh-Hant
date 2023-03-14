@@ -1,0 +1,179 @@
+---
+title: <!-- add release --> release overview
+description: <!-- add release --> release overview
+author: Luke
+draft: Probably
+feature: Product Announcements
+---
+
+# <!-- add release --> release overview
+
+This page provides information about functionality that is included in the <!-- add release --> release scheduled for <!-- add month and year-->. 
+
+The enhancements on this page are available in the Preview environment. This page will be updated with additional enhancements as the <!-- add release --> release nears its planned Production release.
+
+
+<!-- Keep commented until Final Preview release.
+
+The <add release> release webinar will be held on <date>. You can [register for the webinar here <get link from product ops>. -->
+
+<span class="preview">Off-cycle features (those releasing to Production prior to the <!-- add release --> release date) are highlighted in yellow.</span>
+
+## Adobe Workfront enhancements
+    
+*   <!-- add product areas -->
+    
+### <!--add product area name -->
+
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 50%;" />
+            <tbody>
+                <tr>
+                    <td>
+                        <p><span class="bold">Feature</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">Release dates</span>
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="ADD LINK" class="MCXref xref" xrefformat="{para}">Title</a><span style="color: #ff0000;"> New in Preview!</span></p>
+                        <p>Body</p>
+                    </td>
+                    <td><p><b>Available on these dates:</b></p>
+                        <ul>
+                            <li>
+                                <p>Preview release:<br /></p>
+                            </li>
+                            <li>
+                                <p><span class="preview">Production release: </span></p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+
+
+### Other enhancements
+
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 50%;" />
+            <tbody>
+                <tr>
+                    <td>
+                        <p><span class="bold">Feature</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">Release dates</span>
+                        </p>
+                    </td>
+                </tr>
+                 <tr>
+                    <td>
+                        <a href="add look and feel link" class="MCXref xref" xrefformat="{para}">Look-and-feel updates during the <!-- add release--> release timeframe</a></p>
+                        <p>Minor updates to the look and feel of various areas of the Adobe Workfront application are being made within the <!-- add release--> release timeframe. These enhancements will be made available in the Production environment a minimum of 2 weeks after releasing to Preview. </p>
+                    </td>
+                    <td><p><b>Available on these dates:</b></p>
+                        <ul>
+                            <li>
+                                <p>Preview release:&#160;Throughout the <!-- add release--> release timeframe<br /></p>
+                            </li>
+                            <li>
+                                <p><span class="preview">Production release:&#160;A minimum of 2 weeks after releasing to Preview (unless otherwise specified)</span></p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+            </tbody>
+        </table>   
+
+## Announcements
+
+### Workfront Fusion enhancements
+
+There are no Workfront Fusion updates at this point in the release. This area will be updated when updates are available.
+
+### Workfront Scenario Planner enhancements
+
+There are no Scenario Planner updates at this point in the release. This area will be updated when updates are available.
+
+### Workfront Proof enhancements
+
+There are no Workfront Proof updates at this point in the release. This area will be updated when updates are available.
+
+### Workfront Goals enhancements
+
+There are no Workfront Goals updates at this point in the release. This area will be updated when updates are available.
+
+### API version 15
+
+For API version 15, we've modified some resources and endpoints. Some of the changes support new functionality, and others make it easier for you to use the information available through the API.
+
+For information on what's new and updated, see [What's new in API version 15](/help/quicksilver/wf-api/api/new-api-version-15.md).
+
+For information on API versions, see [API versioning and support schedule](/help/quicksilver/wf-api/api/api-version-support-schedule.md).
+
+### Workfront Maintenance Updates
+
+For information about the maintenance updates made during the 22.3 release, see [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
+
+### Training updates
+
+Explore the latest updates made to learning programs, learning paths, videos, and guides for each Adobe Workfront product release. For more information, see the [Training release updates page](https://one.workfront.com/s/training-release-updates).
+
+<!-- Uncomment if there are any deprecations
+
+### Functionality soon to be removed from Workfront
+
+The following functionality is soon to be removed from Workfront:
+
+-->
+
+
+
+
+<!-- HTML you might need
+
+New row for table 
+
+<tr>
+  <td>
+    <a href="ADD%20LINK">Title</a> New in Preview!
+    <p>Body</p>
+  </td>
+  <td>
+    <p><strong>Available on these dates:</strong></p>
+    <ul>
+      <li>
+        <p>Preview release:</p>
+      </li>
+      <li>
+        <p>Production release:</p>
+      </li>
+    </ul>
+  </td>
+</tr>
+
+Off-cycle note for weekly pages
+
+>[!NOTE]
+>
+>Preview release: February 9, 2023; Planned Production release: February 23, 2023
+
+
+New in preview, prod, and coming soon text
+
+<span style="color: #ff0000;"> New in Preview!</span>
+<span style="color: #ff0000;"> New in Production!</span>
+<span style="color: #ff0000;"> Coming soon!</span>
+
+
+-->

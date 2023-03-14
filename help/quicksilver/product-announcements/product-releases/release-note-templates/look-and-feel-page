@@ -1,0 +1,14 @@
+---
+title: Look and feel updates during the <!-- add relesae --> release time frame
+description: Look and feel updates during the <!-- add relesae --> release time frame
+author: Courtney
+draft: Probably
+feature: Product Announcements
+---
+
+# Look and feel updates during the <!-- add relesae --> release time frame
+
+This page describes minor updates to the look and feel of various areas of the Adobe Workfront application that were made within the <!-- add relesae -->  release timeframe. These enhancements will be made available in the Production environment a minimum of 2 weeks after releasing to Preview.
+
+For a list of all changes available with the <!-- add relesae --> release, see [<!-- add relesae -->  Release overview](ADD LINK TO OVERVIEW PAGE).
+
