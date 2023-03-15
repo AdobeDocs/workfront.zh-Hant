@@ -7,16 +7,22 @@ description: 「更新」標籤會顯示過去90天內最近進行的200次更�
 author: Lisa and Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: 799a2f3463ee98d57b13edfda8a0c93629439ea3
+source-git-commit: 19872953e847921c0fee6d383026641c05012ead
 workflow-type: tm+mt
-source-wordcount: '492'
-ht-degree: 6%
+source-wordcount: '499'
+ht-degree: 7%
 
 ---
 
 # 更新標籤概觀
 
-「更新」標籤會顯示過去90天內最近進行的200次更新。 您可以回覆下列物件的更新：
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only for a limited number of objects when you opt in to the new commenting experience Beta.</span> -->
+
+<!-- for preview commenting beta: at the release of commenting beta: change the title to: Updates section overview - also update ALL articles from which this is linked-->
+
+「更新」標籤會顯示過去90天內最近進行的200次更新。
+
+您可以對下列物件提出意見並回覆更新：
 
 <table style="table-layout:auto"> 
  <col> 
@@ -25,21 +31,22 @@ ht-degree: 6%
   <tr> 
    <td> 
     <ul> 
+     <li>文件</li> 
+     <li>目標</li> 
+     <li>問題</li> 
+     <li>反覆項目</li> 
      <li>專案</li> 
-     <li>專案組合</li> 
      <li>計劃</li> 
-     <li>範本</li> 
-     <li>範本任務</li> 
-     <li>任務</li> 
+     <li>專案組合</li> 
     </ul> </td> 
    <td> 
     <ul> 
-     <li>問題</li> 
-     <li>反覆項目</li> 
      <li>劇本</li> 
-     <li>使用者</li> 
-     <li>文件</li> 
+     <li>任務</li> 
+     <li>範本</li> 
+     <li>範本任務</li> 
      <li>時程表</li> 
+     <li>使用者</li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -100,6 +107,11 @@ ht-degree: 6%
   <tr> 
    <td>反覆項目</td> 
    <td>團隊</td> 
+  </tr>
+
+<tr> 
+   <td>目標</td> 
+   <td>結果，活動</td> 
   </tr> 
  </tbody> 
 </table>
@@ -107,8 +119,11 @@ ht-degree: 6%
 >[!NOTE]
 >
 >添加到系統更新的回復不會匯總到父對象。 只有子對象的直接回覆和添加到現有更新的回覆才會匯總到父對象。
+>
+>如需Adobe Workfront中物件階層的相關資訊，請參閱 [了解Adobe Workfront中的物件](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
 
-如需Adobe Workfront中物件階層的相關資訊，請參閱 [了解Adobe Workfront中的物件](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
+<!-- drafted for the new commenting experience for issues in beta: Add this paragraph to the note above: 
+><span class="preview"> It is not possible to reply to system updates in the new commenting experience Beta. For more information, see [New commenting experience](../updating-work-items-and-viewing-updates/unified-commenting-experience.md).</span> -->
 
 ## 「更新」標籤的限制
 

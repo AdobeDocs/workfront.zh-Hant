@@ -5,7 +5,7 @@ title: 統一的注釋體驗
 description: 新的統一注釋體驗將
 author: Nolan
 feature: Get Started with Workfront
-source-git-commit: b2859f3d268bd947fba5bb0280677465b3039d93
+source-git-commit: 19872953e847921c0fee6d383026641c05012ead
 workflow-type: tm+mt
 source-wordcount: '200'
 ht-degree: 1%
@@ -24,15 +24,16 @@ Adobe Workfront中備注體驗的更新目前正在開發中。 此更新包含�
 
 >[!NOTE]
 >
->The new commenting experience is not available for other areas of Workfront that displays updates. For example, the new experience is not availabe for the following areas:
+>The new commenting experience is only available for the Updates section of select objects. 
+>
+>For information about what objects include the Updates section, see [Updates tab overview](../../workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md). 
+>The new commenting experience is not available for other areas of Workfront that display updates. For example, the new experience is not availabe for the following areas:
 >
 >* Home
 >* Summary panel in a list
 >* Summary panel in a timesheet
 >
->The new commenting experience is only available for the Updates section of select objects. 
->
->For information about what objects include the Updates section, see [Updates tab overview](../../workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md). 
+
 -->
 
 雖然目前僅在Adobe工作字型目標中實作，但這項新體驗將緩慢開放供Workfront中具有更新區段的所有物件使用，之後會擴展至其他Adobe Experience Cloud應用程式。
@@ -54,7 +55,7 @@ By default, in the Preview and Production environments for all customers:
 
 <div class="preview">
 
-By enabling the Beta toggle, in the Preview environment: 
+By enabling the Beta version in the Updates section, in the Preview environment: 
 
 * Issues
 
@@ -62,7 +63,7 @@ By enabling the Beta toggle, in the Preview environment:
 
 </div>
 
-This new experience will slowly become available for all the objects with an Updates section in Workfront, and later it will expand to other Adobe Experience Cloud applications.
+The new commenting experience will slowly become available for all the objects with an Updates section in Workfront, and later it will expand to other Adobe Experience Cloud applications.
 -->
 
 ## 功能
@@ -86,13 +87,16 @@ This new experience will slowly become available for all the objects with an Upd
 
 <!-- When releasing this to Issues - preview with 23.2 - remove all the content above in the "Features" section and replace it with this: 
 
-One of the main differences between the current and the new commenting experience is the separation of user-submitted comments and system activity updates with the introduction of the System Activity tab. There are no changes to the way system-generated activity updates function.
-
 Among the improvements included in the new commenting experience are the following:
 
-* Better, faster performance 
+* Improved performance and user experience
+* Separation of user comments from the system activity. There are no changes in the way the system updates function. 
 * Real-time updates
 * Edit comments after submitting them. 
+
+The following features have been removed from the new experience:
+
+* Comment on a system update
 
 The following table illustrates the features that will be available in the new commenting experience as well as their availability now in areas where they are supported: 
 
@@ -423,4 +427,30 @@ The following table illustrates the features that will be available in the new c
   </tr>
 </table>
 
+
+## Locate the new commenting experience
+
+The new commenting experience is the default experience for Workfront goals. 
+
+<div span="preview">
+For all other objects that have an Updates section, you can enable the new commenting experience by opting in to the Beta program. The Beta option will be available, gradually, for all objects that have an Updates section. 
+</div>
+
+
+Currently, the new experience is available for the following objects:
+
+* Goals. The new exprience is already the default experience for Goals. You must have an additional license to access Workfront Goals. For more information, see [Requirements to use Workfront Goals](../../workfront-goals/goal-management/access-needed-for-wf-goals.md). 
+* <span class="preview">Issues</span>
+
+<div class="preview">
+To enable the new commenting exprience Beta: 
+
+1. Go to an object you want to activate the new commenting exprience for, then click **Updates** in the left panel.
+1. Click **Try out the Commenting Beta** in the lower-right corner of the Updates area. 
+1. Click **Agree** in the Beta agreement box. This enables the new commenting exprience for the selected object. 
+1. Start typing an update in the **Comments** tab. The Comments tab should be the default tab when the new experience opens. 
+1. Click the  **System Activity** tab to view the activity updates generated by Workfront. 
+    For more information about updating objects in the new commenting exprience, see [Update work](../updating-work-items-and-viewing-updates/update-work.md). 
+
+</div>
 -->

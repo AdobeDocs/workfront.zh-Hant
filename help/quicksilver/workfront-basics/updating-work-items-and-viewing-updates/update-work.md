@@ -6,9 +6,9 @@ description: 您可以在Adobe Workfront物件（專案、任務或問題）上�
 author: Lisa and Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: b2859f3d268bd947fba5bb0280677465b3039d93
+source-git-commit: 19872953e847921c0fee6d383026641c05012ead
 workflow-type: tm+mt
-source-wordcount: '1774'
+source-wordcount: '1827'
 ht-degree: 1%
 
 ---
@@ -17,11 +17,15 @@ ht-degree: 1%
 
 <!-- Drafted for commenting experience: 
 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for a limited number of objects.</span> -->
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only for a limited number of objects when you opt in to the new commenting experience Beta.</span> -->
 
-您可以在Adobe Workfront物件（專案、任務或問題）上新增更新，以傳達物件進度的相關資訊。 已指派或訂閱物件的使用者可以檢視您的更新。 您也可以標籤使用者，以吸引其注意更新。
+您可以在Workfront中為數個物件新增註解。 如需詳細資訊，請參閱 [更新標籤概觀](../updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
-您可以從下列Workfront區域新增物件更新：
+除了對物件加上註解，您還可以對Adobe Workfront物件（專案、任務或問題）新增更新，以傳達物件的進度。 已指派或訂閱物件的使用者可以檢視您的更新。 您也可以標籤使用者，以吸引其注意更新。
+
+此頁面的資訊指的是更新專案、工作或問題的工作。 如需新增備注和目標更新的相關資訊，請參閱 [管理Adobe Workfront目標中的目標註解](../../workfront-goals/goal-management/manage-goal-comments.md).
+
+您可以從下列Workfront區域更新專案、工作和問題：
 
 * 從Workfront物件，在「更新」區段中
 * 從首頁（針對任務和問題）
