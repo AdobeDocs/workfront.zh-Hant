@@ -8,9 +8,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 1a1affed-1b06-442c-98b2-9f360eee767b
-source-git-commit: 2fd772ffc667c4f32c6a7b0de9c87676ee6dd65b
+source-git-commit: 57ca3b58f3ef39eaea82acf609135b1e5ae8e631
 workflow-type: tm+mt
-source-wordcount: '2475'
+source-wordcount: '2509'
 ht-degree: 1%
 
 ---
@@ -179,8 +179,15 @@ ht-degree: 1%
        <ul> 
         <li>狀態為[!UICONTROL當前]</li> 
         <li>過去3個月有過更新</li> 
-       </ul> </p> </li> 
-     <li> <p><strong>項目範圍更改時</strong>:選擇此選項可在項目範圍發生更改時立即重新計算項目時間表。 有關構成項目範圍更改的資訊，請參見 <a href="../../../manage-work/projects/manage-projects/recalculate-project-timeline.md" class="MCXref xref" data-mc-variable-override="">重新計算項目時間表</a>.</p> </li> 
+        <li>具有下列其中一種更新類型：</li>
+        <ul>
+        <li>自動與專案變更時</li>
+        <li>僅限變更</li>
+        <li>僅限自動</li> 
+      </ul>       
+    <b>筆尖</b>
+    <p>此設定不影響「僅手動」更新類型的項目。</p>
+    <li> <p><strong>項目範圍更改時</strong>:選擇此選項可在項目範圍發生更改時立即重新計算項目時間表。 有關構成項目範圍更改的資訊，請參見 <a href="../../../manage-work/projects/manage-projects/recalculate-project-timeline.md" class="MCXref xref" data-mc-variable-override="">重新計算項目時間表</a>.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 

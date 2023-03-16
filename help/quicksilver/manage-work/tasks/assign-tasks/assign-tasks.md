@@ -6,7 +6,7 @@ description: 您可以將任務指派給使用者、角色或團隊，以指出�
 author: Alina
 feature: Work Management
 exl-id: 611b136e-2c3f-4eac-9d75-e8c12e06148d
-source-git-commit: e83d4742106bc3cb5adb939040997959315dd1e2
+source-git-commit: 57ca3b58f3ef39eaea82acf609135b1e5ae8e631
 workflow-type: tm+mt
 source-wordcount: '1789'
 ht-degree: 1%
@@ -139,9 +139,9 @@ You cannot make a team be a Primary on a task/ issue. (Alina) -->
       <li>如果已分配多個角色，且其中至少一個角色與用戶的其他角色之一匹配，則會將任務或問題分配給用戶（如果有多個匹配，則隨機選擇該角色），以及分配的任何附加角色</li>
       <li>如果至少分配了一個作業角色，並且沒有與用戶的作業角色匹配的角色，則將該任務或問題分配給該角色或角色以及該用戶。</li>
      </ul>
-   <p>如需使用者主要角色和其他角色的相關資訊，請參閱 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">編輯使用者的設定檔</a>.</p>
-   </td>
-  </tr>
+   <p>如需使用者主要角色和其他角色的相關資訊，請參閱 <a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md">編輯使用者的設定檔</a>.</p>
+   </td> 
+     </tr>
   </tbody>
   </table>
 

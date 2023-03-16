@@ -6,9 +6,9 @@ description: 您可以與其他用戶共用工作負載平衡器，這些用戶�
 author: Alina
 feature: Resource Management
 exl-id: e2d6b1f8-bdc9-4a34-bdc3-b56f7aa2e7a5
-source-git-commit: a74cc358c547e11a55cce728ad5330712ed0bd49
+source-git-commit: 57ca3b58f3ef39eaea82acf609135b1e5ae8e631
 workflow-type: tm+mt
-source-wordcount: '711'
+source-wordcount: '729'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,8 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront授權*</td> 
-   <td> <p>計畫或更高</p> </td> 
+   <td> <p>在資源區中使用工作負載平衡器時進行計畫</p>
+   <p>使用團隊或項目的工作負載平衡器時工作</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">訪問級別配置*</td> 

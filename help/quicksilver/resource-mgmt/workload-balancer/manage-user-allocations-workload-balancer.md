@@ -6,9 +6,9 @@ description: 作為資源管理器，您可以為用戶分配工作，並從工�
 author: Alina
 feature: Resource Management
 exl-id: 9649e482-af24-4516-9a69-ef12b2f1d579
-source-git-commit: 3486a2523a038bdd83c3c2001001a119fd0508ad
+source-git-commit: 57ca3b58f3ef39eaea82acf609135b1e5ae8e631
 workflow-type: tm+mt
-source-wordcount: '2787'
+source-wordcount: '2785'
 ht-degree: 0%
 
 ---
@@ -31,8 +31,8 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront授權*</td> 
-   <td> <p>在使用團隊或「資源配置」區域中的工作負載平衡器時進行計畫 </p>
-   <p>使用項目的工作負載平衡器時工作 </p>
+   <td> <p>在資源區中使用工作負載平衡器時進行計畫</p>
+   <p>使用團隊或項目的工作負載平衡器時工作</p>
  </td> 
   </tr> 
   <tr> 

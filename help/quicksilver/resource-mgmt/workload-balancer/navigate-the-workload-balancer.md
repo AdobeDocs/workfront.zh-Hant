@@ -6,9 +6,9 @@ description: 使用工作負載平衡器了解資源的可用性，並將工作�
 author: Alina
 feature: Resource Management
 exl-id: 60dabfc5-6a2e-4368-9dac-db48d0307895
-source-git-commit: f150c57e8b83e73734b1cbeded7ef4c16d65097c
+source-git-commit: 57ca3b58f3ef39eaea82acf609135b1e5ae8e631
 workflow-type: tm+mt
-source-wordcount: '4050'
+source-wordcount: '4048'
 ht-degree: 0%
 
 ---
@@ -75,8 +75,8 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront授權*</td> 
-   <td> <p>在使用團隊或「資源配置」區域中的工作負載平衡器時進行計畫 </p>
-   <p>使用項目的工作負載平衡器時工作 </p>
+   <td> <p>在資源區中使用工作負載平衡器時進行計畫</p>
+   <p>使用團隊或項目的工作負載平衡器時工作</p>
  </td> 
   </tr> 
   <tr> 

@@ -6,10 +6,10 @@ description: 如果沒有正確的訪問權限或權限，您可能無法在工�
 author: Alina
 feature: Resource Management
 exl-id: b3da9a62-481e-4503-8f27-136d6513262e
-source-git-commit: bba51ba60ad6d2452fa368fd8b0bd708d005a82a
+source-git-commit: 57ca3b58f3ef39eaea82acf609135b1e5ae8e631
 workflow-type: tm+mt
-source-wordcount: '502'
-ht-degree: 1%
+source-wordcount: '535'
+ht-degree: 0%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 1%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Workfront 計畫</td> 
+   <td role="rowheader"><p>Workfront 計畫</p></td> 
    <td> <p>可以訪問工作負載平衡器的區域</p> </td> 
   </tr> 
   <tr> 
@@ -56,7 +56,8 @@ ht-degree: 1%
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront授權*</td> 
-   <td> <p>計劃 </p> </td> 
+   <td> <p>計畫在資源區中查看工作負載平衡器</p>
+   <p>工作以查看團隊或項目的工作負載平衡器</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">訪問級別配置*</td> 
@@ -83,8 +84,8 @@ ht-degree: 1%
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront授權*</td> 
-   <td> <p>計劃 </p> 
-   <p>工作，在項目的工作負載平衡器中管理資源</p>
+   <td> <p>計畫在資源區的工作負載平衡器中管理分配</p>
+   <p>在團隊或項目的工作負載平衡器中管理分配</p>
    </td> 
   </tr> 
   <tr> 

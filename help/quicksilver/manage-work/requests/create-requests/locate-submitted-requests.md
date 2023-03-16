@@ -6,9 +6,9 @@ description: 了解Adobe Workfront的哪些區域，您可找到您或其他人�
 author: Alina
 feature: Work Management
 exl-id: cfa2383a-9594-4867-9b48-11b8ea281486
-source-git-commit: 168e8ac6e7491e020164f9cfa9aef6cf1e64ffe5
+source-git-commit: 57ca3b58f3ef39eaea82acf609135b1e5ae8e631
 workflow-type: tm+mt
-source-wordcount: '853'
+source-wordcount: '880'
 ht-degree: 1%
 
 ---
@@ -121,7 +121,11 @@ ht-degree: 1%
 
    如果問題已轉換為任務或項目，且問題已在轉換過程中刪除，則「摘要」面板為空。 如需轉換問題的相關資訊，請參閱 [轉換Adobe Workfront問題概觀](../../../manage-work/issues/convert-issues/convert-issues.md).
 
-1. 從 **篩選圖示** ![](assets/filter-nwepng.png) 在清單的右上角，選取下列任一篩選器：
+1. 從 **篩選圖示** ![](assets/filter-nwepng.png) 在清單的右上角，選取下表所列的任何篩選器。
+
+   >[!TIP]
+   >
+   >您無法修改「請求」區域中的篩選器。 此外，沒有可修改或更改「請求」區域的視圖的選項。
 
    <table style="table-layout:auto"> 
     <col> 
