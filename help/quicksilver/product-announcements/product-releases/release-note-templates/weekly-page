@@ -15,14 +15,6 @@ For a list of all changes available at this point in the <!-- add release -->rel
 
 
 
-<!--
-
-## Add tasks and issues to Workfront Boards from lists and reports
-
-You can now add existing tasks or issues to a Workfront board directly from a list or report view. Any items you add to the board will become connected cards.
-
-For more information, see [Add existing tasks or issues to a board](LINK). This article will not be available until I verify the feature is released to Preview and publish the article. -->
-
 
 
 
@@ -33,6 +25,11 @@ Video link
 
 [View a video demonstration of this feature](ADD URL){target=_blank}
 
+Off-cycle note for weekly pages
+
+>[!NOTE]
+>
+>Preview release: February 9, 2023; Planned Production release: February 23, 2023
 
 
 

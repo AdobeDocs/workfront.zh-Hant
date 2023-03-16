@@ -142,6 +142,43 @@ The following functionality is soon to be removed from Workfront:
 
 <!-- HTML you might need
 
+New table
+
+### add product area name
+
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 50%;" />
+            <tbody>
+                <tr>
+                    <td>
+                        <p><span class="bold">Feature</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">Release dates</span>
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="ADD LINK" class="MCXref xref" xrefformat="{para}">Title</a><span style="color: #ff0000;"> New in Preview!</span></p>
+                        <p>Body</p>
+                    </td>
+                    <td><p><b>Available on these dates:</b></p>
+                        <ul>
+                            <li>
+                                <p>Preview release:<br /></p>
+                            </li>
+                            <li>
+                                <p><span class="preview">Production release: </span></p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
 New row for table 
 
 <tr>
@@ -162,12 +199,6 @@ New row for table
   </td>
 </tr>
 
-Off-cycle note for weekly pages
-
->[!NOTE]
->
->Preview release: February 9, 2023; Planned Production release: February 23, 2023
-
 
 New in preview, prod, and coming soon text
 
@@ -175,5 +206,11 @@ New in preview, prod, and coming soon text
 <span style="color: #ff0000;"> New in Production!</span>
 <span style="color: #ff0000;"> Coming soon!</span>
 
+
+Test for boards early access stuff
+
+Production release for early opt-in: March 2, 2023 This feature is available in Production on this date only through the early feature opt-in for Workfront Boards.
+
+Production release for all customers: With the 23.2 release
 
 -->
