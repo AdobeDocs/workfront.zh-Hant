@@ -4,9 +4,9 @@ description: 23.2敏捷增強功能
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: 8a209bbe64b7b69b41cd9e4d2f603ff58491ba30
+source-git-commit: 938bccf3b3eedf010b7d1db451c365f6097dc64d
 workflow-type: tm+mt
-source-wordcount: '739'
+source-wordcount: '1032'
 ht-degree: 0%
 
 ---
@@ -17,27 +17,24 @@ ht-degree: 0%
 
 如需23.2版本週期中此時所有可用變更的清單，請參閱 [23.2版本概觀](/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-release-overview.md).
 
-<!--
+## Adobe Workfront展示板中可用的迭代功能
 
-## Iteration functionality available in Adobe Workfront Boards
+Workfront展示板中提供的數項新功能，讓您能使用靈活的Scrum功能。 這些功能包括：
 
-Several new features available in Workfront Boards make it possible to use agile Scrum functionality. These features include:
+* 將與同一團隊相關的展示板分組並協作的工作流
+* 卡片清單或積壓工作，並可選擇使用來源將卡片連接至Workfront任務和問題
+* 迭代規劃和迭代流程板
 
-* Workstreams for grouping boards related to the same team, and collaborating on work
-* A list of cards, or backlog of work, with the option to use sources to connect cards to Workfront tasks and issues
-* Iteration planning and iteration process boards
+請注意，集合已重新命名為工作流。 工作流程可協助您以不同方式將資料視覺化。 您可以在清單、展示板或小版本的資訊卡上顯示項目。 工作流中的資訊卡也可在多個展示板之間共用。 您可以使用工作流中的卡片和展示板，輕鬆促進工作流程。
 
-Note that collections have been renamed to workstreams. Workstreams help you visualize data in different ways. You can display items on cards in a list, on a board, or on an iteration. Cards in a workstream can also be shared among multiple boards. You can easily facilitate workflows using cards and boards in a workstream.
+如需詳細資訊，請參閱 [管理工作流](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md), [建立小版本](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration.md)，和 [使用卡片清單](/help/quicksilver/agile/use-boards-agile-planning-tools/use-card-list.md). 第二篇文章要等到我發佈分支後，才能在Main中使用。
 
-For more information, see [Manage workstreams](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md), [Create an iteration](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration.md), and [Use the card list](/help/quicksilver/agile/use-boards-agile-planning-tools/use-card-list.md). Second two articles will not be available in Main until I publish my branch.
+## 從清單和報表將任務和問題新增至展示板工作流
 
-## Add tasks and issues to Boards workstreams from lists and reports
+您現在可以直接從清單或報表檢視，將現有工作或問題新增至Workfront展示板中的工作流。 您添加到工作流的任何項目都將作為計畫外卡添加到卡清單中。
 
-You can now add existing tasks or issues to a workstream in Workfront Boards directly from a list or report view. Any items you add to the workstream are added to the card list as unplanned cards.
+如需詳細資訊，請參閱 [將現有任務或問題新增至展示板](/help/quicksilver/agile/get-started-with-boards/add-card-from-list-to-board.md).
 
-For more information, see [Add existing tasks or issues to a board](/help/quicksilver/agile/get-started-with-boards/add-card-from-list-to-board.md).
-
--->
 
 ## 登錄主板上連接的卡的時數
 
@@ -50,6 +47,14 @@ For more information, see [Add existing tasks or issues to a board](/help/quicks
 依預設，連線的卡片上不會顯示時間記錄欄位。 您必須啟用 **小時** 在「卡片」下的「配置」區域中。
 
 如需詳細資訊，請參閱 [在主板上使用連接的卡](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
+
+## 從清單和報表將工作和問題新增至Workfront展示板
+
+您現在可以直接從清單或報表檢視，將現有工作或問題新增至Workfront展示板。 您新增至展示板的任何項目都會變成已連線的資訊卡。
+
+此外，「展示板」欄位現在可新增至任務或問題的清單和報表。 此欄位會顯示已新增任務或問題的所有展示板。
+
+如需詳細資訊，請參閱 [將現有任務或問題新增至展示板](/help/quicksilver/agile/get-started-with-boards/add-card-from-list-to-board.md).
 
 ## 自訂卡片上的欄位顯示
 

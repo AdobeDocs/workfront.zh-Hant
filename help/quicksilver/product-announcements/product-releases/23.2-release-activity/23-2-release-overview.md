@@ -4,9 +4,9 @@ description: 23.2版本概觀
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: 77a4d3291882e0a5284971fa0bc054b8d81e6349
+source-git-commit: 938bccf3b3eedf010b7d1db451c365f6097dc64d
 workflow-type: tm+mt
-source-wordcount: '2375'
+source-wordcount: '2571'
 ht-degree: 0%
 
 ---
@@ -114,44 +114,60 @@ ht-degree: 0%
                         </p>
                     </td>
                 </tr>
-              <!-- <tr>
+                <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Add tasks and issues to Boards workstreams from lists and reports</a><span style="color: #ff0000;"> New in Preview!</span></p>
-                        <p>You can now add existing tasks or issues to a workstream in Workfront Boards directly from a list or report view. Any items you add to the workstream are added to the card list as unplanned cards.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Adobe Workfront展示板中可用的迭代功能</a><span style="color: #ff0000;"> 預覽新增功能！</span></p>
+                        <p>Workfront展示板中提供的數項新功能，讓您能使用靈活的Scrum功能。 這些功能包括：
+                        <ul>
+                        <li>將與同一團隊相關的展示板分組並協作的工作流</li>
+                        <li>卡片清單或積壓工作，並可選擇使用來源將卡片連接至Workfront任務和問題</li>
+                        <li>迭代規劃和迭代流程板</li>
+                        </ul>
+                        </p>
                     </td>
-                    <td><p><b>Available on these dates:</b></p>
+                    <td><p><b>可於下列日期使用：</b></p>
                         <ul>
                             <li>
-                                <p>Preview release: March 23, 2023<br /></p>
+                                <p>預覽版本：2023年3月17日<br /></p>
                             </li>
                             <li>
-                                <p>Production release: With the 23.2 release</p>
+                                <p>生產版本：隨第23.2發行版本一起推出</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr> 
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">從清單和報表將任務和問題新增至展示板工作流</a><span style="color: #ff0000;"> 預覽新增功能！</span></p>
+                        <p>您現在可以直接從清單或報表檢視，將現有工作或問題新增至Workfront展示板中的工作流。 您添加到工作流的任何項目都將作為計畫外卡添加到卡清單中。</p>
+                    </td>
+                    <td><p><b>可於下列日期使用：</b></p>
+                        <ul>
+                            <li>
+                                <p>預覽版本：2023年3月17日<br /></p>
+                            </li>
+                            <li>
+                                <p>生產版本：隨第23.2發行版本一起推出</p>
                             </li>
                         </ul>
                     </td>
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Iteration functionality available in Adobe Workfront Boards</a><span style="color: #ff0000;"> New in Preview!</span></p>
-                        <p>Several new features available in Workfront Boards make it possible to use agile Scrum functionality. These features include:
-                        <ul>
-                        <li>Workstreams for grouping boards related to the same team, and collaborating on work</li>
-                        <li>A list of cards, or backlog of work, with the option to use sources to connect cards to Workfront tasks and issues</li>
-                        <li>Iteration planning and iteration process boards</li>
-                        </ul>
-                        </p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">將自訂欄位新增至展示板上的資訊卡</a><span style="color: #ff0000;"> 預覽新增功能！</span></p>
+                        <p>您現在可以在Adobe Workfront展示板上包含自訂欄位。 欄位必須已在Workfront中建立。 您無法在展示板內設計和建立新的自訂欄位。</p>
                     </td>
-                    <td><p><b>Available on these dates:</b></p>
+                    <td><p><b>可於下列日期使用：</b></p>
                         <ul>
                             <li>
-                                <p>Preview release: March 23, 2023<br /></p>
+                                <p>預覽版本：2023年3月17日<br /></p>
                             </li>
                             <li>
-                                <p>Production release: With the 23.2 release</p>
+                                <p>生產版本：隨第23.2發行版本一起推出</p>
                             </li>
                         </ul>
                     </td>
-                </tr> -->
+                </tr>
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">從清單和報表將工作和問題新增至Workfront展示板</a></p>
