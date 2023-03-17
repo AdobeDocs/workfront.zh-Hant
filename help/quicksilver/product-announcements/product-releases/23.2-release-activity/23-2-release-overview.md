@@ -4,9 +4,9 @@ description: 23.2版本概觀
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: f4e3991745109bfe9f2d27d4be30bbcf90a23cb4
+source-git-commit: 77a4d3291882e0a5284971fa0bc054b8d81e6349
 workflow-type: tm+mt
-source-wordcount: '2376'
+source-wordcount: '2375'
 ht-degree: 0%
 
 ---
@@ -397,13 +397,13 @@ ht-degree: 0%
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-reports-dashboards.md" class="MCXref xref" xrefformat="{para}">畫布控制面板</a><span style="color: #ff0000;"> 預覽新增功能！</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-reports-dashboards.md" class="MCXref xref" xrefformat="{para}">畫布控制面板</a><span style="color: #ff0000;"> 即將推出！</span></p>
                         <p>畫布控制面板已新增為控制面板的進行中功能，可在配置範本中啟用。 除了新的配置選項外，畫布控制面板還可讓報表畫布視覺效果與現有報表結合。 目前僅支援清單報表，但隨著開發持續，將會新增更多選項。</p>
                     </td>
-                    <td><p><b>可於下列日期使用：不適用</b></p>
+                    <td><p><b>可於下列日期使用：</b></p>
                         <ul>
                             <li>
-                                <p>預覽版本：<br /></p>
+                                <p>預覽版本：不適用<br /></p>
                             </li>
                             <li>
                                 <p><span class="preview">生產版本：隨第23.2發行版本一起推出</span></p>
