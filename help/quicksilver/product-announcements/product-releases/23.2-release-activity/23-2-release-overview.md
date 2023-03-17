@@ -4,9 +4,9 @@ description: 23.2版本概觀
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: 03908f6ebb5693e48b36f93150267e9986dc1069
+source-git-commit: f4e3991745109bfe9f2d27d4be30bbcf90a23cb4
 workflow-type: tm+mt
-source-wordcount: '2299'
+source-wordcount: '2376'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,7 @@ ht-degree: 0%
 * [敏捷增強功能](#agile-enhancements)
 * [專案管理增強功能](#project-management-enhancements)
 * [資源管理增強功能](#resource-management-enhancements)
-* [報表與控制面板增強功能]
+* [報表與控制面板增強功能](#reports-and-dashboards-enhancements)
 * [行動裝置增強功能](#mobile-enhancements)
 * [其他增強功能](#other-enhancements)
 
@@ -377,8 +377,8 @@ ht-degree: 0%
             </tbody>
         </table>
 
-<!--
-### Reports and Dashboards enhancements
+
+### 報表與控制面板增強功能
 
 
 <table>
@@ -387,34 +387,32 @@ ht-degree: 0%
             <tbody>
                 <tr>
                     <td>
-                        <p><span class="bold">Feature</span>
+                        <p><span class="bold">功能</span>
                         </p>
                     </td>
                     <td>
-                        <p><span class="bold">Release dates</span>
+                        <p><span class="bold">發行日期</span>
                         </p>
                     </td>
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-resource-management-enhancements.md" class="MCXref xref" xrefformat="{para}">Canvas Dashboards</a><span style="color: #ff0000;"> New in Preview!</span></p>
-                        <p>Canvas Dashboards has been added as a work-in-progress feature for Dashboards that can be enabled in layout templates. Canvas Dashboards will allow Reporting Canvas visualizations to be combined with existing reports in addition to new layout options. Currently only list reports are supported, but more options will be added as development continues.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-reports-dashboards.md" class="MCXref xref" xrefformat="{para}">畫布控制面板</a><span style="color: #ff0000;"> 預覽新增功能！</span></p>
+                        <p>畫布控制面板已新增為控制面板的進行中功能，可在配置範本中啟用。 除了新的配置選項外，畫布控制面板還可讓報表畫布視覺效果與現有報表結合。 目前僅支援清單報表，但隨著開發持續，將會新增更多選項。</p>
                     </td>
-                    <td><p><b>Available on these dates: N/A</b></p>
+                    <td><p><b>可於下列日期使用：不適用</b></p>
                         <ul>
                             <li>
-                                <p>Preview release:<br /></p>
+                                <p>預覽版本：<br /></p>
                             </li>
                             <li>
-                                <p><span class="preview">Production release: With the 23.2 release</span></p>
+                                <p><span class="preview">生產版本：隨第23.2發行版本一起推出</span></p>
                             </li>
                         </ul>
                     </td>
                 </tr>
             </tbody>
         </table>
-
-        -->
 
 ### 行動裝置增強功能
 

@@ -2,9 +2,9 @@
 user-guide-title: Workfront 指南
 user-guide-description: 使用文件、教學課程和其他資源，了解如何在您的組織中實施並有效使用 Adobe Workfront。
 feature-set: Workfront
-source-git-commit: 6bf7e4f58aa80271d7ec84576723cdbade55ce9b
+source-git-commit: f4e3991745109bfe9f2d27d4be30bbcf90a23cb4
 workflow-type: tm+mt
-source-wordcount: '12759'
+source-wordcount: '12763'
 ht-degree: 1%
 
 ---
@@ -24,6 +24,7 @@ ht-degree: 1%
          * [23.2敏捷增強功能](product-announcements/product-releases/23.2-release-activity/23-2-agile-enhancements.md)
          * [23.2項目管理增強功能](product-announcements/product-releases/23.2-release-activity/23-2-project-enhancements.md)
          * [23.2資源管理增強](product-announcements/product-releases/23.2-release-activity/23-2-resource-management-enhancements.md)
+         * [23.2報表與控制面板增強功能](product-announcements/product-releases/23.2-release-activity/23-2-reports-dashboards.md)
          * [23.2行動增強功能](product-announcements/product-releases/23.2-release-activity/23-2-mobile-enhancements.md)
          * [23.2其他增強功能](product-announcements/product-releases/23.2-release-activity/23-2-other-enhancements.md)
          * [在23.2版本期間更新外觀](product-announcements/product-releases/23.2-release-activity/23-2-look-and-feel.md)
