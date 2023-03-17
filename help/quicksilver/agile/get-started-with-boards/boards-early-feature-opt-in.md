@@ -6,9 +6,9 @@ title: 搶先選擇加入 [!DNL Adobe Workfront] 展示板
 description: 閱讀本文以了解 [!DNL Workfront Boards] 搶先使用功能選擇加入。
 author: Lisa
 exl-id: c4a6b045-b0f3-4d4d-994c-c03ef7ad25c8
-source-git-commit: 8837a3ffe8378cf126d0663ea70b7366a9e5b4c5
+source-git-commit: 88d0ce017401e7767ceeff9abc7a65986a07f0b9
 workflow-type: tm+mt
-source-wordcount: '638'
+source-wordcount: '649'
 ht-degree: 0%
 
 ---
@@ -151,6 +151,10 @@ ht-degree: 0%
   <tr>
    <td>登錄已連接卡的時數</td>
    <td>部分釋放</td>
+  </tr>
+  <tr>
+   <td>將自訂欄位新增至已連線的卡片</td>
+   <td>部分發行（可預覽）</td>
   </tr>
  </tbody> 
 </table>
