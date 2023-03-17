@@ -6,7 +6,7 @@ description: 若要在應用程式可供使用前先行安裝，請在 [!DNL Sal
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 4fea9d8f-7729-4fee-86d3-1a986be29f74
-source-git-commit: ad2fc27db2a19ea231e925d5991dbef27ea48030
+source-git-commit: 254ffae14b21dbef19b8f6b66a1c11e348c85c85
 workflow-type: tm+mt
 source-wordcount: '878'
 ht-degree: 1%
@@ -71,11 +71,11 @@ As a [!DNL Salesforce] 和 [!DNL Adobe Workfront] 管理員，您可以安裝 [!
 
 1. 在您的生產環境中，前往
 
-   `https://login.salesforce.com/packaging/installPackage.apexp?p0=04t4K000002aUZY`
+   `https://login.salesforce.com/packaging/installPackage.apexp?p0=04t4K000002eRjb`
 
    在沙箱環境中，前往
 
-   `https://test.salesforce.com/packaging/installPackage.apexp?p0=04t4K000002aUZY`
+   `https://test.salesforce.com/packaging/installPackage.apexp?p0=04t4K000002eRjb`
 
 1. 檢查 **[!UICONTROL 是，授予這些第三方網站的存取權]** 框。
 
