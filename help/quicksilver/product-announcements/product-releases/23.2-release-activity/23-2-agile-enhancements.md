@@ -4,9 +4,9 @@ description: 23.2敏捷增強功能
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: 938bccf3b3eedf010b7d1db451c365f6097dc64d
+source-git-commit: 456794da11baf21bcd4f138d15719007ae2759a6
 workflow-type: tm+mt
-source-wordcount: '1032'
+source-wordcount: '1121'
 ht-degree: 0%
 
 ---
@@ -29,9 +29,27 @@ Workfront展示板中提供的數項新功能，讓您能使用靈活的Scrum功
 
 如需詳細資訊，請參閱 [管理工作流](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md), [建立小版本](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration.md)，和 [使用卡片清單](/help/quicksilver/agile/use-boards-agile-planning-tools/use-card-list.md). 第二篇文章要等到我發佈分支後，才能在Main中使用。
 
-## 從清單和報表將任務和問題新增至展示板工作流
+## 將清單和報表中的任務和問題添加到工作流卡清單
 
 您現在可以直接從清單或報表檢視，將現有工作或問題新增至Workfront展示板中的工作流。 您添加到工作流的任何項目都將作為計畫外卡添加到卡清單中。
+
+如需詳細資訊，請參閱 [將現有任務或問題新增至展示板](/help/quicksilver/agile/get-started-with-boards/add-card-from-list-to-board.md).
+
+## 將自訂欄位新增至展示板上的資訊卡
+
+您現在可以在Adobe Workfront展示板上包含自訂欄位。 欄位必須已在Workfront中建立。 您無法在展示板內設計和建立新的自訂欄位。
+
+和預設欄位一樣，您可以選擇在資訊卡的完整檢視和展示板上的縮合檢視上顯示自訂欄位。
+
+卡片上自訂欄位的任何資料都為唯讀。
+
+如需詳細資訊，請參閱 [自訂卡片上顯示的欄位](/help/quicksilver/agile/get-started-with-boards/customize-fields-on-card.md).
+
+## 將清單和報表中的工作和問題新增至Workfront展示板
+
+您現在可以直接從清單或報表檢視，將現有工作或問題新增至Workfront展示板。 您新增至展示板的任何項目都會變成已連線的資訊卡。
+
+此外，「展示板」欄位現在可新增至任務或問題的清單和報表。 此欄位會顯示已新增任務或問題的所有展示板。
 
 如需詳細資訊，請參閱 [將現有任務或問題新增至展示板](/help/quicksilver/agile/get-started-with-boards/add-card-from-list-to-board.md).
 
@@ -48,13 +66,6 @@ Workfront展示板中提供的數項新功能，讓您能使用靈活的Scrum功
 
 如需詳細資訊，請參閱 [在主板上使用連接的卡](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
 
-## 從清單和報表將工作和問題新增至Workfront展示板
-
-您現在可以直接從清單或報表檢視，將現有工作或問題新增至Workfront展示板。 您新增至展示板的任何項目都會變成已連線的資訊卡。
-
-此外，「展示板」欄位現在可新增至任務或問題的清單和報表。 此欄位會顯示已新增任務或問題的所有展示板。
-
-如需詳細資訊，請參閱 [將現有任務或問題新增至展示板](/help/quicksilver/agile/get-started-with-boards/add-card-from-list-to-board.md).
 
 ## 自訂卡片上的欄位顯示
 
