@@ -2,9 +2,9 @@
 user-guide-title: Workfront 指南
 user-guide-description: 使用文件、教學課程和其他資源，了解如何在您的組織中實施並有效使用 Adobe Workfront。
 feature-set: Workfront
-source-git-commit: f4e3991745109bfe9f2d27d4be30bbcf90a23cb4
+source-git-commit: 619f1862f3d6fb9280fe97de4b5055d64bb46c6c
 workflow-type: tm+mt
-source-wordcount: '12763'
+source-wordcount: '12773'
 ht-degree: 1%
 
 ---
@@ -928,7 +928,10 @@ ht-degree: 1%
       * [向展示板新增進紙欄](agile/use-boards-agile-planning-tools/add-intake-column-to-board.md)
       * [在展示板上使用群組](agile/use-boards-agile-planning-tools/group-cards-on-board.md)
       * [設定卡片流失](agile/use-boards-agile-planning-tools/configure-card-falloff.md)
-      * [管理集合](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md)
+      * [管理工作流](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md)
+      * [使用卡片清單](/help/quicksilver/agile/use-boards-agile-planning-tools/use-card-list.md)
+      * [建立小版本](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration.md)
+      * [檢閱迭代量度](/help/quicksilver/agile/use-boards-agile-planning-tools/review-iteration-metrics.md)
    * 敏捷團隊中的看板 {#kanban}
       * [敏捷團隊中的看板](agile/use-kanban-in-an-agile-team/using-kanban-in-an-agile-team.md)
       * [看板概述](agile/use-kanban-in-an-agile-team/kanban-overview.md)

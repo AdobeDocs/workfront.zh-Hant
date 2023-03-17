@@ -6,20 +6,21 @@ title: 刪除或封存展示板
 description: 您可以刪除或封存Workfront中的展示板。 刪除展示板會從Workfront中永久移除，而封存展示板會保留所有資訊卡，並允許稍後還原。
 author: Lisa
 exl-id: 214a83f6-ecc1-4e4d-aba5-d6483dcabd27
-source-git-commit: e27965502ef7943f901daecd12897a4d3428068e
+source-git-commit: 463585bb3368b0061957c42516f790ed085711d2
 workflow-type: tm+mt
-source-wordcount: '354'
+source-wordcount: '378'
 ht-degree: 1%
 
 ---
 
 # 刪除或封存展示板
 
-您可以在 [!DNL Workfront]. 刪除展示板會從 [!DNL Workfront]，而封存展示板會保留所有資訊卡，並允許稍後還原。 這些選項同時適用於屬於集合的獨立展示板和展示板。
+您可以在 [!DNL Workfront]. 刪除展示板會從 [!DNL Workfront]，而封存展示板會保留所有資訊卡，並允許稍後還原。 這些選項適用於屬於工作流程一部分的獨立展示板和展示板。
 
 >[!NOTE]
 >
->集合只能透過Workfront展示板的早期功能選擇加入來取得。
+>舊版工作流（稱為集合）只能透過提早的功能選擇加入來使用 [!UICONTROL [!DNL Workfront] 展示板]. 如需詳細資訊，請參閱 [搶先選擇加入Adobe Workfront展示板的功能](/help/quicksilver/agile/get-started-with-boards/boards-early-feature-opt-in.md).
+>「預覽」環境中的每個人皆可使用工作流。
 
 ## 存取需求
 

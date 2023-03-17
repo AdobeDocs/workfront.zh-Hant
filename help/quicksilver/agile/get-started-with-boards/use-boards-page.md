@@ -6,30 +6,32 @@ description: 此 [!UICONTROL 展示板] 控制面板顯示您有權存取的展�
 author: Lisa
 feature: Agile
 exl-id: bb275f4f-efaf-4dcc-b184-40e015f089b6
-source-git-commit: e27965502ef7943f901daecd12897a4d3428068e
+source-git-commit: 16e96d55932116cb475eecbe8b6ebfd4661eb494
 workflow-type: tm+mt
-source-wordcount: '781'
+source-wordcount: '849'
 ht-degree: 0%
 
 ---
 
 # 使用展示板控制面板
 
-展示板控制面板會顯示您有權存取的展示板和集合清單，包括您已建立的展示板和已新增至的展示板。 您有權存取但不屬於集合的個別展示板會先顯示。
+{{highlighted-preview}}
+
+展示板控制面板會顯示您有權存取的展示板和工作流程清單，包括您已建立的展示板和已新增至的展示板。 您有權存取但不屬於工作流的個別展示板會先顯示。
 
 >[!NOTE]
 >
->集合只能透過 [!DNL Workfront] [!UICONTROL 展示板].
+>您可以透過預先選擇加入的功能，在預覽環境和生產環境中使用工作流 [!UICONTROL [!DNL Workfront] 展示板]. 如需詳細資訊，請參閱 [搶先選擇加入Adobe Workfront展示板的功能](/help/quicksilver/agile/get-started-with-boards/boards-early-feature-opt-in.md).
 
-在控制面板上，您可以對展示板和集合執行下列動作：
+在控制面板上，您可以對展示板和工作流執行下列操作：
 
-* 封存展示板（無法封存集合）
-* 篩選展示板清單
+* 封存展示板 <span class="preview">或工作流</span>
+* 篩選展示板 <span class="preview">和工作流程</span>
 * 按展示板名稱或修改日期排序展示板清單
-* 搜尋展示板或集合
-* 刪除展示板或集合
+* 搜索展示板或工作流
+* 刪除展示板或工作流
 
-有關建立新展示板或編輯現有展示板的資訊，請參閱 [建立或編輯展示板](../../agile/get-started-with-boards/create-edit-board.md). 如需建立新集合的相關資訊，請參閱 [管理集合](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md).
+有關建立新展示板或編輯現有展示板的資訊，請參閱 [建立或編輯展示板](../../agile/get-started-with-boards/create-edit-board.md). 如需建立新工作流的相關資訊，請參閱 [管理工作流](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md).
 
 ## 存取需求
 
@@ -52,14 +54,14 @@ ht-degree: 0%
 
 &#42;若要了解您擁有的計畫、授權類型或存取權，請聯絡您的 [!DNL Workfront] 管理員。
 
-## 篩選板 {#filter-boards}
+## 篩選板 <span class="preview">和工作流程</span> {#filter-boards}
 
-您可以篩選展示板控制面板，以顯示作用中的展示板、已封存的展示板或所有展示板。
+您可以篩選展示板控制面板，以顯示作用中、已封存或所有展示板或工作流。
 
 1. 按一下 **[!UICONTROL 主菜單]** 圖示 ![](assets/main-menu-icon.png) 在 [!DNL Adobe Workfront]，然後按一下 **[!UICONTROL 展示板]**.
-1. 按一下 [!UICONTROL **篩選**] 選取 **[!UICONTROL 全部]**, **[!UICONTROL 作用中展示板]**，或 **[!UICONTROL 封存的展示板]**.
+1. 按一下 [!UICONTROL **篩選**] 在「展示板」區域或「工作流」區域中，然後選擇 **[!UICONTROL 全部]**, **[!UICONTROL 作用中]**，或 **[!UICONTROL 已封存]**.
 
-   在控制面板上套用預設值以外的篩選時，篩選器圖示上會顯示指標 ![[!UICONTROL 套用至的篩選器] 儀表板](assets/boards-filterapplied-30x30.png).
+   在控制面板上套用預設值以外的篩選時，篩選器圖示上會顯示指標 ![套用至控制面板的篩選器](assets/boards-filterapplied-30x30.png).
 
 ## 排序展示板
 
@@ -70,64 +72,68 @@ ht-degree: 0%
 
    在控制面板上套用預設值以外的排序時，排序圖示上會顯示指標 ![已應用排序](assets/sort-applied-boards.png).
 
-## 搜尋展示板或集合
+## 搜尋展示板或工作流
 
-您可以在「展示板」區域中搜尋特定展示板，或在「集合」區域中搜尋特定集合。
+您可以在「展示板」區域中搜索特定展示板，或在「工作流」區域中搜索特定工作流。
 
 1. 按一下 **[!UICONTROL 主菜單]** 圖示 ![](assets/main-menu-icon.png) 在 [!DNL Adobe Workfront]，然後按一下 **[!UICONTROL 展示板]**.
 1. 按一下 [!UICONTROL **搜尋**] 並輸入搜尋詞。 然後，按Enter鍵。
 
-   標題中包含搜尋詞的所有展示板都會隨即顯示。
+   所有包含標題中搜尋詞的展示板或工作流都會顯示。
 
    按一下X以清除搜尋。
 
    ![在控制面板上搜尋展示板](assets/boards-searchbox.png)
 
-## 封存展示板
+## 封存展示板 <span class="preview">或工作流</span>
 
-歸檔展示板會將其發送到歸檔檔案，您稍後可以恢復它。
+封存展示板或工作流會將其傳送至封存，您稍後可加以還原。
 
 >[!NOTE]
 >
 >當您存檔展示板時，會為所有展示板成員存檔。
+>
+>封存工作流時，其所有展示板都會封存。
 
 1. 按一下 **[!UICONTROL 主菜單]** 圖示 ![](assets/main-menu-icon.png) 在 [!DNL Adobe Workfront]，然後按一下 **[!UICONTROL 展示板]**.
-1. 按一下 **[!UICONTROL 更多]** 功能表 ![更多功能表](assets/more-icon-spectrum.png) 在展示板上，選取 **[!UICONTROL 封存]**.
+1. 按一下 **[!UICONTROL 更多]** 功能表 ![更多功能表](assets/more-icon-spectrum.png) 在展示板或工作流上，然後選取 **[!UICONTROL 封存]**.
 
-   安 [!UICONTROL 封存] 圖示 ![封存](assets/archive-icon-spectrum-25x20.png) 出現在展示板上。 您無法編輯已封存的展示板。
+   在工作流中，功能表位於右側，位於 [!UICONTROL **檢視工作流**] 按鈕。
 
-   封存的展示板會隱藏在展示板控制面板上，除非您套用篩選器來顯示。 如需詳細資訊，請參閱 [[!UICONTROL 篩選板]](#filter-boards) 一節。
+   安 [!UICONTROL 封存] 圖示 ![封存](assets/archive-icon-spectrum-25x20.png) 顯示在展示板或工作流上。 您無法編輯已封存的展示板或工作流。
 
-1. 若要還原已封存的展示板，請按一下 **[!UICONTROL 更多]** 功能表 ![「更多」菜單表徵圖](assets/more-icon-spectrum.png) 在展示板上選取 **[!UICONTROL 還原]**.
+   除非您套用篩選器來顯示，否則封存的項目會隱藏在展示板控制面板上。 如需詳細資訊，請參閱 [[!UICONTROL 篩選板]](#filter-boards) 一節。
 
-## 刪除展示板或集合
+1. 若要還原已封存的展示板或工作流，請按一下 **[!UICONTROL 更多]** 功能表 ![「更多」菜單表徵圖](assets/more-icon-spectrum.png) 在展示板或工作流上，並選取 **[!UICONTROL 還原]**.
+
+## 刪除展示板或工作流
 
 當您刪除展示板時，會從 [!DNL Workfront] 無法恢復。 展示板上的任何資訊卡也會隨展示板一起刪除。
 
-刪除集合會刪除集合中的所有展示板。
+刪除工作流也會刪除工作流中的所有展示板。
 
 >[!NOTE]
 >
->您只能刪除您建立的展示板和集合，不能刪除您新增至的展示板和集合。
+>您只能刪除您建立的展示板和工作流，不能刪除您添加到的展示板和工作流。
 
 1. 按一下 **[!UICONTROL 主菜單]** 圖示 ![](assets/main-menu-icon.png) 在 [!DNL Adobe Workfront]，然後按一下 **[!UICONTROL 展示板]**.
-1. 按一下 **[!UICONTROL 更多]** 功能表 ![[!UICONTROL 更多功能表]](assets/more-icon-spectrum.png) 在展示板或集合上，然後選取 **[!UICONTROL 刪除]**.
+1. 按一下 **[!UICONTROL 更多]** 功能表 ![[!UICONTROL 更多功能表]](assets/more-icon-spectrum.png) 在展示板或工作流上，然後選取 **[!UICONTROL 刪除]**.
 
-   在集合中，功能表位於右側，位於 [!UICONTROL **檢視集合**] 按鈕。
+   在工作流中，功能表位於右側，位於 [!UICONTROL **檢視工作流**] 按鈕。
 
-1. 按一下 **[!UICONTROL 刪除展示板]** 或 [!UICONTROL **刪除集合**] 在確認訊息上。
+1. 按一下 **[!UICONTROL 刪除展示板]** 或 [!UICONTROL **刪除工作流**] 在確認訊息上。
 
-## 將展示板移至集合
+## 將展示板移至工作流
 
-您可以將獨立展示板移入系列，或將展示板從一個系列移至另一個系列。
+您可以將獨立展示板移入工作流，或將展示板從一個工作流移動到另一個工作流。
 
 >[!NOTE]
 >
 >您只能移動您建立的展示板，不能移動您新增的展示板。
 
 1. 按一下 **[!UICONTROL 主菜單]** 圖示 ![](assets/main-menu-icon.png) 在 [!DNL Adobe Workfront]，然後按一下 **[!UICONTROL 展示板]**.
-1. 按一下 **[!UICONTROL 更多]** 功能表 ![[!UICONTROL 更多功能表]](assets/more-icon-spectrum.png) 在展示板上，選取 [!UICONTROL **移至集合**].
-1. 選取要新增展示板的集合，然後按一下 [!UICONTROL **移動**].
+1. 按一下 **[!UICONTROL 更多]** 功能表 ![[!UICONTROL 更多功能表]](assets/more-icon-spectrum.png) 在展示板上，選取 [!UICONTROL **移至工作流**].
+1. 選取要新增展示板的工作流，然後按一下 [!UICONTROL **移動**].
 
-   展示板會移入集合中，且不再顯示於 [!UICONTROL 展示板] 的上界。
-如果您尚未建立集合，系統會提示您建立集合，以將展示板移入。
+   展示板會移入工作流中，不再出現在 [!UICONTROL 展示板] 的上界。
+如果您尚未建立工作流，則系統會提示您建立工作流，以將展示板移入。

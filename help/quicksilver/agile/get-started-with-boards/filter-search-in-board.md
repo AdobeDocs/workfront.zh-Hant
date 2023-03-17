@@ -6,7 +6,7 @@ description: 您可以篩選展示板，使其只顯示特定的資訊卡。
 author: Lisa
 feature: Agile
 exl-id: 26abce82-dcd9-4865-96f4-c710f7f0a0d8
-source-git-commit: 553e3dd6c903f0ba2f95019b2824cf944745bf09
+source-git-commit: 4f59548cc539adced6af6795517dd7d7c0965e6d
 workflow-type: tm+mt
 source-wordcount: '444'
 ht-degree: 0%
@@ -115,4 +115,4 @@ ht-degree: 0%
 
    按一下X以清除搜尋。
 
-   ![[!UICONTROL 在展示板中搜尋資訊卡]](assets/boards-searchbox.png)
+   ![在展示板中搜尋資訊卡](assets/boards-searchbox.png)

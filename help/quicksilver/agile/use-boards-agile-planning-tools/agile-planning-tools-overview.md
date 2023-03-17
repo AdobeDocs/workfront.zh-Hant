@@ -7,18 +7,36 @@ description: 當您使用隨選卡和連線卡建立展示板時，可能會想�
 author: Lisa
 feature: Agile
 exl-id: c1d28eeb-e920-4f57-a94b-ffd928b384a4
-source-git-commit: e27965502ef7943f901daecd12897a4d3428068e
+source-git-commit: 3b15ac31cc2f5f63d218e2f1efaccc250d17b00c
 workflow-type: tm+mt
-source-wordcount: '140'
+source-wordcount: '161'
 ht-degree: 0%
 
 ---
 
 # 敏捷規劃工具概述
 
-當您使用臨機卡和連接卡建立展示板時，您可能希望利用其他靈活的規劃工具，包括列WIP限制、將展示板分組到游泳道、可用於積壓的接收欄和展示板集合。
+{{highlighted-preview}}
 
-您可以以適合您和您的團隊的方式使用任何或所有這些工具，而無需提交特定的靈活方法，如看板或掃描。
+當您使用臨機和連線卡建立展示板時，可能會想利用其他靈活的規劃工具。
+
+用於看板的工具包括：
+
+* 欄的WIP限制
+* 將卡分組成泳道
+* 可用於積壓的進氣柱
+
+<div class="preview">
+
+適用於Scrum的工具包括：
+
+* 工作流和迭代板
+* 卡清單或積壓
+* 迭代量度
+
+</div>
+
+您可以以適合您和團隊的方式使用任何或所有這些工具，而無需致力於特定的靈活方法。
 
 本節包含下列文章：
 
@@ -26,4 +44,7 @@ ht-degree: 0%
 * [向展示板新增進紙欄](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md)
 * [在展示板上使用群組](/help/quicksilver/agile/use-boards-agile-planning-tools/group-cards-on-board.md)
 * [設定卡片流失](/help/quicksilver/agile/use-boards-agile-planning-tools/configure-card-falloff.md)
-* [管理集合](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md)
+* [管理工作流](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md)
+* [使用卡片清單](/help/quicksilver/agile/use-boards-agile-planning-tools/use-card-list.md)
+* [建立小版本](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration.md)
+* [檢閱迭代量度](/help/quicksilver/agile/use-boards-agile-planning-tools/review-iteration-metrics.md)
