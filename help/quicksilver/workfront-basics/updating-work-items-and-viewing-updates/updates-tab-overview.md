@@ -2,27 +2,56 @@
 content-type: overview
 product-area: projects
 navigation-topic: update-work-items-and-view-updates
-title: 更新標籤概觀
-description: 「更新」標籤會顯示過去90天內最近進行的200次更新。
+title: 更新區段概觀
+description: 「更新」區段會顯示最多200個過去90天內進行的最新更新。
 author: Lisa and Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: 19872953e847921c0fee6d383026641c05012ead
+source-git-commit: 39647f235c2e131e0ddd5d3b72d2f073387e531e
 workflow-type: tm+mt
-source-wordcount: '499'
-ht-degree: 7%
+source-wordcount: '592'
+ht-degree: 6%
 
 ---
 
-# 更新標籤概觀
+# 更新區段概觀
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only for a limited number of objects when you opt in to the new commenting experience Beta.</span> -->
+<!--take "Beta" references out when we remove the beta-->
 
-<!-- for preview commenting beta: at the release of commenting beta: change the title to: Updates section overview - also update ALL articles from which this is linked-->
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> 
 
-「更新」標籤會顯示過去90天內最近進行的200次更新。
+>[!NOTE]
+>
+>We are currently redesigning the Updates section of an object. You can access the new design by enabling the commenting Beta. 
+Currently, the Beta is available for <span class="preview">issues</span>. 
+For more information about the new commenting  experience, see [New commenting experience](../updating-work-items-and-viewing-updates/unified-commenting-experience.md). 
 
-您可以對下列物件提出意見並回覆更新：
+-->
+
+對象的「更新」部分顯示用戶在跟蹤對象更改的對象或系統更新上所做的注釋。
+
+## 「更新」區段的概觀
+
+<!--drafted for the commenting beta for issues: 
+The information is organized differently in the Updates section, depending on which environment you access it from. 
+
+###  Overview of the current Updates section 
+-->
+
+物件的「更新」區段會顯示最多200個過去90天內進行的最新更新。
+
+<!--drafted for the commenting beta for issues: 
+The current Updates section shows the following information:
+
+************** AND REMOVE THE SENTENCE BELOW WHEN MAKING THIS LIVE:
+-->
+
+「更新」區段顯示下列資訊：
+
+* 用戶的評論和對這些評論的答復。
+* 系統更新，這些是Workfront為記錄物件上的特定事件而建立的資訊性訊息。 例如，您可以利用系統更新擷取狀態、名稱或自訂欄位中的變更。 您的Workfront或群組管理員可以為您的物件啟用系統更新。 如需詳細資訊，請參閱 [配置系統更新](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
+
+「更新」(Updates)部分將顯示以下對象：
 
 <table style="table-layout:auto"> 
  <col> 
@@ -52,11 +81,43 @@ ht-degree: 7%
  </tbody> 
 </table>
 
+<!--drafted for the commenting beta for issues: 
+###  Overview of the Updates section in the Beta commenting experience
+
+The Updates section displays information in the following tabs in the Beta commenting experience: 
+
+* **Updates**: Displays comments made by users and replies to those comments. 
+* **System Activity**: Displays system updates which are informational messages that Workfront creates to record certain events on an objects. For example, you can capture changes in status, name, or custom fields with system updates. Your Workfront or group administrator can enable system updates for your ojects. For more information, see [Configure system updates](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
+
+Currenlty, you can make comments and reply to updates using the Beta commenting experience on the following objects:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td> 
+    <ul> 
+     <li>Goals</li> 
+     </ul> </td> 
+   <td> 
+    <ul> 
+     <li><span class="preview">Issues</span></li> 
+     </ul> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+>[!NOTE]
+>
+>The commenting experience Beta is the default current experience for goals. You must have an additional license to access Workfront Goals. For information, see [Requirements to use Workfront Goals](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+-->
+
 ## 也出現在高排名對象上的更新
 
-如下表所示，對某些對象的更新所做的答復也會出現在排名較高對象的「更新」(Updates)頁簽上。
+如下表所示，對某些對象的更新所做的答復也會出現在排名較高的對象的「更新」部分。
 
-例如，將更新添加到任務時，該更新將顯示在該任務的「更新」頁簽上以及包含該任務的項目的「更新」頁簽上。
+例如，將更新添加到任務時，該更新將出現在該任務的「更新」部分和包含該任務的項目的「更新」部分。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -125,18 +186,18 @@ ht-degree: 7%
 <!-- drafted for the new commenting experience for issues in beta: Add this paragraph to the note above: 
 ><span class="preview"> It is not possible to reply to system updates in the new commenting experience Beta. For more information, see [New commenting experience](../updating-work-items-and-viewing-updates/unified-commenting-experience.md).</span> -->
 
-## 「更新」標籤的限制
+## 「更新」一節的限制
 
 ### 使用者和團隊的限制
 
-無法對團隊進行更新。 在以下對象上輸入的更新將填充團隊的「更新」(Updates)頁簽：
+無法對團隊進行更新。 在以下對象上輸入的更新將填充團隊的「更新」(Updates)部分：
 
 * 使用者
 * 時程表
 * 劇本
 * 反覆項目
 
-在使用者和團隊的「更新」標籤中，您可以檢視過去90天內輸入的更新。
+在使用者和團隊的「更新」區段中，您可以檢視過去90天內輸入的更新。
 
 如果您想查看使用者或團隊上所進行的所有更新，超過90天的限制，您可以建立報表以取得附註。 報表不應有時間篩選器來顯示使用者或團隊所做的所有更新。 如需詳細資訊，請參閱 [建立自訂報表](../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 

@@ -6,7 +6,7 @@ description: 您可以在Adobe Workfront目標中新增評論至您可檢視的�
 author: Alina
 feature: Workfront Goals
 exl-id: 6cf2d2d2-5ba5-40f2-a803-01359c338541
-source-git-commit: d7ae3d47cbc4426630260ab5e726380e4775096a
+source-git-commit: 39647f235c2e131e0ddd5d3b72d2f073387e531e
 workflow-type: tm+mt
 source-wordcount: '509'
 ht-degree: 0%
@@ -14,6 +14,8 @@ ht-degree: 0%
 ---
 
 # 管理Adobe Workfront目標中的目標註解
+
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> -->
 
 您可以在Adobe Workfront目標中新增評論至您可檢視的所有目標。
 
@@ -206,7 +208,28 @@ You can edit or delete a comment that you entered in this area, or you can like 
    >在您完成輸入並提交注釋之前，從「更新」部分導航離開該頁面，即使您註銷並重新登錄後，該頁面上的注釋仍以草稿模式保留。 起草的注釋只對輸入它們的用戶可見。
 
 1. （選用）在 **標籤人員或團隊** 區域中，開始鍵入用戶的名稱或電子郵件，或要包含在此注釋中的團隊，然後在清單中顯示時選擇它。
+
+<!--drafted for beta release 23.2:
+1. <span class="preview">(Optional) To edit a comment, click the **More** menu ![](assets/more-menu.png) to the right of the Like icon, then click **Edit**. </span>
+1. <span class="preview">Edit the information in the comment, or remove any of the tagged users. </span>
+   <span class="preview">You can edit your comment within 15 from submitting it. An "Edited" indicator is added to the left of the date stamp that displays when the comment was updated.</span> 
+
+   <span class="preview">![](assets/edited-tag-on-comment-unified-commenting.png)</span>
+
+   >[!TIP]
+   >
+   >   <span class="preview">An email is generated to notify users of your update only when you submit the original update. No email is generated after you edited your update.</span>
+-->
 1. 按一下 **提交**.
+
+<!--drafted for 23.2 beta release: 
+
+   >[!TIP]
+   >
+   >   <span class="preview">If another user submits a comment to the same item you are updating, there will be a red line with a "New" indicator to inform you of the newer comments. The indicator only displays only after the comment was submitted on the item, and not when the comment is still composed. </span>
+   >
+   > ![](assets/real-time-new-red-indicator-unified-commenting.png)-->
+
 1. （選用）按一下 **回覆** 若要回覆現有意見，請遵循上述步驟5至7。 <!--insure this stays accurate-->
 1. （選用）按一下 **贊** 圖示![](assets/like-icon.png) 喜歡別人加的評論。 圖示會隨按贊次數更新。
 1. （可選）若要將RTF格式新增至更新，請在輸入時使用RTF工具列上的任何屬性。 如需詳細資訊，請參閱 [更新工作](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).

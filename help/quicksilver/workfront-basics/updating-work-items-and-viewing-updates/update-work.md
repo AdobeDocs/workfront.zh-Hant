@@ -6,9 +6,9 @@ description: 您可以在Adobe Workfront物件（專案、任務或問題）上�
 author: Lisa and Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: 19872953e847921c0fee6d383026641c05012ead
+source-git-commit: 39647f235c2e131e0ddd5d3b72d2f073387e531e
 workflow-type: tm+mt
-source-wordcount: '1827'
+source-wordcount: '1956'
 ht-degree: 1%
 
 ---
@@ -17,15 +17,27 @@ ht-degree: 1%
 
 <!-- Drafted for commenting experience: 
 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only for a limited number of objects when you opt in to the new commenting experience Beta.</span> -->
+<!--take "Beta" references out when we remove the beta-->
 
-您可以在Workfront中為數個物件新增註解。 如需詳細資訊，請參閱 [更新標籤概觀](../updating-work-items-and-viewing-updates/updates-tab-overview.md).
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> 
 
-除了對物件加上註解，您還可以對Adobe Workfront物件（專案、任務或問題）新增更新，以傳達物件的進度。 已指派或訂閱物件的使用者可以檢視您的更新。 您也可以標籤使用者，以吸引其注意更新。
+>[!NOTE]
+>
+>We are currently redesigning the way you update work when using the Updates section of an object. 
+>You can access the new design by enabling the commenting Beta. 
+>Currently, the Beta is available for <span class="preview">issues</span>. 
+For more information about the new updating experience, see [New commenting experience](../updating-work-items-and-viewing-updates/unified-commenting-experience.md). 
 
-此頁面的資訊指的是更新專案、工作或問題的工作。 如需新增備注和目標更新的相關資訊，請參閱 [管理Adobe Workfront目標中的目標註解](../../workfront-goals/goal-management/manage-goal-comments.md).
+-->
 
-您可以從下列Workfront區域更新專案、工作和問題：
+您可以在「更新」區段中，為Adobe Workfront中的大部分物件新增註解。 有關哪些對象顯示「更新」部分的詳細資訊，請參閱 [更新區段概觀](../updating-work-items-and-viewing-updates/updates-tab-overview.md).
+
+您可以在對物件加上註解時，對Workfront物件（專案、任務或問題）新增更新，以傳達物件上的進度。 已指派或訂閱物件的使用者可以檢視您的更新。 您也可以標籤使用者，以吸引其注意更新。 經過標籤的使用者會收到應用程式內通知，以及您更新的相關電子郵件。
+
+本頁的資訊說明如何對Workfront物件加上註解，以及如何更新專案、工作和問題。 如需關於評論目標的資訊，請參閱 [管理Adobe Workfront目標中的目標註解](../../workfront-goals/goal-management/manage-goal-comments.md). 您必須有額外的授權才能存取Workfront Targets。
+
+
+您可以從下列Workfront區域新增專案、工作和問題的更新：
 
 * 從Workfront物件，在「更新」區段中
 * 從首頁（針對任務和問題）
@@ -99,85 +111,23 @@ drafted for P&P release:
 
 ## 向工作項添加更新
 
-<!--drafted for the commenting experience - change the NOTE at the top of this paragraph with every new release to other objects
+<!--drafted for the commenting experience - change the NOTE at the top of the following section with every new release to other objects
 
-Adding an update to a work item differs depending on what environment and what object you choose. 
+Adding an update to a work item differs depending on what version of the Updates section and what object you choose. 
 
-### Add an update to a work item in the Production environment
+### Add an update to a work item in the current Updates section
 
 >[!NOTE]
 >
->The following functionality is available for all objects except for goals, in the Production and Preview environments. You must have an additional license to access Workfront Goals. For information about commenting on goals, see [Manage goal comments in Adobe Workfront Goals](../../workfront-goals/goal-management/manage-goal-comments.md)
+>The following functionality is available for all objects except for goals. You must have an additional license to access Workfront Goals. For information about commenting on goals, see [Manage goal comments in Adobe Workfront Goals](../../workfront-goals/goal-management/manage-goal-comments.md)
 
 -->
 
 1. 轉到要為其提供更新的工作項（如項目、任務或問題）。
 1. 按一下 **更新** 區段。
 1. 按一下 **開始新更新，** 然後輸入更新。
-
-1. （可選）若要將RTF格式新增至更新，請在 **RTF** 工具欄。
-
-   | **屬性** | **工具欄按鈕** | **Mac快捷鍵** | **PC快捷鍵** |
-   |---|---|---|---|
-   | 粗體 | ![mceclip10.png](assets/mceclip10.png) | ⌘+b | Ctrl+B |
-   | 斜體 | ![mceclip9.png](assets/mceclip9.png) | ⌘+i | Ctrl+I |
-   | 底線 | ![mceclip8.png](assets/mceclip8.png) | ⌘+u | Ctrl+U |
-   | 超連結 | ![mceclip7.png](assets/mceclip7.png) | ⌘+K | Ctrl+K |
-   | 項目符號清單 | ![mceclip6.png](assets/mceclip6.png) | ⌘+Shift+8 | Ctrl+Shift+8 |
-   | 編號清單 | ![mceclip5.png](assets/mceclip5.png) | ⌘+Shift+7 | Ctrl+Shift+7 |
-   | 封鎖報價 | ![](assets/block-quote-icon-large.png) | ⌘+Shift+9 | Ctrl+Shift+9 |
-
-   若要停止格式化文字，請取消選取 **RTF** 工具欄。
-
-   >[!NOTE]
-   >
-   >* 使用者收到的包含您更新的任何電子郵件通知中也會顯示格式設定。
-   >* 在「更新」標籤中檢視時，套用至電子郵件中更新的RTF格式不會顯示在更新上。
-   >* 如果貴組織使用Workfront搭配Internet Explorer，貼上至更新中的任何格式化文字都會遺失其RTF格式，並顯示為純文字。 您可以使用RTF工具列上的屬性來重新格式化文字。
-   >* 在「時間表」區域中進行的更新，或在報表中查看的「注釋」和「最後一個條件」對象時，RTF格式不可用。
-
-
-1. （可選）如果要包括來自先前更新或來自其他來源的文本，並將其與您自己的更新區分開來，您可以將其標籤為塊報價。 按一下 **塊報價** 圖示 ![](assets/block-quote-small.png) 並輸入要引用的文本。 引用的文本顯示為垂直灰線。 按一下 **塊報價** 表徵圖以返回到正常格式。
-
-   ![](assets/block-quote-marked-350x144.png)
-
-1. （選用）將任何表情符號新增至更新。
-
-   >[!NOTE]
-   >
-   >* Workfront不會將標點符號的表情符號（例如：）取代為emoji。
-   >* 在「時間表」區域中進行的更新或在報表中查看的「注釋」和「最後條件」對象不提供表情符號。
-   >* Workfront中的emoji功能採用Unicode字元，因此，只會在支援Unicode代碼點的瀏覽器和作業系統上顯示。 平台、瀏覽器或作業系統版本與您不同的使用者可能無法存取相同的表情符號。
-   >* 不支援的表情符號會以黑色或白色方塊表示。
-   >* Windows 7僅支援黑白表情符號。
-   >* 套用至透過電子郵件進行之更新的表情符號，在「更新」區域中檢視時不會顯示在更新上。
-
-
-1. （選用）若要新增URL連結至其他資訊來源：
-
-   1. 按一下您要插入連結的更新中的。
-   1. 在 **RTF** 工具欄，按一下 **超連結** 表徵圖。 ![](assets/link-icon.png)
-
-   1. 在 **建立連結** 框，位於 **URL**，輸入或貼上您要連結之來源的URL。
-
-   1. 在 **要顯示的文字**，輸入或貼上連結文字。
-   1. 按一下&#x200B;**儲存**。
-
-
-
-1. （可選）若要將影像附加至更新，請按一下 **影像** 圖示 ![](assets/addimageicon-35x32.png) 並瀏覽到電腦上的影像。\
-   或\
-   將影像拖曳至更新區域。
-
-   >[!NOTE]
-   >
-   >* 您的Workfront管理員必須先啟用新增影像，您才能看到影像圖示。
-   >* 最大影像檔案大小為7 MB。 支援的影像檔案類型為.jpg、.gif和.png。
-   >* 影像只能從對象的「更新」(Updates)頁簽中訪問，而「文檔」(Documents)頁簽中不提供影像。
-   >* 您可以傳送包含影像且無文字的更新。
-
-
-1. （選用）指定下列任一項目：
+1. （可選）使用RTF，或在更新中新增表情符號、連結或影像，以增強您的內容。 如需詳細資訊，請參閱本文的「在Workfront更新中使用RTF」一節
+1. （可選）更新有關工作項的以下任何資訊：
 
    <table style="table-layout:auto"> 
     <col> 
@@ -207,7 +157,10 @@ Adding an update to a work item differs depending on what environment and what o
      </tr> 
      <tr> 
       <td role="rowheader"><strong>成為我公司所私有</strong></td> 
-      <td> <p>停用此選項可防止公司外部的使用者存取檢視此更新。</p> </td> 
+      <td> <p>停用此選項可防止公司外部的使用者存取檢視此更新。</p> 
+      <p><b>附註</b></p>
+      <p>只有當使用者與公司相關聯時，才會顯示此選項。</p>
+      </td> 
      </tr> 
     </tbody> 
    </table>
@@ -223,18 +176,31 @@ Adding an update to a work item differs depending on what environment and what o
 1. 若要回覆更新，請參閱 [回覆更新](../../workfront-basics/updating-work-items-and-viewing-updates/reply-to-updates.md).
 
 <!--
-### Add an update to a work item in the Preview environment
+
+### Add an update to a work item using the commenting Beta experience
+
 
 >[!NOTE]
 >
-> In the Preview environment, the following functionality is available only for issues, after opting in the Beta program for the new commenting experience.
-> 
-> In the Production environment, the following functionality is available for goals. You must have an additional license to access Workfront Goals. For information about commenting on goals, see [Manage goal comments in Adobe Workfront Goals](../../workfront-goals/goal-management/manage-goal-comments.md). 
+>The functionality described in this section is available for the following objects:
+>
+>* <span class="preview">Issues, when you enable the commenting Beta experience.</span>
+>
+>   <span class="preview">This functionality is available only for the Updates section of issues, and it is not available for the following areas:</span>
+>
+>   * <span class="preview">Home</span>
+>   * <span class="preview">Summary panel in lists</span>
+>   * <span class="preview">Summary panel in timesheets</span>
+>* Goals
+>
+>   The commenting experience Beta is the default current experience for goals.
+>   You must have an additional license to access Workfront Goals. For information, see [Requirements to use Workfront Goals](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
 
-1. Locate the object you want to add comments to, then click its name to open the object's page.
+
+1. Locate the object you want to update, then click its name to open the object's page.
 1. Click  **Updates** in the left panel. 
-1. Activate the **Beta** toggle in the upper-right corner of the Updates area. This switches the Updates area to the new commenting experience. 
-1. Click the **Comments** tab in the upper-left corner of the Updates area.
+1. Click **Try out the commenting Beta** button in the lower-right corner of the Updates area, then click **Agree** on the Beta agreement. This switches the Updates area to the commenting Beta experience. 
+   The **Comments** tab is selected by default. 
 1. Start entering a comment in the **New comment** box. 
    
    ![](assets/comment-box-empty-unshimmed.png)
@@ -244,62 +210,133 @@ Adding an update to a work item differs depending on what environment and what o
    >Navigating away from the Updates section before you finish typing and submitting a comment keeps the comment on the page in draft mode even after you log off and log back on. Drafted comments are only visible to the user entering them.
 
 1. (Optional) In the **Tag people or teams** area, start typing the name or the email of a user, or a team that you would like to include in this comment, then select it when it displays in the list. 
-1. (Optional) To add rich text formatting to your update, use any attributes on the **Rich Text** toolbar as you type.
+1. (Optional) To add rich text formatting to your update, use any of the following options from the **Rich Text** toolbar to enhance your text: 
 
-   | **Attribute** |**Toolbar Button** |**Mac Shortcut Keys** |**PC Shortcut Keys** |
-   |---|---|---|---|
-   | Bold | ![mceclip10.png](assets/mceclip10.png)|⌘+b |Ctrl+B |
-   | Italics | ![mceclip9.png](assets/mceclip9.png)|⌘+i |Ctrl+I |
-   | Underline | ![mceclip8.png](assets/mceclip8.png)|⌘+u |Ctrl+U |
-   | Hyperlink | ![mceclip7.png](assets/mceclip7.png)|⌘+K |Ctrl+K |
-   | Bulleted List | ![mceclip6.png](assets/mceclip6.png)|⌘+Shift+8 |Ctrl+Shift+8 |
-   | Numbered List | ![mceclip5.png](assets/mceclip5.png)|⌘+Shift+7 |Ctrl+Shift+7 |
-   | Block Quote | ![](assets/block-quote-icon-large.png)|⌘+Shift+9 |Ctrl+Shift+9 |
-
-    To stop formatting text, deselect the attribute on the **Rich Text** toolbar.
-
-   >[!NOTE]
-   >
-   >* Formatting also displays in any email notification users receive containing your update.
-   >* Rich Text formatting applied to an update in an email does not display on the update when viewed in the Updates tab.  
-   >* If your organization uses Workfront with Internet Explorer, any formatted text pasted into an update loses its Rich Text formatting and displays as plain text. You can reformat the text using the attributes on the Rich Text toolbar.
-   >* Rich Text formatting is not available for updates made in the Timesheets area or for Note and Last Condition objects viewed in a report.
-
-   ************ HIDE THIS ********* 1. (Optional) If you want to include text from previous updates or from other sources and distinguish it from your own update, you can mark it as a Block Quote. Click the **Block Quote** icon ![](assets/block-quote-small.png) and type the text you want to quote. The quoted text displays marked with a vertical gray line. Click the **Block Quote** icon again to return to normal formatting.
-
-   ********  HIDE THIS ******** 1. (Optional) Add any emojis to your update.
-
-   >[!NOTE]
-   >
-   >* Workfront does not replace punctuation emoticons such as :) with emojis.
-   >* Emojis are not available for updates made in the Timesheets area or for Note and Last Condition objects viewed in a report.
-   >* The emoji feature in Workfront utilizes Unicode characters and, as such, displays only on browsers and operating systems that support Unicode code points. Users on a platform, browser, or operating system version different than yours might not have access to the same emojis.
-   >* An unsupported emoji is represented by a black or white box.
-   >* Windows 7 supports only black and white emojis.  
-   >* Emojis that are applied to an update made via email do not display on the update when viewed in the Updates area.
-
-1. (Optional) To add a URL link to additional information sources:
-
-   1. Click in your update where you want to insert a link.
-   1. On the **Rich Text** toolbar, click the **Hyperlink** icon. ![](assets/link-icon.png)  
-
-   1. In the **Create Link** box that appears, under **URL**, type or paste the URL of the source to which you want to link.
+   * Bold
+   * Italics
+   * Underline
+   * Link
+   * Bulleted List
+   * Numbered List
+   * Add attachment (mark this parenthesis as draft: ************ this might be renamed)
    
-   1. Under **Text to display**, type or paste the link text.
-   1. Click **Save**.   
-1. Click **Submit**. 
-1. (Optional) Click **Reply** to reply to an existing comment, then follow the steps 5-7 above. (**************insure this stays accurate***********)
-1. (Optional) Click the **Like** icon![](assets/like-icon.png) to like a comment that someone else added. The icon updates with the number of likes.
-1. (Conditional and Optional) If you included additional people in your comment, click on the number of members included in the update to display a list of entities that the comment you entered is shared with. 
+   For more information, see the "Use Rich Text in a Workfront update" section in this article.
+
+   >[!TIP]
+   >
+   >   If another user submits a comment to the same item you are updating, there will be a red line with a "New" indicator to inform you of the newer comments. The indicator only displays only after the comment was submitted on the item, and not when the comment is still composed. 
+   >
+   > ![](assets/real-time-new-red-indicator-unified-commenting.png)
+
+
+
+1. Click **Submit** to add the update to the Workfront object. 
+1. (Optional) To edit a comment, click the **More** menu ![](assets/more-menu.png) to the right of the Like icon, then click **Edit**. 
+1. Edit the information in the comment, or remove any of the tagged users. 
+   You can edit your comment within 15 from submitting it. An "Edited" indicator is added to the left of the date stamp that displays when the comment was updated. 
+
+   ![](assets/edited-tag-on-comment-unified-commenting.png)
+
+   >[!TIP]
+   >
+   >   An email is generated to notify users of your update only when you submit the original update. No email is generated after you edited your update.
+1. (Optional) Click **Reply** to reply to an existing comment, then follow the steps 5-7 above. (**************insure this stays accurate***********). For information about replying to an update, see [Reply to updates](../../workfront-basics/updating-work-items-and-viewing-updates/reply-to-updates.md).
+1. (Optional) Click the **Like** icon![](assets/like-icon.png). The icon updates with the number of likes.
+1. (Conditional and Optional) If you included additional people in your comment, click the number of members included in the update to display a list of entities that the comment you entered is shared with. 
 
    ![](assets/members-icons-expanded-unshimmed.png)
-1. (Optional) Click the **System Activity** tab to view updates logged by the system. When a goal is updated, Workfront generates a note about that update that and displays it in the System Activity tab. Workfront also records a system update when a result, activity, or project is added to the goal or when it is updated. 
+1. (Optional) Click the **System Activity** tab to view updates logged by the system. When the object or any of its children are updated, Workfront generates a note about that update and displays it in the System Activity tab. 
 
+   For more information see [Updates section  overview](../updating-work-items-and-viewing-updates/updates-tab-overview.md)
+
+   >[!TIP]
+   >
+   >You cannot add a comment to a system update.
 -->
 
 
+## 在Workfront更新中使用RTF
+
+<!--remove this top note when we get to parity with the current version, OR change the note to mention that some options are ONLY available in the Beta version and not the current one.
+
+>[!NOTE]
+>
+>Some of the options in the Rich Text toolbar are not available for the commenting Beta experience.-->
+
+
+您可以使用RTF來增強更新，或是新增各種項目，例如表情符號、連結或影像。
+
+1. 前往「更新」區域，開始輸入註解。
+1. （可選）若要將RTF格式新增至更新，請在 **RTF** 工具欄。
+
+   | **屬性** | **工具欄按鈕** | **Mac快捷鍵** | **PC快捷鍵** |
+   |---|---|---|---|
+   | 粗體 | ![mceclip10.png](assets/mceclip10.png) | ⌘+b | Ctrl+B |
+   | 斜體 | ![mceclip9.png](assets/mceclip9.png) | ⌘+i | Ctrl+I |
+   | 底線 | ![mceclip8.png](assets/mceclip8.png) | ⌘+u | Ctrl+U |
+   | 超連結 | ![mceclip7.png](assets/mceclip7.png) | ⌘+K | Ctrl+K |
+   | 項目符號清單 | ![mceclip6.png](assets/mceclip6.png) | ⌘+Shift+8 | Ctrl+Shift+8 |
+   | 編號清單 | ![mceclip5.png](assets/mceclip5.png) | ⌘+Shift+7 | Ctrl+Shift+7 |
+   | 封鎖報價 | ![](assets/block-quote-icon-large.png) | ⌘+Shift+9 | Ctrl+Shift+9 |
+
+   若要停止格式化文字，請取消選取 **RTF** 工具欄。
+
+   >[!NOTE]
+   >
+   >* 使用者收到的包含您更新的任何電子郵件通知中也會顯示格式設定。
+   >* 在「更新」標籤中檢視時，套用至電子郵件中更新的RTF格式不會顯示在更新上。
+   >* 如果貴組織使用Workfront搭配Internet Explorer，貼上至更新中的任何格式化文字都會遺失其RTF格式，並顯示為純文字。 您可以使用RTF工具列上的屬性來重新格式化文字。
+   >* 在「時間表」區域中進行的更新，或在報表中查看的「注釋」和「最後一個條件」對象時，RTF格式不可用。
+
+
+1. （可選）如果要包括來自先前更新或來自其他來源的文本，並將其與您自己的更新區分開來，您可以將其標籤為塊報價。 按一下 **塊報價** 圖示 ![](assets/block-quote-small.png) 並輸入要引用的文本。 引用的文本顯示為垂直灰線。 按一下 **塊報價** 表徵圖以返回到正常格式。
+
+   ![](assets/block-quote-marked-350x144.png)
+
+1. （選用）將表情符號新增至更新。
+
+   >[!NOTE]
+   >
+   >* Workfront不會將標點符號的表情符號（例如：）取代為emoji。
+   >* 在「時間表」區域中進行的更新或在報表中查看的「注釋」和「最後條件」對象不提供表情符號。
+   >* Workfront中的emoji功能採用Unicode字元，因此，只會在支援Unicode代碼點的瀏覽器和作業系統上顯示。 平台、瀏覽器或作業系統版本與您不同的使用者可能無法存取相同的表情符號。
+   >* 不支援的表情符號會以黑色或白色方塊表示。
+   >* Windows 7僅支援黑白表情符號。
+   >* 套用至透過電子郵件進行之更新的表情符號，在「更新」區域中檢視時不會顯示在更新上。
+
+
+1. （選用）若要新增URL連結至其他資訊來源：
+
+   1. 按一下您要插入連結的更新中的。
+   1. 在 **RTF** 工具欄，按一下 **超連結** 表徵圖。 ![](assets/link-icon.png)
+
+   1. 在 **建立連結** 框，位於 **URL**，輸入或貼上您要連結之來源的URL。
+
+   1. 在 **要顯示的文字**，輸入或貼上連結文字。
+   1. 按一下&#x200B;**儲存**。
+
+1. （可選）若要將影像附加至更新，請按一下 **影像** 圖示 ![](assets/addimageicon-35x32.png) 並瀏覽到電腦上的影像。\
+   或\
+   將影像拖曳至更新區域。
+
+   >[!NOTE]
+   >
+   >* 您的Workfront管理員必須先啟用新增影像，您才能看到影像圖示。
+   >* 最大影像檔案大小為7 MB。 支援的影像檔案類型為.jpg、.gif和.png。
+   >* 影像只能從對象的「更新」(Updates)頁簽中訪問，而「文檔」(Documents)頁簽中不提供影像。
+   >* 您可以傳送包含影像且無文字的更新。
+
+1. 按一下 **更新**  <!--<span class="preview">or **Submit**</span>, in the commenting Beta experience-->.
+
 
 ## 複製更新資訊
+
+<!--drafted for beta release toggle - remove when copying an update will be available: 
+
+>[!NOTE]
+>
+>Copying an update is not possible when using the Beta commenting experience.
+-->
 
 您可以透過數種方式複製更新。 複製連結後，您可以與其他人共用連結，將他們導向更新。
 
@@ -345,7 +382,7 @@ Adding an update to a work item differs depending on what environment and what o
 
    ![](assets/update-stream-comment-menu-marked-350x152.png)
 
-1. 在顯示的訊息中，按一下 **確認**.
+1. 在顯示的訊息中，按一下 **確認** <!--<span class="preview">or **Delete**</span>, in the commenting Beta experience-->.
 
 >[!NOTE]
 >
@@ -371,6 +408,17 @@ Adding an update to a work item differs depending on what environment and what o
    如果未與批准者設定工時單，請按一下 **保存並關閉工時單** 以保存更新。
 
 ## 啟用或禁用系統更新
+
+<!--remove preview with 23.2 production: 
+
+<div class="preview">
+>[!NOTE]
+>
+>It is not possible to disable system updates when using the Beta commenting experience. 
+>The information in this section refers only to functionality available in the current Updtes section. 
+>For more information about system updates in the Beta version, see [Updates section overview](../updating-work-items-and-viewing-updates/updates-tab-overview.md) 
+</div>
+-->
 
 Workfront物件的「更新」區段會顯示兩種資訊：
 
