@@ -8,9 +8,9 @@ author: Becky, Caroline
 feature: System Setup and Administration, [!DNL Workfront] Integrations and Apps, Digital Content and Documents
 role: Admin
 exl-id: fd45e1bc-9a35-4960-a73a-ff845216afe4
-source-git-commit: 1290b29ce816673ffc678a1991aea16f0cf5e83f
+source-git-commit: 8799c4e3a1e14c286b0a19e80e483370aea64bb8
 workflow-type: tm+mt
-source-wordcount: '1474'
+source-wordcount: '1483'
 ht-degree: 0%
 
 ---
@@ -106,6 +106,7 @@ ht-degree: 0%
 
 請考量下列關於 [!DNL SharePoint] 通過 [!DNL Workfront] [!DNL SharePoint] 整合：
 
+* 為此整合請求的權限為 **委派** 權限。
 * [!DNL Workfront] 要求在整合中執行作業所需的最低存取權。
 * 檢視、編輯或刪除的存取權 [!DNL Adobe Workfront] 連結到的文檔 [!DNL SharePoint] 是根據使用者在 [!DNL Workfront]. 不過，任何導覽、下載或編輯 [!DNL SharePoint] 檔案或資料夾需要訪問 [!DNL SharePoint]，而這些動作的存取權則由 [!DNL SharePoint].
 * 使用者可以檢視縮圖並預覽來源為 [!DNL SharePoint]，則可在 [!DNL SharePoint]，而不需登入 [!DNL SharePoint].
