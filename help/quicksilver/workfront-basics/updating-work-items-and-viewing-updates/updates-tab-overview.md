@@ -3,14 +3,14 @@ content-type: overview
 product-area: projects
 navigation-topic: update-work-items-and-view-updates
 title: 更新區段概觀
-description: 「更新」區段會顯示最多200個過去90天內進行的最新更新。
-author: Lisa and Alina
+description: 對象的「更新」部分顯示用戶在跟蹤對象更改的對象或系統更新上所做的注釋。
+author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: 39647f235c2e131e0ddd5d3b72d2f073387e531e
+source-git-commit: 4b1a82758a7e3c745e622ddbab4b0651a6b35a33
 workflow-type: tm+mt
-source-wordcount: '592'
-ht-degree: 6%
+source-wordcount: '890'
+ht-degree: 4%
 
 ---
 
@@ -18,35 +18,29 @@ ht-degree: 6%
 
 <!--take "Beta" references out when we remove the beta-->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> 
+<span class="preview">本頁強調顯示的資訊指的是尚未普遍提供的功能。 它僅在預覽環境中可用。</span>
 
 >[!NOTE]
 >
->We are currently redesigning the Updates section of an object. You can access the new design by enabling the commenting Beta. 
-Currently, the Beta is available for <span class="preview">issues</span>. 
-For more information about the new commenting  experience, see [New commenting experience](../updating-work-items-and-viewing-updates/unified-commenting-experience.md). 
-
--->
+>我們目前正在重新設計物件的「更新」(Updates)區段。 您可以啟用注釋測試版，以存取新設計。
+>
+>目前，測試版適用於 <span class="preview">問題</span>.
+>
+>如需新評論體驗的詳細資訊，請參閱 [全新評論體驗](../updating-work-items-and-viewing-updates/unified-commenting-experience.md).
 
 對象的「更新」部分顯示用戶在跟蹤對象更改的對象或系統更新上所做的注釋。
 
 ## 「更新」區段的概觀
 
-<!--drafted for the commenting beta for issues: 
-The information is organized differently in the Updates section, depending on which environment you access it from. 
+「更新」區段中的資訊會根據您存取該資訊的環境而以不同方式組織。
 
-###  Overview of the current Updates section 
--->
+### 目前更新區段的概觀
 
 物件的「更新」區段會顯示最多200個過去90天內進行的最新更新。
 
-<!--drafted for the commenting beta for issues: 
-The current Updates section shows the following information:
+![](assets/updates-tab-before-unified-experience-for-issues.png)
 
-************** AND REMOVE THE SENTENCE BELOW WHEN MAKING THIS LIVE:
--->
-
-「更新」區段顯示下列資訊：
+目前的更新區段顯示下列資訊：
 
 * 用戶的評論和對這些評論的答復。
 * 系統更新，這些是Workfront為記錄物件上的特定事件而建立的資訊性訊息。 例如，您可以利用系統更新擷取狀態、名稱或自訂欄位中的變更。 您的Workfront或群組管理員可以為您的物件啟用系統更新。 如需詳細資訊，請參閱 [配置系統更新](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
@@ -63,7 +57,7 @@ The current Updates section shows the following information:
      <li>文件</li> 
      <li>目標</li> 
      <li>問題</li> 
-     <li>反覆項目</li> 
+     <li>疊代</li> 
      <li>專案</li> 
      <li>計劃</li> 
      <li>專案組合</li> 
@@ -81,15 +75,16 @@ The current Updates section shows the following information:
  </tbody> 
 </table>
 
-<!--drafted for the commenting beta for issues: 
-###  Overview of the Updates section in the Beta commenting experience
+### 測試版評論體驗的「更新」區段概觀
 
-The Updates section displays information in the following tabs in the Beta commenting experience: 
+![](assets/updates-tab-after-unified-experience-for-issues.png)
 
-* **Updates**: Displays comments made by users and replies to those comments. 
-* **System Activity**: Displays system updates which are informational messages that Workfront creates to record certain events on an objects. For example, you can capture changes in status, name, or custom fields with system updates. Your Workfront or group administrator can enable system updates for your ojects. For more information, see [Configure system updates](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
+「更新」區段會在測試版評論體驗的下列標籤中顯示資訊：
 
-Currenlty, you can make comments and reply to updates using the Beta commenting experience on the following objects:
+* **更新**:顯示用戶的評論和對這些評論的回覆。 如需在新注釋體驗中更新物件的相關資訊，請參閱 [更新工作](../updating-work-items-and-viewing-updates/update-work.md).
+* **系統活動**:顯示系統更新，這些資訊性訊息是Workfront為記錄物件上的特定事件而建立的。 例如，您可以利用系統更新擷取狀態、名稱或自訂欄位中的變更。 您的Workfront或群組管理員可以為您的物件啟用系統更新。 如需詳細資訊，請參閱 [配置系統更新](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
+
+目前，您可以使用測試版對下列物件加以註解和回覆更新：
 
 <table style="table-layout:auto"> 
  <col> 
@@ -98,11 +93,11 @@ Currenlty, you can make comments and reply to updates using the Beta commenting 
   <tr> 
    <td> 
     <ul> 
-     <li>Goals</li> 
+     <li>目標</li> 
      </ul> </td> 
    <td> 
     <ul> 
-     <li><span class="preview">Issues</span></li> 
+     <li><span class="preview">問題</span></li> 
      </ul> </td> 
   </tr> 
  </tbody> 
@@ -110,8 +105,11 @@ Currenlty, you can make comments and reply to updates using the Beta commenting 
 
 >[!NOTE]
 >
->The commenting experience Beta is the default current experience for goals. You must have an additional license to access Workfront Goals. For information, see [Requirements to use Workfront Goals](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
--->
+>註解體驗測試版是目標的預設目前體驗。 您必須有額外的授權才能存取Workfront Targets。
+>
+>如需詳細資訊，請參閱 [使用Workfront目標的需求](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+>
+>如需關於評論目標的資訊，請參閱 [管理Adobe Workfront目標中的目標註解](../../workfront-goals/goal-management/manage-goal-comments.md).
 
 ## 也出現在高排名對象上的更新
 
@@ -182,11 +180,12 @@ Currenlty, you can make comments and reply to updates using the Beta commenting 
 >添加到系統更新的回復不會匯總到父對象。 只有子對象的直接回覆和添加到現有更新的回覆才會匯總到父對象。
 >
 >如需Adobe Workfront中物件階層的相關資訊，請參閱 [了解Adobe Workfront中的物件](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
-
-<!-- drafted for the new commenting experience for issues in beta: Add this paragraph to the note above: 
-><span class="preview"> It is not possible to reply to system updates in the new commenting experience Beta. For more information, see [New commenting experience](../updating-work-items-and-viewing-updates/unified-commenting-experience.md).</span> -->
+>
+><span class="preview"> 無法回覆新評論測試版體驗中的系統更新。 如需詳細資訊，請參閱 [全新評論體驗](../updating-work-items-and-viewing-updates/unified-commenting-experience.md).</span>
 
 ## 「更新」一節的限制
+
+團隊的「更新」區段以及代表其他使用者輸入更新時，有些限制。
 
 ### 使用者和團隊的限制
 
@@ -195,7 +194,7 @@ Currenlty, you can make comments and reply to updates using the Beta commenting 
 * 使用者
 * 時程表
 * 劇本
-* 反覆項目
+* 疊代
 
 在使用者和團隊的「更新」區段中，您可以檢視過去90天內輸入的更新。
 

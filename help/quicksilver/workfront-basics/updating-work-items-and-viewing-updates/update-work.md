@@ -3,32 +3,31 @@ product-area: projects
 navigation-topic: update-work-items-and-view-updates
 title: 更新工作
 description: 您可以在Adobe Workfront物件（專案、任務或問題）上新增更新，以傳達物件進度的相關資訊。 已指派或訂閱物件的使用者可以檢視您的更新。 您也可以標籤使用者，以吸引其注意更新。
-author: Lisa and Alina
+author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: 39647f235c2e131e0ddd5d3b72d2f073387e531e
+source-git-commit: 4b1a82758a7e3c745e622ddbab4b0651a6b35a33
 workflow-type: tm+mt
-source-wordcount: '1956'
+source-wordcount: '2690'
 ht-degree: 1%
 
 ---
 
 # 更新工作
 
-<!-- Drafted for commenting experience: 
-
 <!--take "Beta" references out when we remove the beta-->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> 
+<span class="preview">本頁強調顯示的資訊指的是尚未普遍提供的功能。 它僅在預覽環境中可用。</span>
 
 >[!NOTE]
 >
->We are currently redesigning the way you update work when using the Updates section of an object. 
->You can access the new design by enabling the commenting Beta. 
->Currently, the Beta is available for <span class="preview">issues</span>. 
-For more information about the new updating experience, see [New commenting experience](../updating-work-items-and-viewing-updates/unified-commenting-experience.md). 
-
--->
+>我們目前正在重新設計使用對象的「更新」(Updates)部分時更新工作的方式。
+>
+>您可以啟用注釋測試版，以存取新設計。
+>
+>目前，測試版適用於 <span class="preview">問題</span>.
+>
+>如需新更新體驗的詳細資訊，請參閱 [全新評論體驗](../updating-work-items-and-viewing-updates/unified-commenting-experience.md).
 
 您可以在「更新」區段中，為Adobe Workfront中的大部分物件新增註解。 有關哪些對象顯示「更新」部分的詳細資訊，請參閱 [更新區段概觀](../updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
@@ -111,17 +110,15 @@ drafted for P&P release:
 
 ## 向工作項添加更新
 
-<!--drafted for the commenting experience - change the NOTE at the top of the following section with every new release to other objects
+<!--drafted for the commenting experience - change the NOTE at the top of the following section with every new release to other objects -->
 
-Adding an update to a work item differs depending on what version of the Updates section and what object you choose. 
+根據「更新」部分的版本和您選擇的對象，向工作項添加更新會有所不同。
 
-### Add an update to a work item in the current Updates section
+### 將更新添加到當前更新部分中的工作項
 
 >[!NOTE]
 >
->The following functionality is available for all objects except for goals. You must have an additional license to access Workfront Goals. For information about commenting on goals, see [Manage goal comments in Adobe Workfront Goals](../../workfront-goals/goal-management/manage-goal-comments.md)
-
--->
+>除了目標之外，所有對象都可使用以下功能。 您必須有額外的授權才能存取Workfront Targets。 如需關於評論目標的資訊，請參閱 [管理Adobe Workfront目標中的目標註解](../../workfront-goals/goal-management/manage-goal-comments.md)
 
 1. 轉到要為其提供更新的工作項（如項目、任務或問題）。
 1. 按一下 **更新** 區段。
@@ -135,7 +132,7 @@ Adding an update to a work item differs depending on what version of the Updates
     <tbody> 
      <tr> 
       <td role="rowheader"><strong>通知</strong></td> 
-      <td>識別需要收到更新通知的使用者。 指派或訂閱物件的使用者會在進行更新時自動收到通知。<br><p>如需如何在更新中納入其他項目的相關資訊，請參閱 <a href="../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md" class="MCXref xref">在更新時標籤其他人</a>.</p></td> 
+      <td>識別必須通知更新的使用者。 指派或訂閱物件的使用者會在進行更新時自動收到通知。<br><p>如需如何在更新中納入其他項目的相關資訊，請參閱 <a href="../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md" class="MCXref xref">在更新時標籤其他人</a>.</p></td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>認可日期</strong></td> 
@@ -147,7 +144,7 @@ Adding an update to a work item differs depending on what version of the Updates
      </tr> 
      <tr> 
       <td role="rowheader"><strong>狀態</strong></td> 
-      <td>按一下目前狀態旁的箭頭，然後從下拉式功能表中選取所需的狀態。 有關設定狀態的資訊，請參閱 <a href="../../manage-work/projects/updating-work-in-a-project/update-task-status.md" class="MCXref xref">更新任務狀態</a>.<p>更新工作項的狀態不會自動更改項目的狀態。 根據專案的設定方式，您可能需要個別更新專案狀態。 如需各種專案更新類型的詳細資訊，請參閱 <a href="../../manage-work/projects/manage-projects/select-project-update-type.md" class="MCXref xref">選擇項目更新類型 </a>.</p><p><b>附註</b>
+      <td>按一下目前狀態旁的箭頭，然後從下拉式功能表中選取所需的狀態。 有關設定狀態的資訊，請參閱 <a href="../../manage-work/projects/updating-work-in-a-project/update-task-status.md" class="MCXref xref">更新任務狀態</a>.<p>更新工作項的狀態不會自動更改項目的狀態。 根據專案的設定方式，您可能必須個別更新專案狀態。 如需各種專案更新類型的詳細資訊，請參閱 <a href="../../manage-work/projects/manage-projects/select-project-update-type.md" class="MCXref xref">選擇項目更新類型 </a>.</p><p><b>附註</b>
 
    工作項目處於「待批准」狀態時，無法更改其狀態。</p></td>
    </tr> 
@@ -175,94 +172,91 @@ Adding an update to a work item differs depending on what version of the Updates
 
 1. 若要回覆更新，請參閱 [回覆更新](../../workfront-basics/updating-work-items-and-viewing-updates/reply-to-updates.md).
 
-<!--
-
-### Add an update to a work item using the commenting Beta experience
+### 使用註解測試版體驗將更新新增至工作項目
 
 
 >[!NOTE]
 >
->The functionality described in this section is available for the following objects:
+>本節中描述的功能適用於以下對象：
 >
->* <span class="preview">Issues, when you enable the commenting Beta experience.</span>
->
->   <span class="preview">This functionality is available only for the Updates section of issues, and it is not available for the following areas:</span>
->
->   * <span class="preview">Home</span>
->   * <span class="preview">Summary panel in lists</span>
->   * <span class="preview">Summary panel in timesheets</span>
->* Goals
->
->   The commenting experience Beta is the default current experience for goals.
->   You must have an additional license to access Workfront Goals. For information, see [Requirements to use Workfront Goals](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+>* <span class="preview">問題：當您啟用評論測試版體驗時。</span>
+   >
+   >   <span class="preview">此功能僅適用於問題的「更新」區段，不適用於下列區域：</span>
+   >
+   >   * <span class="preview">首頁</span>
+   >   * <span class="preview">清單中的摘要面板</span>
+   >   * <span class="preview">工時單中的「摘要」面板</span>
+>* 目標
+
+   >
+   >   新的註解體驗是目標的預設目前體驗。
+   >   您必須有額外的授權才能存取Workfront Targets。 如需詳細資訊，請參閱 [使用Workfront目標的需求](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
 
 
-1. Locate the object you want to update, then click its name to open the object's page.
-1. Click  **Updates** in the left panel. 
-1. Click **Try out the commenting Beta** button in the lower-right corner of the Updates area, then click **Agree** on the Beta agreement. This switches the Updates area to the commenting Beta experience. 
-   The **Comments** tab is selected by default. 
-1. Start entering a comment in the **New comment** box. 
-   
+
+1. 找出您要更新的物件，然後按一下其名稱以開啟物件的頁面。
+1. 按一下  **更新** 中。
+1. <span class="preview">按一下 **試用注釋測試版** 按鈕（位於「更新」區域的右下角），然後按一下 **同意** 測試版協定。 這會將「更新」區域切換為註解測試版體驗。 </span>
+此 
+**註解** 標籤。
+1. 開始在 **新留言** 框。
+
    ![](assets/comment-box-empty-unshimmed.png)
 
    >[!TIP]
    >
-   >Navigating away from the Updates section before you finish typing and submitting a comment keeps the comment on the page in draft mode even after you log off and log back on. Drafted comments are only visible to the user entering them.
+   >在您完成輸入並提交注釋之前，從「更新」部分導航離開該頁面，即使您註銷並重新登錄後，該頁面上的注釋仍以草稿模式保留。 起草的注釋只對輸入它們的用戶可見。
 
-1. (Optional) In the **Tag people or teams** area, start typing the name or the email of a user, or a team that you would like to include in this comment, then select it when it displays in the list. 
-1. (Optional) To add rich text formatting to your update, use any of the following options from the **Rich Text** toolbar to enhance your text: 
+1. （選用）在 **標籤人員或團隊** 區域中，開始鍵入用戶的名稱或電子郵件，或要包含在此注釋中的團隊，然後在清單中顯示時選擇它。
+1. （可選）若要將RTF格式新增至更新，請使用 **RTF** 工具列來增強文字：
 
-   * Bold
-   * Italics
-   * Underline
-   * Link
-   * Bulleted List
-   * Numbered List
-   * Add attachment (mark this parenthesis as draft: ************ this might be renamed)
-   
-   For more information, see the "Use Rich Text in a Workfront update" section in this article.
+   * 粗體
+   * 斜體
+   * 底線
+   * 連結
+   * 項目符號清單
+   * 編號清單
+   * 添加附件 <!--(mark this parenthesis as draft: ************ this might be renamed to "Add image")-->
 
-   >[!TIP]
-   >
-   >   If another user submits a comment to the same item you are updating, there will be a red line with a "New" indicator to inform you of the newer comments. The indicator only displays only after the comment was submitted on the item, and not when the comment is still composed. 
-   >
-   > ![](assets/real-time-new-red-indicator-unified-commenting.png)
+   如需詳細資訊，請參閱本文的「在Workfront更新中使用RTF」一節。 <!--remove this list, above, when we get to parity for Rich Text-->
 
+   <!--not available yet in preview - should be live with production: format this as a TIP: 
+      * If another user submits a comment to the same item you are updating, there will be a red line with a "New" indicator to inform you of the newer comments. 
+      * The indicator only displays only after the comment was submitted on the item, and not when the comment is still composed. 
+      * The "New" indicator displays only when both the user that entered a new update as well as the user who is currently entering an update are using the new commenting experience. 
+      ![](assets/real-time-new-red-indicator-unified-commenting.png)-->
 
-
-1. Click **Submit** to add the update to the Workfront object. 
-1. (Optional) To edit a comment, click the **More** menu ![](assets/more-menu.png) to the right of the Like icon, then click **Edit**. 
-1. Edit the information in the comment, or remove any of the tagged users. 
-   You can edit your comment within 15 from submitting it. An "Edited" indicator is added to the left of the date stamp that displays when the comment was updated. 
+1. 按一下 **提交** 將更新新增至Workfront物件。
+1. （選用）若要編輯留言，請按一下 **更多** 功能表 ![](assets/more-menu.png) 在「贊」圖示的右側，然後按一下 **編輯**.
+1. 編輯注釋中的資訊，或刪除任何標籤的用戶。
+您可以在15內編輯意見，提交後即可。 更新註解時，會在顯示的日期戳記左側新增「已編輯」指標。
 
    ![](assets/edited-tag-on-comment-unified-commenting.png)
 
    >[!TIP]
    >
-   >   An email is generated to notify users of your update only when you submit the original update. No email is generated after you edited your update.
-1. (Optional) Click **Reply** to reply to an existing comment, then follow the steps 5-7 above. (**************insure this stays accurate***********). For information about replying to an update, see [Reply to updates](../../workfront-basics/updating-work-items-and-viewing-updates/reply-to-updates.md).
-1. (Optional) Click the **Like** icon![](assets/like-icon.png). The icon updates with the number of likes.
-1. (Conditional and Optional) If you included additional people in your comment, click the number of members included in the update to display a list of entities that the comment you entered is shared with. 
+   >   系統只會在您提交原始更新時，產生電子郵件，通知使用者您的更新。 編輯更新後不會產生任何電子郵件。
+1. （選用）按一下 **回覆** 若要回覆現有意見，請遵循上述步驟4至7。 <!--(**************insure this stays accurate***********)-->. 如需回覆更新的相關資訊，請參閱 [回覆更新](../../workfront-basics/updating-work-items-and-viewing-updates/reply-to-updates.md).
+1. （選用）按一下 **贊** 圖示![](assets/like-icon.png). 圖示會隨按贊次數更新。
+1. （條件式和可選）如果注釋中包括了其他人員，請按一下更新中包括的成員數，以顯示您輸入的注釋被共用的實體清單。
 
    ![](assets/members-icons-expanded-unshimmed.png)
-1. (Optional) Click the **System Activity** tab to view updates logged by the system. When the object or any of its children are updated, Workfront generates a note about that update and displays it in the System Activity tab. 
+1. （選用）按一下 **系統活動** 頁簽查看系統記錄的更新。 更新對象或其任何子項時，Workfront會生成有關該更新的附註，並在「系統活動」頁簽中顯示該更新。
 
-   For more information see [Updates section  overview](../updating-work-items-and-viewing-updates/updates-tab-overview.md)
+   如需詳細資訊，請參閱 [更新區段概觀](../updating-work-items-and-viewing-updates/updates-tab-overview.md)
 
    >[!TIP]
    >
-   >You cannot add a comment to a system update.
--->
+   >無法向系統更新添加註釋。
 
 
 ## 在Workfront更新中使用RTF
 
-<!--remove this top note when we get to parity with the current version, OR change the note to mention that some options are ONLY available in the Beta version and not the current one.
+<!--remove this top note when we get to parity with the current version, OR change the note to mention that some options are ONLY available in the Beta version and not the current one.-->
 
 >[!NOTE]
 >
->Some of the options in the Rich Text toolbar are not available for the commenting Beta experience.-->
-
+>RTF工具列中的某些選項可能無法用於評論測試版體驗。
 
 您可以使用RTF來增強更新，或是新增各種項目，例如表情符號、連結或影像。
 
@@ -326,17 +320,16 @@ Adding an update to a work item differs depending on what version of the Updates
    >* 影像只能從對象的「更新」(Updates)頁簽中訪問，而「文檔」(Documents)頁簽中不提供影像。
    >* 您可以傳送包含影像且無文字的更新。
 
-1. 按一下 **更新**  <!--<span class="preview">or **Submit**</span>, in the commenting Beta experience-->.
+1. 按一下 **更新**  <span class="preview">或 **提交**</span>，即可在評論測試版體驗中取得。
 
 
 ## 複製更新資訊
 
-<!--drafted for beta release toggle - remove when copying an update will be available: 
+<!--drafted for beta release toggle - remove when copying an update will be available:-->
 
 >[!NOTE]
 >
->Copying an update is not possible when using the Beta commenting experience.
--->
+>使用測試版注釋體驗時無法複製更新。
 
 您可以透過數種方式複製更新。 複製連結後，您可以與其他人共用連結，將他們導向更新。
 
@@ -382,7 +375,7 @@ Adding an update to a work item differs depending on what version of the Updates
 
    ![](assets/update-stream-comment-menu-marked-350x152.png)
 
-1. 在顯示的訊息中，按一下 **確認** <!--<span class="preview">or **Delete**</span>, in the commenting Beta experience-->.
+1. 在顯示的訊息中，按一下 **確認** <span class="preview">或 **刪除**</span>，即可在評論測試版體驗中取得。
 
 >[!NOTE]
 >
@@ -409,16 +402,16 @@ Adding an update to a work item differs depending on what version of the Updates
 
 ## 啟用或禁用系統更新
 
-<!--remove preview with 23.2 production: 
+<!--remove the preview tag with 23.2 production, but keep the note till we remove Beta and it becomed the only exprience: -->
 
-<div class="preview">
+
+
 >[!NOTE]
 >
->It is not possible to disable system updates when using the Beta commenting experience. 
->The information in this section refers only to functionality available in the current Updtes section. 
->For more information about system updates in the Beta version, see [Updates section overview](../updating-work-items-and-viewing-updates/updates-tab-overview.md) 
-</div>
--->
+><span class="preview">使用測試版注釋體驗時，無法停用系統更新。 </span>
+><span class="preview">本節中的資訊僅指目前更新區段中提供的功能。 </span>
+><span class="preview">有關測試版中系統更新的詳細資訊，請參閱 [更新區段概觀](../updating-work-items-and-viewing-updates/updates-tab-overview.md). </span>
+
 
 Workfront物件的「更新」區段會顯示兩種資訊：
 

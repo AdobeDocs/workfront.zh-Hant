@@ -6,16 +6,16 @@ description: 您可以在Adobe Workfront目標中新增評論至您可檢視的�
 author: Alina
 feature: Workfront Goals
 exl-id: 6cf2d2d2-5ba5-40f2-a803-01359c338541
-source-git-commit: 39647f235c2e131e0ddd5d3b72d2f073387e531e
+source-git-commit: 0d53b8651da3602e6f3233597680eede55f847a1
 workflow-type: tm+mt
-source-wordcount: '509'
+source-wordcount: '616'
 ht-degree: 0%
 
 ---
 
 # 管理Adobe Workfront目標中的目標註解
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> -->
+<span class="preview">本頁強調顯示的資訊指的是尚未普遍提供的功能。 它僅在預覽環境中可用。</span>
 
 您可以在Adobe Workfront目標中新增評論至您可檢視的所有目標。
 
@@ -118,77 +118,7 @@ ht-degree: 0%
 
 * 一種佈局模板，在主菜單中包括目標區域。
 
-## 找出「注釋」區域
-
-<!--
-Locating goal comments differs depending on what environment you use. 
-
-### Locate goal comments in the Production environment
-
-You can add comments to goals in the following areas of Workfront Goals:
-
-* The Goal Details panel
-* The Check-in section 
-* The Pulse section
-
-Although the process for adding comments to goals is similar in these areas, there are differences in being able to edit, delete, or react to a comment when using one area versus another. When you enter a comment in any of these areas, the comment is visible in all areas where goal comments display.
-
->[!NOTE]
->
->You cannot add comments to results and activities.
-
--->
-
-<!--
-## Add comments to goals in the Goal Details panel
-
-Adding comments to goals differs depending on what environment you use.
-
-### Add comments to goals in the Production environment
-
-
-You can add comments to goals in the Goal Details panel, as part of updating an individual goal.
-
-You can edit or delete a comment that you entered in this area, or you can like comments.
-
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) > **Goals** in the upper-right corner.
-
-   (Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-management/assets/three-line-main-menu-icon.png) in the upper-left corner))
-   
-
-   This opens the Workfront Goals area. 
-
-1. Locate the goal you want to add comments to, then click its name to open the Goal Details panel to the right. 
-1. Click the **Updates** tab.
-1. Type your comment in the **Comment here** field, then click **Post**. 
-1. (Optional and conditional) Select the **Comments** option at the top of the list to view your comment at the top of the list. It is enabled by default and comments display here with the most recent comment first. 
-1. (Optional) Click **Edit** to edit your comment, then click **Save** to save your changes, or **Cancel** to revert to the original update.
-
-   >[!TIP]
-   >
-   >* You can only edit comments you entered. 
-   >* There is no time limit for how long after you enter a comment you are allowed to edit it.
-
-1. (Optional) Click **Delete** to delete your comment, then click **Yes, Delete** to confirm.
-
-   >[!TIP]
-   >
-   >* You can only delete comments you entered. 
-   >* There is no time limit for how long after you enter a comment you are allowed to delete it.
-
-1. (Optional) Click the **Like icon** ![](assets/like-icon.png) to like a comment that someone else added. The icon updates with the number of likes. 
-
-1. (Optional) Click the number of likes next to a comment and a list with the names of the users who liked the comment displays in the right panel.
-
-   <!--
-   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: this functionality might change)</p>
-   
-
-   ![](assets/list-of-likes-users-350x121.png)
-
-1. (Conditional) Click **Back to Updates** to return to the Updates tab of the Goal Details panel, or click the **X icon** in the upper-right corner to close the right panel.
-
--->
+## 找出「更新」區段
 
 您可以在目標頁面的「更新」區段中，將意見新增至目標。
 
@@ -208,34 +138,35 @@ You can edit or delete a comment that you entered in this area, or you can like 
    >在您完成輸入並提交注釋之前，從「更新」部分導航離開該頁面，即使您註銷並重新登錄後，該頁面上的注釋仍以草稿模式保留。 起草的注釋只對輸入它們的用戶可見。
 
 1. （選用）在 **標籤人員或團隊** 區域中，開始鍵入用戶的名稱或電子郵件，或要包含在此注釋中的團隊，然後在清單中顯示時選擇它。
+1. <span class="preview">（選用）若要編輯留言，請按一下 **更多** 功能表 ![](assets/more-icon.png) 在「贊」圖示的右側，然後按一下 **編輯**. </span>
+1. <span class="preview">編輯注釋中的資訊，或刪除任何標籤的用戶。 </span>
 
-<!--drafted for beta release 23.2:
-1. <span class="preview">(Optional) To edit a comment, click the **More** menu ![](assets/more-menu.png) to the right of the Like icon, then click **Edit**. </span>
-1. <span class="preview">Edit the information in the comment, or remove any of the tagged users. </span>
-   <span class="preview">You can edit your comment within 15 from submitting it. An "Edited" indicator is added to the left of the date stamp that displays when the comment was updated.</span> 
+   <span class="preview">您可以在15內編輯意見，提交後即可。 更新註解時，會在顯示的日期戳記左側新增「已編輯」指標。</span>
 
    <span class="preview">![](assets/edited-tag-on-comment-unified-commenting.png)</span>
 
    >[!TIP]
    >
-   >   <span class="preview">An email is generated to notify users of your update only when you submit the original update. No email is generated after you edited your update.</span>
--->
+   >   <span class="preview">系統只會在您提交原始更新時，產生電子郵件，通知使用者您的更新。 編輯更新後不會產生任何電子郵件。</span>
+
 1. 按一下 **提交**.
 
-<!--drafted for 23.2 beta release: 
+   <!--drafted for 23.2 beta release: 
+      >[!TIP]
+      >
+      >   <span class="preview">If another user submits a comment to the same item you are updating, there will be a red line with a "New" indicator to inform you of the newer comments. The indicator only displays only after the comment was submitted on the item, and not when the comment is still composed. </span>
+      >
+      ><span class="preview">The "New" indicator displays only when both the user that entered a new update as well as the user who is currently entering an update are using the new commenting experience.</span>
+      >
+      >![](assets/real-time-new-red-indicator-unified-commenting.png)-->
 
-   >[!TIP]
-   >
-   >   <span class="preview">If another user submits a comment to the same item you are updating, there will be a red line with a "New" indicator to inform you of the newer comments. The indicator only displays only after the comment was submitted on the item, and not when the comment is still composed. </span>
-   >
-   > ![](assets/real-time-new-red-indicator-unified-commenting.png)-->
-
-1. （選用）按一下 **回覆** 若要回覆現有意見，請遵循上述步驟5至7。 <!--insure this stays accurate-->
+1. （選用）按一下 **回覆** 若要回覆現有意見，請遵循上述步驟5至9。 <!--insure this stays accurate-->
 1. （選用）按一下 **贊** 圖示![](assets/like-icon.png) 喜歡別人加的評論。 圖示會隨按贊次數更新。
 1. （可選）若要將RTF格式新增至更新，請在輸入時使用RTF工具列上的任何屬性。 如需詳細資訊，請參閱 [更新工作](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 1. （選用）按一下 **系統活動** 頁簽查看系統記錄的更新。 更新目標時，Workfront會產生有關該更新的附註，並在「系統活動」索引標籤中顯示。 Workfront也會在結果、活動或專案新增至目標或更新時記錄系統更新。 <!--ensure the casing on the tab has not changed-->
 
-<!--
+<!--BELOW IS OLD, ATIIM/ WORKFRONT GOALS INFORMATION ABOUT COMMENTS: 
+
 ## Add comments to goals in the Check-in section
 
 <div class="preview">
@@ -315,6 +246,76 @@ You can also like goal comments that other users have added to mark your approva
 1. (Optional) Click the **Like icon** ![](assets/like-icon.png) to like a comment. The icon updates with the number of likes. 
 
 1. (Optional) Click the number of likes next to a comment and a list with the names of the users who liked the comment displays in the right panel.
+
+   ![](assets/list-of-likes-users-350x121.png)
+
+1. (Conditional) Click **Back to Updates** to return to the Updates tab of the Goal Details panel, or click the **X icon** in the upper-right corner to close the right panel.
+
+-->
+
+<!--
+Locating goal comments differs depending on what environment you use. 
+
+### Locate goal comments in the Production environment
+
+You can add comments to goals in the following areas of Workfront Goals:
+
+* The Goal Details panel
+* The Check-in section 
+* The Pulse section
+
+Although the process for adding comments to goals is similar in these areas, there are differences in being able to edit, delete, or react to a comment when using one area versus another. When you enter a comment in any of these areas, the comment is visible in all areas where goal comments display.
+
+>[!NOTE]
+>
+>You cannot add comments to results and activities.
+
+-->
+
+<!--
+## Add comments to goals in the Goal Details panel
+
+Adding comments to goals differs depending on what environment you use.
+
+### Add comments to goals in the Production environment
+
+
+You can add comments to goals in the Goal Details panel, as part of updating an individual goal.
+
+You can edit or delete a comment that you entered in this area, or you can like comments.
+
+1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) > **Goals** in the upper-right corner.
+
+   (Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-management/assets/three-line-main-menu-icon.png) in the upper-left corner))
+   
+
+   This opens the Workfront Goals area. 
+
+1. Locate the goal you want to add comments to, then click its name to open the Goal Details panel to the right. 
+1. Click the **Updates** tab.
+1. Type your comment in the **Comment here** field, then click **Post**. 
+1. (Optional and conditional) Select the **Comments** option at the top of the list to view your comment at the top of the list. It is enabled by default and comments display here with the most recent comment first. 
+1. (Optional) Click **Edit** to edit your comment, then click **Save** to save your changes, or **Cancel** to revert to the original update.
+
+   >[!TIP]
+   >
+   >* You can only edit comments you entered. 
+   >* There is no time limit for how long after you enter a comment you are allowed to edit it.
+
+1. (Optional) Click **Delete** to delete your comment, then click **Yes, Delete** to confirm.
+
+   >[!TIP]
+   >
+   >* You can only delete comments you entered. 
+   >* There is no time limit for how long after you enter a comment you are allowed to delete it.
+
+1. (Optional) Click the **Like icon** ![](assets/like-icon.png) to like a comment that someone else added. The icon updates with the number of likes. 
+
+1. (Optional) Click the number of likes next to a comment and a list with the names of the users who liked the comment displays in the right panel.
+
+   <!--
+   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: this functionality might change)</p>
+   
 
    ![](assets/list-of-likes-users-350x121.png)
 

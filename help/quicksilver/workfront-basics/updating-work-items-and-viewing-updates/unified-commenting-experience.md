@@ -3,11 +3,11 @@ product-area: projects
 navigation-topic: update-work-items-and-view-updates
 title: 統一的注釋體驗
 description: 新的統一注釋體驗將
-author: Nolan
+author: Alina
 feature: Get Started with Workfront
-source-git-commit: 39647f235c2e131e0ddd5d3b72d2f073387e531e
+source-git-commit: 98db73f8c807ff3f6bffcb1ec839a416d9c4111d
 workflow-type: tm+mt
-source-wordcount: '200'
+source-wordcount: '552'
 ht-degree: 1%
 
 ---
@@ -15,108 +15,65 @@ ht-degree: 1%
 
 # 全新評論體驗
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> -->
+<span class="preview">本頁強調顯示的資訊指的是尚未普遍提供的功能。 它僅在預覽環境中可用。</span>
 
 Adobe Workfront中備注體驗的更新目前正在開發中。 此更新包含新介面、新功能，以及選取物件的「更新」區段中的效能提升。
 
-<!--drafted for commenting experience on issues: 
-
->[!NOTE]
->
->The new commenting experience is only available for the Updates section of select objects. 
->
->For information about what objects include the Updates section, see [Updates section overview](../../workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md). 
->The new commenting experience is not available for other areas of Workfront that display updates. For example, the new experience is not availabe for the following areas:
->
->* Home
->* Summary panel in a list
->* Summary panel in a timesheet
->
-
--->
-
-雖然目前僅在Adobe工作字型目標中實作，但這項新體驗將緩慢開放供Workfront中具有更新區段的所有物件使用，之後會擴展至其他Adobe Experience Cloud應用程式。
-
-<!--when we release to Preview for issues with a toggle, we need to remove the last sentence above and replace it with this: 
-
-The new commenting experience is currently supported for the following objects in Workfront:
-
-By default, in the Preview and Production environments for all customers: 
-
-* Goals
-
-    >[!NOTE]
-    >
-    >You must have an additional license to Adobe Workfront Goals to be able to access this area of Workfront. For more information, see [Requirements to use Workfront Goals](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
-
-    For more information about managing updates for goals, see [Manage goal comments in Adobe Workfront Goals](../../workfront-goals/goal-management/manage-goal-comments.md). 
-
-
-<div class="preview">
-
-By enabling the Beta version in the Updates section, in the Preview environment: 
-
-* Issues
-
-    For more information about managing updates for other objects, including issues, see [Update work](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md). 
-
-</div>
-
-The new commenting experience will slowly become available for all the objects with an Updates section in Workfront, and later it will expand to other Adobe Experience Cloud applications.
--->
+新的註解體驗將緩慢地開放供Workfront中具有「更新」區段的所有物件使用，之後會擴展至其他Adobe Experience Cloud應用程式。
 
 ## 功能
 
 新的註解體驗包含對現有更新資料流的改良與變更。
 
+<!-- Previous content here - replaced with the table below: 
+
 >[!IMPORTANT]
->以下所列的「統一注釋體驗」功能目前僅可在Adobe Workfront Target中使用。
+>The Unified Commenting Experience features listed below are currently only available in Adobe Workfront Goals.
 
-* **建立注釋**
+* **Creating comments**
 
-   您可以建立新留言、以RTF格式設定留言，並標籤要通知的其他留言。 有關建立注釋的詳細資訊，請參閱 [管理目標備注](/help/quicksilver/workfront-goals/goal-management/manage-goal-comments.md).
+    You can create a new comment, format it with rich text, and tag others to be notified. For more information on creating comments, see [Manage goal comments](/help/quicksilver/workfront-goals/goal-management/manage-goal-comments.md).
 
-* **回應留言**
+* **Responding to comments**
 
-   您可以使用贊回應留言，或使用新留言回覆，以通知原始留言者和物件擁有者。
+    You can react to a comment with a like or reply with a new comment in-thread that can notify the original commenter and owner of the object.
 
-* **系統活動**
+* **System Activity**
+    
+    System-generated updates for an object are now listed seperately from comments made in the update tab. For more information on viewing the System Activity stream, see step 11 of [Manage goal comments](/help/quicksilver/workfront-goals/goal-management/manage-goal-comments.md).
 
-   系統產生的物件更新現在會與更新標籤中的註解分開列出。 有關查看系統活動流的詳細資訊，請參閱 [管理目標備注](/help/quicksilver/workfront-goals/goal-management/manage-goal-comments.md).
+-->
 
-<!-- When releasing this to Issues - preview with 23.2 - remove all the content above in the "Features" section and replace it with this: 
+新評論體驗包含的改善項目包括：
 
-Among the improvements included in the new commenting experience are the following:
+* 改善效能和使用者體驗
+* 將用戶注釋與系統活動更新分開。 系統更新的運作方式沒有改變。
+* 將新備注新增至物件時的即時指標
+* 在提交注釋後編輯注釋。
 
-* Improved performance and user experience
-* Separation of user comments from the system activity. There are no changes in the way the system updates function. 
-* Real-time updates
-* Edit comments after submitting them. 
+已從新體驗中移除下列功能：
 
-The following features have been removed from the new experience:
+* 對系統更新進行注釋。
 
-* Comment on a system update
-
-The following table illustrates the features that will be available in the new commenting experience as well as their availability now in areas where they are supported: 
+下表說明新注釋體驗中可用的功能，以及受支援區域中可用的功能：
 
 <table>
   <tr>
-   <td><strong>Feature </strong>
+   <td><strong>功能 </strong>
    </td>
-   <td><strong>Exists in old commenting experience </strong>
+   <td><strong>存在於舊式評論體驗中 </strong>
    </td>
-   <td><strong>Exists in Beta version of the new commenting experience </strong>
+   <td><strong>存在於新評論體驗的測試版中 </strong>
    </td>
-   <td><strong>Will be introduced in the new commenting experience </strong>
+   <td><strong>將在新的評論體驗中引入 </strong>
    </td>
-   <td><strong>When will be introduced in the new commenting experience </strong>
+   <td><strong>何時將在新的評論體驗中推出 </strong>
    </td>
-   <td><strong>In research </strong>
+   <td><strong>研究 </strong>
    </td>
   </tr>
   <tr>
-   <td>Create/read/reply/delete comments 
+   <td>建立/讀取/回覆/刪除評論 
    </td>
    <td>✓ 
   </td>
@@ -130,11 +87,11 @@ The following table illustrates the features that will be available in the new c
    </td>
   </tr>
   <tr>
-   <td>Rich text (exludes quoting and emojis)
+   <td>RTF文字（包括引號和表情符號）
    </td>
    <td>✓ 
    </td>
-   <td>✓ 
+   <td><span class="preview">✓</span> 
    </td>
    <td> 
    </td>
@@ -145,7 +102,7 @@ The following table illustrates the features that will be available in the new c
   </tr>
   <tr>
  <tr>
-   <td>Rich text (quoting and emojis)
+   <td>RTF文字（引號和表情符號）
    </td>
    <td>✓ 
    </td>
@@ -153,14 +110,14 @@ The following table illustrates the features that will be available in the new c
    </td>
    <td> ✓
    </td>
-   <td> Q2, 2023
+   <td> 2023年二季度
    </td>
    <td> 
    </td>
   </tr>
   <tr>
 
-   <td>React to comments (Like) 
+<td>回應留言（贊） 
    </td>
    <td>✓ 
    </td>
@@ -174,7 +131,7 @@ The following table illustrates the features that will be available in the new c
    </td>
   </tr>
   <tr>
-   <td>Attach images to comments 
+   <td>將影像附加到注釋 
    </td>
    <td>✓ 
    </td>
@@ -188,7 +145,7 @@ The following table illustrates the features that will be available in the new c
    </td>
   </tr>
   <tr>
-   <td>Tag people in comments 
+   <td>在留言中標籤人員 
    </td>
    <td>✓ 
    </td>
@@ -202,25 +159,11 @@ The following table illustrates the features that will be available in the new c
    </td>
   </tr>
   <tr>
-   <td>Remove people from the thread 
+   <td>從線程中刪除人 
    </td>
    <td> 
    </td>
-   <td>✓ 
-   </td>
-   <td> 
-   </td>
-   <td> 
-   </td>
-   <td> 
-   </td>
-  </tr>
-  <tr>
-   <td>Comments that are private to a company 
-   </td>
-   <td>✓ 
-   </td>
-   <td>✓ 
+   <td><span class="preview">✓ </span>
    </td>
    <td> 
    </td>
@@ -230,49 +173,7 @@ The following table illustrates the features that will be available in the new c
    </td>
   </tr>
   <tr>
-   <td>Undo posting of a comment 
-   </td>
-   <td>✓ 
-   </td>
-   <td>Replaced with edit comment 
-   </td>
-   <td> 
-   </td>
-   <td> 
-   </td>
-   <td> 
-   </td>
-  </tr>
-  <tr>
-   <td>Turn off system updates 
-   </td>
-   <td>✓ 
-   </td>
-   <td>Replaced with Activity tab 
-   </td>
-   <td> 
-   </td>
-   <td> 
-   </td>
-   <td> 
-   </td>
-  </tr>
-  <tr>
-   <td>Edit comments 
-   </td>
-   <td> 
-   </td>
-   <td>✓ 
-   </td>
-   <td> 
-   </td>
-   <td> 
-   </td>
-   <td> 
-   </td>
-  </tr>
-  <tr>
-   <td>Saving comment drafts when navigating away from the page 
+   <td>對公司來說是私人的留言 
    </td>
    <td>✓ 
    </td>
@@ -286,7 +187,63 @@ The following table illustrates the features that will be available in the new c
    </td>
   </tr>
   <tr>
-   <td>See new comments in real time 
+   <td>撤消發佈評論 
+   </td>
+   <td>✓ 
+   </td>
+   <td><span class="preview">替換為編輯注釋 </span>
+   </td>
+   <td> 
+   </td>
+   <td> 
+   </td>
+   <td> 
+   </td>
+  </tr>
+  <tr>
+   <td>關閉系統更新 
+   </td>
+   <td>✓ 
+   </td>
+   <td>替換為活動索引標籤 
+   </td>
+   <td> 
+   </td>
+   <td> 
+   </td>
+   <td> 
+   </td>
+  </tr>
+  <tr>
+   <td>編輯注釋 
+   </td>
+   <td> 
+   </td>
+   <td><span class="preview">✓</span> 
+   </td>
+   <td> 
+   </td>
+   <td> 
+   </td>
+   <td> 
+   </td>
+  </tr>
+  <tr>
+   <td>離開頁面導覽時儲存留言草稿 
+   </td>
+   <td>✓ 
+   </td>
+   <td>✓ 
+   </td>
+   <td> 
+   </td>
+   <td> 
+   </td>
+   <td> 
+   </td>
+  </tr>
+  <tr>
+   <td>即時查看新留言 
    </td>
    <td> 
    </td>
@@ -300,7 +257,7 @@ The following table illustrates the features that will be available in the new c
    </td>
   </tr>
   <tr>
-   <td>Log time 
+   <td>記錄時間 
    </td>
    <td>✓ 
    </td>
@@ -314,7 +271,7 @@ The following table illustrates the features that will be available in the new c
    </td>
   </tr>
   <tr>
-   <td>Edit custom form 
+   <td>編輯自訂表單 
    </td>
    <td>✓ 
    </td>
@@ -328,7 +285,7 @@ The following table illustrates the features that will be available in the new c
    </td>
   </tr>
   <tr>
-   <td>Ability to edit status, condition, commit date while commenting 
+   <td>在注釋時編輯狀態、條件、提交日期的功能 
    </td>
    <td>✓ 
    </td>
@@ -342,7 +299,7 @@ The following table illustrates the features that will be available in the new c
    </td>
   </tr>
   <tr>
-   <td>Copy thread link 
+   <td>複製對話連結 
    </td>
    <td>✓ 
    </td>
@@ -350,13 +307,13 @@ The following table illustrates the features that will be available in the new c
    </td>
    <td>✓ 
    </td>
-   <td>Q2, 2023 
+   <td>2023年二季度 
    </td>
    <td> 
    </td>
   </tr>
   <tr>
-   <td>Copy comment link 
+   <td>複製注釋連結 
    </td>
    <td>✓ 
    </td>
@@ -364,13 +321,13 @@ The following table illustrates the features that will be available in the new c
    </td>
    <td>✓ 
    </td>
-   <td>Q2, 2023 
+   <td>2023年二季度 
    </td>
    <td> 
    </td>
   </tr>
   <tr>
-   <td>Quote comment text 
+   <td>報價注釋文本 
    </td>
    <td>✓ 
    </td>
@@ -378,13 +335,13 @@ The following table illustrates the features that will be available in the new c
    </td>
    <td>✓ 
    </td>
-   <td>Q2, 2023 
+   <td>2023年二季度 
    </td>
    <td> 
    </td>
   </tr>
   <tr>
-   <td>Copy body text 
+   <td>複製本文 
    </td>
    <td>✓ 
    </td>
@@ -392,13 +349,13 @@ The following table illustrates the features that will be available in the new c
    </td>
    <td>✓ 
    </td>
-   <td>Q2, 2023 
+   <td>2023年二季度 
    </td>
    <td> 
    </td>
   </tr>
   <tr>
-   <td>Resolve comments 
+   <td>解決注釋 
    </td>
    <td> 
    </td>
@@ -406,13 +363,13 @@ The following table illustrates the features that will be available in the new c
    </td>
    <td>✓ 
    </td>
-   <td>Q3, 2023 
+   <td>2023年三季度 
    </td>
    <td>✓ 
    </td>
   </tr>
   <tr>
-   <td>Search in comments 
+   <td>在注釋中搜尋 
    </td>
    <td> 
    </td>
@@ -420,7 +377,7 @@ The following table illustrates the features that will be available in the new c
    </td>
    <td>✓ 
    </td>
-   <td>Q3, 2023 
+   <td>2023年三季度 
    </td>
    <td>✓ 
    </td>
@@ -428,29 +385,42 @@ The following table illustrates the features that will be available in the new c
 </table>
 
 
-## Locate the new commenting experience
+## 找出新的註解體驗
 
-The new commenting experience is the default experience for Workfront goals. 
+檢視下列版本中的「更新」區段時，目前支援下列物件使用新的註解體驗：
 
-<div span="preview">
-For all other objects that have an Updates section, you can enable the new commenting experience by opting in to the Beta program. The Beta option will be available, gradually, for all objects that have an Updates section. 
-</div>
+* 在更新區段中啟用測試版體驗時：
 
+   <div class="preview">
 
-Currently, the new experience is available for the following objects:
+   * 問題.
+   如需管理Workfront物件更新的詳細資訊，請參閱 [更新工作](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
-* Goals. The new exprience is already the default experience for Goals. You must have an additional license to access Workfront Goals. For more information, see [Requirements to use Workfront Goals](../../workfront-goals/goal-management/access-needed-for-wf-goals.md). 
-* <span class="preview">Issues</span>
+   </div>
+
+* 依預設，作為主要的註解體驗：
+
+   * 目標
+   >[!NOTE]
+   >
+   >您必須擁有Adobe Workfront Target的額外授權，才能存取此Workfront區域。 如需詳細資訊，請參閱 [使用Workfront目標的需求](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+
+   如需管理目標更新的詳細資訊，請參閱 [管理Adobe Workfront目標中的目標註解](../../workfront-goals/goal-management/manage-goal-comments.md).
+
 
 <div class="preview">
-To enable the new commenting exprience Beta: 
 
-1. Go to an object you want to activate the new commenting exprience for, then click **Updates** in the left panel.
-1. Click **Try out the Commenting Beta** in the lower-right corner of the Updates area. 
-1. Click **Agree** in the Beta agreement box. This enables the new commenting exprience for the selected object. 
-1. Start typing an update in the **Comments** tab. The Comments tab should be the default tab when the new experience opens. 
-1. Click the  **System Activity** tab to view the activity updates generated by Workfront. 
-    For more information about updating objects in the new commenting exprience, see [Update work](../updating-work-items-and-viewing-updates/update-work.md). 
+若要啟用新的註解體驗測試版：
+
+1. 前往您要啟用新註解體驗的物件，然後按一下 **更新** 中。
+1. 按一下 **試用注釋測試版** 位於「更新」區域的右下角。
+1. 按一下 **同意** （在測試版協定框中）。 這可為所選對象啟用新的注釋體驗。
+1. 開始在 **註解** 標籤。 新體驗開啟時，「註解」索引標籤應該是預設的索引標籤
+
+   或
+
+   按一下  **系統活動** 標籤來檢視Workfront產生的活動更新。
+
+   如需在新注釋體驗中更新物件的詳細資訊，請參閱 [更新工作](../updating-work-items-and-viewing-updates/update-work.md).
 
 </div>
--->
