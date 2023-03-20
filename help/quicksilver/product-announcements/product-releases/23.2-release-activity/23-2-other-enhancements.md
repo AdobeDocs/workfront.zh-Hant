@@ -4,9 +4,9 @@ description: 23.2其他增強功能
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: 51ea73c473105f1be1eaa6791ba5b09546fe9922
+source-git-commit: b1c9a72587c0c7128feee6b5992e2069668af4f7
 workflow-type: tm+mt
-source-wordcount: '446'
+source-wordcount: '475'
 ht-degree: 0%
 
 ---
@@ -23,15 +23,26 @@ Adobe Workfront中備注體驗的更新目前正在開發中。 此更新包含�
 
 這項新體驗最終將統一Adobe Workfront及其他地區、Adobe Experience Cloud的評論。
 
-在此更新中，我們將在問題的更新區段中推出新的註解體驗。 在目前的版本中，將有可供每位使用者使用的切換按鈕，以在其自己的環境中，以測試版模式啟用此體驗。 接受測試版合約後，新的「更新」區段隨即顯示，而他們可以像現在一樣繼續管理該區段的工作。
+在此更新中，我們將在問題的更新區段中推出新的註解體驗。 在目前的版本中，將可讓每位使用者切換，以在自己的環境中（測試版）啟用此體驗。 接受測試版合約後，新的「更新」區段隨即顯示，而他們可以像現在一樣繼續管理該區段的工作。
+
 第23.1發行版本已將類似功能發行至Workfront目標。
 
 此更新包含的部分功能包括：
 
 * 分開標籤，提供注釋和系統更新
+
 * 效能更好
 
-未來版本將新增更多功能，因為功能也會新增至其他物件。
+* 新評論的即時指標。
+   >[!NOTE]
+   >
+   >即時指標的發佈被推遲。
+
+* 在提交注釋後編輯注釋。
+
+經過這次重新設計後，我們刪除了在系統更新中添加註釋。
+
+未來版本將新增更多功能，因為這些增強功能會繼續新增至其他物件。
 
 如需新評論體驗選件的相關資訊，請參閱 [統一的注釋體驗](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/unified-commenting-experience.md).
 

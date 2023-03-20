@@ -4,7 +4,7 @@ description: 23.2版本概觀
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: 456794da11baf21bcd4f138d15719007ae2759a6
+source-git-commit: b1c9a72587c0c7128feee6b5992e2069668af4f7
 workflow-type: tm+mt
 source-wordcount: '2574'
 ht-degree: 0%
@@ -485,8 +485,8 @@ ht-degree: 0%
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-other-enhancements.md" class="MCXref xref" xrefformat="{para}">問題測試版的全新註解體驗</a>
-                        <p>Adobe Workfront中備注體驗的更新目前正在開發中。 此更新包含新介面、新功能，以及部分物件的「更新」區段中改善的效能。</p>
-                        <p>這項新體驗最終將統一Adobe Workfront及其他地區、Adobe Experience Cloud的評論。</p>
+                        <p>Adobe Workfront中備注體驗的更新目前正在開發中。 此更新包含新介面、新功能，以及部分物件的「更新」區段中改善的效能。 </p>
+                        <p>這項新體驗最終將統一Adobe Workfront及其他地區、Adobe Experience Cloud的評論。 </p>
                     </td>
                     <td><p><b>可於下列日期使用：</b></p>
                         <ul>
