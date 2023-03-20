@@ -4,9 +4,9 @@ description: 23.2其他增強功能
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: b1c9a72587c0c7128feee6b5992e2069668af4f7
+source-git-commit: 8cdb0b9f529979ac5eb6ac9b0a7b52ab879defe5
 workflow-type: tm+mt
-source-wordcount: '475'
+source-wordcount: '482'
 ht-degree: 0%
 
 ---
@@ -45,6 +45,8 @@ Adobe Workfront中備注體驗的更新目前正在開發中。 此更新包含�
 未來版本將新增更多功能，因為這些增強功能會繼續新增至其他物件。
 
 如需新評論體驗選件的相關資訊，請參閱 [統一的注釋體驗](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/unified-commenting-experience.md).
+
+[觀看此功能的影片示範。](https://video.tv.adobe.com/v/3416962/){target=_blank}
 
 ## 在Adobe Workfront for XD中將畫板匯出為單一PDF或多個PDF檔案
 
