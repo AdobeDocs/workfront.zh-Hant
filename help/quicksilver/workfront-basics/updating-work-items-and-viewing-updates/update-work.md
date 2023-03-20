@@ -6,9 +6,9 @@ description: 您可以在Adobe Workfront物件（專案、任務或問題）上�
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: 4b1a82758a7e3c745e622ddbab4b0651a6b35a33
+source-git-commit: bbd99435bb07d68bf9058bcd3e8c6ef5d9df75a9
 workflow-type: tm+mt
-source-wordcount: '2690'
+source-wordcount: '2674'
 ht-degree: 1%
 
 ---
@@ -21,13 +21,24 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->我們目前正在重新設計使用對象的「更新」(Updates)部分時更新工作的方式。
->
->您可以啟用注釋測試版，以存取新設計。
->
->目前，測試版適用於 <span class="preview">問題</span>.
->
+>我們目前正在重新設計Adobe Workfront中的評論體驗。
 >如需新更新體驗的詳細資訊，請參閱 [全新評論體驗](../updating-work-items-and-viewing-updates/unified-commenting-experience.md).
+>
+>您可以訪問以下對象的新設計：
+> * <span class="preview">啟用注釋測試版時發生問題。 </span>
+   >
+   >     <span class="preview">此功能僅適用於問題的「更新」區段，不適用於下列區域：</span>
+   >
+   >     * <span class="preview">首頁</span>
+   >     * <span class="preview">清單中的摘要面板</span>
+   >     * <span class="preview">工時單中的「摘要」面板</span>
+>
+> * 目標
+   >   目標的預設值為新的註解體驗。 您必須有額外的授權才能存取Workfront Targets。 如需詳細資訊，請參閱 [使用Workfront目標的需求](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+
+   >
+   >    如需關於評論目標的資訊，請參閱 [管理Adobe Workfront目標中的目標註解](../../workfront-goals/goal-management/manage-goal-comments.md).
+
 
 您可以在「更新」區段中，為Adobe Workfront中的大部分物件新增註解。 有關哪些對象顯示「更新」部分的詳細資訊，請參閱 [更新區段概觀](../updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
@@ -173,26 +184,6 @@ drafted for P&P release:
 1. 若要回覆更新，請參閱 [回覆更新](../../workfront-basics/updating-work-items-and-viewing-updates/reply-to-updates.md).
 
 ### 使用註解測試版體驗將更新新增至工作項目
-
-
->[!NOTE]
->
->本節中描述的功能適用於以下對象：
->
->* <span class="preview">問題：當您啟用評論測試版體驗時。</span>
-   >
-   >   <span class="preview">此功能僅適用於問題的「更新」區段，不適用於下列區域：</span>
-   >
-   >   * <span class="preview">首頁</span>
-   >   * <span class="preview">清單中的摘要面板</span>
-   >   * <span class="preview">工時單中的「摘要」面板</span>
->* 目標
-
-   >
-   >   新的註解體驗是目標的預設目前體驗。
-   >   您必須有額外的授權才能存取Workfront Targets。 如需詳細資訊，請參閱 [使用Workfront目標的需求](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
-
-
 
 1. 找出您要更新的物件，然後按一下其名稱以開啟物件的頁面。
 1. 按一下  **更新** 中。

@@ -7,9 +7,9 @@ description: 對象的「更新」部分顯示用戶在跟蹤對象更改的對�
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: 4b1a82758a7e3c745e622ddbab4b0651a6b35a33
+source-git-commit: bbd99435bb07d68bf9058bcd3e8c6ef5d9df75a9
 workflow-type: tm+mt
-source-wordcount: '890'
+source-wordcount: '928'
 ht-degree: 4%
 
 ---
@@ -22,11 +22,30 @@ ht-degree: 4%
 
 >[!NOTE]
 >
->我們目前正在重新設計物件的「更新」(Updates)區段。 您可以啟用注釋測試版，以存取新設計。
+>我們目前正在重新設計物件的「更新」(Updates)區段。
 >
->目前，測試版適用於 <span class="preview">問題</span>.
+>如需新更新體驗的詳細資訊，請參閱 [全新評論體驗](../updating-work-items-and-viewing-updates/unified-commenting-experience.md).
 >
->如需新評論體驗的詳細資訊，請參閱 [全新評論體驗](../updating-work-items-and-viewing-updates/unified-commenting-experience.md).
+>您可以從以下對象和以下環境中訪問新設計：
+>
+>* <span class="preview">當您為下列物件啟用註解測試版體驗時：</span>
+   >
+   >     * <span class="preview">問題</span>
+
+   >     
+   >     <span class="preview">此功能僅適用於問題的「更新」區段，不適用於下列區域：</span>
+   >
+   >     * <span class="preview">首頁</span>
+   >     * <span class="preview">清單中的摘要面板</span>
+   >     * <span class="preview">工時單中的「摘要」面板</span>
+>
+>* 預設情況下，作為以下對象的當前注釋體驗：
+   >
+   >     * 目標
+
+   >
+   >     您必須有額外的授權才能存取Workfront Targets。 如需詳細資訊，請參閱 [使用Workfront目標的需求](../../workfront-goals/goal-management/access-needed-for-wf-goals.md). 如需關於評論目標的資訊，請參閱 [管理Adobe Workfront目標中的目標註解](../../workfront-goals/goal-management/manage-goal-comments.md).
+
 
 對象的「更新」部分顯示用戶在跟蹤對象更改的對象或系統更新上所做的注釋。
 
@@ -79,9 +98,9 @@ ht-degree: 4%
 
 ![](assets/updates-tab-after-unified-experience-for-issues.png)
 
-「更新」區段會在測試版評論體驗的下列標籤中顯示資訊：
+「更新」區段會在新的註解體驗中，於下列標籤中顯示資訊：
 
-* **更新**:顯示用戶的評論和對這些評論的回覆。 如需在新注釋體驗中更新物件的相關資訊，請參閱 [更新工作](../updating-work-items-and-viewing-updates/update-work.md).
+* **註解**:顯示用戶的評論和對這些評論的回覆。 如需在新注釋體驗中更新物件的相關資訊，請參閱 [更新工作](../updating-work-items-and-viewing-updates/update-work.md).
 * **系統活動**:顯示系統更新，這些資訊性訊息是Workfront為記錄物件上的特定事件而建立的。 例如，您可以利用系統更新擷取狀態、名稱或自訂欄位中的變更。 您的Workfront或群組管理員可以為您的物件啟用系統更新。 如需詳細資訊，請參閱 [配置系統更新](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
 
 目前，您可以使用測試版對下列物件加以註解和回覆更新：
@@ -102,14 +121,6 @@ ht-degree: 4%
   </tr> 
  </tbody> 
 </table>
-
->[!NOTE]
->
->註解體驗測試版是目標的預設目前體驗。 您必須有額外的授權才能存取Workfront Targets。
->
->如需詳細資訊，請參閱 [使用Workfront目標的需求](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
->
->如需關於評論目標的資訊，請參閱 [管理Adobe Workfront目標中的目標註解](../../workfront-goals/goal-management/manage-goal-comments.md).
 
 ## 也出現在高排名對象上的更新
 

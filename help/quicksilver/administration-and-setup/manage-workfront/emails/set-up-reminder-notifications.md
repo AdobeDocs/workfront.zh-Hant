@@ -1,13 +1,13 @@
 ---
 title: 設定提醒通知
 description: 設定提醒通知
-author: Lisa, Caroline
+author: Alina, Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 6c0fa8af-cd89-4941-a6f6-aa4e84a7dc67
-source-git-commit: 730932f6c8d4658273dd943e464a038828d288e9
+source-git-commit: bbd99435bb07d68bf9058bcd3e8c6ef5d9df75a9
 workflow-type: tm+mt
-source-wordcount: '1048'
+source-wordcount: '1146'
 ht-degree: 1%
 
 ---
@@ -93,7 +93,15 @@ An example of how this can be used would be helpful here and/or in the section <
      </tr> 
      <tr> 
       <td role="rowheader">時間</td> 
-      <td> <p>選取觸發要排程的提醒通知的事件。</p> <p>如果提醒通知是用於項目、任務或問題，則可用選項與完成日期或開始日期相關。 提醒通知會考慮項目、任務和問題的「完成」和「開始」日期上的時間戳。</p> <p>如果提醒通知是用於工時單，則可用選項與終止日期、起始日期或上次更新日期相關。 工時單的提醒通知考慮了工時單結束、開始和上次更新日期的時間戳。 時間表從開始日期的午夜開始（上午12:00），直到結束日期的午夜之前結束（晚上11:59）。</p> </td> 
+      <td> <p>選取觸發要排程的提醒通知的事件。</p> <p>如果提醒通知是用於項目、任務或問題，則可用選項與完成日期或開始日期相關。 提醒通知會考慮項目、任務和問題的「完成」和「開始」日期上的時間戳。</p>
+
+   <p>如果提醒通知是用於工時單，則可用選項與終止日期、起始日期或上次更新日期相關。 工時單的提醒通知考慮了工時單結束、開始和上次更新日期的時間戳。 時間表從開始日期的午夜開始（上午12:00），直到結束日期的午夜之前結束（晚上11:59）。</p>
+
+   <p><b>附註</b></p>
+      <p>時間表提醒通知每24小時只發送一次。</p> <p>當您在24小時內設定多個提醒通知時，Workfront會傳送一封通知電子郵件，內含該通知中包含的所有提醒。</p>
+      <p>例如，如果您配置三個提醒通知，以在10小時前、2小時前和到期日前1小時觸發，則這三個提醒都將合併到同一通知中（如果在同一天發生）。</p> <p>不過，如果您設定提醒通知的時間為26小時，而設定提醒通知的時間為到期日的前1小時，則用戶將收到兩個不同的通知。 </p>
+
+   </td> 
      </tr> 
      <tr> 
       <td role="rowheader">條件</td> 

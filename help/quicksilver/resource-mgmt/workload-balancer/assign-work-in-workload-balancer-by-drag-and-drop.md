@@ -6,7 +6,7 @@ description: 通過將工作項拖放給正確的用戶，可以使用Adobe Work
 author: Alina
 feature: Resource Management
 exl-id: caffcde8-3953-44a4-b945-76f2de84f4c6
-source-git-commit: 57ca3b58f3ef39eaea82acf609135b1e5ae8e631
+source-git-commit: bbd99435bb07d68bf9058bcd3e8c6ef5d9df75a9
 workflow-type: tm+mt
 source-wordcount: '901'
 ht-degree: 1%
@@ -35,8 +35,8 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront授權*</td> 
-   <td> <p>計畫在資源區的工作負載平衡器中分配工作</p>
-   <p>在團隊或項目的工作負載平衡器中分配工作</p>
+   <td> <p>計畫，在資源區中的工作負載平衡器中分配工作</p>
+   <p>工作，在團隊或項目的工作負載平衡器中分配工作</p>
  </td> 
   </tr> 
   <tr> 

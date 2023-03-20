@@ -6,9 +6,9 @@ description: 您可以視需要經常編輯Adobe Workfront中的專案。 理想
 author: Alina
 feature: Work Management
 exl-id: a6a1f178-189a-4c41-835b-7726081a2b49
-source-git-commit: 921749caf6a61fa4f0efae9357c6e05c581421c5
+source-git-commit: bbd99435bb07d68bf9058bcd3e8c6ef5d9df75a9
 workflow-type: tm+mt
-source-wordcount: '7666'
+source-wordcount: '7705'
 ht-degree: 2%
 
 ---
@@ -270,7 +270,15 @@ ht-degree: 2%
        <ul> 
        <li> <p><span>從「項目」區域建立項目時，項目建立者的「主組」與項目相關聯。</span> </p> <p>從產品組合或方案的「專案」區段建立專案時，也是如此。</p> </li> 
        <li> <p>從「設定」區域的組首頁建立項目時，該組與項目相關聯。</p> </li> 
-       </ul> </p> <p> <img src="assets/group-details-widget-350x351.png" style="width: 350;height: 351;"> </p> <p>如果項目或其任務或問題已與使用組層自定義狀態的組層審批流程關聯，則更改組可能會在上一組的審批狀態和系統層的現有狀態之間產生衝突。 在更新組之前，請考慮刪除項目上的組級審批流程，或刪除其任務或問題。 如需建立群組層級核准程式的相關資訊，請參閱 <a href="../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-groups-approval-processes.md" class="MCXref xref">組級審批流程</a>. 如需建立群組層級自訂狀態的相關資訊，請參閱 <a href="../../../administration-and-setup/manage-groups/manage-group-statuses/create-or-edit-a-group-status.md" class="MCXref xref">建立或編輯群組狀態</a></p> </td> 
+       </ul> </p> <p> <img src="assets/group-details-widget-350x351.png" style="width: 350;height: 351;"> </p> 
+       <p><b>附註</b></p>
+
+   <ul>
+      <li><p>如果項目或其任務或問題與組級自定義狀態相關聯，則更改項目組可能會導致項目的狀態、任務或問題更改以匹配新組。</p></li>
+      <li><p>如果項目或其任務或問題已與使用組層自定義狀態的組層審批流程關聯，則更改組可能會在上一組的審批狀態和系統層的現有狀態之間產生衝突。</p>
+      <p>在更新組之前，請考慮刪除項目上的組級審批流程，或刪除其任務或問題。</p>
+      <p>如需建立群組層級核准程式的相關資訊，請參閱 <a href="../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-groups-approval-processes.md" class="MCXref xref">組級審批流程</a>.</p>
+      <p>如需建立群組層級自訂狀態的相關資訊，請參閱 <a href="../../../administration-and-setup/manage-groups/manage-group-statuses/create-or-edit-a-group-status.md" class="MCXref xref">建立或編輯群組狀態</a></p></li></ul> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>公司</strong> </td> 

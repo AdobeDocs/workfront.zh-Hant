@@ -6,9 +6,9 @@ description: 當某人添加或答復工作對象的更新時，其答復將出�
 author: Lisa and Alina
 feature: Get Started with Workfront
 exl-id: a8271f3c-7a08-4eb3-aaff-deb250f5af73
-source-git-commit: ba1d8d5a23da7e252e8c182a6bdb1cdd1e304eab
+source-git-commit: bbd99435bb07d68bf9058bcd3e8c6ef5d9df75a9
 workflow-type: tm+mt
-source-wordcount: '798'
+source-wordcount: '1119'
 ht-degree: 1%
 
 ---
@@ -17,22 +17,28 @@ ht-degree: 1%
 
 <!--take "Beta" references out when we remove the beta-->
 
-<!-- Drafted for commenting experience: 
-
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> 
+<span class="preview">本頁強調顯示的資訊指的是尚未普遍提供的功能。 它僅在預覽環境中可用。
 
 >[!NOTE]
 >
->We are currently redesigning the commenting experience in Adobe Workfront.
->For more information about the new updating experience, see [New commenting experience](../updating-work-items-and-viewing-updates/unified-commenting-experience.md). 
+>我們目前正在重新設計Adobe Workfront中的評論體驗。
+>如需新更新體驗的詳細資訊，請參閱 [全新評論體驗](../updating-work-items-and-viewing-updates/unified-commenting-experience.md).
 >
->You can access the new design for the following objects:
-> * <span class="preview">Issues, when enabling the commenting Beta. </span>
-> * Goals
->   The new commenting experience is the default for goals. You must have an additional license to access Workfront Goals. For more information, see [Requirements to uses Workfront Goals](../../workfront-goals/goal-management/access-needed-for-wf-goals.md). 
+>您可以訪問以下對象的新設計：
+> * <span class="preview">啟用注釋測試版時發生問題。 </span>
+   >
+   >     <span class="preview">此功能僅適用於問題的「更新」區段，不適用於下列區域：</span>
+   >
+   >     * <span class="preview">首頁</span>
+   >     * <span class="preview">清單中的摘要面板</span>
+   >     * <span class="preview">工時單中的「摘要」面板</span>
+>
+> * 目標
+   >   目標的預設值為新的註解體驗。 您必須有額外的授權才能存取Workfront Targets。 如需詳細資訊，請參閱 [使用Workfront目標的需求](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
 
--->
+   >
+   >    如需關於評論目標的資訊，請參閱 [管理Adobe Workfront目標中的目標註解](../../workfront-goals/goal-management/manage-goal-comments.md).
+
 
 當某人回復工作對象的評論或系統更新時，其回復將出現在該對象的「更新」部分的通信線程中。
 
@@ -70,11 +76,10 @@ ht-degree: 1%
 
 ## 回覆更新或回覆
 
-<!--
-Replying to a comment or reply differs depending on which experience and which object you select.
+回覆留言或回覆會因您選擇的體驗和物件而異。
 
-### Reply to an update or reply in the current Updates section
--->
+### 回覆目前更新區段中的更新或回覆
+
 1. 轉到要向其添加答復的對象。
 1. 在 **更新** 頁簽，查找要回復的更新或回復。
 
@@ -92,25 +97,25 @@ Replying to a comment or reply differs depending on which experience and which o
 1. （選用）使用格式、表情符號、包含連結或影像，如文章「在Workfront更新中使用RTF」一節所述 [更新工作](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 1. 按一下 **回覆** 以儲存回覆。
 
-<!--
-
 <div class="preview">
-### Reply to a comment when using the commenting Beta experience
 
-1. Go to the object to which you want to add a reply.
-1. Click **Updates**, then click the **Comments** tab for the object and find the comment or reply to which you want to reply. 
-1. Click **Reply**. 
+### 使用評論測試版體驗時回覆留言
 
-   You can see the users who are actively engaged in the conversation at the bottom of the **New comment** box and you can add more. These users, along with any users subscribed to the object, receive a notification whenever an update or reply is made on the object. You can also tag more users to include them in your reply.  To tag more users, see [Tag others on updates](../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
+1. 轉到要向其添加答復的對象。
+1. 按一下 **更新**，然後按一下 **註解** 頁簽，找到要回復的注釋或回復。
+1. 按一下 **回覆**.
 
-1. Start typing your reply and use any additional options from the Rich Text toolbar. For information about using Rich Text, see the "Use Rich Text in a Workfront update" section in [Update work](../updating-work-items-and-viewing-updates/update-work.md). 
+   您可以在 **新留言** 框中，可以添加更多內容，或刪除不再相關的內容。 這些使用者以及訂閱物件的任何使用者，會在物件進行更新或回覆時收到通知。 您也可以標籤更多使用者，以便將他們納入回覆中。  若要標籤更多使用者，請參閱 [在更新時標籤其他人](../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
+
+1. 開始輸入您的回覆，然後使用RTF工具列中的任何其他選項。 如需使用RTF的相關資訊，請參閱以下章節： [更新工作](../updating-work-items-and-viewing-updates/update-work.md).
 
 <!--this is not yet available in beta, leave drafted:  
-1. (Optional) To include text from a previous update in your reply, click the **More** menu next to the update or reply you want to quote, then click **Quote Reply**. Text from the previous update appears in the input area, marked with a gray line. -***********close the draft here************
+1. (Optional) To include text from a previous update in your reply, click the **More** menu next to the update or reply you want to quote, then click **Quote Reply**. Text from the previous update appears in the input area, marked with a gray line. -***********close the draft here************-->
 
-1. Click **Submit** to save the reply.
+1. 按一下 **提交** 以儲存回覆。
+
 </div>
--->
+
 
 
 ## 透過電子郵件通知回覆更新
