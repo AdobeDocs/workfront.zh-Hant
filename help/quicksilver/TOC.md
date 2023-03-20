@@ -2,9 +2,9 @@
 user-guide-title: Workfront 指南
 user-guide-description: 使用文件、教學課程和其他資源，了解如何在您的組織中實施並有效使用 Adobe Workfront。
 feature-set: Workfront
-source-git-commit: 9582a06327901300d2473c1847ddaf46d88ad35e
+source-git-commit: 96819e5d81a063ad623350a0a75428629d6f7b6d
 workflow-type: tm+mt
-source-wordcount: '12773'
+source-wordcount: '12776'
 ht-degree: 1%
 
 ---
@@ -930,7 +930,7 @@ ht-degree: 1%
       * [設定卡片流失](agile/use-boards-agile-planning-tools/configure-card-falloff.md)
       * [管理工作流](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md)
       * [使用卡片清單](/help/quicksilver/agile/use-boards-agile-planning-tools/use-card-list.md)
-      * [建立小版本](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration.md)
+      * [在工作流中建立小版本](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration-in-workstream.md)
       * [檢閱迭代量度](/help/quicksilver/agile/use-boards-agile-planning-tools/review-iteration-metrics.md)
    * 敏捷團隊中的看板 {#kanban}
       * [敏捷團隊中的看板](agile/use-kanban-in-an-agile-team/using-kanban-in-an-agile-team.md)
@@ -956,8 +956,8 @@ ht-degree: 1%
          * [調整燃耗圖的大小並折疊](agile/use-scrum-in-an-agile-team/burndown/resize-collapse-burndown-chart.md)
          * [同步燃耗圖中的資料](agile/use-scrum-in-an-agile-team/burndown/sync-the-burndown-chart.md)
          * [對折磨圖使用替代的團隊計畫](agile/use-scrum-in-an-agile-team/burndown/use-alt--team-schedule-burndown-charts.md)
-      * 反覆項目 {#iterations}
-         * [反覆項目](agile/use-scrum-in-an-agile-team/iterations/iterations.md)
+      * 疊代 {#iterations}
+         * [疊代](agile/use-scrum-in-an-agile-team/iterations/iterations.md)
          * [反覆項目概觀](agile/use-scrum-in-an-agile-team/iterations/iterations-overview.md)
          * [建立小版本](agile/use-scrum-in-an-agile-team/iterations/create-an-iteration.md)
          * [在迭代中建立敏捷的故事](agile/use-scrum-in-an-agile-team/iterations/create-agile-story-in-iteration.md)

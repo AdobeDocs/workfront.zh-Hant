@@ -4,9 +4,9 @@ description: 23.2敏捷增強功能
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: 456794da11baf21bcd4f138d15719007ae2759a6
+source-git-commit: 96819e5d81a063ad623350a0a75428629d6f7b6d
 workflow-type: tm+mt
-source-wordcount: '1121'
+source-wordcount: '1124'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ Workfront展示板中提供的數項新功能，讓您能使用靈活的Scrum功
 
 請注意，集合已重新命名為工作流。 工作流程可協助您以不同方式將資料視覺化。 您可以在清單、展示板或小版本的資訊卡上顯示項目。 工作流中的資訊卡也可在多個展示板之間共用。 您可以使用工作流中的卡片和展示板，輕鬆促進工作流程。
 
-如需詳細資訊，請參閱 [管理工作流](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md), [建立小版本](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration.md)，和 [使用卡片清單](/help/quicksilver/agile/use-boards-agile-planning-tools/use-card-list.md). 第二篇文章要等到我發佈分支後，才能在Main中使用。
+如需詳細資訊，請參閱 [管理工作流](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md), [在工作流中建立小版本](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration-in-workstream.md)，和 [使用卡片清單](/help/quicksilver/agile/use-boards-agile-planning-tools/use-card-list.md). 第二篇文章要等到我發佈分支後，才能在Main中使用。
 
 ## 將清單和報表中的任務和問題添加到工作流卡清單
 

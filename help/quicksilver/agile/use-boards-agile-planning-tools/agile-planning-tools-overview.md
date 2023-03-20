@@ -7,9 +7,9 @@ description: 當您使用隨選卡和連線卡建立展示板時，可能會想�
 author: Lisa
 feature: Agile
 exl-id: c1d28eeb-e920-4f57-a94b-ffd928b384a4
-source-git-commit: 3b15ac31cc2f5f63d218e2f1efaccc250d17b00c
+source-git-commit: 96819e5d81a063ad623350a0a75428629d6f7b6d
 workflow-type: tm+mt
-source-wordcount: '161'
+source-wordcount: '164'
 ht-degree: 0%
 
 ---
@@ -46,5 +46,5 @@ ht-degree: 0%
 * [設定卡片流失](/help/quicksilver/agile/use-boards-agile-planning-tools/configure-card-falloff.md)
 * [管理工作流](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md)
 * [使用卡片清單](/help/quicksilver/agile/use-boards-agile-planning-tools/use-card-list.md)
-* [建立小版本](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration.md)
+* [在工作流中建立小版本](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration-in-workstream.md)
 * [檢閱迭代量度](/help/quicksilver/agile/use-boards-agile-planning-tools/review-iteration-metrics.md)
