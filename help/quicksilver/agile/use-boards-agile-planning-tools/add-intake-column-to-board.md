@@ -7,9 +7,9 @@ description: 您可以選擇將取用欄新增至展示板，根據您定義的�
 author: Lisa
 feature: Agile
 exl-id: 4991f4f7-6f3d-4e15-ae8d-96433ed46557
-source-git-commit: db62d7361f6d432c2ac8846938de4bc437923295
+source-git-commit: 0bcd7cbe43a03216dddabb173aa5888b97cffd23
 workflow-type: tm+mt
-source-wordcount: '752'
+source-wordcount: '765'
 ht-degree: 0%
 
 ---
@@ -64,6 +64,8 @@ ht-degree: 0%
    >[!NOTE]
    >
    >您可以篩選進項欄以同時包含任務和問題，但必須針對每個對象類型分別設定篩選器。
+   >
+   >此外，儲存的篩選器和系統預設篩選器也可供您選取。
 
 1. 在篩選面板上，按一下 **[!UICONTROL 新篩選器]** 開始使用。
 
