@@ -6,9 +6,9 @@ description: 您可以從Marketplace安裝Adobe Workfront for Photoshop外掛程
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: f5e9f121-a711-4b75-8564-54f29c5cfa48
-source-git-commit: 95bedadeb2a0a4e4e91f82c193f6e95e034a6a34
+source-git-commit: 6b6d0794b21f34eb448a1bc4b728cb8e5fe0df72
 workflow-type: tm+mt
-source-wordcount: '424'
+source-wordcount: '451'
 ht-degree: 1%
 
 ---
@@ -102,8 +102,11 @@ ht-degree: 1%
 
    >[!TIP]
    >
-   >若要尋找您的網域，請開啟瀏覽器，導覽至您的 [!DNL Workfront] 例項，並複製URL的第一部分：\
-   >![](assets/domain-350x50.png)   >
+   >* 若要尋找您的網域，請開啟瀏覽器，導覽至您的 [!DNL Workfront] 例項，並複製URL的第一部分：\
+      >![](assets/domain-350x50.png)
+   >
+   > * 如果您的Workfront執行個體已與Experience Cloud整合，請要求管理員提供Admin Console中「產品>Workfront」底下的Workfront網域。
+
 
 1. 在瀏覽器中，輸入 [!DNL Workfront] 憑據，然後按一下 **[!UICONTROL 登入]**. 如果貴公司使用單一登入(SSO)，系統會將您導向至SSO提供者的頁面以登入。
 
