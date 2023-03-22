@@ -6,9 +6,9 @@ description: 您可以在Adobe Workfront物件（專案、任務或問題）上�
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: 661688a5217589da47b8c7a0b043c8292fb346db
+source-git-commit: 809f1c3629c343a55305c0c617f4974dc05439bf
 workflow-type: tm+mt
-source-wordcount: '2674'
+source-wordcount: '2756'
 ht-degree: 1%
 
 ---
@@ -183,13 +183,14 @@ drafted for P&P release:
 
 1. 若要回覆更新，請參閱 [回覆更新](../../workfront-basics/updating-work-items-and-viewing-updates/reply-to-updates.md).
 
+<div class="preview">
+
 ### 使用註解測試版體驗將更新新增至工作項目
 
 1. 找出您要更新的物件，然後按一下其名稱以開啟物件的頁面。
 1. 按一下  **更新** 中。
-1. <span class="preview">按一下 **試用注釋測試版** 按鈕（位於「更新」區域的右下角），然後按一下 **同意** 測試版協定。 這會將「更新」區域切換為註解測試版體驗。 </span>
-此 
-**註解** 標籤。
+1. 按一下 **試用注釋測試版** 按鈕（位於「更新」區域的右下角），然後按一下 **同意** 測試版協定。 這會將「更新」區域切換為註解測試版體驗。
+此 **註解** 標籤。
 1. 開始在 **新留言** 框。
 
    ![](assets/comment-box-empty-unshimmed.png)
@@ -211,23 +212,26 @@ drafted for P&P release:
 
    如需詳細資訊，請參閱本文的「在Workfront更新中使用RTF」一節。 <!--remove this list, above, when we get to parity for Rich Text-->
 
-   <!--not available yet in preview - should be live with production: format this as a TIP: 
-      * If another user submits a comment to the same item you are updating, there will be a red line with a "New" indicator to inform you of the newer comments. 
-      * The indicator only displays only after the comment was submitted on the item, and not when the comment is still composed. 
-      * The "New" indicator displays only when both the user that entered a new update as well as the user who is currently entering an update are using the new commenting experience. 
-      ![](assets/real-time-new-red-indicator-unified-commenting.png)-->
+   >[!TIP]
+   >
+   >如果其他用戶將評論提交到您正在更新的相同項目，則會有一條紅線，帶有「New」指示器，通知您更新的評論。
+   >
+   >只有在對項目提交評論後，才會顯示指標，而不是在仍在撰寫評論時顯示。
+   >
+   >只有輸入新更新的使用者和目前輸入更新的使用者都使用新的註解體驗時，才會顯示「新」指標。
+   >![](assets/real-time-new-red-indicator-unified-commenting.png)
+
 
 1. 按一下 **提交** 將更新新增至Workfront物件。
-1. <span class="preview">（選用）若要編輯留言，請按一下 **更多** 功能表 ![](assets/more-menu.png) 在「贊」圖示的右側，然後按一下 **編輯**.</span>
-1. <span class="preview">編輯注釋中的資訊，或刪除任何標籤的用戶。 </span>
-
-   <span class="preview">您可以在15內編輯意見，提交後即可。 更新註解時，會在顯示的日期戳記左側新增「已編輯」指標。 </span>
+1. （選用）若要編輯留言，請按一下 **更多** 功能表 ![](assets/more-menu.png) 在「贊」圖示的右側，然後按一下 **編輯**.
+1. 編輯注釋中的資訊，或刪除任何標籤的用戶。
+您可以在15內編輯意見，提交後即可。 更新註解時，會在顯示的日期戳記左側新增「已編輯」指標。
 
    ![](assets/edited-tag-on-comment-unified-commenting.png)
 
    >[!TIP]
    >
-   >   <span class="preview">系統只會在您提交原始更新時，產生電子郵件，通知使用者您的更新。 編輯更新後不會產生任何電子郵件。</span>
+   >   系統只會在您提交原始更新時，產生電子郵件，通知使用者您的更新。 編輯更新後不會產生任何電子郵件。
 1. （選用）按一下 **回覆** 若要回覆現有意見，請遵循上述步驟4至7。 <!--(**************insure this stays accurate***********)-->. 如需回覆更新的相關資訊，請參閱 [回覆更新](../../workfront-basics/updating-work-items-and-viewing-updates/reply-to-updates.md).
 1. （選用）按一下 **贊** 圖示![](assets/like-icon.png). 圖示會隨按贊次數更新。
 1. （條件式和可選）如果注釋中包括了其他人員，請按一下更新中包括的成員數，以顯示您輸入的注釋被共用的實體清單。
@@ -241,6 +245,7 @@ drafted for P&P release:
    >
    >無法向系統更新添加註釋。
 
+</div>
 
 ## 在Workfront更新中使用RTF
 

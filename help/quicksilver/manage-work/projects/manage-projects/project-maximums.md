@@ -3,20 +3,20 @@ title: 專案限制概觀
 content-type: overview
 product-area: projects
 navigation-topic: manage-projects
-description: Adobe Workfront有限制可與專案相關聯的物件數。 已設定專案限制，以改善產品效能並提升您使用Workfront的體驗。
+description: Adobe Workfront有限制可與專案關聯的物件數。 已設定專案限制，以改善產品效能並提升您使用Workfront的體驗。
 author: Alina
 feature: Work Management
 exl-id: 60576107-89f1-4328-89e2-5b1e5e243fd9
-source-git-commit: 11c4028038fe3d410ee0d4f238d2138435d9a3fa
+source-git-commit: 809f1c3629c343a55305c0c617f4974dc05439bf
 workflow-type: tm+mt
-source-wordcount: '327'
+source-wordcount: '385'
 ht-degree: 0%
 
 ---
 
 # 專案限制概觀
 
-Adobe Workfront有限制可與專案關聯的物件數。 已設定專案限制，以改善產品效能並提升您使用Workfront的體驗。
+Adobe Workfront有限制可與專案相關聯的物件數。 已設定專案限制，以改善產品效能並提升您使用Workfront的體驗。
 
 與項目關聯的以下對象具有以下限制：
 
@@ -26,7 +26,20 @@ Adobe Workfront有限制可與專案關聯的物件數。 已設定專案限制�
  <tbody> 
   <tr> 
    <td role="rowheader"><p>任務</p></td> 
-   <td>  <p>每個項目的任務數上限為5,000。 當任務數達到此上限時，會顯示警告訊息。 達到上限時，會顯示錯誤訊息，且無法將其他工作新增至專案。</p> <p>為避免達到此最大值，請將已關閉的任務移至為已結束任務指定的另一個項目。 這些項目的報告可能需要調整。</p> </td> 
+   <td>  <p>每個項目的任務數上限為5,000。 當任務數達到此上限時，會顯示警告訊息。 達到上限時，會顯示錯誤訊息，且無法將其他工作新增至專案。</p> <p>為避免達到此最大值，請將已關閉的任務移至為已結束任務指定的另一個項目。 這些項目的報告可能需要調整。</p>
+
+<b>重要</b>
+
+對於任務具有大量依賴項的項目，我們建議項目中的任務數應遠低於允許的5,000個任務的最大數。
+
+可能會影響或阻止重新計算項目時間表的任務依賴關係的一些示例如下：
+
+<ul><li>子代數</li>
+   <li>多級任務縮進</li>
+   <li>前置任務數</li>
+   <li>多項分配</li>
+   </ul>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><p>問題</p></td> 
