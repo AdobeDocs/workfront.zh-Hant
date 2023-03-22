@@ -4,9 +4,9 @@ description: 23.2其他增強功能
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: 8cdb0b9f529979ac5eb6ac9b0a7b52ab879defe5
+source-git-commit: 92c995dff3498f625cf7928ca2cef928b106be8d
 workflow-type: tm+mt
-source-wordcount: '482'
+source-wordcount: '473'
 ht-degree: 0%
 
 ---
@@ -34,9 +34,6 @@ Adobe Workfront中備注體驗的更新目前正在開發中。 此更新包含�
 * 效能更好
 
 * 新評論的即時指標。
-   >[!NOTE]
-   >
-   >即時指標的發佈被推遲。
 
 * 在提交注釋後編輯注釋。
 
