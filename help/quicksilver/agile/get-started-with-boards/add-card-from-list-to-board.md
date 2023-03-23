@@ -1,13 +1,13 @@
 ---
 product-area: agile-and-teams
 navigation-topic: get-started-with-boards
-title: 將現有工作或問題新增至Adobe Workfront展示板
+title: 將現有工作或問題新增至Adobe Workfront展示板或工作流
 description: 您可以從清單或報表檢視，將任何任務或問題新增至Adobe Workfront的展示板。
 author: Lisa
 feature: Agile
-source-git-commit: fd0b220801d26e10ad65ac7d6b8fa17bbeec629a
+source-git-commit: 36144b10a55a4732b7c50c2aea8e2ebb219efc4c
 workflow-type: tm+mt
-source-wordcount: '447'
+source-wordcount: '586'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 {{highlighted-preview-article-level}}
 
-您可以將任何任務或問題新增至 [!DNL Adobe Workfront] 清單或報表檢視。
+您可以將任何任務或問題新增至 [!DNL Adobe Workfront] 從清單或報表檢視，或從物件詳細資訊。
 
 ## 存取需求
 
@@ -43,36 +43,45 @@ ht-degree: 0%
 
 &#42;若要了解您擁有的計畫、授權類型或存取權，請聯絡您的 [!DNL Workfront] 管理員。
 
-## 將現有任務或問題新增至展示板
+## 將現有任務或問題從清單添加到展示板或工作流
 
 1. 按一下 **[!UICONTROL 主菜單]** 圖示 ![](assets/main-menu-icon.png) 在 [!DNL Adobe Workfront].
 1. 選擇以下選項之一： **[!UICONTROL 專案]**, **[!UICONTROL 報表]**，或 **[!UICONTROL 控制面板]**.
-1. 轉到包含要添加到展示板的任務或問題的項目、報告或儀表板。
+1. 轉到包含要添加到展示板或工作流的任務或問題的項目、報告或儀表板。
 1. 選取一或多個工作或問題。
-1. 按一下 [!UICONTROL **更多**] > [!UICONTROL **新增至展示板**].
-1. 在 [!UICONTROL 添加到] 對話框，選擇要添加項的展示板。
+1. 按一下 [!UICONTROL **更多**] > [!UICONTROL **新增至展示板**] 或 [!UICONTROL **新增至工作流**].
+1. 在 [!UICONTROL 添加到] 對話框，選擇要添加項的展示板或工作流。
 
-   此選項僅提供獨立展示板，而不提供屬於工作流一部分的展示板。
+   對於展示板，僅提供獨立展示板，而不提供屬於工作流程一部分的展示板。
 
 1. 按一下 [!UICONTROL **新增**].
 
-   任務或問題會新增至展示板。 如果展示板已套用欄原則以設定狀態，則卡片會新增至與其狀態對應的欄中。 否則，它會出現在左側的第一欄中，而不包括進氣欄。
+   對於展示板：任務或問題會新增至展示板。 如果展示板已套用欄原則以設定狀態，則卡片會新增至與其狀態對應的欄中。 否則，它會出現在左側的第一欄中，而不包括進氣欄。
 
    有關列策略的資訊，請參見 [管理展示板欄](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md).
 
-## 將現有任務或問題添加到工作流
+   工作流：任務或問題將作為計畫外卡添加到工作流的卡清單中。
+
+## 從對象詳細資訊將現有任務或問題添加到展示板或工作流
 
 1. 按一下 **[!UICONTROL 主菜單]** 圖示 ![](assets/main-menu-icon.png) 在 [!DNL Adobe Workfront].
-1. 選擇以下選項之一： **[!UICONTROL 專案]**, **[!UICONTROL 報表]**，或 **[!UICONTROL 控制面板]**.
-1. 移至包含要新增至工作流的任務或問題的專案、報表或控制面板。
-1. 選取一或多個工作或問題。
-1. 按一下 [!UICONTROL **更多**] > [!UICONTROL **添加到工作流**].
-1. 在 [!UICONTROL 添加到] 對話框，選擇要添加項的工作流。
+1. 按一下 [!UICONTROL **專案**]，然後按一下專案名稱以開啟。
+1. 按一下 [!UICONTROL **工作**] 或 [!UICONTROL **問題**] 中。
+1. 按一下要添加到展示板或工作流的任務或問題。
+1. 按一下 **[!UICONTROL 更多]** 對象名稱旁的菜單，並選擇 [!UICONTROL **新增至展示板**] 或 [!UICONTROL **新增至工作流**].
+1. 在 [!UICONTROL 添加到] 對話框，選擇要添加項的展示板或工作流。
+
+   對於展示板，僅提供獨立展示板，而不提供屬於工作流程一部分的展示板。
+
 1. 按一下 [!UICONTROL **新增**].
 
-   任務或問題將作為計畫外卡添加到工作流的卡清單中。
+   對於展示板：任務或問題會新增至展示板。 如果展示板已套用欄原則以設定狀態，則卡片會新增至與其狀態對應的欄中。 否則，它會出現在左側的第一欄中，而不包括進氣欄。
 
-## 顯示與任務或問題關聯的展示板
+   有關列策略的資訊，請參見 [管理展示板欄](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md).
+
+   工作流：任務或問題將作為計畫外卡添加到工作流的卡清單中。
+
+## 顯示清單中與任務或問題關聯的展示板
 
 1. 前往專案、報表或控制面板，其中包含您要查看展示板資訊的任務或問題。
 1. 選取包含「展示板」欄的檢視，或使用「展示板」欄建立新檢視。
