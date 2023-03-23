@@ -6,7 +6,7 @@ description: 案頭校對檢視器主要用於校對互動式內容，是必須�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 4441cf7f-13c7-4bd5-a971-2c9c0302d309
-source-git-commit: 7ef1d55a7d743d83bd4f6625252848442919b9f4
+source-git-commit: c3c19f1913d5bab233a0d218ba87c69dead82215
 workflow-type: tm+mt
 source-wordcount: '583'
 ht-degree: 0%
@@ -53,8 +53,8 @@ ht-degree: 0%
 
 1. 執行下列其中一項操作來下載應用程式：
 
-   * 如果您使用的是生產環境，請按一下  [Mac Production Download for the Desktop Prooding Viewer（案頭校對檢視器的生產下載）。](https://assets.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof-2.1.22.pkg)
-   * 如果您使用預覽環境，請按一下  [Mac案頭校對檢視器的預覽下載。](https://assets.preview.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof+Preview-2.1.22.pkg)
+   * 如果您使用的是生產環境，請按一下  [Mac Production Download for the Desktop Prooding Viewer（案頭校對檢視器的生產下載）。](https://assets.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof-2.1.23.pkg)
+   * 如果您使用預覽環境，請按一下  [Mac案頭校對檢視器的預覽下載。](https://assets.preview.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof+Preview-2.1.23.pkg)
 
 1. 開啟剛下載的檔案以開始安裝。
 1. 在出現的安裝方塊上，按一下 **繼續**，然後按一下 **安裝**.
@@ -76,8 +76,8 @@ ht-degree: 0%
 
 1. 執行下列其中一項操作來下載應用程式：
 
-   * 在「生產」環境中，按一下  [用於案頭校對查看器的Windows生產下載。](https://assets.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof+Setup+2.1.22.exe)
-   * 在預覽環境中，按一下  [案頭校對查看器的Windows預覽下載](https://assets.preview.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof+Preview+Setup+2.1.22.exe).
+   * 在「生產」環境中，按一下  [用於案頭校對查看器的Windows生產下載。](https://assets.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof+Setup+2.1.23.exe)
+   * 在預覽環境中，按一下  [案頭校對查看器的Windows預覽下載](https://assets.preview.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof+Preview+Setup+2.1.23.exe).
 
 1. 開啟剛下載的檔案以開始安裝。
 1. 在顯示的安裝方塊中，開啟您剛下載的檔案以開始安裝。
