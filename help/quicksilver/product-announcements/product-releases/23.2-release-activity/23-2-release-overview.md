@@ -4,9 +4,9 @@ description: 23.2版本概觀
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: 8cdb0b9f529979ac5eb6ac9b0a7b52ab879defe5
+source-git-commit: b7c32457f3bb39293f4272a69cd3557a08a1ba27
 workflow-type: tm+mt
-source-wordcount: '2577'
+source-wordcount: '2641'
 ht-degree: 0%
 
 ---
@@ -116,7 +116,23 @@ ht-degree: 0%
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Adobe Workfront展示板中可用的迭代功能</a><span style="color: #ff0000;"> 預覽新增功能！</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">將物件詳細資訊中的工作和問題新增至Workfront展示板或工作流</a><span style="color: #ff0000;"> 預覽新增功能！</span></p>
+                        <p>您現在可以直接從物件詳細資訊，將現有工作或問題新增至Workfront展示板或工作流卡清單。 您添加到展示板的任何項目都將成為已連接的卡片，而添加到工作流的任何項目都將作為計畫外卡片添加到卡片清單中。</p>
+                    </td>
+                    <td><p><b>可於下列日期使用：</b></p>
+                        <ul>
+                            <li>
+                                <p>預覽版本：2023年3月23日<br /></p>
+                            </li>
+                            <li>
+                                <p>生產版本：隨第23.2發行版本一起推出</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr> 
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Adobe Workfront展示板中可用的迭代功能</a></p>
                         <p>Workfront展示板中提供的數項新功能，讓您能使用靈活的Scrum功能。 這些功能包括：
                         <ul>
                         <li>將與同一團隊相關的展示板分組並協作的工作流</li>
@@ -138,7 +154,7 @@ ht-degree: 0%
                 </tr> 
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">將清單和報表中的任務和問題添加到工作流卡清單</a><span style="color: #ff0000;"> 預覽新增功能！</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">將清單和報表中的任務和問題添加到工作流卡清單</a></p>
                         <p>您現在可以直接從清單或報表檢視，將現有工作或問題新增至Workfront展示板中的工作流。 您添加到工作流的任何項目都將作為計畫外卡添加到卡清單中。</p>
                     </td>
                     <td><p><b>可於下列日期使用：</b></p>
@@ -154,7 +170,7 @@ ht-degree: 0%
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">將自訂欄位新增至展示板上的資訊卡</a><span style="color: #ff0000;"> 預覽新增功能！</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">將自訂欄位新增至展示板上的資訊卡</a></p>
                         <p>您現在可以在Adobe Workfront展示板上包含自訂欄位。 欄位必須已在Workfront中建立。 您無法在展示板內設計和建立新的自訂欄位。</p>
                     </td>
                     <td><p><b>可於下列日期使用：</b></p>
@@ -484,7 +500,7 @@ ht-degree: 0%
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-other-enhancements.md" class="MCXref xref" xrefformat="{para}">問題測試版的全新註解體驗<span style="color: #ff0000;"> 預覽新增功能！</span></a>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-other-enhancements.md" class="MCXref xref" xrefformat="{para}">問題測試版的全新註解體驗</a>
                         <p>Adobe Workfront中備注體驗的更新目前正在開發中。 此更新包含新介面、新功能，以及部分物件的「更新」區段中改善的效能。 </p>
                         <p>這項新體驗最終將統一Adobe Workfront及其他地區、Adobe Experience Cloud的評論。 </p>
                     </td>

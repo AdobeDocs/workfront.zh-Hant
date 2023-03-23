@@ -4,9 +4,9 @@ description: 23.2敏捷增強功能
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: 96819e5d81a063ad623350a0a75428629d6f7b6d
+source-git-commit: b7c32457f3bb39293f4272a69cd3557a08a1ba27
 workflow-type: tm+mt
-source-wordcount: '1124'
+source-wordcount: '1204'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,12 @@ ht-degree: 0%
 本頁說明在「預覽」環境中23.2版所做的所有敏捷增強功能。 這些增強功能將於23.2版的生產環境中提供使用。
 
 如需23.2版本週期中此時所有可用變更的清單，請參閱 [23.2版本概觀](/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-release-overview.md).
+
+## 將物件詳細資訊中的工作和問題新增至Workfront展示板或工作流
+
+您現在可以直接從物件詳細資訊，將現有工作或問題新增至Workfront展示板或工作流卡清單。 您添加到展示板的任何項目都將成為已連接的卡片，而添加到工作流的任何項目都將作為計畫外卡片添加到卡片清單中。
+
+如需詳細資訊，請參閱 [將現有任務或問題新增至展示板](/help/quicksilver/agile/get-started-with-boards/add-card-from-list-to-board.md).
 
 ## Adobe Workfront展示板中可用的迭代功能
 
@@ -28,6 +34,8 @@ Workfront展示板中提供的數項新功能，讓您能使用靈活的Scrum功
 請注意，集合已重新命名為工作流。 工作流程可協助您以不同方式將資料視覺化。 您可以在清單、展示板或小版本的資訊卡上顯示項目。 工作流中的資訊卡也可在多個展示板之間共用。 您可以使用工作流中的卡片和展示板，輕鬆促進工作流程。
 
 如需詳細資訊，請參閱 [管理工作流](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md), [在工作流中建立小版本](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration-in-workstream.md)，和 [使用卡片清單](/help/quicksilver/agile/use-boards-agile-planning-tools/use-card-list.md). 第二篇文章要等到我發佈分支後，才能在Main中使用。
+
+[觀看此功能的影片示範](https://video.tv.adobe.com/v/3417059/){target=_blank}
 
 ## 將清單和報表中的任務和問題添加到工作流卡清單
 
