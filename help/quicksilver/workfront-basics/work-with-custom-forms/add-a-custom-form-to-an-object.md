@@ -7,16 +7,16 @@ description: 您可以將現有的自訂表單新增至下列任何物件。 自
 author: Alina
 feature: Get Started with Workfront
 exl-id: c06666a7-ab78-4311-8fcb-1d1a68034133
-source-git-commit: 921749caf6a61fa4f0efae9357c6e05c581421c5
+source-git-commit: addcff71ff067be22e9ee80f997af545293fa5db
 workflow-type: tm+mt
-source-wordcount: '856'
+source-wordcount: '869'
 ht-degree: 1%
 
 ---
 
 # 將自訂表單新增至物件
 
-<span class="preview">本頁強調顯示的資訊指的是尚未普遍提供的功能。 它僅在預覽環境中可用。</span>
+<span class="preview">本頁強調顯示的資訊指的是尚未普遍提供的功能。 它適用於預覽環境中的所有客戶，以及生產環境中的特定一組客戶。</span>
 
 您可以將現有的自訂表單新增至下列任何物件。 自訂表單包含自訂欄位，您可在其中儲存物件的相關資訊。
 
@@ -28,7 +28,7 @@ ht-degree: 1%
 * 計劃
 * 文件
 * 使用者
-* 反覆項目
+* 疊代
 * 費用
 * 帳單記錄
 

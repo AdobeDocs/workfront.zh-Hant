@@ -7,16 +7,16 @@ description: 無法按多選自訂欄位來繪製報表圖表。 您需要建立
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: cda77319-dce6-409d-8f59-53838820cafb
-source-git-commit: 23257f11b0795aa1f1e422923f6d596017c58126
+source-git-commit: addcff71ff067be22e9ee80f997af545293fa5db
 workflow-type: tm+mt
-source-wordcount: '796'
+source-wordcount: '809'
 ht-degree: 0%
 
 ---
 
 # 按多選自訂欄點陣圖表報表
 
-<span class="preview">本頁強調顯示的資訊指的是尚未普遍提供的功能。 它僅在預覽環境中可用。</span>
+<span class="preview">本頁強調顯示的資訊指的是尚未普遍提供的功能。 它適用於預覽環境中的所有客戶，以及生產環境中的特定一組客戶。</span>
 
 無法按多選自訂欄位來繪製報表圖表。 您需要建立參照多選自訂欄位的其他計算欄位，以便依多選自訂欄位的值來繪製報表。
 
