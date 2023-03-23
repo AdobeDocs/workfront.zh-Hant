@@ -6,9 +6,9 @@ description: 您可以使用 [!DNL Adobe Workfront for Jira] 整合 [!DNL Jira] 
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 959adc88-5201-4945-96c4-ea890f0bd371
-source-git-commit: f22a67cd3235a3111f7b874637ec05f8299de271
+source-git-commit: d2c366a69b986bd8d559a18994810011c6d33441
 workflow-type: tm+mt
-source-wordcount: '2400'
+source-wordcount: '2413'
 ht-degree: 0%
 
 ---
@@ -89,12 +89,13 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >[!UICONTROL Workfront] 連接 [!DNL Jira] 使用OAuth 2.0，此標準供大部分網頁型整合用來驗證和授權使用者。
+   >使用者必須具備有效 `apiKey` in [!UICONTROL Workfront] 來建立成功的連線。
 
    您必須登入 [!DNL Workfront] as a [!DNL Workfront] 管理員繼續配置。
 
    >[!NOTE]
    >
+   >* [!UICONTROL Workfront] 連接 [!DNL Jira] 使用OAuth 2.0，此標準供大部分網頁型整合用來驗證和授權使用者。
    >* 當系統提示您輸入 [!DNL Workfront] 帳戶，請使用此格式輸入： *yourCompany&#39;sDomain.my.workfront.com*. 您公司的網域通常是您公司的名稱。
    >* 增強驗證必須在 [!DNL Workfront] 管理員會啟用此整合。
 
