@@ -6,9 +6,9 @@ description: 匯出資料的部分原因為 — EDIT ME。
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 7fd45fa2-f5d2-411d-849e-cff5be420fbc
-source-git-commit: a849ecaf6097dcdc924aaab2867f37bf57d5bc09
+source-git-commit: 754ff1d13cd2549f09cfb127786a0a1eeda51a9d
 workflow-type: tm+mt
-source-wordcount: '2116'
+source-wordcount: '2181'
 ht-degree: 0%
 
 ---
@@ -95,7 +95,7 @@ ht-degree: 0%
 ### 匯出限制 {#export-limits}
 
 <!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: Alina: [! This information is shared between "Exporting Data" and "Setting Up Report Deliveries."])</p>
+NOTE: Alina: [! This information is shared between "Exporting Data" and "Setting Up Report Deliveries."]
 -->
 
 Workfront中報表的顯示方式，以及透過手動匯出、傳送報表或API匯出的方式，都有幾項限制。
@@ -106,9 +106,13 @@ Workfront中報表的顯示方式，以及透過手動匯出、傳送報表或AP
    * 若為Excel .xlsx檔案，此限制為 **100,000列**.
    * 這些限制會排除欄標題，以及報表中分組的列。 例如，若報表中有6個群組，以及50,000列或資料，則匯出的檔案將會有50,000列。
 
-   >[!NOTE]
+   >[!IMPORTANT]
    >
-   >如果報表的項目數超過這些限制，您會收到匯出未成功的錯誤。 將您在畫面上看到的項目數減少為小於或等於這些限制，以便匯出結果。
+   >匯出報表（在欄中包含集合參考）可能會導致錯誤，即使報表不在所列的匯出限制內亦然。 如果引用的集合太大，則導出進程會超時，並隨後導致錯誤。
+   >
+   >要避免此錯誤，請排除引用大型集合的列，或在導出之前縮小引用的集合的大小。
+
+   如果報表的項目數超過這些限制，您會收到匯出未成功的錯誤。 將您在畫面上看到的項目數減少為小於或等於這些限制，以便匯出結果。
 
    如果您的報表超過50,000/65,000/100,000列，且您想要匯出所有資料，建議您使用篩選器或提示來取得較少的資料載入，並執行多次匯出。
 
