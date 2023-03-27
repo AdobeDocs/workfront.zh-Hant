@@ -8,9 +8,9 @@ author: Courtney, Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 0343fe74-1be4-43e2-9e3d-8aa1f7ea26fa
-source-git-commit: 8420f65e84edd42204d91aa503ff0b95153a1e67
+source-git-commit: fed4713d1e9044879db6d34dc4725245a2516634
 workflow-type: tm+mt
-source-wordcount: '2739'
+source-wordcount: '2786'
 ht-degree: 0%
 
 ---
@@ -91,10 +91,16 @@ ht-degree: 0%
       <td role="rowheader">喜好設定 </td> 
       <td> 
        <ul> 
-        <li> <p><b>時區：</b> 使用者的時區。</p> <p>如需協助使用者在Workfront中跨時區進行協作的詳細資訊，請參閱 <a href="../../../workfront-basics/tips-tricks-and-troubleshooting/working-across-timezones.md" class="MCXref xref">跨時區工作</a>.</p> </li> 
-        <li><b>電子郵件地區</b>:使用者偏好的電子郵件地區設定。 這會影響來自Workfront之電子郵件中的數字和日期格式。</li> 
-        <li><b>顯示更新狀態完成百分比</b>:如果要在此用戶任務的「更新」區域內顯示完成百分比欄，請核取此選項。</li> 
-        <li><b>將我指派給自己的工作發送到「工作」頁簽</b>:如果希望用戶指派給自己的所有內容都直接顯示在「正在工作」(Working On)頁簽上，請核取此選項。 預設值是在其「工作請求」索引標籤中列出指派給使用者的所有內容。</li> 
+      <li> <p><b>時區：</b> 使用者的時區。</p> <p>如需協助使用者在Workfront中跨時區進行協作的詳細資訊，請參閱 <a href="../../../workfront-basics/tips-tricks-and-troubleshooting/working-across-timezones.md" class="MCXref xref">跨時區工作</a>.</p> </li> 
+       <li><b>電子郵件地區</b>:使用者偏好的電子郵件地區設定。 這會影響來自Workfront之電子郵件中的數字和日期格式。</li>
+
+   <li><b>從此測試環境接收電子郵件</b>:如果您想要從目前登入的環境接收電子郵件通知，請核取此選項。
+      <p><b>附註</b></p>
+      此選項僅適用於預覽和沙箱環境。 依預設，會在生產環境中啟用電子郵件通知。 
+      </li>
+
+   <li><b>顯示更新狀態完成百分比</b>:如果要在此用戶任務的「更新」區域內顯示完成百分比欄，請核取此選項。</li> 
+       <li><b>將我指派給自己的工作發送到「工作」頁簽</b>:如果希望用戶指派給自己的所有內容都直接顯示在「正在工作」(Working On)頁簽上，請核取此選項。 預設值是在其「工作請求」索引標籤中列出指派給使用者的所有內容。</li> 
        </ul> </td> 
      </tr> 
      <tr> 
