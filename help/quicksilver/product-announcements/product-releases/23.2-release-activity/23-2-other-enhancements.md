@@ -4,9 +4,9 @@ description: 23.2其他增強功能
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: 92c995dff3498f625cf7928ca2cef928b106be8d
+source-git-commit: d989ab316c48550f35e17fabc58e23a0db108f7f
 workflow-type: tm+mt
-source-wordcount: '473'
+source-wordcount: '510'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,13 @@ ht-degree: 0%
 本頁說明在「預覽」環境中23.2版所做的所有其他增強功能。 這些增強功能將於23.2版的生產環境中提供使用。
 
 如需23.2版本週期中此時所有可用變更的清單，請參閱 [23.2版本概觀](/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-release-overview.md).
+
+## Workfront新增Creative Cloud外掛程式
+
+我們已針對Creative Cloud外掛程式在Workfront中新增下列變更：
+
+* 外掛程式現在會在任務有前置任務時通知您
+* 韓語現在是支援的語言
 
 ## 問題測試版的全新註解體驗
 

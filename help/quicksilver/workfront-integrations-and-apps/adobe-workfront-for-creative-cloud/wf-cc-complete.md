@@ -6,9 +6,9 @@ description: 您可以繼續使用Adobe Creative Cloud應用程式，順暢地�
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: d94a2b10-51d5-4995-b7b3-793d7911fca9
-source-git-commit: fc3eb30cef2e17524b5cbd50219861f293a2ea9d
+source-git-commit: 012c2fbe923ed75587c236bc32436196bab9d9d0
 workflow-type: tm+mt
-source-wordcount: '162'
+source-wordcount: '189'
 ht-degree: 0%
 
 ---
@@ -60,5 +60,11 @@ ht-degree: 0%
 
 1. 從 **[!UICONTROL 工作清單]**，選擇要標籤完成的任務或問題。
 1. 按一下 **[!UICONTROL 完成]**.\
-   這會在Workfront中標示項目完成。\
-   ![](assets/complete-work-350x529.png)
+   這會在Workfront中標示項目完成。
+
+   >[!NOTE]
+   >
+   >如果工作項具有前置項，則在這些前置項標籤為完成之前，「完成」按鈕將呈灰色。 要查看的前置任務 [!DNL Workfront]，按一下任務名稱。
+   >![](assets/navigate-to-workfront.png)
+
+<!-- I dont think we need this one ![](assets/complete-work-350x529.png) -->
