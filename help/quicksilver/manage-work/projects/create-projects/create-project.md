@@ -2,13 +2,13 @@
 product-area: projects
 navigation-topic: create-projects
 title: 建立專案
-description: (注意：這是從傳統版中「專案」全域導覽區段的UI連結。 請勿變更/移除)
+description: 一個項目是Adobe Workfront的一大單位。 您可以從草稿開始建立專案、使用範本，或將問題或任務轉換為專案。
 author: Alina
 feature: Work Management
 exl-id: d4e28fa6-25f9-4765-b051-8960c8873d5a
-source-git-commit: e83d4742106bc3cb5adb939040997959315dd1e2
+source-git-commit: 590fd9e5b9ad6cce9c66b708959033ee780b1f10
 workflow-type: tm+mt
-source-wordcount: '977'
+source-wordcount: '1206'
 ht-degree: 1%
 
 ---
@@ -127,13 +127,21 @@ ht-degree: 1%
 * Workfront會先套用群組的設定（如果有的話），再套用Workfront管理員設定的設定。
 * 如果您使用範本建立專案，範本的設定優先於Workfront或群組管理員所建立的設定。
 
->[!NOTE]
->
->建議新項目的預設狀態為「計畫」。 當您變更新專案時，這可確保通知不會觸發給指派給專案的使用者。
+   >[!NOTE]
+   >
+   >建議新項目的預設狀態為「計畫」。 當您變更新專案時，這可確保通知不會觸發給指派給專案的使用者。
+   >
+   >有關為新項目設定預設狀態和其他預設設定的詳細資訊，請參閱 [配置系統範圍的項目首選項](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md) 或 [配置組的項目首選項](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-project-preferences-group.md).
 
-有關為新項目設定預設狀態和其他預設設定的詳細資訊，請參閱 [配置系統範圍的項目首選項](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+* Workfront將新專案的群組和狀態定義為：
 
+   * 從模板建立的新項目的預設狀態與主「項目首選項」區域中的Workfront管理員或組的「項目首選項」區域中的組管理員(或Workfront管理員)所定義的狀態相對應。
 
+   * 新項目組是模板組。 如果模板未與組關聯，則項目組是建立項目的用戶的首頁組。
+
+   * 新項目可用的狀態與項目組的狀態匹配，該項目組是模板組或建立項目的用戶的首頁組。
+
+   * 通過將問題轉換為項目而建立的新項目組是問題的現有項目組。 如果轉換問題的使用者無權存取問題的專案，則新專案的群組為轉換問題的使用者的首頁群組。 新項目的狀態與與項目關聯的組的組狀態匹配，該組是原始項目的組或轉換問題的用戶的主組。
 
 ## 從頭建立專案
 

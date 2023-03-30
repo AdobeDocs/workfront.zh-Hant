@@ -2,26 +2,33 @@
 product-area: projects;templates
 navigation-topic: create-projects
 title: 使用範本建立專案
-description: 您可以使用範本作為架構來建立新專案。 如果您的專案經常重複，則在新專案的一般時間軸中使用範本，可省去重複建立相同專案的繁瑣工作。
+description: 您可以使用範本作為建立專案的架構。 如果您的專案經常重複，則在新專案的一般時間軸中使用範本，可省去重複建立相同專案的繁瑣工作。
 author: Alina
 feature: Work Management
 exl-id: 622cbfe0-b8c0-4045-bef2-9e21d45bfda0
-source-git-commit: bbd64e9deed1b89d720272508b3562c354578704
+source-git-commit: e38411056b3f9be6d0241ee18e71984ef2a678a0
 workflow-type: tm+mt
-source-wordcount: '1025'
+source-wordcount: '1104'
 ht-degree: 1%
 
 ---
 
 # 使用範本建立專案
 
-您可以使用範本作為架構來建立新專案。 如果您的專案經常重複，則在新專案的一般時間軸中使用範本，可省去重複建立相同專案的繁瑣工作。
+您可以使用範本作為建立專案的架構。 如果您的專案經常重複，則在新專案的一般時間軸中使用範本，可省去重複建立相同專案的繁瑣工作。
 
-範本可讓您擷取與專案相關聯的所有可重複的程式、資訊和設定。 與模板關聯的所有資訊都將傳輸到項目。 這包括任務、分配、持續時間、文檔、財務詳細資訊、風險和自定義表單。
+範本可讓您擷取與專案相關聯的可重複的程式、資訊和設定。 與模板相關的資訊將傳輸到項目。 這包括任務、分配、持續時間、文檔、財務詳細資訊、風險和自定義表單。
 
 >[!TIP]
 >
->從模板建立的新項目的狀態與主「項目首選項」區域中的Workfront管理員或組的「項目首選項」區域中的組管理員(或Workfront管理員)所定義的狀態相對應。 如需設定專案偏好設定的相關資訊，請參閱 [配置系統範圍的項目首選項](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md) 或 [配置組的項目首選項](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-project-preferences-group.md).
+>Workfront將新專案的群組和狀態定義為：
+>
+>* 從模板建立的新項目的預設狀態與主「項目首選項」區域中的Workfront管理員或組的「項目首選項」區域中的組管理員(或Workfront管理員)所定義的狀態相對應。 如需設定專案偏好設定的相關資訊，請參閱 [配置系統範圍的項目首選項](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md) 或 [配置組的項目首選項](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-project-preferences-group.md).
+>
+>* 新項目組是模板組。 如果模板未與組關聯，則項目組是建立項目的用戶的首頁組。
+>
+>* 新項目可用的狀態與項目組的狀態匹配，該項目組是模板組或建立項目的用戶的首頁組。
+
 
 從範本建立專案時，您有下列選項：
 

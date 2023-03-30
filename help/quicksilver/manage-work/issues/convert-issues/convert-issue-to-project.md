@@ -6,9 +6,9 @@ description: 將問題轉換為Adobe Workfront中的專案
 author: Alina
 feature: Work Management
 exl-id: e3ba15a3-6169-466c-9912-32a8afdcc68d
-source-git-commit: dd7f61fcd92a43303be356dd3209ec6da6a063dd
+source-git-commit: e38411056b3f9be6d0241ee18e71984ef2a678a0
 workflow-type: tm+mt
-source-wordcount: '1340'
+source-wordcount: '1373'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,8 @@ ht-degree: 0%
 您可以將問題轉換為新專案，或使用範本將其轉換為專案。 本文說明將問題轉換為專案的兩種方式。
 
 如需轉換問題的一般資訊，請參閱 [轉換Adobe Workfront問題概觀](../../../manage-work/issues/convert-issues/convert-issues.md).
+
+從問題建立專案時，專案上的某些欄位會從其他物件填入。 如需詳細資訊，請參閱文章中的「新專案預設設定」一節 [建立專案](../../../manage-work/projects/create-projects/create-project.md).
 
 ## 存取需求
 
@@ -80,7 +82,7 @@ ht-degree: 0%
       >[!TIP]
       >   
       >* 如果問題是使用請求隊列建立的，則新項目會繼承請求隊列的組。
-      >* 如果問題是通過將其添加到項目的「問題」部分而建立的，則新項目會繼承組（如果問題的項目）。
+      >* 如果問題是通過將其添加到項目的「問題」部分而建立的，則新項目會繼承問題的項目組。
 
 
    * 若要使用範本將問題轉換為專案，請執行下列其中一項操作：
@@ -143,7 +145,7 @@ ht-degree: 0%
 
    1. （選用和條件式）按一下 [!UICONTROL **選項**] 在左側面板中，從可用的選項中選取：
 
-      * [!UICONTROL **保留原始問題，並將其解決方案與本項目聯繫起來**]
+      * [!UICONTROL **保留原始問題，並將其解決方案與本專案連結**]
 
          取消選取時，會刪除原始問題。
 
