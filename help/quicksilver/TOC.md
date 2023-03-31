@@ -2,9 +2,9 @@
 user-guide-title: Workfront 指南
 user-guide-description: 使用文件、教學課程和其他資源，了解如何在您的組織中實施並有效使用 Adobe Workfront。
 feature-set: Workfront
-source-git-commit: 4588327c6b02b0d243e2a49f98cb88baac3e1270
+source-git-commit: 25580047b2fe586852b9143f1f33c9858f51ee9f
 workflow-type: tm+mt
-source-wordcount: '12783'
+source-wordcount: '12775'
 ht-degree: 1%
 
 ---
@@ -895,16 +895,7 @@ ht-degree: 1%
       * [篩選按鈕不會顯示在頁首中](workfront-basics/tips-tricks-and-troubleshooting/filter-buttons-do-not-display-in-page-headers.md)
 * 敏捷 {#agile}
    * [敏捷](agile/agile.md)
-   * [敏捷概覽](agile/agile-overview.md)
    * [展示板概述](agile/boards-overview.md)
-   * 靈活處理項目 {#agile-in-projects}
-      * [靈活處理項目](agile/agile-in-projects/agile-in-projects.md)
-      * [敏捷項目](agile/agile-in-projects/use-agile-on-a-project.md)
-   * 開始使用Adobe Workfront {#agile-in-workfront}
-      * [開始使用Adobe Workfront](agile/get-started-with-agile-in-workfront/get-started-with-agile.md)
-      * [建立敏捷的團隊](agile/get-started-with-agile-in-workfront/create-an-agile-team.md)
-      * [配置看板](agile/get-started-with-agile-in-workfront/configure-kanban.md)
-      * [配置Scrum](agile/get-started-with-agile-in-workfront/configure-scrum.md)
    * 開始使用Adobe Workfront中的展示板 {#boards-in-workfront}
       * [開始使用Adobe Workfront中的展示板](agile/get-started-with-boards/get-started-with-boards.md)
       * [Adobe Workfront展示板影片示範](/help/quicksilver/agile/get-started-with-boards/boards-video-demonstrations.md)
@@ -933,6 +924,12 @@ ht-degree: 1%
       * [使用卡片清單](/help/quicksilver/agile/use-boards-agile-planning-tools/use-card-list.md)
       * [在工作流中建立小版本](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration-in-workstream.md)
       * [檢閱迭代量度](/help/quicksilver/agile/use-boards-agile-planning-tools/review-iteration-metrics.md)
+   * [敏捷概覽](agile/agile-overview.md)
+   * 開始使用Adobe Workfront {#agile-in-workfront}
+      * [開始使用Adobe Workfront](agile/get-started-with-agile-in-workfront/get-started-with-agile.md)
+      * [建立敏捷的團隊](agile/get-started-with-agile-in-workfront/create-an-agile-team.md)
+      * [配置看板](agile/get-started-with-agile-in-workfront/configure-kanban.md)
+      * [配置Scrum](agile/get-started-with-agile-in-workfront/configure-scrum.md)
    * 敏捷團隊中的看板 {#kanban}
       * [敏捷團隊中的看板](agile/use-kanban-in-an-agile-team/using-kanban-in-an-agile-team.md)
       * [看板概述](agile/use-kanban-in-an-agile-team/kanban-overview.md)
