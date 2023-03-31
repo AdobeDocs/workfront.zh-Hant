@@ -6,9 +6,9 @@ description: 您可以在控制面板中嵌入外部網頁，以便從Adobe Work
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 04b623b5-38b0-4c32-b54e-204f1d422e45
-source-git-commit: a8a3aec50b5538de5867ce3ba7723d92c046b50d
+source-git-commit: 5a4c98f9ce6bb7eb936a0b24b634d2545a0f13ee
 workflow-type: tm+mt
-source-wordcount: '926'
+source-wordcount: '984'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,9 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->控制面板中的內嵌外部頁面不再支援控制面板頁面。 具體而言，下列Workfront.com子網域已不再受支援：
+>控制面板中的內嵌外部頁面不再支援控制面板頁面。 雖然系統不會自動修改現有控制面板以移除這些外部頁面，但對控制面板的任何修改（包括此類參考）將無法儲存，直到移除或變更參考為止。
+>
+>具體而言，下列Workfront.com子網域已不再受支援：
 >
 >* /儀表板&#x200B;
 >* /dashboard/:ID &#x200B;
@@ -44,7 +46,8 @@ ht-degree: 0%
 >* /requests/:ID/content-dashboard__:dashboardID &#x200B;
 >* /group/:ID/content-dashboard__:dashboardID &#x200B;
 >* /billingrecord/:ID/content-dashboard__:dashboardID
-
+>
+>作為替代解決方案，請考慮在控制面板中加入清單報表，如 [新增報表至控制面板](/help/quicksilver/reports-and-dashboards/dashboards/creating-and-managing-dashboards/add-report-dashboard.md)
 
 ## 存取需求
 

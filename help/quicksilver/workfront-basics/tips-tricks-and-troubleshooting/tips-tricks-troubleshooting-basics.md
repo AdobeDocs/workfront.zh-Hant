@@ -4,9 +4,9 @@ description: 的提示、秘訣和疑難排解 [!DNL Adobe Workfront] 基礎
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 89a1ac84-123b-487e-8c91-615a36e246c3
-source-git-commit: ecb6928c946203b03a93cf5687fd53abf8e6a8f3
+source-git-commit: 5a4c98f9ce6bb7eb936a0b24b634d2545a0f13ee
 workflow-type: tm+mt
-source-wordcount: '73'
+source-wordcount: '80'
 ht-degree: 0%
 
 ---
@@ -25,5 +25,4 @@ ht-degree: 0%
 * [顯示在 [!UICONTROL 家庭工作清單]](../../workfront-basics/tips-tricks-and-troubleshooting/duplicate-apprval-processes-home.md)
 * [篩選按鈕不會顯示在頁首中](../../workfront-basics/tips-tricks-and-troubleshooting/filter-buttons-do-not-display-in-page-headers.md)
 * [變更日期的格式，位於 [!DNL Adobe Workfront]](../tips-tricks-and-troubleshooting/change-date-format-chrome.md)
-
-
+* [「我所在的項目」篩選器包含意外的結果](../tips-tricks-and-troubleshooting/projects-im-on-filter-including-unexpected-results.md)
