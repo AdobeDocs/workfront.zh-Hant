@@ -6,9 +6,9 @@ description: 您可以將新請求佇列內嵌在控制面板中，以便讓使�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 2d129095-c7ee-45b1-94ce-055d1d91e2fe
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 2894161b61a00dab04c17ef642ace4a45179eb17
 workflow-type: tm+mt
-source-wordcount: '1176'
+source-wordcount: '1178'
 ht-degree: 1%
 
 ---
@@ -97,11 +97,9 @@ ht-degree: 1%
 
    程式碼看起來應類似下列：
 
-   ```
-   <samp>https://<yourdomain>.my.workfront.com/requests/new?activeTab=tab-new-helpRequest&projectID=50062d6f000849c95ab3513c0e84a51e&path=</samp>
-   ```
+   `https://<yourdomain>.my.workfront.com/requests/new?activeTab=tab-new-helpRequest&projectID=50062d6f000849c95ab3513c0e84a51e&path=`
 
-   這是與所選項目關聯的請求隊列的連結。預先選擇「請求類型」。
+   這是與所選專案相關聯的請求佇列連結。 已預先選取「請求類型」 。
 
    使用者可以選擇任何主題群組或佇列主題，也可以選擇其他請求類型。
 
@@ -120,19 +118,15 @@ ht-degree: 1%
 
    程式碼看起來應類似下列：
 
-   ```
-   <samp><iframe src="https://<yourdomain>my.workfront.com/requests/newRequestEmbedded?projectID=612518c7000404462d3bc9a0bc09fa71" frameborder="0" width="500" height="600"></iframe></samp>
-   ```
+   `<iframe src="https://<yourdomain>my.workfront.com/requests/newRequestEmbedded?projectID=612518c7000404462d3bc9a0bc09fa71" frameborder="0" width="500" height="600"></iframe>`
 
 1. 編輯程式碼，僅保留下列資訊：
 
-   ```
-   <samp>https://<yourdomain>.my.workfront.com/requests/newRequestEmbedded?projectID=612518c7000404462d3bc9a0bc09fa71</samp>
-   ```
+   `https://<yourdomain>.my.workfront.com/requests/newRequestEmbedded?projectID=612518c7000404462d3bc9a0bc09fa71`
 
    >[!TIP]
    >
-   >您可以保留 `<samp>iframe </samp>` 標籤。
+   >您可以新增 `<samp>iframe </samp>` 標籤。
 
    這是與所選專案相關聯的請求佇列連結。 「請求類型」已預先選取，因此無法變更。
 
