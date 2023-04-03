@@ -5,9 +5,9 @@ title: 從Illustrator上傳檔案
 description: 您可以上傳您的藝術展示板作為檔案，以快速檢閱和核准，或只是儲存在Adobe Workfront。
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
-source-git-commit: 9330ba5e5f828738a8726a3641f39a9b279d2ed0
+source-git-commit: a9ec2952e6a4f7097ed08b10c06d1b8a0b144055
 workflow-type: tm+mt
-source-wordcount: '274'
+source-wordcount: '281'
 ht-degree: 0%
 
 ---
@@ -66,7 +66,10 @@ ht-degree: 0%
 1. 按一下 **[!UICONTROL 檔案]** 圖示 ![](assets/documents.png) 的下一頁。
 
 1. 按一下 **[!UICONTROL 新檔案]** 在外掛程式底部附近。
-1. 選擇 **[!UICONTROL 資產類型]** 從下拉式功能表。
 1. （選用）在 **[!UICONTROL 更新]** 的上界。
-1. 按一下 **[!UICONTROL 上傳]**，然後根據上述所選資產類型，設定任何需要的匯出選項。
+1. 選擇 **[!UICONTROL 資產類型]** 從下拉式功能表。
+1. 開啟 **[!UICONTROL 設定導出檔案設定]** 對話方塊，然後根據上述所選資產類型設定任何所需的匯出選項。
+
+   ![](assets/file-export-settings.png)
+1. 按一下 **[!UICONTROL 上傳]**.
 文檔將出現在 [!UICONTROL 檔案] 區域。

@@ -6,9 +6,9 @@ description: 您可以從Marketplace安裝Adobe Workfront for XD外掛程式。
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: d4971977-b5bd-4bb4-a1c2-44829a67d32d
-source-git-commit: 9baddd29b84c3b5d77f8b2e708be53d4150e6e92
+source-git-commit: a9ec2952e6a4f7097ed08b10c06d1b8a0b144055
 workflow-type: tm+mt
-source-wordcount: '412'
+source-wordcount: '418'
 ht-degree: 1%
 
 ---
@@ -66,15 +66,10 @@ ht-degree: 1%
 >如果您是 [!DNL Adobe Admin Console] 管理員，您可以在 [!DNL Creative Cloud] 部署包。 如需詳細資訊，請參閱 [在套件中加入外掛程式](https://helpx.adobe.com/in/enterprise/using/manage-extensions.html).
 
 
-1. 開啟 [!DNL Adobe Creative Cloud] 應用程式。
-1. 按一下 **[!UICONTROL Marketplace]** 標籤。
-1. 在 **[!UICONTROL 搜尋所有外掛程式]** 框，類型 *Workfront*，然後按 **[!UICONTROL 輸入]**.
-
-   ![](assets/adobe-marketplace-350x218.png)
-
-1. 當 [!DNL Adobe Workfront for XD] 外掛程式出現在搜尋結果中，按一下 **[!UICONTROL 取得]**.
+1. 前往 [Adobe Workfront for XD安裝頁面](https://exchange.adobe.com/apps/cc/4c3566f9?pluginId=4c3566f9&amp;workflow=share) 在Adobe交易。
+1. 在顯示的對話方塊中，按一下 **開啟 [!DNL Adobe Creative Cloud] 案頭應用程式**.
+1. 一次 [!DNL Adobe XD] 外掛程式管理器開啟，按一下 **[!UICONTROL 安裝]**.
 1. 閱讀對話方塊中的資訊，然後按一下 **[!UICONTROL 確定]**.
-
 1. 請繼續前往下節，了解如何開啟外掛程式的資訊。
 
 ## 開啟 [!DNL Adobe Workfront for XD] 外掛程式

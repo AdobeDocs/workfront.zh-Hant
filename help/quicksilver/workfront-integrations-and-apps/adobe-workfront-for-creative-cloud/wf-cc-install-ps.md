@@ -6,9 +6,9 @@ description: 您可以從Marketplace安裝Adobe Workfront for Photoshop外掛程
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: f5e9f121-a711-4b75-8564-54f29c5cfa48
-source-git-commit: 9baddd29b84c3b5d77f8b2e708be53d4150e6e92
+source-git-commit: a9ec2952e6a4f7097ed08b10c06d1b8a0b144055
 workflow-type: tm+mt
-source-wordcount: '452'
+source-wordcount: '465'
 ht-degree: 1%
 
 ---
@@ -64,13 +64,9 @@ ht-degree: 1%
 >如果您是 [!DNL Adobe Admin Console] 管理員，您可以在 [!DNL Creative Cloud] 部署包。 如需詳細資訊，請參閱 [在套件中加入外掛程式](https://helpx.adobe.com/in/enterprise/using/manage-extensions.html).
 
 
-1. 開啟 [!DNL Adobe Creative Cloud] 應用程式。
-1. 按一下 **[!UICONTROL Marketplace]** 標籤。
-1. 在 **[!UICONTROL 搜尋所有外掛程式]** 框，類型 *Workfront*，然後按 **[!UICONTROL 輸入]**.
-
-   ![](assets/adobe-marketplace-350x218.png)
-
-1. 當Adobe Workfront for Photoshop外掛程式出現在搜尋結果中時，按一下 **[!UICONTROL 取得]**.
+1. 前往 [Adobe Workfront for Photoshop安裝頁面](https://adobe.com/go/cc_plugins_discover_plugin?pluginId=37722a55&amp;workflow=share) 在Adobe交易。
+1. 在顯示的對話方塊中，按一下 **開啟 [!DNL Adobe Creative Cloud] 案頭應用程式**.
+1. 一次 [!DNL Adobe Photoshop] 外掛程式管理器開啟，按一下 **[!UICONTROL 安裝]**.
 1. 閱讀對話方塊中的資訊，然後按一下 **[!UICONTROL 確定]**.
 
 1. 請繼續前往下節，了解如何開啟外掛程式的資訊。
@@ -97,7 +93,7 @@ ht-degree: 1%
 
 1. 從 **[!UICONTROL 外掛程式]** 功能表，選取 **[!UICONTROL 外掛程式面板]**.
 1. 選取 **[!DNL Adobe Workfront for Photoshop]**.
-1. 輸入您的網域，然後按一下 **[!UICONTROL 登入]**. 瀏覽器頁面隨即開啟。
+1. 輸入您的網域，然後按一下 **[!UICONTROL 登入]**. 瀏覽器頁面隨即開啟。 您可能必須授予Photoshop開啟瀏覽器的權限。
 
    >[!TIP]
    >
