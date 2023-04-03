@@ -6,9 +6,9 @@ description: 當某人添加或答復工作對象的更新時，其答復將出�
 author: Lisa and Alina
 feature: Get Started with Workfront
 exl-id: a8271f3c-7a08-4eb3-aaff-deb250f5af73
-source-git-commit: bbd99435bb07d68bf9058bcd3e8c6ef5d9df75a9
+source-git-commit: 36b5c534e0a454b3c890d7a5c7c5b6a5a954088b
 workflow-type: tm+mt
-source-wordcount: '1119'
+source-wordcount: '1141'
 ht-degree: 1%
 
 ---
@@ -109,14 +109,11 @@ ht-degree: 1%
 
 1. 開始輸入您的回覆，然後使用RTF工具列中的任何其他選項。 如需使用RTF的相關資訊，請參閱以下章節： [更新工作](../updating-work-items-and-viewing-updates/update-work.md).
 
-<!--this is not yet available in beta, leave drafted:  
-1. (Optional) To include text from a previous update in your reply, click the **More** menu next to the update or reply you want to quote, then click **Quote Reply**. Text from the previous update appears in the input area, marked with a gray line. -***********close the draft here************-->
-
 1. 按一下 **提交** 以儲存回覆。
 
+1. （選用）按一下 **更多** 功能表 ![](assets/more-menu.png) ，以取得管理回覆的更多選項。 如需詳細資訊，請參閱 [更新工作](../updating-work-items-and-viewing-updates/update-work.md).
+
 </div>
-
-
 
 ## 透過電子郵件通知回覆更新
 

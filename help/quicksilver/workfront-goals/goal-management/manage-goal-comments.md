@@ -6,9 +6,9 @@ description: 您可以在Adobe Workfront目標中新增評論至您可檢視的�
 author: Alina
 feature: Workfront Goals
 exl-id: 6cf2d2d2-5ba5-40f2-a803-01359c338541
-source-git-commit: 809f1c3629c343a55305c0c617f4974dc05439bf
+source-git-commit: 36b5c534e0a454b3c890d7a5c7c5b6a5a954088b
 workflow-type: tm+mt
-source-wordcount: '698'
+source-wordcount: '767'
 ht-degree: 0%
 
 ---
@@ -151,17 +151,12 @@ ht-degree: 0%
    >
    >   <span class="preview">系統只會在您提交原始更新時，產生電子郵件，通知使用者您的更新。 編輯更新後不會產生任何電子郵件。</span>
 
-   <!-- <div class="preview">
-   1. (Optional) Click the **More** menu ![](assets/more-icon.png), then click any of the following options to copy information from a comment to the clipboard:
+   1. （選用）按一下 **更多** 功能表 ![](assets/more-icon.png)，然後按一下下列任一選項，將資訊從注釋複製到剪貼簿：
 
-      * **Copy update link** to copy the link of an update, without the replies.
-      * **Copy thread link** to copy the link of an update, including the replies.
-      * **Copy body text** to copy the text of an update. 
+      * **複製連結** 複製更新的連結，而不會有回覆。
+      * **複製正文文本** 來複製更新的文本。
 
-         For more information, see [Update work](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md). 
-
-   </div>
-   -->
+         如需詳細資訊，請參閱 [更新工作](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
 1. 按一下 **提交**.
 
@@ -174,6 +169,7 @@ ht-degree: 0%
    >只有輸入新更新的使用者和目前輸入更新的使用者都使用新的註解體驗時，才會顯示「新」指標。
    >![](assets/real-time-new-red-indicator-unified-commenting.png)
 
+1. <span class="preview">（選用）按一下 **更多** 功能表 ![](assets/more-icon.png) 按一下備注的右側 **刪除** 刪除添加的注釋。 </span>
 1. （選用）按一下 **回覆** 若要回覆現有意見，請遵循上述步驟5至9。 <!--insure this stays accurate-->
 1. （選用）按一下 **贊** 圖示![](assets/like-icon.png) 喜歡別人加的評論。 圖示會隨按贊次數更新。
 1. （可選）若要將RTF格式新增至更新，請在輸入時使用RTF工具列上的任何屬性。 如需詳細資訊，請參閱 [更新工作](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).

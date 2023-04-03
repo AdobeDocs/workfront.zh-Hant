@@ -6,9 +6,9 @@ description: 您可以在Adobe Workfront物件（專案、任務或問題）上�
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: 809f1c3629c343a55305c0c617f4974dc05439bf
+source-git-commit: 36b5c534e0a454b3c890d7a5c7c5b6a5a954088b
 workflow-type: tm+mt
-source-wordcount: '2756'
+source-wordcount: '2758'
 ht-degree: 1%
 
 ---
@@ -189,7 +189,7 @@ drafted for P&P release:
 
 1. 找出您要更新的物件，然後按一下其名稱以開啟物件的頁面。
 1. 按一下  **更新** 中。
-1. 按一下 **試用注釋測試版** 按鈕（位於「更新」區域的右下角），然後按一下 **同意** 測試版協定。 這會將「更新」區域切換為註解測試版體驗。
+1. 啟用 **評論測試版** 在「更新」區域的右上角切換，然後按一下 **同意** 測試版協定。 這會將「更新」區域切換為註解測試版體驗。
 此 **註解** 標籤。
 1. 開始在 **新留言** 框。
 
@@ -224,7 +224,7 @@ drafted for P&P release:
 
 1. 按一下 **提交** 將更新新增至Workfront物件。
 1. （選用）若要編輯留言，請按一下 **更多** 功能表 ![](assets/more-menu.png) 在「贊」圖示的右側，然後按一下 **編輯**.
-1. 編輯注釋中的資訊，或刪除任何標籤的用戶。
+1. 編輯注釋中的資訊，或刪除任何標籤的用戶。 <!--check to make sure you can still remove the users in preview or production. At one point, they were removing this functionality-->
 您可以在15內編輯意見，提交後即可。 更新註解時，會在顯示的日期戳記左側新增「已編輯」指標。
 
    ![](assets/edited-tag-on-comment-unified-commenting.png)
@@ -322,11 +322,12 @@ drafted for P&P release:
 
 ## 複製更新資訊
 
-<!--drafted for beta release toggle - remove when copying an update will be available:-->
+<!--drafted for beta release toggle - remove when copying an update will be available:
 
 >[!NOTE]
 >
->使用測試版注釋體驗時無法複製更新。
+>Copying an update is not possible when using the Beta commenting experience.
+-->
 
 您可以透過數種方式複製更新。 複製連結後，您可以與其他人共用連結，將他們導向更新。
 
@@ -348,7 +349,7 @@ drafted for P&P release:
 此選項會將完整線程連結複製到剪貼簿，以便您可以與其他用戶共用線程。
 
 1. 轉到要複製的更新線程。
-1. 按一下 **更多** ，然後按一下 **複製線程連結**.
+1. 按一下 **更多** ，然後按一下 **複製線程連結** <span class="preview">或 **複製連結** 使用測試版體驗時</span>.
 
    ![](assets/update-stream-comment-menu-marked-350x152.png)
 
@@ -357,7 +358,7 @@ drafted for P&P release:
 此選項會將特定更新連結複製到剪貼簿。 當您共用更新連結時，跟隨該連結的使用者會在更新周圍看到邊框。
 
 1. 前往要複製的更新或回覆。
-1. 按一下 **更多** 功能表，然後按一下 **複製更新連結**.
+1. 按一下 **更多** 功能表，然後按一下 **複製更新連結** <span class="preview">或 **複製連結** 使用測試版體驗時</span>.
 
    ![](assets/update-stream-reply-menu-marked-350x182.png)
 
