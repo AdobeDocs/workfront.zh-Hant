@@ -6,7 +6,7 @@ description: 您可以在Adobe Workfront物件（專案、任務或問題）上�
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: 36b5c534e0a454b3c890d7a5c7c5b6a5a954088b
+source-git-commit: 345f63fc78d9bc2b2eff8f19a8a9196641567764
 workflow-type: tm+mt
 source-wordcount: '2758'
 ht-degree: 1%
@@ -232,6 +232,7 @@ drafted for P&P release:
    >[!TIP]
    >
    >   系統只會在您提交原始更新時，產生電子郵件，通知使用者您的更新。 編輯更新後不會產生任何電子郵件。
+
 1. （選用）按一下 **回覆** 若要回覆現有意見，請遵循上述步驟4至7。 <!--(**************insure this stays accurate***********)-->. 如需回覆更新的相關資訊，請參閱 [回覆更新](../../workfront-basics/updating-work-items-and-viewing-updates/reply-to-updates.md).
 1. （選用）按一下 **贊** 圖示![](assets/like-icon.png). 圖示會隨按贊次數更新。
 1. （條件式和可選）如果注釋中包括了其他人員，請按一下更新中包括的成員數，以顯示您輸入的注釋被共用的實體清單。
@@ -349,7 +350,12 @@ drafted for P&P release:
 此選項會將完整線程連結複製到剪貼簿，以便您可以與其他用戶共用線程。
 
 1. 轉到要複製的更新線程。
-1. 按一下 **更多** ，然後按一下 **複製線程連結** <span class="preview">或 **複製連結** 使用測試版體驗時</span>.
+
+1. 按一下 **更多** ，然後按一下 **複製線程連結**
+
+   或
+
+   <span class="preview">**複製連結** 使用測試版體驗時</span>.
 
    ![](assets/update-stream-comment-menu-marked-350x152.png)
 
@@ -358,7 +364,11 @@ drafted for P&P release:
 此選項會將特定更新連結複製到剪貼簿。 當您共用更新連結時，跟隨該連結的使用者會在更新周圍看到邊框。
 
 1. 前往要複製的更新或回覆。
-1. 按一下 **更多** 功能表，然後按一下 **複製更新連結** <span class="preview">或 **複製連結** 使用測試版體驗時</span>.
+1. 按一下 **更多** 功能表，然後按一下 **複製更新連結**
+
+   或
+
+   <span class="preview">**複製連結** 使用測試版體驗時</span>.
 
    ![](assets/update-stream-reply-menu-marked-350x182.png)
 
@@ -373,7 +383,11 @@ drafted for P&P release:
 
    ![](assets/update-stream-comment-menu-marked-350x152.png)
 
-1. 在顯示的訊息中，按一下 **確認** <span class="preview">或 **刪除**</span>，即可在評論測試版體驗中取得。
+1. 在顯示的訊息中，按一下 **確認**
+
+   或
+
+   <span class="preview"> **刪除**，在評論測試版體驗中</span>.
 
 >[!NOTE]
 >

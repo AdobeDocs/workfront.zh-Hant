@@ -5,9 +5,9 @@ title: 統一的注釋體驗
 description: 新的統一注釋體驗將
 author: Alina
 feature: Get Started with Workfront
-source-git-commit: 36b5c534e0a454b3c890d7a5c7c5b6a5a954088b
+source-git-commit: 345f63fc78d9bc2b2eff8f19a8a9196641567764
 workflow-type: tm+mt
-source-wordcount: '562'
+source-wordcount: '561'
 ht-degree: 1%
 
 ---
@@ -414,7 +414,7 @@ Adobe Workfront中備注體驗的更新目前正在開發中。 此更新包含�
 若要啟用新的註解體驗測試版：
 
 1. 前往您要啟用新註解體驗的物件，然後按一下 **更新** 中。
-1. 按一下 **試用注釋測試版** 位於「更新」區域的右下角。
+1. 啟用 **評論測試版** 在「更新」區域的右上角切換。
 1. 按一下 **同意** （在測試版協定框中）。 這可為所選對象啟用新的注釋體驗。
 1. 開始在 **註解** 標籤。 新體驗開啟時，「註解」索引標籤應該是預設的索引標籤
 
