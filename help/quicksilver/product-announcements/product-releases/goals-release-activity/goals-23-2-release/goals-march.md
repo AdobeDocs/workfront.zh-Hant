@@ -6,7 +6,7 @@ title: Adobe Workfront Targets 23.2發行活動周2023年3月20日
 description: 本頁說明在預覽環境中，Adobe Workfront目標23.2版所做的所有增強功能。 這些增強功能將於2023年3月20日當周在生產環境中提供。
 author: Courtney
 feature: Product Announcements, Workfront Goals
-source-git-commit: 69fbdd87bcb7a2743aec6d6ad06246b018b9ff16
+source-git-commit: 71833a09ecde154ddbcf9cac34733641bf55f74d
 workflow-type: tm+mt
 source-wordcount: '170'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 # Adobe Workfront Targets 23.2發行活動：2023年3月20日當周
 
-本頁說明2023年3月20日發行的Adobe Workfront目標23.2版對預覽環境所做的所有增強功能。
+本頁說明2023年3月20日發行的Adobe Workfront目標23.2版所有針對預覽環境的增強功能。
 
 這些增強功能將於2023年4月3日當周發行的23.2版於生產環境中提供。
 
