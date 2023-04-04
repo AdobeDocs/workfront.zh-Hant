@@ -7,9 +7,9 @@ author: Courtney
 feature: Work Management
 hide: true
 hidefromtoc: true
-source-git-commit: 7b1c52da63507e36b6000e74fcb502f9436e19d1
+source-git-commit: 11855fef5f1f1c48ab51cce62a540afae0efba15
 workflow-type: tm+mt
-source-wordcount: '256'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -25,13 +25,21 @@ ht-degree: 0%
 
 ## 最新版本
 
+### Alpha版本3 - 2023年3月
+
+在此第3個Alpha版本中，我們引入了成功訊息，這些訊息會在完成新增或移除核准者和審核者等動作時顯示，借此整合您的意見。 此外，此版本還增強了掛起批准的可見性，現在可以在「首頁」和「我的更新」頁上查看，使用戶能夠輕鬆地直接從這些頁批准文檔。
+
+查看以下完整影片逐步說明：
+
+>[!VIDEO](https://video.tv.adobe.com/v/3417854/)
+
+## _舊版_
+
 ### Alpha版本2 - 2023年1月
 
 通過此Alpha 2版本，您可以將個人和團隊添加為審閱者或批准者，並直接從文檔詳細資訊頁面做出批准決策。
 
->[!VIDEO](https://video.tv.adobe.com/v/3413941/?quality=12)
-
-## _舊版_
+觀看 [影片逐步說明](https://video.tv.adobe.com/v/3413941){target=_blank}.
 
 ### Alpha版本1 - 2022年11月
 
