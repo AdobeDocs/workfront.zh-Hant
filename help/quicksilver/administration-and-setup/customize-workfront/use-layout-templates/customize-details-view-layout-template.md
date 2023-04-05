@@ -8,16 +8,16 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 1474e1dd-9b10-476e-9526-6577efa8d1c2
-source-git-commit: addcff71ff067be22e9ee80f997af545293fa5db
+source-git-commit: 92fb1ee0b641d2f4b527e17df272e4c37c0feaef
 workflow-type: tm+mt
-source-wordcount: '522'
+source-wordcount: '494'
 ht-degree: 0%
 
 ---
 
 # 使用版面範本自訂「詳細資料」檢視
 
-<span class="preview">本頁強調顯示的資訊指的是尚未普遍提供的功能。 它適用於預覽環境中的所有客戶，以及生產環境中的特定一組客戶。</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available for all customers in the Preview environment and for a select group of customers in the Production environment.</span>-->
 
 身為Adobe Workfront管理員，您可以使用配置範本，判斷使用者按一下「詳細資訊」圖示時會顯示哪些資訊 ![](assets/project-details-icon.png) 在左側面板中查看任務、問題、文檔、程式或產品組合。
 
@@ -38,9 +38,9 @@ or billing record
    ![](assets/edit-task-screen.png)
 
 
-* <span class="preview">大量編輯專案時（例如編輯專案）會顯示「編輯物件」</span>
+* 批量編輯對象時，「編輯對象」螢幕會顯示。 目前，大量編輯專案支援此功能。
 
-   <span>![](assets/customize-edit-projects-in-bulk-box-with-layout-template.png)</span>
+   ![](assets/customize-edit-projects-in-bulk-box-with-layout-template.png)
 
 
 * 摘要 ![](assets/summary-panel-icon.png) 任務和問題清單面板

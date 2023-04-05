@@ -6,9 +6,9 @@ description: 資源池是協助您在Adobe Workfront中管理資源的使用者�
 author: Alina
 feature: Resource Management
 exl-id: bbfe8257-ff02-4f06-9763-3f2ae4871c9d
-source-git-commit: addcff71ff067be22e9ee80f997af545293fa5db
+source-git-commit: 92fb1ee0b641d2f4b527e17df272e4c37c0feaef
 workflow-type: tm+mt
-source-wordcount: '696'
+source-wordcount: '649'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 0%
 Also - take out all the references to Preview and Prod at prod final
 -->
 
-<span class="preview">本頁強調顯示的資訊指的是尚未普遍提供的功能。 它適用於預覽環境中的所有客戶，以及生產環境中的特定一組客戶。</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available for all customers in the Preview environment and for a select group of customers in the Production environment.</span>-->
 
 
 <!--
@@ -104,9 +104,9 @@ Also - take out all the references to Preview and Prod at prod final
 
    >[!NOTE]
    >
-   >* 在「生產」環境中，批量編輯項目或模板時，此欄位中只顯示所有選定項目或模板共同的資源池。 如果所選項目沒有共用資源池，則此欄位將為空。 您在此處指定的資源池將覆蓋項目或模板的單個資源池。
+   >* 批量編輯模板時，此欄位中只顯示所有選定模板共同的資源池。 如果所選模板沒有共用資源池，則此欄位為空。 您在此處指定的資源池覆蓋項目或模板的單個資源池。
    >
-   >* <span class="preview">在「預覽」環境中，當您大量編輯專案時，如果選取的專案具有不同的資源池，則會出現「多值」指標。 如果大量添加資源池，則所有池都將添加到所選項目，覆蓋原始資源池。</span>
+   >* 當您大量編輯專案時，如果選取的專案具有不同的資源池，則會出現「多個值」指標。 如果為項目大量添加資源池，則所有池都將添加到選定的項目，覆蓋原始資源池。</span>
 
 
    <span class="preview">![add_resource_pools_to_multiple_projects.png](assets/add-resource-pools-to-multiple-projects-350x358.png)</span>

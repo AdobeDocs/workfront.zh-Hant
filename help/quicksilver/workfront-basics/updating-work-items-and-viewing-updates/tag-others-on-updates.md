@@ -6,9 +6,9 @@ description: 在Adobe Workfront物件上提供更新註解時，專案上的所�
 author: Lisa and Alina
 feature: Get Started with Workfront
 exl-id: c4c0d74f-ac50-4fc5-89d6-28f004c25b29
-source-git-commit: bbd99435bb07d68bf9058bcd3e8c6ef5d9df75a9
+source-git-commit: 92fb1ee0b641d2f4b527e17df272e4c37c0feaef
 workflow-type: tm+mt
-source-wordcount: '1370'
+source-wordcount: '1349'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 <!--take "Beta" references out when we remove the beta-->
 
 
-<span class="preview">本頁強調顯示的資訊指的是尚未普遍提供的功能。 它僅在預覽環境中可用。
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.-->
 
 >[!NOTE]
 >
@@ -26,17 +26,18 @@ ht-degree: 0%
 >如需新更新體驗的詳細資訊，請參閱 [全新評論體驗](../updating-work-items-and-viewing-updates/unified-commenting-experience.md).
 >
 >您可以訪問以下對象的新設計：
-> * <span class="preview">啟用注釋測試版時發生問題。 </span>
+> * 啟用注釋測試版時發生問題。
    >
-   >     <span class="preview">此功能僅適用於問題的「更新」區段，不適用於下列區域：</span>
+   >     此功能僅適用於問題的「更新」區段，不適用於下列區域：
    >
-   >     * <span class="preview">首頁</span>
-   >     * <span class="preview">清單中的摘要面板</span>
-   >     * <span class="preview">工時單中的「摘要」面板</span>
+   >     * 首頁
+   >     * 清單中的摘要面板
+   >     * 工時單中的「摘要」面板
 >
 > * 目標
-   >   目標的預設值為新的註解體驗。 您必須有額外的授權才能存取Workfront Targets。 如需詳細資訊，請參閱 [使用Workfront目標的需求](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
 
+   >
+   >   目標的預設值為新的註解體驗。 您必須有額外的授權才能存取Workfront Targets。 如需詳細資訊，請參閱 [使用Workfront目標的需求](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
    >
    >    如需關於評論目標的資訊，請參閱 [管理Adobe Workfront目標中的目標註解](../../workfront-goals/goal-management/manage-goal-comments.md).
 
@@ -131,8 +132,6 @@ ht-degree: 0%
    ![](assets/tagging-transparency-350x192.png)
 
    有關更新工作項時可用的其他功能的資訊，請參閱 [更新工作](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
-
-<div class="preview">
 
 ### 在評論測試版體驗中為其他人加上更新標籤
 

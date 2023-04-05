@@ -6,9 +6,9 @@ description: 您可以在Adobe Workfront物件（專案、任務或問題）上�
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: 345f63fc78d9bc2b2eff8f19a8a9196641567764
+source-git-commit: 92fb1ee0b641d2f4b527e17df272e4c37c0feaef
 workflow-type: tm+mt
-source-wordcount: '2758'
+source-wordcount: '2732'
 ht-degree: 1%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 1%
 
 <!--take "Beta" references out when we remove the beta-->
 
-<span class="preview">本頁強調顯示的資訊指的是尚未普遍提供的功能。 它僅在預覽環境中可用。</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> -->
 
 >[!NOTE]
 >
@@ -25,17 +25,18 @@ ht-degree: 1%
 >如需新更新體驗的詳細資訊，請參閱 [全新評論體驗](../updating-work-items-and-viewing-updates/unified-commenting-experience.md).
 >
 >您可以訪問以下對象的新設計：
-> * <span class="preview">啟用注釋測試版時發生問題。 </span>
+> * 啟用注釋測試版時發生問題。
    >
-   >     <span class="preview">此功能僅適用於問題的「更新」區段，不適用於下列區域：</span>
+   >     此功能僅適用於問題的「更新」區段，不適用於下列區域：
    >
-   >     * <span class="preview">首頁</span>
-   >     * <span class="preview">清單中的摘要面板</span>
-   >     * <span class="preview">工時單中的「摘要」面板</span>
+   >     * 首頁
+   >     * 清單中的摘要面板
+   >     * 工時單中的「摘要」面板
 >
 > * 目標
-   >   目標的預設值為新的註解體驗。 您必須有額外的授權才能存取Workfront Targets。 如需詳細資訊，請參閱 [使用Workfront目標的需求](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
 
+   >
+   >   目標的預設值為新的註解體驗。 您必須有額外的授權才能存取Workfront Targets。 如需詳細資訊，請參閱 [使用Workfront目標的需求](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
    >
    >    如需關於評論目標的資訊，請參閱 [管理Adobe Workfront目標中的目標註解](../../workfront-goals/goal-management/manage-goal-comments.md).
 
@@ -183,8 +184,6 @@ drafted for P&P release:
 
 1. 若要回覆更新，請參閱 [回覆更新](../../workfront-basics/updating-work-items-and-viewing-updates/reply-to-updates.md).
 
-<div class="preview">
-
 ### 使用註解測試版體驗將更新新增至工作項目
 
 1. 找出您要更新的物件，然後按一下其名稱以開啟物件的頁面。
@@ -224,7 +223,7 @@ drafted for P&P release:
 
 1. 按一下 **提交** 將更新新增至Workfront物件。
 1. （選用）若要編輯留言，請按一下 **更多** 功能表 ![](assets/more-menu.png) 在「贊」圖示的右側，然後按一下 **編輯**.
-1. 編輯注釋中的資訊，或刪除任何標籤的用戶。 <!--check to make sure you can still remove the users in preview or production. At one point, they were removing this functionality-->
+1. 編輯註解中的資訊 <!--or remove any of the tagged users-->.
 您可以在15內編輯意見，提交後即可。 更新註解時，會在顯示的日期戳記左側新增「已編輯」指標。
 
    ![](assets/edited-tag-on-comment-unified-commenting.png)
@@ -246,7 +245,6 @@ drafted for P&P release:
    >
    >無法向系統更新添加註釋。
 
-</div>
 
 ## 在Workfront更新中使用RTF
 
@@ -318,7 +316,7 @@ drafted for P&P release:
    >* 影像只能從對象的「更新」(Updates)頁簽中訪問，而「文檔」(Documents)頁簽中不提供影像。
    >* 您可以傳送包含影像且無文字的更新。
 
-1. 按一下 **更新**  <span class="preview">或 **提交**</span>，即可在評論測試版體驗中取得。
+1. 按一下 **更新**  或 **提交**，即使用評論測試版體驗時。
 
 
 ## 複製更新資訊
@@ -351,11 +349,7 @@ drafted for P&P release:
 
 1. 轉到要複製的更新線程。
 
-1. 按一下 **更多** ，然後按一下 **複製線程連結**
-
-   或
-
-   <span class="preview">**複製連結** 使用測試版體驗時</span>.
+1. 按一下 **更多** ，然後按一下 **複製線程連結** 或 **複製連結**，即使用測試版體驗時。
 
    ![](assets/update-stream-comment-menu-marked-350x152.png)
 
@@ -364,11 +358,7 @@ drafted for P&P release:
 此選項會將特定更新連結複製到剪貼簿。 當您共用更新連結時，跟隨該連結的使用者會在更新周圍看到邊框。
 
 1. 前往要複製的更新或回覆。
-1. 按一下 **更多** 功能表，然後按一下 **複製更新連結**
-
-   或
-
-   <span class="preview">**複製連結** 使用測試版體驗時</span>.
+1. 按一下 **更多** 功能表，然後按一下 **複製更新連結** 或 **複製連結**，即使用測試版體驗時。
 
    ![](assets/update-stream-reply-menu-marked-350x182.png)
 
@@ -383,11 +373,7 @@ drafted for P&P release:
 
    ![](assets/update-stream-comment-menu-marked-350x152.png)
 
-1. 在顯示的訊息中，按一下 **確認**
-
-   或
-
-   <span class="preview"> **刪除**，在評論測試版體驗中</span>.
+1. 在顯示的訊息中，按一下 **確認** 或 **刪除**，即使用評論測試版體驗時。
 
 >[!NOTE]
 >
@@ -416,13 +402,11 @@ drafted for P&P release:
 
 <!--remove the preview tag with 23.2 production, but keep the note till we remove Beta and it becomed the only exprience: -->
 
-
-
 >[!NOTE]
 >
-><span class="preview">使用測試版注釋體驗時，無法停用系統更新。 </span>
-><span class="preview">本節中的資訊僅指目前更新區段中提供的功能。 </span>
-><span class="preview">有關測試版中系統更新的詳細資訊，請參閱 [更新區段概觀](../updating-work-items-and-viewing-updates/updates-tab-overview.md). </span>
+>使用測試版注釋體驗時，無法停用系統更新。
+>本節中的資訊僅指目前更新區段中提供的功能。
+>有關測試版中系統更新的詳細資訊，請參閱 [更新區段概觀](../updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
 
 Workfront物件的「更新」區段會顯示兩種資訊：

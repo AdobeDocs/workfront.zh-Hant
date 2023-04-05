@@ -5,9 +5,9 @@ title: 統一的注釋體驗
 description: 新的統一注釋體驗將
 author: Alina
 feature: Get Started with Workfront
-source-git-commit: 345f63fc78d9bc2b2eff8f19a8a9196641567764
+source-git-commit: 92fb1ee0b641d2f4b527e17df272e4c37c0feaef
 workflow-type: tm+mt
-source-wordcount: '561'
+source-wordcount: '530'
 ht-degree: 1%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 1%
 
 # 全新評論體驗
 
-<span class="preview">本頁強調顯示的資訊指的是尚未普遍提供的功能。 它僅在預覽環境中可用。</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span>-->
 
 Adobe Workfront中備注體驗的更新目前正在開發中。 此更新包含新介面、新功能，以及選取物件的「更新」區段中的效能提升。
 
@@ -91,7 +91,7 @@ Adobe Workfront中備注體驗的更新目前正在開發中。 此更新包含�
    </td>
    <td>✓ 
    </td>
-   <td><span class="preview">✓</span> 
+   <td>✓
    </td>
    <td> 
    </td>
@@ -163,9 +163,8 @@ Adobe Workfront中備注體驗的更新目前正在開發中。 此更新包含�
    </td>
    <td> 
    </td>
-   <td><span class="preview">✓ </span>
-   </td>
-   <td> 
+   <td>
+   <td>✓ 
    </td>
    <td> 
    </td>
@@ -191,7 +190,7 @@ Adobe Workfront中備注體驗的更新目前正在開發中。 此更新包含�
    </td>
    <td>✓ 
    </td>
-   <td><span class="preview">替換為編輯注釋 </span>
+   <td>替換為編輯注釋 
    </td>
    <td> 
    </td>
@@ -219,7 +218,7 @@ Adobe Workfront中備注體驗的更新目前正在開發中。 此更新包含�
    </td>
    <td> 
    </td>
-   <td><span class="preview">✓</span> 
+   <td> ✓
    </td>
    <td> 
    </td>
@@ -247,8 +246,7 @@ Adobe Workfront中備注體驗的更新目前正在開發中。 此更新包含�
    </td>
    <td> 
    </td>
-   <td><span class="preview">✓</span>
-   <p><span class="preview">23.2應提供此功能，且已暫時延遲。</span> 
+   <td>✓
    </td>
    <td> 
    </td>
@@ -304,9 +302,9 @@ Adobe Workfront中備注體驗的更新目前正在開發中。 此更新包含�
    </td>
    <td>✓ 
    </td>
-   <td> 
+   <td> ✓
    </td>
-   <td>✓ 
+   <td> 
    </td>
    <td>2023年二季度 
    </td>
@@ -318,7 +316,7 @@ Adobe Workfront中備注體驗的更新目前正在開發中。 此更新包含�
    </td>
    <td>✓ 
    </td>
-   <td> <span class="preview">✓</span>
+   <td> ✓
    </td>
    <td> 
    </td>
@@ -346,7 +344,7 @@ Adobe Workfront中備注體驗的更新目前正在開發中。 此更新包含�
    </td>
    <td>✓ 
    </td>
-   <td> <span class="preview">✓</span>
+   <td> ✓
    </td>
    <td> 
    </td>
@@ -388,16 +386,13 @@ Adobe Workfront中備注體驗的更新目前正在開發中。 此更新包含�
 
 ## 找出新的註解體驗
 
-檢視下列版本中的「更新」區段時，目前支援下列物件使用新的註解體驗：
+檢視下列Workfront版本中的「更新」區段時，目前支援下列物件使用新的註解體驗：
 
 * 在更新區段中啟用測試版體驗時：
 
-   <div class="preview">
-
-   * 問題.
+   * 問題
    如需管理Workfront物件更新的詳細資訊，請參閱 [更新工作](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
-   </div>
 
 * 依預設，作為主要的註解體驗：
 
@@ -408,8 +403,6 @@ Adobe Workfront中備注體驗的更新目前正在開發中。 此更新包含�
 
    如需管理目標更新的詳細資訊，請參閱 [管理Adobe Workfront目標中的目標註解](../../workfront-goals/goal-management/manage-goal-comments.md).
 
-
-<div class="preview">
 
 若要啟用新的註解體驗測試版：
 
@@ -423,5 +416,3 @@ Adobe Workfront中備注體驗的更新目前正在開發中。 此更新包含�
    按一下  **系統活動** 標籤來檢視Workfront產生的活動更新。
 
    如需在新注釋體驗中更新物件的詳細資訊，請參閱 [更新工作](../updating-work-items-and-viewing-updates/update-work.md).
-
-</div>
