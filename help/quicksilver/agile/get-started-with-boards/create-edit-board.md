@@ -6,10 +6,10 @@ description: 從 [!UICONTROL 展示板] 控制面板，您可以建立新展示�
 author: Lisa
 feature: Agile
 exl-id: 5f755177-c8ea-4509-a34f-57ffcfd8ba7f
-source-git-commit: 16e96d55932116cb475eecbe8b6ebfd4661eb494
+source-git-commit: 67472e2c6d3bf3cbb11c2ba5ad2f3eee13336f74
 workflow-type: tm+mt
-source-wordcount: '524'
-ht-degree: 4%
+source-wordcount: '477'
+ht-degree: 5%
 
 ---
 
@@ -45,10 +45,6 @@ ht-degree: 4%
 1. 按一下 **[!UICONTROL 主菜單]** 圖示 ![](assets/main-menu-icon.png) 在 [!DNL Adobe Workfront]，然後按一下 **[!UICONTROL 展示板]**.
 1. 若要建立獨立展示板，請按一下 **[!UICONTROL 新增展示板]** 在 [!UICONTROL 展示板] 的上界。 若要將展示板新增至工作流，請參閱 [管理工作流](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md).
 
-   >[!NOTE]
-   >
-   >您可以透過預先選擇加入的功能，在預覽環境和生產環境中使用工作流 [!UICONTROL [!DNL Workfront] 展示板]. 如需詳細資訊，請參閱 [搶先選擇加入Adobe Workfront展示板的功能](/help/quicksilver/agile/get-started-with-boards/boards-early-feature-opt-in.md).
-
 1. 為展示板選取範本。
 
    | 範本 | 說明 |
@@ -56,10 +52,6 @@ ht-degree: 4%
    | 基本展示板 | 展示板上提供三個預設欄。 您可以新增欄，並重新命名或刪除預設欄。 <p>展示板上提供三個預設欄。 您可以新增欄，並重新命名或刪除預設欄。 |
    | Kanban 展示板 | 展示板上提供下列欄：積壓、新建、正在進行、完成和暫掛。 您可以新增欄，並重新命名或刪除預設欄。<p>要使用積壓，必須為進氣列設定篩選器。 如需詳細資訊，請參閱 [向展示板新增進紙欄](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md). <p>要查看每列的預設策略，請按一下 [!UICONTROL **更多** 功能表] 在欄上選取 [!UICONTROL **編輯**]. 您可以變更任何這些預先設定的原則。 如需詳細資訊，請參閱 [管理展示板欄](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md). |
    | 追溯展示板 | 展示板上提供下列欄：什麼進展順利？ 有哪些可以改進的地方? 我們應該為誰慶祝? 我們可以做些什麼來加快進度? 您可以新增欄，並重新命名或刪除預設欄。 <p>未應用列策略。 |
-
-   >[!NOTE]
-   >
-   > 展示板範本只能透過 [!DNL Workfront] [!UICONTROL 展示板]. 否則，您僅限於基本主板。
 
 1. 在 **[!UICONTROL 展示板]** 欄位並按Enter。
 1. 視需要設定展示板。

@@ -6,18 +6,16 @@ title: 檢閱迭代量度
 description: 量度可用於工作流中的每個小版本，位於小版本流程板上。
 author: Lisa
 feature: Agile
-source-git-commit: 463585bb3368b0061957c42516f790ed085711d2
+source-git-commit: 8c02f5364154bdc343512416d0c7e38ef563a170
 workflow-type: tm+mt
-source-wordcount: '198'
-ht-degree: 1%
+source-wordcount: '201'
+ht-degree: 0%
 
 ---
 
 # 檢閱迭代量度
 
-{{highlighted-preview-article-level}}
-
-量度可用於工作流中的每個小版本，位於小版本流程板上。
+量度可用於工作流、小版本流程板和控制面板中的每個小版本。
 
 ## 存取需求
 

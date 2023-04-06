@@ -7,7 +7,7 @@ description: Adobe Workfront展示板是彈性的工具，可讓團隊透過存�
 author: Lisa
 feature: Agile
 exl-id: 7382e338-3e4c-4a93-a0d4-87ef52f69f36
-source-git-commit: 3b15ac31cc2f5f63d218e2f1efaccc250d17b00c
+source-git-commit: 8c02f5364154bdc343512416d0c7e38ef563a170
 workflow-type: tm+mt
 source-wordcount: '225'
 ht-degree: 0%
@@ -15,8 +15,6 @@ ht-degree: 0%
 ---
 
 # [!UICONTROL 展示板] 概述
-
-{{highlighted-preview}}
 
 [!DNL Adobe Workfront] [!UICONTROL 展示板] 是彈性的工具，可讓團隊透過存取包含欄和卡片的共用展示板進行協同作業。
 
@@ -29,7 +27,7 @@ ht-degree: 0%
 * 使用開放式卡片（臨機卡或連線至的卡片）自訂工作流程 [!DNL Workfront] 任務和問題)
 * 在一個地方組織和管理團隊的工作
 * 使用工作流對資料（如展示板和資訊卡）進行分組，並協作處理工作
-* 使用靈活的規劃工具，如看板板的進貨欄， <span class="preview">以及卡清單和迭代計畫</span>
+* 使用靈活的規劃工具，如看板板的進貨列，以及卡清單和小版本計畫
 
 如需如何使用基本展示板功能的相關資訊，請參閱 [開始使用 [!DNL Adobe Workfront]](../agile/get-started-with-boards/get-started-with-boards.md). 如需展示板中敏捷規劃工具的相關資訊，請參閱 [敏捷規劃工具概述](/help/quicksilver/agile/use-boards-agile-planning-tools/agile-planning-tools-overview.md).
 

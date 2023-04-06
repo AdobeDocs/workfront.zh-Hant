@@ -6,7 +6,7 @@ title: 在工作流中建立小版本
 description: 小版本是為完成工作保留的設定時間量。 一些敏捷的團隊可能將迭代稱為衝刺。
 author: Lisa
 feature: Agile
-source-git-commit: 96819e5d81a063ad623350a0a75428629d6f7b6d
+source-git-commit: 8c02f5364154bdc343512416d0c7e38ef563a170
 workflow-type: tm+mt
 source-wordcount: '319'
 ht-degree: 1%
@@ -14,8 +14,6 @@ ht-degree: 1%
 ---
 
 # 在工作流中建立小版本
-
-{{highlighted-preview-article-level}}
 
 小版本是為完成工作保留的設定時間量。 一些敏捷的團隊可能將迭代稱為衝刺。
 

@@ -6,27 +6,21 @@ description: 此 [!UICONTROL 展示板] 控制面板顯示您有權存取的展�
 author: Lisa
 feature: Agile
 exl-id: bb275f4f-efaf-4dcc-b184-40e015f089b6
-source-git-commit: 16e96d55932116cb475eecbe8b6ebfd4661eb494
+source-git-commit: 0bf2de8cbdcbb21936ac36bdb8cd21552211a8cf
 workflow-type: tm+mt
-source-wordcount: '849'
+source-wordcount: '710'
 ht-degree: 0%
 
 ---
 
 # 使用展示板控制面板
 
-{{highlighted-preview}}
-
 展示板控制面板會顯示您有權存取的展示板和工作流程清單，包括您已建立的展示板和已新增至的展示板。 您有權存取但不屬於工作流的個別展示板會先顯示。
-
->[!NOTE]
->
->您可以透過預先選擇加入的功能，在預覽環境和生產環境中使用工作流 [!UICONTROL [!DNL Workfront] 展示板]. 如需詳細資訊，請參閱 [搶先選擇加入Adobe Workfront展示板的功能](/help/quicksilver/agile/get-started-with-boards/boards-early-feature-opt-in.md).
 
 在控制面板上，您可以對展示板和工作流執行下列操作：
 
-* 封存展示板 <span class="preview">或工作流</span>
-* 篩選展示板 <span class="preview">和工作流程</span>
+* 封存展示板或工作流
+* 篩選展示板和工作流
 * 按展示板名稱或修改日期排序展示板清單
 * 搜索展示板或工作流
 * 刪除展示板或工作流
@@ -54,7 +48,7 @@ ht-degree: 0%
 
 &#42;若要了解您擁有的計畫、授權類型或存取權，請聯絡您的 [!DNL Workfront] 管理員。
 
-## 篩選板 <span class="preview">和工作流程</span> {#filter-boards}
+## 篩選板和工作流 {#filter-boards}
 
 您可以篩選展示板控制面板，以顯示作用中、已封存或所有展示板或工作流。
 
@@ -85,7 +79,7 @@ ht-degree: 0%
 
    ![在控制面板上搜尋展示板](assets/boards-searchbox.png)
 
-## 封存展示板 <span class="preview">或工作流</span>
+## 封存展示板或工作流
 
 封存展示板或工作流會將其傳送至封存，您稍後可加以還原。
 
@@ -123,17 +117,18 @@ ht-degree: 0%
 
 1. 按一下 **[!UICONTROL 刪除展示板]** 或 [!UICONTROL **刪除工作流**] 在確認訊息上。
 
-## 將展示板移至工作流
+<!-- ## Move a board to a workstream
 
-您可以將獨立展示板移入工作流，或將展示板從一個工作流移動到另一個工作流。
+You can move a standalone board into a workstream, or move a board from one workstream to another workstream.
 
 >[!NOTE]
 >
->您只能移動您建立的展示板，不能移動您新增的展示板。
+>You can only move boards that you created, not boards that you were added to.
 
-1. 按一下 **[!UICONTROL 主菜單]** 圖示 ![](assets/main-menu-icon.png) 在 [!DNL Adobe Workfront]，然後按一下 **[!UICONTROL 展示板]**.
-1. 按一下 **[!UICONTROL 更多]** 功能表 ![[!UICONTROL 更多功能表]](assets/more-icon-spectrum.png) 在展示板上，選取 [!UICONTROL **移至工作流**].
-1. 選取要新增展示板的工作流，然後按一下 [!UICONTROL **移動**].
+1. Click the **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png) in the upper-right corner of [!DNL Adobe Workfront], then click **[!UICONTROL Boards]**.
+1. Click the **[!UICONTROL More]** menu ![[!UICONTROL More menu]](assets/more-icon-spectrum.png) on the board, and select [!UICONTROL **Move to workstream**].
+1. Select which workstream to add the board to, and click [!UICONTROL **Move**].
 
-   展示板會移入工作流中，不再出現在 [!UICONTROL 展示板] 的上界。
-如果您尚未建立工作流，則系統會提示您建立工作流，以將展示板移入。
+   The board is moved into the workstream and no longer appears in the [!UICONTROL Boards] area.
+   If you have not created a workstream yet, you are prompted to create one to move the board into.
+-->
