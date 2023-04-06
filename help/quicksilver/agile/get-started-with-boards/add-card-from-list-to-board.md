@@ -5,7 +5,7 @@ title: 將現有工作或問題新增至Adobe Workfront展示板或工作流
 description: 您可以從清單或報表檢視，將任何任務或問題新增至Adobe Workfront的展示板。
 author: Lisa
 feature: Agile
-source-git-commit: 36144b10a55a4732b7c50c2aea8e2ebb219efc4c
+source-git-commit: a1ab72b3ee416a6a47343eadf4d3dec317e4e27a
 workflow-type: tm+mt
 source-wordcount: '586'
 ht-degree: 0%
@@ -13,8 +13,6 @@ ht-degree: 0%
 ---
 
 # 將現有任務或問題新增至 [!DNL Adobe Workfront] 展示板或工作流
-
-{{highlighted-preview-article-level}}
 
 您可以將任何任務或問題新增至 [!DNL Adobe Workfront] 從清單或報表檢視，或從物件詳細資訊。
 
