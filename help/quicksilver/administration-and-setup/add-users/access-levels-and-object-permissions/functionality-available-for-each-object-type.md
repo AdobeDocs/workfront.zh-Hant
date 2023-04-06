@@ -4,20 +4,20 @@ content-type: reference
 product-area: system-administration
 keywords: 存取，模型，漏斗，圖表，層級，權限
 navigation-topic: access-levels
-title: 每種物件類型皆可使用的功能
+title: 適用於各種舊式訪問級別的每個對象類型的功能
 description: 下表列出了各種訪問級別中每種對象類型可用的功能。
 author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: 91b1b448-5a0b-4e64-a59e-458c8387ecbc
-source-git-commit: afc2124a7fd0d9d52c04be1c174fdba314beec7a
+source-git-commit: 1949879ec86e2203c422d1fc05fcb19edf19b4fd
 workflow-type: tm+mt
-source-wordcount: '1457'
-ht-degree: 12%
+source-wordcount: '1446'
+ht-degree: 11%
 
 ---
 
-# 每種物件類型皆可使用的功能
+# 適用於各種舊式訪問級別的每個對象類型的功能
 
 下表列出了各種訪問級別中每種對象類型可用的功能。
 
@@ -91,7 +91,7 @@ ht-degree: 12%
 | 查看財務 | ✓ | ✓ | ✓ |   |   |
 | 更新/注釋 | ✓ | ✓ | ✓ |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 &#42; 使用存取層級，Workfront管理員可以停用或啟用此功能。 如需詳細資訊，請參閱 [可針對每個對象類型配置對功能的訪問](../../../administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md).
 
@@ -187,7 +187,7 @@ ht-degree: 12%
 | 編輯 | ✓ |   |   |   |   |
 | 複製 | ✓ |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 &#42; 使用存取層級，Workfront管理員可以停用或啟用此功能。 如需詳細資訊，請參閱 [可針對每個對象類型配置對功能的訪問](../../../administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md).
 
@@ -305,7 +305,7 @@ ht-degree: 12%
 | 連結（與整合） | ✓ | ✓ | ✓ | ✓ |   |
 | 取消連結（整合） | ✓ | ✓ | ✓ | ✓ |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 &#42; 使用存取層級，Workfront管理員可以停用或啟用此功能。 如需詳細資訊，請參閱 [可針對每個對象類型配置對功能的訪問](../../../administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md).
 
@@ -477,7 +477,7 @@ ht-degree: 12%
 | 複製 | ✓ |   |   |   |   |
 | 編輯範本詳細資訊 | ✓ |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 &#42; 使用存取層級，Workfront管理員可以停用或啟用此功能。 如需詳細資訊，請參閱 [可針對每個對象類型配置對功能的訪問](../../../administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md).
 
@@ -502,7 +502,7 @@ ht-degree: 12%
 | 為項目創造風險 | ✓ |   |   |
 | 查看項目風險 | ✓ | ✓ | ✓ |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 &#42; 使用存取層級，Workfront管理員可以停用或啟用此功能。 如需詳細資訊，請參閱 [可針對每個對象類型配置對功能的訪問](../../../administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md).
 
@@ -523,7 +523,7 @@ ht-degree: 12%
 | 資源規劃工具中的預算資源&#42;&#42; | ✓ |   |   |   |   |
 | 將資源池附加到項目、模板和用戶 | ✓ |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 &#42; 使用存取層級，Workfront管理員可以停用或啟用此功能。 如需詳細資訊，請參閱 [可針對每個對象類型配置對功能的訪問](../../../administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md).
 
@@ -542,7 +542,7 @@ ht-degree: 12%
 | 在主菜單中查看方案 ![](assets/esp-icon-in-main-menu.png) | ✓ | ✓ | ✓ |  |   |
 | 查看用戶建立的計畫和方案&#42; | ✓ | ✓ | ✓ |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 >[!NOTE]
 >

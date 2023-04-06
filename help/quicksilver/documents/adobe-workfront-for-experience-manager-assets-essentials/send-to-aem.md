@@ -6,9 +6,9 @@ description: 您可以將檔案從Workfront傳送至Experience Manager Assets或
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 7942e77b-9466-4dff-9737-97b17647ac48
-source-git-commit: 6bedca2f3394fadc6d6ffbb34654fd1f0194a5d6
+source-git-commit: 5469598d57fec1a744ddb44cf2accb94e1f70941
 workflow-type: tm+mt
-source-wordcount: '710'
+source-wordcount: '709'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ ht-degree: 0%
    <td> <p> 任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront授權概觀</a>*</td> 
+   <td role="rowheader"><a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">舊版授權概觀</a>*</td> 
    <td> <p>要求或更高版本</p> </td> 
   </tr> 
   <tr> 

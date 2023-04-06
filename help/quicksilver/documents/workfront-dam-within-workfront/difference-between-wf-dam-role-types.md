@@ -7,9 +7,9 @@ description: Adobe Workfront管理員使用存取層級來決定使用者可在�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: dcca0158-dc31-4aba-bd87-90ccc64e77cb
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 5469598d57fec1a744ddb44cf2accb94e1f70941
 workflow-type: tm+mt
-source-wordcount: '472'
+source-wordcount: '471'
 ht-degree: 2%
 
 ---
@@ -35,13 +35,13 @@ Adobe Workfront管理員使用存取層級來決定使用者可在應用程式�
 * 請求
 * 外部
 
-請參閱 [Adobe Workfront授權概觀](../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md) 以取得Workfront中不同授權類型的說明。
+請參閱 [舊版授權概觀](../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md) 以取得Workfront中不同授權類型的說明。
 
 ## Workfront DAM角色類型
 
 身為Workfront DAM Workfront管理員，您可以將角色類型指派給使用者，以定義使用者對資產的存取權。 此外，角色類型會指定DAM中使用者可以工作的區域。
 
-建立使用者存取權限時，角色類型可與群組搭配使用。 群組可控制使用者對資料夾和資產本身的存取權。 角色類型決定使用者可對資產採取的動作。 所有DAM使用者都至少必須與一個群組相關聯。 若要進一步了解角色類型和存取設定，請參閱Workfront DAM的說明。
+建立使用者存取權限時，角色類型可與群組搭配使用。 群組可控制使用者對資料夾和資產本身的存取權。 角色類型決定使用者可對資產採取的動作。 所有DAM使用者都至少必須與一個群組相關聯。 若要進一步了解角色類型和存取設定，請參閱Workfront DAM中的說明。
 
 Workfront DAM提供四種不同的角色類型：
 

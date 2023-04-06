@@ -8,9 +8,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: d2a73d24-51d3-42e2-9c09-7f4bc30b2caa
-source-git-commit: e20934501c2117455ca7950834d868f78576dee7
+source-git-commit: 4a7999e6cb46d5b6933f44f1f19ff1979cb68a85
 workflow-type: tm+mt
-source-wordcount: '1424'
+source-wordcount: '1405'
 ht-degree: 6%
 
 ---
@@ -19,13 +19,14 @@ ht-degree: 6%
 
 <!--Don't delete, draft, or change the title of this article. The UI links to it via context-sensitive help.-->
 
-身為Adobe Workfront管理員，您可以建立自訂存取層級並將其套用至使用者，如 [存取層級概觀](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).
+身為Adobe Workfront管理員，您可以建立自訂存取層級並將其套用至使用者。 在使用訪問級別時，必須了解它們如何與用戶在彼此共用對象時授予的對象權限一起工作。 有關訪問級別的詳細資訊，請參閱
 
-在使用訪問級別時，必須了解它們如何與用戶在彼此共用對象時授予的對象權限一起工作。 如需詳細資訊，請參閱 [存取層級與權限如何搭配運作](../../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md).
+* [存取層級概觀](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md)
+* [舊版存取層級概觀](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).
 
 >[!IMPORTANT]
 >
->強烈建議您將內建存取層級維持不變，以便在設定使用者後參照這些層級。 要自定義訪問級別，請複製預設訪問級別並修改副本。 （除了「系統管理員」和「外部用戶」之外，您可以對每個訪問級別執行此操作。）
+>強烈建議您將內建存取層級維持不變，以便在設定使用者後參照這些層級。 要自定義訪問級別，請複製預設訪問級別並修改副本。 除「系統管理員」和「外部用戶」外，您可以對每個訪問級別執行此操作。
 
 ## 存取需求
 
@@ -41,11 +42,13 @@ ht-degree: 6%
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront授權</td> 
-   <td>計劃</td> 
+   <td>當前計畫：標準
+   <p>或</p>
+   <p>舊計畫：計畫</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">訪問級別配置</td> 
-   <td> <p>您必須是Workfront管理員。</p> <p><b>注意</b>:如果您仍無權存取，請洽詢您的Workfront管理員，他們是否在您的存取層級設定其他限制。 如需Workfront管理員如何修改您的存取層級的詳細資訊，請參閱 <a href="#" class="MCXref xref selected">建立或修改自訂存取層級</a>.</p> </td> 
+   <td> <p>您必須是Workfront管理員。</p></td> 
   </tr> 
  </tbody> 
 </table>
@@ -69,7 +72,7 @@ ht-degree: 6%
     <tbody> 
      <tr> 
       <td role="rowheader">名稱</td> 
-      <td> <p>鍵入訪問級別的名稱。 </p> <p>如果您剛剛複製了訪問級別以建立新訪問級別，則預設名稱為訪問級別名稱（副本），其中訪問級別名稱是您複製的訪問級別。</p> <p><strong>筆尖</strong>:建議您將存取層級的原始名稱包含在復本的名稱中。 例如，在ACME公司，計畫員訪問層的副本可命名為ACME計畫員。</p> </td> 
+      <td> <p>鍵入訪問級別的名稱。 </p> <p>如果您剛剛複製了訪問級別以建立新訪問級別，則預設名稱為訪問級別名稱（副本），其中訪問級別名稱是您複製的訪問級別。</p> <p><strong>筆尖</strong>:建議您將存取層級的原始名稱包含在復本的名稱中。 例如，在ACME公司，標準存取層級的副本可命名為ACME Standard。</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">說明 </td> 
@@ -77,12 +80,12 @@ ht-degree: 6%
      </tr> 
      <tr> 
       <td role="rowheader">授權類型</td> 
-      <td>請確保此處選擇的許可證與您正在建立或編輯的訪問級別類型最密切相關。 所選許可證決定了哪些設定可用於訪問級別。 如需詳細資訊，請參閱 <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront授權概觀</a>.</td> 
+      <td>請確保此處選擇的許可證與您正在建立或編輯的訪問級別類型最密切相關。 所選許可證決定了哪些設定可用於訪問級別。 如需詳細資訊，請參閱 <a href="/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md" class="MCXref xref">舊版授權概觀</a> 或 <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront舊版授權概觀</a>.</td> 
      </tr> 
     </tbody> 
    </table>
 
-1. （條件性）若 **計畫** 在 **許可證類型** 框，滾動到「 」部分 **允許的管理存取** 並為具有此訪問級別的用戶選擇管理訪問權限。
+1. （條件性）若 **標準** 或 **計畫** 在 **許可證類型** 框，滾動到「 」部分 **允許的管理存取** 並為具有此訪問級別的用戶選擇管理訪問權限。
 
    <table style="table-layout:auto"> 
     <col> 
@@ -121,7 +124,7 @@ ht-degree: 6%
         <li>添加新作業角色</li> 
         <li>編輯職責開單和成本費率</li> 
        </ul> 
-       <p>有關具有管理權限的任務角色訪問權限的計畫員用戶可訪問的財務資料的重要資訊，請參閱 <a href="#planner-users-with-administrative-access-to-job-roles">具有任務角色管理訪問權限的計畫員用戶</a>.</p>
+       <p>有關對具有任務角色管理訪問權限的標準或計畫員用戶可用的財務資料的訪問權限的重要資訊，請參閱 <a href="#planner-users-with-administrative-access-to-job-roles">具有任務角色管理訪問權限的標準或計畫員用戶</a>.</p>
       </td> 
      </tr> 
      <tr> 
@@ -134,7 +137,7 @@ ht-degree: 6%
      </tr> 
      <tr> 
       <td role="rowheader">時間表和時數</td> 
-      <td> <p>組管理員可以將時間表配置檔案分配給他們管理的組和子組中的用戶。</p> <p>如果未啟用此選項，則組管理員無法將時間表配置檔案分配給他們管理的組和子組中的其他用戶，儘管他們可以建立這些用戶。</p> <p>擁有計畫許可證的所有其他用戶都可以查看Workfront中的所有小時和工時單。</p> <p>若未啟用此選項，使用者只能在下列位置檢視小時：</p> 
+      <td> <p>組管理員可以將時間表配置檔案分配給他們管理的組和子組中的用戶。</p> <p>如果未啟用此選項，則組管理員無法將時間表配置檔案分配給他們管理的組和子組中的其他用戶，儘管他們可以建立這些用戶。</p> <p>具有標準或計畫許可證的所有其他用戶都可以查看Workfront中的所有小時和工時單。</p> <p>若未啟用此選項，使用者只能在下列位置檢視小時：</p> 
        <ul> 
         <li>他們管理的專案、工作或問題</li> 
         <li>他們自己的時間表</li> 
@@ -145,7 +148,7 @@ ht-degree: 6%
     </tbody> 
    </table>
 
-1. 按一下 **設定其他限制**，然後為存取層級設定下列任一限制。
+1. 按一下 **設定其他限制**，然後為存取層級設定下列任何限制。
 
    >[!IMPORTANT]
    >
@@ -203,9 +206,9 @@ ht-degree: 6%
 
    有關Adobe管理員如何向用戶分配系統管理員訪問級別的資訊，請參見 [授予使用者完整的管理存取權](../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md).
 
-## 具有任務角色管理訪問權限的計畫員用戶 {#planner-users}
+## 具有任務角色管理訪問權限的標準或計畫員用戶 {#planner-users}
 
-如果您授予計畫員用戶對任務職責的管理訪問權限，則系統會自動為用戶啟用「編輯職責開單和成本費率」設定。
+如果您授予標準或計畫員用戶對任務職責的管理訪問權限，則系統會自動為用戶啟用「編輯職責開單和成本費率」設定。
 
 之後，如果禁用用戶對作業角色的管理訪問，則用戶仍可看到作業角色，因為「編輯角色開單和成本費率」設定仍處於啟用狀態。
 

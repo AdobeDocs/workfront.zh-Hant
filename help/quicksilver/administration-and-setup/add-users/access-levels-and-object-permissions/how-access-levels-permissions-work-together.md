@@ -10,14 +10,14 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 594e002c-19e3-4baa-b5f8-223c3fdf8ca8
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 1bd454246419e199e5cfd0d8d1d73cd30c0b13b1
 workflow-type: tm+mt
-source-wordcount: '906'
-ht-degree: 2%
+source-wordcount: '909'
+ht-degree: 1%
 
 ---
 
-# 存取層級與權限如何搭配運作
+# 舊版存取層級和權限如何搭配運作
 
 Adobe Workfront管理員會決定每個使用者應具有的存取層級。 該訪問級別定義了用戶可以查看和處理系統中的對象類型和區域。
 
@@ -31,11 +31,11 @@ Adobe Workfront管理員會決定每個使用者應具有的存取層級。 該�
 
 本文說明此組合的運作方式。
 
-## 存取層級
+## 舊版存取層級
 
 登入Workfront需要Workfront管理員指派給每位使用者的存取層級。
 
-預設訪問級別為：
+預設的舊版存取層級為：
 
 * 系統管理員（附於計畫許可證）
 * 計畫員（附於計畫許可證）

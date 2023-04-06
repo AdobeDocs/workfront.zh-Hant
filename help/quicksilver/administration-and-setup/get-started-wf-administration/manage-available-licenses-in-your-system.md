@@ -8,9 +8,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: ea580dd0-efb7-4f56-beb3-07ad044efc8a
-source-git-commit: 5ec772260c965b83824ff307bc84755fe06e1ba0
+source-git-commit: a39720a4529dcd974483f7730b6feb4d6cd6f994
 workflow-type: tm+mt
-source-wordcount: '1018'
+source-wordcount: '1103'
 ht-degree: 0%
 
 ---
@@ -52,7 +52,7 @@ ht-degree: 0%
 
 1. 在左側面板底部，按一下 **系統** > **授權**.
 
-   有關本頁所列許可證的詳細資訊，請參見 [Adobe Workfront授權概觀](../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md).
+   有關本頁所列許可證的詳細資訊，請參見 [舊版授權概觀](../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md).
 
    >[!NOTE]
    >
@@ -88,6 +88,20 @@ If an organization has other paid add-on products, their license information als
 >* 許可證類型限制：計畫員限制
 >
 >若要進一步了解建立報表，請參閱 [建立自訂報表](../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+
+## 查看有關每月證明和文檔決策分配的資訊
+
+所有未付費的Workfront授權均限制舉證和檔案決定。 每月按每位使用者重設的限制。
+
+>[!IMPORTANT]
+>
+>校樣和檔案決策限制不適用於 [舊版Workfront授權和存取層級](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md).
+
+每個授權的決策限制會因您所執行的計畫而異。 您可以在「設定>授權」中檢視每月分配。
+
+如需證明和檔案決策限制的詳細資訊，請參閱 [非付費使用者的有限檔案和證明決策概觀](/help/quicksilver/review-and-approve-work/proof-doc-decision-limits.md).
+
+![](assets/monthly-decision-allotment.png)
 
 ## 向「許可證」頁添加或刪除首組 {#add-or-remove-a-home-group-to-the-licenses-page}
 

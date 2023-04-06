@@ -5,12 +5,10 @@ title: 非付費使用者的有限檔案和證明決策概觀 
 description: 所有未付費的Workfront授權均限制舉證和檔案決定。 每月按每位使用者重設的限制。
 author: Courtney
 feature: Work Management
-hide: true
-hidefromtoc: true
-source-git-commit: 6961bc960312d364ee785543e13a7d75035ef326
+source-git-commit: 4a91a00c8089eb3cf424aa10d4ae86219bd6413f
 workflow-type: tm+mt
-source-wordcount: '174'
-ht-degree: 8%
+source-wordcount: '225'
+ht-degree: 6%
 
 ---
 
@@ -74,13 +72,13 @@ ht-degree: 8%
 
 ## 貢獻者使用者
 
-擁有貢獻者授權的使用者一旦達到決策限制，就會自動升級為輕型授權，並提供無限制的校樣和檔案決策。 <!-- For more information about the Light license, see the [Light access level](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md) section in the [Access levels overview](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md) article.-->
+擁有貢獻者授權的使用者一旦達到決策限制，就會自動升級為輕型授權，並提供無限制的校樣和檔案決策。 有關Light許可證的詳細資訊，請參閱 [輕量級](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md) 區段 [存取層級概觀](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md) 文章。
 
 >[!NOTE]
 >
->Workfront管理員和使用者都會收到有關此升級的電子郵件通知。
+>Workfront管理員會收到有關此升級的電子郵件通知。
 
-<!-- 
-## View the number of decisions for a user
 
-You can view the number of decisions for a user in the Users area of Workfront. For more information, see [View the number of decisions for all users](/help/quicksilver/review-and-approve-work/tips-tricks-troubleshooting-approvals/view-number-of-decisions-for-users.md). -->
+## 查看用戶的決策數
+
+您可以在Workfront的「使用者」區域中檢視使用者的決策數。 如需詳細資訊，請參閱 [查看所有用戶的決策數](/help/quicksilver/review-and-approve-work/tips-tricks-troubleshooting-approvals/view-number-of-decisions-for-users.md).

@@ -1,23 +1,23 @@
 ---
-title: 存取層級概觀
+title: 舊版存取層級概觀
 user-type: administrator
 content-type: reference
 product-area: system-administration
 keywords: 訪問，級別，系統，管理員，計畫員，工人，審核者，請求者，外部，用戶
 navigation-topic: access-levels
 description: 每個使用者都必須有存取層級才能登入並在Workfront中運作。 您可以使用存取層級來控制使用者可以看到哪些內容，以及如何處理特定Workfront物件和區域。 6個內置訪問級別中的每個級別都附加在5個Workfront許可證（計畫、工作、審核、請求和外部）中的一個。
-author: Caroline
+author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: 7c323af9-8c33-48ad-9aff-96758e96b40b
-source-git-commit: 33c269cee3fbab51ce67f50cbdd1fdd190d948b7
+source-git-commit: 5469598d57fec1a744ddb44cf2accb94e1f70941
 workflow-type: tm+mt
-source-wordcount: '275'
+source-wordcount: '276'
 ht-degree: 0%
 
 ---
 
-# 存取層級概觀
+# 舊版存取層級概觀
 
 身為Adobe Workfront管理員，您可為使用者指派存取層級，目的有2種：
 
@@ -42,7 +42,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td>授權</td> 
-   <td> <p>連接到訪問級別的許可證決定了如何配置訪問級別。</p> <p>如需詳細資訊，請參閱 <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront授權概觀</a>.</p> <p><strong>筆尖</strong>:您可以檢視使用者清單或報表，以查看指派給每位使用者的存取層級和授權。 如需指示，請參閱 <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/list-access-levels-and-licenses-for-your-users.md" class="MCXref xref">列出使用者的存取層級和授權</a>.</p> </td> 
+   <td> <p>連接到訪問級別的許可證決定了如何配置訪問級別。</p> <p>如需詳細資訊，請參閱 <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">舊版授權概觀</a>.</p> <p><strong>筆尖</strong>:您可以檢視使用者清單或報表，以查看指派給每位使用者的存取層級和授權。 如需指示，請參閱 <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/list-access-levels-and-licenses-for-your-users.md" class="MCXref xref">列出使用者的存取層級和授權</a>.</p> </td> 
   </tr> 
   <tr> 
    <td>內置訪問級別</td> 

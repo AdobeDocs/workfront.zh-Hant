@@ -10,16 +10,16 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 5cb42dd8-1557-4fa4-ab3d-8278ce9afd96
-source-git-commit: 02191d80ea58f80de2e7be2ff55f43663e415e31
+source-git-commit: 1bd454246419e199e5cfd0d8d1d73cd30c0b13b1
 workflow-type: tm+mt
-source-wordcount: '1508'
-ht-degree: 6%
+source-wordcount: '1515'
+ht-degree: 5%
 
 ---
 
-# Adobe Workfront中的內建存取層級
+# Adobe Workfront中內建的舊版存取層級
 
-6個內置訪問級別中的每個級別都是針對特定類型的用戶而設計的：
+6個內置的舊式訪問級別中的每個級別都是針對特定類型的用戶而設計的：
 
 * 系統管理員
 * 計劃者
@@ -28,7 +28,7 @@ ht-degree: 6%
 * 要求者
 * 外部使用者
 
-根據存取層級，大部分的Workfront物件類型最多可使用3個設定：
+根據舊版存取層級，大部分的Workfront物件類型最多可使用3個設定：
 
 <table style="table-layout:auto">
     <tr>
@@ -45,25 +45,25 @@ ht-degree: 6%
     </tr>
 </table>
 
-如果您需要自定義的計畫員、工作人員、請求者或審核者訪問級別，則可以複製內置訪問級別並確定希望它允許各種Workfront對象類型的訪問量。 有關建立自定義訪問級別或修改其中一個內置訪問級別的資訊，請參見 [建立或修改自訂存取層級](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+如果您需要自定義的計畫員、工作人員、請求者或審核者訪問級別，則可以複製內置的舊訪問級別並確定希望它允許各種Workfront對象類型的訪問量。 有關建立自定義訪問級別或修改其中一個內置舊訪問級別的資訊，請參見 [建立或修改自訂存取層級](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
 >[!IMPORTANT]
 >
->強烈建議您將內建存取層級維持不變，以便在設定使用者後參照這些層級。
+>強烈建議您將內建的舊版存取層級維持不變，以便在設定使用者後參照這些層級。
 
 有關這些訪問級別的一般資訊，請參見 [存取層級概觀](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).
 
-## 系統管理員訪問級別
+## 系統管理員舊式存取層級
 
-此內建存取層級附加至「計畫」授權，專為負責管理Adobe Workfront系統的使用者而設計。 您無法修改此內置訪問級別。
+此內建的舊版存取層級附加至「計畫」授權，專為負責管理Adobe Workfront系統的使用者而設計。 您無法修改此內置訪問級別。
 
-具有系統管理員存取層級的使用者可在Workfront中執行所有作業。 他們可以檢視和編輯所有其他使用者在Workfront中輸入的Workfront物件和資訊。
+具有系統管理員舊版存取層級的使用者可在Workfront中執行所有作業。 他們可以檢視和編輯所有其他使用者在Workfront中輸入的Workfront物件和資訊。
 
 他們還可以訪問完整的「設定」區域，在該區域可以更改系統級別的任何設定。 他們可以訪問主菜單中的所有區域 ![](assets/main-menu-icon.png).
 
 如需詳細資訊，請參閱 [授予使用者完整的管理存取權](../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md).
 
-## 計畫員訪問層
+## 計畫員舊訪問級別
 
 此訪問級別還附於計畫許可證，其設計目的是：
 
@@ -73,9 +73,9 @@ ht-degree: 6%
 * 生成報告以及批准工時單、工作項和文檔的用戶
 * 需要存取主功能表中所有區域的使用者 ![](assets/main-menu-icon.png)
 
-您可以建立Planner內置訪問級別的自定義版本，並確定它允許的訪問量以用於各種Workfront對象類型。 如需詳細資訊，請參閱 [Adobe Workfront中的內建存取層級](#Customiz) 這篇文章。
+您可以建立Planner內置的舊式訪問級別的自定義版本，並確定它允許的各種Workfront對象類型的訪問量。 如需詳細資訊，請參閱 [Adobe Workfront中的內建存取層級](#Customiz) 這篇文章。
 
-以下是「計畫員」訪問級別中對象可用的最高訪問設定：
+以下是「計畫員」舊式訪問級別中對象可用的最高訪問設定：
 
 | Workfront物件類型 | 無權存取 | 檢視存取 | 編輯存取 |
 |---|---|---|---|
@@ -94,11 +94,11 @@ ht-degree: 6%
 | 案例規劃工具 |   |   | ✓（預設設定為「無權存取」）。 |
 | Workfront 目標 |   |   | ✓（預設設定為「無權存取」）。 |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-## 工作人員訪問級別
+## 工作人員舊訪問級別
 
-此內建存取層級附加至工作授權，專為在Workfront中執行工作的使用者而設計。 他們沒有規劃工作；他們完成了。
+此存取層級附加至工作授權，專為在Workfront中執行工作的使用者而設計。 他們沒有規劃工作；他們完成了。
 
 具有此訪問級別的用戶：
 
@@ -109,7 +109,7 @@ ht-degree: 6%
 * 可以訪問主菜單中的所有區域 ![](assets/main-menu-icon.png)，但其「使用者」區域名為「團隊」。 在「團隊」區域中，具有此訪問級別的用戶只能查看他們所屬的團隊以及分配給這些團隊的工作。
 * 建立對象的能力有限 — 他們不能建立項目、產品組合、方案或報告。
 
-您可以建立Worker內置訪問級別的自定義版本，並確定它允許的各種Workfront對象類型的訪問量。 如需詳細資訊，請參閱 [Adobe Workfront中的內建存取層級](#Customiz) 這篇文章。
+您可以建立Worker內建的舊式訪問級別的自定義版本，並確定它允許的各種Workfront對象類型的訪問量。 如需詳細資訊，請參閱 [Adobe Workfront中的內建存取層級](#Customiz) 這篇文章。
 
 以下是工作器訪問級別中對象可用的最高訪問設定：
 
@@ -130,9 +130,9 @@ ht-degree: 6%
 | 案例規劃工具 |   |   | ✓（預設設定為「無權存取」）。 |
 | Workfront 目標 |   |   | ✓（預設設定為「無權存取」）。 |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-## 審核者訪問級別
+## 審核者舊訪問級別
 
 此訪問級別附加於「審閱」許可證，面向向其他用戶請求工作以及審閱和批准工作的執行官。 這些人員不是專案擁有者或團隊成員，但需要存取Workfront，才能查看其監控的工作項目。
 
@@ -144,7 +144,7 @@ ht-degree: 6%
 * 可以訪問主菜單中的請求和文檔 ![](assets/main-menu-icon.png).
 * 建立對象的能力有限 — 他們不能建立項目、產品組合、方案或報告。
 
-您可以建立Reviewer內建存取層級的自訂版本，並決定各種Workfront物件類型可允許的存取量。 如需詳細資訊，請參閱 [Adobe Workfront中的內建存取層級](#Customiz) 這篇文章。
+您可以建立Reviewer內建舊版存取層級的自訂版本，並決定其允許的存取量以用於各種Workfront物件類型。 如需詳細資訊，請參閱 [Adobe Workfront中的內建存取層級](#Customiz) 這篇文章。
 
 與「工作人員」訪問級別相比，對項目和任務的限制更大，以下是「審核者」訪問級別中對象可用的最高訪問設定：
 
@@ -249,13 +249,13 @@ ht-degree: 6%
  </tbody> 
 </table>
 
-## 請求者存取層級
+## 請求者舊版存取層級
 
-此內建存取層級附加至「請求」授權，專為在Workfront中提出和接收簡單工作請求的使用者而設計。 依預設，它們會限制在「請求」區域。
+此存取層級附加至「請求」授權，專為在Workfront中提出和接收簡單工作請求的使用者而設計。 依預設，它們會限制在「請求」區域。
 
 例如，使用者可將問題記錄到貴組織的服務台請求佇列。
 
-具有此內置訪問級別的用戶：
+具有此訪問級別的用戶：
 
 * 可以提出請求並更新這些請求
 * 可以上傳和核准檔案
@@ -263,7 +263,7 @@ ht-degree: 6%
 * 無法分配給工作項
 * 只能從主功能表存取請求 ![](assets/main-menu-icon.png). 如需請求佇列的詳細資訊，請參閱 [建立請求佇列](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
 
-您可以建立Requester內建存取層級的自訂版本，並決定其允許的存取量以用於各種Workfront物件類型。 如需詳細資訊，請參閱 [Adobe Workfront中的內建存取層級](#Customiz) 這篇文章。
+您可以建立Requester內建舊版存取層級的自訂版本，並決定其允許的存取量以用於各種Workfront物件類型。 如需詳細資訊，請參閱 [Adobe Workfront中的內建存取層級](#Customiz) 這篇文章。
 
 以下是「請求者」訪問級別中對象可用的最高訪問設定：
 
@@ -284,9 +284,9 @@ ht-degree: 6%
 | 案例規劃工具 | ✓ |   |   |
 | Workfront 目標 |   |   | ✓（預設設定為「無權存取」）。 |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-## 外部用戶訪問級別
+## 外部用戶舊版訪問級別
 
 此存取層級未附加至付費Workfront授權。 這是限制最嚴格的存取層級，主要針對未登入Workfront、但偶爾需要檢閱、下載或檢視檔案的外部顧問等共同作業人員。
 

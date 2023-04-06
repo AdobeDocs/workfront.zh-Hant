@@ -6,9 +6,9 @@ description: 您可以請求任何支援「文檔」的對象的文檔。
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 228b53ba-4a87-4edd-b478-501b216c4a1d
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 5469598d57fec1a744ddb44cf2accb94e1f70941
 workflow-type: tm+mt
-source-wordcount: '426'
+source-wordcount: '425'
 ht-degree: 0%
 
 ---
@@ -58,7 +58,7 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >如果您有 [Adobe Workfront授權概觀](../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md) 啟用後，您就可以傳送要求給任何電子郵件地址。 中的設定 [配置系統安全首選項](../../administration-and-setup/manage-workfront/security/configure-security-preferences.md) 可決定這些外部電子郵件使用者在與Workfront互動之前是否需要建立密碼。 
+   >如果您有 [舊版授權概觀](../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md) 啟用後，您就可以傳送要求給任何電子郵件地址。 中的設定 [配置系統安全首選項](../../administration-and-setup/manage-workfront/security/configure-security-preferences.md) 可決定這些外部電子郵件使用者在與Workfront互動之前是否需要建立密碼。 
 
 1. 描述您請求文檔的原因。
 1. 按一下 **傳送請求**.
