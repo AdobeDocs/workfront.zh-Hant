@@ -6,9 +6,9 @@ title: 在工作流中建立小版本
 description: 小版本是為完成工作保留的設定時間量。 一些敏捷的團隊可能將迭代稱為衝刺。
 author: Lisa
 feature: Agile
-source-git-commit: 8c02f5364154bdc343512416d0c7e38ef563a170
+source-git-commit: cc1411f0308e3415a09403e8e3a65d8af2886de9
 workflow-type: tm+mt
-source-wordcount: '319'
+source-wordcount: '350'
 ht-degree: 1%
 
 ---
@@ -86,3 +86,8 @@ ht-degree: 1%
 
    小版本啟動後，您只能更改小版本名稱。
 
+## 刪除小版本
+
+1. 按一下 [!UICONTROL **卡片清單**] 頁簽，然後開啟小版本視圖。
+1. 按一下 **刪除** 表徵圖。
+1. 按一下 [!UICONTROL **刪除小版本**] 在確認訊息上。
