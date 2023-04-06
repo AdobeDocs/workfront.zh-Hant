@@ -3,10 +3,10 @@ product-area: reporting
 navigation-topic: reporting-elements
 title: 在Adobe Workfront中建立群組
 description: 您可以從頭建立自訂分組，或自訂現有分組。
-author: Lisa
+author: Nolan
 feature: Reports and Dashboards
 exl-id: 64cc52b7-d97b-4b41-9101-530e7db2d26e
-source-git-commit: 53a5aaed8880e6eb6227cc49d385a8ec182d481a
+source-git-commit: 302771f4d64b386149623f87a3436d0c40f421d5
 workflow-type: tm+mt
 source-wordcount: '494'
 ht-degree: 0%

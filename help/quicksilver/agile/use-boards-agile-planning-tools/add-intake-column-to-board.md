@@ -7,9 +7,9 @@ description: 您可以選擇將取用欄新增至展示板，根據您定義的�
 author: Lisa
 feature: Agile
 exl-id: 4991f4f7-6f3d-4e15-ae8d-96433ed46557
-source-git-commit: 0bcd7cbe43a03216dddabb173aa5888b97cffd23
+source-git-commit: 302771f4d64b386149623f87a3436d0c40f421d5
 workflow-type: tm+mt
-source-wordcount: '765'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -77,7 +77,7 @@ ht-degree: 0%
 
    此範例顯示狀態為 [!UICONTROL 新增] 或 [!UICONTROL 進行中]，並指派給我。
 
-   如需建立篩選器的詳細資訊，請參閱文章中的「在測試版產生器中建立或編輯篩選器」一節 [在中建立或編輯篩選器 [!DNL Adobe Workfront]](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-filters.md).
+   如需建立篩選器的詳細資訊，請參閱文章中的「在標準產生器中建立或編輯篩選器」一節 [在中建立或編輯篩選器 [!DNL Adobe Workfront]](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-filters.md).
 
 1. 為篩選器命名，然後按一下 **[!UICONTROL 儲存]**.
 

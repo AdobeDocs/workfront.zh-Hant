@@ -3,12 +3,12 @@ product-area: reporting
 navigation-topic: reporting-elements
 title: 共用篩選、檢視或分組
 description: 您可以與其他使用者共用您有權檢視的篩選器、檢視和群組。
-author: Lisa
+author: Nolan
 feature: Reports and Dashboards
 exl-id: 63a6db90-d52c-4147-a442-7904ef9e9d49
-source-git-commit: b56e6591c7da166bd1548420b562b838cc7fe0f2
+source-git-commit: 302771f4d64b386149623f87a3436d0c40f421d5
 workflow-type: tm+mt
-source-wordcount: '1362'
+source-wordcount: '1227'
 ht-degree: 1%
 
 ---
@@ -21,8 +21,6 @@ ht-degree: 1%
 <p>(NOTE: This is linked from the TOC article in WF Basics > permissions section)&nbsp;</p>
 </div>
 -->
-
-<span class="preview">請注意，在預覽環境中，增強的篩選體驗（先前稱為「測試版」）現在是預設值。 這些增強的篩選現在是「標準」，而舊的篩選體驗是「舊版」。</span>
 
 您的Adobe Workfront管理員在使用者指派存取層級時，授予他們檢視或編輯物件的存取權。 有關授予對象訪問權限的詳細資訊，請參見 [建立或修改自訂存取層級](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
@@ -73,94 +71,20 @@ ht-degree: 1%
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: when the beta filters/ groupings come out either consider splitting this in different kinds of FVGs or splitting this article in FVGs for showing sharing on each one of them??)</p>
 -->
 
-您可以使用下列介面在選取的清單中共用篩選器：
+在選取的清單中共用篩選器會因您用來共用篩選器的介面而異：標準或舊版。 如需建立篩選器介面類型的相關資訊，請參閱 [在Adobe Workfront中建立或編輯篩選器](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-filters.md).
 
-* 標準介面
-* 測試版產生器介面
+您只能在舊版介面中共用檢視和群組。
 
-在選取的清單中共用篩選器會因您用來共用篩選器的介面而異。 如需建立篩選器介面類型的相關資訊，請參閱 [在Adobe Workfront中建立或編輯篩選器](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-filters.md).
+### 使用標準產生器介面共用篩選器
 
-您只能在標準介面中共用檢視和群組。
+您可以從專案、工作、問題、產品組合、方案、使用者、範本或群組清單，在標準介面中共用篩選器。 篩選器的標準產生器介面不適用於任何其他物件或檢視或群組。
 
-* [使用標準介面共用篩選器、檢視和群組](#share-with-standard-interface)
-* [使用測試版產生器介面共用篩選器](#share-with-beta-builder-interface)
-
-### 使用標準介面共用篩選器、檢視和群組 {#share-with-standard-interface}
-
-在標準介面中共用篩選器、檢視和群組相同。
-
-1. 移至物件清單或報表。
-1. （條件性）從清單中按一下 **篩選**, **檢視**，或 **分組** 圖示，然後將游標暫留在您要共用的篩選器、檢視或分組上，按一下 **更多** 圖示 ![更多圖示](assets/more-icon.png)，然後 **共用**.
-
-   在報表中，按一下 **篩選**, **檢視**，或 **分組** 下拉式功能表，然後選取您要共用的篩選、檢視或分組。
-
-1. （條件性）如果從報表共用，請按一下 **篩選**, **檢視**，或 **分組** 再按一下下拉式功能表，然後按一下 **共用篩選**, **共用檢視**，或 **共用分組**.\
-   此 **篩選存取**, **檢視存取**，或 **分組訪問** 對話框。
-
-   ![共用篩選器](assets/share-filter-people-box-nwe-350x458.png)
-
-1. 視您要與誰共用而定，完成下列其中一項：
-
-   **若要與個別使用者、團隊、角色、群組或公司共用：** 在提供的欄位中，開始輸入您要共用的使用者、團隊、角色、群組或公司的名稱，然後在下拉式清單中出現名稱時按一下名稱。\
-   重複此程式，與多個使用者、團隊、角色、群組或公司共用存取權。
-
-   >[!TIP]
-   >
-   >與組共用為組和所有子組的成員提供篩選、查看或分組的權限。
-
-
-   **要與系統中的所有用戶共用，請執行以下操作：** 按一下 **設定** 圖示，然後按一下 **使此可見系統範圍**.\
-   您的管理員必須選擇「共用系統」選項，此選項才可用。 如需詳細資訊，請參閱 [建立或修改自訂存取層級](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md) 和 [共用報表、控制面板和日曆](../../../workfront-basics/grant-and-request-access-to-objects/permissions-reports-dashboards-calendars.md).
-
-1. （條件性）如果您要與個別使用者、團隊、角色、群組或公司共用，請按一下下拉式功能表，以定義您要授與的存取層級。
-
-   您可以選取下列選項：
-
-   <table style="table-layout:auto"> 
-    <col> 
-    <col> 
-    <tbody> 
-     <tr> 
-      <td role="rowheader"><strong>檢視它</strong></td> 
-      <td> <p>選擇此選項可僅允許共用收件者使用共用篩選器、視圖或分組。 選取此選項時，收件者無法對共用項目進行任何修改。</p> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader"><strong>管理它</strong></td> 
-      <td> <p>選擇此選項可允許共用收件者使用和修改共用篩選器、視圖或分組。</p> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader"><strong>共用</strong></td> 
-      <td> <p>按一下 <strong>進階設定</strong>，然後選取或清除 <strong>共用</strong> 選項，取決於您是否希望收件者能與其他人共用。</p> </td> 
-     </tr> 
-    </tbody> 
-   </table>
-
-1. 按一下&#x200B;**儲存**。
-
-   您與其共用篩選器、檢視或分組的使用者可按一下 **篩選**, **檢視**，或 **分組** 下拉菜單或表徵圖，並向下滾動到 **與我共用** 區段。
-
-### 使用測試版產生器介面共用篩選器 {#share-with-beta-builder-interface}
-
-從專案、工作或問題清單共用篩選器時，您可以使用測試版產生器介面（而非標準介面）來共用篩選器。
-
-測試版產生器介面不適用於Workfront中的任何其他物件。
-
-建立報表時，您無法在測試版產生器介面中建立篩選器。
-
-使用測試版產生器介面共用篩選器：
+使用標準產生器介面共用篩選器：
 
 1. 移至專案、工作或問題清單。
-1. 按一下 **篩選** 圖示 ![篩選圖示](assets/filter-nwepng.png)，然後啟用 **測試版設定** ![測試版設定](assets/beta-toggle-white-on-existing-filters.png) 存取測試版產生器。 預設為停用。
+1. 按一下 **篩選** 圖示 ![篩選圖示](assets/filter-nwepng.png).
 
-   接下來，視需要同意測試版協定。
-
-   這會開啟測試版篩選產生器介面。
-
-   >[!TIP]
-   >
-   >啟用測試版產生器時，產生器介面的標題會變為藍色。 啟用測試版產生器介面後，Workfront會在所有可用區域中持續啟用它。
-
-   ![測試版篩選產生器](assets/new-filters-all-filter-types.png)
+   ![標準篩選器產生器](assets/new-filters-all-filter-types.png)
 
 1. 檢閱下列篩選器清單：
 
@@ -193,7 +117,7 @@ ht-degree: 1%
 
    篩選器共用方塊隨即顯示。
 
-1. 啟用「查看系統範圍」設定。 這可授予Workfront中任何人檢視篩選器的權限。
+1. 啟用 **查看全系統** 設定。 這可授予Workfront中任何人檢視篩選器的權限。
 
    >[!IMPORTANT]
    >
@@ -228,4 +152,58 @@ ht-degree: 1%
    您共用的篩選器會顯示在 **與我共用** 的子欄位。
 
    ![與我共用的篩選器](assets/new-filters-shared-with-me.png)
+
+### 使用舊版介面共用篩選器、檢視和群組
+
+在舊版介面中共用篩選器、檢視和群組相同。
+
+1. 移至物件清單或報表。
+1. （條件性）從清單中按一下 **篩選**, **檢視**，或 **分組** 圖示，然後將游標暫留在您要共用的篩選器、檢視或分組上，按一下 **更多** 圖示 ![更多圖示](assets/more-icon.png)，然後 **共用**.
+
+   在報表中，按一下 **篩選**, **檢視**，或 **分組** 下拉式功能表，然後選取您要共用的篩選、檢視或分組。
+
+1. （條件性）如果從報表共用，請按一下 **篩選**, **檢視**，或 **分組** 再按一下下拉式功能表，然後按一下 **共用篩選**, **共用檢視**，或 **共用分組**.\
+   此 **篩選存取**, **檢視存取**，或 **分組訪問** 對話框。
+
+   ![共用篩選器](assets/share-filter-people-box-nwe-350x458.png)
+
+1. 視您要與誰共用而定，完成下列其中一項：
+
+   **若要與個別使用者、團隊、角色、群組或公司共用：** 在提供的欄位中，開始輸入您要共用的使用者、團隊、角色、群組或公司的名稱，然後在下拉式清單中出現名稱時按一下名稱。\
+   重複此程式，與多個使用者、團隊、角色、群組或公司共用存取權。
+
+   >[!TIP]
+   >
+   >與組共用為組和所有子組的成員提供篩選、查看或分組的權限。
+
+   **要與系統中的所有用戶共用，請執行以下操作：** 按一下 **設定** 圖示，然後按一下 **使此可見系統範圍**.\
+   您的管理員必須選擇「共用系統」選項，此選項才可用。 如需詳細資訊，請參閱 [建立或修改自訂存取層級](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md) 和 [共用報表、控制面板和日曆](../../../workfront-basics/grant-and-request-access-to-objects/permissions-reports-dashboards-calendars.md).
+
+1. （條件性）如果您要與個別使用者、團隊、角色、群組或公司共用，請按一下下拉式功能表，以定義您要授與的存取層級。
+
+   您可以選取下列選項：
+
+   <table style="table-layout:auto"> 
+    <col> 
+    <col> 
+    <tbody> 
+     <tr> 
+      <td role="rowheader"><strong>檢視它</strong></td> 
+      <td> <p>選擇此選項可僅允許共用收件者使用共用篩選器、視圖或分組。 選取此選項時，收件者無法對共用項目進行任何修改。</p> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader"><strong>管理它</strong></td> 
+      <td> <p>選擇此選項可允許共用收件者使用和修改共用篩選器、視圖或分組。</p> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader"><strong>共用</strong></td> 
+      <td> <p>按一下 <strong>進階設定</strong>，然後選取或清除 <strong>共用</strong> 選項，取決於您是否希望收件者能與其他人共用。</p> </td> 
+     </tr> 
+    </tbody> 
+   </table>
+
+1. 按一下&#x200B;**儲存**。
+
+   您與其共用篩選器、檢視或分組的使用者可按一下 **篩選**, **檢視**，或 **分組** 下拉菜單或表徵圖，並向下滾動到 **與我共用** 區段。
+
 

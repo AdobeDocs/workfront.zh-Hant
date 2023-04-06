@@ -4,13 +4,13 @@ product-area: reporting
 navigation-topic: reporting-elements
 title: 萬用字元篩選變數
 description: 在篩選器中使用萬用字元，可以參照一般使用者或日期，而非特定使用者或日期。 如此一來，您建置的元素就會動態顯示，結果會隨使用內容而改變。
-author: Lisa
+author: Nolan
 feature: Reports and Dashboards
 exl-id: f99cd99e-c4c1-471d-8428-c680f0e73336
-source-git-commit: 442e0b8fde9e4acaa2686ccd292fb003f72be623
+source-git-commit: 302771f4d64b386149623f87a3436d0c40f421d5
 workflow-type: tm+mt
-source-wordcount: '1456'
-ht-degree: 2%
+source-wordcount: '1447'
+ht-degree: 1%
 
 ---
 
@@ -94,21 +94,21 @@ Workfront日期型萬用字元選項可與任何日期篩選屬性搭配使用�
 | **m** | 月 |
 | **y** | 年 |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 | **限定符** |  |
 |---|---|
 | **b** | 一週的開始（星期日） |
 | **e** | 一週結束（星期六） |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 | **運算子** |  |
 |---|---|
 | **+** | 將值新增至萬用字元值 |
 | **-** | 從萬用字元中減去值 |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 例如，萬用字元 `$$TODAYb+2w` 是指「從本週開始算起2週」。 萬用字元*`$$NOW+2h` 是指「2小時後」
 

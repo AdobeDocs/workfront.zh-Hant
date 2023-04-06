@@ -3,19 +3,17 @@ product-area: reporting
 navigation-topic: reporting-elements
 title: 在Adobe Workfront中建立或編輯篩選器
 description: 您可以透過篩選限制項目清單中畫面上顯示的資訊量。 您可以根據有關對象的特定資訊定義特定條件，並只顯示符合這些條件的對象。
-author: Lisa
+author: Nolan
 feature: Reports and Dashboards
 exl-id: 2e912e32-7924-418d-9d55-ce3c09f67d3e
-source-git-commit: b56e6591c7da166bd1548420b562b838cc7fe0f2
+source-git-commit: 302771f4d64b386149623f87a3436d0c40f421d5
 workflow-type: tm+mt
-source-wordcount: '2513'
+source-wordcount: '2380'
 ht-degree: 1%
 
 ---
 
 # 在Adobe Workfront中建立或編輯篩選器
-
-<span class="preview">請注意，在預覽環境中，增強的篩選體驗（先前稱為「測試版」）現在是預設值。 這些增強的篩選現在是「標準」，而舊的篩選體驗是「舊版」。</span>
 
 您可以透過篩選限制項目清單中畫面上顯示的資訊量。 您可以根據有關對象的特定資訊定義特定條件，並只顯示符合這些條件的對象。
 
@@ -76,11 +74,6 @@ ht-degree: 1%
 </tr>
 <tr>
 <td>標準產生器</td>
-<td>所有物件 </td>
-<td>清單與報表</td>
-</tr>
-<tr>
-<td>測試版產生器</td>
 <td>
 <ul>
 <li> <p>專案</p> </li>
@@ -100,149 +93,75 @@ ht-degree: 1%
 <ul>
 <li> <p>方案計畫員中的項目清單</p> <p>方案規劃器需要附加許可證。 有關Workfront方案計畫器的資訊，請參閱 <a href="../../../scenario-planner/scenario-planner-overview.md">方案計畫員概覽</a>. </p> </li>
 </ul>
-<p>注意：報表中無法使用篩選器的測試版產生器。
+<p>注意：報表中不提供篩選器的標準產生器。
 </td>
+</tr>
+<tr>
+<td>舊版產生器</td>
+<td>所有物件 </td>
+<td>清單與報表</td>
 </tr>
 </tbody>
 </table>
 
 如需Workfront物件的相關資訊，請參閱 [了解Adobe Workfront中的物件](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
 
-## 在標準產生器中建立或編輯篩選器 {#create-filter-in-standard-builder}
-
-您可以透過下列方式，在清單和報表中建立篩選器：
-
-* 從頭開始
-* 編輯現有篩選器並將其儲存為新篩選器
-
-無論您使用何種方法建立篩選器，從草稿開始或從現有篩選器建立篩選器都很類似。
-
-1. 前往包含您要自訂篩選器的清單或報表。
-1. 按一下 **篩選** 圖示 ![篩選圖示](assets/filter-nwepng.png).
-
-   >[!TIP]
-   >
-   >報表建立者必須允許編輯篩選器，才能檢視報表上的「篩選器」下拉式清單。 依預設，「報表預設」篩選器會套用至報表。 「報表預設」篩選條件僅可在您編輯報表時自訂。
-
-   ![篩選下拉式清單](assets/filter-drop-down-expanded-nwe.png)
-
-1. 按一下 **新增篩選** 在篩選器清單的頂端
-
-   或
-
-   暫留在您要修改的篩選器上，然後按一下 **編輯** 圖示 ![](assets/edit-icon.png).
-
-   自訂篩選啟動的產生器。
-
-1. 執行下列任一操作：
-
-   * 按一下現有規則並選取新選項，以修改現有篩選規則。
-   * 按一下 **新增其他篩選規則**，開始輸入要在 **開始鍵入欄位名稱** 框中，然後在下拉清單中出現時按一下它。
-
-      與篩選器物件相關聯的欄位會列在 **開始鍵入欄位名稱** 框。
-
-   * 按一下 **和** 或 **或** 新增篩選規則時。\
-      新增篩選規則時，請使用篩選修飾元來建立篩選的條件。 如需篩選修飾元的詳細資訊，請參閱 [篩選條件修飾元](../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md).
-
-      >[!NOTE]
-      >
-      >通過多個OR語句連接一組AND語句時，必須對每組語句重複在OR語句之間不更改的欄位。
-      >
-      >![連接的篩選語句](assets/filters-and-statements-connected-by-or-statements-builder-ui-old-filters-2022.png)
-      >
-      >當您為包含「行銷」一詞且位於狀態為「目前」或「規劃」的專案中的任務建立篩選器時，您必須具備下列篩選規則：
-      >
-      >`Task: Name Contains Marketing`
-      >`AND`
-      >`Project: Status Equals Current`
-      >`OR`
-      >`Task: Name Contains Marketing`
-      >`AND`
-      >`Project: Status Equals Planning`
-      >
-      >雖然任務：名稱包含「行銷」不會在兩個「和」篩選群組之間變更，必須在第二個群組中重複。
-
-   * 按一下「X」圖示以刪除現有的篩選規則。
-
-1. （選用）按一下 **切換到文本模式** 使用「文本模式」介面添加篩選器。
-
-   如需使用文字模式介面建立篩選器的詳細資訊，請參閱 [使用文字模式編輯篩選器](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md).
-
-1. 按一下 **儲存篩選** 建立新篩選器，或將選取的篩選器取代為變更。
-
-   或
-
-   按一下 **另存為新篩選器** ，從所選篩選器建立新篩選器。
-
-   新篩選器會顯示在篩選器清單中，並自動套用至您選取的清單或報表。
-
-1. （選用）執行下列其中一項作業：
-
-   * 將您建立的篩選器共用給其他使用者，或在全系統提供。 如需詳細資訊，請參閱 [共用篩選、檢視或分組](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md).
-   * 移除您不想再顯示在清單中的篩選器。 如需詳細資訊，請參閱 [移除篩選器、檢視和群組](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/remove-filters-views-groupings.md).
-
-## 在測試版產生器中建立或編輯篩選器
-
 使用不同介面建立篩選器時，請考量下列事項：
 
-* 您可以在相同位置找到測試版產生器，找到上表所列區域的標準篩選介面。
-* 您可以在標準與測試版產生器介面之間來回切換，此介面提供測試版選項。
-* 在單一區域中啟用測試版產生器後，就會是所有可用區域的預設體驗。 例如，如果您在專案清單中啟用測試版產生器，這也是您在清單中建立任務和問題篩選器的預設體驗。
-* 您可以使用測試版產生器介面，透過下列方式建立篩選：
+* 您可以在相同位置找到標準產生器，以找到上表所列區域的舊版篩選器介面。
+* 標準產生器是所有可用區域的預設體驗。 若要切換至舊版篩選器產生器，請按一下 **更多** 旁邊的菜單 [!UICONTROL **篩選器**] 選取 [!UICONTROL **返回舊版篩選器**].
 
-   * 從頭開始
-   * 編輯現有篩選器
-   * 複製現有篩選器
-   * 複製現有篩選器、編輯該篩選器，然後儲存為新篩選器
+   ![返回舊版篩選器](assets/use-legacy-filters.png)
 
-* 儲存的篩選器可供兩個產生器使用，無論您原本用來建立篩選器的體驗為何。 例如，如果您使用標準產生器建立篩選器，也可以在測試版產生器介面中尋找和修改篩選器。
+* 儲存的篩選器可供兩個產生器使用，無論您原本用來建立篩選器的體驗為何。 例如，如果您使用舊版產生器建立篩選器，也可以在標準產生器介面中尋找和修改篩選器。
 
    >[!TIP]
    >
-   >測試版產生器不包含「全部」篩選，因為所有清單項目都會在未套用篩選時顯示。 按一下 **全部清除** 在產生器的右上角，以清除任何作用中的篩選器並顯示所有項目。 若 **全部清除** 灰顯，則不會套用篩選。
+   >標準產生器不包含「全部」篩選，因為沒有套用篩選時，會顯示所有清單項目。 按一下 [!UICONTROL **全部清除**] 在產生器的右上角，以清除任何作用中的篩選器並顯示所有項目。 若 [!UICONTROL **全部清除**] 灰顯，則不會套用篩選。
 
-* 建立結合AND和OR運算子的多陳述式篩選器時，標準和測試版產生器的語法稍有不同。 因此，當您從一個產生器切換至另一個產生器時，這些篩選器的顯示可能會不同。
+* 建立結合AND和OR運算子的多陳述式篩選器時，標準和舊版產生器的語法稍有不同。 因此，當您從一個產生器切換至另一個產生器時，這些篩選器的顯示可能會不同。
 
    >[!INFO]
    >
    >存在以下情形：
    >
-   >1. 使用測試版產生器來建立具有下列語法的篩選器：
+   >1. 使用標準產生器來建立具有下列語法的篩選器：
    >
    >   `(A OR B) AND C`
    >
-   >1. 切換回標準產生器，並使用標準產生器的語法編輯篩選器，如 [在標準產生器中建立或編輯篩選器](#create-filter-in-standard-builder) 一節。 標準產生器的語法會依照下列方式顯示篩選陳述式：
+   >1. 切換至舊版產生器，並使用舊版產生器的語法編輯篩選器，如 [在舊版產生器中建立或編輯篩選器](#create-filter-in-legacy-builder) 一節。 舊版產生器的語法會依照下列方式顯示篩選陳述式：
    >
    >   `A AND C`
    >   `OR`
    >   `B AND C`
    >
-   >1. 變更標準介面中的篩選器。
-   >1. 切換回測試版產生器。 篩選陳述式會根據標準產生器支援的邏輯顯示，如上所述。
+   >1. 變更舊版介面中的篩選器。
+   >1. 切換回標準產生器。 篩選陳述式會根據舊版產生器支援的邏輯顯示，如上所述。
 
    >
-   >   篩選器會顯示在測試版產生器介面中，如下所示：
+   >   篩選器會顯示在標準產生器介面中，如下所示：
    >  
    >   `A AND C`
    >   `OR`
    >   `B AND C`
    > 
-   >   之所以發生此情況，是因為篩選器是在標準介面中修改的。
+   >   這是因為篩選器已在舊版介面中修改。
 
-使用測試版產生器介面建立篩選器：
+## 在標準產生器中建立或編輯篩選器
+
+您可以使用標準產生器介面，透過下列方式建立篩選器：
+
+* 從頭開始
+* 編輯現有篩選器
+* 複製現有篩選器
+* 複製現有篩選器、編輯該篩選器，然後儲存為新篩選器
+
+使用標準產生器介面建立篩選器：
 
 1. 移至您要建立篩選器或包含要自訂篩選器的清單。
-1. 按一下 **篩選** 圖示 ![篩選圖示](assets/filter-nwepng.png)，然後啟用 **測試版設定** ![測試版設定](assets/beta-toggle-white-on-existing-filters.png) 存取測試版產生器。 預設為停用。
+1. 按一下 **篩選** 圖示 ![篩選圖示](assets/filter-nwepng.png) 來開啟產生器介面。
 
-   接下來，視需要同意測試版協定。 您只需同意一次，測試版產生器就會保持啟用。
-
-   這會開啟測試版篩選產生器介面。
-
-   >[!TIP]
-   >
-   >啟用測試版產生器時，篩選產生器介面的標題會變為藍色。 啟用測試版產生器介面後，Workfront會在所有可用區域中持續啟用它。
-
-   ![測試版篩選產生器](assets/new-filters-all-filter-types.png)
+   ![標準篩選器產生器](assets/new-filters-all-filter-types.png)
 
 1. 檢閱下列篩選器清單：
 
@@ -312,7 +231,7 @@ ht-degree: 1%
 
    >[!TIP]
    >
-   >建置篩選器時，結果會立即出現在清單中。 如果篩選面板覆蓋清單，您可以關閉它以看到顯示。 當您再次開啟面板時，輸入的資訊會保留在測試版產生器中。
+   >建置篩選器時，結果會立即出現在清單中。 如果篩選面板覆蓋清單，您可以關閉它以看到顯示。 當您再次開啟面板時，輸入的資訊會保留在產生器中。
 
 1. 開始鍵入要篩選的欄位的值。 例如，如果要依篩選條件，請開始輸入問題名稱 `Issue:Name`. 在值顯示在清單中時選取它。
 
@@ -335,7 +254,7 @@ ht-degree: 1%
 
    >[!INFO]
    >
-   >當您篩選名稱中包含「行銷」且名稱未完成且非「暫掛」的專案時，可以使用下列多個篩選群組：
+   >當您篩選名稱中包含「行銷」且非「暫掛」的專案時，可以使用下列多個篩選群組：
    >`(Project: Name Contains Marketing AND Project: Percent Complete Does not equal 100)`
    >`OR`
    >`(Project: Name Contains Marketing AND Project: Status Does not equal On Hold)`
@@ -351,15 +270,15 @@ ht-degree: 1%
 
    >[!TIP]
    >
-   >建議您使用測試版產生器介面，並僅使用文字模式，盡可能多地建立篩選器，當您必須修改僅支援文字模式的篩選器時。
+   >建議您使用標準產生器介面，並僅使用文字模式，盡可能多地建立篩選器，當您必須修改僅支援文字模式的篩選器時。
 
    如需使用文字模式介面建立篩選器的詳細資訊，請參閱 [使用文字模式編輯篩選器](/help/quicksilver/reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md).
 
-1. 按一下 **退出文本模式** 返回測試版產生器介面。
+1. 按一下 **退出文本模式** 返回標準產生器介面。
 
    >[!WARNING]
    >
-   >測試版產生器或標準介面不支援某些文字模式陳述式。 當您建立這些類型的陳述式時退出文字模式可能會產生警告訊息。
+   >標準產生器或舊版介面不支援某些文字模式陳述式。 當您建立這些類型的陳述式時退出文字模式可能會產生警告訊息。
 
 1. （選用）按一下 **套用** 將篩選器套用至清單並查看結果。
 
@@ -411,4 +330,78 @@ ht-degree: 1%
    * 與他人共用篩選器，或在全系統提供篩選器。 如需詳細資訊，請參閱 [共用篩選、檢視或分組](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md).
 
    * 如果篩選器不再有效或重複，請刪除該篩選器。 您只能刪除自己擁有的篩選器。 您可以移除已共用給您的篩選器。 如需詳細資訊，請參閱 [移除篩選器、檢視和群組](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/remove-filters-views-groupings.md).
+
+## 在舊版產生器中建立或編輯篩選器 {#create-filter-in-legacy-builder}
+
+您可以透過下列方式，在清單和報表中建立舊式篩選器：
+
+* 從頭開始
+* 編輯現有篩選器並將其儲存為新篩選器
+
+無論您使用何種方法建立篩選器，從草稿開始或從現有篩選器建立篩選器都很類似。
+
+1. 前往包含您要自訂篩選器的清單或報表。
+1. 按一下 **篩選** 圖示 ![篩選圖示](assets/filter-nwepng.png).
+
+   >[!TIP]
+   >
+   >報表建立者必須允許編輯篩選器，才能檢視報表上的「篩選器」下拉式清單。 依預設，「報表預設」篩選器會套用至報表。 「報表預設」篩選條件僅可在您編輯報表時自訂。
+
+   ![篩選下拉式清單](assets/filter-drop-down-expanded-nwe.png)
+
+1. 按一下 **新增篩選** 的上方。
+
+   或
+
+   暫留在您要修改的篩選器上，然後按一下 **編輯** 圖示 ![](assets/edit-icon.png).
+
+   自訂篩選啟動的產生器。
+
+1. 執行下列任一操作：
+
+   * 按一下現有規則並選取新選項，以修改現有篩選規則。
+   * 按一下 **新增其他篩選規則**，開始輸入要在 **開始鍵入欄位名稱** 框中，然後在下拉清單中出現時按一下它。
+
+      與篩選器物件相關聯的欄位會列在 **開始鍵入欄位名稱** 框。
+
+   * 按一下 **和** 或 **或** 新增篩選規則時。\
+      新增篩選規則時，請使用篩選修飾元來建立篩選的條件。 如需篩選修飾元的詳細資訊，請參閱 [篩選條件修飾元](../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md).
+
+      >[!NOTE]
+      >
+      >通過多個OR語句連接一組AND語句時，必須對每組語句重複在OR語句之間不更改的欄位。
+      >
+      >![連接的篩選語句](assets/filters-and-statements-connected-by-or-statements-builder-ui-old-filters-2022.png)
+      >
+      >當您為包含「行銷」一詞且位於狀態為「目前」或「規劃」的專案中的任務建立篩選器時，您必須具備下列篩選規則：
+      >
+      >`Task: Name Contains Marketing`
+      >`AND`
+      >`Project: Status Equals Current`
+      >`OR`
+      >`Task: Name Contains Marketing`
+      >`AND`
+      >`Project: Status Equals Planning`
+      >
+      >雖然任務：名稱包含「行銷」不會在兩個「和」篩選群組之間變更，必須在第二個群組中重複。
+
+   * 按一下「X」圖示以刪除現有的篩選規則。
+
+1. （選用）按一下 **切換到文本模式** 使用「文本模式」介面添加篩選器。
+
+   如需使用文字模式介面建立篩選器的詳細資訊，請參閱 [使用文字模式編輯篩選器](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md).
+
+1. 按一下 **儲存篩選** 建立新篩選器，或將選取的篩選器取代為變更。
+
+   或
+
+   按一下 **另存為新篩選器** ，從所選篩選器建立新篩選器。
+
+   新篩選器會顯示在篩選器清單中，並自動套用至您選取的清單或報表。
+
+1. （選用）執行下列其中一項作業：
+
+   * 將您建立的篩選器共用給其他使用者，或在全系統提供。 如需詳細資訊，請參閱 [共用篩選、檢視或分組](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md).
+   * 移除您不想再顯示在清單中的篩選器。 如需詳細資訊，請參閱 [移除篩選器、檢視和群組](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/remove-filters-views-groupings.md).
+
 

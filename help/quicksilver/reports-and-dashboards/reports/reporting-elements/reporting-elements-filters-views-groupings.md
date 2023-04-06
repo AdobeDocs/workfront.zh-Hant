@@ -3,10 +3,10 @@ product-area: reporting
 navigation-topic: reporting-elements
 title: '''報表元素：篩選、檢視和群組'
 description: Workfront中每個清單和報表必須具備的主要元素包括篩選、檢視和群組。 每個元素在任何報表中都提供不同的資訊。
-author: Lisa
+author: Nolan
 feature: Reports and Dashboards
 exl-id: 5697905e-42c0-403b-85d4-798a1a3a2e7f
-source-git-commit: 442e0b8fde9e4acaa2686ccd292fb003f72be623
+source-git-commit: 302771f4d64b386149623f87a3436d0c40f421d5
 workflow-type: tm+mt
 source-wordcount: '843'
 ht-degree: 0%

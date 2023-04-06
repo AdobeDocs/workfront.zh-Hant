@@ -4,10 +4,10 @@ product-area: reporting
 navigation-topic: reports
 title: 報表元素概觀
 description: 所有Adobe Workfront報表和清單皆為三個基本元素的組合：檢視、篩選器和群組。
-author: Lisa
+author: Nolan
 feature: Reports and Dashboards
 exl-id: 5b5385ac-3b75-4500-bf4d-ec6ad4bf727a
-source-git-commit: 442e0b8fde9e4acaa2686ccd292fb003f72be623
+source-git-commit: 302771f4d64b386149623f87a3436d0c40f421d5
 workflow-type: tm+mt
 source-wordcount: '188'
 ht-degree: 0%

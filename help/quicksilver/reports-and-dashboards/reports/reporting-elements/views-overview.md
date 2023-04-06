@@ -4,10 +4,10 @@ product-area: reporting
 navigation-topic: reporting-elements
 title: Adobe Workfront中的檢視概觀
 description: 您可以管理清單或報表的檢視，以自訂顯示在清單或報表中的資訊類型。 可以在視圖中顯示對象及其屬性。
-author: Lisa
+author: Nolan
 feature: Reports and Dashboards
 exl-id: 18016417-e24d-4797-9422-00915db47bb9
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 302771f4d64b386149623f87a3436d0c40f421d5
 workflow-type: tm+mt
 source-wordcount: '475'
 ht-degree: 0%
