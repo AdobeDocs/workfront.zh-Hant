@@ -7,16 +7,16 @@ description: 您可以將現有的自訂表單新增至下列任何物件。 自
 author: Alina
 feature: Get Started with Workfront
 exl-id: c06666a7-ab78-4311-8fcb-1d1a68034133
-source-git-commit: addcff71ff067be22e9ee80f997af545293fa5db
+source-git-commit: 78878fa3578e4f3a33baec3806298282d3909d8d
 workflow-type: tm+mt
-source-wordcount: '869'
+source-wordcount: '850'
 ht-degree: 1%
 
 ---
 
 # 將自訂表單新增至物件
 
-<span class="preview">本頁強調顯示的資訊指的是尚未普遍提供的功能。 它適用於預覽環境中的所有客戶，以及生產環境中的特定一組客戶。</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available for all customers in the Preview environment and for a select group of customers in the Production environment.</span>-->
 
 您可以將現有的自訂表單新增至下列任何物件。 自訂表單包含自訂欄位，您可在其中儲存物件的相關資訊。
 
@@ -115,18 +115,21 @@ drafted for bulk-editing projects. When it releases to Prod for projects, take "
 
 >[!NOTE]
 >
-><span class="preview">如需在預覽環境中大量新增自訂表單至專案的相關資訊，請參閱文章 [編輯專案](../../manage-work/projects/manage-projects/edit-projects.md)</span>.
+>對於除項目外的所有對象，將自定義表單添加到對象是相同的。
+>
+>如需將自訂表單大量新增至專案的詳細資訊，請參閱文章 [編輯專案](../../manage-work/projects/manage-projects/edit-projects.md).
 
 
 1. 導覽至物件清單。
 1. 在清單中選取多個物件。
 
-1. 按一下 **更多** 功能表 ![](assets/more-icon.png)，然後按一下 **編輯** 圖示  ![](assets/edit-icon.png)，或按一下 **編輯** 圖示 ![](assets/edit-icon.png).
+1. 按一下 **更多** 功能表 ![](assets/more-icon.png)，然後按一下 **編輯** 圖示  ![](assets/edit-icon.png)，或按一下 **編輯** 圖示 ![](assets/edit-icon.png) 清單頂端。
 1. 按一下 **自訂Forms** 中。
 1. 選擇要與 **進行選取** 下拉式功能表。
    >[!NOTE]
    >
    >如果在下拉菜單中找不到表單，這意味著至少有一個對象具有已與其關聯的表單。 確定哪個對象是該對象，並在將表單添加到剩餘對象之前將其從您的選擇中刪除。
+
 
 1. 按一下 **儲存變更**.
 

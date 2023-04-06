@@ -7,16 +7,16 @@ description: 無法按多選自訂欄位來繪製報表圖表。 您需要建立
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: cda77319-dce6-409d-8f59-53838820cafb
-source-git-commit: addcff71ff067be22e9ee80f997af545293fa5db
+source-git-commit: 78878fa3578e4f3a33baec3806298282d3909d8d
 workflow-type: tm+mt
-source-wordcount: '809'
+source-wordcount: '773'
 ht-degree: 0%
 
 ---
 
 # 按多選自訂欄點陣圖表報表
 
-<span class="preview">本頁強調顯示的資訊指的是尚未普遍提供的功能。 它適用於預覽環境中的所有客戶，以及生產環境中的特定一組客戶。</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available for all customers in the Preview environment and for a select group of customers in the Production environment.</span>-->
 
 無法按多選自訂欄位來繪製報表圖表。 您需要建立參照多選自訂欄位的其他計算欄位，以便依多選自訂欄位的值來繪製報表。
 
@@ -109,7 +109,7 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   ><span class="preview">在「預覽」環境中大量編輯專案時，已移除此選項。  您仍可以按一下「 」，大量重新計算專案的運算式 **更多** ![](assets/more-icon-45x33.png) 在專案清單頂端，然後 **重新計算表達式**. </span>
+   >大量編輯專案時，已取消此選項。  您仍可以按一下 **更多** 圖示 ![](assets/more-icon-45x33.png) 在專案清單頂端，然後 **重新計算表達式**.
 
 
 1. 移至報表，以新增參考多選自訂欄位之計算欄位的圖表。

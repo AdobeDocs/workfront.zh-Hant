@@ -6,16 +6,16 @@ description: 您可以更新附加至一個物件的自訂表單顯示順序、�
 author: Alina
 feature: Get Started with Workfront
 exl-id: e5570a09-32cb-43e3-9c1d-4421db42fa24
-source-git-commit: addcff71ff067be22e9ee80f997af545293fa5db
+source-git-commit: 78878fa3578e4f3a33baec3806298282d3909d8d
 workflow-type: tm+mt
-source-wordcount: '1133'
+source-wordcount: '1108'
 ht-degree: 0%
 
 ---
 
 # 管理附加到對象的自定義表單
 
-<span class="preview">本頁強調顯示的資訊指的是尚未普遍提供的功能。 它適用於預覽環境中的所有客戶，以及生產環境中的特定一組客戶。</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available for all customers in the Preview environment and for a select group of customers in the Production environment.</span>-->
 
 您可以更新附加至一個物件的自訂表單顯示順序、移除它們，或大量編輯自訂表單在多個物件上的顯示方式。
 
@@ -101,7 +101,9 @@ drafted for bulk-editing projects. When it releases to Prod for projects, take "
 
 >[!NOTE]
 >
-><span class="preview">如需在預覽環境中大量管理專案上自訂表單的相關資訊，請參閱文章 [編輯專案](../../manage-work/projects/manage-projects/edit-projects.md)</span>.
+>對於除項目外的所有對象，管理對對象的自定義表單都相同。
+>
+>如需將自訂表單大量新增至專案的詳細資訊，請參閱文章 [編輯專案](../../manage-work/projects/manage-projects/edit-projects.md).
 
 當您大量編輯已套用多個自訂表單的物件時，可以編輯這些物件上自訂表單的顯示方式，以及編輯自訂表單中的常見欄位。
 

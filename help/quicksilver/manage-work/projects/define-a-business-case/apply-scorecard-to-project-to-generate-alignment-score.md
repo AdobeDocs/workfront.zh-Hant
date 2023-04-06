@@ -5,16 +5,14 @@ description: 您可以使用計分卡來測量專案與先前建立之產品組�
 author: Alina
 feature: Work Management
 exl-id: 21cf5493-147d-4b8d-8b16-2891eb7e0491
-source-git-commit: addcff71ff067be22e9ee80f997af545293fa5db
+source-git-commit: 78878fa3578e4f3a33baec3806298282d3909d8d
 workflow-type: tm+mt
-source-wordcount: '1433'
+source-wordcount: '1292'
 ht-degree: 0%
 
 ---
 
 # 將計分卡套用至專案並產生對齊分數
-
-<span class="preview">本頁強調顯示的資訊指的是尚未普遍提供的功能。 它適用於預覽環境中的所有客戶，以及生產環境中的特定一組客戶。</span>
 
 您可以使用計分卡來測量專案與先前建立之產品組合標準的一致程度。 計分卡通常反映組織的使命、價值和戰略目標。
 
@@ -95,17 +93,20 @@ ht-degree: 0%
 
    計分卡現在會與專案建立關聯，且專案會獲得分數。
 
-1. （條件性）當計分卡問題的值發生變更時，您必須重新計算計分卡，以反映專案分數的新值。 若要重新設定計分卡，請執行下列動作：
+<!--This functionality was removed when we redesigned bulk editing projects with 23.2: 
 
-   1. 移至專案清單，然後選取清單中的所有專案。
-   1. 按一下 **編輯** 表徵圖。
-   1. 按一下 **設定** 在左側面板中，檢查 **重新計算計分卡** 選項。
-   1. 按一下儲存。這會根據所有所選專案附加的計分卡，重新計算分數值。
+1. (Conditional) When changes occur in the values of scorecard questions, you must recalculate the scorecard to reflect the new values for the project score. To recaulate the scorecard, do the following: 
+
+   1. Go to a list of projects and select all projects in the list. 
+   1. Click the **Edit** icon at the top of the list. 
+   1. Click **Settings** in the left panel, then check the **Recalculate Scorecards** option at the end of the Settings area. 
+   1. Click Save. This recalculates the score value based on the scorecards attached for all the selected projects.  
 
       >[!NOTE]
       >
-      >   <span class="preview">大量編輯專案時，「預覽」環境中已移除重新計算計分卡的選項。 </span>
+      >   The option to recalculate scorecards has been removed from the Preview environment, when editing projects in bulk. 
 
+-->
 
 ## 生成對齊分數
 
