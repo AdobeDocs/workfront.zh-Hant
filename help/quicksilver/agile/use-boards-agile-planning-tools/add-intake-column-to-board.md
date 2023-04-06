@@ -7,9 +7,9 @@ description: 您可以選擇將取用欄新增至展示板，根據您定義的�
 author: Lisa
 feature: Agile
 exl-id: 4991f4f7-6f3d-4e15-ae8d-96433ed46557
-source-git-commit: 302771f4d64b386149623f87a3436d0c40f421d5
+source-git-commit: 622a1c48af8612e32ff8aa23971d55aff26eea48
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '746'
 ht-degree: 0%
 
 ---
@@ -96,10 +96,6 @@ ht-degree: 0%
    ![輸入欄](assets/intake-column-added3.png)
 
    進入欄中的資訊卡必須移至其他展示板欄，才能編輯。 您可以按一下資訊卡，在唯讀檢視中開啟，或按一下 ![開啟任務或問題](assets/boards-launch-icon.png) 在新瀏覽器頁簽中開啟任務或問題。
-
-   >[!NOTE]
-   >
-   >卡片在進入欄中的唯讀檢視，只能透過的早期功能選擇加入 [!DNL Workfront] [!UICONTROL 展示板].
 
    您可以手動重新排序進氣列上的項目。
 

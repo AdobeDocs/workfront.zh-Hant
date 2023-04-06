@@ -6,9 +6,9 @@ title: 搶先選擇加入 [!DNL Adobe Workfront] 展示板
 description: 閱讀本文以了解 [!DNL Workfront Boards] 搶先使用功能選擇加入。
 author: Lisa
 exl-id: c4a6b045-b0f3-4d4d-994c-c03ef7ad25c8
-source-git-commit: 619f1862f3d6fb9280fe97de4b5055d64bb46c6c
+source-git-commit: e9fce8cd8062fa6512493c3b0509aa248a76c528
 workflow-type: tm+mt
-source-wordcount: '660'
+source-wordcount: '659'
 ht-degree: 0%
 
 ---
@@ -118,23 +118,23 @@ ht-degree: 0%
   </tr>
   <tr>
    <td>進氣列中的僅限檢視卡</td>
-   <td>部分釋放</td>
+   <td>發行</td>
   </tr>
   <tr>
    <td>卡上的「映射估計」欄位至任務上的「故事點」欄位</td>
-   <td>部分釋放</td>
+   <td>發行</td>
   </tr>
   <tr>
    <td>建立工作流並向工作流添加展示板</td>
-   <td>部分釋放</td>
+   <td>發行</td>
   </tr>
   <tr>
    <td>建立迭代</td>
-   <td>部分發行（可預覽）</td>
+   <td>發行</td>
   </tr>
   <tr>
    <td>定義卡清單或積壓</td>
-   <td>部分發行（可預覽）</td>
+   <td>發行</td>
   </tr>
   <tr>
    <td>將子任務作為檢查清單項導入卡</td>
@@ -142,19 +142,31 @@ ht-degree: 0%
   </tr>
   <tr>
    <td>自訂卡片上的欄位顯示</td>
-   <td>部分釋放</td>
+   <td>發行</td>
   </tr>  
   <tr>
    <td>為移入欄的卡片定義預設狀態</td>
-   <td>部分釋放</td>
+   <td>發行</td>
   </tr>
   <tr>
    <td>登錄已連接卡的時數</td>
-   <td>部分釋放</td>
+   <td>發行</td>
   </tr>
   <tr>
    <td>將自訂欄位新增至已連線的卡片</td>
-   <td>部分發行（可預覽）</td>
+   <td>發行</td>
+  </tr>
+  <tr>
+   <td>定義展示板的電子郵件通知</td>
+   <td>計畫</td>
+  </tr>
+  <tr>
+   <td>將舊看板卡遷移到展示板</td>
+   <td>計畫</td>
+  </tr>
+  <tr>
+   <td>建立動態展示板</td>
+   <td>計畫</td>
   </tr>
  </tbody> 
 </table>

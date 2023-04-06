@@ -6,9 +6,9 @@ description: 您可以在Adobe Workfront中記錄工作項目的時間(&N)，以
 author: Alina
 feature: Timesheets
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: b2859f3d268bd947fba5bb0280677465b3039d93
+source-git-commit: 27e9cfff363ab38c6469b99a8cbb04439f2df61c
 workflow-type: tm+mt
-source-wordcount: '2992'
+source-wordcount: '2979'
 ht-degree: 0%
 
 ---
@@ -400,10 +400,6 @@ ht-degree: 0%
 ![](assets/summary-hour-log.png)
 
 ### 展示板 {#boards}
-
->[!NOTE]
->
->只有透過Workfront展示板的早期功能選擇，才能使用此功能。
 
 您可以在Workfront主板上的連線卡上登錄時間。 這與記錄任務或問題的時間相同，並且記錄在卡上的小時數儲存在所連接的任務或問題上。
 如需詳細資訊，請參閱 [在主板上使用連接的卡](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).

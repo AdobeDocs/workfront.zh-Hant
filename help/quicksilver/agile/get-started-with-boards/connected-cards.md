@@ -6,10 +6,10 @@ description: 您可以在主板上新增資訊卡，連線至Workfront中的現�
 author: Lisa
 feature: Agile
 exl-id: c6d979dd-e4a4-48a5-a91b-b31d7ef848d1
-source-git-commit: 1817f3b1a5950823ff6ce600b1fef09ff4ca6767
+source-git-commit: e9fce8cd8062fa6512493c3b0509aa248a76c528
 workflow-type: tm+mt
-source-wordcount: '1227'
-ht-degree: 0%
+source-wordcount: '1181'
+ht-degree: 1%
 
 ---
 
@@ -124,7 +124,7 @@ ht-degree: 0%
      </tr>
       <tr>
       <td role="rowheader"><strong>[!UICONTROL估計]</strong></td>
-      <td><p>卡片完成的小時數。</p><p>如果您對 [!DNL Workfront] [!UICONTROL主板]，更改估計也會更改連接的故事點值 [!DNL Workfront] 物件。</p><p>如果您不選擇使用早期功能，此欄位僅為手動輸入，值不能超過99。</p></td>
+      <td><p>卡片完成的小時數。</p><p>更改估計也會更改連接的故障點值 [!DNL Workfront] 物件。</p></td>
      </tr>
      <tr>
       <td role="rowheader"><strong>[!UICONTROL標籤]</strong></td>
@@ -184,10 +184,6 @@ ht-degree: 0%
 1. 按一下 **[!UICONTROL 關閉]** 回到董事會。
 
 ## 登錄已連接的卡的時數
-
->[!NOTE]
->
->只有透過Workfront展示板的早期功能選擇，才能使用此功能。
 
 您必須擁有正確的權限才能登錄所連接任務或問題的數小時。
 
