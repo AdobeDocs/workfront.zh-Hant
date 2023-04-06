@@ -4,7 +4,7 @@ description: 在23.2版本期間更新外觀
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: 71833a09ecde154ddbcf9cac34733641bf55f74d
+source-git-commit: f10e84b4afffee5d80a32161300bbcf4b0d20f73
 workflow-type: tm+mt
 source-wordcount: '529'
 ht-degree: 2%
@@ -22,7 +22,7 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->預覽版本：2023年4月4日；計畫生產發行：2023年4月18日
+>預覽版本：2023年4月4日；計畫生產發行：2023年4月20日
 
 我們已更新「請求」區域中的「草稿」清單，使其與Workfront中較新的清單一致。
 部分更新包括：

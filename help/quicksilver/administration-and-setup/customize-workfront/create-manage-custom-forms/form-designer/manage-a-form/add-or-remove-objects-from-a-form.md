@@ -7,17 +7,15 @@ description: 您可以使用表單設計工具從自訂表單中新增或移除�
 author: Courtney
 feature: System Setup and Administration
 role: Admin
-source-git-commit: c0082dd73e3db8123f9cc08f1798ef8e70730625
+source-git-commit: 6e06e7892542c7dd96b6bf8b857583333efc883d
 workflow-type: tm+mt
-source-wordcount: '532'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
 
 
 # 使用表單設計器從現有自定義表單中添加或刪除對象類型
-
-{{highlighted-preview-article-level}}
 
 您可以使用表單設計工具從現有自訂表單中新增或刪除物件類型。
 

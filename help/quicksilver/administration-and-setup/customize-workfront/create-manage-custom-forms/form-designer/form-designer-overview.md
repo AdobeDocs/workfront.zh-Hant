@@ -7,16 +7,14 @@ description: 您可以設計使用者可附加至Workfront物件的自訂表單�
 author: Courtney
 feature: System Setup and Administration
 role: Admin
-source-git-commit: 9b32c41c9f2971f3b0bbded230680677cc0b3c64
+source-git-commit: 6e06e7892542c7dd96b6bf8b857583333efc883d
 workflow-type: tm+mt
-source-wordcount: '407'
-ht-degree: 1%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 # 表單設計工具概觀
-
-{{highlighted-preview-article-level}}
 
 您可以使用新的表單設計工具來設計使用者可附加至Workfront物件的自訂表單。 處理物件的使用者可填寫自訂表單，以提供物件的相關資訊。
 

@@ -7,17 +7,15 @@ description: 您可以使用表單設計器組織自訂表單。
 author: Courtney
 feature: System Setup and Administration
 role: Admin
-source-git-commit: 529de9d31be883325d425dceb286d750397c5d8e
+source-git-commit: 6e06e7892542c7dd96b6bf8b857583333efc883d
 workflow-type: tm+mt
-source-wordcount: '1107'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
 
 
 # 使用表單設計工具組織和預覽表單
-
-{{highlighted-preview-article-level}}
 
 您可以使用表單設計工具組織自訂表單。
 

@@ -7,17 +7,15 @@ description: 您可以使用表單設計工具重新命名現有的自訂表單�
 author: Courtney
 feature: System Setup and Administration
 role: Admin
-source-git-commit: c0082dd73e3db8123f9cc08f1798ef8e70730625
+source-git-commit: 6e06e7892542c7dd96b6bf8b857583333efc883d
 workflow-type: tm+mt
-source-wordcount: '236'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
 
 
 # 使用表單設計工具重新命名自訂表單
-
-{{highlighted-preview-article-level}}
 
 使用表單設計工具建立自訂表單後，您隨時都可以重新命名自訂表單。
 

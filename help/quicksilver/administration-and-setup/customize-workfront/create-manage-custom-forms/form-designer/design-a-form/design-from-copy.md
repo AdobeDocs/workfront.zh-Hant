@@ -7,17 +7,15 @@ description: 您可以使用表單設計工具從副本設計自訂表單。
 author: Courtney
 feature: System Setup and Administration
 role: Admin
-source-git-commit: 4700e5650f6ef9de5291f36072db8706bade92ee
+source-git-commit: 6e06e7892542c7dd96b6bf8b857583333efc883d
 workflow-type: tm+mt
-source-wordcount: '421'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
 
 
 # 使用表單設計工具從副本設計表單
-
-{{highlighted-preview-article-level}}
 
 您可以根據現有表單來設計新的自訂表單。 您可以將自訂表單附加至不同的Workfront物件，以擷取這些物件的相關資料。
 

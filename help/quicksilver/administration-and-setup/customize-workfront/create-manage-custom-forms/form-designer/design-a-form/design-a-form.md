@@ -7,17 +7,15 @@ description: 您可以使用表單設計器來設計自訂表單。
 author: Courtney
 feature: System Setup and Administration
 role: Admin
-source-git-commit: b56cf20e054b2658ade8aef6c179128e001603c2
+source-git-commit: 6e06e7892542c7dd96b6bf8b857583333efc883d
 workflow-type: tm+mt
-source-wordcount: '3803'
-ht-degree: 4%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
 # 使用表單設計工具設計表單
-
-{{highlighted-preview-article-level}}
 
 您可以使用表單設計器來設計自訂表單。 您可以將自訂表單附加至不同的Workfront物件，以擷取這些物件的相關資料。
 
@@ -332,7 +330,7 @@ ht-degree: 4%
     </ul></td>
     </tr> 
      <tr> 
-    <td role="rowheader">建立必填欄位</td> 
+    <td role="rowheader">建立必要欄位</td> 
     <td>如果您希望欄位為必要欄位，讓使用者完成自訂表單，請選取此選項。 </td> 
     <td><ul>
     <li>單選按鈕</li>
@@ -470,7 +468,7 @@ ht-degree: 4%
     </ul></td>
      </tr>
      <tr> 
-      <td role="rowheader">建立必填欄位</td> 
+      <td role="rowheader">建立必要欄位</td> 
       <td>如果您希望欄位為必要欄位，讓使用者完成自訂表單，請選取此選項。 </td> 
        <td><ul>
     <li>自動提示</li>
