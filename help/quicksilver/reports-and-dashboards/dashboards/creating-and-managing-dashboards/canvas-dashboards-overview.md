@@ -5,9 +5,9 @@ title: 畫布控制面板概觀
 description: 您可以建立畫布控制面板，將「報表畫布」視覺化與傳統報表整合，並提供新的配置選項。
 author: Nolan
 feature: Reports and Dashboards
-source-git-commit: 4203de3dcbb0f6675dd840a7f6b883907794ce02
+source-git-commit: d738ef3f6642d5b1a646f58896575a2971bbc06a
 workflow-type: tm+mt
-source-wordcount: '291'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,6 @@ Canvas Dashboard是控制面板目前正在開發的功能，提供在Workfront�
 * 日曆整合
 * 提示報表
 * 通過佈局模板分發
-
 
 ## 存取畫布控制面板
 

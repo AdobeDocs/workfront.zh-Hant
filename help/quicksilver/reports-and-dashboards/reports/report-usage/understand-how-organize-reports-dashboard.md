@@ -7,9 +7,9 @@ description: 您可以查看報表是否已新增至Adobe Workfront中的控制�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: ce00c307-9e64-49f5-997b-f7fc461c960c
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: d738ef3f6642d5b1a646f58896575a2971bbc06a
 workflow-type: tm+mt
-source-wordcount: '621'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -62,10 +62,13 @@ ht-degree: 0%
 
 ## 在報表清單的檢視中顯示控制面板資訊
 
+>[!WARNING]
+>
+>在報表清單中加入控制面板欄可大幅增載入入時間，尤其是長報表清單。
+
 要為報表清單建立包含儀表板資訊的視圖，請執行以下操作：
 
 1. 按一下 **主菜單** 圖示 ![](assets/main-menu-icon.png) 在Workfront的右上角，然後按一下 **報表**.
-
 1. 在報表清單上，按一下 **檢視** 下拉式功能表。
 1. 按一下 **新建視圖**.
 1. 按一下 **添加列**.
