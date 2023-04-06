@@ -6,9 +6,9 @@ title: API
 description: Workfront API文章
 author: Becky
 exl-id: 90e00a71-1a3a-4e3f-99d8-47700052a9dc
-source-git-commit: f050c8b95145552c9ed67b549608c16115000606
+source-git-commit: 1ea7e1a0435e9d199c3d828723d11ce530a80540
 workflow-type: tm+mt
-source-wordcount: '141'
+source-wordcount: '151'
 ht-degree: 1%
 
 ---
@@ -32,6 +32,8 @@ ht-degree: 1%
 * [使用授權碼流程設定及使用貴組織的自訂OAuth 2應用程式](../../wf-api/api/oauth-app-code-token-flow.md)
 * [使用JWT流程設定及使用貴組織的自訂OAuth 2應用程式](../../wf-api/api/oauth-app-jwt-flow.md)
 * [使用PKCE流配置和使用貴組織的自定義OAuth 2應用程式](../../wf-api/api/oauth-app-pkce-flow.md)
+* [API 16版的新功能](../../wf-api/api/new-api-version-16.md)
+* [API 15版的新功能](../../wf-api/api/new-api-version-15.md)
 * [API 14版的新功能](../../wf-api/api/new-api-version-14.md)
 * [API 13版的新功能](../../wf-api/api/new-api-version-13.md)
 * [API 12版的新功能](../../wf-api/api/new-api-version-12.md)

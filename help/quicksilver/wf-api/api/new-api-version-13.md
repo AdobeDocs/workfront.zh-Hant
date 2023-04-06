@@ -6,7 +6,7 @@ description: Adobe Workfront已於2021年4月22日發行API 13版。 API 13版�
 author: Becky
 feature: Workfront API
 exl-id: afbc986e-8b5c-40bc-9120-e8d34e0f7004
-source-git-commit: f050c8b95145552c9ed67b549608c16115000606
+source-git-commit: 1ea7e1a0435e9d199c3d828723d11ce530a80540
 workflow-type: tm+mt
 source-wordcount: '1064'
 ht-degree: 2%
@@ -391,7 +391,7 @@ Team對象是可分配給工作項的Users的集合。
    <td>直接欄位</td> 
    <td> 
     <ul> 
-     <li style="font-weight: bold;"> <p>isActive</p> <p style="font-weight: normal;">已新增此欄位，且是布林參數，如果物件作用中，則值為true；如果物件不作用，則為false。 設定為「活動」(Active)的對象會顯示在下拉菜單和「預先輸入」(Type-ahead)欄位中，並可附加到其他對象。 未設定為「活動」的對象在要附加到其他對象的下拉菜單和預鍵入欄位中不可見。  </p> </li> 
+     <li style="font-weight: bold;"> <p>isActive</p> <p style="font-weight: normal;">已新增此欄位，且是布林參數，如果物件作用中，則值為true；如果物件不作用，則為false。 設定為「活動」的對象會顯示在下拉菜單和「預先輸入」欄位中，並可附加到其他對象。 未設定為「活動」的對象在要附加到其他對象的下拉菜單和預鍵入欄位中不可見。  </p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -456,7 +456,7 @@ Team對象是可分配給工作項的Users的集合。
 
 ### UITemplate {#uitemplate}
 
-Adobe Workfront管理員或群組管理員可以建立範本，以自訂Adobe Workfront中的配置元素。 LayoutTemplate物件是新Adobe Workfront體驗專屬的。
+Adobe Workfront管理員或群組管理員可以建立範本，以自訂Adobe Workfront中的配置元素。 UITemplate物件專屬於新的Adobe Workfront體驗。
 
 如需代表Adobe Workfront Classic版面範本的物件，請參閱 [版面範本](#layouttemplate).
 
