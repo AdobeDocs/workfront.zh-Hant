@@ -6,18 +6,14 @@ description: 更新使用預設API版本設定的整合
 author: Becky
 feature: Workfront API
 exl-id: ac394b41-63cb-481a-a858-30d8d7f840bb
-source-git-commit: f050c8b95145552c9ed67b549608c16115000606
+source-git-commit: 2b9eacc9b2c8f499cdd1794a55879a56224051c8
 workflow-type: tm+mt
-source-wordcount: '693'
+source-wordcount: '632'
 ht-degree: 0%
 
 ---
 
 # 更新使用預設API版本設定的整合
-
-<!-- This article is going to need a complete revamp or to be removed-->
-
-<span class="preview">本頁強調顯示的資訊指的是尚未普遍提供的功能。 它僅適用於預覽沙箱環境。</span>
 
 我們每兩年發行一次新版Adobe Workfront API。 每個版本在發行後三年內都受支援，且會在已過時狀態中再多支援一年，此時版本已可供使用但不受支援。
 
@@ -27,38 +23,16 @@ ht-degree: 0%
 >
 >如果貴組織目前使用預設API，您的Workfront管理員已收到公告中心訊息，其中包含有關預設API的進一步指示。
 
-
-<!--
-Integrations that do not specify a version of the API in the URI are automatically routed to Default, which has been deprecated. In order for your Workfront integrations to be valid, you must specify a supported API version in your Workfront API requests.
--->
-
 若要了解如何在API請求中指定版本，請參閱 [在您的整合中指定API版本](../../wf-api/api/specify-api-version-integrations.md).
 
 ## 使用預設API時的考量事項
 
 使用Workfront預設API時，請考量下列事項：
 
-* 在23.2版之後，API的預設版本將設為最新版本。 任何未指定版本的API呼叫都會使用預設版本。 每次Workfront發行新版API時，預設版本都會更新為最新版本。 **因此，在發行新版Workfront API後，應檢查使用預設版本的任何API呼叫，以確定仍支援該功能**.
-* 如果貴組織目前使用已棄用的預設API，您的Workfront管理員會收到公告中心訊息，其中包含有關預設API的進一步指示。
-* <span class="preview">預覽環境中的預設API目前已設為最新版本。 生產環境中的預設API將設為23.2版之後的最新版本。</span>
+* API的預設版本為最新版本。 任何未指定版本的API呼叫都會使用預設版本。 每次Workfront發行新版API時，預設版本都會更新為最新版本。 **因此，在發行新版Workfront API後，應檢查使用預設版本的任何API呼叫，以確定仍支援該功能**.
+* 如果貴組織目前使用的是先前淘汰的預設API，您的Workfront管理員會收到公告中心訊息，其中包含有關預設API的進一步指示。
 
 若要查看最新版的API，請參閱 [API版本設定與支援排程](../../wf-api/api/api-version-support-schedule.md).
-
-<!--
-
-## Deprecating Default
-
-In an effort to improve the Workfront API, we are in the process of removing older API versions that have exceeded our support window of three years. One of these versions is Version 2, to which Default is mapped. This version was released in 2010, and much of the logic supported in the Attask/Workfront application at that time either no longer exists or has substantially changed.
-
-We deprecated Default in July 2017, and we will no longer designate a specific version of the API to be the default version. Instead, all Workfront API requests must specify a specific API version.
-
->[!IMPORTANT]
->
-> By July 1, 2018 all of your Workfront integrations that use Default must be updated to call a specific supported API version. After that date, all of your Workfront API requests used by integrations that do not specify a version will fail.
-
-To learn about the Workfront deprecation cadence, see [API versioning and support schedule](../../wf-api/api/api-version-support-schedule.md).
-
--->
 
 ## 將整合更新至支援的API版本
 

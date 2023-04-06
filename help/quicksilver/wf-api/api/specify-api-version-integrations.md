@@ -6,18 +6,16 @@ description: 在您的整合中指定API版本
 author: Becky
 feature: Workfront API
 exl-id: 2971749d-1d34-42a4-9eda-411aa8c3a2ab
-source-git-commit: f050c8b95145552c9ed67b549608c16115000606
+source-git-commit: 2b9eacc9b2c8f499cdd1794a55879a56224051c8
 workflow-type: tm+mt
-source-wordcount: '496'
+source-wordcount: '435'
 ht-degree: 0%
 
 ---
 
 # 在您的整合中指定API版本
 
-<span class="preview">本頁強調顯示的資訊指的是尚未普遍提供的功能。 它僅適用於預覽沙箱環境。</span>
-
-在URI的「attask/api」部分之後，所有Adobe Workfront URI都必須參考API的特定版本。 下列範例呼叫15.0版：
+所有Adobe Workfront URI應在URI的「attask/api」部分之後參照API的特定版本。 下列範例呼叫15.0版：
 
 `attask/api/v15.0/<objectName>/<objectId>`
 
@@ -31,11 +29,9 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->* 在23.2版之後，API的預設版本將設為最新版本。 任何未指定版本的API呼叫都會使用預設版本。 每次Workfront發行新版API時，預設版本都會更新為最新版本。 因此，在發行新版Workfront API後，應檢查使用預設版本的任何API呼叫，以確定仍支援該功能。
+>* API的預設版本已設為最新版本。 任何未指定版本的API呼叫都會使用預設版本。 每次Workfront發行新版API時，預設版本都會更新為最新版本。 **因此，在發行新版Workfront API後，應檢查使用預設版本的任何API呼叫，以確定仍支援該功能。**
 >
 >* 如果貴組織目前使用預設API，您的Workfront管理員已收到公告中心訊息，其中包含有關預設API的進一步指示。
->
->* <span class="preview">預覽環境中的預設API設為最新版本。 生產環境中的預設API將在23.2版（2023年4月）之後設為最新版本</span>.
 >
 >若要查看最新版的API，請參閱 [API版本設定與支援排程](../../wf-api/api/api-version-support-schedule.md).
 
