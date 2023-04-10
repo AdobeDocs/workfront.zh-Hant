@@ -6,10 +6,10 @@ title: Adobe Workfront內建整合概述
 description: 您可以整合 [!DNL Adobe Workfront] 協力廠商應用程式。 這些整合可擴充 [!DNL Workfront] 並根據貴組織的需求量身打造。 例如，如果您是行銷行業的創意人員，可以使用Adobe Creative Cloud增益集，將資產直接從Photoshop匯出至Workfront。
 feature: Workfront Integrations and Apps
 exl-id: ca51cb23-9332-4ce5-aefb-f333455cfc7c
-source-git-commit: 04cf9d37c681398f5a0e2b9d7d45c0f8b93ab44b
+source-git-commit: 5c5c198645006506cb4187196d5bffab72cd1d56
 workflow-type: tm+mt
-source-wordcount: '473'
-ht-degree: 2%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -28,12 +28,20 @@ ht-degree: 2%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"> <p>Adobe Creative Cloud </p> <p> <img src="assets/adobecclogo.png"> </p> </td> 
+   <td role="rowheader"> <p>Adobe Creative Cloud </p> <p> <img src="assets/creative-cloud-logo.png"> </p> </td> 
    <td> 
     <ul> 
-     <li>整合 [!DNL Workfront] 與InDesign、Illustrator和Photoshop的意見與核准 </li> 
-     <li>從AdobeExchange下載/安裝或手動</li> 
-    </ul> </td> 
+     <li>整合 [!DNL Workfront] 以下Adobe Creative Cloud應用程式的註解與核准： 
+     <ul>
+     <li>InDesign </li>
+     <li>Illustrator </li>
+     <li>Photoshop </li>
+     <li>XD </li>
+     <li>Premiere Pro </li>
+     <li>After Effects </li>
+     </ul>
+     <li><p>從下載/安裝 <a href="https://exchange.adobe.com/apps/browse/cc?page=1&amp;product=All&amp;q=workfront&amp;sort=RELEVANCE" class="MCXref xref">AdobeExchange</a>.</p></li></ul>
+     <p>如需資訊和指示，請參閱 <a href="https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-integrations/workfront-for-creative-cloud/install-wf-cc/wf-cc-install-toc.html" class="MCXref xref">安裝  [!DNL Adobe Workfront] 外掛程式 [!DNL Creative Cloud] 應用程式</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>方塊</p> <p> <img src="assets/box,-inc.-logo.png"> </p> </td> 
