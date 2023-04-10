@@ -9,16 +9,16 @@ author: Becky, Caroline
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 exl-id: 50aca40a-f971-42f2-b20f-fa4fff22335e
-source-git-commit: 5c5c198645006506cb4187196d5bffab72cd1d56
+source-git-commit: 328d3a8d16ace22100d86efc127874d7edd6cb6d
 workflow-type: tm+mt
-source-wordcount: '1056'
+source-wordcount: '1061'
 ht-degree: 0%
 
 ---
 
 # [!DNL Adobe Workfront] 整合
 
-您可以將Adobe Workfront與協力廠商應用程式整合。 整合可擴充Workfront的公用程式，並根據貴組織的需求量身打造。
+您可以將Adobe Workfront與協力廠商應用程式以及其他 [!DNL Adobe] 產品。 整合可擴充Workfront的公用程式，並根據貴組織的需求量身打造。
 
 整合 [!DNL Workfront] 分為下列類別：
 
