@@ -10,7 +10,7 @@ description: 使用 [!DNL Adobe Experience Manager Assets] 連接器 [!DNL Adobe
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: 0749f230-8cab-464f-863c-9cb4870125d1
-source-git-commit: 885d93dd4383945538e977fd3edbfd55bda88b70
+source-git-commit: c978a0eed86e399824d5b383c6db004deb0ec0ce
 workflow-type: tm+mt
 source-wordcount: '1496'
 ht-degree: 0%
@@ -71,7 +71,7 @@ ht-degree: 0%
 
       此設定需要來自 [!DNL Adobe Admin Console].
 
-   * **[!DNL AEM Assets Basic]**
+   * **[!DNL AEM Assets Basic]([!DNL Adobe Managed Services])**
 
       此配置需要用戶名和密碼。
 
@@ -79,7 +79,7 @@ ht-degree: 0%
 
    針對 [!DNL AEM Assets as a Cloud Service]，請參閱 [為配置連接 [!DNL AEM Assets as a Cloud Service]](#configure-the-connection-for-aem-assets-as-a-cloud-service).
 
-   針對 [!UICONTROL AEM Assets基本]，請參閱 [為配置連接 [!UICONTROL AEM Assets基本]](#configure-the-connection-for-aem-assets-basic).
+   針對 [!UICONTROL AEM Assets基本] ([!DNL Adobe Managed Services])，請參閱 [為配置連接 [!UICONTROL AEM Assets基本]](#configure-the-connection-for-aem-assets-basic).
 
 4. 按一下 **[!UICONTROL 繼續]** 以儲存連線並返回模組。
 
@@ -135,7 +135,7 @@ ht-degree: 0%
       </table>
 
 
-### 為配置連接 [!DNL AEM Assets Basic]
+### 為配置連接 [!DNL AEM Assets Basic] ([!DNL Adobe Managed Services])
 
 <table style="table-layout:auto"> 
         <col/>
