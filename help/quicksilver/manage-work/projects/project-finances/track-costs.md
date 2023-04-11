@@ -7,9 +7,9 @@ description: 您可以在Adobe Workfront中追蹤專案、工作和問題的成�
 author: Alina
 feature: Work Management
 exl-id: df3090ae-9721-4e9b-84b4-315890619801
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: b4bb6306b7fa088823fba8ef5614aae8551ce02c
 workflow-type: tm+mt
-source-wordcount: '2364'
+source-wordcount: '2372'
 ht-degree: 1%
 
 ---
@@ -113,9 +113,6 @@ Workfront會計算項目中每個任務的計畫成本和實際成本。 Workfro
 Planned Project Cost = Planned Labor Cost of all tasks + Planned Expense cost of all tasks + Planned Expense Cost of the project + Fixed Cost of the project
 ```
 
-* 
-   * 
-
 例如，任務的「費用」標籤中包含以下費用：$100的行銷費用和$50的管理費用。 在「財務」標籤中，選擇「用戶每小時成本」類型。 系統會為用戶分配任務，用戶的每小時費率為$15。 已將用戶分配給5小時執行此任務。 在項目的「費用」標籤中，名為「咨詢」的費用有$100的計畫成本。 此外，該項目還有$200的固定成本。
 
 項目的計畫成本計算如下：
@@ -148,17 +145,15 @@ $100 (Consulting Expense) + $100 (Marketing Expense) + $50 (Administrative Expen
 實際成本使用以下公式計算：
 
 ```
-Actual Project Cost = Actual Labor Cost of all tasks + Actual Expense Cost of all tasks + Actual Labor Cost of the project + Actual Expense Cost of the project
+Actual Project Cost = Actual Labor Cost of all tasks + Actual Expense Cost of all tasks + Actual Labor Cost of the project + Actual Expense Cost of the project + Fixed Cost of the project
 ```
 
-。
-
-例如，任務的「費用」標籤中包含以下費用：a實際成本為$110的市場營銷費用和實際成本為$40的管理費用。 選擇「角色每小時」成本類型，並將「顧問」作業角色分配給該任務。 顧問職務角色的費率為每小時$15，並且顧問職務角色的任務有6小時記錄。 此外，還存在與項目相關的咨詢費用（在「費用」頁簽中），「實際成本」為$100，「每小時成本」為$20的用戶配置檔案記錄在項目的10小時內。
+例如，任務的「費用」標籤中包含以下費用：a實際成本為$110的市場營銷費用和實際成本為$40的管理費用。 選擇「角色每小時」成本類型，並將「顧問」作業角色分配給該任務。 顧問職務角色的費率為每小時$15，並且顧問職務角色的任務有6小時記錄。 與項目關聯的咨詢費用（在「費用」頁簽中），「實際成本」為$100，「每小時成本」為$20的用戶配置檔案記錄在項目的10小時內。 此外，該項目還有$200的固定成本。
 
 項目的實際成本計算如下：
 
 ```
-$100 (Consulting Expense) + $110 (Marketing Expense) + $40 (Administrative Expense) +$15 (Hourly Rate)*6 (Actual Hours Logged) + $20 (Cost per Hour rate for the user logging time on the project)*10 (hours the user logs on the project)= $540
+$100 (Consulting Expense) + $110 (Marketing Expense) + $40 (Administrative Expense) +$15 (Hourly Rate)*6 (Actual Hours Logged) + $20 (Cost per Hour rate for the user logging time on the project)*10 (hours the user logs on the project) + $200 (Fixed Cost)= $740
 ```
 
 >[!NOTE]
