@@ -6,10 +6,10 @@ description: 您可以將標籤新增至卡片，以視覺化方式顯示其類�
 author: Lisa
 feature: Agile
 exl-id: 0071fa0d-8164-42d2-bbc6-bd60f8e0c052
-source-git-commit: 86d168cc13b7b1942877430a9194c38be2dd56de
+source-git-commit: 887e8c162764d5d69605b5323f6315de3a2992f3
 workflow-type: tm+mt
-source-wordcount: '451'
-ht-degree: 1%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -93,7 +93,7 @@ ht-degree: 1%
 
    按一下 **[!UICONTROL 更多]** 功能表 ![[!UICONTROL 更多功能表]](assets/more-icon-spectrum.png) 在「 」卡片上，然後選取 **[!UICONTROL 編輯]**.
 
-1. 找到您要從資訊卡移除的標籤，然後按一下 **[!UICONTROL 移除]**&#x200B;圖示 ![移除標籤](assets/copy-of-boards-remove-30x23.png).
+1. 找到您要從資訊卡移除的標籤，然後按一下 **[!UICONTROL 移除]** 圖示 ![移除標籤](assets/copy-of-boards-remove-30x23.png).
 1. 按一下 **[!UICONTROL 關閉]**。
 
 ## 刪除標籤
