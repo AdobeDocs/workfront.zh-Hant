@@ -4,12 +4,12 @@ keywords: 發行
 navigation-topic: product-announcements
 title: Adobe Workfront發行排程和程式
 description: 「預覽」環境每週更新一次，其中包含新功能。 這些功能會在即將發行的季度發行說明中傳達。
-author: Luke
+author: Alina
 feature: Product Announcements
 exl-id: 4cc72e55-8105-420a-9609-e965222399e3
-source-git-commit: e6995cd57c4210725d49379df5bcd7e93ce4b02a
+source-git-commit: c7994ea14dd51c9a78e3bb5b5ec7bb5d7e21f4cd
 workflow-type: tm+mt
-source-wordcount: '475'
+source-wordcount: '737'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ Adobe Workfront產品的問題修正每週都可在生產環境中使用。 請�
 
 ## 從每季版本中移除的功能
 
-所有與指定季度版本相關的功能都可在最終產品發行前的2-4週預覽中測試。 如果在此之前的季度版本中移除了功能，將採取下列動作通知客戶：
+與指定每季版本相關的所有功能，都可在生產環境最終發行前至少2至4週於預覽中測試。 如果在此之前的季度版本中移除了功能，將採取下列動作通知客戶：
 
 * 每季發行的發行說明(位於 [產品發行](../../product-announcements/product-releases/product-releases.md) 頁面)更新，以指出已移除功能。
 
@@ -41,6 +41,30 @@ Adobe Workfront產品的問題修正每週都可在生產環境中使用。 請�
 * 每季發行的發行說明(位於 [產品發行](../../product-announcements/product-releases/product-releases.md) 頁面)更新，以指出已移除功能。
 * Workfront社群會新增貼文，指出功能已移除。
 * 系統會透過公告中心傳送訊息給所有客戶，告知功能已移除。 (公告中心是Workfront的應用程式內通知中心。 如需詳細資訊，請參閱 [傳送公告](../../administration-and-setup/get-started-wf-administration/view-send-announcements.md).)
+
+## 測試版
+
+Workfront有時會在測試版計畫中發行新功能。
+每個測試版的具體資訊，包括如何參與、每次測試版計畫啟動時的發行和所有測試版計畫不同。
+
+以下是Workfront提供的測試版計畫類型：
+
+* **封閉或私人測試版**:以下是封閉或私人測試版版本的特性：
+
+   * 少數客戶可使用功能，經Workfront仔細挑選。
+   * 參與者通常會與產品經理合作，並定期提供意見反應。
+   * 屬於測試版的新功能可發佈至「預覽」或「生產」，或發佈至供測試版程式使用的個別環境。 封閉測試版功能會以隨機間隔發行，且不會發出警告。
+   * 產品發行頁面上沒有已結束測試的發行資訊。
+
+* **公開或公開測試版**:以下是公開或公開測試版版本的特性：
+
+   * 所有Workfront客戶都能使用這些功能，但處於測試狀態。 它們不一定能完全發揮作用，而且總是受到歡迎。
+   * 公開測試版的參與是選用的，客戶可以自行決定是否要開啟測試版功能。
+   * 屬於測試版的新功能可發佈至「預覽」或「生產」。
+   * 功能的發行頻率可能比Workfront的一般發行模式更高。
+   * 產品發行頁面會包含何時將功能發佈至公開測試版的相關資訊。
+
+如需產品發行說明的詳細資訊，請參閱 [產品發行](../../product-announcements/product-releases/product-releases.md).
 
 ## 發行說明
 
