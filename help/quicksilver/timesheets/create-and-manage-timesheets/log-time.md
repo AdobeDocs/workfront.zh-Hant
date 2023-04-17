@@ -6,9 +6,9 @@ description: 您可以在Adobe Workfront中記錄工作項目的時間(&N)，以
 author: Alina
 feature: Timesheets
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: 27e9cfff363ab38c6469b99a8cbb04439f2df61c
+source-git-commit: e148126102d30ef061a89edae83980ebe81e9810
 workflow-type: tm+mt
-source-wordcount: '2979'
+source-wordcount: '3016'
 ht-degree: 0%
 
 ---
@@ -246,9 +246,15 @@ ht-degree: 0%
 
    >[!IMPORTANT]
    >
-   >如果您記錄的作業角色已變更，且 **手動將作業角色分配給小時條目** 設定已停用，您必須手動儲存時間項目。 只有在已更改的作業角色不再記錄任何時間時，工時單才會自動保存您的時間。
+   >如果發生以下任何情況，則必須手動保存工時單：
    >
-   >如果角色已變更，且 **手動將作業角色分配給小時條目** 設定啟用後，您可以記錄時間或更新角色，並自動儲存您的變更。
+   >* 與您先前記錄的時間相關聯的作業角色已變更，且 **手動將作業角色分配給小時條目** 已禁用設定。 新日期的記錄時間會將其與不同作業角色建立關聯。
+      >   
+      >   如果角色已變更，且 **手動將作業角色分配給小時條目** 設定啟用後，您可以記錄時間或更新角色，並自動儲存您的變更。
+   >
+   >* 分配給任務或問題的作業角色與時間表所有者記錄時間的作業角色不同 <!--or assigned to them_ this last  piece came from a Support note but but sure what role it's referring to. Leaving it out for now.-->.
+   >
+   >當兩個角色之間不再存在衝突條目時，時間表將再次自動保存時間。
 
 1. （可選）在工時單題頭的「特定時段」欄位中指定超時時間。
 

@@ -6,9 +6,9 @@ description: 您可以在Adobe Workfront物件（專案、任務或問題）上�
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: 92fb1ee0b641d2f4b527e17df272e4c37c0feaef
+source-git-commit: e148126102d30ef061a89edae83980ebe81e9810
 workflow-type: tm+mt
-source-wordcount: '2732'
+source-wordcount: '2814'
 ht-degree: 1%
 
 ---
@@ -233,6 +233,17 @@ drafted for P&P release:
    >   系統只會在您提交原始更新時，產生電子郵件，通知使用者您的更新。 編輯更新後不會產生任何電子郵件。
 
 1. （選用）按一下 **回覆** 若要回覆現有意見，請遵循上述步驟4至7。 <!--(**************insure this stays accurate***********)-->. 如需回覆更新的相關資訊，請參閱 [回覆更新](../../workfront-basics/updating-work-items-and-viewing-updates/reply-to-updates.md).
+1. （條件式和選用式）如果其他使用者已新增備注，顯示在「更新」區段的可見區域之外，請按一下 **檢視** 藍色 **新留言橫幅** 顯示這些註解。
+
+   ![](assets/blue-new-comments-banner-with-view-button.png)
+
+   螢幕底部會顯示其他注釋。
+
+   >[!NOTE]
+   >
+   >   只有輸入新更新的使用者以及目前查看「更新」區段的使用者都使用新的註解體驗時，才會顯示「新註解」指標和「檢視」按鈕。
+
+
 1. （選用）按一下 **贊** 圖示![](assets/like-icon.png). 圖示會隨按贊次數更新。
 1. （條件式和可選）如果注釋中包括了其他人員，請按一下更新中包括的成員數，以顯示您輸入的注釋被共用的實體清單。
 

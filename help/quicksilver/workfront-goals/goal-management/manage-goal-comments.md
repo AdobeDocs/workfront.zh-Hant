@@ -6,9 +6,9 @@ description: 您可以在Adobe Workfront目標中新增評論至您可檢視的�
 author: Alina
 feature: Workfront Goals
 exl-id: 6cf2d2d2-5ba5-40f2-a803-01359c338541
-source-git-commit: 92fb1ee0b641d2f4b527e17df272e4c37c0feaef
+source-git-commit: e148126102d30ef061a89edae83980ebe81e9810
 workflow-type: tm+mt
-source-wordcount: '739'
+source-wordcount: '786'
 ht-degree: 0%
 
 ---
@@ -170,6 +170,11 @@ ht-degree: 0%
 
 1. （選用）按一下 **更多** 功能表 ![](assets/more-icon.png) 按一下備注的右側 **刪除** 刪除添加的注釋。
 1. （選用）按一下 **回覆** 若要回覆現有意見，請遵循上述步驟5至9。 <!--insure this stays accurate-->
+1. （條件式和選用式）如果其他使用者已新增備注，顯示在「更新」區段的可見區域之外，請按一下 **檢視** 藍色 **新留言橫幅** 顯示這些註解。
+
+   ![](assets/blue-new-comments-banner-with-view-button.png)
+
+   螢幕底部會顯示其他注釋。
 1. （選用）按一下 **贊** 圖示![](assets/like-icon.png) 喜歡別人加的評論。 圖示會隨按贊次數更新。
 1. （可選）若要將RTF格式新增至更新，請在輸入時使用RTF工具列上的任何屬性。 如需詳細資訊，請參閱 [更新工作](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 1. （選用）按一下 **系統活動** 頁簽查看系統記錄的更新。 更新目標時，Workfront會產生有關該更新的附註，並在「系統活動」索引標籤中顯示。 Workfront也會在結果、活動或專案新增至目標或更新時記錄系統更新。 <!--ensure the casing on the tab has not changed-->

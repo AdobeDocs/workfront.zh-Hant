@@ -1,17 +1,17 @@
 ---
 product-area: projects
 navigation-topic: update-work-items-and-view-updates
-title: 統一的注釋體驗
+title: 全新評論體驗
 description: 新的統一注釋體驗將
 author: Alina
 feature: Get Started with Workfront
-source-git-commit: 92fb1ee0b641d2f4b527e17df272e4c37c0feaef
+exl-id: f750b35b-8021-4cc1-81d6-e1ece2530438
+source-git-commit: e148126102d30ef061a89edae83980ebe81e9810
 workflow-type: tm+mt
-source-wordcount: '530'
+source-wordcount: '539'
 ht-degree: 1%
 
 ---
-
 
 # 全新評論體驗
 
@@ -204,7 +204,7 @@ Adobe Workfront中備注體驗的更新目前正在開發中。 此更新包含�
    </td>
    <td>✓ 
    </td>
-   <td>替換為活動索引標籤 
+   <td>替換為「活動」索引標籤 
    </td>
    <td> 
    </td>
@@ -302,7 +302,7 @@ Adobe Workfront中備注體驗的更新目前正在開發中。 此更新包含�
    </td>
    <td>✓ 
    </td>
-   <td> ✓
+   <td> 已替換為複製連結
    </td>
    <td> 
    </td>
@@ -316,7 +316,7 @@ Adobe Workfront中備注體驗的更新目前正在開發中。 此更新包含�
    </td>
    <td>✓ 
    </td>
-   <td> ✓
+   <td> 已替換為複製連結
    </td>
    <td> 
    </td>
