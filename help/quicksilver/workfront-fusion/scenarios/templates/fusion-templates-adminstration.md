@@ -7,9 +7,9 @@ description: 如果您是管理員，則您有權檢視、修改、重新命名�
 author: Becky
 feature: Workfront Fusion
 exl-id: 63c14183-0d22-44f3-87e5-c311cfbf5540
-source-git-commit: 59941ea1ce523a0d1036138a83f771b058049b34
+source-git-commit: bcca026e193e66cfb92ab9a0fb1aaf1eeb6892fb
 workflow-type: tm+mt
-source-wordcount: '576'
+source-wordcount: '578'
 ht-degree: 0%
 
 ---
@@ -99,4 +99,4 @@ ht-degree: 0%
 
 身為管理員，您可以將案例複製為範本。
 
-如需將案例複製為範本的指示，請參閱 [在中建立新範本 [!DNL Adobe Workfront Fusion]](../../../workfront-fusion/scenarios/templates/create-new-fusion-templates.md#create)in [在中建立新範本 [!DNL Adobe Workfront Fusion]](../../../workfront-fusion/scenarios/templates/create-new-fusion-templates.md)
+如需將案例複製為範本的指示，請參閱 [從案例建立範本](../../../workfront-fusion/scenarios/templates/create-new-fusion-templates.md#create-a-template-from-a-scenario) in [在中建立新範本 [!DNL Adobe Workfront Fusion]](../../../workfront-fusion/scenarios/templates/create-new-fusion-templates.md)

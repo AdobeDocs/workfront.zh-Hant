@@ -7,9 +7,9 @@ description: 您可以在 [!DNL Adobe] Workfront聚變。
 author: Becky
 feature: Workfront Fusion
 exl-id: fdfa509c-30c6-431e-89f3-a4bf50261e8a
-source-git-commit: fcaa2136310cad8ef478020a9bae34bbe5520c6d
+source-git-commit: 612de6a98965552da6d534d9d2536237a96f7715
 workflow-type: tm+mt
-source-wordcount: '469'
+source-wordcount: '721'
 ht-degree: 0%
 
 ---
@@ -55,6 +55,13 @@ ht-degree: 0%
 
 ## 建立新範本
 
+您可以在類似建立案例的程式中建立範本。 Fusion管理員也可以從現有情況建立模板。
+
+* [建立範本](#build-a-template)
+* [從案例建立範本](#create-a-template-from-a-scenario)
+
+### 建立範本
+
 1. 按一下 **[!UICONTROL 範本]** ![](assets/fusion-template-icon.png) ，即可取得Advertising Cloud的說明。
 1. 按一下 **[!UICONTROL 建立新範本]** 在右上角。
 1. （選用）取代預設值，重新命名範本 **[!UICONTROL 新範本名稱]** 在左上角。
@@ -81,6 +88,36 @@ ht-degree: 0%
 >[!NOTE]
 >
 >通過保存模板，可使所有團隊成員都可見。 如果您希望範本可在團隊外部存取，則需要發佈該範本，然後使用共用連結，或要求管理員核准並發佈範本。
+
+### 從案例建立範本
+
+>[!NOTE]
+>
+>您必須是Fusion管理員才能從案例建立範本。
+
+1. 開啟要建立方案的方案的方案詳細資訊頁面。
+1. 按一下 **管理** 在頁面右上角附近下拉。
+1. 選擇 **仿製為範本**.
+
+   方案會複製到「新範本」頁面。
+1. （選用）取代預設值，重新命名範本 **[!UICONTROL 新範本名稱]** 在左上角。
+1. （可選）若要變更範本的語言，請按一下 **[!UICONTROL 設定範本]** ![](assets/fusion-scenario-settings-icon.png) 並從「語言」下拉式清單中選取語言。
+
+   >[!IMPORTANT]
+   >
+   >「語言」選項與系統設定中可用的語言相對應，只涉及公共模板的名稱及其說明。 儲存範本後，就無法變更範本語言。
+
+1. （可選）若要輸入範本說明，請按一下 **[!UICONTROL 設定範本]** ![](assets/fusion-scenario-settings-icon.png) 並輸入說明。
+1. 編輯應用程式、模組和工具的方式與編輯標準案例時相同。
+
+   若要將內容說明新增至模組，請參閱 [設定 [!UICONTROL 精靈] 功能](#set-up-wizard-functionality) 這篇文章。
+
+   >[!NOTE]
+   >
+   >如果您的範本包含需要新增連線、認證或其他隱私權相關資訊的模組，則此資訊不會與範本使用者共用。
+
+1. （選用）按一下 **[!UICONTROL 執行一次]** 來測試範本。
+1. 按一下 **[!UICONTROL 儲存]** 圖示 ![](assets/save-icon.png).
 
 ## 設定 [!UICONTROL 精靈] 功能 {#set-up-wizard-functionality}
 
