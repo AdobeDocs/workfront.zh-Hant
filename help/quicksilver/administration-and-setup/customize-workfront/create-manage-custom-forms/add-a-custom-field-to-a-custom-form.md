@@ -8,10 +8,10 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 3579ae0f-1d2e-4ff5-bbdf-58fdd20d01d7
-source-git-commit: e02e28d9a62a6bafbe19de7e6fda043b56210cf7
+source-git-commit: f9fce2715cad3e2ea2bf16de5f4ba457f981725c
 workflow-type: tm+mt
-source-wordcount: '2208'
-ht-degree: 2%
+source-wordcount: '2264'
+ht-degree: 3%
 
 ---
 
@@ -156,11 +156,12 @@ ht-degree: 2%
      </tr> 
      <tr> 
       <td role="rowheader">格式</td> 
-      <td> <p>選取要在自訂欄位中擷取的資料類型。</p> <p><b>附註</b>:   
-        <ul> 
-         <li>表單儲存後無法編輯此欄位。 如果要在數學計算中使用欄位，請確保選擇數字或貨幣格式。<br></li> 
-         <li>選擇「數字」或「貨幣」時，系統會自動截斷以0開頭的數字。</li> 
-        </ul> </p> </td> 
+      <td> <p>選取要在自訂欄位中擷取的資料類型。 保存表單後，可以更改格式選擇，但新格式必須支援輸入的值。</p>
+
+   <p><strong>範例：</strong> 如果您至少在一個對象上為文本格式的欄位保存數值，並稍後將格式更改為數字或貨幣，您將不會遇到錯誤。 </p>
+      <p>但是，如果在至少一個對象上的「文本」格式欄位中保存字母數字值，然後嘗試將格式更改為「數字」或「貨幣」，則會遇到錯誤，因為保存的字母數字值與「數字」或「貨幣」格式不相容。 </p>
+
+   </td> 
      </tr> 
      <tr> 
       <td role="rowheader">顯示類型</td> 
@@ -204,7 +205,7 @@ ht-degree: 2%
       <td>（僅限描述性文字欄位）如果要將超連結套用至您輸入的描述性文字，請在此處新增。</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">建立必填欄位</td> 
+      <td role="rowheader">建立必要欄位</td> 
       <td>如果您希望欄位為必要欄位，讓使用者完成自訂表單，請選取此選項。 </td> 
      </tr> 
      <tr> 
