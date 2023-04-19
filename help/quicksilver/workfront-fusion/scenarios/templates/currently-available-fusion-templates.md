@@ -7,9 +7,9 @@ description: 下列公開範本目前可在Adobe Workfront Fusion中使用。
 author: Becky
 feature: Workfront Fusion
 exl-id: 29d95b93-ab54-416d-b0d5-ff12634951b2
-source-git-commit: b397e93842db742456f374a0baf130495b711a2c
+source-git-commit: f0ab9a14fc397b36c5e3dffe07306ebc43e76500
 workflow-type: tm+mt
-source-wordcount: '617'
+source-wordcount: '655'
 ht-degree: 0%
 
 ---
@@ -49,6 +49,10 @@ ht-degree: 0%
 ### Workfront — 每週建立基線
 
 此範本會在每週一早上6點(ET)，針對依產品組合篩選的專案擷取專案基線，並在更新資料流中建立更新以供記錄。
+
+### 查找策略時間中未使用的項目模板並通知
+
+每月使用您自己的策略審核一次項目模板，該模板易於管理，可在違反您的策略的情況下通知相應的模板用戶。
 
 ## Workfront - Workfront校樣範本
 
