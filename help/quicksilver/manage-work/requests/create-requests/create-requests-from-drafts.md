@@ -6,16 +6,14 @@ description: 除了使用Workfront在您輸入新請求時建議您的可用草�
 author: Alina
 feature: Work Management
 exl-id: 664004e7-04c8-4a1f-b682-7b82d349643d
-source-git-commit: 345f63fc78d9bc2b2eff8f19a8a9196641567764
+source-git-commit: 0f30ff23ef828d32c406cc2d9733c23b095014c9
 workflow-type: tm+mt
-source-wordcount: '606'
+source-wordcount: '613'
 ht-degree: 1%
 
 ---
 
 # 從草稿建立請求
-
-<span class="preview">本頁強調顯示的資訊指的是尚未普遍提供的功能。 它僅在預覽環境中可用。</span>
 
 除了使用Workfront在您輸入新請求時建議您的可用草稿外，您也可以從「草稿」區段存取草稿請求，然後從那裡提交。
 
@@ -61,7 +59,7 @@ ht-degree: 1%
 
    ![](assets/nwe-drafts-section-with-list-of-drafts-350x169.png)
 
-1. <span class="preview">（選用）按一下欄標題，依該欄排序清單。</span>
+1. （選用）按一下欄標題，依該欄排序清單。
 
 1. 在「草稿」清單的下列欄中，檢閱每個草稿的相關資訊：
 
@@ -73,7 +71,12 @@ ht-degree: 1%
 
    {style="table-layout:auto"}
 
-1. <span class="preview">（可選）使用「草稿」清單右上角的快速篩選器，開始輸入草稿請求、請求佇列、佇列主題或主題群組的名稱，然後按一下草稿的名稱以開啟它。 </span>
+1. （可選）使用「草稿」清單右上角的快速篩選器，開始輸入草稿請求、請求佇列、佇列主題或主題群組的名稱，然後按一下草稿的名稱以開啟它。
+
+   >[!TIP]
+   >
+   >您無法在「請求」區域的「草稿」區段中套用永久篩選。 此外，沒有修改或更改草稿清單視圖的選項。
+
 1. 依照 [建立及提交Adobe Workfront請求](../../../manage-work/requests/create-requests/create-submit-requests.md).
 1. （選用和條件式）在輸入請求期間的任何時間點，按一下 **捨棄** 草稿（如果要刪除草稿）。 這會刪除無法復原的草稿。 如需刪除草稿的詳細資訊，請參閱 [刪除請求草稿](../../../manage-work/requests/create-requests/delete-request-draft.md).
 
