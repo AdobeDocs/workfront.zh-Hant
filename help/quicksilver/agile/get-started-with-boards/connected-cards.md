@@ -6,14 +6,16 @@ description: 您可以在主板上新增資訊卡，連線至Workfront中的現�
 author: Lisa
 feature: Agile
 exl-id: c6d979dd-e4a4-48a5-a91b-b31d7ef848d1
-source-git-commit: e9fce8cd8062fa6512493c3b0509aa248a76c528
+source-git-commit: 07942865a25153fe50ff627291bb21e1508dddc5
 workflow-type: tm+mt
-source-wordcount: '1181'
-ht-degree: 1%
+source-wordcount: '1242'
+ht-degree: 0%
 
 ---
 
 # 在主板上使用連接的卡
+
+{{highlighted-preview}}
 
 您可以在主板上新增卡片，卡片已連線至 [!DNL Workfront].
 
@@ -96,11 +98,11 @@ ht-degree: 1%
     <tbody> 
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL名稱]</strong></td> 
-      <td> <p>更改名稱也會更改連接的名稱 [!DNL Workfront] 物件。</p> </td> 
+      <td>更改名稱也會更改連接的名稱 [!DNL Workfront] 物件。</td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL描述]</strong></td> 
-      <td> <p>更改說明還更改了連接的說明 [!DNL Workfront] 物件。</p> </td> 
+      <td>更改說明還更改了連接的說明 [!DNL Workfront] 物件。 <span class="preview">您可以在說明中新增URL，這些URL在儲存資訊卡時將變成可點按的連結。</span></td> 
      </tr> 
      <tr>
       <td role="rowheader"><strong>[!UICONTROL受分配者]</strong></td>
@@ -110,7 +112,7 @@ ht-degree: 1%
      </tr>
      <tr>
       <td role="rowheader"><strong>[!UICONTROL列]</strong></td>
-      <td><p>選取卡片的欄。</p></td>
+      <td>選取卡片的欄。</td>
      </tr>
      <tr>
       <td role="rowheader"><strong>[!UICONTROL狀態]</strong></td>
@@ -120,7 +122,7 @@ ht-degree: 1%
      </tr>
      <tr>
       <td role="rowheader"><strong>[!UICONTROL計畫完成]</strong></td>
-      <td><p>更改此日期也會更改連接的計畫完成日期 [!DNL Workfront] 物件。</p></td>
+      <td>更改此日期也會更改連接的計畫完成日期 [!DNL Workfront] 物件。</td>
      </tr>
       <tr>
       <td role="rowheader"><strong>[!UICONTROL估計]</strong></td>
@@ -137,6 +139,12 @@ ht-degree: 1%
      </tr>
     </tbody> 
    </table>
+
+   <span class="preview">使用左側的導覽面板，在卡片詳細資料上的欄位群組之間移動。</span>
+
+   >[!NOTE]
+   >
+   >左側導覽面板以及在「說明」欄位中新增可點按連結的功能，只能透過Workfront展示板的早期功能選擇加入來使用。
 
 1. 按一下 **[!UICONTROL 關閉]** 回到董事會。
 連接的對象、受分配者、標籤、到期日、檢查清單計數器、估計小時數和狀態顯示在卡上。
