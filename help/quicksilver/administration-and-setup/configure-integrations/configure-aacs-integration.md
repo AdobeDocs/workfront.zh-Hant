@@ -5,9 +5,9 @@ title: Adobe Experience Manager Assets整合
 description: 您可以透過下列Adobe Experience Manager Assets整合連結您的工作。
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: bc58cc77-a177-417f-a5a4-eec51e305219
-source-git-commit: f3af39e760b2b407cda5ab78497cdc775defdcf6
+source-git-commit: b874cb1a99840db11d6d55c86b7f779aa3e6ef35
 workflow-type: tm+mt
-source-wordcount: '850'
+source-wordcount: '891'
 ht-degree: 0%
 
 ---
@@ -23,6 +23,7 @@ ht-degree: 0%
 * 追蹤資產和資料夾的中繼資料
 * 在之間同步專案中繼資料 [!DNL Workfront] 和 [!DNL Experience Manager Assets]
 
+您也可以跨組織ID將數個Experience Manager Assets存放庫連結至一個Workfront環境，或將數個Workfront環境連結至一個Experience Manager Assets存放庫。 針對您要設定的每個整合，請依照本文的設定指示操作。
 
 ## 存取需求
 
