@@ -7,9 +7,9 @@ description: Adobe WorkfrontCreative Cloud應用程式外掛程式
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: ebccdf17-12e3-4adc-95af-61d6337edb72
-source-git-commit: a9ec2952e6a4f7097ed08b10c06d1b8a0b144055
+source-git-commit: 15307cd34aa0787579a1cb26e0b165222d8d8502
 workflow-type: tm+mt
-source-wordcount: '104'
+source-wordcount: '121'
 ht-degree: 0%
 
 ---
@@ -37,3 +37,4 @@ ht-degree: 0%
 * [使用管理工作 [!DNL Adobe Workfront] 外掛程式 [!DNL Creative Cloud] 應用程式](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-manage-work-toc.md)
 * [使用 [!DNL Adobe Workfront] 外掛程式 [!DNL Creative Cloud] 應用程式](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-docs-proofs-toc.md)
 * [教學課程影片：使用 [!DNL Adobe Workfront] 外掛程式 [!DNL Creative Cloud]](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/integrations/adobe-creative-cloud/use-adobe-workfront-extensions-for-creative-cloud.html)
+* [教學課程影片：建立和管理套件、部署更新和疑難排解安裝錯誤](https://www.youtube.com/watch?v=zzvXNLIBzrc)
