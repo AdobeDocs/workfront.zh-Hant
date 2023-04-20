@@ -6,9 +6,9 @@ description: 您可以從Marketplace安裝Adobe Workfront for XD外掛程式。
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: d4971977-b5bd-4bb4-a1c2-44829a67d32d
-source-git-commit: a9ec2952e6a4f7097ed08b10c06d1b8a0b144055
+source-git-commit: 15307cd34aa0787579a1cb26e0b165222d8d8502
 workflow-type: tm+mt
-source-wordcount: '418'
+source-wordcount: '444'
 ht-degree: 1%
 
 ---
@@ -61,10 +61,13 @@ ht-degree: 1%
 
 ## 安裝 [!DNL Adobe Workfront for XD] 外掛程式
 
->[!TIP]
->
->如果您是 [!DNL Adobe Admin Console] 管理員，您可以在 [!DNL Creative Cloud] 部署包。 如需詳細資訊，請參閱 [在套件中加入外掛程式](https://helpx.adobe.com/in/enterprise/using/manage-extensions.html).
+如果您是 [!DNL Adobe Admin Console] 管理員，您可以在 [!DNL Creative Cloud] 部署包。 如需詳細資訊，請參閱 [在套件中加入外掛程式](https://helpx.adobe.com/in/enterprise/using/manage-extensions.html).
 
+[在這裡檢視教學課程影片](https://www.youtube.com/watch?v=zzvXNLIBzrc){target=_blank}.
+
+## 安裝 [!DNL Adobe Workfront for XD] 個別地
+
+您可以安裝 [!DNL Adobe Workfront for XD] 外掛程式 [!DNL Adobe Exchange].
 
 1. 前往 [Adobe Workfront for XD安裝頁面](https://exchange.adobe.com/apps/cc/4c3566f9?pluginId=4c3566f9&amp;workflow=share) 在Adobe交易。
 1. 在顯示的對話方塊中，按一下 **開啟 [!DNL Adobe Creative Cloud] 案頭應用程式**.
