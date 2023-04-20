@@ -1,0 +1,31 @@
+---
+title: 'New commenting experience Beta release activity'
+description: Review the weekly release activity for the Adobe Workfront new commenting Beta experience. 
+hidefromtoc: true
+hide: yes
+---
+<!--update the metadata when you are making this public-->
+
+# New commenting experience Beta release activity
+
+The information on this page refers to the release activity on a weekly basis of the new commenting Beta experience. The page includes new features that are added and issues that are resolved for the new commenting experience Beta. 
+
+For general information on the new commenting experience Beta, including a list of features that are currently available of in research, see [New commenting experience](../../workfront-basics/updating-work-items-and-viewing-updates/unified-commenting-experience.md). 
+
+<!--the sections below are copied from the former Canvas beta - replace with real new commenting beta experience content when it becomes available; also, add links to pertinent articles when you add the features for each release, and the year for the week; thought: should we separate these by release in additional sections?! first by release and then by week?!-->
+
+The new commenting experience launched in Beta with the 23.2 release. For information about the original release, see [23.2 Release overview](../product-releases/23.2-release-activity/23-2-release-overview.md). 
+
+The following sections list features that have been added after the original release. 
+
+## Week of November 6th
+
+* Added FLOOR, NUMBER, and STRING functions in Field Builder
+
+## Week of October 23rd
+
+* Added IF function in Field Builder
+
+## Week of September 4th
+
+* Added IN function in Field Builder
