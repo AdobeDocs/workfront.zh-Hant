@@ -6,9 +6,9 @@ description: 新的統一注釋體驗將
 author: Alina
 feature: Get Started with Workfront
 exl-id: f750b35b-8021-4cc1-81d6-e1ece2530438
-source-git-commit: e148126102d30ef061a89edae83980ebe81e9810
+source-git-commit: 607e0523cf97fdf26b650dc441e52b4ae4528af4
 workflow-type: tm+mt
-source-wordcount: '539'
+source-wordcount: '546'
 ht-degree: 1%
 
 ---
@@ -163,8 +163,9 @@ Adobe Workfront中備注體驗的更新目前正在開發中。 此更新包含�
    </td>
    <td> 
    </td>
-   <td>
-   <td>✓ 
+   <td>✓
+   </td>
+   <td> 
    </td>
    <td> 
    </td>
@@ -242,7 +243,7 @@ Adobe Workfront中備注體驗的更新目前正在開發中。 此更新包含�
    </td>
   </tr>
   <tr>
-   <td>即時查看新留言 
+   <td>即時查看新留言（包括看到留言被刪除的時間）
    </td>
    <td> 
    </td>
