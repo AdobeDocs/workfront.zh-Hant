@@ -6,7 +6,7 @@ description: Adobe Workfront會在您的行動裝置上傳送電子郵件通知�
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 118677e9-a13f-47e6-96a3-6f5e93b005e9
-source-git-commit: 06e5f4eb275548c5f1d2740632963a0c2fee48ac
+source-git-commit: bfe45a29290631420c3a60d7dcbe470619094ca1
 workflow-type: tm+mt
 source-wordcount: '1301'
 ht-degree: 1%
@@ -14,8 +14,6 @@ ht-degree: 1%
 ---
 
 # [!DNL Adobe Workfront] 通知
-
-{{highlighted-preview}}
 
 [!DNL Adobe Workfront] 在您的行動裝置上傳送電子郵件通知、應用程式內通知和通知。
 
@@ -130,15 +128,11 @@ A [!DNL Workfront] 管理員(或 [!UICONTROL 計畫員] 訪問級別和對提醒
 
 有關設定和啟用提醒通知的資訊，請參閱 [設定提醒通知](../../administration-and-setup/manage-workfront/emails/set-up-reminder-notifications.md).
 
-<span class="preview">
-
 ### 展示板通知
 
 [!DNL Adobe Workfront] [!UICONTROL 展示板] 當您新增至展示板，以及指派資訊卡給您時，會傳送電子郵件給您。
 
 您可以在「展示板」偏好設定中選取要接收的電子郵件。 如需詳細資訊，請參閱 [展示板電子郵件通知和偏好設定](/help/quicksilver/agile/get-started-with-boards/boards-emails.md).
-
-</span>
 
 ### 其他 [!DNL Workfront] 電子郵件
 
