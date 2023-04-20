@@ -6,9 +6,9 @@ description: 了解Adobe Workfront的哪些區域，您可找到您或其他人�
 author: Alina
 feature: Work Management
 exl-id: cfa2383a-9594-4867-9b48-11b8ea281486
-source-git-commit: 607e0523cf97fdf26b650dc441e52b4ae4528af4
+source-git-commit: 781a6e28b759863f8bc4635c0a8850abb173e038
 workflow-type: tm+mt
-source-wordcount: '885'
+source-wordcount: '869'
 ht-degree: 1%
 
 ---
@@ -125,7 +125,7 @@ ht-degree: 1%
 
    >[!TIP]
    >
-   >您無法修改「請求」區域的「已提交」區段中的篩選器。 此外，沒有可修改或更改已提交請求清單視圖的選項。
+   >您無法修改「請求」區域的「已提交」區段中的篩選器。
 
    <table style="table-layout:auto"> 
     <col> 
