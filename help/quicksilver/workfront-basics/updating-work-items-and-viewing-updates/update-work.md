@@ -6,9 +6,9 @@ description: 您可以在Adobe Workfront物件（專案、任務或問題）上�
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: e148126102d30ef061a89edae83980ebe81e9810
+source-git-commit: 607e0523cf97fdf26b650dc441e52b4ae4528af4
 workflow-type: tm+mt
-source-wordcount: '2814'
+source-wordcount: '2945'
 ht-degree: 1%
 
 ---
@@ -196,7 +196,7 @@ drafted for P&P release:
 
    >[!TIP]
    >
-   >在您完成輸入並提交注釋之前，從「更新」部分導航離開該頁面，即使您註銷並重新登錄後，該頁面上的注釋仍以草稿模式保留。 起草的注釋只對輸入它們的用戶可見。
+   >在您完成輸入並提交注釋之前，從「更新」部分導航離開該頁面，即使您註銷並重新登錄後，該頁面上的注釋仍以草稿模式保留。 添加到注釋的任何影像也保存在草稿中。 草稿會儲存7天，之後會捨棄，且無法復原。 起草的注釋只對輸入它們的用戶可見。
 
 1. （選用）在 **標籤人員或團隊** 區域中，開始鍵入用戶的名稱或電子郵件，或要包含在此注釋中的團隊，然後在清單中顯示時選擇它。
 1. （可選）若要將RTF格式新增至更新，請使用 **RTF** 工具列來增強文字：
@@ -223,7 +223,7 @@ drafted for P&P release:
 
 1. 按一下 **提交** 將更新新增至Workfront物件。
 1. （選用）若要編輯留言，請按一下 **更多** 功能表 ![](assets/more-menu.png) 在「贊」圖示的右側，然後按一下 **編輯**.
-1. 編輯註解中的資訊 <!--or remove any of the tagged users-->.
+1. 編輯注釋中的資訊，或刪除任何標籤的用戶。
 您可以在15內編輯意見，提交後即可。 更新註解時，會在顯示的日期戳記左側新增「已編輯」指標。
 
    ![](assets/edited-tag-on-comment-unified-commenting.png)
@@ -316,9 +316,13 @@ drafted for P&P release:
    1. 在 **要顯示的文字**，輸入或貼上連結文字。
    1. 按一下&#x200B;**儲存**。
 
-1. （可選）若要將影像附加至更新，請按一下 **影像** 圖示 ![](assets/addimageicon-35x32.png) 並瀏覽到電腦上的影像。\
-   或\
-   將影像拖曳至更新區域。
+1. （可選）若要將影像附加至更新，請根據您使用的環境執行下列其中一項操作：
+
+   * 按一下 **影像** 圖示 ![](assets/addimageicon-35x32.png) 使用目前的更新體驗時，請瀏覽至電腦上的影像，或將影像拖曳至更新區域
+
+   或
+
+   按一下 **添加附件** 圖示 ![](assets/add-image-paperclip-icon.png) 使用備注測試版體驗時，瀏覽至您電腦上的影像。
 
    >[!NOTE]
    >
@@ -384,11 +388,19 @@ drafted for P&P release:
 
    ![](assets/update-stream-comment-menu-marked-350x152.png)
 
-1. 在顯示的訊息中，按一下 **確認** 或 **刪除**，即使用評論測試版體驗時。
+1. 在顯示的訊息中，按一下 **確認** 或按一下 **刪除**，即使用評論測試版體驗時。
 
->[!NOTE]
->
->刪除含有附加影像的更新會刪除註解和影像。
+   >[!NOTE]
+   >
+   >刪除含有附加影像的更新會刪除註解和影像。
+
+   當您刪除的評論有與其關聯的答復時，會顯示該評論已被刪除，其名稱為刪除該評論的用戶。
+
+   ![](assets/removed-comment-indicator-new-experience.png)
+
+   使用評論測試版體驗時，刪除的留言會立即從Workfront中移除。 使用「更新」區段的使用者會即時看到另一個使用者刪除的留言。
+
+   <!--when we remove the beta, take out the first part of the sentence above about only when commenting in beta experience. Leave the rest though-->
 
 ## 在時間表上添加更新
 
