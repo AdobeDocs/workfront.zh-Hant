@@ -3,13 +3,13 @@ title: 23.3版本概觀
 description: 23.3版本概觀
 author: Becky
 feature: Product Announcements
-source-git-commit: c1ea77a65df5922f49e2f52091e54584e8a304e5
+exl-id: 9bf786e2-e077-4504-b928-9091fcb61ec1
+source-git-commit: 3add9b96e2faae0fba2f3b0561271dafd484d281
 workflow-type: tm+mt
-source-wordcount: '452'
+source-wordcount: '701'
 ht-degree: 0%
 
 ---
-
 
 # 23.3版本概觀
 
@@ -27,6 +27,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
 ## Adobe Workfront增強功能
 
 * [敏捷增強功能](#agile-enhancements)
+* [其他增強功能](#other-enhancements)
 
 ### 敏捷增強功能
 
@@ -46,7 +47,61 @@ The <add release> release webinar will be held on <date>. You can [register for 
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-apr-17.md" class="MCXref xref" xrefformat="{para}">展示板電子郵件通知和偏好設定</a><span style="color: #ff0000;"> 預覽新增功能！</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-apr-17.md" class="MCXref xref" xrefformat="{para}">動態展示板範本</a><span style="color: #ff0000;"> 預覽新增功能！</span></p>
+                        <p>獨立展示板現在提供新的範本，即動態展示板。 此範本不適用於工作流內的展示板。</p>
+                    </td>
+                    <td><p><b>可於下列日期使用：</b></p>
+                        <ul>
+                            <li>
+                                <p>預覽版本：2023年4月20日<br /></p>
+                            </li>
+                            <li>
+                                <p><span class="preview">
+                                 <p>提早選擇加入的生產版本：2023年4月27日 <span style="color: #ff0000;"> 只有透過預先選擇加入Workfront展示板的功能，才能在生產環境中使用此功能。</span></p>
+                                <p>所有客戶的生產版本：隨第23.3發行版本一起推出</p></span></p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-apr-17.md" class="MCXref xref" xrefformat="{para}">將敏捷團隊看板卡遷移至展示板</a><span style="color: #ff0000;"> 預覽新增功能！</span></p>
+                        <p>新 <b>新增至展示板</b> 按鈕（在敏捷組看板上）允許您將所有卡從看板板添加到Workfront板。 您可以選擇建立新的Workfront展示板，或將資訊卡新增至現有展示板。</p>
+                    </td>
+                    <td><p><b>可於下列日期使用：</b></p>
+                        <ul>
+                            <li>
+                                <p>預覽版本：2023年4月20日<br /></p>
+                            </li>
+                            <li>
+                                <p><span class="preview">
+                                 <p>提早選擇加入的生產版本：2023年4月27日 <span style="color: #ff0000;"> 只有透過預先選擇加入Workfront展示板的功能，才能在生產環境中使用此功能。</span></p>
+                                <p>所有客戶的生產版本：隨第23.3發行版本一起推出</p></span></p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-apr-17.md" class="MCXref xref" xrefformat="{para}">展示板上的資訊卡詳細資訊新增了左側導覽</a><span style="color: #ff0000;"> 預覽新增功能！</span></p>
+                        <p>隨著Workfront展示板上的資訊卡新增更多欄位選項，資訊卡的詳細資訊會增長更久。 卡片詳細資料左側的新導覽面板可讓您選取區段並自動移至該群組欄位。</p>
+                    </td>
+                    <td><p><b>可於下列日期使用：</b></p>
+                        <ul>
+                            <li>
+                                <p>預覽版本：2023年4月20日<br /></p>
+                            </li>
+                            <li>
+                                <p><span class="preview">
+                                 <p>提早選擇加入的生產版本：2023年4月27日 <span style="color: #ff0000;"> 只有透過預先選擇加入Workfront展示板的功能，才能在生產環境中使用此功能。</span></p>
+                                <p>所有客戶的生產版本：隨第23.3發行版本一起推出</p></span></p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-apr-10.md" class="MCXref xref" xrefformat="{para}">展示板電子郵件通知和偏好設定</a></p>
                         <p>Adobe Workfront展示板現在可使用電子郵件通知。 預設會開啟通知，您可以在偏好設定中選取要接收的電子郵件。 當您新增至展示板，以及指派資訊卡時，您會收到電子郵件。</p>
                     </td>
                     <td><p><b>可於下列日期使用：</b></p>
@@ -82,7 +137,23 @@ The <add release> release webinar will be held on <date>. You can [register for 
                         <p><span class="bold">發行日期</span>
                         </p>
                     </td>
-                </tr>
+                </tr><!--
+                 <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3--apr-17.md" class="MCXref xref" xrefformat="{para}">Profiles without avatars now display user initials</a><span style="color: #ff0000;"> New in Preview!</span></p>
+                        <p>To make it easier to find specific users within large lists, profiles without customized avatars now display the user's initials on a colored background in lists and legacy reports. This is a minor cosmetic change, and does not apply if an avatar photo is already being used or the user is deactivated.</p>
+                    </td>
+                    <td><p><b>Available on these dates:</b></p>
+                        <ul>
+                            <li>
+                                <p>Preview release:&#160;April 20, 2023<br /></p>
+                            </li>
+                            <li>
+                                <p><span class="preview">Production release:&#160;With the 23.3 release</span></p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>-->
                  <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-look-and-feel-updates.md" class="MCXref xref" xrefformat="{para}">23.3版本期間的外觀更新</a></p>
@@ -106,7 +177,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
 
 ### Workfront Fusion增強功能
 
-此版本中目前沒有Workfront Fusion更新。 當有更新時，此區域將會更新。
+Workfront Fusion的新功能可在生產環境中，於23.3版發行排程外的順序提供。 如需最新功能的詳細資訊，請參閱 [Adobe Workfront Fusion發行活動](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
 
 ### Workfront方案規劃器增強功能
 
