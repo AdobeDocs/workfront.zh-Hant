@@ -6,9 +6,9 @@ description: 您可以從Adobe Marketplace安裝Workfront for Creative Cloud外�
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: f4fbae93-b54b-4d08-82c3-72a9a760c317
-source-git-commit: a9ec2952e6a4f7097ed08b10c06d1b8a0b144055
+source-git-commit: 15307cd34aa0787579a1cb26e0b165222d8d8502
 workflow-type: tm+mt
-source-wordcount: '512'
+source-wordcount: '534'
 ht-degree: 1%
 
 ---
@@ -68,11 +68,13 @@ ht-degree: 1%
 
 ## 安裝 [!DNL Adobe Workfront for design and video] 外掛程式
 
->[!TIP]
->
->如果您是 [!DNL Adobe Admin Console] 管理員，您可以在 [!DNL Creative Cloud] 部署包。 如需詳細資訊，請參閱 [在套件中加入外掛程式](https://helpx.adobe.com/in/enterprise/using/manage-extensions.html).
+如果您是 [!DNL Adobe Admin Console] 管理員，您可以在 [!DNL Creative Cloud] 部署包。 如需詳細資訊，請參閱 [在套件中加入外掛程式](https://helpx.adobe.com/in/enterprise/using/manage-extensions.html).
 
-若要安裝 [!DNL Adobe Workfront for design and video] 外掛程式：
+[在這裡檢視教學課程影片](https://www.youtube.com/watch?v=zzvXNLIBzrc){target=_blank}.
+
+## 安裝 [!DNL Adobe Workfront for design and video] 個別地
+
+您可以安裝 [!DNL Adobe Workfront for design and video] 外掛程式 [!DNL Adobe Exchange].
 
 1. 前往 [Adobe Workfront for Design and Video安裝頁面](https://adobe.com/go/cc_plugins_discover_plugin?pluginId=108938&amp;workflow=share) 在Adobe交易。
 1. 在顯示的對話方塊中，按一下 **開啟 [!DNL Adobe Creative Cloud] 案頭應用程式**.
