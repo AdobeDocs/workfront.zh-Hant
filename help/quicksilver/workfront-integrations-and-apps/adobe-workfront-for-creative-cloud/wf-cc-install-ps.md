@@ -6,9 +6,9 @@ description: 您可以從Marketplace安裝Adobe Workfront for Photoshop外掛程
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: f5e9f121-a711-4b75-8564-54f29c5cfa48
-source-git-commit: a9ec2952e6a4f7097ed08b10c06d1b8a0b144055
+source-git-commit: 15307cd34aa0787579a1cb26e0b165222d8d8502
 workflow-type: tm+mt
-source-wordcount: '465'
+source-wordcount: '491'
 ht-degree: 1%
 
 ---
@@ -59,10 +59,13 @@ ht-degree: 1%
 
 ## 安裝 [!DNL Adobe Workfront for Photoshop] 外掛程式
 
->[!TIP]
->
->如果您是 [!DNL Adobe Admin Console] 管理員，您可以在 [!DNL Creative Cloud] 部署包。 如需詳細資訊，請參閱 [在套件中加入外掛程式](https://helpx.adobe.com/in/enterprise/using/manage-extensions.html).
+如果您是 [!DNL Adobe Admin Console] 管理員，您可以在 [!DNL Creative Cloud] 部署包。 如需詳細資訊，請參閱 [在套件中加入外掛程式](https://helpx.adobe.com/in/enterprise/using/manage-extensions.html).
 
+[在這裡檢視教學課程影片](https://www.youtube.com/watch?v=zzvXNLIBzrc){target=_blank}.
+
+## 安裝 [!DNL Adobe Workfront for Photoshop] 個別地
+
+您可以安裝 [!DNL Adobe Workfront for Photoshop] 外掛程式 [!DNL Adobe Exchange].
 
 1. 前往 [Adobe Workfront for Photoshop安裝頁面](https://adobe.com/go/cc_plugins_discover_plugin?pluginId=37722a55&amp;workflow=share) 在Adobe交易。
 1. 在顯示的對話方塊中，按一下 **開啟 [!DNL Adobe Creative Cloud] 案頭應用程式**.
