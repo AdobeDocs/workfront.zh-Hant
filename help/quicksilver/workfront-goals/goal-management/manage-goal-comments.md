@@ -6,9 +6,9 @@ description: 您可以在Adobe Workfront目標中新增評論至您可檢視的�
 author: Alina
 feature: Workfront Goals
 exl-id: 6cf2d2d2-5ba5-40f2-a803-01359c338541
-source-git-commit: e148126102d30ef061a89edae83980ebe81e9810
+source-git-commit: 607e0523cf97fdf26b650dc441e52b4ae4528af4
 workflow-type: tm+mt
-source-wordcount: '786'
+source-wordcount: '870'
 ht-degree: 0%
 
 ---
@@ -137,11 +137,29 @@ ht-degree: 0%
 
    >[!TIP]
    >
-   >在您完成輸入並提交注釋之前，從「更新」部分導航離開該頁面，即使您註銷並重新登錄後，該頁面上的注釋仍以草稿模式保留。 起草的注釋只對輸入它們的用戶可見。
+   >在您完成輸入並提交注釋之前，從「更新」部分導航離開該頁面，即使您註銷並重新登錄後，該頁面上的注釋仍以草稿模式保留。 添加到注釋的任何影像也保存在草稿中。 草稿會儲存7天，之後會捨棄，且無法復原。 起草的注釋只對輸入它們的用戶可見。
 
+1. （可選）若要將RTF格式新增至更新，請使用RTF工具列或其旁邊的圖示上的任何選項，建立超連結或影像。 如需詳細資訊，請參閱 [更新工作](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 1. （選用）在 **標籤人員或團隊** 區域中，開始鍵入用戶的名稱或電子郵件，或要包含在此注釋中的團隊，然後在清單中顯示時選擇它。
+1. 選取 **對我的公司私有** 切換，讓留言只對您公司中的人員顯示。
+
+   >[!TIP]
+   >
+   >您必須在設定檔中指定公司，才能在「更新」區域中使用此選項。
+
+1. 按一下 **提交**.
+
+   >[!TIP]
+   >
+   >如果其他用戶將評論提交到您正在更新的相同項目，則會有一條紅線，帶有「New」指示器，通知您更新的評論。
+   >
+   >只有在對項目提交評論後，才會顯示指標，而不是在仍在撰寫評論時顯示。
+   >
+   >只有輸入新更新的使用者和目前輸入更新的使用者都使用新的註解體驗時，才會顯示「新」指標。
+   >![](assets/real-time-new-red-indicator-unified-commenting.png)
+
 1. （選用）若要編輯留言，請按一下 **更多** 功能表 ![](assets/more-icon.png) 在「贊」圖示的右側，然後按一下 **編輯**.
-1. 編輯注釋中的資訊&lt;<!--, or remove any of the tagged users-->.
+1. 編輯注釋中的資訊，或刪除任何標籤的用戶。
 您可以在15內編輯意見，提交後即可。 更新註解時，會在顯示的日期戳記左側新增「已編輯」指標。
 
    ![](assets/edited-tag-on-comment-unified-commenting.png)
@@ -157,18 +175,7 @@ ht-degree: 0%
 
          如需詳細資訊，請參閱 [更新工作](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
-1. 按一下 **提交**.
-
-   >[!TIP]
-   >
-   >如果其他用戶將評論提交到您正在更新的相同項目，則會有一條紅線，帶有「New」指示器，通知您更新的評論。
-   >
-   >只有在對項目提交評論後，才會顯示指標，而不是在仍在撰寫評論時顯示。
-   >
-   >只有輸入新更新的使用者和目前輸入更新的使用者都使用新的註解體驗時，才會顯示「新」指標。
-   >![](assets/real-time-new-red-indicator-unified-commenting.png)
-
-1. （選用）按一下 **更多** 功能表 ![](assets/more-icon.png) 按一下備注的右側 **刪除** 刪除添加的注釋。
+1. （選用）按一下 **更多** 功能表 ![](assets/more-icon.png) 按一下備注的右側 **刪除** 刪除添加的注釋。 如需詳細資訊，請參閱 [更新工作](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 1. （選用）按一下 **回覆** 若要回覆現有意見，請遵循上述步驟5至9。 <!--insure this stays accurate-->
 1. （條件式和選用式）如果其他使用者已新增備注，顯示在「更新」區段的可見區域之外，請按一下 **檢視** 藍色 **新留言橫幅** 顯示這些註解。
 
@@ -176,7 +183,7 @@ ht-degree: 0%
 
    螢幕底部會顯示其他注釋。
 1. （選用）按一下 **贊** 圖示![](assets/like-icon.png) 喜歡別人加的評論。 圖示會隨按贊次數更新。
-1. （可選）若要將RTF格式新增至更新，請在輸入時使用RTF工具列上的任何屬性。 如需詳細資訊，請參閱 [更新工作](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+
 1. （選用）按一下 **系統活動** 頁簽查看系統記錄的更新。 更新目標時，Workfront會產生有關該更新的附註，並在「系統活動」索引標籤中顯示。 Workfront也會在結果、活動或專案新增至目標或更新時記錄系統更新。 <!--ensure the casing on the tab has not changed-->
 
 <!--BELOW IS OLD, ATIIM/ WORKFRONT GOALS INFORMATION ABOUT COMMENTS: 
