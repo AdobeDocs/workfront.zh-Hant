@@ -7,9 +7,9 @@ description: 您可以選擇將取用欄新增至展示板，根據您定義的�
 author: Lisa
 feature: Agile
 exl-id: 4991f4f7-6f3d-4e15-ae8d-96433ed46557
-source-git-commit: 622a1c48af8612e32ff8aa23971d55aff26eea48
+source-git-commit: 81d68656c5dc4811884cde53193139856f290f4d
 workflow-type: tm+mt
-source-wordcount: '746'
+source-wordcount: '756'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,8 @@ ht-degree: 0%
 您可以選擇在展示板中新增進入欄，以在新增任務和問題時，自動提取連線卡 [!DNL Workfront]，根據您定義的篩選器。 進貨欄可以用作看板小組的積壓欄、支援小組查看問題在添加到請求隊列時的進貨位置，或您需要的任何其他用途。
 
 展示板上只允許使用一個進入欄，且一律顯示為最左側的欄。
+
+進氣柱在動態板上不可用。
 
 入職人數限制為300項任務和300項問題。 它們會依項目上定義的優先順序排序。 如需優先順序的相關資訊，請參閱 [更新任務優先順序](/help/quicksilver/manage-work/tasks/task-information/task-priority.md) 和 [更新問題優先順序](/help/quicksilver/manage-work/issues/issue-information/update-issue-priority.md).
 
