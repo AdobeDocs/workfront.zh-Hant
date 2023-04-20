@@ -1,7 +1,7 @@
 ---
-source-git-commit: c3c19f1913d5bab233a0d218ba87c69dead82215
+source-git-commit: e990b521c20a5bad973c62cbd239e96aca09919b
 workflow-type: tm+mt
-source-wordcount: '1548'
+source-wordcount: '1538'
 ht-degree: 0%
 
 ---
@@ -138,83 +138,82 @@ ht-degree: 0%
 
 ## 調整自動校樣設定 {#adjust-proof-settings}
 
-1. （可選）調整自動校樣設定
+1. （可選）調整自動校樣工作流程設定
 
    <table>
-   <tr>
-      <td colspan="2" ><strong>證明階段</strong>
-      </td>
-   </tr>
-   <tr>
-      <td>禁用階段
-      </td>
-      <td>
-   <ol>
+      <tr>
+         <td colspan="2" ><strong>證明階段</strong>
+         </td>
+      </tr>
+      <tr>
+         <td>禁用階段
+         </td>
+         <td>
+      <ol>
 
    <li>切換「全選」以禁用所有階段。 
-   <p>或</p></li>
-   <li>切換個別階段。</li>
+      <p>或</p></li>
+      <li>切換個別階段。</li>
 
    </ol>
-      </td>
-   </tr>
-   <tr>
-      <td>新增收件者
-      </td>
-      <td>
-   <ol>
+         </td>
+      </tr>
+      <tr>
+         <td>新增收件者
+         </td>
+         <td>
+      <ol>
 
    <li>在「新增收件者」方塊中，開始輸入使用者的名稱。
-
-   注意：您無法透過外掛程式的電子郵件新增外部收件者。
 
    <li>指定校樣角色。
 
    <li>選擇收件者的電子郵件警報類型。 
-   </li>
-   </ol>
-      </td>
-   </tr>
-   <tr>
-      <td>設定截止日期
-      </td>
-      <td>
-   <ol>
+      </li>
+      </ol>
+         </td>
+      </tr>
+      <tr>
+         <td>設定截止日期
+         </td>
+         <td>
+      <ol>
 
    <li>選擇截止日。
-   </li>
-   </ol>
-      </td>
-   </tr>
-   <tr>
-      <td colspan="2" ><strong>電子郵件通知</strong>
-      </td>
-   </tr>
-   <tr>
-      <td>將校樣通知收件者
-      </td>
-      <td>
-   <ol>
+      </li>
+      </ol>
+         </td>
+      </tr>
+      <tr>
+         <td colspan="2" ><strong>電子郵件通知</strong>
+         </td>
+      </tr>
+      <tr>
+         <td>將校樣通知收件者
+         </td>
+         <td>
+      <ol>
 
    <li>啟用核取方塊，即可在建立校樣時通知使用者。
-   </li>
-   </ol>
-      </td>
-   </tr>
-   <tr>
-      <td>新增自訂訊息
-      </td>
-      <td>
-   <ol>
+      </li>
+      </ol>
+         </td>
+      </tr>
+      <tr>
+         <td>新增自訂訊息
+         </td>
+         <td>
+      <ol>
 
    <li>輸入主旨。
 
    <li>輸入自訂訊息。
-   </li>
-   </ol>
-      </td>
-   </tr>
-   </table>
+      </li>
+      </ol>
+         </td>
+      </tr>
+      </table>
+
 
 
 

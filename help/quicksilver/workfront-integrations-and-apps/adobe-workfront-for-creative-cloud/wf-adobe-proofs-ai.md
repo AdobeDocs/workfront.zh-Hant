@@ -5,13 +5,13 @@ title: 從Illustrator上傳校樣
 description: 您可以上傳您的藝術展示板作為檔案，以快速檢閱和核准，或只是儲存在Adobe Workfront。
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
-source-git-commit: 9330ba5e5f828738a8726a3641f39a9b279d2ed0
+exl-id: e98f27d4-7c07-44cc-8df5-e04472ec946e
+source-git-commit: 9684dff5ea84ffbfc28c49271c2382e6bd0adb27
 workflow-type: tm+mt
 source-wordcount: '634'
 ht-degree: 0%
 
 ---
-
 
 # 上傳校樣來自 [!DNL Illustrator]
 
@@ -99,9 +99,9 @@ ht-degree: 0%
 
 1. 在 **[!UICONTROL 校樣核准]** 部分，選擇 **[!UICONTROL 自動]**.
 1. （選用）在 **[!UICONTROL 工作流程範本]** 框中，鍵入校樣工作流模板的名稱。
-
+<!--
 {{adjust-proof-settings}}
-
+-->
 1. （選用）在 **[!UICONTROL 更新]** 的上界。
 
    ![](assets/copy-of-proof-approvals-advanced-350x424.png) <!-- new screenshot -->
