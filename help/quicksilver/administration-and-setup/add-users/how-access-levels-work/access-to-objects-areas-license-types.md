@@ -3,19 +3,20 @@ user-type: administrator
 content-type: reference
 product-area: system-administration
 navigation-topic: access-levels
-title: 按許可證類型訪問對象和區域
+title: 通過新許可證訪問對象和區域
 description: 下表告訴您每個Adobe Workfront授權都允許使用Workfront中的物件和區域的最高存取層級（編輯或檢視）。
 author: Courtney
 feature: System Setup and Administration
 role: Admin
-source-git-commit: 0e690cf9cd6351ee89e32b8f1625e8493aa0ad4b
+exl-id: 87fb5673-6e36-4182-958a-d69a56fe7b68
+source-git-commit: df73ba291f0a0ab6492e6fabfb6de578ba7e1f1b
 workflow-type: tm+mt
-source-wordcount: '397'
+source-wordcount: '399'
 ht-degree: 17%
 
 ---
 
-# 按許可證類型訪問對象和區域
+# 通過新許可證訪問對象和區域
 
 下表告訴您每個Adobe Workfront授權都允許使用Workfront中的物件和區域的最高存取層級（編輯或檢視）。
 

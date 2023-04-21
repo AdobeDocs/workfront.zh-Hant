@@ -3,22 +3,22 @@ user-type: administrator
 content-type: reference
 product-area: system-administration
 navigation-topic: access-levels
-title: 按許可證類型對對象和區域的舊版訪問
-description: 下表告訴您每個Adobe Workfront舊版授權都允許使用Workfront中的物件和區域的最高存取層級（編輯或檢視）。
+title: 按許可證類型訪問對象和區域
+description: 下表告訴您每個Adobe Workfront授權都允許使用Workfront中的物件和區域的最高存取層級（編輯或檢視）。
 author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: d8f2a295-c053-4763-bf6e-6e836087a839
-source-git-commit: e3211ac5801c1318978427bc0a48d9b3a3028984
+source-git-commit: 4644edd2aac8c77508e940ec42c597aa702c4df1
 workflow-type: tm+mt
-source-wordcount: '436'
+source-wordcount: '430'
 ht-degree: 19%
 
 ---
 
-# 按許可證類型對對象和區域的舊版訪問
+# 按許可證類型訪問對象和區域
 
-下表告訴您每個Adobe Workfront授權都允許使用Workfront中的物件和區域，舊版存取的最高層級（編輯或檢視）。
+下表告訴您每個Adobe Workfront授權都允許使用Workfront中的物件和區域的最高存取層級（編輯或檢視）。
 
 * **檢視**:使用者可以檢閱和共用項目。
 * **編輯**:使用者可以建立、編輯、刪除和共用項目。
@@ -49,11 +49,11 @@ ht-degree: 19%
 
 >[!NOTE]
 >
->擁有審核許可證或請求許可證的用戶的共用功能有限。 如需詳細資訊，請參閱 [Adobe Workfront授權概觀](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md) 或 [Adobe Workfront舊版授權概觀](../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md).
+>擁有審核許可證或請求許可證的用戶的共用功能有限。 如需詳細資訊，請參閱 [Adobe Workfront授權概觀](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md) 或 [Adobe Workfront授權概觀](../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md).
 >
 >外部使用者無法在Workfront中搜尋項目。 他們可以查看專門與他們共用的文檔和日曆。 他們也可以看到與他們共用項目的使用者。
 
-您可以在下列文章中找到關於舊版存取層級允許每個物件和區域的詳細資訊：
+您可以在下列文章中找到存取層級對每個物件和區域允許的詳細資訊：
 
 * [授予專案的存取權](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md)
 * [授予任務的存取權](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-tasks.md)

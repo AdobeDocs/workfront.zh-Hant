@@ -2,9 +2,9 @@
 user-guide-title: Workfront 指南
 user-guide-description: 使用文件、教學課程和其他資源，了解如何在您的組織中實施並有效使用 Adobe Workfront。
 feature-set: Workfront
-source-git-commit: 9f704ee45ce5d9d37e769dca3eb45d1c81065900
+source-git-commit: 09f55c5ea7f7bc37886ec1bc2fa41ecb5b6b02b0
 workflow-type: tm+mt
-source-wordcount: '12919'
+source-wordcount: '12923'
 ht-degree: 1%
 
 ---
@@ -417,22 +417,22 @@ ht-degree: 1%
          * [查看和導出審核日誌](administration-and-setup/add-users/create-and-manage-users/view-and-export-audit-logs.md)
          * [查看用戶登錄資訊](administration-and-setup/add-users/create-and-manage-users/view-user-login-info.md)
          * [Adobe Admin Console](administration-and-setup/add-users/create-and-manage-users/admin-console.md)
-      * 存取層級如何運作 {#access-levels}
-         * [存取層級如何運作](administration-and-setup/add-users/how-access-levels-work/access-levels-toc.md)
-         * [存取層級概觀](administration-and-setup/add-users/how-access-levels-work/access-level-overview.md)
-         * [授權概觀](administration-and-setup/add-users/how-access-levels-work/licenses-overview.md)
-         * [按許可證類型訪問對象和區域](administration-and-setup/add-users/how-access-levels-work/access-to-objects-areas-license-types.md)
-         * [每種物件類型皆可使用的功能](administration-and-setup/add-users/how-access-levels-work/functionality-available-for-objects.md)
-      * 舊版存取層級如何運作 {#legacy-access-levels}
-         * [如何存取舊版層級](administration-and-setup/add-users/access-levels-and-object-permissions/access-levels.md)
-         * [舊版存取層級概觀](administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md)
-         * [舊版授權概觀](administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md)
-         * [舊版存取層級和權限](administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md)
-         * [按許可證類型對對象的舊版訪問](administration-and-setup/add-users/access-levels-and-object-permissions/access-to-objects-and-areas-by-license-type.md)
+      * 新訪問級別如何工作 {#access-levels}
+         * [新訪問級別如何工作](administration-and-setup/add-users/how-access-levels-work/access-levels-toc.md)
+         * [新訪問級別概述](administration-and-setup/add-users/how-access-levels-work/access-level-overview.md)
+         * [新許可證概述](administration-and-setup/add-users/how-access-levels-work/licenses-overview.md)
+         * [通過新許可證訪問對象和區域](administration-and-setup/add-users/how-access-levels-work/access-to-objects-areas-license-types.md)
+         * [適用於新訪問級別的每個對象類型的功能](administration-and-setup/add-users/how-access-levels-work/functionality-available-for-objects.md)
+      * 存取層級如何運作 {#legacy-access-levels}
+         * [存取層級如何運作](administration-and-setup/add-users/access-levels-and-object-permissions/access-levels.md)
+         * [存取概述](administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md)
+         * [授權概觀](administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md)
+         * [存取層級與權限](administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md)
+         * [按許可證類型訪問對象和區域](administration-and-setup/add-users/access-levels-and-object-permissions/access-to-objects-and-areas-by-license-type.md)
          * [每種物件類型的功能](administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md)
-         * [可為每個對象類型配置的舊式訪問](administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md)
-         * [內置的舊式訪問級別](administration-and-setup/add-users/access-levels-and-object-permissions/default-access-levels-in-workfront.md)
-         * [列出使用者的舊版存取層級和授權](administration-and-setup/add-users/access-levels-and-object-permissions/list-access-levels-and-licenses-for-your-users.md)
+         * [每種對象類型的可配置訪問](administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md)
+         * [內置訪問級別](administration-and-setup/add-users/access-levels-and-object-permissions/default-access-levels-in-workfront.md)
+         * [列出用戶的訪問級別和許可](administration-and-setup/add-users/access-levels-and-object-permissions/list-access-levels-and-licenses-for-your-users.md)
       * 設定Workfront的存取權 {#configure-access}
          * [配置訪問](administration-and-setup/add-users/configure-and-grant-access/configure-access.md)
          * [建立或修改自訂存取層級](administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)
@@ -1820,7 +1820,7 @@ ht-degree: 1%
          * [常見問題集：Adobe Workfront內部測試 — 美國至EMEA遷移](review-and-approve-work/proofing/tips-tricks-and-troubleshooting/faq-proofing-in-wf-us-to-emea-migration.md)
    * 核准的提示、秘訣和疑難排解 {#ttt-approvals}
       * [核准的提示、秘訣和疑難排解](review-and-approve-work/tips-tricks-troubleshooting-approvals/tips-tricks-troubleshooting-approvals.md)
-      * [查看所有用戶的決策數](review-and-approve-work/tips-tricks-troubleshooting-approvals/view-number-of-decisions-for-users.md)
+      * [查看所有用戶的校樣和文檔決策數](review-and-approve-work/tips-tricks-troubleshooting-approvals/view-number-of-decisions-for-users.md)
 * 時程表 {#timesheets}
    * [時程表](timesheets/timesheets-all.md)
    * 時間表詳細資訊 {#details}

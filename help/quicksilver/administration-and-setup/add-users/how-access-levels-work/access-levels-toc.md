@@ -1,26 +1,27 @@
 ---
-title: 存取層級如何運作
+title: 新訪問級別如何工作
 content-type: administrator
 product-area: system-administration
 navigation-topic: add-users-to-workfront
-description: 作為Adobe Workfront管理員，您可以通過為對象分配訪問級別來授予用戶對查看或編輯對象的訪問權限。 以下文章說明存取層級的運作方式。
+description: 作為Adobe Workfront管理員，您可以通過為對象分配訪問級別來授予用戶對查看或編輯對象的訪問權限。 以下文章說明新的存取層級如何運作。
 author: Courtney
 feature: System Setup and Administration
 role: Admin
-source-git-commit: 1bd454246419e199e5cfd0d8d1d73cd30c0b13b1
+exl-id: 05f575d0-bf42-430b-8648-dbdd9297ca08
+source-git-commit: 4644edd2aac8c77508e940ec42c597aa702c4df1
 workflow-type: tm+mt
-source-wordcount: '127'
+source-wordcount: '134'
 ht-degree: 0%
 
 ---
 
-# 存取層級如何運作
+# 新訪問級別如何工作
 
-作為Adobe Workfront管理員，您可以通過為對象分配訪問級別來授予用戶對查看或編輯對象的訪問權限。 以下文章說明存取層級的運作方式。
+作為Adobe Workfront管理員，您可以通過為對象分配訪問級別來授予用戶對查看或編輯對象的訪問權限。 以下文章說明新的存取層級如何運作。
 
-* [存取層級概觀](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md)
-* [授權概觀](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md)
-* [按許可證類型訪問對象和區域](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-to-objects-areas-license-types.md)
+* [新訪問級別概述](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md)
+* [新許可證概述](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md)
+* [通過新許可證訪問對象和區域](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-to-objects-areas-license-types.md)
 * [每種物件類型皆可使用的功能](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/functionality-available-for-objects.md) <!--need to change name here or in legacy article -->
 
 ## 另請參閱

@@ -1,26 +1,26 @@
 ---
-title: 可針對每種對象類型配置對功能的舊版訪問
-description: 本文說明在每個舊版存取層級中，可允許以Adobe Workfront管理員身分管理每個物件類型。 它也說明每種舊式存取層級的預設設定。
+title: 可針對每個對象類型配置對功能的訪問
+description: 本文說明在每個存取層級中，您可以允許以Adobe Workfront管理員身分使用各種物件類型。 它還說明了每種訪問級別類型的預設配置。
 author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: 94e0b205-140c-41c9-bb5a-f89b4c3aaea0
-source-git-commit: e3211ac5801c1318978427bc0a48d9b3a3028984
+source-git-commit: df73ba291f0a0ab6492e6fabfb6de578ba7e1f1b
 workflow-type: tm+mt
-source-wordcount: '3456'
+source-wordcount: '3435'
 ht-degree: 10%
 
 ---
 
-# 可針對每種對象類型配置對功能的舊版訪問
+# 可針對每個對象類型配置對功能的訪問
 
-本文說明在每個舊版存取層級中，可允許以Adobe Workfront管理員身分管理每個物件類型。 它也說明每種舊式存取層級的預設設定。
+本文說明在每個存取層級中，您可以允許以Adobe Workfront管理員身分使用各種物件類型。 它還說明了每種訪問級別類型的預設配置。
 
 有關每個訪問級別中對象類型可用的所有功能的資訊，請參見 [每種物件類型皆可使用的功能](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md).
 
 ## 專案
 
-在每個舊版存取層級中，您可以為專案設定下列選項：
+在每個存取層級中，您可以為專案設定下列選項：
 
 <table style="table-layout:auto"> 
  <col> 
@@ -83,7 +83,7 @@ ht-degree: 10%
 
 ## 任務
 
-在每個舊版存取層級中，您可以為任務配置下列選項：
+在每個訪問級別中，可以為任務配置以下選項：
 
 <table style="table-layout:auto"> 
  <col> 
@@ -149,7 +149,7 @@ ht-degree: 10%
 
 ## 問題
 
-在每個舊版存取層級中，您都可以針對問題設定下列選項：
+在每個存取層級中，您可以針對問題設定下列選項：
 
 <table style="table-layout:auto"> 
  <col> 
@@ -227,7 +227,7 @@ ht-degree: 10%
 
 ## 專案組合
 
-在每個舊版存取層級中，您可以為產品組合設定下列選項：
+在每個存取層級中，您可以為產品組合設定下列選項：
 
 <table style="table-layout:auto"> 
  <col> 
@@ -283,7 +283,7 @@ ht-degree: 10%
 
 ## 計劃
 
-在每個舊版存取層級中，您可以為程式配置下列選項：
+在每個訪問級別中，可以為程式配置以下選項：
 
 <table style="table-layout:auto"> 
  <col> 
@@ -339,7 +339,7 @@ ht-degree: 10%
 
 ## 報表、控制面板和日曆
 
-在每個舊版存取層級中，您可以為報表、控制面板和日曆設定下列選項：
+在每個存取層級中，您可以為報表、控制面板和日曆設定下列選項：
 
 <table style="table-layout:auto"> 
  <col> 
@@ -413,7 +413,7 @@ ht-degree: 10%
 
 ## 篩選器、檢視和群組
 
-在每個舊版存取層級中，您可以針對篩選器、檢視和群組設定下列選項：
+在每個存取層級中，您可以針對篩選器、檢視和群組設定下列選項：
 
 <table style="table-layout:auto"> 
  <col> 
@@ -490,7 +490,7 @@ ht-degree: 10%
 
 ## 文件
 
-在每個舊版訪問級別中，可為文檔配置以下選項：
+在每個訪問級別中，可以為文檔配置以下選項：
 
 <table style="table-layout:auto"> 
  <col> 
@@ -573,7 +573,7 @@ ht-degree: 10%
 
 ## 使用者
 
-在每個舊版存取層級中，您可以為使用者設定下列選項：
+在每個存取層級中，您可以為使用者設定下列選項：
 
 <table style="table-layout:auto"> 
  <col> 
@@ -629,7 +629,7 @@ ht-degree: 10%
 
 ## 團隊
 
-在每個舊版存取層級中，您可以為團隊設定下列選項：
+在每個存取層級中，您可以為團隊設定下列選項：
 
 <table style="table-layout:auto"> 
  <col> 
@@ -711,7 +711,7 @@ ht-degree: 10%
 
 ## 範本
 
-在每個舊版存取層級中，您可以為範本設定下列選項：
+在每個存取層級中，您可以為範本設定下列選項：
 
 <table style="table-layout:auto"> 
  <col> 
@@ -768,7 +768,7 @@ ht-degree: 10%
 
 ## 財務資料
 
-在每個舊版存取層級中，您可以為金融資料設定下列選項：
+在每個存取層級中，您可以為財務資料設定下列選項：
 
 <table style="table-layout:auto"> 
  <col> 
@@ -833,7 +833,7 @@ ht-degree: 10%
 
 ## 資源管理
 
-在每個舊式訪問級別中，可以為資源管理配置以下選項：
+在每個訪問級別中，可以為資源管理配置以下選項：
 
 <table style="table-layout:auto"> 
  <col> 
@@ -891,7 +891,7 @@ ht-degree: 10%
 
 ## 方案計畫員區域
 
-所有舊版存取層級的預設設定為「無存取權」。 Workfront管理員可將此更改為查看或編輯任何計畫員、員工和審核者訪問級別的訪問權限。
+所有訪問級別的預設設定為「無訪問」。 Workfront管理員可將此更改為查看或編輯任何計畫員、員工和審核者訪問級別的訪問權限。
 
 <!--
 DRAFTED IN FLARE:
@@ -905,6 +905,6 @@ Alina says: This will change overtime for some of the access levels, but right n
 
 ## Workfront目標區
 
-所有6個預設舊版存取層級（以及所有4個授權類型）都可以編輯和檢視Workfront目標。
+所有6個預設存取層級（以及所有4個授權類型）都可以編輯和檢視Workfront目標。
 
 預設選項為編輯。

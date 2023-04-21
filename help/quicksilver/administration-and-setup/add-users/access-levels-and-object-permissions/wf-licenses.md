@@ -1,5 +1,5 @@
 ---
-title: 舊版授權概觀
+title: 授權概觀
 user-type: administrator
 content-type: reference
 product-area: system-administration
@@ -10,26 +10,26 @@ author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: 7f30e2d8-f5c3-4811-b780-49a2b0d058e7
-source-git-commit: 6a62398de46f23701ee663b9effd074ae6b2dd35
+source-git-commit: df73ba291f0a0ab6492e6fabfb6de578ba7e1f1b
 workflow-type: tm+mt
-source-wordcount: '361'
+source-wordcount: '347'
 ht-degree: 2%
 
 ---
 
-# 舊版授權概觀
+# 授權概觀
 
-貴組織購買Adobe Workfront時，已購買特定數量的舊版授權。 身為Workfront管理員，當您為使用者指派存取層級時，請將4種付費Workfront舊版授權之一指派給每位使用者。
+貴組織購買Adobe Workfront時，已購買特定數量的授權。 身為Workfront管理員，當您為使用者指派存取層級時，請將4種付費Workfront授權之一指派給該使用者。
 
-## 舊版許可證和舊版訪問級別的聯繫方式
+## 許可證和訪問級別如何聯繫在一起
 
-4種付費Workfront舊版授權可允許不同層級的Workfront存取。 每個舊式訪問級別都附加到其中一個舊式許可證。
+4種付費Workfront授權可允許不同層級的Workfront存取。 每個訪問級別都連接到其中一個許可證。
 
-身為Workfront管理員，您不必為使用者指派舊版授權，而是指派附加至舊版授權的舊版存取層級。
+身為Workfront管理員，您不必為使用者指派授權，而是為使用者指派附加至該授權的存取層級。
 
 此表格和圖表顯示存取Workfront的主要層級：
 
-| 舊版授權 | 關聯的舊版訪問級別 |
+| 授權 | 關聯的訪問級別 |
 |--- |--- |
 | 計劃 | 系統管理員、計畫員 |
 | 工作 | 工作者 |

@@ -6,9 +6,9 @@ navigation-topic: configure-proofing-functionality
 title: 設定是否自動產生校樣
 description: 您可以設定當使用者指定將檔案新增至Workfront時，系統是否會自動產生校樣。 預設會停用此設定。
 author: Courtney
-source-git-commit: 5469598d57fec1a744ddb44cf2accb94e1f70941
+source-git-commit: 62d1b9563d83bd82b569e143f69e379e2f4ffbc2
 workflow-type: tm+mt
-source-wordcount: '234'
+source-wordcount: '233'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ ht-degree: 0%
    <td>任何</td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">舊版授權概觀</a>*</td> 
+   <td role="rowheader"><a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">授權概觀</a>*</td> 
    <td>計劃</td> 
   </tr> 
   <tr> 

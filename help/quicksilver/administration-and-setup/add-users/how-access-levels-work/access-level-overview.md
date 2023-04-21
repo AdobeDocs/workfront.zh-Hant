@@ -1,5 +1,5 @@
 ---
-title: 存取層級概觀
+title: 新訪問級別概述
 user-type: administrator
 content-type: reference
 product-area: system-administration
@@ -9,23 +9,24 @@ description: 每個使用者都必須有存取層級才能登入並在Workfront�
 author: Courtney
 feature: System Setup and Administration
 role: Admin
-source-git-commit: 5baf629b368649ec07a789ea8970ed70ea750d68
+exl-id: d297d8a4-5a4e-418f-983a-19545aeb0668
+source-git-commit: 4af7a72a3633f1b669cbc681f230727cc4f54d1e
 workflow-type: tm+mt
-source-wordcount: '1622'
+source-wordcount: '1626'
 ht-degree: 4%
 
 ---
 
-# 存取層級概觀
+# 新訪問級別概述
 
 身為Adobe Workfront管理員，您可為使用者指派存取層級，目的有2種：
 
 * 每個使用者都必須有存取層級才能登入並在Workfront中運作。
 * 您可以使用存取層級來控制使用者可以看到哪些內容，以及如何處理特定Workfront物件和區域。
 
-## Adobe Workfront中的內建存取層級 {#built-in-access}
+## Adobe Workfront中新的內建存取層級 {#built-in-access}
 
-Workfront有6個內建存取層級：
+Workfront有6個新的內建存取層級：
 
 * 系統管理員
 * 標準

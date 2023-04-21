@@ -6,7 +6,7 @@ description: 您可以共用或移除您所建立物件或已共用給您的物�
 author: Alina
 feature: Get Started with Workfront
 exl-id: 7c14702e-ac55-4266-88a7-f31618f84218
-source-git-commit: e3211ac5801c1318978427bc0a48d9b3a3028984
+source-git-commit: 4644edd2aac8c77508e940ec42c597aa702c4df1
 workflow-type: tm+mt
 source-wordcount: '1156'
 ht-degree: 0%
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 您不必是Adobe Workfront管理員，就能共用您有權存取之物件的權限，但物件的權限可在Workfront管理員設定的存取層級內運作。
 
-您可以共用或移除您所建立物件或已共用給您的物件的權限。 當您不是對象的建立者時，除了對對象的「共用」權限之外，還必須對要在訪問級別共用的對象具有「共用」訪問權限。 有關訪問級別的資訊，請參見 [存取層級概觀](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md) 或 [舊版存取層級概觀](../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).
+您可以共用或移除您所建立物件或已共用給您的物件的權限。 當您不是對象的建立者時，除了對對象的「共用」權限之外，還必須對要在訪問級別共用的對象具有「共用」訪問權限。 有關訪問級別的資訊，請參見 [新訪問級別概述](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md) 或 [存取層級概觀](../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).
 
 >[!NOTE]
 >

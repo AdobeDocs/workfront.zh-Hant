@@ -8,9 +8,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: d2a73d24-51d3-42e2-9c09-7f4bc30b2caa
-source-git-commit: 4a7999e6cb46d5b6933f44f1f19ff1979cb68a85
+source-git-commit: 62d1b9563d83bd82b569e143f69e379e2f4ffbc2
 workflow-type: tm+mt
-source-wordcount: '1405'
+source-wordcount: '1402'
 ht-degree: 6%
 
 ---
@@ -21,8 +21,8 @@ ht-degree: 6%
 
 身為Adobe Workfront管理員，您可以建立自訂存取層級並將其套用至使用者。 在使用訪問級別時，必須了解它們如何與用戶在彼此共用對象時授予的對象權限一起工作。 有關訪問級別的詳細資訊，請參閱
 
-* [存取層級概觀](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md)
-* [舊版存取層級概觀](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).
+* [新訪問級別概述](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md)
+* [存取層級概觀](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).
 
 >[!IMPORTANT]
 >
@@ -80,7 +80,7 @@ ht-degree: 6%
      </tr> 
      <tr> 
       <td role="rowheader">授權類型</td> 
-      <td>請確保此處選擇的許可證與您正在建立或編輯的訪問級別類型最密切相關。 所選許可證決定了哪些設定可用於訪問級別。 如需詳細資訊，請參閱 <a href="/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md" class="MCXref xref">舊版授權概觀</a> 或 <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront舊版授權概觀</a>.</td> 
+      <td>請確保此處選擇的許可證與您正在建立或編輯的訪問級別類型最密切相關。 所選許可證決定了哪些設定可用於訪問級別。 如需詳細資訊，請參閱 <a href="/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md" class="MCXref xref">新許可證概述</a> 或 <a href="/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md">授權概觀</a>.</td> 
      </tr> 
     </tbody> 
    </table>
@@ -148,7 +148,7 @@ ht-degree: 6%
     </tbody> 
    </table>
 
-1. 按一下 **設定其他限制**，然後為存取層級設定下列任何限制。
+1. 按一下 **設定其他限制**，然後為存取層級設定下列任一限制。
 
    >[!IMPORTANT]
    >

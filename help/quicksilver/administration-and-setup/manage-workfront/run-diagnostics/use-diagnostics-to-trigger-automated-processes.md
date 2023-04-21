@@ -7,9 +7,9 @@ description: 您可以使用診斷來手動觸發自動化進程，例如基於�
 feature: System Setup and Administration
 role: Admin
 exl-id: 9243ee60-006b-4628-bde7-5b037dde7511
-source-git-commit: 5469598d57fec1a744ddb44cf2accb94e1f70941
+source-git-commit: 62d1b9563d83bd82b569e143f69e379e2f4ffbc2
 workflow-type: tm+mt
-source-wordcount: '328'
+source-wordcount: '327'
 ht-degree: 7%
 
 ---
@@ -35,7 +35,7 @@ ht-degree: 7%
    <td>任何</td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">舊版授權概觀</a> </td> 
+   <td role="rowheader"><a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">授權概觀</a> </td> 
    <td> <p>計劃 </p>您必須是Workfront管理員。 如需Workfront管理員的相關資訊，請參閱 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">授予使用者完整的管理存取權</a>.</td> 
   </tr> 
  </tbody> 

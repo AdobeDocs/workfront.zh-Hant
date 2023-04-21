@@ -8,9 +8,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: ea580dd0-efb7-4f56-beb3-07ad044efc8a
-source-git-commit: a39720a4529dcd974483f7730b6feb4d6cd6f994
+source-git-commit: 62d1b9563d83bd82b569e143f69e379e2f4ffbc2
 workflow-type: tm+mt
-source-wordcount: '1103'
+source-wordcount: '1105'
 ht-degree: 0%
 
 ---
@@ -52,7 +52,7 @@ ht-degree: 0%
 
 1. 在左側面板底部，按一下 **系統** > **授權**.
 
-   有關本頁所列許可證的詳細資訊，請參見 [舊版授權概觀](../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md).
+   有關本頁所列許可證的詳細資訊，請參見 [授權概觀](../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md).
 
    >[!NOTE]
    >
@@ -91,11 +91,11 @@ If an organization has other paid add-on products, their license information als
 
 ## 查看有關每月證明和文檔決策分配的資訊
 
-所有未付費的Workfront授權均限制舉證和檔案決定。 每月按每位使用者重設的限制。
-
 >[!IMPORTANT]
 >
->校樣和檔案決策限制不適用於 [舊版Workfront授權和存取層級](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md).
+>證明和檔案決策限制僅適用於新授權上的使用者。 如需詳細資訊，請參閱 [新許可證概述](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md).
+
+所有未付費的Workfront授權均限制舉證和檔案決定。 每月按每位使用者重設的限制。
 
 每個授權的決策限制會因您所執行的計畫而異。 您可以在「設定>授權」中檢視每月分配。
 

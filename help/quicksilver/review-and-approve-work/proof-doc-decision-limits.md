@@ -5,23 +5,19 @@ title: 非付費使用者的有限檔案和證明決策概觀 
 description: 所有未付費的Workfront授權均限制舉證和檔案決定。 每月按每位使用者重設的限制。
 author: Courtney
 feature: Work Management
-source-git-commit: 4a91a00c8089eb3cf424aa10d4ae86219bd6413f
+exl-id: f3e68fd8-723a-4e49-9cf1-823e36d04e55
+source-git-commit: a1435e58328b592be749541f47af66c51331759c
 workflow-type: tm+mt
-source-wordcount: '225'
+source-wordcount: '219'
 ht-degree: 6%
 
 ---
 
-
 # 非付費使用者的有限檔案和證明決策概觀
 
-所有未付費的Workfront授權均限制舉證和檔案決定。 每月按每位使用者重設的限制。
+新計畫的所有非付費Workfront授權均受限於證明和檔案決定。 如需詳細資訊，請參閱 [新許可證概述](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md).
 
->[!IMPORTANT]
->
->校樣和檔案決策限制不適用於 [舊版Workfront授權和存取層級](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md).
-
-每個授權的決策限制會因您所執行的計畫而異：
+每月按每位使用者重設的限制。 每個授權的決策限制會因您所執行的計畫而異：
 
 <table>
   <tr>
