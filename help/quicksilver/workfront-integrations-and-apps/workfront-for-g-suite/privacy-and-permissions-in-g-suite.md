@@ -7,16 +7,16 @@ description: Workfront for G套裝的隱私權和權限
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: abb8ffa1-1da6-46dd-a929-18b17014839a
-source-git-commit: a156092bf2b6cca70d09b76a65d755fbe05ec8da
+source-git-commit: bd9fb14b99886f4a514c4d37ad9d93be7a051858
 workflow-type: tm+mt
-source-wordcount: '380'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
 
 # Workfront for G套裝的隱私權和權限
 
-由於客戶隱私權很重要，Adobe Workfront不會儲存或收集因第三方授權Google外掛程式應用程式而產生的任何識別客戶資料。 Workfront（適用於G Suite）使用及從Google API接收到的資訊傳輸至任何其他應用程式，將遵循Google API服務使用者資料政策，包括有限使用需求。
+由於客戶隱私權很重要，Adobe Workfront不會儲存或收集因第三方授權Google外掛程式應用程式而產生的任何識別客戶資料。 Workfront for G Suite將從Google API收到的資訊傳輸至任何其他應用程式時，將遵循 [Google API服務使用者資料原則](https://developers.google.com/terms/api-services-user-data-policy)，包括有限使用需求。
 
 我們需要下列權限，Workfront for G Suite外掛程式才能提供其最大值：
 
