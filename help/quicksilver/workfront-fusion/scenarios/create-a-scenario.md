@@ -7,9 +7,9 @@ description: 下列工作說明如何建立 [!DNL Adobe Workfront Fusion] 藍本
 author: Becky
 feature: Workfront Fusion
 exl-id: adf66cfc-ccaf-4b29-9199-c13260695569
-source-git-commit: fcaa2136310cad8ef478020a9bae34bbe5520c6d
+source-git-commit: a3fd1da2f0d144fe9d6444c038ac21baba3cd848
 workflow-type: tm+mt
-source-wordcount: '1428'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -62,12 +62,6 @@ ht-degree: 0%
 1. 按一下 **[!UICONTROL 藍本]** ![](assets/scenarios-icon.png) 中。
 
 1. 按一下 **[!UICONTROL 建立新藍本]** 在頁面的右上角。
-1. （選用）下方 **[!UICONTROL 您要整合哪些服務]**，如果您要建立新藍本，請選取您要在藍本中使用的應用程式，然後按一下 **[!UICONTROL 繼續]**.
-
-   或
-
-   按一下 **[!UICONTROL 略過]** 如果您想從案例編輯器中選擇應用程式。
-
 1. 在顯示的畫面（情境編輯器）中，如果您要建立新情境，請按一下 **[!UICONTROL 新藍本]** 在左上角，輸入藍本的名稱。
 1. 繼續 [在案例中新增模組](#add-a-module-in-a-scenario).
 

@@ -7,9 +7,9 @@ description: 方案編輯器可讓您在視覺化介面中建立和編輯方案�
 author: Becky
 feature: Workfront Fusion
 exl-id: 4377303d-7615-41eb-b0cc-4bf884899361
-source-git-commit: 27db607fd0543b06a502032a9b6b0c88d4ecec41
+source-git-commit: c19e8c104ac1e93d67300637437d32b6f8534e99
 workflow-type: tm+mt
-source-wordcount: '839'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -61,12 +61,6 @@ ht-degree: 0%
 
    如果要編輯現有藍本，請按一下藍本。
 
-1. （條件性）若您要建立新藍本，請在 **[!UICONTROL 您要整合哪些服務]**，請選取您要使用的應用程式，然後按一下 **[!UICONTROL 繼續]**.
-
-   或
-
-   按一下 **[!UICONTROL 略過]** 如果您偏好從案例編輯器中選擇應用程式。
-
    在顯示的案例編輯器中，您可以執行下表所列的所有動作。 如需詳細資訊，請參閱 [在中建立案例 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md).
 
 1. 完成藍本的編輯時（或在編輯時隨時），按一下 [!UICONTROL 儲存] 表徵圖。 ![](assets/save-icon.gif)
@@ -76,6 +70,8 @@ ht-degree: 0%
    >儲存您的案例後，三點功能表底下會提供新版本，以備您日後需要存取時使用。 先前儲存的案例版本僅可供60天使用。
 
 ## 可用的方案編輯器動作
+
+方案編輯器中提供下列動作：
 
 <table style="table-layout:auto"> 
 <tbody>
