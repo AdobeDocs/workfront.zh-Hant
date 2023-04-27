@@ -6,7 +6,7 @@ description: 管理項目財務區域中的資訊
 author: Alina
 feature: Work Management
 exl-id: 147f5d55-a827-4cca-9ab0-afb03a4bcd5a
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: d8c274d2153836647367c263cad8d786402cbe7f
 workflow-type: tm+mt
 source-wordcount: '1304'
 ht-degree: 2%
@@ -189,22 +189,18 @@ ht-degree: 2%
       <td>指定此項目的預算。</td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>固定成本</strong> </td> 
+      <td role="rowheader">固定成本</td> 
       <td>指定此項目的固定成本。 這不應包括任何人工或費用成本。</td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>固定收入</strong> </td> 
+      <td role="rowheader">固定收入</td> 
       <td> <p>指定此專案的固定收入。 這不應包括向合作夥伴或第三方開單的任何帳單記錄所產生的收入。</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">專案貨幣</td> 
       <td> <p>如果此項目的貨幣與系統中的預設貨幣不同，請為其指定貨幣。 系統中的預設貨幣由您的Workfront管理員定義。 如需在Workfront中設定匯率的詳細資訊，請參閱文章 <a href="../../../administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md" class="MCXref xref">設定匯率</a>.</p> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader"> </td> 
-      <td> </td> 
-     </tr> 
+     </tr>
     </tbody> 
    </table>
 
-1. 按一下 **儲存****變更**.
+1. 按一下 **儲存變更**.
