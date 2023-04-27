@@ -6,7 +6,7 @@ description: 您可以在主板上新增資訊卡，連線至Workfront中的現�
 author: Lisa
 feature: Agile
 exl-id: c6d979dd-e4a4-48a5-a91b-b31d7ef848d1
-source-git-commit: 07942865a25153fe50ff627291bb21e1508dddc5
+source-git-commit: f6bee61bbfbac98595d737fa002bbe01c0c573dc
 workflow-type: tm+mt
 source-wordcount: '1242'
 ht-degree: 0%
@@ -14,8 +14,6 @@ ht-degree: 0%
 ---
 
 # 在主板上使用連接的卡
-
-{{highlighted-preview}}
 
 您可以在主板上新增卡片，卡片已連線至 [!DNL Workfront].
 
@@ -102,7 +100,7 @@ ht-degree: 0%
      </tr> 
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL描述]</strong></td> 
-      <td>更改說明還更改了連接的說明 [!DNL Workfront] 物件。 <span class="preview">您可以在說明中新增URL，這些URL在儲存資訊卡時將變成可點按的連結。</span></td> 
+      <td>更改說明還更改了連接的說明 [!DNL Workfront] 物件。 您可以在說明中新增URL，這些URL在儲存資訊卡時將變成可點按的連結。</td> 
      </tr> 
      <tr>
       <td role="rowheader"><strong>[!UICONTROL受分配者]</strong></td>
@@ -140,7 +138,7 @@ ht-degree: 0%
     </tbody> 
    </table>
 
-   <span class="preview">使用左側的導覽面板，在卡片詳細資料上的欄位群組之間移動。</span>
+   使用左側的導覽面板，在卡片詳細資料上的欄位群組之間移動。
 
    >[!NOTE]
    >

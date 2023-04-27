@@ -6,16 +6,14 @@ description: 從 [!UICONTROL 展示板] 控制面板，您可以建立新展示�
 author: Lisa
 feature: Agile
 exl-id: 5f755177-c8ea-4509-a34f-57ffcfd8ba7f
-source-git-commit: 966a88b8c7761b257a1ad0b2fdb3400f78c5d4f7
+source-git-commit: f6bee61bbfbac98595d737fa002bbe01c0c573dc
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '699'
+ht-degree: 3%
 
 ---
 
 # 建立或編輯展示板
-
-{{highlighted-preview}}
 
 從 [!UICONTROL 展示板] 控制面板，您可以建立新展示板或編輯現有展示板。
 
@@ -54,29 +52,22 @@ ht-degree: 0%
    | 基本展示板 | 展示板上提供三個預設欄。 您可以新增欄，並重新命名或刪除預設欄。 <p>展示板上提供三個預設欄。 您可以新增欄，並重新命名或刪除預設欄。 |
    | Kanban 展示板 | 展示板上提供下列欄：積壓、新建、正在進行、完成和暫掛。 您可以新增欄，並重新命名或刪除預設欄。<p>要使用積壓，必須為進氣列設定篩選器。 如需詳細資訊，請參閱 [向展示板新增進紙欄](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md). <p>要查看每列的預設策略，請按一下 [!UICONTROL **更多** 功能表] 在欄上選取 [!UICONTROL **編輯**]. 您可以變更任何這些預先設定的原則。 如需詳細資訊，請參閱 [管理展示板欄](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md). |
    | 追溯展示板 | 展示板上提供下列欄：什麼進展順利？ 有哪些可以改進的地方? 我們應該為誰慶祝? 我們可以做些什麼來加快進度? 您可以新增欄，並重新命名或刪除預設欄。 <p>未應用列策略。 |
-   | <span class="preview">動態展示板</span> | <span class="preview">展示板上提供下列欄：未選中、新建、正在進行、暫掛和完成。 您可以新增欄，並重新命名或刪除預設欄。 (「未選取」欄可重新命名，但不可刪除。 此欄包含所有狀態不符合其他任何欄狀態的卡片。) <p>預設的欄原則會根據欄的狀態，將卡片指派給欄。 如需詳細資訊，請參閱 [管理展示板欄](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md).</span> |
+   | 動態展示板 | 展示板上提供下列欄：未選中、新建、正在進行、暫掛和完成。 您可以新增欄，並重新命名或刪除預設欄。 (「未選取」欄可重新命名，但不可刪除。 此欄包含所有狀態不符合其他任何欄狀態的卡片。) <p>預設的欄原則會根據欄的狀態，將卡片指派給欄。 如需詳細資訊，請參閱 [管理展示板欄](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md). <p>**注意：** 動態展示板只能透過Workfront展示板的早期功能選擇來使用。 |
 
-1. <span class="preview">僅針對動態展示板，請依照設定精靈步驟操作：</span>
+1. 僅針對動態展示板，請依照設定精靈步驟操作：
 
-   <div class="preview">
+   1. 搜尋並選取 [!DNL Workfront] [!UICONTROL **專案**] 將任務和問題提交董事會。
+   1. 搜尋並選取 [!UICONTROL **分配**] 將任務和問題提交董事會。
 
-   1. 輸入展示板的名稱，然後按一下 [!UICONTROL **下一個**].
-   1. 按一下 [!UICONTROL **添加源**].
-   1. 按一下 [!UICONTROL **篩選來源**] 選取 [!UICONTROL **工作**] 或 [!UICONTROL **問題**].
+      所有對象都以連接卡的形式顯示在主板上。
 
-      >[!NOTE]
-      >
-      >您可以篩選展示板以同時包含工作和問題，但必須針對每個物件類型分別設定篩選。
-      >
-      >此外，儲存的篩選器和系統預設篩選器也可供您選取。
+      此 [!UICONTROL **要新增的卡片**] 計數器顯示展示板上會有多少張卡片。 例如，如果您選取的專案有100個工作和問題，計數器會顯示100個。 如果您新增使用者指派，而該人員已指派給專案上的5個工作，則計數器會顯示5個。
 
-   1. 建立篩選器以定義要以連接卡形式帶入主板的對象。
+   1. （選用）按一下 [!UICONTROL **使用進階篩選**] 以顯示其他篩選選項。
 
       這與在進氣列上建立篩選器的過程相同。 如需詳細資訊，請參閱 [向展示板新增進紙欄](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md).
 
    1. 新增篩選器後，按一下 [!UICONTROL **建立展示板**].
-
-   </div>
 
 1. 在 **[!UICONTROL 展示板]** 欄位並按Enter。
 1. 視需要設定展示板。

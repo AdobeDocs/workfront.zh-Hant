@@ -6,16 +6,14 @@ description: 您可以快速將臨機卡新增至展示板，並指派給展示�
 author: Lisa
 feature: Agile
 exl-id: 9bc1f92a-85b0-44fd-b5de-09a69af6def5
-source-git-commit: 07942865a25153fe50ff627291bb21e1508dddc5
+source-git-commit: f6bee61bbfbac98595d737fa002bbe01c0c573dc
 workflow-type: tm+mt
-source-wordcount: '787'
+source-wordcount: '797'
 ht-degree: 0%
 
 ---
 
 # 新增臨機卡至展示板
-
-{{highlighted-preview}}
 
 您可以快速將資訊卡新增至展示板，並指派給展示板上的成員。 此卡片可代表任務、問題、人員、群組，或您要加入展示板的任何類型的項目。
 
@@ -65,7 +63,7 @@ ht-degree: 0%
      </tr> 
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL描述]</strong> </td> 
-      <td>卡片的說明。 <span class="preview">您可以在說明中新增URL，這些URL在儲存資訊卡時將變成可點按的連結。</span></td>
+      <td>卡片的說明。 您可以在說明中新增URL，這些URL在儲存資訊卡時將變成可點按的連結。</td>
      </tr> 
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL受分配者]</strong> </td> 
@@ -98,13 +96,13 @@ ht-degree: 0%
     </tbody> 
    </table>
 
-   生產環境中的卡片詳細資訊影像範例：
+   在「生產」環境中，範例卡片詳細資訊影像，未啟用提前功能存取：
    ![臨機卡詳細資訊](assets/boards-edit-ad-hoc-card-071822.png)
 
-   <span class="preview">預覽環境中的卡片詳細資料影像範例：
-   ![臨機卡詳細資訊](assets/boards-edit-ad-hoc-card-041723.png)</span>
+   範例卡片詳細資訊影像位於「生產」環境中，並啟用提早功能存取：
+   ![臨機卡詳細資訊](assets/boards-edit-ad-hoc-card-041723.png)
 
-   <span class="preview">使用左側的導覽面板，在卡片詳細資料上的欄位群組之間移動。</span>
+   使用左側的導覽面板，在卡片詳細資料上的欄位群組之間移動。
 
    >[!NOTE]
    >
