@@ -6,9 +6,9 @@ description: Adobe Workfront Fusion提供與Outlook的整合。 本文說明如�
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 57f0560b-68c2-4654-863e-bd728e76da29
-source-git-commit: 16acba0f1981b75ca141a36d096fb6f5d37c40d1
+source-git-commit: 61a107e1ee8a415fd94e73fc65fa5f59f7de02d1
 workflow-type: tm+mt
-source-wordcount: '786'
+source-wordcount: '761'
 ht-degree: 0%
 
 ---
@@ -88,11 +88,11 @@ ht-degree: 0%
 
 當您連接到 [!DNL Office 365] 或 [!DNL Outlook.com]. 不過，如果您已連線至內部部署的 [!DNL Exchange Server]，則適用下列要求：
 
-* 我們支援 [!DNL Exchange 2016 On-Premise]
+* 我們支援所有 [!DNL Exchange On-Premise] 伺服器
 * [!DNL Exchange Web Services] (EWS)必須啟用，並且必須向Internet公開。
 * 伺服器必須具有有效的驗證證書，伺服器才能發出有效的身份令牌。 新安裝 [!DNL Exchange Server] 包含預設驗證憑證。
 
-   如需詳細資訊，請參閱 [數位憑證和加密 [!DNL Exchange 2016]](https://technet.microsoft.com/en-us/library/dd351044(v=exchg.160).aspx) 和 [Set-AuthConfig](https://technet.microsoft.com/en-us/library/jj215766(v=exchg.160).aspx).
+   <!--this used to be here but Dev asked for it to be taken out - logged issue for editing this article on 4-26-2023: For more information, see [Digital certificates and encryption in [!DNL Exchange 2016]](https://technet.microsoft.com/en-us/library/dd351044(v=exchg.160).aspx) and [Set-AuthConfig](https://technet.microsoft.com/en-us/library/jj215766(v=exchg.160).aspx).-->
 
 * 若要存取 [!DNL Workfront] 從 [[!DNL Office] 商店](https://store.office.com/)，您的用戶端存取伺服器必須能夠與  [https://store.office.com](https://store.office.com/).
 

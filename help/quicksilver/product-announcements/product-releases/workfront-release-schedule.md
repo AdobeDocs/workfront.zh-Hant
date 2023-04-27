@@ -7,9 +7,9 @@ description: 「預覽」環境每週更新一次，其中包含新功能。 這
 author: Alina
 feature: Product Announcements
 exl-id: 4cc72e55-8105-420a-9609-e965222399e3
-source-git-commit: c7994ea14dd51c9a78e3bb5b5ec7bb5d7e21f4cd
+source-git-commit: d012f197cc56121c823a08789ba49d6d6a28a3cb
 workflow-type: tm+mt
-source-wordcount: '737'
+source-wordcount: '829'
 ht-degree: 0%
 
 ---
@@ -65,6 +65,12 @@ Workfront有時會在測試版計畫中發行新功能。
    * 產品發行頁面會包含何時將功能發佈至公開測試版的相關資訊。
 
 如需產品發行說明的詳細資訊，請參閱 [產品發行](../../product-announcements/product-releases/product-releases.md).
+
+## 其他版本
+
+有時，Workfront可能會發行某些功能，而這些功能可能不會記錄在發行說明、維護更新或任何實際檔案文章中。 這是為了在將新功能設為永久性之前，先測試新功能。 通常，這些測試會發佈給有限數量的客戶，但有時可能會發佈給每個人。
+
+如果您在系統中遇到與檔案不符的問題，我們會要求您聯絡我們的客戶支援團隊。 如需詳細資訊，請參閱 [聯絡客戶支援](../../workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).
 
 ## 發行說明
 

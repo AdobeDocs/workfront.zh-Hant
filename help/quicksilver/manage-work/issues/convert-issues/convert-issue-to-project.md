@@ -6,9 +6,9 @@ description: 將問題轉換為Adobe Workfront中的專案
 author: Alina
 feature: Work Management
 exl-id: e3ba15a3-6169-466c-9912-32a8afdcc68d
-source-git-commit: e38411056b3f9be6d0241ee18e71984ef2a678a0
+source-git-commit: 61a107e1ee8a415fd94e73fc65fa5f59f7de02d1
 workflow-type: tm+mt
-source-wordcount: '1373'
+source-wordcount: '1465'
 ht-degree: 0%
 
 ---
@@ -178,8 +178,8 @@ ht-degree: 0%
 
          >[!TIP]
          >
-         >* 如果已將附加至問題的多物件自訂表單設定為搭配問題和專案使用，當您進行轉換時，會保留表單中儲存的所有資訊。
-         >
+         >* 如果已將附加至問題的多物件自訂表單設定為與問題和專案搭配使用，當您進行轉換時，如果問題和專案的自訂表單上同時存在欄位，則會保留表單中儲存的所有資訊。
+         >* 如果問題和專案都附加了具有計算欄位的多物件自訂表單，則問題和專案必須與表單計算自訂欄位中參考的所有欄位相容。 如果不相容，訊息會提醒您進行調整。 如需詳細資訊，請參閱 [使用舊版表單產生器將計算資料新增至自訂表單](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
          >* 如果您使用範本進行轉換，且附加至範本的自訂表單包含自訂欄位（亦可在附加至問題的自訂表單中找到），則問題的欄位值會用於新專案。 不過，如果問題上的自訂欄位空白，則會使用範本的值。
 
    1. 按一下 [!UICONTROL **轉換為專案**].

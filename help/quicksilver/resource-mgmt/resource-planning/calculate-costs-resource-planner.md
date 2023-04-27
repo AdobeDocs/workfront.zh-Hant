@@ -2,13 +2,13 @@
 product-area: resource-management
 navigation-topic: resource-planning
 title: 在資源計畫器中計算成本
-description: '(Alina:***連結至「資源計畫員」文章中的「了解資源計畫員」區域。  — 不要移動/更改/刪除。)'
-author: Alina
+description: 您可以使用成本值（而不是小時數或FTE值）來在Adobe Workfront資源計畫器中預算資源。 成本值不適用於資源計畫員中**按用戶**查看。
+author: Lisa
 feature: Resource Management
 exl-id: 2f3ca8c2-51b3-4282-af8b-7f433365d386
-source-git-commit: d3172a681ef6ac8b7bde44c680ad7febc3f26121
+source-git-commit: 61a107e1ee8a415fd94e73fc65fa5f59f7de02d1
 workflow-type: tm+mt
-source-wordcount: '1373'
+source-wordcount: '1390'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,8 @@ ht-degree: 0%
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(Alina: ***Linked to the Planning in the Resource Planner article, Understanding areas of the Resource Planner. - do not move/ change/ delete.)</p>
 -->
+
+<!--'(Alina: ***Linked to the Planning in the Resource Planner article, Understanding areas of the Resource Planner. - do not move/ change/ delete.)'-->
 
 您可以使用成本值（而不是小時數或FTE值）來在Adobe Workfront資源計畫器中預算資源。 成本值不適用於&#x200B;**按用戶查看** 在資源計畫器中查看。
 
@@ -70,7 +72,7 @@ ht-degree: 0%
 1. 按一下 **主菜單** 圖示 ![](assets/main-menu-icon.png) 在Adobe Workfront的右上角。
 
 1. 按一下 **資源**.
-1. 前往。
+1. 轉至資源計畫器。
 1. （條件性）選取 **依專案檢視** 或 **按角色查看**.\
    依預設 **依專案檢視** 中所有規則的URL。\
    分配和可用性資訊以小時顯示。

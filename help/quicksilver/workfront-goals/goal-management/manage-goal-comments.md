@@ -6,9 +6,9 @@ description: 您可以在Adobe Workfront目標中新增評論至您可檢視的�
 author: Alina
 feature: Workfront Goals
 exl-id: 6cf2d2d2-5ba5-40f2-a803-01359c338541
-source-git-commit: 607e0523cf97fdf26b650dc441e52b4ae4528af4
+source-git-commit: 61a107e1ee8a415fd94e73fc65fa5f59f7de02d1
 workflow-type: tm+mt
-source-wordcount: '870'
+source-wordcount: '874'
 ht-degree: 0%
 
 ---
@@ -159,7 +159,7 @@ ht-degree: 0%
    >![](assets/real-time-new-red-indicator-unified-commenting.png)
 
 1. （選用）若要編輯留言，請按一下 **更多** 功能表 ![](assets/more-icon.png) 在「贊」圖示的右側，然後按一下 **編輯**.
-1. 編輯注釋中的資訊，或刪除任何標籤的用戶。
+1. 編輯注釋中的資訊、添加或刪除影像或刪除任何標籤的用戶。
 您可以在15內編輯意見，提交後即可。 更新註解時，會在顯示的日期戳記左側新增「已編輯」指標。
 
    ![](assets/edited-tag-on-comment-unified-commenting.png)

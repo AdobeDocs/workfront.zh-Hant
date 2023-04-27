@@ -5,9 +5,9 @@ title: 辭匯表 [!DNL Adobe Workfront] 術語
 description: 此 [!DNL Adobe Workfront] 字彙表列出Adobe Workfront中常用的辭彙。
 feature: Get Started with Workfront
 exl-id: 758072b3-775e-4771-9ae9-da0b38580c93
-source-git-commit: 7e78ca8c8ea7f037b55b06e7452ac5c562b99eca
+source-git-commit: 61a107e1ee8a415fd94e73fc65fa5f59f7de02d1
 workflow-type: tm+mt
-source-wordcount: '19138'
+source-wordcount: '19387'
 ht-degree: 0%
 
 ---
@@ -844,11 +844,32 @@ ht-degree: 0%
    <td>[!UICONTROL外部]</td> 
    <td> <p>通常是許可證類型，或具有此類許可證的用戶，它只能查看系統中的資訊。</p> <p>如需詳細資訊，請參閱 <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">[!DNL Adobe Workfront] 授權概述</a>.</p> </td> 
   </tr> 
-  <tr data-mc-conditions="SnippetConitions_MaturityModel.Optimized"> 
+  <tr> 
    <td>[!UICONTROL外部系統]</td> 
    <td>儲存和管理在指定記錄系統之外的任何服務或軟體。</td> 
-  </tr> 
-  <tr data-mc-conditions="SnippetConitions_MaturityModel.Ad hoc"> 
+  </tr>
+
+<tr> 
+   <td>[!UICONTROL欄位]</td> 
+   <td><p>任何Workfront物件或與其相關聯的資訊，如資料庫中所示。 </p>
+   <p>例如，"project"、"user"、"hour"既是Workfront物件，也是欄位。 「名稱」、「狀態」、「擁有者」、「開始日期」是與上述物件相關聯的Workfront欄位。 </p>
+
+<p>在引用對象時，「對象」和「欄位」項可以交互使用。</p>
+   <p>在報告範圍中，「欄位」是指您要在報告中擷取的物件或物件相關資訊。</p>
+
+<p><b>附註</b></p>
+
+<p>在文本更多報告中，欄位是指資料庫中顯示的對象或其資訊。</p>
+   <p>有時，您在使用者介面中看到的名稱與資料庫中欄位的名稱不同。 例如，"issue"是Workfront介面中物件的名稱，而"opTask"是Workfront資料庫中物件（或欄位）的名稱。 </p> 
+   <p> 撰寫文字模式報表、檢視、篩選或分組或建立計算欄位時，請務必使用資料庫中顯示的欄位。</p>
+
+<p>如需詳細資訊，請參閱 <a href="../../../wf-api/general/api-explorer.md">API Explorer</a> 和 <a href="../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md">文字模式概觀</a>.</p>
+
+<p>依預設，Workfront隨附一組欄位，可定義物件及其資訊。 您也可以建立自訂欄位來定義物件，但無法建立自訂物件。</p> 
+   </td> 
+  </tr>
+
+<tr data-mc-conditions="SnippetConitions_MaturityModel.Ad hoc"> 
    <td>[!UICONTROL篩選器]</td> 
    <td> <p>定義螢幕上顯示之資訊之報表或清單元素的其中一個主要組成要素。 如需報表元素的詳細資訊，請參閱 <a href="../../../reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md" class="MCXref xref">報表元素：篩選器、檢視和群組</a>.</p> <p>篩選器會決定報表或 [!DNL Workfront] 面板清單，例如專案、工作或問題。</p> </td> 
   </tr> 
@@ -1300,7 +1321,7 @@ The designated full time equivalency for users. A full-time user should have 100
   </tr> 
   <tr> 
    <td>[!UICONTROL對象]</td> 
-   <td> <p>組織的工作項目和報表，以及在[!UICONTROL Workfront]中管理這些項目和報表的使用者群組。 對象可以是：</p> 
+   <td> <p>顯示在 [!DNL Adobe Workfront] 由儲存在 [!DNL Workfront] 資料庫。 物件是驅動Workfront中資訊的因素。 物件的一些範例包括：</p> 
     <ul> 
      <li>[!UICONTROLPortfolio]</li> 
      <li>[!UICONTROL程式]</li> 
@@ -1314,7 +1335,17 @@ The designated full time equivalency for users. A full-time user should have 100
      <li>[!UICONTROL團隊]</li> 
      <li>[!UICONTROL用戶]</li> 
      <li>[!UICONTROL公司]</li> 
-    </ul> <p>如需詳細資訊，請參閱 <a href="../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md" class="MCXref xref">了解[!UICONTROL Adobe Workfront]中的對象</a>.</p> </td> 
+     <li>[!UICONTROL自訂表單]</li>
+     <li>[!UICONTROL自定義欄位]</li>  
+     <li>[!UICONTROL小時]</li> 
+     <li>[!UICONTROL計費率]</li> 
+     <li>[!UICONTROL模板]</li> 
+     <li>[!UICONTROL模板任務]</li>
+
+<p><b>附註</b></p>
+  <p>這不是一份詳盡的清單。 </p>
+
+</ul> <p>如需詳細資訊，請參閱 <a href="../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md" class="MCXref xref">了解[!UICONTROL Adobe Workfront]中的對象</a>.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL對象類型]</td> 
