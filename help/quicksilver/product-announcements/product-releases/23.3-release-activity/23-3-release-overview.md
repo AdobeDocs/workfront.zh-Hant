@@ -4,9 +4,9 @@ description: 23.3版本概觀
 author: Becky
 feature: Product Announcements
 exl-id: 9bf786e2-e077-4504-b928-9091fcb61ec1
-source-git-commit: 8e7adb5aefd58c52f30a81e7ec4916701de808b3
+source-git-commit: 7d671fe66c6a23efad2e8f8f0fa3d2b7b1afcc86
 workflow-type: tm+mt
-source-wordcount: '873'
+source-wordcount: '850'
 ht-degree: 0%
 
 ---
@@ -57,9 +57,8 @@ The <add release> release webinar will be held on <date>. You can [register for 
                                 <p>預覽版本：2023年4月27日<br /></p>
                             </li>
                             <li>
-                                <p><span class="preview">
                                  <p>提早選擇加入的生產版本：2023年4月28日 <span style="color: #ff0000;"> 只有透過預先選擇加入Workfront展示板的功能，才能在生產環境中使用此功能。</span></p>
-                                <p>所有客戶的生產版本：隨第23.3發行版本一起推出</p></span></p>
+                                <p>所有客戶的生產版本：隨第23.3發行版本一起推出</p>
                             </li>
                         </ul>
                     </td>
@@ -75,9 +74,8 @@ The <add release> release webinar will be held on <date>. You can [register for 
                                 <p>預覽版本：2023年4月20日<br /></p>
                             </li>
                             <li>
-                                <p><span class="preview">
                                  <p>提早選擇加入的生產版本：2023年4月28日 <span style="color: #ff0000;"> 只有透過預先選擇加入Workfront展示板的功能，才能在生產環境中使用此功能。</span></p>
-                                <p>所有客戶的生產版本：隨第23.3發行版本一起推出</p></span></p>
+                                <p>所有客戶的生產版本：隨第23.3發行版本一起推出</p>
                             </li>
                         </ul>
                     </td>
@@ -93,9 +91,8 @@ The <add release> release webinar will be held on <date>. You can [register for 
                                 <p>預覽版本：2023年4月20日<br /></p>
                             </li>
                             <li>
-                                <p><span class="preview">
                                  <p>提早選擇加入的生產版本：2023年4月28日 <span style="color: #ff0000;"> 只有透過預先選擇加入Workfront展示板的功能，才能在生產環境中使用此功能。</span></p>
-                                <p>所有客戶的生產版本：隨第23.3發行版本一起推出</p></span></p>
+                                <p>所有客戶的生產版本：隨第23.3發行版本一起推出</p>
                             </li>
                         </ul>
                     </td>
@@ -111,9 +108,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
                                 <p>預覽版本：2023年4月20日<br /></p>
                             </li>
                             <li>
-                                <p><span class="preview">
-                                 <p>提早選擇加入的生產版本：2023年4月28日 <span style="color: #ff0000;"> 只有透過預先選擇加入Workfront展示板的功能，才能在生產環境中使用此功能。</span></p>
-                                <p>所有客戶的生產版本：隨第23.3發行版本一起推出</p></span></p>
+                                <p><span class="preview">所有客戶的生產版本：2023年4月27日</span></p>
                             </li>
                         </ul>
                     </td>
@@ -129,9 +124,8 @@ The <add release> release webinar will be held on <date>. You can [register for 
                                 <p>預覽版本：2023年4月13日<br /></p>
                             </li>
                             <li>
-                                <p><span class="preview">
-                                 <p>提早選擇加入的生產版本：2023年4月13日 <span style="color: #ff0000;"> 只有透過預先選擇加入Workfront展示板的功能，才能在生產環境中使用此功能。</span></p>
-                                <p>所有客戶的生產版本：隨第23.3發行版本一起推出</p></span></p>
+                                 <p>提早選擇加入的生產版本：2023年4月13日 <span style="color: #ff0000;"> 只有透過預先選擇加入Workfront展示板的功能，才能在生產環境中使用此功能。</p>
+                                <p>所有客戶的生產版本：隨第23.3發行版本一起推出</p>
                             </li>
                         </ul>
                     </td>
