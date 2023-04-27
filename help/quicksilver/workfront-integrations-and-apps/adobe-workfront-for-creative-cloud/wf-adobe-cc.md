@@ -7,9 +7,9 @@ description: Adobe WorkfrontCreative Cloud應用程式外掛程式
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: ebccdf17-12e3-4adc-95af-61d6337edb72
-source-git-commit: 15307cd34aa0787579a1cb26e0b165222d8d8502
+source-git-commit: 48333c6d56a102e8f96887dd13f0c799f3233f80
 workflow-type: tm+mt
-source-wordcount: '121'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -24,6 +24,8 @@ ht-degree: 0%
 * 上傳檔案
 * 檢視專案和任務
 * 更多
+
+[觀看以下功能的影片概觀： [!DNL Adobe Workfront] for [!DNL Creative Cloud] 外掛程式](https://video.tv.adobe.com/v/3418801/){target=_blank}.
 
 ## 安裝及使用外掛程式
 

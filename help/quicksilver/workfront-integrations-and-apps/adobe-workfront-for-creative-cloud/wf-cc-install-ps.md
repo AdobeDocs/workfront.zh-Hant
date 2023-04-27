@@ -6,9 +6,9 @@ description: 您可以從Marketplace安裝Adobe Workfront for Photoshop外掛程
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: f5e9f121-a711-4b75-8564-54f29c5cfa48
-source-git-commit: 15307cd34aa0787579a1cb26e0b165222d8d8502
+source-git-commit: 48856487ee145ca4ad4959aa3fb37931dc101095
 workflow-type: tm+mt
-source-wordcount: '491'
+source-wordcount: '505'
 ht-degree: 1%
 
 ---
@@ -46,7 +46,7 @@ ht-degree: 1%
   </tr> -->
   <tr> 
    <td role="rowheader">產品</td> 
-   <td>您必須有 [!DNL Adobe Creative Cloud] 除了 [!DNL Workfront] 授權。</td> 
+   <td><p>您必須有 [!DNL Adobe Creative Cloud] 除了 [!DNL Workfront] 授權。</p><p>如需詳細資訊，請參閱 <a href="https://helpx.adobe.com/support/programs/cc-support-policy.html#cce" class="MCXref xref" xrefformat="{para}">Creative Cloud支援政策</a>.</p></td> 
   </tr> 
  </tbody> 
 </table>
