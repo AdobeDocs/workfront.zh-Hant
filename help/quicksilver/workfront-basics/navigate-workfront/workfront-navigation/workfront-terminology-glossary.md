@@ -5,7 +5,7 @@ title: 辭匯表 [!DNL Adobe Workfront] 術語
 description: 此 [!DNL Adobe Workfront] 字彙表列出Adobe Workfront中常用的辭彙。
 feature: Get Started with Workfront
 exl-id: 758072b3-775e-4771-9ae9-da0b38580c93
-source-git-commit: 8420f65e84edd42204d91aa503ff0b95153a1e67
+source-git-commit: 7e78ca8c8ea7f037b55b06e7452ac5c562b99eca
 workflow-type: tm+mt
 source-wordcount: '19138'
 ht-degree: 0%
@@ -52,7 +52,7 @@ ht-degree: 0%
    <td>[!UICONTROL實際費用成本]</td> 
    <td> <p>為項目或任務記錄的所有費用的[!UICONTROL實際金額]總和。</p> <b>範例 </b>
    <p>如果為任務1建立費用，並在「[!UICONTROL實際金額]」欄位中輸入$600.00，則此任務的「[!UICONTROL實際費用成本]」為$600.00。 </p> 
-   <p>對於一個項目， [!DNL Workfront] 使用以下公式計算[!UICONTROL實際費用成本]:</p> <p><code>Project Actual Expense Cost = SUM (All Project Actual Expense Costs) + SUM (All Tasks Actual Expense Costs)</code> <br> </p> 
+   <p>對於一個項目， [!DNL Workfront] 使用以下公式計算[!UICONTROL實際費用成本]:</p> <p><code>Project Actual Expense Cost = SUM (All Project Actual Expense Costs) + SUM (All Tasks Actual Expense Costs) + Project Fixed Cost</code> <br> </p> 
    <!--
      <p>Important: If the value in the Actual Amount field for an expense is negative, Workfront will ignore that expense record. For example, if the value in the Planned Amount field is $200.00 but the value in the Actual Amount field is -$300.00, the system will ignore this entire expense record which means you would not include the $200.00 planned value or the -$300.00 actual value in any calculations for Planned Expense Cost or Actual Expense Cost. (drafting this because not sure if this is still correct)</p>
     --> </td> 
