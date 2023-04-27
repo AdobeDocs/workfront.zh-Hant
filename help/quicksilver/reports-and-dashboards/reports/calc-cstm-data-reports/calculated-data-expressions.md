@@ -7,9 +7,9 @@ description: 您可以使用資料運算式來定義Adobe Workfront中的計算�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: cfb3ace9-76c3-4006-878f-e2ad25ffa03b
-source-git-commit: 22438c38727f5cc36b07b3530818f5bda2b0bacf
+source-git-commit: 1e91514f86a307ffa71cde650b35a2e3b8f0fa88
 workflow-type: tm+mt
-source-wordcount: '2270'
+source-wordcount: '2302'
 ht-degree: 7%
 
 ---
@@ -104,11 +104,11 @@ ht-degree: 7%
  <tbody> 
   <tr> 
    <td><strong>ADDDAYS</strong> </td> 
-   <td> <p>此運算式會將天數新增至日期，格式如下：</p><pre>ADDDAYS(date, number)</pre> </td> 
+   <td> <p>此運算式會新增日期的天數。 數字值可能包含部分天數（例如1.5會新增一個半天至日期）。</p> <p>表達式的格式如下：</p><pre>ADDDAYS(date, number)</pre> </td> 
   </tr> 
   <tr> 
    <td><strong>每週新增日</strong> </td> 
-   <td> <p>此運算式會將工作日數新增至日期，格式如下：</p><pre>每週新增日（日期、數目）</pre> </td> 
+   <td> <p>此運算式會將工作日數新增至日期。 此運算式只會將整數值加到日期，並往下捨入。 </p> <p>表達式的格式如下：</p><pre>每週新增日（日期、數目）</pre> </td> 
   </tr> 
   <tr> 
    <td><strong>ADDMONTHS</strong> </td> 
@@ -230,11 +230,11 @@ ht-degree: 7%
    <td>此表達式將數字2的對數值返回到底數1，格式如下：<pre>LOG(number1、number2)</pre></td> 
   </tr> 
   <tr> 
-   <td><strong>MAX</strong> </td> 
+   <td><strong>最大值</strong> </td> 
    <td>此表達式返回清單中最大的項，格式如下：<pre>MAX(item1, item2, ...)</pre></td> 
   </tr> 
   <tr> 
-   <td><strong>MIN</strong> </td> 
+   <td><strong>最小值</strong> </td> 
    <td>此表達式返回清單中最小的項，格式如下：<pre>MIN(item1, item2, ...)</pre></td> 
   </tr> 
   <tr> 
@@ -270,7 +270,7 @@ ht-degree: 7%
    <td>此運算式會依提供的順序減去所有數字，格式如下：<pre>SUB(number1, number2, ...)</pre></td> 
   </tr> 
   <tr> 
-   <td><strong>SUM</strong> </td> 
+   <td><strong>總和</strong> </td> 
    <td>此表達式將添加所有數字，格式如下：<pre>SUM(number1, number2, ...)</pre></td> 
   </tr> 
  </tbody> 

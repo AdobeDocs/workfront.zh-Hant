@@ -5,7 +5,7 @@ title: 正在篩選包含意外結果的項目
 description: 閱讀本文，疑難排解「我正在使用」篩選器中包含未預期結果的問題。
 feature: Get Started with Workfront
 author: Nolan
-source-git-commit: 5a4c98f9ce6bb7eb936a0b24b634d2545a0f13ee
+source-git-commit: ba261e5121b4a28f71c58f883c784f4e8d2ada81
 workflow-type: tm+mt
 source-wordcount: '170'
 ht-degree: 1%
@@ -47,7 +47,7 @@ ht-degree: 1%
 
 1. 檢查 [!UICONTROL **專案詳細資料**] 為篩選器包含的每個非預期專案，並從所有欄位中移除您的名稱。
 
-或
+   或
 
 1. 嘗試使用類似的篩選器，例如 [!UICONTROL **我擁有的專案**]，僅包含專門指派給您的專案。
 
