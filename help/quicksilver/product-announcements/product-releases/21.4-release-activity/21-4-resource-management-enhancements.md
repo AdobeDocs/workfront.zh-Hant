@@ -5,9 +5,9 @@ author: Luke
 draft: Probably
 feature: Product Announcements
 exl-id: c978e88b-ee07-4af9-b5df-cb62dab4b3ac
-source-git-commit: 665732453b33b49421108791a560ab84d51280b9
+source-git-commit: e0a8093be33773a8b801567cfbe90f67701f9ff3
 workflow-type: tm+mt
-source-wordcount: '368'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -29,8 +29,6 @@ ht-degree: 0%
 ## 工作負載平衡器的新預設選項
 
 為了淘汰排程並讓工作負載平衡器Workfront的主要資源指派工具，我們已將Workfront平衡器設為所有新使用者的預設選項。 目前，排程是預設選項。 這項變更適用於您可以存取「排程」的所有區域，其中包括「資源」區域(在新的Adobe Workfront體驗中)或「人員」區域(在Adobe Workfront Classic中)，以及專案和團隊層級。
-
-如需淘汰排程的相關資訊，請參閱 [不再使用Adobe Workfront中的資源排程工具](../../../resource-mgmt/resource-mgmt-overview/deprecate-resource-scheduling.md)
 
 ## 工作負載平衡器中的新篩選器體驗
 

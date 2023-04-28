@@ -5,9 +5,9 @@ author: Luke
 draft: Probably
 feature: Product Announcements
 exl-id: e86524d3-5f57-45b6-8582-102d2de92be4
-source-git-commit: e6995cd57c4210725d49379df5bcd7e93ce4b02a
+source-git-commit: e0a8093be33773a8b801567cfbe90f67701f9ff3
 workflow-type: tm+mt
-source-wordcount: '2465'
+source-wordcount: '2429'
 ht-degree: 0%
 
 ---
@@ -574,11 +574,7 @@ Workfront Fusion的新功能可在生產環境中，於23.1版排程外的順序
 
 * 專案頁面的「排程」區段
 
-工作負載平衡器正在替換資源調度器。 有關淘汰的詳細資訊以及如何準備使用工作負載平衡器，請參見以下資源：
-
-* [不再使用Adobe Workfront中的資源排程工具](/help/quicksilver/resource-mgmt/resource-mgmt-overview/deprecate-resource-scheduling.md)
-
-* [從資源調度遷移到工作負載平衡器](/help/quicksilver/resource-mgmt/resource-mgmt-overview/migrate-resource-scheduling-to-workload-balancer.md)
+工作負載平衡器正在替換資源調度器。
 
 #### **「事件訂閱API」中的「共用」事件類型。**
 

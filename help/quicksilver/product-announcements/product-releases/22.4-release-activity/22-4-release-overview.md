@@ -5,9 +5,9 @@ author: Luke
 draft: Probably
 feature: Product Announcements
 exl-id: 04b09d8f-71bf-4c5b-b2f3-09c714740969
-source-git-commit: e6995cd57c4210725d49379df5bcd7e93ce4b02a
+source-git-commit: e0a8093be33773a8b801567cfbe90f67701f9ff3
 workflow-type: tm+mt
-source-wordcount: '3274'
+source-wordcount: '3238'
 ht-degree: 0%
 
 ---
@@ -760,11 +760,7 @@ Workfront Fusion的新功能可在生產環境中，於22.4版發行排程外的
 >
 >資源排程器的淘汰已延後至22.4版發行後不久。
 
-工作負載平衡器正在替換資源調度器。 有關淘汰的詳細資訊以及如何準備使用工作負載平衡器，請參見以下資源：
-
-* [不再使用Adobe Workfront中的資源排程工具](/help/quicksilver/resource-mgmt/resource-mgmt-overview/deprecate-resource-scheduling.md)
-
-* [從資源調度遷移到工作負載平衡器](/help/quicksilver/resource-mgmt/resource-mgmt-overview/migrate-resource-scheduling-to-workload-balancer.md)
+工作負載平衡器正在替換資源調度器。
 
 * 縮放整合
 

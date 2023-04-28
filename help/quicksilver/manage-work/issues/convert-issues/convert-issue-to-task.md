@@ -6,9 +6,9 @@ description: 如果在提交問題後必須完成更多工作才能完成問題�
 author: Alina
 feature: Work Management
 exl-id: 9d8e50ab-9fed-4ded-83e1-29dc92c37171
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 44f01128ef4e6581dc8eaca318a999f2e7274f2a
 workflow-type: tm+mt
-source-wordcount: '966'
+source-wordcount: '1048'
 ht-degree: 2%
 
 ---
@@ -107,9 +107,11 @@ ht-degree: 2%
 
    >[!TIP]
    >
-   >如果已將附加至問題的多物件自訂表單設定為搭配問題和任務使用，則預設會附加該表單。 進行轉換時，系統會為任務保留問題表單中保存的所有資訊。
-   >
-   >如果目標項目在編輯項目時在「任務預設自定義Forms」欄位中定義了任何預設表單，則這些任務表單也將添加到新任務中。 原始問題和預設任務表單上欄位之間通用的任何自定義欄位都將預先填充問題欄位中的資訊。
+   >* 如果將附加到問題的多對象自定義表單配置為與問題和任務一起使用，則在您進行轉換時，如果問題和任務的自定義表單上同時存在欄位，則保留表單中保存的所有資訊。
+   >* 如果將具有計算欄位的多對象自定義表單附加到問題和任務，則問題和任務必須與表單的計算自定義欄位中引用的所有欄位相容。 如果不相容，訊息會提醒您進行調整。 如需詳細資訊，請參閱 [使用舊版表單產生器將計算資料新增至自訂表單](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
+   >* 如果目標項目在編輯項目時在「任務預設自定義Forms」欄位中定義了任何預設表單，則這些任務表單也將添加到新任務中。 原始問題和預設任務表單上欄位之間通用的任何自定義欄位都將預先填充問題欄位中的資訊。
+
+
 
 1. 按一下 [!UICONTROL **轉換為任務**].
 
