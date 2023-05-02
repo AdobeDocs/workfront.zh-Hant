@@ -9,9 +9,9 @@ description: 您可以使用Adobe Workfront Fusion Adobe Workfront連接器，�
 author: Becky
 feature: Workfront Fusion, Workfront Integrations and Apps
 exl-id: b84d2d41-a983-4ea3-b331-0302bfcf8a2b
-source-git-commit: 97f063a2e73c28a54cb1e1f99d66a8979ff3718c
+source-git-commit: 852d6acb4363e1926c20a64ada381a114bfe11ee
 workflow-type: tm+mt
-source-wordcount: '5288'
+source-wordcount: '5345'
 ht-degree: 3%
 
 ---
@@ -1665,7 +1665,26 @@ Fusion使用者可使用事件訂閱篩選器來建立更符合其使用案例�
 
 這與在 [!DNL Workfront Fusion] 藍本。 若沒有事件訂閱篩選器，您的Webhook將接收與您選取的物件類型相關的所有事件。 這些事件大多與情境無關，必須先篩選掉，才能繼續。
 
+「Workfront >監看事件」篩選器提供下列運算子：
+
+* 等於
+* 不等於
+* 大於
+* 小於
+* 大於或等於
+* 小於或等於
+* 包含
+* 存在
+* 不存在
+* 已變更
+
 >[!NOTE]
+>
+> * 此 `Exists`, `Does not exist`，和 `Changed` 運算子不需要值，且這些選項中沒有值欄位。
+> * 此 `Changed` 運算子忽略「狀態」欄位。
+
+
+>[!IMPORTANT]
 >
 >您無法編輯現有的篩選器 [!DNL Workfront] 網頁鈎點。 為設定不同的篩選器 [!DNL Workfront] 事件訂閱、移除目前的webhook並建立新網頁。
 
