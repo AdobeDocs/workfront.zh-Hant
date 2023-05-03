@@ -6,10 +6,10 @@ description: Adobe Workfront中備注體驗的更新目前正在開發中。 此
 author: Alina
 feature: Product Announcements
 exl-id: f750b35b-8021-4cc1-81d6-e1ece2530438
-source-git-commit: cb770bc7c433f1eac31be39f26893016c1a465fc
+source-git-commit: 25625291f691f7858634d9961fccb4465008dc3c
 workflow-type: tm+mt
-source-wordcount: '572'
-ht-degree: 1%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -384,12 +384,9 @@ Adobe Workfront中備注體驗的更新目前正在開發中。 此更新包含�
   </tr>
 </table>
 
+## 全新評論測試版體驗發行活動
 
-<!--
-## New commenting beta experience release activity
-
-For information about the features recently released, see [New commenting beta exprience release activity] (**********insert link after you move this file to the right folder in Betas**********)
---->
+如需最近發行之功能的相關資訊，請參閱 [全新評論測試版體驗發行活動](../../betas/new-commenting-experience-beta/new-commenting-beta-experience-release-activity.md).
 
 ## 找出新的註解體驗
 

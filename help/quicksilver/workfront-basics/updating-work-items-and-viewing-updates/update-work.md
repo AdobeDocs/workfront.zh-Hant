@@ -6,9 +6,9 @@ description: 您可以在Adobe Workfront物件（專案、任務或問題）上�
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: cb770bc7c433f1eac31be39f26893016c1a465fc
+source-git-commit: 25625291f691f7858634d9961fccb4465008dc3c
 workflow-type: tm+mt
-source-wordcount: '2949'
+source-wordcount: '3012'
 ht-degree: 1%
 
 ---
@@ -22,9 +22,10 @@ ht-degree: 1%
 >[!NOTE]
 >
 >我們目前正在重新設計Adobe Workfront中的評論體驗。
->如需新更新體驗的詳細資訊，請參閱 [全新評論體驗](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 >
->您可以訪問以下對象的新設計：
+>如需新評論體驗的詳細資訊，請參閱 [全新評論體驗](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
+>
+>您可以存取下列物件的新體驗：
 > * 啟用注釋測試版時發生問題。
    >
    >     此功能僅適用於問題的「更新」區段，不適用於下列區域：
@@ -135,7 +136,7 @@ drafted for P&P release:
 1. 轉到要為其提供更新的工作項（如項目、任務或問題）。
 1. 按一下 **更新** 區段。
 1. 按一下 **開始新更新，** 然後輸入更新。
-1. （可選）使用RTF，或在更新中新增表情符號、連結或影像，以增強您的內容。 如需詳細資訊，請參閱本文的「在Workfront更新中使用RTF」一節
+1. （可選）使用RTF，或在更新中新增表情符號、連結或影像，以增強您的內容。 如需詳細資訊，請參閱 [在Workfront更新中使用RTF](#use-rich-text-in-a-workfront-update) 本文章節
 1. （可選）更新有關工作項的以下任何資訊：
 
    <table style="table-layout:auto"> 
@@ -209,7 +210,7 @@ drafted for P&P release:
    * 編號清單
    * 添加附件 <!--(mark this parenthesis as draft: ************ this might be renamed to "Add image")-->
 
-   如需詳細資訊，請參閱本文的「在Workfront更新中使用RTF」一節。 <!--remove this list, above, when we get to parity for Rich Text-->
+   如需詳細資訊，請參閱 [在Workfront更新中使用RTF](#use-rich-text-in-a-workfront-update) 一節。 <!--remove this list, above, when we get to parity for Rich Text-->
 
    >[!TIP]
    >
@@ -257,7 +258,7 @@ drafted for P&P release:
    >無法向系統更新添加註釋。
 
 
-## 在Workfront更新中使用RTF
+## 在Workfront更新中使用RTF{#use-rich-text-in-a-workfront-update}
 
 <!--remove this top note when we get to parity with the current version, OR change the note to mention that some options are ONLY available in the Beta version and not the current one.-->
 
@@ -322,13 +323,16 @@ drafted for P&P release:
 
    或
 
-   按一下 **添加附件** 圖示 ![](assets/add-image-paperclip-icon.png) 使用備注測試版體驗時，瀏覽至您電腦上的影像。
+   按一下 **添加附件** 圖示 ![](assets/add-image-paperclip-icon.png) 使用備注測試版體驗時，瀏覽至您電腦上的影像。 <!--the name of the icon and the icon for it might change-->
 
    >[!NOTE]
    >
-   >* 您的Workfront管理員必須先啟用新增影像，您才能看到影像圖示。
+   >* 您的Workfront管理員必須先在Workfront介面區域的「更新摘要偏好設定」區段中啟用新增影像，您才能看到影像或新增附件圖示。 如需詳細資訊，請參閱 [配置用戶更新的首選項](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-preferences-user-updates.md).
    >* 最大影像檔案大小為7 MB。 支援的影像檔案類型為.jpg、.gif和.png。
-   >* 影像只能從對象的「更新」(Updates)頁簽中訪問，而「文檔」(Documents)頁簽中不提供影像。
+   >* 可從對象的「更新」部分訪問影像，這些影像也可在「文檔」區域中使用。
+   >* <!--In the current commenting experience,--> 刪除包含影像的注釋時，該影像將保留在「文檔」區域中，但不再顯示在「更新」部分中。
+
+   > <!--* In the new commenting experience, when you delete a comment that contains an image, or when you edit a comment and remove the image from it, the image is removed from the Updates section as well as from the Documents area. -->
    >* 您可以傳送包含影像且無文字的更新。
 
 1. 按一下 **更新**  或 **提交**，即使用評論測試版體驗時。
@@ -392,7 +396,7 @@ drafted for P&P release:
 
    >[!NOTE]
    >
-   >刪除含有附加影像的更新會刪除註解和影像。
+   >刪除含有附加影像的更新會刪除註解和影像。 如需詳細資訊，請參閱 [在Workfront更新中使用RTF文字](#use-rich-text-in-a-workfront-update) 一節。
 
    當您刪除的評論有與其關聯的答復時，會顯示該評論已被刪除，其名稱為刪除該評論的用戶。
 

@@ -8,10 +8,10 @@ author: Lisa, Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: de7a995d-ff1e-4631-91f7-4dc895a87c94
-source-git-commit: 730932f6c8d4658273dd943e464a038828d288e9
+source-git-commit: 25625291f691f7858634d9961fccb4465008dc3c
 workflow-type: tm+mt
-source-wordcount: '5070'
-ht-degree: 28%
+source-wordcount: '5008'
+ht-degree: 29%
 
 ---
 
@@ -220,11 +220,8 @@ ht-degree: 28%
   <tr> 
    <td> <p>文件</p> </td> 
    <td> <p>至問題主要連絡人的請求文件新增</p> </td> 
-   <td> <p>在一項我為主要連絡人的問題中已變更或上傳一個文件.</p> <p>當文檔被上載或更改時，問題的主要聯繫人會收到電子郵件通知，除非上傳或更改文檔的用戶也是主要聯繫人。</p> <p>僅當項目狀態為「當前」，並且項目在「隊列設定」頁簽上啟用了「以幫助請求隊列形式發佈」，才會發送通知。 <!-- 在FLARE中起草：如需將專案發佈為「說明請求佇列」的詳細資訊，請參閱 
-       <a href="../../../manage-work/requests/create-and-manage-request-queues/queue-details-tab-overview.md" class="MCXref xref">專案中的「佇列詳細資料」索引標籤概觀</a>.
-
-    --></p> </td>
-<td> <p>使用中</p> </td> 
+   <td> <p>在一項我為主要連絡人的問題中已變更或上傳一個文件.</p> <p>當文檔被上載或更改時，問題的主要聯繫人會收到電子郵件通知，除非上傳或更改文檔的用戶也是主要聯繫人。</p> <p>僅當項目狀態為「當前」，並且項目在「隊列設定」頁簽上啟用了「以幫助請求隊列形式發佈」，才會發送通知。</p> </td> 
+   <td> <p>使用中</p> </td> 
   </tr> 
   <tr> 
    <td> <p>問題</p> </td> 
@@ -234,6 +231,11 @@ ht-degree: 28%
   </tr> 
  </tbody> 
 </table>
+
+<!--
+      DRAFTED IN FLARE:
+       For more information on publishing a project as a Help Request Queue, see 
+       <a href="../../../manage-work/requests/create-and-manage-request-queues/queue-details-tab-overview.md" class="MCXref xref">Overview of the Queue Details tab in a project</a>.-->
 
 ## 溝通
 
@@ -268,10 +270,8 @@ ht-degree: 28%
   <tr> 
    <td> <p>使用者</p> </td> 
    <td>定向更新至用戶</td> 
-   <td> <p>有人將我加入定向更新.</p> <p>定向更新是指當用戶在更新中特別包括另一個用戶時，如 <a href="../../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md" class="MCXref xref">在更新時標籤其他人</a>.</p> <p>在此情況下，包含在定向更新中的使用者會收到有關更新的電子郵件通知。</p> <p>只有在使用者擁有物件的存取權限時，才會傳送電子郵件通知&lt;!&gt; — 在FLARE中起草：和不是輸入更新的同一用戶
-
-    -->. &lt;/p> &lt;p>此事件通知預設為啟用，無法停用。&lt;/p> &lt;/td>
-<td> <p>使用中</p> </td> 
+   <td> <p>有人將我加入定向更新.</p> <p>定向更新是指當用戶在更新中特別包括另一個用戶時，如 <a href="../../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md" class="MCXref xref">在更新時標籤其他人</a>.</p> <p>在此情況下，包含在定向更新中的使用者會收到有關更新的電子郵件通知。</p> <p>只有在使用者擁有物件的存取權限，且在其設定檔中將其保持啟用時，才會傳送電子郵件通知。  </p> <p>此事件通知預設為啟用，無法停用。</p> </td> 
+   <td> <p>使用中</p> </td> 
   </tr> 
   <tr> 
    <td> <p>團隊</p> </td> 
@@ -308,6 +308,10 @@ ht-degree: 28%
   </tr> 
  </tbody> 
 </table>
+
+<!--
+      DRAFTED IN FLARE: for the directed update above, it also mentions:
+        ... and is not the same user that enters the update-->
 
 ## 核准資訊
 
@@ -398,7 +402,7 @@ ht-degree: 28%
   </tr> 
   <tr> 
    <td> <p>問題</p> </td> 
-   <td> <p>核准決策，以發放指派給</p> </td> 
+   <td> <p>核准決策以發放指派給</p> </td> 
    <td> <p>我要解決的問題已核准或已拒絕.</p> <p>問題的受託人會在做出核准決定（核准或拒絕）時收到電子郵件通知。</p> <p>擁有審核許可證的用戶不會收到通知。</p> </td> 
    <td> <p>非使用中</p> </td> 
   </tr> 
@@ -429,11 +433,8 @@ ht-degree: 28%
   <tr> 
    <td> <p>文件</p> </td> 
    <td> <p>至問題受指派者的請求文件新增</p> </td> 
-   <td> <p>根據我的請求上傳或變更了文件.</p> <p>當檔案上傳或因新增的問題而變更時，問題受託人會收到電子郵件通知。</p> <p>如果輸入問題的使用者是問題受託人，則不會傳送電子郵件通知。</p> <p>僅當項目狀態為「當前」，並且項目在「隊列設定」頁簽上啟用了「以幫助請求隊列形式發佈」，才會發送通知。<!-- 在FLARE中起草：如需將專案發佈為「說明請求佇列」的詳細資訊，請參閱 
-       <a href="../../../manage-work/requests/create-and-manage-request-queues/queue-details-tab-overview.md" class="MCXref xref">專案中的「佇列詳細資料」索引標籤概觀</a>.
-
-    --></p> </td>
-<td> <p>使用中</p> </td> 
+   <td> <p>根據我的請求上傳或變更了文件.</p> <p>當檔案上傳或因新增的問題而變更時，問題受託人會收到電子郵件通知。</p> <p>如果輸入問題的使用者是問題受託人，則不會傳送電子郵件通知。</p> <p>僅當項目狀態為「當前」，並且項目在「隊列設定」頁簽上啟用了「以幫助請求隊列形式發佈」，才會發送通知。</p> </td> 
+   <td> <p>使用中</p> </td> 
   </tr> 
   <tr> 
    <td> <p>任務</p> </td> 
@@ -461,6 +462,11 @@ ht-degree: 28%
   </tr> 
  </tbody> 
 </table>
+
+<!--
+      DRAFTED IN FLARE: from the Request document add to issue assigned to: 
+        For more information on publishing a project as a Help Request Queue, see 
+       <a href="../../../manage-work/requests/create-and-manage-request-queues/queue-details-tab-overview.md" class="MCXref xref">Overview of the Queue Details tab in a project</a>. -->
 
 ## 關於我正在執行的項目的資訊
 
@@ -739,12 +745,7 @@ ht-degree: 28%
    <td> </td> 
    <td> <p>錯誤通知</p> </td> 
    <td> <p>發現需要注意的錯誤。</p> <p>Workfront嘗試且無法連線至POP帳戶後，會產生電子郵件通知。 25次嘗試後，Workfront會停用與POP帳戶的連線，以保留資源並傳送通知。 </p> <p>如果POP電子郵件與請求隊列關聯，則電子郵件通知將發送給項目所有者；如果POP帳戶與「電子郵件設定」中的「傳入郵件」功能關聯，則電子郵件通知將發送給Workfront管理員。
-     <!--
-      DRAFTED IN FLARE:
-       <br>For more information on how to associate a request queue with a POP account, see 
-       <a href="../../../manage-work/requests/create-and-manage-request-queues/queue-details-tab-overview.md" class="MCXref xref">Overview of the Queue Details tab in a project</a>.
-       For more information on how to enable a POP account for incoming mail, see .
-      --></p> </td> 
+   </p> </td> 
    <td> <p>使用中</p> </td> 
   </tr> 
   <tr> 
@@ -797,6 +798,14 @@ ht-degree: 28%
   </tr> 
  </tbody> 
 </table>
+
+<!--
+      DRAFTED IN FLARE: from Error notification above: 
+      
+       <br>For more information on how to associate a request queue with a POP account, see 
+       <a href="../../../manage-work/requests/create-and-manage-request-queues/queue-details-tab-overview.md" class="MCXref xref">Overview of the Queue Details tab in a project</a>.
+       For more information on how to enable a POP account for incoming mail, see .
+      -->
 
 ## 委派
 

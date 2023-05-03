@@ -6,9 +6,9 @@ description: 您可以在Adobe Workfront目標中新增評論至您可檢視的�
 author: Alina
 feature: Workfront Goals
 exl-id: 6cf2d2d2-5ba5-40f2-a803-01359c338541
-source-git-commit: 61a107e1ee8a415fd94e73fc65fa5f59f7de02d1
+source-git-commit: 25625291f691f7858634d9961fccb4465008dc3c
 workflow-type: tm+mt
-source-wordcount: '874'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -139,7 +139,7 @@ ht-degree: 0%
    >
    >在您完成輸入並提交注釋之前，從「更新」部分導航離開該頁面，即使您註銷並重新登錄後，該頁面上的注釋仍以草稿模式保留。 添加到注釋的任何影像也保存在草稿中。 草稿會儲存7天，之後會捨棄，且無法復原。 起草的注釋只對輸入它們的用戶可見。
 
-1. （可選）若要將RTF格式新增至更新，請使用RTF工具列或其旁邊的圖示上的任何選項，建立超連結或影像。 如需詳細資訊，請參閱 [更新工作](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+1. （可選）若要將RTF格式新增至更新、超連結或影像，請使用RTF工具列上的任何選項或其旁邊的圖示。 如需詳細資訊，請參閱 [更新工作](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 1. （選用）在 **標籤人員或團隊** 區域中，開始鍵入用戶的名稱或電子郵件，或要包含在此注釋中的團隊，然後在清單中顯示時選擇它。
 1. 選取 **對我的公司私有** 切換，讓留言只對您公司中的人員顯示。
 
@@ -159,8 +159,8 @@ ht-degree: 0%
    >![](assets/real-time-new-red-indicator-unified-commenting.png)
 
 1. （選用）若要編輯留言，請按一下 **更多** 功能表 ![](assets/more-icon.png) 在「贊」圖示的右側，然後按一下 **編輯**.
-1. 編輯注釋中的資訊、添加或刪除影像或刪除任何標籤的用戶。
-您可以在15內編輯意見，提交後即可。 更新註解時，會在顯示的日期戳記左側新增「已編輯」指標。
+1. 編輯注釋中的資訊、添加或刪除影像，或刪除任何標籤的用戶。
+您可以在提交意見後15分鐘內加以編輯。 更新註解時，會在顯示的日期戳記左側新增「已編輯」指標。
 
    ![](assets/edited-tag-on-comment-unified-commenting.png)
 

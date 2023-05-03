@@ -6,10 +6,10 @@ description: 當某人添加或答復工作對象的更新時，其答復將出�
 author: Lisa and Alina
 feature: Get Started with Workfront
 exl-id: a8271f3c-7a08-4eb3-aaff-deb250f5af73
-source-git-commit: 112a5f21c80aaf9b689ee1f518ee633fdba82f3d
+source-git-commit: 25625291f691f7858634d9961fccb4465008dc3c
 workflow-type: tm+mt
-source-wordcount: '1114'
-ht-degree: 1%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -22,9 +22,10 @@ ht-degree: 1%
 >[!NOTE]
 >
 >我們目前正在重新設計Adobe Workfront中的評論體驗。
->如需新更新體驗的詳細資訊，請參閱 [全新評論體驗](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 >
->您可以訪問以下對象的新設計：
+>如需新評論體驗的詳細資訊，請參閱 [全新評論體驗](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
+>
+>您可以存取下列物件的新體驗：
 > * 啟用注釋測試版時發生問題。
    >
    >     此功能僅適用於問題的「更新」區段，不適用於下列區域：
