@@ -8,7 +8,7 @@ feature: Workfront API
 exl-id: d8c27915-8e1b-4804-9ef8-3a2efd57caac
 source-git-commit: 01f5970fc17f9390d48b00541c912d21ba77c0a4
 workflow-type: tm+mt
-source-wordcount: '4478'
+source-wordcount: '4475'
 ht-degree: 0%
 
 ---
@@ -272,7 +272,7 @@ GET /attask/api/v15.0/task/search?percentComplete=100
 | 包含 | 傳回名稱包含「Workfront」的結果 | <pre>...name=Workfront&amp;name_Mod=contains...</pre> |
 | 介於 | 傳回過去7天內具有登入日期的結果 | <pre>...entryDate=$TODAY-7d&amp;entryDate_Range=$$TODAY&amp;entryDate_Mod=between...</pre> |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 >[!NOTE]
 搜尋請求會區分大小寫。 如果您收到錯誤，請確定  **_Mod** 和 **範圍(_R)** 大小寫正確。
@@ -335,7 +335,7 @@ OR陳述式只會傳回API呼叫中符合OR陳述式篩選條件的記錄。 篩
 
 #### 搜尋多個巢狀欄位
 
-預設情況下，僅返回每個任務的名稱和ID，但可以使用冒號語法指定其他嵌套欄位。 若要檢視相關物件或集合的所有可用欄位，只需在物件/集合參考上附加冒號和星號。
+預設情況下，僅返回每個任務的名稱和ID，但可以使用冒號語法指定其他嵌套欄位。 若要檢視相關物件或集合的所有可用欄位，只需在物件/集合參考上附加冒號和星號即可。
 <pre>/attask/api/v15.0/task/search?fields=assignments:*</pre>
 
 #### 擷取自訂資料
