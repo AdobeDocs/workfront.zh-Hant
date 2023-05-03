@@ -8,15 +8,14 @@ author: Courtney, Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 0343fe74-1be4-43e2-9e3d-8aa1f7ea26fa
-source-git-commit: fed4713d1e9044879db6d34dc4725245a2516634
+source-git-commit: 0bf30319978e1ec41a7ba4dc08788e15024cd03f
 workflow-type: tm+mt
-source-wordcount: '2786'
+source-wordcount: '2802'
 ht-degree: 0%
 
 ---
 
 # 編輯使用者的設定檔
-
 
 >[!IMPORTANT]
 >
@@ -88,7 +87,7 @@ ht-degree: 0%
        </ul> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">喜好設定 </td> 
+      <td role="rowheader">偏好設定 </td> 
       <td> 
        <ul> 
       <li> <p><b>時區：</b> 使用者的時區。</p> <p>如需協助使用者在Workfront中跨時區進行協作的詳細資訊，請參閱 <a href="../../../workfront-basics/tips-tricks-and-troubleshooting/working-across-timezones.md" class="MCXref xref">跨時區工作</a>.</p> </li> 
@@ -200,11 +199,11 @@ ht-degree: 0%
      </tr> 
      <tr> 
       <td role="rowheader">自訂表單</td> 
-      <td>將現有用戶自定義表單與此用戶關聯。 您必須先建立自訂表單，才能將其與使用者建立關聯。 清單中只會顯示使用中的自訂表單。 如需建立自訂表單的相關資訊，請參閱 <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref">建立或編輯自訂表單</a>.</td> 
+      <td><p>將現有用戶自定義表單與此用戶關聯。 您必須先建立自訂表單，才能將其與使用者建立關聯。 清單中只會顯示使用中的自訂表單。 您無權編輯的欄位不會顯示在個別自訂表單中。</p> <p>如需建立自訂表單的相關資訊，請參閱 <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref">建立或編輯自訂表單</a>.</p></td> 
      </tr> 
      <tr> 
       <td role="rowheader">評論</td> 
-      <td> <p>輸入要傳送給使用者的註解，並輸入其使用者設定檔的「更新」區域。</p> </td> 
+      <td>輸入要傳送給使用者的註解，並輸入其使用者設定檔的「更新」區域。</td> 
      </tr> 
     </tbody> 
    </table>
