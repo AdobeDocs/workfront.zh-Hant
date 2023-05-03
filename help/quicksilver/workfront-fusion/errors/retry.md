@@ -7,7 +7,7 @@ description: 在某些情況下，如果故障原因可能會隨著時間而過�
 author: Becky
 feature: Workfront Fusion
 exl-id: 1058905c-6c95-4a8c-8956-e1606f1486d9
-source-git-commit: 97f91d663df86341a079894cff04d07c18b7bf08
+source-git-commit: 184033c8957e955b3011f7e0845a73029f6b7aba
 workflow-type: tm+mt
 source-wordcount: '639'
 ht-degree: 0%
@@ -71,11 +71,11 @@ ht-degree: 0%
 * 最小重試間隔為1分鐘。
 * 如果模組正在處理多個套件組合，且套件組合的處理失敗，則部分執行（僅導致錯誤的套件組合）會移至不完整的執行資料夾，並根據 [!UICONTROL 插播] 指令設定。 但是，當前執行將繼續，而模組將繼續處理後續的包。 您可以啟用「[!UICONTROL 循序處理]」選項 [!UICONTROL 藍本設定] 以防止在Incomplete executions資料夾中儲存的執行已成功解析之前再次執行方案。
 
-有關未完成執行的詳細資訊，請參見 [在中檢視並解決未完成的執行 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/view-and-resolve-incomplete-executions.md).
+   有關未完成執行的詳細資訊，請參見 [在中檢視並解決未完成的執行 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/view-and-resolve-incomplete-executions.md).
 
 ### 使用 [!UICONTROL 中繼器] 模組
 
-1. 採用 **[!UICONTROL 中繼器]** 模組及其設定 [!UICONTROL 重複] 欄位至最大嘗試次數。
+1. 採用 **[!UICONTROL 中繼器]** 模組及其設定 **[!UICONTROL 重複]** 欄位至最大嘗試次數。
 1. 將可能失敗的模組連結至 **[!UICONTROL 中繼器]** 模組。
 1. 將錯誤處理程式路由附加到此模組(請參閱 [錯誤處理 [!DNL Adobe Workfront Fusio]n](../../workfront-fusion/errors/error-handling.md))。
 1. 連結 **[!UICONTROL 工具] > [!UICONTROL 睡眠]** 模組到錯誤處理程式路由並設定其 **[!UICONTROL 延遲]** 欄位至兩次嘗試之間的秒數。
@@ -98,7 +98,7 @@ ht-degree: 0%
 >
 >![](assets/http-make-request-350x116.png)
 >
->如果可能發生故障的模組的結果太複雜，無法儲存在簡單變數中，則可以使用資料儲存來儲存/檢索結果。 資料儲存區只包含一條記錄。 例如，記錄的密鑰可以是， `Result`.
+>如果可能發生故障的模組的結果太複雜，無法儲存在簡單變數中，您可以使用資料儲存來儲存/擷取結果。 資料儲存區只包含一條記錄。 例如，記錄的密鑰可以是， `Result`.
 >
 >如需資料存放區的詳細資訊，請參閱 [資料儲存於 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/data-stores.md)
 

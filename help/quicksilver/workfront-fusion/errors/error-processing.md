@@ -8,9 +8,9 @@ description: 執行案例期間有時會發生錯誤。 當服務因無法連線
 author: Becky
 feature: Workfront Fusion
 exl-id: 468d7460-3853-4016-bff9-b9d3b87198ed
-source-git-commit: 97f91d663df86341a079894cff04d07c18b7bf08
+source-git-commit: 184033c8957e955b3011f7e0845a73029f6b7aba
 workflow-type: tm+mt
-source-wordcount: '1191'
+source-wordcount: '1194'
 ht-degree: 0%
 
 ---
@@ -61,8 +61,10 @@ ht-degree: 0%
 * 如果錯誤發生在第一個模組，則會以警告訊息終止執行情境。 [!DNL Workfront Fusion] 接著，會以增加的時間間隔重複嘗試重新執行情境（以下說明）。 如果所有嘗試都失敗， [!DNL Workfront Fusion] 停用案例。
 * 如果連接錯誤發生在第一個模組以外的其他模組上，則後續步驟取決於 [允許儲存不完整的執行](../../workfront-fusion/scenarios/scenario-settings-panel.md#allow) 方案進階設定中的選項：
 
-   * 如果啟用此選項，則會將方案的執行移至 [!UICONTROL 未完成執行] 資料夾 [!DNL Workfront Fusion] 不斷嘗試以增加的時間間隔重新執行情境。 如果所有嘗試都失敗，則執行會保留在 [在中檢視並解決未完成的執行 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/view-and-resolve-incomplete-executions.md) 資料夾等待用戶手動解析。
-   * 如果禁用了該選項，則方案的執行將以錯誤結束，然後是回滾階段。 [!DNL Workfront Fusion] 然後，以增加的時間間隔反複嘗試重新執行情境。 如果所有嘗試都失敗， [!DNL Workfront Fusion] 停用案例。
+   * 如果啟用此選項，則會將方案的執行移至 [!UICONTROL 未完成執行] 資料夾 [!DNL Workfront Fusion] 不斷嘗試以增加的時間間隔重新執行情境。 如果所有嘗試都失敗，則執行將保留在「未完成的執行」資料夾中，等待用戶手動解決。
+
+      有關未完成執行的詳細資訊，請參閱 [在中檢視並解決未完成的執行 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/view-and-resolve-incomplete-executions.md).
+   * 如果禁用此選項，則執行方案會以錯誤結束，然後是回滾階段。 [!DNL Workfront Fusion] 然後，以增加的時間間隔反複嘗試重新執行情境。 如果所有嘗試都失敗， [!DNL Workfront Fusion] 停用案例。
 
 ### 增加時間間隔
 
@@ -80,17 +82,19 @@ ht-degree: 0%
 >
 >**範例:**
 >
->案例包含 [!DNL Google Sheets] 觸發 [!UICONTROL 監視行]. [!DNL Google Sheets] 因為維護，在 [!DNL Workfront Fusion] 會啟動情境，因此無法擷取新列。 情境會在10分鐘內停止並再次嘗試。 由於此時間範圍內服務繼續不可用， [!DNL Workfront Fusion] 仍無法取得新列的相關資訊。 方案的下次執行排程為1小時後。 [!DNL Google Sheets] 此時間內可再次使用，且案例成功執行。
+>案例包含 [!DNL Google Sheets] 觸發 [!UICONTROL 監視行]. [!DNL Google Sheets] 因為維護，在 [!DNL Workfront Fusion] 會啟動情境，因此無法擷取新列。 情境會在10分鐘內停止並再次嘗試。 因為 [!DNL Google Sheets] 仍無法使用， [!DNL Workfront Fusion] 仍無法取得新列的相關資訊。 方案的下次執行排程為1小時後。 [!DNL Google Sheets] 現在可再次使用，且藍本成功執行。
 
 ## 資料錯誤
 
 `DataError`
 
-當項目不正確對應，且未通過在 [!DNL Workfront Fusion] 使用的第三方服務的側面或側面。 如需詳細資訊，請參閱 [將資訊從一個模組對應到 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
+當項目不正確對應，且未通過在 [!DNL Workfront Fusion] 使用的第三方服務的側面或側面。
 
 如果發生此錯誤，則情境（直到模組失敗的位置）會移至不完整的執行資料夾，您可在其中疑難排解問題。 但是，情境不會停止，並會繼續根據其排程執行。 若要在出現「資料錯誤」時停止執行案例，請在「案例設定」面板中啟用「循序處理」選項。
 
 如果您尚未啟用 [!UICONTROL 允許儲存不完整的執行] 選項，方案的執行將終止並出現錯誤，並執行回滾。
+
+如需對應的詳細資訊，請參閱 [將資訊從一個模組對應到 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
 
 有關未完成執行的資訊，請參閱 [檢視並解決Adobe Workfront Fusion中的不完整執行](../../workfront-fusion/scenarios/view-and-resolve-incomplete-executions.md).
 
@@ -108,7 +112,7 @@ ht-degree: 0%
 
 `InvalidAccessTokenError`
 
-當 [!DNL Workfront Fusion] 無法訪問在第三方服務中註冊的帳戶。 這通常發生在您撤銷 [!DNL Workfront Fusion] 在指定服務的管理中，但相關情況會依排程持續執行。
+當 [!DNL Workfront Fusion] 無法訪問在第三方服務中註冊的帳戶。 這通常發生在您撤銷 [!DNL Workfront Fusion] 在指定服務的管理中，但相關的案例會根據排程持續執行。
 
 如果發生此錯誤，則會立即停止執行情境。 從發生錯誤的模組開始的其餘方案會移至不完整的執行資料夾。
 
@@ -118,7 +122,9 @@ ht-degree: 0%
 
 `RateLimitError`
 
-如果超過給定服務設定的限制，則生成速率限制錯誤。 如果發生此錯誤， [!DNL Workfront Fusion] 會以與連線錯誤相同的方式進行。 如需詳細資訊，請參閱 [連接錯誤](#connection-error).
+如果超過給定服務設定的限制，則生成速率限制錯誤。 如果發生此錯誤， [!DNL Workfront Fusion] 會以與連線錯誤相同的方式進行。
+
+如需詳細資訊，請參閱 [連接錯誤](#connection-error).
 
 ## 資料錯誤不完整
 
@@ -126,11 +132,15 @@ ht-degree: 0%
 
 只有觸發器才會發生不完整的資料錯誤。 如果觸發器無法從指定服務下載所需資料，則會產生此錯誤。
 
-如果藍本終止，且 `IncompleteDataError`，其進一步行為將取決於其設定 [!UICONTROL 連續錯誤的最大數量]. 如需詳細資訊，請參閱 [連續錯誤數](../../workfront-fusion/scenarios/scenario-settings-panel.md#number) 在文章中 [Adobe Workfront Fusion中的案例設定面板](../../workfront-fusion/scenarios/scenario-settings-panel.md).
+如果藍本終止，且 `IncompleteDataError`，其進一步行為將取決於其設定 [!UICONTROL 連續錯誤的最大數量].
+
+如需詳細資訊，請參閱 [連續錯誤數](../../workfront-fusion/scenarios/scenario-settings-panel.md#number) 在文章中 [Adobe Workfront Fusion中的案例設定面板](../../workfront-fusion/scenarios/scenario-settings-panel.md).
 
 >[!INFO]
 >
->**範例：** 情境具有 [!DNL Workfront] 觸發 [!UICONTROL 監視記錄] 設定為監視文檔。 當您上傳大型檔案（例如長視訊）時，會執行此案例。 因為 [!UICONTROL Workfront融合] 嘗試在視訊仍上傳至Workfront時下載，情境會以 `IncompleteDataError`.
+>**範例:**
+>
+>情境具有 [!DNL Workfront] 觸發 [!UICONTROL 監視記錄] 設定為監視文檔。 當您上傳大型檔案（例如長視訊）時，會執行此案例。 因為 [!UICONTROL Workfront融合] 嘗試在視訊仍上傳至Workfront時下載，情境會以 `IncompleteDataError`.
 
 ## 運行時錯誤
 

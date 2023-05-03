@@ -8,9 +8,9 @@ description: 本文說明可用於錯誤處理的指令 [!DNL Adobe Workfront Fu
 author: Becky
 feature: Workfront Fusion
 exl-id: dcf4f7e3-78d8-4eb4-9483-8a1c18b0e436
-source-git-commit: 50b43cd4bafdfc3379eb1d73c12e15c791e28dbe
+source-git-commit: f4e43d34068c987755559573b4ecd618ff710686
 workflow-type: tm+mt
-source-wordcount: '861'
+source-wordcount: '905'
 ht-degree: 0%
 
 ---
@@ -83,17 +83,31 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->當前，錯誤處理指令不能用在錯誤處理路由的範圍之外， [!DNL Workfront Fusion] 目前不提供可讓您輕鬆有條件地產生（擲回）錯誤的「擲回」模組，但可採用因應措施來模擬其功能。 如需詳細資訊，請參閱 [錯誤處理程式路由](../../workfront-fusion/errors/error-handling.md#error) 在文章中 [Adobe Workfront Fusion中的錯誤處理](../../workfront-fusion/errors/error-handling.md). 另請參閱 [擲回因應措施](../../workfront-fusion/errors/throw.md#workarou) 在文章中 [在Adobe Workfront Fusion中擲回錯誤處理](../../workfront-fusion/errors/throw.md).
+>* 當前，錯誤處理指令不能在錯誤處理路由之外使用。
+   >
+   >   如需詳細資訊，請參閱 [錯誤處理程式路由](../../workfront-fusion/errors/error-handling.md#error) 在文章中 [Adobe Workfront Fusion中的錯誤處理](../../workfront-fusion/errors/error-handling.md).
+>* [!DNL Workfront Fusion] 目前不提供可讓您輕鬆有條件地產生（擲回）錯誤的「擲回」模組，但可採用因應措施來模擬其功能。
+   >
+   >   如需詳細資訊，請參閱 [擲回因應措施](../../workfront-fusion/errors/throw.md#workaround-for-throw) 在文章中 [在Adobe Workfront Fusion中擲回錯誤處理](../../workfront-fusion/errors/throw.md).
+
 
 ## 插播 {#break}
 
-當錯誤由 [!DNL Break] 指令，則會在 [在中檢視並解決未完成的執行 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/view-and-resolve-incomplete-executions.md) 資料夾，儲存情境執行的狀態以及來自先前模組的資料。 對於導致錯誤的每個資料組合，會建立單獨的記錄。
+當錯誤由 [!DNL Break] 指令，則在「未完成執行」資料夾中建立記錄。 此記錄會儲存情境執行的狀態，以及來自先前模組的資料。 該記錄引用錯誤源所在的模組，並包含關於該模組作為輸入接收哪些資料的資訊。 對於導致錯誤的每個資料組合，會建立單獨的記錄。
 
-該記錄引用錯誤源所在的模組，並包含關於該模組作為輸入接收哪些資料的資訊。 如需詳細資訊，請參閱 [檢視並解決Adobe Workfront Fusion中的不完整執行](../../workfront-fusion/scenarios/view-and-resolve-incomplete-executions.md).
+如需詳細資訊，請參閱 [檢視並解決Adobe Workfront Fusion中的不完整執行](../../workfront-fusion/scenarios/view-and-resolve-incomplete-executions.md).
 
-在此，您可以手動解決錯誤，方法是更新案例（如有需要）並執行一次。
+### 解決Break指令導致的錯誤
 
-另一方面，若要啟用 [!UICONTROL 自動完成執行] 選項，可在指定的分鐘數後重新執行方案，將其配置為自動處理未完成的執行。
+您可以更新案例（如有需要）並執行一次，以手動解決錯誤。
+
+您也可以設定藍本，透過重新執行藍本來自動處理未完成的執行。 要配置模組以處理不完整的執行，請執行以下操作：
+
+1. 在中斷模組內，啟用 [!UICONTROL **自動完成執行**] 選項。
+1. 在 **嘗試次數** 欄位，輸入或映射您希望模組重試執行的最大嘗試次數
+
+   此數字必須介於1和100之間。
+1. 在 **兩次嘗試之間的間隔** 欄位，輸入或映射每次重試嘗試之間的分鐘數。
 
 啟用此選項後，當發生錯誤時，會擷取未完成的執行(在 [!UICONTROL 兩次嘗試之間的間隔] 欄位)，並使用原始輸入資料執行。 這將重複執行，直到模組執行完成，且未發生錯誤，或直到達到指定的嘗試次數為止。
 
@@ -101,12 +115,13 @@ ht-degree: 0%
 >
 >如果初始重試嘗試失敗，則重試之間的間隔會以指數方式增加，每次嘗試都是如此。
 
+
 開啟「自動完成執行」時，情境執行會標示為「成功」，因為中斷錯誤處理常式的自動重試會自動處理問題。 在此情況下，使用者不會收到有關失敗執行的電子郵件。
 
 關閉「自動完成執行」時，執行會標示為「警告」。
 
-![](assets/break-directive-350x241.png)
+在「未完成執行」下儲存的執行有一些例外，而有一些錯誤類型，則無法自動重試情境執行。
 
-但是，在「不完整執行」下儲存的執行有一些例外，並且有一些錯誤類型，則無法自動重試方案執行。 如需詳細資訊，請參閱 [允許儲存不完整的執行](../../workfront-fusion/scenarios/scenario-settings-panel.md#allow) 在文章中 [Adobe Workfront Fusion中的案例設定面板](../../workfront-fusion/scenarios/scenario-settings-panel.md).
+如需詳細資訊，請參閱 [允許儲存不完整的執行](../../workfront-fusion/scenarios/scenario-settings-panel.md#allow) 在文章中 [Adobe Workfront Fusion中的案例設定面板](../../workfront-fusion/scenarios/scenario-settings-panel.md).
 
 如需詳細資訊，請參閱 [Adobe Workfront Fusion中的進階錯誤處理](../../workfront-fusion/errors/advanced-error-handling.md).
