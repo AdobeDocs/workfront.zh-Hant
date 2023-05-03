@@ -2,9 +2,9 @@
 user-guide-title: Workfront 指南
 user-guide-description: 使用文件、教學課程和其他資源，了解如何在您的組織中實施並有效使用 Adobe Workfront。
 feature-set: Workfront
-source-git-commit: 852d6acb4363e1926c20a64ada381a114bfe11ee
+source-git-commit: 62a6cc8f60a2a08a694ae59895072c86764ba9b5
 workflow-type: tm+mt
-source-wordcount: '12919'
+source-wordcount: '12934'
 ht-degree: 1%
 
 ---
@@ -344,6 +344,10 @@ ht-degree: 1%
       * 報表畫布測試版 {#reporting-canvas-beta}
          * [報表畫布測試版概述](product-announcements/betas/reporting-canvas-beta/reporting-canvas-beta-overview.md)
          * [報表畫布測試版：發行活動](product-announcements/betas/reporting-canvas-beta/reporting-canvas-release-activity.md)
+      * 全新評論體驗測試版 {#new-commenting-experience-beta}
+         * [全新評論測試版體驗資訊](product-announcements/betas/new-commenting-experience-beta/new-commenting-beta-experience-information.md)
+         * [全新評論體驗](product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md)
+         * [全新評論測試版體驗發行活動](product-announcements/betas/new-commenting-experience-beta/new-commenting-beta-experience-release-activity.md)
 * 管理與設定 {#administration-and-setup}
    * [管理與設定](administration-and-setup/administration-and-setup.md)
    * 開始管理 {#get-started-administration}
@@ -810,7 +814,6 @@ ht-degree: 1%
       * [在更新時標籤其他人](workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md)
       * [在「附註」報表中檢視所有更新](workfront-basics/updating-work-items-and-viewing-updates/view-all-updates-in-a-report.md)
       * [Work On It and Done（完成和處理）按鈕概述](workfront-basics/updating-work-items-and-viewing-updates/work-on-it-and-done-buttons-accept-complete-work.md)
-      * [全新評論體驗](workfront-basics/updating-work-items-and-viewing-updates/unified-commenting-experience.md)
    * 使用自訂表單 {#work-with-custom-forms}
       * [使用自訂表單](workfront-basics/work-with-custom-forms/work-with-custom-forms.md)
       * [將自訂表單新增至物件](workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md)

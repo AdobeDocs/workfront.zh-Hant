@@ -7,7 +7,7 @@ description: 對象的「更新」部分顯示用戶在跟蹤對象更改的對�
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: 607e0523cf97fdf26b650dc441e52b4ae4528af4
+source-git-commit: 112a5f21c80aaf9b689ee1f518ee633fdba82f3d
 workflow-type: tm+mt
 source-wordcount: '903'
 ht-degree: 4%
@@ -23,7 +23,7 @@ ht-degree: 4%
 >[!NOTE]
 >
 >我們目前正在重新設計Adobe Workfront中的評論體驗。
->如需新更新體驗的詳細資訊，請參閱 [全新評論體驗](../updating-work-items-and-viewing-updates/unified-commenting-experience.md).
+>如需新更新體驗的詳細資訊，請參閱 [全新評論體驗](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 >
 >您可以訪問以下對象的新設計：
 > * 啟用注釋測試版時發生問題。
@@ -189,7 +189,7 @@ ht-degree: 4%
 >
 >如需Adobe Workfront中物件階層的相關資訊，請參閱 [了解Adobe Workfront中的物件](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
 >
-> 無法回覆新評論測試版體驗中的系統更新。 如需詳細資訊，請參閱 [全新評論體驗](../updating-work-items-and-viewing-updates/unified-commenting-experience.md).
+> 無法回覆新評論測試版體驗中的系統更新。 如需詳細資訊，請參閱 [全新評論體驗](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 
 ## 「更新」一節的限制
 

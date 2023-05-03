@@ -7,10 +7,10 @@ description: Adobe Workfront產品正逐步淘汰各種功能。 以下是每項
 author: Luke
 feature: Product Announcements
 exl-id: 119d65c7-2925-4b36-832a-ee06a718ce7e
-source-git-commit: e0a8093be33773a8b801567cfbe90f67701f9ff3
+source-git-commit: 112a5f21c80aaf9b689ee1f518ee633fdba82f3d
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '260'
+ht-degree: 1%
 
 ---
 
@@ -64,10 +64,9 @@ Adobe Workfront產品正逐步淘汰各種功能。 以下是每項功能的簡�
       <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Split</p>
      --> <!--
       <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Email Service updated (MailGun)</p>
-     --> <p> </p> </td> 
-    <td> </td> 
-    <td>Q4</td> 
-   </tr>
-  --&gt; 
- </tbody> 
+     --> </td>
+
+</tr>
+
+</tbody> 
 </table>
