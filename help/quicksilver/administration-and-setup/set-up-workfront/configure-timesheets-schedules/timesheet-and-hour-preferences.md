@@ -8,9 +8,9 @@ author: Courtney and Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 8cc49dc2-b23f-4899-85dd-bd53d5242dbe
-source-git-commit: 9f7f8a50bb805b1d6845df79ecffaa329d5abc26
+source-git-commit: 3b0a82381d1c33d897b123a597df21ba54cc2565
 workflow-type: tm+mt
-source-wordcount: '1309'
+source-wordcount: '1310'
 ht-degree: 0%
 
 ---
@@ -93,7 +93,7 @@ ht-degree: 0%
     </tbody> 
    </table>
 
-1. 在 **[!UICONTROL 記錄時間]** ，請配置以下任一選項：
+1. 在 **[!UICONTROL 使用者可在此記錄時間]** ，請配置以下任一選項：
 
    <table style="table-layout:auto">
     <tr>
@@ -110,7 +110,7 @@ ht-degree: 0%
     </tr>
    </table>
 
-1. 在 **[!UICONTROL 用預填時間表]**&#x200B;部分，配置以下任一選項：
+1. 在 **[!UICONTROL 預填工時單]** ，請配置以下任一選項：
 
    <table style="table-layout:auto"> 
     <col> 
@@ -135,11 +135,7 @@ ht-degree: 0%
     </tbody> 
    </table>
 
-1. 在 **[!UICONTROL 項目、任務或問題刪除首選項]** 區段，指定下列項目：
-
-   <!--
-   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Better title would be Deleting projects, tasks, and issues</p>
-   -->
+1. 在 **[!UICONTROL 已刪除的專案、工作和問題]** 區段，指定下列項目：
 
    <table style="table-layout:auto"> 
     <col> 

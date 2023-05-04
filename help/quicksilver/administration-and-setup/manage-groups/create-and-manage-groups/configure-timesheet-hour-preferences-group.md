@@ -5,30 +5,32 @@ keywords: 組，首選項，任務，組，問題，解鎖
 navigation-topic: create-and-manage-groups
 title: 配置組的時間表和小時首選項
 description: 在系統級別，Adobe Workfront管理員可以解鎖工時單和小時首選項部分「常規首選項」和「預填充工時單」。 這可讓群組管理員為自己的群組獨立設定這些區段中的選項。
-author: Caroline
+author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 1ee9343e-9452-4e41-a9ff-a6c865d4813b
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 3b0a82381d1c33d897b123a597df21ba54cc2565
 workflow-type: tm+mt
-source-wordcount: '1203'
-ht-degree: 0%
+source-wordcount: '1368'
+ht-degree: 1%
 
 ---
 
 # 配置組的時間表和小時首選項
 
+{{highlighted-preview}}
+
 Adobe Workfront管理員可以在系統層級解除鎖定下列時間表和小時偏好設定區段，讓群組管理員可以針對自己的群組獨立設定這些區段：
 
 * 一般喜好設定
-* 用預填時間表
+* <span class="preview">使用者記錄時間的位置</span>
+* 預填工時單
 
 如果您管理的群組上方有任何群組，其管理員也可以對您的群組執行此動作。 Workfront管理員（適用於任何群組）也是如此。
 
 「工時單」和「小時首選項」頁上的以下部分僅在系統級別可配置，並且無法為組解鎖：
 
-* 記錄時間
-* 專案、任務或問題刪除喜好設定
+* 已刪除的專案、任務和問題
 
 有關Workfront管理員如何解除工時表和小時首選項鎖定的資訊，請參閱 [解鎖組的工時單和小時首選項](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md#lock) 在文章中 [配置工時單和小時首選項](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
 
@@ -134,7 +136,32 @@ Adobe Workfront管理員可以在系統層級解除鎖定下列時間表和小�
     </tbody> 
    </table>
 
-1. 在 **用預填時間表** ，請配置以下任一選項：
+1. <span class="preview">在 **使用者可在此記錄時間** ，請配置以下任一選項：</span>
+
+   <table style="table-layout:auto">
+    <col>
+    <col>
+    <tbody>
+     <tr>
+      <td role="rowheader"><span class="preview">直接在專案上記錄時間</span></td> 
+      <td><span class="preview">允許用戶登錄項目的時間（在「更新」頁簽和時間表上）。 如果您想要限制使用者在專案層級記錄時間，請保留此選項為未勾選狀態。</span></td>
+     </tr>
+     <tr>
+      <td role="rowheader"><span class="preview">登錄已完成的項目</span></td>
+      <td><span class="preview">允許用戶記錄已標籤為完成的項目上的時間。 如果禁用此選項，則用戶無法以「完成」狀態記錄在項目上完成的工作的時間。</span></td>
+     </tr>
+     <tr>
+      <td role="rowheader"><span class="preview">對已停用的專案登入時間</span></td> 
+      <td><span class="preview">啟用此選項後，使用者可以登入處於「無效」狀態的專案數小時。</span></td>
+     </tr>
+    </tbody>
+   </table>
+
+   >[!NOTE]
+   >
+   >此首選項根據用戶的「首頁組」首選項的配置而應用。 如果在用戶的「首頁組」首選項中啟用了這些設定，則無論項目的組首選項是否允許，它們都能夠直接登錄項目，包括已完成或已結束的項目。
+
+1. 在 **預填工時單** ，請配置以下任一選項：
 
    <table style="table-layout:auto"> 
     <col> 
