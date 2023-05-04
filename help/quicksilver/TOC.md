@@ -2,9 +2,9 @@
 user-guide-title: Workfront 指南
 user-guide-description: 使用文件、教學課程和其他資源，了解如何在您的組織中實施並有效使用 Adobe Workfront。
 feature-set: Workfront
-source-git-commit: 62a6cc8f60a2a08a694ae59895072c86764ba9b5
+source-git-commit: 122751851792dfecd062f156f804827cb732c40b
 workflow-type: tm+mt
-source-wordcount: '12934'
+source-wordcount: '12940'
 ht-degree: 1%
 
 ---
@@ -2012,6 +2012,7 @@ ht-degree: 1%
       * [Adobe Workfront Fusion中的情境執行、週期和階段](workfront-fusion/scenarios/scenario-execution-cycles-phases.md)
       * [在Adobe Workfront Fusion中檢視案例的執行歷史記錄](workfront-fusion/scenarios/view-scenario-execution-history.md)
       * [檢視並解決Adobe Workfront Fusion中的不完整執行](workfront-fusion/scenarios/view-and-resolve-incomplete-executions.md)
+      * [在中檢視及管理鎖定的案例 [!DNL Adobe Workfront Fusion]](workfront-fusion/scenarios/view-and-manage-locked-scenarios.md)
       * [排程Adobe Workfront Fusion中的案例](workfront-fusion/scenarios/schedule-a-scenario.md)
       * [啟用或停用Adobe Workfront Fusion中的案例](workfront-fusion/scenarios/activate-or-inactivate-scenario.md)
       * [為Adobe Workfront Fusion中的案例新增篩選器](workfront-fusion/scenarios/add-a-filter-to-a-scenario.md)
@@ -2636,6 +2637,7 @@ other dupes
     * [Event subscription resource fields](wf-api/api/event-sub-resource-fields.md)
 
     * [Filter event subscription messages](wf-api/api/filter-event-sub-messages.md)
+
 
 
 -->
