@@ -4,9 +4,9 @@ description: 23.3版本概觀
 author: Becky
 feature: Product Announcements
 exl-id: 9bf786e2-e077-4504-b928-9091fcb61ec1
-source-git-commit: 99c53f74554e559e5857eff9f5931dc6f70f93b1
+source-git-commit: 7ee8257daa6b621d1b69d784717a13818ea9e098
 workflow-type: tm+mt
-source-wordcount: '845'
+source-wordcount: '910'
 ht-degree: 0%
 
 ---
@@ -218,7 +218,24 @@ The <add release> release webinar will be held on <date>. You can [register for 
                         </ul>
                     </td>
                 </tr>
-            </tbody>
+                 <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/betas/new-commenting-experience-beta/new-commenting-beta-experience-release-activity.md" class="MCXref xref" xrefformat="{para}">全新評論測試版體驗增強功能</a></p>
+                        <p>新評論測試版體驗的23.3發行時間範圍內，將提供「更新」區段的增強功能。 除非另有指定，否則這些增強功能將可在23.3版的生產環境中使用。 
+ </p>
+                    </td>
+                    <td><p><b>可於下列日期使用：</b></p>
+                        <ul>
+                            <li>
+                                <p>預覽發行：在23.3發行時間範圍內<br /></p>
+                            </li>
+                            <li>
+                                <p><span class="preview">生產版本：隨著23.3版本（除非另有指定）</span></p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+           </tbody>
         </table>
 
 ## 佈告
@@ -237,7 +254,7 @@ Workfront Fusion的新功能可在生產環境中，於23.3版發行排程外的
 
 ### Workfront目標增強功能
 
-此發行中目前沒有Workfront Target目標更新。 當有更新時，此區域將會更新。
+在23.3版本時間範圍內發行Workfront Target的新功能。 如需這些新功能（現已可在預覽中取得）的相關資訊，請參閱 [Adobe Workfront第23.3發行版本的目標](/help/quicksilver/product-announcements/product-releases/goals-release-activity/goals-23-3-release/goals-23-3-release.md).
 
 ### API 16版
 
