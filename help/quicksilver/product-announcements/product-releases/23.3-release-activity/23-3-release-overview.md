@@ -4,9 +4,9 @@ description: 23.3版本概觀
 author: Becky
 feature: Product Announcements
 exl-id: 9bf786e2-e077-4504-b928-9091fcb61ec1
-source-git-commit: 7ee8257daa6b621d1b69d784717a13818ea9e098
+source-git-commit: 5ee2e5c279c8133b1a9441b804d6205111f6fc10
 workflow-type: tm+mt
-source-wordcount: '910'
+source-wordcount: '978'
 ht-degree: 0%
 
 ---
@@ -30,6 +30,41 @@ The <add release> release webinar will be held on <date>. You can [register for 
 * [整合增強功能](#integration-enhancements)
 * [其他增強功能](#other-enhancements)
 
+### 管理員增強功能
+
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 50%;" />
+            <tbody>
+                <tr>
+                    <td>
+                        <p><span class="bold">功能</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">發行日期</span>
+                        </p>
+                    </td>
+                </tr>
+                 <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-4.md" class="MCXref xref" xrefformat="{para}">組級控制可用於「用戶可以記錄時間」工時單和小時首選項</a> <span style="color: #ff0000;"> 預覽新增功能！</span></p>
+                        <p>系統管理員現在可以鎖定並解除鎖定「用戶可以記錄時間」工時表和小時首選項。 當此首選項解除鎖定時，組管理員可以為每個組分別配置「用戶可以登錄時間」設定。</p>
+                    </td>
+                    <td><p><b>可於下列日期使用：</b></p>
+                        <ul>
+                            <li>
+                                <p>預覽版本：2023年5月4日</p>
+                            </li>
+                            <li>
+                                <p><span class="preview">生產版本：隨第23.3發行版本一起推出</span></p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
 ### 敏捷增強功能
 
 <table>
@@ -48,7 +83,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
                 </tr>
                                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-apr-24.md" class="MCXref xref" xrefformat="{para}">新增至動態展示板範本的簡單篩選器</a><span style="color: #ff0000;"> 預覽新增功能！</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-apr-24.md" class="MCXref xref" xrefformat="{para}">新增至動態展示板範本的簡單篩選器</a></p>
                         <p>動態展示板範本上的篩選條件已簡化，讓您能更快建立展示板。</p>
                     </td>
                     <td><p><b>可於下列日期使用：</b></p>
