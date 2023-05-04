@@ -6,9 +6,9 @@ description: 您可以在Adobe Workfront物件（專案、任務或問題）上�
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: 25625291f691f7858634d9961fccb4465008dc3c
+source-git-commit: 4383d0d8178028d13f3d97189acfcabfa5766c41
 workflow-type: tm+mt
-source-wordcount: '3012'
+source-wordcount: '3085'
 ht-degree: 1%
 
 ---
@@ -330,10 +330,13 @@ drafted for P&P release:
    >* 您的Workfront管理員必須先在Workfront介面區域的「更新摘要偏好設定」區段中啟用新增影像，您才能看到影像或新增附件圖示。 如需詳細資訊，請參閱 [配置用戶更新的首選項](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-preferences-user-updates.md).
    >* 最大影像檔案大小為7 MB。 支援的影像檔案類型為.jpg、.gif和.png。
    >* 可從對象的「更新」部分訪問影像，這些影像也可在「文檔」區域中使用。
-   >* <!--In the current commenting experience,--> 刪除包含影像的注釋時，該影像將保留在「文檔」區域中，但不再顯示在「更新」部分中。
-
-   > <!--* In the new commenting experience, when you delete a comment that contains an image, or when you edit a comment and remove the image from it, the image is removed from the Updates section as well as from the Documents area. -->
    >* 您可以傳送包含影像且無文字的更新。
+   >* 當您刪除包含影像的留言時，會根據您選擇的體驗而出現下列案例：
+      >
+      >     * 在目前的註解體驗中，影像會保留在「檔案」區域中，但不再顯示在「更新」區段中。
+      >     * 在新的注釋體驗中，影像會從「更新」區段以及「檔案」區域中移除。 當您編輯注釋並刪除影像時，該影像也會從「文檔」區域中刪除。
+   >* 當某人從「文檔」區域刪除附加到注釋的影像時，該影像也會從注釋中刪除。
+
 
 1. 按一下 **更新**  或 **提交**，即使用評論測試版體驗時。
 

@@ -5,10 +5,10 @@ title: 「全新評論體驗測試版發行活動」
 description: 檢閱Adobe Workfront新評論測試版體驗的每週發行活動。
 author: Alina
 feature: Product Announcements
-source-git-commit: 25625291f691f7858634d9961fccb4465008dc3c
+source-git-commit: 3d34d3c6fe9b1d4d825de91b60359215f1afeec0
 workflow-type: tm+mt
-source-wordcount: '359'
-ht-degree: 12%
+source-wordcount: '470'
+ht-degree: 9%
 
 ---
 
@@ -19,8 +19,6 @@ ht-degree: 12%
 
 如需有關新評論測試版體驗的一般資訊，包括目前可用或正在研究的功能清單，請參閱 [全新評論體驗](../new-commenting-experience-beta/unified-commenting-experience.md).
 
-<!--the sections below are copied from the former Canvas beta - replace with real new commenting beta experience content when it becomes available; also, add links to pertinent articles when you add the features for each release, and the year for the week; thought: should we separate these by release in additional sections?! first by release and then by week?!-->
-
 >[!IMPORTANT]
 >
 >在23.2版本中推出的全新評論體驗（測試版）。 如需原始版本的相關資訊，請參閱 [23.2版本概觀](../../product-releases/23.2-release-activity/23-2-release-overview.md).
@@ -29,18 +27,16 @@ ht-degree: 12%
 
 以下章節列出原始版本後新增的功能，從最近發行的功能開始。
 
-<!--
+## 2023年5月2日當周
 
-## Week of May 2, 2023
+### 從注釋中刪除附件或刪除包含附件的注釋時，將從「文檔」區域中刪除影像
 
-### Images are removed from the Documents area when attachments are removed from comments or when comments containing an attachment are removed
+移除或編輯包含附件的註解時，我們將變更附件的運作方式。 現在，當您編輯注釋並刪除附件時，或者當您刪除包含附件的注釋時，附件也會從「文檔」區域中刪除。 在此更改前，在以前的注釋體驗中，附件仍保留在「文檔」區域中。 如需詳細資訊，請參閱 [更新工作](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
-We are changing the way attachments work when removing or editing a comment that contains an attachment. Now, when you edit a comment and remove the attachment, or when you delete a comment that contains an attachment, the attachment is also removed from your Documents area. Prior to this change, in the previous commenting experience, the attachments remained in your Documents area. For information, see [Update work](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md). 
+預設會在下列日期提供問題評論測試版體驗和Workfront目標：
 
-Available for issue commenting Beta experience and for Workfront Goals on the following dates:
+* 預覽和生產：2023年5月4日
 
-* Preview and Production: May 4, 2023
--->
 
 ## 2023 年 4 月 27 日
 
