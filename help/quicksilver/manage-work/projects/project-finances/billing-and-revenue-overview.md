@@ -7,7 +7,7 @@ description: 身為專案經理，您可以使用計費率來擷取專案的收�
 author: Alina
 feature: Work Management
 exl-id: 400abcde-e368-4a70-89a9-05027900ab81
-source-git-commit: 518a552845598a30fd547d432aa9d22dfef6ec8e
+source-git-commit: 3649e206a294918e7dc42d75bab6538609d22d20
 workflow-type: tm+mt
 source-wordcount: '3313'
 ht-degree: 0%
@@ -106,7 +106,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">計畫收入</td> 
-   <td> <p>對於任務，這是與「計畫小時數」任務關聯的收入。 所有任務的「計畫小時數」累計到項目的「計畫小時數」，以便計算項目「計畫小時數」。 </p> <p>如需Workfront中「計畫小時數」的詳細資訊，請參閱 <a href="../../../manage-work/tasks/task-information/planned-hours.md" class="MCXref xref">計畫小時數概觀</a>. </p> <p>Workfront使用以下公式計算任務和項目的計畫收入：</p> <p><code>Task Planned Revenue = Planned Hours * Billing hourly rate</code> </p> <p><code>Project Planned Revenue = SUM (All tasks Planned Revenue) +&nbsp;Fixed Revenue</code> </p> 
+   <td> <p>對於任務，這是與「計畫小時數」任務關聯的收入。 所有任務的「計畫小時數」累計到項目的「計畫小時數」，以便計算項目「計畫小時數」。 </p> <p>如需Workfront中「計畫小時數」的詳細資訊，請參閱 <a href="../../../manage-work/tasks/task-information/planned-hours.md" class="MCXref xref">計畫小時數概觀</a>. </p> <p>Workfront使用以下公式計算任務和項目的計畫收入：</p> <p><code>Task Planned Revenue = Planned Hours * Billing hourly rate</code> </p> <p><code>Project Planned Revenue = SUM (All tasks Planned Revenue) + Fixed Revenue</code> </p> 
    <p><b>附註</b>
 
 <p>在「項目詳細資訊」區域和項目報表中顯示的項目計畫收入與在「利用率」報表中顯示的「計畫收入」不同。 </p> <p>「項目詳細資訊」區域中的「計畫收入」反映與任務「計畫小時數」和項目「固定收入」關聯的任務收入。 「利用率報表」中的「計畫收入」僅顯示與項目上任務分配的「計畫小時數」關聯的「計畫收入」。 </p> 
@@ -120,7 +120,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">實際收入*</td> 
-   <td> <p>與「實際小時數」任務、問題和項目相關聯。 </p> <p>一般而言，Workfront會使用此公式計算實際收入：</p> <p><code>Planned Revenue = Planned Hours * Billing rate</code> </p> <p>有關「利用率」報表中實際收入計算的資訊，請參閱 <a href="../../../resource-mgmt/resource-utilization/view-utilization-information.md" class="MCXref xref">查看資源利用資訊 </a>. </p> <p><b>筆尖</b>
+   <td> <p>與「實際小時數」任務、問題和項目相關聯。 </p> <p>一般而言，Workfront會使用此公式計算實際收入：</p> <p><code>Actual Revenue = Actual Hours * Billing rate</code> </p> <p>有關「利用率」報表中實際收入計算的資訊，請參閱 <a href="../../../resource-mgmt/resource-utilization/view-utilization-information.md" class="MCXref xref">查看資源利用資訊 </a>. </p> <p><b>筆尖</b>
 
 您無法在問題層查看實際收入，但與問題上的實際小時數關聯的收入將影響項目的實際收入。 </p> </td>
 </tr> 
