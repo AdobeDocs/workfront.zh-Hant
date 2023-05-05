@@ -6,10 +6,10 @@ description: 您可以將畫板作為校樣直接上傳至Adobe Workfront，以�
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: d6699fd7-f130-4231-8713-0cfa8dc3c910
-source-git-commit: d0afdfc7be9177f6ff45dcc247253faa9dc57967
+source-git-commit: d5255968a96452d9501a285408f67be7da10d933
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1007'
+ht-degree: 1%
 
 ---
 
@@ -70,7 +70,9 @@ ht-degree: 0%
 
    >[!TIP]
    >
-   >要選擇多個畫板，請按一下並將滑鼠拖動到所需畫板上。
+   >* 畫板會以選取的順序顯示在校樣中。 第一個選取的畫板將是校樣中的第一頁，以此類推。
+   >* 若要快速選取多個畫板，請按一下滑鼠，並將滑鼠拖曳到您要的畫板上。 這不允許您控制校樣中畫板的順序。
+
 
 1. 啟用 **[!UICONTROL 建立校樣]**.
 
