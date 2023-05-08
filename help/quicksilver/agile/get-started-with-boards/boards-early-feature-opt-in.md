@@ -6,9 +6,9 @@ title: 搶先選擇加入 [!DNL Adobe Workfront] 展示板
 description: 閱讀本文以了解 [!DNL Workfront Boards] 搶先使用功能選擇加入。
 author: Lisa
 exl-id: c4a6b045-b0f3-4d4d-994c-c03ef7ad25c8
-source-git-commit: 4c59a63d08efe6dcd6be294c49ec98ebf70feed6
+source-git-commit: f77a44a31e57ad8430b162b1c5e6ef355b5fe74d
 workflow-type: tm+mt
-source-wordcount: '686'
+source-wordcount: '694'
 ht-degree: 0%
 
 ---
@@ -162,7 +162,7 @@ ht-degree: 0%
   </tr>
   <tr>
    <td>將舊看板卡遷移到展示板</td>
-   <td>此功能將於2023年5月4日在生產環境中推出，且不屬於早期功能選擇加入的一部分。</td>
+   <td>此功能將於2023年5月18日在生產環境中推出，且不屬於早期功能選擇加入的一部分。</td>
   </tr>
   <tr>
    <td>建立動態展示板</td>
@@ -171,6 +171,10 @@ ht-degree: 0%
   <tr>
    <td>在資訊卡詳細資訊上使用左側導覽</td>
    <td>部分釋放</td>
+  </tr>
+  <tr>
+   <td>對進氣列使用簡化的篩選器</td>
+   <td>計畫</td>
   </tr>
  </tbody> 
 </table>
