@@ -10,7 +10,7 @@ author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: d297d8a4-5a4e-418f-983a-19545aeb0668
-source-git-commit: 4af7a72a3633f1b669cbc681f230727cc4f54d1e
+source-git-commit: 26da544bb8cd833d37dd6a484687495fde5060b1
 workflow-type: tm+mt
 source-wordcount: '1626'
 ht-degree: 4%
@@ -26,7 +26,7 @@ ht-degree: 4%
 
 ## Adobe Workfront中新的內建存取層級 {#built-in-access}
 
-Workfront有6個新的內建存取層級：
+Workfront有5個新的內建存取層級：
 
 * 系統管理員
 * 標準
