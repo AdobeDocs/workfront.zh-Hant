@@ -5,9 +5,9 @@ title: Adobe Experience Manager Assets整合
 description: 您可以透過下列Adobe Experience Manager Assets整合連結您的工作。
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: bc58cc77-a177-417f-a5a4-eec51e305219
-source-git-commit: b874cb1a99840db11d6d55c86b7f779aa3e6ef35
+source-git-commit: 96f4d2b65aa630e86fdd4ee28b460069c5fd4987
 workflow-type: tm+mt
-source-wordcount: '891'
+source-wordcount: '1347'
 ht-degree: 0%
 
 ---
@@ -101,21 +101,76 @@ ht-degree: 0%
 >
 >您只能將中繼資料對應至一個方向：從 [!DNL Workfront] to [!DNL Experience Manager]. 連結到的文檔的元資料 [!DNL Workfront] 從 [!DNL Experience Manager] 無法轉移到 [!DNL Workfront].
 
-
-
 ### 設定中繼資料欄位
 
+開始對應中繼資料欄位之前，您必須在Workfront和Experience Manager Assets中設定中繼資料欄位。
+
+要配置元資料欄位：
+
 1. 在 [!DNL Experience Manager Assets] 如 [在Adobe之間設定資產中繼資料對應 [!DNL Workfront] 和 [!DNL Experience Manager Assets]](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping.html?lang=en).
+
+
 1. 在Workfront中設定自訂表單欄位。 [!DNL Workfront] 有許多內建的自訂欄位可供您使用。 不過，您也可以建立自己的自訂欄位，如 [建立或編輯自訂表單](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
 
++++ **展開以查看支援Workfront和Experience Manager Assets欄位的詳細資訊**
 
-### 資產
+**Experience Manager Assets標籤**
+
+您可以將任何Workfront支援的欄位對應至Experience Manager Assets中的標籤。 若要這麼做，您必須確保Experience Manager Assets中的標籤值與Workfront相符。
+
+* 標籤和Workfront欄位值在拼字和格式上必須完全相符。
+* 對應至experience Manager資產標籤的Workfront欄位值必須全部為小寫，即使Experience Manager Assets中的標籤似乎有大寫字母亦然。
+* Workfront欄位值不得包含空格。
+* Workfront中的欄位值也必須包含Experience Manager Assets標籤的資料夾結構。
+* 若要將多個單行文字欄位對應至標籤，請在中繼資料對應的Workfront端輸入以逗號分隔的標籤值清單，並 `xcm:keywords` 在Experience Manager Assets那邊。 每個欄位值都對應至個別標籤。 您可以使用計算欄位，將多個Workfront欄位合併為單一逗號分隔的文字欄位。
+* 您可以輸入該欄位中以逗號分隔的可用值清單，以對應下拉式清單、選項按鈕或核取方塊欄位中的值。
+
+
+>[!INFO]
+>
+>**範例**:若要符合此處資料夾結構中顯示的標籤，Workfront中的欄位值會是 `landscapes:trees/spruce`. 請在Workfront欄位值中記下小寫字母。
+>
+>如果您希望標籤在標籤樹中保持最左邊的項目，它後面必須加上冒號。 在此範例中，若要對應至景觀標籤，Workfront中的欄位值會是 `landscapes:`.
+>
+>![AEM中的資料夾結構](assets/aem-folder-structure-with-red-boxes.png)
+
+
+在Experience Manager Assets中建立標籤後，這些標籤會出現在中繼資料區段的「標籤」下拉式清單下。 若要將欄位連結至標籤，請選取 `xcm:keywords` 在中繼資料對應區域的「Experience Manager Assets」欄位下拉式清單中。
+
+如需Experience Manager Assets中標籤的詳細資訊，包括如何建立和管理標籤，請參閱 [管理標籤](https://experienceleague.adobe.com/docs/experience-manager-64/administering/contentmanagement/tags.html).
+
+**Experience Manager Assets自訂中繼資料結構欄位**
+
+您可以將內建和自訂Workfront欄位對應至Experience Manager Assets中的自訂中繼資料結構欄位。
+
+在Experience Manager Assets中建立的自訂中繼資料欄位，會在中繼資料設定區域的專屬區段中組織。
+
+![自訂中繼資料區段](assets/custom-metadata.png)
+
+<!-- 
+link to documentation about creating schema - waiting on response from Anuj about best article to link to
+-->
+
+**Workfront欄位**
+
+您可以將內建和自訂Workfront欄位對應至Experience Manager Assets。 下列欄位值在大小寫和Workfront與Experience Manager Assets之間的拼字都必須相符：
+
+* 下拉式欄位
+* 多選欄位
+
+>[!TIP]
+>
+> 若要檢查欄位值是否完全相符，請前往
+>
+> * 「設定」>「在Workfront中自訂Forms」或物件中的欄位
+> * Experience Manager Assets中的「資產>中繼資料結構」
+
+
++++
+
+### 對應資產的中繼資料
 
 從推送資產時的中繼資料對應 [!DNL Workfront] 這是第一次。 內建或自訂欄位的檔案會在第一次將資產傳送至時，自動對應至指定的欄位 [!DNL Experience Manager Assets].
-
->[!NOTE]
->
->此整合不支援來自 [!DNL Adobe Experience Manager].
 
 若要對應資產的中繼資料：
 
@@ -125,13 +180,15 @@ ht-degree: 0%
    >[!NOTE]
    >
    >您可以對應單一 [!DNL Workfront] 欄位至多個 [!UICONTROL Experience Manager Assets] 欄位。 無法映射多個 [!DNL Workfront] 欄位至單一 [!DNL Experience Manager Assets] 欄位。
+   ><!--To map a Workfront field to an Experience Manager Assets tag, see -->
+
 
 1. 在 [!DNL Experience Manager Assets] 欄位中，搜尋預先填入的類別，或在搜尋欄位中至少輸入兩個字母以存取其他類別。
 1. 視需要重複步驟2和3。
    ![中繼資料欄位](assets/asset-metadata.png)
 1. 按一下 [!UICONTROL 儲存] 或繼續 [資料夾](#folders) 一節。
 
-### 資料夾
+### 映射資料夾的元資料
 
 當使用者在專案上建立連結的資料夾時，相關聯的專案、產品組合和方案資料會對應至 [!DNL Experience Manager Assets].
 

@@ -4,9 +4,10 @@ description: 23.2管理員增強功能
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: ac9155223c22f9872e300111d003fff51bbb4d49
+exl-id: 46da311a-0e22-4def-9df8-e30b142c815d
+source-git-commit: b764ac92524b896a4aba9baf337ba14a5bebfa43
 workflow-type: tm+mt
-source-wordcount: '312'
+source-wordcount: '407'
 ht-degree: 0%
 
 ---
@@ -16,6 +17,16 @@ ht-degree: 0%
 本頁面說明在「預覽」環境中23.2版中所做的所有管理員增強功能。 這些增強功能將於23.2版的生產環境中提供使用。
 
 如需23.2版本週期中此時所有可用變更的清單，請參閱 [23.2版本概觀](/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-release-overview.md).
+
+## 將Workfront欄位值對應至Experience Manager Assets中的標籤
+
+現在，您可以根據Workfront的資料來分類及快速尋找資產。  您可以在Workfront for Experience Manager Assets整合中，將此資料對應為中繼資料設定的一部分。
+
+先前無法將Workfront資料對應至Experience Manager Assets標籤。
+
+如需Experience Manager Assetsas a Cloud Service中此功能的詳細資訊， [設定 [!UICONTROL Experience Manager Assetsas a Cloud Service] 整合](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md).
+
+如需Experience Manager Assets Essentials中此功能的詳細資訊， [設定Experience Manager Assets Essentials整合](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md).
 
 ## 使用新的表單設計工具測試版建立自訂表單
 

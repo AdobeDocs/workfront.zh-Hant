@@ -6,10 +6,10 @@ description: 在Experience Manager Assets Essentials - EDIT ME中連結您的作
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: abaa76e2-bbf1-47d0-8bdc-4e950df4f7ea
-source-git-commit: b874cb1a99840db11d6d55c86b7f779aa3e6ef35
+source-git-commit: 9965ec9f436724e438fbbc5977f22761cc673878
 workflow-type: tm+mt
-source-wordcount: '531'
-ht-degree: 5%
+source-wordcount: '643'
+ht-degree: 4%
 
 ---
 
@@ -109,6 +109,23 @@ ht-degree: 5%
 * 在Experience Manager Assets Essentials中設定中繼資料結構，如 [設定Adobe Workfront和Experience Manager Assets之間的資產中繼資料對應](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping.html?lang=en).
 * （選用）在Workfront中設定自訂表單欄位。 Workfront有許多內建的自訂欄位可供您使用。 不過，您也可以建立自己的自訂欄位。 如需詳細資訊，請參閱 [建立或編輯自訂表單](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
 
++++ **支援的Workfront和Experience Manager Assets欄位**
+
+**AEM關鍵字**
+
+您可以將任何Workfront支援的欄位對應至Experience Manager Assets Essentials中的關鍵字。
+
+若要將欄位連結至關鍵字，請選取 `dc:subject` 在中繼資料對應區域的「Experience Manager Assets」欄位下拉式清單中。
+
+若要將多個單行文字欄位對應至關鍵字，請在中繼資料對應的Workfront側輸入以逗號分隔的關鍵字值清單，並 `dc:subject` 在Experience Manager Assets那邊。 每個欄位值對應至個別的關鍵字。 您可以使用計算欄位，將多個Workfront欄位合併為單一逗號分隔的文字欄位。
+
+<!--
+Look for essentials article
+For more information on keywords in Experience Manager Assets, including how to create and manage keywords, see [Administering Tags]( https://experienceleague.adobe.com/docs/experience-manager-64/administering/contentmanagement/tags.html?lang=en).
+-->
+
++++
+
 
 ### 資產
 
@@ -119,6 +136,8 @@ ht-degree: 5%
    >
    >您可以將單一Workfront欄位對應至多個Experience Manager Assets欄位。 您無法將多個Workfront欄位對應至單一Experience Manager Assets欄位。
 1. 在 **Experience Manager** 欄位，選擇Experience Manager Assets欄位。
+
+   若要將Workfront欄位對應至Experience Manager Assets標籤，請選取 `dc:subject`.
 1. 視需要重複步驟1和2。
    ![啟用中繼資料](assets/metadata-assets-essentials.png)
 1. 按一下 **儲存** 或繼續 [設定連結的資料夾（可選）](#set-up-linked-folders-optional) 一節。

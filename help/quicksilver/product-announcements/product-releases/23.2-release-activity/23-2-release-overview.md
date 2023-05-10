@@ -4,13 +4,13 @@ description: 23.2版本概觀
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: c3ab0f47d8cb31094eb39e314ff11099a647a9f9
+exl-id: b0e2ce08-d9f7-4fb5-b35c-ba979ab9d03e
+source-git-commit: 9965ec9f436724e438fbbc5977f22761cc673878
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '2730'
 ht-degree: 0%
 
 ---
-
 
 # 23.2版本概觀
 
@@ -52,6 +52,22 @@ ht-degree: 0%
                     <td>
                         <p><span class="bold">發行日期</span>
                         </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-admin-enhancements.md" class="MCXref xref" xrefformat="{para}">將Workfront欄位值對應至Experience Manager Assets中的標籤</a>
+                        <p>現在，您可以根據Workfront的資料來分類及快速尋找資產。  您可以在Workfront for Experience Manager Assets整合中，將此資料對應為中繼資料設定的一部分。</p>
+                    </td>
+                    <td><p><b>可於下列日期使用：</b></p>
+                        <ul>
+                            <li>
+                                <p>預覽版本：不適用<br /></p>
+                            </li>
+                            <li>
+                                 <p>生產發行： 2023年3月30日</p>
+                            </li>
+                        </ul>
                     </td>
                 </tr>
                 <tr>
