@@ -7,10 +7,10 @@ description: 可解析對象是解析度與解析對象綁定的問題。 解決
 author: Alina
 feature: Work Management
 exl-id: 2ff034ec-6116-42af-a55f-1fb24fc12b2f
-source-git-commit: cd0adf2bd44a5c9f093e005b5af54b54ad019e34
+source-git-commit: 4c4a8703cca33066f72f8f2088029382edbafc29
 workflow-type: tm+mt
-source-wordcount: '1732'
-ht-degree: 1%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -139,7 +139,7 @@ One project, task, or issue may have multiple issues as Resolvable Objects.
 |---|---|
 | 新增 | 新增 |
 | 進行中 | 進行中 |
-| 已完成 | 已關閉 |
+| 完成 | 已關閉 |
 
 將問題設定為項目的「可解析對象」時，項目的以下預設狀態將觸發問題的預設狀態中的以下更改。 有些專案狀態不會觸發問題狀態的變更。 問題仍會維持在專案變成以下其中一個狀態之前的狀態：
 
@@ -161,7 +161,7 @@ One project, task, or issue may have multiple issues as Resolvable Objects.
 
 #### 將解析對象的自定義狀態與可解析對象的自定義狀態同步 {#synchronize-the-custom-status-of-the-resolving-object-with-the-custom-status-of-the-resolvable-object}
 
-將任務或項目的狀態更改為自定義狀態時，問題的狀態將更改為自定義問題狀態，只有在滿足以下兩個條件時：
+將任務或項目的狀態更改為自定義狀態時，問題的狀態將只在滿足以下兩個條件時才更改為自定義問題狀態：
 
 * 選擇「在解決對象的狀態更改時自動更新可解決的問題狀態」選項。 如需如何啟用此設定的詳細資訊，請參閱 [設定Adobe Workfront以處理可解析的對象](#set-up-adobe-workfront-to-handle-resolvable-objects).
 
@@ -169,7 +169,7 @@ One project, task, or issue may have multiple issues as Resolvable Objects.
 
 您可以針對問題和專案或工作，使用相同的鍵值建立自訂狀態。 當項目或任務（作為解決對象）更改為自定義狀態時，更改也會反映問題的狀態。 對於問題和項目或任務狀態，狀態鍵必須相同。
 
-例如，建立名為「已啟動」的專案自訂狀態，並使用三個字母代碼「LCD」，相當於「目前」。 此外，建立名為「Project Launched」的問題自訂狀態，並加上字母代碼「LCD」，等於「In Progress」。 當您將專案標示為「已啟動」時，問題會自動將狀態變更為「已啟動專案」。 如果未啟用「Automatical****s set issue statusses to match the resolavable object using the Status keys（自動設定問題狀態以使用狀態鍵匹配可解析對象）」設定，則問題狀態將更改為「In Progress（正在進行）」（預設狀態）。
+例如，建立名為「已啟動」的專案自訂狀態，並使用三個字母代碼「LCD」，相當於「目前」。 此外，建立名為「Project Launched」的問題自訂狀態，並加上字母代碼「LCD」，等於「In Progress」。 當您將專案標示為「已啟動」時，問題會自動將狀態變更為「已啟動專案」。 如果未啟用「在解析對象更改的狀態下自動更新可解決的問題狀態」設定，則問題狀態將改為「正在進行」（預設狀態）。
 
 如需建立自訂狀態的詳細資訊，請參閱 [建立或編輯狀態](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md).
 

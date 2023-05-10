@@ -6,16 +6,16 @@ description: 您可以視需要經常編輯Adobe Workfront中的專案。 理想
 author: Alina
 feature: Work Management
 exl-id: a6a1f178-189a-4c41-835b-7726081a2b49
-source-git-commit: 92fb1ee0b641d2f4b527e17df272e4c37c0feaef
+source-git-commit: 4c4a8703cca33066f72f8f2088029382edbafc29
 workflow-type: tm+mt
-source-wordcount: '7310'
-ht-degree: 2%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 # 編輯專案
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available for all customers in the Preview environment and for a select group of customers in the Production environment.</span>-->
+<span class="preview">本頁強調顯示的資訊指的是尚未普遍提供的功能。 它適用於預覽環境中的所有客戶，以及生產環境中的特定一組客戶。</span>
 
 <!--
 <p>***Linked to many articles,</p>
@@ -690,6 +690,8 @@ ht-degree: 2%
 * 狀態
 * 如果您被設定為當前審批流程中的審批人，則進行審批決策
 
+<div class="preview">
+
 ## 大量編輯專案
 
 您可以大量編輯專案，並同時更新所有選取專案的資訊。
@@ -793,7 +795,7 @@ ht-degree: 2%
 1. （選用）按一下 **取消** 在 **編輯專案** 頁面，移除對所有專案所做的所有變更。
 1. 按一下&#x200B;**儲存**。
 
-
+</div>
 
 <!-- Old information for how to bulk edit in classic/ before project bulk edit redesign: 
 
