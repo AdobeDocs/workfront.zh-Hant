@@ -5,7 +5,7 @@ author: Courtney
 draft: Probably
 feature: Product Announcements
 exl-id: b0e2ce08-d9f7-4fb5-b35c-ba979ab9d03e
-source-git-commit: 9965ec9f436724e438fbbc5977f22761cc673878
+source-git-commit: da05e02c51627cd732517dbce729bf28e65db63b
 workflow-type: tm+mt
 source-wordcount: '2730'
 ht-degree: 0%
@@ -347,7 +347,7 @@ ht-degree: 0%
                                 <p>預覽版本：2023年3月9日<br /></p>
                             </li>
                             <li>
-                                 <p><span class="preview">生產版本：自3月23日起，將分階段推出並於2023年5月11日完成，正式發行</span></p>
+                                 <p><span class="preview">生產版本：自3月23日起，此將分階段推出並於2023年5月11日後完成，正式發行</span></p>
                             </li>
                         </ul>
                     </td>

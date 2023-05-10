@@ -4,7 +4,8 @@ description: 23.2專案增強功能
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: c4cb27085ddc3bea86081ddd14a88640d0ed5f90
+exl-id: 02eb390b-b733-4080-86cb-ed28c99cf2b4
+source-git-commit: da05e02c51627cd732517dbce729bf28e65db63b
 workflow-type: tm+mt
 source-wordcount: '492'
 ht-degree: 0%
@@ -21,7 +22,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->自3月23日起，將分階段推出並於2023年5月11日完成，以正式發行。
+>自3月23日起，此將分階段推出，於2023年5月11日後完成。
 
 為了更新Workfront體驗的外觀和風格，我們重新設計了「編輯專案」方塊，同時大量編輯數個專案。 在專案清單中同時選取多個專案時，您可以存取新的「編輯專案」方塊。
 
