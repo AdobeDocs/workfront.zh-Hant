@@ -2,9 +2,9 @@
 user-guide-title: Workfront 指南
 user-guide-description: 使用文件、教學課程和其他資源，了解如何在您的組織中實施並有效使用 Adobe Workfront。
 feature-set: Workfront
-source-git-commit: 5ee2e5c279c8133b1a9441b804d6205111f6fc10
+source-git-commit: 6f9067d7d9c955e316546881f3e6883e9a59bcd4
 workflow-type: tm+mt
-source-wordcount: '12962'
+source-wordcount: '12984'
 ht-degree: 1%
 
 ---
@@ -24,6 +24,7 @@ ht-degree: 1%
          * [23.3 2023年4月17日的發行活動周](product-announcements/product-releases/23.3-release-activity/23-3-apr-17.md)
          * [23.3 2023年4月24日的發行活動周](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-apr-24.md)
          * [23.3 2023年5月1日發行活動周](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-4.md)
+         * [23.3 2023年5月8日當周發行活動](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-10.md)
          * [在23.3版本期間更新外觀](product-announcements/product-releases/23.3-release-activity/23-3-look-and-feel-updates.md)
       * 23.2版 {#release-23-2}
          * [23.2版本概觀](product-announcements/product-releases/23.2-release-activity/23-2-release-overview.md)
@@ -207,6 +208,9 @@ ht-degree: 1%
          * [Workfront第20.4發行版本的目標](product-announcements/product-releases/goals-release-activity/goals-release-20-4.md)
          * [Workfront Goals與20.3版 — 2020年8月14日](product-announcements/product-releases/goals-release-activity/goals-release-20.3.md)
       * Workfront校樣發行活動 {#proof-release}
+         * 第23.3發行版本的證明 {#proof-23-3-release}
+            * [Adobe Workfront 23.3版本的校樣](/help/quicksilver/product-announcements/product-releases/workfront-proof-release-activity/proof-23-3-release/proof-23-3-overview.md)
+            * [Adobe Workfront Proof 23.3發行活動：2023年5月8日當周](/help/quicksilver/product-announcements/product-releases/workfront-proof-release-activity/proof-23-3-release/proof-23-3-may-8.md)
          * [Workfront校樣發行活動：2021年5月17日當周](product-announcements/product-releases/workfront-proof-release-activity/wp-release-may-17.md)
          * [Workfront校樣發行活動：2021年11月29日當周](product-announcements/product-releases/workfront-proof-release-activity/wp-release-22-1.md)
       * 每季發行封存 {#quarterly-release}
@@ -1926,8 +1930,8 @@ ht-degree: 1%
       * [自訂Adobe Workfront目標術語](workfront-goals/workfront-goals-settings/customize-wf-goals-terminology.md)
       * [在Workfront目標中共用目標](workfront-goals/workfront-goals-settings/share-a-goal.md)
       * [啟用Adobe Workfront目標通知](workfront-goals/workfront-goals-settings/wf-goals-notifications.md)
-* Adobe Workfront融合 {#adobe-workfront-fusion}
-   * [Adobe Workfront融合](workfront-fusion/workfront-fusion-2.md)
+* Adobe Workfront Fusion {#adobe-workfront-fusion}
+   * [Adobe Workfront Fusion](workfront-fusion/workfront-fusion-2.md)
    * 開始使用Adobe Workfront Fusion {#get-started-with-workfront-fusion}
       * [開始使用Adobe Workfront Fusion](workfront-fusion/get-started/get-started.md)
       * [Adobe Workfront Fusion概述](workfront-fusion/get-started/workfront-fusion-overview.md)

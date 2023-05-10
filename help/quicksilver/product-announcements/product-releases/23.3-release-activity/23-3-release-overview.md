@@ -4,9 +4,9 @@ description: 23.3版本概觀
 author: Becky
 feature: Product Announcements
 exl-id: 9bf786e2-e077-4504-b928-9091fcb61ec1
-source-git-commit: 52f6c51a8843852b7eb1880661e3d53f8675c470
+source-git-commit: 6f9067d7d9c955e316546881f3e6883e9a59bcd4
 workflow-type: tm+mt
-source-wordcount: '976'
+source-wordcount: '1176'
 ht-degree: 0%
 
 ---
@@ -81,7 +81,24 @@ The <add release> release webinar will be held on <date>. You can [register for 
                         </p>
                     </td>
                 </tr>
-                                <tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-10.md" class="MCXref xref" xrefformat="{para}">板載進入列上可用的簡單過濾器</a><span style="color: #ff0000;"> 預覽新增功能！</span></p>
+                        <p>已將簡化的篩選條件新增至進氣列設定，以便您更快速地定義進氣列。 可用的篩選條件是Workfront專案和依團隊或使用者指派的工作。 您可以視需要切換至進階篩選。</p>
+                    </td>
+                    <td><p><b>可於下列日期使用：</b></p>
+                        <ul>
+                            <li>
+                                <p>預覽版本：2023年5月10日<br /></p>
+                            </li>
+                            <li>
+                                 <p>提早選擇加入的生產版本：2023年5月10日 <span style="color: #ff0000;"> 只有透過預先選擇加入Workfront展示板的功能，才能在生產環境中使用此功能。</span></p>
+                                <p>所有客戶的生產版本：隨第23.3發行版本一起推出</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-apr-24.md" class="MCXref xref" xrefformat="{para}">新增至動態展示板範本的簡單篩選器</a></p>
                         <p>動態展示板範本上的篩選條件已簡化，讓您能更快建立展示板。</p>
@@ -186,6 +203,38 @@ The <add release> release webinar will be held on <date>. You can [register for 
                         </p>
                     </td>
                 </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-10.md" class="MCXref xref" xrefformat="{para}">將Workfront欄位值對應至Experience Manager Assets中的標籤</a><span style="color: #ff0000;"> 新的生產功能！</span></p>
+                        <p>現在，您可以根據Workfront的資料來分類及快速尋找資產。 您可以在Workfront for Experience Manager Assets整合中，將此資料對應為中繼資料設定的一部分。</p>
+                    </td>
+                    <td><p><b>可於下列日期使用：</b></p>
+                        <ul>
+                            <li>
+                                <p>預覽版本：2023年5月10日</p>
+                            </li>
+                            <li>
+                                <p><span class="preview">生產版本：2023年5月10日</span></p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-10.md" class="MCXref xref" xrefformat="{para}">將Workfront欄位對應至自訂Experience Manager Assets中繼資料欄位</a><span style="color: #ff0000;"> 新的生產功能！</span></p>
+                        <p>透過原生整合，您現在可以將原生和內建的Workfront欄位對應至Experience Manager Assetsas a Cloud Service的自訂中繼資料結構欄位。</p>
+                    </td>
+                    <td><p><b>可於下列日期使用：</b></p>
+                        <ul>
+                            <li>
+                                <p>預覽版本：2023年5月10日</p>
+                            </li>
+                            <li>
+                                <p><span class="preview">生產版本：2023年5月10日</span></p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
                  <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-apr-24.md" class="MCXref xref" xrefformat="{para}">使用Adobe Workfront調整自動校樣工作流程範本設定以Creative Cloud</a></p>
@@ -285,7 +334,7 @@ Workfront Fusion的新功能可在生產環境中，於23.3版發行排程外的
 
 ### Workfront校樣增強功能
 
-此發行中目前沒有Workfront校樣更新。 當有更新時，此區域將會更新。
+在23.3版本時間範圍內發行Workfront Proof的新功能。 如需這些新功能（現已可在預覽中取得）的相關資訊，請參閱 [Adobe Workfront 23.3版本的校樣](/help/quicksilver/product-announcements/product-releases/workfront-proof-release-activity/proof-23-3-release/proof-23-3-overview.md).
 
 ### Workfront目標增強功能
 
