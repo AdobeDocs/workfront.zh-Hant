@@ -8,14 +8,20 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: ded9ab1e-c5f4-476b-ac81-0497dbe6b24d
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 7b5b0fd95e39f37153e36abb4e3b8e738ac26d21
 workflow-type: tm+mt
-source-wordcount: '531'
+source-wordcount: '558'
 ht-degree: 0%
 
 ---
 
 # 使用版面範本品牌Adobe Workfront
+
+>[!IMPORTANT]
+>
+>本頁面所述的程式僅適用於尚未上線的組織 [!DNL Adobe Experience Cloud].
+>
+> 如果您的組織已上線至 [!DNL Adobe Experience Cloud]，無法使用品牌。
 
 您可以使用版面範本，針對特定群組、團隊、工作角色和使用者，自訂頂端導覽區域和主功能表中的標誌。 這對於大型組織中擁有自有品牌的群組特別實用。
 
@@ -23,7 +29,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Workfront管理員可以在系統層級對整個組織進行相同的品牌自訂，如 [品牌化您的Adobe Workfront執行個體](../../../administration-and-setup/customize-workfront/brand-workfront/brand-your-workfront-instance.md). 但佈局模板中的品牌化將替代系統級品牌化。>
+>Workfront管理員可以在系統層級對整個組織進行相同的品牌自訂，如 [品牌化您的Adobe Workfront執行個體](../../../administration-and-setup/customize-workfront/brand-workfront/brand-your-workfront-instance.md). 但佈局模板中的品牌化將替代系統級品牌化。
 ><!--
 >Maybe add a section about deleting these 2 settings to revert to default branding?
 >-->

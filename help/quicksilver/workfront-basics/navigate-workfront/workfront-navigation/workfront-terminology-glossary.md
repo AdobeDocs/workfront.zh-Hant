@@ -5,9 +5,9 @@ title: 辭匯表 [!DNL Adobe Workfront] 術語
 description: 此 [!DNL Adobe Workfront] 字彙表列出Adobe Workfront中常用的辭彙。
 feature: Get Started with Workfront
 exl-id: 758072b3-775e-4771-9ae9-da0b38580c93
-source-git-commit: 61a107e1ee8a415fd94e73fc65fa5f59f7de02d1
+source-git-commit: 7b5b0fd95e39f37153e36abb4e3b8e738ac26d21
 workflow-type: tm+mt
-source-wordcount: '19387'
+source-wordcount: '19399'
 ht-degree: 0%
 
 ---
@@ -265,7 +265,7 @@ ht-degree: 0%
 
 <tr> 
    <td>[!UICONTROL品牌推廣]</td> 
-   <td>自訂程式 [!DNL Workfront] 使介面具有外觀，通過使用您的顏色和徽標來鏡像您的公司。</td> 
+   <td><p>自訂程式 [!DNL Workfront] 使介面具有外觀，通過使用您的顏色和徽標來鏡像您的公司。</p><p><strong>注意</strong><br>如果您的組織已上線至 [!DNL Adobe Experience Cloud]，無法使用品牌。</p></td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL階層連結]</td> 

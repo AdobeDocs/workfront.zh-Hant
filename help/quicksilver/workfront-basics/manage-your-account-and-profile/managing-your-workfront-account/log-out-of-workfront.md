@@ -3,13 +3,13 @@ product-area: user-management
 navigation-topic: manage-your-workfront-account
 title: 登出 [!DNL Adobe Workfront]
 description: 出於安全原因，請務必登出 [!DNL Adobe Workfront] 定期。 依預設， [!DNL Workfront] 閒置8小時後自動將使用者登出。
-author: Lisa
+author: Nolan
 feature: Get Started with Workfront
 exl-id: 3b457a44-53a1-44c5-99ce-445ab1463303
-source-git-commit: 0dd5577fc937a98900fab17fb434b70e023385af
+source-git-commit: 7b5b0fd95e39f37153e36abb4e3b8e738ac26d21
 workflow-type: tm+mt
-source-wordcount: '164'
-ht-degree: 1%
+source-wordcount: '212'
+ht-degree: 0%
 
 ---
 
@@ -26,6 +26,12 @@ ht-degree: 1%
 >TEMPORARY note! Remove and update how this works after IMS takes over. There's another note like this in Manage Workfront/Security/configure-security-preferences.html>
 ></MadCap:conditionalText>
 -->
+
+>[!IMPORTANT]
+>
+>本頁面所述的程式僅適用於尚未上線的組織 [!DNL Adobe Experience Cloud].
+>
+> 如果您的組織已上線至 [!DNL Adobe Experience Cloud]，您將按一下頂端導覽列中的個人資料圖片，然後選取 [!UICONTROL **登出**] 的上界。 如需詳細資訊，請參閱 [[!DNL Adobe Unified Experience] for [!DNL Workfront]](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
 
 ## 存取需求
 

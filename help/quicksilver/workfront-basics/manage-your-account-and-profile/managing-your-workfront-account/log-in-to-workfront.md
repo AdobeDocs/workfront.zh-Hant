@@ -3,10 +3,10 @@ product-area: user-management
 navigation-topic: manage-your-workfront-account
 title: 登入 [!DNL Adobe Workfront]
 description: 請閱讀本文章，了解如何登入Workfront。
-author: Lisa
+author: Nolan
 feature: Get Started with Workfront
 exl-id: 69297cca-6b28-47d6-a478-8ac2bc29b959
-source-git-commit: 073e6c7d4e830dfd2b8920a20e1490c5524d71bd
+source-git-commit: 7b5b0fd95e39f37153e36abb4e3b8e738ac26d21
 workflow-type: tm+mt
 source-wordcount: '765'
 ht-degree: 0%
@@ -14,6 +14,8 @@ ht-degree: 0%
 ---
 
 # 登入 [!DNL Adobe Workfront]
+
+{{important-not-on-aec}}
 
 您需要下列資訊才能登入 [!DNL Adobe Workfront]:
 

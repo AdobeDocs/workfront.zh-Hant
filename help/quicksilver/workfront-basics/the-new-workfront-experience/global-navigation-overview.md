@@ -3,11 +3,11 @@ content-type: overview
 title: 頂端導覽列概觀
 description: 頂端導覽列 — 顯示在新 [!DNL Adobe Workfront] 體驗 — 可讓您輕鬆尋找並導覽至平台的其他區域。
 feature: Get Started with Workfront
-author: Lisa
+author: Nolan
 exl-id: 6262d0ff-4be0-41ac-b2e7-5eaa6b2795dc
-source-git-commit: d8ca244e430f8a0e96b201bf09eba8b83b774a57
+source-git-commit: 7b5b0fd95e39f37153e36abb4e3b8e738ac26d21
 workflow-type: tm+mt
-source-wordcount: '633'
+source-wordcount: '640'
 ht-degree: 0%
 
 ---
@@ -21,8 +21,6 @@ ht-degree: 0%
 ## [!UICONTROL 首頁圖示]
 
 此 **[!UICONTROL 首頁]** 圖示 ![](assets/home-icon.png) 帶你去 [!UICONTROL 首頁] 頁面，此為預設登陸頁面。 若要進一步了解首頁，請參閱 [使用 [!UICONTROL 首頁] 區域](../../workfront-basics/using-home/using-the-home-area/use-the-home-area.md).
-
-安 [!DNL Adobe Workfront] 管理員可自訂 [!UICONTROL 首頁] 圖示來比對您公司的品牌。 如需詳細資訊，請參閱 [為您的 [!DNL Adobe Workfront] 執行個體](../../administration-and-setup/customize-workfront/brand-workfront/brand-your-workfront-instance.md).
 
 ## 固定的頁面
 
@@ -59,6 +57,12 @@ ht-degree: 0%
 若要進一步了解搜尋，請參閱 [搜尋 [!DNL Adobe Workfront]](../../workfront-basics/navigate-workfront/search/search-workfront.md).
 
 ## [!UICONTROL 主要選單]
+
+>[!IMPORTANT]
+>
+>此頁上描述的主功能表僅適用於尚未上線的組織 [!DNL Adobe Experience Cloud].
+>
+> 如果您的組織已上線至 [!DNL Adobe Experience Cloud]，請參閱 [[!DNL Adobe Unified Experience] for [!DNL Workfront]](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
 
 此 **[!UICONTROL 主菜單]** 圖示 ![主菜單](assets/main-menu-icon.png) 開啟 [!UICONTROL 主菜單]，可讓您導覽至Workfront的不同區域。
 
