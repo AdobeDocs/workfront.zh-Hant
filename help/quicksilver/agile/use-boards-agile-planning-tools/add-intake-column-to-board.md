@@ -7,9 +7,9 @@ description: 您可以選擇將取用欄新增至展示板，根據您定義的�
 author: Lisa
 feature: Agile
 exl-id: 4991f4f7-6f3d-4e15-ae8d-96433ed46557
-source-git-commit: 81d68656c5dc4811884cde53193139856f290f4d
+source-git-commit: 5e73603b695ff7456216ca7a4e15ce527b01559d
 workflow-type: tm+mt
-source-wordcount: '756'
+source-wordcount: '937'
 ht-degree: 0%
 
 ---
@@ -49,7 +49,11 @@ ht-degree: 0%
 
 &#42;若要了解您擁有的計畫、授權類型或存取權，請聯絡您的 [!DNL Workfront] 管理員。
 
-## 建立進氣列
+## 使用簡單篩選器建立進氣列
+
+>[!NOTE]
+>
+>只有Adobe Workfront展示板的早期功能選擇加入，才能提供簡單的篩選。
 
 1. 按一下 **[!UICONTROL 主菜單]** 圖示 ![主菜單](assets/main-menu-icon.png) 在Adobe Workfront的右上角，然後按一下 **[!UICONTROL 展示板]**.
 1. 存取展示板。 如需詳細資訊，請參閱 [建立或編輯展示板](../../agile/get-started-with-boards/create-edit-board.md).
@@ -57,11 +61,38 @@ ht-degree: 0%
 1. 展開 **[!UICONTROL 展示板]**.
 1. 開啟 **[!UICONTROL 動態吸入要登記的項目]**.
 
-   ![建立進氣列](assets/create-intake-column2.png)
+   ![進氣柱簡單過濾選項](assets/intake-column-simple-filters.png)
 
    進料柱在板的左側添加。 在您套用篩選器之前，它會保留為空白。
 
+1. （選用）搜尋並選取 [!DNL Workfront] [!UICONTROL **專案**].
+1. （可選）搜索並選擇用戶或組 [!UICONTROL **分配**].
+1. 選擇 [!UICONTROL **包括已完成的工作**] 以在「接收」列中顯示「完成」狀態的任務和問題。
+
+   >[!NOTE]
+   >
+   >如果未選取此選項，當其他狀態的卡片標示為完成時，這些卡片會「掉下」展示板，而不再顯示。
+
+1. 按一下 [!UICONTROL **套用**].
+
+   所有對象都作為連接卡顯示在主板進入列中。
+
+   ![輸入欄](assets/intake-column-added3.png)
+
+## 使用進階篩選器建立進氣欄
+
+1. 按一下 **[!UICONTROL 主菜單]** 圖示 ![主菜單](assets/main-menu-icon.png) 在Adobe Workfront的右上角，然後按一下 **[!UICONTROL 展示板]**.
+1. 存取展示板。 如需詳細資訊，請參閱 [建立或編輯展示板](../../agile/get-started-with-boards/create-edit-board.md).
+1. 按一下 **[!UICONTROL 設定]** ，開啟「設定」面板。
+1. 展開 **[!UICONTROL 展示板]**.
+1. 開啟 **[!UICONTROL 動態吸入要登記的項目]**.
+
+   進料柱在板的左側添加。 在您套用篩選器之前，它會保留為空白。
+
+1. 按一下 [!UICONTROL **使用進階篩選**].
 1. 按一下 **[!UICONTROL 篩選來源]** 選取 **[!UICONTROL 工作]** 或 **[!UICONTROL 問題]**.
+
+   ![進氣列高級篩選選項](assets/intake-column-advanced-filters1.png)
 
    >[!NOTE]
    >
@@ -97,15 +128,18 @@ ht-degree: 0%
 
    ![輸入欄](assets/intake-column-added3.png)
 
-   進入欄中的資訊卡必須移至其他展示板欄，才能編輯。 您可以按一下資訊卡，在唯讀檢視中開啟，或按一下 ![開啟任務或問題](assets/boards-launch-icon.png) 在新瀏覽器頁簽中開啟任務或問題。
-
-   您可以手動重新排序進氣列上的項目。
-
-   進入欄右上角的圖示會顯示目前欄中的卡片數，以及套用的篩選器數。
-
    >[!NOTE]
    >
    >您可以隨時開啟「設定」面板，按一下 **[!UICONTROL 篩選來源]**，然後選取 **[!UICONTROL 工作]** 或 **[!UICONTROL 問題]**.
+
+## 使用進氣柱
+
+進入欄中的資訊卡必須移至其他展示板欄，才能編輯。 您可以按一下資訊卡，在唯讀檢視中開啟，或按一下 ![開啟任務或問題](assets/boards-launch-icon.png) 在新瀏覽器頁簽中開啟任務或問題。
+
+
+您可以手動重新排序進氣列上的項目。
+
+進入欄右上角的圖示會顯示目前欄中的卡片數，以及套用的篩選器數。
 
 1. （可選）要搜索進氣列中的項目，請按一下 ![搜尋圖示](assets/search-icon.png) 欄。
 1. （可選）若要將卡片從卡入欄移至另一欄，請將卡片拖放至您要顯示的位置。

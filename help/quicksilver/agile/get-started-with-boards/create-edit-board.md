@@ -6,9 +6,9 @@ description: 從 [!UICONTROL 展示板] 控制面板，您可以建立新展示�
 author: Lisa
 feature: Agile
 exl-id: 5f755177-c8ea-4509-a34f-57ffcfd8ba7f
-source-git-commit: f6bee61bbfbac98595d737fa002bbe01c0c573dc
+source-git-commit: 5e73603b695ff7456216ca7a4e15ce527b01559d
 workflow-type: tm+mt
-source-wordcount: '699'
+source-wordcount: '736'
 ht-degree: 3%
 
 ---
@@ -62,6 +62,12 @@ ht-degree: 3%
       所有對象都以連接卡的形式顯示在主板上。
 
       此 [!UICONTROL **要新增的卡片**] 計數器顯示展示板上會有多少張卡片。 例如，如果您選取的專案有100個工作和問題，計數器會顯示100個。 如果您新增使用者指派，而該人員已指派給專案上的5個工作，則計數器會顯示5個。
+
+   1. （選用）選取 [!UICONTROL **包括已完成的工作**] 在展示板上包含已完成的卡片。
+
+      >[!NOTE]
+      >
+      >如果未選取此選項，當其他狀態的卡片標示為完成時，這些卡片會「掉下」展示板，而不再顯示。
 
    1. （選用）按一下 [!UICONTROL **使用進階篩選**] 以顯示其他篩選選項。
 
