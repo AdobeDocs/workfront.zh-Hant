@@ -7,9 +7,9 @@ description: 建立範本後，您可以編輯範本工作的相關資訊。 使
 author: Alina
 feature: Work Management
 exl-id: 2df8522e-7eee-4440-be0f-f7483c5acdb0
-source-git-commit: dd7f61fcd92a43303be356dd3209ec6da6a063dd
+source-git-commit: ad6ade3ff700f1e73c05dfc59aa0108a5d113f2e
 workflow-type: tm+mt
-source-wordcount: '2470'
+source-wordcount: '2503'
 ht-degree: 6%
 
 ---
@@ -152,7 +152,7 @@ ht-degree: 6%
      </tr> 
      <tr> 
       <td role="rowheader"><strong>計畫小時</strong> </td> 
-      <td> <p>為使用此模板建立的項目的將來任務指定計畫小時數。 這是任務的受分配者完成任務所需的實際時間。 您只能指定任務的計畫小時數，當<strong>持續時間類型</strong> 設為 <strong>計算分配</strong>. </p> </td> 
+      <td> <p>指定使用此模板建立的項目的將來任務的計畫小時數。 這是任務的受分配者完成任務所需的實際時間。 您只能指定任務的計畫小時數，當<strong>持續時間類型</strong> 設為 <strong>計算分配</strong>. </p> </td> 
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader">工作量 </td> 
@@ -276,6 +276,14 @@ ht-degree: 6%
     <col> 
     <col> 
     <tbody> 
+   <tr> 
+      <td role="rowheader"><strong><p>里程碑</p></strong> </td> 
+      <td> <p>選擇要與所選模板任務關聯的里程碑。</p>
+
+   <p><b>重要</b></p>
+   <p>必須將里程碑路徑與模板關聯，此欄位才會顯示。 如需詳細資訊，請參閱 <a href="../create-and-manage-templates/edit-templates.md">編輯專案範本</a>.</p> 
+   </td> 
+     </tr>
      <tr> 
       <td role="rowheader"><strong>追蹤模式</strong> </td> 
       <td> <p>指定如何跟蹤將來任務的進度狀態。 </p> <p>從下列選項中選取：</p> 
@@ -348,7 +356,7 @@ ht-degree: 6%
 
    ![custom_forms_edit_task.png](assets/custom-forms-edit-task-350x136.png)
 
-1. 選擇要與模板任務關聯的自定義表單。 您必須先建置自訂表單，才能在此欄位中供選取。 清單中只會顯示使用中的自訂表單。 如需建立自訂表單的詳細資訊，請參閱 [建立或編輯自訂表單](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)。您最多可以向模板任務添加10個自定義表單。 表單會自動新增至從範本建立的工作。
+1. 選擇要與模板任務關聯的自定義表單。 您必須先建置自訂表單，才能在此欄位中供選取。 清單中只會顯示使用中的自訂表單。 如需建立自訂表單的詳細資訊，請參閱 [建立或編輯自訂表單](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md). 您最多可將10個自訂表單新增至範本工作。 表單會自動新增至從範本建立的工作。
 1. （條件式和選用式）如果您將自訂表單附加至範本工作，請編輯表單上的任何欄位。 必須指定所有必填欄位，然後才能保存模板任務。
 
    >[!NOTE]
