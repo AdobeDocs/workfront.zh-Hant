@@ -6,9 +6,9 @@ description: 您可以在Adobe Workfront - EDIT ME的下列區域中，將檔案
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 0a5f82b2-f86e-4ffa-b3a6-18221dd0e158
-source-git-commit: c4ec9363bdcf683b4b56eedee17ebf4388e6cee2
+source-git-commit: fe9f1da23f1196dac468ec33aae776950ce49f2c
 workflow-type: tm+mt
-source-wordcount: '708'
+source-wordcount: '727'
 ht-degree: 1%
 
 ---
@@ -111,8 +111,13 @@ Workfront站點通過以下方式阻止病毒和其他惡意內容通過文檔�
 
 ### Workfront如何檢測損壞的檔案 {#how-workfront-detects-corrupted-files}
 
-Workfront會在檔案上傳時掃描病毒。 如果您嘗試上傳損毀的檔案，Workfront會中斷上傳程式，並出現訊息指出檔案損毀。 當Workfront偵測到潛在的惡意內容，且該檔案預定要移除時，您也會收到電子郵件通知。\
-除非您手動刪除，否則所有損壞的檔案在檢測後24小時內被刪除。 如果您刪除損毀的檔案，Workfront會將此動作視為更新來追蹤。 如果您允許Workfront移除，則不會記錄任何更新。
+只有在請求時，貴組織才會啟用文檔掃描。
+
+如果啟用了文檔掃描，則在上載25 MB以下的檔案時將掃描它們。 不會掃描超過25 MB的檔案。
+
+如果Workfront偵測到損毀的檔案，Workfront會中斷上傳程式，並出現訊息指出檔案損毀。 當Workfront偵測到潛在的惡意內容，且該檔案預定要移除時，您也會收到電子郵件通知。
+
+除非您手動刪除，否則在檢測後24小時內將刪除損壞的檔案。 如果您刪除損毀的檔案，Workfront會將此動作視為更新來追蹤。 如果您允許Workfront移除，則不會記錄任何更新。
 
 ### 檔案名限制 {#file-name-restrictions}
 
