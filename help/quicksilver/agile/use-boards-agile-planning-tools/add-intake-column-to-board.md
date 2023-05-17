@@ -7,9 +7,9 @@ description: 您可以選擇將取用欄新增至展示板，根據您定義的�
 author: Lisa
 feature: Agile
 exl-id: 4991f4f7-6f3d-4e15-ae8d-96433ed46557
-source-git-commit: 5e73603b695ff7456216ca7a4e15ce527b01559d
+source-git-commit: 47fb31980a73759806be8e0db8a2a9bc2d7e6fe4
 workflow-type: tm+mt
-source-wordcount: '937'
+source-wordcount: '938'
 ht-degree: 0%
 
 ---
@@ -90,7 +90,7 @@ ht-degree: 0%
    進料柱在板的左側添加。 在您套用篩選器之前，它會保留為空白。
 
 1. 按一下 [!UICONTROL **使用進階篩選**].
-1. 按一下 **[!UICONTROL 篩選來源]** 選取 **[!UICONTROL 工作]** 或 **[!UICONTROL 問題]**.
+1. 按一下 **[!UICONTROL 新增篩選來源]** 選取 **[!UICONTROL 工作]** 或 **[!UICONTROL 問題]**.
 
    ![進氣列高級篩選選項](assets/intake-column-advanced-filters1.png)
 
