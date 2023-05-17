@@ -5,9 +5,9 @@ title: 「全新評論體驗測試版發行活動」
 description: 檢閱Adobe Workfront新評論測試版體驗的每週發行活動。
 author: Alina
 feature: Product Announcements
-source-git-commit: 3d34d3c6fe9b1d4d825de91b60359215f1afeec0
+source-git-commit: 77a489455b0d058bc53fbb87ffd219cf7b50a213
 workflow-type: tm+mt
-source-wordcount: '470'
+source-wordcount: '553'
 ht-degree: 9%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 9%
 
 # 全新評論測試版體驗發行活動
 
-此頁面的資訊會根據新的評論測試版體驗，每週參照發行活動。 此頁面包含新增的功能，以及針對新評論測試版體驗而解決的問題。
+此頁面的資訊會根據新評論測試版體驗包含的功能，每週參照發行活動。 頁面會列出新增的功能，以及針對新評論測試版體驗而解決的問題。
 
 如需有關新評論測試版體驗的一般資訊，包括目前可用或正在研究的功能清單，請參閱 [全新評論體驗](../new-commenting-experience-beta/unified-commenting-experience.md).
 
@@ -23,11 +23,26 @@ ht-degree: 9%
 >
 >在23.2版本中推出的全新評論體驗（測試版）。 如需原始版本的相關資訊，請參閱 [23.2版本概觀](../../product-releases/23.2-release-activity/23-2-release-overview.md).
 >
->發行至Workfront物件測試版體驗的註解功能也發行至Workfront目標的更新區段。
+>發行至Workfront物件測試版體驗的註解功能也發行至Workfront目標中目標物件的更新區段。
 
 以下章節列出原始版本後新增的功能，從最近發行的功能開始。
 
-## 2023年5月2日當周
+## 2023年5月15日當周
+
+### 改善在註解（標題）中新增超連結的體驗
+
+您現在可以使用下列快捷鍵，將超連結新增至註解：
+
+* CTRL + V(Mac為CMD + V)將連結貼上在選取的文字上
+* CTRL + K(Mac為CMD + K)會開啟「新增連結」方塊。
+
+在這些增強功能之前，您只能按一下RTF工具列中的連結圖示來新增超連結。 如需詳細資訊，請參閱 [更新工作](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+
+預覽：2023年5月17日
+
+生產：2023年5月18日
+
+## 2023年5月1日當周
 
 ### 從注釋中刪除附件或刪除包含附件的注釋時，將從「文檔」區域中刪除影像
 
@@ -42,7 +57,7 @@ ht-degree: 9%
 
 已針對問題評論測試版和目標發佈下列維護更新：
 
-編輯注釋時編輯附加的影像。 如需詳細資訊，請參閱文章的「4月27日維護更新」一節 <a href="https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=en#updates-in-april-2023">2023年4月更新</a>.
+編輯註解時編輯附加影像. 如需詳細資訊，請參閱文章的「4月27日維護更新」一節 <a href="https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=en#updates-in-april-2023">2023年4月更新</a>.
 
 ## 2023 年 4 月 20 日
 
