@@ -5,9 +5,9 @@ title: 「全新評論體驗測試版發行活動」
 description: 檢閱Adobe Workfront新評論測試版體驗的每週發行活動。
 author: Alina
 feature: Product Announcements
-source-git-commit: 77a489455b0d058bc53fbb87ffd219cf7b50a213
+source-git-commit: f4283cc81fbde9e7c399bb48d483158175ca1dea
 workflow-type: tm+mt
-source-wordcount: '553'
+source-wordcount: '552'
 ht-degree: 9%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 9%
 
 ## 2023年5月15日當周
 
-### 改善在註解（標題）中新增超連結的體驗
+### 改善在註解中新增超連結的體驗
 
 您現在可以使用下列快捷鍵，將超連結新增至註解：
 
