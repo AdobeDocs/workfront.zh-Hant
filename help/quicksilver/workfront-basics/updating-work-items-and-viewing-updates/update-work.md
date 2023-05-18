@@ -6,9 +6,9 @@ description: 您可以在Adobe Workfront物件（專案、任務或問題）上�
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: 77a489455b0d058bc53fbb87ffd219cf7b50a213
+source-git-commit: 171ccfe5d2bc9825c9cdb195df1a97a32e515646
 workflow-type: tm+mt
-source-wordcount: '3153'
+source-wordcount: '3132'
 ht-degree: 1%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 1%
 
 <!--take "Beta" references out when we remove the beta-->
 
-<span class="preview">本頁強調顯示的資訊指的是尚未普遍提供的功能。 它僅在預覽環境中可用。</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span>-->
 
 >[!NOTE]
 >
@@ -276,7 +276,7 @@ drafted for P&P release:
    | 粗體 | ![mceclip10.png](assets/mceclip10.png) | ⌘+b | Ctrl+B |
    | 斜體 | ![mceclip9.png](assets/mceclip9.png) | ⌘+i | Ctrl+I |
    | 底線 | ![mceclip8.png](assets/mceclip8.png) | ⌘+u | Ctrl+U |
-   | 超連結 | ![mceclip7.png](assets/mceclip7.png) | <br>若要開啟「建立連結或新增連結」方塊：⌘+K</br> <br><span class="preview">在評論測試版體驗中，若要將連結貼到選取的文字上：⌘+V</span></br> | <br>若要開啟「建立連結或新增連結」方塊：Ctrl+K</br> <br><span class="preview">在評論測試版體驗中，若要將連結貼到選取的文字上：Ctrl+V</span></br> |
+   | 超連結 | ![mceclip7.png](assets/mceclip7.png) | <br>若要開啟「建立連結或新增連結」方塊：⌘+K</br> <br>在評論測試版體驗中，若要將連結貼到選取的文字上：⌘+V</br> | <br>若要開啟「建立連結或新增連結」方塊：Ctrl+K</br> <br>在評論測試版體驗中，若要將連結貼到選取的文字上：Ctrl+V</br> |
    | 項目符號清單 | ![mceclip6.png](assets/mceclip6.png) | ⌘+Shift+8 | Ctrl+Shift+8 |
    | 編號清單 | ![mceclip5.png](assets/mceclip5.png) | ⌘+Shift+7 | Ctrl+Shift+7 |
    | 封鎖報價 | ![](assets/block-quote-icon-large.png) | ⌘+Shift+9 | Ctrl+Shift+9 |
