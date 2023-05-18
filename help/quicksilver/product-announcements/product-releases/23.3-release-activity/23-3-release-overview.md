@@ -4,9 +4,9 @@ description: 23.3版本概觀
 author: Becky
 feature: Product Announcements
 exl-id: 9bf786e2-e077-4504-b928-9091fcb61ec1
-source-git-commit: 6f9067d7d9c955e316546881f3e6883e9a59bcd4
+source-git-commit: 674dcf567b0c77d31072193d8cbc349bbac2029f
 workflow-type: tm+mt
-source-wordcount: '1176'
+source-wordcount: '1247'
 ht-degree: 0%
 
 ---
@@ -48,7 +48,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
                 </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-4.md" class="MCXref xref" xrefformat="{para}">組級控制可用於「用戶可以記錄時間」工時單和小時首選項</a> <span style="color: #ff0000;"> 預覽新增功能！</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-4.md" class="MCXref xref" xrefformat="{para}">組級控制可用於「用戶可以記錄時間」工時單和小時首選項</a></p>
                         <p>系統管理員現在可以鎖定並解除鎖定「用戶可以記錄時間」工時表和小時首選項。 當此首選項解除鎖定時，組管理員可以為每個組分別配置「用戶可以登錄時間」設定。</p>
                     </td>
                     <td><p><b>可於下列日期使用：</b></p>
@@ -83,7 +83,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-10.md" class="MCXref xref" xrefformat="{para}">板載進入列上可用的簡單過濾器</a><span style="color: #ff0000;"> 預覽新增功能！</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-10.md" class="MCXref xref" xrefformat="{para}">板載進入列上可用的簡單過濾器</a></p>
                         <p>已將簡化的篩選條件新增至進氣列設定，以便您更快速地定義進氣列。 可用的篩選條件是Workfront專案和依團隊或使用者指派的工作。 您可以視需要切換至進階篩選。</p>
                     </td>
                     <td><p><b>可於下列日期使用：</b></p>
@@ -205,7 +205,23 @@ The <add release> release webinar will be held on <date>. You can [register for 
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-10.md" class="MCXref xref" xrefformat="{para}">將Workfront欄位值對應至Experience Manager Assets中的標籤</a><span style="color: #ff0000;"> 新的生產功能！</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-15.md" class="MCXref xref" xrefformat="{para}">建立專案時自動建立連結資料夾至Adobe Experience Manager Assets</a><span style="color: #ff0000;"> 新的生產功能！</span></p>
+                        <p>透過Adobe Experience Manager整合的全新「建立連結資料夾」工作流程，您可以透過Adobe Experience Manager Assets資料夾的路徑來設定整合。 將整合新增至專案範本時，從範本建立的任何專案都會自動在指定資料夾的Experience Manager Assets中建立連結的子資料夾。 </p>
+                    </td>
+                    <td><p><b>可於下列日期使用：</b></p>
+                        <ul>
+                            <li>
+                                <p>預覽版本：2023年5月11日</p>
+                            </li>
+                            <li>
+                                <p><span class="preview">生產版本：2023年5月18日</span></p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-10.md" class="MCXref xref" xrefformat="{para}">將Workfront欄位值對應至Experience Manager Assets中的標籤</a></p>
                         <p>現在，您可以根據Workfront的資料來分類及快速尋找資產。 您可以在Workfront for Experience Manager Assets整合中，將此資料對應為中繼資料設定的一部分。</p>
                     </td>
                     <td><p><b>可於下列日期使用：</b></p>
@@ -221,7 +237,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-10.md" class="MCXref xref" xrefformat="{para}">將Workfront欄位對應至自訂Experience Manager Assets中繼資料欄位</a><span style="color: #ff0000;"> 新的生產功能！</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-10.md" class="MCXref xref" xrefformat="{para}">將Workfront欄位對應至自訂Experience Manager Assets中繼資料欄位</a></p>
                         <p>透過原生整合，您現在可以將原生和內建的Workfront欄位對應至Experience Manager Assetsas a Cloud Service的自訂中繼資料結構欄位。</p>
                     </td>
                     <td><p><b>可於下列日期使用：</b></p>
