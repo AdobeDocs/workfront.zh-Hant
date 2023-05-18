@@ -9,9 +9,9 @@ description: 在 [!DNL Adobe Workfront Fusion] 案例中，您可以自動執行
 author: Becky
 feature: Workfront Fusion
 exl-id: 16d49031-06d2-4c86-bac4-f58cd9b2f1f5
-source-git-commit: 8283022f24913988248005da0c8e583b29f19652
+source-git-commit: 83914e54638ffbef2b3ccee12c71b84ca7cc61d2
 workflow-type: tm+mt
-source-wordcount: '2371'
+source-wordcount: '2660'
 ht-degree: 0%
 
 ---
@@ -104,9 +104,9 @@ ht-degree: 0%
 * [取得檔案](#get-a-file)
 * [監看資料夾項目](#watch-folder-items)
 
-#### 建立檔案
+#### 取得變更
 
-此動作模組會在SharePoint中建立新檔案。
+此模組會傳回在SharePoint中進行的變更。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -118,15 +118,15 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL輸入站點、驅動器和資料夾ID]</td> 
-   <td> <p>選取如何識別要建立的檔案位置。</p> 
+   <td> <p>選擇要如何標識要在中檢索更改的資料夾的位置。</p> 
     <ul> 
      <li> <p><strong>[!UICONTROL手動輸入]</strong> </p> <p>輸入或對應 <strong>[!UICONTROL站點ID]</strong>, <strong>[!UICONTROL清單ID]</strong>，和 <strong>[!UICONTROL資料夾ID]</strong> 中。</p> </li> 
-     <li> <p><strong>[!UICONTROL從您關注的清單中選擇]</strong> </p> <p>選取要建立檔案的位置。 </p> </li> 
+     <li> <p><strong>[!UICONTROL從您關注的清單中選擇]</strong> </p> <p>選擇要檢索更改的位置。 </p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL源檔案]</td> 
-   <td>從上一個模組中選擇源檔案，或映射源檔案的名稱和資料。</td> 
+   <td role="rowheader">[!UICONTROL令牌]</td> 
+   <td> </td> 
   </tr>  </tbody> 
 </table>
 
@@ -209,47 +209,19 @@ ht-degree: 0%
 
 ### 項目
 
-* [[!UICONTROL 監看項目]](#watch-items)
-* [[!UICONTROL 清單項目]](#list-items)
-* [[!UICONTROL 取得項目]](#get-an-item)
+* [[!UICONTROL 複製項目]](#copy-an-item)
 * [[!UICONTROL 建立項目]](#create-an-item)
-* [[!UICONTROL 更新項目]](#update-an-item)
 * [[!UICONTROL 刪除項目]](#delete-an-item)
+* [[!UICONTROL 取得項目]](#get-an-item)
+* [[!UICONTROL 清單項目]](#list-items)
+* [[!UICONTROL 移動項目]](#move-an-item)
+* [[!UICONTROL 更新項目]](#update-an-item)
+* [[!UICONTROL 監看項目] （已排程）](#watch-items-scheduled)
 
-#### [!UICONTROL 監看項目]
 
-此觸發模組會在建立或修改項目時啟動案例。
+#### [!UICONTROL 複製項目]
 
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL連接]</td> 
-   <td> <p>有關連接 [!DNL SharePoint] 帳戶 [!DNL Workfront Fusion]，請參閱 <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Connect [!DNL SharePoint] to [!DNL Workfront Fusion]</a> 這篇文章。</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL監視清單]</td> 
-   <td>選擇要按建立時間（新項目）或修改時間（更新項目）監視清單。</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL輸入站點和清單ID]</td> 
-   <td> <p>選擇要如何標識要監視的網站和清單。</p> 
-    <ul> 
-     <li> <p><strong>[!UICONTROL手動輸入]</strong> </p> <p>輸入或對應 <strong>[!UICONTROL站點ID]</strong> 和 <strong>[!UICONTROL清單ID]</strong> 中。</p> </li> 
-     <li> <p><strong>[!UICONTROL從您關注的清單中選擇]</strong> </p> <p>選擇要監視的網站，然後選擇清單。 這些下拉式清單只會擷取後續的網站。</p> </li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL限制]</td> 
-   <td> <p>輸入或映射您希望模組在每個方案執行週期期間返回的項目數上限。</p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-#### [!UICONTROL 清單項目]
-
-此動作模組會擷取指定清單中所有項目的清單。
+此動作模組會複製SharePoint清單中的現有項目。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -260,39 +232,20 @@ ht-degree: 0%
    <td> <p>有關連接 [!DNL SharePoint] 帳戶 [!DNL Workfront Fusion]，請參閱 <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Connect [!DNL SharePoint] to [!DNL Workfront Fusion]</a> 這篇文章。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL清單項]</td> 
-   <td> <p>選取要如何識別要從中擷取項目的清單。</p> 
-    <ul> 
-     <li> <p><strong>[!UICONTROL手動輸入]</strong> </p> <p>輸入或對應 <strong>[!UICONTROL站點ID]</strong> 和 <strong>[!UICONTROL清單ID]</strong> 中。</p> </li> 
-     <li> <p><strong>[!UICONTROL從清單中選擇]</strong> </p> <p>選擇包含要從中檢索項的清單的網站，然後選擇該清單。 </p> </li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL限制]</td> 
-   <td> <p>輸入或映射您希望模組在每個方案執行週期期間返回的項目數上限。</p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-#### [!UICONTROL 取得項目]
-
-此動作模組會傳回指定項目的資料。
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL連接]</td> 
-   <td> <p>有關連接 [!DNL SharePoint] 帳戶 [!DNL Workfront Fusion]，請參閱 <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Connect [!DNL SharePoint] to [!DNL Workfront Fusion]</a> 這篇文章。</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL獲取項]</td> 
-   <td> <p>選擇要如何標識包含要獲取項目的站點和清單。</p> 
+   <td role="rowheader">輸入站點、驅動器和資料夾ID</td> 
+   <td> <p>選擇要如何標識包含要複製項的站點和清單。</p> 
     <ul> 
      <li> <p><strong>[!UICONTROL手動輸入]</strong> </p> <p>輸入或對應 <strong>[!UICONTROL站點ID]</strong>, <strong>[!UICONTROL清單ID]</strong>，和 <strong>[!UICONTROL項目ID]</strong> 中。</p> </li> 
-     <li> <p><strong>[!UICONTROL從清單中選擇]</strong> </p> <p>選擇包含要從中檢索項的清單的網站，然後選擇該清單，然後選擇該項。 </p> </li> 
+     <li> <p><strong>[!UICONTROL從您關注的清單中選擇]</strong> </p> <p>在「複製項目類型」欄位中，選擇您要移動欄位還是資料夾。  選擇包含要複製的項的站點，然後選擇清單，然後選擇項。 </p> </li> 
     </ul> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL目標ID]</td> 
+   <td>  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL新名稱]</td> 
+   <td>輸入或映射項目新副本的名稱。 </td> 
   </tr> 
  </tbody> 
 </table>
@@ -324,6 +277,110 @@ ht-degree: 0%
  </tbody> 
 </table>
 
+#### [!UICONTROL 刪除項目]
+
+此動作模組會刪除SharePoint清單中的現有項目。
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL連接]</td> 
+   <td> <p>有關連接 [!DNL SharePoint] 帳戶 [!DNL Workfront Fusion]，請參閱 <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Connect [!DNL SharePoint] to [!DNL Workfront Fusion]</a> 這篇文章。</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL更新項]</td> 
+   <td> <p>選擇要如何標識包含要刪除項的站點和清單。</p> 
+    <ul> 
+     <li> <p><strong>[!UICONTROL手動輸入]</strong> </p> <p>輸入或對應 <strong>[!UICONTROL站點ID]</strong>, <strong>[!UICONTROL清單ID]</strong>，和 <strong>[!UICONTROL項目ID]</strong> 中。</p> </li> 
+     <li> <p><strong>[!UICONTROL從清單中選擇]</strong> </p> <p>選擇包含要刪除的項的站點，然後選擇清單，然後選擇項。 </p> </li> 
+    </ul> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### [!UICONTROL 取得項目]
+
+此動作模組會傳回指定項目的資料。
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL連接]</td> 
+   <td> <p>有關連接 [!DNL SharePoint] 帳戶 [!DNL Workfront Fusion]，請參閱 <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Connect [!DNL SharePoint] to [!DNL Workfront Fusion]</a> 這篇文章。</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL獲取項]</td> 
+   <td> <p>選擇要如何標識包含要獲取項目的站點和清單。</p> 
+    <ul> 
+     <li> <p><strong>[!UICONTROL手動輸入]</strong> </p> <p>輸入或對應 <strong>[!UICONTROL站點ID]</strong>, <strong>[!UICONTROL清單ID]</strong>，和 <strong>[!UICONTROL項目ID]</strong> 中。</p> </li> 
+     <li> <p><strong>[!UICONTROL從清單中選擇]</strong> </p> <p>選擇包含要從中檢索項的清單的網站，然後選擇該清單，然後選擇該項。 </p> </li> 
+    </ul> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### [!UICONTROL 清單項目]
+
+此動作模組會擷取指定清單中所有項目的清單。
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL連接]</td> 
+   <td> <p>有關連接 [!DNL SharePoint] 帳戶 [!DNL Workfront Fusion]，請參閱 <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Connect [!DNL SharePoint] to [!DNL Workfront Fusion]</a> 這篇文章。</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL清單項]</td> 
+   <td> <p>選取要如何識別要從中擷取項目的清單。</p> 
+    <ul> 
+     <li> <p><strong>[!UICONTROL手動輸入]</strong> </p> <p>輸入或對應 <strong>[!UICONTROL站點ID]</strong> 和 <strong>[!UICONTROL清單ID]</strong> 中。</p> </li> 
+     <li> <p><strong>[!UICONTROL從清單中選擇]</strong> </p> <p>選擇包含要從中檢索項的清單的網站，然後選擇該清單。 </p> </li> 
+    </ul> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL限制]</td> 
+   <td> <p>輸入或映射您希望模組在每個方案執行週期期間返回的項目數上限。</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### [!UICONTROL 移動項目]
+
+此動作模組會複製SharePoint清單中的現有項目。
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL連接]</td> 
+   <td> <p>有關連接 [!DNL SharePoint] 帳戶 [!DNL Workfront Fusion]，請參閱 <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Connect [!DNL SharePoint] to [!DNL Workfront Fusion]</a> 這篇文章。</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">輸入站點、驅動器和資料夾ID</td> 
+   <td> <p>選擇要如何標識包含要移動項的站點和清單。</p> 
+    <ul> 
+     <li> <p><strong>[!UICONTROL手動輸入]</strong> </p> <p>輸入或對應 <strong>[!UICONTROL站點ID]</strong>, <strong>[!UICONTROL清單ID]</strong>，和 <strong>[!UICONTROL項目ID]</strong> 中。</p> </li> 
+     <li> <p><strong>[!UICONTROL從您關注的清單中選擇]</strong> </p> <p>在「複製項目類型」欄位中，選擇您要移動欄位還是資料夾。 選擇包含要複製的項的站點，然後選擇清單，然後選擇項。 </p> </li> 
+    </ul> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL目標ID]</td> 
+   <td>  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL新名稱]</td> 
+   <td>輸入或映射已移動項的名稱。 </td> 
+  </tr> 
+ </tbody> 
+</table>
+
 #### [!UICONTROL 更新項目]
 
 此動作模組會更新SharePoint清單中的現有項目。
@@ -351,39 +408,9 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-#### [!UICONTROL 刪除項目]
+#### [!UICONTROL 監看項目] （已排程）
 
-此動作模組會刪除SharePoint清單中的現有項目。
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL連接]</td> 
-   <td> <p>有關連接 [!DNL SharePoint] 帳戶 [!DNL Workfront Fusion]，請參閱 <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Connect [!DNL SharePoint] to [!DNL Workfront Fusion]</a> 這篇文章。</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL更新項]</td> 
-   <td> <p>選擇要如何標識包含要刪除項的站點和清單。</p> 
-    <ul> 
-     <li> <p><strong>[!UICONTROL手動輸入]</strong> </p> <p>輸入或對應 <strong>[!UICONTROL站點ID]</strong>, <strong>[!UICONTROL清單ID]</strong>，和 <strong>[!UICONTROL項目ID]</strong> 中。</p> </li> 
-     <li> <p><strong>[!UICONTROL從清單中選擇]</strong> </p> <p>選擇包含要刪除的項的站點，然後選擇清單，然後選擇項。 </p> </li> 
-    </ul> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-### 清單
-
-* [[!UICONTROL 監視清單]](#watch-lists)
-* [[!UICONTROL 清單清單]](#list-lists)
-* [[!UICONTROL 取得清單]](#get-a-list)
-* [[!UICONTROL 建立清單]](#create-a-list)
-
-#### [!UICONTROL 監視清單]
-
-建立或修改清單時，此觸發器模組就會啟動案例。
+此觸發模組會在建立或修改項目時啟動案例。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -401,66 +428,23 @@ ht-degree: 0%
    <td role="rowheader">[!UICONTROL輸入站點和清單ID]</td> 
    <td> <p>選擇要如何標識要監視的網站和清單。</p> 
     <ul> 
-     <li> <p><strong>[!UICONTROL手動輸入]</strong> </p> <p>輸入或對應 <strong>[!UICONTROL站點ID]</strong> 您要監視的清單位於何處。</p> </li> 
-     <li> <p><strong>[!UICONTROL從您關注的清單中選擇]</strong> </p> <p>選擇要監視的網站。 下拉式清單只會擷取您追蹤的網站。</p> </li> 
+     <li> <p><strong>[!UICONTROL手動輸入]</strong> </p> <p>輸入或對應 <strong>[!UICONTROL站點ID]</strong> 和 <strong>[!UICONTROL清單ID]</strong> 中。</p> </li> 
+     <li> <p><strong>[!UICONTROL從您關注的清單中選擇]</strong> </p> <p>選擇要監視的網站，然後選擇清單。 這些下拉式清單只會擷取後續的網站。</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL限制]</td> 
-   <td> <p>輸入或映射您希望模組在每個方案執行週期中返回的最大清單數。</p> </td> 
+   <td> <p>輸入或映射您希望模組在每個方案執行週期期間返回的項目數上限。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-#### [!UICONTROL 清單清單]
+### 清單
 
-此動作模組會擷取指定清單中所有項目的清單。
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL連接]</td> 
-   <td> <p>有關連接 [!DNL SharePoint] 帳戶 [!DNL Workfront Fusion]，請參閱 <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Connect [!DNL SharePoint] to [!DNL Workfront Fusion]</a> 這篇文章。</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL清單]</td> 
-   <td> <p>選擇要如何識別要從中檢索清單的站點。</p> 
-    <ul> 
-     <li> <p><strong>[!UICONTROL手動輸入]</strong> </p> <p>輸入或對應 <strong>[!UICONTROL站點ID]</strong>.</p> </li> 
-     <li> <p><strong>[!UICONTROL從清單中選擇]</strong> </p> <p>選擇包含要檢索的清單的網站。 下拉式清單只會擷取您追蹤的網站。</p> </li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL限制]</td> 
-   <td> <p>輸入或映射您希望模組在每個方案執行週期中返回的最大清單數。</p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-#### [!UICONTROL 取得清單]
-
-此動作模組會傳回指定清單的資料。
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL連接]</td> 
-   <td> <p>有關連接 [!DNL SharePoint] 帳戶 [!DNL Workfront Fusion]，請參閱 <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Connect [!DNL SharePoint] to [!DNL Workfront Fusion]</a> 這篇文章。</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL獲取清單]</td> 
-   <td> <p>選擇要如何標識包含要獲取項目的站點和清單。</p> 
-    <ul> 
-     <li> <p><strong>[!UICONTROL手動輸入]</strong> </p> <p>輸入或對應 <strong>[!UICONTROL站點ID]</strong> 和 <strong>清單ID</strong> 中。</p> </li> 
-     <li> <p><strong>[!UICONTROL從清單中選擇]</strong> </p> <p>選擇包含要檢索的清單的站點，然後選擇該清單。 </p> </li> 
-    </ul> </td> 
-  </tr> 
- </tbody> 
-</table>
+* [[!UICONTROL 建立清單]](#create-a-list)
+* [[!UICONTROL 取得清單]](#get-a-list)
+* [[!UICONTROL 清單清單]](#list-lists)
+* [[!UICONTROL 監視清單]](#watch-lists)
 
 #### [!UICONTROL 建立清單]
 
@@ -497,6 +481,87 @@ ht-degree: 0%
  </tbody> 
 </table>
 
+#### [!UICONTROL 取得清單]
+
+此動作模組會傳回指定清單的資料。
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL連接]</td> 
+   <td> <p>有關連接 [!DNL SharePoint] 帳戶 [!DNL Workfront Fusion]，請參閱 <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Connect [!DNL SharePoint] to [!DNL Workfront Fusion]</a> 這篇文章。</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL獲取清單]</td> 
+   <td> <p>選擇要如何標識包含要獲取項目的站點和清單。</p> 
+    <ul> 
+     <li> <p><strong>[!UICONTROL手動輸入]</strong> </p> <p>輸入或對應 <strong>[!UICONTROL站點ID]</strong> 和 <strong>清單ID</strong> 中。</p> </li> 
+     <li> <p><strong>[!UICONTROL從清單中選擇]</strong> </p> <p>選擇包含要檢索的清單的站點，然後選擇該清單。 </p> </li> 
+    </ul> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### [!UICONTROL 清單清單]
+
+此動作模組會擷取指定清單中所有項目的清單。
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL連接]</td> 
+   <td> <p>有關連接 [!DNL SharePoint] 帳戶 [!DNL Workfront Fusion]，請參閱 <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Connect [!DNL SharePoint] to [!DNL Workfront Fusion]</a> 這篇文章。</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL清單]</td> 
+   <td> <p>選擇要如何識別要從中檢索清單的站點。</p> 
+    <ul> 
+     <li> <p><strong>[!UICONTROL手動輸入]</strong> </p> <p>輸入或對應 <strong>[!UICONTROL站點ID]</strong>.</p> </li> 
+     <li> <p><strong>[!UICONTROL從清單中選擇]</strong> </p> <p>選擇包含要檢索的清單的網站。 下拉式清單只會擷取您追蹤的網站。</p> </li> 
+    </ul> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL限制]</td> 
+   <td> <p>輸入或映射您希望模組在每個方案執行週期中返回的最大清單數。</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### [!UICONTROL 監視清單]
+
+建立或修改清單時，此觸發器模組就會啟動案例。
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL連接]</td> 
+   <td> <p>有關連接 [!DNL SharePoint] 帳戶 [!DNL Workfront Fusion]，請參閱 <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Connect [!DNL SharePoint] to [!DNL Workfront Fusion]</a> 這篇文章。</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL監視清單]</td> 
+   <td>選擇要按建立時間（新項目）或修改時間（更新項目）監視清單。</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL輸入站點和清單ID]</td> 
+   <td> <p>選擇要如何標識要監視的網站和清單。</p> 
+    <ul> 
+     <li> <p><strong>[!UICONTROL手動輸入]</strong> </p> <p>輸入或對應 <strong>[!UICONTROL站點ID]</strong> 您要監視的清單位於何處。</p> </li> 
+     <li> <p><strong>[!UICONTROL從您關注的清單中選擇]</strong> </p> <p>選擇要監視的網站。 下拉式清單只會擷取您追蹤的網站。</p> </li> 
+    </ul> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL限制]</td> 
+   <td> <p>輸入或映射您希望模組在每個方案執行週期中返回的最大清單數。</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
 ### 頁面（測試版）
 
 >[!NOTE]
@@ -528,31 +593,8 @@ ht-degree: 0%
 
 ### 網站
 
-* [[!UICONTROL 搜尋網站]](#search-sites)
 * [[!UICONTROL 取得網站]](#get-a-site)
-
-#### [!UICONTROL 搜尋網站]
-
-此動作模組會依您指定的參數來搜尋網站。
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL連接]</td> 
-   <td> <p>有關連接 [!DNL SharePoint] 帳戶 [!DNL Workfront Fusion]，請參閱 <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Connect [!DNL SharePoint] to [!DNL Workfront Fusion]</a> 這篇文章。</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL顯示名稱的關鍵字]</td> 
-   <td> <p>輸入或映射要搜索網站的搜索詞。</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL限制]</td> 
-   <td> <p>輸入或映射您希望模組在每個方案執行週期中返回的站點數上限。</p> </td> 
-  </tr> 
- </tbody> 
-</table>
+* [[!UICONTROL 搜尋網站]](#search-sites)
 
 #### [!UICONTROL 取得網站]
 
@@ -577,6 +619,29 @@ ht-degree: 0%
  </tbody> 
 </table>
 
+#### [!UICONTROL 搜尋網站]
+
+此動作模組會依您指定的參數來搜尋網站。
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL連接]</td> 
+   <td> <p>有關連接 [!DNL SharePoint] 帳戶 [!DNL Workfront Fusion]，請參閱 <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Connect [!DNL SharePoint] to [!DNL Workfront Fusion]</a> 這篇文章。</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL顯示名稱的關鍵字]</td> 
+   <td> <p>輸入或映射要搜索網站的搜索詞。</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL限制]</td> 
+   <td> <p>輸入或映射您希望模組在每個方案執行週期中返回的站點數上限。</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
 ### 其他
 
 #### [!UICONTROL 進行API呼叫]
@@ -597,7 +662,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL方法]</p> </td> 
-   td&gt; <p>選取設定API呼叫所需的HTTP要求方法。 如需詳細資訊，請參閱 <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">中的HTTP要求方法 [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td> <p>選取設定API呼叫所需的HTTP要求方法。 如需詳細資訊，請參閱 <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">中的HTTP要求方法 [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL標題]</td> 
@@ -617,6 +682,28 @@ ht-degree: 0%
      <div class="example" data-mc-autonum="<b>Example: </b>"> 
       <p> <img src="assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
      </div> </p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### 觀看事件
+
+此即時觸發模組會在SharePoint中新增、更新或刪除項目時啟動案例。
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+  <!--
+   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td> <p>For instructions about connecting your [!DNL SharePoint] account to [!DNL Workfront Fusion], see <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Connect [!DNL SharePoint] to [!DNL Workfront Fusion]</a> in this article.</p> </td> 
+  </tr> 
+  -->
+  <tr> 
+   <td role="rowheader">[!UICONTROL Webhook]</td> 
+   <td> <p>選取現有的網頁連結，或按一下「新增」以建立新的網頁連結。</p> 
+   </td> 
   </tr> 
  </tbody> 
 </table>
