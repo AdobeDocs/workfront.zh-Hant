@@ -7,9 +7,9 @@ description: Adobe Workfront for Experience Manager Assets Essentials
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 8aad1efc-1a91-441a-8bb8-0ce9429492c6
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 59aff34da2e2925b1854646c9dafb1dc666486c4
 workflow-type: tm+mt
-source-wordcount: '95'
+source-wordcount: '104'
 ht-degree: 0%
 
 ---
@@ -23,3 +23,4 @@ ht-degree: 0%
 * [校樣Experience Manager Assets或Assets Essentials的連結資產](../../documents/adobe-workfront-for-experience-manager-assets-essentials/proof-linked-asset-aem.md)
 * [從Experience Manager Assets或Assets Essentials檢視或下載連結的資產](../../documents/adobe-workfront-for-experience-manager-assets-essentials/view-download-asset.md)
 * [建立連結至Experience Manager Assets或Assets Essentials的資料夾](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/create-linked-folder.md)
+   [使用Experience Manager Assets Essentials整合中的工作流程](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/use-aem-workflows.md)
