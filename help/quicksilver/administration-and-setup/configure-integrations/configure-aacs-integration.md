@@ -5,14 +5,16 @@ title: Adobe Experience Manager Assets整合
 description: 您可以透過下列Adobe Experience Manager Assets整合連結您的工作。
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: bc58cc77-a177-417f-a5a4-eec51e305219
-source-git-commit: 337aead90dba40a3c9104fb0183897c17f2cd66d
+source-git-commit: 9080dfe7e46a3780d493b59c8f2a3c4efbc011e7
 workflow-type: tm+mt
-source-wordcount: '1504'
+source-wordcount: '1526'
 ht-degree: 0%
 
 ---
 
 # 設定 [!UICONTROL Experience Manager Assetsas a Cloud Service] 整合
+
+<span class="preview">本頁強調顯示的資訊指的是尚未普遍提供的功能。 它僅適用於預覽沙箱環境。</span>
 
 您可以將工作與內容連結，位於 [!DNL Experience Manager Assets]&#x200B;:
 
@@ -224,6 +226,8 @@ link to documentation about creating schema - waiting on response from Anuj abou
 
 <!--Courtney start here-->
 
+<div class="preview">
+
 ## 設定工作流程（可選）
 
 工作流程是連線Workfront和Adobe Experience Manager as a Cloud Service的一組動作。 身為Workfront管理員，您可以在Workfront中設定工作流程，然後將其指派至專案範本。 使用已為其分配工作流的項目模板建立項目時，將觸發工作流中定義的操作。
@@ -237,6 +241,8 @@ link to documentation about creating schema - waiting on response from Anuj abou
    ![連結的資料夾導覽](assets/select-folder-aem-integration.png)
 1. 啟用 **附加Portfolio和程式名** 選項，在連結資料夾名稱的結尾自動包含Portfolio和方案名稱。
 1. 按一下 **儲存** 或繼續 [設定連結的資料夾（可選）](#set-up-linked-folders-optional) 一節。
+
+</div>
 
 <!--Courtney end here-->
 
