@@ -9,7 +9,7 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 1ee9343e-9452-4e41-a9ff-a6c865d4813b
-source-git-commit: 3b0a82381d1c33d897b123a597df21ba54cc2565
+source-git-commit: df55d6659fac7588610bc05ea0380a766b4277a2
 workflow-type: tm+mt
 source-wordcount: '1368'
 ht-degree: 1%
@@ -18,12 +18,10 @@ ht-degree: 1%
 
 # 配置組的時間表和小時首選項
 
-{{highlighted-preview}}
-
 Adobe Workfront管理員可以在系統層級解除鎖定下列時間表和小時偏好設定區段，讓群組管理員可以針對自己的群組獨立設定這些區段：
 
 * 一般喜好設定
-* <span class="preview">使用者記錄時間的位置</span>
+* 使用者記錄時間的位置
 * 預填工時單
 
 如果您管理的群組上方有任何群組，其管理員也可以對您的群組執行此動作。 Workfront管理員（適用於任何群組）也是如此。
@@ -136,23 +134,23 @@ Adobe Workfront管理員可以在系統層級解除鎖定下列時間表和小�
     </tbody> 
    </table>
 
-1. <span class="preview">在 **使用者可在此記錄時間** ，請配置以下任一選項：</span>
+1. 在 **使用者可在此記錄時間** ，請配置以下任一選項：
 
    <table style="table-layout:auto">
     <col>
     <col>
     <tbody>
      <tr>
-      <td role="rowheader"><span class="preview">直接在專案上記錄時間</span></td> 
-      <td><span class="preview">允許用戶登錄項目的時間（在「更新」頁簽和時間表上）。 如果您想要限制使用者在專案層級記錄時間，請保留此選項為未勾選狀態。</span></td>
+      <td role="rowheader">直接在專案上記錄時間</td> 
+      <td>允許用戶登錄項目的時間（在「更新」頁簽和時間表上）。 如果您想要限制使用者在專案層級記錄時間，請保留此選項為未勾選狀態。</td>
      </tr>
      <tr>
-      <td role="rowheader"><span class="preview">登錄已完成的項目</span></td>
-      <td><span class="preview">允許用戶記錄已標籤為完成的項目上的時間。 如果禁用此選項，則用戶無法以「完成」狀態記錄在項目上完成的工作的時間。</span></td>
+      <td role="rowheader">登錄已完成的項目</td>
+      <td>允許用戶記錄已標籤為完成的項目上的時間。 如果禁用此選項，則用戶無法以「完成」狀態記錄在項目上完成的工作的時間。</td>
      </tr>
      <tr>
-      <td role="rowheader"><span class="preview">對已停用的專案登入時間</span></td> 
-      <td><span class="preview">啟用此選項後，使用者可以登入處於「無效」狀態的專案數小時。</span></td>
+      <td role="rowheader">對已停用的專案登入時間</td> 
+      <td>啟用此選項後，使用者可以登入處於「無效」狀態的專案數小時。</td>
      </tr>
     </tbody>
    </table>
