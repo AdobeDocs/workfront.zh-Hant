@@ -1,12 +1,12 @@
 ---
 content-type: api
 navigation-topic: general-api
-title: API Explorer
-description: API Explorer
+title: API資源管理器
+description: API資源管理器
 author: Becky
 feature: Workfront API
 exl-id: c71ac171-cf94-47f4-b1ac-eb53be7cf2d9
-source-git-commit: f050c8b95145552c9ed67b549608c16115000606
+source-git-commit: 3db01c329c005570b782ae3445f83b7c44ced676
 workflow-type: tm+mt
 source-wordcount: '50'
 ht-degree: 0%
@@ -14,8 +14,8 @@ ht-degree: 0%
 ---
 
 
-# API Explorer
+# API資源管理器
 
-您可以在API總管中檢視可透過Adobe Workfront API使用的所有物件。 若要檢視API總管，請按一下 [此處](https://one.workfront.com/s/api-explorer).
+您可以在API瀏覽器中查看通過Adobe WorkfrontAPI可用的所有對象。 要查看API瀏覽器，請按一下 [這裡](https://developer.adobe.com/workfront/api-explorer/)。
 
-如需使用API Explorer的詳細資訊，請參閱 [使用API Explorer](../../wf-api/general/using-api-explorer.md).
+有關使用API瀏覽器的詳細資訊，請參見 [使用API資源管理器](../../wf-api/general/using-api-explorer.md)。

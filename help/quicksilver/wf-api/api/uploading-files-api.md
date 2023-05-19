@@ -1,33 +1,33 @@
 ---
 content-type: api
 navigation-topic: api-navigation-topic
-title: 透過API上傳檔案
-description: 透過API上傳檔案
+title: 通過API上載檔案
+description: 通過API上載檔案
 author: Becky
 feature: Workfront API
 exl-id: 4e0b73b6-0d6d-4971-a87a-dfec85fb031a
-source-git-commit: f050c8b95145552c9ed67b549608c16115000606
+source-git-commit: 3db01c329c005570b782ae3445f83b7c44ced676
 workflow-type: tm+mt
-source-wordcount: '188'
+source-wordcount: '176'
 ht-degree: 0%
 
 ---
 
-# 透過API上傳檔案
+# 通過API上載檔案
 
-您可以使用Workfront API搭配Postman等API工具或簡單的cURL命令來上傳檔案。
+您可以使用API工具(如Postman)或簡單的cURL命令使用WorkfrontAPI上載檔案。
 
-若要上傳檔案，請參閱 **上傳檔案** 在Workfront [貼文行為](https://one.workfront.com/s/document-item?bundleId=the-new-workfront-experience&amp;topicId=Content%2FWF_API%2FGeneral%2Fapi-basics.html). 您也可以對cURL要求使用這些相同的指示。
+要上載文檔，請參閱 **正在上載文檔** 在Workfront [帖子行為](/help/quicksilver/wf-api/general/api-basics.md#post-behavior)。 您也可以對cURL請求使用這些相同的說明。
 
-**使用API工具上傳檔案時，請遵循下列准則：**
+**使用API工具上載檔案時，請遵循以下准則：**
 
-* 使用API工具選項來上傳檔案。 這通常是 **選擇檔案** 按鈕。
+* 使用API工具選項上載檔案。 這通常是 **選擇檔案** 按鈕。
 
-* 使用POSTHTTP方法來提出上傳檔案的要求。
+* 使用POSTHTTP方法來請求上載檔案。
 
-* 您的要求應會產生包含其處理值的回應。
+* 您的請求應生成包含其句柄值的響應。
 
-* 使用JSON裝載中objID的句柄值、物件類型和GUID值，進行後續呼叫。 這是用於為檔案建立物件，如下列範例所示：
+* 使用JSON負載中objID的句柄值、對象類型和GUID值進行後續調用。 這用於為檔案建立對象，如下例所示：
 
 ```
 }
@@ -39,6 +39,6 @@ ht-degree: 0%
 }
 ```
 
-您應會在回應中收到物件的ID。
+您應在響應中接收對象的ID。
 
-如需詳細資訊，請參閱您所使用之特定API工具的說明。
+有關詳細資訊，請參閱所使用的特定API工具的幫助。
