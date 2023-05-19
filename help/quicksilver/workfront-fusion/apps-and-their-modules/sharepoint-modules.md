@@ -9,9 +9,9 @@ description: 在 [!DNL Adobe Workfront Fusion] 案例中，您可以自動執行
 author: Becky
 feature: Workfront Fusion
 exl-id: 16d49031-06d2-4c86-bac4-f58cd9b2f1f5
-source-git-commit: 83914e54638ffbef2b3ccee12c71b84ca7cc61d2
+source-git-commit: aee0778b08e00b2fc94f6829e6b2cd957ff0fe23
 workflow-type: tm+mt
-source-wordcount: '2660'
+source-wordcount: '2802'
 ht-degree: 0%
 
 ---
@@ -236,12 +236,12 @@ ht-degree: 0%
    <td> <p>選擇要如何標識包含要複製項的站點和清單。</p> 
     <ul> 
      <li> <p><strong>[!UICONTROL手動輸入]</strong> </p> <p>輸入或對應 <strong>[!UICONTROL站點ID]</strong>, <strong>[!UICONTROL清單ID]</strong>，和 <strong>[!UICONTROL項目ID]</strong> 中。</p> </li> 
-     <li> <p><strong>[!UICONTROL從您關注的清單中選擇]</strong> </p> <p>在「複製項目類型」欄位中，選擇您要移動欄位還是資料夾。  選擇包含要複製的項的站點，然後選擇清單，然後選擇項。 </p> </li> 
+     <li> <p><strong>[!UICONTROL從您關注的清單中選擇]</strong> </p> <p>在「項目類型」欄位中，選擇您要移動欄位還是資料夾。  選擇包含要複製的項的站點，然後選擇清單，然後選擇項。 </p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL目標ID]</td> 
-   <td>  </td> 
+   <td> 輸入或映射要複製項目的資料夾ID。 </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL新名稱]</td> 
@@ -367,12 +367,12 @@ ht-degree: 0%
    <td> <p>選擇要如何標識包含要移動項的站點和清單。</p> 
     <ul> 
      <li> <p><strong>[!UICONTROL手動輸入]</strong> </p> <p>輸入或對應 <strong>[!UICONTROL站點ID]</strong>, <strong>[!UICONTROL清單ID]</strong>，和 <strong>[!UICONTROL項目ID]</strong> 中。</p> </li> 
-     <li> <p><strong>[!UICONTROL從您關注的清單中選擇]</strong> </p> <p>在「複製項目類型」欄位中，選擇您要移動欄位還是資料夾。 選擇包含要複製的項的站點，然後選擇清單，然後選擇項。 </p> </li> 
+     <li> <p><strong>[!UICONTROL從您關注的清單中選擇]</strong> </p> <p>在「項目類型」欄位中，選擇您要移動欄位還是資料夾。 選擇包含要複製的項的站點，然後選擇清單，然後選擇項。 </p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL目標ID]</td> 
-   <td>  </td> 
+   <td> 輸入或映射要將項目移動到的資料夾的ID。 </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL新名稱]</td> 
@@ -643,6 +643,33 @@ ht-degree: 0%
 </table>
 
 ### 其他
+
+#### 取得變更
+
+此模組會擷取在SharePoint資料夾中所做的新增、更新和刪除。
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL連接]</td> 
+   <td> <p>有關連接 [!DNL SharePoint] 帳戶 [!DNL Workfront Fusion]，請參閱 <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Connect [!DNL SharePoint] to [!DNL Workfront Fusion]</a> 這篇文章。</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL輸入站點、驅動器和資料夾ID]</td> 
+   <td> <p>選擇要如何標識包含要更新項的站點和清單。</p> 
+    <ul> 
+     <li> <p><strong>[!UICONTROL手動輸入]</strong> </p> <p>輸入或對應 <strong>[!UICONTROL站點ID]</strong>, <strong>[!UICONTROL驅動器ID]</strong>，和 <strong>[!UICONTROL資料夾ID]</strong> 中。</p> </li> 
+     <li> <p><strong>[!UICONTROL從清單中選擇]</strong> </p> <p>選擇包含要更新項的站點，然後選擇驅動器，然後選擇資料夾。 </p> </li> 
+    </ul> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL令牌]</td> 
+   <td> 代號會識別模組應從哪個點開始擷取變更。  </td> 
+  </tr> 
+ </tbody> 
+</table>
 
 #### [!UICONTROL 進行API呼叫]
 
