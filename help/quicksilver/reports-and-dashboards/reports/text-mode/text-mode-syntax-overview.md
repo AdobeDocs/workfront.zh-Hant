@@ -1,67 +1,67 @@
 ---
 product-area: reporting
 navigation-topic: text-mode-reporting
-title: 文字模式語法概觀
-description: 您可以使用文字模式介面，在清單和報表中建立更複雜的檢視、篩選、分組和自訂提示。 使用文本模式時，您可以訪問標準模式介面中不可用的欄位及其屬性。
+title: 文本模式語法概述
+description: 可以使用文本模式介面在清單和報告中建立更複雜的視圖、篩選器、分組和自定義提示。 通過使用文本模式，可以訪問在標準模式介面中不可用的欄位及其屬性。
 author: Nolan
 feature: Reports and Dashboards
 exl-id: f24430e1-c5f7-4925-93df-0e956a03c863
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 888c938e5d649557df69374a55d4e4ecc2da6f55
 workflow-type: tm+mt
-source-wordcount: '1498'
+source-wordcount: '1478'
 ht-degree: 0%
 
 ---
 
-# 文字模式語法概觀
+# 文本模式語法概述
 
-您可以使用文字模式介面，在清單和報表中建立更複雜的檢視、篩選、分組和自訂提示。 使用文本模式時，您可以訪問標準模式介面中不可用的欄位及其屬性。
+可以使用文本模式介面在清單和報告中建立更複雜的視圖、篩選器、分組和自定義提示。 通過使用文本模式，可以訪問在標準模式介面中不可用的欄位及其屬性。
 
-如需開始前文字模式的相關資訊和考量事項，請參閱 [文字模式概觀](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).
+有關開始前文本模式的資訊和注意事項，請參見 [文本模式概述](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md)。
 
-如需所有可報告欄位及其屬性的完整清單，請參閱 [API Explorer](../../../wf-api/general/api-explorer.md).
+有關所有可報告欄位及其屬性的完整清單，請參閱 [API資源管理器](../../../wf-api/general/api-explorer.md)。
 
-## 文字模式語法的考量事項
+## 關於文本模式語法的注意事項
 
-* 您必須先了解Adobe Workfront語法，才能開始以文字模式建立報表元素。 文字模式的Workfront語法是此應用程式專屬的，且具有您必須熟悉的獨特特性。
-* 在您開始在報表中使用文字模式之前，強烈建議您在進階報表中使用類別，以更深入了解我們的文字模式語言。 有關報告的培訓資料，請參閱 [Workfront報表和控制面板學習路徑](https://one.workfront.com/s/learningpath2/workfront-reporting-20Y0z000000blhLEAQ).
-* 您可以使用標準模式介面來自訂檢視、篩選和群組。 但是，您只能使用文字模式來建立自訂提示。
+* 您必須先瞭解Adobe Workfront語法，然後才能開始在文本模式下生成報告元素。 文本模式的Workfront語法是此應用程式獨有的，它具有您必須熟悉的獨特特性。
+* 在您開始在報告中使用文本模式之前，我們強烈建議您學習我們有關高級報告的課程，以便更深入地瞭解我們的文本模式語言。 <!--outdated link: For training materials on reporting see [Workfront Reports and Dashboards Learning Paths](https://one.workfront.com/s/learningpath2/workfront-reporting-20Y0z000000blhLEAQ).-->
+* 可以使用標準模式介面定制視圖、過濾器和分組。 但是，您只能使用文本模式生成自定義提示。
 
-## 在文字模式中建立報表元素的通用准則
+## 在文本模式下生成報告元素的通用准則
 
-以下是以文字模式建立任何報表或清單元素時的常見准則：
+在文本模式下構建任何報告或清單元素時，以下是常用准則：
 
-* 在Workfront資料庫中參考物件或屬性時，請一律使用駝峰式大小寫。
-* 請記得Workfront中物件的階層。 檢視、篩選和群組之間有下列差異：
+* 在Workfront資料庫中引用對象或屬性時，始終使用駝峰大小寫。
+* 記住Workfront的物體層次。 視圖、篩選器和分組之間存在以下差異：
 
-   * 可以顯示一個對象，該對象是離報表或清單對象遠的三個對象。
-   * 在分組、篩選或自定義提示中，不能引用距主對象超過2個對象的對象。
+   * 可以在視圖中顯示一個對象，該對象是三個與報表或清單對象不同的對象。
+   * 在分組、篩選或自定義提示中，不能引用與主對象相距超過2個對象的對象。
 
-   **範例：** 您可以在任務視圖中顯示Portfolio所有者的名稱或GUID:
+   **示例：** 可以在任務視圖中顯示Portfolio所有者的名稱或GUID:
 
    ```
    valuefield=project:portfolio:ownerID
    ```
 
-   您不能在任務視圖中對Portfolio所有者進行分組、篩選或提示：
+   不能在任務視圖中對Portfolio所有者進行分組、篩選或提示：
 
    ```
    project:portfolio:ownerID=5808f4bc00790b270a9629dd128e63fa
    ```
 
-   在這些範例中，Portfolio擁有者ID是離清單物件三個物件。
+   在這些示例中，Portfolio所有者ID是遠離清單對象的三個對象。
 
-   如需Workfront中物件階層的相關資訊，請參閱：
+   有關Workfront對象層次結構的資訊，請參閱：
 
-   * [了解Adobe Workfront中的物件](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)
-   * [API Explorer](../../../wf-api/general/api-explorer.md)
+   * [瞭解Adobe Workfront的對象](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)
+   * [API資源管理器](../../../wf-api/general/api-explorer.md)
 
 
-* 盡可能使用萬用字元(*)，讓您的報表和清單更具動態性，並避免針對不同使用者和類似的時間軸重複這些報表和清單。
+* 盡可能使用通配符使報告和清單更加動態，並避免為不同用戶和類似時間表複製它們。
 
-## 駝峰案例概述
+## 駱駝案例概述
 
-在文字模式中參考Workfront欄位或其屬性時，Workfront會要求您以駝峰式大小寫輸入其名稱。 在這種情況下，單名欄位會拼成小寫。 複合欄位的拼寫方式如下：
+在文本模式下引用Workfront欄位或其屬性時，Workfront要求您在駝峰大小寫中鍵入它們的名稱。 在這種情況下，單名字欄位的拼寫為小寫。 複合欄位按以下模式拼寫：
 
 ```
 camelCaseSyntax
@@ -69,15 +69,15 @@ camelCaseSyntax
 
 >[!IMPORTANT]
 >
->所有報表元素都會遵循此大小寫模式。
+>所有報告元素都遵循此外殼模式。
 
-駝峰案例的特點是：
+駝峰的特點是：
 
-* 第一個字一律以小寫字母開頭。
-* 以下字詞的開頭一律為大寫字母。
-* 字之間沒有空格。
+* 第一個單詞總是以小寫字母開頭。
+* 以下單詞始終以大寫字母開頭。
+* 單詞之間沒有空格。
 
-**範例：** 要參考項目的實際完成日期，建立文本模式報告元素時要使用的欄位名稱為
+**示例：** 要引用項目的實際完成日期，在生成文本模式報告元素時要使用的欄位的名稱為
 
 ```
 actualCompletionDate
@@ -85,34 +85,34 @@ actualCompletionDate
 
 。
 
-## 各種報表元素的文字模式語法
+## 各種報表元素的文本模式語法
 
-使用文字模式建立報表元素集時，下列報表元素集的語法之間有下列相似之處：
+使用文本模式建立報表元素集時，以下報表元素集的語法之間存在以下相似性：
 
-* 檢視和群組的程式碼行和語法類似。
+* 對於視圖和分組，代碼行和語法行類似。
 
-   有關在文本模式中建立視圖和分組時代碼的關鍵行資訊，請參閱：
+   有關在文本模式下構建視圖和分組時的關鍵代碼行的資訊，請參閱：
 
    * [使用文本模式編輯視圖](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-view.md)
    * [編輯分組中的文本模式](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-grouping.md)
 
-* 程式碼行和語法對於篩選器和自訂提示類似。
+* 對於篩選器和自定義提示，代碼行和語法行類似。
 
-   如需詳細資訊，請參閱：
+   有關詳細資訊，請參閱：
 
-   * [使用文字模式編輯篩選器](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md)
-   * [新增提示至報表](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md)
+   * [使用文本模式編輯篩選器](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md)
+   * [向報表添加提示](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md)
 
-### 檢視和群組的語法
+### 視圖和分組的語法
 
-您可能會注意到建立檢視和群組時的程式碼行類似。
+您可能會注意到，在構建視圖和分組時，代碼行相似。
 
-如需建立檢視和群組的相關資訊，請參閱下列文章：
+有關建立視圖和分組的資訊，請參閱以下文章：
 
-* [Adobe Workfront中的檢視概觀](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md)
-* [Adobe Workfront中的群組概觀](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md)
+* [Adobe Workfront視圖概述](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md)
+* [Adobe Workfront分組概覽](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md)
 
-視圖或分組最重要的代碼行是標識視圖列或分組中引用的對象的行。 根據此欄位是Workfront資料庫欄位的直接參考，還是多個欄位之間的計算，程式碼行的開頭可能為
+視圖或分組最重要的代碼行是標識在視圖列或分組中引用的對象的行。 根據此欄位是對Workfront資料庫欄位的直接引用還是多個欄位之間的計算，代碼行可以從
 
 ```
 valuefield
@@ -126,14 +126,14 @@ valueexpression
 
 。
 
-* [檢視和群組的值欄位語法概觀](#valuefield-syntax-overview-for-views-and-groupings)
-* [檢視和群組的值運算式語法概觀](#valueexpression-syntax-overview-for-views-and-groupings)
+* [視圖和分組的值欄位語法概述](#valuefield-syntax-overview-for-views-and-groupings)
+* [視圖和分組的值表達式語法概述](#valueexpression-syntax-overview-for-views-and-groupings)
 
 >[!TIP]
 >
->* 雖然下列範例中的程式碼行在檢視和分組之間類似，但請一律記住，分組的每一行程式碼都以分組編號開頭。
+>* 雖然下面示例中的代碼行在視圖和分組之間類似，但請始終記住，分組的每個代碼行都以分組編號開頭。
 >
->  要按項目清單或報表中的項目名稱分組，請對第一層分組使用以下行：
+>  要在項目清單或報表中按項目名稱分組，請對第一層分組使用以下行：
 >
 >  
 ```>
@@ -157,17 +157,17 @@ Use the following format to identify the first column of a view:
 Valuefield
 ```
 
-檢視和群組的語法概觀 {#valuefield-syntax-overview-for-views-and-groupings}
+視圖和組的語法概述 {#valuefield-syntax-overview-for-views-and-groupings}
 
 ```
 Valuefield=
 ```
 
-是檢視和群組中的關鍵程式碼行，可識別您直接參考的物件。
+是視圖和分組中標識您直接引用的對象的關鍵代碼行。
 
-直接參考欄位的語法對於群組和檢視是相同的。
+直接引用欄位的語法對於分組和視圖是相同的。
 
-使用
+使用Java引用Workfront對象時適用以下規則
 
 ```
 valuefield
@@ -175,27 +175,27 @@ valuefield
 
 行：
 
-* 使用駝峰大小寫直接參考欄位。
+* 使用駱駝案例直接引用欄位。
 
-   **範例：** 要在任務視圖中參考任務實際完成日期，請使用以下行：
+   **示例：** 要在任務視圖中參考任務實際完成日期，請使用以下行：
 
    ```
    valuefield=actualCompletionDate
    ```
 
-* 使用駝峰式大小寫和冒號來分隔相同物件的彼此相關欄位。
+* 使用駱駝大小寫和冒號來分隔同一對象中彼此相關的欄位。
 
-   **範例：** 要在任務視圖中參考項目計畫完成日期，請使用以下行：
+   **示例：** 要在任務視圖中參考項目計畫完成日期，請使用以下行：
 
    ```
    valuefield=project:plannedCompletionDate
    ```
 
-   有關在Workfront資料庫中如何互相引用對象的資訊，請參見 [API Explorer](../../../wf-api/general/api-explorer.md).
+   有關對象在Workfront資料庫中如何相互引用的資訊，請參見 [API資源管理器](../../../wf-api/general/api-explorer.md)。
 
-* 參考自訂欄位時，請使用與介面中顯示完全相同的欄位名稱。
+* 引用自定義欄位時，請完全按該欄位在介面中的顯示方式使用該欄位的名稱。
 
-   **範例：** 要在任務視圖中參考標籤為「附加詳細資訊」的項目自定義欄位，請使用以下行：
+   **示例：** 要引用任務視圖中標籤為「附加詳細資訊」的項目自定義欄位，請使用以下行：
 
    ```
    valuefield=project:Additional Details
@@ -207,31 +207,31 @@ valuefield
 Valueexpression
 ```
 
-檢視和群組的語法概觀 {#valueexpression-syntax-overview-for-views-and-groupings}
+視圖和組的語法概述 {#valueexpression-syntax-overview-for-views-and-groupings}
 
-您可以取代
+可以替換
 
 ```
 valuefield=
 ```
 
-使用
+代碼行
 
 ```
 valueexpression=
 ```
 
-在文本模式中建立視圖和分組時，需要參考2個或多個欄位之間的計算。
+在文本模式下構建視圖和分組時，要在2個或多個欄位之間引用計算。
 
 >[!TIP]
 >
->雖然您可以建立可在報表中顯示的計算欄位，但計算檢視和群組更具動態性。 每次執行報表或顯示清單時，計算的檢視和群組都會以新資訊重新整理。
+>雖然可以構建可在報表中顯示的計算欄位，但計算視圖和分組更具動態性。 每次運行報表或顯示清單時，計算的視圖和分組都會使用新資訊刷新。
 >
->如需在檢視中建立計算欄的相關資訊，請參閱 [計算自訂欄位與計算欄](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-custom-fields-calculated-columns.md).
+>有關在視圖中建立計算列的資訊，請參見 [計算的自定義欄位與計算的列](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-custom-fields-calculated-columns.md)。
 
-建立計算分組類似於在檢視中建立計算列。
+構建計算分組類似於在視圖中構建計算列。
 
-使用
+使用Java引用Workfront對象時適用以下規則
 
 ```
 valueexpression
@@ -239,25 +239,25 @@ valueexpression
 
 行：
 
-* 使用駝峰大小寫直接參照欄位，並以大括弧括住每個欄位。
+* 使用駱駝大小寫直接引用欄位，並將每個欄位括在花括弧中。
 
-   **範例：** 要在任務列中顯示「任務名稱」欄位，請使用
+   **示例：** 要在任務列中顯示「任務名稱」欄位，請使用
 
    ```
    valueexpression
    ```
 
-   ，請使用下列行：
+   ，使用以下行：
 
    ```
    valueexpression={name}
    ```
 
-* 使用駝峰式大小寫和句號來分隔彼此相關的欄位。
+* 使用駱駝大小寫和句點分隔彼此相關的欄位。
 
-   **範例：** 要在任務報表中顯示與任務名稱串連的項目名稱，請使用以下行：
+   **示例：** 要顯示與任務報表中任務名稱連接的項目名稱，請使用以下行：
 
-   * 在檢視中：
+   * 在視圖中：
 
       ```
       valueexpression=CONCAT({project}.{name},' - ',{name})
@@ -268,16 +268,16 @@ valueexpression
       ```
       group.0.valueexpression=CONCAT({project}.{name},' - ',{name})
       ```
-   有關在Workfront資料庫中如何互相引用對象的資訊，請參見 [API Explorer](../../../wf-api/general/api-explorer.md).
+   有關對象在Workfront資料庫中如何相互引用的資訊，請參見 [API資源管理器](../../../wf-api/general/api-explorer.md)。
 
-* 參考自訂欄位時，請使用下列規則：
+* 引用自定義欄位時，請使用以下規則：
 
-   * 使用介面中顯示的欄位名稱。
-   * 在欄位名稱前面加上&quot;DE:&quot;。
-   * 以大括弧括住欄位。
-   * 依句號分隔與物件相關的欄位。
+   * 使用欄位的名稱，與在介面中顯示的欄位完全相同。
+   * 在欄位名稱前加「DE：」。
+   * 將欄位括在花括弧中。
+   * 按句點分隔與對象相關的欄位。
 
-   **範例：** 要在值表達式行的任務視圖中顯示「附加詳細資訊」項目自定義欄位，請使用以下行：
+   **示例：** 要在值表達式行的任務視圖中顯示「附加詳細資訊」項目自定義欄位，請使用以下行：
 
    ```
    valueexpression={project}.{DE:Additional Details}
@@ -295,9 +295,9 @@ valueexpression
    valuefield
    ```
 
-   行。
+   。
 
-   如需萬用字元的相關資訊，請參閱 [萬用字元篩選變數](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
+   有關通配符的資訊，請參見 [通配符篩選器變數](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md)。
 
 ```
 Valueformat
@@ -305,25 +305,25 @@ Valueformat
 
 概述
 
-檢視或分組中第二最重要的程式碼行是
+視圖或分組中第二重要的代碼行是
 
 ```
 valueformat=
 ```
 
-行。 這會以什麼格式傳回您在
+。 這將告訴Workfront以何種格式返回您在
 
 ```
 valuefield
 ```
 
-或值運算式行。 雖然您可以在
+或value表達式行。 雖然您可以使用各種格式
 
 ```
 valueformat
 ```
 
-行，建議您在使用
+行時，建議您在使用
 
 ```
 valueexpression
@@ -335,40 +335,40 @@ valueexpression
 valueformat=HTML
 ```
 
-### 篩選器和自訂提示的語法
+### 篩選器和自定義提示的語法
 
-建立篩選器的語法與建立自訂提示的語法類似。
+建立篩選器的語法與建立自定義提示的語法類似。
 
 >[!TIP]
 >
->您可以先為要包含在提示中的陳述式建立篩選器，以建立自訂提示。 以&quot;&amp;&quot;連結篩選器中的所有代碼行，且行之間不含任何空格，這將成為您的自訂提示。
+>您可以先為要包括在提示中的語句構建篩選器，從而建立自定義提示。 通過「&amp;」將篩選器中的所有代碼行連接，這些行之間沒有空格，並且該行將成為您的自定義提示。
 
-有關建立篩選器和自定義提示的資訊，請參閱：
+有關生成篩選器和自定義提示的資訊，請參閱：
 
-* [Adobe Workfront中的篩選器概觀](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md)
-* [新增提示至報表](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md)
+* [篩選器概述Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md)
+* [向報表添加提示](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md)
 
-如需在文字模式中建立篩選器的相關資訊，請參閱 [使用文字模式編輯篩選器](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md).
+有關在文本模式下建立篩選器的資訊，請參見 [使用文本模式編輯篩選器](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md)。
 
-您可以使用下列元素，以文字模式建立篩選器和自訂提示：
+可以使用以下元素在文本模式下生成篩選器和自定義提示：
 
-* 引用filter語句對象的代碼行。 篩選器物件請使用駝峰式大小寫。
-* 引用篩選物件的程式碼行，以及篩選物件值的修飾元。 對此行中的篩選器對象使用駝峰大小寫。
+* 引用filter語句對象的代碼行。 將駝峰案例用於篩選器對象。
+* 引用篩選器對象的代碼行和篩選器對象值的修飾符。 對此行中的篩選器對象使用駝峰案例。
 
    >[!TIP]
    >
-   >參考範圍時，需要2個修改量行。
+   >引用範圍時，這需要2個修改量行。
 
 * 連接多個篩選器語句的語句連接器：
 
-   * 與
+   * 且
 
-      這是篩選器陳述式之間的預設連接器。
+      這是篩選器語句之間的預設連接器。
 
    * 或
 
       >[!TIP]
       >
-      >語句連接器區分大小寫，且一律為大寫。 可在文字模式中省略&quot;AND&quot;。
+      >語句連接器區分大小寫，並且始終為大寫。 「AND」可在文本模式下省略。
 
-* 萬用字元可讓篩選器更動態，並針對目前時間或登入的使用者加以自訂。 如需萬用字元的相關資訊，請參閱 [萬用字元篩選變數](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
+* 通配符，使篩選器更加動態，並為當前時間或登錄的用戶自定義它們。 有關通配符的資訊，請參見 [通配符篩選器變數](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md)。

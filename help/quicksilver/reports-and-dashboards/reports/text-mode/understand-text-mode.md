@@ -1,19 +1,19 @@
 ---
 product-area: reporting
 navigation-topic: text-mode-reporting
-title: 文字模式概觀
-description: 文字模式概觀
+title: 文本模式概述
+description: 文本模式概述
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 8be8cbd0-da1b-4e90-a52e-dc352f646d18
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 888c938e5d649557df69374a55d4e4ecc2da6f55
 workflow-type: tm+mt
-source-wordcount: '945'
+source-wordcount: '925'
 ht-degree: 0%
 
 ---
 
-# 文字模式概觀
+# 文本模式概述
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: Linked to the UI (for the areas mentioned in the comments below and the new NWE filters as well))</p>
@@ -27,57 +27,57 @@ ht-degree: 0%
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: This will be linked to the Ninja feature about adding a filter to the User typeahead field (which originally is open only for text mode filters). Update the Context Sensitive sheet at release time) </p>
 -->
 
-建立構成報表或清單的元素時，您可以使用標準或文字模式介面，在Adobe Workfront中建立報表或清單。 標準介面可讓您參考Workfront介面中隨時可用的欄位及其屬性。 使用文字模式，您可以參考在標準模式中可能無法使用，但在Workfront資料庫中可用的欄位和屬性。
+在建立構成報表或清單的元素時，可使用標準或文本模式介面在Adobe Workfront建立報表或清單。 標準介面允許您引用在Workfront介面中隨時可用的欄位及其屬性。 使用文本模式，可以引用在標準模式下可能不可用但在Workfront資料庫中可用的欄位和屬性。
 
-## 使用文字模式前的考量事項
+## 使用文本模式前的注意事項
 
 >[!TIP]
 >
->您也可以使用自訂欄位的文字模式版本，來展開計算自訂欄位的功能。 建立計算自訂欄位的語法和規則與您在報表和清單中使用的語法和規則不同。 如需新增計算自訂欄位的相關資訊，請參閱 [將計算資料新增至自訂表單](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
+>您還可以使用自定義欄位的文本模式版本來擴展計算的自定義欄位的功能。 用於建立計算的自定義欄位的語法和規則與在報表和清單中使用的語法和規則不同。 有關添加計算的自定義欄位的資訊，請參見 [將計算資料添加到自定義窗體](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md)。
 
-* 在您開始在報表中使用文字模式之前，強烈建議您在進階報表中使用類別，以更深入了解我們的文字模式語言。 有關報告的培訓資料，請參閱 [Workfront報表和控制面板學習路徑](https://one.workfront.com/s/learningpath2/workfront-reporting-20Y0z000000blhLEAQ).
-* 建議您使用標準模式，以確保在更新Workfront軟體時，您建立的報表保持不變。 雖然文字模式可讓您建立更複雜的檢視、篩選器和群組，但維護也較複雜，且在更新Workfront軟體時無法保證。
-* 建議您一律嘗試在標準介面中建立所有報表元素，並切換至文字模式產生器，只做幾項調整。
+* 在您開始在報告中使用文本模式之前，我們強烈建議您學習我們有關高級報告的課程，以便更深入地瞭解我們的文本模式語言。 <!--outdated: For training materials on reporting see [Workfront Reports and Dashboards Learning Paths](https://one.workfront.com/s/learningpath2/workfront-reporting-20Y0z000000blhLEAQ).-->
+* 我們建議您使用標準模式，確保在更新Workfront軟體時建立的報告保持不變。 雖然文本模式使您能夠建立更複雜的視圖、篩選器和分組，但維護也更複雜，在更新Workfront軟體時不保證。
+* 我們建議您始終嘗試在標準介面中構建所有報告元素，並只對少量調整切換到文本模式生成器。
 
    >[!TIP]
    >
-   >使用標準產生器可提供重要的程式碼組成要素和模式，以便在文字模式中修改程式碼時使用。
+   >使用標準生成器可為您提供重要的代碼構造塊和模式，然後在文本模式下修改代碼時可以使用這些模組和模式。
 
-* 您必須使用一組規則和唯一語法，才能以文字模式成功建立報表和清單。 開始之前，請務必熟悉文字模式的Workfront語法。
+* 有一組規則和唯一語法必須使用，才能在文本模式下成功生成報告和清單。 在開始之前，請確保您熟悉文本模式的Workfront語法。
 
-   如需使用文字模式的語法和規則的相關資訊，請參閱 [文字模式語法概觀](../../../reports-and-dashboards/reports/text-mode/text-mode-syntax-overview.md).
+   有關使用文本模式的語法和規則的資訊，請參見 [文本模式語法概述](../../../reports-and-dashboards/reports/text-mode/text-mode-syntax-overview.md)。
 
-* 在文字模式中自訂報表元素後，您可能無法切換回標準模式（在檢視中），或您建立之元素的程式碼可能會刪除（在篩選器和群組中）。 這是因為並非所有文字模式支援的欄位都支援標準模式。
+* 在文本模式下自定義報表元素後，可能無法切換回標準模式（在視圖中），或者您建立的元素的代碼可能被刪除（在篩選器和分組中）。 這是因為並非所有在文本模式下支援的欄位都在標準模式下受支援。
 
 ## 標準模式介面
 
-「標準模式」介面會顯示欄位，以映射您要在報表或清單中顯示的應用程式元素。 標準模式介面是一組下拉式功能表，您可從中選取要在報表或清單中顯示的欄位。
+「標準模式」介面顯示欄位以映射要在報表或清單中顯示的應用程式元素。 標準模式介面是一組下拉菜單，您可以從中選擇要在報表或清單中顯示的欄位。
 
-如需標準模式介面的詳細資訊，以及如何建立報表或清單，請參閱：
+有關標準模式介面和瞭解如何建立報表或清單的詳細資訊，請參閱：
 
-* [建立自訂報表](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
-* [報表元素：篩選器、檢視和群組](../../../reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md)
+* [建立自定義報告](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md)。
+* [報告元素：篩選器、視圖和分組](../../../reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md)
 
-## 文字模式介面
+## 文本模式介面
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: add a section or note with a link to an another article about the syntax of text mode >> link to the Calc custom fields vc calc. columns)</p>
 -->
 
-文本模式允許您使用標準模式介面中不可用的欄位，從而建立更複雜的視圖、篩選器、分組和提示。 在Workfront文字模式中，是編碼陳述式的集合，可指出您要在報表或清單中顯示哪些物件。
+文本模式允許您使用標準模式介面中不可用的欄位，從而建立更複雜的視圖、篩選器、分組和提示。 在Workfront文本模式中，是編碼語句的集合，這些語句指示要在報表或清單中顯示的對象。
 
-如需所有可報告欄位的完整清單，請參閱 [API Explorer](../../../wf-api/general/api-explorer.md).
+有關所有可報告欄位的完整清單，請參閱 [API資源管理器](../../../wf-api/general/api-explorer.md)。
 
 >[!NOTE]
 >
->並非所有透過API可用的欄位都可透過文字模式介面使用。 如果您在文字模式程式碼中使用正確的欄位，而未顯示您預期的結果，則欄位可能只能透過API報告。
+>並非所有通過API可用的欄位都通過文本模式介面可用。 如果您在文本模式代碼中使用了正確的欄位，並且未顯示預期的結果，則該欄位可能只能通過API報告。
 
-* [存取報表元素和編輯文字模式](#access-reporting-elements-and-edit-text-mode)
-* [使用文字模式的常見原因](#common-reasons-to-use-text-mode)
+* [訪問報告元素並編輯文本模式](#access-reporting-elements-and-edit-text-mode)
+* [使用文本模式的常見原因](#common-reasons-to-use-text-mode)
 
-## 存取報表元素和編輯文字模式 {#access-reporting-elements-and-edit-text-mode}
+## 訪問報告元素並編輯文本模式 {#access-reporting-elements-and-edit-text-mode}
 
-從報表或清單存取檢視、群組和篩選時，存取文字模式介面的方式類似。
+在從報表或清單訪問視圖、分組和篩選器時，訪問文本模式介面與訪問它們類似。
 
 有關在視圖、篩選器和分組中使用文本模式的資訊，請參閱：
 
@@ -86,12 +86,12 @@ ht-degree: 0%
 -->
 
 * [使用文本模式編輯視圖](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-view.md)
-* [使用文字模式編輯篩選器](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md)
+* [使用文本模式編輯篩選器](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md)
 * [編輯分組中的文本模式](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-grouping.md)
 
-只能以文本模式編輯自定義提示。 您只能從報表存取提示。
+只能在文本模式下編輯自定義提示。 您只能從報表訪問提示。
 
-有關訪問文本模式介面以進行自定義提示的資訊，請參見 [新增提示至報表](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md).
+有關訪問自定義提示的文本模式介面的資訊，請參見 [向報表添加提示](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md)。
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Editing the text mode code inside views, filters, and groupings has some differences outlined below.</p>
@@ -538,19 +538,19 @@ We recommend that you build as much of the grouping as possible in standard mode
    -->
 
     &lt;!—
-    &lt;li data-mc-conditions=&quot;QuicksilverOrClassic.Draft mode&quot;>報表的第一個分組的組號為0。 引用第一個分組的所有行以group.0開頭。&lt;/code>&lt;/li>
+    &lt;li data-mc-conditions=&quot;QuicksilverOrClassic.Draft mode&quot;>報告的第一個分組的組編號為0。 引用第一個分組的所有行以group.0開頭。&lt;/code>&lt;/li>
     —>
     
     &lt;!>—
-    &lt;li data-mc-conditions=&quot;QuicksilverOrClassic.Draft mode&quot;>報告的第二個分組的組號為1。 引用第二個分組的所有行以&lt;code>group.1開頭&lt;/code>。&lt;/em>&lt;/li>
+    &lt;li data-mc-conditions=&quot;QuicksilverOrClassic.Draft mode&quot;>報告的第二組具有組編號1。 引用第二個分組的所有行以&lt;code>group.1開頭&lt;/code>。&lt;/em>&lt;/li>
     —>
     
     &lt;!>—
-    &lt;li data-mc-conditions=&quot;QuicksilverOrClassic.Draft mode&quot;>報告的第三個分組的組號為2。 引用第三個分組的所有行以&lt;code>group.2開始&lt;/code>。&lt;/em>&lt;/li>
+    &lt;li data-mc-conditions=&quot;QuicksilverOrClassic.Draft mode&quot;>報告的第三組具有組編號2。 引用第三個分組的所有行以&lt;code>group.2開頭&lt;/code>。&lt;/em>&lt;/li>
     —>
     
     &lt;!>—
-    &lt;li data-mc-conditions=&quot;QuicksilverOrClassic.Draft mode&quot;>只有在文本模式下，您才可以為第四個分組添加組編號3。 引用第四個分組的所有行以&lt;code>group.3開始&lt;/code>。&lt;/em>&lt;/li>
+    &lt;li data-mc-conditions=&quot;QuicksilverOrClassic.Draft mode&quot;>只有在文本模式下，您才能為第四個分組添加組編號3。 引用第四個分組的所有行以&lt;code>group.3開頭&lt;/code>。&lt;/em>&lt;/li>
     —>
 
 <!--
@@ -585,9 +585,9 @@ We recommend that you build as much of the grouping as possible in standard mode
 
 >[!TIP]
 >
->當您在檢視清單時手動調整分組時，Workfront會記住您的手動偏好設定，直到您登出為止。 當您重新登入時，清單會根據此設定顯示。
+>當您在查看清單時手動調整分組時，Workfront會記住您的手動首選項，直到您註銷。 當您重新登錄時，會根據此設定顯示清單。
 >
->從圖表元素存取群組後，其結果一律會顯示為已展開。
+>從圖表元素訪問分組結果後，始終顯示已展開的分組結果。
 
 <!--
    <li value="8" data-mc-conditions="QuicksilverOrClassic.Draft mode">Click <strong>Apply</strong> if you want to save your changes and continue editing the report.</li>
@@ -609,8 +609,8 @@ We recommend that you build as much of the grouping as possible in standard mode
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">For more information about creating a custom prompt, see <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md" class="MCXref xref">Add a prompt to a report</a>.</p>
 -->
 
-## 使用文字模式的常見原因 {#common-reasons-to-use-text-mode}
+## 使用文本模式的常見原因 {#common-reasons-to-use-text-mode}
 
-除了建立只能使用文字模式設定的自訂提示外，建議您使用Report Builder來建立檢視、篩選和群組。 不過，在某些情況下，您可以使用文字模式來增強報表和清單。
+除了建立只能使用文本模式配置的自定義提示外，我們建議您使用報表生成器來構建視圖、篩選器和分組。 但是，有些實例可以使用文本模式來增強報告和清單。
 
-如需文字模式常見用途的詳細資訊，請參閱 [文字模式常見用途概觀](../../../reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md).
+有關文本模式的常用用途的詳細資訊，請參見 [文本模式常用概述](../../../reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md)。
