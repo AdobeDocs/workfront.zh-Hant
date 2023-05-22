@@ -2,9 +2,9 @@
 user-guide-title: Workfront 指南
 user-guide-description: 使用文件、教學課程和其他資源，了解如何在您的組織中實施並有效使用 Adobe Workfront。
 feature-set: Workfront
-source-git-commit: 9b83e1c4a89fa94fe26888e682676c84be1d1d85
+source-git-commit: 09e93cafc549eeb466668000ed5e879c2cf963e0
 workflow-type: tm+mt
-source-wordcount: '13017'
+source-wordcount: '13012'
 ht-degree: 1%
 
 ---
@@ -2505,7 +2505,6 @@ ht-degree: 1%
       * [API資源管理器](wf-api/general/api-explorer.md)
       * [使用API資源管理器](wf-api/general/using-api-explorer.md)
       * [Adobe WorkfrontAPI中的富文本欄位](wf-api/general/rich-text-field-api.md)
-      * [Adobe WorkfrontAPI開發者論壇](wf-api/general/api-developer-forum.md)
       * [API示例指令碼](wf-api/general/api-example-scripts.md)
       * [使用API同步程式和服務的資料](wf-api/general/api-sync-data.md)
       * [通過API停用用戶](wf-api/general/deactivate-user-api.md)
