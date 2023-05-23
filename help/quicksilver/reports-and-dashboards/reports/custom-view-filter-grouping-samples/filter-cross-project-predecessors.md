@@ -2,60 +2,63 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: '''篩選：顯示不完整的跨項目前置項'
+title: '''篩選：顯示不完整的跨項目前置任務'
 description: 此任務篩選器返回不完整的跨項目前置任務。
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: 7ee2432c-1d82-454e-a73a-f1f6b6a5c10d
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 661f925b4e485069122ef4278b2914d206387974
 workflow-type: tm+mt
-source-wordcount: '188'
-ht-degree: 1%
+source-wordcount: '205'
+ht-degree: 0%
 
 ---
 
-# 篩選：顯示不完整的跨項目前置項
+# 篩選器：顯示不完整的跨項目前置任務
 
 此任務篩選器返回不完整的跨項目前置任務。
 
-## 存取需求
+## 訪問要求
 
-您必須具備下列存取權，才能執行本文中的步驟：
+您必須具有以下訪問權限才能執行本文中的步驟：
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront計畫*</td> 
+   <td role="rowheader">Adobe Workfront計畫</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront授權*</td> 
-   <td> <p>計劃 </p> </td> 
+   <td role="rowheader">Adobe Workfront許可證*</td> 
+   <td> <p>請求修改篩選器 </p>
+   <p>計畫修改報表</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">訪問級別配置*</td> 
-   <td> <p>編輯對報表、控制面板、日曆的存取</p> <p>編輯對篩選器、檢視、群組的存取</p> <p>注意：如果您仍無權存取，請洽詢您的Workfront管理員，他們是否在您的存取層級設定其他限制。 如需Workfront管理員如何修改您的存取層級的詳細資訊，請參閱 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>.</p> </td> 
-  </tr> 
+   <td> <p>編輯對報表、儀表板、日曆的訪問以修改報表</p> <p>編輯對篩選器、視圖、分組的訪問以修改篩選器</p> <p><b>附註</b>
+
+如果您仍然沒有訪問權限，請詢問您的Workfront管理員是否在您的訪問級別設定了其他限制。 有關Workfront管理員如何修改您的訪問級別的資訊，請參見 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自定義訪問級別</a>。</p> </td>
+</tr> 
   <tr> 
-   <td role="rowheader">物件權限</td> 
-   <td> <p>管理報表權限</p> <p>有關請求其他訪問的資訊，請參閱 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">請求對對象的訪問 </a>.</p> </td> 
+   <td role="rowheader">對象權限</td> 
+   <td> <p>管理對報表的權限</p> <p>有關請求附加訪問的資訊，請參見 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">請求訪問對象 </a>。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;若要了解您擁有的計畫、授權類型或存取權，請聯絡您的Workfront管理員。
+&#42;要瞭解您擁有的計畫、許可證類型或訪問權限，請與您的Workfront管理員聯繫。
 
-## 篩選跨專案的前置作業
+## 篩選跨項目前置任務
 
-若要套用此篩選器：
+要應用此篩選器：
 
 1. 轉到任務清單。
-1. 從 **篩選** 下拉式功能表，選取 **新增篩選**.
+1. 從 **篩選** 下拉菜單，選擇 **新建篩選器**。
 
-1. 按一下&#x200B;**切換到文本模式**.
-1. 在 **設定報表的篩選規則** 區域，貼上下列程式碼：
-   <pre>前置詞MM:projectID=FIELD:projectID<br>precessorsMM:projectID_Mod=ne<br>percentComplete=100<br>percentComplete_Mod=ne</pre>
+1. 按一下&#x200B;**切換到文本模式**。
+1. 在 **設定報表的篩選器規則** ，貼上以下代碼：
+   <pre>前置任務MM:projectID=FIELD:projectID<br>前置任務MM:projectID_Mod=ne<br>完成百分比= 100<br>百分比完成_修改=ne</pre>
 
-1. 按一下 **儲存篩選**.
+1. 按一下 **保存篩選器**。
