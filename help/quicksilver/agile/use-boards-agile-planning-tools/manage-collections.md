@@ -7,7 +7,7 @@ description: 工作流程是一組可設定的展示板和卡片，用於合作�
 author: Lisa
 feature: Agile
 exl-id: c46c42e8-e14d-414d-b883-c4d885338e42
-source-git-commit: dd1bd5a27a2ed29af29b88b028d8fd34a592aae2
+source-git-commit: 0ccec525069557fdc2a17e37e00968f8fb6d3a41
 workflow-type: tm+mt
 source-wordcount: '905'
 ht-degree: 2%
@@ -103,7 +103,7 @@ ht-degree: 2%
 1. 按一下 [!UICONTROL **來源**] 圖示 ![「來源」圖示](assets/sources-icon.png) 以定義將卡片匯入工作資料流的來源。 目前，唯一可用的來源為 [!DNL Adobe Workfront].
 1. 新增篩選器以卡片形式從Workfront匯入任務和問題。
 
-   為工作流程來源新增篩選器與為基本展示板或Kanban展示板上的輸入欄新增進階篩選器相同。 如需詳細資訊，請參閱 [將輸入欄新增到展示板](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md).
+   為工作流程來源新增篩選器，與在基本展示板或Kanban展示板上為輸入欄新增進階篩選器相同。 如需詳細資訊，請參閱 [將輸入欄新增到展示板](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md).
 
 ## 設定工作流程
 
