@@ -5,9 +5,9 @@ author: Courtney
 draft: Probably
 feature: Product Announcements
 exl-id: b0e2ce08-d9f7-4fb5-b35c-ba979ab9d03e
-source-git-commit: 061d1a08a8c99b2770491ce2fcea63a9dad7a63f
+source-git-commit: a99c746e9863e06ccc1890fc07533f4024cb0059
 workflow-type: tm+mt
-source-wordcount: '2745'
+source-wordcount: '2749'
 ht-degree: 0%
 
 ---
@@ -218,7 +218,7 @@ ht-degree: 0%
                  <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">在展示板上記錄已連線卡的時數</a></p>
-                        <p>您現在可以在已連線的卡片上記錄時數，就像在任務或問題上一樣。 您必須擁有任務或問題的正確許可權才能記錄時間。</p>
+                        <p>您現在可以在已連線的卡片上記錄時數，就像您在任務或問題上的方式一樣。 您必須擁有任務或問題的正確許可權才能記錄時間。</p>
                     </td>
                     <td><p><b>在以下日期可用：</b></p>
                         <ul>
@@ -656,7 +656,7 @@ API版本16將隨22.3版發行。 針對API版本16，我們已修改一些資�
 
 ### 訓練更新
 
-探索每個Adobe Workfront產品版本的學習計畫、學習路徑、影片和指南的最新更新。 如需詳細資訊，請參閱 [訓練版本更新頁面](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html).
+探索每個Adobe Workfront產品版本的學習計畫、學習路徑、影片和指南的最新更新。 如需詳細資訊，請參閱 [WorkfrontTutorials頁面](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html).
 
 ### 即將從Workfront移除的功能
 

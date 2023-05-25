@@ -4,9 +4,9 @@ description: 23.3版本總覽
 author: Becky
 feature: Product Announcements
 exl-id: 9bf786e2-e077-4504-b928-9091fcb61ec1
-source-git-commit: 3e72e4a5562e06df8e398c37ca1b9e2c19b98187
+source-git-commit: a99c746e9863e06ccc1890fc07533f4024cb0059
 workflow-type: tm+mt
-source-wordcount: '1291'
+source-wordcount: '1295'
 ht-degree: 0%
 
 ---
@@ -386,7 +386,7 @@ Workfront Goals將在23.3發行時間範圍內發行的新功能。 如需有關
 
 ### 訓練更新
 
-探索每個Adobe Workfront產品版本的學習計畫、學習路徑、影片和指南的最新更新。 如需詳細資訊，請參閱 [訓練版本更新頁面](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html).
+探索每個Adobe Workfront產品版本的學習計畫、學習路徑、影片和指南的最新更新。 如需詳細資訊，請參閱 [WorkfrontTutorials頁面](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html).
 
 <!-- Uncomment if there are any deprecations
 
