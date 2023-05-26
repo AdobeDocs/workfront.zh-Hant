@@ -1,21 +1,21 @@
 ---
 product-previous: mobile
 navigation-topic: use-the-workfront-mobile-app
-title: 核准 [!DNL Adobe Workfront] 行動應用程式
-description: 您可以管理指派或委派給您的核准， [!UICONTROL 核准] 區域 [!DNL Adobe Workfront] 行動應用程式。
-author: Lisa
+title: 中的核准 [!DNL Adobe Workfront] 行動應用程式
+description: 您可以從以下位置管理指派或委派給您的核准： [!UICONTROL 核准] 區域 [!DNL Adobe Workfront] 行動應用程式。
+author: Nolan
 feature: Get Started with Workfront
 exl-id: 92259a17-209b-4bc1-8c14-826969b08a63
-source-git-commit: fdef22d9685d349a6f9492dec98475493ee9c048
+source-git-commit: 854eb3c0e4ee49315c36e00c7012e0baf2d98c37
 workflow-type: tm+mt
-source-wordcount: '270'
-ht-degree: 5%
+source-wordcount: '267'
+ht-degree: 4%
 
 ---
 
-# 核准 [!DNL Adobe Workfront] 行動應用程式
+# 中的核准 [!DNL Adobe Workfront] 行動應用程式
 
-您可以管理指派或委派給您的核准， [!UICONTROL 核准] 區域 [!DNL Adobe Workfront] 行動應用程式。 從 [!UICONTROL 核准] 區域，您可以核准：
+您可以從以下位置管理指派或委派給您的核准： [!UICONTROL 核准] 區域 [!DNL Adobe Workfront] 行動應用程式。 從 [!UICONTROL 核准] 區域，您可以核准：
 
 <table style="table-layout:auto"> 
  <col> 
@@ -37,38 +37,38 @@ ht-degree: 5%
  </tbody> 
 </table>
 
-校樣會依照個別的核准程式進行。 無法通過工作項或文檔審批來審批校樣。 如需檢閱和核准校樣的資訊，請參閱 [在 [!DNL Adobe Workfront] 行動應用程式](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/work-with-proofs-in-mobile-app.md).
+校樣會遵循單獨的核准流程。 您無法核准來自工作專案或檔案核准的校訂。 如需有關檢閱和核准校訂的資訊，請參閱 [在中檢閱校樣並作出決定 [!DNL Adobe Workfront] 行動應用程式](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/work-with-proofs-in-mobile-app.md).
 
 ## 檢閱核准
 
-1. 選擇 **[!UICONTROL 顯示所有批准]** 在 [!UICONTROL 核准] 區域 [!UICONTROL 我的工作].
+1. 選取 **[!UICONTROL 顯示所有核准]** 在 [!UICONTROL 核准] 區域 [!UICONTROL 我的工作].
 
-   如需有關 [!UICONTROL 我的工作] 在行動應用程式中，請參閱 [[!UICONTROL 我的工作] 區段](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/my-work-section-mobile.md).
+   如需有關的資訊 [!UICONTROL 我的工作] 在行動應用程式中，請參閱 [[!UICONTROL 我的工作] 行動應用程式中的區段](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/my-work-section-mobile.md).
 
 1. 在清單中選取核准。
 
    ![行動應用程式中的核准清單](assets/mobile-approvals-adobe-350x574.png)
 
-1. 複查與批准相關的資訊，如更新、文檔和詳細資訊。
+1. 檢閱與核准相關的資訊，例如更新、檔案和詳細資訊。
 
-   此示例顯示任務批准。 其他核准類型可能包含不同的資訊。
+   此範例顯示任務核准。 其他核准型別可能包含不同的資訊。
 
-   ![任務批准示例](assets/mobile-taskapproval-350x664.png)
+   ![範例任務核准](assets/mobile-taskapproval-350x664.png)
 
-## 決定批准
+## 在核准上做出決定
 
 1. 開啟核准。
-1. 選擇決策。 決策選項清單取決於您檢視的核准類型。
+1. 選取決定。 決定選項清單取決於您所檢視的核准型別。
 
    | 圖示 | 決定 |
    |---|---|
-   | ![批准任務校樣](assets/mobile-approveprooffromtask.png) | [!UICONTROL 核准] |
-   | ![通過任務更改批准校樣](assets/mobile-approveproofwithcommentsfromtask.png) | [!UICONTROL 使用變更進行核准] （僅適用於文檔） |
-   | ![拒絕任務的校樣](assets/mobile-rejectprooffromtask.png) | [!UICONTROL 拒絕] |
+   | ![核准任務的校訂](assets/mobile-approveprooffromtask.png) | [!UICONTROL 核准] |
+   | ![核准具有任務變更的校訂](assets/mobile-approveproofwithcommentsfromtask.png) | [!UICONTROL 核准，但有變更] （僅適用於檔案） |
+   | ![從任務拒絕校訂](assets/mobile-rejectprooffromtask.png) | [!UICONTROL 拒絕] |
 
-   {style=&quot;table-layout:auto&quot;}
+   {style="table-layout:auto"}
 
-1. （選用）選取 **[!UICONTROL 添加註釋]** 在畫面底部的確認訊息上，為決策新增註解。 這些注釋會出現在更新中以供核准。\
+1. （選用）選取 **[!UICONTROL 新增註解]** 在熒幕底部的確認訊息上，為決定新增註解。 這些註解會顯示在核准的更新中。\
    ![新增評論](assets/mobile-addcommenttoapproval-350x123.png)\
    或\
-   選取核准左上角的箭頭，返回 [!UICONTROL 核准] 頁面。
+   選取核准左上方的箭頭，以返回 [!UICONTROL 核准] 頁面。
