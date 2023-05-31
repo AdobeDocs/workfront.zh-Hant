@@ -6,9 +6,9 @@ description: 透過以下方式，加速團隊和個人的參與並簡化工作 
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 10419dc8-8e7b-40fb-91fe-0ddbd0a493c9
-source-git-commit: aa00992e3d5c8d78dfb3f1b88471fe95a17ec0db
+source-git-commit: 389a4cce56b5b81db521217c9bdd2a9a25850e1c
 workflow-type: tm+mt
-source-wordcount: '245'
+source-wordcount: '251'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 0%
 * 透過單一步驟動作，讓您的工作流程繼續進行
 * 隨時隨地保持生產力
 
-您可以從以下位置下載並安裝應用程式： [Apple App Store](https://www.apple.com/app-store/) 或 [Google Play商店](https://play.google.com/store/apps；).
+您可以從以下位置下載並安裝應用程式： [Apple App Store](https://apps.apple.com/us/app/adobe-workfront/id1033282981) 或 [Google Play商店](https://play.google.com/store/apps/details?id=com.workfront.android.aware).
 
 在行動應用程式中，您可以完成工作專案並檢視資訊，就像在瀏覽器版本中一樣 [!DNL Workfront]. 這些功能和其他功能可供使用：
 
