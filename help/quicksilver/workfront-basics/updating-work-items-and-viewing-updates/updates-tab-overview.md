@@ -3,13 +3,13 @@ content-type: overview
 product-area: projects
 navigation-topic: update-work-items-and-view-updates
 title: 更新區段概觀
-description: 對象的「更新」部分顯示用戶在跟蹤對象更改的對象或系統更新上所做的注釋。
+description: 物件的「更新」區段會顯示使用者對物件所做的註解，或是追蹤物件變更的系統更新。
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: 25625291f691f7858634d9961fccb4465008dc3c
+source-git-commit: f5019325da11e66bf9ab315065ae2b7693660431
 workflow-type: tm+mt
-source-wordcount: '903'
+source-wordcount: '911'
 ht-degree: 4%
 
 ---
@@ -24,43 +24,43 @@ ht-degree: 4%
 >
 >我們目前正在重新設計Adobe Workfront中的評論體驗。
 >
->如需新評論體驗的詳細資訊，請參閱 [全新評論體驗](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
+>如需有關新評論體驗的詳細資訊，請參閱 [新的評論體驗](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 >
 >您可以存取下列物件的新體驗：
-> * 啟用注釋測試版時發生問題。
+> * 問題， <!--<span class="preview">projects, tasks, and documents</span>,--> 啟用發表評論測試版時。
    >
-   >     此功能僅適用於問題的「更新」區段，不適用於下列區域：
+   >     此功能僅適用於「更新」區段，不適用於以下區域：
    >
    >     * 首頁
    >     * 清單中的摘要面板
-   >     * 工時單中的「摘要」面板
+   >     * 時程表中的摘要面板
 >
 > * 目標
 
    >
-   >   目標的預設值為新的註解體驗。 您必須有額外的授權才能存取Workfront Targets。 如需詳細資訊，請參閱 [使用Workfront目標的需求](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+   >   新的註解體驗是目標的預設值。 您必須有其他授權才能存取Workfront目標。 如需詳細資訊，請參閱 [使用Workfront目標的需求](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
    >
-   >    如需關於評論目標的資訊，請參閱 [管理Adobe Workfront目標中的目標註解](../../workfront-goals/goal-management/manage-goal-comments.md).
+   >    如需有關對目標發表註解的資訊，請參閱 [在Adobe Workfront目標中管理目標註解](../../workfront-goals/goal-management/manage-goal-comments.md).
 
 
-對象的「更新」部分顯示用戶在跟蹤對象更改的對象或系統更新上所做的注釋。
+物件的「更新」區段會顯示使用者對物件所做的註解，或是追蹤物件變更的系統更新。
 
-## 「更新」區段的概觀
+## 更新區段概觀
 
-「更新」區段中的資訊會根據您存取該資訊的環境而以不同方式組織。
+根據您從哪個環境存取更新，更新區段中的資訊會有不同的組織方式。
 
-### 目前更新區段的概觀
+### 目前更新區段的總覽
 
-物件的「更新」區段會顯示最多200個過去90天內進行的最新更新。
+物件的「更新」區段會顯示過去90天內進行的最近200項更新。
 
 ![](assets/updates-tab-before-unified-experience-for-issues.png)
 
-目前的更新區段顯示下列資訊：
+目前的「更新」段落顯示下列資訊：
 
-* 用戶的評論和對這些評論的答復。
-* 系統更新，這些是Workfront為記錄物件上的特定事件而建立的資訊性訊息。 例如，您可以利用系統更新擷取狀態、名稱或自訂欄位中的變更。 您的Workfront或群組管理員可以為您的物件啟用系統更新。 如需詳細資訊，請參閱 [配置系統更新](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
+* 使用者所做的評論和對這些評論的回覆。
+* 系統更新，這是Workfront建立的資訊性訊息，用來記錄物件上的特定事件。 例如，您可以使用系統更新來擷取狀態、名稱或自訂欄位中的變更。 您的Workfront或群組管理員可以為您的專案啟用系統更新。 如需詳細資訊，請參閱 [設定系統更新](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
 
-「更新」(Updates)部分將顯示以下對象：
+會針對下列物件顯示「更新」段落：
 
 <table style="table-layout:auto"> 
  <col> 
@@ -90,16 +90,16 @@ ht-degree: 4%
  </tbody> 
 </table>
 
-### 測試版評論體驗的「更新」區段概觀
+### Beta版評論體驗中「更新」區段的概觀
 
 ![](assets/updates-tab-after-unified-experience-for-issues.png)
 
-「更新」區段會在新的註解體驗中，於下列標籤中顯示資訊：
+「更新」區段會在新評論體驗的下列標籤中顯示資訊：
 
-* **註解**:顯示用戶的評論和對這些評論的回覆。 如需在新注釋體驗中更新物件的相關資訊，請參閱 [更新工作](../updating-work-items-and-viewing-updates/update-work.md).
-* **系統活動**:顯示系統更新，這些資訊性訊息是Workfront為記錄物件上的特定事件而建立的。 例如，您可以利用系統更新擷取狀態、名稱或自訂欄位中的變更。 您的Workfront或群組管理員可以為您的物件啟用系統更新。 如需詳細資訊，請參閱 [配置系統更新](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
+* **註解**：顯示使用者所做的評論和對這些評論的回覆。 如需有關更新新註解體驗中物件的資訊，請參閱 [更新工作](../updating-work-items-and-viewing-updates/update-work.md).
+* **系統活動**：顯示系統更新，這些資訊性訊息是Workfront為記錄物件上的特定事件而建立的訊息。 例如，您可以使用系統更新來擷取狀態、名稱或自訂欄位中的變更。 您的Workfront或群組管理員可以為您的專案啟用系統更新。 如需詳細資訊，請參閱 [設定系統更新](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
 
-目前，您可以使用測試版對下列物件加以註解和回覆更新：
+目前，您可以針對下列物件使用測試版註解體驗來發表註解並回覆更新：
 
 <table style="table-layout:auto"> 
  <col> 
@@ -111,7 +111,7 @@ ht-degree: 4%
      <li><p>目標</p>
      <p>這是目標的預設體驗</p>
      </li> 
-     </ul> </td> 
+      </ul> </td> 
    <td> 
     <ul> 
      <li>問題</li> 
@@ -120,19 +120,58 @@ ht-degree: 4%
  </tbody> 
 </table>
 
-## 也出現在高排名對象上的更新
+<!--replace table above with this: 
 
-如下表所示，對某些對象的更新所做的答復也會出現在排名較高的對象的「更新」部分。
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td> 
+    <ul> 
+     <li><p>Goals</p>
+     <p>This is the default experience for goals</p>
+     </li> 
+     <li><span class="preview">Projects</span></li>
+     </ul> </td> 
+   <td> 
+    <ul> 
+     <li>Issues</li> 
+     <li><span class="preview">Tasks</span></li>
+     <li><span class="preview">Documents</span></li>
+     </ul> </td> 
+  </tr> 
+ </tbody> 
+</table>
+-->
 
-例如，將更新添加到任務時，該更新將出現在該任務的「更新」部分和包含該任務的項目的「更新」部分。
+## 也會出現在較高層級物件上的更新
+
+對特定物件更新所做的評論或回覆也會顯示在較高等級物件的「更新」區段中。
+
+例如，當您將更新新增到任務時，該更新會出現在任務的更新區段和包含任務的專案的更新區段中。
+
+<!--
+>[!NOTE]
+>
+>When enabling the new commenting Beta experience, comments display on the following higher-ranking objects and in the following environments: 
+>
+>* Issues, in the Preview and Production environments
+>* <span class="preview">Projects and tasks, in the Preview environment</span>
+>
+>For more information, see [New commenting experience](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md). 
+
+-->
+
+下表顯示其註解也顯示在其較高等級物件上的物件：
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <thead> 
   <tr> 
-   <th><strong>添加原始更新的對象</strong> </th> 
-   <th> <p><strong>顯示原始更新的高級對象</strong> </p> </th> 
+   <th><strong>已新增原始更新的物件</strong> </th> 
+   <th> <p><strong>也會顯示原始更新的較高等級物件</strong> </p> </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -146,11 +185,11 @@ ht-degree: 4%
   </tr> 
   <tr> 
    <td>專案</td> 
-   <td>方案，Portfolio</td> 
+   <td>計畫，Portfolio</td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>文件 </td> 
-   <td>附加文檔的對象，項目 </td> 
+   <td>附加檔案的物件，專案 </td> 
   </tr> 
   <tr> 
    <td>方案</td> 
@@ -170,7 +209,7 @@ ht-degree: 4%
   </tr> 
   <tr> 
    <td>本文</td> 
-   <td>迭代，團隊</td> 
+   <td>反複專案，團隊</td> 
   </tr> 
   <tr> 
    <td>反覆項目</td> 
@@ -186,46 +225,46 @@ ht-degree: 4%
 
 >[!NOTE]
 >
->添加到系統更新的回復不會匯總到父對象。 只有子對象的直接回覆和添加到現有更新的回覆才會匯總到父對象。
+>新增至系統更新的回覆不會彙總至父物件。 只有子物件的直接回覆和新增至現有更新的回覆會向上彙整至父物件。
 >
->如需Adobe Workfront中物件階層的相關資訊，請參閱 [了解Adobe Workfront中的物件](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
+>如需Adobe Workfront中物件階層的相關資訊，請參閱 [瞭解Adobe Workfront中的物件](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
 >
-> 無法回覆新評論測試版體驗中的系統更新。 如需詳細資訊，請參閱 [全新評論體驗](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
+> 無法在新註解Beta版體驗中回覆系統更新。 如需詳細資訊，請參閱 [新的評論體驗](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 
-## 「更新」一節的限制
+## 「更新」區段的限制
 
-團隊的「更新」區段以及代表其他使用者輸入更新時，有些限制。
+團隊的「更新」區段以及代表其他使用者輸入更新時，有一些限制。
 
 ### 使用者和團隊的限制
 
-無法對團隊進行更新。 在以下對象上輸入的更新將填充團隊的「更新」(Updates)部分：
+您無法更新團隊。 團隊的「更新」區段由在下列物件上輸入的更新填入：
 
 * 使用者
 * 時程表
 * 劇本
 * 疊代
 
-在使用者和團隊的「更新」區段中，您可以檢視過去90天內輸入的更新。
+在適用於使用者和團隊的更新區段，您可以檢視在過去90天內輸入的更新。
 
-如果您想查看使用者或團隊上所進行的所有更新，超過90天的限制，您可以建立報表以取得附註。 報表不應有時間篩選器來顯示使用者或團隊所做的所有更新。 如需詳細資訊，請參閱 [建立自訂報表](../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+如果您想要在90天上限之外檢視使用者或團隊進行的所有更新，您可以建立報表以記錄附註。 報告不應有顯示使用者或團隊所有更新的時間篩選器。 如需詳細資訊，請參閱 [建立自訂報表](../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
-### 代表其他使用者輸入註解時的限制
+### 代表其他使用者輸入評論時的限制
 
-Adobe Workfront管理員和群組管理員可以和其他使用者身分登入，並在Workfront中執行動作，例如輸入註解。 (如需詳細資訊，請參閱 [以其他使用者身分登入](../../administration-and-setup/add-users/create-and-manage-users/log-in-as-another-user.md).) 代表其他使用者提出的任何意見都會在意見中注明。
+Adobe Workfront管理員和群組管理員可以其他使用者身分登入，並在Workfront中執行動作，例如輸入註解。 (如需詳細資訊，請參閱 [以其他使用者身分登入](../../administration-and-setup/add-users/create-and-manage-users/log-in-as-another-user.md).) 代表其他使用者所做的任何評論都會顯示在評論上。
 
-群組管理員可以代表其他人發表意見，但無法刪除該意見。 只有Adobe Workfront管理員可以刪除代表其他使用者發表的意見。
+群組管理員可以代表其他人發表評論，但無法刪除該評論。 只有Adobe Workfront管理員可以刪除他們代表其他使用者所做的評論。
 
-## 使用「日記帳分錄」報表查看工作項的系統更新
+## 使用分錄報表檢視工作專案的系統更新
 
-「日記帳分錄」報表從項目、任務和問題的「更新」區域顯示系統更新。
+「日誌專案」報表會從專案、任務和問題的「更新」區域顯示系統更新。
 
-報表可讓您查看：
+報表可讓您檢視：
 
-* 發生了多少個狀態更改
+* 已發生多少個狀態變更
 * 刪除任務或問題時
-* 重要自訂欄位中的值在專案期間有何變更
-* 專案期間有哪些重要日期變更
-* 如果在項目過程中更改了優先順序
-* 如果專案的擁有者已變更
+* 重要自訂欄位中的值在專案過程中如何變更
+* 專案過程中變更了哪些重要日期
+* 如果優先順序在專案過程中改變
+* 如果專案所有者變更
 
-如需詳細資訊，請參閱 [更新區域報告](../../reports-and-dashboards/reports/creating-and-managing-reports/create-journal-entry-report.md).
+如需詳細資訊，請參閱 [報告更新區域](../../reports-and-dashboards/reports/creating-and-managing-reports/create-journal-entry-report.md).

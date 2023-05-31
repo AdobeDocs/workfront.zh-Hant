@@ -1,25 +1,25 @@
 ---
 product-previous: workfront-goals
 navigation-topic: goal-management
-title: 管理Adobe Workfront目標中的目標註解
-description: 您可以在Adobe Workfront目標中新增評論至您可檢視的所有目標。
+title: 在Adobe Workfront目標中管理目標註解
+description: 您可以將註解新增至所有可在Adobe Workfront目標中檢視的目標。
 author: Alina
 feature: Workfront Goals
 exl-id: 6cf2d2d2-5ba5-40f2-a803-01359c338541
-source-git-commit: 25625291f691f7858634d9961fccb4465008dc3c
+source-git-commit: f5019325da11e66bf9ab315065ae2b7693660431
 workflow-type: tm+mt
-source-wordcount: '875'
+source-wordcount: '893'
 ht-degree: 0%
 
 ---
 
-# 管理Adobe Workfront目標中的目標註解
+# 在Adobe Workfront目標中管理目標註解
 
 <!--consider retiring this article when goals and all objects are in parity - after the new commenting experience goes to production GA-->
 
 <!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span>-->
 
-您可以在Adobe Workfront目標中新增評論至您可檢視的所有目標。
+您可以將註解新增至所有可在Adobe Workfront目標中檢視的目標。
 
 <!--drafted for P&P:
 
@@ -75,7 +75,7 @@ ht-degree: 0%
 
 ## 存取需求
 
-您必須具備下列存取權，才能執行本文所述的動作：
+您必須具備下列存取權才能執行本文所述的動作：
 
 <table style="table-layout:auto"> 
  <col> 
@@ -83,108 +83,111 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront計畫*</td> 
-   <td> <p>Pro或更高版本</p> </td> 
+   <td> <p>Pro或以上</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront授權*</td> 
-   <td> <p>要求或更高版本</p> <p>如需詳細資訊，請參閱 <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront授權概觀</a>.</p> </td> 
+   <td> <p>要求或以上</p> <p>如需詳細資訊，請參閱 <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront授權概觀</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">產品</td> 
-   <td> <p>您必須購買額外的Adobe Workfront目標授權才能存取本文所述的功能。 </p> <p>如需詳細資訊，請參閱 <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">使用Workfront目標的需求</a>. </p> </td> 
+   <td> <p>您必須為Adobe Workfront目標購買額外的授權，才能存取本文所述功能。 </p> <p>如需詳細資訊，請參閱 <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">使用Workfront目標的需求</a>. </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">存取層級*</td> 
-   <td> <p>檢視或更高程度地存取目標</p> <p><b>附註</b><p>如果您仍無權存取，請洽詢您的Workfront管理員，他們是否在您的存取層級設定其他限制。 如需Workfront管理員如何變更您的存取層級的詳細資訊，請參閱：</p> 
+   <td> <p>檢視或更高的目標存取權</p> <p><b>附註</b><p>如果您仍然沒有存取權，請詢問您的Workfront管理員是否對您的存取層級設定了其他限制。 如需Workfront管理員如何變更存取層級的詳細資訊，請參閱：</p> 
      <ul> 
       <li> <p><a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a> </p> </li> 
       <li> <p><span href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md"><a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md" class="MCXref xref">授予Adobe Workfront目標的存取權</a></span> </p> </li> 
      </ul> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">物件權限</td> 
+   <td role="rowheader">物件許可權</td> 
    <td> 
     <div> 
-     <p>檢視目標的或更高權限</p> 
-     <p>如需共用目標的相關資訊，請參閱 <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">在Workfront目標中共用目標</a>. </p> 
+     <p>檢視或更高的目標許可權</p> 
+     <p>如需關於共用目標的資訊，請參閱 <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">在Workfront目標中共用目標</a>. </p> 
     </div> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*若要了解您擁有的計畫、授權類型或存取權，請聯絡您的Workfront管理員。
+*若要瞭解您擁有的計畫、授權型別或存取權，請聯絡Workfront管理員。
 
 ## 必要條件
 
-您必須具備下列條件，才能開始：
+開始之前，您必須具備下列條件：
 
-* 一種佈局模板，在主菜單中包括目標區域。
+* 包含主功能表中目標區域的版面配置範本。
 
 ## 找出「更新」區段
 
-您可以在目標頁面的「更新」區段中，將意見新增至目標。
+您可以在目標頁面的「更新」區段中，將註解新增至目標。
 
-您可以回覆或贊您或其他人在此區域新增的留言。
+您可以回覆或喜歡您或其他人新增至此區域的評論。
 
-1. 按一下 **主菜單** 圖示 ![](assets/main-menu-icon.png) > **目標** 在右上角。
+1. 按一下 **主要功能表** 圖示 ![](assets/main-menu-icon.png) > **目標** 右上角。
 這會開啟目標清單。
-1. 找出您要新增備注的目標，然後按一下其名稱以開啟目標頁面。
-1. 按一下  **更新** 中。
-1. 按一下 **註解** 頁簽。
-1. 開始在 **新留言** 框。
+1. 找到您要新增註解的目標，然後按一下其名稱以開啟目標頁面。
+1. 按一下  **更新** 在左側面板中。
+1. 按一下 **註解** tab鍵來更新。
+1. 開始在 **新註解** 方塊。
 
    ![](assets/comment-box-empty-unshimmed.png)
 
    >[!TIP]
    >
-   >在您完成輸入並提交注釋之前，從「更新」部分導航離開該頁面，即使您註銷並重新登錄後，該頁面上的注釋仍以草稿模式保留。 添加到注釋的任何影像也保存在草稿中。 草稿會儲存7天，之後會捨棄，且無法復原。 起草的注釋只對輸入它們的用戶可見。
+   >在您完成輸入和提交評論之前離開更新區段時，即使您登出並重新登入，頁面上的評論仍會以草稿模式顯示。 任何新增至註解的影像也會儲存在草稿中。 草稿會儲存7天，之後便會捨棄且無法復原。 草擬的註解僅對輸入註解的使用者可見。
 
-1. （可選）若要將RTF格式新增至更新、超連結或影像，請使用RTF工具列上的任何選項或其旁邊的圖示。 如需詳細資訊，請參閱 [更新工作](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
-1. （選用）在 **標籤人員或團隊** 區域中，開始鍵入用戶的名稱或電子郵件，或要包含在此注釋中的團隊，然後在清單中顯示時選擇它。
-1. 選取 **對我的公司私有** 切換，讓留言只對您公司中的人員顯示。
+1. （可選）若要新增RTF格式至更新、超連結或影像，請使用RTF工具列上的任何選項或旁邊的圖示。 如需詳細資訊，請參閱 [更新工作](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+1. （選用）在 **標籤人員或團隊** 區域，開始輸入使用者名稱或電子郵件，或您想包含在此評論中的團隊，然後當它顯示在清單中時選取它。
+1. 選取 **我的公司私有** 切換即可讓註解僅對貴公司人員可見。
 
    >[!TIP]
    >
-   >您必須在設定檔中指定公司，才能在「更新」區域中使用此選項。
+   >您必須在設定檔中指定公司，才能在更新區域使用此選項。
 
 1. 按一下 **提交**.
 
    >[!TIP]
    >
-   >如果其他用戶將評論提交到您正在更新的相同項目，則會有一條紅線，帶有「New」指示器，通知您更新的評論。
+   >如果其他使用者將評論提交給您正在更新的相同專案，將有帶有「新」指示器的紅線通知您較新的評論。
    >
-   >只有在對項目提交評論後，才會顯示指標，而不是在仍在撰寫評論時顯示。
+   >指示器只會在評論提交至專案後才顯示，不會在評論仍然撰寫時顯示。
    >
-   >只有輸入新更新的使用者和目前輸入更新的使用者都使用新的註解體驗時，才會顯示「新」指標。
+   >「新」指標只有在輸入新更新的使用者以及目前輸入更新的使用者都使用新評論體驗時才會顯示。
    >![](assets/real-time-new-red-indicator-unified-commenting.png)
 
-1. （選用）若要編輯留言，請按一下 **更多** 功能表 ![](assets/more-icon.png) 在「贊」圖示的右側，然後按一下 **編輯**.
-1. 編輯注釋中的資訊、添加或刪除影像，或刪除任何標籤的用戶。
-您可以在提交意見後15分鐘內加以編輯。 更新註解時，會在顯示的日期戳記左側新增「已編輯」指標。
+1. （可選）若要編輯註解，請按一下 **更多** 功能表 ![](assets/more-icon.png) 按一下「讚」圖示右側，然後按一下 **編輯**.
+1. 編輯註解中的資訊、新增或移除影像，或移除任何已標籤的使用者。
+您可以在提交評論後15分鐘內編輯評論。 「已編輯」指標會新增至更新評論時顯示的日期戳記左側。
 
    ![](assets/edited-tag-on-comment-unified-commenting.png)
 
    >[!TIP]
    >
-   > 系統只會在您提交原始更新時，產生電子郵件，通知使用者您的更新。 編輯更新後不會產生任何電子郵件。
+   > * 系統會產生電子郵件，僅當您提交原始更新時，才會通知使用者您的更新。 編輯更新後不會產生電子郵件。
+   >
+   > * 日期戳記是原始註解的日期，而不是最新更新的日期。
 
-   1. （選用）按一下 **更多** 功能表 ![](assets/more-icon.png)，然後按一下下列任一選項，將資訊從注釋複製到剪貼簿：
 
-      * **複製連結** 複製更新的連結，而不會有回覆。
-      * **複製正文文本** 來複製更新的文本。
+   1. （可選）按一下 **更多** 功能表 ![](assets/more-icon.png)，然後按一下下列任一選項，將註解中的資訊複製到剪貼簿：
+
+      * **複製連結** 複製更新的連結，而不進行回覆。
+      * **複製內文** 以複製更新的文字。
 
          如需詳細資訊，請參閱 [更新工作](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
-1. （選用）按一下 **更多** 功能表 ![](assets/more-icon.png) 按一下備注的右側 **刪除** 刪除添加的注釋。 如需詳細資訊，請參閱 [更新工作](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
-1. （選用）按一下 **回覆** 若要回覆現有意見，請遵循上述步驟5至9。 <!--insure this stays accurate-->
-1. （條件式和選用式）如果其他使用者已新增備注，顯示在「更新」區段的可見區域之外，請按一下 **檢視** 藍色 **新留言橫幅** 顯示這些註解。
+1. （可選）按一下 **更多** 功能表 ![](assets/more-icon.png) ，然後按一下 **刪除** 以刪除您新增的註解。 如需詳細資訊，請參閱 [更新工作](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+1. （可選）按一下 **回覆** 若要回覆現有註解，請遵循上述步驟5-9。 <!--insure this stays accurate-->
+1. （有條件和選擇性）如果其他使用者新增了在「更新」區段的可見區域外顯示的註解，請按一下 **檢視** 藍色內部 **新評論橫幅** 在熒幕底部顯示這些註解。
 
    ![](assets/blue-new-comments-banner-with-view-button.png)
 
-   螢幕底部會顯示其他注釋。
-1. （選用）按一下 **贊** 圖示![](assets/like-icon.png) 喜歡別人加的評論。 圖示會隨按贊次數更新。
+   熒幕底部會顯示其他註解。
+1. （可選）按一下 **按讚** 圖示![](assets/like-icon.png) 喜歡其他人新增的註解。 圖示會隨著喜歡的數量而更新。
 
-1. （選用）按一下 **系統活動** 頁簽查看系統記錄的更新。 更新目標時，Workfront會產生有關該更新的附註，並在「系統活動」索引標籤中顯示。 Workfront也會在結果、活動或專案新增至目標或更新時記錄系統更新。 <!--ensure the casing on the tab has not changed-->
+1. （可選）按一下 **系統活動** 索引標籤來檢視系統記錄的更新。 目標更新時，Workfront會產生該更新的相關附註，並顯示在「系統活動」標籤中。 當結果、活動或專案新增至目標或更新時，Workfront也會記錄系統更新。 <!--ensure the casing on the tab has not changed-->
 
 <!--BELOW IS OLD, ATIIM/ WORKFRONT GOALS INFORMATION ABOUT COMMENTS: 
 

@@ -2,26 +2,32 @@
 product-area: projects
 navigation-topic: update-work-items-and-view-updates
 title: 回覆電子郵件通知
-description: 在物件上加上註解，而不需登入Adobe Workfront。 您可以回覆Workfront電子郵件，此電子郵件是從對專案、工作、問題和其他物件的註解所產生。
+description: 您可以在不登入Adobe Workfront的情況下對物件進行註解。 您可以回應對專案、任務、問題和其他物件進行評論後所產生的Workfront電子郵件。
 author: Lisa and Alina
 feature: Get Started with Workfront
 exl-id: fea88410-8f37-49d0-9f5d-9fbac4ab5de6
-source-git-commit: 799a2f3463ee98d57b13edfda8a0c93629439ea3
+source-git-commit: f5019325da11e66bf9ab315065ae2b7693660431
 workflow-type: tm+mt
-source-wordcount: '103'
+source-wordcount: '107'
 ht-degree: 7%
 
 ---
 
 # 回覆電子郵件通知
 
-在物件上加上註解，而不需登入Adobe Workfront。 您可以回覆Workfront電子郵件，此電子郵件是從對下列物件的註解所產生：
+您可以在不登入Adobe Workfront的情況下對物件進行註解。
+
+>[!NOTE]
+>
+>叢集6上的環境無法透過電子郵件回覆更新。
+
+您可以回應對下列物件進行評論後所產生的Workfront電子郵件：
 
 * 專案
 * 任務
 * 問題
 * 文件
-* 模板和模板任務
+* 範本和範本任務
 * 專案組合
 * 方案
 * 反覆項目
@@ -29,8 +35,6 @@ ht-degree: 7%
 
 >[!IMPORTANT]
 >
->為避免提交錯誤，Outlook用戶應先刪除現有的電子郵件內容，然後再鍵入您的回復。
+>為避擴音交錯誤，Outlook使用者應先刪除現有的電子郵件內容，再輸入您的回覆。
 
->[!NOTE]
->
->群集6上的環境無法使用通過電子郵件回復更新。
+
