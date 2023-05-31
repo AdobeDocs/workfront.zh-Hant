@@ -4,9 +4,9 @@ description: 23.3版本總覽
 author: Becky
 feature: Product Announcements
 exl-id: 9bf786e2-e077-4504-b928-9091fcb61ec1
-source-git-commit: a99c746e9863e06ccc1890fc07533f4024cb0059
+source-git-commit: a6dd604db7c12c00048150004323e8426e45cf2b
 workflow-type: tm+mt
-source-wordcount: '1295'
+source-wordcount: '1312'
 ht-degree: 0%
 
 ---
@@ -222,7 +222,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-15.md" class="MCXref xref" xrefformat="{para}">建立專案時自動建立連結資料夾至Adobe Experience Manager資產</a><span style="color: #ff0000;"> 生產中的新功能！</span></p>
-                        <p>透過Adobe Experience Manager整合的全新建立連結資料夾工作流程，您可以透過Adobe Experience Manager Assets資料夾的路徑設定整合。 將整合新增至專案範本時，從範本建立的任何專案都會在指定資料夾的Experience Manager Assets中自動建立連結的子資料夾。 </p>
+                        <p>透過Adobe Experience Manager整合的全新建立連結資料夾工作流程，您可以透過Adobe Experience Manager Assets資料夾的路徑設定整合。 將整合新增至專案範本時，從範本建立的任何專案都會在指定資料夾的Experience Manager Assets中自動建立連結的子資料夾。 </p><p>此功能僅適用於Workfront內的Adobe Experience Manager as a Cloud Service整合。</p>
                     </td>
                     <td><p><b>在以下日期可用：</b></p>
                         <ul>
