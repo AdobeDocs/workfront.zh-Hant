@@ -6,9 +6,9 @@ description: 當有人在工作物件上新增或回覆更新時，他們的回�
 author: Lisa and Alina
 feature: Get Started with Workfront
 exl-id: a8271f3c-7a08-4eb3-aaff-deb250f5af73
-source-git-commit: e1411ce49d8668ba50bcb9b80d4a4b47d0dd00fc
+source-git-commit: 7c458a41cd5376b746c93e9ed8e4f379a0ed1f4b
 workflow-type: tm+mt
-source-wordcount: '1159'
+source-wordcount: '1164'
 ht-degree: 1%
 
 ---
@@ -26,8 +26,9 @@ ht-degree: 1%
 >如需有關新評論體驗的詳細資訊，請參閱 [新的評論體驗](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 >
 >您可以存取下列物件的新體驗：
-> * 問題， <span class="preview">專案、任務和檔案</span>，即可開始評論Beta版。
+> * 問題， <span class="preview">專案、任務和檔案</span>.
    >
+   >     當您啟用註解Beta版體驗時，即可使用此功能。\
    >     此功能僅適用於「更新」區段，不適用於以下區域：
    >
    >     * 首頁

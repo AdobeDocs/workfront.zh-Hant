@@ -6,9 +6,9 @@ description: 您可以在Adobe Workfront物件（專案、任務或問題）上�
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: e1411ce49d8668ba50bcb9b80d4a4b47d0dd00fc
+source-git-commit: 7c458a41cd5376b746c93e9ed8e4f379a0ed1f4b
 workflow-type: tm+mt
-source-wordcount: '3176'
+source-wordcount: '3181'
 ht-degree: 1%
 
 ---
@@ -26,7 +26,9 @@ ht-degree: 1%
 >如需有關新評論體驗的詳細資訊，請參閱 [新的評論體驗](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 >
 >您可以存取下列物件的新體驗：
-> * 問題， <span class="preview">專案</span>， <span class="preview">任務</span>、和 <span class="preview">檔案</span>，即可開始評論Beta版。
+> * 問題， <span class="preview">專案、任務和檔案</span>.
+   >
+   >     當您啟用註解Beta版體驗時，即可使用此功能。
    >
    >     此功能僅適用於「更新」區段，不適用於以下區域：
    >
