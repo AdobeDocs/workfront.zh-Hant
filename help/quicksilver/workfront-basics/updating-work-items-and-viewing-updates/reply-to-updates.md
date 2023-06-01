@@ -6,7 +6,7 @@ description: 當有人在工作物件上新增或回覆更新時，他們的回�
 author: Lisa and Alina
 feature: Get Started with Workfront
 exl-id: a8271f3c-7a08-4eb3-aaff-deb250f5af73
-source-git-commit: 7c458a41cd5376b746c93e9ed8e4f379a0ed1f4b
+source-git-commit: 66e843ea0430a86b89b68f6f469763f5e4a348d7
 workflow-type: tm+mt
 source-wordcount: '1164'
 ht-degree: 1%
@@ -17,7 +17,7 @@ ht-degree: 1%
 
 <!--take "Beta" references out when we remove the beta-->
 
-<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它僅在「預覽」環境中可用。
+<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它僅在「預覽」環境中可用。</span>
 
 >[!NOTE]
 >
@@ -26,22 +26,22 @@ ht-degree: 1%
 >如需有關新評論體驗的詳細資訊，請參閱 [新的評論體驗](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 >
 >您可以存取下列物件的新體驗：
-> * 問題， <span class="preview">專案、任務和檔案</span>.
-   >
-   >     當您啟用註解Beta版體驗時，即可使用此功能。\
-   >     此功能僅適用於「更新」區段，不適用於以下區域：
-   >
-   >     * 首頁
-   >     * 清單中的摘要面板
-   >     * 時程表中的摘要面板
 >
-> * 目標
-
-   >
-   >   新的註解體驗是目標的預設值。 您必須有其他授權才能存取Workfront目標。 如需詳細資訊，請參閱 [使用Workfront目標的需求](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
-   >
-   >    如需有關對目標發表註解的資訊，請參閱 [在Adobe Workfront目標中管理目標註解](../../workfront-goals/goal-management/manage-goal-comments.md).
-
+>* 問題， <span class="preview">專案、任務和檔案</span>.
+>
+>  當您啟用註解Beta版體驗時，即可使用此功能。
+>
+>  此功能僅適用於「更新」區段，不適用於以下區域：
+>
+>  * 首頁
+>  * 清單中的摘要面板
+>  * 時程表中的摘要面板
+>
+>* 目標
+>
+>  新的註解體驗是目標的預設值。 您必須有其他授權才能存取Workfront目標。 如需詳細資訊，請參閱 [使用Workfront目標的需求](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+>
+>  如需有關對目標發表註解的資訊，請參閱 [在Adobe Workfront目標中管理目標註解](../../workfront-goals/goal-management/manage-goal-comments.md).
 
 當有人回覆工作物件的評論或系統更新時，他們的回覆會出現在物件「更新」區段的通訊對話串中。
 
@@ -100,6 +100,7 @@ ht-degree: 1%
    您可以在該更新對話串頂端看到活躍參與交談或每個回覆中被標籤的使用者。 這些使用者以及訂閱物件的任何使用者會在物件更新或回覆時收到通知。 您也可以標籤更多使用者，讓他們加入您的回覆。  若要標籤更多使用者，請參閱 [標籤其他更新的專案](../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
 
    ![](assets/tagging-transparency-350x192.png)
+
 1. （可選）若要在回覆中包含先前更新的文字，請按一下 **更多** 您想要報價的更新或回覆旁的功能表，然後按一下 **引用回覆**. 先前更新的文字會顯示在輸入區域中，並以垂直灰線標示。
 1. （可選）使用格式、表情符號、包含連結或影像，如文章中「在Workfront更新中使用RTF文字」一節中所述 [更新工作](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 1. 按一下 **回覆** 以儲存回覆。
