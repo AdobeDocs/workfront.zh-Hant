@@ -7,9 +7,9 @@ description: 物件的「更新」區段會顯示使用者對物件所做的註�
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: f5019325da11e66bf9ab315065ae2b7693660431
+source-git-commit: 86e0ad3eced94a1165a5f6beded53b4cdf32c768
 workflow-type: tm+mt
-source-wordcount: '911'
+source-wordcount: '968'
 ht-degree: 4%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 4%
 
 <!--take "Beta" references out when we remove the beta-->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> -->
+<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它僅在「預覽」環境中可用。</span>
 
 >[!NOTE]
 >
@@ -27,7 +27,7 @@ ht-degree: 4%
 >如需有關新評論體驗的詳細資訊，請參閱 [新的評論體驗](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 >
 >您可以存取下列物件的新體驗：
-> * 問題， <!--<span class="preview">projects, tasks, and documents</span>,--> 啟用發表評論測試版時。
+> * 問題， <span class="preview">專案、任務和檔案</span> 啟用發表評論測試版時。
    >
    >     此功能僅適用於「更新」區段，不適用於以下區域：
    >
@@ -58,7 +58,7 @@ ht-degree: 4%
 目前的「更新」段落顯示下列資訊：
 
 * 使用者所做的評論和對這些評論的回覆。
-* 系統更新，這是Workfront建立的資訊性訊息，用來記錄物件上的特定事件。 例如，您可以使用系統更新來擷取狀態、名稱或自訂欄位中的變更。 您的Workfront或群組管理員可以為您的專案啟用系統更新。 如需詳細資訊，請參閱 [設定系統更新](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
+* 系統更新，這是Workfront建立的資訊性訊息，用來記錄物件上的特定事件。 例如，您可以使用系統更新來擷取狀態、名稱或自訂欄位中的變更。 您的Workfront或群組管理員可以為您的物件啟用系統更新。 如需詳細資訊，請參閱 [設定系統更新](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
 
 會針對下列物件顯示「更新」段落：
 
@@ -97,9 +97,9 @@ ht-degree: 4%
 「更新」區段會在新評論體驗的下列標籤中顯示資訊：
 
 * **註解**：顯示使用者所做的評論和對這些評論的回覆。 如需有關更新新註解體驗中物件的資訊，請參閱 [更新工作](../updating-work-items-and-viewing-updates/update-work.md).
-* **系統活動**：顯示系統更新，這些資訊性訊息是Workfront為記錄物件上的特定事件而建立的訊息。 例如，您可以使用系統更新來擷取狀態、名稱或自訂欄位中的變更。 您的Workfront或群組管理員可以為您的專案啟用系統更新。 如需詳細資訊，請參閱 [設定系統更新](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
+* **系統活動**：顯示系統更新，這些資訊性訊息是Workfront為記錄物件上的特定事件而建立的訊息。 例如，您可以使用系統更新來擷取狀態、名稱或自訂欄位中的變更。 您的Workfront或群組管理員可以為您的物件啟用系統更新。 如需詳細資訊，請參閱 [設定系統更新](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
 
-目前，您可以針對下列物件使用測試版註解體驗來發表註解並回覆更新：
+目前，您可以使用以下物件的測試版註解體驗來新增註解並回覆更新：
 
 <table style="table-layout:auto"> 
  <col> 
@@ -111,39 +111,17 @@ ht-degree: 4%
      <li><p>目標</p>
      <p>這是目標的預設體驗</p>
      </li> 
-      </ul> </td> 
+     <li><span class="preview">專案</span></li>
+     </ul> </td> 
    <td> 
     <ul> 
      <li>問題</li> 
+     <li><span class="preview">任務</span></li>
+     <li><span class="preview">文件</span></li>
      </ul> </td> 
   </tr> 
  </tbody> 
 </table>
-
-<!--replace table above with this: 
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td> 
-    <ul> 
-     <li><p>Goals</p>
-     <p>This is the default experience for goals</p>
-     </li> 
-     <li><span class="preview">Projects</span></li>
-     </ul> </td> 
-   <td> 
-    <ul> 
-     <li>Issues</li> 
-     <li><span class="preview">Tasks</span></li>
-     <li><span class="preview">Documents</span></li>
-     </ul> </td> 
-  </tr> 
- </tbody> 
-</table>
--->
 
 ## 也會出現在較高層級物件上的更新
 
@@ -151,17 +129,15 @@ ht-degree: 4%
 
 例如，當您將更新新增到任務時，該更新會出現在任務的更新區段和包含任務的專案的更新區段中。
 
-<!--
 >[!NOTE]
 >
->When enabling the new commenting Beta experience, comments display on the following higher-ranking objects and in the following environments: 
+>啟用新的註解Beta版體驗時，註解會顯示在下列較高等級的物件及下列環境中：
 >
->* Issues, in the Preview and Production environments
->* <span class="preview">Projects and tasks, in the Preview environment</span>
+>* 問題
+>* <span class="preview">專案</span>
+>* <span class="preview">任務</span>
 >
->For more information, see [New commenting experience](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md). 
-
--->
+>如需詳細資訊，請參閱 [新的評論體驗](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 
 下表顯示其註解也顯示在其較高等級物件上的物件：
 

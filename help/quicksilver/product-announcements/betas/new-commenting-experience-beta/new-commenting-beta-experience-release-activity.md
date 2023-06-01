@@ -6,10 +6,10 @@ description: 請檢閱Adobe Workfront的每週發行活動，瞭解新的評論B
 author: Alina
 feature: Product Announcements
 exl-id: 1c0cb547-ac99-4cdf-8a74-2c47ad5a10ad
-source-git-commit: f5019325da11e66bf9ab315065ae2b7693660431
+source-git-commit: 86e0ad3eced94a1165a5f6beded53b4cdf32c768
 workflow-type: tm+mt
-source-wordcount: '637'
-ht-degree: 8%
+source-wordcount: '807'
+ht-degree: 6%
 
 ---
 
@@ -29,48 +29,41 @@ ht-degree: 8%
 
 ## 2023年5月29日起一週
 
+### 專案、任務和問題的全新評論Beta版體驗
+
+新的註解Beta版體驗現在可用於專案、任務和檔案。 在此更新之前，評論Beta版體驗僅適用於問題和目標。
+
+預覽： 2023年6月1日
+
+生產：第23.3發行版本
+
+>[!NOTE]
+>
+>從2023年6月1日開始針對新評論測試版體驗發佈的任何功能，都將在23.3版發佈至生產環境後，可用於專案、任務和檔案的生產環境。 如需詳細資訊，請參閱 [23.3版本總覽](../../../product-announcements/product-releases/23.3-release-activity/23-3-release-overview.md).
+
 ### 編輯評論後新增「已編輯」標籤的外觀
 
-編輯新註解Beta版體驗中的註解時，「已編輯」標籤會新增至註解。 此標籤現在具有比原來發佈的外觀和感覺更新的外觀。 註解的日期和時間戳記是原始註解的日期和時間。 它們不是進行編輯時的日期和時間戳記。  如需詳細資訊，請參閱 [更新工作](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+編輯新註解Beta版體驗中的註解時，「已編輯」標籤會新增至註解。 此標籤現在具有原來發行標籤的新外觀。 註解的日期和時間戳記是原始註解的日期和時間。 它們不是進行編輯時的日期和時間戳記。  如需詳細資訊，請參閱 [更新工作](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
 預覽： 2023年5月31日
 
 生產： 2023年6月1日
 
-<!--
+### 子物件的註解會向上彙整至父物件
 
-### Comments from children objects now roll up to a parent object  
+啟用註解Beta版體驗時，與子物件相關聯的註解現在會向上彙整至父物件。 例如，檔案中的註解現在會顯示在附加檔案的問題上。 如需詳細資訊，請參閱 [更新區段總覽](../../../workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
-When enabling the commenting Beta experience, the comments associated with a child object now roll up to the parent object. For example, comments from documents now display on the issue where the documents are attached. For information, see [Update section overview](../../../workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md). 
+預覽： 2023年6月1日
 
-Preview, for issues, projects, and tasks: June 1, 2023  
+生產： 2023年6月1日
 
-Production, for issues: June 1, 2023 
+### 在新的評論Beta版體驗中記錄時間
 
-Production, for projects, and tasks: with the 23.3 release 
--->
+使用新的註解Beta版體驗時，您可以從更新區域記錄問題、任務和專案的時間。 如需詳細資訊，請參閱 [記錄時間](../../../timesheets/create-and-manage-timesheets/log-time.md).
 
-<!--
-### Log time in the new commenting Beta experience 
+預覽： 2023年6月1日
 
-You can log time for issues, tasks, and projects from the Updates area, when using the new commenting Beta experience. For more information, see [Log time](../../../timesheets/create-and-manage-timesheets/log-time.md).  
-
-Preview: June 1, 2023 
-
-Production: June 15, 2023
-
--->
-
-<!--
-
-### New commenting Beta experience for projects, tasks, and issues  
-
-The new commenting Beta experience is now available for projects, tasks, and documents. Prior to this update, the commenting Beta experience was available only for issues and goals.  
-
-Preview: June 1, 2023 
-
-Production: with the 23.3 release 
--->
+生產：即將宣佈
 
 ## 2023年5月15日起一週
 

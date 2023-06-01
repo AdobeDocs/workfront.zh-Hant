@@ -6,14 +6,18 @@ description: 您可以在&nbsp；Adobe Workfront中記錄工作專案的時間�
 author: Alina
 feature: Timesheets
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: f5019325da11e66bf9ab315065ae2b7693660431
+source-git-commit: aa06f9443a3ac5682ee7ef88f82cb5aad9bfa385
 workflow-type: tm+mt
-source-wordcount: '3234'
+source-wordcount: '3231'
 ht-degree: 0%
 
 ---
 
 # 記錄時間
+
+<!--remove all preview and production references from this article with 23.3 release-->
+
+<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它僅在「預覽」環境中可用。</span>
 
 您可以在Adobe Workfront中記錄工作專案的時間，以指出您花在專案上的小時數。 您也可以記錄與工作無關的時間，例如假期、病假或會議時間。 您的記錄時間會顯示在您的時程表中。
 
@@ -109,7 +113,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->檢閱指派給時程表設定檔的使用者可以檢視時程表索引標籤並記錄一般時數。 但是，他們無法記錄出現在時間表上任何指派給他們的任務或問題的時數。
+>檢閱指派給時程表設定檔的使用者可以檢視時程表區域並記錄一般時數。 但是，他們無法記錄出現在時間表上任何指派給他們的任務或問題的時數。
 
 1. 按一下 [!UICONTROL **主要功能表**] 圖示 ![](assets/main-menu-icon.png) Adobe Workfront右上角。
 
@@ -342,40 +346,32 @@ ht-degree: 0%
 
 ### 專案、任務或問題 {#project-task-or-issue}
 
-您可以記錄專案、任務或問題的專案特定時間。
+您可以在下列區段中記錄專案、任務或問題的專案特定時間：
 
-#### 記錄時間所需的許可權
+* [更新區段](#updates-section)
+* [「小時」部分](#hours-section)
 
-若要在專案、任務或問題上記錄時數，您需要有特定許可權。 您可以在專案、任務或問題的兩個位置記錄時間：
+#### 更新區段{#updates-section}
 
-* [更新索引標籤](#updates-tab)
-* [「小時」索引標籤](#hours-tab)
-
-##### 更新索引標籤{#updates-tab}
-
-<!--
+<!--remove the note below when we can log time for projects and tasks in production with the 23.3 release. Also, update the screen shot for the Enter Hours box-->
 
 >[!NOTE]
 >
->When enabling the new commenting Beta experience, logging time is available only for the following objects in the following environments:
+> 您可以記錄問題的時間， <span class="preview">專案和任務</span> 在更新區段中啟用新的註解Beta版體驗時。
 >
->* In the Preview and Production environments for issues. 
->* <span class="preview">In the Preview environment for tasks and projects.</span> 
->
->For more information, see [New commenting experience](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
+>如需詳細資訊，請參閱 [新的評論體驗](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 
--->
+若要在專案、任務或問題的更新區段中記錄時間，您必須具備下列條件：
 
-在您可以登入專案、任務或問題的更新索引標籤時數之前，需要以下內容：
-
-* 您必須擁有工作或計畫授權。
-* 您必須至少擁有專案、任務或問題的貢獻許可權，才能存取記錄時數。\
+* 工作或計畫授權。
+* 為專案、任務或問題貢獻或更高的許可權以存取記錄時數。\
    如需授予專案許可權的詳細資訊，請參閱 [在Adobe Workfront中共用專案](../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md).
 
-* 如果您想要直接將時間記錄到專案，您的Workfront管理員必須啟用「直接在專案上記錄時間」設定 [!UICONTROL **時程表和時數** ]> [!UICONTROL **偏好設定**].\
+* 您的Workfront管理員必須啟用「直接在專案上記錄時間」設定，該設定位於 [!UICONTROL **時程表和時數** ]> [!UICONTROL **偏好設定**]，直接將時間記錄到專案中時。
+
    如需允許使用者直接將時數記錄到專案的詳細資訊，請參閱 [設定時程表和小時偏好設定](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
 
-若要在專案、任務或問題的更新索引標籤中記錄時間：
+若要在專案、任務或問題的更新區段中記錄時間：
 
 1. 前往專案、任務或問題。
 1. 在左側面板中，選取 **更新**.
@@ -403,22 +399,22 @@ ht-degree: 0%
 
 1. 按一下 **記錄時間**.
 
-##### 「小時」索引標籤{#hours-tab}
+#### 「小時」部分{#hours-section}
 
-在專案、任務或問題的時數索引標籤上記錄時數之前，必須執行下列操作：
+您必須是Workfront管理員，才能在時數區段中記錄專案、任務和問題的時間。
 
-* 您必須是系統管理員。
+或
 
-或者，您必須具備下列所有條件：
+您必須具備下列所有條件：
 
-* 您必須擁有對時程表和時數具有管理存取權的計畫授權。 如需授與時程表和時數之管理存取權的詳細資訊，請參閱 [授予使用者對特定區域的管理存取權](../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
-* 您必須至少擁有專案的貢獻許可權，才能存取記錄時數。 如需授予專案許可權的詳細資訊，請參閱 [在Adobe Workfront中共用專案](../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md).
+* 具有時程表和時數之管理存取權的計畫授權。 如需授與時程表和時數之管理存取權的詳細資訊，請參閱 [授予使用者對特定區域的管理存取權](../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
+* 為擁有記錄時數存取權的專案貢獻或更高的許可權。 如需授予專案許可權的詳細資訊，請參閱 [在Adobe Workfront中共用專案](../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md).
 * 如果您想要直接將時間記錄到專案，您的Workfront管理員必須在「時程表和時數>偏好設定」下啟用直接在專案上記錄時間設定。 如需允許使用者直接將時數記錄到專案的詳細資訊，請參閱 [設定時程表和小時偏好設定](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
 
-若要在專案、任務或問題的時數標籤中記錄時間：
+若要在專案、任務或問題的時數區段中記錄時間：
 
 1. 前往專案、任務或問題。
-1. 在左側面板中，選取 **小時**.
+1. 在左側面板中，按一下 **小時**.
 1. 按一下 **記錄時間**.
 
    記錄時數對話方塊隨即顯示。

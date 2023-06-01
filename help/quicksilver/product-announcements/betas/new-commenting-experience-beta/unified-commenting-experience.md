@@ -6,16 +6,16 @@ description: 目前正在開發Adobe Workfront中評論體驗的更新。 此更
 author: Alina
 feature: Product Announcements
 exl-id: f750b35b-8021-4cc1-81d6-e1ece2530438
-source-git-commit: f5019325da11e66bf9ab315065ae2b7693660431
+source-git-commit: 86e0ad3eced94a1165a5f6beded53b4cdf32c768
 workflow-type: tm+mt
-source-wordcount: '596'
+source-wordcount: '610'
 ht-degree: 1%
 
 ---
 
 # 新的評論體驗
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span>-->
+<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它僅在「預覽」環境中可用。</span>
 
 目前正在開發Adobe Workfront中評論體驗的更新。 此更新包含新介面、新功能，以及所選物件更新區段中的改進效能。
 
@@ -47,7 +47,7 @@ ht-degree: 1%
 新評論體驗中包括的改進如下：
 
 * 改善的效能和使用者體驗
-* 將使用者評論和系統活動更新分開。 系統更新功能的方式沒有變更。
+* 將使用者評論和系統活動更新分開。
 * 將新註解新增至物件時的即時指示器
 * 在提交評論後進行編輯。
 
@@ -261,7 +261,7 @@ ht-degree: 1%
    </td>
    <td>✓ 
    </td>
-   <td> ✓
+   <td><span class="preview">✓</span>
    </td>
    <td> 
    </td>
@@ -409,7 +409,7 @@ ht-degree: 1%
 
 * 在更新區段中啟用Beta版體驗時：
 
-   * 問題<!--, <span class="preview">projects, tasks, and documents</span>-->
+   * 問題， <span class="preview">專案、任務和檔案</span>
    如需管理Workfront物件更新的詳細資訊，請參閱 [更新工作](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
 

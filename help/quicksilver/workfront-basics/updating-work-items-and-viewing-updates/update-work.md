@@ -6,9 +6,9 @@ description: 您可以在Adobe Workfront物件（專案、任務或問題）上�
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: f5019325da11e66bf9ab315065ae2b7693660431
+source-git-commit: 86e0ad3eced94a1165a5f6beded53b4cdf32c768
 workflow-type: tm+mt
-source-wordcount: '3151'
+source-wordcount: '3176'
 ht-degree: 1%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 1%
 
 <!--take "Beta" references out when we remove the beta-->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span>-->
+<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它僅在「預覽」環境中可用。</span>
 
 >[!NOTE]
 >
@@ -26,7 +26,7 @@ ht-degree: 1%
 >如需有關新評論體驗的詳細資訊，請參閱 [新的評論體驗](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 >
 >您可以存取下列物件的新體驗：
-> * 問題， <!--<span class="preview">projects, tasks, and documents</span>,--> 啟用發表評論測試版時。
+> * 問題， <span class="preview">專案、任務和檔案</span>，即可開始評論Beta版。
    >
    >     此功能僅適用於「更新」區段，不適用於以下區域：
    >
@@ -193,7 +193,7 @@ drafted for P&P release:
 此 **註解** 標籤預設為選取。
 1. 開始在 **新註解** 方塊。
 
-   ![](assets/comment-box-empty-unshimmed.png)
+   <span class="preview">![](assets/comment-box-empty-unshimmed.png)</span>
 
    >[!TIP]
    >
@@ -314,7 +314,7 @@ drafted for P&P release:
 1. （選用）若要新增其他資訊來源的URL連結：
 
    1. 在更新中按一下您要插入連結的位置。
-   1. 於 **RTF文字** 工具列，按一下 **超連結** 圖示。 ![](assets/link-icon.png)
+   1. 於 **RTF文字** 工具列，按一下 **超連結** 圖示 ![](assets/link-icon.png).
 
    1. 在 **建立連結** 方塊，位於 **URL**，輸入或貼上您要連結之來源的URL。
 
