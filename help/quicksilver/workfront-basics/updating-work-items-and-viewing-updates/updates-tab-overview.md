@@ -7,9 +7,9 @@ description: 物件的「更新」區段會顯示使用者對物件所做的註�
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: 86e0ad3eced94a1165a5f6beded53b4cdf32c768
+source-git-commit: e1411ce49d8668ba50bcb9b80d4a4b47d0dd00fc
 workflow-type: tm+mt
-source-wordcount: '968'
+source-wordcount: '963'
 ht-degree: 4%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 4%
 >如需有關新評論體驗的詳細資訊，請參閱 [新的評論體驗](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 >
 >您可以存取下列物件的新體驗：
-> * 問題， <span class="preview">專案、任務和檔案</span> 啟用發表評論測試版時。
+> * 問題， <span class="preview">專案</span>， <span class="preview">任務</span>、和 <span class="preview">檔案</span>，即可開始評論Beta版。
    >
    >     此功能僅適用於「更新」區段，不適用於以下區域：
    >
@@ -131,7 +131,7 @@ ht-degree: 4%
 
 >[!NOTE]
 >
->啟用新的註解Beta版體驗時，註解會顯示在下列較高等級的物件及下列環境中：
+>啟用新的註解Beta版體驗時，註解會顯示在下列較高等級的物件上：
 >
 >* 問題
 >* <span class="preview">專案</span>

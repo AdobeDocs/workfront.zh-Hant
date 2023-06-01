@@ -6,7 +6,7 @@ description: 請檢閱Adobe Workfront的每週發行活動，瞭解新的評論B
 author: Alina
 feature: Product Announcements
 exl-id: 1c0cb547-ac99-4cdf-8a74-2c47ad5a10ad
-source-git-commit: 86e0ad3eced94a1165a5f6beded53b4cdf32c768
+source-git-commit: e1411ce49d8668ba50bcb9b80d4a4b47d0dd00fc
 workflow-type: tm+mt
 source-wordcount: '807'
 ht-degree: 6%
@@ -29,7 +29,7 @@ ht-degree: 6%
 
 ## 2023年5月29日起一週
 
-### 專案、任務和問題的全新評論Beta版體驗
+### 專案、任務和檔案的新註解測試版體驗
 
 新的註解Beta版體驗現在可用於專案、任務和檔案。 在此更新之前，評論Beta版體驗僅適用於問題和目標。
 

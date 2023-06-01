@@ -1,34 +1,34 @@
 ---
 product-area: reporting
 navigation-topic: text-mode-reporting
-title: 文本模式報告中的數字、貨幣和百分比值的格式
-description: 在Adobe Workfront中，數值（包括貨幣）可設定為以多種格式顯示在報表和清單中。
+title: 格式化文字模式報表中的數字、貨幣和百分比值
+description: 包括貨幣在內的數值可設定為在Adobe Workfront的報表和清單中以各種格式顯示。
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 965f5dcd-4844-4792-9fd0-a47814a325a4
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: e1411ce49d8668ba50bcb9b80d4a4b47d0dd00fc
 workflow-type: tm+mt
 source-wordcount: '154'
 ht-degree: 7%
 
 ---
 
-# 文本模式報告中的數字、貨幣和百分比值的格式
+# 格式化文字模式報表中的數字、貨幣和百分比值
 
-在Adobe Workfront中，數值（包括貨幣）可設定為以多種格式顯示在報表和清單中。
+包括貨幣在內的數值可設定為在Adobe Workfront的報表和清單中以各種格式顯示。
 
-若要修改數值格式，您必須編輯 **valueformat** 行。
+若要修改數值的格式，您必須編輯 **valueformat** 行中指定字元間距的欄位。
 
-例如，如果您想將「預算」欄顯示為$1000，則值格式行如下所示：
+例如，如果您想要將「預算」欄顯示為$1000，則值格式行會如下所示：
 
 ```
 valueformat=currencyStringCurrencyRounded
 valuefield=budget
 ```
 
-如需使用文字模式在Workfront報表和清單中套用條件式格式的詳細資訊，請參閱 [在文字模式中使用條件式格式](../../../reports-and-dashboards/reports/text-mode/use-conditional-formatting-text-mode.md).
+如需使用文字模式在Workfront報表和清單中套用條件式格式的相關資訊，請參閱 [在文字模式中使用條件式格式](../../../reports-and-dashboards/reports/text-mode/use-conditional-formatting-text-mode.md).
 
-您可以使用下列值來格式化數字 `valueformat` 行：
+您可以使用下列數值來格式化數字 `valueformat` 欄的行：
 
 | 範例 | `valueformat=` |
 |---|---|
@@ -41,3 +41,4 @@ valuefield=budget
 | 12.34% | <pre>doubleAsPercent</pre> |
 | (1,234.56) | <pre>doubleAsFinancial</pre> |
 | (1,234) | <pre>doubleAsFinancialRounded</pre> |
+

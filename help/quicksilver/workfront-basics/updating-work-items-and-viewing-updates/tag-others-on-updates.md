@@ -6,9 +6,9 @@ description: 在Adobe Workfront物件上提供更新註解時，專案上的所�
 author: Alina
 feature: Get Started with Workfront
 exl-id: c4c0d74f-ac50-4fc5-89d6-28f004c25b29
-source-git-commit: f5019325da11e66bf9ab315065ae2b7693660431
+source-git-commit: e1411ce49d8668ba50bcb9b80d4a4b47d0dd00fc
 workflow-type: tm+mt
-source-wordcount: '1411'
+source-wordcount: '1436'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 <!--take "Beta" references out when we remove the beta-->
 
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.-->
+<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它僅在「預覽」環境中可用。
 
 >[!NOTE]
 >
@@ -27,7 +27,7 @@ ht-degree: 0%
 >如需有關新評論體驗的詳細資訊，請參閱 [新的評論體驗](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 >
 >您可以存取下列物件的新體驗：
-> * 問題， <!--<span class="preview">projects, tasks, and documents</span>,--> 啟用發表評論測試版時。
+> * 問題， <span class="preview">專案</span>， <span class="preview">任務</span>、和 <span class="preview">檔案</span>，即可開始評論Beta版。
    >
    >     此功能僅適用於「更新」區段，不適用於以下區域：
    >
@@ -77,8 +77,11 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader"><strong>存取層級設定*</strong></td> 
-   <td> <p>問題和檔案的要求者或以上；所有其他物件的檢閱者或以上</p> <p>注意：如果您仍然沒有存取權，請詢問您的Workfront管理員是否對您的存取層級設定了其他限制。 如需有關Workfront管理員如何修改您的存取層級的資訊，請參閱 <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>.</p> </td> 
-  </tr> 
+   <td> <p>問題和檔案的要求者或以上；所有其他物件的檢閱者或以上</p> 
+   <p><b>附註</b>
+
+如果您仍然沒有存取權，請詢問您的Workfront管理員是否對您的存取層級設定了其他限制。 如需有關Workfront管理員如何修改您的存取層級的資訊，請參閱 <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>.</p> </td>
+</tr> 
   <tr> 
    <td role="rowheader"><strong>物件許可權</strong></td> 
    <td> <p>檢視物件的存取權</p> <p>如需請求其他存取許可權的詳細資訊，請參閱 <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">要求物件的存取權 </a>.</p> </td> 
