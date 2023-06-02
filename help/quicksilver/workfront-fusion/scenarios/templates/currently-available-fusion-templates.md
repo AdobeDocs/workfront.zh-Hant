@@ -3,103 +3,107 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: scenarios
 title: 目前可用的Adobe Workfront Fusion範本
-description: 下列公開範本目前可在Adobe Workfront Fusion中使用。
+description: Adobe Workfront Fusion目前提供下列公用範本。
 author: Becky
 feature: Workfront Fusion
 exl-id: 29d95b93-ab54-416d-b0d5-ff12634951b2
-source-git-commit: f0ab9a14fc397b36c5e3dffe07306ebc43e76500
+source-git-commit: b87a3777fb3f3c873a197eea1ffb051cec50aa93
 workflow-type: tm+mt
-source-wordcount: '655'
+source-wordcount: '691'
 ht-degree: 0%
 
 ---
 
 # 目前可用的Adobe Workfront Fusion範本
 
-下列公開範本目前可在Adobe Workfront Fusion中使用。
+Adobe Workfront Fusion目前提供下列公用範本。
 
-您的團隊或組織可能有其他團隊建立的範本可供使用。
+您的團隊或組織可能有其他可用的團隊建立範本。
 
-若要檢視可用的範本，請按一下 **範本** 圖示 ![](assets/fusion-template-icon.png) 的子菜單。
+若要檢視可用的範本，請按一下 **範本** 圖示 ![](assets/fusion-template-icon.png) 於側邊導覽功能表中。
 
 ## Workfront範本
 
-這些範本可自動執行Workfront程式和工作流程。
+這些範本可自動化Workfront流程和工作流程。
 
-### Workfront — 將核准的問題轉換為專案
+### Workfront — 將計畫自訂Forms和欄位資料複製到關聯的新專案
 
-此範本會將問題轉換為專案。 您可以修改它以符合組織的標準。
+此自動化功能會使用自訂表單來監視計畫中的新專案。 然後，它會將這些計畫自訂表單和欄位新增到新專案。
+
+### Workfront — 將已核准問題轉換為專案
+
+此範本會將問題轉換為專案。 您可以修改以符合貴組織的標準。
 
 ### 根據欄位變更量身打造的通知
 
-此範本會根據某些獨特事件（例如欄位值的變更），為從事Workfront專案的個人建立量身打造的更新（及相關通知）。 情境會在Task或Issue中指定的欄位變更時監視Workfront。 遇到此情況時，將評估相關項目中的資訊，並為分配給項目上特定角色的人員建立定制更新。
+此範本會根據某些獨特事件（例如欄位值的變更），為處理Workfront專案的個人建立量身打造的更新（及相關通知）。 此案例會監視Workfront中特定欄位何時變更任務或問題。 遇到此情況時，此情境將會評估相關專案中的資訊，並為專案中指定特定角色的人建立量身打造的更新。
 
-### Workfront — 以慣例大量附加至專案名稱
+### Workfront — 使用慣例大量附加至專案名稱
 
-此大量更新範本會重新命名符合搜尋條件（屬於產品組合內）的所有專案，並以標準格式重新命名。
+此大量更新範本會重新命名所有符合搜尋條件（屬於某個投資組合）的專案，並以標準格式重新命名。
 
 ### Workfront — 使用慣例重新命名專案
 
-此範本會找出符合篩選條件（屬於產品組合）的所有專案，並以標準格式重新命名。
+此範本會找出符合篩選條件（屬於某個投資組合）的所有專案，並以標準格式重新命名。
 
-### Workfront — 在狀態變更時建立基線
+### Workfront — 建立狀態變更的基線
 
-此模板將在「交換機」模組中指出的任何項目狀態更改時捕獲項目基線，並在更新流中建立更新以進行記錄。
+此範本會在「切換」模組中記錄的任何專案狀態變更時擷取專案基線，並在更新流中建立更新以供記錄。
 
-### Workfront — 每週建立基線
+### Workfront — 每週建立基準線
 
-此範本會在每週一早上6點(ET)，針對依產品組合篩選的專案擷取專案基線，並在更新資料流中建立更新以供記錄。
+此範本於每週星期一上午6點在依投資組合篩選的專案上擷取專案基線，並在更新流中建立更新以供記錄。
 
-### 查找策略時間中未使用的項目模板並通知
+### 尋找未在原則時間內使用的專案範本並通知
 
-每月使用您自己的策略審核一次項目模板，該模板易於管理，可在違反您的策略的情況下通知相應的模板用戶。
+您每月一次可使用您自己的原則來檢閱專案範本，這個容易管理的範本會通知違反您原則的適當使用者範本。
 
-## Workfront - Workfront校樣範本
+## Workfront - Workfront校訂範本
 
-這些範本可自動化結合Workfront和Workfront Proof的工作流程。
+這些範本可自動化結合Workfront與Workfront Proof的工作流程。
 
-### Workfront校樣> Workfront — 校樣決策的專案更新
+### Workfront校訂> Workfront — 校訂決定上的專案更新
 
-對直接新增至專案的校樣進行決策時，此自動化會收集關於「校樣決策」的資訊，例如由誰做出決策，然後在對應的Workfront專案中反映此進度作為更新。
+當對直接新增到專案的校訂做出決定時，此自動化會收集關於校訂決定的資訊（例如做出決定的人），然後將這個進度反映在對應Workfront專案作為更新。
 
-### Workfront校樣> Workfront — 對校樣決策進行任務更新和完成（如果已核准）
+### Workfront校訂> Workfront — 在校訂決定中任務更新和完成（如果核准）
 
-如果個別校樣與個別工作系結，此情境會在對校樣做出核准決策時關閉相關的工作。 如果獲得批准，則完成任務並更新項目。
+當個別校樣與個別任務繫結時，此情境會在對校樣做出核准決定時關閉相關任務。 如果核准，它將會完成任務並更新專案。
 
-## HTTP - Workfront範本
+## http - Workfront範本
 
-這些範本會從Web服務擷取資訊，並將該資訊匯入Workfront。
-
->[!NOTE]
->
-> 您必須擁有Workfront Fusion for Work Automation and Integration許可證，才能在本節中使用模板。
-
-### APILayer > Workfront — 每日匯率更新（歐元）
-
-該模板建立一種在設定時間點自動更新匯率的方案。 此情境會從APIlayers.com API提取歐元(EUR)到美元(USD)的比率，並更新Workfront中的比率。
-
-## Workfront — 阿納計畫模板
-
-這些範本支援Workfront-Anaplan整合，且預計在Workfront的兩個Anaplan中都會有特定設定。 如需這些範本及其必要設定的詳細資訊，請參閱個別範本的相關文章。
-
-如需Workfront-Anaplan整合的詳細資訊，請參閱 [Adobe Workfront與阿納普蘭](../../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/anaplan-integration.md).
+這些範本會從Web服務擷取資訊，並將該資訊帶入Workfront。
 
 >[!NOTE]
 >
-> 您必須擁有Workfront Fusion for Work Automation and Integration許可證，才能在本節中使用模板。
+> 您必須擁有Workfront Fusion for Work Automation and Integration授權，才能使用本節中的範本。
 
-### 花費最佳化工作流程
+### APILayer > Workfront — 每日匯率更新(EUR)
 
-* [傳送 [!DNL Adobe Workfront] 專案更新至 [!DNL Anaplan] 清單項目](../../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/send-workfront-project-actual-hours-updates-to-anaplan-list-item.md)
-* [傳送 [!DNL Adobe Workfront] 費用 [!DNL Anaplan] 清單項目](../../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/send-workfront-project-expenses-to-anaplan-list-item.md)
-* [傳送 [!DNL Adobe Workfront] 實際更新小時數 [!DNL Anaplan] 清單項目](../../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/send-workfront-project-actual-hours-updates-to-anaplan-list-item.md)
+此範本會建立自動在設定時間點更新匯率的情境。 此案例會從APIlayers.com API提取歐元(EUR)對美元(USD)的匯率，並更新Workfront中的匯率。
+
+## Workfront-Anaplan範本
+
+這些範本支援Workfront-Anaplan整合，並且預期Workfront中的Anaplan會有特定設定。 如需這些範本及其所需設定的詳細資訊，請參閱各範本的相關文章。
+
+如需Workfront-Anaplan整合的詳細資訊，請參閱 [Adobe Workfront與Anaplan](../../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/anaplan-integration.md).
+
+>[!NOTE]
+>
+> 您必須擁有Workfront Fusion for Work Automation and Integration授權，才能使用本節中的範本。
+
+### 支出最佳化工作流程
+
+* [傳送 [!DNL Adobe Workfront] 專案更新至 [!DNL Anaplan] 清單專案](../../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/send-workfront-project-actual-hours-updates-to-anaplan-list-item.md)
+* [傳送 [!DNL Adobe Workfront] 費用至 [!DNL Anaplan] 清單專案](../../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/send-workfront-project-expenses-to-anaplan-list-item.md)
+* [傳送 [!DNL Adobe Workfront] 實際小時更新至 [!DNL Anaplan] 清單專案](../../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/send-workfront-project-actual-hours-updates-to-anaplan-list-item.md)
 
 ### 連結預算請求的工作流程
 
-* [建立 [!DNL Anaplan] 清單項 [!DNL Adobe Workfront] 預算請求](../../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/create-an-anaplan-list-item-from-a-workfront-budget-request.md)
+* [建立 [!DNL Anaplan] 清單專案來自 [!DNL Adobe Workfront] 預算請求](../../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/create-an-anaplan-list-item-from-a-workfront-budget-request.md)
 * [套用 [!DNL Anaplan] 預算分配至 [!DNL Adobe Workfront] 專案](../../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/apply-anaplan-budget-allocation-to-workfront-projects.md)
 
-### 連結行銷活動要求的工作流程
+### 連結行銷活動請求的工作流程
 
-* [建立 [!DNL Anaplan] 清單項 [!DNL Adobe Workfront] 行銷活動請求](../../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/create-an-anaplan-list-item-from-a-workfront-campaign-request.md)
-* [套用 [!DNL Anaplan] 預算分配至 [!DNL Adobe Workfront] 行銷活動要求或行銷活動專案](../../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/apply-anaplan-budget-allocation-to-workfront-campaign-requests-and-projects.md)
+* [建立 [!DNL Anaplan] 清單專案來自 [!DNL Adobe Workfront] 行銷活動請求](../../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/create-an-anaplan-list-item-from-a-workfront-campaign-request.md)
+* [套用 [!DNL Anaplan] 預算分配至 [!DNL Adobe Workfront] 行銷活動請求或行銷活動專案](../../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/apply-anaplan-budget-allocation-to-workfront-campaign-requests-and-projects.md)
