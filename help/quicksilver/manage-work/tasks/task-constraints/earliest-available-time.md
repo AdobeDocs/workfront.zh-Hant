@@ -2,23 +2,23 @@
 content-type: reference;how-to-procedural
 product-area: projects
 navigation-topic: task-constraints
-title: 「任務約束概述：最早可用時間'
-description: 最早可用時間是任務約束，它將任務安排為在考慮任何前置關係後，從最早可用時間開始。
+title: 「任務限制總覽：最早可用時間」
+description: 「最早可用時間」是「任務限制」，在考慮任何前置任務關係後，將任務排定在最早可用時間開始。
 author: Alina
 feature: Work Management
 exl-id: 9c01e4bd-c6ca-4540-a0f1-ecdd44df84e0
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 18f26f976a47af003817f2f82f8550bdfbc0ab90
 workflow-type: tm+mt
 source-wordcount: '299'
 ht-degree: 0%
 
 ---
 
-# 任務約束概覽：最早可用時間
+# 作業限制概要：最早可用時間
 
-最早可用時間是任務約束，它將任務安排為在考慮任何前置關係後，從最早可用時間開始。
+「最早可用時間」是「任務限制」，在考慮任何前置任務關係後，將任務排定在最早可用時間開始。
 
-有關如何更新任務的任務約束的資訊，請參閱 [更新任務的任務約束](../../../manage-work/tasks/task-constraints/update-task-constraint-of-task.md).
+如需關於如何更新任務的「任務限制」的資訊，請參閱 [更新任務的任務限制](../../../manage-work/tasks/task-constraints/update-task-constraint-of-task.md).
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: replaced with new article linked above) </p>
@@ -52,28 +52,32 @@ ht-degree: 0%
    <li value="5" data-mc-conditions="QuicksilverOrClassic.Draft mode">Click <strong>Save Changes</strong>.</li>
    -->
 
-## 最早可用時間與盡快之間的差異
+## 最早可用時間與儘快可用時間之間的差異
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: [! This section is duplicated in "Earliest Available Time"])</p>
 -->
 
-當存在以下所有條件時，「最早可用時間」約束與「盡快」約束不同：
+當存在以下所有條件時，「最早可用時間」限制與「儘快」限制不同：
 
-* 已排程專案自完成
-* 項目中的任務具有前置關係
-* 前置任務具有靈活的任務約束
+* 專案已排定從完成開始
+* 專案中的任務具有前置任務關係
+* 前置任務具有彈性任務限制
 
-在這種情況下：
+在此情況下：
 
-* **最早可用時間：** 對後繼任務使用最早可用時間約束將優先順序置於前置任務的靈活約束。
+* **最早可用時間：** 對後續任務使用「最早可用時間」限制，會優先處理前置任務的彈性限制。
 
-   **範例：** 任務A是任務B的前身。任務B具有最早可用時間約束，任務A具有盡可能晚的約束。 在此情況下，任務B將排定得盡可能接近項目完成。
+   **範例**
 
-   ![任務的日期接近項目完成日期時的最早可用時間約束](assets/earliest-available-constraint-dates-closer-to-project-completion-350x137.png)
+   任務A是任務B的前置任務。任務B具有最早可用時間限制，而任務A具有儘可能晚的限制。 在此情況下，任務B的排程會儘可能接近專案完成。
 
-* **盡快：** 在此情況下，對後續任務使用盡快約束將優先順序分配給後續任務。
+   ![當任務的日期接近專案完成日期時，最早可用時間限制](assets/earliest-available-constraint-dates-closer-to-project-completion-350x137.png)
 
-   **範例：**  任務A是任務B的前身。任務B具有盡快的約束，任務A具有盡快的約束。 在此情況下，任務B將排程得盡可能接近項目開始。
+* **儘快：** 在此案例中，對後續任務使用「儘快」限制會將優先權給予後續任務。
 
-   ![任務的日期接近項目的「開始日期」時，盡快約束](assets/as-soon-as-possible-dates-closer-to-project-start-350x126.png)
+   **範例**
+
+   任務A是任務B的前置任務。任務B具有「越早越好」限制，而任務A具有「越晚越好」限制。 在此情況下，任務B的排程會儘可能接近專案開始的時間。
+
+   ![「儘快」限制當任務的日期接近專案開始日期時](assets/as-soon-as-possible-dates-closer-to-project-start-350x126.png)
