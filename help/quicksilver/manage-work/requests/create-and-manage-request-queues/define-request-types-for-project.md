@@ -1,27 +1,27 @@
 ---
 product-area: requests;user-management
 navigation-topic: create-and-manage-request-queues
-title: 定義專案的請求類型
-description: 您可以依請求類型來組織登入Adobe Workfront的問題或請求類型。
+title: 定義專案的請求型別
+description: 您可以依「請求型別」組織登入Adobe Workfront的問題或請求型別。
 author: Alina
 feature: Work Management
 exl-id: 627749bb-a8d7-4cc2-9d11-237811f82eb8
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 9b6552fe496a1602786cdc6b6050d02cd367a531
 workflow-type: tm+mt
-source-wordcount: '449'
+source-wordcount: '430'
 ht-degree: 2%
 
 ---
 
-# 定義專案的請求類型
+# 定義專案的請求型別
 
-您可以依請求類型來組織登入Adobe Workfront的問題或請求類型。
+您可以依「請求型別」組織登入Adobe Workfront的問題或請求型別。
 
-此組織有助於回報原因，並協助使用者了解專案生命週期中可能發生的意外工作類型。
+這個組織適合用於製作報表，以及協助使用者瞭解在專案存留期內可能會發生哪些非預期的工作。
 
 ## 存取需求
 
-您必須具備下列存取權，才能執行本文中的步驟：
+您必須具有下列存取權才能執行本文中的步驟：
 
 <table style="table-layout:auto"> 
  <col> 
@@ -32,49 +32,51 @@ ht-degree: 2%
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><a href="https://one.workfront.com/s/document-item?bundleId=the-new-workfront-experience&amp;topicId=Content%2FAdministration_and_Setup%2FAdd_users%2FAccess_levels_and_object_permissions%2Fwf-licenses.html&amp;_LANG=en" target="_blank">Adobe Workfront授權</a>*</td> 
+   <td role="rowheader"><a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md">授權總覽</a>*</td> 
    <td> <p>計劃 </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">訪問級別配置*</td> 
-   <td> <p>編輯專案的存取權</p> <p>注意：如果您仍無權存取，請洽詢您的Workfront管理員，他們是否在您的存取層級設定其他限制。 如需Workfront管理員如何修改您的存取層級的詳細資訊，請參閱 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>.</p> </td> 
-  </tr> 
+   <td role="rowheader">存取層級設定*</td> 
+   <td> <p>編輯專案的存取權</p> <p><b>附註</b>
+
+如果您仍然沒有存取權，請詢問您的Workfront管理員是否對您的存取層級設定了其他限制。 如需有關Workfront管理員如何修改您的存取層級的資訊，請參閱 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>.</p> </td>
+</tr> 
   <tr> 
-   <td role="rowheader">物件權限</td> 
-   <td> <p>管理專案的權限</p> <p>有關請求其他訪問的資訊，請參閱 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">請求對對象的訪問 </a>.</p> </td> 
+   <td role="rowheader">物件許可權</td> 
+   <td> <p>管理專案的許可權</p> <p>如需請求其他存取許可權的詳細資訊，請參閱 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">要求物件的存取權 </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;若要了解您擁有的計畫、授權類型或存取權，請聯絡您的Workfront管理員。
+&#42;若要瞭解您擁有的計畫、授權型別或存取權，請聯絡您的Workfront管理員。
 
 ## 必要條件
 
-開始之前，您必須
+在開始之前，您必須執行下列動作：
 
 * 擁有或建立專案
 
-   如需建立專案的相關資訊，請參閱 [建立專案](../../../manage-work/projects/create-projects/create-project.md).
+  如需關於建立專案的資訊，請參閱 [建立專案](../../../manage-work/projects/create-projects/create-project.md).
 
-## 請求類型的考量事項
+## 請求型別的相關考量事項
 
-* 您可以指定在設定 **隊列詳細資訊** 區域。
-* 您不必讓專案成為請求佇列，就能定義專案的請求類型。 針對專案記錄的任何問題，都可以以不同的「請求類型」加上標籤。
-* 如果您將佇列主題新增至專案，您必須在每個佇列主題上定義「請求類型」，才能在新增問題或請求時顯示。 如需詳細資訊，請參閱 [建立佇列主題](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).
+* 您可以指定在設定時可登入專案的問題或請求型別。 **佇列詳細資訊** 專案區域。
+* 您不需要讓專案成為請求佇列，就能為專案定義請求型別。 為專案記錄的任何問題都可以標示為不同的請求型別。
+* 如果您將佇列主題新增至專案，您必須在每個佇列主題上定義請求型別，以便在新增問題或請求時顯示它。 如需詳細資訊，請參閱 [建立佇列主題](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).
 
-## 定義專案的問題或請求類型
+## 定義專案的問題或請求型別
 
-1. 按一下 **專案** 的下限。 ![](assets/main-menu-icon.png)
+1. 按一下 **專案** 在主要功能表中。 ![](assets/main-menu-icon.png)
 
-1. 按一下專案的名稱以開啟它。
-1. 在左側面板中，按一下 **隊列詳細資訊**.
-1. 在 **隊列屬性** 區段，選取 **請求類型** 你想要這個項目。
+1. 按一下專案名稱以開啟。
+1. 在左側面板中，按一下 **佇列詳細資訊**.
+1. 在 **佇列屬性** 區段，選取 **請求型別** 您想要專案的。
 
    >[!NOTE]
    >
-   >您至少必須選取一個請求類型。 您可以選取多個請求類型。
+   >您必須至少選取一個請求型別。 您可以選取多個請求型別。
 
-   從下列類型中選取：
+   從下列型別中選取：
 
    * 錯誤報告
    * 變更順序
@@ -83,8 +85,8 @@ ht-degree: 2%
 
    >[!TIP]
    >
-   >您的Workfront管理員可能已重新命名其中一些選項。 如需詳細資訊，請參閱 [設定請求類型](../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-request-types.md).
+   >您的Workfront管理員可能已重新命名其中的一些選項。 如需詳細資訊，請參閱 [設定請求型別](../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-request-types.md).
 
 1. 按一下&#x200B;**儲存**。
 
-   您指定的請求類型將可用於選擇何時在任務或項目上輸入新問題，或者在將新請求提交到項目時（如果項目作為請求隊列啟用）。
+   當您在任務或專案中輸入新問題時，或當您向專案提交新請求時（如果專案已啟用為請求佇列），您指定的請求型別將可供選取。

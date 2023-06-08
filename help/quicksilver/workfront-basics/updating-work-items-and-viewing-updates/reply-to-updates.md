@@ -6,7 +6,7 @@ description: 當有人在工作物件上新增或回覆更新時，他們的回�
 author: Lisa and Alina
 feature: Get Started with Workfront
 exl-id: a8271f3c-7a08-4eb3-aaff-deb250f5af73
-source-git-commit: 66e843ea0430a86b89b68f6f469763f5e4a348d7
+source-git-commit: 9b6552fe496a1602786cdc6b6050d02cd367a531
 workflow-type: tm+mt
 source-wordcount: '1164'
 ht-degree: 1%
@@ -29,13 +29,13 @@ ht-degree: 1%
 >
 >* 問題， <span class="preview">專案、任務和檔案</span>.
 >
->  當您啟用註解Beta版體驗時，即可使用此功能。
+>     當您啟用註解Beta版體驗時，即可使用此功能。
 >
->  此功能僅適用於「更新」區段，不適用於以下區域：
+>     此功能僅適用於「更新」區段，不適用於以下區域：
 >
->  * 首頁
->  * 清單中的摘要面板
->  * 時程表中的摘要面板
+>     * 首頁
+>     * 清單中的摘要面板
+>     * 時程表中的摘要面板
 >
 >* 目標
 >
