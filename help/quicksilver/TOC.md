@@ -2,7 +2,7 @@
 user-guide-title: Workfront 指南
 user-guide-description: 使用文件、教學課程和其他資源，了解如何在您的組織中實施並有效使用 Adobe Workfront。
 feature-set: Workfront
-source-git-commit: 0d5f0df35136f3a643b2c7a6cfe1c2377671352f
+source-git-commit: 1536d7425b5c5d3c676ff0c8c6a2a9531690ac3e
 workflow-type: tm+mt
 source-wordcount: '13064'
 ht-degree: 1%
@@ -352,9 +352,9 @@ ht-degree: 1%
          * [移除自訂SMTP作為外寄電子郵件選項](product-announcements/announcements/announcement-archive/remove-custom-smtp.md)
    * 測試版計畫 {#beta}
       * [測試版計畫](product-announcements/betas/betas.md)
-      * 報告畫布測試版 {#reporting-canvas-beta}
-         * [Reporting Canvas Beta概覽](product-announcements/betas/reporting-canvas-beta/reporting-canvas-beta-overview.md)
-         * [報告畫布測試版：發行活動](product-announcements/betas/reporting-canvas-beta/reporting-canvas-release-activity.md)
+      * Canvas控制面板Beta版 {#canvas-dashboards-beta}
+         * [Reporting Canvas Beta概覽](product-announcements/betas/canvas-dashboards-beta/reporting-canvas-beta-overview.md)
+         * [Canvas控制面板Beta版：發行活動](product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-release-activity.md)
       * 新的評論體驗Beta版 {#new-commenting-experience-beta}
          * [新增評論測試版體驗資訊](product-announcements/betas/new-commenting-experience-beta/new-commenting-beta-experience-information.md)
          * [新的評論體驗](product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md)
@@ -1891,7 +1891,7 @@ ht-degree: 1%
    * [刪除「案例規劃工具」中的計畫](scenario-planner/delete-plans.md)
    * [將專案匯入至「案例規劃工具」中的計畫](scenario-planner/import-projects-to-plans.md)
    * [情境規劃工具中的方案概觀](scenario-planner/initiatives-overview.md)
-   * [案例計畫工具中的計畫概要](scenario-planner/plans-overview.md)
+   * [「案例規劃工具」中的計畫概要](scenario-planner/plans-overview.md)
    * [更新「情境規劃工具」中的方案優先順序](scenario-planner/prioritize-initiatives.md)
    * [透過在情境規劃工具中發佈行動方案來更新或建立專案](scenario-planner/publish-scenarios-update-projects.md)
    * [協調專案與方案之間的資源配置概要](scenario-planner/overview-reconcile-allocations-between-projects-initiatives.md)
