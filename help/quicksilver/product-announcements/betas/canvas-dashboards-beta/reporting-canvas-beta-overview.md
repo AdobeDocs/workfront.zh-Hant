@@ -6,8 +6,7 @@ description: 即將推出的Adobe Workfront報告畫布工具的Beta版計畫相
 author: Nolan
 feature: Product Announcements
 hidefromtoc: true
-exl-id: cc0adf28-08ab-4330-b901-219ab687f02f
-source-git-commit: 1536d7425b5c5d3c676ff0c8c6a2a9531690ac3e
+source-git-commit: 2fa10260b54e4ba2e9ab661ac5a4985a91e69191
 workflow-type: tm+mt
 source-wordcount: '1060'
 ht-degree: 1%
