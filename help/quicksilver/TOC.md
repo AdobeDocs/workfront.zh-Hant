@@ -2,9 +2,9 @@
 user-guide-title: Workfront 指南
 user-guide-description: 使用文件、教學課程和其他資源，了解如何在您的組織中實施並有效使用 Adobe Workfront。
 feature-set: Workfront
-source-git-commit: 1536d7425b5c5d3c676ff0c8c6a2a9531690ac3e
+source-git-commit: 593da7a8859ceafa662acd95c27769aa05f6d457
 workflow-type: tm+mt
-source-wordcount: '13064'
+source-wordcount: '13069'
 ht-degree: 1%
 
 ---
@@ -27,6 +27,7 @@ ht-degree: 1%
          * [23.3 2023年5月8日的發行活動週](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-10.md)
          * [23.3 2023年5月15日當週發行活動](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-15.md)
          * [23.3 2023年5月29日當週發行活動](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-29.md)
+         * [23.3 2023年6月5日的發行活動週](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-jun-5.md)
          * [在23.3發行時間範圍內的外觀和感覺更新](product-announcements/product-releases/23.3-release-activity/23-3-look-and-feel-updates.md)
       * 23.2版 {#release-23-2}
          * [23.2版本總覽](product-announcements/product-releases/23.2-release-activity/23-2-release-overview.md)
@@ -57,11 +58,11 @@ ht-degree: 1%
          * [22.3版本總覽](product-announcements/product-releases/22.3-release-activity/22-3-release-overview.md)
          * [22.3管理員增強功能](product-announcements/product-releases/22.3-release-activity/22-3-admin-enhancements.md)
          * [22.3整合增強功能](product-announcements/product-releases/22.3-release-activity/22-3-integration-enhancements.md)
-         * [22.3行動增強功能 ](product-announcements/product-releases/22.3-release-activity/22-3-mobile-enhancements.md)
-         * [22.3其他增強功能 ](product-announcements/product-releases/22.3-release-activity/22-3-other-enhancements.md)
-         * [22.3專案增強功能 ](product-announcements/product-releases/22.3-release-activity/22-3-project-enhancements.md)
-         * [22.3資源管理增強功能 ](product-announcements/product-releases/22.3-release-activity/22-3-resource-management-enhancements.md)
-         * [22.3報表增強功能 ](product-announcements/product-releases/22.3-release-activity/22-3-reporting-enhancements.md)
+         * [22.3行動增強功能](product-announcements/product-releases/22.3-release-activity/22-3-mobile-enhancements.md)
+         * [22.3其他增強功能](product-announcements/product-releases/22.3-release-activity/22-3-other-enhancements.md)
+         * [22.3專案增強功能](product-announcements/product-releases/22.3-release-activity/22-3-project-enhancements.md)
+         * [22.3資源管理增強功能](product-announcements/product-releases/22.3-release-activity/22-3-resource-management-enhancements.md)
+         * [22.3報表增強功能](product-announcements/product-releases/22.3-release-activity/22-3-reporting-enhancements.md)
          * [在22.3版本發行時間範圍內的外觀和感覺更新](product-announcements/product-releases/22.3-release-activity/22-3-look-and-feel-updates.md)
       * 22.2版 {#release-22-2}
          * [22.2版本總覽](product-announcements/product-releases/22.2-release-activity/22-2-release-overview.md)
@@ -1742,7 +1743,7 @@ ht-degree: 1%
          * [校訂角色概觀](review-and-approve-work/proofing/proofing-overview/proof-roles.md)
          * [自動化工作流程總覽](review-and-approve-work/proofing/proofing-overview/automated-workflow.md)
          * [自動化工作流程階段概觀](review-and-approve-work/proofing/proofing-overview/stages.md)
-         * [校訂評論和決定概觀的通知](review-and-approve-work/proofing/proofing-overview/notifications-proof-comments-decisions.md)
+         * [校訂評論和決定概覽的通知](review-and-approve-work/proofing/proofing-overview/notifications-proof-comments-decisions.md)
          * [互動式內容校訂概觀](review-and-approve-work/proofing/proofing-overview/interactive-content-proofs.md)
          * [校樣概觀的檔案重新處理](review-and-approve-work/proofing/proofing-overview/document-reprocessing-for-proofing.md)
          * [支援的校訂檔案型別和大小限制概觀](review-and-approve-work/proofing/proofing-overview/supported-proofing-file-types.md)
@@ -1891,7 +1892,7 @@ ht-degree: 1%
    * [刪除「案例規劃工具」中的計畫](scenario-planner/delete-plans.md)
    * [將專案匯入至「案例規劃工具」中的計畫](scenario-planner/import-projects-to-plans.md)
    * [情境規劃工具中的方案概觀](scenario-planner/initiatives-overview.md)
-   * [「案例規劃工具」中的計畫概要](scenario-planner/plans-overview.md)
+   * [案例計畫工具中的計畫概要](scenario-planner/plans-overview.md)
    * [更新「情境規劃工具」中的方案優先順序](scenario-planner/prioritize-initiatives.md)
    * [透過在情境規劃工具中發佈行動方案來更新或建立專案](scenario-planner/publish-scenarios-update-projects.md)
    * [協調專案與方案之間的資源配置概要](scenario-planner/overview-reconcile-allocations-between-projects-initiatives.md)

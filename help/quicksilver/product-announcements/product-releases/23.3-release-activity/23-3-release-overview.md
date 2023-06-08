@@ -4,9 +4,9 @@ description: 23.3版本總覽
 author: Becky
 feature: Product Announcements
 exl-id: 9bf786e2-e077-4504-b928-9091fcb61ec1
-source-git-commit: 8e12a80b904a13f60c5c946b48cfed325bb07acf
+source-git-commit: e6ccf6f8f46b61e10ad100a1724e0131207319f3
 workflow-type: tm+mt
-source-wordcount: '1405'
+source-wordcount: '1594'
 ht-degree: 0%
 
 ---
@@ -223,6 +223,22 @@ The <add release> release webinar will be held on <date>. You can [register for 
                 </tr>
                 <tr>
                     <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-jun-5.md" class="MCXref xref" xrefformat="{para}">改善透過拖放功能將檔案移動到連結資料夾時的體驗</a><span style="color: #ff0000;"> 預覽中的新增功能！</span></p> 
+                        <p>我們在將檔案拖放至連結資料夾的程式中新增了一些透明度。 現在，您移動至連結資料夾的檔案會保留在檔案清單中，直到完全移動為止。 檔案選項已停用，但您仍然可以在檔案移動時開啟檔案以供檢視。 當檔案完成傳輸後，它會從檔案清單中消失，因為它現在完全位於連結的資料夾中。 </p>
+                    </td>
+                    <td><p><b>在以下日期可用：</b></p>
+                        <ul>
+                            <li>
+                                <p>預覽版本： 2023年6月7日</p>
+                            </li>
+                            <li>
+                                <p><span class="preview">生產版本： 2023年6月15日</span></p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-15.md" class="MCXref xref" xrefformat="{para}">建立專案時自動建立連結資料夾至Adobe Experience Manager資產</a></p>
                         <p>透過Adobe Experience Manager整合的全新建立連結資料夾工作流程，您可以透過Adobe Experience Manager Assets資料夾的路徑設定整合。 將整合新增至專案範本時，從範本建立的任何專案都會在指定資料夾的Experience Manager Assets中自動建立連結的子資料夾。 </p>
                     </td>
@@ -306,7 +322,23 @@ The <add release> release webinar will be held on <date>. You can [register for 
                 </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-29.md" class="MCXref xref" xrefformat="{para}">新檔案核准</a> <span style="color: #ff0000;"> 預覽中的新增功能！</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-jun-5.md" class="MCXref xref" xrefformat="{para}">變更對Microsoft Office校訂的支援</a> </p>
+                        <p>為了維持強大且可擴充的校訂處理解決方案，我們變更了支援的Microsoft Office檔案型別和檔案大小限制。</p>
+                    </td>
+                    <td><p><b>在以下日期可用：</b></p>
+                        <ul>
+                            <li>
+                                <p>預覽版本： 2023年6月8日<br /></p>
+                            </li>
+                            <li>
+                                <p><span class="preview">生產版本： 2023年6月8日</span></p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                 <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-29.md" class="MCXref xref" xrefformat="{para}">新檔案核准</a> </p>
                         <p>檔案核准正在分階段重新設計，每次發行時可供更多使用者使用。</p>
                     </td>
                     <td><p><b>在以下日期可用：</b></p>
@@ -343,7 +375,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
                 </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-29.md" class="MCXref xref" xrefformat="{para}">專案、任務和檔案的新註解測試版體驗</a> <span style="color: #ff0000;"> 預覽中的新增功能！</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-29.md" class="MCXref xref" xrefformat="{para}">專案、任務和檔案的新註解測試版體驗</a> </p>
                         <p>新的註解Beta版體驗現在可用於專案、任務和檔案。 在此更新之前，評論Beta版體驗僅適用於問題和目標。</p>
                     </td>
                     <td><p><b>在以下日期可用：</b></p>
@@ -352,7 +384,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
                                 <p>預覽版本： 2023年6月1日<br /></p>
                             </li>
                             <li>
-                                <p>生產版本：第23.3發行版本</p>
+                                <p>生產版本： 23.3版</p>
                             </li>
                         </ul>
                     </td>
@@ -406,6 +438,25 @@ The <add release> release webinar will be held on <date>. You can [register for 
                         </ul>
                     </td>
                 </tr>
+                 <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-release-activity.md" class="MCXref xref" xrefformat="{para}">新的Canvas Dashboard體驗增強功能</a></p>
+                        <p>畫布控制面板的增強功能將在23.3發行時間範圍內提供。 除非另有指定，否則這些增強功能將在23.3版本的生產環境中提供。 
+ </p>
+                    </td>
+                    <td><p><b>在以下日期可用：</b></p>
+                        <ul>
+                            <li>
+                                <p>預覽版本：在整個23.3版本時間範圍內<br /></p>
+                            </li>
+                            <li>
+                                <p><span class="preview">生產版本：23.3版（除非另有指定）</span></p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+           </tbody>
+        </table>   
            </tbody>
         </table>
 
