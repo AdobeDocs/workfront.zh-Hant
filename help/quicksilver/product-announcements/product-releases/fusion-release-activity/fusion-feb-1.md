@@ -3,26 +3,26 @@ product-previous: workfront-fusion
 content-type: release-notes
 product-area: workfront-integrations
 navigation-topic: fusion-release-activity
-title: '''Workfront Fusion發行活動：《2021年2月1日周》'
-description: 本頁說明2021年2月1日當周在Adobe Workfront Fusion中所做的所有增強功能。
+title: 'Workfront Fusion發行活動： 2021年2月1日當週'
+description: 本頁說明2021年2月1日當週在Adobe Workfront Fusion中所做的所有增強功能。
 author: Luke
 feature: Product Announcements, Workfront Fusion
 exl-id: b9e74780-93e1-4cf4-a429-678e5f871594
 hidefromtoc: true
-source-git-commit: e6995cd57c4210725d49379df5bcd7e93ce4b02a
+source-git-commit: c241fe4ae228432ef3fc7ebfaf7874680e039587
 workflow-type: tm+mt
-source-wordcount: '244'
+source-wordcount: '202'
 ht-degree: 0%
 
 ---
 
-# Workfront Fusion發行活動： 2021年2月1日當周
+# Workfront Fusion發行活動： 2021年2月1日當週
 
-本頁說明2021年2月1日當周在Adobe Workfront Fusion中所做的所有增強功能。
+本頁說明2021年2月1日當週在Adobe Workfront Fusion中所做的所有增強功能。
 
 如需所有最近變更的清單，請參閱 [Adobe Workfront Fusion發行活動](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
 
-如需Workfront Fusion最近錯誤修正的清單，請參閱 [Workfront維護更新](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) 並檢查任何標示為「Workfront Fusion維護更新」的更新。
+如需Workfront Fusion中近期的錯誤修正清單，請參閱 [Workfront維護更新](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) 頁面，並檢查是否有任何標籤為Workfront Fusion維護更新的更新。
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -32,7 +32,7 @@ ht-degree: 0%
 </div>
 -->
 
-## MariaDB連接器和模組現已可用
+## MariaDB聯結器和模組現已推出
 
 您現在可以使用Workfront Fusion連線至您的MariaDB帳戶。
 
@@ -43,25 +43,29 @@ ht-degree: 0%
 
 如需詳細資訊，請參閱 [MariaDB模組](../../../workfront-fusion/apps-and-their-modules/mariadb-modules.md).
 
-## Marketo連接器和模組現已推出
+## Marketo聯結器和模組現已推出
 
-* 現在您可以使用Workfront Fusion連線至您的Marketo帳戶。 使用Marketo連接器，您可以
-* 在建立或更新記錄時觸發案例。
+* 現在您可以使用Workfront Fusion連線至您的Marketo帳戶。 使用Marketo聯結器，您可以
+* 建立或更新記錄時觸發情境。
 * 建立、讀取或更新記錄
 * 上傳或下載檔案
-* 指定類型的清單或搜索記錄
-* 向清單中添加銷售線索或從清單中刪除銷售線索
-* 排程促銷活動
-* 復製程式
+* 列出或搜尋指定型別的記錄
+* 在清單中新增潛在客戶或從中移除潛在客戶
+* 排程行銷活動
+* 複製計畫
 * 進行自訂API呼叫
 
 如需詳細資訊，請參閱 [Marketo模組](../../../workfront-fusion/apps-and-their-modules/marketo-modules.md).
 
-## Intacct連接器和模組現已可用
+<!--
 
-您現在可以使用Workfront Fusion 2.0連線至Intacct帳戶。 使用Intacct模組，您可以：
+## Intacct connector and modules now available
 
-* 根據您指定的條件搜尋資產
-* 執行自訂API呼叫。
+You can now use Workfront Fusion 2.0 to connect to your Intacct account. With the Intacct modules, you can:
 
-如需詳細資訊，請參閱 [Intacct模組](../../../workfront-fusion/apps-and-their-modules/intacct-modules.md).
+* Search assets based on criteria you specify
+* Perform a custom API call.
+
+For more information see [Intacct modules](../../../workfront-fusion/apps-and-their-modules/intacct-modules.md).
+
+-->
