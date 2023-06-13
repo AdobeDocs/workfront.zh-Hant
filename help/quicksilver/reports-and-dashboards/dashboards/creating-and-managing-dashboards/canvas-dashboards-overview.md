@@ -1,51 +1,52 @@
 ---
 product-area: dashboards
 navigation-topic: creating-and-managing-dashboards
-title: 畫布控制面板概觀
-description: 您可以建立畫布控制面板，將「報表畫布」視覺化與傳統報表整合，並提供新的配置選項。
+title: Canvas儀表板概觀
+description: 您可以建立整合報告畫布視覺效果與傳統報告的畫布控制面板，並具備新的版面配置選項。
 author: Nolan
 feature: Reports and Dashboards
-source-git-commit: d738ef3f6642d5b1a646f58896575a2971bbc06a
+exl-id: b02ca181-e3c3-41e9-ab45-b1b606909127
+source-git-commit: 45043c96f2dbacbae7b593727a46a9f52bc7eab2
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '307'
 ht-degree: 0%
 
 ---
 
+# Canvas儀表板概觀
 
-# 畫布控制面板概觀
-
-Canvas Dashboard是控制面板目前正在開發的功能，提供在Workfront中建立有效控制面板的新選項。 「畫布控制面板」可讓您輕鬆將「報表畫布」視覺效果加入現有報表中，提供更高的彈性以及新的版面選項。
+畫布儀表板是目前正在開發中的儀表板功能，提供在Workfront中建立有效儀表板的新選項。 畫布儀表板可讓報告畫布視覺效果輕鬆包含在現有報告中，提供更大的靈活性以及新的版面配置選項。
 
 此功能正在開發中，尚不支援：
-* 圖表報表
 * 外部頁面
-* 日曆整合
+* 行事曆整合
 * 提示報表
-* 通過佈局模板分發
+* 透過版面配置範本發佈
 
-## 存取畫布控制面板
+如需已新增至畫布控制面板的完整功能清單，請參閱 [畫布控制面板：發行活動](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-release-activity.md)
 
-現有控制面板登陸頁面左側面板上的新「畫布控制面板」選項可以啟用，以存取「畫布控制面板」。 此功能表選項預設為關閉，必須開啟才能取得存取權。 如需啟用功能表選項及導覽至該功能表選項的相關資訊，請參閱下列指示。
+## 存取畫布儀表板
 
-### 新增畫布控制面板至控制面板左側面板
+可以在現有儀表板登陸頁面的左側面板上啟用新的「畫布儀表板」選項，以存取「畫布儀表板」。 此功能表選項預設為關閉，必須開啟才能獲得存取權。 如需啟用選單選項及導覽至該選單選項的詳細資訊，請參閱下列指示。
+
+### 將畫布儀表板新增到儀表板左側面板
 
 >[!IMPORTANT]
 >
->您至少必須擁有「報表」和「控制面板」的「檢視」權限，才能在「配置範本」中切換「畫布控制面板」項目。
+>您必須至少具有報表和儀表板的檢視許可權，才能在版面配置範本中切換畫布儀表板專案。
 
-1. 開始使用您要啟用畫布控制面板的版面範本，如 [建立和管理版面範本](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
+1. 開始使用您要啟用「畫布控制面板」的版面配置範本，如所述 [建立和管理版面範本](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
 
-1. 按一下 **自訂使用者看見的項目** 下拉式功能表，然後按一下 **控制面板**.
+1. 按一下 **自訂使用者看到的內容** 下拉式功能表，然後按一下 **儀表板**.
 
-1. 在 **左側面板** 清單，按一下 ![](assets/delete-secondary-nav-item.png) 表徵圖 **畫布控制面板**. 圖示將變更為 ![](assets/add-secondary-nav-item.png) 以顯示它現在顯示在「控制面板」左側面板中。
+1. 在 **左側面板** 清單中，按一下 ![](assets/delete-secondary-nav-item.png) 圖示旁邊 **畫布控制面板**. 圖示將變更為 ![](assets/add-secondary-nav-item.png) 以顯示「控制面板」左側面板中現在可見。
 
-1. 按一下 **儲存** 在螢幕底部。
+1. 按一下 **儲存** 在熒幕底部。
 
-### 開啟畫布控制面板
+### 開啟畫布儀表板
 
-1. 請確定您已在「配置範本」中啟用「畫布控制面板」選項。 請參閱 **將畫布控制面板新增至控制面板功能表** 以取得指示。
+1. 請確定您已啟用版面配置範本中的畫布儀表板選項。 另請參閱 **將畫布儀表板新增到儀表板功能表** 以上說明說明。
 
-1. 按一下「主菜單」表徵圖 ![](assets/main-menu-icon.png)，然後按一下 **控制面板**.
+1. 按一下主要功能表圖示 ![](assets/main-menu-icon.png)，然後按一下 **儀表板**.
 
 1. 在左側面板中，按一下 **畫布控制面板**.
