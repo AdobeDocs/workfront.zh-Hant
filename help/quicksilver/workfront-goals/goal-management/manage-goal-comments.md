@@ -6,9 +6,9 @@ description: 您可以將註解新增至所有可在Adobe Workfront目標中檢�
 author: Alina
 feature: Workfront Goals
 exl-id: 6cf2d2d2-5ba5-40f2-a803-01359c338541
-source-git-commit: f5019325da11e66bf9ab315065ae2b7693660431
+source-git-commit: 7b64e27c441bdbd60884e8be3b2dbbf3b71134b6
 workflow-type: tm+mt
-source-wordcount: '893'
+source-wordcount: '923'
 ht-degree: 0%
 
 ---
@@ -139,6 +139,9 @@ ht-degree: 0%
    >
    >在您完成輸入和提交評論之前離開更新區段時，即使您登出並重新登入，頁面上的評論仍會以草稿模式顯示。 任何新增至註解的影像也會儲存在草稿中。 草稿會儲存7天，之後便會捨棄且無法復原。 草擬的註解僅對輸入註解的使用者可見。
 
+1. （可選）若要復原或重做變更，請使用下列快速鍵：
+   * CTRL + Z (Mac為⌘ + z)可復原變更
+   * 按CTRL + Y (Mac為⌘ + y)以重做變更
 1. （可選）若要新增RTF格式至更新、超連結或影像，請使用RTF工具列上的任何選項或旁邊的圖示。 如需詳細資訊，請參閱 [更新工作](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 1. （選用）在 **標籤人員或團隊** 區域，開始輸入使用者名稱或電子郵件，或您想包含在此評論中的團隊，然後當它顯示在清單中時選取它。
 1. 選取 **我的公司私有** 切換即可讓註解僅對貴公司人員可見。
@@ -170,13 +173,12 @@ ht-degree: 0%
    >
    > * 日期戳記是原始註解的日期，而不是最新更新的日期。
 
-
    1. （可選）按一下 **更多** 功能表 ![](assets/more-icon.png)，然後按一下下列任一選項，將註解中的資訊複製到剪貼簿：
 
       * **複製連結** 複製更新的連結，而不進行回覆。
       * **複製內文** 以複製更新的文字。
 
-         如需詳細資訊，請參閱 [更新工作](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+        如需詳細資訊，請參閱 [更新工作](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
 1. （可選）按一下 **更多** 功能表 ![](assets/more-icon.png) ，然後按一下 **刪除** 以刪除您新增的註解。 如需詳細資訊，請參閱 [更新工作](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 1. （可選）按一下 **回覆** 若要回覆現有註解，請遵循上述步驟5-9。 <!--insure this stays accurate-->

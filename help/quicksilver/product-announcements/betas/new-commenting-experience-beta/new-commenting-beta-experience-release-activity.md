@@ -6,10 +6,10 @@ description: 請檢閱Adobe Workfront的每週發行活動，瞭解新的評論B
 author: Alina
 feature: Product Announcements
 exl-id: 1c0cb547-ac99-4cdf-8a74-2c47ad5a10ad
-source-git-commit: e1411ce49d8668ba50bcb9b80d4a4b47d0dd00fc
+source-git-commit: 7b64e27c441bdbd60884e8be3b2dbbf3b71134b6
 workflow-type: tm+mt
-source-wordcount: '807'
-ht-degree: 6%
+source-wordcount: '871'
+ht-degree: 5%
 
 ---
 
@@ -26,6 +26,24 @@ ht-degree: 6%
 >針對Workfront物件發佈至Beta版體驗的註釋功能，也會發佈至Workfront目標中目標物件的「更新」區段。
 
 以下小節列出原始版本之後新增的功能，從最近發行的功能開始。
+
+## 2023年6月13日起一週
+
+### 改善編輯評論時的體驗
+
+您現在可以在編輯註解時使用下列快速鍵：
+
+* CTRL + Z (Mac為CMD + Z)以復原變更
+
+* 按CTRL + Y (Mac為CMD + Y)以重做變更
+
+在這些增強功能之前，您無法在編輯註解時復原或重做變更。 如需詳細資訊，請參閱 [更新工作](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+
+預覽： 2023年6月13日
+
+生產： 2023年6月13日
+
+<!--I used the date when I found them in Prod. Not sure when these released, but it could have been before this date-->
 
 ## 2023年5月29日起一週
 

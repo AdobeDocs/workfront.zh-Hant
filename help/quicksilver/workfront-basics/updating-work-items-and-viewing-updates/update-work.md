@@ -6,9 +6,9 @@ description: 您可以在Adobe Workfront物件（專案、任務或問題）上�
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: 7c458a41cd5376b746c93e9ed8e4f379a0ed1f4b
+source-git-commit: 7b64e27c441bdbd60884e8be3b2dbbf3b71134b6
 workflow-type: tm+mt
-source-wordcount: '3181'
+source-wordcount: '3211'
 ht-degree: 1%
 
 ---
@@ -27,22 +27,20 @@ ht-degree: 1%
 >
 >您可以存取下列物件的新體驗：
 > * 問題， <span class="preview">專案、任務和檔案</span>.
-   >
-   >     當您啟用註解Beta版體驗時，即可使用此功能。
-   >
-   >     此功能僅適用於「更新」區段，不適用於以下區域：
-   >
-   >     * 首頁
-   >     * 清單中的摘要面板
-   >     * 時程表中的摘要面板
+>
+>     當您啟用註解Beta版體驗時，即可使用此功能。
+>
+>     此功能僅適用於「更新」區段，不適用於以下區域：
+>
+>     * 首頁
+>     * 清單中的摘要面板
+>     * 時程表中的摘要面板
 >
 > * 目標
-
-   >
-   >   新的註解體驗是目標的預設值。 您必須有其他授權才能存取Workfront目標。 如需詳細資訊，請參閱 [使用Workfront目標的需求](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
-   >
-   >    如需有關對目標發表註解的資訊，請參閱 [在Adobe Workfront目標中管理目標註解](../../workfront-goals/goal-management/manage-goal-comments.md).
-
+>
+>   新的註解體驗是目標的預設值。 您必須有其他授權才能存取Workfront目標。 如需詳細資訊，請參閱 [使用Workfront目標的需求](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+>
+>    如需有關對目標發表註解的資訊，請參閱 [在Adobe Workfront目標中管理目標註解](../../workfront-goals/goal-management/manage-goal-comments.md).
 
 您可以在「更新」區段中對Adobe Workfront中的大多數物件新增註解。 如需有關哪些物件會顯示「更新」區段的詳細資訊，請參閱 [更新區段概觀](../updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
@@ -201,6 +199,9 @@ drafted for P&P release:
    >
    >在您完成輸入和提交評論之前離開更新區段時，即使您登出並重新登入，頁面上的評論仍會以草稿模式顯示。 任何新增至註解的影像也會儲存在草稿中。 草稿會儲存7天，之後便會捨棄且無法復原。 草擬的註解僅對輸入註解的使用者可見。
 
+1. （可選）若要復原或重做變更，請使用下列快速鍵：
+   * CTRL + Z (Mac為⌘ + z)可復原變更
+   * 按CTRL + Y (Mac為⌘ + y)以重做變更
 1. （選用）在 **標籤人員或團隊** 區域，開始輸入使用者名稱或電子郵件，或您想包含在此評論中的團隊，然後當它顯示在清單中時選取它。
 1. （可選）若要新增RTF格式至您的更新，請使用 **RTF文字** 工具列來增強您的文字：
 
@@ -235,7 +236,6 @@ drafted for P&P release:
    >
    >* 系統會產生電子郵件，僅當您提交原始更新時，才會通知使用者您的更新。 編輯更新後不會產生電子郵件。
    >* 評論旁的日期戳記是原始評論的日期，而不是上次編輯的日期。
-
 
 1. （可選）按一下 **回覆** 若要回覆現有註解，請遵循上述步驟4至7。 <!--(**************insure this stays accurate***********)-->. 如需有關回覆更新的資訊，請參閱 [回覆更新](../../workfront-basics/updating-work-items-and-viewing-updates/reply-to-updates.md).
 1. （有條件和選擇性）如果其他使用者新增了在「更新」區段的可見區域外顯示的註解，請按一下 **檢視** 藍色內部 **新評論橫幅** 在熒幕底部顯示這些註解。
@@ -296,7 +296,6 @@ drafted for P&P release:
    >* 如果您的組織使用Workfront搭配Internet Explorer，則貼到更新中的任何格式化文字都會遺失RTF格式，並顯示為純文字。 您可以使用RTF工具列上的屬性來重新格式化文字。
    >* RTF格式不適用於「時程表」區域中所做的更新，或報表中檢視的「附註」和「最後條件」物件。
 
-
 1. （選擇性）如果您想要包含先前更新或其他來源的文字，並將其與您自己的更新區分開來，您可以將其標示為「區塊報價」。 按一下 **封鎖報價** 圖示 ![](assets/block-quote-small.png) 並輸入您要引述的文字。 引號文字會顯示以垂直灰色線標示。 按一下 **封鎖報價** 圖示以恢復正常格式。
 
    ![](assets/block-quote-marked-350x144.png)
@@ -311,7 +310,6 @@ drafted for P&P release:
    >* 不支援的emoji會以黑白方塊表示。
    >* Windows 7僅支援黑白表情符號。
    >* 在「更新」區域中檢視時，套用至透過電子郵件進行的更新的Emoji不會顯示在更新上。
-
 
 1. （選用）若要新增其他資訊來源的URL連結：
 
@@ -338,11 +336,10 @@ drafted for P&P release:
    >* 影像可從物件的「更新」區段中存取，也可以在「檔案」區域中存取。
    >* 您可以傳送包含影像但不含文字的更新。
    >* 當您刪除包含影像的註解時，根據您選擇的體驗，會出現以下情況：
-      >
-      >     * 在目前的註解體驗中，影像仍會保留在檔案區域中，但在更新區段中不再顯示。
-      >     * 在新註解體驗中，影像會從「更新」區段及「檔案」區域移除。 當您編輯註解並刪除影像時，該影像也會從「檔案」區域刪除。
+   >
+   >     * 在目前的註解體驗中，影像仍會保留在檔案區域中，但在更新區段中不再顯示。
+   >     * 在新註解體驗中，影像會從「更新」區段及「檔案」區域移除。 當您編輯註解並刪除影像時，該影像也會從「檔案」區域刪除。
    >* 當有人從「檔案」區域刪除附加至註解的影像時，該影像也會從註解中移除。
-
 
 1. 按一下 **更新**  或 **提交**，當使用評論Beta版體驗時。
 
@@ -449,11 +446,11 @@ Workfront物件的「更新」區段會顯示兩種資訊：
 
 * **使用者更新：** 使用者更新是您和您系統中的其他使用者輸入的評論。
 
-   ![](assets/user-update-cl-350x277.png)
+  ![](assets/user-update-cl-350x277.png)
 
 * **系統更新：** 系統更新記錄移除資產、新增或刪除版本、附加或移除核准請求，以及對物件上的檔案所做的任何編輯或變更。
 
-   ![](assets/system-updates-cl-350x277.png)
+  ![](assets/system-updates-cl-350x277.png)
 
 根據您的Workfront授權，系統更新可能會依預設啟用。 Workfront管理員可決定系統更新中會追蹤哪些專案，如中所述 [系統追蹤更新](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md). 您也可以篩選掉系統更新或活動，以便只看到所有物件的使用者更新。
 
