@@ -6,7 +6,7 @@ description: 在Adobe Workfront物件上提供更新註解時，專案上的所�
 author: Alina
 feature: Get Started with Workfront
 exl-id: c4c0d74f-ac50-4fc5-89d6-28f004c25b29
-source-git-commit: 7c458a41cd5376b746c93e9ed8e4f379a0ed1f4b
+source-git-commit: e6377e0198349cd514e444cbdd0bf1fc4c32d15b
 workflow-type: tm+mt
 source-wordcount: '1441'
 ht-degree: 0%
@@ -28,21 +28,20 @@ ht-degree: 0%
 >
 >您可以存取下列物件的新體驗：
 > * 問題， <span class="preview">專案、任務和檔案</span>.
-   >
-   >     當您啟用註解Beta版體驗時，即可使用此功能。
-   >     此功能僅適用於「更新」區段，不適用於以下區域：
-   >
-   >     * 首頁
-   >     * 清單中的摘要面板
-   >     * 時程表中的摘要面板
 >
-> * 目標
-
-   >
-   >   新的註解體驗是目標的預設值。 您必須有其他授權才能存取Workfront目標。 如需詳細資訊，請參閱 [使用Workfront目標的需求](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
-   >
-   >    如需有關對目標發表註解的資訊，請參閱 [在Adobe Workfront目標中管理目標註解](../../workfront-goals/goal-management/manage-goal-comments.md).
-
+>     當您啟用註解Beta版體驗時，即可使用此功能。
+>
+>     此功能僅適用於「更新」區段，不適用於以下區域：
+>
+>     * 首頁
+>     * 清單中的摘要面板
+>     * 時程表中的摘要面板
+>
+> * 目標<!--, <span class="preview">Cards in the Boards area</span>-->
+>
+>   新的註解體驗是目標的預設值 <!--<span class="preview">and cards</span>-->. 您必須有其他授權才能存取Workfront目標。 如需詳細資訊，請參閱 [使用Workfront目標的需求](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+>
+>    如需有關對目標發表註解的資訊，請參閱 [在Adobe Workfront目標中管理目標註解](../../workfront-goals/goal-management/manage-goal-comments.md).
 
 
 如果您想要吸引使用者注意他們可能未關注的物件，則可以在更新物件時標籤使用者。
@@ -51,6 +50,7 @@ ht-degree: 0%
 >[!NOTE]
 >
 >使用者必須在他們的設定檔中啟用個人通知，以便他們接收電子郵件通知。 如需詳細資訊，請參閱 [啟用或停用您自己的事件通知](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+>
 
 如需新增更新至Workfront物件的詳細資訊，請參閱 [更新工作](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
@@ -155,7 +155,6 @@ ht-degree: 0%
    >
    >* 此選項僅在使用者與公司相關聯時顯示。
    >* 公司外部的標籤使用者仍可收到應用程式內通知或電子郵件，即使他們看不到更新索引標籤上的私人評論。 如果您不想與外部使用者共用資訊，建議不要在更新時標籤外部使用者。
-
 
 1. （可選）若要新增多個使用者和團隊，請重複步驟2。 <!--insure this stays accurate-->
 

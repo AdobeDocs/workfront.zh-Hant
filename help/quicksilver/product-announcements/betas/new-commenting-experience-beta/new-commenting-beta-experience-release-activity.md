@@ -6,9 +6,9 @@ description: 請檢閱Adobe Workfront的每週發行活動，瞭解新的評論B
 author: Alina
 feature: Product Announcements
 exl-id: 1c0cb547-ac99-4cdf-8a74-2c47ad5a10ad
-source-git-commit: 7b64e27c441bdbd60884e8be3b2dbbf3b71134b6
+source-git-commit: e6377e0198349cd514e444cbdd0bf1fc4c32d15b
 workflow-type: tm+mt
-source-wordcount: '871'
+source-wordcount: '953'
 ht-degree: 5%
 
 ---
@@ -27,7 +27,27 @@ ht-degree: 5%
 
 以下小節列出原始版本之後新增的功能，從最近發行的功能開始。
 
-## 2023年6月13日起一週
+## 2023年6月12日起一週
+
+### 面板區域中卡片的新註解Beta版體驗
+
+新的註解Beta版體驗現在可用於展示板區域中的卡片。 如需詳細資訊，請參閱 [23.3版本總覽](../../product-releases/23.3-release-activity/23-3-release-overview.md).
+
+預覽： 2023年6月15日
+
+提前選擇加入的生產版本： 2023年6月22日
+
+適用於所有客戶的生產：透過23.3版
+
+### 將區塊引號新增至註解
+
+您現在可以使用新註解測試版體驗中的RTF工具列選項，將區塊引號新增到註解中。
+
+如需詳細資訊，請參閱 [更新工作](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+
+預覽： 2023年6月14日
+
+生產： 2023年6月15日
 
 ### 改善編輯評論時的體驗
 

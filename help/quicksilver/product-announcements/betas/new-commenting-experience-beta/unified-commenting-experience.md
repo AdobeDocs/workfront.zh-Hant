@@ -6,9 +6,9 @@ description: 目前正在開發Adobe Workfront中評論體驗的更新。 此更
 author: Alina
 feature: Product Announcements
 exl-id: f750b35b-8021-4cc1-81d6-e1ece2530438
-source-git-commit: 86e0ad3eced94a1165a5f6beded53b4cdf32c768
+source-git-commit: e6377e0198349cd514e444cbdd0bf1fc4c32d15b
 workflow-type: tm+mt
-source-wordcount: '610'
+source-wordcount: '612'
 ht-degree: 1%
 
 ---
@@ -102,7 +102,22 @@ ht-degree: 1%
   </tr>
   <tr>
  <tr>
-   <td>RTF文字（引號與表情符號）
+   <td>RTF文字（區塊引號）
+   </td>
+   <td>✓ 
+   </td>
+   <td> ✓
+   </td>
+   <td> 
+   </td>
+   <td> 2023年第2季
+   </td>
+   <td> 
+   </td>
+  </tr>
+  <tr>
+<tr>
+   <td> 報價註解
    </td>
    <td>✓ 
    </td>
@@ -116,8 +131,7 @@ ht-degree: 1%
    </td>
   </tr>
   <tr>
-
-<td>對評論做出反應（類似） 
+   <td>對評論做出反應（類似） 
    </td>
    <td>✓ 
    </td>
@@ -410,17 +424,19 @@ ht-degree: 1%
 * 在更新區段中啟用Beta版體驗時：
 
    * 問題， <span class="preview">專案、任務和檔案</span>
-   如需管理Workfront物件更新的詳細資訊，請參閱 [更新工作](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+
+  如需管理Workfront物件更新的詳細資訊，請參閱 [更新工作](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
 
 * 依預設，作為主要註解體驗：
 
    * 目標
-   >[!NOTE]
-   >
-   >您必須額外取得Adobe Workfront目標授權才能存取Workfront的這個區域。 如需詳細資訊，請參閱 [使用Workfront目標的需求](../../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
 
-   如需有關管理目標更新的詳細資訊，請參閱 [在Adobe Workfront目標中管理目標註解](../../../workfront-goals/goal-management/manage-goal-comments.md).
+  >[!NOTE]
+  >
+  >您必須額外取得Adobe Workfront目標授權才能存取Workfront的這個區域。 如需詳細資訊，請參閱 [使用Workfront目標的需求](../../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+
+  如需有關管理目標更新的詳細資訊，請參閱 [在Adobe Workfront目標中管理目標註解](../../../workfront-goals/goal-management/manage-goal-comments.md).
 
 
 若要啟用新的評論體驗Beta版：
