@@ -7,7 +7,7 @@ description: 物件的「更新」區段會顯示使用者對物件所做的註�
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: 7c458a41cd5376b746c93e9ed8e4f379a0ed1f4b
+source-git-commit: 2544bbedfeae731d4cde2ce75d7e09b96c54e32a
 workflow-type: tm+mt
 source-wordcount: '968'
 ht-degree: 4%
@@ -28,22 +28,20 @@ ht-degree: 4%
 >
 >您可以存取下列物件的新體驗：
 > * 問題， <span class="preview">專案、任務和檔案</span>.
-   >
-   >     當您啟用註解Beta版體驗時，即可使用此功能。
-   >
-   >     此功能僅適用於「更新」區段，不適用於以下區域：
-   >
-   >     * 首頁
-   >     * 清單中的摘要面板
-   >     * 時程表中的摘要面板
 >
-> * 目標
-
-   >
-   >   新的註解體驗是目標的預設值。 您必須有其他授權才能存取Workfront目標。 如需詳細資訊，請參閱 [使用Workfront目標的需求](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
-   >
-   >    如需有關對目標發表註解的資訊，請參閱 [在Adobe Workfront目標中管理目標註解](../../workfront-goals/goal-management/manage-goal-comments.md).
-
+>     當您啟用註解Beta版體驗時，即可使用此功能。
+>
+>     此功能僅適用於「更新」區段，不適用於以下區域：
+>
+>     * 首頁
+>     * 清單中的摘要面板
+>     * 時程表中的摘要面板
+>
+> * 目標<!--, <span class="preview">Cards in the Boards area</span>-->
+>
+>   新的註解體驗是目標的預設值 <!--<span class="preview">and cards</span>-->. 您必須有其他授權才能存取Workfront目標。 如需詳細資訊，請參閱 [使用Workfront目標的需求](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+>
+>    如需有關對目標發表註解的資訊，請參閱 [在Adobe Workfront目標中管理目標註解](../../workfront-goals/goal-management/manage-goal-comments.md).
 
 物件的「更新」區段會顯示使用者對物件所做的註解，或是追蹤物件變更的系統更新。
 
@@ -124,6 +122,13 @@ ht-degree: 4%
   </tr> 
  </tbody> 
 </table>
+
+<!--for 23.3 preview - June 15: 
+Add this to the table for 23.3 preview - under Goals:
+
+<li><span class="preview">Cards in the Boards area</span></li>
+This is the default experience for goals <span class="preview">and cards</span>. 
+-->
 
 ## 也會出現在較高層級物件上的更新
 
