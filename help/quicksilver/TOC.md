@@ -2,7 +2,7 @@
 user-guide-title: Workfront 指南
 user-guide-description: 使用文件、教學課程和其他資源，了解如何在您的組織中實施並有效使用 Adobe Workfront。
 feature-set: Workfront
-source-git-commit: 80d3424e3adcabbe8222e74bd37eeb7304c3e734
+source-git-commit: a392ea004c8ab4a2d52bbdb650e21a2f182b8202
 workflow-type: tm+mt
 source-wordcount: '13078'
 ht-degree: 1%
@@ -1727,9 +1727,9 @@ ht-degree: 1%
       * [撤回已提交的核准](review-and-approve-work/manage-approvals/recall-submitted-approvals.md)
    * 檔案檢閱和核准 {#document-reviews-and-approvals}
       * [檔案檢閱和核准](review-and-approve-work/document-reviews-and-approvals/document-reviews-and-approvals.md)
+      * [檔案核准總覽](review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md)
       * 管理檔案核准 {#manage-document-approvals}
          * [管理檔案核准](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/manage-document-approvals.md)
-         * [檔案核准總覽](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/document-approvals-overview.md)
          * [建立檔案核准](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)
          * [新增其他檢閱者或核准者至檔案](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/add-additional-reviewers-or-approvers.md)
          * [從檔案中移除核准者或稽核者](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/remove-approvers-or-reviewers.md)

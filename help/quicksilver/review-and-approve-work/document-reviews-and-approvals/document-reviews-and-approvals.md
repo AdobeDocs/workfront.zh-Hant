@@ -6,9 +6,9 @@ title: 檔案檢閱和核准
 description: 本節包含有關Adobe Workfront中檔案核准的文章。
 author: Nolan
 feature: Work Management
-source-git-commit: 4593b63cbe6b2dc3ebffc57769f69bd7d31037a3
+source-git-commit: c36dda4894f04bc06d8d63455445484b3f3eeb7a
 workflow-type: tm+mt
-source-wordcount: '62'
+source-wordcount: '65'
 ht-degree: 0%
 
 ---
@@ -21,5 +21,6 @@ ht-degree: 0%
 
 本節包含下列章節：
 
+* [檔案核准總覽](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md)
 * [管理檔案核准](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/manage-document-approvals.md)
 * [檢閱和核准檔案](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-and-approve-documents.md)
