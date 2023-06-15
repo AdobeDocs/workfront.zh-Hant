@@ -1,29 +1,31 @@
 ---
 product-area: agile-and-teams
 navigation-topic: get-started-with-boards
-title: 新增臨機卡至展示板
-description: 您可以快速將臨機卡新增至展示板，並指派給展示板上的成員。 此卡片可代表任務、問題、人員、群組，或您要加入展示板的任何類型的項目。
+title: 新增臨機卡到展示板
+description: 您可以快速將臨機操作卡新增至展示板，並將其指派給展示板上的成員。 此卡片可代表任務、問題、人員、群組，或您要加入展示板的任何型別的專案。
 author: Lisa
 feature: Agile
 exl-id: 9bc1f92a-85b0-44fd-b5de-09a69af6def5
-source-git-commit: 7d671fe66c6a23efad2e8f8f0fa3d2b7b1afcc86
+source-git-commit: 80e0a053f39991d3ed8d9bd2a11a8da2d5de588e
 workflow-type: tm+mt
-source-wordcount: '741'
+source-wordcount: '902'
 ht-degree: 0%
 
 ---
 
-# 新增臨機卡至展示板
+# 新增臨機卡到展示板
 
-您可以快速將資訊卡新增至展示板，並指派給展示板上的成員。 此卡片可代表任務、問題、人員、群組，或您要加入展示板的任何類型的項目。
+{{highlighted-preview}}
+
+您可以快速將卡片新增到展示板，並將其指派給展示板上的成員。 此卡片可代表任務、問題、人員、群組，或您要加入展示板的任何型別的專案。
 
 >[!NOTE]
 >
->展示板上的臨機卡未連接到 [!DNL Adobe Workfront]. 有關已連接卡的詳細資訊，請參閱 [在主板上使用連接的卡](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
+>展示板上的臨機操作卡未連線到中的工作專案 [!DNL Adobe Workfront]. 如需有關已連線卡片的詳細資訊，請參閱 [在展示板上使用連線的卡片](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
 
 ## 存取需求
 
-您必須具備下列存取權，才能執行本文中的步驟：
+您必須具有下列存取權才能執行本文中的步驟：
 
 <table style="table-layout:auto"> 
  <col> 
@@ -37,97 +39,111 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] 授權*</strong></td> 
-   <td> <p>[!UICONTROL Request]或更高版本</p> </td> 
+   <td> <p>[！UICONTROL Request]或更高版本</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;若要了解您擁有的計畫、授權類型或存取權，請聯絡您的 [!DNL Workfront] 管理員。
+&#42;若要瞭解您擁有哪些計畫、授權型別或存取權，請聯絡您的 [!DNL Workfront] 管理員。
 
-## 新增具有完整詳細資料的臨機卡
+## 新增包含完整詳細資訊的臨時卡
 
-臨機卡未連接到 [!DNL Adobe Workfront].
+臨機操作卡未連線到中的工作專案 [!DNL Adobe Workfront].
 
-1. 按一下 **[!UICONTROL 主菜單]** 圖示 ![](assets/main-menu-icon.png) 在 [!DNL Adobe] Workfront，然後按一下 **[!UICONTROL 展示板]**.
+1. 按一下 **[!UICONTROL 主要功能表]** 圖示 ![](assets/main-menu-icon.png) 右上角的 [!DNL Adobe] Workfront，然後按一下 **[!UICONTROL 展示板]**.
 1. 存取展示板。 如需詳細資訊，請參閱 [建立或編輯展示板](../../agile/get-started-with-boards/create-edit-board.md).
 1. 按一下 **[!UICONTROL 新增卡片] > [!UICONTROL 新卡片]**.
-1. 在 **[!UICONTROL 卡片詳細資訊]** 框中，添加以下資訊：
+1. 在 **[!UICONTROL 卡片詳細資料]** 方塊中，新增下列資訊：
 
    <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader"><strong>[!UICONTROL名稱]</strong> </td> 
-      <td>卡片的名稱。</td> 
+      <td role="rowheader"><strong>[！UICONTROL名稱]</strong> </td> 
+      <td>卡片名稱。</td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>[!UICONTROL描述]</strong> </td> 
-      <td>卡片的說明。 您可以在說明中新增URL，這些URL在儲存資訊卡時將變成可點按的連結。</td>
-     </tr> 
-     <tr> 
-      <td role="rowheader"><strong>[!UICONTROL受分配者]</strong> </td> 
-      <td> <p>若要指派資訊卡，請開始在搜尋欄位中輸入名稱，然後在資訊卡顯示於清單時加以選取。 您可以新增個人和團隊，並且可以指派多個人員或團隊至資訊卡。</p> <p>受分配者必須是板上的成員，否則他們不會出現在選擇清單中。 當團隊是展示板上的成員時，可將個別團隊成員指派給資訊卡。</p></td>
-     </tr> 
-     <tr> 
-      <td role="rowheader"><strong>[!UICONTROL列]</strong> </td> 
-      <td>選取卡片的欄。 如果您離開 <strong>[!UICONTROL列]</strong> 欄位空白時，卡片會放置在展示板左側的第一欄中。</td>
+      <td role="rowheader"><strong>[！UICONTROL說明]</strong> </td> 
+      <td>卡片的說明。 您可以在說明中新增URL，這些URL在儲存卡片時就會變成可點按連結。</td>
      </tr>
      <tr> 
-      <td role="rowheader"><strong>[!UICONTROL狀態]</strong> </td> 
-      <td>選取卡片的狀態。 如果您按一下 <strong>[!UICONTROL標籤完成]</strong> 在卡片頂端，狀態會自動變更為[!UICONTROL完成]。</td> 
+      <td role="rowheader"><strong>[！UICONTROL欄]</strong> </td> 
+      <td>選取卡片的欄。 如果您離開 <strong>[！UICONTROL欄]</strong> 欄位空白，卡片會放置在展示板左邊的第一欄。</td>
      </tr>
      <tr> 
-      <td role="rowheader"><strong>[!UICONTROL估計]</strong></td> 
-      <td>鍵入卡完成的預計小時數。 這只是手動輸入。</td>
+      <td role="rowheader"><strong>[！UICONTROL狀態]</strong> </td> 
+      <td>選取卡片的狀態。 如果您按一下 <strong>[！UICONTROL標籤完成]</strong> 卡片頂端的狀態會自動變更為[！UICONTROL完成]。</td> 
      </tr>
      <tr> 
-      <td role="rowheader"><strong>[!UICONTROL到期日]</strong></td> 
-      <td>選擇卡的到期日。 </td>
+      <td role="rowheader"><strong>[！UICONTROL到期日]</strong></td> 
+      <td>選取卡片的到期日。 </td>
      </tr>
      <tr> 
-      <td role="rowheader"><strong>[!UICONTROL標籤]</strong></td> 
+      <td role="rowheader"><strong>[！UICONTROL估計]</strong></td> 
+      <td>輸入卡片預計完成的小時數。 這僅是手動輸入。</td>
+     </tr>
+     <tr> 
+      <td role="rowheader"><strong>[！UICONTROL受託人]</strong> </td> 
+      <td> <p>若要指派卡片，請在搜尋欄位中開始輸入名稱，然後在其顯示在清單中時選取它。 您可以同時新增個人和團隊，也可以將多個人員或團隊指派給卡片。</p> <p>受指派人必須是展示板上的成員，否則他們不會出現在選取專案清單中。 當團隊是展示板上的成員時，可以將個別團隊成員指派給卡片。</p></td>
+     </tr>     
+     <tr> 
+      <td role="rowheader"><strong>[！UICONTROL標籤]</strong></td> 
       <td>搜尋並選取卡片的標籤。 如需建立新標籤的詳細資訊，請參閱 <a href="../../agile/get-started-with-boards/add-tags.md" class="MCXref xref">新增標籤</a>.</td> 
-     </tr>  
+     </tr>
+     <tr>
+      <td role="rowheader"><strong>[！UICONTROL連線]</strong> </td>
+      <td>您可以將臨機操作卡連線到 [!DNL Workfront] 任務或問題。 如需詳細資訊，請參閱文章中的「將Ad Hoc卡片轉換為已連線的卡片」 <a href="/help/quicksilver/agile/get-started-with-boards/connected-cards.md">在展示板上使用連線的卡片</a>.</td>
+     </tr>
      <tr> 
-      <td role="rowheader"><strong>[!UICONTROL檢查清單項]</strong> </td> 
-      <td> <p>按一下 <strong>[!UICONTROL添加檢查清單項]</strong>. 然後，鍵入項目的標題，然後按Enter鍵。 系統會自動新增另一個項目。 繼續輸入標題以添加更多項。</p> <p>核對清單頂端的計數器會顯示已完成項目的數量和項目總數。</p> <p>如需檢查清單項目的詳細資訊，請參閱 <a href="/help/quicksilver/agile/get-started-with-boards/manage-checklist-items.md">管理卡上的檢查清單項目</a>.</p> </td> 
-     </tr> 
+      <td role="rowheader"><strong>[！UICONTROL檢查清單]</strong> </td> 
+      <td> <p>按一下 <strong>[！UICONTROL新增檢查清單專案]</strong>. 然後，輸入專案的標題並按Enter。 系統會自動新增另一個專案。 繼續輸入標題以新增更多專案。</p> <p>檢查清單頂端的計數器會顯示完成的專案數和專案總數。</p> <p>如需檢查清單專案的詳細資訊，請參閱 <a href="/help/quicksilver/agile/get-started-with-boards/manage-checklist-items.md">管理卡片上的檢查清單專案</a>.</p> </td> 
+     </tr>
+     <tr>
+      <td role="rowheader"><span class="preview"><strong>[！UICONTROL註解]</strong></span> </td>
+      <td><span class="preview"><p>按一下 <strong>[！UICONTROL新註解]</strong> 欄位並輸入您的註解。 使用格式化工具來格式化文字，然後按一下 <strong>新增附件</strong> 圖示 <img src="assets/attachment-icon.png" alt="附件圖示"> 將檔案附加至註解。 若要標籤人員或團隊，請使用註釋區域底部的搜尋方塊。 使用者不必是展示板的成員。</p><p><strong>注意：</strong> 目前，在臨時資訊卡上標籤為評論的使用者不會收到電子郵件通知。
+      </p><p>按一下 <strong>[！UICONTROL提交]</strong> 將註解新增至卡片。</p>
+      <p><strong>注意：</strong> 卡片上的註解區域會使用新的Adobe Workfront註解體驗。 如需詳細資訊，請參閱 <a href="/help/quicksilver/product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md">新的評論體驗</a>.</p></span></td>
+     </tr>
     </tbody> 
    </table>
 
-   ![臨機卡詳細資訊](assets/boards-edit-ad-hoc-card-041723.png)
+   生產環境中的影像範例：
+   ![臨機卡片詳細資料](assets/boards-edit-ad-hoc-card-041723.png)
 
-   使用左側的導覽面板，在卡片詳細資料上的欄位群組之間移動。
+   <span class="preview">「預覽」環境中的範例影像：</span>
+   ![臨機卡片詳細資料](assets/ad-hoc-card-details-with-comments.png)
 
-1. 按一下 **[!UICONTROL 關閉]** 將資訊卡新增至展示板。
+   使用左側導覽面板在卡片詳細資訊的欄位區段之間移動。
 
-   卡片上會顯示受分配者、標籤、到期日、檢查清單計數器、預計小時數和狀態。
+1. 按一下 **[!UICONTROL 關閉]** 以將卡片新增至展示板。
 
-## 快速新增臨機卡
+   被指定者、標籤、到期日、檢查清單計數器、預估時數和狀態都會顯示在卡片上。
 
-您可以新增只有標題的臨機資訊卡，以快速填入展示板。
+## 快速新增臨機操作卡
 
-1. 存取您要新增資訊卡的展示板。
-1. 按一下 **[!UICONTROL 新增]** 圖示 ![新增卡片](assets/addicon-spectrum.png) 在要新增資訊卡的欄上。
-1. 鍵入卡名並按Enter鍵。
+您可以新增只有標題的臨時資訊卡，以快速填入您的展示板。
 
-   新卡的下方會自動新增另一張卡。
+1. 存取您要新增卡片的主機板。
+1. 按一下 **[!UICONTROL 新增]** 圖示 ![新增卡片](assets/addicon-spectrum.png) 在您要新增卡片的欄上。
+1. 輸入卡片名稱，然後按Enter。
+
+   另一張卡片會自動新增到新卡片下方。
 
 1. 繼續輸入卡片名稱以新增更多卡片。
-1. 若要停止新增資訊卡，請按一下欄外部。
-1. 若要新增更多詳細資訊，您必須編輯資訊卡。 如需詳細資訊，請參閱 [編輯現有的資訊卡](#edit-an-existing-card) 這篇文章。
+1. 若要停止新增卡片，請按一下欄外部。
+1. 若要新增更多詳細資料，您必須編輯卡片。 如需詳細資訊，請參閱 [編輯現有卡片](#edit-an-existing-card) 本文章內容。
 
-## 編輯現有的資訊卡 {#edit-an-existing-card}
+## 編輯現有卡片 {#edit-an-existing-card}
 
-1. 進入展示板。
+1. 存取展示板。
 1. 按一下卡片名稱以編輯名稱。
-1. 若要編輯卡片詳細資訊，請按一下卡片（而非卡片名稱中）。
+1. 若要編輯卡片詳細資訊，請按一下卡片（不在卡片名稱中）。
 
    或
 
-   按一下 **[!UICONTROL 更多]** 功能表 ![[!UICONTROL 更多功能表]](assets/more-icon-spectrum.png) 在「 」卡片上，然後選取 **[!UICONTROL 編輯]**.
+   按一下 **[!UICONTROL 更多]** 功能表 ![[!UICONTROL 更多選單]](assets/more-icon-spectrum.png) 在卡片上，然後選取 **[!UICONTROL 編輯]**.
 
-1. 在 [!UICONTROL 卡片詳細資訊] 框中，視需要更新資訊，然後按一下 **[!UICONTROL 關閉]** 回到董事會。
+1. 在 [!UICONTROL 卡片詳細資料] 方塊中，視需要更新資訊，然後按一下 **[!UICONTROL 關閉]** 以返回展示板。
 
-   如果您已啟用欄位原則來更新欄位值，變更卡片上的狀態會自動將卡片移至對應的欄。 如需詳細資訊，請參閱文章中的「定義欄設定和原則」 [管理展示板欄](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md).
+   如果您已啟用欄原則來更新欄位值，則變更卡片上的狀態會自動將卡片移動到對應的欄。 如需詳細資訊，請參閱文章中的「定義欄設定和原則」 [管理展示板欄](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md).
