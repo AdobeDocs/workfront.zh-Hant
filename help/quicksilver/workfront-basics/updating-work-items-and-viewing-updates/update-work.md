@@ -6,9 +6,9 @@ description: 您可以在Adobe Workfront物件（專案、任務或問題）上�
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: e6377e0198349cd514e444cbdd0bf1fc4c32d15b
+source-git-commit: f2849f7a36a45a81c528c267d237d312a7089e5d
 workflow-type: tm+mt
-source-wordcount: '3211'
+source-wordcount: '3373'
 ht-degree: 1%
 
 ---
@@ -36,11 +36,11 @@ ht-degree: 1%
 >     * 清單中的摘要面板
 >     * 時程表中的摘要面板
 >
-> * 目標<!--, <span class="preview">Cards in the Boards area</span>-->
+> * 目標， <span class="preview">看板區域中的卡片</span>
 >
->   新的註解體驗是目標的預設值 <!--<span class="preview">and cards</span>-->. 您必須有其他授權才能存取Workfront目標。 如需詳細資訊，請參閱 [使用Workfront目標的需求](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+>   新的評論體驗是目標的唯一體驗 <span class="preview">和卡片</span>. 您必須有其他授權才能存取Workfront目標。 如需詳細資訊，請參閱 [使用Workfront目標的需求](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
 >
->    如需有關對目標發表註解的資訊，請參閱 [在Adobe Workfront目標中管理目標註解](../../workfront-goals/goal-management/manage-goal-comments.md).
+>     當您啟用卡片上的「註解」和「系統活動」區段時，您可以在「展示板」區域中新增和檢視卡片的更新。 如需詳細資訊，請參閱 [新增臨機卡到展示板](../../agile/get-started-with-boards/add-card-to-board.md).
 
 您可以在「更新」區段中對Adobe Workfront中的大多數物件新增註解。 如需有關哪些物件會顯示「更新」區段的詳細資訊，請參閱 [更新區段概觀](../updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
@@ -131,7 +131,9 @@ drafted for P&P release:
 
 >[!NOTE]
 >
->以下功能適用於目標以外的所有物件。 您必須有其他授權才能存取Workfront目標。 如需有關對目標發表註解的資訊，請參閱 [在Adobe Workfront目標中管理目標註解](../../workfront-goals/goal-management/manage-goal-comments.md)
+>下列功能適用於目標與卡片以外的所有物件。 您必須有其他授權才能存取Workfront目標。 如需有關對目標發表註解的資訊，請參閱 [在Adobe Workfront目標中管理目標註解](../../workfront-goals/goal-management/manage-goal-comments.md).
+>
+>當您啟用卡片上的「註解」和「系統活動」區段時，您可以在「展示板」區域中新增和檢視卡片的更新。 如需詳細資訊，請參閱 [新增臨機卡到展示板](../../agile/get-started-with-boards/add-card-to-board.md).
 
 1. 前往您要提供更新的工作專案（例如專案、任務或問題）。
 1. 按一下 **更新** 區段。
@@ -283,7 +285,7 @@ drafted for P&P release:
    | 超連結 | ![mceclip7.png](assets/mceclip7.png) | <br>若要開啟「建立連結」或「新增連結」方塊： ⌘+K</br> <br>在備註測試版體驗中，若要在選取的文字上貼上連結： ⌘+V</br> | <br>若要開啟「建立連結」或「新增連結」方塊：Ctrl+K</br> <br>在備註測試版體驗中，若要在選取的文字上貼上連結： Ctrl+V</br> |
    | 項目符號清單 | ![mceclip6.png](assets/mceclip6.png) | ⌘+Shift+8 | Ctrl+Shift+8 |
    | 編號清單 | ![mceclip5.png](assets/mceclip5.png) | ⌘+Shift+7 | Ctrl+Shift+7 |
-   | 封鎖報價 | <span class="preview">![](assets/block-quote-icon-large.png)</span> | ⌘+Shift+9 | Ctrl+Shift+9 |
+   | 封鎖報價 | ![](assets/block-quote-icon-large.png) | ⌘+Shift+9 | Ctrl+Shift+9 |
 
    若要停止格式化文字，請取消選取 **RTF文字** 工具列。
 
@@ -346,20 +348,17 @@ drafted for P&P release:
 
 ## 複製更新資訊
 
-<!--drafted for beta release toggle - remove when copying an update will be available:
-
->[!NOTE]
->
->Copying an update is not possible when using the Beta commenting experience.
--->
-
 有數種方式可以複製更新。 複製連結後，您可以與其他人共用連結，以將他們導向更新。
+
+複製更新會因您使用的評論體驗而異。
+
+### 複製目前評論體驗中的更新
 
 * [複製更新](#copy-the-update)
 * [複製執行緒連結](#copy-the-thread-link)
 * [複製更新連結](#copy-the-update-link)
 
-### 複製更新 {#copy-the-update}
+#### 複製更新 {#copy-the-update}
 
 此選項會將文字從特定更新複製到剪貼簿。
 
@@ -368,24 +367,47 @@ drafted for P&P release:
 
    ![選取複製內文](assets/update-stream-copy-body-text-350x152.png)
 
-### 複製執行緒連結 {#copy-the-thread-link}
+#### 複製執行緒連結 {#copy-the-thread-link}
 
 此選項會將完整對話串連結複製到剪貼簿，以便您與其他使用者共用對話串。
 
 1. 前往您要複製的更新執行緒。
 
-1. 按一下 **更多** 功能表，然後按一下 **複製執行緒連結** 或 **複製連結**，使用Beta版體驗時。
+1. 按一下 **更多** 功能表，然後按一下 **複製執行緒連結**.
 
    ![](assets/update-stream-comment-menu-marked-350x152.png)
 
-### 複製更新連結 {#copy-the-update-link}
+#### 複製更新連結 {#copy-the-update-link}
 
 此選項會將特定的更新連結複製到剪貼簿。 當您共用更新連結時，追蹤該連結的使用者會看到更新周圍的邊框。
 
 1. 前往更新或您要複製的回覆。
-1. 按一下 **更多** 個別更新旁的功能表，然後按一下 **複製更新連結** 或 **複製連結**，使用Beta版體驗時。
+1. 按一下 **更多** 個別更新旁的功能表，然後按一下 **複製更新連結**.
 
    ![](assets/update-stream-reply-menu-marked-350x182.png)
+
+
+### 複製新評論體驗中的更新
+
+<!--when we remove and deprecate the legacy stream, add screen shots in the secitons below-->
+
+* [複製連結](#copy-link)
+* [複製本文](#copy-body-text)
+
+#### 複製連結
+
+此選項會將註解或對話串連結複製到剪貼簿，以便您與其他使用者共用註解或整個對話串。
+
+1. 前往您要複製其連結的更新。
+
+1. 按一下 **更多** 功能表，然後按一下 **複製連結**.
+
+#### 複製本文
+
+此選項會將文字從特定更新複製到剪貼簿。
+
+1. 前往更新或您要複製的回覆。
+1. 按一下 **更多** 功能表，然後按一下 **複製內文**.
 
 ## 刪除更新或回覆
 

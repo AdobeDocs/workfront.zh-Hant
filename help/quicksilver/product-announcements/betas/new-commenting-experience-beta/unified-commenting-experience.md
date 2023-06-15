@@ -6,9 +6,9 @@ description: 目前正在開發Adobe Workfront中評論體驗的更新。 此更
 author: Alina
 feature: Product Announcements
 exl-id: f750b35b-8021-4cc1-81d6-e1ece2530438
-source-git-commit: e6377e0198349cd514e444cbdd0bf1fc4c32d15b
+source-git-commit: f2849f7a36a45a81c528c267d237d312a7089e5d
 workflow-type: tm+mt
-source-wordcount: '612'
+source-wordcount: '621'
 ht-degree: 1%
 
 ---
@@ -47,13 +47,15 @@ ht-degree: 1%
 新評論體驗中包括的改進如下：
 
 * 改善的效能和使用者體驗
-* 將使用者評論和系統活動更新分開。
+* 從系統活動更新中分離使用者註解
 * 將新註解新增至物件時的即時指示器
-* 在提交評論後進行編輯。
+* 在提交評論後進行編輯
 
 下列功能已從新體驗中移除：
 
-* 在系統更新上加上註解。
+* 系統更新的註解
+* 可在註解時編輯狀態、條件、認可日期
+* 編輯自訂表單
 
 下表說明新評論體驗中可用的功能，以及這些功能在支援區域的可用性：
 
@@ -295,7 +297,7 @@ ht-degree: 1%
    </td>
    <td> 
    </td>
-   <td>✓ 
+   <td> 
    </td>
   </tr>
   <tr>
@@ -309,7 +311,7 @@ ht-degree: 1%
    </td>
    <td> 
    </td>
-   <td>✓ 
+   <td>
    </td>
   </tr>
   <tr>
@@ -413,9 +415,9 @@ ht-degree: 1%
   </tr>
 </table>
 
-## 新的評論Beta版體驗發行活動
+## 發行時間表
 
-如需有關最近發行的功能的資訊，請參閱 [新的評論Beta版體驗發佈活動](../../betas/new-commenting-experience-beta/new-commenting-beta-experience-release-activity.md).
+有關最近發行到新評論體驗的功能以及發行時間表的資訊，請參閱 [新的評論Beta版體驗發佈活動](../../betas/new-commenting-experience-beta/new-commenting-beta-experience-release-activity.md).
 
 ## 找到新的註解體驗
 
@@ -423,21 +425,18 @@ ht-degree: 1%
 
 * 在更新區段中啟用Beta版體驗時：
 
-   * 問題， <span class="preview">專案、任務和檔案</span>
+   * 問題， <span class="preview">專案、任務、本文和檔案</span>
 
   如需管理Workfront物件更新的詳細資訊，請參閱 [更新工作](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
 
 * 依預設，作為主要註解體驗：
 
-   * 目標
+   * 目標， <span class="preview">看板區域中的卡片</span>
 
   >[!NOTE]
   >
   >您必須額外取得Adobe Workfront目標授權才能存取Workfront的這個區域。 如需詳細資訊，請參閱 [使用Workfront目標的需求](../../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
-
-  如需有關管理目標更新的詳細資訊，請參閱 [在Adobe Workfront目標中管理目標註解](../../../workfront-goals/goal-management/manage-goal-comments.md).
-
 
 若要啟用新的評論體驗Beta版：
 

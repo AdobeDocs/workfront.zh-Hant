@@ -7,9 +7,9 @@ description: 物件的「更新」區段會顯示使用者對物件所做的註�
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: 2544bbedfeae731d4cde2ce75d7e09b96c54e32a
+source-git-commit: f2849f7a36a45a81c528c267d237d312a7089e5d
 workflow-type: tm+mt
-source-wordcount: '968'
+source-wordcount: '1041'
 ht-degree: 4%
 
 ---
@@ -37,11 +37,11 @@ ht-degree: 4%
 >     * 清單中的摘要面板
 >     * 時程表中的摘要面板
 >
-> * 目標<!--, <span class="preview">Cards in the Boards area</span>-->
+> * 目標， <span class="preview">看板區域中的卡片</span>
 >
->   新的註解體驗是目標的預設值 <!--<span class="preview">and cards</span>-->. 您必須有其他授權才能存取Workfront目標。 如需詳細資訊，請參閱 [使用Workfront目標的需求](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+>   新的評論體驗是目標的唯一體驗 <span class="preview">和卡片</span>. 您必須有其他授權才能存取Workfront目標。 如需詳細資訊，請參閱 [使用Workfront目標的需求](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
 >
->    如需有關對目標發表註解的資訊，請參閱 [在Adobe Workfront目標中管理目標註解](../../workfront-goals/goal-management/manage-goal-comments.md).
+>     當您啟用卡片上的「註解」和「系統活動」區段時，您可以在「展示板」區域中新增和檢視卡片的更新。 如需詳細資訊，請參閱 [新增臨機卡到展示板](../../agile/get-started-with-boards/add-card-to-board.md).
 
 物件的「更新」區段會顯示使用者對物件所做的註解，或是追蹤物件變更的系統更新。
 
@@ -84,7 +84,7 @@ ht-degree: 4%
      <li>範本</li> 
      <li>範本任務</li> 
      <li>時程表</li> 
-     <li>使用者</li> 
+     <li>使用者</li>
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -99,7 +99,7 @@ ht-degree: 4%
 * **註解**：顯示使用者所做的評論和對這些評論的回覆。 如需有關更新新註解體驗中物件的資訊，請參閱 [更新工作](../updating-work-items-and-viewing-updates/update-work.md).
 * **系統活動**：顯示系統更新，這些資訊性訊息是Workfront為記錄物件上的特定事件而建立的訊息。 例如，您可以使用系統更新來擷取狀態、名稱或自訂欄位中的變更。 您的Workfront或群組管理員可以為您的物件啟用系統更新。 如需詳細資訊，請參閱 [設定系統更新](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
 
-目前，您可以使用以下物件的測試版註解體驗來新增註解並回覆更新：
+目前，您可以在下列物件上使用新的註解體驗來新增註解及回覆更新：
 
 <table style="table-layout:auto"> 
  <col> 
@@ -109,10 +109,11 @@ ht-degree: 4%
    <td> 
     <ul> 
      <li><p>目標</p>
-     <p>這是目標的預設體驗</p>
+     <li><span class="preview">看板區域中的卡片</span></li>
+      這是目標的唯一體驗 <span class="preview">和卡片</span>.
      </li> 
      <li><span class="preview">專案</span></li>
-     </ul> </td> 
+    </ul> </td> 
    <td> 
     <ul> 
      <li>問題</li> 
@@ -123,12 +124,10 @@ ht-degree: 4%
  </tbody> 
 </table>
 
-<!--for 23.3 preview - June 15: 
-Add this to the table for 23.3 preview - under Goals:
 
-<li><span class="preview">Cards in the Boards area</span></li>
-This is the default experience for goals <span class="preview">and cards</span>. 
--->
+>[!NOTE]
+>
+>當您啟用卡片上的「註解」和「系統活動」區段時，您可以在「展示板」區域中新增和檢視卡片的更新。 如需詳細資訊，請參閱 [新增臨機卡到展示板](../../agile/get-started-with-boards/add-card-to-board.md).
 
 ## 也會出現在較高層級物件上的更新
 

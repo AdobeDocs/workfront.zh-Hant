@@ -2,27 +2,28 @@
 product-previous: workfront-goals
 content-type: release-notes
 navigation-topic: goals-release-activity
-title: Adobe Workfront Targets 23.3發行活動周2023年5月1日
-description: 本頁說明在預覽環境中，Adobe Workfront目標23.3版所做的所有增強功能。 這些增強功能將於2023年5月1日當周在生產環境中提供。
+title: Adobe Workfront目標23.3發行活動週（2023年5月1日）
+description: 本頁說明預覽環境專用Adobe Workfront目標的23.3版本所做的所有增強功能。 這些增強功能將在2023年5月1日當週的生產環境中提供。
 author: Courtney
 feature: Product Announcements, Workfront Goals
-source-git-commit: e9faaf52158030cd48ad11938186054594992c34
+exl-id: 5fd2e141-af8d-4934-a5f6-a4cdf5820082
+source-git-commit: f2849f7a36a45a81c528c267d237d312a7089e5d
 workflow-type: tm+mt
-source-wordcount: '147'
+source-wordcount: '146'
 ht-degree: 0%
 
 ---
 
-# Adobe Workfront Targets 23.3發行活動：2023年5月1日當周
+# Adobe Workfront Goals 23.3發行活動： 2023年5月1日當週
 
-本頁說明2023年5月3日發行的Adobe Workfront目標23.3版所有增強功能至預覽環境。
+本頁說明2023年5月3日預覽環境中Adobe Workfront目標的23.3版本所做的所有增強功能。
 
-除非另有指定，否則這些增強功能將可在23.3版的生產環境中使用。
+除非另有指定，否則這些增強功能將在23.3版本的生產環境中提供。
 
-## 更新章節增強功能
+## 更新區段增強功能
 
-在23.3發行時間範圍內，目標的「更新」區段正在改良中。 這些增強功能將在發佈至預覽後不久，於生產環境中提供使用。
+對目標的更新區段的增強功能將在23.3版本發行時間範圍內提供。 這些增強功能在發佈到預覽後不久將在生產環境中提供。
 
-提供給目標的註解增強功能與針對其他Workfront物件隨新評註測試版體驗發行的相同。
+對目標提供的註解增強功能與隨其他Workfront物件的新註解測試版體驗一起發行的註解增強功能相同。
 
-如需詳細資訊，請參閱 [全新評論測試版體驗發行活動](/help/quicksilver/product-announcements/betas/new-commenting-experience-beta/new-commenting-beta-experience-release-activity.md).
+如需詳細資訊，請參閱 [新的評論體驗發行活動](/help/quicksilver/product-announcements/betas/new-commenting-experience-beta/new-commenting-beta-experience-release-activity.md).
