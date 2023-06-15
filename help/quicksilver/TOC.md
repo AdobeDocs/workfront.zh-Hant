@@ -2,9 +2,9 @@
 user-guide-title: Workfront 指南
 user-guide-description: 使用文件、教學課程和其他資源，了解如何在您的組織中實施並有效使用 Adobe Workfront。
 feature-set: Workfront
-source-git-commit: 2ce444ac32a0f2de64170f7c901b08063c7e04d3
+source-git-commit: 0be97742525a8a8583741e2a99196159c8e899c9
 workflow-type: tm+mt
-source-wordcount: '13085'
+source-wordcount: '13081'
 ht-degree: 1%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 1%
          * [23.3 2023年5月15日當週發行活動](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-15.md)
          * [23.3 2023年5月29日當週發行活動](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-29.md)
          * [23.3 2023年6月5日的發行活動週](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-jun-5.md)
-         * [在23.3發行時間範圍內的外觀和感覺更新](product-announcements/product-releases/23.3-release-activity/23-3-look-and-feel-updates.md)
+         * [23.3 2023年6月12日當週的發行活動週](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-jun-12.md)
       * 23.2版 {#release-23-2}
          * [23.2版本總覽](product-announcements/product-releases/23.2-release-activity/23-2-release-overview.md)
          * [23.2管理員增強功能](product-announcements/product-releases/23.2-release-activity/23-2-admin-enhancements.md)
@@ -1746,7 +1746,7 @@ ht-degree: 1%
          * [校訂角色概觀](review-and-approve-work/proofing/proofing-overview/proof-roles.md)
          * [自動化工作流程總覽](review-and-approve-work/proofing/proofing-overview/automated-workflow.md)
          * [自動化工作流程階段概觀](review-and-approve-work/proofing/proofing-overview/stages.md)
-         * [校訂評論和決定概覽的通知](review-and-approve-work/proofing/proofing-overview/notifications-proof-comments-decisions.md)
+         * [校訂評論和決定概觀的通知](review-and-approve-work/proofing/proofing-overview/notifications-proof-comments-decisions.md)
          * [互動式內容校訂概觀](review-and-approve-work/proofing/proofing-overview/interactive-content-proofs.md)
          * [校樣概觀的檔案重新處理](review-and-approve-work/proofing/proofing-overview/document-reprocessing-for-proofing.md)
          * [支援的校訂檔案型別和大小限制概觀](review-and-approve-work/proofing/proofing-overview/supported-proofing-file-types.md)
