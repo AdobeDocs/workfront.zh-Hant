@@ -6,9 +6,9 @@ description: 檢閱Adobe Workfront新評論體驗的每週發行活動。
 author: Alina
 feature: Product Announcements
 exl-id: 1c0cb547-ac99-4cdf-8a74-2c47ad5a10ad
-source-git-commit: f2849f7a36a45a81c528c267d237d312a7089e5d
+source-git-commit: 26e2a8ed6b0c6c1e4b51fc27b385b9753072faf9
 workflow-type: tm+mt
-source-wordcount: '1205'
+source-wordcount: '1203'
 ht-degree: 4%
 
 ---
@@ -44,10 +44,9 @@ ht-degree: 4%
    * 適用於範本、範本任務、計畫、投資組合、團隊、使用者和時程表的新評論體驗（作為唯一體驗）
 * 23.4版（2023年10月初）
    * 適用於範本、範本任務、計畫、投資組合、團隊、使用者和時程表的新評論體驗（作為唯一體驗）
-  <!--wait for Ani to confirm this after June 19, 2023: * Add the new commenting experience to Home and the Summary panel. -->
+  <!--wait for Anna to confirm this after the teams are starting to work on this and will be closer to finish line; QBR is June 19, 2023, but wait until MUCH after this: * Add the new commenting experience to Home and the Summary panel. -->
 * 2023年底：
-   * 從仍具有舊版體驗的物件中移除舊版體驗。
-   * 以下物件僅具有新的評論體驗：專案、任務、問題、劇本、檔案、範本、範本任務、方案、投資組合、團隊、使用者和時程表、目標、卡片。
+   * 下列物件擁有新的註解體驗作為預設體驗：專案、任務、問題、劇本、檔案、範本、範本任務、方案、投資組合、團隊、使用者和時程表、目標、卡片。 舊版註釋體驗仍會保留為選項。
 
   >[!NOTE]
   >
