@@ -2,9 +2,9 @@
 user-guide-title: Workfront 指南
 user-guide-description: 使用文件、教學課程和其他資源，了解如何在您的組織中實施並有效使用 Adobe Workfront。
 feature-set: Workfront
-source-git-commit: b7ed3f9f38ab96270709d76fda80466b1b50f1ea
+source-git-commit: bb25e08bd81c6c5c2fa35fde7912e8607b894284
 workflow-type: tm+mt
-source-wordcount: '13080'
+source-wordcount: '13086'
 ht-degree: 1%
 
 ---
@@ -2166,6 +2166,7 @@ ht-degree: 1%
          * [使用Adobe Workfront外掛程式更新您的工作](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-update.md)
          * [使用Adobe Workfront外掛程式將工作專案標示為完成](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-complete.md)
          * [使用Adobe Workfront外掛程式記錄時間](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-log-time.md)
+         * [管理 [!DNL Adobe Workfront] 來自Adobe Creative Cloud的通知](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-notifications.md)
       * 使用適用於Creative Cloud應用程式的Adobe Workfront外掛程式上傳檔案和校樣 {#upload-docs-proofs-wf-cc}
          * [從上傳檔案和校樣 [!DNL Adobe Workfront plugin] 至 [!DNL Creative Cloud]](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/upload-documents-and-proofs.md)
          * [使用適用於Creative Cloud應用程式的Adobe Workfront外掛程式上傳檔案和校樣](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-docs-proofs-toc.md)
