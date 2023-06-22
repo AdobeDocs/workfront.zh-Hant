@@ -7,9 +7,9 @@ description: 物件的「更新」區段會顯示使用者對物件所做的註�
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: cd059c445d86ed5581e8b2cb01507f18b97954f3
+source-git-commit: c941467e2b1e93a728b5f7d8844c7fefea2816e1
 workflow-type: tm+mt
-source-wordcount: '1076'
+source-wordcount: '1079'
 ht-degree: 4%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 4%
 
 <!--take "Beta" references out when we remove the beta-->
 
-<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它僅在「預覽」環境中可用。</span>
+<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它僅適用於預覽環境中的所有客戶。</span>
 
 >[!NOTE]
 >
@@ -37,9 +37,9 @@ ht-degree: 4%
 >     * 清單中的摘要面板
 >     * 時程表中的摘要面板
 >
-> * 目標， <span class="preview">看板區域中的卡片</span>
+> * 面板區域中的目標、卡片
 >
->   新的評論體驗是目標的唯一體驗 <span class="preview">和卡片</span>. 您必須有其他授權才能存取Workfront目標。 如需詳細資訊，請參閱 [使用Workfront目標的需求](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+>   新的評論體驗是目標和卡的唯一體驗。 您必須有其他授權才能存取Workfront目標。 如需詳細資訊，請參閱 [使用Workfront目標的需求](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
 >
 >     當您啟用卡片上的「註解」和「系統活動」區段時，您可以在「面板」區域中新增和檢視卡片的更新。 如需詳細資訊，請參閱 [新增臨機卡到展示板](../../agile/get-started-with-boards/add-card-to-board.md).
 
@@ -112,8 +112,8 @@ ht-degree: 4%
    <td> 
     <ul> 
      <li><p>目標</p>
-     <li><span class="preview">看板區域中的卡片*</span></li>
-      這是目標的唯一體驗 <span class="preview">和卡片</span>.
+     <li>看板區域中的卡片*</li>
+      這是唯一的目標和卡片體驗。
      </li> 
      <li><span class="preview">專案</span></li>
     </ul> </td> 

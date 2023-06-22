@@ -6,16 +6,16 @@ description: 目前正在開發Adobe Workfront中評論體驗的更新。 此更
 author: Alina
 feature: Product Announcements
 exl-id: f750b35b-8021-4cc1-81d6-e1ece2530438
-source-git-commit: cd059c445d86ed5581e8b2cb01507f18b97954f3
+source-git-commit: c941467e2b1e93a728b5f7d8844c7fefea2816e1
 workflow-type: tm+mt
-source-wordcount: '620'
+source-wordcount: '623'
 ht-degree: 1%
 
 ---
 
 # 新的評論體驗
 
-<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它僅在「預覽」環境中可用。</span>
+<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它僅適用於預覽環境中的所有客戶。</span>
 
 目前正在開發Adobe Workfront中評論體驗的更新。 此更新包含新介面、新功能，以及所選物件更新區段中的改進效能。
 
@@ -432,7 +432,7 @@ ht-degree: 1%
 
 * 依預設，作為主要註解體驗：
 
-   * 目標， <span class="preview">看板區域中的卡片</span>
+   * 面板區域中的目標、卡片
 
   >[!NOTE]
   >

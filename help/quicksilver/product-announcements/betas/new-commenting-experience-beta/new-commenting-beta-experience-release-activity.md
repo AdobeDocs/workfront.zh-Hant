@@ -6,10 +6,10 @@ description: 檢閱Adobe Workfront新評論體驗的每週發行活動。
 author: Alina
 feature: Product Announcements
 exl-id: 1c0cb547-ac99-4cdf-8a74-2c47ad5a10ad
-source-git-commit: 4e278a2418537fba0d8f2b8462571e4c843324a7
+source-git-commit: c941467e2b1e93a728b5f7d8844c7fefea2816e1
 workflow-type: tm+mt
-source-wordcount: '1205'
-ht-degree: 4%
+source-wordcount: '1411'
+ht-degree: 3%
 
 ---
 
@@ -60,47 +60,44 @@ ht-degree: 4%
 
 以下資訊是指每週發行活動，其基礎為新的評論測試版體驗中所包含的功能。 此頁面列出針對新評論體驗新增的功能及已解決的問題。
 
-<!--
-### Week of June 19, 2023
 
-#### Quote comment content in a new reply 
+### 2023年6月19日後發行的功能
 
-Now, you have the ability to copy the content of a comment and add it as a new quote to a reply in the same thread when using the new commenting experience.  
+<!--restructure this section with actual weeks and dates, when we know them-->
 
-For more information, see [Update work](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md). 
+本節所列功能計畫於2023年6月19日當週後不久發行。
 
-Preview and Production: June 22, 2023 
+#### 在新回覆中引用註解內容
 
-### Upcoming releases, after June 19, 2023
+現在，您能夠複製註解的內容，並在使用新註解體驗時，將其作為新引號新增到相同對話串中的回覆。
 
-<!--*****************CLOSE THIS COMMENT: restructure this section with actual weeks and dates, when we know them--
+如需詳細資訊，請參閱 [更新工作](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
-The features described in this section are planned to release shortly after the week of June 19, 2023. 
+預覽和生產：計畫於2023年6月29日推出
 
-#### Add emojis to an update
+#### 將表情符號新增至更新
 
-You can now add emojis to a comment using a Rich Text toolbar option in the new commenting experience. 
+您現在可以使用新註解體驗中的RTF工具列選項，將表情符號新增到註解中。
 
-For more information, see [Update work](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+如需詳細資訊，請參閱 [更新工作](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
-Preview: To be announced 
+預覽：有待宣佈（在23.3版本期間）
 
-Production: To be announced. Before the 23.3 release.
+生產：即將公佈。 23.3版本之前。
 
-#### New commenting experience for additional objects 
+#### 其他物件的新註解體驗
 
-The new commenting experience will be available for the following objects, shortly after the 23.3 release to Production: template tasks, templates, timesheets, teams, users, programs, portfolios.  
+在23.3版發佈到生產環境後不久，以下物件將可使用新的評論體驗：範本任務、範本、時程表、團隊、使用者、計畫、投資組合。
 
-This will be the only commenting experience for these objects, as the legacy commenting experience is removed when you access them.  
+這將是這些物件的唯一註解體驗，因為當您存取這些物件時，舊版註解體驗會被移除。
 
-For more information, see [New commenting experience](../../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
+如需詳細資訊，請參閱 [新的評論體驗](../../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 
-Preview release: To be announced, after the 23.3 Production release (July 20, 2023)
+預覽版本：將在23.3生產版本（2023年7月20日）之後宣佈
 
-Production release for the Fast release customers: To be announced, after the 23.3 Production release  
+快速發行客戶的生產版本：將在23.3生產版本之後宣佈
 
-Production release for all customers: with the 23.4 release 
--->
+適用於所有客戶的生產版本：搭配23.4版
 
 ### 2023年6月12日起一週
 

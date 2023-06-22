@@ -6,7 +6,7 @@ description: 在Adobe Workfront物件上提供更新註解時，專案上的所�
 author: Alina
 feature: Get Started with Workfront
 exl-id: c4c0d74f-ac50-4fc5-89d6-28f004c25b29
-source-git-commit: c73a63901523d99704f63f2e589b5a333619a19e
+source-git-commit: c941467e2b1e93a728b5f7d8844c7fefea2816e1
 workflow-type: tm+mt
 source-wordcount: '1471'
 ht-degree: 0%
@@ -37,9 +37,9 @@ ht-degree: 0%
 >     * 清單中的摘要面板
 >     * 時程表中的摘要面板
 >
-> * 目標， <span class="preview">看板區域中的卡片</span>
+> * 面板區域中的目標、卡片
 >
->   新的評論體驗是目標的唯一體驗 <span class="preview">和卡片</span>. 您必須有其他授權才能存取Workfront目標。 如需詳細資訊，請參閱 [使用Workfront目標的需求](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+>   新的評論體驗是目標和卡的唯一體驗。 您必須有其他授權才能存取Workfront目標。 如需詳細資訊，請參閱 [使用Workfront目標的需求](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
 >
 >     當您啟用卡片上的「註解」和「系統活動」區段時，您可以在「面板」區域中新增和檢視卡片的更新。 如需詳細資訊，請參閱 [新增臨機卡到展示板](../../agile/get-started-with-boards/add-card-to-board.md).
 
