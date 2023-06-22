@@ -2,28 +2,32 @@
 filename: boards-emails
 content-type: reference
 navigation-topic: boards
-title: 展示板電子郵件通知和偏好設定
-description: Adobe Workfront展示板會在您新增至展示板，以及指派資訊卡給您時，傳送電子郵件給您。
+title: 看板電子郵件通知和偏好設定
+description: Adobe Workfront展示板會在您將您新增至展示板及指派卡片給您時傳送電子郵件給您。
 author: Lisa
 exl-id: 7ec9f9cc-274c-4253-8441-d7ffe9afd78d
-source-git-commit: bfe45a29290631420c3a60d7dcbe470619094ca1
+source-git-commit: e5e8819db11f39734d9fcada833a2cb808bc88fe
 workflow-type: tm+mt
-source-wordcount: '166'
-ht-degree: 1%
+source-wordcount: '274'
+ht-degree: 0%
 
 ---
 
-# 展示板電子郵件通知和偏好設定
+# 看板電子郵件通知和偏好設定
 
-[!DNL Adobe Workfront] [!UICONTROL 展示板] 當您新增至展示板，以及指派資訊卡給您時，會傳送電子郵件給您。 通知預設為開啟，您可以在「展示板」偏好設定中選取要接收的電子郵件。
+{{highlighted-preview}}
+
+[!DNL Adobe Workfront] [!UICONTROL 展示板] 會在您將您新增至展示板以及將卡片指派給您時傳送電子郵件給您。 通知預設為開啟，您可以在面板偏好設定中選取要接收哪些電子郵件。
 
 >[!NOTE]
 >
->只有透過Workfront展示板的早期功能選擇加入，才能取得電子郵件通知。
+>電子郵件通知只能透過Workfront展示板的早期功能選擇加入取得。
+
+<span class="preview">其他偏好設定可讓您為所有的展示板和工作流程啟用深色模式。</span>
 
 ## 存取需求
 
-您必須具備下列存取權，才能執行本文中的步驟：
+您必須具有下列存取權才能執行本文中的步驟：
 
 <table style="table-layout:auto"> 
  <col> 
@@ -37,20 +41,37 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] 授權*</strong></td> 
-   <td> <p>[!UICONTROL Request]或更高版本</p> </td> 
+   <td> <p>[！UICONTROL Request]或更高版本</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;若要了解您擁有的計畫、授權類型或存取權，請聯絡您的 [!DNL Workfront] 管理員。
+&#42;若要瞭解您擁有哪些計畫、授權型別或存取權，請聯絡您的 [!DNL Workfront] 管理員。
 
-## 設定展示板電子郵件的偏好設定
+## 設定看板電子郵件的偏好設定
 
 {{step1-to-boards}}
 
-1. 按一下 [!UICONTROL **偏好設定**] 在展示板控制面板上。
-1. 選取您是否要接收要新增至展示板及指派至資訊卡的電子郵件。
+1. 按一下 [!UICONTROL **偏好設定**] 在展示板儀表板上。
+1. 選取您是否要接收新增至展示板並指派至卡片的電子郵件。
 
-   ![展示板電子郵件偏好設定](assets/boards-email-preferences.png)
+   ![看板電子郵件偏好設定](assets/boards-email-preferences.png)
 
-   您為電子郵件設定的偏好設定會套用至所有展示板。
+   您為電子郵件設定的偏好設定適用於您的所有展示板。
+
+<div class="preview">
+
+## 設定深色模式偏好設定
+
+>[!NOTE]
+>
+>如果您組織的Workfront執行個體已上線到Adobe整合式體驗，您可以透過您的偏好設定選單（您的個人資料圖片）為所有Adobe Experience Cloud啟用深色主題格式，並且您不會看到Workfront展示板的個別深色模式選項。 如需詳細資訊，請參閱 [Workfront的AdobeUnified Experience](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
+
+{{step1-to-boards}}
+
+1. 按一下 [!UICONTROL **偏好設定**] 在展示板儀表板上。
+1. 在「主題」區域中，啟用或停用「深色」模式。
+
+   您為深色模式設定的偏好設定會套用到您的所有展示板和工作流程，以及儀表板。
+
+</div>
