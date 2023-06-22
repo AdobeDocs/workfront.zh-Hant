@@ -2,37 +2,41 @@
 product-area: agile-and-teams
 navigation-topic: get-started-with-boards
 title: 在展示板中篩選和搜尋
-description: 您可以篩選展示板，使其只顯示特定的資訊卡。
+description: 您可以篩選展示板以僅顯示特定卡片。
 author: Lisa
 feature: Agile
 exl-id: 26abce82-dcd9-4865-96f4-c710f7f0a0d8
-source-git-commit: 4f59548cc539adced6af6795517dd7d7c0965e6d
+source-git-commit: 05cac2441474e0f6ecf18aa777a5a66fefb2dba8
 workflow-type: tm+mt
-source-wordcount: '444'
+source-wordcount: '624'
 ht-degree: 0%
 
 ---
 
 # 在展示板中篩選和搜尋
 
-您可以篩選展示板以顯示：
+{{highlighted-preview}}
 
-* 指派給特定人員的資訊卡
+您可以篩選要顯示的展示板：
+
+* 指派給特定人員的卡片
 * 具有特定標籤的卡片
-* 具有特定狀態的卡
-* 卡在特定時間範圍內到期
-* 封存的卡片
-* 連接到特定項目的卡
+* 具有特定狀態的卡片
+* 特定時間範圍內到期的卡片
+* 已封存的卡片
+* 連線到特定專案的卡片
 
-搜尋也可協助您在展示板上找到特定資訊卡。
+<span class="preview">排序展示板會排序欄中的所有卡片。 您無法排序單一欄，而且未排序待處理專案或輸入欄。</span>
 
-套用篩選時，展示板上會顯示指標 ![套用至展示板的篩選](assets/boards-filterapplied-30x30.png). 按一下 **[!UICONTROL 全部清除]** 從展示板中移除所有篩選器，然後按一下 **[!UICONTROL 隱藏篩選器]** 來關閉篩選面板。
+搜尋也可協助您在展示板上找到特定卡片。
+
+套用篩選器時，展示板上會顯示指標 ![套用至展示板的篩選器](assets/boards-filterapplied-30x30.png). 按一下 **[!UICONTROL 全部清除]** 若要從展示板移除所有篩選器，請按一下 **[!UICONTROL 隱藏篩選器]** 以關閉篩選面板。
 
 ![篩選面板](assets/boards-all-filters-collapsed-1022.png)
 
 ## 存取需求
 
-您必須具備下列存取權，才能執行本文中的步驟：
+您必須具有下列存取權才能執行本文中的步驟：
 
 <table style="table-layout:auto"> 
  <col> 
@@ -44,75 +48,98 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] 授權*</strong></td> 
-   <td> <p>[!UICONTROL Request]或更高版本</p> </td> 
+   <td> <p>[！UICONTROL Request]或更高版本</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;若要了解您擁有的計畫、授權類型或存取權，請聯絡您的 [!DNL Workfront] 管理員。
+&#42;若要瞭解您擁有哪些計畫、授權型別或存取權，請聯絡您的 [!DNL Workfront] 管理員。
 
-## 依受指派者篩選展示板
+## 依受指派人篩選展示板
 
-1. 按一下 **[!UICONTROL 主菜單]** 圖示 ![](assets/main-menu-icon.png) 在 [!DNL Adobe Workfront]，然後按一下 **[!UICONTROL 展示板]**.
+1. 按一下 **[!UICONTROL 主要功能表]** 圖示 ![](assets/main-menu-icon.png) 右上角的 [!DNL Adobe Workfront]，然後按一下 **[!UICONTROL 展示板]**.
 1. 存取展示板。 如需詳細資訊，請參閱 [建立或編輯展示板](../../agile/get-started-with-boards/create-edit-board.md).
-1. 按一下 [!UICONTROL **篩選**]，展開 [!UICONTROL 成員] ，並選擇要查看其卡的人員。 您也可以顯示未指派的卡片。
+1. 按一下 [!UICONTROL **篩選**]，展開 [!UICONTROL 成員] 區段，並選取您要檢視其卡片的一或多個人。 您也可以顯示未指派的卡片。
 
-   ![按成員篩選](assets/boards-filter-by-assignees-0822.png)
+   ![依成員篩選](assets/boards-filter-by-assignees-0822.png)
 
 ## 依標籤篩選展示板
 
-1. 進入展示板。
-1. 按一下 [!UICONTROL **篩選**]，展開 [!UICONTROL 標籤] ，然後選取您要查看的標籤。
+1. 存取展示板。
+1. 按一下 [!UICONTROL **篩選**]，展開 [!UICONTROL 標籤] 區段，並選取您要檢視的標籤。
 
    ![依標籤篩選](assets/boards-filter-by-tags-0822.png)
 
 ## 依狀態篩選展示板
 
-1. 進入展示板。
-1. 按一下 [!UICONTROL **篩選**]，展開 [!UICONTROL 狀態] ，然後選擇要查看的狀態類型。
+1. 存取展示板。
+1. 按一下 [!UICONTROL **篩選**]，展開 [!UICONTROL 狀態] 區段，並選取您要檢視的狀態型別。
 
-   您也可以隱藏已完成的資訊卡。
+   您也可以隱藏已完成的卡片。
 
    ![依狀態篩選](assets/boards-filter-by-status-0822.png)
 
 ## 依到期日篩選展示板
 
-1. 進入展示板。
-1. 按一下 [!UICONTROL **篩選**]，展開 [!UICONTROL 到期日] ，然後選擇要查看的日期選項。
+1. 存取展示板。
+1. 按一下 [!UICONTROL **篩選**]，展開 [!UICONTROL 到期日期] 區段，並選取您要檢視的日期選項。
 
-   系統只會顯示所選日期範圍中的卡片。
+   僅顯示選定日期範圍內的卡片。
 
    ![依到期日篩選](assets/boards-filter-by-due-date-0822.png)
 
-## 篩選展示板以顯示已封存的資訊卡
+## 篩選展示板以顯示封存的卡片
 
-依預設，展示板上只會顯示作用中的資訊卡。 您可以篩選展示板，也可以顯示任何已封存的資訊卡。
+依預設，電路板上只會顯示作用中的卡片。 您可以篩選展示板以顯示任何已封存的卡片。
 
-1. 進入展示板。
-1. 按一下 [!UICONTROL **篩選**]，展開 [!UICONTROL 封存的資訊卡] 部分，然後選擇 **[!UICONTROL 封存的卡片]** 來顯示任何已封存的卡片。
+1. 存取展示板。
+1. 按一下 [!UICONTROL **篩選**]，展開 [!UICONTROL 已封存的卡片] 區段，並選取 **[!UICONTROL 已封存的卡片]** 以顯示任何已封存的卡片。
 
-   篩選器會顯示已封存的卡片數量。
+   篩選器會顯示已封存卡片的數量。
 
    ![篩選已封存的卡片](assets/boards-filter-by-archived-cards_0822.png)
 
-1. 選擇 **[!UICONTROL 封存的卡片]** 再次清除選項，並僅顯示使用中卡片。
+1. 選取 **[!UICONTROL 已封存的卡片]** 再次清除選項並僅顯示作用中的卡片。
 
 ## 依連線篩選展示板
 
-1. 進入展示板。
-1. 按一下 [!UICONTROL **篩選**]，展開 [!UICONTROL 連線] ，然後選取 [!DNL Workfront] 您要查看的已連線卡片專案。
+1. 存取展示板。
+1. 按一下 [!UICONTROL **篩選**]，展開 [!UICONTROL 連線] 區段，並選取 [!DNL Workfront] 您想要檢視之已連線卡片的專案。
 
-   您也可以顯示未連線至專案的資訊卡。
+   您也可以顯示未連線到專案的卡片。
 
    ![依連線篩選](assets/boards-filter-by-connection.png)
 
+<div class="preview">
+
+## 在展示板上排序
+
+當您選取排序依據的選項時，所有欄都會排序。 您無法排序單一欄，而且未排序待處理專案或輸入欄。
+
+1. 存取展示板。
+1. 按一下 [!UICONTROL **排序方式**] 並選取 [!UICONTROL **名稱**]， [!UICONTROL **到期日期**]， [!UICONTROL **預估**]， [!UICONTROL **狀態**]，或 [!UICONTROL **連線**].
+
+   「連線」（專案名稱）只會套用至已連線的卡片，而其他選項會在欄中同時排序已連線的卡片和臨機操作卡。
+
+   「使用者順序」選項會將卡片傳回至手動設定的順序，然後再套用任何其他排序選項。 這是欄的預設排序。
+
+1. 選取 [!UICONTROL **反轉順序**] 以反向排序選項排序欄。
+
+   排序圖示上的箭頭會指出欄是以遞增或遞減順序排序。
+
+   套用預設以外的排序時，排序圖示上會顯示指標 ![已套用排序](assets/sort-applied-boards.png).
+
+   ![依展示板上的欄排序](assets/sort-by-columns-in-board.png)
+
+</div>
+
 ## 在展示板中搜尋
 
-1. 進入展示板。
-1. 按一下 [!UICONTROL **搜尋**] 並輸入搜尋詞。 然後，按Enter鍵。
+1. 存取展示板。
+1. 按一下 [!UICONTROL **搜尋**] 並輸入搜尋字詞。 然後，按下Enter。
 
-   會顯示包含搜尋詞的所有卡片。
+   所有包含搜尋字詞的卡片都會顯示。
 
    按一下X以清除搜尋。
 
-   ![在展示板中搜尋資訊卡](assets/boards-searchbox.png)
+   ![搜尋展示板中的卡片](assets/boards-searchbox.png)

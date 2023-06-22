@@ -6,9 +6,9 @@ description: 依預設，新展示板包含三欄。 您可以新增更多欄、
 author: Lisa
 feature: Agile
 exl-id: a736cdfe-5ddc-4bf4-82a1-a78d16c0d70b
-source-git-commit: b3322b703380ad649df6313d2341bd2cbe25c860
+source-git-commit: 05cac2441474e0f6ecf18aa777a5a66fefb2dba8
 workflow-type: tm+mt
-source-wordcount: '922'
+source-wordcount: '937'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,8 @@ ht-degree: 0%
 依預設，新展示板包含三欄。 您可以新增更多欄、變更欄的順序、重新命名欄，以及刪除不需要的任何欄。
 
 欄設定包含原則，可讓您定義卡片移動到該欄時卡片所發生的選項。
+
+如需依欄排序卡片的相關資訊，請參閱 [在展示板中篩選和搜尋](/help/quicksilver/agile/get-started-with-boards/filter-search-in-board.md).
 
 ## 存取需求
 
