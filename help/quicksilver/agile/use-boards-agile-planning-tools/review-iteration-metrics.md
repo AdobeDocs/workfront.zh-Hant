@@ -2,24 +2,27 @@
 content-type: reference
 product-area: agile-and-teams
 navigation-topic: boards
-title: 檢閱迭代量度
-description: 量度可用於工作流中的每個小版本，位於小版本流程板上。
+title: 檢閱反複專案量度
+description: 量度可用於工作流程中的每個反複專案，位於反複專案程式板上。
 author: Lisa
 feature: Agile
-source-git-commit: 8c02f5364154bdc343512416d0c7e38ef563a170
+exl-id: 09743566-161d-4850-9a1a-b96da6d537a7
+source-git-commit: 563e0f443ecef9ee99e9f9bfb5a0d579aa50cef4
 workflow-type: tm+mt
-source-wordcount: '201'
+source-wordcount: '211'
 ht-degree: 0%
 
 ---
 
-# 檢閱迭代量度
+# 檢閱反複專案量度
 
-量度可用於工作流、小版本流程板和控制面板中的每個小版本。
+{{highlighted-preview}}
+
+量度可用於工作流程中的每個反複專案，位於反複專案流程板和控制面板上。
 
 ## 存取需求
 
-您必須具備下列存取權，才能執行本文中的步驟：
+您必須具有下列存取權才能執行本文中的步驟：
 
 <table style="table-layout:auto"> 
  <col> 
@@ -33,27 +36,27 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] 授權*</strong></td> 
-   <td> <p>[!UICONTROL Request]或更高版本</p> </td> 
+   <td> <p>[！UICONTROL Request]或更高版本</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## 在迭代板上查看迭代度量
+## 檢閱反複專案板上的反複專案量度
 
 {{step1-to-boards}}
 
-1. 若要開啟工作流，請按一下 [!UICONTROL **檢視工作流**].
-1. 選取 [!UICONTROL 迭代過程] 展示板。
-1. 檢閱右上角展示板上方的量度區域。 按一下向上和向下箭頭，在迭代之間移動。
+1. 若要開啟工作流程，請按一下 [!UICONTROL **檢視工作流程**].
+1. 選取 [!UICONTROL 反複專案程式] 展示板。
+1. 檢閱右上角展示板上方的量度區域。 按一下向上和向下箭頭，可在版序之間移動。
 
-   系統會顯示下列量度：分配給小版本的總點數、小版本中尚未完成的剩餘點數，以及小版本中已完成的點數。
+   會顯示下列量度：指派給疊代的總點數、疊代中尚未完成的剩餘點數、疊代中完成的點數、 <span class="preview">以及在反複專案中建立和完成的目標數</span>.
 
-1. （選用）按一下 [!UICONTROL **迭代詳細資訊**] 圖示 ![迭代詳細資訊](assets/iteration-details-button.png) 開啟所選小版本的「詳細資訊」(details)對話框。
+1. （可選）按一下 [!UICONTROL **反複專案詳細資料**] 圖示 ![反複專案詳細資料](assets/iteration-details-button.png) 以開啟所選反複專案的詳細資訊對話方塊。
 
-## 在控制面板上檢閱迭代量度
+## 檢閱控制面板上的反複專案量度
 
 {{step1-to-boards}}
 
-控制面板上會顯示工作流當前小版本的以下度量：分配給小版本的總點數、已完成的點數以及小版本中尚未完成的剩餘點數。
+工作流程串流目前反複專案的儀表板上會顯示下列量度：指派給反複專案的總點數、完成的點數，以及反複專案中尚未完成的剩餘點。
 
-要查看其他迭代的度量，必須開啟迭代板。
+若要檢閱其他版序的量度，您必須開啟版序面板。
