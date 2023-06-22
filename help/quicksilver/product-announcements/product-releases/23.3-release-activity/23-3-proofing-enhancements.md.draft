@@ -1,0 +1,17 @@
+---
+title: 23.3 Proofing enhancements
+description: 23.3 Proofing enhancements
+author: Lisa
+feature: Product Announcements
+---
+# 23.3 Proofing enhancements
+
+This page describes all proofing enhancements made with the 23.3 release to the Preview environment. These enhancements will be made available in the Production environment with the 23.3 release. 
+
+For a list of all changes available at this point in the 23.3 release cycle, see [23.3 Release overview](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-release-overview.md).
+
+## Postpone updates for the Desktop Proofing Viewer
+
+Based on user feedback, we are adding the option to postpone updates for the Desktop Proofing Viewer. Users can now opt to delay an update and continue with their work, but will be reminded that an update is available each time they open the Desktop Proofing Viewer.
+
+For more information on updating the Desktop Proofing Viewer, see [Update the Desktop Proofing Viewer](/help/quicksilver/review-and-approve-work/proofing/use-the-desktop-proofing-viewer/update-the-desktop-proofing-viewer.md).

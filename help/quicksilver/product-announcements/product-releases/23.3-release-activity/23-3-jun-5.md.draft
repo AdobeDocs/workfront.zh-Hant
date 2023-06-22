@@ -1,0 +1,39 @@
+---
+title: 23.3 release activity week of June 5, 2023
+description: 23.3 release activity week of June 5, 2023
+author: Courtney
+draft: Probably
+feature: Product Announcements
+exl-id: a4c63642-8abd-4a2a-a287-6516acb6c975
+---
+# 23.3 release activity week of June 5, 2023
+
+This page describes all enhancements made with the 23.3 release to the Preview environment the week of June 5, 2023. These enhancements will be made available in the Production environment with the 23.3 release. 
+
+For a list of all changes available at this point in the 23.3 release cycle, see [23.3 Release overview](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-release-overview.md).
+
+## Improved experience when moving a document to a linked folder with drag and drop
+
+We've added some transparency to the process of dragging and dropping a document into a linked folder. Now, the document that you moved to a linked folder remains in the document list until it has fully moved. The document options are disabled, but you can still open the document for view while it is moving. When the document has completed the transfer, it disappears from the document list, because it is now fully located in the linked folder.
+
+Previously, documents would immediately disappear from the document list, before they had finished moving to the linked folder.
+
+For more information, see [Link documents from external applications](/help/quicksilver/documents/adding-documents-to-workfront/link-documents-from-external-apps.md).
+
+
+
+<!-- HTML you might need
+
+Video link
+
+[View a video demonstration of this feature](ADD URL){target=_blank}
+
+Off-cycle note for weekly pages
+
+>[!NOTE]
+>
+>Preview release: February 9, 2023; Planned Production release: February 23, 2023
+
+
+
+-->

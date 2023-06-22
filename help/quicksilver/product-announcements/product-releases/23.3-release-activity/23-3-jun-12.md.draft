@@ -1,0 +1,37 @@
+---
+title: 23.3 release activity week of June 12, 2023
+description: 23.3 release activity week of June 12, 2023
+author: Lisa
+feature: Product Announcements
+exl-id: 7ba1f5d1-cdf5-4bcd-8ab2-2e26caa410cf
+---
+# 23.3 release activity week of June 12, 2023
+
+This page describes all enhancements made with the 23.3 release to the Preview environment the week of June 12, 2023. These enhancements will be made available in the Production environment with the 23.3 release.
+
+For a list of all changes available at this point in the 23.3 release cycle, see [23.3 Release overview](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-release-overview.md).
+
+## Add comments to cards on boards
+
+>[!NOTE]
+>
+>This feature is available only through the early feature opt-in for Workfront Boards.
+
+You can now add comments to both ad hoc and connected cards on boards, and tag other users on the comments. Comments are available in the card details. The comment feature for boards uses the new Adobe Workfront commenting experience.
+
+For more information, see [Add an ad hoc card to a board](/help/quicksilver/agile/get-started-with-boards/add-card-to-board.md) and [Use connected cards on boards](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
+
+
+
+
+<!--HTML you might need
+
+Video link
+
+[View a video demonstration of this feature](ADD URL){target=_blank}
+
+Off-cycle note for weekly pages
+
+>[!NOTE]
+>
+>Preview release: February 9, 2023; Planned Production release: February 23, 2023-->

@@ -1,0 +1,77 @@
+---
+title: 23.3 release activity week of April 17, 2023
+description: 23.3 release activity week of April 17, 2023
+author: Courtney
+draft: Probably
+feature: Product Announcements
+exl-id: e8074ba9-94e3-4b82-b572-1bde63175059
+---
+# 23.3 release activity week of April 17, 2023
+
+This page describes all enhancements made with the 23.3 release to the Preview environment the week of April 17, 2023. These enhancements will be made available in the Production environment with the 23.3 release. 
+
+For a list of all changes available at this point in the 23.3 release cycle, see [23.3 Release overview](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-release-overview.md).
+
+## Dynamic board template
+
+>[!NOTE]
+>
+>This feature is available only through the early feature opt-in for Workfront Boards.
+
+A new template, dynamic board, is now available for standalone boards. This template is not available for boards inside of a workstream.
+
+The dynamic board allows you to automatically populate a board with cards based on a Workfront project. Using filters, cards are added to columns based on their status.
+
+For more information, see [Create or edit a board](/help/quicksilver/agile/get-started-with-boards/create-edit-board.md).
+
+[View a video demonstration of this feature](https://video.tv.adobe.com/v/3418600/){target=_blank}
+
+## Migrate agile team Kanban cards to Boards
+
+A new **Add to Boards** button on agile team Kanban boards allows you to add all cards from the Kanban board to a Workfront board. You can choose to create a new Workfront board or add the cards to an existing board.
+
+The placement of cards on the Workfront board is based on column policies. (For example, a policy could move all cards with a status of "In Progress" to a specific column.) If there are no policies or the cards don't match the policies, the cards are placed in the leftmost column. At this time, cards in the Backlog column on the legacy board are not added to the Workfront board.
+
+The cards are not removed from the agile team Kanban board, and card status changes will sync to both boards. You can keep both boards active until you are ready to switch to Workfront Boards.
+
+For more information, see [Migrate agile team Kanban cards to Workfront boards](/help/quicksilver/agile/use-boards-agile-planning-tools/migrate-kanban-cards-to-boards.md). 
+
+[View a video demonstration of this feature](https://video.tv.adobe.com/v/3420425/){target=_blank}
+
+## Left navigation added to card details on Boards
+
+>[!NOTE]
+>
+>This feature is available only through the early feature opt-in for Workfront Boards.
+
+As more field options are added to cards on Workfront Boards, the card details have grown longer. A new navigation panel on the left of the card details allows you to select a section and move automatically to that group of fields.
+
+Also, you can now add URLs in the Description field and they will become clickable links when the card details are saved. These updates apply to both ad hoc and connected cards.
+
+For more information, see [Add an ad hoc card to a board](/help/quicksilver/agile/get-started-with-boards/add-card-to-board.md) and [Use connected cards on boards](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
+
+[View a video demonstration of this feature.](https://video.tv.adobe.com/v/3418598/){target=_blank}
+
+## Profiles without avatars now display user initials
+
+To make it easier to find specific users within large lists, profiles without customized avatars now display the user's initials on a colored background in lists and legacy reports. This is a minor cosmetic change, and does not apply if an avatar photo is already being used or the user is deactivated.
+
+For more information on editing user profiles, see [Edit a user's profile](https://experienceleague.adobe.com/docs/workfront/using/administration-and-setup/add-users/create-manage-users/edit-a-users-profile.html?lang=en).
+
+
+
+<!-- HTML you might need
+
+Video link
+
+[View a video demonstration of this feature](ADD URL){target=_blank}
+
+Off-cycle note for weekly pages
+
+>[!NOTE]
+>
+>Preview release: February 9, 2023; Planned Production release: February 23, 2023
+
+
+
+-->

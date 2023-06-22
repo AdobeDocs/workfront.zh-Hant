@@ -1,0 +1,63 @@
+---
+title: 23.3 release activity week of April 24, 2023
+description: 23.3 release activity week of April 24, 2023
+author: Courtney
+draft: Probably
+feature: Product Announcements
+exl-id: f6a944d1-5307-464f-8040-70316a94d315
+---
+# 23.3 release activity week of April 24, 2023
+
+This page describes all enhancements made with the 23.3 release to the Preview environment the week of April 24, 2023. These enhancements will be made available in the Production environment with the 23.3 release. 
+
+For a list of all changes available at this point in the 23.3 release cycle, see [23.3 Release overview](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-release-overview.md).
+
+## Simple filters added to dynamic board template
+
+>[!NOTE]
+>
+>This feature is available only through the early feature opt-in for Workfront Boards.
+
+The filters on the dynamic board template have been simplified to allow you to create a board more quickly. The available filters are Workfront projects and assignments by team or user. You can switch to the advanced filters if you prefer. These filter options are also in the Configure panel for dynamic boards.
+
+For more information, see [Create or edit a board](/help/quicksilver/agile/get-started-with-boards/create-edit-board.md).
+
+## Adjust automated proof workflow template settings using Adobe Workfront for Creative Cloud
+
+You can now adjust existing automated workflow template settings directly in the Creative Cloud. Once you choose an existing automated workflow template, you can:
+
+* Disable stages
+* Add additional recipients
+* Change proof roles
+* Adjust the deadline
+* Update email notifications 
+* And more!
+
+For more information, see [Upload documents and proofs with the [!DNL Adobe Workfront] plugin for [!DNL Creative Cloud] Applications](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-docs-proofs-toc.md).
+
+These enhancements are available for the following Creative Cloud apps:
+
+* Photoshop
+* XD
+* InDesign
+* Illustrator
+
+
+
+
+
+<!-- HTML you might need
+
+Video link
+
+[View a video demonstration of this feature](ADD URL){target=_blank}
+
+Off-cycle note for weekly pages
+
+>[!NOTE]
+>
+>Preview release: February 9, 2023; Planned Production release: February 23, 2023
+
+
+
+-->

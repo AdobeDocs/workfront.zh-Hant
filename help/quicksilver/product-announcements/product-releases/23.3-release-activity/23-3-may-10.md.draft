@@ -1,0 +1,54 @@
+---
+title: 23.3 release activity week of May 8, 2023
+description: 23.3 release activity week of May 8, 2023
+author: Nolan
+draft: Probably
+feature: Product Announcements
+exl-id: 846e0c5f-9acc-48df-8f5a-dce827eef6bd
+---
+# 23.3 release activity week of May 8, 2023
+
+This page describes all enhancements made with the 23.3 release to the Preview environment the week of May 8, 2023. These enhancements will be made available in the Production environment with the 23.3 release. 
+
+For a list of all changes available at this point in the 23.3 release cycle, see [23.3 Release overview](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-release-overview.md).
+
+## Map Workfront field values to tags in Experience Manager Assets
+
+Now, you can categorize and quickly find assets based on data from Workfront. You can map this data as part of your metadata configuration in the Workfront for Experience Manager Assets integration.
+
+Previously, mapping Workfront data to Experience Manager Assets tags was unavailable.
+
+For more information on this functionality in Experience Manager Assets as a Cloud Service, see [Configure the [!UICONTROL Experience Manager Assets as a Cloud Service] integration](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md).
+For more information on this functionality in Experience Manager Assets Essentials, see [Configure the Experience Manager Assets Essentials integration](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md).
+
+## Map Workfront fields to custom Experience Manager Assets metadata fields
+
+With the native integration, you can now map both native and built-in Workfront fields to custom metadata schema fields in Experience Manager Assets as a Cloud Service.
+
+For more information on this functionality in Experience Manager Assets as a Cloud Service, see [Configure the [!UICONTROL Experience Manager Assets as a Cloud Service] integration](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md).
+For more information on this functionality in Experience Manager Assets Essentials, see [Configure the Experience Manager Assets Essentials integration](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md).
+
+## Simple filters available on board intake columns
+
+>[!NOTE]
+>
+>This feature is available only through the early feature opt-in for Workfront Boards.
+
+Simplified filters have been added to the intake column setup to allow you to define the intake column more quickly. The available filters are Workfront projects and assignments by team or user. You can switch to the advanced filters if you prefer.
+
+For more information, see [Add an intake column to a board](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md).
+
+[View a video demonstration of this feature](https://video.tv.adobe.com/v/3419420/){target=_blank}
+
+
+<!--HTML you might need
+
+Video link
+
+[View a video demonstration of this feature](ADD URL){target=_blank}
+
+Off-cycle note for weekly pages
+
+>[!NOTE]
+>
+>Preview release: February 9, 2023; Planned Production release: February 23, 2023-->

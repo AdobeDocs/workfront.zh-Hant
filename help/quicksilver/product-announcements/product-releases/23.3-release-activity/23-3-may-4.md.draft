@@ -1,0 +1,21 @@
+---
+title: 23.3 release activity week of May 1, 2023
+description: 23.3 release activity week of May 1, 2023
+author: Courtney
+draft: Probably
+feature: Product Announcements
+exl-id: bd10a0c3-3f98-4167-8cf0-3eab394ecd84
+---
+# 23.3 release activity week of May 1, 2023
+
+This page describes all enhancements made with the 23.3 release to the Preview environment the week of May 1, 2023. These enhancements will be made available in the Production environment with the 23.3 release. 
+
+For a list of all changes available at this point in the 23.3 release cycle, see [23.3 Release overview](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-release-overview.md).
+
+## Group-level control available for "Where users can log time" timesheet and hour preference
+
+The system administrator can now lock and unlock the "Where users can log time" timesheet and hour preference. When this preference is unlocked, group administrators can configure the "Where users can log time" settings separately for each group.
+
+For more information, see [Configure timesheet and hour preferences](/help/quicksilver/administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md) and [Configure timesheet and hour preferences for a group](/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-groups/configure-timesheet-hour-preferences-group.md).
+
+[View a video demonstration of this feature](https://video.tv.adobe.com/v/3419111/){target=_blank}
