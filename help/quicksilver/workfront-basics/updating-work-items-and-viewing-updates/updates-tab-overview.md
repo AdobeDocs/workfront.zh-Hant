@@ -7,9 +7,9 @@ description: 物件的「更新」區段會顯示使用者對物件所做的註�
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: c73a63901523d99704f63f2e589b5a333619a19e
+source-git-commit: cd059c445d86ed5581e8b2cb01507f18b97954f3
 workflow-type: tm+mt
-source-wordcount: '1041'
+source-wordcount: '1076'
 ht-degree: 4%
 
 ---
@@ -79,7 +79,7 @@ ht-degree: 4%
     </ul> </td> 
    <td> 
     <ul> 
-     <li>劇本</li> 
+     <li>劇本*</li> 
      <li>任務</li> 
      <li>範本</li> 
      <li>範本任務</li> 
@@ -89,10 +89,13 @@ ht-degree: 4%
   </tr> 
  </tbody> 
 </table>
+*劇本是任務。 所有與工作相關的資訊也可用於劇本。
 
 ### Beta版評論體驗中「更新」區段的概觀
 
 ![](assets/updates-tab-after-unified-experience-for-issues.png)
+
+如需有關新註解體驗的可用功能和哪些物件的資訊，請參閱 [新的評論體驗](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 
 「更新」區段會在新評論體驗的下列標籤中顯示資訊：
 
@@ -109,7 +112,7 @@ ht-degree: 4%
    <td> 
     <ul> 
      <li><p>目標</p>
-     <li><span class="preview">看板區域中的卡片</span></li>
+     <li><span class="preview">看板區域中的卡片*</span></li>
       這是目標的唯一體驗 <span class="preview">和卡片</span>.
      </li> 
      <li><span class="preview">專案</span></li>
@@ -124,10 +127,7 @@ ht-degree: 4%
  </tbody> 
 </table>
 
-
->[!NOTE]
->
->當您啟用卡片上的「註解」和「系統活動」區段時，您可以在「展示板」區域中新增和檢視卡片的更新。 如需詳細資訊，請參閱 [新增臨機卡到展示板](../../agile/get-started-with-boards/add-card-to-board.md).
+*當您啟用卡片上的「註解」和「系統活動」區段時，您可以在「展示板」區域中新增和檢視卡片的更新。 如需詳細資訊，請參閱 [新增臨機卡到展示板](../../agile/get-started-with-boards/add-card-to-board.md).
 
 ## 也會出現在較高層級物件上的更新
 

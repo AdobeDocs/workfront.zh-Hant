@@ -6,9 +6,9 @@ description: 檢閱Adobe Workfront新評論體驗的每週發行活動。
 author: Alina
 feature: Product Announcements
 exl-id: 1c0cb547-ac99-4cdf-8a74-2c47ad5a10ad
-source-git-commit: 26e2a8ed6b0c6c1e4b51fc27b385b9753072faf9
+source-git-commit: 4e278a2418537fba0d8f2b8462571e4c843324a7
 workflow-type: tm+mt
-source-wordcount: '1203'
+source-wordcount: '1205'
 ht-degree: 4%
 
 ---
@@ -37,26 +37,70 @@ ht-degree: 4%
    * 為問題評論Experience Beta
    * 目標的新評論體驗（作為唯一體驗）
 * 第23.3發行版本（2023年7月20日）：
-   * 為專案、任務、故事和檔案評論Experience Beta。
-   * 為專案、任務、問題、本文和檔案加上註釋體驗測試版會成為預設選項。
+   * 為專案、任務和檔案評論Experience Beta。
    * 「展示板」區域中卡片的新註解體驗（作為唯一體驗）
-* 23.4版本期間（日期有待宣佈） (限量發行<!--, only available to Fast Track customers-->)：
+* 23.4版本期間（日期有待宣佈） (限量發行<!--, only available to customers that choose the fast release -->)：
    * 適用於範本、範本任務、計畫、投資組合、團隊、使用者和時程表的新評論體驗（作為唯一體驗）
 * 23.4版（2023年10月初）
    * 適用於範本、範本任務、計畫、投資組合、團隊、使用者和時程表的新評論體驗（作為唯一體驗）
   <!--wait for Anna to confirm this after the teams are starting to work on this and will be closer to finish line; QBR is June 19, 2023, but wait until MUCH after this: * Add the new commenting experience to Home and the Summary panel. -->
+   * 為專案、任務、問題和檔案評論Experience Beta會成為預設選項。
 * 2023年底：
-   * 下列物件擁有新的註解體驗作為預設體驗：專案、任務、問題、劇本、檔案、範本、範本任務、方案、投資組合、團隊、使用者和時程表、目標、卡片。 舊版註釋體驗仍會保留為選項。
+   * 舊版註釋體驗將保留為下列物件的選項：專案、任務、問題和檔案。
+
+     範本、範本任務、計畫、投資組合、團隊、使用者和時程表、目標、卡片將新的評論體驗作為唯一選項。
 
   >[!NOTE]
   >
   >    反複專案將繼續擁有舊版評論體驗。
 
-下節列出在原始版本之後新增的功能，從最近發行的功能開始。
+以下小節包含原始發行後新增的功能清單，從最近發行的功能開始。
 
 ## 已發行功能
 
 以下資訊是指每週發行活動，其基礎為新的評論測試版體驗中所包含的功能。 此頁面列出針對新評論體驗新增的功能及已解決的問題。
+
+<!--
+### Week of June 19, 2023
+
+#### Quote comment content in a new reply 
+
+Now, you have the ability to copy the content of a comment and add it as a new quote to a reply in the same thread when using the new commenting experience.  
+
+For more information, see [Update work](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md). 
+
+Preview and Production: June 22, 2023 
+
+### Upcoming releases, after June 19, 2023
+
+<!--*****************CLOSE THIS COMMENT: restructure this section with actual weeks and dates, when we know them--
+
+The features described in this section are planned to release shortly after the week of June 19, 2023. 
+
+#### Add emojis to an update
+
+You can now add emojis to a comment using a Rich Text toolbar option in the new commenting experience. 
+
+For more information, see [Update work](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+
+Preview: To be announced 
+
+Production: To be announced. Before the 23.3 release.
+
+#### New commenting experience for additional objects 
+
+The new commenting experience will be available for the following objects, shortly after the 23.3 release to Production: template tasks, templates, timesheets, teams, users, programs, portfolios.  
+
+This will be the only commenting experience for these objects, as the legacy commenting experience is removed when you access them.  
+
+For more information, see [New commenting experience](../../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
+
+Preview release: To be announced, after the 23.3 Production release (July 20, 2023)
+
+Production release for the Fast release customers: To be announced, after the 23.3 Production release  
+
+Production release for all customers: with the 23.4 release 
+-->
 
 ### 2023年6月12日起一週
 

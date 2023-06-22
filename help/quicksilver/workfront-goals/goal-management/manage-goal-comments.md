@@ -6,9 +6,9 @@ description: 您可以將註解新增至所有可在Adobe Workfront目標中檢�
 author: Alina
 feature: Workfront Goals
 exl-id: 6cf2d2d2-5ba5-40f2-a803-01359c338541
-source-git-commit: 7b64e27c441bdbd60884e8be3b2dbbf3b71134b6
+source-git-commit: cd059c445d86ed5581e8b2cb01507f18b97954f3
 workflow-type: tm+mt
-source-wordcount: '923'
+source-wordcount: '934'
 ht-degree: 0%
 
 ---
@@ -181,7 +181,7 @@ ht-degree: 0%
         如需詳細資訊，請參閱 [更新工作](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
 1. （可選）按一下 **更多** 功能表 ![](assets/more-icon.png) ，然後按一下 **刪除** 以刪除您新增的註解。 如需詳細資訊，請參閱 [更新工作](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
-1. （可選）按一下 **回覆** 若要回覆現有註解，請遵循上述步驟5-9。 <!--insure this stays accurate-->
+1. （可選）按一下 **回覆** 若要回覆現有註解，請遵循上述步驟5-9。 如需有關回覆更新的詳細資訊，請參閱 [回覆更新](../../workfront-basics/updating-work-items-and-viewing-updates/reply-to-updates.md). <!--insure this stays accurate-->
 1. （有條件和選擇性）如果其他使用者新增了在「更新」區段的可見區域外顯示的註解，請按一下 **檢視** 藍色內部 **新評論橫幅** 在熒幕底部顯示這些註解。
 
    ![](assets/blue-new-comments-banner-with-view-button.png)

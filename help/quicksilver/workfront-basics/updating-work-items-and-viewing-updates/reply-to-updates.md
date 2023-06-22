@@ -6,9 +6,9 @@ description: 當有人在工作物件上新增或回覆更新時，他們的回�
 author: Lisa and Alina
 feature: Get Started with Workfront
 exl-id: a8271f3c-7a08-4eb3-aaff-deb250f5af73
-source-git-commit: c73a63901523d99704f63f2e589b5a333619a19e
+source-git-commit: cd059c445d86ed5581e8b2cb01507f18b97954f3
 workflow-type: tm+mt
-source-wordcount: '1194'
+source-wordcount: '1214'
 ht-degree: 0%
 
 ---
@@ -107,8 +107,11 @@ ht-degree: 0%
 
 ### 使用評論Beta版體驗時回複評論
 
+如需有關新註解體驗的可用功能和哪些物件的資訊，請參閱 [新的評論體驗](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
+
 1. 前往您要新增回覆的物件。
 1. 按一下 **更新**，然後按一下 **註解** 定位物件，並尋找您要回覆的註解或回覆。
+   <!-- Ensure this link is called and cased the same way as  before: 1. (Optional) To include text from a previous update in your reply, click the **More** menu next to the update or reply you want to quote, then click **Quote Reply**. Text from the previous update appears in the input area, marked with a vertical gray line.-->
 1. 按一下 **回覆**.
 
    您可以在頁面底部看到積極參與交談的使用者 **新註解** 方塊中，您可以新增更多或移除不再相關的專案。 這些使用者以及訂閱物件的任何使用者會在物件更新或回覆時收到通知。 您也可以標籤更多使用者，讓他們加入您的回覆。  若要標籤更多使用者，請參閱 [標籤其他更新的專案](../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).

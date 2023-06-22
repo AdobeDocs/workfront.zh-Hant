@@ -6,9 +6,9 @@ description: 目前正在開發Adobe Workfront中評論體驗的更新。 此更
 author: Alina
 feature: Product Announcements
 exl-id: f750b35b-8021-4cc1-81d6-e1ece2530438
-source-git-commit: f2849f7a36a45a81c528c267d237d312a7089e5d
+source-git-commit: cd059c445d86ed5581e8b2cb01507f18b97954f3
 workflow-type: tm+mt
-source-wordcount: '621'
+source-wordcount: '620'
 ht-degree: 1%
 
 ---
@@ -425,7 +425,7 @@ ht-degree: 1%
 
 * 在更新區段中啟用Beta版體驗時：
 
-   * 問題， <span class="preview">專案、任務、本文和檔案</span>
+   * 問題， <span class="preview">專案、任務和檔案</span>
 
   如需管理Workfront物件更新的詳細資訊，請參閱 [更新工作](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 

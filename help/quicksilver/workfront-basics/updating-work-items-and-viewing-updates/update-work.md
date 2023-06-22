@@ -6,9 +6,9 @@ description: 您可以在Adobe Workfront物件（專案、任務或問題）上�
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: c73a63901523d99704f63f2e589b5a333619a19e
+source-git-commit: cd059c445d86ed5581e8b2cb01507f18b97954f3
 workflow-type: tm+mt
-source-wordcount: '3373'
+source-wordcount: '3413'
 ht-degree: 1%
 
 ---
@@ -188,6 +188,8 @@ drafted for P&P release:
 1. 若要回覆更新，請參閱 [回覆更新](../../workfront-basics/updating-work-items-and-viewing-updates/reply-to-updates.md).
 
 ### 使用備註測試版體驗新增工作專案的更新
+
+如需有關新註解體驗的可用功能和哪些物件的資訊，請參閱 [新的評論體驗](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 
 1. 找到您要更新的物件，然後按一下其名稱以開啟物件的頁面。
 1. 按一下  **更新** 在左側面板中。
@@ -388,6 +390,8 @@ drafted for P&P release:
 
 
 ### 複製新評論體驗中的更新
+
+如需有關新註解體驗的可用功能和哪些物件的資訊，請參閱 [新的評論體驗](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 
 <!--when we remove and deprecate the legacy stream, add screen shots in the secitons below-->
 
