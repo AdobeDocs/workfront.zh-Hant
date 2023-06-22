@@ -6,16 +6,14 @@ description: 您可以快速將臨機操作卡新增至展示板，並將其指�
 author: Lisa
 feature: Agile
 exl-id: 9bc1f92a-85b0-44fd-b5de-09a69af6def5
-source-git-commit: 80e0a053f39991d3ed8d9bd2a11a8da2d5de588e
+source-git-commit: c1fab97289f1806676f9d80ccaa640fffa5192e5
 workflow-type: tm+mt
-source-wordcount: '902'
+source-wordcount: '931'
 ht-degree: 0%
 
 ---
 
 # 新增臨機卡到展示板
-
-{{highlighted-preview}}
 
 您可以快速將卡片新增到展示板，並將其指派給展示板上的成員。 此卡片可代表任務、問題、人員、群組，或您要加入展示板的任何型別的專案。
 
@@ -100,18 +98,18 @@ ht-degree: 0%
       <td> <p>按一下 <strong>[！UICONTROL新增檢查清單專案]</strong>. 然後，輸入專案的標題並按Enter。 系統會自動新增另一個專案。 繼續輸入標題以新增更多專案。</p> <p>檢查清單頂端的計數器會顯示完成的專案數和專案總數。</p> <p>如需檢查清單專案的詳細資訊，請參閱 <a href="/help/quicksilver/agile/get-started-with-boards/manage-checklist-items.md">管理卡片上的檢查清單專案</a>.</p> </td> 
      </tr>
      <tr>
-      <td role="rowheader"><span class="preview"><strong>[！UICONTROL註解]</strong></span> </td>
-      <td><span class="preview"><p>按一下 <strong>[！UICONTROL新註解]</strong> 欄位並輸入您的註解。 使用格式化工具來格式化文字，然後按一下 <strong>新增附件</strong> 圖示 <img src="assets/attachment-icon.png" alt="附件圖示"> 將檔案附加至註解。 若要標籤人員或團隊，請使用註釋區域底部的搜尋方塊。 使用者不必是展示板的成員。</p><p><strong>注意：</strong> 目前，在臨時資訊卡上標籤為評論的使用者不會收到電子郵件通知。
+      <td role="rowheader"><strong>[！UICONTROL註解]</strong></td>
+      <td><p>按一下 <strong>[！UICONTROL新註解]</strong> 欄位並輸入您的註解。 使用格式化工具來格式化文字，然後按一下 <strong>新增附件</strong> 圖示 <img src="assets/attachment-icon.png" alt="附件圖示"> 將檔案附加至註解。 若要標籤人員或團隊，請使用註釋區域底部的搜尋方塊。 使用者不必是展示板的成員。</p><p><strong>注意：</strong> 目前，在臨時資訊卡上標籤為評論的使用者不會收到電子郵件通知。
       </p><p>按一下 <strong>[！UICONTROL提交]</strong> 將註解新增至卡片。</p>
-      <p><strong>注意：</strong> 卡片上的註解區域會使用新的Adobe Workfront註解體驗。 如需詳細資訊，請參閱 <a href="/help/quicksilver/product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md">新的評論體驗</a>.</p></span></td>
+      <p><strong>注意：</strong> 卡片上的註解區域會使用新的Adobe Workfront註解體驗。 如需詳細資訊，請參閱 <a href="/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md">更新工作</a>.</p><p><strong>注意：</strong> 只有在Workfront展示板的早期功能選擇加入中，才可使用卡片上的註解。</p></td>
      </tr>
     </tbody> 
    </table>
 
-   生產環境中的影像範例：
+   未使用早期功能選擇加入時，生產環境中的範例影像：
    ![臨機卡片詳細資料](assets/boards-edit-ad-hoc-card-041723.png)
 
-   <span class="preview">「預覽」環境中的範例影像：</span>
+   早期功能選擇加入啟用時，生產環境中的範例影像：
    ![臨機卡片詳細資料](assets/ad-hoc-card-details-with-comments.png)
 
    使用左側導覽面板在卡片詳細資訊的欄位區段之間移動。
