@@ -7,9 +7,9 @@ description: 本頁說明預覽環境專用Adobe Workfront目標的23.3版本所
 author: Courtney
 feature: Product Announcements, Workfront Goals
 exl-id: 5fd2e141-af8d-4934-a5f6-a4cdf5820082
-source-git-commit: f2849f7a36a45a81c528c267d237d312a7089e5d
+source-git-commit: 3e6f4b8c8bfb9cb6106dbb9522d77f5133a886e3
 workflow-type: tm+mt
-source-wordcount: '146'
+source-wordcount: '163'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 ## 更新區段增強功能
 
-對目標的更新區段的增強功能將在23.3版本發行時間範圍內提供。 這些增強功能在發佈到預覽後不久將在生產環境中提供。
+對目標的更新區段的增強功能將在23.3版本發行時間範圍內提供，同時發佈更新到新的評論測試版體驗。 這些增強功能在發佈到預覽後不久將在生產環境中提供。
 
 對目標提供的註解增強功能與隨其他Workfront物件的新註解測試版體驗一起發行的註解增強功能相同。
 

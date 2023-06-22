@@ -2,9 +2,9 @@
 user-guide-title: Workfront 指南
 user-guide-description: 使用文件、教學課程和其他資源，了解如何在您的組織中實施並有效使用 Adobe Workfront。
 feature-set: Workfront
-source-git-commit: bb25e08bd81c6c5c2fa35fde7912e8607b894284
+source-git-commit: c75b418f02ea05905d712efe6fd608c8217ba310
 workflow-type: tm+mt
-source-wordcount: '13086'
+source-wordcount: '13071'
 ht-degree: 1%
 
 ---
@@ -20,15 +20,13 @@ ht-degree: 1%
       * [準備Adobe Workfront的季度發行](product-announcements/product-releases/release-readiness.md)
       * 23.3版 {#release-23-3}
          * [23.3版本總覽](product-announcements/product-releases/23.3-release-activity/23-3-release-overview.md)
-         * [23.3 2023年4月10日當週發行活動](product-announcements/product-releases/23.3-release-activity/23-3-apr-10.md)
-         * [23.3 2023年4月17日的發行活動週](product-announcements/product-releases/23.3-release-activity/23-3-apr-17.md)
-         * [23.3 2023年4月24日當週的發行活動週](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-apr-24.md)
-         * [23.3 2023年5月1日起的發行活動週](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-4.md)
-         * [23.3 2023年5月8日的發行活動週](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-10.md)
-         * [23.3 2023年5月15日當週發行活動](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-15.md)
-         * [23.3 2023年5月29日當週發行活動](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-29.md)
-         * [23.3 2023年6月5日的發行活動週](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-jun-5.md)
-         * [23.3 2023年6月12日當週的發行活動週](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-jun-12.md)
+         * [23.3管理員增強功能](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-admin-enhancements.md)
+         * [23.3敏捷增強功能](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-agile-enhancements.md)
+         * [23.3整合增強功能](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-integration-enhancements.md)
+         * [23.3專案增強功能](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-project-enhancements.md)
+         * [23.3行動增強功能](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-mobile-enhancements.md)
+         * [23.3其他增強功能](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-other-enhancements.md)
+         * [在23.3發行時間範圍內的外觀和感覺更新](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-look-and-feel-updates.md)
       * 23.2版 {#release-23-2}
          * [23.2版本總覽](product-announcements/product-releases/23.2-release-activity/23-2-release-overview.md)
          * [23.2管理員增強功能](product-announcements/product-releases/23.2-release-activity/23-2-admin-enhancements.md)
@@ -215,6 +213,7 @@ ht-degree: 1%
       * Workfront校訂發行活動 {#proof-release}
          * 第23.3發行版本校訂 {#proof-23-3-release}
             * [23.3版的Adobe Workfront校訂](/help/quicksilver/product-announcements/product-releases/workfront-proof-release-activity/proof-23-3-release/proof-23-3-overview.md)
+            * [Adobe Workfront Proof 23.3發行活動： 2023年7月17日起的一週](/help/quicksilver/product-announcements/product-releases/workfront-proof-release-activity/proof-23-3-release/proof-23-3-jul-17.md)
             * [Adobe Workfront Proof 23.3發行活動： 2023年6月5日當週](/help/quicksilver/product-announcements/product-releases/workfront-proof-release-activity/proof-23-3-release/proof-23-3-jun-5.md)
             * [Adobe Workfront Proof 23.3發行活動： 2023年5月8日當週](/help/quicksilver/product-announcements/product-releases/workfront-proof-release-activity/proof-23-3-release/proof-23-3-may-8.md)
          * [Workfront校訂發行活動： 2021年5月17日當週](product-announcements/product-releases/workfront-proof-release-activity/wp-release-may-17.md)
@@ -341,7 +340,7 @@ ht-degree: 1%
       * [不再支援的功能排程](product-announcements/announcements/feature-removal-timeline.md)
       * [維護期間常見問題集](product-announcements/announcements/maintenance-window-faq.md)
       * [將校樣新增至允許清單所需的變更](product-announcements/announcements/proofhq-domain-change-workfront.md)
-      * [取消訂閱新Adobe Workfront體驗中的公告中心訊息](product-announcements/announcements/unsubscribe-from-ac-messages.md)
+      * [在新的Adobe Workfront體驗中取消訂閱公告中心訊息](product-announcements/announcements/unsubscribe-from-ac-messages.md)
       * 宣告封存 {#announcement-archive}
          * [宣告封存](product-announcements/announcements/announcement-archive/announcement-archive.md)
          * [iOS和Android適用的更新行動應用程式（2017年8月初）](product-announcements/announcements/announcement-archive/updated-mobile-app.md)
@@ -1746,7 +1745,7 @@ ht-degree: 1%
          * [校訂角色概觀](review-and-approve-work/proofing/proofing-overview/proof-roles.md)
          * [自動化工作流程總覽](review-and-approve-work/proofing/proofing-overview/automated-workflow.md)
          * [自動化工作流程階段概觀](review-and-approve-work/proofing/proofing-overview/stages.md)
-         * [校訂評論和決定概覽的通知](review-and-approve-work/proofing/proofing-overview/notifications-proof-comments-decisions.md)
+         * [校訂評論和決定概觀的通知](review-and-approve-work/proofing/proofing-overview/notifications-proof-comments-decisions.md)
          * [互動式內容校訂概觀](review-and-approve-work/proofing/proofing-overview/interactive-content-proofs.md)
          * [校樣概觀的檔案重新處理](review-and-approve-work/proofing/proofing-overview/document-reprocessing-for-proofing.md)
          * [支援的校訂檔案型別和大小限制概觀](review-and-approve-work/proofing/proofing-overview/supported-proofing-file-types.md)
@@ -1895,7 +1894,7 @@ ht-degree: 1%
    * [刪除「案例規劃工具」中的計畫](scenario-planner/delete-plans.md)
    * [將專案匯入至「案例規劃工具」中的計畫](scenario-planner/import-projects-to-plans.md)
    * [情境規劃工具中的方案概觀](scenario-planner/initiatives-overview.md)
-   * [案例計畫工具中的計畫概要](scenario-planner/plans-overview.md)
+   * [「案例規劃工具」中的計畫概要](scenario-planner/plans-overview.md)
    * [更新「情境規劃工具」中的方案優先順序](scenario-planner/prioritize-initiatives.md)
    * [透過在情境規劃工具中發佈行動方案來更新或建立專案](scenario-planner/publish-scenarios-update-projects.md)
    * [協調專案與方案之間的資源配置概要](scenario-planner/overview-reconcile-allocations-between-projects-initiatives.md)
