@@ -2,9 +2,9 @@
 user-guide-title: Workfront 指南
 user-guide-description: 使用文件、教學課程和其他資源，了解如何在您的組織中實施並有效使用 Adobe Workfront。
 feature-set: Workfront
-source-git-commit: c75b418f02ea05905d712efe6fd608c8217ba310
+source-git-commit: 19ae3a7c21047c4abf476d051e1cbefd09559e84
 workflow-type: tm+mt
-source-wordcount: '13071'
+source-wordcount: '13088'
 ht-degree: 1%
 
 ---
@@ -802,6 +802,10 @@ ht-degree: 1%
       * [Adobe Workfront中的專案、任務和問題日期概觀](workfront-basics/navigate-workfront/workfront-navigation/definitions-pti-dates.md)
    * 首頁 {#home}
       * [首頁](workfront-basics/using-home/home.md)
+      * 新首頁 {#new-home}
+         * [新首頁](workfront-basics/using-home/new-home/new-home.md)
+         * [開始使用新首頁](workfront-basics/using-home/new-home/get-started-with-new-home.md)
+         * [新增、編輯或移除新首頁中的Widget](workfront-basics/using-home/new-home/add-edit-remove-widgets-in-new-home.md)
       * 使用首頁區域 {#use-home-area}
          * [使用首頁區域](workfront-basics/using-home/using-the-home-area/use-the-home-area.md)
          * [開始使用首頁](workfront-basics/using-home/using-the-home-area/get-started-with-home.md)
@@ -1894,7 +1898,7 @@ ht-degree: 1%
    * [刪除「案例規劃工具」中的計畫](scenario-planner/delete-plans.md)
    * [將專案匯入至「案例規劃工具」中的計畫](scenario-planner/import-projects-to-plans.md)
    * [情境規劃工具中的方案概觀](scenario-planner/initiatives-overview.md)
-   * [「案例規劃工具」中的計畫概要](scenario-planner/plans-overview.md)
+   * [案例計畫工具中的計畫概要](scenario-planner/plans-overview.md)
    * [更新「情境規劃工具」中的方案優先順序](scenario-planner/prioritize-initiatives.md)
    * [透過在情境規劃工具中發佈行動方案來更新或建立專案](scenario-planner/publish-scenarios-update-projects.md)
    * [協調專案與方案之間的資源配置概要](scenario-planner/overview-reconcile-allocations-between-projects-initiatives.md)
