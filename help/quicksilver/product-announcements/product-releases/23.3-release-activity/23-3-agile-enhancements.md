@@ -3,9 +3,9 @@ title: 23.3敏捷增強功能
 description: 23.3敏捷增強功能
 author: Lisa
 feature: Product Announcements
-source-git-commit: 0f4cdc190ad841a843c5c3d0195b4c654450aa83
+source-git-commit: b7c46cc7a29bdf67e023a01543dffc17be98999a
 workflow-type: tm+mt
-source-wordcount: '1270'
+source-wordcount: '1247'
 ht-degree: 0%
 
 ---
@@ -15,6 +15,8 @@ ht-degree: 0%
 本頁說明23.3版對「預覽」環境所做的所有敏捷增強功能。 這些增強功能將在23.3版本的生產環境中提供。
 
 如需23.3版本週期目前可用的所有變更清單，請參閱 [23.3版本總覽](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-release-overview.md).
+
+如需在季度發行之前選擇加入新主機板功能的詳細資訊，請參閱 [Adobe Workfront展示板的早期功能選擇加入](/help/quicksilver/agile/get-started-with-boards/boards-early-feature-opt-in.md).
 
 ## 專案的敏捷檢視顯示看板
 
@@ -28,24 +30,6 @@ ht-degree: 0%
 
 更新後專案「敏捷檢視」的檔案將在發行版本中提供預覽。
 
-## 深色模式現在可在Adobe Workfront展示板上使用
-
-您現在可以在深色模式下顯示您的所有展示板和工作流程。 新設定可透過「面板」圖示板上的偏好設定來使用。
-
->[!NOTE]
->
->如果您組織的Workfront執行個體已上線到Adobe整合式體驗，您可以透過您的偏好設定選單（您的個人資料圖片）為所有Adobe Experience Cloud啟用深色主題格式，並且您不會看到Workfront展示板的個別深色模式選項。
-
-如需詳細資訊，請參閱 [看板電子郵件通知和偏好設定](/help/quicksilver/agile/get-started-with-boards/boards-emails.md).
-
-## Adobe Workfront展示板中工作流程反複專案的增強功能
-
-我們已新增將目標新增至疊代的功能，不必在卡片上列出目標。 目標會以檢查清單格式新增，並可標籤為完成。 反複專案右上方的量度區域會顯示存在多少個目標以及已完成的目標數。
-
-此外，「下一個反複專案」欄現在可在反複專案面板上使用。 當您在此欄中放置卡片時，卡片會自動傳送到下一個反複專案，而不會返回到待處理專案。 在下一個反複專案上，卡片會出現在與其狀態相對應的欄中。
-
-如需有關這兩項功能的詳細資訊，請參閱 [在工作串流中建立反複專案](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration-in-workstream.md).
-
 ## 依展示板欄排序
 
 我們新增了排序展示板欄中卡片的功能。 當您選取排序依據的選項時，所有欄都會排序。 您無法排序單一欄，而且未排序待處理專案或輸入欄。
@@ -56,6 +40,24 @@ ht-degree: 0%
 
 如需詳細資訊，請參閱 [在展示板中篩選和搜尋](/help/quicksilver/agile/get-started-with-boards/filter-search-in-board.md).
 
+## 深色模式現在可在Adobe Workfront展示板上使用
+
+您現在可以在深色模式下顯示您的所有展示板和工作流程。 新設定可透過「面板」圖示板上的偏好設定來使用。
+
+>[!NOTE]
+>
+>如果您組織的Workfront執行個體已上線到Adobe整合式體驗，您可以透過您的偏好設定選單（您的個人資料圖片）為所有Adobe Experience Cloud啟用深色主題格式，並且您不會看到Workfront展示板的個別深色模式選項。
+
+如需詳細資訊，請參閱 [看板電子郵件通知和偏好設定](/help/quicksilver/agile/get-started-with-boards/boards-emails.md).
+
+## Adobe Workfront展示板中工作流程反複專案可用的目標
+
+我們已新增將目標新增至疊代的功能，不必在卡片上列出目標。 目標會以檢查清單格式新增，並可標籤為完成。 反複專案右上方的量度區域會顯示存在多少個目標以及已完成的目標數。
+
+<!--Also, the Next Iteration column is now available on iteration boards. When you place a card in this column, it is automatically carried to the next iteration and does not return to the backlog. On the next iteration, the card appears in the column that corresponds with its status.-->
+
+如需詳細資訊，請參閱 [在工作串流中建立反複專案](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration-in-workstream.md).
+
 ## 在展示板上的卡片中新增註解
 
 >[!NOTE]
@@ -65,6 +67,8 @@ ht-degree: 0%
 您現在可以在展示板上同時新增註解至隨選和已連線的卡片，並在註解上標籤其他使用者。 卡片詳細資料中會顯示註解。 展示板的註解功能會使用新的Adobe Workfront註解體驗。
 
 如需詳細資訊，請參閱 [新增臨機卡到展示板](/help/quicksilver/agile/get-started-with-boards/add-card-to-board.md) 和 [在展示板上使用連線的卡片](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
+
+[觀看此功能的影片示範](https://video.tv.adobe.com/v/3420832/){target=_blank}
 
 ## 展示板標籤管理員的增強功能
 

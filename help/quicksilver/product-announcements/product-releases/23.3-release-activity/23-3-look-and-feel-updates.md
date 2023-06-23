@@ -4,9 +4,9 @@ description: 在23.3發行時間範圍內的外觀和感覺更新
 author: Courtney
 feature: Product Announcements
 exl-id: 77b43c01-4476-4243-b8c4-062afe786a1d
-source-git-commit: 0f4cdc190ad841a843c5c3d0195b4c654450aa83
+source-git-commit: b34325813af7abd0e5107174734f06d6694acfd6
 workflow-type: tm+mt
-source-wordcount: '211'
+source-wordcount: '257'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->預覽和生產版本：有待宣佈（23.3版本之前）
+>預計預覽版本： 2023年6月28日；預計生產版本： 2023年7月13日
 
 我們已改善「已提交請求」清單的介面。
 
@@ -36,8 +36,16 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->預覽版本：即將宣佈（23.3版本之前）；生產版本：搭配23.3版本
+>預計預覽版： 2023年7月5日；預計生產版：搭配23.3版
 
 我們已更新「新請求」方塊，此方塊會在提交新請求時顯示。 現在，介面與將新問題新增到專案時顯示的新問題方塊相符。
 
 如需詳細資訊，請參閱 [建立並提交Adobe Workfront請求](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md).
+
+## 更新的收費率清單
+
+>[!NOTE]
+>
+>預覽版本： 2023年6月29日；快速版本客戶的計畫生產版本：將在23.3生產版本之後宣佈；所有客戶的計畫生產版本：透過23.4版本
+
+專案收費率清單現在具有更現代的外觀和感覺，可在Workfront的大部分其他清單中找到。

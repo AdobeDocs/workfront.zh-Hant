@@ -3,9 +3,9 @@ title: 23.3其他增強功能
 description: 23.3其他增強功能
 author: Lisa
 feature: Product Announcements
-source-git-commit: 0f4cdc190ad841a843c5c3d0195b4c654450aa83
+source-git-commit: b34325813af7abd0e5107174734f06d6694acfd6
 workflow-type: tm+mt
-source-wordcount: '439'
+source-wordcount: '442'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,9 @@ ht-degree: 0%
 
 新首頁在發行後將成為所有使用者的預設體驗。 不過，您可以選擇在我們繼續開發其功能時恢復為現有的「首頁」體驗。
 
-新首頁的檔案將於6月23日發行預覽。
+如需詳細資訊，請參閱 [開始使用Adobe Workfront中的新首頁](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md).
+
+[觀看此功能的影片示範](https://video.tv.adobe.com/v/3420860/){target=_blank}
 
 ## 其他物件的新註解體驗
 

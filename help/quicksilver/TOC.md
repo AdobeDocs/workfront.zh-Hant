@@ -2,9 +2,9 @@
 user-guide-title: Workfront 指南
 user-guide-description: 使用文件、教學課程和其他資源，了解如何在您的組織中實施並有效使用 Adobe Workfront。
 feature-set: Workfront
-source-git-commit: 19ae3a7c21047c4abf476d051e1cbefd09559e84
+source-git-commit: 06dc88ee79736a8a0f4b5667370849827d771ca1
 workflow-type: tm+mt
-source-wordcount: '13088'
+source-wordcount: '13091'
 ht-degree: 1%
 
 ---
@@ -22,6 +22,7 @@ ht-degree: 1%
          * [23.3版本總覽](product-announcements/product-releases/23.3-release-activity/23-3-release-overview.md)
          * [23.3管理員增強功能](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-admin-enhancements.md)
          * [23.3敏捷增強功能](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-agile-enhancements.md)
+         * [23.3 Financial Management增強功能](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-finance-enhancements.md)
          * [23.3整合增強功能](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-integration-enhancements.md)
          * [23.3專案增強功能](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-project-enhancements.md)
          * [23.3行動增強功能](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-mobile-enhancements.md)
@@ -1898,7 +1899,7 @@ ht-degree: 1%
    * [刪除「案例規劃工具」中的計畫](scenario-planner/delete-plans.md)
    * [將專案匯入至「案例規劃工具」中的計畫](scenario-planner/import-projects-to-plans.md)
    * [情境規劃工具中的方案概觀](scenario-planner/initiatives-overview.md)
-   * [案例計畫工具中的計畫概要](scenario-planner/plans-overview.md)
+   * [「案例規劃工具」中的計畫概要](scenario-planner/plans-overview.md)
    * [更新「情境規劃工具」中的方案優先順序](scenario-planner/prioritize-initiatives.md)
    * [透過在情境規劃工具中發佈行動方案來更新或建立專案](scenario-planner/publish-scenarios-update-projects.md)
    * [協調專案與方案之間的資源配置概要](scenario-planner/overview-reconcile-allocations-between-projects-initiatives.md)

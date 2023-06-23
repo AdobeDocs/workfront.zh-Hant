@@ -4,7 +4,7 @@ description: 23.3版本總覽
 author: Becky
 feature: Product Announcements
 exl-id: 9bf786e2-e077-4504-b928-9091fcb61ec1
-source-git-commit: 8de827eb5c187030a1e8d8c8a414c9ddccaa3d80
+source-git-commit: 77ebeb8f9573d7b08b5d22a1522f1d416c6f99ee
 workflow-type: tm+mt
 source-wordcount: '2524'
 ht-degree: 0%
@@ -25,8 +25,10 @@ ht-degree: 0%
 
 * [管理員增強功能](#administrator-enhancements)
 * [敏捷增強功能](#agile-enhancements)
+* [Financial Management增強功能](#financial-management-enhancements)
 * [整合增強功能](#integration-enhancements)
 * [專案增強功能](#project-enhancements)
+* [行動裝置增強功能](#mobile-enhancements)
 * [其他增強功能](#other-enhancements)
 
 ### 管理員增強功能
@@ -111,7 +113,23 @@ ht-degree: 0%
                             </li>
                         </ul>
                     </td>
-                </tr>                
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">依展示板欄排序</a><span style="color: #ff0000;"> 即將推出！</span></p>
+                        <p>我們新增了排序展示板欄中卡片的功能。 當您選取排序依據的選項時，所有欄都會排序。 您無法排序單一欄，而且未排序待處理專案或輸入欄。</p>
+                    </td>
+                    <td><p><b>在以下日期可用：</b></p>
+                        <ul>
+                            <li>
+                                <p>預覽版本： 2023年6月22日</p>
+                            </li>
+                            <li>
+                                <p>適用於所有客戶的生產版本：透過23.3版本</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>                             
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">深色模式現在可在Adobe Workfront展示板上使用</a><span style="color: #ff0000;"> 預覽中的新增功能！</span></p>
@@ -130,24 +148,8 @@ ht-degree: 0%
                 </tr>                
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Adobe Workfront展示板中工作流程反複專案的增強功能</a><span style="color: #ff0000;"> 預覽中的新增功能！</span></p>
-                        <p>我們已新增將目標新增至疊代的功能，不必在卡片上列出目標。 目標會以檢查清單格式新增，並可標籤為完成。 反複專案右上方的量度區域會顯示存在多少個目標以及已完成的目標數。 此外，「下一個反複專案」欄現在可在反複專案面板上使用。</p>
-                    </td>
-                    <td><p><b>在以下日期可用：</b></p>
-                        <ul>
-                            <li>
-                                <p>預覽版本： 2023年6月22日</p>
-                            </li>
-                            <li>
-                                <p>適用於所有客戶的生產版本：透過23.3版本</p>
-                            </li>
-                        </ul>
-                    </td>
-                </tr>                
-                <tr>
-                    <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">依展示板欄排序</a><span style="color: #ff0000;"> 預覽中的新增功能！</span></p>
-                        <p>我們新增了排序展示板欄中卡片的功能。 當您選取排序依據的選項時，所有欄都會排序。 您無法排序單一欄，而且未排序待處理專案或輸入欄。</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Adobe Workfront展示板中工作流程反複專案上的可用目標</a><span style="color: #ff0000;"> 預覽中的新增功能！</span></p>
+                        <p>我們已新增將目標新增至疊代的功能，不必在卡片上列出目標。 目標會以檢查清單格式新增，並可標籤為完成。 反複專案右上方的量度區域會顯示存在多少個目標以及已完成的目標數。</p>
                     </td>
                     <td><p><b>在以下日期可用：</b></p>
                         <ul>
@@ -299,6 +301,42 @@ ht-degree: 0%
             </tbody>
         </table>
 
+### Financial Management增強功能
+
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 50%;" />
+            <tbody>
+                <tr>
+                    <td>
+                        <p><span class="bold">功能</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">發行日期</span>
+                        </p>
+                    </td>
+                 </tr>   
+                 <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-finance-enhancements.md" class="MCXref xref" xrefformat="{para}">日期有效成本與帳單費率</a><span style="color: #ff0000;"> 即將推出！</span> </p>
+                        <p>Workfront中的公司、使用者和工作角色物件現在提供日期有效成本和計費率。 當將日期有效費率套用至專案且將時數記錄於專案任務時，成本與收入會使用每個時間期間的指定費率計算。</p>
+                    </td>
+                    <td><p><b>在以下日期可用：</b></p>
+                        <ul>
+                            <li>
+                                <p>預覽版本： 2023年6月29日</p>
+                            </li>
+                            <li>
+                                <p>快速發行客戶的生產版本：將在23.3生產版本之後宣佈</p>
+                                <p>適用於所有客戶的生產版本：搭配23.4版</p>
+                            </li>
+                        </ul>
+                    </td>
+                 </tr>
+           </tbody>
+        </table>
+
 ### 整合增強功能
 
 <table>
@@ -445,24 +483,7 @@ ht-degree: 0%
                         <p><span class="bold">發行日期</span>
                         </p>
                     </td>
-                 </tr>   
-                 <tr>
-                    <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-project-enhancements.md" class="MCXref xref" xrefformat="{para}">日期有效成本與帳單費率</a><span style="color: #ff0000;"> 即將推出！</span> </p>
-                        <p>Workfront中的公司、使用者和工作角色物件現在提供日期有效成本和計費率。 當將日期有效費率套用至專案且將時數記錄於專案任務時，成本與收入會使用每個時間期間的指定費率計算。</p>
-                    </td>
-                    <td><p><b>在以下日期可用：</b></p>
-                        <ul>
-                            <li>
-                                <p>預覽版本： 2023年6月29日</p>
-                            </li>
-                            <li>
-                                <p>快速發行客戶的生產版本：將在23.3生產版本之後宣佈</p>
-                                <p>適用於所有客戶的生產版本：搭配23.4版</p>
-                            </li>
-                        </ul>
-                    </td>
-                 </tr>   
+                 </tr>  
                  <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-project-enhancements.md" class="MCXref xref" xrefformat="{para}">新檔案核准</a> </p>
