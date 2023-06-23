@@ -4,9 +4,9 @@ description: 23.3版本總覽
 author: Becky
 feature: Product Announcements
 exl-id: 9bf786e2-e077-4504-b928-9091fcb61ec1
-source-git-commit: 77ebeb8f9573d7b08b5d22a1522f1d416c6f99ee
+source-git-commit: 2644afeda2c839ff45c9ee2a89d79b429daed1f0
 workflow-type: tm+mt
-source-wordcount: '2524'
+source-wordcount: '2525'
 ht-degree: 0%
 
 ---
@@ -116,7 +116,7 @@ ht-degree: 0%
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">依展示板欄排序</a><span style="color: #ff0000;"> 即將推出！</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">依展示板欄排序</a><span style="color: #ff0000;"> 預覽中的新增功能！</span></p>
                         <p>我們新增了排序展示板欄中卡片的功能。 當您選取排序依據的選項時，所有欄都會排序。 您無法排序單一欄，而且未排序待處理專案或輸入欄。</p>
                     </td>
                     <td><p><b>在以下日期可用：</b></p>

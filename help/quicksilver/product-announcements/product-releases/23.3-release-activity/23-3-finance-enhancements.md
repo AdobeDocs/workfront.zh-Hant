@@ -3,7 +3,7 @@ title: 23.3 Financial Management增強功能
 description: 23.3 Financial Management增強功能
 author: Lisa
 feature: Product Announcements
-source-git-commit: b7c46cc7a29bdf67e023a01543dffc17be98999a
+source-git-commit: 2644afeda2c839ff45c9ee2a89d79b429daed1f0
 workflow-type: tm+mt
 source-wordcount: '236'
 ht-degree: 0%
@@ -24,4 +24,4 @@ Workfront中的公司、使用者和工作角色物件現在提供日期有效�
 
 新功能「費率卡」可讓您根據地點為每個工作角色定義多個收費率。 職務角色與地點的帳單費率也可包含有效日期。 費率卡可附加至專案，以一次套用特定職務角色和地點的所有費率資訊。 基於位置的角色也可以指派給任務，並可以在指派層次上覆寫其費率。
 
-所有這些功能都將在2023年7月發佈到「預覽」，屆時將會提供更新的使用者檔案。
+所有這些功能都將在2023年7月29日發佈到Preview，屆時將會提供更新的使用者檔案。
