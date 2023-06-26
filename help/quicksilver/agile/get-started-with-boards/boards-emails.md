@@ -6,16 +6,14 @@ title: 看板電子郵件通知和偏好設定
 description: Adobe Workfront展示板會在您將您新增至展示板及指派卡片給您時傳送電子郵件給您。
 author: Lisa
 exl-id: 7ec9f9cc-274c-4253-8441-d7ffe9afd78d
-source-git-commit: e5e8819db11f39734d9fcada833a2cb808bc88fe
+source-git-commit: 0ca3428d7442564a9753db04790fd40839ae24ea
 workflow-type: tm+mt
-source-wordcount: '274'
-ht-degree: 0%
+source-wordcount: '181'
+ht-degree: 1%
 
 ---
 
 # 看板電子郵件通知和偏好設定
-
-{{highlighted-preview}}
 
 [!DNL Adobe Workfront] [!UICONTROL 展示板] 會在您將您新增至展示板以及將卡片指派給您時傳送電子郵件給您。 通知預設為開啟，您可以在面板偏好設定中選取要接收哪些電子郵件。
 
@@ -59,19 +57,23 @@ ht-degree: 0%
 
    您為電子郵件設定的偏好設定適用於您的所有展示板。
 
+<!--
+
 <div class="preview">
 
-## 設定深色模式偏好設定
+## Set the dark mode preference
 
 >[!NOTE]
 >
->如果您組織的Workfront執行個體已上線到Adobe整合式體驗，您可以透過您的偏好設定選單（您的個人資料圖片）為所有Adobe Experience Cloud啟用深色主題格式，並且您不會看到Workfront展示板的個別深色模式選項。 如需詳細資訊，請參閱 [Workfront的AdobeUnified Experience](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
+>If your organization's instance of Workfront has been onboarded to the Adobe Unified Experience, you can enable dark theme formatting for all of Adobe Experience Cloud through your preferences menu (your profile picture), and you will not see a separate dark mode option for Workfront Boards. For more information, see [Adobe Unified Experience for Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
 
 {{step1-to-boards}}
 
-1. 按一下 [!UICONTROL **偏好設定**] 在展示板儀表板上。
-1. 在「主題」區域中，啟用或停用「深色」模式。
+1. Click [!UICONTROL **Preferences**] on the boards dashboard.
+1. In the Themes area, enable or disable Dark mode.
 
-   您為深色模式設定的偏好設定會套用到您的所有展示板和工作流程，以及儀表板。
+   The preference you set for dark mode applies to all of your boards and workstreams, and the dashboard.
 
 </div>
+
+-->

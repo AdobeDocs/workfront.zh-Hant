@@ -7,16 +7,14 @@ description: 量度可用於工作流程中的每個反複專案，位於反複�
 author: Lisa
 feature: Agile
 exl-id: 09743566-161d-4850-9a1a-b96da6d537a7
-source-git-commit: 563e0f443ecef9ee99e9f9bfb5a0d579aa50cef4
+source-git-commit: 0ca3428d7442564a9753db04790fd40839ae24ea
 workflow-type: tm+mt
-source-wordcount: '211'
-ht-degree: 0%
+source-wordcount: '200'
+ht-degree: 1%
 
 ---
 
 # 檢閱反複專案量度
-
-{{highlighted-preview}}
 
 量度可用於工作流程中的每個反複專案，位於反複專案流程板和控制面板上。
 
@@ -49,7 +47,7 @@ ht-degree: 0%
 1. 選取 [!UICONTROL 反複專案程式] 展示板。
 1. 檢閱右上角展示板上方的量度區域。 按一下向上和向下箭頭，可在版序之間移動。
 
-   會顯示下列量度：指派給疊代的總點數、疊代中尚未完成的剩餘點數、疊代中完成的點數、 <span class="preview">以及在反複專案中建立和完成的目標數</span>.
+   會顯示下列量度：指派給疊代的總點數、疊代中尚未完成的剩餘點數、疊代中完成的點數。
 
 1. （可選）按一下 [!UICONTROL **反複專案詳細資料**] 圖示 ![反複專案詳細資料](assets/iteration-details-button.png) 以開啟所選反複專案的詳細資訊對話方塊。
 

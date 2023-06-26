@@ -7,16 +7,14 @@ description: 反複專案是完成工作所保留的時間設定。 某些敏捷
 author: Lisa
 feature: Agile
 exl-id: 37b8810d-8439-4a7a-89d5-7c2560422ace
-source-git-commit: 563e0f443ecef9ee99e9f9bfb5a0d579aa50cef4
+source-git-commit: 0ca3428d7442564a9753db04790fd40839ae24ea
 workflow-type: tm+mt
-source-wordcount: '434'
-ht-degree: 0%
+source-wordcount: '369'
+ht-degree: 1%
 
 ---
 
 # 在工作串流中建立反複專案
-
-{{highlighted-preview}}
 
 反複專案是完成工作所保留的時間設定。 某些敏捷團隊可能會將反複專案稱為衝刺。
 
@@ -90,12 +88,13 @@ ht-degree: 0%
 
    反複專案開始後，您只能變更反複專案名稱，不能變更日期或反複專案長度。
 
-1. <span class="preview">若要將目標新增至反複專案，請展開 [!UICONTROL **目標**].</span>
-1. <span class="preview">按一下 [!UICONTROL **新增目標**]，然後輸入目標名稱。</span>
+<!--   
 
-   <span class="preview">當目標在反複專案期間完成時，您可以選取核取方塊以將其標籤為完成，或按一下 **刪除** 圖示 ![「刪除」圖示](assets/delete.png) 以刪除目標。 反複專案右上方的量度區域會顯示存在多少個目標以及已完成的目標數。</span>
+1. <span class="preview">To add goals to the iteration, expand [!UICONTROL **Goals**].</span>
+1. <span class="preview">Click [!UICONTROL **Add goal**], and type the goal name.</span>
 
-<!--
+   <span class="preview">As goals are completed during the iteration, you can select the check box to mark them complete, or click the **Delete** icon ![Delete icon](assets/delete.png) to delete a goal. The metrics area on the top right of the iteration shows how many goals exist and how many have been completed.</span>
+
 <div class="preview">
 
 ## Assign cards to the next iteration
