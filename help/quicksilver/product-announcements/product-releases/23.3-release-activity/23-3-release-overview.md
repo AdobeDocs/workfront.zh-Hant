@@ -4,9 +4,9 @@ description: 23.3版本總覽
 author: Becky
 feature: Product Announcements
 exl-id: 9bf786e2-e077-4504-b928-9091fcb61ec1
-source-git-commit: d84450c8cb8a0a05e9372ebbef515e94fbc53f80
+source-git-commit: bcd3484316089140a58ecda8c4420d69dd65e373
 workflow-type: tm+mt
-source-wordcount: '2520'
+source-wordcount: '2538'
 ht-degree: 0%
 
 ---
@@ -132,32 +132,32 @@ ht-degree: 0%
                 </tr>                             
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">深色模式現在可在Adobe Workfront展示板上使用</a><span style="color: #ff0000;"> 預覽中的新增功能！</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">深色模式現在可在Adobe Workfront展示板上使用</a></p>
                         <p>您現在可以在深色模式下顯示您的所有展示板和工作流程。 新設定可透過「面板」圖示板上的偏好設定來使用。</p>
                     </td>
                     <td><p><b>在以下日期可用：</b></p>
                         <ul>
                             <li>
-                                <p>預覽版本： 2023年6月22日</p>
+                                <p>預覽版本： 2023年6月22日<span style="color: #ff0000;"> 此功能已從「預覽」中移除，且不會隨23.3版發行。</span></p>
                             </li>
                             <li>
-                                <p>適用於所有客戶的生產版本：透過23.3版本</p>
+                                <p>所有客戶的生產版本：不適用</p>
                             </li>
                         </ul>
                     </td>
                 </tr>                
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Adobe Workfront展示板中工作流程反複專案上的可用目標</a><span style="color: #ff0000;"> 預覽中的新增功能！</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Adobe Workfront展示板中工作流程反複專案上的可用目標</a></p>
                         <p>我們已新增將目標新增至疊代的功能，不必在卡片上列出目標。 目標會以檢查清單格式新增，並可標籤為完成。 反複專案右上方的量度區域會顯示存在多少個目標以及已完成的目標數。</p>
                     </td>
                     <td><p><b>在以下日期可用：</b></p>
                         <ul>
                             <li>
-                                <p>預覽版本： 2023年6月22日</p>
+                                <p>預覽版本： 2023年6月22日<span style="color: #ff0000;"> 此功能已從「預覽」中移除，且不會隨23.3版發行。</span></p>
                             </li>
                             <li>
-                                <p>適用於所有客戶的生產版本：透過23.3版本</p>
+                                <p>所有客戶的生產版本：不適用</p>
                             </li>
                         </ul>
                     </td>

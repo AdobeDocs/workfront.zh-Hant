@@ -3,9 +3,9 @@ title: 23.3敏捷增強功能
 description: 23.3敏捷增強功能
 author: Lisa
 feature: Product Announcements
-source-git-commit: b7c46cc7a29bdf67e023a01543dffc17be98999a
+source-git-commit: bcd3484316089140a58ecda8c4420d69dd65e373
 workflow-type: tm+mt
-source-wordcount: '1247'
+source-wordcount: '1303'
 ht-degree: 0%
 
 ---
@@ -40,6 +40,8 @@ ht-degree: 0%
 
 如需詳細資訊，請參閱 [在展示板中篩選和搜尋](/help/quicksilver/agile/get-started-with-boards/filter-search-in-board.md).
 
+[觀看此功能的影片示範。](https://video.tv.adobe.com/v/3420932/){target=_blank}
+
 ## 深色模式現在可在Adobe Workfront展示板上使用
 
 您現在可以在深色模式下顯示您的所有展示板和工作流程。 新設定可透過「面板」圖示板上的偏好設定來使用。
@@ -54,7 +56,7 @@ ht-degree: 0%
 
 我們已新增將目標新增至疊代的功能，不必在卡片上列出目標。 目標會以檢查清單格式新增，並可標籤為完成。 反複專案右上方的量度區域會顯示存在多少個目標以及已完成的目標數。
 
-<!--Also, the Next Iteration column is now available on iteration boards. When you place a card in this column, it is automatically carried to the next iteration and does not return to the backlog. On the next iteration, the card appears in the column that corresponds with its status.-->
+此外，「下一個反複專案」欄現在可在反複專案面板上使用。 當您在此欄中放置卡片時，卡片會自動傳送到下一個反複專案，而不會返回到待處理專案。 在下一個反複專案上，卡片會出現在與其狀態相對應的欄中。
 
 如需詳細資訊，請參閱 [在工作串流中建立反複專案](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration-in-workstream.md).
 
