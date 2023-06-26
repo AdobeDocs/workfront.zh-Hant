@@ -6,9 +6,9 @@ title: 看板電子郵件通知和偏好設定
 description: Adobe Workfront展示板會在您將您新增至展示板及指派卡片給您時傳送電子郵件給您。
 author: Lisa
 exl-id: 7ec9f9cc-274c-4253-8441-d7ffe9afd78d
-source-git-commit: 0ca3428d7442564a9753db04790fd40839ae24ea
+source-git-commit: bda865111eacf5df874a09f184db039b5f837765
 workflow-type: tm+mt
-source-wordcount: '181'
+source-wordcount: '166'
 ht-degree: 1%
 
 ---
@@ -20,8 +20,6 @@ ht-degree: 1%
 >[!NOTE]
 >
 >電子郵件通知只能透過Workfront展示板的早期功能選擇加入取得。
-
-<span class="preview">其他偏好設定可讓您為所有的展示板和工作流程啟用深色模式。</span>
 
 ## 存取需求
 
