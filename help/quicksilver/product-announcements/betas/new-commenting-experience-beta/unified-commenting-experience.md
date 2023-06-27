@@ -5,10 +5,11 @@ title: 新的評論體驗
 description: 目前正在開發Adobe Workfront中評論體驗的更新。 此更新包含新介面、新功能，以及所選物件更新區段中的改進效能。
 author: Alina
 feature: Product Announcements
+role: User
 exl-id: f750b35b-8021-4cc1-81d6-e1ece2530438
-source-git-commit: 63e3575addf8aaaa3eda1a9e52d57619c48ded91
+source-git-commit: 742565b06395e5092152b1d04262344dc1020d74
 workflow-type: tm+mt
-source-wordcount: '670'
+source-wordcount: '673'
 ht-degree: 1%
 
 ---
@@ -61,12 +62,12 @@ ht-degree: 1%
 >
 >以下列出的物件僅包含過去一年中的註釋和系統更新（從2022年6月開始），可在啟用測試版體驗時取得。
 >
+>在2022年6月之前，當您檢視目前體驗中的更新區段時，可以檢視這些物件的註解和系統更新：
 >* 問題
 >* <span class="preview">專案</span>
 >* <span class="preview">任務</span>
 >* <span class="preview">文件</span>
->
->在檢視目前體驗中的更新區段時，您可以檢視2022年6月之前的評論和系統更新。
+
 
 
 下表說明新評論體驗中可用的功能，以及這些功能在支援區域的可用性：
@@ -135,7 +136,7 @@ ht-degree: 1%
    </td>
    <td>✓ 
    </td>
-   <td> 
+   <td> <!--<span class="preview">✓</span>-->
    </td>
    <td> ✓
    </td>

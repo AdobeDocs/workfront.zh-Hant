@@ -1,13 +1,14 @@
 ---
 title: 複製並提交請求
-description: 複製並提交請求
+description: 當您經常提交類似請求時，可以複製現有的已提交請求。 在這種情況下，您可以複製現有請求、對請求進行最低限度的變更，然後將其作為新請求重新提交。
 author: Alina
-draft: Probably
 feature: Work Management
+role: User
+topic: Collaboration
 exl-id: 3d7581d0-e99c-4204-b1e5-04fde72251bb
-source-git-commit: cd059c445d86ed5581e8b2cb01507f18b97954f3
+source-git-commit: 742565b06395e5092152b1d04262344dc1020d74
 workflow-type: tm+mt
-source-wordcount: '1309'
+source-wordcount: '1339'
 ht-degree: 2%
 
 ---
@@ -121,7 +122,7 @@ ht-degree: 2%
 1. （視條件而定）如果「已提交」區段預設未顯示，請按一下 **已提交** 在左側面板中。
 1. 找到您要複製並提交為新請求，然後執行下列任一項作業：
 
-   * 選取該專案，然後按一下 **複製並提交為新檔案** 圖示 ![](assets/copy-and-submit-as-new-requests-area-nwe.png) （位於已提交請求清單的左上角）。 <!--update this icon AND change its name to "Copy" with the 23.3 preview release, or shortly after-->
+   * 選取該專案，然後按一下 **複製並提交為新檔案** 圖示 ![](assets/copy-and-submit-as-new-requests-area-nwe.png) （位於已提交請求清單的左上角）。 <!--update this icon the 23.3 preview release, or shortly after: replace this step with this: Select it, then click the **Copy** icon ![](assets/copy-and-submit-as-new-requests-area-nwe.png) in the upper-left corner of the Submitted requests list.-->
 
    <!-- reveal this tip for 23.3 preview release:
    >[!TIP]

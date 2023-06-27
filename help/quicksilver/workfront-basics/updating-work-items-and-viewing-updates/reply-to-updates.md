@@ -5,8 +5,10 @@ title: 回覆更新
 description: 當有人在工作物件上新增或回覆更新時，他們的回覆會出現在物件更新區段的通訊執行緒中。 如果您擁有物件的「檢視」存取權，您可以新增回覆至更新或「讚」。
 author: Lisa and Alina
 feature: Get Started with Workfront
+role: User
+topic: Collaboration
 exl-id: a8271f3c-7a08-4eb3-aaff-deb250f5af73
-source-git-commit: c941467e2b1e93a728b5f7d8844c7fefea2816e1
+source-git-commit: 742565b06395e5092152b1d04262344dc1020d74
 workflow-type: tm+mt
 source-wordcount: '1214'
 ht-degree: 0%
@@ -111,7 +113,7 @@ ht-degree: 0%
 
 1. 前往您要新增回覆的物件。
 1. 按一下 **更新**，然後按一下 **註解** 定位物件，並尋找您要回覆的註解或回覆。
-   <!-- Ensure this link is called and cased the same way as  before: 1. (Optional) To include text from a previous update in your reply, click the **More** menu next to the update or reply you want to quote, then click **Quote Reply**. Text from the previous update appears in the input area, marked with a vertical gray line.-->
+   <!--1. (Optional) To include text from a previous update in your reply, click the **More** menu next to the update or reply you want to quote, then click **Quote reply**. Text from the previous update appears in the input area, marked with a vertical gray line.-->
 1. 按一下 **回覆**.
 
    您可以在頁面底部看到積極參與交談的使用者 **新註解** 方塊中，您可以新增更多或移除不再相關的專案。 這些使用者以及訂閱物件的任何使用者會在物件更新或回覆時收到通知。 您也可以標籤更多使用者，讓他們加入您的回覆。  若要標籤更多使用者，請參閱 [標籤其他更新的專案](../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
