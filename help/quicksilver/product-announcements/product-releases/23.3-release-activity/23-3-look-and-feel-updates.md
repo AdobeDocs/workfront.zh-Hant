@@ -4,9 +4,9 @@ description: 在23.3發行時間範圍內的外觀和感覺更新
 author: Courtney
 feature: Product Announcements
 exl-id: 77b43c01-4476-4243-b8c4-062afe786a1d
-source-git-commit: b34325813af7abd0e5107174734f06d6694acfd6
+source-git-commit: 63e3575addf8aaaa3eda1a9e52d57619c48ded91
 workflow-type: tm+mt
-source-wordcount: '257'
+source-wordcount: '278'
 ht-degree: 0%
 
 ---
@@ -30,17 +30,17 @@ ht-degree: 0%
 * 頁面上傳時現在有載入指示器；
 * 「複製」圖示會持續顯示並隨附文字，若未選取任何請求，圖示會停用。
 
-如需詳細資訊，請參閱 [複製並提交請求](/help/quicksilver/manage-work/requests/create-requests/copy-and-submit-requests.md).
+如需詳細資訊，請參閱 [複製並提交請求](/help/quicksilver/manage-work/requests/create-requests/copy-and-submit-requests.md). 本檔案將在功能發行後更新。
 
-## 提交新請求時更新設計
+## 將新問題新增至專案時更新設計
 
 >[!NOTE]
 >
 >預計預覽版： 2023年7月5日；預計生產版：搭配23.3版
 
-我們已更新「新請求」方塊，此方塊會在提交新請求時顯示。 現在，介面與將新問題新增到專案時顯示的新問題方塊相符。
+我們已更新「新問題」方塊，在向專案提交新問題時會顯示此方塊。 現在，介面符合新請求方塊，在向請求佇列提交新請求時顯示。
 
-如需詳細資訊，請參閱 [建立並提交Adobe Workfront請求](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md).
+如需詳細資訊，請參閱 [建立問題](../../../manage-work/issues/manage-issues/create-issues.md). 本檔案將在功能發行後更新。
 
 ## 更新的收費率清單
 

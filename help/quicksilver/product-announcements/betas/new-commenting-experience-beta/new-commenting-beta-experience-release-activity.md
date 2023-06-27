@@ -6,9 +6,9 @@ description: 檢閱Adobe Workfront新評論體驗的每週發行活動。
 author: Alina
 feature: Product Announcements
 exl-id: 1c0cb547-ac99-4cdf-8a74-2c47ad5a10ad
-source-git-commit: 3793f68faf2ec0a8050f8f0c6e06a32579b43879
+source-git-commit: 63e3575addf8aaaa3eda1a9e52d57619c48ded91
 workflow-type: tm+mt
-source-wordcount: '1492'
+source-wordcount: '1500'
 ht-degree: 3%
 
 ---
@@ -23,7 +23,9 @@ ht-degree: 3%
 >
 >新的評論體驗已在23.2版Beta版中推出。 如需原始版本的相關資訊，請參閱 [23.2版本總覽](../../product-releases/23.2-release-activity/23-2-release-overview.md).
 >
->針對Workfront物件發佈至Beta版體驗的註釋功能，也會發佈至Workfront目標中目標物件的「更新」區段。
+>針對Workfront物件發佈至Beta版體驗的註解功能也會發佈至下列物件的「更新」區段，作為唯一的註解體驗：
+>* 目標
+>* 卡片位於展示板區域。
 
 ## 發行時間表
 

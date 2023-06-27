@@ -6,9 +6,9 @@ description: 目前正在開發Adobe Workfront中評論體驗的更新。 此更
 author: Alina
 feature: Product Announcements
 exl-id: f750b35b-8021-4cc1-81d6-e1ece2530438
-source-git-commit: c941467e2b1e93a728b5f7d8844c7fefea2816e1
+source-git-commit: 63e3575addf8aaaa3eda1a9e52d57619c48ded91
 workflow-type: tm+mt
-source-wordcount: '623'
+source-wordcount: '670'
 ht-degree: 1%
 
 ---
@@ -56,6 +56,18 @@ ht-degree: 1%
 * 系統更新的註解
 * 可在註解時編輯狀態、條件、認可日期
 * 編輯自訂表單
+
+>[!NOTE]
+>
+>以下列出的物件僅包含過去一年中的註釋和系統更新（從2022年6月開始），可在啟用測試版體驗時取得。
+>
+>* 問題
+>* <span class="preview">專案</span>
+>* <span class="preview">任務</span>
+>* <span class="preview">文件</span>
+>
+>在檢視目前體驗中的更新區段時，您可以檢視2022年6月之前的評論和系統更新。
+
 
 下表說明新評論體驗中可用的功能，以及這些功能在支援區域的可用性：
 
