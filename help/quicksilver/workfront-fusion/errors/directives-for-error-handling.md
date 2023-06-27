@@ -3,23 +3,23 @@ content-type: reference
 product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: errors
-title: 錯誤處理指令 [!DNL Adobe Workfront Fusion]
-description: 本文說明可用於錯誤處理的指令 [!DNL Adobe Workfront Fusion] 方案。
+title: 中用於錯誤處理的指令 [!DNL Adobe Workfront Fusion]
+description: 本文說明可用於錯誤處理的指令。 [!DNL Adobe Workfront Fusion] 情境。
 author: Becky
 feature: Workfront Fusion
 exl-id: dcf4f7e3-78d8-4eb4-9483-8a1c18b0e436
-source-git-commit: f4e43d34068c987755559573b4ecd618ff710686
+source-git-commit: a3756f9345cbc9417a6fd110306dfa50aecc81a2
 workflow-type: tm+mt
-source-wordcount: '905'
+source-wordcount: '953'
 ht-degree: 0%
 
 ---
 
-# 錯誤處理指令 [!DNL Adobe Workfront Fusion]
+# 中用於錯誤處理的指令 [!DNL Adobe Workfront Fusion]
 
 ## 存取需求
 
-您必須具備下列存取權才能使用本文中的功能：
+您必須具有下列存取權才能使用本文中的功能：
 
 <table style="table-layout:auto"> 
  <col> 
@@ -31,97 +31,104 @@ ht-degree: 0%
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">[!DNL Adobe Workfront] 授權*</td> 
-   <td> <p>[!UICONTROL計畫]、[!UICONTROL工作]</p> </td> 
+   <td> <p>[！UICONTROL計畫]，[！UICONTROL工作]</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Adobe Workfront Fusion]授權**</td> 
-   <td> <p>[!UICONTROL [!DNL Workfront Fusion] （工作自動化和整合） </p>  </td> 
+   <td role="rowheader">[！UICONTROL Adobe Workfront Fusion]授權**</td> 
+   <td>
+   <p>目前授權需求：否 [!DNL Workfront Fusion] 授權需求。</p>
+   <p>或</p>
+   <p>舊版授權需求： [！UICONTROL [!DNL Workfront Fusion] 適用於工作自動化與整合] </p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">產品</td> 
-   <td>貴組織必須購買 [!DNL Adobe Workfront Fusion] 和 [!DNL Adobe Workfront] 以使用本文所述的功能。</td> 
+   <td>
+   <p>目前產品需求：如果您有[！UICONTROL Select]或[！UICONTROL Prime] [!DNL Adobe Workfront] 計畫，您的組織必須購買 [!DNL Adobe Workfront Fusion] 以及 [!DNL Adobe Workfront] 以使用本文所述功能。 [!DNL Workfront Fusion] 包含在[！UICONTROL Ultimate]中 [!DNL Workfront] 計畫。</p>
+   <p>或</p>
+   <p>舊版產品需求：貴組織必須購買 [!DNL Adobe Workfront Fusion] 以及 [!DNL Adobe Workfront] 以使用本文所述功能。</p>
+   </td> 
   </tr> 
  </tbody> 
 </table>
 
-若要了解您擁有的計畫、授權類型或存取權，請聯絡您的 [!DNL Workfront] 管理員。
+若要瞭解您擁有哪些計畫、授權型別或存取權，請聯絡您的 [!DNL Workfront] 管理員。
 
-如需 [!DNL Adobe Workfront Fusion] 許可證，請參閱 [[!DNL Adobe Workfront Fusion] 授權](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+有關以下專案的資訊： [!DNL Adobe Workfront Fusion] 授權，請參閱 [[!DNL Adobe Workfront Fusion] 授權](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
-## 錯誤處理指令
+## 用於錯誤處理的指令
 
 <table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"> <p>回復</p> <p> <img src="assets/rollback.png"> </p> </td> 
-   <td> <p>方案執行會立即停止，且 <a href="../../workfront-fusion/scenarios/scenario-execution-cycles-phases.md#rollback" class="MCXref xref">回復</a> 在所有模組上啟動階段，以嘗試將所有模組恢復到其初始狀態。 不會處理後續模組。</p> <p>除非有一些錯誤類型，否則在「方案」設定下指定的連續錯誤數後，方案會停用。 如需詳細資訊，請參閱 <a href="../../workfront-fusion/scenarios/scenario-settings-panel.md#number" class="MCXref xref">連續錯誤數</a>.</p> <p>方案執行狀態被標籤為「錯誤」。</p> <p>注意：如果未將錯誤處理程式路由附加到模組，則此為預設行為，並且 <a href="../../workfront-fusion/scenarios/scenario-settings-panel.md#allow" class="MCXref xref">[!UICONTROL允許儲存不完整的執行]</a> 未勾選「[!UICONTROL方案設定]」下的設定。</p> </td> 
+   <td role="rowheader"> <p>復原</p> <p> <img src="assets/rollback.png"> </p> </td> 
+   <td> <p>案例執行會立即停止並 <a href="../../workfront-fusion/scenarios/scenario-execution-cycles-phases.md#rollback" class="MCXref xref">復原</a> 階段會在所有模組上啟動，以嘗試將所有模組還原成其初始狀態。 後續模組不會進行處理。</p> <p>除了一些錯誤型別，在「案例」設定下指定的連續錯誤數後，就會停用案例。 如需詳細資訊，請參閱 <a href="../../workfront-fusion/scenarios/scenario-settings-panel.md#number" class="MCXref xref">連續錯誤數</a>.</p> <p>案例執行狀態會標示為「錯誤」。</p> <p>注意：如果沒有錯誤處理常式路由附加到模組和 <a href="../../workfront-fusion/scenarios/scenario-settings-panel.md#allow" class="MCXref xref">[！UICONTROL允許儲存不完整的執行]</a> 不會核取[！UICONTROL案例設定]底下的設定。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>認可</p> <p> <img src="assets/commit.png"> </p> </td> 
-   <td> <p>方案執行立即停止，並且所有模組上都啟動了提交階段。 不會處理後續模組。</p> <p>忽略所有未處理的套件組合。</p> <p>方案執行狀態會標示為「成功」。 有關提交階段的資訊，請參見 <a href="../../workfront-fusion/scenarios/scenario-execution-cycles-phases.md#commit" class="MCXref xref">提交</a> 在文章中 <a href="../../workfront-fusion/scenarios/scenario-execution-cycles-phases.md" class="MCXref xref">Adobe Workfront Fusion中的情境執行、週期和階段</a>.</p> </td> 
+   <td> <p>案例執行會立即停止，且所有模組上的認可階段都會開始。 後續模組不會進行處理。</p> <p>會忽略所有未處理的組合。</p> <p>案例執行狀態會標示為「成功」。 如需認可階段的相關資訊，請參閱 <a href="../../workfront-fusion/scenarios/scenario-execution-cycles-phases.md#commit" class="MCXref xref">認可</a> 在文章中 <a href="../../workfront-fusion/scenarios/scenario-execution-cycles-phases.md" class="MCXref xref">Adobe Workfront Fusion中的案例執行、週期和階段</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>繼續</p> <p> <img src="assets/resume.png"> </p> </td> 
-   <td> <p>指定替換輸出，並提供給遇到錯誤的模組。</p> <p>處理後續模組。</p> <p>方案執行狀態會標示為「成功」。</p> </td> 
+   <td> <p>會指定替代輸出，並提供給發生錯誤的模組。</p> <p>後續模組會進行處理。</p> <p>案例執行狀態會標示為「成功」。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>忽略</p> <p> <img src="assets/ignore.png"> </p> </td> 
-   <td> <p>系統會忽略錯誤，且不會處理後續模組。</p> <p>如果有未處理的套件組合，則方案執行會正常繼續。</p> <p>方案執行狀態會標示為「成功」。</p> </td> 
+   <td> <p>會忽略錯誤，且不會處理後續模組。</p> <p>如果有未處理的組合，情境執行會正常繼續。</p> <p>案例執行狀態會標示為「成功」。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>插播</p> <p> <img src="assets/break.png"> </p> </td> 
-   <td> <p>方案執行的狀態儲存在未完成執行的佇列中，可以手動解決錯誤。 如需詳細資訊，請參閱 <a href="../../workfront-fusion/scenarios/view-and-resolve-incomplete-executions.md" class="MCXref xref">檢視並解決Adobe Workfront Fusion中的不完整執行</a>. </p> <p>不過，也有一些例外。 如需詳細資訊，請參閱 <a href="../../workfront-fusion/scenarios/scenario-settings-panel.md#allow" class="MCXref xref">允許儲存不完整的執行</a> 在文章中 <a href="../../workfront-fusion/scenarios/scenario-settings-panel.md" class="MCXref xref">Adobe Workfront Fusion中的案例設定面板</a>.</p> <p>不會處理後續模組。</p> <p>如果有未處理的套件組合，則方案執行會正常繼續。</p> <p>停用[!UICONTROL自動完成執行]選項時，方案執行狀態會標示為「警告」。</p> <p>請參閱 <a href="#break" class="MCXref xref">[!UICONTROL中斷]</a> 以取得更多資訊。</p> </td> 
+   <td role="rowheader"> <p>中斷</p> <p> <img src="assets/break.png"> </p> </td> 
+   <td> <p>情境執行的狀態會儲存在未完成執行的佇列中，而錯誤可以手動解決。 如需詳細資訊，請參閱 <a href="../../workfront-fusion/scenarios/view-and-resolve-incomplete-executions.md" class="MCXref xref">在Adobe Workfront Fusion中檢視和解決未完成的執行</a>. </p> <p>不過，也有一些例外。 如需詳細資訊，請參閱 <a href="../../workfront-fusion/scenarios/scenario-settings-panel.md#allow" class="MCXref xref">允許儲存未完成的執行</a> 在文章中 <a href="../../workfront-fusion/scenarios/scenario-settings-panel.md" class="MCXref xref">Adobe Workfront Fusion中的案例設定面板</a>.</p> <p>後續模組不會進行處理。</p> <p>如果有未處理的組合，情境執行會正常繼續。</p> <p>停用[！UICONTROL自動完成執行]選項時，案例執行狀態會標示為「警告」。</p> <p>請參閱 <a href="#break" class="MCXref xref">[！UICONTROL分頁符號]</a> 區段以取得進一步資訊。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>重試</p> <p> <img src="assets/retry.png"> </p> </td> 
-   <td> <p>在某些情況下，如果故障原因可能會隨著時間而傳遞，重新執行失敗模組幾次可能會很有幫助。</p> <p>Workfront Fusion目前不提供Retry指令，但可採用數種解決方法來模擬其功能。 如需詳細資訊，請參閱 <a href="../../workfront-fusion/errors/retry.md" class="MCXref xref">在Adobe Workfront Fusion中重試錯誤處理</a>.</p> </td> 
+   <td> <p>在某些情況下，當失敗的原因可能隨著時間推移而過去時，重新執行幾次失敗模組會很有用。</p> <p>Workfront Fusion目前不提供Retry指令，不過可採取數個因應措施來模擬其功能。 如需詳細資訊，請參閱 <a href="../../workfront-fusion/errors/retry.md" class="MCXref xref">在Adobe Workfront Fusion中重試錯誤處理</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->* 當前，錯誤處理指令不能在錯誤處理路由之外使用。
-   >
-   >   如需詳細資訊，請參閱 [錯誤處理程式路由](../../workfront-fusion/errors/error-handling.md#error) 在文章中 [Adobe Workfront Fusion中的錯誤處理](../../workfront-fusion/errors/error-handling.md).
->* [!DNL Workfront Fusion] 目前不提供可讓您輕鬆有條件地產生（擲回）錯誤的「擲回」模組，但可採用因應措施來模擬其功能。
-   >
-   >   如需詳細資訊，請參閱 [擲回因應措施](../../workfront-fusion/errors/throw.md#workaround-for-throw) 在文章中 [在Adobe Workfront Fusion中擲回錯誤處理](../../workfront-fusion/errors/throw.md).
+>* 目前，錯誤處理指示詞不能用於錯誤處理路由之外。
+>
+>   如需詳細資訊，請參閱 [錯誤處理常式路由](../../workfront-fusion/errors/error-handling.md#error) 在文章中 [Adobe Workfront Fusion中的錯誤處理](../../workfront-fusion/errors/error-handling.md).
+>* [!DNL Workfront Fusion] 目前不提供Throw模組，該模組可讓您根據條件輕鬆地產生（擲回）錯誤，不過您可以利用因應措施模擬其功能。
+>
+>   如需詳細資訊，請參閱 [擲回的因應措施](../../workfront-fusion/errors/throw.md#workaround-for-throw) 在文章中 [在Adobe Workfront Fusion中處理擲回錯誤](../../workfront-fusion/errors/throw.md).
 
+## 中斷 {#break}
 
-## 插播 {#break}
+當錯誤由 [!DNL Break] 指示詞，即會在未完成執行資料夾中建立記錄。 此記錄會儲存案例執行的狀態，以及先前模組的資料。 記錄會參考產生錯誤的模組，並包含模組收到哪些資料作為輸入的資訊。 對於導致錯誤的每個資料組合，都會建立個別記錄。
 
-當錯誤由 [!DNL Break] 指令，則在「未完成執行」資料夾中建立記錄。 此記錄會儲存情境執行的狀態，以及來自先前模組的資料。 該記錄引用錯誤源所在的模組，並包含關於該模組作為輸入接收哪些資料的資訊。 對於導致錯誤的每個資料組合，會建立單獨的記錄。
+如需詳細資訊，請參閱 [在Adobe Workfront Fusion中檢視和解決未完成的執行](../../workfront-fusion/scenarios/view-and-resolve-incomplete-executions.md).
 
-如需詳細資訊，請參閱 [檢視並解決Adobe Workfront Fusion中的不完整執行](../../workfront-fusion/scenarios/view-and-resolve-incomplete-executions.md).
+### 解決Break指示詞造成的錯誤
 
-### 解決Break指令導致的錯誤
+您可以手動解決錯誤，方法是更新情境（如有需要）並執行一次。
 
-您可以更新案例（如有需要）並執行一次，以手動解決錯誤。
+您也可以設定情境，透過重新執行情境來自動處理不完整的執行。 若要設定模組以處理未完成的執行：
 
-您也可以設定藍本，透過重新執行藍本來自動處理未完成的執行。 要配置模組以處理不完整的執行，請執行以下操作：
+1. 在Break模組內，啟用 [!UICONTROL **自動完成執行**] 選項。
+1. 在 **嘗試次數** 欄位，輸入或對應您希望模組重試執行的嘗試次數上限
 
-1. 在中斷模組內，啟用 [!UICONTROL **自動完成執行**] 選項。
-1. 在 **嘗試次數** 欄位，輸入或映射您希望模組重試執行的最大嘗試次數
+   此數字必須介於1到100之間。
+1. 在 **嘗試間隔** 欄位，輸入或對應每次重試之間的分鐘數。
 
-   此數字必須介於1和100之間。
-1. 在 **兩次嘗試之間的間隔** 欄位，輸入或映射每次重試嘗試之間的分鐘數。
-
-啟用此選項後，當發生錯誤時，會擷取未完成的執行(在 [!UICONTROL 兩次嘗試之間的間隔] 欄位)，並使用原始輸入資料執行。 這將重複執行，直到模組執行完成，且未發生錯誤，或直到達到指定的嘗試次數為止。
+啟用此選項後，當發生錯誤時，會擷取不完整的執行(在 [!UICONTROL 嘗試間隔] 欄位)並使用原始輸入資料執行。 這將重複執行，直到模組執行完成且沒有錯誤，或直到達到指定的嘗試次數。
 
 >[!NOTE]
 >
->如果初始重試嘗試失敗，則重試之間的間隔會以指數方式增加，每次嘗試都是如此。
+>如果初始重試嘗試失敗，重試間隔會每隔一次嘗試以指數方式增加。
 
 
-開啟「自動完成執行」時，情境執行會標示為「成功」，因為中斷錯誤處理常式的自動重試會自動處理問題。 在此情況下，使用者不會收到有關失敗執行的電子郵件。
+當「自動完成執行」開啟時，案例執行會標籤為「成功」，因為Break錯誤處理常式的自動重試會自動處理問題。 在此情況下，使用者不會收到有關失敗執行的電子郵件。
 
-關閉「自動完成執行」時，執行會標示為「警告」。
+當「自動完成執行」關閉時，該執行會標示為「警告」。
 
-在「未完成執行」下儲存的執行有一些例外，而有一些錯誤類型，則無法自動重試情境執行。
+執行儲存在「未完成執行」下有一些例外，並且由於一些錯誤型別，無法自動重試情景執行。
 
-如需詳細資訊，請參閱 [允許儲存不完整的執行](../../workfront-fusion/scenarios/scenario-settings-panel.md#allow) 在文章中 [Adobe Workfront Fusion中的案例設定面板](../../workfront-fusion/scenarios/scenario-settings-panel.md).
+如需詳細資訊，請參閱 [允許儲存未完成的執行](../../workfront-fusion/scenarios/scenario-settings-panel.md#allow) 在文章中 [Adobe Workfront Fusion中的案例設定面板](../../workfront-fusion/scenarios/scenario-settings-panel.md).
 
 如需詳細資訊，請參閱 [Adobe Workfront Fusion中的進階錯誤處理](../../workfront-fusion/errors/advanced-error-handling.md).

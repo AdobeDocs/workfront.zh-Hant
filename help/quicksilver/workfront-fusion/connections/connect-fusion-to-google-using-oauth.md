@@ -2,23 +2,23 @@
 product-previous: workfront-fusion
 product-area: workfront-integrations;setup
 navigation-topic: connections-annd-webhooks
-title: Connect [!DNL Adobe Workfront Fusion] to [!DNL Google Services] 使用自訂OAuth用戶端
-description: 您可以使用 [!DNL Adobe Workfront Fusion] 連接到 [!DNL Google Services] 使用自訂OAuth用戶端。 此程式需要現有 [!DNL Google] 帳戶。
+title: Connect [!DNL Adobe Workfront Fusion] 至 [!DNL Google Services] 使用自訂OAuth使用者端
+description: 您可以使用 [!DNL Adobe Workfront Fusion] 以連線到 [!DNL Google Services] 使用自訂OAuth使用者端。 此程式需要現有的 [!DNL Google] 帳戶。
 author: Becky
 feature: Workfront Fusion
 exl-id: 5efc0001-a8cd-4ffc-b074-3536f095727b
-source-git-commit: fcaa2136310cad8ef478020a9bae34bbe5520c6d
+source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
 workflow-type: tm+mt
-source-wordcount: '899'
+source-wordcount: '947'
 ht-degree: 0%
 
 ---
 
-# Connect [!DNL Adobe Workfront Fusion] to [!DNL Google Services] 使用自訂OAuth用戶端
+# Connect [!DNL Adobe Workfront Fusion] 至 [!DNL Google Services] 使用自訂OAuth使用者端
 
 ## 存取需求
 
-您必須具備下列存取權才能使用本文中的功能：
+您必須具有下列存取權才能使用本文中的功能：
 
 <table style="table-layout:auto"> 
  <col> 
@@ -26,93 +26,101 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 計劃*</td> 
-   <td> <p>[!UICONTROL Pro]或更高版本</p> </td> 
+   <td> <p>[！UICONTROL Pro]或更高版本</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">[!DNL Adobe Workfront] 授權*</td> 
-   <td> <p>[!UICONTROL計畫]、[!UICONTROL工作]</p> </td> 
+   <td> <p>[！UICONTROL計畫]，[！UICONTROL工作]</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront Fusion] 許可**</td> 
-   <td> <p>[!UICONTROL [!DNL Workfront Fusion] （工作自動化和整合） </p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront Fusion] 授權**</td> 
+   <td>
+   <p>目前授權需求：否 [!DNL Workfront Fusion] 授權需求。</p>
+   <p>或</p>
+   <p>舊版授權需求： [！UICONTROL [!DNL Workfront Fusion] 適用於工作自動化與整合] </p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">產品</td> 
-   <td>貴組織必須購買 [!DNL Adobe Workfront Fusion] 和 [!DNL Adobe Workfront] 以使用本文所述的功能。</td> 
+   <td>
+   <p>目前產品需求：如果您有[！UICONTROL Select]或[！UICONTROL Prime] [!DNL Adobe Workfront] 計畫，您的組織必須購買 [!DNL Adobe Workfront Fusion] 以及 [!DNL Adobe Workfront] 以使用本文所述功能。 [!DNL Workfront Fusion] 包含在[！UICONTROL Ultimate]中 [!DNL Workfront] 計畫。</p>
+   <p>或</p>
+   <p>舊版產品需求：貴組織必須購買 [!DNL Adobe Workfront Fusion] 以及 [!DNL Adobe Workfront] 以使用本文所述功能。</p>
+   </td> 
   </tr> 
  </tbody> 
 </table>
 
-若要了解您擁有的計畫、授權類型或存取權，請聯絡您的 [!DNL Workfront] 管理員。
+若要瞭解您擁有哪些計畫、授權型別或存取權，請聯絡您的 [!DNL Workfront] 管理員。
 
-如需 [!DNL Adobe Workfront Fusion] 許可證，請參閱 [[!DNL Adobe Workfront Fusion] 授權](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+有關以下專案的資訊： [!DNL Adobe Workfront Fusion] 授權，請參閱 [[!DNL Adobe Workfront Fusion] 授權](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
 ## 必要條件
 
-您需要現有 [!DNL Google] 帳戶進行此連線。
+您需要現有的 [!DNL Google] 建立此連線的帳戶。
 
-## 在上建立專案 [!DNL Google Cloud Platform]
+## 建立專案於 [!DNL Google Cloud Platform]
 
-下列程式的用途為：
+下列程式適用於：
 
-* 個人用途([!DNL @gmail.com] 和 [!DNL @googlemail.com] 使用者)
-* 內部使用([!DNL G Suite] 偏好使用自訂OAuth用戶端的使用者)
+* 個人使用([!DNL @gmail.com] 和 [!DNL @googlemail.com] users)
+* 內部使用([!DNL G Suite] 偏好使用自訂OAuth使用者端的使用者)
 
-在上建立專案 [!DNL Google Cloud] 平台：
+建立專案的方式 [!DNL Google Cloud] 平台：
 
-1. 登入 [[!DNL Google Cloud] 平台](https://console.developers.google.com/projectselector2/apis/dashboard?supportedpurview=project) 使用 [!DNL Google] 憑證。
-1. 在左側面板中，按一下 **[!UICONTROL 控制面板]**.
-1. 按一下 **[!UICONTROL 建立專案]** 在螢幕的右上角。
+1. 登入 [[!DNL Google Cloud] Platform](https://console.developers.google.com/projectselector2/apis/dashboard?supportedpurview=project) 使用您的 [!DNL Google] 認證。
+1. 在左側面板中，按一下 **[!UICONTROL 儀表板]**.
+1. 按一下 **[!UICONTROL 建立專案]** 在熒幕的右上角。
 1. 輸入 **[!UICONTROL 專案名稱]**，然後按一下 **[!UICONTROL 建立]**.
 
-1. 按一下 **[!UICONTROL 啟用API與服務]** 標籤。
-1. 在 **[!UICONTROL 搜尋API與服務]** 欄位，輸入您要使用的服務名稱(例如 [!DNL Gmail] API或 [!DNL Google Drive] API)。
-1. 顯示時，按一下您要連線的API或服務 [!DNL Workfront Fusion].
-1. 按一下 **[!UICONTROL 啟用]** 啟用所選API。
-1. 對要啟用的每個API重複步驟6至8。
+1. 按一下 **[!UICONTROL 啟用API和服務]** 標籤移至熒幕上方附近。
+1. 在 **[!UICONTROL 搜尋API和服務]** 在畫面頂端的欄位中，輸入您要使用的服務名稱(例如 [!DNL Gmail] API或 [!DNL Google Drive] API)。
+1. 當它顯示時，按一下您要連線到的API或服務 [!DNL Workfront Fusion].
+1. 按一下 **[!UICONTROL 啟用]** 以啟用選取的API。
+1. 對您要啟用的每個API重複步驟6至8。
 
    >[!NOTE]
    >
    >您必須啟用 [!DNL Google Drive] API以及所有的API [!DNL Google] 您要使用的應用程式(例如 [!DNL Google Sheets] API)。
 
-1. 在顯示的畫面上，按一下 **[!UICONTROL 建立憑證]** 在右上角。
-1. 繼續前往區段 [配置OAuth同意設定](#configure-oauth-consent-settings) 這篇文章。
+1. 在出現的畫面上，按一下 **[!UICONTROL 建立認證]** 右上角。
+1. 繼續前往區段 [設定OAuth同意設定](#configure-oauth-consent-settings) 本文章內容。
 
 ## 設定 [!UICONTROL OAuth同意] 設定
 
 1. 在左側面板中，按一下 **[!UICONTROL OAuth同意畫面]**.
-1. 選擇 **[!UICONTROL 外部]**，然後按一下 **[!UICONTROL 建立]**.
+1. 選取 **[!UICONTROL 外部]**，然後按一下 **[!UICONTROL 建立]**.
 
    >[!NOTE]
    >
-   >選取此選項時，系統不會向您收取費用。 如需詳細資訊，請參閱 [!DNL Google]關於驗證要求的例外的資訊。
+   >選取此選項時不會向您收費。 如需詳細資訊，請參閱 [!DNL Google]的驗證需求例外相關資訊。
 
-1. 填寫必填欄位如下：
+1. 依照以下說明填寫必填欄位：
 
    <table style="table-layout:auto">
     <col> 
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader"> <p>[!UICONTROL應用程式名稱]</p> </td> 
+      <td role="rowheader"> <p>[！UICONTROL應用程式名稱]</p> </td> 
       <td> <p>輸入要求同意的應用程式名稱。</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>範例: </b></span></span>[!DNL Adobe Workfront Fusion] </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL用戶支援電子郵件]</td> 
-      <td>輸入使用者的電子郵件地址，以便在連線至此應用程式時，與您連絡，詢問其同意的問題。</td> 
+      <td role="rowheader">[！UICONTROL使用者支援電子郵件]</td> 
+      <td>輸入電子郵件地址，讓使用者在連線至此應用程式時，針對其同意問題聯絡您。</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL電子郵件地址]</td> 
-      <td>輸入一或多個Google可用來通知您專案任何變更的電子郵件地址。</td> 
+      <td role="rowheader">[！UICONTROL電子郵件地址]</td> 
+      <td>輸入一或多個電子郵件地址，Google可使用這些地址通知您專案的任何變更。</td> 
      </tr> 
     </tbody> 
    </table>
 
-1. 在 [!UICONTROL 授權網域]，按一下 **[!UICONTROL 新增網域]**，然後輸入 `workfrontfusion.com`.
+1. 下 [!UICONTROL 已授權的網域]，按一下 **[!UICONTROL 新增網域]**，並輸入 `workfrontfusion.com`.
 
-1. 按一下 **[!UICONTROL 保存並繼續]**.
-1. 按一下 **[!UICONTROL 添加或刪除作用域]**.
-1. 在右側面板中，啟用以下範圍：
+1. 按一下 **[!UICONTROL 儲存並繼續]**.
+1. 按一下 **[!UICONTROL 新增或移除範圍]**.
+1. 在右側面板中，啟用下列範圍：
 
 <table style="table-layout:auto">
     <col> 
@@ -120,7 +128,7 @@ ht-degree: 0%
     <thead> 
      <tr> 
       <th>服務/API</th> 
-      <th>所需範圍</th> 
+      <th>必要的範圍</th> 
      </tr> 
     </thead> 
     <tbody> 
@@ -135,89 +143,89 @@ ht-degree: 0%
     </tbody> 
    </table>
 
-您可能需要展開清單或前往清單的下一頁，才能查看全部內容。
+您可能需要展開清單或前往清單的下一頁來檢視所有清單。
 
 1. 按一下 **[!UICONTROL 更新]**.
-1. 按一下 **[!UICONTROL 保存並繼續]**.
-1. （選用）將任何測試使用者新增至專案。
-1. 按一下 **[!UICONTROL 保存並繼續]**.
-1. 檢查資訊是否準確，然後按一下 **[!UICONTROL 返回控制面板]**.
+1. 按一下 **[!UICONTROL 儲存並繼續]**.
+1. （可選）將任何測試使用者新增至專案。
+1. 按一下 **[!UICONTROL 儲存並繼續]**.
+1. 檢查您的資訊是否準確，然後按一下 **[!UICONTROL 返回儀表板]**.
 
    >[!NOTE]
    >
-   >您不需要提交同意畫面和申請以供驗證 [!DNL Google].
+   >您不需要提交同意畫面和申請以進行驗證，驗證者： [!DNL Google].
 
-1. 繼續 [建立OAuth憑證](#create-oauth-credentials).
+1. 繼續至 [建立OAuth認證](#create-oauth-credentials).
 
-## 建立OAuth憑證
+## 建立OAuth認證
 
-1. 在左側面板中，按一下 **[!UICONTROL 憑證]**.
+1. 在左側面板中，按一下 **[!UICONTROL 認證]**.
 
    >[!NOTE]
    >
-   >如果這不是第一個API或服務([!DNL Gmail] 或 [!DNL Google Drive])，則您不必建立新憑證。
+   >如果這不是第一個API或服務([!DNL Gmail] 或 [!DNL Google Drive])已啟用，您不必建立新的認證。
 
-1. 按一下 **[!UICONTROL 建立憑證]** 在畫面頂端附近，選取 **[!UICONTROL OAuth用戶端ID]** 從下拉式功能表。
+1. 按一下 **[!UICONTROL 建立認證]** 在熒幕上方附近，然後選取「 」 **[!UICONTROL OAuth使用者端ID]** 從下拉式功能表。
 
-1. 填寫必填欄位如下：
+1. 依照以下說明填寫必填欄位：
 
    <table style="table-layout:auto">
     <col> 
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">[!UICONTROL應用程式類型]</td> 
-      <td> <p> [!UICONTROL Web應用程式]</p> </td> 
+      <td role="rowheader">[！UICONTROL應用程式型別]</td> 
+      <td> <p> [！UICONTROL Web應用程式]</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL名稱]</td> 
+      <td role="rowheader">[！UICONTROL名稱]</td> 
       <td>[!DNL Workfront Fusion] </td> 
      </tr> 
     </tbody> 
    </table>
 
-1. 在 [!UICONTROL 授權的重定向URI]，按一下 **[!UICONTROL 添加URI]** 輸入 **one** （共以下）:
+1. 下 [!UICONTROL 授權的重新導向URI]，按一下 **[!UICONTROL 新增URI]** 並輸入 **一** 下列專案中的：
 
-   * 針對 [!DNL Gmail] 或 [!DNL Google Drive]: `https://app.workfrontfusion.com/oauth/cb/google-restricted`
+   * 對象 [!DNL Gmail] 或 [!DNL Google Drive]： `https://app.workfrontfusion.com/oauth/cb/google-restricted`
 
-   * 其他 [!DNL Google] 應用程式： `https://app.workfrontfusion.com/oauth/cb/google`
+   * 針對其他 [!DNL Google] 應用程式： `https://app.workfrontfusion.com/oauth/cb/google`
 
 1. 按一下 **[!UICONTROL 建立]**。
 
-   此 [!UICONTROL 用戶端ID] 和 [!UICONTROL 用戶端密碼] 顯示。
+   此 [!UICONTROL 使用者端ID] 和 [!UICONTROL 使用者端密碼] 顯示。
 
-1. 複製 [!UICONTROL 用戶端ID] 和 [!UICONTROL 用戶端密碼] 到安全的地方。 您會使用這些參數來建立 [!DNL Workfront Fusion].
-1. 繼續 [連線至 [!DNL Google] in [!DNL Workfront Fusion]](#connect-to-google-in-workfront-fusion).
+1. 複製 [!UICONTROL 使用者端ID] 和 [!UICONTROL 使用者端密碼] 至安全位置。 您將使用它們在中建立連線 [!DNL Workfront Fusion].
+1. 繼續至 [連線到 [!DNL Google] 在 [!DNL Workfront Fusion]](#connect-to-google-in-workfront-fusion).
 
-## 連線至 [!DNL Google] in [!DNL Workfront Fusion]
+## 連線到 [!DNL Google] 在 [!DNL Workfront Fusion]
 
-建立與 [!DNL Google] 視您是否使用 [!DNL Google] 服務(例如 [!DNL Google Sheets] 或 [!DNL Google Docs])，或如果您連線至 [!DNL Google] 透過 [!UICONTROL HTTP] >[!UICONTROL 建立OAuth2.0] 要求模組。
+建立與的連線的程式 [!DNL Google] 視您使用的模組是否來自 [!DNL Google] 服務(例如 [!DNL Google Sheets] 或 [!DNL Google Docs])，或者如果您要連線至 [!DNL Google] 透過 [!UICONTROL HTTP] >[!UICONTROL 建立OAuth2.0] 要求模組。
 
-* [連線至 [!DNL Google] 在 [!DNL Google] 服務](#connect-to-google-in-a-google-service)
-* [連線至 [!DNL Google] 在 [!UICONTROL HTTP] > [!UICONTROL 提出OAuth2.0請求] 模組](#connect-to-google-in-the-http--make-an-oauth20-request-module)
+* [連線到 [!DNL Google] 在 [!DNL Google] 服務](#connect-to-google-in-a-google-service)
+* [連線到 [!DNL Google] 在 [!UICONTROL HTTP] > [!UICONTROL 提出OAuth2.0請求] 模組](#connect-to-google-in-the-http--make-an-oauth20-request-module)
 
-### 連線至 [!DNL Google] 在 [!DNL Google] 服務
+### 連線到 [!DNL Google] 在 [!DNL Google] 服務
 
-1. 在 [!DNL Workfront Fusion]，找到 [!DNL Google] 您需要為建立連線的模組。
-1. 按一下 **[!UICONTROL 建立連線]**，然後按一下 **[!UICONTROL 顯示高級設定]**.
+1. 在 [!DNL Workfront Fusion]，找到 [!DNL Google] 建立連線所需的模組。
+1. 按一下 **[!UICONTROL 建立連線]**，然後按一下 **[!UICONTROL 顯示進階設定]**.
 
-1. 輸入 [!UICONTROL 用戶端ID] 和 [!UICONTROL 用戶端密碼] 在 [[!UICONTROL 建立OAuth憑證]](#create-oauth-credentials) 在個別欄位中，然後按一下 **[!UICONTROL 繼續]**.
+1. 輸入 [!UICONTROL 使用者端ID] 和 [!UICONTROL 使用者端密碼] 您已擷取於 [[!UICONTROL 建立OAuth認證]](#create-oauth-credentials) ，然後按一下「 」 **[!UICONTROL 繼續]**.
 
-1. 使用 [!DNL Google] 帳戶。
+1. 使用您的登入 [!DNL Google] 帳戶。
 
-   此 **[!UICONTROL 未驗證此應用]** 視窗。 請注意，視窗標題中提及的「應用程式」是您在上面建立的OAuth用戶端。
+   此 **[!UICONTROL 此應用程式未驗證]** 視窗隨即顯示。 請注意，視窗標題中提到的「應用程式」是您在上面建立的OAuth使用者端。
 
-1. 按一下 **[!UICONTROL 進階]**，然後按一下 **[!UICONTROL 前往 [!DNL Workfront Fusion] （不安全）]** 允許使用自訂OAuth用戶端存取。
+1. 按一下 **[!UICONTROL 進階]**，然後按一下 **[!UICONTROL 前往 [!DNL Workfront Fusion] （不安全）]** 以允許使用您的自訂OAuth使用者端進行存取。
 
-1. 按一下 **[!UICONTROL 允許]** 授予 [!DNL Workfront Fusion] 權限。
-1. 在顯示的視窗中，按一下 **[!UICONTROL 允許]** 再次確認您的選擇。
+1. 按一下 **[!UICONTROL 允許]** 授予 [!DNL Workfront Fusion] 許可權。
+1. 在出現的視窗中，按一下 **[!UICONTROL 允許]** 再次確認您的選擇。
 
-   與所需的連線 [!DNL Google] 已建立使用自訂OAuth用戶端的服務。
+   所需專案的連線 [!DNL Google] 已建立使用自訂OAuth使用者端的服務。
 
-### 連線至 [!DNL Google] 在 [!UICONTROL HTTP] > [!UICONTROL 提出OAuth2.0請求] 模組 {#connect-to-google-in-the-http--make-an-oauth20-request-module}
+### 連線到 [!DNL Google] 在 [!UICONTROL HTTP] > [!UICONTROL 提出OAuth2.0請求] 模組 {#connect-to-google-in-the-http--make-an-oauth20-request-module}
 
-有關連接到 [!DNL Google] 在 [!UICONTROL HTTP] > [!UICONTROL 提出OAuth2.0請求] 模組，請參閱 [建立與 [!DNL Google] 在 [!UICONTROL HTTP] > [!UICONTROL 提出OAuth 2.0請求] 模組](../../workfront-fusion/apps-and-their-modules/http-modules/http-module-make-an-oauth-2-request.md#instruct) in [[!UICONTROL HTTP] > [!UICONTROL 提出OAuth 2.0請求] 模組](../../workfront-fusion/apps-and-their-modules/http-modules/http-module-make-an-oauth-2-request.md).
+如需有關連線至的說明 [!DNL Google] 在 [!UICONTROL HTTP] > [!UICONTROL 提出OAuth2.0請求] 模組，請參閱 [建立與的連線的指示 [!DNL Google] 在 [!UICONTROL HTTP] > [!UICONTROL 提出OAuth 2.0請求] 模組](../../workfront-fusion/apps-and-their-modules/http-modules/http-module-make-an-oauth-2-request.md#instruct) 在 [[!UICONTROL HTTP] > [!UICONTROL 提出OAuth 2.0請求] 模組](../../workfront-fusion/apps-and-their-modules/http-modules/http-module-make-an-oauth-2-request.md).
 
-## 可能的錯誤消息：[!UICONTROL [403] 未配置訪問]
+## 可能的錯誤訊息：[!UICONTROL [403] 未設定存取]
 
-若 [!UICONTROL [403] 未配置訪問] 錯誤訊息隨即顯示，您必須在Google雲端平台中啟用對應的API。 若要啟用API，請依照 [在上建立專案 [!DNL Google Cloud Platform]](#create-a-project-on-google-cloud-platform) 這篇文章。
+如果 [!UICONTROL [403] 未設定存取] 錯誤訊息顯示，您需要在Google Cloud平台中啟用對應的API。 若要啟用API，請依照一節中的步驟操作 [建立專案於 [!DNL Google Cloud Platform]](#create-a-project-on-google-cloud-platform) 本文章內容。

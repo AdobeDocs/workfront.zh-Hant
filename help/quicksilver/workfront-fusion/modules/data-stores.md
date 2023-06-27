@@ -8,9 +8,9 @@ description: 資料存放區（類似於資料庫或簡單表格）可以儲存�
 author: Becky
 feature: Workfront Fusion
 exl-id: 2a665a71-b819-4861-b119-f5c28b87e9c5
-source-git-commit: e71f276eb510497c026a70400afc754d5f57b60b
+source-git-commit: 8b4182ae2b32488a02cacc16fcb6a246fcb571fd
 workflow-type: tm+mt
-source-wordcount: '1176'
+source-wordcount: '1224'
 ht-degree: 1%
 
 ---
@@ -49,11 +49,19 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL Adobe Workfront Fusion]授權**</td> 
-   <td> <p>[！UICONTROL [!DNL Workfront Fusion] 適用於工作自動化與整合] </p>  </td> 
+   <td>
+   <p>目前授權需求：否 [!DNL Workfront Fusion] 授權需求。</p>
+   <p>或</p>
+   <p>舊版授權需求： [！UICONTROL [!DNL Workfront Fusion] 適用於工作自動化與整合] </p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">產品</td> 
-   <td>貴組織必須購買 [!DNL Adobe Workfront Fusion] 以及 [!DNL Adobe Workfront] 以使用本文所述功能。</td> 
+   <td>
+   <p>目前產品需求：如果您有[！UICONTROL Select]或[！UICONTROL Prime] [!DNL Adobe Workfront] 計畫，您的組織必須購買 [!DNL Adobe Workfront Fusion] 以及 [!DNL Adobe Workfront] 以使用本文所述功能。 [!DNL Workfront Fusion] 包含在[！UICONTROL Ultimate]中 [!DNL Workfront] 計畫。</p>
+   <p>或</p>
+   <p>舊版產品需求：貴組織必須購買 [!DNL Adobe Workfront Fusion] 以及 [!DNL Adobe Workfront] 以使用本文所述功能。</p>
+   </td> 
   </tr> 
  </tbody> 
 </table>

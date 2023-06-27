@@ -8,16 +8,16 @@ description: 管理 [!DNL Adobe Workfront Fusion] 您組織中的使用者
 author: Becky
 feature: Workfront Fusion
 exl-id: fbb858a6-1230-41b4-892a-4ffeb2711922
-source-git-commit: e58ff769015b8c4e34b34eea653f55a296eea371
+source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
 workflow-type: tm+mt
-source-wordcount: '376'
+source-wordcount: '427'
 ht-degree: 0%
 
 ---
 
 # 管理 [!DNL Adobe Workfront Fusion] 您組織中的使用者
 
-[!DNL Adobe Workfront Fusion] 管理員可在內管理使用者角色 [!DNL Workfront Fusion].
+[!DNL Adobe Workfront Fusion] 管理員可以在內部管理使用者角色 [!DNL Workfront Fusion].
 
 <!--
 
@@ -37,7 +37,7 @@ ht-degree: 0%
 
 ## 存取需求
 
-您必須具備下列存取權才能使用本文中的功能：
+您必須具有下列存取權才能使用本文中的功能：
 
 <table style="table-layout:auto">
  <col> 
@@ -49,55 +49,63 @@ ht-degree: 0%
   </tr> 
    <tr> 
     <td role="rowheader">[!DNL Adobe Workfront] 授權*</td> 
-    <td> <p>[!UICONTROL計畫]、[!UICONTROL工作]</p> </td> 
+    <td> <p>[！UICONTROL計畫]，[！UICONTROL工作]</p> </td> 
    </tr>
    <tr> 
-   <td role="rowheader">[!UICONTROL Adobe Workfront Fusion]授權**</td> 
-   <td> <p>Workfront Fusion for Work Automation and Integration,</p>  </td> 
+   <td role="rowheader">[！UICONTROL Adobe Workfront Fusion]授權**</td> 
+   <td>
+   <p>目前授權需求：否 [!DNL Workfront Fusion] 授權需求。</p>
+   <p>或</p>
+   <p>舊版授權需求： [！UICONTROL [!DNL Workfront Fusion] 若為工作自動化與整合]，[！UICONTROL [!DNL Workfront Fusion] 工作自動化專用]</p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">產品</td> 
-   <td>貴組織必須購買 [!DNL Adobe Workfront Fusion] 和 [!DNL Adobe Workfront] 以使用本文所述的功能。</td> 
+   <td>
+   <p>目前產品需求：如果您有[！UICONTROL Select]或[！UICONTROL Prime] [!DNL Adobe Workfront] 計畫，您的組織必須購買 [!DNL Adobe Workfront Fusion] 以及 [!DNL Adobe Workfront] 以使用本文所述功能。 [!DNL Workfront Fusion] 包含在[！UICONTROL Ultimate]中 [!DNL Workfront] 計畫。</p>
+   <p>或</p>
+   <p>舊版產品需求：貴組織必須購買 [!DNL Adobe Workfront Fusion] 以及 [!DNL Adobe Workfront] 以使用本文所述功能。</p>
+   </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">訪問級別配置*</td> 
+   <td role="rowheader">存取層級設定*</td> 
    <td> 
-     <p>您必須是 [!DNL Workfront Fusion] 管理員。</p>
-     <p>您必須是 [!DNL Workfront Fusion] 管理員。</p>
+     <p>您必須是 [!DNL Workfront Fusion] 您組織的管理員。</p>
+     <p>您必須是 [!DNL Workfront Fusion] 您的團隊管理員。</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-若要了解您擁有的計畫、授權類型或存取權，請聯絡您的 [!DNL Workfront] 管理員。
+若要瞭解您擁有哪些計畫、授權型別或存取權，請聯絡您的 [!DNL Workfront] 管理員。
 
-如需 [!DNL Adobe Workfront Fusion] 許可證，請參閱 [[!DNL Adobe Workfront Fusion] 授權](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+有關以下專案的資訊： [!DNL Adobe Workfront Fusion] 授權，請參閱 [[!DNL Adobe Workfront Fusion] 授權](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
-## 查看或編輯用戶角色 {#view}
+## 檢視或編輯使用者角色 {#view}
 
 [!DNL Adobe Workfront Fusion] 管理員可以檢視和更新使用者角色。
 
-1. 以 [!DNL Workfront Fusion] 管理員，選擇 **[!UICONTROL 使用者]** 的下一頁。
-1. 按一下 **[!UICONTROL 詳細資料]** 在您要檢視的使用者列中。
-1. （可選）若要更新使用者角色，請按一下 **[!DNL Role]** 列，在要更改用戶角色的組織行中，然後選擇新角色。
+1. 以身分登入時 [!DNL Workfront Fusion] 管理員，選取 **[!UICONTROL 使用者]** 左側導覽列中。
+1. 按一下 **[!UICONTROL 詳細資料]** ，位於您要檢視的使用者列中。
+1. （可選）若要更新使用者的角色，請按一下 **[!DNL Role]** 欄中選取要變更使用者角色的組織列，然後選取新角色。
 
-## 查看或編輯用戶詳細資訊 {#view2}
+## 檢視或編輯使用者詳細資訊 {#view2}
 
 [!DNL Adobe Workfront Fusion] 管理員可以檢視和更新使用者詳細資訊。
 
-1. 以 [!DNL Workfront Fusion] 管理員，選擇 **[!UICONTROL 使用者]** 的下一頁。
-1. 按一下 **[!UICONTROL 詳細資料]** 在您要檢視的使用者列中。
-1. （選用）若要更新使用者的詳細資訊，請按一下 **[!UICONTROL 選項]** 在畫面的右上角，選取 **[!UICONTROL 變更詳細資訊]**.
+1. 以身分登入時 [!DNL Workfront Fusion] 管理員，選取 **[!UICONTROL 使用者]** 左側導覽列中。
+1. 按一下 **[!UICONTROL 詳細資料]** ，位於您要檢視的使用者列中。
+1. （選用）若要更新使用者的詳細資訊，請按一下 **[!UICONTROL 選項]** 在熒幕右上角，然後選取 **[!UICONTROL 變更詳細資料]**.
 
 ## 刪除使用者 {#delete}
 
 [!DNL Adobe Workfront Fusion] 管理員可以刪除使用者。
 
-1. 以 [!DNL Workfront Fusion] 管理員，選擇 [!UICONTROL 使用者] 的下一頁。
-1. 按一下 **[!UICONTROL 詳細資料]** 在您要檢視的使用者列中。
-1. （選用）若要更新使用者的詳細資訊，請按一下 **[!UICONTROL 選項]** 在畫面的右上角，選取 **[!UICONTROL 刪除]**.
+1. 以身分登入時 [!DNL Workfront Fusion] 管理員，選取 [!UICONTROL 使用者] 左側導覽列中。
+1. 按一下 **[!UICONTROL 詳細資料]** ，位於您要檢視的使用者列中。
+1. （選用）若要更新使用者的詳細資訊，請按一下 **[!UICONTROL 選項]** 在熒幕右上角，然後選取 **[!UICONTROL 刪除]**.
 
-### 在Workfront Fusion中刪除使用者時的考量事項
+### 在Workfront Fusion中刪除使用者時的注意事項
 
-* 刪除用戶後，將刪除用戶的連接、密鑰和Webhook。 屬於用戶的任何方案都將轉移給組織責任人。 這些情況下的連接必須更新，因為屬於用戶的連接不再有效。
-* 如果刪除的用戶擁有任何應用程式或公共模板，則應用程式或公共模板將轉移到組織所有者。 如果沒有組織所有者，則應用程式或公共模板將轉移給其他用戶。
+* 刪除使用者時，會移除使用者的連線、金鑰和Webhook。 屬於使用者的任何案例都會轉移至組織「擁有者」。 必須更新這些案例中的連線，因為屬於使用者的連線不再有效。
+* 如果刪除的使用者擁有任何應用程式或公用範本，則應用程式或公用範本會轉移至組織「擁有者」。 如果沒有組織「擁有者」，則應用程式或公用範本會轉讓給其他使用者。

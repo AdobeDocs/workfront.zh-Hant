@@ -9,9 +9,9 @@ description: 您可以在Adobe Workfront Fusion HTTP模組中使用Mutual TLS，
 author: Becky
 feature: Workfront Fusion
 exl-id: ace9c404-34de-4bc5-bc77-2e53df36dbd9
-source-git-commit: 790f5da3af32ffdfcbb596f467f882a7408e3f28
+source-git-commit: 8b4182ae2b32488a02cacc16fcb6a246fcb571fd
 workflow-type: tm+mt
-source-wordcount: '617'
+source-wordcount: '663'
 ht-degree: 0%
 
 ---
@@ -33,11 +33,10 @@ ht-degree: 0%
 >**範例:**
 >
 >* **TLS**：當使用者在瀏覽器中輸入「MyGreatBank.com」時，他們想要確保自己會前往My Great Bank，而不是會誤用或出售其銀行資訊的網站。 他們還想確認自己的銀行帳戶資訊已加密。
-   >
-   >   瀏覽器（使用者端）連線至MyGreatBank.com （伺服器）時，TLS會需要MyGreatBank.com的憑證來驗證其身分。 憑證由憑證授權單位提供，例如 [!DNL DigiCert] 或 [!DNL Thawte]. 因為瀏覽器信任憑證授權單位，所以允許連線。
+>
+>   瀏覽器（使用者端）連線至MyGreatBank.com （伺服器）時，TLS會需要MyGreatBank.com的憑證來驗證其身分。 憑證由憑證授權單位提供，例如 [!DNL DigiCert] 或 [!DNL Thawte]. 因為瀏覽器信任憑證授權單位，所以允許連線。
 >
 >* **雙向TLS**： MySoftware.com是軟體使用者端，需要MyGreatBank.com API的資訊。 MyGreatBank只允許受信任的客戶連線到他們的伺服器。 因此，除了驗證MyGreatBank.com身分的常規TLS之外，TLS/憑證授權程式也會驗證MySoftware.com的請求。
-
 
 ## 存取需求
 
@@ -57,11 +56,19 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] 授權**</td> 
-   <td> <p>[！UICONTROL Workfront Fusion for Work Automation and Integration] </p> </td> 
+   <td>
+   <p>目前授權需求：否 [!DNL Workfront Fusion] 授權需求。</p>
+   <p>或</p>
+   <p>舊版授權需求： [！UICONTROL [!DNL Workfront Fusion] 適用於工作自動化與整合] </p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">產品</td> 
-   <td>貴組織必須購買 [!DNL Adobe Workfront Fusion] 以及 [!DNL Adobe Workfront] 以使用本文所述功能。</td> 
+   <td>
+   <p>目前產品需求：如果您有[！UICONTROL Select]或[！UICONTROL Prime] [!DNL Adobe Workfront] 計畫，您的組織必須購買 [!DNL Adobe Workfront Fusion] 以及 [!DNL Adobe Workfront] 以使用本文所述功能。 [!DNL Workfront Fusion] 包含在[！UICONTROL Ultimate]中 [!DNL Workfront] 計畫。</p>
+   <p>或</p>
+   <p>舊版產品需求：貴組織必須購買 [!DNL Adobe Workfront Fusion] 以及 [!DNL Adobe Workfront] 以使用本文所述功能。</p>
+   </td> 
   </tr> 
  </tbody> 
 </table>
@@ -88,17 +95,16 @@ ht-degree: 0%
 >[!IMPORTANT]
 >
 >* 這些 [!DNL Workfront Fusion] 公開憑證將於2024年6月9日到期。 您的憑證過期後，您需要將新的憑證上傳到Web服務。 建議您：
-   >
-   >   * 記下到期日並設定提醒，讓您自己將憑證上傳到您的Web服務。
-   >   * 將此頁面加入書籤，即可輕鬆找到新憑證。
+>
+>   * 記下到期日並設定提醒，讓您自己將憑證上傳到您的Web服務。
+>   * 將此頁面加入書籤，即可輕鬆找到新憑證。
 >
 >* 這些是非萬用字元mTLS憑證。
-
 
 * [下載 [!DNL Workfront Fusion] 2023年憑證](/help/quicksilver/workfront-fusion/apps-and-their-modules/http-modules/assets/fusion-prod-eu-mtls-certificate.pem)
 * [下載 [!DNL Workfront Fusion] 2023年歐盟認證](/help/quicksilver/workfront-fusion/apps-and-their-modules/http-modules/assets/fusion-prod-eu-mtls-certificate.pem)
 
-   於歐盟使用
+  於歐盟使用
 
 <!--
 

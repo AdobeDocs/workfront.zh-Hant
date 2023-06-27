@@ -8,9 +8,9 @@ description: 除了Adobe Workfront授權，Adobe Workfront Fusion還需要Adobe 
 author: Becky
 feature: Workfront Fusion
 exl-id: 2169dc2e-2135-47e0-a615-3de12cd120a9
-source-git-commit: b911af09c6df14f6504f6fc06adcf1f3a6d2626b
+source-git-commit: 8b4182ae2b32488a02cacc16fcb6a246fcb571fd
 workflow-type: tm+mt
-source-wordcount: '824'
+source-wordcount: '830'
 ht-degree: 0%
 
 ---
@@ -88,7 +88,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader"> <p>作業</p> </td> 
-   <td> <p>模組執行的任務。 </p> </td> 
+   <td> <p>模組執行的任務。</p><p>如需詳細資訊，請參閱 <a href="../../workfront-fusion/get-started/operations-in-workfront-fusion.md" class="MCXref xref">中的作業 [!DNL Adobe Workfront Fusion]</a>.</p>
   </tr> 
   <tr> 
    <td role="rowheader">公開/私密金鑰</td> 

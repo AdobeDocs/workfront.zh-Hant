@@ -9,7 +9,7 @@ description: Adobe Workfront Fusion目前為此清單上的應用程式提供專
 author: Becky
 feature: Workfront Fusion
 exl-id: 7075a649-ab0c-4dfc-b726-c5702c90b457
-source-git-commit: 57c6a93dffbf171adfb5b3c9d05f0f820cde8567
+source-git-commit: 8b4182ae2b32488a02cacc16fcb6a246fcb571fd
 workflow-type: tm+mt
 source-wordcount: '206'
 ht-degree: 27%
@@ -90,9 +90,7 @@ ht-degree: 27%
 * [[!UICONTROL HTTP] 模組](../../workfront-fusion/apps-and-their-modules/http-modules/http-modules-1.md)
 * [[!DNL HubSpot CRM] 模組](../../workfront-fusion/apps-and-their-modules/hubspot-crm-modules.md)
 * [影像模組](../../workfront-fusion/apps-and-their-modules/image-module.md)
-<!--
-* [[!DNL Intacct] modules](../../workfront-fusion/apps-and-their-modules/intacct-modules.md)
--->
+
 <!--
   <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="../../workfront-fusion/apps-and-their-modules/iso-modules.md" class="MCXref xref" xrefformat="{para}">ISO modules</a> </li>
   -->

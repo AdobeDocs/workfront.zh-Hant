@@ -8,9 +8,9 @@ description: Adobe Workfront Fusion的「組織」和「團隊」功能讓企業
 author: Becky
 feature: Workfront Fusion
 exl-id: 601e937f-0286-4557-9a87-59aa9c0c22f1
-source-git-commit: 392eee3c7b1aacf92d7877f07a8154924f3926a0
+source-git-commit: 8b4182ae2b32488a02cacc16fcb6a246fcb571fd
 workflow-type: tm+mt
-source-wordcount: '1111'
+source-wordcount: '1119'
 ht-degree: 0%
 
 ---
@@ -33,11 +33,19 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL Adobe Workfront Fusion]授權**</td> 
-   <td> <p>Workfront Fusion for Work Automation and Integration，</p>  </td> 
+   <td>
+   <p>目前授權需求：否 [!DNL Workfront Fusion] 授權需求。</p>
+   <p>或</p>
+   <p>舊版授權需求： [！UICONTROL [!DNL Workfront Fusion] 若為工作自動化與整合]，[！UICONTROL [!DNL Workfront Fusion] 工作自動化專用]</p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">產品</td> 
-   <td>貴組織必須購買 [!DNL Adobe Workfront Fusion] 以及 [!DNL Adobe Workfront] 以使用本文所述功能。</td> 
+   <td>
+   <p>目前產品需求：如果您有[！UICONTROL Select]或[！UICONTROL Prime] [!DNL Adobe Workfront] 計畫，您的組織必須購買 [!DNL Adobe Workfront Fusion] 以及 [!DNL Adobe Workfront] 以使用本文所述功能。 [!DNL Workfront Fusion] 包含在[！UICONTROL Ultimate]中 [!DNL Workfront] 計畫。</p>
+   <p>或</p>
+   <p>舊版產品需求：貴組織必須購買 [!DNL Adobe Workfront Fusion] 以及 [!DNL Adobe Workfront] 以使用本文所述功能。</p>
+   </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">存取層級設定*</td> 
@@ -56,9 +64,7 @@ ht-degree: 0%
 
 ## 組織
 
-[!DNL Workfront Fusion] 使用者屬於一個組織。 您的 [!DNL Fusion] 授權會決定您的組織中有多少可用的使用中案例和聯結器。
-
-[!DNL Fusion] 授權會決定組織可用的作用中案例和使用中應用程式數量。 [!DNL Fusion] 在組織儀表板上顯示目前的「作用中案例」和「作用中應用程式」計數。
+[!DNL Workfront Fusion] 使用者屬於一個組織。
 
 * [組織角色](#organization-roles)
 * [邀請使用者加入組織](#inviting-users-to-an-organization)

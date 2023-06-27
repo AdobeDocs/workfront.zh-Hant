@@ -9,9 +9,9 @@ description: 您可以使用Adobe Workfront Fusion Adobe Workfront聯結器在Wo
 author: Becky
 feature: Workfront Fusion, Workfront Integrations and Apps
 exl-id: b84d2d41-a983-4ea3-b331-0302bfcf8a2b
-source-git-commit: 2a49e8f1947d39efa85bb8b8bdb7aee5054f8d33
+source-git-commit: 8b4182ae2b32488a02cacc16fcb6a246fcb571fd
 workflow-type: tm+mt
-source-wordcount: '5378'
+source-wordcount: '5426'
 ht-degree: 3%
 
 ---
@@ -44,11 +44,19 @@ ht-degree: 3%
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] 授權**</td> 
-   <td> <p>[！UICONTROL [!DNL Workfront Fusion] 適用於工作自動化與整合] </p>  <p>[！UICONTROL [!DNL Workfront Fusion] 工作自動化專用]</p></td> 
+   <td>
+   <p>目前授權需求：否 [!DNL Workfront Fusion] 授權需求。</p>
+   <p>或</p>
+   <p>舊版授權需求： [！UICONTROL [!DNL Workfront Fusion] 若為工作自動化與整合]，[！UICONTROL [!DNL Workfront Fusion] 工作自動化專用]</p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">產品</td> 
-   <td>貴組織必須購買 [!DNL Adobe Workfront Fusion] 以及 [!DNL Adobe Workfront] 以使用本文所述功能。</td> 
+   <td>
+   <p>目前產品需求：如果您有[！UICONTROL Select]或[！UICONTROL Prime] [!DNL Adobe Workfront] 計畫，您的組織必須購買 [!DNL Adobe Workfront Fusion] 以及 [!DNL Adobe Workfront] 以使用本文所述功能。 [!DNL Workfront Fusion] 包含在[！UICONTROL Ultimate]中 [!DNL Workfront] 計畫。</p>
+   <p>或</p>
+   <p>舊版產品需求：貴組織必須購買 [!DNL Adobe Workfront Fusion] 以及 [!DNL Adobe Workfront] 以使用本文所述功能。</p>
+   </td> 
   </tr> 
  </tbody> 
 </table>
@@ -215,7 +223,7 @@ ht-degree: 3%
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL記錄型別]</td> 
-   <td> <p>(在您選擇之後顯示 <strong>篩選</strong>.) 選取型別 [!DNL Workfront] 錄製您想要模組觀看的影片。</p> <p>例如，如果您要在每次建立新專案時啟動此案例，請選取[！UICONTROL專案]</p> </td> 
+   <td> <p>(在您選擇之後顯示 <strong>篩選</strong>.) 選取型別 [!DNL Workfront] 錄製您希望模組觀看的影片。</p> <p>例如，如果您要在每次建立新專案時啟動此案例，請選取[！UICONTROL專案]</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL輸出]</td> 

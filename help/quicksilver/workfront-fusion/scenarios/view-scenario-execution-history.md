@@ -3,26 +3,26 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: scenarios
 title: 在Adobe Workfront Fusion中檢視案例的執行歷史記錄
-description: 您可以顯示藍本所有執行的相關資訊，或搜尋藍本的所有執行以取得特定資料。
+description: 您可以顯示某個案例所有執行的相關資訊，也可以搜尋特定資料之案例的所有執行。
 author: Becky
 feature: Workfront Fusion
 exl-id: cc2c3f87-34dc-4a06-9f5f-1a7fb10a3b82
-source-git-commit: fcaa2136310cad8ef478020a9bae34bbe5520c6d
+source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
 workflow-type: tm+mt
-source-wordcount: '808'
+source-wordcount: '856'
 ht-degree: 1%
 
 ---
 
-# 在 [!DNL Adobe Workfront Fusion]
+# 在中檢視案例的執行歷史記錄 [!DNL Adobe Workfront Fusion]
 
-您可以顯示藍本所有執行的相關資訊，或搜尋藍本的所有執行以取得特定資料。
+您可以顯示某個案例所有執行的相關資訊，也可以搜尋特定資料之案例的所有執行。
 
-藍本的執行歷史記錄會顯示過去30天內藍本的所有執行。
+案例的執行歷史記錄會顯示案例在過去30天中的所有執行。
 
 ## 存取需求
 
-您必須具備下列存取權才能使用本文中的功能：
+您必須具有下列存取權才能使用本文中的功能：
 
 <table style="table-layout:auto">  
  <col> 
@@ -34,32 +34,40 @@ ht-degree: 1%
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">[!DNL Adobe Workfront] 授權*</td> 
-   <td> <p>[!UICONTROL計畫]、[!UICONTROL工作]</p> </td> 
+   <td> <p>[！UICONTROL計畫]，[！UICONTROL工作]</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Adobe Workfront Fusion]授權**</td> 
-  <td> <p>[!UICONTROL [!DNL Workfront Fusion] （工作自動化和整合） </p><p>[!UICONTROL [!DNL Workfront Fusion] （工作自動化） </p>  </td>  
+   <td role="rowheader">[！UICONTROL Adobe Workfront Fusion]授權**</td> 
+  <td>
+   <p>目前授權需求：否 [!DNL Workfront Fusion] 授權需求。</p>
+   <p>或</p>
+   <p>舊版授權需求： [！UICONTROL [!DNL Workfront Fusion] 若為工作自動化與整合]，[！UICONTROL [!DNL Workfront Fusion] 工作自動化專用]</p>
+   </td>  
   </tr> 
   <tr> 
    <td role="rowheader">產品</td> 
-   <td>貴組織必須購買 [!DNL Adobe Workfront Fusion] 和 [!DNL Adobe Workfront] 以使用本文所述的功能。</td> 
+   <td>
+   <p>目前產品需求：如果您有[！UICONTROL Select]或[！UICONTROL Prime] [!DNL Adobe Workfront] 計畫，您的組織必須購買 [!DNL Adobe Workfront Fusion] 以及 [!DNL Adobe Workfront] 以使用本文所述功能。 [!DNL Workfront Fusion] 包含在[！UICONTROL Ultimate]中 [!DNL Workfront] 計畫。</p>
+   <p>或</p>
+   <p>舊版產品需求：貴組織必須購買 [!DNL Adobe Workfront Fusion] 以及 [!DNL Adobe Workfront] 以使用本文所述功能。</p>
+   </td> 
   </tr> 
  </tbody> 
 </table>
 
-若要了解您擁有的計畫、授權類型或存取權，請聯絡您的 [!DNL Workfront] 管理員。
+若要瞭解您擁有哪些計畫、授權型別或存取權，請聯絡您的 [!DNL Workfront] 管理員。
 
-如需 [!DNL Adobe Workfront Fusion] 許可證，請參閱 [[!DNL Adobe Workfront Fusion] 授權](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+有關以下專案的資訊： [!DNL Adobe Workfront Fusion] 授權，請參閱 [[!DNL Adobe Workfront Fusion] 授權](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
-## 查看方案的所有執行
+## 檢視案例的所有執行
 
-### 在 [!UICONTROL 藍本詳細資料] 頁面
+### 在上檢視案例執行歷史記錄 [!UICONTROL 案例詳細資料] 頁面
 
-1. 按一下 **[!UICONTROL 藍本]** 標籤，然後按一下藍本。
+1. 按一下 **[!UICONTROL 情境]** 索引標籤中，然後按一下情境。
 
    或
 
-   如果您正在藍本編輯器中處理藍本，請按一下左箭頭 ![](assets/exit-editing-arrow.png) 靠近窗口的左上角。
+   如果您在「情境編輯器」中處理情境，請按向左箭頭 ![](assets/exit-editing-arrow.png) 靠近視窗的左上角。
 
 1. 檢視右側清單中的資訊。
 
@@ -67,88 +75,87 @@ ht-degree: 1%
 
    C
 
-   您也可以按一下，以檢視此資訊的完整頁面檢視。 全頁檢視可讓您篩選歷史記錄以檢視特定執行。
+   您也可以按一下，檢視此資訊的完整頁面。 全頁檢視可讓您篩選歷史記錄以檢視特定執行。
 
-   會針對每次執行案例列出下列詳細資料：
+   針對此情境的每次執行列出以下詳細資料：
 
-   * 執行的日期 **[!UICONTROL 已開始]**
+   * 執行日期 **[!UICONTROL 已開始]**
    * **[!UICONTROL 狀態]** （成功或失敗）
    * 執行 **[!UICONTROL 持續時間]**
-   * 數量 **[!UICONTROL 操作]**
+   * 數量 **[!UICONTROL 作業]**
    * 大小 **[!UICONTROL 資料傳輸]**
    * 連結至 **[!UICONTROL 詳細資料]**
 
-### 在 [!UICONTROL 歷史記錄] 標籤
+### 在上檢視案例執行歷史記錄 [!UICONTROL 歷史記錄] 標籤
 
-此 [!UICONTROL 歷史記錄] 索引標籤會顯示比上可用更多的詳細資料 [!UICONTROL 藍本詳細資料] 頁面。 您也可以篩選及排序 [!UICONTROL 歷史記錄] 標籤。
+此 [!UICONTROL 歷史記錄] 標籤顯示的詳細資訊比 [!UICONTROL 案例詳細資料] 頁面。 您也可以篩選和排序上的執行 [!UICONTROL 歷史記錄] 標籤。
 
-1. 按一下 **[!UICONTROL 藍本]** 標籤，然後按一下藍本。
+1. 按一下 **[!UICONTROL 情境]** 索引標籤中，然後按一下情境。
 
    或
 
-   如果您正在藍本編輯器中處理藍本，請按一下左箭頭 ![](assets/exit-editing-arrow.png) 靠近窗口的左上角。
+   如果您在「情境編輯器」中處理情境，請按向左箭頭 ![](assets/exit-editing-arrow.png) 靠近視窗的左上角。
 
-1. 按一下 **[!UICONTROL 歷史記錄]** 標籤
-1. （可選）如需所選藍本執行的詳細資訊，包括已處理的套件組合，請按一下 **[!UICONTROL 詳細資料]** 連結。
+1. 按一下 **[!UICONTROL 歷史記錄]** 標籤在頁面左上角附近
+1. （選用）如需所選案例執行的詳細資訊，包括已處理哪些組合，請按一下 **[!UICONTROL 詳細資料]** 連結。
 
-   如需處理套件組合的詳細資訊，請參閱 [中的方案執行流程 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/scenario-execution-flow.md).
+   如需處理套裝的詳細資訊，請參閱 [案例執行流程 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/scenario-execution-flow.md).
 
    >[!NOTE]
    >
-   >此 [!UICONTROL 詳細資訊] 只有在執行有可用的詳細資訊時，連結才會顯示。
+   >此 [!UICONTROL 詳細資料] 只有在執行有詳細資料可用時，才會顯示連結。
 
-## 篩選情境執行歷史記錄
+## 篩選案例執行歷史記錄
 
 您可以篩選執行歷史記錄，以僅檢視具有指定值的執行。
 
-1. 開啟案例的整頁歷史記錄，如 [在 [!UICONTROL 歷史記錄] 標籤](#view-scenario-execution-history-on-the-history-tab) 這篇文章。
-1. 按一下 [!UICONTROL 篩選] 圖示 ![](assets/fusion-scenario-filter-icon.png) 在要篩選依據的欄標題中。
-1. 在 [!UICONTROL 篩選] 對話框，輸入要篩選的值。
+1. 開啟情境的全頁記錄，如所述 [在上檢視案例執行歷史記錄 [!UICONTROL 歷史記錄] 標籤](#view-scenario-execution-history-on-the-history-tab) 本文章內容。
+1. 按一下 [!UICONTROL 篩選] 圖示 ![](assets/fusion-scenario-filter-icon.png) 欄標題中作為篩選依據的。
+1. 在 [!UICONTROL 篩選] 對話方塊中，輸入您要作為篩選依據的值。
 1. 按一下&#x200B;**[!UICONTROL 儲存]**。
 
-篩選器圖示在目前作用中篩選器的欄中為橘色。
+若欄中有目前作用中的篩選器，則篩選器圖示為橘色。
 
-## 排序方案執行歷史記錄
+## 排序案例執行歷史記錄
 
-您可以排序方案執行歷史記錄。
+您可以排序案例執行歷史記錄。
 
-1. 開啟案例的整頁歷史記錄，如 [在 [!UICONTROL 歷史記錄] 標籤](#view-scenario-execution-history-on-the-history-tab) 這篇文章。
-1. 按一下 [!UICONTROL 排序] 表徵圖。
-1. 可選：若要反轉排序順序，請按一下 [!UICONTROL 排序] 圖示。
+1. 開啟情境的全頁記錄，如所述 [在上檢視案例執行歷史記錄 [!UICONTROL 歷史記錄] 標籤](#view-scenario-execution-history-on-the-history-tab) 本文章內容。
+1. 按一下 [!UICONTROL 排序] 圖示來篩選對象。
+1. 可選：若要反轉排序順序，請按一下 [!UICONTROL 排序] 圖示重新顯示。
 
-## 搜索方案的所有執行
+## 搜尋情境的所有執行
 
-1. 按一下 **[!UICONTROL 藍本]** 圖示 ![](assets/scenarios-icon.png) 在左側面板中，按一下案例。
-
-   或
-
-   如果您正在藍本編輯器中處理藍本，請按一下左箭頭 ![](assets/exit-editing-arrow.png) 靠近窗口的左上角。
-
-1. 按一下 **[!UICONTROL 歷史記錄]** 標籤。
-1. 按一下 **[!UICONTROL 全文搜索]** 執行清單的頂端。
+1. 按一下 **[!UICONTROL 情境]** 圖示 ![](assets/scenarios-icon.png) 在左側面板中，然後按一下情境。
 
    或
 
-   類型 **Ctrl+Shift+F** (Windows)或 **Cmd+Shift+F** (Mac) [!UICONTROL 在歷史記錄中搜索] 窗口。
+   如果您在「情境編輯器」中處理情境，請按向左箭頭 ![](assets/exit-editing-arrow.png) 靠近視窗的左上角。
 
-1. （可選）要搜索包含特定文本的執行，請在 **[!UICONTROL 在歷史記錄中搜索]** 窗口。
+1. 按一下 **[!UICONTROL 歷史記錄]** tab鍵來切換熒幕左上角附近的畫面。
+1. 按一下 **[!UICONTROL 全文檢索搜尋]** 在執行清單頂端。
 
-   若要搜尋確切的文字，請以雙引號(&quot;example&quot;)括住文字。
+   或
+
+   型別 **Ctrl+Shift+F** (Windows)或 **Cmd+Shift+F** (Mac) [!UICONTROL 在記錄中搜尋] 視窗隨即開啟。
+
+1. （可選）若要搜尋包含特定文字的執行，請在的搜尋列中輸入文字 **[!UICONTROL 在記錄中搜尋]** 視窗。
+
+   若要搜尋精確文字，請以雙引號（「範例」）括住文字。
 
    >[!INFO]
    >
-   >**範例：** 如果您想要尋找建立特定專案的執行，請在 [!UICONTROL 全文搜索] 欄。
+   >**範例：** 如果您想要尋找建立特定專案的執行，請在中輸入專案ID [!UICONTROL 全文檢索搜尋] 長條圖。
    >
-   >&quot;625ef2ef0006036bd1794b6e52d737c5&quot;
+   >「625ef2ef0006036bd1794b6e52d737c5」
 
-1. （可選）若要依日期範圍限制搜尋，請在 [!UICONTROL 依日期範圍] 的上界。
+1. （可選）若要依日期範圍限制搜尋，請在 [!UICONTROL 依日期範圍] 區域。
 
    >[!NOTE]
    >
-   >* 執行只適用於前30天。
+   >* 執行僅適用於前30天。
    >
-   >* [!DNL Workfront Fusion] 儲存webhook負載30天。 在建立Webhook裝載後30天以上存取該裝載會導致錯誤「[!UICONTROL 無法從儲存讀取檔案。]&quot;
-
+   >* [!DNL Workfront Fusion] 儲存webhook裝載30天。 在建立webhook裝載超過30天後存取該裝載會導致錯誤»[!UICONTROL 無法從儲存體讀取檔案。]&quot;
 
 
 1. （可選）若要依狀態限制搜尋，請在 **[!UICONTROL 依狀態]** 下拉式清單。
@@ -164,8 +171,8 @@ ht-degree: 1%
 
    * [!UICONTROL 成功]
 
-1. （選用）變更結果在 **[!UICONTROL 依日期排序]** 下拉式清單。
+1. （可選）變更結果在 **[!UICONTROL 依日期排序]** 下拉式清單。
 
 1. （選用）若要複製案例執行ID，請按一下 **[!UICONTROL 複製執行ID]** 圖示 <img src="assets/copy-fusion-execution-id-icon.png"> 在所需執行的列中
 
-1. （選用）按一下 [!UICONTROL 全文搜索] 檢查包含資訊的方案模組輸出包。
+1. （可選）按一下結果 [!UICONTROL 全文檢索搜尋] 檢查包含資訊的案例模組輸出組合。
