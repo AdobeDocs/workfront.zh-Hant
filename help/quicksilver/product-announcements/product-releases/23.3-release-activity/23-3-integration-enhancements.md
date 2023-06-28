@@ -3,9 +3,9 @@ title: 23.3整合增強功能
 description: 23.3整合增強功能
 author: Lisa
 feature: Product Announcements
-source-git-commit: 3ebf408bb03a97de78600ab771834a7d7f29e2e0
+source-git-commit: d8420930738102e64fbab2eecf91f2eb4429cb0e
 workflow-type: tm+mt
-source-wordcount: '785'
+source-wordcount: '851'
 ht-degree: 0%
 
 ---
@@ -15,6 +15,16 @@ ht-degree: 0%
 本頁說明23.3版對預覽環境所做的所有整合增強功能。 這些增強功能將在23.3版本的生產環境中提供。
 
 如需23.3版本週期目前可用的所有變更清單，請參閱 [23.3版本總覽](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-release-overview.md).
+
+## 全新G Suite整合現已推出
+
+Google Marketplace現在提供新的G Suite整合。 新的整合可使用OAuth2進行驗證，並取代先前的整合。
+
+先前的G Suite整合現已棄用，並將自動解除安裝。
+
+如需如何安裝新整合的說明，請參閱 [安裝 [!DNL Adobe Workfront for G Suite]](/help/quicksilver/workfront-integrations-and-apps/workfront-for-g-suite/install-workfront-for-gsuite.md).
+
+如需適用於G Suite的Workfront的詳細資訊，請參閱 [適用於G Suite的Workfront](/help/quicksilver/workfront-integrations-and-apps/workfront-for-g-suite/workfront-for-gsuite.md).
 
 ## Adobe Creative Cloud整合現在支援多個指派的使用者
 
