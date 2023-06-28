@@ -4,9 +4,9 @@ navigation-topic: use-the-home-area
 title: 開始使用Adobe Workfront中的新首頁
 description: 新首頁是管理工作的強大新功能。
 author: Nolan
-source-git-commit: 73a1c2c2df48ea47c09c0a69e48ae59ead5cbbd9
+source-git-commit: 281712542566aec87c51a2eccb301dd3a83a94b3
 workflow-type: tm+mt
-source-wordcount: '904'
+source-wordcount: '933'
 ht-degree: 0%
 
 ---
@@ -88,6 +88,7 @@ Widget是New Home的基礎。 將Widget新增至首頁後，您就可以選擇�
 
 對於偏好現有首頁體驗的使用者，可切換「新首頁」 。
 
+
 **返回目前的首頁體驗：**
 
 1. 按一下Adobe Workfront圖示以導覽至您的首頁 ![Adobe Workfront圖示](../new-home/assets/home-icon-30x29.png) 若將「首頁」設為您的登陸頁面，或按一下主功能表圖示，則位於畫面頂端 ![主要功能表圖示](../new-home/assets/main-menu-icon-left-nav.png) 然後按一下 **首頁**.
@@ -97,3 +98,7 @@ Widget是New Home的基礎。 將Widget新增至首頁後，您就可以選擇�
    ![返回目前的首頁按鈕](../new-home/assets/go-back-to-current-home-button.png)
 
 1. 在出現的確認視窗中，您可以選擇參加簡短問卷調查，以瞭解您的「新首頁」使用體驗，或按一下 **返回目前的首頁** 以完成您的決定，並回覆至目前的「首頁」體驗。
+
+>[!NOTE]
+>
+> 系統管理員可以停用「新首頁」作為其使用者的預設設定。 如需有關變更系統內使用者的預設首頁體驗的資訊，請參閱 [設定系統偏好設定](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md).
