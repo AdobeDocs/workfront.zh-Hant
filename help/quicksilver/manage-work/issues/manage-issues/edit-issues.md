@@ -2,26 +2,28 @@
 product-area: projects
 navigation-topic: manage-issues
 title: 編輯問題
-description: 您可以編輯您所建立問題的相關資訊，或是其他使用者已建立的問題（如果他們已與您共用問題）。
+description: 您可以編輯與您建立的問題或其他使用者建立的問題（如果他們與您共用問題）的相關資訊。
 author: Alina
 feature: Work Management
+topic: Collaboration
+role: User
 exl-id: 1449374a-ab0d-4c98-83cd-4e511467633a
-source-git-commit: 3f5e5e9832fc33d39ea5dfbbc513b80adbf113f5
+source-git-commit: 716b5a151585aa314cd9db67237d2ed085e817c1
 workflow-type: tm+mt
-source-wordcount: '2424'
-ht-degree: 3%
+source-wordcount: '2467'
+ht-degree: 2%
 
 ---
 
 # 編輯問題
 
-您可以編輯您所建立問題的相關資訊，或是其他使用者已建立的問題（如果他們已與您共用問題）。
+您可以編輯與您建立的問題或其他使用者建立的問題（如果他們與您共用問題）的相關資訊。
 
-您可以編輯單一期刊，也可以編輯清單中的期刊。 如需編輯清單中問題的相關資訊，請參閱 [編輯清單中的問題](../../../manage-work/issues/manage-issues/edit-issues-in-a-list.md).
+您可以編輯單一問題，也可以編輯清單中的問題。 如需有關編輯清單中問題的資訊，請參閱 [編輯清單中的問題](../../../manage-work/issues/manage-issues/edit-issues-in-a-list.md).
 
 ## 存取需求
 
-您必須具備下列存取權，才能執行本文中的步驟：
+您必須具有下列存取權才能執行本文中的步驟：
 
 <table style="table-layout:auto"> 
  <col> 
@@ -33,82 +35,83 @@ ht-degree: 3%
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront授權*</td> 
-   <td> <p>要求或更高版本</p> <p>查看或更高許可，以編輯任務或項目的「問題」部分中的問題</p> </td> 
+   <td> <p>要求或以上</p> <p>檢閱或更高授權以編輯任務或專案的問題區段中的問題</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">存取層級*</td> 
    <td> <p>編輯問題的存取權</p> <p><b>附註</b>
 
-如果您仍無權存取，請洽詢您的Workfront管理員，他們是否在您的存取層級設定其他限制。 如需存取層級問題的相關資訊，請參閱 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-issues.md" class="MCXref xref">授予問題的存取權</a>. 如需Workfront管理員如何變更您的存取層級的詳細資訊，請參閱 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>. </p> </td>
+如果您仍然沒有存取權，請詢問您的Workfront管理員是否對您的存取層級設定了其他限制。 如需存取存取存取層級中問題的相關資訊，請參閱 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-issues.md" class="MCXref xref">授予問題的存取許可權</a>. 如需Workfront管理員如何變更存取層級的詳細資訊，請參閱 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>. </p> </td>
 </tr> 
   <tr> 
-   <td role="rowheader">物件權限</td> 
-   <td> <p>將權限提供給期刊，以便在「期刊詳細資訊」區域中編輯期刊 </p> <p>管理期刊的權限，以便在「編輯期刊」方塊中編輯期刊</p> <p> 如需授予問題權限的相關資訊，請參閱 <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">共用問題 </a></p> <p>如需要求其他權限的詳細資訊，請參閱 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">請求對對象的訪問 </a>.</p> </td> 
+   <td role="rowheader">物件許可權</td> 
+   <td> <p>貢獻問題的許可權以在問題詳細資訊區域中編輯它 </p> <p>管理問題的許可權，以在編輯問題方塊中編輯問題</p> <p> 如需授予問題許可權的相關資訊，請參閱 <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">共用問題 </a></p> <p>如需請求其他許可權的相關資訊，請參閱 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">要求物件的存取權 </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;若要了解您擁有的計畫、授權類型或存取權，請聯絡您的Workfront管理員。
+&#42;若要瞭解您擁有的計畫、授權型別或存取權，請聯絡您的Workfront管理員。
 
 ## 編輯問題時的限制
 
-有些限制可能會使您無法編輯問題。
+有些限制可能會阻止您編輯問題。
 
-* 您無法編輯核准程式中的問題。 您只能記錄時間或更新處於待批准狀態的問題的狀態。
-* 只有在您的Workfront管理員或群組管理員在「專案偏好設定」區域中啟用此功能時，您才能編輯檔案，並將檔案新增至狀態為「完成」、「無效」或「待核准」的專案問題。 有關設定項目首選項的資訊，請參閱 [配置系統範圍的項目首選項](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+* 您無法編輯核准流程中的問題。 您只能記錄時間或更新處於未決核准中的問題的狀態。
+* 只有當您的Workfront管理員或群組管理員在專案偏好設定區域中啟用此功能時，您才能編輯檔案並將其新增到狀態為「完成」、「廢棄」或「未決核准」的專案上的問題。 如需有關設定專案偏好設定的資訊，請參閱 [設定系統範圍的專案偏好設定](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
-## 編輯單一期刊
+## 編輯單一問題
 
-您可以使用「編輯期刊」或「期刊詳細資訊」區域編輯期刊。 下列步驟將說明如何在「編輯期刊」方塊中編輯期刊。
+您可以使用「編輯問題」或「問題詳細資訊」區域編輯問題。 下列步驟說明如何編輯「編輯問題」方塊中的問題。
 
-1. 前往 **主菜單**.
+1. 前往 **主要功能表**.
 1. 按一下 **專案**，然後按一下專案名稱以開啟專案。
-1. （選用）按一下 **工作** ，然後按一下任務的名稱以開啟任務。
-1. 按一下 **問題** 中。
+1. （可選）按一下 **任務** ，然後按一下任務的名稱以開啟任務。
+1. 按一下 **問題** 在左側面板中。
 
    ![](assets/qs-issues-icon-highlighted-on-project-350x278.png)
 
-1. （可選）若要編輯問題的有限資訊，請按一下 **問題詳細資訊** 中。
+1. （可選）若要編輯問題的有限資訊，請按一下 **問題詳細資訊** 在左側面板中。
 
    ![](assets/qs-issue-details-icon-highlighted-and-expanded-on-issue-350x206.png)
 
    >[!NOTE]
    >
-   >視您的Workfront管理員或群組管理員修改版面範本的方式而定，「問題詳細資料」區域中的欄位可能會重新排列或未顯示。 如需詳細資訊，請參閱 [使用版面範本自訂「詳細資料」檢視](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md).
+   >視您的Workfront管理員或群組管理員修改版面配置範本的方式而定，問題詳細資訊區域中的欄位可能會重新排列或不顯示。 如需詳細資訊，請參閱 [使用版面配置範本自訂詳細資料檢視](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md).
 
-   要編輯「詳細資訊」部分中的資訊，請執行以下操作：
+   若要編輯「詳細資訊」段落中的資訊，請執行下列動作：
 
-   1. （選用）按一下 **全部折疊** 圖示來折疊所有區域。
-   1. （選用和條件性）收合區域時，按一下 **右箭頭** ![](assets/right-pointing-arrow.png) 展開要編輯的區域。
-   1. （可選）若要附加自訂表單，請開始在 **新增自訂表單** 欄位，然後在清單中顯示時選取，然後按一下 **儲存變更**.
-   1. （選用）按一下 **匯出** 圖示 ![](assets/export.png) 若要將綜覽和自訂表單資訊匯出至PDF檔案，請按一下 **匯出**. 從以下項目中選取：
+   1. （可選）按一下 **全部收合** 圖示來收合所有區域。
+   1. （選擇性和條件性）收合區域時，按一下 **右指箭頭** ![](assets/right-pointing-arrow.png) 展開每個區域旁的要編輯區域。
+   1. （可選）若要附加自訂表單，請在 **新增自訂表單** 欄位，然後在清單中顯示時選取它，然後按一下 **儲存變更**.
+   1. （可選）按一下 **匯出** 圖示 ![](assets/export.png) 若要將概述和自訂表單資訊匯出至PDF檔案，請按一下 **匯出**. 從下列選項中選取：
 
-      * 全選（僅在至少附加一個自訂表單時顯示）
+      * 全選（至少附加一個自訂表單時顯示）
       * 總覽
       * 一或多個自訂表單的名稱
 
-      PDF檔案下載至您的電腦。
+      將PDF檔案下載至您的電腦。
 
       ![](assets/export-issue-details-selection-box-with-export-button-350x418.png)
 
-      如需詳細資訊，請參閱 [匯出自訂表單和物件詳細資訊](../../../workfront-basics/work-with-custom-forms/export-custom-forms-details.md).
-   有關「問題詳細資訊」部分中可見欄位的資訊，請繼續編輯「編輯問題」框中的問題，如下所述。
+      如需詳細資訊，請參閱 [匯出自訂表單和物件詳細資料](../../../workfront-basics/work-with-custom-forms/export-custom-forms-details.md).
 
-1. 若要編輯期刊的所有相關資訊，請在清單中選取期刊，然後按一下 **編輯** 在清單頂端
+   如需「問題詳細資訊」區段中可見欄位的相關資訊，請繼續編輯「編輯問題」方塊中的問題，如下所述。
+
+1. 若要編輯關於問題的所有資訊，請在清單中選取問題，然後按一下 **編輯** 在清單頂端
 
    或
 
-   按一下清單中的問題名稱，然後按一下 **更多** 期名旁邊的菜單，然後 **編輯。**
+   按一下清單中問題的名稱，然後按一下 **更多** 問題名稱旁的功能表，然後 **編輯。**
 
-   此 **編輯問題** 對話框。
+   此 **編輯問題** 對話方塊隨即顯示。
 
    >[!IMPORTANT]
    >
-   >您必須擁有問題的「管理」權限，才能查看「編輯」連結。
+   >您必須擁有問題的管理許可權才能檢視編輯連結。
 
-   「編輯期刊」方塊中提供所有期刊欄位，並依左側面板所列區域分組。
+   所有問題欄位都可在「編輯問題」方塊中使用，並按左側面板中列出的區域分組。
 
-1. 請考慮在下列任何章節中指定資訊：
+1. 請考慮在下列任何一節中指定資訊：
 
    * [問題名稱](#issue-name)
    * [總覽](#overview)
@@ -118,22 +121,24 @@ ht-degree: 3%
 
    >[!NOTE]
    >
-   >視您的Workfront管理員設定版面範本的方式而定，「編輯問題」方塊中的欄位可能會在您的環境中有所不同。 如需詳細資訊，請參閱 [使用版面範本自訂「詳細資料」檢視](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md).
+   >視您的Workfront管理員如何設定版面配置範本而定，您的環境中「編輯問題」方塊中的欄位可能會不同。 如需詳細資訊，請參閱 [使用版面配置範本自訂詳細資料檢視](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md).
+   >
+   >當您建立問題時，以下區段中列出的大多數欄位也可以從「新增問題」方塊中存取。 欄位所在的區段與新問題方塊不相符。 如需建立問題的相關資訊，請參閱 [建立問題](../../issues/manage-issues/create-issues.md).
 
 ### 問題名稱 {#issue-name}
 
-1. 按上述方式開始編輯問題。
+1. 如上所述，開始編輯問題。
 1. 按一下 **問題名稱**.
 
    ![](assets/issue-name-section-edit-issue-box-nwe-350x127.png)
 
 1. 更新 **問題名稱** 欄位。
-1. 按一下 **儲存** 或繼續編輯以下部分。
+1. 按一下 **儲存** 或繼續編輯下列章節。
 
 ### 總覽 {#overview}
 
-1. 按上述方式開始編輯問題。
-1. 按一下 **概述**.
+1. 如上所述，開始編輯問題。
+1. 按一下 **概觀**.
 
    ![](assets/overview-section-edit-issue-box-nwe-350x284.png)
 
@@ -145,14 +150,14 @@ ht-degree: 3%
     <tbody> 
      <tr> 
       <td role="rowheader">說明</td> 
-      <td> <p>新增有關問題的其他資訊。</p> </td> 
+      <td> <p>新增關於問題的其他資訊。</p> </td> 
      </tr> 
      <tr> 
-      <td colspan="2" role="rowheader">基本資訊部分</td> 
+      <td colspan="2" role="rowheader">基本資訊區段</td> 
      </tr> 
      <tr> 
       <td role="rowheader">狀態</td> 
-      <td> <p>選取問題的狀態。 如需問題狀態的詳細資訊，請參閱 <a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/issue-statuses.md" class="MCXref xref">訪問系統問題狀態清單</a>. </p> </td> 
+      <td> <p>選取問題的狀態。 如需問題狀態的詳細資訊，請參閱 <a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/issue-statuses.md" class="MCXref xref">存取系統問題狀態清單</a>. </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">優先順序</td> 
@@ -163,87 +168,87 @@ ht-degree: 3%
         <li> <p><strong>標準</strong> </p> </li> 
         <li> <p><strong>高</strong> </p> </li> 
         <li> <p><strong>緊急</strong> </p> </li> 
-       </ul> <p>視您的Workfront管理員選取的「專案偏好設定」而定，優先順序的名稱可能會有所不同。 如需有關編輯優先順序的詳細資訊，請參閱 <a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-priorities.md" class="MCXref xref">建立和自訂優先順序</a>.</p> </td> 
+       </ul> <p>根據Workfront管理員選取的專案偏好設定，您的優先順序名稱可能會不同。 如需有關編輯優先順序的詳細資訊，請參閱 <a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-priorities.md" class="MCXref xref">建立和自訂優先順序</a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">嚴重程度</td> 
-      <td> <p>這是您的視覺標幟，可指出問題中說明的問題嚴重程度。 嚴重性是問題特有的。 從下列選項中選取：</p> 
+      <td> <p>這是視覺標幟，可指出問題中所述問題的嚴重程度。 嚴重程度特定於問題。 從下列選項中選取：</p> 
        <ul> 
         <li> <p style="font-weight: bold;">輕微</p> </li> 
         <li> <p style="font-weight: bold;">導致混淆</p> </li> 
         <li> <p style="font-weight: bold;">有因應措施的錯誤</p> </li> 
         <li> <p style="font-weight: bold;">無因應措施的錯誤</p> </li> 
         <li> <p style="font-weight: bold;">致命錯誤</p> </li> 
-       </ul> <p>根據您的Workfront管理員選取的「專案偏好設定」，嚴重性名稱可能會有所不同。 如需編輯嚴重性的詳細資訊，請參閱 <a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-issue-severities.md" class="MCXref xref">建立或自訂問題嚴重性</a>.</p> </td> 
+       </ul> <p>根據Workfront管理員選取的專案偏好設定，您可能會有不同的嚴重程度名稱。 如需編輯嚴重程度的詳細資訊，請參閱 <a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-issue-severities.md" class="MCXref xref">建立或自訂問題嚴重程度</a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">URL</td> 
-      <td> <p>輸入與問題相關資訊的網頁連結。</p> </td> 
+      <td> <p>鍵入與問題相關資訊相關的網頁連結。</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">類型</td> 
-      <td> <p>根據項目管理員在項目的「隊列詳細資訊」區域中選擇的「隊列屬性」 ，您可能可以指定問題的類型。 在 <b>類型</b> 下拉式功能表： </p> 
+      <td> <p>根據您的專案經理在專案的佇列詳細資料區域中選取的佇列屬性，您或許可以指定問題的型別。 從下列選項中選取 <b>型別</b> 下拉式功能表： </p> 
        <ul> 
         <li> <p><strong>錯誤報告</strong> </p> </li> 
         <li> <p><strong>變更順序</strong> </p> </li> 
         <li> <p><strong>問題</strong> </p> </li> 
         <li> <p><strong>請求</strong> </p> </li> 
-       </ul> <p>根據您的Workfront管理員選取的「專案偏好設定」，問題類型的名稱可能會有所不同。</p> </td> 
+       </ul> <p>根據Workfront管理員選取的專案偏好設定，問題型別的名稱可能有所不同。</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">主要連絡人</td> 
-      <td>預設情況下，主要聯繫人是問題的建立者。 若要修改此項目，請開始在Workfront中輸入任何作用中使用者的名稱，然後從清單中選取該名稱。 問題只能有一個主要聯繫人。<br> 如果您更改主要聯繫人，則原始主要聯繫人仍具有對問題的「管理」訪問權限。 共用問題時，您必須從「問題存取」方塊手動移除此存取權。
+      <td>依預設，主要連絡人是問題的建立者。 若要修改此名稱，請開始輸入Workfront中任何作用中使用者的名稱，然後從清單中選取它。 一個問題只能有一個主要連絡人。<br> 如果您變更主要連絡人，原始主要連絡人仍擁有此問題的管理存取權。 共用問題時，您必須從「問題存取權」方塊手動移除此存取權。
 
-   <b>筆尖</b>
+   <b>秘訣</b>
 
-   新增「主要連絡人」使用者時，請注意頭像、使用者的主要角色及其電子郵件地址，以區分名稱相同的使用者。 用戶必須至少與一個作業角色關聯，才能在添加時查看該角色。
+   新增主要聯絡人使用者時，請注意頭像、使用者的主要角色及其電子郵件地址，以區分具有相同名稱的使用者。 使用者必須至少與一個工作角色相關聯，才能在您新增時檢視該角色。
 
 
    </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">提交日期和時間</td> 
-      <td> <p>這是問題受讓人估計問題將完成的日期。 僅受指派人可以編輯此欄位。</p> </td> 
+      <td role="rowheader">認可日期和時間</td> 
+      <td> <p>這是問題的受指派人估計將完成問題的日期。 僅受指派人可以編輯此欄位。</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">計劃開始日期</td> 
-      <td>預設情況下，「計畫起始日期」是建立問題的日期和時間。 您可以更新 <strong>計劃開始日期</strong> 問題。 </td> 
+      <td>依預設，計劃開始日期是建立問題的日期和時間。 您可以更新 <strong>計劃開始日期</strong> 問題。 </td> 
      </tr> 
      <tr> 
       <td role="rowheader">計畫完成日期和時間</td> 
-      <td> 預設情況下，計畫完成日期是從預設計畫起始日期開始24小時。 依預設，問題的持續時間為1天。 您可以更新 <strong>計畫完成日期</strong> 問題。</td> 
+      <td> 根據預設，計畫完成日期是從預設計劃開始日期算起的24小時。 依預設，問題的持續時間為1天。 您可以更新 <strong>計畫完成日期</strong> 問題。</td> 
      </tr> 
      <tr> 
       <td role="rowheader">實際開始日期和時間</td> 
-      <td>當您將問題狀態變更為 <strong>進行中</strong>. 您可以更新 <strong>實際開始日期</strong> 問題。 如有需要，您可以手動更新日期。 </td> 
+      <td>當您將問題的狀態變更為時，會自動填入實際開始日期 <strong>進行中</strong>. 您可以更新 <strong>實際開始日期</strong> 問題。 如有需要，您可以手動更新日期。 </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">實際完成日期和時間</td> 
-      <td>當您將問題狀態更改為 <strong>已關閉</strong> 或<strong>已解決</strong>. 您可以更新 <strong>實際完成日期</strong> 的問題。 如有需要，您可以手動更新日期。</td> 
+      <td role="rowheader">實際完成日期與時間</td> 
+      <td>當您將問題狀態變更為時，會自動填入實際完成日期 <strong>已關閉</strong> 或<strong>已解決</strong>. 您可以更新 <strong>實際完成日期</strong> 問題。 如有需要，您可以手動更新日期。</td> 
      </tr> 
      <tr> 
       <td role="rowheader">解決者</td> 
-      <td> <p>這會顯示問題是否由其他物件解決。 您可以從下拉式功能表中選取問題是由任務、專案還是其他問題所解決，然後開始輸入將解決問題的任務、專案或問題的名稱。 在清單中出現時選取它。</p>
+      <td> <p>這會顯示問題是否由其他物件解決。 您可以從下拉式選單中選取此問題是由任務、專案還是其他問題解決，然後開始輸入將解決此問題的任務、專案或問題的名稱。 當它出現在清單中時選取它。</p>
 
    <b>附註</b>
 
-   當您選擇要解決問題的對象時，問題狀態將連結到解決對象的狀態，因此無法更改該問題。 有關解析對象的詳細資訊，請參閱 <a href="../../../manage-work/issues/convert-issues/resolving-and-resolvable-objects.md" class="MCXref xref">解析和可解析對象概述 </a>.
+   當您選取要解決問題的物件時，問題狀態會連結到解決物件的狀態，並且無法在問題上變更。 如需解析物件的詳細資訊，請參閱 <a href="../../../manage-work/issues/convert-issues/resolving-and-resolvable-objects.md" class="MCXref xref">解析與可解析物件概觀 </a>.
 
-   <b>筆尖</b>
+   <b>秘訣</b>
 
-   當您的系統或組管理員將「解決者」欄位添加到問題自定義標頭時，當存在與問題關聯的解決對象時，該欄位將更改為「解決問題」、「解決任務」或「解決項目」。
+   當您的系統或群組管理員將「解決者」欄位新增到問題自訂標題時，當存在與問題相關的解決物件時，欄位會變更為「解決問題」、「解決任務」或「解決專案」。
 
-   此欄位顯示在問題標題中時，您無法編輯它。 如需自訂問題標題的詳細資訊，請參閱 <a href="../../../administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md">使用版面範本自訂物件標題 </a>
+   當此欄位顯示在問題標題中時，您無法編輯它。 如需自訂問題標題的詳細資訊，請參閱 <a href="../../../administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md">使用版面配置範本自訂物件標頭 </a>
    </td> 
      </tr>
 
    <tr> 
-      <td role="rowheader">解決問題、解決任務或解決項目</td> 
-      <td>解決問題的問題、任務或問題的連結名稱。  </td> 
+      <td role="rowheader">解決問題、解決任務或解決專案</td> 
+      <td>解決問題、任務或問題的連結名稱。  </td> 
      </tr> 
       <tr> 
       <td role="rowheader">解決了</td> 
-      <td>解決您存取的問題時完成的問題的連結名稱。  </td> 
+      <td>在您存取的問題獲得解決時完成的問題連結名稱。  </td> 
      </tr>
 
 
@@ -254,16 +259,16 @@ ht-degree: 3%
 
 
 
-1. 按一下 **儲存** 或繼續編輯以下部分。
+1. 按一下 **儲存** 或繼續編輯下列章節。
 
 #### 指派 {#assignments}
 
-1. 按上述方式開始編輯問題。
-1. 按一下 **分配** 中。
+1. 如上所述，開始編輯問題。
+1. 按一下 **指定任務** 在左側面板中。
 
    ![](assets/assignments-section-edit-issue-box-nwe-350x230.png)
 
-1. 按一下 **搜索人員、角色和團隊** 然後開始鍵入要分配給任務的用戶、角色或團隊的名稱，然後按一下該名稱，或在清單上顯示時按Enter鍵。
+1. 按一下 **搜尋人員、角色和團隊** 開始輸入您要指派給任務的使用者、角色或團隊名稱，然後按一下該名稱，或在其顯示在清單上時按Enter鍵。
 
    <!--
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: ensure this is still called this; asked Anna to change it to "roles" and add a comma)</p>
@@ -271,20 +276,19 @@ ht-degree: 3%
 
    >[!NOTE]
    >
-   >如果用戶名包含特殊字元，則必須在搜索欄位中包含特殊字元。
+   >如果使用者名稱包含特殊字元，您必須在搜尋欄位中包含特殊字元。
 
    >[!TIP]
    >
    >您可以指派多個使用者、工作角色或團隊。 您只能指派作用中的使用者、工作角色和團隊。
    >
    >
-   >如果在停用前已指派使用者、工作角色或團隊，則他們仍會指派給工作項目。 在此情況下，我們建議：
+   >如果在停用使用者、工作角色或團隊之前就已將他們指派，則他們仍會指派給工作專案。 在此情況下，我們建議採取下列步驟：
    >
-   >* 將工作項重新分配給活動資源。
-   >* 將已停用團隊中的用戶與活動團隊關聯，並將工作項重新分配給活動團隊。
+   >* 將工作專案重新指派給使用中資源。
+   >* 將已停用團隊中的使用者與作用中團隊建立關聯，並將工作專案重新指派給作用中團隊。
 
-
-1. （可選）將滑鼠游標暫留在受託人的名稱上，然後按一下，以指明受託人是否是問題的主要受託人 **設為主要**. 團隊不能是問題的主要受託人。
+1. （選擇性）藉由暫留在受指派人名稱上並按一下，指出受指派人是否為問題的主要受指派人 **設為主要播放器**. 團隊不能是問題的主要受指派人。
 1. 更新下列欄位：
 
    <table style="table-layout:auto"> 
@@ -295,39 +299,39 @@ ht-degree: 3%
     <tbody> 
      <tr> 
       <td role="rowheader">計畫小時</td> 
-      <td> <p>這是問題指定者完成問題的實際時間。 鍵入問題的計畫小時數。<br></p> <p>注意：更改問題的「計畫小時數」不會更改問題的「計畫完成日期」。 </p> </td> 
+      <td> <p>這是問題的受指派人完成問題所需的實際時間。 輸入問題的計畫時數數目。<br></p> <p>注意：變更問題的計畫時數不會變更問題的計畫完成日期。 </p> </td> 
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader">受指派人角色</td> 
-      <td> <p>從 <strong>受託人的角色</strong> 下拉式功能表中選擇「人員」作為受託人時顯示。 這是受讓人可在此問題上承擔的角色。 </p> <p><b>筆尖</b>
+      <td> <p>從中選擇一個角色 <strong>受指派人的角色</strong> 下拉式功能表。 這是受指派人可以在此問題中履行的角色。 </p> <p><b>秘訣</b>
 
-   只有與每個受託人在其設定檔中相關聯的工作角色才會出現在下拉式功能表中。</p> </td>
+   下拉式選單中只會顯示與其設定檔中每個受指派人相關聯的工作角色。</p> </td>
    </tr> 
     </tbody> 
    </table>
 
-1. 按一下 **儲存** 或繼續編輯以下部分。
+1. 按一下 **儲存** 或繼續編輯下列章節。
 
 ### 自訂Forms
 
-1. 按上述方式開始編輯問題。
+1. 如上所述，開始編輯問題。
 1. 按一下 **自訂Forms**.
 
    ![](assets/custom-forms-section-edit-issue-box-nwe-350x132.png)
 
-1. 在 **新增自訂表單** 欄位中，選擇要與問題關聯的自定義表單或表單。 您必須先建置自訂表單，才能在此欄位中供選取。 清單中只會顯示使用中的自訂表單。 如需建立自訂表單的詳細資訊，請參閱 [建立或編輯自訂表單](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md). 您最多可為問題新增10個自訂表單。
+1. 在 **新增自訂表單** 欄位中，選取您要與問題相關聯的一或多個自訂表單。 您必須先建置自訂表單，才能在此欄位中選取。 清單中只會顯示作用中的自訂表單。 如需建立自訂表單的詳細資訊，請參閱 [建立或編輯自訂表單](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md). 您最多可以向問題新增十個自訂表單。
 
-1. （條件性）如果您將自訂表單附加至期刊，請編輯表單上的任何欄位。 您必須先指定所有必填欄位，才能儲存問題。
+1. （視條件而定）如果您將自訂表單附加到問題，請編輯表單上的任何欄位。 您必須先指定所有必填欄位，然後才能儲存問題。
 
    >[!NOTE]
    >
-   >根據您的Workfront管理員如何設定自訂表單中各區段的權限，不是每個人都可以在指定的自訂表單上檢視或編輯相同的欄位。 編輯自訂表單區段內欄位的權限，取決於您對問題本身擁有的權限。 如需在自訂表單的區段上設定權限的相關資訊，請參閱 [建立或編輯自訂表單](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md). 如需設定問題權限的相關資訊，請參閱 [共用問題](../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md).
+   >根據您的Workfront管理員如何設定自訂表單中區段的許可權，不是每個人都可以檢視或編輯給定自訂表單上的相同欄位。 編輯自訂表單區段中欄位的許可權取決於您對問題本身的許可權。 如需關於設定自訂表單區段許可權的資訊，請參閱 [建立或編輯自訂表單](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md). 如需設定問題許可權的相關資訊，請參閱 [共用問題](../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md).
 
-1. 按一下 **儲存** 或繼續編輯以下部分。
+1. 按一下 **儲存** 或繼續編輯以下區段。
 
 ### 設定 {#settings}
 
-1. 按上述方式開始編輯問題。
+1. 如上所述，開始編輯問題。
 1. 按一下 **設定**.
 
    ![](assets/settings-section-edit-issue-box-nwe-350x240.png)
@@ -344,43 +348,43 @@ ht-degree: 3%
       <td role="rowheader">核准流程</td> 
       <td> 
        <div> 
-       <p>選擇要與問題關聯的審批流程。 您的Workfront管理員必須先定義系統層級的核准程式，才能將它們與問題建立關聯。 具有管理存取權的核准程式使用者 <span> 也可以建立群組專屬的核准程式。</span>如需建立核准程式的詳細資訊，請參閱 <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md" class="MCXref xref">建立工作項的審批流程</a>. </p> 
+       <p>選取您要與問題關聯的核准流程。 您的Workfront管理員必須先定義系統層級的核准流程，您才能將其與問題相關聯。 具有核准流程管理存取權的使用者 <span> 也可以建立群組特定的核准流程。</span>如需建立核准流程的詳細資訊，請參閱 <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md" class="MCXref xref">建立工作專案的核准流程</a>. </p> 
        <p>新增核准程式時，請考量下列事項： </p> 
        <ul> 
-       <li>清單中只會顯示作用中的核准程式。 </li> 
-       <li> <p>清單中顯示系統範圍和組特定的批准流程。 與項目組以外的組相關聯的審批流程不會顯示在清單中。</p> <p>重要：如果項目組發生更改，則特定於組的審批流程將變成一次性審批流程。 有關項目組的更改或審批流程中的更改如何影響審批設定的詳細資訊，請參閱 <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/how-changes-affect-group-approvals.md" class="MCXref xref">組和審批流程更改如何影響分配的審批流程</a>. </p> </li> 
-       <li> <p>您可以定義預設批准流程，以便在建立請求隊列或隊列主題時自動附加到問題。 有關更新「隊列詳細資訊」的資訊，請參閱 <a href="../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md" class="MCXref xref">建立請求佇列</a>. 如需建立佇列主題的相關資訊，請參閱 <a href="../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md" class="MCXref xref">建立佇列主題</a>. </p> </li> 
-       <li>大量編輯問題時，會出現下列情況： 
+       <li>清單中只會顯示有效的核准流程。 </li> 
+       <li> <p>系統範圍及群組特定核准程式會顯示在清單中。 與專案群組以外的群組相關聯的核准程式不會顯示在清單中。</p> <p>重要：如果專案的群組變更，群組特定的核准程式會變成單一使用的核准程式。 如需有關專案群組的變更或核准流程變更如何影響核准設定的詳細資訊，請參閱 <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/how-changes-affect-group-approvals.md" class="MCXref xref">群組和核准流程變更如何影響指派的核准流程</a>. </p> </li> 
+       <li> <p>您可以定義在建立請求佇列或佇列主題時，自動附加至問題的預設核准流程。 如需有關更新佇列詳細資料的資訊，請參閱 <a href="../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md" class="MCXref xref">建立請求佇列</a>. 如需有關建立佇列主題的資訊，請參閱 <a href="../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md" class="MCXref xref">建立佇列主題</a>. </p> </li> 
+       <li>當大量編輯問題時，存在以下情況： 
        <ul> 
-       <li><p>從同一組中選擇多個問題時，此欄位中將顯示系統級別和特定於組的審批流程。</p></li> 
-       <li><p>從不同群組選取多個問題時，此欄位中只會顯示系統層級的核准程式。</p></li> 
-       <li><p>如果任何問題都附加了一次性審批流程，則會由您選擇的系統級或組級審批流程取代。 </p></li> 
+       <li><p>當您從相同群組選取多個問題時，此欄位中會顯示系統層次和群組特定的核准流程。</p></li> 
+       <li><p>當您從不同的群組選取多個問題時，此欄位中只會顯示系統層級的核准流程。</p></li> 
+       <li><p>當任何問題附加單一用途核准流程時，它會被您選取的系統層級或群組層級核准流程取代。 </p></li> 
        </ul></li> 
        </ul> 
        </div> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">提醒通知</td> 
-      <td> <p>選中要附加到此問題的提醒通知複選框。 系統會顯示所有的問題提醒通知。 您的Workfront管理員必須先設定提醒通知，您才能在問題上加以選取。 有關配置提醒通知的詳細資訊，請參閱 <a href="../../../administration-and-setup/manage-workfront/emails/set-up-reminder-notifications.md" class="MCXref xref">設定提醒通知</a></p> </td> 
+      <td> <p>選取您要針對此問題附加提醒通知的核取方塊。 顯示問題的所有提醒通知。 您的Workfront管理員必須先設定提醒通知，您才能在問題中選取它們。 如需有關設定提醒通知的詳細資訊，請參閱 <a href="../../../administration-and-setup/manage-workfront/emails/set-up-reminder-notifications.md" class="MCXref xref">設定提醒通知</a></p> </td> 
      </tr> 
     </tbody> 
    </table>
 
 1. 按一下 **儲存。**
 
-## 在期刊標題中編輯期刊（有限）
+## 編輯問題標題中的問題（受限）
 
-您可以在期刊標題中編輯有限的資訊量。
+您可以在問題標題中編輯有限數量的資訊。
 
-您的系統或群組管理員可以自訂問題標題中顯示的欄位。 如需詳細資訊，請參閱 [使用版面範本自訂物件標題](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md).
+您的系統或群組管理員可以自訂您在問題標題中看到的欄位。 如需詳細資訊，請參閱 [使用版面配置範本自訂物件標頭](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md).
 
 ![](assets/issue-header-350x19.png)
 
-依預設，問題標題中包含下列欄位：
+依預設，問題標題中包含以下欄位：
 
 * 問題名稱
 * 完成百分比
 * 指派
 * 計畫完成日期和時間
 * 狀態
-* 如果您被設定為當前審批流程中的審批人，則進行審批決策
+* 如果您在目前的核准程式中設為核准者，請做出核准決定

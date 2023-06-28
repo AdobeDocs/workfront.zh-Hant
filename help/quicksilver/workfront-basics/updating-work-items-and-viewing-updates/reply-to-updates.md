@@ -8,9 +8,9 @@ feature: Get Started with Workfront
 role: User
 topic: Collaboration
 exl-id: a8271f3c-7a08-4eb3-aaff-deb250f5af73
-source-git-commit: 742565b06395e5092152b1d04262344dc1020d74
+source-git-commit: 716b5a151585aa314cd9db67237d2ed085e817c1
 workflow-type: tm+mt
-source-wordcount: '1214'
+source-wordcount: '1262'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 <!--take "Beta" references out when we remove the beta-->
 
-<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它僅在「預覽」環境中可用。</span>
+<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它僅適用於預覽環境中的所有客戶。</span>
 
 >[!NOTE]
 >
@@ -113,7 +113,7 @@ ht-degree: 0%
 
 1. 前往您要新增回覆的物件。
 1. 按一下 **更新**，然後按一下 **註解** 定位物件，並尋找您要回覆的註解或回覆。
-   <!--1. (Optional) To include text from a previous update in your reply, click the **More** menu next to the update or reply you want to quote, then click **Quote reply**. Text from the previous update appears in the input area, marked with a vertical gray line.-->
+1. <span class="preview">（可選）若要在回覆中包含先前更新的文字，請按一下 **更多** 您想要報價的更新或回覆旁的功能表，然後按一下 **引用回覆**. 先前更新的文字會顯示在輸入區域中，並以垂直灰線標示。</span>
 1. 按一下 **回覆**.
 
    您可以在頁面底部看到積極參與交談的使用者 **新註解** 方塊中，您可以新增更多或移除不再相關的專案。 這些使用者以及訂閱物件的任何使用者會在物件更新或回覆時收到通知。 您也可以標籤更多使用者，讓他們加入您的回覆。  若要標籤更多使用者，請參閱 [標籤其他更新的專案](../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).

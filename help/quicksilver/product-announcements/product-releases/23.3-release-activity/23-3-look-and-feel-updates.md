@@ -4,7 +4,7 @@ description: 在23.3發行時間範圍內的外觀和感覺更新
 author: Courtney
 feature: Product Announcements
 exl-id: 77b43c01-4476-4243-b8c4-062afe786a1d
-source-git-commit: 63e3575addf8aaaa3eda1a9e52d57619c48ded91
+source-git-commit: 716b5a151585aa314cd9db67237d2ed085e817c1
 workflow-type: tm+mt
 source-wordcount: '278'
 ht-degree: 0%
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->預計預覽版本： 2023年6月28日；預計生產版本： 2023年7月13日
+>預計預覽版本： 2023年6月29日；預計生產版本： 2023年7月13日
 
 我們已改善「已提交請求」清單的介面。
 
@@ -36,7 +36,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->預計預覽版： 2023年7月5日；預計生產版：搭配23.3版
+>預計預覽版： 2023年7月6日；預計生產版：搭配23.3版
 
 我們已更新「新問題」方塊，在向專案提交新問題時會顯示此方塊。 現在，介面符合新請求方塊，在向請求佇列提交新請求時顯示。
 

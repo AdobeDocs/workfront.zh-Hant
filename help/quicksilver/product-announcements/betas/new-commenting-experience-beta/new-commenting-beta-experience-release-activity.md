@@ -7,7 +7,7 @@ author: Alina
 feature: Product Announcements
 role: User
 exl-id: 1c0cb547-ac99-4cdf-8a74-2c47ad5a10ad
-source-git-commit: 742565b06395e5092152b1d04262344dc1020d74
+source-git-commit: 716b5a151585aa314cd9db67237d2ed085e817c1
 workflow-type: tm+mt
 source-wordcount: '1500'
 ht-degree: 3%
@@ -76,7 +76,9 @@ ht-degree: 3%
 
 如需詳細資訊，請參閱 [更新工作](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md). 說明檔案將在發行時更新。
 
-預計的預覽和生產版本： 2023年6月29日
+預覽： 2023年6月28日
+
+預計生產版本： 2023年6月29日
 
 #### 記錄時間的新介面
 
