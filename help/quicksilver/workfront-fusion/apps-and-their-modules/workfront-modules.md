@@ -9,9 +9,9 @@ description: 您可以使用Adobe Workfront Fusion Adobe Workfront聯結器在Wo
 author: Becky
 feature: Workfront Fusion, Workfront Integrations and Apps
 exl-id: b84d2d41-a983-4ea3-b331-0302bfcf8a2b
-source-git-commit: 8b4182ae2b32488a02cacc16fcb6a246fcb571fd
+source-git-commit: 3604e67309b76c4e0e8c3af1341b80a607b95d6f
 workflow-type: tm+mt
-source-wordcount: '5426'
+source-wordcount: '5428'
 ht-degree: 3%
 
 ---
@@ -180,7 +180,7 @@ ht-degree: 3%
   </tr> 
   <tr> 
    <td>[！UICONTROL記錄型別]</td> 
-   <td> <p>選取型別 [!DNL Workfront] 錄製您希望模組觀看的影片。</p> <p>例如，如果您要在每次更新任務中的記錄欄位時開始執行案例，請選取[！UICONTROL任務]。</p> </td> 
+   <td> <p>選取型別 [!DNL Workfront] 錄製您想要模組觀看的影片。</p> <p>例如，如果您要在每次更新任務中的記錄欄位時開始執行案例，請選取[！UICONTROL任務]。</p> </td> 
   </tr> 
   <tr> 
    <td>[！UICONTROL欄位]</td> 
@@ -223,7 +223,7 @@ ht-degree: 3%
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL記錄型別]</td> 
-   <td> <p>(在您選擇之後顯示 <strong>篩選</strong>.) 選取型別 [!DNL Workfront] 錄製您希望模組觀看的影片。</p> <p>例如，如果您要在每次建立新專案時啟動此案例，請選取[！UICONTROL專案]</p> </td> 
+   <td> <p>(在您選擇之後顯示 <strong>篩選</strong>.) 選取型別 [!DNL Workfront] 錄製您想要模組觀看的影片。</p> <p>例如，如果您要在每次建立新專案時啟動此案例，請選取[！UICONTROL專案]</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL輸出]</td> 
@@ -993,6 +993,12 @@ ht-degree: 3%
    <td> </td> 
   </tr> 
   <tr> 
+   <td>校訂核准</td> 
+   <td> </td> 
+   <td> </td> 
+   <td>✓</td> 
+  </tr> 
+  <tr> 
    <td>保留時間* </td> 
    <td> </td> 
    <td>✓</td> 
@@ -1722,3 +1728,4 @@ ht-degree: 3%
 如需Webhook的詳細資訊，請參閱 [中的即時觸發器(Webhook) [!DNL Adobe Workfront Fusion]](../../workfront-fusion/webhooks/instant-triggers-webhooks.md)
 
 如需情境中篩選器的詳細資訊，請參閱 [將篩選器新增至中的情境 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/add-a-filter-to-a-scenario.md).
+

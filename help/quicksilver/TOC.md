@@ -3,9 +3,9 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文件、教學課程和其他資源，了解如何在您的組織中實施並有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: 37a5c0dbc862436e06afea6ca2f0e1994355cbe8
+source-git-commit: da2ecac5d362e20e3068f9c865bc37633f79da58
 workflow-type: tm+mt
-source-wordcount: '13106'
+source-wordcount: '13113'
 ht-degree: 1%
 
 ---
@@ -125,6 +125,7 @@ ht-degree: 1%
          * [21.1其他增強功能](product-announcements/product-releases/21.1-release-activity/21-1-other-enhancements.md)
       * Adobe Workfront Fusion發行活動 {#fusion-release}
          * [Adobe Workfront Fusion發行活動](product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md)
+         * [Workfront Fusion發行活動： 2023年6月26日當週](product-announcements/product-releases/fusion-release-activity/fusion-2023-6-29.md)
          * [Workfront Fusion發行活動： 2023年6月12日當週](product-announcements/product-releases/fusion-release-activity/fusion-2023-6-12.md)
          * [Workfront Fusion發行活動： 2023年5月15日當週](product-announcements/product-releases/fusion-release-activity/fusion-2023-5-15.md)
          * [Workfront Fusion發行活動： 2023年5月1日當週](product-announcements/product-releases/fusion-release-activity/fusion-2023-5-2.md)
@@ -1754,7 +1755,7 @@ ht-degree: 1%
          * [校訂角色概觀](review-and-approve-work/proofing/proofing-overview/proof-roles.md)
          * [自動化工作流程總覽](review-and-approve-work/proofing/proofing-overview/automated-workflow.md)
          * [自動化工作流程階段概觀](review-and-approve-work/proofing/proofing-overview/stages.md)
-         * [校訂評論和決定概觀的通知](review-and-approve-work/proofing/proofing-overview/notifications-proof-comments-decisions.md)
+         * [校訂評論和決定概覽的通知](review-and-approve-work/proofing/proofing-overview/notifications-proof-comments-decisions.md)
          * [互動式內容校訂概觀](review-and-approve-work/proofing/proofing-overview/interactive-content-proofs.md)
          * [校樣概觀的檔案重新處理](review-and-approve-work/proofing/proofing-overview/document-reprocessing-for-proofing.md)
          * [支援的校訂檔案型別和大小限制概觀](review-and-approve-work/proofing/proofing-overview/supported-proofing-file-types.md)
