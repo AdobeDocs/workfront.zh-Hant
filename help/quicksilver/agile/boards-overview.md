@@ -3,36 +3,38 @@ content-type: overview
 product-area: agile-and-teams
 navigation-topic: agile-navigation-topic
 title: 展示板概述
-description: Adobe Workfront展示板是彈性的工具，可讓團隊透過存取包含欄和資訊卡的共用展示板進行協作。
+description: Adobe Workfront展示板是彈性的工具，可讓團隊透過存取包含欄和卡片的共用展示板進行共同作業。
 author: Lisa
 feature: Agile
 exl-id: 7382e338-3e4c-4a93-a0d4-87ef52f69f36
-source-git-commit: 8c02f5364154bdc343512416d0c7e38ef563a170
+source-git-commit: 11e239bd47a007adbec1770dafc7f7a5d97eb57e
 workflow-type: tm+mt
-source-wordcount: '225'
+source-wordcount: '242'
 ht-degree: 0%
 
 ---
 
-# [!UICONTROL 展示板] 概述
+# [!UICONTROL 展示板] 概觀
 
-[!DNL Adobe Workfront] [!UICONTROL 展示板] 是彈性的工具，可讓團隊透過存取包含欄和卡片的共用展示板進行協同作業。
+[!DNL Adobe Workfront] [!UICONTROL 展示板] 是彈性的工具，可透過提供對包含欄和卡片的共用展示板的存取權來允許團隊合作。
 
-顯示任務狀態是展示板的常見用途，但您可以將任何項目分組。 展示板上的資訊卡可代表人員、人員群組、想法、概念，或您需要的任何類型的項目。
+顯示任務狀態是展示板的常見用法，但您可以將任何專案群組在一起。 展示板上的卡片可以代表個人、人員群組、構想、概念或您需要的任何型別的專案。
 
 使用展示板，您可以：
 
-* 快速設定任務板
-* 配置列以顯示狀態或類別
-* 使用開放式卡片（臨機卡或連線至的卡片）自訂工作流程 [!DNL Workfront] 任務和問題)
-* 在一個地方組織和管理團隊的工作
-* 使用工作流對資料（如展示板和資訊卡）進行分組，並協作處理工作
-* 使用靈活的規劃工具，如看板板的進貨列，以及卡清單和小版本計畫
+* 快速設定工作面板
+* 設定欄以顯示狀態或類別
+* 使用開放式卡片（即席卡片或連結至的卡片）自訂工作流程 [!DNL Workfront] 任務和問題)
+* 在一個位置組織和管理團隊的工作
+* 使用工作串流將資料（例如展示板和卡片）分組，並在工作上共同作業
+* 使用敏捷計畫工具，例如Kanban看板的輸入欄，以及卡片清單和反複專案計畫
 
-如需如何使用基本展示板功能的相關資訊，請參閱 [開始使用 [!DNL Adobe Workfront]](../agile/get-started-with-boards/get-started-with-boards.md). 如需展示板中敏捷規劃工具的相關資訊，請參閱 [敏捷規劃工具概述](/help/quicksilver/agile/use-boards-agile-planning-tools/agile-planning-tools-overview.md).
+有關如何使用基本主機板功能的資訊，請參閱 [開始使用中的展示板 [!DNL Adobe Workfront]](../agile/get-started-with-boards/get-started-with-boards.md). 如需面板中敏捷規劃工具的相關資訊，請參閱 [敏捷規劃工具總覽](/help/quicksilver/agile/use-boards-agile-planning-tools/agile-planning-tools-overview.md).
 
-您也可以存取行動應用程式中的展示板。 如需詳細資訊，請參閱 [[!DNL Adobe Workfront] [!UICONTROL Boards] 適用於行動](/help/quicksilver/workfront-basics/mobile-apps/using-the-workfront-mobile-app/mobile-boards.md).
+如需有關在專案上使用展示板的資訊，請參閱 [在敏捷檢視中管理專案](/help/quicksilver/manage-work/projects/manage-projects/manage-projects-in-agile-view.md).
 
-如需展示板功能的影片逐步，請參閱 [[!DNL Adobe Workfront] [!UICONTROL Boards] 視頻演示](/help/quicksilver/agile/get-started-with-boards/boards-video-demonstrations.md).
+您也可以存取行動應用程式中的展示板。 如需詳細資訊，請參閱 [[!DNL Adobe Workfront] [!UICONTROL Boards] 適用於行動裝置](/help/quicksilver/workfront-basics/mobile-apps/using-the-workfront-mobile-app/mobile-boards.md).
 
-如需中其他敏捷工具的相關資訊，請參閱 [!DNL Workfront]，請參閱 [敏捷概覽](../agile/agile-overview.md).
+如需展示板功能的影片逐步說明，請參閱 [[!DNL Adobe Workfront] [!UICONTROL Boards] 影片示範](/help/quicksilver/agile/get-started-with-boards/boards-video-demonstrations.md).
+
+有關中其他敏捷工具的資訊 [!DNL Workfront]，請參閱 [敏捷概覽](../agile/agile-overview.md).
