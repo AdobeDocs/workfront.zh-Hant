@@ -8,14 +8,16 @@ author: Courtney, Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 0343fe74-1be4-43e2-9e3d-8aa1f7ea26fa
-source-git-commit: fb934506205c586852497197115a7731083c0e54
+source-git-commit: 8dbb48e6aa2df874caa816468cf2e3ad408ebf7e
 workflow-type: tm+mt
-source-wordcount: '2867'
+source-wordcount: '3139'
 ht-degree: 0%
 
 ---
 
 # 編輯使用者的設定檔
+
+{{highlighted-preview}}
 
 >[!IMPORTANT]
 >
@@ -161,7 +163,7 @@ ht-degree: 0%
        <li> <p><b>主要角色</b>：這是使用者可以在Workfront中完成的主要工作角色。 指派給使用者的每個任務和問題也會指派給此工作角色。 職務角色在資源管理中至關重要。 只有當您擁有具有管理使用者存取權的計畫授權，或您是Workfront管理員時，才能更新此欄位。 如需有關設定具有管理使用者存取許可權的使用者的詳細資訊，請參閱 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">授予使用者存取許可權</a>.</p> <p>清單中只會顯示作用中的工作角色。 </p> </li> 
        <li>如果您已選取 <b>主要角色</b>，則 <b>FTE可用性百分比</b> 欄位隨即顯示。 指定將使用者排程的時間百分比分配給此工作角色。 主要角色的FTE可用性百分比預設值為100%。 </li> 
        <li> <p><b>其他角色</b>：使用者在Workfront中可以有多個職位角色。 職務角色在資源管理中至關重要。 使用者可以履行的工作角色數量沒有限制。 但是，我們建議不要將一位使用者指派給過多的工作角色，因為資源管理對這些使用者來說可能變得太複雜。<p>清單中只會顯示作用中的工作角色。 如需有關職務角色的詳細資訊，請參閱 <a href="../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md" class="MCXref xref">建立和管理職位角色</a>.</p> <p>只有當您擁有具有管理使用者存取權的計畫授權，或您是Workfront管理員時，才能更新此欄位。 <br>如需有關設定具有管理使用者存取許可權的使用者的詳細資訊，請參閱 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">授予使用者存取許可權</a>.</p> </li> 
-       <li> <p>（視條件而定）如果您選取一或多個 <b>其他角色</b>，則 <b>FTE可用性百分比</b> 每個角色都會顯示欄位。 指定將使用者排程的時間百分比分配給每個工作角色。 其他角色的FTE可用性百分比預設值為0%。</p> <p><b>注意</b>：如果「其他角色」具有0%的FTE可用性，則它們不會顯示在「資源規劃工具」中，除非已將使用者指派給這些角色中的任務。</p> <p> <img alt="user_settings_roles_and_date_boxes_rp_story.png" src="assets/user-settings-roles-and-dte-boxes-rp-story.png"> </p> <p><b>附註</b>: <p>全部的總和 <b>FTE可用性百分比</b> 所有角色必須等於100%。 每個FTE可用性的百分比會計算「資源規劃工具」中每位使用者的「可用時數」。 每個使用者每個角色的可用時數取決於使用者的可用時間。</p> <p>Workfront會根據Workfront管理員在資源管理偏好設定中選取計算FTE的方法，計算使用者的可用時間。</p> <p>如需有關計算使用者可用性的資訊，請參閱 <a href="../../../resource-mgmt/resource-planning/calculate-hours-fte-for-users-roles-resource-planner.md" class="MCXref xref">計算資源規劃工具中使用者和角色的時數和FTE的概觀</a>.</p> <p>如需有關設定資源管理偏好設定的資訊，請參閱 <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md" class="MCXref xref">設定資源管理喜好設定</a>.</p> </p> </li> 
+       <li> <p>（視條件而定）如果您選取一或多個 <b>其他角色</b>，則 <b>FTE可用性百分比</b> 每個角色都會顯示欄位。 指定將使用者排程的時間百分比分配給每個工作角色。 其他角色的FTE可用性百分比預設值為0%。</p> <p><b>注意</b>：如果「其他角色」具有0%的FTE可用性，則它們不會顯示在「資源規劃工具」中，除非已將使用者指派給這些角色中的任務。</p> <p> <img alt="user_settings_roles_and_date_boxes_rp_story.png" src="assets/user-settings-roles-and-dte-boxes-rp-story.png"> </p> <p><b>附註</b>: <p>全部的總和 <b>FTE可用性百分比</b> 所有角色必須等於100%。 每個FTE可用性的百分比會計算「資源規劃工具」中每位使用者的「可用時數」。 每個使用者每個角色的可用時數取決於使用者的可用時間。</p> <p>Workfront會根據Workfront管理員在資源管理偏好設定中選取計算FTE的方法，計算使用者的可用時間。</p> <p>如需有關計算使用者可用性的資訊，請參閱 <a href="../../../resource-mgmt/resource-planning/calculate-hours-fte-for-users-roles-resource-planner.md" class="MCXref xref">計算資源規劃工具中使用者和角色的時數和FTE的概觀</a>.</p> <p>如需有關設定資源管理偏好設定的資訊，請參閱 <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md" class="MCXref xref">設定資源管理喜好設定</a>.</p> </p> <p><span class="preview">（選擇性）如果使用者在專案期間的工作角色變更，則財務計算會使用有效日期的工作角色指派。</span></p><p><span class="preview">按一下 <b>依日期定義角色</b>，選取 <b>主要角色</b> 和 <b>其他角色</b>，然後輸入每個角色的配置百分比。 這些角色可能與現有角色（使用不同的百分比）或新角色相同。 選取 <b>開始日期</b> 當這些角色作用中時。 這可以是未來的日期。 當最新的角色作用中時，您可以按一下 <b>顯示先前的角色</b> 以檢視先前的非作用中角色。</span></p> </li> 
        <li> <p><b>排程</b>：將排程與使用者建立關聯。 使用者的排程會計算指派給使用者的任務的時間表。</p> <p>您必須先建立排程，然後才能與使用者建立關聯。 如需建立排程的詳細資訊，請參閱 <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md" class="MCXref xref">建立排程</a>.</p> <p><b>注意</b>：建議您與使用者建立關聯的排程與使用者的時區相符。</p> </li> 
        <li> <p><b>週期性時程表</b>：將時程表設定檔與使用者建立關聯，以確保自動為使用者產生時程表。</p> <p><b>注意</b>：您在此欄位中可用的設定檔清單取決於您的存取權：
        <ul>
@@ -192,10 +194,15 @@ ht-degree: 0%
    如需在Workfront中建立排程的詳細資訊，請參閱 <a href="../../set-up-workfront/configure-timesheets-schedules/create-schedules.md">建立排程</a>.
    </li>
 
-   <li><b>資源集區</b>：將使用者與資源集區建立關聯。 如需詳細資訊，請參閱 <a href="../../../resource-mgmt/resource-planning/resource-pools/associate-resource-pools-with-users.md" class="MCXref xref">將資源集區與使用者建立關聯 </a>.</li> 
-        <li><b>成本/小時</b>：使用者每小時的成本金額。 </li> 
-        <li><b>記帳/小時</b>：使用者每小時的計費金額。</li> 
-       </ul> </td> 
+   <li><b>資源集區</b>：將使用者與資源集區建立關聯。 如需詳細資訊，請參閱 <a href="../../../resource-mgmt/resource-planning/resource-pools/associate-resource-pools-with-users.md" class="MCXref xref">將資源集區與使用者建立關聯 </a>.</li>
+
+   <li><b>成本率</b>：使用者每小時的成本金額。
+      <p><span class="preview">若要取得日期有效成本率，請按一下 <strong>新增費率</strong>. 輸入時間期間的成本費率值，並視需要指定「開始日期」與「結束日期」。 成本費率1不會有開始日期，而最後的成本費率不會有結束日期。</span></p><p><span class="preview">部分日期會自動新增。 例如，如果「成本費率1」沒有結束日期，而您新增了開始日期為2023年5月1日的「成本費率2」，則會將2023年4月30日的結束日期新增至「成本費率1」，這樣就不會有空隙。</span></p></li>
+
+   <li><b>收費率</b>：使用者每小時的計費金額。
+      <p><span class="preview">如需日期有效計費率，請按一下 <strong>新增費率</strong>. 輸入時間期間的帳單費率值，並視需要指定「開始日期」與「結束日期」。 記帳費率1不會有開始日期，而最後一個記帳費率不會有結束日期。</span></p> <p><span class="preview">部分日期會自動新增。 例如，如果「帳單費率1」沒有結束日期，而您新增了開始日期為2023年5月1日的秒數，則結束日期為2023年4月30日會新增至「帳單費率1」，因此不會有間隙。</span></p><p> <img alt="使用者成本和計費率" src="assets/edit-user-cost-billing-rate-2.png"> </p></li>
+
+   </ul> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">自訂表單</td> 

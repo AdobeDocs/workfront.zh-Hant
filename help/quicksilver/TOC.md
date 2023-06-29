@@ -3,9 +3,9 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文件、教學課程和其他資源，了解如何在您的組織中實施並有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: 281712542566aec87c51a2eccb301dd3a83a94b3
+source-git-commit: 37a5c0dbc862436e06afea6ca2f0e1994355cbe8
 workflow-type: tm+mt
-source-wordcount: '13094'
+source-wordcount: '13106'
 ht-degree: 1%
 
 ---
@@ -392,6 +392,8 @@ ht-degree: 1%
          * [建立計分卡](administration-and-setup/set-up-workfront/configure-system-defaults/create-scorecard.md)
          * [專案時間表重新計算](administration-and-setup/set-up-workfront/configure-system-defaults/configure-timeline-recalculations-projects.md)
          * [專案的自訂季度](administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md)
+         * [設定位置](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-locations.md)
+         * [管理費率卡](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md)
       * 設定時程表和時程表偏好設定 {#configure-timesheets-schedules}
          * [設定時程表和時程表偏好設定](administration-and-setup/set-up-workfront/configure-timesheets-schedules/configure-timesheets-and-schedules.md)
          * [排程總覽](administration-and-setup/set-up-workfront/configure-timesheets-schedules/schedules-overview.md)
@@ -1199,6 +1201,7 @@ ht-degree: 1%
          * [以公司層級的收費率覆寫專案層級的收費率](manage-work/projects/project-finances/override-project-level-with-company-level-billing-rates.md)
          * [覆寫工作角色帳單費率與計算專案收入的概要](manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md)
          * [覆寫專案層次的工作角色收費率](manage-work/projects/project-finances/override-job-role-billing-rates-at-the-project-level.md)
+         * [將費率卡附加至專案](/help/quicksilver/manage-work/projects/project-finances/attach-rate-card-to-project.md)
          * [專案計畫收益概觀](manage-work/projects/project-finances/project-planned-benefit.md)
          * [設定績效指數方法(PIM)](manage-work/projects/project-finances/set-pim.md)
          * [計算投資報酬率(ROI)](manage-work/projects/project-finances/calculate-roi.md)
@@ -1751,7 +1754,7 @@ ht-degree: 1%
          * [校訂角色概觀](review-and-approve-work/proofing/proofing-overview/proof-roles.md)
          * [自動化工作流程總覽](review-and-approve-work/proofing/proofing-overview/automated-workflow.md)
          * [自動化工作流程階段概觀](review-and-approve-work/proofing/proofing-overview/stages.md)
-         * [校訂評論和決定概覽的通知](review-and-approve-work/proofing/proofing-overview/notifications-proof-comments-decisions.md)
+         * [校訂評論和決定概觀的通知](review-and-approve-work/proofing/proofing-overview/notifications-proof-comments-decisions.md)
          * [互動式內容校訂概觀](review-and-approve-work/proofing/proofing-overview/interactive-content-proofs.md)
          * [校樣概觀的檔案重新處理](review-and-approve-work/proofing/proofing-overview/document-reprocessing-for-proofing.md)
          * [支援的校訂檔案型別和大小限制概觀](review-and-approve-work/proofing/proofing-overview/supported-proofing-file-types.md)
