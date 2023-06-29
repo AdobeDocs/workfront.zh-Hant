@@ -6,16 +6,16 @@ description: 瞭解Adobe Workfront的區域，您可在這裡找到您或其他�
 author: Alina
 feature: Work Management
 exl-id: cfa2383a-9594-4867-9b48-11b8ea281486
-source-git-commit: cd059c445d86ed5581e8b2cb01507f18b97954f3
+source-git-commit: bb68f15c2d8ffabfb67a7789de14ef916cd2dbef
 workflow-type: tm+mt
-source-wordcount: '869'
+source-wordcount: '890'
 ht-degree: 1%
 
 ---
 
 # 尋找已提交的請求
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> -->
+<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它僅在「預覽」環境中可用。</span>
 
 您可以找到您或其他人提交的下列請求型別，或是您已開始但您從未完成提交的請求。 您可以在Adobe Workfront的下列區域中找到這些請求：
 
@@ -62,7 +62,7 @@ ht-degree: 1%
 若要尋找您或其他使用者已提交的請求：
 
 1. 按一下 **主要功能表** 圖示 ![](assets/main-menu-icon.png) Adobe Workfront右上角。
-1. 按一下 **已提交** 以檢視所有已提交的請求。
+1. 按一下 **已提交** 以檢視所有已提交的請求。
 
    您最多可以檢視2000個請求，且這些請求可顯示在多個頁面上。
 
@@ -70,44 +70,43 @@ ht-degree: 1%
    >
    >您無法自訂已提交請求清單中的欄。
 
-   ![](assets/nwe-submitted-requests-new-list-350x57.png)
+   <span class="preview">![](assets/nwe-submitted-requests-new-list-350x57.png)</span>
 
-   <!--update the shot above when we release the new Copy button to preview - for or after the 23.3 release-->
 
 1. 預設會顯示下列欄：
 
    <table style="table-layout:auto"> 
-    <col> 
-    <col> 
-    <tbody> 
-     <tr> 
-      <td role="rowheader">名稱</td> 
-      <td> <p>要求的名稱。</p> <p>按一下要求的名稱以開啟。 </p> <p><b>秘訣</b>
+      <col> 
+      <col> 
+      <tbody> 
+      <tr> 
+         <td role="rowheader">名稱</td> 
+         <td> <p>要求的名稱。</p> <p>按一下要求的名稱以開啟。 </p> <p><b>秘訣</b>
 
    如果問題在轉換為任務或專案時未保留，則問題的名稱會變暗且無法再按一下。 如需轉換問題的相關資訊，請參閱 <a href="../../../manage-work/issues/convert-issues/convert-issues.md" class="MCXref xref">在Adobe Workfront中轉換問題的概觀</a>. </p> </td>
    </tr> 
-     <tr> 
-      <td role="rowheader">轉換為</td> 
-      <td> <p>解析物件的名稱，可以是請求已轉換為的任務或專案。 </p> <p>按一下任務或專案名稱以開啟。 </p> <p>如果未轉換請求，則此欄位為空白。 </p> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">路徑</td> 
-      <td>最初提交請求的請求佇列、主題群組和佇列主題的名稱。 </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">狀態</td> 
-      <td>請求或解析物件（任務或專案）的目前狀態</td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">輸入日期</td> 
-      <td>提交請求的日期或解決物件的建立日期（如果請求在轉換時被刪除）。 </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">上次更新日期</td> 
-      <td> <p>上次更新請求的日期。</p> <p>依預設，已提交的請求清單會依此欄位排序。 </p> </td> 
-     </tr> 
-    </tbody> 
-   </table>
+      <tr> 
+         <td role="rowheader">轉換為</td> 
+         <td> <p>解析物件的名稱，可以是請求已轉換為的任務或專案。 </p> <p>按一下任務或專案名稱以開啟。 </p> <p>如果未轉換請求，則此欄位為空白。 </p> </td> 
+      </tr> 
+      <tr> 
+         <td role="rowheader">路徑</td> 
+         <td>最初提交請求的請求佇列、主題群組和佇列主題的名稱。 </td> 
+      </tr> 
+      <tr> 
+         <td role="rowheader">狀態</td> 
+         <td>請求或解析物件（任務或專案）的目前狀態</td> 
+      </tr> 
+      <tr> 
+         <td role="rowheader">輸入日期</td> 
+         <td>提交請求的日期或解決物件的建立日期（如果請求在轉換時被刪除）。 </td> 
+      </tr> 
+      <tr> 
+         <td role="rowheader">上次更新日期</td> 
+         <td> <p>上次更新請求的日期。</p> <p>依預設，已提交的請求清單會依此欄位排序。 </p> </td> 
+      </tr> 
+      </tbody> 
+      </table>
 
 1. （選用）按一下欄的標題可依其排序。
 
