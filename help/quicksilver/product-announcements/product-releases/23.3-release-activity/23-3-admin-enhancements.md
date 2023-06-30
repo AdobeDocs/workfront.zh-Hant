@@ -3,9 +3,9 @@ title: 23.3管理員增強功能
 description: 23.3管理員增強功能
 author: Lisa
 feature: Product Announcements
-source-git-commit: 3ebf408bb03a97de78600ab771834a7d7f29e2e0
+source-git-commit: f49f1275ec0911cc05a74c694436bf654a02bfe2
 workflow-type: tm+mt
-source-wordcount: '208'
+source-wordcount: '209'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 過去，所有客戶每季會發佈其功能。
 
-包含更多資訊的檔案將在23.3版本中提供。
+如需詳細資訊，請參閱 [啟用或停用快速發行程式](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).
 
 ## 「使用者可在其中記錄時間」時程表和小時偏好設定可用的群組層級控制
 
