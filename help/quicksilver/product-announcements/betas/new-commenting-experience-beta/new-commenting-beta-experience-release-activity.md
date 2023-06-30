@@ -7,9 +7,9 @@ author: Alina
 feature: Product Announcements
 role: User
 exl-id: 1c0cb547-ac99-4cdf-8a74-2c47ad5a10ad
-source-git-commit: bb68f15c2d8ffabfb67a7789de14ef916cd2dbef
+source-git-commit: 62db557f6347004836fac1ea37e55d557dcc6b87
 workflow-type: tm+mt
-source-wordcount: '1499'
+source-wordcount: '1514'
 ht-degree: 3%
 
 ---
@@ -86,9 +86,11 @@ ht-degree: 3%
 
 如需詳細資訊，請參閱 [記錄時間](../../../timesheets/create-and-manage-timesheets/log-time.md). 說明檔案將在發行時更新。
 
-預計預覽版本： 2023年6月29日
+專案、任務和問題的計畫預覽版本： 2023年7月5日
 
-預計生產版本： 23.3版
+問題的計畫生產版本： 2023年7月6日
+
+專案和任務的計畫生產版本： 23.3版本
 
 #### 將表情符號新增至更新
 
@@ -188,7 +190,7 @@ ht-degree: 3%
 
 預覽： 2023年6月1日
 
-生產：即將宣佈
+生產：第23.3發行版本
 
 ### 2023年5月15日起一週
 
