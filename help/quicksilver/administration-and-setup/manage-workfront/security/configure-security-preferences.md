@@ -8,10 +8,10 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: f92ceed7-b191-425b-9fff-1b0947f32db8
-source-git-commit: 281712542566aec87c51a2eccb301dd3a83a94b3
+source-git-commit: 9f6338dc79740e13b71e9266fed17f6dc61039e1
 workflow-type: tm+mt
-source-wordcount: '747'
-ht-degree: 3%
+source-wordcount: '781'
+ht-degree: 2%
 
 ---
 
@@ -20,6 +20,8 @@ ht-degree: 3%
 <!--
 DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.</p>
 -->
+
+{{highlighted-preview}}
 
 {{important-admin-console-onboard}}
 
@@ -67,6 +69,10 @@ DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH T
     <col> 
     <col> 
     <tbody> 
+     <tr> 
+      <td role="rowheader"> <p><span class="preview">啟用快速複查程式</span></p> </td> 
+      <td><span class="preview">可讓您為貴組織啟用每月Workfront發行，而非每季發行。</p><p>如需快速發行程式的詳細資訊，請參閱 <a href="/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md" class="MCXref xref">啟用或停用貴組織的快速發行</a>.</span></p></td> 
+     </tr> 
      <tr> 
       <td role="rowheader"> <p>允許內嵌 <strong>Workfront</strong> 在iframe中</p> </td> 
       <td>可讓您將Workfront內嵌在iframe中。<p>此選項預設為停用。</p><p><b>重要</b>：在iframe中顯示Web型應用程式時，該應用程式很容易發生點選劫持安全性弱點。</p></td> 
