@@ -3,9 +3,9 @@ title: 23.3敏捷增強功能
 description: 23.3敏捷增強功能
 author: Lisa
 feature: Product Announcements
-source-git-commit: 11e239bd47a007adbec1770dafc7f7a5d97eb57e
+source-git-commit: 3aa19652024cd6df1c9560aad6e982e4b615569c
 workflow-type: tm+mt
-source-wordcount: '1298'
+source-wordcount: '1305'
 ht-degree: 0%
 
 ---
@@ -29,6 +29,8 @@ ht-degree: 0%
 當您在展示板中時，您可以選擇切換到舊版敏捷檢視。
 
 如需詳細資訊，請參閱 [在敏捷檢視中管理專案](/help/quicksilver/manage-work/projects/manage-projects/manage-projects-in-agile-view.md).
+
+[觀看此功能的影片示範。](https://video.tv.adobe.com/v/3421283/){target=_blank}
 
 ## 依展示板欄排序
 

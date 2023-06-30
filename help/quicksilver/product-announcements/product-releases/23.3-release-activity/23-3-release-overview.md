@@ -4,9 +4,9 @@ description: 23.3版本總覽
 author: Becky
 feature: Product Announcements
 exl-id: 9bf786e2-e077-4504-b928-9091fcb61ec1
-source-git-commit: d8420930738102e64fbab2eecf91f2eb4429cb0e
+source-git-commit: 3aa19652024cd6df1c9560aad6e982e4b615569c
 workflow-type: tm+mt
-source-wordcount: '2687'
+source-wordcount: '2701'
 ht-degree: 0%
 
 ---
@@ -113,7 +113,7 @@ ht-degree: 0%
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">專案的敏捷檢視顯示看板</a><span style="color: #ff0000;"> 即將推出！</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">專案的敏捷檢視顯示看板</a><span style="color: #ff0000;"> 預覽中的新增功能！</span></p>
                         <p>專案的敏捷檢視現在包含附加功能，用於篩選、分組和排序看板中的工作。 全新的彈性檢視設計包含強大的搜尋功能，並可直接從展示板將新任務新增至專案。</p>
                     </td>
                     <td><p><b>在以下日期可用：</b></p>
@@ -332,7 +332,7 @@ ht-degree: 0%
                  </tr>   
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-finance-enhancements.md" class="MCXref xref" xrefformat="{para}">日期有效成本與帳單費率</a><span style="color: #ff0000;"> 即將推出！</span> </p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-finance-enhancements.md" class="MCXref xref" xrefformat="{para}">日期有效成本與帳單費率</a><span style="color: #ff0000;"> 預覽中的新增功能！</span> </p>
                         <p>Workfront中的公司、使用者和工作角色物件現在提供日期有效成本和計費率。 當將日期有效費率套用至專案且將時數記錄於專案任務時，成本與收入會使用每個時間期間的指定費率計算。</p>
                     </td>
                     <td><p><b>在以下日期可用：</b></p>
@@ -342,7 +342,8 @@ ht-degree: 0%
                             </li>
                             <li>
                                 <p>快速發行客戶的生產版本：將在23.3生產版本之後宣佈</p>
-                                <p>適用於所有客戶的生產版本：搭配23.4版</p>
+                                <p>適用於所有客戶的生產版本：搭配23.4版<br>
+                                <span style="color: #ff0000;"> 指派率覆寫功能已於2023年6月30日在預覽中暫時停用。</span></p>
                             </li>
                         </ul>
                     </td>

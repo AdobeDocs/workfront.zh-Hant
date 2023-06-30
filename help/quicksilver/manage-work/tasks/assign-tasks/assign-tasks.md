@@ -6,9 +6,9 @@ description: 您可以將任務指派給使用者、角色或團隊，以指出�
 author: Alina
 feature: Work Management
 exl-id: 611b136e-2c3f-4eac-9d75-e8c12e06148d
-source-git-commit: 8dbb48e6aa2df874caa816468cf2e3ad408ebf7e
+source-git-commit: 3aa19652024cd6df1c9560aad6e982e4b615569c
 workflow-type: tm+mt
-source-wordcount: '1901'
+source-wordcount: '1913'
 ht-degree: 1%
 
 ---
@@ -16,6 +16,10 @@ ht-degree: 1%
 # 指派任務
 
 {{highlighted-preview}}
+
+>[!IMPORTANT]
+>
+>指派率覆寫功能已於2023年6月30日在預覽中暫時停用。
 
 您可以將任務指派給使用者、工作角色或團隊，以指出負責完成任務的人員。 您可以一次將任務指派給多個資源。
 
