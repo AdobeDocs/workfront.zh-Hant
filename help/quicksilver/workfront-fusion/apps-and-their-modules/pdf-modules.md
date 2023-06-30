@@ -5,9 +5,9 @@ author: Becky
 draft: Probably
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: e0a5736b-dbdb-43c6-83ff-e88a5625a5bf
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 154905c0ed82052c38e87b6d49385deef28b83aa
 workflow-type: tm+mt
-source-wordcount: '3261'
+source-wordcount: '3465'
 ht-degree: 0%
 
 ---
@@ -22,18 +22,22 @@ ht-degree: 0%
 
 如需用於PDF服務的API的相關資訊，請參閱 [Adobe檔案產生API](https://www.adobe.io/apis/documentcloud/dcsdk/doc-generation.html).
 
-## 使用時的注意事項 [!DNL Adobe PDF Services]
+## 使用時的安全性考量 [!DNL Adobe PDF Services]
 
-* [您不需要 [!DNL Adobe] 帳戶](#you-do-not-need-an-adobe-account)
-* [[!DNL Workfront Fusion] 不會儲存您的檔案](#workfront-fusion-does-not-store-your-files)
+<!--
 
-### 您不需要 [!DNL Adobe] 帳戶
+* [You do not need an [!DNL Adobe] account](#you-do-not-need-an-adobe-account) 
+* [[!DNL Workfront Fusion] does not store your files](#workfront-fusion-does-not-store-your-files)
 
-因為 [!DNL Workfront Fusion] 是 [!DNL Adobe] 產品套裝，您不需要另外安裝 [!DNL Adobe] 帳戶，以使用這些工具。 每個工具存取 [!DNL Adobe] PDF功能，而不使用連線。
+### You do not need an [!DNL Adobe] account 
 
-雖然 [!DNL Workfront Fusion] 不需要 [!DNL Adobe] 帳戶若要使用PDF服務，模組確實需要連線。 此連線中沒有相關的認證，而且您只提供連線本身的名稱。
+Because [!DNL Workfront Fusion] is part of the [!DNL Adobe] product suite, you don't need a separate [!DNL Adobe] account to use these tools. Each tool accesses [!DNL Adobe] PDF functionality without using a connection.
 
-### [!DNL Workfront Fusion] 不會儲存您的檔案
+Although [!DNL Workfront Fusion] does not require an [!DNL Adobe] account to use the PDF Services, the modules do require a connection. There are no credentials involved in this connection, and you provide only a name for the connection itself.
+
+### [!DNL Workfront Fusion] does not store your files 
+
+-->
 
 此 [!DNL Adobe PDF Services] 可以讀取、轉換或修改您的檔案，但兩者皆無 [!DNL Adobe] 也不 [!DNL Workfront Fusion] 儲存您的檔案或資料。 這表示：
 
@@ -79,6 +83,59 @@ ht-degree: 0%
 
 有關以下專案的資訊： [!DNL Adobe Workfront Fusion] 授權，請參閱 [[!DNL Adobe Workfront Fusion] 授權](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
+## 建立與的連線 [!DNL Adobe PDF Services]
+
+若要為建立連線，請執行下列步驟： [!DNL Adobe PDF Services] 模組：
+
+1. 在任何 [!DNL Adobe PDF Services] 模組，按一下 **[!UICONTROL 新增]** 「連線」方塊旁邊。
+
+1. 填寫下列欄位：
+
+   <table style="table-layout:auto"> 
+      <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column1">
+      </col>
+      <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column2">
+      </col>
+      <tbody>
+        <tr>
+          <td role="rowheader">[！UICONTROL連線型別]</td>
+          <td>
+            <p>選取您要建立伺服器對伺服器連線還是JWT連線。</p>
+          </td>
+        </tr>
+        <tr>
+          <td role="rowheader">[！UICONTROL連線名稱]</td>
+          <td>
+            <p>輸入此連線的名稱。</p>
+          </td>
+        </tr>
+        <tr>
+          <td role="rowheader">[！UICONTROL使用者端ID]</td>
+          <td>輸入您的 [!DNL Adobe] [！UICONTROL使用者端識別碼]。 此專案可在的[！UICONTROL認證詳細資料]區段中找到 [!DNL Adobe Developer Console].</td>
+        </tr>
+        <tr>
+          <td role="rowheader">[！UICONTROL使用者端密碼]</td>
+          <td>輸入您的 [!DNL Adobe] [！UICONTROL使用者端密碼]。 此專案可在的[！UICONTROL認證詳細資料]區段中找到 [!DNL Adobe Developer Console].
+        </tr>
+        <tr>
+          <td role="rowheader">[！UICONTROL技術帳戶ID] （僅限JWT）</td>
+          <td>輸入您的 [!DNL Adobe] [！UICONTROL技術帳戶ID]。 此專案可在的[！UICONTROL認證詳細資料]區段中找到 [!DNL Adobe Developer Console].
+        </tr>
+        <tr>
+          <td role="rowheader">[！UICONTROL組織ID] （僅限JWT）</td>
+          <td>輸入您的 [!DNL Adobe] [！UICONTROL組織識別碼]。 此專案可在的[！UICONTROL認證詳細資料]區段中找到 [!DNL Adobe Developer Console].
+        </tr>
+        <tr>
+          <td role="rowheader">[！UICONTROL中繼範圍] （僅限JWT）</td>
+          <td>
+            輸入連線所需的任何中繼範圍。
+          </td>
+        </tr>
+       </tbody>
+    </table>
+1. 按一下 **[!UICONTROL 繼續]** 以儲存連線並返回模組。
+
+
 ## [!DNL Adobe PDF Services] 模組及其欄位
 
 當您設定 [!DNL PDF Services]， [!DNL Workfront Fusion] 顯示下列欄位。 除此之外，其他欄位可能會根據您應用程式或服務中的存取層級等因素顯示。 模組中的粗體標題表示必填欄位。
@@ -98,10 +155,12 @@ ht-degree: 0%
 * [[!UICONTROL 將PDF轉換為影像]](#convert-pdf-to-image)
 * [[!UICONTROL 將PDF檔案線性化]](#linearize-a-pdf-file)
 * [[!UICONTROL PDF檔案的OCR]](#ocr-for-pdf-file)
-* [[!UICONTROL PDF頁面操作]](#pdf-page-manipulation)
+* [[!UICONTROL 頁面操控]](#page-manipulation)
+* [[!UICONTROL PDF協助工具自動標籤]](#pdf-accessibility-auto-tag)
 * [[!UICONTROL PDF檔案屬性]](#pdf-file-properties)
 * [[!UICONTROL ProtectPDF檔案]](#protect-pdf-file)
 * [[!UICONTROL 移除PDF檔案的保護]](#remove-protection-of-a-pdf-file)
+* [分割PDF檔案](#split-a-pdf-file)
 
 ### [!UICONTROL 產生檔案]
 
@@ -132,7 +191,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">[！UICONTROL連線]</td> 
-   <td> <p>選取要用於此模組的連線。</p> <p>您不需要 [!DNL Adobe] 用於建立PDF服務連線的帳戶。 如需詳細資訊，請參閱 <a href="#you-do-not-need-an-adobe-account" class="MCXref xref">您不需要 [!DNL Adobe] 帳戶</a> 本文章內容。</p> </td> 
+   <td> <p>選取要用於此模組的連線。</p> 如需建立連線的相關指示，請前往 [!DNL Adobe PDF Services]，請參閱 <a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >建立與的連線 [!DNL Adobe PDF Services]</a> 本文章內容。 </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL來源檔案]</td> 
@@ -168,7 +227,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">[！UICONTROL連線]</td> 
-   <td> <p>選取要用於此模組的連線。</p> <p>您不需要 [!DNL Adobe] 用於建立PDF服務連線的帳戶。 如需詳細資訊，請參閱 <a href="#you-do-not-need-an-adobe-account" class="MCXref xref">您不需要 [!DNL Adobe] 帳戶</a> 本文章內容。</p> </td> 
+   <td> <p>選取要用於此模組的連線。</p> 如需建立連線的相關指示，請前往 [!DNL Adobe PDF Services]，請參閱 <a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >建立與的連線 [!DNL Adobe PDF Services]</a> 本文章內容。 </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL來源檔案]</td> 
@@ -199,7 +258,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">[！UICONTROL連線]</td> 
-   <td> <p>選取要用於此模組的連線。</p> <p>您不需要 [!DNL Adobe] 用於建立PDF服務連線的帳戶。 如需詳細資訊，請參閱 <a href="#you-do-not-need-an-adobe-account" class="MCXref xref">您不需要 [!DNL Adobe] 帳戶</a> 本文章內容。</p> </td> 
+   <td> <p>選取要用於此模組的連線。</p> 如需建立連線的相關指示，請前往 [!DNL Adobe PDF Services]，請參閱 <a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >建立與的連線 [!DNL Adobe PDF Services]</a> 本文章內容。 </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL來源檔案]</td> 
@@ -234,7 +293,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">[！UICONTROL連線]</td> 
-   <td> <p>選取要用於此模組的連線。</p> <p>您不需要 [!DNL Adobe] 用於建立PDF服務連線的帳戶。 如需詳細資訊，請參閱 <a href="#you-do-not-need-an-adobe-account" class="MCXref xref">您不需要 [!DNL Adobe] 帳戶</a> 本文章內容。</p> </td> 
+   <td> <p>選取要用於此模組的連線。</p> 如需建立連線的相關指示，請前往 [!DNL Adobe PDF Services]，請參閱 <a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >建立與的連線 [!DNL Adobe PDF Services]</a> 本文章內容。 </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL檔案]</td> 
@@ -261,7 +320,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">[！UICONTROL連線]</td> 
-   <td> <p>選取要用於此模組的連線。</p> <p>您不需要 [!DNL Adobe] 用於建立PDF服務連線的帳戶。 如需詳細資訊，請參閱 <a href="#you-do-not-need-an-adobe-account" class="MCXref xref">您不需要 [!DNL Adobe] 帳戶</a> 本文章內容。</p> </td> 
+   <td> <p>選取要用於此模組的連線。</p> 如需建立連線的相關指示，請前往 [!DNL Adobe PDF Services]，請參閱 <a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >建立與的連線 [!DNL Adobe PDF Services]</a> 本文章內容。 </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL來源檔案]</td> 
@@ -292,7 +351,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">[！UICONTROL連線]</td> 
-   <td> <p>選取要用於此模組的連線。</p> <p>您不需要 [!DNL Adobe] 用於建立PDF服務連線的帳戶。 如需詳細資訊，請參閱 <a href="#you-do-not-need-an-adobe-account" class="MCXref xref">您不需要 [!DNL Adobe] 帳戶</a> 本文章內容。</p> </td> 
+   <td> <p>選取要用於此模組的連線。</p> 如需建立連線的相關指示，請前往 [!DNL Adobe PDF Services]，請參閱 <a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >建立與的連線 [!DNL Adobe PDF Services]</a> 本文章內容。 </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL來源檔案]</td> 
@@ -361,7 +420,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">[！UICONTROL連線]</td> 
-   <td> <p>選取要用於此模組的連線。</p> <p>您不需要 [!DNL Adobe] 用於建立PDF服務連線的帳戶。 如需詳細資訊，請參閱 <a href="#you-do-not-need-an-adobe-account" class="MCXref xref">您不需要 [!DNL Adobe] 帳戶</a> 本文章內容。</p> </td> 
+   <td> <p>選取要用於此模組的連線。</p> 如需建立連線的相關指示，請前往 [!DNL Adobe PDF Services]，請參閱 <a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >建立與的連線 [!DNL Adobe PDF Services]</a> 本文章內容。 </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL來源檔案]</td> 
@@ -406,7 +465,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">[！UICONTROL連線]</td> 
-   <td> <p>選取要用於此模組的連線。</p> <p>您不需要 [!DNL Adobe] 用於建立PDF服務連線的帳戶。 如需詳細資訊，請參閱 <a href="#you-do-not-need-an-adobe-account" class="MCXref xref">您不需要 [!DNL Adobe] 帳戶</a> 本文章內容。</p> </td> 
+   <td> <p>選取要用於此模組的連線。</p> 如需建立連線的相關指示，請前往 [!DNL Adobe PDF Services]，請參閱 <a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >建立與的連線 [!DNL Adobe PDF Services]</a> 本文章內容。 </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL來源檔案]</td> 
@@ -433,7 +492,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">[！UICONTROL連線]</td> 
-   <td> <p>選取要用於此模組的連線。</p> <p>您不需要 [!DNL Adobe] 用於建立PDF服務連線的帳戶。 如需詳細資訊，請參閱 <a href="#you-do-not-need-an-adobe-account" class="MCXref xref">您不需要 [!DNL Adobe] 帳戶</a> 本文章內容。</p> </td> 
+   <td> <p>選取要用於此模組的連線。</p> 如需建立連線的相關指示，請前往 [!DNL Adobe PDF Services]，請參閱 <a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >建立與的連線 [!DNL Adobe PDF Services]</a> 本文章內容。 </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL來源檔案]</td> 
@@ -467,7 +526,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">[！UICONTROL連線]</td> 
-   <td> <p>選取要用於此模組的連線。</p> <p>您不需要 [!DNL Adobe] 用於建立PDF服務連線的帳戶。 如需詳細資訊，請參閱 <a href="#you-do-not-need-an-adobe-account" class="MCXref xref">您不需要 [!DNL Adobe] 帳戶</a> 本文章內容。</p> </td> 
+   <td> <p>選取要用於此模組的連線。</p> 如需建立連線的相關指示，請前往 [!DNL Adobe PDF Services]，請參閱 <a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >建立與的連線 [!DNL Adobe PDF Services]</a> 本文章內容。 </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL來源檔案]</td> 
@@ -496,7 +555,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">[！UICONTROL連線]</td> 
-   <td> <p>選取要用於此模組的連線。</p> <p>您不需要 [!DNL Adobe] 用於建立PDF服務連線的帳戶。 如需詳細資訊，請參閱 <a href="#you-do-not-need-an-adobe-account" class="MCXref xref">您不需要 [!DNL Adobe] 帳戶</a> 本文章內容。</p> </td> 
+   <td> <p>選取要用於此模組的連線。</p> 如需建立連線的相關指示，請前往 [!DNL Adobe PDF Services]，請參閱 <a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >建立與的連線 [!DNL Adobe PDF Services]</a> 本文章內容。 </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL來源檔案]</td> 
@@ -517,7 +576,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">[！UICONTROL連線]</td> 
-   <td> <p>選取要用於此模組的連線。</p> <p>您不需要 [!DNL Adobe] 用於建立PDF服務連線的帳戶。 如需詳細資訊，請參閱 <a href="#you-do-not-need-an-adobe-account" class="MCXref xref">您不需要 [!DNL Adobe] 帳戶</a> 本文章內容。</p> </td> 
+   <td> <p>選取要用於此模組的連線。</p> 如需建立連線的相關指示，請前往 [!DNL Adobe PDF Services]，請參閱 <a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >建立與的連線 [!DNL Adobe PDF Services]</a> 本文章內容。 </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL來源檔案]</td> 
@@ -538,7 +597,7 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-### [!UICONTROL PDF頁面操作]
+### [!UICONTROL 頁面操控]
 
 此模組可讓您選擇性地旋轉或刪除PDF檔案中的頁面。 例如，您可以將縱向檢視變更為橫向檢視，或從PDF檔案中移除某些頁面。
 
@@ -550,7 +609,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">[！UICONTROL連線]</td> 
-   <td> <p>選取要用於此模組的連線。</p> <p>您不需要 [!DNL Adobe] 用於建立PDF服務連線的帳戶。 如需詳細資訊，請參閱 <a href="#you-do-not-need-an-adobe-account" class="MCXref xref">您不需要 [!DNL Adobe] 帳戶</a> 本文章內容。</p> </td> 
+   <td> <p>選取要用於此模組的連線。</p> 如需建立連線的相關指示，請前往 [!DNL Adobe PDF Services]，請參閱 <a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >建立與的連線 [!DNL Adobe PDF Services]</a> 本文章內容。 </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL來源檔案]</td> 
@@ -579,6 +638,34 @@ ht-degree: 0%
  </tbody> 
 </table>
 
+### [!UICONTROL PDF協助工具自動標籤]
+
+此動作模組會建立標籤為協助工具使用案例的PDF。 這樣也會建立選用的Microsoft Excel報表，列出問題並提供修正建議。
+
+<table style="table-layout:auto"> 
+ <col> 
+ </col> 
+ <col> 
+ </col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[！UICONTROL連線]</td> 
+   <td> <p>選取要用於此模組的連線。</p> 如需建立連線的相關指示，請前往 [!DNL Adobe PDF Services]，請參閱 <a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >建立與的連線 [!DNL Adobe PDF Services]</a> 本文章內容。 </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[！UICONTROL來源檔案]</td> 
+   <td> <p>從先前的模組中選取來源檔案，或對應來源檔案的名稱和資料。</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[！UICONTROL Shift標題]</td> 
+   <td> <p>啟用此選項以移動檔案上的標題。</p> 
+    <ul> 
+     <li> <p><b>[！UICONTROL產生報表]</b> </p> <p>啟用此選項可產生報告，列出PDF中的協助工具問題及其位置，並提供如何修正這些問題的建議。</p> </li> 
+    </ul> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
 ### [!UICONTROL PDF檔案屬性]
 
 此工具會擷取有關檔案的基本資訊，例如：
@@ -597,7 +684,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">[！UICONTROL連線]</td> 
-   <td> <p>選取要用於此模組的連線。</p> <p>您不需要 [!DNL Adobe] 用於建立PDF服務連線的帳戶。 如需詳細資訊，請參閱 <a href="#you-do-not-need-an-adobe-account" class="MCXref xref">您不需要 [!DNL Adobe] 帳戶</a> 本文章內容。</p> </td> 
+   <td> <p>選取要用於此模組的連線。</p> 如需建立連線的相關指示，請前往 [!DNL Adobe PDF Services]，請參閱 <a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >建立與的連線 [!DNL Adobe PDF Services]</a> 本文章內容。 </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL來源檔案]</td> 
@@ -618,7 +705,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">[！UICONTROL連線]</td> 
-   <td> <p>選取要用於此模組的連線。</p> <p>您不需要 [!DNL Adobe] 用於建立PDF服務連線的帳戶。 如需詳細資訊，請參閱 <a href="#you-do-not-need-an-adobe-account" class="MCXref xref">您不需要 [!DNL Adobe] 帳戶</a> 本文章內容。</p> </td> 
+   <td> <p>選取要用於此模組的連線。</p> 如需建立連線的相關指示，請前往 [!DNL Adobe PDF Services]，請參閱 <a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >建立與的連線 [!DNL Adobe PDF Services]</a> 本文章內容。 </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL來源檔案]</td> 
@@ -668,7 +755,7 @@ ht-degree: 0%
  <tbody> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">[！UICONTROL連線]</td> 
-   <td> <p>選取要用於此模組的連線。</p> <p>您不需要 [!DNL Adobe] 用於建立PDF服務連線的帳戶。 如需詳細資訊，請參閱 <a href="#you-do-not-need-an-adobe-account" class="MCXref xref">您不需要 [!DNL Adobe] 帳戶</a> 本文章內容。</p> </td> 
+   <td> <p>選取要用於此模組的連線。</p> 如需建立連線的相關指示，請前往 [!DNL Adobe PDF Services]，請參閱 <a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >建立與的連線 [!DNL Adobe PDF Services]</a> 本文章內容。 </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL來源檔案]</td> 
@@ -680,3 +767,35 @@ ht-degree: 0%
   </tr> 
  </tbody> 
 </table>
+
+### [!UICONTROL 分割PDF檔案]
+
+此動作模組會將PDF檔案分割成多個較小的檔案。 您可以指定是否要依檔案數、每個檔案的頁數或頁面範圍來分割檔案。
+
+<table style="table-layout:auto"> 
+ <col> 
+ </col> 
+ <col> 
+ </col> 
+ <tbody> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader">[！UICONTROL連線]</td> 
+   <td> <p>選取要用於此模組的連線。</p> 如需建立連線的相關指示，請前往 [!DNL Adobe PDF Services]，請參閱 <a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >建立與的連線 [!DNL Adobe PDF Services]</a> 本文章內容。 </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[！UICONTROL來源檔案]</td> 
+   <td> <p>從先前的模組中選取來源檔案，或對應來源檔案的名稱和資料。</p> <p>來源檔案必須是PDF格式。</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[！UICONTROL分割選項]</td> 
+   <td>選取您要如何分割檔案。 
+   <ul>
+   <li><p><b>頁面範圍</b></p><p>對於要分割成單獨檔案的每個頁面範圍，按一下 <b>新增</b> 並輸入您要開始和結束的頁面。</p></li>
+   <li><p><b>頁數</b></p><p>輸入您要納入新檔案中的頁數。</p></li>
+   <li><p><b>檔案數</b></p><p>輸入要分割檔案的平均大小檔案數。</p></li>
+   </ul>
+   </td> 
+  </tr> 
+ </tbody> 
+</table>
+
