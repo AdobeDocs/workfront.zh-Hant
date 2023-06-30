@@ -3,9 +3,9 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文件、教學課程和其他資源，了解如何在您的組織中實施並有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: da2ecac5d362e20e3068f9c865bc37633f79da58
+source-git-commit: 160c1b11cfca13ae141612a516d6c592d4bac509
 workflow-type: tm+mt
-source-wordcount: '13113'
+source-wordcount: '13121'
 ht-degree: 1%
 
 ---
@@ -393,6 +393,7 @@ ht-degree: 1%
          * [建立計分卡](administration-and-setup/set-up-workfront/configure-system-defaults/create-scorecard.md)
          * [專案時間表重新計算](administration-and-setup/set-up-workfront/configure-system-defaults/configure-timeline-recalculations-projects.md)
          * [專案的自訂季度](administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md)
+         * [啟用或停用貴組織的快速發行](administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)
          * [設定位置](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-locations.md)
          * [管理費率卡](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md)
       * 設定時程表和時程表偏好設定 {#configure-timesheets-schedules}
