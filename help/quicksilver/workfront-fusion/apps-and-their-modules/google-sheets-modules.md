@@ -9,9 +9,9 @@ description: 為了使用 [!DNL Google Sheets] 替換為 [!DNL Adobe Workfront F
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: 11d62222-df34-472d-93d7-f0d53eb95c9b
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 6f4e5042054f3936fa0e387bfbebaa1775d16573
 workflow-type: tm+mt
-source-wordcount: '3942'
+source-wordcount: '3941'
 ht-degree: 0%
 
 ---
@@ -698,7 +698,7 @@ ht-degree: 0%
 ### 如何從取得空白儲存格 [!DNL Google Sheet]
 
 使用 [!UICONTROL 搜尋列（進階）] 模組，並使用此公式來取得空白欄。
-<pre>選取* [！UICONTROL，其中E​為null]</pre>其中，「E」是欄，「is null」是條件。 您可以使用[Google Query Lang]建立更進階的查詢。](https://developers.google.com/chart/interactive/docs/querylanguage)
+<pre>選取*其中E為null</pre>其中，「E」是欄，「is null」是條件。 您可以使用[Google Query Lang](https://developers.google.com/chart/interactive/docs/querylanguage)建立更進階的查詢。
 
 ### 在工作表中新增按鈕以執行案例
 
