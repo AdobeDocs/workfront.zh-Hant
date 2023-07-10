@@ -8,30 +8,32 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 2f8dd132-1086-4980-9b56-993a68231e96
-source-git-commit: 7fa4791e19a84d7215e341e8bbde8dd4d4d8ccc6
+source-git-commit: 82f42d81970c7572f43519423ec3a8c0889aaff4
 workflow-type: tm+mt
-source-wordcount: '809'
+source-wordcount: '895'
 ht-degree: 0%
 
 ---
 
 # 以其他使用者身分登入
 
+
+<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它僅適用於預覽環境中的所有使用者。</span>
 <!--
 **DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. Also linked to other articles: Creating and Managing Groups, etc.</p>
 -->
 
 >[!IMPORTANT]
 >
->本頁所述的程式僅適用於尚未上線至Adobe Admin Console的組織。 如果貴組織已上線至Adobe Admin Console，則此動作無法使用。
+>本頁所述的程式僅適用於尚未上線至Adobe Admin Console的組織。 如果您的組織已上線至Adobe Admin Console，則無法使用此動作。
 >
->如需依貴組織是否已上線至Adobe Admin Console而有所不同的程式清單，請參閱 [平台管理差異(Adobe Workfront/Adobe業務平台)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
+>如需根據貴組織是否已上線至Adobe Admin Console而有所不同的程式清單，請參閱 [平台式管理差異(Adobe Workfront/Adobe商務平台)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
 身為Adobe Workfront管理員，您有時可能需要代表其他使用者存取Workfront。
 
-或者，身為群組管理員，您可能需要代表您所管理之群組的成員使用者存取Workfront。
+或者，身為群組管理員，您可能需要代表您管理之群組成員的使用者存取Workfront。
 
-例如，如果在休假的用戶執行某個操作之前，任務無法進行，則可以以該用戶身份登錄，然後改為執行操作。
+例如，如果任務在休假的使用者執行特定動作之前無法進度，您可以以該使用者身分登入，並改為執行動作。
 
 <!--
 <note type="note">
@@ -44,13 +46,13 @@ Some users, such as executives, need to be able to control which administrators 
 
 >[!NOTE]
 >
->由於檔案整合可能會連線至私人個人檔案，因此管理員在以其他使用者身分登入時無法存取檔案整合。
+>由於檔案整合可能會連線到私人個人檔案，因此管理員在以其他使用者身份登入時無法存取檔案整合。
 >
->如需檔案整合的詳細資訊，請參閱 [配置文檔整合](../../../administration-and-setup/configure-integrations/configure-document-integrations.md)
+>如需檔案整合的詳細資訊，請參閱 [設定檔案整合](../../../administration-and-setup/configure-integrations/configure-document-integrations.md)
 
 ## 存取需求
 
-您必須具備下列條件才能執行本文所述步驟：
+您必須具備下列專案才能執行本文所述的步驟：
 
 <table style="table-layout:auto"> 
  <col> 
@@ -65,10 +67,10 @@ Some users, such as executives, need to be able to control which administrators 
    <td>計劃</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">訪問級別配置</td> 
-   <td> <p>使用「系統管理員」訪問級別，您可以以任何人身份登錄。 有關此訪問級別的資訊，請參見 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">授予使用者完整的管理存取權</a>. </p> <p>使用計畫員訪問級別，您可以以具有較低許可級別的用戶身份登錄(如果 <b>使用者</b> 在存取層級中的設定，設定為 <b>編輯</b> 存取，使用 <b>建立</b> 和兩者中的至少一個 <b>使用者管理</b> 選項 <b>微調您的設定</b> <img src="assets/gear-icon-in-access-levels.png">. </p> 
-   <p><b>注意</b>:在這兩個選項中，如果用戶 <b>管理員（群組使用者）</b> 啟用時，您必須是使用者所屬群組的群組管理員。</p> 
-   <p>如需 <b>使用者</b> 在存取層級中設定，請參閱 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">授予使用者存取權</a>.</p> </td> 
+   <td role="rowheader">存取層級設定</td> 
+   <td> <p>使用「系統管理員」存取層級，您可以以任何身分登入。 如需有關此存取層級的資訊，請參閱 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">授予使用者完全管理存取權</a>. </p> <p>使用「規劃師」存取層級，您可以在下列情況下以授權層級較低的使用者身分登入： <b>使用者</b> 存取層級中的設定已設定為 <b>編輯</b> 存取，使用 <b>建立</b> 和至少兩者之一 <b>使用者管理員</b> 選項啟用於 <b>微調您的設定</b> <img src="assets/gear-icon-in-access-levels.png">. </p> 
+   <p><b>注意</b>：這兩個選項中，如果使用者為 <b>管理員（群組使用者）</b> 已啟用，您必須是使用者所屬群組的群組管理員。</p> 
+   <p>如需更多有關「 」的資訊， <b>使用者</b> 在存取層級中設定，請參閱 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">授予使用者存取許可權</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -79,26 +81,25 @@ Some users, such as executives, need to be able to control which administrators 
 
    >[!NOTE]
    >
-   >* 如果您是群組管理員，則只能以您管理之群組中使用者身分登入。 此外，您必須在存取層級中啟用使用者管理員（群組使用者）權限：
+   >* 如果您是群組管理員，則只能以您管理之群組中的使用者身分登入。 此外，您必須在存取層級中啟用「使用者管理員（群組使用者）」許可權：
    >   
    >  ![](assets/group-admin-user.png)
    >   
-   >  預設會停用此設定。 如需詳細資訊，請參閱 [建立或修改自訂存取層級](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+   >  此設定預設為停用。 如需詳細資訊，請參閱 [建立或修改自訂存取層級](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
    >   
    >* 您無法重設Workfront管理員的密碼。
 
+1. 按一下 **主要功能表** 圖示 ![](assets/main-menu-icon.png) Adobe Workfront右上角，然後按一下 **設定** ![](assets/gear-icon-settings.png).
 
-1. 按一下 **主菜單** 圖示 ![](assets/main-menu-icon.png) 在Adobe Workfront的右上角，然後按一下 **設定** ![](assets/gear-icon-settings.png).
+1. 在左側面板中，按一下 **登入身份**.
 
-1. 在左側面板中，按一下 **登入方式**.
+1. 在 **使用者** 方塊(位於 **登入身份** 索引標籤中，開始輸入使用者的名稱，然後在其出現在下拉式清單中時按一下該名稱。
 
-1. 在 **使用者** 框 **登入方式** 頁簽，開始鍵入用戶的名稱，然後在下拉清單中顯示該名稱時按一下該名稱。
-
-   使用者必須具有Workfront中定義的存取層級。 您無法以沒有登入權限的使用者身分登入Workfront系統。
+   使用者必須擁有Workfront中定義的存取層級。 您無法以沒有登入許可權的使用者身分登入Workfront系統。
 
    >[!NOTE]
    >
-   >群組管理員只能以其所管理群組成員的使用者身分登入。 他們無法以Workfront管理員身分登入。
+   >群組管理員只能以他們管理之群組成員的使用者身分登入。 他們無法以Workfront管理員身分登入。
 
 1. 按一下 **登入。**
 
@@ -127,36 +128,43 @@ Some users, such as executives, need to be able to control which administrators 
    </div>
    -->
 
-   當您以其他使用者身分登入時，畫面頂端會顯示通知以指出這點。
+   當您以其他使用者身份登入時，畫面頂部會顯示通知以指示此情況。
 
-1. 以使用者身分執行必要動作後，按一下 **登出。**
+1. 以使用者身分執行必要的動作後，請按一下 **登出。**
 
-## 在管理員以其他使用者身分登入時追蹤和稽核活動
+## 在管理員以其他使用者身份登入時追蹤和稽核活動
 
-Workfront提供追蹤和稽核活動的機制，當管理員以其他使用者身分登入時，就會發生此活動。
+Workfront提供機制，可在管理員以其他使用者身份登入時追蹤和稽核活動。
 
-當您以其他用戶身份登錄時，系統或組管理員將修改該用戶的上次登錄日期，直至該用戶身份登錄的日期。
+當您以其他使用者身份登入時，該使用者的上次登入日期會修改為系統或群組管理員以該使用者身份登入的日期。
 
-* [查看項的指標](#view-indicators-on-items)
-* [查看審核資訊](#view-audit-information)
+* [檢視專案上的指標](#view-indicators-on-items)
+* [檢視稽核資訊](#view-audit-information)
 
-### 查看項的指標 {#view-indicators-on-items}
+### 檢視專案上的指標 {#view-indicators-on-items}
 
-當您以其他使用者身分登入Workfront並執行動作時，Workfront會清楚指出您執行的任何動作都是由您代表以登入身分登入的使用者所執行。
+當您以其他使用者身分登入Workfront並執行動作時，Workfront會明確指出您執行的任何動作都是由您代表您以身分登入的使用者所執行。
 
-例如，如果您在以其他使用者身分登入時對項目發表評論，陳述式會指出您是代表該使用者發表評論的。
+例如，如果您以其他使用者身份登入時註解某個專案，則會出現一條宣告，指出您是代表該使用者進行註解。
 
-### 查看審核資訊 {#view-audit-information}
+>[!NOTE]
+>
+><span class="preview">使用新的評論體驗時，評論會新增為以其他使用者身份登入的使用者，且沒有跡象表明他們代表其他人新增評論。
+>
+>例如，如果Workfront管理員以其他使用者身份登入，則與評論相關聯的使用者為Workfront管理員。 如需詳細資訊，請參閱 [新的評論體驗](../../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md). </span>
+
+
+### 檢視稽核資訊 {#view-audit-information}
 
 1. 以Workfront管理員或群組管理員身分登入Workfront。
-1. 按一下 **主菜單** 圖示 ![](assets/main-menu-icon.png) 在Adobe Workfront的右上角，然後按一下 **設定** ![](assets/gear-icon-settings.png).
+1. 按一下 **主要功能表** 圖示 ![](assets/main-menu-icon.png) Adobe Workfront右上角，然後按一下 **設定** ![](assets/gear-icon-settings.png).
 
-1. 按一下 **登入方式，** 然後按一下 **訪問日誌** 標籤。
+1. 按一下 **登入身份，** 然後按一下 **存取記錄** 標籤。
 
-   每當系統或群組管理員以其他使用者身分登入Workfront時，事件即會記錄在稽核軌跡中。 此外，管理員以其他使用者身分登入時發生的任何可稽核動作都會記錄在稽核軌跡中。
+   每當系統或群組管理員以其他使用者身份登入Workfront時，該事件就會記錄到稽核軌跡。 此外，當管理員以其他使用者身份登入時，所發生的任何可稽核動作都會登入稽核軌跡。
 
-1. （選用）您可以透過下列方式篩選稽核軌跡中顯示的結果：
+1. （選擇性）您可以以下列方式篩選稽核軌跡中顯示的結果：
 
-   * 已登入的使用者
-   * 已登入為的使用者
+   * 依已登入的使用者
+   * 依登入身份的使用者
    * 依日期

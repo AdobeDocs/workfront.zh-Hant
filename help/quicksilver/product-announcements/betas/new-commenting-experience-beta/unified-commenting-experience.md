@@ -7,9 +7,9 @@ author: Alina
 feature: Product Announcements
 role: User
 exl-id: f750b35b-8021-4cc1-81d6-e1ece2530438
-source-git-commit: 716b5a151585aa314cd9db67237d2ed085e817c1
+source-git-commit: 82f42d81970c7572f43519423ec3a8c0889aaff4
 workflow-type: tm+mt
-source-wordcount: '673'
+source-wordcount: '713'
 ht-degree: 1%
 
 ---
@@ -57,6 +57,7 @@ ht-degree: 1%
 * 系統更新的註解
 * 可在註解時編輯狀態、條件、認可日期
 * 編輯自訂表單
+* 當Workfront或群組管理員以其他使用者身份登入並代表他們新增評論時，「代表&lt;使用者名稱>」資訊。
 
 >[!NOTE]
 >
@@ -115,8 +116,23 @@ ht-degree: 1%
    <td> 
    </td>
   </tr>
-  <tr>
- <tr>
+
+<tr>
+   <td>RTF文字（表情符號）
+   </td>
+   <td>✓ 
+   </td>
+   <td>
+   </td>
+   <td>✓ 
+   </td>
+   <td> 
+   </td>
+   <td> 
+   </td>
+  </tr>
+
+<tr>
    <td>RTF文字（區塊引號）
    </td>
    <td>✓ 
@@ -188,13 +204,13 @@ ht-degree: 1%
    </td>
   </tr>
   <tr>
-   <td>從執行緒移除人員 
+   <td>自動標籤所有執行緒參與者
    </td>
    <td> 
    </td>
-   <td>✓
+   <td>
    </td>
-   <td> 
+   <td> ✓
    </td>
    <td> 
    </td>
@@ -299,35 +315,7 @@ ht-degree: 1%
    <td> 
    </td>
   </tr>
-  <tr>
-   <td>編輯自訂表單 
-   </td>
-   <td>✓ 
-   </td>
-   <td> 
-   </td>
-   <td> 
-   </td>
-   <td> 
-   </td>
-   <td> 
-   </td>
-  </tr>
-  <tr>
-   <td>可在註解時編輯狀態、條件、認可日期 
-   </td>
-   <td>✓ 
-   </td>
-   <td> 
-   </td>
-   <td> 
-   </td>
-   <td> 
-   </td>
-   <td>
-   </td>
-  </tr>
-  <tr>
+    <tr>
    <td>複製對話連結 
    </td>
    <td>✓ 
@@ -360,9 +348,9 @@ ht-degree: 1%
    </td>
    <td>✓ 
    </td>
-   <td> 
+   <td><span class="preview">✓</span> 
    </td>
-   <td>✓ 
+   <td> 
    </td>
    <td>2023年第2季 
    </td>
@@ -411,9 +399,50 @@ ht-degree: 1%
    <td>✓ 
    </td>
   </tr>
-
+<tr>
+   <td>編輯自訂表單 
+   </td>
+   <td>✓ 
+   </td>
+   <td> 
+   </td>
+   <td> 
+   </td>
+   <td> 
+   </td>
+   <td> 
+   </td>
+  </tr>
+  <tr>
+   <td>可在註解時編輯狀態、條件、認可日期 
+   </td>
+   <td>✓ 
+   </td>
+   <td> 
+   </td>
+   <td> 
+   </td>
+   <td> 
+   </td>
+   <td>
+   </td>
+  </tr>
 <tr>
    <td>回覆系統更新 
+   </td>
+   <td> ✓
+   </td>
+   <td> 
+   </td>
+   <td> 
+   </td>
+   <td>
+   </td>
+   <td> 
+   </td>
+  </tr>
+<tr>
+   <td>新增以其他使用者身分登入的評論時顯示「代表」
    </td>
    <td> ✓
    </td>
@@ -430,7 +459,7 @@ ht-degree: 1%
 
 ## 發行時間表
 
-有關最近發行到新評論體驗的功能以及發行時間表的資訊，請參閱 [新的評論Beta版體驗發佈活動](../../betas/new-commenting-experience-beta/new-commenting-beta-experience-release-activity.md).
+有關最近發行到新評論體驗的功能以及發行時間表的資訊，請參閱 [新的評論Beta版體驗發行活動](../../betas/new-commenting-experience-beta/new-commenting-beta-experience-release-activity.md).
 
 ## 找到新的註解體驗
 

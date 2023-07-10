@@ -7,10 +7,10 @@ description: 物件的「更新」區段會顯示使用者對物件所做的註�
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: c941467e2b1e93a728b5f7d8844c7fefea2816e1
+source-git-commit: 38f46324219f297523ff262b083f41a2dd388579
 workflow-type: tm+mt
-source-wordcount: '1079'
-ht-degree: 4%
+source-wordcount: '1141'
+ht-degree: 3%
 
 ---
 
@@ -232,7 +232,18 @@ ht-degree: 4%
 
 ### 代表其他使用者輸入評論時的限制
 
-Adobe Workfront管理員和群組管理員可以其他使用者身分登入，並在Workfront中執行動作，例如輸入註解。 (如需詳細資訊，請參閱 [以其他使用者身分登入](../../administration-and-setup/add-users/create-and-manage-users/log-in-as-another-user.md).) 代表其他使用者所做的任何評論都會顯示在評論上。
+Adobe Workfront管理員和群組管理員可以其他使用者身分登入，並在Workfront中執行動作，例如輸入註解。
+
+如需詳細資訊，請參閱 [以其他使用者身分登入](../../administration-and-setup/add-users/create-and-manage-users/log-in-as-another-user.md).
+
+代表其他使用者所做的任何評論都會顯示在評論上。
+
+>[!NOTE]
+>
+><span class="preview">使用新的評論體驗時，評論會新增為以其他使用者身份登入的使用者，且沒有跡象表明他們代表其他人新增評論。
+>
+>例如，如果Workfront管理員以其他使用者身份登入，則與評論相關聯的使用者為Workfront管理員。 如需詳細資訊，請參閱 [新的評論體驗](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md). </span>
+
 
 群組管理員可以代表其他人發表評論，但無法刪除該評論。 只有Adobe Workfront管理員可以刪除他們代表其他使用者所做的評論。
 
