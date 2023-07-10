@@ -7,9 +7,9 @@ description: 預覽環境每週更新一次，其中包含新功能。 這些功
 author: Alina
 feature: Product Announcements
 exl-id: 4cc72e55-8105-420a-9609-e965222399e3
-source-git-commit: c31fe134c0a0494301adb49f5e8d14c009e72d11
+source-git-commit: f3807e83a2d9fdbe351269bb1ecc9c6defc78a76
 workflow-type: tm+mt
-source-wordcount: '881'
+source-wordcount: '897'
 ht-degree: 0%
 
 ---
@@ -26,6 +26,8 @@ ht-degree: 0%
 
 
 Adobe Workfront有兩種發佈新功能和更新的模式。 貴組織可選擇每季接收新功能，或加快發行進度。
+
+每月和每季發行計畫於當月最後一個星期四提供。
 
 通常，「預覽」中的功能會在下次發行時於您的生產環境中提供。 但在某些情況下，功能會在排程發行版本以外的生產環境中提供。 這些變更至少會在「預覽」中保留2週，讓您有充足的時間熟悉這些變更。 這些變更在新增到預覽版時也會透過宣告中心傳達。
 
