@@ -7,9 +7,9 @@ description: Adobe Workfront Fusion目前提供下列公用範本。
 author: Becky
 feature: Workfront Fusion
 exl-id: 29d95b93-ab54-416d-b0d5-ff12634951b2
-source-git-commit: 4e618a0b91a44a6232ff6a72b9c7384b774b0fda
+source-git-commit: 3897606db8a80d04a3b8d8f0cba69365ceb86c17
 workflow-type: tm+mt
-source-wordcount: '693'
+source-wordcount: '861'
 ht-degree: 0%
 
 ---
@@ -81,6 +81,26 @@ Adobe Workfront Fusion目前提供下列公用範本。
 ### APILayer > Workfront — 每日匯率更新(EUR)
 
 此範本會建立自動在設定時間點更新匯率的情境。 此案例會從APIlayers.com API提取歐元(EUR)對美元(USD)的匯率，並更新Workfront中的匯率。
+
+## Workfront-Marketo範本
+
+這些範本支援Workfront-Marketo整合。
+
+>[!NOTE]
+>
+> 您必須擁有Workfront Fusion for Work Automation and Integration授權，才能使用本節中的範本。
+
+### 使用Workfront核准工作流程核准您的Marketo Engage電子郵件草稿
+
+這是Workfront和Marketo Engage之間稽核和核准整合的一部分。 此範本會偵測Workfront中的電子郵件校樣是否已核准，然後如核准則更新Marketo Engage中的對應電子郵件。
+
+### 在Workfront中接收行銷活動請求，並在Marketo Engage中自動建立行銷活動
+
+此情境提供一種程式化方式，可根據Workfront中提出的請求，以Marketo Engage建立電子郵件和網路研討會行銷活動。 透過使用自動化來建立、組織和設定行銷活動，團隊能夠提高效率。
+
+### 在Workfront中檢閱Marketo Engage電子郵件草稿的電子郵件校樣
+
+此範本會偵測Workfront任務是否已設定為準備好檢閱狀態，然後從Marketo Engage匯出電子郵件草稿以儲存為Workfront中的校訂。
 
 ## Workfront-Anaplan範本
 
