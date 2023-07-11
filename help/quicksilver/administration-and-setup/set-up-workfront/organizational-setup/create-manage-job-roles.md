@@ -8,9 +8,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 664fb2fe-ff7e-4807-9a43-b37e7d5d57eb
-source-git-commit: 8dbb48e6aa2df874caa816468cf2e3ad408ebf7e
+source-git-commit: fda9c07ee43cc4e6ba1a26ea937ca820367800a8
 workflow-type: tm+mt
-source-wordcount: '1117'
+source-wordcount: '1173'
 ht-degree: 0%
 
 ---
@@ -83,11 +83,11 @@ ht-degree: 0%
      <tr> 
       <td role="rowheader">[！UICONTROL成本/小時]</td> 
       <td><p>這是工作角色的每小時成本率。 此值會計算與角色相關之任務與問題的計畫和實際成本，並最終計算專案的計畫和實際成本。 使用[！UICONTROL基本貨幣]輸入匯率。</p> 
-      <p><span class="preview">若要取得日期有效成本率，請按一下 <strong>[！UICONTROL新增率]</strong>. 輸入該時段的成本/小時值，並視需要指派[！UICONTROL開始日期]和[！UICONTROL結束日期]。 第一個成本費率不會有開始日期，而最後一個成本費率不會有結束日期。</span></p> <p><span class="preview">部分日期會自動新增。 例如，如果第一個成本費率沒有結束日期，而您新增了開始日期為2023年5月1日的第二個成本費率，則結束日期為2023年4月30日會新增至第一個成本費率，因此不存在空隙。</span></p></td> 
+      <p><span class="preview">若要取得日期有效成本率，請按一下 <strong>[！UICONTROL新增率]</strong>. 輸入該時段的成本/小時值，並視需要指派[！UICONTROL開始日期]和[！UICONTROL結束日期]。 第一個成本費率不會有開始日期，而最後一個成本費率不會有結束日期。</span></p> <p><span class="preview">部分日期會自動新增。 例如，如果第一個成本費率沒有結束日期，而您新增了開始日期為2023年5月1日的第二個成本費率，則結束日期為2023年4月30日會新增至第一個成本費率，因此不存在空隙。</span></p> <p><span class="preview">提示：編輯現有工作角色時，您可以選取 <strong>依開始日期排序</strong> 若要在費率清單頂端檢視最近的開始日期。 </span></p></td> 
      </tr> 
      <tr> 
       <td role="rowheader">[！UICONTROL帳單/小時] </td> 
-      <td><p>這是工作角色的每小時收費率。 此值會計算與角色相關之任務和問題的計畫和實際收入，並最終計算專案的計畫和實際收入。 使用[！UICONTROL基本貨幣]輸入匯率。</p> <p><span class="preview">如需日期有效計費率，請按一下 <strong>[！UICONTROL新增率]</strong>. 輸入時間週期的計費/小時值，並視需要指派[！UICONTROL開始日期]和[！UICONTROL結束日期]。 第一個收費率不會有開始日期，而最後一個收費率不會有結束日期。</span></p> <p><span class="preview">部分日期會自動新增。 例如，如果第一個收費率沒有結束日期，而您新增了開始日期為2023年5月1日的第二個收費率，則結束日期為2023年4月30日會新增到第一個收費率，因此不存在間隔。</span></p> </td> 
+      <td><p>這是工作角色的每小時收費率。 此值會計算與角色相關之任務和問題的計畫和實際收入，並最終計算專案的計畫和實際收入。 使用[！UICONTROL基本貨幣]輸入匯率。</p> <p><span class="preview">如需日期有效計費率，請按一下 <strong>[！UICONTROL新增率]</strong>. 輸入時間週期的計費/小時值，並視需要指派[！UICONTROL開始日期]和[！UICONTROL結束日期]。 第一個收費率不會有開始日期，而最後一個收費率不會有結束日期。</span></p> <p><span class="preview">部分日期會自動新增。 例如，如果第一個收費率沒有結束日期，而您新增了開始日期為2023年5月1日的第二個收費率，則結束日期為2023年4月30日會新增到第一個收費率，因此不存在間隔。</span></p> <p><span class="preview">提示：編輯現有工作角色時，您可以選取 <strong>依開始日期排序</strong> 若要在費率清單頂端檢視最近的開始日期。 </span></p> </td> 
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader"><span>[！UICONTROL覆寫貨幣]</span> </td> 
