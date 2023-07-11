@@ -6,7 +6,7 @@ description: 您可以在&nbsp；Adobe Workfront中記錄工作專案的時間�
 author: Alina
 feature: Timesheets
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: 9b6552fe496a1602786cdc6b6050d02cd367a531
+source-git-commit: 4116cd1610cc5b8de0407a96a4bc67532d78a25e
 workflow-type: tm+mt
 source-wordcount: '3336'
 ht-degree: 0%
@@ -385,7 +385,7 @@ ht-degree: 0%
 1. 在左側面板中，選取 **更新**.
 1. 按一下 **記錄時間**.
 
-   此時會顯示「輸入時數」對話方塊。
+   <span class="preview">記錄時間對話方塊隨即顯示。 </span>
 
    >[!TIP]
    >
@@ -393,7 +393,7 @@ ht-degree: 0%
    >   
    >   在「輸入天數」方塊的右上角，會顯示一天包含多少小時。
 
-   ![](assets/log-time-box-in-updates-stream.png)
+   <span class="preview">![](assets/log-time-box-in-updates-stream.png)</span>
 
 1. 指定下列資訊：
 
