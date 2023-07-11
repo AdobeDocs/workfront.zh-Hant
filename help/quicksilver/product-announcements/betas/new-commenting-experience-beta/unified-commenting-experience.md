@@ -7,9 +7,9 @@ author: Alina
 feature: Product Announcements
 role: User
 exl-id: f750b35b-8021-4cc1-81d6-e1ece2530438
-source-git-commit: 82f42d81970c7572f43519423ec3a8c0889aaff4
+source-git-commit: 40b6ba5c4deb312fb40aecad4978b5a385e0f1e9
 workflow-type: tm+mt
-source-wordcount: '713'
+source-wordcount: '716'
 ht-degree: 1%
 
 ---
@@ -204,6 +204,22 @@ ht-degree: 1%
    </td>
   </tr>
   <tr>
+   <td>移除執行緒參與者
+   </td>
+   <td> 
+   </td>
+   <td><span class="preview">✓</span>
+   </td>
+   <td> 
+   </td>
+   <td> 
+   </td>
+   <td> 
+   </td>
+  </tr>
+
+
+<tr>
    <td>自動標籤所有執行緒參與者
    </td>
    <td> 
@@ -217,7 +233,8 @@ ht-degree: 1%
    <td> 
    </td>
   </tr>
-  <tr>
+
+<tr>
    <td>公司私密評論 
    </td>
    <td>✓ 

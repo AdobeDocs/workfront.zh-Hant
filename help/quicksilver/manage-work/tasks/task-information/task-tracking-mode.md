@@ -3,22 +3,22 @@ content-type: overview
 product-area: projects
 navigation-topic: task-information
 title: 任務追蹤模式概觀
-description: 在建立或編輯任務時，您可以調整任務的「跟蹤模式」設定，以控制任務的「進度狀態」指示符的顯示方式和顯示時間。 Adobe Workfront會在您配置特定設定以追蹤工作進度時顯示進度狀態旗標。
+description: 建立或編輯任務時，您可以調整任務的「追蹤模式」設定，以控制任務的「進度狀態」指示器的顯示方式和時間。 當您設定某些設定來追蹤任務的進度時，Adobe Workfront會顯示進度狀態旗標。
 author: Alina
 feature: Work Management
 exl-id: 397b5593-ac01-40cf-b683-fcf671a53d26
-source-git-commit: 6bb6b834c5af8ad48179fc0d60b184d083b360e4
+source-git-commit: 40b6ba5c4deb312fb40aecad4978b5a385e0f1e9
 workflow-type: tm+mt
-source-wordcount: '626'
+source-wordcount: '630'
 ht-degree: 3%
 
 ---
 
 # 任務追蹤模式概觀
 
-在建立或編輯任務時，您可以調整任務的「跟蹤模式」設定，以控制任務的「進度狀態」指示符的顯示方式和顯示時間。 Adobe Workfront會在您配置特定設定以追蹤工作進度時顯示進度狀態旗標。
+建立或編輯任務時，您可以調整任務的「追蹤模式」設定，以控制任務的「進度狀態」指示器的顯示方式和時間。 當您設定某些設定來追蹤任務的進度時，Adobe Workfront會顯示進度狀態旗標。
 
-有關任務的進度狀態的詳細資訊，請參見 [任務進度狀態概述](../../../manage-work/tasks/task-information/task-progress-status.md).
+如需有關任務進度狀態的詳細資訊，請參閱 [任務進度狀態總覽](../../../manage-work/tasks/task-information/task-progress-status.md).
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -36,9 +36,9 @@ ht-degree: 3%
 
 ## 追蹤模式選項 {#tracking-mode-options}
 
-作為任務所有者或項目經理，您可以選擇Workfront如何指示每個任務的進度狀態。 如需如何在工作上設定追蹤模式的詳細資訊，請參閱 [設定任務的追蹤模式](../../../manage-work/tasks/task-information/set-tracking-mode-for-tasks.md).
+身為任務擁有者或專案經理，您可以選取Workfront指示每個任務之進度狀態的方式。 如需如何在工作上設定追蹤模式的詳細資訊，請參閱 [設定任務的追蹤模式](../../../manage-work/tasks/task-information/set-tracking-mode-for-tasks.md).
 
-您可以選取下列選項：
+您可以從下列選項中選取：
 
 * [使用者必須更新](#user-must-update)
 * [假設準時](#assume-on-time)
@@ -48,31 +48,31 @@ ht-degree: 3%
 
 ### 使用者必須更新 {#user-must-update}
 
-選取此選項時，Workfront會使用任務的「完成百分比」和「實際記錄小時數」來確定任務的「進度狀態」。 這是預設選項。
+選取此選項時，Workfront會使用任務的完成百分比和記錄的實際時數來判斷任務的進度狀態。 這是預設選項。
 
 ### 假設準時 {#assume-on-time}
 
-Workfront假設無論目前的完成狀態為何，任務都會準時完成。 若未包含，Workfront會自動假設下一個工作日的計畫完成日期。 您仍必須指出任務何時完成。 當使用者不會定期更新其工作時，請使用此選項。
+Workfront假設任務將準時完成，無論目前完成狀態為何。 如果不適用，Workfront會自動假定下一個工作日的規劃完成日期。 您仍然必須指出任務何時完成。 當使用者不會定期更新其任務時，請使用此選項。
 
 ### 忽略遲到警告 {#ignore-late-warnings}
 
-任務的進度狀態將為「準時」，直到延遲。 例如，如果您將任務安排為10天，並在任務完成的當天，任務顯示60%的完成百分比，則Workfront會添加4天來更新預計完成日期，任務的進度狀態變為延遲。
+任務的進度狀態將為「準時」，直到變為「延遲」。 例如，如果您排程一項任務要花10天，而要在完成當天，該任務會顯示完成百分比為60%，則Workfront會新增四天來更新「預計完成日期」，且任務的「進度狀態」會變成「延遲」。
 
 ### 自動完成 {#auto-complete}
 
-Workfront假設工作會依排程完成，並在到期或計畫完成日期將其標示為已完成。 在此之前，Workfront會使用完成百分比和實際記錄小時數來判斷進度狀態。 不過，無論排程完成日期前的進度狀態為何，Workfront仍會標籤任務完成。
+Workfront假設任務將依排程完成，並在其到期日或計畫完成日期將任務標示為完成。 在此之前，Workfront會使用完成百分比和記錄的實際時數來判斷進度狀態。 不過，無論排程完成日期前的進度狀態為何，Workfront仍會標籤任務已完成。
 
 存在下列例外：
 
-* 如果任務的前置任務不完整，則在所有前置任務完成之前，不會自動完成該任務。
-* 如果任務的約束為「固定日期」，則無論其前置任務是否已完成，任務始終在「計畫完成日期」完成。
+* 如果任務具有未完成的前置任務，則在完成所有前置任務之前不會自動完成該任務。 前置任務必須強制執行。
+* 如果任務具有固定日期的限制，則無論前置任務是否已完成，任務一律在計畫完成日期完成。
 
 >[!IMPORTANT]
 >
->如果選擇讓任務自動完成，則在重新計算項目時間時，任務將標籤為「完成」。 如果項目的「更新類型」設定為「自動」或「自動」並且「更改時」，則每天計算項目時間軸。 如需重新計算專案時間軸的相關資訊，請參閱 [重新計算項目時間表](../../../manage-work/projects/manage-projects/recalculate-project-timeline.md).
+>選取讓任務自動完成會在重新計算專案時間時將任務標籤為「完成」。 如果專案的「更新型別」設定為「自動」或「自動」及「變更時」，則會每天計算專案時間表。 如需關於專案時間表重新計算的資訊，請參閱 [重新計算專案時間表](../../../manage-work/projects/manage-projects/recalculate-project-timeline.md).
 >
->實際完成日期的時間是自動計算時間軸的午夜。 用於產生此時間戳記的時間是您系統的時區，如「設定」中「客戶資訊」區段中的Workfront管理員所定義。 有關設定系統時區的資訊，請參閱 [配置系統的基本資訊](../../../administration-and-setup/get-started-wf-administration/configure-basic-info.md).
+>實際完成日期的時間是自動計算時間表當天的午夜。 用來產生這個時間戳記的時間是您的系統時區，由您的Workfront管理員在設定的客戶資訊區段中定義。 如需有關設定系統時區的資訊，請參閱 [為您的系統設定基本資訊](../../../administration-and-setup/get-started-wf-administration/configure-basic-info.md).
 
 ### 前置任務 {#predecessor}
 
-Workfront根據其前身關係估計任務的預計完成日期。 根據此估計確定任務的進度狀態。 例如，任務B的持續時間為1天，計畫在其前一個任務A之後完成兩天，該時間應為5天。 然後，用戶將任務B更新為50%完成，但前身任務A尚未啟動。 Workfront將相依任務B排程在前一任務開始日期後6天完成，使任務A有5天，任務B有1天。
+Workfront會根據前置任務關係來估計任務的預計完成日期。 任務的進度狀態是根據此估計來決定。 例如，任務B的工期為1天，並且排程在其前置任務任務A的兩天後完成，這應該需要5天。 然後，使用者將任務B更新為50%完成，但前置任務A尚未開始。 Workfront會在前置任務開始日期後六天，將相依任務B排程完成，任務A允許5天，任務B允許1天。
