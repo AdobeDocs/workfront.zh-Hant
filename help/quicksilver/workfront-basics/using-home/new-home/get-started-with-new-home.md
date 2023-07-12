@@ -4,9 +4,9 @@ navigation-topic: use-the-home-area
 title: 開始使用Adobe Workfront中的新首頁
 description: 新首頁是管理工作的強大新功能。
 author: Nolan
-source-git-commit: 281712542566aec87c51a2eccb301dd3a83a94b3
+source-git-commit: f25b435d2615eabba6e9feaef4e59c65d46bb819
 workflow-type: tm+mt
-source-wordcount: '933'
+source-wordcount: '930'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ Widget是New Home的基礎。 將Widget新增至首頁後，您就可以選擇�
     在表格中顯示指派給您的問題，其中包含可自訂的篩選器、檢視和群組，以及直接建立新問題的按鈕。
 
 * **我的請求**\
-    顯示指派給您的所有請求、允許您僅顯示已開啟請求的篩選條件，以及開啟請求的摘要窗格的按鈕。
+    顯示您已提交的所有請求、僅顯示已開啟請求的篩選條件，以及開啟請求摘要窗格的按鈕。
 
 * **團隊請求**\
     顯示您依團隊排序之團隊的所有擱置請求，以及直接指派請求給使用者或自行處理的按鈕。
