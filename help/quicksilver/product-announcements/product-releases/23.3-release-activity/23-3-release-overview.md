@@ -4,9 +4,9 @@ description: 23.3版本總覽
 author: Becky
 feature: Product Announcements
 exl-id: 9bf786e2-e077-4504-b928-9091fcb61ec1
-source-git-commit: f3807e83a2d9fdbe351269bb1ecc9c6defc78a76
+source-git-commit: 793b1b0db3fcf66782cd25566df5803df955cb0d
 workflow-type: tm+mt
-source-wordcount: '2752'
+source-wordcount: '2754'
 ht-degree: 0%
 
 ---
@@ -346,7 +346,7 @@ ht-degree: 0%
                             <li>
                                 <p>快速發行客戶的生產版本：將在23.3生產版本之後宣佈</p>
                                 <p>適用於所有客戶的生產版本：搭配23.4版<br>
-                                <span style="color: #ff0000;"> 指派率覆寫功能已於2023年6月30日在預覽中暫時停用。</span></p>
+                                <span style="color: #ff0000;"> 指派率覆寫功能在2023年6月30日至7月13日期間在預覽中暫時停用。</span></p>
                             </li>
                         </ul>
                     </td>

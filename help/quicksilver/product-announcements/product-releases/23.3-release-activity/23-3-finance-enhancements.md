@@ -3,24 +3,20 @@ title: 23.3 Financial Management增強功能
 description: 23.3 Financial Management增強功能
 author: Lisa
 feature: Product Announcements
-source-git-commit: 3aa19652024cd6df1c9560aad6e982e4b615569c
+source-git-commit: 793b1b0db3fcf66782cd25566df5803df955cb0d
 workflow-type: tm+mt
-source-wordcount: '249'
+source-wordcount: '238'
 ht-degree: 0%
 
 ---
 
 # 23.3 Financial Management增強功能
 
-本頁說明23.3版對「預覽」環境所做的所有財務增強。 這些增強功能將在23.3版本的生產環境中提供。
+本頁說明23.3版對「預覽」環境所做的所有Financial Management增強功能。 這些增強功能將在23.3版本的生產環境中提供。
 
 如需23.3版本週期目前可用的所有變更清單，請參閱 [23.3版本總覽](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-release-overview.md).
 
 ## 日期有效成本與帳單費率
-
->[!IMPORTANT]
->
->指派率覆寫功能已於2023年6月30日在預覽中暫時停用。
 
 Workfront中的公司、使用者和工作角色物件現在提供日期有效成本和計費率。 當將日期有效費率套用至專案且將時數記錄於專案任務時，成本與收入會使用每個時間期間的指定費率計算。
 
