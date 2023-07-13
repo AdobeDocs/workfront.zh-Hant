@@ -7,9 +7,9 @@ author: Alina
 feature: Product Announcements
 role: User
 exl-id: 1c0cb547-ac99-4cdf-8a74-2c47ad5a10ad
-source-git-commit: 4116cd1610cc5b8de0407a96a4bc67532d78a25e
+source-git-commit: 3f12cc51897b1fd090f14f3c58c98eb9f74ec33c
 workflow-type: tm+mt
-source-wordcount: '1591'
+source-wordcount: '1569'
 ht-degree: 3%
 
 ---
@@ -79,7 +79,7 @@ ht-degree: 3%
 
 我們重新設計了介面，用於從新評論體驗的更新區域記錄時間。
 
-如需詳細資訊，請參閱 [記錄時間](../../../timesheets/create-and-manage-timesheets/log-time.md). 說明檔案將在發行時更新。
+如需詳細資訊，請參閱 [記錄時間](../../../timesheets/create-and-manage-timesheets/log-time.md).
 
 預覽版本： 2023年7月5日
 
@@ -89,7 +89,7 @@ ht-degree: 3%
 
 現在，您能夠複製註解的內容，並在使用新註解體驗時，將其作為新引號新增到相同對話串中的回覆。
 
-如需詳細資訊，請參閱 [更新工作](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md). 說明檔案將在發行時更新。
+如需詳細資訊，請參閱 [更新工作](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
 預覽： 2023年6月28日
 
