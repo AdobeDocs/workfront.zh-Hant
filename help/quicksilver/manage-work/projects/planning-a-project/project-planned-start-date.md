@@ -2,19 +2,20 @@
 content-type: overview
 product-area: projects
 navigation-topic: plan-a-project
-title: 項目計劃開始日期概覽
-description: 項目計劃開始日期概覽
+title: 專案計劃開始日期概要
+description: 專案計劃開始日期概要
 author: Alina
-feature: Work Management
+feature: Work Management, Projects
+role: User
 exl-id: a1223d81-3fb8-42d1-9a7d-c58d1f0fcd36
-source-git-commit: bbd64e9deed1b89d720272508b3562c354578704
+source-git-commit: 79822d258642675331e1998dd3552e3078db41f8
 workflow-type: tm+mt
-source-wordcount: '374'
+source-wordcount: '403'
 ht-degree: 0%
 
 ---
 
-# 項目計劃開始日期概覽
+# 專案計劃開始日期概要
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -24,15 +25,19 @@ ht-degree: 0%
 </div>
 -->
 
-項目的計劃開始日期和計畫完成日期取決於項目任務的日期。 本文說明項目的計畫起始日期。 有關任務計畫起始日期的資訊，請參閱 [任務計畫起始日期概覽](../../../manage-work/tasks/task-information/task-planned-start-date.md).
+專案的計劃開始日期和計畫完成日期取決於專案上任務的日期。 本文會說明專案的規劃開始日期。 有關任務計劃開始日期的資訊，請參閱 [任務計劃開始日期概要](../../../manage-work/tasks/task-information/task-planned-start-date.md).
 
-根據您是從「開始」還是從「完成」日期計畫項目，可以人工或自動設定項目的「計畫起始日期」。
+您可以手動或自動設定專案的「計劃開始日期」，視您是從「開始」還是從「完成日期」排程專案而定。
 
-## 人工設定項目的計畫起始日期
+## 手動設定專案的計劃開始日期
 
-從開始日期開始計畫項目時，您必須人工設定項目的計畫起始日期。
+當您從開始日期排程專案時，必須手動設定專案的計劃開始日期。
 
-有關設定項目計劃開始日期的資訊，請參閱 [編輯專案](../../../manage-work/projects/manage-projects/edit-projects.md).
+>[!NOTE]
+>
+>當您手動設定專案的規劃開始日期時，Workfront會根據所有任務的期間自動計算專案的規劃完成日期。
+
+如需有關設定專案計劃開始日期的資訊，請參閱 [編輯專案](../../../manage-work/projects/manage-projects/edit-projects.md).
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: drafted below, to keep this as an overview article)</p>
@@ -49,29 +54,29 @@ ht-degree: 0%
 </ol>
 -->
 
-## 自動設定項目的計劃開始日期
+## 自動設定專案的計劃開始日期
 
-以下列方式建立專案時，會自動設定專案的計劃開始日期：
+當您透過下列方式建立專案時，會自動設定專案的「計劃開始日期」：
 
-* 從頭開始，以及從完成日期開始計畫項目時。
+* 從頭開始，當您從「完成日期」開始排程專案時。
 
-   計畫起始日期由Adobe Workfront根據您為完成日期選擇的日期和項目上所有任務的持續時間自動計算。
+  Adobe Workfront會根據您為「完成日期」選取的日期及專案上所有任務的持續時間，自動計算「計劃開始日期」。
 
-   如需從草稿開始建立專案的相關資訊，請參閱 [建立專案](../../../manage-work/projects/create-projects/create-project.md).
+  如需從頭開始建立專案的詳細資訊，請參閱 [建立專案](../../../manage-work/projects/create-projects/create-project.md).
 
 * 從Microsoft專案匯入。
 
-   「計畫起始日期」是Microsoft項目中項目的起始日期。
+  計劃開始日期是Microsoft專案中專案的開始日期。
 
-   如需從Microsoft專案匯入專案的相關資訊，請參閱 [從Microsoft專案匯入專案](../../../manage-work/projects/create-projects/import-project-from-ms-project.md).
+  如需有關從Microsoft專案匯入專案的資訊，請參閱 [從Microsoft專案匯入專案](../../../manage-work/projects/create-projects/import-project-from-ms-project.md).
 
-* 當您是Workfront管理員時，請使用Workfront Kick-Starts匯入。
+* 當您是Workfront管理員時，請使用Workfront Kick-Starts匯入它。
 
-   除非您在啟動檔案的「項目」工作表的setPlanedStartDate欄位中另外指定，否則「計劃開始日期」始終與電腦的時間和日期匹配。
+  計劃開始日期一律符合您電腦的時間和日期，除非您在快速啟動檔案的專案工作表的setPlannedStartDate欄位中另外指定。
 
-   有關使用啟動導入資料的資訊，請參閱 [使用Kick-Start範本將資料匯入Adobe Workfront](../../../administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md).
+  如需使用kick-start匯入資料的相關資訊，請參閱 [使用Kick-Start範本將資料匯入Adobe Workfront](../../../administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md).
 
-   如需有關使用啟動匯入專案的資訊，請參閱 [Kick-Starts案例：簡單的項目和任務導入準備](../../../administration-and-setup/manage-workfront/using-kick-starts/kick-starts-scenario-simple-project-task-import-prep.md).
+  如需有關使用kick-start匯入專案的資訊，請參閱 [Kick-Starts案例：簡單的專案和任務匯入準備](../../../administration-and-setup/manage-workfront/using-kick-starts/kick-starts-scenario-simple-project-task-import-prep.md).
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -88,11 +93,11 @@ ht-degree: 0%
 </div>
 -->
 
-## 任務的計畫起始日期
+## 任務的計劃開始日期
 
-您可以指定任務的「計劃開始日期」，或根據特定標準讓Workfront自行計算。
+您可以指定任務的規劃開始日期，也可以讓Workfront根據特定條件計算計劃開始日期。
 
-有關任務的計畫起始日期的資訊，請參閱 [任務計畫起始日期概覽](../../../manage-work/tasks/task-information/task-planned-start-date.md).
+有關任務的計劃開始日期的資訊，請參閱 [任務計劃開始日期概要](../../../manage-work/tasks/task-information/task-planned-start-date.md).
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

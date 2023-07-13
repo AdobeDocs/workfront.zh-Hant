@@ -7,9 +7,9 @@ author: Alina
 feature: Product Announcements
 role: User
 exl-id: f750b35b-8021-4cc1-81d6-e1ece2530438
-source-git-commit: 40b6ba5c4deb312fb40aecad4978b5a385e0f1e9
+source-git-commit: 79822d258642675331e1998dd3552e3078db41f8
 workflow-type: tm+mt
-source-wordcount: '716'
+source-wordcount: '713'
 ht-degree: 1%
 
 ---
@@ -69,8 +69,6 @@ ht-degree: 1%
 >* <span class="preview">任務</span>
 >* <span class="preview">文件</span>
 
-
-
 下表說明新評論體驗中可用的功能，以及這些功能在支援區域的可用性：
 
 <table>
@@ -79,7 +77,7 @@ ht-degree: 1%
    </td>
    <td><strong>存在於舊的評論體驗中 </strong>
    </td>
-   <td><strong>存在於新評論體驗的Beta版中 </strong>
+   <td><strong>存在於新的評論體驗中 </strong>
    </td>
    <td><strong>將在新的評論體驗中引入 </strong>
    </td>
@@ -224,9 +222,9 @@ ht-degree: 1%
    </td>
    <td> 
    </td>
-   <td>
+   <td><span class="preview">✓</span>
    </td>
-   <td> ✓
+   <td> 
    </td>
    <td> 
    </td>

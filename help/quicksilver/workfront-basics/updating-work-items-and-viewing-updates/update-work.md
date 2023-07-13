@@ -6,9 +6,9 @@ description: 您可以在Adobe Workfront物件（專案、任務或問題）上�
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: 4116cd1610cc5b8de0407a96a4bc67532d78a25e
+source-git-commit: 79822d258642675331e1998dd3552e3078db41f8
 workflow-type: tm+mt
-source-wordcount: '3465'
+source-wordcount: '3497'
 ht-degree: 1%
 
 ---
@@ -42,21 +42,34 @@ ht-degree: 1%
 >
 >     當您啟用卡片上的「註解」和「系統活動」區段時，您可以在「面板」區域中新增和檢視卡片的更新。 如需詳細資訊，請參閱 [新增臨機卡到展示板](../../agile/get-started-with-boards/add-card-to-board.md).
 
-您可以在「更新」區段中對Adobe Workfront中的大多數物件新增註解。 如需有關哪些物件會顯示「更新」區段的詳細資訊，請參閱 [更新區段概觀](../updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
-您可以在Workfront物件（專案、任務或問題）上新增更新，以便在您註解物件時傳達物件的進度。 指派或訂閱物件的使用者可以檢視您的更新。 您也可以標籤使用者，讓使用者關注更新。 標籤的使用者會收到應用程式內通知及您更新的電子郵件。 如需詳細資訊，請參閱 [標籤其他更新的專案](../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
+## 更新工作的相關考量事項
 
-您可以將註解新增至可以檢視的物件，也可以以Workfront或群組管理員身分登入，並代表其他使用者新增註解。 如需詳細資訊，請參閱 [以其他使用者身分登入](../../administration-and-setup/add-users/create-and-manage-users/log-in-as-another-user.md).
+* 您可以在「更新」區段中對Adobe Workfront中的大多數物件新增註解。 如需有關哪些物件會顯示「更新」區段的詳細資訊，請參閱 [更新區段概觀](../updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
-本頁資訊說明如何評論Workfront物件，以及如何更新專案、任務和問題。 如需有關對目標發表註解的資訊，請參閱 [在Adobe Workfront目標中管理目標註解](../../workfront-goals/goal-management/manage-goal-comments.md). 您必須有其他授權才能存取Workfront目標。
+* 您可以在Workfront物件（專案、任務或問題）上新增更新，以便在您註解物件時傳達物件的進度。 指派或訂閱物件的使用者可以檢視您的更新。
 
+* 您可以標籤使用者，以提醒他們注意更新。 標籤的使用者會收到應用程式內通知及您更新的電子郵件。
 
-您可以從Workfront的下列區域將更新新增到專案、任務和問題：
+  >[!TIP]
+  >
+  >   <span class="preview">在新的註解體驗中，註解擁有者會被自動標籤。 如需詳細資訊，請參閱 [標籤其他更新的專案](../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).</span>
+  <!--take the "in the new commenting experience" out when this is the only experience-->
 
-* 從Workfront物件，在更新區段
-* 從首頁區域（用於任務和問題）
-* 從「摘要」面板中放入物件清單（適用於任務和問題）
-* 從時程表（用於任務和問題）
+* 您可以將註解新增至可以檢視的物件，也可以以Workfront或群組管理員身分登入，並代表其他使用者新增註解。 如需詳細資訊，請參閱 [以其他使用者身分登入](../../administration-and-setup/add-users/create-and-manage-users/log-in-as-another-user.md).
+
+* 您可以從Workfront的下列區域將更新新增到專案、任務和問題：
+
+   * 從Workfront物件，在更新區段
+   * 從首頁區域（用於任務和問題）
+   * 從「摘要」面板中放入物件清單（適用於任務和問題）
+   * 從時程表（用於任務和問題）
+
+本頁資訊說明如何評論Workfront物件，以及如何更新專案、任務和問題。
+
+如需有關對目標發表註解的資訊，請參閱 [在Adobe Workfront目標中管理目標註解](../../workfront-goals/goal-management/manage-goal-comments.md). 您必須有其他授權才能存取Workfront目標。
+
+如需有關面板區域中卡片上的註解資訊，請參閱 [新增臨機卡到展示板](../../agile/get-started-with-boards/add-card-to-board.md).
 
 ## 存取需求
 
@@ -395,7 +408,7 @@ drafted for P&P release:
 
 如需有關新註解體驗的可用功能和哪些物件的資訊，請參閱 [新的評論體驗](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 
-<!--when we remove and deprecate the legacy stream, add screen shots in the secitons below-->
+<!--when we remove and deprecate the legacy stream, add screen shots in the sections below-->
 
 * [複製連結](#copy-link)
 * [複製本文](#copy-body-text)

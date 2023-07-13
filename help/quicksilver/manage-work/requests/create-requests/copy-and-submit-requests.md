@@ -6,16 +6,16 @@ feature: Work Management
 role: User
 topic: Collaboration
 exl-id: 3d7581d0-e99c-4204-b1e5-04fde72251bb
-source-git-commit: bb68f15c2d8ffabfb67a7789de14ef916cd2dbef
+source-git-commit: 79822d258642675331e1998dd3552e3078db41f8
 workflow-type: tm+mt
-source-wordcount: '1367'
+source-wordcount: '1346'
 ht-degree: 2%
 
 ---
 
 # 複製並提交請求
 
-<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它僅在「預覽」環境中可用。</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span>-->
 
 當您經常提交類似請求時，可以複製現有的已提交請求。 在這種情況下，您可以複製現有請求、對請求進行最低限度的變更，然後將其作為新請求重新提交。
 
@@ -122,11 +122,11 @@ ht-degree: 2%
 1. （視條件而定）如果「已提交」區段預設未顯示，請按一下 **已提交** 在左側面板中。
 1. 找到您要複製並提交為新請求，然後執行下列任一項作業：
 
-   * 選取它，然後按一下 <span class="preview"> **複製** ![](assets/copy-and-submit-as-new-requests-area-nwe.png)</span> （位於已提交請求清單的左上角）。
+   * 選取它，然後按一下 **複製** ![](assets/copy-and-submit-as-new-requests-area-nwe.png) （位於已提交請求清單的左上角）。
 
    >[!TIP]
    >
-   > <span class="preview">如果您未先選取請求，復製圖示會變暗。</span>
+   > 如果您未先選取請求，復製圖示會變暗。
 
    * 按一下 **更多** 功能表 ![](assets/more-icon.png) 請求名稱右側，然後按一下 **複製並提交為新檔案**
 

@@ -4,18 +4,20 @@ navigation-topic: create-requests
 title: 尋找已提交的請求
 description: 瞭解Adobe Workfront的區域，您可在這裡找到您或其他人提交的請求，或您從未提交且已儲存為草稿的請求。
 author: Alina
-feature: Work Management
+feature: Requests
+topic: Collaboration
+role: User
 exl-id: cfa2383a-9594-4867-9b48-11b8ea281486
-source-git-commit: bb68f15c2d8ffabfb67a7789de14ef916cd2dbef
+source-git-commit: 79822d258642675331e1998dd3552e3078db41f8
 workflow-type: tm+mt
-source-wordcount: '890'
+source-wordcount: '869'
 ht-degree: 1%
 
 ---
 
 # 尋找已提交的請求
 
-<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它僅在「預覽」環境中可用。</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span>-->
 
 您可以找到您或其他人提交的下列請求型別，或是您已開始但您從未完成提交的請求。 您可以在Adobe Workfront的下列區域中找到這些請求：
 
@@ -70,7 +72,7 @@ ht-degree: 1%
    >
    >您無法自訂已提交請求清單中的欄。
 
-   <span class="preview">![](assets/nwe-submitted-requests-new-list-350x57.png)</span>
+   ![](assets/nwe-submitted-requests-new-list-350x57.png)
 
 
 1. 預設會顯示下列欄：
