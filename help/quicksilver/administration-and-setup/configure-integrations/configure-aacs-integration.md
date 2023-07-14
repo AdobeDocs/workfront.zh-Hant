@@ -5,7 +5,7 @@ title: Adobe Experience Manager資產整合
 description: 您可以將工作與下列Adobe Experience Manager Assets整合聯絡起來。
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: bc58cc77-a177-417f-a5a4-eec51e305219
-source-git-commit: 3849bd8ce80f40ae7d05b81e0dd8e846851dffc0
+source-git-commit: e03e6a3cacc8eb65764d86854a9847eb414aa340
 workflow-type: tm+mt
 source-wordcount: '1504'
 ht-degree: 0%
@@ -23,7 +23,9 @@ ht-degree: 0%
 * 追蹤資產和資料夾的中繼資料
 * 同步專案中繼資料於 [!DNL Workfront] 和 [!DNL Experience Manager Assets]
 
-您也可以將多個Experience Manager Assets存放庫連線到一個Workfront環境，或將多個Workfront環境連線到跨組織ID的一個Experience Manager Assets存放庫。 請依照本文中的設定指示，針對您想要設定的每個整合進行設定。
+>[!NOTE]
+>
+>您也可以將多個Experience Manager Assets存放庫連線到一個Workfront環境，或將多個Workfront環境連線到跨組織ID的一個Experience Manager Assets存放庫。 請依照本文中的設定指示，針對您想要設定的每個整合進行設定。
 
 ## 存取需求
 
@@ -165,7 +167,6 @@ link to documentation about creating schema - waiting on response from Anuj abou
 > * Workfront中的「設定>自訂Forms」或物件中的欄位
 > * Experience Manager Assets中的「資產>中繼資料結構」
 
-
 +++
 
 ### 對應資產的中繼資料
@@ -181,7 +182,6 @@ link to documentation about creating schema - waiting on response from Anuj abou
    >
    >您可以對應單一 [!DNL Workfront] 欄位至多個 [!UICONTROL Experience Manager Assets] 欄位。 您無法對應多個 [!DNL Workfront] 欄位轉換為單一 [!DNL Experience Manager Assets] 欄位。
    ><!--To map a Workfront field to an Experience Manager Assets tag, see -->
-
 
 1. 在 [!DNL Experience Manager Assets] 欄位，搜尋預先填入的類別，或在搜尋欄位中輸入至少兩個字母以存取其他類別。
 1. 視需要重複步驟2和3。
