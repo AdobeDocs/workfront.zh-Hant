@@ -1,37 +1,37 @@
 ---
-title: 將使用者指派至版面範本
+title: 將使用者指派至版面配置範本
 user-type: administrator
 product-area: system-administration;templates;user-management
 navigation-topic: layout-templates
-description: 身為Adobe Workfront管理員，您可以將您建立的版面範本指派給需要使用的任何使用者、工作角色、團隊或群組。
-author: Caroline
+description: 作為Adobe Workfront管理員，您可以將已建立的版面配置範本指派給任何需要使用該範本的使用者、工作角色、團隊或群組。
+author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: a2915f3a-071f-4e9f-88c9-338bf765f418
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 7ee96045e5673c51c3ce348f395226857686a923
 workflow-type: tm+mt
 source-wordcount: '929'
 ht-degree: 0%
 
 ---
 
-# 將使用者指派至版面範本
+# 將使用者指派至版面配置範本
 
-您可以將您建立的版面範本指派給需要使用的任何使用者、工作角色、團隊或群組。
+您可以將已建立的版面配置範本指派給任何需要使用的使用者、工作角色、團隊或群組。
 
-對於未指派配置範本的使用者，會使用預設配置。 若要了解預設版面，請參閱 [關於預設Adobe Workfront版面](../../../administration-and-setup/customize-workfront/use-layout-templates/about-the-default-wf-layout.md).
+對於沒有指派版面配置範本的使用者，會使用預設版面。 若要瞭解預設版面，請參閱 [關於預設Adobe Workfront配置](../../../administration-and-setup/customize-workfront/use-layout-templates/about-the-default-wf-layout.md).
 
-用戶也可以為自己分配佈局模板，如使用佈局模板更改「我的工作」和「工作請求」區域中所述。
+使用者也可以將版面配置範本指派給自己，如使用版面配置範本變更我的工作和工作請求區域中所述。
 
-您可以將多個不同的版面範本指派給相同名稱。 有關對用戶、角色、組或團隊有效的佈局模板的詳細資訊，請參閱 [佈局模板分配優先順序](#layout-template-assignment-priority) 稍後的文章。
+您可以將多個不同的版面範本指派給相同的名稱。 如需有關對使用者、角色、群組或團隊有效的版面配置範本的詳細資訊，請參閱 [版面配置範本指派優先順序](#layout-template-assignment-priority) 本文稍後章節。
 
-如需版面範本的詳細資訊，請參閱 [版面範本](../../../administration-and-setup/customize-workfront/use-layout-templates/use-layout-templates-customize-ui.md).
+如需版面配置範本的詳細資訊，請參閱 [版面配置範本](../../../administration-and-setup/customize-workfront/use-layout-templates/use-layout-templates-customize-ui.md).
 
-如需群組版面範本的相關資訊，請參閱 [建立和修改群組的版面範本](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
+如需有關群組版面配置範本的資訊，請參閱 [建立和修改群組的版面配置範本](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
 
 ## 存取需求
 
-您必須具備下列存取權，才能執行本文中的步驟：
+您必須具有下列存取權才能執行本文中的步驟：
 
 <table style="table-layout:auto"> 
  <col> 
@@ -46,66 +46,66 @@ ht-degree: 0%
    <td>計劃</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">訪問級別配置</td> 
-   <td> <p>要在系統級別執行這些步驟，需要系統管理員訪問級別。
-要為組執行這些操作，您必須是該組的經理。</p> <p><b>注意</b>:如果您仍無權存取，請洽詢您的Workfront管理員，他們是否在您的存取層級設定其他限制。 如需Workfront管理員如何修改您的存取層級的詳細資訊，請參閱 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>.</p> </td> 
+   <td role="rowheader">存取層級設定</td> 
+   <td> <p>若要在系統層級執行這些步驟，您需要系統管理員存取層級。
+若要為群組執行這些動作，您必須是該群組的管理員。</p> <p><b>注意</b>：如果您還是沒有存取權，請洽詢Workfront管理員，瞭解他們是否對您的存取層級設定其他限制。 如需有關Workfront管理員如何修改您的存取層級的資訊，請參閱 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## 將版面範本指派給使用者
+## 指派配置範本給使用者
 
-1. 開始使用版面範本，如 [建立和管理版面範本](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
+1. 開始使用版面範本，如所述 [建立和管理版面範本](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
 
    >[!TIP]
    >
-   >當您對版面範本感到滿意時，建議您測試，如 [測試新的版面範本](../../../administration-and-setup/customize-workfront/use-layout-templates/test-a-layout-template.md).
+   >當您對版面配置範本滿意時，建議您加以測試，如所述 [測試新版面範本](../../../administration-and-setup/customize-workfront/use-layout-templates/test-a-layout-template.md).
 
-1. 按一下 **將此項指派給** 在頁面頂端的區段中。
-1. 在出現的方塊中，按一下 **添加用戶、作業角色、團隊或組**，開始鍵入用戶、作業角色、團隊或組的名稱，然後在下拉清單中顯示名稱時按一下該名稱。
+1. 按一下 **將此指派至** 在頁面的頂端區段中。
+1. 在出現的方塊中，按一下 **新增使用者、工作角色、團隊或群組**，開始輸入使用者、工作角色、團隊或群組的名稱，然後在其出現在下拉式清單中時按一下該名稱。
 
-   最近新增的名稱會顯示為藍色背景。 當您編輯現有的版面範本時，這個方法很有幫助，因為您可以區分剛新增的名稱和清單中已新增的名稱。
+   最近新增的名稱會以藍色背景顯示。 當您編輯現有版面範本時，這會很有幫助，因為您可以區分您剛才新增的名稱與清單中已有的名稱。
 
-   資訊圖示 ![](assets/info-icon.png) 顯示在已分配給其他佈局模板的任何用戶、作業角色、團隊或組的名稱的右側。 您可以將滑鼠指標暫留在圖示上，查看該版面範本的名稱，並決定是否要覆寫現有指派。
+   資訊圖示 ![](assets/info-icon.png) 會在已指派給其他版面配置範本的任何使用者、工作角色、團隊或群組名稱的右側顯示。 您可以將滑鼠停留在圖示上以檢視該版面配置範本的名稱，並決定是否要覆寫現有的指派。
 
-1. 重複前述兩個步驟，視需要將版面範本指派給其他使用者、工作角色、團隊或群組。
+1. 重複前兩個步驟，視需要將版面配置範本指派給其他使用者、工作角色、團隊或群組。
 
-   您一次最多可指派100位使用者。
+   您一次最多可以指派100個使用者。
 
 1. 按一下 **完成**，然後按一下 **儲存** 左下角。
 
-   此步驟會完成建立和指派配置範本的程式。
+   此步驟會完成建立及指派配置圖範本的程式。
 
-## 佈局模板分配優先順序 {#layout-template-assignment-priority}
+## 版面配置範本指派優先順序 {#layout-template-assignment-priority}
 
-您和其他Workfront管理員可以透過以下四種不同方式，將多個不同的版面範本指派給相同的使用者：
+您和其他Workfront管理員可以透過以下四種方式，將多個不同的配置範本指派給同一個使用者：
 
-* 對個別使用者
-* 對用戶具有的特定作業角色
-* 對用戶所在的特定團隊
+* 至個別使用者
+* 至使用者擁有的特定工作角色
+* 至使用者所在的特定團隊
 * 至使用者所在的特定群組
 
-不過，使用者在任何指定時間都只能看到一個版面範本。 可見的範本由下列優先順序階層決定：
+但在任何指定時間，使用者只能看到一個版面範本。 可見的範本由以下優先順序階層決定：
 
-* **個別使用者**:指派給個別使用者之人員的版面範本會覆寫所有其他使用者。 您可以通過進行新分配來覆蓋先前分配，以便單個用戶；最近的一個優先。
-* **主要作業角色**:如果人員未以單一使用者身分指派配置範本，則他們會看到為其主要工作角色指派的範本。
+* **個人使用者**：以個別使用者身分指派給個人的版面配置範本會覆寫所有其他範本。 您可以透過進行新指派來覆寫先前進行的指派，以便個別使用者使用；最近的指派優先。
+* **主要工作角色**：如果人員未獲指派為單一使用者的版面配置範本，他們會看到為其主要職務角色指派的範本。
 
-   只有分配給用戶的主要作業角色的佈局模板才對用戶可見。 分配給用戶所擔任的任何輔助作業角色的模板不可見。
+  使用者只會看見指派給使用者主要工作角色的版面配置範本。 無法顯示指派給使用者擁有的任何次要職務角色的範本。
 
-* **主隊**:如果人員未以個別使用者或具有主要工作角色的使用者身分，將配置範本指派給其首頁團隊，則他們會看到指派給其的範本。
+* **主團隊**：如果人員未被指派為個人使用者或具有主要工作角色的使用者配置範本，他們會看到指派給其主團隊的範本。
 
-   只有指派給使用者之主團隊的範本才會顯示給使用者。 分配給用戶是成員的其他團隊的模板不可見。
+  使用者只會看見指派給使用者「首頁」團隊的範本。 指派給使用者為成員之其他團隊的範本不可見。
 
-* **首頁組**:如果人員未以個別使用者、具有主要工作角色的使用者或主團隊的成員身分，將配置範本指派給其主群組，則他們會看到指派給其主群組的範本。
+* **主群組**：如果人員未被指派為個人使用者、具有主要工作角色的使用者或主團隊成員，他們會看到指派給其主群組的範本。
 
-   只有指派給使用者之首頁群組的範本才會顯示給使用者。 指派給其任何其他群組的範本不會顯示。
+  使用者只會看見指派給使用者「首頁」群組的範本。 指派給其任何其他群組的範本不可見。
 
-## 分配給佈局模板的大量用戶
+## 指派給版面配置範本的大量使用者
 
-如果您編輯分配給2000多名用戶的版面模板並進行更改，則只有前2000名用戶才會保留在版面模板上，並且會看到您所做的更改。 版面範本會從所有其他項目中移除。
+如果您編輯指派給超過2000名使用者的版面配置範本並進行變更，則只有前2000名使用者將保留在版面配置範本上，並且會看到您所做的變更。 版面配置範本會從其他所有範本中移除。
 
-如果要指派給版面範本的使用者超過2000名，建議您執行下列其中一項作業：
+如果您有2000多名使用者要指派至版面配置範本，建議您執行下列任一項作業：
 
-* 將使用者組織成群組或團隊，並將版面範本指派給這些群組或團隊。 如需詳細資訊，請參閱 [建立群組](../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md) 和 [建立和管理團隊](../../../people-teams-and-groups/create-and-manage-teams/create-and-mange-teams.md).
+* 將使用者組織成群組或團隊，並將版面配置範本指派給這些群組或團隊。 如需詳細資訊，請參閱 [建立群組](../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md) 和 [建立和管理團隊](../../../people-teams-and-groups/create-and-manage-teams/create-and-mange-teams.md).
 
-* 將作業角色指派給使用者，並將配置範本指派給其主要作業角色。 如需詳細資訊，請參閱 [建立和管理作業角色](../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).
+* 將職位角色指派給使用者，並將版面配置範本指派給其主要職位角色。 如需詳細資訊，請參閱 [建立和管理職位角色](../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).

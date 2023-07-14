@@ -8,9 +8,9 @@ feature: Work Management, Requests
 topic: Collaboration
 role: User
 exl-id: 385420aa-0962-4b67-9d0d-b153dcf302cf
-source-git-commit: ddb8f39e3ef400b02b443230f237b6a563d99d5f
+source-git-commit: 7ee96045e5673c51c3ce348f395226857686a923
 workflow-type: tm+mt
-source-wordcount: '2571'
+source-wordcount: '2597'
 ht-degree: 2%
 
 ---
@@ -117,6 +117,11 @@ ht-degree: 2%
 ## 建立請求佇列
 
 將專案設定為「請求佇列」時，專案狀態必須為「最新」，才能顯示在Workfront的「請求」區域中。
+
+>[!TIP]
+>
+>您的Workfront或群組管理員可能會將您指派給自訂配置範本，該範本可能不包括下列步驟中說明的某些區段。
+
 
 若要建立請求佇列：
 

@@ -1,37 +1,41 @@
 ---
-title: 使用版面範本自訂左側面板
+title: 使用版面配置範本自訂左側面板
 user-type: administrator
 product-area: system-administration;templates;setup
 navigation-topic: layout-templates
-description: 在版面範本中，您可以自訂使用者在整個Adobe Workfront的左側面板區域中看到的內容。
-author: Caroline
+description: 在版面配置範本中，您可以自訂使用者在整個Adobe Workfront的左側面板區域中看到的內容。
+author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: b100ea35-e045-4021-b5be-2c9071b381da
-source-git-commit: c0b0102eb1e1f45e794f962f7e905349f9e241eb
+source-git-commit: 7ee96045e5673c51c3ce348f395226857686a923
 workflow-type: tm+mt
-source-wordcount: '977'
+source-wordcount: '1025'
 ht-degree: 0%
 
 ---
 
-# 使用版面範本自訂左側面板
+# 使用版面配置範本自訂左側面板
 
-在版面範本中，您可以自訂使用者在整個左側面板區域中看到的內容 [!DNL Adobe Workfront].
+在版面配置範本中，您可以自訂使用者在左側面板區域中看到的內容 [!DNL Adobe Workfront].
 
-例如，您可以決定使用者在檢視任務時，在左側面板中看到哪些項目：
+例如，您可以決定使用者在檢視任務時，會在左側面板中看到下列哪些專案：
 
 ![](assets/left-panel-adobe-branding.png)
 
 >[!IMPORTANT]
 >
->對順序和可見度所做的變更會反映在行動應用程式中。
+>對順序和可見性所做的變更會反映在行動應用程式中。
 
-如需群組版面範本的相關資訊，請參閱 [建立和修改群組的版面範本](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
+如需有關建立版面範本的資訊，請參閱 [建立和管理版面範本](../use-layout-templates/create-and-manage-layout-templates.md).
+
+如需有關群組版面配置範本的資訊，請參閱 [建立和修改群組的版面配置範本](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
+
+設定版面範本後，您必須將其指派給使用者，才能讓其他人看見您所做的變更。 如需將版面配置範本指派給使用者的詳細資訊，請參閱 [將使用者指派至版面配置範本](../use-layout-templates/assign-users-to-layout-template.md).
 
 ## 存取需求
 
-您必須具備下列存取權，才能執行本文中的步驟：
+您必須具有下列存取權才能執行本文中的步驟：
 
 <table style="table-layout:auto"> 
  <col> 
@@ -43,30 +47,29 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 授權</td> 
-   <td>[!UICONTROL計畫]</td> 
+   <td>[！UICONTROL計畫]</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">訪問級別配置</td> 
-   <td> 要在系統級別執行這些步驟，需要[!UICONTROL系統管理員]訪問級別。<p>要為組執行這些操作，您必須是該組的經理。</p> <p><b>注意</b>:如果您仍無法存取，請詢問您的 [!DNL Workfront] 管理員。 若要了解 [!DNL Workfront] 管理員可修改您的存取層級，請參閱 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>.</p> </td> 
+   <td role="rowheader">存取層級設定</td> 
+   <td> 若要在系統層級執行這些步驟，您需要[！UICONTROL系統管理員]存取層級。<p>若要為群組執行這些動作，您必須是該群組的管理員。</p> <p><b>注意</b>：如果您還是無法存取，請詢問您的 [!DNL Workfront] 管理員是否對您的存取層級設定其他限制。 如需如何進行 [!DNL Workfront] 管理員可以修改您的存取層級，請參閱 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## 自訂 [!DNL Workfront]:
+## 自訂中某個區域的左側面板 [!DNL Workfront]：
 
-1. 開始使用版面範本，如 [建立和管理版面範本](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
-1. 按一下向下箭頭 ![](assets/dropdown-arrow.png) 在 **[!UICONTROL 自訂使用者看見的項目]**，然後按一下您要自訂的左側面板。
+1. 開始使用版面範本，如所述 [建立和管理版面範本](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
+1. 按一下向下箭頭 ![](assets/dropdown-arrow.png) 在 **[!UICONTROL 自訂使用者看到的內容]**，然後按一下您要自訂的左側面板。
 
    >[!NOTE]
    >
-   >如需 [!UICONTROL 首頁] 選項，請參閱 [自訂 [!UICONTROL 首頁] 和 [!UICONTROL 摘要] 使用版面範本](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md). 如需清單選項的相關資訊，請參閱 [使用版面範本自訂篩選器、檢視和群組](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md).
+   >如需關於以下專案的資訊： [!UICONTROL 首頁] 選項，請參閱 [自訂 [!UICONTROL 首頁] 和 [!UICONTROL 摘要] 使用版面範本](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md). 如需「清單」選項的相關資訊，請參閱 [使用版面配置範本自訂篩選器、檢視和群組](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md).
 
-1. 在 **[!UICONTROL 左側面板]** 清單中，執行下列任一操作，以決定使用者在左側面板中看到的選項([!DNL Workfront] 區域或對象類型):
+1. 在 **[!UICONTROL 左側面板]** 清單，執行下列任一項作業，決定使用者在左側面板中看到的選項([!DNL Workfront] 區域或物件型別)：
 
-   * 顯示 ![](assets/add-secondary-nav-item.png) 或隱藏 ![](assets/delete-secondary-nav-item.png) 項目。 任何沒有 ![](assets/add-secondary-nav-item.png) 或 ![](assets/delete-secondary-nav-item.png) 無法隱藏。
+   * 顯示 ![](assets/add-secondary-nav-item.png) 或隱藏 ![](assets/delete-secondary-nav-item.png) 個專案。 任何不含 ![](assets/add-secondary-nav-item.png) 或 ![](assets/delete-secondary-nav-item.png) 無法隱藏。
 
-   * 拖曳項目 ![](assets/move-icon---dots.png) 以變更其左側面板的順序。
-
+   * 拖曳專案 ![](assets/move-icon---dots.png) 以變更其於左側面板上的順序。
    <table style="table-layout:auto"> 
     <col> 
     <col> 
@@ -74,45 +77,45 @@ ht-degree: 0%
     <thead> 
      <tr> 
       <th>選項</th> 
-      <th>當用戶按一下以下內容時……</th> 
-      <th>它們會看到您從下列項目中選擇的左側面板項目：</th> 
+      <th>使用者按一下下列專案時……</th> 
+      <th>他們看到您從下列選項中選擇的左側面板專案：</th> 
      </tr> 
     </thead> 
     <tbody> 
      <tr> 
-      <td>[!UICONTROL項目]</td> 
-      <td>專案的名稱</td> 
-      <td>[!UICONTROL任務]、[!UICONTROL項目詳細資訊]、[!UICONTROL業務案例]、[!UICONTROL更新]、[!UICONTROL文檔]、[!UICONTROL問題]、[!UICONTROL風險]、[!UICONTROL批准]、[!UICONTROL基線]、[!UICONTROL基線]、[!UICONTROL計費率]、[!UICONTROL記錄]、[!UICONTROL小時數、費用， [!UICONTROL工作負載平衡器], [!UICONTROL People], [!UICONTROL Utilization], [!UICONTROL隊列詳細資訊], [!UICONTROL路由規則], [!UICONTROL隊列主題], [!UICONTROL主題組], [!UICONTROL度量]</td> 
+      <td>[！UICONTROL專案]</td> 
+      <td>專案名稱</td> 
+      <td>[！UICONTROL任務]， [！UICONTROL專案詳細資訊]，[！UICONTROL商業案例]，[！UICONTROL更新]，[！UICONTROL檔案]，[！UICONTROL問題]，[！UICONTROL風險]，[！UICONTROL核准]，[！UICONTROL基準]，[！UICONTROL計費費率]，[！UICONTROL計費記錄]，[！UICONTROL trol費用]、[！UICONTROL小時數]、[！UICONTROL工作負載均衡器]、[！UICONTROL人員]、[！UICONTROL使用情況]、[！UICONTROL隊列詳細資訊]、[！UICONTROL路由規則]、[！UICONTROL隊列主題]、[！UICONTROL主題組]、[！UICONTROL量度]</td> 
      </tr> 
      <tr> 
-      <td>[!UICONTROL任務]</td> 
-      <td>任務的名稱</td> 
-      <td> [!UICONTROL更新]、[!UICONTROL文檔]、[!UICONTROL任務詳細資訊]、[!UICONTROL子任務]、[!UICONTROL問題]、[!UICONTROL小時數]、[!UICONTROL批准]、[!UICONTROL費用]、[!UICONTROL前置任務]</td> 
+      <td>[！UICONTROL任務]</td> 
+      <td>任務名稱</td> 
+      <td> [！UICONTROL更新]、[！UICONTROL檔案]、[！UICONTROL任務詳細資訊]、[！UICONTROL子任務]、[！UICONTROL問題]、[！UICONTROL時數]、[！UICONTROL核准]、[！UICONTROL費用]、[！UICONTROL前置任務]</td> 
      </tr> 
      <tr> 
-      <td>[!UICONTROL問題]</td> 
-      <td>問題名稱</td> 
-      <td> [!UICONTROL更新]、[!UICONTROL文檔]、[!UICONTROL問題詳細資訊]、[!UICONTROL小時數]、[!UICONTROL批准]</td> 
+      <td>[！UICONTROL問題]</td> 
+      <td>問題的名稱</td> 
+      <td> [！UICONTROL更新]，[！UICONTROL檔案]，[！UICONTROL問題詳細資料]，[！UICONTROL小時]，[！UICONTROL核准]</td> 
      </tr> 
      <tr> 
-      <td>[!UICONTROLPortfolio]</td> 
-      <td>產品組合的名稱</td> 
-      <td>[!UICONTROL項目]、[!UICONTROL程式]、[!UICONTROLPortfolio詳細資訊]、[!UICONTROLPortfolio] [!UICONTROL優化]、[!UICONTROL文檔]、[!UICONTROL更新]</td> 
+      <td>[！UICONTROLPortfolio]</td> 
+      <td>投資組合的名稱</td> 
+      <td>[！UICONTROL專案]、[！UICONTROL計畫]、[！UICONTROLPortfolio詳細資料]、[！UICONTROLPortfolio]、[！UICONTROL最佳化]、[！UICONTROL檔案]、[！UICONTROL更新]</td> 
      </tr> 
      <tr> 
-      <td>[!UICONTROL程式]</td> 
+      <td>[！UICONTROL程式]</td> 
       <td>方案的名稱</td> 
-      <td>[!UICONTROL項目]、[!UICONTROL程式詳細資訊]、[!UICONTROL更新]、[!UICONTROL文檔]</td> 
+      <td>[！UICONTROL專案]，[！UICONTROL計畫詳細資料]，[！UICONTROL更新]，[！UICONTROL檔案]</td> 
      </tr> 
      <tr> 
-      <td>[!UICONTROL模板]</td> 
+      <td>[！UICONTROL範本]</td> 
       <td>專案範本的名稱</td> 
-      <td>[!UICONTROL模板任務]、[!UICONTROL模板詳細資訊]、[!UICONTROL更新]、[!UICONTROL文檔]、[!UICONTROL風險]、[!UICONTROL費用]、[!UICONTROL人員]、[!UICONTROL批准]、[!UICONTROL計費率]、[!UICONTROL隊列詳細資訊]、[!UICONTROL規則]、[!UICONTROL主題]主題組]</td> 
+      <td>[！UICONTROL範本任務]、[！UICONTROL範本詳細資料]、[！UICONTROL更新]、[！UICONTROL檔案]、[！UICONTROL風險]、[！UICONTROL費用]、[！UICONTROL人員]、[！UICONTROL核准]、[！UICONTROL計費率]、[！UICONTROL佇列詳細資料]、[！UICONTROL路由規則]、[！UICONTROL trol隊列主題]，[！UICONTROL主題組]</td> 
      </tr> 
      <tr> 
-      <td>[!UICONTROL模板任務]</td> 
-      <td>模板任務的名稱</td> 
-      <td>[!UICONTROL更新]、[!UICONTROL文檔]、[!UICONTROL模板任務詳細資訊]、[!UICONTROL子任務]、[!UICONTROL費用]、[!UICONTROL批准]、[!UICONTROL前置任務]</td>
+      <td>[！UICONTROL範本任務]</td> 
+      <td>範本任務的名稱</td> 
+      <td>[！UICONTROL更新]、[！UICONTROL檔案]、[！UICONTROL範本任務詳細資料]、[！UICONTROL子任務]、[！UICONTROL費用]、[！UICONTROL核准]、[！UICONTROL前置任務]</td>
      </tr>
      <!--
       <tr> 
@@ -122,44 +125,44 @@ ht-degree: 0%
       </tr>
      --> 
      <tr> 
-      <td> [!UICONTROL計費記錄]</td> 
-      <td>項目的開單記錄的名稱</td> 
-      <td>[!UICONTROL計費記錄詳細資訊]、[!UICONTROL計費小時數]、[!UICONTROL計費支出]、[!UICONTROL固定收入]</td> 
+      <td> [！UICONTROL付費記錄]</td> 
+      <td>專案的計費記錄名稱</td> 
+      <td>[！UICONTROL計費記錄詳細資料]、[！UICONTROL可計費時數]、[！UICONTROL可計費費用]、[！UICONTROL固定收入]</td> 
      </tr> 
      <tr> 
-      <td>[!UICONTROL項目]</td> 
-      <td>專案 <img src="assets/projects-in-main-menu.png"> 在[!UICONTROL主菜單]中 <img src="assets/main-menu-icon.png"></td> 
-      <td>[!UICONTROL項目]</td> 
+      <td>[！UICONTROL專案]</td> 
+      <td>專案 <img src="assets/projects-in-main-menu.png"> 在[！UICONTROL主要功能表中] <img src="assets/main-menu-icon.png"></td> 
+      <td>[！UICONTROL專案]</td> 
      </tr> 
      <tr> 
-      <td>[!UICONTROL請求]</td> 
+      <td>[！UICONTROL要求]</td> 
       <td>請求的名稱</td> 
-      <td>[!UICONTROL新請求]、[!UICONTROL已提交請求]、[!UICONTROL所有請求]、[!UICONTROL草稿]</td> 
+      <td>[！UICONTROL新請求]、[！UICONTROL已提交請求]、[！UICONTROL所有請求]、[！UICONTROL草稿]</td> 
      </tr> 
      <tr> 
-      <td>[!UICONTROL控制面板]</td> 
+      <td>[！UICONTROL儀表板]</td> 
       <td>控制面板的名稱</td> 
-      <td>[!UICONTROL我的控制面板]、[!UICONTROL共用控制面板]、[!UICONTROL所有控制面板]<p><b>注意</b>:如果您使用版面範本，為[!UICONTROL報表]區域建立自訂標籤，位於 [!DNL Adobe Workfront Classic]，則會顯示在此清單底部。 若為使用者，這些量度會顯示在[!UICONTROL控制面板]區域的左側面板底部。</p> </td> 
+      <td>[！UICONTROL我的儀表板]、[！UICONTROL共用儀表板]、[！UICONTROL所有儀表板]<p><b>注意</b>：如果您使用版面配置範本建立[！UICONTROL報表]區域的自訂標籤 [!DNL Adobe Workfront Classic]，它們會顯示在此清單底部。 使用者可在[！UICONTROL儀表板]區域的左側面板底部看到這些畫面。</p> </td> 
      </tr> 
      <tr> 
-      <td>[!UICONTROL Scrum團隊]</td> 
+      <td>[！UICONTROL Scrum團隊]</td> 
       <td>Scrum團隊的名稱</td> 
-      <td><p>[!UICONTROL迭代]、[!UICONTROL當前迭代]、[!UICONTROL積壓]、[!UICONTROL工作負載平衡器]、[!UICONTROL更新]、[!UICONTROL團隊設定]</p> <p><strong>注意：</strong> 此 <strong>[!UICONTROL當前小版本]</strong> 只有在小版本上至少存在一個任務或問題時，項目才會顯示在左側面板中。</p></td> 
+      <td><p>[！UICONTROL反複專案]、[！UICONTROL目前反複專案]、[！UICONTROL待處理專案]、[！UICONTROL工作負載平衡器]、[！UICONTROL更新]、[！UICONTROL團隊設定]</p> <p><strong>注意：</strong> 此 <strong>[！UICONTROL目前反複專案]</strong> 只有當反複專案上至少有一個任務或問題時，專案才會顯示在左側面板中。</p></td> 
      </tr> 
      <tr> 
-      <td>[!UICONTROL看板組]</td> 
-      <td>看板小組的名稱</td> 
-      <td>[!UICONTROL工作負載平衡器]、[!UICONTROL看板板]、[!UICONTROL積壓]、[!UICONTROL更新]、[!UICONTROL團隊設定]</td> 
+      <td>[！UICONTROL Kanban團隊]</td> 
+      <td>看板團隊的名稱</td> 
+      <td>[！UICONTROL工作負載平衡器]、[！UICONTROL Kanban board]、[！UICONTROL待處理專案]、[！UICONTROL更新]、[！UICONTROL團隊設定]</td> 
      </tr> 
      <tr> 
-      <td>[!UICONTROL瀑布團隊]</td> 
-      <td>瀑布團隊的名稱</td> 
-      <td>[!UICONTROL工作負載平衡器]、[!UICONTROL更新]、[!UICONTROL團隊請求]、[!UICONTROL團隊設定]</td> 
+      <td>[！UICONTROL Waterfall Team]</td> 
+      <td>Waterfall團隊的名稱</td> 
+      <td>[！UICONTROL工作負載平衡器]、[！UICONTROL更新]、[！UICONTROL團隊請求]、[！UICONTROL團隊設定]</td> 
      </tr> 
      <tr> 
-      <td>[!UICONTROL迭代]</td> 
-      <td>小版本的名稱</td> 
-      <td>[!UICONTROL Stories]、[!UICONTROL問題]、[!UICONTROL Story Board]、[!UICONTROL概述]、[!UICONTROL自定義Forms]、[!UICONTROL更新] </td> 
+      <td>[！UICONTROL反複專案]</td> 
+      <td>反複專案的名稱</td> 
+      <td>[！UICONTROL Stories]， [！UICONTROL Issues]， [！UICONTROL Story Board]， [！UICONTROL Overview]， [！UICONTROL Custom Forms]， [！UICONTROL Updates] </td> 
      </tr> 
      <!--
       <tr> 
@@ -194,27 +197,29 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >最後3個項目 **[!UICONTROL 自訂使用者看見的項目]** 下拉式清單([!UICONTROL 清單], [!UICONTROL 首頁和摘要]，和 [!UICONTROL 品牌推廣])用於設定左側面板以外的區域。 如需相關資訊，請參閱下列文章：
->   * [使用版面範本自訂篩選器、檢視和群組](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)
+   >中的最後3個專案 **[!UICONTROL 自訂使用者看到的內容]** 下拉式清單([!UICONTROL 清單]， [!UICONTROL 首頁和摘要]、和 [!UICONTROL 品牌化])用於設定左側面板以外的區域。 如需相關資訊，請參閱下列文章：
+>   >   
+* [使用版面配置範本自訂篩選器、檢視和群組](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)
 >* [自訂 [!UICONTROL 首頁] 和 [!UICONTROL 摘要] 使用版面範本](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md)
 * [品牌Adobe [!DNL Workfront] 使用版面範本](../../../administration-and-setup/customize-workfront/use-layout-templates/brand-wf-using-a-layout-template.md)
 
 
+1. （選用）如果要新增連結至貴組織其中一個控制面板的左側面板專案，請按一下 **[!UICONTROL 新增自訂區段]**，輸入a **[!UICONTROL 自訂區段標題]** 然後新增儀表板。
 
-1. （可選）如果要新增連結至組織其中一個控制面板的左側面板項目，請按一下 **[!UICONTROL 新增自訂區段]**，鍵入 **[!UICONTROL 自訂區段標題]** 針對項目，然後新增控制面板。
-
-   控制面板項目會顯示在左側面板底部。 當使用者將游標暫留在左側面板上時，會在控制面板項目旁看到您輸入的自訂區段標題。
+   儀表板專案會出現在左側面板的底部。 當使用者將滑鼠游標停留在左側面板上時，他們會看到您在控制面板專案旁鍵入的自訂區段標題。
 
    >[!NOTE]
-   使用者可以將自訂控制面板項目新增至自己的左側面板。 在版面範本中新增自訂控制面板項目時，您的項目會與其項目合併，而不會覆寫或重設這些項目。 如果您將使用者指派至具有自訂控制面板項目的新配置範本，也會是如此。 如需使用者如何自訂左側面板的詳細資訊，請參閱 [建立自訂標籤或區段](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/create-custom-tabs.md).
+   >
+   使用者可以將自訂儀表板專案新增到自己的左側面板。 當您在版面配置範本中新增自訂儀表板專案時，您的專案會與其合併，而不會覆寫或重設它們。 如果您將使用者指派給具有自訂儀表板專案的新版面配置範本，也會發生這種情況。 如需使用者如何自訂左側面板的詳細資訊，請參閱 [建立自訂標籤或區段](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/create-custom-tabs.md).
 
-   如需控制面板的相關資訊，請參閱 [控制面板](../../../reports-and-dashboards/dashboards/dashboards-overview.md).
+   如需關於儀表板的資訊，請參閱 [儀表板](../../../reports-and-dashboards/dashboards/dashboards-overview.md).
 
-1. 繼續自訂配置範本。
+1. 繼續自訂版面範本。
 
    或
 
    如果您已完成自訂，請按一下 **[!UICONTROL 儲存]**.
 
    >[!TIP]
-   您可以按一下 [!UICONTROL 儲存] 您隨時可以保存進度，稍後繼續修改模板。
+   >
+   您可以按一下 [!UICONTROL 儲存] 隨時儲存進度，然後繼續修改範本。
