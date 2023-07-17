@@ -6,9 +6,9 @@ description: 您的 [!DNL Adobe Workfront] 設定檔包含關於您的資訊（�
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 0199bf74-0611-48f0-9c05-da6afac85033
-source-git-commit: 699498fb286c53b6ba4ddde88ba59e79699fd7b3
+source-git-commit: 4e4cf18fb9a8936deab935f55eb6cfd0b5c7a41a
 workflow-type: tm+mt
-source-wordcount: '3208'
+source-wordcount: '3248'
 ht-degree: 1%
 
 ---
@@ -196,8 +196,7 @@ ht-degree: 1%
 
 ## 設定 [!UICONTROL 我的設定] 區域
 
-1. {#step1-click-profile-pic}
-
+1. 按一下 **[!UICONTROL 主要功能表]** 圖示 ![主要功能表](assets/main-menu-icon.png) 在Adobe Workfront的右上角，然後按一下個人資料圖片旁邊的使用者名稱。 或者（如果有的話），按一下頂端導覽區中的個人資料圖片，然後按一下 **[!UICONTROL Workfront設定檔]**.
 1. 按一下 **[!UICONTROL 更多]** 功能表 ![](assets/more-icon.png)，然後按一下 **[!UICONTROL 編輯]**.
 
 1. 根據您的存取層級，您可以更新下列區段：

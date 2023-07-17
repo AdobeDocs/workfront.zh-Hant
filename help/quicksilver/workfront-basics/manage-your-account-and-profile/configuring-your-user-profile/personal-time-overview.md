@@ -7,10 +7,10 @@ description: Adobe Workfront的設計目的，不是為了複製或取代您現�
 author: Lisa
 feature: Get Started with Workfront
 exl-id: e7710495-c418-47b1-8598-725580054fc5
-source-git-commit: 699498fb286c53b6ba4ddde88ba59e79699fd7b3
+source-git-commit: 4e4cf18fb9a8936deab935f55eb6cfd0b5c7a41a
 workflow-type: tm+mt
-source-wordcount: '398'
-ht-degree: 1%
+source-wordcount: '438'
+ht-degree: 0%
 
 ---
 
@@ -62,8 +62,7 @@ ht-degree: 1%
 
 ## 在中設定個人休假 [!DNL Workfront]
 
-1. {#step1-click-profile-pic}
-
+1. 按一下 **[!UICONTROL 主要功能表]** 圖示 ![主要功能表](assets/main-menu-icon.png) 在Adobe Workfront的右上角，然後按一下個人資料圖片旁邊的使用者名稱。 或者（如果有的話），按一下頂端導覽區中的個人資料圖片，然後按一下 **[!UICONTROL Workfront設定檔]**.
 1. 在左側面板中，按一下 **[!UICONTROL 休假]**.
 1. 選取您個人休假的所需日期。
 1. 選取 **[!UICONTROL 全天]**，請休一整天的假。\

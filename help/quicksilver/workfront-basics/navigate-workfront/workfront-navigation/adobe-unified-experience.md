@@ -6,9 +6,9 @@ description: 存取 [!DNL Workfront] 透過Adobe Experience Cloud，您可獲得
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 458631a2-d77d-46d6-8d6b-7008237e5154
-source-git-commit: 8bf83e73706b5e994d091dc56d43a9f027b01fe8
+source-git-commit: b6008546089a420e5bb487d2035b8d87782905c1
 workflow-type: tm+mt
-source-wordcount: '500'
+source-wordcount: '508'
 ht-degree: 0%
 
 ---
@@ -97,6 +97,8 @@ ht-degree: 0%
 
 如果您的組織使用單獨的應用程式來管理密碼，您將透過該提供者變更您的密碼。
 
-如果您的密碼是由 [!DNL Adobe]，您可以 [變更您Adobe帳戶中的密碼](https://helpx.adobe.com/manage-account/using/change-or-reset-password.html) {target="_blank"}.
+如果您的密碼是由 [!DNL Adobe]，您可以變更Adobe帳戶中的密碼。
+
+[請參閱這篇文章以變更您的Adobe密碼。](https://helpx.adobe.com/manage-account/using/change-or-reset-password.html){target="_blank"}.
 
 如需變更密碼的詳細資訊，請連絡管理員。
