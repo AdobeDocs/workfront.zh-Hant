@@ -7,7 +7,7 @@ author: Alina
 feature: Product Announcements
 role: User
 exl-id: f750b35b-8021-4cc1-81d6-e1ece2530438
-source-git-commit: 79822d258642675331e1998dd3552e3078db41f8
+source-git-commit: ba1450e247bd47b775f3171e722bd4e70773b98e
 workflow-type: tm+mt
 source-wordcount: '713'
 ht-degree: 1%
@@ -21,6 +21,15 @@ ht-degree: 1%
 目前正在開發Adobe Workfront中評論體驗的更新。 此更新包含新介面、新功能，以及所選物件更新區段中的改進效能。
 
 新的註解體驗將緩慢變為可用於Workfront中具有「更新」區段的所有物件，稍後它將擴展至其他Adobe Experience Cloud應用程式。
+
+<!--  ****************UNCOMMENT THIS SECTION WHEN THE FAQs ARTICLE IS LIVE: 
+
+For additional resources for the new commenting experience, also see the following articles:
+
+* [New commenting experience release activity](../new-commenting-experience-beta/new-commenting-beta-experience-release-activity.md)
+* [New commenting experience FAQs](../new-commenting-experience-beta/new-commenting-faq.md.draft)
+
+-->
 
 ## 功能
 
