@@ -2,54 +2,54 @@
 content-type: reference
 product-area: resource-management
 navigation-topic: resource-planning
-title: 在資源計畫員中計算用戶和角色的小時數和FTE的概覽
-description: 在資源計畫員中計算用戶和角色的小時數和FTE的概覽
+title: 計算資源規劃工具中使用者和角色的時數和FTE的概觀
+description: 計算資源規劃工具中使用者和角色的時數和FTE的概觀
 author: Alina
 feature: Resource Management
 exl-id: 10b0e507-658e-4d12-994a-e38da6111f5d
-source-git-commit: d3172a681ef6ac8b7bde44c680ad7febc3f26121
+source-git-commit: 4331917d133c52cf727f148b75a213853c1e5679
 workflow-type: tm+mt
 source-wordcount: '977'
 ht-degree: 1%
 
 ---
 
-# 在資源計畫員中計算用戶和角色的小時數和FTE的概覽
+# 計算資源規劃工具中使用者和角色的時數和FTE的概觀
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: Alina:KEEP THIS:***Linked to: Configuring My Settings, Editing User Accounts, Planning in the Resource Planner -- *** Some of this documentation is also duplicated in this article (Scheduling): https://support.workfront.com/hc/en-us/articles/360000557174)</p>
 -->
 
-您可以按小時數、FTE或成本在資源計畫員中顯示資源的分配和可用性。\
-有關在資源計畫器中計算成本的詳細資訊，請參閱 [在資源計畫器中計算成本](../../resource-mgmt/resource-planning/calculate-costs-resource-planner.md).
+您可以依時數、約當全職人數或成本，在「資源規劃工具」中顯示資源的配置與可用性。\
+如需有關在資源規劃工具中計算成本的詳細資訊，請參閱 [在資源規劃工具中計算成本](../../resource-mgmt/resource-planning/calculate-costs-resource-planner.md).
 
-「FTE」代表「全職」等值。 這是一種時間測量，代表使用者或工作角色在一天或一週內用於實際工作的小時數。
+「FTE」代表全時同等。 這是時間測量值，代表使用者或工作角色在一天或一週內專用於實際工作的時數。
 
-在資源計畫器中，以下資源資訊集的計算方式不同：
+下列資源資訊集在「資源規劃工具」中的計算方式不同：
 
-* 「可用小時數」或「FTE」值的計算方式取決於系統管理員在系統中配置「資源管理」首選項的方式。\
-   有關如何計算可用小時數和FTE值的詳細資訊，請參閱 [計算資源計畫員中用戶和任務職責的可用小時數或FTE](#calculate-available-hours-or-fte-for-users-and-job-roles-in-the-resource-planner).\
-   有關定義Adobe Workfront系統的資源管理首選項的詳細資訊，請參閱 [配置資源管理首選項](../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md).
+* 可用時數或FTE值是根據系統管理員在系統中設定資源管理偏好設定的方式計算的。\
+  如需有關如何計算可用時數和FTE值的詳細資訊，請參閱 [計算資源規劃工具中使用者和職務角色的可用時數或FTE](#calculate-available-hours-or-fte-for-users-and-job-roles-in-the-resource-planner).\
+  如需為Adobe Workfront系統定義資源管理偏好設定的詳細資訊，請參閱 [設定資源管理喜好設定](../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md).
 
-* 所有其他FTE值則根據「系統預設」計畫計算。\
-   有關使用FTE時在資源計畫器中顯示所有其他值的詳細資訊，請參閱：部分 [計算資源計畫員中用戶和任務職責的所有其他小時值和FTE值](#calculate-all-other-hour-and-fte-values-for-users-and-job-roles-in-the-resource-planner) 這篇文章。
+* 所有其他FTE值都是根據系統預設排程來計算。\
+  如需使用FTE時所有其他值在資源規劃工具中如何顯示的詳細資訊，請參閱區段 [計算資源規劃工具中使用者和職務角色的所有其他時數和FTE值](#calculate-all-other-hour-and-fte-values-for-users-and-job-roles-in-the-resource-planner) 本文章內容。
 
-了解每個用戶及其職務的FTE是什麼，在您將資源分配給工作時準確管理資源非常重要。
+請務必瞭解每個使用者及其職位角色的FTE是什麼，以便在您指派他們工作時，準確地管理您的資源。
 
-## 計算資源計畫員中用戶和任務職責的可用小時數或FTE {#calculate-available-hours-or-fte-for-users-and-job-roles-in-the-resource-planner}
+## 計算資源規劃工具中使用者和職務角色的可用時數或FTE {#calculate-available-hours-or-fte-for-users-and-job-roles-in-the-resource-planner}
 
-* [計算資源計畫員中用戶的可用小時數和FTE](#calculate-the-available-hours-and-fte-for-a-user-in-the-resource-planner)
-* [在資源計畫員中計算任務職責的可用小時數和FTE](#calculate-the-available-hours-and-fte-for-a-job-role-in-the-resource-planner)
-* [計算資源計畫員中用戶的可用小時數和FTE（示例）](#calculate-the-available-hours-and-fte-for-a-user-in-the-resource-planner-example)
+* [計算資源規劃工具中使用者的可用時數和FTE](#calculate-the-available-hours-and-fte-for-a-user-in-the-resource-planner)
+* [計算資源規劃工具中工作角色的可用時數和FTE](#calculate-the-available-hours-and-fte-for-a-job-role-in-the-resource-planner)
+* [計算資源規劃工具中使用者的可用時數和FTE （範例）](#calculate-the-available-hours-and-fte-for-a-user-in-the-resource-planner-example)
 
-### 計算資源計畫員中用戶的可用小時數和FTE {#calculate-the-available-hours-and-fte-for-a-user-in-the-resource-planner}
+### 計算資源規劃工具中使用者的可用時數和FTE {#calculate-the-available-hours-and-fte-for-a-user-in-the-resource-planner}
 
-Workfront管理員通過在「設定」的「資源管理」區域中選擇使用以下選項之一，來確定如何計算用戶的可用時間：
+Workfront管理員在「設定」的「資源管理」區域中選取使用下列其中一項，以決定如何計算使用者的可用時間：
 
-* 系統的預設計畫和用戶的FTE。
+* 系統的預設排程和使用者的FTE。
 * 使用者的排程。
 
-如需詳細資訊，請參閱 [配置資源管理首選項](../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md).
+如需詳細資訊，請參閱 [設定資源管理喜好設定](../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md).
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -74,70 +74,68 @@ If the user is not associated with a schedule, the Available Hours for the user 
 </div>
 -->
 
-### 在資源計畫員中計算任務職責的可用小時數和FTE {#calculate-the-available-hours-and-fte-for-a-job-role-in-the-resource-planner}
+### 計算資源規劃工具中工作角色的可用時數和FTE {#calculate-the-available-hours-and-fte-for-a-job-role-in-the-resource-planner}
 
-首先必須計算用戶可用性，然後才能計算每個作業角色的可用性。
+您首先必須計算使用者可用性，然後可以計算其每個職務角色的可用性。
 
-Oracle Resource Planner中任務角色的可用性考慮用戶的總可用性，以及 **FTE可用性百分比** 與使用者的每個角色相關聯。\
+「資源規劃工具」中工作角色的可用性會考慮使用者的總可用性，以及 **FTE可用性百分比** 與使用者的每個角色相關聯。\
 ![percent_of_fte_availability_at_the_user_level.png](assets/percent-of-fte-availability-at-the-user-level-350x144.png)
 
-如需關於關聯 **FTE可用性百分比** 具有使用者工作角色的值，請參閱 [編輯使用者的設定檔](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
+如需建立關聯的詳細資訊 **FTE可用性百分比** 具有使用者工作角色的值，請參閱 [編輯使用者的設定檔](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 
-例如，如果用戶的「可用小時數」值為40，並且他們可以在75%的時間內完成一個主要職責，在25%的時間內完成一個其他職責，則資源計畫器會顯示 **可用小時數** 主要角色一週的值為30小時，且 **可用小時數** 其他角色的值為10小時。 在這種情況下，主要角色的FTE為0.75，而其他角色的FTE為0.25。
+例如，如果使用者的「可用時數」值為40，且他們可以在75%的時間中履行一個「主要角色」，並在該時間的25%時間內履行一個「其他角色」，則「資源規劃工具」會顯示 **可用時數** 「主要角色」一週的值為30小時，而 **可用時數** 「其他角色」的值為10小時。 在此情況下，主要角色的FTE為0.75，而其他角色的FTE為0.25。
 
 >[!NOTE]
 >
->使用者的可用時間總計是根據 [計算資源計畫員中用戶的可用小時數和FTE](#calculate-the-available-hours-and-fte-for-a-user-in-the-resource-planner) 一節。
+>使用者的總可用時間是以下文所述的兩種方法之一計算的 [計算資源規劃工具中使用者的可用時數和FTE](#calculate-the-available-hours-and-fte-for-a-user-in-the-resource-planner) 章節。
 
-在「角色視圖」中查看資源計畫員時，一個任務職責的可用性是所有可履行該任務職責的用戶的可用性總和。\
-有關資源計畫器中資源可用性的詳細資訊，請參閱 [資源計畫員概覽](../../resource-mgmt/resource-planning/get-started-resource-planner.md).
+在「角色檢視」中檢視「資源規劃工具」時，一個工作角色的可用性是能夠履行該工作角色之所有使用者的可用性總計。\
+如需「資源規劃工具」中資源可用性的詳細資訊，請參閱 [資源規劃工具概觀](../../resource-mgmt/resource-planning/get-started-resource-planner.md).
 
-### 計算資源計畫員中用戶的可用小時數和FTE（示例） {#calculate-the-available-hours-and-fte-for-a-user-in-the-resource-planner-example}
+### 計算資源規劃工具中使用者的可用時數和FTE （範例） {#calculate-the-available-hours-and-fte-for-a-user-in-the-resource-planner-example}
 
-下表說明了如何為資源計畫員中的用戶計算可用小時數和可用FTE，具體取決於系統管理員在資源管理首選項中用於FTE計算的方法。
+下表說明如何針對「資源規劃工具」中的使用者計算「可用時數」與「可用FTE」，這取決於系統管理員在「資源管理偏好設定」中用於計算FTE的方法。
 
-在此範例中，我們使用下列數字：
+在此範例中，我們使用以下數字：
 
-* 40小時的系統預設計畫
-* 20小時的用戶計畫
-* 用戶FTE為0.75。
+* 40小時的系統預設排程
+* 20小時的使用者排程
+* 使用者FTE為0.75
 
-| FTE計算方法（系統設定） | **距離用戶計畫的小時數** | **預設排程的小時數** | **用戶FTE欄位** | **資源計畫員中的可用小時數** | **資源計畫員中的可用FTE** |
+| FTE計算方法（系統設定） | **來自使用者排程的小時** | **預設排程的時數** | **使用者FTE欄位** | **資源規劃工具中的可用時數** | **資源規劃工具中的可用FTE** |
 |---|---|---|---|---|---|
 | **預設排程** | 已忽略 | 40 | 0.75 | **30** （計算） | **0.75** |
 | **使用者的排程** | 20 | 40 | 已忽略 | **20** | **0.5** （計算） |
 
-計畫例外和休假時間可能會影響計畫小時數或FTE的數量。 如需詳細資訊，請參閱 [配置資源管理首選項](../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md).
+排程例外和休假可能會影響計畫時數或FTE的數量。 如需詳細資訊，請參閱 [設定資源管理喜好設定](../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md).
 
-## 計算資源計畫員中用戶和任務職責的所有其他小時值和FTE值 {#calculate-all-other-hour-and-fte-values-for-users-and-job-roles-in-the-resource-planner}
+## 計算資源規劃工具中使用者和職務角色的所有其他時數和FTE值 {#calculate-all-other-hour-and-fte-values-for-users-and-job-roles-in-the-resource-planner}
 
-除了可用小時數或FTE外，下列時間資訊還顯示在資源計畫器中：
+除了「可用時數」或FTE之外，「資源規劃工具」中也會顯示下列時間資訊：
 
 * 計畫小時
 * 預算時數
 * 小時差異
-* 淨小時數\
-   如需這些值的詳細資訊，請參閱 [資源計畫員的「項目」和「職責」視圖中的小時數、FTE和成本資訊概覽](../../resource-mgmt/resource-planning/overview-of-planner-hour-fte-cost-information-in-role-project-views.md)
+* 淨小時\
+  如需這些值的詳細資訊，請參閱 [資源規劃工具的「專案」與「角色」檢視中的時數、約當全職人數及成本資訊概要](../../resource-mgmt/resource-planning/overview-of-planner-hour-fte-cost-information-in-role-project-views.md)
 
-* 小時差\
-   如需此值代表哪些內容的詳細資訊，請參閱 [資源計畫員的「項目」和「職責」視圖中的小時數、FTE和成本資訊概覽](../../resource-mgmt/resource-planning/overview-of-planner-hour-fte-cost-information-in-role-project-views.md).
+* 小時差異\
+  如需有關此值代表的詳細資訊，請參閱 [資源規劃工具的「專案」與「角色」檢視中的時數、約當全職人數及成本資訊概要](../../resource-mgmt/resource-planning/overview-of-planner-hour-fte-cost-information-in-role-project-views.md).
 
-您可以在資源計畫員中顯示與FTE或小時相同的資訊。
+您可以在「資源規劃工具」中顯示與FTE或時數相同的資訊。
 
-Workfront使用以下公式將資源計畫員中的所有其他值顯示為FTE:
+Workfront會使用以下公式，在資源規劃工具中將所有其他值顯示為FTE：
 
-```
-FTE = Resource Planner Hours/ Default Schedule Hours
-```
+`FTE = Resource Planner Hours/ Default Schedule Hours`
 
 >[!NOTE]
 >
->計算資源計畫員中除「可用(AVL)FTE」值外的所有值的FTE時，將忽略用戶的計畫。 計算時只考慮預設計畫。
+>在計算「資源規劃工具」中可用(AVL) FTE值以外的所有值的FTE時，會忽略使用者的排程。 計算時只會考慮「預設排程」。
 
 此計算適用於下列值：
 
-* 計畫FTE(PLN)
-* 預算的FTE(BDG)
-* FTE差異(VAR)
+* 計畫FTE (PLN)
+* 預算FTE (BDG)
+* FTE差額(VAR)
 * 淨FTE
 * FTE差異(DIF)
