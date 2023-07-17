@@ -7,10 +7,10 @@ description: Adobe Workfront的設計目的，不是為了複製或取代您現�
 author: Lisa
 feature: Get Started with Workfront
 exl-id: e7710495-c418-47b1-8598-725580054fc5
-source-git-commit: 1079f85651ec691280e2cccefaa6e48e0b9d89f8
+source-git-commit: 699498fb286c53b6ba4ddde88ba59e79699fd7b3
 workflow-type: tm+mt
-source-wordcount: '412'
-ht-degree: 0%
+source-wordcount: '398'
+ht-degree: 1%
 
 ---
 
@@ -31,7 +31,6 @@ ht-degree: 0%
 >* [建立排程](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md)
 >* [編輯使用者的設定檔](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md)
 >
-
 
 ## 存取需求
 
@@ -63,7 +62,7 @@ ht-degree: 0%
 
 ## 在中設定個人休假 [!DNL Workfront]
 
-1. 按一下 **[!UICONTROL 主要功能表]** 圖示 ![](assets/main-menu-icon.png) 右上角的 [!DNL Adobe Workfront]，然後按一下個人資料圖片旁的使用者名稱。
+1. {#step1-click-profile-pic}
 
 1. 在左側面板中，按一下 **[!UICONTROL 休假]**.
 1. 選取您個人休假的所需日期。
@@ -71,4 +70,4 @@ ht-degree: 0%
    如果您休假不到一整天，並標示休假的開始和結束時間，請將其保留為未選取狀態。
 
 1. 按一下&#x200B;**[!UICONTROL 儲存]**。\
-   您的休假現在可以在以下位置看到： [!DNL Workfront] 系統於排程工具（例如資源格線）中。 當您在這段時間被指派工作時，會出現一個工具提示，通知使用者您已排程休假。
+   您的休假現在可以在以下位置看到： [!DNL Workfront] 系統（在資源管理工具中，例如資源規劃工具和工作負載平衡器）。 當您在這段時間被指派工作時，會出現一個工具提示，通知使用者您已排程休假。
