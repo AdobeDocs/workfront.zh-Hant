@@ -8,7 +8,7 @@ author: Lisa, Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 94b07085-8e3d-4137-9820-38aaa257a3ed
-source-git-commit: 4331917d133c52cf727f148b75a213853c1e5679
+source-git-commit: dfb0ab35929413ee3189ded32b87f7ed9a379d91
 workflow-type: tm+mt
 source-wordcount: '122'
 ht-degree: 0%
@@ -25,5 +25,5 @@ ht-degree: 0%
 
 這些連結可前往Adobe Workfront通知說明文章的使用者區域。
 
-* 如需關於通知的一般資訊，請參閱 [Adobe Workfront通知](/help/quicksilver/workfront-basics/using-notifications/event-notifications.md)
-* 如需在設定檔中設定您自己的通知的相關資訊，請參閱 [啟用或停用您自己的事件通知](/help/quicksilver/workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md)
+* 如需關於通知的一般資訊，請參閱 [Adobe Workfront通知](/help/quicksilver/workfront-basics/using-notifications/event-notifications.md).
+* 如需在設定檔中設定您自己的通知的相關資訊，請參閱 [啟用或停用您自己的事件通知](/help/quicksilver/workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).

@@ -7,9 +7,9 @@ description: 計算資源規劃工具中使用者和角色的時數和FTE的概�
 author: Alina
 feature: Resource Management
 exl-id: 10b0e507-658e-4d12-994a-e38da6111f5d
-source-git-commit: 4331917d133c52cf727f148b75a213853c1e5679
+source-git-commit: 3aad2a3d9ad32313cb14670965bc3ad05ab215d3
 workflow-type: tm+mt
-source-wordcount: '977'
+source-wordcount: '1379'
 ht-degree: 1%
 
 ---
@@ -49,30 +49,44 @@ Workfront管理員在「設定」的「資源管理」區域中選取使用下�
 * 系統的預設排程和使用者的FTE。
 * 使用者的排程。
 
-如需詳細資訊，請參閱 [設定資源管理喜好設定](../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md).
+![使用者排程的系統設定](assets/setup-resource-mgmt.png)
 
-<!--
-<div data-mc-conditions="QuicksilverOrClassic.Draft mode">
-<p><br></p>
-<p> <img src="assets/nwe-resource-management-system-setting-user's-schedule-350x157.png" style="width: 350;height: 157;" data-mc-conditions="QuicksilverOrClassic.Quicksilver"> </p>
-<p>(NOTE: The determines how to calculate resource availability at the system level.For more information about defining the Resource Management preferences for the system, see Configure Resource Management preferences.)</p>
-<p>Based on how this setting is configured, the availability of the users in the Resource Planner (hours as well as FTE availability) is calculated by using the following methods: </p>
-<ul>
-<li><strong>The Default Schedule</strong>: The Default Schedule of the system and the user FTE are used to determine the Available Hours and FTE value for the user in the Resource Planner. The Schedule of the user is ignored. In this case:
-<ul>
-<li> The <strong>Available Hours</strong> in the<strong>Resource Planner</strong> are calculated using the following formula:<br><code>User Available Hours = Default Schedule Hours * User FTE value</code> <span style="color: #dc143c;">( NOTE: this is the correct value. If this shows as a division in other articles, that is wrong. It's a multiplication between these 2 values).</span><br>For example, if the Default Schedule has 40 hours a week available for work, and the user FTE is 0.5, the user is available to work for 20 hours a week in the Resource Planner.<br>For more information about schedules, including the Default Schedule, see <a href="../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md" class="MCXref xref">Create a schedule</a></li>
-<li style="font-weight: normal;"> The <strong>Available FTE</strong> for the user in the<strong>Resource Planner</strong> is the same as the user FTE specified in the user settings. <br>For example, if the user FTE is 0.5 in the user settings, the available FTE of the user is 0.5 in the Resource Planner. For more information about the value of the user FTE as it displays in the user settings, see <a href="../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md" class="MCXref xref">Edit a user's profile</a>.<br></li>
-</ul></li>
-<li><strong>The User's Schedule</strong>: The Schedule of the user is used to determine the availability of the user in the Resource Planner. The value of the user FTE is ignored. In this case:
-<ul>
-<li> The <strong>Available Hours</strong> in the<strong>Resource Planner</strong> are the same as the Hours from the Schedule of the user.<br>For example, if the Schedule of the user has 40 hours a week available for work, the user is available to work for 40 hours a week in the Resource Planner. </li>
-<li> The <strong>Available FTE</strong> in the<strong>Resource Planner</strong> is calculated by the following formula:<br><em><code>User Available FTE = Hours from the Schedule of the User/ Default Schedule Hours</code><br></em>For example, if the Schedule of the user has 20 hours available to work, and the Default Schedule in Workfront has 40 hours available to work, the user's FTE is 0.5.<br>For more information about schedules, including the Default Schedule, see <a href="../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md" class="MCXref xref">Create a schedule</a>.</li>
-</ul></li>
-</ul> <note type="note">
-If the user is not associated with a schedule, the Available Hours for the user are calculated using the Default Schedule.
-</note>
-</div>
--->
+>[!NOTE]
+>
+>這會決定如何在系統層次計算資源可用性。 有關定義系統資源管理偏好設定的詳細資訊，請參閱 [設定資源管理喜好設定](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md).
+
+根據此設定的設定方式，使用下列方法計算「資源規劃工具」中使用者的可用性（時數及FTE可用性）：
+
+* **預設排程**：系統的「預設排程」和使用者FTE是用來決定資源規劃工具中使用者的「可用時數」和FTE值。 使用者的排程會被忽略。 在此案例中：
+
+   * 此 **可用時數** 在「資源規劃工具」中，使用下列公式計算：
+
+     `User Available Hours = Default Schedule Hours * User FTE value`
+
+     例如，如果「預設排程」每週有40小時可供工作，且使用者FTE為0.5，則使用者可在「資源規劃工具」中每週工作20小時。
+
+     如需排程的詳細資訊，包括「預設排程」，請參閱 [建立排程](/help/quicksilver/administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
+
+   * 此 **可用FTE** 對於資源規劃工具中的使用者，與使用者設定中指定的使用者FTE相同。
+例如，如果使用者設定中的使用者FTE為0.5，則使用者在資源規劃工具中的可用FTE為0.5。 如需使用者FTE值顯示在使用者設定中的詳細資訊，請參閱 [編輯使用者的設定檔](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
+
+* **使用者的排程**：使用者的排程用於決定使用者在資源規劃工具中的可用性。 使用者FTE的值會被忽略。 在此案例中：
+
+   * 此 **可用時數** 「資源規劃工具」中的「時數」與使用者的「排程」中的「時數」相同。
+
+  例如，如果使用者的「排程」每週有40小時可供工作，則使用者可在「資源規劃工具」中每週有40小時可供工作。
+
+   * 此 **可用FTE** 在「資源規劃工具」中，透過下列公式計算：
+
+  `User Available FTE = Hours from the Schedule of the User/ Default Schedule Hours`
+
+  例如，如果使用者的「排程」有20小時可供工作，而Workfront中的「預設排程」有40小時可供工作，則使用者的FTE為0.5。
+
+  如需排程的詳細資訊，包括「預設排程」，請參閱 [建立排程](/help/quicksilver/administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
+
+>[!NOTE]
+>
+>如果使用者未與排程建立關聯，則會使用預設排程來計算使用者的可用時數。
 
 ### 計算資源規劃工具中工作角色的可用時數和FTE {#calculate-the-available-hours-and-fte-for-a-job-role-in-the-resource-planner}
 
@@ -104,10 +118,18 @@ If the user is not associated with a schedule, the Available Hours for the user 
 
 | FTE計算方法（系統設定） | **來自使用者排程的小時** | **預設排程的時數** | **使用者FTE欄位** | **資源規劃工具中的可用時數** | **資源規劃工具中的可用FTE** |
 |---|---|---|---|---|---|
-| **預設排程** | 已忽略 | 40 | 0.75 | **30** （計算） | **0.75** |
+| **預設排程** | 已忽略 | 40 | 0.8 | **32** （計算） | **0.8** |
 | **使用者的排程** | 20 | 40 | 已忽略 | **20** | **0.5** （計算） |
 
 排程例外和休假可能會影響計畫時數或FTE的數量。 如需詳細資訊，請參閱 [設定資源管理喜好設定](../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md).
+
+依使用者和時數的資源規劃工具檢視範例：
+
+![資源規劃工具檢視（依使用者和時數）](assets/resource-planner-by-user-by-hours.png)
+
+依使用者和FTE區分的資源規劃工具檢視範例：
+
+![資源規劃工具檢視（依使用者和FTE）](assets/resource-planner-by-user-by-fte.png)
 
 ## 計算資源規劃工具中使用者和職務角色的所有其他時數和FTE值 {#calculate-all-other-hour-and-fte-values-for-users-and-job-roles-in-the-resource-planner}
 
