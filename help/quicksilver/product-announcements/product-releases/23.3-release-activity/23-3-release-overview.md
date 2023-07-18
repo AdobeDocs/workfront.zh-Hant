@@ -4,9 +4,9 @@ description: 23.3版本總覽
 author: Becky
 feature: Product Announcements
 exl-id: 9bf786e2-e077-4504-b928-9091fcb61ec1
-source-git-commit: 20aac191f6bca42610575384c398306e61f59780
+source-git-commit: bcb657df8b38c6bdea5c24a917a9adad51da017d
 workflow-type: tm+mt
-source-wordcount: '2759'
+source-wordcount: '2657'
 ht-degree: 0%
 
 ---
@@ -418,22 +418,22 @@ ht-degree: 0%
                         </ul>
                     </td>
                 </tr>                
-                <tr>
+ <!--               <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">改善透過拖放功能將檔案移動到連結資料夾時的體驗</a></p> 
-                        <p>我們在將檔案拖放至連結資料夾的程式中新增了一些透明度。 現在，您移動至連結資料夾的檔案會保留在檔案清單中，直到完全移動為止。 檔案選項已停用，但您仍然可以在檔案移動時開啟檔案以供檢視。 當檔案完成傳輸後，它會從檔案清單中消失，因為它現在完全位於連結的資料夾中。 </p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Improved experience when moving a document to a linked folder with drag and drop</a></p> 
+                        <p>We've added some transparency to the process of dragging and dropping a document into a linked folder. Now, the document that you moved to a linked folder remains in the document list until it has fully moved. The document options are disabled, but you can still open the document for view while it is moving. When the document has completed the transfer, it disappears from the document list, because it is now fully located in the linked folder. </p>
                     </td>
-                    <td><p><b>在以下日期可用：</b></p>
+                    <td><p><b>Available on these dates:</b></p>
                         <ul>
                             <li>
-                                <p>預覽版本： 2023年6月7日</p>
+                                <p>Preview release: June 7, 2023</p>
                             </li>
                             <li>
-                                <p><span class="preview">生產版本： 2023年6月15日</span></p>
+                                <p><span class="preview">Production release: June 15, 2023</span></p>
                             </li>
                         </ul>
                     </td>
-                </tr>
+                </tr>-->
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">建立專案時自動建立連結資料夾至Adobe Experience Manager資產</a></p>
