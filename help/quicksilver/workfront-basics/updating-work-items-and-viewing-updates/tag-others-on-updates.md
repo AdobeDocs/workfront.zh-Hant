@@ -6,9 +6,9 @@ description: 在Adobe Workfront物件上提供更新註解時，專案上的所�
 author: Alina
 feature: Get Started with Workfront
 exl-id: c4c0d74f-ac50-4fc5-89d6-28f004c25b29
-source-git-commit: 79822d258642675331e1998dd3552e3078db41f8
+source-git-commit: f8d596121f90d4f0c57e65cc415d1df87c14730c
 workflow-type: tm+mt
-source-wordcount: '1571'
+source-wordcount: '1550'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 <!--take "Beta" references out when we remove the beta-->
 
 
-<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它僅在「預覽」環境中可用。
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.-->
 
 >[!NOTE]
 >
@@ -27,7 +27,7 @@ ht-degree: 0%
 >如需有關新評論體驗的詳細資訊，請參閱 [新的評論體驗](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 >
 >您可以存取下列物件的新體驗：
-> * 問題， <span class="preview" style="display-inline">專案、任務和檔案</span>.
+> * 問題、專案、任務和檔案。
 >
 >     當您啟用註解Beta版體驗時，即可使用此功能。
 >
@@ -138,16 +138,16 @@ ht-degree: 0%
 
 您可以透過下列方式，在新註解體驗中標籤其他人的更新：
 
-* <span class="preview"> **自動**：當使用者新增評論或回覆時，會自動標籤他們並新增到評論方塊的「標籤人員」或「團隊」區域。 </span>
+* **自動**：當使用者新增評論或回覆時，會自動標籤他們並新增到評論方塊的「標籤人員」或「團隊」區域。
 * **手動**：手動將使用者新增至評論方塊的「標籤人員」區域時。
 
 您也可以在編輯或回複評論時，移除被錯誤標籤的使用者。
 
-1. 開始更新工作專案，如所述 [更新工作](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md). <span class="preview">您身為評論擁有者，會自動標籤並新增至評論方塊的「標籤人員」或「團隊」區域。 </span>
+1. 開始更新工作專案，如所述 [更新工作](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md). 您身為評論擁有者，會自動標籤並新增至評論方塊的「標籤人員」或「團隊」區域。
 
    >[!TIP]
    >
-   ><span class="preview">評論擁有者在評論方塊的「標籤人員」或「團隊」區域中看不到自己的名稱。</span>
+   >評論擁有者在評論方塊的「標籤人員」或「團隊」區域中看不到自己的名稱。
 
 1. 在 **標籤人員或團隊** 欄位，開始輸入您要包含的使用者或團隊名稱，然後按一下該名稱（當它出現在下拉式清單中時）。
 

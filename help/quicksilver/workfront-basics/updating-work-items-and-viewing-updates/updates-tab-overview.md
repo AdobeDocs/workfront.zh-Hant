@@ -7,10 +7,10 @@ description: 物件的「更新」區段會顯示使用者對物件所做的註�
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: 38f46324219f297523ff262b083f41a2dd388579
+source-git-commit: f8d596121f90d4f0c57e65cc415d1df87c14730c
 workflow-type: tm+mt
-source-wordcount: '1141'
-ht-degree: 3%
+source-wordcount: '1116'
+ht-degree: 4%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 3%
 
 <!--take "Beta" references out when we remove the beta-->
 
-<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它僅適用於預覽環境中的所有客戶。</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available for all customers only in the Preview environment.</span>-->
 
 >[!NOTE]
 >
@@ -27,7 +27,7 @@ ht-degree: 3%
 >如需有關新評論體驗的詳細資訊，請參閱 [新的評論體驗](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 >
 >您可以存取下列物件的新體驗：
-> * 問題， <span class="preview">專案、任務和檔案</span>.
+> * 問題、專案、任務和檔案。
 >
 >     當您啟用註解Beta版體驗時，即可使用此功能。
 >
@@ -115,13 +115,13 @@ ht-degree: 3%
      <li>看板區域中的卡片*</li>
       這是唯一的目標和卡片體驗。
      </li> 
-     <li><span class="preview">專案</span></li>
+     <li>專案</li>
     </ul> </td> 
    <td> 
     <ul> 
      <li>問題</li> 
-     <li><span class="preview">任務</span></li>
-     <li><span class="preview">文件</span></li>
+     <li>任務</li>
+     <li>文件</li>
      </ul> </td> 
   </tr> 
  </tbody> 
@@ -137,11 +137,11 @@ ht-degree: 3%
 
 >[!NOTE]
 >
->啟用新的註解Beta版體驗時，註解會顯示在下列較高等級的物件上：
+>啟用新的註解體驗時，註解會顯示在下列排名較高的物件上：
 >
 >* 問題
->* <span class="preview">專案</span>
->* <span class="preview">任務</span>
+>* 專案
+>* 任務
 >
 >如需詳細資訊，請參閱 [新的評論體驗](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 
@@ -238,11 +238,13 @@ Adobe Workfront管理員和群組管理員可以其他使用者身分登入，�
 
 代表其他使用者所做的任何評論都會顯示在評論上。
 
+<!--might need to update this note when the new commenting experience will be the only experience; also - how will this affect the areas that will keep the old experience, like Iterations?-->
+
 >[!NOTE]
 >
-><span class="preview">使用新的評論體驗時，評論會新增為以其他使用者身份登入的使用者，且沒有跡象表明他們代表其他人新增評論。
+>使用新的評論體驗時，評論會新增為以其他使用者身份登入的使用者，且沒有跡象表明他們代表其他人新增評論。
 >
->例如，如果Workfront管理員以其他使用者身份登入，則與評論相關聯的使用者為Workfront管理員。 如需詳細資訊，請參閱 [新的評論體驗](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md). </span>
+>例如，如果Workfront管理員以其他使用者身份登入，則與評論相關聯的使用者為Workfront管理員。 如需詳細資訊，請參閱 [新的評論體驗](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 
 
 群組管理員可以代表其他人發表評論，但無法刪除該評論。 只有Adobe Workfront管理員可以刪除他們代表其他使用者所做的評論。

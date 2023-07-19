@@ -6,9 +6,9 @@ description: 您可以在&nbsp；Adobe Workfront中記錄工作專案的時間�
 author: Alina
 feature: Timesheets
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: 4116cd1610cc5b8de0407a96a4bc67532d78a25e
+source-git-commit: 38a7329ebac4051439601ddd8ad2a89ee24c7971
 workflow-type: tm+mt
-source-wordcount: '3336'
+source-wordcount: '3337'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 <!--remove all preview and production references from this article with 23.3 release-->
 
-<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它僅在「預覽」環境中可用。</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span>-->
 
 您可以在Adobe Workfront中記錄工作專案的時間，以指出您花在專案上的小時數。 您也可以記錄與工作無關的時間，例如假期、病假或會議時間。 您的記錄時間會顯示在您的時程表中。
 
@@ -361,13 +361,13 @@ ht-degree: 0%
 
 #### 更新區段{#updates-section}
 
-<!--remove the note below when we can log time for projects and tasks in production with the 23.3 release. Also, update the screen shot for the Enter Hours box-->
+<!--remove the note below when the -->
 
 >[!NOTE]
 >
-> 您可以記錄問題的時間， <span class="preview">專案和任務</span> 在更新區段中啟用新的註解Beta版體驗時。
+> 目前和新的「更新」區段在使用者介面的外觀和感覺上有細微差異。 本節中的資訊是指顯示在新評論體驗中的功能。
 >
->如需詳細資訊，請參閱 [新的評論體驗](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
+>如需有關新更新區段的詳細資訊，請參閱 [新的評論體驗](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 
 若要在專案、任務或問題的更新區段中記錄時間，您必須具備下列條件：
 
@@ -383,9 +383,9 @@ ht-degree: 0%
 
 1. 前往專案、任務或問題。
 1. 在左側面板中，選取 **更新**.
-1. 按一下 **記錄時間**.
+1. 按一下 **記錄時間**. <!-- did Anna B change the casing for this button? If yes and if she changed it for the other areas, update screen shot too-->
 
-   <span class="preview">記錄時間對話方塊隨即顯示。 </span>
+   記錄時間對話方塊隨即顯示。
 
    >[!TIP]
    >
@@ -393,7 +393,7 @@ ht-degree: 0%
    >   
    >   在「輸入天數」方塊的右上角，會顯示一天包含多少小時。
 
-   <span class="preview">![](assets/log-time-box-in-updates-stream.png)</span>
+   ![](assets/log-time-box-in-updates-stream.png)
 
 1. 指定下列資訊：
 

@@ -8,9 +8,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 2f8dd132-1086-4980-9b56-993a68231e96
-source-git-commit: 82f42d81970c7572f43519423ec3a8c0889aaff4
+source-git-commit: f8d596121f90d4f0c57e65cc415d1df87c14730c
 workflow-type: tm+mt
-source-wordcount: '895'
+source-wordcount: '871'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,8 @@ ht-degree: 0%
 # 以其他使用者身分登入
 
 
-<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它僅適用於預覽環境中的所有使用者。</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available for all users only in the Preview environment.</span> -->
+
 <!--
 **DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. Also linked to other articles: Creating and Managing Groups, etc.</p>
 -->
@@ -147,11 +148,13 @@ Workfront提供機制，可在管理員以其他使用者身份登入時追蹤�
 
 例如，如果您以其他使用者身份登入時註解某個專案，則會出現一條宣告，指出您是代表該使用者進行註解。
 
+<!--you might need to reword this note when we go to a global way for the update stream; or refer to areas where this is possible as something else than "New commenting" - not sure if this will affect areas that stay old, like iterations???-->
+
 >[!NOTE]
 >
-><span class="preview">使用新的評論體驗時，評論會新增為以其他使用者身份登入的使用者，且沒有跡象表明他們代表其他人新增評論。
+>使用新的評論體驗時，評論會新增為以其他使用者身份登入的使用者，且沒有跡象表明他們代表其他人新增評論。
 >
->例如，如果Workfront管理員以其他使用者身份登入，則與評論相關聯的使用者為Workfront管理員。 如需詳細資訊，請參閱 [新的評論體驗](../../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md). </span>
+>例如，如果Workfront管理員以其他使用者身份登入，則與評論相關聯的使用者為Workfront管理員。 如需詳細資訊，請參閱 [新的評論體驗](../../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 
 
 ### 檢視稽核資訊 {#view-audit-information}

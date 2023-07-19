@@ -6,9 +6,9 @@ description: 您可以編輯已建立或您擁有Contribute或「管理」許可
 author: Alina
 feature: Work Management
 exl-id: 572c6008-3a67-47ae-8f5d-6b871ef1f37b
-source-git-commit: 7ee96045e5673c51c3ce348f395226857686a923
+source-git-commit: f8d596121f90d4f0c57e65cc415d1df87c14730c
 workflow-type: tm+mt
-source-wordcount: '3663'
+source-wordcount: '3711'
 ht-degree: 4%
 
 ---
@@ -356,7 +356,7 @@ ht-degree: 4%
      </tr> 
      <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
       <td role="rowheader">各事件的持續時間</td> 
-      <td> <p>這只會顯示在週期性任務的父繫上。 它會顯示每個遞回任務的持續時間。 如需建立週期性工作的相關資訊，請參閱 <a href="../../../manage-work/tasks/create-tasks/create-recurring-tasks.md" class="MCXref xref">建立週期性任務</a>. </p> <p> <b>附註</b>
+      <td> <p>這只會顯示在週期性任務的父繫上。 它會顯示每個遞回任務的持續時間，如建立任務時定義。 如需建立週期性工作的相關資訊，請參閱 <a href="../../../manage-work/tasks/create-tasks/create-recurring-tasks.md" class="MCXref xref">建立週期性任務</a>. </p> <p> <b>附註</b>
 
    在個別週期性任務中修改的持續時間不顯示此欄位中指示的值。 </p> </td>
    </tr> 
@@ -437,7 +437,13 @@ ht-degree: 4%
    </tr> 
    <tr> 
    <td role="rowheader">計畫小時</td> 
-   <td> <p>指定任務的計畫時數（以時數為單位）。 這是任務受指派人完成任務所需的實際時間。 當「期間型別」設定為「計算的工作分派」時，您只能指定任務的計畫時數。 如需持續時間型別的詳細資訊，請參閱 <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">任務工期與工期型別概要</a>.</p> </td> 
+   <td> <p>指定任務的計畫時數（以時數為單位）。 這是任務受指派人完成任務所需的實際時間。 當「期間型別」設定為「計算的工作分派」時，您只能指定任務的計畫時數。 如需持續時間型別的詳細資訊，請參閱 <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">任務工期與工期型別概要</a>.</p> 
+   <b>附註</b>
+   <p>
+   建立週期性任務時，計畫時數是每個事件的時數。 父系任務的計畫時數是所有發生次數的所有計畫時數總計。 如需建立週期性工作的相關資訊，請參閱 <a href="../../../manage-work/tasks/create-tasks/create-recurring-tasks.md" class="MCXref xref">建立週期性任務</a>.
+   </p>
+
+   </td> 
    </tr> 
    <tr> 
    <td role="rowheader">配置</td> 

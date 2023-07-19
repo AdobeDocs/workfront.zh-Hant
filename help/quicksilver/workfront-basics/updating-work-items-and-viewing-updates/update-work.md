@@ -6,9 +6,9 @@ description: 您可以在Adobe Workfront物件（專案、任務或問題）上�
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: 79822d258642675331e1998dd3552e3078db41f8
+source-git-commit: f8d596121f90d4f0c57e65cc415d1df87c14730c
 workflow-type: tm+mt
-source-wordcount: '3497'
+source-wordcount: '3471'
 ht-degree: 1%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 1%
 
 <!--take "Beta" references out when we remove the beta-->
 
-<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它僅適用於預覽環境中的所有客戶。</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available for all customers only in the Preview environment.</span>-->
 
 >[!NOTE]
 >
@@ -26,7 +26,7 @@ ht-degree: 1%
 >如需有關新評論體驗的詳細資訊，請參閱 [新的評論體驗](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 >
 >您可以存取下列物件的新體驗：
-> * 問題， <span class="preview">專案、任務和檔案</span>.
+> * 問題、專案、任務和檔案。
 >
 >     當您啟用註解Beta版體驗時，即可使用此功能。
 >
@@ -53,7 +53,7 @@ ht-degree: 1%
 
   >[!TIP]
   >
-  >   <span class="preview">在新的註解體驗中，註解擁有者會被自動標籤。 如需詳細資訊，請參閱 [標籤其他更新的專案](../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).</span>
+  >   在新的註解體驗中，註解擁有者會被自動標籤。 如需詳細資訊，請參閱 [標籤其他更新的專案](../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
   <!--take the "in the new commenting experience" out when this is the only experience-->
 
 * 您可以將註解新增至可以檢視的物件，也可以以Workfront或群組管理員身分登入，並代表其他使用者新增註解。 如需詳細資訊，請參閱 [以其他使用者身分登入](../../administration-and-setup/add-users/create-and-manage-users/log-in-as-another-user.md).
@@ -69,7 +69,7 @@ ht-degree: 1%
 
 如需有關對目標發表註解的資訊，請參閱 [在Adobe Workfront目標中管理目標註解](../../workfront-goals/goal-management/manage-goal-comments.md). 您必須有其他授權才能存取Workfront目標。
 
-如需有關面板區域中卡片上的註解資訊，請參閱 [新增臨機卡到展示板](../../agile/get-started-with-boards/add-card-to-board.md).
+如需在「面板」區域中註解卡片的相關資訊，請參閱 [新增臨機卡到展示板](../../agile/get-started-with-boards/add-card-to-board.md).
 
 ## 存取需求
 
@@ -174,7 +174,7 @@ drafted for P&P release:
      </tr> 
      <tr> 
       <td role="rowheader"><strong>狀態</strong></td> 
-      <td>按一下目前狀態旁邊的箭頭，然後從下拉式選單中選取所需的狀態。 如需有關設定「狀態」的資訊，請參閱 <a href="../../manage-work/projects/updating-work-in-a-project/update-task-status.md" class="MCXref xref">更新任務狀態</a>.<p>更新工作專案的狀態不會自動變更專案狀態。 視專案的設定方式而定，您可能必須個別更新專案狀態。 如需各種專案更新型別的詳細資訊，請參閱 <a href="../../manage-work/projects/manage-projects/select-project-update-type.md" class="MCXref xref">選取專案更新型別 </a>.</p><p><b>附註</b>
+      <td>按一下目前狀態旁邊的箭頭，然後從下拉式選單中選取所需的狀態。 如需有關設定「狀態」的資訊，請參閱 <a href="../../manage-work/projects/updating-work-in-a-project/update-task-status.md" class="MCXref xref">更新任務狀態</a>.<p>更新工作專案的狀態不會自動變更專案狀態。 視專案的設定方式而定，您可能會個別更新專案狀態。 如需各種專案更新型別的詳細資訊，請參閱 <a href="../../manage-work/projects/manage-projects/select-project-update-type.md" class="MCXref xref">選取專案更新型別 </a>.</p><p><b>附註</b>
 
    當工作專案處於未決核准狀態時，您無法變更工作專案的狀態。</p></td>
    </tr> 
@@ -212,7 +212,7 @@ drafted for P&P release:
 此 **註解** 標籤預設為選取。
 1. 開始在 **新註解** 方塊。
 
-   <span class="preview">![](assets/comment-box-empty-unshimmed.png)</span>
+   ![](assets/comment-box-empty-unshimmed.png)
 
    >[!TIP]
    >
@@ -238,7 +238,7 @@ drafted for P&P release:
    >
    >如果其他使用者將評論提交給您正在更新的相同專案，將有帶有「新」指示器的紅線通知您較新的評論。
    >
-   >指示器只會在評論提交至專案後才顯示，不會在評論仍然撰寫時顯示。
+   >指示器只會在評論提交至專案後顯示，而不會在評論仍然撰寫時顯示。
    >
    >「新」指標只有在輸入新更新的使用者以及目前輸入更新的使用者都使用新評論體驗時才會顯示。
    >![](assets/real-time-new-red-indicator-unified-commenting.png)
@@ -478,8 +478,8 @@ Workfront使用者(包括Workfront管理員)無法刪除其他使用者所做的
 
 >[!NOTE]
 >
->使用Beta版評論體驗時，無法停用系統更新。
->本節中的資訊僅指目前更新章節中可用的功能。
+>使用新的評論體驗時，無法停用系統更新。
+>本節中的資訊僅參考目前更新章節中可用的功能。
 >如需Beta版系統更新的詳細資訊，請參閱 [更新區段概觀](../updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
 
