@@ -50,7 +50,10 @@ The <add release> release webinar will be held on <date>. You can [register for 
                                 <p>Preview release:<br /></p>
                             </li>
                             <li>
-                                <p><span class="preview">Production release: </span></p>
+                                <p>Fast release to Production:</p>
+                            </li>
+                            <li>
+                                <p><span class="preview">Quarterly release to Production: </span></p>
                             </li>
                         </ul>
                     </td>
@@ -87,7 +90,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
                                 <p>Preview release:&#160;Throughout the <!-- add release--> release timeframe<br /></p>
                             </li>
                             <li>
-                                <p><span class="preview">Production release:&#160;A minimum of 2 weeks after releasing to Preview (unless otherwise specified)</span></p>
+                                <p><span class="preview">Production release: A minimum of 2 weeks after releasing to Preview (unless otherwise specified)</span></p>
                             </li>
                         </ul>
                     </td>
