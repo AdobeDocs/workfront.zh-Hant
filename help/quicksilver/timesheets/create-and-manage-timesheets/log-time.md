@@ -5,8 +5,9 @@ title: 記錄時間
 description: 您可以在&nbsp；Adobe Workfront中記錄工作專案的時間，以指出您花在專案上的小時數。 您也可以記錄與工作無關的時間，例如假期、病假或會議時間。 您的記錄時間會顯示在您的時程表中。
 author: Alina
 feature: Timesheets
+role: User
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: 38a7329ebac4051439601ddd8ad2a89ee24c7971
+source-git-commit: 4a4efe7d8a354bc9ec22a607fe6e75040e7cca24
 workflow-type: tm+mt
 source-wordcount: '3337'
 ht-degree: 0%

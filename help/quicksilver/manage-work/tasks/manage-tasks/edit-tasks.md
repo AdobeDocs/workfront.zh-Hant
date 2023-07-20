@@ -4,9 +4,10 @@ navigation-topic: manage-tasks
 title: 編輯任務
 description: 您可以編輯已建立或您擁有Contribute或「管理」許可權之工作的相關資訊。
 author: Alina
-feature: Work Management
+feature: Work Management, Tasks
+role: User
 exl-id: 572c6008-3a67-47ae-8f5d-6b871ef1f37b
-source-git-commit: f8d596121f90d4f0c57e65cc415d1df87c14730c
+source-git-commit: 4a4efe7d8a354bc9ec22a607fe6e75040e7cca24
 workflow-type: tm+mt
 source-wordcount: '3711'
 ht-degree: 4%

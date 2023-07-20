@@ -4,9 +4,10 @@ navigation-topic: create-tasks
 title: 在專案中建立任務
 description: 只有在建立專案後，您才能在專案中建立任務。
 author: Alina
-feature: Work Management
+feature: Work Management, Tasks
+role: User
 exl-id: 96f80e7b-6ad5-40ae-861d-8d97c570f2ac
-source-git-commit: af6e906035073cde4782b73bdab39b02026cb20a
+source-git-commit: 4a4efe7d8a354bc9ec22a607fe6e75040e7cca24
 workflow-type: tm+mt
 source-wordcount: '792'
 ht-degree: 1%

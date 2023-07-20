@@ -4,9 +4,10 @@ navigation-topic: create-tasks
 title: 建立週期性任務
 description: 您可以為必須重複的任務建立週期性任務，作為單一專案的一部分。
 author: Alina
-feature: Work Management
+feature: Work Management, Tasks
+role: User
 exl-id: dbde5419-02ce-456b-a430-b2825d81fb87
-source-git-commit: f8d596121f90d4f0c57e65cc415d1df87c14730c
+source-git-commit: 4a4efe7d8a354bc9ec22a607fe6e75040e7cca24
 workflow-type: tm+mt
 source-wordcount: '925'
 ht-degree: 0%
@@ -66,7 +67,7 @@ ht-degree: 0%
 
    >[!TIP]
    >
-   >   為新週期性任務指示的持續時間和計畫時數是每個週期性任務的持續時間和計畫時數。 父系任務的工期是介於最早任務的「計劃開始日期」與最近任務的「計畫完成日期」之間的時間。 父系任務的計畫時數是所有遞回的所有計畫時數總計。
+   >   為新週期性任務指定的持續時間和計畫時數是每個事件的持續時間和計畫時數。 父系任務的工期是介於最早任務的「計劃開始日期」與最近任務的「計畫完成日期」之間的時間。 父系任務的計畫時數是所有發生次數的所有計畫時數總計。
 
 1. 按一下 **概觀** 在左側面板中。
 1. 向下捲動至 **遞回排程** 區段，然後選取 **將此任務設為遞回任務** 選項。

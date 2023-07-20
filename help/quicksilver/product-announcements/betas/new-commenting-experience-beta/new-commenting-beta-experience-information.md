@@ -5,8 +5,9 @@ title: 有關新註解Beta版體驗的資訊
 description: 我們目前在大多數Adobe Workfront物件的「更新」區段中推出新的評論體驗。 以下文章記錄了在新體驗中目前可用的功能。
 author: Alina
 feature: Product Announcements
+role: User, Admin
 exl-id: 5909b09d-626e-4294-9048-6db940f45e37
-source-git-commit: 976e8c7fe0362392928ac9cd6be1a9ba7c653dda
+source-git-commit: 4a4efe7d8a354bc9ec22a607fe6e75040e7cca24
 workflow-type: tm+mt
 source-wordcount: '82'
 ht-degree: 0%
