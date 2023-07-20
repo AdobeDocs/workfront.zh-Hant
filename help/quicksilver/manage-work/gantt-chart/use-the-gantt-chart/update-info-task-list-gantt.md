@@ -6,9 +6,9 @@ description: 任務清單「甘特圖」會顯示專案或範本上任務的詳�
 author: Alina
 feature: Work Management
 exl-id: 0a8e6fd5-985c-49e5-842d-67ade29ee1c9
-source-git-commit: 7c373707f6e5ec1431e38cc0e103e25cd8cf2309
+source-git-commit: e2f6eada24b4e48bce58189ec16447eda89f4a09
 workflow-type: tm+mt
-source-wordcount: '1021'
+source-wordcount: '1036'
 ht-degree: 1%
 
 ---
@@ -99,7 +99,7 @@ ht-degree: 1%
 
    此 **[!UICONTROL 自動儲存]** 選項預設為選取，在此情況下，所有變更都會自動儲存。
 
-   ![](assets/qs-gantt-icon-on-task-list-highlighted-350x199.png)
+   ![按一下甘特圖圖示](assets/click-gantt-chart-icon.png)
 
 1. （可選）按一下 **[!UICONTROL 計畫模式]** 圖示並選取 **[!UICONTROL 手動儲存標準]** 或 **[!UICONTROL 時間表規劃]** 以手動儲存變更。
 
@@ -131,7 +131,7 @@ ht-degree: 1%
 
    所有變更會在 **[!UICONTROL 自動儲存]** 選項已啟用。 預設為啟用。
 
-   ![](assets/qs-gantt-icon-on-task-list-highlighted-350x199.png)
+   ![按一下甘特圖圖示](assets/click-gantt-chart-icon.png)
 
 1. （可選）按一下 **[!UICONTROL 計畫模式]** 圖示並選取 **[!UICONTROL 手動儲存標準]** 或 **[!UICONTROL 時間表規劃]** 以手動儲存變更。
 
@@ -178,7 +178,7 @@ ht-degree: 1%
 1. 前往您要修改的專案。
 1. 在 **[!UICONTROL 任務]** 區域，按一下 **[!UICONTROL 甘特圖]** 圖示。
 
-   ![](assets/qs-gantt-icon-on-task-list-highlighted-350x199.png)
+   ![按一下甘特圖圖示](assets/click-gantt-chart-icon.png)
 
    所有變更會在 **[!UICONTROL 自動儲存]** 選項已啟用。 預設為啟用。
 
