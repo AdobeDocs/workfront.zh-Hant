@@ -6,9 +6,9 @@ title: 看板電子郵件通知和偏好設定
 description: Adobe Workfront展示板會在您將您新增至展示板及指派卡片給您時傳送電子郵件給您。
 author: Lisa
 exl-id: 7ec9f9cc-274c-4253-8441-d7ffe9afd78d
-source-git-commit: bda865111eacf5df874a09f184db039b5f837765
+source-git-commit: a4ccd48956fedbafc04ce19198592efdad49e5a3
 workflow-type: tm+mt
-source-wordcount: '166'
+source-wordcount: '153'
 ht-degree: 1%
 
 ---
@@ -16,10 +16,6 @@ ht-degree: 1%
 # 看板電子郵件通知和偏好設定
 
 [!DNL Adobe Workfront] [!UICONTROL 展示板] 會在您將您新增至展示板以及將卡片指派給您時傳送電子郵件給您。 通知預設為開啟，您可以在面板偏好設定中選取要接收哪些電子郵件。
-
->[!NOTE]
->
->電子郵件通知只能透過Workfront展示板的早期功能選擇加入取得。
 
 ## 存取需求
 

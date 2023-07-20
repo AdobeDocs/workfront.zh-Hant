@@ -6,9 +6,9 @@ description: 您可以快速將臨機操作卡新增至展示板，並將其指�
 author: Lisa
 feature: Agile
 exl-id: 9bc1f92a-85b0-44fd-b5de-09a69af6def5
-source-git-commit: c1fab97289f1806676f9d80ccaa640fffa5192e5
+source-git-commit: 964273ad38230e28411083cf616617e14b2d2d0e
 workflow-type: tm+mt
-source-wordcount: '931'
+source-wordcount: '885'
 ht-degree: 0%
 
 ---
@@ -101,15 +101,11 @@ ht-degree: 0%
       <td role="rowheader"><strong>[！UICONTROL註解]</strong></td>
       <td><p>按一下 <strong>[！UICONTROL新註解]</strong> 欄位並輸入您的註解。 使用格式化工具來格式化文字，然後按一下 <strong>新增附件</strong> 圖示 <img src="assets/attachment-icon.png" alt="附件圖示"> 將檔案附加至註解。 若要標籤人員或團隊，請使用註釋區域底部的搜尋方塊。 使用者不必是展示板的成員。</p><p><strong>注意：</strong> 目前，在臨時資訊卡上標籤為評論的使用者不會收到電子郵件通知。
       </p><p>按一下 <strong>[！UICONTROL提交]</strong> 將註解新增至卡片。</p>
-      <p><strong>注意：</strong> 卡片上的註解區域會使用新的Adobe Workfront註解體驗。 如需詳細資訊，請參閱 <a href="/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md">更新工作</a>.</p><p><strong>注意：</strong> 只有在Workfront展示板的早期功能選擇加入中，才可使用卡片上的註解。</p></td>
+      <p><strong>注意：</strong> 卡片上的註解區域會使用新的Adobe Workfront註解體驗。 如需詳細資訊，請參閱 <a href="/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md">更新工作</a>.</p></td>
      </tr>
     </tbody> 
    </table>
 
-   未使用早期功能選擇加入時，生產環境中的範例影像：
-   ![臨機卡片詳細資料](assets/boards-edit-ad-hoc-card-041723.png)
-
-   早期功能選擇加入啟用時，生產環境中的範例影像：
    ![臨機卡片詳細資料](assets/ad-hoc-card-details-with-comments.png)
 
    使用左側導覽面板在卡片詳細資訊的欄位區段之間移動。

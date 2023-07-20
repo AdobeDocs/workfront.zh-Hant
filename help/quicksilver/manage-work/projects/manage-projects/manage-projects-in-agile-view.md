@@ -6,16 +6,14 @@ description: 必要的計畫、授權型別和存取Adobe Workfront計畫團隊�
 author: Alina
 feature: Work Management
 exl-id: fc633fd6-35b4-4949-8045-22c775002436
-source-git-commit: 11e239bd47a007adbec1770dafc7f7a5d97eb57e
+source-git-commit: a4ccd48956fedbafc04ce19198592efdad49e5a3
 workflow-type: tm+mt
-source-wordcount: '1432'
+source-wordcount: '1384'
 ht-degree: 0%
 
 ---
 
 # 在敏捷檢視中管理專案
-
-{{highlighted-preview}}
 
 <!--
 Required plans, license types, and access
@@ -82,7 +80,7 @@ Required plans, license types, and access
 
 >[!NOTE]
 >
-><span class="preview">本節僅適用於舊版敏捷檢視，不適用於專案的展示板檢視。</span>
+>本節僅適用於舊版敏捷檢視，不適用於專案的展示板檢視。
 
 * [專案中的敏捷功能](#agile-functionality-in-a-project)
 * [在專案與疊代上使用敏捷檢視時的差異](#differences-when-using-the-agile-view-on-a-project-versus-on-an-iteration)
@@ -164,25 +162,19 @@ Required plans, license types, and access
 ## 在敏捷檢視中檢視專案
 
 1. 前往您要在敏捷檢視中檢視的專案。
-1. 按一下 **敏捷** 圖示 ![敏捷圖示](assets/agile-icon-nwe.png).
+1. 按一下 **展示板** 圖示 ![展示板圖示](assets/board-icon-for-agile-view.png).
 
-   <span class="preview">或</span>
-
-   <span class="preview">按一下 **展示板** 圖示 ![展示板圖示](assets/board-icon-for-agile-view.png).</span>
-
-   專案會顯示在預設的敏捷檢視中。
-
-   <span class="preview">在「預覽」環境中，預設會顯示電路板檢視。</span>
+   預設會顯示專案的展示板檢視。
 
    ![專案展示板檢視](assets/project-agile-board-view.png)
 
-   （僅限舊版敏捷檢視）如果您先前在自訂敏捷檢視中檢視過專案，則專案會顯示在該檢視中，而不是預設敏捷檢視中。
+   <!--(Legacy agile view only) If you previously viewed the project in a custom agile view, the project is displayed in that view rather than in the default agile view.-->
 
-1. <span class="preview">（可選）按一下 **設定** 以設定欄和卡片的選項。</span>
+1. （可選）按一下 **設定** 以設定欄和卡片的選項。
 
-   <span class="preview">如需詳細資訊，請參閱 [管理展示板欄](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md) 和 [自訂卡片上顯示的欄位](/help/quicksilver/agile/get-started-with-boards/customize-fields-on-card.md). 請注意，您無法在專案的展示板檢視上定義欄原則。</span>
+   如需詳細資訊，請參閱 [管理展示板欄](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md) 和 [自訂卡片上顯示的欄位](/help/quicksilver/agile/get-started-with-boards/customize-fields-on-card.md). 請注意，您無法在專案的展示板檢視上定義欄原則。
 
-1. <span class="preview">（可選）按一下 **使用舊版敏捷** 使用舊版敏捷檢視而不使用展示板檢視。</span>
+1. （可選）按一下 **使用舊版敏捷** 使用舊版敏捷檢視而不使用展示板檢視。
 
 1. （選用 — 僅限舊版敏捷檢視）如果您已建立自訂敏捷檢視，或如果另一個使用者已建立自訂敏捷檢視並與您共用，您可以檢視它而不是預設敏捷檢視。
 
@@ -200,14 +192,13 @@ Required plans, license types, and access
 
    若要將狀態新增至敏捷檢視，請建立新的敏捷檢視或自訂現有的敏捷檢視，如文章的「建立或自訂敏捷檢視」一節中所述 [Adobe Workfront中的檢視概觀](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
 
-1. （可選）若要返回清單檢視，請按一下 **清單** 圖示。\
-   ![清單圖示](assets/list-icon.png)
+1. （可選）若要返回清單檢視，請按一下 **清單** 圖示。
 
 ## 建立和自訂敏捷檢視 {#create-and-customize-agile-views}
 
 >[!NOTE]
 >
-><span class="preview">本節僅適用於舊版敏捷檢視，不適用於專案的展示板檢視。</span>
+>本節僅適用於舊版敏捷檢視，不適用於專案的展示板檢視。
 
 和Workfront中的標準檢視一樣，您可以自訂現有的敏捷檢視或從頭開始建立新的敏捷檢視。 與標準檢視不同，您無法根據現有的敏捷檢視建立新的敏捷檢視。
 
@@ -217,7 +208,7 @@ Required plans, license types, and access
 
 >[!NOTE]
 >
-><span class="preview">本節僅適用於舊版敏捷檢視，不適用於專案的展示板檢視。</span>
+>本節僅適用於舊版敏捷檢視，不適用於專案的展示板檢視。
 
 有關如何共用敏捷檢視的資訊，請參閱 [共用篩選、檢視或群組](../../../reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md).
 
@@ -225,6 +216,6 @@ Required plans, license types, and access
 
 >[!NOTE]
 >
-><span class="preview">本節僅適用於舊版敏捷檢視，不適用於專案的展示板檢視。</span>
+>本節僅適用於舊版敏捷檢視，不適用於專案的展示板檢視。
 
 如需有關如何刪除檢視的資訊，請參閱文章中的「移除檢視」一節 [Adobe Workfront中的檢視概觀](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).

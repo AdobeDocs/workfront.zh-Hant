@@ -6,7 +6,7 @@ description: 您可以篩選展示板以僅顯示特定卡片。
 author: Lisa
 feature: Agile
 exl-id: 26abce82-dcd9-4865-96f4-c710f7f0a0d8
-source-git-commit: 05cac2441474e0f6ecf18aa777a5a66fefb2dba8
+source-git-commit: a4ccd48956fedbafc04ce19198592efdad49e5a3
 workflow-type: tm+mt
 source-wordcount: '624'
 ht-degree: 0%
@@ -14,8 +14,6 @@ ht-degree: 0%
 ---
 
 # 在展示板中篩選和搜尋
-
-{{highlighted-preview}}
 
 您可以篩選要顯示的展示板：
 
@@ -26,7 +24,7 @@ ht-degree: 0%
 * 已封存的卡片
 * 連線到特定專案的卡片
 
-<span class="preview">排序展示板會排序欄中的所有卡片。 您無法排序單一欄，而且未排序待處理專案或輸入欄。</span>
+排序展示板會排序欄中的所有卡片。 您無法排序單一欄，而且未排序待處理專案或輸入欄。
 
 搜尋也可協助您在展示板上找到特定卡片。
 
@@ -110,8 +108,6 @@ ht-degree: 0%
 
    ![依連線篩選](assets/boards-filter-by-connection.png)
 
-<div class="preview">
-
 ## 在展示板上排序
 
 當您選取排序依據的選項時，所有欄都會排序。 您無法排序單一欄，而且未排序待處理專案或輸入欄。
@@ -130,8 +126,6 @@ ht-degree: 0%
    套用預設以外的排序時，排序圖示上會顯示指標 ![已套用排序](assets/sort-applied-boards.png).
 
    ![依展示板上的欄排序](assets/sort-by-columns-in-board.png)
-
-</div>
 
 ## 在展示板中搜尋
 

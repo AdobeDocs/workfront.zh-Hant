@@ -6,16 +6,14 @@ description: 您可以使用檢視來自訂顯示在熒幕上的資訊型別。 
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 8fcd6320-c939-4195-8972-5c31575f78cb
-source-git-commit: 11e239bd47a007adbec1770dafc7f7a5d97eb57e
+source-git-commit: a4ccd48956fedbafc04ce19198592efdad49e5a3
 workflow-type: tm+mt
-source-wordcount: '1787'
+source-wordcount: '1777'
 ht-degree: 1%
 
 ---
 
 # 在Adobe Workfront中建立或編輯檢視
-
-{{highlighted-preview}}
 
 您可以使用檢視來自訂顯示在熒幕上的資訊型別。 您可以在Adobe Workfront中使用數種檢視。
 
@@ -150,16 +148,12 @@ ht-degree: 1%
 
 >[!NOTE]
 >
-><span class="preview">此程式僅適用於舊版敏捷檢視，不適用於專案的展示板檢視。</span>
+>此程式僅適用於舊版敏捷檢視，不適用於專案的展示板檢視。
 
 若要建立或自訂敏捷檢視：
 
 1. 前往專案上的任務清單。
-1. 按一下 **敏捷分鏡指令碼** 圖示 ![敏捷分鏡指令碼圖示](assets/agile-storyboard-nwe.png).
-
-   <span class="preview">或</span>
-
-   <span class="preview">按一下 **展示板** 圖示 ![展示板圖示](assets/board-icon-for-agile-view.png)，然後按一下 **使用舊版敏捷** 在展示板檢視上。</span>
+1. 按一下 **展示板** 圖示 ![展示板圖示](assets/board-icon-for-agile-view.png)，然後按一下 **使用舊版敏捷** 在展示板檢視上。
 
 1. （視條件而定）若要自訂現有的敏捷檢視：
 
@@ -255,4 +249,4 @@ ht-degree: 1%
 1. 按一下&#x200B;**儲存**。\
    您的存取權會指定檢視的儲存方式。 如果您最初建立了檢視，則可以儲存變更；否則，系統會提示您儲存版本。 請記住，您對檢視所做的變更會影響已共用檢視的使用者。
 
-1. （可選）按一下 **清單檢視** 圖示 ![](assets/list-view-in-agile-view-for-tasks.png) 以返回任務清單。
+1. （可選）按一下 **清單** 圖示以返回任務清單。

@@ -6,9 +6,9 @@ title: 的早期功能選擇加入 [!DNL Adobe Workfront] 展示板
 description: 閱讀本文章，瞭解 [!DNL Workfront Boards] 早期功能選擇加入。
 author: Lisa
 exl-id: c4a6b045-b0f3-4d4d-994c-c03ef7ad25c8
-source-git-commit: 80e0a053f39991d3ed8d9bd2a11a8da2d5de588e
+source-git-commit: a4ccd48956fedbafc04ce19198592efdad49e5a3
 workflow-type: tm+mt
-source-wordcount: '705'
+source-wordcount: '700'
 ht-degree: 0%
 
 ---
@@ -158,7 +158,7 @@ ht-degree: 0%
   </tr>
   <tr>
    <td>定義面板的電子郵件通知</td>
-   <td>已部分發行</td>
+   <td>已發行</td>
   </tr>
   <tr>
    <td>將舊版Kanban卡移轉至面板</td>
@@ -166,19 +166,19 @@ ht-degree: 0%
   </tr>
   <tr>
    <td>建立動態面板</td>
-   <td>已部分發行</td>
+   <td>已發行</td>
   </tr>
   <tr>
    <td>在卡片詳細資訊上使用左側導覽</td>
-   <td>已部分發行</td>
+   <td>已發行</td>
   </tr>
   <tr>
    <td>在輸入欄上使用簡化的篩選器</td>
-   <td>已部分發行</td>
+   <td>已發行</td>
   </tr>
   <tr>
    <td>在臨時和連線的卡片上使用註解</td>
-   <td>已部分發行</td>
+   <td>已發行</td>
   </tr>
  </tbody> 
 </table>
