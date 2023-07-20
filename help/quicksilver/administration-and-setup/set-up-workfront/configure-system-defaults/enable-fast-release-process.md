@@ -7,7 +7,7 @@ description: 您可以選擇您要每月或每季接收新的Workfront功能。
 author: Becky
 feature: System Setup and Administration
 role: Admin
-source-git-commit: 9f6338dc79740e13b71e9266fed17f6dc61039e1
+source-git-commit: 9ebcbf43d4cf84d1f68aeff7e443f41193a9fe76
 workflow-type: tm+mt
 source-wordcount: '373'
 ht-degree: 1%
@@ -15,8 +15,6 @@ ht-degree: 1%
 ---
 
 # 啟用或停用貴組織的快速發行
-
-{{highlighted-preview-article-level}}
 
 Adobe Workfront有兩種發佈新功能和更新的模式。 您可以選擇每季接收新功能，還是以更快的發行時間表接收。
 
