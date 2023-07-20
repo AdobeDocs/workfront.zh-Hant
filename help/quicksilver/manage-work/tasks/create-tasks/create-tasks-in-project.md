@@ -6,9 +6,9 @@ description: 只有在建立專案後，您才能在專案中建立任務。
 author: Alina
 feature: Work Management
 exl-id: 96f80e7b-6ad5-40ae-861d-8d97c570f2ac
-source-git-commit: f8d596121f90d4f0c57e65cc415d1df87c14730c
+source-git-commit: af6e906035073cde4782b73bdab39b02026cb20a
 workflow-type: tm+mt
-source-wordcount: '789'
+source-wordcount: '792'
 ht-degree: 1%
 
 ---
@@ -23,8 +23,8 @@ ht-degree: 1%
 
 本文說明如何從頭開始建立工作。 您也可以以下列方式建立任務：
 
-* 複製或複製現有任務。 如需詳細資訊，請參閱 [複製和複製任務](../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md).
-* 將任務從一個專案移動到另一個專案。 如需詳細資訊，請參閱 [移動任務](../../../manage-work/tasks/manage-tasks/move-tasks.md).
+* 複製或複製現有任務。 如需詳細資訊，請參閱 [複製和複製任務](../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md).
+* 將任務從一個專案移動到另一個專案。 如需詳細資訊，請參閱 [移動任務](../../../manage-work/tasks/manage-tasks/move-tasks.md).
 
 ## 存取需求
 
@@ -89,7 +89,7 @@ ht-degree: 1%
 1. （視條件而定）如果您目前正在敏捷檢視中檢視任務清單，請按一下 **清單檢視** 圖示 ![](assets/list-view-in-agile-view-for-tasks.png) 以顯示「工作清單」。
 1. （可選）按一下 **計畫模式** 圖示 ![](assets/nwe-plan-mode-icon-task-list.png) 並選取 **手動儲存**，然後選取 **標準** 或 **時間表規劃**. 這樣會停用 **自動儲存** 選項，預設為啟用。
 
-   ![](assets/nwe-autosave-off-manual-highlighted-350x58.png)
+   ![選取手動儲存](assets/manual-save-option.png)
 
    >[!TIP]
    >
