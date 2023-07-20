@@ -4,20 +4,18 @@ description: 23.3版本總覽
 author: Becky
 feature: Product Announcements
 exl-id: 9bf786e2-e077-4504-b928-9091fcb61ec1
-source-git-commit: bcb657df8b38c6bdea5c24a917a9adad51da017d
+source-git-commit: 29ef11a804cbb7e8da9ddac13bf51de7aa50db53
 workflow-type: tm+mt
-source-wordcount: '2657'
+source-wordcount: '2648'
 ht-degree: 0%
 
 ---
 
 # 23.3版本總覽
 
-本頁提供23.3版本預計於2023年7月17日當週所包含功能的相關資訊。
+本頁提供23.3版本中包含的功能相關資訊。 這些增強功能已在2023年7月20日和21日發行的23.3版本中在生產環境中提供。
 
-此頁面的增強功能可在預覽環境中取得。 隨著23.3版接近其規劃的生產版本，此頁面將透過其他增強功能進行更新。
-
-23.3版本網路研討會將於2023年6月29日舉行。 您可以 [在這裡報名參加網路研討會](https://webinars.on24.com/adobe_workfront/whatsnewin233?partnerref=exlreleaseoverview).
+23.3版本網路研討會於2023年6月29日舉行。 您可以 [報名參加網路研討會，在這裡觀看隨選錄影](https://webinars.on24.com/adobe_workfront/whatsnewin233?partnerref=exlreleaseoverview).
 
 <span class="preview">非週期功能（在23.3發行日期之前發佈到生產環境的功能）會以黃色標示。</span>
 
@@ -116,7 +114,7 @@ ht-degree: 0%
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">專案的敏捷檢視顯示看板</a><span style="color: #ff0000;"> 預覽中的新增功能！</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">專案的敏捷檢視顯示看板</a></p>
                         <p>專案的敏捷檢視現在包含附加功能，用於篩選、分組和排序看板中的工作。 全新的彈性檢視設計包含強大的搜尋功能，並可直接從展示板將新任務新增至專案。</p>
                     </td>
                     <td><p><b>在以下日期可用：</b></p>
@@ -132,7 +130,7 @@ ht-degree: 0%
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">依展示板欄排序</a><span style="color: #ff0000;"> 預覽中的新增功能！</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">依展示板欄排序</a></p>
                         <p>我們新增了排序展示板欄中卡片的功能。 當您選取排序依據的選項時，所有欄都會排序。 您無法排序單一欄，而且未排序待處理專案或輸入欄。</p>
                     </td>
                     <td><p><b>在以下日期可用：</b></p>
@@ -189,7 +187,7 @@ ht-degree: 0%
                                 <p>預覽版本： 2023年6月15日</p>
                             </li>
                             <li>
-                                 <p>提前選擇加入的生產版本： 2023年6月22日 <span style="color: #ff0000;"> 此功能只能透過Workfront展示板的早期功能選擇加入在生產環境中使用。</span></p>
+                                 <p>提前選擇加入的生產版本： 2023年6月22日 <span style="color: #ff0000;"> 此功能的推出必須透過Workfront展示板的早期功能選擇加入，才能在生產環境中使用。</span></p>
                                 <p>適用於所有客戶的生產版本：透過23.3版本</p>
                             </li>
                         </ul>
@@ -222,7 +220,7 @@ ht-degree: 0%
                                 <p>預覽版本： 2023年5月10日<br /></p>
                             </li>
                             <li>
-                                 <p>提前選擇加入的生產版本： 2023年5月10日 <span style="color: #ff0000;"> 此功能只能透過Workfront展示板的早期功能選擇加入在生產環境中使用。</span></p>
+                                 <p>提前選擇加入的生產版本： 2023年5月10日 <span style="color: #ff0000;"> 此功能的推出必須透過Workfront展示板的早期功能選擇加入，才能在生產環境中使用。</span></p>
                                 <p>適用於所有客戶的生產版本：透過23.3版本</p>
                             </li>
                         </ul>
@@ -239,7 +237,7 @@ ht-degree: 0%
                                 <p>預覽版本： 2023年4月27日<br /></p>
                             </li>
                             <li>
-                                 <p>提前選擇加入的生產版本： 2023年4月28日 <span style="color: #ff0000;"> 此功能只能透過Workfront展示板的早期功能選擇加入在生產環境中使用。</span></p>
+                                 <p>提前選擇加入的生產版本： 2023年4月28日 <span style="color: #ff0000;"> 此功能的推出必須透過Workfront展示板的早期功能選擇加入，才能在生產環境中使用。</span></p>
                                 <p>適用於所有客戶的生產版本：透過23.3版本</p>
                             </li>
                         </ul>
@@ -256,7 +254,7 @@ ht-degree: 0%
                                 <p>預覽版本： 2023年4月20日<br /></p>
                             </li>
                             <li>
-                                 <p>提前選擇加入的生產版本： 2023年4月28日 <span style="color: #ff0000;"> 此功能只能透過Workfront展示板的早期功能選擇加入在生產環境中使用。</span></p>
+                                 <p>提前選擇加入的生產版本： 2023年4月28日 <span style="color: #ff0000;"> 此功能的推出必須透過Workfront展示板的早期功能選擇加入，才能在生產環境中使用。</span></p>
                                 <p>適用於所有客戶的生產版本：透過23.3版本</p>
                             </li>
                         </ul>
@@ -273,7 +271,7 @@ ht-degree: 0%
                                 <p>預覽版本： 2023年4月20日<br /></p>
                             </li>
                             <li>
-                                 <s><p>提前選擇加入的生產版本： 2023年4月28日 <span style="color: #ff0000;"> 此功能只能透過Workfront展示板的早期功能選擇加入在生產環境中使用。</span></p></s>
+                                 <s><p>提前選擇加入的生產版本： 2023年4月28日 <span style="color: #ff0000;"> 此功能的推出必須透過Workfront展示板的早期功能選擇加入，才能在生產環境中使用。</span></p></s>
                                  </li>
                                  <li>
                                 <p><span class="preview">適用於所有客戶的生產版本： 2023年5月18日</span></p>
@@ -308,7 +306,7 @@ ht-degree: 0%
                                 <p>預覽版本： 2023年4月13日<br /></p>
                             </li>
                             <li>
-                                 <p>提前選擇加入的生產版本： 2023年4月13日 <span style="color: #ff0000;"> 此功能只能透過Workfront展示板的早期功能選擇加入在生產環境中使用。</p>
+                                 <p>提前選擇加入的生產版本： 2023年4月13日 <span style="color: #ff0000;"> 此功能的推出必須透過Workfront展示板的早期功能選擇加入，才能在生產環境中使用。</p>
                                 <p>適用於所有客戶的生產版本：透過23.3版本</p>
                             </li>
                         </ul>
@@ -335,7 +333,7 @@ ht-degree: 0%
                  </tr>   
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-finance-enhancements.md" class="MCXref xref" xrefformat="{para}">日期有效成本與帳單費率</a><span style="color: #ff0000;"> 預覽中的新增功能！</span> </p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-finance-enhancements.md" class="MCXref xref" xrefformat="{para}">日期有效成本與帳單費率</a></p>
                         <p>Workfront中的公司、使用者和工作角色物件現在提供日期有效成本和計費率。 當將日期有效費率套用至專案且將時數記錄於專案任務時，成本與收入會使用每個時間期間的指定費率計算。</p>
                     </td>
                     <td><p><b>在以下日期可用：</b></p>
@@ -346,7 +344,7 @@ ht-degree: 0%
                             <li>
                                 <p>快速發行客戶的生產版本：將在23.3生產版本之後宣佈</p>
                                 <p>適用於所有客戶的生產版本：搭配23.4版<br>
-                                <span style="color: #ff0000;"> 指派率覆寫功能在2023年6月30日至7月13日期間在預覽中暫時停用。</span></p>
+                                指派率覆寫功能在2023年6月30日至7月13日期間在預覽中暫時停用。</p>
                             </li>
                         </ul>
                     </td>
@@ -606,7 +604,7 @@ ht-degree: 0%
                 </tr>
             <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-other-enhancements.md" class="MCXref xref" xrefformat="{para}">新的首頁體驗</a><span style="color: #ff0000;"> 預覽中的新增功能！</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-other-enhancements.md" class="MCXref xref" xrefformat="{para}">新的首頁體驗</a></p>
                         <p>為了讓所有型別的使用者都能更妥善地運用Workfront來滿足其特定需求，首頁收到重大更新！ 新首頁體驗提供首頁的視覺效果和內容自訂功能，讓您靈活地只顯示與工作最相關的資訊。</p>
                     </td>
                     <td><p><b>在以下日期可用：</b></p>

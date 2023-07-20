@@ -4,7 +4,7 @@ description: 在23.3發行時間範圍內的外觀和感覺更新
 author: Courtney
 feature: Product Announcements
 exl-id: 77b43c01-4476-4243-b8c4-062afe786a1d
-source-git-commit: 82f42d81970c7572f43519423ec3a8c0889aaff4
+source-git-commit: 9eda5871d6712ca46580b79275a79f0e769af58f
 workflow-type: tm+mt
 source-wordcount: '295'
 ht-degree: 0%

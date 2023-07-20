@@ -3,16 +3,16 @@ title: 23.3其他增強功能
 description: 23.3其他增強功能
 author: Lisa
 feature: Product Announcements
-source-git-commit: 281712542566aec87c51a2eccb301dd3a83a94b3
+source-git-commit: 9eda5871d6712ca46580b79275a79f0e769af58f
 workflow-type: tm+mt
-source-wordcount: '442'
+source-wordcount: '440'
 ht-degree: 0%
 
 ---
 
 # 23.3其他增強功能
 
-本頁說明23.3版對「預覽」環境所做的所有其他增強功能。 這些增強功能將在23.3版本的生產環境中提供。
+本頁說明23.3版本的所有其他增強功能。 這些增強功能已在2023年7月20日和21日發行的23.3版本中在生產環境中提供。
 
 如需23.3版本週期目前可用的所有變更清單，請參閱 [23.3版本總覽](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-release-overview.md).
 
