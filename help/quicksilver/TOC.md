@@ -3,9 +3,9 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文件、教學課程和其他資源，了解如何在您的組織中實施並有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: 1954874e7eb3a2fcb5334ea62decf001c6f1ef3a
+source-git-commit: e6f5f09876afad6979e3ff05c152f561a3632701
 workflow-type: tm+mt
-source-wordcount: '13128'
+source-wordcount: '13126'
 ht-degree: 1%
 
 ---
@@ -1906,7 +1906,7 @@ ht-degree: 1%
    * [刪除「案例規劃工具」中的計畫](scenario-planner/delete-plans.md)
    * [將專案匯入至「案例規劃工具」中的計畫](scenario-planner/import-projects-to-plans.md)
    * [情境規劃工具中的方案概觀](scenario-planner/initiatives-overview.md)
-   * [案例計畫工具中的計畫概要](scenario-planner/plans-overview.md)
+   * [「案例規劃工具」中的計畫概要](scenario-planner/plans-overview.md)
    * [更新「情境規劃工具」中的方案優先順序](scenario-planner/prioritize-initiatives.md)
    * [透過在情境規劃工具中發佈行動方案來更新或建立專案](scenario-planner/publish-scenarios-update-projects.md)
    * [協調專案與方案之間的資源配置概要](scenario-planner/overview-reconcile-allocations-between-projects-initiatives.md)
@@ -2583,7 +2583,6 @@ ht-degree: 1%
       * [總覽](proofhq-api/general/overview.md)
       * [程式碼範例](proofhq-api/general/code-samples.md)
       * [SOAP API常見問題集](proofhq-api/general/soap-api-faqs.md)
-* [隱藏的檔案](hidden-test.md)
 
 <!--
 Moved and commented out sections from line 1477 - I believe the entire section is duped but need to verify
