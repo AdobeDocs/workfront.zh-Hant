@@ -8,9 +8,9 @@ author: Courtney / Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: c2e2901b-0558-4a63-ae3c-4c3a6edf0ff0
-source-git-commit: a7b4de06965b7b5e09424fbe6f3aa2fa6c195611
+source-git-commit: ad04b732adac345bc015bb290dfd12898bb0a604
 workflow-type: tm+mt
-source-wordcount: '606'
+source-wordcount: '622'
 ht-degree: 0%
 
 ---
@@ -61,9 +61,11 @@ ht-degree: 0%
 
 表單設計工具中欄位上的圖示表示邏輯已套用至欄位。
 
-此 **D** 圖示左下角表示欄位是顯示邏輯的目標欄位（如果已在表單上進行特定選取，則會顯示此欄位）。 此 **D** 圖示右下角表示欄位用於定義顯示邏輯（此欄位上的特定選取範圍或值將顯示目標欄位）。
+此 ![目標欄位的顯示邏輯](assets/display-logic-bottom-left.png) 圖示左下角表示欄位是顯示邏輯的目標欄位（如果已在表單上進行特定選取，則會顯示此欄位）。 此 ![定義顯示邏輯圖示](assets/display-logic-bottom-right.png) 圖示右下角表示欄位用於定義顯示邏輯（此欄位上的特定選取範圍或值將顯示目標欄位）。
 
-此 **S** 圖示左下角表示欄位是略過邏輯的目標欄位（如果在表單上做了特定選擇，則表單會略過前方至此欄位）。 此 **S** 圖示右下角表示此欄位用於定義略過邏輯（此欄位上的特定選取範圍或值將略過其他欄位，並直接前往目標欄位）。
+此 ![目標欄位的略過邏輯](assets/skip-logic-bottom-left.png) 圖示左下角表示欄位是略過邏輯的目標欄位（如果在表單上做了特定選擇，則表單會略過前方至此欄位）。 此 ![定義略過邏輯圖示](assets/skip-logic-bottom-right.png) 圖示右下角表示此欄位用於定義略過邏輯（此欄位上的特定選取範圍或值將略過其他欄位，並直接前往目標欄位）。
+
+![邏輯圖示](assets/logic-icons-3.png)
 
 選取已套用邏輯的欄位會顯示欄位設定中的現有邏輯規則。
 
