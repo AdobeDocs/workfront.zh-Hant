@@ -5,9 +5,9 @@ author: Courtney
 draft: Probably
 feature: Product Announcements
 exl-id: b0e2ce08-d9f7-4fb5-b35c-ba979ab9d03e
-source-git-commit: a99c746e9863e06ccc1890fc07533f4024cb0059
+source-git-commit: a7b4de06965b7b5e09424fbe6f3aa2fa6c195611
 workflow-type: tm+mt
-source-wordcount: '2749'
+source-wordcount: '2751'
 ht-degree: 0%
 
 ---
@@ -89,7 +89,7 @@ ht-degree: 0%
                             </li>
                             <li>
                                  <p>生產版本： 23.2版<br />
-                                 <span style="color: #ff0000;">表單設計工具Beta版已於2023年5月24日在預覽和製作中暫時停用。</span></p>
+                                 <span style="color: #ff0000;">2023年5月24日至7月21日期間，表單設計工具Beta版在預覽和製作中暫時停用。</span></p>
                             </li>
                         </ul>
                     </td>
@@ -97,7 +97,7 @@ ht-degree: 0%
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-admin-enhancements.md" class="MCXref xref" xrefformat="{para}">重新命名版面配置範本中的圖釘</span></a>
-                        </span></a><p>您現在可以重新命名版面配置範本中的圖釘，使其對使用者更有意義，而不是使用釘選頁面的預設名稱。 管理員建立的pin會針對指派給版面配置範本的所有使用者顯示，使用者無法重新命名這些pin。</p>
+                        <p>您現在可以重新命名版面配置範本中的圖釘，使其對使用者更有意義，而不是使用釘選頁面的預設名稱。 管理員建立的pin會針對指派給版面配置範本的所有使用者顯示，使用者無法重新命名這些pin。</p>
                     </td>
                     <td><p><b>在以下日期可用：</b></p>
                         <ul>
@@ -480,7 +480,7 @@ ht-degree: 0%
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-mobile-enhancements.md" class="MCXref xref" xrefformat="{para}">行動應用程式中的生物測定登入和展示板集合</span></a>
-                        </span></a><p>生物測定登入現在是可讓您更快登入行動應用程式的選項！ 在初次登入後設定生物特徵辨識驗證後，使用者將可以使用指紋或臉部辨識，快速重新登入應用程式，只需偶爾重新驗證密碼即可。 此外，一般登入體驗也有許多外觀上的改善，將於稍後更新提供。</p>
+                        <p>生物測定登入現在是可讓您更快登入行動應用程式的選項！ 在初次登入後設定生物特徵辨識驗證後，使用者將可以使用指紋或臉部辨識，快速重新登入應用程式，只需偶爾重新驗證密碼即可。 此外，一般登入體驗也有許多外觀上的改善，將於稍後更新提供。</p>
                         <p>行動應用程式現在也支援面板集合，可讓行動使用者從行動面板清單檢視在案頭版本中他們可以存取的任何集合。</p>
                     </td>
                     <td><p><b>在以下日期可用：</b></p>
@@ -592,7 +592,7 @@ ht-degree: 0%
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-other-enhancements.md" class="MCXref xref" xrefformat="{para}">在Adobe Workfront for XD中將工作區域匯出為單一PDF或多個PDF檔案</span></a>
-                        </span></a><p>在XD適用的Adobe Workfront外掛程式中，您現在可以選擇將工作區域匯出為單一PDF檔案或多個PDF檔案。</p>
+                        <p>在XD適用的Adobe Workfront外掛程式中，您現在可以選擇將工作區域匯出為單一PDF檔案或多個PDF檔案。</p>
                     </td>
                     <td><p><b>在以下日期可用：</b></p>
                         <ul>

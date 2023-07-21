@@ -5,9 +5,9 @@ author: Courtney
 draft: Probably
 feature: Product Announcements
 exl-id: 46da311a-0e22-4def-9df8-e30b142c815d
-source-git-commit: 061d1a08a8c99b2770491ce2fcea63a9dad7a63f
+source-git-commit: a7b4de06965b7b5e09424fbe6f3aa2fa6c195611
 workflow-type: tm+mt
-source-wordcount: '442'
+source-wordcount: '407'
 ht-degree: 0%
 
 ---
@@ -29,10 +29,6 @@ ht-degree: 0%
 如需Experience Manager Assets Essentials中此功能的詳細資訊， [設定Experience Manager Assets Essentials整合](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md).
 
 ## 使用新的表單設計工具Beta版建立自訂表單
-
->[!IMPORTANT]
->
->表單設計工具Beta版已於2023年5月24日暫時停用。 您可以使用舊版表單產生器來建立和編輯自訂表單。 另請參閱 [使用舊版表單產生器建立或編輯自訂表單](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/use-the-custom-form-builder.md).
 
 新的表單設計工具現在可在公開測試版中使用，它有一個新的畫布樣式工作區，可讓您同時檢視欄位、畫布和欄位設定。
 

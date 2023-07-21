@@ -4,22 +4,18 @@ user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
 description: 您可以設計使用者可附加至Workfront物件的自訂表單。 處理物件的使用者可以填寫自訂表格，以提供物件的相關資訊。
-author: Courtney
+author: Courtney / Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: c2e2901b-0558-4a63-ae3c-4c3a6edf0ff0
-source-git-commit: 061d1a08a8c99b2770491ce2fcea63a9dad7a63f
+source-git-commit: a7b4de06965b7b5e09424fbe6f3aa2fa6c195611
 workflow-type: tm+mt
-source-wordcount: '435'
-ht-degree: 1%
+source-wordcount: '606'
+ht-degree: 0%
 
 ---
 
 # 表單設計工具概觀
-
->[!IMPORTANT]
->
->表單設計工具已於2023年5月24日暫時停用。 您可以使用舊版表單產生器來建立和編輯自訂表單。 另請參閱 [使用舊版表單產生器建立或編輯自訂表單](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/use-the-custom-form-builder.md).
 
 您可以使用新的表單設計工具來設計使用者可附加至Workfront物件的自訂表單。 處理物件的使用者可以填寫自訂表格，以提供物件的相關資訊。
 
@@ -31,7 +27,7 @@ ht-degree: 1%
 
 新表單設計工具與舊版表單產生器頂端都會有一個新按鈕。 您可以使用此按鈕在舊版產生器和新設計工具之間切換。
 
-![](assets/switch-views.png)
+![切換至新的表單設計工具](assets/switch-views.png)
 
 ## 表單設計工具可用的新功能
 
@@ -43,9 +39,9 @@ ht-degree: 1%
 
 * **使用預設區段**：如果表單建立者尚未在表單頂端新增區段，畫布中現在會顯示預設區段，以便使用者調整未指派自訂區段的欄位許可權。
 
-   >[!NOTE]
-   >
-   >將表單附加至物件後，物件中就不會顯示預設區段。
+  >[!NOTE]
+  >
+  >將表單附加至物件後，物件中就不會顯示預設區段。
 
 ## 功能即將推出
 
@@ -59,6 +55,20 @@ ht-degree: 1%
 >
 >使用新表單設計工具時，邏輯和預先輸入篩選器的現有設定不受影響。
 
+### 顯示/略過邏輯
+
+雖然在設計新的自訂表單時您還不能新增顯示/略過邏輯，但您可以檢視在舊版表單產生器中建立的表單上的現有顯示/略過邏輯。
+
+表單設計工具中欄位上的圖示表示邏輯已套用至欄位。
+
+此 **D** 圖示左下角表示欄位是顯示邏輯的目標欄位（如果已在表單上進行特定選取，則會顯示此欄位）。 此 **D** 圖示右下角表示欄位用於定義顯示邏輯（此欄位上的特定選取範圍或值將顯示目標欄位）。
+
+此 **S** 圖示左下角表示欄位是略過邏輯的目標欄位（如果在表單上做了特定選擇，則表單會略過前方至此欄位）。 此 **S** 圖示右下角表示此欄位用於定義略過邏輯（此欄位上的特定選取範圍或值將略過其他欄位，並直接前往目標欄位）。
+
+選取已套用邏輯的欄位會顯示欄位設定中的現有邏輯規則。
+
+![邏輯規則](assets/form-designer-view-only-logic.png)
+
 ## 從表單設計工具中移除的功能
 
 我們已從表單設計工具內部移除下列功能：
@@ -69,11 +79,12 @@ ht-degree: 1%
    * 表單設定現在可在畫布頂端使用
 
    * 「表單共用」主標籤和「欄位共用」子標籤
-   >[!NOTE]
-   >
-   >您可以從「設定>自訂Forms > Forms」或「欄位」索引標籤控制表單和欄位共用。
+
+  >[!NOTE]
+  >
+  >您可以從「設定>自訂Forms > Forms」或「欄位」索引標籤控制表單和欄位共用。
 
 * 追蹤更新摘要中的欄位變更
-   >[!NOTE]
-   >
-   >您可在設定>介面>更新摘要中找到此資訊
+  >[!NOTE]
+  >
+  >您可在設定>介面>更新摘要中找到此資訊

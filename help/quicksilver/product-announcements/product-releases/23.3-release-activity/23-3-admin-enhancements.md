@@ -3,9 +3,9 @@ title: 23.3管理員增強功能
 description: 23.3管理員增強功能
 author: Lisa
 feature: Product Announcements
-source-git-commit: 9eda5871d6712ca46580b79275a79f0e769af58f
+source-git-commit: a7b4de06965b7b5e09424fbe6f3aa2fa6c195611
 workflow-type: tm+mt
-source-wordcount: '207'
+source-wordcount: '368'
 ht-degree: 0%
 
 ---
@@ -31,3 +31,15 @@ ht-degree: 0%
 如需詳細資訊，請參閱 [設定時程表和小時偏好設定](/help/quicksilver/administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md) 和 [設定群組的時程表和小時偏好設定](/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-groups/configure-timesheet-hour-preferences-group.md).
 
 [觀看此功能的影片示範](https://video.tv.adobe.com/v/3419111/){target=_blank}
+
+## 顯示邏輯，並略過表單設計工具測試版中顯示的邏輯指示器和規則
+
+表單設計工具公開測試版已於2023年7月21日在預覽和製作中重新啟用。 新的表單設計工具有一個新的畫布樣式工作區，可讓您同時檢視欄位、畫布和欄位設定。
+此外，當您在表單設計工具Beta版中開啟自訂表單時，該表單包含在舊版表單產生器中建立的顯示或略過邏輯，您現在可以檢視邏輯：
+
+* 表單設計工具畫布中欄位上的圖示表示已在該欄位上設定邏輯，或該欄位用於其他欄位上設定的邏輯規則。
+* 選取已套用邏輯的欄位會顯示欄位設定中的現有邏輯規則。
+
+表單設計工具Beta版尚未提供編輯現有邏輯和新增邏輯至自訂表單，但已規劃在未來提供。
+
+如需詳細資訊，請參閱 [表單設計工具概觀](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/form-designer-overview.md).

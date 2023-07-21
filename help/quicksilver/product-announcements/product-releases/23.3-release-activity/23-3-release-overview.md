@@ -4,9 +4,9 @@ description: 23.3版本總覽
 author: Becky
 feature: Product Announcements
 exl-id: 9bf786e2-e077-4504-b928-9091fcb61ec1
-source-git-commit: 29ef11a804cbb7e8da9ddac13bf51de7aa50db53
+source-git-commit: a7b4de06965b7b5e09424fbe6f3aa2fa6c195611
 workflow-type: tm+mt
-source-wordcount: '2648'
+source-wordcount: '2704'
 ht-degree: 0%
 
 ---
@@ -89,6 +89,22 @@ ht-degree: 0%
                             </li>
                             <li>
                                 <p><span class="preview">生產版本： 2023年5月18日</span></p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-admin-enhancements.md" class="MCXref xref" xrefformat="{para}">顯示邏輯，並略過表單設計工具測試版中顯示的邏輯指示器和規則</a></p>
+                        <p>表單設計工具公開測試版已於2023年7月21日在預覽和製作中重新啟用。 此外，您現在可以在表單設計工具中，檢視在舊版自訂表單中建立的現有邏輯規則。</p>
+                    </td>
+                    <td><p><b>在以下日期可用：</b></p>
+                        <ul>
+                            <li>
+                                <p>預覽版本： 2023年7月21日</p>
+                            </li>
+                            <li>
+                                <p>生產版本： 2023年7月21日</p>
                             </li>
                         </ul>
                     </td>
