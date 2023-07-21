@@ -4,9 +4,9 @@ description: 23.3版本總覽
 author: Becky
 feature: Product Announcements
 exl-id: 9bf786e2-e077-4504-b928-9091fcb61ec1
-source-git-commit: a7b4de06965b7b5e09424fbe6f3aa2fa6c195611
+source-git-commit: 80a2b3e3decc7beb7f7b9eb4f4933ca5938963eb
 workflow-type: tm+mt
-source-wordcount: '2704'
+source-wordcount: '2724'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,9 @@ ht-degree: 0%
 >| 每月發行 | 每季發行 |
 >|----|----|
 >| <ul><li>23.8 （2023年8月31日）</li><li>23.9 （2023年9月28日）</li><li>23.10 （2023年10月26日）</li></ul> | <ul><li>23.10 （2023年10月26日起一週）</li></ul> |
->| <ul><li>23.11 （2023年11月）</li><li>23.12 （2023年12月）</li><li>24.1 （2024年1月）</li></ul> | <ul><li>24.1 （2024年1月）</li></ul> |
+>| <ul><li>無版本（2023年11月）</li><li>無版本（2023年12月）</li><li>24.1 （2024年1月）</li></ul> | <ul><li>24.1 （2024年1月）</li></ul> |
+>
+>如需快速發行流程的詳細資訊，請參閱 [啟用或停用快速發行程式](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).
 
 ## Adobe Workfront增強功能
 
