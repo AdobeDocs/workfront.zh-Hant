@@ -6,9 +6,9 @@ description: 透過以下方式，加速團隊和個人的參與並簡化工作 
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 10419dc8-8e7b-40fb-91fe-0ddbd0a493c9
-source-git-commit: 389a4cce56b5b81db521217c9bdd2a9a25850e1c
+source-git-commit: 9f033787076a78f9693aa8d1e6cea714ea7cef2c
 workflow-type: tm+mt
-source-wordcount: '251'
+source-wordcount: '286'
 ht-degree: 0%
 
 ---
@@ -35,11 +35,9 @@ ht-degree: 0%
 * 建立及處理Workfront請求
 * 在時程表上記錄時間
 
-<!--
 >[!NOTE]
 >
->The [!DNL Adobe Workfront] mobile app is replacing the [!DNL Workfront Proof] app, which is no longer supported and will be removed entirely with the 23.4 release in October. [!DNL Workfront] customers should now use the [!DNL Adobe Workfront] mobile app for conducting their proof reviews and approvals.
--->
+>此 [!DNL Adobe Workfront] 行動應用程式正在取代 [!DNL Workfront Proof] 此應用程式已不受支援，並將於10月的23.10版本中完全移除。 [!DNL Workfront] 客戶現在應使用 [!DNL Adobe Workfront] 用於進行校訂檢閱和核准的行動應用程式。
 
 如需詳細資訊，請參閱 [!DNL Adobe Workfront] 請檢閱下列文章：
 
