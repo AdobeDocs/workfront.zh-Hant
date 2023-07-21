@@ -4,11 +4,12 @@ navigation-topic: assign-tasks
 title: 建立進階任務指派
 description: 您可以使用「進階指派」來管理任務或問題指派。
 author: Alina
-feature: Work Management
+feature: Work Management, Resource Management
+role: User
 exl-id: 09780f78-4eb8-404d-859b-d066d462776d
-source-git-commit: 793b1b0db3fcf66782cd25566df5803df955cb0d
+source-git-commit: 4041d61ada0be7195b3af3260d419a686e1ada4a
 workflow-type: tm+mt
-source-wordcount: '1309'
+source-wordcount: '1335'
 ht-degree: 0%
 
 ---
@@ -107,7 +108,9 @@ ht-degree: 0%
    >* 您可以指派多個使用者、工作角色或團隊。 您只能指派作用中的使用者、工作角色和團隊。
    >
    >
-   >* 新增使用者指派時，請注意頭像、使用者的主要角色或其電子郵件地址，以區分具有相同名稱的使用者。 使用者必須至少與一個工作角色相關聯，才能在您新增時檢視該角色。
+   >* 新增使用者指派時，請注意頭像、使用者的主要角色或其電子郵件地址，以區分具有相同名稱的使用者。
+   >使用者必須至少與一個工作角色相關聯，才能在您新增時檢視該角色。
+   >您必須在存取層級中啟用「檢視連絡人資訊」設定，使用者才能檢視使用者的電子郵件。 如需詳細資訊，請參閱 [授予使用者存取許可權](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
    >
    >
    >* <span class="preview">新增工作角色指派時，您可以搜尋工作角色或地點。 選取「系統/預設職務角色」以使用指定的預設收費率，或選取「費率卡職務角色」以修訂指定層次的費率。 如需費率卡的詳細資訊，請參閱 [管理費率卡](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md).</span>
