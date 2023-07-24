@@ -4,11 +4,12 @@ navigation-topic: create-and-manage-request-queues
 title: 建立佇列主題
 description: 「佇列主題」可與「路由規則」搭配使用，以自動將內送工作指派給使用者、工作角色、專案團隊，或將其置於專案上。 佇列主題定義必須存在才能實作路由規則的條件。
 author: Alina
-feature: Work Management
+feature: Work Management, Requests
+role: User, Admin
 exl-id: 65a74698-011f-4caa-9739-d7510faeb66f
-source-git-commit: 7ee96045e5673c51c3ce348f395226857686a923
+source-git-commit: c5053b78dd80fe9017ba96e193e59fbd9b17e7c8
 workflow-type: tm+mt
-source-wordcount: '891'
+source-wordcount: '890'
 ht-degree: 3%
 
 ---
@@ -140,14 +141,18 @@ ht-degree: 3%
      </tr> 
      <tr> 
       <td role="rowheader"><strong>請求類型</strong> </td> 
-      <td> <p>選擇此佇列主題儲存的請求型別。 可見的選項設定於 <strong>佇列詳細資訊</strong> 索引標籤中。 這是必填欄位。 </p> <p>注意：只有在「佇列詳細資訊」和「佇列主題」頁面中同時選取「請求型別」時，「請求型別」才會在「請求」區域顯示為選取專案。 如需有關設定專案的「佇列詳細資訊」區域的資訊，請參閱 <a href="../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md" class="MCXref xref">建立請求佇列</a>. </p> <p>從下列型別中選取：</p> 
-       <ul> 
-        <li>錯誤報告</li> 
-        <li>變更順序</li> 
-        <li>問題</li> 
-        <li>請求</li> 
-       </ul> <p>您的Workfront管理員可能已重新命名其中的一些選項。 </p> </td> 
-     </tr> 
+      <td> <p>選擇此佇列主題儲存的請求型別。 可見的選項設定於 <strong>佇列詳細資訊</strong> 索引標籤中。 這是必填欄位。 </p>
+
+   <p><b>附註</b>:
+
+   只有在「佇列詳細資訊」和「佇列主題」頁面中同時選取「請求型別」時，「型別」才會顯示為「請求」區域的選取專案。 如需有關設定專案的「佇列詳細資訊」區域的資訊，請參閱 <a href="../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md" class="MCXref xref">建立請求佇列</a>. </p> <p>從下列型別中選取：</p>
+   <ul>
+   <li>錯誤報告</li>
+   <li>變更順序</li>
+   <li>問題</li>
+   <li>請求</li>
+   </ul> <p>您的Workfront管理員可能已重新命名其中的一些選項。 </p> </td>
+   </tr> 
     </tbody> 
    </table>
 

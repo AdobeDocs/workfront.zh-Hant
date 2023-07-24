@@ -2,11 +2,13 @@
 product-area: requests
 navigation-topic: create-and-manage-request-queues
 title: 建立路由規則
-description: 路由規則控制Adobe Workfront在將問題提交至請求佇列時會如何處理。 如需建立請求佇列的詳細資訊，請參閱建立請求佇列。
+description: 路由規則可控制Adobe Workfront在將問題提交至請求佇列時，對問題的處理方式。 如需有關建立請求佇列的詳細資訊，請參閱建立請求佇列。
 author: Alina
-feature: Work Management
+feature: Work Management, Requests
+topic: Collaboration
+role: User, Admin
 exl-id: 640f9054-f2f8-4594-9311-e93518f58453
-source-git-commit: 7b61f6d9380365daa614c597ee7755d6d01d915d
+source-git-commit: c5053b78dd80fe9017ba96e193e59fbd9b17e7c8
 workflow-type: tm+mt
 source-wordcount: '544'
 ht-degree: 2%
@@ -15,9 +17,9 @@ ht-degree: 2%
 
 # 建立路由規則
 
-路由規則可控制Adobe Workfront在將問題提交至請求佇列時會如何處理的問題。 如需建立請求佇列的詳細資訊，請參閱 [建立請求佇列](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
+路由規則可控制Adobe Workfront在將問題提交至請求佇列時，對問題的處理方式。 如需建立「請求佇列」的詳細資訊，請參閱 [建立請求佇列](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
 
-路由規則將問題發送給最適合解決提交問題或請求的特定用戶或作業角色。 路由規則通常與隊列主題關聯，隊列主題用於控制將應用於問題或請求的路由規則。
+路由規則會將問題傳送給最能解決已提交問題或請求的特定使用者或工作角色。 路由規則通常與佇列主題相關聯，這些主題用於控制將套用至問題或請求的路由規則。
 
 ## 存取需求
 
@@ -66,26 +68,26 @@ ht-degree: 2%
    <td> <p>計劃 </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">訪問級別配置*</td> 
+   <td role="rowheader">存取層級設定*</td> 
    <td> <p>編輯專案的存取權</p> <p><b>附註</b>
 
-如果您仍無權存取，請洽詢您的Workfront管理員，他們是否在您的存取層級設定其他限制。 如需Workfront管理員如何修改您的存取層級的詳細資訊，請參閱 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>.</p> </td>
+如果您仍然沒有存取權，請詢問您的Workfront管理員是否對您的存取層級設定了其他限制。 如需有關Workfront管理員如何修改您的存取層級的資訊，請參閱 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>.</p> </td>
 </tr> 
   <tr> 
-   <td role="rowheader">物件權限</td> 
-   <td> <p> 管理專案的權限</p> <p>有關請求其他訪問的資訊，請參閱 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">請求對對象的訪問 </a>.</p> </td> 
+   <td role="rowheader">物件許可權</td> 
+   <td> <p> 管理專案的許可權</p> <p>如需請求其他存取許可權的詳細資訊，請參閱 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">要求物件的存取權 </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*若要了解您擁有的計畫、授權類型或存取權，請聯絡您的Workfront管理員
+*若要瞭解您擁有的計畫、授權型別或存取權，請聯絡Workfront管理員
 
-## 建立工藝路線規則
+## 建立路由規則
 
-1. 轉到要為請求添加路由規則的項目。
-1. 按一下 **路由規則** 中。 您可能需要按一下 **顯示更多**，然後 **路由規則**.
-1. 按一下 **新的路由規則** 來新增新規則。
-1. 為工藝路線規則指定以下資訊：
+1. 前往您要為請求新增路由規則的專案。
+1. 按一下 **路由規則** 在左側面板中。 您可能需要按一下 **顯示更多**，則 **路由規則**.
+1. 按一下 **新增路由規則** 以新增規則。
+1. 指定「路由規則」的下列資訊：
 
    <table style="table-layout:auto"> 
     <col> 
@@ -95,23 +97,23 @@ ht-degree: 2%
     <tbody> 
      <tr> 
       <td role="rowheader"><strong>名稱</strong> </td> 
-      <td> <p>路由規則的名稱。 如果您有權查看項目上的此資訊，則可以查看工藝路線規則。</p> </td> 
+      <td> <p>路由規則的名稱。 如果您有存取權檢視專案的這項資訊，則可以檢視路由規則。</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>說明</strong> </td> 
-      <td>為路由規則添加說明。</td> 
+      <td>新增路由規則的說明。</td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>預設受指派人*</strong> </td> 
-      <td>新增應指派新問題的作用中使用者或作用中工作角色。 此欄位中只能有一個預設受託人。 </td> 
+      <td>新增應指派新問題的作用中使用者或作用中工作角色。 此欄位中只能有一個預設受指派人。 </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>預設團隊*</strong> </td> 
-      <td>新增應指派新問題的作用中團隊。 此欄位中只能有一個預設團隊。
+      <td>新增新問題應指派給的活躍團隊。 此欄位中只能有一個預設團隊。
 
    <p><b>附註</b></p>
 
-   提交問題後，您可以編輯其分配並指派其他用戶、角色或團隊。 如需詳細資訊，請參閱  <a href="../../../manage-work/issues/manage-issues/assign-issues.md">指派問題 </a>.
+   提交問題後，您可以編輯其指派並指派其他使用者、角色或團隊。 如需詳細資訊，請參閱  <a href="../../../manage-work/issues/manage-issues/assign-issues.md">指派問題 </a>.
 
    </td> 
      </tr> 
@@ -124,16 +126,16 @@ ht-degree: 2%
 
    >[!NOTE]
    >
-   >*如果使用者、工作角色或團隊在與路由規則相關聯後被停用，則請求會繼續路由至這些請求。 您必須定期清點所有工藝路線規則，並將停用的分配替換為有效分配。
+   >*如果使用者、工作角色或團隊在與路由規則關聯後停用，請求會繼續路由到它們。 您必須定期清查所有製程規則，並將已停用的指派替換為有效指派。
 
-   將問題路由至專案時，擁有問題權限的使用者會收到該專案所設定的權限。 如需關於設定專案權限的資訊，請參閱 [在Adobe Workfront中共用專案](../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md).
+   將問題路由至專案時，擁有該問題許可權的使用者會獲得在該專案上設定的許可權。 如需關於設定專案許可權的資訊，請參閱 [在Adobe Workfront中共用專案](../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md).
 
    ![](assets/new-routing-rule-box-nwe-350x419.png)
 
 1. 按一下&#x200B;**儲存**。
 
-   此過程僅定義路由規則。 為確保問題在提交至請求佇列時已路由，您必須在 **隊列詳細資訊** 標籤 **預設路由**.
+   此程式只會定義路由規則。 為確保問題在提交至請求佇列時能夠被路由，您必須在 **佇列詳細資訊** 標籤下的 **預設路由**.
 
-   有關將預設路由添加到請求隊列的資訊，請參閱 [建立請求佇列](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
+   如需將「預設路由」新增至請求佇列的詳細資訊，請參閱 [建立請求佇列](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
 
-   如果要將多個路由規則與請求隊列關聯，必須建立多個隊列主題，並將每個隊列主題與單獨的路由規則關聯。 如需建立佇列主題的詳細資訊，請參閱 [建立佇列主題](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).
+   如果要將多個路由規則與請求佇列相關聯，您必須建立多個佇列主題，並將每個主題與個別的路由規則相關聯。 如需建立佇列主題的詳細資訊，請參閱 [建立佇列主題](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).

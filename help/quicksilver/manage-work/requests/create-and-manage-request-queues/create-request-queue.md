@@ -6,9 +6,9 @@ description: 您可以設定請求佇列，讓使用者可輸入專案上未計�
 author: Alina
 feature: Work Management, Requests
 topic: Collaboration
-role: User
+role: User, Admin
 exl-id: 385420aa-0962-4b67-9d0d-b153dcf302cf
-source-git-commit: 7ee96045e5673c51c3ce348f395226857686a923
+source-git-commit: c5053b78dd80fe9017ba96e193e59fbd9b17e7c8
 workflow-type: tm+mt
 source-wordcount: '2597'
 ht-degree: 2%

@@ -7,7 +7,7 @@ author: Alina
 feature: Work Management
 role: User
 exl-id: e2dce29e-7370-4580-8326-99c4437998bf
-source-git-commit: c7eb3266081a601d0aeaec1a2bd21272d05d1bc6
+source-git-commit: c5053b78dd80fe9017ba96e193e59fbd9b17e7c8
 workflow-type: tm+mt
 source-wordcount: '1457'
 ht-degree: 0%
@@ -169,7 +169,7 @@ ht-degree: 0%
    >
    >使用者必須至少與一個工作角色相關聯，才能在您新增時檢視該角色。
    >
-   您必須在存取層級中啟用「檢視連絡人資訊」設定，使用者才能檢視使用者的電子郵件。 如需詳細資訊，請參閱 [授予使用者存取許可權](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
+   >您必須在存取層級中啟用「檢視連絡人資訊」設定，使用者才能檢視使用者的電子郵件。 如需詳細資訊，請參閱 [授予使用者存取許可權](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
 
 
 1. （視條件而定）在「工作總攬」欄位中可見時，按一下 **人員圖示** ![](assets/teams.png) 在「工作總攬」方塊的右上角，開啟「進階工作總攬」方塊並建立進階工作總攬。 如需詳細資訊，請參閱 [建立進階任務指派](../../../manage-work/tasks/assign-tasks/create-advanced-assignments.md).

@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 1474e1dd-9b10-476e-9526-6577efa8d1c2
-source-git-commit: 7ee96045e5673c51c3ce348f395226857686a923
+source-git-commit: c5053b78dd80fe9017ba96e193e59fbd9b17e7c8
 workflow-type: tm+mt
-source-wordcount: '557'
+source-wordcount: '547'
 ht-degree: 0%
 
 ---
@@ -35,9 +35,12 @@ or billing record
 
 您對物件的「詳細資訊」檢視所做的變更，也會決定使用者在下列區域中看到的欄位可用性與順序：
 
-* 「新物件」方塊，例如「新任務」和「新問題」
+<!-- the New box is not affected by the LT yet. Might be in the future. Commenting this one out for now: 
+* "New object" boxes, such as New Task and New Issue
 
   ![](assets/new-task-dialog.png)
+
+-->
 
 * 「編輯物件」畫面，例如「編輯任務」、「編輯問題」和「編輯專案」
 
