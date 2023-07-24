@@ -5,9 +5,9 @@ author: Nolan
 draft: Probably
 feature: Reports and Dashboards
 exl-id: eac210d8-0e25-4aae-94f4-b26a81240482
-source-git-commit: ca70952bf0acd71f748b042852d434b560727a83
+source-git-commit: 6e6cc1db8f89b76d9903905e6ee4cf9014727ba1
 workflow-type: tm+mt
-source-wordcount: '472'
+source-wordcount: '459'
 ht-degree: 0%
 
 ---
@@ -53,7 +53,7 @@ ht-degree: 0%
      </tr>
       <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
        <td role="rowheader">本文</td> 
-       <td> <p>新增為報告中的資訊提供內容的文字。</p> <p>如需詳細資訊，請參閱[最終連結]。</p> </td> 
+       <td> <p>新增為報告中的資訊提供內容的文字。</p> </td> 
       </tr>
      <tr data-mc-conditions=""> 
       <td role="rowheader">網頁內容</td> 
@@ -61,7 +61,7 @@ ht-degree: 0%
      </tr>
       <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
        <td role="rowheader">畫布篩選器</td> 
-       <td> <p>新增篩選器以讓使用者檢視報表的不同層面。 此篩選條件會套用至報表中的所有資料。</p> <p>如需詳細資訊，請參閱[最終連結]。</p> </td> 
+       <td> <p>新增篩選器以讓使用者檢視報表的不同層面。 此篩選條件會套用至報表中的所有資料。</p> </td> 
       </tr>
     </tbody> 
    </table>
@@ -107,7 +107,7 @@ ht-degree: 0%
      </tr> 
      <tr> 
       <td role="rowheader">將報告加入最愛</td> 
-      <td>離開編輯窗格後，按一下 <strong>星號</strong> 圖示[圖示]來新增至您最喜愛報表的清單中。</td> 
+      <td>離開編輯窗格後，按一下 <strong>星號</strong> 圖示加以新增，並新增至您最喜愛報表的清單中。</td> 
      </tr> 
     </tbody> 
    </table>

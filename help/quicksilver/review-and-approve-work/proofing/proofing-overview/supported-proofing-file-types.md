@@ -7,9 +7,9 @@ description: 您可以與檢閱者共用和檢閱各種型別的檔案，即使�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 647edda3-de52-4bb9-b202-36c5cf832fb0
-source-git-commit: 5c0cd18074cffdf0a4fe15affaf61add7314a83a
+source-git-commit: 6e6cc1db8f89b76d9903905e6ee4cf9014727ba1
 workflow-type: tm+mt
-source-wordcount: '1019'
+source-wordcount: '1051'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 0%
 Workfront有下列限制：
 
 * 每個檔案的檔案大小必須小於4 GB。
-* Microsoft Word (DOC、DOCX)和PowerPoint (PPT、PPTX)檔案必須小於512 MB。
+* Microsoft Word (DOC、DOCX)和PowerPoint (PPT、PPTX)檔案必須小於512 MB。 （這也適用於在實施大小限制之前建立的這些檔案型別的取消封存校樣。）
 * XLS和XLSX檔案必須小於100 MB。
 * 附加到校樣上評論的檔案必須小於30 MB。
 * PNG的高度和寬度必須小於65535畫素。
@@ -180,11 +180,15 @@ Workfront有下列限制：
 > * XLT - Microsoft Excel範本
 > * xltx - Microsoft Excel範本
 
+>[!WARNING]
+> 由於安全性問題，我們暫時不支援下列靜態檔案型別：
+>
+> * EPS — 封裝式PostScript
+
 * AI - Adobe Illustrator圖稿
 * AIT - Adobe Illustrator範本
 * DOC - Microsoft Word檔案
 * DOCX - Microsoft Word檔案
-* EPS — 封裝式PostScript
 * PDF-Adobe可攜式檔案檔案
 * PPT - PowerPoint簡報
 * PPTX - PowerPoint Presentation 2007 PS - PostScript檔案
