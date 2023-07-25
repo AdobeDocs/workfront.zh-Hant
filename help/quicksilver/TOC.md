@@ -3,9 +3,9 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文件、教學課程和其他資源，了解如何在您的組織中實施並有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: e6f5f09876afad6979e3ff05c152f561a3632701
+source-git-commit: 38e548594b37ef3109d7df436955a5255881bb6d
 workflow-type: tm+mt
-source-wordcount: '13126'
+source-wordcount: '13125'
 ht-degree: 1%
 
 ---
@@ -447,7 +447,7 @@ ht-degree: 1%
          * [新存取層級的運作方式](administration-and-setup/add-users/how-access-levels-work/access-levels-toc.md)
          * [新存取層級概觀](administration-and-setup/add-users/how-access-levels-work/access-level-overview.md)
          * [新授權總覽](administration-and-setup/add-users/how-access-levels-work/licenses-overview.md)
-         * [透過存取物件和區域，以取得新授權](administration-and-setup/add-users/how-access-levels-work/access-to-objects-areas-license-types.md)
+         * [透過新授權存取物件和區域](administration-and-setup/add-users/how-access-levels-work/access-to-objects-areas-license-types.md)
          * [可用於新存取層級之每種物件型別的功能](administration-and-setup/add-users/how-access-levels-work/functionality-available-for-objects.md)
          * [停用新授權計畫上未付費使用者的自動升級選項](administration-and-setup/add-users/how-access-levels-work/disable-auto-upgrade.md)
       * 存取層級的運作方式 {#legacy-access-levels}
@@ -1757,7 +1757,7 @@ ht-degree: 1%
          * [校訂角色概觀](review-and-approve-work/proofing/proofing-overview/proof-roles.md)
          * [自動化工作流程總覽](review-and-approve-work/proofing/proofing-overview/automated-workflow.md)
          * [自動化工作流程階段概觀](review-and-approve-work/proofing/proofing-overview/stages.md)
-         * [校訂評論和決定概覽的通知](review-and-approve-work/proofing/proofing-overview/notifications-proof-comments-decisions.md)
+         * [校訂評論和決定概觀的通知](review-and-approve-work/proofing/proofing-overview/notifications-proof-comments-decisions.md)
          * [互動式內容校訂概觀](review-and-approve-work/proofing/proofing-overview/interactive-content-proofs.md)
          * [校樣概觀的檔案重新處理](review-and-approve-work/proofing/proofing-overview/document-reprocessing-for-proofing.md)
          * [支援的校訂檔案型別和大小限制概觀](review-and-approve-work/proofing/proofing-overview/supported-proofing-file-types.md)
