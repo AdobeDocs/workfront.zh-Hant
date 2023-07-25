@@ -3,9 +3,9 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文件、教學課程和其他資源，了解如何在您的組織中實施並有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: 38e548594b37ef3109d7df436955a5255881bb6d
+source-git-commit: 5c47b09550c54b7ea4f8319bb42e93572e06324b
 workflow-type: tm+mt
-source-wordcount: '13125'
+source-wordcount: '13127'
 ht-degree: 1%
 
 ---
@@ -1757,7 +1757,7 @@ ht-degree: 1%
          * [校訂角色概觀](review-and-approve-work/proofing/proofing-overview/proof-roles.md)
          * [自動化工作流程總覽](review-and-approve-work/proofing/proofing-overview/automated-workflow.md)
          * [自動化工作流程階段概觀](review-and-approve-work/proofing/proofing-overview/stages.md)
-         * [校訂評論和決定概觀的通知](review-and-approve-work/proofing/proofing-overview/notifications-proof-comments-decisions.md)
+         * [校訂評論和決定概覽的通知](review-and-approve-work/proofing/proofing-overview/notifications-proof-comments-decisions.md)
          * [互動式內容校訂概觀](review-and-approve-work/proofing/proofing-overview/interactive-content-proofs.md)
          * [校樣概觀的檔案重新處理](review-and-approve-work/proofing/proofing-overview/document-reprocessing-for-proofing.md)
          * [支援的校訂檔案型別和大小限制概觀](review-and-approve-work/proofing/proofing-overview/supported-proofing-file-types.md)
@@ -1906,7 +1906,7 @@ ht-degree: 1%
    * [刪除「案例規劃工具」中的計畫](scenario-planner/delete-plans.md)
    * [將專案匯入至「案例規劃工具」中的計畫](scenario-planner/import-projects-to-plans.md)
    * [情境規劃工具中的方案概觀](scenario-planner/initiatives-overview.md)
-   * [「案例規劃工具」中的計畫概要](scenario-planner/plans-overview.md)
+   * [案例計畫工具中的計畫概要](scenario-planner/plans-overview.md)
    * [更新「情境規劃工具」中的方案優先順序](scenario-planner/prioritize-initiatives.md)
    * [透過在情境規劃工具中發佈行動方案來更新或建立專案](scenario-planner/publish-scenarios-update-projects.md)
    * [協調專案與方案之間的資源配置概要](scenario-planner/overview-reconcile-allocations-between-projects-initiatives.md)
@@ -2583,6 +2583,7 @@ ht-degree: 1%
       * [總覽](proofhq-api/general/overview.md)
       * [程式碼範例](proofhq-api/general/code-samples.md)
       * [SOAP API常見問題集](proofhq-api/general/soap-api-faqs.md)
+* [隱藏的檔案](hidden-test.md)
 
 <!--
 Moved and commented out sections from line 1477 - I believe the entire section is duped but need to verify
