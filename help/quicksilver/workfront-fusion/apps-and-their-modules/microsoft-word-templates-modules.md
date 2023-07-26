@@ -3,30 +3,31 @@ filename: microsoft-word-templates-modules
 content-type: reference
 product-previous: workfront-fusion
 product-area: workfront-integrations
-keywords: 連接器
+keywords: 聯結器
 navigation-topic: apps-and-their-modules
 title: Microsoft Word範本模組
-description: 在Adobe Workfront Fusion案例中，您可以自動執行使用Microsoft Word範本的工作流程，並將其連接至多個協力廠商應用程式和服務。
+description: 在Adobe Workfront Fusion案例中，您可以自動化使用Microsoft Word範本的工作流程，並將其連結至多個協力廠商應用程式和服務。
 author: Becky
-source-git-commit: 43b64d1371438909063d2ac81cccb90b97179dfc
+feature: Workfront Fusion
+exl-id: 889b417c-04a9-4dbf-9a34-0dab65f11f03
+source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
 source-wordcount: '1286'
 ht-degree: 0%
 
 ---
 
-
 # [!DNL Microsoft Word Template] 模組
 
-在 [!DNL Adobe Workfront Fusion] 案例中，您可以自動執行使用 [!DNL Microsoft Word Templates]，並將其連接至多個協力廠商應用程式和服務。
+在 [!DNL Adobe Workfront Fusion] 情境中，您可以使用自動化工作流程 [!DNL Microsoft Word Templates]，並連結至多個協力廠商應用程式和服務。
 
-如果您需要建立案例的相關指示，請參閱 [在中建立案例 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md).
+如果您需要有關建立情境的指示，請參閱 [在中建立情境 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md).
 
 如需模組的相關資訊，請參閱 [中的模組 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/modules.md).
 
 ## 存取需求
 
-您必須具備下列存取權才能使用本文中的功能：
+您必須具有下列存取權才能使用本文中的功能：
 
 <table style="table-layout:auto"> 
  <col> 
@@ -34,19 +35,19 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 計劃*</td>
-  <td> <p>[!UICONTROL Pro]或更高版本</p> </td>
+  <td> <p>[！UICONTROL Pro]或更高版本</p> </td>
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">[!DNL Adobe Workfront] 授權*</td>
-   <td> <p>[!UICONTROL計畫]、[!UICONTROL工作]</p> </td> 
+   <td> <p>[！UICONTROL計畫]，[！UICONTROL工作]</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront Fusion] 許可**</td> 
-   <td> <p>[!UICONTROL [!DNL Workfront Fusion] （工作自動化和整合） </p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront Fusion] 授權**</td> 
+   <td> <p>[！UICONTROL [!DNL Workfront Fusion] 適用於工作自動化與整合] </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">產品</td> 
-   <td>貴組織必須購買 [!DNL Adobe Workfront Fusion] 和 [!DNL Adobe Workfront] 以使用本文所述的功能。</td> 
+   <td>貴組織必須購買 [!DNL Adobe Workfront Fusion] 以及 [!DNL Adobe Workfront] 以使用本文所述的功能。</td> 
   </tr> <!--
    <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
     <td role="rowheader">Access level configurations*</td> 
@@ -59,84 +60,83 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-若要了解您擁有的計畫、授權類型或存取權，請聯絡您的 [!DNL Workfront] 管理員。
+若要瞭解您擁有的計畫、授權型別或存取權，請聯絡您的 [!DNL Workfront] 管理員。
 
-如需 [!DNL Adobe Workfront Fusion] 許可證，請參閱 [[!DNL Adobe Workfront Fusion] 授權](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+有關的資訊 [!DNL Adobe Workfront Fusion] 授權，請參閱 [[!DNL Adobe Workfront Fusion] 授權](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
 ## 必要條件
 
-為了使用 [!DNL Miscrosoft Word Templates] with [!DNL Adobe Workfront Fusion]，則必須有 [!DNL Office 365] 帳戶。 您可以在www.office.com建立一個。
+為了使用 [!DNL Miscrosoft Word Templates] 替換為 [!DNL Adobe Workfront Fusion]，您必須擁有 [!DNL Office 365] 帳戶。 您可以在www.office.com建立一個。
 
 ## 使用 [!DNL Microsoft Word Templates] 模組
 
-您可以使用 [!DNL Microsoft Word Template] 從多個Web服務將資料合併到 [!DNL Microsoft Word] 檔案。
+您可以使用 [!DNL Microsoft Word Template] 模組以將多個網站服務的資料合併為 [!DNL Microsoft Word] 檔案。
 
-例如，您可以使用 [!DNL Microsoft Word] 範本：
+例如，您可以使用這個 [!DNL Microsoft Word] 範本：
 
 ![](assets/word-template-before-filled-350x62.png)
 
-要建立此文檔，請執行以下操作：
+若要建立此檔案：
 
 ![](assets/word-template-exampled-filled-350x85.png)
 
 ## 關於值標籤
 
-A [!DNL Microsoft Word] 範本是一般 [!DNL Microsoft Word] 檔案（.docx檔案）的文字中加上特殊標籤，可決定合併或填入資料的位置和方式。 標籤有三種類型：
+A [!DNL Microsoft Word] 範本為一般 [!DNL Microsoft Word] 檔案（.docx檔案），其文字中有特殊標籤，可決定合併或填入資料的位置及方式。 有三種型別的標籤：
 
 * [簡單值標籤](#simple-value-tag)
 * [條件標籤](#condition-tag)
-* [循環標籤](#loop-tag)
+* [回圈標籤](#loop-tag)
 
 ### 簡單值標籤 {#simple-value-tag}
 
-簡單值標籤會直接取代為對應的值。 標籤的名稱與 [!UICONTROL 金鑰] 欄位的值，此值會放置在雙大括弧內；例如，
+簡單值標籤只會被對應的值取代。 標籤的名稱會對應至 [!UICONTROL 索引鍵] 欄位的值，放置在雙大括弧內；例如，
 
 
-<pre>&#123;&#123;name&#125;&#125;</pre>
+<pre>{{名稱}}</pre>
 
 
 。
 
-**範例：** 若要建立說「你好，Petr！」的檔案，您可以使用 [!DNL Microsoft Word Template] 模組來建立下列範本：
+**範例：** 若要建立顯示「嗨，Petr！」的檔案，您可以使用 [!DNL Microsoft Word Template] 模組，以建立下列範本：
 
-<pre>&gt;嗨&#123;&#123;name&#125;&#125;!</pre>
+<pre>&gt;嗨 {{name}}！</pre>
 
-若要這麼做，請依下列方式設定模組：
+若要這麼做，您需設定模組，如下所示：
 
 ![](assets/word-template-simple-value-350x286.png)
 
 ### 條件標籤 {#condition-tag}
 
-您可以使用條件標籤來繞排應僅在符合特定條件時才呈現的文字。 若要繞排文字，請將其置於開啟和關閉條件標籤之間，例如「hasPhone」（如果條件是資料是否包含電話號碼）。 左標籤的名稱會以雜湊符號#為前置詞，右標籤的名稱會以斜線/為前置詞，如下列範例所示。
+您可以使用條件標籤來繞排文字，這些文字只有在符合某些條件時才應呈現。 若要繞排文字，請將其置於開始和結束條件標籤之間，例如「hasPhone」（如果條件為資料是否包含電話號碼）。 開始標簽名稱會加上雜湊符號#，而結束標簽名稱會加上斜線/ ，如下列範例所示。
 
-**範例：** 若要在輸入資料包含電話號碼但沒有電子郵件地址時生成包含客戶電話號碼的文檔，您可以使用 [!DNL Microsoft Word Template] 模組並建立下列範本：
-<pre>> &#123;&#123;#hasPhone&#125;&#125;電話：&#123;&#123;phone&#125;&#125; &#123;&#123;/hasPhone&#125;&#125;</pre><pre>> &#123;&#123;#hasEmail&#125;&#125;電子郵件：&#123;&#123;email&#125;&#125; &#123;&#123;/hasEmail&#125;&#125;</pre>若要這麼做，請依下列方式設定模組：
+**範例：** 如果輸入資料包含電話號碼但沒有電子郵件地址，若要產生包含客戶電話號碼的檔案，您可以使用 [!DNL Microsoft Word Template] 模組，並建立下列範本：
+<pre>&gt; {{#hasPhone}}電話： {{phone}} {{/hasPhone}}</pre><pre>&gt; {{#hasEmail}}電子郵件： {{email}} {{/hasEmail}}</pre>若要這麼做，您需設定模組，如下所示：
 
 ![](assets/word-template-conditional-350x501.png)
 
-在文檔中，電話號碼將顯示如下：
-<pre>&gt;電話：4445551234</pre>
+在檔案中，電話號碼會顯示如下：
+<pre>&gt;電話： 4445551234</pre>
 
-### 循環標籤 {#loop-tag}
+### 回圈標籤 {#loop-tag}
 
-您可以使用循環標籤（也稱為區段標籤）來重複文字的區段。 將文字放在開頭和結尾回圈標籤之間，以繞排文字。 開頭標籤的名稱會加上雜湊符號#;結尾標籤的名稱會以斜線/加上前置詞。
+您可以使用回圈標籤（也稱為節標籤）來重複文字的節。 將文字置於開啟和關閉回圈標籤之間，以繞排文字。 開始標簽名稱會加上雜湊符號#；結束標簽名稱會加上斜線/。
 
-* [使用填寫檔案模組循環標籤](#loop-tag-with-fill-out-a-document-module)
+* [使用「填寫檔案模組」的回圈標籤](#loop-tag-with-fill-out-a-document-module)
+  <!-- [Loop tag with Fill a document with a batch of data module](#loop-tag-with-fill-a-document-with-a-batch-of-data-module)-->
 
-<!-- [Loop tag with Fill a document with a batch of data module](#loop-tag-with-fill-a-document-with-a-batch-of-data-module)-->
+#### 使用「填寫檔案模組」的回圈標籤 {#loop-tag-with-fill-out-a-document-module}
 
-#### 使用填寫檔案模組循環標籤 {#loop-tag-with-fill-out-a-document-module}
+**範例：** 若要產生列出客戶清單中每個連絡人的姓名和電話號碼的檔案，您可以使用 [!DNL Microsoft Word Template] 模組，並建立下列範本：
 
-**範例：** 要生成列出客戶清單中每個聯繫人的姓名和電話號碼的文檔，可以使用 [!DNL Microsoft Word Template] 模組並建立下列範本：
+<pre>&gt; {{#contact}}</pre><pre>&gt;     {{name}}， {{phone}}</pre><pre>&gt; {{/contact}}</pre>
 
-<pre>> &#123;&#123;#contact&#125;&#125;</pre><pre>> &#123;&#123;name&#125;&#125;, &#123;&#123;phone&#125;&#125;</pre><pre>> &#123;&#123;/contact&#125;&#125;</pre>
-
-若要這麼做，請依下列方式設定模組：
+若要這麼做，您需設定模組，如下所示：
 
 
 ![](assets/word-template-fill-out-a-document-350x732.png)
 
-該模組將建立以下文檔：
+此模組將建立以下檔案：
 
 ```
 > Jan Toman, 4445551234
@@ -168,130 +168,129 @@ The module would create the following document:
 
 ## [!DNL Microsoft Word Template] 模組
 
-這些模組不需要連接。
+這些模組不需要連線。
 
-* [填寫文檔](#fill-out-a-document)
-* [用一批資料填寫文檔](#fill-a-document-with-a-batch-of-data)
+* [填寫檔案](#fill-out-a-document)
+* [以批次資料填入檔案](#fill-a-document-with-a-batch-of-data)
 
-### [!UICONTROL 填寫文檔] {#fill-out-a-document}
+### [!UICONTROL 填寫檔案] {#fill-out-a-document}
 
-此變壓器模組可讓您用您指定的資料填入檔案。 它可與簡單值標籤、條件標籤或回圈標籤搭配使用。
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL要替換的文本的開始分隔符]</td> 
-   <td> <p>輸入要標籤要替換的文本的開頭的字元。 </p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>範例： </b></span></span>輸入 <code>[[</code> 如果要替換類似於此文本： <code>[[replace_me]]</code></p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"> <p>[!UICONTROL要替換的文本的結束分隔符]</p> </td> 
-   <td> <p>輸入要標籤要替換的文本結尾的字元。 </p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>範例： </b></span></span>輸入 <code>]]</code> 如果要替換類似於此文本： <code>[[replace_me]]</code></p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL源檔案]</td> 
-   <td> <p> 對應您要從上一個模組上傳的檔案(例如，「HTTP &gt;取得檔案」或「Dropbox&gt;取得檔案模組」)。 或手動輸入資料檔案。</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL已填寫檔案的名稱]</td> 
-   <td>輸入目標輸出檔案的檔案名（包括副檔名）。</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL資料源]</td> 
-   <td> <p>選取選項，以指出您使用的資料來自表單或原始資料收集（未處理的電腦資料）。</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL值]</td> 
-   <td> <p>這必須是集合的陣列，其中：</p> 
-    <ul> 
-     <li>每個集合都對應至一個資料項目，並包含一個項目 <code>entry</code></li> 
-     <li>項目 <code>entry </code>包含 <code>key </code>和 <code>value</code></li> 
-     <li>項目 <code>key </code>包含標籤的名稱</li> 
-     <li>項目 <code>value </code>包含標籤的值</li> 
-    </ul> 
-    <p>要添加條目：</p>
-    <ol> 
-     <li> 按一下 <b>[!UICONTROL添加項]</b>. </li> 
-     <li>選擇條目的值類型。</li> 
-     <li>新增名稱和值。 如需詳細資訊，請參閱本文中所選值類型的範例。 
-      <ul> 
-       <li><a href="#simple-value-tag" class="MCXref xref">簡單值標籤</a></li> 
-       <li><a href="#condition-tag" class="MCXref xref">條件標籤</a></li> 
-       <li><a href="#loop-tag" class="MCXref xref">循環標籤</a></li> 
-      </ul></li> 
-    </ol> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-### [!UICONTROL 用一批資料填寫文檔] {#fill-a-document-with-a-batch-of-data}
-
-如果您的資料項目是個別的套件組合，此匯總模組就十分實用。 使用此模組，您可以輕鬆設定「值」欄位所需的結構，並將項目對應至每個值項目。 與「填寫文檔」模組不同，「用批資料模組填寫文檔」中的「值」欄位僅允許包含變數的單個條目。
-
-如果您的資料項目以陣列形式出現，也可以使用此模組，方法是使用 *迭代器* 模組，將陣列的內容轉換為一系列套件組合。
-
-系統會為每個傳入套件建立並填入實際值。 處理所有輸入包後，將生成模板。
-
-此匯總模組對於建立清單或報表特別有用。
+此轉換器模組可讓您使用您指定的資料填入檔案。 它可與簡單值標籤、條件標籤或回圈標籤搭配使用。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL源模組]</td> 
-   <td>選取文字來源的模組。</td> 
+   <td role="rowheader">[！UICONTROL要取代之文字的開始分隔符號]</td> 
+   <td> <p>輸入要標示取代文字開頭的字元。 </p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>範例： </b></span></span>輸入 <code>[[</code> 如果您要取代類似此文字的文字： <code>[[replace_me]]</code></p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL要替換的文本的開始分隔符]</td> 
-   <td> <p>輸入要標籤要替換的文本的開頭的字元。 </p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>範例： </b></span></span>輸入 <code>[[</code> 如果要替換類似於此文本： <code>[[replace_me]]</code></p> </td> 
+   <td role="rowheader"> <p>[！UICONTROL要取代之文字的結尾分隔符號]</p> </td> 
+   <td> <p>輸入要標示取代文字結尾的字元。 </p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>範例： </b></span></span>輸入 <code>]]</code> 如果您要取代類似此文字的文字： <code>[[replace_me]]</code></p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[!UICONTROL要替換的文本的結束分隔符]</p> </td> 
-   <td> <p>輸入要標籤要替換的文本結尾的字元。 </p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>範例： </b></span></span>輸入 <code>]]</code> 如果要替換類似於此文本： <code>[[replace_me]]</code></p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL組依據]</td> 
-   <td> 定義包含一或多個已對應項目的運算式。 匯總的資料在具有相同運算式值的「群組」下分隔。 每個組輸出為一個單獨的包，包含一個鍵，其中包含已評估的表達式和聚合文本。 執行此操作後，您就可以在後續模組中使用索引鍵作為篩選器。</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL在空聚合後停止處理]</td> 
-   <td>啟用此選項可在匯總不含套件時停止處理。</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL源檔案]</td> 
+   <td role="rowheader">[！UICONTROL來源檔案]</td> 
    <td> <p> 對應您要從上一個模組上傳的檔案(例如，「HTTP &gt;取得檔案」或「Dropbox&gt;取得檔案模組」)。 或手動輸入資料檔案。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL已填寫檔案的名稱]</td> 
-   <td>輸入目標輸出檔案的檔案名（包括副檔名）。</td> 
+   <td role="rowheader">已填寫檔案的[！UICONTROL名稱]</td> 
+   <td>輸入目標輸出檔案的檔案名稱（包括副檔名）。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL資料源]</td> 
-   <td> <p>選取選項，以指出您使用的資料來自表單或原始資料收集（未處理的電腦資料）。</p> </td> 
+   <td role="rowheader">[！UICONTROL資料來源]</td> 
+   <td> <p>選取選項以指出您使用的資料來自表單還是原始資料集合（未處理的電腦資料）。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL值]</td> 
-   <td> <p>這必須是集合的陣列，其中：</p> 
+   <td role="rowheader">[！UICONTROL值]</td> 
+   <td> <p>這必須是集合陣列，其中：</p> 
     <ul> 
-     <li>每個集合都對應至一個資料項目，並包含一個項目 <code>entry</code></li> 
-     <li>項目 <code>entry </code>包含 <code>key </code>和 <code>value</code></li> 
-     <li>項目 <code>key </code>包含標籤的名稱</li> 
-     <li>項目 <code>value </code>包含標籤的值</li> 
+     <li>每個集合都對應一個資料專案，並包含一個專案 <code>entry</code></li> 
+     <li>專案 <code>entry </code>包含 <code>key </code>和 <code>value</code></li> 
+     <li>專案 <code>key </code>包含標籤名稱</li> 
+     <li>專案 <code>value </code>包含標籤的值</li> 
     </ul> 
-    <p>要添加條目：</p>
+    <p>若要新增專案：</p>
     <ol> 
-     <li> 按一下 <b>[!UICONTROL添加項]</b>. </li> 
-     <li>選擇條目的值類型。</li> 
-     <li>新增名稱和值。 如需詳細資訊，請參閱本文中所選值類型的範例。 
+     <li> 按一下 <b>[！UICONTROL新增專案]</b>. </li> 
+     <li>選取專案的值型別。</li> 
+     <li>新增名稱和值。 如需詳細資訊，請參閱本文所選值型別的範例。 
       <ul> 
        <li><a href="#simple-value-tag" class="MCXref xref">簡單值標籤</a></li> 
        <li><a href="#condition-tag" class="MCXref xref">條件標籤</a></li> 
-       <li><a href="#loop-tag" class="MCXref xref">循環標籤</a></li> 
+       <li><a href="#loop-tag" class="MCXref xref">回圈標籤</a></li> 
       </ul></li> 
     </ol> </td> 
   </tr> 
  </tbody> 
 </table>
 
+### [!UICONTROL 以批次資料填入檔案] {#fill-a-document-with-a-batch-of-data}
+
+如果您的資料專案為個別的組合，此彙總模組相當實用。 使用此模組，您可以輕鬆設定值欄位所需的結構，並將專案對應至每個值專案。 相較於填寫檔案模組，使用資料模組批次填寫檔案中的值欄位僅允許包含變數的單一專案。
+
+如果您的資料專案為陣列，您也可以使用此模組，方法是使用 *迭代器* 模組，用於將陣列內容轉換為一系列組合。
+
+系統會為每個傳入的套件組合建立並填入實際值。 範本會在處理所有輸入組合後產生。
+
+此彙總模組對於建立清單或報告特別實用。
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[！UICONTROL來源模組]</td> 
+   <td>選取作為文字來源的模組。</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[！UICONTROL要取代之文字的開始分隔符號]</td> 
+   <td> <p>輸入要標示取代文字開頭的字元。 </p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>範例： </b></span></span>輸入 <code>[[</code> 如果您要取代類似此文字的文字： <code>[[replace_me]]</code></p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"> <p>[！UICONTROL要取代之文字的結尾分隔符號]</p> </td> 
+   <td> <p>輸入要標示取代文字結尾的字元。 </p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>範例： </b></span></span>輸入 <code>]]</code> 如果您要取代類似此文字的文字： <code>[[replace_me]]</code></p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[！UICONTROL Group by]</td> 
+   <td> 定義包含一或多個對應專案的運算式。 彙總資料會以相同運算式的值分隔在「群組」底下。 每個群組都會輸出為個別的組合，其中包含含運算式和彙總文字的索引鍵。 如此一來，您便可將索引鍵用作後續模組中的篩選條件。</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[！UICONTROL在空白彙總後停止處理]</td> 
+   <td>啟用此選項可在彙總不含任何組合時停止處理。</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[！UICONTROL來源檔案]</td> 
+   <td> <p> 對應您要從上一個模組上傳的檔案(例如，「HTTP &gt;取得檔案」或「Dropbox&gt;取得檔案模組」)。 或手動輸入資料檔案。</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">已填寫檔案的[！UICONTROL名稱]</td> 
+   <td>輸入目標輸出檔案的檔案名稱（包括副檔名）。</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[！UICONTROL資料來源]</td> 
+   <td> <p>選取選項以指出您使用的資料來自表單還是原始資料集合（未處理的電腦資料）。</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[！UICONTROL值]</td> 
+   <td> <p>這必須是集合陣列，其中：</p> 
+    <ul> 
+     <li>每個集合都對應一個資料專案，並包含一個專案 <code>entry</code></li> 
+     <li>專案 <code>entry </code>包含 <code>key </code>和 <code>value</code></li> 
+     <li>專案 <code>key </code>包含標籤名稱</li> 
+     <li>專案 <code>value </code>包含標籤的值</li> 
+    </ul> 
+    <p>若要新增專案：</p>
+    <ol> 
+     <li> 按一下 <b>[！UICONTROL新增專案]</b>. </li> 
+     <li>選取專案的值型別。</li> 
+     <li>新增名稱和值。 如需詳細資訊，請參閱本文所選值型別的範例。 
+      <ul> 
+       <li><a href="#simple-value-tag" class="MCXref xref">簡單值標籤</a></li> 
+       <li><a href="#condition-tag" class="MCXref xref">條件標籤</a></li> 
+       <li><a href="#loop-tag" class="MCXref xref">回圈標籤</a></li> 
+      </ul></li> 
+    </ol> </td> 
+  </tr> 
+ </tbody> 
+</table>

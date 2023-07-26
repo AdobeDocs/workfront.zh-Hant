@@ -3,27 +3,28 @@ filename: airtable-modules
 content-type: reference
 product-previous: workfront-fusion
 product-area: workfront-integrations
-keywords: 連接器
+keywords: 聯結器
 navigation-topic: apps-and-their-modules
-title: 可空氣模組
-description: Adobe Workfront Fusion除了需要Adobe Workfront授權外，還需要Adobe Workfront Fusion授權。
+title: 可投放模組
+description: 除了Adobe Workfront授權，Adobe Workfront Fusion還需要Adobe Workfront Fusion授權。
 author: Becky
+feature: Workfront Fusion
 exl-id: 5d061b23-0a39-44e6-ac9b-0ef5ac7e9ab4
-source-git-commit: 9460e14a66653eaf1856cdf5c1ab3213859f354a
+source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
 source-wordcount: '1863'
 ht-degree: 2%
 
 ---
 
-# 可空氣模組
+# 可投放模組
 
 
-使用 [!DNL Airtable] 連接器 [!DNL Adobe Workfront Fusion]，您可以根據 [!DNL Airtable] 帳戶、建立、上傳和更新記錄、搜尋記錄，以及對Airtable API進行自訂API呼叫。
+使用 [!DNL Airtable] 的聯結器 [!DNL Adobe Workfront Fusion]，您可以根據中的事件開始案例 [!DNL Airtable] 帳戶、建立、上傳和更新記錄、搜尋記錄，以及對Airtable API進行自訂API呼叫。
 
 ## 存取需求
 
-您必須具備下列存取權才能使用本文中的功能：
+您必須具有下列存取權才能使用本文中的功能：
 
 <table style="table-layout:auto"> 
  <col> 
@@ -31,70 +32,70 @@ ht-degree: 2%
  <tbody> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 計劃*</td>
-  <td> <p>[!UICONTROL Pro]或更高版本</p> </td>
+  <td> <p>[！UICONTROL Pro]或更高版本</p> </td>
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">[!DNL Adobe Workfront] 授權*</td>
-   <td> <p>[!UICONTROL計畫]、[!UICONTROL工作]</p> </td> 
+   <td> <p>[！UICONTROL計畫]，[！UICONTROL工作]</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront Fusion] 許可**</td> 
-   <td> <p>[!UICONTROL [!DNL Workfront Fusion] （工作自動化和整合） </p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront Fusion] 授權**</td> 
+   <td> <p>[！UICONTROL [!DNL Workfront Fusion] 適用於工作自動化與整合] </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">產品</td> 
-   <td>貴組織必須購買 [!DNL Adobe Workfront Fusion] 和 [!DNL Adobe Workfront] 以使用本文所述的功能。</td> 
+   <td>貴組織必須購買 [!DNL Adobe Workfront Fusion] 以及 [!DNL Adobe Workfront] 以使用本文所述的功能。</td> 
   </tr> 
  </tbody> 
 </table>
 
-若要了解您擁有的計畫、授權類型或存取權，請聯絡您的 [!DNL Workfront] 管理員。
+若要瞭解您擁有的計畫、授權型別或存取權，請聯絡您的 [!DNL Workfront] 管理員。
 
-如需 [!DNL Adobe Workfront Fusion] 許可證，請參閱 [[!DNL Adobe Workfront Fusion] 授權](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+有關的資訊 [!DNL Adobe Workfront Fusion] 授權，請參閱 [[!DNL Adobe Workfront Fusion] 授權](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
 ## 必要條件
 
-您必須有Airtable帳戶才能使用本文中的功能。
+您必須擁有Airtable帳戶才能使用本文中的功能。
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">For more information, see the tutorial .</p>
 -->
 
-## 將Airtable連接到Workfront Fusion {#connect-airtable-to-workfront-fusion}
+## 將Airtable連線至Workfront Fusion {#connect-airtable-to-workfront-fusion}
 
 <!--
 
 1. Log in to your Airtable account.
 1. Open your account overview and generate the API key.
 -->
-1. 開啟Workfront Fusion與 **建立連線** 對話方塊。
+1. 開啟Workfront Fusion和 **建立連線** 所需模組的對話方塊。
 1. 輸入連線的名稱。
-1. （可選）按一下「顯示高級設定」 ，然後輸入「Airtable Client ID」和「Client Secret」。
-1. 按一下 **繼續** 按鈕，建立連線並返回模組。
+1. （選用）按一下「顯示進階設定」 ，然後輸入您的Airtable使用者端ID和使用者端密碼。
+1. 按一下 **繼續** 按鈕以建立連線並返回模組。
 
-## 可空中模組及其欄位
+## 可座飛機模組及其欄位
 
 ### 記錄
 
 * [建立記錄](#create-a-record)
 * [刪除記錄](#delete-a-record)
-* [獲取記錄](#get-a-record)
-* [搜索記錄](#search-records)
+* [取得記錄](#get-a-record)
+* [搜尋記錄](#search-records)
 * [更新記錄](#update-a-record)
-* [更新記錄](#upsert-a-record)
-* [監看記錄](#watch-records)
-* [監看回應](#watch-responses)
+* [更新插入記錄](#upsert-a-record)
+* [觀看記錄](#watch-records)
+* [觀看回應](#watch-responses)
 * [進行API呼叫](#make-an-api-call)
 
 #### 建立記錄 {#create-a-record}
 
 此動作模組會建立新記錄。
 
-您可以在記錄中指定想要的資料，以及要將其儲存的位置。
+您可以指定要在記錄中儲存的資料以及儲存位置。
 
-模組會傳回與記錄相關聯的任何標準欄位，以及連線存取的任何自訂欄位和值。 您可以在案例的後續模組中對應此資訊。
+模組會傳回與記錄相關聯的任何標準欄位，以及連線存取的任何自訂欄位和值。 您可以在情境中的後續模組中對應此資訊。
 
-設定此模組時，會顯示下列欄位。
+當您設定此模組時，會顯示下列欄位。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -102,19 +103,19 @@ ht-degree: 2%
  <tbody> 
   <tr> 
    <td>連接 </td> 
-   <td> <p>有關將Airtable帳戶連接到Workfront Fusion的說明，請參見 <a href="#connect-airtable-to-workfront-fusion" class="MCXref xref">將Airtable連接到Workfront Fusion</a> 這篇文章。</p> </td> 
+   <td> <p>如需有關將Airtable帳戶連線至Workfront Fusion的說明，請參閱 <a href="#connect-airtable-to-workfront-fusion" class="MCXref xref">將Airtable連線至Workfront Fusion</a> 本文章內容。</p> </td> 
   </tr> 
   <tr> 
    <td>根據 </td> 
-   <td> <p>選擇新記錄將屬於的基礎。</p> </td> 
+   <td> <p>選取新記錄將屬於的基底。</p> </td> 
   </tr> 
   <tr> 
    <td>表格 </td> 
-   <td> <p>選擇新記錄將屬於的表。</p> </td> 
+   <td> <p>選取新記錄所屬的表格。</p> </td> 
   </tr> 
   <tr> 
    <td> <p>記錄</p> </td> 
-   <td> <p>輸入新記錄的值。 可用欄位是根據您選取的表格而定。</p> <!--<p>For more information on field types, search for "Supported field types" in the Airtable documentation.</p> 
+   <td> <p>輸入新記錄的值。 可用欄位取決於您選取的表格。</p> <!--<p>For more information on field types, search for "Supported field types" in the Airtable documentation.</p> 
     <ul> 
      <li> <p><strong>Text</strong>: string</p> <p>A single line of text.</p> </li> 
      <li> <p><strong>Long text</strong>: string</p> <p>Multiple lines of text, which may contain "mention tokens", for example:</p><pre>&lt;airtable:mention id="menE1i9oBaGX3DseR"&gt;@Alex&lt;/airtable:mention&gt;</pre> </li> 
@@ -140,8 +141,8 @@ ht-degree: 2%
     </ul> --></td> 
   </tr> 
   <tr> 
-   <td>智慧連結</td> 
-   <td> <p>啟用此選項，可在連結至其他表格的欄位中輸入名稱，而非記錄ID。 如果沒有匹配項，則在連結的表中自動建立記錄。</p> </td> 
+   <td>智慧型連結</td> 
+   <td> <p>啟用此選項可輸入名稱，而不是將ID記錄到連結到其他表格的欄位。 如果沒有相符專案，系統會自動在連結的表格中建立記錄。</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -152,9 +153,9 @@ ht-degree: 2%
 
 您可以指定記錄的ID和位置。
 
-模組會傳回記錄和任何相關欄位的ID，以及連線存取的任何自訂欄位和值。 您可以在案例的後續模組中對應此資訊。
+模組會傳回記錄ID及任何關聯欄位，連同連線存取的任何自訂欄位和值。 您可以在情境中的後續模組中對應此資訊。
 
-設定此模組時，會顯示下列欄位。
+當您設定此模組時，會顯示下列欄位。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -162,26 +163,26 @@ ht-degree: 2%
  <tbody> 
   <tr> 
    <td>連接 </td> 
-   <td> <p>有關將Airtable帳戶連接到Workfront Fusion的說明，請參見 <a href="#connect-airtable-to-workfront-fusion" class="MCXref xref">將Airtable連接到Workfront Fusion</a> 這篇文章。</p> </td> 
+   <td> <p>如需有關將Airtable帳戶連線至Workfront Fusion的說明，請參閱 <a href="#connect-airtable-to-workfront-fusion" class="MCXref xref">將Airtable連線至Workfront Fusion</a> 本文章內容。</p> </td> 
   </tr> 
   <tr> 
    <td>根據 </td> 
-   <td> <p>選擇包含要刪除的記錄的基。</p> </td> 
+   <td> <p>選取包含您要刪除之記錄的基底。</p> </td> 
   </tr> 
   <tr> 
    <td>表格 </td> 
-   <td> <p>選擇包含要刪除的記錄的表。</p> </td> 
+   <td> <p>選取包含您要刪除之記錄的表格。</p> </td> 
   </tr> 
   <tr> 
    <td>記錄ID</td> 
-   <td> <p>輸入或映射您希望模組刪除的記錄的唯一可用ID。 例如，您可以使用「搜尋記錄」模組來擷取ID。</p> </td> 
+   <td> <p>輸入或對應您要模組刪除之記錄的唯一Airtable ID。 例如，您可以使用搜尋記錄模組來擷取ID。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-#### 獲取記錄 {#get-a-record}
+#### 取得記錄 {#get-a-record}
 
-此動作模組會擷取記錄詳細資訊。
+此動作模組會擷取記錄詳細資料。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -189,30 +190,30 @@ ht-degree: 2%
  <tbody> 
   <tr> 
    <td>連接 </td> 
-   <td> <p>有關將Airtable帳戶連接到Workfront Fusion的說明，請參見 <a href="#connect-airtable-to-workfront-fusion" class="MCXref xref">將Airtable連接到Workfront Fusion</a> 這篇文章。</p> </td> 
+   <td> <p>如需有關將Airtable帳戶連線至Workfront Fusion的說明，請參閱 <a href="#connect-airtable-to-workfront-fusion" class="MCXref xref">將Airtable連線至Workfront Fusion</a> 本文章內容。</p> </td> 
   </tr> 
   <tr> 
    <td>根據 </td> 
-   <td> <p>選擇包含要檢索記錄的表的基。</p> </td> 
+   <td> <p>選取包含您要擷取記錄的表格的基底。</p> </td> 
   </tr> 
   <tr> 
    <td>表格</td> 
-   <td> <p> 選擇包含要檢索詳細資訊的記錄的表。</p> </td> 
+   <td> <p> 選取包含您要擷取其詳細資訊之記錄的表格。</p> </td> 
   </tr> 
   <tr> 
    <td>記錄ID</td> 
-   <td> <p> 輸入或映射要檢索詳細資訊的記錄的ID。</p> </td> 
+   <td> <p> 輸入或對應您要擷取其詳細資訊的記錄ID。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-#### 搜索記錄 {#search-records}
+#### 搜尋記錄 {#search-records}
 
-此搜索模組在Airtable中查找與您指定的搜索查詢匹配的對象中的記錄。
+此搜尋模組會在Airtable中尋找符合您指定之搜尋查詢的物件記錄。
 
-您可以在案例的後續模組中對應此資訊。
+您可以在情境中的後續模組中對應此資訊。
 
-設定此模組時，會顯示下列欄位。
+當您設定此模組時，會顯示下列欄位。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -220,31 +221,31 @@ ht-degree: 2%
  <tbody> 
   <tr> 
    <td>連接 </td> 
-   <td> <p>有關將Airtable帳戶連接到Workfront Fusion的說明，請參見 <a href="#connect-airtable-to-workfront-fusion" class="MCXref xref">將Airtable連接到Workfront Fusion</a> 這篇文章。</p> </td> 
+   <td> <p>如需有關將Airtable帳戶連線至Workfront Fusion的說明，請參閱 <a href="#connect-airtable-to-workfront-fusion" class="MCXref xref">將Airtable連線至Workfront Fusion</a> 本文章內容。</p> </td> 
   </tr> 
   <tr> 
    <td>根據 </td> 
-   <td> <p>選擇要搜索記錄的基礎。</p> </td> 
+   <td> <p>選取您要搜尋記錄的基底。</p> </td> 
   </tr> 
   <tr> 
    <td>表格 </td> 
-   <td> <p>選擇要搜索記錄的表。</p> </td> 
+   <td> <p>選取您要搜尋記錄的表格。</p> </td> 
   </tr> 
   <tr> 
    <td> <p>公式</p> </td> 
-   <td> <p>用於篩選記錄的公式。 系統會為每個記錄評估公式，如果結果不是 <code>0</code>, <code>false</code>, <code>""</code>, <code>NaN</code>, <code>[]</code>，或 <code>#Error!</code> 該記錄會包含在回應中。</p> <p>若與 <code>view</code>，只會傳回該檢視中符合公式的記錄。</p> <p>例如，要僅包含名稱不為空的記錄，請傳入：<code> NOT({Name} = '')</code></p> <p>要了解更多資訊，請在Airtable支援文檔中搜索有關公式欄位引用的資訊。</p> </td> 
+   <td> <p>用來篩選記錄的公式。 系統會評估每個記錄的公式，如果結果不是 <code>0</code>， <code>false</code>， <code>""</code>， <code>NaN</code>， <code>[]</code>，或 <code>#Error!</code> 記錄會包含在回應中。</p> <p>如果與 <code>view</code>，則只會傳回該檢視中符合公式的記錄。</p> <p>例如，若要僅包含Name非空白的記錄，請傳入：<code> NOT({Name} = '')</code></p> <p>若要深入瞭解，請在Airtable支援檔案中搜尋有關公式欄位參考的資訊。</p> </td> 
   </tr> 
   <tr> 
    <td>排序 </td> 
-   <td> <p>選擇排序方向和要按結果排序的欄位。</p> </td> 
+   <td> <p>選取排序方向以及要作為結果排序依據的欄位。</p> </td> 
   </tr> 
   <tr> 
    <td>檢視 </td> 
-   <td> <p>選擇要搜索記錄的視圖。</p> </td> 
+   <td> <p>選取您要搜尋記錄的檢視表。</p> </td> 
   </tr> 
   <tr> 
    <td>限制</td> 
-   <td> <p>輸入或映射您希望模組在每個方案執行週期中返回的最大記錄數。</p> </td> 
+   <td> <p>輸入或對應您希望模組在每個案例執行週期中傳回的最大記錄數。</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -253,11 +254,11 @@ ht-degree: 2%
 
 此動作模組會更新特定記錄。
 
-您可指定記錄的ID以及要包含的新資料。
+您可以指定記錄的ID，以及要包含的新資料。
 
-模組會傳回與記錄相關聯的任何標準欄位，以及連線存取的任何自訂欄位和值。 您可以在案例的後續模組中對應此資訊。
+模組會傳回與記錄相關聯的任何標準欄位，以及連線存取的任何自訂欄位和值。 您可以在情境中的後續模組中對應此資訊。
 
-設定此模組時，會顯示下列欄位。
+當您設定此模組時，會顯示下列欄位。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -265,19 +266,19 @@ ht-degree: 2%
  <tbody> 
   <tr> 
    <td>連接 </td> 
-   <td> <p>有關將Airtable帳戶連接到Workfront Fusion的說明，請參見 <a href="#connect-airtable-to-workfront-fusion" class="MCXref xref">將Airtable連接到Workfront Fusion</a> 這篇文章。</p> </td> 
+   <td> <p>如需有關將Airtable帳戶連線至Workfront Fusion的說明，請參閱 <a href="#connect-airtable-to-workfront-fusion" class="MCXref xref">將Airtable連線至Workfront Fusion</a> 本文章內容。</p> </td> 
   </tr> 
   <tr> 
    <td>根據 </td> 
-   <td> <p>選擇包含要更新記錄的基。</p> </td> 
+   <td> <p>選取包含要更新之記錄的基底。</p> </td> 
   </tr> 
   <tr> 
    <td>表格 </td> 
-   <td> <p>選擇包含要更新記錄的表。</p> </td> 
+   <td> <p>選取包含要更新的記錄的表格。</p> </td> 
   </tr> 
   <tr> 
    <td>記錄ID </td> 
-   <td> <p>輸入或映射要更新模組的記錄的唯一可用ID。 例如，您可以使用「搜尋記錄」模組來擷取ID。</p> </td> 
+   <td> <p>輸入或對應您要模組更新的記錄的唯一Airtable ID。 例如，您可以使用搜尋記錄模組來擷取ID。</p> </td> 
   </tr> 
   <tr> 
    <td> <p>記錄</p> </td> 
@@ -307,21 +308,21 @@ ht-degree: 2%
     </ul> --></td> 
   </tr> 
   <tr> 
-   <td>智慧連結</td> 
-   <td> <p>輸入名稱，而不是記錄ID，以輸入連結至其他表格的欄位。 如果沒有匹配項，則在連結的表中自動建立記錄。</p> </td> 
+   <td>智慧型連結</td> 
+   <td> <p>輸入連結至其他表格的欄位名稱，而非記錄ID。 如果沒有相符專案，系統會自動在連結的表格中建立記錄。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-#### 更新記錄
+#### 更新插入記錄
 
 此動作模組會更新或插入特定記錄。
 
-您可指定記錄的ID以及要包含的新資料。
+您可以指定記錄的ID，以及要包含的新資料。
 
-模組會傳回與記錄相關聯的任何標準欄位，以及連線存取的任何自訂欄位和值。 您可以在案例的後續模組中對應此資訊。
+模組會傳回與記錄相關聯的任何標準欄位，以及連線存取的任何自訂欄位和值。 您可以在情境中的後續模組中對應此資訊。
 
-設定此模組時，會顯示下列欄位。
+當您設定此模組時，會顯示下列欄位。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -329,19 +330,19 @@ ht-degree: 2%
  <tbody> 
   <tr> 
    <td>連接 </td> 
-   <td> <p>有關將Airtable帳戶連接到Workfront Fusion的說明，請參見 <a href="#connect-airtable-to-workfront-fusion" class="MCXref xref">將Airtable連接到Workfront Fusion</a> 這篇文章。</p> </td> 
+   <td> <p>如需有關將Airtable帳戶連線至Workfront Fusion的說明，請參閱 <a href="#connect-airtable-to-workfront-fusion" class="MCXref xref">將Airtable連線至Workfront Fusion</a> 本文章內容。</p> </td> 
   </tr> 
   <tr> 
    <td>根據 </td> 
-   <td> <p>選擇包含要更新記錄的基。</p> </td> 
+   <td> <p>選取包含要更新之記錄的基底。</p> </td> 
   </tr> 
   <tr> 
    <td>表格 </td> 
-   <td> <p>選擇包含要更新記錄的表。</p> </td> 
+   <td> <p>選取包含要更新的記錄的表格。</p> </td> 
   </tr> 
   <tr> 
    <td>記錄ID </td> 
-   <td> <p>如果要更新記錄，請輸入或映射要模組更新的記錄的唯一可用ID。 例如，您可以使用「搜尋記錄」模組來擷取ID。</p> </td> 
+   <td> <p>如果您要更新記錄，請輸入或對應您要模組更新的記錄的唯一Airtable ID。 例如，您可以使用搜尋記錄模組來擷取ID。</p> </td> 
   </tr> 
   <tr> 
    <td> <p>記錄</p> </td> 
@@ -371,19 +372,19 @@ ht-degree: 2%
     </ul> --></td> 
   </tr> 
   <tr> 
-   <td>智慧連結</td> 
-   <td> <p>輸入名稱，而不是記錄ID，以輸入連結至其他表格的欄位。 如果沒有匹配項，則在連結的表中自動建立記錄。</p> </td> 
+   <td>智慧型連結</td> 
+   <td> <p>輸入連結至其他表格的欄位名稱，而非記錄ID。 如果沒有相符專案，系統會自動在連結的表格中建立記錄。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-#### 監看記錄 {#watch-records}
+#### 觀看記錄 {#watch-records}
 
-當在指定的表中建立或更新記錄時，此觸發模組會啟動方案。
+此觸發模組會在指定表格中建立或更新記錄時啟動案例。
 
 >[!NOTE]
 >
->若要使用此模組，必須在表中建立「建立時間」欄位或「上次修改時間」欄位。
+>若要使用此模組，必須在表格中建立「建立時間」欄位或「上次修改時間」欄位。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -391,23 +392,23 @@ ht-degree: 2%
  <tbody> 
   <tr> 
    <td>連接 </td> 
-   <td> <p>有關將Airtable帳戶連接到Workfront Fusion的說明，請參見 <a href="#connect-airtable-to-workfront-fusion" class="MCXref xref">將Airtable連接到Workfront Fusion</a> 這篇文章。</p> </td> 
+   <td> <p>如需有關將Airtable帳戶連線至Workfront Fusion的說明，請參閱 <a href="#connect-airtable-to-workfront-fusion" class="MCXref xref">將Airtable連線至Workfront Fusion</a> 本文章內容。</p> </td> 
   </tr> 
   <tr> 
    <td>根據 </td> 
-   <td> <p>選擇要監視新記錄的基礎。</p> </td> 
+   <td> <p>選取要監視新記錄的基底。</p> </td> 
   </tr> 
   <tr> 
    <td>表格 </td> 
-   <td> <p>選擇要監視的新記錄的表。</p> </td> 
+   <td> <p>選取要監視新記錄的表格。</p> </td> 
   </tr> 
   <tr> 
-   <td> <p>觸發設定</p> </td> 
-   <td> <p>觸發欄位</p> <p>A <code>Created Time</code> 或 <code>Last Modified Time</code> 用於排序記錄的欄位。 如果您沒有 <code>Created Time</code> 或 <code>Last Modified Time</code> 欄位，則您需要建立。 </p> <p>標籤欄位</p> <p>用作記錄標籤的欄位，例如，在「選擇開始位置」對話框中。</p> </td> 
+   <td> <p>觸發器設定</p> </td> 
+   <td> <p>觸發器欄位</p> <p>A <code>Created Time</code> 或 <code>Last Modified Time</code> 用來排序記錄的欄位。 如果您沒有 <code>Created Time</code> 或 <code>Last Modified Time</code> 欄位，您需要建立一個欄位。 </p> <p>標籤欄位</p> <p>用作記錄標籤的欄位，例如，在選擇開始位置對話方塊中。</p> </td> 
   </tr> 
   <tr> 
    <td>限制</td> 
-   <td> <p>輸入或映射您希望模組在每個方案執行週期中監視的最大記錄數。</p> </td> 
+   <td> <p>輸入或對應您希望模組在每個案例執行週期中監視的最大記錄數量。</p> </td> 
   </tr> 
   <tr> 
    <td>檢視</td> 
@@ -415,48 +416,48 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td> <p>公式</p> </td> 
-   <td> <p>用於篩選記錄的公式。 系統會為每個記錄評估公式，如果結果不是 <code>0</code>, <code>false</code>, <code>""</code>, <code>NaN</code>, <code>[]</code>，或 <code>#Error!</code> 該記錄會包含在回應中。</p> <p>若與 <code>view</code>，只會傳回該檢視中符合公式的記錄。</p> <p>例如，要僅包含名稱不為空的記錄，請傳入：<code> NOT({Name} = '')</code></p> <p>要了解更多資訊，請參閱Airtable支援文檔中有關公式欄位引用的資訊。</p> </td> 
+   <td> <p>用來篩選記錄的公式。 系統會評估每個記錄的公式，如果結果不是 <code>0</code>， <code>false</code>， <code>""</code>， <code>NaN</code>， <code>[]</code>，或 <code>#Error!</code> 記錄會包含在回應中。</p> <p>如果與 <code>view</code>，則只會傳回該檢視中符合公式的記錄。</p> <p>例如，若要僅包含Name非空白的記錄，請傳入：<code> NOT({Name} = '')</code></p> <p>若要深入瞭解，請參閱Airtable支援檔案中有關公式欄位參考的資訊。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-#### 監看回應
+#### 觀看回應
 
-此觸發器模組會在表單提交時啟動案例。
+此觸發模組會在表單提交時啟動案例。
 
 >[!NOTE]
 >
->此功能僅適用於付費Airtable Pro計畫。
+>此功能僅適用於付費的Airtable Pro Plan。
 
-Webhook URL必須在Workfront Fusion中產生，然後新增至Airtable的表單設定。
+webhook URL需要在Workfront Fusion中產生，然後新增到Airtable中的表單設定。
 
-1. 將Watch New Responses模組新增至您的Workfront Fusion案例。
-1. 產生並複製網頁連結URL。
+1. 將「觀看新回應」模組新增至您的Workfront Fusion案例。
+1. 產生並複製webhook URL。
 
-   如需指示，請參閱 [Adobe Workfront Fusion中的即時觸發器(Webhook)](../../workfront-fusion/webhooks/instant-triggers-webhooks.md).
+   如需指示，請參閱 [Adobe Workfront Fusion中的即時觸發器(webhook)](../../workfront-fusion/webhooks/instant-triggers-webhooks.md).
 
 1. 登入您的Airtable帳戶。
-1. 開啟「基」(Base)和要用於表單的表，並建立「表單」視圖。
-1. 視需要設定表單，向下捲動表單，並啟用提交表單後重新導向至URL選項。
-1. 將步驟2中生成的Webhook URL輸入到顯示的對話框，並在Webhook URL後面添加？record_id={record_id}以在模組的輸出中包含Record ID，然後按一下「保存」。 例如，產生的URL看起來會像這樣：
-1. 返回到您的Workfront Fusion方案，並執行Watch Responses模組，僅載入來自Airtable的欄位，並能夠將這些欄位映射至其他模組。
-1. 在Airtable中提交表單，其中已啟用「提交表單後重新導向至URL」選項並新增Webhook URL（上述步驟6）。
+1. 開啟「基底」和您要用於表單的表格，並建立「表單」檢視。
+1. 視需要設定表單、向下捲動表單，並啟用提交表單後重新導向至URL選項。
+1. 輸入在步驟2中產生的Webhook URL到顯示的對話方塊，然後新增？record_id={record_id} 在webhook URL之後將記錄ID加入模組輸出中，然後按一下「儲存」。 例如，產生的URL如下所示：
+1. 返回Workfront Fusion案例並執行觀察回應模組，僅從Airtable載入欄位，並將這些欄位對應到其他模組。
+1. 在Airtable中提交表單，其中在提交表單後重新導向至URL選項已啟用並新增Webhook URL （上述步驟6）。
 
-   觸發監看回應模組，並載入所需資料。
+   監看回應模組已觸發，且所需資料已載入。
 
-1. 在「表」>「監看響應」模組後面添加「表」>「獲取記錄」模組，並將record_id映射到「記錄ID」欄位。
+1. 在Airtable >觀看回應模組之後新增「Airtable >取得記錄」模組，並將record_id對應至「記錄ID」欄位。
 
-現在，每次提交表單時，都會觸發Workfront Fusion中的Watch Responses模組，而Get a Record模組會傳回已提交的表單詳細資訊。
+現在，每次提交表單時，都會觸發Workfront Fusion案例中的「觀看回應」模組，且「取得記錄」模組會傳回提交的表單詳細資料。
 
 #### 進行API呼叫
 
 #### 自訂API呼叫
 
-此動作模組可讓您對 [!DNL Airtable] API。 這樣，您就可以建立資料流自動化，而另一個無法完成 [!DNL Airtable] 模組。
+此動作模組可讓您對 [!DNL Airtable] API。 如此一來，您就可以建立其他人無法完成的資料流程自動化 [!DNL Airtable] 模組。
 
-動作以您指定的實體類型（配置對象類型）為基礎。
+動作以您指定的圖元型別（Allocadia物件型別）為基礎。
 
-設定此模組時，會顯示下列欄位。
+當您設定此模組時，會顯示下列欄位。
 
 <table style="table-layout:auto">
  <col> 
@@ -464,11 +465,11 @@ Webhook URL必須在Workfront Fusion中產生，然後新增至Airtable的表單
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>連接</p> </td> 
-   <td> <p>有關將Airtable帳戶連接到Workfront Fusion的說明，請參見 <a href="#connect-airtable-to-workfront-fusion" class="MCXref xref">將Airtable連接到Workfront Fusion</a> 這篇文章。</p> </td> 
+   <td> <p>如需有關將Airtable帳戶連線至Workfront Fusion的說明，請參閱 <a href="#connect-airtable-to-workfront-fusion" class="MCXref xref">將Airtable連線至Workfront Fusion</a> 本文章內容。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">URL</td> 
-   <td>輸入相對於的路徑 <code>https://api.airtable.com/}</code>. 範例: <code>v0/{base}/{table}</code> </td> 
+   <td>輸入相對於 <code>https://api.airtable.com/}</code>. 範例: <code>v0/{base}/{table}</code> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">方法</td> 
@@ -476,7 +477,7 @@ Webhook URL必須在Workfront Fusion中產生，然後新增至Airtable的表單
   </tr> 
   <tr> 
    <td role="rowheader">標頭</td> 
-   <td> <p>以標準JSON物件的形式新增請求的標題。</p> <p>例如， <code>{"Content-type":"application/json"}</code></p> <p>[!DNL Workfront Fusion] 為您添加授權標頭。</p> </td> 
+   <td> <p>以標準JSON物件的形式新增請求的標頭。</p> <p>例如， <code>{"Content-type":"application/json"}</code></p> <p>[!DNL Workfront Fusion] 為您新增授權標頭。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">查詢字串</td> 

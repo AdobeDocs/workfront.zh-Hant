@@ -3,12 +3,12 @@ title: 轉換物件時傳輸自訂表單資料
 user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
-description: 當工作項中定義的工作變得過大時，您可以將其轉換為較大的工作項。
+description: 當在工作專案中定義的工作變得太大時，您可以將其轉換為較大的工作專案。
 author: Caroline
-feature: System Setup and Administration
+feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 2d4d104a-1465-43e2-8184-83dd63d9681c
-source-git-commit: 7b378fdf3530d5e1c06f09d03c23c31afac6aa47
+source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
 source-wordcount: '433'
 ht-degree: 0%
@@ -17,18 +17,18 @@ ht-degree: 0%
 
 # 轉換物件時傳輸自訂表單資料
 
-根據貴組織的業務需要，任務或問題中定義的工作可能會變得過大，無法在任務或問題中管理。 在這種情況下，您可以將它們轉換為較大的工作項目：
+根據您組織的業務需求，任務或問題中定義的工作可能會變得太大，無法在任務或問題中管理。 在這種情況下，您可以將它們轉換為較大的工作專案：
 
-* 您可以將問題轉換為工作或專案
+* 您可以將問題轉換為任務或專案
 * 您可以將任務轉換為專案
 
-若要將自訂表單資料從問題傳輸至任務或專案，您必須依照下列順序完成本文中的兩個工作。
+若要將自訂表單資料從問題傳輸至任務或專案，您必須依照以下順序完成本文中的兩個任務。
 
-如需詳細資訊，請參閱 [轉換Adobe Workfront問題概觀](../../../manage-work/issues/convert-issues/convert-issues.md) 或 [轉換Adobe Workfront問題概觀](../../../manage-work/issues/convert-issues/convert-issues.md).
+如需詳細資訊，請參閱 [在Adobe Workfront中轉換問題的概觀](../../../manage-work/issues/convert-issues/convert-issues.md) 或 [在Adobe Workfront中轉換問題的概觀](../../../manage-work/issues/convert-issues/convert-issues.md).
 
 ## 存取需求
 
-您必須具備下列條件才能執行本文所述步驟：
+您必須具備下列專案才能執行本文所述的步驟：
 
 <table style="table-layout:auto"> 
  <col> 
@@ -43,41 +43,41 @@ ht-degree: 0%
    <td>計劃</td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">訪問級別配置*</td> 
-   <td> <p>管理對自訂表單的存取</p> <p>如需Workfront管理員如何授予此存取權的詳細資訊，請參閱 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">授予用戶對特定區域的管理訪問權限</a>.</p> </td> 
+   <td role="rowheader">存取層級設定*</td> 
+   <td> <p>管理自訂表單的存取權</p> <p>如需Workfront管理員如何授予此存取許可權的詳細資訊，請參閱 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">授予使用者管理特定區域的存取權</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;若要了解您擁有的計畫、授權類型或存取層級設定，請聯絡您的Workfront管理員。
+&#42;若要瞭解您擁有的計畫、授權型別或存取層級設定，請聯絡Workfront管理員。
 
 ## 第一：新增其他物件至自訂表單
 
-1. 按一下 **主菜單** 圖示 ![](assets/main-menu-icon.png) 在Adobe Workfront的右上角，然後按一下 **設定** ![](assets/gear-icon-settings.png).
+1. 按一下 **主要功能表** 圖示 ![](assets/main-menu-icon.png) (位於Adobe Workfront的右上角)，然後按一下 **設定** ![](assets/gear-icon-settings.png).
 
 1. 按一下 **自訂Forms**.
-1. 找到您需要的表單，然後按一下 **編輯**.
-1. 在表單頂端新增您打算將任務或問題轉換為的物件。
+1. 尋找所需的表單，然後按一下 **編輯**.
+1. 在表單頂端，新增您計畫轉換任務或問題的物件。
    >[!INFO]
    >
-   >**範例**:如果要將自訂表單資料傳輸至專案，請選取「專案」。
+   >**範例**：如果您想要將自訂表單資料傳輸至專案，請選取「專案」。
 
-1. 按一下 **套用** 表格底部。
+1. 按一下 **套用** 在表單底部。
 
-1. 繼續 [第二：轉換問題或任務並傳輸自訂表單資料](#second-convert-the-issue-or-task-and-transfer-the-custom-form-data).
+1. 繼續前往 [第二：轉換問題或任務並傳輸自訂表單資料](#second-convert-the-issue-or-task-and-transfer-the-custom-form-data).
 
 ## 第二：轉換問題或任務並傳輸自訂表單資料 {#second-convert-the-issue-or-task-and-transfer-the-custom-form-data}
 
-1. 在您要轉換的問題或任務的自訂表單中新增其他物件，如一節中所述 [第一：新增其他物件至自訂表單](#first-add-additonal-objects-to-the-custom-form) 這篇文章。
-1. 使用 **自訂Forms** 選項，以選取您需要的自訂表單。 如需指示，請參閱下列文章：
+1. 按照一節中的說明，在轉換的問題或任務上，將其他物件新增到自訂表單 [第一：新增其他物件至自訂表單](#first-add-additonal-objects-to-the-custom-form) 本文章內容。
+1. 使用轉換問題或任務 **自訂Forms** 方塊中的選項，用於選取您需要的自訂表單。 如需指示，請參閱下列文章：
 
-   * [將問題轉換為Adobe Workfront中的專案](../../../manage-work/issues/convert-issues/convert-issue-to-project.md)
-   * [將問題轉換為Adobe Workfront中的任務](../../../manage-work/issues/convert-issues/convert-issue-to-task.md)
-   * [將任務轉換為項目](../../../manage-work/tasks/manage-tasks/convert-task-to-project.md)
+   * [在Adobe Workfront中將問題轉換為專案](../../../manage-work/issues/convert-issues/convert-issue-to-project.md)
+   * [在Adobe Workfront中將問題轉換為任務](../../../manage-work/issues/convert-issues/convert-issue-to-task.md)
+   * [將任務轉換為專案](../../../manage-work/tasks/manage-tasks/convert-task-to-project.md)
 
-1. 在 **轉換為（物件類型）** 對話框，按一下 **新增Forms** 下拉式選單中，並選取您在上一節中複製的表單。
+1. 在 **轉換為（物件型別）** 對話方塊中，按一下 **新增Forms** 下拉式功能表，並選取您在上一節中複製的表單。
 
-   在問題的自訂欄位中擷取的資訊現在會傳輸至任務上的自訂表單。
+   在問題的自訂欄位中擷取的資訊現在已轉移到任務上的自訂表單。
 
 
 <!--

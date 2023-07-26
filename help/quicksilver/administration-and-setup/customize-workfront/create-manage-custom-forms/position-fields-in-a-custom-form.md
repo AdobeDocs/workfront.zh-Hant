@@ -2,28 +2,28 @@
 user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
-title: 使用舊版表單產生器在自訂表單中放置自訂欄位和介面工具集
-description: 您可以在自訂表單中重新定位自訂欄位和介面工具集。
+title: 在自訂表單中使用舊版表單產生器來定位自訂欄位和Widget
+description: 您可以在自訂表單中重新定位自訂欄位和Widget。
 author: Caroline
-feature: System Setup and Administration
+feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: f96425e3-8e20-43ac-8340-915538ae5886
-source-git-commit: ac5b7e0237dbcaea14010eda658f7d5a6be089cc
+source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
 source-wordcount: '449'
 ht-degree: 0%
 
 ---
 
-# 使用舊版表單產生器在自訂表單中放置自訂欄位和介面工具集
+# 在自訂表單中使用舊版表單產生器來定位自訂欄位和Widget
 
-您可以在自訂表單中重新定位自訂欄位和介面工具集。
+您可以在自訂表單中重新定位自訂欄位和Widget。
 
-如需自訂表單中自訂欄位和小工具的相關資訊，請參閱 [新增自訂欄位至自訂表單](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md) 和 [在自訂表單中新增或編輯資產介面工具集](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md).
+如需自訂表單中自訂欄位和Widget的相關資訊，請參閱 [新增自訂欄位至自訂表單](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md) 和 [在自訂表單中新增或編輯資產Widget](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md).
 
 ## 存取需求
 
-您必須具備下列條件才能執行本文所述步驟：
+您必須具備下列專案才能執行本文所述的步驟：
 
 <table style="table-layout:auto"> 
  <col> 
@@ -38,20 +38,20 @@ ht-degree: 0%
    <td>計劃</td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">訪問級別配置*</td> 
-   <td> <p>管理對自訂表單的存取</p> <p>如需Workfront管理員如何授予此存取權的詳細資訊，請參閱 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">授予用戶對特定區域的管理訪問權限</a>.</p> </td> 
+   <td role="rowheader">存取層級設定*</td> 
+   <td> <p>管理自訂表單的存取權</p> <p>如需Workfront管理員如何授予此存取許可權的詳細資訊，請參閱 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">授予使用者管理特定區域的存取權</a>.</p> </td> 
   </tr>  
  </tbody> 
 </table>
 
-&#42;若要了解您擁有的計畫、授權類型或存取層級設定，請聯絡您的Workfront管理員。
+&#42;若要瞭解您擁有的計畫、授權型別或存取層級設定，請聯絡Workfront管理員。
 
-## 在自訂表單中放置自訂欄位和小工具
+## 在自訂表單中定位自訂欄位和Widget
 
-1. 開始建立或編輯自訂表單，如 [使用舊版表單產生器建立或編輯自訂表單](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
-1. 將自訂欄位和小工具新增至表單，如 [使用舊版表單產生器將自訂欄位新增至自訂表單](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md) 和 [使用舊版表單產生器在自訂表單中新增或編輯資產介面工具集](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md).
+1. 開始建立或編輯自訂表單，如所述 [使用舊版表單產生器建立或編輯自訂表單](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
+1. 新增自訂欄位和Widget至表單，如所述 [使用舊版表單產生器新增自訂欄位至自訂表單](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md) 和 [使用舊版表單產生器，在自訂表單中新增或編輯資產小工具](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md).
 
-1. （可選）若要將自訂欄位和介面工具集放置在同一列，請將一個欄位拖曳到另一個欄位，直到它們之間出現一行。
+1. （可選）若要將自訂欄位和Widget放置在同一列，請將其中一個拖曳到另一個旁邊，直到它們之間出現線條為止。
 
 <!--
 Courtney, this is a story that got postponed after I did the work. Slated for some time in 22.4 (https://hub.workfront.adobe.com/task/6220d425000140d7f7d3ea68cc9529c8/documents)
@@ -64,18 +64,17 @@ Courtney, this is a story that got postponed after I did the work. Slated for so
 
 >[!NOTE]
 >
->* 您可以使用 **預覽** 按鈕，了解自訂欄位和介面工具集在表單中的顯示方式。
->* 描述性文字欄位無法共用一列。
->* 自訂欄位和Widget在表單中不一定會以相同的方式顯示，視使用者檢視時可用的螢幕空間大小而定。 例如，如果水準空間有限，一列欄位中的第三個欄位可能會換行到下一列欄位。
+>* 您可以使用 **預覽** 按鈕來瞭解自訂欄位和Widget在表單中的顯示方式。
+>* 描述性文字欄位無法共用列。
+>* 自訂欄位和Widget不一定會在表單中以相同的方式顯示，取決於使用者檢視時可用的熒幕空間。 例如，如果水準間距受限，欄位列中的第三個欄位可能會換成下一列欄位。
 
-
-1. （可選）若要將自訂欄位或介面工具集置於另一個欄位或介面工具集之上或之下，請將其拖曳至上方或下方，直到項目之間出現水準藍線為止。
+1. （可選）若要將自訂欄位或Widget置於另一個欄位之上或之下，請將其拖曳至另一個欄位之上或之下，直到專案之間出現水準藍色線為止。
 1. 按一下 **套用**.
-1. 如果您想以其他方式繼續建立自訂表單，請繼續閱讀下列其中一篇文章：
+1. 如果您想以其他方式繼續建置自訂表單，請繼續閱讀下列其中一篇文章：
 
-   * [使用舊版表單產生器將自訂欄位新增至自訂表單](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md#add2)
-   * [使用舊版表單產生器在自訂表單中新增或編輯資產介面工具集](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md)
+   * [使用舊版表單產生器新增自訂欄位至自訂表單](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md#add2)
+   * [使用舊版表單產生器，在自訂表單中新增或編輯資產小工具](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md)
    * [使用舊版表單產生器將計算資料新增至自訂表單](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md)
-   * [使用舊版表單產生器，將區段分頁新增至自訂表單](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-section-break-to-a-custom-form.md)
-   * [使用舊版表單產生器將顯示邏輯新增及略過邏輯至自訂表單](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/display-or-skip-logic-custom-form.md)
+   * [使用舊版表單產生器將分割槽符號新增至自訂表單](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-section-break-to-a-custom-form.md)
+   * [使用舊版表單產生器新增顯示邏輯和略過邏輯至自訂表單](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/display-or-skip-logic-custom-form.md)
    * [使用舊版表單產生器預覽並完成自訂表單](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/preview-and-complete-a-custom-form.md)

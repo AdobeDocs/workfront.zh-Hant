@@ -7,8 +7,9 @@ navigation-topic: apps-and-their-modules
 title: 圖形模組
 description: 使用 [!DNL Adobe Workfront Fusion] 圖形模組，您可以擷取註釋、檔案、檔案版本或專案的清單。 您也可以張貼註解或呼叫Figma API。
 author: Becky
+feature: Workfront Fusion
 exl-id: d88db592-32d4-4765-952f-9ffb58cf1720
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
 source-wordcount: '2309'
 ht-degree: 1%
@@ -19,7 +20,7 @@ ht-degree: 1%
 
 使用 [!DNL Adobe Workfront Fusion] [!DNL Figma] 模組，您可以擷取註釋、檔案、檔案版本或專案的清單。 您也可以張貼註解或撥打電話至 [!DNL Figma] API。
 
-如果您需要建立案例的說明，請參閱 [建立情境](../../workfront-fusion/scenarios/create-a-scenario.md).
+如果您需要有關建立情境的指示，請參閱 [建立情境](../../workfront-fusion/scenarios/create-a-scenario.md).
 
 如需模組的相關資訊，請參閱 [中的模組 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/modules.md).
 
@@ -54,18 +55,18 @@ ht-degree: 1%
     <tr>
       <td role="rowheader">產品</td>
       <td>
-   <p>目前產品需求：如果您有[！UICONTROL Select]或[！UICONTROL Prime] [!DNL Adobe Workfront] 計畫，您的組織必須購買 [!DNL Adobe Workfront Fusion] 以及 [!DNL Adobe Workfront] 以使用本文所述功能。 [!DNL Workfront Fusion] 包含在[！UICONTROL Ultimate]中 [!DNL Workfront] 計畫。</p>
+   <p>目前產品需求：如果您有[！UICONTROL Select]或[！UICONTROL Prime] [!DNL Adobe Workfront] 計畫，您的組織必須購買 [!DNL Adobe Workfront Fusion] 以及 [!DNL Adobe Workfront] 以使用本文所述的功能。 [!DNL Workfront Fusion] 包含在[！UICONTROL Ultimate]中 [!DNL Workfront] 計畫。</p>
    <p>或</p>
-   <p>舊版產品需求：貴組織必須購買 [!DNL Adobe Workfront Fusion] 以及 [!DNL Adobe Workfront] 以使用本文所述功能。</p>
+   <p>舊版產品需求：貴組織必須購買 [!DNL Adobe Workfront Fusion] 以及 [!DNL Adobe Workfront] 以使用本文所述的功能。</p>
    </td>
     </tr>
   </tbody>
 </table>
 
 
-若要瞭解您擁有哪些計畫、授權型別或存取權，請聯絡您的 [!DNL Workfront] 管理員。
+若要瞭解您擁有的計畫、授權型別或存取權，請聯絡您的 [!DNL Workfront] 管理員。
 
-有關以下專案的資訊： [!DNL Adobe Workfront Fusion] 授權，請參閱 [[!DNL Adobe Workfront Fusion] 授權](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+有關的資訊 [!DNL Adobe Workfront Fusion] 授權，請參閱 [[!DNL Adobe Workfront Fusion] 授權](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
 ## 必要條件
 
@@ -73,9 +74,9 @@ ht-degree: 1%
 
 ## [!DNL Figma] 模組及其欄位
 
-當您設定 [!DNL Figma] 模組， [!DNL Workfront Fusion] 顯示下列欄位。 除了這些以外， [!DNL Figma] 視您在應用程式或服務中的存取層級等因素而定，可能會顯示欄位。 模組中的粗體標題表示必填欄位。
+當您設定 [!DNL Figma] 模組， [!DNL Workfront Fusion] 顯示下列欄位。 除了這些以外， [!DNL Figma] 欄位可能會顯示，端視您應用程式或服務中的存取層級等因素而定。 模組中的粗體標題表示必填欄位。
 
-如果您在欄位或函式上方看到對應按鈕，則可以使用它來設定該欄位的變數和函式。 如需詳細資訊，請參閱 [將資訊從一個模組對應至中的另一個模組 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
+如果您在欄位或函式上方看到對應按鈕，則可以使用它來設定該欄位的變數和函式。 如需詳細資訊，請參閱 [在中將資訊從一個模組對應到另一個模組 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
 
 ![](assets/map-toggle-350x74.png)
 
@@ -106,8 +107,8 @@ ht-degree: 1%
   <col />
   <tbody>
     <tr>
-      <td role="rowheader">[！UICONTROL連線]</td>
-      <td> <p>如需有關連線您的電腦的指示， [!DNL Figma] 帳戶至 [!DNL Workfront Fusion]，請參閱 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與的連線 [!DNL Adobe Workfront Fusion]  — 基本指示。</a></p>
+      <td role="rowheader">[！UICONTROL Connection]</td>
+      <td> <p>如需有關連線您的電腦的指示 [!DNL Figma] 帳戶至 [!DNL Workfront Fusion]，請參閱 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與的連線 [!DNL Adobe Workfront Fusion]  — 基本指示。</a></p>
       </td>
     </tr>
     <tr>
@@ -116,40 +117,40 @@ ht-degree: 1%
     </tr>
     <tr>
       <td role="rowheader">[！UICONTROL註解]</td>
-      <td>輸入您要刪除的註解文字。</td>
+      <td>輸入要刪除的註解文字。</td>
     </tr>
   </tbody>
 </table>
 
 #### [!UICONTROL 列出註解]
 
-此搜尋模組會列出所有附加至中單一檔案的註解 [!DNL Figma].
+此搜尋模組會列出中附加到單一檔案的所有註解 [!DNL Figma].
 
 <table style="table-layout:auto"> 
   <col/>
   <col/>
   <tbody>
     <tr>
-      <td role="rowheader">[！UICONTROL連線]</td>
-      <td> <p>如需有關連線您的電腦的指示， [!DNL Figma] 帳戶至 [!DNL Workfront Fusion]，請參閱 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與的連線 [!DNL Adobe Workfront Fusion]  — 基本指示。</a></p>
+      <td role="rowheader">[！UICONTROL Connection]</td>
+      <td> <p>如需有關連線您的電腦的指示 [!DNL Figma] 帳戶至 [!DNL Workfront Fusion]，請參閱 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與的連線 [!DNL Adobe Workfront Fusion]  — 基本指示。</a></p>
     </tr>
     <tr>
       <td role="rowheader">[！UICONTROL檔案ID]</td>
       <td>
-        <p>輸入或對應您要為其擷取註解的檔案的檔案ID。 </p>
+        <p>輸入或對應您要擷取註解的檔案的檔案ID。 </p>
         <ul>
           <li>
-            <p>如果您不知道ID，請按一下 <b>[！UICONTROL尋找檔案]</b> 並輸入或對應與檔案相關聯的專案ID，然後選取檔案。</p>
+            <p>如果您不知道ID，請按一下 <b>[！UICONTROL尋找檔案]</b> ，並輸入或對應與檔案相關聯的專案ID，然後選取檔案。</p>
           </li>
           <li>
-            <p>如果您不知道專案的ID，請按一下 <b>[！UICONTROL尋找專案]</b> 並輸入或對應擁有該檔案關聯專案之團隊的ID，然後選取該專案，再選取該檔案。</p>
+            <p>如果您不知道專案的ID，請按一下 <b>[！UICONTROL尋找專案]</b> 並輸入或對應擁有檔案關聯專案之團隊的ID，然後選取專案，再選取檔案。</p>
           </li>
         </ul>
       </td>
     </tr>
     <tr>
       <td role="rowheader">[！UICONTROL限制]</td>
-      <td>輸入或對應您希望模組在每個案例執行週期內傳回的最大註解數。</td>
+      <td>輸入或對應您希望模組在每個案例執行週期中傳回的最大註解數。</td>
     </tr>
   </tbody>
 </table>
@@ -164,8 +165,8 @@ ht-degree: 1%
   <col/>
   <tbody>
     <tr>
-      <td role="rowheader">[！UICONTROL連線]</td>
-      <td> <p>如需有關連線您的電腦的指示， [!DNL Figma] 帳戶至 [!DNL Workfront Fusion]，請參閱 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與的連線 [!DNL Adobe Workfront Fusion]  — 基本指示。</a></p>
+      <td role="rowheader">[！UICONTROL Connection]</td>
+      <td> <p>如需有關連線您的電腦的指示 [!DNL Figma] 帳戶至 [!DNL Workfront Fusion]，請參閱 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與的連線 [!DNL Adobe Workfront Fusion]  — 基本指示。</a></p>
     </tr>
     <tr>
       <td  role="rowheader">[！UICONTROL檔案ID]</td>
@@ -173,10 +174,10 @@ ht-degree: 1%
         <p>輸入或對應您要張貼註解的檔案的檔案ID。 </p>
         <ul>
           <li>
-            <p>如果您不知道檔案的ID，請按一下 <b>[！UICONTROL尋找檔案]</b> 並輸入或對應與檔案相關聯的專案ID，然後選取檔案。</p>
+            <p>如果您不知道檔案的ID，請按一下 <b>[！UICONTROL尋找檔案]</b> ，並輸入或對應與檔案相關聯的專案ID，然後選取檔案。</p>
           </li>
           <li>
-            <p>如果您嘗試尋找檔案的ID但不知道專案的ID，請按一下 <b>[！UICONTROL尋找專案]</b> 並輸入或對應擁有檔案相關聯專案的團隊ID。 選取專案，然後選取檔案。</p>
+            <p>如果您嘗試尋找檔案ID但不知道專案ID，請按一下 <b>[！UICONTROL尋找專案]</b> 並輸入或對應擁有與檔案相關聯專案的團隊識別碼。 選取專案，然後選取檔案。</p>
           </li>
         </ul>
       </td>
@@ -209,8 +210,8 @@ ht-degree: 1%
   <col/>
   <tbody>
     <tr>
-      <td role="rowheader">[！UICONTROL連線]</td>
-      <td> <p>如需有關連線您的電腦的指示， [!DNL Figma] 帳戶至 [!DNL Workfront Fusion]，請參閱 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與的連線 [!DNL Adobe Workfront Fusion]  — 基本指示。</a></p>
+      <td role="rowheader">[！UICONTROL Connection]</td>
+      <td> <p>如需有關連線您的電腦的指示 [!DNL Figma] 帳戶至 [!DNL Workfront Fusion]，請參閱 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與的連線 [!DNL Adobe Workfront Fusion]  — 基本指示。</a></p>
     </tr>
     <tr>
       <td role="rowheader">[！UICONTROL物件型別]</td>
@@ -220,17 +221,17 @@ ht-degree: 1%
           <li>
             <p><b>[！UICONTROL檔案]</b>
             </p>
-            <p>模組會傳回[！UICONTROL Key]參照的檔案作為JSON物件。 您可以從任何Figma檔案URL剖析檔案金鑰。</p>
+            <p>模組會傳回[！UICONTROL Key]參考的檔案作為JSON物件。 您可以從任何Figma檔案URL剖析檔案金鑰。</p>
             <p>如需欄位，請參閱 <a href="#Get2" class="MCXref xref" >[！UICONTROL取得檔案或影像：檔案]</a>.</p>
           </li>
           <li>
             <p><b>[！UICONTROL檔案節點]</b>
             </p>
-            <p>傳回ID參照的節點作為JSON物件。 節點是從下列位置擷取： [!DNL Figma] 由[！UICONTROL Key]參考的檔案。</p>
+            <p>傳回ID參照的節點作為JSON物件。 節點會從 [!DNL Figma] 由[！UICONTROL Key]參考的檔案。</p>
             <p>如需欄位，請參閱 <a href="#Get3" class="MCXref xref" >[！UICONTROL取得檔案或影像：檔案節點]</a>.</p>
           </li>
           <li>
-            <p><b>[！UICONTROL影像]</b>
+            <p><b>[！UICONTROL Image]</b>
             </p>
             <p>模組會從檔案轉譯影像。</p>
             <p>如需欄位，請參閱 <a href="#Get4" class="MCXref xref" >[！UICONTROL取得檔案或影像： Image]</a>.</p>
@@ -238,7 +239,7 @@ ht-degree: 1%
           <li>
             <p><b>[！UICONTROL影像填色]</b>
             </p>
-            <p>模組會傳回檔案中影像填色中所有影像的下載連結。 影像填色是如何 [!DNL Figma] 代表任何使用者提供的影像。 將影像拖曳到 [!DNL Figma]， [!DNL Figma] 使用單一填色來建立矩形，代表影像，且使用者可以變形矩形（和填色上的屬性）。</p>
+            <p>模組會傳回檔案中影像填色中所有影像的下載連結。 影像填色是如何 [!DNL Figma] 代表任何使用者提供的影像。 將影像拖曳到 [!DNL Figma]， [!DNL Figma] 會建立具有單一填色來代表影像的矩形，使用者可以轉換矩形（和填色上的屬性）。</p>
             <p>如需欄位，請參閱 <a href="#Get5" class="MCXref xref" >[！UICONTROL取得檔案或影像：影像填色]</a>.</p>
           </li>
         </ul>
@@ -272,14 +273,14 @@ ht-degree: 1%
     <tr>
       <td role="rowheader">[！UICONTROL深度]</td>
       <td>
-        <p>輸入或對應整數，該整數代表您要傳回結果的檔案樹狀結構深度。 </p>
+        <p>輸入或對應整數，該整數代表要傳回結果的檔案樹狀結構深度。 </p>
         <div class="example"><span class="autonumber"><span><b>範例: </b></span></span>
           <ul>
             <li>
-              <p>若要僅傳回頁面，請輸入 <code>1</code>.</p>
+              <p>若只要傳回頁面，請輸入 <code>1</code>.</p>
             </li>
             <li>
-              <p>若要傳回頁面和頂層物件，請輸入 <code>2</code>.</p>
+              <p>若要傳回頁面和最上層物件，請輸入 <code>2</code>.</p>
             </li>
           </ul>
         </div>
@@ -287,7 +288,7 @@ ht-degree: 1%
       </td>
     </tr>
     <tr>
-      <td role="rowheader">[！UICONTROL幾何]</td>
+      <td role="rowheader">[！UICONTROL Geometry]</td>
       <td>若要傳回向量資料，請輸入 <code>paths</code>.</td>
     </tr>
     <tr>
@@ -325,14 +326,14 @@ ht-degree: 1%
     <tr>
       <td role="rowheader">[！UICONTROL深度]</td>
       <td>
-        <p>輸入或對應整數，該整數代表您要傳回結果的檔案樹狀結構深度。 </p>
+        <p>輸入或對應整數，該整數代表要傳回結果的檔案樹狀結構深度。 </p>
         <div class="example"><span class="autonumber"><span><b>範例: </b></span></span>
           <ul>
             <li>
-              <p>若要僅傳回頁面，請輸入 <code>1</code>.</p>
+              <p>若只要傳回頁面，請輸入 <code>1</code>.</p>
             </li>
             <li>
-              <p>若要傳回頁面和頂層物件，請輸入 <code>2</code>.</p>
+              <p>若要傳回頁面和最上層物件，請輸入 <code>2</code>.</p>
             </li>
           </ul>
         </div>
@@ -340,12 +341,12 @@ ht-degree: 1%
       </td>
     </tr>
     <tr>
-      <td role="rowheader">[！UICONTROL幾何]</td>
+      <td role="rowheader">[！UICONTROL Geometry]</td>
       <td>若要傳回向量資料，請輸入 <code>paths</code>.</td>
     </tr>
     <tr>
       <td role="rowheader">[！UICONTROL外掛程式資料]</td>
-      <td>外掛程式ID和/或「共用」字串的逗號分隔清單。 由這些外掛程式撰寫的檔案中存在的任何資料，都會包含在pluginData和sharedPluginData屬性的結果中。</td>
+      <td>外掛程式ID和/或「共用」字串的逗號分隔清單。 這些外掛程式所撰寫的檔案中的任何資料都會包含在pluginData和sharedPluginData屬性的結果中。</td>
     </tr>
   </tbody>
 </table>
@@ -362,7 +363,7 @@ ht-degree: 1%
       <td>選取您要傳回JSON的來源檔案。</td>
     </tr>
     <tr>
-      <td role="rowheader" [!UICONTROL>節點識別碼]</td>
+      <td role="rowheader" [!UICONTROL>節點ID</td>
       <td>
         <p>輸入您希望模組呈現的節點。</p>
         <p>針對您要呈現的每個節點，按一下 <b>[！UICONTROL新增]</b> 並輸入節點的文字。</p>
@@ -370,7 +371,7 @@ ht-degree: 1%
     </tr>
     <tr>
       <td role="rowheader">[！UICONTROL縮放]</td>
-      <td>若要縮放影像，請輸入或對應縮放比例。 此數字必須介於0.01和4之間。</td>
+      <td>若要縮放影像，請輸入或對應縮放係數。 此數字必須介於0.01到4之間。</td>
     </tr>
     <tr>
       <td role="rowheader">[！UICONTROL格式]</td>
@@ -394,15 +395,15 @@ ht-degree: 1%
     </tr>
     <tr>
       <td role="rowheader">[！UICONTROLSVG — 包含ID]</td>
-      <td>啟用此選項可包含所有SVG元素的ID屬性。 預設： [！UICONTROL false]。</td>
+      <td>啟用此選項以包含所有SVG元素的ID屬性。 預設值： [！UICONTROL false]。</td>
     </tr>
     <tr>
       <td role="rowheader">[！UICONTROLSVG — 簡化筆畫]</td>
-      <td>啟用此選項可簡化內/外筆畫，並儘可能使用筆畫屬性，而非 &lt;mask&gt;. 預設： [！UICONTROL true]。</td>
+      <td>啟用此選項可簡化內/外筆畫，並儘可能使用筆畫屬性而非 &lt;mask&gt;. 預設值： [！UICONTROL true]。</td>
     </tr>
     <tr>
       <td role="rowheader">[！UICONTROL使用絕對界限]</td>
-      <td>啟用此選項可使用節點的完整尺寸，無論節點是否裁切或周圍空間為空白。 使用此項可匯出文位元組點而不進行裁切。 預設： [！UICONTROL false]。</td>
+      <td>啟用此選項可使用節點的完整尺寸，無論節點是否裁切或周圍空間是空的。 使用此項可匯出文位元組點而不進行裁切。 預設值： [！UICONTROL false]。</td>
     </tr>
     <tr>
       <td role="rowheader">[！UICONTROL版本ID]</td>
@@ -426,31 +427,31 @@ ht-degree: 1%
 
 ### [!UICONTROL 列出檔案版本記錄]
 
-此搜尋模組會傳回中單一檔案的版本記錄 [!UICONTROL 圖].
+此搜尋模組會傳回單一檔案的版本記錄 [!UICONTROL 圖].
 <table style="table-layout:auto"> 
   <col/>
   <col/>
   <tbody>
     <tr>
-      <td role="rowheader">[！UICONTROL連線]</td>
-      <td> <p>如需有關連線您的電腦的指示， [!DNL Figma] 帳戶至 [!DNL Workfront Fusion]，請參閱 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與的連線 [!DNL Adobe Workfront Fusion]  — 基本指示。</a></p>
+      <td role="rowheader">[！UICONTROL Connection]</td>
+      <td> <p>如需有關連線您的電腦的指示 [!DNL Figma] 帳戶至 [!DNL Workfront Fusion]，請參閱 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與的連線 [!DNL Adobe Workfront Fusion]  — 基本指示。</a></p>
     <tr>
       <td role="rowheader">[！UICONTROL檔案ID]</td>
       <td>
         <p>輸入或對應您要擷取版本記錄的檔案的檔案ID。 </p>
         <ul>
           <li>
-            <p>如果您不知道檔案的ID，請按一下 <b>[！UICONTROL尋找檔案]</b> 並輸入或對應與檔案相關聯的專案ID，然後選取檔案。</p>
+            <p>如果您不知道檔案的ID，請按一下 <b>[！UICONTROL尋找檔案]</b> ，並輸入或對應與檔案相關聯的專案ID，然後選取檔案。</p>
           </li>
           <li>
-            <p>如果您嘗試尋找檔案的ID但不知道專案的ID，請按一下 <b>[！UICONTROL尋找專案]</b> 並輸入或對應擁有檔案相關聯專案的團隊ID。 選取專案，然後選取檔案。</p>
+            <p>如果您嘗試尋找檔案ID但不知道專案ID，請按一下 <b>[！UICONTROL尋找專案]</b> 並輸入或對應擁有與檔案相關聯專案的團隊識別碼。 選取專案，然後選取檔案。</p>
           </li>
         </ul>
       </td>
     </tr>
     <tr>
       <td role="rowheader">[！UICONTROL限制]</td>
-      <td>輸入或對應您希望模組在每個案例執行週期內傳回的最大記錄數。</td>
+      <td>輸入或對應您希望模組在每個案例執行週期中傳回的最大記錄數。</td>
     </tr>
   </tbody>
 </table>
@@ -464,13 +465,13 @@ ht-degree: 1%
   <col/>
   <tbody>
     <tr>
-      <td role="rowheader">[！UICONTROL連線]</td>
-      <td> <p>如需有關連線您的電腦的指示， [!DNL Figma] 帳戶至 [!DNL Workfront Fusion]，請參閱 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與的連線 [!DNL Adobe Workfront Fusion]  — 基本指示。</a></p>
+      <td role="rowheader">[！UICONTROL Connection]</td>
+      <td> <p>如需有關連線您的電腦的指示 [!DNL Figma] 帳戶至 [!DNL Workfront Fusion]，請參閱 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與的連線 [!DNL Adobe Workfront Fusion]  — 基本指示。</a></p>
     </tr>
     <tr>
       <td role="rowheader">[！UICONTROL檔案ID]</td>
       <td>
-        <p>輸入或對映您要擷取檔案的專案ID。 </p>
+        <p>輸入或對映您要擷取檔案的專案之專案ID。 </p>
         <ul>
           <li>
             <p>如果您不知道專案的ID，請按一下 <b>[！UICONTROL尋找專案]</b> 並輸入或對應專案相關團隊的ID，然後選取專案。</p>
@@ -480,7 +481,7 @@ ht-degree: 1%
     </tr>
     <tr>
       <td role="rowheader">[！UICONTROL限制]</td>
-      <td>輸入或對應您希望模組在每個案例執行週期內傳回的最大記錄數。</td>
+      <td>輸入或對應您希望模組在每個案例執行週期中傳回的最大記錄數。</td>
     </tr>
   </tbody>
 </table>
@@ -494,16 +495,16 @@ ht-degree: 1%
   <col/>
   <tbody>
     <tr>
-      <td role="rowheader">[！UICONTROL連線]</td>
-      <td> <p>如需有關連線您的電腦的指示， [!DNL Figma] 帳戶至 [!DNL Workfront Fusion]，請參閱 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與的連線 [!DNL Adobe Workfront Fusion]  — 基本指示。</a></p>
+      <td role="rowheader">[！UICONTROL Connection]</td>
+      <td> <p>如需有關連線您的電腦的指示 [!DNL Figma] 帳戶至 [!DNL Workfront Fusion]，請參閱 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與的連線 [!DNL Adobe Workfront Fusion]  — 基本指示。</a></p>
     </tr>
     <tr>
       <td role="rowheader">[！UICONTROL團隊ID]</td>
-      <td>輸入或對應您要擷取檔案的專案ID。 團隊ID可在菲格瑪團隊頁面的URL中找到</td>
+      <td>輸入或對應您要擷取檔案之專案的專案ID。 團隊ID可在菲格瑪團隊頁面的URL中找到</td>
     </tr>
     <tr>
       <td role="rowheader">[！UICONTROL限制]</td>
-      <td>輸入或對應您希望模組在每個案例執行週期內傳回的最大記錄數。</td>
+      <td>輸入或對應您希望模組在每個案例執行週期中傳回的最大記錄數。</td>
     </tr>
   </tbody>
 </table>
@@ -520,8 +521,8 @@ ht-degree: 1%
   <col/>
   <tbody>
     <tr>
-      <td role="rowheader">[！UICONTROL連線]</td>
-      <td> <p>如需有關連線您的電腦的指示， [!DNL Figma] 帳戶至 [!DNL Workfront Fusion]，請參閱 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與的連線 [!DNL Adobe Workfront Fusion]  — 基本指示。</a></p>
+      <td role="rowheader">[！UICONTROL Connection]</td>
+      <td> <p>如需有關連線您的電腦的指示 [!DNL Figma] 帳戶至 [!DNL Workfront Fusion]，請參閱 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與的連線 [!DNL Adobe Workfront Fusion]  — 基本指示。</a></p>
     </tr>
     <tr>
       <td role="rowheader">&lt;[！UICONTROL Object&gt;鍵]</td>
@@ -529,7 +530,7 @@ ht-degree: 1%
     </tr>
     <tr>
       <td role="rowheader">[！UICONTROL團隊ID]</td>
-      <td>輸入或對應與一個或多個記錄相關聯的團隊ID。</td>
+      <td>輸入或對應與一個或多個記錄關聯的團隊ID。</td>
     </tr>
     <tr>
       <td role="rowheader">[！UICONTROL頁面大小]</td>
@@ -538,7 +539,7 @@ ht-degree: 1%
     <tr>
       <td role="rowheader">[！UICONTROL After]</td>
       <td>
-        <p>輸入或對映結果編號，之後開始擷取結果。 這可以與[！UICONTROL頁面大小]欄位結合以分頁結果。</p>
+        <p>輸入或對應結果編號，之後開始擷取結果。 這可以與[！UICONTROL頁面大小]欄位結合以分頁結果。</p>
         <p>此值未對應至物件ID。</p>
         <p>此欄位不能與[！UICONTROL Before]欄位結合使用。</p>
       </td>
@@ -571,8 +572,8 @@ ht-degree: 1%
   <col/>
   <tbody>
     <tr>
-      <td role="rowheader">[！UICONTROL連線]</td>
-      <td> <p>如需有關連線您的電腦的指示， [!DNL Figma] 帳戶至 [!DNL Workfront Fusion]，請參閱 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與的連線 [!DNL Adobe Workfront Fusion]  — 基本指示。</a></p>
+      <td role="rowheader">[！UICONTROL Connection]</td>
+      <td> <p>如需有關連線您的電腦的指示 [!DNL Figma] 帳戶至 [!DNL Workfront Fusion]，請參閱 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與的連線 [!DNL Adobe Workfront Fusion]  — 基本指示。</a></p>
     </tr>
     <tr>
       <td role="rowheader">[！UICONTROL URL]</td>
@@ -586,7 +587,7 @@ ht-degree: 1%
       <td> <p>選取設定API呼叫所需的HTTP要求方法。 如需詳細資訊，請參閱 <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">中的HTTP要求方法 [!DNL Adobe Workfront Fusion]</a>.</p> </td>
     </tr>
     <tr>
-      <td role="rowheader">[！UICONTROL標頭]</td>
+      <td role="rowheader">[！UICONTROL Headers]</td>
       <td>
         <p>以標準JSON物件的形式新增請求的標頭。</p>
         <p>例如， <code>{"Content-type":"application/json"}</code></p>
@@ -601,8 +602,8 @@ ht-degree: 1%
       </td>
     </tr>
     <tr>
-      <td role="rowheader">[！UICONTROL內文]</td>
-   <td> <p>以標準JSON物件的形式新增API呼叫的正文內容。</p> <p>備註:  <p>使用條件陳述式時，例如 <code>if</code> 在JSON中，將引號放在條件陳述式之外。</p> 
+      <td role="rowheader">[！UICONTROL Body]</td>
+   <td> <p>以標準JSON物件的形式新增API呼叫的內文內容。</p> <p>備註:  <p>使用條件陳述式時，例如 <code>if</code> 在JSON中，將引號放在條件陳述式之外。</p> 
      <div class="example" data-mc-autonum="<b>Example: </b>"> 
       <p> <img src="assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
      </div> </p> </td>     </tr>
@@ -611,7 +612,7 @@ ht-degree: 1%
 
 #### [!UICONTROL 觀看活動]
 
-當您的團隊的特定團隊發生下列其中一項事件時，此觸發模組就會啟動一個案例： [!DNL Figma] 團隊空間
+當您的團隊中的特定團隊發生下列其中一項事件時，此觸發模組就會開始案例 [!DNL Figma] 團隊空間
 
 * 檔案更新
 
@@ -631,19 +632,19 @@ ht-degree: 1%
       <td role="rowheader">[！UICONTROL Webhook]</td>
       <td>
         <p>選取模組要監視的webhook。</p>
-        <p>若要新增新的webhook：</p>
+        <p>若要新增webhook：</p>
         <ol>
           <li value="1">
-            <p>按一下 <b>[！UICONTROL新增]</b> [！UICONTROL Webhook]欄位旁邊。</p>
+            <p>按一下 <b>[！UICONTROL新增]</b> ，位於[！UICONTROL Webhook]欄位旁。</p>
           </li>
           <li value="2">
-            <p>選取您要用於此webhook的連線。 如需有關連線您的電腦的指示， [!DNL Figma] [！UICONTROL Workfront Fusion]的帳戶，請參閱 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與[！UICONTROL Adobe Workfront Fusion]的連線 — 基本指示。</a></p>
+            <p>選取您要用於此webhook的連線。 如需有關連線您的電腦的指示 [!DNL Figma] [！UICONTROL Workfront Fusion]的帳戶，請參閱 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與[！UICONTROL Adobe Workfront Fusion]的連線 — 基本指示。</a></p>
           </li>
           <li value="3">
             <p>選取您要模組觀看的事件型別。</p>
           </li>
           <li value="4">
-            <p>輸入您希望webhook觀看其事件的團隊ID。</p>
+            <p>輸入您希望webhook觀看其事件的團隊識別碼。</p>
           </li>
           <li value="5">
             <p>輸入您希望webhook觀看的事件的[！UICONTROL狀態]或[！UICONTROL說明]。</p>

@@ -5,8 +5,9 @@ navigation-topic: workfront-api
 title: Adobe Workfront API的秘訣、技巧和疑難排解
 description: Adobe Workfront API的秘訣、技巧和疑難排解
 author: Becky
+feature: Workfront API
 exl-id: 644b9323-c6c3-49bd-8295-b51352992316
-source-git-commit: f050c8b95145552c9ed67b549608c16115000606
+source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
 source-wordcount: '102'
 ht-degree: 0%
@@ -17,12 +18,12 @@ ht-degree: 0%
 
 本節包含下列文章：
 
-* [API錯誤：&quot;遠程伺服器返回錯誤：(400)錯誤請求」](../../wf-api/tips-tricks-and-troubleshooting/api-error-remote-server.md)
-* [在大型編頁搜索期間返回的重複項](../../wf-api/tips-tricks-and-troubleshooting/duplicates-paginated-search.md)
-* [在API中排序查詢結果](../../wf-api/tips-tricks-and-troubleshooting/query-sort-api.md)
-* [emailAddr的更新不會更新使用者名稱](../../wf-api/tips-tricks-and-troubleshooting/update-email-addr-and-username.md)
-* [透過Adobe Workfront API建立校樣時，新增進階校樣選項](../../wf-api/tips-tricks-and-troubleshooting/api-create-proof-options-json.md)
-* [OPTASK copyIssue的選項配置](../../wf-api/tips-tricks-and-troubleshooting/copyissue-options.md)
-* [當貨幣為null（未分配）時，為項目檢索貨幣資訊](../../wf-api/tips-tricks-and-troubleshooting/retrieve-currency-when-null.md)
-* [不支援使用API來新增連結的資料夾](../../wf-api/tips-tricks-and-troubleshooting/linked-folders-for-docu-not-supported.md)
+* [API錯誤：「遠端伺服器傳回錯誤：(400)錯誤請求」](../../wf-api/tips-tricks-and-troubleshooting/api-error-remote-server.md)
+* [大型分頁搜尋期間傳回的重複專案](../../wf-api/tips-tricks-and-troubleshooting/duplicates-paginated-search.md)
+* [排序API中的查詢結果](../../wf-api/tips-tricks-and-troubleshooting/query-sort-api.md)
+* [更新至emailAddr不會更新使用者名稱](../../wf-api/tips-tricks-and-troubleshooting/update-email-addr-and-username.md)
+* [透過Adobe Workfront API建立校訂時新增進階校訂選項](../../wf-api/tips-tricks-and-troubleshooting/api-create-proof-options-json.md)
+* [OPTASK copyIssue的選項設定](../../wf-api/tips-tricks-and-troubleshooting/copyissue-options.md)
+* [當貨幣為空值（未指派）時，擷取專案的貨幣資訊](../../wf-api/tips-tricks-and-troubleshooting/retrieve-currency-when-null.md)
+* [不支援使用API新增連結的資料夾](../../wf-api/tips-tricks-and-troubleshooting/linked-folders-for-docu-not-supported.md)
 

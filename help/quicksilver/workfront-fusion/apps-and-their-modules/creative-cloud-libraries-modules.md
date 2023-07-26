@@ -5,10 +5,11 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: apps-and-their-modules
 title: Adobe Creative Cloud程式庫模組
-description: 使用 [!DNL Adobe Workfront Fusion Adobe Creative Cloud] 程式庫模組，您可在建立或更新元素或程式庫時啟動案例。 您也可以上傳、擷取、封存或列出元素，或對 [!DNL Adobe Creative Cloud Libraries] API。
+description: 使用 [!DNL Adobe Workfront Fusion Adobe Creative Cloud] 程式庫模組，您可在建立或更新元素或程式庫時啟動案例。 您也可以上傳、擷取、封存或列出元素，或呼叫 [!DNL Adobe Creative Cloud Libraries] API。
 author: Becky
+feature: Workfront Fusion
 exl-id: 8affa34b-803d-48a5-a986-9fbe0cb8c8f5
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
 source-wordcount: '1241'
 ht-degree: 0%
@@ -17,9 +18,9 @@ ht-degree: 0%
 
 # Adobe Creative Cloud程式庫模組
 
-使用 [!DNL Adobe Workfront Fusion] [!DNL Adobe Creative Cloud Libraries] 模組，您便可以在建立或更新元素或程式庫時啟動案例。 您也可以上傳、擷取、封存或列出元素，或對 [!DNL Adobe Creative Cloud Libraries] API。
+使用 [!DNL Adobe Workfront Fusion] [!DNL Adobe Creative Cloud Libraries] 模組，您可在建立或更新元素或程式庫時啟動案例。 您也可以上傳、擷取、封存或列出元素，或呼叫 [!DNL Adobe Creative Cloud Libraries] API。
 
-如果您需要建立案例的說明，請參閱 [建立情境](../../workfront-fusion/scenarios/create-a-scenario.md).
+如果您需要有關建立情境的指示，請參閱 [建立情境](../../workfront-fusion/scenarios/create-a-scenario.md).
 
 如需模組的相關資訊，請參閱 [中的模組 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/modules.md).
 
@@ -54,18 +55,18 @@ ht-degree: 0%
     <tr>
       <td role="rowheader">產品</td>
       <td>
-   <p>目前產品需求：如果您有[！UICONTROL Select]或[！UICONTROL Prime] [!DNL Adobe Workfront] 計畫，您的組織必須購買 [!DNL Adobe Workfront Fusion] 以及 [!DNL Adobe Workfront] 以使用本文所述功能。 [!DNL Workfront Fusion] 包含在[！UICONTROL Ultimate]中 [!DNL Workfront] 計畫。</p>
+   <p>目前產品需求：如果您有[！UICONTROL Select]或[！UICONTROL Prime] [!DNL Adobe Workfront] 計畫，您的組織必須購買 [!DNL Adobe Workfront Fusion] 以及 [!DNL Adobe Workfront] 以使用本文所述的功能。 [!DNL Workfront Fusion] 包含在[！UICONTROL Ultimate]中 [!DNL Workfront] 計畫。</p>
    <p>或</p>
-   <p>舊版產品需求：貴組織必須購買 [!DNL Adobe Workfront Fusion] 以及 [!DNL Adobe Workfront] 以使用本文所述功能。</p>
+   <p>舊版產品需求：貴組織必須購買 [!DNL Adobe Workfront Fusion] 以及 [!DNL Adobe Workfront] 以使用本文所述的功能。</p>
    </td>
     </tr>
   </tbody>
 </table>
 
 
-若要瞭解您擁有哪些計畫、授權型別或存取權，請聯絡您的 [!DNL Workfront] 管理員。
+若要瞭解您擁有的計畫、授權型別或存取權，請聯絡您的 [!DNL Workfront] 管理員。
 
-有關以下專案的資訊： [!DNL Adobe Workfront Fusion] 授權，請參閱 [[!DNL Adobe Workfront Fusion] 授權](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+有關的資訊 [!DNL Adobe Workfront Fusion] 授權，請參閱 [[!DNL Adobe Workfront Fusion] 授權](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
 ## 必要條件
 
@@ -73,9 +74,9 @@ ht-degree: 0%
 
 ## [!UICONTROL Adobe Creative Cloud資料庫] 模組及其欄位
 
-當您設定 [!UICONTROL Adobe Creative Cloud資料庫] 模組， [!DNL Workfront Fusion] 顯示下列欄位。 除了這些以外， [!DNL Adobe Creative Cloud Libraries] 視您在應用程式或服務中的存取層級等因素而定，可能會顯示欄位。 模組中的粗體標題表示必填欄位。
+當您設定 [!UICONTROL Adobe Creative Cloud資料庫] 模組， [!DNL Workfront Fusion] 顯示下列欄位。 除了這些以外， [!DNL Adobe Creative Cloud Libraries] 欄位可能會顯示，端視您應用程式或服務中的存取層級等因素而定。 模組中的粗體標題表示必填欄位。
 
-如果您在欄位或函式上方看到對應按鈕，則可以使用它來設定該欄位的變數和函式。 如需詳細資訊，請參閱 [將資訊從一個模組對應至中的另一個模組 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
+如果您在欄位或函式上方看到對應按鈕，則可以使用它來設定該欄位的變數和函式。 如需詳細資訊，請參閱 [在中將資訊從一個模組對應到另一個模組 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
 
 ![](assets/map-toggle-350x74.png)
 
@@ -104,18 +105,18 @@ ht-degree: 0%
 
 #### [!UICONTROL 封存元素]
 
-此動作模組會封存程式庫中的元素。
+此動作模組會從程式庫中封存元素。
 
 <table style="table-layout:auto"> 
   <col/>
   <col/>
   <tbody>
     <tr>
-      <td role="rowheader">[！UICONTROL連線]</td>
-      <td>如需有關連線您的電腦的指示， [!DNL Adobe Creative Cloud] 帳戶至 [!DNL Workfront Fusion]，請參閱 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與的連線 [!DNL Adobe Workfront Fusion]  — 基本指示。</td>
+      <td role="rowheader">[！UICONTROL Connection]</td>
+      <td>如需有關連線您的電腦的指示 [!DNL Adobe Creative Cloud] 帳戶至 [!DNL Workfront Fusion]，請參閱 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與的連線 [!DNL Adobe Workfront Fusion]  — 基本指示。</td>
     </tr>
     <tr>
-      <td role="rowheader">[！UICONTROL程式庫ID]</td>
+      <td role="rowheader">[！UICONTROL資料庫ID]</td>
       <td >選取包含您要封存之元素的程式庫。</td>
     </tr>
     <tr>
@@ -134,16 +135,16 @@ ht-degree: 0%
   <col/>
   <tbody>
     <tr>
-      <td role="rowheader">[！UICONTROL連線]</td>
-      <td>如需有關連線您的電腦的指示， [!DNL Adobe Creative Cloud] 帳戶至 [!DNL Workfront Fusion]，請參閱 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與的連線 [!DNL Adobe Workfront Fusion]  — 基本指示。</td>
+      <td role="rowheader">[！UICONTROL Connection]</td>
+      <td>如需有關連線您的電腦的指示 [!DNL Adobe Creative Cloud] 帳戶至 [!DNL Workfront Fusion]，請參閱 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與的連線 [!DNL Adobe Workfront Fusion]  — 基本指示。</td>
     </tr>
     <tr>
-      <td role="rowheader">[！UICONTROL程式庫ID]</td>
+      <td role="rowheader">[！UICONTROL資料庫ID]</td>
       <td >選取包含您要擷取之元素的程式庫。</td>
     </tr>
     <tr>
       <td role="rowheader">[！UICONTROL元素ID]</td>
-      <td>輸入或對應您要擷取的元素ID。</td>
+      <td>輸入或對應您要擷取之元素的ID。</td>
     </tr>
     <tr>
       <td role="rowheader">[！UICONTROL選擇器]</td>
@@ -163,7 +164,7 @@ ht-degree: 0%
           <li>
             <p><b>[！UICONTROL表示法]</b>
             </p>
-            <p>與資料庫元素關聯的平面化資產清單</p>
+            <p>與資料庫元素相關聯的平面化資產清單</p>
           </li>
         </ul>
       </td>
@@ -180,20 +181,20 @@ ht-degree: 0%
   <col/>
   <tbody>
     <tr>
-      <td role="rowheader">[！UICONTROL連線]</td>
-      <td>如需有關連線您的電腦的指示， [!DNL Adobe Creative Cloud] 帳戶至 [!DNL Workfront Fusion]，請參閱 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與的連線 [!DNL Adobe Workfront Fusion]  — 基本指示。</td>
+      <td role="rowheader">[！UICONTROL Connection]</td>
+      <td>如需有關連線您的電腦的指示 [!DNL Adobe Creative Cloud] 帳戶至 [!DNL Workfront Fusion]，請參閱 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與的連線 [!DNL Adobe Workfront Fusion]  — 基本指示。</td>
     </tr>
     <tr>
-      <td role="rowheader">[！UICONTROL程式庫ID]</td>
-      <td >選取您要從中列出元素的程式庫。</td>
+      <td role="rowheader">[！UICONTROL資料庫ID]</td>
+      <td >選取您要列出其元素的資料庫。</td>
     </tr>
     <tr>
       <td role="rowheader">[！UICONTROL Order by]</td>
-      <td>選取您要依名稱或上次修改元素日期來排序結果。</td>
+      <td>選取您要依名稱或上次修改元素的日期來排序結果。</td>
     </tr>
     <tr>
       <td role="rowheader">[！UICONTROL型別]</td>
-      <td >輸入MIME型別，將結果限製為以指定MIME型別識別的元素。 範例: <code>string</code>.</td>
+      <td >輸入MIME型別，將結果限製為使用指定MIME型別識別的元素。 範例: <code>string</code>.</td>
     </tr>
     <tr>
       <td role="rowheader">[！UICONTROL選擇器]</td>
@@ -213,14 +214,14 @@ ht-degree: 0%
           <li>
             <p><b>[！UICONTROL表示法]</b>
             </p>
-            <p>與資料庫元素關聯的平面化資產清單</p>
+            <p>與資料庫元素相關聯的平面化資產清單</p>
           </li>
         </ul>
       </td>
     </tr>
     <tr>
       <td role="rowheader">[！UICONTROL限制]</td>
-      <td>輸入或對應您希望模組在每個案例執行週期內傳回的最大記錄數。</td>
+      <td>輸入或對應您希望模組在每個案例執行週期中傳回的最大記錄數。</td>
     </tr>
   </tbody>
 </table>
@@ -234,31 +235,31 @@ ht-degree: 0%
   <col/>
   <tbody>
     <tr>
-      <td role="rowheader">[！UICONTROL連線]</td>
-      <td>如需有關連線您的電腦的指示， [!DNL Adobe Creative Cloud] 帳戶至 [!DNL Workfront Fusion]，請參閱 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與的連線 [!DNL Adobe Workfront Fusion]  — 基本指示。</td>
+      <td role="rowheader">[！UICONTROL Connection]</td>
+      <td>如需有關連線您的電腦的指示 [!DNL Adobe Creative Cloud] 帳戶至 [!DNL Workfront Fusion]，請參閱 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與的連線 [!DNL Adobe Workfront Fusion]  — 基本指示。</td>
     </tr>
     <tr>
-      <td role="rowheader">[！UICONTROL程式庫ID]</td>
-      <td >選取您要從中列出元素的程式庫。</td>
+      <td role="rowheader">[！UICONTROL資料庫ID]</td>
+      <td >選取您要列出其元素的資料庫。</td>
     </tr>
     <tr>
-      <td role="rowheader">[！UICONTROL叫用模式]</td>
+      <td role="rowheader">[！UICONTROL呼叫模式]</td>
       <td>
         <p>選取要用來叫用此要求程式的處理模式。</p>
         <ul>
           <li>
-            <p><b>[！UICONTROL同步]</b>
+            <p><b>[！UICONTROL sync]</b>
             </p>
             <p>API呼叫會同步處理。 處理完成時會傳送回應（除非呼叫逾時）。</p>
           </li>
           <li>
-            <p><b>[！UICONTROL非同步]</b>
+            <p><b>[！UICONTROL async]</b>
             </p>
-            <p>會立即傳回非同步監視器回應，且會非同步處理請求。 呼叫負責輪詢端點，直到完成。</p>
+            <p>系統會立即傳回非同步監視器回應，且非同步處理請求。 呼叫負責輪詢端點，直到完成。</p>
           </li>
           <li>
             <p><b>[！UICONTROL同步，非同步]</b> （預設）</p>
-            <p>已嘗試同步處理請求。 當處理時間超過5000毫秒時，會傳回非同步監視器回應。 應輪詢監視URL，直到請求完成。</p>
+            <p>已嘗試同步處理請求。 當處理過程延長超過5000毫秒時，將傳回非同步監視器回應。 應輪詢監視URL，直到請求完成。</p>
           </li>
         </ul>
       </td>
@@ -276,7 +277,7 @@ ht-degree: 0%
   </tbody>
 </table>
 
-#### [!UICONTROL 在程式庫中觀看新元素]
+#### [!UICONTROL 在程式庫中監視新元素]
 
 此觸發模組會在元素新增至程式庫時啟動案例。
 
@@ -285,16 +286,16 @@ ht-degree: 0%
   <col/>
   <tbody>
     <tr>
-      <td role="rowheader">[！UICONTROL連線]</td>
-      <td>如需有關連線您的電腦的指示， [!DNL Adobe Creative Cloud] 帳戶至 [!DNL Workfront Fusion]，請參閱 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與的連線 [!DNL Adobe Workfront Fusion]  — 基本指示。</td>
+      <td role="rowheader">[！UICONTROL Connection]</td>
+      <td>如需有關連線您的電腦的指示 [!DNL Adobe Creative Cloud] 帳戶至 [!DNL Workfront Fusion]，請參閱 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與的連線 [!DNL Adobe Workfront Fusion]  — 基本指示。</td>
     </tr>
     <tr>
-      <td role="rowheader">[！UICONTROL程式庫ID]</td>
-      <td >選取您要觀看更新元素的資料庫。</td>
+      <td role="rowheader">[！UICONTROL資料庫ID]</td>
+      <td >選取您要監視更新元素的資料庫。</td>
     </tr>
     <tr>
       <td role="rowheader">[！UICONTROL限制]</td>
-      <td>輸入或對應您希望模組在每個案例執行週期內傳回的最大記錄數。</td>
+      <td>輸入或對應您希望模組在每個案例執行週期中傳回的最大記錄數。</td>
     </tr>
   </tbody>
 </table>
@@ -309,28 +310,28 @@ ht-degree: 0%
   <col/>
   <tbody>
     <tr>
-      <td role="rowheader">[！UICONTROL連線]</td>
-      <td>如需有關連線您的電腦的指示， [!DNL Adobe Creative Cloud] 帳戶至 [!DNL Workfront Fusion]，請參閱 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與的連線 [!DNL Adobe Workfront Fusion]  — 基本指示。</td>
+      <td role="rowheader">[！UICONTROL Connection]</td>
+      <td>如需有關連線您的電腦的指示 [!DNL Adobe Creative Cloud] 帳戶至 [!DNL Workfront Fusion]，請參閱 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與的連線 [!DNL Adobe Workfront Fusion]  — 基本指示。</td>
     </tr>
     <tr>
-      <td role="rowheader">[！UICONTROL程式庫ID]</td>
-      <td >選取您要觀看新元素的資料庫。</td>
+      <td role="rowheader">[！UICONTROL資料庫ID]</td>
+      <td >選取您要監視新元素的資料庫。</td>
     </tr>
     <tr>
       <td role="rowheader">[！UICONTROL限制]</td>
-      <td>輸入或對應您希望模組在每個案例執行週期內傳回的最大記錄數。</td>
+      <td>輸入或對應您希望模組在每個案例執行週期中傳回的最大記錄數。</td>
     </tr>
   </tbody>
 </table>
 
 ### 資料庫
 
-* [[!UICONTROL 觀看新程式庫]](#watch-new-libraries)
+* [[!UICONTROL 觀看新資料庫]](#watch-new-libraries)
 
-* [[!UICONTROL 觀看更新的程式庫]](#watch-updated-libraries)
+* [[!UICONTROL 觀看更新的資料庫]](#watch-updated-libraries)
 
 
-#### [!UICONTROL 觀看新程式庫]
+#### [!UICONTROL 觀看新資料庫]
 
 此觸發模組會在建立新程式庫時啟動案例。
 
@@ -339,17 +340,17 @@ ht-degree: 0%
   <col/>
   <tbody>
     <tr>
-      <td role="rowheader">[！UICONTROL連線]</td>
-      <td>如需有關連線您的電腦的指示， [!DNL Adobe Creative Cloud] 帳戶至 [!DNL Workfront Fusion]，請參閱 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與的連線 [!DNL Adobe Workfront Fusion]  — 基本指示。</td>
+      <td role="rowheader">[！UICONTROL Connection]</td>
+      <td>如需有關連線您的電腦的指示 [!DNL Adobe Creative Cloud] 帳戶至 [!DNL Workfront Fusion]，請參閱 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與的連線 [!DNL Adobe Workfront Fusion]  — 基本指示。</td>
     </tr>
     <tr>
       <td role="rowheader">[！UICONTROL限制]</td>
-      <td>輸入或對應您希望模組在每個案例執行週期內傳回的最大記錄數。</td>
+      <td>輸入或對應您希望模組在每個案例執行週期中傳回的最大記錄數。</td>
     </tr>
   </tbody>
 </table>
 
-#### [!UICONTROL 觀看更新的程式庫]
+#### [!UICONTROL 觀看更新的資料庫]
 
 此觸發模組會在現有程式庫更新時啟動案例。
 
@@ -358,12 +359,12 @@ ht-degree: 0%
   <col/>
   <tbody>
     <tr>
-      <td role="rowheader">[！UICONTROL連線]</td>
-      <td>如需有關連線您的電腦的指示， [!DNL Adobe Creative Cloud] 帳戶至 [!DNL Workfront Fusion]，請參閱 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與的連線 [!DNL Adobe Workfront Fusion]  — 基本指示。</td>
+      <td role="rowheader">[！UICONTROL Connection]</td>
+      <td>如需有關連線您的電腦的指示 [!DNL Adobe Creative Cloud] 帳戶至 [!DNL Workfront Fusion]，請參閱 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與的連線 [!DNL Adobe Workfront Fusion]  — 基本指示。</td>
     </tr>
     <tr>
       <td role="rowheader">[！UICONTROL限制]</td>
-      <td>輸入或對應您希望模組在每個案例執行週期內傳回的最大記錄數。</td>
+      <td>輸入或對應您希望模組在每個案例執行週期中傳回的最大記錄數。</td>
     </tr>
   </tbody>
 </table>
@@ -379,8 +380,8 @@ ht-degree: 0%
   <col/>
   <tbody>
     <tr>
-      <td role="rowheader">[！UICONTROL連線]</td>
-      <td> <p>如需將Adobe Creative Cloud帳戶連線至Workfront Fusion的說明，請參閱 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與Adobe Workfront Fusion的連線 — 基本指示。</a></p>
+      <td role="rowheader">[！UICONTROL Connection]</td>
+      <td> <p>如需有關將Adobe Creative Cloud帳戶連線至Workfront Fusion的說明，請參閱 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與Adobe Workfront Fusion的連線 — 基本指示。</a></p>
     </tr>
     <tr>
       <td role="rowheader">[！UICONTROL URL]</td>
@@ -392,14 +393,14 @@ ht-degree: 0%
     <tr>
       <td role="rowheader">[！UICONTROL API版本]</td>
       <td>
-        <p>選取 [!DNL Adobe Analytics] 您要連線的API。</p>
+        <p>選取的版本 [!DNL Adobe Analytics] 您想要連線的API。</p>
       </td>
     </tr>    <tr>
       <td role="rowheader">[！UICONTROL方法]</td>
       <td> <p>選取設定API呼叫所需的HTTP要求方法。 如需詳細資訊，請參閱 <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref">中的HTTP要求方法 [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
     </tr>
     <tr>
-      <td role="rowheader">[！UICONTROL標頭]</td>
+      <td role="rowheader">[！UICONTROL Headers]</td>
       <td>
         <p>以標準JSON物件的形式新增請求的標頭。</p>
         <p>例如， <code>{"Content-type":"application/json"}</code></p>
@@ -414,8 +415,8 @@ ht-degree: 0%
       </td>
     </tr>
     <tr>
-      <td role="rowheader">[！UICONTROL內文]</td>
-   <td> <p>以標準JSON物件的形式新增API呼叫的正文內容。</p> <p>備註:  <p>使用條件陳述式時，例如 <code>if</code> 在JSON中，將引號放在條件陳述式之外。</p> 
+      <td role="rowheader">[！UICONTROL Body]</td>
+   <td> <p>以標準JSON物件的形式新增API呼叫的內文內容。</p> <p>備註:  <p>使用條件陳述式時，例如 <code>if</code> 在JSON中，將引號放在條件陳述式之外。</p> 
      <div class="example" data-mc-autonum="<b>Example: </b>"> 
       <p> <img src="assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
      </div> </p> </td>     </tr>

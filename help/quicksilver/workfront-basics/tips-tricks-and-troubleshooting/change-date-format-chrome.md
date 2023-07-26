@@ -2,25 +2,26 @@
 filename: change-date-format-chrome
 content-type: tips-tricks-troubleshooting
 navigation-topic: tips-tricks-and-troubleshooting-workfront-basics
-title: 變更日期的格式，位於 [!DNL Adobe Workfront]
-description: 若要變更日期的日期格式，請參閱 [!DNL Adobe Workfront] 您必須在瀏覽器中變更語言設定。
+title: 變更中日期的格式 [!DNL Adobe Workfront]
+description: 若要變更中日期的日期格式 [!DNL Adobe Workfront] 您必須變更瀏覽器中的語言設定。
+feature: Get Started with Workfront
 exl-id: 9fac92fb-e3d1-4537-b324-4b35447cef28
-source-git-commit: ecb6928c946203b03a93cf5687fd53abf8e6a8f3
+source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
 source-wordcount: '139'
 ht-degree: 0%
 
 ---
 
-# 變更日期的格式，位於 [!DNL Adobe Workfront]
+# 變更中日期的格式 [!DNL Adobe Workfront]
 
 <!--this article used to be called "Change the date format in Adobe Workfront when using Chrome". The team decieded to make it more generic and hide the steps. Also see drafted content below-->
 
-若要變更日期格式，請參閱 [!DNL Adobe Workfront]，例如 [!UICONTROL 計畫完成日期], [!UICONTROL 實際完成日期]，或 [!UICONTROL 預計完成日期]，從DD/MM/YYYY變更為MM/DD/YYYY，反之亦然，例如您必須變更瀏覽器中的語言設定。
+若要變更中的日期格式 [!DNL Adobe Workfront]，例如 [!UICONTROL 計畫完成日期]， [!UICONTROL 實際完成日期]，或 [!UICONTROL 預計完成日期]，從DD/MM/YYYY到MM/DD/YYYY （或反之），例如，您必須變更瀏覽器中的語言設定。
 
-若瀏覽器中的預設語言設為 *[!UICONTROL 英語（美國）]*，則日期會以MM/DD/YYYY格式顯示。
+如果瀏覽器中的預設語言設定為 *[!UICONTROL 英文（美國）]*，日期會以YYYY/MM/DD格式顯示。
 
-若要變更 [!DNL Chrome] 或任何其他瀏覽器，您必須修改該瀏覽器的設定。 識別瀏覽器設定的步驟因瀏覽器而異。 請參閱瀏覽器的 [!UICONTROL 說明], [!UICONTROL 偏好設定]，或 [!UICONTROL 設定] 區域，了解如何修改其設定。
+若要變更中的語言設定 [!DNL Chrome] 或任何其他瀏覽器，您必須修改該瀏覽器的設定。 修改瀏覽器設定的步驟因瀏覽器而異。 請參閱瀏覽器的 [!UICONTROL 說明]， [!UICONTROL 偏好設定]，或 [!UICONTROL 設定] 區域，以瞭解如何修改其設定。
 
 <!--drafted because we should not document steps for a third-party application
 

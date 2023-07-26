@@ -1,28 +1,29 @@
 ---
 content-type: reference
 navigation-topic: boards
-title: 將敏捷團隊看板卡遷移至Workfront展示板
-description: 您可以將工作項從敏捷的小組看板板遷移到新的或現有的Workfront看板。
+title: 將敏捷團隊Kanban卡片移轉至Workfront展示板
+description: 您可以將工作專案從敏捷團隊Kanban展示板移轉到新的或現有的Workfront展示板。
 author: Lisa
+feature: Agile
 exl-id: c40b6453-5869-437b-a1e0-f20dd833d2b8
-source-git-commit: a788a8d39c714463f7ea9aa32f0c5a0f050eabdc
+source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
 source-wordcount: '362'
 ht-degree: 0%
 
 ---
 
-# 將敏捷團隊看板卡遷移至Workfront展示板
+# 將敏捷團隊Kanban卡片移轉至Workfront展示板
 
-您可以將工作項從敏捷的小組看板板遷移到新的或現有的Workfront看板。 運行遷移時，看板板上的所有卡都將複製到Workfront板。 您無法選擇特定卡片。
+您可以將工作專案從敏捷團隊Kanban展示板移轉到新的或現有的Workfront展示板。 當您執行移轉時，Kanban展示板上的所有卡片都會複製到Workfront展示板。 您不得選擇特定卡片。
 
-在Workfront展示板上放置資訊卡是根據欄政策。 (例如，策略可將狀態為「正在進行」的所有卡移至特定欄。 有關列策略的詳細資訊，請參見 [管理展示板欄](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md).) 如果沒有策略，或者卡與策略不匹配，則這些卡會放在展示板上最左邊的列中。 目前，舊版展示板上「積壓」欄中的資訊卡不會新增至Workfront展示板。
+卡片在Workfront展示板上的放置是根據欄原則。 (例如，原則可將所有狀態為「進行中」的卡片移至特定欄。 如需有關欄原則的詳細資訊，請參閱 [管理展示板欄](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md).) 如果沒有原則或卡片不符合原則，卡片會放置在展示板最左側的欄。 目前，舊版展示板上「待處理專案」欄中的卡片未新增至Workfront展示板。
 
-卡不會從敏捷的小組看板板中刪除，並且卡狀態更改將同步到兩個看板。 您可以讓兩個展示板保持作用中，直到您準備好切換至Workfront展示板為止。
+卡片不會從敏捷團隊Kanban面板中移除，卡片狀態變更將同步到兩個面板。 在準備切換至Workfront主機板之前，您可以讓兩個主機板都保持作用中。
 
 ## 存取需求
 
-您必須具備下列存取權，才能執行本文中的步驟：
+您必須具有下列存取權才能執行本文中的步驟：
 
 <table style="table-layout:auto">
  <col>
@@ -36,33 +37,33 @@ ht-degree: 0%
   </tr>
   <tr>
    <td role="rowheader"><strong>[!DNL Adobe Workfront] 授權*</strong></td>
-   <td> <p>[!UICONTROL Request]或更高版本</p> </td>
+   <td> <p>[！UICONTROL Request]或更高版本</p> </td>
   </tr>
  </tbody>
 </table>
 
-&#42;若要了解您擁有的計畫、授權類型或存取權，請聯絡您的 [!DNL Workfront] 管理員。
+&#42;若要瞭解您擁有的計畫、授權型別或存取權，請聯絡您的 [!DNL Workfront] 管理員。
 
-## 將看板卡遷移到新板
-
-{{step1-to-team}}
-
-1. 訪問看板板。
-1. 按一下 [!UICONTROL **新增至展示板**] 選取 [!UICONTROL **新展示板**].
-1. 在 [!UICONTROL 添加到新展示板] 對話框，鍵入新展示板的名稱(當前的名稱 [!UICONTROL 看板] 展示板)，然後按一下 [!UICONTROL **新增**].
-
-   ![將看板卡添加到新板](assets/add-kanban-cards-to-new-board-dialog.png)
-
-1. （選用）在顯示的成功訊息上，按一下連結以開啟新展示板。
-
-## 將看板卡遷移到現有看板板
+## 將Kanban卡片移轉至新面板
 
 {{step1-to-team}}
 
-1. 訪問看板板。
-1. 按一下 [!UICONTROL **新增至展示板**] 選取 [!UICONTROL **現有主板**].
-1. 在 [!UICONTROL 添加到現有展示板] 對話方塊，搜尋並選取要移轉資訊卡的展示板。 然後，按一下 [!UICONTROL **新增**].
+1. 存取Kanban面板。
+1. 按一下 [!UICONTROL **新增到展示板**] 並選取 [!UICONTROL **新增展示板**].
+1. 在 [!UICONTROL 新增到新展示板] 對話方塊，鍵入新板的名稱（目前板的名稱） [!UICONTROL Kanban] 板會自動顯示)並按一下 [!UICONTROL **新增**].
 
-   ![將看板卡添加到現有看板](assets/add-kanban-cards-to-existing-board-dialog.png)
+   ![將Kanban卡片新增到新面板](assets/add-kanban-cards-to-new-board-dialog.png)
+
+1. （選擇性）在出現的成功訊息上，按一下連結以開啟新展示板。
+
+## 將Kanban卡片移轉至現有展示板
+
+{{step1-to-team}}
+
+1. 存取Kanban面板。
+1. 按一下 [!UICONTROL **新增到展示板**] 並選取 [!UICONTROL **現有展示板**].
+1. 在 [!UICONTROL 新增到現有展示板] 對話方塊，搜尋並選取要將卡片移轉到的展示板。 然後，按一下 [!UICONTROL **新增**].
+
+   ![將Kanban卡片新增至現有展示板](assets/add-kanban-cards-to-existing-board-dialog.png)
 
 1. （選用）在顯示的成功訊息上，按一下連結以開啟展示板。

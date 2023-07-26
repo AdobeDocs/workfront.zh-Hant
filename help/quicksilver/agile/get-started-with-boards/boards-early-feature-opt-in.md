@@ -3,10 +3,11 @@ filename: boards-early-feature-opt-in
 content-type: reference
 navigation-topic: boards
 title: 的早期功能選擇加入 [!DNL Adobe Workfront] 展示板
-description: 閱讀本文章，瞭解 [!DNL Workfront Boards] 早期功能選擇加入。
+description: 閱讀本文章以瞭解 [!DNL Workfront Boards] 早期功能選擇加入。
 author: Lisa
+feature: Agile
 exl-id: c4a6b045-b0f3-4d4d-994c-c03ef7ad25c8
-source-git-commit: a4ccd48956fedbafc04ce19198592efdad49e5a3
+source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
 source-wordcount: '700'
 ht-degree: 0%
@@ -15,11 +16,11 @@ ht-degree: 0%
 
 # 的早期功能選擇加入 [!DNL Adobe Workfront] [!UICONTROL 展示板]
 
-所有使用者皆可使用附有隨選及連線卡的主機板，我們很高興能於2022年7月起開啟額外的主機板功能，以提早選擇加入功能。
+所有使用者都可使用附有ad hoc卡和連線卡的主機板，我們很高興能在2022年7月起開啟額外的主機板功能，以提早選擇加入功能。
 
-[!DNL Adobe Workfront] [!UICONTROL 展示板] 是彈性的工具，可透過提供對包含欄和卡片的共用展示板的存取權來允許團隊合作。
+[!DNL Adobe Workfront] [!UICONTROL 展示板] 是彈性的工具，可透過提供對包含欄和卡片的共用展示板的存取權來允許團隊共同作業。
 
-如需有關展示板的一般資訊，請參閱 [[!UICONTROL 展示板] 概觀](/help/quicksilver/agile/boards-overview.md).
+如需有關面板的一般資訊，請參閱 [[!UICONTROL 展示板] 概述](/help/quicksilver/agile/boards-overview.md).
 
 ## 發行排程
 
@@ -28,7 +29,7 @@ ht-degree: 0%
 
 ## 功能
 
-下表概述主機板的主要功能及其目前發行狀態。 根據我們收到的輸入，完整版可能沒有您可透過早期功能選擇加入存取的功能。
+下表概述電路板的主要功能及其目前發行狀態。 根據我們收到的輸入，您透過早期功能選擇加入存取的功能，可能無法在完整版本中使用。
 
 <table style="table-layout:auto"> 
  <tbody> 
@@ -49,7 +50,7 @@ ht-degree: 0%
    <td>已發行</td>
   </tr>
   <tr>
-   <td>刪除並封存展示板和臨時資訊卡</td>
+   <td>刪除並封存展示板和臨時卡片</td>
    <td>已發行</td>
   </tr>
   <tr>
@@ -65,7 +66,7 @@ ht-degree: 0%
    <td>已發行</td>
   </tr>
   <tr>
-   <td>將[！UICONTROL進行中工作]限制新增至欄</td>
+   <td>將[！UICONTROL進行中的工作]限制新增至欄</td>
    <td>已發行</td>
   </tr>
   <tr>
@@ -81,7 +82,7 @@ ht-degree: 0%
    <td>已發行</td>
   </tr>
   <tr>
-   <td>已更新的篩選器</td>
+   <td>已更新篩選器</td>
    <td>已發行</td>
   </tr>
   <tr>
@@ -89,7 +90,7 @@ ht-degree: 0%
    <td>已發行</td>
   </tr>
   <tr>
-   <td>在展示板上群組卡片</td>
+   <td>展示板上的群組卡片</td>
    <td>已發行</td>
   </tr>
   <tr>
@@ -97,7 +98,7 @@ ht-degree: 0%
    <td>已發行</td>
   </tr>
   <tr>
-   <td>定義卡片流失</td>
+   <td>定義卡片縮減</td>
    <td>已發行</td>
   </tr>
   <tr>
@@ -105,7 +106,7 @@ ht-degree: 0%
    <td>已發行</td>
   </tr>
   <tr>
-   <td>在資訊卡上顯示狀態</td>
+   <td>在卡片上顯示狀態</td>
    <td>已發行</td>
   </tr>
   <tr>
@@ -117,7 +118,7 @@ ht-degree: 0%
    <td>已發行</td>
   </tr>
   <tr>
-   <td>攝入欄中的僅檢視卡</td>
+   <td>攝入欄中的僅檢視卡片</td>
    <td>已發行</td>
   </tr>
   <tr>
@@ -161,7 +162,7 @@ ht-degree: 0%
    <td>已發行</td>
   </tr>
   <tr>
-   <td>將舊版Kanban卡移轉至面板</td>
+   <td>將舊版Kanban卡片移轉至展示板</td>
    <td>此功能將於2023年5月18日在生產環境中提供，不屬於早期功能選擇加入的一部分。</td>
   </tr>
   <tr>
@@ -169,15 +170,15 @@ ht-degree: 0%
    <td>已發行</td>
   </tr>
   <tr>
-   <td>在卡片詳細資訊上使用左側導覽</td>
+   <td>在卡片詳細資料上使用左側導覽</td>
    <td>已發行</td>
   </tr>
   <tr>
-   <td>在輸入欄上使用簡化的篩選器</td>
+   <td>在輸入欄上使用簡化篩選器</td>
    <td>已發行</td>
   </tr>
   <tr>
-   <td>在臨時和連線的卡片上使用註解</td>
+   <td>在臨機操作卡片及連線的卡片上使用註解</td>
    <td>已發行</td>
   </tr>
  </tbody> 
@@ -193,12 +194,12 @@ ht-degree: 0%
 
 僅限 [!DNL Workfront] 管理員可以選擇加入展示板的早期功能。 當 [!DNL Workfront] 管理員會啟用早期功能，組織中的所有使用者都會選擇加入。
 
-1. 按一下 **[!UICONTROL 主要功能表]** 圖示 ![](assets/main-menu-icon.png) 右上角的 [!DNL Adobe Workfront]，然後按一下 **[!UICONTROL 展示板]**.
-1. 按一下 ![早期功能選擇加入](assets/early-feature-opt-in-not-enabled.png) ([!UICONTROL 早期功能選擇加入])頂端的「 」區段。
+1. 按一下 **[!UICONTROL 主要功能表]** 圖示 ![](assets/main-menu-icon.png) 位於的右上角 [!DNL Adobe Workfront]，然後按一下 **[!UICONTROL 展示板]**.
+1. 按一下 ![早期功能選擇加入](assets/early-feature-opt-in-not-enabled.png) ([!UICONTROL 早期功能選擇加入])。
 1. 按一下 **[!UICONTROL 啟用]**.
 1. 開始使用面板的早期功能。
 
-## 提交意見反應
+## 提交意見
 
 1. 在展示板中，按一下 **[!UICONTROL 意見反應]** 按鈕。
 1. 填寫表單，然後按一下 **[!UICONTROL 提交]**.
@@ -207,13 +208,13 @@ ht-degree: 0%
 
 ### 我如何知道我的組織是否已選擇加入早期功能？
 
-當您的 [!DNL Workfront] 管理員已為主機板啟用早期功能，您將會看到 [!UICONTROL 早期功能選擇加入] 控制面板熒幕上方的「已啟用」按鈕。 按一下按鈕以檢視已啟用哪些功能。
+當 [!DNL Workfront] 管理員已為主機板啟用早期功能，您將會看到 [!UICONTROL 早期功能選擇加入] 控制面板熒幕頂端的啟用按鈕。 按一下按鈕以檢視已啟用哪些功能。
 
 ### 僅能針對特定使用者啟用早期功能嗎？
 
 當 [!DNL Workfront] 管理員會為面板啟用早期功能，組織中的所有使用者都會選擇加入。
 
-不過， [!DNL Workfront] 管理員可以從以下位置隱藏「面板」選項： [!UICONTROL 主要功能表] 適用於具有版面配置範本的個別使用者或使用者群組。 如需詳細資訊，請參閱 [自訂 [!UICONTROL 主要功能表] 使用版面範本](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).
+然而， [!DNL Workfront] 管理員可以從以下位置隱藏面板選項： [!UICONTROL 主要功能表] 適用於具有版面配置範本的個別使用者或使用者群組。 如需詳細資訊，請參閱 [自訂 [!UICONTROL 主要功能表] 使用版面範本](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).
 
 >[!NOTE]
 >
@@ -221,8 +222,8 @@ ht-degree: 0%
 
 ### 我加入後可以退出早期功能嗎？
 
-僅限 [!DNL Workfront] 管理員可以選擇不接收早期功能。 若為 [!DNL Workfront] 管理員會停用早期功能，組織中的所有使用者都會選擇退出。
+僅限 [!DNL Workfront] 管理員可以選擇退出接收早期功能。 如果 [!DNL Workfront] 管理員會停用早期功能，組織中的所有使用者都會選擇退出。
 
-1. 按一下 **[!UICONTROL 主要功能表]** 圖示 ![](assets/main-menu-icon.png) 右上角的 [!DNL Adobe Workfront]，然後按一下 **[!UICONTROL 展示板]**.
-1. 按一下 ![已啟用早期功能選擇加入](assets/early-feature-opt-in-enabled.png) ([!UICONTROL 已啟用早期功能選擇加入])頂端的「 」區段。
+1. 按一下 **[!UICONTROL 主要功能表]** 圖示 ![](assets/main-menu-icon.png) 位於的右上角 [!DNL Adobe Workfront]，然後按一下 **[!UICONTROL 展示板]**.
+1. 按一下 ![已啟用早期功能選擇加入](assets/early-feature-opt-in-enabled.png) ([!UICONTROL 已啟用早期功能選擇加入])。
 1. 按一下 **[!UICONTROL 停用]**.

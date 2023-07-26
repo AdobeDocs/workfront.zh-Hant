@@ -4,11 +4,12 @@ user-type: administrator
 content-type: reference
 product-area: system-administration
 navigation-topic: customize-workfront
-description: 您可以使用表單設計工具管理現有的自訂表單。
+description: 您可以使用表單設計工具來管理現有的自訂表單。
 author: Courtney
-feature: System Setup and Administration
+feature: System Setup and Administration, Custom Forms
 role: Admin
-source-git-commit: e8442efe35ddaaf11190727e3c164cdfd69c16b8
+exl-id: 7b85533f-84a9-4289-8d13-a4af99f7e433
+source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
 source-wordcount: '38'
 ht-degree: 0%
@@ -17,5 +18,5 @@ ht-degree: 0%
 
 # 管理表單
 
-* [使用表單設計器從現有自定義表單中添加或刪除對象類型](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/manage-a-form/add-or-remove-objects-from-a-form.md)
+* [使用表單設計工具從現有自訂表單新增或刪除物件型別](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/manage-a-form/add-or-remove-objects-from-a-form.md)
 * [使用表單設計工具重新命名自訂表單](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/manage-a-form/rename-a-custom-form.md)

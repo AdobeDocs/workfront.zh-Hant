@@ -5,10 +5,11 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: apps-and-their-modules
 title: FTP模組
-description: FTP模組可讓您監視所選資料夾中的檔案變更、將新檔案上傳到所需的資料夾，以及修改或刪除資料夾中已有的現有檔案。
+description: FTP模組可讓您監視所選資料夾中的檔案變更、將新檔案上傳到所需的資料夾，以及修改或刪除資料夾中已存在的現有檔案。
 author: Becky
+feature: Workfront Fusion
 exl-id: 360825a4-4580-4039-894e-583e82132ed6
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
 source-wordcount: '1343'
 ht-degree: 0%
@@ -17,7 +18,7 @@ ht-degree: 0%
 
 # FTP模組
 
-FTP模組可讓您監視所選資料夾中的檔案變更、將新檔案上傳到所需的資料夾，以及修改或刪除資料夾中已有的現有檔案。
+FTP模組可讓您監視所選資料夾中的檔案變更、將新檔案上傳到所需的資料夾，以及修改或刪除資料夾中已存在的現有檔案。
 
 ## 存取需求
 
@@ -46,17 +47,17 @@ FTP模組可讓您監視所選資料夾中的檔案變更、將新檔案上傳�
   <tr> 
    <td role="rowheader">產品</td> 
    <td>
-   <p>目前產品需求：如果您有[！UICONTROL Select]或[！UICONTROL Prime] [!DNL Adobe Workfront] 計畫，您的組織必須購買 [!DNL Adobe Workfront Fusion] 以及 [!DNL Adobe Workfront] 以使用本文所述功能。 [!DNL Workfront Fusion] 包含在[！UICONTROL Ultimate]中 [!DNL Workfront] 計畫。</p>
+   <p>目前產品需求：如果您有[！UICONTROL Select]或[！UICONTROL Prime] [!DNL Adobe Workfront] 計畫，您的組織必須購買 [!DNL Adobe Workfront Fusion] 以及 [!DNL Adobe Workfront] 以使用本文所述的功能。 [!DNL Workfront Fusion] 包含在[！UICONTROL Ultimate]中 [!DNL Workfront] 計畫。</p>
    <p>或</p>
-   <p>舊版產品需求：貴組織必須購買 [!DNL Adobe Workfront Fusion] 以及 [!DNL Adobe Workfront] 以使用本文所述功能。</p>
+   <p>舊版產品需求：貴組織必須購買 [!DNL Adobe Workfront Fusion] 以及 [!DNL Adobe Workfront] 以使用本文所述的功能。</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-若要瞭解您擁有哪些計畫、授權型別或存取權，請聯絡您的 [!DNL Workfront] 管理員。
+若要瞭解您擁有的計畫、授權型別或存取權，請聯絡您的 [!DNL Workfront] 管理員。
 
-有關以下專案的資訊： [!DNL Adobe Workfront Fusion] 授權，請參閱 [[!DNL Adobe Workfront Fusion] 授權](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+有關的資訊 [!DNL Adobe Workfront Fusion] 授權，請參閱 [[!DNL Adobe Workfront Fusion] 授權](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
 ## 必要條件
 
@@ -94,17 +95,17 @@ FTP模組可讓您監視所選資料夾中的檔案變更、將新檔案上傳�
   </tr> 
   <tr> 
    <td> <p>[！UICONTROL拒絕未授權的憑證]</p> </td> 
-   <td> <p>啟用此選項以驗證FTP伺服器憑證。 如果驗證失敗，將不會建立連線。 若要通過驗證，憑證必須符合下列其中一項條件：</p> 
+   <td> <p>啟用此選項以驗證FTP伺服器憑證。 如果驗證失敗，將不會建立連線。 若要通過驗證，憑證必須符合下列其中一個條件：</p> 
     <ul> 
      <li>由根簽署 <a href="https://en.wikipedia.org/wiki/Certificate_authority">憑證授權單位</a></li> 
-     <li>由中繼憑證授權單位簽署(參閱 <a href="https://knowledge.digicert.com/solution/SO16297.html">憑證鏈結的運作方式</a> 以取得進一步說明)。 在這種情況下，所有中繼憑證都應安裝在FTP伺服器上。</li> 
+     <li>由中繼憑證授權單位簽署(請參閱 <a href="https://knowledge.digicert.com/solution/SO16297.html">憑證鏈結的運作方式</a> 以取得進一步說明)。 在此情況下，所有中繼憑證都應安裝在FTP伺服器上。</li> 
      <li>是[！UICONTROL Self-signed certificate]欄位中提供的自我簽署憑證（請參閱下文）</li> </ul>
 
 如果停用此選項，則不會驗證FTP伺服器憑證。 我們強烈建議不要停用此選項，因為它會導致連線不安全，並帶來嚴重的安全風險。</td>
 </tr> 
   <tr> 
    <td> <p>[！UICONTROL自我簽署憑證]</p> </td> 
-   <td> <p>按一下 <b>[！UICONTROL Extract]</b> 按鈕以開啟上傳對話方塊。</p> <p>上傳憑證以搭配您的自我簽署憑證使用TLS。 [!DNL Workfront Fusion] 不會保留或儲存您提供的任何資料，例如檔案和密碼。 檔案和密碼僅用於擷取憑證。</p> </td> 
+   <td> <p>按一下 <b>[！UICONTROL Extract]</b> 按鈕以開啟上傳對話方塊。</p> <p>上傳憑證以將TLS與您的自我簽署憑證搭配使用。 [!DNL Workfront Fusion] 不會保留或儲存您提供的任何資料，例如檔案和密碼。 檔案和密碼僅用於擷取憑證。</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -125,16 +126,16 @@ FTP模組可讓您監視所選資料夾中的檔案變更、將新檔案上傳�
  <col> 
  <tbody> 
   <tr> 
-   <td>[！UICONTROL連線] </td> 
-   <td> <p>如需建立與FTP帳戶連線的指示，請參閱 <a href="#create-a-connection" class="MCXref xref">在FTP模組中建立連線[！UICONTROL]</a> 本文章內容。</p> </td> 
+   <td>[！UICONTROL Connection] </td> 
+   <td> <p>如需建立與FTP帳戶連線的指示，請參閱 <a href="#create-a-connection" class="MCXref xref">在FTP模組中建立[！UICONTROL連線]</a> 本文章內容。</p> </td> 
   </tr> 
   <tr> 
    <td> <p>[！UICONTROL資料夾]</p> </td> 
-   <td> <p>選取您要觀看的資料夾。</p> <p><b>注意：</b> 每個案例只允許一個資料夾。 子資料夾會被忽略。</p> <p><b>秘訣：</b> 若要追蹤多個資料夾，請為每個資料夾建立獨立的情境。</p> </td> 
+   <td> <p>選取要監視的資料夾。</p> <p><b>注意：</b> 每個案例只允許一個資料夾。 子資料夾會被忽略。</p> <p><b>秘訣：</b> 若要追蹤多個資料夾，請為每個資料夾建立獨立案例。</p> </td> 
   </tr> 
   <tr> 
-   <td>[！UICONTROL傳回檔案的最大數目] </td> 
-   <td> <p>設定符合以下條件的最大結果數量： [!DNL Workfront Fusion] 會在一個週期內使用。 如果值設定得太高，指定的協力廠商服務端的連線可能會中斷（逾時）。 [!DNL Workfront Fusion] 對此沒有任何影響。 我們建議您設定較低的值，並為最大週期數定義較高的值，或是更頻繁地執行情境。</p> </td> 
+   <td>[！UICONTROL傳回檔案的最大數量] </td> 
+   <td> <p>設定符合以下條件的結果數量上限： [!DNL Workfront Fusion] 會在一個週期內使用。 如果該值設定得太高，則在指定的第三方服務端可能會中斷連線（逾時）。 [!DNL Workfront Fusion] 對此沒有任何影響。 我們建議您設定較低的值，並為最大週期數定義較高的值，或是更頻繁地執行情境。</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -159,8 +160,8 @@ FTP模組可讓您監視所選資料夾中的檔案變更、將新檔案上傳�
    <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column2" />
    <tbody>
          <tr class="TableStyle-TableStyle-List-options-in-steps-Body-LightGray">
-            <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-LightGray" role="rowheader">[！UICONTROL連線]</td>
-            <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-LightGray">如需建立與FTP帳戶連線的指示，請參閱 <a href="#Create" class="MCXref xref" >在FTP模組中建立連線[！UICONTROL]</a> 本文章內容。</td>
+            <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-LightGray" role="rowheader">[！UICONTROL Connection]</td>
+            <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-LightGray">如需建立與FTP帳戶連線的指示，請參閱 <a href="#Create" class="MCXref xref" >在FTP模組中建立[！UICONTROL連線]</a> 本文章內容。</td>
          </tr>
          <tr class="TableStyle-TableStyle-List-options-in-steps-Body-MediumGray">
             <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-MediumGray" role="rowheader">[！UICONTROL變更許可權設定]</td>
@@ -170,7 +171,7 @@ FTP模組可讓您監視所選資料夾中的檔案變更、將新檔案上傳�
          </tr>
          <tr class="TableStyle-TableStyle-List-options-in-steps-Body-LightGray">
             <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-LightGray" role="rowheader">[！UICONTROL檔案路徑]</td>
-            <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-LightGray">輸入或對應檔案路徑至資料夾或檔案。</td>
+            <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-LightGray">輸入檔案路徑，或將檔案路徑對應至資料夾或檔案。</td>
          </tr>
          <tr class="TableStyle-TableStyle-List-options-in-steps-Body-MediumGray">
             <td class="TableStyle-TableStyle-List-options-in-steps-BodyB-Column1-MediumGray" role="rowheader">[！UICONTROL Permissions]</td>
@@ -191,12 +192,12 @@ FTP模組可讓您監視所選資料夾中的檔案變更、將新檔案上傳�
    <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column2" />
    <tbody>
          <tr class="TableStyle-TableStyle-List-options-in-steps-Body-LightGray">
-            <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-LightGray" role="rowheader">[！UICONTROL連線]</td>
-            <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-LightGray">如需建立與FTP帳戶連線的指示，請參閱 <a href="#Create" class="MCXref xref" >在FTP模組中建立連線[！UICONTROL]</a> 本文章內容。</td>
+            <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-LightGray" role="rowheader">[！UICONTROL Connection]</td>
+            <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-LightGray">如需建立與FTP帳戶連線的指示，請參閱 <a href="#Create" class="MCXref xref" >在FTP模組中建立[！UICONTROL連線]</a> 本文章內容。</td>
          </tr>
          <tr class="TableStyle-TableStyle-List-options-in-steps-Body-MediumGray">
             <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-MediumGray" role="rowheader">[！UICONTROL資料夾路徑]</td>
-            <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-MediumGray">輸入或將檔案路徑對應到新資料夾。</td>
+            <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-MediumGray">輸入檔案路徑，或將檔案路徑對應到新資料夾。</td>
          </tr>
          <tr class="TableStyle-TableStyle-List-options-in-steps-Body-LightGray">
             <td class="TableStyle-TableStyle-List-options-in-steps-BodyB-Column1-LightGray" role="rowheader">[！UICONTROL新資料夾名稱]</td>
@@ -216,8 +217,8 @@ FTP模組可讓您監視所選資料夾中的檔案變更、將新檔案上傳�
  <col> 
  <tbody> 
   <tr> 
-   <td>[！UICONTROL連線] </td> 
-            <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-LightGray">如需建立與FTP帳戶連線的指示，請參閱 <a href="#Create" class="MCXref xref" >在FTP模組中建立連線[！UICONTROL]</a> 本文章內容。</td>
+   <td>[！UICONTROL Connection] </td> 
+            <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-LightGray">如需建立與FTP帳戶連線的指示，請參閱 <a href="#Create" class="MCXref xref" >在FTP模組中建立[！UICONTROL連線]</a> 本文章內容。</td>
   </tr> 
   <tr> 
    <td>[！UICONTROL資料夾] </td> 
@@ -239,8 +240,8 @@ FTP模組可讓您監視所選資料夾中的檔案變更、將新檔案上傳�
    <col style="width: 50%;" class="TableStyle-TableStyle-HeaderRow-Column-Column1" />
    <tbody>
          <tr class="TableStyle-TableStyle-HeaderRow-Body-LightGray">
-            <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray" style="font-weight: bold;">[！UICONTROL連線]</td>
-            <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-LightGray">如需建立與FTP帳戶連線的指示，請參閱 <a href="#Create" class="MCXref xref" >在FTP模組中建立連線[！UICONTROL]</a> 本文章內容。</td>
+            <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray" style="font-weight: bold;">[！UICONTROL Connection]</td>
+            <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-LightGray">如需建立與FTP帳戶連線的指示，請參閱 <a href="#Create" class="MCXref xref" >在FTP模組中建立[！UICONTROL連線]</a> 本文章內容。</td>
          </tr>
          <tr class="TableStyle-TableStyle-HeaderRow-Body-MediumGray">
             <td class="TableStyle-TableStyle-HeaderRow-BodyB-Column1-MediumGray" style="font-weight: bold;">[！UICONTROL資料夾]</td>
@@ -260,7 +261,7 @@ FTP模組可讓您監視所選資料夾中的檔案變更、將新檔案上傳�
  <col> 
  <tbody> 
   <tr> 
-   <td>[！UICONTROL連線] </td> 
+   <td>[！UICONTROL Connection] </td> 
    <td> <p>如需建立與FTP帳戶連線的指示，請參閱 <a href="#creating-the-ftp-connection" class="MCXref xref">建立FTP連線</a> 本文章內容。</p> </td> 
   </tr> 
   <tr> 
@@ -279,7 +280,7 @@ FTP模組可讓您監視所選資料夾中的檔案變更、將新檔案上傳�
  <col> 
  <tbody> 
   <tr> 
-   <td>[！UICONTROL連線] </td> 
+   <td>[！UICONTROL Connection] </td> 
    <td> <p>如需建立與FTP帳戶連線的指示，請參閱 <a href="#creating-the-ftp-connection" class="MCXref xref">建立FTP連線</a> 本文章內容。</p> </td> 
   </tr> 
   <tr> 
@@ -288,14 +289,14 @@ FTP模組可讓您監視所選資料夾中的檔案變更、將新檔案上傳�
   </tr> 
   <tr> 
    <td>[！UICONTROL Show] </td> 
-   <td> <p>選取您要擷取有關檔案或資料夾的資訊，或兩者皆擷取。</p> </td> 
+   <td> <p>選取您要擷取有關檔案或資料夾的資訊，或兩者。</p> </td> 
   </tr> 
   <tr> 
    <td>[！UICONTROL搜尋] </td> 
    <td> <p>輸入搜尋字詞。 如果未輸入搜尋字詞，則會擷取指定資料夾中的所有檔案和資料夾。</p> </td> 
   </tr> 
   <tr> 
-   <td>[！UICONTROL傳回檔案的最大數目]</td> 
+   <td>[！UICONTROL傳回檔案的最大數量]</td> 
    <td> <p> 設定此模組擷取的檔案數上限。</p> </td> 
   </tr> 
  </tbody> 
@@ -310,8 +311,8 @@ FTP模組可讓您監視所選資料夾中的檔案變更、將新檔案上傳�
    <col style="width: 50%;" class="TableStyle-TableStyle-HeaderRow-Column-Column1" />
    <tbody>
          <tr class="TableStyle-TableStyle-HeaderRow-Body-LightGray">
-            <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray" style="font-weight: bold;">[！UICONTROL連線]</td>
-            <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-LightGray">如需建立與FTP帳戶連線的指示，請參閱 <a href="#Create" class="MCXref xref" >在FTP模組中建立連線[！UICONTROL]</a> 本文章內容。</td>
+            <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray" style="font-weight: bold;">[！UICONTROL Connection]</td>
+            <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-LightGray">如需建立與FTP帳戶連線的指示，請參閱 <a href="#Create" class="MCXref xref" >在FTP模組中建立[！UICONTROL連線]</a> 本文章內容。</td>
          </tr>
          <tr class="TableStyle-TableStyle-HeaderRow-Body-MediumGray">
             <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray" style="font-weight: bold;">[！UICONTROL舊檔案路徑]</td>
@@ -338,7 +339,7 @@ FTP模組可讓您監視所選資料夾中的檔案變更、將新檔案上傳�
  <col> 
  <tbody> 
   <tr> 
-   <td>[！UICONTROL連線] </td> 
+   <td>[！UICONTROL Connection] </td> 
    <td>如需建立與FTP帳戶連線的指示，請參閱 <a href="#creating-the-ftp-connection" class="MCXref xref">建立FTP連線</a> 本文章內容。</td> 
   </tr> 
   <tr> 
@@ -354,12 +355,12 @@ FTP模組可讓您監視所選資料夾中的檔案變更、將新檔案上傳�
    <td> <p>如果已啟用此選項，且FTP伺服器上已存在檔案，則檔案的內容會附加至現有檔案。 如果未啟用此選項，則會覆寫檔案的內容。</p> </td> 
   </tr> 
   <tr> 
-   <td>[！UICONTROL建立資料夾（如果不存在）] </td> 
-   <td> <p>如果已啟用此選項，且FTP伺服器上不存在您輸入至資料夾欄位的資料夾，則模組會建立該資料夾</p> </td> 
+   <td>[！UICONTROL建立資料夾（如果不存在的話）] </td> 
+   <td> <p>如果啟用此選項，而FTP伺服器上不存在您輸入到「資料夾」欄位的資料夾，則模組會建立該資料夾</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## 疑難排解 {#troubleshooting}
 
-如果您在建立連線或模組操作期間遇到FTP應用程式問題，請嘗試使用其中一個常用的FTP使用者端，並嘗試執行相同的動作（例如，建立連線或列出資料夾中的檔案）。 FTP使用者端。 如果您也遇到與FTP使用者端相同的問題，原因可能是FTP伺服器的設定錯誤。
+如果您在建立連線或模組作業期間遇到FTP應用程式問題，請嘗試使用其中一個常用的FTP使用者端，並嘗試執行相同的動作（例如，建立連線或列出資料夾中的檔案）。 FTP使用者端。 如果您也遇到與FTP使用者端相同的問題，原因可能是FTP伺服器的設定錯誤。

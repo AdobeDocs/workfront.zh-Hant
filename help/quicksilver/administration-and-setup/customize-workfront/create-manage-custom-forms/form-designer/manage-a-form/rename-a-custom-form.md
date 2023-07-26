@@ -5,23 +5,23 @@ product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
 description: 您可以使用表單設計工具重新命名現有的自訂表單。
 author: Courtney
-feature: System Setup and Administration
+feature: System Setup and Administration, Custom Forms
 role: Admin
-source-git-commit: 6e06e7892542c7dd96b6bf8b857583333efc883d
+exl-id: 8c49c2c8-4056-46a2-9ede-efb91ff237e5
+source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '236'
 ht-degree: 0%
 
 ---
 
-
 # 使用表單設計工具重新命名自訂表單
 
-使用表單設計工具建立自訂表單後，您隨時都可以重新命名自訂表單。
+您可以使用表單設計工具建立自訂表單後，隨時重新命名。
 
 ## 存取需求
 
-您必須具備下列條件才能執行本文所述步驟：
+您必須具備下列專案才能執行本文所述的步驟：
 
 <table style="table-layout:auto"> 
  <col> 
@@ -34,33 +34,33 @@ ht-degree: 0%
   <tr> 
    <td role="rowheader">Adobe Workfront授權*</td> 
    <td>
-   <p>當前計畫：標準</p>
+   <p>目前計畫：標準</p>
    <p>或</p>
-   <p>舊計畫：計畫</p></td> 
+   <p>舊版計畫：計畫</p></td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">訪問級別配置*</td> 
-   <td> <p>管理對自訂表單的存取</p> <p>如需Workfront管理員如何授予此存取權的詳細資訊，請參閱 <a href="/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">授予用戶對特定區域的管理訪問權限</a>.</p></td> 
+   <td role="rowheader">存取層級設定*</td> 
+   <td> <p>管理自訂表單的存取權</p> <p>如需Workfront管理員如何授予此存取許可權的詳細資訊，請參閱 <a href="/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">授予使用者管理特定區域的存取權</a>.</p></td> 
   </tr>  
  </tbody> 
 </table>
 
-&#42;若要了解您擁有的計畫、授權類型或存取層級設定，請聯絡您的Workfront管理員。
+&#42;若要瞭解您擁有的計畫、授權型別或存取層級設定，請聯絡Workfront管理員。
 
 ## 使用表單設計工具重新命名自訂表單
 
-1. 按一下 **主菜單** 圖示 ![](assets/main-menu-icon.png) 在Adobe Workfront的右上角，然後按一下 **設定** ![](assets/gear-icon-settings.png).
+1. 按一下 **主要功能表** 圖示 ![](assets/main-menu-icon.png) (位於Adobe Workfront的右上角)，然後按一下 **設定** ![](assets/gear-icon-settings.png).
 
-1. 按一下 **自訂Forms** 中。
+1. 按一下 **自訂Forms** 在左側面板中。
 
-   在顯示的檢視中，您可以檢閱為貴組織建立的所有自訂表單。 您也可以查看每個表單的建立者、其適用的物件類型，以及其是否使用中。
+   在出現的檢視中，您可以檢閱為組織建立的所有自訂表單。 您也可以檢視每個表單的建立者、表單使用的物件型別，以及表單是否使用中。
 
-1. 選擇要更名的自定義表單，然後按一下 **編輯**.
+1. 選取您要重新命名的自訂表單，然後按一下 **編輯**.
 1. 若要變更標題，請按一下表單名稱。
-1. 要更改說明，請按一下「說明」文本框。
+1. 若要變更說明，請按一下說明文字方塊。
 
 1. 按一下 **儲存並關閉**.
 
    >[!TIP]
    >
-   >您可以按一下 **套用** 在您建立自訂表單時隨時儲存變更並保持表單開啟。
+   >您可以按一下 **套用** 建立自訂表單時，隨時儲存變更並保持表單開啟。

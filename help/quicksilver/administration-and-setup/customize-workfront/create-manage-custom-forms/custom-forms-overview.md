@@ -1,37 +1,37 @@
 ---
-title: 自訂表單概觀
+title: 自訂表單概述
 user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
-description: 您可以建立自訂表單，供使用者附加至Workfront物件。 處理物件的使用者可填寫自訂表單，以提供物件的相關資訊。
+description: 您可以建立使用者可附加至Workfront物件的自訂表單。 處理物件的使用者可以填寫自訂表格，以提供物件的相關資訊。
 author: Caroline
-feature: System Setup and Administration
+feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: b04ed2e8-c60e-4978-8a9d-b9e087987ef4
-source-git-commit: 5b6583172b46e980a11fa9dc00895b9add5701ed
+source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
 source-wordcount: '267'
 ht-degree: 6%
 
 ---
 
-# 自訂表單概觀
+# 自訂表單概述
 
-您可以建立自訂表單，供使用者附加至Workfront物件。 處理物件的使用者可填寫自訂表單，以提供物件的相關資訊。
+您可以建立使用者可附加至Workfront物件的自訂表單。 處理物件的使用者可以填寫自訂表格，以提供物件的相關資訊。
 
-例如，使用者可將下列自訂表單附加至專案，讓專案上的使用者可以要求專案的行銷內容：
+例如，使用者可以將以下自訂表單附加到專案，以便專案上的使用者可以請求專案的行銷內容：
 
 ![](assets/see-image-details-page.png)
 
 ## 自訂欄位和小工具
 
-Workfront提供許多內建欄位供每種物件類型使用。 在自訂表單中，您可以建立其他欄位，提示使用者取得其工作流程特有的資訊。 這些自訂欄位是自訂表單的建置區塊。
+Workfront為每種物件型別提供許多內建欄位。 在自訂表單中，您可以建立其他欄位，提示使用者輸入其工作流程特有的資訊。 這些自訂欄位是自訂表單的建置組塊。
 
-您可以在Workfront中將下列類型的自訂欄位新增至自訂表單：
+您可以在Workfront中將下列型別的自訂欄位新增至自訂表單：
 
-* 單行文本欄位
-* 段落文本欄位
-* 具有格式的文本欄位
+* 單行文字欄位
+* 段落文字欄位
+* 含格式的文字欄位
 * 下拉
 * 已計算
 * 日期
@@ -39,18 +39,18 @@ Workfront提供許多內建欄位供每種物件類型使用。 在自訂表單�
 * 單選按鈕
 * 描述文字
 
-## 如何建立自訂表單
+## 如何建立自訂表格
 
-在中建立自訂表單有兩個選項 [!DNL Workfront]. 您可以使用舊版自訂表單產生器或新的表單設計工具：
+建立自訂表單有兩個選項： [!DNL Workfront]. 您可以使用舊版自訂表單產生器或新的表單設計工具：
 
 * [舊版自訂表單產生器](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/use-the-custom-form-builder.md)
 * [表單設計工具](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/form-designer-toc.md)
 
-## 用戶可以附加自定義表單的對象
+## 使用者可附加自訂表單的物件
 
-使用者可將自訂表單附加至下列物件類型：
+使用者可以將自訂表單附加到下列物件型別：
 
-* 項目（包括業務案例）
+* 專案（包括業務案例）
 * 任務
 * 問題
 * 公司
@@ -61,6 +61,6 @@ Workfront提供許多內建欄位供每種物件類型使用。 在自訂表單�
 * 費用
 * 群組
 
-如需指示，請參閱 [將自訂表單新增至物件](../../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md).
+如需指示，請參閱 [新增自訂表單至物件](../../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md).
 
-建立自訂表單的使用者可將其設定為處理多個物件類型。
+建立自訂表單的使用者可將其設定為使用多個物件型別。
