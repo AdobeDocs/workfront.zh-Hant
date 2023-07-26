@@ -1,60 +1,64 @@
 ---
 product-area: projects
 navigation-topic: convert-issues
-title: 轉換Adobe Workfront問題概觀
-description: 如果提交問題後需要完成更多工作才能完成問題，您可以將問題轉換為專案或任務。
+title: 在Adobe Workfront中轉換問題的概觀
+description: 如果在提交問題後需要完成更多工作，您可以將問題轉換為專案或任務。
 author: Alina
 feature: Work Management
+topic: Collaboration
+role: User
 exl-id: 97c83b65-208b-4e3f-b4cc-681237d82aa3
-source-git-commit: 24cc3ece515fd778a9bc9e8afbcd534f48b24230
+source-git-commit: 7c624eff8931d206285b6c4d91083f4bf09a88b0
 workflow-type: tm+mt
-source-wordcount: '1264'
+source-wordcount: '1289'
 ht-degree: 2%
 
 ---
 
-# 轉換Adobe Workfront問題概觀
+# 在Adobe Workfront中轉換問題的概觀
 
-如果提交問題後需要完成更多工作才能完成問題，您可以將問題轉換為專案或任務。
+如果在提交問題後需要完成更多工作，您可以將問題轉換為專案或任務。
 
-如需將問題轉換為工作的相關資訊，請參閱 [將問題轉換為Adobe Workfront中的任務](../../../manage-work/issues/convert-issues/convert-issue-to-task.md).
+如需將問題轉換為任務的詳細資訊，請參閱 [在Adobe Workfront中將問題轉換為任務](../../../manage-work/issues/convert-issues/convert-issue-to-task.md).
 
-如需將問題轉換為專案的相關資訊，請參閱 [將問題轉換為Adobe Workfront中的專案](../../../manage-work/issues/convert-issues/convert-issue-to-project.md).
+如需將問題轉換為專案的詳細資訊，請參閱 [在Adobe Workfront中將問題轉換為專案](../../../manage-work/issues/convert-issues/convert-issue-to-project.md).
 
-## 轉換問題時的考量事項
+## 轉換問題時的注意事項
 
-* 您的Workfront管理員或群組管理員已設定問題發生時的偏好設定、問題解決方式，以及將問題轉換為專案或任務時的主要聯絡人存取權，如 [配置全系統任務和問題首選項](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
+* 您的Workfront管理員或群組管理員已設定問題、其解決方法發生之情形的偏好設定，以及主要連絡人在將其轉換為專案或任務時的存取權，如中所述 [設定系統範圍的任務和問題偏好設定](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
 * Workfront會移除轉換期間與問題相關聯的任何核准。
-* Workfront會在您將問題轉換為任務或專案時覆寫問題的「解決物件」。 新任務或問題在轉換後會變成問題的新「解決對象」。
+* 當您將其轉換為任務或專案時，Workfront會覆寫問題的解決物件。 新任務或問題在轉換後會成為問題的新解決物件。
 * 請考量下列事項：
 
-   * 轉換期間，系統可能會詢問您是否要將問題及其解決方法與您建立的專案或任務連結。
-   * 如果您保留問題，當專案、任務或問題發生任何變更，或Workfront重新計算時間軸時，專案或任務的狀態和完成百分比會自動更新問題的狀態和完成百分比。
+   * 在轉換期間，系統可能會詢問您是否要保持問題及其解決方案與您正在建立的專案或任務繫結。
+   * 如果您保留問題，專案、任務或問題發生任何變更或Workfront重新計算時間表時，專案或任務的狀態和完成百分比會自動更新問題的狀態和完成百分比。
 
-* 使用範本將問題轉換為專案時，範本中的大部分資訊都會傳送到新專案。 不過，問題中的一些資訊也可轉移到新項目。 如需詳細資訊，請參閱 [使用範本將問題轉換為專案時的專案欄位概觀](#overview-of-project-fields-when-converting-an-issue-to-a-project-using-a-template) 一節。
-* 轉換問題時，並非所有文檔或其資訊都移動到問題轉換為的新對象。 轉換附加了文檔或文檔連結的問題時，將包括以下項目：
+* 將問題轉換為任務或專案時，問題會從指派給問題的使用者的首頁區域移除。
+
+* 使用範本將問題轉換為專案時，範本中的大部分資訊會傳輸到新專案。 不過，問題中的某些資訊也可傳輸到新專案。 如需詳細資訊，請參閱 [使用範本將問題轉換為專案時的專案欄位概觀](#overview-of-project-fields-when-converting-an-issue-to-a-project-using-a-template) 一節。
+* 轉換問題時，並非所有檔案或其資訊都會移至問題轉換為的新物件。 當您轉換附加了檔案或檔案連結的問題時，會包含下列專案：
 
    * 文件
-   * 第三方服務(例如Google Drive或SharePoint)的檔案連結。
+   * 檔案連結至協力廠商服務，例如Google Drive或SharePoint。
    * 版本
-   * 只有在選項時才包含校樣 **保留原始問題，並將其解決辦法與此任務聯繫起來** 未選取。
-   * 轉換附加了文檔和文檔連結的問題時，不包括文檔批准。
+   * 只有當選項時才會包含校樣 **保持初始問題並將其解決方案連結至此任務** 已取消選取。
+   * 當您轉換附加了檔案和檔案連結的問題時，不包含檔案核准。
 
-* 如果您決定將問題保留在轉換中，且問題已附加文檔，則文檔及其版本將複製到項目或任務。 校樣和文檔批准不會複製到項目或任務。
-* 如果您決定不將問題保留在轉換中，且問題中已附上檔案、檔案、其版本，以及校樣會轉移至專案或工作。 文檔批准不會轉移到項目或任務。
-* 如果您的檔案和資料夾連結至來自協力廠商服務(例如Google Drive)的原始問題，無論您是否在轉換期間保留問題，這些連結都會複製到新物件。
-* 也會將問題注釋複製到從問題轉換的任務或項目中，但標籤的用戶將不會轉移。
-* 如果要將自定義表單資訊從問題傳輸到要轉換為項目或任務的項目或任務，請確保您有項目或任務自定義表單，其中包含要從問題傳輸的相同欄位。 如需詳細資訊，請參閱 [轉換物件時傳輸自訂表單資料](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/transfer-custom-form-data-larger-item.md).
+* 如果您決定將問題保留在轉換中並且附加了檔案，則檔案及其版本會複製到專案或任務中。 校訂和檔案核准不會複製到專案或任務。
+* 如果您決定不將問題保留在轉換中，而其中包含附加的檔案、檔案、其版本和校樣會傳輸到專案或任務。 檔案核准將不會傳輸到專案或任務。
+* 如果您有來自協力廠商服務(例如Google Drive)的檔案和資料夾連結至原始問題，則無論您是否於轉換期間保留問題，這些連結都會複製到新物件。
+* 問題註解也會複製到從問題轉換的任務或專案，但標籤的使用者不會轉移。
+* 如果您想要將自訂表單資訊從問題中傳輸至您要將其轉換為的專案或任務，請確保您有專案或任務自訂表單，其中包含您要從問題中傳輸的相同欄位。 如需詳細資訊，請參閱 [轉換物件時傳輸自訂表單資料](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/transfer-custom-form-data-larger-item.md).
 
 ## 使用範本將問題轉換為專案時的專案欄位概觀 {#overview-of-project-fields-when-converting-an-issue-to-a-project-using-a-template}
 
-將問題轉換為專案時，您可以將問題轉換為空白專案或使用範本。
+將問題轉換為專案時，您可以將其轉換為空白專案或使用範本。
 
-如需詳細資訊，請參閱 [將問題轉換為Adobe Workfront中的專案](../../../manage-work/issues/convert-issues/convert-issue-to-project.md).
+如需詳細資訊，請參閱 [在Adobe Workfront中將問題轉換為專案](../../../manage-work/issues/convert-issues/convert-issue-to-project.md).
 
-使用範本時，某些填入在範本上的欄位會轉移至從轉換的問題建立的專案。 其他欄位會從轉換的問題轉移至專案。
+使用範本時，範本上填入的某些欄位會傳輸到從轉換的問題建立的專案。 其他欄位會從轉換的問題轉移到專案。
 
-下表列出項目資訊，以及項目資訊是從模板還是從問題中傳輸的：
+下表列出專案資訊，以及專案資訊是從範本還是從問題中轉移：
 
 <table style="table-layout:auto"> 
  <col> 
@@ -62,11 +66,11 @@ ht-degree: 2%
  <tbody> 
   <tr> 
    <td>說明</td> 
-   <td> <p>問題說明會轉移至新專案。 </p> <p> 如果問題沒有說明，範本中的說明會轉移至專案。 </p> <p>如果問題和範本的「說明」欄位都空白，專案上的欄位會是空的。 </p> </td> 
+   <td> <p>問題的描述已轉移到新專案。 </p> <p> 如果問題沒有描述，則範本中的描述會轉移到專案。 </p> <p>如果問題和範本的描述欄位為空，專案上的欄位為空白。 </p> </td> 
   </tr> 
   <tr> 
    <td>狀態</td> 
-   <td>為模板上的組選擇預設狀態。 如果模板未與組關聯，則項目狀態將設定為Workfront管理員在「設定」的「項目首選項」區域中設定的預設狀態。 如需詳細資訊，請參閱 <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">配置系統範圍的項目首選項</a>.</td> 
+   <td>為範本上的群組選取的預設狀態。 如果範本未與群組相關聯，則專案狀態會設為Workfront管理員在設定的專案偏好設定區域中設定的預設狀態。 如需詳細資訊，請參閱 <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">設定全系統專案偏好設定</a>.</td> 
   </tr> 
   <tr> 
    <td>優先順序</td> 
@@ -74,15 +78,15 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td>URL</td> 
-   <td> <p>問題的URL會傳輸至新專案。 </p> <p> 如果問題上未指定URL，則範本的URL會傳輸至專案。 </p> <p>如果問題和範本的URL欄位都空白，專案上的欄位會是空的。 </p> </td> 
+   <td> <p>來自問題的URL會轉移至新專案。 </p> <p> 如果問題中未指定URL，則範本中的URL會轉移至專案。 </p> <p>如果問題和範本的URL欄位都為空，則專案上的欄位為空白。 </p> </td> 
   </tr> 
   <tr> 
-   <td>專案條件類型</td> 
+   <td>專案狀態型別</td> 
    <td>從範本傳輸。</td> 
   </tr> 
   <tr> 
-   <td>專案條件</td> 
-   <td>與Workfront管理員在「設定」區域中確定的系統級預設首選項匹配。 如需詳細資訊，請參閱 <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/set-custom-condition-default-projects.md" class="MCXref xref">將自訂條件設為專案的預設值</a></td> 
+   <td>專案狀態</td> 
+   <td>符合由Workfront管理員在設定區域中決定的系統層級預設偏好設定。 如需詳細資訊，請參閱 <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/set-custom-condition-default-projects.md" class="MCXref xref">將自訂條件設定為專案的預設值</a></td> 
   </tr> 
   <tr> 
    <td>排程開始時間</td> 
@@ -92,53 +96,53 @@ ht-degree: 2%
    <td>專案日期</td> 
    <td> 
     <ul> 
-     <li> <p><b>計劃開始日期</b>:根據範本排程的時區，應預先選取以範本排程的工作時間為基礎的最接近工作時間。 如果「排程自」欄位設定為「自完成」，則此欄位將被禁用。 </p> </li> 
-     <li> <p><b>計畫完成日期</b>:根據範本排程的時區，應預先選取以範本排程的工作時間為基礎的最接近工作時間。 如果「排程從」欄位設定為「從開始」，則此欄位將被禁用。 </p> </li> 
+     <li> <p><b>計劃開始日期</b>：應根據範本排程的時區，預先選取根據範本排程工作時間最接近的工作時間。 如果「排程開始日期」欄位設為「完成日期」，則會停用此欄位。 </p> </li> 
+     <li> <p><b>計畫完成日期</b>：應根據範本排程的時區，預先選取根據範本排程工作時間最接近的工作時間。 如果[排程開始日期]欄位設為[開始日期]，則會停用此欄位。 </p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td>專案組合</td> 
-   <td>從範本傳輸。 否則，此欄位為空。</td> 
+   <td>從範本傳輸。 否則，此欄位為空白。</td> 
   </tr> 
   <tr> 
    <td>方案</td> 
-   <td>從範本傳輸。 否則，此欄位為空。</td> 
+   <td>從範本傳輸。 否則，此欄位為空白。</td> 
   </tr> 
   <tr> 
    <td>群組</td> 
-   <td>從範本傳輸。 如果模板上沒有組，則該組將設定為問題所屬的項目組。</td> 
+   <td>從範本傳輸。 如果範本上沒有群組，則會設定為問題所屬的專案群組。</td> 
   </tr> 
   <tr> 
    <td>公司</td> 
-   <td>從範本傳輸。 否則，此欄位為空。</td> 
+   <td>從範本傳輸。 否則，此欄位為空白。</td> 
   </tr> 
   <tr> 
    <td>專案所有者</td> 
-   <td>從範本上的範本擁有者欄位傳輸。 否則，則會設為執行轉換的登入使用者。 </td> 
+   <td>從範本的「範本所有者」欄位轉移。 否則，會設定為執行轉換的登入使用者。 </td> 
   </tr> 
   <tr> 
    <td>專案贊助者</td> 
-   <td>從模板上的「模板發起人」欄位進行傳輸。 否則，此欄位為空。</td> 
+   <td>從範本上的範本贊助者欄位轉移。 否則，此欄位為空白。</td> 
   </tr> 
   <tr> 
-   <td>資源管理器</td> 
-   <td>從範本傳輸。 否則，此欄位為空。</td> 
+   <td>資源管理員</td> 
+   <td>從範本傳輸。 否則，此欄位為空白。</td> 
   </tr> 
   <tr> 
    <td>任務設定</td> 
-   <td>從範本傳輸。</td> 
+   <td>從範本轉移。</td> 
   </tr> 
   <tr> 
    <td>問題設定</td> 
-   <td>從範本傳輸。 </td> 
+   <td>從範本轉移。 </td> 
   </tr> 
   <tr> 
    <td>存取</td> 
-   <td> <p>從範本上的存取區段傳輸。 </p> </td> 
+   <td> <p>從範本的「存取」區段轉移。 </p> </td> 
   </tr> 
   <tr> 
    <td>核准</td> 
-   <td>從範本傳輸。 轉換期間會移除與問題相關的核准。 </td> 
+   <td>從範本轉移。 與問題相關的核准在轉換期間被移除。 </td> 
   </tr> 
  </tbody> 
 </table>
@@ -219,19 +223,19 @@ ht-degree: 2%
 </div>
 -->
 
-## 查看有關項目和任務的原始問題資訊 {#view-original-issue-information-on-projects-and-tasks}
+## 檢視專案和任務的原始問題資訊 {#view-original-issue-information-on-projects-and-tasks}
 
-您可以在項目和任務清單和報表中或在「項目詳細資訊」區域中查看原始問題資訊。 如需建立報表的相關資訊，請參閱 [建立自訂報表](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+您可以在專案和工作清單及報告中或在「專案詳細資訊」區域中，檢視原始問題資訊。 如需有關建立報表的資訊，請參閱 [建立自訂報表](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
-下表說明了從轉換的項目和任務中可看到的問題欄位。
+下表說明哪些問題欄位可從轉換的專案和任務中看到。
 
-| 問題欄位 | 項目或任務欄位 | 專案清單或報表 | 項目詳細資訊區域 | 任務清單或報告 | 任務詳細資訊區域 |
+| 問題欄位 | 專案或工作列位 | 專案清單或報告 | 專案詳細資訊區域 | 任務清單或報告 | 任務詳細資訊區域 |
 |---|---|---|---|---|---|
 | 問題名稱 | 轉換的問題名稱 | ✔ | ✔ | ✔ | ✔ |
-| 主要連絡人 | 轉換的問題創作者名稱 | ✔ | `✔` | ✔ |   |
-| 輸入日期 | 轉換的發行錄入日期 | ✔ |   | ✔ |   |
+| 主要連絡人 | 轉換的問題建立者名稱 | ✔ | `✔` | ✔ |   |
+| 輸入日期 | 轉換的問題輸入日期 | ✔ |   | ✔ |   |
 
 
 >[!CAUTION]
 >
->如果問題的主要聯繫人更改，或者問題在轉換後從項目或任務中取消連結，則「轉換的問題發起人名稱」不會更新，它將在轉換問題時顯示問題的原始主要聯繫人。
+>如果問題的主要聯絡人變更，或在問題轉換後問題從專案或任務中解除連結，則轉換的問題建立者名稱不會更新，並在問題轉換時顯示問題的原始主要聯絡人。
