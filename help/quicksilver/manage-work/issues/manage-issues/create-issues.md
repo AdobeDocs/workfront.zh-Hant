@@ -8,18 +8,24 @@ feature: Work Management
 topic: Collaboration
 role: User
 exl-id: 2a4488fb-fe2f-422a-887c-996f6367afc5
-source-git-commit: d1594634c5507e04f314da2fbccf621f8c1e03e7
+source-git-commit: b6ea67f28b498cc0de4325a2350545c660574d4c
 workflow-type: tm+mt
-source-wordcount: '1985'
+source-wordcount: '2024'
 ht-degree: 0%
 
 ---
 
 # 建立問題
 
-<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它僅在預覽環境中可用。</span>
-
 <!--remove Preview and Prod references when this comes to Prod-->
+
+<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它僅適用於所有客戶的預覽環境，或適用於啟用快速發行的客戶的生產環境。 </span>
+
+<span class="preview">如需快速發行版本的相關資訊，請參閱 [啟用或停用組織的快速發行](../../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+
+<span class="preview">如需目前版本的相關資訊，請參閱 [2023年第四季版本總覽](../../../product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md). </span>
+
+
 
 處理專案時，您可能會發現發生未預期的事件。 您可以將這些非預期事件記錄為特定專案或任務的問題。 具有適當存取許可權的使用者可隨著專案或任務進行到完成來檢視和監控問題的狀態，無需冗長的電子郵件鏈結或狀態會議。 與為計畫事件的任務不同，問題代表Adobe Workfront中的計畫外工作專案。
 

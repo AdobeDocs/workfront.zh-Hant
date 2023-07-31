@@ -3,10 +3,11 @@ filename: delete-archive-board
 product-area: agile-and-teams
 navigation-topic: get-started-with-boards
 title: 刪除或封存展示板
-description: 您可以刪除或封存Workfront中的展示板。 刪除展示板會從Workfront中永久移除，而封存展示板會保留所有資訊卡，並允許稍後還原。
+description: 您可以在Workfront中刪除或封存展示板。 刪除展示板會將其從Workfront中永久移除，而封存展示板會保留所有卡片，並容許日後還原。
 author: Lisa
+feature: Agile
 exl-id: 214a83f6-ecc1-4e4d-aba5-d6483dcabd27
-source-git-commit: 67472e2c6d3bf3cbb11c2ba5ad2f3eee13336f74
+source-git-commit: c1bc58be18e43a0c9cce10d0117a186ba2abca9e
 workflow-type: tm+mt
 source-wordcount: '342'
 ht-degree: 1%
@@ -15,11 +16,11 @@ ht-degree: 1%
 
 # 刪除或封存展示板
 
-您可以在 [!DNL Workfront]. 刪除展示板會從 [!DNL Workfront]，而封存展示板會保留所有資訊卡，並允許稍後還原。 這些選項適用於屬於工作流程一部分的獨立展示板和展示板。
+您可以在下列位置刪除或封存展示板： [!DNL Workfront]. 刪除展示板會將其從下列位置永久移除 [!DNL Workfront]，而封存展示板時，會保留所有卡片，並容許稍後還原。 這些選項同時適用於工作流程中的獨立主機板和主機板。
 
 ## 存取需求
 
-您必須具備下列存取權，才能執行本文中的步驟：
+您必須具有下列存取權才能執行本文中的步驟：
 
 <table style="table-layout:auto"> 
  <col> 
@@ -33,43 +34,43 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] 授權*</strong></td> 
-   <td> <p>[!UICONTROL Request]或更高版本</p> </td> 
+   <td> <p>[！UICONTROL Request]或更高版本</p> </td> 
   </tr>
    </tbody> 
 </table>
 
-&#42;若要了解您擁有的計畫、授權類型或存取權，請聯絡您的 [!DNL Workfront] 管理員。
+&#42;若要瞭解您擁有的計畫、授權型別或存取權，請聯絡您的 [!DNL Workfront] 管理員。
 
 ## 刪除展示板
 
-當您刪除展示板時，會從 [!DNL Workfront] 無法恢復。 展示板上的任何資訊卡也會隨展示板一起刪除。
+當您刪除展示板時，它會從下列位置永久移除： [!DNL Workfront] 且無法還原。 任何在展示板上的卡片也會隨展示板一起刪除。
 
-1. 按一下 **[!UICONTROL 主菜單]** 圖示 ![](assets/main-menu-icon.png) 在 [!DNL Adobe Workfront]，然後按一下 **[!UICONTROL 展示板]**.
-1. 在控制面板上，選取要開啟的展示板。
-1. 按一下 **[!UICONTROL 更多]** 功能表 ![[!UICONTROL 更多功能表]](assets/more-icon-spectrum.png) 在展示板名稱旁，選取 **[!UICONTROL 刪除]**. 然後，按一下 **[!UICONTROL 刪除展示板]** 在確認訊息上。
+1. 按一下 **[!UICONTROL 主要功能表]** 圖示 ![](assets/main-menu-icon.png) 位於的右上角 [!DNL Adobe Workfront]，然後按一下 **[!UICONTROL 展示板]**.
+1. 在控制面板上，選取要開啟的面板。
+1. 按一下 **[!UICONTROL 更多]** 功能表 ![[!UICONTROL 更多選單]](assets/more-icon-spectrum.png) 在展示板名稱旁邊，然後選取 **[!UICONTROL 刪除]**. 然後，按一下 **[!UICONTROL 刪除展示板]** 於確認訊息上。
 
    >[!NOTE]
    >
-   >您只能刪除您建立的展示板，不能刪除您新增至的展示板。
+   >您只能刪除您已建立的面板，不能刪除已新增至的面板。
 
-   ![展示板更多功能表](assets/boards-board-more-menu.png)
+   ![展示板其他功能表](assets/boards-board-more-menu.png)
 
 ## 封存展示板
 
-封存的展示板會保留所有資訊卡和指派。 任何使用者都可隨時封存或還原展示板。
+已封存的展示板會保留所有卡片和工作分派。 任何使用者都可以隨時封存或還原展示板。
 
-1. 按一下 **[!UICONTROL 主菜單]** 圖示 ![](assets/main-menu-icon.png) 在 [!DNL Adobe Workfront]，然後按一下 **[!UICONTROL 展示板]**.
-1. 在控制面板上，選取要開啟的展示板。
-1. 按一下 **[!UICONTROL 更多]** 功能表 ![[!UICONTROL 更多功能表]](assets/more-icon-spectrum.png) 在展示板名稱旁，選取 **[!UICONTROL 封存]**.
+1. 按一下 **[!UICONTROL 主要功能表]** 圖示 ![](assets/main-menu-icon.png) 位於的右上角 [!DNL Adobe Workfront]，然後按一下 **[!UICONTROL 展示板]**.
+1. 在控制面板上，選取要開啟的面板。
+1. 按一下 **[!UICONTROL 更多]** 功能表 ![[!UICONTROL 更多選單]](assets/more-icon-spectrum.png) 在展示板名稱旁邊，然後選取 **[!UICONTROL 封存]**.
 
-   ![展示板更多功能表](assets/boards-board-more-menu.png)
+   ![展示板其他功能表](assets/boards-board-more-menu.png)
 
 ## 還原展示板
 
-封存的展示板可隨時還原。 任何使用者都可以還原封存的展示板。
+封存的展示板可隨時還原。 任何使用者都可以還原已封存的展示板。
 
-1. 按一下 **[!UICONTROL 主菜單]** 圖示 ![](assets/main-menu-icon.png) 在 [!DNL Adobe Workfront]，然後按一下 **[!UICONTROL 展示板]**.
-1. 在控制面板上，按一下篩選圖示 ![篩選](assets/filter-icon-spectrum-25x25.png) 選取 **[!UICONTROL 封存的展示板]**.
-1. 找到您要還原的展示板，按一下 **[!UICONTROL 更多]** 功能表 ![更多功能表](assets/more-icon-spectrum.png) 在展示板名稱旁，選取 **[!UICONTROL 還原]**.
+1. 按一下 **[!UICONTROL 主要功能表]** 圖示 ![](assets/main-menu-icon.png) 位於的右上角 [!DNL Adobe Workfront]，然後按一下 **[!UICONTROL 展示板]**.
+1. 在控制面板上，按一下篩選圖示 ![篩選](assets/filter-icon-spectrum-25x25.png) 並選取 **[!UICONTROL 已封存的展示板]**.
+1. 找到您要還原的主機板，按一下 **[!UICONTROL 更多]** 功能表 ![更多選單](assets/more-icon-spectrum.png) 在展示板名稱旁，然後選取 **[!UICONTROL 還原]**.
 
    ![還原展示板](assets/boards-dashboard-restore.png)
