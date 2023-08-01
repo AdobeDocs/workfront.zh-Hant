@@ -3,20 +3,24 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: scenarios
 title: 使用Adobe Workfront Fusion DevTool除錯案例
-description: Adobe Workfront Fusion DevTool可讓您瞭解案例並疑難排解。 DevTool在Chrome開發人員工具中新增了一個額外的面板。 使用此偵錯工具面板，您可以檢查案例的所有手動執行、檢閱所有已執行的操作，並檢視每個已執行API呼叫的詳細資訊。 您可以檢視哪個模組、操作或單一回應導致錯誤，並使用該知識來調整您的情境。
+description: Adobe Workfront Fusion DevTool可讓您瞭解情境並疑難排解。 DevTool將額外的面板新增至Chrome開發人員工具。 使用此偵錯工具面板，您可以檢查案例的所有手動執行、檢閱所有已執行的操作，並檢視每個已執行API呼叫的詳細資訊。 您可以檢視導致錯誤的模組、操作或單一回應，並運用該知識來調整您的案例。
 author: Becky
 feature: Workfront Fusion
 exl-id: f7557214-3615-4797-b4cb-4af70e4797ac
-source-git-commit: a3756f9345cbc9417a6fd110306dfa50aecc81a2
+source-git-commit: 19de44559be7b5bd7584012f1d6f7e12523f12be
 workflow-type: tm+mt
-source-wordcount: '1670'
+source-wordcount: '1687'
 ht-degree: 0%
 
 ---
 
 # 使用對案例進行偵錯 [!DNL Adobe Workfront Fusion] DevTool
 
-此 [!DNL Adobe Workfront Fusion] DevTool可讓您瞭解並疑難排解案例。 DevTool會將額外的面板新增至 [!DNL Chrome Developer Tools]. 使用此偵錯工具面板，您可以檢查案例的所有手動執行、檢閱所有已執行的操作，並檢視每個已執行API呼叫的詳細資訊。 您可以檢視哪個模組、操作或單一回應導致錯誤，並使用該知識來調整您的情境。
+此 [!DNL Adobe Workfront Fusion] DevTool可讓您瞭解情境並疑難排解。 DevTool會將額外的面板新增至 [!DNL Chrome Developer Tools]. 使用此偵錯工具面板，您可以檢查案例的所有手動執行、檢閱所有已執行的操作，並檢視每個已執行API呼叫的詳細資訊。 您可以檢視導致錯誤的模組、操作或單一回應，並運用該知識來調整您的案例。
+
+>[!NOTE]
+>
+>透過AdobeUnified Shell存取Fusion的組織無法使用Workfront Fusion DevTool。
 
 ## 存取需求
 
@@ -39,23 +43,23 @@ ht-degree: 0%
   <td>
    <p>目前授權需求：否 [!DNL Workfront Fusion] 授權需求。</p>
    <p>或</p>
-   <p>舊版授權需求： [！UICONTROL [!DNL Workfront Fusion] 若為工作自動化與整合]，[！UICONTROL [!DNL Workfront Fusion] 工作自動化專用]</p>
+   <p>舊版授權需求： [！UICONTROL [!DNL Workfront Fusion] 工作自動化與整合]，請參閱[！UICONTROL [!DNL Workfront Fusion] 工作自動化專用]</p>
    </td>    </tr> 
   </tr> 
   <tr> 
    <td role="rowheader">產品</td> 
    <td>
-   <p>目前產品需求：如果您有[！UICONTROL Select]或[！UICONTROL Prime] [!DNL Adobe Workfront] 計畫，您的組織必須購買 [!DNL Adobe Workfront Fusion] 以及 [!DNL Adobe Workfront] 以使用本文所述功能。 [!DNL Workfront Fusion] 包含在[！UICONTROL Ultimate]中 [!DNL Workfront] 計畫。</p>
+   <p>目前產品需求：如果您有[！UICONTROL Select]或[！UICONTROL Prime] [!DNL Adobe Workfront] 計畫，您的組織必須購買 [!DNL Adobe Workfront Fusion] 以及 [!DNL Adobe Workfront] 以使用本文所述的功能。 [!DNL Workfront Fusion] 包含在[！UICONTROL Ultimate]中 [!DNL Workfront] 計畫。</p>
    <p>或</p>
-   <p>舊版產品需求：貴組織必須購買 [!DNL Adobe Workfront Fusion] 以及 [!DNL Adobe Workfront] 以使用本文所述功能。</p>
+   <p>舊版產品需求：貴組織必須購買 [!DNL Adobe Workfront Fusion] 以及 [!DNL Adobe Workfront] 以使用本文所述的功能。</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-若要瞭解您擁有哪些計畫、授權型別或存取權，請聯絡您的 [!DNL Workfront] 管理員。
+若要瞭解您擁有的計畫、授權型別或存取權，請聯絡您的 [!DNL Workfront] 管理員。
 
-有關以下專案的資訊： [!DNL Adobe Workfront Fusion] 授權，請參閱 [[!DNL Adobe Workfront Fusion] 授權](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+有關的資訊 [!DNL Adobe Workfront Fusion] 授權，請參閱 [[!DNL Adobe Workfront Fusion] 授權](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
 ## 安裝 [!DNL Chrome] DevTool擴充功能
 
@@ -84,7 +88,7 @@ To use the [!DNL Workfront Fusion] DevTool, you first need to install it.
 
 ## 找到 [!DNL Workfront Fusion] DevTool
 
-若要使用 [!DNL Workfront Fusion] DevTool，您必須新增 [!DNL Workfront Fusion] 您的DevTool擴充功能 [!DNL Chrome] 瀏覽器，如所述 [安裝Chrome DevTool擴充功能](#install-the-chrome-devtool-extension).
+若要使用 [!DNL Workfront Fusion] DevTool，您必須新增 [!DNL Workfront Fusion] DevTool擴充功能延伸至 [!DNL Chrome] 瀏覽器，如所述 [安裝Chrome DevTool擴充功能](#install-the-chrome-devtool-extension).
 
 1. 開啟您的 [!DNL Workfront Fusion] 情境。
 1. 開啟 [!DNL Chrome Developer Tools]:
@@ -106,13 +110,13 @@ To use the [!DNL Workfront Fusion] DevTool, you first need to install it.
 
    >[!TIP]
    >
-   >我們建議停靠 [!DNL Chrome Developer Console] 以維持模組更佳的檢視。
+   >我們建議固定 [!DNL Chrome Developer Console] 以維持模組更佳的檢視效果。
 
 1. 按一下 **[!DNL Workfront Fusion]** 定位於 [!DNL Chrome Dev Tools].
 
 ## 使用 [!DNL Workfront Fusion] DevTool
 
-Workfront Fusion DevTool分為3個主要區段。 您可以在DevTool視窗的左側面板中找到這些內容。
+Workfront Fusion DevTool分為3個主要區段。 您可以在DevTool視窗的左側面板中找到這些專案。
 
 * [Live Stream](#live-stream)
 * [案例偵錯工具](#scenario-debugger)
@@ -122,7 +126,7 @@ Workfront Fusion DevTool分為3個主要區段。 您可以在DevTool視窗的�
 
 即時資料流會在您的情境中按一下「執行一次」時，顯示背景中發生的情形。
 
-1. 按一下 **[!UICONTROL Live Stream]** 圖示 ![](assets/live-stream-icon.png) 以開啟即時資料流區段。
+1. 按一下 **[!UICONTROL Live Stream]** 圖示 ![](assets/live-stream-icon.png) 以開啟「即時資料流」區段。
 1. 執行下列任一項作業：
 
    <table style="table-layout:auto"> 
@@ -140,10 +144,10 @@ Workfront Fusion DevTool分為3個主要區段。 您可以在DevTool視窗的�
       <td> <p>您可以檢視情境中每個模組的下列資訊</p> 
        <ul> 
         <li> <p>請求標頭（API端點URL、http方法、呼叫請求的時間和日期、請求標頭以及查詢字串）</p> </li> 
-        <li> <p>請求內文</p> </li> 
+        <li> <p>要求內文</p> </li> 
         <li> <p>回應標頭</p> </li> 
         <li> <p>回應內文</p> </li> 
-       </ul> <p>若要檢視此資訊，請按一下右側面板中適當的索引標籤。 [!DNL Workfront Fusion] DevTool。</p> </td> 
+       </ul> <p>若要檢視此資訊，請按一下右側面板中適當的索引標籤 [!DNL Workfront Fusion] DevTool。</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"> <p>搜尋請求和回應</p> </td> 
@@ -151,18 +155,18 @@ Workfront Fusion DevTool分為3個主要區段。 您可以在DevTool視窗的�
      </tr> 
      <tr> 
       <td role="rowheader"> <p>移除請求清單 </p> </td> 
-      <td> <p>按一下DevTool左側面板右上角的垃圾桶圖示，以清除記錄在 [!DNL Workfront Fusion] DevTool。 </p> </td> 
+      <td> <p>按一下DevTool左面板右上角的垃圾桶圖示，以清除記錄在 [!DNL Workfront Fusion] DevTool。 </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"> <p>啟用主控台記錄</p> </td> 
-      <td> <p>按一下電腦圖示 <img src="assets/console-computer-icon.png"> 在DevTool左側面板的右上角。</p> <p>當電腦圖示為綠色時，會啟用登入主控台。</p> </td> 
+      <td> <p>按一下電腦圖示 <img src="assets/console-computer-icon.png"> 在DevTool左面板的右上角。</p> <p>當電腦圖示為綠色時，會啟用登入主控台。</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"> <p>以原始JSON格式或cURL擷取請求</p> </td> 
       <td> 
        <ul> 
-        <li> <p><strong>原始JSON</strong> </p> <p>按一下 <strong>[！UICONTROL Copy RAW]</strong> DevTool右窗格右上角的。</p> </li> 
-        <li> <p><strong>cURL</strong> </p> <p>按一下 <strong>[！UICONTROL複製cURL]</strong> DevTool右窗格右上角的。</p> </li> 
+        <li> <p><strong>原始JSON</strong> </p> <p>按一下 <strong>[！UICONTROL Copy RAW]</strong> 在DevTool右窗格的右上角。</p> </li> 
+        <li> <p><strong>cURL</strong> </p> <p>按一下 <strong>[！UICONTROL副本cURL]</strong> 在DevTool右窗格的右上角。</p> </li> 
        </ul> </td> 
      </tr> 
     </tbody> 
@@ -170,12 +174,12 @@ Workfront Fusion DevTool分為3個主要區段。 您可以在DevTool視窗的�
 
 ### 案例偵錯工具
 
-情境偵錯工具適用於更複雜的情境。 它會顯示案例執行的歷程記錄，並可讓您依據模組名稱或ID來搜尋模組。
+情境偵錯工具適用於較複雜的情境。 它會顯示案例執行的歷史記錄，並可讓您依據模組名稱或ID來搜尋模組。
 
-1. 按一下 **[!UICONTROL 案例偵錯工具]** 圖示 ![](assets/scenario-debugger-icon.png) 以開啟Scenario Debugger。
-1. （可選）在左側窗格的搜尋欄位中輸入搜尋字詞（名稱或模組ID）。 [!DNL Workfront Fusion] 中的DevTool [!UICONTROL 案例偵錯工具] 區段。
-1. 連按兩下模組的名稱，以在案例編輯器中開啟其設定。
-1. 按一下所需的操作以檢視請求詳細資料。
+1. 按一下 **[!UICONTROL 案例偵錯工具]** 圖示 ![](assets/scenario-debugger-icon.png) 以開啟案例偵錯工具。
+1. （選擇性）在的左窗格中的搜尋欄位中輸入搜尋字詞（名稱或模組ID） [!DNL Workfront Fusion] 中的DevTool [!UICONTROL 案例偵錯工具] 區段。
+1. 連按兩下模組名稱，以在案例編輯器中開啟其設定。
+1. 按一下所需的作業以檢視請求詳細資料。
 
 ### 工具
 
@@ -189,14 +193,14 @@ Workfront Fusion DevTool分為3個主要區段。 您可以在DevTool視窗的�
 工具及其欄位：
 
 * [聚焦模組](#focus-a-module)
-* [透過對應尋找模組](#find-modules-by-mapping)
+* [依對應尋找模組](#find-modules-by-mapping)
 * [取得應用程式中繼資料](#get-app-metadata)
 * [複製對應](#copy-mapping)
 * [複製篩選器](#copy-filter)
 * [交換連線](#swap-connection)
 * [交換變數](#swap-variable)
 * [交換應用程式](#swap-app)
-* [基準64](#base-64)
+* [以64為底](#base-64)
 * [複製模組名稱](#copy-module-name)
 * [重新對應來源](#remap-source)
 * [反白顯示應用程式](#highlight-app)
@@ -204,37 +208,37 @@ Workfront Fusion DevTool分為3個主要區段。 您可以在DevTool視窗的�
 
 #### [!UICONTROL 聚焦模組]
 
-依ID開啟指定模組的設定。
+依照ID開啟指定模組的設定。
 
 <table style="table-layout:auto">
     <tr>
         <td>[！UICONTROL模組ID]</td>
-        <td>輸入您要開啟其設定的模組ID。</td>
+        <td>輸入您要開啟其設定的模組識別碼。</td>
     </tr>
 </table>
 
-#### [!UICONTROL 透過對應尋找模組]
+#### [!UICONTROL 依對應尋找模組]
 
-可讓您搜尋指定字詞的模組值。 輸出包含模組ID，其中包含您已搜尋的字詞。
+可讓您搜尋指定字詞的模組值。 輸出包含模組ID，其中包含您搜尋的字詞。
 
 <table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[！UICONTROL關鍵字]</td> 
+   <td role="rowheader">[！UICONTROL Keyword]</td> 
    <td> <p> 輸入您要搜尋的字詞。 </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[！UICONTROL僅使用值]</p> </td> 
-   <td> <p>啟用此選項以僅搜尋模組欄位的值。</p> <p>停用此選項也可在模組欄位名稱中搜尋。</p> <p>搜尋會透過名稱和標籤引數來執行。</p> </td> 
+   <td> <p>啟用此選項以僅搜尋模組欄位的值。</p> <p>停用此選項亦可搜尋模組欄位的名稱。</p> <p>搜尋會透過名稱和標籤引數來執行。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 #### [!UICONTROL 取得應用程式中繼資料]
 
-依應用程式的模組名稱或ID擷取應用程式的中繼資料。 例如，在您需要知道案例中使用之應用程式的版本時，這個選項就十分實用。
+依應用程式的模組名稱或ID擷取應用程式的中繼資料。 例如，在您需要知道情境中使用的應用程式版本時，這很有用。
 
 <table style="table-layout:auto">
     <tr>
@@ -257,7 +261,7 @@ Workfront Fusion DevTool分為3個主要區段。 您可以在DevTool視窗的�
  <tbody> 
   <tr> 
    <td role="rowheader">[！UICONTROL來源模組]</td> 
-   <td> <p> 選取模組或輸入要從中複製欄位值的模組ID。</p> </td> 
+   <td> <p> 選取模組或輸入您要從中複製欄位值的模組ID。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[！UICONTROL目標模組]</p> </td> 
@@ -272,7 +276,7 @@ Workfront Fusion DevTool分為3個主要區段。 您可以在DevTool視窗的�
 
 >[!NOTE]
 >
->複製動作會在所選模組左側的篩選上執行。
+>複製動作會在所選模組左側的篩選器上執行。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -280,22 +284,22 @@ Workfront Fusion DevTool分為3個主要區段。 您可以在DevTool視窗的�
  <tbody> 
   <tr> 
    <td role="rowheader">[！UICONTROL來源模組]</td> 
-   <td> <p> 選取模組或輸入要從中複製篩選值的模組ID。</p> </td> 
+   <td> <p> 選取模組或輸入您要從中複製篩選值的模組ID。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[！UICONTROL目標模組]</p> </td> 
-   <td> <p>選取模組或輸入您要從來源模組插入篩選值的模組ID。</p> <p>重要：目標模組中的值將被覆寫。</p> </td> 
+   <td> <p>選取模組或輸入要從來源模組插入篩選值之模組的ID。</p> <p>重要：目標模組中的值將被覆寫。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[！UICONTROL保留遞補路由設定]</p> </td> 
-   <td> <p>來源篩選器已設定為遞補路由。 啟用此選項也可將目標篩選器設定為遞補路由。</p> </td> 
+   <td role="rowheader"> <p>[！UICONTROL Preserve Fallback Route setting]</p> </td> 
+   <td> <p>來源篩選器已設定為遞補路由。 啟用此選項也可以將目標篩選器設定為遞補路由。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 #### [!UICONTROL 交換連線]
 
-複製從來源模組到相同應用程式案例中每個模組的連線。
+在同一個應用程式的案例中，將來源模組的連線複製到每個模組。
 
 <table style="table-layout:auto">
     <tr>
@@ -306,7 +310,7 @@ Workfront Fusion DevTool分為3個主要區段。 您可以在DevTool視窗的�
 
 #### [!UICONTROL 交換變數]
 
-搜尋案例中的指定變數，並以新變數取代。
+搜尋情境中的指定變數，並以新變數取代。
 
 <table style="table-layout:auto">
  <col> 
@@ -314,11 +318,11 @@ Workfront Fusion DevTool分為3個主要區段。 您可以在DevTool視窗的�
  <tbody> 
   <tr> 
    <td role="rowheader">[！UICONTROL要尋找的變數]</td> 
-   <td> <p> 在情境中，從模組找出您要取代的變數範圍，並將其複製到此（[！UICONTROL要尋找的變數]）欄位。 在欄位中，它出現時會有雙大括弧。 範例: <code>&#123;&#123;5.value&#125;&#125;</code>.</p> </td> 
+   <td> <p> 從情境的模組中找出您要取代的變數藥丸，並將其複製到此（[！UICONTROL要尋找的變數]）欄位。 在欄位中，它會顯示為雙大括弧。 範例: <code>&#123;&#123;5.value&#125;&#125;</code>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[！UICONTROL取代為]</p> </td> 
-   <td> <p>從情境的模組中，找出您要取代變數的變數範圍，並將其複製到此（[！UICONTROL要尋找的變數]）欄位。 在欄位中，它出現時會有雙大括弧。 範例: <code>&#123;&#123;5.value&#125;&#125;</code>.</p> </td> 
+   <td> <p>從情境的模組中，找出您要取代變數的變數藥丸，並將其複製到此（[！UICONTROL要尋找的變數]）欄位。 在欄位中，它會顯示為雙大括弧。 範例: <code>&#123;&#123;5.value&#125;&#125;</code>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[！UICONTROL模組]</p> </td> 
@@ -329,7 +333,7 @@ Workfront Fusion DevTool分為3個主要區段。 您可以在DevTool視窗的�
 
 #### [!UICONTROL 交換應用程式]
 
-以其他應用程式版本取代情境中選取的應用程式版本。
+以其他應用程式版本取代您情境中選取的應用程式版本。
 
 例如，這可用來將Gmail和電子郵件應用程式的模組升級至最新版本。
 
@@ -348,9 +352,9 @@ Workfront Fusion DevTool分為3個主要區段。 您可以在DevTool視窗的�
  </tbody> 
 </table>
 
-#### [!UICONTROL 基準64]
+#### [!UICONTROL 以64為底]
 
-可讓您將輸入的資料編碼為Base64或解碼Base64。 部分請求會編碼為Base64。 當您想要搜尋已編碼請求中的特定資料時，此工具會很有用。
+可讓您將輸入的資料編碼為Base64或解碼Base64。 部分請求會編碼為Base64。 當您想要搜尋編碼請求中的特定資料時，此工具會很有用。
 
 <table style="table-layout:auto">
  <col> 
@@ -362,7 +366,7 @@ Workfront Fusion DevTool分為3個主要區段。 您可以在DevTool視窗的�
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[！UICONTROL原始資料]</p> </td> 
-   <td> <p> 根據上述[！UICONTROL作業]欄位中選取的選項，輸入您要編碼至Base64的資料，或如果您要解碼至原始資料，則輸入Base64。</p> </td> 
+   <td> <p> 根據上面[！UICONTROL Operation]欄位中選取的選項，輸入您要編碼為Base64的資料，或如果您要解碼為原始資料，則輸入Base64。</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -386,7 +390,7 @@ Workfront Fusion DevTool分為3個主要區段。 您可以在DevTool視窗的�
 
 可讓您將對應來源從一個模組變更為另一個模組。
 
-您必須先將您要用作來源模組的模組新增至情境中的路由。
+您必須先將要作為來源模組的模組新增至情境中的路由。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -398,10 +402,10 @@ Workfront Fusion DevTool分為3個主要區段。 您可以在DevTool視窗的�
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[！UICONTROL目標模組]</p> </td> 
-   <td> <p>選取您要用作新對應來源的模組。</p> </td> 
+   <td> <p>選取要作為新對應來源的模組。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>要編輯的[！UICONTROL模組]</p> </td> 
+   <td role="rowheader"> <p>[！UICONTROL要編輯的模組]</p> </td> 
    <td> <p>如果您不想要變更整個案例中的對應，請選取您要變更其對應的模組。 </p> </td> 
   </tr> 
  </tbody> 
@@ -409,7 +413,7 @@ Workfront Fusion DevTool分為3個主要區段。 您可以在DevTool視窗的�
 
 #### [!UICONTROL 反白顯示應用程式]
 
-在您的案例中反白標示指定應用程式的模組。
+反白顯示情境中指定應用程式的模組。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -417,21 +421,21 @@ Workfront Fusion DevTool分為3個主要區段。 您可以在DevTool視窗的�
  <tbody> 
   <tr> 
    <td role="rowheader">[！UICONTROL要醒目提示的應用程式] </td> 
-   <td> <p> 選取您要在情境中醒目提示的應用程式。</p> </td> 
+   <td> <p> 選取您要在情境中反白顯示的應用程式。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[！UICONTROL版本] </p> </td> 
-   <td> <p>選取您要反白顯示的應用程式版本。</p> </td> 
+   <td> <p>選取要醒目提示的應用程式版本。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[！UICONTROL反白顯示色彩]</p> </td> 
-   <td> <p> 輸入您想用於反白顯示模組的顏色十六進位。</p> </td> 
+   <td> <p> 輸入要用於反白模組的顏色十六進位。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 #### [!UICONTROL 移轉GS]
 
-此工具專為升級而設計 [!DNL Google Sheets] （舊版）模組至最新 [!DNL Google Sheets] 版本。 它會在案例路由中的舊版模組之後新增模組版本。
+此工具專為升級而設計 [!DNL Google Sheets] （舊版）模組至最新 [!DNL Google Sheets] 版本。 它會在案例路由中的模組舊版之後新增新版本。
 
 此模組不需要您設定任何引數。
