@@ -2,76 +2,87 @@
 user-type: administrator
 product-area: system-administration;setup
 navigation-topic: start-with-workfront-administration
-title: 配置防火牆的允許清單
-description: 如果防火牆或郵件伺服器配置為僅允許訪問某些供應商，則必須將某些IP地址添加到允許清單中。 這會開啟您的環境與Adobe Workfront伺服器之間的通訊，並允許您的使用者從Workfront傳送訊息，以及搭配Active Directory或LDAP使用SSO。
+title: 設定防火牆的允許清單
+description: 如果您的防火牆或郵件伺服器設定為僅允許特定廠商存取，則必須將特定IP位址新增至其允許清單。 這樣會開啟您的環境與Adobe Workfront伺服器之間的通訊，並允許您的使用者從Workfront傳送訊息，以及透過Active Directory或LDAP使用SSO。
 author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 264eed40-6d90-498b-83cc-2500c8b19c84
-source-git-commit: 1bc7334423c567ef5f7fd9bcbc28de267e035c0a
+source-git-commit: d74b0aa22644b7c79d3c6c3c3bbd5e67efdff732
 workflow-type: tm+mt
-source-wordcount: '1496'
+source-wordcount: '1543'
 ht-degree: 13%
 
 ---
 
-# 配置防火牆的允許清單
+# 設定防火牆的允許清單
 
 >[!IMPORTANT]
 >
->本頁面上描述的程式僅適用於尚未上線至Admin Console的組織。 如果貴組織已上線至Adobe Admin Console，您必須透過Adobe Admin Console執行此動作。
+>此頁面中說明的程式僅適用於尚未加入Admin Console的組織。 如果您的組織已加入Adobe Admin Console，您必須透過Adobe Admin Console執行此動作。
 >
->若要在貴組織已上線至Adobe Admin Console時設定允許清單，請參閱 [允許Adobe應用程式和服務的網域](https://helpx.adobe.com/enterprise/kb/network-endpoints.html).
+>若要在貴組織已上線至Adobe Admin Console的情況下設定允許清單，請參閱 [Adobe應用程式和服務允許的網域](https://helpx.adobe.com/enterprise/kb/network-endpoints.html).
 >
->如需依貴組織是否已上線至Adobe Admin Console而有所不同的程式清單，請參閱 [平台管理差異(Adobe Workfront/Adobe業務平台)](../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
+>如需根據貴組織是否已加入Adobe Admin Console而有所差異的程式清單，請參閱 [平台型管理差異(Adobe Workfront/Adobe Business Platform)](../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
-如果防火牆或郵件伺服器配置為僅允許訪問某些供應商，則必須將某些IP地址添加到允許清單中。 這會開啟您的環境與Adobe Workfront伺服器之間的通訊，並允許下列程式：
+如果您的防火牆或郵件伺服器設定為僅允許特定廠商存取，則必須將特定IP位址新增至其允許清單。 這會在您的環境與Adobe Workfront伺服器之間開啟通訊，並啟用下列程式：
 
 * 從Workfront應用程式傳送訊息
 
-   >[!NOTE]
-   >
-   >如果貴組織的Workfront執行個體已透過Adobe IMS啟用，則無法使用此功能。 如需詳細資訊，請洽詢您的網路或IT管理員。
+  >[!NOTE]
+  >
+  >如果您組織的Workfront執行個體已啟用Adobe IMS，便無法使用此功能。 如需詳細資訊，請洽詢您的網路或IT管理員。
 
-* 在設定自訂檔案整合時使用檔案WebHook
+* 設定自訂檔案整合時使用檔案Webhook
 * 使用Workfront事件訂閱
 
-   如需詳細資訊，請參閱 [事件訂閱API](https://experience.workfront.com/s/article/Event-Subscription-API-2100945680).
+  如需詳細資訊，請參閱 [事件訂閱API](https://experience.workfront.com/s/article/Event-Subscription-API-2100945680).
 
-您還需要開啟某些埠，以便在傳送電子郵件時對其進行加密。
+您也需要開啟某些連線埠，才能在傳送電子郵件訊息時進行加密。
 
-## Workfront允許清單
+## 您可使用的Workfront允許清單
 
-如果貴組織有企業計畫，您也可以設定兩個Workfront允許清單：
+如果您的組織擁有企業計畫，您也可以設定兩個Workfront允許清單：
 
-* **電子郵件允許清單**:可讓您控制使用者可將資料儲存在Workfront中的電子郵件位置。 如需詳細資訊，請參閱 [設定您的電子郵件允許清單](../../administration-and-setup/get-started-wf-administration/configure-your-email-allowlist.md).
-* **IP允許清單**:將對Workfront的存取限制為您指定的45個IP位址或IP位址範圍，為Workfront應用程式提供額外的安全層。 如需詳細資訊，請參閱 [依IP位址限制Adobe Workfront的存取權](../../administration-and-setup/manage-workfront/security/restrict-access-workfront-ip-address.md).
+* **電子郵件允許清單**：可讓您控制使用者可以用電子郵件傳送儲存在Workfront中之資料的位置。 如需詳細資訊，請參閱 [設定您的電子郵件允許清單](../../administration-and-setup/get-started-wf-administration/configure-your-email-allowlist.md).
+* **IP允許清單**：限制只有45個您指定的IP位址或IP位址範圍可以存取Workfront，為Workfront應用程式提供額外的安全層。 如需詳細資訊，請參閱 [依IP位址限制對Adobe Workfront的存取](../../administration-and-setup/manage-workfront/security/restrict-access-workfront-ip-address.md).
+
+## 找到Workfront叢集
+
+您必須在防火牆上新增至允許清單的IP位址取決於執行生產環境的叢集。
+
+若要找出貴組織的叢集：
+
+1. 身為Workfront管理員，按一下 **主要功能表** 圖示 ![主要功能表](assets/main-menu-icon.png)，然後按一下 **設定**.
+1. 在左側導覽列中，按一下 **系統**，然後選取 **客戶資訊**.
+1. 找到 **叢集設定** 欄位。 此處列出您組織的叢集。
+
+   CL01是指Cluster 1，CL02是Cluster 2，依此類推。
+
+如需詳細資訊，請參閱區段 [檢視貴組織的叢集和Workfront計畫](../../administration-and-setup/get-started-wf-administration/firewall-overview.md#view-your-organizations-cluster-and-workfront-plan) 在文章中 [防火牆概述](../../administration-and-setup/get-started-wf-administration/firewall-overview.md).
 
 ## 要新增至允許清單的IP位址
 
-防火牆上您必須新增至允許清單的IP位址，視您的生產環境執行所在的叢集而定。 通過查看「設定」>「系統」>「自定義資訊」，可以查找此群集。 如需詳細資訊，請參閱 [配置基本資訊](../../administration-and-setup/get-started-wf-administration/configure-basic-info.md#configuring-basic-info) 在文章中 [配置系統的基本資訊](../../administration-and-setup/get-started-wf-administration/configure-basic-info.md).
-
 >[!IMPORTANT]
 >
->某些Workfront整合在啟用允許清單時無法運作，因為無法以靜態IP位址進行設定。 若要使用下列整合，您必須停用允許清單。
+>部分Workfront整合在啟用允許清單時無法運作，因為它們無法設定靜態IP位址。 若要使用下列整合，您必須停用允許清單。
 >
->* Workfront for G Suite
->* Workfront for Outlook
->* Workfront for Salesforce
+>* 適用於G Suite的Workfront
+>* 適用於Outlook的Workfront
+>* 適用於Salesforce的Workfront
 
-
-* [允許群集1、2、3、5、7、8和9的IP地址](#ip-addresses-to-allow-for-clusters-1-2-3-5-7-8-and-9)
-* [允許群集4的IP地址](#ip-addresses-to-allow-for-cluster-4)
-* [允許群集6的IP地址](#ip-addresses-to-allow-for-cluster-6)
-* [允許測試驅動器的IP地址](#IP%20Addre2)
+* [允許叢集1、2、3、5、7、8和9使用的IP位址](#ip-addresses-to-allow-for-clusters-1-2-3-5-7-8-and-9)
+* [允許叢集4使用的IP位址](#ip-addresses-to-allow-for-cluster-4)
+* [允許叢集6使用的IP位址](#ip-addresses-to-allow-for-cluster-6)
+* [允許測試磁碟機使用的IP位址](#IP%20Addre2)
 * [實作事件訂閱時允許的IP位址](#ip-addresses-to-allow-when-implementing-event-subscriptions)
-* [允許增強驗證的IP位址](#ip-addresses-to-allow-for-enhanced-authentication)
-* [要新增的IP位址以存取Workfront Fusion](#ip-addresses-to-add-for-accessing-workfront-fusion)
-* [要新增的IP位址，以使用Workfront for Jira](#ip-addresses-to-add-for-using-workfront-for-jira)
-* [要新增的IP位址，以使用Workfront Ascent](#ip-addresses-to-add-for-using-workfront-ascent)
-* [要為所有叢集新增的URL Workfront](#urls-to-add-for-all-clusters-workfront)
+* [允許增強型驗證的IP位址](#ip-addresses-to-allow-for-enhanced-authentication)
+* [要新增以存取Workfront Fusion的IP位址](#ip-addresses-to-add-for-accessing-workfront-fusion)
+* [要使用Workfront for Jira新增的IP位址](#ip-addresses-to-add-for-using-workfront-for-jira)
+* [要使用Workfront Ascent新增的IP位址](#ip-addresses-to-add-for-using-workfront-ascent)
+* [Workfront要為所有叢集新增的URL](#urls-to-add-for-all-clusters-workfront)
 
-### 允許群集1、2、3、5、7、8和9的IP地址 {#ip-addresses-to-allow-for-clusters-1-2-3-5-7-8-and-9}
+### 允許叢集1、2、3、5、7、8和9使用的IP位址 {#ip-addresses-to-allow-for-clusters-1-2-3-5-7-8-and-9}
 
 如果您的生產環境位於叢集1、2、3、5或7，則必須允許下列IP位址。
 
@@ -80,7 +91,7 @@ ht-degree: 13%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">對於SSO、文檔Webhook或其他功能</td> 
+   <td role="rowheader">針對SSO、檔案Webhook或其他功能</td> 
    <td> 
     <ul> 
      <li>35.160.0.242</li> 
@@ -96,7 +107,7 @@ ht-degree: 13%
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">從Workfront應用程式接收電子郵件的方式</td> 
+   <td role="rowheader">接收來自Workfront應用程式的電子郵件</td> 
    <td> 
     <ul> 
      <li>54.240.60.174</li> 
@@ -107,7 +118,7 @@ ht-degree: 13%
      <li>52.14.70.114</li> 
      <li>52.15.230.220</li> 
      <li>54.71.252.65</li> 
-    </ul> <p>如需下列IP位址的相關資訊，請參閱 <a href="../../product-announcements/announcements/announcement-archive/new-email-ip-21.1.md" class="MCXref xref">Adobe Workfront 21.1版新增電子郵件IP位址</a></p> 
+    </ul> <p>如需有關下列IP位址的資訊，請參閱 <a href="../../product-announcements/announcements/announcement-archive/new-email-ip-21.1.md" class="MCXref xref">Adobe Workfront 21.1版本電子郵件的新IP位址</a></p> 
     <ul> 
      <li>23.251.237.107</li> 
      <li>23.251.237.108</li> 
@@ -118,9 +129,9 @@ ht-degree: 13%
  </tbody> 
 </table>
 
-### 允許群集4的IP地址 {#ip-addresses-to-allow-for-cluster-4}
+### 允許叢集4使用的IP位址 {#ip-addresses-to-allow-for-cluster-4}
 
-如果您的生產環境位於叢集4，請新增下列IP位址以進行SSO、記錄網頁連結整合，以及從Workfront應用程式接收電子郵件：
+如果您的生產環境在叢集4，請新增以下IP位址用於SSO、記錄webhook整合，並接收來自Workfront應用程式的電子郵件：
 
 * 52.31.132.175
 * 52.19.188.226
@@ -141,21 +152,21 @@ ht-degree: 13%
 * 54.220.93.204
 * 34.254.76.122
 
-如需下列IP位址的相關資訊，請參閱 [Adobe Workfront 21.1版新增電子郵件IP位址](../../product-announcements/announcements/announcement-archive/new-email-ip-21.1.md)
+如需有關下列IP位址的資訊，請參閱 [Adobe Workfront 21.1版本電子郵件的新IP位址](../../product-announcements/announcements/announcement-archive/new-email-ip-21.1.md)
 
 * 23.251.239.98
 * 23.251.239.99
 
-### 允許群集6的IP地址 {#ip-addresses-to-allow-for-cluster-6}
+### 允許叢集6使用的IP位址 {#ip-addresses-to-allow-for-cluster-6}
 
-如果您的生產環境位於叢集6，請新增下列IP位址。
+如果您的生產環境位於叢集6，請新增以下IP位址。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">從Workfront應用程式接收電子郵件的方式</td> 
+   <td role="rowheader">接收來自Workfront應用程式的電子郵件</td> 
    <td> 
     <ul> 
      <li>34.94.227.64</li> 
@@ -185,14 +196,14 @@ ht-degree: 13%
  </tbody> 
 </table>
 
-### 允許測試驅動器的IP地址
+### 允許測試磁碟機使用的IP位址
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">使用測試驅動器時從Workfront應用程式接收電子郵件的方式</td> 
+   <td role="rowheader">使用試用方案時從Workfront應用程式接收電子郵件的方式</td> 
    <td> 
     <ul> 
      <li>69.42.126.188 </li> 
@@ -201,10 +212,10 @@ ht-degree: 13%
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">用於使用測試驅動器時的SSO和檔案網頁連結整合</td> 
+   <td role="rowheader">若為SSO和檔案webhook整合，則使用測試驅動</td> 
    <td> 
     <ul> 
-     <li> <p>69.42.126.188:</p> <p>此位址也必須新增至您的允許清單，您的使用者才能收到Workfront的電子郵件。</p> </li> 
+     <li> <p>69.42.126.188:</p> <p>此位址也必須新增至您的允許清單，使用者才能收到來自Workfront的電子郵件。</p> </li> 
      <li>66.119.37.186</li> 
      <li>66.119.37.167</li> 
      <li>54.244.142.219</li> 
@@ -217,14 +228,14 @@ ht-degree: 13%
 
 ### 實作事件訂閱時允許的IP位址  {#ip-addresses-to-allow-when-implementing-event-subscriptions}
 
-針對所有環境，新增下列IP位址以從Workfront事件訂閱接收裝載。
+針對所有環境，新增下列IP位址，以接收來自Workfront事件訂閱的負載。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"> 歐洲客戶</td> 
+   <td role="rowheader"> 適用於歐洲的客戶</td> 
    <td> 
     <ul> 
      <li>52.30.133.50</li> 
@@ -236,7 +247,7 @@ ht-degree: 13%
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">適用於歐洲以外地區的客戶</td> 
+   <td role="rowheader">適用於歐洲以外地點的客戶</td> 
    <td> 
     <ul> 
      <li>54.244.142.219</li> 
@@ -250,16 +261,16 @@ ht-degree: 13%
  </tbody> 
 </table>
 
-### 允許增強驗證的IP位址 {#ip-addresses-to-allow-for-enhanced-authentication}
+### 允許增強型驗證的IP位址 {#ip-addresses-to-allow-for-enhanced-authentication}
 
-新增下列IP位址，以使用增強的驗證來預覽或生產。
+新增以下IP位址，以使用增強型驗證進行預覽或生產。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">如果您的環境位於群集1、2、3、5、7、8或9上</td> 
+   <td role="rowheader">如果您的環境位於叢集1、2、3、5、7、8或9</td> 
    <td> 
     <ul> 
      <li>35.167.74.121</li> 
@@ -284,7 +295,7 @@ ht-degree: 13%
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">如果您的環境位於群集4上</td> 
+   <td role="rowheader">如果您的環境位於叢集4</td> 
    <td> 
     <ul> 
      <li>52.28.56.226</li> 
@@ -314,16 +325,16 @@ ht-degree: 13%
  </tbody> 
 </table>
 
-### 要新增的IP位址以存取Workfront Fusion  {#ip-addresses-to-add-for-accessing-workfront-fusion}
+### 要新增以存取Workfront Fusion的IP位址  {#ip-addresses-to-add-for-accessing-workfront-fusion}
 
-將下列IP位址新增至您的允許清單，讓Workfront Fusion可存取您的系統。
+將下列IP位址新增至您的允許清單，以啟用Workfront Fusion存取您的系統。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe WorkfrontEU資料中心</td> 
+   <td role="rowheader">Adobe Workfront EU資料中心</td> 
    <td> 
     <ul> 
      <li>52.30.133.50</li> 
@@ -343,14 +354,14 @@ ht-degree: 13%
  </tbody> 
 </table>
 
-此外，如果貴組織使用傳出網路篩選，請將下列網域新增至允許清單，讓您的系統可存取Workfront Fusion。
+此外，如果您的組織使用傳出網路篩選，請將以下網域新增到您的允許清單，讓您的系統能夠存取Workfront Fusion。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe WorkfrontEU資料中心</td> 
+   <td role="rowheader">Adobe Workfront EU資料中心</td> 
    <td> <p> hook.app-eu.workfrontfusion.com </p> </td> 
   </tr> 
   <tr> 
@@ -362,20 +373,20 @@ ht-degree: 13%
 
 >[!NOTE]
 >
->傳出網路篩選並不常見。 請洽詢您的網路管理員，查看您是否需要更新允許清單以容納。
+>傳出網路篩選並不常見。 請洽詢您的網路管理員，以瞭解是否需要更新允許清單以符合您的要求。
 
-### 要新增的IP位址，以使用Workfront for Jira {#ip-addresses-to-add-for-using-workfront-for-jira}
+### 要使用Workfront for Jira新增的IP位址 {#ip-addresses-to-add-for-using-workfront-for-jira}
 
-將下列IP位址新增至您的允許清單，以使用Workfront進行Jira整合。
+將下列IP位址新增至您的允許清單，以使用Workfront for Jira整合。
 
-jira.workfront.com域也必須可從公司伺服器訪問。 此網域為必要網域，因為它是Workfront和Jira之間的中間件。
+jira.workfront.com網域也必須可從您的公司伺服器存取。 此網域是必要的，因為它用作Workfront和Jira之間的中介軟體。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"> 歐洲客戶</td> 
+   <td role="rowheader"> 適用於歐洲的客戶</td> 
    <td> 
     <ul> 
      <li>52.30.133.50</li> 
@@ -393,7 +404,7 @@ jira.workfront.com域也必須可從公司伺服器訪問。 此網域為必要�
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">適用於歐洲以外地區的客戶</td> 
+   <td role="rowheader">適用於歐洲以外地點的客戶</td> 
    <td> 
     <ul> 
      <li>54.244.142.219</li> 
@@ -413,14 +424,14 @@ jira.workfront.com域也必須可從公司伺服器訪問。 此網域為必要�
  </tbody> 
 </table>
 
-### 要新增的IP位址，以使用Workfront Ascent {#ip-addresses-to-add-for-using-workfront-ascent}
+### 要使用Workfront Ascent新增的IP位址 {#ip-addresses-to-add-for-using-workfront-ascent}
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">透過Workfront Ascent存取Workfront訓練資源</td> 
+   <td role="rowheader">透過Workfront Ascent存取Workfront培訓資源</td> 
    <td> 
     <ul> 
      <li>18.223.140.34</li> 
@@ -429,7 +440,7 @@ jira.workfront.com域也必須可從公司伺服器訪問。 此網域為必要�
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">從Workfront Ascent接收電子郵件通知</td> 
+   <td role="rowheader">若要從Workfront Ascent接收電子郵件通知</td> 
    <td> 
     <ul> 
      <li>23.251.227.75</li> 
@@ -445,13 +456,13 @@ jira.workfront.com域也必須可從公司伺服器訪問。 此網域為必要�
  </tbody> 
 </table>
 
-## 要新增的網域以存取Workfront
+## 要新增以存取Workfront的網域
 
-如果您的組織使用傳出網路篩選，請將下列網域新增至您的允許清單，讓您的系統可存取Workfront。
+如果您的組織使用傳出網路篩選，請將以下網域新增到您的允許清單，讓您的系統能夠存取Workfront。
 
 >[!NOTE]
 >
->傳出網路篩選並不常見。 請洽詢您的網路管理員，查看您是否需要更新允許清單以容納。
+>傳出網路篩選並不常見。 請洽詢您的網路管理員，以瞭解是否需要更新允許清單以符合您的要求。
 
 * `<your domain>`.my.workfront.com
 * `<your domain>`.preview.workfront.com
@@ -465,14 +476,14 @@ jira.workfront.com域也必須可從公司伺服器訪問。 此網域為必要�
 * https://app.pendo.io/
 * https://cdn.pendo.io/
 
-## 要為所有叢集新增的URL Workfront {#urls-to-add-for-all-clusters-workfront}
+## Workfront要為所有叢集新增的URL {#urls-to-add-for-all-clusters-workfront}
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">允許在您的Workfront環境中顯示說明內容</td> 
+   <td role="rowheader">若要允許說明內容顯示在您的Workfront環境中</td> 
    <td> 
     <ul> 
      <li>https://app.pendo.io/</li> 
@@ -480,32 +491,32 @@ jira.workfront.com域也必須可從公司伺服器訪問。 此網域為必要�
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">若要允許Workfront Proof在任何叢集上存取Workfront，請將這些項目新增至所有環境</td> 
+   <td role="rowheader">若要允許Workfront校訂存取任何叢集上的Workfront，請將這些專案新增至所有環境</td> 
    <td> 
     <ul> 
-     <li>*.workfront.com — 需要在Workfront中檢視校樣</li> 
-     <li>*.proofhq.com — 需要在Workfront校樣中檢視校樣</li> 
-     <li>*.proofhq.eu — 在Workfront校樣中檢視校樣的必要項目</li> 
-    </ul> <p><b>附註</b>:  <p>我們不支援將IP位址新增至您的Workfront校樣允許清單。 在Workfront移至AWS後，變數變得動態。 反之，我們建議您僅允許Workfront校樣網域。</p> <p>如果將這些網域新增至您的允許清單時發生問題，而您需要的是IP位址，請聯絡Workfront客戶支援。</p> </p> </td> 
+     <li>*.workfront.com — 需在Workfront中檢視校樣</li> 
+     <li>*.proofhq.com — 需要在Workfront Proof中檢視校樣</li> 
+     <li>*.proofhq.eu — 需要在Workfront Proof中檢視校樣</li> 
+    </ul> <p><b>附註</b>:  <p>我們不支援將IP位址新增至您的Workfront Proof允許清單。 Workfront移至AWS後，這些量度為動態變化。 反之，我們建議您僅允許Workfront Proof網域。</p> <p>如果將這些網域新增至您的允許清單時發生問題，而您需要IP位址，請聯絡Workfront客戶支援。</p> </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## 要新增的IP位址和URL以存取Workfront Proof
+## 要新增用於存取Workfront Proof的IP位址和URL
 
 您必須將下列IP位址新增至允許清單，才能使用各種函式。
 
-* [用於回呼和網頁擷取校樣](#for-callbacks-and-webcapture-proofs)
-* [對於傳出電子郵件](#for-outgoing-email)
+* [針對回呼和Webcapture校樣](#for-callbacks-and-webcapture-proofs)
+* [用於寄出電子郵件](#for-outgoing-email)
 
-### 用於回呼和網頁擷取校樣 {#for-callbacks-and-webcapture-proofs}
+### 針對回呼和Webcapture校樣 {#for-callbacks-and-webcapture-proofs}
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">產品 — 美國（叢集1、2、3、5和7）</td> 
+   <td role="rowheader">Prod-US （叢集1、2、3、5和7）</td> 
    <td> 
     <ul> 
      <li>34.213.36.118</li> 
@@ -530,7 +541,7 @@ jira.workfront.com域也必須可從公司伺服器訪問。 此網域為必要�
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Prod-EU（群集4）</td> 
+   <td role="rowheader">Prod-EU （叢集4）</td> 
    <td> 
     <ul> 
      <li>34.246.27.40</li> 
@@ -546,19 +557,19 @@ jira.workfront.com域也必須可從公司伺服器訪問。 此網域為必要�
      <li>52.30.133.50</li> 
      <li>54.220.93.204</li> 
      <li>34.254.76.122</li> 
-    </ul> <p><b>注意</b>:不再支援DNS伺服器選項。</p> </td> 
+    </ul> <p><b>注意</b>：不再支援DNS伺服器選項。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-### 對於傳出電子郵件 {#for-outgoing-email}
+### 用於寄出電子郵件 {#for-outgoing-email}
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"> <p>產品 — 美國（叢集1、2、3、5和7）</p> </td> 
+   <td role="rowheader"> <p>Prod-US （叢集1、2、3、5和7）</p> </td> 
    <td> 
     <ul> 
      <li> 23.251.237.106</li> 
@@ -569,7 +580,7 @@ jira.workfront.com域也必須可從公司伺服器訪問。 此網域為必要�
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Prod-EU（群集4）</td> 
+   <td role="rowheader">Prod-EU （叢集4）</td> 
    <td> 
     <ul> 
      <li>23.251.239.98</li> 
@@ -580,18 +591,18 @@ jira.workfront.com域也必須可從公司伺服器訪問。 此網域為必要�
  </tbody> 
 </table>
 
-## 要開啟的埠，以獲得最佳Workfront校樣效能
+## 開啟連線埠以獲得最佳的Workfront校訂效能
 
-如果您遇到校樣載入問題或無法在Workfront Proof中運作的問題，請開啟下列連接埠：
+如果您在載入校訂或無法在Workfront Proof中運作時遇到問題，請開啟以下連線埠：
 
 * 5671
 * 5672
 * 15671
 
-## 要開啟的埠，用於加密電子郵件
+## 開啟加密電子郵件的連線埠
 
-來自Workfront應用程式的電子郵件會使用連接埠465和587進行加密。 如果您的郵件伺服器不支援加密的電子郵件，則會使用連接埠25來傳送未加密的電子郵件。
+Workfront應用程式的電子郵件會使用連線埠465和587加密傳送。 如果您的郵件伺服器不支援加密的電子郵件，則會使用連線埠25以未加密的方式傳送電子郵件。
 
-## 來自Workfront支援的電子郵件通知
+## Workfront支援的電子郵件通知
 
-如果您沒有收到Workfront支援的電子郵件，請確定您新增所需的Salesforce IP位址和網域。 如需詳細資訊，請參閱Salesforce說明文章，了解要允許的Salesforce IP位址和網域。
+如果您沒有收到來自Workfront支援的電子郵件，請務必新增所需的Salesforce IP位址和網域。 如需詳細資訊，請參閱有關Salesforce IP位址和要允許的網域的Salesforce說明文章。
