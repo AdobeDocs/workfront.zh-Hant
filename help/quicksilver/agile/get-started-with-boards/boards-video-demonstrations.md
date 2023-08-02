@@ -7,9 +7,9 @@ description: 這些影片會向您介紹Adobe Workfront中可用的各種版面�
 author: Lisa
 feature: Agile
 exl-id: 54a5fe37-7a0a-45b1-a0bb-c5e345d3f34d
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+source-git-commit: 1f4975a883206126fee7536cb6abb9d32b7ff1a7
 workflow-type: tm+mt
-source-wordcount: '309'
+source-wordcount: '347'
 ht-degree: 1%
 
 ---
@@ -31,6 +31,12 @@ ht-degree: 1%
 看板可包含待處理專案或輸入欄，該欄已設定篩選器，以將來自Workfront的任務和問題帶入看板。
 
 [觀看看板的影片示範。](https://video.tv.adobe.com/v/3416383/){target=_blank}
+
+### 動態展示板
+
+動態展示板可讓您根據Workfront專案，自動將卡片填入展示板。 使用篩選器時，卡片會根據其狀態新增到欄。
+
+[觀看動態展示板的影片示範。](https://video.tv.adobe.com/v/3422404/){target=_blank}
 
 ### 行動展示板
 
