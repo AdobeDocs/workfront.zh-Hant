@@ -1,7 +1,7 @@
 ---
-source-git-commit: 6e6cc1db8f89b76d9903905e6ee4cf9014727ba1
+source-git-commit: 070bc906d7ca0729697cf9def08416b00e691fc8
 workflow-type: tm+mt
-source-wordcount: '1538'
+source-wordcount: '1603'
 ht-degree: 0%
 
 ---
@@ -11,13 +11,21 @@ ht-degree: 0%
 
 <!-- General -->
 
-## 醒目提示預覽 {#highlighted-preview}
+## 醒目提示的預覽 {#highlighted-preview}
 
-<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它僅適用於「預覽Sandbox」環境。</span>
+<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它僅在預覽Sandbox環境中可用。</span>
 
-## 全文以醒目提示預覽 {#highlighted-preview-article-level}
+## 全文文章的醒目提示預覽 {#highlighted-preview-article-level}
 
-<span class="preview">本頁資訊說明尚未普遍提供的功能。 它僅適用於「預覽Sandbox」環境。</span>
+<span class="preview">本頁資訊所提及的功能尚未普遍提供。 它僅在預覽Sandbox環境中可用。</span>
+
+## 2023年第4季預覽與快速發行 {#preview-and-fast-release}
+
+<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它僅適用於所有客戶的預覽環境，或適用於啟用快速發行的客戶的生產環境。</span>
+
+<span class="preview">如需快速發行版本的相關資訊，請參閱 [啟用或停用組織的快速發行](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
+
+<span class="preview">如需目前版本的相關資訊，請參閱 [2023年第四季版本總覽](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md).</span>
 
 ## 不適用於AEC/殼層的導覽功能的重要注意事項 {#important-not-on-aec}
 
@@ -31,24 +39,24 @@ ht-degree: 0%
 
 1. 按一下 **[!UICONTROL 主要功能表]** 圖示 ![主要功能表](assets/main-menu-icon.png) 在Adobe Workfront的右上角，或（如果有的話）按一下 **[!UICONTROL 主要功能表]** 圖示 ![主要功能表](assets/main-menu-icon-left-nav.png) 左上角。
 
-## 步驟1 — 按一下[Main Menu]，然後按一下 —  {#step1-click-mm-then-click}
+## 步驟1 — 按一下主要功能表，然後按一下 —  {#step1-click-mm-then-click}
 
-1. 按一下 **[!UICONTROL 主要功能表]** 圖示 ![主要功能表](assets/main-menu-icon.png) 在Adobe Workfront的右上角，或（如果有的話）按一下 **[!UICONTROL 主要功能表]** 圖示 ![主要功能表](assets/main-menu-icon-left-nav.png) 左上角，然後按一下
+1. 按一下 **[!UICONTROL 主要功能表]** 圖示 ![主要功能表](assets/main-menu-icon.png) 在Adobe Workfront的右上角，或（如果有的話）按一下 **[!UICONTROL 主要功能表]** 圖示 ![主要功能表](assets/main-menu-icon-left-nav.png) 然後按一下「 」
 
 ## 步驟1 — 按一下您的個人資料圖片 —  {#step1-click-profile-pic}
 
-1. 按一下 **[!UICONTROL 主要功能表]** 圖示 ![主要功能表](assets/main-menu-icon.png) 在Adobe Workfront的右上角，然後按一下個人資料圖片旁邊的使用者名稱。 或者（如果有的話），按一下頂端導覽區中的個人資料圖片，然後按一下 **[!UICONTROL Workfront設定檔]**.
+1. 按一下 **[!UICONTROL 主要功能表]** 圖示 ![主要功能表](assets/main-menu-icon.png) 在Adobe Workfront的右上角，然後按一下個人資料圖片旁的使用者名稱。 或者（如果有的話），按一下頂端導覽區域中您的個人資料圖片，然後按一下 **[!UICONTROL Workfront設定檔]**.
 
 <!-- Admin and Setup -->
 
 ## 步驟1 — 開始設定 {#step-1-to-setup}
 
-1. 按一下 **[!UICONTROL 主要功能表]** 圖示 ![主要功能表](assets/main-menu-icon.png) 在Adobe Workfront的右上角，或（如果有的話）按一下 **[!UICONTROL 主要功能表]** 圖示 ![主要功能表](assets/main-menu-icon-left-nav.png) 左上角，然後按一下 **[!UICONTROL 設定]** ![設定圖示](assets/gear-icon-setup.png).
+1. 按一下 **[!UICONTROL 主要功能表]** 圖示 ![主要功能表](assets/main-menu-icon.png) 在Adobe Workfront的右上角，或（如果有的話）按一下 **[!UICONTROL 主要功能表]** 圖示 ![主要功能表](assets/main-menu-icon-left-nav.png) 然後按一下「 」 **[!UICONTROL 設定]** ![「設定」圖示](assets/gear-icon-setup.png).
 
 
 ## 將右側群組與團隊建立關聯 {#right-group-team}
 
-您可以將滑鼠懸停在正確的群組上，並按一下資訊圖示，確定您要將正確的群組與團隊建立關聯 <img src="assets/info-icon.png"> 它旁邊出現。 這會顯示列出群組相關資訊的工具提示，例如群組上方的階層及其管理員名稱。
+您可以將滑鼠懸停在正確的群組上，並按一下資訊圖示，確定您正在將正確的群組與團隊建立關聯 <img src="assets/info-icon.png"> 它旁邊會出現。 這會顯示工具提示，列出群組的相關資訊，例如群組上方的群組階層及其管理員名稱。
 
 
 ## Admin Console入門的重要注意事項 {#important-admin-console-onboard}
@@ -57,18 +65,18 @@ ht-degree: 0%
 >
 >本頁所述的程式僅適用於尚未加入Adobe Admin Console的組織。
 >
->如果您的組織已上線至Adobe Admin Console，請參閱 [平台式管理差異(Adobe Workfront/Adobe商務平台)](/help/quicksilver/administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
+>如果您的組織已上線Adobe Admin Console，請參閱 [平台型管理差異(Adobe Workfront/Adobe Business Platform)](/help/quicksilver/administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
 ## 步驟1 — 接近使用者 {#step-1-to-users}
 
-1. 按一下 **[!UICONTROL 主要功能表]** 圖示 ![主要功能表](assets/main-menu-icon.png) 在Adobe Workfront的右上角，或（如果有的話）按一下 **[!UICONTROL 主要功能表]** 圖示 ![主要功能表](assets/main-menu-icon-left-nav.png) 左上角，然後按一下 **[!UICONTROL 使用者]** ![](assets/users-icon-in-main-menu.png).
+1. 按一下 **[!UICONTROL 主要功能表]** 圖示 ![主要功能表](assets/main-menu-icon.png) 在Adobe Workfront的右上角，或（如果有的話）按一下 **[!UICONTROL 主要功能表]** 圖示 ![主要功能表](assets/main-menu-icon-left-nav.png) 然後按一下「 」 **[!UICONTROL 使用者]** ![](assets/users-icon-in-main-menu.png).
 
 
 <!-- Agile -->
 
 ## 步驟1 — 前往展示板 —  {#step1-to-boards}
 
-1. 按一下 **[!UICONTROL 主要功能表]** 圖示 ![主要功能表](assets/main-menu-icon.png) 在Adobe Workfront的右上角，或（如果有的話）按一下 **[!UICONTROL 主要功能表]** 圖示 ![主要功能表](assets/main-menu-icon-left-nav.png) 左上角，然後按一下 **[!UICONTROL 展示板]**.
+1. 按一下 **[!UICONTROL 主要功能表]** 圖示 ![主要功能表](assets/main-menu-icon.png) 在Adobe Workfront的右上角，或（如果有的話）按一下 **[!UICONTROL 主要功能表]** 圖示 ![主要功能表](assets/main-menu-icon-left-nav.png) 然後按一下「 」 **[!UICONTROL 展示板]**.
 
 <!-- Calendars -->
 
@@ -76,9 +84,9 @@ ht-degree: 0%
 
 ## 設定連結的資料夾 {#setup-linked-folder}
 
-您可以在Workfront專案中允許使用者建立連結至Experience Manager的資料夾。 連結資料夾時，新增至資料夾的任何資產都會自動顯示在Workfront和Experience Manger中。 當資產首次新增至Workfront中的連結資料夾時，該資產的中繼資料會推送至Experience Manager Assets。
+您可以在Workfront專案中允許使用者建立連結至Experience Manager的資料夾。 連結資料夾時，新增至資料夾的任何資產都會自動顯示在Workfront和Experience Manger中。 當資產首次新增至Workfront中的連結資料夾時，該資產的中繼資料會被推送至Experience Manager Assets。
 
-在下列步驟中，您會指出要在何處建立連結的資料夾。 每個整合只能有一個位置用於所有連結的資料夾。
+在下列步驟中，您會指示您要在哪個位置建立連結資料夾。 每個整合只能有一個位置用於所有連結的資料夾。
 
 若要設定連結的資料夾：
 
@@ -95,19 +103,19 @@ ht-degree: 0%
 
 <!-- Home -->
 
-## 步驟1 — 首頁 —  {#step1-to-home}
+## 步驟1 — 前往首頁 —  {#step1-to-home}
 
-1. 按一下 **[!UICONTROL 主要功能表]** 圖示 ![主要功能表](assets/main-menu-icon.png) 在Adobe Workfront的右上角，或（如果有的話）按一下 **[!UICONTROL 主要功能表]** 圖示 ![主要功能表](assets/main-menu-icon-left-nav.png) 左上角，然後按一下 **[!UICONTROL 首頁]**.
+1. 按一下 **[!UICONTROL 主要功能表]** 圖示 ![主要功能表](assets/main-menu-icon.png) 在Adobe Workfront的右上角，或（如果有的話）按一下 **[!UICONTROL 主要功能表]** 圖示 ![主要功能表](assets/main-menu-icon-left-nav.png) 然後按一下「 」 **[!UICONTROL 首頁]**.
 
 ## 按一下「首頁」圖示 {#click-home}
 
 1. 按一下 [!UICONTROL 首頁] 圖示 ![首頁圖示](assets/home-icon-30x29.png) Adobe Workfront左上角。
 
 >[!NOTE]
->您的Workfront管理員可能會對 [!UICONTROL 首頁] 圖示中的專案：
+>您的Workfront管理員可能會對 [!UICONTROL 首頁] 圖示在您的環境中：
 >
->* 以自訂的影像取代，以說明您的組織。 在此情況下，圖示看起來將會與本文中所顯示的有所不同。
->* 以其他頁面取代連結至該頁面的頁面。 在此情況下，請按一下 **[!UICONTROL 主要功能表]** ![主要功能表](assets/main-menu-icon.png) 在頁面的右上角，或（如果有的話）按一下 **[!UICONTROL 主要功能表]** 圖示 ![主要功能表](assets/main-menu-icon-left-nav.png) 左上角，然後按一下 **[!UICONTROL 首頁]**.
+>* 以自訂的影像取代，以說明您的組織。 在此情況下，圖示看起來將會與本文中所顯示的不同。
+>* 使用其他頁面取代連結至該頁面的頁面。 在此情況下，請按一下 **[!UICONTROL 主要功能表]** ![主要功能表](assets/main-menu-icon.png) 在頁面的右上角，或者（如果有的話），按一下 **[!UICONTROL 主要功能表]** 圖示 ![主要功能表](assets/main-menu-icon-left-nav.png) 然後按一下「 」 **[!UICONTROL 首頁]**.
 >
 
 <!-- Integrations -->
@@ -115,11 +123,11 @@ ht-degree: 0%
 ## 必要條件 {#cc-install-prereq}
 
 您必須為您使用的Adobe Creative Cloud應用程式安裝正確的外掛程式：
-* 如需Photoshop的相關資訊，請參閱 [安裝適用於Photoshop的Adobe Workfront](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install-ps.md)
+* 若為Photoshop，請參閱 [安裝適用於Photoshop的Adobe Workfront](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install-ps.md)
 * 若為XD，請參閱 [安裝適用於XD的Adobe Workfront](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-xd-install.md)
-* 如需InDesign、Illustrator、Premiere Pro和After Effects的相關資訊，請參閱 [安裝Adobe Workfront的設計和影片](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-install-cc.md)
+* 如需InDesign、Illustrator、Premiere Pro和After Effects的相關資訊，請參閱 [安裝Adobe Workfront以進行設計和製作影片](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-install-cc.md)
 
-## CC Applications清單 {#cc-app-list}
+## CC應用程式清單 {#cc-app-list}
 
 * Photoshop
 * XD
@@ -135,7 +143,7 @@ ht-degree: 0%
 * Premiere Pro
 * After Effects
 
-## 調整自動化校樣設定 {#adjust-proof-settings}
+## 調整自動校樣設定 {#adjust-proof-settings}
 
 1. （可選）調整自動校樣工作流程設定
 
@@ -163,7 +171,7 @@ ht-degree: 0%
          <td>
       <ol>
 
-   <li>在「新增收件者」方塊中，開始輸入使用者名稱。
+   <li>在「新增收件者」方塊中，開始輸入使用者的名稱。
 
    <li>指定校訂角色。
 
@@ -193,7 +201,7 @@ ht-degree: 0%
          <td>
       <ol>
 
-   <li>啟用核取方塊，以便在建立校訂時通知使用者。
+   <li>啟用核取方塊以在建立校訂時通知使用者。
       </li>
       </ol>
          </td>
@@ -234,7 +242,7 @@ ht-degree: 0%
 
 ## 步驟1 — 前往校訂 —  {#step1-to-proofing}
 
-1. 在Workfront中，按一下 **[!UICONTROL 主要功能表]** 圖示 ![主要功能表](assets/main-menu-icon.png)，或（如果有的話），按一下 **[!UICONTROL 主要功能表]** 圖示左上角 ![主要功能表](assets/main-menu-icon-left-nav.png)，然後按一下 **[!UICONTROL 校訂]** 以存取Workfront Proof。
+1. 在Workfront中，按一下 **[!UICONTROL 主要功能表]** 圖示 ![主要功能表](assets/main-menu-icon.png)，或（若有），按一下 **[!UICONTROL 主要功能表]** 圖示左上角 ![主要功能表](assets/main-menu-icon-left-nav.png)，然後按一下 **[!UICONTROL 校訂]** 以存取Workfront Proof。
 
 ## 最新DPV版本 {#latest-version}
 
@@ -258,17 +266,17 @@ ht-degree: 0%
 
 ## 步驟1 — 加入團隊 —  {#step1-to-team}
 
-1. 按一下 **[!UICONTROL 主要功能表]** 圖示 ![主要功能表](assets/main-menu-icon.png) 在Adobe Workfront的右上角，或（如果有的話）按一下 **[!UICONTROL 主要功能表]** 圖示 ![主要功能表](assets/main-menu-icon-left-nav.png) 左上角，然後按一下 **[!UICONTROL 團隊]**.
+1. 按一下 **[!UICONTROL 主要功能表]** 圖示 ![主要功能表](assets/main-menu-icon.png) 在Adobe Workfront的右上角，或（如果有的話）按一下 **[!UICONTROL 主要功能表]** 圖示 ![主要功能表](assets/main-menu-icon-left-nav.png) 然後按一下「 」 **[!UICONTROL 團隊]**.
 
 ## 一個或多個狀態的「完成」按鈕 {#configure-done-button}
 
-您可以使用「完成」按鈕變更套用到工作專案的狀態。 您也可以設定多個狀態，並允許使用者選擇適當的狀態。
+您可以使用「完成」按鈕變更將哪個狀態套用到工作專案。 您也可以設定多個狀態，並允許使用者選擇適當的狀態。
 
-1. 按一下 **[!UICONTROL 主要功能表]** 圖示 ![主要功能表](assets/main-menu-icon.png) 在Adobe Workfront的右上角，或（如果有的話）按一下 **[!UICONTROL 主要功能表]** 圖示 ![主要功能表](assets/main-menu-icon-left-nav.png) 左上角，然後按一下 **[!UICONTROL 團隊]**.
+1. 按一下 **[!UICONTROL 主要功能表]** 圖示 ![主要功能表](assets/main-menu-icon.png) 在Adobe Workfront的右上角，或（如果有的話）按一下 **[!UICONTROL 主要功能表]** 圖示 ![主要功能表](assets/main-menu-icon-left-nav.png) 然後按一下「 」 **[!UICONTROL 團隊]**.
 
-1. 按一下 **[!UICONTROL 切換群組]** 圖示，然後從下拉式選單中選取新專案團隊，或在搜尋列中搜尋專案團隊。
+1. 按一下 **[!UICONTROL 切換群組]** 圖示，然後從下拉式選單中選取新專案團隊或在搜尋列中搜尋專案團隊。
 1. 按一下 **[!UICONTROL 更多]** 功能表，然後按一下 **[!UICONTROL 編輯]**.
-1. 尋找 **[!UICONTROL 完成按鈕]** 底部的 **[!UICONTROL 團隊設定]** 頁面。
+1. 尋找 **[!UICONTROL 完成按鈕]** 底部區段 **[!UICONTROL 團隊設定]** 頁面。
 
 1. 為每個工作專案型別選取一個狀態或多個狀態。
 
@@ -276,14 +284,14 @@ ht-degree: 0%
    >
    >選擇任務或問題的狀態時，請考慮以下事項：
    >
-   >* 當您為每種型別的工作專案選擇一個狀態時，當使用者在其專案上按一下「完成」時，任務或問題狀態會設定為該狀態。 如果您為每種型別的工作專案設定了多種狀態，則會在「完成」按鈕中新增下拉式功能表，使用者必須挑選一種狀態來變更工作專案的狀態。
+   >* 當您為每種型別的工作專案選擇一個狀態時，任務或問題狀態將設定為該狀態，當使用者按一下他們的專案的「完成」。 如果您為每種型別的工作專案設定了多種狀態，則會在「完成」按鈕中新增一個下拉式功能表，使用者必須挑選一種狀態來變更工作專案的狀態。
    >* 您只能將系統層級狀態與「完成」按鈕相關聯。 您無法將群組特定狀態與工作專案狀態建立關聯。
-   >* 當指派給專案的使用者將專案置於與「完成」按鈕關聯的狀態時，該專案為該使用者顯示為「完成」，無論您選擇的狀態是「已完成」、「已關閉」狀態還是工作狀態。
+   >* 當指派給專案的使用者將專案置於與「完成」按鈕關聯的狀態時，無論您選擇的狀態是「已完成」、「已關閉」還是工作狀態，該使用者專案都會顯示為「完成」。
    >   
    >   
-   >  例如，若將「完成」按鈕與「進行中」相關聯，會使狀態從「新增」變更為「進行中」的使用者將工作專案顯示為「完成」。
+   >  例如，將「完成」按鈕與「進行中」產生關聯，會使狀態從「新增」變更為「進行中」的使用者將工作專案顯示為「完成」。
    >   
-   >* 問題型別是可自訂的，其名稱可能與以下列出的您的環境不同。\
+   >* 問題型別可自訂，其名稱可能與您的環境中下列清單不同。\
    >  以下是預設任務和問題型別：
    >     
    >   * 任務
@@ -298,9 +306,9 @@ ht-degree: 0%
 
 ## 將使用者與主團隊建立關聯 {#associate-users-with-home-team}
 
-若要讓使用者看到對「完成」按鈕功能的變更，您可以讓變更了使用者之「主團隊」設定的團隊。
+若要讓使用者看到對「完成」按鈕功能所做的變更，您可以讓變更了使用者「主團隊」設定的團隊。
 
-若要將使用者與主團隊建立關聯，請執行下列動作：
+若要將使用者與主團隊建立關聯：
 
 1. 按一下 **[!UICONTROL 主要功能表]** 圖示 ![主要功能表](assets/main-menu-icon.png) 在Adobe Workfront的右上角，或（如果有的話）按一下 **[!UICONTROL 主要功能表]** 圖示 ![主要功能表](assets/main-menu-icon-left-nav.png) 左上角。
 
@@ -308,11 +316,11 @@ ht-degree: 0%
 1. 按一下 **[!UICONTROL 更多]** 功能表，然後選取 **[!UICONTROL 編輯]**.\
    ![](assets/user-settings-nwe-350x291.png)
 
-1. 在 **[!UICONTROL 組織]** 區段，選取 **[!UICONTROL 主團隊]** 欄位。 開始輸入您想要與使用者建立關聯的設定所在團隊的名稱。 當您在清單中看到團隊名稱時，請按一下該團隊名稱。
+1. 在 **[!UICONTROL 組織]** 區段，選取 **[!UICONTROL 主團隊]** 欄位。 開始輸入您想要與使用者建立關聯的團隊名稱。 當您在清單中看到團隊名稱時，請按一下該團隊的名稱。
 
 1. 按一下 **[!UICONTROL 儲存變更]**.
 您選取的使用者現在與主團隊相關聯。
-這些使用者現在可以看到任何專案團隊設定，包括與「完成」按鈕相關聯的狀態。
+這些使用者現在可以看到任何專案團隊設定，包括與「完成」按鈕關聯的狀態。
 
 <!-- Timesheets -->
 
@@ -320,7 +328,7 @@ ht-degree: 0%
 
 ## 步驟1 — 前往目標 —  {#step1-to-goals}
 
-1. 按一下 **[!UICONTROL 主要功能表]** 圖示 ![主要功能表](assets/main-menu-icon.png) 在熒幕的右上角，或（如果有的話）按一下 **[!UICONTROL 主要功能表]** 圖示 ![主要功能表](assets/main-menu-icon-left-nav.png) 左上角，然後按一下 **[!UICONTROL 目標]**.
+1. 按一下 **[!UICONTROL 主要功能表]** 圖示 ![主要功能表](assets/main-menu-icon.png) 在熒幕的右上角，或（如果有的話）按一下 **[!UICONTROL 主要功能表]** 圖示 ![主要功能表](assets/main-menu-icon-left-nav.png) 然後按一下「 」 **[!UICONTROL 目標]**.
 
    如此將可開啟Workfront目標區域。
 
@@ -336,8 +344,8 @@ ht-degree: 0%
 
 ## 程式碼片段編號測試 {#snippet-number-test}
 
-1. 此為片段步驟（第一個步驟）。
-1. 這是第二個代碼片段步驟（共兩個）。
+1. 此為片段步驟，為兩個步驟中的第一個。
+1. 這是第二個代碼片段步驟。
 
 ![影像](assets/adobecclogo.png)
 

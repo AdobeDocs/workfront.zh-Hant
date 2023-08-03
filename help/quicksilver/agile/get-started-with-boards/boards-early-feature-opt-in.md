@@ -7,9 +7,9 @@ description: 閱讀本文章以瞭解 [!DNL Workfront Boards] 早期功能選擇
 author: Lisa
 feature: Agile
 exl-id: c4a6b045-b0f3-4d4d-994c-c03ef7ad25c8
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+source-git-commit: 1594382c48d18a4da99bc5c47ddbbd4f63b76cd4
 workflow-type: tm+mt
-source-wordcount: '700'
+source-wordcount: '707'
 ht-degree: 0%
 
 ---
@@ -180,6 +180,10 @@ ht-degree: 0%
   <tr>
    <td>在臨機操作卡片及連線的卡片上使用註解</td>
    <td>已發行</td>
+  </tr>
+  <tr>
+   <td>檢視已連線卡片上的檔案</td>
+   <td>已部分發行</td>
   </tr>
  </tbody> 
 </table>
