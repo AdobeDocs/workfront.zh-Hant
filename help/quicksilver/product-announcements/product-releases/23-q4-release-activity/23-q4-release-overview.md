@@ -3,9 +3,9 @@ title: 2023年第四季版本總覽
 description: 2023年第四季版本總覽
 author: Becky
 feature: Product Announcements
-source-git-commit: c6edc9530b2731ecd8ae0cc0feb208049cb16105
+source-git-commit: 3bb44437bb1c994497735132f26a00da34bd7874
 workflow-type: tm+mt
-source-wordcount: '609'
+source-wordcount: '756'
 ht-degree: 0%
 
 ---
@@ -40,7 +40,76 @@ ht-degree: 0%
 
 ## Adobe Workfront增強功能
 
-* 專案增強功能
+* [展示板增強功能](#boards-enhancements)
+* [專案增強功能](#project-enhancements)
+
+### 展示板增強功能
+
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 50%;" />
+            <tbody>
+                <tr>
+                    <td>
+                        <p><span class="bold">功能</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">發行日期</span>
+                        </p>
+                    </td>
+                 </tr>  
+                 <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-july-31.md" class="MCXref xref" xrefformat="{para}">連線卡片上的可用檔案僅供檢視</a><span style="color: #ff0000;"> 預覽中的新增專案！</span> </p><p>針對Adobe Workfront展示板上已連線的卡片，您現在可以檢視檔案，例如影像和PDF。 您可以在瀏覽器中預覽檔案或下載到您的電腦。 </p>
+                    </td>
+                    <td><p><b>將於下列日期提供：</b></p>
+                        <ul>
+                            <li>
+                                <p>預覽版本： 2023年8月3日<br /></p>
+                            </li>
+                            <li>
+                                <p>主機板搶先使用的生產日期：2023年8月10日</p>
+                            </li>
+                            <li>
+                                <p>快速發行生產：23.8版</p>
+                            </li>
+                            <li>
+                                <p>每季發行生產：23.10版本</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p><span class="bold">功能</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">發行日期</span>
+                        </p>
+                    </td>
+                 </tr>  
+                 <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-july-31.md" class="MCXref xref" xrefformat="{para}">專案的面板檢視現在可針對問題使用</a><span style="color: #ff0000;"> 預覽中的新增專案！</span> </p><p>您現在可以存取專案問題清單的展示板檢視。 Kanban展示板可協助您以比在清單中檢視更直觀的方式追蹤問題進度。 </p>
+                    </td>
+                    <td><p><b>將於下列日期提供：</b></p>
+                        <ul>
+                            <li>
+                                <p>預覽版本： 2023年8月3日<br /></p>
+                            </li>
+                             <li>
+                                <p>快速發行生產：23.8版</p>
+                            </li>
+                            <li>
+                                <p>每季發行生產：23.10版本</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+           </tbody>
+        </table>
 
 ### 專案增強功能
 
