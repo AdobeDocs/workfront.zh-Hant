@@ -6,7 +6,7 @@ description: 必要的計畫、授權型別和存取Adobe Workfront計畫團隊�
 author: Alina
 feature: Work Management
 exl-id: fc633fd6-35b4-4949-8045-22c775002436
-source-git-commit: 070bc906d7ca0729697cf9def08416b00e691fc8
+source-git-commit: 0b6b71fae698d34e9c96ba5a699006b3df294a5c
 workflow-type: tm+mt
 source-wordcount: '1393'
 ht-degree: 0%
@@ -163,7 +163,7 @@ Required plans, license types, and access
 
 ## 在敏捷檢視中檢視專案
 
-1. 前往您要在敏捷檢視中檢視的專案（在任務清單上） <span class="preview">或問題清單</span>.
+1. <span class="preview">前往您要在敏捷檢視中檢視的專案（在任務清單或問題清單上）。</span>
 1. 按一下 **展示板** 圖示 ![展示板圖示](assets/board-icon-for-agile-view.png).
 
    預設會顯示專案的展示板檢視。
