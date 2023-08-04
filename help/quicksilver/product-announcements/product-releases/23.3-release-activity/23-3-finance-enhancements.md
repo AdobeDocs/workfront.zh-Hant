@@ -3,16 +3,16 @@ title: 23.3 Financial Management增強功能
 description: 23.3 Financial Management增強功能
 author: Lisa
 feature: Product Announcements
-source-git-commit: c1bc58be18e43a0c9cce10d0117a186ba2abca9e
+source-git-commit: 685529997d785b1bd98ef0fbc97b47dc59ea0244
 workflow-type: tm+mt
-source-wordcount: '287'
+source-wordcount: '276'
 ht-degree: 0%
 
 ---
 
 # 23.3 Financial Management增強功能
 
-本頁說明23.3版中所有Financial Management增強功能。 這些增強功能已於2023年7月20日和21日發行的23.3版本中推出。
+本頁說明23.3版中所有Financial Management增強功能。
 
 如需23.3版本週期目前可用的所有變更清單，請參閱 [23.3版本總覽](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-release-overview.md).
 
