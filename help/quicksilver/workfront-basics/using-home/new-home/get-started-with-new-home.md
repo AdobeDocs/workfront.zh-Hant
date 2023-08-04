@@ -5,10 +5,10 @@ title: 開始使用Adobe Workfront中的新首頁
 description: 新首頁是管理您工作的強大新功能。
 author: Nolan
 feature: Get Started with Workfront
-source-git-commit: 63aa6bcbdf7e31a61a497f8d89c3bfe3debd5ff1
+source-git-commit: 40eccf1fa13b4221ca599b74c0adff9063b7249a
 workflow-type: tm+mt
-source-wordcount: '1032'
-ht-degree: 21%
+source-wordcount: '1048'
+ht-degree: 20%
 
 ---
 
@@ -55,16 +55,65 @@ Widget是New Home的基礎。 將Widget新增到首頁後，您就可以選擇�
 * **待辦事項**\
     這個獨特的Widget可讓您將文字專案新增至您可自由編輯的個人檢查清單。
 
-依預設，首頁會根據您的授權型別，填入幾個特定的Widget。 下表概述每種授權型別的使用者第一次導覽至「新首頁」時所看到的具體Widget。
+  >[!NOTE]
+  >
+  >您必須有建立任務的許可權，才能在待辦事項Widget中建立待辦事項。
 
-| **舊版授權型別** | **預設Widget** | **目前授權型別** | **預設Widget** |
-|---|---|---|---|
-| 計劃 | 我的專案、提及內容、待辦事項 | 標準 | 我的專案、我的工作、提及內容、待辦事項 |
-| 工作 | 我的工作、提及、待辦事項 | 輕度 | 我的工作，等待我的核准，待辦事項 |
-| 檢閱 | 我的工作、提及、待辦事項 | 投稿人 | 我的工作、提及、待辦事項 |
-| 有限 | 我的專案，等待我的核准，待辦事項 | 外部 | 等待我的核准，待辦事項 |
-| 投稿人 | 我的工作、提及、待辦事項 |  |  |
-| 外部 | 等待我的核准，待辦事項 |  |  |
+依預設，首頁會根據您的授權型別，填入幾個特定的Widget。 下表概述各授權型別使用者第一次導覽至「新首頁」時所看到的Widget。
+
+<table border="1" class="inlineTable">
+    <tr>
+        <td><b>目前授權型別</b></td>
+        <td><b>預設Widget</b></td>
+    </tr>
+    <tr>
+        <td>標準</td>
+        <td>我的專案、我的工作、提及內容、待辦事項</td>
+    </tr>
+    <tr>
+        <td>精簡</td>
+        <td>我的工作，等待我的核准，待辦事項</td>
+    </tr>
+    <tr>
+        <td>參與者</td>
+        <td>我的工作、提及、待辦事項</td>
+    </tr>
+    <tr>
+        <td>外部</td>
+        <td>等待我的核准，待辦事項</td>
+    </tr>
+</table>
+
+<table border="1" class="inlineTable">
+    <tr>
+        <td><b>舊版授權型別</b></td>
+        <td><b>預設Widget</b></td>
+    </tr>
+    <tr>
+        <td>計劃</td>
+        <td>我的專案、提及內容、待辦事項</td>
+    </tr>
+    <tr>
+        <td>工作</td>
+        <td>我的工作、提及、待辦事項</td>
+    </tr>
+    <tr>
+        <td>檢閱</td>
+        <td>我的工作、提及、待辦事項</td>
+    </tr>
+    <tr>
+        <td>有限</td>
+        <td>我的專案，等待我的核准，待辦事項</td>
+    </tr>
+    <tr>
+        <td>參與者</td>
+        <td>我的工作、提及、待辦事項</td>
+    </tr>
+    <tr>
+        <td>外部</td>
+        <td>等待我的核准，待辦事項</td>
+    </tr>
+</table>
 
 如需新增、移動、調整大小或刪除介面工具集的資訊，請參閱 [新增、編輯或移除新首頁中的Widget](/help/quicksilver/workfront-basics/using-home/new-home/add-edit-remove-widgets-in-new-home.md)
 
