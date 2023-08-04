@@ -4,24 +4,24 @@ product-previous: workfront-fusion
 product-area: workfront-integrations;user-management
 navigation-topic: organizations
 title: 中的組織角色 [!DNL Adobe Workfront Fusion]
-description: 本文包含中角色存取權和許可權的資訊 [!DNL Adobe] Workfront Fusion.
+description: 本文包含中角色之存取權和許可權的資訊。 [!DNL Adobe] Workfront Fusion.
 author: Becky
 feature: Workfront Fusion
 exl-id: 0370fa9d-6680-4724-a431-8df884ce4f9a
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 5b6f8c882b3452725a1db77420865038abb5dab1
 workflow-type: tm+mt
-source-wordcount: '486'
+source-wordcount: '582'
 ht-degree: 1%
 
 ---
 
-# 中的組織角色 [!DNL Adobe Workfront Fusion]
+# 中的組織和團隊角色 [!DNL Adobe Workfront Fusion]
 
-本文說明不同組織角色在中可用的存取權和功能。 [!DNL Workfront Fusion].
+本文說明中不同團隊與組織角色可用的存取權和功能 [!DNL Workfront Fusion].
 
 >[!NOTE]
 >
->組織角色與團隊角色在中不同 [!DNL Workfront Fusion]. 如需有關專案團隊角色的詳細資訊，請參閱 [團隊角色](../organizations/organizations-and-teams.md#team-roles-team-roles).
+>組織角色與中的專案團隊角色不同 [!DNL Workfront Fusion]. 有關組織和專案團隊角色的詳細資訊，請參閱 [組織和團隊](../organizations/organizations-and-teams.md).
 
 ## 存取需求
 
@@ -48,30 +48,30 @@ ht-degree: 1%
    <td>
    <p>目前授權需求：否 [!DNL Workfront Fusion] 授權需求。</p>
    <p>或</p>
-   <p>舊版授權需求： [！UICONTROL [!DNL Workfront Fusion] 若為工作自動化與整合]，[！UICONTROL [!DNL Workfront Fusion] 工作自動化專用]</p>
+   <p>舊版授權需求： [！UICONTROL [!DNL Workfront Fusion] 工作自動化與整合]，請參閱[！UICONTROL [!DNL Workfront Fusion] 工作自動化專用]</p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">產品</td> 
    <td>
-   <p>目前產品需求：如果您有[！UICONTROL Select]或[！UICONTROL Prime] [!DNL Adobe Workfront] 計畫，您的組織必須購買 [!DNL Adobe Workfront Fusion] 以及 [!DNL Adobe Workfront] 以使用本文所述功能。 [!DNL Workfront Fusion] 包含在[！UICONTROL Ultimate]中 [!DNL Workfront] 計畫。</p>
+   <p>目前產品需求：如果您有[！UICONTROL Select]或[！UICONTROL Prime] [!DNL Adobe Workfront] 計畫，您的組織必須購買 [!DNL Adobe Workfront Fusion] 以及 [!DNL Adobe Workfront] 以使用本文所述的功能。 [!DNL Workfront Fusion] 包含在[！UICONTROL Ultimate]中 [!DNL Workfront] 計畫。</p>
    <p>或</p>
-   <p>舊版產品需求：貴組織必須購買 [!DNL Adobe Workfront Fusion] 以及 [!DNL Adobe Workfront] 以使用本文所述功能。</p>
+   <p>舊版產品需求：貴組織必須購買 [!DNL Adobe Workfront Fusion] 以及 [!DNL Adobe Workfront] 以使用本文所述的功能。</p>
    </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">存取層級設定*</td> 
    <td> 
      <p>您必須是 [!DNL Workfront Fusion] 您組織的管理員。</p>
-     <p>您必須是 [!DNL Workfront Fusion] 您的團隊管理員。</p>
+     <p>您必須是 [!DNL Workfront Fusion] 您團隊的管理員。</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-若要瞭解您擁有哪些計畫、授權型別或存取權，請聯絡您的 [!DNL Workfront] 管理員。
+若要瞭解您擁有的計畫、授權型別或存取權，請聯絡您的 [!DNL Workfront] 管理員。
 
-有關以下專案的資訊： [!DNL Adobe Workfront Fusion] 授權，請參閱 [[!DNL Adobe Workfront Fusion] 授權](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+有關的資訊 [!DNL Adobe Workfront Fusion] 授權，請參閱 [[!DNL Adobe Workfront Fusion] 授權](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
 ## 組織角色
 
@@ -91,6 +91,20 @@ ht-degree: 1%
   </tr> 
  </thead> 
  <tbody> 
+  <tr> 
+   <td> <p>存取所有團隊</p> </td> 
+   <td><span style="font-family: 'Wingdings'">u</span> </td> 
+   <td> </td> 
+   <td> </td> 
+   <td> </td> 
+  </tr> 
+  <tr> 
+   <td> <p>安裝適用於組織的應用程式</p> </td> 
+   <td><span style="font-family: 'Wingdings'">u</span> </td> 
+   <td><span style="font-family: 'Wingdings'">u</span> </td> 
+   <td> </td> 
+   <td> </td> 
+  </tr> 
   <tr> 
    <td> <p>刪除組織</p> </td> 
    <td><span style="font-family: 'Wingdings'">u</span> </td> 
@@ -135,10 +149,21 @@ ht-degree: 1%
     <td> </td> 
    </tr>
   --> 
- </tbody> 
+  <tr> 
+   <td> <p>新增團隊</p> </td> 
+   <td><span style="font-family: 'Wingdings'">u</span> </td> 
+   <td><span style="font-family: 'Wingdings'">u</span> </td> 
+   <td> </td> 
+   <td> </td> 
+  </tr>
+
+</tbody> 
 </table>
 
-## 情景
+
+## 團隊角色
+
+### 情景
 
 <table style="table-layout:auto"> 
  <col> 
@@ -149,10 +174,10 @@ ht-degree: 1%
  <thead> 
   <tr> 
    <th> </th> 
-   <th> <p style="text-align: left;">[！UICONTROL擁有者]</p> </th> 
    <th> <p style="text-align: left;">[！UICONTROL管理員]</p> </th> 
    <th> <p style="text-align: left;">[！UICONTROL成員]</p> </th> 
-   <th> <p style="text-align: left;">[！UICONTROL會計師]</p> </th> 
+   <th> <p style="text-align: left;">[！UICONTROL監視]</p> </th> 
+   <th> <p style="text-align: left;">[！UICONTROL Operator]</p> </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -168,7 +193,7 @@ ht-degree: 1%
    <td><span style="font-family: 'Wingdings'">u</span> </td> 
    <td><span style="font-family: 'Wingdings'">u</span> </td> 
    <td><span style="font-family: 'Wingdings'">u</span> </td> 
-   <td> </td> 
+   <td><span style="font-family: 'Wingdings'">u</span> </td> 
   </tr> 
   <tr> 
    <td> <p style="text-align: left;">新增案例</p> </td> 
@@ -185,10 +210,10 @@ ht-degree: 1%
    <td> </td> 
   </tr> 
   <tr> 
-   <td> <p style="text-align: left;">編輯情境</p> </td> 
+   <td> <p style="text-align: left;">編輯案例</p> </td> 
    <td><span style="font-family: 'Wingdings'">u</span> </td> 
    <td><span style="font-family: 'Wingdings'">u</span> </td> 
-   <td> </td> 
+   <td><span style="font-family: 'Wingdings'">u</span> </td> 
    <td> </td> 
   </tr> 
   <tr> 
@@ -196,68 +221,68 @@ ht-degree: 1%
    <td><span style="font-family: 'Wingdings'">u</span> </td> 
    <td><span style="font-family: 'Wingdings'">u</span> </td> 
    <td><span style="font-family: 'Wingdings'">u</span> </td> 
-   <td> </td> 
+   <td><span style="font-family: 'Wingdings'">u</span> </td> 
   </tr> 
   <tr> 
-   <td> <p style="text-align: left;">案例通知</p> </td> 
+   <td> <p style="text-align: left;">接收案例通知</p> </td> 
    <td><span style="font-family: 'Wingdings'">u</span> </td> 
    <td><span style="font-family: 'Wingdings'">u</span> </td> 
    <td><span style="font-family: 'Wingdings'">u</span> </td> 
-   <td> </td> 
+   <td><span style="font-family: 'Wingdings'">u</span> </td> 
   </tr> 
   <tr> 
    <td> <p style="text-align: left;">重設統計資料</p> </td> 
    <td><span style="font-family: 'Wingdings'">u</span> </td> 
    <td><span style="font-family: 'Wingdings'">u</span> </td> 
    <td><span style="font-family: 'Wingdings'">u</span> </td> 
-   <td> </td> 
+   <td><span style="font-family: 'Wingdings'">u</span> </td> 
   </tr> 
   <tr> 
    <td> <p style="text-align: left;">列出案例</p> </td> 
    <td><span style="font-family: 'Wingdings'">u</span> </td> 
    <td><span style="font-family: 'Wingdings'">u</span> </td> 
    <td><span style="font-family: 'Wingdings'">u</span> </td> 
-   <td> </td> 
+   <td><span style="font-family: 'Wingdings'">u</span> </td> 
   </tr> 
   <tr> 
    <td> <p style="text-align: left;">編輯案例排程器</p> </td> 
    <td><span style="font-family: 'Wingdings'">u</span> </td> 
    <td><span style="font-family: 'Wingdings'">u</span> </td> 
-   <td><span style="font-family: 'Wingdings'">u</span> </td> 
    <td> </td> 
+   <td><span style="font-family: 'Wingdings'">u</span> </td> 
   </tr> 
   <tr> 
-   <td> <p style="text-align: left;">啟用案例</p> </td> 
-   <td><span style="font-family: 'Wingdings'">u</span> </td> 
+   <td> <p style="text-align: left;">開始案例</p> </td> 
    <td><span style="font-family: 'Wingdings'">u</span> </td> 
    <td><span style="font-family: 'Wingdings'">u</span> </td> 
    <td> </td> 
+   <td><span style="font-family: 'Wingdings'">u</span> </td> 
   </tr> 
   <tr> 
-   <td> <p style="text-align: left;">停用案例</p> </td> 
-   <td><span style="font-family: 'Wingdings'">u</span> </td> 
+   <td> <p style="text-align: left;">停止情境</p> </td> 
    <td><span style="font-family: 'Wingdings'">u</span> </td> 
    <td><span style="font-family: 'Wingdings'">u</span> </td> 
    <td> </td> 
+   <td><span style="font-family: 'Wingdings'">u</span> </td> 
   </tr> 
   <tr> 
    <td> <p style="text-align: left;">手動執行案例</p> </td> 
    <td><span style="font-family: 'Wingdings'">u</span> </td> 
    <td><span style="font-family: 'Wingdings'">u</span> </td> 
-   <td><span style="font-family: 'Wingdings'">u</span> </td> 
    <td> </td> 
+   <td><span style="font-family: 'Wingdings'">u</span> </td> 
   </tr> 
   <tr> 
    <td> <p style="text-align: left;">檢視案例</p> </td> 
    <td><span style="font-family: 'Wingdings'">u</span> </td> 
    <td><span style="font-family: 'Wingdings'">u</span> </td> 
    <td><span style="font-family: 'Wingdings'">u</span> </td> 
-   <td> </td> 
-  </tr> 
+   <td><span style="font-family: 'Wingdings'">u</span> </td> 
+   </tr> 
  </tbody> 
 </table>
 
-## 連線
+### 連線
 
 <table style="table-layout:auto">
  <col> 
@@ -268,10 +293,10 @@ ht-degree: 1%
  <thead> 
   <tr> 
    <th> </th> 
-   <th> <p style="text-align: left;">[！UICONTROL擁有者]</p> </th> 
    <th> <p style="text-align: left;">[！UICONTROL管理員]</p> </th> 
    <th> <p style="text-align: left;">[！UICONTROL成員]</p> </th> 
-   <th> <p style="text-align: left;">[！UICONTROL會計師]</p> </th> 
+   <th> <p style="text-align: left;">[！UICONTROL監視]</p> </th> 
+   <th> <p style="text-align: left;">[！UICONTROL Operator]</p> </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -301,12 +326,12 @@ ht-degree: 1%
    <td><span style="font-family: 'Wingdings'">u</span> </td> 
    <td><span style="font-family: 'Wingdings'">u</span> </td> 
    <td><span style="font-family: 'Wingdings'">u</span> </td> 
-   <td> </td> 
+   <td><span style="font-family: 'Wingdings'">u</span> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## Webhook
+### Webhooks
 
 <table style="table-layout:auto"> 
  <col> 
@@ -317,10 +342,10 @@ ht-degree: 1%
  <thead> 
   <tr> 
    <th> </th> 
-   <th> <p style="text-align: left;">[！UICONTROL擁有者]</p> </th> 
    <th> <p style="text-align: left;">[！UICONTROL管理員]</p> </th> 
    <th> <p style="text-align: left;">[！UICONTROL成員]</p> </th> 
-   <th> <p style="text-align: left;">[！UICONTROL會計師]</p> </th> 
+   <th> <p style="text-align: left;">[！UICONTROL監視]</p> </th> 
+   <th> <p style="text-align: left;">[！UICONTROL Operator]</p> </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -350,12 +375,12 @@ ht-degree: 1%
    <td><span style="font-family: 'Wingdings'">u</span> </td> 
    <td><span style="font-family: 'Wingdings'">u</span> </td> 
    <td><span style="font-family: 'Wingdings'">u</span> </td> 
-   <td> </td> 
+   <td><span style="font-family: 'Wingdings'">u</span> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## 資料存放區
+### 資料存放區
 
 <table style="table-layout:auto"> 
  <col> 
@@ -366,10 +391,10 @@ ht-degree: 1%
  <thead> 
   <tr> 
    <th> </th> 
-   <th> <p style="text-align: left;">[！UICONTROL擁有者]</p> </th> 
    <th> <p style="text-align: left;">[！UICONTROL管理員]</p> </th> 
    <th> <p style="text-align: left;">[！UICONTROL成員]</p> </th> 
-   <th> <p style="text-align: left;">[！UICONTROL會計師]</p> </th> 
+   <th> <p style="text-align: left;">[！UICONTROL監視]</p> </th> 
+   <th> <p style="text-align: left;">[！UICONTROL Operator]</p> </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -399,19 +424,19 @@ ht-degree: 1%
    <td><span style="font-family: 'Wingdings'">u</span> </td> 
    <td><span style="font-family: 'Wingdings'">u</span> </td> 
    <td><span style="font-family: 'Wingdings'">u</span> </td> 
-   <td> </td> 
+   <td><span style="font-family: 'Wingdings'">u</span> </td> 
   </tr> 
   <tr> 
    <td> <p style="text-align: left;">瀏覽資料存放區</p> </td> 
    <td><span style="font-family: 'Wingdings'">u</span> </td> 
    <td><span style="font-family: 'Wingdings'">u</span> </td> 
    <td><span style="font-family: 'Wingdings'">u</span> </td> 
-   <td> </td> 
+   <td><span style="font-family: 'Wingdings'">u</span> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## 資料結構
+### 資料結構
 
 <table style="table-layout:auto">
  <col> 
@@ -422,10 +447,10 @@ ht-degree: 1%
  <thead> 
   <tr> 
    <th> </th> 
-   <th> <p style="text-align: left;">[！UICONTROL擁有者]</p> </th> 
    <th> <p style="text-align: left;">[！UICONTROL管理員]</p> </th> 
    <th> <p style="text-align: left;">[！UICONTROL成員]</p> </th> 
-   <th> <p style="text-align: left;">hy0</p> </th> 
+   <th> <p style="text-align: left;">[！UICONTROL監視]</p> </th> 
+   <th> <p style="text-align: left;">[！UICONTROL Operator]</p> </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -454,13 +479,13 @@ ht-degree: 1%
    <td> <p style="text-align: left;">列出資料結構</p> </td> 
    <td><span style="font-family: 'Wingdings'">u</span> </td> 
    <td><span style="font-family: 'Wingdings'">u</span> </td> 
-   <td><span style="font-family: 'Wingdings'">u</span> </td> 
    <td> </td> 
+   <td><span style="font-family: 'Wingdings'">u</span> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## 裝置
+### 裝置
 
 <table style="table-layout:auto"> 
  <col> 
@@ -471,10 +496,10 @@ ht-degree: 1%
  <thead> 
   <tr> 
    <th> </th> 
-   <th> <p style="text-align: left;">[！UICONTROL擁有者]</p> </th> 
    <th> <p style="text-align: left;">[！UICONTROL管理員]</p> </th> 
    <th> <p style="text-align: left;">[！UICONTROL成員]</p> </th> 
-   <th> <p style="text-align: left;">[！UICONTROL會計師]</p> </th> 
+   <th> <p style="text-align: left;">[！UICONTROL監視]</p> </th> 
+   <th> <p style="text-align: left;">[！UICONTROL Operator]</p> </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -503,13 +528,13 @@ ht-degree: 1%
    <td> <p style="text-align: left;">列出裝置</p> </td> 
    <td><span style="font-family: 'Wingdings'">u</span> </td> 
    <td><span style="font-family: 'Wingdings'">u</span> </td> 
-   <td><span style="font-family: 'Wingdings'">u</span> </td> 
    <td> </td> 
+   <td><span style="font-family: 'Wingdings'">u</span> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## 金鑰
+### 金鑰
 
 <table style="table-layout:auto">
  <col> 
@@ -520,10 +545,10 @@ ht-degree: 1%
  <thead> 
   <tr> 
    <th> </th> 
-   <th> <p style="text-align: left;">[！UICONTROL擁有者]</p> </th> 
    <th> <p style="text-align: left;">[！UICONTROL管理員]</p> </th> 
    <th> <p style="text-align: left;">[！UICONTROL成員]</p> </th> 
-   <th> <p style="text-align: left;">[！UICONTROL會計師]</p> </th> 
+   <th> <p style="text-align: left;">[！UICONTROL監視]</p> </th> 
+   <th> <p style="text-align: left;">[！UICONTROL Operator]</p> </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -552,8 +577,117 @@ ht-degree: 1%
    <td> <p style="text-align: left;">清單索引鍵</p> </td> 
    <td><span style="font-family: 'Wingdings'">u</span> </td> 
    <td><span style="font-family: 'Wingdings'">u</span> </td> 
-   <td><span style="font-family: 'Wingdings'">u</span> </td> 
    <td> </td> 
+   <td><span style="font-family: 'Wingdings'">u</span> </td> 
   </tr> 
  </tbody> 
 </table>
+
+### 範本
+
+<table style="table-layout:auto">
+ <col> 
+ <col> 
+ <col> 
+ <col> 
+ <col> 
+ <thead> 
+  <tr> 
+   <th> </th> 
+   <th> <p style="text-align: left;">[！UICONTROL管理員]</p> </th> 
+   <th> <p style="text-align: left;">[！UICONTROL成員]</p> </th> 
+   <th> <p style="text-align: left;">[！UICONTROL監視]</p> </th> 
+   <th> <p style="text-align: left;">[！UICONTROL Operator]</p> </th> 
+  </tr> 
+ </thead> 
+ <tbody> 
+  <tr> 
+   <td> <p style="text-align: left;">新增範本</p> </td> 
+   <td><span style="font-family: 'Wingdings'">u</span> </td> 
+   <td><span style="font-family: 'Wingdings'">u</span> </td> 
+   <td> </td> 
+   <td> </td> 
+  </tr> 
+  <tr> 
+   <td> <p style="text-align: left;">刪除範本</p> </td> 
+   <td><span style="font-family: 'Wingdings'">u</span> </td> 
+   <td><span style="font-family: 'Wingdings'">u</span> </td> 
+   <td> </td> 
+   <td> </td> 
+  </tr> 
+  <tr> 
+   <td> <p style="text-align: left;">編輯範本</p> </td> 
+   <td><span style="font-family: 'Wingdings'">u</span> </td> 
+   <td><span style="font-family: 'Wingdings'">u</span> </td> 
+   <td> </td> 
+   <td> </td> 
+  </tr> 
+  <tr> 
+   <td> <p style="text-align: left;">清單範本</p> </td> 
+   <td><span style="font-family: 'Wingdings'">u</span> </td> 
+   <td><span style="font-family: 'Wingdings'">u</span> </td> 
+   <td><span style="font-family: 'Wingdings'">u</span> </td> 
+   <td><span style="font-family: 'Wingdings'">u</span> </td> 
+  </tr> 
+  <tr> 
+   <td> <p style="text-align: left;">檢視範本</p> </td> 
+   <td><span style="font-family: 'Wingdings'">u</span> </td> 
+   <td><span style="font-family: 'Wingdings'">u</span> </td> 
+   <td><span style="font-family: 'Wingdings'">u</span> </td> 
+   <td><span style="font-family: 'Wingdings'">u</span> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+### 團隊
+
+<table style="table-layout:auto">
+ <col> 
+ <col> 
+ <col> 
+ <col> 
+ <col> 
+ <thead> 
+  <tr> 
+   <th> </th> 
+   <th> <p style="text-align: left;">[！UICONTROL管理員]</p> </th> 
+   <th> <p style="text-align: left;">[！UICONTROL成員]</p> </th> 
+   <th> <p style="text-align: left;">[！UICONTROL監視]</p> </th> 
+   <th> <p style="text-align: left;">[！UICONTROL Operator]</p> </th> 
+  </tr> 
+ </thead> 
+ <tbody> 
+  <tr> 
+   <td> <p style="text-align: left;">新增團隊</p> </td> 
+   <td><span style="font-family: 'Wingdings'">u</span> </td> 
+   <td> </td> 
+   <td> </td> 
+   <td> </td> 
+  </tr> 
+  <tr> 
+   <td> <p style="text-align: left;">刪除團隊</p> </td> 
+   <td><span style="font-family: 'Wingdings'">u</span> </td> 
+   <td> </td> 
+   <td> </td> 
+   <td> </td> 
+  </tr> 
+  <tr> 
+   <td> <p style="text-align: left;">新增及編輯團隊使用者</p> </td> 
+   <td><span style="font-family: 'Wingdings'">u</span> </td> 
+   <td> </td> 
+   <td> </td> 
+   <td> </td> 
+  </tr> 
+  <tr> 
+   <td> <p style="text-align: left;">檢視團隊</p> </td> 
+   <td><span style="font-family: 'Wingdings'">u</span> </td> 
+   <td><span style="font-family: 'Wingdings'">u</span> </td> 
+   <td><span style="font-family: 'Wingdings'">u</span> </td> 
+   <td><span style="font-family: 'Wingdings'">u</span> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+
+
+
