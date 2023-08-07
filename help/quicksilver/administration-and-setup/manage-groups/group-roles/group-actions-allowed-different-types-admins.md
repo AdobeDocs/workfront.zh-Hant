@@ -8,9 +8,9 @@ author: Caroline
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: f556aa0b-71c5-48a9-8a84-72f1fbb2c86e
-source-git-commit: 531d28fe1ba46a98d9a56a3ed2741954b5ccfcb9
+source-git-commit: 71979b32684a0c52cb5951d74dc1aa9a5b1d83ef
 workflow-type: tm+mt
-source-wordcount: '414'
+source-wordcount: '406'
 ht-degree: 0%
 
 ---
@@ -36,16 +36,10 @@ ht-degree: 0%
    <th>子群組管理員（動作僅限於管理員管理的群組）</th> 
   </tr> 
  </thead> 
- <tbody> 
-  <tr> 
-   <td>將成員註冊至新的Adobe Workfront體驗</td> 
-   <td>✓ (A) </td> 
-   <td>✓ </td> 
-   <td>✓ </td> 
-  </tr> 
+ <tbody>
   <tr> 
    <td>重設使用者密碼</td> 
-   <td>✓ </td> 
+   <td>✓ (A) </td> 
    <td>✓ </td> 
    <td>✓ </td> 
   </tr> 
