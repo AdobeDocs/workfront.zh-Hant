@@ -5,16 +5,18 @@ author: Alina, Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 6c0fa8af-cd89-4941-a6f6-aa4e84a7dc67
-source-git-commit: bbd99435bb07d68bf9058bcd3e8c6ef5d9df75a9
+source-git-commit: 3d4ba0396c5a59b1109ec70a6e85b77d0d093bf5
 workflow-type: tm+mt
-source-wordcount: '1146'
+source-wordcount: '1142'
 ht-degree: 1%
 
 ---
 
 # 設定提醒通知
 
-提醒通知會根據指定的條件傳送電子郵件給收件者。 作為Adobe Workfront管理員或具有計畫員訪問級別和管理權限的用戶，您可以手動將提醒通知與工作項（如項目、任務、問題和工時單）關聯。
+<!--hidden content for the tab redesign in August 2023-->
+
+提醒通知會根據指定條件傳送電子郵件給收件者。 作為Adobe Workfront管理員或具有提醒通知的供需規劃員存取層級和管理存取權的使用者，您可以手動將提醒通知與您的工作專案相關聯，例如專案、任務、問題和時程表。
 
 <!--
 DRAFTED IN FLARE:
@@ -27,7 +29,7 @@ An example of how this can be used would be helpful here and/or in the section <
 
 ## 存取需求
 
-您必須具備下列存取權，才能執行本文中的步驟：
+您必須具有下列存取權才能執行本文中的步驟：
 
 <table style="table-layout:auto"> 
  <col> 
@@ -42,37 +44,40 @@ An example of how this can be used would be helpful here and/or in the section <
    <td>計劃</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">訪問級別配置*</td> 
-   <td> <p>計畫員或更高版本，具有提醒通知的管理訪問權限</p> <p>有關授予計畫用戶管理訪問權限的資訊，請參閱 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">授予用戶對特定區域的管理訪問權限</a>.</p> </td> 
+   <td role="rowheader">存取層級設定*</td> 
+   <td> <p>計畫者或以上，具有提醒通知的管理存取權</p> <p>有關授予「計畫」使用者管理存取權的資訊，請參閱 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">授予使用者管理特定區域的存取權</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;若要了解您擁有的計畫、授權類型或存取權，請聯絡您的Workfront管理員。
+&#42;若要瞭解您擁有的計畫、授權型別或存取權，請聯絡您的Workfront管理員。
 
 ## 自訂提醒電子郵件
 
-您可以使用包含自訂電子郵件主旨和內文的自訂電子郵件自訂提醒通知。 電子郵件內文可包含自訂HTML。
+您可以使用包含自訂電子郵件主旨和本文的自訂電子郵件來自訂提醒通知。 電子郵件內文可包含自訂HTML。
 
-或者，您可以使用提醒通知隨附的預設電子郵件。 預設電子郵件使用提醒通知名稱作為電子郵件主旨，以及電子郵件內文中的物件名稱，包括觸發通知的事件。
+或者，您可以使用提醒通知隨附的預設電子郵件。 預設電子郵件使用提醒通知名稱作為電子郵件主旨，並在電子郵件內文中使用物件名稱，包括觸發通知的事件。
 
-如果要自定義提醒電子郵件，則需要建立電子郵件模板並將其附加到提醒通知。
+如果您想要自訂提醒電子郵件，則需要建立電子郵件範本，並將其附加至提醒通知。
 
-如需如何建立電子郵件範本的詳細資訊，請參閱 [設定電子郵件範本](../../../administration-and-setup/manage-workfront/emails/configure-email-templates.md).
+如需有關如何建立電子郵件範本的資訊，請參閱 [設定電子郵件範本](../../../administration-and-setup/manage-workfront/emails/configure-email-templates.md).
 
 ## 建立提醒通知
 
-1. 按一下 **主菜單** 圖示 ![](assets/main-menu-icon.png) 在Adobe Workfront的右上角，然後按一下 **設定** ![](assets/gear-icon-settings.png).
+1. 按一下 **主要功能表** 圖示 ![](assets/main-menu-icon.png) (位於Adobe Workfront的右上角)，然後按一下 **設定** ![](assets/gear-icon-settings.png).
 
-1. 按一下 **電子郵件** > **通知**.
+1. 按一下 **電子郵件** > **通知** > **提醒通知**.
 
-1. 按一下 **提醒通知** ，然後按一下 **新提醒通知**.
+   <!--hidden for the tab redesign for August 2023:
+   ![](assets/remider-notifications-tab-in-setup-email-notifications-area.png)
+   -->
+1. 按一下 **新提醒通知**.
 
-1. 在下拉清單中，按一下要與提醒通知關聯的對象類型。
+1. 在下拉式清單中，按一下您要與提醒通知關聯的物件型別。
 
-   例如，如果要將提醒通知附加到時間表，請按一下 **工時單**.
+   例如，如果您想要將提醒通知附加至時程表，請按一下 **時間表**.
 
-1. 在 **新提醒通知** 框中，指定以下資訊。
+1. 在 **新提醒通知** 方塊中，指定下列資訊。
 
    <table style="table-layout:auto"> 
     <col> 
@@ -84,68 +89,68 @@ An example of how this can be used would be helpful here and/or in the section <
      </tr> 
      <tr> 
       <td role="rowheader">符合資格的期間</td> 
-      <td> <p>指定日期之前或之後的小時數、工作日數、天數（日曆日）、周數或月數， <strong>計時</strong> 欄位。</p> <p><b>附註</b>:  
+      <td> <p>在中指定日期之前或之後的小時數、工作日數、日數（行事曆日數）、周數或月數 <strong>時間</strong> 欄位。</p> <p><b>附註</b>:  
         <ul> 
-         <li> <p>提醒通知從指定日期後24小時開始，並在滿足所有條件後開始。</p> </li> 
-         <li> <p>項目、任務和問題的提醒通知會在美國山區時間的午夜觸發。 從該日期起，符合提醒通知資格的所有物件都會在該時間後不久向指定使用者觸發通知。</p> </li> 
-         <li> <p>工時單的提醒通知會根據您的時區和工時單的「終止日期」、「起始日期」或「上次更新日期」在指定時間發送。</p> </li> 
+         <li> <p>提醒通知會在指定日期後24小時開始，並在符合所有條件後開始。</p> </li> 
+         <li> <p>美國山區時間每天午夜觸發專案、任務和問題的提醒通知。 當天符合提醒通知資格的所有物件會在當天不久之後觸發通知給指定的使用者。</p> </li> 
+         <li> <p>時程表的提醒通知會根據您的時區與時程表的結束日期、開始日期或上次更新日期，在指定時間傳送。</p> </li> 
         </ul> </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">時間</td> 
-      <td> <p>選取觸發要排程的提醒通知的事件。</p> <p>如果提醒通知是用於項目、任務或問題，則可用選項與完成日期或開始日期相關。 提醒通知會考慮項目、任務和問題的「完成」和「開始」日期上的時間戳。</p>
+      <td> <p>選取觸發提醒通知（要排程）的事件。</p> <p>如果提醒通知是針對專案、任務或問題，則可用選項與完成日期或開始日期相關。 提醒通知會考量專案、任務和問題的完成和開始日期上的時間戳記。</p>
 
-   <p>如果提醒通知是用於工時單，則可用選項與終止日期、起始日期或上次更新日期相關。 工時單的提醒通知考慮了工時單結束、開始和上次更新日期的時間戳。 時間表從開始日期的午夜開始（上午12:00），直到結束日期的午夜之前結束（晚上11:59）。</p>
+   <p>如果提醒通知是針對時程表，則可用選項與結束日期、開始日期或上次更新日期有關。 時程表的提醒通知會考慮時程表結束、開始和上次更新日期的時間戳記。 時程表從開始日期的午夜開始(12:00 AM)，並在結束日期的午夜之前(11:59 PM)結束。</p>
 
    <p><b>附註</b></p>
-      <p>時間表提醒通知每24小時只發送一次。</p> <p>當您在24小時內設定多個提醒通知時，Workfront會傳送一封通知電子郵件，內含該通知中包含的所有提醒。</p>
-      <p>例如，如果您配置三個提醒通知，以在10小時前、2小時前和到期日前1小時觸發，則這三個提醒都將合併到同一通知中（如果在同一天發生）。</p> <p>不過，如果您設定提醒通知的時間為26小時，而設定提醒通知的時間為到期日的前1小時，則用戶將收到兩個不同的通知。 </p>
+      <p>時程表提醒通知每24小時只傳送一次。</p> <p>當您在24小時內設定多個提醒通知時，Workfront會傳送一封通知電子郵件，其中包含該通知中的所有提醒。</p>
+      <p>例如，如果您設定三個提醒通知在到期日前10小時、前2小時及前1小時觸發，則這三個提醒如果都發生在同一天，則會合併到相同通知中。</p> <p>但是，如果您在到期日之前設定26小時的提醒通知，並在到期日之前設定1小時的另一個提醒通知，則使用者將收到兩個單獨的通知。 </p>
 
    </td> 
      </tr> 
      <tr> 
       <td role="rowheader">條件</td> 
-      <td> <p>選擇條件，以使提醒通知可以計畫。 除非滿足條件選擇，否則不會排程提醒通知。</p> <p>根據您在步驟4中選取的物件類型，可使用下列條件選項：</p> 
+      <td> <p>選取條件以符合要排程的提醒通知資格。 除非符合條件選擇，否則不會排程提醒通知。</p> <p>根據您在步驟4中選取的物件型別，可使用下列條件選項：</p> 
        <ul> 
-        <li><strong>當前項目不完整：</strong> （可用於任務和問題提醒）僅當提醒通知關聯的對象狀態不是「完成」且項目狀態為「當前」時，才計畫發送提醒通知。</li> 
-        <li><strong>當前項目中的所有項目：</strong>（可用於任務和問題提醒）無論對象狀態如何，並且僅當提醒通知關聯的項目狀態為「當前」時，系統才計畫發送提醒通知。</li> 
-        <li><strong>未完成項目：</strong> （可用於專案提醒）當專案狀態為「完成」以外的任何值時，系統會排程傳送提醒通知。</li> 
-        <li><strong>完成專案：</strong> （可用於項目提醒）計畫在項目狀態為「完成」時發送提醒通知。</li> 
-        <li><strong>開啟工時單：</strong> （可用於時間表提醒）時間表狀態為「開啟」時，將排程發送提醒通知。</li> 
-        <li><strong>已提交工時單：</strong> （可用於時間表提醒）提醒通知計畫在提交時間表狀態時發送。</li> 
-        <li><strong>未結工時單或每週少於40小時：</strong> （可用於時間表提醒）當時間表狀態為「開啟」或時間表記錄時間少於40小時時，將排程發送提醒通知。</li> 
-        <li><strong>電子郵件範本：</strong> 從下拉式清單中，選取要附加至提醒的電子郵件範本。<br>如需如何建立電子郵件範本的資訊，請參閱 <a href="../../../administration-and-setup/manage-workfront/emails/configure-email-templates.md" class="MCXref xref">設定電子郵件範本</a>.</li> 
+        <li><strong>目前專案中未完成：</strong> （可用於任務和問題提醒）提醒通知排程為僅當與提醒通知關聯的物件狀態未完成且專案狀態為目前時傳送。</li> 
+        <li><strong>目前專案中的所有專案：</strong>（可用於任務和問題提醒）提醒通知已排定為不論物件狀態為何，並且僅當提醒通知關聯的專案狀態為「目前」時傳送。</li> 
+        <li><strong>未完成的專案：</strong> （可用於專案提醒）提醒通知已排定在專案狀態為完成以外的任何時間傳送。</li> 
+        <li><strong>完成專案：</strong> （可用於專案提醒）提醒通知已排定在專案狀態為完成時傳送。</li> 
+        <li><strong>未完成的時程表：</strong> （可用於時程表提醒）提醒通知已排程在時程表狀態為「開啟」時傳送。</li> 
+        <li><strong>已提交的時程表：</strong> （可用於時程表提醒）提醒通知已排程在時程表狀態為已提交時傳送。</li> 
+        <li><strong>未完成的時程表或每週不到40小時：</strong> （可用於時程表提醒）提醒通知排程在時程表狀態為「開啟」或時程表記錄少於40小時時傳送。</li> 
+        <li><strong>電子郵件範本：</strong> 從下拉式清單中，選取要附加至提醒的電子郵件範本。<br>有關如何建立電子郵件範本的資訊，請參閱 <a href="../../../administration-and-setup/manage-workfront/emails/configure-email-templates.md" class="MCXref xref">設定電子郵件範本</a>.</li> 
        </ul> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">收件者</td> 
-      <td>選取您要接收通知的使用者類型。 從各種對象利害關係方（如所有者、批准者或受託人）中選擇。</td> 
+      <td>選取您要接收通知的使用者型別。 從各種物件關係人中選取，例如擁有者、核准者或受指派人。</td> 
      </tr> 
     </tbody> 
    </table>
 
 1. 按一下&#x200B;**儲存**。
-1. 將提醒通知附加到工作項，如 [將提醒通知附加到對象](../../../workfront-basics/using-notifications/attach-reminder-notification-object.md).
+1. 將提醒通知附加至工作專案，如所述 [將提醒通知附加至物件](../../../workfront-basics/using-notifications/attach-reminder-notification-object.md).
 
 ## 接收提醒通知
 
-當附加提醒通知的項目符合條件時，就會觸發電子郵件通知給提醒通知中定義的使用者。
+當附加了提醒通知的專案符合條件時，會觸發電子郵件通知給在提醒通知中定義的使用者。
 
-有關接收提醒通知的詳細資訊，請參閱 [提醒通知](../../../workfront-basics/using-notifications/wf-notifications.md#reminder-notifications) 區段 [Adobe Workfront通知](../../../workfront-basics/using-notifications/wf-notifications.md).
+如需有關接收提醒通知的詳細資訊，請參閱 [提醒通知](../../../workfront-basics/using-notifications/wf-notifications.md#reminder-notifications) 中的區段 [Adobe Workfront通知](../../../workfront-basics/using-notifications/wf-notifications.md).
 
-## 測試提醒通知傳送
+## 測試提醒通知傳遞
 
-提醒通知會在每天午夜、山區時間觸發。 所有符合提醒通知資格的物件會在通知完成後不久觸發通知給指定使用者。
+提醒通知會在山地時間的每個午夜觸發。 所有符合提醒通知資格的物件都會在稍後觸發通知給指定的使用者。
 
-若要手動觸發提醒通知，必須先滿足提醒的條件。\
-例如，如果將提醒設定為在項目的計畫完成日期後一小時觸發，則該時間必須在設定提醒時和現在之間經過。 任何在啟動提醒之前已傳遞計畫完成日期的項目都不會觸發通知。
+若要導致手動觸發提醒通知，必須首先滿足提醒條件。\
+例如，如果設定提醒是在專案計畫完成日期後一小時觸發，該時間必須在設定提醒與現在之間經過。 任何在啟動提醒前已超過計畫完成日期的專案都不會觸發通知。
 
 若要手動觸發提醒通知：
 
-1. 按一下 **主菜單** 圖示 ![](assets/main-menu-icon.png) 在Adobe Workfront的右上角，然後按一下 **設定** ![](assets/gear-icon-settings.png).
+1. 按一下 **主要功能表** 圖示 ![](assets/main-menu-icon.png) (位於Adobe Workfront的右上角)，然後按一下 **設定** ![](assets/gear-icon-settings.png).
 
-1. 按一下 **系統** > **診斷** 在Workfront左下角。
+1. 按一下 **系統** > **診斷** 在Workfront的左下角。
 
-1. 按一下 **發送提醒通知** 並等待畫面頂端的確認訊息已傳送。
+1. 按一下 **傳送提醒通知** 並在熒幕上方等待傳送確認。
 
-   提醒通知中指定的使用者會收到電子郵件。
+   在提醒通知中指定的使用者會收到電子郵件。
