@@ -8,7 +8,7 @@ description: Adobe Workfront Fusion的「組織」和「團隊」功能可讓企
 author: Becky
 feature: Workfront Fusion
 exl-id: 601e937f-0286-4557-9a87-59aa9c0c22f1
-source-git-commit: 6531f318d9fb34b38a378a28e4d478c428bd1c25
+source-git-commit: 9828fe3602342520ef203ac174990f0ea03f0588
 workflow-type: tm+mt
 source-wordcount: '1133'
 ht-degree: 0%
@@ -97,8 +97,6 @@ ht-degree: 0%
 1. 按一下&#x200B;**[!UICONTROL 儲存]**。
 
 [!DNL Fusion] 傳送一封包含特定組織邀請的電子郵件，並 [!UICONTROL 接受角色] 按鈕。
-
-![](assets/accept-the-role.png)
 
 當收件者按一下按鈕時，系統會將他們重新導向至邀請頁面，讓他們接受邀請。
 
