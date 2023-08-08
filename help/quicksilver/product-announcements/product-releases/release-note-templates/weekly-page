@@ -7,7 +7,9 @@ feature: Product Announcements
 ---
 # <!-- add release --> release activity week of <!-- add date -->
 
-This page describes all enhancements made with the <!-- add release --> release to the Preview environment the week of <!-- add date -->. These enhancements will be made available in the Production environment with the <!-- add release --> release. 
+This page describes all enhancements made with the <!-- add release --> release to the Preview environment the week of <!-- add date -->. These enhancements will be made available in the Production environment with the <!-- add release --> release.
+
+<!--On (DATE, SUCH AS August 31, 2023), the enhancements listed on this page were released to Production for the fast release (monthly) track. For more information on the fast release process, see [Enable or disable the fast release process](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).-->
 
 For a list of all changes available at this point in the <!-- add release -->release cycle, see [<!-- add release --> Release overview](ADD LINK TO OVERVIEW PAGE).
 
