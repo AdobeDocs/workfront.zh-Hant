@@ -7,7 +7,7 @@ author: Alina
 feature: Product Announcements
 role: User, Admin
 exl-id: 1c0cb547-ac99-4cdf-8a74-2c47ad5a10ad
-source-git-commit: 4a4efe7d8a354bc9ec22a607fe6e75040e7cca24
+source-git-commit: fb18fb0793a9e28ecc4d1b91c3a1010ee842028e
 workflow-type: tm+mt
 source-wordcount: '1569'
 ht-degree: 3%
@@ -16,9 +16,9 @@ ht-degree: 3%
 
 # 新的評論體驗發行活動
 
-本頁包含目前在Adobe Workfront中執行之新評論體驗之發行時間表的相關資訊。
+本頁包含目前在Adobe Workfront中執行之新評論體驗的發行時間表相關資訊。
 
-如需新評論體驗的一般資訊，包括目前可用或正在研究的功能清單，請參閱 [新的評論體驗](../new-commenting-experience-beta/unified-commenting-experience.md).
+如需有關新評論體驗的一般資訊，包括目前可用或正在研究的功能清單，請參閱 [新的評論體驗](../new-commenting-experience-beta/unified-commenting-experience.md).
 
 >[!IMPORTANT]
 >
@@ -26,30 +26,30 @@ ht-degree: 3%
 >
 >針對Workfront物件發佈至Beta版體驗的註解功能也會發佈至下列物件的「更新」區段，作為唯一的註解體驗：
 >* 目標
->* 卡片位於展示板區域。
+>* 卡片在面板區域。
 
 ## 發行時間表
 
-我們計畫以互動方式發佈新的評論體驗。 這將影響每個版本的選取物件。 一開始，可能會發行一小部分功能，一段時間後，會新增更多功能至剩餘物件。
+我們計畫以反複的方式推出新的評論體驗。 這將會影響每個發行版本中的選取物件。 一開始可能會發行一小部分功能，而一段時間後，將會有更多功能新增至剩餘物件。
 
 如需哪些Workfront物件會顯示「更新」區段的資訊，請參閱   [更新區段概觀](../../../workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
-以下是向生產環境發佈新評論體驗的計畫時間表，其中包含關鍵里程碑。 除了下列里程碑，我們將繼續透過較小的增強功能改善評論體驗。 如需所有已發行功能的詳細資訊，請參閱 [已發行功能](#released-features) 章節。
+以下是新註解體驗發行至生產環境的計畫時間表，其中包含關鍵里程碑。 除了下列里程碑，我們將繼續透過較小的增強功能改善評論體驗。 如需所有已發行功能的詳細資訊，請參閱 [已發行功能](#released-features) 一節。
 
 * 第23.2發行版本（2023年4月6日）：
-   * 為問題評論Experience Beta
+   * 為問題註解Experience Beta
    * 目標的新評論體驗（作為唯一體驗）
 * 第23.3發行版本（2023年7月20日）：
    * 為專案、任務和檔案評論Experience Beta。
-   * 「展示板」區域中卡片的新註解體驗（作為唯一體驗）
-* 23.4版本期間（日期有待宣佈） (限量發行<!--, only available to customers that choose the fast release -->)：
-   * 適用於範本、範本任務、計畫、投資組合、團隊、使用者和時程表的新評論體驗（作為唯一體驗）
+   * 「面板」區域中卡的新註解體驗（作為唯一體驗）
+* 在23.4版本期間（日期有待宣佈） (限量發行<!--, only available to customers that choose the fast release -->)：
+   * 適用於範本、範本任務、方案、投資組合、團隊、使用者和時程表的新評論體驗（作為唯一體驗）
 * 23.4版（2023年10月初）
-   * 適用於範本、範本任務、計畫、投資組合、團隊、使用者和時程表的新評論體驗（作為唯一體驗）
+   * 適用於範本、範本任務、方案、投資組合、團隊、使用者和時程表的新評論體驗（作為唯一體驗）
   <!--wait for Anna to confirm this after the teams are starting to work on this and will be closer to finish line; QBR is June 19, 2023, but wait until MUCH after this: * Add the new commenting experience to Home and the Summary panel. -->
-   * 為專案、任務、問題和檔案評論Experience Beta會成為預設選項。
+   * 為專案、任務、問題和檔案評論Experience Beta版會成為預設選項。
 * 2023年底：
-   * 舊版註釋體驗將保留為下列物件的選項：專案、任務、問題和檔案。
+   * 舊版註釋體驗將保留為以下物件的選項：專案、任務、問題和檔案。
 
   >[!NOTE]
   >
@@ -57,19 +57,19 @@ ht-degree: 3%
 
 ## 已發行功能
 
-以下小節包含原始發行後新增的功能清單，從最近發行的功能開始。
+下節包含原始發行後新增的功能清單，從最近發行的功能開始。
 
-以下資訊是指每週發行活動，其基礎為新的評論測試版體驗中所包含的功能。 本文列出針對新評論體驗新增的功能及已解決的問題。
+以下資訊是指每週發行活動，其基礎為包含在新的評論測試版體驗中的功能。 本文列出針對新評論體驗新增的功能及已解決的問題。
 
 ### 2023年6月19日後發行的功能
 
 <!--restructure this section with actual weeks and dates, when we know them-->
 
-本節所列功能計畫於2023年6月19日當週後不久發行。
+本節所列功能預計於2023年6月19日當週後不久發行。
 
 #### 自動標籤所有執行緒參與者
 
-註解擁有者現在會在對話串中自動標籤。 在此更新之前，只有使用「@name」標籤或透過將其新增到顯示在已標籤使用者清單中的「標籤人員或團隊」部分來標籤的使用者。 有了它，您現在就可以視需要從對話串中移除評論的擁有者，即使他們之前沒有手動標籤。
+評論擁有者現在會在對話串中自動標籤。 在此更新之前，僅限使用「@name」標籤，或將其新增到已標籤使用者清單中顯示的「標籤人員或團隊」區段來標籤的使用者。 有了它，您現在就可以根據需要從對話串中移除評論的所有者，即使他們之前沒有手動標籤。
 
 預計預覽版本： 2023年7月12日
 
@@ -87,7 +87,7 @@ ht-degree: 3%
 
 #### 在新回覆中引用註解內容
 
-現在，您能夠複製註解的內容，並在使用新註解體驗時，將其作為新引號新增到相同對話串中的回覆。
+現在，您能夠複製註解的內容，並在使用新的註解體驗時，以新引號的形式新增到相同對話串的回覆中。
 
 如需詳細資訊，請參閱 [更新工作](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
@@ -95,19 +95,19 @@ ht-degree: 3%
 
 生產版本： 2023年6月29日
 
-#### 將表情符號新增至更新
+#### 新增表情符號至更新
 
 您現在可以使用新註解體驗中的RTF工具列選項，將表情符號新增到註解中。
 
 如需詳細資訊，請參閱 [更新工作](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md). 說明檔案將在發行時更新。
 
-預覽和生產：即將宣佈（在23.3版本期間或之後不久）
+預覽和生產：即將宣佈（在23.3版本期間或後不久） <!--August 10, 2023-->
 
 #### 其他物件的新註解體驗
 
-在23.3版發佈到生產環境後不久，以下物件將可使用新的評論體驗：範本任務、範本、時程表、團隊、使用者、計畫、投資組合。
+在23.3版發佈至生產環境後不久，以下物件將可使用新的評論體驗：範本任務、範本、時程表、團隊、使用者、計畫、投資組合。
 
-這將是這些物件的唯一註解體驗，因為當您存取這些物件時，舊版註解體驗會被移除。
+這將是這些物件的唯一註解體驗，因為當您存取它們時，舊版註解體驗會被移除。
 
 如需詳細資訊，請參閱 [新的評論體驗](../../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md). 說明檔案將在發行時更新。
 
@@ -121,13 +121,13 @@ ht-degree: 3%
 
 #### 面板區域中卡片的新註解體驗
 
-新的註解體驗現在可用於展示板區域中的卡片。 這是卡片唯一可用的體驗。 如需詳細資訊，請參閱 [23.3版本總覽](../../product-releases/23.3-release-activity/23-3-release-overview.md).
+新的註解體驗現在可用於面板區域中的卡片。 這是卡片唯一可用的體驗。 如需詳細資訊，請參閱 [23.3版本總覽](../../product-releases/23.3-release-activity/23-3-release-overview.md).
 
 預覽： 2023年6月15日
 
 提前選擇加入的生產版本： 2023年6月22日
 
-適用於所有客戶的生產：透過23.3版
+適用於所有客戶的生產：搭配23.3版
 
 #### 將區塊引號新增至註解
 
@@ -143,9 +143,9 @@ ht-degree: 3%
 
 您現在可以在編輯註解時使用下列快速鍵：
 
-* CTRL + Z (Mac為CMD + Z)以復原變更
+* CTRL + Z (Mac為CMD + Z)可復原變更
 
-* 按CTRL + Y (Mac為CMD + Y)以重做變更
+* CTRL + Y (Mac為CMD + Y)以重做變更
 
 在這些增強功能之前，您無法在編輯註解時復原或重做變更。 如需詳細資訊，請參閱 [更新工作](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
@@ -159,7 +159,7 @@ ht-degree: 3%
 
 #### 專案、任務和檔案的新註解測試版體驗
 
-新的註解Beta版體驗現在可用於專案、任務和檔案。 在此更新之前，評論Beta版體驗僅適用於問題和目標。
+新的評論測試版體驗現在可用於專案、任務和檔案。 在此更新之前，評論Beta版體驗僅適用於問題和目標。
 
 預覽： 2023年6月1日
 
@@ -167,11 +167,11 @@ ht-degree: 3%
 
 >[!NOTE]
 >
->從2023年6月1日開始針對新評論測試版體驗發佈的任何功能，都將在23.3版發佈至生產環境後，可用於專案、任務和檔案的生產環境。 如需詳細資訊，請參閱 [23.3版本總覽](../../../product-announcements/product-releases/23.3-release-activity/23-3-release-overview.md).
+>從2023年6月1日開始針對新註解Beta版體驗發佈的任何功能，在23.3版發佈至生產環境後，都可在生產環境中用於專案、任務和檔案。 如需詳細資訊，請參閱 [23.3版本總覽](../../../product-announcements/product-releases/23.3-release-activity/23-3-release-overview.md).
 
 #### 編輯評論後新增「已編輯」標籤的外觀
 
-編輯新註解Beta版體驗中的註解時，「已編輯」標籤會新增至註解。 此標籤現在具有原來發行標籤的新外觀。 註解的日期和時間戳記是原始註解的日期和時間。 它們不是進行編輯時的日期和時間戳記。  如需詳細資訊，請參閱 [更新工作](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+在新的註解測試版體驗中編輯註解時，「已編輯」標籤會新增到註解中。 此標籤現在具有原來發佈的新外觀。 註解的日期和時間戳記是原始註解的日期和時間。 不是進行編輯時的日期和時間戳記。  如需詳細資訊，請參閱 [更新工作](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
 預覽： 2023年5月31日
 
@@ -187,7 +187,7 @@ ht-degree: 3%
 
 #### 在新的評論Beta版體驗中記錄時間
 
-使用新的註解Beta版體驗時，您可以從更新區域記錄問題、任務和專案的時間。 如需詳細資訊，請參閱 [記錄時間](../../../timesheets/create-and-manage-timesheets/log-time.md).
+使用新的註解測試版體驗時，您可以從更新區域記錄問題、任務和專案的時間。 如需詳細資訊，請參閱 [記錄時間](../../../timesheets/create-and-manage-timesheets/log-time.md).
 
 預覽： 2023年6月1日
 
@@ -210,11 +210,11 @@ ht-degree: 3%
 
 ### 2023年5月1日起一週
 
-#### 從註解中移除附件或移除包含附件的註解時，會從「檔案」區域移除影像
+#### 當從註解中移除附件或移除包含附件的註解時，會從「檔案」區域移除影像
 
 移除或編輯包含附件的註解時，我們正在變更附件的工作方式。 現在，當您編輯註解並移除附件時，或者當您刪除包含附件的註解時，附件也會從「檔案」區域中移除。 在此變更之前，在先前的註解體驗中，附件仍保留在您的「檔案」區域中。 如需詳細資訊，請參閱 [更新工作](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
-依預設，在以下日期適用於評論Beta版體驗和Workfront目標的問題：
+依預設，可用於下列日期發表測試版體驗和Workfront目標註解的問題：
 
 * 預覽和生產： 2023年5月4日
 
@@ -240,5 +240,5 @@ ht-degree: 3%
 
 ### 2023年4月6日當週
 
-針對問題推出新的評論測試版體驗。
-針對Workfront物件的評論測試版發佈的相同功能，會針對有權存取Workfront目標的所有使用者同時發佈目標。 如需詳細資訊，請參閱 [23.2版本總覽](../../product-releases/23.2-release-activity/23-2-release-overview.md).
+新的發表評論測試版體驗已針對問題推出。
+針對Workfront物件的評論測試版所發行的相同功能，會針對有權存取Workfront目標的所有使用者同時發行目標。 如需詳細資訊，請參閱 [23.2版本總覽](../../product-releases/23.2-release-activity/23-2-release-overview.md).
