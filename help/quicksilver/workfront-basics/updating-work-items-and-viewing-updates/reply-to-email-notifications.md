@@ -2,26 +2,35 @@
 product-area: projects
 navigation-topic: update-work-items-and-view-updates
 title: 回覆電子郵件通知
-description: 您可以在不登入Adobe Workfront的情況下對物件進行註解。 您可以回應對專案、任務、問題和其他物件進行評論後所產生的Workfront電子郵件。
+description: 您可以回應根據對專案、任務、問題和其他物件的評論所產生的Workfront電子郵件通知，將回覆新增至Adobe Workfront應用程式中所做的原始評論。
 author: Lisa and Alina
 feature: Get Started with Workfront
 exl-id: fea88410-8f37-49d0-9f5d-9fbac4ab5de6
-source-git-commit: f5019325da11e66bf9ab315065ae2b7693660431
+source-git-commit: 413e5ff710b4c77b7ea2d870b34bb0627a4fcd86
 workflow-type: tm+mt
-source-wordcount: '107'
-ht-degree: 7%
+source-wordcount: '595'
+ht-degree: 1%
 
 ---
 
 # 回覆電子郵件通知
 
-您可以在不登入Adobe Workfront的情況下對物件進行註解。
+根據您的電子郵件通知的設定方式，在您有權存取的特定物件進行更新時，您可能會收到電子郵件通知。
+
+您可以透過下列方式回覆電子郵件通知的更新：
+
+回覆原始註解。
+
+* 使用電子郵件內的「評論」按鈕可導覽回Workfront並回覆更新區域的更新。
+* 回覆您收到的電子郵件。 您的回覆電子郵件已新增為Workfront
+
+
 
 >[!NOTE]
 >
->叢集6上的環境無法透過電子郵件回覆更新。
+>叢集6上的環境無法使用電子郵件回覆更新。
 
-您可以回應對下列物件進行評論後所產生的Workfront電子郵件：
+您可以回應針對下列物件所做評論所產生的Workfront電子郵件：
 
 * 專案
 * 任務
@@ -33,8 +42,76 @@ ht-degree: 7%
 * 反覆項目
 * 時程表
 
+## 存取需求
+
+您必須具有下列存取權才能執行本文中的步驟：
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader"><strong>Adobe Workfront計畫*</strong></td> 
+   <td> <p>任何</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><strong>Adobe Workfront授權*</strong></td> 
+   <td> <p>要求或更高的問題和檔案；檢閱或更高的所有其他物件</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><strong>存取層級設定*</strong></td> 
+   <td> <p>問題和檔案的要求者或以上；所有其他物件的檢閱者或以上</p> <p><b>附註</b>
+
+如果您還是沒有存取權，請詢問您的Workfront管理員，他們是否在您的存取層級中設定其他限制。 如需有關Workfront管理員如何修改您的存取層級的資訊，請參閱 <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>.</p> </td>
+</tr> 
+  <tr> 
+   <td role="rowheader"><strong>物件許可權</strong></td> 
+   <td> <p>檢視物件的存取權</p> <p>如需請求其他存取許可權的詳細資訊，請參閱 <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">要求物件的存取權 </a>.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+## 回覆電子郵件通知的更新
+
+當您收到電子郵件通知時，您可以從電子郵件通知快速開啟相關聯的Workfront物件，並直接新增回覆至通訊對話串。
+
+1. 開啟Workfront中更新產生的電子郵件通知。
+
+   ![email.png](assets/email-350x202.png)
+1. 按一下 **註解** 從電子郵件通知。
+
+   物件的「詳細資訊」頁面會在Workfront中開啟。
+
+1. 前往您要新增回覆的更新。
+
+   除了檢視積極參與交談的使用者外，您還可以在該更新對話串頂端檢視每個回覆中被標籤的訪客。 這些使用者以及訂閱物件的任何使用者會在物件進行更新或回覆時收到通知。 若要標籤更多使用者，請參閱 [標籤其他人的更新](../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
+
+1. 按一下 **回覆，** 輸入您的回覆，然後按一下 **回覆**.
+
+   回覆會新增為註解對話串的新註解。
+
+## 透過回覆電子郵件通知，為物件新增更新
+
+當您收到Workfront電子郵件通知時，無需登入Workfront即可快速將更新新增到通訊對話串。
+
 >[!IMPORTANT]
 >
->為避擴音交錯誤，Outlook使用者應先刪除現有的電子郵件內容，再輸入您的回覆。
+>* 您必須擁有至少檢視觸發更新的物件的許可權，才能回覆電子郵件通知。
+>
+>* 為避擴音交錯誤，Outlook使用者應先刪除現有的電子郵件內容，再輸入您的回覆。
+
+若要將更新新增至Workfront電子郵件：
+
+1. 從您的電子郵件應用程式中，開啟您要回覆的Workfront電子郵件，然後從原始電子郵件開啟回覆電子郵件視窗。
+
+   >[!NOTE]
+   >
+   >    您無法回覆別人轉寄給您的電子郵件通知。
 
 
+1. 在電子郵件回覆中輸入您的更新。
+
+   不允許附件，且在「更新」標籤中檢視時，套用至電子郵件中更新的任何RTF格式都不會顯示在更新上。
+1. 按一下 **傳送**.
+
+   您的更新會新增為物件之通訊對話串的回覆。
