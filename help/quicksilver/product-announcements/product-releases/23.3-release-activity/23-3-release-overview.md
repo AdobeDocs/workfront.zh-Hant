@@ -4,9 +4,9 @@ description: 23.3版本總覽
 author: Becky
 feature: Product Announcements
 exl-id: 9bf786e2-e077-4504-b928-9091fcb61ec1
-source-git-commit: 368ad085a1f07ea9301bd1d5279add76b9cd86d9
+source-git-commit: 53c124eec4d78b59e5b44e95ec28db7de779aec7
 workflow-type: tm+mt
-source-wordcount: '2736'
+source-wordcount: '2738'
 ht-degree: 0%
 
 ---
@@ -729,7 +729,7 @@ ht-degree: 0%
                                 <p>預覽版本：在整個23.3版本時間範圍內</p>
                             </li>
                             <li>
-                                <p><span class="preview">釋出後至少需要2週才能預覽（除非另有指定）</span></p>
+                                <p><span class="preview">生產發行：發行至預覽後至少需要2週（除非另有指定）</span></p>
                             </li>
                         </ul>
                     </td>
