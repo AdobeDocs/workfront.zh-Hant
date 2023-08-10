@@ -5,10 +5,10 @@ title: 開始使用Adobe Workfront中的新首頁
 description: 新首頁是管理您工作的強大新功能。
 author: Nolan
 feature: Get Started with Workfront
-source-git-commit: 40eccf1fa13b4221ca599b74c0adff9063b7249a
+source-git-commit: 8c18753f5bd51a90f74357b8630ca6404e779f8f
 workflow-type: tm+mt
-source-wordcount: '1048'
-ht-degree: 20%
+source-wordcount: '1095'
+ht-degree: 19%
 
 ---
 
@@ -23,7 +23,9 @@ ht-degree: 20%
 
 ### 介面工具
 
-Widget是New Home的基礎。 將Widget新增到首頁後，您就可以選擇顯示的資訊型別，以最符合您的工作需求。 某些Widget僅適用於特定授權型別，因為它們追蹤的物件僅適用於這些授權。 目前有十個Widget可供選擇，以及它們顯示的資訊摘要如下：
+Widget是New Home的基礎。 將Widget新增到首頁後，您就可以選擇顯示的資訊型別，以最符合您的工作需求。 某些Widget僅適用於特定授權型別，因為它們追蹤的物件僅適用於這些授權。 如需新增、移動、調整大小或刪除介面工具集的資訊，請參閱 [新增、編輯或移除新首頁中的Widget](/help/quicksilver/workfront-basics/using-home/new-home/add-edit-remove-widgets-in-new-home.md).
+
+目前有十個Widget可供選擇，以及它們顯示的資訊摘要如下：
 
 * **我的工作**\
     此 Widget 是管理各種工作的絕佳起點，它會在同一處顯示所有已指派的任務、問題和請求。
@@ -50,7 +52,7 @@ Widget是New Home的基礎。 將Widget新增到首頁後，您就可以選擇�
     在具有可自訂欄的表格中顯示貴組織的所有核准，以及可讓您搜尋特定核准的搜尋列。
 
 * **提及**\
-    顯示最近在 Workfront 中 @ 提及您的評論對話串，以及可讓您在 Widget 中撰寫回覆的回覆按鈕。
+    顯示最近在 Workfront 中 @ 提及您的評論對話串，以及可讓您在 Widget 中撰寫回覆的回覆按鈕。只要任務或問題在過去30天內已更新，此Widget也會顯示針對您指派給、您指派給其他使用者、您擁有、您是主要連絡人或您建立之任務或問題所做的評論。
 
 * **待辦事項**\
     這個獨特的Widget可讓您將文字專案新增至您可自由編輯的個人檢查清單。
@@ -114,8 +116,6 @@ Widget是New Home的基礎。 將Widget新增到首頁後，您就可以選擇�
         <td>等待我的核准，待辦事項</td>
     </tr>
 </table>
-
-如需新增、移動、調整大小或刪除介面工具集的資訊，請參閱 [新增、編輯或移除新首頁中的Widget](/help/quicksilver/workfront-basics/using-home/new-home/add-edit-remove-widgets-in-new-home.md)
 
 ### 背景自訂
 
