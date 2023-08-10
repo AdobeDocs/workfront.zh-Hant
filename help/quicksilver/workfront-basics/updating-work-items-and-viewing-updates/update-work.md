@@ -6,9 +6,9 @@ description: 您可以在Adobe Workfront物件（專案、任務或問題）上�
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: 413e5ff710b4c77b7ea2d870b34bb0627a4fcd86
+source-git-commit: ca4b3bc9f88a42102f33537dc7b9fd45e0a108d8
 workflow-type: tm+mt
-source-wordcount: '3486'
+source-wordcount: '3460'
 ht-degree: 1%
 
 ---
@@ -240,8 +240,6 @@ drafted for P&P release:
    >「新」指標只有在輸入新更新的使用者以及目前輸入更新的使用者都使用新註解體驗時才會顯示。
    >![](assets/real-time-new-red-indicator-unified-commenting.png)
 
-1. 按一下 **新增附件** 圖示 ![](assets/add-image-paperclip-icon.png) <!--replace this icon with this new one for August 10: ![](assets/add-image-mountain-with-plus-icon.png)--> 將影像新增至您的註解。 您必須先將影像儲存在電腦上，才能附加影像。 <!--**************** this might be renamed to "Add image")-->
-
 1. 按一下 **提交** 將更新新增至Workfront物件。
 1. （可選）若要編輯註解，請按一下 **更多** 功能表 ![](assets/more-menu.png) 按一下「讚」圖示右側，然後按一下 **編輯**.
 1. 編輯註解中的資訊、新增或移除影像，或移除任何已標籤的使用者。
@@ -301,7 +299,6 @@ drafted for P&P release:
    | 項目符號清單 | ![mceclip6.png](assets/mceclip6.png) | ⌘+Shift+8 | Ctrl+Shift+8 |
    | 編號清單 | ![mceclip5.png](assets/mceclip5.png) | ⌘+Shift+7 | Ctrl+Shift+7 |
    | 封鎖報價 | ![](assets/block-quote-icon-large.png) | ⌘+Shift+9 | Ctrl+Shift+9 |
-   | 表情符號 | ![](assets/emoji-icon.png) | ⌘+. | ⊞+. |
 
    若要停止格式化文字，請取消選取 **RTF文字** 工具列。
 
@@ -345,7 +342,7 @@ drafted for P&P release:
 
    或
 
-   按一下 **新增附件** 圖示 ![](assets/add-image-paperclip-icon.png) 並使用註解Beta版體驗時，可瀏覽至電腦上的影像。 <!--the name of the icon and the icon for it might change-->
+   按一下 **新增附件** 圖示 ![](assets/add-image-mountain-with-plus-icon.png) 並使用註解Beta版體驗時，可瀏覽至電腦上的影像。 <!--**************** the tooltip of this icon might be renamed to "Add image")-->
 
    >[!NOTE]
    >

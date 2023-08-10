@@ -5,7 +5,7 @@ author: Alina, Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 6c0fa8af-cd89-4941-a6f6-aa4e84a7dc67
-source-git-commit: 3d4ba0396c5a59b1109ec70a6e85b77d0d093bf5
+source-git-commit: 1129f8ab93d349325bed56bc2b3ba94c2600c03f
 workflow-type: tm+mt
 source-wordcount: '1142'
 ht-degree: 1%
@@ -13,8 +13,6 @@ ht-degree: 1%
 ---
 
 # 設定提醒通知
-
-<!--hidden content for the tab redesign in August 2023-->
 
 提醒通知會根據指定條件傳送電子郵件給收件者。 作為Adobe Workfront管理員或具有提醒通知的供需規劃員存取層級和管理存取權的使用者，您可以手動將提醒通知與您的工作專案相關聯，例如專案、任務、問題和時程表。
 
@@ -68,9 +66,8 @@ An example of how this can be used would be helpful here and/or in the section <
 
 1. 按一下 **電子郵件** > **通知** > **提醒通知**.
 
-   <!--hidden for the tab redesign for August 2023:
    ![](assets/remider-notifications-tab-in-setup-email-notifications-area.png)
-   -->
+
 1. 按一下 **新提醒通知**.
 
 1. 在下拉式清單中，按一下您要與提醒通知關聯的物件型別。
