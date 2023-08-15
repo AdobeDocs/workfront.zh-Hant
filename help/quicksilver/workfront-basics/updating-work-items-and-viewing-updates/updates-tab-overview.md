@@ -7,9 +7,9 @@ description: 物件的「更新」區段會顯示使用者對物件所做的註�
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: fb18fb0793a9e28ecc4d1b91c3a1010ee842028e
+source-git-commit: d93d42322d62ff5eb927ca13febcb763cbec3f13
 workflow-type: tm+mt
-source-wordcount: '1127'
+source-wordcount: '1126'
 ht-degree: 4%
 
 ---
@@ -18,7 +18,31 @@ ht-degree: 4%
 
 <!--take "Beta" references out when we remove the beta-->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available for all customers only in the Preview environment.</span>-->
+<!--after August 17: 
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers, or in the Production environment for customers who enabled fast releases. </span>  
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](workfront/using/administration-and-setup/set-up-wf/configure-system-defaults/enable-fast-release-process.html?lang=en ). </span>  
+<span class="preview">For information about the current release, see [Fourth Quarter 2023 release overview](../../../product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md). </span>-->
+
+<!--replace the note below with this at August 17: 
+>[!NOTE]
+>
+>We are currently redesigning the commenting experience in Adobe Workfront.
+>Depending on what environment and what objects you access the commenting experience from, you might see different functionality in the Updates section. 
+>For more information about the new commenting experience and its availability, see [New commenting experience](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md). 
+>
+>The new commenting experience is available only for the Updates section, and it is not available for the following areas:
+>
+> * Home
+> * Summary panel in lists
+> * Summary panel in timesheets
+
+-->
+
+<!-- with October 26 release: add somewhere this:
+
+>[!NOTE]
+>
+>Iterations display the legacy commenting experience.-->
 
 >[!NOTE]
 >
@@ -29,7 +53,7 @@ ht-degree: 4%
 >您可以存取下列物件的新體驗：
 > * 問題、專案、任務和檔案。
 >
->     當您啟用註釋Beta版體驗時，即可使用此功能。
+>     當您啟用新的評論體驗時，這是可用的。
 >
 >     此功能僅適用於「更新」區段，不適用於下列區域：
 >
@@ -50,6 +74,8 @@ ht-degree: 4%
 根據您從哪個環境存取更新，更新區段中的資訊會有不同的組織方式。
 
 ### 目前更新區段的總覽
+
+<!--October 26 - replace current with legacy-->
 
 * 物件的「更新」區段會顯示最近90天內進行的最多200個更新。
 
@@ -89,8 +115,8 @@ ht-degree: 4%
 
 * 目前的「更新」段落顯示下列資訊：
 
-   * 使用者更新：使用者所做的評論和對這些評論的回覆。
-   * 系統更新： Workfront為記錄物件上的特定事件而建立的資訊訊息。 例如，您可以使用系統更新來擷取狀態、名稱或自訂欄位中的變更。 您的Workfront或群組管理員可以為您的物件啟用系統更新。 如需詳細資訊，請參閱 [設定系統更新](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
+   * **使用者更新**：使用者所做的評論和對這些評論的回覆。
+   * **系統更新**：Workfront為記錄物件上的特定事件而建立的資訊訊息。 例如，您可以使用系統更新來擷取狀態、名稱或自訂欄位中的變更。 您的Workfront或群組管理員可以為您的物件啟用系統更新。 如需詳細資訊，請參閱 [設定系統更新](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
 
 * 下列物件不會記錄系統更新：
 
@@ -98,9 +124,11 @@ ht-degree: 4%
    * 範本
    * 範本任務
 
-### Beta版評論體驗中「更新」區段的概觀
+### 新評論體驗中「更新」區段的概觀
 
 如需有關新註解體驗有哪些功能可用以及哪些物件的資訊，請參閱 [新的評論體驗](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
+
+<!--update screen shot and maybe save it under a new name??? with the August 17 release-->
 
 ![](assets/updates-tab-after-unified-experience-for-issues.png)
 
@@ -111,7 +139,31 @@ ht-degree: 4%
 
 * 目前，您可以在下列物件上使用新的註解體驗來新增註解及回覆更新：
 
-  <table style="table-layout:auto"> 
+<!--replace the table with this list on August 17: 
+
+    * Projects
+    * Tasks (and stories)
+    * Issues
+    * Documents
+
+    <span class="preview">
+    
+    * Templates
+    * Template Tasks
+    * Timesheets
+    * Users
+    * Portfolios
+    * Programs
+    
+    >[!NOTE]
+    >
+    >    You cannot display the new commenting experience for iterations. 
+
+    </span>
+  
+  -->
+
+<table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 
@@ -134,7 +186,7 @@ ht-degree: 4%
     </tbody> 
     </table>
 
-  *當您啟用資訊卡上的「註解」和「系統活動」區段時，您可以在「展示板」區域新增和檢視資訊卡的更新。 如需詳細資訊，請參閱 [新增臨機卡到展示板](../../agile/get-started-with-boards/add-card-to-board.md).
+*當您啟用資訊卡上的「註解」和「系統活動」區段時，您可以在「展示板」區域新增和檢視資訊卡的更新。 如需詳細資訊，請參閱 [新增臨機卡到展示板](../../agile/get-started-with-boards/add-card-to-board.md).
 
 <!--enable this when we release the new update stream to ALL other objects and only if Anna's bug was fixed to include this: 
 
@@ -227,7 +279,7 @@ ht-degree: 4%
 >
 >如需Adobe Workfront中物件階層的相關資訊，請參閱 [瞭解Adobe Workfront中的物件](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
 >
-> 您無法在新的註解Beta版體驗中回覆系統更新。 如需詳細資訊，請參閱 [新的評論體驗](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
+> 無法在新評論體驗中回覆系統更新。 如需詳細資訊，請參閱 [新的評論體驗](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 
 ## 更新區段的限制
 

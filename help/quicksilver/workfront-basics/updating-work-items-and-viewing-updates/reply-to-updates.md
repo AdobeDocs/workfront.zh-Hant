@@ -8,18 +8,36 @@ feature: Get Started with Workfront
 role: User
 topic: Collaboration
 exl-id: a8271f3c-7a08-4eb3-aaff-deb250f5af73
-source-git-commit: 413e5ff710b4c77b7ea2d870b34bb0627a4fcd86
+source-git-commit: d93d42322d62ff5eb927ca13febcb763cbec3f13
 workflow-type: tm+mt
-source-wordcount: '1053'
+source-wordcount: '1052'
 ht-degree: 0%
 
 ---
 
 # 回覆更新
 
-<!--take "Beta" references out when we remove the beta-->
+<!--take "Beta" references out when we remove the beta and change "current" to "legacy" after October 26-->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available for all customers only in the Preview environment.</span>-->
+<!--after August 17: 
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers, or in the Production environment for customers who enabled fast releases. </span>  
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](workfront/using/administration-and-setup/set-up-wf/configure-system-defaults/enable-fast-release-process.html?lang=en ). </span>  
+<span class="preview">For information about the current release, see [Fourth Quarter 2023 release overview](../../../product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md). </span>-->
+
+<!--replace the note below with this at August 17: 
+>[!NOTE]
+>
+>We are currently redesigning the commenting experience in Adobe Workfront.
+>Depending on what environment and what objects you access the commenting experience from, you might see different functionality in the Updates section. 
+>For more information about the new commenting experience and its availability, see [New commenting experience](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md). 
+>
+>The new commenting experience is available only for the Updates section, and it is not available for the following areas:
+>
+> * Home
+> * Summary panel in lists
+> * Summary panel in timesheets
+
+-->
 
 >[!NOTE]
 >
@@ -49,7 +67,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->您無法在新的註解Beta版體驗中回覆系統更新。 如需詳細資訊，請參閱 [新的評論體驗](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
+>無法在新評論體驗中回覆系統更新。 如需詳細資訊，請參閱 [新的評論體驗](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 
 
 ## 存取需求
@@ -101,7 +119,7 @@ ht-degree: 0%
 
 1. 按一下 **回覆** 在更新時，在出現的方塊中輸入回覆。
 
-   您可以在該更新對話串頂端看到目前參與交談或每個回覆中被標籤的使用者。 這些使用者以及訂閱物件的任何使用者會在物件進行更新或回覆時收到通知。 您也可以標籤更多使用者，讓他們加入您的回覆中。  若要標籤更多使用者，請參閱 [標籤其他人的更新](../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
+   您可以在該更新對話串頂端看到目前參與對話或每個回覆中被標籤的使用者。 這些使用者以及訂閱物件的任何使用者會在物件進行更新或回覆時收到通知。 您也可以標籤更多使用者，讓他們加入您的回覆中。  若要標籤更多使用者，請參閱 [標籤其他人的更新](../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
 
    ![](assets/tagging-transparency-350x192.png)
 
@@ -109,13 +127,13 @@ ht-degree: 0%
 1. （選用）使用格式、表情符號、包含連結或影像，如文章「在Workfront更新中使用RTF文字」一節中所述 [更新工作](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 1. 按一下 **回覆** 以儲存回覆。
 
-### 使用評論Beta版體驗時回複評論
+### 使用新註解體驗時回覆註解
 
-如需有關新註解體驗有哪些功能可用以及哪些物件的資訊，請參閱 [新的評論體驗](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
+如需有關新註解體驗中哪些功能可用以及哪些物件的資訊，請參閱 [新的評論體驗](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 
 1. 移至您要新增回覆的物件。
 1. 按一下 **更新**，然後按一下 **註解** 定位物件，並尋找您要回覆的註解或回覆。
-1. （可選）若要在回覆中包含先前更新的文字，請按一下 **更多** 要報價的更新或回覆旁邊的功能表，然後按一下 **引用回覆**. 先前更新的文字會出現在輸入區域中，以垂直灰色線標示。
+1. （可選）若要在回覆中包含先前更新的文字，請按一下 **更多** 您想要報價的更新或回覆旁的功能表 <!--(replace placing of the More menu - August 17) <span class="preview">in the upper-right corner of the comment you want to reply to</span>-->，然後按一下 **引用回覆**. 先前更新的文字會出現在輸入區域中，以垂直灰色線標示。
 1. 按一下 **回覆**.
 
    您可以在頁面底部看到目前參與交談的使用者 **新註解** 方塊中，您可以新增更多或移除不再相關的專案。 這些使用者以及訂閱物件的任何使用者會在物件進行更新或回覆時收到通知。 您也可以標籤更多使用者，讓他們加入您的回覆中。  若要標籤更多使用者，請參閱 [標籤其他人的更新](../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
@@ -124,7 +142,7 @@ ht-degree: 0%
 
 1. 按一下 **提交** 以儲存回覆。
 
-1. （可選）按一下 **更多** 功能表 ![](assets/more-menu.png) ，瞭解更多用於管理回覆的選項。 如需詳細資訊，請參閱 [更新工作](../updating-work-items-and-viewing-updates/update-work.md).
+1. （可選）按一下 **更多** 功能表 ![](assets/more-menu.png) 在更新旁邊 <!--(replace placing of the More menu - August 17) <span class="preview">in the upper-right corner of the comment you want to reply to</span>--> 以取得管理回覆的更多選項。 如需詳細資訊，請參閱 [更新工作](../updating-work-items-and-viewing-updates/update-work.md).
 
 
 ## 回覆電子郵件通知的更新
