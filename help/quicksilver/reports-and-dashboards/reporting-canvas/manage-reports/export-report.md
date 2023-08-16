@@ -5,7 +5,9 @@ author: Nolan
 draft: Probably
 feature: Reports and Dashboards
 exl-id: bd9e2e6f-338e-4cfc-aee5-6de6ecff4f09
-source-git-commit: ca70952bf0acd71f748b042852d434b560727a83
+hidefromtoc: true
+hide: true
+source-git-commit: a9c36ff874d3272e1d2de70578c420af29b9d44c
 workflow-type: tm+mt
 source-wordcount: '181'
 ht-degree: 1%
@@ -14,7 +16,7 @@ ht-degree: 1%
 
 # 匯出報告畫布中的報告
 
-您可以將整個報表（或特定區塊）匯出為符合您需求的檔案格式。 您可以匯出至：
+您可以將整個報表（或特定區塊）匯出為檔案格式，以符合您的需求。 您可以匯出至：
 
 * PDF（目前已停用）
 * CSV
@@ -23,7 +25,7 @@ ht-degree: 1%
 
 ## 必要條件
 
-開始之前，您必須先註冊報表畫布Beta版。 如需詳細資訊，請參閱 [報告畫布測試版：概觀](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/reporting-canvas-beta-overview.md).
+開始之前，您必須先註冊Reporting Canvas測試版。 如需詳細資訊，請參閱 [報告畫布Beta版：概觀](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/reporting-canvas-beta-overview.md).
 
 ## 匯出報告
 
@@ -35,9 +37,9 @@ ht-degree: 1%
    >關於匯出的檔案，請考量下列事項：
    >
    >   * 如果將包含多個表格的報表匯出為XLSX格式，則匯出的檔案會包含每個表格的個別工作表。
-   >   * 如果將包含多個表格的報表匯出為CSV格式，則匯出的結果會是壓縮的資料夾，其中包含每個表格的單獨檔案。
-   >   * 如果將包含已分組列的表格匯出為CSV格式，則CSV檔案會包含所有列，但不會以群組顯示。
-
+   >   * 如果將包含多個表格的報表匯出為CSV格式，則匯出的結果會是一個壓縮資料夾，其中包含每個表格的單獨檔案。
+   >   * 如果將包含已分組列的表格匯出為CSV格式，則CSV檔案會包含所有列，但它們不會以群組顯示。
+   >   
 
 <!-- 1. (Conditional) If you selected **PDF**, configure the fields below to format the exported file, then click **Download PDF**.
 

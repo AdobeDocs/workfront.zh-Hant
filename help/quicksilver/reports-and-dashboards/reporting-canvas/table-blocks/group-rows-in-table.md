@@ -5,7 +5,9 @@ author: Nolan
 draft: Probably
 feature: Reports and Dashboards
 exl-id: 355bbe5b-9c66-4b6b-b479-a48a20b53fe6
-source-git-commit: ca70952bf0acd71f748b042852d434b560727a83
+hidefromtoc: true
+hide: true
+source-git-commit: a9c36ff874d3272e1d2de70578c420af29b9d44c
 workflow-type: tm+mt
 source-wordcount: '345'
 ht-degree: 2%
@@ -15,22 +17,22 @@ ht-degree: 2%
 
 # 在報告畫布中將表格列分組
 
-您可以組織報表中的資訊，方法是將其顯示在由貨幣、日期、百分比、文字和時間欄位定義的群組中。
+您可以透過在貨幣、日期、百分比、文字和時間欄位定義的群組中顯示資訊來組織報表中的資訊。
 
 ## 必要條件
 
-開始之前，您必須先註冊報表畫布Beta版。 如需詳細資訊，請參閱 [報告畫布測試版：概觀](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/reporting-canvas-beta-overview.md).
+開始之前，您必須先註冊Reporting Canvas測試版。 如需詳細資訊，請參閱 [報告畫布Beta版：概觀](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/reporting-canvas-beta-overview.md).
 
 ## 將表格中的列分組
 
-1. 按一下 **主要功能表** 圖示 ![](assets/main-menu-icon.png) Adobe Workfront右上角，然後按一下 **報告**.
+1. 按一下 **主要功能表** 圖示 ![](assets/main-menu-icon.png) (位於Adobe Workfront的右上角)，然後按一下 **報告**.
 1. 按一下 **新報告**.
 
    或
 
    前往現有報表，按一下 **更多選單** 圖示 ![](assets/more-icon.png) 在報表標題中，然後選取 **編輯**.
 
-1. 若要將新表格上的列分組，請將表格區塊拖曳或連按兩下至畫布上。
+1. 若要將新表格上的列分組，請將表格區塊拖曳或連按兩下至畫布。
 
    或
 
@@ -40,9 +42,9 @@ ht-degree: 2%
 
    您可以使用 **搜尋** 方塊以尋找特定群組。
 
-1. 在「 」右側的下拉式功能表中 **群組** 欄位中，選取您要如何排序群組。
+1. 在右側的下拉式功能表中 **群組** 欄位中，選取您要如何排序群組。
 
-   選項會因您用來分組列的欄位型別而異。
+   選項會因您用來將列分組的欄位型別而異。
 
    <table style="table-layout:auto"> 
     <col> 
@@ -75,8 +77,8 @@ ht-degree: 2%
       <td role="rowheader">文字</td> 
       <td> 
        <ul> 
-        <li> <p>A到Z</p> </li> 
-        <li> <p>Z到A</p> </li> 
+        <li> <p>A至Z</p> </li> 
+        <li> <p>Z至A</p> </li> 
        </ul> </td> 
      </tr> 
      <tr> 
@@ -93,9 +95,9 @@ ht-degree: 2%
 1. 執行下列任一項作業：
 
    * 若要新增另一個群組，請從側面板拖曳另一個欄位。
-   * 若要顯示依預設摺疊之群組中的列，請按一下 **更多選單** 圖示 ![](assets/more-icon.png) 按一下群組旁的「 」 **收合群組**.
+   * 若要顯示依預設摺疊之群組中的列，請按一下 **更多選單** 圖示 ![](assets/more-icon.png) 按一下群組旁的「 」 **摺疊群組**.
 
-      每個群組可個別設定為以收合或展開列的方式顯示。 依預設，會收合所有分組的列。
+     每個群組都可以個別設定為以收合或展開的列顯示。 依預設，會收合所有分組的列。
 
    * 若要在群組列中顯示計數，請按一下 **更多選單** 圖示 ![](assets/more-icon-27x15.png) 按一下群組旁的「 」 **顯示計數**.
    * 若要移除群組，請按一下 **更多選單** 圖示 ![](assets/more-icon.png) 按一下群組旁的「 」 **移除群組**.
