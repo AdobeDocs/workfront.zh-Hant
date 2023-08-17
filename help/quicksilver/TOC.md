@@ -3,9 +3,9 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文件、教學課程和其他資源，了解如何在您的組織中實施並有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: 381dafce2163b3f2bba3f5775ec6314d704eb61d
+source-git-commit: 6871cd4faea6b02cf0ed3f89e32f6963fd4b4df9
 workflow-type: tm+mt
-source-wordcount: '13160'
+source-wordcount: '13164'
 ht-degree: 1%
 
 ---
@@ -344,8 +344,8 @@ ht-degree: 1%
             * [R1預覽4](product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-preview-4.md)
             * [R1預覽5](product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-preview-5.md)
             * [R1發行網路研討會](product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-release-webinars.md)
-   * 佈告 {#announcements}
-      * [佈告](product-announcements/announcements/announcements.md)
+   * 公告 {#announcements}
+      * [公告](product-announcements/announcements/announcements.md)
       * [自訂表單增強功能](product-announcements/announcements/custom-form-enhancements.md)
       * [不再支援的功能排程](product-announcements/announcements/feature-removal-timeline.md)
       * [維護期間常見問題集](product-announcements/announcements/maintenance-window-faq.md)
@@ -962,6 +962,7 @@ ht-degree: 1%
       * [將現有任務或問題新增到展示板](/help/quicksilver/agile/get-started-with-boards/add-card-from-list-to-board.md)
       * [管理卡片](agile/get-started-with-boards/move-board-items.md)
       * [管理卡片上的檢查清單專案](/help/quicksilver/agile/get-started-with-boards/manage-checklist-items.md)
+      * [在卡片上新增檔案](/help/quicksilver/agile/get-started-with-boards/add-documents-on-cards.md)
       * [自訂要在卡片上顯示的欄位](/help/quicksilver/agile/get-started-with-boards/customize-fields-on-card.md)
       * [從展示板中刪除或封存卡片](agile/get-started-with-boards/delete-board-items.md)
       * [在展示板中篩選和搜尋](agile/get-started-with-boards/filter-search-in-board.md)
@@ -1096,7 +1097,7 @@ ht-degree: 1%
          * [疑難排解Adobe Experience Manager整合](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/troubleshoot-aem-asset-integration.md)
    * 從舊版或增強型聯結器移轉 {#migrate-from-legacy-enhanced-connectors}
       * [從舊版或增強型聯結器移轉](documents/workfront-and-experience-manager-integrations/legacy-enhanced-connector-migration/migrate-from-legacy-enhanced-connectors.md)
-      * [從舊版或增強型聯結器移轉至Workfront，以進行Adobe Experience Manageras a Cloud Service整合](documents/workfront-and-experience-manager-integrations/legacy-enhanced-connector-migration/migrate-to-workfont-integration.md)
+      * [從舊版或增強型聯結器移轉至Workfront，以便Adobe Experience Manageras a Cloud Service整合](documents/workfront-and-experience-manager-integrations/legacy-enhanced-connector-migration/migrate-to-workfont-integration.md)
       * [從舊版聯結器移轉至增強型聯結器](documents/workfront-and-experience-manager-integrations/legacy-enhanced-connector-migration/migrate-from-legacy-to-enhanced.md)
       * [解除安裝具有Adobe Experience Manager舊版聯結器的Workfront](documents/workfront-and-experience-manager-integrations/legacy-enhanced-connector-migration/uninstall-legacy-connector.md)
       * [解除安裝具有Adobe Experience Manager增強型聯結器的Workfront](documents/workfront-and-experience-manager-integrations/legacy-enhanced-connector-migration/uninstall-enhanced-connector.md)
@@ -2050,7 +2051,7 @@ ht-degree: 1%
    * Adobe Workfront Fusion中的案例 {#scenarios-in-fusion}
       * [Adobe Workfront Fusion中的案例](workfront-fusion/scenarios/scenarios.md)
       * [Adobe Workfront Fusion案例概觀](workfront-fusion/scenarios/scenario-overview.md)
-      * [在Adobe Workfront Fusion中建立案例](workfront-fusion/scenarios/create-a-scenario.md)
+      * [在Adobe Workfront Fusion中建立情境](workfront-fusion/scenarios/create-a-scenario.md)
       * [Adobe Workfront Fusion中的案例編輯器](workfront-fusion/scenarios/scenario-editor.md)
       * [Adobe Workfront Fusion中的基本案例設定](workfront-fusion/scenarios/basic-scenario-settings.md)
       * [Adobe Workfront Fusion中的案例設定面板](workfront-fusion/scenarios/scenario-settings-panel.md)

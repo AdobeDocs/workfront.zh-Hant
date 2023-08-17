@@ -6,9 +6,9 @@ description: 您可以在展示板上新增卡片，該卡片會連線至Workfro
 author: Lisa
 feature: Agile
 exl-id: c6d979dd-e4a4-48a5-a91b-b31d7ef848d1
-source-git-commit: c063bd9505a785ea738d07e082328871245216f2
+source-git-commit: 55ba26b65cf046806f5a198e4de1b5eed2e08384
 workflow-type: tm+mt
-source-wordcount: '1434'
+source-wordcount: '1426'
 ht-degree: 0%
 
 ---
@@ -27,8 +27,10 @@ ht-degree: 0%
 * [!UICONTROL 狀態]
 * [!UICONTROL 規劃完成日期]
 * [!UICONTROL 預估] / [!UICONTROL 劇本點]
+* <span class="preview">[!UICONTROL 文件]</span>
 
 >[!NOTE]
+>
 >每個展示板只能新增一次單一連線任務或問題。 相同任務或問題可以連線到多個展示板。
 
 ## 存取需求
@@ -143,8 +145,7 @@ ht-degree: 0%
      </tr>
      <tr>
       <td role="rowheader"><span class="preview"><strong>[！UICONTROL檔案]</strong></span></td>
-      <td><span class="preview"><p>將滑鼠停留在檔案縮圖上，然後按一下 <strong>預覽</strong> 在瀏覽器中檢視檔案，或 <strong>下載</strong> 將檔案下載到您的電腦。</p></span>
-      <span class="preview"><p><strong>注意：</strong> 此時，必須將檔案上傳至Workfront工作，才能在連線的卡片上使用。</p></span></td>
+      <td><span class="preview">針對現有檔案，將滑鼠停留在檔案縮圖上，然後按一下 <strong>預覽</strong> 在瀏覽器中檢視檔案，或 <strong>下載</strong> 將檔案下載到您的電腦。 如需新檔案，請參閱 <a href="/help/quicksilver/agile/get-started-with-boards/add-documents-on-cards.md">在卡片上新增檔案</a>.</span></td>
      </tr>
      <tr>
       <td role="rowheader"><strong>[！UICONTROL小時]</strong></td>
