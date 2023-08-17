@@ -3,9 +3,9 @@ title: 2023年第四季版本總覽
 description: 2023年第四季版本總覽
 author: Becky
 feature: Product Announcements
-source-git-commit: 381dafce2163b3f2bba3f5775ec6314d704eb61d
+source-git-commit: 1950effcb3bb0b36784159a214ed7e3db9d161d2
 workflow-type: tm+mt
-source-wordcount: '828'
+source-wordcount: '1286'
 ht-degree: 0%
 
 ---
@@ -59,8 +59,8 @@ ht-degree: 0%
                         <p><span class="bold">發行日期</span>
                         </p>
                     </td>
-                 </tr>  
-                 <tr>
+                </tr>  
+                <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-july-31.md" class="MCXref xref" xrefformat="{para}">連線卡片上的可用檔案僅供檢視</a></p><p>針對Adobe Workfront展示板上已連線的卡片，您現在可以檢視檔案，例如影像和PDF。 您可以在瀏覽器中預覽檔案或下載到您的電腦。 </p>
                     </td>
@@ -83,16 +83,6 @@ ht-degree: 0%
                 </tr>
                 <tr>
                     <td>
-                        <p><span class="bold">功能</span>
-                        </p>
-                    </td>
-                    <td>
-                        <p><span class="bold">發行日期</span>
-                        </p>
-                    </td>
-                 </tr>  
-                 <tr>
-                    <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-july-31.md" class="MCXref xref" xrefformat="{para}">專案的面板檢視現在可針對問題使用</a></p><p>您現在可以存取專案問題清單的展示板檢視。 Kanban展示板可協助您以比在清單中檢視更直觀的方式追蹤問題進度。 </p>
                     </td>
                     <td><p><b>將於下列日期提供：</b></p>
@@ -101,6 +91,26 @@ ht-degree: 0%
                                 <p>預覽版本： 2023年8月3日<br /></p>
                             </li>
                              <li>
+                                <p>快速發行生產：23.8版</p>
+                            </li>
+                            <li>
+                                <p>每季發行生產：23.10版本</p>
+                            </li>
+                        </ul>
+                    </td>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-14.md" class="MCXref xref" xrefformat="{para}">在連線的卡片上新增檔案</a></p><p>您現在可以在Adobe Workfront展示板上所連線的卡片上附加檔案。 您新增到卡片上的任何檔案都可在已連線任務或問題的檔案索引標籤上使用，且兩個區域都支援相同的檔案型別。</p>
+                    </td>
+                    <td><p><b>將於下列日期提供：</b></p>
+                        <ul>
+                            <li>
+                                <p>預覽版本： 2023年8月17日<br /></p>
+                            </li>
+                            <li>
+                                <p>主機板搶先使用的生產日期： 2023年8月24日</p>
+                            </li>
+                            <li>
                                 <p>快速發行生產：23.8版</p>
                             </li>
                             <li>
@@ -147,8 +157,105 @@ ht-degree: 0%
                         </ul>
                     </td>
                 </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-14.md" class="MCXref xref" xrefformat="{para}">表單上計算欄位的動態重新計算</a> </p>
+                        <p>現在當頁面上任何表單的相依值被修改時，附加到物件的表單上的計算欄位會動態地即時重新計算。 這可讓您在不儲存表單的情況下檢視更新後的結果。</p>
+                    </td>
+                    <td><p><b>將於下列日期提供：</b></p>
+                        <ul>
+                            <li>
+                                <p>預覽版本： 2023年8月17日<br /></p>
+                            </li>
+                            <li>
+                                <p>快速發行生產：23.8版</p>
+                            </li>
+                            <li>
+                                <p>每季發行生產：23.10版本</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-14.md" class="MCXref xref" xrefformat="{para}">在子週期性任務上設定沒有指派的簡單期間型別的計畫時數</a></p>
+                        <p>我們對計畫時數分配至無指派和簡單期間型別的週期性任務的方式進行了更改。 現在，當您在具有「簡單期間型別」且沒有指派的新遞回任務上設定計畫時數時，時數也會分配給個別遞回。 在此變更之前，當父任務被取消指派時，不會為個別循環儲存時數。</p>
+                    </td>
+                    <td><p><b>將於下列日期提供：</b></p>
+                        <ul>
+                            <li>
+                                <p>預覽版本： 2023年8月17日<br /></p>
+                            </li>
+                            <li>
+                                <p>快速發行生產：23.8版</p>
+                            </li>
+                            <li>
+                                <p>每季發行生產：23.10版本</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
            </tbody>
         </table>
+
+<!--
+### Financial management enhancements
+
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 50%;" />
+            <tbody>
+                <tr>
+                    <td>
+                        <p><span class="bold">Feature</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">Release dates</span>
+                        </p>
+                    </td>
+                 </tr>  
+                 <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-finance-enhancements.md" class="MCXref xref" xrefformat="{para}">Date effective cost and billing rates</a> </p><p>This update has been announced with the 23.3 release.</p>
+                        <p>Date effective cost and billing rates are now available on the company, user, and job role objects in Workfront. When date effective rates are applied to a project, and hours are logged on project tasks, the costs and revenue are calculated using the specified rates for each time period.</p>
+                    </td>
+                    <td><p><b>Available on these dates:</b></p>
+                        <ul>
+                            <li>
+                                <p>Preview release: June 29, 2023<br /></p>
+                            </li>
+                            <li>
+                                <p>Production for fast release: With the 23.8 release</p>
+                            </li>
+                            <li>
+                                <p>Production for quarterly release: With the 23.10 release</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-14.md" class="MCXref xref" xrefformat="{para}">Bulk delete rates from rate cards</a> </p>
+                        <p>You can now remove multiple rates at one time from a rate card in the Setup area.</p>
+                    </td>
+                    <td><p><b>Available on these dates:</b></p>
+                        <ul>
+                            <li>
+                                <p>Preview release: August 17, 2023<br /></p>
+                            </li>
+                            <li>
+                                <p>Production for fast release: With the 23.8 release</p>
+                            </li>
+                            <li>
+                                <p>Production for quarterly release: With the 23.10 release</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+           </tbody>
+        </table>
+-->
 
 ### 其他增強功能
 
@@ -165,27 +272,64 @@ ht-degree: 0%
                         <p><span class="bold">發行日期</span>
                         </p>
                     </td>
-                 </tr>
-                 <!--
-                 <tr>
+                </tr>
+                <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-7.md" class="MCXref xref" xrefformat="{para}">Dynamic re-calculation of calculated fields on native and custom forms</a> <span style="color: #ff0000;"> New in Preview!</span></p><p>Calculated fields on a form attached to an object are now dynamically re-calculated in real time when dependent values on any form on the page are modified. This allows you to see the updated results without saving the form.</p>
+                        <a href="/help/quicksilver/product-announcements/betas/new-commenting-experience-beta/new-commenting-beta-experience-release-activity.md" class="MCXref xref" xrefformat="{para}">新的評論體驗測試版增強功能</a> </p>
+                        <p>「更新」區段的增強功能將在2023年第四季發行時間範圍內提供評論體驗Beta版。 這些增強功能將在2023年第四季度版本（2023年10月）的生產環境中提供給所有客戶。</p>
                     </td>
-                    <td><p><b>Available on these dates:</b></p>
+                    <td><p><b>將於下列日期提供：</b></p>
                         <ul>
                             <li>
-                                <p>Preview release: August 17, 2023</p>
+                                <p>預覽版本：在整個2023年第四季版本時間範圍<br /></p>
                             </li>
                             <li>
-                                <p>Production for fast release: With the 23.8 release</p>
+                                <p>快速發行生產：從23.8版開始</p>
                             </li>
                             <li>
-                                <p>Production for quarterly release: With the 23.10 release</p>
+                                <p>每季發行生產：23.10版（除非另有指定）</p>
                             </li>
                         </ul>
                     </td>
                 </tr>
-                -->
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-release-activity.md" class="MCXref xref" xrefformat="{para}">新的畫布控制面板Beta版增強功能</a> </p>
+                        <p>畫布控制面板的增強功能將在2023年第四季度發行時間範圍內提供，作為進行中Beta版的一部分。 這些增強功能將在2023年第四季度版本（2023年10月）的生產環境中提供給所有客戶。</p>
+                    </td>
+                    <td><p><b>將於下列日期提供：</b></p>
+                        <ul>
+                            <li>
+                                <p>預覽版本：在整個2023年第四季版本時間範圍<br /></p>
+                            </li>
+                            <li>
+                                <p>快速發行生產：從23.8版開始</p>
+                            </li>
+                            <li>
+                                <p>每季發行生產：23.10版（除非另有指定）</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-14.md" class="MCXref xref" xrefformat="{para}">變更為新首頁預設Widget集</a> </p>
+                        <p>待辦事項Widget需要建立任務的許可權，現在僅會出現在為具有標準、計畫或工作授權型別的使用者設定的預設Widget中。 此外，Widget已從所有其他授權型別使用者的首頁自動移除。</p>
+                    </td>
+                    <td><p><b>將於下列日期提供：</b></p>
+                        <ul>
+                            <li>
+                                <p>預覽版本： 2023年8月17日<br /></p>
+                            </li>
+                            <li>
+                                <p>快速發行生產： 2023年8月17日</p>
+                            </li>
+                            <li>
+                                <p>每季發行量： 2023年8月17日</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-look-and-feel-updates.md" class="MCXref xref" xrefformat="{para}">2023年第四季時間範圍內的外觀和感覺更新</a></p><p>在2023年第四季時間範圍內，對Adobe Workfront應用程式的各個區域外觀和感覺進行了小幅更新。 檢閱特定發行日期的個別發行說明。</p>
@@ -204,7 +348,7 @@ ht-degree: 0%
            </tbody>
         </table>
 
-## 佈告
+## 公告
 
 ### Workfront Fusion增強功能
 

@@ -5,10 +5,10 @@ title: 開始使用Adobe Workfront中的新首頁
 description: 新首頁是管理您工作的強大新功能。
 author: Nolan
 feature: Get Started with Workfront
-source-git-commit: 8c18753f5bd51a90f74357b8630ca6404e779f8f
+source-git-commit: 1950effcb3bb0b36784159a214ed7e3db9d161d2
 workflow-type: tm+mt
-source-wordcount: '1095'
-ht-degree: 19%
+source-wordcount: '1088'
+ht-degree: 20%
 
 ---
 
@@ -74,15 +74,15 @@ Widget是New Home的基礎。 將Widget新增到首頁後，您就可以選擇�
     </tr>
     <tr>
         <td>精簡</td>
-        <td>我的工作，等待我的核准，待辦事項</td>
+        <td>我的工作，等待我的核准</td>
     </tr>
     <tr>
         <td>參與者</td>
-        <td>我的工作、提及、待辦事項</td>
+        <td>我的工作，提及</td>
     </tr>
     <tr>
         <td>外部</td>
-        <td>等待我的核准，待辦事項</td>
+        <td>等待我的核准</td>
     </tr>
 </table>
 
@@ -101,19 +101,19 @@ Widget是New Home的基礎。 將Widget新增到首頁後，您就可以選擇�
     </tr>
     <tr>
         <td>檢閱</td>
-        <td>我的工作、提及、待辦事項</td>
+        <td>我的工作，提及</td>
     </tr>
     <tr>
         <td>有限</td>
-        <td>我的專案，等待我的核准，待辦事項</td>
+        <td>我的專案，等待我的核准</td>
     </tr>
     <tr>
         <td>參與者</td>
-        <td>我的工作、提及、待辦事項</td>
+        <td>我的工作，提及</td>
     </tr>
     <tr>
         <td>外部</td>
-        <td>等待我的核准，待辦事項</td>
+        <td>等待我的核准</td>
     </tr>
 </table>
 
