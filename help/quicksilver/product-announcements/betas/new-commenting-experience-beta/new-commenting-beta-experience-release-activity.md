@@ -7,10 +7,10 @@ author: Alina
 feature: Product Announcements
 role: User, Admin
 exl-id: 1c0cb547-ac99-4cdf-8a74-2c47ad5a10ad
-source-git-commit: d93d42322d62ff5eb927ca13febcb763cbec3f13
+source-git-commit: a1d312167292c1e37a96233e26c378d72fee2032
 workflow-type: tm+mt
-source-wordcount: '1618'
-ht-degree: 3%
+source-wordcount: '1894'
+ht-degree: 2%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 3%
 
 <!--
 <span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers, or in the Production environment for customers who enabled fast releases. </span>  
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](../../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)</span>  
+* <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](../../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)</span>  
 
 <span class="preview">For information about the current release, see [Fourth Quarter 2023 release overview](../../../product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md)</span> -->
 
@@ -27,17 +27,6 @@ ht-degree: 3%
 
 如需有關新評論體驗的一般資訊，包括目前可用或正在研究的功能清單，請參閱 [新的評論體驗](../new-commenting-experience-beta/unified-commenting-experience.md).
 
-
-<!--On August 17, replace the Important box below with the following - AND MAKE SURE THAT THE "WEEKLY RELEASE OF AUGUST 14" IS AN ACTUAL PAGE: 
-
->[!IMPORTANT]
->
->The new commenting experience launched in Beta with the 23.2 release. For information about the original release, see [23.2 Release overview](../../product-releases/23.2-release-activity/23-2-release-overview.md). 
->
->Starting with the weekly release of August 14, 2023, the beta commenting experience ended. 
->
-><span class="preview">New commenting features continued to be released to the Preview and Production environments, as described in the section [Release timeline](#release-timeline) in this article.</span>
--->
 
 >[!IMPORTANT]
 >
@@ -61,12 +50,11 @@ ht-degree: 3%
 * 第23.3發行版本（2023年7月20日）：
    * 為專案、任務和檔案評論Experience Beta。
    * 「面板」區域中卡的新註解體驗（作為唯一體驗）
-* 在23.10版（日期有待宣佈）期間（限量版，僅供選擇快速版本的客戶使用）： <!--for August 17 - add the actual date in here-->
+* 在2023年第四季版本（限量版，僅供選擇快速版本的客戶使用）：
    * 適用於範本、範本任務、方案、投資組合、團隊、使用者和時程表的新評論體驗（作為唯一體驗）
-   * 為專案、任務、問題和檔案評論Experience Beta版會成為預設選項。 這將結束新評論體驗的Beta階段。
-* 第23.10發行版本（2023年10月）
+   * 為專案、任務、問題和檔案評論Experience Beta版會成為預設選項。 「Beta」標籤會移除。
+* 2023年第四季(23.10)版本（2023年10月）
    * 適用於範本、範本任務、方案、投資組合、團隊、使用者和時程表的新評論體驗（作為唯一體驗）
-  <!--wait for Anna to confirm this after the teams are starting to work on this and will be closer to finish line; QBR is June 19, 2023, but wait until MUCH after this: * Add the new commenting experience to Home and the Summary panel. -->
    * 專案、任務、問題和檔案的新註解體驗會成為預設選項。 這將結束新評論體驗的Beta階段。
 * 2023年底：
    * 舊版註解體驗仍會是下列物件的次要選項：專案、任務、問題和檔案。
@@ -79,48 +67,93 @@ ht-degree: 3%
 
 下節包含原始23.2發行後新增的功能清單，從最近發行的功能開始。
 
-<!--For the August 17 release - IF ANNA AGREES NOT TO SEND STUFF TO BETA ANYMORE: 
-
->[!IMPORTANT]
->
-><span class="preview">The following section contains as a list of features released during the Beta phase of the commenting experience, between April - August 2023. </span>
->
-><span class="preview"></span>
->
-><span class="preview">All features released after August 17, 2023 will be announced in the main release overview page for the current releases, starting with the Fourth Quarter release of 2023. For information, see [Fourth Quarter 2023 release overview](../../../product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md). </span>
-
--->
-
-<!--for the August 17 release: remove the paragraph below and replace it with this: 
-
-The following information refers to the release activity on a weekly basis of the features included in the commenting beta experience between April - August, 2023. This article lists new features that were added and issues that were resolved for the new commenting experience. For information about features released after August 17, 2023, see [Fourth Quarter 2023 release overview](../../../product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md).
--->
-
 以下資訊是指每週發行活動，其基礎為包含在新的評論測試版體驗中的功能。 本文列出針對新評論體驗新增的功能及已解決的問題。
 
-<!--add the following with the August 17 release: 
+### 2023年8月14日當週（2023年第四季版本開始）
 
-### Week of August 14, 2023
+#### 其他物件的新註解體驗
 
-#### Avatar improvements when tagging users in an update
+在23.3版發佈至生產環境後不久，以下物件將可使用新的評論體驗：範本任務、範本、時程表、團隊、使用者、計畫、投資組合。
 
-To give you better visibility into which users are tagged in an update, we now display the names of the users (up to two users) that are tagged in an update. For more information, see [Tag others in updates](../../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
+這將是這些物件的唯一註解體驗，因為當您存取它們時，舊版註解體驗會被移除。
 
--->
+如需詳細資訊，請參閱 [新的評論體驗](../../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 
-### 2023年6月19日後發行的功能
+預覽版本： 2023年8月17日
 
-<!--restructure this section with actual weeks and dates, when we know them-->
+快速發行的生產版本：23.8版（2023年8月31日）
 
-本節所列功能預計於2023年6月19日當週後不久發行。
+適用於所有客戶的生產版本：第23.10版本（2023年10月）
+
+#### 新評論資料流的新設計更新
+
+我們重新設計了新的評論流，以提供更新的外觀。 部分改善包括：
+
+* 註解資料流的內容會以頁面為中心，而非佔據整個頁面寬度。
+
+* 「更多」選單圖示會重新放置到註解的右上角，而非「讚」按鈕旁邊。
+
+* 現在，「讚」和「回覆」按鈕彼此相鄰。
+
+* 「記錄時間」按鈕已重新放置於註解區域的右上角。
+
+* 已新增新增新增新增回覆提示，以提示使用者將回覆新增至現有回覆。
+
+* 每個註解對話串之間有一條分隔線
+
+如需詳細資訊，請參閱 [更新索引標籤總覽](../../../workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
+
+預覽版本： 2023年8月17日
+
+快速發行生產：23.8版（2023年8月31日）
+
+每季發行生產：23.10版（2023年10月）
+
+#### 新的評論體驗是專案、任務、問題和檔案的預設體驗
+
+我們正在將新的註解體驗設定為下列物件的預設體驗：專案、任務、問題和檔案。  存取這些物件時，舊版註解體驗仍會作為替代選項。
+
+為了支援這項變更，我們也將的「註解測試版」切換重新命名為「新註解」。
+
+如需詳細資訊，請參閱 [新的評論體驗](../new-commenting-experience-beta/unified-commenting-experience.md).
+
+預覽版本： 2023年8月17日
+
+快速發行生產：23.8版（2023年8月31日）
+
+每季發行生產：23.10版（2023年10月）
+
+#### 在更新中標籤使用者時的頭像改善
+
+為了讓您更清楚地瞭解哪些使用者在更新中被標籤，我們現在會在更新中顯示被標籤的使用者名稱（最多兩個使用者）。 如需詳細資訊，請參閱 [在更新中標籤其他人](../../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
+
+預覽版本： 2023年8月17日
+
+快速發行生產：23.8版（2023年8月31日）
+
+適用於所有客戶的生產：23.10版（2023年10月）
+
+### 2023年8月7日當週
+
+#### 新增表情符號至更新
+
+您現在可以使用新註解體驗中的RTF工具列選項，將表情符號新增到註解中。
+
+如需詳細資訊，請參閱 [更新工作](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md). 說明檔案將在發行時更新。
+
+預覽和生產： 2023年8月10日
+
+### 2023年7月10日起一週
 
 #### 自動標籤所有執行緒參與者
 
 評論擁有者現在會在對話串中自動標籤。 在此更新之前，僅限使用「@name」標籤，或將其新增到已標籤使用者清單中顯示的「標籤人員或團隊」區段來標籤的使用者。 有了它，您現在就可以根據需要從對話串中移除評論的所有者，即使他們之前沒有手動標籤。
 
-預計預覽版本： 2023年7月12日
+預覽版本： 2023年7月12日
 
-預計生產版本： 2023年7月13日
+生產版本： 2023年7月13日
+
+### 2023年7月3日當週
 
 #### 記錄時間的新介面
 
@@ -130,7 +163,9 @@ To give you better visibility into which users are tagged in an update, we now d
 
 預覽版本： 2023年7月5日
 
-生產版本： 23.3版
+生產版本： 23.3版（2023年7月）
+
+### 2023年6月26日起一週
 
 #### 在新回覆中引用註解內容
 
@@ -142,28 +177,6 @@ To give you better visibility into which users are tagged in an update, we now d
 
 生產版本： 2023年6月29日
 
-#### 新增表情符號至更新
-
-您現在可以使用新註解體驗中的RTF工具列選項，將表情符號新增到註解中。
-
-如需詳細資訊，請參閱 [更新工作](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md). 說明檔案將在發行時更新。
-
-預覽和生產： 2023年8月10日
-
-#### 其他物件的新註解體驗
-
-在23.3版發佈至生產環境後不久，以下物件將可使用新的評論體驗：範本任務、範本、時程表、團隊、使用者、計畫、投資組合。
-
-這將是這些物件的唯一註解體驗，因為當您存取它們時，舊版註解體驗會被移除。
-
-如需詳細資訊，請參閱 [新的評論體驗](../../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md). 說明檔案將在發行時更新。
-
-預覽版本：將在23.3生產版本（2023年7月20日）之後宣佈
-
-快速發行客戶的生產版本：將在23.3版本之後宣佈
-
-適用於所有客戶的生產版本：搭配23.4版
-
 ### 2023年6月12日起一週
 
 #### 面板區域中卡片的新註解體驗
@@ -174,7 +187,7 @@ To give you better visibility into which users are tagged in an update, we now d
 
 提前選擇加入的生產版本： 2023年6月22日
 
-適用於所有客戶的生產：搭配23.3版
+適用於所有客戶的生產：23.3版（2023年7月）
 
 #### 將區塊引號新增至註解
 
@@ -210,7 +223,7 @@ To give you better visibility into which users are tagged in an update, we now d
 
 預覽： 2023年6月1日
 
-生產：第23.3發行版本
+生產： 23.3版（2023年7月）
 
 >[!NOTE]
 >
@@ -238,7 +251,7 @@ To give you better visibility into which users are tagged in an update, we now d
 
 預覽： 2023年6月1日
 
-生產：第23.3發行版本
+生產： 23.3版（2023年7月）
 
 ### 2023年5月15日起一週
 

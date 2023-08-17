@@ -6,9 +6,9 @@ description: 您可以在Adobe Workfront物件（專案、任務或問題）上�
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: d93d42322d62ff5eb927ca13febcb763cbec3f13
+source-git-commit: 4b6d14559f776ed5484a67fcc5f461f154cc5e30
 workflow-type: tm+mt
-source-wordcount: '3430'
+source-wordcount: '3496'
 ht-degree: 1%
 
 ---
@@ -19,56 +19,55 @@ ht-degree: 1%
 
 <!--take "Beta" references out when we remove the beta and change "current" to "legacy" after October 26-->
 
-<!--after August 17: 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers, or in the Production environment for customers who enabled fast releases. </span>  
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](workfront/using/administration-and-setup/set-up-wf/configure-system-defaults/enable-fast-release-process.html?lang=en ). </span>  
-<span class="preview">For information about the current release, see [Fourth Quarter 2023 release overview](../../../product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md). </span>-->
+<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它僅在預覽環境中可供所有客戶使用。 每月發行至生產環境後，生產環境中為啟用快速發行的客戶也提供相同的功能。 </span>\
+<span class="preview">如需快速發行版本的相關資訊，請參閱 [啟用或停用組織的快速發行](../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)</span>
 
-<!--replace the note below with this at August 17: 
->[!NOTE]
->
->We are currently redesigning the commenting experience in Adobe Workfront.
->Depending on what environment and what objects you access the commenting experience from, you might see different functionality in the Updates section. 
->For more information about the new commenting experience and its availability, see [New commenting experience](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md). 
->
->The new commenting experience is available only for the Updates section, and it is not available for the following areas:
->
-> * Home
-> * Summary panel in lists
-> * Summary panel in timesheets
+<span class="preview">如需目前發行排程的詳細資訊，請參閱 [2023年第四季版本總覽](../../product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md)</span>
 
--->
+>[!IMPORTANT]
+>
+>我們目前正在重新設計Adobe Workfront中的評論體驗。
+>根據您存取評論體驗的環境和物件，您可能會在更新區段中看到不同的功能。
+>
+>如需有關新評論體驗及其可用性的詳細資訊，請參閱 [新的評論體驗](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
+>
+>新註解體驗僅適用於「更新」區段，不適用於下列區域：
+>
+> * 首頁
+> * 清單中的摘要面板
+> * 時程表中的摘要面板
 
-<!-- with October 26 release: add somewhere this:
+<!-- with October 26 release: add somewhere this, and decide where we need to keep information about the legacy commenting. Should we create an article about iterations comments like we have for goals and cards?!:
 
 >[!NOTE]
 >
 >Iterations display the legacy commenting experience.-->
 
+<!--old message, before Auhust 17: 
 
 >[!NOTE]
 >
->我們目前正在重新設計Adobe Workfront中的評論體驗。
+>We are currently redesigning the commenting experience in Adobe Workfront.
 >
->如需有關新註解體驗的詳細資訊，請參閱 [新的評論體驗](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
+>For more information about the new commenting experience, see [New commenting experience](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md). 
 >
->您可以存取下列物件的新體驗：
-> * 問題、專案、任務和檔案。
+>You can access the new experience for the following objects:
+> * Issues, projects, tasks, and documents.
 >
->     當您啟用註釋Beta版體驗時，即可使用此功能。
+>     This is available when you enable the commenting Beta experience.
 >
->     此功能僅適用於「更新」區段，不適用於下列區域：
+>     This functionality is available only for the Updates section, and it is not available for the following areas:
 >
->     * 首頁
->     * 清單中的摘要面板
->     * 時程表中的摘要面板
+>     * Home
+>     * Summary panel in lists
+>     * Summary panel in timesheets
 >
-> * 面板區域中的目標、卡片
+> * Goals, cards in the Boards area
 >
->   新的評論體驗是目標和卡的唯一體驗。 您必須額外擁有授權才能存取Workfront目標。 如需詳細資訊，請參閱 [使用Workfront目標的需求](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+>   The new commenting experience is the only experience for goals and cards. You must have an additional license to access Workfront Goals. For more information, see [Requirements to use Workfront Goals](../../workfront-goals/goal-management/access-needed-for-wf-goals.md). 
 >
->     當您啟用卡片上的「註解」和「系統活動」區段時，您可以在「面板」區域中新增和檢視卡片的更新。 如需詳細資訊，請參閱 [新增臨機卡到展示板](../../agile/get-started-with-boards/add-card-to-board.md).
-
+>     You can add and view updates to cards in the Boards area when you enable the Comments and System Activity sections on a card. For more information, see [Add an ad hoc card to a board](../../agile/get-started-with-boards/add-card-to-board.md).
+-->
 
 ## 更新工作的相關考量事項
 
@@ -170,8 +169,6 @@ drafted for P&P release:
 
 ## 將更新新增至工作專案
 
-<!--drafted for the commenting experience - change the NOTE at the top of the following section with every new release to other objects -->
-
 將更新新增至工作專案會因更新區段的版本以及您選擇的物件而有所不同。
 
 ### 在目前的更新區段中新增更新至工作專案
@@ -245,9 +242,8 @@ drafted for P&P release:
 
    此 **註解** 標籤預設為選取。
 1. 開始在 **新註解** 方塊。
-   <!-- August 17 - add new screen shot and make yellow-->
 
-   ![](assets/comment-box-empty-unshimmed.png)
+   <span class="preview">![](assets/comment-box-empty-unshimmed.png)</span>
 
    >[!TIP]
    >
@@ -257,7 +253,7 @@ drafted for P&P release:
    * CTRL + Z (Mac為⌘ + z)可復原變更
    * 按CTRL + Y (Mac則為⌘ + y)以重做變更
 1. （選用）在 **標籤人員或團隊** 區域，開始輸入使用者或要納入此註解中的團隊的名稱或電子郵件，然後在其顯示在清單中時選取它。
-1. （選用）使用RTF文字，或新增 <!--hidden for August 10: emojis,--> 連結或影像至您的更新，以增強您的內容。 如需詳細資訊，請參閱 [在Workfront更新中使用RTF文字](#use-rich-text-in-a-workfront-update) 一節。
+1. （選用）使用RTF文字，或在更新中新增emoji、連結或影像，以增強您的內容。 如需詳細資訊，請參閱 [在Workfront更新中使用RTF文字](#use-rich-text-in-a-workfront-update) 一節。
 
    >[!TIP]
    >
@@ -266,16 +262,14 @@ drafted for P&P release:
    >指示器只會在提交專案的註解後顯示，不會在註解仍在撰寫時顯示。
    >
    >「新」指標只有在輸入新更新的使用者以及目前輸入更新的使用者都使用新註解體驗時才會顯示。
-   >![](assets/real-time-new-red-indicator-unified-commenting.png)
+   ><span class="preview">![](assets/real-time-new-red-indicator-unified-commenting.png)</span>
 
 1. 按一下 **提交** 將更新新增至Workfront物件。
-1. （可選）若要編輯註解，請按一下 **更多** 功能表 ![](assets/more-menu.png) 按一下「讚」圖示右側，然後按一下 **編輯**.
+1. （可選）若要編輯註解，請按一下 **更多** 功能表 ![](assets/more-menu.png)  <span class="preview">在註解的右上角</span>，然後按一下 **編輯**.
 1. 編輯註解中的資訊、新增或移除影像，或移除任何已標籤的使用者。
 您可以在15分鐘內編輯意見，而無需提交意見。 「已編輯」指標會新增至日期戳記的左側，該日期戳記會在更新評論時顯示。
 
-   <!--August 17 - new screen shot and make yellow-->
-
-   ![](assets/edited-tag-on-comment-unified-commenting.png)
+   <span class="preview">![](assets/edited-tag-on-comment-unified-commenting.png)</span>
 
    >[!TIP]
    >
@@ -283,13 +277,19 @@ drafted for P&P release:
    >* 註解旁邊的日期戳記是原始註解的日期，而不是上次編輯的日期。
 
 1. （選用）按一下 **回覆** 若要回覆現有註解，請遵循上述步驟4-8。 <!--(**************insure this stays accurate***********)--> 如需有關回覆更新的資訊，請參閱 [回覆更新](../../workfront-basics/updating-work-items-and-viewing-updates/reply-to-updates.md).
+
+   >[!TIP]
+   >
+   >   <span class="preview">若要在現有回覆中新增更多回覆，您可以開始輸入 **新增回覆……** 方塊，或按一下 **回覆** 在原始註解上。 您的回覆會新增至對話串的結尾。</span>
+
+
 1. （條件式與選擇性）如果其他使用者已新增註釋，且這些註釋顯示在「更新」區段的可見區域之外，請按一下 **檢視** 藍色內部 **新評論橫幅** 在熒幕底部顯示這些註解。
 
-   <!--August 17 - new screen shot and make yellow-->
-
-   ![](assets/blue-new-comments-banner-with-view-button.png)
+   <span class="preview">![](assets/blue-new-comments-banner-with-view-button.png)</span>
 
    熒幕底部會顯示其他註解。
+
+
 
    >[!NOTE]
    >
@@ -299,9 +299,12 @@ drafted for P&P release:
 1. （可選）按一下 **按讚** 圖示![](assets/like-icon.png). 圖示會隨著喜歡的數量而更新。
 1. （條件式與選擇式）如果您在註解中包含其他人員，請按一下更新中包含的成員數目，以顯示與您輸入的註解共用之實體的清單。
 
-<!--August 17 - new screen shot and make yellow-->
+   <span class="preview">![](assets/members-icons-expanded-unshimmed.png)</span>
 
-![](assets/members-icons-expanded-unshimmed.png)
+   >[!TIP]
+   >
+   >   <span class="preview">前兩個已標籤實體的名稱會顯示在它們的頭像旁。 如果兩個以上的圖元被標籤，則只顯示第一個圖元的名稱和其他圖元的數量。</span>
+
 1. （可選）按一下 **系統活動** 標籤以檢視系統記錄的更新。 當物件或其任何子系更新時，Workfront會產生有關該更新的附註，並將其顯示在系統活動標籤中。
 
    如需詳細資訊，請參閱 [更新區段概觀](../updating-work-items-and-viewing-updates/updates-tab-overview.md)
@@ -310,19 +313,22 @@ drafted for P&P release:
    >
    >您無法將註解新增至系統更新。
 
-
 ## 在Workfront更新中使用RTF文字{#use-rich-text-in-a-workfront-update}
 
-<!--August 10: remove this top note when we get to parity with the current version, OR change the note to mention that some options are ONLY available in the Beta version and not the current one.-->
+<!--October 2023: remove this top note when we get to parity with the current version, OR change the note to mention that some options are ONLY available in the Beta version and not the current one.-->
 
 >[!NOTE]
 >
->RTF工具列中的某些選項可能不適用於評論Beta版體驗。
+>RTF工具列中的某些選項可能不適用於新的評論體驗。
 
 您可以使用RTF或新增各種專案（例如emoji、連結或影像）來增強更新。
 
 1. 前往 **更新** Workfront區域，並開始輸入註解。
-1. （可選）若要新增RTF格式至您的更新，請使用 **RTF文字** 工具列。 <!--on August 10, add a screen shot of the complete Rich Text bar here, before the table-->
+1. （可選）若要新增RTF格式至您的更新，請使用 **RTF文字** 工具列。
+
+   ![](assets/rich-text-toolbar.png)
+
+   <!--October 2023: the individual icons in the toolbar will need replacing-->
 
    | **屬性** | **工具列按鈕** | **Mac快速鍵** | **Windows快速鍵** |
    |---|---|---|---|
@@ -336,7 +342,7 @@ drafted for P&P release:
 
    若要停止格式化文字，請取消選取 **RTF文字** 工具列。
 
-   <!-- in the table above: take "Create Links" verbiage from the hyperlink when the old commenting is removed and the commenting beta is the only way to comment-->
+   <!-- in the table above: take "Create Links" verbiage from the hyperlink when the old commenting is removed and the commenting beta is the only way to comment - with October 2023-->
 
    >[!NOTE]
    >
@@ -347,9 +353,7 @@ drafted for P&P release:
 
 1. （選擇性）如果您要包含先前更新或其他來源的文字，並將其與您自己的更新區分開來，您可以將其標示為「區塊報價」。 按一下 **封鎖報價** 圖示 ![](assets/block-quote-small.png) 並輸入您要報價的文字。 引號文字會以垂直灰色線標示。 按一下 **封鎖報價** 圖示以恢復正常格式。
 
-   <!--August 17 - new screen shot and make yellow-->
-
-   ![](assets/block-quote-marked-350x144.png)
+   <span class="preview">![](assets/block-quote-marked-350x144.png)</span>
 
 1. （選用）新增emoji至您的更新。
 
@@ -416,7 +420,7 @@ drafted for P&P release:
 1. 前往更新或您要複製的回覆。
 1. 按一下 **更多** 功能表，然後按一下 **複製內文**.
 
-   ![選取複製內文](assets/update-stream-copy-body-text-350x152.png)
+   ![](assets/update-stream-comment-menu-marked-350x152.png)
 
 #### 複製執行緒連結 {#copy-the-thread-link}
 
@@ -435,14 +439,13 @@ drafted for P&P release:
 1. 前往更新或您要複製的回覆。
 1. 按一下 **更多** 個別更新旁的功能表，然後按一下 **複製更新連結**.
 
-   ![](assets/update-stream-reply-menu-marked-350x182.png)
-
+   ![](assets/copy-update-link-old-ui.png)
 
 ### 在新的評論體驗中複製更新
 
 如需有關新註解體驗有哪些功能可用以及哪些物件的資訊，請參閱 [新的評論體驗](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 
-<!--when we remove and deprecate the legacy stream, add screen shots in the sections below-->
+<!--when we remove and deprecate the legacy stream, add screen shots in the sections below- October 2023-->
 
 * [複製連結](#copy-link)
 * [複製本文](#copy-body-text)
@@ -469,7 +472,7 @@ drafted for P&P release:
 Workfront使用者(包括Workfront管理員)無法刪除其他使用者所做的更新。 但是，如果使用者的存取層級允許他們刪除自己的更新，Workfront管理員可以以該使用者的身分登入，並刪除他們所做的更新。 如需詳細資訊，請參閱 [建立或修改自訂存取層級](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md#creating-a-new-access-from-scratch) 和 [以其他使用者身分登入](../../administration-and-setup/add-users/create-and-manage-users/log-in-as-another-user.md).
 
 1. 前往更新或您要刪除的回覆。
-1. 按一下 **更多** 您要刪除的更新或回覆旁的功能表，然後按一下 **刪除**. <!--October 26 - replace screen shot here-->
+1. 按一下 **更多** 您要刪除的更新或回覆旁的功能表，然後按一下 **刪除**. <!--October 2023 - replace screen shot here-->
 
    ![](assets/update-stream-comment-menu-marked-350x152.png)
 
@@ -481,9 +484,7 @@ Workfront使用者(包括Workfront管理員)無法刪除其他使用者所做的
 
    當您刪除的評論有關聯的回覆時，會顯示已移除評論，以及移除評論的使用者姓名。
 
-   <!-- August 17 - replace screen shot??? - if yes, make it yellow-->
-
-   ![](assets/removed-comment-indicator-new-experience.png)
+   <span class="preview">![](assets/removed-comment-indicator-new-experience.png)</span>
 
    使用註解測試版體驗時，已刪除的註解會立即從Workfront中移除。 使用更新區段的使用者會看到另一個使用者即時刪除的評論。
 
@@ -514,9 +515,9 @@ Workfront使用者(包括Workfront管理員)無法刪除其他使用者所做的
 
 ## 啟用或停用系統更新
 
-<!--remove the preview tag with 23.2 production, but keep the note till we remove Beta and it becomed the only exprience: -->
+<!--October 2023: remove the whole section because this is no longer possible -->
 
-<!--when the new stream goes to all objects production, consider updating this article also, to say there is no System Activity tab to be disabled for objects anymore: help\quicksilver\administration-and-setup\set-up-workfront\system-tracked-update-feeds\system-tracked-update-feeds.md-->
+<!--October 2023: when the new stream goes to all objects production, consider updating this article also, to say there is no System Activity tab to be disabled for objects anymore: help\quicksilver\administration-and-setup\set-up-workfront\system-tracked-update-feeds\system-tracked-update-feeds.md-->
 
 >[!NOTE]
 >
@@ -527,11 +528,11 @@ Workfront使用者(包括Workfront管理員)無法刪除其他使用者所做的
 
 Workfront物件的更新區段會顯示兩種型別的資訊：
 
-* **使用者更新：** 使用者更新是您和您系統中的其他使用者輸入的註解。 <!--August 17 - new screen shot and make yellow-->
+* **使用者更新：** 使用者更新是您和您系統中的其他使用者輸入的註解。 <!--October 2023 - new screen shot -->
 
   ![](assets/user-update-cl-350x277.png)
 
-* **系統更新：** 系統更新記錄移除資產、新增或刪除版本、附加或移除核准請求，以及對物件上的檔案所做的任何編輯或變更。 <!--August 17 - new screen shot and make yellow-->
+* **系統更新：** 系統更新記錄移除資產、新增或刪除版本、附加或移除核准請求，以及對物件上的檔案所做的任何編輯或變更。 <!--October 2023 - new screen shot -->
 
   ![](assets/system-updates-cl-350x277.png)
 
