@@ -7,9 +7,9 @@ author: Alina
 feature: Product Announcements
 role: User, Admin
 exl-id: 1c0cb547-ac99-4cdf-8a74-2c47ad5a10ad
-source-git-commit: a1d312167292c1e37a96233e26c378d72fee2032
+source-git-commit: 7df70ed43b9ee7320bae5f0f6b5e632000af78c3
 workflow-type: tm+mt
-source-wordcount: '1894'
+source-wordcount: '1902'
 ht-degree: 2%
 
 ---
@@ -69,7 +69,9 @@ ht-degree: 2%
 
 以下資訊是指每週發行活動，其基礎為包含在新的評論測試版體驗中的功能。 本文列出針對新評論體驗新增的功能及已解決的問題。
 
-### 2023年8月14日當週（2023年第四季版本開始）
+### 2023年8月14日起一週
+
+[觀看2023年8月14日當週所發行所有功能的影片示範](https://video.tv.adobe.com/v/3422912/){target=_blank}
 
 #### 其他物件的新註解體驗
 
