@@ -3,7 +3,7 @@ title: 2023年第四季版本總覽
 description: 2023年第四季版本總覽
 author: Becky
 feature: Product Announcements
-source-git-commit: a84c879fac143c898ea11b7b71ebf22818adbd78
+source-git-commit: e2ecd03aea12892b6eb4b2660133998aa430c916
 workflow-type: tm+mt
 source-wordcount: '1493'
 ht-degree: 0%
@@ -67,7 +67,7 @@ ht-degree: 0%
                     <td><p><b>將於下列日期提供：</b></p>
                         <ul>
                             <li>
-                                <p>預覽版本： 2023年8月3日<br /></p>
+                                <p>預覽版本： 2023年8月3日</p>
                             </li>
                             <li>
                                 <p>主機板搶先使用的生產日期：2023年8月10日</p>
@@ -88,7 +88,7 @@ ht-degree: 0%
                     <td><p><b>將於下列日期提供：</b></p>
                         <ul>
                             <li>
-                                <p>預覽版本： 2023年8月3日<br /></p>
+                                <p>預覽版本： 2023年8月3日</p>
                             </li>
                              <li>
                                 <p>快速發行生產：23.8版</p>
@@ -105,10 +105,10 @@ ht-degree: 0%
                     <td><p><b>將於下列日期提供：</b></p>
                         <ul>
                             <li>
-                                <p>預覽版本： 2023年8月21日<br /></p>
+                                <p>預覽版本： 2023年8月21日</p>
                             </li>
                             <li>
-                                <p>主機板生產環境搶先使用：待定</p>
+                                <p>主機板搶先使用的生產日期： 2023年8月24日</p>
                             </li>
                             <li>
                                 <p>快速發行生產：待定</p>
