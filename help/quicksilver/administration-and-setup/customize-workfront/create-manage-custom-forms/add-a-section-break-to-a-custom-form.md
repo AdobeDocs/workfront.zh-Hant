@@ -7,9 +7,9 @@ description: 您可以將自訂表單中的自訂欄位和Widget分組到具有�
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 44a52767-60a7-4aaa-b3b8-6b8fb7da7e72
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+source-git-commit: 961e0451ce9011a8a9f511d7d5da99368d22d6fb
 workflow-type: tm+mt
-source-wordcount: '1131'
+source-wordcount: '1137'
 ht-degree: 0%
 
 ---
@@ -90,7 +90,8 @@ ht-degree: 0%
       <td role="rowheader"> <p>授予存取權</p> </td> 
       <td> <p> 選取使用者在已附加自訂表單的物件上所需的許可權，以便檢視此區段並編輯其欄位值。 
        <p>下列許可權位於 <b>具有物件存取許可權的使用者可以檢視欄位值</b>：</p> 
-         <ul>  
+         <ul>
+          <li><strong>檢視</strong>：檢視物件的許可權</li>
           <li><p><b>有限的編輯</b>：（僅當物件為專案、任務、問題或使用者時可用）：</p> 
           <p>允許使用者為專案、任務或問題的物件貢獻內容。</p>
           <p>如果物件為使用者，則允許使用者編輯設定檔或擁有該物件的設定檔許可權。</p></li> 
