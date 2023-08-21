@@ -3,9 +3,9 @@ title: 2023年第四季版本總覽
 description: 2023年第四季版本總覽
 author: Becky
 feature: Product Announcements
-source-git-commit: 3764fba07e9d6ac80e793d92edd960281162c805
+source-git-commit: a84c879fac143c898ea11b7b71ebf22818adbd78
 workflow-type: tm+mt
-source-wordcount: '1284'
+source-wordcount: '1493'
 ht-degree: 0%
 
 ---
@@ -307,6 +307,63 @@ ht-degree: 0%
                             </li>
                             <li>
                                 <p>每季發行生產：23.10版（除非另有指定）</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-14.md" class="MCXref xref" xrefformat="{para}">新首頁的新篩選器選項</a> </p>
+                        <p>「新首頁」中的「我的工作」Widget現在提供新篩選器選項。 選項包括物件型別（任務、問題和請求）和狀態（未就緒、準備開始、處理和完成）的篩選器。</p>
+                    </td>
+                    <td><p><b>將於下列日期提供：</b></p>
+                        <ul>
+                            <li>
+                                <p>預覽版本： 2023年8月17日<br /></p>
+                            </li>
+                            <li>
+                                <p>快速發行生產：23.8版</p>
+                            </li>
+                            <li>
+                                <p>每季發行生產：23.10版本</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-14.md" class="MCXref xref" xrefformat="{para}">新首頁的自訂術語支援</a> </p>
+                        <p>為了更妥善地滿足組織的獨特需求，「新首頁」現在會針對執行個體版面配置範本中定義的物件，使用自訂術語。 例如，如果您的Workfront執行個體中的「專案」物件已重新標籤為「促銷活動」，則我的專案Widget將會在「新首頁」中顯示為「我的促銷活動」。</p>
+                    </td>
+                    <td><p><b>將於下列日期提供：</b></p>
+                        <ul>
+                            <li>
+                                <p>預覽版本： 2023年8月17日<br /></p>
+                            </li>
+                            <li>
+                                <p>快速發行生產：23.8版</p>
+                            </li>
+                            <li>
+                                <p>每季發行生產：23.10版本</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-14.md" class="MCXref xref" xrefformat="{para}">已針對已停用「新首頁」的帳戶移除「嘗試新首頁」按鈕</a> </p>
+                        <p>已停用「新首頁」的帳戶不再顯示「嘗試新首頁」按鈕。 系統管理員必須重新啟用新首頁，個別使用者才能使用按鈕嘗試新首頁。</p>
+                    </td>
+                    <td><p><b>將於下列日期提供：</b></p>
+                        <ul>
+                            <li>
+                                <p>預覽版本： 2023年8月17日<br /></p>
+                            </li>
+                            <li>
+                                <p>快速發行生產：23.8版</p>
+                            </li>
+                            <li>
+                                <p>每季發行生產：23.10版本</p>
                             </li>
                         </ul>
                     </td>
