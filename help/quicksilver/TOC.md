@@ -3,9 +3,9 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文件、教學課程和其他資源，了解如何在您的組織中實施並有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: 538e3a5090dce6f6e441da9911269a1d264833f8
+source-git-commit: 1e062b38f0b8e0be1857a1a1fe9e64f1d6fa6c36
 workflow-type: tm+mt
-source-wordcount: '13169'
+source-wordcount: '13176'
 ht-degree: 1%
 
 ---
@@ -430,6 +430,7 @@ ht-degree: 1%
          * [測試環境](administration-and-setup/set-up-workfront/workfront-testing-environments/wf-testing-environments.md)
          * [預覽Sandbox環境](administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md)
          * [自訂重新整理沙箱環境](administration-and-setup/set-up-workfront/workfront-testing-environments/wf-custom-refresh-sandbox-environment.md)
+         * [將物件從其中移動 [!DNL Workfront] 環境至另一個環境](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion.md)
    * 新增使用者 {#add-users}
       * [將使用者新增至Workfront](administration-and-setup/add-users/add-users.md)
       * 建立和管理使用者 {#create-manage-users}
