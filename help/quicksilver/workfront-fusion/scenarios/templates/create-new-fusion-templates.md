@@ -7,9 +7,9 @@ description: 您可以在中建立新的情境範本 [!DNL Adobe] Workfront Fusi
 author: Becky
 feature: Workfront Fusion
 exl-id: fdfa509c-30c6-431e-89f3-a4bf50261e8a
-source-git-commit: b7879e8f2d4590d6347762d66c82de293d00c995
+source-git-commit: f3f34e807228b299c0570e63bdf329f4e20e0340
 workflow-type: tm+mt
-source-wordcount: '782'
+source-wordcount: '792'
 ht-degree: 0%
 
 ---
@@ -96,6 +96,8 @@ ht-degree: 0%
 >[!NOTE]
 >
 >儲存您的範本後，您便可讓所有專案團隊成員看到該範本。 如果您希望範本可在團隊外部存取，您必須提交請求以核准並發佈。 請求會進入Adobe Workfront進行核准，並在獲得核准後，團隊以外的其他人即可存取範本。
+>
+>如需有關發佈範本的資訊，請參閱 [發佈和共用 [!DNL Adobe Workfront Fusion] 範本](/help/quicksilver/workfront-fusion/scenarios/templates/publish-and-share-fusion-templates.md).
 
 ### 從情境建立範本
 
