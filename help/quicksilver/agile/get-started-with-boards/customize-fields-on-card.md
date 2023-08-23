@@ -1,26 +1,26 @@
 ---
 product-area: agile-and-teams
 navigation-topic: customize-fields-on-card
-title: 自訂卡片上顯示的欄位
-description: 您可以停用欄位來自訂卡片上顯示的欄位，使其不會顯示在完整卡片或壓縮檢視中，或隱藏壓縮卡片檢視中的欄位。
+title: 自訂要在卡片上顯示的欄位
+description: 您可以停用欄位來自訂卡片上顯示的欄位，使其不會顯示在完整卡片或壓縮卡片檢視中，或隱藏壓縮卡片檢視中的欄位。
 author: Lisa
 feature: Agile
 exl-id: 28fa6455-04dd-4115-9ead-cb3e7c26289e
-source-git-commit: 80e0a053f39991d3ed8d9bd2a11a8da2d5de588e
+source-git-commit: 0beb96dc3869e6f913d87f699aa9a51c5aaa8f79
 workflow-type: tm+mt
-source-wordcount: '529'
+source-wordcount: '559'
 ht-degree: 0%
 
 ---
 
-# 自訂卡片上顯示的欄位
+# 自訂要在卡片上顯示的欄位
 
-依預設，所有可用欄位都會顯示在卡片上，包括卡片開啟時的完整檢視，以及展示板上的壓縮卡片檢視。 您可以自訂要顯示哪些欄位，方法是：
+依預設，所有可用欄位都會顯示在卡片上，當卡片開啟時會顯示為完整檢視，並在展示板上的壓縮卡片檢視中顯示。 您可以自訂哪些欄位會以下列方式顯示：
 
 * 停用欄位，使其不顯示在任一檢視中
-* 隱藏壓縮卡片檢視上的欄位
+* 在壓縮卡片檢視上隱藏欄位
 
-如果欄位包含值，而您停用該欄位，則如果您稍後再次啟用該欄位，則會保留該值。
+如果欄位包含值且您停用該欄位，則稍後您再次啟用該欄位時會保留值。
 
 區段（顯示為卡片詳細資料上的左側導覽選項）也可用於顯示和隱藏。
 
@@ -51,13 +51,13 @@ ht-degree: 0%
    </tbody> 
 </table>
 
-&#42;若要瞭解您擁有哪些計畫、授權型別或存取權，請聯絡您的 [!DNL Workfront] 管理員。
+&#42;若要瞭解您擁有的計畫、授權型別或存取權，請聯絡您的 [!DNL Workfront] 管理員。
 
 ## 設定卡片 {#configure-cards}
 
-1. 按一下 **[!UICONTROL 主要功能表]** 圖示 ![](assets/main-menu-icon.png) 右上角的 [!DNL Adobe Workfront]，然後按一下 **[!UICONTROL 展示板]**.
+1. 按一下 **[!UICONTROL 主要功能表]** 圖示 ![](assets/main-menu-icon.png) 位於的右上角 [!DNL Adobe Workfront]，然後按一下 **[!UICONTROL 展示板]**.
 1. 存取展示板。 如需詳細資訊，請參閱 [建立或編輯展示板](../../agile/get-started-with-boards/create-edit-board.md).
-1. 按一下 [!UICONTROL **設定**] 以開啟「設定」面板。
+1. 按一下 [!UICONTROL **設定**] ，以開啟「設定」面板。
 1. 展開 [!UICONTROL **卡片**].
 
    預設會啟用大部分的欄位和區段。
@@ -69,7 +69,7 @@ ht-degree: 0%
 
 ## 新增自訂欄位到卡片
 
-已連線的卡片上有自訂欄位可用。 它們只會在完整卡片檢視中顯示，不會顯示在主機板上的縮短檢視中。
+已連線的卡片上有自訂欄位可用。 它們只會在完整卡片檢視中顯示，不會顯示在展示板上的壓縮檢視中。
 
 >[!NOTE]
 >
@@ -77,7 +77,7 @@ ht-degree: 0%
 
 1. 存取展示板並按一下 [!UICONTROL **設定**] 以開啟「設定」面板。
 1. 展開 [!UICONTROL **卡片**].
-1. 下 [!UICONTROL 卡片欄位]，按一下 [!UICONTROL **新增自訂欄位**].
+1. 在 [!UICONTROL 卡片欄位]，按一下 [!UICONTROL **新增自訂欄位**].
 1. 選取 [!UICONTROL **任務**] 或 [!UICONTROL **問題**].
 
    任務或問題的可用欄位類別隨即顯示。 展開類別以檢視所有欄位。 您也可以搜尋欄位。
@@ -86,13 +86,17 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >下列欄位型別無法新增至卡片：Adobe XD、影像、PDF、影片。
+   >下列欄位型別無法新增至卡片：Adobe XD、影像、PDF、視訊。
 
 1. 選取欄位名稱。
-1. （選用）按一下 **[!UICONTROL 欄位值]** 欄位，以將此自訂欄位變更為其他欄位。
+1. （選用）按一下 **[!UICONTROL 欄位值]** 欄位以將此自訂欄位變更為其他欄位。
 1. （可選）變更 **[!UICONTROL 欄位標籤]** 至您要顯示在卡片上的欄位名稱。
 1. 完成變更後，按一下 [!UICONTROL **儲存欄位**].
 
    ![自訂欄位值和標籤](assets/save-custom-field-value-label.png)
 
-   自訂欄位會新增至可用欄位清單，並依預設啟用。 您可以依照以下說明中的步驟停用自訂欄位： [設定卡片](customize-fields-on-card.md#configure-cards) 編輯欄位，或從所有卡片中刪除它。
+   自訂欄位會新增至可用欄位清單，並依預設啟用。 您可以依照以下檔案中的步驟停用自訂欄位： [設定卡片](customize-fields-on-card.md#configure-cards) 編輯欄位，或從所有卡片中刪除它。
+
+>[!NOTE]
+>
+>如果您稍後在Workfront中重新命名自訂欄位，則必須編輯「設定」面板上的欄位標籤以相符，否則該欄位將不會顯示在卡片上。
