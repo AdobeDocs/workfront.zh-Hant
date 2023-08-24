@@ -10,9 +10,9 @@ feature: System Setup and Administration
 role: Admin
 hide: true
 hidefromtoc: true
-source-git-commit: 4042384f4e3c70bb23d585d5a5e392d624ac6cb4
+source-git-commit: 5d3c8e3626dabf88394bd6b3c2dd48e6168b56c4
 workflow-type: tm+mt
-source-wordcount: '2407'
+source-wordcount: '2325'
 ht-degree: 2%
 
 ---
@@ -72,14 +72,14 @@ Add to tocs
 
 ### 工作物件
 
-| 可升級的物件 | 包含的子物件 |
+| 可升級的物件 | 包含的可升級子物件 |
 | --- | --- |
 | 專案（專案） | 專案<br>任務<br>指定任務<br>前置任務<br>公司<br>覆寫率<br>群組<br>角色<br>團隊<br>核准流程<br>核准路徑<br>核准步驟<br>步驟核准者<br>排程<br>非工作日<br>佇列定義<br>佇列主題群組<br>佇列主題<br>路由規則<br>里程碑路徑<br>里程碑<br>小時型別<br>資源集區<br>類別<br>類別引數<br>引數<br>引數群組<br>引數選項<br>類別顯示邏輯 |
 | 範本(TMPL) | 範本<br>範本任務<br>範本任務指派<br>範本任務前置任務<br>公司<br>覆寫率<br>群組<br>角色<br>團隊<br>核准流程<br>核准路徑<br>核准步驟<br>步驟核准者<br>排程<br>非工作日<br>佇列定義<br>佇列主題群組<br>佇列主題<br>路由規則<br>里程碑路徑<br>里程碑<br>小時型別<br>資源集區<br>類別<br>類別引數<br>引數<br>引數群組<br>引數選項<br>類別顯示邏輯 |
 
 ### 報表物件
 
-| 可升級的物件 | 包含的子物件 |
+| 可升級的物件 | 包含的可升級子物件 |
 | --- | --- |
 | 版面配置範本(UITMPL) | 版面配置範本<br>儀表板<br>行事曆<br>行事曆區段<br>外部頁面<br>報告<br>篩選<br>分組<br>檢視<br>引數 |
 | 控制面板(PTLTAB) | 儀表板<br>行事曆<br>行事曆區段<br>外部頁面<br>報告<br>篩選<br>分組<br>檢視<br>引數 |
@@ -92,7 +92,7 @@ Add to tocs
 
 ### 自訂資料物件
 
-| 可升級的物件 | 包含的子物件 |
+| 可升級的物件 | 包含的可升級子物件 |
 | --- | --- |
 | 類別(CTGY) | 類別<br>類別引數<br>引數<br>引數群組<br>引數選項<br>類別顯示邏輯<br>群組 |
 | 引數（引數） | 引數<br>引數選項 |
@@ -100,7 +100,7 @@ Add to tocs
 
 ### 組織物件
 
-| 可升級的物件 | 包含的子物件 |
+| 可升級的物件 | 包含的可升級子物件 |
 | --- | --- |
 | 群組（群組） | 群組 <br>子群組（最多5個層級）<br>類別<br>類別引數<br>引數<br>引數群組<br>引數選項<br>類別顯示邏輯 |
 | 角色(ROLE) | 角色 |
@@ -111,7 +111,7 @@ Add to tocs
 
 ### 其他組態物件
 
-| 可升級的物件 | 包含的子物件 |
+| 可升級的物件 | 包含的可升級子物件 |
 | --- | --- |
 | 核准程式(ARVPRC) | 核准流程<br>核准路徑<br>核准步驟<br>步驟核准者<br>角色<br>團隊<br>群組 |
 | 時程表(SCHED) | 排程<br>非工作日<br>群組 |
@@ -126,7 +126,7 @@ Add to tocs
 
 API會驗證每個請求，以確保使用者端有權檢視或修改請求的物件。
 
-透過傳入工作階段ID來執行驗證，該ID可使用以下方法之一指定：
+透過傳入工作階段ID或API金鑰來執行驗證，該金鑰可使用以下方法之一提供：
 
 ### 請求標頭驗證
 
@@ -138,22 +138,6 @@ API會驗證每個請求，以確保使用者端有權檢視或修改請求的�
 GET /attask/api/v15.0/project/search
 SessionID: abc1234
 ```
-
-### 要求引數驗證
-
-您可以傳遞名為sessionID的請求引數來進行身分驗證，如下列範例所示： 
-
-```
-GET /attask/api/v15.0/project/4c78821c0000d6fa8d5e52f07a1d54d0?sessionID=abc1234
-```
-
-### Cookie型驗證
-
-此API使用的是Web UI用於系統的相同基於Cookie的驗證。 其中，如果使用者端使用網頁UI登入Workfront，則從相同瀏覽器內進行的任何AJAX呼叫都會使用相同的驗證。
-
->[!NOTE]
->
->為了防止CSRF （跨網站請求偽造）攻擊的可能性，此驗證方法僅適用於唯讀操作。
 
 ## api端點
 
@@ -189,13 +173,13 @@ GET /attask/api/v15.0/project/4c78821c0000d6fa8d5e52f07a1d54d0?sessionID=abc1234
 
 >[!NOTE]
 >
-記下結構 `objectCollections`  陣列。
+>記下結構 `objectCollections`  陣列。
 >
-陣列中的每個專案都包含 `objCode` 與Workfront API Explorer中記錄之物件程式碼對應的金鑰。
+>陣列中的每個專案都包含 `objCode` 與Workfront API Explorer中記錄之物件程式碼對應的金鑰。
 >
-每個專案也包含 `entities` 集合。 這預期 `ID` 和 `name` 金鑰將會出現。
+>每個專案也包含 `entities` 集合。 這預期 `ID` 和 `name` 金鑰將會出現。
 >
-對於中請求的允許物件程式碼清單 `objectCollections` 清單，請參閱 [環境推進的支援物件](#supported-objects-for-environment-promotion) 一節。
+>對於中請求的允許物件程式碼清單 `objectCollections` 清單，請參閱 [環境推進的支援物件](#supported-objects-for-environment-promotion) 一節。
 
 #### URL
 
@@ -207,7 +191,9 @@ POST https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/p
 
 ```json
 {
-    "Authorization": "Bearer ****************",
+    "apikey": "**********",
+    - or -
+    "sessionID": "*****************", 
     "Content-Type": "application/json"
 }
 ```
@@ -273,7 +259,6 @@ POST https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/p
         "createdAt": "2023-06-06T17:29:21.600Z",
         "createdById": "61aa9d0e0005fcee8f212835bdaa2619",
         "publishedAt": null,
-        "isPrivate": true,
         "customerId": "61aa9d090005fa42152c1cb66659f38d"
 }
 ```
@@ -303,7 +288,9 @@ GET https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/pa
 
 ```json
 {
-    "Authorization": "Bearer ****************"
+    "apikey": "**********",
+    - or -
+    "sessionID": "*****************", 
 }
 ```
 
@@ -330,7 +317,6 @@ _空白_
             "createdAt": "2023-06-06T17:29:21.600Z",
             "createdById": "61aa9d0e0005fcee8f212835bdaa2619",
             "publishedAt": null,
-            "isPrivate": true,
             "customerId": "61aa9d090005fa42152c1cb66659f38d"
         },
         {...}
@@ -363,7 +349,9 @@ GET https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/pa
 
 ```json
 {
-    "Authorization": "Bearer ****************"
+    "apikey": "**********",
+    - or -
+    "sessionID": "*****************", 
 }
 ```
 
@@ -389,21 +377,15 @@ _空白_
         "createdAt": "2023-06-06T17:29:21.600Z",
         "createdById": "61aa9d0e0005fcee8f212835bdaa2619",
         "publishedAt": null,
-        "isPrivate": true,
         "customerId": "61aa9d090005fa42152c1cb66659f38d",
-        "metadata": {
-            "displayOrder": ["GROUP","ROLE","TMPL","PROJ","PTLTAB"], 
-            "historyOrder": ["GROUP","ROLE","TMPL","TTSK","PROJ","PTLTAB"], 
-            "installOrder": ["GROUP","ROLE","TMPL","TTSK","TPRED","TASSGN","PROJ","QUED","RRUL","QUET","UIFT","UIGB","UIVW","PTLTAB"], 
-            "summaryOrder": ["GROUP","ROLE","TMPL"], 
-            "shapeVersion": 2
-        },
         "displayEntities": {
             "GROUP": [
                {
                    "id": "52aa9d0e0005fcee8f212835bdaa2691",
                    "name": "Default Group",
-                   "description"
+                   "description": "null"
+                   - or -
+                   "description": "..."
                }
             ],
             "ROLE": [
@@ -436,7 +418,9 @@ GET https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/pa
 
 ```json
 {
-    "Authorization": "Bearer ****************"
+    "apikey": "**********",
+    - or -
+    "sessionID": "*****************", 
 }
 ```
 
@@ -452,13 +436,6 @@ _空白_
 
 ```json
 {
-    "metadata": {
-        "displayOrder": ["GROUP","ROLE","TMPL","PROJ","PTLTAB"], 
-        "historyOrder": ["GROUP","ROLE","TMPL","TTSK","PROJ","PTLTAB"], 
-        "installOrder": ["GROUP","ROLE","TMPL","TTSK","TPRED","TASSGN","PROJ","QUED","RRUL","QUET","UIFT","UIGB","UIVW","PTLTAB"], 
-        "summaryOrder": ["GROUP","ROLE","TMPL"], 
-        "shapeVersion": 2
-    },
     "packageEntities": {
         "GROUP": [
            {
@@ -472,7 +449,7 @@ _空白_
                "isActive": true,
                "isGroupPublic": true,
                "isPublic": true,
-               "parentID" null,
+               "parentID": null,
                "rootID": null,
                "rootName": null,
                "uiTemplateID": null
@@ -504,12 +481,11 @@ _空白_
 可編輯的屬性包括：
 
 1. 名稱（字串）
-2. 說明（字串）
-3. 來源（含URL驗證的字串）
-4. 狀態（含值驗證的字串）
-5. 版本（整數）
-6. 中繼資料（集合）
-7. packageEntities （集合）
+1. 說明（字串）
+1. 來源（含URL驗證的字串）
+1. 狀態（含值驗證的字串）
+1. 版本（整數）
+1. packageEntities （集合）
 
 狀態選項包括：
 
@@ -554,7 +530,9 @@ PUT https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/pa
 
 ```json
 {
-    "Authorization": "Bearer ****************",
+    "apikey": "**********",
+    - or -
+    "sessionID": "*****************", 
     "Content-Type": "application/json"
 }
 ```
@@ -588,7 +566,7 @@ PUT https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/pa
                "isActive": true,
                "isGroupPublic": true,
                "isPublic": true,
-               "parentID" null,
+               "parentID": null,
                "rootID": null,
                "rootName": null,
                "uiTemplateID": null
@@ -620,15 +598,7 @@ PUT https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/pa
         "createdAt": "2023-06-06T17:29:21.600Z",
         "createdById": "61aa9d0e0005fcee8f212835bdaa2619",
         "publishedAt": null,
-        "isPrivate": true,
         "customerId": "61aa9d090005fa42152c1cb66659f38d",
-        "metadata": {
-            "displayOrder": ["GROUP","ROLE","TMPL","PROJ","PTLTAB"], 
-            "historyOrder": ["GROUP","ROLE","TMPL","TTSK","PROJ","PTLTAB"], 
-            "installOrder": ["GROUP","ROLE","TMPL","TTSK","TPRED","TASSGN","PROJ","QUED","RRUL","QUET","UIFT","UIGB","UIVW","PTLTAB"], 
-            "summaryOrder": ["GROUP","ROLE","TMPL"], 
-            "shapeVersion": 2
-        },
         "displayEntities": {
             "GROUP": [
                {
@@ -666,7 +636,6 @@ PUT https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/pa
 1. 來源（含URL驗證的字串）
 1. 狀態（含值驗證的字串）
 1. 版本（整數）
-1. 中繼資料（集合）
 1. packageEntities （集合）
 
    或
@@ -688,7 +657,9 @@ PATCH https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/
 
 ```json
 {
-    "Authorization": "Bearer ****************",
+    "apikey": "**********",
+    - or -
+    "sessionID": "*****************", 
     "Content-Type": "application/json"
 }
 ```
@@ -719,15 +690,7 @@ PATCH https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/
         "createdAt": "2023-06-06T17:29:21.600Z",
         "createdById": "61aa9d0e0005fcee8f212835bdaa2619",
         "publishedAt": "2023-06-06T19:39:01.600Z",
-        "isPrivate": true,
         "customerId": "61aa9d090005fa42152c1cb66659f38d",
-        "metadata": {
-            "displayOrder": ["GROUP","ROLE","TMPL","PROJ","PTLTAB"], 
-            "historyOrder": ["GROUP","ROLE","TMPL","TTSK","PROJ","PTLTAB"], 
-            "installOrder": ["GROUP","ROLE","TMPL","TTSK","TPRED","TASSGN","PROJ","QUED","RRUL","QUET","UIFT","UIGB","UIVW","PTLTAB"], 
-            "summaryOrder": ["GROUP","ROLE","TMPL"], 
-            "shapeVersion": 2
-        },
         "displayEntities": {
             "GROUP": [
                {
@@ -760,7 +723,7 @@ PATCH https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/
 
 >[!NOTE]
 >
-建議不要刪除促銷活動套件，而是將套件的狀態變更為「已停用」。 這樣可擷取套件，並保留其部署位置的安裝歷史記錄。
+>建議不要刪除促銷活動套件，而是將套件的狀態變更為「已停用」。 這樣可擷取套件，並保留其部署位置的安裝歷史記錄。
 
 #### URL
 
@@ -772,7 +735,9 @@ DELETE https://{domain}.{environment}.workfront.com/environment-promotion/api/v1
 
 ```json
 {
-    "Authorization": "Bearer ****************"
+    "apikey": "**********",
+    - or -
+    "sessionID": "*****************", 
 }
 ```
 
@@ -838,7 +803,9 @@ POST https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/t
 
 ```json
 {
-    "Authorization": "Bearer ****************",
+    "apikey": "**********",
+    - or -
+    "sessionID": "*****************", 
     "Content-Type": "application/json"
 }
 ```
@@ -888,7 +855,9 @@ POST https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/i
 
 ```json
 {
-    "Authorization": "Bearer ****************",
+    "apikey": "**********",
+    - or -
+    "sessionID": "*****************", 
     "Content-Type": "application/json"
 }
 ```
@@ -935,7 +904,9 @@ GET https://{domain}.{environment}.workfront.com/environment-promotion/api/v1v1/
 
 ```json
 {
-    "Authorization": "Bearer ****************"
+    "apikey": "**********",
+    - or -
+    "sessionID": "*****************", 
 }
 ```
 
@@ -953,8 +924,8 @@ _空白_
 [
     {
         "id": "2892b936-e09e-455a-935f-e1462ab9753c",
-        "blueprintId": "4fae2b9d-d315-45f4-909f-a0c0d79fc65d",
-        "blueprintVersion": 1,
+        "environmentPromotionPackageId": "4fae2b9d-d315-45f4-909f-a0c0d79fc65d",
+        "environmentPromotionPackageVersion": 1,
         "userId": "8fbbc5bcf4f94a5b862483ee05573e73",
         "customerId": "54286d78b064451096752b99bf968481",
         "status": "COMPLETED",
@@ -1024,7 +995,9 @@ GET https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/in
 
 ```json
 {
-    "Authorization": "Bearer ****************"
+    "apikey": "**********",
+    - or -
+    "sessionID": "*****************", 
 }
 ```
 
@@ -1041,8 +1014,8 @@ _空白_
 ```json
 {
     "id": "2892b936-e09e-455a-935f-e1462ab9753c",
-    "blueprintId": "4fae2b9d-d315-45f4-909f-a0c0d79fc65d",
-    "blueprintVersion": 1,
+    "environmentPromotionPackageId": "4fae2b9d-d315-45f4-909f-a0c0d79fc65d",
+    "environmentPromotionPackageVersion": 1,
     "userId": "8fbbc5bcf4f94a5b862483ee05573e73",
     "customerId": "54286d78b064451096752b99bf968481",
     "status": "COMPLETED",
