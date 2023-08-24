@@ -7,9 +7,9 @@ description: 閱讀本文章以瞭解 [!DNL Workfront Boards] 早期功能選擇
 author: Lisa
 feature: Agile
 exl-id: c4a6b045-b0f3-4d4d-994c-c03ef7ad25c8
-source-git-commit: 1594382c48d18a4da99bc5c47ddbbd4f63b76cd4
+source-git-commit: 28fd1872b05c620cf4e86a4044317cd7958e4482
 workflow-type: tm+mt
-source-wordcount: '707'
+source-wordcount: '686'
 ht-degree: 0%
 
 ---
@@ -212,7 +212,7 @@ ht-degree: 0%
 
 ### 我如何知道我的組織是否已選擇加入早期功能？
 
-當 [!DNL Workfront] 管理員已為主機板啟用早期功能，您將會看到 [!UICONTROL 早期功能選擇加入] 控制面板熒幕頂端的啟用按鈕。 按一下按鈕以檢視已啟用哪些功能。
+連絡您的 [!DNL Workfront] 管理員以瞭解他們是否已為面板啟用早期功能。
 
 ### 僅能針對特定使用者啟用早期功能嗎？
 

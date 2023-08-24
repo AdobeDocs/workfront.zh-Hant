@@ -6,9 +6,9 @@ description: 您可以在展示板上新增卡片，該卡片會連線至Workfro
 author: Lisa
 feature: Agile
 exl-id: c6d979dd-e4a4-48a5-a91b-b31d7ef848d1
-source-git-commit: 55ba26b65cf046806f5a198e4de1b5eed2e08384
+source-git-commit: 0208beb1f45377b151a526738b6d182880c37774
 workflow-type: tm+mt
-source-wordcount: '1426'
+source-wordcount: '1375'
 ht-degree: 0%
 
 ---
@@ -80,10 +80,6 @@ ht-degree: 0%
 
    卡片會新增至最左側的欄底部。 連線的 [!DNL Workfront] 物件與其工作負責人會顯示在卡片上。
 
-   >[!NOTE]
-   >
-   >若受指派人在 [!DNL Workfront] 任務或問題不是展示板的成員，因此未指派給卡片。
-
    ![已連接的卡片](assets/boards-connected-card-first-added.png)
 
 1. 按一下 ![開啟任務或問題](assets/boards-launch-icon.png) 以開啟 [!DNL Workfront] 新瀏覽器標籤中的任務或問題。
@@ -124,9 +120,8 @@ ht-degree: 0%
       <td><p>要完成的卡片小時數。</p><p>變更預估也會變更連線上的劇本點值 [!DNL Workfront] 物件。</p></td>
      </tr>
      <tr>
-      <td role="rowheader"><strong>[！UICONTROL受託人]</strong></td>
-      <td><p>若要將更多人員或團隊指派給卡片，請在搜尋欄位中開始輸入名稱，然後在其顯示在清單中時選取它。 您可以新增個人和團隊。 已連線的卡片只允許一個群組指派。</p>
-      <p>受指派人必須是展示板上的成員，否則不會出現在選取專案清單中。 當團隊是展示板上的成員時，可以將個別團隊成員指派給卡片。</p>
+      <td role="rowheader"><strong>[！UICONTROL指定任務]</strong></td>
+      <td><p>若要指派更多人員或團隊給卡片，請按一下 <strong>[！UICONTROL新增指派]</strong> 並開始在搜尋欄位中輸入名稱。 然後，當它顯示在結果清單中時選取它。 您可以新增個人和團隊。 已連線的卡片只允許一個群組指派。</p>
       <p>您選取的任何受指派人也會指派至中的任務或問題 [!DNL Workfront].</p></td>
      </tr>
      <tr>
