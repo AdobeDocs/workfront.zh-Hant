@@ -3,14 +3,14 @@ title: 設定 [!DNL SharePoint] 整合
 user-type: administrator
 product-area: system-administration;workfront-integrations;setup
 navigation-topic: administrator-integrations
-description: 您可以整合 [!DNL Workfront] 替換為 [!DNL SharePoint] 線上，讓使用者能夠導覽至、連結及新增 [!DNL SharePoint] Workfront中的檔案。 提供的功能類似於其他功能 [!DNL Workfront] 整合，例如Google Drive、Box和Dropbox。
+description: 您可以整合 [!DNL Workfront] 替換為 [!DNL SharePoint] 線上，讓使用者能夠導覽至、連結及新增 [!DNL SharePoint] Workfront中的檔案。 提供的功能與其他功能類似 [!DNL Workfront] 整合，例如Google Drive、Box和Dropbox。
 author: Becky, Caroline
 feature: System Setup and Administration, [!DNL Workfront] Integrations and Apps, Digital Content and Documents
 role: Admin
 exl-id: fd45e1bc-9a35-4960-a73a-ff845216afe4
-source-git-commit: e08b56b3bc212d49fd594912b6b28cd8e8f77b8b
+source-git-commit: 80e0bd0cd391372f48e8dddc4228fc431f54d052
 workflow-type: tm+mt
-source-wordcount: '1483'
+source-wordcount: '1573'
 ht-degree: 0%
 
 ---
@@ -23,17 +23,17 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->新 [!DNL SharePoint] 整合隨22.3版（2022年7月）發佈到生產環境。 雖然您的使用者仍可存取透過舊版連結的檔案 [!DNL SharePoint] 整合，他們必須使用新的 [!DNL SharePoint] 整合以從SharePoint連結檔案。
+>新的 [!DNL SharePoint] 整合隨22.3版（2022年7月）發佈到生產環境。 雖然您的使用者仍可存取透過舊版連結的檔案 [!DNL SharePoint] 整合，他們必須使用新的 [!DNL SharePoint] 整合以從SharePoint連結檔案。
 >
->* 新的SharePoint整合不需要管理員進行設定，可由個別使用者進行設定。 不過，為確保順利轉換至新的SharePoint整合，Workfront管理員必須在Workfront設定區域進行一些小的設定變更。
+>* 新的SharePoint整合不需要管理員進行設定，可由個別使用者進行設定。 不過，為確保順利轉換至新的SharePoint整合，Workfront管理員必須在Workfront設定區域中變更幾項設定。
 >
 >    如需詳細資訊與指示，請參閱 [設定舊版SharePoint整合，以便持續存取檔案](#configure-the-legacy-sharepoint-integration-for-continued-access-to-documents) 本文章內容。
 >    
->* 我們建議使用者連結目前透過舊版連結的檔案 [!DNL SharePoint] 透過新整合進行整合。
+>* 我們建議使用者連結目前透過舊版連結的檔案 [!DNL SharePoint] 透過新的整合進行整合。
 >    
 >    如需連結檔案的指示，請參閱 [從外部應用程式連結檔案](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md).
 
-您可以整合 [!DNL Workfront] 替換為 [!DNL SharePoint Online]，讓使用者能導覽至、連結及新增 [!DNL SharePoint] Workfront中的檔案。 提供的功能類似於其他功能 [!DNL Workfront] 整合，例如 [!DNL Google Drive]， [!DNL Box]、和 [!DNL Dropbox].
+您可以整合 [!DNL Workfront] 替換為 [!DNL SharePoint Online]，讓使用者能導覽至、連結及新增 [!DNL SharePoint] Workfront中的檔案。 提供的功能與其他功能類似 [!DNL Workfront] 整合，例如 [!DNL Google Drive]， [!DNL Box]、和 [!DNL Dropbox].
 
 此整合僅與相容 [!DNL SharePoint Online]. 的內部部署例項 [!DNL SharePoint] 不受支援。
 
@@ -55,38 +55,59 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定*</td> 
-   <td> <p>您必須是 [!DNL Workfront] 管理員。 有關以下專案的資訊： [!DNL Workfront] 管理員，請參閱 <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">授予使用者完全管理存取權</a>.</p> </td> 
+   <td> <p>您必須是 [!DNL Workfront] 管理員。 有關的資訊 [!DNL Workfront] 管理員，請參閱 <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">授予使用者完整管理存取權</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;若要瞭解您擁有哪些計畫、授權型別或存取權，請聯絡您的 [!DNL Workfront] 管理員。
+&#42;若要瞭解您擁有的計畫、授權型別或存取權，請聯絡您的 [!DNL Workfront] 管理員。
 
 ## 必要條件
 
-您必須擁有中任何必要的存取權或許可權 [!DNL SharePoint] 修改或設定您組織的 [!DNL SharePoint].
+您必須擁有中任何必要的存取權或許可權 [!DNL SharePoint] 以修改或設定您組織的 [!DNL SharePoint].
 
 ## 透過新的SharePoint整合連結檔案
 
-個人使用者可以透過新連結檔案 [!DNL SharePoint] 整合。 整合不需要管理員設定。 相反地，使用者會登入 [!DNL Microsoft] 連結檔案時的帳戶，可讓整合功能存取使用者檔案中可用的檔案。 [!DNL SharePoint].
+個別使用者可透過新檔案連結檔案 [!DNL SharePoint] 整合。 整合不需要管理員設定。 相反地，使用者會登入 [!DNL Microsoft] 連結檔案時的帳戶，可讓整合功能存取使用者檔案中可用的檔案。 [!DNL SharePoint].
 
-使用者第一次連線 [!DNL Workfront] [!DNL SharePoint] 整合至其 [!DNL SharePoint] 帳戶，他們將看到並同意以下所有許可權： [!DNL Workfront] 與使用者互動時使用 [!UICONTROL SharePoint] 帳戶。 讀取許可權允許 [!DNL Workfront] 檢視及存取檔案： [!DNL SharePoint]，和寫入許可權可讓使用者上傳檔案到 [!DNL SharePoint].
+使用者第一次連線 [!DNL Workfront] [!DNL SharePoint] 整合至其 [!DNL SharePoint] 帳戶，他們將看到並同意以下所有許可權： [!DNL Workfront] 在與以下專案互動時使用 [!UICONTROL SharePoint] 帳戶。 讀取許可權允許 [!DNL Workfront] 若要檢視及存取檔案，請執行下列動作： [!DNL SharePoint]、和寫入許可權可讓使用者上傳檔案到 [!DNL SharePoint].
 
 ![Sharepoint許可權](assets/sharepoint-permissions.png)
 
-如需透過新連結檔案的指示 [!DNL SharePoint] 整合，請參閱 [連結外部檔案至 [!DNL Workfront]](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md#link-an-external-document-to-workfront)
+有關透過新檔案連結檔案的指示 [!DNL SharePoint] 整合，請參閱 [連結外部檔案至 [!DNL Workfront]](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md#link-an-external-document-to-workfront)
 
 >[!NOTE]
 >
->* A [!DNL SharePoint] 整合可連線至單一 [!DNL SharePoint] 執行個體。 因此，使用者可以為其中一個設定整合 [!DNL SharePoint]，但無法將整合設定到秒 [!DNL SharePoint]，即使他們擁有和檔案的許可權 [!DNL SharePoint].
+>* A [!DNL SharePoint] 整合可連線至單一 [!DNL SharePoint] 執行個體。 因此，使用者可以為其中一個設定整合 [!DNL SharePoint]，但無法將整合設定到秒 [!DNL SharePoint]，即使他們擁有和檔案的許可權(在 [!DNL SharePoint].
 >
 >* 使用者可以透過存取相同的網站、集合、資料夾、子資料夾和檔案。 [!DNL Workfront] [!DNL SharePoint] 整合，如同他們在 [!DNL SharePoint] 帳戶。
+
+### 從SharePoint連結檔案
+
+如需透過新檔案從SharePoint連結檔案的指示 [!DNL SharePoint] 整合，請參閱 [連結外部檔案至 [!DNL Workfront]](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md#link-an-external-document-to-workfront)
+
+### 傳送檔案至SharePoint
+
+若要傳送檔案至SharePoint：
+
+1. 按一下 **傳送至** 圖示 ![傳送至](assets/send-to-icon.png) 並選取SharePoint (Graph API)。
+1. （選擇性）在搜尋列中搜尋您要傳送檔案的網站或資料夾。
+1. 從清單中選取網站或資料夾。
+
+   * 網站標示為 ![網站圖示](assets/site-icon.png).
+
+   * 資料夾標有 ![資料夾圖示](assets/folder-icon.png).
+
+   * 檔案未標示圖示。
+
+1. 按一下&#x200B;**儲存**。
+
 
 ## 的安全性、存取和授權資訊 [!DNL SharePoint] 整合
 
 ### 驗證和授權
 
-[!DNL Workfront] 使用OAuth2來擷取存取權杖和重新整理權杖。 此存取權杖用於授權所有 [!DNL SharePoint] 區域。
+[!DNL Workfront] 使用OAuth2來擷取存取權杖和重新整理權杖。 此存取權杖用於向所有 [!DNL SharePoint] 區域。
 
 ### 存取權和許可權
 
@@ -94,70 +115,70 @@ ht-degree: 0%
 
 | 存取 | 原因 |
 |---|---|
-| 擁有檔案的完整存取權 | 允許 [!DNL Workfront] 以存取使用者的檔案來連結資產。 當檔案從以下來源傳送時 [!DNL Workfront] 至 [!DNL SharePoint]， [!DNL Workfront] 需要存取權才能建立資產。 |
-| 讀取所有網站集合中的專案 | 允許 [!DNL Workfront] 以讀取資產以啟用使用者導覽。 |
-| 編輯或刪除所有網站集合中的專案 | 允許 [!DNL Workfront] 以在網站和網站集合中建立資產。 只有在嘗試連結失敗後進行清除時，才會使用刪除。 |
-| 維護您授與您存取權的資料存取權 | 允許 [!DNL Workfront] 產生重新整理權杖。 |
+| 擁有檔案的完整存取權 | 允許 [!DNL Workfront] 以存取使用者檔案來連結資產。 當檔案從以下來源傳送時 [!DNL Workfront] 至 [!DNL SharePoint]， [!DNL Workfront] 需要存取權才能建立資產。 |
+| 讀取所有網站集合中的專案 | 允許 [!DNL Workfront] 以讀取資產並啟用使用者導覽。 |
+| 編輯或刪除所有網站集合中的專案 | 允許 [!DNL Workfront] 以在網站和網站集合中建立資產。 刪除只會在不成功的連結嘗試後清除時使用。 |
+| 維護您授予其資料存取權的資料存取權 | 允許 [!DNL Workfront] 產生重新整理權杖。 |
 | 登入並讀取使用者設定檔 | 允許 [!DNL Workfront] 以透過OAuth2登入流程使用存取權杖來代表使用者行事。 |
 
 使用者第一次使用整合時就會授予此存取權，且可隨時撤銷。
 
-請考慮下列有關存取許可權的問題 [!DNL SharePoint] 透過 [!DNL Workfront] [!DNL SharePoint] 整合：
+關於下列存取許可權，請考慮下列事項 [!DNL SharePoint] 透過 [!DNL Workfront] [!DNL SharePoint] 整合：
 
-* 要求用於這項整合的許可權包括 **已委派** 許可權。
+* 要求對此整合的許可權為 **已委派** 許可權。
 * [!DNL Workfront] 要求執行整合中作業所需的最低存取權。
-* 檢視、編輯或刪除 [!DNL Adobe Workfront] 連結到的檔案 [!DNL SharePoint] 根據使用者對的存取權 [!DNL Workfront]. 但是，任何導覽、下載或編輯 [!DNL SharePoint] 檔案或資料夾需要存取 [!DNL SharePoint]，這些動作的存取權則由 [!DNL SharePoint].
-* 使用者可以檢視縮圖並預覽來源為的影像 [!DNL SharePoint]，並可以在以下位置檢視檔案和資料夾名稱： [!DNL SharePoint]，無需登入 [!DNL SharePoint].
+* 存取「 」以檢視、編輯或刪除 [!DNL Adobe Workfront] 連結到的檔案 [!DNL SharePoint] 根據使用者在中的存取權 [!DNL Workfront]. 但是，任何導覽、下載或編輯 [!DNL SharePoint] 檔案或資料夾需要存取 [!DNL SharePoint]，這些動作的存取權則由 [!DNL SharePoint].
+* 使用者可以檢視縮圖及預覽來源為的影像 [!DNL SharePoint]，並可以在以下位置檢視檔案和資料夾名稱： [!DNL SharePoint]，無需登入 [!DNL SharePoint].
 * 只有當使用者離線且另一個使用者檢視連結至的資料夾內容時，才會使用使用者的存取權杖 [!DNL Workfront]. 存取權杖用於探索資料夾中是否有任何檔案已新增、移除或編輯。
 
 ### 安全性
 
-所有之間的通訊 [!DNL Workfront] 和 [!DNL SharePoint] 會透過HTTPS執行，這會加密資訊。
+所有通訊，介於 [!DNL Workfront] 和 [!DNL SharePoint] 會透過HTTPS執行，這會加密資訊。
 
-[!DNL Workfront] 不會儲存、複製或複製資料來源 [!DNL SharePoint]. 唯一的例外是 [!DNL Workfront] 儲存縮圖 [!DNL SharePoint] 以顯示在清單檢視和預覽中。
+[!DNL Workfront] 不會儲存、複製或複製下列來源的資料： [!DNL SharePoint]. 唯一的例外是 [!DNL Workfront] 儲存縮圖，從 [!DNL SharePoint] 以顯示在清單檢視和預覽中。
 
-如果資產首次上傳至 [!DNL Workfront]，然後傳送至 [!DNL SharePoint]， [!DNL Workfront] 會保留第一個檔案的資料，因為使用者可以下載舊版的 [!DNL Workfront] 檔案。 如果檔案建立於 [!DNL SharePoint]， [!DNL Workfront] 不會儲存該檔案資料。
+如果資產首次上傳至 [!DNL Workfront]，然後傳送至 [!DNL SharePoint]， [!DNL Workfront] 會保留第一個檔案的資料，因為使用者可以下載舊版的 [!DNL Workfront] 檔案。 若檔案是在中建立 [!DNL SharePoint]， [!DNL Workfront] 不會儲存該檔案資料。
 
 ## 設定舊版 [!DNL SharePoint] 整合以繼續存取檔案
 
-為確保您的使用者能透過舊版持續存取連結至Workfront的檔案 [!DNL SharePoint] 整合，您必須重新設定舊版的存取權 [!DNL SharePoint] 整合併保持SharePoint使用者端密碼為最新狀態。
+為確保您的使用者能繼續存取透過舊版連結至Workfront的檔案 [!DNL SharePoint] 整合，您必須重新設定舊版的存取權 [!DNL SharePoint] 整合併保持SharePoint使用者端密碼為最新狀態。
 
-* [重新設定對舊版的存取權 [!DNL SharePoint] 整合](#reconfigure-access-to-the-legacy-dnl-sharepoint-integration)
+* [重新設定舊版的存取權 [!DNL SharePoint] 整合](#reconfigure-access-to-the-legacy-dnl-sharepoint-integration)
 * [設定使用者端密碼以繼續存取舊版 [!DNL SharePoint] 整合](#configure-the-client-secret-for-continued-access-to-the-legacy-dnl-sharepoint-integration)
 
-### 重新設定對舊版的存取權 [!DNL SharePoint] 整合
+### 重新設定舊版的存取權 [!DNL SharePoint] 整合
 
 為確保您可存取透過舊版連結的檔案 [!DNL SharePoint] 整合，在確保使用者無法透過該整合連結新檔案的同時，請完成以下程式。
 
 >[!NOTE]
 >
-> * 舊版 [!DNL SharePoint] 整合專案會標籤為&quot;[!DNL SharePoint].」
-> * 新 [!DNL SharePoint] 整合專案會標籤為&quot;[!UICONTROL [!DNL SharePoint] (Graph API)].」
+> * 舊版 [!DNL SharePoint] 整合已標籤為&quot;[!DNL SharePoint].」
+> * 新的 [!DNL SharePoint] 整合已標籤為&quot;[!UICONTROL [!DNL SharePoint] (Graph API)].」
 
-1. 按一下 **[!UICONTROL 主要功能表]** 圖示 ![主要功能表](assets/main-menu-icon.png) Adobe Workfront右上角，然後按一下 **[!UICONTROL 設定]** ![設定](../get-started-wf-administration/assets/gear-icon-settings.png).
+1. 按一下 **[!UICONTROL 主要功能表]** 圖示 ![主功能表](assets/main-menu-icon.png) (位於Adobe Workfront的右上角)，然後按一下 **[!UICONTROL 設定]** ![設定](../get-started-wf-administration/assets/gear-icon-settings.png).
 1. 選取 **[!UICONTROL 檔案]** 在左側導覽中，然後選取 **[!UICONTROL 雲端服務供應商]**.
-1. 請確定 **[!DNL SharePoint]** 選項和 **[!UICONTROL [!DNL SharePoint](Graph API)]** 選項皆已啟用。
+1. 確定 **[!DNL SharePoint]** 選項和 **[!UICONTROL [!DNL SharePoint](Graph API)]** 選項皆已啟用。
 1. 按一下&#x200B;**[!UICONTROL 儲存]**。
 1. 選取 **[!UICONTROL 檔案]** 在左側導覽中，然後選取 **[!UICONTROL [!DNL SharePoint]整合]**.
-1. 選取清單左側的核取記號，以取得所有現有的整合，然後選取「 」 **[!UICONTROL 停用]**.
+1. 選取清單左側的核取記號，取得所有現有整合，然後選取「 」 **[!UICONTROL 停用]**.
 
 
 ### 設定使用者端密碼以繼續存取舊版 [!DNL SharePoint] 整合
 
-您的 [!DNL SharePoint] 使用者端密碼每年過期一次。 為確保持續存取您舊版中的檔案 [!DNL SharePoint] 整合，您必須保留其 [!DNL SharePoint] 最新使用者端密碼。
+您的 [!DNL SharePoint] 使用者端密碼每年會過期一次。 為確保持續存取舊版中的檔案 [!DNL SharePoint] 整合，您必須保留其 [!DNL SharePoint] 最新使用者端密碼。
 
 >[!IMPORTANT]
 >
-> 因為 [!DNL SharePoint] 使用者端密碼的處理者 [!DNL Microsoft]，使用者端密碼功能和程式可能會因對的更新而變更 [!DNL SharePoint] 建立者 [!DNL Microsoft]. 一律檢查 [!DNL Microsoft] 檔案以取得中程式和功能的最新資訊 [!DNL SharePoint].
+> 因為 [!DNL SharePoint] 使用者端密碼的處理者為 [!DNL Microsoft]，使用者端密碼功能和程式可能會因以下專案的更新而變更： [!DNL SharePoint] 製作者 [!DNL Microsoft]. 請務必檢查 [!DNL Microsoft] 檔案以取得中程式和功能的最新資訊 [!DNL SharePoint].
 
 <!--1. Go to the site that your [!DNL SharePoint] integration uses. This may be a site that you created when setting up the integrations, or it may be your organization's root site.
 
 1. Add `/_layouts/15/appregnew.aspx` to the end of the URL in the search bar at the top of your browser window.-->
 
-1. 產生新的使用者端密碼，如所述 [在中取代過期的使用者端密碼 [!DNL SharePoint] 增益集](https://docs.microsoft.com/en-us/sharepoint/dev/sp-add-ins/replace-an-expiring-client-secret-in-a-sharepoint-add-in#generate-a-new-secret)
+1. 產生新的使用者端密碼，如所述 [在中取代即將到期的使用者端密碼 [!DNL SharePoint] 增益集](https://docs.microsoft.com/en-us/sharepoint/dev/sp-add-ins/replace-an-expiring-client-secret-in-a-sharepoint-add-in#generate-a-new-secret)
 1. 將此使用者端密碼複製到安全位置。
 1. 登入 [!DNL Workfront] 作為管理員。
-1. 在Workfront中，按一下 **[!UICONTROL 主要功能表]** 圖示 ![](assets/main-menu-icon.png) Adobe Workfront右上角，然後按一下 **[!UICONTROL 設定]** ![](assets/gear-icon-settings.png).
+1. 在Workfront中，按一下 **[!UICONTROL 主要功能表]** 圖示 ![](assets/main-menu-icon.png) (位於Adobe Workfront的右上角)，然後按一下 **[!UICONTROL 設定]** ![](assets/gear-icon-settings.png).
 1. 在左側面板中，按一下 **[!UICONTROL 檔案]** > **[!UICONTROL [!DNL SharePoint]整合]**.
 1. 按一下 [!DNL SharePoint] 要更新的整合，然後按一下 **[!UICONTROL 編輯]**.
 1. 將新的使用者端密碼輸入到 **[!UICONTROL 使用者端密碼]** 欄位。
@@ -377,7 +398,7 @@ For instructions, see [Link an external document to [!DNL Workfront]](../../docu
 ## 疑難排解
 
 * [問題：使用者在使用時遇到驗證型錯誤 [!DNL SharePoint] 整合。](#problem-users-experience-authentication-based-errors-when-using-the-sharepoint-integration)
-* [問題：嘗試瀏覽時 [!DNL SharePoint] 中的檔案 [!DNL Workfront]，我沒有看見任何或所有的網站集合。](#problem-when-attempting-to-browse-sharepoint-files-in-workfront-i-do-not-see-any-or-all-of-my-site-collections)
+* [問題：嘗試瀏覽時 [!DNL SharePoint] 中的檔案 [!DNL Workfront]，我沒有看見任何或全部的網站集合。](#problem-when-attempting-to-browse-sharepoint-files-in-workfront-i-do-not-see-any-or-all-of-my-site-collections)
 * [問題：我無法存取中先前連結的資料夾和檔案 [!DNL SharePoint].](#problem-i-cannot-access-previously-linked-folders-and-documents-in-sharepoint)
 
 ### 問題：使用者在使用時遇到驗證型錯誤 [!DNL SharePoint] 整合。 {#problem-users-experience-authentication-based-errors-when-using-the-sharepoint-integration}
@@ -386,7 +407,7 @@ For instructions, see [Link an external document to [!DNL Workfront]](../../docu
 
 使用者必須擁有適當的許可權， [!DNL SharePoint] 網站。
 
-使用者： [!UICONTROL 完全控制] 存取權擁有您所有必要的許可權 [!DNL SharePoint] 整合。 如果您不想要授與使用者的完全控制存取權，您必須授與下列許可權：
+使用者 [!UICONTROL 完全控制] 存取擁有您的所有必要許可權 [!DNL SharePoint] 整合。 如果您不想要授與使用者的完全控制存取權，您必須授與下列許可權：
 
 <table style="table-layout:auto"> 
  <col> 
@@ -402,7 +423,7 @@ For instructions, see [Link an external document to [!DNL Workfront]](../../docu
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[！UICONTROL Contribute]</p> </td> 
-   <td> <p>可以檢視、新增、更新和刪除清單專案和檔案</p> </td> 
+   <td> <p>可以檢視、新增、更新及刪除清單專案和檔案</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[！UICONTROL檢視]</p> </td> 
@@ -427,7 +448,7 @@ This can be caused by a number of things, originating in either [!DNL Workfront]
 
 -->
 
-### 問題：嘗試瀏覽時 [!DNL SharePoint] 中的檔案 [!DNL Workfront]，我沒有看見任何或所有的網站集合。 {#problem-when-attempting-to-browse-sharepoint-files-in-workfront-i-do-not-see-any-or-all-of-my-site-collections}
+### 問題：嘗試瀏覽時 [!DNL SharePoint] 中的檔案 [!DNL Workfront]，我沒有看見任何或全部的網站集合。 {#problem-when-attempting-to-browse-sharepoint-files-in-workfront-i-do-not-see-any-or-all-of-my-site-collections}
 
 解決方案：
 
@@ -446,7 +467,7 @@ This can be caused by a number of things, originating in either [!DNL Workfront]
 
 * 使用者必須擁有中網站集合的檢視存取權 [!DNL SharePoint].
 
-  若要在中驗證此內容 [!DNL SharePoint]，前往 [!DNL SharePoint]，然後開啟網站集合> [!UICONTROL 設定] > [!UICONTROL 網站許可權].
+  若要在中驗證此專案，請執行下列動作： [!DNL SharePoint]，前往 [!DNL SharePoint]，然後開啟網站集合> [!UICONTROL 設定] > [!UICONTROL 網站許可權].
 <!--* The [!DNL SharePoint] Site App must have access to the site collection.
 
   To verify this in [!DNL SharePoint]:
@@ -465,7 +486,7 @@ This can be caused by a number of things, originating in either [!DNL Workfront]
 
 如果連結的使用者 [!DNL SharePoint] 資料夾無法再驗證， [!DNL Workfront] 無法再存取資料夾的內容。 例如，如果最初連結資料夾的使用者離開公司，就可能發生這種情況。
 
-為確保繼續存取，具有資料夾存取許可權的使用者必須重新連結資料夾。
+為確保繼續存取，有權存取資料夾的使用者必須重新連結資料夾。
 
 如需從外部提供者連結資料夾的資訊，請參閱 [從外部應用程式連結檔案](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md).
 
