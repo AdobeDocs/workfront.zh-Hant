@@ -6,9 +6,9 @@ description: 您可以在Adobe Workfront物件（專案、任務或問題）上�
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: 4b6d14559f776ed5484a67fcc5f461f154cc5e30
+source-git-commit: 709b36f4471e5576e45ed918783216a1f7f4abac
 workflow-type: tm+mt
-source-wordcount: '3496'
+source-wordcount: '3521'
 ht-degree: 1%
 
 ---
@@ -267,7 +267,7 @@ drafted for P&P release:
 1. 按一下 **提交** 將更新新增至Workfront物件。
 1. （可選）若要編輯註解，請按一下 **更多** 功能表 ![](assets/more-menu.png)  <span class="preview">在註解的右上角</span>，然後按一下 **編輯**.
 1. 編輯註解中的資訊、新增或移除影像，或移除任何已標籤的使用者。
-您可以在15分鐘內編輯意見，而無需提交意見。 「已編輯」指標會新增至日期戳記的左側，該日期戳記會在更新評論時顯示。
+您可以在15分鐘內編輯意見，而無需提交意見。 「已編輯」指示器會新增至日期戳記的左側，該日期戳記會在輸入評論時顯示。
 
    <span class="preview">![](assets/edited-tag-on-comment-unified-commenting.png)</span>
 
@@ -275,6 +275,7 @@ drafted for P&P release:
    >
    >* 系統只會在您提交原始更新時，才會產生電子郵件通知使用者您的更新。 編輯更新後不會產生電子郵件。
    >* 註解旁邊的日期戳記是原始註解的日期，而不是上次編輯的日期。
+   >* 目前年份的評論不會在日期戳記中顯示年份。 將游標暫留在時間戳記上會顯示完整日期，包括年份。
 
 1. （選用）按一下 **回覆** 若要回覆現有註解，請遵循上述步驟4-8。 <!--(**************insure this stays accurate***********)--> 如需有關回覆更新的資訊，請參閱 [回覆更新](../../workfront-basics/updating-work-items-and-viewing-updates/reply-to-updates.md).
 

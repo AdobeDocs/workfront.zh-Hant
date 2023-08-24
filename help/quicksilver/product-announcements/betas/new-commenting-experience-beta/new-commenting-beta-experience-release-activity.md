@@ -7,9 +7,9 @@ author: Alina
 feature: Product Announcements
 role: User, Admin
 exl-id: 1c0cb547-ac99-4cdf-8a74-2c47ad5a10ad
-source-git-commit: 7df70ed43b9ee7320bae5f0f6b5e632000af78c3
+source-git-commit: 709b36f4471e5576e45ed918783216a1f7f4abac
 workflow-type: tm+mt
-source-wordcount: '1902'
+source-wordcount: '1976'
 ht-degree: 2%
 
 ---
@@ -68,6 +68,16 @@ ht-degree: 2%
 下節包含原始23.2發行後新增的功能清單，從最近發行的功能開始。
 
 以下資訊是指每週發行活動，其基礎為包含在新的評論測試版體驗中的功能。 本文列出針對新評論體驗新增的功能及已解決的問題。
+
+### 2023年8月21日起一週
+
+#### 變更「註解」標籤上的時間戳記格式
+
+我們已更新新註解流之「註解」索引標籤中使用者註解的時間戳記格式。 作為此變更的一部分，目前年份的評論不再在時間戳記中顯示年份。 將游標暫留在時間戳記上會顯示完整日期，包括年份。
+
+變更不會影響「系統活動」標籤中的系統更新。
+
+預覽和生產： 2023年8月24日
 
 ### 2023年8月14日起一週
 
