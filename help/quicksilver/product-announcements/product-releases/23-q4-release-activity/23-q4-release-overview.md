@@ -3,9 +3,9 @@ title: 2023年第四季版本總覽
 description: 2023年第四季版本總覽
 author: Becky
 feature: Product Announcements
-source-git-commit: e2ecd03aea12892b6eb4b2660133998aa430c916
+source-git-commit: 06f7c4b940e4b658b35bbee13d5027f622892700
 workflow-type: tm+mt
-source-wordcount: '1493'
+source-wordcount: '1636'
 ht-degree: 0%
 
 ---
@@ -41,6 +41,7 @@ ht-degree: 0%
 ## Adobe Workfront增強功能
 
 * [展示板增強功能](#boards-enhancements)
+* [整合增強功能](#integration-enhancements)
 * [專案增強功能](#project-enhancements)
 * [其他增強功能](#other-enhancements)
 
@@ -60,6 +61,42 @@ ht-degree: 0%
                         </p>
                     </td>
                 </tr>  
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-21.md" class="MCXref xref" xrefformat="{para}">對展示板和卡片上的使用者指派的增強功能</a><span style="color: #ff0000;"> 預覽中的新增專案！</span></p><p>現在提供增強功能，可新增彈性將使用者新增到Adobe Workfront面板中的面板和卡片。</p>
+                    </td>
+                    <td><p><b>將於下列日期提供：</b></p>
+                        <ul>
+                            <li>
+                                <p>預覽版本： 2023年8月21日</p>
+                            </li>
+                            <li>
+                                <p><span class="preview">適用於所有客戶的生產： 2023年8月24日</span>
+                            </li> 
+                       </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-14.md" class="MCXref xref" xrefformat="{para}">在連線的卡片上新增檔案</a></p><p>您現在可以在Adobe Workfront展示板上所連線的卡片上附加檔案。 您新增到卡片上的任何檔案都可在已連線任務或問題的檔案索引標籤上使用，且兩個區域都支援相同的檔案型別。</p>
+                    </td>
+                    <td><p><b>將於下列日期提供：</b></p>
+                        <ul>
+                            <li>
+                                <p>預覽版本： 2023年8月21日</p>
+                            </li>
+                            <li>
+                                <p>主機板搶先使用的生產日期： 2023年8月24日</p>
+                            </li>
+                            <li>
+                                <p>快速發行生產：待定</p>
+                            </li>
+                            <li>
+                                <p>每季發行生產：23.10版本</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-july-31.md" class="MCXref xref" xrefformat="{para}">連線卡片上的可用檔案僅供檢視</a></p><p>針對Adobe Workfront展示板上已連線的卡片，您現在可以檢視檔案，例如影像和PDF。 您可以在瀏覽器中預覽檔案或下載到您的電腦。 </p>
@@ -98,29 +135,65 @@ ht-degree: 0%
                             </li>
                         </ul>
                     </td>
+                </tr>    
+           </tbody>
+        </table>
+
+### 整合增強功能
+
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 50%;" />
+            <tbody>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-14.md" class="MCXref xref" xrefformat="{para}">在連線的卡片上新增檔案</a></p><p>您現在可以在Adobe Workfront展示板上所連線的卡片上附加檔案。 您新增到卡片上的任何檔案都可在已連線任務或問題的檔案索引標籤上使用，且兩個區域都支援相同的檔案型別。</p>
+                        <p><span class="bold">功能</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">發行日期</span>
+                        </p>
+                    </td>
+                 </tr>  
+                 <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-21.md" class="MCXref xref" xrefformat="{para}">增強將檔案傳送至SharePoint (GraphAPI)時的體驗</a><span style="color: #ff0000;"> 預覽中的新增專案！</span> </p><p>我們已進行一些變更，以便在傳送檔案至您的SharePoint (GraphAPI)資料夾時更容易找到資料夾</p>
                     </td>
                     <td><p><b>將於下列日期提供：</b></p>
                         <ul>
                             <li>
-                                <p>預覽版本： 2023年8月21日</p>
-                            </li>
-                            <li>
-                                <p>主機板搶先使用的生產日期： 2023年8月24日</p>
+                                <p>預覽版本： 8月24日<br /></p>
                             </li>
                             <li>
                                 <p>快速發行生產：待定</p>
                             </li>
                             <li>
-                                <p>每季發行生產：23.10版本</p>
+                                <p>每季發行的生產：待定</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                 <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-21.md" class="MCXref xref" xrefformat="{para}">升級為拖放檔案整合</a><span style="color: #ff0000;"> 預覽中的新增專案！</span> </p><p>我們做了一些增強功能，讓檔案拖放至連結資料夾時，能更清晰易懂且移除使用者錯誤。</p>
+                    </td>
+                    <td><p><b>將於下列日期提供：</b></p>
+                        <ul>
+                            <li>
+                                <p>預覽版本： 8月24日<br /></p>
+                            </li>
+                            <li>
+                                <p>快速發行生產：待定</p>
+                            </li>
+                            <li>
+                                <p>每季發行的生產：待定</p>
                             </li>
                         </ul>
                     </td>
                 </tr>
            </tbody>
         </table>
+
 
 ### 專案增強功能
 
