@@ -1,29 +1,29 @@
 ---
 product-area: projects
 navigation-topic: financials
-title: 管理項目財務區域中的資訊
-description: 管理項目財務區域中的資訊
+title: 管理專案財務區域的資訊
+description: 管理專案財務區域的資訊
 author: Alina
 feature: Work Management
 exl-id: 147f5d55-a827-4cca-9ab0-afb03a4bcd5a
-source-git-commit: d8c274d2153836647367c263cad8d786402cbe7f
+source-git-commit: 647788221b4acff1cfd5e0ce14d5b99cf90ceee0
 workflow-type: tm+mt
 source-wordcount: '1304'
 ht-degree: 2%
 
 ---
 
-# 管理項目財務區域中的資訊
+# 管理專案財務區域的資訊
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: some information in here is duplicated in Edit projects. If you need to update one of the fields in this area, do it in both places.)</p>
 -->
 
-通過訪問「項目詳細資訊」部分的「財務」區域，可以查看或編輯項目的財務資訊。 在此區域中可查看或編輯的欄位數量有限。 如需編輯專案所有資訊的相關資訊，請參閱 [編輯專案](../../../manage-work/projects/manage-projects/edit-projects.md).
+您可以存取專案詳細資訊區段的財務區域，以檢視或編輯專案的財務資訊。 您可以在此區域中檢視或編輯的欄位數量有限。 如需有關編輯專案所有資訊的資訊，請參閱 [編輯專案](../../../manage-work/projects/manage-projects/edit-projects.md).
 
 ## 存取需求
 
-您必須具備下列存取權，才能執行本文中的步驟：
+您必須具有下列存取權才能執行本文中的步驟：
 
 <table style="table-layout:auto"> 
  <col> 
@@ -35,42 +35,43 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront授權*</td> 
-   <td> <p>審核或更高版本</p> </td> 
+   <td> <p>評論或以上</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">訪問級別配置*</td> 
-   <td> <p>查看或更高程度地訪問項目和財務資料</p> <p>編輯對項目和財務資料的訪問以編輯項目的財務資訊</p> <p>注意：如果您仍無權存取，請洽詢您的Workfront管理員，他們是否在您的存取層級設定其他限制。 如需Workfront管理員如何變更您的存取層級的詳細資訊，請參閱 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>.</p> </td> 
+   <td role="rowheader">存取層級設定*</td> 
+   <td> <p>檢視專案和財務資料的存取權或更高的存取權</p> <p>編輯對專案和財務資料的存取權以編輯專案的財務資訊</p> <p><b>附註</b></p>
+   <p> 如果您還是沒有存取權，請詢問您的Workfront管理員，他們是否在您的存取層級中設定其他限制。 如需有關Workfront管理員如何變更您的存取層級的資訊，請參閱 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">物件權限</td> 
-   <td> <p>查看包含查看財務權限的項目或更高版本的權限</p> <p>管理包含「管理財務」的項目的權限，以編輯項目的財務資訊</p> <p>有關請求其他訪問的資訊，請參閱 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">請求對對象的訪問 </a>.</p> </td> 
+   <td role="rowheader">物件許可權</td> 
+   <td> <p>檢視專案或以上版本的許可權，其中包含檢視財務許可權</p> <p>管理專案的許可權，包括管理財務以編輯專案的財務資訊</p> <p>如需請求其他存取許可權的詳細資訊，請參閱 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">要求物件的存取權 </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;若要了解您擁有的計畫、授權類型或存取權，請聯絡您的Workfront管理員。
+&#42;若要瞭解您擁有的計畫、授權型別或存取權，請聯絡您的Workfront管理員。
 
-## 財務領域概覽
+## 財務領域概述
 
-在「財務」區域中查看或編輯資訊時，請考慮以下事項：
+在「財務」區域中檢視或編輯資訊時，請考量下列事項：
 
-* 您可以在「項目詳細資訊」的「財務」區域中找到的財務資訊表示從任務累計到項目層的值，以及直接在項目上輸入的資訊。 可以在項目和任務級別管理某些財務資訊。
-* 您必須具有項目的查看權限以及訪問級別中的財務資料的訪問權限，才能查看項目上的財務區域。
-* 您必須具有項目的管理權限以及訪問級別的財務資料的權限，才能編輯財務區域上的資訊。 不過，我們建議只有專案擁有者才應編輯此區域的資訊。
+* 您可以在「專案詳細資料」的「財務」區域中找到的財務資訊，代表從作業累計至專案層次的值，以及直接在專案上輸入的資訊。 某些財務資訊可在專案與作業層級管理。
+* 您必須擁有專案的檢視許可權以及從存取層級存取財務資料，才能檢視專案的財務區域。
+* 您必須擁有專案的管理許可權，以及從您的存取層級存取財務資料，才能編輯財務區域上的資訊。 不過，我們建議只有專案所有者應編輯此區域的資訊。
 
-## 查看項目的財務資訊
+## 檢視專案的財務資訊
 
 1. 前往專案。
-1. 按一下 **專案詳細資料** 中。
-1. 按一下 **編輯** 圖示 ![](assets/edit-icon.png) 在「詳細資料」區段的右上角，按一下 **金融**.
+1. 按一下 **專案詳細資訊** 在左側面板中。
+1. 按一下 **編輯** 圖示 ![](assets/edit-icon.png) 「詳細資訊」區段的右上角，然後按一下 **財務**.
 
    ![](assets/finance-area-in-details-view-only-nwe-350x188.png)
 
    >[!NOTE]
    >
-   >視您的Workfront管理員設定配置範本的方式而定，「概述」區段可能不會先列出，而是會收合。 如需詳細資訊，請參閱 [使用版面範本自訂「詳細資料」檢視](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md).
+   >根據Workfront管理員設定版面配置範本的方式，概觀區段可能不會列在前，在此情況下會摺疊。 如需詳細資訊，請參閱 [使用版面配置範本自訂詳細資料檢視](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md).
 
-1. 查看項目「財務」區域中的以下欄位：
+1. 檢視專案之財務區域的下列欄位：
 
    <table style="table-layout:auto"> 
     <col> 
@@ -78,52 +79,52 @@ ht-degree: 2%
     <tbody> 
      <tr> 
       <td role="rowheader">績效指數方法</td> 
-      <td> 控制Workfront用於計算掙值量度的方法。 可以是以小時為基礎，或以成本為基礎。 <br>有關PIM的詳細資訊，請參閱文章 <a href="../../../manage-work/projects/project-finances/set-pim.md" class="MCXref xref">設定效能索引方法(PIM)</a></td> 
+      <td> 控制Workfront用來計算「實現值」量度的方法。 可以是小時制，也可以是成本制。 <br>如需有關PIM的詳細資訊，請參閱文章 <a href="../../../manage-work/projects/project-finances/set-pim.md" class="MCXref xref">設定績效指數方法(PIM)</a></td> 
      </tr> 
      <tr> 
       <td role="rowheader">CPI / SPI / CSI</td> 
-      <td> <p>這些是專案績效量度，可顯示您專案在指定時間的執行情形。 其值是根據「效能索引」方法計算的。<br>如需詳細資訊，請參閱下列文章： </p> 
+      <td> <p>這些是顯示您的專案在指定時間的表現情形的專案績效量度。 其值是根據績效指數方法計算。<br>如需詳細資訊，請參閱下列文章： </p> 
        <ul> 
         <li> <p><a href="../../../manage-work/projects/project-finances/calculate-cpi.md" class="MCXref xref">計算成本績效指數(CPI)</a> </p> </li> 
-        <li> <p><a href="../../../manage-work/projects/project-finances/calculate-spi.md" class="MCXref xref">計算計畫效能索引(SPI) </a> </p> </li> 
-        <li> <p><a href="../../../manage-work/projects/project-finances/calculate-csi.md" class="MCXref xref">計算成本計畫效能指數(CSI)</a> </p> </li> 
+        <li> <p><a href="../../../manage-work/projects/project-finances/calculate-spi.md" class="MCXref xref">計算排程績效指數(SPI) </a> </p> </li> 
+        <li> <p><a href="../../../manage-work/projects/project-finances/calculate-csi.md" class="MCXref xref">計算成本排程績效指數(CSI)</a> </p> </li> 
        </ul> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">預估完成成本</td> 
-      <td> 如果效能索引方法(PIM)基於小時，則以小時表示項目的預計總成本，如果效能索引方法(PIM)基於成本，則以貨幣值表示。<br>如需有關計算完成時預估的詳細資訊，請參閱文章 <a href="../../../manage-work/projects/project-finances/calculate-eac.md" class="MCXref xref">完成時計算估計值(EAC)</a></td> 
+      <td> 專案的預估總成本，如果績效指數方法(PIM)是以時數為基準，則以時數表示；如果績效指數方法(PIM)是以成本為基準，則以貨幣值表示。<br>如需有關計算完工估算的詳細資訊，請參閱文章 <a href="../../../manage-work/projects/project-finances/calculate-eac.md" class="MCXref xref">計算完工估算(EAC)</a></td> 
      </tr> 
      <tr> 
       <td role="rowheader">預算</td> 
-      <td>這是項目設定的預算。 此項目所有者手動指定。</td> 
+      <td>這是專案的預算集。 這由專案所有者手動指定。</td> 
      </tr> 
      <tr> 
       <td role="rowheader">固定成本</td> 
-      <td>這些是項目的固定成本，與項目上的其他活動無關。 由項目所有者手動輸入。</td> 
+      <td>這些是專案的固定成本，與專案上的其他活動無關。 由專案所有者手動輸入。</td> 
      </tr> 
      <tr> 
       <td role="rowheader">計畫成本</td> 
-      <td>根據計畫小時數和與任務分配者（職務角色或用戶）關聯的費率，項目的估計成本。</td> 
+      <td>專案的估計成本，根據計畫時數以及與任務受指派人（工作角色或使用者）相關聯的費率。</td> 
      </tr> 
      <tr> 
       <td role="rowheader">實際成本</td> 
-      <td>項目應計的所有成本。 實際成本是所有實際成本的總和：人工成本（基於實際小時數和與任務職責或記錄任務的用戶相關聯的費率）、費用和固定成本（可與項目或任務相關聯）。</td> 
+      <td>專案的所有應計成本。 實際成本是所有實際成本的總和：勞力成本（根據實際時數以及與工作角色或記錄工作角色的使用者相關聯的費率）、費用及固定成本（可與專案或作業相關聯）。</td> 
      </tr> 
      <tr> 
       <td role="rowheader">固定收入</td> 
-      <td>根據項目時間表設定預期收入。 固定收入由專案擁有者手動指定。</td> 
+      <td>根據專案排程設定預期收入。 固定收入由專案所有者手動指定。</td> 
      </tr> 
      <tr> 
       <td role="rowheader">計畫收入</td> 
-      <td>根據計畫小時數和與任務分配者（職務角色或用戶）關聯的費率，預計收入。</td> 
+      <td>根據計畫時數以及與任務受指派人（工作角色或使用者）關聯的費率的預期收入。</td> 
      </tr> 
      <tr> 
       <td role="rowheader">實際收入</td> 
-      <td>根據實際小時數和與任務分配者（職務職責或用戶）關聯的費率，項目的實際收入。</td> 
+      <td>根據實際時數以及與任務受指派人（職務角色或使用者）關聯的費率，從專案得到的實際收入。</td> 
      </tr> 
      <tr> 
       <td role="rowheader">已記帳收入</td> 
-      <td> <p>向客戶或在「帳單記錄」中捕獲的其他交易方開單的收入。 如需帳單記錄的詳細資訊，請參閱文章 <a href="../../../manage-work/projects/project-finances/create-billing-records.md" class="MCXref xref">建立計費記錄</a>. </p> </td> 
+      <td> <p>記入帳單記錄中，向客戶或其他當事人記帳的收入。 如需付費記錄的詳細資訊，請參閱文章 <a href="../../../manage-work/projects/project-finances/create-billing-records.md" class="MCXref xref">建立付費記錄</a>. </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"> </td> 
@@ -136,33 +137,33 @@ ht-degree: 2%
     </tbody> 
    </table>
 
-## 編輯項目的財務資訊
+## 編輯專案的財務資訊
 
-作為項目責任人，您可以編輯項目的「財務」子標籤上的資訊。
+身為專案所有者，您可以編輯專案之「財務」子標籤上的資訊。
 
-要編輯「項目財務」子標籤上的資訊，請執行以下操作：
+若要編輯「專案財務」子頁簽上的資訊，請執行下列動作：
 
-1. 轉到您是的所有者的項目。
+1. 前往您擁有的專案。
 
    >[!NOTE]
    >
-   >您需要專案的「管理」權限，才能執行下列步驟。 我們也建議只有專案擁有者才應該變更專案的「財務」子標籤。
+   >您需要專案的管理許可權才能執行以下步驟。 我們也建議只有專案所有者應該變更專案的財務子標籤。
 
-1. 按一下 **專案詳細資料** 中。
-1. 按一下 **編輯** 圖示 ![](assets/edit-icon.png) 在「詳細資料」區段的右上角，按一下 **金融** . 這將開啟「財務」區域進行編輯。
-1. 按一下欄位或按一下，編輯任何可供編輯的欄位 **+添加** 將資訊添加到空欄位。
+1. 按一下 **專案詳細資訊** 在左側面板中。
+1. 按一下 **編輯** 圖示 ![](assets/edit-icon.png) 「詳細資訊」區段的右上角，然後按一下 **財務** . 這將開啟「財務」區域以進行編輯。
+1. 編輯任何可編輯的欄位，方法是按一下該欄位或按一下 **+新增** 將資訊新增至空白欄位。
 
    >[!TIP]
    >
-   >如果欄位是由Workfront自動計算，或您沒有編輯權限，則無法編輯這些欄位。
+   >如果欄位是由Workfront自動計算，或是您沒有編輯許可權，則無法加以編輯。
 
    ![](assets/edit-finance-area-in-project-details-nwe-350x275.png)
 
-1. 更新下列任何欄位。
+1. 更新以下任何欄位。
 
    >[!NOTE]
    >
-   >視您的Workfront管理員設定「配置範本」的方式而定，您的環境中「專案詳細資料」區段中的欄位可能會不同。 如需詳細資訊，請參閱 [使用版面範本自訂「詳細資料」檢視](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md).
+   >根據您的Workfront管理員設定版面配置範本的方式，您環境中專案詳細資訊區段中的欄位可能會不同。 如需詳細資訊，請參閱 [使用版面配置範本自訂詳細資料檢視](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md).
 
    <table style="table-layout:auto"> 
     <col> 
@@ -170,35 +171,35 @@ ht-degree: 2%
     <tbody> 
      <tr> 
       <td role="rowheader">績效指數方法</td> 
-      <td> <p>控制Workfront用於計算專案效能量度的方法。 這是由管理員在系統層級設定的，但您也可以在專案層級編輯。 請考慮選取下列其中一個選項：</p> 
+      <td> <p>控制Workfront用來計算專案績效量度的方法。 這是由您的管理員在系統層級設定的，但您也可以在專案層級進行編輯。 請考慮選取下列其中一個選項：</p> 
        <ul> 
-        <li><strong>小時型：</strong>Workfront在計算項目的CPI和EAC時使用「計畫小時數」，而項目的EAC以小時數顯示。 </li> 
-        <li><strong>基於成本：</strong>Workfront在計算項目的CPI和EAC時使用「計畫人工成本」，EAC顯示為貨幣值。 選擇此選項時，請確保任務分配者（職務角色或用戶）與成本比率相關聯。</li> 
+        <li><strong>基於小時：</strong>Workfront使用計畫時數來計算專案的CPI和EAC，而專案的EAC顯示為數字（以時數表示）。 </li> 
+        <li><strong>基於成本：</strong>Workfront使用計畫勞力成本來計算專案的CPI和EAC，而EAC會顯示為貨幣值。 選取此選項時，請確定您的任務受指派人（職務角色或使用者）與成本費率相關聯。</li> 
        </ul> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">預估完成成本</td> 
-      <td> <p>表示項目或任務完成時的預計總成本。 這是由管理員在系統層級設定的，但您也可以在專案層級編輯。 請考慮選取下列其中一個選項：</p> 
+      <td> <p>代表專案或任務完成時的預估總成本。 這是由您的管理員在系統層級設定的，但您也可以在專案層級進行編輯。 請考慮選取下列其中一個選項：</p> 
        <ul> 
-        <li><strong>在專案層級計算</strong>:父任務和項目的EAC通過在EAC公式中輸入實際小時數/實際人工成本來確定。 此計算包括直接添加到父任務或項目的實際小時數/成本和費用。</li> 
-        <li><strong>從任務/子任務匯總</strong>:父任務和項目的EAC通過加總每個子任務的EAC來確定。 此計算不包括直接添加到父任務或項目的實際小時數/成本和費用。</li> 
+        <li><strong>在專案層級計算</strong>：父系任務和專案的EAC是透過在EAC公式中輸入實際時數/實際勞力成本來決定。 此計算包括直接新增到父級任務或專案的實際時數/成本和費用。</li> 
+        <li><strong>從任務/子任務彙總</strong>：父系任務和專案的EAC是由每個子系任務的EAC相加決定。 此計算不包括直接新增到父級任務或專案的實際時數/成本和費用。</li> 
        </ul> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">預算</td> 
-      <td>指定此項目的預算。</td> 
+      <td>指定此專案的預算。</td> 
      </tr> 
      <tr> 
       <td role="rowheader">固定成本</td> 
-      <td>指定此項目的固定成本。 這不應包括任何人工或費用成本。</td> 
+      <td>指定此專案的固定成本。 這不應包含任何人力或費用成本。</td> 
      </tr> 
      <tr> 
       <td role="rowheader">固定收入</td> 
-      <td> <p>指定此專案的固定收入。 這不應包括向合作夥伴或第三方開單的任何帳單記錄所產生的收入。</p> </td> 
+      <td> <p>指定此專案的固定收入。 這不應包括來自向合作夥伴或第三方計費的任何計費記錄的收入。</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">專案貨幣</td> 
-      <td> <p>如果此項目的貨幣與系統中的預設貨幣不同，請為其指定貨幣。 系統中的預設貨幣由您的Workfront管理員定義。 如需在Workfront中設定匯率的詳細資訊，請參閱文章 <a href="../../../administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md" class="MCXref xref">設定匯率</a>.</p> </td> 
+      <td> <p>如果貨幣與系統中的預設貨幣不同，請指定此專案的貨幣。 您系統中的預設貨幣由Workfront管理員定義。 如需在Workfront中設定匯率的詳細資訊，請參閱文章 <a href="../../../administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md" class="MCXref xref">設定匯率</a>.</p> </td> 
      </tr>
     </tbody> 
    </table>

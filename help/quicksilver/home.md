@@ -3,18 +3,18 @@ title: 『[!DNL Adobe Workfront] documentation`
 description: 的檔案 [!DNL Adobe Workfront].
 feature: Get Started with Workfront
 exl-id: 337efdc8-ee1e-4223-a211-2cb1dcecfafa
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+source-git-commit: 647788221b4acff1cfd5e0ce14d5b99cf90ceee0
 workflow-type: tm+mt
-source-wordcount: '283'
-ht-degree: 9%
+source-wordcount: '380'
+ht-degree: 2%
 
 ---
 
 # [!DNL Workfront] 檔案
 
-歡迎使用Adobe Workfront產品與技術檔案首頁。 Adobe Workfront是行銷工作管理應用程式，協助您在一個地方管理整個工作生命週期。
+歡迎使用Adobe Workfront產品與技術檔案首頁。 Adobe Workfront是工作管理應用程式，協助您在一個地方管理整個工作生命週期。
 
-使用以下 Adobe Workfront 文件、指南、教學課程和其他資源，了解如何在組織中實施並有效使用 Adobe Workfront。
+使用以下Adobe Workfront說明文章和其他資源，瞭解如何在組織中實施並有效使用Adobe Workfront。
 
 以下小節依照目標對象的典型職務排列，能引導您在本指南中找到實用連結：
 
@@ -40,13 +40,32 @@ Workfront Fusion可順暢地連線您的應用程式和Web服務，因此您可�
 
 另請參閱 [Adobe Workfront基本需知](/help/quicksilver/workfront-basics/workfront-basics.md).
 
+### 工作管理
+
+瞭解如何設定和使用Workfront強大的工作管理流程和工具。
+
+另請參閱 [管理工作](/help/quicksilver/manage-work/manage-work.md)
+
+
 ### Workfront中的敏捷
 
 Workfront中的敏捷功能可讓團隊以一致的步調完成少量可管理的工作量。
 
 另請參閱 [敏捷概覽](/help/quicksilver/agile/agile-overview.md).
 
-### 文字模式報表
+### 使用檔案
+
+將檔案新增至工作流程，以增強您的體驗。
+
+另請參閱 [檔案](/help/quicksilver/documents/documents-overview.md).
+
+### 報告
+
+若要以易於閱讀的格式顯示現有資訊並與所有利害關係人分享，請使用報告和儀表板。
+
+另請參閱 [報告和儀表板](/help/quicksilver/reports-and-dashboards/reports-and-dashboards-overview.md).
+
+#### 文字模式報表
 
 如果您不確定如何在Workfront中建立所需的報告，您可能會使用文字模式找到所要的解決方案。
 
@@ -58,11 +77,11 @@ Workfront中的敏捷功能可讓團隊以一致的步調完成少量可管理�
 
 另請參閱 [工作負載平衡器](/help/quicksilver/resource-mgmt/workload-balancer/workload-balancer.md).
 
-### Workfront發行資訊
+### Adobe Workfront Goals
 
-瞭解Workfront新增功能的所有詳細資訊！
+讓您的策略與您的工作保持一致，以使用Adobe工作框架目標達成一致並取得成功。
 
-另請參閱 [Workfront產品發行](/help/quicksilver/product-announcements/product-releases/product-releases.md).
+另請參閱 [Adobe Workfront目標](/help/quicksilver/workfront-goals/workfront-goals.md).
 
 ## 開發人員
 
@@ -77,3 +96,15 @@ Workfront中的敏捷功能可讓團隊以一致的步調完成少量可管理�
 您可以在API總管中檢視透過Adobe Workfront API取得的所有物件。
 
 請參閱 [developer.adobe.com上的Workfront API Explorer](https://developer.adobe.com/workfront/api-explorer/).
+
+### Workfront 整合
+
+透過將Workfront與其他系統整合，在一個位置存取所有應用程式。
+
+另請參閱 [Adobe Workfront整合](/help/quicksilver/workfront-integrations-and-apps/workfront-integrations.md).
+
+## Workfront發行資訊
+
+瞭解Workfront新增功能的所有詳細資訊！
+
+另請參閱 [Workfront產品發行](/help/quicksilver/product-announcements/product-releases/product-releases.md).
