@@ -1,15 +1,9 @@
 ---
-content-type: reference
-product-area: reporting
-navigation-topic: reporting-canvas
 title: 其他區塊
 description: 其他區塊總覽
-author: Nolan
-feature: Reports and Dashboards
-exl-id: a4e5a9c3-d7b8-4128-b636-3baea77e7a85
 hidefromtoc: true
 hide: true
-source-git-commit: a9c36ff874d3272e1d2de70578c420af29b9d44c
+source-git-commit: 350d64577bac677bb0cc9bcb804c32b0301bc5d4
 workflow-type: tm+mt
 source-wordcount: '23'
 ht-degree: 0%

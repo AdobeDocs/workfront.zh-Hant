@@ -1,15 +1,9 @@
 ---
-content-type: reference
-product-area: reporting
-navigation-topic: reporting-canvas
 title: 視覺效果區塊
 description: 視覺效果區塊總覽
-author: Nolan
-feature: Reports and Dashboards
-exl-id: 804ea81c-7d25-4d6f-ab25-46800ab7b2d1
 hidefromtoc: true
 hide: true
-source-git-commit: a9c36ff874d3272e1d2de70578c420af29b9d44c
+source-git-commit: 350d64577bac677bb0cc9bcb804c32b0301bc5d4
 workflow-type: tm+mt
 source-wordcount: '50'
 ht-degree: 0%

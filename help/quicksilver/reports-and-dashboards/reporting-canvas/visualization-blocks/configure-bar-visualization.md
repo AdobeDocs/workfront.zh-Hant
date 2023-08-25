@@ -1,12 +1,9 @@
 ---
 title: 在報告畫布中設定橫條圖視覺效果
 description: 在報告畫布中設定橫條圖視覺效果
-author: Nolan
-feature: Reports and Dashboards
-exl-id: 7dc4f156-d262-482f-aa82-c905f0d1b20f
 hidefromtoc: true
 hide: true
-source-git-commit: a9c36ff874d3272e1d2de70578c420af29b9d44c
+source-git-commit: 350d64577bac677bb0cc9bcb804c32b0301bc5d4
 workflow-type: tm+mt
 source-wordcount: '347'
 ht-degree: 2%

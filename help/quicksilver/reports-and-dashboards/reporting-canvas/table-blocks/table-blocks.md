@@ -1,15 +1,9 @@
 ---
-content-type: reference
-product-area: reporting
-navigation-topic: reporting-canvas
 title: 表格區塊
 description: 表格區塊總覽
-author: Nolan
-feature: Reports and Dashboards
-exl-id: 2b4e1515-01fa-494f-9a1b-abd148afe0b0
 hidefromtoc: true
 hide: true
-source-git-commit: a9c36ff874d3272e1d2de70578c420af29b9d44c
+source-git-commit: 350d64577bac677bb0cc9bcb804c32b0301bc5d4
 workflow-type: tm+mt
 source-wordcount: '48'
 ht-degree: 0%

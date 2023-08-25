@@ -1,13 +1,9 @@
 ---
 title: 在報告畫布中新增或編輯表格區塊
 description: 在報告畫布中新增或編輯表格區塊
-author: Nolan
-draft: Probably
-feature: Reports and Dashboards
-exl-id: d706659c-457f-4da0-a6e7-03ea29cab700
 hidefromtoc: true
 hide: true
-source-git-commit: a9c36ff874d3272e1d2de70578c420af29b9d44c
+source-git-commit: 350d64577bac677bb0cc9bcb804c32b0301bc5d4
 workflow-type: tm+mt
 source-wordcount: '482'
 ht-degree: 0%

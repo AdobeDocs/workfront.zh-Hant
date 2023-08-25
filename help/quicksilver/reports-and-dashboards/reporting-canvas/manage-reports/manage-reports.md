@@ -1,15 +1,9 @@
 ---
-content-type: reference
-product-area: reporting
-navigation-topic: reporting-canvas
 title: 管理報表
 description: 管理報表概觀
-author: Nolan
-feature: Reports and Dashboards
-exl-id: 535b81a4-77bb-4c6b-84e0-e83f080e802e
 hidefromtoc: true
 hide: true
-source-git-commit: a9c36ff874d3272e1d2de70578c420af29b9d44c
+source-git-commit: 350d64577bac677bb0cc9bcb804c32b0301bc5d4
 workflow-type: tm+mt
 source-wordcount: '25'
 ht-degree: 0%

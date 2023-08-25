@@ -1,13 +1,9 @@
 ---
 title: 匯出報告畫布中的報告
 description: 匯出報告畫布中的報告
-author: Nolan
-draft: Probably
-feature: Reports and Dashboards
-exl-id: bd9e2e6f-338e-4cfc-aee5-6de6ecff4f09
 hidefromtoc: true
 hide: true
-source-git-commit: a9c36ff874d3272e1d2de70578c420af29b9d44c
+source-git-commit: 350d64577bac677bb0cc9bcb804c32b0301bc5d4
 workflow-type: tm+mt
 source-wordcount: '181'
 ht-degree: 1%
