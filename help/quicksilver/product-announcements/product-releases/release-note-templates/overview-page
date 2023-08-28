@@ -209,6 +209,10 @@ New in preview, prod, and coming soon text
 <span style="color: #ff0000;"> New in Production!</span>
 <span style="color: #ff0000;"> Coming soon!</span>
 
+Badge for available in Fast Release
+
+[!BADGE In production for Fast Release ]{type=Positive}
+
 
 Test for boards early access stuff
 
