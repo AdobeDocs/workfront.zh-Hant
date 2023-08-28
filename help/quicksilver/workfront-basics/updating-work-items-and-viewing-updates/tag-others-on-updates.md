@@ -6,9 +6,9 @@ description: 在Adobe Workfront物件上提供更新註解時，專案上的所�
 author: Alina
 feature: Get Started with Workfront
 exl-id: c4c0d74f-ac50-4fc5-89d6-28f004c25b29
-source-git-commit: 4b6d14559f776ed5484a67fcc5f461f154cc5e30
+source-git-commit: 3a2745437e00ac968f2a4590be2637dbc01594ad
 workflow-type: tm+mt
-source-wordcount: '1577'
+source-wordcount: '1626'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,8 @@ ht-degree: 0%
 # 標籤其他人的更新
 
 <!--take "Beta" references out when we remove the beta and change "current" to "legacy" after October 26-->
+
+<!--take new commenting and legacy commenting out when we remove the legacy commenting and the new one is the only experience-->
 
 <span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它僅在預覽環境中可供所有客戶使用。 每月發行至生產環境後，生產環境中為啟用快速發行的客戶也提供相同的功能。 </span>\
 <span class="preview">如需快速發行版本的相關資訊，請參閱 [啟用或停用組織的快速發行](../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)</span>
@@ -163,7 +165,12 @@ ht-degree: 0%
 
 您可以透過下列方式，在新註解體驗中標籤其他人的更新：
 
-* **自動**：當使用者新增評論或回覆時，系統會自動將其標籤並新增到評論方塊的「標籤人員」或「團隊」區域。
+* **自動**：當使用者啟動對話串、新增評論或新增回覆時，會自動標籤他們並新增到標籤人員或團隊區域的評論方塊。 <!--remove the tip below when the new commenting stream is the only stream and the legacy commenting is removed-->
+
+  >[!TIP]
+  >
+  >當對話串在舊版評論體驗中開始時，不會自動標籤對話串參與者。
+
 * **手動**：手動將使用者新增至評論方塊的「標籤人員」區域時。
 
 您也可以在編輯或回複評論時，移除被錯誤標籤的使用者。
@@ -213,3 +220,10 @@ ht-degree: 0%
    有關更新工作專案時可用的其他功能的資訊，請參閱 [更新工作](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
 1. （可選）按一下 **更多** 功能表 ![](assets/more-menu.png) <span class="preview">在註解的右上角</span>，然後按一下 **編輯**. 移除任何已標籤的使用者，然後按一下 **提交**. 您只能在輸入註解後15分鐘內進行編輯。 您只能編輯您新增的註解。
+
+   >[!TIP]
+   >
+   >使用舊版評論體驗新增評論和回覆時，未特別標籤的評論擁有者無法由使用新評論體驗的人員手動移除。
+
+
+

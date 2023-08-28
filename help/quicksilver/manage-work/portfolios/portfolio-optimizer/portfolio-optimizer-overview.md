@@ -2,70 +2,72 @@
 content-type: overview
 product-area: portfolios
 navigation-topic: portfolio-optimizer
-title: Portfolio優化程式概述
-description: 此 [!UICONTROL Portfolio優化程式] 是用於項目評估和比較的工具。 審核和比較分配給產品組合的項目的業務案例值的過程是產品組合經理如何排列項目優先順序並為組織生成最大價值。
+title: Portfolio最佳化工具概觀
+description: 此 [!UICONTROL Portfolio最佳化工具] 是用於專案評估和比較的工具。 針對指定至投資組合的專案複查與比較業務案例值的程式，是投資組合經理如何排列專案的優先順序，並為組織產生最大價值的程式。
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 1e48a24c-65de-49c2-85a8-dc931ac40c52
-source-git-commit: 4440fc50e988da6e446fd9a3195ae94f978b4b74
+source-git-commit: 3a2745437e00ac968f2a4590be2637dbc01594ad
 workflow-type: tm+mt
 source-wordcount: '1654'
 ht-degree: 0%
 
 ---
 
-# [!UICONTROL Portfolio優化程式] 概述
+# [!UICONTROL Portfolio最佳化工具] 概述
 
-此 [!UICONTROL Portfolio優化程式] 是用於項目評估和比較的工具。 審查和比較的過程 [!UICONTROL 業務案例] 指派給產品組合之專案的值，是產品組合經理如何為專案排定優先順序，並為組織產生最大價值。
+此 [!UICONTROL Portfolio最佳化工具] 是用於專案評估和比較的工具。 檢閱和比較的程式 [!UICONTROL 業務案例] 指派給投資組合的專案值是投資組合經理如何排列專案的優先順序，並為組織產生最大的值。
 
-此 [!UICONTROL 產品組合優化程式] 是提供一個介面，通過該介面，投資組合經理、指導委員會或產品管理辦公室可以查看有關每個項目的業務案例的摘要資訊。 然後，可以根據戰略價值和目標或根據其總體得分來確定項目的優先順序。
+![](assets/portfolio-optimizer-with-projects-nwe-350x89.png)
 
-此 [!UICONTROL Portfolio優化程式] 只有在您已完成下列必要條件時，才能協助您：
+目的 [!UICONTROL 專案組合最佳化工具] 是要提供一個介面，投資組合經理、指導委員會或產品管理辦公室可以透過此介面檢視有關每個專案業務案例的摘要資訊。 然後可以根據策略價值和目標，或根據其整體分數，來排定專案的優先順序。
 
-
-* 此 [!UICONTROL 業務案例] 已經完成了。 如需詳細資訊，請參閱 [定義業務案例](../../projects/define-a-business-case/define-business-case.md).
-* 在要複查的項目的「項目詳細資訊」部分的「項目概覽」區域中定義了一個產品組合
-* 您已為要複查的項目指明了項目預算和計畫福利。 「固定成本」和「固定收入」是可選項，但可添加附加值。 如需詳細資訊，請參閱 [項目財務欄位](../../projects/project-finances/project-finances-overview-1.md).
+此 [!UICONTROL Portfolio最佳化工具] 您必須完成下列必要條件，才能提供協助：
 
 
-如需關於找到 [!UICONTROL Portfolio優化程式]，請參閱 [找出 [!UICONTROL Portfolio優化程式]](../../../manage-work/portfolios/portfolio-optimizer/locate-portfolio-optimizer.md).
+* 此 [!UICONTROL 業務案例] 已完成專案。 如需詳細資訊，請參閱區段中的文章 [定義業務案例](../../projects/define-a-business-case/define-business-case.md).
+* 投資組合是在專案詳細資訊區段的專案總覽區域中為您要檢閱的專案定義的
+* 您已針對要複查的專案指明專案預算和計畫收益。 固定成本和固定收入為選用，但可新增額外價值。 如需詳細資訊，請參閱 [專案財務欄位](../../projects/project-finances/project-finances-overview-1.md).
 
-## 財務 [!UICONTROL Portfolio優化程式]
 
-* [在 [!UICONTROL Portfolio優化程式]](#the-financial-areas-in-the-portfolio-optimizer)
-* [中的財務欄位 [!UICONTROL Portfolio優化程式]](#the-financial-fields-in-the-portfolio-optimizer)
+如需有關找出 [!UICONTROL Portfolio最佳化工具]，請參閱 [找到 [!UICONTROL Portfolio最佳化工具]](../../../manage-work/portfolios/portfolio-optimizer/locate-portfolio-optimizer.md).
 
-使用 [!UICONTROL Portfolio優化程式].
+## 中的財務 [!UICONTROL Portfolio最佳化工具]
 
-使用 [!UICONTROL Portfolio優化程式]:
+* [中的財務區域 [!UICONTROL Portfolio最佳化工具]](#the-financial-areas-in-the-portfolio-optimizer)
+* [中的財務欄位 [!UICONTROL Portfolio最佳化工具]](#the-financial-fields-in-the-portfolio-optimizer)
 
-* 專案在完成時各會獲得分數 [!UICONTROL 業務案例] 會根據 [!UICONTROL Portfolio優化程式]. 例如，低成本或高對齊項目獲得較高的分數。
+使用時，您可以在專案期限內隨時檢視投資組合的財務狀態 [!UICONTROL Portfolio最佳化工具].
 
-   如需有關計算專案的產品組合最佳化程式分數的詳細資訊，請參閱文章 [概觀 [!UICONTROL Portfolio優化程式] 分數](../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-score.md).
+在中處理財務時，請考慮下列事項 [!UICONTROL Portfolio最佳化工具]：
 
-* 本公司之財務計算 [!UICONTROL Portfolio優化程式] 使用 [!UICONTROL 預算成本] 在 [!UICONTROL 業務案例] 的URL。
-* 您可以在 [!UICONTROL Portfolio優化程式]，並考慮其所有相關資訊。 這包括財務資料、計分卡的一致性、ROI等。
+* 專案在下列情況下各會獲得一個分數 [!UICONTROL 業務案例] 會根據符合的准則完成 [!UICONTROL Portfolio最佳化工具]. 例如，低成本或高一致性專案會獲得較高的分數。
 
-### 在 [!UICONTROL Portfolio優化程式] {#the-financial-areas-in-the-portfolio-optimizer}
+  如需有關計算專案之專案組合最佳化工具分數的詳細資訊，請參閱文章 [概述 [!UICONTROL Portfolio最佳化工具] 分數](../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-score.md).
 
-您可以在以下區域查看財務資訊： [!UICONTROL Portfolio優化程式]:
+* 下列專案的財務計算 [!UICONTROL Portfolio最佳化工具] 使用 [!UICONTROL 預算成本] 在 [!UICONTROL 業務案例] 專案的。
+* 您可以手動排定專案的優先順序，在 [!UICONTROL Portfolio最佳化工具]，並會考慮關於它們的所有資訊。 這包括財務資料、與計分卡的一致性、ROI等。
 
-* **[!UICONTROL Portfolio標題]**:此區域顯示從產品組合中的所有項目收集的財務資訊。 它會顯示在Portfolio物件的每個標籤上。
-* **[!UICONTROL Portfolio選定項目的財務]**:此區域顯示從以下項目中選取的項目收集的財務資訊： [!UICONTROL Portfolio優化程式]. 您可以添加或刪除項目，並通過查看此區域中的資訊了解這將如何影響產品組合的財務。
-* **[!UICONTROL 項目財務]**:此區域會顯示 [!UICONTROL Portfolio優化程式].
+### 中的財務區域 [!UICONTROL Portfolio最佳化工具] {#the-financial-areas-in-the-portfolio-optimizer}
 
-### 中的財務欄位 [!UICONTROL Portfolio優化程式] {#the-financial-fields-in-the-portfolio-optimizer}
+您可以在下列區域中檢視財務資訊 [!UICONTROL Portfolio最佳化工具]：
 
-下列財務欄位顯示在 [!UICONTROL Portfolio優化程式]:
+* **[!UICONTROL Portfolio頁首]**：此區域顯示從投資組合中所有專案收集的財務資訊。 它會顯示在Portfolio物件的每個標籤上。
+* **[!UICONTROL Portfolio所選專案的財務]**：此區域顯示從中選取的專案收集到的財務資訊 [!UICONTROL Portfolio最佳化工具]. 您可以新增或移除專案，並檢視此區域中的資訊，瞭解這將如何影響投資組合的財務。
+* **[!UICONTROL 專案財務]**：此區域顯示每個專案的財務資訊，列於 [!UICONTROL Portfolio最佳化工具].
 
-* [Portfolio標題](#portfolio-header)
-* [Portfolio選定項目的財務](#portfolio-finances-for-selected-projects)
+### 中的財務欄位 [!UICONTROL Portfolio最佳化工具] {#the-financial-fields-in-the-portfolio-optimizer}
 
-#### Portfolio標題 {#portfolio-header}
+下列財務欄位會顯示在 [!UICONTROL Portfolio最佳化工具]：
+
+* [Portfolio標頭](#portfolio-header)
+* [Portfolio所選專案的財務](#portfolio-finances-for-selected-projects)
+
+#### Portfolio標頭 {#portfolio-header}
 
 ![](assets/portfolio-header-nwe-350x14.png)
 
-[!DNL Adobe Workfront] 使用狀態僅等於的項目的資訊來計算產品組合題頭中的財務欄位 [!UICONTROL 已核准] 或 [!UICONTROL 目前].
+[!DNL Adobe Workfront] 使用來自狀態僅相等的專案的資訊，計算投資組合標題中的財務欄位 [!UICONTROL 已核准] 或 [!UICONTROL 目前].
 
 <table style="table-layout:auto"> 
  <col> 
@@ -78,29 +80,29 @@ ht-degree: 0%
  </thead> 
  <tbody> 
   <tr> 
-   <td>[!UICONTROL準時]</td> 
-   <td> <p>產品組合中被視為[!UICONTROL On Time]的項目百分比。 這可從Portfolio內的任何索引標籤看到。</p> <p>專案時，專案會視為[!UICONTROL On Time] <strong>[!UICONTROL條件]</strong> is <strong>目標上的[!UICONTROL]</strong>. <br>如需[!UICONTROL專案條件]的詳細資訊，請參閱文章 <a href="../../../manage-work/projects/manage-projects/project-condition-and-condition-type.md" class="MCXref xref">專案條件和條件類型概觀</a>.</p> <p>此 <strong>[!UICONTROL準時]</strong> 百分比是使用下列公式計算：</p> <p><em>[!UICONTROL On TimePortfolio百分比] = [!UICONTROL On Time]項目數/ [!UICONTROL當前]或[!UICONTROL已批准]狀態中的項目總數</em> </p> </td> 
+   <td>[！UICONTROL開啟時間]</td> 
+   <td> <p>投資組合中被認為是[！UICONTROL準時]的專案百分比。 這可從Portfolio內的任何索引標籤中看到。</p> <p>當專案執行時，會將專案視為[！UICONTROL準時] <strong>[！UICONTROL條件]</strong> 是 <strong>[！UICONTROL On Target]</strong>. <br>如需有關[！UICONTROL專案狀況]的詳細資訊，請參閱文章 <a href="../../../manage-work/projects/manage-projects/project-condition-and-condition-type.md" class="MCXref xref">專案狀態與狀態型別概觀</a>.</p> <p>此 <strong>[！UICONTROL開啟時間]</strong> 使用下列公式計算百分比：</p> <p><em>[！UICONTROL On TimePortfolio百分比] =處於[！UICONTROL Current]或[！UICONTROL Approved]狀態的[！UICONTROL On Time]專案數目/專案總數</em> </p> </td> 
   </tr> 
   <tr> 
-   <td>[！預算上的UICONTROL]</td> 
-   <td> <p>產品組合中被視為[!UICONTROL On Budget]的項目百分比。 這可從[!UICONTROLPortfolio]內的任何標籤看到。</p> <p>專案包括 <strong>[！預算上的UICONTROL]</strong> 未超過預定預算時。 <br>如需專案預算的詳細資訊，請參閱文章 <a href="../../../manage-work/projects/project-finances/manage-project-finance-area.md" class="MCXref xref">項目財務區域中的[!UICONTROL管理]資訊</a>.</p> <p>[!UICONTROL預算上]百分比是使用下列公式計算的：</p> <p><em>[！預算Portfolio百分比上的UICONTROL] =預算上的[!UICONTROL]項目數/項目總數 </em><em>處於[!UICONTROL當前]或[!UICONTROL已批准]狀態</em> </p> </td> 
+   <td>[！UICONTROL預算]</td> 
+   <td> <p>投資組合中被認為是[！UICONTROL符合預算]的專案百分比。 這可從[！UICONTROLPortfolio]內的任何索引標籤看到。</p> <p>專案為 <strong>[！UICONTROL預算]</strong> 當他們未超出其預先定義的預算時。 <br>如需有關專案預算的詳細資訊，請參閱文章 <a href="../../../manage-work/projects/project-finances/manage-project-finance-area.md" class="MCXref xref">專案財務區域中的[！UICONTROL Manage]資訊</a>.</p> <p>使用下列公式計算[！UICONTROL On Budget]百分比：</p> <p><em>[！UICONTROL On BudgetPortfolio百分比] =預算上的[！UICONTROL]專案數目/專案總數 </em><em>處於[！UICONTROL目前]或[！UICONTROL已核准]狀態</em> </p> </td> 
   </tr> 
   <tr> 
-   <td>ROI（針對產品組合）</td> 
-   <td> <p>此組合的[!UICONTROL投資回報](ROI)的計算方法是考慮[!UICONTROLPortfolio]的[!UICONTROL優勢]合計和項目的[!UICONTROL預算成本]合計。 這可從Portfolio內的任何索引標籤看到。</p> <p>PortfolioROI值是使用下列公式計算：</p> <p><em>PortfolioROI =（[!UICONTROL總收益] - [!UICONTROL總預算成本]）/ [!UICONTROL總成本] x 100</em> </p> <p>如需如何計算專案投資報酬率的詳細資訊，請參閱文章 <a href="../../../manage-work/projects/project-finances/calculate-roi.md" class="MCXref xref">計算投資回報(ROI)</a> .</p> </td> 
+   <td>ROI （適用於投資組合）</td> 
+   <td> <p>投資組合的[！UICONTROL投資報酬率] (ROI)的計算方式，是考量[！UICONTROLPortfolio]的[！UICONTROL收益]總計和專案的[！UICONTROL預算成本]總計。 這可從Portfolio內的任何索引標籤中看到。</p> <p>PortfolioROI值是使用下列公式計算：</p> <p><em>PortfolioROI = （[！UICONTROL總收益] - [！UICONTROL總預算成本]）/ [！UICONTROL總成本] * 100</em> </p> <p>如需有關如何計算專案ROI的詳細資訊，請參閱文章 <a href="../../../manage-work/projects/project-finances/calculate-roi.md" class="MCXref xref">計算投資報酬率(ROI)</a> .</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL對齊]或[!UICONTROL對齊分數] </td> 
-   <td> <p>完成專案[!UICONTROL商業案例]中的[!UICONTROL計分卡]後計算的所有[!UICONTROL專案對齊分數]值的平均值。 每個項目的對齊分數會列在[!UICONTROLPortfolio優化程式]的[!UICONTROL對齊]列中。 這可從產品組合內的任何索引標籤看到。</p> <p>如需產生專案對齊分數的詳細資訊，請參閱文章 <a href="../../../manage-work/projects/define-a-business-case/apply-scorecard-to-project-to-generate-alignment-score.md" class="MCXref xref">將計分卡套用至專案並產生對齊分數</a>.</p> </td> 
+   <td>[！UICONTROL Aligned]或[！UICONTROL Alignment Score] </td> 
+   <td> <p>在專案的[！UICONTROL Business Case]中完成[！UICONTROL計分卡]後，所計算的所有[！UICONTROL專案一致性分數]值的平均值。 每個專案的對齊分數列在[！UICONTROLPortfolio最佳化程式]的[！UICONTROL對齊]欄。 投資組合內的任何索引標籤中皆可看見此專案。</p> <p>如需有關產生專案對齊分數的詳細資訊，請參閱文章 <a href="../../../manage-work/projects/define-a-business-case/apply-scorecard-to-project-to-generate-alignment-score.md" class="MCXref xref">將計分卡套用至專案並產生一致性分數</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL淨值]</td> 
-   <td> <p>產品組合中所有專案的所有[!UICONTROL淨值]之和。 這可從產品組合內的任何索引標籤看到。</p> <p>如需如何為專案計算[!UICONTROL淨值]的詳細資訊，請參閱文章 <a href="../../../manage-work/projects/project-finances/calculate-net-value.md" class="MCXref xref">計算淨值</a>.</p> </td> 
+   <td>[！UICONTROL淨值]</td> 
+   <td> <p>投資組合中所有專案的所有[！UICONTROL淨值]的總和。 投資組合內的任何索引標籤中皆可看見此專案。</p> <p>如需有關如何為專案計算[！UICONTROL淨值]的詳細資訊，請參閱文章 <a href="../../../manage-work/projects/project-finances/calculate-net-value.md" class="MCXref xref">計算淨值</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-#### Portfolio選定項目的財務 {#portfolio-finances-for-selected-projects}
+#### Portfolio所選專案的財務 {#portfolio-finances-for-selected-projects}
 
 ![](assets/portfolio-finances-for-selected-projects-in-optimizer-nwe-350x29.png)
 
@@ -115,46 +117,46 @@ ht-degree: 0%
  </thead> 
  <tbody> 
   <tr> 
-   <td>[!UICONTROL項目數]</td> 
-   <td> <p>產品組合中作用中專案的總數。 在產品組合中被視為有效的專案可以處於下列任何狀態：</p> 
+   <td>[！UICONTROL專案數目]</td> 
+   <td> <p>投資組合中作用中專案的總數。 在投資組合中被視為有效的專案可以處於以下任何狀態：</p> 
     <ul> 
-     <li>[!UICONTROL當前]</li> 
-     <li>[!UICONTROL規劃]</li> 
-     <li>[!UICONTROL已批准]</li> 
+     <li>[！UICONTROL目前]</li> 
+     <li>[！UICONTROL規劃]</li> 
+     <li>[！UICONTROL已核准]</li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL預算]</td> 
-   <td>您可以手動更新此欄位，以指出整個產品組合的總預算。 此預算用於產品組合內的所有專案。 </td> 
+   <td>[！UICONTROL預算]</td> 
+   <td>您可以手動更新此欄位，以指出整個投資組合的總預算。 此預算用於投資組合內的所有專案。 </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL剩餘]</td> 
-   <td> <p>組合內所有項目的所有[!UICONTROL預算成本]之後的剩餘預算已從組合預算中扣除。</p> <p>[!UICONTROL剩餘Portfolio預算]使用以下公式計算：</p> <p><em>[!UICONTROL剩餘Portfolio預算] = [!UICONTROL總Portfolio預算] — 所有Portfolio項目的[!UICONTROL預算成本]合計</em> </p> <p>組合中所有項目的[!UICONTROL預算成本]總體值在「預算」欄位下的指標欄中表示。 </p> <p>如需追蹤專案成本的詳細資訊，請參閱文章<a href="../../../manage-work/projects/project-finances/track-costs.md" class="MCXref xref">追蹤成本</a>.</p> </td> 
+   <td>[！UICONTROL剩餘]</td> 
+   <td> <p>產品組合內所有專案的所有[！UICONTROL預算成本]之後的剩餘預算，已從產品組合的預算中扣除。</p> <p>使用以下公式計算[！UICONTROL剩餘Portfolio預算]：</p> <p><em>[！UICONTROL剩餘Portfolio預算] = [！UICONTROLPortfolio預算總計] — 所有Portfolio專案的[！UICONTROL預算成本]總計</em> </p> <p>投資組合中所有專案的整體[！UICONTROL預算成本]會顯示在「預算」欄位下的指標列中。 </p> <p>如需有關追蹤專案成本的詳細資訊，請參閱文章<a href="../../../manage-work/projects/project-finances/track-costs.md" class="MCXref xref">追蹤成本</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL總成本]</td> 
-   <td> <p>[!UICONTROLPortfolio優化程式]中顯示的所有項目的成本總和。 每個項目的成本與項目的[!UICONTROL預算成本]相同，它顯示在[!UICONTROL業務案例摘要]中。 </p> <p>有關[!UICONTROL業務案例]中項目的財務欄位的詳細資訊，請參閱文章中的「了解業務案例中的財務欄位」一節 <a href="../../../manage-work/projects/define-a-business-case/create-business-case.md" class="MCXref xref">為項目建立業務案例 </a>.</p> </td> 
+   <td>[！UICONTROL總成本]</td> 
+   <td> <p>在[！UICONTROLPortfolio最佳化工具]中顯示的所有專案成本總和。 每個專案的成本與專案的[！UICONTROL預算成本]相同，因為它顯示在[！UICONTROL業務案例摘要]中。 </p> <p>如需[！UICONTROL業務案例中專案財務欄位的詳細資訊，請參閱文章中的「瞭解業務案例中的財務欄位」一節 <a href="../../../manage-work/projects/define-a-business-case/create-business-case.md" class="MCXref xref">為專案建立業務案例 </a>.</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL風險] </td> 
-   <td> <p>產品組合中所有項目的所有[!UICONTROL潛在風險成本]的總和。 每個項目的[!UICONTROL潛在風險成本]列在[!UICONTROLPortfolio優化程式]的[!UICONTROL風險]列中。 </p> <p>有關計算項目風險的詳細資訊，請參閱文章 <a href="../../../manage-work/projects/project-finances/potential-risk-cost.md" class="MCXref xref">計算潛在風險成本 </a>.</p> </td> 
+   <td>[！UICONTROL風險] </td> 
+   <td> <p>投資組合中所有專案的所有[！UICONTROL潛在風險成本]總和。 每個專案的[！UICONTROL潛在風險成本]列於[！UICONTROLPortfolio最佳化工具]的[！UICONTROL風險]欄。 </p> <p>如需有關計算專案風險的詳細資訊，請參閱文章 <a href="../../../manage-work/projects/project-finances/potential-risk-cost.md" class="MCXref xref">計算潛在風險成本 </a>.</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL優勢]</td> 
-   <td> <p>產品組合中所有項目的所有[!UICONTROL計畫福利]值的總和。 每個項目的「計畫福利」值列在[!UICONTROLPortfolio優化程式]的[!UICONTROL福利]列中。 </p> <p>如需專案[!UICONTROL計畫效益]的詳細資訊，請參閱文章 <a href="../../../manage-work/projects/project-finances/project-planned-benefit.md" class="MCXref xref">項目計畫收益概覽</a>.</p> </td> 
+   <td>[！UICONTROL優點]</td> 
+   <td> <p>投資組合中所有專案的所有[！UICONTROL計畫收益]值的總和。 每個專案的計畫收益值都列在[！UICONTROLPortfolio最佳化工具]的[！UICONTROL收益]欄中。 </p> <p>如需有關專案的[！UICONTROL計畫收益]的詳細資訊，請參閱文章 <a href="../../../manage-work/projects/project-finances/project-planned-benefit.md" class="MCXref xref">專案計畫收益總覽</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL風險對淨值]指標</td> 
-   <td> <p>考量[!UICONTROL潛在風險]值，同時考慮產品組合中所有項目提供的[!UICONTROL淨值]。 要在產品組合內實現最高效率，您希望看到[!UICONTROL風險]指標較低，而[!UICONTROL淨值]指標較高。 </p> <p>有關計算[!UICONTROL淨值]風險的詳細資訊，請參閱文章 <a href="../../../manage-work/portfolios/portfolio-optimizer/calculate-risk-to-net-value-in-portfolio.md" class="MCXref xref">計算投資組合中的淨值風險</a>.</p> </td> 
+   <td>[！UICONTROL淨值風險]指標</td> 
+   <td> <p>測量由[！UICONTROL潛在風險]值時會考慮投資組合中所有專案提供的[！UICONTROL淨值]。 為了在產品組合內達到最佳效率，您想要瞭解[！UICONTROL風險]指標低而[！UICONTROL淨值]指標高。 </p> <p>如需計算[！UICONTROL淨值]風險的詳細資訊，請參閱文章 <a href="../../../manage-work/portfolios/portfolio-optimizer/calculate-risk-to-net-value-in-portfolio.md" class="MCXref xref">計算投資組合中淨值的風險</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## 自訂 [!UICONTROL Portfolio優化程式]
+## 自訂 [!UICONTROL Portfolio最佳化工具]
 
-您只能自訂 [!UICONTROL Portfolio優化程式] 使用設定來變更清單中的資訊。
+您只能自訂 [!UICONTROL Portfolio最佳化工具] 使用設定來變更清單中的資訊。
 
-下列圖示和選項適用於 [!UICONTROL Portfolio優化程式]:
+下列圖示和選項適用於 [!UICONTROL Portfolio最佳化工具]：
 
 <table style="table-layout:auto"> 
  <col> 
@@ -162,56 +164,56 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td>Portfolio優化程式中的圖示</td> 
+   <td>Portfolio最佳化工具中的圖示</td> 
    <td>名稱</td> 
    <td>函數</td> 
   </tr> 
   <tr> 
    <td> <img src="assets/nwe-set-priority-icon.png"> </td> 
-   <td>[!UICONTROL設定項目優先順序]</td> 
-   <td>當您想要儲存專案順序時，請根據其優先順序使用此圖示。 </td> 
+   <td>[！UICONTROL設定專案優先順序]</td> 
+   <td>當您想要根據優先順序儲存專案順序時，請使用此圖示。 </td> 
   </tr> 
   <tr> 
    <td> <img src="assets/nwe-optimize-icon-in-optimizer.png"> </td> 
-   <td>[!UICONTROL優化產品組合]</td> 
-   <td>使用此表徵圖可根據項目的下列財務值優化產品組合：
+   <td>[！UICONTROL最佳化產品組合]</td> 
+   <td>使用此圖示可根據專案的下列財務值最佳化投資組合：
     <ul>
-     <li>[!UICONTROL成本]</li>
-     <li>[!UICONTROL對齊]</li>
-     <li>[!UICONTROL值]</li>
-     <li>[!UICONTROL受益風險]</li>
-     <li>[!UICONTROL ROI]</li>
-    </ul><p>如需最佳化產品組合的詳細資訊，請參閱文章 <a href="../../../manage-work/portfolios/portfolio-optimizer/optimize-projects-in-portfolio-optimizer.md" class="MCXref xref">在[!UICONTROLPortfolio優化程式]中優化項目 </a>.</p></td> 
+     <li>[！UICONTROL成本]</li>
+     <li>[！UICONTROL對齊]</li>
+     <li>[！UICONTROL值]</li>
+     <li>[！UICONTROL收益風險]</li>
+     <li>[！UICONTROL ROI]</li>
+    </ul><p>如需最佳化產品組合的詳細資訊，請參閱文章 <a href="../../../manage-work/portfolios/portfolio-optimizer/optimize-projects-in-portfolio-optimizer.md" class="MCXref xref">在[！UICONTROLPortfolio最佳化工具]中最佳化專案 </a>.</p></td> 
   </tr> 
   <tr> 
    <td> <img src="assets/nwe-undo-redo-icons-optimizer.png"> </td> 
-   <td>[!UICONTROL撤消]/ [!UICONTROL重做]表徵圖</td> 
-   <td>使用這些表徵圖可以取消或重做您在保存前對[!UICONTROLPortfolio優化程式]所做的更改。</td> 
+   <td>[！UICONTROL還原]/ [！UICONTROL重做]圖示</td> 
+   <td>使用這些圖示可在儲存前取消或重做您對[！UICONTROLPortfolio最佳化工具]所做的變更。</td> 
   </tr> 
   <tr> 
    <td> <img src="assets/hide-show-unselected-portfolio-optimizer-142x74.png" alt="hide_show_unselected_portfolio_optimizer.png" style="width: 142;height: 74;"> </td> 
-   <td>[!UICONTROL顯示]/ [!UICONTROL隱藏未選中]項目</td> 
-   <td>使用這些圖示來顯示或隱藏您未勾選之作品集中的專案。</td> 
+   <td>[！UICONTROL Show]/ [！UICONTROL隱藏未勾選的]專案</td> 
+   <td>使用這些圖示可顯示或隱藏您取消核取之投資組合中的專案。</td> 
   </tr> 
   <tr> 
    <td> <img src="assets/nwe-export-optimizer-icon-350x173.png" style="width: 350;height: 173;"> </td> 
-   <td>[!UICONTROL導出] </td> 
-   <td> <p>使用此表徵圖可導出[!UICONTROLPortfolio優化程式]的[!UICONTROL項目優先順序]區域中的資料。 您可將其匯出為下列格式：</p> 
+   <td>[！UICONTROL Export] </td> 
+   <td> <p>使用此圖示可匯出[！UICONTROLPortfolio最佳化工具]的[！UICONTROL專案優先順序]區域中的資料。 您可以將其匯出為下列格式：</p> 
     <ul> 
      <li>PDF</li> 
      <li>[!DNL Excel]</li> 
-     <li>[!UICONTROL Tab]分隔</li> 
+     <li>[！UICONTROL Tab]分隔</li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td> <img src="assets/preferences-portfolio-optimizer.png" alt="preferences_portfolio_optimizer.png"> </td> 
-   <td>[!UICONTROL首選項]</td> 
-   <td> <p>使用此表徵圖可修改[!UICONTROLPortfolio優化程式]列中顯示的項目欄位，或根據其狀態修改在[!UICONTROL優化程式]中顯示的項目。 </p> <p>提示：  
+   <td>[！UICONTROL喜好設定]</td> 
+   <td> <p>使用此圖示可修改[！UICONTROLPortfolio最佳化工具]欄中顯示的專案欄位，或根據專案狀態修改您在[！UICONTROL最佳化工具]中顯示的專案。 </p> <p>秘訣：  
      <ul> 
-      <li> <p>不是全部 [!DNL Workfront] 標準欄位可供新增至欄。 </p> </li> 
+      <li> <p>並非全部 [!DNL Workfront] 標準欄位可在欄中新增。 </p> </li> 
      </ul> 
      <ul> 
-      <li> <p>您只能在產品組合中的任何專案中新增具有非零值的自訂欄位。</p> </li> 
+      <li> <p>您只能在投資組合的任何專案中新增具有非零值的自訂欄位。</p> </li> 
      </ul> </p> </td> 
   </tr> 
  </tbody> 
