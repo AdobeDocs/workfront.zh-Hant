@@ -5,26 +5,26 @@ product-area: workfront-integrations
 keywords: 聯結器
 navigation-topic: apps-and-their-modules
 title: Adobe Workfront模組
-description: 您可以使用Adobe Workfront Fusion Adobe Workfront聯結器在Workfront中自動化您的流程。 如果您有Workfront Fusion for Work Automation and Integration授權，也可以使用它來連線至協力廠商應用程式和服務。
+description: 您可以使用Adobe Workfront Fusion Adobe Workfront聯結器在Workfront中自動化您的流程。 如果您有Workfront Fusion for Work Automation and Integration授權，也可以用它來連線至協力廠商應用程式和服務。
 author: Becky
 feature: Workfront Fusion, Workfront Integrations and Apps
 exl-id: b84d2d41-a983-4ea3-b331-0302bfcf8a2b
-source-git-commit: 3604e67309b76c4e0e8c3af1341b80a607b95d6f
+source-git-commit: 0810f2db8ef85b73de591649712580f23b72b5af
 workflow-type: tm+mt
-source-wordcount: '5428'
+source-wordcount: '5468'
 ht-degree: 3%
 
 ---
 
 # [!DNL Adobe Workfront] 模組
 
-您可以使用 [!DNL Adobe Workfront Fusion] [!DNL Adobe Workfront] 聯結器可自動化您的流程，在 [!DNL Workfront]. 如果您擁有 [!UICONTROL [!DNL Workfront Fusion] 適用於工作自動化與整合] 授權，您也可以用它來連線至協力廠商的應用程式和服務。
+您可以使用 [!DNL Adobe Workfront Fusion] [!DNL Adobe Workfront] 聯結器可自動化您的流程，在 [!DNL Workfront]. 如果您擁有 [!UICONTROL [!DNL Workfront Fusion] 工作自動化與整合] 授權，您也可以用它來連線至協力廠商應用程式和服務。
 
-此 [!DNL Workfront] connector不會計入貴組織可用的作用中應用程式數量。 所有情境，即使只使用 [!DNL Workfront] 應用程式，確實會針對貴組織的案例總數計算。
+此 [!DNL Workfront] 聯結器不會計入貴組織可用的作用中應用程式數量。 所有情境，即使只使用 [!DNL Workfront] 應用程式，確實會針對貴組織的案例總數計算。
 
 如需貴組織可用應用程式和情境的詳細資訊，請參閱 [組織](../../workfront-fusion/organizations/organizations-and-teams.md#organiza2) 在 [[!DNL Adobe Workfront Fusion] 組織和團隊](../../workfront-fusion/organizations/organizations-and-teams.md).
 
-如果您需要建立案例的說明，請參閱 [在中建立情境 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md). 如需模組的相關資訊，請參閱 [中的模組 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/modules.md).
+如果您需要有關建立情境的指示，請參閱 [在中建立情境 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md). 如需模組的相關資訊，請參閱 [中的模組 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/modules.md).
 
 ## 存取需求
 
@@ -47,32 +47,32 @@ ht-degree: 3%
    <td>
    <p>目前授權需求：否 [!DNL Workfront Fusion] 授權需求。</p>
    <p>或</p>
-   <p>舊版授權需求： [！UICONTROL [!DNL Workfront Fusion] 若為工作自動化與整合]，[！UICONTROL [!DNL Workfront Fusion] 工作自動化專用]</p>
+   <p>舊版授權需求： [！UICONTROL [!DNL Workfront Fusion] 工作自動化與整合]，請參閱[！UICONTROL [!DNL Workfront Fusion] 工作自動化專用]</p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">產品</td> 
    <td>
-   <p>目前產品需求：如果您有[！UICONTROL Select]或[！UICONTROL Prime] [!DNL Adobe Workfront] 計畫，您的組織必須購買 [!DNL Adobe Workfront Fusion] 以及 [!DNL Adobe Workfront] 以使用本文所述功能。 [!DNL Workfront Fusion] 包含在[！UICONTROL Ultimate]中 [!DNL Workfront] 計畫。</p>
+   <p>目前產品需求：如果您有[！UICONTROL Select]或[！UICONTROL Prime] [!DNL Adobe Workfront] 計畫，您的組織必須購買 [!DNL Adobe Workfront Fusion] 以及 [!DNL Adobe Workfront] 以使用本文所述的功能。 [!DNL Workfront Fusion] 包含在[！UICONTROL Ultimate]中 [!DNL Workfront] 計畫。</p>
    <p>或</p>
-   <p>舊版產品需求：貴組織必須購買 [!DNL Adobe Workfront Fusion] 以及 [!DNL Adobe Workfront] 以使用本文所述功能。</p>
+   <p>舊版產品需求：貴組織必須購買 [!DNL Adobe Workfront Fusion] 以及 [!DNL Adobe Workfront] 以使用本文所述的功能。</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
 
-若要瞭解您擁有哪些計畫、授權型別或存取權，請聯絡您的 [!DNL Workfront] 管理員。
+若要瞭解您擁有的計畫、授權型別或存取權，請聯絡您的 [!DNL Workfront] 管理員。
 
-有關以下專案的資訊： [!DNL Adobe Workfront Fusion] 授權，請參閱 [[!DNL Adobe Workfront Fusion] 授權](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+有關的資訊 [!DNL Adobe Workfront Fusion] 授權，請參閱 [[!DNL Adobe Workfront Fusion] 授權](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
-## Connect [!DNL Workfront] 至 [!DNL Workfront Fusion]
+## 連線 [!DNL Workfront] 至 [!DNL Workfront Fusion]
 
 此 [!DNL Workfront] 聯結器使用OAuth 2.0連線至 [!DNL Workfront].
 
-您可以建立與的連線 [!DNL Workfront] 直接從a內的帳戶 [!DNL Workfront Fusion] 模組。
+您可以建立與您的電腦的連線， [!DNL Workfront] 直接從a內的帳戶 [!DNL Workfront Fusion] 模組。
 
-1. 在任何 [!DNL Workfront] 應用程式模組，按一下 **[!UICONTROL 新增]** 旁邊 [!UICONTROL 連線] 方塊。
+1. 在任何 [!DNL Workfront] 應用程式模組，按一下 **[!UICONTROL 新增]** 在 [!UICONTROL 連線] 方塊。
 1. 在URL中輸入執行個體的名稱。 範例: `https://<your instance>.my.workfront.com`.
 1. 按一下 **[!UICONTROL 下一個]**.
 1. 按一下 **[!UICONTROL SAML登入]** 以建立連線並返回模組。
@@ -83,7 +83,7 @@ ht-degree: 3%
 
    >[!NOTE]
    >
-   >* 如果您沒有看到SAML登入按鈕，表示貴組織尚未啟用單一登入(SSO)。 您可以使用您的使用者名稱和密碼登入。
+   >* 如果您沒有看到SAML登入按鈕，表示您的組織尚未啟用單一登入(SSO)。 您可以使用您的使用者名稱和密碼登入。
    >   
    >   如需有關SSO的詳細資訊，請參閱 [單一登入概觀 [!DNL Adobe Workfront]](../../administration-and-setup/add-users/single-sign-on/sso-in-workfront.md)
    >   
@@ -91,9 +91,9 @@ ht-degree: 3%
 
 ## [!DNL Workfront] 模組及其欄位
 
-當您設定 [!DNL Workfront] 模組， [!DNL Workfront Fusion] 顯示下列欄位。 除了這些以外， [!DNL Workfront] 視您在應用程式或服務中的存取層級等因素而定，可能會顯示欄位。 模組中的粗體標題表示必填欄位。
+當您設定 [!DNL Workfront] 模組， [!DNL Workfront Fusion] 顯示下列欄位。 除了這些以外， [!DNL Workfront] 欄位可能會顯示，端視您應用程式或服務中的存取層級等因素而定。 模組中的粗體標題表示必填欄位。
 
-如果您在欄位或函式上方看到對應按鈕，則可以使用它來設定該欄位的變數和函式。 如需詳細資訊，請參閱 [將資訊從一個模組對應至中的另一個模組 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
+如果您在欄位或函式上方看到對應按鈕，則可以使用它來設定該欄位的變數和函式。 如需詳細資訊，請參閱 [在中將資訊從一個模組對應到另一個模組 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
 
 ![](assets/map-toggle-350x74.png)
 
@@ -113,11 +113,11 @@ ht-degree: 3%
 
 在Workfront中新增、更新或刪除特定型別的物件時，此觸發模組會即時執行案例
 
-模組會傳回與記錄相關聯的任何標準欄位，以及連線存取的任何自訂欄位和值。 您可以將此資訊對應到情境中的後續模組中。
+模組會傳回與記錄相關聯的任何標準欄位，以及連線存取的任何自訂欄位和值。 您可以在情境中的後續模組中對應此資訊。
 
 1. 按一下 **[!UICONTROL 新增]** 右側 **Webhook** 方塊。
 
-1. 在中設定webhook **[!UICONTROL 新增鉤點]** 方塊中顯示的方塊。
+1. 在中設定webhook **[!UICONTROL 新增鉤點]** 方塊顯示。
 
    當您設定此模組時，會顯示下列欄位。
 
@@ -127,27 +127,27 @@ ht-degree: 3%
     <tbody> 
      <tr> 
       <td>[！UICONTROL Webhook名稱]</td> 
-      <td>（選用）為webhook輸入新名稱</td> 
+      <td>（可選）為webhook輸入新名稱</td> 
      </tr> 
      <tr> 
-      <td>[！UICONTROL連線]</td> 
-      <td> <p>如需有關連線您的電腦的指示， [!DNL Workfront] 應用程式至 [!DNL Workfront Fusion]，請參閱 <a href="#connect-workfront-to-workfront-fusion" class="MCXref xref">Connect [!DNL Workfront] 至 [!DNL Workfront Fusion]</a> 本文章內容。</p> </td> 
+      <td>[！UICONTROL Connection]</td> 
+      <td> <p>如需有關連線您的電腦的指示 [!DNL Workfront] 應用程式至 [!DNL Workfront Fusion]，請參閱 <a href="#connect-workfront-to-workfront-fusion" class="MCXref xref">連線 [!DNL Workfront] 至 [!DNL Workfront Fusion]</a> 本文章內容。</p> </td> 
      </tr> 
      <tr> 
       <td>[！UICONTROL記錄型別]</td> 
-      <td>選取型別 [!DNL Workfront] 錄製您想要模組觀看的影片。</td> 
+      <td>選擇型別 [!DNL Workfront] 錄製您想要模組觀看的內容。</td> 
      </tr> 
      <tr> 
       <td>[！UICONTROL狀態]</td> 
-      <td>選取您要觀看舊狀態還是新狀態。<ul><li><p><b>[！UICONTROL新狀態]</b></p><p>記錄變更時觸發情境 <b>至</b> 指定值。</p><p>例如，如果狀態設為[！UICONTROL New State]，而篩選條件設為[！UICONTROL Status] [！UICONTROL Equals] [！UICONTROL In Progress]，則webhook會在[！UICONTROL Status]變更為[！UICONTROL In Progress]時觸發案例，無論狀態之前為何。 </p></li><li><p><b>[！UICONTROL舊狀態]</b></p><p>記錄變更時觸發情境 <b>從</b> 指定值。</p><p>例如，如果狀態設為[！UICONTROL Old State]，而篩選條件設為[！UICONTROL Status] [！UICONTROL Equals] [！UICONTROL In Progress]，webhook會在目前為[！UICONTROL Status]的[！UICONTROL In Progress]變更為其他狀態時觸發情境。 </p></li></ul></td> 
+      <td>選取您要觀看舊狀態還是新狀態。<ul><li><p><b>[！UICONTROL新狀態]</b></p><p>記錄變更時觸發案例 <b>至</b> 指定值。</p><p>例如，如果狀態設為[！UICONTROL New State]，而篩選條件設為[！UICONTROL Status] [！UICONTROL Equals] [！UICONTROL In Progress]，則webhook會在[！UICONTROL Status]變更為[！UICONTROL In Progress]時觸發案例，無論狀態之前為何。 </p></li><li><p><b>[！UICONTROL舊狀態]</b></p><p>記錄變更時觸發案例 <b>從</b> 指定值。</p><p>例如，如果狀態設為[！UICONTROL Old State]，而篩選條件設為[！UICONTROL Status] [！UICONTROL Equals] [！UICONTROL In Progress]，則當[！UICONTROL Status]目前為[！UICONTROL In Progress]的狀態變更為其他狀態時，webhook會觸發一個情境。 </p></li></ul></td> 
      </tr> 
      <tr data-mc-conditions=""> 
       <td> <p>[！UICONTROL事件篩選器]</p> </td> 
-      <td> <p>您可以設定篩選條件，以只監視符合您選取條件的記錄。</p> <p>對於每個篩選器，輸入您希望篩選器評估的欄位、運運算元，以及您希望篩選器允許的值。 您可以新增AND規則來使用多個篩選器。</p> <p>注意：您無法編輯現有篩選器中的篩選器 [!DNL Workfront] webhook。 若要為設定不同的篩選器 [!DNL Workfront] 事件訂閱，移除目前的webhook並建立新的訂閱。</p> <p>如需事件篩選器的詳細資訊，請參閱 <a href="#event-subscription-filters-in-the-workfront-watch-events-modules" class="MCXref xref">中的事件訂閱篩選器 [!DNL Workfront] &gt; [！UICONTROL觀看活動]模組</a> 本文章內容。</p> </td> 
+      <td> <p>您可以設定篩選器，只監視符合您選取條件的記錄。</p> <p>針對每個篩選器，輸入您希望篩選器評估的欄位、運運算元，以及您希望篩選器允許的值。 您可以新增AND規則來使用一個以上的篩選器。</p> <p>附註：您無法編輯現有篩選器中的 [!DNL Workfront] webhook。 若要為設定不同的篩選器 [!DNL Workfront] 事件訂閱，移除目前的webhook並建立新的訂閱。</p> <p>如需事件篩選器的詳細資訊，請參閱 <a href="#event-subscription-filters-in-the-workfront-watch-events-modules" class="MCXref xref">中的事件訂閱篩選器 [!DNL Workfront] &gt; [！UICONTROL觀看活動]模組</a> 本文章內容。</p> </td> 
      </tr> 
      <tr data-mc-conditions=""> 
       <td>排除此連線造成的事件</td> 
-      <td>啟用此選項可排除使用此觸發模組使用的相同聯結器建立或更新的事件。 這可防止案例可能自我觸發，導致其在無限回圈中重複的情況。</td> 
+      <td>啟用此選項可排除使用此觸發模組使用的相同聯結器建立或更新的事件。 這可防止案例可能觸發自身的情況，導致其在無限回圈中重複。</td> 
      </tr> 
      <tr> 
       <td>[！UICONTROL記錄來源]</td> 
@@ -166,7 +166,7 @@ ht-degree: 3%
 
 +++ **[!UICONTROL 觀看欄位]**
 
-當您指定的欄位更新時，此觸發模組會執行案例。 模組會傳回您指定欄位的舊值和新值。 您可以將此資訊對應到情境中的後續模組中。
+當您指定的欄位更新時，此觸發模組會執行情境。 模組會傳回您指定之欄位的舊值和新值。 您可以在情境中的後續模組中對應此資訊。
 
 當您設定此模組時，會顯示下列欄位。
 
@@ -175,12 +175,12 @@ ht-degree: 3%
  <col> 
  <tbody> 
   <tr> 
-   <td>[！UICONTROL連線]</td> 
-   <td> <p>如需有關連線您的電腦的指示， [!DNL Workfront] 應用程式至 [!DNL Workfront Fusion]，請參閱 <a href="#connect-workfront-to-workfront-fusion" class="MCXref xref">Connect [!DNL Workfront] 至 [!DNL Workfront Fusion]</a> 本文章內容。</p> </td> 
+   <td>[！UICONTROL Connection]</td> 
+   <td> <p>如需有關連線您的電腦的指示 [!DNL Workfront] 應用程式至 [!DNL Workfront Fusion]，請參閱 <a href="#connect-workfront-to-workfront-fusion" class="MCXref xref">連線 [!DNL Workfront] 至 [!DNL Workfront Fusion]</a> 本文章內容。</p> </td> 
   </tr> 
   <tr> 
    <td>[！UICONTROL記錄型別]</td> 
-   <td> <p>選取型別 [!DNL Workfront] 錄製您想要模組觀看的影片。</p> <p>例如，如果您要在每次更新任務中的記錄欄位時開始執行案例，請選取[！UICONTROL任務]。</p> </td> 
+   <td> <p>選擇型別 [!DNL Workfront] 錄製您想要模組觀看的內容。</p> <p>例如，如果您要在每次更新任務中的記錄欄位時開始執行案例，請選取[！UICONTROL任務]。</p> </td> 
   </tr> 
   <tr> 
    <td>[！UICONTROL欄位]</td> 
@@ -192,7 +192,7 @@ ht-degree: 3%
   </tr> 
   <tr> 
    <td>[！UICONTROL限制]</td> 
-   <td> <p>輸入或對應您希望模組在每個案例執行週期內傳回的最大記錄數。</p> </td> 
+   <td> <p>輸入或對應您希望模組在每個案例執行週期中傳回的最大記錄數。</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -203,9 +203,9 @@ ht-degree: 3%
 
 +++ **[!UICONTROL 觀看記錄]**
 
-此觸發模組會在新增、更新或同時新增特定型別的物件時執行案例。 模組會傳回與一個或多個記錄關聯的所有標準欄位，以及連線存取的任何自訂欄位和值。 您可以將此資訊對應到情境中的後續模組中。 在輸出中，模組會指出每個記錄是新的還是更新的。
+此觸發模組會在新增、更新特定型別的物件或兩者同時進行時，執行案例。 模組會傳回與一個或多個記錄相關聯的所有標準欄位，以及連線存取的任何自訂欄位和值。 您可以在情境中的後續模組中對應此資訊。 在輸出中，模組會指出每個記錄是新的還是更新的。
 
-在指定時段新增和更新的記錄會以新記錄傳回。
+在指定時段新增和更新的記錄會傳回為新記錄。
 
 當您設定此模組時，會顯示下列欄位。
 
@@ -214,8 +214,8 @@ ht-degree: 3%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[！UICONTROL連線]</td> 
-   <td> <p>如需有關連線您的電腦的指示， [!DNL Workfront] 應用程式至 [!DNL Workfront Fusion]，請參閱 <a href="#connect-workfront-to-workfront-fusion" class="MCXref xref">Connect [!DNL Workfront] 至 [!DNL Workfront Fusion]</a> 本文章內容。</p> </td> 
+   <td role="rowheader">[！UICONTROL Connection]</td> 
+   <td> <p>如需有關連線您的電腦的指示 [!DNL Workfront] 應用程式至 [!DNL Workfront Fusion]，請參閱 <a href="#connect-workfront-to-workfront-fusion" class="MCXref xref">連線 [!DNL Workfront] 至 [!DNL Workfront Fusion]</a> 本文章內容。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL篩選器]</td> 
@@ -223,19 +223,19 @@ ht-degree: 3%
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL記錄型別]</td> 
-   <td> <p>(在您選擇之後顯示 <strong>篩選</strong>.) 選取型別 [!DNL Workfront] 錄製您想要模組觀看的影片。</p> <p>例如，如果您要在每次建立新專案時啟動此案例，請選取[！UICONTROL專案]</p> </td> 
+   <td> <p>(在您選擇 <strong>篩選</strong>.) 選擇型別 [!DNL Workfront] 錄製您想要模組觀看的內容。</p> <p>例如，如果您要在每次建立新專案時啟動情境，請選取[！UICONTROL專案]</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL輸出]</td> 
    <td> <p>選取要包含在此模組輸出組合中的資訊。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL選擇性篩選器]</td> 
+   <td role="rowheader">[！UICONTROL選用篩選器]</td> 
    <td> <p>（進階）輸入API程式碼字串，以定義將縮小條件範圍的任何其他引數或程式碼。 </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL限制]</td> 
-   <td> <p>輸入或對應您希望模組在每個案例執行週期內傳回的最大記錄數。</p> </td> 
+   <td> <p>輸入或對應您希望模組在每個案例執行週期中傳回的最大記錄數。</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -273,8 +273,8 @@ ht-degree: 3%
  <col> 
  <tbody> 
   <tr> 
-   <td>[！UICONTROL連線]</td> 
-   <td> <p>如需有關連線您的電腦的指示， [!DNL Workfront] 應用程式至 [!DNL Workfront Fusion]，請參閱 <a href="#connect-workfront-to-workfront-fusion" class="MCXref xref">Connect [!DNL Workfront] 至 [!DNL Workfront Fusion]</a> 本文章內容。</p> </td> 
+   <td>[！UICONTROL Connection]</td> 
+   <td> <p>如需有關連線您的電腦的指示 [!DNL Workfront] 應用程式至 [!DNL Workfront Fusion]，請參閱 <a href="#connect-workfront-to-workfront-fusion" class="MCXref xref">連線 [!DNL Workfront] 至 [!DNL Workfront Fusion]</a> 本文章內容。</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[！UICONTROL物件型別]</td> 
@@ -282,23 +282,23 @@ ht-degree: 3%
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[！UICONTROL轉換為]</td> 
-   <td>選取您要將其轉換為的物件。 這是物件在轉換後的型別。</td> 
+   <td>選取您想要將它轉換成的物件。 這是物件在轉換後的型別。</td> 
   </tr> 
   <tr> 
    <td>[！UICONTROL &lt;object&gt; ID]</td> 
-   <td> <p>輸入物件的ID。 </p> <p>附註：輸入物件的識別碼時，您可以開始輸入物件的名稱，然後從清單中選取它。 模組接著在欄位中輸入適當的ID。</p> </td> 
+   <td> <p>輸入物件的ID。 </p> <p>附註：輸入物件識別碼時，您可以開始輸入物件的名稱，然後從清單中選取它。 模組接著在欄位中輸入適當的ID。</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[！UICONTROL範本ID]</td> 
-   <td> <p>如果您要轉換為專案，請選取要用於專案的範本ID。</p> <p>附註：輸入物件的識別碼時，您可以開始輸入物件的名稱，然後從清單中選取它。 模組接著在欄位中輸入適當的ID。</p> </td> 
+   <td> <p>如果要轉換為專案，請選取要用於專案的範本ID。</p> <p>附註：輸入物件識別碼時，您可以開始輸入物件的名稱，然後從清單中選取它。 模組接著在欄位中輸入適當的ID。</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[！UICONTROL自訂表單]</td> 
    <td>選取您要新增至新轉換物件的任何自訂表單，然後輸入自訂表單欄位的值。</td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td>[！UICONTROL選項]</td> 
-   <td> <p>啟用轉換物件時所需的任何選項。 選項是否可用取決於您要將物件轉換為哪一個或哪一個物件。</p> </td> 
+   <td>[！UICONTROL Options]</td> 
+   <td> <p>啟用轉換物件時所需的任何選項。 選項是否可用取決於您轉換至哪個物件或轉換自哪個物件。</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -311,13 +311,13 @@ ht-degree: 3%
 
 您指定記錄的ID。
 
-模組會傳回記錄ID和任何關聯欄位，以及連線存取的任何自訂欄位和值。 您可以將此資訊對應到情境中的後續模組中。
+模組會傳回記錄ID及任何關聯欄位，連同連線存取的任何自訂欄位和值。 您可以在情境中的後續模組中對應此資訊。
 
-例如，您可以使用此模組來建立任務 [!DNL Workfront] 當使用者端在中新增一列時 [!DNL Google Sheets] 需要完成的工作清單。
+例如，您可以使用此模組在中建立任務 [!DNL Workfront] 當使用者端在 [!DNL Google Sheets] 需要完成的工作清單。
 
 當您設定此模組時，會顯示下列欄位。
 
-請務必提供最小輸入欄位數。 例如，如果您想要建立問題，則需要在「專案ID」欄位中提供有效的父專案ID，以指出問題應存在於Workfront中的哪個位置。 您可以使用對應面板從情境中的另一個模組對應此資訊，也可以輸入名稱，然後從清單中選取它，以手動輸入。
+請務必提供最小輸入欄位數。 例如，如果您想建立問題，則需要在「專案ID」欄位中提供有效的父專案ID，以指出問題應存在於Workfront中的何處。 您可以使用對應面板從情境中的另一個模組對應此資訊，或是輸入名稱，然後從清單中選取它，以手動方式輸入資訊。
 
 <table style="table-layout:auto">
  <col> 
@@ -326,16 +326,16 @@ ht-degree: 3%
  </col> 
  <tbody> 
   <tr> 
-   <td>[！UICONTROL連線]</td> 
-   <td> <p>如需有關連線您的電腦的指示， [!DNL Workfront] 應用程式至 [!DNL Workfront Fusion]，請參閱 <a href="#connect-workfront-to-workfront-fusion" class="MCXref xref">Connect [!DNL Workfront] 至 [!DNL Workfront Fusion]</a> 本文章內容。</p> </td> 
+   <td>[！UICONTROL Connection]</td> 
+   <td> <p>如需有關連線您的電腦的指示 [!DNL Workfront] 應用程式至 [!DNL Workfront Fusion]，請參閱 <a href="#connect-workfront-to-workfront-fusion" class="MCXref xref">連線 [!DNL Workfront] 至 [!DNL Workfront Fusion]</a> 本文章內容。</p> </td> 
   </tr> 
   <tr> 
    <td>[！UICONTROL記錄型別]</td> 
-   <td> <p>選取型別 [!DNL Workfront] 您要模組建立的記錄。</p> <p>例如，如果您想要建立專案，請從下拉式清單中選取[！UICONTROL專案]，然後確定您有權存取將填入專案的資料（來自案例中先前模組）。</p> </td> 
+   <td> <p>選擇型別 [!DNL Workfront] 您要模組建立的記錄。</p> <p>例如，如果您想要建立專案，請從下拉式清單中選取[！UICONTROL專案]，然後確定您有權存取將填入專案的資料（來自案例中先前模組）。</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td>[！UICONTROL選取要對應的欄位]</td> 
-   <td> <p>選取您想要可供資料輸入的欄位。 這可讓您使用這些欄位，而不必捲動瀏覽不需要的欄位。</p> <p>對於自訂表單中的欄位，請使用 <b>[！UICONTROL附加自訂表單]</b> 欄位。</p> </td> 
+   <td>[！UICONTROL選擇要對應的欄位]</td> 
+   <td> <p>選取您想用於資料輸入的欄位。 這可讓您使用這些欄位，而無需捲動瀏覽您不需要的欄位。</p> <p>對於自訂表單中的欄位，請使用 <b>[！UICONTROL附加自訂表單]</b> 欄位。</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[！UICONTROL附加自訂表單]</td> 
@@ -349,7 +349,7 @@ ht-degree: 3%
 >[!NOTE]
 >
 >* 輸入物件的ID時，您可以開始輸入物件的名稱，然後從清單中選取它。 模組接著在欄位中輸入適當的ID。
->* 輸入自訂欄位的文字或 [!UICONTROL 注意] HTML物件（註解或回覆），您可在 [!UICONTROL 附註文字] 欄位以建立RTF文字，例如粗體或斜體文字。
+>* 輸入自訂欄位或的文字時 [!UICONTROL 注意] HTML物件（註解或回覆），您可在 [!UICONTROL 附註文字] 欄位以建立RTF文字，例如粗體或斜體文字。
 >
 >  如需更新中RTF文字的詳細資訊，請參閱 [將更新新增至工作專案](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md#add) 在 [更新工作](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 >
@@ -362,13 +362,13 @@ ht-degree: 3%
 
 您指定記錄的ID。
 
-模組會傳回記錄ID和任何關聯欄位，以及連線存取的任何自訂欄位和值。 您可以將此資訊對應到情境中的後續模組中。
+模組會傳回記錄ID及任何關聯欄位，連同連線存取的任何自訂欄位和值。 您可以在情境中的後續模組中對應此資訊。
 
-例如，您可以使用此模組來建立任務 [!DNL Workfront] 當使用者端在Google工作表中新增需要完成的工作清單時。
+例如，您可以使用此模組在中建立任務 [!DNL Workfront] 當使用者端在Google工作表中新增需要完成的工作清單時。
 
 當您設定此模組時，會顯示下列欄位。
 
-請務必提供最小輸入欄位數。 例如，如果您想要建立問題，則需要在「專案ID」欄位中提供有效的父專案ID，以指出問題應存在於Workfront中的哪個位置。 您可以使用對應面板從情境中的另一個模組對應此資訊，也可以輸入名稱，然後從清單中選取它，以手動輸入。
+請務必提供最小輸入欄位數。 例如，如果您想建立問題，則需要在「專案ID」欄位中提供有效的父專案ID，以指出問題應存在於Workfront中的何處。 您可以使用對應面板從情境中的另一個模組對應此資訊，或是輸入名稱，然後從清單中選取它，以手動方式輸入資訊。
 
 <table style="table-layout:auto">
  <col> 
@@ -377,16 +377,16 @@ ht-degree: 3%
  </col> 
  <tbody> 
   <tr> 
-   <td>[！UICONTROL連線]</td> 
-   <td> <p>如需有關連線您的電腦的指示， [!DNL Workfront] 應用程式至 [!DNL Workfront Fusion]，請參閱 <a href="#connect-workfront-to-workfront-fusion" class="MCXref xref">Connect [!DNL Workfront] 至 [!DNL Workfront Fusion]</a> 本文章內容。</p> </td> 
+   <td>[！UICONTROL Connection]</td> 
+   <td> <p>如需有關連線您的電腦的指示 [!DNL Workfront] 應用程式至 [!DNL Workfront Fusion]，請參閱 <a href="#connect-workfront-to-workfront-fusion" class="MCXref xref">連線 [!DNL Workfront] 至 [!DNL Workfront Fusion]</a> 本文章內容。</p> </td> 
   </tr> 
   <tr> 
    <td>[！UICONTROL記錄型別]</td> 
-   <td> <p>選取型別 [!DNL Workfront] 您要模組建立的記錄。</p> <p>例如，如果您想要建立專案，請從下拉式清單中選取[！UICONTROL專案]，然後確定您有權存取將填入專案的資料（來自案例中先前模組）。</p> </td> 
+   <td> <p>選擇型別 [!DNL Workfront] 您要模組建立的記錄。</p> <p>例如，如果您想要建立專案，請從下拉式清單中選取[！UICONTROL專案]，然後確定您有權存取將填入專案的資料（來自案例中先前模組）。</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td>[！UICONTROL選取要對應的欄位]</td> 
-   <td>選取您想要可供資料輸入的欄位。 這可讓您使用這些欄位，而不必捲動瀏覽不需要的欄位。</td> 
+   <td>[！UICONTROL選擇要對應的欄位]</td> 
+   <td>選取您想用於資料輸入的欄位。 這可讓您使用這些欄位，而無需捲動瀏覽您不需要的欄位。</td> 
   </tr> 
  </tbody> 
 </table>
@@ -396,7 +396,7 @@ ht-degree: 3%
 >[!NOTE]
 >
 >* 輸入物件的ID時，您可以開始輸入物件的名稱，然後從清單中選取它。 模組接著在欄位中輸入適當的ID。
->* 輸入自訂欄位的文字或 [!UICONTROL 注意] HTML物件（註解或回覆），您可在 [!UICONTROL 附註文字] 欄位以建立RTF文字，例如粗體或斜體文字。
+>* 輸入自訂欄位或的文字時 [!UICONTROL 注意] HTML物件（註解或回覆），您可在 [!UICONTROL 附註文字] 欄位以建立RTF文字，例如粗體或斜體文字。
 >
 >  如需更新中RTF文字的詳細資訊，請參閱 [將更新新增至工作專案](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md#add) 在 [更新工作](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 >
@@ -410,13 +410,13 @@ ht-degree: 3%
 模組會傳回下列資訊：
 
 * **[!UICONTROL 狀態代碼]** （數字）：這表示HTTP要求成功或失敗。 這些是您可在網際網路上查閱的標準程式碼。
-* **[!UICONTROL 標頭]** （物件）：與輸出內文無關之回應/狀態代碼的更詳細內容。 並非所有顯示在回應標頭中的標頭都是回應標頭，因此某些標頭可能對您並無用處。
+* **[!UICONTROL 標頭]** （物件）：與輸出本文無關之回應/狀態代碼的更詳細內容。 並非顯示在回應標題中的所有標題都是回應標題，因此某些標題可能對您並不實用。
 
-  回應標頭取決於您在設定模組時選擇的HTTP請求。
+  回應標題取決於您在設定模組時選擇的HTTP請求。
 
-* **[!UICONTROL 內文]** （物件）：根據您在設定模組時選擇的HTTP請求，您可能會收到傳回的一些資料。 該資料(例如來自GET請求的資料)包含在此物件中。
+* **[!UICONTROL 內文]** （物件）：根據您在設定模組時選取的HTTP要求，您可能會收到傳回的部分資料。 該資料(例如來自GET請求的資料)包含在此物件中。
 
-您可以將此資訊對應到情境中的後續模組中。
+您可以在情境中的後續模組中對應此資訊。
 
 當您設定此模組時，會顯示下列欄位。
 
@@ -425,8 +425,8 @@ ht-degree: 3%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[！UICONTROL連線]</td> 
-   <td> <p>如需有關連線您的電腦的指示， [!DNL Workfront] 應用程式至 [!DNL Workfront Fusion]，請參閱 <a href="#connect-workfront-to-workfront-fusion" class="MCXref xref">Connect [!DNL Workfront] 至 [!DNL Workfront Fusion]</a> 本文章內容。</p> </td> 
+   <td role="rowheader">[！UICONTROL Connection]</td> 
+   <td> <p>如需有關連線您的電腦的指示 [!DNL Workfront] 應用程式至 [!DNL Workfront Fusion]，請參閱 <a href="#connect-workfront-to-workfront-fusion" class="MCXref xref">連線 [!DNL Workfront] 至 [!DNL Workfront Fusion]</a> 本文章內容。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">URL</td> 
@@ -434,23 +434,23 @@ ht-degree: 3%
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL API版本]</td> 
-   <td>選取 [!DNL Workfront] 您希望模組使用的API。</td> 
+   <td>選取的版本 [!DNL Workfront] 您希望模組使用的API。</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL方法]</td> 
    td&gt; <p>選取設定API呼叫所需的HTTP要求方法。 如需詳細資訊，請參閱 <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">中的HTTP要求方法 [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL標頭]</td> 
-   <td> <p>以標準JSON物件的形式新增請求的標頭。 這會決定請求的內容型別。</p> <p>例如，<code> {"Content-type":"application/json"}</code></p> <p>注意：如果您收到錯誤且難以判斷其來源，請考慮根據 [!DNL Workfront] 說明檔案。 如果您的自訂API呼叫傳回422 HTTP請求錯誤，請嘗試使用 <code>"Content-Type":"text/plain"</code> 標頭。</p> </td> 
+   <td role="rowheader">[！UICONTROL Headers]</td> 
+   <td> <p>以標準JSON物件的形式新增請求的標頭。 這會決定請求的內容型別。</p> <p>例如，<code> {"Content-type":"application/json"}</code></p> <p>注意：如果您收到錯誤且難以判斷其來源，請考慮根據 [!DNL Workfront] 檔案。 如果您的自訂API呼叫傳回422 HTTP請求錯誤，請嘗試使用 <code>"Content-Type":"text/plain"</code> 標頭。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL查詢字串]</td> 
    <td> <p>以標準JSON物件的形式新增API呼叫的查詢。</p> <p>例如： <code>{"name":"something-urgent"}</code></p> <p>提示：建議您透過JSON內文傳送資訊，而非查詢引數。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL內文]</td> 
-   <td> <p>以標準JSON物件的形式新增API呼叫的正文內容。</p> <p>備註:  <p>使用條件陳述式時，例如 <code>if</code> 在JSON中，將引號放在條件陳述式之外。</p> 
+   <td role="rowheader">[！UICONTROL Body]</td> 
+   <td> <p>以標準JSON物件的形式新增API呼叫的內文內容。</p> <p>備註:  <p>使用條件陳述式時，例如 <code>if</code> 在JSON中，將引號放在條件陳述式之外。</p> 
      <div class="example" data-mc-autonum="<b>Example: </b>"> 
       <p> <img src="assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
      </div> </p> </td> 
@@ -468,7 +468,7 @@ ht-degree: 3%
 
 您指定記錄的ID。
 
-模組會傳回記錄ID和任何關聯欄位，以及連線存取的任何自訂欄位和值。 您可以將此資訊對應到情境中的後續模組中。
+模組會傳回記錄ID及任何關聯欄位，連同連線存取的任何自訂欄位和值。 您可以在情境中的後續模組中對應此資訊。
 
 當您設定此模組時，會顯示下列欄位。
 
@@ -477,8 +477,8 @@ ht-degree: 3%
  <col> 
  <tbody> 
   <tr> 
-   <td>[！UICONTROL連線]</td> 
-   <td> <p>如需有關連線您的電腦的指示， [!DNL Workfront] 應用程式至 [!DNL Workfront Fusion]，請參閱 <a href="#connect-workfront-to-workfront-fusion" class="MCXref xref">Connect [!DNL Workfront] 至 [!DNL Workfront Fusion]</a> 本文章內容。</p> </td> 
+   <td>[！UICONTROL Connection]</td> 
+   <td> <p>如需有關連線您的電腦的指示 [!DNL Workfront] 應用程式至 [!DNL Workfront Fusion]，請參閱 <a href="#connect-workfront-to-workfront-fusion" class="MCXref xref">連線 [!DNL Workfront] 至 [!DNL Workfront Fusion]</a> 本文章內容。</p> </td> 
   </tr> 
   <tr> 
    <td>[！UICONTROL強制刪除]</td> 
@@ -486,16 +486,24 @@ ht-degree: 3%
   </tr> 
   <tr data-mc-conditions=""> 
    <td>ID</td> 
-   <td> <p>輸入唯一 [!DNL Workfront] 您要模組刪除的記錄ID。</p> <p>若要取得ID，請開啟 [!DNL Workfront] 物件，並複製URL結尾「ID=」後的文字。 例如： https://my.workfront.com/project/view?ID=<i>5e43010c03286a2a555e1d0a75d6a86e</i></p> </td> 
+   <td> <p>輸入唯一的 [!DNL Workfront] 您要模組刪除的記錄ID。</p> <p>若要取得ID，請開啟 [!DNL Workfront] 物件，並在「ID=」後複製URL結尾的文字。 例如： https://my.workfront.com/project/view?ID=<i>5e43010c03286a2a555e1d0a75d6a86e</i></p> </td> 
   </tr> 
   <tr> 
    <td>[！UICONTROL記錄型別]</td> 
-   <td>選取型別 [!DNL Workfront] 您要模組刪除的記錄。</td> 
+   <td>選擇型別 [!DNL Workfront] 您要模組刪除的記錄。</td> 
   </tr> 
  </tbody> 
 </table>
 
 檢視 [!DNL Workfront] 您可在其中使用此模組的物件型別 [[!DNL Workfront] object types available for each [!DNL Workfront] 模組](#workfront-object-types-available-for-each-workfront-module).
+
+>[!NOTE]
+>
+>我們建議使用下列案例設定，以避免因非同步操作而無法刪除記錄的可能性。
+>
+>1. 同步刪除記錄。
+>1. 新增錯誤處理至刪除記錄模組，以忽略40秒逾時造成的錯誤。
+
 
 +++
 
@@ -505,7 +513,7 @@ ht-degree: 3%
 
 您指定記錄的ID。
 
-模組會傳回檔案的內容、檔案名稱、副檔名和檔案大小。 您可以將此資訊對應到情境中的後續模組中。
+模組會傳回檔案的內容、檔案名稱、副檔名和檔案大小。 您可以在情境中的後續模組中對應此資訊。
 
 當您設定此模組時，會顯示下列欄位。
 
@@ -514,12 +522,12 @@ ht-degree: 3%
  <col> 
  <tbody> 
   <tr> 
-   <td>[！UICONTROL連線]</td> 
-   <td> <p>如需有關連線您的電腦的指示， [!DNL Workfront] 應用程式至 [!DNL Workfront Fusion]，請參閱 <a href="#connect-workfront-to-workfront-fusion" class="MCXref xref">Connect [!DNL Workfront] 至 [!DNL Workfront Fusion]</a> 本文章內容。</p> </td> 
+   <td>[！UICONTROL Connection]</td> 
+   <td> <p>如需有關連線您的電腦的指示 [!DNL Workfront] 應用程式至 [!DNL Workfront Fusion]，請參閱 <a href="#connect-workfront-to-workfront-fusion" class="MCXref xref">連線 [!DNL Workfront] 至 [!DNL Workfront Fusion]</a> 本文章內容。</p> </td> 
   </tr> 
   <tr> 
    <td>[！UICONTROL檔案ID]</td> 
-   <td> <p>對應或手動輸入唯一 [!DNL Workfront] 您希望模組下載的檔案ID。</p> <p>若要取得ID，請開啟 [!DNL Workfront] 物件，並複製URL結尾「ID=」後的文字。 例如： https://my.workfront.com/project/view?ID=<i>5e43010c03286a2a555e1d0a75d6a86e</i></p> </td> 
+   <td> <p>對應或手動輸入唯一 [!DNL Workfront] 您希望模組下載的檔案ID。</p> <p>若要取得ID，請開啟 [!DNL Workfront] 物件，並在「ID=」後複製URL結尾的文字。 例如： https://my.workfront.com/project/view?ID=<i>5e43010c03286a2a555e1d0a75d6a86e</i></p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -539,12 +547,12 @@ ht-degree: 3%
  <col> 
  <tbody> 
   <tr> 
-   <td>[！UICONTROL連線]</td> 
-   <td> <p>如需有關連線您的電腦的指示， [!DNL Workfront] 應用程式至 [!DNL Workfront Fusion]，請參閱 <a href="#connect-workfront-to-workfront-fusion" class="MCXref xref">Connect [!DNL Workfront] 至 [!DNL Workfront Fusion]</a> 本文章內容。</p> </td> 
+   <td>[！UICONTROL Connection]</td> 
+   <td> <p>如需有關連線您的電腦的指示 [!DNL Workfront] 應用程式至 [!DNL Workfront Fusion]，請參閱 <a href="#connect-workfront-to-workfront-fusion" class="MCXref xref">連線 [!DNL Workfront] 至 [!DNL Workfront Fusion]</a> 本文章內容。</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[！UICONTROL記錄型別]</td> 
-   <td> <p>選取型別 [!DNL Workfront] 記錄您希望模組與之互動。</p> </td> 
+   <td> <p>選擇型別 [!DNL Workfront] 錄製您希望模組與之互動。</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[！UICONTROL動作]</td> 
@@ -560,11 +568,11 @@ ht-degree: 3%
       </ul> <p>對於所有其他記錄型別，請選取 <b>[！UICONTROL其他物件和端點]</b>，並在依字母順序排序的頁面上找到記錄型別。</p> </li> 
      <li value="2"> <p>在適當記錄型別的頁面上，搜尋動作（Ctrl-F或Cmd-F）。</p> </li> 
      <li value="3"> <p>檢視所選動作下可用欄位的說明。</p> </li> 
-    </ol> <p>備註:  <p>透過建立校訂時 [!DNL Workfront] [！UICONTROL雜湊動作]模組，最佳實務是在沒有任何進階選項的情況下建立校訂，然後使用 [!DNL Workfront Proof] SOAP API。</p> <p>如需有關使用建立校訂的詳細資訊 [!DNL Workfront] API （此模組使用此API），請參閱 <a href="../../wf-api/tips-tricks-and-troubleshooting/api-create-proof-options-json.md" class="MCXref xref">透過建立校訂時新增進階校訂選項 [!DNL Adobe Workfront] API</a></p> </p> </td> 
+    </ol> <p>備註:  <p>透過建立校訂時 [!DNL Workfront] [！UICONTROL雜湊動作]模組，最佳實務是在沒有任何進階選項的情況下建立校訂，然後使用 [!DNL Workfront Proof] SOAP API。</p> <p>有關使用建立校訂的詳細資訊 [!DNL Workfront] API （此模組使用），請參閱 <a href="../../wf-api/tips-tricks-and-troubleshooting/api-create-proof-options-json.md" class="MCXref xref">透過建立校訂時新增進階校訂選項 [!DNL Adobe Workfront] API</a></p> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[！UICONTROL ID]</td> 
-   <td>輸入或對映唯一的 [!DNL Workfront] 您希望模組與之互動的記錄ID。<p>若要取得ID，請開啟 [!DNL Workfront] 物件，並複製URL結尾「ID=」後的文字。 例如： https://my.workfront.com/project/view?ID=<i>5e43010c03286a2a555e1d0a75d6a86e</i></p></td> 
+   <td>輸入或對映唯一的 [!DNL Workfront] 您希望模組與之互動的記錄ID。<p>若要取得ID，請開啟 [!DNL Workfront] 物件，並在「ID=」後複製URL結尾的文字。 例如： https://my.workfront.com/project/view?ID=<i>5e43010c03286a2a555e1d0a75d6a86e</i></p></td> 
   </tr> 
  </tbody> 
 </table>
@@ -577,9 +585,9 @@ ht-degree: 3%
 
 此動作模組會從單一記錄擷取資料。
 
-您指定記錄的ID。 您也可以指定您希望模組讀取哪些相關記錄。
+您指定記錄的ID。 您也可以指定要讓模組讀取哪些相關記錄。
 
-例如，如果模組正在讀取的記錄是專案，您可以指定您希望專案的任務讀取。
+例如，如果模組正在讀取的記錄是專案，您可以指定您要讀取專案任務。
 
 模組會針對您指定的輸出，從標準欄位傳回資料陣列。
 
@@ -590,9 +598,9 @@ ht-degree: 3%
  <col> 
  <tbody> 
   <tr> 
-    <td>[！UICONTROL連線]</td>
+    <td>[！UICONTROL Connection]</td>
 
-<td> <p>如需有關連線您的電腦的指示， [!DNL Workfront] 應用程式至 [!DNL Workfront Fusion]，請參閱 <a href="#connect-workfront-to-workfront-fusion" class="MCXref xref">Connect [!DNL Workfront] 至 [!DNL Workfront Fusion]</a> 本文章內容。</p> </td> 
+<td> <p>如需有關連線您的電腦的指示 [!DNL Workfront] 應用程式至 [!DNL Workfront Fusion]，請參閱 <a href="#connect-workfront-to-workfront-fusion" class="MCXref xref">連線 [!DNL Workfront] 至 [!DNL Workfront Fusion]</a> 本文章內容。</p> </td> 
   </tr> 
   <tr> 
     <td>[！UICONTROL記錄型別]</td>
@@ -606,15 +614,15 @@ ht-degree: 3%
   </tr> 
   <tr> 
     <td>[！UICONTROL參考]</td>
-   <td>選取您要包含在輸出中的任何參考欄位。</td> 
+   <td>選取您要納入輸出的任何參考欄位。</td> 
   </tr> 
   <tr> 
     <td>[！UICONTROL集合]</td>
-   <td>選取您要包含在輸出中的任何參考欄位。</td> 
+   <td>選取您要納入輸出的任何參考欄位。</td> 
   </tr> 
   <tr> 
     <td>[！UICONTROL ID]</td>
-   <td> <p>輸入唯一 [!DNL Workfront] 您希望模組讀取的記錄ID。</p> <p>若要取得ID，請開啟 [!DNL Workfront] 物件，並複製URL結尾「ID=」後的文字。 例如： https://my.workfront.com/project/view?ID=<i>5e43010c03286a2a555e1d0a75d6a86e</i></p> </td> 
+   <td> <p>輸入唯一的 [!DNL Workfront] 您希望模組讀取的記錄ID。</p> <p>若要取得ID，請開啟 [!DNL Workfront] 物件，並在「ID=」後複製URL結尾的文字。 例如： https://my.workfront.com/project/view?ID=<i>5e43010c03286a2a555e1d0a75d6a86e</i></p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -629,7 +637,7 @@ ht-degree: 3%
 
 您指定記錄的ID。
 
-模組會傳回物件的ID和任何關聯欄位，以及連線存取的任何自訂欄位和值。 您可以將此資訊對應到情境中的後續模組中。
+模組會傳回物件ID及任何關聯欄位，以及連線存取的任何自訂欄位和值。 您可以在情境中的後續模組中對應此資訊。
 
 當您設定此模組時，會顯示下列欄位。
 
@@ -640,20 +648,20 @@ ht-degree: 3%
  </col> 
  <tbody> 
   <tr> 
-   <td>[！UICONTROL連線]</td> 
-   <td> <p>如需有關連線您的電腦的指示， [!DNL Workfront] 應用程式至 [!DNL Workfront Fusion]，請參閱 <a href="#connect-workfront-to-workfront-fusion" class="MCXref xref">Connect [!DNL Workfront] 至 [!DNL Workfront Fusion]</a> 本文章內容。</p> </td> 
+   <td>[！UICONTROL Connection]</td> 
+   <td> <p>如需有關連線您的電腦的指示 [!DNL Workfront] 應用程式至 [!DNL Workfront Fusion]，請參閱 <a href="#connect-workfront-to-workfront-fusion" class="MCXref xref">連線 [!DNL Workfront] 至 [!DNL Workfront Fusion]</a> 本文章內容。</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[！UICONTROL ID]</td> 
-   <td> <p>輸入唯一 [!DNL Workfront] 您要模組更新的記錄ID。</p> <p>若要取得ID，請開啟 [!DNL Workfront] 物件，並複製URL結尾「ID=」後的文字。 例如： https://my.workfront.com/project/view?ID=<i>5e43010c03286a2a555e1d0a75d6a86e</i></p> </td> 
+   <td> <p>輸入唯一的 [!DNL Workfront] 您要模組更新的記錄ID。</p> <p>若要取得ID，請開啟 [!DNL Workfront] 物件，並在「ID=」後複製URL結尾的文字。 例如： https://my.workfront.com/project/view?ID=<i>5e43010c03286a2a555e1d0a75d6a86e</i></p> </td> 
   </tr> 
   <tr> 
    <td>[!DNL Record Type]</td> 
-   <td> <p>選取型別 [!DNL Workfront] 記錄您希望模組更新的內容。</p> </td> 
+   <td> <p>選擇型別 [!DNL Workfront] 記錄您希望模組更新的內容。</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[!DNL Select fields to map]</td> 
-   <td>選取您想要可供資料輸入的欄位。 這可讓您使用這些欄位，而不必捲動瀏覽不需要的欄位。</td> 
+   <td>選取您想用於資料輸入的欄位。 這可讓您使用這些欄位，而無需捲動瀏覽您不需要的欄位。</td> 
   </tr> 
  </tbody> 
 </table>
@@ -663,7 +671,7 @@ ht-degree: 3%
 >[!NOTE]
 >
 >* 輸入物件的ID時，您可以開始輸入物件的名稱，然後從清單中選取它。 模組接著在欄位中輸入適當的ID。
->* 輸入自訂欄位的文字或 [!UICONTROL 注意] HTML物件（註解或回覆），您可在 [!UICONTROL 附註文字] 欄位以建立RTF文字，例如粗體或斜體文字。
+>* 輸入自訂欄位或的文字時 [!UICONTROL 注意] HTML物件（註解或回覆），您可在 [!UICONTROL 附註文字] 欄位以建立RTF文字，例如粗體或斜體文字。
 >
 >  如需更新中RTF文字的詳細資訊，請參閱 [將更新新增至工作專案](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md#add) 在 [更新工作](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 >
@@ -676,7 +684,7 @@ ht-degree: 3%
 
 您可以指定檔案的位置、要上傳的檔案，以及檔案的可選新名稱。
 
-模組會傳回檔案ID和任何關聯欄位，以及連線存取的任何自訂欄位和值。 您可以將此資訊對應到情境中的後續模組中。
+模組會傳回檔案ID和任何關聯欄位，以及連線存取的任何自訂欄位和值。 您可以在情境中的後續模組中對應此資訊。
 
 當您設定此模組時，會顯示下列欄位。
 
@@ -685,16 +693,16 @@ ht-degree: 3%
  <col> 
  <tbody> 
   <tr> 
-   <td>[！UICONTROL連線]</td> 
-   <td> <p>如需有關連線您的電腦的指示， [!DNL Workfront] 應用程式至 [!DNL Workfront Fusion]，請參閱 <a href="#connect-workfront-to-workfront-fusion" class="MCXref xref">Connect [!DNL Workfront] 至 [!DNL Workfront Fusion]</a> 本文章內容。</p> </td> 
+   <td>[！UICONTROL Connection]</td> 
+   <td> <p>如需有關連線您的電腦的指示 [!DNL Workfront] 應用程式至 [!DNL Workfront Fusion]，請參閱 <a href="#connect-workfront-to-workfront-fusion" class="MCXref xref">連線 [!DNL Workfront] 至 [!DNL Workfront Fusion]</a> 本文章內容。</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[！UICONTROL相關記錄ID]</td> 
-   <td>輸入唯一 [!DNL Workfront] 您要上傳檔案的記錄ID。</td> 
+   <td>輸入唯一的 [!DNL Workfront] 要上傳檔案的記錄ID。</td> 
   </tr> 
   <tr> 
    <td>[！UICONTROL相關記錄型別]</td> 
-   <td>選取型別 [!DNL Workfront] 紀錄您希望模組上傳檔案的位置。</td> 
+   <td>選擇型別 [!DNL Workfront] 記錄您希望模組上傳檔案的位置。</td> 
   </tr> 
   <tr> 
    <td>[！UICONTROL來源檔案]</td> 
@@ -718,7 +726,7 @@ ht-degree: 3%
 
 此搜尋模組會讀取符合您指定之搜尋查詢的記錄（在特定父物件中）。
 
-您可以指定要包含在輸出中的欄位。 您可以將此資訊對應到情境中的後續模組中。
+您可以指定要包含在輸出中的欄位。 您可以在情境中的後續模組中對應此資訊。
 
 當您設定此模組時，會顯示下列欄位。
 
@@ -727,8 +735,8 @@ ht-degree: 3%
  <col> 
  <tbody> 
   <tr> 
-   <td>[！UICONTROL連線]</td> 
-   <td> <p>如需有關連線您的電腦的指示， [!DNL Workfront] 應用程式至 [!DNL Workfront Fusion]，請參閱 <a href="#connect-workfront-to-workfront-fusion" class="MCXref xref">Connect [!DNL Workfront] 至 [!DNL Workfront Fusion]</a> 本文章內容。</p> </td> 
+   <td>[！UICONTROL Connection]</td> 
+   <td> <p>如需有關連線您的電腦的指示 [!DNL Workfront] 應用程式至 [!DNL Workfront Fusion]，請參閱 <a href="#connect-workfront-to-workfront-fusion" class="MCXref xref">連線 [!DNL Workfront] 至 [!DNL Workfront Fusion]</a> 本文章內容。</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[！UICONTROL記錄型別]</td> 
@@ -736,7 +744,7 @@ ht-degree: 3%
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[！UICONTROL父記錄ID]</td> 
-   <td> <p>輸入或對應您要讀取其關聯記錄的父記錄ID。</p> <p>若要取得ID，請開啟 [!DNL Workfront] 物件，並複製URL結尾「ID=」後的文字。 例如： https://my.workfront.com/project/view?ID=<i>5e43010c03286a2a555e1d0a75d6a86e</i></p> </td> 
+   <td> <p>輸入或對應您要讀取其關聯記錄的父記錄識別碼。</p> <p>若要取得ID，請開啟 [!DNL Workfront] 物件，並在「ID=」後複製URL結尾的文字。 例如： https://my.workfront.com/project/view?ID=<i>5e43010c03286a2a555e1d0a75d6a86e</i></p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[！UICONTROL集合]</td> 
@@ -755,7 +763,7 @@ ht-degree: 3%
 
 此搜尋模組會在中尋找物件中的記錄 [!DNL Workfront] 符合您指定的搜尋查詢。
 
-您可以將此資訊對應到情境中的後續模組中。
+您可以在情境中的後續模組中對應此資訊。
 
 當您設定此模組時，會顯示下列欄位。
 
@@ -764,24 +772,24 @@ ht-degree: 3%
  <col> 
  <tbody> 
   <tr> 
-   <td>[！UICONTROL連線]</td> 
-   <td> <p>如需有關連線您的電腦的指示， [!DNL Workfront] 應用程式至 [!DNL Workfront Fusion]，請參閱 <a href="#connect-workfront-to-workfront-fusion" class="MCXref xref">Connect [!DNL Workfront] 至 [!DNL Workfront Fusion]</a> 本文章內容。</p> </td> 
+   <td>[！UICONTROL Connection]</td> 
+   <td> <p>如需有關連線您的電腦的指示 [!DNL Workfront] 應用程式至 [!DNL Workfront Fusion]，請參閱 <a href="#connect-workfront-to-workfront-fusion" class="MCXref xref">連線 [!DNL Workfront] 至 [!DNL Workfront Fusion]</a> 本文章內容。</p> </td> 
   </tr> 
   <tr> 
    <td>[！UICONTROL記錄型別]</td> 
-   <td> <p>選取型別 [!DNL Workfront] 您要模組搜尋的記錄。</p> </td> 
+   <td> <p>選擇型別 [!DNL Workfront] 您要模組搜尋的記錄。</p> </td> 
   </tr> 
   <tr> 
    <td>[！UICONTROL結果集]</td> 
-   <td>選取一個選項，以指定您希望模組取得符合您搜尋條件的第一個結果，還是所有符合該條件的結果。</td> 
+   <td>選取選項以指定您希望模組取得符合搜尋條件的第一個結果，還是所有符合該條件的結果。</td> 
   </tr> 
   <tr> 
    <td>[！UICONTROL Maximal]</td> 
-   <td> <p>輸入或對應您希望模組在每個案例執行週期內傳回的最大記錄數。</p> </td> 
+   <td> <p>輸入或對應您希望模組在每個案例執行週期中傳回的最大記錄數。</p> </td> 
   </tr> 
   <tr> 
    <td>[！UICONTROL搜尋條件]</td> 
-   <td> <p>輸入您要搜尋的欄位、要在查詢中使用的運運算元，以及要在欄位中搜尋的值。</p> <p>注意：請勿使用 <code>username </code>在您的搜尋條件中。 包含 <code>username </code>在API查詢中 [!DNL Workfront] 將使用者登入Workfront，搜尋將不會成功。</p> <p>注意： <code>In</code> 和 <code>NotIn</code>使用陣列。 輸入的格式應為陣列。</p></td> 
+   <td> <p>輸入您要搜尋的欄位、要在查詢中使用的運運算元，以及要在欄位中搜尋的值。</p> <p>注意：請勿使用 <code>username </code>在您的搜尋條件中。 包含 <code>username </code>在API查詢中至 [!DNL Workfront] 將使用者登入Workfront，搜尋將不會成功。</p> <p>注意： <code>In</code> 和 <code>NotIn</code>使用陣列。 輸入的格式應為陣列。</p></td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[！UICONTROL輸出]</td> 
@@ -818,8 +826,8 @@ ht-degree: 3%
  <thead> 
   <tr> 
    <th> </th> 
-   <th>[！UICONTROL觀看記錄]</th> 
-   <th>[！UICONTROL監看欄位]</th> 
+   <th>[！UICONTROL監看紀錄]</th> 
+   <th>[！UICONTROL監視欄位]</th> 
    <th>[！UICONTROL觀看活動]</th> 
   </tr> 
  </thead> 
@@ -827,7 +835,7 @@ ht-degree: 3%
   <tr> 
    <td>核准流程</td> 
    <td> </td> 
-   <td>✓ (N)</td> 
+   <td>✓ (A)</td> 
    <td> </td> 
   </tr> 
   <tr> 
@@ -909,7 +917,7 @@ ht-degree: 3%
    <td> </td> 
   </tr> 
   <tr> 
-   <td>時數</td> 
+   <td>小時</td> 
    <td> </td> 
    <td>✓</td> 
    <td>✓</td> 
@@ -1214,7 +1222,7 @@ ht-degree: 3%
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td>時數</td> 
+   <td>小時</td> 
    <td>✓</td> 
    <td>✓</td> 
    <td>✓</td> 
@@ -1538,7 +1546,7 @@ ht-degree: 3%
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td>時數</td> 
+   <td>小時</td> 
    <td>✓</td> 
    <td> </td> 
   </tr> 
@@ -1665,7 +1673,7 @@ ht-degree: 3%
  </tbody> 
 </table>
 
-建議您仔細檢查，確保此功能的運作方式與預期一致。
+建議您仔細檢查，確保此功能的運作方式與預期的一樣。
 
 +++
 
@@ -1673,13 +1681,13 @@ ht-degree: 3%
 
 >[!NOTE]
 >
->強烈建議您在中使用事件訂閱篩選器 [!UICONTROL 觀看活動] 模組。
+>強烈建議您在使用事件訂閱篩選器 [!UICONTROL 觀看活動] 模組。
 
-此 [!DNL Workfront] [!UICONTROL 觀看活動] 模組會根據webhook觸發案例，該案例會在 [!DNL Workfront] API。 事件訂閱是一組資料，可決定要將哪些事件傳送到webhook。 例如，如果您設定 [!UICONTROL 觀看活動] 監視問題的模組，則事件訂閱只會傳送與問題相關的事件。
+此 [!DNL Workfront] [!UICONTROL 觀看活動] 模組會根據webhook觸發案例，該案例會在中建立事件訂閱 [!DNL Workfront] API。 事件訂閱是一組資料，可決定要將哪些事件傳送到webhook。 例如，如果您設定 [!UICONTROL 觀看活動] 監視問題的模組，則事件訂閱只會傳送與問題相關的事件。
 
-透過使用事件訂閱篩選器，Fusion使用者可建立更適合其使用案例的事件訂閱。 例如，您可以在 [!DNL Workfront] API僅將特定專案中的問題傳送至webhook，確保 [!UICONTROL 觀看活動] 模組將只會為該專案中的問題觸發。 建立較窄觸發器的功能可減少不相關觸發器的數量，進而改善情境設計。
+透過使用事件訂閱篩選器，Fusion使用者可建立更適合其使用案例的事件訂閱。 例如，您可以在以下位置設定事件訂閱： [!DNL Workfront] API只將特定專案中的問題傳送至webhook，確保 [!UICONTROL 觀看活動] 模組將只會觸發該專案中的問題。 建立較窄觸發器的功能可減少不相關觸發器的數量，進而改善情境設計。
 
-這與在中設定篩選器不同 [!DNL Workfront Fusion] 情境。 若沒有事件訂閱篩選器，您的webhook會接收與您選取的物件型別相關的所有事件。 這些事件大多與情境無關，必須篩選掉，情境才能繼續。
+這與在中設定篩選器不同 [!DNL Workfront Fusion] 情境。 如果沒有事件訂閱篩選器，您的webhook會接收與您選取的物件型別相關的所有事件。 這些事件大多與情境無關，必須先篩選掉，情境才能繼續。
 
 「Workfront >關注事件」篩選器中提供下列運運算元：
 
@@ -1705,9 +1713,9 @@ ht-degree: 3%
 
 >[!INFO]
 >
->**範例：** 請考量處理指派給特定使用者Ana之新問題的情境。
+>**範例：** 假設有一個案例處理指派給特定使用者Ana的新問題。
 >
->### 使用事件訂閱篩選條件來篩選事件（建議使用）
+>### 使用事件訂閱篩選器來篩選事件（建議使用）
 >
 >使用事件篩選器，您可以設定webhook以在建立問題時將問題指派給Ana時觸發情境。 Ana具有userID b378489d8f7cd3cee0539260720a84b7。
 >
@@ -1717,15 +1725,15 @@ ht-degree: 3%
 >
 >### 篩選案例中的事件（不建議）
 >
->若要篩選事件，以便只處理指派給Ana的問題，您可以在 [!UICONTROL 觀看活動] 模組。
+>若要篩選事件，以便僅處理指派給Ana的問題，您可以在 [!UICONTROL 觀看活動] 模組。
 >
 >![](assets/watch-events-non-event-filter-350x206.png)
 >
->如果一天內建立100個問題，但只有兩個問題指派給Ana，則案例將執行100次。 98個執行會在篩選後停止，但觸發模組仍在使用所有執行的資料並執行操作。
+>如果一天內建立100個問題，但只有兩個問題指派給Ana，則案例將執行100次。 98個執行會在篩選後停止，但觸發模組仍在所有執行中使用資料並執行操作。
 
 如需事件訂閱的詳細資訊，請參閱 [常見問題集 — 事件訂閱](../../wf-api/general/event-subs-faq.md).
 
-如需Webhook的詳細資訊，請參閱 [中的即時觸發器(Webhook) [!DNL Adobe Workfront Fusion]](../../workfront-fusion/webhooks/instant-triggers-webhooks.md)
+如需Webhook的詳細資訊，請參閱 [中的即時觸發器(webhook) [!DNL Adobe Workfront Fusion]](../../workfront-fusion/webhooks/instant-triggers-webhooks.md)
 
-如需情境中篩選器的詳細資訊，請參閱 [將篩選器新增至中的情境 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/add-a-filter-to-a-scenario.md).
+如需案例中篩選器的詳細資訊，請參閱 [將篩選器新增至中的情境 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/add-a-filter-to-a-scenario.md).
 
