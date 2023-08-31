@@ -3,9 +3,9 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文件、教學課程和其他資源，了解如何在您的組織中實施並有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: fdf53e84054a51ae7bcf2a888740c03171941f32
+source-git-commit: db4d0e82f0f12d4e8c210565231a6f6569d7d90c
 workflow-type: tm+mt
-source-wordcount: '13201'
+source-wordcount: '13214'
 ht-degree: 1%
 
 ---
@@ -1099,6 +1099,7 @@ ht-degree: 1%
          * [傳送檔案至Experience Manager Assets或Assets Essentials](documents/adobe-workfront-for-experience-manager-assets-essentials/send-to-aem.md)
          * [校訂Experience Manager Assets或Asset Essentials的連結資產](documents/adobe-workfront-for-experience-manager-assets-essentials/proof-linked-asset-aem.md)
          * [建立與Experience Manager Assets或Assets Essentials連結的資料夾](documents/adobe-workfront-for-experience-manager-assets-essentials/create-linked-folder.md)
+         * [從Experience Manager Assets或Assets Essentials中取消連結或刪除資產和資料夾](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/unlink-or-delete-aem-assets.md)
          * [在Experience Manager Assets Essentials整合中使用工作流程](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/use-aem-workflows.md)
          * [疑難排解Adobe Experience Manager整合](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/troubleshoot-aem-asset-integration.md)
    * 從舊版或增強型聯結器移轉 {#migrate-from-legacy-enhanced-connectors}

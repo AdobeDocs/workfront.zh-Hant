@@ -7,9 +7,9 @@ description: 適用於Experience Manager Assets Essentials的Adobe Workfront
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 8aad1efc-1a91-441a-8bb8-0ce9429492c6
-source-git-commit: d74b0aa22644b7c79d3c6c3c3bbd5e67efdff732
+source-git-commit: db4d0e82f0f12d4e8c210565231a6f6569d7d90c
 workflow-type: tm+mt
-source-wordcount: '110'
+source-wordcount: '123'
 ht-degree: 0%
 
 ---
@@ -24,4 +24,5 @@ ht-degree: 0%
 * [從Experience Manager Assets或Assets Essentials檢視或下載連結的資產](../../documents/adobe-workfront-for-experience-manager-assets-essentials/view-download-asset.md)
 * [建立與Experience Manager Assets或Assets Essentials連結的資料夾](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/create-linked-folder.md)
 * [在Experience Manager Assets Essentials整合中使用工作流程](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/use-aem-workflows.md)
+* [從Experience Manager Assets或Assets Essentials中取消連結或刪除資產和資料夾](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/unlink-or-delete-aem-assets.md)
 * [疑難排解Adobe Experience Manager整合](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/troubleshoot-aem-asset-integration.md)
