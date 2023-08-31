@@ -10,10 +10,10 @@ feature: System Setup and Administration
 role: Admin
 hide: true
 hidefromtoc: true
-source-git-commit: 5d3c8e3626dabf88394bd6b3c2dd48e6168b56c4
+source-git-commit: b0142b75e507081ebfb6ce700f37d5c287c72cde
 workflow-type: tm+mt
-source-wordcount: '2325'
-ht-degree: 2%
+source-wordcount: '2334'
+ht-degree: 3%
 
 ---
 
@@ -126,7 +126,7 @@ Add to tocs
 
 API會驗證每個請求，以確保使用者端有權檢視或修改請求的物件。
 
-透過傳入工作階段ID或API金鑰來執行驗證，該金鑰可使用以下方法之一提供：
+透過傳入工作階段ID或API金鑰來執行驗證，金鑰可使用以下方法提供：
 
 ### 請求標頭驗證
 
@@ -192,7 +192,14 @@ POST https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/p
 ```json
 {
     "apikey": "**********",
-    - or -
+    "Content-Type": "application/json"
+}
+```
+
+或
+
+```json
+{
     "sessionID": "*****************", 
     "Content-Type": "application/json"
 }
@@ -288,9 +295,15 @@ GET https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/pa
 
 ```json
 {
-    "apikey": "**********",
-    - or -
-    "sessionID": "*****************", 
+    "apikey": "**********"
+}
+```
+
+或
+
+```json
+{
+    "sessionID": "*****************"
 }
 ```
 
@@ -349,9 +362,15 @@ GET https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/pa
 
 ```json
 {
-    "apikey": "**********",
-    - or -
-    "sessionID": "*****************", 
+    "apikey": "**********"
+}
+```
+
+或
+
+```json
+{
+    "sessionID": "*****************"
 }
 ```
 
@@ -418,9 +437,15 @@ GET https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/pa
 
 ```json
 {
-    "apikey": "**********",
-    - or -
-    "sessionID": "*****************", 
+    "apikey": "**********"
+}
+```
+
+或
+
+```json
+{
+    "sessionID": "*****************"
 }
 ```
 
@@ -531,7 +556,12 @@ PUT https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/pa
 ```json
 {
     "apikey": "**********",
-    - or -
+    "Content-Type": "application/json"
+}
+```
+
+```json
+{
     "sessionID": "*****************", 
     "Content-Type": "application/json"
 }
@@ -658,7 +688,14 @@ PATCH https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/
 ```json
 {
     "apikey": "**********",
-    - or -
+    "Content-Type": "application/json"
+}
+```
+
+或
+
+```json
+{
     "sessionID": "*****************", 
     "Content-Type": "application/json"
 }
@@ -735,9 +772,15 @@ DELETE https://{domain}.{environment}.workfront.com/environment-promotion/api/v1
 
 ```json
 {
-    "apikey": "**********",
-    - or -
-    "sessionID": "*****************", 
+    "apikey": "**********"
+}
+```
+
+或
+
+```json
+{
+    "sessionID": "*****************"
 }
 ```
 
@@ -796,7 +839,7 @@ Deleted
 #### URL
 
 ```
-POST https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/translationmap
+POST https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/packages/:id/prepare-installation
 ```
 
 #### 標頭
@@ -804,7 +847,14 @@ POST https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/t
 ```json
 {
     "apikey": "**********",
-    - or -
+    "Content-Type": "application/json"
+}
+```
+
+或
+
+```json
+{
     "sessionID": "*****************", 
     "Content-Type": "application/json"
 }
@@ -841,14 +891,14 @@ POST https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/t
 
 #### 選項
 
-如果 `translationmap` POST內文中未提供，處理將自動起始 `/translationmap` 呼叫。 此 `translationmap` 傳回的內容將依原樣使用，且沒有機會進行檢閱或調整。
+如果 `translationmap` POST內文中未提供，處理將自動起始 `/prepare-installation` 呼叫。 此 `translationmap` 傳回的內容將依原樣使用，且沒有機會進行檢閱或調整。
 
 如果 `translationmap` POST內文中提供，安裝程式將使用提供的對應。 這可讓安裝使用者在執行安裝嘗試之前，檢閱並視需要進行調整。
 
 #### URL
 
 ```
-POST https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/install
+POST https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/installations/{id}/install
 ```
 
 #### 標頭
@@ -856,7 +906,14 @@ POST https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/i
 ```json
 {
     "apikey": "**********",
-    - or -
+    "Content-Type": "application/json"
+}
+```
+
+或
+
+```json
+{
     "sessionID": "*****************", 
     "Content-Type": "application/json"
 }
@@ -897,16 +954,22 @@ POST https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/i
 #### URL
 
 ```
-GET https://{domain}.{environment}.workfront.com/environment-promotion/api/v1v1/installations?environmentPromotionPackageId={environmentPromotionPackageId}
+GET https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/installations?environmentPromotionPackageId={environmentPromotionPackageId}
 ```
 
 #### 標頭
 
 ```json
 {
-    "apikey": "**********",
-    - or -
-    "sessionID": "*****************", 
+    "apikey": "**********"
+}
+```
+
+或
+
+```json
+{
+    "sessionID": "*****************"
 }
 ```
 
@@ -995,9 +1058,15 @@ GET https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/in
 
 ```json
 {
-    "apikey": "**********",
-    - or -
-    "sessionID": "*****************", 
+    "apikey": "**********"
+}
+```
+
+或
+
+```json
+{
+    "sessionID": "*****************"
 }
 ```
 
