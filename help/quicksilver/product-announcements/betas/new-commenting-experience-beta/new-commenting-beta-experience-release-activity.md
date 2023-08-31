@@ -7,14 +7,16 @@ author: Alina
 feature: Product Announcements
 role: User, Admin
 exl-id: 1c0cb547-ac99-4cdf-8a74-2c47ad5a10ad
-source-git-commit: 709b36f4471e5576e45ed918783216a1f7f4abac
+source-git-commit: 3d1bf0ec9aa9156f6acdc12a3a7188eec76460d7
 workflow-type: tm+mt
-source-wordcount: '1976'
+source-wordcount: '1994'
 ht-degree: 2%
 
 ---
 
 # 新的評論體驗發行活動
+
+<!--take the badge out when it comes to production GA for everyone-->
 
 <!--
 <span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers, or in the Production environment for customers who enabled fast releases. </span>  
@@ -77,13 +79,15 @@ ht-degree: 2%
 
 變更不會影響「系統活動」標籤中的系統更新。
 
-預覽和生產： 2023年8月24日
+所有客戶的預覽和生產： 2023年8月24日
 
 ### 2023年8月14日起一週
 
 [觀看2023年8月14日當週所發行所有功能的影片示範](https://video.tv.adobe.com/v/3422912/){target=_blank}
 
 #### 其他物件的新註解體驗
+
+[!BADGE 快速發行的生產中]{type=Positive}
 
 在23.3版發佈至生產環境後不久，以下物件將可使用新的評論體驗：範本任務、範本、時程表、團隊、使用者、計畫、投資組合。
 
@@ -98,6 +102,8 @@ ht-degree: 2%
 適用於所有客戶的生產版本：第23.10版本（2023年10月）
 
 #### 新評論資料流的新設計更新
+
+[!BADGE 快速發行的生產中]{type=Positive}
 
 我們重新設計了新的評論流，以提供更新的外觀。 部分改善包括：
 
@@ -122,6 +128,8 @@ ht-degree: 2%
 每季發行生產：23.10版（2023年10月）
 
 #### 新的評論體驗是專案、任務、問題和檔案的預設體驗
+
+[!BADGE 快速發行的生產中]{type=Positive}
 
 我們正在將新的註解體驗設定為下列物件的預設體驗：專案、任務、問題和檔案。  存取這些物件時，舊版註解體驗仍會作為替代選項。
 
