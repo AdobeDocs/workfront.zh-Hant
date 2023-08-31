@@ -8,9 +8,9 @@ author: Becky, Caroline
 feature: System Setup and Administration, [!DNL Workfront] Integrations and Apps, Digital Content and Documents
 role: Admin
 exl-id: fd45e1bc-9a35-4960-a73a-ff845216afe4
-source-git-commit: d76dde079748e11949acd322dbe6a4400c0d4ca9
+source-git-commit: 2a5e793077e520e34fdbb9187ba17f1e1bde43e9
 workflow-type: tm+mt
-source-wordcount: '1595'
+source-wordcount: '1573'
 ht-degree: 0%
 
 ---
@@ -20,8 +20,6 @@ ht-degree: 0%
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">**DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. **</p>
 -->
-
-<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它僅在預覽Sandbox環境中可用。</span>
 
 >[!IMPORTANT]
 >
@@ -93,12 +91,12 @@ ht-degree: 0%
 若要傳送檔案至SharePoint：
 
 1. 按一下 **傳送至** 圖示 ![傳送至](assets/send-to-icon.png) 並選取SharePoint (Graph API)。
-1. <span class="preview">（選擇性）在搜尋列中搜尋您要傳送檔案的網站或資料夾。</span>
+1. （選擇性）在搜尋列中搜尋您要傳送檔案的網站或資料夾。
 1. 從清單中選取網站或資料夾。
 
-   * <span class="preview">網站標示為 ![網站圖示](assets/site-icon.png).</span>
+   * 網站標示為 ![網站圖示](assets/site-icon.png).
 
-   * <span class="preview">資料夾標有 ![資料夾圖示](assets/folder-icon.png).</span>
+   * 資料夾標有 ![資料夾圖示](assets/folder-icon.png).
 
    * 檔案未標示圖示。
 
