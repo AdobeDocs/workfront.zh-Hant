@@ -7,9 +7,9 @@ description: 物件的「更新」區段會顯示使用者對物件所做的註�
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: 5b9ee4d5d792d78f127f88bac3a0e4fea5cdf788
+source-git-commit: 096d4a50ae4c392f149d4dd54b19c6f1c86c5b1b
 workflow-type: tm+mt
-source-wordcount: '1174'
+source-wordcount: '1189'
 ht-degree: 4%
 
 ---
@@ -142,14 +142,12 @@ The Updates section of an object displays comments that users make on the object
    * **註解**：顯示使用者所做的評論以及對這些評論的回覆。 如需有關更新新註解體驗中物件的資訊，請參閱 [更新工作](../updating-work-items-and-viewing-updates/update-work.md).
    * **系統活動**：顯示系統更新，這些資訊性訊息是Workfront為記錄物件上的特定事件而建立的訊息。 例如，您可以使用系統更新來擷取狀態、名稱或自訂欄位中的變更。 您的Workfront或群組管理員可以為您的物件啟用系統更新。 如需詳細資訊，請參閱 [設定系統更新](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
 
-  <!--enable this when we release the new update stream to ALL other objects and only if Anna's bug was fixed to include this - on or before October 2023: 
+      * 下列物件沒有「系統活動」標籤：
 
-  * The following objects don't have a System Activity tab:
-
-  * Team
-  * Template
-  * Template Task
-    -->
+         * 團隊
+         * 範本
+         * 範本任務
+         * 臨機卡
 
 * 目前，您可以在下列物件上使用新的註解體驗來新增註解及回覆更新：
 
