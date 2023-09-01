@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: a5cdcb89-71c0-43f0-a5cf-dc99fac542ba
-source-git-commit: 2211431b4c4e3d751519fe8441cfa578e713ac77
+source-git-commit: e21758ba410dd75440ff28e00a2fb5ba88c3d18a
 workflow-type: tm+mt
 source-wordcount: '1898'
 ht-degree: 0%
@@ -61,10 +61,10 @@ ht-degree: 0%
 **[!UICONTROL 人力資源組織設定]**
 此藍圖包含組織結構的設定，以展開至人力資源部門。
 
-[!BADGE 新增!]{type=Informative}**[!UICONTROL 資訊科技組織設定]**
+**[!UICONTROL 資訊科技組織設定]**
 此Blueprint包含組織結構的設定，以展開至資訊技術使用案例。
 
-**[!UICONTROL 繼承執行個體基本知識 |檢查清單]**
+[!BADGE 新增!]{type=Informative}**[!UICONTROL 繼承執行個體基本知識 |檢查清單]**
 此Blueprint包含專案範本（或檢查清單），您可以利用問題、資源和連結的簡短清單進行檢視，以清楚瞭解Workfront執行個體的設定方式。 當您最近繼承Workfront執行個體並需要有關從何處開始的指引時，請使用此專案。
 
 **[!UICONTROL 整合式行銷活動執行]**
