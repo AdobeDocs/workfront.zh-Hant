@@ -8,9 +8,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 8b99f939-12fe-4470-9dc8-f8a92c6db334
-source-git-commit: db0891e0c607b9297d4fcd6b48916b47e8a0b990
+source-git-commit: ca3ded2d18f369a0859efce49d185fa0de4cf54f
 workflow-type: tm+mt
-source-wordcount: '2103'
+source-wordcount: '2105'
 ht-degree: 1%
 
 ---
@@ -86,7 +86,7 @@ Linked to Converting Issues.-->
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL收入型別]</td> 
-   <td> <p>計算任務的計畫和實際收入預估。 當 <strong>[！UICONTROL收入型別]</strong> 設為<strong>[！UICONTROL不可記帳]</strong>，計畫時數和實際記錄時數不會產生任務的收入預估，且任務上的工作不會貢獻專案層級的收入。</p> </td> 
+   <td> <p>計算任務的計畫和實際收入預估。 當 <strong>[！UICONTROL收入型別]</strong> 設為 <strong>[！UICONTROL不可記帳]</strong>，計畫時數和實際記錄時數不會產生任務的收入預估，且任務上的工作不會貢獻專案層級的收入。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL成本型別]</td> 
@@ -118,7 +118,7 @@ Linked to Converting Issues.-->
         <li> <p><a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-issues.md" class="MCXref xref">授予問題的存取許可權</a> </p> </li> 
         <li> <p><a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">共用問題 </a> </p> </li> 
        </ul> </p> </li> 
-     <li><strong>[！UICONTROL允許主要連絡人存取工作]</strong>：授予主要連絡人（問題建立者）任務存取權，以檢閱任務、隨時瞭解其進度並在任務的更新區段進行評論。</li> 
+     <li><strong>[！UICONTROL允許主要連絡人存取工作]</strong>：授予主要連絡人（問題建立者）檢視任務的存取權以檢閱任務、隨時瞭解其進度，並在任務的更新區段上發表評論。</li> 
      <li> <p><strong>[！UICONTROL允許在轉換期間變更這些設定]</strong>：允許轉換問題的使用者在問題轉換為任務期間變更這些選項。</p> <!--
        Screenshot when possible</p>
       --> </li> 
@@ -133,7 +133,7 @@ Linked to Converting Issues.-->
         <li> <p><a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-issues.md" class="MCXref xref">授予問題的存取許可權</a> </p> </li> 
         <li> <p><a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">共用問題 </a> </p> </li> 
        </ul> </p> </li> 
-     <li><strong>[！UICONTROL允許主要連絡人存取專案]</strong>：授予主要連絡人（問題建立者）專案的存取權，以檢閱專案、隨時瞭解其進度，並在專案的更新區段上發表評論。</li> 
+     <li><strong>[！UICONTROL允許主要連絡人存取專案]</strong>：授予主要連絡人（問題建立者）專案的檢視存取權以檢閱專案、隨時瞭解其進度，並在專案的更新區段上發表評論。</li> 
      <li><strong>[！UICONTROL允許在轉換期間變更這些設定]</strong>：允許轉換問題的使用者在問題轉換為專案期間變更列出的選項。</li> 
     </ul> </td>
   </tr> 
@@ -234,7 +234,7 @@ I have not had a chance to follow up with customers to verify if this is still a
    <td role="rowheader">[！UICONTROL將某人指派給任務時]</td> 
    <td> 
     <ul> 
-     <li><strong>[！UICONTROL授予他們……任務的存取權]</strong>：定義使用者對其獲指派的任務具有的預設許可權。 如需有關工作許可權的詳細資訊，請參閱<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">授予使用者存取許可權</a>.</li> 
+     <li><strong>[！UICONTROL授予他們……任務的存取權]</strong>：定義使用者對其獲指派的任務具有的預設許可權。 如需有關工作許可權的詳細資訊，請參閱 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">授予使用者存取許可權</a>.</li> 
      <li> <p><strong>[！UICONTROL同時授予他們……專案的存取權]</strong>：定義使用者對其已獲指派任務的專案具有的預設許可權。 如需有關專案許可權的詳細資訊，請參閱 <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">設定全系統專案偏好設定</a>.</p> </li> 
     </ul> </td> 
   </tr> 
@@ -242,7 +242,7 @@ I have not had a chance to follow up with customers to verify if this is still a
    <td role="rowheader">[！UICONTROL將某人指派給問題時]</td> 
    <td> 
     <ul> 
-     <li><strong>[！UICONTROL授予他們……任務的存取權]</strong>：定義使用者對其獲指派的任務具有的預設許可權。 如需有關工作許可權的詳細資訊，請參閱<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">授予使用者存取許可權</a>.</li> 
+     <li><strong>[！UICONTROL授予他們……任務的存取權]</strong>：定義使用者對其獲指派的任務具有的預設許可權。 如需有關工作許可權的詳細資訊，請參閱 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">授予使用者存取許可權</a>.</li> 
      <li> <p><strong>[！UICONTROL同時授予他們……專案的存取權]</strong>：定義使用者對其已獲指派任務的專案具有的預設許可權。 如需有關專案許可權的詳細資訊，請參閱 <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">設定全系統專案偏好設定</a>.</p> </li> 
     </ul> </td> 
   </tr> 
