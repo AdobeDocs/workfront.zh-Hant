@@ -8,9 +8,9 @@ feature: Work Management
 topic: Collaboration
 role: User
 exl-id: 2a4488fb-fe2f-422a-887c-996f6367afc5
-source-git-commit: b6ea67f28b498cc0de4325a2350545c660574d4c
+source-git-commit: bdbb970aa0bb49fe9e69a15f93c96609eb2c1bfe
 workflow-type: tm+mt
-source-wordcount: '2024'
+source-wordcount: '2035'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 <!--remove Preview and Prod references when this comes to Prod-->
 
-<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它僅適用於所有客戶的預覽環境，或適用於啟用快速發行的客戶的生產環境。 </span>
+<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它僅在預覽環境中可供所有客戶使用。 每月發行至生產環境後，生產環境中為啟用快速發行的客戶也提供相同的功能。 </span>
 
 <span class="preview">如需快速發行版本的相關資訊，請參閱 [啟用或停用組織的快速發行](../../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 

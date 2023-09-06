@@ -6,9 +6,9 @@ description: 您可以在Adobe Workfront物件（專案、任務或問題）上�
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: 709b36f4471e5576e45ed918783216a1f7f4abac
+source-git-commit: bdbb970aa0bb49fe9e69a15f93c96609eb2c1bfe
 workflow-type: tm+mt
-source-wordcount: '3521'
+source-wordcount: '3550'
 ht-degree: 1%
 
 ---
@@ -218,6 +218,7 @@ drafted for P&P release:
       <td> <p>停用此選項可防止公司外部的使用者擁有檢視此更新的存取權。</p> 
       <p><b>附註</b></p>
       <p>只有在使用者與公司相關聯時，才會顯示此選項。</p>
+      <p>此選項並非適用於所有您可從中新增更新的區域。 例如，您無法從第三方應用程式新增更新。 </p>
       </td> 
      </tr> 
     </tbody> 
