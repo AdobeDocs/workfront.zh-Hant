@@ -6,7 +6,7 @@ description: 您可以從Adobe市集安裝適用於Photoshop的Adobe Workfront�
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: f5e9f121-a711-4b75-8564-54f29c5cfa48
-source-git-commit: 78a6cee213887c72aedc14bbb4552f28fc27625d
+source-git-commit: 316c85d4809f6833441f63578038624a7ebfcb39
 workflow-type: tm+mt
 source-wordcount: '528'
 ht-degree: 1%
@@ -57,7 +57,7 @@ ht-degree: 1%
 
 * 您必須安裝 [!DNL Adobe Photoshop] 安裝之前的應用程式 [!DNL Workfront] 外掛程式。
 
-## 安裝 [!DNL Adobe Workfront for Photoshop] 適用於您的組織的外掛程式
+## 安裝 [!DNL Adobe Workfront for Photoshop] 適用於您組織的外掛程式
 
 如果您是 [!DNL Adobe Admin Console] 管理員，您可以將外掛程式包含在 [!DNL Creative Cloud] 部署套件。 如需詳細資訊，請參閱 [在您的套件中包含外掛程式](https://helpx.adobe.com/in/enterprise/using/manage-extensions.html).
 
