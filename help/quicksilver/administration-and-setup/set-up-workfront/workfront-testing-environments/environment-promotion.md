@@ -10,7 +10,7 @@ feature: System Setup and Administration
 role: Admin
 hide: true
 hidefromtoc: true
-source-git-commit: b0142b75e507081ebfb6ce700f37d5c287c72cde
+source-git-commit: e05ecf25ec5a6102c42a405116488752f87cc3b1
 workflow-type: tm+mt
 source-wordcount: '2334'
 ht-degree: 3%
@@ -209,7 +209,7 @@ POST https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/p
 
 ```json
 {
-    "packageName": "Agency Onboarding - 2023-06-06",
+    "name": "Agency Onboarding - 2023-06-06",
     "description": "This promotion package contains configuration to support the agency onboarding processes...",
     "source": "https://{domain}.{environment}.workfront.com",
     "objectCollections": [
@@ -571,7 +571,7 @@ PUT https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/pa
 
 ```json
 {
-    "packageName": "Agency Onboarding - 2023-06-06",
+    "name": "Agency Onboarding - 2023-06-06",
     "description": "This promotion package contains configuration to support the agency onboarding processes... with a description change",
     "source": "https://{domain}.{environment}.workfront.com",
     "status": "TESTING",
