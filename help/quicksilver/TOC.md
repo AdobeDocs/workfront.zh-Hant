@@ -3,9 +3,9 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文件、教學課程和其他資源，了解如何在您的組織中實施並有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: 78a6cee213887c72aedc14bbb4552f28fc27625d
+source-git-commit: 01f91f31cf97ece80d7f7b98a96e846b4c8ad914
 workflow-type: tm+mt
-source-wordcount: '13223'
+source-wordcount: '13232'
 ht-degree: 1%
 
 ---
@@ -132,6 +132,7 @@ ht-degree: 1%
          * [21.1其他增強功能](product-announcements/product-releases/21.1-release-activity/21-1-other-enhancements.md)
       * Adobe Workfront Fusion發行活動 {#fusion-release}
          * [Adobe Workfront Fusion發行活動](product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md)
+         * [Workfront Fusion發行活動： 2023年9月1日起一週](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2023-9-1.md)
          * [Workfront Fusion發行活動： 2023年8月21日起一週](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2023-8-21.md)
          * [Workfront Fusion發行活動： 2023年8月7日當週](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2023-8-7.md)
          * [Workfront Fusion發行活動： 2023年7月10日起一週](product-announcements/product-releases/fusion-release-activity/fusion-2023-7-10.md)
@@ -2004,6 +2005,7 @@ ht-degree: 1%
       * [Adobe Workfront Fusion中的連線](workfront-fusion/connections/connections.md)
       * [關於將Adobe Workfront Fusion連線至應用程式或服務](workfront-fusion/connections/about-connecting-wf-fusion-to-app-or-service.md)
       * [在Adobe Workfront Fusion中建立連線](workfront-fusion/connections/connection-instruction-toc.md)
+      * [連線中繼資料](/help/quicksilver/workfront-fusion/connections/connection-metadata.md)
       * [建立與Adobe Workfront Fusion的連線 — 基本指示](workfront-fusion/connections/connect-to-fusion-general.md)
       * [將Adobe Workfront Fusion連線至任何Web服務](workfront-fusion/connections/connect-wf-fusion-to-any-web-service.md)
       * [將Adobe Workfront Fusion連線至使用API權杖授權的網站服務](workfront-fusion/connections/connect-wf-web-service-uses-api-token-auth.md)
