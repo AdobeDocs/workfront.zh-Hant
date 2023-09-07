@@ -10,9 +10,9 @@ feature: System Setup and Administration
 role: Admin
 hide: true
 hidefromtoc: true
-source-git-commit: e05ecf25ec5a6102c42a405116488752f87cc3b1
+source-git-commit: 68c3a66a91f4c0936d256398b5d30518226396a6
 workflow-type: tm+mt
-source-wordcount: '2334'
+source-wordcount: '2346'
 ht-degree: 3%
 
 ---
@@ -177,7 +177,7 @@ SessionID: abc1234
 >
 >陣列中的每個專案都包含 `objCode` 與Workfront API Explorer中記錄之物件程式碼對應的金鑰。
 >
->每個專案也包含 `entities` 集合。 這預期 `ID` 和 `name` 金鑰將會出現。
+>每個專案也包含 `entities` 集合。 這預期 `ID` 欄位。 它也可以接受選填的 `name` 屬性，以便於瞭解 `ID` 表示。
 >
 >對於中請求的允許物件程式碼清單 `objectCollections` 清單，請參閱 [環境推進的支援物件](#supported-objects-for-environment-promotion) 一節。
 
