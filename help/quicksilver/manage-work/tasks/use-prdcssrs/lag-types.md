@@ -7,9 +7,9 @@ description: 延遲是指在強制前置任務完成後必須經過的時間量�
 author: Alina
 feature: Work Management
 exl-id: 9b3cac9a-1b8d-4697-b5d4-a2d669c790a9
-source-git-commit: ecbba9b1da674328df866ec30e48fe44dd02cb86
+source-git-commit: a2d3032b32d321c0089839dafad6c9b3c5ba153a
 workflow-type: tm+mt
-source-wordcount: '1515'
+source-wordcount: '1519'
 ht-degree: 0%
 
 ---
@@ -164,7 +164,7 @@ ht-degree: 0%
 <p><b>附註</b></p> 百分比的最大延遲限製為2000%。</p> </td> 
   </tr> 
   <tr> 
-   <td> <p>星期(w) </p> </td> 
+   <td> <p>星期（w或we） </p> </td> 
    <td> <p>兩個任務之間的延遲的度量方式為指出包含前置任務計畫完成日期的一週中某天。</p> <p>對於這種「延遲型別」，一週中的每一天都與一個數字相關聯：</p> 
     <ul> 
      <li>星期日=1</li> 
@@ -187,7 +187,7 @@ ht-degree: 0%
 <p>若要指示過去或未來的周數，您可以在延遲型別的天數字前新增一個數字。 </p> <p>例如，若要指定10週前的星期一，您可以使用此程式碼來指定您的繼任者的前置任務：</p> <p><code>4fs-102w</code> </p> <p>10表示10週前，2是指派給星期一的數字。 </p> </td> 
   </tr> 
   <tr> 
-   <td> <p>非零周間日(k)</p> </td> 
+   <td> <p>星期幾（k或ke）</p> </td> 
    <td> <p>兩個任務之間的延遲度量方式與一週延遲型別的「天」相同，但如果前置任務的時間在指定一週的同一天結束，則不在此限。 接著會計算相鄰一週的延遲時間(+/-)。 </p> <p>在此情況下，延遲時間絕不能為0。</p> </td> 
   </tr> 
  </tbody> 
