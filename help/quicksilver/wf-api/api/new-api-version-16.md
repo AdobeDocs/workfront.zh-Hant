@@ -6,7 +6,7 @@ description: Adobe Workfront於2022年4月6日發行API第16版。 API第16版�
 author: Becky
 feature: Workfront API
 exl-id: a3d8534b-fe6e-4782-baab-7c94555ea40c
-source-git-commit: 7abb4f2ec2d42b0f8b12504646ade720e53f567b
+source-git-commit: 8afbb1f45331d79bb849afb3acf3e9ff054cefc3
 workflow-type: tm+mt
 source-wordcount: '1180'
 ht-degree: 0%
@@ -15,11 +15,11 @@ ht-degree: 0%
 
 # API 16版的新增功能
 
-Adobe Workfront於2022年4月6日發行API第16版。 API第16版具有第15版的下列變更。
+Adobe Workfront於2023年4月6日發行API第16版。 API第16版具有第15版的下列變更。
 
 ## 新增的資源
 
-沒有為API版本16新增資源。
+未針對API版本16新增資源。
 
 ## 已移除的資源
 
@@ -28,21 +28,21 @@ Adobe Workfront於2022年4月6日發行API第16版。 API第16版具有第15版�
 ## 已修改的資源
 
 <!--* [AccessLevel (ACSLVL)](#accesslevel-acslvl)-->
-* [核准（核准）](#approval-approval)
+* [核准(APPROVAL)](#approval-approval)
 * [客戶偏好設定(CUSTPR)](#customerpreferences-custpr)
 * [外部截面(EXTSEC)](#externalsection-extsec)
-* [小時（小時）](#hour-hour)
-* [版面配置範本(UIMPL)](#layouttemplate-uitmpl)
+* [Hour (HOUR)](#hour-hour)
+* [LayoutTemplate (UITMPL)](#layouttemplate-uitmpl)
 * [附註（附註）](#note-note)
 * [Op任務/問題(OPTASK)](#note-note)
 * [專案（專案）](#project-proj)
 * [費率（費率）](#rate-rate)
-* [RichTextNote (RHNOTE)](#richtextnote-rhnote)
-* [角色/工作角色（角色）](#role--job-role-role)
+* [RTF備註(RHNOTE)](#richtextnote-rhnote)
+* [角色/工作角色(ROLE)](#role--job-role-role)
 * [任務（任務）](#task-task)
 * [時程表(TSHET)](#timesheet-tshet)
 * [UIFilter /篩選器(UIFT)](#uifilter--filter-uift)
-* [UIGroupBy/群組(UIGB)](#uigroupby--grouping-uigb)
+* [UIGroupBy /群組(UIGB)](#uigroupby--grouping-uigb)
 * [檢視/檢視(UIVW)](#uiview--view-uivw)
 * [使用者(USER)](#user-user)
 * [使用者附註(USRNOT)](#usernote-usrnot)
@@ -79,9 +79,9 @@ An AccessLevel object is associated with users, and describes the set of AccessL
 
 -->
 
-### 核准（核准）
+### 核准(APPROVAL)
 
-指定的工作專案（例如任務、檔案或時程表）可能要求主管或其他使用者登出該工作專案。 Approval物件代表在工作專案上簽核的動作。
+指定的工作專案，例如工作、檔案或時程表，可能需要主管或其他使用者登出該工作專案。 Approval物件代表在工作專案上簽核的動作。
 
 <table>
   <col/>
@@ -94,7 +94,7 @@ An AccessLevel object is associated with users, and describes the set of AccessL
           <li>
             <p><b>workPerDate</b>
             </p>
-            <p>此欄位已新增，並顯示您每天需要完成的工作分鐘數。 其格式為 <code>YYYY-MM-DD: (number of minutes)</code>，並考慮時區。</p>
+            <p>此欄位已新增，並顯示您每天需要執行的工作分鐘數。 其格式為 <code>YYYY-MM-DD: (number of minutes)</code>、和會考量時區。</p>
           </li>
         </ul>
       </td>
@@ -104,7 +104,7 @@ An AccessLevel object is associated with users, and describes the set of AccessL
 
 ### 指定任務(ASSGN)
 
-工作指派物件代表工作專案與指派處理該工作專案的使用者、團隊或群組之間的連線。
+工作指派物件代表工作專案與指派處理該工作專案的使用者、專案團隊或群組之間的連線。
 
 <table>
   <col/>
@@ -117,10 +117,10 @@ An AccessLevel object is associated with users, and describes the set of AccessL
           <li>
             <p><b>workPerDate</b>
             </p>
-            <p>此欄位已新增，並顯示您每天需要完成的工作分鐘數。 其格式為 <code>YYYY-MM-DD: (number of minutes)</code>，並考慮時區。</p>
+            <p>此欄位已新增，並顯示您每天需要執行的工作分鐘數。 其格式為 <code>YYYY-MM-DD: (number of minutes)</code>、和會考量時區。</p>
           </li>
           <li>
-            <p><b>isContured</b>
+            <p><b>isContoured</b>
             </p>
             <p>此欄位已新增，其為布林值，可反映指派是否已設定輪廓。 如果指派的每日分鐘數已在工作負載平衡器中編輯，則指派已設定為輪廓。</p>
           </li>
@@ -131,9 +131,9 @@ An AccessLevel object is associated with users, and describes the set of AccessL
 </table>
 
 
-### CustomEnum (CSTEM)
+### 自訂列舉(CSTEM)
 
-CustomEnum物件有助於將狀態代碼轉換為人類可讀的文字。
+CustomEnum物件可協助將狀態代碼轉換為人類看得懂的文字。
 
 <table>
   <col/>
@@ -209,19 +209,19 @@ ExternalSection物件是內嵌於Workfront報表中的外部網頁。
            <li>
             <p><b>calculateIframeURL</b>
             </p>
-            <p>新增此專案，並計算報表中內嵌之iFrame的URL。</p>
+            <p>新增此引數，並計算報表中內嵌之iFrame的URL。</p>
          </li>
           <li>
             <p><b>calculateIframeURLS</b>
             </p>
-            <p>新增此專案，並計算報表中內嵌之iFrame的URL。</p>
+            <p>新增此功能，並計算報表中內嵌iFrame的URL。</p>
          </li>
         </ul>
       </td>
     </tr>  </tbody>
 </table>
 
-### 小時（小時）
+### Hour (HOUR)
 
 Hour物件代表使用者在時程表上記錄的一小時。
 
@@ -234,9 +234,9 @@ Hour物件代表使用者在時程表上記錄的一小時。
       <td>
         <ul>
           <li>
-            <p><b>時程表小時識別碼</b>
+            <p><b>timesheethouridentifier</b>
             </p>
-            <p>已新增. 此引數用於識別以下專案建立的小時： <code>batchSave</code>. </p>
+            <p>已新增. 此引數用於識別與建立的小時 <code>batchSave</code>. </p>
            </li>
         </ul>
       </td>
@@ -300,7 +300,7 @@ Note物件是在Workfront物件上所做的註解或更新。
 
 ### Op任務/問題(OPTASK)
 
-OpTask物件通常稱為「問題」。 問題指工作專案，通常表示發生妨礙任務或專案完成的問題。 問題也可以是服務檯請求。 變更單、請求和錯誤也是問題。
+OpTask物件通常稱為「問題」。 問題指工作專案，通常表示發生問題而無法完成任務或專案。 問題也可以是服務檯請求。 變更單、請求和錯誤也是問題。
 
 <table>
   <col/>
@@ -313,7 +313,7 @@ OpTask物件通常稱為「問題」。 問題指工作專案，通常表示發�
           <li>
             <p><b>workPerDate</b>
             </p>
-            <p>此欄位已新增，並顯示您每天需要完成的工作分鐘數。 其格式為 <code>YYYY-MM-DD: (number of minutes)</code>，並考慮時區。</p>
+            <p>此欄位已新增，並顯示您每天需要執行的工作分鐘數。 其格式為 <code>YYYY-MM-DD: (number of minutes)</code>、和會考量時區。</p>
           </li>
         </ul>
       </td>
@@ -323,7 +323,7 @@ OpTask物件通常稱為「問題」。 問題指工作專案，通常表示發�
       <td>
         <ul>
            <li>
-            <p><b>assignmultiple</b>
+            <p><b>assignMultiple</b>
             </p>
             <p>此動作已新增欄位 <code>teamIDs</code> 以支援將多個團隊指派到一個任務或問題的功能。</p>
          </li>
@@ -346,7 +346,7 @@ OpTask物件通常稱為「問題」。 問題指工作專案，通常表示發�
       <td>
         <ul>
           <li>
-            <p><b>resourcePlannerBudgetHours</b>
+            <p><b>resourcePlannerBudgetedHours</b>
             </p>
             <p>此欄位已新增，並代表專案上所有預算時數的總和。</p>
           </li>
@@ -376,7 +376,7 @@ Rate物件代表Workfront中的計費費率。
            <p>這些引數已從Role物件移至Rate物件，因此Role和User物件可以有多個值（適用於個別的日期範圍）。</p>
           </li>
           <li><p><b>物件ID</b></p><p><b>物件代碼</b></p>
-          <p>這些引數代表Rate附加至之物件的ID和物件程式碼。
+          <p>這些引數代表Rate所附加物件的ID與物件程式碼。
           </li>
         </ul>
       </td>
@@ -395,13 +395,13 @@ Rate物件代表Workfront中的計費費率。
  </tbody>
 </table>
 
-### RichTextNote (RHNOTE)
+### RTF備註(RHNOTE)
 
-RichTextNote物件是在Workfront物件上所做的註解或更新，其中包括RTF文字，例如粗體或斜體文字。
+RtfNote物件是在Workfront物件上所做的註解或更新，其中包括RTF文字，例如粗體或斜體文字。
 
 RichTextNote物件已移除標幟 `REPORTABLE`.
 
-### 角色/工作角色（角色）
+### 角色/工作角色(ROLE)
 
 角色物件（工作角色）代表使用者可能填入的功能容量或技能集，例如設計師或產品經理。
 
@@ -438,7 +438,7 @@ Task物件代表作為達成最終目標（完成專案）的步驟而必須執�
           <li>
             <p><b>workPerDate</b>
             </p>
-            <p>此欄位已新增，並顯示您每天需要完成的工作分鐘數。 其格式為 <code>YYYY-MM-DD: (number of minutes)</code>，並考慮時區。</p>
+            <p>此欄位已新增，並顯示您每天需要執行的工作分鐘數。 其格式為 <code>YYYY-MM-DD: (number of minutes)</code>、和會考量時區。</p>
           </li>
         </ul>
       </td>
@@ -448,7 +448,7 @@ Task物件代表作為達成最終目標（完成專案）的步驟而必須執�
       <td>
         <ul>
            <li>
-            <p><b>assignmultiple</b>
+            <p><b>assignMultiple</b>
             </p>
             <p>此動作已新增欄位 <code>teamIDs</code> 以支援將多個團隊指派到一個任務或問題的功能。</p>
          </li>
@@ -476,7 +476,7 @@ Task物件代表作為達成最終目標（完成專案）的步驟而必須執�
             <p>此引數已移除標幟 <code>READ_ONLY</code>.</p>
          </li>
            <li>
-            <p><b>isEditable</b>
+            <p><b>可編輯</b>
             </p>
             <p>此引數已移除標幟 <code>READ_ONLY</code>.</p>
          </li>
@@ -505,7 +505,7 @@ Task物件代表作為達成最終目標（完成專案）的步驟而必須執�
           <li>
             <p><b>addJoinForNullableFields</b>
             </p>
-            <p>已新增此動作，並取得篩選查詢對應並新增 <code>allowingnull</code> 加入可空欄位。</p>
+            <p>此動作已新增，而且採用篩選器查詢對應並新增 <code>allowingnull</code> 加入可空欄位。</p>
          </li>
          <li>
             <p><b>disableSystemWideVisibility
@@ -520,7 +520,7 @@ Task物件代表作為達成最終目標（完成專案）的步驟而必須執�
     </tr>  </tbody>
 </table>
 
-### UIGroupBy/群組(UIGB)
+### UIGroupBy /群組(UIGB)
 
 
 <table>
@@ -649,7 +649,7 @@ Work物件是Task和OpTask都繼承的公用介面，並在兩者之間共用公
           <li>
             <p><b>workPerDate</b>
             </p>
-            <p>此欄位已新增，並顯示您每天需要完成的工作分鐘數。 其格式為 <code>YYYY-MM-DD: (number of minutes)</code>，並考慮時區。</p>
+            <p>此欄位已新增，並顯示您每天需要執行的工作分鐘數。 其格式為 <code>YYYY-MM-DD: (number of minutes)</code>、和會考量時區。</p>
           </li>
         </ul>
       </td>
