@@ -3,9 +3,9 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文件、教學課程和其他資源，了解如何在您的組織中實施並有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: 01f91f31cf97ece80d7f7b98a96e846b4c8ad914
+source-git-commit: 71ce412ead1590b8511ec4219d3ba72fbf32b98d
 workflow-type: tm+mt
-source-wordcount: '13232'
+source-wordcount: '13335'
 ht-degree: 1%
 
 ---
@@ -1978,6 +1978,41 @@ ht-degree: 1%
       * [自訂Adobe Workfront目標術語](workfront-goals/workfront-goals-settings/customize-wf-goals-terminology.md)
       * [在Workfront目標中共用目標](workfront-goals/workfront-goals-settings/share-a-goal.md)
       * [啟用Adobe Workfront目標通知](workfront-goals/workfront-goals-settings/wf-goals-notifications.md)
+* Adobe大師 {#adobe-maestro}
+   * [Adobe大師資訊](maestro/maestro-information.md)
+   * [Adobe大師概觀](maestro/maestro-overview.md)
+   * [Adobe大師發行活動](maestro/release-activity.md)
+   * Adobe大師架構 {#adobe-maestro-architecture}
+      * [架構資訊](maestro/architecture-and-fields/architecture-and-fields-information.md)
+      * [建立工作區](maestro/architecture-and-fields/create-workspaces.md)
+      * [記錄型別和分類概觀](maestro/architecture-and-fields/overview-of-record-types-and-taxonomies.md)
+      * [建立記錄型別](maestro/architecture-and-fields/create-record-types.md)
+      * [建立分類記錄型別](maestro/architecture-and-fields/create-a-taxonomy.md)
+      * [連線記錄型別](maestro/architecture-and-fields/connect-record-types.md)
+      * [建立欄位](maestro/architecture-and-fields/create-fields.md)
+      * [編輯記錄型別](maestro/architecture-and-fields/edit-record-types.md)
+      * [編輯欄位](maestro/architecture-and-fields/edit-fields.md)
+      * [刪除工作區](maestro/architecture-and-fields/delete-workspaces.md)
+      * [刪除記錄型別](maestro/architecture-and-fields/delete-record-types.md)
+      * [刪除欄位](maestro/architecture-and-fields/delete-fields.md)
+      * [連線記錄型別和記錄的範例](maestro/architecture-and-fields/example-connect-record-types-and-records.md)
+      * [工作區範本清單](maestro/architecture-and-fields/workspace-templates.md)
+   * Adobe大師存取 {#adobe-maestro-access}
+      * [存取資訊](maestro/access/access-information.md)
+      * [存取權總覽](maestro/access/access-overview.md)
+      * [授與Adobe大師的存取權](maestro/access/grant-access.md)
+   * AdobeMaestro記錄 {#adobe-maestro-records}
+      * [記錄資訊](maestro/records/records-information.md)
+      * [建立記錄](maestro/records/create-records.md)
+      * [連線記錄](maestro/records/connect-records.md)
+      * [編輯記錄](maestro/records/edit-records.md)
+      * [刪除記錄](maestro/records/delete-records.md)
+      * [共用記錄](maestro/records/share-records.md)
+   * Adobe大師檢視 {#adobe-maestro-views}
+      * [檢視資訊](maestro/views/views-information.md)
+      * [管理記錄檢視](maestro/views/manage-record-views.md)
+      * [管理表格檢視](maestro/views/manage-the-table-view.md)
+      * [管理時間表檢視](maestro/views/manage-the-timeline-view.md)
 * Adobe Workfront Fusion {#adobe-workfront-fusion}
    * [Adobe Workfront Fusion](workfront-fusion/workfront-fusion-2.md)
    * 開始使用Adobe Workfront Fusion {#get-started-with-workfront-fusion}
