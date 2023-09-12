@@ -9,14 +9,35 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 4c487598-2066-4507-8dfe-1a54d38f5eea
-source-git-commit: 006df3f8c391596cd0c769df5d7eb843949b4e01
+source-git-commit: af869fc8f57458f0f006ab86d6c19fe07f3eb81b
 workflow-type: tm+mt
-source-wordcount: '666'
+source-wordcount: '816'
 ht-degree: 0%
 
 ---
 
 # 藍圖概觀
+
+藍圖是一組Workfront物件，可處理Workfront中的常見使用案例。 您可以下載並安裝Blueprint，然後針對您的特定使用案例來設定物件。
+
+>[!INFO]
+>
+>範例:
+>
+>* **人力資源組織設定**
+>
+>   此藍圖包含組織結構的設定，以展開至人力資源部門。
+>
+>* **新增員工IT檢查清單**
+>
+>   此Blueprint包含可組織新員工上線活動的範本。 使用此範本可讓IT團隊有效率地運作，提供積極的新員工體驗，並加快追蹤生產力。
+>
+>* **繼承執行個體基本概念檢查清單**
+>
+>    此Blueprint包含專案範本（或檢查清單），您可以利用問題、資源和連結的簡短清單進行檢視，以清楚瞭解Workfront執行個體的設定方式。 當您最近繼承Workfront執行個體並需要有關從何處開始的指引時，請使用此專案。
+>
+>若要檢閱目前的藍圖，請參閱 [可用藍圖清單](/help/quicksilver/administration-and-setup/blueprints/list-of-available-blueprints.md).
+
 
 藍圖提供基本的建置組塊，協助您建立隨成長的工作管理系統。 系統管理員可以瀏覽Blueprint目錄並安裝現成的專案範本、儀表板和組織結構。 其他使用者可以瀏覽目錄並請求安裝Blueprint。 如需詳細資訊，請參閱 [瀏覽藍圖目錄並請求安裝藍圖](../../administration-and-setup/blueprints/browse-catalog.md).
 
