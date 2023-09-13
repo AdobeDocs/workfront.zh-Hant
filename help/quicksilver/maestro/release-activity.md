@@ -3,9 +3,9 @@ title: Adobe大師發行活動
 description: 使用Maestro建立自訂物件、欄位和工作區。
 hidefromtoc: true
 hide: true
-source-git-commit: 6e219089f68db651f5eb8369e3c6df83b6cd823b
+source-git-commit: b774a74863bb35e3477a69ff11189c40a6d66437
 workflow-type: tm+mt
-source-wordcount: '1432'
+source-wordcount: '1431'
 ht-degree: 0%
 
 ---
@@ -155,7 +155,7 @@ ht-degree: 0%
 
 預覽和生產： 2023年7月13日
 
-您現在可以將「核取方塊」欄位型別新增至Maestro記錄型別。 您可以使用核取方塊欄位型別，將單一核取方塊選項新增至記錄。 您可以使用此欄位來指示該特定記錄的特定屬性或狀態。 例如，您可以將其用作追蹤完成、核准或每個記錄的任何其他二進位屬性的標幟。
+您現在可以將「核取方塊」欄位型別新增至Maestro記錄型別。 您可以使用Checkbox-type欄位，將單一核取方塊選項新增到記錄。 您可以使用此欄位來指示該特定記錄的特定屬性或狀態。 例如，您可以將其用作追蹤完成、核准或每個記錄的任何其他二進位屬性的標幟。
 
 ## 2023年6月26日起一週
 

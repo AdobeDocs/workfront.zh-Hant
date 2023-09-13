@@ -7,10 +7,10 @@ author: Alina
 feature: Product Announcements
 role: User
 exl-id: f750b35b-8021-4cc1-81d6-e1ece2530438
-source-git-commit: 71948e70c49ee3b3d678fb54847ff79f2632bd84
+source-git-commit: b774a74863bb35e3477a69ff11189c40a6d66437
 workflow-type: tm+mt
-source-wordcount: '1024'
-ht-degree: 2%
+source-wordcount: '1020'
+ht-degree: 3%
 
 ---
 
@@ -54,9 +54,9 @@ For additional resources for the new commenting experience, also see the followi
 
 >[!NOTE]
 >
->以下列出的物件僅包含過去一年來的註釋和系統更新（從2022年6月開始），可在啟用測試版體驗時取得。
+>以下列出的物件只有新註釋體驗中提供的從2019年1月1日開始的註釋和系統更新。
 >
->在2022年6月之前，當您檢視目前體驗中的更新區段時，可以檢視這些物件的評論和系統更新：
+>在2019年1月1日之前檢視目前體驗中的「更新」區段時，您可以檢視這些物件的註解和系統更新：
 >
 >* 問題
 >* 專案

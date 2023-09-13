@@ -7,10 +7,10 @@ description: 「移交日期」是任務可供工作的日期。 這通常表示
 author: Alina
 feature: Work Management
 exl-id: caf2dbba-5311-418d-8c82-ddcc256f9926
-source-git-commit: 709b36f4471e5576e45ed918783216a1f7f4abac
+source-git-commit: b774a74863bb35e3477a69ff11189c40a6d66437
 workflow-type: tm+mt
-source-wordcount: '617'
-ht-degree: 3%
+source-wordcount: '723'
+ht-degree: 2%
 
 ---
 
@@ -52,8 +52,8 @@ Workfront使用下列規則來計算任務的移交日期：
 
 * **當任務沒有前置任務和**：
 
-   * **計劃開始日期是過去的日期**：移交日期與專案的計劃開始日期相同。
-   * **計劃開始日期是將來的日期（目前日期之後的任何日期）**：移交日期與任務的計劃開始日期相同。
+   * **計劃開始日期是過去的日期**：如果任務沒有強制的限制設定，則移交日期與專案的計劃開始日期相同。 若是任務有強制限制的情況，請參閱下方的「當任務有計畫日期的強制限制時」一節。
+   * **計劃開始日期是將來的日期（目前日期之後的任何日期）**：如果任務沒有強制的限制設定，則移交日期與任務的計劃開始日期相同。 若是任務有強制限制的情況，請參閱下方的「當任務有計畫日期的強制限制時」一節。
 
 >[!NOTE]
 >
@@ -75,9 +75,16 @@ Workfront使用下列規則來計算任務的移交日期：
 
   存在下列情況：
 
-   * 當任務的限製為「必須開始於」或「開始時間不得早於」時，「移交日期」為「限制日期」，除非任務有「實際開始日期」。 如果任務有實際開始日期，則移交日期是前置任務的實際完成日期。
-   * 當任務具有「必須完成於」或「開始不得晚於」的限制時，無論任務上是否有「實際開始日期」，「移交日期」一律為前置任務的「實際完成日期」。
-   * 當任務具有固定日期的限制時，無論是否有前置任務，也無論前置任務是否已完成，移交日期都是任務的計劃開始日期。
+   * **當任務的限制必須開始於或開始不得早於**：如果任務限制日期是過去日期，但任務上沒有實際開始日期（任務尚未開始），則移交日期是任務可以開始運作的最近可能日期。 如果任務已開始，則移交日期等於專案的開始日期。
+   * **當任務的限製為必須完成於或開始不得晚於**：如果任務限制日期在未來，且任務沒有實際開始日期（任務尚未開始），則移交日期是任務的計劃開始日期。 如果任務上有「實際開始日期」，則「移交日期」為專案的開始日期。
+   * **當任務具有固定日期的限制時**：移交日期是任務的計劃開始日期，無論任務是否有前置任務，亦無論前置任務是否已完成。
+
+<!--these are old descriptions, edited by Anna As. on August 25, 2023 in this issue - https://experience.adobe.com/#/@adobeinternalworkfront/so:hub-Hub/workfront/issue/64c0032500018fabd4fc484167eb10dc/updates
+   * When the task has a constraint of Must Start On or Start No Earlier Than, the Handoff Date is the Constraint date, unless there is an Actual Start Date on the task. If there is an Actual Start Date on the task, the Handoff Date is the Actual Completion Date of the predecessor.
+   * When the task has a constraint of Must Finish On or Start No Later Than, the Handoff Date is always the Actual Completion Date of the predecessor, regardless of whether there is an Actual Start Date on the task or not. 
+   * When the task has a constraint of Fixed Dates, the Handoff Date is the Planned Start Date of the task, regardless of whether it has a predecessor or not and regardless of whether the predecessor is completed or not.
+
+-->
 
 ## 尋找移交日期
 

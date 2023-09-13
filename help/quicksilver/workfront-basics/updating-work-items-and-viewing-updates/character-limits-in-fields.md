@@ -3,32 +3,34 @@ content-type: reference
 product-area: projects
 navigation-topic: update-work-items-and-view-updates
 title: 欄位中的字元限制
-description: Adobe Workfront中的某些欄位會限制欄位中可包含的字元數。 Workfront會索引內容，以便稍後可以搜尋。 強制執行字元限制，以確保Workfront系統的高品質效能。
+description: Adobe Workfront中的某些欄位會限制可包含在該欄位中的字元數。 Workfront會編制內容索引，以便日後可以搜尋。 已強制執行字元限制，以確保Workfront系統的高品質效能。
 author: Lisa and Alina
 feature: Get Started with Workfront
 exl-id: f09dadf4-24f2-46d9-85ae-6081731d917d
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: b774a74863bb35e3477a69ff11189c40a6d66437
 workflow-type: tm+mt
-source-wordcount: '237'
+source-wordcount: '248'
 ht-degree: 5%
 
 ---
 
 # 欄位中的字元限制
 
-Adobe Workfront中的某些欄位會限制欄位中可包含的字元數。 Workfront會索引內容，以便稍後可以搜尋。 強制執行字元限制，以確保Workfront系統的高品質效能。
+Adobe Workfront中的某些欄位會限制可包含在該欄位中的字元數。 Workfront會編制內容索引，以便日後可以搜尋。 已強制執行字元限制，以確保Workfront系統的高品質效能。
 
-接近限制時，會出現計數器。 超過限制時，會強調顯示多餘的字元，且您無法張貼文字。 刪除字元，直到達到允許的限制。
+當您接近限制時，計數器會出現。 當您超過限制時，多餘的字元會反白顯示，您無法張貼文字。 刪除字元，直到您超出允許限製為止。
 
-字元限制會因您使用的欄位而異。 下列限制適用於使用拉丁字母（如英文）的語言。 對於包含延伸字元或雙位元組字元的語言，上限可能較低。
+字元限制會依您使用的欄位而有所不同。 下列限制適用於使用拉丁字母（例如英文）的語言。 包含延伸字元或雙位元組字元的語言的上限可能較低。
+
+Workfront或群組管理員無法修改欄位中的字元限制。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <thead> 
   <tr> 
-   <th> <p><strong>欄位類型</strong> </p> </th> 
-   <th> <p><strong>字元限制(</strong><strong>包括空格)</strong> </p> </th> 
+   <th> <p><strong>欄位型別</strong> </p> </th> 
+   <th> <p><strong>字元限制(</strong><strong>包含空間)</strong> </p> </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -47,11 +49,11 @@ Adobe Workfront中的某些欄位會限制欄位中可包含的字元數。 Work
    <p> 使用API時為4,000</p></td> 
   </tr> 
   <tr> 
-   <td> <p>說明（文檔、任務、問題、產品組合、方案和項目）</p> </td> 
+   <td> <p>說明（檔案、工作、問題、投資組合、方案和專案）</p> </td> 
    <td> <p>4,000</p> </td> 
   </tr> 
   <tr> 
-   <td>自訂表單中的說明欄位</td> 
+   <td>自訂表格中的說明欄位</td> 
    <td>4,000</td> 
   </tr> 
   <tr> 
