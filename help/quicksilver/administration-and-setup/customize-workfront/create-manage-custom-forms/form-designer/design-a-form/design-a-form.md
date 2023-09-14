@@ -8,14 +8,16 @@ author: Courtney
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+source-git-commit: 365d4b9e6f88031ca92d37df0f89923911484525
 workflow-type: tm+mt
-source-wordcount: '3803'
+source-wordcount: '4675'
 ht-degree: 4%
 
 ---
 
 # 使用表單設計工具設計表單
+
+{{preview-and-fast-release}}
 
 您可以使用表單設計工具來設計自訂表單。 您可以將自訂表單附加至不同的Workfront物件，以擷取這些物件的相關資料。
 
@@ -491,6 +493,90 @@ ht-degree: 4%
    或
 
    按一下 **儲存並關閉**.
+
+<div class="preview">
+
+### 新增外部查詢欄位
+
+外部查詢欄位會呼叫外部API，並在下拉式欄位中傳回值作為選項。 使用自訂表單附加至之物件的使用者可以從下拉式清單中選取這些選項之一。
+
+若要新增外部查詢：
+
+1. 在畫面左側，尋找 **外部查詢** 並將其拖曳至畫布上的區段。
+1. 在畫面右側，設定自訂欄位的選項：
+
+   <table style="table-layout:auto"> 
+    <col> 
+    <col> 
+    <tbody> 
+     <tr> 
+      <td role="rowheader">標籤</td> 
+      <td> <p>（必要）輸入描述性標籤，以在自訂欄位上方顯示。 您可以隨時變更標籤。</p> <p><b>重要</b>：請避免在此標籤中使用特殊字元。 它們在報表中無法正確顯示。</p> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">名稱</td> 
+      <td> <p>（必要）此名稱是系統識別自訂欄位的方式。</p> <p>當您第一次設定自訂欄位並輸入標籤時，會自動填入「名稱」欄位以符合它。 但是「標籤」和「名稱」欄位不同步，這可讓您自由地變更使用者看到的標籤，而不必變更系統看到的名稱。</p> 
+      <p><b>重要</b>：   
+      <ul> 
+      <li>雖然可以這樣做，但建議您不要在您或其他使用者開始使用Workfront中的自訂表單後變更此名稱。 如果這樣做，系統將不再識別現在可能在Workfront其他區域參考該欄位的自訂欄位。 <p>例如，如果您新增自訂欄位至報表，之後又變更其名稱，Workfront將無法辨識報表中的自訂欄位，且除非您使用新名稱將其重新新增至報表，否則將無法正常運作。</p> </li>
+      <li> <p>建議您不要輸入已用於內建Workfront欄位的名稱。</p> </li>
+      <li><p>建議您不要在自訂欄位名稱中使用句號/點字元，以防止在Workfront的不同區域使用欄位時發生錯誤。</p></li>
+      </ul> <p>每個自訂欄位名稱在貴組織的Workfront例項中必須是唯一的。 如此一來，您便可重複使用已針對其他自訂表單建立的表單。 如需詳細資訊，請參閱 <a href="#Add" class="MCXref xref">新增自訂欄位至自訂表單</a> 本文章內容。</p> </td>
+     </tr> 
+      <td role="rowheader">指示</td> 
+      <td> <p>輸入自訂欄位的任何其他資訊。 當使用者填寫自訂表單時，可以將滑鼠指標暫留在問號圖示上，以檢視包含您在此處輸入資訊的工具提示。</p> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">格式</td>
+      <td><p>選取將在自訂欄位中擷取的資料型別。</p>
+      <p><strong>附註:</strong></p>
+      <ul><li>您可以在儲存表單後變更格式型別，但有一個限制：物件上的所有現有值都必須能夠轉換為新型別。 （例如，如果格式型別是Text，而物件正在儲存「abc」值，則您無法轉換欄位，且會收到系統無法將「abc」轉換為數字/貨幣的錯誤。） 如果您要在數學計算中使用欄位，請務必選取「數字」或「貨幣」格式。</li>
+      <li>當您選取「數字」或「貨幣」時，系統會自動截斷以0開頭的數字。</li></ul></td>
+     </tr> 
+     <tr> 
+      <td role="rowheader">基本 API URL</td> 
+      <td><p>輸入或貼上API的URL。</p><p>API URL必須傳回您要在下拉式清單中顯示的選項JSON內容。 您可以使用JSON路徑欄位，從傳回的JSON中選取特定值作為下拉式選項。</p><p>輸入API URL時，您可以選擇在URL中傳遞下列值：</p>
+      <ul><li>$$query — 這代表一般使用者在欄位中輸入的搜尋文字，可讓您為一般使用者實作查詢篩選。 （使用者會在下拉式清單中搜尋值。）</li>
+      <li>{fieldName}  — 其中fieldName是Workfront中的任何自訂或原生欄位。 這樣，當您將已選取欄位的值傳遞至外部查詢欄位以篩選下拉選項時，您就可以實作階層式下拉選項篩選器。 （例如，「地區」欄位已存在於表單上，而您正在將國家/地區清單從API縮小至特定地區。）</li></ul>
+      <p><strong>注意：</strong> 檢閱您正在使用的API的檔案，以瞭解您可以定義的特定查詢。</p></td> 
+     </tr>
+     <tr> 
+      <td role="rowheader">HTTP方法</td> 
+      <td>選取 <strong>Get</strong>， <strong>Post</strong>，或 <strong>Put</strong> 用於方法。</td> 
+     </tr>
+     <tr> 
+      <td role="rowheader">JSON路徑</td>
+      <td><p>輸入或貼上API的JSON路徑。</p> <p>此選項允許從API URL傳回的JSON擷取資料。 這可當作選取要讓JSON內的哪些值出現在下拉選項中的方式。</p><p>例如，如果您的API URL傳回此格式的JSON：</br>
+      <pre>
+      { data： { { name： "USA"}， { name： "Canada"} }
+      </pre>
+      </p>
+      <p>然後您可以使用「$.data[*].name」選取美國和加拿大作為下拉式清單選項。</p> <p>如需JSON路徑的相關資訊，以及確保您撰寫正確的JSON路徑，請參閱 <a href="https://jsonpath.com/">https://jsonpath.com/</a>.</p></td>
+     </tr>
+     <tr> 
+      <td role="rowheader">標頭</td>
+      <td>按一下 <strong>新增頁首</strong>，然後輸入或貼上使用API驗證所需的金鑰值組。</td>
+     </tr>
+    </tbody>
+   </table>
+
+1. 若要儲存變更，請按一下 **套用** 並移至另一個區段，以繼續建立您的表單。
+
+   或
+
+   按一下 **儲存並關閉**.
+
+>[!NOTE]
+>
+>外部API呼叫的技術限制：
+>
+>* 選項數量上限： 200 （只會顯示傳回JSON的前200個選項）
+>* 逾時： 3秒
+>* 重試次數： 3
+>* 重試之間的等待持續時間：500毫秒
+>* 預期的回應狀態： 2xx
+
+</div>
 
 ### 新增影像、PDF和影片
 
