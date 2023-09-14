@@ -3,9 +3,9 @@ title: 連線記錄型別
 description: 指示個別記錄型別如何彼此關聯的一種方法是連線它們。 此外，您也可以將Maestro記錄型別與其他應用程式的物件型別連線起來，以強化使用者的體驗，並將他們的焦點放在一個應用程式中。
 hidefromtoc: true
 hide: true
-source-git-commit: 6e219089f68db651f5eb8369e3c6df83b6cd823b
+source-git-commit: f058c369bdb3b991910d3a820895de73ea4709f0
 workflow-type: tm+mt
-source-wordcount: '1743'
+source-wordcount: '1742'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ author: Alina
 
 >[!IMPORTANT]
 >
->目前，Adobe大師是封閉式測試計畫的一部分，向有限數量的客戶開放。
+>目前，Adobe大師是測試版計畫的一部分，向有限數量的客戶開放。
 >
 >如需加入Maestro測試版計畫的詳細資訊，請聯絡您的客戶代表。
 >

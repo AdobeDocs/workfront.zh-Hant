@@ -3,9 +3,9 @@ title: 存取權總覽
 description: 組織中的所有使用者都可以存取Adobe大師。 目前，沒有與使用者或Maestro中的資訊相關聯的存取層級或許可權。
 hidefromtoc: true
 hide: true
-source-git-commit: 71ce412ead1590b8511ec4219d3ba72fbf32b98d
+source-git-commit: f058c369bdb3b991910d3a820895de73ea4709f0
 workflow-type: tm+mt
-source-wordcount: '195'
+source-wordcount: '214'
 ht-degree: 2%
 
 ---
@@ -17,7 +17,11 @@ ht-degree: 2%
 
 >[!IMPORTANT]
 >
->目前，Adobe大師是封閉式測試計畫的一部分，向有限數量的客戶開放。
+>目前，Adobe大師是測試版計畫的一部分，向有限數量的客戶開放。
+>
+>如需加入Maestro測試版計畫的詳細資訊，請聯絡您的客戶代表。
+>
+>如需詳細資訊，請參閱 [Adobe大師概觀](../maestro-overview.md).
 
 <!-- the table will change after we implement access levels/ permissions for Maestro-->
 <!-- fix the formatting on the table - some lines are way too spaced out-->

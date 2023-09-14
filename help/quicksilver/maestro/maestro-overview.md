@@ -3,9 +3,9 @@ title: Adobe大師概觀
 description: Adobe大師是Adobe Workfront的新產品。 您可以建立可完全自訂的工作區，以定義符合企業內每個組織單位需求的工作流程。
 hidefromtoc: true
 hide: true
-source-git-commit: 71ce412ead1590b8511ec4219d3ba72fbf32b98d
+source-git-commit: f058c369bdb3b991910d3a820895de73ea4709f0
 workflow-type: tm+mt
-source-wordcount: '1805'
+source-wordcount: '1811'
 ht-degree: 1%
 
 ---
@@ -21,11 +21,14 @@ ht-degree: 1%
 
 <!-- remove the references to closed beta from the entire article-->
 
+<!--update the video in the IMPORTANT below, when we have something better, especially after Open Beta - remove it-->
+
 >[!IMPORTANT]
 >
->目前，Adobe大師是封閉式測試計畫的一部分，向有限數量的客戶開放。
+>目前，Adobe大師是測試版計畫的一部分，向有限數量的客戶開放。
 >
 >如需加入Maestro測試版計畫的詳細資訊，請聯絡您的客戶代表。
+>[觀看Adobe大師的影片展示](https://video.tv.adobe.com/v/3424253/){target=_blank}
 
 ## Adobe Maestro簡介
 
