@@ -6,9 +6,9 @@ description: 您不在辦公室時，可以暫時委派指派給您的工作。 
 author: Alina
 feature: Work Management
 exl-id: 42b3112f-4f39-4078-aaa0-623559384a12
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
 workflow-type: tm+mt
-source-wordcount: '1487'
+source-wordcount: '1485'
 ht-degree: 1%
 
 ---
@@ -150,7 +150,7 @@ I wrote thhis as a "Manage..." article and I did not add three separate articles
 
    * 如果您選取作為委派的使用者已啟用其事件通知，則該使用者會收到有關委派的電子郵件。
 
-     如需啟用個人電子郵件通知的相關資訊，請參閱 [啟用或停用您自己的事件通知](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+     如需啟用個人電子郵件通知的相關資訊，請參閱 [修改您自己的電子郵件通知](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
 
 

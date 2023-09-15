@@ -4,14 +4,14 @@ product-area: system-administration
 keywords: 修改，電子郵件，通知，設定，批次，大量編輯，設定，多個，使用者
 navigation-topic: emails-administration
 title: 修改使用者設定檔中的電子郵件通知設定
-description: 如果您是Adobe Workfront管理員或您具有允許編輯其他使用者設定的「規劃者」存取層級，您可以一次為多個使用者設定通知設定。 這包括指定使用者在發生事件時收到通知，還是如Adobe Workfront通知中所述，以每日摘要電子郵件收到。 如需有關編輯使用者所需存取層級的資訊，請參閱授予使用者存取權。
-author: Lisa, Caroline
+description: 本文為Workfront或群組管理員提供有關如何更新其他使用者的電子郵件通知的資訊。
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 658f97cd-0500-421d-9c89-26041ca59655
-source-git-commit: 91eb8770c07396b5772029e9d2370f0b1f10d4a1
+source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
 workflow-type: tm+mt
-source-wordcount: '538'
+source-wordcount: '487'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->您也可以一次為一位使用者設定電子郵件通知，包括您自己的設定檔。 如需詳細資訊，請參閱 [啟用或停用您自己的事件通知](../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+>您也可以一次為一位使用者設定電子郵件通知，包括您自己的設定檔。 如需詳細資訊，請參閱 [修改您自己的電子郵件通知](../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
 
 ## 存取需求

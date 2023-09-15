@@ -8,9 +8,9 @@ author: Caroline
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: c687c4a8-a99d-4ac0-b785-5bfe503a7e2c
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
 workflow-type: tm+mt
-source-wordcount: '917'
+source-wordcount: '933'
 ht-degree: 1%
 
 ---
@@ -18,6 +18,10 @@ ht-degree: 1%
 # 使用舊版表單產生器新增顯示邏輯和略過邏輯至自訂表單
 
 您可以根據使用者在填寫自訂表單時所做的選擇，決定應顯示或略過哪些區段。
+
+>[!NOTE]
+>
+>邏輯僅適用於一個表單，且不能以來自不同表單的選擇為基礎。
 
 ## 存取需求
 

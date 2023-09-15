@@ -7,9 +7,9 @@ description: Adobe Workfront展示板會在您將您新增至展示板以及將�
 author: Lisa
 feature: Agile
 exl-id: 7ec9f9cc-274c-4253-8441-d7ffe9afd78d
-source-git-commit: 9a9b64ce2bacbffbde40a15a201c4be35dfc3097
+source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
 workflow-type: tm+mt
-source-wordcount: '204'
+source-wordcount: '202'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 [!DNL Adobe Workfront] [!UICONTROL 展示板] 會在您將您新增至展示板以及將卡片指派給您時傳送電子郵件給您。 通知預設為開啟，您可以在面板偏好設定中選取要接收哪些電子郵件。
 
-根據您的電子郵件通知設定，當您在已連線卡片上的評論中被標籤時，也會收到電子郵件。 如需詳細資訊，請參閱 [啟用或停用您自己的事件通知](/help/quicksilver/workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md). 目前，在臨時資訊卡上標籤為評論的使用者不會收到電子郵件通知。
+根據您的電子郵件通知設定，當您在已連線卡片上的評論中被標籤時，也會收到電子郵件。 如需詳細資訊，請參閱 [修改您自己的電子郵件通知](/help/quicksilver/workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md). 目前，在臨時資訊卡上標籤為評論的使用者不會收到電子郵件通知。
 
 ## 存取需求
 

@@ -6,9 +6,9 @@ description: 在Adobe Workfront物件上提供更新註解時，專案上的所�
 author: Alina
 feature: Get Started with Workfront
 exl-id: c4c0d74f-ac50-4fc5-89d6-28f004c25b29
-source-git-commit: 3a2745437e00ac968f2a4590be2637dbc01594ad
+source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
 workflow-type: tm+mt
-source-wordcount: '1626'
+source-wordcount: '1620'
 ht-degree: 0%
 
 ---
@@ -70,7 +70,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->使用者必須在他們的設定檔中啟用個人通知，以便他們接收電子郵件通知。 如需詳細資訊，請參閱 [啟用或停用您自己的事件通知](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+>使用者必須在他們的設定檔中啟用個人通知，以便他們接收電子郵件通知。 如需詳細資訊，請參閱 [修改您自己的電子郵件通知](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 >
 
 如需有關將更新新增至Workfront物件的資訊，請參閱 [更新工作](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
@@ -150,7 +150,7 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >列在「通知」欄位中的所有使用者和團隊成員都會收到更新的應用程式內通知，且可能會收到電子郵件，具體取決於其電子郵件通知設定的設定。 在評論或回覆中標籤自己的使用者會收到該評論或回覆的通知，並可在其餘對話的「通知」欄位中看到其名稱，但除非他們再次標籤自己，否則不會收到其他通知。 如需詳細資訊，請參閱 [啟用或停用您自己的事件通知](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md) 和 [為系統中的每個人設定事件通知](../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md).
+   >列在「通知」欄位中的所有使用者和團隊成員都會收到更新的應用程式內通知，且可能會收到電子郵件，具體取決於其電子郵件通知設定的設定。 在評論或回覆中標籤自己的使用者會收到該評論或回覆的通知，並可在其餘對話的「通知」欄位中看到其名稱，但除非他們再次標籤自己，否則不會收到其他通知。 如需詳細資訊，請參閱 [修改您自己的電子郵件通知](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md) 和 [為系統中的每個人設定事件通知](../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md).
 
 1. 按一下 **更新**.\
    更新中包含的使用者會自動被授予物件的檢視許可權，而且可以檢視和回應對物件所做的更新。
@@ -208,7 +208,7 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >「標籤人員或團隊」欄位中列出的所有使用者和團隊成員都會收到更新的應用程式內通知，且可能會收到電子郵件，具體取決於其電子郵件通知設定的設定。 在評論或回覆中標籤自己的使用者會收到該評論或回覆的通知，並可以在中看到他們的名稱被列為對話串剩餘部分的成員，但他們不會收到另一個通知，除非他們再次標籤自己。 如需詳細資訊，請參閱 [啟用或停用您自己的事件通知](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md) 和 [為系統中的每個人設定事件通知](../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md).
+   >「標籤人員或團隊」欄位中列出的所有使用者和團隊成員都會收到更新的應用程式內通知，且可能會收到電子郵件，具體取決於其電子郵件通知設定的設定。 在評論或回覆中標籤自己的使用者會收到該評論或回覆的通知，並可以在中看到他們的名稱被列為對話串剩餘部分的成員，但他們不會收到另一個通知，除非他們再次標籤自己。 如需詳細資訊，請參閱 [修改您自己的電子郵件通知](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md) 和 [為系統中的每個人設定事件通知](../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md).
 
 1. 按一下 **提交**.\
    更新中包含的使用者會自動被授予物件的檢視許可權，而且可以檢視和回應對物件所做的更新。

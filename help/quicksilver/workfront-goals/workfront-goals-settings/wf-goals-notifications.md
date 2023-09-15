@@ -3,24 +3,24 @@ content-type: reference
 product-previous: workfront-goals
 navigation-topic: workfront-goals-settings
 title: 啟用Adobe Workfront目標通知
-description: Adobe Workfront目標隨附一組預先定義的事件通知，您可為您的帳戶啟用。 每當符合事件定義的條件時，這些事件通知就會觸發電子郵件通訊。
+description: Adobe Workfront目標隨附一組預先定義的事件通知，您可以為您的帳戶啟用這些通知。 每次符合事件定義的條件時，這些事件通知都會觸發電子郵件通訊。
 author: Alina
 feature: Workfront Goals
 exl-id: 40f9b9a3-c829-480b-9897-099b68389cd4
-source-git-commit: a9a43cba127917be5c030b79fa099a960c1dcd56
+source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
 workflow-type: tm+mt
-source-wordcount: '150'
+source-wordcount: '148'
 ht-degree: 0%
 
 ---
 
 # 啟用Adobe Workfront目標通知
 
-Adobe Workfront目標隨附一組事件通知，您可以為您的帳戶啟用。 每當符合事件定義的條件時，這些事件通知就會觸發電子郵件通訊。
+Adobe Workfront目標隨附一組事件通知，您可以為您的帳戶啟用這些通知。 每次符合事件定義的條件時，這些事件通知都會觸發電子郵件通訊。
 
-如需可針對Workfront目標啟用哪些通知的詳細資訊，請參閱 [通知：目標](../../workfront-basics/using-notifications/notifications-goals.md).
+如需可為Workfront目標啟用哪些通知的詳細資訊，請參閱 [通知：目標](../../workfront-basics/using-notifications/notifications-goals.md).
 
-如需在Adobe Workfront中管理通知的相關資訊，請參閱 [啟用或停用您自己的事件通知](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+如需有關在Adobe Workfront中管理通知的資訊，請參閱 [修改您自己的電子郵件通知](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -121,6 +121,6 @@ A personal goal is a goal where you are designated as the owner.
 
 ## Workfront目標電子郵件通知範例
 
-當您啟用的通知所定義的事件發生時，您會收到描述該事件的電子郵件。 以下是電子郵件通知您被指派為新目標的「擁有者」的範例：
+當由您啟用的通知所定義的事件發生時，您會收到一封說明該事件的電子郵件。 以下範例是電子郵件通知，您被指派為新目標的「所有者」：
 
 ![](assets/wf-align-notification-email-350x164.png)

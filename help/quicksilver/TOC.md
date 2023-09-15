@@ -3,9 +3,9 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文件、教學課程和其他資源，了解如何在您的組織中實施並有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: 701b3c95929259cc01b97866b61a8c4c680ee5a7
+source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
 workflow-type: tm+mt
-source-wordcount: '13340'
+source-wordcount: '13338'
 ht-degree: 1%
 
 ---
@@ -863,7 +863,7 @@ ht-degree: 1%
    * 使用通知 {#use-notifications}
       * [使用通知](workfront-basics/using-notifications/use-notifications.md)
       * [Adobe Workfront通知](workfront-basics/using-notifications/wf-notifications.md)
-      * [啟用或停用您自己的事件通知](workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md)
+      * [修改您自己的電子郵件通知](workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md)
       * [訂閱Adobe Workfront中的專案](workfront-basics/using-notifications/subscribe-to-items-in-workfront.md)
       * [應用程式內通知概觀](workfront-basics/using-notifications/in-app-notifications-overview.md)
       * [檢視及管理應用程式內通知](workfront-basics/using-notifications/view-and-manage-in-app-notifications.md)
