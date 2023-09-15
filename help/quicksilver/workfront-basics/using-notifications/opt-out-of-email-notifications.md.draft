@@ -19,7 +19,7 @@ Depending on the email you are receiving, you have the following options to chan
  <tbody> 
   <tr> 
    <td role="rowheader"><strong>Change Notifications Settings</strong> </td> 
-   <td> <p>This option appears on email notifications generated instantly that do not have a daily digest option, or by daily digest email notifications.&nbsp;Select this to navigate to Adobe Workfront to change your notifications settings.</p> <p>For more information on changing notifications settings, see <a href="../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md" class="MCXref xref">Activate or deactivate your own event notifications</a>.</p> </td> 
+   <td> <p>This option appears on email notifications generated instantly that do not have a daily digest option, or by daily digest email notifications.&nbsp;Select this to navigate to Adobe Workfront to change your notifications settings.</p> <p>For more information on changing notifications settings, see <a href="../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md" class="MCXref xref">Modify your own email notifications</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Add This to a Daily Digest</strong> </td> 
