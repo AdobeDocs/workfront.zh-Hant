@@ -2,89 +2,103 @@
 content-type: reference
 product-area: reporting
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 按多選自定義欄位對報表進行分組
-description: 您可以按Adobe Workfront報告中多選自定義欄位中的值進行分組。 多選自定義欄位的示例有 — EDIT ME。
+title: 依多選自訂欄位將報表分組
+description: 您只能使用文字模式，在Adobe Workfront報表中依多選自訂欄位中的值分組。
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: 530dff59-0d4c-490e-b464-1d3bb1d0f36f
-source-git-commit: 661f925b4e485069122ef4278b2914d206387974
+source-git-commit: b0447fd2ea9419fabcc21a1131910485c18b75d0
 workflow-type: tm+mt
-source-wordcount: '485'
+source-wordcount: '541'
 ht-degree: 0%
 
 ---
 
-# 按多選自定義欄位對報表進行分組
+# 依多選自訂欄位將報表分組
 
-您可以按Adobe Workfront報告中多選自定義欄位中的值進行分組。 多選自定義欄位的示例有：
+您只能使用文字模式，在Adobe Workfront報表中依多選自訂欄位中的值分組。
+
+多選自訂欄位的範例包括：
 
 * 核取方塊
-* 多選下拉菜單
+* 多選下拉式功能表
 
-只能使用文本模式按此類型的欄位進行分組。 有關使用文本模式的資訊，請參閱文章 [文本模式概述](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md)。
+如需有關使用文字模式的資訊，請參閱文章 [文字模式概觀](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).
 
->[!NOTE]
->
->不能通過多選自定義欄位繪製報表圖表。 您需要建立引用多選自定義欄位的附加計算欄位，以便還按多選自定義欄位的值繪製報表圖表。 有關詳細資訊，請參見 [按多選自定義欄位繪製報表圖表](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/chart-report-by-multi-select-custom-field.md)。
+## 依多選自訂欄位分組時的注意事項
 
-## 訪問要求
+* 您無法繪製使用文字模式分組的報表圖表。 您需要建立參考多選自訂欄位的額外計算欄位，以便同時依據多選自訂欄位的值繪製報表圖表。
 
-您必須具有以下訪問權限才能執行本文中的步驟：
+  如需詳細資訊，請參閱 [依多選自訂欄位繪製報表圖表](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/chart-report-by-multi-select-custom-field.md).
+* 已選取任何選項的專案只會計算一次。
+
+  例如，如果您有一個核取方塊自訂欄位，其中選項1和選項2為選項，並且您將表單附加至任務，則同時選取選項1和選項2的任務與僅選取選項1或選項2的任務會分開分組。
+
+
+## 存取需求
+
+您必須具有下列存取權才能執行本文中的步驟：
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront計畫</td> 
+   <td role="rowheader">Adobe Workfront計畫*</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront許可證*</td> 
+   <td role="rowheader">Adobe Workfront授權*</td> 
    <td> <p>請求修改分組 </p>
    <p>計畫修改報表</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">訪問級別配置*</td> 
-   <td> <p>編輯對報表、儀表板、日曆的訪問以修改報表</p> <p>編輯對篩選器、視圖、分組的訪問以修改分組</p> <p><b>附註</b>
+   <td role="rowheader">存取層級設定*</td> 
+   <td> <p>編輯報告、儀表板、行事曆的存取權以修改報告</p> <p>編輯對篩選器、檢視、群組的存取權以修改群組</p> <p><b>附註</b>
 
-如果您仍然沒有訪問權限，請詢問您的Workfront管理員是否在您的訪問級別設定了其他限制。 有關Workfront管理員如何修改您的訪問級別的資訊，請參見 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自定義訪問級別</a>。</p> </td>
+如果您還是沒有存取權，請詢問您的Workfront管理員，他們是否在您的存取層級中設定其他限制。 如需有關Workfront管理員如何修改您的存取層級的資訊，請參閱 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>.</p> </td>
 </tr>  
   <tr> 
-   <td role="rowheader">對象權限</td> 
-   <td> <p>管理對報表的權限</p> <p>有關請求附加訪問的資訊，請參見 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">請求訪問對象 </a>。</p> </td> 
+   <td role="rowheader">物件許可權</td> 
+   <td> <p>管理報表的許可權</p> <p>如需請求其他存取許可權的詳細資訊，請參閱 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">要求物件的存取權 </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;要瞭解您擁有的計畫、許可證類型或訪問權限，請與您的Workfront管理員聯繫。
+*若要瞭解您擁有的計畫、授權型別或存取權，請聯絡您的Workfront管理員。
 
-## 按多選自定義欄位對報表進行分組
+## 依多選自訂欄位對報表分組
 
-若要能夠按多選自定義欄位進行分組，必須具備以下先決條件：
+若要能夠依多選自訂欄位分組，您必須具備下列先決條件：
 
-* 以自定義表單構建多選自定義欄位。\
-   有關構建自定義表單和向其添加自定義欄位的資訊，請參閱文章 [建立或編輯自定義表單](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)。
+* 在自訂表單中建立多選自訂欄位。\
+  如需有關建立自訂表單及新增自訂欄位的資訊，請參閱文章 [建立或編輯自訂表單](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
 
-* 將自定義窗體附加到對象。
-* 使用每個對象上的值填充多選自定義欄位。 
+* 將自訂表單附加到物件。
+* 在每個物件上填入多選自訂欄位。 
 
-要按報表中的多選自定義欄位分組：
+若要在報表中依多選自訂欄位分組：
 
-1. 建立報告或編輯要為多選自定義欄位添加分組的現有報告。\
-   有關建立報告的資訊，請參閱文章 [建立自定義報告](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md)。
+1. 建立報表或編輯要新增多選自訂欄位分組的現有報表。\
+   如需建立報表的相關資訊，請參閱文章 [建立自訂報表](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
-1. 選擇 **分組** 頁籤。
-1. 按一下 **切換到文本模式**。
+1. 選取 **群組** 標籤。
+1. 按一下 **切換到文字模式**.
 
-1. 選擇 **將報告分組** 框，並用以下代碼替換它：
+1. 選擇文字 **將報告分組** 方塊，並以下列程式碼取代：
 
-   <pre>group.0.displayname=多選自定義欄位名<br>group.0.valueexpression={DE：多選自定義欄位名稱}<br>group.0.valueformat=HTML<br>textmode=true</pre>
+   <pre>
+   group.0.displayname=多重選取自訂欄位名稱group.0.valueexpression={DE：多重選取自訂欄位名稱} group.0.valueformat=HTML群組。0.textmode=true
+   </pre>
 
-1. 將「多選自定義欄位名稱」替換為多選自定義欄位的實際名稱，如在Workfront中顯示的那樣。  
-1. 按一下 **保存並關閉**。\
-   報告中的對象按多選自定義欄位的值分組。\
-   報告分組的名稱是多選自定義欄位的名稱，後跟欄位中選定的值。 
+1. 將「多選自訂欄位名稱」取代為您多選自訂欄位的實際名稱，如Workfront中所示。
+1. 按一下 **儲存並關閉**.
+
+   報表中的物件會依多選自訂欄位的值分組。
+
+   ![](assets/grouping-by-multi-select-field-text-mode-ui-example.png)
+
+   報表分組的名稱是多選自訂欄位的名稱，後面跟著在欄位中選取的值。
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

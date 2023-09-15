@@ -3,10 +3,10 @@ title: 編輯記錄
 description: 您可以在Adobe Maestro中編輯記錄資訊。 您必須先建立記錄型別，才能開始建立和編輯記錄。
 hidefromtoc: true
 hide: true
-source-git-commit: f058c369bdb3b991910d3a820895de73ea4709f0
+source-git-commit: b0447fd2ea9419fabcc21a1131910485c18b75d0
 workflow-type: tm+mt
-source-wordcount: '545'
-ht-degree: 2%
+source-wordcount: '567'
+ht-degree: 1%
 
 ---
 
@@ -88,6 +88,7 @@ ht-degree: 2%
 * 如果編輯的記錄連結到其他記錄，則您正在編輯的記錄的新資訊會反映在連結的記錄上。
 * 您無法大量編輯記錄。 <!--this will probably change-->
 
+
 ## 編輯記錄
 
 您可以從下列區域編輯記錄：
@@ -140,7 +141,9 @@ ht-degree: 2%
 
    >[!TIP]
    >
-   >連結的欄位不可編輯。 這些欄位的資訊會自動從連結的記錄中填入。 如需詳細資訊，請參閱 [連線記錄型別](../architecture-and-fields/connect-record-types.md).
+   >* 連結的欄位不可編輯。 這些欄位的資訊會自動從連結的記錄中填入。 如需詳細資訊，請參閱 [連線記錄型別](../architecture-and-fields/connect-record-types.md).
+   >
+   >* URL只有以下列專案開頭時，才會被識別為單行文字欄位型別中的連結： http://、https://、ftp://或www。.
 
 
 
