@@ -8,14 +8,14 @@ author: Becky, Caroline
 feature: System Setup and Administration, [!DNL Workfront] Integrations and Apps, Digital Content and Documents
 role: Admin
 exl-id: fd45e1bc-9a35-4960-a73a-ff845216afe4
-source-git-commit: 2a5e793077e520e34fdbb9187ba17f1e1bde43e9
+source-git-commit: 3fafc4d782e518d774e981c2e37f9a5f1595edb1
 workflow-type: tm+mt
-source-wordcount: '1573'
+source-wordcount: '1572'
 ht-degree: 0%
 
 ---
 
-# 設定舊版 [!DNL SharePoint] 整合
+# 設定 [!DNL SharePoint] 整合
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">**DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. **</p>
