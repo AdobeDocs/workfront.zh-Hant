@@ -7,7 +7,7 @@ description: 只有在您建立其他計算欄位(擷取多選自訂欄位中所
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: cda77319-dce6-409d-8f59-53838820cafb
-source-git-commit: b0447fd2ea9419fabcc21a1131910485c18b75d0
+source-git-commit: a2f0ef565b0f0dbcfec7f3f5b5fece4c7b4b1ec6
 workflow-type: tm+mt
 source-wordcount: '1007'
 ht-degree: 0%
@@ -132,7 +132,6 @@ ht-degree: 0%
    >[!NOTE]
    >
    >此選項已從大量編輯專案中移除。  您仍然可以按一下「 」，大量重新計算專案的運算式 **更多** 圖示 ![](assets/more-icon-45x33.png) 在專案清單頂端，然後 **重新計算運算式**.
-
 
 1. 移至您要為參照多選自訂欄位的計算欄位新增圖表的報表。
 1. 按一下 **報表動作**，然後 **編輯**.
