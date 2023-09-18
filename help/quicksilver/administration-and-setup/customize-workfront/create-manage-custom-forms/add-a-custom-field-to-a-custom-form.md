@@ -8,10 +8,10 @@ author: Caroline
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 3579ae0f-1d2e-4ff5-bbdf-58fdd20d01d7
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+source-git-commit: 9b4faccb6b4d61970abb69af60a0e8d47c9408e7
 workflow-type: tm+mt
-source-wordcount: '2264'
-ht-degree: 3%
+source-wordcount: '2305'
+ht-degree: 2%
 
 ---
 
@@ -125,6 +125,10 @@ ht-degree: 3%
      </tr> 
     </tbody> 
    </table>
+
+   >[!NOTE]
+   >
+   >允許進行多項選擇的欄位（例如核取方塊和下拉式清單）很難在報告中建立圖表和群組。 若要更輕鬆地在報表中進行圖表和分組，您可以為每個選擇建立個別欄位（例如，單行文字欄位）。
 
 1. 在 **欄位設定** 索引標籤中，設定您新增之自訂欄位型別的可用選項：
 

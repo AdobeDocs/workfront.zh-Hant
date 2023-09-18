@@ -8,9 +8,9 @@ author: Courtney
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: 365d4b9e6f88031ca92d37df0f89923911484525
+source-git-commit: 9b4faccb6b4d61970abb69af60a0e8d47c9408e7
 workflow-type: tm+mt
-source-wordcount: '4675'
+source-wordcount: '4747'
 ht-degree: 4%
 
 ---
@@ -133,7 +133,7 @@ ht-degree: 4%
 
 1. 在熒幕左側，找到下列其中一個文字欄位，並將其拖曳至畫布上的區段：
 
-   * 單行文字：
+   * 單行文字
    * 段落文字
    * 含格式的文字欄位
    * 描述文字
@@ -254,6 +254,10 @@ ht-degree: 4%
 * **下拉式清單**：提供下拉式清單選項的清單。
 
 +++
+
+>[!NOTE]
+>
+>允許進行多項選擇的欄位（例如「核取方塊群組」）很難在報告中建立圖表和群組。 若要更輕鬆地在報表中進行圖表和分組，您可以為每個選擇建立個別欄位（例如，單行文字欄位）。
 
 若要新增選項按鈕和核取方塊：
 
@@ -534,18 +538,18 @@ ht-degree: 4%
       <li>當您選取「數字」或「貨幣」時，系統會自動截斷以0開頭的數字。</li></ul></td>
      </tr> 
      <tr> 
-      <td role="rowheader">基本 API URL</td> 
+      <td role="rowheader">基底 API URL</td> 
       <td><p>輸入或貼上API的URL。</p><p>API URL必須傳回您要在下拉式清單中顯示的選項JSON內容。 您可以使用JSON路徑欄位，從傳回的JSON中選取特定值作為下拉式選項。</p><p>輸入API URL時，您可以選擇在URL中傳遞下列值：</p>
       <ul><li>$$query — 這代表一般使用者在欄位中輸入的搜尋文字，可讓您為一般使用者實作查詢篩選。 （使用者會在下拉式清單中搜尋值。）</li>
       <li>{fieldName}  — 其中fieldName是Workfront中的任何自訂或原生欄位。 這樣，當您將已選取欄位的值傳遞至外部查詢欄位以篩選下拉選項時，您就可以實作階層式下拉選項篩選器。 （例如，「地區」欄位已存在於表單上，而您正在將國家/地區清單從API縮小至特定地區。）</li></ul>
       <p><strong>注意：</strong> 檢閱您正在使用的API的檔案，以瞭解您可以定義的特定查詢。</p></td> 
      </tr>
      <tr> 
-      <td role="rowheader">HTTP方法</td> 
+      <td role="rowheader">HTTP 方法</td> 
       <td>選取 <strong>Get</strong>， <strong>Post</strong>，或 <strong>Put</strong> 用於方法。</td> 
      </tr>
      <tr> 
-      <td role="rowheader">JSON路徑</td>
+      <td role="rowheader">JSON 路徑</td>
       <td><p>輸入或貼上API的JSON路徑。</p> <p>此選項允許從API URL傳回的JSON擷取資料。 這可當作選取要讓JSON內的哪些值出現在下拉選項中的方式。</p><p>例如，如果您的API URL傳回此格式的JSON：</br>
       <pre>
       { data： { { name： "USA"}， { name： "Canada"} }
@@ -568,13 +572,14 @@ ht-degree: 4%
 
 >[!NOTE]
 >
->外部API呼叫的技術限制：
+>以下專案為呼叫外部API的技術限制：
 >
 >* 選項數量上限： 200 （只會顯示傳回JSON的前200個選項）
 >* 逾時： 3秒
 >* 重試次數： 3
 >* 重試之間的等待持續時間：500毫秒
 >* 預期的回應狀態： 2xx
+>* 使用者可以在Workfront清單和報表中看到選取的值（以及編輯值），但看不到包含來自外部API之選項的下拉式清單。
 
 </div>
 
