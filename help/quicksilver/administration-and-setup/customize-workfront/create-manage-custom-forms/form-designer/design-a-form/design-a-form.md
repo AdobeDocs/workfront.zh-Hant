@@ -8,9 +8,9 @@ author: Courtney
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: 9b4faccb6b4d61970abb69af60a0e8d47c9408e7
+source-git-commit: b015f442ba028e452abbab3cd7e6d9b6d86f9622
 workflow-type: tm+mt
-source-wordcount: '4747'
+source-wordcount: '4774'
 ht-degree: 4%
 
 ---
@@ -257,7 +257,7 @@ ht-degree: 4%
 
 >[!NOTE]
 >
->允許進行多項選擇的欄位（例如「核取方塊群組」）很難在報告中建立圖表和群組。 若要更輕鬆地在報表中進行圖表和分組，您可以為每個選擇建立個別欄位（例如，單行文字欄位）。
+>允許進行多項選擇的欄位（例如「核取方塊群組」和「下拉式清單」）很難在報告中建立圖表和群組。 若要更輕鬆地在報表中進行圖表和分組，您可以為每個選擇建立個別欄位（例如，單行文字欄位）。
 
 若要新增選項按鈕和核取方塊：
 
@@ -328,7 +328,7 @@ ht-degree: 4%
     </tr> 
     <tr> 
      <td role="rowheader">顯示類型</td> 
-    <td>在欄位的選項按鈕、核取方塊群組或下拉式清單之間切換。</td> 
+    <td>在欄位的選項按鈕、核取方塊群組、下拉式清單或多選下拉式清單之間切換。</td> 
     <td><ul>
     <li>單選按鈕</li>
     <li>核取方塊群組</li>
@@ -559,7 +559,7 @@ ht-degree: 4%
      </tr>
      <tr> 
       <td role="rowheader">標頭</td>
-      <td>按一下 <strong>新增頁首</strong>，然後輸入或貼上使用API驗證所需的金鑰值組。</td>
+      <td><p>按一下 <strong>新增頁首</strong>，然後輸入或貼上使用API驗證所需的金鑰值組。</p><p><strong>注意：</strong> 標題欄位不是儲存認證的安全位置，您應該注意輸入和儲存的內容。</p></td>
      </tr>
     </tbody>
    </table>
