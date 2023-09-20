@@ -3,9 +3,9 @@ title: Adobe大師發行活動
 description: 使用Maestro建立自訂物件、欄位和工作區。
 hidefromtoc: true
 hide: true
-source-git-commit: f058c369bdb3b991910d3a820895de73ea4709f0
+source-git-commit: 1dffebd5075dc353f28402c79d0c87aff2c12cfa
 workflow-type: tm+mt
-source-wordcount: '1430'
+source-wordcount: '1458'
 ht-degree: 0%
 
 ---
@@ -32,6 +32,14 @@ ht-degree: 0%
 本節列出2023年5月22日Maestro封閉Beta版計畫推出後所發行的功能和修補程式。
 
 功能每週都會發行，並依發行順序列出，最新的則排在前。 參與Maestro封閉測試版計畫的客戶可以存取其預覽和生產環境中的所有功能。
+
+## 2023年9月18日當週
+
+### 重新排序列
+
+預覽和生產： 2023年9月20日
+
+您現在可以在記錄型別頁面的「表格」檢視中，重新排序一或多個列（或記錄）。
 
 ## 2023年9月4日當週
 

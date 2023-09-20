@@ -1,36 +1,36 @@
 ---
-title: 對新許可計畫上的未付費用戶禁用自動升級選項
+title: 停用新授權計畫上未付費使用者的自動升級選項
 user-type: administrator
 content-type: reference
 product-area: system-administration
-keywords: 訪問，級別，系統，管理員，標準，燈光，參與者
+keywords: 存取，層級，系統，管理員，標準，輕量，參與者
 navigation-topic: access-levels
-description: 每個用戶必須具有訪問級別才能登錄並在Workfront工作。 您使用訪問級別來控制用戶可以查看的內容以及對某些Workfront對象和區域執行的操作。
+description: 每位使用者都必須具備存取層級，才能登入及在Workfront中工作。 您可以使用存取層級來控制使用者可以檢視特定Workfront物件與區域的內容，以及對這些物件與區域執行的動作。
 author: Courtney
 feature: System Setup and Administration
 role: Admin
-source-git-commit: 864906732c80af12db051d1d5e6d9bc4ae125eb8
+exl-id: 1ff727f1-bc26-4ffe-a510-615bebfe5b96
+source-git-commit: 8807636d2309435cb5f4e08d6a7d27246342200d
 workflow-type: tm+mt
-source-wordcount: '206'
+source-wordcount: '211'
 ht-degree: 1%
 
 ---
 
+# 停用新授權計畫上未付費使用者的自動升級選項
 
-# 對新許可計畫上的未付費用戶禁用自動升級選項
+新計畫的所有未付費Workfront授權校訂和檔案決定受限。 當使用者達到其分配數量的決定時，他們會依預設升級至輕度授權。
 
-對於新計畫的所有未付費的Workfront許可證，證明和檔案決定是有限的。 當用戶達到其分配的決策數時，預設情況下，他們將升級到Light許可證。
-
-可以從設定區域禁用自動升級選項。 要瞭解有關自動升級工作方式的詳細資訊，請參閱 [非付費用戶的有限文檔和證明決策概述](/help/quicksilver/review-and-approve-work/proof-doc-decision-limits.md)。
+您可以從設定區域停用自動升級選項。 若要進一步瞭解自動升級如何運作，請參閱 [非付費使用者的有限檔案和校訂決定概覽](/help/quicksilver/review-and-approve-work/proof-doc-decision-limits.md).
 
 >[!IMPORTANT]
 >
->禁用後，任何超出其分配決策數的未付費用戶都不會自動升級。
+>一旦停用，任何超過分配數量決定的非付費使用者都不會自動升級。
 
 
-## 訪問要求
+## 存取需求
 
-您必須具有以下訪問權限才能執行本文中的步驟：
+您必須具有下列存取權才能執行本文中的步驟：
 
 <table style="table-layout:auto"> 
  <col> 
@@ -41,22 +41,22 @@ ht-degree: 1%
    <td>任何</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront牌照</td> 
-   <td>當前計畫：標準
+   <td role="rowheader">Adobe Workfront授權</td> 
+   <td>目前計畫：標準
    <p>或</p>
-   <p>舊計畫：計畫</p></td> 
+   <p>舊版計畫：計畫</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">訪問級別配置</td> 
-   <td> <p>你必須是Workfront管理員。</p></td> 
+   <td role="rowheader">存取層級設定</td> 
+   <td> <p>您必須是Workfront管理員。</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-## 禁用非付費用戶的自動升級
+## 停用非付費使用者的自動升級
 
 {{step-1-to-setup}}
 
-1. 向下滾動到 [!UICONTROL **首選項**]。
-1. 在 [!UICONTROL **常規首選項**] 的 [!UICONTROL **在訪問級別中禁用自動升級**] 框。
+1. 展開 [!UICONTROL **系統**] 在左側導覽列中，然後按一下 [!UICONTROL **偏好設定**].
+1. 在 [!UICONTROL **一般偏好設定**] 區段，核取 [!UICONTROL **停用存取層級內的自動升級**] 方塊。
 1. 按一下&#x200B;[!UICONTROL **儲存**]。
