@@ -7,9 +7,9 @@ description: 透過Adobe Experience Cloud存取Workfront Fusion，可為您提�
 author: Becky
 feature: Workfront Fusion
 exl-id: ea89cf36-f08d-4f4c-b89f-4895b5947e7a
-source-git-commit: 609772ae587c8bb8b05d48fada478f3419616dda
+source-git-commit: 0cb3a77c1b9b00fa886a3321c6a8d4119f58f84d
 workflow-type: tm+mt
-source-wordcount: '545'
+source-wordcount: '605'
 ht-degree: 1%
 
 ---
@@ -109,4 +109,11 @@ ht-degree: 1%
 您可以在Unified Shell的「通知」區域找到您的通知和公告。
 
 若要檢視您的通知，請按一下通知圖示 ![通知圖示](assets/notifications-icon.png) 靠近熒幕右上角。 通知圖示上的紅點表示您有未讀的通知或公告。
+
+如需在Adobe Experience Cloud中設定通知的說明，請參閱 [通知設定](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/notifications.html?lang=en#:~:text=You%20can%20customize%20how%20you,how%20you%20receive%20your%20notifications.) 在Adobe檔案中。
+
+設定時，請注意下列事項：
+
+* **警報** 請參閱停滯情境。
+* **內容更新** 請參閱案例執行中的錯誤和警告。
 
