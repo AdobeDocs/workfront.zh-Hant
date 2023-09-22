@@ -3,9 +3,9 @@ title: 2023年第四季版本總覽
 description: 2023年第四季版本總覽
 author: Becky
 feature: Product Announcements
-source-git-commit: abb94dcce6d35f97d35a3c9540e88ec60621bb45
+source-git-commit: eb5fb3fdc99bcbc5e6fa8c37bddcfd53b045816f
 workflow-type: tm+mt
-source-wordcount: '1822'
+source-wordcount: '1845'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,8 @@ ht-degree: 0%
 >| 每月發行 | 每季發行 |
 >|----|----|
 >| <ul><li>23.8 （2023年8月31日）</li><li>23.9 （2023年9月28日）</li><li>23.10 （2023年10月26日）</li></ul> | <ul><li>23.10 （2023年10月26日起一週）</li></ul> |
+
+23.10版本網路研討會將於2023年10月5日舉行。 您可以 [在這裡報名參加網路講座](https://webinars.on24.com/adobe_workfront/whatsnewin2310?partnerref=releasenotes).
 
 <span class="preview">非週期功能（在2023年第四季發行日期之前發佈到生產環境的功能）以黃色醒目提示。</span>
 
