@@ -10,7 +10,8 @@ feature: System Setup and Administration
 role: Admin
 hide: true
 hidefromtoc: true
-source-git-commit: 68c3a66a91f4c0936d256398b5d30518226396a6
+recommendations: noDisplay, noCatalog
+source-git-commit: 13a48a16d74ae02ddb762b8792a406a5f4e715f3
 workflow-type: tm+mt
 source-wordcount: '2346'
 ht-degree: 3%
