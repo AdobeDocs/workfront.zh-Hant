@@ -3,7 +3,8 @@ title: Adobe大師概觀
 description: Adobe大師是Adobe Workfront的新產品。 您可以建立可完全自訂的工作區，以定義符合企業內每個組織單位需求的工作流程。
 hidefromtoc: true
 hide: true
-source-git-commit: f058c369bdb3b991910d3a820895de73ea4709f0
+recommendations: noDisplay, noCatalog
+source-git-commit: 28602d66b43ec4c30a9f13cff43157b978439d99
 workflow-type: tm+mt
 source-wordcount: '1811'
 ht-degree: 1%

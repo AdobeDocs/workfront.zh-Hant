@@ -3,7 +3,8 @@ title: Adobe大師資訊
 description: 身為行銷營運領導者，您可以使用Adobe Maestro為所有團隊在行銷生命週期中組織工作。 本節中的文章說明如何設定Maestro，以及如何開始將其功能用於行銷活動管理操作。
 hidefromtoc: true
 hide: true
-source-git-commit: f058c369bdb3b991910d3a820895de73ea4709f0
+recommendations: noDisplay, noCatalog
+source-git-commit: 28602d66b43ec4c30a9f13cff43157b978439d99
 workflow-type: tm+mt
 source-wordcount: '332'
 ht-degree: 0%

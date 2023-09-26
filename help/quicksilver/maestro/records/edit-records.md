@@ -3,7 +3,8 @@ title: 編輯記錄
 description: 您可以在Adobe Maestro中編輯記錄資訊。 您必須先建立記錄型別，才能開始建立和編輯記錄。
 hidefromtoc: true
 hide: true
-source-git-commit: b0447fd2ea9419fabcc21a1131910485c18b75d0
+recommendations: noDisplay, noCatalog
+source-git-commit: 28602d66b43ec4c30a9f13cff43157b978439d99
 workflow-type: tm+mt
 source-wordcount: '567'
 ht-degree: 1%

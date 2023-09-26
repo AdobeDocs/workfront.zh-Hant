@@ -3,7 +3,8 @@ title: 架構資訊
 description: 以下文章說明如何設定Adobe Maestro的架構。 在此設定中，您將瞭解如何建立工作區、記錄型別和自訂欄位，以對應出您要在Adobe大師中管理的工作流程。
 hidefromtoc: true
 hide: true
-source-git-commit: f058c369bdb3b991910d3a820895de73ea4709f0
+recommendations: noDisplay, noCatalog
+source-git-commit: 28602d66b43ec4c30a9f13cff43157b978439d99
 workflow-type: tm+mt
 source-wordcount: '228'
 ht-degree: 0%

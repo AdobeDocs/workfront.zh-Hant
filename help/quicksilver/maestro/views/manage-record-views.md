@@ -3,7 +3,8 @@ title: 管理記錄檢視
 description: 使用「Adobe大師」時，您可以在表格或時間軸檢視中顯示記錄。
 hidefromtoc: true
 hide: true
-source-git-commit: f058c369bdb3b991910d3a820895de73ea4709f0
+recommendations: noDisplay, noCatalog
+source-git-commit: 28602d66b43ec4c30a9f13cff43157b978439d99
 workflow-type: tm+mt
 source-wordcount: '731'
 ht-degree: 1%

@@ -3,7 +3,8 @@ title: 連線記錄
 description: 在記錄型別之間建立連線後，可以將個別記錄彼此連線。
 hidefromtoc: true
 hide: true
-source-git-commit: f058c369bdb3b991910d3a820895de73ea4709f0
+recommendations: noDisplay, noCatalog
+source-git-commit: 28602d66b43ec4c30a9f13cff43157b978439d99
 workflow-type: tm+mt
 source-wordcount: '1803'
 ht-degree: 0%

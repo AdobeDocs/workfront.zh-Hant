@@ -3,7 +3,8 @@ title: 連線記錄型別
 description: 指示個別記錄型別如何彼此關聯的一種方法是連線它們。 此外，您也可以將Maestro記錄型別與其他應用程式的物件型別連線起來，以強化使用者的體驗，並將他們的焦點放在一個應用程式中。
 hidefromtoc: true
 hide: true
-source-git-commit: f058c369bdb3b991910d3a820895de73ea4709f0
+recommendations: noDisplay, noCatalog
+source-git-commit: 28602d66b43ec4c30a9f13cff43157b978439d99
 workflow-type: tm+mt
 source-wordcount: '1742'
 ht-degree: 0%

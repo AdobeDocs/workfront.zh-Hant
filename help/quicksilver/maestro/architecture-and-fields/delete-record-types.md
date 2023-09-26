@@ -3,7 +3,8 @@ title: 刪除記錄型別
 description: 當作業記錄型別或分類記錄型別不再相關時，您可以將其刪除。
 hidefromtoc: true
 hide: true
-source-git-commit: f058c369bdb3b991910d3a820895de73ea4709f0
+recommendations: noDisplay, noCatalog
+source-git-commit: 28602d66b43ec4c30a9f13cff43157b978439d99
 workflow-type: tm+mt
 source-wordcount: '371'
 ht-degree: 1%

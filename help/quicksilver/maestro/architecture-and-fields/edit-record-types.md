@@ -3,7 +3,8 @@ title: 編輯記錄型別
 description: 記錄型別儲存後，您可以編輯記錄型別。 記錄型別是Adobe大師(Maestro)的物件型別。
 hidefromtoc: true
 hide: true
-source-git-commit: f058c369bdb3b991910d3a820895de73ea4709f0
+recommendations: noDisplay, noCatalog
+source-git-commit: 28602d66b43ec4c30a9f13cff43157b978439d99
 workflow-type: tm+mt
 source-wordcount: '417'
 ht-degree: 1%

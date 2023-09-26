@@ -3,7 +3,8 @@ title: 管理時間表檢視
 description: 存取Adobe Maestro中的記錄型別頁面時，您可以在時間軸檢視中顯示記錄。
 hidefromtoc: true
 hide: true
-source-git-commit: f058c369bdb3b991910d3a820895de73ea4709f0
+recommendations: noDisplay, noCatalog
+source-git-commit: 28602d66b43ec4c30a9f13cff43157b978439d99
 workflow-type: tm+mt
 source-wordcount: '1077'
 ht-degree: 1%

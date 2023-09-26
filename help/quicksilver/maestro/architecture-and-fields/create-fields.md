@@ -3,7 +3,8 @@ title: 建立欄位
 description: 在Adobe管理員中，您可以為每種作業記錄型別或分類法建立自訂欄位。 然後，您可以將此欄位與Maestro記錄相關聯。
 hidefromtoc: true
 hide: true
-source-git-commit: f058c369bdb3b991910d3a820895de73ea4709f0
+recommendations: noDisplay, noCatalog
+source-git-commit: 28602d66b43ec4c30a9f13cff43157b978439d99
 workflow-type: tm+mt
 source-wordcount: '2555'
 ht-degree: 2%

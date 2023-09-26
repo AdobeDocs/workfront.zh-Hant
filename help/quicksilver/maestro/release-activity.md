@@ -3,7 +3,8 @@ title: Adobe大師發行活動
 description: 使用Maestro建立自訂物件、欄位和工作區。
 hidefromtoc: true
 hide: true
-source-git-commit: 1dffebd5075dc353f28402c79d0c87aff2c12cfa
+recommendations: noDisplay, noCatalog
+source-git-commit: 28602d66b43ec4c30a9f13cff43157b978439d99
 workflow-type: tm+mt
 source-wordcount: '1458'
 ht-degree: 0%

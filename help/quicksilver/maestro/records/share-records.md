@@ -3,7 +3,8 @@ title: 共用記錄
 description: 您可以與其他人共用記錄，以提高您的共同作業能力。
 hidefromtoc: true
 hide: true
-source-git-commit: f058c369bdb3b991910d3a820895de73ea4709f0
+recommendations: noDisplay, noCatalog
+source-git-commit: 28602d66b43ec4c30a9f13cff43157b978439d99
 workflow-type: tm+mt
 source-wordcount: '369'
 ht-degree: 1%

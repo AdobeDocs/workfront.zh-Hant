@@ -3,7 +3,8 @@ title: 編輯欄位
 description: 在Adobe大師，您可以編輯已建立欄位的欄位設定。
 hidefromtoc: true
 hide: true
-source-git-commit: f058c369bdb3b991910d3a820895de73ea4709f0
+recommendations: noDisplay, noCatalog
+source-git-commit: 28602d66b43ec4c30a9f13cff43157b978439d99
 workflow-type: tm+mt
 source-wordcount: '427'
 ht-degree: 1%

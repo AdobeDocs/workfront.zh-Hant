@@ -3,7 +3,8 @@ title: 連線記錄型別和記錄的範例
 description: 本文說明如何在AdobeMaestro記錄型別與Workfront專案物件型別之間建立連線的範例。 本檔案也說明如何將Maestro記錄與連結至個別專案。
 hidefromtoc: true
 hide: true
-source-git-commit: f058c369bdb3b991910d3a820895de73ea4709f0
+recommendations: noDisplay, noCatalog
+source-git-commit: 28602d66b43ec4c30a9f13cff43157b978439d99
 workflow-type: tm+mt
 source-wordcount: '1742'
 ht-degree: 0%

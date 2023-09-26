@@ -3,7 +3,8 @@ title: 建立分類記錄型別
 description: 分類是可重複使用的記錄型別，可擷取Adobe Workfront Maestro中作業記錄型別的相關屬性。
 hidefromtoc: true
 hide: true
-source-git-commit: f058c369bdb3b991910d3a820895de73ea4709f0
+recommendations: noDisplay, noCatalog
+source-git-commit: 28602d66b43ec4c30a9f13cff43157b978439d99
 workflow-type: tm+mt
 source-wordcount: '350'
 ht-degree: 1%

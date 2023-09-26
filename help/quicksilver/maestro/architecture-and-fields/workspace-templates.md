@@ -3,7 +3,8 @@ title: 工作區範本清單
 description: 工作區是團隊使用的操作記錄型別和分類法的集合，代表團隊的工作生命週期。 Maestro隨附一組範本，可讓您在建立工作區時開始使用基本記錄型別、分類和欄位。
 hide: true
 hidefromtoc: true
-source-git-commit: f058c369bdb3b991910d3a820895de73ea4709f0
+recommendations: noDisplay, noCatalog
+source-git-commit: 28602d66b43ec4c30a9f13cff43157b978439d99
 workflow-type: tm+mt
 source-wordcount: '446'
 ht-degree: 0%
