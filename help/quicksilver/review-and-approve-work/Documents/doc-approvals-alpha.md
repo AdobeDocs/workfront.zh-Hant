@@ -8,9 +8,9 @@ feature: Work Management
 hide: true
 hidefromtoc: true
 exl-id: 0ede24f4-4bba-4812-9dd9-e7af77ea5ecc
-source-git-commit: cc82da7970d8f9c90b3a0dcebfed3feaa4bb1173
+source-git-commit: 723c2b7b57b1e876ec6edaf4b1ac14ec1b983667
 workflow-type: tm+mt
-source-wordcount: '469'
+source-wordcount: '470'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ ht-degree: 0%
 在此第5個Alpha版本中，我們有：
 
 * 改善顯示核准者和檢閱者的清單
-* 新增核准者尚未做出核准決定的功能
+* 新增提醒尚未做出核准決定的核准者的功能
 * 新增在核准清單中檢視個別專案團隊成員的功能
 * 已新增新增新增外部核准者的功能
 * 改善外部核准者預覽、下載和評論檔案的檢視

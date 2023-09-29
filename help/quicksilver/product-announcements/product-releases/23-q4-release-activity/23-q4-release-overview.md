@@ -4,9 +4,9 @@ description: 2023年第四季版本總覽
 author: Becky
 feature: Product Announcements
 exl-id: 16d18e6c-b169-4c5d-8d0a-57711e24583d
-source-git-commit: ab046a9ee532b7ef97f721e4c7b41a1a0543d647
+source-git-commit: 723c2b7b57b1e876ec6edaf4b1ac14ec1b983667
 workflow-type: tm+mt
-source-wordcount: '1875'
+source-wordcount: '1884'
 ht-degree: 0%
 
 ---
@@ -182,6 +182,141 @@ ht-degree: 0%
                         </ul>
                     </td>
                 </tr>    
+           </tbody>
+        </table>
+
+### 首頁增強功能
+
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 50%;" />
+            <tbody>
+                <tr>
+                    <td>
+                        <p><span class="bold">功能</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">發行日期</span>
+                        </p>
+                    </td>
+                 </tr>
+                <!--<tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-14.md" class="MCXref xref" xrefformat="{para}">Changes to New Home </a> </p>
+                        <p>[!BADGE In production for Fast Release ]{type=Positive}</p>
+                        <p>Based on user feedback, we are removing the page-wide time range filter and summary bar. Project, Task, and Issue widgets each have built-in filtering features allowing you to customize their scope on an individual basis. Additionally, these widgets will now only include content marked ??Current??, ensuring the work they track is always relevant. we've also changed which widgets display "counter bubbles".</p>
+                    </td>
+                    <td><p><b>Available on these dates:</b></p>
+                        <ul>
+                            <li>
+                                <p>Preview release: September 13, 2023<br /></p>
+                            </li>
+                            <li>
+                                <p>Production for fast release: With the 23.9 release</p>
+                            </li>
+                            <li>
+                                <p>Production for quarterly release: With the 23.10 release</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>-->
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-sept-11.md" class="MCXref xref" xrefformat="{para}">專案、任務和問題追蹤Widget的新快速存取按鈕</a> </p>
+                        <p>[！BADGE In Production for Fast Release ]{type=Positive}</p>
+                        <p>專案、任務和問題追蹤Widget已新增新的快速存取按鈕，進一步擴展您直接從新首頁管理工作的能力。</p>
+                    </td>
+                    <td><p><b>將於下列日期提供：</b></p>
+                        <ul>
+                            <li>
+                                <p>預覽版本： 2023年9月13日<br /></p>
+                            </li>
+                            <li>
+                                <p>快速發行生產：23.9版</p>
+                            </li>
+                            <li>
+                                <p>每季發行生產：23.10版本</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>                
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-14.md" class="MCXref xref" xrefformat="{para}">新首頁的新篩選器選項</a> </p>
+                        <p>[！BADGE In Production for Fast Release ]{type=Positive}</p>
+                        <p>「新首頁」中的「我的工作」Widget現在提供新篩選器選項。 選項包括物件型別（任務、問題和請求）和狀態（未就緒、準備開始、處理和完成）的篩選器。</p>
+                    </td>
+                    <td><p><b>將於下列日期提供：</b></p>
+                        <ul>
+                            <li>
+                                <p>預覽版本： 2023年8月17日<br /></p>
+                            </li>
+                            <li>
+                                <p>快速發行生產：23.8版</p>
+                            </li>
+                            <li>
+                                <p>每季發行生產：23.10版本</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-14.md" class="MCXref xref" xrefformat="{para}">新首頁的自訂術語支援</a> </p><p>[！BADGE In Production ]{type=Informative}</p>
+                        <p>為了更妥善地滿足組織的獨特需求，「新首頁」現在會針對執行個體版面配置範本中定義的物件，使用自訂術語。 例如，如果您的Workfront執行個體中的「專案」物件已重新標籤為「促銷活動」，則我的專案Widget將會在「新首頁」中顯示為「我的促銷活動」。</p>
+                    </td>
+                    <td><p><b>將於下列日期提供：</b></p>
+                        <ul>
+                            <li>
+                                <p>預覽版本： 2023年8月17日<br /></p>
+                            </li>
+                            <li>
+                                <p><span class="preview">適用於所有客戶的生產： 2023年8月31日</span></p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-14.md" class="MCXref xref" xrefformat="{para}">已針對已停用「新首頁」的帳戶移除「嘗試新首頁」按鈕</a> </p>
+                        <p>[！BADGE In Production for Fast Release ]{type=Positive}</p>
+                        <p>已停用「新首頁」的帳戶不再顯示「嘗試新首頁」按鈕。 系統管理員必須重新啟用新首頁，個別使用者才能使用按鈕嘗試新首頁。</p>
+                    </td>
+                    <td><p><b>將於下列日期提供：</b></p>
+                        <ul>
+                            <li>
+                                <p>預覽版本： 2023年8月17日<br /></p>
+                            </li>
+                            <li>
+                                <p>快速發行生產：23.8版</p>
+                            </li>
+                            <li>
+                                <p>每季發行生產：23.10版本</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-14.md" class="MCXref xref" xrefformat="{para}">變更為新首頁預設Widget集</a> </p>
+                        <p>[！BADGE In Production for Fast Release ]{type=Positive}</p>
+                        <p>待辦事項Widget需要建立任務的許可權，現在僅會出現在為具有標準、計畫或工作授權型別的使用者設定的預設Widget中。 此外，Widget已從所有其他授權型別使用者的首頁自動移除。</p>
+                    </td>
+                    <td><p><b>將於下列日期提供：</b></p>
+                        <ul>
+                            <li>
+                                <p>預覽版本： 2023年8月17日<br /></p>
+                            </li>
+                            <li>
+                                <p>快速發行生產： 2023年8月17日</p>
+                            </li>
+                            <li>
+                                <p>每季發行量： 2023年8月17日</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
            </tbody>
         </table>
 
@@ -366,102 +501,6 @@ ht-degree: 0%
                             </li>
                             <li>
                                 <p>每季發行生產：23.10版（除非另有指定）</p>
-                            </li>
-                        </ul>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-sept-11.md" class="MCXref xref" xrefformat="{para}">我的工作Widget的新快速存取按鈕</a> </p>
-                        <p>[！BADGE In Production for Fast Release ]{type=Positive}</p>
-                        <p>「我的工作」小工具中已新增新的快速存取按鈕，進一步擴充了您直接從「新首頁」管理工作的能力。</p>
-                    </td>
-                    <td><p><b>將於下列日期提供：</b></p>
-                        <ul>
-                            <li>
-                                <p>預覽版本： 2023年9月13日<br /></p>
-                            </li>
-                            <li>
-                                <p>快速發行生產：23.9版</p>
-                            </li>
-                            <li>
-                                <p>每季發行生產：23.10版本</p>
-                            </li>
-                        </ul>
-                    </td>
-                </tr>                
-                <tr>
-                    <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-14.md" class="MCXref xref" xrefformat="{para}">新首頁的新篩選器選項</a> </p>
-                        <p>[！BADGE In Production for Fast Release ]{type=Positive}</p>
-                        <p>「新首頁」中的「我的工作」Widget現在提供新篩選器選項。 選項包括物件型別（任務、問題和請求）和狀態（未就緒、準備開始、處理和完成）的篩選器。</p>
-                    </td>
-                    <td><p><b>將於下列日期提供：</b></p>
-                        <ul>
-                            <li>
-                                <p>預覽版本： 2023年8月17日<br /></p>
-                            </li>
-                            <li>
-                                <p>快速發行生產：23.8版</p>
-                            </li>
-                            <li>
-                                <p>每季發行生產：23.10版本</p>
-                            </li>
-                        </ul>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-14.md" class="MCXref xref" xrefformat="{para}">新首頁的自訂術語支援</a> </p><p>[！BADGE In Production ]{type=Informative}</p>
-                        <p>為了更妥善地滿足組織的獨特需求，「新首頁」現在會針對執行個體版面配置範本中定義的物件，使用自訂術語。 例如，如果您的Workfront執行個體中的「專案」物件已重新標籤為「促銷活動」，則我的專案Widget將會在「新首頁」中顯示為「我的促銷活動」。</p>
-                    </td>
-                    <td><p><b>將於下列日期提供：</b></p>
-                        <ul>
-                            <li>
-                                <p>預覽版本： 2023年8月17日<br /></p>
-                            </li>
-                            <li>
-                                <p><span class="preview">適用於所有客戶的生產： 2023年8月31日</span></p>
-                            </li>
-                        </ul>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-14.md" class="MCXref xref" xrefformat="{para}">已針對已停用「新首頁」的帳戶移除「嘗試新首頁」按鈕</a> </p>
-                        <p>[！BADGE In Production for Fast Release ]{type=Positive}</p>
-                        <p>已停用「新首頁」的帳戶不再顯示「嘗試新首頁」按鈕。 系統管理員必須重新啟用新首頁，個別使用者才能使用按鈕嘗試新首頁。</p>
-                    </td>
-                    <td><p><b>將於下列日期提供：</b></p>
-                        <ul>
-                            <li>
-                                <p>預覽版本： 2023年8月17日<br /></p>
-                            </li>
-                            <li>
-                                <p>快速發行生產：23.8版</p>
-                            </li>
-                            <li>
-                                <p>每季發行生產：23.10版本</p>
-                            </li>
-                        </ul>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-14.md" class="MCXref xref" xrefformat="{para}">變更為新首頁預設Widget集</a> </p>
-                        <p>[！BADGE In Production for Fast Release ]{type=Positive}</p>
-                        <p>待辦事項Widget需要建立任務的許可權，現在僅會出現在為具有標準、計畫或工作授權型別的使用者設定的預設Widget中。 此外，Widget已從所有其他授權型別使用者的首頁自動移除。</p>
-                    </td>
-                    <td><p><b>將於下列日期提供：</b></p>
-                        <ul>
-                            <li>
-                                <p>預覽版本： 2023年8月17日<br /></p>
-                            </li>
-                            <li>
-                                <p>快速發行生產： 2023年8月17日</p>
-                            </li>
-                            <li>
-                                <p>每季發行量： 2023年8月17日</p>
                             </li>
                         </ul>
                     </td>
