@@ -7,9 +7,9 @@ description: 您可以依受指派人或標籤將看板上的卡片分組。 當
 author: Lisa
 feature: Agile
 exl-id: 6f57a20e-0e47-4457-8605-9bce55c013ec
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+source-git-commit: 3cb62cb00bb6c13a0b03203bda1840bce8a4d7a7
 workflow-type: tm+mt
-source-wordcount: '323'
+source-wordcount: '334'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->攝入欄中的任何卡片都不會包含在群組中。 如需輸入欄的詳細資訊，請參閱 [將輸入欄新增到展示板](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md).
+>攝入欄中的任何卡片都不會包含在群組中，而且在套用群組時攝入欄會隱藏。 如需輸入欄的詳細資訊，請參閱 [將輸入欄新增到展示板](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md).
 
 ## 存取需求
 
