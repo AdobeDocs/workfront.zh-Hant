@@ -5,13 +5,13 @@ title: 開始使用Adobe Workfront中的新首頁
 description: 新首頁是管理您工作的強大新功能。
 author: Nolan
 feature: Get Started with Workfront
-source-git-commit: 1950effcb3bb0b36784159a214ed7e3db9d161d2
+exl-id: 40bb32f0-acc7-4a22-92b9-bab9dc7c987b
+source-git-commit: f776fb88000ea6044b88cba88d0cb7198c205d05
 workflow-type: tm+mt
-source-wordcount: '1088'
-ht-degree: 20%
+source-wordcount: '927'
+ht-degree: 23%
 
 ---
-
 
 # 開始使用Adobe Workfront中的新首頁
 
@@ -77,7 +77,7 @@ Widget是New Home的基礎。 將Widget新增到首頁後，您就可以選擇�
         <td>我的工作，等待我的核准</td>
     </tr>
     <tr>
-        <td>參與者</td>
+        <td>貢獻者</td>
         <td>我的工作，提及</td>
     </tr>
     <tr>
@@ -108,7 +108,7 @@ Widget是New Home的基礎。 將Widget新增到首頁後，您就可以選擇�
         <td>我的專案，等待我的核准</td>
     </tr>
     <tr>
-        <td>參與者</td>
+        <td>貢獻者</td>
         <td>我的工作，提及</td>
     </tr>
     <tr>
@@ -131,24 +131,9 @@ Widget是New Home的基礎。 將Widget新增到首頁後，您就可以選擇�
 
 1. 在 **背景** 的區段 **自訂** 窗格，按一下您要為「首頁」背景選取的顏色。 您也可以按一下 **無** 以移除背景。
 
-### 依時間範圍篩選
-
-您可以快速篩選首頁上的所有資訊，以在三個特定時間範圍內顯示物件資訊：日、周或月。 此外，「首頁」頂端會顯示您到期的工作數目以及您已在範圍內完成的工作數目摘要。
-
-**若要變更首頁的時間範圍：**
-
-1. 按一下Adobe Workfront圖示，導覽至您的首頁 ![Adobe Workfront圖示](../new-home/assets/home-icon-30x29.png) 如果將「首頁」設為著陸頁面，或按一下主功能表圖示，則會在畫面頂端顯示 ![主要功能表圖示](../new-home/assets/main-menu-icon-left-nav.png) 然後按一下 **首頁**.
-
-1. 按一下首頁左上角的時間範圍篩選器。 依預設，篩選器設為 **我的周**.
-
-   ![時間範圍篩選器下拉式清單](../new-home/assets/time-range-filter-dropdown-home.png)
-
-1. 按一下 **日**， **周**，或 **月** 篩選您的首頁，以便只顯示該時間範圍內到期的物件資訊。
-
 ## 還原為目前的首頁體驗
 
 對於偏好使用現有首頁體驗的使用者，可切換「新首頁」 。
-
 
 **返回目前的首頁體驗：**
 

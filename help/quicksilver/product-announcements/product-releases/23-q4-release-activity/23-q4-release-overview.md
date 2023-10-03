@@ -3,10 +3,10 @@ title: 2023年第四季版本總覽
 description: 2023年第四季版本總覽
 author: Becky
 feature: Product Announcements
-exl-id: 16d18e6c-b169-4c5d-8d0a-57711e24583d
-source-git-commit: 723c2b7b57b1e876ec6edaf4b1ac14ec1b983667
+exl-id: 6c14bd61-60b1-49aa-84bd-d494a226d70e
+source-git-commit: f776fb88000ea6044b88cba88d0cb7198c205d05
 workflow-type: tm+mt
-source-wordcount: '1884'
+source-wordcount: '1963'
 ht-degree: 0%
 
 ---
@@ -45,6 +45,7 @@ ht-degree: 0%
 
 * [管理員增強功能](#administrator-enhancements)
 * [展示板增強功能](#boards-enhancements)
+* [首頁增強功能](#home-enhancements)
 * [整合增強功能](#integration-enhancements)
 * [專案增強功能](#project-enhancements)
 * [其他增強功能](#other-enhancements)
@@ -201,26 +202,26 @@ ht-degree: 0%
                         </p>
                     </td>
                  </tr>
-                <!--<tr>
+                <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-14.md" class="MCXref xref" xrefformat="{para}">Changes to New Home </a> </p>
-                        <p>[!BADGE In production for Fast Release ]{type=Positive}</p>
-                        <p>Based on user feedback, we are removing the page-wide time range filter and summary bar. Project, Task, and Issue widgets each have built-in filtering features allowing you to customize their scope on an individual basis. Additionally, these widgets will now only include content marked ??Current??, ensuring the work they track is always relevant. we've also changed which widgets display "counter bubbles".</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-sept-11.md" class="MCXref xref" xrefformat="{para}">新首頁中的工作追蹤的變更 </a> </p>
+                        <p>[！BADGE In Production for Fast Release ]{type=Positive}</p>
+                        <p>根據使用者回饋，我們已移除頁面範圍時間範圍篩選器和摘要列，用於統計到期和完成的工作。 專案、任務和問題Widget各有內建的篩選功能，可讓您依個人情況自訂其範圍。</p>
                     </td>
-                    <td><p><b>Available on these dates:</b></p>
+                    <td><p><b>將於下列日期提供：</b></p>
                         <ul>
                             <li>
-                                <p>Preview release: September 13, 2023<br /></p>
+                                <p>預覽版本： 2023年9月13日<br /></p>
                             </li>
                             <li>
-                                <p>Production for fast release: With the 23.9 release</p>
+                                <p>快速發行生產：23.9版</p>
                             </li>
                             <li>
-                                <p>Production for quarterly release: With the 23.10 release</p>
+                                <p>每季發行生產：23.10版本</p>
                             </li>
                         </ul>
                     </td>
-                </tr>-->
+                </tr>
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-sept-11.md" class="MCXref xref" xrefformat="{para}">專案、任務和問題追蹤Widget的新快速存取按鈕</a> </p>
