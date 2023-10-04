@@ -10,9 +10,9 @@ author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: 10a5c04d-adbf-4985-a81c-1b33868ce260
-source-git-commit: 74b9876dbe630ae0e0264bb98f59ad5b61f10501
+source-git-commit: 9317f8ef2f31497dd7bb864472e4da4b1eca8edb
 workflow-type: tm+mt
-source-wordcount: '349'
+source-wordcount: '348'
 ht-degree: 2%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 2%
 
 ## 新的Workfront授權與新的存取層級如何繫結在一起
 
-這3種新的付費Workfront授權型別允許對Workfront有不同的存取層級。 每個存取層級都會附加至其中一個授權。
+這3種型別的新Workfront授權允許以不同層級存取Workfront。 每個存取層級都會附加至其中一個授權。
 
 身為Workfront管理員，您不必將授權指派給使用者，而是將附加至該授權的存取層級指派給使用者。
 
