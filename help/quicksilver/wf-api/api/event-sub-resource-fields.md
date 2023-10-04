@@ -6,16 +6,16 @@ description: 事件訂閱資源欄位
 author: Becky
 feature: Workfront API
 exl-id: 54859930-7619-4b93-8dff-29b10e43d6d5
-source-git-commit: 14e597fc14ab7c424b1313e9c30d69fe6bcd3741
+source-git-commit: 012d53d4773ea8fa377ea7c65cea6cc411ef5321
 workflow-type: tm+mt
-source-wordcount: '630'
+source-wordcount: '633'
 ht-degree: 10%
 
 ---
 
 # 事件訂閱資源欄位
 
-事件訂閱資源欄位代表事件的觸發條件，該事件會導致事件訂閱傳送傳出訊息至設定的端點。 編輯資源欄位時，會觸發UPDATE事件。
+事件訂閱資源欄位代表事件的觸發器，該事件會導致事件訂閱傳送傳出訊息至已設定的端點。 編輯資源欄位時會觸發UPDATE事件。
 
 下表列出事件訂閱資源可用的欄位：
 
@@ -54,12 +54,17 @@ ht-degree: 10%
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td> assignmentpercent </td> 
+   <td> assignmentPercent </td> 
   </tr> 
   <tr> 
    <td> </td> 
    <td> </td> 
    <td> avgWorkPerDay </td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> 分類器ID </td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -141,17 +146,22 @@ ht-degree: 10%
   <tr> 
    <td> </td> 
    <td> </td> 
+   <td>workPerDate</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
    <td>workPerDayList</td> 
   </tr> 
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>工作必要</td> 
+   <td>所需工作</td> 
   </tr> 
   <tr> 
    <td>公司</td> 
-   <td>CMP</td> 
-   <td>categoriid</td> 
+   <td>CMPY</td> 
+   <td>categoryID</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -161,7 +171,7 @@ ht-degree: 10%
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>enteredByID</td> 
+   <td>enteredById</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -241,7 +251,7 @@ ht-degree: 10%
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td> <p>lastUpdateDate</p> <p>注意： LastUpdateDate只會在每天第一次更新時觸發事件。 </p> </td> 
+   <td> <p>lastUpdateDate</p> <p>注意： LastUpdateDate只會在每天首次更新時觸發事件。 </p> </td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -261,7 +271,7 @@ ht-degree: 10%
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>portalProfileID</td> 
+   <td>Portalprofileid</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -276,7 +286,7 @@ ht-degree: 10%
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>categoriid</td> 
+   <td>categoryID</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -321,7 +331,7 @@ ht-degree: 10%
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>反複專案ID</td> 
+   <td>iterationID</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -346,7 +356,7 @@ ht-degree: 10%
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>noteID</td> 
+   <td>附註ID</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -391,7 +401,7 @@ ht-degree: 10%
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td> <p>referencenumber</p> </td> 
+   <td> <p>referenceNumber</p> </td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -416,7 +426,7 @@ ht-degree: 10%
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>範本識別碼</td> 
+   <td>templateID</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -426,7 +436,7 @@ ht-degree: 10%
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>topObjId</td> 
+   <td>Topobjid</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -456,7 +466,7 @@ ht-degree: 10%
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>documentProviderID</td> 
+   <td>Documentproviderid</td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> </td> 
@@ -471,7 +481,7 @@ ht-degree: 10%
   <tr data-mc-conditions=""> 
    <td> </td> 
    <td> </td> 
-   <td><span>enteredByID</span> </td> 
+   <td><span>enteredById</span> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> </td> 
@@ -561,7 +571,7 @@ ht-degree: 10%
   <tr data-mc-conditions=""> 
    <td> </td> 
    <td> </td> 
-   <td><span>proofStageID</span> </td> 
+   <td><span>proofstageid</span> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> </td> 
@@ -571,7 +581,7 @@ ht-degree: 10%
   <tr> 
    <td>費用</td> 
    <td>費用</td> 
-   <td> 實際數量 </td> 
+   <td> actualAmount </td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -586,7 +596,7 @@ ht-degree: 10%
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td> categoriid </td> 
+   <td> categoryID </td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -611,7 +621,7 @@ ht-degree: 10%
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>enteredByID</td> 
+   <td>enteredById</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -646,7 +656,7 @@ ht-degree: 10%
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td> isRefelemable </td> 
+   <td> 是可償還 </td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -671,7 +681,7 @@ ht-degree: 10%
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>objectCategory</td> 
+   <td>物件類別</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -686,7 +696,7 @@ ht-degree: 10%
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>plannedamount</td> 
+   <td>plannedAmount</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -696,7 +706,7 @@ ht-degree: 10%
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>plannedunitAmount</td> 
+   <td>plannedUnitAmou</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -731,7 +741,7 @@ ht-degree: 10%
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>範本識別碼 </td> 
+   <td>templateID </td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -746,7 +756,7 @@ ht-degree: 10%
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>topObjId</td> 
+   <td>Topobjid</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -759,7 +769,7 @@ ht-degree: 10%
    <td>topReferenceObjID</td> 
   </tr> 
   <tr> 
-   <td>時數</td> 
+   <td>小時</td> 
    <td>HOUR</td> 
    <td>存取子IDs</td> 
   </tr> 
@@ -896,7 +906,7 @@ ht-degree: 10%
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>時程表ID</td> 
+   <td>timesheetID</td> 
   </tr> 
   <tr> 
    <td>問題</td> 
@@ -916,7 +926,7 @@ ht-degree: 10%
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>categoriid</td> 
+   <td>categoryID</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -936,7 +946,7 @@ ht-degree: 10%
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>enteredByID</td> 
+   <td>enteredById</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -961,7 +971,7 @@ ht-degree: 10%
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>反複專案ID</td> 
+   <td>iterationID</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -1026,7 +1036,7 @@ ht-degree: 10%
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>queueDefID</td> 
+   <td>queueDefId</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -1036,7 +1046,7 @@ ht-degree: 10%
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>referencenumber</td> 
+   <td>referenceNumber</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -1046,7 +1056,7 @@ ht-degree: 10%
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>rejectionIssueID</td> 
+   <td>rejectionissedid</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -1061,7 +1071,7 @@ ht-degree: 10%
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>resolveTaskId</td> 
+   <td>resolvetaskid</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -1101,7 +1111,7 @@ ht-degree: 10%
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>submittedByID</td> 
+   <td>submittedById</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -1121,17 +1131,17 @@ ht-degree: 10%
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>attachDocumentID</td> 
+   <td>attachDocumentId</td> 
   </tr> 
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>attachObjID</td> 
+   <td>Attactionobjid</td> 
   </tr> 
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>attachOpTaskID</td> 
+   <td>attachOpTaskId</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -1141,7 +1151,7 @@ ht-degree: 10%
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>attachWorkUserID</td> 
+   <td>Attactionworkuserid</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -1181,7 +1191,7 @@ ht-degree: 10%
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>反複專案ID</td> 
+   <td>iterationID</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -1211,7 +1221,7 @@ ht-degree: 10%
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>parentInvaldateID</td> 
+   <td>parentInventationID</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -1221,7 +1231,7 @@ ht-degree: 10%
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>parentNoteID</td> 
+   <td>parentnotedid</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -1241,7 +1251,7 @@ ht-degree: 10%
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>proofActionID</td> 
+   <td>proofactionid</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -1266,7 +1276,7 @@ ht-degree: 10%
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>範本識別碼</td> 
+   <td>templateID</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -1281,12 +1291,12 @@ ht-degree: 10%
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>時程表ID</td> 
+   <td>timesheetID</td> 
   </tr> 
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>topObjId</td> 
+   <td>Topobjid</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -1306,7 +1316,7 @@ ht-degree: 10%
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>categoriid</td> 
+   <td>categoryID</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -1321,7 +1331,7 @@ ht-degree: 10%
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>enteredByID</td> 
+   <td>enteredById</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -1381,7 +1391,7 @@ ht-degree: 10%
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>categoriid</td> 
+   <td>categoryID</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -1396,7 +1406,7 @@ ht-degree: 10%
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>enteredByID</td> 
+   <td>enteredById</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -1471,7 +1481,12 @@ ht-degree: 10%
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>categoriid</td> 
+   <td>attachedRateCardID </td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>categoryID</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -1506,7 +1521,7 @@ ht-degree: 10%
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>deliverablescorcardID</td> 
+   <td>deliverablescorecardID</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -1516,7 +1531,7 @@ ht-degree: 10%
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>enteredByID</td> 
+   <td>enteredById</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -1541,7 +1556,7 @@ ht-degree: 10%
     <tr> 
    <td> </td> 
    <td> </td> 
-   <td>issueWorkflowAutomationID</td> 
+   <td>issueWorkflowautomationID</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -1611,22 +1626,22 @@ ht-degree: 10%
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>queueDefID</td> 
+   <td>queueDefId</td> 
   </tr> 
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>referencenumber</td> 
+   <td>referenceNumber</td> 
   </tr> 
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>rejectionIssueID</td> 
+   <td>rejectionissedid</td> 
   </tr> 
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>resourcePoolID</td> 
+   <td>resourcePoolId</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -1651,12 +1666,12 @@ ht-degree: 10%
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>submittedByID</td> 
+   <td>submittedById</td> 
   </tr> 
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>TaskworkflowautomationID</td> 
+   <td>taskWorkflowAutomationID</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -1666,7 +1681,7 @@ ht-degree: 10%
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>範本識別碼</td> 
+   <td>templateID</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -1675,7 +1690,7 @@ ht-degree: 10%
   </tr> 
   <tr data-mc-conditions=""> 
    <td><span>ProofApproval</span> </td> 
-   <td><span>PRFAPI</span> </td> 
+   <td><span>預設</span> </td> 
    <td><span>存取子IDs</span> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -1726,7 +1741,7 @@ ht-degree: 10%
   <tr data-mc-conditions=""> 
    <td> </td> 
    <td> </td> 
-   <td><span>requesterID</span> </td> 
+   <td><span>請求者ID</span> </td> 
   </tr> 
   <tr> 
    <td>報告</td> 
@@ -1751,7 +1766,7 @@ ht-degree: 10%
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>enteredByID</td> 
+   <td>enteredById</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -1806,17 +1821,17 @@ ht-degree: 10%
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>偏好設定ID</td> 
+   <td>preferenceID</td> 
   </tr> 
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>publicRunAsUserID</td> 
+   <td>publicRunAsUserId</td> 
   </tr> 
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>reportFolderId</td> 
+   <td>reportfolderid</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -1866,7 +1881,7 @@ ht-degree: 10%
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>categoriid</td> 
+   <td>categoryID</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -1896,7 +1911,7 @@ ht-degree: 10%
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>enteredByID</td> 
+   <td>enteredById</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -1926,7 +1941,7 @@ ht-degree: 10%
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>反複專案ID</td> 
+   <td>iterationID</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -1976,7 +1991,7 @@ ht-degree: 10%
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>parentId</td> 
+   <td>parentid</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -1996,17 +2011,17 @@ ht-degree: 10%
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>recurrenceRuleID</td> 
+   <td>recurrenceRuleId</td> 
   </tr> 
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>referencenumber</td> 
+   <td>referenceNumber</td> 
   </tr> 
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>rejectionIssueID</td> 
+   <td>rejectionissedid</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -2031,7 +2046,7 @@ ht-degree: 10%
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>submittedByID</td> 
+   <td>submittedById</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -2061,7 +2076,7 @@ ht-degree: 10%
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>categoriid</td> 
+   <td>categoryID</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -2071,7 +2086,7 @@ ht-degree: 10%
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>deliverablescorcardID</td> 
+   <td>deliverablescorecardID</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -2086,7 +2101,7 @@ ht-degree: 10%
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>enteredByID</td> 
+   <td>enteredById</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -2115,7 +2130,7 @@ ht-degree: 10%
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>issueWorkflowAutomationID</td> 
+   <td>issueWorkflowautomationID</td> 
   </tr> 
   </tr> 
   <tr> 
@@ -2171,7 +2186,7 @@ ht-degree: 10%
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>queueDefID</td> 
+   <td>queueDefId</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -2181,7 +2196,7 @@ ht-degree: 10%
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>referencenumber</td> 
+   <td>referenceNumber</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -2196,7 +2211,7 @@ ht-degree: 10%
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>TaskworkflowautomationID</td> 
+   <td>taskWorkflowAutomationID</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -2216,7 +2231,7 @@ ht-degree: 10%
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>核准者清單字串</td> 
+   <td>approversListString</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -2251,12 +2266,12 @@ ht-degree: 10%
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>hoursduration</td> 
+   <td>hoursDuration</td> 
   </tr> 
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>isEditable</td> 
+   <td>可編輯</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -2281,7 +2296,7 @@ ht-degree: 10%
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>overtimeHours</td> 
+   <td>overftimeHours</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -2301,7 +2316,7 @@ ht-degree: 10%
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>時程表設定檔ID</td> 
+   <td>timesheetProfileID</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -2316,12 +2331,12 @@ ht-degree: 10%
   <tr> 
    <td>使用者</td> 
    <td>使用者</td> 
-   <td>accessLevelID</td> 
+   <td>accessLevelId</td> 
   </tr> 
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>categoriid</td> 
+   <td>categoryID</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -2346,7 +2361,7 @@ ht-degree: 10%
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>eauthUserID</td> 
+   <td>Eauthuserid</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -2356,7 +2371,7 @@ ht-degree: 10%
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>enteredByID</td> 
+   <td>enteredById</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -2371,7 +2386,7 @@ ht-degree: 10%
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>homeTeamId</td> 
+   <td>Hometeamid</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -2446,12 +2461,12 @@ ht-degree: 10%
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>portalProfileID</td> 
+   <td>Portalprofileid</td> 
   </tr> 
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>resourcePoolID</td> 
+   <td>resourcePoolId</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -2466,7 +2481,7 @@ ht-degree: 10%
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>時程表設定檔ID</td> 
+   <td>timesheetProfileID</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -2481,12 +2496,12 @@ ht-degree: 10%
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>uumUserId</td> 
+   <td>Uuuserid</td> 
   </tr> 
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>tiworkHoursPerDaytle</td> 
+   <td>workHoursPerDay </td> 
   </tr> 
  </tbody> 
 </table>
