@@ -6,9 +6,9 @@ description: 您可以篩選展示板以僅顯示特定卡片。
 author: Lisa
 feature: Agile
 exl-id: 26abce82-dcd9-4865-96f4-c710f7f0a0d8
-source-git-commit: 44ced4ec8af150bc373699389bd63d150cc387f6
+source-git-commit: 55d47665ca53c63142d5b71830fe56a05d991c74
 workflow-type: tm+mt
-source-wordcount: '625'
+source-wordcount: '671'
 ht-degree: 0%
 
 ---
@@ -91,11 +91,18 @@ ht-degree: 0%
 依預設，電路板上只會顯示作用中的卡片。 您可以篩選展示板以顯示任何已封存的卡片。
 
 1. 存取展示板。
+1. 按一下 [!UICONTROL **設定**] ，以開啟「設定」面板。
+1. 展開 [!UICONTROL **卡片**].
+1. 開啟 [!UICONTROL **在展示板上顯示已封存的卡片**].
 1. 按一下 [!UICONTROL **篩選**]，展開 [!UICONTROL 已封存的卡片] 部分，然後選取 **[!UICONTROL 已封存的卡片]** 以顯示任何已封存的卡片。
 
    篩選器會顯示已封存的卡片數量。
 
-   ![篩選已封存的卡片](assets/boards-filter-by-archived-cards_0822.png)
+   ![篩選已封存的卡片](assets/filter-by-archived-cards.png)
+
+   >[!NOTE]
+   >
+   >此 [!UICONTROL 已封存的卡片] 如果您未開啟顯示封存卡片的組態設定，則區段在篩選中無法使用。
 
 1. 選取 **[!UICONTROL 已封存的卡片]** 再次清除選項並僅顯示作用中的卡片。
 
