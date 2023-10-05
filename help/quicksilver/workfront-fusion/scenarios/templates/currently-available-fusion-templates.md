@@ -7,9 +7,9 @@ description: Adobe Workfront Fusion目前提供下列公用範本。
 author: Becky
 feature: Workfront Fusion
 exl-id: 29d95b93-ab54-416d-b0d5-ff12634951b2
-source-git-commit: 2211431b4c4e3d751519fe8441cfa578e713ac77
+source-git-commit: 12f6d4f261dec50f76b3ecb35e3159900d34bbff
 workflow-type: tm+mt
-source-wordcount: '866'
+source-wordcount: '1078'
 ht-degree: 0%
 
 ---
@@ -28,9 +28,29 @@ Adobe Workfront Fusion目前提供下列公用範本。
 
 ### [!BADGE 新增!]{type=Informative}
 
-此自動化功能會使用自訂表單來監視程式中的新專案。 然後，它會將這些計畫自訂表單和欄位新增到新專案。
+此自動化會根據您在CSV中指定的名稱、Portfolio、狀態、計劃開始日期和範本詳細資訊，在Workfront中建立新專案。
 
 ### [!BADGE 新增!]{type=Informative}
+
+使用此範本來強制30天附註更新您的請求。 未在30天內更新的請求其狀態會在60天變更並關閉。
+
+### [!BADGE 新增!]{type=Informative}
+
+此自動化會將具有1005完成時所有任務的專案更新為「完成」狀態。 有未完成問題或未完成任務或專案核准的專案將收到更新，在解決後，專案將移動到「完成」狀態。
+
+### [!BADGE 新增!]{type=Informative}
+
+使用此情境協助針對符合您組織過時專案原則的專案，自動發出警告，並關閉專案。
+
+### [!BADGE 新增!]{type=Informative}
+
+使用此範本將問題或請求的附註和回覆複製到已轉換的專案或任務。
+
+### Workfront — 複製計畫自訂Forms和欄位資料至關聯的新專案
+
+此自動化功能會使用自訂表單來監視程式中的新專案。 然後，它會將這些計畫自訂表單和欄位新增到新專案。
+
+### Workfront — 將自訂Forms和欄位資料複製到關聯的新專案Portfolio
 
 此自動化功能會透過自訂表單，監控投資組合中的新專案。 然後，它會將這些產品組合自訂表單和欄位新增到新專案。
 
@@ -58,7 +78,7 @@ Adobe Workfront Fusion目前提供下列公用範本。
 
 此範本每週星期一早上6點在依投資組合篩選的專案上擷取專案基準，並在更新流中建立更新以供記錄。
 
-### [!BADGE 新增!]{type=Informative}
+### 尋找原則時間內未使用的專案範本並通知
 
 每月使用您自己的原則來檢閱一次專案範本，這個容易管理的範本會通知違反您原則之範本上的適當使用者。
 
@@ -81,6 +101,10 @@ Adobe Workfront Fusion目前提供下列公用範本。
 >[!NOTE]
 >
 > 您必須擁有Workfront Fusion for Work Automation and Integration授權，才能在此區段使用範本。
+
+### [!BADGE 新增!]{type=Informative}
+
+為使用者端API建立JWT授權。
 
 ### APILayer > Workfront — 每日匯率更新(EUR)
 
@@ -105,6 +129,19 @@ Adobe Workfront Fusion目前提供下列公用範本。
 ### 在Workfront中檢閱您Marketo Engage電子郵件草稿的電子郵件校樣
 
 此範本會偵測Workfront任務是否已設定為準備好檢閱狀態，然後從Marketo Engage匯出電子郵件草稿以將其儲存為Workfront中的校訂。
+
+## Workfront-SharePoint範本
+
+這些範本可連線Workfront和SharePoint。
+
+>[!NOTE]
+>
+> 您必須擁有Workfront Fusion for Work Automation and Integration授權，才能在此區段使用範本。
+
+### [!BADGE 新增!]{type=Informative}
+
+此範本可讓您檢視SharePoint資料夾中是否有變更。
+
 
 ## Workfront-Anaplan範本
 
@@ -131,3 +168,6 @@ Adobe Workfront Fusion目前提供下列公用範本。
 
 * [建立 [!DNL Anaplan] 清單專案來自 [!DNL Adobe Workfront] 行銷活動請求](../../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/create-an-anaplan-list-item-from-a-workfront-campaign-request.md)
 * [套用 [!DNL Anaplan] 預算分配至 [!DNL Adobe Workfront] 行銷活動請求或行銷活動專案](../../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/apply-anaplan-budget-allocation-to-workfront-campaign-requests-and-projects.md)
+
+
+<!--[!BADGE New!]{type=Informative} -->
