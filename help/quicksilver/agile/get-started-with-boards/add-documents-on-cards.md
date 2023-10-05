@@ -2,17 +2,22 @@
 product-area: agile-and-teams
 navigation-topic: get-started-with-boards
 title: 在卡片上新增檔案
-description: 即將推!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+description: 您可以將檔案新增至Adobe Workfront展示板上已連線的卡片。
 author: Lisa
 feature: Agile
-source-git-commit: 5c7842352a5b69d04e018e13756a2047c77a0855
+exl-id: d68c1eec-c527-44b0-bdc5-ca3b7731b648
+source-git-commit: 72197651cc13b8a8509510663d840b76f4b23a4f
 workflow-type: tm+mt
-source-wordcount: '282'
+source-wordcount: '299'
 ht-degree: 0%
 
 ---
 
 # 在卡片上新增檔案
+
+>[!IMPORTANT]
+>
+>此功能在所有環境中暫時停用。
 
 {{article-preview-and-fast-release}}
 
