@@ -4,9 +4,9 @@ description: 2023年第四季版本總覽
 author: Becky
 feature: Product Announcements
 exl-id: 6c14bd61-60b1-49aa-84bd-d494a226d70e
-source-git-commit: f776fb88000ea6044b88cba88d0cb7198c205d05
+source-git-commit: f0385bd49e11ed95ea36e4ccdf7a6ba4774c3f7e
 workflow-type: tm+mt
-source-wordcount: '1963'
+source-wordcount: '2017'
 ht-degree: 0%
 
 ---
@@ -66,6 +66,25 @@ ht-degree: 0%
                         </p>
                     </td>
                  </tr>
+                 <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-oct-2.md" class="MCXref xref" xrefformat="{para}">自訂表單的計算欄位現在可以使用$$USER萬用字元</a><span style="color: #ff0000;"> 預覽中的新增專案！</span></p>
+                        <p>$$USER萬用字元現在可用於新表單設計工具的計算自訂欄位和外部查閱欄位中。</p>
+                    </td>
+                    <td><p><b>將於下列日期提供：</b></p>
+                        <ul>
+                            <li>
+                                <p>預覽版本： 2023年10月5日</p>
+                            </li>
+                            <li>
+                                <p>快速發行生產：第23.10發行版本</p>
+                            </li>
+                            <li>
+                                <p>每季發行生產：23.10版本</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
                  <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-sept-11.md" class="MCXref xref" xrefformat="{para}">從外部API新增值選項至自訂表單</a></p>
