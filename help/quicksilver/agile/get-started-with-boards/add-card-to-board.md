@@ -6,9 +6,9 @@ description: 您可以快速將臨機操作卡新增到展示板，並將其指�
 author: Lisa
 feature: Agile
 exl-id: 9bc1f92a-85b0-44fd-b5de-09a69af6def5
-source-git-commit: 0208beb1f45377b151a526738b6d182880c37774
+source-git-commit: b25a165dd85b64a154233b64ae2fc9b676a5aaa2
 workflow-type: tm+mt
-source-wordcount: '856'
+source-wordcount: '904'
 ht-degree: 0%
 
 ---
@@ -51,6 +51,13 @@ ht-degree: 0%
 1. 按一下 **[!UICONTROL 主要功能表]** 圖示 ![](assets/main-menu-icon.png) 位於的右上角 [!DNL Adobe] Workfront，然後按一下 **[!UICONTROL 展示板]**.
 1. 存取展示板。 如需詳細資訊，請參閱 [建立或編輯展示板](../../agile/get-started-with-boards/create-edit-board.md).
 1. 按一下 **[!UICONTROL 新增卡片] > [!UICONTROL 新卡片]**.
+
+   此 [!UICONTROL 卡片詳細資料] 方塊出現。
+
+   >[!NOTE]
+   >
+   >如果您在「名稱」欄位外部按一下，臨機操作卡片會自動在最左欄底部儲存為「未命名」。 若要結束而不儲存卡片，您必須按一下 [!UICONTROL **取消**] 而不需在 [!UICONTROL 卡片詳細資料] 方塊。
+
 1. 在 **[!UICONTROL 卡片詳細資料]** 方塊中，新增下列資訊：
 
    <table style="table-layout:auto"> 
