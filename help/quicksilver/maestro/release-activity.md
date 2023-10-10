@@ -4,13 +4,13 @@ description: 使用Maestro建立自訂物件、欄位和工作區。
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 28602d66b43ec4c30a9f13cff43157b978439d99
+exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
+source-git-commit: f4ef463ebdc9a4a7a0802e5394d7820ebc447aa9
 workflow-type: tm+mt
-source-wordcount: '1458'
+source-wordcount: '1519'
 ht-degree: 0%
 
 ---
-
 
 # Adobe大師發行活動
 
@@ -34,13 +34,21 @@ ht-degree: 0%
 
 功能每週都會發行，並依發行順序列出，最新的則排在前。 參與Maestro封閉測試版計畫的客戶可以存取其預覽和生產環境中的所有功能。
 
+## 2023年10月9日當週
+
+### 在表格檢視中搜尋
+
+預覽和生產： 2023年10月9日
+
+您現在可以搜尋關鍵字，以便在表格檢視中快速尋找記錄。 您可以在熒幕上顯示的任何欄位中使用關鍵字和特殊字元來尋找記錄。 如需詳細資訊，請參閱 [管理表格檢視](../maestro/views/manage-the-table-view.md).
+
 ## 2023年9月18日當週
 
 ### 重新排序列
 
 預覽和生產： 2023年9月20日
 
-您現在可以在記錄型別頁面的「表格」檢視中，重新排序一或多個列（或記錄）。
+您現在可以在記錄型別頁面的「表格」檢視中，重新排序一或多個列（或記錄）。 如需詳細資訊，請參閱 [管理表格檢視](../maestro/views/manage-the-table-view.md).
 
 ## 2023年9月4日當週
 

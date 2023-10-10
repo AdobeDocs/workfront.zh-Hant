@@ -8,9 +8,9 @@ feature: Work Management
 topic: Collaboration
 role: User
 exl-id: 97c83b65-208b-4e3f-b4cc-681237d82aa3
-source-git-commit: 7c624eff8931d206285b6c4d91083f4bf09a88b0
+source-git-commit: f4ef463ebdc9a4a7a0802e5394d7820ebc447aa9
 workflow-type: tm+mt
-source-wordcount: '1289'
+source-wordcount: '1374'
 ht-degree: 2%
 
 ---
@@ -35,7 +35,9 @@ ht-degree: 2%
 
 * 將問題轉換為任務或專案時，問題會從指派給問題的使用者的首頁區域移除。
 
-* 使用範本將問題轉換為專案時，範本中的大部分資訊會傳輸到新專案。 不過，問題中的某些資訊也可傳輸到新專案。 如需詳細資訊，請參閱 [使用範本將問題轉換為專案時的專案欄位概觀](#overview-of-project-fields-when-converting-an-issue-to-a-project-using-a-template) 一節。
+* 轉換問題時，原始問題的許可權未傳輸到轉換的物件（任務或專案）。
+
+* 使用範本將問題轉換為專案時，範本中的大部分資訊會傳輸到新專案。 不過，問題中的某些資訊也可傳輸到新專案。 如需詳細資訊，請參閱 [使用範本將問題轉換為專案時的專案欄位概觀](#overview-of-project-fields-when-converting-an-issue-to-a-project-using-a-template) 一節。
 * 轉換問題時，並非所有檔案或其資訊都會移至問題轉換為的新物件。 當您轉換附加了檔案或檔案連結的問題時，會包含下列專案：
 
    * 文件
@@ -110,12 +112,17 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td>群組</td> 
-   <td>從範本傳輸。 如果範本上沒有群組，則會設定為問題所屬的專案群組。</td> 
+   <td><p> 存在下列情況：</p>
+     <ul><li>如果在轉換期間指定了群組，則該群組會成為專案的群組</li>
+     <li>如果您使用範本轉換為專案，且範本上有一個群組，且在轉換過程中您未指定群組，則範本群組會變成新專案的群組</li>
+      <li> 如果範本上沒有群組，且您在轉換期間未指定群組，則原始問題專案的群組將變成新專案的群組</li> </ul>
+      </td> 
   </tr> 
   <tr> 
-   <td>公司</td> 
-   <td>從範本傳輸。 否則，此欄位為空白。</td> 
-  </tr> 
+   <td>公司</td>    
+   <td>  從範本傳輸。 否則，此欄位為空白。</td>
+
+</tr> 
   <tr> 
    <td>專案所有者</td> 
    <td>從範本的「範本所有者」欄位轉移。 否則，會設定為執行轉換的登入使用者。 </td> 

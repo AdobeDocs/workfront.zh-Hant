@@ -6,13 +6,13 @@ description: 本文包含有關新評論體驗最常見問題的清單。
 author: Alina
 feature: Product Announcements
 role: User, Admin
-source-git-commit: 709b36f4471e5576e45ed918783216a1f7f4abac
+exl-id: 5ce15530-0858-44a4-b928-779654310dee
+source-git-commit: f4ef463ebdc9a4a7a0802e5394d7820ebc447aa9
 workflow-type: tm+mt
-source-wordcount: '456'
+source-wordcount: '458'
 ht-degree: 0%
 
 ---
-
 
 # 新的評論體驗常見問題集
 
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 目前我們僅支援註釋的影像附件。 如果您想檢視其他檔案型別，請提交創新實驗室請求，以便我們瞭解此功能有何需求。
 
-## 您是否會新增在新評論體驗中編輯工作專案狀態、狀況或規劃完成日期的功能？
+## 您是否會新增在新評論體驗中編輯工作專案的狀態、條件、認可日期或規劃完成日期的功能？
 
 我們不打算恢復執行這些動作的能力，因為這些動作可從標題和物件的「詳細資訊」區域取得。 我們確實瞭解我們要求您變更使用評論資料流的模式，但我們這麼做是為了讓評論體驗保持其直接的溝通和協同合作目的。
 
