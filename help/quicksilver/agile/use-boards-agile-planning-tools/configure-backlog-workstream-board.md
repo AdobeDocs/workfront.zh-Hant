@@ -7,14 +7,18 @@ description: 您可以選擇在工作流程中的展示板上顯示待處理資�
 author: Lisa
 feature: Agile
 exl-id: fd2f6eeb-a565-4461-a153-0504ad3c07d7
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+source-git-commit: 4e5bff5ad62dce8766072e04e3a2b89371a90f03
 workflow-type: tm+mt
-source-wordcount: '472'
+source-wordcount: '482'
 ht-degree: 0%
 
 ---
 
 # 在工作流程展示板上設定待處理專案
+
+>[!IMPORTANT]
+>
+>工作串流僅適用於特定客戶群組。
 
 您可以選擇在工作流程中的展示板上顯示待處理資料欄，並為從工作流程卡片清單提取到展示板待處理資料中的卡片定義查詢。
 

@@ -3,25 +3,30 @@ content-type: reference
 product-area: agile-and-teams
 navigation-topic: boards
 title: 使用卡片清單
-description: 您可以在工作流上建立卡片清單，並將卡片新增至迭代。
+description: 您可以在工作流程上建立卡片清單，並將卡片新增到疊代。
 author: Lisa
 feature: Agile
-source-git-commit: 8c02f5364154bdc343512416d0c7e38ef563a170
+exl-id: 2976f7e8-be84-4d27-9d70-8430392d5331
+source-git-commit: d44eb048103e469bc072cc5287947fea471668b3
 workflow-type: tm+mt
-source-wordcount: '606'
+source-wordcount: '613'
 ht-degree: 0%
 
 ---
 
 # 使用卡片清單
 
-您可以在工作流上建立卡片清單，並將卡片新增至迭代。
+>[!IMPORTANT]
+>
+>工作串流無法供所有客戶使用。
 
-卡清單可作為工作流的積壓工作。
+您可以在工作流程上建立卡片清單，並將卡片新增到疊代。
+
+卡片清單可作為工作流程的待處理工作。
 
 ## 存取需求
 
-您必須具備下列存取權，才能執行本文中的步驟：
+您必須具有下列存取權才能執行本文中的步驟：
 
 <table style="table-layout:auto"> 
  <col> 
@@ -35,99 +40,98 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] 授權*</strong></td> 
-   <td> <p>[!UICONTROL Request]或更高版本</p> </td> 
+   <td> <p>[！UICONTROL Request]或更高版本</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## 將資訊卡新增至資訊卡清單
+## 將卡片新增至卡片清單
 
 {{step1-to-boards}}
 
-1. 若要開啟工作流，請按一下 [!UICONTROL **檢視工作流**].
+1. 若要開啟工作流程，請按一下 [!UICONTROL **檢視工作流程**].
 1. 按一下 [!UICONTROL **卡片清單**] 標籤。
 1. 按一下 [!UICONTROL **新增卡片**].
-1. 在 [!UICONTROL **建立/編輯卡片**] 對話框中，添加以下資訊：
+1. 在 [!UICONTROL **建立/編輯卡片**] 對話方塊，新增下列資訊：
 
    <table style="table-layout:auto"> 
     <tbody> 
      <tr> 
-      <td><strong>[!UICONTROL名稱]</strong></td> 
-      <td>卡片的名稱。</td> 
+      <td><strong>[！UICONTROL名稱]</strong></td> 
+      <td>卡片名稱。</td> 
      </tr> 
      <tr> 
-      <td><strong>[!UICONTROL描述]</strong></td> 
+      <td><strong>[！UICONTROL說明]</strong></td> 
       <td>卡片的說明。</td> 
      </tr>
      <tr> 
-      <td><strong>[!UICONTROL估計]</strong></td> 
-      <td>卡完成的預計小時數。 這只是手動輸入。</td> 
+      <td><strong>[！UICONTROL估算]</strong></td> 
+      <td>要完成的卡片預計小時數。 這僅是手動輸入。</td> 
      </tr>
      <tr> 
-      <td><strong>[!UICONTROL狀態]</strong></td> 
+      <td><strong>[！UICONTROL狀態]</strong></td> 
       <td>選取卡片的狀態。</td> 
      </tr>
      <tr> 
-      <td><strong>[!UICONTROL迭代]</strong></td> 
-      <td>選取要將卡片指派給的小版本。</td> 
+      <td><strong>[！UICONTROL反複專案]</strong></td> 
+      <td>選取要指派卡片的目標反複專案。</td> 
      </tr>
      <tr> 
-      <td><strong>[!UICONTROL受分配者]</strong></td> 
-      <td><p>若要指派資訊卡，請開始在搜尋欄位中輸入名稱，然後在資訊卡顯示於清單時加以選取。 您可以新增個人和團隊，並且可以指派多個人員或團隊至資訊卡。</p><p>受分配者必須是工作流上的成員，否則它們不會出現在選擇清單中。</p></td> 
+      <td><strong>[！UICONTROL受託人]</strong></td> 
+      <td><p>若要指派卡片，請在搜尋欄位中開始輸入名稱，然後在其顯示在清單中時選取它。 您可以同時新增個人和團隊，也可以將多個人員或團隊指派至卡片。</p><p>受指派人必須是工作流程的成員，否則他們不會出現在選取專案清單中。</p></td> 
      </tr>
     </tbody> 
    </table>
 
 1. 按一下&#x200B;[!UICONTROL **儲存**]。
-1. 繼續新增資訊卡，直到您建立資訊卡清單為止。
+1. 繼續新增卡片，直到您建立卡片清單為止。
 
-## 檢視資訊卡
+## 檢視卡片
 
-若要在單一清單中檢視工作流的所有卡片，請按一下 [!UICONTROL **清單檢視**] （在「卡片清單」頁簽上）。
+若要在單一清單中檢視工作流程的所有卡片，請按一下 [!UICONTROL **清單檢視**] 在「卡片清單」標籤上。
 
-要查看按小版本分組的工作流的所有卡，請按一下 [!UICONTROL **迭代視圖**]. 計畫外卡顯示在自己的組中。
+若要檢視依疊代分組的工作流的所有卡片，請按一下 [!UICONTROL **反複專案檢視**]. 未計畫的卡片會顯示在自己的群組中。
 
-若要編輯現有的資訊卡，請在清單中選取資訊卡，然後按一下 [!UICONTROL **編輯**].
+若要編輯現有卡片，請在清單中選取該卡片，然後按一下 [!UICONTROL **編輯**].
 
-若要刪除資訊卡，請在清單中選取資訊卡，然後按一下 [!UICONTROL **刪除**].
+若要刪除卡片，請在清單中選取該卡片，然後按一下 [!UICONTROL **刪除**].
 
-### 篩選卡
+### 篩選卡片
 
-卡片只能從迭代展示板封存。 封存卡片時，除非您篩選以顯示已封存的卡片，否則卡片清單中不會顯示該卡片。 如需封存資訊卡的詳細資訊，請參閱 [從展示板刪除或封存資訊卡](/help/quicksilver/agile/get-started-with-boards/delete-board-items.md).
+卡片只能從疊代板封存。 封存卡片時，除非您篩選以顯示已封存的卡片，否則卡片清單中不會顯示卡片。 如需封存卡片的詳細資訊，請參閱 [從展示板中刪除或封存卡片](/help/quicksilver/agile/get-started-with-boards/delete-board-items.md).
 
-1. 存取工作流的卡清單。
-1. 按一下 [!UICONTROL **篩選**] 選取 [!UICONTROL **全部**], [!UICONTROL **作用中卡**]，或 [!UICONTROL **封存的卡片**].
+1. 存取工作流程的卡片清單。
+1. 按一下 [!UICONTROL **篩選**] 並選取 [!UICONTROL **全部**]， [!UICONTROL **使用中的卡片**]，或 [!UICONTROL **已封存的卡片**].
 
-   當卡片清單上套用預設值以外的篩選時，篩選器圖示上會顯示指標 ![已套用篩選](assets/boards-filterapplied-30x30.png).
+   當在卡片清單上套用預設以外的篩選器時，篩選器圖示上會顯示一個指示器 ![已套用篩選器](assets/boards-filterapplied-30x30.png).
 
 ### 在卡片清單中搜尋
 
-1. 存取工作流的卡清單。
-1. 按一下 [!UICONTROL **搜尋**] 並輸入搜尋詞。 然後，按Enter鍵。
+1. 存取工作流程的卡片清單。
+1. 按一下 [!UICONTROL **搜尋**] 並輸入搜尋字詞。 然後，按下Enter。
 
-   會顯示包含搜尋詞的所有卡片。
+   所有包含搜尋字詞的卡片都會顯示。
 按一下X以清除搜尋。
 
-   ![在展示板中搜尋資訊卡](assets/boards-searchbox.png)
+   ![搜尋展示板中的卡片](assets/boards-searchbox.png)
 
-## 將卡片新增至小版本
+## 將卡片新增至反複專案
 
 >[!NOTE]
 >
->您必須先建立小版本，才能新增卡片。 如需詳細資訊，請參閱 [在工作流中建立小版本](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration-in-workstream.md).
+>您必須先建立反複專案，才能在其中新增卡片。 如需詳細資訊，請參閱 [在工作串流中建立反複專案](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration-in-workstream.md).
 
-1. 存取工作流的卡清單。
-1. 選取 [!UICONTROL **迭代視圖**] 查看哪些卡被分配給小版本，哪些是計畫外的。
-1. 在清單中選擇計畫外卡，然後按一下 [!UICONTROL **編輯**].
-1. 在 [!UICONTROL **迭代**] 欄位。
-1. 如果您使用動態點，請在 [!UICONTROL **估計**] 欄位。
+1. 存取工作流程的卡片清單。
+1. 選取 [!UICONTROL **反複專案檢視**] 檢視哪些卡片已指派給疊代，哪些是未計畫的卡片。
+1. 在清單中選取未計畫的卡片，然後按一下 [!UICONTROL **編輯**].
+1. 選取反複專案 [!UICONTROL **反複專案**] 欄位。
+1. 如果您使用劇本點，請在 [!UICONTROL **預估**] 欄位。
 1. 按一下&#x200B;[!UICONTROL **儲存**]。
 
-   卡片會移至小版本，而小版本量度會反映卡片和點的數量。
+   卡片會移至疊代，疊代量度會反映卡片和點的數量。
 
-   您也可以將卡片從「計畫外卡片」組拖放到小版本中，或按一下 [!UICONTROL **新增卡片**] 將新卡添加到小版本。
+   您也可以將卡片從「未計畫的卡片」群組拖放至疊代中，或按一下 [!UICONTROL **新增卡片**] 以新增卡片至反複專案。
 
 >[!TIP]
 >
->如果已建立迭代流程板，則卡清單上的所有計畫外卡都將顯示在 [!UICONTROL 積壓] 欄。 當卡片移入另一欄時，它會成為作用中小版本的一部分。 您新增至卡片清單中小版本的卡片，會根據其狀態新增至欄。
-
+>如果您已建立疊代程式板，卡片清單中所有未計畫的卡片都會顯示在 [!UICONTROL 待處理專案] 欄。 將卡片移至另一欄時，它會成為作用中疊代的一部分。 您新增到卡片清單中疊代的卡片會根據其狀態新增到欄。

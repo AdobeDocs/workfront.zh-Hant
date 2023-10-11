@@ -6,14 +6,18 @@ description: 您可以從清單或報告檢視將任何任務或問題新增到A
 author: Lisa
 feature: Agile
 exl-id: 5e6fd681-8068-4091-9f42-0364b17e0465
-source-git-commit: eb337ec6b467cd4f52d852dc90975c0679ef59fe
+source-git-commit: 4e5bff5ad62dce8766072e04e3a2b89371a90f03
 workflow-type: tm+mt
-source-wordcount: '609'
+source-wordcount: '619'
 ht-degree: 0%
 
 ---
 
 # 將現有任務或問題新增至 [!DNL Adobe Workfront] 展示板或工作流程
+
+>[!IMPORTANT]
+>
+>工作串流僅適用於特定客戶群組。
 
 您可以將任何任務或問題新增到中的展示板或工作流程 [!DNL Adobe Workfront] 從清單或報告檢視，或從「物件詳細資訊」。
 
