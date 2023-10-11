@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: f4ef463ebdc9a4a7a0802e5394d7820ebc447aa9
+source-git-commit: 7614652b57c57e1176dfb48058f890fd4e5c942e
 workflow-type: tm+mt
-source-wordcount: '1659'
+source-wordcount: '1687'
 ht-degree: 4%
 
 ---
@@ -145,12 +145,6 @@ Maestro表格檢視的欄標題會顯示與檢視中記錄相關聯的欄位。 
    >
    >* 「名稱」欄位已凍結，且不是水準捲動的一部分。
 
-1. 在列中選取一或多個記錄，然後拖放 **控點** 圖示 ![](assets/handle-icon.png) 記錄名稱左側，以重新排序列。
-
-   >[!NOTE]
-   >
-   >如果您對表格檢視至少套用一種排序，則無法重新排序列。
-
 1. 按一下並拖曳欄分隔線，並將它們拖曳到所需的位置以增加欄寬。
 
    >[!TIP]
@@ -191,9 +185,16 @@ Maestro表格檢視的列會顯示所選記錄型別的個別記錄。
 
 在Maestro中，記錄型別最多可以有10,000筆記錄（或列）。
 
-在Maestro表格檢視中新增資料列，與在表格中建立記錄相同。
+1. 移至記錄型別頁面並選取 **表格** 從「檢視」下拉式選單中檢視。
+1. 開始新增記錄（或列），如文章所述 [建立記錄](../records/create-records.md).
 
-如需詳細資訊，請參閱 [建立記錄](../records/create-records.md).
+   您在表格檢視中新增的記錄會立即儲存，並且所有存取Maestro的使用者都能看到。 <!--this will change with permissions-->
+
+1. （選擇性）選取一列中的一或多個記錄，然後拖放 **控點** 圖示 ![](assets/handle-icon.png) 記錄名稱左側，以重新排序列。
+
+   >[!NOTE]
+   >
+   >如果您對表格檢視至少套用一種排序，則無法重新排序列。
 
 <!-- this is not possible right now:
 
