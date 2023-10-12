@@ -3,10 +3,10 @@ title: 23.3版本總覽
 description: 23.3版本總覽
 author: Becky
 feature: Product Announcements
-exl-id: 9bf786e2-e077-4504-b928-9091fcb61ec1
-source-git-commit: 53c124eec4d78b59e5b44e95ec28db7de779aec7
+exl-id: 441d84d6-6c40-4a03-967e-836cf78c8fc1
+source-git-commit: 46d0a392875f24a55ebddaa7ff123bca0289a0bf
 workflow-type: tm+mt
-source-wordcount: '2738'
+source-wordcount: '2737'
 ht-degree: 0%
 
 ---
@@ -361,7 +361,7 @@ ht-degree: 0%
                             </li>
                             <li>
                                 <p>快速發行客戶的生產版本：將在23.3生產版本之後宣佈</p>
-                                <p>適用於所有客戶的生產版本：第23.10版本（2023年10月）<br>
+                                <p>適用於所有客戶的生產版本：即將宣佈<br>
                                 指派率覆寫功能在2023年6月30日至7月13日期間在預覽中暫時停用。</p>
                             </li>
                         </ul>
@@ -739,7 +739,7 @@ ht-degree: 0%
            </tbody>
         </table>
 
-## 佈告
+## 公告
 
 ### Workfront Fusion增強功能
 

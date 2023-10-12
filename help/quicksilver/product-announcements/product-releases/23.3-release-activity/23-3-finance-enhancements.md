@@ -3,9 +3,10 @@ title: 23.3 Financial Management增強功能
 description: 23.3 Financial Management增強功能
 author: Lisa
 feature: Product Announcements
-source-git-commit: 685529997d785b1bd98ef0fbc97b47dc59ea0244
+exl-id: dc8ea58d-ad8a-45c8-bd02-552ab6127c38
+source-git-commit: 46d0a392875f24a55ebddaa7ff123bca0289a0bf
 workflow-type: tm+mt
-source-wordcount: '276'
+source-wordcount: '275'
 ht-degree: 0%
 
 ---
@@ -27,7 +28,7 @@ ht-degree: 0%
 >
 >* 快速發行客戶的生產版本：將在23.3生產版本之後宣佈
 >
->* 所有客戶的生產版本：所有客戶的生產版本：23.10版本（2023年10月）
+>* 所有客戶的生產版本：所有客戶的生產版本：即將宣佈
 >
 >指派率覆寫功能在2023年6月30日至7月13日期間在預覽中暫時停用。
 

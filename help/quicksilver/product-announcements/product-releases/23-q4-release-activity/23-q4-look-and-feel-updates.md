@@ -4,10 +4,10 @@ description: 2023年第四季發行時間範圍內的外觀與感覺更新
 author: Lisa
 draft: Probably
 feature: Product Announcements
-exl-id: d667c25f-87c3-4465-81e6-481cd1e93e87
-source-git-commit: ab046a9ee532b7ef97f721e4c7b41a1a0543d647
+exl-id: c18a5ff5-ac84-43a3-8980-ddadea3c2677
+source-git-commit: 05c209f7ba40ec7434d392a79efa96330294f20a
 workflow-type: tm+mt
-source-wordcount: '190'
+source-wordcount: '241'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,16 @@ ht-degree: 0%
 本頁說明在2023年第四季發行時間範圍內對Adobe Workfront應用程式的各個區域外觀和感覺所做的小幅更新。
 
 如需2023年第四季版本所有可用變更的清單，請參閱 [2023年第四季版本總覽](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md).
+
+## 工作負載平衡器中手動調整配置的指標
+
+>[!NOTE]
+>
+>預覽版本： 2023年10月12日；適用於所有客戶的生產版本：待定
+
+為了更清楚地說明工作負載平衡器中手動調整或分佈，手動調整的每小時分配現在會顯示一個鉛筆圖示。
+
+如需詳細資訊，請參閱 [在工作負載平衡器中管理使用者配置](/help/quicksilver/resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md).
 
 ## 「設定通知」區域中索引標籤的新外觀更新
 
