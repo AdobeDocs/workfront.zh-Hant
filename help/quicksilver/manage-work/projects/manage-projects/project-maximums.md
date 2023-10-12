@@ -1,24 +1,24 @@
 ---
-title: 專案限制概觀
+title: 專案限制總覽
 content-type: overview
 product-area: projects
 navigation-topic: manage-projects
-description: Adobe Workfront有限制可與專案關聯的物件數。 已設定專案限制，以改善產品效能並提升您使用Workfront的體驗。
+description: Adobe Workfront對可與專案相關聯的物件數量有限制。 設定專案限制是為了改善產品效能並增強您對Workfront的體驗。
 author: Alina
 feature: Work Management
 exl-id: 60576107-89f1-4328-89e2-5b1e5e243fd9
-source-git-commit: 809f1c3629c343a55305c0c617f4974dc05439bf
+source-git-commit: 8be7534dfc0a1227bd2274ad093a88ae19b4691d
 workflow-type: tm+mt
-source-wordcount: '385'
+source-wordcount: '405'
 ht-degree: 0%
 
 ---
 
-# 專案限制概觀
+# 專案限制總覽
 
-Adobe Workfront有限制可與專案相關聯的物件數。 已設定專案限制，以改善產品效能並提升您使用Workfront的體驗。
+Adobe Workfront對可與專案相關聯的物件數量有限制。 設定專案限制是為了改善產品效能並增強您對Workfront的體驗。
 
-與項目關聯的以下對象具有以下限制：
+下列與專案關聯的物件具有下列限制：
 
 <table style="table-layout:auto"> 
  <col> 
@@ -26,32 +26,34 @@ Adobe Workfront有限制可與專案相關聯的物件數。 已設定專案限�
  <tbody> 
   <tr> 
    <td role="rowheader"><p>任務</p></td> 
-   <td>  <p>每個項目的任務數上限為5,000。 當任務數達到此上限時，會顯示警告訊息。 達到上限時，會顯示錯誤訊息，且無法將其他工作新增至專案。</p> <p>為避免達到此最大值，請將已關閉的任務移至為已結束任務指定的另一個項目。 這些項目的報告可能需要調整。</p>
+   <td>  <p>每個專案的最大任務數量為5,000。 當任務數量接近此上限時，系統會顯示警告訊息。 當達到最大時，會顯示錯誤訊息，並且無法將其他任務新增到專案。</p> <p>為避免達到此上限，請將已關閉的任務移動到指定給已關閉任務的另一個專案。 這些專案的報告可能需要調整。</p>
 
 <b>重要</b>
 
-對於任務具有大量依賴項的項目，我們建議項目中的任務數應遠低於允許的5,000個任務的最大數。
+對於任務有許多相依性的專案，計算時間表或在專案中工作時，可能會發生效能降低。
 
-可能會影響或阻止重新計算項目時間表的任務依賴關係的一些示例如下：
+因此，我們建議相依性複雜的專案中的任務數量應遠低於允許的5,000個任務的上限。
 
-<ul><li>子代數</li>
-   <li>多級任務縮進</li>
-   <li>前置任務數</li>
-   <li>多項分配</li>
+可能會影響或阻止重新計算專案時間表的一些任務相依性範例包括：
+
+<ul><li>子項數目</li>
+   <li>多個層級的任務縮排</li>
+   <li>前置任務數量</li>
+   <li>多個指派</li>
    </ul>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><p>問題</p></td> 
-   <td>  <p>每個專案的問題數上限為10,000。 當問題數量接近此上限時，會顯示警告訊息。 達到上限時，會顯示錯誤訊息，且無法將其他問題新增至專案。</p> <p>為避免達到此上限，請將關閉的問題移至指定用於關閉問題的另一個專案。 這些項目的報告可能需要調整。</p> </td> 
+   <td>  <p>每個專案的問題數量上限為10,000。 當問題數量接近此上限時，系統會顯示警告訊息。 當達到最大時，會顯示錯誤訊息，並且無法將其他問題新增到專案。</p> <p>為避免達到此上限，請將已關閉的問題移動到針對已關閉問題指定的另一個專案。 這些專案的報告可能需要調整。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><p>持續時間</p></td> 
-   <td> <p>專案的最長持續時間必須為15年，Workfront才能自動計算其時間軸。 當專案持續時間接近上限時，會顯示警告訊息。 達到上限時，會顯示警告訊息，不再進行自動時間軸計算。</p> <p>只要調整項目中任務的日期，將項目的持續時間縮短到15年以下，自動時間軸計算就會恢復。</p> </td> 
+   <td> <p>專案的最大期間必須為15年，Workfront才能自動計算其時間表。 當專案持續時間接近最大值時會顯示警告訊息。 當達到最大值時，會顯示警告訊息，且不再進行自動時間表計算。</p> <p>一旦專案期間減少到15年以下，就會透過調整專案中任務的日期來恢復自動時間表計算。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><p>時間軸計算</p></td> 
-   <td>Workfront不會為6個月未更新的專案執行自動時間軸計算，且只有進行更新後才會繼續。<p>對於3個月未更新的專案，Workfront會每週執行時間軸計算，而非夜間計算。</p><p>如需計算專案時間軸的相關資訊，請參閱 <a href="../../../manage-work/projects/manage-projects/recalculate-project-timeline.md" class="MCXref xref">重新計算項目時間表</a>. </p></td> 
+   <td role="rowheader"><p>時間表計算</p></td> 
+   <td>Workfront不會為在6個月內未更新的專案執行自動時間表計算，並在更新後才會繼續。<p>對於在3個月內未更新的專案，Workfront會每週執行時間表計算，而非每晚執行。</p><p>如需有關計算專案時間表的相關資訊，請參閱 <a href="../../../manage-work/projects/manage-projects/recalculate-project-timeline.md" class="MCXref xref">重新計算專案時間表</a>. </p></td> 
   </tr> 
  </tbody> 
 </table>

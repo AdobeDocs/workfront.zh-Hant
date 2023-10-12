@@ -6,8 +6,8 @@ description: 檢閱Adobe Workfront新評論體驗的每週發行活動。
 author: Alina
 feature: Product Announcements
 role: User, Admin
-exl-id: 1c0cb547-ac99-4cdf-8a74-2c47ad5a10ad
-source-git-commit: b774a74863bb35e3477a69ff11189c40a6d66437
+exl-id: 276b28f0-3955-4a0e-aa31-604b291f2f14
+source-git-commit: 8be7534dfc0a1227bd2274ad093a88ae19b4691d
 workflow-type: tm+mt
 source-wordcount: '2047'
 ht-degree: 2%
@@ -70,6 +70,18 @@ ht-degree: 2%
 下節包含原始23.2發行後新增的功能清單，從最近發行的功能開始。
 
 以下資訊是指每週發行活動，其基礎為包含在新的評論測試版體驗中的功能。 本文列出針對新評論體驗新增的功能及已解決的問題。
+
+<!--CHECK THE DATES BELOW, BEFORE POSTING: 
+
+### Week of October 9, 2023
+
+#### Add back the "on behalf of <user name>" information when commenting on behalf of other users
+
+While redesigning the commenting experience, we had removed the "on behalf of < user name >" indicator when a Workfront or group administrator added comments while logged in as another user. This information has now been restored. 
+
+Preview and production for all customers: October 13, 2023. 
+
+-->
 
 ### 2023年9月11日起一週
 
@@ -319,7 +331,7 @@ ht-degree: 2%
 
 針對註解Beta版的問題和目標發佈了以下維護更新：
 
-在離開目標更新和評論測試版體驗中的問題時，將影像保留為草稿. 如需詳細資訊，請參閱文章中的「4月20日維護更新」一節 <a href="https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=en#updates-in-april-2023">2023年4月更新</a>.
+在離開目標更新和註解測試版體驗中的問題時，將影像保留為草稿. 如需詳細資訊，請參閱文章中的「4月20日維護更新」一節 <a href="https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=en#updates-in-april-2023">2023年4月更新</a>.
 
 ### 2023 年 4 月 17 日
 

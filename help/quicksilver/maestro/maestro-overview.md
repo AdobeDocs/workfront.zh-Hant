@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: f4ef463ebdc9a4a7a0802e5394d7820ebc447aa9
+source-git-commit: 8be7534dfc0a1227bd2274ad093a88ae19b4691d
 workflow-type: tm+mt
 source-wordcount: '1818'
 ht-degree: 1%
@@ -366,6 +366,12 @@ To share the Maestro area using a layout template:
 | 提交請求 |                               |                                  | ✓ |
 | 創意簡報 |                               |                                  | ✓ |
 | 自訂記錄的顏色和圖示 | ✓ |                                  |                 |
+<!--
+Add another row for Rich text formatting:
+
+
+|     Rich Text formatting for Paragraph fields                                 |      ✓                         |                                  |                 |
+-->
 
 ## Maestro發行活動
 

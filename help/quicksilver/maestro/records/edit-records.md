@@ -4,13 +4,13 @@ description: 您可以在Adobe Maestro中編輯記錄資訊。 您必須先建�
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 28602d66b43ec4c30a9f13cff43157b978439d99
+exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
+source-git-commit: 8be7534dfc0a1227bd2274ad093a88ae19b4691d
 workflow-type: tm+mt
-source-wordcount: '567'
+source-wordcount: '577'
 ht-degree: 1%
 
 ---
-
 
 <!--udpate the metadata with real information when making this avilable in TOC and in the left nav-->
 
@@ -88,7 +88,7 @@ ht-degree: 1%
 * 您可以編輯您或其他使用者建立的記錄。 <!--will change with access levels-->
 * 如果編輯的記錄連結到其他記錄，則您正在編輯的記錄的新資訊會反映在連結的記錄上。
 * 您無法大量編輯記錄。 <!--this will probably change-->
-
+* 您無法編輯從其他記錄連結的欄位。
 
 ## 編輯記錄
 
@@ -145,6 +145,11 @@ ht-degree: 1%
    >* 連結的欄位不可編輯。 這些欄位的資訊會自動從連結的記錄中填入。 如需詳細資訊，請參閱 [連線記錄型別](../architecture-and-fields/connect-record-types.md).
    >
    >* URL只有以下列專案開頭時，才會被識別為單行文字欄位型別中的連結： http://、https://、ftp://或www。.
+<!--for rich text formatting - when released:
 
+1. (Conditional) When you edit a Paragraph-type field, use the following Rich Text formatting capabilities: 
 
-
+    * Bold
+    * Italic
+    * Underline (*****anything else?? insert a screen shot?***********)
+-->
