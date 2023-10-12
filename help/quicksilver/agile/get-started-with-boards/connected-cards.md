@@ -6,9 +6,9 @@ description: 您可以在展示板上新增卡片，該卡片會連線至Workfro
 author: Lisa
 feature: Agile
 exl-id: c6d979dd-e4a4-48a5-a91b-b31d7ef848d1
-source-git-commit: 0208beb1f45377b151a526738b6d182880c37774
+source-git-commit: e7b4fef2485f08df6655b5e441784ae84fc36de8
 workflow-type: tm+mt
-source-wordcount: '1375'
+source-wordcount: '1426'
 ht-degree: 0%
 
 ---
@@ -134,9 +134,17 @@ ht-degree: 0%
       <td><p>您新增的任何自訂欄位都會顯示在此區域中。</p>
       <p>如需詳細資訊，請參閱 <a href="/help/quicksilver/agile/get-started-with-boards/customize-fields-on-card.md">自訂要在卡片上顯示的欄位</a>.</p></td>
      </tr>
+     <tr>
+     <tr>
+      <td role="rowheader"><span class="preview"><strong>[！UICONTROL Subtask]</strong></span></td>
+      <td><span class="preview"><p>任務的任何現有子任務都會出現在此區段中。 按一下 <strong>[！UICONTROL新增子任務]</strong> 以新增子任務。</p>
+      <p>區段頂端的計數器顯示已完成子工作的數目以及子工作的總數。</p>
+      <p>如需子工作的詳細資訊，請參閱 <a href="/help/quicksilver/agile/get-started-with-boards/manage-subtasks-on-boards.md">管理展示板上的子任務</a>.</p></span></td>
+     </tr>
      <tr> 
-      <td role="rowheader"><strong>[！UICONTROL檢查清單]</strong> </td> 
-      <td> <p>按一下 <strong>[！UICONTROL新增檢查清單專案]</strong>. 然後，輸入專案的標題並按Enter鍵。 系統會自動新增另一個專案。 繼續輸入標題以新增更多專案。</p> <p>檢查清單頂端的計數器顯示已完成的專案數和專案總數。</p> <p>如需檢查清單專案的詳細資訊，請參閱 <a href="/help/quicksilver/agile/get-started-with-boards/manage-checklist-items.md">管理卡片上的檢查清單專案</a>.</p></td>
+      <td role="rowheader"><strong>[！UICONTROL檢查清單]</strong></td>
+      <td><p>按一下 <strong>[！UICONTROL新增檢查清單專案]</strong>. 然後，輸入專案的標題並按Enter鍵。 系統會自動新增另一個專案。 繼續輸入標題以新增更多專案。</p>
+      <p>檢查清單頂端的計數器顯示已完成的專案數和專案總數。</p> <p>如需檢查清單專案的詳細資訊，請參閱 <a href="/help/quicksilver/agile/get-started-with-boards/manage-checklist-items.md">管理卡片上的檢查清單專案</a>.</p></td>
      </tr>
      <tr>
       <td role="rowheader"><span class="preview"><strong>[！UICONTROL檔案]</strong></span></td>
