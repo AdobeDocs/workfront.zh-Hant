@@ -1,0 +1,83 @@
+---
+title: Fourth Quarter 2023 release activity week of August 14, 2023
+description: Fourth Quarter 2023 release activity week of August 14, 2023
+author: Nolan
+draft: Probably
+feature: Product Announcements
+exl-id: 53169d4d-87dd-4151-8a25-513c1ea1d1f4
+---
+# Fourth Quarter 2023 release activity week of August 14, 2023
+
+This page describes all enhancements made with the Fourth Quarter 2023 release to the Preview environment the week of August 14, 2023. These enhancements will be made available in the Production environment with the Fourth Quarter 2023 release.
+
+On August 31, 2023, many of the enhancements listed on this page were released to Production for the fast release (monthly) track. For more information on the fast release process, see [Enable or disable the fast release process](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).
+
+For a list of all changes available at this point in the Fourth Quarter 2023 release cycle, see [Fourth Quarter 2023 release overview](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md).
+
+## Dynamic re-calculation of calculated fields on forms
+
+Calculated fields on a form attached to an object are now dynamically re-calculated in real time when dependent values on any form on the page are modified. This allows you to see the updated results without saving the form.
+
+The way that the fields are calculated has not changed.
+
+A small number of form fields will not have dynamic re-calculation, on pages that have not been modernized.
+
+For more information, see [Edit information in custom form fields](/help/quicksilver/workfront-basics/work-with-custom-forms/edit-custom-forms.md).
+
+[View a video demonstration of this feature.](https://video.tv.adobe.com/v/3422678/){target=_blank}
+
+## Set planned hours on child recurring tasks with Simple duration type without assignments
+
+We have made a change in the way Planned Hours are allocated to recurring tasks with no assignments and a Simple duration type. Now, when you set Planned Hours on a new recurring task with a Simple Duration Type and no assignments, the hours are also allocated to the individual recurrences. Prior to this change, the hours were not saved for individual recurrences when the parent tasks were unassigned.
+
+For information about creating recurring tasks, see [Create recurring tasks](/help/quicksilver/manage-work/tasks/create-tasks/create-recurring-tasks.md).
+
+## Add documents on connected cards
+
+You can now attach documents on connected cards on Adobe Workfront Boards. Any documents you add on the card become available on the Documents tab of the connected task or issue, and the same file types are supported in both areas.
+
+At this time, you can't delete documents from the card, but you can delete a document from the Documents tab on the task or issue.
+
+For more information, see [Add documents on cards](/help/quicksilver/agile/get-started-with-boards/add-documents-on-cards.md).
+
+[View a video demonstration of this feature.](https://video.tv.adobe.com/v/3423070/){target=_blank}
+
+## New filter options for New Home
+
+New filter options are now available for the My Work widget in New Home. Options include filters for object types (tasks, issues, and requests) and statuses (not ready, ready to start, working on, and completed).
+
+For more information on filtering content in New Home, see [Get started with New Home](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md)
+
+## Custom terminology support for New Home
+
+To better meet the unique needs of organizations, New Home now utilizes custom terminology for objects as defined in an instance's layout templates. For example, if "Project" objects have been relabeled as "Campaigns" in your Workfront instance, the My Projects widget will instead display as My Campaigns in New Home.
+
+For more information on the the content available in New Home, see [Get started with New Home](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md)
+
+## Change to New Home default widget set
+
+The To-dos widget, which requires permission to create tasks, is now only present in the default widget set for users with the Standard, Plan, or Work license types. Additionally, the widget has been automatically removed from the Home pages of users with all other license types.
+
+For more information on the widgets available in New Home, see [Get started with New Home](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md)
+
+## Try New Home button removed for accounts that have disabled New Home
+
+The Try New Home button is no longer present for accounts where New Home has been disabled. New Home must be re-enabled by the system administrator before individual users can use the button to try New Home.
+
+For more information on enabling or disabling New Home, see [Get started with New Home](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md)
+
+<!--
+## Date effective cost and billing rates
+
+Date effective cost and billing rates are now available on the company, user, and job role objects in Workfront. When date effective rates are applied to a project, and hours are logged on project tasks, the costs and revenue are calculated using the specified rates for each time period.
+
+Also, date effective job role sets are now available on the user profile. These date effective role associations are considered in financial calculations if the user's job role changes during a project.
+
+A new feature, rate cards, allows you to define multiple billing rates per job role, based on location. A billing rate for a job role and location can also include effective dates. Rate cards can be attached to projects to apply all of the rate information at once for the specific job role and location. Location based roles can also be assigned to tasks with a possibility to override their rates on the assignment level.
+
+## Bulk delete rates from rate cards
+
+You can now remove multiple rates at one time from a rate card in the Setup area.
+
+For more information, see [Manage rate cards](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md).
+-->

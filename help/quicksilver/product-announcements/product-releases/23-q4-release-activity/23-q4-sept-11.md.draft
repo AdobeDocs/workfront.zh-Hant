@@ -1,0 +1,39 @@
+---
+title: Fourth Quarter 2023 release activity week of September 11, 2023
+description: Fourth Quarter 2023 release activity week of September 11, 2023
+author: Lisa
+draft: Probably
+feature: Product Announcements
+exl-id: 094bd13a-e810-4b55-ae16-556648ab94b3
+---
+# Fourth Quarter 2023 release activity week of September 11, 2023
+
+This page describes all enhancements made with the Fourth Quarter 2023 release to the Preview environment the week of September 11, 2023. These enhancements will be made available in the Production environment with the Fourth Quarter 2023 release.
+
+On September 28, 2023, many of the enhancements listed on this page were released to Production for the fast release (monthly) track. For more information on the fast release process, see [Enable or disable the fast release process](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).
+
+For a list of all changes available at this point in the Fourth Quarter 2023 release cycle, see [Fourth Quarter 2023 release overview](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md).
+
+## Add value options from an external API to a custom form
+
+A new field type, **External lookup**, is now available on the custom form designer. When you have data stored on an external system, this field type allows you to load options from an external API and filter based on other field values in the custom form.
+
+When the form is added to an object, the values returned from the API appear in a dropdown field and the user can select one.
+
+>[!NOTE]
+>
+>The new **External lookup** field type is not available on the legacy form builder.
+
+For more information, see [Design a form with the form designer](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+
+## Changes to work tracking in New Home
+
+Based on user feedback, we have removed the page-wide time range filter and summary bar that tallied tasks due and completed. Project, Task, and Issue widgets each have built-in filtering features allowing you to customize their scope on an individual basis. Additionally, these widgets will now only include content that is currently active based on status, ensuring the work they track is always relevant. We've also limited which widgets display item-count bubbles to those where it is most useful: My Work, Mentions, Awaiting My Approval, and To-dos.
+
+For more information on tracking work in New Home, see [Get started with New Home](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md).
+
+## New quick access buttons for the Project, Task, and Issue tracking widgets
+
+Further expanding  your ability to manage work directly from New Home, new quick access buttons have been added to the Project, Task, and Issue tracking widgets (including My Work). Found on each project, task, issue, or request in these widgets, these new buttons allow you to quickly open the summary pane, upload files, edit custom forms, create an update, and log time without leaving your New Home page—as well as a larger Work On It button.
+
+For more information on the widget capabilities in New Home, see [Get started with New Home](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md).

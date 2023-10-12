@@ -1,0 +1,19 @@
+---
+title: Fourth Quarter 2023 release activity week of October 2, 2023
+description: Fourth Quarter 2023 release activity week of October 2, 2023
+author: Lisa
+draft: Probably
+feature: Product Announcements
+exl-id: 6ea9c0c1-7810-404b-bff9-ffa11eccee87
+---
+# Fourth Quarter 2023 release activity week of October 2, 2023
+
+This page describes all enhancements made with the Fourth Quarter 2023 release to the Preview environment the week of October 2, 2023. These enhancements will be made available in the Production environment with the Fourth Quarter 2023 release.
+
+For a list of all changes available at this point in the Fourth Quarter 2023 release cycle, see [Fourth Quarter 2023 release overview](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md).
+
+## Calculated fields on custom forms can now use the $$USER wildcard
+
+The `$$USER` wildcard is now available in calculated custom fields and external lookup fields on the new form designer. Referencing `$$USER` in a calculation adds the current user's ID. You can also use the wildcard with another field. For example, `$$USER.{name}` would add the current user's name.
+
+For more information on calculated fields, see [Add calculated fields with the form designer](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md).

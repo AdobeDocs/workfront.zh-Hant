@@ -1,0 +1,31 @@
+---
+title: Fourth Quarter 2023 release activity week of July 31, 2023
+description: Fourth Quarter 2023 release activity week of July 31, 2023
+author: Becky
+draft: Probably
+feature: Product Announcements
+exl-id: 0e4cde50-14ad-46c0-a6df-8c48334e22e0
+---
+# Fourth Quarter 2023 release activity week of July 31, 2023
+
+This page describes all enhancements made with the Fourth Quarter 2023 release to the Preview environment the week of July 31, 2023. These enhancements will be made available in the Production environment with the Fourth Quarter 2023 release. 
+
+For a list of all changes available at this point in the Fourth Quarter 2023 release cycle, see [Fourth Quarter 2023 release overview](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md).
+
+## Documents available on connected cards as view-only
+
+For connected cards on Adobe Workfront Boards, you can now view documents such as images and PDFs. You can either preview a document in the browser or download it to your computer.
+
+At this time, a document must be uploaded to the Workfront task for it to be available on the connected card.
+
+For more information, see [Use connected cards on boards](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
+
+## Board view of a project now available for issues
+
+You can now access a Board view of a project issue list. The Kanban board can help you track the progress of the issues in a more visual way than viewing them in the list.
+
+>[!NOTE]
+>
+>The Board view exists only on a single project because it is an alternative view of the project, and you can't access it from other areas of Workfront such as the Boards dashboard.
+
+For more information, see [Manage a project in the Agile View](/help/quicksilver/manage-work/projects/manage-projects/manage-projects-in-agile-view.md).

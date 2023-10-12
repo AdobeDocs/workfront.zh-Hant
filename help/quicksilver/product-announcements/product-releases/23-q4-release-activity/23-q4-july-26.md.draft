@@ -1,0 +1,23 @@
+---
+title: Fourth Quarter 2023 release activity week of July 24, 2023
+description: Fourth Quarter 2023 release activity week of July 24, 2023
+author: Becky
+draft: Probably
+feature: Product Announcements
+exl-id: 09a763ec-2194-4027-aa34-eba44ec11ace
+---
+# Fourth Quarter 2023 release activity week of July 24, 2023
+
+This page describes all enhancements made with the Fourth Quarter 2023 release to the Preview environment the week of July 24, 2023. These enhancements will be made available in the Production environment with the Fourth Quarter 2023 release.
+
+On August 31, 2023, many of the enhancements listed on this page were released to Production for the fast release (monthly) track. For more information on the fast release process, see [Enable or disable the fast release process](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).
+
+For a list of all changes available at this point in the Fourth Quarter 2023 release cycle, see [Fourth Quarter 2023 release overview](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md).
+
+## Updated design when adding a new issue to a project 
+
+This update has been announced with the 23.3 release.  
+
+We have updated the New Issue box which displays when submitting a new issue to a project. Now, the interface matches the New request box which displays when submitting a new request to a request queue.  
+
+For more information, see [Create issues](/help/quicksilver/manage-work/issues/manage-issues/create-issues.md).

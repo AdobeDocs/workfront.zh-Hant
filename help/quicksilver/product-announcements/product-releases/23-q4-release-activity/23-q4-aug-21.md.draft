@@ -1,0 +1,48 @@
+---
+title: Fourth Quarter 2023 release activity week of August 21, 2023
+description: Fourth Quarter 2023 release activity week of August 21, 2023
+author: Becky
+draft: Probably
+feature: Product Announcements
+exl-id: 959b431d-b7ab-4fcd-b343-200a01bed65b
+---
+# Fourth Quarter 2023 release activity week of August 21, 2023
+
+This page describes all enhancements made with the Fourth Quarter 2023 release to the Preview environment the week of August 21, 2023. These enhancements will be made available in the Production environment with the Fourth Quarter 2023 release.
+
+On August 31, 2023, many of the enhancements listed on this page were released to Production for the fast release (monthly) track. For more information on the fast release process, see [Enable or disable the fast release process](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).
+
+For a list of all changes available at this point in the Fourth Quarter 2023 release cycle, see [Fourth Quarter 2023 release overview](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md).
+
+## Enhancements to user assignments on boards and cards
+
+The following enhancements are now available when adding users to boards and cards in Adobe Workfront Boards:
+
+* You can now add any Workfront users as assignees to a card, not only users who are members on the board.
+* Adding a user as an assignee on a card no longer automatically adds that user as a board member.
+* Removing a user from a board no longer removes that user from all card assignments for the board.
+
+For more information, see [Add or remove members from a board](/help/quicksilver/agile/get-started-with-boards/add-members-to-board.md).
+
+[View a video demonstration of this feature](https://video.tv.adobe.com/v/3423222/){target=_blank}
+
+## Enhancements to experience when sending documents to SharePoint (GraphAPI)
+
+We've made some changes to the way you send documents to your SharePoint (GraphAPI) folders
+
+* You can use the new search box to more easily locate the folder or site you want to sent the document to.
+* The Send to window now displays up to 500 sites, folders, and documents.
+* Search results now display different icons for SharePoint sites and folders, making it clear which results are sites and which are folders. Files do not display an icon.
+
+For more information, see [Link documents through the new SharePoint integration](/help/quicksilver/administration-and-setup/configure-integrations/configure-sharepoint-integration.md#link-documents-through-the-new-sharepoint-integration).
+
+## Upgrades to drag-and-drop for document integrations
+
+We've made some enhancements to the user experience when dragging and dropping a file into a linked folder.
+
+* For better transparency into the process, we've added a "Moving" indicator that displays while the file is in the process of moving to the linked folder.
+* Now, users cannot interact with the file while it is moving. This prevents users from deleting or editing a file that has already begun to move to the linked folder, since the moving file will not contain the changes.
+
+These changes affect all document integrations, including Adobe Experience Manager and SharePoint.
+
+For more information, see [Move a document to a linked folder in Experience Manager Assets](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/send-to-aem.md#move-a-document-to-a-linked-folder-in-experience-manager-assets).
