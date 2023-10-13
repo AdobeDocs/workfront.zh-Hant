@@ -6,9 +6,9 @@ description: 使用工作負載平衡器瞭解資源的可用性，並將工作�
 author: Alina
 feature: Resource Management
 exl-id: 60dabfc5-6a2e-4368-9dac-db48d0307895
-source-git-commit: 675088f913fdd3d1218a1f48fb2086a6cf6b2548
+source-git-commit: 7429353804e69a32b69a7ae6c7ca8d4e9f231be8
 workflow-type: tm+mt
-source-wordcount: '4054'
+source-wordcount: '4082'
 ht-degree: 0%
 
 ---
@@ -109,9 +109,11 @@ ht-degree: 0%
 
   >[!NOTE]
   >
-  >* 指派給工作角色或團隊的工作專案，以及同時指派給作為主要受指派人的使用者的工作專案，不會顯示在「未指派的工作」區域中。
-  >* 指派給使用者與工作角色的工作專案（其中工作角色被選取為專案的主要受指派者）會顯示在未指派的工作區域中。
+  >* 指派給工作角色或團隊的工作專案，以及指派給作為主要受指派人的使用者的工作專案，會顯示在「未指派的工作」區域中，並在「已指派的工作」區域中的已指派使用者名稱下方。
+  >* 指派給使用者和工作角色的工作專案（工作角色被選取為專案的主要受指派者）會顯示在「未指派的工作」區域中。
   >* 指派給多個使用者的工作專案會顯示在「已指派的工作」區域中所有已指派使用者的名稱下。
+
+  如需詳細資訊，請參閱以下的「工作負載平衡器的指派區域」： [在工作負載平衡器中指派工作的總覽](/help/quicksilver/resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md).
 
 * 當專案在一段時間內沒有任務時，專案層級的列會變成暗淡的顏色。
 
