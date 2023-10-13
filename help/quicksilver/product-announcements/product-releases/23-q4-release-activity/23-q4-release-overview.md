@@ -4,9 +4,9 @@ description: 2023年第四季版本總覽
 author: Becky
 feature: Product Announcements
 exl-id: 6c14bd61-60b1-49aa-84bd-d494a226d70e
-source-git-commit: 1b247102f3d413e779106577a8b4a9c2c39b20da
+source-git-commit: 2fa6cfa10bab8714c8e30b9b1e084ee626ec933a
 workflow-type: tm+mt
-source-wordcount: '2528'
+source-wordcount: '2599'
 ht-degree: 0%
 
 ---
@@ -285,6 +285,25 @@ These enhancements will be included in the following releases:
                         </p>
                     </td>
                 </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-home-enhancements.md" class="MCXref xref" xrefformat="{para}">專案、任務和問題Widget的委派工作按鈕</a> <span style="color: #ff0000;"> 預覽中的新增專案！</span></p>
+                        <p>作為舊首頁的常見功能，我們現在已將委派按鈕新增到「我的工作」、「我的任務」和「我的問題」Widget，以便您在外出時可以輕鬆委派工作。</p>
+                    </td>
+                    <td><p><b>將於下列日期提供：</b></p>
+                        <ul>
+                            <li>
+                                <p>預覽版本： 2023年10月12日</p>
+                            </li>
+                            <li>
+                                <p>快速發行生產：第23.10發行版本</p>
+                            </li>
+                            <li>
+                                <p>每季發行生產：23.10版本</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>                
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-home-enhancements.md" class="MCXref xref" xrefformat="{para}">新首頁的新面板Widget</a> <span style="color: #ff0000;"> 預覽中的新增專案！</span></p>

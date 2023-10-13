@@ -3,9 +3,9 @@ title: 2023年第四季首頁增強功能
 description: 2023年第四季首頁增強功能
 author: Lisa
 feature: Product Announcements
-source-git-commit: 4d5a8958137e5f85510c5239dfc797ddf1ca24ed
+source-git-commit: 2fa6cfa10bab8714c8e30b9b1e084ee626ec933a
 workflow-type: tm+mt
-source-wordcount: '730'
+source-wordcount: '839'
 ht-degree: 0%
 
 ---
@@ -15,6 +15,12 @@ ht-degree: 0%
 本頁說明2023年第四季版本對「預覽」環境所做的所有首頁增強功能。 這些增強功能將在23.10版本的生產環境中提供。
 
 如需2023年第四季版本週期目前可用的所有變更清單，請參閱 [2023年第四季版本總覽](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md).
+
+## 專案、任務和問題Widget的委派工作按鈕
+
+作為舊首頁的常見功能，我們現在已將委派按鈕新增到「我的工作」、「我的任務」和「我的問題」Widget，以便您在外出時可以輕鬆委派工作。 在委派功能表中（其功能與其「新首頁」之前的方式相同），您可以選取要將您的故事和問題委派給誰以及委派多長時間。 請注意，必須在您的Workfront環境中啟用工作委派，按鈕才會出現。
+
+如需有關在Workfront中委派的詳細資訊，請參閱 [管理任務和問題](/help/quicksilver/manage-work/delegate-work/how-to-delegate-work.md)
 
 ## 新首頁的新面板Widget
 
