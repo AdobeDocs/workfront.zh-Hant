@@ -4,7 +4,7 @@ description: 2023年第四季版本總覽
 author: Becky
 feature: Product Announcements
 exl-id: 6c14bd61-60b1-49aa-84bd-d494a226d70e
-source-git-commit: cc7e0d3a44d81149cd691332821df016b9e57419
+source-git-commit: 1b247102f3d413e779106577a8b4a9c2c39b20da
 workflow-type: tm+mt
 source-wordcount: '2528'
 ht-degree: 0%
@@ -131,7 +131,7 @@ These enhancements will be included in the following releases:
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-boards-enhancements.md" class="MCXref xref" xrefformat="{para}">Adobe Workfront展示板上現在提供子任務</a></p><span style="color: #ff0000;"> 預覽中的新增專案！</span><p>當您將已連線的卡片新增到Workfront任務的展示板時，任何現有的子任務都會匯入到卡片上。 此外，當您在已連線的卡片上建立子任務時，子任務會新增到Workfront任務中。</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-boards-enhancements.md" class="MCXref xref" xrefformat="{para}">Adobe Workfront展示板上現在提供子任務</a><span style="color: #ff0000;"> 預覽中的新增專案！</span></p><p>當您將已連線的卡片新增到Workfront任務的展示板時，任何現有的子任務都會匯入到卡片上。 此外，當您在已連線的卡片上建立子任務時，子任務會新增到Workfront任務中。</p>
                     </td>
                     <td><p><b>將於下列日期提供：</b></p>
                         <ul>
