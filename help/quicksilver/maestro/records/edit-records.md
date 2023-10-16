@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: 8be7534dfc0a1227bd2274ad093a88ae19b4691d
+source-git-commit: 4895a85084c1554cfd773cf51ea0c922f7701414
 workflow-type: tm+mt
-source-wordcount: '577'
-ht-degree: 1%
+source-wordcount: '621'
+ht-degree: 2%
 
 ---
 
@@ -86,9 +86,18 @@ ht-degree: 1%
 ## 編輯記錄的相關考量事項
 
 * 您可以編輯您或其他使用者建立的記錄。 <!--will change with access levels-->
-* 如果編輯的記錄連結到其他記錄，則您正在編輯的記錄的新資訊會反映在連結的記錄上。
+* 您無法編輯從其他記錄連結的欄位或包含計算的欄位。
+* 如果顯示的記錄連結到其他記錄，則您正在編輯的記錄的新資訊會反映在連結的記錄上。
 * 您無法大量編輯記錄。 <!--this will probably change-->
-* 您無法編輯從其他記錄連結的欄位。
+* URL只有以下列專案開頭時，才會被識別為單行文字欄位型別中的連結： http://、https://、ftp://或www。.
+* 編輯段落型別欄位時，您可以使用下列RTF格式選項：
+
+   * 粗體
+   * 斜體
+   * 底線
+   * 新增連結
+   * 新增專案符號清單
+   * 新增編號清單
 
 ## 編輯記錄
 
@@ -99,9 +108,11 @@ ht-degree: 1%
 
 ### 從記錄的「詳細資訊」頁面編輯記錄
 
-1. 按一下 **主要功能表** ![](assets/main-menu-workfront.png) 位於右上角，或 **主要功能表** ![](assets/main-menu-shell.png) 如果可用，請按一下「Maestro」。
+1. 按一下 **主要功能表** ![](assets/main-menu-workfront.png) 位於右上角，或 **主要功能表** ![](assets/main-menu-shell.png) 左上角（如果有的話），然後按一下 **大師**.
 
    您上次存取的工作區會開啟。
+
+1. （可選）按一下工作區名稱右側的向下箭頭，以選取您要更新其記錄的工作區。
 1. 執行下列任一項作業：
 
    * 在「表格」檢視中，按一下記錄名稱。
@@ -120,11 +131,6 @@ ht-degree: 1%
 
    ![](assets/more-menu-options-from-record-details-page.png) <!--ensure the options have not changed or been renamed-->
 
-   >[!NOTE]
-   >
-   >    包含計算或由系統產生的連結欄位或欄位無法編輯。
-
-
 1. 按一下 **儲存變更**. <!--logged a bug for this - this needs to be "Save"-->
 
 ### 從記錄型別表格檢視編輯記錄
@@ -132,24 +138,15 @@ ht-degree: 1%
 1. 按一下 **主要功能表** ![](assets/main-menu-workfront.png) 在右上角， <!--or the **Main Menu** ![](assets/main-menu-shell.png) in the upper-left corner, if it is available,--> 然後按一下 **大師** ![](assets/maestro-icon.png).
 
    您上次存取的工作區會開啟。
+
+1. （可選）按一下工作區名稱右側的向下箭頭，以選取您要更新其記錄的工作區。
 1. 按一下記錄型別卡。
 
    記錄型別頁面隨即開啟。
 1. （視條件而定）從 **檢視** 在表格右上角的下拉式功能表中，選取「表格」檢視。 這應為預設檢視，除非您上次存取時間軸檢視時已檢視該記錄型別。
 
    與所選記錄型別相關聯的記錄會顯示在表格檢視中。
-1. 按一下記錄列內部，開始編輯內嵌記錄的相關資訊，然後按下 **輸入** 以儲存變更。 變更會自動儲存。
+1. 在記錄列內按一下，開始編輯有關內嵌記錄的資訊。
 
-   >[!TIP]
-   >
-   >* 連結的欄位不可編輯。 這些欄位的資訊會自動從連結的記錄中填入。 如需詳細資訊，請參閱 [連線記錄型別](../architecture-and-fields/connect-record-types.md).
-   >
-   >* URL只有以下列專案開頭時，才會被識別為單行文字欄位型別中的連結： http://、https://、ftp://或www。.
-<!--for rich text formatting - when released:
-
-1. (Conditional) When you edit a Paragraph-type field, use the following Rich Text formatting capabilities: 
-
-    * Bold
-    * Italic
-    * Underline (*****anything else?? insert a screen shot?***********)
--->
+   ![](assets/edit-record-paragraph-field-with-formatting-table-view.png)
+1. 按下 **輸入** 使用鍵盤或按一下資料列外部以儲存變更。 變更會自動儲存。

@@ -6,9 +6,9 @@ description: 您可以將一個專案中的任務複製到另一個專案，也�
 author: Alina
 feature: Work Management
 exl-id: daf89062-cf58-4c39-83ff-727d969a9630
-source-git-commit: e416a23cab139bff6d0d59b3816fb192c8f92b0b
+source-git-commit: 4895a85084c1554cfd773cf51ea0c922f7701414
 workflow-type: tm+mt
-source-wordcount: '1774'
+source-wordcount: '1717'
 ht-degree: 1%
 
 ---
@@ -85,30 +85,18 @@ ht-degree: 1%
 
 複製任務時，請考量下列事項：
 
-* 里程碑會傳輸到複製的任務並從原始任務中移除。
 * 將任務從一個專案複製到另一個專案時，可能會重新計算任務日期。 重新計算將考慮新專案使用的排程和專案的「排程起始日期」資訊。
-* 子任務會轉移至新任務。
 * 自訂表單會與任務一起複製。 只有在複製任務時您選擇複製自訂資料時，自訂欄位中的資訊才會傳輸到複製的任務。
 * 在復製程式進行期間，您可以選取將某些與工作相關的專案複製到複製的工作。 但是，依預設，下列物件不會轉移到複製的任務：
    * 問題
    * 記錄時數
-   * 使用者註解 <!--not sure about this, enable only if requested by users and vrified by Product: System activity comments transfer to the new task if they relate to information that you specifically select to be copied. For example, if you select to copy Expenses to the new task, system comments that identify adding expenses to the task will transfer to the copied task. -->
+   * 使用者註解 <!--not sure about this, enable only if requested by users and verified by Product: System activity comments transfer to the new task if they relate to information that you specifically select to be copied. For example, if you select to copy Expenses to the new task, system comments that identify adding expenses to the task will transfer to the copied task. -->
+* 依預設，下列專案會移至複製的工作：
 
-您可以在Adobe Workfront Web應用程式的下列區域中複製任務：
+   * 里程碑會傳輸到複製的任務並從原始任務中移除。
+   * 子任務會轉移至新任務。
 
-* 在任務層級，從 **「更多」圖示** ![](assets/qs-more-menu-19x7.png) 在任務名稱的右側。
-
-  如需詳細資訊，請參閱 [在任務層級複製任務](#copy-a-task-at-the-task-level) 一節。
-
-* 在任務清單中，執行下列任一項作業：
-
-   * 以滑鼠右鍵按一下工作名稱。
-   * 選擇一個或多個任務，然後展開 **更多** 圖示 ![](assets/more-icon-task-list.png) 位於工作清單頂端。
-   * 選取任務並展開 **更多** 圖示 ![](assets/more-icon-task-list.png) 位於任務名稱旁。
-
-     選取多個任務時，此選項無法使用。
-
-  如需詳細資訊，請參閱 [複製清單中的任務](#copy-tasks-in-a-list) 一節。
+* 您可以一次複製一個任務，也可以在編輯清單中的任務時一次複製多個任務。
 
 ## 複製清單中的任務 {#copy-tasks-in-a-list}
 
@@ -118,7 +106,7 @@ ht-degree: 1%
 
    前往任務報告。
 
-1. 按一下 **任務** 在左側面板中。
+1. （視條件而定）按一下 **任務** 在左側面板中，如果您開啟包含任務的專案。
 1. 按一下 **計畫模式功能表** ![](assets/qs-list-mode-or-save-mode-icon-small.png) ，然後 **自動儲存**.
 
    >[!IMPORTANT]
@@ -129,24 +117,22 @@ ht-degree: 1%
 
    * 按一下 **更多選單** 按一下工作清單頂端的「 」 **複製到**.
    * 以滑鼠右鍵按一下選取的任務，然後按一下 **複製到**.
-   * 選取一個任務時，按一下 **更多** 功能表 ![](assets/more-icon-task-list.png) 在清單中工作名稱旁，然後按一下 **複製到**.
+   * 選取一個任務時，按一下 **更多** 功能表 ![](assets/more-icon-task-list.png) 在清單中工作名稱旁，然後按一下 **複製到**.
 
    ![](assets/copy-task-in-list-nwe-350x131.png)
 
 1. 繼續複製工作，如區段中所述 [在任務層級複製任務](#copy-a-task-at-the-task-level) 從步驟4開始。
 
    <!--
-   <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
-   (NOTE: is this still accurate?!)
-   </MadCap:conditionalText>
+      (NOTE: is this still accurate?!)
    -->
 
 ## 在任務層級複製任務 {#copy-a-task-at-the-task-level}
 
-除了複製工作清單中的工作之外，您也可以在開啟工作後複製工作。 
+除了複製工作清單中的工作之外，您也可以在開啟工作後複製工作。
 
 1. 透過搜尋來尋找Workfront系統中的任務。
-1. 按一下工作名稱以開啟。 
+1. 按一下工作名稱以開啟。
 1. 按一下 **更多** 下拉式功能表 ![](assets/qs-more-menu.png) 在任務名稱旁，然後按一下 **複製** **至**.
 
    ![](assets/taskcopy-to-at-the-task-level-nwe-350x200.png)
@@ -161,7 +147,7 @@ ht-degree: 1%
    >
    >![](assets/copy-task-multiple-tasks-box-with-list-of-task-names-nwe-350x130.png)
 
-1. 輸入的名稱 **目標專案** 您要將任務複製到 **選取目標專案** 欄位。 
+1. 輸入的名稱 **目標專案** 您要將任務複製到 **選取目標專案** 欄位。
 
    >[!TIP]
    >
@@ -171,20 +157,20 @@ ht-degree: 1%
 
    依預設會顯示目前的專案名稱。 如果您想要複製相同專案中的任務，請保持此欄位不變。
 
-1. （視條件而定）按一下 **要求存取權** 以請求專案的存取權（如果您沒有所選專案的存取權）。
+1. （視條件而定）按一下 **要求存取權** 以請求專案的存取權（如果您沒有所選專案的存取權）。
 1. （視條件而定）如果您有權將任務新增至目標專案上的任務之一，請繼續將任務複製到所選的目標專案，而不要求存取權。
 
    ![](assets/copy-task-request-access-from-project-nwe-350x125.png)
 
    >[!TIP]
    >
-   >如果Workfront管理員防止將任務新增到這些專案時，選取的專案處於未決核准、已完成或廢棄狀態，則會顯示類似訊息。 如需詳細資訊，請參閱 [設定全系統專案偏好設定](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+   >如果Workfront管理員防止將任務新增到這些專案時，選取的專案處於未決核准、已完成或廢棄狀態，則會顯示類似訊息。 如需詳細資訊，請參閱 [設定全系統專案偏好設定](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
-1. 按一下 **選項** 然後，在左側面板中，取消選取您不想要與任務一起複製的任務屬性。 依預設會選取所有選項。
+1. 按一下 **選項** 然後，在左側面板中，取消選取您不想要與任務一起複製的任務屬性。 依預設會選取所有選項。
 
    >[!TIP]
    >
-   選取，然後取消選取 **全選** 取消選取所有選項。
+   >選取，然後取消選取 **全選** 取消選取所有選項。
 
    取消選取下列選項，不將它們轉移到複製的工作。 下表說明取消選取選項時會發生什麼情況：
 
@@ -239,24 +225,24 @@ ht-degree: 1%
     </tbody> 
    </table>
 
-1.  （選用）按一下 **選取父系** 然後，在左側面板中，選取您想要成為所複製任務之父系的目的專案中的任務。
+1. （選用）按一下 **選取父系** 然後，在左側面板中，選取您想要成為所複製任務之父系的目的專案中的任務。
 
-   >[!TIP]
-   >
-   選取複製清單中的多個任務時，所有選取的任務都會成為選取父級的子項。
+>[!TIP]
+>
+>選取複製清單中的多個任務時，所有選取的任務都會成為選取父級的子項。
 
-   執行下列任一項作業來選取父系：
+執行下列任一項作業來選取父系：
 
-   * 在任務清單中，選取專案計畫中的父項之一。
-   * 按一下搜尋圖示 ![搜尋圖示](assets/search-icon.png) 並按名稱搜尋父系任務。
+* 在任務清單中，選取專案計畫中的父項之一。
+* 按一下搜尋圖示 ![搜尋圖示](assets/search-icon.png) 並按名稱搜尋父系任務。
 
-   任務應出現在清單中。
+任務應出現在清單中。
 
-   ![使用搜尋功能移動任務時選取父系任務 ](assets/select-parent-when-moving-tasks-with-search-functionality-nwe-350x110.png)
+![使用搜尋功能移動任務時選取父系任務 ](assets/select-parent-when-moving-tasks-with-search-functionality-nwe-350x110.png)
 
-1. 找到父項後，選取該父項的圓鈕。 
+1. 找到父項後，選取該父項的圓鈕。
 
-   如果您未選取父系任務，任務會作為主要任務而非子任務複製，並放置在目標專案的任務清單結尾。 
+   如果您未選取父系任務，任務會作為主要任務而非子任務複製，並放置在目標專案的任務清單結尾。
 
 1. 按一下 **複製任務**
 
@@ -275,7 +261,6 @@ ht-degree: 1%
 ### 複製任務的注意事項 {#considerations-for-duplicating-tasks}
 
 * 只有當清單按任務編號排序時，您才能複製任務清單中的任務。
-
 * 新任務將與原始任務同名。
 * 您無法選取哪些資訊會複製到新任務。 根據預設，幾乎所有來自原始任務的資訊都會轉移到複製任務，包括父項關係。
 * 下列專案未轉移到新任務：
@@ -285,10 +270,12 @@ ht-degree: 1%
    * 問題
    * 只有同一組複製任務中的前置任務會與其後續任務一起複製。
 
-     **範例：** 例如，如果您同時複製任務2及其前置任務任務1，則會有任務2的副本和任務1的副本。 任務1的副本將是任務2的副本的前置任務。 但如果您只複製任務2而沒有複製其前置任務，則其副本將沒有前置任務。
+     **範例**
+
+     例如，如果您同時複製任務2及其前置任務任務1，則會有任務2的副本和任務1的副本。 任務1的副本將是任務2的副本的前置任務。 但如果您只複製任務2而沒有複製其前置任務，則其副本將沒有前置任務。
 
 * 當您複製父任務時，即使未選取子任務，也會複製所有子任務。
-* 您可以同時複製多個任務。
+* 您可以同時複製一或多個工作。
 
   不過，您無法同時複製多個非循序的工作。
 
@@ -312,4 +299,4 @@ ht-degree: 1%
 
       1. 按一下 **儲存** 以儲存變更。
 
-   1. 編輯清單中的任務
+         任務會重複，並新增到與原始任務相同的專案。

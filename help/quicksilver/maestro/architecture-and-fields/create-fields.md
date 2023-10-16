@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: 8be7534dfc0a1227bd2274ad093a88ae19b4691d
+source-git-commit: 4895a85084c1554cfd773cf51ea0c922f7701414
 workflow-type: tm+mt
-source-wordcount: '2600'
+source-wordcount: '2828'
 ht-degree: 2%
 
 ---
@@ -186,7 +186,7 @@ ht-degree: 2%
    * [百分比](#percentage)
    * [貨幣](#currency)
    * [核取方塊](#checkbox)
-     <!--* [People](#people)-->
+   * [人員](#people)
 
    >[!IMPORTANT]
    >
@@ -212,17 +212,13 @@ ht-degree: 2%
 
 ### 段落 {#paragraph}
 
-段落欄位會擷取有關記錄的其他英數字元資訊，類似於「說明」欄位。 段落欄位的內容最多可包含1,000個字元。
-
-<!-- remove the last sentence above and add this tip when we go to rich text: 
+段落欄位會擷取有關記錄的其他英數字元資訊，類似於「說明」欄位。
 
 >[!TIP]
 >
->* The content of a paragraph field can have up to 1,000 characters. 
-
-* You can use Rich Text formatting to enhance the content of paragraph fields when they display in the table view or the Details page of a record. (********check to make sure this is true about Details page***********)
-
--->
+>* 段落欄位的內容最多可包含1,000個字元。
+>
+>* 當段落欄位顯示在表格檢視或記錄的詳細資訊頁面時，您可以使用RTF格式來增強段落欄位的內容。
 
 1. 依照一節所述開始建立欄位 [從頭開始建立欄位](#create-fields-from-scratch) 在本文章中，然後選取 **段落** 欄位型別。
 
@@ -394,23 +390,25 @@ ht-degree: 2%
 
    新的核取方塊欄位會新增為記錄型別的欄，其值可與記錄相關聯。 欄位也會顯示在記錄的詳細資訊頁面上。
 
-<!--
-### People
+### 人員
 
-You can use the People field type to add a user, job role, or team to a record. This is a type-ahead field, and you can add only users, roles, or teams that already exist in Workfront.
- 
-1. Start creating a field as described in the section [Create fields from scratch](#create-fields-from-scratch) in this article, then select the **People** field type.
- 
-    ***************INSERT SCREEN SHOT HERE - DO YOU HAVE TO REPLACE OTHER SCREEN SHOTS ABOVE OR IN OTHER DOCS THAT SHOW ALL THE FIELDS, IN INCLUDE THE NEW ONE?! ***************
+您可以使用「人員」欄位型別來新增使用者 <!--, job role, or team--> 至記錄。 這是預先輸入欄位，您只能新增使用者<!--, roles, or teams--> 已存在於Workfront中的屬性。
 
-1. Add the following information in the **New field** tab:
-     * **Name**: The name of the field type, as it will appear in a table or the Details page of the record. *************ensure they updated this; and update the screen shot: it used to be "Label"**********
-     * **Description**: Additional information about the field. The description of a field displays when you hover over the field's column in a table.
-1. Click **Create**.
+1. 依照一節所述開始建立欄位 [從頭開始建立欄位](#create-fields-from-scratch) 在本文章中，然後選取 **人員** 欄位型別。
 
-    The new People-type field is added as a column to the record type and its values can be associated with records. The field also displays on the Details page of a record. 
+   ![](assets/people-field-type.png)
 
--->
+1. 將下列資訊新增至 **新欄位** 標籤：
+   * **名稱**：欄位型別的名稱，它將顯示在表格或記錄的詳細資訊頁面中。
+   * **說明**：欄位的其他相關資訊。 當您將滑鼠游標停留在表格中的欄位欄位上時，會顯示欄位說明。
+   * **允許多個值**：如果您想要允許使用者在此欄位中新增多個使用者，請選取此選項。 預設會取消選取此選項。
+
+   >[!NOTE]
+   >
+   >    如果您選取「允許多個值」，且有多個使用者儲存在附加欄位的記錄中，則以後編輯此欄位時，無法再取消選取設定。
+1. 按一下 **建立**。
+
+   新的「人員型別」欄位會新增為記錄型別的欄，其值可與記錄相關聯。 欄位也會顯示在記錄的詳細資訊頁面上。
 
 ## 將記錄型別連結在一起，以建立欄位
 
