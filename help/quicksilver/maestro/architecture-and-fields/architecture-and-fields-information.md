@@ -4,9 +4,10 @@ description: 以下文章說明如何設定Adobe Maestro的架構。 在此設�
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 28602d66b43ec4c30a9f13cff43157b978439d99
+exl-id: 0da08e30-51a8-4163-ae1e-821a099fac3b
+source-git-commit: 5db9a4869e1321bd268e80f786d157fbb41c0656
 workflow-type: tm+mt
-source-wordcount: '228'
+source-wordcount: '225'
 ht-degree: 0%
 
 ---
@@ -51,10 +52,8 @@ hide: yes
 * [編輯記錄型別](../architecture-and-fields/edit-record-types.md)
 * [連線記錄型別](../architecture-and-fields/connect-record-types.md)
 * [連線記錄型別和記錄的範例](../architecture-and-fields/example-connect-record-types-and-records.md)
-* [在Adobe大師中建立欄位](../architecture-and-fields/create-fields.md)
+* [建立欄位](../architecture-and-fields/create-fields.md)
 * [編輯欄位](../architecture-and-fields/edit-fields.md)
 * [刪除工作區](../architecture-and-fields/delete-workspaces.md)
 * [刪除記錄型別](../architecture-and-fields/delete-record-types.md)
 * [刪除欄位](../architecture-and-fields/delete-fields.md)
-
-

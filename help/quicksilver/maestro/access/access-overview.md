@@ -4,19 +4,21 @@ description: 組織中的所有使用者都可以存取Adobe大師。 目前，�
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 28602d66b43ec4c30a9f13cff43157b978439d99
+exl-id: 99fac041-a235-4991-b826-d19944164bc9
+source-git-commit: 5db9a4869e1321bd268e80f786d157fbb41c0656
 workflow-type: tm+mt
-source-wordcount: '214'
+source-wordcount: '208'
 ht-degree: 2%
 
 ---
-
 
 <!--update the metadata with real things when making this public; also update the description with something like this: Not all users in the organization have the same access and permissions to use Adobe Maestro. This article describes the levels of access that users could have to Adobe Maestro. -->
 
 # 存取權總覽
 
 >[!IMPORTANT]
+>
+>Adobe大師是Adobe Workfront的新產品。
 >
 >目前，Adobe大師是測試版計畫的一部分，向有限數量的客戶開放。
 >
@@ -26,8 +28,6 @@ ht-degree: 2%
 
 <!-- the table will change after we implement access levels/ permissions for Maestro-->
 <!-- fix the formatting on the table - some lines are way too spaced out-->
-
-Adobe大師是Adobe Workfront的新產品。 如需詳細資訊，請參閱 [Maestro概述](../maestro-overview.md).
 
 目前，貴組織的所有使用者都可以存取Maestro，前提是Workfront管理員為他們啟用存取權。
 

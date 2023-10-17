@@ -4,19 +4,21 @@ description: 瞭解如何在Adobe Maestro中授與存取權和共用資訊。
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 28602d66b43ec4c30a9f13cff43157b978439d99
+exl-id: 475a519d-d3bd-4461-8099-0e296d556d34
+source-git-commit: 1e49cbaf8dfc0c308f45faabb45ebbfaaba3d65d
 workflow-type: tm+mt
-source-wordcount: '288'
+source-wordcount: '282'
 ht-degree: 0%
 
 ---
-
 
 <!--update the metadata and description when we turn this article live; also, update title after Bob adds Maestro as a product-->
 
 # 授與Adobe大師的存取權
 
 >[!IMPORTANT]
+>
+>Adobe大師是Adobe Workfront的新產品。
 >
 >目前，Adobe大師是測試版計畫的一部分，向有限數量的客戶開放。
 >
@@ -26,8 +28,6 @@ ht-degree: 0%
 
 <!-- the table will change after we implement access levels/ permissions for Maestro-->
 <!-- fix the formatting on the table - some lines are way too spaced out-->
-
-Adobe大師是Adobe Workfront的新產品。 如需詳細資訊，請參閱 [Maestro概述](../maestro-overview.md).
 
 目前，如果具備以下先決條件，您組織中的所有使用者都可以存取Maestro：
 
@@ -50,9 +50,9 @@ Adobe大師是Adobe Workfront的新產品。 如需詳細資訊，請參閱 [Mae
 
 若要使用版面配置範本共用主區域：
 
-1. 以系統管理員身分登入Workfront。
+1. 登入 **Workfront** 作為系統管理員。
 
-1. 使用「版面配置範本」將「大師」圖示新增至「主功能表」。
+1. 新增 **大師** 圖示 ![](assets/maestro-icon.png) 至 **主要功能表** 使用 **版面配置範本**.
 
    如需詳細資訊，請參閱 [使用版面配置範本自訂主功能表](../../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).
 
@@ -63,6 +63,3 @@ Adobe大師是Adobe Workfront的新產品。 如需詳細資訊，請參閱 [Mae
    所有指派給範本的使用者現在可以在他們的主功能表中存取Maestro。
 
    使用者可以開始建立工作區、記錄型別、記錄和欄位。
-
-
-

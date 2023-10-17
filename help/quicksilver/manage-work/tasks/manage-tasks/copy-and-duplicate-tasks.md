@@ -6,9 +6,9 @@ description: 您可以將一個專案中的任務複製到另一個專案，也�
 author: Alina
 feature: Work Management
 exl-id: daf89062-cf58-4c39-83ff-727d969a9630
-source-git-commit: 4895a85084c1554cfd773cf51ea0c922f7701414
+source-git-commit: 5db9a4869e1321bd268e80f786d157fbb41c0656
 workflow-type: tm+mt
-source-wordcount: '1717'
+source-wordcount: '1727'
 ht-degree: 1%
 
 ---
@@ -107,7 +107,9 @@ ht-degree: 1%
    前往任務報告。
 
 1. （視條件而定）按一下 **任務** 在左側面板中，如果您開啟包含任務的專案。
-1. 按一下 **計畫模式功能表** ![](assets/qs-list-mode-or-save-mode-icon-small.png) ，然後 **自動儲存**.
+1. 按一下 **計畫模式** 圖示 ![](assets/qs-list-mode-or-save-mode-icon-small.png)，並確保 **自動儲存** 選項已啟用。
+
+   ![](assets/autosave-icon-on-highlighted-350x202.png)
 
    >[!IMPORTANT]
    >
@@ -227,22 +229,22 @@ ht-degree: 1%
 
 1. （選用）按一下 **選取父系** 然後，在左側面板中，選取您想要成為所複製任務之父系的目的專案中的任務。
 
->[!TIP]
->
->選取複製清單中的多個任務時，所有選取的任務都會成為選取父級的子項。
+   >[!TIP]
+   >
+   >選取複製清單中的多個任務時，所有選取的任務都會成為選取父級的子項。
 
-執行下列任一項作業來選取父系：
+   執行下列任一項作業來選取父系：
 
-* 在任務清單中，選取專案計畫中的父項之一。
-* 按一下搜尋圖示 ![搜尋圖示](assets/search-icon.png) 並按名稱搜尋父系任務。
+   * 在任務清單中，選取專案計畫中的父項之一。
+   * 按一下搜尋圖示 ![搜尋圖示](assets/search-icon.png) 並按名稱搜尋父系任務。
 
-任務應出現在清單中。
+   任務會顯示在清單中。
 
-![使用搜尋功能移動任務時選取父系任務 ](assets/select-parent-when-moving-tasks-with-search-functionality-nwe-350x110.png)
+   ![使用搜尋功能移動任務時選取父系任務 ](assets/select-parent-when-moving-tasks-with-search-functionality-nwe-350x110.png)
 
 1. 找到父項後，選取該父項的圓鈕。
 
-   如果您未選取父系任務，任務會作為主要任務而非子任務複製，並放置在目標專案的任務清單結尾。
+   如果您未選取父系任務，任務會作為主要任務而非子任務複製，並放置在目標專案上任務清單的末尾。
 
 1. 按一下 **複製任務**
 
@@ -287,11 +289,11 @@ ht-degree: 1%
 1. 按一下 **任務** 在左側面板中。
 1. 執行下列任一項作業：
 
-   * （視條件而定）按一下 **計畫模式功能表** ![](assets/qs-list-mode-or-save-mode-icon-small.png) > **自動儲存**，選取您要複製的任務，然後按一下 **更多選單** ![](assets/qs-more-menu-29x11.png) > **複製**.
+   * （視條件而定）按一下 **計畫模式** 圖示 ![](assets/qs-list-mode-or-save-mode-icon-small.png) 並確保 **自動儲存** 選項，選取要複製的任務，然後按一下 **更多選單** ![](assets/qs-more-menu-29x11.png) > **複製**.
 
      ![](assets/duplicate-tasks-in-list-nwe-350x196.png)
 
-   * （視條件而定）按一下 **計畫模式功能表** ![](assets/qs-list-mode-or-save-mode-icon-small.png) > **手動儲存** > **標準** 或 **時間表規劃**，然後執行下列動作：
+   * （視條件而定）按一下 **計畫模式** 圖示 ![](assets/qs-list-mode-or-save-mode-icon-small.png) > **手動儲存** > **標準** 或 **時間表規劃**，然後執行下列動作：
 
       1. 選取要複製的一個或多個任務，然後按一下 **複製**.
       1. （選用）按一下 **還原** 以還原您的變更，且不要複製任務。

@@ -1,20 +1,20 @@
 ---
-title: 建立記錄型別
+title: 建立作業記錄型別
 description: 記錄型別是Adobe大師(Maestro)的物件型別。 在Maestro中，您可以建立自訂記錄型別，以說明組織生命週期中所需的工作專案。
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 28602d66b43ec4c30a9f13cff43157b978439d99
+exl-id: ed1c4954-b338-4865-a7a9-5ba0192e7b37
+source-git-commit: 5db9a4869e1321bd268e80f786d157fbb41c0656
 workflow-type: tm+mt
-source-wordcount: '1396'
+source-wordcount: '1398'
 ht-degree: 1%
 
 ---
 
-
 <!--udpate the metadata with real information when making this available in TOC and in the left nav-->
 
-# 建立記錄型別
+# 建立作業記錄型別
 
 >[!IMPORTANT]
 >
@@ -260,11 +260,3 @@ ht-degree: 1%
    * 計劃
 
 如需詳細資訊，請參閱 [連線記錄型別](../architecture-and-fields/connect-record-types.md).
-
-
-
-
-
-
-
-

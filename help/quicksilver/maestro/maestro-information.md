@@ -4,13 +4,13 @@ description: 身為行銷營運領導者，您可以使用Adobe Maestro為所有
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 28602d66b43ec4c30a9f13cff43157b978439d99
+exl-id: 7a65d66e-a578-4016-805e-0cb04caaa18a
+source-git-commit: 5db9a4869e1321bd268e80f786d157fbb41c0656
 workflow-type: tm+mt
-source-wordcount: '332'
+source-wordcount: '335'
 ht-degree: 0%
 
 ---
-
 
 # Adobe大師資訊
 
@@ -53,8 +53,8 @@ hide: yes
 <!--update the video when we have something better, especially after Open Beta - remove it-->
 
 * [觀看Adobe大師的影片展示](https://video.tv.adobe.com/v/3424253/){target=_blank}
-* [Maestro概述](maestro-overview.md)：Adobe大師的高層級概觀，包括此解決方案特有的術語和概念。 我們建議您在這裡與Maestro一起開始您的歷程。
-* [發行活動](../maestro/release-activity.md)：列出自2023年5月22日Maestro封閉Beta版計畫推出以來已發行的所有功能，包含確切發行日期以及每個功能的簡短概觀。
+* [Adobe大師概觀](maestro-overview.md)：Adobe大師的高層級概觀，包括此解決方案特有的術語和概念。 我們建議您在這裡與Maestro一起開始您的歷程。
+* [Adobe大師發行活動](../maestro/release-activity.md)：列出自2023年5月22日Maestro封閉Beta版計畫推出以來已發行的所有功能，包含確切發行日期以及每個功能的簡短概觀。
 
 ## Maestro架構與功能
 
@@ -64,4 +64,3 @@ hide: yes
 * [架構資訊](../maestro/architecture-and-fields/architecture-and-fields-information.md)：有關Adobe Maestro架構的深入資訊，包括有關如何建立和管理工作區、記錄型別和欄位的逐步指示。
 * [記錄資訊](../maestro/records/records-information.md)：有關如何建立和管理記錄的深入資訊和逐步指示。
 * [檢視資訊](../maestro/views/views-information.md)：有關Maestro檢視以及如何管理檢視的深入資訊。
-

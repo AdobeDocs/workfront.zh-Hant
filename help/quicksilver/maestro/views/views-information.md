@@ -4,7 +4,8 @@ description: 您可以在表格或時間表檢視中顯示AdobeMaestro記錄。 
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 28602d66b43ec4c30a9f13cff43157b978439d99
+exl-id: 0f93014b-d0f7-4ea3-9b11-3314b46f1ef3
+source-git-commit: 5db9a4869e1321bd268e80f786d157fbb41c0656
 workflow-type: tm+mt
 source-wordcount: '106'
 ht-degree: 0%
@@ -23,7 +24,7 @@ hide: yes
 ---
 -->
 
-<!--udpate the metadata with real information when making this avilable in TOC and in the left nav-->
+<!--udpate the metadata with real information when making this available in TOC and in the left nav-->
 
 # 檢視資訊
 
