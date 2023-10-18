@@ -6,9 +6,9 @@ description: 使用工作負載平衡器瞭解資源的可用性，並將工作�
 author: Alina
 feature: Resource Management
 exl-id: 60dabfc5-6a2e-4368-9dac-db48d0307895
-source-git-commit: d1390144d60aee3f278729da230a3458b49ca4f0
+source-git-commit: 01351c0d86b0deea2d952564172841ba6a77c894
 workflow-type: tm+mt
-source-wordcount: '4077'
+source-wordcount: '4168'
 ht-degree: 0%
 
 ---
@@ -115,13 +115,13 @@ ht-degree: 0%
 
   如需詳細資訊，請參閱以下的「工作負載平衡器的指派區域」： [在工作負載平衡器中指派工作的總覽](/help/quicksilver/resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md).
 
-* 當專案在一段時間內沒有任務時，專案層級的列會變成暗淡的顏色。
+* 當專案在一段時間內沒有任務時，專案層級的列在該時間內為空白。
 
-  ![](assets/wb-break-in-project-timeline-with-no-tasks-highlight-350x80.png)
+  ![在一段時間內沒有任務的專案](assets/wb-no-tasks-in-time-period.png)
 
 * 當您沒有檢視特定專案的許可權時，專案會顯示為 **無法存取的工作專案** 或 **無法存取的專案**.
 
-  ![](assets/balancer-inaccessible-items-and-projects-highlighted-350x108.png)
+  ![不可存取的工作項目](assets/wb-inaccessible-work-items.png)
 
 * 工作專案的名稱會顯示在左側，而時間軸則會顯示在右側。
 * 每個工作專案的計畫時數總計會顯示在工作專案名稱的右側，以及代表工作專案時間表之長條的左側。
@@ -159,7 +159,7 @@ ht-degree: 0%
 1. 按一下 **主要功能表** 圖示 ![](assets/main-menu-icon.png) (位於Workfront的右上角)，然後按一下 **資源**.
 1. 按一下 **工作負載平衡器** 在左側面板中。
 
-   ![](assets/nwe-balancer-global.png)
+   ![工作負載平衡器](assets/nwe-balancer-global.png)
 
    工作負載平衡器顯示從本週開始的工作指派資訊，包括以下兩個區域：
 
@@ -192,7 +192,7 @@ ht-degree: 0%
             > 
             >如需自訂設定的詳細資訊，請參閱區段 [自訂檢視](#customize-the-view) 本文章內容。
 
-1. （可選）按一下 **篩選** 圖示 ![](assets/filter-icon.png) 在 **已指派的工作** 區域，然後選取 **預設篩選器** 在 **建議** 濾鏡方塊的區域。
+1. （可選）按一下 **篩選** 圖示 ![篩選圖示](assets/filter-icon.png) 在 **已指派的工作** 區域，然後選取 **預設篩選器** 在 **建議** 濾鏡方塊的區域。
 
    套用「預設」篩選器時，屬於您任何團隊的使用者及其工作專案都會顯示。 您可以編輯此篩選的復本。
 
@@ -214,10 +214,10 @@ ht-degree: 0%
    工作負載平衡器顯示從本週開始的工作指派資訊。
 
 1. 使用水準捲動來檢視超出熒幕限制的工作專案時間軸。
-1. 按一下 **後退或轉寄** 圖示 ![](assets/back-and-forward-icons.png) 導覽至時間軸，然後按一下「 」 **今天** 以返回當週。
+1. 按一下 **後退或轉寄** 圖示 ![後退和前進圖示](assets/back-and-forward-icons.png) 導覽至時間軸，然後按一下「 」 **今天** 以返回當週。
 1. 按一下 **時間範圍下拉式功能表** ，然後按一下要顯示之期間的開始日期。 依預設，在行事曆上選取的第一週是您導覽的目標周。
 
-   ![](assets/calendar-date-picker-wb.png)
+   ![行事曆選取專案](assets/calendar-date-picker-wb.png)
 
 1. 從下列選項選取您要在工作負載平衡器中一次顯示的周數：
    * 1 週
@@ -226,7 +226,7 @@ ht-degree: 0%
    * 6 週
    * 3 個月
 
-   ![](assets/3-months-12-weeks-drop-down-wb.png)
+   ![選取周](assets/3-months-12-weeks-drop-down-wb.png)
 
 1. 按一下工具列中的下列選項之一，可依不同的時間範圍顯示資訊：
    * **日**：預設會以天為單位顯示資訊，並從今天的日期開始為期四週。
@@ -260,18 +260,17 @@ ht-degree: 0%
    >
    >只有在啟用「依專案分組」設定時，工作專案才會列在「未指派」區域的專案名稱下。
 
-
 1. 按一下 **向下箭頭** 「未指定」或「已指定」區域的左側，以收合專案名稱下的所有專案（在「未指定」區域中）和使用者名稱下的所有專案（在「已指定」區域中）。
 
 1. 拖放 **分隔線** 在左側面板和時間軸區域之間，調整左側面板的大小。
 
-   ![](assets/separation-line-between-left-panel-and-timeline-highlighted-nwe-350x174.png)
+   ![分隔線](assets/wb-adjust-panel-size.png)
 
-1. 按一下 **設定** 圖示 ![](assets/settings-gear-icon.png).
+1. 按一下 **設定** 圖示 ![設定圖示](assets/settings-gear-icon.png).
 
    「設定」面板會顯示在右側。
 
-   ![](assets/settings-box-options-global-with-color-theme-and-percentage-wb-nwe.png)
+   ![設定面板](assets/settings-box-options-global-with-color-theme-and-percentage-wb-nwe.png)
 
    從下列選項中選取以更新您在工作負載平衡器中檢視的資訊，然後按一下 **X圖示** ，以將其關閉。
 
@@ -319,12 +318,12 @@ ht-degree: 0%
 
 1. （選擇性和條件性）將顏色主題變更為「專案狀態」時，將滑鼠移至左側專案名稱的上方，即可檢視專案狀態。
 
-   ![](assets/hover-over-project-status-tooltip-350x115.png)
+   ![專案狀態工具提示](assets/hover-over-project-status-tooltip-350x115.png)
 
 ### 指派工作專案並調整使用者配置
 
 1. 存取「資源」區域中的「工作負載平衡器」，如區段所述 [存取工作負載平衡器資源區域中的多個專案](#access-the-workload-balancer-for-multiple-projects-in-the-resourcing-area) 本文章內容。
-1. 按一下 **顯示配置圖示** ![](assets/show-allocations-icon-small.png) 以檢視工作專案的每日或每週計畫時數。
+1. 按一下 **顯示配置圖示** ![顯示配置圖示](assets/show-allocations-icon-small.png) 以檢視工作專案的每日或每週計畫時數。
 
    這會將工作專案列中的名稱替換為未指派和已指派工作區域中的每日或每週計畫時數。 此設定預設為停用。
 
@@ -339,12 +338,12 @@ ht-degree: 0%
 
 1. （選用）將滑鼠指標暫留在使用者列中的已分配時間上，以瞭解使用者的容量和配置。 容量是根據使用者的排程提供使用者的可用性。
 
-   ![](assets/overallocation-vs-capacity-tooltip-wb-nwe.png)
+   ![分配的時間詳細資訊](assets/overallocation-vs-capacity-tooltip-wb-nwe.png)
 
 1. （可選）按一下 **隱藏配置圖示** ![](assets/show-allocations-icon-small.png) 在工作專案的長條中顯示任務和問題的名稱。
 1. 按一下 **更多選單** 圖示 ![](assets/more-icon.png) 在任務或問題名稱的右側，然後按一下以下選項之一。
 
-   ![](assets/more-menu-right-of-task-350x104.png)
+   ![更多選單](assets/more-menu-right-of-task-350x104.png)
 
    * **將此指派至**，然後開始輸入您要在中指派工作專案的使用者、角色或團隊名稱 **搜尋人員、角色或團隊** 欄位。
 
@@ -363,13 +362,13 @@ ht-degree: 0%
 
    * **開啟摘要**. 「摘要」面板會在右側開啟，然後按一下「工作總攬」欄位，並開始在「 」中輸入使用者、角色或團隊的名稱 **搜尋人員、角色或團隊** 要指派專案的欄位。 如需詳細資訊，請參閱區段 [顯示更多關於任務和問題的資訊](#display-more-information-about-tasks-and-issues) 本文章內容。
 
-1. （選擇性）在工作專案列中的使用者按兩下每日或每週配置，以編輯配置時數，然後按一下 **儲存** 圖示 ![](assets/save-allocations-wb.png) 若要儲存配置或 **取消** 圖示  ![](assets/cancel-allocations-wb.png) 以移除您已調整的分配。
+1. （選擇性）在工作專案列中的使用者按兩下每日或每週配置，以編輯配置時數，然後按一下 **儲存** 圖示 ![儲存圖示](assets/save-allocations-wb.png) 若要儲存配置或 **取消** 圖示 ![取消圖示](assets/cancel-allocations-wb.png) 以移除您已調整的分配。
 
    >[!TIP]
    >
    >儲存和取消圖示會顯示在任務或問題的時間軸列的結尾。
    >
-   >![](assets/cancel-and-save-icon-on-adjust-allocation-bar-wb-highlighted.png)
+   >![儲存或取消手動配置](assets/cancel-and-save-icon-on-adjust-allocation-bar-wb-highlighted.png)
 
    如需有關管理使用者配置的資訊，請參閱 [在工作負載平衡器中管理使用者配置](../workload-balancer/manage-user-allocations-workload-balancer.md).
 
@@ -380,26 +379,22 @@ ht-degree: 0%
 
    如需詳細資訊，請參閱 [透過拖放在工作負載平衡器中指派工作](../workload-balancer/assign-work-in-workload-balancer-by-drag-and-drop.md).
 
-
 ### 在圖表中檢視配置
 
 您可以在圖表中檢視分配，而不是以每日或每週數字檢視分配。
 
 1. 存取「資源」區域中的「工作負載平衡器」，如區段所述 [存取工作負載平衡器資源區域中的多個專案](#access-the-workload-balancer-for-multiple-projects-in-the-resourcing-area) 本文章內容。
-1. 按一下 **圖表圖示** ![](assets/user-allocation-chart-icon.png) 以圖表格式顯示使用者配置。
+1. 按一下 **圖表圖示** ![圖表圖示](assets/user-allocation-chart-icon.png) 以圖表格式顯示使用者配置。
 
    使用者配置過度的天數顯示為紅色區塊，使用者配置不足或容量不足的天數則顯示為藍色區塊。
 
    區塊的大小表示配置的數量：方塊越大，使用者被配置給該天或該周的工作專案的時間就越多。
 
-   ![](assets/user-allocation-chart-350x237.png)
-
-
+   ![圖表形式的使用者配置](assets/wb-allocation-as-chart.png)
 
 ### 顯示更多關於任務和問題的資訊
 
 您可以在工作負載平衡器中檢視有關任務和問題的詳細資訊。
-
 
 1. 存取「資源」區域中的「工作負載平衡器」，如區段所述 [存取工作負載平衡器資源區域中的多個專案](#access-the-workload-balancer-for-multiple-projects-in-the-resourcing-area) 本文章內容。
 1. 若要在「摘要」面板中檢視更多資訊，請執行下列任一項作業：
@@ -419,31 +414,30 @@ ht-degree: 0%
    * 對於任務，則為前置任務編號。
    * 對於任務，位於方塊上角的指示器，指示任務是否準備好處理。
 
-   ![](assets/task-bar-hover-over-detail-wb.png)
+   ![任務詳細資訊](assets/task-bar-hover-over-detail-wb.png)
 
 1. 按一下左側工作專案的名稱以存取它。 工作專案會在新的瀏覽器標籤中開啟。
-
 
 ### 以全熒幕顯示工作負載平衡器
 
 1. 存取「資源」區域中的「工作負載平衡器」，如區段所述 [存取工作負載平衡器資源區域中的多個專案](#access-the-workload-balancer-for-multiple-projects-in-the-resourcing-area) 本文章內容。
 
-1. 按一下 **全熒幕** 圖示 ![](assets/full-screen.png) 以全熒幕顯示工作負載平衡器。
+1. 按一下 **全熒幕** 圖示 ![全熒幕圖示](assets/full-screen.png) 以全熒幕顯示工作負載平衡器。
 
    工作負載平衡器佔據整個熒幕。 瀏覽器視窗和索引標籤會從檢視中排除。
 
-1. 按一下 **退出全熒幕** 圖示 ![](assets/exit-full-screen.png) 返回預設畫面並在瀏覽器標籤內檢視工作負載平衡器。
+1. 按一下 **退出全熒幕** 圖示 ![退出全熒幕圖示](assets/exit-full-screen.png) 返回預設畫面並在瀏覽器標籤內檢視工作負載平衡器。
 
 
 ## 瀏覽團隊的工作負載平衡器
 
 瀏覽團隊的工作負載平衡器類似於瀏覽多個專案的工作負載平衡器。 如需詳細資訊，請參閱區段 [瀏覽至多個專案的工作負載平衡器](#navigate-the-workload-balancer-for-multiple-projects-in-the-resourcing-area) 本文章內容。
 
-1. 按一下 **主功能表** 圖示 ![](assets/main-menu-icon.png)，然後按一下 **團隊**.
+1. 按一下 **主功能表** 圖示 ![主功能表](assets/main-menu-icon.png)，然後按一下 **團隊**.
 依預設，會顯示您的主團隊頁面。
 1. 按一下 **工作負載平衡器** 在左側面板中。 團隊的工作負載平衡器預設應該顯示。
 
-   ![](assets/nwe-balancer-team-350x172.png)
+   ![團隊的工作負載平衡器](assets/nwe-balancer-team-350x172.png)
 
    依預設，團隊的工作負載平衡器顯示以下資訊：
 
@@ -454,11 +448,11 @@ ht-degree: 0%
 
 ## 瀏覽單一專案的工作負載平衡器
 
-1. 按一下 **主功能表** 圖示 ![](assets/main-menu-icon.png)，然後按一下 **專案**.
+1. 按一下 **主功能表** 圖示 ![主功能表](assets/main-menu-icon.png)，然後按一下 **專案**.
 1. 按一下專案名稱以開啟專案頁面。
 1. 按一下 **工作負載平衡器** 在左側面板中。 您可能需要按一下 **顯示更多**，然後 **工作負載平衡器**.
 
-   ![](assets/nwe-balancer-project-350x152.png)
+   ![專案的工作負載平衡器](assets/nwe-balancer-project-350x152.png)
 
    預設情況下，專案的工作負載平衡器顯示以下資訊：
 
@@ -469,13 +463,13 @@ ht-degree: 0%
 
    例如，您可以考慮只顯示屬於您團隊或群組的使用者。 如需詳細資訊，請參閱 [在工作負載平衡器中篩選資訊](../workload-balancer/filter-information-workload-balancer.md).
 
-1. （可選）按一下 **篩選** 圖示 ![](assets/filter-icon.png) 在指派的工作區域中，並選取 **此專案的工作專案** 選項來自 **建議** 濾鏡面板的區域。 預設會取消選取此篩選器。
+1. （可選）按一下 **篩選** 圖示 ![篩選圖示](assets/filter-icon.png) 在指派的工作區域中，並選取 **此專案的工作專案** 選項來自 **建議** 濾鏡面板的區域。 預設會取消選取此篩選器。
 
    選取此選項時，只會顯示指定給選定專案上使用者的專案。
 
    如果未選取選項，則會顯示專案上指派給使用者的所有專案，無論專案屬於哪個專案。
 
-1. （選用且建議使用）在指派的工作區域中套用篩選器，以顯示對您而言重要但可能未指派給專案專案的使用者，然後按一下 **顯示所有使用者** 圖示 ![](assets/show-all-users-icon-project-workload-balancer.png).
+1. （選用且建議使用）在指派的工作區域中套用篩選器，以顯示對您而言重要但可能未指派給專案專案的使用者，然後按一下 **顯示所有使用者** 圖示 ![顯示所有使用者圖示](assets/show-all-users-icon-project-workload-balancer.png).
 
    藉由顯示所有使用者，您可以在Workfront中顯示尚未指派給工作或專案中其他角色的所有使用者。
 
@@ -489,8 +483,7 @@ ht-degree: 0%
    >
    > 顯示所有使用者選項僅適用於專案的工作負載平衡器。
 
-
-1. （可選）按一下 **顯示角色分配** 圖示 ![](assets/show-role-allocation-icon.png).
+1. （可選）按一下 **顯示角色分配** 圖示 ![顯示角色配置圖示](assets/show-role-allocation-icon.png).
 
    「角色配置」面板隨即顯示。
 
@@ -502,7 +495,6 @@ ht-degree: 0%
    >[!NOTE]
    >
    >如果您的組織尚未購買Workfront Scenario Planner的授權，便無法檢視方案工作角色資訊。 在此情況下，您只能檢視與專案上工作角色相關的計畫時數。 如需詳細資訊，請參閱 [使用「情境規劃工具」所需的存取權](../../scenario-planner/access-needed-to-use-sp.md).
-
 
 1. 繼續瀏覽專案的工作負載平衡器，如 [瀏覽至多個專案的工作負載平衡器](#navigate-the-workload-balancer-for-multiple-projects-in-the-resourcing-area) 一節。
 
