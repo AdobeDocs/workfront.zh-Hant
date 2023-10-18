@@ -2,70 +2,67 @@
 content-type: overview;how-to-procedural
 product-area: projects
 navigation-topic: financials
-title: 計算成本計畫效能指數(CSI)
-description: 成本計畫績效指數(CSI)是一種自動計算，它將成本績效指數(CPI)和計畫績效指數(SPI)結合為一個平衡成本和計畫的一般度量。
+title: 計算成本排程績效指數(CSI)
+description: 成本排程績效指數(CSI)是一種自動計算，它將「成本績效指數(CPI)」與「排程績效指數(SPI)」結合為一個一般度量，以平衡成本與排程。
 author: Alina
 feature: Work Management
 exl-id: 38a8c5e0-b812-499d-8fe7-a71ddccb3aad
-source-git-commit: a55041ad5a6cd41cd11ec3ade27bf5227ae0ac47
+source-git-commit: 1cf679376517293f0e0f28b461bd9ecab9283035
 workflow-type: tm+mt
 source-wordcount: '337'
 ht-degree: 0%
 
 ---
 
-# 計算成本計畫效能指數(CSI)
+# 計算成本排程績效指數(CSI)
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: Linked to the product. Do not change link.) </p>
 -->
 
-## 成本計畫績效指數(CSI)概覽
+## 成本排程績效指數(CSI)概要
 
-成本計畫績效指數(CSI)是一種自動計算，它將成本績效指數(CPI)和計畫績效指數(SPI)結合為一個平衡成本和計畫的一般度量。 將這些值相乘後，單一量度就能在較低預算中計入長期計畫，反之亦然。 項目經理可使用此功能來確定在成本被犧牲以推動項目中間計畫時的一般項目或任務運行狀況。
+成本排程績效指數(CSI)是一種自動計算，它將「成本績效指數(CPI)」與「排程績效指數(SPI)」結合為一個一般度量，以平衡成本與排程。 將這些值相乘，單一量度就能以較低預算處理較長的排程，反之亦然。 當犧牲成本以推動專案中間的排程時，專案經理可使用此項來判斷一般專案或任務狀況。
 
 >[!TIP]
 >
 >Adobe Workfront會計算任務和專案的CSI。 Workfront不會計算問題的CSI值。
 
-只有在貴組織中存在下列項目時，您才能從此量度提供的資訊中受益：
+只有當您的組織中存在下列專案時，您才能從此量度提供的資訊中獲益：
 
-* 您的使用者正在記錄所完成工作的時間。\
-   這會根據小時計算CSI。
-* 您的使用者或工作角色具有與其相關聯的每小時成本率。 
+* 您的使用者正在記錄完成工作的時間。\
+  這會根據時數計算CSI。
+* 您的使用者或工作角色具有與其關聯的每小時成本費率。 
 
-   這會根據成本計算CSI。
+  這會根據成本計算CSI。
 
-## Workfront如何計算成本計畫效能指數(CSI)
+## Workfront如何計算成本排程績效指數(CSI)
 
-Workfront使用以下公式計算項目或任務的成本效能指數(CSI):
+Workfront會使用下列公式計算專案或作業的成本績效指數(CSI)：
 
-```
-CSI = CPI x SPI
-```
+`CSI = CPI x SPI`
 
-有關CPI的資訊，請參見文章 [計算成本績效指數(CPI)](../../../manage-work/projects/project-finances/calculate-cpi.md).
+如需CPI的相關資訊，請參閱文章 [計算成本績效指數(CPI)](../../../manage-work/projects/project-finances/calculate-cpi.md).
 
-有關SPI的資訊，請參閱文章 [計算計畫效能索引(SPI)](../../../manage-work/projects/project-finances/calculate-spi.md).
+如需SPI的相關資訊，請參閱文章 [計算排程績效指數(SPI)](../../../manage-work/projects/project-finances/calculate-spi.md).
 
-CSI有以下三個可能值：
+CSI有下列三個可能的值：
 
-* 1 =遵循總體計畫   
-* 
-   >1 =預算計畫組合下
-* &lt;1 =超出預算計畫組合
+* 1 =遵循整體計畫
+* \>1 =在預算排程組合之下
+* &lt;1 =超出預算排程組合
 
 ![](assets/csi-highlighted.png)
 
-## 查找成本計畫效能指數(CSI)
+## 找出成本排程績效指數(CSI)
 
 >[!CAUTION]
 >
->您必須具有訪問級別中查看財務資料的權限，並具有查看項目或任務的權限，才能查看項目或任務的CSI值。
+>您必須擁有存取層級中的檢視財務資料以及檢視專案或任務的許可權，才能檢視專案或任務的CSI值。
 
-您可以在下列Workfront區域找到CSI:
+您可以在Workfront的下列區域中找到CSI：
 
-* 「項目詳細資訊」部分中的財務區域。
-* 「任務詳細資訊」部分中的財務區域。
-* 項目或任務視圖
-* 項目或任務報告
+* 「專案詳細資訊」區段中的「財務」區域。
+* 「工作詳細資訊」區段中的「財務」區域。
+* 專案或任務檢視
+* 專案或任務報告
