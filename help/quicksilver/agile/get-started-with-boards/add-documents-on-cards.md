@@ -6,18 +6,14 @@ description: 您可以將檔案新增至Adobe Workfront展示板上已連線的�
 author: Lisa
 feature: Agile
 exl-id: d68c1eec-c527-44b0-bdc5-ca3b7731b648
-source-git-commit: 72197651cc13b8a8509510663d840b76f4b23a4f
+source-git-commit: 2e9ba58c01f3c5c6569c88e05993674d56124806
 workflow-type: tm+mt
-source-wordcount: '299'
+source-wordcount: '291'
 ht-degree: 0%
 
 ---
 
 # 在卡片上新增檔案
-
->[!IMPORTANT]
->
->此功能在所有環境中暫時停用。
 
 {{article-preview-and-fast-release}}
 
