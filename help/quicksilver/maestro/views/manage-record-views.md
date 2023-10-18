@@ -4,19 +4,21 @@ description: 使用「Adobe大師」時，您可以在表格或時間軸檢視�
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 28602d66b43ec4c30a9f13cff43157b978439d99
+exl-id: 77342724-0182-4134-903b-4428d54cdceb
+source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
 workflow-type: tm+mt
-source-wordcount: '731'
+source-wordcount: '747'
 ht-degree: 1%
 
 ---
-
 
 # 管理記錄檢視
 
 <!--update the metadata with real information when making this available in TOC and in the left nav-->
 
 >[!IMPORTANT]
+>
+>本文資訊是指Adobe Maestro，這是Adobe的新產品。
 >
 >目前，Adobe大師是測試版計畫的一部分，向有限數量的客戶開放。
 >

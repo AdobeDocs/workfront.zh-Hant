@@ -4,19 +4,21 @@ description: 在Adobe大師，您可以編輯已建立欄位的欄位設定。
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 28602d66b43ec4c30a9f13cff43157b978439d99
+exl-id: 6c35c313-d6ed-428b-b70d-2ea242da4e8f
+source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
 workflow-type: tm+mt
-source-wordcount: '427'
+source-wordcount: '443'
 ht-degree: 1%
 
 ---
-
 
 <!--udpate the metadata with real information when making this avilable in TOC and in the left nav-->
 
 # 編輯欄位
 
 >[!IMPORTANT]
+>
+>本文資訊是指Adobe Maestro，這是Adobe的新產品。
 >
 >目前，Adobe大師是測試版計畫的一部分，向有限數量的客戶開放。
 >

@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: f4ef463ebdc9a4a7a0802e5394d7820ebc447aa9
+source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
 workflow-type: tm+mt
-source-wordcount: '922'
+source-wordcount: '938'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,8 @@ ht-degree: 0%
 # 建立記錄
 
 >[!IMPORTANT]
+>
+>本文資訊是指Adobe Maestro，這是Adobe的新產品。
 >
 >目前，Adobe大師是測試版計畫的一部分，向有限數量的客戶開放。
 >

@@ -4,13 +4,13 @@ description: 在記錄型別之間建立連線後，可以將個別記錄彼此�
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 28602d66b43ec4c30a9f13cff43157b978439d99
+exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
+source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
 workflow-type: tm+mt
-source-wordcount: '1803'
+source-wordcount: '1819'
 ht-degree: 0%
 
 ---
-
 
 <!--when you make this live, update the metadata above to this: 
 ---
@@ -29,6 +29,8 @@ hide: yes
 # 連線記錄
 
 >[!IMPORTANT]
+>
+>本文資訊是指Adobe Maestro，這是Adobe的新產品。
 >
 >目前，Adobe大師是測試版計畫的一部分，向有限數量的客戶開放。
 >
@@ -276,15 +278,3 @@ hide: yes
    >  您在Workfront物件記錄型別頁面中新增或移除的欄位，不會從連結至Workfront物件型別的Maestro記錄型別中新增或移除。 這些欄位僅在唯讀的Workfront記錄型別頁面上可見，因此您可以在Maestro中檢視它們。
 
 1. （可選）從Workfront物件記錄型別頁面上的「檢視」下拉式功能表中，選擇「時間軸」檢視，以在時間軸檢視中顯示Workfront連結物件。
-
-
-
-
-
-
-
-
-
-
-
-

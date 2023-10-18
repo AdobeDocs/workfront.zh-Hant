@@ -4,13 +4,13 @@ description: 記錄型別儲存後，您可以編輯記錄型別。 記錄型別
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 28602d66b43ec4c30a9f13cff43157b978439d99
+exl-id: 7d6de742-9657-4286-968c-1fc78ebbb94e
+source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
 workflow-type: tm+mt
-source-wordcount: '417'
+source-wordcount: '433'
 ht-degree: 1%
 
 ---
-
 
 <!--update the metadata with real information when making this available in TOC and in the left nav
 ---
@@ -29,6 +29,8 @@ hide: yes
 # 編輯記錄型別
 
 >[!IMPORTANT]
+>
+>本文資訊是指Adobe Maestro，這是Adobe的新產品。
 >
 >目前，Adobe大師是測試版計畫的一部分，向有限數量的客戶開放。
 >
@@ -123,4 +125,3 @@ hide: yes
    ![](assets/more-menu-options-from-record-details-page.png) <!--check this screen shot - not sure this is valid ???-->
 
    您也可以重新命名記錄型別頁面標頭中的記錄型別。
-

@@ -4,13 +4,13 @@ description: 在Adobe大師中建立記錄型別之後，您可以建立這些�
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 28602d66b43ec4c30a9f13cff43157b978439d99
+exl-id: 7f32ebab-b8dd-496d-b510-99055924b0c7
+source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
 workflow-type: tm+mt
-source-wordcount: '112'
+source-wordcount: '128'
 ht-degree: 0%
 
 ---
-
 
 <!-- update the metadata with real information when making this available in TOC and in the left nav
 ---
@@ -27,6 +27,8 @@ hide: yes
 # 記錄資訊
 
 >[!IMPORTANT]
+>
+>本文資訊是指Adobe Maestro，這是Adobe的新產品。
 >
 >目前，Adobe大師是測試版計畫的一部分，向有限數量的客戶開放。
 >

@@ -6,9 +6,9 @@ description: 瞭解如何建立報表可協助您在Adobe Workfront中提供組�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 10c4df37-f09f-4b91-9cfd-3d0c3835bc7b
-source-git-commit: b774a74863bb35e3477a69ff11189c40a6d66437
+source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
 workflow-type: tm+mt
-source-wordcount: '1809'
+source-wordcount: '1807'
 ht-degree: 1%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 1%
 
 # 建立自訂報表
 
-瞭解如何建立報表可協助您在Adobe Workfront中提供組織所需資訊的存取權。 您可以使用Workfront提供的任何內建報表，或從頭開始建立自己的報表。
+您可以透過建立報告，提供貴組織在Adobe Workfront中所需資訊的存取權。 您可以使用Workfront中提供的任何內建報表，或從頭開始建立自訂報表。
 
 如需內建報表的詳細資訊，請參閱 [使用Adobe Workfront內建報告](../../../reports-and-dashboards/reports/using-built-in-reports/use-workfront-built-in-reports.md).
 
@@ -42,7 +42,8 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定*</td> 
-   <td> <p>編輯報告、儀表板、行事曆的存取權</p> <p>編輯對篩選器、檢視、群組的存取權</p> <p>注意：如果您還是沒有存取權，請詢問您的Workfront管理員，他們是否在您的存取層級中設定其他限制。 如需有關Workfront管理員如何修改您的存取層級的資訊，請參閱 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>.</p> </td> 
+   <td> <p>編輯報告、儀表板、行事曆的存取權</p> <p>編輯對篩選器、檢視、群組的存取權</p> <p><b>附註</b></p>
+   <p> 如果您還是沒有存取權，請詢問您的Workfront管理員，他們是否在您的存取層級中設定其他限制。 如需有關Workfront管理員如何修改您的存取層級的資訊，請參閱 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">物件許可權</td> 

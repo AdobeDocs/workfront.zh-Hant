@@ -4,19 +4,21 @@ description: 您可以與其他人共用記錄，以提高您的共同作業能�
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 28602d66b43ec4c30a9f13cff43157b978439d99
+exl-id: 83ff53ac-f18e-4b71-bdb2-57e05d69ed29
+source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
 workflow-type: tm+mt
-source-wordcount: '369'
+source-wordcount: '385'
 ht-degree: 1%
 
 ---
-
 
 <!--update the metadata with real information when making this available in TOC and in the left nav-->
 
 # 共用記錄
 
 >[!IMPORTANT]
+>
+>本文資訊是指Adobe Maestro，這是Adobe的新產品。
 >
 >目前，Adobe大師是測試版計畫的一部分，向有限數量的客戶開放。
 >

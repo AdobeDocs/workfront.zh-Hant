@@ -4,13 +4,13 @@ description: 存取Adobe Maestro中的記錄型別頁面時，您可以在時間
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 28602d66b43ec4c30a9f13cff43157b978439d99
+exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
+source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
 workflow-type: tm+mt
-source-wordcount: '1077'
+source-wordcount: '1093'
 ht-degree: 1%
 
 ---
-
 
 # 管理時間表檢視
 
@@ -27,6 +27,8 @@ role: User
 <!--update the metadata with real information when making this available in TOC and in the left nav-->
 
 >[!IMPORTANT]
+>
+>本文資訊是指Adobe Maestro，這是Adobe的新產品。
 >
 >目前，Adobe大師是測試版計畫的一部分，向有限數量的客戶開放。
 >
@@ -261,5 +263,3 @@ this is not possible right now; if this is the same functionality as the table v
 1. 按一下&#x200B;**儲存**。
 
    記錄會以您所選取的規格顯示在時間軸檢視中。
-
-

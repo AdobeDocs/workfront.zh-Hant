@@ -4,17 +4,19 @@ description: 身為Workfront管理員，您必須將存取權授與使用者，�
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 28602d66b43ec4c30a9f13cff43157b978439d99
+exl-id: 98ca7d04-35c2-420a-a87c-50c00939853c
+source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
 workflow-type: tm+mt
-source-wordcount: '105'
+source-wordcount: '121'
 ht-degree: 0%
 
 ---
 
-
 # 存取資訊
 
 >[!IMPORTANT]
+>
+>本文資訊是指Adobe Maestro，這是Adobe的新產品。
 >
 >目前，Adobe大師是測試版計畫的一部分，向有限數量的客戶開放。
 >
@@ -28,4 +30,3 @@ ht-degree: 0%
 
 * [存取權總覽](../access/access-overview.md)
 * [授與Adobe大師的存取權](../access/grant-access.md)
-

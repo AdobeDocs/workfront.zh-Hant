@@ -9,10 +9,10 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 25813946-e338-4dd9-b02c-d20fa18c539c
-source-git-commit: 7614652b57c57e1176dfb48058f890fd4e5c942e
+source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
 workflow-type: tm+mt
-source-wordcount: '2510'
-ht-degree: 8%
+source-wordcount: '2515'
+ht-degree: 7%
 
 ---
 
@@ -46,7 +46,8 @@ Kick-Start是特別格式化的Excel活頁簿，可填入您要匯入Workfront�
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定</td> 
-   <td> <p>您必須是Workfront管理員。</p> <p><b>注意</b>：如果您還是沒有存取權，請詢問Workfront管理員是否對您的存取層級設定了其他限制。 如需有關Workfront管理員如何修改您的存取層級的資訊，請參閱 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>.</p> </td> 
+   <td> <p>您必須是Workfront管理員。</p> <p><b>附註</b>:</p> 
+   <p> 如果您還是沒有存取權，請詢問您的Workfront管理員，他們是否在您的存取層級中設定其他限制。 如需有關Workfront管理員如何修改您的存取層級的資訊，請參閱 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -433,14 +434,20 @@ Workfront也接受時間值作為日期的一部分（例如：07/10/2022 01:30�
 
 Kick-Start匯入支援下列檔案型別：
 
-* XML型Excel (&#42;.xlsx)
-* 舊版Excel (&#42;.xls)
-* 壓縮(&#42;ZIP) xlsx或xls檔案
+* XML型Excel (.xlsx)
+* 舊版Excel (.xls)
+* 壓縮的(.ZIP)檔案（僅包含.xlsx或.xls檔案）
 
   >[!NOTE]
   >
-  >當匯入的 Excel 試算表參考了報告、文件、顯示圖片；或檢視、篩選或分組屬性檔案時，您必須使用 ZIP 檔案。使用壓縮的匯入檔案時， &#42;ZIP檔案的名稱必須與 &#42;.xlsx或 &#42;.xls檔案，且所有內容必須位於相同的檔案結構層級（無資料夾）。
-
+  >匯入參照下列物件的Excel試算表時，您必須使用.ZIP檔案：
+  >
+  >* 報告
+  >* 文件
+  >* 頭像
+  >* 檢視、篩選或分組屬性檔案。
+  >
+  >使用壓縮的匯入檔案時，.ZIP檔案的名稱必須與.xlsx或.xls檔案相同，而且所有檔案都必須處於相同的結構層級（沒有資料夾）。
 
 若要將範本試算表資料匯入Workfront：
 

@@ -4,13 +4,13 @@ description: 指示個別記錄型別如何彼此關聯的一種方法是連線�
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 28602d66b43ec4c30a9f13cff43157b978439d99
+exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
+source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
 workflow-type: tm+mt
-source-wordcount: '1742'
+source-wordcount: '1739'
 ht-degree: 0%
 
 ---
-
 
 <!-----
 title: Connect record types
@@ -30,6 +30,8 @@ author: Alina
 
 >[!IMPORTANT]
 >
+>本文資訊是指Adobe Maestro，這是Adobe的新產品。
+>
 >目前，Adobe大師是測試版計畫的一部分，向有限數量的客戶開放。
 >
 >如需加入Maestro測試版計畫的詳細資訊，請聯絡您的客戶代表。
@@ -42,6 +44,7 @@ author: Alina
 
 * Maestro作業記錄型別
 * 將主要作業記錄型別轉換為分類記錄型別
+* 作業記錄型別的主要分類型別
 * 來自其他應用程式的大型作業記錄型別和物件型別。
 
 這樣，您就可以在另一個Maestro記錄上顯示連結記錄或物件型別的欄位。
@@ -240,7 +243,7 @@ author: Alina
 
 1. 按一下 **新增欄位** 以儲存變更。
 
-   新增下列專案：
+   已新增下列專案：
 
    * 在您手動新增連結的記錄型別後，將顯示連結的記錄欄位。 連結的記錄欄位名稱是您在步驟6中選取的名稱。 <!-- ensure this is still accurate-->
 
@@ -250,18 +253,9 @@ author: Alina
 
    * 您要連結的記錄型別上的連結記錄欄位。 連結的記錄型別上連結的記錄欄位名稱是您連結的記錄型別名稱。
 
-     例如，如果您從「促銷活動」記錄型別連結「產品」記錄型別，並將促銷活動的已連線欄位命名為「連結的產品」，則會為產品記錄型別建立「促銷活動」連結欄位。
+     例如，如果您從「行銷活動」記錄型別連結「產品」記錄型別，並將行銷活動的已連線欄位命名為「連結的產品」，則會為「產品」記錄型別建立「行銷活動」連結記錄欄位。
 
-     <!--is the statement in the note below still accurate?? they were working on removing this from taxonomies-->
-
-     >[!NOTE]
-     >
-     >當您將記錄型別與以下內容連線時，顯示您從中連結的記錄型別的連結記錄欄位不會新增到記錄型別： <!--is this temporary for taxonomies??-->
-     >        
-     >   * 分類法。
-     >   * 來自另一個應用程式的物件型別。
-
-1. （選擇性）從原始記錄型別或連結記錄型別表格檢視中，按一下連結記錄欄位右側的下拉式清單，然後按一下下列其中一項：
+1. （選擇性）從原始記錄型別或連結記錄型別表格檢視中，按一下連結記錄欄位標題中的向下箭頭，然後按一下下列其中一項：
 
    * **編輯欄位**：您只能更新 **名稱** 和 **說明** 欄位資訊。
    * **編輯查閱欄位**：新增或移除任何連結記錄的欄位。
@@ -270,11 +264,10 @@ author: Alina
 
    若要新增或移除欄位，請遵循上述步驟7-12中的指示。 <!--ensure these step numbers stay accurate-->
 
-1. （可選）按一下連結的記錄或連結欄位標題中的向下箭頭，然後按一下 **刪除**.
+1. （可選）從您要連結的記錄型別中，按一下連結的記錄欄位標題中的向下箭頭，然後按一下 **刪除**.
 
-   記錄欄位和任何其他查閱欄位都會刪除，且欄位及其資訊無法復原。
+   記錄欄位和任何其他連結的查閱欄位都會刪除，而且欄位及其資訊無法復原。
 
    >[!TIP]
    >
-   >    不會刪除從原始記錄連結的記錄上的連結記錄欄位。 <!-- is this still accurate?! -->
-
+   >    您連結的記錄型別上的連結記錄欄位不會刪除。 <!-- is this still accurate?! -->

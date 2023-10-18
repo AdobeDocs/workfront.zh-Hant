@@ -6,9 +6,9 @@ description: 您可以在Adobe Workfront中將任務移動到不同的專案或�
 author: Alina
 feature: Work Management
 exl-id: 93295d70-a6cf-46ca-b621-228fa6c983f5
-source-git-commit: 5db9a4869e1321bd268e80f786d157fbb41c0656
+source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
 workflow-type: tm+mt
-source-wordcount: '1491'
+source-wordcount: '1479'
 ht-degree: 2%
 
 ---
@@ -72,7 +72,7 @@ ht-degree: 2%
 
 依預設，下列專案不會隨任務移動：
 
-* 里程碑會傳輸到複製的任務並從原始任務中移除。
+* 里程碑
 
 ## 移動清單中的任務
 

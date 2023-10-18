@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management, Projects
 role: User
 exl-id: a6a1f178-189a-4c41-835b-7726081a2b49
-source-git-commit: 5b7a5aff0f8bdf7cf8429ac29b50c3beaf4bd3b4
+source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
 workflow-type: tm+mt
-source-wordcount: '7315'
+source-wordcount: '7330'
 ht-degree: 2%
 
 ---
@@ -221,7 +221,7 @@ ht-degree: 2%
      </tr> 
      <tr> 
       <td role="rowheader"><strong>優先順序</strong> </td> 
-      <td> <p> <p>這只是一個視覺化的標幟，可讓您排定專案的優先順序。</p> <p>根據您的Workfront管理員所選取的「專案偏好設定」，優先順序的名稱可能會有所不同。 如需有關編輯優先順序的詳細資訊，請參閱 <a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-priorities.md" class="MCXref xref">建立和自訂優先順序</a></p> </p> </td> 
+      <td> <p> <p>這只是一個視覺化的標幟，可讓您排定專案的優先順序。</p> <p>根據Workfront管理員選取的專案偏好設定，您的優先順序名稱可能會不同。 如需有關編輯優先順序的詳細資訊，請參閱 <a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-priorities.md" class="MCXref xref">建立和自訂優先順序</a></p> </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>URL</strong> </td> 
@@ -392,7 +392,7 @@ ht-degree: 2%
      </tr> 
      <tr> 
       <td role="rowheader"><strong>績效指數方法</strong> </td> 
-      <td> <p>選取 <b>基於小時</b>，或 <b>基於成本</b> 以指出專案的已認列值量度（例如成本績效指數或預估實際成本）是否使用時數或成本來計算。 </p> <p>如需有關績效指數方法的詳細資訊，請參閱 <a href="../../../manage-work/projects/project-finances/set-pim.md" class="MCXref xref">設定績效指數方法(PIM)</a>. </p> <p>您的Workfront管理員<span> 或群組管理員</span> 選取系統或群組的預設「績效指數方法」設定。 如需有關設定專案預設值的資訊，請參閱 <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">設定全系統專案偏好設定</a>.</p> </td> 
+      <td> <p>選取 <b>基於小時</b>，或 <b>基於成本</b> 以指出專案的「已認列值」量度（例如「成本績效指數」或「預估實際成本」）是否使用時數或成本計算。 </p> <p>如需有關績效指數方法的詳細資訊，請參閱 <a href="../../../manage-work/projects/project-finances/set-pim.md" class="MCXref xref">設定績效指數方法(PIM)</a>. </p> <p>您的Workfront管理員<span> 或群組管理員</span> 選取系統或群組的預設「績效指數方法」設定。 如需有關設定專案預設值的資訊，請參閱 <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">設定全系統專案偏好設定</a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>預估完成成本</strong> </td> 
@@ -457,7 +457,7 @@ ht-degree: 2%
        <td> <p>控制如何將父系任務標示為完成。 從下列選項中選取： 
        <ul> 
        <li><strong>自動</strong>：當子系任務完成並更新子系完成百分比時，父系任務會標籤為「完成」並自動更新其完成百分比。 </li> 
-       <li><strong>手動</strong>：您必須手動更新完成百分比和父系任務的狀態，不論對子系任務進行什麼變更。</li> 
+       <li><strong>手動</strong>：您必須手動更新完成百分比和父系任務的狀態，不論對子系任務進行什麼變更。 這可讓您標籤已完成父系任務，即使子任務未完成。 </li> 
        </ul></p> </td> 
        </tr> 
        <tr> 

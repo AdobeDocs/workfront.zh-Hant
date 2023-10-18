@@ -4,13 +4,13 @@ description: 工作區是團隊使用的操作記錄型別和分類法的集合�
 hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 28602d66b43ec4c30a9f13cff43157b978439d99
+exl-id: c4758b87-45dc-4ffd-b086-5e2e907bdf34
+source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
 workflow-type: tm+mt
-source-wordcount: '446'
+source-wordcount: '462'
 ht-degree: 0%
 
 ---
-
 
 <!--update the metadata with real information when making this available in TOC and in the left nav:
 ---
@@ -28,6 +28,8 @@ role: User
 # 工作區範本清單
 
 >[!IMPORTANT]
+>
+>本文資訊是指Adobe Maestro，這是Adobe的新產品。
 >
 >目前，Adobe大師是測試版計畫的一部分，向有限數量的客戶開放。
 >
@@ -154,5 +156,3 @@ You must have the following:
       * **產品團隊**： 3個欄位
       * **功能要求**：8個欄位和1個連結欄位
       * **產業**：1個欄位和1個連結欄位
-
-

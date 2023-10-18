@@ -4,13 +4,13 @@ description: 當作業記錄型別或分類記錄型別不再相關時，您可�
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 28602d66b43ec4c30a9f13cff43157b978439d99
+exl-id: 70fd3887-3871-45b5-9c21-f57da63662aa
+source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
 workflow-type: tm+mt
-source-wordcount: '371'
+source-wordcount: '387'
 ht-degree: 1%
 
 ---
-
 
 <!--udpate the metadata with real information when making this avilable in TOC and in the left nav:
 ---
@@ -28,6 +28,8 @@ hide: yes
 # 刪除記錄型別
 
 >[!IMPORTANT]
+>
+>本文資訊是指Adobe Maestro，這是Adobe的新產品。
 >
 >目前，Adobe大師是測試版計畫的一部分，向有限數量的客戶開放。
 >

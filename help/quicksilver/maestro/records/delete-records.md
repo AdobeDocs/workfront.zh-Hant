@@ -4,19 +4,20 @@ description: 您可以刪除您或其他使用者建立的記錄。 您無法復
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 28602d66b43ec4c30a9f13cff43157b978439d99
+exl-id: 3f7a3667-8a9f-462a-b706-cf15850a0d1c
+source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
 workflow-type: tm+mt
-source-wordcount: '465'
+source-wordcount: '481'
 ht-degree: 2%
 
 ---
-
 
 <!--udpate the metadata with real information when making this available in TOC and in the left nav-->
 
 # 刪除記錄
 
 >[!IMPORTANT]
+>>本文資訊是指Adobe Maestro，這是Adobe的新產品。
 >
 >目前，Adobe大師是測試版計畫的一部分，向有限數量的客戶開放。
 >

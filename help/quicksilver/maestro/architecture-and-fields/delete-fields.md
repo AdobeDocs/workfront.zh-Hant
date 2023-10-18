@@ -4,19 +4,21 @@ description: 在Adobe大師，您可以刪除不再相關的自訂欄位。
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 28602d66b43ec4c30a9f13cff43157b978439d99
+exl-id: ec48db42-2395-4439-97ae-e4f5242170b7
+source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
 workflow-type: tm+mt
-source-wordcount: '311'
+source-wordcount: '370'
 ht-degree: 1%
 
 ---
-
 
 <!--udpate the metadata with real information when making this avilable in TOC and in the left nav-->
 
 # 刪除欄位
 
 >[!IMPORTANT]
+>
+>本文資訊是指Adobe Maestro，這是Adobe的新產品。
 >
 >目前，Adobe大師是測試版計畫的一部分，向有限數量的客戶開放。
 >
@@ -35,6 +37,9 @@ ht-degree: 1%
 * 您可以刪除您建立的欄位或其他使用者建立的欄位。 <!--this will change with access levels/ permissions-->
 * 您只能刪除記錄型別表格中的欄位。
 * 儲存在欄位中的任何資訊都會被刪除且無法復原。
+* 當您刪除連結的記錄欄位時，所有連結的查閱欄位也會從您連結的記錄型別中刪除。 您連結到的記錄型別的連結記錄欄位不會被刪除。
+
+  如需詳細資訊，請參閱 [連線記錄型別](../architecture-and-fields/connect-record-types.md).
   <!-- this is not possible yet, since fields cannot be shared yet; maybe move this up a bit, in this bullet list: * When you delete a field, it is deleted from all records associated with the field.-->
 
 ## 存取需求

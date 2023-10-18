@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: ed1c4954-b338-4865-a7a9-5ba0192e7b37
-source-git-commit: 5db9a4869e1321bd268e80f786d157fbb41c0656
+source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
 workflow-type: tm+mt
-source-wordcount: '1398'
+source-wordcount: '1408'
 ht-degree: 1%
 
 ---
@@ -17,6 +17,8 @@ ht-degree: 1%
 # 建立作業記錄型別
 
 >[!IMPORTANT]
+>
+>本文資訊是指Adobe Maestro，這是Adobe的新產品。
 >
 >目前，Adobe大師是測試版計畫的一部分，向有限數量的客戶開放。
 >
@@ -100,7 +102,7 @@ ht-degree: 1%
 
         如需詳細資訊，請參閱 [建立工作區](../architecture-and-fields/create-workspaces.md).
       * 當您使用Excel或CSV檔案匯入時。 這不適用於分類記錄型別。
-      * 當您從另一個應用程式建立與物件型別的連線時，當將欄位新增到記錄型別時。 這會在Maestro中建立唯讀記錄型別，該記錄型別從原始應用程式連線到物件型別。 這不適用於分類記錄型別。
+      * 當您從另一個應用程式建立與物件型別的連線時，當將欄位新增到記錄型別時。 這會在Maestro中建立唯讀記錄型別，該記錄型別從原始應用程式連線到物件型別。
 
      如需有關連線物件型別與Maestro記錄的資訊，請參閱 [連線記錄](../records/connect-records.md).
    * 手動:
@@ -258,5 +260,7 @@ ht-degree: 1%
    * 專案
    * 專案組合
    * 計劃
+   * 公司
+   * 群組
 
 如需詳細資訊，請參閱 [連線記錄型別](../architecture-and-fields/connect-record-types.md).
