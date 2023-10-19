@@ -7,9 +7,9 @@ author: Alina
 feature: Product Announcements
 role: User
 exl-id: f750b35b-8021-4cc1-81d6-e1ece2530438
-source-git-commit: 8be7534dfc0a1227bd2274ad093a88ae19b4691d
+source-git-commit: 01618ee7a4002128d0ad6a519de3a58fa72e8818
 workflow-type: tm+mt
-source-wordcount: '1036'
+source-wordcount: '1050'
 ht-degree: 3%
 
 ---
@@ -25,13 +25,10 @@ Adobe Workfront中的評論體驗更新目前正在開發中。 此更新包含�
 
 新的註解體驗將緩慢地變為可用於Workfront中所有具有更新區段的物件，稍後它將擴展至其他Adobe Experience Cloud應用程式。
 
-<!--  ****************UNCOMMENT THIS SECTION WHEN THE FAQs ARTICLE IS LIVE: 
-
-For additional resources for the new commenting experience, also see the following articles:
+<!--For additional resources for the new commenting experience, also see the following articles:
 
 * [New commenting experience release activity](../new-commenting-experience-beta/new-commenting-beta-experience-release-activity.md)
-* [New commenting experience FAQs](../new-commenting-experience-beta/new-commenting-faq.md.draft)
-
+* [New commenting experience FAQs](../../betas/new-commenting-experience-beta/new-commenting-faq.md)
 -->
 
 ## 功能
@@ -50,7 +47,7 @@ For additional resources for the new commenting experience, also see the followi
 * 系統更新的註解
 * 可在註解時編輯狀態、條件、認可日期
 * 編輯自訂表單
-* 當Workfront或群組管理員以其他使用者身份登入並代表他們新增評論時，「代表&lt;使用者名稱>」資訊。 <!-- Replace this bullet with this, when re bring this back: The "on behalf of < user name >" information when a Workfront or group administrator logs in as another user and adds a comment on their behalf was originally removed. It has been reinstated in October 2023.-->
+* 當Workfront或群組管理員以其他使用者身份登入並代表他們新增評論時，「代表&lt;使用者名稱>」資訊最初被移除。 它已於2023年10月19日恢復。
 * 當您在檔案中新增註解時標籤人員的「要求核准」選項。
 
 >[!NOTE]
@@ -381,34 +378,36 @@ For additional resources for the new commenting experience, also see the followi
    <td> 
    </td>
   </tr>
-  <tr>
-   <td>解決評論 
-   </td>
-   <td> 
-   </td>
-   <td> 
-   </td>
-   <td>✓ 
-   </td>
-   <td>2023年第3季 
-   </td>
-   <td>✓ 
-   </td>
-  </tr>
-  <tr>
+    <tr>
    <td>在評論中搜尋 
    </td>
    <td> 
    </td>
    <td> 
    </td>
-   <td>✓ 
+   <td> 
    </td>
-   <td>2023年第3季 
+   <td>2024年第1季度 
    </td>
    <td>✓ 
    </td>
   </tr>
+
+<tr>
+   <td>在註解中複製並貼上影像
+   </td>
+   <td> 
+   </td>
+   <td> 
+   </td>
+   <td> 
+   </td>
+   <td>2024年第1季度 
+   </td>
+   <td>✓ 
+   </td>
+  </tr>
+
 <tr>
    <td>編輯自訂表單 
    </td>
@@ -456,7 +455,7 @@ For additional resources for the new commenting experience, also see the followi
    </td>
    <td> ✓
    </td>
-   <td> 
+   <td> ✓
    </td>
    <td> 
    </td>

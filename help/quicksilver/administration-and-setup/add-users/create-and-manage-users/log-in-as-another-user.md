@@ -8,9 +8,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 2f8dd132-1086-4980-9b56-993a68231e96
-source-git-commit: 8be7534dfc0a1227bd2274ad093a88ae19b4691d
+source-git-commit: bc7039bc4b8b257fc55e71e73f72327fdb417837
 workflow-type: tm+mt
-source-wordcount: '871'
+source-wordcount: '809'
 ht-degree: 0%
 
 ---
@@ -105,7 +105,7 @@ Some users, such as executives, need to be able to control which administrators 
 1. 按一下 **登入。**
 
    <!--
-   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Might come in a future story:</p>
+   <p> Might come in a future story:</p>
    -->
 
    <!--
@@ -147,15 +147,6 @@ Workfront提供機制，可在管理員以其他使用者身份登入時追蹤�
 當您以其他使用者身分登入Workfront並執行動作時，Workfront會清楚指出您執行的任何動作都是由您代表您登入的使用者所執行。
 
 例如，如果您在以其他使用者身份登入時對專案進行註解，則會出現一條宣告，表示您是代表使用者進行註解。
-
-<!--remove the note below when we bring this back to Prod: -->
-
->[!NOTE]
->
->使用新的註解體驗時，註解會新增為以其他使用者身分登入的使用者，而不會顯示他們代表其他人新增註解。
->
->例如，如果Workfront管理員以其他使用者身份登入，則與評論相關聯的使用者是Workfront管理員。 如需詳細資訊，請參閱 [新的評論體驗](../../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
-
 
 ### 檢視稽核資訊 {#view-audit-information}
 

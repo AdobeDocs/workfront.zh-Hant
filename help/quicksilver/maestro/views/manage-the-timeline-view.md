@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
+source-git-commit: bc7039bc4b8b257fc55e71e73f72327fdb417837
 workflow-type: tm+mt
-source-wordcount: '1093'
+source-wordcount: '1432'
 ht-degree: 1%
 
 ---
@@ -156,7 +156,7 @@ role: User
 
 ### 新增篩選器
 
-篩選器可協助您減少熒幕上顯示的資訊量。
+您可以使用篩選器來減少熒幕上顯示的資訊量。
 
 在時間軸檢視中使用篩選器時，請考量下列事項：
 
@@ -166,13 +166,13 @@ role: User
 
 * 這些篩選器對於您選取的檢視而言是唯一的。 相同記錄型別的兩個時間軸檢視可以套用不同的篩選器。 檢視相同時間表檢視的兩個使用者會看到目前套用的相同篩選器。
 
-* 您無法為您建立並套用至時間表檢視的篩選器命名。
+* 您無法為您為時間表檢視建置的篩選器命名。
 
-* 移除篩選器會將其從存取與您相同記錄型別的任何人中移除，並使用與您使用的相同檢視。
+* 移除篩選器會將篩選器從存取與您相同記錄型別以及顯示與您相同檢視的任何人移除。
 
-在時間軸檢視中新增濾鏡，與在表格檢視中新增濾鏡相同。
+* 在時間軸檢視中新增濾鏡，與在表格檢視中新增濾鏡相同。
 
-如需詳細資訊，請參閱文章中的「新增篩選器」一節 [管理表格檢視](../views/manage-the-table-view.md).
+  如需詳細資訊，請參閱文章中的「新增篩選器」一節 [管理表格檢視](../views/manage-the-table-view.md).
 
 ### 新增分組
 
@@ -180,45 +180,49 @@ role: User
 
 Adding groupings in the timeline view is identical to adding filters in the table view. 
 
-For more information, see the "Add filters" section in the article [Manage the table view](../views/manage-the-table-view.md). -->
-
+For more information, see the "Add groupings" section in the article [Manage the table view](../views/manage-the-table-view.md). BUT: you would need to create this section for the Table view and move the steps below (and maybe edit them) to the Manage the table view article, in this case. OR ... link from that section to this article?! -->
 
 將群組套用至檢視時，您可以依照類似的資訊來群組記錄。
 
 在時間軸檢視中使用群組時，請考量下列事項：
 
-* 您可以在表格和時間軸檢視中套用群組。 表格檢視的分組與相同記錄型別之時間軸檢視中的群組是獨立的。
+<!--not yet: * You can apply groupings both in the table and timeline views. The groupings of the table view are independent from those in the timeline view of the same record type. -->
 * 您可以在Maestro檢視中套用3個群組層級。 記錄會依照您選取的群組順序進行分組。
 * 使用API時，您最多可以套用4個層級的群組。
+* 群組對於您選取的檢視而言是唯一的。 相同記錄型別的兩個時間軸檢視可套用不同的群組。 檢視相同時間表檢視的兩個使用者會看到目前套用的相同分組。
+
+* 您無法為時間表檢視建立的分組命名。
+
+* 移除群組會將群組從存取與您相同記錄型別以及顯示與您相同檢視的任何人中移除。
 
 若要新增群組：
 
-1. 建立時間表檢視，如文章所述 [管理記錄檢視](../views/manage-record-views.md).
-1. 按一下 **分組**.
+1. 如文章所述，為記錄型別建立時間表檢視 [管理記錄檢視](../views/manage-record-views.md).
+1. 按一下 **分組** 位於時間軸檢視的右上角。
 
    ![](assets/grouping-ui-timeline-view.png)
 
-1. 按一下其中一個建議欄位，或按一下 **選擇其他欄位** 並搜尋其他欄位，然後在清單中顯示時按一下該欄位。
+1. 按一下其中一個建議欄位，或按一下 **選擇其他欄位**，搜尋其他欄位，然後在清單中顯示時按一下該欄位。
 
    >[!TIP]
    >
    >您無法選取連結的欄位。
 
-   分組會自動套用至時間軸，且記錄會顯示在分組方塊內。 分組中的專案數會顯示在分組行上。
+   分組會自動套用至時間軸，且記錄會顯示在分組方塊內。
 
    <!-- add a step that you can rearrange the groupings here, when this will be possible-->
 
 1. （可選）重複上述步驟以新增最多3個群組。
 
-   套用的分組數會顯示在工具列右上角「分組」圖示的左側。
+   為分組選取的欄位數會顯示在「分組」圖示旁。
 
    ![](assets/grouping-applied-in-timeline-view.png)
 
-1. （可選）按一下 **x** 圖示在群組右側以移除群組
+1. （可選）按一下 **x** 圖示在選取要移除分組的欄位右側
 
    或
 
-   按一下 **全部清除** 以移除所有群組。
+   按一下 **全部清除** 以移除所有欄位。
 
 1. 按一下 **記錄分組依據** 方塊以關閉它。
 
@@ -232,20 +236,19 @@ this is not possible right now; if this is the same functionality as the table v
 
 ### 編輯時間軸檢視設定 {#edit-the-timeline-view-settings}
 
-更新時間軸檢視設定，以指示檢視的時間軸區段中顯示哪些資訊。
+更新時間軸檢視設定，以指示要在檢視的時間軸區段中顯示哪些資訊及顯示方式。
 
-1. 建立時間表檢視，如文章所述 [管理記錄檢視](../views/manage-record-views.md).
+1. 如文章所述，為記錄型別建立時間表檢視 [管理記錄檢視](../views/manage-record-views.md).
 1. 按一下 **設定**.
 1. 按一下 **日期和時間** 在左側面板中，然後選取 **開始日期** 和 **結束日期** 以在時間軸上顯示。 您可以選擇預設的「開始」和「結束」日期，也可以選擇任何可用的日期欄位。 代表記錄的長條圖，其開始日期為您為「開始」日期指定的日期，結束日期為您與「結束」日期對應的日期。
 
    >[!NOTE]
    >
-   >    沒有開始或結束日期值或開始日期晚於結束日期的記錄不會顯示在時間軸檢視中。
+   >沒有開始或結束日期值或開始日期晚於結束日期的記錄不會顯示在時間軸檢視中。
 
+1. 按一下 **橫條樣式** 在左側面板中，指定您要在記錄列上顯示的欄位。
 
-1. 按一下 **記錄詳細資料** 以指示您要在記錄欄位上顯示的欄位。
-
-   依預設，會選取「名稱」欄位。
+   依預設，會選取「名稱」欄位。 <!--adjust this when the primary field is released??-->
 
 1. 按一下 **新增欄位** 以新增最多4個欄位到記錄列。
 1. 按一下 **搜尋欄位** 方塊，然後按一下您要新增的欄位。
@@ -259,6 +262,41 @@ this is not possible right now; if this is the same functionality as the table v
    右側會顯示時間軸上長條圖的外觀。
 
    ![](assets/record-details-panel-timeline-settings-with-preview.png)
+
+1. 按一下 **顏色** 在左側面板中，自訂時間軸中記錄和群組的顏色。
+
+   ![](assets/color-tab-timeline-view.png)
+
+1. （條件式與選擇性）如果您將群組新增至時間軸檢視，請從下列選項中選取，以設定群組中的顏色 **設定群組顏色** 區段：
+
+   * **預設（灰色）**：群組的顏色會設定為灰色。 這是預設值。
+   * **欄位值**：分組的顏色符合您分組依據的欄位顏色。
+您只能將群組的顏色與具有顏色編碼選項的欄位配對。
+
+   例如，多選或單選欄位可以有顏色編碼的選項。
+
+   如果您依據沒有顏色編碼選項的欄位分組，則分組顏色保持灰色。
+
+   >[!TIP]
+   >
+   >如果您未將群組新增至時間軸檢視，則不會顯示此區段。
+
+1. 在 **設定記錄顏色** 區段中，從下列選項中選取，以設定記錄的顏色：
+
+   * **記錄型別**：記錄的顏色符合您選取的記錄型別的顏色。 這是預設選項。
+   * **欄位值**：記錄的顏色與您指定的欄位顏色相符。 繼續進行步驟10。 <!--ensure this stays accurate-->
+   * **分組**：記錄的顏色符合您為分組指定的顏色。 當您未將群組套用到時間軸檢視時，此選項會變暗。
+   * **無**：記錄會以白色列顯示。
+
+1. （視條件而定）如果您已選取 **欄位值** 對於記錄顏色，從 **比對記錄顏色** 下拉式功能表。
+
+   ![](assets/field-selector-drop-down-menu-timeline-view.png)
+
+   下拉式選單中只會顯示具有色彩編碼選項的欄位。
+
+   例如，多選或單選欄位可以有顏色編碼的選項。
+
+   如果選取的記錄型別沒有包含顏色編碼選項的欄位，則此選項會變暗。
 
 1. 按一下&#x200B;**儲存**。
 

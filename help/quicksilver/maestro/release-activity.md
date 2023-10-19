@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
+source-git-commit: bc7039bc4b8b257fc55e71e73f72327fdb417837
 workflow-type: tm+mt
-source-wordcount: '1626'
+source-wordcount: '1743'
 ht-degree: 0%
 
 ---
@@ -51,6 +51,34 @@ ht-degree: 0%
 
 我們已為段落型別欄位新增RTF格式控制項。 您可以在記錄型別的表格檢視或記錄的詳細資訊頁面中使用RTF格式化段落欄位。 如需詳細資訊，請參閱 [編輯記錄](../maestro/records/edit-records.md).
 
+
+### 時間軸檢視的記錄與群組色彩編碼
+
+預覽和生產： 2023年10月19日
+
+您現在可以對「時間軸」檢視中的記錄列和群組進行色彩編碼。
+
+以下是「時間軸」檢視中，您可以選擇為記錄列和群組顯示的顏色選項：
+
+* 群組可符合下列顏色：
+
+   * 灰色（預設）
+
+   * 您分組依據的欄位色彩
+
+* 長條圖可以符合下列顏色：
+
+   * 記錄型別的顏色
+
+   * 您選取的欄位顏色
+
+   * 群組的顏色
+
+   * 無顏色（預設）
+
+將顏色與特定欄位比對時，您只能選取具有顏色編碼選項的欄位。
+
+如需詳細資訊，請參閱 [管理時間表檢視](../maestro/views/manage-the-timeline-view.md).
 
 ## 2023年10月9日當週
 

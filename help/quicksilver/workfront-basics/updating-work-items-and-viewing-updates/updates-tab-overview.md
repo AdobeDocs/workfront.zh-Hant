@@ -7,10 +7,10 @@ description: 物件的「更新」區段會顯示使用者對物件所做的註�
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: 8be7534dfc0a1227bd2274ad093a88ae19b4691d
+source-git-commit: bc7039bc4b8b257fc55e71e73f72327fdb417837
 workflow-type: tm+mt
-source-wordcount: '1189'
-ht-degree: 4%
+source-wordcount: '1170'
+ht-degree: 5%
 
 ---
 
@@ -133,8 +133,6 @@ The Updates section of an object displays comments that users make on the object
 
 如需有關新註解體驗有哪些功能可用以及哪些物件的資訊，請參閱 [新的評論體驗](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 
-<!--update screen shot and maybe save it under a new name??? with the August 17 release - also make sure you have some people tagged, similar to what we show in the old UI-->
-
 <span class="preview">![](assets/updates-tab-after-unified-experience-for-tasks.png)</span>
 
 * 「更新」區段在新註解體驗的以下標籤中顯示資訊：
@@ -211,8 +209,6 @@ The Updates section of an object displays comments that users make on the object
 
   *You can add and view updates to cards in the Board areas when you enable the Comments and System Activity sections on a card. For more information, see [Add an ad hoc card to a board](../../agile/get-started-with-boards/add-card-to-board.md). 
   -->
-
-
 
 ## 也會出現在較高排名物件上的更新
 
@@ -325,18 +321,13 @@ Adobe Workfront管理員和群組管理員可以其他使用者身份登入，�
 
 如需詳細資訊，請參閱 [以其他使用者身分登入](../../administration-and-setup/add-users/create-and-manage-users/log-in-as-another-user.md).
 
-代表其他使用者所做的任何評論都會在評論中標示。
+以其他使用者身份登入並新增註解時，請考慮下列事項：
 
-<!--remove the note below when we release this back to the new commenting-->
+* 代表其他使用者所做的任何評論都會在評論中標示。
 
->[!NOTE]
->
->使用新的註解體驗時，註解會新增為以其他使用者身分登入的使用者，而不會顯示他們代表其他人新增註解。
->
->例如，如果Workfront管理員以其他使用者身份登入，則與評論相關聯的使用者是Workfront管理員。 如需詳細資訊，請參閱 [新的評論體驗](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
+* 群組管理員可以代表其他人發表評論，但無法刪除該評論。 只有Adobe Workfront管理員可以刪除他們代表其他使用者所做的評論。
 
-
-群組管理員可以代表其他人發表評論，但無法刪除該評論。 只有Adobe Workfront管理員可以刪除他們代表其他使用者所做的評論。
+* Workfront或群組管理員只有在以使用者身分登出並以本身身分登入時，才能編輯他們代表其他使用者新增的評論。
 
 ## 使用分錄報表檢視工作專案的系統更新
 
