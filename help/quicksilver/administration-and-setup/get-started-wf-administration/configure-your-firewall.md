@@ -8,9 +8,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 264eed40-6d90-498b-83cc-2500c8b19c84
-source-git-commit: d74b0aa22644b7c79d3c6c3c3bbd5e67efdff732
+source-git-commit: ed5f941690754f631c16c5206faeeeb30d126841
 workflow-type: tm+mt
-source-wordcount: '1543'
+source-wordcount: '1569'
 ht-degree: 13%
 
 ---
@@ -24,6 +24,10 @@ ht-degree: 13%
 >若要在貴組織已上線至Adobe Admin Console的情況下設定允許清單，請參閱 [Adobe應用程式和服務允許的網域](https://helpx.adobe.com/enterprise/kb/network-endpoints.html).
 >
 >如需根據貴組織是否已加入Adobe Admin Console而有所差異的程式清單，請參閱 [平台型管理差異(Adobe Workfront/Adobe Business Platform)](../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
+
+>[!NOTE]
+>
+>組織配置其允許清單的方式是每個組織所獨有的。 與您的IT團隊合作，識別組織的程式並實作這些新增專案。
 
 如果您的防火牆或郵件伺服器設定為僅允許特定廠商存取，則必須將特定IP位址新增至其允許清單。 這會在您的環境與Adobe Workfront伺服器之間開啟通訊，並啟用下列程式：
 
