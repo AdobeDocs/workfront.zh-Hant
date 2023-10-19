@@ -6,10 +6,10 @@ description: 事件訂閱資源欄位
 author: Becky
 feature: Workfront API
 exl-id: 54859930-7619-4b93-8dff-29b10e43d6d5
-source-git-commit: 012d53d4773ea8fa377ea7c65cea6cc411ef5321
+source-git-commit: a000e1fc353bfbe47851062945adb810804d8dee
 workflow-type: tm+mt
-source-wordcount: '633'
-ht-degree: 10%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -146,7 +146,7 @@ ht-degree: 10%
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>workPerDate</td> 
+   <td>workPerDate <p><span style="color: #ff0000;"> 此欄位已棄用，將在2023年10月23日當週移除。</p></span></td> 
   </tr> 
   <tr> 
    <td> </td> 
