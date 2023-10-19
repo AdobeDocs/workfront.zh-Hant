@@ -3,9 +3,9 @@ title: 2023年第四季首頁增強功能
 description: 2023年第四季首頁增強功能
 author: Lisa
 feature: Product Announcements
-source-git-commit: 2fa6cfa10bab8714c8e30b9b1e084ee626ec933a
+source-git-commit: 93191e047dbf0344647e41f9e4280c08c1172001
 workflow-type: tm+mt
-source-wordcount: '839'
+source-wordcount: '840'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ ht-degree: 0%
 
 ## 新的貢獻者預設登陸頁面：新首頁
 
-新首頁現在是貢獻者帳戶的預設登陸頁面。 這個新的預設首頁包含許多特別選取的Widget，以便最佳地讓貢獻者立即管理其工作。 第一次造訪頁面時，貢獻者也會收到指示，說明如何使用新首頁，以及自訂逐步說明中預設可用的特定Widget。 請注意，如果投稿人帳戶目前正在使用具有自訂首頁的版面，則仍將保留其首頁。
+新首頁現在是貢獻者/請求者帳戶的預設登陸頁面。 這個新的預設首頁包含許多特別選取的Widget，以便最佳地讓貢獻者立即管理其工作。 第一次造訪頁面時，系統也會指示貢獻者使用新首頁，以及自訂逐步說明中預設可用的特定Widget。 請注意，如果投稿人帳戶目前正在使用具有自訂首頁的版面，則仍將保留其首頁。
 
 如需有關使用新首頁的詳細資訊，請參閱 [開始使用新首頁](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md).
 

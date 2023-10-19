@@ -3,9 +3,9 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文件、教學課程和其他資源，了解如何在您的組織中實施並有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: 5db9a4869e1321bd268e80f786d157fbb41c0656
+source-git-commit: dc9d331045f5381290983a5b37bf16e72249422c
 workflow-type: tm+mt
-source-wordcount: '13345'
+source-wordcount: '13358'
 ht-degree: 1%
 
 ---
@@ -379,6 +379,8 @@ ht-degree: 1%
          * [新的評論體驗](product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md)
          * [新的評論體驗發行活動](product-announcements/betas/new-commenting-experience-beta/new-commenting-beta-experience-release-activity.md)
          * [新的評論體驗常見問題集](product-announcements/betas/new-commenting-experience-beta/new-commenting-faq.md)
+      * Workfront與Frame.io整合alpha {#frame-io-wf-integration-alpha}
+         * [Adobe Workfront與Frame.io原生整合alpha：概觀](product-announcements/betas/frame-io-wf-integration-alpha/frame-io-wf-integration-alpha-overview.md)
 * 管理和設定 {#administration-and-setup}
    * [管理和設定](administration-and-setup/administration-and-setup.md)
    * 開始使用管理 {#get-started-administration}

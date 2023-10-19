@@ -6,9 +6,9 @@ description: 您可以請求任何支援「檔案」之物件的檔案。
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 228b53ba-4a87-4edd-b478-501b216c4a1d
-source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
+source-git-commit: 93191e047dbf0344647e41f9e4280c08c1172001
 workflow-type: tm+mt
-source-wordcount: '423'
+source-wordcount: '418'
 ht-degree: 0%
 
 ---
@@ -69,7 +69,7 @@ ht-degree: 0%
 
    您可以按一下電子郵件通知中的連結，然後上傳檔案。 或者，您也可以按一下應用程式內通知。 每個選項都會將您引導至使用者設定檔頁面，您可以在該頁面上傳要求的檔案。
 
-   您也可以直接回覆電子郵件並附加要求的檔案（如果您已設定為支援電子郵件回覆）。 若要設定電子郵件回應，請參閱。
+   您也可以直接回覆電子郵件並附加要求的檔案（如果您已設定為支援電子郵件回覆）。
 
 1. 上傳檔案後，請求者可以個人檔案存取檔案 **檔案** 區域。
 
