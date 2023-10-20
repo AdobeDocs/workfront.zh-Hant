@@ -4,14 +4,14 @@ navigation-topic: approvals
 title: 新增其他核准者或稽核者至檔案
 description: 您可以將其他核准者或稽核者新增至已有待核准的檔案。
 author: Nolan
-feature: Work Management
-source-git-commit: 2ae69970ebf5c72d4c192f8158bdc412c084ce35
+feature: Work Management, Digital Content and Documents
+exl-id: f3d94dff-a855-44ae-9e85-1dcbc4d417a0
+source-git-commit: 95679dd71ef7e4991853e63573a387f26321159d
 workflow-type: tm+mt
 source-wordcount: '461'
 ht-degree: 0%
 
 ---
-
 
 # 新增其他核准者或稽核者至檔案
 
@@ -39,11 +39,11 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定*</td> 
-   <td> <p>檢視專案、任務、問題、範本、Portfolio、方案、報告、儀表板和行事曆、檔案的或更高存取權</p> <p>注意：如果您仍然沒有存取權，請詢問您的Workfront管理員是否對您的存取層級設定了其他限制。 如需有關Workfront管理員如何修改您的存取層級的資訊，請參閱 <a href="/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>.</p> </td> 
+   <td> <p>檢視專案、任務、問題、範本、Portfolio、方案、報告、儀表板和行事曆、檔案的或更高存取權</p> <p>注意：如果您還是沒有存取權，請詢問您的Workfront管理員，他們是否在您的存取層級中設定其他限制。 如需有關Workfront管理員如何修改您的存取層級的資訊，請參閱 <a href="/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">物件許可權</td> 
-   <td> <p>檢視或更高的存取許可權以存取與請求存取或核准相關聯的物件 </p> <p>如需請求其他存取許可權的詳細資訊，請參閱 <a href="/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">要求物件的存取權 </a>.</p> </td> 
+   <td> <p>檢視或更高的存取許可權以存取與要求存取或核准相關聯的物件 </p> <p>如需請求其他存取許可權的詳細資訊，請參閱 <a href="/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">要求物件的存取權 </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -52,23 +52,23 @@ ht-degree: 0%
 
 ## 從檔案頁面新增其他核准者或稽核者
 
-1. 按一下檔名稱，前往檔案頁面，然後在版本下拉式選單中選取您要新增核准者或稽核者的檔案版本。 預設會選取最新版本。
+1. 按一下檔名稱，移至檔案頁面，然後在版本下拉式清單中選取您要新增核准者或稽核者的檔案版本。 預設會選取最新版本。
 
-1. 選取 **核准** 在左窗格中。 此處列出所有現有的核准者和稽核者。
+1. 選取 **核准** 在左窗格中。 此處列出所有現有核准者和稽核者。
 
-1. 若要新增核准者，請確定 **核准者** 核取方塊，然後開始輸入 **檢閱者** 文字方塊。 您可以依名稱新增Workfront使用者或團隊。 如果您想改為新增稽核者，只需取消勾選 **核准者** 核取方塊。
+1. 若要新增核准者，請確定 **核准者** 核取方塊，然後開始輸入 **檢閱者** 文字方塊。 您可以依名稱新增Workfront使用者或團隊。 如果您想改為新增稽核者，只要取消核取 **核准者** 核取方塊。
 
 1. 重複上一步驟以新增其他核准者或稽核者。
 
 ## 從「檔案摘要」窗格新增其他核准者或稽核者
 
-1. 前往包含檔案的專案、任務或問題，然後選取 **檔案**.
+1. 前往包含檔案的專案、任務或問題，然後選取「 」 **檔案**.
 
-1. 按一下您需要的檔案，檔案摘要窗格就會開啟。
+1. 按一下您需要的檔案，「檔案摘要」窗格將會開啟。
 
 1. 在版本下拉式清單中選取您想要新增核准者或稽核者的檔案版本。 預設會選取最新版本。
 
-1. 向下捲動至 **核准** 「檔案摘要」窗格中的區段，其中會列出所有現有的核准者和稽核者。 若要新增核准者，請確定 **核准者** 核取方塊，然後開始輸入 **檢閱者** 文字方塊。 您可以依名稱新增Workfront使用者或團隊。 如果您想改為新增稽核者，只需取消勾選 **核准者** 核取方塊。
+1. 向下捲動至 **核准** 檔案摘要窗格中的區段，其中會列出所有現有的核准者和稽核者。 若要新增核准者，請確定 **核准者** 核取方塊，然後開始輸入 **檢閱者** 文字方塊。 您可以依名稱新增Workfront使用者或團隊。 如果您想改為新增稽核者，只要取消核取 **核准者** 核取方塊。
 
 1. 重複上一步驟以新增其他核准者或稽核者。
 

@@ -4,9 +4,9 @@ navigation-topic: approvals
 title: 核准工作
 description: 核准工作
 author: Courtney
-feature: Work Management
+feature: Work Management, Digital Content and Documents
 exl-id: 6e43edbb-14dd-493d-a76b-84be6c3bef82
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 95679dd71ef7e4991853e63573a387f26321159d
 workflow-type: tm+mt
 source-wordcount: '1134'
 ht-degree: 0%
@@ -19,15 +19,15 @@ ht-degree: 0%
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE:&nbsp;From&nbsp;Courtney: Linked to Training sites/ articles , don't change title and link)</p>
 -->
 
-如果您被設定為核准者，則應定期複查等待核准的工作。
+如果您被設定為核准者，您應定期稽核等待您核准的工作。
 
-如需建立核准程式的相關資訊，請參閱 [建立工作項的審批流程](../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
+如需有關建立核准流程的資訊，請參閱 [建立工作專案的核准流程](../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
 
-有關將批准與Workfront中的工作關聯的資訊，請參閱 [將新審批流程或現有審批流程與工作關聯](../../review-and-approve-work/manage-approvals/associate-approval-with-work.md).
+如需將核准與Workfront中的工作相關聯的資訊，請參閱 [將新的或現有的核准流程與工作建立關聯](../../review-and-approve-work/manage-approvals/associate-approval-with-work.md).
 
 ## 存取需求
 
-您必須具備下列存取權，才能執行本文中的步驟：
+您必須具有下列存取權才能執行本文中的步驟：
 
 <table style="table-layout:auto"> 
  <col> 
@@ -39,106 +39,105 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront授權*</td> 
-   <td> <p>審核或更高版本</p> </td> 
+   <td> <p>評論或以上</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">訪問級別配置*</td> 
-   <td> <p>查看或更高程度地訪問與批准關聯的對象</p> <p>注意：如果您仍無權存取，請洽詢您的Workfront管理員，他們是否在您的存取層級設定其他限制。 如需Workfront管理員如何修改您的存取層級的詳細資訊，請參閱 <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>.</p> </td> 
+   <td role="rowheader">存取層級設定*</td> 
+   <td> <p>檢視與核准關聯的物件或更高的存取許可權</p> <p>注意：如果您還是沒有存取權，請詢問您的Workfront管理員，他們是否在您的存取層級中設定其他限制。 如需有關Workfront管理員如何修改您的存取層級的資訊，請參閱 <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">物件權限</td> 
-   <td> <p>查看與批准關聯的對象的或更高權限</p> <p>有關請求其他訪問的資訊，請參閱 <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">請求對對象的訪問 </a>.</p> </td> 
+   <td role="rowheader">物件許可權</td> 
+   <td> <p>檢視與核准相關聯的物件或更高許可權</p> <p>如需請求其他存取許可權的詳細資訊，請參閱 <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">要求物件的存取權 </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;若要了解您擁有的計畫、授權類型或存取權，請聯絡您的Workfront管理員。
+&#42;若要瞭解您擁有的計畫、授權型別或存取權，請聯絡您的Workfront管理員。
 
-## 在Adobe Workfront中找出核准
+## 在Adobe Workfront中尋找核准
 
-您可以在Workfront的各個區域中檢視及管理核准。
+您可以在Workfront的各個區域中檢視和管理核准。
 
-有關查看等待批准的項目或您已提交供批准的項目的詳細資訊，請參閱 [查看批准](../../review-and-approve-work/manage-approvals/view-approvals.md).
+如需有關檢視等待核准的專案或您自己提交核准之專案的詳細資訊，請參閱 [檢視核准](../../review-and-approve-work/manage-approvals/view-approvals.md).
 
-## 從首頁批准工作
+## 核准來自首頁區域的工作
 
-1. 按一下 **首頁** 圖示 ![](assets/home-icon-30x29.png) 在Adobe Workfront的左上角。
+1. 按一下 **首頁** 圖示 ![](assets/home-icon-30x29.png) Adobe Workfront左上角。
 
    >[!NOTE]
    >
-   >您的Workfront管理員可能會對環境中的「首頁」圖示進行下列變更：
+   >您的Workfront管理員可能會對您環境中的「首頁」圖示進行下列變更：
    >
    >   
-   >* 以自訂的影像取代，以說明您的組織。 在此情況下，圖示看起來會與本文所顯示的不同。
-   >* 將連結至該頁面的頁面取代為其他頁面。 在此情況下，按一下 **主菜單** ![](assets/main-menu-icon.png) 在頁面的右上角，然後按一下 **首頁**.
-
+   >* 以自訂的影像取代，以說明您的組織。 在此情況下，圖示看起來將會與本文中顯示的有所不同。
+   >* 使用其他頁面取代連結至該頁面的頁面。 在此情況下，請按一下 **主要功能表** ![](assets/main-menu-icon.png) 然後按一下「 」 **首頁**.
 
 1. 按一下 **篩選** 下拉式功能表。
 
    ![](assets/displaying-work-items-filters-nwe-350x401.png)
 
-1. 選擇 **核准**.\
-   顯示需要您批准的所有工作項目。 
+1. 選取 **核准**.\
+   需要您核准的所有工作專案都會顯示。 
 
    >[!NOTE]
    >
-   >指派給「工作角色」或「群組」的核准不會顯示在「首頁」中。 分配給「團隊」的批准將顯示在「工作清單」的「團隊請求」分組中。
+   >指派給工作角色或群組的核准未顯示在首頁中。 指派給專案團隊的核准會顯示在工作清單的專案團隊請求分組中。
 
-1. （可選）更改顯示批准的順序，如文章「按日期、項目或優先順序分組和排序」部分所述 [在「首頁」區域的「工作清單」中顯示項](../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md).
-1. 選擇要作出審批決策的物料。
+1. （可選）變更核准的顯示順序，如文章中「群組並按日期、專案或優先順序排序」一節所述 [在首頁區域的工作清單中顯示專案](../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md).
+1. 選取您要進行核准決定的專案。
 
    ![](assets/task-approval-home-350x127.png)
 
-1. 在右側面板中做出核准決策時，按一下其中一個可用選項。 視您要核准的項目類型而定，下列選項會顯示在頁面的右上角：
+1. 在右側面板中作出核准決定時，按一下其中一個可用選項。 下列選項會根據您核准的專案型別，顯示在頁面的右上角：
 
    * **專案：** 按一下 **核准** 或 **拒絕**.
 
-   * **任務：** 按一下 **核准** 或 **拒絕** .
+   * **工作：** 按一下 **核准** 或 **拒絕** .
 
    * **問題：** 按一下 **核准** 或 **拒絕** .
 
-   * **工時單：** 按一下 **核准** 或 **拒絕** .
+   * **時間表：** 按一下 **核准** 或 **拒絕** .
 
-   * **文檔：** 按一下 **核准**, **拒絕**，或 **變更**.\
-       檢視核準時，請考量下列事項：
+   * **檔案：** 按一下 **核准**， **拒絕**，或 **變更**.\
+      檢視核準時，請考量下列事項：
 
-      * 當使用者與您分享校樣時，校樣核准便會顯示在此處，如文章的「共用校樣連結」一節所述 [在Adobe Workfront內共用證明](../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md).
-      * 只有在您的Workfront環境與Workfront Proof Premium帳戶整合時，校對核准才會顯示在首頁區域。 如果您無法如此處所述使用校對功能，請聯絡您的Workfront管理員。
-      * 您會收到應用程式內通知，並通知您校對核准。\
-         如需應用程式內通知的詳細資訊，請參閱 [檢視及管理應用程式內通知](../../workfront-basics/using-notifications/view-and-manage-in-app-notifications.md).
+      * 當使用者與您共用校訂時，校訂核准會顯示在這裡，如文章中「共用校訂連結」一節所述 [在Adobe Workfront中共用校訂](../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md).
+      * 只有在您的Workfront環境已與Workfront Proof Premium帳戶整合時，首頁區域才會顯示校訂核准。 如果您無法使用此處所討論的校訂，請聯絡您的Workfront管理員。
+      * 您會收到應用程式內通知，通知您校訂核准。\
+        如需應用程式內通知的詳細資訊，請參閱 [檢視及管理應用程式內通知](../../workfront-basics/using-notifications/view-and-manage-in-app-notifications.md).
 
-      * 請求批准的用戶名將顯示在「首頁」區域的縮圖影像旁，並帶有以下文本：\
-         &quot;*使用者A* 希望你同意……」
+      * 要求核准的使用者名稱會顯示在「首頁」區域的縮圖影像旁，並包含以下文字：\
+        &quot;*使用者A* 希望您核准……」
 
-         <!--      
+        <!--      
         <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">      
         (NOTE:&nbsp;From&nbsp;Courtney: Is this true?)      
         </MadCap:conditionalText>      
         -->
 
-         如果用戶名不可用，將顯示以下文本：\
-         「校樣的新版本已可供檢視」
-      * 若要對校樣做出核准決定，請按一下 **前往校樣**，按一下 **完成審核**，然後按一下任一可用選項。 核准校樣時的可用選項為： **已核准**, **已核准並變更**, **需要的更改**，和 **無關**.
+        如果使用者名稱無法使用，會顯示下列文字：\
+        「新版本的校訂已可供檢視」
+      * 若要對校訂進行核准決定，請按一下 **前往校訂**，按一下 **完成檢閱**，然後按一下其中一個可用選項。 核准校訂時可用的選項包括： **已核准**， **已核准，但有變更**， **所需變更**、和 **不相關**.
 
-      * 對校樣做出決定後，校樣會保留在「我的核准」標籤中並附上文字「Decision Made」，直到您按一下 **重新整理** 按鈕，或直到您重新整理瀏覽器頁面為止。
+      * 對校訂做出決定後，校訂保留在我的核准索引標籤中並帶有「已做出決定」文字，直到您按一下 **重新整理** 按鈕，或直到您重新整理瀏覽器頁面為止。
 
-         如需檢閱校樣的詳細資訊，請參閱 [在Adobe Workfront中檢閱校樣](../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-proofs-in-wf.md).
-   * **訪問：** 在 **變更存取** 下拉式功能表，然後按一下 **授予存取權**. 或者，按一下 **忽略**.
+        如需關於檢閱校訂的資訊，請參閱 [在Adobe Workfront中檢閱校樣](../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-proofs-in-wf.md).
 
+   * **存取：** 選取要授與的存取層級(在 **變更存取權** 下拉式功能表，然後按一下 **授予存取權**. 或者，按一下 **忽略**.
 
 ## 直接從專案、任務或問題核准工作
 
-當項目、任務或問題處於待批准狀態時，您可以直接從項目、任務或問題批准或拒絕批准。 您也可以檢視有關核准程式的詳細資訊。
+當專案、任務或問題處於未決核準時，您可以直接從專案、任務或問題核准或拒絕核准。 您也可以檢視核准流程的相關詳細資訊。
 
-要直接從項目、任務或問題批准工作，請執行以下操作：
+若要直接核准專案、任務或問題的工作：
 
-1. 轉到需要您批准的項目、任務或問題。
+1. 前往需要您核准的專案、任務或問題。
 
-   有關項目、任務或問題的當前審批流程的審批資訊顯示在項目的題頭中。
+   有關專案、任務或問題的目前核准流程的核准資訊會顯示在專案的標題中。
 
    ![](assets/current-approval-process-in-project-header-with-stages-nwe-350x92.png)
 
-   提供下列核准資訊：
+   下列核准資訊可供使用：
 
    <table style="table-layout:auto"> 
     <col> 
@@ -146,45 +145,45 @@ ht-degree: 0%
     <tbody> 
      <tr> 
       <td role="rowheader">狀態</td> 
-      <td>項目、任務或問題的當前狀態。 這是待批准項目的當前狀態。 狀態在審批流程的每個階段獲得批准後即被批准。</td> 
+      <td>專案、任務或問題的目前狀態。 這是擱置核准之專案的目前狀態。 狀態會在核准流程中的每個階段核准後核准。</td> 
      </tr> 
      <tr> 
       <td role="rowheader">核准階段</td> 
-      <td>審批流程的階段。 <br>待批准的當前階段顯示為「待批准」。 已核准的階段會顯示為已核准；尚未核准的階段會顯示為未開始。</td> 
+      <td>核准流程的階段。 <br>目前擱置核准階段會顯示為「擱置中」。 已核准的階段會顯示為「已核准」；尚未核准的階段會顯示為「未啟動」。</td> 
      </tr> 
     </tbody> 
    </table>
 
-1. 按一下 **核准** 或 **拒絕**，具體取決於您要批准還是拒絕批准流程。\
-   等待批准的批准階段現在已獲得批准，並且批准過程將移至下一個階段。 所有階段都經過核准後，狀態才會核准。
+1. 按一下 **核准** 或 **拒絕**，視您想要核准或拒絕核准程式而定。\
+   擱置核准的核准階段現在已核准，且核准流程會移至下一個階段。 狀態是在所有階段核准後核准。
 
 ## 直接從檔案核准檔案 
 
-1. 轉到包含需要您批准的文檔的文檔區域。
-1. 選擇文檔，然後按一下 **核准**, **變更**，或 **拒絕**.\
+1. 移至檔案區域，其中包含需要您核准的檔案。
+1. 選取檔案，然後按一下 **核准**， **變更**，或 **拒絕**.\
    ![](assets/approval-approve-document-350x215.png)\
    ![](assets/document-approval-350x199.png)
 
-1. （可選）如果已為文檔生成校樣，則可以在校樣介面中批准文檔，如 [從校樣核准檔案](#approve-a-document-from-a-proof).
+1. （選擇性）如果已為檔案產生校訂，則您可以在校訂介面中核准檔案，如中所述 [從校訂核准檔案](#approve-a-document-from-a-proof).
 
 ## 從核准通知電子郵件核准檔案
 
-根據您的通知設定，您可能會收到電子郵件，通知您其他使用者需要您做出核准決定的檔案。 當您收到包含 **做出批准決策** 按鈕，您可以直接從電子郵件啟動核准程式：
+根據您的通知設定，您可能會收到電子郵件，通知您其他使用者需要您針對哪些檔案做出核准決定。 當您收到包含 **進行核准決定** 按鈕，您可以直接從電子郵件開始核准流程：
 
-1. 在電子郵件中，按一下 **做出批准決策** 開啟校樣的「檔案詳細資料」頁面。
-1. 執行下列任一操作以審閱文檔：
+1. 在電子郵件中，按一下 **進行核准決定** 以開啟校樣的檔案詳細資訊頁面。
+1. 執行下列任一項作業以檢閱檔案：
 
-   * 查看有關文檔的元資料。
-   * 如果已建立校樣以檢閱帶有標籤和注釋的文檔，請按一下 **開啟校樣** ![](assets/open-proof-icon-qs.png) 在右上角附近，查看校樣。
+   * 檢視檔案的相關中繼資料。
+   * 如果已建立校樣以供檢閱包含標籤和註解的檔案，請按一下 **未完成的校訂** ![](assets/open-proof-icon-qs.png) 接近右上角並檢閱校樣。
 
-      <!--   
+     <!--   
      <span style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">[Andrzej, does it make sense to leave this here if it's s document approval?&nbsp;Would there never be a proof in that situation?]</span>   
      -->
 
-      如需檢閱校樣的相關資訊，請參閱 [在Adobe Workfront中檢閱校樣](../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-proofs-in-wf.md).
+     如需有關檢閱校訂的資訊，請參閱 [在Adobe Workfront中檢閱校樣](../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-proofs-in-wf.md).
 
-1. 按一下 **決策** 選項，以核准、核准變更或拒絕檔案。
+1. 按一下 **決定** 位於右上角的選項，用以核准、核准變更，或拒絕檔案。
 
-## 從校樣核准檔案 {#approve-a-document-from-a-proof}
+## 從校訂核准檔案 {#approve-a-document-from-a-proof}
 
-您可以在校對檢視器中核准檔案。 如需詳細資訊，請參閱 [在校對檢視器中決定校樣](../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/make-decisions-on-proof.md) 在文章中 [在校對檢視器中決定校樣](../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/make-decisions-on-proof.md).
+您可以在校訂檢視器中核准檔案。 如需詳細資訊，請參閱 [在校訂檢視器中對校訂做出決定](../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/make-decisions-on-proof.md) 在文章中 [在校訂檢視器中對校訂做出決定](../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/make-decisions-on-proof.md).

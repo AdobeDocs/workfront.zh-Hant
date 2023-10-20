@@ -7,8 +7,9 @@ navigation-topic: administration-and-setup
 description: 在此處尋找Workfront管理員常見問題的解答。
 feature: System Setup and Administration
 role: Admin
+recommendations: noDisplay, noCatalog
 exl-id: 9b230142-de71-4577-8e67-35e8a6b9b932
-source-git-commit: 01351c0d86b0deea2d952564172841ba6a77c894
+source-git-commit: 210690d230f7e791aa5887098181f3d0bd1cc75e
 workflow-type: tm+mt
 source-wordcount: '26'
 ht-degree: 0%

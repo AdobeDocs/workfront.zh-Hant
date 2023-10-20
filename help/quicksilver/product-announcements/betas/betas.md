@@ -1,11 +1,12 @@
 ---
 navigation-topic: betas
 title: 測試版計畫
-description: 瞭解Adobe Workfront中的目前Beta版。
+description: 瞭解關於Adobe Workfront目前測試版的資訊。
 author: Alina
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: c46e625f-b3d5-4bdd-827b-5b16493cdc6b
-source-git-commit: 1536d7425b5c5d3c676ff0c8c6a2a9531690ac3e
+source-git-commit: 417b8c081a1940b112e8cfbd6d9216d802dc8f8e
 workflow-type: tm+mt
 source-wordcount: '61'
 ht-degree: 0%
@@ -14,7 +15,7 @@ ht-degree: 0%
 
 # 測試版計畫
 
-本頁連結的文章說明Adobe Workfront中目前可用的測試版計畫。 並非所有客戶都能使用測試版的功能。
+從這個頁面連結的文章會說明Adobe Workfront中目前可用的測試版計畫。 可能並非所有客戶都可使用測試版的功能。
 
 下列文章包含目前Beta版功能的相關資訊：
 

@@ -2,21 +2,22 @@
 content-type: reference
 product-area: documents
 navigation-topic: manage-proofs-within-workfront
-title: 管理校樣版本
-description: 建立校樣的新版本
+title: 管理校訂版本
+description: 建立新版本的校訂
 author: Courtney
 feature: Digital Content and Documents
+recommendations: noDisplay, noCatalog
 exl-id: 1806fd69-35f6-4cba-8f21-ac259469117a
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 95679dd71ef7e4991853e63573a387f26321159d
 workflow-type: tm+mt
 source-wordcount: '32'
 ht-degree: 0%
 
 ---
 
-# 管理校樣版本
+# 管理校訂版本
 
-* [建立校樣的新版本](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/create-new-proof-version.md)
-* [查看校樣版本](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-versions/view-proof-versions.md)
-* [查看和管理校樣版本詳細資訊](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-versions/view-version-details.md)
-* [下載校樣版本](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-versions/download-versions.md)
+* [建立新版本的校訂](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/create-new-proof-version.md)
+* [檢視校訂版本](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-versions/view-proof-versions.md)
+* [檢視和管理校訂版本詳細資料](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-versions/view-version-details.md)
+* [下載校訂版本](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-versions/download-versions.md)

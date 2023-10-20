@@ -3,13 +3,14 @@ content-type: reference
 product-area: requests
 navigation-topic: requests-navigation-topic
 title: 建立及管理請求佇列
-description: 您可以在Adobe Workfront中建立請求佇列，以擷取您組織中未計畫的工作。 以下文章說明如何設定專案以作為請求佇列。
+description: 您可以在Adobe Workfront中建立請求佇列，以擷取組織中的非計畫工作。 以下文章說明如何設定專案以作為請求佇列。
 author: Alina
 feature: Work Management, Requests
 topic: Collaboration
 role: User, Admin
+recommendations: noDisplay, noCatalog
 exl-id: 0aaa54e2-c887-425e-bdd6-6bbc60d21319
-source-git-commit: c5053b78dd80fe9017ba96e193e59fbd9b17e7c8
+source-git-commit: b08377e539b04e896e84d17f46d2c941b0f66731
 workflow-type: tm+mt
 source-wordcount: '69'
 ht-degree: 0%

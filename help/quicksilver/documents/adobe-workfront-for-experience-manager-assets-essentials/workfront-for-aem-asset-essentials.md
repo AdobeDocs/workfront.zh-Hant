@@ -6,8 +6,9 @@ title: 適用於Experience Manager Assets Essentials的Adobe Workfront
 description: 適用於Experience Manager Assets Essentials的Adobe Workfront
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
+recommendations: noDisplay, noCatalog
 exl-id: 8aad1efc-1a91-441a-8bb8-0ce9429492c6
-source-git-commit: db4d0e82f0f12d4e8c210565231a6f6569d7d90c
+source-git-commit: 752caa1d94a09871b97a11400d83f28853118d33
 workflow-type: tm+mt
 source-wordcount: '123'
 ht-degree: 0%

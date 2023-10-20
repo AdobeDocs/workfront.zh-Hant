@@ -8,8 +8,9 @@ description: 您可以建立使用者可附加至Workfront物件的自訂表單�
 author: Caroline
 feature: System Setup and Administration, Custom Forms
 role: Admin
+recommendations: noDisplay, noCatalog
 exl-id: a732344d-aca5-4825-b360-a4b49076b4d0
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+source-git-commit: 752caa1d94a09871b97a11400d83f28853118d33
 workflow-type: tm+mt
 source-wordcount: '45'
 ht-degree: 8%

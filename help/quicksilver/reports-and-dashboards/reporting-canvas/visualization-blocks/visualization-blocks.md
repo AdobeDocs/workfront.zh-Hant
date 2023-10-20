@@ -3,13 +3,14 @@ title: 視覺效果區塊
 description: 視覺效果區塊總覽
 hidefromtoc: true
 hide: true
-source-git-commit: 350d64577bac677bb0cc9bcb804c32b0301bc5d4
+recommendations: noDisplay, noCatalog
+exl-id: 804ea81c-7d25-4d6f-ab25-46800ab7b2d1
+source-git-commit: 417b8c081a1940b112e8cfbd6d9216d802dc8f8e
 workflow-type: tm+mt
 source-wordcount: '50'
 ht-degree: 0%
 
 ---
-
 
 # 視覺效果區塊
 

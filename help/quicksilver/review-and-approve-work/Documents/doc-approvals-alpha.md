@@ -4,11 +4,12 @@ navigation-topic: approvals
 title: Alpha程式 — 檔案核准
 description: 我們很高興宣佈推出檔案核准Alpha計畫。 您可以在這裡找到最新Alpha版本的相關資訊，以及入門的簡短影片逐步解說。
 author: Courtney
-feature: Work Management
+feature: Work Management, Digital Content and Documents
 hide: true
 hidefromtoc: true
+recommendations: noDisplay, noCatalog
 exl-id: 0ede24f4-4bba-4812-9dd9-e7af77ea5ecc
-source-git-commit: 723c2b7b57b1e876ec6edaf4b1ac14ec1b983667
+source-git-commit: 95679dd71ef7e4991853e63573a387f26321159d
 workflow-type: tm+mt
 source-wordcount: '470'
 ht-degree: 0%

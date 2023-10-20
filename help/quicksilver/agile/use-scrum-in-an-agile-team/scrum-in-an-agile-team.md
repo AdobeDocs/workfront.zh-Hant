@@ -2,22 +2,23 @@
 content-type: reference
 product-area: agile-and-teams
 navigation-topic: agile-navigation-topic
-title: 在敏捷的團隊中
-description: 請檢閱這些文章，以進一步了解如何在敏捷的團隊中使用Scrum。
+title: 敏捷團隊中的Scrum
+description: 請參閱這些文章以進一步瞭解如何在敏捷團隊中使用Scrum。
 author: Lisa
 feature: Agile
+recommendations: noDisplay, noCatalog
 exl-id: 25141131-0092-48a8-ae8b-f75fc3b6fb41
-source-git-commit: 6f817ca39c7489b85673ff601faf440fe51ab72c
+source-git-commit: 752caa1d94a09871b97a11400d83f28853118d33
 workflow-type: tm+mt
 source-wordcount: '33'
 ht-degree: 6%
 
 ---
 
-# 在敏捷的團隊中
+# 敏捷團隊中的Scrum
 
-本節包含下列子節：
+本節包含下列子章節：
 
 * [專案待執行工作](../../agile/use-scrum-in-an-agile-team/burndown/burndown.md)
-* [反覆項目](../../agile/use-scrum-in-an-agile-team/iterations/iterations.md)
+* [疊代](../../agile/use-scrum-in-an-agile-team/iterations/iterations.md)
 * [[!UICONTROL Scrum] 展示板](../../agile/use-scrum-in-an-agile-team/scrum-board/scrum-board.md)

@@ -6,8 +6,9 @@ title: 適用於Creative Cloud應用程式的Adobe Workfront外掛程式
 description: 適用於Creative Cloud應用程式的Adobe Workfront外掛程式
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
+recommendations: noDisplay, noCatalog
 exl-id: ebccdf17-12e3-4adc-95af-61d6337edb72
-source-git-commit: 78a6cee213887c72aedc14bbb4552f28fc27625d
+source-git-commit: c4e5aea70a8013643d3d9ce1c588ff560d2c3afd
 workflow-type: tm+mt
 source-wordcount: '160'
 ht-degree: 1%

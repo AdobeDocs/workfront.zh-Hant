@@ -6,8 +6,9 @@ title: 專案財務
 description: 下列文章包含您可以找到專案財務資訊的區域的相關資訊，以及如何管理專案財務的相關資訊。
 author: Alina
 feature: Work Management
+recommendations: noDisplay, noCatalog
 exl-id: 7dda021d-4cf8-4f65-b187-23fcd935a842
-source-git-commit: 1517e3e28fe536a8a72d2802919c8b8819e9ea1a
+source-git-commit: b08377e539b04e896e84d17f46d2c941b0f66731
 workflow-type: tm+mt
 source-wordcount: '207'
 ht-degree: 0%
@@ -16,17 +17,17 @@ ht-degree: 0%
 
 # 專案財務
 
-如需有關可在其中找到專案財務資訊的區域的資訊，以及如何管理專案財務的資訊，請參閱下列文章：
+如需有關可在其中找到專案財務資訊的區域以及如何管理專案財務的資訊，請參閱下列文章：
 
 ## 一般專案財務
 
 [專案財務概觀](../../../manage-work/projects/project-finances/project-finances-overview-1.md)
 
-[管理專案財務區中的資訊](../../../manage-work/projects/project-finances/manage-project-finance-area.md)
+[管理專案財務區域的資訊](../../../manage-work/projects/project-finances/manage-project-finance-area.md)
 
 [變更專案貨幣](../../../manage-work/projects/project-finances/change-project-currency.md)
 
-[專案基準中包含的專案財務](../../../manage-work/projects/project-finances/project-finances-included-in-project-baselines.md)
+[專案基準線中包含的專案財務](../../../manage-work/projects/project-finances/project-finances-included-in-project-baselines.md)
 
 ## 專案量度和計算
 
@@ -52,7 +53,7 @@ ht-degree: 0%
 
 [計算潛在風險成本](../../../manage-work/projects/project-finances/potential-risk-cost.md)
 
-[專案計畫收益概觀](../../../manage-work/projects/project-finances/project-planned-benefit.md)
+[專案計畫收益總覽](../../../manage-work/projects/project-finances/project-planned-benefit.md)
 
 ## 成本、收入和費用
 
@@ -84,6 +85,6 @@ ht-degree: 0%
 
 [覆寫工作角色帳單費率與計算專案收入的概要](../../../manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md)
 
-[覆寫專案層次的工作角色收費率](../../../manage-work/projects/project-finances/override-job-role-billing-rates-at-the-project-level.md)
+[覆寫專案層級的工作角色收費率](../../../manage-work/projects/project-finances/override-job-role-billing-rates-at-the-project-level.md)
 
 [將費率卡附加至專案](/help/quicksilver/manage-work/projects/project-finances/attach-rate-card-to-project.md)

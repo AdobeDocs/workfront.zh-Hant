@@ -6,8 +6,9 @@ description: 我們目前在大多數Adobe Workfront物件的更新區段中發�
 author: Alina
 feature: Product Announcements
 role: User, Admin
-exl-id: 5909b09d-626e-4294-9048-6db940f45e37
-source-git-commit: bdbb970aa0bb49fe9e69a15f93c96609eb2c1bfe
+recommendations: noDisplay, noCatalog
+exl-id: 08aea7a6-1ce2-46d9-9807-c94526851655
+source-git-commit: 417b8c081a1940b112e8cfbd6d9216d802dc8f8e
 workflow-type: tm+mt
 source-wordcount: '86'
 ht-degree: 0%

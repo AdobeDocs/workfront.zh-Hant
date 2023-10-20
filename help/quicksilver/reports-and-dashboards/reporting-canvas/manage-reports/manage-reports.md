@@ -3,13 +3,14 @@ title: 管理報表
 description: 管理報表概觀
 hidefromtoc: true
 hide: true
-source-git-commit: 350d64577bac677bb0cc9bcb804c32b0301bc5d4
+recommendations: noDisplay, noCatalog
+exl-id: 535b81a4-77bb-4c6b-84e0-e83f080e802e
+source-git-commit: 417b8c081a1940b112e8cfbd6d9216d802dc8f8e
 workflow-type: tm+mt
 source-wordcount: '25'
 ht-degree: 0%
 
 ---
-
 
 # 管理報表
 

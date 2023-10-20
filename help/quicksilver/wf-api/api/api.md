@@ -6,8 +6,9 @@ title: API
 description: Workfront API文章
 author: Becky
 feature: Workfront API
+recommendations: noDisplay, noCatalog
 exl-id: 90e00a71-1a3a-4e3f-99d8-47700052a9dc
-source-git-commit: 7b7261a7d26a898697c9a2223c9fbeaecebccf99
+source-git-commit: 34ce6492e14399926aed910bf9ed4d8688904341
 workflow-type: tm+mt
 source-wordcount: '156'
 ht-degree: 1%

@@ -3,11 +3,12 @@ content-type: reference
 product-previous: workfront-goals
 navigation-topic: workfront-goals-navigation-topic
 title: Adobe Workfront目標設定
-description: 請參閱下列文章，了解與目標相關的通知，以及如何在Adobe Workfront目標中共用目標。
+description: 在下列文章中瞭解目標相關通知，以及如何在Adobe Workfront目標中共用目標。
 author: Alina
 feature: Workfront Goals
+recommendations: noDisplay, noCatalog
 exl-id: 7cdef9d5-e37b-4f1f-9293-39c79781590a
-source-git-commit: 8d475c4b1eb818f4c693ccd3c731201979438459
+source-git-commit: c4e5aea70a8013643d3d9ce1c588ff560d2c3afd
 workflow-type: tm+mt
 source-wordcount: '109'
 ht-degree: 0%
@@ -40,14 +41,14 @@ For additional information about access to Workfront Goals, see [Requirements to
 
 >[!NOTE]
 >
->貴組織必須具備下列條件才能使用本文所述的功能：
+>您的組織必須具備下列專案，才能使用本文所述的功能：
 >
->* Pro或更高版本 [Adobe Workfront計畫](https://www.workfront.com/plans).
->* 除了Adobe Workfront授權，還有Workfront授權。
+>* A Pro或更高版本 [Adobe Workfront計畫](https://www.workfront.com/plans).
+>* 除了Adobe Workfront授權之外，還有Workfront目標授權。
 >
->  請連絡您的Workfront客戶經理，以了解Workfront Target授權。
+>  請連絡您的Workfront客戶經理，以瞭解Workfront Goals授權。
 >
->如需存取Workfront目標的詳細資訊，請參閱 [使用Workfront目標的需求](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+>如需存取Workfront目標的其他資訊，請參閱 [使用Workfront目標的需求](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
 
 本節包含下列文章：
 

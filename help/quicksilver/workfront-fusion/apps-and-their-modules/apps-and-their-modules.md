@@ -5,11 +5,12 @@ product-area: workfront-integrations
 keywords: 聯結器
 navigation-topic: workfront-fusion-2-0
 title: 應用程式及其模組
-description: Adobe Workfront Fusion目前為此清單上的應用程式提供專用聯結器。 如果您要使用的應用程式不在此清單上，您可以使用HTTP、SOAP或JSON模組連線至該應用程式。
+description: Adobe Workfront Fusion目前提供此清單上應用程式的專用聯結器。 如果您要使用的應用程式不在清單上，您可以使用HTTP、SOAP或JSON模組連線至該應用程式。
 author: Becky
 feature: Workfront Fusion
+recommendations: noDisplay, noCatalog
 exl-id: 7075a649-ab0c-4dfc-b726-c5702c90b457
-source-git-commit: 8b4182ae2b32488a02cacc16fcb6a246fcb571fd
+source-git-commit: c4e5aea70a8013643d3d9ce1c588ff560d2c3afd
 workflow-type: tm+mt
 source-wordcount: '206'
 ht-degree: 27%
@@ -105,7 +106,7 @@ ht-degree: 27%
 * [[!DNL MariaDB] 模組](../../workfront-fusion/apps-and-their-modules/mariadb-modules.md)
 * [[!UICONTROL Markdown] 模組](../../workfront-fusion/apps-and-their-modules/markdown-modules.md)
 * [[!DNL Marketo] 模組](../../workfront-fusion/apps-and-their-modules/marketo-modules.md)
-* [數學](../../workfront-fusion/apps-and-their-modules/math-module.md)
+* [Math](../../workfront-fusion/apps-and-their-modules/math-module.md)
 * [[!DNL Microsoft Dynamics 365] 模組](../../workfront-fusion/apps-and-their-modules/microsoft-dynamics-365-modules.md)
 * [[!DNL Microsoft Office 365 Calendar]](../../workfront-fusion/apps-and-their-modules/microsoft-365-calendar-modules.md)
 * [[!DNL Microsoft Office 365 Email]](../../workfront-fusion/apps-and-their-modules/microsoft-365-email-modules.md)
@@ -130,7 +131,7 @@ ht-degree: 27%
 * [[!UICONTROL 文字剖析器]](../../workfront-fusion/apps-and-their-modules/text-parser.md)
 * [[!UICONTROL 工具]](../../workfront-fusion/apps-and-their-modules/tools-modules.md)
 * [[!DNL Trello] 模組](../../workfront-fusion/apps-and-their-modules/trello-modules.md)
-* [Webhook](../../workfront-fusion/apps-and-their-modules/webhooks-updated.md)
+* [Webhooks](../../workfront-fusion/apps-and-their-modules/webhooks-updated.md)
 * [[!DNL Widen] 模組](../../workfront-fusion/apps-and-their-modules/widen-modules.md)
 * [[!DNL Workday] 模組](../../workfront-fusion/apps-and-their-modules/workday-modules.md)
 * [[!UICONTROL XML]](../../workfront-fusion/apps-and-their-modules/xml-modules.md)

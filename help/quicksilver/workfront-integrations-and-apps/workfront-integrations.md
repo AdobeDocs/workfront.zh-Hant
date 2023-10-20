@@ -2,11 +2,12 @@
 content-type: reference
 product-area: workfront-integrations
 navigation-topic: workfront-integrations-navigation-topic
-title: Adobe Workfront整合概述
-description: Adobe Workfront提供與其他常見應用程式的整合，例如 [!DNL Adobe Creative Cloud], [!DNL Salesforce]、吉拉和Slack。 本文連結至目前提供之所有整合的檔案。
+title: Adobe Workfront整合總覽
+description: Adobe Workfront可與其他常見應用程式整合，例如 [!DNL Adobe Creative Cloud]， [!DNL Salesforce]、 Jira和Slack。 本文連結至目前提供之所有整合功能的檔案。
 feature: Workfront Integrations and Apps
+recommendations: noDisplay, noCatalog
 exl-id: 6298e42d-3cf4-4bed-8a9d-3df2f6d74f93
-source-git-commit: 925e8f9d57d65fcb44068274800450d9db5c9d34
+source-git-commit: c4e5aea70a8013643d3d9ce1c588ff560d2c3afd
 workflow-type: tm+mt
 source-wordcount: '46'
 ht-degree: 0%
@@ -17,7 +18,7 @@ ht-degree: 0%
 
 本節包含下列文章：
 
-* [[!DNL Adobe Workfront] 內建整合概觀](../workfront-integrations-and-apps/built-in-integrations-non-admin.md)
+* [[!DNL Adobe Workfront] 內建整合概述](../workfront-integrations-and-apps/built-in-integrations-non-admin.md)
 * [[!DNL Adobe Workfront] 整合方法](../workfront-integrations-and-apps/built-in-vs-api-vs-fusion.md)
 * [[!DNL Adobe Workfront for Creative Cloud]](../workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-cc.md)
 * [[!DNL Workfront] 和 [!DNL Experience Manager Assets] 整合](../documents/workfront-and-experience-manager-integrations/wf-experience-manager-integrations.md)
