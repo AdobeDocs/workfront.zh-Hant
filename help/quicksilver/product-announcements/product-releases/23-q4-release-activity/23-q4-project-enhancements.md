@@ -3,9 +3,9 @@ title: 2023年第四季專案增強功能
 description: 2023年第四季專案增強功能
 author: Lisa
 feature: Product Announcements
-source-git-commit: 4d5a8958137e5f85510c5239dfc797ddf1ca24ed
+source-git-commit: 803c03845b834757b4643d8fd5c88f185ad6c32e
 workflow-type: tm+mt
-source-wordcount: '405'
+source-wordcount: '443'
 ht-degree: 0%
 
 ---
@@ -55,3 +55,7 @@ ht-degree: 0%
 我們對計畫時數分配至無指派和簡單期間型別的週期性任務的方式進行了更改。 現在，當您在具有「簡單期間型別」且沒有指派的新遞回任務上設定計畫時數時，時數也會分配給個別遞回。 在此變更之前，當父任務被取消指派時，不會為個別循環儲存時數。
 
 如需建立週期性工作的相關資訊，請參閱 [建立週期性任務](/help/quicksilver/manage-work/tasks/create-tasks/create-recurring-tasks.md).
+
+## 任務清單即時更新
+
+工作清單現在會即時更新。 對任務所做的變更會在任務清單中更新，因此檢視任務清單的使用者可以在不重新整理頁面的情況下看到變更。

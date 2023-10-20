@@ -4,9 +4,9 @@ description: 2023年第四季版本總覽
 author: Becky
 feature: Product Announcements
 exl-id: 6c14bd61-60b1-49aa-84bd-d494a226d70e
-source-git-commit: 93191e047dbf0344647e41f9e4280c08c1172001
+source-git-commit: 803c03845b834757b4643d8fd5c88f185ad6c32e
 workflow-type: tm+mt
-source-wordcount: '2547'
+source-wordcount: '2606'
 ht-degree: 0%
 
 ---
@@ -544,6 +544,23 @@ These enhancements will be included in the following releases:
                             </li>
                         </ul>
                         <p><span style="color: #ff0000;">此功能屬於分階段發行，目前僅供特定客戶使用。</span></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-project-enhancements.md" class="MCXref xref" xrefformat="{para}">任務清單即時更新</a> </p>
+                        <p>[！BADGE In Production]{type=Informative}</p>
+                        <p>工作清單現在會即時更新。 對任務所做的變更會在任務清單中更新，因此檢視任務清單的使用者可以在不重新整理頁面的情況下看到變更。</p>
+                    </td>
+                    <td><p><b>將於下列日期提供：</b></p>
+                        <ul>
+                            <li>
+                                <p>預覽版本：不適用<br /></p>
+                            </li>
+                            <li>
+                                <p><span class="preview">所有客戶的生產：分階段推出，於2023年10月19日完成</span></p>
+                            </li>
+                        </ul>
                     </td>
                 </tr>
                 <tr>
