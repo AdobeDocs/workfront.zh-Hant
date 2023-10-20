@@ -11,9 +11,10 @@ role: Admin
 hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 13a48a16d74ae02ddb762b8792a406a5f4e715f3
+exl-id: dd3c29df-4583-463a-b27a-bbfc4dda8184
+source-git-commit: 949907d7d4c37fa6541a021b458f84f1ebff2896
 workflow-type: tm+mt
-source-wordcount: '2346'
+source-wordcount: '2412'
 ht-degree: 3%
 
 ---
@@ -801,6 +802,10 @@ Deleted
 
 ### 執行預先執行
 
+>[!IMPORTANT]
+>
+>您必須先執行此預先執行，才能執行安裝。 執行安裝時，會使用由此呼叫產生的ID。
+
 <table style="table-layout:auto"> 
  <col> 
  <tbody> 
@@ -874,10 +879,108 @@ POST https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/p
 ```
 
 ```json
-{}
+{
+    "environmentPromotionPackageId": "45f2ae94-76c0-4b13-8f3b-f688de83043d",
+    "environmentPromotionPackageVersion": 1,
+    "id": "c0bc79bd-c9c1-4b5b-b118-b1241392de0e",
+    "userId": "5ba38da500b752fd66439d4f6a9999a1",
+    "customerId": "5ba38d9d00b74f0c7a38b1b487fc9710",
+    "status": "PREPARING",
+    "environment": "mmi.my.workfront.com",
+    "registeredAt": "2023-10-19T20:00:16.697Z",
+    "updatedAt": "2023-10-19T20:00:16.701Z",
+    "translationMap": {
+        "CTGY": {
+            "62d9c9a0000013aeeefe7242a0a5fdb2": {
+                "name": "Example Document Form",
+                "action": "USEEXISTING",
+                "isValid": true,
+                "targetId": "62d9c9a0000013aeeefe7242a0a5fdb2"
+            }
+        },
+        "PGRP": {
+            "62d1eee4001c6618e6b9f9a588ba1598": {
+                "name": "Asset Detail",
+                "action": "USEEXISTING",
+                "isValid": true,
+                "targetId": "62d1eee4001c6618e6b9f9a588ba1598"
+            }
+        },
+        "GROUP": {
+            "5ba38da500b752b0f46d13186030b7ad": {
+                "name": "Default Group",
+                "action": "USEEXISTING",
+                "isValid": true,
+                "targetId": "5ba38da500b752b0f46d13186030b7ad"
+            }
+        },
+        "PARAM": {
+            "62d1eee400f8578895166ee91a83f97a": {
+                "name": "Asset Type",
+                "action": "USEEXISTING",
+                "isValid": true,
+                "targetId": "62d1eee400f8578895166ee91a83f97a"
+            },
+            "62d1eee50001407c713514a8970b58e4": {
+                "name": "Keywords",
+                "action": "USEEXISTING",
+                "isValid": true,
+                "targetId": "62d1eee50001407c713514a8970b58e4"
+            },
+            "62d1eee5000333ac3981ea4f3df6d88e": {
+                "name": "Permitted Uses",
+                "action": "USEEXISTING",
+                "isValid": true,
+                "targetId": "62d1eee5000333ac3981ea4f3df6d88e"
+            },
+            "62d1eee5000b188e9ec8039a097fc7ab": {
+                "name": "File Format",
+                "action": "USEEXISTING",
+                "isValid": true,
+                "targetId": "62d1eee5000b188e9ec8039a097fc7ab"
+            },
+            "62d1eee500100c159fd5f838ce560507": {
+                "name": "CTA",
+                "action": "USEEXISTING",
+                "isValid": true,
+                "targetId": "62d1eee500100c159fd5f838ce560507"
+            },
+            "62d9c988001c1f23954dbb9d646335b5": {
+                "name": "Other CTA",
+                "action": "USEEXISTING",
+                "isValid": true,
+                "targetId": "62d9c988001c1f23954dbb9d646335b5"
+            },
+            "62d9c9880070f546cf4c798ea6c3eaa4": {
+                "name": "Other Audience",
+                "action": "USEEXISTING",
+                "isValid": true,
+                "targetId": "62d9c9880070f546cf4c798ea6c3eaa4"
+            },
+            "62d9c990006258baf1b40f2569c3eab7": {
+                "name": "Target Audience",
+                "action": "USEEXISTING",
+                "isValid": true,
+                "targetId": "62d9c990006258baf1b40f2569c3eab7"
+            }
+        }
+    }
+}
 ```
 
+>[!NOTE]
+>
+>執行安裝所需的ID為 `id` 欄位。 在此範例中， `id` 欄位在頂端的第三個位置，其值開頭為 `c0bc79bd`.
+
 ### 執行安裝
+
+>[!IMPORTANT]
+>
+>您必須先執行預先執行，才能執行安裝。 執行安裝時，您會使用預先執行所產生的ID。
+>
+>如果在執行預先執行後，對目的地環境（套件將部署到的環境）進行了任何變更，我們建議再次執行預先執行。 如果您未再次執行預先執行，您的執行可能無法正確完成，或是安裝可能失敗。
+>
+>如需有關執行預先執行的指示，請參閱 [執行預先執行](#execute-a-pre-run).
 
 <table style="table-layout:auto"> 
  <col> 
@@ -889,12 +992,6 @@ POST https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/p
 </table>
 
 此呼叫會起始促銷活動套件安裝到POSTURL中識別之目標環境的嘗試。
-
-#### 選項
-
-如果 `translationmap` POST內文中未提供，處理將自動起始 `/prepare-installation` 呼叫。 此 `translationmap` 傳回的內容將依原樣使用，且沒有機會進行檢閱或調整。
-
-如果 `translationmap` POST內文中提供，安裝程式將使用提供的對應。 這可讓安裝使用者在執行安裝嘗試之前，檢閱並視需要進行調整。
 
 #### URL
 
