@@ -8,9 +8,9 @@ author: Courtney
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: b015f442ba028e452abbab3cd7e6d9b6d86f9622
+source-git-commit: 4559a60729fb0001d973c794dc40a8c7ec90cd91
 workflow-type: tm+mt
-source-wordcount: '4774'
+source-wordcount: '4886'
 ht-degree: 4%
 
 ---
@@ -502,7 +502,7 @@ ht-degree: 4%
 
 ### 新增外部查詢欄位
 
-外部查詢欄位會呼叫外部API，並在下拉式欄位中傳回值作為選項。 使用自訂表單附加至之物件的使用者可以從下拉式清單中選取這些選項之一。
+外部查詢欄位會呼叫外部API，並在下拉式欄位中傳回值作為選項。 使用自訂表單附加至之物件的使用者可以從下拉式清單中選取一個或多個選項。
 
 若要新增外部查詢：
 
@@ -540,7 +540,8 @@ ht-degree: 4%
      <tr> 
       <td role="rowheader">基底 API URL</td> 
       <td><p>輸入或貼上API的URL。</p><p>API URL必須傳回您要在下拉式清單中顯示的選項JSON內容。 您可以使用JSON路徑欄位，從傳回的JSON中選取特定值作為下拉式選項。</p><p>輸入API URL時，您可以選擇在URL中傳遞下列值：</p>
-      <ul><li>$$query — 這代表一般使用者在欄位中輸入的搜尋文字，可讓您為一般使用者實作查詢篩選。 （使用者會在下拉式清單中搜尋值。）</li>
+      <ul><li>$$QUERY — 這代表一般使用者在欄位中輸入的搜尋文字，可讓您為一般使用者實作查詢篩選。 （使用者會在下拉式清單中搜尋值。）</li>
+      <li>$$HOST — 這代表目前的Workfront主機，可用來對Workfront API進行/search API呼叫。 使用此萬用字元時，會處理驗證，使用者不需要傳送驗證標題。 （例如，使用者可以使用基本URL "$$HOST/attask/api/task/search"來搜尋工作，而且它允許搜尋工作並從傳回的工作清單中選取值。）</li>
       <li>{fieldName}  — 其中fieldName是Workfront中的任何自訂或原生欄位。 這樣，當您將已選取欄位的值傳遞至外部查詢欄位以篩選下拉選項時，您就可以實作階層式下拉選項篩選器。 （例如，「地區」欄位已存在於表單上，而您正在將國家/地區清單從API縮小至特定地區。）</li></ul>
       <p><strong>注意：</strong> 檢閱您正在使用的API的檔案，以瞭解您可以定義的特定查詢。</p></td> 
      </tr>
@@ -561,6 +562,15 @@ ht-degree: 4%
       <td role="rowheader">標頭</td>
       <td><p>按一下 <strong>新增頁首</strong>，然後輸入或貼上使用API驗證所需的金鑰值組。</p><p><strong>注意：</strong> 標題欄位不是儲存認證的安全位置，您應該注意輸入和儲存的內容。</p></td>
      </tr>
+     <tr> 
+      <td role="rowheader">多選下拉清單</td>
+      <td><p>選取此選項可允許使用者在下拉式清單中選取多個值。</p></td>
+     </tr>
+     </tr>
+     <tr> 
+      <td role="rowheader">建立必要欄位</td>
+      <td><p>如果您希望欄位是使用者完成自訂表單的必要欄位，請選取此選項。</p></td>
+     </tr>       
     </tbody>
    </table>
 
