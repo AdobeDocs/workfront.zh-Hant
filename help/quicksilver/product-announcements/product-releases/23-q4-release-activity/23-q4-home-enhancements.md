@@ -3,9 +3,9 @@ title: 2023年第四季首頁增強功能
 description: 2023年第四季首頁增強功能
 author: Lisa
 feature: Product Announcements
-source-git-commit: 93191e047dbf0344647e41f9e4280c08c1172001
+source-git-commit: f4aeb9b5afa5b0d3dcb5e4eee2cf2acda2b66398
 workflow-type: tm+mt
-source-wordcount: '840'
+source-wordcount: '852'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 作為舊首頁的常見功能，我們現在已將委派按鈕新增到「我的工作」、「我的任務」和「我的問題」Widget，以便您在外出時可以輕鬆委派工作。 在委派功能表中（其功能與其「新首頁」之前的方式相同），您可以選取要將您的故事和問題委派給誰以及委派多長時間。 請注意，必須在您的Workfront環境中啟用工作委派，按鈕才會出現。
 
-如需有關在Workfront中委派的詳細資訊，請參閱 [管理任務和問題](/help/quicksilver/manage-work/delegate-work/how-to-delegate-work.md)
+如需有關在Workfront中委派的詳細資訊，請參閱 [管理任務和問題](/help/quicksilver/manage-work/delegate-work/how-to-delegate-work.md).
 
 ## 新首頁的新面板Widget
 
@@ -30,7 +30,7 @@ ht-degree: 0%
 
 ## 新的貢獻者預設登陸頁面：新首頁
 
-新首頁現在是貢獻者/請求者帳戶的預設登陸頁面。 這個新的預設首頁包含許多特別選取的Widget，以便最佳地讓貢獻者立即管理其工作。 第一次造訪頁面時，系統也會指示貢獻者使用新首頁，以及自訂逐步說明中預設可用的特定Widget。 請注意，如果投稿人帳戶目前正在使用具有自訂首頁的版面，則仍將保留其首頁。
+新首頁現在是貢獻者/請求者帳戶的預設登陸頁面。 這個新的預設首頁包含許多特別選取的Widget，以便最佳地讓貢獻者立即管理其工作。 第一次造訪頁面時，系統也會指示貢獻者使用新首頁，以及自訂逐步說明中預設可用的特定Widget。 貢獻者的預設Widget包括：請求、提及、問題和面板。 請注意，如果貢獻者帳戶目前正在使用具有自訂首頁的版面，則仍將保留其首頁。
 
 如需有關使用新首頁的詳細資訊，請參閱 [開始使用新首頁](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md).
 
