@@ -3,9 +3,9 @@ title: 2023年第四季首頁增強功能
 description: 2023年第四季首頁增強功能
 author: Lisa
 feature: Product Announcements
-source-git-commit: f4aeb9b5afa5b0d3dcb5e4eee2cf2acda2b66398
+source-git-commit: efe1fee1504e39b22b2a40f5e319f53c698acea5
 workflow-type: tm+mt
-source-wordcount: '852'
+source-wordcount: '847'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ ht-degree: 0%
 
 ## 新的貢獻者預設登陸頁面：新首頁
 
-新首頁現在是貢獻者/請求者帳戶的預設登陸頁面。 這個新的預設首頁包含許多特別選取的Widget，以便最佳地讓貢獻者立即管理其工作。 第一次造訪頁面時，系統也會指示貢獻者使用新首頁，以及自訂逐步說明中預設可用的特定Widget。 貢獻者的預設Widget包括：請求、提及、問題和面板。 請注意，如果貢獻者帳戶目前正在使用具有自訂首頁的版面，則仍將保留其首頁。
+新首頁現在是貢獻者/請求者帳戶的預設登陸頁面。 這個新的預設首頁包含許多特別選取的Widget，以便最佳地讓貢獻者立即管理其工作。 第一次造訪頁面時，系統也會指示貢獻者使用新首頁，以及自訂逐步說明中預設可用的特定Widget。 貢獻者的預設Widget包括：我的請求、提及、等待我的核准，以及面板。 請注意，如果貢獻者帳戶目前正在使用具有自訂首頁的版面，則仍將保留其首頁。
 
 如需有關使用新首頁的詳細資訊，請參閱 [開始使用新首頁](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md).
 
@@ -40,9 +40,9 @@ ht-degree: 0%
 
 如需新首頁追蹤工作的詳細資訊，請參閱 [開始使用新首頁](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md).
 
-## 專案、任務和問題追蹤Widget的新快速存取按鈕
+## 我的工作Widget的新快速動作按鈕
 
-進一步擴展您直接從「新首頁」管理工作的能力，新的快速存取按鈕已新增到專案、任務和問題追蹤Widget （包括「我的工作」）。 您可以在這些小工具中找到的每個專案、任務、問題或請求，這些新按鈕可讓您快速開啟摘要窗格、上傳檔案、編輯自訂表單、建立更新及記錄時間，而不需離開您的新首頁，以及較大的處理它按鈕。
+「我的工作」小工具中已新增新的快速動作按鈕，進一步擴充了您直接從「新首頁」管理工作的能力。 這些新的按鈕可在Widget中的每個專案、任務、問題或請求上找到，可讓您快速開啟摘要窗格、上傳檔案、編輯自訂表單、建立更新及記錄時間，而不會離開您的新首頁，以及較大的處理它/完成按鈕。
 
 如需New Home中Widget功能的詳細資訊，請參閱 [開始使用新首頁](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md).
 

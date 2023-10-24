@@ -8,10 +8,10 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: f92ceed7-b191-425b-9fff-1b0947f32db8
-source-git-commit: b8416108a16d973435d070f8d2738fee585cc6d3
+source-git-commit: efe1fee1504e39b22b2a40f5e319f53c698acea5
 workflow-type: tm+mt
-source-wordcount: '793'
-ht-degree: 2%
+source-wordcount: '802'
+ht-degree: 4%
 
 ---
 
@@ -111,7 +111,7 @@ DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH T
      </tr> 
      <tr> 
       <td role="rowheader">系統中的使用者預設會看到新首頁體驗 </td> 
-      <td>可讓您指定使用者是否預設會看到新首頁體驗。 啟用後，使用者仍可選擇依個人情況啟用或停用「新首頁」 。 停用時，使用者將無法選擇使用新首頁。 此選項預設為啟用。</td> 
+      <td>可讓您指定使用者是否預設會看到新首頁體驗。 啟用後，使用者預設將會看到新首頁體驗，但仍可依個人情況選擇啟用或停用新首頁。 <b>停用時，使用者將無法選擇使用新首頁。</b> 此設定預設為啟用。</td> 
      </tr> 
     </tbody> 
    </table>

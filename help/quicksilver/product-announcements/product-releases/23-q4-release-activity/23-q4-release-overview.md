@@ -4,9 +4,9 @@ description: 2023年第四季版本總覽
 author: Becky
 feature: Product Announcements
 exl-id: 6c14bd61-60b1-49aa-84bd-d494a226d70e
-source-git-commit: 803c03845b834757b4643d8fd5c88f185ad6c32e
+source-git-commit: efe1fee1504e39b22b2a40f5e319f53c698acea5
 workflow-type: tm+mt
-source-wordcount: '2606'
+source-wordcount: '2602'
 ht-degree: 0%
 
 ---
@@ -364,9 +364,9 @@ These enhancements will be included in the following releases:
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-home-enhancements.md" class="MCXref xref" xrefformat="{para}">專案、任務和問題追蹤Widget的新快速存取按鈕</a> </p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-home-enhancements.md" class="MCXref xref" xrefformat="{para}">我的工作Widget的新快速動作按鈕</a> </p>
                         <p>[！BADGE In Production for Fast Release ]{type=Positive}</p>
-                        <p>專案、任務和問題追蹤Widget已新增新的快速存取按鈕，進一步擴展您直接從新首頁管理工作的能力。</p>
+                        <p>「我的工作」小工具中已新增新的快速動作按鈕，進一步擴充了您直接從「新首頁」管理工作的能力。</p>
                     </td>
                     <td><p><b>將於下列日期提供：</b></p>
                         <ul>
@@ -764,9 +764,9 @@ API第17版已於2023年10月12日發行。 針對API版本17，我們已修改�
 
 請注意，Workfront行動應用程式需要Workfront登入。 外部使用者和來賓可以繼續使用校訂應用程式進行校訂工作；但是，它不再受支援，並將在23.10中變得無法使用。
 
-#### 已針對未使用工作資料流的帳戶移除工作資料流
+#### 已刪除帳戶不使用的工作流程
 
-對於從未在Adobe Workfront面板中建立工作流程的帳戶，自2023年10月11日起，工作流程區域已從面板控制面板中移除。 使用工作流程的帳戶仍可存取工作流程。 增強的Scrum功能將在未來版本中解決。
+對於從未在Adobe Workfront面板中建立工作流程的帳戶，自2023年10月11日起，工作流程區域已從面板控制面板中移除。 有使用工作流程的帳戶仍然可以存取它們。增強的Scrum功能將在未來版本中解決。
 
 <!-- HTML you might need
 

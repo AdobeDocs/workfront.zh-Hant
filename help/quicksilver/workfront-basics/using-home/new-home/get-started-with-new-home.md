@@ -6,10 +6,10 @@ description: 新首頁是管理您工作的強大新功能。
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 40bb32f0-acc7-4a22-92b9-bab9dc7c987b
-source-git-commit: f776fb88000ea6044b88cba88d0cb7198c205d05
+source-git-commit: efe1fee1504e39b22b2a40f5e319f53c698acea5
 workflow-type: tm+mt
-source-wordcount: '927'
-ht-degree: 23%
+source-wordcount: '933'
+ht-degree: 21%
 
 ---
 
@@ -52,7 +52,7 @@ Widget是New Home的基礎。 將Widget新增到首頁後，您就可以選擇�
     在具有可自訂欄的表格中顯示貴組織的所有核准，以及可讓您搜尋特定核准的搜尋列。
 
 * **提及**\
-    顯示最近在 Workfront 中 @ 提及您的評論對話串，以及可讓您在 Widget 中撰寫回覆的回覆按鈕。只要任務或問題在過去30天內已更新，此Widget也會顯示針對您指派給、您指派給其他使用者、您擁有、您是主要連絡人或您建立之任務或問題所做的評論。
+    顯示來自Workfront的最近評論對話串，類似於「我的更新」頁面，以及一個允許您在Widget中撰寫回覆的回覆按鈕。 只要任務或問題在過去30天內已更新，此Widget也會顯示針對您指派給、您指派給其他使用者、您擁有、您是主要連絡人或您建立之任務或問題所做的評論。
 
 * **待辦事項**\
     這個獨特的Widget可讓您將文字專案新增至您可自由編輯的個人檢查清單。
@@ -78,7 +78,7 @@ Widget是New Home的基礎。 將Widget新增到首頁後，您就可以選擇�
     </tr>
     <tr>
         <td>貢獻者</td>
-        <td>我的工作，提及</td>
+        <td>我的請求、提及、等待我的核准、面板</td>
     </tr>
     <tr>
         <td>外部</td>
@@ -104,11 +104,11 @@ Widget是New Home的基礎。 將Widget新增到首頁後，您就可以選擇�
         <td>我的工作，提及</td>
     </tr>
     <tr>
-        <td>有限</td>
+        <td>請求</td>
         <td>我的專案，等待我的核准</td>
     </tr>
     <tr>
-        <td>貢獻者</td>
+        <td>參與</td>
         <td>我的工作，提及</td>
     </tr>
     <tr>
