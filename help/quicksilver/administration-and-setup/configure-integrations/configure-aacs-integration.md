@@ -5,14 +5,18 @@ title: 設定 [!UICONTROL Experience Manager Assetsas a Cloud Service] 整合
 description: 您可以在下列位置將您的工作與內容連結： [!DNL Experience Manager Assets].
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: bc58cc77-a177-417f-a5a4-eec51e305219
-source-git-commit: 4915dfb923a661befaf33007b8bcb9834e38a3e4
+source-git-commit: 2669530c2901e77599a80a852a428b558291ef36
 workflow-type: tm+mt
-source-wordcount: '1540'
+source-wordcount: '1317'
 ht-degree: 0%
 
 ---
 
 # 設定 [!UICONTROL Experience Manager Assetsas a Cloud Service] 整合
+
+>[!IMPORTANT]
+>
+>此功能僅適用於已上線的組織。 [!DNL Adobe Admin Console].
 
 您可以在下列位置將您的工作與內容連結： [!DNL Experience Manager Assets]下&#x200B;列：
 
@@ -25,7 +29,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->您也可以將多個Experience Manager Assets存放庫連線至一個Workfront環境，或連線至跨組織ID的一個Workfront存放庫的多個Experience Manager Assets環境。 針對您要設定的每項整合，請依照本文的設定指示操作。
+>您也可以連線數個 [!DNL Experience Manager Assets] 將存放庫合併為一個 [!UICONTROL Workfront] 環境或數個 [!DNL Workfront] 環境至一 [!DNL Experience Manager Assets] 跨組織ID的存放庫。 針對您要設定的每項整合，請依照本文的設定指示操作。
 
 ## 存取需求
 
@@ -176,7 +180,9 @@ link to documentation about creating schema - waiting on response from Anuj abou
 
 若要對應資產的中繼資料：
 
-1. 選取 **[!UICONTROL 資產]** 位於中繼資料表格上方。
+<!--
+1. Select **[!UICONTROL Assets]** above the metadata table.
+-->
 1. 在 **[!UICONTROL [!DNL Workfront]欄位]** 欄中，選擇內建或自訂Workfront欄位。
 
    >[!NOTE]
@@ -186,44 +192,46 @@ link to documentation about creating schema - waiting on response from Anuj abou
 
 1. 在 [!DNL Experience Manager Assets] 欄位，在預先填入的類別中搜尋，或在搜尋欄位中輸入至少兩個字母以存取其他類別。
 1. 視需要重複步驟2和3。
-   ![中繼資料欄位](assets/asset-metadata.png)
-1. 按一下 [!UICONTROL 儲存] 或移至 [資料夾](#folders) 一節。
+   ![中繼資料欄位](assets/metadata-no-asset-toggle.png)
+1. 按一下 [!UICONTROL 儲存] 或移至 [設定工作流程](#set-up-workflows-optional) 一節。
 
-### 對應資料夾的中繼資料
+<!--
 
-當使用者在專案上建立連結資料夾時，關聯的專案、專案組合和方案資料會對映到中的資料夾中繼資料欄位 [!DNL Experience Manager Assets].
+### Map metadata for folders
+
+When users create a linked folder on a project, the associated project, portfolio, and program data is mapped to folder metadata fields in [!DNL Experience Manager Assets].
 
 >[!NOTE]
 >
->此整合不支援來自的自訂中繼資料 [!DNL Adobe Experience Manager].
+>This integration does not support custom metadata from [!DNL Adobe Experience Manager].
 
-若要對應資料夾的中繼資料：
+To map metadata for folders: 
 
-1. 選取 **[!UICONTROL 資料夾]** 位於中繼資料表格上方。
-1. 在 **[!UICONTROL [!DNL Workfront]欄位]** 欄中，選擇內建或自訂Workfront欄位。
+1. Select **[!UICONTROL Folders]** above the metadata table.
+1. In the **[!UICONTROL [!DNL Workfront] field]** column, choose a built-in or custom Workfront field.
 
-   >[!NOTE]
-   >
-   >您可以將單一Workfront欄位對應至多個Experience Manager Assets欄位。 您無法對應多個 [!DNL Workfront] 欄位至單一 [!DNL Experience Manager Assets] 欄位。
+    >[!NOTE]
+    >
+    >You can map a single Workfront field to multiple Experience Manager Assets fields. You can't map multiple [!DNL Workfront] fields to a single [!DNL Experience Manager Assets] field.
 
-1. 在 **[!DNL Experience Manager Assets]** 欄位，在預先填入的類別中搜尋，或在搜尋欄位中輸入至少兩個字母以存取其他類別。
-1. 視需要重複步驟2和3。
-   ![資料夾中繼資料](assets/folder-metadata.png)
-1. 按一下 **[!UICONTROL 儲存]** 或移至 [專案中繼資料同步](#project-metadata-sync) 一節。
+1. In the **[!DNL Experience Manager Assets]** field, search through the pre-populated categories or enter at least two letters in the search field to access additional categories.
+1. Repeat steps 2 and 3 as needed.
+![folder metadata](assets/folder-metadata.png)
+1. Click **[!UICONTROL Save]** or move on to the [Project metadata sync](#project-metadata-sync) section in this article.
 
 
-### 物件中繼資料同步
+### Object metadata sync
 
-一個 [!DNL Experience Manager] 對應至的欄位 [!DNL Workfront] 投資組合、方案、專案、任務、問題和檔案欄位會在變更欄位時自動更新 [!DNL Workfront].
+An [!DNL Experience Manager] fields that is mapped to [!DNL Workfront] portfolio, program, project, task, issue, and document fields update automatically when the field is changed in [!DNL Workfront].
 
-啟用此選項後，任何已推送至Adobe Experience Manager的資產都會在檔案詳細資訊頁面上包含卡片，該卡片會顯示檔案Adobe Experience Manager中繼資料的即時檢視。
+When this option is enabled, any asset that has been pushed to Adobe Experience manager includes a card on the Document Details page that displays a real-time view of the document's Adobe Experience Manager metadata.
 
 >[!IMPORTANT]
 >
->使用者必須有寫入許可權 [!DNL Experience Manager] 用於存在於物件中的資產，以便在更新時同步中繼資料。
+>Users must have write access in [!DNL Experience Manager] for assets living in the object in order for the metadata to sync when it's updated.
 
-1. 啟用 **[!UICONTROL 同步物件中繼資料]** 欄位。
-1. 按一下 **儲存** 或移至 [設定工作流程（選用）](#set-up-workflows-optional) 一節。
+1. Enable the **[!UICONTROL Sync object metadata]** field.
+1. Click **Save** or move on to the [Set up workflows (Optional)](#set-up-workflows-optional) section in this article.
 
 <!--Courtney start here-->
 
