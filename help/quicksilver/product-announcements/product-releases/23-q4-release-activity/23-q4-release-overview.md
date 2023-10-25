@@ -4,9 +4,9 @@ description: 2023年第四季版本總覽
 author: Becky
 feature: Product Announcements
 exl-id: 6c14bd61-60b1-49aa-84bd-d494a226d70e
-source-git-commit: efe1fee1504e39b22b2a40f5e319f53c698acea5
+source-git-commit: 383c87843b3a9a3a7e4e9b78ddd41828013c23c7
 workflow-type: tm+mt
-source-wordcount: '2602'
+source-wordcount: '2665'
 ht-degree: 0%
 
 ---
@@ -71,6 +71,22 @@ These enhancements will be included in the following releases:
                         </p>
                     </td>
                  </tr>
+                 <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-admin-enhancements.md" class="MCXref xref" xrefformat="{para}">舊版授權模式客戶可用的校訂和檔案決策</a></p>
+                        <p>尚未轉換至新Adobe Workfront授權模式的舊版客戶，現在可以在單一報表中檢視每個使用者每月校訂/檔案決策數量的資料。 當您執行使用者決定報表時，即可使用此資料。</p>
+                    </td>
+                    <td><p><b>將於下列日期提供：</b></p>
+                        <ul>
+                            <li>
+                                <p>預覽版本： 2023年10月12日</p>
+                            </li>
+                            <li>
+                                <p><span class="preview">所有客戶的生產： 2023年10月12日</span></p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>            
                  <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-admin-enhancements.md" class="MCXref xref" xrefformat="{para}">自訂表單的計算欄位現在可以使用$$USER萬用字元</a></p>
@@ -494,7 +510,7 @@ These enhancements will be included in the following releases:
                 </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">升級為拖放檔案整合</a></p><p>[！BADGE In Production ]{type=Informative}</p><p>我們做了一些增強功能，讓檔案拖放至連結資料夾時，能更清晰易懂且移除使用者錯誤。</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">升級為拖放檔案整合</a></p><p>我們做了一些增強功能，讓檔案拖放至連結資料夾時，能更清晰易懂且移除使用者錯誤。</p>
                     </td>
                     <td><p><b>將於下列日期提供：</b></p>
                         <ul>
@@ -502,7 +518,7 @@ These enhancements will be included in the following releases:
                                 <p>預覽版本： 2023年8月24日<br /></p>
                             </li>
                             <li>
-                                <p><span class="preview">適用於所有客戶的生產： 2023年8月31日</span></p>
+                                <p><span class="preview">適用於所有客戶的生產： 23.10版之後</span></p>
                             </li>
                         </ul>
                     </td>
