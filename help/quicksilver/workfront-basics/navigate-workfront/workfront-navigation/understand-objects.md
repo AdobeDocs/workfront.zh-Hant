@@ -5,9 +5,9 @@ title: 瞭解中的物件 [!DNL Adobe Workfront]
 description: 瞭解中的物件 [!DNL Adobe Workfront]
 feature: Get Started with Workfront
 exl-id: f324f198-5472-4cf2-a46e-7fc24605ca90
-source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
+source-git-commit: a2650ccc3deffd841a7b497e6ff1b5eed6145211
 workflow-type: tm+mt
-source-wordcount: '2237'
+source-wordcount: '2255'
 ht-degree: 7%
 
 ---
@@ -334,6 +334,10 @@ ht-degree: 7%
 * [!UICONTROL 使用者委派]
 
   您可以報告受委派執行外出時其他人之任務和問題的使用者。 此報表顯示不在辦公室的使用者以及在外出期間履行職責的使用者。
+
 * [!UICONTROL 使用者決策]
+
+  您可以報告當月使用者對校樣和檔案做了多少決策。
+
 * [!UICONTROL 檢視]
 * [!UICONTROL 工作專案] （這會產生任務和問題報告）

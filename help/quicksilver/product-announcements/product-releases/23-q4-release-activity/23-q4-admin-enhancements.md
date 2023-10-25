@@ -3,9 +3,9 @@ title: 2023年第四季管理員增強功能
 description: 2023年第四季管理員增強功能
 author: Lisa
 feature: Product Announcements
-source-git-commit: 8488cb46b3dd9b377c59121597db5b6fe784fdab
+source-git-commit: a2650ccc3deffd841a7b497e6ff1b5eed6145211
 workflow-type: tm+mt
-source-wordcount: '238'
+source-wordcount: '314'
 ht-degree: 0%
 
 ---
@@ -15,6 +15,12 @@ ht-degree: 0%
 此頁面說明2023年第四季版本對「預覽」環境所做的所有管理員增強功能。 這些增強功能將在23.10版本的生產環境中提供。
 
 如需2023年第四季版本週期目前可用的所有變更清單，請參閱 [2023年第四季版本總覽](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md).
+
+## 舊版授權模式客戶可用的校訂和檔案決策
+
+尚未轉換至新Adobe Workfront授權模式的舊版客戶，現在可以在單一報表中檢視每個使用者每月校訂/檔案決策數量的資料。 當您執行使用者決定報表時，即可使用此資料。
+
+如需詳細資訊，請參閱 [瞭解Adobe Workfront中的物件](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md) 和 [檢視所有使用者的校訂和檔案決策數量](/help/quicksilver/review-and-approve-work/tips-tricks-troubleshooting-approvals/view-number-of-decisions-for-users.md).
 
 ## 自訂表單的計算欄位現在可以使用$$USER萬用字元
 
