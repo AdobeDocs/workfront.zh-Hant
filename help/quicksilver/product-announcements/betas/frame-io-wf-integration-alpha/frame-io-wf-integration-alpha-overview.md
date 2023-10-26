@@ -7,9 +7,9 @@ author: Nolan
 feature: Product Announcements
 hide: true
 hidefromtoc: true
-source-git-commit: 58118f98d2d17960e4383c63b564aa2e56ea49f6
+source-git-commit: 0ad33f377086f71699c550e2300731056a834e72
 workflow-type: tm+mt
-source-wordcount: '580'
+source-wordcount: '599'
 ht-degree: 0%
 
 ---
@@ -23,19 +23,14 @@ ht-degree: 0%
 
 善用兩者，瞭解Frame.io與Workfront之間簡化的體驗（包括新檔案核准）如何推動內容生命週期，從工作啟動到簽核與傳送。
 
-<!--
-Learn more about 
 
-This program and feedback participation activities: <link> 
-
-The new experience and features and how you can test them: <link> 
--->
+若要進一步瞭解Alpha的計畫功能以及如何進行測試，請參閱 [Adobe Workfront與Frame.io原生整合alpha：功能](/help/quicksilver/product-announcements/betas/frame-io-wf-integration-alpha/frame-io-wf-integration-alpha-features.md)
 
 >[!NOTE]
 >
 >如果您的公司未參與此Alpha方案，您可能會看到這些頁面，請務必謹慎處理這些資訊，並聯絡Workfront或Frame.io管理員以取得詳細資訊。
 
-## 計畫的意見反應活動和通訊管道
+## 通訊通道
 
 此Alpha程式提供您獨一無二的機會，可讓您運用Workfront和Frame.io兩者的優點，測試我們擬建置的流暢體驗。 Workfront用於工作規劃、監控和管理請求資產的稽核和核准流程，Frame.io用於創意合作和執行稽核和核准。
 
