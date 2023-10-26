@@ -7,7 +7,7 @@ description: 在Workfront中，您可以建立與Experience Manager Assets或Ass
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: eb2b3b21-bc0b-45d3-85fa-1715cf927cb7
-source-git-commit: f12b271f87f9f0dfc5a04c019466b83dbe2b08ca
+source-git-commit: 1744e6f2b78c64ba2fa4856d9c6a0611404e4458
 workflow-type: tm+mt
 source-wordcount: '383'
 ht-degree: 0%
@@ -79,6 +79,7 @@ ht-degree: 0%
 
 1. 前往您想要資料夾的專案。
 1. 選取 **新增**，然後前往管理員設定的Experience Manager整合。
+
    >[!NOTE]
    >
    >Workfront管理員可為這項整合選擇任何名稱，因此可能沒有特別提及Experience Manager Assets或Assets Essentials。
