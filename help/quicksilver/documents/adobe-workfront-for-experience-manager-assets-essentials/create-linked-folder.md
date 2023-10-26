@@ -2,21 +2,21 @@
 content-type: reference
 product-area: documents;workfront-integrations
 navigation-topic: documents-navigation-topic
-title: 建立連結至Experience Manager Assets或Assets Essentials的資料夾
-description: 您可以在Workfront中建立連結至Experience Manager Assets或Assets Essentials的資料夾。
+title: 建立與Experience Manager Assets或Assets Essentials連結的資料夾
+description: 在Workfront中，您可以建立與Experience Manager Assets或Assets Essentials連結的資料夾。
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: eb2b3b21-bc0b-45d3-85fa-1715cf927cb7
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: f12b271f87f9f0dfc5a04c019466b83dbe2b08ca
 workflow-type: tm+mt
-source-wordcount: '372'
+source-wordcount: '383'
 ht-degree: 0%
 
 ---
 
-# 建立連結至Experience Manager Assets或Assets Essentials的資料夾
+# 建立與Experience Manager Assets或Assets Essentials連結的資料夾
 
-您可以在Workfront中建立連結至Experience Manager Assets或Assets Essentials的資料夾。 由於資料夾已連結，因此新增至資料夾的任何資產都會自動顯示在Workfront和Experience Manager中。 如果資產位於連結的資料夾中，您不需要手動傳送。
+在Workfront中，您可以建立與Experience Manager Assets或Assets Essentials連結的資料夾。 由於資料夾已連結，因此新增至資料夾的任何資產都會自動顯示於Workfront和Experience Manger中。 如果資產位於連結的資料夾中，您不必手動傳送資產。
 
 
 ## 存取需求
@@ -39,25 +39,25 @@ ht-degree: 0%
   <tr>
    <td><strong>產品</strong>
    </td>
-   <td>您必須有Experience Manager Assetsas a Cloud Service或Assets Essentials，且必須以使用者身分新增至產品。
+   <td>您必須有Experience Manager Assetsas a Cloud Service或Assets Essentials，而且您必須以使用者的身分新增到產品中。
    </td>
   </tr>
   <tr>
-   <td><strong>Experience Manager權限</strong>
+   <td><strong>Experience Manager許可權</strong>
    </td>
-   <td>您必須擁有Experience Manager整合中目的地資料夾的寫入存取權。
+   <td>您必須擁有Experience Manger整合中目的地資料夾的寫入許可權。
    </td>
   </tr>
   <tr>
-   <td><strong>訪問級別配置</strong>
+   <td><strong>存取層級設定</strong>
    </td>
-   <td>您必須是Workfront管理員。 如需Workfront管理員的相關資訊，請參閱 <strong>授予使用者完整的管理存取權</strong>.
+   <td>您必須是Workfront管理員才能設定Experience Manager整合。 完成設定後，擁有計畫授權的使用者可以在個別專案上設定連結資料夾。
    </td>
   </tr>
 </table>
 
 
-*若要了解您擁有的計畫、授權類型或存取權，請聯絡您的Workfront管理員。
+*若要瞭解您擁有的計畫、授權型別或存取權，請聯絡您的Workfront管理員。
 
 
 ## 必要條件
@@ -69,19 +69,19 @@ ht-degree: 0%
 
 ## 建立連結的資料夾
 
-連結的資料夾是在Workfront管理員設定整合時所指定的位置建立。 每個整合只能有一個連結資料夾的資料夾位置。
+連結資料夾會在Workfront管理員設定整合時，於其指定的位置中建立。 每個整合只能有一個連結資料夾的資料夾位置。
 
-已連結資料夾的名稱會根據與關聯的Portfolio、方案、項目自動建立，且無法更改。 如果項目未與Portfolio或項目群關聯，則連結的資料夾將顯示項目名稱和建立日期。
+連結資料夾的名稱會根據與其相關聯的Portfolio、方案、專案自動建立，且無法變更。 如果專案未與Portfolio或方案相關聯，則連結的資料夾將顯示專案名稱和建立日期。
 
-要建立連結的資料夾：
+若要建立連結資料夾：
 
 
 
-1. 前往您要資料夾的專案。
-1. 選擇 **新增**，然後前往Experience Manager整合您的管理員設定。
+1. 前往您想要資料夾的專案。
+1. 選取 **新增**，然後前往管理員設定的Experience Manager整合。
    >[!NOTE]
    >
-   >Workfront管理員可選擇此整合的任何名稱，因此可能不會特別提及Experience Manager Assets或Assets Essentials。
+   >Workfront管理員可為這項整合選擇任何名稱，因此可能沒有特別提及Experience Manager Assets或Assets Essentials。
 
-1. 選擇 **建立連結的資料夾**. 系統會根據設定整合時指定的位置，自動在Experience Manager中建立資料夾。
+1. 選取 **建立連結的資料夾**. 系統會根據設定整合時指定的位置，自動建立Experience Manager的資料夾。
    ![建立連結的資料夾](assets/linked-folder.png)
