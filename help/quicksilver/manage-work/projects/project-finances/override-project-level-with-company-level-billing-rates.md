@@ -6,7 +6,7 @@ description: 以公司層級的收費率覆寫專案層級的收費率
 author: Alina
 feature: Work Management
 exl-id: 02ea4c7c-0473-4cc4-913c-3baa613767b7
-source-git-commit: f66a6c340d8789db447c860d995d9836a30eeeb0
+source-git-commit: 72511f98e05c160e2ca69def8aa3a929ed62bb40
 workflow-type: tm+mt
 source-wordcount: '522'
 ht-degree: 0%
@@ -86,11 +86,11 @@ ht-degree: 0%
 
    * 多個專案：
 
-   1. 前往專案清單。
-   1. 勾選與您要更新專案相符的核取方塊。
-   1. 按一下 **編輯**.
-   1. 在設定區段中，啟用 **重新計算成本和收入** 選項。
-   1. 按一下 **儲存變更**.
+      1. 前往專案清單。
+      1. 勾選與您要更新專案相符的核取方塊。
+      1. 按一下 **編輯**.
+      1. 在設定區段中，啟用 **重新計算成本和收入** 選項。
+      1. 按一下 **儲存變更**.
 
    * 單一專案：
 
