@@ -6,7 +6,7 @@ description: 您可以在展示板上新增卡片，該卡片會連線至Workfro
 author: Lisa
 feature: Agile
 exl-id: c6d979dd-e4a4-48a5-a91b-b31d7ef848d1
-source-git-commit: 99e985642fff751ac67a9de562908bd2156b3812
+source-git-commit: ec753f4176208708de0a39679788d34f486f759b
 workflow-type: tm+mt
 source-wordcount: '1427'
 ht-degree: 0%
@@ -14,8 +14,6 @@ ht-degree: 0%
 ---
 
 # 在展示板上使用連線的卡片
-
-{{preview-and-fast-release}}
 
 您可以在展示板上新增卡片，該卡片會連線至中的現有任務和問題 [!DNL Workfront].
 
@@ -27,8 +25,8 @@ ht-degree: 0%
 * [!UICONTROL 狀態]
 * [!UICONTROL 規劃完成日期]
 * [!UICONTROL 預估] / [!UICONTROL 劇本點]
-* <span class="preview">[!UICONTROL 子任務]</span>
-* <span class="preview">[!UICONTROL 文件]</span>
+* [!UICONTROL 子任務]
+* [!UICONTROL 文件]
 
 >[!NOTE]
 >
@@ -137,10 +135,10 @@ ht-degree: 0%
      </tr>
      <tr>
      <tr>
-      <td role="rowheader"><span class="preview"><strong>[！UICONTROL Subtask]</strong></span></td>
-      <td><span class="preview"><p>任務的任何現有子任務都會出現在此區段中。 按一下 <strong>[！UICONTROL新增子任務]</strong> 以新增子任務。</p>
+      <td role="rowheader"><strong>[！UICONTROL Subtask]</strong></td>
+      <td><p>任務的任何現有子任務都會出現在此區段中。 按一下 <strong>[！UICONTROL新增子任務]</strong> 以新增子任務。</p>
       <p>區段頂端的計數器顯示已完成子工作的數目以及子工作的總數。</p>
-      <p>如需子工作的詳細資訊，請參閱 <a href="/help/quicksilver/agile/get-started-with-boards/manage-subtasks-on-boards.md">管理展示板上的子任務</a>.</p></span></td>
+      <p>如需子工作的詳細資訊，請參閱 <a href="/help/quicksilver/agile/get-started-with-boards/manage-subtasks-on-boards.md">管理展示板上的子任務</a>.</p></td>
      </tr>
      <tr> 
       <td role="rowheader"><strong>[！UICONTROL檢查清單]</strong></td>
@@ -148,8 +146,8 @@ ht-degree: 0%
       <p>檢查清單頂端的計數器顯示已完成的專案數和專案總數。</p> <p>如需檢查清單專案的詳細資訊，請參閱 <a href="/help/quicksilver/agile/get-started-with-boards/manage-checklist-items.md">管理卡片上的檢查清單專案</a>.</p></td>
      </tr>
      <tr>
-      <td role="rowheader"><span class="preview"><strong>[！UICONTROL檔案]</strong></span></td>
-      <td><span class="preview">針對現有檔案，將滑鼠停留在檔案縮圖上，然後按一下 <strong>預覽</strong> 在瀏覽器中檢視檔案，或 <strong>下載</strong> 將檔案下載到您的電腦。 如需新檔案，請參閱 <a href="/help/quicksilver/agile/get-started-with-boards/add-documents-on-cards.md">在卡片上新增檔案</a>.</span></td>
+      <td role="rowheader"><strong>[！UICONTROL檔案]</strong></td>
+      <td>針對現有檔案，將滑鼠停留在檔案縮圖上，然後按一下 <strong>預覽</strong> 在瀏覽器中檢視檔案，或 <strong>下載</strong> 將檔案下載到您的電腦。 如需新檔案，請參閱 <a href="/help/quicksilver/agile/get-started-with-boards/add-documents-on-cards.md">在卡片上新增檔案</a>.</td>
      </tr>
      <tr>
       <td role="rowheader"><strong>[！UICONTROL小時]</strong></td>

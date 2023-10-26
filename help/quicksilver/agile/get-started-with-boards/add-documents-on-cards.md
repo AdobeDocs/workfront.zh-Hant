@@ -6,7 +6,7 @@ description: 您可以將檔案新增至Adobe Workfront展示板上已連線的�
 author: Lisa
 feature: Agile
 exl-id: d68c1eec-c527-44b0-bdc5-ca3b7731b648
-source-git-commit: 2e9ba58c01f3c5c6569c88e05993674d56124806
+source-git-commit: ec753f4176208708de0a39679788d34f486f759b
 workflow-type: tm+mt
 source-wordcount: '291'
 ht-degree: 0%
@@ -14,8 +14,6 @@ ht-degree: 0%
 ---
 
 # 在卡片上新增檔案
-
-{{article-preview-and-fast-release}}
 
 您可以將檔案新增至Adobe Workfront展示板上已連線的卡片。 您新增到卡片上的任何檔案都可在已連線任務或問題的檔案索引標籤上使用，且新增到任務或問題上的檔案會顯示在卡片上。 這兩個區域都支援相同的檔案型別。 如需Workfront中檔案的詳細資訊，請參閱 [從您的檔案系統新增檔案至Adobe Workfront](/help/quicksilver/documents/adding-documents-to-workfront/add-documents-from-file-system.md).
 

@@ -2,26 +2,24 @@
 product-area: documents
 navigation-topic: add-documents-to-workfront
 title: 從您的檔案系統新增檔案至Adobe Workfront
-description: 您可以在Adobe Workfront的下列區域中，將檔案新增至專案、任務或問題 — 編輯我。
+description: 您可以在Adobe Workfront中將檔案新增到多個區域中的專案、任務或問題。
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 0a5f82b2-f86e-4ffa-b3a6-18221dd0e158
-source-git-commit: 55ba26b65cf046806f5a198e4de1b5eed2e08384
+source-git-commit: ec753f4176208708de0a39679788d34f486f759b
 workflow-type: tm+mt
-source-wordcount: '751'
+source-wordcount: '748'
 ht-degree: 1%
 
 ---
 
 # 從您的檔案系統新增檔案至Adobe Workfront
 
-{{preview-and-fast-release}}
-
 您可以在Adobe Workfront的下列區域中，將檔案新增至專案、任務或問題：
 
 * 全域檔案區域
 * Workfront物件的檔案區域
-* <span class="preview">Workfront展示板上的已連線卡片</span>
+* Workfront展示板上的已連線卡片
 
 您也可以上傳檔案的新版本，並將連結新增至協力廠商雲端廠商(例如Google Drive、Dropbox和Microsoft OneDrive)的檔案。 如需新增檔案新版本的詳細資訊，請參閱 [上傳檔案的新版本](../../documents/managing-documents/upload-new-document-version.md). 如需關於新增來自第三方雲端廠商的檔案的資訊，請參閱 [從外部應用程式連結檔案](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md).
 

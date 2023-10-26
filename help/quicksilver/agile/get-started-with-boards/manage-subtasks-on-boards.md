@@ -5,7 +5,7 @@ title: 管理展示板上的子任務
 description: 使用卡片上的子任務可讓您在任務之間建立父子關係，並建立工作的階層。
 author: Lisa
 feature: Agile
-source-git-commit: 7b4e1bc58fbaf30ff86e8ec95664cb3baaae2ef7
+source-git-commit: ec753f4176208708de0a39679788d34f486f759b
 workflow-type: tm+mt
 source-wordcount: '368'
 ht-degree: 0%
@@ -13,8 +13,6 @@ ht-degree: 0%
 ---
 
 # 管理展示板上的子任務
-
-{{highlighted-preview-article-level}}
 
 使用卡片上的子任務可讓您在任務之間建立父子關係，並建立工作的階層。 您新增至Workfront展示板上卡片的子任務也會新增至Workfront專案中的任務。 有關專案層級子任務和任務的詳細資訊，請參閱 [建立子任務](/help/quicksilver/manage-work/tasks/create-tasks/create-subtasks.md).
 
