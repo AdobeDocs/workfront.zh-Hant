@@ -8,7 +8,7 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 664fb2fe-ff7e-4807-9a43-b37e7d5d57eb
-source-git-commit: fa5aa268405c8ee2b5915fd55983397decf8d198
+source-git-commit: f66a6c340d8789db447c860d995d9836a30eeeb0
 workflow-type: tm+mt
 source-wordcount: '1168'
 ht-degree: 0%
@@ -16,8 +16,6 @@ ht-degree: 0%
 ---
 
 # 建立和管理職位角色
-
-{{highlighted-preview}}
 
 <!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.-->
 
@@ -83,11 +81,11 @@ ht-degree: 0%
      <tr> 
       <td role="rowheader">[！UICONTROL成本率]</td> 
       <td><p>這是工作角色的每小時成本率。 此值會計算與角色相關之任務與問題的計畫成本與實際成本，以及最終的專案計畫成本與實際成本。 使用[！UICONTROL基本貨幣]輸入匯率。</p> 
-      <p><span class="preview">若要取得日期有效成本率，請按一下 <strong>[！UICONTROL加入率]</strong>. 輸入時段的成本/小時值，並視需要指派[！UICONTROL開始日期]和[！UICONTROL結束日期]。 第一個成本費率不會有開始日期，而最後一個成本費率不會有結束日期。</span></p> <p><span class="preview">部分日期會自動新增。 例如，如果第一個成本費率沒有結束日期，而您新增了開始日期為2023年5月1日的第二個成本費率，則結束日期為2023年4月30日的成本費率會新增至第一個成本費率，這樣就不會有差距。</span></p> <p><span class="preview">提示：編輯現有工作角色時，您可以選取 <strong>依開始日期排序</strong> 若要在費率清單頂端檢視最近的開始日期。 </span></p></td> 
+      <p>若要取得日期有效成本率，請按一下 <strong>[！UICONTROL加入率]</strong>. 輸入時段的成本/小時值，並視需要指派[！UICONTROL開始日期]和[！UICONTROL結束日期]。 第一個成本費率不會有開始日期，而最後一個成本費率不會有結束日期。</p> <p>部分日期會自動新增。 例如，如果第一個成本費率沒有結束日期，而您新增了開始日期為2023年5月1日的第二個成本費率，則結束日期為2023年4月30日的成本費率會新增至第一個成本費率，這樣就不會有差距。</p> <p>提示：編輯現有工作角色時，您可以選取 <strong>依開始日期排序</strong> 若要在費率清單頂端檢視最近的開始日期。</p></td> 
      </tr> 
      <tr> 
       <td role="rowheader">[！UICONTROL收費率] </td> 
-      <td><p>這是工作角色的每小時收費率。 此值會計算與角色相關之任務和問題的計畫和實際收入，最終是專案的計畫和實際收入。 使用[！UICONTROL基本貨幣]輸入匯率。</p> <p><span class="preview">如需日期有效收費率，請按一下 <strong>[！UICONTROL加入率]</strong>. 輸入時段的記帳/小時值，並視需要指派[！UICONTROL開始日期]和[！UICONTROL結束日期]。 第一個收費率不會有開始日期，而最後一個收費率則不會有結束日期。</span></p> <p><span class="preview">部分日期會自動新增。 例如，如果第一個收費率沒有結束日期，而您新增了開始日期為2023年5月1日的第二個收費率，則第一個收費率會新增2023年4月30日的結束日期，因此不會有間隙。</span></p> <p><span class="preview">提示：編輯現有工作角色時，您可以選取 <strong>依開始日期排序</strong> 若要在費率清單頂端檢視最近的開始日期。 </span></p> </td> 
+      <td><p>這是工作角色的每小時收費率。 此值會計算與角色相關之任務和問題的計畫和實際收入，最終是專案的計畫和實際收入。 使用[！UICONTROL基本貨幣]輸入匯率。</p> <p>如需日期有效收費率，請按一下 <strong>[！UICONTROL加入率]</strong>. 輸入時段的記帳/小時值，並視需要指派[！UICONTROL開始日期]和[！UICONTROL結束日期]。 第一個收費率不會有開始日期，而最後一個收費率則不會有結束日期。</p> <p>部分日期會自動新增。 例如，如果第一個收費率沒有結束日期，而您新增了開始日期為2023年5月1日的第二個收費率，則第一個收費率會新增2023年4月30日的結束日期，因此不會有間隙。</p> <p>提示：編輯現有工作角色時，您可以選取 <strong>依開始日期排序</strong> 若要在費率清單頂端檢視最近的開始日期。</p> </td> 
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader"><span>[！UICONTROL覆寫貨幣]</span> </td> 
