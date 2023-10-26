@@ -8,24 +8,24 @@ feature: Work Management
 topic: Collaboration
 role: User
 exl-id: 2a4488fb-fe2f-422a-887c-996f6367afc5
-source-git-commit: bdbb970aa0bb49fe9e69a15f93c96609eb2c1bfe
+source-git-commit: c2c09486756db021b6edaf380c5a54d531ffa723
 workflow-type: tm+mt
-source-wordcount: '2035'
+source-wordcount: '1498'
 ht-degree: 0%
 
 ---
 
 # 建立問題
 
-<!--remove Preview and Prod references when this comes to Prod-->
+<!--
 
-<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它僅在預覽環境中可供所有客戶使用。 每月發行至生產環境後，生產環境中為啟用快速發行的客戶也提供相同的功能。 </span>
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>
 
-<span class="preview">如需快速發行版本的相關資訊，請參閱 [啟用或停用組織的快速發行](../../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](../../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span> 
 
-<span class="preview">如需目前版本的相關資訊，請參閱 [2023年第四季版本總覽](../../../product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md). </span>
+<span class="preview">For information about the current release, see [Fourth Quarter 2023 release overview](../../../product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md). </span> 
 
-
+-->
 
 處理專案時，您可能會發現發生未預期的事件。 您可以將這些非預期事件記錄為特定專案或任務的問題。 具有適當存取許可權的使用者可隨著專案或任務進行到完成來檢視和監控問題的狀態，無需冗長的電子郵件鏈結或狀態會議。 與為計畫事件的任務不同，問題代表Adobe Workfront中的計畫外工作專案。
 
@@ -87,68 +87,67 @@ ht-degree: 0%
 
 在專案中定義新問題表單的欄位後，您可以開始建立問題。
 
-建立問題會因您選擇建立問題的環境而異。
+<!-- OLD UI: redesigned on Oct 26, 2023:
 
-### 使用生產環境中的「新問題」按鈕在任務或專案上建立問題
+Creating issues differs depending on which environment you choose to create the issue. 
 
-若要在任務或專案上建立問題：
+### Create issues on a task or project using the New Issue button in the Production environment
 
-1. 前往您要建立問題的專案。
-1. （可選）如果要記錄任務的問題，請前往 **任務** 區域，然後按一下工作的名稱。
-1. 按一下 **問題** 區段。
+To create an issue on a task or a project:
+
+1. Go to a project where you want to create the issue. 
+1. (Optional) If you want to log the issue for a task, go to the **Tasks** area, then click the name of a task. 
+1. Click the **Issues** section.
 
    ![](assets/qs-issues-icon-highlighted-on-project-350x216.png)
 
-1. 按一下 **新問題**.
+1. Click **New Issue**.
 
    ![](assets/qs-issue-list-on-project-with-new-issue-button-highlighted-350x270.png)
 
-1. （視條件而定）如果專案建立者在專案上建立了佇列主題或主題群組，則會將其新增至新問題表單。 指定 **主題群組** 或 **佇列主題** 您的新問題。 主題群組和佇列主題已根據您的環境自訂名稱。\
-   如需有關建立主題群組的詳細資訊，請參閱 [建立主題群組](../../../manage-work/requests/create-and-manage-request-queues/create-topic-groups.md). 如需有關建立佇列主題的詳細資訊，請參閱 [建立佇列主題](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).
+1. (Conditional) If the project creator created Queue Topics or Topic Groups on the project they are added to the new issue form. Specify the **Topic Group** or the **Queue Topic** of your new issue. Topic Groups and Queue Topics have names customized to your environment.  
+   For more information about creating Topic Groups, see [Create Topic Groups](../../../manage-work/requests/create-and-manage-request-queues/create-topic-groups.md). For more information about creating Queue Topics, see [Create Queue Topics](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).
 
    ![](assets/new-issue-screen-when-creating-issue-from-list-project-level-nwe-350x422.png)
 
-   * 如果專案上只設定了一個佇列主題，則會自動顯示主題。
-   * 如果「主題群組」下方沒有任何「佇列主題」或「主題群組」，「主題群組」下拉式清單中就沒有可用的專案。
+   * If there is only one Queue Topic set on the project, it is displayed automatically.
+   * If the Topic Group does not have any Queue Topics or Topic Groups under it, nothing is available in the Topic Group drop-down.
 
-1. （視條件而定）如果專案建立者允許 **請求型別** 要顯示在新問題表單上的欄位，從以下選項中選擇您的問題型別：
+1. (Conditional) If the project creator allowed for the **Request Type** field to display on the New Issue form, select the type of your issue from the following options:
 
-   * 錯誤報告
-   * 變更順序
-   * 問題
-   * 請求\
-     根據您的Workfront管理員如何設定您的專案偏好設定，您的問題型別名稱可能不同。
+   * Bug Report
+   * Change Order
+   * Issue
+   * Request  
+     Depending on how your Workfront administrator has configured your Project Preferences, the names of the issue types might be different for you. 
 
    >[!TIP]
    >
-   >請求型別必須在佇列詳細資訊中啟用，並在建立佇列主題時啟用，以便在「新問題」表單中顯示為選項。 如需詳細資訊，請參閱下列文章：
-   >* [建立請求佇列](../../requests/create-and-manage-request-queues/create-request-queue.md)
-   >  * [建立佇列主題](../../requests/create-and-manage-request-queues/create-queue-topics.md)
+   >The Request Types must be enabled in the Queue Details and as well as when creating the Queue Topic to display as a selection in the New Issue form. For information, see the following articles: 
+   >* [Create a Request Queue](../../requests/create-and-manage-request-queues/create-request-queue.md)
+   >  * [Create Queue Topics](../../requests/create-and-manage-request-queues/create-queue-topics.md)
 
 
-1. 在中新增新問題的名稱 **問題名稱** 欄位。
-1. 繼續指定中可用的欄位 **新問題** 表單。 如需輸入新問題時可用欄位的詳細資訊，請參閱 [編輯問題](../../../manage-work/issues/manage-issues/edit-issues.md).
+1. Add a name for the new issue in the **Issue Name** field. 
+1. Continue specifying the fields available in the **New Issue** form. For more information about the fields available as you enter a new issue, see [Edit issues](../../../manage-work/issues/manage-issues/edit-issues.md).
 
    >[!IMPORTANT]
    >
-   >新問題表單中並非所有與問題相關的欄位都可用。 專案建立者在建立問題時啟用定義專案的佇列詳細資料區域時可用的欄位。 如需詳細資訊，請參閱 [建立請求佇列](../../requests/create-and-manage-request-queues/create-request-queue.md).
+   >Not all the issue-related fields are available in the New Issue form. The project creator enables the fields available when creating an issue when they define the Queue Details area of the project. For more information, see [Create a Requests Queue](../../requests/create-and-manage-request-queues/create-request-queue.md). 
 
 
-1. （視條件而定）如果佇列主題與自訂表單相關聯，則該自訂表單將顯示在 **新問題** 表單。\
-   或\
-   如果專案與問題自訂表單相關聯，透過佇列詳細資料區域，表單顯示在 **新問題** 表單，在預設Workfront欄位之後。
+1. (Conditional) If the Queue Topics are associated with a custom form, that custom form will display in the **New Issue** form.  
+   Or  
+   If the project is associated with an issue custom form through the Queue Details area, the form displays in the **New Issue** form, after the default Workfront fields.
 
-   如需詳細資訊，請參閱 [建立請求佇列](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
+   For information, see [Create a Request Queue](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
 
-1. 按一下 **儲存新問題。**
+1. Click **Save New Issue.**
 
-問題可指派給多個使用者、工作角色或團隊。 如需指派和管理要求的詳細資訊，請參閱 [管理工作和團隊請求](../../../people-teams-and-groups/work-with-team-requests/manage-work-and-team-requests.md).
+Issues can be assigned to multiple users, job roles or to a team. For more information about assigning and managing requests, see [Manage work and team requests](../../../people-teams-and-groups/work-with-team-requests/manage-work-and-team-requests.md).
 
-<!--When this is coming to Production, remove the "Production" section above and replace it with the following content: -->
-
-<div class="preview">
-
-### 在預覽環境中使用新問題按鈕建立任務或專案上的問題
+<!--When this is coming to Production, remove the "Production" section above and replace it with the following content:
+-->
 
 若要在任務或專案上建立問題：
 
@@ -202,7 +201,6 @@ ht-degree: 0%
 
    問題可指派給多個使用者、工作角色或團隊。 如需指派和管理要求的詳細資訊，請參閱 [管理工作和團隊請求](../../../people-teams-and-groups/work-with-team-requests/manage-work-and-team-requests.md).
 
-</div>
 
 ## 在任務或專案上建立內嵌問題
 

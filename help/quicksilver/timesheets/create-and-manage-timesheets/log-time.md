@@ -7,9 +7,9 @@ author: Alina
 feature: Timesheets
 role: User
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: ecbba9b1da674328df866ec30e48fe44dd02cb86
+source-git-commit: c2c09486756db021b6edaf380c5a54d531ffa723
 workflow-type: tm+mt
-source-wordcount: '3470'
+source-wordcount: '3349'
 ht-degree: 0%
 
 ---
@@ -18,10 +18,12 @@ ht-degree: 0%
 
 <!--remove all preview and production references from this article with 23.3 release-->
 
-<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它僅在預覽環境中可供所有客戶使用。 每月發行至生產環境後，生產環境中為啟用快速發行的客戶也提供相同的功能。 </span>\
-<span class="preview">如需快速發行版本的相關資訊，請參閱 [啟用或停用組織的快速發行](../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>  
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). 
 
-<span class="preview">如需目前發行排程的詳細資訊，請參閱 [2023年第四季版本總覽](../../product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md)</span>
+<span class="preview">For information about the current release schedule, see [Fourth Quarter 2023 release overview](../../product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md)</span> 
+-->
 
 您可以在Adobe Workfront中記錄工作專案的時間，以指出您花在工作專案上的小時數。 您也可以記錄與工作無關的時間，例如假期、病假或會議時間。 您的記錄時間會顯示在您的時程表中。
 
@@ -366,14 +368,6 @@ ht-degree: 0%
 
 #### 更新區段{#updates-section}
 
-<!--remove the note below - October 2023 -->
-
->[!NOTE]
->
-> 目前和新的「更新」區段在使用者介面的外觀和感覺上有細微的差異。 本節中的資訊是指其在新註解體驗中顯示的功能。
->
->如需新的更新區段的詳細資訊，請參閱 [新的評論體驗](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
-
 若要在專案、任務或問題的更新區段中記錄時間，您必須具備下列條件：
 
 * 工作或計畫授權。
@@ -398,7 +392,7 @@ ht-degree: 0%
    >   
    >   在「輸入天數」方塊的右上角，會顯示一天包含多少小時。
 
-   <span class="preview">![](assets/log-time-box-in-updates-stream.png)</span>
+   ![](assets/log-time-box-in-updates-stream.png)
 
 1. 指定下列資訊：
 

@@ -1,28 +1,28 @@
 ---
 content-type: tips-tricks-troubleshooting
 navigation-topic: tips-tricks-and-troubleshooting-workfront-basics
-title: 查找幫助的快速指南 [!DNL Adobe Workfront]
-description: 查找幫助的快速指南 [!DNL Adobe Workfront]
+title: 尋找說明的快速指南 [!DNL Adobe Workfront]
+description: 尋找說明的快速指南 [!DNL Adobe Workfront]
 feature: Get Started with Workfront
 exl-id: 3cdbf342-4809-44e3-ad9b-b5841950a1e4
-source-git-commit: ccc20edf13c2cdec1d81d5ab90dcd0d24c0e2ff3
+source-git-commit: c2c09486756db021b6edaf380c5a54d531ffa723
 workflow-type: tm+mt
-source-wordcount: '1017'
+source-wordcount: '890'
 ht-degree: 0%
 
 ---
 
-# 查找幫助的快速指南 [!DNL Adobe Workfront]
+# 尋找說明的快速指南 [!DNL Adobe Workfront]
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: There are several hard-coded links in this article.)</p>
 -->
 
-歡迎使用 [!DNL Adobe Workfront!] 我們知道你有問題，並不總是確定從哪開始尋求幫助。 本快速指南為您提供常見問題的答案，並突出顯示支援您成功的可用資源。
+歡迎使用 [!DNL Adobe Workfront!] 我們知道您有疑問，並不一定能確定從哪裡開始尋求協助。 本快速指南提供常見問題的解答，並著重說明支援您成功的可用資源。
 
 >[!TIP]
 >
->我們鼓勵您將此頁面加入書籤。 我們將在資源可用時使用添加的資源更新它。 >
+>我們鼓勵您將此頁面加入書籤。 我們將在新增資源可用時加以更新。 >
 ><!--
 ><MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">>
 >(NOTE: from Luke: I wonder who added this. This article does containa lot of good information. I wonder if we should update the TOC so that it appears in a more prominent section?)>
@@ -30,136 +30,139 @@ ht-degree: 0%
 >-->
 
 
+## 如何獲得問題解答並瞭解 [!DNL Workfront?]
 
-## 如何獲得回答的問題和瞭解 [!DNL Workfront?]
-
-瞭解有關 [!DNL Workfront]，您可以：
+若要深入瞭解 [!DNL Workfront]，您可以：
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td><strong>簽出 [!DNL Workfront] 上 [!DNL Adobe Experience League]</strong> </td> 
-   <td> <p>可以使用位於 <a href="https://experienceleague.adobe.com/docs/workfront.html">https://experienceleague.adobe.com/docs/workfront.html</a> 幫助您查找特定文章、討論或培訓。 把它想像成你的搜索引擎 [!DNL Workfront]。</p> <p>您還可以在此處查找資源，如</p> 
+   <td><strong>簽出 [!DNL Workfront] 於 [!DNL Adobe Experience League]</strong> </td> 
+   <td> <p>您可以使用頂端的搜尋列 <a href="https://experienceleague.adobe.com/docs/workfront.html">https://experienceleague.adobe.com/docs/workfront.html</a> 協助您尋找特定文章、討論或訓練。 將其視為您所有事情的搜尋引擎 [!DNL Workfront].</p> <p>您也可以在這裡找到資源，例如</p> 
     <ul> 
-     <li> <p><a href="https://experienceleague.adobe.com/docs/workfront/using/home.html">文檔</a> </p> </li> 
+     <li> <p><a href="https://experienceleague.adobe.com/docs/workfront/using/home.html">檔案</a> </p> </li> 
      <li> <p><a href="https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html">教學課程</a> </p> </li> 
-     <li> <p><a href="https://experienceleague.adobe.com/docs/workfront/using/product-announcements/product-releases/product-releases.html?lang=en">產品發佈</a> </p> </li> 
-     <li> <p><a href="https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-api/api-general-information/api-basics.html">API文檔</a> </p> </li> 
-     <li> <p>還有更多！</p> </li> 
+     <li> <p><a href="https://experienceleague.adobe.com/docs/workfront/using/product-announcements/product-releases/product-releases.html?lang=en">產品發行</a> </p> </li> 
+     <li> <p><a href="https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-api/api-general-information/api-basics.html">API檔案</a> </p> </li> 
+     <li> <p>及更多內容！</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td><strong>問專家</strong> </td> 
-   <td> <p>遵循5分鐘規則。 如果幾分鐘後找不到答案，請毫不猶豫地聯繫 [!DNL Workfront] 支援！ <strong>[!DNL Workfront]客戶支援團隊</strong> 致力於幫助您解決技術問題，以及訪問我們的社區和培訓平台。</p> <p>我們的現場支援工程師將在幾秒鐘內接聽您的電話。 請不要猶豫地打給我們！</p> 
+   <td><strong>詢問專家</strong> </td> 
+   <td> <p>遵循5分鐘規則。 如果您在幾分鐘後仍找不到答案，請隨時與 [!DNL Workfront] 支援！ <strong>[!DNL Workfront]的客戶支援團隊</strong> 致力於協助您處理技術問題，以及存取我們的社群和訓練平台。</p> <p>我們的即時支援工程師（在美國和EMEA）將在幾秒鐘內接聽您的電話。 請隨時與我們聯絡！</p> 
     <ul> 
-     <li> <p>844-306-4357（美國）</p> </li> 
-     <li>+44(0)-1256-274200(EMEA)</li> 
-    </ul> <p>有關詳細資訊，請參見 <a href="../../workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md" class="MCXref xref" xrefformat="{para}">聯繫客戶支援</a>。</p> </td> 
+     <li> <p>844-306-4357 （美國）</p> </li> 
+     <li>+44(0)-1256-274200 (EMEA)</li> 
+    </ul> <p>如需詳細資訊，請參閱 <a href="../../workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md" class="MCXref xref" xrefformat="{para}">聯絡客戶支援</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td><strong>[!UICONTROL與對等項連接]</strong> </td> 
-   <td>[!UICONTROL [!DNL Workfront] 提供一個專業網路，這些專業人員掌握現代工作，積極分享他們的見解和專業知識。 有關詳細資訊，請參見 <a href="../../workfront-basics/tips-tricks-and-troubleshooting/workfront-community.md" class="MCXref xref" xrefformat="{para}">的 [!DNL Adobe Workfront] 社區</a>。</td> 
+   <td><strong>[！UICONTROL與同儕節點連線]</strong> </td> 
+   <td>[！UICONTROL [!DNL Workfront] Community]提供精通現代工作的專業人士網路，這些專業人士會主動分享他們的見解和專業知識。 如需詳細資訊，請參閱 <a href="../../workfront-basics/tips-tricks-and-troubleshooting/workfront-community.md" class="MCXref xref" xrefformat="{para}">此 [!DNL Adobe Workfront] 社群</a>.</td> 
   </tr> 
   <tr> 
-   <td><strong>查看任何</strong>[!DNL Workfront]<strong>產品</strong></td> 
-   <td>訪問 <a href="https://experienceleague.adobe.com/docs/workfront/using/product-announcements/product-releases/product-releases.html" target="_blank">產品版本</a> 瞭解最新的資訊。</td> 
+   <td><strong>檢視任何新增功能中的</strong>[!DNL Workfront]<strong>產品</strong></td> 
+   <td>造訪 <a href="https://experienceleague.adobe.com/docs/workfront/using/product-announcements/product-releases/product-releases.html" target="_blank">產品發行</a> 以取得最新資訊。</td> 
   </tr> 
   <tr> 
-   <td><strong>隨時瞭解並深入瞭解 [!DNL Workfront] 培訓</strong> </td> 
-   <td><a href="https://experienceleague.adobe.com">Experience League</a> 提供了基於角色的學習路徑，可讓規劃員、工作人員、協作者和系統管理員使用中的關鍵功能啟動並運行 [!DNL Workfront]。<br>擴展 [!DNL Workfront] 知識</a> 通過瀏覽學習路徑、視頻教程和可下載的指南瞭解您感興趣的主題。</a><br></td> 
+   <td><strong>隨選學習並深入瞭解 [!DNL Workfront] 培訓</strong> </td> 
+   <td><a href="https://experienceleague.adobe.com">Experience League</a> 提供以角色為基礎的學習路徑，讓規劃人員、工作者、共同作業人員和系統管理員能夠啟動並執行中的關鍵功能 [!DNL Workfront].<br>展開您的 [!DNL Workfront] 知識</a> 探索有關您興趣主題的學習路徑、影片教學課程和可下載指南。<br></td> 
   </tr> 
  </tbody> 
 </table>
 
-## 其他像我這樣的客戶如何成功使用 [!DNL Workfront]? 如何與同行聯繫以學習最佳做法和避免哪些錯誤？
+## 其他像我這樣的客戶如何成功使用 [!DNL Workfront]？ 如何與同業交流，瞭解最佳實務和要避免的錯誤？
 
-以下資源可以幫助您確定如何使用 [!DNL Workfront]:
+下列資源可協助您決定如何使用 [!DNL Workfront]：
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td><a href="https://business.adobe.com/resources/main.html?Products=Workfront">[!DNL Workfront] 資源突出顯示客戶</a> </td> 
-   <td>這是您的網路研討會、電子書、白皮書、視頻和報告的起始來源。</td> 
+   <td><a href="https://business.adobe.com/resources/main.html?Products=Workfront">[!DNL Workfront] 重點說明客戶的資源</a> </td> 
+   <td>這是您網路研討會、電子書、白皮書、影片和報告的開始來源。</td> 
   </tr> 
   <tr> 
    <td><a href="https://business.adobe.com/customer-success-stories?Products=Adobe%2520Workfront">個案研究</a> </td> 
-   <td>閱讀越來越多的60多個案例研究，重點介紹客戶難題和 [!DNL Workfront] 解決方案和優勢。</td> 
+   <td>閱讀不斷增加的60多個個案研究，其中著重說明客戶面臨的挑戰及 [!DNL Workfront] 解決方案與優點。</td> 
   </tr> 
   <tr> 
-   <td><a href="https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront">[!DNL Workfront] 社區</a> </td> 
-   <td>的 [!DNL Workfront] 社區允許您與 [!DNL Workfront] 用戶和專家。 他們總是幫助你回答問題，或指向正確的方向。</td> 
+   <td><a href="https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront">[!DNL Workfront] 社群</a> </td> 
+   <td>此 [!DNL Workfront] 社群可讓您與交談 [!DNL Workfront] 全球的使用者和專家。 他們隨時都會協助您回答問題，或為您指明正確的方向。</td> 
   </tr> 
  </tbody> 
 </table>
 
-## 怎麼能 [!DNL Workfront] 管理員準備 [!DNL Workfront] 產品發佈？
+## 如何 [!DNL Workfront] 管理員準備 [!DNL Workfront] 產品發行？
 
-這3個步驟可幫助您 [!DNL Workfront] 管理員始終處於每個新版本之上：
+這3個步驟可協助您 [!DNL Workfront] 管理員會隨時關注每個新版本：
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td><strong>步驟1:瞭解即將發生的</strong> </td> 
-   <td> <p>這些資源使您能夠隨時瞭解發佈給Workfront的更新：</p> 
+   <td><strong>步驟1：瞭解即將推出的功能</strong> </td> 
+   <td> <p>這些資源可讓您持續瞭解Workfront即將發佈哪些更新：</p> 
     <ul> 
-     <li> <p><a href="https://experienceleague.adobe.com/docs/workfront/using/product-announcements/product-releases/product-releases.html?lang=en" target="_blank">產品公告</a>:正在查找Workfront產品路線圖的更新？ 在「產品發佈」頁中，您可以找到發行更新和路線圖演示文稿。</p> </li> 
-     <li> <p><strong>發佈中心</strong>:查看您的通知，並從我們的 [!DNL Workfront] 產品團隊中有關所有客戶的資訊。 訪問 <a href="https://experience.workfront.com/s/article/View-and-manage-in-app-notifications-323912892">[!UICONTROL "通知"]</a> 部分 [!DNL Workfront]中。</p> </li> 
+     <li> <p><a href="https://experienceleague.adobe.com/docs/workfront/using/product-announcements/product-releases/product-releases.html?lang=en" target="_blank">產品公告</a>：尋找Workfront產品藍圖的更新嗎？ 產品公告頁面提供了版本更新和藍圖簡報。</p> </li> 
+     <li> <p><strong>宣告中心</strong>：檢閱您的通知，並從我們的接收重要更新 [!DNL Workfront] 產品團隊關於所有客戶的資訊。 造訪 <a href="https://experience.workfront.com/s/article/View-and-manage-in-app-notifications-323912892">[！UICONTROL "Notifications"]</a> 中的區段 [!DNL Workfront]，在頂端導覽列中。</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td><strong>步驟2:準備更新</strong> </td> 
+   <td><strong>步驟2：準備更新</strong> </td> 
    <td> 
     <ul> 
-     <li> <p>Test您的 [!DNL Workfront] <a href="https://experience.workfront.com/s/article/The-Workfront-Preview-Sandbox-Environment-519456234">沙盒</a>。</p> </li> 
-     <li> <p>確定這些更新如何影響您的員工的工作方式。 我們的 <a href="https://experienceleague.adobe.com/docs/workfront/using/home.html?lang=en">知識庫</a> 和 <a href="https://experienceleague.adobe.com/events/?lang=en">事件</a> 能幫忙嗎？ 我們的產品經理經常引用通過功能解決的直接最終用戶或業務問題，幫助您縮短更改影響。</p> </li> 
+     <li> <p>在中測試最新更新 [!DNL Workfront] <a href="https://experience.workfront.com/s/article/The-Workfront-Preview-Sandbox-Environment-519456234">Sandbox</a>.</p> </li> 
+     <li> <p>決定這些更新如何影響您的人員工作方式。 我們的 <a href="https://experienceleague.adobe.com/docs/workfront/using/home.html?lang=en">知識庫</a> 和 <a href="https://experienceleague.adobe.com/events/?lang=en">事件</a> 有所幫助！ 我們的產品經理經常會提及功能所解決的直接使用者或業務問題，協助您快速取得變更影響。</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td><strong>第3步：傳達更改</strong> </td> 
+   <td><strong>步驟3：傳達變更</strong> </td> 
    <td> 
     <ul> 
-     <li> <p>向組織中的用戶發送有關哪些內容將發生更改、為什麼會使他們受益，以及他們可以與誰交談以解決問題的資訊。</p> </li> 
-     <li> <p>要擴展工作，請考慮從知識和更新的角度將超級用戶或主題專家確定到工具的各自領域。 這有助於促進參與和支援採納。</p> </li> 
+     <li> <p>傳送通訊給您組織中的使用者，告訴他們哪些專案會變更、為何變更會讓使用者受益，以及他們可以和誰交談以提出問題。</p> </li> 
+     <li> <p>若要展開工作，請考慮從知識和更新觀點將超級使用者或主題內容專家識別為工具的所有區域。 這有助於促進參與及支援採用。</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## 如果我有個主意 [!DNL Workfront?]
+## 如果我有以下想法該怎麼辦 [!DNL Workfront?]
 
-的 [!DNL Workfront] [!UICONTROL 創新實驗室] 授權支援聯繫人可以在其中提交、投票和與其他客戶討論產品想法。
+此 [!DNL Workfront] [!UICONTROL 創新實驗室] 是授權支援聯絡人可以提交、投票及與其他客戶討論產品創意的地方。
 
-要瞭解更多資訊，請參閱文章 [創新實驗室](../../workfront-basics/tips-tricks-and-troubleshooting/idea-exchange.md)。
+若要進一步瞭解，請參閱文章 [創新實驗室](../../workfront-basics/tips-tricks-and-troubleshooting/idea-exchange.md).
 
-## 如何將工具與 [!DNL Workfront?]
+## 如何將工具與整合及連線 [!DNL Workfront?]
 
-以下資源可幫助您瞭解有關 [!DNL Workfront] API和其他整合：
+下列資源可協助您進一步瞭解 [!DNL Workfront] API和其他整合：
 
-| [[!DNL Adobe Workfront] 整合](../../administration-and-setup/configure-integrations/workfront-integrations-1.md) | 您可以整合 [!DNL Workfront] 第三方應用程式。 整合可擴展 [!DNL Workfront] 根據組織的需要量身定製。 本知識庫文章介紹您的整合選項，並指明您的下一個方向。 |
+| [[!DNL Adobe Workfront] 整合](../../administration-and-setup/configure-integrations/workfront-integrations-1.md) | 您可以整合 [!DNL Workfront] 協力廠商應用程式。 整合可擴充的公用程式 [!DNL Workfront] 並根據貴組織的需求量身打造。 這篇知識庫文章涵蓋您的整合選項，並引導您進入下一個方向。 |
 |---|---|
-| [[!DNL Workfront] 內置整合](https://www.workfront.com/integrations) | Workfront的免費內置整合使您和您的團隊能夠順利過渡到Workfront平台，同時保持相同的工作流和流程。 |
-| [[!DNL Adobe Workfront Fusion]](../../workfront-fusion/workfront-fusion-2.md) | 連接 [!DNL Workfront] 到100多個應用程式，使您能夠輕鬆實現業務關鍵型流程的自動化，而無需代碼。 |
+| [[!DNL Workfront] 內建整合](https://www.workfront.com/integrations) | Workfront免費的內建整合功能可讓您和您的團隊順利轉換至Workfront平台，同時維持相同的工作流程與程式。 |
+| [[!DNL Adobe Workfront Fusion]](../../workfront-fusion/workfront-fusion-2.md) | 連線 [!DNL Workfront] 至100多種應用程式，讓您無需程式碼即可輕鬆自動化關鍵業務流程。 |
 
 {style="table-layout:auto"}
 
-## 什麼時候 [!DNL Workfront] 維護嗎？ 我該如何發現 [!DNL Workfront] 下來了嗎？
+## 何時 [!DNL Workfront] 維護嗎？ 如何找出是否 [!DNL Workfront] 停用？
 
-訂閱 [狀態.adobe.com](https://status.adobe.com/) 瞭解維護計畫和停機問題。
+訂閱 [status.adobe.com](https://status.adobe.com/) 及時瞭解維護排程和中斷問題。
 
-瞭解有關 [!DNL Workfront] 狀態站點，請參閱 [的 [!DNL Adobe Workfront] 狀態站點](../../workfront-basics/tips-tricks-and-troubleshooting/understand-the-status-site.md)。
+若要進一步瞭解 [!DNL Workfront] 狀態網站，請參閱 [此 [!DNL Adobe Workfront] 狀態網站](../../workfront-basics/tips-tricks-and-troubleshooting/understand-the-status-site.md).
 
-要瞭解每週維護更新中修復的內容，請參見 [維護更新](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html)。
+若要瞭解每週維護更新的修正內容，請參閱 [維護更新](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
-## 維護和調整的最佳做法是什麼 [!DNL Workfront?]
+<!-- the links in this section don't work anymore and I am not sure who would have the content?! Made a note to update this but will have to do some searching - October 26, 2023: 
 
-以下儀表板可幫助您 [!DNL Workfront] 管理員維護Workfront:
+## What are best practices for maintaining and tuning up [!DNL Workfront?]
 
-| [[!DNL Workfront] 使用儀表板](https://experienceleaguecommunities.adobe.com/t5/workfront-archived-groups/workfront-usage-dashboard/m-p/461045#M2624) | 瞭解您的用戶如何利用 [!DNL Workfront] 可以幫助您評估系統的整體使用情況，並深入瞭解任何可能需要注意的問題區域。 |
+The following dashboards can help you as a [!DNL Workfront] administrator maintain Workfront:
+
+| [[!DNL Workfront] Usage Dashboard](https://experienceleaguecommunities.adobe.com/t5/workfront-archived-groups/workfront-usage-dashboard/m-p/461045#M2624) | Understanding how your users are leveraging [!DNL Workfront] can help you gauge the overall adoption of your system as well as dive into any problem areas that may need some attention. |
 |---|---|
-| [[!DNL Workfront] 清理儀表板：停用未使用的對象](https://experienceleaguecommunities.adobe.com/t5/workfront-blogs/how-workfront-cleaned-up-its-own-unbridled-instance-of-workfront/ba-p/518299) | 保留 [!DNL Workfront] 從未使用的物體上清潔，是長期以來的最佳做法，但如果沒有合適的工具，這種做法似乎會令人望而生畏。 此儀表板專供系統管理員或流程所有者輕鬆查找 [!DNL Workfront] 可能需要清理的資料，以幫助改善用戶體驗。 我們建議每季度查看此儀表板，以幫助保留 [!DNL Workfront] 乾淨。 |
+| [[!DNL Workfront] Cleanup Dashboard: Deactivate Unused Objects](https://experienceleaguecommunities.adobe.com/t5/workfront-blogs/how-workfront-cleaned-up-its-own-unbridled-instance-of-workfront/ba-p/518299) | Keeping [!DNL Workfront] clean from unused objects is a long-standing best practice but one that can seem daunting without the right tools. This dashboard is designed for System Administrators or Process Owners to easily find [!DNL Workfront] data that may need to be cleaned up to help improve the user experience. We recommend reviewing this dashboard every quarter to help keep [!DNL Workfront] clean. |
+
+-->

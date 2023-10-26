@@ -7,9 +7,9 @@ author: Alina
 feature: Product Announcements
 role: User, Admin
 exl-id: 276b28f0-3955-4a0e-aa31-604b291f2f14
-source-git-commit: bc7039bc4b8b257fc55e71e73f72327fdb417837
+source-git-commit: c2c09486756db021b6edaf380c5a54d531ffa723
 workflow-type: tm+mt
-source-wordcount: '2143'
+source-wordcount: '2209'
 ht-degree: 2%
 
 ---
@@ -25,41 +25,70 @@ ht-degree: 2%
 <span class="preview">For information about the current release, see [Fourth Quarter 2023 release overview](../../../product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md)</span> -->
 
 
-本頁包含目前在Adobe Workfront中執行之新評論體驗的發行時間表相關資訊。
+>[!IMPORTANT]
+>
+>本文資訊是指在Beta版階段期間針對新評論體驗所發行的功能。
+>
+>新評論體驗的Beta版計畫從2023年4月開始，到2023年10月結束。
+>
+>從2023年第四季度發行（2023年10月）開始，測試版期間發行的功能已可供所有客戶使用，並且測試版計畫已關閉。
+> 
+><br>如需詳細資訊，請參閱下列文章： </br>
+>
+>* 如需有關新體驗測試版期間發行的功能的資訊，請參閱 [新的評論體驗](../../betas/new-commenting-experience-beta/unified-commenting-experience.md).
+>
+>* 如需新的評論體驗測試版計畫關閉後，針對評論體驗所發行功能的相關資訊，請參閱目前的產品發行概觀頁面。
 
-如需有關新評論體驗的一般資訊，包括目前可用或正在研究的功能清單，請參閱 [新的評論體驗](../new-commenting-experience-beta/unified-commenting-experience.md).
+<!--
+ This page contains information about the release timeline for the new commenting experience which is currently ongoing in Adobe Workfront. 
+
+For general information on the new commenting experience, including a list of features that are currently available or in research, see [New commenting experience](../new-commenting-experience-beta/unified-commenting-experience.md). 
 
 
 >[!IMPORTANT]
 >
->新的評論體驗已在23.2版Beta版中推出。 如需原始版本的相關資訊，請參閱 [23.2版本總覽](../../product-releases/23.2-release-activity/23-2-release-overview.md).
+>The new commenting experience launched in Beta with the 23.2 release. For information about the original release, see [23.2 Release overview](../../product-releases/23.2-release-activity/23-2-release-overview.md). 
 >
->發行至Workfront物件（支援測試版評論體驗）的功能，也發行至下列物件的「更新」區段，作為唯一評論體驗：
->* 目標
->* 卡片在面板區域。
+>Features that are released to the Workfront objects that support the beta commenting experience are also released to the Updates section of the following objects as the only commenting experience: 
+>* Goals
+>* Cards in the Boards area. 
 
-## 發行時間表
+-->
 
-我們計畫以反複的方式推出新的評論體驗。 這將會影響每個發行版本中的選取物件。 一開始可能會發行一小部分功能，而一段時間後，將會有更多功能新增至剩餘物件。
+## 新的評論體驗發行時間表
 
-如需哪些Workfront物件會顯示「更新」區段的資訊，請參閱   [更新區段概觀](../../../workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
+新的註解體驗為Workfront物件的「更新」區段帶來全新的設計。
 
-以下是新註解體驗發行至生產環境的計畫時間表，其中包含關鍵里程碑。 除了下列里程碑，我們將繼續透過較小的增強功能改善評論體驗。 如需所有已發行功能的詳細資訊，請參閱 [已發行功能](#released-features) 一節。
+如需哪些Workfront物件會顯示「更新」區段的資訊，請參閱 [更新區段概觀](../../../workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
+
+以下是新註解體驗發行至生產環境的計畫時間表，其中包含關鍵里程碑。 除了下列里程碑，我們將繼續透過較小的增強功能改善評論體驗。
+
+如需Beta版期間及發行時間所發行功能的詳細資訊，請參閱 [Beta版期間發行的功能](#features-released-during-the-beta-period) 一節。
+
+如需有關Beta版結束後針對新評論體驗所發行功能的資訊，請參閱目前的版本概觀頁面。
+
+以下是新評論體驗發行的計畫時間表：
 
 * 第23.2發行版本（2023年4月6日）：
-   * 為問題註解Experience Beta
-   * 目標的新評論體驗（作為唯一體驗）
+   * 啟動問題的評論體驗Beta版
+   * 發佈目標的新評論體驗（作為唯一體驗）
 * 第23.3發行版本（2023年7月20日）：
-   * 為專案、任務和檔案評論Experience Beta。
-   * 「面板」區域中卡的新註解體驗（作為唯一體驗）
+   * 啟動專案、任務和檔案的評論體驗測試版。
+   * 針對展示板區域中的卡片發行新的註解體驗（作為唯一體驗）
 * 在2023年第四季版本（限量版，僅供選擇快速版本的客戶使用）：
-   * 適用於範本、範本任務、方案、投資組合、團隊、使用者和時程表的新評論體驗（作為唯一體驗）
-   * 為專案、任務、問題和檔案評論Experience Beta版會成為預設選項。 「Beta」標籤會移除。
-* 2023年第四季(23.10)版本（2023年10月）
-   * 適用於範本、範本任務、方案、投資組合、團隊、使用者和時程表的新評論體驗（作為唯一體驗）
-   * 專案、任務、問題和檔案的新註解體驗會成為預設選項。 這將結束新評論體驗的Beta階段。
+   * 發行新的範本、範本任務、計畫、投資組合、團隊、使用者和時程表的評論體驗（作為唯一體驗）
+   * 更新專案、任務、問題和檔案的評論體驗Beta版，使其成為預設選項。 「Beta」標籤會移除。
+* 2023年第四季(23.10)版本（2023年10月26日）
+   * 發行新的範本、範本任務、計畫、投資組合、團隊、使用者和時程表的評論體驗（作為唯一的體驗）給所有客戶。
+   * 將專案、任務、問題和檔案的新註解體驗設為預設選項。
+
+  >[!IMPORTANT]
+  >
+  >    這將結束新評論體驗的Beta階段。
+
+   * 自此日期開始針對評論體驗發佈的所有功能，都是目前定期每月和季度發行的一部分。
 * 2023年底：
-   * 舊版註解體驗仍會是下列物件的次要選項：專案、任務、問題和檔案。
+   * 將舊版註釋體驗保留為下列物件的次要選項：專案、任務、問題和檔案。 新的註解體驗是所有使用者的預設選項。
 
   >[!NOTE]
   >
@@ -67,13 +96,15 @@ ht-degree: 2%
 
 * 2024年第一季（2024年1月）：
 
-   * 將移除切換回舊版註解資料流的選項，新註解資料流將成為所有物件的唯一體驗，版序除外。
+   * 移除切換回舊版註解資料流的選項，並使新註解資料流成為所有物件的唯一體驗，版序除外。
 
-## 已發行功能
+## Beta版期間發行的功能
 
-下節包含原始23.2發行後新增的功能清單，從最近發行的功能開始。
+本節中說明的功能現在可供所有客戶及所有環境使用。
 
-以下資訊是指每週發行活動，其基礎為包含在新的評論測試版體驗中的功能。 本文列出針對新評論體驗新增的功能及已解決的問題。
+在23.2版（2023年4月6日）和2023年第四季度（2023年10月26日）之間的測試階段，以下功能被新增到評論體驗中。
+
+以下資訊是指每週的發行活動，從最近的更新開始。
 
 ### 2023年10月16日起一週
 
@@ -109,7 +140,9 @@ ht-degree: 2%
 
 #### 其他物件的新註解體驗
 
-[!BADGE 快速發行的生產中]{type=Positive}
+<!--
+[!BADGE In production for Fast Release ]{type=Positive}
+-->
 
 在23.3版發佈至生產環境後不久，以下物件將可使用新的評論體驗：範本任務、範本、時程表、團隊、使用者、計畫、投資組合。
 
@@ -125,7 +158,9 @@ ht-degree: 2%
 
 #### 新評論資料流的新設計更新
 
-[!BADGE 快速發行的生產中]{type=Positive}
+<!--
+[!BADGE In production for Fast Release ]{type=Positive}
+-->
 
 我們重新設計了新的評論流，以提供更新的外觀。 部分改善包括：
 
@@ -151,7 +186,9 @@ ht-degree: 2%
 
 #### 新的評論體驗是專案、任務、問題和檔案的預設體驗
 
-[!BADGE 快速發行的生產中]{type=Positive}
+<!--
+[!BADGE In production for Fast Release ]{type=Positive}
+-->
 
 我們正在將新的註解體驗設定為下列物件的預設體驗：專案、任務、問題和檔案。  存取這些物件時，舊版註解體驗仍會作為替代選項。
 

@@ -4,13 +4,13 @@ product-area: system-administration;setup
 navigation-topic: system-tracked-update-feeds
 title: 設定系統更新
 description: Workfront會在物件的中產生自動系統更新 [!UICONTROL 更新] 區域來記錄使用者對物件執行的變更。 作為 [!DNL Workfront] 管理員，您可以設定哪些物件欄位和動作 [!DNL Workfront] 追蹤以記錄系統更新。
-author: Caroline
+author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 54fc3f77-57d1-47f1-8e16-73626a6733ec
-source-git-commit: 413e5ff710b4c77b7ea2d870b34bb0627a4fcd86
+source-git-commit: c2c09486756db021b6edaf380c5a54d531ffa723
 workflow-type: tm+mt
-source-wordcount: '884'
+source-wordcount: '888'
 ht-degree: 7%
 
 ---
@@ -22,7 +22,11 @@ ht-degree: 7%
 * 使用者在物件欄位中所做的變更
 * 使用者對物件執行的動作
 
-這些系統更新包括所做的變更、進行變更的使用者名稱，以及變更的時間和日期。
+這些系統更新包含下列型別的資訊：
+
+* 已進行的變更
+* 進行變更的使用者名稱
+* 變更的時間和日期
 
 如需有關系統更新的詳細資訊，請參閱 [系統追蹤更新](../system-tracked-update-feeds/system-tracked-update-feeds.md).
 

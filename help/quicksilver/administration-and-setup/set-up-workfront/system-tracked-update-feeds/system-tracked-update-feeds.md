@@ -9,14 +9,16 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: c88823a7-100b-40dd-b4f1-bead53ae5dc4
-source-git-commit: 207a8c8a642f3204a2d007789eb7ee8cd9379f1b
+source-git-commit: c2c09486756db021b6edaf380c5a54d531ffa723
 workflow-type: tm+mt
-source-wordcount: '360'
-ht-degree: 7%
+source-wordcount: '405'
+ht-degree: 6%
 
 ---
 
 # 系統追蹤更新
+
+<!--remove new experience and legacy notes when we remove legacy in the UI - Jan 24???-->
 
 [!DNL Adobe Workfront] 擷取特定物件上發生的活動，方法是在物件的 [!UICONTROL 更新] 區域。
 
@@ -32,6 +34,8 @@ ht-degree: 7%
 
   如需有關系統更新摘要及啟用方法的詳細資訊，請參閱 [設定系統更新](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
 
+  ![](assets/system-updates-example-unified-stream.png)
+
   <!--
   DRAFTED IN FLARE:
   Timestamps for system updates are based on your operating system's timezone.
@@ -40,7 +44,9 @@ ht-degree: 7%
 
 ## 有關系統追蹤更新的考量事項
 
-* 並非所有具有「更新」區域的物件都可使用系統追蹤更新。 此 [!UICONTROL 更新] 區域可用於下列物件：
+並非所有具有「更新」區域的物件都可使用系統追蹤更新。
+
+* 此 [!UICONTROL 更新] 區域可用於下列物件：
 
    * [!UICONTROL 專案]
    * [!UICONTROL 任務]
@@ -64,12 +70,13 @@ ht-degree: 7%
 
      如需卡片更新的詳細資訊，請參閱 [在展示板上使用連線的卡片](../../../agile/get-started-with-boards/connected-cards.md).
 
-* [!DNL Workfront] 不會追蹤下列物件的任何系統更新：
+* [!DNL Workfront] 不會追蹤下列物件的系統更新：
 
    * [!UICONTROL 團隊]
    * [!UICONTROL 範本]
    * [!UICONTROL 範本任務]
    * 臨機 [!UICONTROL 卡片]
+   * [!UICONTROL 疊代]
 
 
 <!--hiding this bit because this is not true, at this time (August 2023). Users with a Work or Review license can see system updates by default as well.
@@ -77,17 +84,17 @@ ht-degree: 7%
 Your [!DNL Workfront] license determines whether system updates display by default in the [!UICONTROL Updates] area of objects. [!DNL Workfront] users with a [!UICONTROL Plan] license have system updates displayed in the [!UICONTROL Updates] area by default. However, users can filter out system updates, as described in the [Enable or disable system updates](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md#enable) section in [Update work](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md). All other [!DNL Workfront] licenses filter system updates by default.
 -->
 
-* 使用者可以依預設檢視系統更新，也可以選擇不顯示系統更新。
+* 以下是新版和舊版註釋體驗之間的差異：
 
-  如需有關停用系統更新顯示的資訊，請參閱區段 [啟用或停用系統更新](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md#enable) 在文章中 [更新工作](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+   * 使用新的註解體驗時，使用者更新顯示在「註解」標籤中，系統更新顯示在「系統活動」標籤中。
 
-  >[!NOTE]
-  >
-  >我們目前正在重新設計評論體驗和 [!UICONTROL 更新] 區域於 [!DNL Workfront].
-  >
-  > 使用新的註解體驗時，您無法隱藏系統更新。
-  > 
-  >如需有關新註解體驗的詳細資訊，請參閱 [新的評論體驗](../../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
+     如需有關新註解體驗的詳細資訊，請參閱 [新的評論體驗](../../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
+
+   * 使用舊版評論體驗時，系統和使用者更新會顯示在一個連續的摘要中。
+
+   * 使用舊版評論體驗時，使用者可依預設檢視系統更新，也可以選擇不顯示更新。 使用新的註解體驗時，無法停用系統更新。
+
+     如需有關停用系統更新顯示的資訊，請參閱區段 [啟用或停用系統更新](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md#enable) 在文章中 [更新工作](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
 * Workfront會記錄下列物件的系統追蹤更新，但沒有選項可停用顯示它們：
 
