@@ -8,7 +8,7 @@ author: Courtney
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: 4559a60729fb0001d973c794dc40a8c7ec90cd91
+source-git-commit: 456310e460bae44183de390efc4be919fda3f36d
 workflow-type: tm+mt
 source-wordcount: '4886'
 ht-degree: 4%
@@ -16,8 +16,6 @@ ht-degree: 4%
 ---
 
 # 使用表單設計工具設計表單
-
-{{preview-and-fast-release}}
 
 您可以使用表單設計工具來設計自訂表單。 您可以將自訂表單附加至不同的Workfront物件，以擷取這些物件的相關資料。
 
@@ -498,8 +496,6 @@ ht-degree: 4%
 
    按一下 **儲存並關閉**.
 
-<div class="preview">
-
 ### 新增外部查詢欄位
 
 外部查詢欄位會呼叫外部API，並在下拉式欄位中傳回值作為選項。 使用自訂表單附加至之物件的使用者可以從下拉式清單中選取一個或多個選項。
@@ -590,8 +586,6 @@ ht-degree: 4%
 >* 重試之間的等待持續時間：500毫秒
 >* 預期的回應狀態： 2xx
 >* 使用者可以在Workfront清單和報表中看到選取的值（以及編輯值），但看不到包含來自外部API之選項的下拉式清單。
-
-</div>
 
 ### 新增影像、PDF和影片
 

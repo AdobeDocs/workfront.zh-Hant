@@ -7,7 +7,7 @@ description: 將表單附加到物件後，您可以編輯自訂表單上的資�
 author: Alina
 feature: Get Started with Workfront
 exl-id: c2b6afde-91a8-4e17-8e1a-3428b48e500a
-source-git-commit: b2bb5d1292291cb6632cc5d1b1fb32ce37e594a6
+source-git-commit: 456310e460bae44183de390efc4be919fda3f36d
 workflow-type: tm+mt
 source-wordcount: '1044'
 ht-degree: 0%
@@ -15,8 +15,6 @@ ht-degree: 0%
 ---
 
 # 編輯自訂表單欄位中的資訊
-
-{{preview-and-fast-release}}
 
 將表單附加到物件後，您可以編輯自訂表單上的資訊。 如需將自訂表單新增至物件的相關資訊，請參閱 [新增自訂表單至物件](../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md).
 
@@ -105,7 +103,7 @@ ht-degree: 0%
 
    當有人變更物件中由計算自訂欄位參考的其他物件資料時，變更不會自動反映在您的物件中。 如需有關手動更新物件中所有計算自訂欄位的資訊，請參閱 [重新計算物件的所有已計算自訂欄位](#recalculate-all-calculated-custom-fields-for-an-object) 本文章內容。
 
-   <span class="preview">修改頁面上的相依欄位時，會即時動態重新計算自訂表單上的計算欄位。 您可以在不儲存表單的情況下看到新的計算欄位值，但在您儲存變更之前，該值不會實際套用至表單和物件。 這適用於預設表單以及自訂表單的計算欄位。</span>
+   修改頁面上的相依欄位時，會即時動態重新計算自訂表單上的計算欄位。 您可以在不儲存表單的情況下看到新的計算欄位值，但在您儲存變更之前，該值不會實際套用至表單和物件。 這適用於預設表單以及自訂表單的計算欄位。
 
    當您與清單中的其他物件一起大量編輯物件時，也可以手動更新物件的所有計算自訂欄位。 如需指示，請參閱 [編輯物件時，重新計算清單中多個物件的所有計算自訂欄位](#recalculate-all-calculated-custom-fields-for-multiple-objects-in-a-list-when-editing-the-objects) 本文章內容。
 
