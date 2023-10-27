@@ -9,9 +9,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 25813946-e338-4dd9-b02c-d20fa18c539c
-source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
+source-git-commit: bc9d47dddacf82b352ed4dbfe8e57861859d752b
 workflow-type: tm+mt
-source-wordcount: '2515'
+source-wordcount: '2609'
 ht-degree: 7%
 
 ---
@@ -308,13 +308,21 @@ Kick-Start是特別格式化的Excel活頁簿，可填入您要匯入Workfront�
 1. 完成中的儲存格 **isNew** 欄：
 
    * 如果您要匯入的物件是新的，請鍵入 **TRUE** 匯入列中的資料。
-   * 如果物件已存在於Workfront中，請輸入 **假** 以忽略列。
+   * 如果物件已存在於Workfront中， **假** 必須位於欄中才能忽略該列。
+
+      * Workfront中已存在的記錄不會更新。
+      * 如果您下載含有資料的範本，則現有物件已標有 **假**.
+      * 如果您下載了空白範本，則不需要為現有物件新增列。
 
 1. 完成中的儲存格 **ID** 欄，方法如下：
 
-   * 如果您要匯入的物件是新的(而且您鍵入了 **TRUE** 在 **isNew** 欄)，為ID指定任何數字。 此數字在試算表中必須是唯一的。
+   * 如果您要匯入的物件是新的(而且您鍵入了 **TRUE** 在 **isNew** 欄)，為ID輸入任何數字。 此數字在試算表中必須是唯一的。
 
-   * 如果您要匯入的物件已存在於Workfront系統中(且您輸入了 **假** 在 **isNew** 欄)，ID必須是該物件在Workfront中存在的英數字元GUID。
+   * 如果物件已存在於Workfront中(且 **假** 位於 **isNew** 欄)，ID必須是該物件在Workfront中存在的英數字元GUID。
+
+      * Workfront中已存在的記錄不會更新。
+      * 如果您下載含有資料的範本，則現有物件已包含GUID作為ID。
+      * 您可以透過變更來根據現有物件匯入新物件 **假** 至 **TRUE** 在 **isNew** 欄，變更ID，並在匯入前進行必要的資料調整。
 
      ![群組的範例ID](assets/kick-start-group-example.png)
 
