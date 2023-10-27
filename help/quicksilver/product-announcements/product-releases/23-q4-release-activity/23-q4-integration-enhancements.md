@@ -3,16 +3,16 @@ title: 2023年第四季整合增強功能
 description: 2023年第四季整合增強功能
 author: Lisa
 feature: Product Announcements
-source-git-commit: 8488cb46b3dd9b377c59121597db5b6fe784fdab
+source-git-commit: ee84471418590401fe143741cadd1d76a8917149
 workflow-type: tm+mt
-source-wordcount: '275'
+source-wordcount: '274'
 ht-degree: 0%
 
 ---
 
 # 2023年第四季整合增強功能
 
-本頁面說明2023年第四季版本與「預覽」環境搭配使用的所有整合增強功能。 這些增強功能將在23.10版本的生產環境中提供。
+本頁面說明2023年第四季版本與「預覽」環境搭配使用的所有整合增強功能。 這些增強功能已在23.10版本的生產環境中提供。
 
 如需2023年第四季版本週期目前可用的所有變更清單，請參閱 [2023年第四季版本總覽](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md).
 

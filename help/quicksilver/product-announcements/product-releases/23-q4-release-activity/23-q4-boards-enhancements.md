@@ -3,16 +3,16 @@ title: 2023年第四季主機板增強功能
 description: 2023年第四季主機板增強功能
 author: Lisa
 feature: Product Announcements
-source-git-commit: 8488cb46b3dd9b377c59121597db5b6fe784fdab
+source-git-commit: ee84471418590401fe143741cadd1d76a8917149
 workflow-type: tm+mt
-source-wordcount: '522'
+source-wordcount: '521'
 ht-degree: 0%
 
 ---
 
 # 2023年第四季主機板增強功能
 
-此頁面說明2023年第四季版本對於「預覽」環境所做的所有展示板增強功能。 這些增強功能將在23.10版本的生產環境中提供。
+此頁面說明2023年第四季版本對於「預覽」環境所做的所有展示板增強功能。 這些增強功能已在23.10版本的生產環境中提供。
 
 如需2023年第四季版本週期目前可用的所有變更清單，請參閱 [2023年第四季版本總覽](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md).
 
