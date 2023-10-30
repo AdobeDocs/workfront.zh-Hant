@@ -1,25 +1,25 @@
 ---
 product-area: projects
 navigation-topic: manage-tasks
-title: 將任務轉換為項目
-description: 如果項目中的任務需要花費比最初計畫更多的精力才能完成，則可以將其轉換為項目。
+title: 將任務轉換為專案
+description: 當專案中的任務需要比您原本計畫更大的工作量完成時，您可以將其轉換為專案。
 author: Alina
 feature: Work Management
 exl-id: a45f0af4-1768-4f20-80d4-912e6fe0fc03
-source-git-commit: dd7f61fcd92a43303be356dd3209ec6da6a063dd
+source-git-commit: b781687b175167784367a2fdec158d97fb3fd6a4
 workflow-type: tm+mt
-source-wordcount: '602'
-ht-degree: 0%
+source-wordcount: '1142'
+ht-degree: 2%
 
 ---
 
-# 將任務轉換為項目
+# 將任務轉換為專案
 
-如果項目中的任務需要花費比最初計畫更多的精力才能完成，則可以將其轉換為項目。
+當專案中的任務需要比您原本計畫更大的工作量完成時，您可以將其轉換為專案。
 
 ## 存取需求
 
-您必須具備下列存取權，才能執行本文中的步驟：
+您必須具有下列存取權才能執行本文中的步驟：
 
 <table style="table-layout:auto"> 
  <col> 
@@ -34,59 +34,162 @@ ht-degree: 0%
    <td> <p>計劃 </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">訪問級別配置*</td> 
-   <td> <p>編輯對任務和項目的訪問</p> <p>使用範本轉換為專案時，檢視或更高存取範本的權限</p> <p>注意：如果您仍無權存取，請洽詢您的Workfront管理員，他們是否在您的存取層級設定其他限制。 如需Workfront管理員如何修改您的存取層級的詳細資訊，請參閱 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>.</p> </td> 
+   <td role="rowheader">存取層級設定*</td> 
+   <td> <p>編輯任務與專案的存取權</p> <p>使用範本轉換為專案時，檢視或更高的範本存取許可權</p> <p>注意：如果您還是沒有存取權，請詢問您的Workfront管理員，他們是否在您的存取層級中設定其他限制。 如需有關Workfront管理員如何修改您的存取層級的資訊，請參閱 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">物件權限</td> 
-   <td> <p>管理任務的權限</p> <p>使用範本轉換為專案時，檢視範本的權限</p> <p>建立專案後，您擁有專案的「管理」權限</p> <p>有關請求其他訪問的資訊，請參閱 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">請求對對象的訪問 </a>.</p> </td> 
+   <td role="rowheader">物件許可權</td> 
+   <td> <p>管理任務的許可權</p> <p>如果使用範本轉換為專案，檢視範本的許可權</p> <p>建立專案後，您即擁有專案的管理許可權</p> <p>如需請求其他存取許可權的詳細資訊，請參閱 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">要求物件的存取權 </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;若要了解您擁有的計畫、授權類型或存取權，請聯絡您的Workfront管理員。
+&#42;若要瞭解您擁有的計畫、授權型別或存取權，請聯絡您的Workfront管理員。
 
 ## 將任務轉換為專案的考量事項
 
-* 將刪除原始任務。
-* 任務批准被刪除。
-* 所有子任務、問題和注釋都統計到新項目。
+* 您可以將任務轉換為空白專案或使用範本轉換為專案。
+* 已刪除原始任務。
+* 所有子任務、問題和附註都會彙總至新專案。
 * 檔案、檔案版本和校樣會移至新專案。
-* 會保留所有子任務和問題的狀態和完成百分比。
-* 任務的共用使用者在專案上成為共用使用者。
-* 項目開始日期設定為任務的開始日期。
-* 如果任務狀態為「新」，則項目狀態將設定為「計畫」。
-* 如果任務狀態為「正在進行」，則項目狀態將設定為「當前」。
-* 如果任務狀態為「完成」，則項目狀態將設定為「完成」。
+* 所有子任務和問題的狀態和完成百分比會保留。
+* 任務的共用使用者會成為專案中的共用使用者。
+* 專案開始日期設定為任務的開始日期。
+* 下表列出專案資訊，以及專案資訊是從範本還是從作業轉移：
 
-## 將任務轉換為項目
+  <table style="table-layout:auto"> 
+  <col> 
+  <col> 
+  <tbody> 
+    <tr> 
+    <td>說明</td> 
+    <td> <p>任務的「描述」轉移到新專案。 </p> <p> 如果作業沒有描述，則範本中的「描述」會轉移到專案。 </p> <p>如果任務和範本的「說明」欄位都為空，則專案上的欄位為空。 </p> </td> 
+    </tr> 
+    <tr> 
+    <td>狀態</td> 
+    <td> 為範本上的群組選取的預設狀態。 如果範本未與群組相關聯，則專案狀態會設為Workfront管理員在設定的專案偏好設定區域中設定的預設狀態。 如需詳細資訊，請參閱 <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md">設定全系統專案偏好設定</a>
 
-1. 轉至要轉換為項目的任務。
+  在更新專案狀態時存在下列情況：
+  <ul>
+    <li> 如果任務狀態為「新增」，則專案狀態會設為「計畫」。</li>
+    <li> 如果任務狀態為「進行中」，則專案狀態會設為「目前」。</li>
+    <li> 如果任務狀態為「完成」，則專案狀態會設為「完成」。</li></ul>
+
+  </td> 
+    </tr> 
+    <tr> 
+    <td>優先順序</td> 
+    <td>從作業移轉至專案，或者從範本移轉（如果您在轉換中使用範本）。 </td> 
+    </tr> 
+    <tr> 
+    <td>URL</td> 
+    <td> <p>任務的URL會轉移至新專案。 </p> <p> 如果任務未指定URL，則範本中的URL會傳輸到專案。 </p> <p>如果問題和範本的URL欄位都為空，則專案上的欄位為空白。 </p> </td> 
+    </tr> 
+    <tr> 
+    <td>專案狀態型別</td> 
+    <td>從範本傳輸。</td> 
+    </tr> 
+    <tr> 
+    <td>專案狀況</td> 
+    <td>符合由Workfront管理員在設定區域中決定的系統層級預設偏好設定。 如需詳細資訊，請參閱 <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/set-custom-condition-default-projects.md">將自訂條件設定為專案的預設值</a>
+    </td> 
+    </tr> 
+    <tr> 
+    <td>排程開始時間</td> 
+    <td>從範本傳輸。</td> 
+    </tr> 
+    <tr> 
+    <td>專案日期</td> 
+    <td> 
+      <ul> 
+      <li> <p><b>計劃開始日期</b>：應根據範本排程的時區，預先選取根據範本排程工作時間最接近的工作時間。 如果「排程開始日期」欄位設為「完成日期」，則會停用此欄位。 </p> </li> 
+      <li> <p><b>計畫完成日期</b>：應根據範本排程的時區，預先選取根據範本排程工作時間最接近的工作時間。 如果[排程開始日期]欄位設為[開始日期]，則會停用此欄位。 </p> </li> 
+      </ul> </td> 
+    </tr> 
+    <tr> 
+    <td>專案組合</td> 
+    <td>從範本傳輸。 否則，此欄位為空白。</td> 
+    </tr> 
+    <tr> 
+    <td>方案</td> 
+    <td>從範本傳輸。 否則，此欄位為空白。</td> 
+    </tr> 
+    <tr> 
+    <td>群組</td> 
+    <td><p> 存在下列情況：</p>
+      <ul><li>如果在轉換期間指定了群組，則該群組會成為專案的群組</li>
+      <li>如果您使用範本轉換為專案，且範本上有一個群組，且在轉換過程中您未指定群組，則範本群組會變成新專案的群組</li>
+      <li> 如果範本上沒有群組，且您在轉換期間未指定群組，則原始問題專案的群組將變成新專案的群組</li> </ul>
+        </td> 
+    </tr> 
+    <tr> 
+    <td>公司</td>    
+    <td>  從範本傳輸。 否則，此欄位為空白。</td>
+
+  </tr> 
+    <tr> 
+    <td>專案所有者</td> 
+    <td>從範本的「範本所有者」欄位轉移。 否則，會設定為執行轉換的登入使用者。 </td> 
+    </tr> 
+    <tr> 
+    <td>專案贊助者</td> 
+    <td>從範本上的範本贊助者欄位轉移。 否則，此欄位為空白。</td> 
+    </tr> 
+    <tr> 
+    <td>資源管理員</td> 
+    <td>從範本傳輸。 否則，此欄位為空白。</td> 
+    </tr> 
+    <tr> 
+    <td>任務設定</td> 
+    <td>從範本轉移。</td> 
+    </tr> 
+    <tr> 
+    <td>問題設定</td> 
+    <td>從範本轉移。 </td> 
+    </tr> 
+    <tr> 
+    <td>存取</td> 
+    <td> <p>從範本的「存取」區段轉移。 </p> </td> 
+    </tr> 
+    <tr> 
+    <td>核准</td> 
+    <td>從範本轉移。 與任務相關的核准會在轉換期間移除。 </td> 
+    </tr> 
+  </tbody> 
+  </table>
+
+
+## 將任務轉換為專案
+
+1. 移至您要轉換為專案的工作。
 1. 按一下 **更多** 圖示 ![](assets/more-icon.png)，然後 **轉換為專案**.
 1. 選擇下列任一選項：
 
    * **新專案**
-   * 中的範本 **從模板中選擇** 節
+   * 中的範本 **從範本中選取** 區段
 
-      ![](assets/convert-task-to-project-template-option-dropdown-nwe-350x209.png)
+     ![](assets/convert-task-to-project-template-option-dropdown-nwe-350x209.png)
 
-1. 按一下 **繼續** 在顯示的通知上。
-1. 在 **轉換為專案** 框中，指定以下內容：
+1. 按一下 **繼續** 在出現的通知上。
+1. 在 **轉換為專案** 方塊中，指定下列專案：
 
-   * **名稱**:為專案命名。 預設名稱是任務的名稱。
-   * （可選） **說明**:說明此專案的用途。
-   * （可選和條件性）如果您已選取從範本建立專案，請更新 **轉換為專案** 對話框。
+   * **名稱**：為專案命名。 預設名稱是任務的名稱。
+   * （可選） **說明**：說明此專案的用途。
+   * （選擇性和條件性）如果您已選取從範本建立專案，請更新 **轉換為專案** 對話方塊。
 
-      如需編輯專案欄位的詳細資訊，請參閱 [編輯專案](../../../manage-work/projects/manage-projects/edit-projects.md).
+     如需有關編輯專案欄位的詳細資訊，請參閱 [編輯專案](../../../manage-work/projects/manage-projects/edit-projects.md).
 
-      >[!TIP]
-      >
-      >要更新「轉換為項目」框中「財務」部分中的欄位，您必須在訪問級別具有「編輯」訪問權。 如果您在訪問級別中擁有查看財務資料的訪問權限，則模板中的所有財務資訊都會傳輸到新項目，並且在轉換問題時無法編輯它。 如需詳細資訊，請參閱 [授予金融資料的存取權](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md) 和 [共用範本](../../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md).
+     >[!TIP]
+     >
+     >若要更新「轉換為專案」方塊中「財務」區段中的欄位，您必須擁有存取層級中「財務」資料的「編輯」存取權。 如果您在存取層級中擁有財務資料的檢視存取權，則範本中的所有財務資訊都會傳輸至新專案，而在您轉換問題時，無法編輯它。 如需詳細資訊，請參閱 [授予財務資料的存取權](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md) 和 [共用範本](../../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md).
 
-   * （可選）新增 **自訂Forms** 新專案。
+   * （可選）新增 **自訂Forms** 至新專案。
 
-      >[!TIP]
-      如果為任務和項目配置了附加到任務的多對象自定義表單，則轉換時將保留表單中保存的所有資訊。
-      如果使用模板進行轉換，並且附加到模板的自定義表單包含一個自定義欄位，該自定義欄位也位於附加到任務的自定義表單中，則任務中的欄位值將用於新項目。 不過，如果任務上的自訂欄位為空白，則會使用範本的值。
+     >[!TIP]
+     >
+     如果將附加到任務的多物件自訂表單設定為與任務和專案一起使用，則當您進行轉換時，會保留表單中儲存的所有資訊。
+     >
+     >
+     如果您使用範本進行轉換，並且附加到範本的自訂表單包含附加到任務的自訂表單中也找到的自訂欄位，則任務的欄位值將用於新專案。 但是，如果任務上的自訂欄位為空白，則會使用範本的值。
 
 1. 按一下 **儲存變更**.
