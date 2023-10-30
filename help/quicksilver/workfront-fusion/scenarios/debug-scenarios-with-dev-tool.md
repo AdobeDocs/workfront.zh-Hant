@@ -2,25 +2,21 @@
 product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: scenarios
-title: 使用Adobe Workfront Fusion DevTool除錯案例
-description: Adobe Workfront Fusion DevTool可讓您瞭解情境並疑難排解。 DevTool將額外的面板新增至Chrome開發人員工具。 使用此偵錯工具面板，您可以檢查案例的所有手動執行、檢閱所有已執行的操作，並檢視每個已執行API呼叫的詳細資訊。 您可以檢視導致錯誤的模組、操作或單一回應，並運用該知識來調整您的案例。
+title: 使用Adobe Workfront Fusion Devtool除錯案例
+description: Adobe Workfront Fusion Devtool可讓您瞭解情境並疑難排解。 Devtool將額外的面板新增至Chrome開發人員工具。 使用此偵錯工具面板，您可以檢查案例的所有手動執行、檢閱所有已執行的操作，並檢視每個已執行API呼叫的詳細資訊。 您可以檢視導致錯誤的模組、操作或單一回應，並運用該知識來調整您的案例。
 author: Becky
 feature: Workfront Fusion
 exl-id: f7557214-3615-4797-b4cb-4af70e4797ac
-source-git-commit: 19de44559be7b5bd7584012f1d6f7e12523f12be
+source-git-commit: 28ca9bab8d6a5aed395dc3297eb62912ebb506c7
 workflow-type: tm+mt
-source-wordcount: '1687'
+source-wordcount: '1816'
 ht-degree: 0%
 
 ---
 
-# 使用對案例進行偵錯 [!DNL Adobe Workfront Fusion] DevTool
+# 使用對案例進行偵錯 [!DNL Adobe Workfront Fusion] Devtool
 
-此 [!DNL Adobe Workfront Fusion] DevTool可讓您瞭解情境並疑難排解。 DevTool會將額外的面板新增至 [!DNL Chrome Developer Tools]. 使用此偵錯工具面板，您可以檢查案例的所有手動執行、檢閱所有已執行的操作，並檢視每個已執行API呼叫的詳細資訊。 您可以檢視導致錯誤的模組、操作或單一回應，並運用該知識來調整您的案例。
-
->[!NOTE]
->
->透過AdobeUnified Shell存取Fusion的組織無法使用Workfront Fusion DevTool。
+此 [!DNL Adobe Workfront Fusion] Devtool可讓您瞭解案例並疑難排解。 Devtool會將額外的面板新增至 [!DNL Chrome Developer Tools]. 使用此偵錯工具面板，您可以檢查案例的所有手動執行、檢閱所有已執行的操作，並檢視每個已執行API呼叫的詳細資訊。 您可以檢視導致錯誤的模組、操作或單一回應，並運用該知識來調整您的案例。
 
 ## 存取需求
 
@@ -61,34 +57,49 @@ ht-degree: 0%
 
 有關的資訊 [!DNL Adobe Workfront Fusion] 授權，請參閱 [[!DNL Adobe Workfront Fusion] 授權](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
-## 安裝 [!DNL Chrome] DevTool擴充功能
+## 存取Workfront Fusion Devtool
 
-<!--
-To use the [!DNL Workfront Fusion] DevTool, you first need to install it.
+存取Devtool會因您是否在下列專案中使用Fusion而有所不同： [!DNL Adobe Unified Experience].
 
-1. Click [this link](assets/workfront-fusion-devtool-2023-feb.zip) to download the extension.
-1. When the files have downloaded, extract them to a folder of your choice.
-1. Open a tab in [!DNL Chrome]
-1. In the search bar of the tab, enter `chrome://extensions`.
-1. Click the **[!UICONTROL Developer mode]** toggle at the upper-right of the screen to enable Developer mode. If the toggle to the right, developer mode is enabled.
-1. Click **[!UICONTROL Load unpacked]**.
-1. Select the folder containing the DevTool (where you extracted the files in step 2).
+* [存取中的Devtool [!DNL Adobe Unified Experience]](#access-the-devtool-in-the-adobe-unified-experience)
+* [存取Classic中的Devtool [!DNL Fusion] 體驗](#access-the-devtool-in-the-classic-fusion-experience)
 
-   Once unpacked, the DevTool appears among your other Chrome extensions.
-   -->
+### 存取中的Devtool [!DNL Adobe Unified Experience]
 
-您可以新增 [!DNL Workfront Fusion] DevTool至 [!DNL Chrome] 透過 [!UICONTROL [!DNL Chrome] 網站商店].
+如果您在AdobeUnified Shell中使用Fusion，則可以從案例編輯器存取開發工具。
 
-1. 按一下 [此連結](https://chrome.google.com/webstore/detail/workfront-fusion-devtool/hkimbmkkmmejdnhbhoaefggkpkndfjnn/related) 前往 [!DNL Workfront Fusion] 上的DevTool [!UICONTROL [!DNL Chrome] 網站商店].
+1. 前往您要偵錯之情境的「情境編輯器」。
+
+   若要尋找「情境編輯器」，請參閱 [案例編輯器](/help/quicksilver/workfront-fusion/scenarios/scenario-editor.md).
+
+1. 以滑鼠右鍵按一下頁面的空白區域（而不是模組）。
+1. 選取 **開啟Devtool**.
+
+>[!NOTE]
+>
+>目前，僅 **Live Stream** Unified Shell中的使用者可以使用Devtool的區域。
+
+### 存取Classic中的Devtool [!DNL Fusion] 體驗
+
+若要在Classic中使用Devtool [!DNL Fusion] 體驗，您必須安裝 [!DNL Chrome] 副檔名。 接著，您就可以從以下位置使用此擴充功能： [!DNL Chrome] 開發人員工具。
+
+* [安裝安裝 [!DNL Chrome] Devtool擴充功能](#install-the-chrome-devtool-extension)
+* [找到 [!DNL Workfront Fusion] Devtool](#locate-the-workfront-fusion-devtool)
+
+#### 安裝 [!DNL Chrome] Devtool擴充功能
+
+您可以新增 [!DNL Workfront Fusion] 開發工具至 [!DNL Chrome] 透過 [!UICONTROL [!DNL Chrome] 網站商店].
+
+1. 按一下 [此連結](https://chrome.google.com/webstore/detail/workfront-fusion-Devtool/hkimbmkkmmejdnhbhoaefggkpkndfjnn/related) 前往 [!DNL Workfront Fusion] 上的Devtool [!UICONTROL [!DNL Chrome] 網站商店].
 1. 按一下 **[!UICONTROL 新增至[!DNL Chrome]]**.
 1. 在開啟的視窗中，檢查許可權。 如果您同意許可權，請按一下 **[!UICONTROL 新增擴充功能]**.
 
-此 [!DNL Workfront Fusion] DevTool擴充功能已新增至 [!DNL Chrome] 擴充功能。
+此 [!DNL Workfront Fusion] Devtool擴充功能已新增至 [!DNL Chrome] 擴充功能。
 
 
-## 找到 [!DNL Workfront Fusion] DevTool
+#### 找到 [!DNL Workfront Fusion] Devtool
 
-若要使用 [!DNL Workfront Fusion] DevTool，您必須新增 [!DNL Workfront Fusion] DevTool擴充功能延伸至 [!DNL Chrome] 瀏覽器，如所述 [安裝Chrome DevTool擴充功能](#install-the-chrome-devtool-extension).
+若要使用 [!DNL Workfront Fusion] Devtool，您必須新增 [!DNL Workfront Fusion] 將Devtool擴充功能新增至 [!DNL Chrome] 瀏覽器，如所述 [安裝Chrome Devtool擴充功能](#install-the-chrome-Devtool-extension).
 
 1. 開啟您的 [!DNL Workfront Fusion] 情境。
 1. 開啟 [!DNL Chrome Developer Tools]:
@@ -114,9 +125,9 @@ To use the [!DNL Workfront Fusion] DevTool, you first need to install it.
 
 1. 按一下 **[!DNL Workfront Fusion]** 定位於 [!DNL Chrome Dev Tools].
 
-## 使用 [!DNL Workfront Fusion] DevTool
+## 使用 [!DNL Workfront Fusion] Devtool
 
-Workfront Fusion DevTool分為3個主要區段。 您可以在DevTool視窗的左側面板中找到這些專案。
+Workfront Fusion Devtool分為3個主要區段。 您可以在Devtool視窗的左側面板中找到這些專案。
 
 * [Live Stream](#live-stream)
 * [案例偵錯工具](#scenario-debugger)
@@ -147,26 +158,26 @@ Workfront Fusion DevTool分為3個主要區段。 您可以在DevTool視窗的�
         <li> <p>要求內文</p> </li> 
         <li> <p>回應標頭</p> </li> 
         <li> <p>回應內文</p> </li> 
-       </ul> <p>若要檢視此資訊，請按一下右側面板中適當的索引標籤 [!DNL Workfront Fusion] DevTool。</p> </td> 
+       </ul> <p>若要檢視此資訊，請按一下右側面板中適當的索引標籤 [!DNL Workfront Fusion] Devtool。</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"> <p>搜尋請求和回應</p> </td> 
-      <td> <p>在左側面板的搜尋欄位中輸入搜尋字詞 [!DNL Workfront Fusion] DevTool ，只顯示包含搜尋字詞的請求。</p> </td> 
+      <td> <p>在左側面板的搜尋欄位中輸入搜尋字詞 [!DNL Workfront Fusion] Devtool ，只顯示包含搜尋字詞的請求。</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"> <p>移除請求清單 </p> </td> 
-      <td> <p>按一下DevTool左面板右上角的垃圾桶圖示，以清除記錄在 [!DNL Workfront Fusion] DevTool。 </p> </td> 
+      <td> <p>按一下Devtool左面板右上角的垃圾桶圖示，以清除所記錄的請求清單。 [!DNL Workfront Fusion] Devtool。 </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"> <p>啟用主控台記錄</p> </td> 
-      <td> <p>按一下電腦圖示 <img src="assets/console-computer-icon.png"> 在DevTool左面板的右上角。</p> <p>當電腦圖示為綠色時，會啟用登入主控台。</p> </td> 
+      <td> <p>按一下電腦圖示 <img src="assets/console-computer-icon.png"> 位於Devtool左面板的右上角。</p> <p>當電腦圖示為綠色時，會啟用登入主控台。</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"> <p>以原始JSON格式或cURL擷取請求</p> </td> 
       <td> 
        <ul> 
-        <li> <p><strong>原始JSON</strong> </p> <p>按一下 <strong>[！UICONTROL Copy RAW]</strong> 在DevTool右窗格的右上角。</p> </li> 
-        <li> <p><strong>cURL</strong> </p> <p>按一下 <strong>[！UICONTROL副本cURL]</strong> 在DevTool右窗格的右上角。</p> </li> 
+        <li> <p><strong>原始JSON</strong> </p> <p>按一下 <strong>[！UICONTROL Copy RAW]</strong> 在Devtool右窗格的右上角。</p> </li> 
+        <li> <p><strong>cURL</strong> </p> <p>按一下 <strong>[！UICONTROL副本cURL]</strong> 在Devtool右窗格的右上角。</p> </li> 
        </ul> </td> 
      </tr> 
     </tbody> 
@@ -177,13 +188,13 @@ Workfront Fusion DevTool分為3個主要區段。 您可以在DevTool視窗的�
 情境偵錯工具適用於較複雜的情境。 它會顯示案例執行的歷史記錄，並可讓您依據模組名稱或ID來搜尋模組。
 
 1. 按一下 **[!UICONTROL 案例偵錯工具]** 圖示 ![](assets/scenario-debugger-icon.png) 以開啟案例偵錯工具。
-1. （選擇性）在的左窗格中的搜尋欄位中輸入搜尋字詞（名稱或模組ID） [!DNL Workfront Fusion] 中的DevTool [!UICONTROL 案例偵錯工具] 區段。
+1. （選擇性）在的左窗格中的搜尋欄位中輸入搜尋字詞（名稱或模組ID） [!DNL Workfront Fusion] 中的Devtool [!UICONTROL 案例偵錯工具] 區段。
 1. 連按兩下模組名稱，以在案例編輯器中開啟其設定。
 1. 按一下所需的作業以檢視請求詳細資料。
 
 ### 工具
 
-此 [!DNL Workfront Fusion] DevTool提供的工具可讓您更輕鬆設定情境。
+此 [!DNL Workfront Fusion] Devtool提供的工具可讓您更輕鬆地設定情境。
 
 1. 按一下 **[!UICONTROL 工具]** 圖示 ![](assets/console-tools-icon.png) 以開啟「工具」。
 1. 選取您要使用的工具
