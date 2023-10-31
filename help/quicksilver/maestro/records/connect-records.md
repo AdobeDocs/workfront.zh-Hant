@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
-source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
+source-git-commit: c39782606358fbb9983b23421588e392dd12ae8a
 workflow-type: tm+mt
-source-wordcount: '1819'
+source-wordcount: '1833'
 ht-degree: 0%
 
 ---
@@ -277,4 +277,4 @@ hide: yes
    >
    >  您在Workfront物件記錄型別頁面中新增或移除的欄位，不會從連結至Workfront物件型別的Maestro記錄型別中新增或移除。 這些欄位僅在唯讀的Workfront記錄型別頁面上可見，因此您可以在Maestro中檢視它們。
 
-1. （可選）從Workfront物件記錄型別頁面上的「檢視」下拉式功能表中，選擇「時間軸」檢視，以在時間軸檢視中顯示Workfront連結物件。
+1. （選擇性和條件性）如果您將至少兩個日期欄位新增至Workfront物件，請按一下 **檢視** Workfront物件記錄型別頁面中的下拉式功能表，然後選取 **時間表** 檢視。 Workfront連結物件會顯示在時間軸檢視中。

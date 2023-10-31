@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: bc7039bc4b8b257fc55e71e73f72327fdb417837
+source-git-commit: c39782606358fbb9983b23421588e392dd12ae8a
 workflow-type: tm+mt
-source-wordcount: '1743'
+source-wordcount: '1882'
 ht-degree: 0%
 
 ---
@@ -35,6 +35,38 @@ ht-degree: 0%
 本節列出2023年5月22日Maestro封閉Beta版計畫推出後所發行的功能和修補程式。
 
 功能每週都會發行，並依發行順序列出，最新的則排在前。 參與Maestro封閉測試版計畫的客戶可以存取其預覽和生產環境中的所有功能。
+
+## 2023年10月30日當週
+
+### 新的欄位型別和日期欄位，以擷取建立或上次修改記錄的人員或日期
+
+預覽和生產： 2023年10月30日
+
+我們為Maestro記錄引進了以下欄位型別：
+
+* 建立者
+
+* 建立日期
+
+* 上次修改者
+
+* 上次修改日期
+
+從這些欄位型別建立的欄位值是唯讀的，並擷取建立或上次修改記錄的使用者名稱，或記錄建立或上次修改的日期。
+
+如需詳細資訊，請參閱 [建立欄位](../maestro/architecture-and-fields/create-fields.md).
+
+### 從Maestro記錄導覽至Workfront物件
+
+預覽和生產： 2023年10月31日
+
+您現在可以從Maestro的下列區域開啟Workfront物件頁面：
+
+* 唯讀連結Workfront物件記錄表格檢視
+
+* 唯讀Workfront物件記錄詳細資訊頁面
+
+如需詳細資訊，請參閱 [連線記錄](../maestro/records/connect-records.md).
 
 ## 2023年10月16日起一週
 
