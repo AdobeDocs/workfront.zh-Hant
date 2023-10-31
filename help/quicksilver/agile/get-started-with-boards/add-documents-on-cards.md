@@ -6,9 +6,9 @@ description: 您可以將檔案新增至Adobe Workfront展示板上已連線的�
 author: Lisa
 feature: Agile
 exl-id: d68c1eec-c527-44b0-bdc5-ca3b7731b648
-source-git-commit: ec753f4176208708de0a39679788d34f486f759b
+source-git-commit: d76b2931217d4124eac13356e9142e7bbe0873c4
 workflow-type: tm+mt
-source-wordcount: '291'
+source-wordcount: '298'
 ht-degree: 0%
 
 ---
@@ -59,3 +59,7 @@ ht-degree: 0%
 
 1. 在卡片上，找到 [!UICONTROL 檔案] 區域。 按一下 ![清單圖示](assets/docs-list-icon.png) 若要檢視清單中的所有檔案，或按一下 ![相簿圖示](assets/docs-gallery-icon.png) 以檢視相簿中的檔案。
 1. 將滑鼠停留在檔案縮圖上，然後按一下 [!UICONTROL **預覽**] 在瀏覽器中檢視檔案，或 [!UICONTROL **下載**] 將檔案下載到您的電腦。
+
+   >[!NOTE]
+   >
+   >PDF不會顯示縮圖影像。
