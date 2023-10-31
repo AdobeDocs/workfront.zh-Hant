@@ -3,9 +3,10 @@ title: 2023年第四季整合增強功能
 description: 2023年第四季整合增強功能
 author: Lisa
 feature: Product Announcements
-source-git-commit: ee84471418590401fe143741cadd1d76a8917149
+exl-id: 0e8952db-5103-4730-860b-e3d6088497ec
+source-git-commit: 24ffde1850a005428a3f619fc00842a8779bbc6d
 workflow-type: tm+mt
-source-wordcount: '274'
+source-wordcount: '284'
 ht-degree: 0%
 
 ---
@@ -27,6 +28,10 @@ ht-degree: 0%
 如需詳細資訊，請參閱 [透過新的SharePoint整合連結檔案](/help/quicksilver/administration-and-setup/configure-integrations/configure-sharepoint-integration.md#link-documents-through-the-new-sharepoint-integration).
 
 ## 升級為拖放檔案整合
+
+>[!NOTE]
+>
+>此功能尚未發行給生產環境。
 
 我們針對拖放檔案至連結資料夾的使用者體驗做了一些改良。
 
