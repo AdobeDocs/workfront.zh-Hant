@@ -5,9 +5,9 @@ author: Lisa
 draft: Probably
 feature: Product Announcements
 exl-id: c18a5ff5-ac84-43a3-8980-ddadea3c2677
-source-git-commit: 05c209f7ba40ec7434d392a79efa96330294f20a
+source-git-commit: 20e806b1a4face80488bf32fda677f730baed41a
 workflow-type: tm+mt
-source-wordcount: '241'
+source-wordcount: '280'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,14 @@ ht-degree: 0%
 本頁說明在2023年第四季發行時間範圍內對Adobe Workfront應用程式的各個區域外觀和感覺所做的小幅更新。
 
 如需2023年第四季版本所有可用變更的清單，請參閱 [2023年第四季版本總覽](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md).
+
+## 檔案核准電子郵件範本的外觀更新
+
+>[!NOTE]
+>
+>預覽版本： 2023年11月1日；適用於所有客戶的生產版本： 11月1日
+
+檔案核准通知的電子郵件範本已更新，以更符合其他Adobe電子郵件範本，並提高清晰度和可用性。
 
 ## 工作負載平衡器中手動調整配置的指標
 
