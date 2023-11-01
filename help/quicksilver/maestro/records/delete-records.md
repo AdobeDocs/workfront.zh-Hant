@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 3f7a3667-8a9f-462a-b706-cf15850a0d1c
-source-git-commit: 908a3136b2537310305f282b7a76d8f09cae3836
+source-git-commit: 1dcc267f04242782efea4a219410380ca5a01e1d
 workflow-type: tm+mt
-source-wordcount: '481'
-ht-degree: 2%
+source-wordcount: '515'
+ht-degree: 1%
 
 ---
 
@@ -88,6 +88,7 @@ ht-degree: 2%
 * 如果刪除的記錄連結到其他記錄，則連結的記錄不會被刪除，但是已刪除的記錄中的資訊也會被刪除。
 * 您無法大量刪除記錄。 <!--this will probably change-->
 * 您無法從時間表檢視中刪除記錄。
+* 您無法刪除從其他應用程式連結的記錄型別。 例如，如果您將Maestro記錄連結至Workfront物件，則無法從Workfront物件記錄頁面刪除Workfront物件。
 
 ## 刪除記錄
 

@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
+source-git-commit: ec6a12f2ffbacabac6124ec3a7d85a3ba292e621
 workflow-type: tm+mt
-source-wordcount: '1835'
+source-wordcount: '1845'
 ht-degree: 1%
 
 ---
@@ -223,6 +223,10 @@ Maestro的架構是完全可自訂的。 您可以建立所有記錄型別、其
    * 貨幣
    * 核取方塊
    * 人員
+   * 建立者
+   * 建立日期
+   * 上次修改者
+   * 上次修改日期
 
 * **連結的記錄型別**， **連結的記錄**、和 **連結的記錄欄位**：您可以在下列實體之間建立連線：
 

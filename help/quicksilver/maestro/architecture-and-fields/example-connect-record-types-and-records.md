@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 38509572-72a4-4fce-b3ec-2cb31bb4669a
-source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
+source-git-commit: 1dcc267f04242782efea4a219410380ca5a01e1d
 workflow-type: tm+mt
-source-wordcount: '1758'
+source-wordcount: '1877'
 ht-degree: 0%
 
 ---
@@ -179,13 +179,32 @@ ht-degree: 0%
    * 您選取要連線至行銷活動的專案在Workfront專案記錄型別頁面中顯示為個別記錄。 專案記錄也是唯讀的，而且當專案在Workfront中更新時，其資訊會自動更新。 您必須從連線的Maestro記錄中新增更多專案，才能在Workfront專案記錄型別中檢視它們。
    * 「促銷活動」連結的記錄欄位會填入從「促銷活動」記錄型別頁面連線至專案的促銷活動名稱。
 
-1. （可選）按一下 **更多** 圖示 ![](assets/more-menu.png) 在Workfront專案記錄型別名稱的右側，然後按一下 **重新命名** 以重新命名記錄型別。
+1. （可選）若要在Maestro中開啟Workfront專案「詳細資訊」頁面，請執行下列任一項作業：
 
-   >[!TIP]
-   >
-   >您可以按一下記錄型別標頭中的名稱，重新命名記錄型別名稱。
+   * 從您連結的記錄型別(**Campaign**)，前往Workfront專案連結記錄欄位(**專案資訊**)，然後按一下Workfront專案的名稱。
+   * 從 **表格** 檢視 **Workfront專案** 記錄頁面，按一下Workfront專案的名稱
 
-1. 按一下新增欄點陣圖示 ![](assets/add-fields-icon.png) 在Workfront專案記錄型別表格的右上角，將更多專案欄位新增到Workfront專案經理記錄型別。
+     或
+
+     按一下 **更多** Workfront專案右側的功能表，然後按一下 **檢視**.
+
+     ![](assets/workfront-object-more-menu-in-table-with-go-to-source-link.png)
+
+   這會開啟已連結Workfront專案的「Maestro詳細資訊」頁面。 這是唯讀頁面。
+
+1. （可選）若要在Workfront中開啟連結的Workfront專案，請執行下列任一項作業：
+
+   * 從 **表格** 檢視 **Workfront專案** 頁面上，按一下Workfront專案的名稱，
+
+   或
+
+   按一下 **更多** Workfront專案名稱右側的功能表，然後按一下 **移至來源**.
+
+   ![](assets/workfront-project-maestro-details-page-with-go-to-source-link.png)
+
+   如此將可開啟Workfront專案頁面。 如果您有許可權，可以編輯Workfront專案的相關資訊。
+
+1. 按一下 **新增欄位** 圖示 ![](assets/add-fields-icon.png) 在Workfront專案記錄型別表格的右上角，將更多專案欄位新增到Workfront專案經理記錄型別。
 1. 按一下 **+** 圖示來儲存您想要新增至中Workfront專案經理記錄的任何專案欄位。 **未選取的欄位** 區段。
 1. 按一下 **-** 圖示來代表您要從「 」中Workfront專案主要記錄中移除的任何專案欄位。 **選取的欄位** 區段。
 1. 按一下&#x200B;**儲存**。

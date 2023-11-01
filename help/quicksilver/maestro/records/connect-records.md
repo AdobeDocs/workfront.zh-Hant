@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
-source-git-commit: c39782606358fbb9983b23421588e392dd12ae8a
+source-git-commit: 1dcc267f04242782efea4a219410380ca5a01e1d
 workflow-type: tm+mt
-source-wordcount: '1833'
+source-wordcount: '1964'
 ht-degree: 0%
 
 ---
@@ -52,7 +52,7 @@ hide: yes
 * 將主要作業記錄轉換為分類記錄
 * Maestro作業記錄和其他應用程式的物件。
 
-  目前支援的應用程式和物件型別如下：
+  您可以從下列應用程式將Maestro記錄連線至下列型別的物件：
 
    * Adobe Workfront
 
@@ -138,7 +138,7 @@ hide: yes
 * 所有可以存取Maestro的人都可以看到您在Maestro記錄之間或Maestro記錄與Workfront物件之間的連線。 此外，您也可以檢視及編輯其他人的連線。 <!--add that this is based on your permissions in both Maestro and Workfront (or, later, any other application)-->
 * 您可以將一個Maestro記錄連線到另一個應用程式的一個或多個物件。
 * 您無法連線分類來記錄型別，或從其他應用程式連線物件。 <!-- this is temporary; there will be certain objects (teams, etc) that will be linked to taxonomies, per Lilit-->
-* 目前，您只能將Maestro記錄連結至Workfront物件。 若要將Maestro記錄與Workfront物件連結，您必須具備下列條件：
+* 若要將Maestro記錄與Workfront物件連結，您必須具備下列條件：
 
    * Workfront物件。 例如，您必須先在Workfront中建立專案、投資組合、方案、公司或群組。
    * Maestro工作區、記錄型別和記錄。 如需詳細資訊，請參閱下列文章：
@@ -151,16 +151,16 @@ hide: yes
 
 ### 連線大師記錄
 
-1. 按一下 **主要功能表** 圖示 ![](assets/main-menu-workfront.png) 在Workfront的右上角， <!---or the **Main menu** icon ![](assets/main-menu-shell.png)  in the upper-left corner, if available--> 然後按一下 **大師** ![](assets/maestro-icon.png).
+1. 按一下 **主要功能表** 圖示 ![](assets/main-menu-workfront.png) 位於Workfront右上角，或 **主功能表** 圖示 ![](assets/main-menu-shell.png)  （如果有的話）按一下 **大師** ![](assets/maestro-icon.png).
 
    根據預設，上次存取的工作區應該會開啟。
 
 1. （可選）展開現有工作區名稱右側的向下箭頭，並選取您要連線記錄的工作區。
 1. 按一下記錄型別的卡片以開啟記錄型別頁面。
-1. 從「 」中選取「表格」檢視 **檢視** 記錄型別頁面右上角的下拉式功能表。
+1. 選取 **表格** 從檢視 **檢視** 記錄型別頁面右上角的下拉式功能表。
 1. 從選取的記錄型別新增連線至其他記錄或物件型別。 如需詳細資訊，請參閱 [連線記錄型別](../architecture-and-fields/connect-record-types.md).
 
-表格中會新增一欄，以顯示連結的記錄型別。
+   表格中會新增一欄，以顯示連結的記錄型別。
 
 1. 將記錄新增至表格中，以將記錄新增至您選取的記錄型別。 如需詳細資訊，請參閱 [建立記錄](../../maestro/records/create-records.md).
 1. 從表格檢視中列出的記錄，移至連結的記錄欄，並將游標停留在您要與其他Maestro記錄連結之記錄的對應儲存格上，然後按一下 **+** 圖示。
@@ -201,7 +201,7 @@ hide: yes
 
 在Maestro記錄型別和Workfront物件型別之間建立連線後，您可以將個別Maestro記錄連線到Workfront中的物件。 您也可以將欄位從Workfront物件連線至Maestro記錄型別。
 
-1. 按一下 **主要功能表** 圖示 ![](assets/main-menu-workfront.png) 在Workfront的右上角， <!---or the **Main menu** icon ![](assets/main-menu-shell.png)  in the upper-left corner, if available--> 然後按一下 **大師** ![](assets/maestro-icon.png).
+1. 按一下 **主要功能表** 圖示 ![](assets/main-menu-workfront.png) 位於Workfront右上角，或 **主功能表** 圖示 ![](assets/main-menu-shell.png)  （如果有的話）按一下 **大師** ![](assets/maestro-icon.png).
 
    根據預設，上次存取的工作區應該會開啟。
 
@@ -265,11 +265,30 @@ hide: yes
    >
    >    * 若要在「時間軸」檢視中顯示Workfront物件記錄型別，唯讀Workfront記錄型別頁面的「表格」檢視中必須至少顯示兩個日期欄位。
 
-1. （可選）按一下 **更多** 功能表 ![](assets/more-menu.png) 在頁面標頭中的Workfront物件記錄型別名稱旁，然後按一下 **重新命名** 以編輯記錄名稱。
+1. （可選）若要在Maestro中開啟Workfront物件記錄「詳細資訊」頁面，請執行下列任一項作業：
 
-   >[!NOTE]
-   >
-   >    您無法從Workfront記錄型別頁面中刪除連結的Workfront記錄型別或任何物件。
+   * 從您連結的記錄型別中，前往Workfront物件連結的記錄欄位，然後按一下Workfront物件的名稱。
+   * 從 **表格** 檢視Workfront記錄型別頁面，按一下Workfront物件的名稱
+
+     或
+
+     按一下 **更多** Workfront物件名稱右側的功能表，然後按一下 **檢視**.
+
+     ![](assets/workfront-object-more-menu-in-table-with-go-to-source-link.png)
+
+   這會開啟連結Workfront物件的「Maestro詳細資訊」頁面。 這是唯讀頁面。
+
+1. （可選）若要在Workfront中開啟連結的Workfront物件，請執行下列任一項作業：
+
+   * 從 **表格** 檢視Workfront記錄型別頁面，按一下Workfront物件的名稱，
+
+   或
+
+   按一下 **更多** Workfront物件名稱右側的功能表，然後按一下 **移至來源**.
+
+   ![](assets/workfront-project-maestro-details-page-with-go-to-source-link.png)
+
+   這會開啟Workfront物件頁面。 如果您有許可權，可以編輯Workfront物件的相關資訊。
 
 1. （可選）按一下 **新增欄位** 圖示 ![](assets/add-fields-icon.png) 在「Workfront記錄型別」頁面的「表格檢視」右上角，新增或移除Workfront記錄型別中的Workfront欄位。
 
