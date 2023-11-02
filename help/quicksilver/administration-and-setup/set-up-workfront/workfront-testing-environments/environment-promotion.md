@@ -12,10 +12,10 @@ hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: dd3c29df-4583-463a-b27a-bbfc4dda8184
-source-git-commit: 949907d7d4c37fa6541a021b458f84f1ebff2896
+source-git-commit: d777e42a91b18586da22be3aeb35be32e1439104
 workflow-type: tm+mt
-source-wordcount: '2412'
-ht-degree: 3%
+source-wordcount: '2301'
+ht-degree: 2%
 
 ---
 
@@ -104,7 +104,7 @@ Add to tocs
 
 | 可升級的物件 | 包含的可升級子物件 |
 | --- | --- |
-| 群組（群組） | 群組 <br>子群組（最多5個層級）<br>類別<br>類別引數<br>引數<br>引數群組<br>引數選項<br>類別顯示邏輯 |
+| 群組（群組） | 群組 <br>子群組（最多5個層級） *<br>類別<br>類別引數<br>引數<br>引數群組<br>引數選項<br>類別顯示邏輯 |
 | 角色(ROLE) | 角色 |
 | 團隊（團隊） | 團隊<br>群組 |
 | 公司(CMPY) | 公司<br>覆寫率<br>類別<br>類別引數<br>引數<br>引數群組<br>引數 <br>類別顯示邏輯<br>群組 |
@@ -146,8 +146,6 @@ SessionID: abc1234
 * [建立套件](#create-a-package)
 * [取得封裝清單](#get-a-list-of-packages)
 * [依ID取得套件](#get-a-package-by-id)
-* [取得套件的設定定義](#get-a-packages-configuration-definition)
-* [取代封裝詳細資料和定義](#replace-package-details-and-definition)
 * [更新封裝的特定屬性](#update-specific-properties-of-a-package)
 * [刪除套裝](#delete-a-package)
 * [執行預先執行](#execute-a-pre-run)
@@ -262,13 +260,14 @@ POST https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/p
         "id": "1d5693b9-b7b5-492d-8219-c21f34bcaca6",
         "name": "Agency Onboarding - 2023-06-06",
         "description": "This promotion package contains configuration to support the agency onboarding processes...",
+        "source": "https://{domain}.{environment}.workfront.com",
         "status": "ASSEMBLING",
         "version": 1,
-        "installationCounts": {},
         "createdAt": "2023-06-06T17:29:21.600Z",
         "createdById": "61aa9d0e0005fcee8f212835bdaa2619",
         "publishedAt": null,
         "customerId": "61aa9d090005fa42152c1cb66659f38d"
+    }
 }
 ```
 
@@ -327,17 +326,15 @@ _空白_
             "name": "Agency Onboarding - 2023-06-06",
             "description": "This promotion package contains configuration to support the agency onboarding processes...",
             "status": "ASSEMBLING",
-            "version": 1,
-            "installationCounts": {},
             "createdAt": "2023-06-06T17:29:21.600Z",
-            "createdById": "61aa9d0e0005fcee8f212835bdaa2619",
-            "publishedAt": null,
-            "customerId": "61aa9d090005fa42152c1cb66659f38d"
-        },
+            "deletedAt": null
+},
         {...}
     ]
 }
 ```
+
+&lt;! — 檢查上面的「狀態」 — 是否新增？—>
 
 ### 依ID取得套件
 
@@ -392,14 +389,13 @@ _空白_
         "id": "1d5693b9-b7b5-492d-8219-c21f34bcaca6",
         "name": "Agency Onboarding - 2023-06-06",
         "description": "This promotion package contains configuration to support the agency onboarding processes...",
+        "source": "https://{domain}.{environment}.workfront.com",
         "status": "DRAFT",
         "version": 1,
-        "installationCounts": {},
         "createdAt": "2023-06-06T17:29:21.600Z",
-        "createdById": "61aa9d0e0005fcee8f212835bdaa2619",
         "publishedAt": null,
         "customerId": "61aa9d090005fa42152c1cb66659f38d",
-        "displayEntities": {
+        "packageEntities": {
             "GROUP": [
                {
                    "id": "52aa9d0e0005fcee8f212835bdaa2691",
@@ -418,101 +414,24 @@ _空白_
 }
 ```
 
-### 取得套件的設定定義
+### 更新封裝的特定屬性
 
 <table style="table-layout:auto"> 
  <col> 
  <tbody> 
   <tr> 
-   <td><code>GET /packages/{id}/definition</code></td> 
+   <td><code>PATCH /packages/{id}</code></td> 
   </tr> 
   </tbody> 
 </table>
 
-#### URL
-
-```
-GET https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/packages/{id}/definition
-```
-
-#### 標頭
-
-```json
-{
-    "apikey": "**********"
-}
-```
-
-或
-
-```json
-{
-    "sessionID": "*****************"
-}
-```
-
-#### 內文
-
-_空白_
-
-#### 個回應
-
-```
-200
-```
-
-```json
-{
-    "packageEntities": {
-        "GROUP": [
-           {
-               "id": "52aa9d0e0005fcee8f212835bdaa2691",
-               "name": "Default Group",
-               "businessLeaderID": "...",
-               "categoryID": "...",
-               "defaultInterface": 1,
-               "description": "...",
-               "extRefID": null,
-               "isActive": true,
-               "isGroupPublic": true,
-               "isPublic": true,
-               "parentID": null,
-               "rootID": null,
-               "rootName": null,
-               "uiTemplateID": null
-           }
-        ],
-        "ROLE": [
-           {...}
-        ],
-        ...
-    }
-}
-```
-
-### 取代封裝詳細資料和定義
-
-<table style="table-layout:auto"> 
- <col> 
- <tbody> 
-  <tr> 
-   <td><code>PUT /packages/{id}</code></td> 
-  </tr> 
-  </tbody> 
-</table>
-
-此呼叫會取代促銷活動套件的所有內容。
-
-該請求需要提供所有可編輯的欄位。
+此呼叫會更新PATCH內文中提供的促銷活動套件的任何內容。
 
 可編輯的屬性包括：
 
 1. 名稱（字串）
 1. 說明（字串）
-1. 來源（含URL驗證的字串）
 1. 狀態（含值驗證的字串）
-1. 版本（整數）
-1. packageEntities （集合）
 
 狀態選項包括：
 
@@ -547,136 +466,6 @@ _空白_
   </tbody> 
 </table>
 
-#### URL
-
-```
-PUT https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/packages/{id}
-```
-
-#### 標頭
-
-```json
-{
-    "apikey": "**********",
-    "Content-Type": "application/json"
-}
-```
-
-```json
-{
-    "sessionID": "*****************", 
-    "Content-Type": "application/json"
-}
-```
-
-#### 內文
-
-```json
-{
-    "name": "Agency Onboarding - 2023-06-06",
-    "description": "This promotion package contains configuration to support the agency onboarding processes... with a description change",
-    "source": "https://{domain}.{environment}.workfront.com",
-    "status": "TESTING",
-    "version": 1,
-    "metadata": {
-        "displayOrder": ["GROUP","ROLE","TMPL","PROJ","PTLTAB"],
-        "historyOrder": ["GROUP","ROLE","TMPL","TTSK","PROJ","PTLTAB"], 
-        "installOrder": ["GROUP","ROLE","TMPL","TTSK","TPRED","TASSGN","PROJ","QUED","RRUL","QUET","UIFT","UIGB","UIVW","PTLTAB"], 
-        "summaryOrder": ["GROUP","ROLE","TMPL"], 
-        "shapeVersion": 2
-    },
-    "packageEntities": {
-        "GROUP": [
-           {
-               "id": "52aa9d0e0005fcee8f212835bdaa2691",
-               "name": "Default Group",
-               "businessLeaderID": "...",
-               "categoryID": "...",
-               "defaultInterface": 1,
-               "description": "...",
-               "extRefID": null,
-               "isActive": true,
-               "isGroupPublic": true,
-               "isPublic": true,
-               "parentID": null,
-               "rootID": null,
-               "rootName": null,
-               "uiTemplateID": null
-           }
-        ],
-        "ROLE": [
-           {...}
-        ],
-        ...
-    }
-}
-```
-
-#### 個回應
-
-```
-200
-```
-
-```json
-{
-    "data": {
-        "id": "1d5693b9-b7b5-492d-8219-c21f34bcaca6",
-        "name": "Agency Onboarding - 2023-06-06",
-        "description": "This promotion package contains configuration to support the agency onboarding processes...",
-        "status": "TESTING",
-        "version": 1,
-        "installationCounts": {},
-        "createdAt": "2023-06-06T17:29:21.600Z",
-        "createdById": "61aa9d0e0005fcee8f212835bdaa2619",
-        "publishedAt": null,
-        "customerId": "61aa9d090005fa42152c1cb66659f38d",
-        "displayEntities": {
-            "GROUP": [
-               {
-                   "id": "52aa9d0e0005fcee8f212835bdaa2691",
-                   "name": "Default Group",
-                   "description": "..."
-               }
-            ],
-            "ROLE": [
-               {...}
-            ],
-            ...
-        }
-   }
-}
-```
-
-### 更新封裝的特定屬性
-
-<table style="table-layout:auto"> 
- <col> 
- <tbody> 
-  <tr> 
-   <td><code>PATCH /packages/{id}</code></td> 
-  </tr> 
-  </tbody> 
-</table>
-
-此呼叫會更新PATCH內文中提供的促銷活動套件的任何內容。
-
-可編輯的屬性包括：
-
-1. 名稱（字串）
-1. 說明（字串）
-1. 來源（含URL驗證的字串）
-1. 狀態（含值驗證的字串）
-1. 版本（整數）
-1. packageEntities （集合）
-
-   或
-
-   objectCollections （陣列）
-
-提供 `packageEntities` 會以提供的組態定義更新促銷活動套件。
-
-提供 `objectCollections` 將會起始重新擷取作業 `source` 和促銷活動套件相關聯的環境。 此 `source` 欄位必須提供當 `objectCollections` 已提供。
 
 #### URL
 
@@ -723,14 +512,13 @@ PATCH https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/
         "id": "1d5693b9-b7b5-492d-8219-c21f34bcaca6",
         "name": "Agency Onboarding - 2023-06-06",
         "description": "This promotion package contains configuration to support the agency onboarding processes...",
+        "source": "https://{domain}.{environment}.workfront.com",
         "status": "ACTIVE",
         "version": 1,
-        "installationCounts": {},
         "createdAt": "2023-06-06T17:29:21.600Z",
-        "createdById": "61aa9d0e0005fcee8f212835bdaa2619",
         "publishedAt": "2023-06-06T19:39:01.600Z",
         "customerId": "61aa9d090005fa42152c1cb66659f38d",
-        "displayEntities": {
+        "packageEntities": {
             "GROUP": [
                {
                    "id": "52aa9d0e0005fcee8f212835bdaa2691",
@@ -1027,7 +815,7 @@ POST https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/i
 #### 個回應
 
 ```
-200
+202
 ```
 
 
@@ -1089,7 +877,7 @@ _空白_
         "environmentPromotionPackageVersion": 1,
         "userId": "8fbbc5bcf4f94a5b862483ee05573e73",
         "customerId": "54286d78b064451096752b99bf968481",
-        "status": "COMPLETED",
+        "status": "INSTALLED",
         "environment": "https://{domain}.{environment}.workfront.com",
         "registeredAt": "2021-03-16T02:21:31.908Z",
         "updatedAt": null,
@@ -1185,7 +973,7 @@ _空白_
     "environmentPromotionPackageVersion": 1,
     "userId": "8fbbc5bcf4f94a5b862483ee05573e73",
     "customerId": "54286d78b064451096752b99bf968481",
-    "status": "COMPLETED",
+    "status": "INSTALLED",
     "environment": "https://{domain}.{environment}.workfront.com",
     "registeredAt": "2021-03-16T02:21:31.908Z",
     "updatedAt": null,
