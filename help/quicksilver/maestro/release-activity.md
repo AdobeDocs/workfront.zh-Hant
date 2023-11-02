@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: c39782606358fbb9983b23421588e392dd12ae8a
+source-git-commit: 0699740f8ef0932316843d9aec0008ccdeb319f5
 workflow-type: tm+mt
-source-wordcount: '1882'
+source-wordcount: '1971'
 ht-degree: 0%
 
 ---
@@ -67,6 +67,22 @@ ht-degree: 0%
 * 唯讀Workfront物件記錄詳細資訊頁面
 
 如需詳細資訊，請參閱 [連線記錄](../maestro/records/connect-records.md).
+
+### 改善表格檢視中的導覽
+
+預覽和生產： 2023年11月2日
+
+我們已改善記錄型別頁面之表格檢視中的導覽。
+
+以下是一些改善專案：
+
+* 使用鍵盤上的Tab鍵來導覽表格的欄和列
+
+* 從任何欄位置新增記錄。 在此改進之前，您只能從第一欄新增記錄。
+
+* 使用Shift + Enter鍵盤組合在表格中新增記錄（或列）。
+
+如需詳細資訊，請參閱 [建立記錄](../maestro/records/connect-records.md).
 
 ## 2023年10月16日起一週
 

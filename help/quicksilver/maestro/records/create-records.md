@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: b781687b175167784367a2fdec158d97fb3fd6a4
+source-git-commit: 0699740f8ef0932316843d9aec0008ccdeb319f5
 workflow-type: tm+mt
-source-wordcount: '950'
+source-wordcount: '954'
 ht-degree: 0%
 
 ---
@@ -107,15 +107,13 @@ ht-degree: 0%
 
 1. （視條件而定）如果記錄型別頁面未在表格檢視中開啟，請按一下 **檢視** 下拉式功能表，並選取現有的 **表格檢視** ![](assets/table-view-icon.png) 或按一下 **建立檢視>表格** 以建立表格檢視。
 
-1. 按一下 **新&lt;記錄型別名稱>** 在表格的最後一列，新增一列至表格。
+1. 若要新增記錄，請按一下 **新&lt;記錄型別名稱>** 在表格的最後一列
+
+   或
+
+   按一下 **Shift + Enter** 從表格的任一欄或列移至鍵盤上。 這會新增空白列。
 
    ![](assets/adding-a-new-campaign-in-table-row.png)
-
-   >[!TIP]
-   >
-   >    輸入CTRL+Enter在新列中新增記錄。
-
-   <!--ensure this is the shortcut for adding a new row AND that it is not different for Macs-->
 
 1. 開始在新列輸入有關新記錄的資訊。
 
