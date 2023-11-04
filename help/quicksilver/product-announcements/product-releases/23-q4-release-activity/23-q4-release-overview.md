@@ -4,9 +4,9 @@ description: 2023年第四季版本總覽
 author: Becky
 feature: Product Announcements
 exl-id: 6c14bd61-60b1-49aa-84bd-d494a226d70e
-source-git-commit: b179a4681ab08773ceaa4a6cd81c764acda1dcf1
+source-git-commit: 73e6a62e4c4103d0a4dc7e3f58ddd68cbd145b8c
 workflow-type: tm+mt
-source-wordcount: '2679'
+source-wordcount: '2695'
 ht-degree: 0%
 
 ---
@@ -304,7 +304,7 @@ These enhancements will be included in the following releases:
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-home-enhancements.md" class="MCXref xref" xrefformat="{para}">專案、任務和問題Widget的委派工作按鈕</a> </p><p>[！BADGE In Production ]{type=Informative}</p>
-                        <p>作為舊首頁的常見功能，我們現在已將委派按鈕新增到「我的工作」、「我的任務」和「我的問題」Widget，以便您在外出時可以輕鬆委派工作。</p>
+                        <p>作為舊首頁的常見功能，我們現在已將委派按鈕新增到「我的工作」、「我的任務」和「我的問題」Widget，以便您在外出時可以輕鬆委派工作。 請注意，必須在您的Workfront環境中啟用工作委派，按鈕才會出現。</p>
                     </td>
                     <td><p><b>將於下列日期提供：</b></p>
                         <ul>

@@ -6,10 +6,10 @@ description: 您可以請求任何支援「檔案」之物件的檔案。
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 228b53ba-4a87-4edd-b478-501b216c4a1d
-source-git-commit: 93191e047dbf0344647e41f9e4280c08c1172001
+source-git-commit: 73e6a62e4c4103d0a4dc7e3f58ddd68cbd145b8c
 workflow-type: tm+mt
-source-wordcount: '418'
-ht-degree: 0%
+source-wordcount: '397'
+ht-degree: 1%
 
 ---
 
@@ -68,8 +68,6 @@ ht-degree: 0%
    如果啟用此偏好設定，使用者會收到電子郵件通知，以及應用程式內通知。 如需電子郵件通知的詳細資訊，請參閱 [修改您自己的電子郵件通知](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
    您可以按一下電子郵件通知中的連結，然後上傳檔案。 或者，您也可以按一下應用程式內通知。 每個選項都會將您引導至使用者設定檔頁面，您可以在該頁面上傳要求的檔案。
-
-   您也可以直接回覆電子郵件並附加要求的檔案（如果您已設定為支援電子郵件回覆）。
 
 1. 上傳檔案後，請求者可以個人檔案存取檔案 **檔案** 區域。
 
