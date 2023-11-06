@@ -9,7 +9,7 @@ description: 在 [!DNL Adobe Workfront Fusion] 情境中，您可以使用自動
 author: Becky
 feature: Workfront Fusion
 exl-id: 9597806b-d4bf-4627-b27d-30e24a1e6776
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+source-git-commit: 51db439995430dad86e41190520824743216df69
 workflow-type: tm+mt
 source-wordcount: '2646'
 ht-degree: 0%
@@ -188,7 +188,7 @@ ht-degree: 0%
 <tbody>
   <tr>
     <td role="rowheader">[！UICONTROL Connection]</td>
-    <td>有關建立與的連線的指示 [!DNL Adobe Target]，請參閱 <a href="#Create" class="MCXref xref" >建立與的連線 [!DNL Adobe Target]</a> 本文章內容。</td>
+    <td>有關建立與的連線的指示 [!DNL Adobe Target]，請參閱 <a href="#create-a-connection-to-adobe-target" class="MCXref xref" >建立與的連線 [!DNL Adobe Target]</a> 本文章內容。</td>
   </tr>
   <tr>
     <td class="TableStyle-TableStyle-List-options-in-steps-BodyB-Column1-MediumGray" role="rowheader">[！UICONTROL記錄型別]</td>
@@ -197,19 +197,19 @@ ht-degree: 0%
       <ul>
         <li>
           <p>[！UICONTROL AB活動]</p>
-          <p>繼續至 <a href="#AB%C2%A0Activ" class="MCXref xref" >ab活動欄位</a>.</p>
+          <p>繼續至 <a href="#ab-activity-fields" class="MCXref xref" >ab活動欄位</a>.</p>
         </li>
         <li>
           <p>[！UICONTROL XT活動]</p>
-          <p>繼續至 <a href="#XT" class="MCXref xref" >XT活動欄位</a>.</p>
+          <p>繼續至 <a href="#xt-activity-fields" class="MCXref xref" >XT活動欄位</a>.</p>
         </li>
         <li>
           <p>[！UICONTROL選件]</p>
-          <p>繼續至 <a href="#Offer" class="MCXref xref" >選件欄位</a>.</p>
+          <p>繼續至 <a href="#offer-fields" class="MCXref xref" >選件欄位</a>.</p>
         </li>
         <li>
           <p>[！UICONTROL對象]</p>
-          <p>繼續至 <a href="#Audience" class="MCXref xref" >對象欄位</a>.</p>
+          <p>繼續至 <a href="#audience-fields" class="MCXref xref" >對象欄位</a>.</p>
         </li>
       </ul>
     </td>
@@ -657,7 +657,7 @@ ht-degree: 0%
   <tbody>
     <tr>
       <td role="rowheader">[！UICONTROL Connection]</td>
-      <td>有關建立與的連線的指示 [!DNL Adobe Target]，請參閱 <a href="#Create" class="MCXref xref" >建立與的連線 [!DNL Adobe Target]</a> 本文章內容。</td>
+      <td>有關建立與的連線的指示 [!DNL Adobe Target]，請參閱 <a href="#create-a-connection-to-adobe-target" class="MCXref xref" >建立與的連線 [!DNL Adobe Target]</a> 本文章內容。</td>
     </tr>
     <tr>
       <td role="rowheader">[！UICONTROL [!DNL Target] 基礎URL]</td>
@@ -710,7 +710,7 @@ ht-degree: 0%
 <tbody>
   <tr>
     <td role="rowheader">[！UICONTROL Connection]</td>
-    <td>有關建立與的連線的指示 [!DNL Adobe Target]，請參閱 <a href="#Create" class="MCXref xref" >建立與的連線 [!DNL Adobe Target]</a> 本文章內容。</td>
+    <td>有關建立與的連線的指示 [!DNL Adobe Target]，請參閱 <a href="#create-a-connection-to-adobe-target" class="MCXref xref" >建立與的連線 [!DNL Adobe Target]</a> 本文章內容。</td>
   </tr>
   <tr>
     <td role="rowheader">[！UICONTROL記錄型別]</td>
@@ -733,7 +733,7 @@ ht-degree: 0%
 <tbody>
   <tr>
     <td role="rowheader">[！UICONTROL Connection]</td>
-    <td>有關建立與的連線的指示 [!DNL Adobe Target]，請參閱 <a href="#Create" class="MCXref xref" >建立與的連線 [!DNL Adobe Target]</a> 本文章內容。</td>
+    <td>有關建立與的連線的指示 [!DNL Adobe Target]，請參閱 <a href="#create-a-connection-to-adobe-target" class="MCXref xref" >建立與的連線 [!DNL Adobe Target]</a> 本文章內容。</td>
   </tr>
   <tr>
     <td role="rowheader">[！UICONTROL記錄型別]</td>
@@ -756,7 +756,7 @@ ht-degree: 0%
   <tbody>
     <tr>
       <td role="rowheader">[！UICONTROL Connection]</td>
-      <td>有關建立與的連線的指示 [!DNL Adobe Target]，請參閱 <a href="#Create" class="MCXref xref" >建立與的連線 [!DNL Adobe Target]</a> 本文章內容。</td>
+      <td>有關建立與的連線的指示 [!DNL Adobe Target]，請參閱 <a href="#create-a-connection-to-adobe-target" class="MCXref xref" >建立與的連線 [!DNL Adobe Target]</a> 本文章內容。</td>
     </tr>
     <tr>
       <td role="rowheader">[！UICONTROL記錄型別]</td>
@@ -766,12 +766,12 @@ ht-degree: 0%
           <li>
             <p><b>[！UICONTROL AB活動]</b>
             </p>
-            <p>請參閱中的欄位說明 <a href="#AB%C2%A0Activ" class="MCXref xref" >ab活動欄位</a> 在 <a href="#Create2" class="MCXref xref" >建立記錄</a>.</p>
+            <p>請參閱中的欄位說明 <a href="#ab-activity-fields" class="MCXref xref" >ab活動欄位</a> 在 <a href="#create-a-record" class="MCXref xref" >建立記錄</a>.</p>
           </li>
           <li>
             <p><b>[！UICONTROL XT活動]</b>
             </p>
-            <p>請參閱中的欄位說明 <a href="#XT" class="MCXref xref" >XT活動欄位</a> 在 <a href="#Create2" class="MCXref xref" >建立記錄</a>.</p>
+            <p>請參閱中的欄位說明 <a href="#xt-activity-fields" class="MCXref xref" >XT活動欄位</a> 在 <a href="#create-a-record" class="MCXref xref" >建立記錄</a>.</p>
           </li>
           <li>
             <p><b>[！UICONTROL其他活動]</b>
@@ -781,12 +781,12 @@ ht-degree: 0%
           <li>
             <p><b>[！UICONTROL選件]</b>
             </p>
-            <p>請參閱中的欄位說明 <a href="#Offer" class="MCXref xref" >選件欄位</a> 在 <a href="#Create2" class="MCXref xref" >建立記錄</a>.</p>
+            <p>請參閱中的欄位說明 <a href="#offer-fields" class="MCXref xref" >選件欄位</a> 在 <a href="#create-a-record" class="MCXref xref" >建立記錄</a>.</p>
           </li>
           <li>
             <p><b>[!DNL Audience]</b>
             </p>
-            <p>請參閱中的欄位說明 <a href="#Audience" class="MCXref xref" >對象欄位</a> 在 <a href="#Create2" class="MCXref xref" >建立記錄</a>.</p>
+            <p>請參閱中的欄位說明 <a href="#audience-fields" class="MCXref xref" >對象欄位</a> 在 <a href="#create-a-record" class="MCXref xref" >建立記錄</a>.</p>
           </li>
         </ul>
       </td>
@@ -815,7 +815,7 @@ ht-degree: 0%
   <tbody>
     <tr>
       <td role="rowheader">[！UICONTROL Connection]</td>
-      <td>有關建立與的連線的指示 [!DNL Adobe Target]，請參閱 <a href="#Create" class="MCXref xref" >建立與的連線 [!DNL Adobe Target]</a> 本文章內容。</td>
+      <td>有關建立與的連線的指示 [!DNL Adobe Target]，請參閱 <a href="#create-a-connection-to-adobe-target" class="MCXref xref" >建立與的連線 [!DNL Adobe Target]</a> 本文章內容。</td>
     </tr>
     <tr>
       <td role="rowheader">[！UICONTROL記錄型別]</td>
@@ -852,7 +852,7 @@ ht-degree: 0%
 <tbody>
   <tr>
     <td role="rowheader">[！UICONTROL Connection]</td>
-    <td>有關建立與的連線的指示 [!DNL Adobe Target]，請參閱 <a href="#Create" class="MCXref xref" >建立與的連線 [!DNL Adobe Target]</a> 本文章內容。</td>
+    <td>有關建立與的連線的指示 [!DNL Adobe Target]，請參閱 <a href="#create-a-connection-to-adobe-target" class="MCXref xref" >建立與的連線 [!DNL Adobe Target]</a> 本文章內容。</td>
   </tr>
   <tr>
     <td role="rowheader">[！UICONTROL記錄型別]</td>
