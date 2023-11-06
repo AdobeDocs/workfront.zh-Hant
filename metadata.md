@@ -6,7 +6,7 @@ type: Documentation
 mini-toc-levels: 2
 git-repo: https://github.com/AdobeDocs/workfront.zh-Hant
 index: true
-source-git-commit: 194b82e53378c3491acb17a30ab91155ab34ae32
+source-git-commit: 5a503571db40307757a8f503b0c7366238649eff
 workflow-type: tm+mt
 source-wordcount: '65'
 ht-degree: 52%
