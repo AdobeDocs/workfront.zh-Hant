@@ -6,9 +6,9 @@ description: 您可以在Adobe Workfront物件（專案、任務或問題）上�
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: 97a89293989fd5dcc3ba40dd12ad0e1cf97d69ff
+source-git-commit: 62c600a13f61f7f5e889a92b446252e5ca0777f9
 workflow-type: tm+mt
-source-wordcount: '3617'
+source-wordcount: '3810'
 ht-degree: 1%
 
 ---
@@ -205,7 +205,7 @@ drafted for P&P release:
       <td>在日期選擇器中，選取您認可完成工作專案的日期。 如需有關認可日期的資訊，請參閱 <a href="../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md" class="MCXref xref">認可日期總覽</a>.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>狀況</strong></td> 
+      <td role="rowheader"><strong>條件</strong></td> 
       <td>為任務或問題選取新條件。 如需有關選取條件的資訊，請參閱 <a href="../../manage-work/projects/updating-work-in-a-project/update-condition-for-tasks-and-issues.md" class="MCXref xref">更新任務和問題的條件</a>.</td> 
      </tr> 
      <tr> 
@@ -415,55 +415,6 @@ drafted for P&P release:
 
 複製更新會因您使用的評論體驗而異。
 
-### 複製舊版評論體驗中的更新
-
-<!--remove legacy when removed from the UI-->
-
-* [複製更新](#copy-the-update)
-* [複製執行緒連結](#copy-the-thread-link)
-* [複製更新連結](#copy-the-update-link)
-* [引文回覆](#quote-reply)
-
-#### 複製更新 {#copy-the-update}
-
-此選項會將文字從特定更新複製到剪貼簿。
-
-1. 前往更新或您要複製的回覆。
-1. 按一下 **更多** 功能表，然後按一下 **複製內文**.
-
-   ![](assets/update-stream-comment-menu-marked-350x152.png)
-
-#### 複製執行緒連結 {#copy-the-thread-link}
-
-此選項會將完整對話串連結複製到剪貼簿，以便您與其他使用者共用對話串。
-
-1. 移至您要複製的更新執行緒。
-
-1. 按一下 **更多** 功能表，然後按一下 **複製對話連結**.
-
-   ![](assets/update-stream-comment-menu-marked-350x152.png)
-
-#### 複製更新連結 {#copy-the-update-link}
-
-此選項會將特定的更新連結複製到剪貼簿。 當您共用更新連結時，追蹤該連結的使用者會看到更新周圍的邊框。
-
-1. 前往更新或您要複製的回覆。
-1. 按一下 **更多** 個別更新旁的功能表，然後按一下 **複製更新連結**.
-
-   ![](assets/copy-update-link-old-ui.png)
-
-
-#### 引文回覆
-
-「報價回覆」選項會將原始註解複製到新的回覆，做為區塊報價。
-
-1. 前往更新或您要複製的回覆。
-1. 按一下 **更多** 功能表，然後按一下 **引文回覆**.
-
-   新註解方塊開啟，引述的回覆會包含在新的註解中，並標示為區塊引號。
-
-1. 繼續新增更新，然後按一下 **回覆** 以新增註解。
-
 ### 在新的評論體驗中複製更新
 
 如需有關新註解體驗有哪些功能可用以及哪些物件的資訊，請參閱 [新的評論體驗](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
@@ -486,6 +437,14 @@ drafted for P&P release:
 
 1. 按一下 **更多** 功能表，然後按一下 **複製連結**.
 
+1. 將您在上一步中複製的連結貼入電子郵件或其他應用程式，以便與其他人共用。 共用連結會開啟您共用連結的註解。
+
+   >[!TIP]
+   >
+   >當您從較高層級的物件在子物件上共用對話連結時，該連結會在較高層級物件的「更新」區域中開啟對話串。
+   >
+   >例如，如果您從專案的更新區域複製任務註解的連結，註解會開啟專案頁面。
+
 #### 複製本文
 
 「複製內文」選項可將文字從特定更新複製到剪貼簿。
@@ -507,6 +466,64 @@ drafted for P&P release:
    <!--ensure the screen shot above is correct - missing he block quote icon in rich text -->
 
 1. 繼續新增更新，然後按一下 **提交** 以新增註解。
+
+### 複製舊版評論體驗中的更新
+
+<!--remove legacy when removed from the UI-->
+
+* [複製更新](#copy-the-update)
+* [複製執行緒連結](#copy-the-thread-link)
+* [複製更新連結](#copy-the-update-link)
+* [引文回覆](#quote-reply)
+
+  >[!TIP]
+  >
+  >當您複製並共用更高層物件之子物件對話的連結時，該連結會在子物件的「更新」區域中開啟對話串。
+  >
+  >例如，如果您從專案的「更新」區域複製任務註解的連結，註解會開啟任務頁面。
+
+#### 複製更新 {#copy-the-update}
+
+此選項會將文字從特定更新複製到剪貼簿。
+
+1. 前往更新或您要複製的回覆。
+1. 按一下 **更多** 功能表，然後按一下 **複製內文**.
+
+   ![](assets/update-stream-comment-menu-marked-350x152.png)
+
+#### 複製執行緒連結 {#copy-the-thread-link}
+
+此選項會將完整對話串連結複製到剪貼簿，以便您與其他使用者共用對話串。
+
+1. 移至您要複製的更新執行緒。
+
+1. 按一下 **更多** 功能表，然後按一下 **複製對話連結**.
+
+   ![](assets/update-stream-comment-menu-marked-350x152.png)
+
+1. 將您在上一步中複製的連結貼入電子郵件或其他應用程式，以便與其他人共用。 共用連結會開啟您共用連結的註解。
+
+#### 複製更新連結 {#copy-the-update-link}
+
+此選項會將特定的更新連結複製到剪貼簿。 當您共用更新連結時，追蹤該連結的使用者會看到更新周圍的邊框。
+
+1. 前往更新或您要複製的回覆。
+1. 按一下 **更多** 個別更新旁的功能表，然後按一下 **複製更新連結**.
+
+   ![](assets/copy-update-link-old-ui.png)
+
+1. 將您在上一步中複製的連結貼入電子郵件或其他應用程式，以便與其他人共用。 共用連結會開啟您共用連結的註解。
+
+#### 引文回覆
+
+「報價回覆」選項會將原始註解複製到新的回覆，做為區塊報價。
+
+1. 前往更新或您要複製的回覆。
+1. 按一下 **更多** 功能表，然後按一下 **引文回覆**.
+
+   新註解方塊開啟，引述的回覆會包含在新的註解中，並標示為區塊引號。
+
+1. 繼續新增更新，然後按一下 **回覆** 以新增註解。
 
 ## 刪除更新或回覆
 
