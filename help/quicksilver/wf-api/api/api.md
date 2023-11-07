@@ -7,8 +7,9 @@ description: Workfront API文章
 author: Becky
 feature: Workfront API
 recommendations: noDisplay, noCatalog
+role: Developer
 exl-id: 90e00a71-1a3a-4e3f-99d8-47700052a9dc
-source-git-commit: 34ce6492e14399926aed910bf9ed4d8688904341
+source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
 source-wordcount: '156'
 ht-degree: 1%

@@ -1,39 +1,40 @@
 ---
 content-type: api
 navigation-topic: api-navigation-topic
-title: API 8版的新功能
-description: 這是API 9版新增的資源清單。 如需已對第8版之資源進行更新的清單，請造訪第8版的更新
+title: API 8版的新增功能
+description: 這是API版本9的新資源清單。 如需第8版資源的更新清單，請造訪API第8版的更新
 author: Becky
 feature: Workfront API
+role: Developer
 exl-id: 90fefaa6-d387-4cdb-8aea-9a939fe2ac26
-source-git-commit: f050c8b95145552c9ed67b549608c16115000606
+source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
-source-wordcount: '288'
-ht-degree: 31%
+source-wordcount: '261'
+ht-degree: 28%
 
 ---
 
-# API 8版的新功能
+# API 8版的新增功能
 
 ## 新資源
 
-這是API 9版新增的資源清單。 如需已對第8版資源進行更新的清單，請造訪 [API第8版的更新](../../wf-api/api/new-api-version-8-updates.md)
+這是API版本9的新資源清單。 如需8版資源的更新清單，請造訪 [API第8版的更新](../../wf-api/api/new-api-version-8-updates.md)
 
-**AgileWork**
+**敏捷工作**
 
-| 欄位 | 參考 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
+| 欄位 | 引用 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
 |---|---|---|---|---|---|---|
-| backlogOrder | 客戶 |   |   | bulkCopy  |   | 複製 |
-| 色彩 | 迭代  |   |   |   |   | 計數 |
+| backlogOrder | 客戶 |   |   | bulkcopy  |   | 複製 |
+| 顏色 | 反複專案  |   |   |   |   | 計數 |
 | customerID | lastUpdatedBy |   |   |   |   | DELETE |
-| 估計 | opTask |   |   |   |   | 編輯 |
+| 預估 | op任務 |   |   |   |   | 編輯 |
 | ID | 專案 |   |   |   |   | GET  |
-| isReady | 情節提要父級 |   |   |   |   | 報表 |
+| isReady | storyboardParent |   |   |   |   | 報告 |
 | iterationID | 任務 |   |   |   |   | SEARCH |
 | lastUpdateDate | 團隊 |   |   |   |   |   |
 | lastUpdatedByID |   |   |   |   |   |   |
 | 名稱 |   |   |   |   |   |   |
-| opTaskID |   |   |   |   |   |   |
+| opTaskId |   |   |   |   |   |   |
 | parentStoryBoardOrder |   |   |   |   |   |   |
 | projectID |   |   |   |   |   |   |
 | storyBoardOrder |   |   |   |   |   |   |
@@ -44,110 +45,110 @@ ht-degree: 31%
 | uiObjCode |   |   |   |   |   |   |
 | uiObjectID |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### APIVersionMetadata
 
-| 欄位 | 參考 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
+| 欄位 | 引用 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
 |---|---|---|---|---|---|---|
 | deprecationRelease |   |   |   |   |   | 計數  |
-| removeRelease |   |   |   |   |   | GET |
-| versionName |   |   |   |   |   | 報表 |
+| removalRelease |   |   |   |   |   | GET |
+| versionName |   |   |   |   |   | 報告 |
 |   |   |   |   |   |   | SEARCH |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-**看板板**
+**KanbanBoard**
 
-| 欄位 | 參考 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
+| 欄位 | 引用 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
 |---|---|---|---|---|---|---|
 | ID |   |   |   |   |   | 新增 |
 | 名稱 |   |   |   |   |   | 計數 |
 |   |   |   |   |   |   | DELETE |
 |   |   |   |   |   |   | 編輯 |
 |   |   |   |   |   |   | GET |
-|   |   |   |   |   |   | 報表 |
+|   |   |   |   |   |   | 報告 |
 |   |   |   |   |   |   | SEARCH |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### ProofApprovalStatus
 
-| 欄位 | 參考 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
+| 欄位 | 引用 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
 |---|---|---|---|---|---|---|
 | ID |   |   |   |   |   |   |
 | proofApprovalStatusID |   |   |   |   |   |   |
 | proofApprovalStatusLabel |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 **ProofFileMetadata**
 
-| 欄位 | 參考 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
+| 欄位 | 引用 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
 |---|---|---|---|---|---|---|
-| documentVersionID | documentVersion |   |   |   |   |   |
+| documentVersionID | documentversion |   |   |   |   |   |
 | fileIndex |   |   |   |   |   |   |
-| fileName |   |   |   |   |   |   |
+| 檔案名稱 |   |   |   |   |   |   |
 | ID |   |   |   |   |   |   |
 | isURL |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-**ResourceDekededHour**
+**ResourceBudgetedHour**
 
-| 欄位 | 參考 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
+| 欄位 | 引用 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
 |---|---|---|---|---|---|---|
 | allocationDate |   |   |   |   |   | 新增 |
-| 預算小時數 |   |   |   |   |   | 計數 |
-| planedDekededHours |   |   |   |   |   | DELETE |
+| budgetedHours |   |   |   |   |   | 計數 |
+| plannedBudgetedHours |   |   |   |   |   | DELETE |
 | projectID |   |   |   |   |   | 編輯 |
 | roleID |   |   |   |   |   | GET |
-| userID |   |   |   |   |   | 報表 |
+| userID |   |   |   |   |   | 報告 |
 |   |   |   |   |   |   | SEARCH |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### ResourcePlannerFilter
 
-| 欄位 | 參考 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
+| 欄位 | 引用 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
 |---|---|---|---|---|---|---|
 | ID |   |   |   |   |   | 新增 |
 | 名稱 |   |   |   |   |   | 計數 |
 |   |   |   |   |   |   | DELETE |
 |   |   |   |   |   |   | 編輯 |
 |   |   |   |   |   |   | GET |
-|   |   |   |   |   |   | 報表 |
+|   |   |   |   |   |   | 報告 |
 |   |   |   |   |   |   | SEARCH |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-**RtfTextNote**
+**RTF備註**
 
-| 欄位 | 參考 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
+| 欄位 | 引用 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
 |---|---|---|---|---|---|---|
 | ID |   |   |   |   |   | 計數 |
 |   |   |   |   |   |   | GET |
-|   |   |   |   |   |   | 報表 |
+|   |   |   |   |   |   | 報告 |
 |   |   |   |   |   |   | SEARCH |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### 訂閱
 
-| 欄位 | 參考 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
+| 欄位 | 引用 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
 |---|---|---|---|---|---|---|
-|  ID |   |   |   | addSubscribers | 訂閱 | 新增 |
+|  ID |   |   |   | addSubscribers | 訂閱者 | 新增 |
 |   |   |   |   | removeSubscribers |   | 計數  |
-|   |   |   |   | 訂閱數 |   | DELETE |
+|   |   |   |   | 訂閱次數 |   | DELETE |
 |   |   |   |   | 取消訂閱 |   | GET |
-|   |   |   |   |   |   | 報表 |
+|   |   |   |   |   |   | 報告 |
 |   |   |   |   |   |   | SEARCH |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-### 用戶角色
+### 使用者角色
 
-| 欄位 | 參考 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
+| 欄位 | 引用 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
 |---|---|---|---|---|---|---|
 | roleID | 角色 |   |   |   |   |   |
 | timePercentage | 使用者 |   |   |   |   |   |

@@ -1,31 +1,32 @@
 ---
 content-type: api
 navigation-topic: api-navigation-topic
-title: API 7版的新功能
+title: API 7版的新增功能
 description: 集合
 author: Becky
 feature: Workfront API
+role: Developer
 exl-id: 8c575251-677b-474d-84aa-02b637ef7760
-source-git-commit: f050c8b95145552c9ed67b549608c16115000606
+source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
-source-wordcount: '564'
-ht-degree: 50%
+source-wordcount: '474'
+ht-degree: 47%
 
 ---
 
-# API 7版的新功能
+# API 7版的新增功能
 
-## 新對象
+## 新物件
 
-### 校樣Bean
+### 校訂Bean
 
-| 欄位 | 參考 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
+| 欄位 | 引用 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
 |---|---|---|---|---|---|---|
 | ID |   |   |   |   |   | 搜尋 |
-| deadLine |   |   |   |   |   |   |
+| 行尾 |   |   |   |   |   |   |
 | 名稱 |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### DocMetadataLink
 
@@ -40,7 +41,7 @@ ht-degree: 50%
  <thead> 
   <tr> 
    <th>欄位</th> 
-   <th>參考</th> 
+   <th>引用</th> 
    <th> <p data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Type&quot;}">集合</p> <p data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Type&quot;}">+++++++++++ </p> </th> 
    <th>搜尋</th> 
    <th>動作</th> 
@@ -83,7 +84,7 @@ ht-degree: 50%
    <td> </td> 
    <td> </td> 
    <td> </td> 
-   <td>取得  </td> 
+   <td>Get  </td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -108,104 +109,104 @@ ht-degree: 50%
 
 ### DocMetadataLinkGroup
 
-| 欄位 | 參考 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
+| 欄位 | 引用 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
 |---|---|---|---|---|---|---|
 | ID |   |   |   |   |   | 新增 |
 |   |   |   |   |   |   | 計數 |
 |   |   |   |   |   |   | 刪除 |
-|   |   |   |   |   |   | 取得 |
+|   |   |   |   |   |   | Get |
 |   |   |   |   |   |   | 報告 |
 |   |   |   |   |   |   | 搜尋 |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### ProofApproval
 
-| 欄位 | 參考 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
+| 欄位 | 引用 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
 |---|---|---|---|---|---|---|
 | ID |   |   |   |   |   | 計數 |
-|   |   |   |   |   |   | 取得 |
+|   |   |   |   |   |   | Get |
 |   |   |   |   |   |   | 報告 |
 |   |   |   |   |   |   | 搜尋 |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 
 ### 資源輪廓
 
-| 欄位 | 參考 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
+| 欄位 | 引用 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
 |---|---|---|---|---|---|---|
 | ID |   |   |   |   |   | 新增 |
 |   |   |   |   |   |   | 計數 |
 |   |   |   |   |   |   | 刪除 |
 |   |   |   |   |   |   | 編輯 |
-|   |   |   |   |   |   | 取得 |
+|   |   |   |   |   |   | Get |
 |   |   |   |   |   |   | 報告 |
 |   |   |   |   |   |   | 搜尋 |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 
 ### 使用者群組
 
-| 欄位 | 參考 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
+| 欄位 | 引用 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
 |---|---|---|---|---|---|---|
 | groupID | 群組 |   |   |   |   |   |
 | isOwner  | 使用者  |   |   |   |   |   |
 | userID  |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 
-### 時間表配置檔案
+### 週期性時程表
 
-| 欄位 | 參考 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
+| 欄位 | 引用 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
 |---|---|---|---|---|---|---|
-| ID |   |  hourTypes |   |   |   | 新增 |
+| ID |   |  hourType |   |   |   | 新增 |
 | 名稱 |   |   |   |   |   | 複製 |
 |   |   |   |   |   |   | 計數 |
 |   |   |   |   |   |   | 刪除 |
 |   |   |   |   |   |   | 編輯 |
-|   |   |   |   |   |   | 取得 |
+|   |   |   |   |   |   | Get |
 |   |   |   |   |   |   | 報告 |
 |   |   |   |   |   |   | 搜尋 |
 |   |   |   |   |   |   | 取代 |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 
 ### RsrcPool
 
-| 欄位 | 參考 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
+| 欄位 | 引用 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
 |---|---|---|---|---|---|---|
 | ID | 客戶 | 使用者 |   |   |   | 新增 |
-| customerID  | enteredBy  |   |   |   |   | 計數 |
+| customerID  | 輸入者  |   |   |   |   | 計數 |
 | 說明  | lastUpdatedBy  |   |   |   |   | 刪除 |
-| enteredByID  |   |   |   |   |   | 編輯 |
-| entryDate  |   |   |   |   |   | 取得 |
-| extRefID  |   |   |   |   |   | 報告 |
+| enteredById  |   |   |   |   |   | 編輯 |
+| entryDate  |   |   |   |   |   | Get |
+| extRefId  |   |   |   |   |   | 報告 |
 | lastUpdateDate |   |   |   |   |   | 搜尋 |
 | lastUpdateByID |   |   |   |   |   |   |
 | 名稱 |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 
 ### DocMetadataLinkGroup
 
-| 欄位 | 參考 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
+| 欄位 | 引用 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
 |---|---|---|---|---|---|---|
 | ID |   |   |   |   |   | 計數 |
-| articleName  |   |   |   |   |   | 取得 |
+| 文章名稱  |   |   |   |   |   | Get |
 | pageID  |   |   |   |   |   | 報告 |
 | url  |   |   |   |   |   | 搜尋 |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 
@@ -215,150 +216,150 @@ ht-degree: 50%
 
 ## 更新的物件
 
-對現有對象的更改：「添加」(additions)僅列出，「移除」(removes)為「刪除」(striketh)，「現有」(existing)的更改在表格後面附加一個附註
+對現有物件的變更：新增物件只是簡單的列出、移除具有刪除線、對現有物件的變更在表格後面具有附加註記
 
 ### UpdateBean
 
-| 欄位 | 參考 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
+| 欄位 | 引用 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
 |---|---|---|---|---|---|---|
-| updateType¹ |   |   |   |   |   |   |
+| updateType<sup>1</sup> |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹可能值的變更 
+<sup>1</sup> 可能值的變更 
 
  
 
 ### ApprovalServiceObject
 
-| 欄位 | 參考 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
+| 欄位 | 引用 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
 |---|---|---|---|---|---|---|
 | approvalCompletionDate |   |   |   |   |   |   |
-| approvalStartDate¹ |   |   |   |   |   |   |
+| approvalStartDate<sup>1</sup> |   |   |   |   |   |   |
 | workPerDayList |   |   |   |   |   |    |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 
-### AccessRule¹
+### 存取規則<sup>1</sup>
 
-¹標示為可報告
+<sup>1</sup> 標示為可報告
 
  
 
 ### 核准流程
 
-| 欄位 | 參考 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
+| 欄位 | 引用 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
 |---|---|---|---|---|---|---|
 |   |   | `AttachedApprovalPaths`  |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
   
 
-### 批准路徑¹
+### 核准路徑<sup>1</sup>
 
-| 欄位 | 參考 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
+| 欄位 | 引用 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
 |---|---|---|---|---|---|---|
 |   |   |   |   |   |   | `Add` |
 |   |   |   |   |   |   | `Delete` |
 |   |   |   |   |   |   | `Edit` |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹已移除可報告旗標
+<sup>1</sup> 已移除可報告旗標
 
  
 
-### 工作服務對象
+### 工作服務物件
 
-| 欄位 | 參考 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
+| 欄位 | 引用 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
 |---|---|---|---|---|---|---|
 | approvalCompletionDate |   |   |   |   |   |   |
 | approvalStartDate |   |   |   |   |   |   |
 | workPerDayList |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹新增日期驗證
+<sup>1</sup> 日期驗證已新增
 
-²已添加不可篩選標籤(_F)
+<sup>2</sup> 已新增Not_Filterable旗標
 
  
 
 ### 指派
 
-| 欄位 | 參考 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
+| 欄位 | 引用 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
 |---|---|---|---|---|---|---|
-|  workPerDayList |   |   |   | assignUserToRoleOnProjects¹ |   |   |
-|   |   |   |   | swapUsersOnProjects¹ |   |   |
-|   |   |   |   | unassignUserFromProjects¹ |   |   |
+|  workPerDayList |   |   |   | assignUserToRoleOnProject<sup>1</sup> |   |   |
+|   |   |   |   | swapUsersOnProjects<sup>1</sup> |   |   |
+|   |   |   |   | unassignuserfromprojects<sup>1</sup> |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹新增欄位includeIssues
+<sup>1</sup> 新增欄位includeIssues
 
  
 
 ### 客戶 
 
-| 欄位 | 參考 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
+| 欄位 | 引用 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
 |---|---|---|---|---|---|---|
-| bizRuleExclusions¹ |   |   |   |   |   |   |
+| bizRuleExclusions<sup>1</sup> |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹可能值的變更 
+<sup>1</sup> 可能值的變更 
 
  
 
 ### 自訂枚舉 
 
-| 欄位 | 參考 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
+| 欄位 | 引用 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
 |---|---|---|---|---|---|---|
 | groupID  |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 
 ### 文件 
 
-| 欄位 | 參考 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
+| 欄位 | 引用 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
 |---|---|---|---|---|---|---|
 | checkOutTimestamp |   |   |   |  createProof |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 
-### DocumentVersion 
+### 檔案版本 
 
-| 欄位 | 參考 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
+| 欄位 | 引用 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
 |---|---|---|---|---|---|---|
-|   |   |   |   |  getPookingTokens |   |   |
+|   |   |   |   |  getProofingTokens |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 
 ### 群組
 
-| 欄位 | 參考 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
+| 欄位 | 引用 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
 |---|---|---|---|---|---|---|
-| isPublic |  layoutTemplate | userGroups  |   |   |   |   |
-| layoutTemplateID |   |   |   |   |   |   |
+| isPublic |  layoutTemplate | 使用者群組  |   |   |   |   |
+| Layouttemplateid |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹將8版的PRECISION驗證器更改為9版
+<sup>1</sup> 將PRECISION驗證器從8變更為9
 
  
 
-### HourType
+### Hourtype
 
-| 欄位 | 參考 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
+| 欄位 | 引用 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
 |---|---|---|---|---|---|---|
 |   |   |   |   |   | defaultOpTaskHourType |   |
 |   |   |   |   |   | defaultProjectHourType |   |
@@ -366,30 +367,30 @@ ht-degree: 50%
 |   |   |   |   |   | globalHourTypes  |   |
 |   |   |   |   |   | objectHourTypes  |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 
 ### 日誌輸入項目
 
-| 欄位 | 參考 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
+| 欄位 | 引用 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
 |---|---|---|---|---|---|---|
-| changeType¹ |   |   |   |   |   |   |
+| changeType<sup>1</sup> |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹可能值的變更
+<sup>1</sup> 可能值的變更
 
  
 
-### Optask（問題）
+### Optask （問題）
 
-| 欄位 | 參考 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
+| 欄位 | 引用 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
 |---|---|---|---|---|---|---|
 | approvalCompletionDate |   |   |   |  assignMultiple |   |   |
 | approvalStartDate |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 
@@ -397,12 +398,12 @@ ht-degree: 50%
 
 ### 專案
 
-| 欄位 | 參考 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
+| 欄位 | 引用 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
 |---|---|---|---|---|---|---|
 | approvalCompletionDate |   |   |   |   |   |   |
 | approvalStartDate |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 
@@ -410,55 +411,55 @@ ht-degree: 50%
 
 ### QueueDef
 
-| 欄位 | 參考 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
+| 欄位 | 引用 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
 |---|---|---|---|---|---|---|
-| 允許的LegacyQueueTopicIDs |  |  |  | getQueueDefTree |   |   |
+| allowedLegacyQueueTopicIDs |  |  |  | getQueueDefTree |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 
-### 隊列主題
+### 佇列主題
 
-| 欄位 | 參考 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
+| 欄位 | 引用 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
 |---|---|---|---|---|---|---|
-|   |   |   |   |   |  queueTopicID |   |
+|   |   |   |   |   |  佇列主題ID |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 
 ### 最新
 
-| 欄位 | 參考 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
+| 欄位 | 引用 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
 |---|---|---|---|---|---|---|
 |   |   |   |   |  updateLastViewedObject |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 
 ### 任務
 
-| 欄位 | 參考 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
+| 欄位 | 引用 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
 |---|---|---|---|---|---|---|
 | approvalCompletionDate |   |   |   | assignMultiple  |   |   |
 | approvalStartDate |   |   |   |   |   |   |
 | workPerDayList |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 
-### 模板任務
+### 範本任務
 
-| 欄位 | 參考 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
+| 欄位 | 引用 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
 |---|---|---|---|---|---|---|
-| workRequired¹ |   |   |   |   |   |   |
+| 所需工作<sup>1</sup> |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹類型從Int更改為Double 
+<sup>1</sup> 型別從Int變更為Double 
 
  
 
@@ -475,7 +476,7 @@ ht-degree: 50%
  <thead> 
   <tr> 
    <th>欄位</th> 
-   <th>參考</th> 
+   <th>引用</th> 
    <th>集合</th> 
    <th>搜尋</th> 
    <th>動作</th> 
@@ -509,7 +510,7 @@ ht-degree: 50%
    <td> </td> 
    <td> </td> 
    <td> </td> 
-   <td>hasAnyAccess</td> 
+   <td>hasanyaccess</td> 
    <td> </td> 
    <td> </td> 
   </tr> 
@@ -518,7 +519,7 @@ ht-degree: 50%
    <td> </td> 
    <td> </td> 
    <td> </td> 
-   <td>isUserTerminationActive</td> 
+   <td>isUserTerminalsActive</td> 
    <td> </td> 
    <td> </td> 
   </tr> 
@@ -543,15 +544,15 @@ ht-degree: 50%
  </tbody> 
 </table>
 
-### 用戶注釋
+### 使用者附註
 
-| 欄位 | 參考 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
+| 欄位 | 引用 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
 |---|---|---|---|---|---|---|
 | `acknowledgedmentIDs` |   |   |   |  unackknowledgeMany |   |   |
 | ackDate |   |   |   |   |   |   |
 | ackType |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 
@@ -559,10 +560,10 @@ ht-degree: 50%
 
 ### CustomerPrefObject
 
-| 欄位 | 參考 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
+| 欄位 | 引用 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
 |---|---|---|---|---|---|---|
 |  名稱 |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹可能值的變更
+<sup>1</sup> 可能值的變更

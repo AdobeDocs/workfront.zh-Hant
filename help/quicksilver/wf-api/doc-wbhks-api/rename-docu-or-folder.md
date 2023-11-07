@@ -2,22 +2,23 @@
 content-type: api
 product-area: documents
 navigation-topic: documents-webhooks-api
-title: 更名文檔或資料夾（尚未實施）
-description: 更名文檔或資料夾
+title: 重新命名檔案或資料夾（尚未實作）
+description: 重新命名檔案或資料夾
 author: Becky
 feature: Workfront API, Digital Content and Documents
+role: Developer
 exl-id: 5b1a4a02-a7fd-41f2-9adb-74b40606270b
-source-git-commit: f050c8b95145552c9ed67b549608c16115000606
+source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
 workflow-type: tm+mt
 source-wordcount: '81'
-ht-degree: 6%
+ht-degree: 8%
 
 ---
 
 
-# 更名文檔或資料夾（尚未實施）
+# 重新命名檔案或資料夾（尚未實作）
 
-在外部系統中使用指定ID更名文檔或資料夾。
+重新命名外部系統中具有特定ID的檔案或資料夾。
 
 **URL**
 
@@ -27,13 +28,13 @@ PUT/重新命名
 
 | 名稱  | 說明 |
 |---|---|
-| id | 要更名的文檔或資料夾ID |
-| 名稱  | 文檔或資料夾的新名稱 |
+| id | 要重新命名的檔案或資料夾ID |
+| 名稱  | 檔案或資料夾的新名稱 |
 
 
 ## 個回應
 
-表示成功或失敗的JSON字串，如下方的錯誤處理一節中所指定。
+指示成功或失敗的JSON字串，如以下錯誤處理區段中所指定。
 
 **範例：** PUThttps://www.acme.com/api/rename
 
@@ -50,9 +51,9 @@ name=Folder B ­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­
 傳回
 
 ```
-{status: “success”
+{status: "success"
  }returns
  {
- status: “failure”, error: “Folder cannot be renamed because a folder with that name already exists.”
+ status: "failure", error: "Folder cannot be renamed because a folder with that name already exists."
  }
 ```

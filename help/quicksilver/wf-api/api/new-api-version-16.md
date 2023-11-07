@@ -5,8 +5,9 @@ title: API 16版的新增功能
 description: Adobe Workfront於2022年4月6日發行API第16版。 API第16版具有第15版的下列變更。
 author: Becky
 feature: Workfront API
+role: Developer
 exl-id: a3d8534b-fe6e-4782-baab-7c94555ea40c
-source-git-commit: 8afbb1f45331d79bb849afb3acf3e9ff054cefc3
+source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
 source-wordcount: '1180'
 ht-degree: 0%

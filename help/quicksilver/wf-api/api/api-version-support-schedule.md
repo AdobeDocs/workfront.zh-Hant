@@ -5,8 +5,9 @@ title: API版本設定和支援排程
 description: API版本設定和支援排程
 author: Becky
 feature: Workfront API
+role: Developer
 exl-id: b072704c-a34c-4a17-aca3-ab93a016dfc8
-source-git-commit: f3dc40ec75433508ab617bbdbd0f5cb57866f411
+source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
 source-wordcount: '249'
 ht-degree: 10%

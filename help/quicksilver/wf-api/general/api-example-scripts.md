@@ -5,8 +5,9 @@ title: API範例指令碼
 description: FAPI範例指令碼
 author: Becky
 feature: Workfront API
+role: Developer
 exl-id: 76c5eca6-be82-4331-9da9-9943e0bda669
-source-git-commit: f050c8b95145552c9ed67b549608c16115000606
+source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
 workflow-type: tm+mt
 source-wordcount: '252'
 ht-degree: 0%
@@ -18,10 +19,10 @@ ht-degree: 0%
 
 ## Adobe Workfront API範例
 
-以下是與Workfront RESTful API互動的不同程式設計語言的範例。 每個範例都會執行下列操作：
+以下是用來與Workfront RESTful API互動的各種程式語言範例。 每個範例都會執行下列操作：
 
-* 建立連接
-* 檢索登錄用戶資訊
+* 建立連線
+* 擷取登入使用者資訊
 * 查詢專案
 * 建立專案
 * 擷取專案
@@ -29,14 +30,14 @@ ht-degree: 0%
 * 刪除專案
 * 登出
 
-您可以前往Workfront的Github頁面下載下列範例：  [https://github.com/Workfront](https://github.com/Workfront)
+您可以在Workfront的Github頁面下載這些範例：  [https://github.com/Workfront](https://github.com/Workfront)
 
-若要在存放庫中尋找範例，請輸入 `example` 進入 **查找儲存庫……** 框。
+若要在存放庫中尋找範例，請輸入 `example` 到 **尋找存放庫……** 方塊。
 
 >[!NOTE]
 >
->API的任何使用應先在Workfront的測試版環境中測試，再在生產環境中執行。 如果任何客戶使用API處理Workfront合理認為對隨需軟體造成負擔的程式（即該程式對其他客戶的軟體效能造成重大負面影響）,Workfront保留要求客戶停止該程式的權利，如果客戶不遵守該程式且問題持續存在，Workfront保留終止該程式的權利。
+>任何使用API的情況都應在Workfront的測試版環境中測試，然後再於生產環境中執行。 如果有任何客戶將API用于某項處理，而Workfront合理地認為該處理增加了隨選軟體的負擔（亦即該處理對其他客戶的軟體效能造成重大負面影響），Workfront保留請求客戶停止該處理的權利，如果客戶不遵守該規定且問題仍然存在，Workfront則保留終止該處理的權利。
 
 >[!IMPORTANT]
 >
->本軟體依「現況」提供，不含任何明示或默示之擔保，包括但不限於適銷性、特定用途之適用性及未侵權之擔保。 在任何情況下，作者或著作權持有人概不負責因合約、侵權或其他訴訟、因本軟體而產生、因本軟體而產生或與本軟體之使用或其他交易有關之任何索賠、損害或其他責任。
+>本軟體係依「現況」提供，不含任何明示或暗示擔保，包括但不限於適銷性、特定用途適用性及非侵權之擔保。 在任何情況下，著作人或著作權所有人對於所發生之任何索賠、損害賠償或其他責任概不負責，無論是否為合約訴訟、侵權或其他行為，亦無論是否與本軟體本身、本軟體的使用或其他交易有關。

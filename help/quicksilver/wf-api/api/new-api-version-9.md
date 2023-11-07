@@ -1,27 +1,28 @@
 ---
 content-type: api
 navigation-topic: api-navigation-topic
-title: API 9版的新功能
-description: 這是API 9版最新的資源清單，若要查看9版資源的更新清單，請造訪API 9版的更新
+title: API 9版的新增功能
+description: 這是API版本9的新資源清單，若要檢視版本9的資源更新清單，請造訪API版本9的更新
 author: Becky
 feature: Workfront API
+role: Developer
 exl-id: 29d922f4-f4c6-45e5-b9fa-43e2068ec66d
-source-git-commit: f050c8b95145552c9ed67b549608c16115000606
+source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
-source-wordcount: '189'
-ht-degree: 25%
+source-wordcount: '168'
+ht-degree: 20%
 
 ---
 
-# API 9版的新功能
+# API 9版的新增功能
 
 ## 新資源
 
-這是API 9版最新的資源清單，若要查看9版資源已進行的更新清單，請造訪 [API第9版的更新](../../wf-api/api/new-api-version-9-updates.md)
+這是API版本9的新資源清單，若要檢視版本9的資源更新清單，請造訪 [API第9版的更新](../../wf-api/api/new-api-version-9-updates.md)
 
-### AccessLevel
+### 存取層級
 
-| 欄位 | 參考 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
+| 欄位 | 引用 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
 |---|---|---|---|---|---|---|
 | `accessRestrictions` | `customer` | `accessLevelPermissions` |  |  |  | `ADD` |
 | `customerID` | `lastUpdatedBy` | `accessRulePreferences` |  |  |  | `COPY` |
@@ -40,11 +41,11 @@ ht-degree: 25%
 | `nameKey` |  |  |  |  |  |  |
 | `securityModelType` |  |  |  |  |  |  |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### AccessLevelPermissions
 
-| 欄位 | 參考 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
+| 欄位 | 引用 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
 |---|---|---|---|---|---|---|
 | `coreAction` |  |  |  |  |  |   |
 | `forbiddenActions` |  |  |  |  |  |   |
@@ -53,19 +54,19 @@ ht-degree: 25%
 | `objObjCode` |  |  |  |  |  |  |
 | `secondaryActions` |  |  |  |  |  |  |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### AccessRulePreference
 
-| 欄位 | 參考 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
+| 欄位 | 引用 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
 |---|---|---|---|---|---|---|
 | `ID` |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-### DekededHour
+### BudgetedHour
 
-| 欄位 | 參考 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
+| 欄位 | 引用 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
 |---|---|---|---|---|---|---|
 | `allocationDate` |  |  |  |  |  | `ADD` |
 | `budgetedHours` |  |  |  |  |  | `DELETE` |
@@ -75,11 +76,11 @@ ht-degree: 25%
 | `roleID`  |   |   |   |   |   |   |
 | `userID`  |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-### 日曆門戶節
+### CalendarPortalSection
 
-| 欄位 | 參考 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
+| 欄位 | 引用 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
 |---|---|---|---|---|---|---|
 | `calendarInfoID` | `customer` |  | `displayDescription` |  |  | `ADD` |
 | `customerID` | `enteredBy` |  | `displayName` |  |  | `COPY` |
@@ -90,11 +91,11 @@ ht-degree: 25%
 | `objID`  |   |   |   |   |   |   |
 | `objObjCode`  |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-### 日曆節
+### 行事曆區段
 
-| 欄位 | 參考 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
+| 欄位 | 引用 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
 |---|---|---|---|---|---|---|
 | `calendarID` | `customer` | `filters` |  | `getConcatenatedExpressionForm` |  | `ADD` |
 | `calEvents` |  |  |  | `getPrettyExpressionForm` |  | `COUNT` |
@@ -107,11 +108,11 @@ ht-degree: 25%
 | `plannedDate` |   |   |   |   |   |   |
 | `startDate` |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-### ExternalSection
+### Externalsection
 
-| 欄位 | 參考 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
+| 欄位 | 引用 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
 |---|---|---|---|---|---|---|
 | `appGlobalID` | `customer` |  | `displayDescription` | `calculateURL` |  | `ADD` |
 | `calculatedURL` | `enteredBy` |  | `displayName` | `calculateURLS` |  | `COPY` |
@@ -135,8 +136,8 @@ ht-degree: 25%
 | `url` |   |   |   |   |   |   |
 | `viewID` |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 
-這份清單分成兩半。 要查看下半部分，請參閱 [API 9版的新功能（續）](../../wf-api/api/new-api-version-9-continue.md). 若要檢視第9版更新的清單，請造訪 [API第9版的更新](../../wf-api/api/new-api-version-9-updates.md)
+此清單已分成兩半。 若要檢視下半部分，請參閱 [API第9版的新增功能（續）](../../wf-api/api/new-api-version-9-continue.md). 若要檢視版本9更新的清單，請造訪 [API第9版的更新](../../wf-api/api/new-api-version-9-updates.md)

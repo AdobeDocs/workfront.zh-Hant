@@ -5,8 +5,9 @@ title: 事件訂閱的傳出訊息格式
 description: 事件訂閱的傳出訊息格式
 author: Becky
 feature: Workfront API
+role: Developer
 exl-id: addcf5bc-a101-4bb0-93a6-46b4af67c848
-source-git-commit: f050c8b95145552c9ed67b549608c16115000606
+source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
 source-wordcount: '249'
 ht-degree: 0%
@@ -15,7 +16,7 @@ ht-degree: 0%
 
 # 事件訂閱的傳出訊息格式
 
-隨著Adobe Workfront 2017.3的發行，事件訂閱的傳出訊息格式將有所變更，以提升效能並更妥善地使用整合的事件訂閱。
+隨著Adobe Workfront 2017.3的發行，事件訂閱的輸出訊息格式將會變更，以提高效能並更好地使用事件訂閱來整合。
 
 ## 更新傳出訊息格式
 
@@ -23,22 +24,22 @@ ht-degree: 0%
 
 * 傳出訊息將包含Workfront資源的oldState和newState。
 
-   這些值將顯示因Workfront中的事件而對物件進行的變更。
+  這些值會顯示因Workfront中的事件而對物件所做的變更。
 
 * eventTime中繼資料欄位將新增至所有傳出訊息。
 
-   此欄位將以納秒和EpochSeconds表示事件發生的時間。 在排序由整合處理的事件時使用eventTime 。
+  此欄位將以Nanoseconds和EpochSeconds表示事件發生時間。 排序由您的整合處理之事件時，請使用eventTime。
 
-* 將移除NOTE資源上的owner:companyID參考欄位。
-* 將刪除DOCU（文檔）資源上的currentVersion引用的objectOn。
+* 將會移除NOTE資源上的owner：companyID參考欄位。
+* 將移除DOCU （檔案）資源上的currentVersion參考物件。
 
-如果您目前使用Workfront事件訂閱，需要在2017.3版本之前更新Workfront整合，才能解決這些變更。
+如果您目前使用Workfront活動訂閱，需在2017.3版之前更新Workfront整合，才能解決這些變更。
 
-若要進一步了解事件訂閱，請參閱 [事件訂閱API](../../wf-api/general/event-subs-api.md).
+若要進一步瞭解事件訂閱，請參閱 [事件訂閱API](../../wf-api/general/event-subs-api.md).
 
-## 新舊報文格式示例
+## 新舊訊息格式的範例
 
-2017.3版發行後，將不再使用下列舊格式的CREATE訊息：
+2017.3版發行後將不再使用下列舊格式CREATE訊息：
 
 ```
 {
@@ -110,7 +111,7 @@ ht-degree: 0%
    "oldState": {}
 ```
 
-2017.3版發行後將不再使用下列舊格式的UPDATE訊息：
+2017.3版發行後將不再使用下列舊格式UPDATE訊息：
 
 ```
 {
@@ -146,7 +147,7 @@ ht-degree: 0%
  }
 ```
 
-2017.3版發行後將使用下列新格式UPDATE訊息：
+2017.3版發行後將使用以下新格式UPDATE訊息：
 
 ```
 {

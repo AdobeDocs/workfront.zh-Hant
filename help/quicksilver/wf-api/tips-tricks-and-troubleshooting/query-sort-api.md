@@ -1,12 +1,13 @@
 ---
 content-type: api;tips-tricks-troubleshooting
 navigation-topic: tips-tricks-and-troubleshooting-workfront-api
-title: 在API中排序查詢結果
-description: 在API中排序查詢結果
+title: 排序API中的查詢結果
+description: 排序API中的查詢結果
 author: Becky
 feature: Workfront API
+role: Developer
 exl-id: f001adb8-6295-4646-b9f1-78244a8c44a6
-source-git-commit: f050c8b95145552c9ed67b549608c16115000606
+source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
 workflow-type: tm+mt
 source-wordcount: '60'
 ht-degree: 0%
@@ -14,14 +15,14 @@ ht-degree: 0%
 ---
 
 
-# 在API中排序查詢結果
+# 排序API中的查詢結果
 
-如果您將下列項目附加至API呼叫，則可依任何欄位來排序結果：
+如果您將以下內容附加至API呼叫，則可以根據任何欄位來排序結果：
 
 ```
 &entryDate_Sort=asc
 ```
 
-例如，如果要按任務計畫起始日期排序，請刪除 `entryDate` 用 `plannedCompletionDate`.
+例如，如果您想按任務計劃開始日期排序，請移除 `entryDate` 並將其取代為 `plannedCompletionDate`.
 
-這適用於Adobe Workfront的大部分欄位。
+這適用於Adobe Workfront中的大部分欄位。

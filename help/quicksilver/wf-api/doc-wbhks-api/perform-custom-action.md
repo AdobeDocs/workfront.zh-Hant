@@ -6,22 +6,23 @@ title: 執行自訂動作
 description: 執行自訂動作
 author: Becky
 feature: Workfront API
+role: Developer
 exl-id: a18b6b97-ee1e-4ad2-a4e1-00a644a0f4f2
-source-git-commit: f050c8b95145552c9ed67b549608c16115000606
+source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
 workflow-type: tm+mt
 source-wordcount: '191'
-ht-degree: 3%
+ht-degree: 4%
 
 ---
 
 
 # 執行自訂動作（尚未實作）
 
-此端點可讓Adobe Workfront使用者（或自動化工作流程事件）在外部系統中執行動作。 /customAction端點接受「name」參數，該參數允許Webhook提供程式實施多個自定義操作。
+此端點可讓Adobe Workfront使用者（或自動化工作流程事件）在外部系統中執行動作。 /customAction端點接受「name」引數，此引數允許webhook提供者實作多個自訂操作。
 
-Webhook提供者會將動作納入customActions下的/serviceInfo回應中，以向Workfront註冊自訂動作。 Workfront在「設定>檔案>自訂整合」下設定或重新整理網頁連結提供者時，會載入此清單。
+webhook提供者會將actions包含在customActions下的/serviceInfo回應中，藉此向Workfront註冊自訂動作。 Workfront會在設定>檔案>自訂整合底下設定或重新整理webhook提供者時載入此清單。
 
-使用者可以選取「檔案動作」下方的區段，以觸發自訂動作
+使用者可以透過選擇「檔案動作」下的區段來觸發自訂動作
 
 **URL**
 
@@ -41,15 +42,15 @@ GET/customAction
  <tbody> 
   <tr> 
    <td> <p>名稱</p> </td> 
-   <td> <p>指定要執行之動作類型的識別碼。 此值對應於/serviceInfo端點返回的一個customAction值。</p> </td> 
+   <td> <p>指定要執行的動作型別的識別碼。 此值對應至/serviceInfo端點傳回的其中一個customAction值。</p> </td> 
   </tr> 
   <tr> 
    <td>documentId </td> 
-   <td>正在為其執行操作的工作流文檔ID。</td> 
+   <td>正在對其執行動作的Workfront檔案ID。</td> 
   </tr> 
   <tr> 
    <td>documentVersionId </td> 
-   <td> 正在執行操作的Workfront文檔版本ID。</td> 
+   <td> 正在對其執行動作的Workfront檔案版本ID。</td> 
   </tr> 
  </tbody> 
 </table>
@@ -58,7 +59,7 @@ GET/customAction
 
 ## 個回應
 
-表示成功或失敗的JSON字串，如下方的錯誤處理一節中所指定。 失敗時（即狀態= &quot;failure&quot;）,Workfront會向使用者顯示提供的錯誤訊息。
+指示成功或失敗的JSON字串，如以下錯誤處理區段中所指定。 失敗時（即狀態= &quot;failure&quot;），Workfront會向使用者顯示提供的錯誤訊息。
 
 **範例:**
 
@@ -70,6 +71,6 @@ https://sample.com/webhooks/customName?name=archive&documentId=5502082c003a4f30 
 
 ```
 {
-status: “success”
+status: "success"
 }
 ```

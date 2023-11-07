@@ -1,101 +1,102 @@
 ---
 content-type: api
 navigation-topic: api-navigation-topic
-title: API 6版的新功能
-description: API 6版的新功能
+title: API 6版的新增功能
+description: API 6版的新增功能
 author: Becky
 feature: Workfront API
+role: Developer
 exl-id: e671a881-b8c2-4234-a3a0-76b1fbfafd32
-source-git-commit: f050c8b95145552c9ed67b549608c16115000606
+source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
-source-wordcount: '570'
-ht-degree: 42%
+source-wordcount: '495'
+ht-degree: 38%
 
 ---
 
-# API 6版的新功能
+# API 6版的新增功能
 
-## 新對象
+## 新物件
 
 ### 資源管理員
 
-| 欄位 | 參考 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
+| 欄位 | 引用 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
 |---|---|---|---|---|---|---|
 | ID | 客戶 |   |   |   |   | 新增 |
 | customerID | 專案 |   |   |   |   | 計數 |
 | projectID | resourceManager |   |   |   |   | 刪除 |
-| resourceManagerID | 範本 |   |   |   |   | 取得 |
+| resourceManagerID | 範本 |   |   |   |   | Get |
 | templateID |   |   |   |   |   | 報告  |
 |   |   |   |   |   |   | 搜尋  |
 
 
 ### Ews
 
-| 欄位 | 參考 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
+| 欄位 | 引用 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
 |---|---|---|---|---|---|---|
-| fileName |   |   |   |   | 上傳 |   |
-| 手柄 |   |   |   |   |   |   |
-| objCode |   |   |   |   |   |   |
+| 檔案名稱 |   |   |   |   | 上傳 |   |
+| 控點 |   |   |   |   |   |   |
+| 物件代碼 |   |   |   |   |   |   |
 
 
 ### 自訂標籤
 
-| 欄位 | 參考 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
+| 欄位 | 引用 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
 |---|---|---|---|---|---|---|
-| ID |   |   |   | checkDelete | customLabels | 新增 |
-|   |   |   |   | inUseByOtherLayoutTemplate | userCustomLabels | 計數 |
-|   |   |   |   | removeCustomLabel |   | 刪除 |
-|   |   |   |   |   |   | 取得 |
+| ID |   |   |   | checkDelete | customLabel | 新增 |
+|   |   |   |   | inUseByOtherLayoutTemplate | userCustomLabel | 計數 |
+|   |   |   |   | removeCustomLabs |   | 刪除 |
+|   |   |   |   |   |   | Get |
 |   |   |   |   |   |   | 報告 |
 |   |   |   |   |   |   | 搜尋 |
 
 
 ## 更新的物件
 
-對現有對象的更改：「添加」(additions)僅列出，「移除」(removes)為「刪除」(striketh)，「現有」(existing)的更改在表格後面附加一個附註
+對現有物件的變更：新增物件只是簡單的列出、移除具有刪除線、對現有物件的變更在表格後面具有附加註記
 
 ### 更新
 
  
 
-| 欄位 | 參考 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
+| 欄位 | 引用 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
 |---|---|---|---|---|---|---|
-| updateType¹ |   |   |   |   | `sinceDate` |   |
-|   |   |   |   |   | objectUpdatesByCommentID² |   |
+| updateType<sup>1</sup> |   |   |   |   | `sinceDate` |   |
+|   |   |   |   |   | objectUpdatesByCommentID<sup>2</sup> |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹可能值的變更
+<sup>1</sup> 可能值的變更
 
-² hasFilters屬性已變更為true
+<sup>2</sup> hasFilters屬性已變更為true
 
  
 
 ### 核准
 
-| 欄位 | 參考 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
+| 欄位 | 引用 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
 |---|---|---|---|---|---|---|
 | completedHours |   | resourceManagers | resourceManagerIDs |   |   |   |
-| constraintDate¹ |   |   |   |   |   |   |
+| constraintdate<sup>1</sup> |   |   |   |   |   |   |
 | isOriginalPlannedHoursSet |   |   |   |   |   |   |
 | syncBurndownDate |   |   |   |   |   |   |
-| workRequired² |   |   |   |   |   |   |
+| 所需工作<sup>2</sup> |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹新增日期驗證
+<sup>1</sup> 日期驗證已新增
 
-²已添加NOT_FILTERABLE標誌
+<sup>2</sup> 已新增NOT_FILTERABLE旗標
 
  
 
 ### 核准流程
 
-|   | 欄位 | 參考 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
+|   | 欄位 | 引用 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
 |---|---|---|---|---|---|---|---|
-|  |  | `attachedApprovalPaths` |   |   |   |   |   |
+|   |  | `attachedApprovalPaths` |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 
@@ -103,293 +104,293 @@ ht-degree: 42%
 
  
 
-| 欄位 | 參考 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
+| 欄位 | 引用 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
 |---|---|---|---|---|---|---|
-| approvalType¹ |   |   |   |   |   |   |
+| approvalType<sup>1</sup> |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹可能值的變更
+<sup>1</sup> 可能值的變更
 
  
 
-### 批准路徑¹
+### 核准路徑<sup>1</sup>
 
-| 欄位 | 參考 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
+| 欄位 | 引用 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
 |---|---|---|---|---|---|---|
-| approvedStatus |   |   |   |   |   | 新增 |
-| approvedStatusLabel |   |   |   |   |   | 計數 |
+| approvedstatus |   |   |   |   |   | 新增 |
+| approvedStatusLabs |   |   |   |   |   | 計數 |
 | 註解 |   |   |   |   |   | 刪除 |
-| enteredByID |   |   |   |   |   | 編輯 |
-| entryDate |   |   |   |   |   | 取得 |
+| enteredById |   |   |   |   |   | 編輯 |
+| entryDate |   |   |   |   |   | Get |
 | globalPathID |   |   |   |   |   | 報告 |
 | isPrivate |   |   |   |   |   | 搜尋 |
 | lastUpdateDate |   |   |   |   |   |   |
 | lastUpdateByID |   |   |   |   |   |   |
-| 名稱² |   |   |   |   |   |   |
+| 名稱<sup>2</sup> |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹變更為可報告
+<sup>1</sup> 變更為可報告
 
-²新增最大長度驗證器
+<sup>2</sup> 已新增最大長度驗證器
 
  
 
-### 工作服務對象
+### 工作服務物件
 
-| 欄位 | 參考 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
+| 欄位 | 引用 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
 |---|---|---|---|---|---|---|
-| constraintDate¹ |   |   |   | getMyWorkCountFiltered |   |   |
-| workRequired² |   |   |   | workItemStatusLabels  |   |   |
+| constraintdate<sup>1</sup> |   |   |   | getMyWorkCountFiltered |   |   |
+| 所需工作<sup>2</sup> |   |   |   | workitemstatusLabels  |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹新增日期驗證
+<sup>1</sup> 日期驗證已新增
 
-²已添加不可篩選標籤(_F)
+<sup>2</sup> 已新增Not_Filterable旗標
 
  
 
 ### 指派
 
-| 欄位 | 參考 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
+| 欄位 | 引用 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
 |---|---|---|---|---|---|---|
-|   |   |   |   | assignUserToRoleOnProjects |   |   |
+|   |   |   |   | assignUserToRoleOnProject |   |   |
 |   |   |   |   | swapUsersOnProjects |   |   |
-|   |   |   |   | unassignUserFromProjects |   |   |
+|   |   |   |   | unassignuserfromprojects |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 
 ### 基準線 
 
-| 欄位 | 參考 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
+| 欄位 | 引用 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
 |---|---|---|---|---|---|---|
-| workRequired¹ |   |   |   |   |   |   |
+| 所需工作<sup>1</sup> |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹已添加不可篩選標籤(_F)
+<sup>1</sup> 已新增Not_Filterable旗標
 
  
 
 ### 基準線任務
 
-| 欄位 | 參考 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
+| 欄位 | 引用 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
 |---|---|---|---|---|---|---|
-| workRequired¹ |   |   |   |   |   |   |
+| 所需工作<sup>1</sup> |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹已添加不可篩選標籤(_F)
+<sup>1</sup> 已新增Not_Filterable旗標
 
  
 
 ### 付費記錄
 
-| 欄位 | 參考 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
+| 欄位 | 引用 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
 |---|---|---|---|---|---|---|
-| billingDate¹ |   |   |   |   |   |   |
+| billingDate<sup>1</sup> |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹新增NO_TIME欄位標幟
+<sup>1</sup> 新增NO_TIME欄位旗標
 
-### 燃耗事件 
+### 待執行工作事件 
 
-| 欄位 | 參考 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
+| 欄位 | 引用 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
 |---|---|---|---|---|---|---|
 | eventInitiator |   |   |   |   |   | `ADD` |
 |   |   |   |   |   |   | `DELETE` |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 
 ### 類別 
 
-| 欄位 | 參考 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
+| 欄位 | 引用 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
 |---|---|---|---|---|---|---|
 |   |   |   |   | getCascadingRules |   |   |
 |   |   |   |   | reorderCategories |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 
 自訂枚舉 
 
-| 欄位 | 參考 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
+| 欄位 | 引用 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
 |---|---|---|---|---|---|---|
 |   |   |   |   | getGroupDefaultProjectStatus | opTaskGroupStatuses |   |
-|   |   |   |   | isPossibleToUnlockStatus | projectGroupStatuses |   |
-|   |   |   |   |   | taskGroupStatuses |   |
+|   |   |   |   | isPossibleToUnlockStatus | projectGroupStatures |   |
+|   |   |   |   |   | taskGroupStatures |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 
 文件 
 
-| 欄位 | 參考 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
+| 欄位 | 引用 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
 |---|---|---|---|---|---|---|
 | `checkedOutByID` | `checkedOutBy`  |   |  isDir |   |   |   |
 | `isDir`  |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 
 匯率 
 
-| 欄位 | 參考 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
+| 欄位 | 引用 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
 |---|---|---|---|---|---|---|
-| 速率¹ |   |   |   |   |   |   |
+| 評等<sup>1</sup> |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹將8版的PRECISION驗證器更改為9版
+<sup>1</sup> 將PRECISION驗證器從8變更為9
 
  
 
 ### 整合
 
-| 欄位 | 參考 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
+| 欄位 | 引用 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
 |---|---|---|---|---|---|---|
 | syncBurndownDate |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 
 ### 日誌輸入項目
 
-| 欄位 | 參考 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
+| 欄位 | 引用 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
 |---|---|---|---|---|---|---|
-| changeType¹ |   |   |   |   |   |   |
+| changeType<sup>1</sup> |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹可能值的變更
+<sup>1</sup> 可能值的變更
 
  
 
-### Optask（問題）¹ 
+### Optask （問題）<sup>1</sup> 
 
-| 欄位 | 參考 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
+| 欄位 | 引用 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
 |---|---|---|---|---|---|---|
-| workRequired² |   |   |   |   |   |   |
+| 所需工作<sup>2</sup> |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹標籤為可還原
+<sup>1</sup> 已標籤為可還原
 
-²已添加不可篩選標籤(_F)
+<sup>2</sup> 已新增Not_Filterable旗標
 
  
 
-### 專案¹ 
+### 專案<sup>1</sup> 
 
-| 欄位 | 參考 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
+| 欄位 | 引用 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
 |---|---|---|---|---|---|---|
 | completedHours |   | `openOpTasks` |  openOpTasks |   |   |   |
 | isOriginalPlannedHoursSet |   | resourceManagers | resourceManagerIDs  |   |   |   |
 | originalWorkRequired |   |   | `work` |   |   |   |
 | syncBurndownDate |   |   |   |   |   |   |
 | 工作 |   |   |   |   |   |   |
-| workRequired |   |   |   |   |   |   |
+| 所需工作 |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹標籤為可還原和資源可管理
+<sup>1</sup> 標示為可還原且資源可管理
 
-²已添加不可篩選標籤(_F)
+<sup>2</sup> 已新增Not_Filterable旗標
 
  
 
-### 任務¹
+### 任務<sup>1</sup>
 
-| 欄位 | 參考 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
+| 欄位 | 引用 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
 |---|---|---|---|---|---|---|
-| constraintDate² |   |   |   |   |   |   |
-| workRequired³ |   |   |   |   |   |   |
+| constraintdate<sup>2</sup> |   |   |   |   |   |   |
+| 所需工作<sup>3</sup> |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹標籤為可還原
+<sup>1</sup> 已標籤為可還原
 
-²新增AT_DATE_YEAR_BEFORE驗證器
+<sup>2</sup> 已新增AT_DATE_YEAR_BEFORE驗證器
 
-³已添加不可篩選標籤(_F)
+<sup>3</sup> 已新增Not_Filterable旗標
 
  
 
 ### 團隊
 
-| 欄位 | 參考 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
+| 欄位 | 引用 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
 |---|---|---|---|---|---|---|
 | `myWorkViewID` |  `myWorkView` |   |   |   |   |   |
 | `requestsViewID`  | `myRequestsView`  |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 
-### 範本¹ 
+### 範本<sup>1</sup> 
 
-| 欄位 | 參考 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
+| 欄位 | 引用 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
 |---|---|---|---|---|---|---|
 |   |   | resourceManagers | resourceManagerIDs |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹標籤為可還原和資源可管理
+<sup>1</sup> 標示為可還原且資源可管理
 
-### 範本任務¹ 
+### 範本任務<sup>1</sup> 
 
-| 欄位 | 參考 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
+| 欄位 | 引用 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
 |---|---|---|---|---|---|---|
-| workRequired² |   |   |   |   |   |   |
+| 所需工作<sup>2</sup> |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹標籤為可還原
+<sup>1</sup> 已標籤為可還原
 
-²已添加不可篩選標籤(_F)
+<sup>2</sup> 已新增Not_Filterable旗標
 
  
 
 ### 使用者
 
-| 欄位 | 參考 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
+| 欄位 | 引用 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
 |---|---|---|---|---|---|---|
-| myInfo¹ |   |   |   |   |   |   |
+| myInfo<sup>1</sup> |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹ MAX_LENGTH違規者
+<sup>1</sup> MAX_LENGTH違規者
 
  
 
-### 用戶注釋
+### 使用者附註
 
-| 欄位 | 參考 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
+| 欄位 | 引用 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
 |---|---|---|---|---|---|---|
-| eventType¹ |   |   |   |   | myNotifications² |   |
+| eventtype<sup>1</sup> |   |   |   |   | myNotifications<sup>2</sup> |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹可能的值已更改
+<sup>1</sup> 可能的值已變更
 
-²已將篩選器變更為 `[true]`
+<sup>2</sup> 已將篩選器變更為 `[true]`
 
  
 
 ### 宣告
 
-| 欄位 | 參考 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
+| 欄位 | 引用 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
 |---|---|---|---|---|---|---|
 |   |   |   |   | `fileHandle` |   |   |
 |   |   |   |   | `zipAnnouncementAttachments`  |   |   |

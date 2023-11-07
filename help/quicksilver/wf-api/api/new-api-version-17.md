@@ -5,7 +5,9 @@ title: API 17版的新增功能
 description: Adobe Workfront於2022年4月6日發行API第17版。 API 17版具有下列15版中的變更。
 author: Becky
 feature: Workfront API
-source-git-commit: e0b040b062796a1d1b1e0c029ca0ef71b77ed54a
+role: Developer
+exl-id: 08e90754-5505-424c-ae67-015cc987b5df
+source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
 source-wordcount: '1351'
 ht-degree: 4%
@@ -803,14 +805,14 @@ UserNote物件是通知。
               <li>檔案已核准(ADA)</li>
               <li>檔案已核准變更(ADC)</li>
               <li>檔案需求工作(ADN)</li>
-              <li>（使用者）已將（檔案）標示為已核准。 不再需要您的核准。(AAN)</li>
-              <li>（使用者）已將（檔案）標示為已核准，但有變更。 不再需要您的核准。(ACN)</li>
-              <li>（使用者）已將（檔案）標示為需要工作。 不再需要您的核准。(AWN)</li>
+              <li>（使用者）已將（檔案）標示為已核准。 不再需要您的核准. (AAN)</li>
+              <li>（使用者）已將（檔案）標示為已核准，但有變更。 不再需要您的核准. (ACN)</li>
+              <li>（使用者）已將（檔案）標示為需要工作。 不再需要您的核准. (AWN)</li>
               <li>檔案需要您立即稽核而非核准(AAC)</li>
               <li>檔案現在需要您的核准而非稽核(ADN)</li>
               <li>檔案已檢閱(RDC)</li>
               <li>檔案已檢閱(TRC)</li>
-              <li>（使用者）已檢閱（檔案）為完成。 不再需要您的檢閱。(TRN)</li>
+              <li>（使用者）已檢閱（檔案）為完成。 不再需要您的檢閱. (TRN)</li>
             </ul>
           </li>
         </ul>

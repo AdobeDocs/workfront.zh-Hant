@@ -6,8 +6,9 @@ title: 取得服務的相關資訊
 description: 取得服務的相關資訊
 author: Becky
 feature: Workfront API
+role: Developer
 exl-id: a3a423ff-29a6-466e-a568-f64e02dcb484
-source-git-commit: f050c8b95145552c9ed67b549608c16115000606
+source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
 workflow-type: tm+mt
 source-wordcount: '266'
 ht-degree: 4%
@@ -19,9 +20,9 @@ ht-degree: 4%
 
 >[!NOTE]
 >
->此功能的發行日期尚未決定。
+>此功能的發行日期尚未確定。
 
-傳回服務的相關資訊，例如功能。 Adobe Workfront將使用此資訊來自訂Workfront中的使用者介面。 例如，如果網頁連結實作包含某些自訂動作，JSON應在JSON中列出這些操作。 接著，使用者便能從Workfront叫用這些動作。
+傳回服務的相關資訊，例如特性與功能。 Adobe Workfront將使用此資訊在Workfront中自訂使用者介面。 例如，如果webhook實作包含一些自訂動作，JSON應在JSON中列出這些動作。 之後，使用者就可以從Workfront叫用這些動作。
 
 **URL**
 
@@ -50,27 +51,27 @@ GET/serviceInfo
   <tr> 
    <td>webhookVersion </td> 
    <td>字串 </td> 
-   <td>由此服務實作的WebHook版本。 這是此規格頂部列出的版本號。</td> 
+   <td>此服務實作的webhook版本。 這是列在此規格頂端的版本編號。</td> 
   </tr> 
   <tr> 
    <td>版本 </td> 
    <td>字串 </td> 
-   <td>此服務的內部版本號。 此編號由Webhook服務提供商確定，僅用於資訊用途。<br><br></td> 
+   <td>此服務的內部版本號碼。 此數字由webhook服務提供者決定，僅供參考。<br><br></td> 
   </tr> 
   <tr> 
    <td>發佈者 </td> 
    <td>字串 </td> 
-   <td>提供Webhook實作的公司名稱。</td> 
+   <td>提供webhook實作的公司名稱。</td> 
   </tr> 
   <tr> 
-   <td>availableEndpoints</td> 
+   <td>availableendpoints</td> 
    <td>字串 </td> 
-   <td>包含此服務實作之API端點的清單。 這可用來確保Workfront中的使用者介面反映Webhook提供者提供的功能。 清單中的每個項目都必須包含端點名稱（例如「search」）。</td> 
+   <td>包含此服務實作之API端點的清單。 這可用來確保Workfront中的使用者介面反映webhook提供者所提供的功能。 清單中的每個專案都必須包含端點的名稱（例如「search」）。</td> 
   </tr> 
   <tr> 
    <td>customActions </td> 
    <td>字串</td> 
-   <td>  <p>包含由此Webhook實作的自訂操作的清單。 每個清單項目都包含名稱和顯示名稱。 顯示名稱會顯示在Workfront的「檔案動作」下拉式清單中。 按一下下拉式清單中的項目，會呼叫/customAction端點來叫用Webhook中的動作。</p></td> 
+   <td>  <p>包含此Webhook實作的自訂作業清單。 每個清單專案都包含名稱和顯示名稱。 顯示名稱會顯示在Workfront的「檔案動作」下拉式清單中。 按一下下拉式清單中的專案時，將會呼叫/customAction端點，以叫用webhook中的動作。</p></td> 
   </tr> 
  </tbody> 
 </table>
@@ -81,12 +82,12 @@ GET/serviceInfo
 
 ```
 {
-webhook version: “1.2”, version: “1.0”, publisher: “Acme, LLC”, availableEndpoints: [“files”, “metadata”, “search”, “download”
-“thumbnail”, “uploadInit”, “upload” ], customActions [
+webhook version: "1.2", version: "1.0", publisher: "Acme, LLC", availableEndpoints: ["files", "metadata", "search", "download"
+"thumbnail", "uploadInit", "upload" ], customActions [
 {
-name: “archive”, displayName: “Archive” 
+name: "archive", displayName: "Archive" 
 }, 
-{name: “doSomethingElse”, displayName: “Do Something” }, 
+{name: "doSomethingElse", displayName: "Do Something" }, 
 ] 
 }
 ```

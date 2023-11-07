@@ -4,8 +4,9 @@ description: SOAP API常見問題集
 author: Becky
 draft: Probably
 feature: Workfront API, Workfront Proof
+role: Developer
 exl-id: fcf89bd6-0e07-42a7-9ae3-9a1309e51946
-source-git-commit: a033216655b6ab89d178291e6d019691cb175f83
+source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
 workflow-type: tm+mt
 source-wordcount: '803'
 ht-degree: 0%

@@ -1,79 +1,80 @@
 ---
 content-type: api
 navigation-topic: api-navigation-topic
-title: API 10版的新功能
-description: 更新的資源
+title: API 10版的新增功能
+description: 已更新的資源
 author: Becky
 feature: Workfront API
+role: Developer
 exl-id: 8ac384ae-5d65-4c0e-98c1-cf38cfbff460
-source-git-commit: f050c8b95145552c9ed67b549608c16115000606
+source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
-source-wordcount: '571'
-ht-degree: 45%
+source-wordcount: '472'
+ht-degree: 41%
 
 ---
 
-# API 10版的新功能
+# API 10版的新增功能
 
 * [新資源](#new-resources)
-* [更新的資源](#updated-resources)
-* [移除的資源](#removed-resources)
+* [已更新的資源](#updated-resources)
+* [已移除的資源](#removed-resources)
 
 ## 新資源 {#new-resources}
 
-### ActivityLog
+### 活動記錄
 
-| 欄位 | 參考 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
+| 欄位 | 引用 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
 |---|---|---|---|---|---|---|
 |   |   |   |   |   |   | 新增 |
 |   |   |   |   |   |   | 計數 |
 |   |   |   |   |   |   | GET |
 |   |   |   |   |   |   | SEARCH |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-### 日曆條目
+### 行事曆專案
 
-| 欄位 | 參考 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
+| 欄位 | 引用 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
 |---|---|---|---|---|---|---|
 | ID |   |   |   |   |   | 新增 |
 |   |   |   |   |   |   | 計數  |
 |   |   |   |   |   |   | DELETE  |
 |   |   |   |   |   |   | 編輯  |
 |   |   |   |   |   |   | GET  |
-|   |   |   |   |   |   | 報表  |
+|   |   |   |   |   |   | 報告  |
 |   |   |   |   |   |   | SEARCH |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### CalendarEntryExternalReference
 
-| 欄位 | 參考 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
+| 欄位 | 引用 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
 |---|---|---|---|---|---|---|
 | ID |   |   |   |   |   | 計數 |
 |   |   |   |   |   |   | GET  |
-|   |   |   |   |   |   | 報表  |
+|   |   |   |   |   |   | 報告  |
 |   |   |   |   |   |   | SEARCH  |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### ExternalAuthToken
 
-| 欄位 | 參考 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
+| 欄位 | 引用 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
 |---|---|---|---|---|---|---|
 | ID |   |   |   |   |   | 新增 |
 |   |   |   |   |   |   | 計數 |
 |   |   |   |   |   |   | DELETE  |
 |   |   |   |   |   |   | 編輯  |
 |   |   |   |   |   |   | GET  |
-|   |   |   |   |   |   | 報表  |
+|   |   |   |   |   |   | 報告  |
 |   |   |   |   |   |   | SEARCH  |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### LicenseTypeGroupLimit
 
-| 欄位 | 參考 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
+| 欄位 | 引用 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
 |---|---|---|---|---|---|---|
 | customerID | 客戶 |   |   |   |   |   |
 | groupID | 群組 |   |   |   |   |   |
@@ -83,299 +84,299 @@ ht-degree: 45%
 |   |   |   |   |   |   |   |
 |   |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### UserHomeCalendarPreference
 
-| 欄位 | 參考 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
+| 欄位 | 引用 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
 |---|---|---|---|---|---|---|
 | customerID | 客戶 |   |   |   |   | 新增 |
 | edTime | 使用者 |   |   |   |   | 計數 |
 | firstDayOfWeek |   |   |   |   |   | DELETE |
 | ID |   |   |   |   |   | 編輯 |
 | showPTO |   |   |   |   |   | GET |
-| startTime |   |   |   |   |   | 報表 |
+| startTime |   |   |   |   |   | 報告 |
 | userID |   |   |   |   |   | SEARCH |
 | workDate |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-**更新的資源**
+**已更新的資源**
 
-此版本的Workfront API已更新下列現有資源。 對資源所做的變更如下所示：
+此版本的Workfront API已更新下列現有資源。 對資源所做的變更如下：
 
-* 新增項目會列出
-* 移除項目會以字串文字表示
-* 變更列在表格後面的附註中
+* 新增內容只會列出
+* 移除以刪除線文字表示
+* 變更會列在表格後面的註記中
 
 ### 核准
 
-| 欄位 | 參考 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
+| 欄位 | 引用 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
 |---|---|---|---|---|---|---|
-| kanbanFlag |  |  | pendingApproval `¹`   |   |   |   |
+| kanbanFlag |  |  | pendingApproval `<sup>1</sup>`   |   |   |   |
 | `masterTaskID` |   |   |   |   |   |   |
-| priorityColor  |   |   |   |   |   |   |
-| projectDekededCost  |   |   |   |   |   |   |
-| projectNetValue  |   |   |   |   |   |   |
+| 優先色彩  |   |   |   |   |   |   |
+| projectBudgetedCost  |   |   |   |   |   |   |
+| 專案淨值  |   |   |   |   |   |   |
 | projectRoi  |   |   |   |   |   |   |
-| resourcePlannerDekededLaborCost  |   |   |   |   |   |   |
+| resourcePlannerBudgetedLaborCost  |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-`¹ Type changed from null to boolean`
+`<sup>1</sup> Type changed from null to boolean`
 
 ### 指派
 
-| 欄位 | 參考 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
+| 欄位 | 引用 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
 |---|---|---|---|---|---|---|
-| assignmentPercent `¹` |   |   |   |   |   |   |
+| assignmentPercent `<sup>1</sup>` |   |   |   |   |   |   |
 | viewedByAssignedToUser |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-`¹`新增驗證器LESS_THAN_EQUAL
+`<sup>1</sup>`新增的驗證器LESS_THAN_EQUAL
 
-### DekededHour
+### BudgetedHour
 
-| 欄位 | 參考 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
+| 欄位 | 引用 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
 |---|---|---|---|---|---|---|
 | ID |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 
-### 客戶偏好設定
+### 客戶喜好設定
 
-| 欄位 | 參考 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
+| 欄位 | 引用 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
 |---|---|---|---|---|---|---|
-| 名稱 `¹` |   |   |   |   |   |   |
+| 名稱 `<sup>1</sup>` |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹可能值的更改
+<sup>1</sup> Possiblevalues的變更
 
 ### DocMetadataLinkGroup
 
-| 欄位 | 參考 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
+| 欄位 | 引用 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
 |---|---|---|---|---|---|---|
 |   |   |   |   | getMetadataForDocument |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### 文件
 
-| 欄位 | 參考 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
+| 欄位 | 引用 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
 |---|---|---|---|---|---|---|
-| `masterTaskID` |  |  |  |  |  |  |
+| `masterTaskID` |  |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-### DocumentRequest
+### 檔案請求
 
-| 欄位 | 參考 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
+| 欄位 | 引用 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
 |---|---|---|---|---|---|---|
-| `masterTaskID` |  |  |  |  |  |  |
+| `masterTaskID` |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-DocumentVersion
+檔案版本
 
-| 欄位 | 參考 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
+| 欄位 | 引用 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
 |---|---|---|---|---|---|---|
-| externalIntegrationType ¹ |   |   |   |   |   |   |
+| externalIntegrationType <sup>1</sup> |   |   |   |   |   |   |
 |   |   |   |   |   |   |   |
 |   |   |   |   |   |   |   |
 |   |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹可能值的更改
+<sup>1</sup> Possiblevalues的變更
 
 費用
 
-| 欄位 | 參考 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
+| 欄位 | 引用 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
 |---|---|---|---|---|---|---|
 | `masterTaskID` |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### 群組
 
-| 欄位 | 參考 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
+| 欄位 | 引用 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
 |---|---|---|---|---|---|---|
 |   | licenseTypeLimit |   |   | addRemoveLicenseTypeLimits  |   |   |
 |   |   |   |   | setLicenseTypeLimit |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### LinkedFolder
 
-| 欄位 | 參考 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
+| 欄位 | 引用 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
 |---|---|---|---|---|---|---|
-| externalIntegrationType¹ |  |  |  |  |  |  |
+| externalIntegrationType<sup>1</sup> |  |  |  |  |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹可能值的更改
+<sup>1</sup> Possiblevalues的變更
 
 ### Op 任務
 
-| 欄位 | 參考 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
+| 欄位 | 引用 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
 |---|---|---|---|---|---|---|
-| priorityColor |  |  | 待批准¹ |  |  |  |
+| 優先色彩 |   |  | pendingApproval<sup>1</sup> |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹類型已從Null更改為布林
+<sup>1</sup> 型別從null變更為布林值
 
-### 入口網域
+### PortalSection
 
-| 欄位 | 參考 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
+| 欄位 | 引用 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
 |---|---|---|---|---|---|---|
-|  |  |  | groupIDs |  |  |  |
+|   |  |   | groupIDs |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### 專案組合
 
-| 欄位 | 參考 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
+| 欄位 | 引用 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
 |---|---|---|---|---|---|---|
-| portfolioNetValue |  |  |  |  |  |  |
+| portfolioNetValue |   |   |   |  |  |   |
 | portfolioRoi |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### 專案
 
-| 欄位 | 參考 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
+| 欄位 | 引用 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
 |---|---|---|---|---|---|---|
-| projectDekededCost  |   |   |   | linkExternalObject  |   |   |
-| projectNetValue |   |   |   | unlinkExternalObject |   |   |
+| projectBudgetedCost  |   |   |   | linkExternalObject  |   |   |
+| 專案淨值 |   |   |   | unlinkExternalObject |   |   |
 | projectRoi |   |   |   |   |   |   |
-| resourcePlannerDekededLaborCost |   |   |   |   |   |   |
+| resourcePlannerBudgetedLaborCost |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### ProofApproval
 
-| 欄位 | 參考 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
+| 欄位 | 引用 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
 |---|---|---|---|---|---|---|
-| approverDecision |  |  |  |  |  |  |
+| approverDecision |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### 匯率
 
-| 欄位 | 參考 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
+| 欄位 | 引用 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
 |---|---|---|---|---|---|---|
-| rateValue ¹ |  |  |  |  |  |  |
+| rateValue <sup>1</sup> |  |  |  |  |  |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹新增驗證器貨幣
+<sup>1</sup>已新增驗證器貨幣
 
 ### 任務
 
-| 欄位 | 參考 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
+| 欄位 | 引用 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
 |---|---|---|---|---|---|---|
 | kanbanFlag |   |   |   |   |   |   |
 | `masterTaskID` |   |   |   |   |   |   |
-| priorityColor  |   |   |   |   |   |   |
+| 優先色彩  |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 
 ### 團隊
 
-| 欄位 | 參考 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
+| 欄位 | 引用 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
 |---|---|---|---|---|---|---|
-| hoursPerPoint ¹ |   |   |   |   |   |   |
+| hoursPerPoint <sup>1</sup> |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹已添加驗證器LESS_THAN
+<sup>1</sup> 新增的驗證器LESS_THAN
 
-### TeamAssignment
+### 團隊指派
 
-| 欄位 | 參考 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
-|---|---|---|---|---|---|---|
-| `masterTaskID` |   |   |   |   |   |   |
-
-{style=&quot;table-layout:auto&quot;}
-
-### TeamTask
-
-| 欄位 | 參考 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
+| 欄位 | 引用 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
 |---|---|---|---|---|---|---|
 | `masterTaskID` |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
+
+### 團隊任務
+
+| 欄位 | 引用 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
+|---|---|---|---|---|---|---|
+| `masterTaskID` |   |   |   |   |   |   |
+
+{style="table-layout:auto"}
 
 ### 時程表
 
-| 欄位 | 參考 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
+| 欄位 | 引用 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
 |---|---|---|---|---|---|---|
 |   |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### 更新
 
-| 欄位 | 參考 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
+| 欄位 | 引用 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
 |---|---|---|---|---|---|---|
-| updateType `¹` |   |   |   |   |   | objectUpdatesWithNoteAndJournalEntryIndex  |
+| updateType `<sup>1</sup>` |   |   |   |   |   | objectUpdatesWithNoteAndJournalEntryIndex  |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹對possibleValues的更改
+<sup>1</sup> possiblevalues的變更
 
 ### 使用者
 
-| 欄位 | 參考 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
+| 欄位 | 引用 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
 |---|---|---|---|---|---|---|
 |   | accessLevel  |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-### UserNote
+### 使用者附註
 
-| 欄位 | 參考 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
+| 欄位 | 引用 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
 |---|---|---|---|---|---|---|
-| eventType ¹ |   |   |   |   |   |   |
+| eventtype <sup>1</sup> |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹對possibleValues的更改
+<sup>1</sup> possiblevalues的變更
 
 ### 工作
 
-| 欄位 | 參考 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
+| 欄位 | 引用 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
 |---|---|---|---|---|---|---|
-| kanbanFlag |  |  | 待批准¹  |   |   |   |
+| kanbanFlag |  |  | pendingApproval <sup>1</sup>  |   |   |   |
 | `masterTaskID` |   |   |   |   |   |   |
-| priorityColor  |   |   |   |   |   |   |
+| 優先色彩  |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹類型已從Null更改為布林
+<sup>1</sup> 型別從null變更為布林值
 
-## 移除的資源 {#removed-resources}
+## 已移除的資源 {#removed-resources}
 
-### ResourceDekededHour
+### ResourceBudgetedHour
 
-| 欄位 | 參考 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
+| 欄位 | 引用 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
 |---|---|---|---|---|---|---|
 | allocationDate |   |   |   |   |   | 新增  |
-| 預算小時數 |   |   |   |   |   | 計數  |
+| budgetedHours |   |   |   |   |   | 計數  |
 | ID |   |   |   |   |   | DELETE  |
-| planedDekededHours |   |   |   |   |   | 編輯  |
+| plannedBudgetedHours |   |   |   |   |   | 編輯  |
 | projectID |   |   |   |   |   | GET  |
-| roleID |   |   |   |   |   | 報表  |
+| roleID |   |   |   |   |   | 報告  |
 | userID |   |   |   |   |   | SEARCH |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 

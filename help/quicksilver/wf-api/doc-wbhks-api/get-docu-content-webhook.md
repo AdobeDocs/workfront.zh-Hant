@@ -6,8 +6,9 @@ title: 透過Webhook取得檔案內容
 description: 傳回檔案的原始位元組
 author: Becky
 feature: Workfront API, Digital Content and Documents
+role: Developer
 exl-id: 0f0b5af7-f276-4856-852c-e976fa491f83
-source-git-commit: 54d1753b9062b6d4910e4478c1f072b7fedc87eb
+source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
 workflow-type: tm+mt
 source-wordcount: '43'
 ht-degree: 13%
@@ -36,7 +37,7 @@ GET/下載
  <tbody> 
   <tr> 
    <td> <p>id</p> </td> 
-   <td> 檔案ID。</td> 
+   <td> 檔案識別碼。</td> 
   </tr> 
  </tbody> 
 </table>

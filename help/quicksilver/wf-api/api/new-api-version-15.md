@@ -1,41 +1,42 @@
 ---
 content-type: api
 navigation-topic: api-navigation-topic
-title: API 15版的新功能
-description: Adobe Workfront於2022年6月14日發行API 14版。 API 15版提供第14版的下列變更。
+title: API 15版的新增功能
+description: Adobe Workfront於2022年6月14日發行API第14版。 API第15版具有第14版的下列變更。
 author: Becky
 feature: Workfront API
+role: Developer
 exl-id: 1cfdc136-f3b4-4beb-b58b-f546a5510e6d
-source-git-commit: f050c8b95145552c9ed67b549608c16115000606
+source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
 source-wordcount: '2349'
 ht-degree: 3%
 
 ---
 
-# API 15版的新功能
+# API 15版的新增功能
 
-Adobe Workfront已於2022年6月14日發行API 15版。 API 15版提供第14版的下列變更。
+Adobe Workfront於2022年6月14日發行API第15版。 API第15版具有第14版的下列變更。
 
-## 新增資源
+## 新增的資源
 
-* [計畫(INITIV)](#Initiati)
+* [方案(INITIV)](#Initiati)
 
-* [IssueDef(ISSDEF)](#IssueDef)
+* [Issdef (ISSDEF)](#IssueDef)
 
-* [ObjectIntegration(OBJINT)](#ObjectIn)
+* [物件整合(OBJINT)](#ObjectIn)
 
-* [RtfTextGroupParameterValue(GRCVAL)](#RichText)
+* [RichTextGroupParameterValue (GRCVAL)](#RichText)
 
-* [TaskDef(TSKDEF)](#TaskDef)
+* [TaskDef (TSKDEF)](#TaskDef)
 
-* [UserApproval(USRAPV)](#UserAppr)
+* [使用者核准(USRAPV)](#UserAppr)
 
-### 計畫(INITIV)
+### 方案(INITIV)
 
-方案對象在Workfront方案計畫員中建立任務職責的種類和數量、固定成本和計畫福利的估計。
+方案物件會在Workfront情境規劃工具中建立職位角色的種類和數量、固定成本和計畫福利的估計值。
 
-有關計畫的詳細資訊，請參閱 [方案計畫器中的方案概覽](../../scenario-planner/initiatives-overview.md).
+如需方案的詳細資訊，請參閱 [情境規劃工具中的方案概觀](../../scenario-planner/initiatives-overview.md).
 
 <table>
   <col/>
@@ -53,17 +54,17 @@ Adobe Workfront已於2022年6月14日發行API 15版。 API 15版提供第14版�
           <li>
             <p><b>期間</b>
             </p>
-            <p>endDate和startDate之間的時間。</p>
+            <p>endDate和startDate之間的時間量。</p>
           </li>
           <li>
             <p><b>endDate</b>
             </p>
-            <p>計畫的完成日期。</p>
+            <p>方案的計畫完成日期。</p>
           </li>
           <li>
-            <p><b>enteredByID</b>
+            <p><b>enteredById</b>
             </p>
-            <p>與提交請求的使用者相關聯的ID。</p>
+            <p>與提交請求之使用者相關聯的ID。</p>
           </li>
           <li>
             <p><b>ID</b>
@@ -71,44 +72,44 @@ Adobe Workfront已於2022年6月14日發行API 15版。 API 15版提供第14版�
             <p>與動作相關聯的ID</p>
           </li>
           <li>
-            <p><b>initiativeID</b>
+            <p><b>行動方案ID</b>
             </p>
-            <p>與計畫相關聯的ID。</p>
+            <p>與方案相關聯的ID。</p>
           </li>
           <li>
             <p><b>lastPublishedDate</b>
             </p>
-            <p>在Workfront方案規劃器中上次發佈方案的日期。</p>
+            <p>上次在Workfront情境規劃工具中發佈行動方案的日期。</p>
           </li>
           <li>
             <p><b>名稱</b>
             </p>
-            <p>計畫的名稱</p>
+            <p>方案的名稱</p>
           </li>
           <li>
-            <p><b>planID</b>
+            <p><b>planid</b>
             </p>
-            <p>與計畫關聯的計畫ID。</p>
+            <p>與方案相關聯的計畫ID。</p>
           </li>
           <li>
             <p><b>planName</b>
             </p>
-            <p>與計畫關聯的計畫的名稱。</p>
+            <p>與方案關聯的計畫名稱。</p>
           </li>
           <li>
             <p><b>projectID</b>
             </p>
-            <p>與方案關聯的項目ID。</p>
+            <p>與方案相關聯的專案ID。</p>
           </li>
           <li>
             <p><b>scenarioID</b>
             </p>
-            <p>與方案關聯的Workfront方案計畫器中方案的ID。</p>
+            <p>與方案關聯的Workfront情境規劃工具中的情境ID。</p>
           </li>
           <li>
             <p><b>startDate</b>
             </p>
-            <p>計畫起始日期。</p>
+            <p>方案的計劃開始日期。</p>
           </li>
         </ul>
       </td>
@@ -122,7 +123,7 @@ Adobe Workfront已於2022年6月14日發行API 15版。 API 15版提供第14版�
             </p>
           </li>
           <li>
-            <p><b>enteredBy</b>
+            <p><b>輸入者</b>
             </p>
           </li>
           <li>
@@ -145,7 +146,7 @@ Adobe Workfront已於2022年6月14日發行API 15版。 API 15版提供第14版�
             </p>
           </li>
           <li>
-            <p><b>objCode</b>
+            <p><b>物件代碼</b>
             </p>
           </li>
         </ul>
@@ -164,7 +165,7 @@ Adobe Workfront已於2022年6月14日發行API 15版。 API 15版提供第14版�
             </p>
           </li>
           <li>
-            <p><b>報表 </b>
+            <p><b>報告 </b>
             </p>
           </li>
           <li>
@@ -177,9 +178,9 @@ Adobe Workfront已於2022年6月14日發行API 15版。 API 15版提供第14版�
   </tbody>
 </table>
 
-### IssueDef(ISSDEF)
+### Issdef (ISSDEF)
 
-IssueDef對象表示一組與問題格式有關的資料。 此對象可附加到項目或模板，並影響添加到該項目或模板的問題。
+IssueDef物件代表關於問題格式的一組資料。 此物件可附加到專案或範本，並影響新增到該專案或範本的問題。
 
 <table>
   <col/>
@@ -209,7 +210,7 @@ IssueDef對象表示一組與問題格式有關的資料。 此對象可附加�
             </p>
           </li>
           <li>
-            <p><b>objCode</b>
+            <p><b>物件代碼</b>
             </p>
           </li>
         </ul>
@@ -218,9 +219,9 @@ IssueDef對象表示一組與問題格式有關的資料。 此對象可附加�
   </tbody>
 </table>
 
-### ObjectIntegration(OBJINT)
+### 物件整合(OBJINT)
 
-在某些情況下，可將Workfront工作項目直接連結至外部軟體產品中的物件。 ObjectIntegration物件代表此連結。
+在某些情況下，可以直接將Workfront工作專案連結到外部軟體產品中的物件。 ObjectIntegration物件代表此連結。
 
 <table>
   <col/>
@@ -238,7 +239,7 @@ IssueDef對象表示一組與問題格式有關的資料。 此對象可附加�
           <li>
             <p><b>entryDate</b>
             </p>
-            <p>在Workfront系統中輸入ObjectIntegration的日期和時間。</p>
+            <p>ObjectIntegration輸入Workfront系統的日期和時間。</p>
           </li>
           <li>
             <p><b>ID</b>
@@ -246,12 +247,12 @@ IssueDef對象表示一組與問題格式有關的資料。 此對象可附加�
             <p>特定ObjectIntegration物件的唯一Workfront ID。</p>
           </li>
           <li>
-            <p><b>integrationType</b>
+            <p><b>integrationtype</b>
             </p>
-            <p>ObjectIntegration對象建立連結的外部軟體。 可能的值包括：</p>
+            <p>ObjectIntegration物件用來建立連結的外部軟體。 可能的值包括：</p>
             <ul>
               <li>
-                <p>吉拉</p>
+                <p>JIRA</p>
               </li>
               <li>
                 <p>SALESFORCE</p>
@@ -266,14 +267,14 @@ IssueDef對象表示一組與問題格式有關的資料。 此對象可附加�
             </p>
           </li>
           <li>
-            <p><b>objID</b>
+            <p><b>物件ID</b>
             </p>
-            <p>Workfront中與ObjectIntegration相關聯的物件。</p>
+            <p>與ObjectIntegration相關聯的Workfront物件。</p>
           </li>
           <li>
-            <p><b>objObjCode</b>
+            <p><b>物件代碼</b>
             </p>
-            <p>ObjectIntegration所關聯之Workfront中物件的物件程式碼。</p>
+            <p>與ObjectIntegration相關聯之Workfront中物件的物件程式碼。</p>
           </li>
           <li>
             <p><b>param1</b>
@@ -313,7 +314,7 @@ IssueDef對象表示一組與問題格式有關的資料。 此對象可附加�
             </p>
           </li>
           <li>
-            <p><b>objCode</b>
+            <p><b>物件代碼</b>
             </p>
           </li>
         </ul>
@@ -322,9 +323,9 @@ IssueDef對象表示一組與問題格式有關的資料。 此對象可附加�
   </tbody>
 </table>
 
-### TaskDef(TSKDEF)
+### TaskDef (TSKDEF)
 
-TaskDef對象表示一組與任務格式有關的資料。 此對象可附加到「項目」或「模板」，並影響添加到該「項目」或「模板」的任務。
+TaskDef物件代表關於工作格式的一組資料。 此物件可附加到專案或範本，並影響新增到該專案或範本的任務。
 
 <table>
   <col/>
@@ -350,7 +351,7 @@ TaskDef對象表示一組與任務格式有關的資料。 此對象可附加到
       <td >
         <ul>
           <li>
-            <p><b>defaultApprovalProcess </b>
+            <p><b>defaultProvalProcess </b>
             </p>
           </li>
         </ul>
@@ -361,7 +362,7 @@ TaskDef對象表示一組與任務格式有關的資料。 此對象可附加到
       <td>
         <ul>
           <li>
-            <p><b>objectCategories
+            <p><b>物件類別
 </b>
             </p>
           </li>
@@ -377,7 +378,7 @@ TaskDef對象表示一組與任務格式有關的資料。 此對象可附加到
             </p>
           </li>
           <li>
-            <p><b>objCode</b>
+            <p><b>物件代碼</b>
             </p>
           </li>
         </ul>
@@ -386,7 +387,7 @@ TaskDef對象表示一組與任務格式有關的資料。 此對象可附加到
   </tbody>
 </table>
 
-### UserApproval(USRAPV)
+### 使用者核准(USRAPV)
 
 <table>
   <col/>
@@ -413,7 +414,7 @@ TaskDef對象表示一組與任務格式有關的資料。 此對象可附加到
             </p>
           </li>
           <li>
-            <p><b>requestorID</b>
+            <p><b>要求者ID</b>
             </p>
           </li>
           <li>
@@ -440,7 +441,7 @@ TaskDef對象表示一組與任務格式有關的資料。 此對象可附加到
             </p>
           </li>
           <li>
-            <p><b>請求者</b>
+            <p><b>要求者</b>
             </p>
           </li>
           <li>
@@ -459,7 +460,7 @@ TaskDef對象表示一組與任務格式有關的資料。 此對象可附加到
             </p>
           </li>
           <li>
-            <p><b>objCode</b>
+            <p><b>物件代碼</b>
             </p>
           </li>
         </ul>
@@ -474,7 +475,7 @@ TaskDef對象表示一組與任務格式有關的資料。 此對象可附加到
             </p>
           </li>
           <li>
-            <p><b>requestorID</b>
+            <p><b>要求者ID</b>
             </p>
           </li>
           <li>
@@ -524,7 +525,7 @@ TaskDef對象表示一組與任務格式有關的資料。 此對象可附加到
             </p>
           </li>
           <li>
-            <p><b>報表</b>
+            <p><b>報告</b>
             </p>
           </li>
           <li>
@@ -537,73 +538,73 @@ TaskDef對象表示一組與任務格式有關的資料。 此對象可附加到
   </tbody>
 </table>
 
-## 已移除資源
+## 已移除的資源
 
-未移除API 15版的資源。
+未移除API版本15的資源。
 
-## 修改的資源
+## 已修改的資源
 
-* [AccessLevel(ACSLVL)](#AccessLe)
+* [AccessLevel (ACSLVL)](#AccessLe)
 
-* [AccessLevelPermissions(ALVPER)](#AccessLe2)
+* [AccessLevelPermissions (ALVPER)](#AccessLe2)
 
-* [AccessRequest(ACSREQ)](#AccessRe)
+* [AccessRequest (ACSREQ)](#AccessRe)
 
-* [AccessRule(ACSRUL)](#AccessRu)
+* [存取規則(ACSRUL)](#AccessRu)
 
-* [批准（批准）](#Approval)
+* [核准(APPROVAL)](#Approval)
 
 * [類別(CTGY)](#Category)
 
-* [CategoryParameter(CTGYPA)](#Category2)
+* [CategoryParameter (CTGYPA)](#Category2)
 
 * [客戶偏好設定(CUSTPR)](#Customer)
 
-* [DocumentFolder(DOCFDR)](#Document)
+* [DocumentFolder (DOCFDR)](#Document)
 
-* [DocumentVersion(DOCV)](#Document2)
+* [DocumentVersion (DOCV)](#Document2)
 
-* [組（組）](#Group)
+* [群組（群組）](#Group)
 
-* [日誌條目(JRNLE)](#JournalE)
+* [日誌專案(JRNLE)](#JournalE)
 
-* [LinkedFolder(LNKFDR)](#LinkedFo)
+* [LinkedFolder (LNKFDR)](#LinkedFo)
 
-* [OpTask /問題(OPTASK)](#OpTask)
+* [Op任務/問題(OPTASK)](#OpTask)
 
-* [參數(PARAM)](#Paramete)
+* [引數（引數）](#Paramete)
 
-* [Portfolio（埠）](#Portfoli)
+* [Portfolio（連線埠）](#Portfoli)
 
-* [方案](#Program)
+* [方案(PRGM)](#Program)
 
-* [項目(PROJ)](#Project)
+* [專案（專案）](#Project)
 
-* [QueueDef(QUED)](#QueueDef)
+* [QueueDef (QUED)](#QueueDef)
 
-* [ScoreCardQuestion(SCOREQ)](#ScoreCar)
+* [ScoreCardQuestion (SCOREQ)](#ScoreCar)
 
-* [任務(TASK)](#Task)
+* [任務（任務）](#Task)
 
 * [範本(TMPL)](#Template)
 
-* [工時單(TSHET)](#Timeshee)
+* [時程表(TSHET)](#Timeshee)
 
-* [視圖(UIVIEW)](#View)
+* [檢視(UIVIEW)](#View)
 
 * [更新（更新）](#Update)
 
-* [用戶（用戶）](#User)
+* [使用者(USER)](#User)
 
-* [UserNote(USRNOT)](#UserNote)
+* [使用者附註(USRNOT)](#UserNote)
 
 * [工作（工作）](#Work)
 
-### AccessLevel(ACSLVL)
+### AccessLevel (ACSLVL)
 
-AccessLevel對象與用戶關聯，並描述了決定用戶可以訪問的AccessLevelPermissions集。
+AccessLevel物件與使用者相關聯，並描述決定使用者可存取內容的AccessLevelPermissions集合。
 
-有關訪問級別的詳細資訊，請參見 [存取層級](../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels.md).
+如需存取層級的詳細資訊，請參閱 [存取層級](../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels.md).
 
 <table>
   <col/>
@@ -615,13 +616,13 @@ AccessLevel對象與用戶關聯，並描述了決定用戶可以訪問的Access
         <ul>
           <li>
             <p><b>fieldAccessPrivileges</b> (string[])</p>
-            <p>新增下列可能值：</p>
+            <p>已新增下列可能值：</p>
             <ul>
               <li>
-                <p>VTMAWMG（查看與我的組關聯的團隊）</p>
+                <p>VTMAWMG （檢視與我的群組相關聯的團隊）</p>
               </li>
               <li>
-                <p>VALLTM（查看所有團隊）</p>
+                <p>VALLTM （檢視所有團隊）</p>
               </li>
             </ul>
           </li>
@@ -631,9 +632,9 @@ AccessLevel對象與用戶關聯，並描述了決定用戶可以訪問的Access
   </tbody>
 </table>
 
-### AccessLevelPermissions(ALVPER)
+### AccessLevelPermissions (ALVPER)
 
-AccessLevelPermissions對象表示訪問、建立或修改Workfront對象的特定權限。 然後，這些權限便可與存取層級相關聯。
+AccessLevelPermissions物件代表存取、建立或修改Workfront物件的特定許可權。 然後，這些許可權可以與存取層級相關聯。
 
 <table>
   <col/>
@@ -645,37 +646,37 @@ AccessLevelPermissions對象表示訪問、建立或修改Workfront對象的特�
         <ul>
           <li>
             <p><b>coreAction</b> (string[])</p>
-            <p>新增下列可能值：</p>
+            <p>已新增下列可能值：</p>
             <ul>
               <li>
-                <p>EDIT_TEAMS_I_AM_ON（編輯我所在的團隊）</p>
+                <p>EDIT_TEAMS_I_AM_ON （編輯我所在的團隊）</p>
               </li>
               <li>
-                <p>EDIT_TEAMS_I_GROUP_ADMIN(編輯我管理的組中的團隊（僅限群組管理員）)</p>
+                <p>EDIT_TEAMS_I_GROUP_ADMIN (編輯我管理的群組中的團隊（僅限群組管理員）)</p>
               </li>
             </ul>
           </li>
           <li>
             <p><b>forbiddenActions</b> (string[])</p>
-            <p>新增下列可能值：</p>
+            <p>已新增下列可能值：</p>
             <ul>
               <li>
-                <p>EDIT_TEAMS_I_AM_ON（編輯我所在的團隊）</p>
+                <p>EDIT_TEAMS_I_AM_ON （編輯我所在的團隊）</p>
               </li>
               <li>
-                <p>EDIT_TEAMS_I_GROUP_ADMIN(編輯我管理的組中的團隊（僅限群組管理員）)</p>
+                <p>EDIT_TEAMS_I_GROUP_ADMIN (編輯我管理的群組中的團隊（僅限群組管理員）)</p>
               </li>
             </ul>
           </li>
           <li>
             <p><b>secondaryActions</b> (string[])</p>
-            <p>新增下列可能值：</p>
+            <p>已新增下列可能值：</p>
             <ul>
               <li>
-                <p>EDIT_TEAMS_I_AM_ON（編輯我所在的團隊）</p>
+                <p>EDIT_TEAMS_I_AM_ON （編輯我所在的團隊）</p>
               </li>
               <li>
-                <p>EDIT_TEAMS_I_GROUP_ADMIN(編輯我管理的組中的團隊（僅限群組管理員）)</p>
+                <p>EDIT_TEAMS_I_GROUP_ADMIN (編輯我管理的群組中的團隊（僅限群組管理員）)</p>
               </li>
             </ul>
           </li>
@@ -685,9 +686,9 @@ AccessLevelPermissions對象表示訪問、建立或修改Workfront對象的特�
   </tbody>
 </table>
 
-### AccessRequest(ACSREQ)
+### AccessRequest (ACSREQ)
 
-如果使用者沒有必要存取Workfront中物件的權限，可以要求存取該物件。 AccessRequest物件代表此請求。
+如果使用者無權存取Workfront中他們需要的物件，他們可以請求存取該物件。 AccessRequest物件代表此要求。
 
 <table>
   <col/>
@@ -699,19 +700,19 @@ AccessLevelPermissions對象表示訪問、建立或修改Workfront對象的特�
         <ul>
           <li>
             <p><b>動作</b> （字串）</p>
-            <p>新增下列可能值：</p>
+            <p>已新增下列可能值：</p>
             <ul>
               <li>
-                <p>EDIT_TEAMS_I_AM_ON（編輯我所在的團隊）</p>
+                <p>EDIT_TEAMS_I_AM_ON （編輯我所在的團隊）</p>
               </li>
               <li>
-                <p>EDIT_TEAMS_I_GROUP_ADMIN(編輯我管理的組中的團隊（僅限群組管理員）)</p>
+                <p>EDIT_TEAMS_I_GROUP_ADMIN (編輯我管理的群組中的團隊（僅限群組管理員）)</p>
               </li>
             </ul>
           </li>
           <li>
             <p><b>autoShareAction</b> （字串）</p>
-            <p>新增下列可能值：</p>
+            <p>已新增下列可能值：</p>
             <ul>
               <li>
                 <p>WDL</p>
@@ -724,9 +725,9 @@ AccessLevelPermissions對象表示訪問、建立或修改Workfront對象的特�
   </tbody>
 </table>
 
-### AccessRule(ACSRUL)
+### 存取規則(ACSRUL)
 
-AccessRule對象表示自定義訪問級別中的規則集，該規則確定用戶如何共用他們建立的項目。
+AccessRule物件代表自訂存取層級中的規則集，可決定使用者如何共用他們建立的專案。
 
 <table>
   <col/>
@@ -738,37 +739,37 @@ AccessRule對象表示自定義訪問級別中的規則集，該規則確定用�
         <ul>
           <li>
             <p><b>coreAction</b> (string[])</p>
-            <p>新增下列可能值：</p>
+            <p>已新增下列可能值：</p>
             <ul>
               <li>
-                <p>EDIT_TEAMS_I_AM_ON（編輯我所在的團隊）</p>
+                <p>EDIT_TEAMS_I_AM_ON （編輯我所在的團隊）</p>
               </li>
               <li>
-                <p>EDIT_TEAMS_I_GROUP_ADMIN(編輯我管理的組中的團隊（僅限群組管理員）)</p>
+                <p>EDIT_TEAMS_I_GROUP_ADMIN (編輯我管理的群組中的團隊（僅限群組管理員）)</p>
               </li>
             </ul>
           </li>
           <li>
             <p><b>forbiddenActions</b> (string[])</p>
-            <p>新增下列可能值：</p>
+            <p>已新增下列可能值：</p>
             <ul>
               <li>
-                <p>EDIT_TEAMS_I_AM_ON（編輯我所在的團隊）</p>
+                <p>EDIT_TEAMS_I_AM_ON （編輯我所在的團隊）</p>
               </li>
               <li>
-                <p>EDIT_TEAMS_I_GROUP_ADMIN(編輯我管理的組中的團隊（僅限群組管理員）)</p>
+                <p>EDIT_TEAMS_I_GROUP_ADMIN (編輯我管理的群組中的團隊（僅限群組管理員）)</p>
               </li>
             </ul>
           </li>
           <li>
             <p><b>secondaryActions</b> (string[])</p>
-            <p>新增下列可能值：</p>
+            <p>已新增下列可能值：</p>
             <ul>
               <li>
-                <p>EDIT_TEAMS_I_AM_ON（編輯我所在的團隊）</p>
+                <p>EDIT_TEAMS_I_AM_ON （編輯我所在的團隊）</p>
               </li>
               <li>
-                <p>EDIT_TEAMS_I_GROUP_ADMIN(編輯我管理的組中的團隊（僅限群組管理員）)</p>
+                <p>EDIT_TEAMS_I_GROUP_ADMIN (編輯我管理的群組中的團隊（僅限群組管理員）)</p>
               </li>
             </ul>
           </li>
@@ -778,9 +779,9 @@ AccessRule對象表示自定義訪問級別中的規則集，該規則確定用�
   </tbody>
 </table>
 
-### 批准（批准）
+### 核准(APPROVAL)
 
-給定的工作項（如任務、文檔或時間表）可能要求主管或其他用戶簽出該工作項。 Approval對象表示簽出工作項的操作。
+指定的工作專案，例如工作、檔案或時程表，可能需要主管或其他使用者登出該工作專案。 Approval物件代表在工作專案上簽核的動作。
 
 <table>
   <col/>
@@ -791,7 +792,7 @@ AccessRule對象表示自定義訪問級別中的規則集，該規則確定用�
       <td>
         <ul>
           <li>
-            <p><b>resourcePlannerDekededHours </b>
+            <p><b>resourcePlannerBudgetedHours </b>
             </p>
           </li>
         </ul>
@@ -802,10 +803,10 @@ AccessRule對象表示自定義訪問級別中的規則集，該規則確定用�
       <td >
         <ul>
           <li>
-            <p><b>倡議</b>
+            <p><b>方案</b>
             </p>
             <p>已新增.</p>
-            <p>方案對象在Workfront方案計畫員中建立任務職責的種類和數量、固定成本和計畫福利的估計。 </p>
+            <p>方案物件會在Workfront情境規劃工具中建立職位角色的種類和數量、固定成本和計畫福利的估計值。 </p>
           </li>
           <li>
             <p><b>issueDef</b>
@@ -829,7 +830,7 @@ AccessRule對象表示自定義訪問級別中的規則集，該規則確定用�
 </b>
             </p>
             <p style="font-weight: normal;">已新增.</p>
-            <p>在某些情況下，可將Workfront工作項目直接連結至外部軟體產品中的物件。 ObjectIntegration物件代表此連結。</p>
+            <p>在某些情況下，可以直接將Workfront工作專案連結到外部軟體產品中的物件。 ObjectIntegration物件代表此連結。</p>
           </li>
         </ul>
       </td>
@@ -851,19 +852,19 @@ AccessRule對象表示自定義訪問級別中的規則集，該規則確定用�
         <ul>
           <li>
             <p><b>catObjCode</b> （字串）</p>
-            <p>新增下列可能值：</p>
+            <p>已新增下列可能值：</p>
             <ul>
               <li>
-                <p>組（組）</p>
+                <p>群組（群組）</p>
               </li>
             </ul>
           </li>
           <li>
-            <p><b>objTypes</b> (string[])</p>
+            <p><b>物件型別</b> (string[])</p>
             <p>已新增.</p>
-            <p style="font-weight: normal;">此參數是可附加自訂表單的可能對象陣列。 已新增此功能，以支援將自訂表單附加至多種物件類型的功能。</p>
+            <p style="font-weight: normal;">此引數是可附加自訂表單的可能物件陣列。 新增此項是為了支援將自訂表單附加到多種物件型別的功能。</p>
             <p>可能的值： </p>
-            <p>CMPY，埠， PRGM, PROJ，任務， OPTASK，用戶， DOCU, EXPNS, ITRN，清單，組</p>
+            <p>CMPY，連線埠， PRGM，專案，任務， OPTASK，使用者， DOCU，費用， ITRN，帳單，群組</p>
           </li>
         </ul>
       </td>
@@ -873,11 +874,11 @@ AccessRule對象表示自定義訪問級別中的規則集，該規則確定用�
       <td>
         <ul>
           <li>
-            <p><b>objTypes</b> (string[])</p>
+            <p><b>物件型別</b> (string[])</p>
             <p>已新增.</p>
-            <p style="font-weight: normal;">此參數是可附加自訂表單的可能對象陣列。 已新增此功能，以支援將自訂表單附加至多種物件類型的功能。</p>
+            <p style="font-weight: normal;">此引數是可附加自訂表單的可能物件陣列。 新增此項是為了支援將自訂表單附加到多種物件型別的功能。</p>
             <p>可能的值： </p>
-            <p>CMPY，埠， PRGM, PROJ，任務， OPTASK，用戶， DOCU, EXPNS, ITRN，清單，組</p>
+            <p>CMPY，連線埠， PRGM，專案，任務， OPTASK，使用者， DOCU，費用， ITRN，帳單，群組</p>
           </li>
         </ul>
       </td>
@@ -885,7 +886,7 @@ AccessRule對象表示自定義訪問級別中的規則集，該規則確定用�
   </tbody>
 </table>
 
-### CategoryParameter(CTGYPA)
+### CategoryParameter (CTGYPA)
 
 <table>
   <col/>
@@ -896,7 +897,7 @@ AccessRule對象表示自定義訪問級別中的規則集，該規則確定用�
       <td>
         <ul>
           <li>
-            <p><b>hideFormulaFromDescription</b>
+            <p><b>hideFormalFromDescription</b>
             </p>
             <p>已新增.</p>
           </li>
@@ -906,7 +907,7 @@ AccessRule對象表示自定義訪問級別中的規則集，該規則確定用�
             <p>已新增.</p>
           </li>
           <li>
-            <p><b>rawCustomExpression</b>
+            <p><b>rawCustomExpress</b>
             </p>
             <p>已新增.</p>
           </li>
@@ -918,7 +919,7 @@ AccessRule對象表示自定義訪問級別中的規則集，該規則確定用�
 
 ### 客戶偏好設定(CUSTPR)
 
-CustomerPreferences物件代表客戶為其Workfront例項所設定的偏好設定集。
+CustomerPreferences物件代表客戶已針對其Workfront例項設定的偏好設定集。
 
 <table>
   <col/>
@@ -931,7 +932,7 @@ CustomerPreferences物件代表客戶為其Workfront例項所設定的偏好設�
           <li>
             <p><b>名稱</b>
             </p>
-            <p>新增下列值：</p>
+            <p>已新增下列值：</p>
             <ul>
               <li>
                 <p><code>password:sharePointV2IntegrationEnabled</code> (SharePoint (Graph API) 整合已啟用)</p>
@@ -951,17 +952,17 @@ CustomerPreferences物件代表客戶為其Workfront例項所設定的偏好設�
   </tbody>
 </table>
 
-### DocumentFolder(DOCFDR)
+### DocumentFolder (DOCFDR)
 
-文檔可以組織成資料夾。 您可以在個人文檔區域中建立個人資料夾。 DocumentFolder對象表示其中一個資料夾。
+檔案可整理到資料夾中。 您可以在個人的「檔案」區域中建立個人資料夾。 DocumentFolder物件代表其中一個資料夾。
 
-已添加標籤的DocumentFolder對象 `SHARABLE`.
+DocumentFolder物件已新增標幟 `SHARABLE`.
 
-### DocumentVersion(DOCV)
+### DocumentVersion (DOCV)
 
-DocumentVersion對象表示檔案的特定版本（如書面材料、影像或其他形式的資訊）。
+DocumentVersion物件代表檔案的特定版本（例如書面材料、影像或其他形式的資訊）。
 
-有關文檔版本的詳細資訊，請參閱 [上傳新版本的檔案](../../documents/managing-documents/upload-new-document-version.md).
+如需檔案版本的詳細資訊，請參閱 [上傳檔案的新版本](../../documents/managing-documents/upload-new-document-version.md).
 
 <table>
   <col/>
@@ -974,7 +975,7 @@ DocumentVersion對象表示檔案的特定版本（如書面材料、影像或�
           <li>
             <p><b>externalIntegrationType</b>
             </p>
-            <p>新增下列值： </p>
+            <p>已新增下列值： </p>
             <ul>
               <li>
                 <p><code>SHAREPOINT_V2</code> (SharePoint (Graph API))</p>
@@ -988,11 +989,11 @@ DocumentVersion對象表示檔案的特定版本（如書面材料、影像或�
   </tbody>
 </table>
 
-### 組（組）
+### 群組（群組）
 
-群組物件代表一組使用者和團隊。 團體往往代表部門結構。
+群組物件代表一組使用者和團隊。 群組通常代表部門結構。
 
-如需群組的詳細資訊，請參閱群組與團隊的比較。
+如需群組的詳細資訊，請參閱群組與團隊。
 
 群組物件已新增標幟 `DATA_EXTENDIBLE`
 
@@ -1003,17 +1004,17 @@ DocumentVersion對象表示檔案的特定版本（如書面材料、影像或�
     <tr>
       <td role="rowheader">直接欄位</td>
       <td>
-        <p>新增下列欄位：</p>
+        <p>已新增下列欄位：</p>
         <ul>
           <li>
             <p><b>categoryID</b>
             </p>
-            <p>類別是自訂表單。 已新增此參數，以支援將自訂Forms新增至群組物件的功能。 </p>
+            <p>類別是自訂表單。 新增此引數是為了支援新增自訂Forms至群組物件的功能。 </p>
           </li>
           <li>
             <p><b>isActive</b>
             </p>
-            <p>如果物件為「作用中」，則此為布林值參數，如果物件為「false」，則值為true。 設定為「活動」(Active)的對象會顯示在下拉菜單和「預先輸入」(Type-ahead)欄位中，並可附加到其他對象。</p>
+            <p>如果物件為「作用中」，則此為布林值引數；如果物件為「非作用中」，則此值為false。 設定為「作用中」的物件會出現在下拉式選單和預先輸入欄位中，並可附加到其他物件。</p>
           </li>
         </ul>
       </td>
@@ -1021,7 +1022,7 @@ DocumentVersion對象表示檔案的特定版本（如書面材料、影像或�
     <tr>
       <td role="rowheader">參考欄位</td>
       <td >
-        <p>新增下列欄位：</p>
+        <p>已新增下列欄位：</p>
         <ul>
           <li>
             <p><b>核准者</b>
@@ -1032,7 +1033,7 @@ DocumentVersion對象表示檔案的特定版本（如書面材料、影像或�
             </p>
           </li>
           <li>
-            <p><b>請求者</b>
+            <p><b>要求者</b>
             </p>
           </li>
           <li>
@@ -1045,16 +1046,16 @@ DocumentVersion對象表示檔案的特定版本（如書面材料、影像或�
     <tr>
       <td role="rowheader">集合欄位</td>
       <td>
-        <p>新增下列欄位：</p>
+        <p>已新增下列欄位：</p>
         <ul>
           <li>
-            <p><b>objectCategories</b>
+            <p><b>物件類別</b>
             </p>
           </li>
           <li>
             <p><b>objectIntegrations</b>
             </p>
-            <p>在某些情況下，可將Workfront工作項目直接連結至外部軟體產品中的物件。 ObjectIntegration物件代表此連結。</p>
+            <p>在某些情況下，可以直接將Workfront工作專案連結到外部軟體產品中的物件。 ObjectIntegration物件代表此連結。</p>
           </li>
         </ul>
       </td>
@@ -1067,7 +1068,7 @@ DocumentVersion對象表示檔案的特定版本（如書面材料、影像或�
           <li>
             <p><b>isActive</b>
             </p>
-            <p>如果物件為「作用中」，則此為布林值參數，如果物件為「false」，則值為true。 設定為「活動」的對象會顯示在下拉菜單和「預先輸入」欄位中，並可附加到其他對象。</p>
+            <p>如果物件為「作用中」，則此為布林值引數；如果物件為「非作用中」，則此值為false。 設定為「作用中」的物件會出現在下拉式選單和預先輸入欄位中，並可附加到其他物件。</p>
           </li>
         </ul>
       </td>
@@ -1075,7 +1076,7 @@ DocumentVersion對象表示檔案的特定版本（如書面材料、影像或�
     <tr>
       <td role="rowheader">動作</td>
       <td>
-        <p>新增下列欄位：</p>
+        <p>已新增下列欄位：</p>
         <ul>
           <li>
             <p><b>calculateDataExtension</b>
@@ -1100,9 +1101,9 @@ DocumentVersion對象表示檔案的特定版本（如書面材料、影像或�
   </tbody>
 </table>
 
-### 日誌條目(JRNLE)
+### 日誌專案(JRNLE)
 
-JournalEntry對象可以設定為在修改這些欄位時記錄有關特定對象欄位的資訊。 將欄位設定為作為日記帳分錄對象的一部分進行記錄時，每次修改該欄位時都將建立相應的日記帳分錄。
+JournalEntry物件可設定為每次修改特定物件欄位時，記錄這些欄位的相關資訊。 當欄位設定為記錄為日誌專案物件的一部分時，每次修改該欄位時都會建立對應的日誌專案。
 
 <table>
   <col/>
@@ -1113,10 +1114,10 @@ JournalEntry對象可以設定為在修改這些欄位時記錄有關特定對�
       <td>
         <p><b>changeType</b>
         </p>
-        <p>新增下列值： </p>
+        <p>已新增下列值： </p>
         <ul>
           <li>
-            <p>DW（下載）</p>
+            <p>DW （下載）</p>
           </li>
         </ul>
       </td>
@@ -1124,11 +1125,11 @@ JournalEntry對象可以設定為在修改這些欄位時記錄有關特定對�
   </tbody>
 </table>
 
-### LinkedFolder(LNKFDR)
+### LinkedFolder (LNKFDR)
 
-LinkedFolder對象表示從外部文檔提供程式(如Google驅動器或Dropbox)連結的資料夾。
+LinkedFolder物件代表連結自外部檔案提供者(例如Google Drive或Dropbox)的資料夾。
 
-有關連結資料夾的詳細資訊，請參閱從外部應用程式連結文檔。
+如需連結資料夾的詳細資訊，請參閱從外部應用程式連結檔案。
 
 <table>
   <col/>
@@ -1141,7 +1142,7 @@ LinkedFolder對象表示從外部文檔提供程式(如Google驅動器或Dropbox
           <li>
             <p><b>externalIntegrationType</b>
             </p>
-            <p>新增下列值： </p>
+            <p>已新增下列值： </p>
             <ul>
               <li>
                 <p><code>SHAREPOINT_V2</code> (SharePoint (Graph API))</p>
@@ -1155,9 +1156,9 @@ LinkedFolder對象表示從外部文檔提供程式(如Google驅動器或Dropbox
   </tbody>
 </table>
 
-### OpTask /問題(OPTASK)
+### Op任務/問題(OPTASK)
 
-OpTask物件通常稱為「問題」。 問題是工作項，通常表示存在問題，無法完成任務或項目。 問題也可以是服務台請求。 變更訂單、請求和錯誤也是問題。
+OpTask物件通常稱為「問題」。 問題指工作專案，通常表示發生問題而無法完成任務或專案。 問題也可以是服務檯請求。 變更單、請求和錯誤也是問題。
 
 <table>
   <col/>
@@ -1166,7 +1167,7 @@ OpTask物件通常稱為「問題」。 問題是工作項，通常表示存在�
     <tr>
       <td role="rowheader">動作</td>
       <td>
-        <p>新增下列動作：</p>
+        <p>已新增下列動作：</p>
         <ul>
           <li>
             <p><b>bulkMoveWithOptions</b>
@@ -1180,9 +1181,9 @@ OpTask物件通常稱為「問題」。 問題是工作項，通常表示存在�
         <p>已修改下列動作：</p>
         <ul>
           <li>
-            <p><b>copyIssue</b>
+            <p><b>copyissue</b>
             </p>
-            <p>新增欄位 <code>parentID</code></p>
+            <p>已新增欄位 <code>parentID</code></p>
           </li>
         </ul>
       </td>
@@ -1190,9 +1191,9 @@ OpTask物件通常稱為「問題」。 問題是工作項，通常表示存在�
   </tbody>
 </table>
 
-### 參數(PARAM)
+### 引數（引數）
 
-參數物件是自訂欄位。
+Parameter物件是自訂欄位。
 
 <table>
   <col/>
@@ -1208,18 +1209,18 @@ OpTask物件通常稱為「問題」。 問題是工作項，通常表示存在�
             </p>
           </li>
         </ul>
-        <p>已修改下列欄位：</p>
+        <p>下列欄位已修改：</p>
         <ul>
           <li>
-            <p><b>dataType</b>
+            <p><b>資料型別</b>
             </p>
-            <p>新增可能的值 <code>WIDGET </code>（介面工具集） </p>
+            <p>已新增可能的值 <code>WIDGET </code>(Widget) </p>
             <p>此值支援在自訂表單中使用影像。</p>
           </li>
           <li>
-            <p><b>displayType</b>
+            <p><b>顯示型別</b>
             </p>
-            <p>新增可能的值 <code>WIDGET </code>（介面工具集）</p>
+            <p>已新增可能的值 <code>WIDGET </code>(Widget)</p>
             <p>此值支援在自訂表單中使用影像。</p>
           </li>
         </ul>
@@ -1228,9 +1229,9 @@ OpTask物件通常稱為「問題」。 問題是工作項，通常表示存在�
   </tbody>
 </table>
 
-### Portfolio（埠）
+### Portfolio（連線埠）
 
-Portfolio物件是專案的集合，這些專案會爭奪相同的資源，通常是金錢或人員來完成。
+Portfolio物件是競爭相同資源（通常是金錢或人力）的專案集合。
 
 <table>
   <col/>
@@ -1265,9 +1266,9 @@ Portfolio物件是專案的集合，這些專案會爭奪相同的資源，通�
   </tbody>
 </table>
 
-### 方案
+### 方案(PRGM)
 
-方案物件是產品組合內的專案子集，可將類似專案分組。
+計畫物件是投資組合中專案的子集，其中類似的專案可以分組在一起。
 
 <table>
   <col/>
@@ -1302,9 +1303,9 @@ Portfolio物件是專案的集合，這些專案會爭奪相同的資源，通�
   </tbody>
 </table>
 
-### 項目(PROJ)
+### 專案（專案）
 
-專案是Workfront內的工作項目，是Workfront協助人們工作的主要建置要素。 專案物件代表一組具有共同特定目標的工作。
+專案是Workfront內的工作專案，也是Workfront協助人們完成工作的主要建置組塊。 Project物件代表具有共同特定目標的一組任務。
 
 <table>
   <col/>
@@ -1315,7 +1316,7 @@ Portfolio物件是專案的集合，這些專案會爭奪相同的資源，通�
       <td>
         <ul>
           <li>
-            <p><b>resourcePlannerDekededHours</b>
+            <p><b>resourcePlannerBudgetedHours</b>
             </p>
           </li>
         </ul>
@@ -1326,9 +1327,9 @@ Portfolio物件是專案的集合，這些專案會爭奪相同的資源，通�
       <td >
         <ul>
           <li>
-            <p><b>倡議</b>
+            <p><b>方案</b>
             </p>
-            <p>方案對象在Workfront方案計畫員中建立任務職責的種類和數量、固定成本和計畫福利的估計。 </p>
+            <p>方案物件會在Workfront情境規劃工具中建立職位角色的種類和數量、固定成本和計畫福利的估計值。 </p>
           </li>
           <li>
             <p><b>issueDef</b>
@@ -1348,7 +1349,7 @@ Portfolio物件是專案的集合，這些專案會爭奪相同的資源，通�
           <li>
             <p><b>objectIntegrations</b>
             </p>
-            <p>在某些情況下，可將Workfront工作項目直接連結至外部軟體產品中的物件。 ObjectIntegration物件代表此連結。</p>
+            <p>在某些情況下，可以直接將Workfront工作專案連結到外部軟體產品中的物件。 ObjectIntegration物件代表此連結。</p>
           </li>
         </ul>
       </td>
@@ -1356,9 +1357,9 @@ Portfolio物件是專案的集合，這些專案會爭奪相同的資源，通�
   </tbody>
 </table>
 
-### QueueDef(QUED)
+### QueueDef (QUED)
 
-QueueDef對象表示「隊列」，該項目已發佈到「幫助台」區域，允許用戶向其提交問題。
+QueueDef物件代表佇列，這是已發佈至服務檯區域的專案，可讓使用者向其提交問題。
 
 如需請求佇列的詳細資訊，請參閱 [建立請求佇列](../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
 
@@ -1373,26 +1374,26 @@ QueueDef對象表示「隊列」，該項目已發佈到「幫助台」區域，
           <li>
             <p><b>requestorCoreAction</b>
             </p>
-            <p>新增下列可能值：</p>
+            <p>已新增下列可能值：</p>
             <ul>
               <li>
-                <p>EDIT_TEAMS_I_AM_ON（編輯我所在的團隊）</p>
+                <p>EDIT_TEAMS_I_AM_ON （編輯我所在的團隊）</p>
               </li>
               <li>
-                <p>EDIT_TEAMS_I_GROUP_ADMIN(編輯我管理的組中的團隊（僅限群組管理員）)</p>
+                <p>EDIT_TEAMS_I_GROUP_ADMIN (編輯我管理的群組中的團隊（僅限群組管理員）)</p>
               </li>
             </ul>
           </li>
           <li>
             <p><b>requestorForbiddenActions</b>
             </p>
-            <p>新增下列可能值：</p>
+            <p>已新增下列可能值：</p>
             <ul>
               <li>
-                <p>EDIT_TEAMS_I_AM_ON（編輯我所在的團隊）</p>
+                <p>EDIT_TEAMS_I_AM_ON （編輯我所在的團隊）</p>
               </li>
               <li>
-                <p>EDIT_TEAMS_I_GROUP_ADMIN(編輯我管理的組中的團隊（僅限群組管理員）)</p>
+                <p>EDIT_TEAMS_I_GROUP_ADMIN (編輯我管理的群組中的團隊（僅限群組管理員）)</p>
               </li>
             </ul>
           </li>
@@ -1402,9 +1403,9 @@ QueueDef對象表示「隊列」，該項目已發佈到「幫助台」區域，
   </tbody>
 </table>
 
-### ScoreCardQuestion(SCOREQ)
+### ScoreCardQuestion (SCOREQ)
 
-ScoreCardQuestion物件代表已新增至計分卡的問題。 這些問題通常由Portfolio經理決定，他們的答案使經理能夠了解項目與產品組合目標的一致程度。
+ScoreCardQuestion物件代表已新增至計分卡的問題。 這些問題通常由Portfolio經理決定，而他們的答案可讓經理瞭解專案與產品組合目標的對齊程度。
 
 如需計分卡問題的詳細資訊，請參閱 [建立計分卡](../../administration-and-setup/set-up-workfront/configure-system-defaults/create-scorecard.md).
 
@@ -1417,9 +1418,9 @@ ScoreCardQuestion物件代表已新增至計分卡的問題。 這些問題通�
       <td>
         <ul>
           <li>
-            <p><b>displayType</b>
+            <p><b>顯示型別</b>
             </p>
-            <p>新增可能的值 <code>WIDGET </code>（介面工具集）</p>
+            <p>已新增可能的值 <code>WIDGET </code>(Widget)</p>
           </li>
         </ul>
       </td>
@@ -1427,9 +1428,9 @@ ScoreCardQuestion物件代表已新增至計分卡的問題。 這些問題通�
   </tbody>
 </table>
 
-### 任務(TASK)
+### 任務（任務）
 
-任務對象表示一個工作項，必須作為實現最終目標（完成項目）的步驟執行。
+Task物件代表作為達成最終目標（完成專案）的步驟而必須執行的工作專案。
 
 <table>
   <col/>
@@ -1442,7 +1443,7 @@ ScoreCardQuestion物件代表已新增至計分卡的問題。 這些問題通�
           <li>
             <p><b>objectIntegrations</b>
             </p>
-            <p>在某些情況下，可將Workfront工作項目直接連結至外部軟體產品中的物件。 ObjectIntegration物件代表此連結。</p>
+            <p>在某些情況下，可以直接將Workfront工作專案連結到外部軟體產品中的物件。 ObjectIntegration物件代表此連結。</p>
           </li>
         </ul>
       </td>
@@ -1452,7 +1453,7 @@ ScoreCardQuestion物件代表已新增至計分卡的問題。 這些問題通�
 
 ### 範本(TMPL)
 
-範本物件代表專案的模式。 可從範本建立專案，以節省時間。 範本包含團隊和任務，這些團隊和任務將複製到從範本建立的任何專案。
+Template物件代表專案的模式。 可以從範本建立專案以節省時間。 範本包含專案團隊和任務，這些專案將會複製到從範本建立的任何專案中。
 
 <table>
   <col/>
@@ -1476,9 +1477,9 @@ ScoreCardQuestion物件代表已新增至計分卡的問題。 這些問題通�
   </tbody>
 </table>
 
-### 工時單(TSHET)
+### 時程表(TSHET)
 
-工時單對象表示一個虛擬工時單卡，它允許用戶輸入實際工時，以處理任務、項目和間接費用工時類型。
+時程表物件代表虛擬時程表，可讓使用者輸入任務、專案和管理費用時數型別的實際工作時數。
 
 <table>
   <col/>
@@ -1487,10 +1488,10 @@ ScoreCardQuestion物件代表已新增至計分卡的問題。 這些問題通�
     <tr>
       <td role="rowheader">核心欄位</td>
       <td>
-        <p>已移除下列欄位：</p>
+        <p>下列欄位已移除：</p>
         <ul>
           <li>
-            <p><b>objCode</b>
+            <p><b>物件代碼</b>
             </p>
           </li>
         </ul>
@@ -1499,7 +1500,7 @@ ScoreCardQuestion物件代表已新增至計分卡的問題。 這些問題通�
   </tbody>
 </table>
 
-### 視圖(UIVIEW)
+### 檢視(UIVIEW)
 
 <table>
   <col/>
@@ -1512,7 +1513,7 @@ ScoreCardQuestion物件代表已新增至計分卡的問題。 這些問題通�
           <li>
             <p><b>uiviewType</b>
             </p>
-            <p>已移除下列可能值：</p>
+            <p>下列可能的值已移除：</p>
             <ul>
               <li>
                 <p><code>FOUR_COL</code> (四欄式配置)</p>
@@ -1560,7 +1561,7 @@ ScoreCardQuestion物件代表已新增至計分卡的問題。 這些問題通�
 
 ### 更新（更新）
 
-Workfront中的工作項目可以更新，讓使用者隨時了解目前狀態。 更新對象表示其中一個更新。 使用者可輸入更新，或由Workfront系統建立。
+Workfront中的工作專案可以更新，以隨時通知使用者目前的狀態。 Update物件代表其中一項更新。 更新可由使用者輸入，或由Workfront系統建立。
 
 <table>
   <col/>
@@ -1573,7 +1574,7 @@ Workfront中的工作項目可以更新，讓使用者隨時了解目前狀態�
           <li>
             <p><b>updateType</b>
             </p>
-            <p>新增可能的值 <code>documentVersionDownload </code>(enum.updatetypeenum.documentversiondownload)</p>
+            <p>已新增可能的值 <code>documentVersionDownload </code>(enum.updatetypeenum.documentversiondownload)</p>
           </li>
         </ul>
       </td>
@@ -1581,9 +1582,9 @@ Workfront中的工作項目可以更新，讓使用者隨時了解目前狀態�
   </tbody>
 </table>
 
-### 用戶（用戶）
+### 使用者(USER)
 
-使用者物件代表擁有Workfront中可登入並與系統互動之帳戶的人員。
+使用者物件代表擁有Workfront帳戶的人員，該帳戶可以登入並與系統互動。
 
 <table>
   <col/>
@@ -1618,9 +1619,9 @@ Workfront中的工作項目可以更新，讓使用者隨時了解目前狀態�
   </tbody>
 </table>
 
-### UserNote(USRNOT)
+### 使用者附註(USRNOT)
 
-UserNote對象是通知。
+UserNote物件是通知。
 
 <table>
   <col/>
@@ -1631,15 +1632,15 @@ UserNote對象是通知。
       <td>
         <ul>
           <li>
-            <p><b>eventType</b>
+            <p><b>eventtype</b>
             </p>
-            <p>新增下列可能值：</p>
+            <p>已新增下列可能值：</p>
             <ul>
               <li>
-                <p><code>DUP </code>（請您校樣檔案）</p>
+                <p><code>DUP </code>（要求您校稿檔案）</p>
               </li>
               <li>
-                <p><code>DUV </code>（允許查看文檔）</p>
+                <p><code>DUV </code>（可讓您檢視檔案）</p>
               </li>
             </ul>
           </li>
@@ -1651,7 +1652,7 @@ UserNote對象是通知。
 
 ### 工作（工作）
 
-Work對象是Task和OpTask都繼承的公共介面，並且兩者之間共用公共代碼。
+Work物件是Task和OpTask都繼承的公用介面，並在兩者之間共用公用程式碼。
 
 <table>
   <col/>
@@ -1664,7 +1665,7 @@ Work對象是Task和OpTask都繼承的公共介面，並且兩者之間共用公
           <li>
             <p><b>objectIntegrations</b>
             </p>
-            <p>在某些情況下，可將Workfront工作項目直接連結至外部軟體產品中的物件。 ObjectIntegration物件代表此連結。</p>
+            <p>在某些情況下，可以直接將Workfront工作專案連結到外部軟體產品中的物件。 ObjectIntegration物件代表此連結。</p>
           </li>
         </ul>
       </td>

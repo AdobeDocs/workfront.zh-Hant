@@ -4,19 +4,20 @@ navigation-topic: Event Subscriptions resources
 description: 事件訂閱資源
 author: Becky
 feature: Workfront API
-source-git-commit: f050c8b95145552c9ed67b549608c16115000606
+role: Developer
+source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
 source-wordcount: '46'
 ht-degree: 0%
 
 ---
 
-# 事件訂閱
+# 活動訂閱
 
-以下是Adobe Workfront中「事件訂閱」的各種資源：
+以下是Adobe Workfront中活動訂閱的相關各種資源：
 
 * [事件訂閱API](../../wf-api/general/event-subs-api.md)
-* [事件訂閱最佳實務](../../wf-api/general/event-sub-best-practice.md)
+* [活動訂閱最佳實務](../../wf-api/general/event-sub-best-practice.md)
 * [事件訂閱傳送需求](../../wf-api/general/setup-event-sub-endpoint.md)
 * [事件訂閱資源欄位](../../wf-api/api/event-sub-resource-fields.md)
 * [事件訂閱重試次數](../../wf-api/api/event-sub-retries.md)

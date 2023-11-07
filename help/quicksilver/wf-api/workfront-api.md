@@ -4,8 +4,9 @@ description: ADOBE WORKFRONT API
 author: Becky
 feature: Workfront API
 recommendations: noDisplay, noCatalog
+role: Developer
 exl-id: 4ff63ad4-19b8-4436-9747-31d6a08c8c80
-source-git-commit: 34ce6492e14399926aed910bf9ed4d8688904341
+source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
 workflow-type: tm+mt
 source-wordcount: '32'
 ht-degree: 3%
