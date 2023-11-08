@@ -3,9 +3,9 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文件、教學課程和其他資源，了解如何在您的組織中實施並有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: 85cab7836aaf4bd6907ed2909de34b4c95655852
+source-git-commit: d666b54f3bb13f2ad923b819774ac4f849db75e8
 workflow-type: tm+mt
-source-wordcount: '13373'
+source-wordcount: '13384'
 ht-degree: 1%
 
 ---
@@ -767,6 +767,7 @@ ht-degree: 1%
    * Adobe Admin Console中的管理 {#admin-in-admin-console}
       * [Adobe Admin Console中的Workfront管理](administration-and-setup/adobe-admin-console/wf-admin-in-admin-console.md)
       * [準備Adobe Admin Console](administration-and-setup/adobe-admin-console/prep-for-admin-console.md)
+      * [瞭解Workfront產品和使用者移轉至Adobe Admin Console](administration-and-setup/adobe-admin-console/understand-wf-migration-to-admin-console.md)
    * 管理和設定的秘訣、技巧和疑難排解 {#admin-setup-tips}
       * [秘訣、技巧和疑難排解](administration-and-setup/tips-tricks-and-troubleshooting/ttt-admin-setup.md)
       * [群組管理員的存取權必須高於其管理的群組](administration-and-setup/tips-tricks-and-troubleshooting/group-admin-access-level.md)
@@ -1468,7 +1469,7 @@ ht-degree: 1%
    * [報告](reports-and-dashboards/reports-and-dashboards-overview.md)
    * 報告畫布 {#reporting-canvas}
       * [報告畫布](reports-and-dashboards/reporting-canvas/reporting-canvas.md)
-      * 管理報表 {#manage-reports}
+      * 管理報告 {#manage-reports}
          * [管理報表概觀](reports-and-dashboards/reporting-canvas/manage-reports/manage-reports.md)
          * [在報告畫布中建立報告](reports-and-dashboards/reporting-canvas/manage-reports/build-report.md)
          * [匯出報告畫布中的報告](reports-and-dashboards/reporting-canvas/manage-reports/export-report.md)
