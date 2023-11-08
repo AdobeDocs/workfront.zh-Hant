@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: bc7039bc4b8b257fc55e71e73f72327fdb417837
+source-git-commit: 324ad45b52dafa96c2854f1fec1172b88643bdc2
 workflow-type: tm+mt
-source-wordcount: '1432'
+source-wordcount: '1474'
 ht-degree: 1%
 
 ---
@@ -120,8 +120,6 @@ role: User
      * Edit record information
 -->
 
-建立時間軸檢視時，依預設，所選記錄型別的所有記錄都會在時間軸中顯示為長條。
-
 若要管理時間表檢視：
 
 1. 移至您要檢視其時間軸的記錄型別頁面。
@@ -129,7 +127,7 @@ role: User
 
    ![](assets/timeline-view-example.png)
 
-   與您選取的記錄型別相關聯的記錄會以時間軸的方式顯示為長條。
+   與您選取的記錄型別相關聯的記錄會在時間軸中顯示為長條，並依預設以時間順序排序。
 
 1. 執行下列任一項作業來瀏覽時間軸：
 
@@ -176,26 +174,22 @@ role: User
 
 ### 新增分組
 
-<!-- if groupings are identical between the table and the timeline, consider replacing this section with this: 
-
-Adding groupings in the timeline view is identical to adding filters in the table view. 
-
-For more information, see the "Add groupings" section in the article [Manage the table view](../views/manage-the-table-view.md). BUT: you would need to create this section for the Table view and move the steps below (and maybe edit them) to the Manage the table view article, in this case. OR ... link from that section to this article?! -->
+<!-- groupings are almost identical between this view and table  but they display a little differently, so I kept the steps for both; update in both places if they make changes to groupings-->
 
 將群組套用至檢視時，您可以依照類似的資訊來群組記錄。
 
+在時間軸檢視中新增群組，類似於在表格檢視中新增群組。
+
 在時間軸檢視中使用群組時，請考量下列事項：
 
-<!--not yet: * You can apply groupings both in the table and timeline views. The groupings of the table view are independent from those in the timeline view of the same record type. -->
+* 您可以在表格和時間軸檢視中套用群組。 表格檢視的分組與相同記錄型別之時間軸檢視中的群組是獨立的。
 * 您可以在Maestro檢視中套用3個群組層級。 記錄會依照您選取的群組順序進行分組。
 * 使用API時，您最多可以套用4個層級的群組。
 * 群組對於您選取的檢視而言是唯一的。 相同記錄型別的兩個時間軸檢視可套用不同的群組。 檢視相同時間表檢視的兩個使用者會看到目前套用的相同分組。
-
 * 您無法為時間表檢視建立的分組命名。
-
 * 移除群組會將群組從存取與您相同記錄型別以及顯示與您相同檢視的任何人中移除。
 
-若要新增群組：
+若要在時間表檢視中新增群組：
 
 1. 如文章所述，為記錄型別建立時間表檢視 [管理記錄檢視](../views/manage-record-views.md).
 1. 按一下 **分組** 位於時間軸檢視的右上角。
@@ -218,7 +212,7 @@ For more information, see the "Add groupings" section in the article [Manage the
 
    ![](assets/grouping-applied-in-timeline-view.png)
 
-1. （可選）按一下 **x** 圖示在選取要移除分組的欄位右側
+1. （選用）內部 **記錄分組依據** 方塊中，按一下 **x** 圖示在選取要移除分組的欄位右側
 
    或
 

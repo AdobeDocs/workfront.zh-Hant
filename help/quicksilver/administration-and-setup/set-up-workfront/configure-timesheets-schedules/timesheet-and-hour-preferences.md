@@ -8,9 +8,9 @@ author: Courtney and Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 8cc49dc2-b23f-4899-85dd-bd53d5242dbe
-source-git-commit: 62c600a13f61f7f5e889a92b446252e5ca0777f9
+source-git-commit: 324ad45b52dafa96c2854f1fec1172b88643bdc2
 workflow-type: tm+mt
-source-wordcount: '1352'
+source-wordcount: '1380'
 ht-degree: 0%
 
 ---
@@ -21,11 +21,15 @@ ht-degree: 0%
 
 作為 [!DNL Adobe Workfront] 管理員，您可以在中指定時程表和時數的偏好設定 [!DNL Workfront] 以定義時間表可預先填入的專案以及使用者可記錄時間的專案。
 
->[!NOTE]
+>[!IMPORTANT]
 >
->您在時程表的時間範圍內記錄時間的專案會預設顯示在時程表中，但是這些專案可能不符合本文中說明的預先填入時程表的條件。
+>除了根據本文所述的條件預先填入時程表的專案之外，預設時程表上也會顯示以下專案：
+>* 您在時程表的時間範圍內記錄時間的專案
+>* 釘選到時程表的專案
+>* 您搜尋並手動新增至時程表的專案。 預設會釘選手動新增的專案。
 >
->如需有關記錄時間的資訊，請參閱 [記錄時間](../../../timesheets/create-and-manage-timesheets/log-time.md).
+>如需詳細資訊，請參閱 [記錄時間](../../../timesheets/create-and-manage-timesheets/log-time.md).
+
 
 
 您對時程表所做的任何變更都會影響未來建立的所有時程表。

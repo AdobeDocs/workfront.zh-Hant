@@ -2,21 +2,21 @@
 content-type: reference
 navigation-topic: product-announcements
 title: 公告
-description: 本節包含下列文章 — 編輯我。
+description: 以下是您可能需要熟悉的一些公告。
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 3fe99aec-1489-4434-b787-cc3f940c9062
-source-git-commit: 417b8c081a1940b112e8cfbd6d9216d802dc8f8e
+source-git-commit: 324ad45b52dafa96c2854f1fec1172b88643bdc2
 workflow-type: tm+mt
-source-wordcount: '42'
+source-wordcount: '50'
 ht-degree: 4%
 
 ---
 
 # 公告
 
-本節包含下列文章：
+以下是您可能想要熟悉的公告：
 
 * [自訂表單增強功能](../../product-announcements/announcements/custom-form-enhancements.md)
 * [維護期間常見問題集](../../product-announcements/announcements/maintenance-window-faq.md)

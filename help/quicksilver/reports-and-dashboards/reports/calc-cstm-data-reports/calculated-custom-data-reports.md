@@ -3,21 +3,21 @@ content-type: reference
 product-area: reporting
 navigation-topic: reports
 title: 報表中計算的自訂資料
-description: 本節包含下列文章 — 編輯我。
+description: 您可以使用計算的自訂資料建立報表。
 author: Nolan
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: 673792b6-7369-47ce-b0df-9bda4254781c
-source-git-commit: 417b8c081a1940b112e8cfbd6d9216d802dc8f8e
+source-git-commit: 324ad45b52dafa96c2854f1fec1172b88643bdc2
 workflow-type: tm+mt
-source-wordcount: '79'
+source-wordcount: '86'
 ht-degree: 0%
 
 ---
 
 # 報表中計算的自訂資料
 
-本節包含下列文章：
+您可以使用計算的自訂資料建立報表。 以下文章將說明如何進行：
 
 * [計算的資料運算式](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md)
 * [計算自訂欄位與計算欄的比較](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-custom-fields-calculated-columns.md)

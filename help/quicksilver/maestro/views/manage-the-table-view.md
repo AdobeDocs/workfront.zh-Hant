@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: 908a3136b2537310305f282b7a76d8f09cae3836
+source-git-commit: 324ad45b52dafa96c2854f1fec1172b88643bdc2
 workflow-type: tm+mt
-source-wordcount: '1710'
+source-wordcount: '2069'
 ht-degree: 4%
 
 ---
@@ -319,45 +319,55 @@ Maestro表格檢視的列會顯示所選記錄型別的個別記錄。
 
 1. （選用）按一下 **篩選器**，然後按一下 **x** 圖示以移除篩選器。 <!--right now you cannot "clear all" for filters, but this might come later-->
 
-<!-- this is not available yet
+### 新增群組 {#add-groupings}
 
-### Add groupings {#add-groupings}
+<!--this section exists in the timeline view too, but the display is slightly different, so I kept both steps; consider updating both sections if any updates to groupings are introduced-->
 
-*******************this section might link in the future from the timeline view; right now it's only documented there; also, check the steps below because this was not released to the table when they were written*****************
+將群組套用至檢視時，您可以依照類似的資訊來群組記錄。
 
-You can group records by similar information when applying  a grouping to a view.
+在表格檢視中新增群組，類似於在時間軸檢視中新增群組。
 
-You can apply groupings both in the table and timeline views. The groupings of the table view are independent from those in the timeline view of the same record type. 
+請考量下列事項：
 
-Consider the following:
+* 您可以在表格和時間軸檢視中套用群組。 表格檢視的分組與相同記錄型別之時間軸檢視中的群組是獨立的。
+* 您可以在Maestro檢視中套用3個群組層級。 記錄會依照您選取的群組順序進行分組。
+&lt;!—*使用API時，您最多可以套用4個層級的群組。  — 現在正在檢查此專案 — >
+* 群組對於您選取的檢視而言是唯一的。 相同記錄型別的兩個表格檢視可以套用不同的群組。 檢視相同表格檢視的兩個使用者會看到目前套用的相同分組。
+* 您無法為表格檢視建立的分組命名。
+* 移除群組會將群組從存取與您相同記錄型別以及顯示與您相同檢視的任何人中移除。
+* 您可以編輯列在群組下的記錄。
+<!--checking into this: * You can apply up to 4 levels of grouping when using the API. -->
+<!-- checking also into this: * You cannot group by a Paragraph-type field.-->
 
-* You can apply 3 levels of grouping in a Maestro view. The records are grouped in the order of groupings that you select. (***************check on this; this might be true for timeline, but not for table??? One dev said in a demo that there are unlimited groupings in a table - check *********************)
-* You can apply up to 4 levels of grouping when using the API. 
+若要新增群組：
 
-To add a grouping:
+1. 如文章所述，為記錄型別建立時間表檢視 [管理記錄檢視](../views/manage-record-views.md).
+1. 按一下 **分組** 位於時間軸檢視的右上角。
 
-1. Create a view, as described in [Create or edit record views](#create-or-edit-record-views). 
-1. (Conditional) To apply a grouping in the table view, do the following:
-    
-    1. ***************start adding steps for building a grouping - see if there it a global setting or just per column; also, see if the steps are different for a table vs a timeline view?!**********************
-1. (Conditional) To apply a grouping in the timeline view, do the following:
+   ![](assets/grouping-ui-table-view.png)
 
-    1. Go to a timeline view, then click **Group**. ************************did they rename this to "Grouping"?!****************************
-        ******************insert screen shot***********
-    1. Click one of the 5 suggested fields, or click **Choose a different field** to display all fields, then click one when it displays in the list. 
-    
-        >[!TIP]
-        >
-        > You cannot select linked fields. For information, see [Create fields](../architecture-and-fields/create-fields.md).  
-    The grouping is applied automatically to the timeline and records display inside the grouping box.    <********************ensure this is correct functionality here*************
-    
-    1. (Optional) Click **Add grouping** to add up to 3 groupings. 
+1. 按一下其中一個建議欄位，或按一下 **選擇其他欄位**，搜尋其他欄位，然後在清單中顯示時按一下該欄位。
 
-        The number of groupings applied displays to the left of the Grouping icon in the upper-right corner of the toolbar. **********ensure this says "grouping" and not "group"*****************
-    
-    1. (Optional) Click **Clear all** to remove all groupings.  
+   >[!TIP]
+   >
+   >您無法選取連結的欄位。
 
--->
+   分組會自動套用至表格，且記錄會顯示在分組分隔行下方
+
+1. （可選）重複上述步驟以新增最多3個群組。
+
+   為分組選取的欄位數會顯示在「分組」圖示旁。
+
+   ![](assets/grouping-applied-in-table-view.png)
+
+1. （選用）內部 **記錄分組依據** 方塊中，按一下 **x** 圖示在選取要移除分組的欄位右側
+
+   或
+
+   按一下 **全部清除** 以移除所有欄位。
+
+1. 按一下 **記錄分組依據** 方塊以關閉它。
+1. （選用）按一下 **+新增&lt;記錄型別名稱>** 在任何群組結束時新增記錄，然後重新整理您的頁面以將新記錄新增到適當的群組。 <!--this might need to be changed when they add the Refresh button on the toolbar of the table view-->
 
 ### 新增排序 {#sort-information}
 

@@ -1,13 +1,13 @@
 ---
 title: Adobe大師發行活動
-description: 使用Maestro建立自訂物件、欄位和工作區。
+description: Adobe Maestro目前可供特定Workfront客戶使用。 請經常閱讀本文章，瞭解最近為Adobe Maestro發行的功能。
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 0699740f8ef0932316843d9aec0008ccdeb319f5
+source-git-commit: 324ad45b52dafa96c2854f1fec1172b88643bdc2
 workflow-type: tm+mt
-source-wordcount: '1971'
+source-wordcount: '2030'
 ht-degree: 0%
 
 ---
@@ -35,6 +35,16 @@ ht-degree: 0%
 本節列出2023年5月22日Maestro封閉Beta版計畫推出後所發行的功能和修補程式。
 
 功能每週都會發行，並依發行順序列出，最新的則排在前。 參與Maestro封閉測試版計畫的客戶可以存取其預覽和生產環境中的所有功能。
+
+## 2023年11月6日當週
+
+### 表格檢視的分組
+
+預覽和生產： 2023年11月7日
+
+您現在可以在記錄型別頁面的表格檢視中將記錄分組。 您可以在Maestro介面中依三個不重複欄位分組 <!--checking into this for now: and by four fields when using the API-->.
+
+如需詳細資訊，請參閱 [管理表格檢視](../maestro/views/manage-the-table-view.md).
 
 ## 2023年10月30日當週
 
