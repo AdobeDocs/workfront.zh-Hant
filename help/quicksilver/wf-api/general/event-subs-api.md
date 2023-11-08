@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: c3646a5d-42f4-4af8-9dd0-e84977506b79
-source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
+source-git-commit: 7f11ddf290c24ac3436ea98f14eff1338388f314
 workflow-type: tm+mt
-source-wordcount: '2111'
+source-wordcount: '2123'
 ht-degree: 3%
 
 ---
@@ -56,12 +56,15 @@ ht-degree: 3%
 * 儀表板
 * 文件
 * 費用
+* 欄位
 * 小時
 * 問題
 * 備註
 * 專案組合
 * 方案
 * 專案
+* 記錄
+* 記錄類型
 * 報告
 * 任務
 * 範本
@@ -122,6 +125,10 @@ ht-degree: 3%
         <td scope="col">費用</td> 
        </tr> 
        <tr> 
+        <td scope="col"><p>欄位</p></td> 
+        <td scope="col"><p>欄位</p></td> 
+       </tr> 
+      <tr> 
         <td scope="col"><p>小時</p></td> 
         <td scope="col">HOUR</td> 
        </tr> 
@@ -144,6 +151,14 @@ ht-degree: 3%
        <tr> 
         <td scope="col"><p>專案</p></td> 
         <td scope="col"><p>專案</p></td> 
+       </tr> 
+       <tr> 
+        <td scope="col"><p>記錄</p></td> 
+        <td scope="col"><p>記錄</p></td> 
+       </tr> 
+       <tr> 
+        <td scope="col"><p>記錄類型</p></td> 
+        <td scope="col"><p>RECORD_TYPE</p></td> 
        </tr> 
        <tr> 
         <td scope="col"><p>報告</p></td> 
