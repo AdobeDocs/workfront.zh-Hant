@@ -3,7 +3,7 @@ filename: test-drop-down-text
 content-type: release-notes
 navigation-topic: 2020-4-release-activity
 title: test-drop-down-text
-description: The following content should be collapsible - EDIT ME.
+description: Test
 author: Luke
 hidefromtoc: true
 ---
