@@ -6,9 +6,9 @@ description: 下列是目前版本和舊版本的發行說明連結。
 author: Luke
 feature: Product Announcements
 exl-id: 505a9602-580c-4932-a85c-6c9a7c8af457
-source-git-commit: a20ff4ea67ac2745663896df0e0ae792f4f21024
+source-git-commit: 0fca20c1745afdb1d573f12fc8e608d331065e32
 workflow-type: tm+mt
-source-wordcount: '169'
+source-wordcount: '180'
 ht-degree: 15%
 
 ---
@@ -32,6 +32,11 @@ ht-degree: 15%
   <tr data-mc-conditions=""> 
    <td> <p>2023年發行</p> 
     <ul> 
+    <li> <p><a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md" class="MCXref xref" xrefformat="{para}">2024年第一季版本總覽</a> </p> 
+   <td>    </td> 
+  <tr data-mc-conditions=""> 
+   <td> <p>2023年發行</p> 
+    <ul> 
     <li> <p><a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md" class="MCXref xref" xrefformat="{para}">2023年第四季版本總覽</a> </p> <p> 包含發行版本： <ul><li>23.8</li><li>23.9</li><li>23.10</li></ul></p>
     <li> <p><a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-release-overview.md" class="MCXref xref" xrefformat="{para}">23.3版本總覽</a> </p> </li>
     <li> <p><a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-release-overview.md" class="MCXref xref" xrefformat="{para}">23.2版本總覽</a> </p> </li>
@@ -50,7 +55,9 @@ ht-degree: 15%
      <li> <p><a href="../../product-announcements/product-releases/22.2-release-activity/22-2-release-overview.md" class="MCXref xref" xrefformat="{para}">22.2版本總覽</a> </p> </li> 
      <li> <p><a href="../../product-announcements/product-releases/22.1-release-activity/22-1-release-overview.md" class="MCXref xref" xrefformat="{para}">22.1版本總覽</a> </p> </li> 
     </ul> </td> 
-   <td> </td> 
+   <td><ul> 
+     <li> <p><a href="../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md" class="MCXref xref" xrefformat="{para}">Adobe Workfront Fusion發行活動</a> </p> </li> 
+    </ul></td> 
   </tr> 
   <tr> 
    <td> <p>2021年發行</p> 
