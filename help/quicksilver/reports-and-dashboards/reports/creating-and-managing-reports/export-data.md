@@ -310,14 +310,14 @@ NOTE: Alina: [! This information is shared between "Exporting Data" and "Setting
 
 >[!TIP]
 >
-如果行 `valueformat=HTML` 以文字模式顯示自訂欄位欄，且連結值未顯示在轉存的.pdf檔案中，您必須在文字模式中輸入額外的程式碼行至欄。
+>如果行 `valueformat=HTML` 以文字模式顯示自訂欄位欄，且連結值未顯示在轉存的.pdf檔案中，您必須在文字模式中輸入額外的程式碼行至欄。
 >
-例如，如果您有一個名為「開啟第1季專案」的自訂欄位，其中包含連結，您可以新增下列程式碼：
+>例如，如果您有一個名為「開啟第1季專案」的自訂欄位，其中包含連結，您可以新增下列程式碼：
 >
-```
-link.url=customDataLabelsAsString(Open Q1 Projects)
-linkedname=direct
-```
+>```
+>link.url=customDataLabelsAsString(Open Q1 Projects)
+>linkedname=direct
+>```
 
 當您匯出為Excel格式時，匯出的檔案中只會包含指向Workfront內物件的連結，而且只有當您可選取在匯出的Excel檔案中允許連結的位置（例如報表傳送）才支援這些連結。
 
