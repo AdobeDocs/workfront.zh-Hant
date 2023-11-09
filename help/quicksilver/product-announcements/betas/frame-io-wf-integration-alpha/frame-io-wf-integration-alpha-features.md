@@ -7,17 +7,15 @@ author: Nolan
 feature: Product Announcements
 hide: true
 hidefromtoc: true
-source-git-commit: 0ad33f377086f71699c550e2300731056a834e72
+exl-id: a1603a06-957b-4d52-89f3-f0cec1a4e02c
+source-git-commit: 2778cd34a70f2c268490bdf4cbc2e8ef81bdead2
 workflow-type: tm+mt
-source-wordcount: '845'
+source-wordcount: '1136'
 ht-degree: 0%
 
 ---
 
-
-# Adobe Workfront與Frame.io原生整合alpha：功能
-
-## 使用案例和功能測試
+# Adobe Workfront與Frame.io原生整合alpha：功能和測試
 
 透過這項整合，我們的目標是讓創意人員留在他們選擇的工具（CC或Frame.io）中執行其內容建立和同行審閱，同時讓專案經理協調工作，並從Workfront內部初始化和監控正式稽核流程。 最佳化兩種解決方案結合使用，即可達成此目的：Workfront管理內容核准的新檔案核准，以及Frame.io提供的內容檢閱功能。 整體而言，新檔案核准和Frame.io將形成我們新的端對端內容稽核和核准體驗。 
 
@@ -28,38 +26,39 @@ ht-degree: 0%
 >
 >如果您的公司未參與此Alpha方案，您可能會看到這些頁面，請務必謹慎處理這些資訊，並聯絡Workfront或Frame.io管理員以取得詳細資訊。
 
-<!--Initial setup and basic test scenario 
+## 基本測試案例
 
-As part of the alpha program, we've provisioned a new test Frame.io account for you and connected it to a new group "Frame.io alpha testing" in your existing Workfront Preview or Sandbox environment. To test the delivered functionality please log in to your Workfront Preview or Sandbox instance and  perform the following steps: 
+為了讓您輕鬆測試Alpha程式的新功能，我們已建立新的測試Frame.io帳戶，並將其連線到名為的新群組 `Frame.io alpha testing` 在現有的Workfront預覽或沙箱環境中。
 
-Coordinators: Within Workfront, create a project with the "Frame.io alpha testing" group assigned as project group 
+若要測試功能，請登入您的Workfront預覽或沙箱執行個體，然後執行下列步驟：
 
-Coordinators: Within Workfront, assign your creatives to the project or Frame enabled tasks and change the project status to "Current" 
+1. **協調員：** 在Workfront中，建立專案，使用 `Frame.io alpha testing` 群組已指派為專案群組。
 
-Creatives: Check your emails for an invite to the newly created Frame.io project 
+1. **協調員：** 在Workfront中，將創意內容指派給專案或啟用影格的任務，並將專案狀態變更為「目前」。
 
-Creatives: Click on the "Join project" button within the invitation email to join the Frame.io project, review the creative brief within the project and start your content creation within your CC tool of choice 
+1. **創意內容：** 檢查您的電子郵件，以取得新建立Frame.io專案的邀請
 
-Creatives: Upload your created assets to Frame.io and add them to the linked Workfront project (or assigned Frame enabled tasks)  
+1. **創意內容：** 按一下邀請電子郵件中的「加入專案」按鈕，加入Frame.io專案、檢閱專案內的創意簡報，並在您選擇的Creative Cloud工具中開始建立內容。
 
-Coordinators: Within Workfront, see the linked Frame.io assets in your project and assign reviewers / approvers (new document approvals: More help on this feature) 
+1. **創意內容：** 將您建立的資產上傳到Frame.io，並將其新增到連結的Workfront專案（或指派已啟用框架的任務）。
 
-Stakeholders: Withing Workfront, view your approval request in Workfront Home or Document Details and review the Frame connected document in the Frame.io Viewer. Leave a comment feedback 
+1. **協調員：** 在Workfront中，在您的專案中找到連結的Frame.io資產，並指派檢閱者/核准者(如需指派檢閱/核准者的詳細資訊，請參閱 [新增其他核准者或稽核者至檔案](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/add-additional-reviewers-or-approvers.md))。
 
-Coordinators: Within Workfront, view the stakeholder created comments within the Updates section of the Frame.io connected document in Workfront 
+1. **利害關係人：** 在Workfront中，在「首頁」或「檔案詳細資訊」中檢視您的核准請求，並在Frame.io檢視器中檢閱「框架連線」檔案，然後留下包含意見回饋的註解。
 
-Stakeholders: Make a decision from within the Frame.io Viewer 
+1. **協調員：** 在Workfront中，檢視利害關係人在Frame.io連線檔案的「更新」區段內建立的評論。
 
-Creatives: Within Frame.io, notice the overall approval decision made for your assets 
+1. **利害關係人：** 在Frame.io檢視器中做出決定。
 
-Creatives: Within Frame.io, Apply the requested changes by adding the updated version to the version stack of the connected asset 
+1. **創意內容：** 在Frame.io中，請注意針對您的資產所作出的整體核准決定。
 
-Coordinators: Within Workfront, assign approvers / reviewers to the new version upload and monitor the progress until it reaches sign-off-->
+1. **創意內容：** 在Frame.io中，將更新版本新增至連線資產的版本棧疊中，以套用要求的變更。
+
+1. **協調員：** 在Workfront中，將核准者/稽核者指派給新上傳的版本，並監控進度，直到該版本達到登出為止。
 
 ## 功能計畫
 
 以下是我們要解決的主要使用案例相關資訊，以及我們目前計畫要處理的功能。 <!--, along with documentation to get you started testing.-->
-
 
 ### Workfront管理員可以在Workfront群組和Frame.io帳戶之間建立連線
 
