@@ -3,9 +3,7 @@ title: 2024年第一季版本總覽
 description: 2024年第一季版本總覽
 author: Becky
 feature: Product Announcements
-hidefromtoc: true
-hide: true
-source-git-commit: 458f215711e575e85b35eaf953c65688f318d540
+source-git-commit: 2dfb6cb4034b12c42808644f1a3966fb95948763
 workflow-type: tm+mt
 source-wordcount: '458'
 ht-degree: 1%
