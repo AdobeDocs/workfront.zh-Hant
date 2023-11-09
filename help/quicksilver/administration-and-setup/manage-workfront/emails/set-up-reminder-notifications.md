@@ -5,9 +5,9 @@ author: Alina, Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 6c0fa8af-cd89-4941-a6f6-aa4e84a7dc67
-source-git-commit: 1129f8ab93d349325bed56bc2b3ba94c2600c03f
+source-git-commit: aff9ba1082af998f104fa01bbc437f7e2ec9b16a
 workflow-type: tm+mt
-source-wordcount: '1142'
+source-wordcount: '1141'
 ht-degree: 1%
 
 ---
@@ -89,12 +89,12 @@ An example of how this can be used would be helpful here and/or in the section <
       <td> <p>在中指定日期之前或之後的小時數、工作日數、日數（行事曆日數）、周數或月數 <strong>時間</strong> 欄位。</p> <p><b>附註</b>:  
         <ul> 
          <li> <p>提醒通知會在指定日期後24小時開始，並在符合所有條件後開始。</p> </li> 
-         <li> <p>美國山區時間每天午夜觸發專案、任務和問題的提醒通知。 當天符合提醒通知資格的所有物件會在當天不久之後觸發通知給指定的使用者。</p> </li> 
+         <li> <p>美國山區時間每天午夜觸發專案、任務和問題的提醒通知。 當天起符合提醒通知資格的所有物件會在當天不久之後觸發通知給指定的使用者。</p> </li> 
          <li> <p>時程表的提醒通知會根據您的時區與時程表的結束日期、開始日期或上次更新日期，在指定時間傳送。</p> </li> 
         </ul> </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">時間</td> 
+      <td role="rowheader">定時</td> 
       <td> <p>選取觸發提醒通知（要排程）的事件。</p> <p>如果提醒通知是針對專案、任務或問題，則可用選項與完成日期或開始日期相關。 提醒通知會考量專案、任務和問題的完成和開始日期上的時間戳記。</p>
 
    <p>如果提醒通知是針對時程表，則可用選項與結束日期、開始日期或上次更新日期有關。 時程表的提醒通知會考慮時程表結束、開始和上次更新日期的時間戳記。 時程表從開始日期的午夜開始(12:00 AM)，並在結束日期的午夜之前(11:59 PM)結束。</p>
@@ -109,13 +109,13 @@ An example of how this can be used would be helpful here and/or in the section <
       <td role="rowheader">條件</td> 
       <td> <p>選取條件以符合要排程的提醒通知資格。 除非符合條件選擇，否則不會排程提醒通知。</p> <p>根據您在步驟4中選取的物件型別，可使用下列條件選項：</p> 
        <ul> 
-        <li><strong>目前專案中未完成：</strong> （可用於任務和問題提醒）提醒通知排程為僅當與提醒通知關聯的物件狀態未完成且專案狀態為目前時傳送。</li> 
-        <li><strong>目前專案中的所有專案：</strong>（可用於任務和問題提醒）提醒通知已排定為不論物件狀態為何，並且僅當提醒通知關聯的專案狀態為「目前」時傳送。</li> 
-        <li><strong>未完成的專案：</strong> （可用於專案提醒）提醒通知已排定在專案狀態為完成以外的任何時間傳送。</li> 
-        <li><strong>完成專案：</strong> （可用於專案提醒）提醒通知已排定在專案狀態為完成時傳送。</li> 
-        <li><strong>未完成的時程表：</strong> （可用於時程表提醒）提醒通知已排程在時程表狀態為「開啟」時傳送。</li> 
-        <li><strong>已提交的時程表：</strong> （可用於時程表提醒）提醒通知已排程在時程表狀態為已提交時傳送。</li> 
-        <li><strong>未完成的時程表或每週不到40小時：</strong> （可用於時程表提醒）提醒通知排程在時程表狀態為「開啟」或時程表記錄少於40小時時傳送。</li> 
+        <li><strong>目前專案中未完成：</strong> <i>（可用於任務和問題提醒）</i> 提醒通知排程為僅當與提醒通知關聯的物件狀態為未完成且專案狀態為目前時傳送。</li> 
+        <li><strong>目前專案中的所有專案：</strong> <i>（可用於任務和問題提醒）</i> 無論物件狀態為何，且僅當提醒通知關聯的專案狀態為「目前」時，提醒通知才會排程傳送。</li> 
+        <li><strong>未完成的專案：</strong> <i>（可用於專案提醒）</i> 此提醒通知已排程在專案狀態不是「完成」時傳送。</li> 
+        <li><strong>所有專案：</strong> <i>（可用於專案提醒）</i> 無論專案狀態為何，提醒通知皆已排程傳送。</li> 
+        <li><strong>未完成的時程表：</strong> <i>（可用於時程表提醒）</i> 提醒通知已排程在時程表狀態為「未完成」時傳送。</li> 
+        <li><strong>已提交的時程表：</strong> <i>（可用於時程表提醒）</i> 提醒通知已排程在時程表狀態為已提交時傳送。</li> 
+        <li><strong>未完成的時程表或每週不到40小時：</strong> <i>（可用於時程表提醒）</i> 排程在時程表狀態為「開啟」或時程表記錄少於40小時時傳送提醒通知。</li> 
         <li><strong>電子郵件範本：</strong> 從下拉式清單中，選取要附加至提醒的電子郵件範本。<br>有關如何建立電子郵件範本的資訊，請參閱 <a href="../../../administration-and-setup/manage-workfront/emails/configure-email-templates.md" class="MCXref xref">設定電子郵件範本</a>.</li> 
        </ul> </td> 
      </tr> 
