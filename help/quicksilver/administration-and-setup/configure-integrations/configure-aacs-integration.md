@@ -5,9 +5,9 @@ title: 設定 [!UICONTROL Experience Manager Assetsas a Cloud Service] 整合
 description: 您可以在下列位置將您的工作與內容連結： [!DNL Experience Manager Assets].
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: bc58cc77-a177-417f-a5a4-eec51e305219
-source-git-commit: b9cb7dd0663b498937ced48fd1a098cbea5294cd
+source-git-commit: 0f625e7d058c6d3ccbfd9dbb12175ad3e2797911
 workflow-type: tm+mt
-source-wordcount: '1317'
+source-wordcount: '1418'
 ht-degree: 0%
 
 ---
@@ -239,13 +239,25 @@ When this option is enabled, any asset that has been pushed to Adobe Experience 
 
 您在整合中設定的預設工作流程值可在專案範本和專案層級被覆寫。
 
-### 設定建立Adobe Experience Manager連結資料夾的工作流程
+Adobe Experience Manager整合提供下列工作流程：
+
+* [建立Adobe Experience Manager連結資料夾](#create-adobe-experience-manager-linked-folders)
+* [發佈傳送至Adobe Experience Manager資產的資產](#publish-assets-that-are-sent-to-adobe-experience-manager-assets)
+
+### 建立Adobe Experience Manager連結資料夾
 
 1. 切換 **[!UICONTROL 建立連結的資料夾]** 開啟。
 1. 選擇資料夾路徑，以指出您要將所有連結的資料夾與此整合相關聯的位置。
    ![連結的資料夾導覽](assets/select-folder-aem-integration.png)
-1. 啟用 **附加Portfolio和計畫名稱** 在連結資料夾名稱結尾自動包含Portfolio和程式名稱的選項。
-1. 按一下 **儲存** 或移至 [設定連結的資料夾（選擇性）](#set-up-linked-folders-optional) 一節。
+1. 啟用 **[!UICONTROL 附加Portfolio和計畫名稱]** 在連結資料夾名稱結尾自動包含Portfolio和程式名稱的選項。
+1. 按一下 **[!UICONTROL 儲存]** 或移至 [發佈傳送至Adobe Experience Manager資產的資產](#publish-assets-that-are-sent-to-adobe-experience-manager-assets) 一節。
+
+### 發佈傳送至Adobe Experience Manager資產的資產
+
+1. 開啟 **[!UICONTROL 自動發佈資產]**.
+1. 勾選您要發佈傳送至Adobe Experience Manager資產之資產的位置旁的方塊。 您可以啟用任一或兩個選項。
+1. （視條件而定）如果您已啟用Brand Portal選項，請選取您要發佈資產的Brand Portal 。
+1. 按一下 **[!UICONTROL 儲存]** 或移至 [設定連結的資料夾（選擇性）](#set-up-linked-folders-optional) 一節。
 
 ## 設定連結的資料夾（選擇性）
 
