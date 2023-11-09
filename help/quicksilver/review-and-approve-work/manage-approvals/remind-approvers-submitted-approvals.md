@@ -2,13 +2,13 @@
 product-area: projects
 navigation-topic: approvals
 title: 提醒核准者已提交的核准
-description: 您可以提醒核准者下列物件的擱置核准 — 編輯我。
+description: 您可以提醒核准者有關Workfront中物件的擱置核准。
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: eece6fc8-14e8-4751-8662-080ecb4371e3
-source-git-commit: 95679dd71ef7e4991853e63573a387f26321159d
+source-git-commit: ae80999fc7ea7e35097560aa99baa435bcd31b74
 workflow-type: tm+mt
-source-wordcount: '453'
+source-wordcount: '451'
 ht-degree: 3%
 
 ---

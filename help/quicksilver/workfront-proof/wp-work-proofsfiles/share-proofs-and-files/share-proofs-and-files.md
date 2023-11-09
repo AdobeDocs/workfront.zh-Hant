@@ -4,14 +4,14 @@ product-previous: workfront-proof
 product-area: documents
 navigation-topic: work-with-proofs-and-files
 title: 共用校訂和檔案
-description: 本節包含下列文章 — 編輯我。
+description: 在Workfront Proof中共用校樣和檔案。
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 6275abbf-0485-4729-b633-015f92aac72b
-source-git-commit: cb8293350add186743157ee4c60671f7c1ee96f1
+source-git-commit: c3e15a052533d43065b50a9f56169b82f8dc3765
 workflow-type: tm+mt
-source-wordcount: '78'
+source-wordcount: '77'
 ht-degree: 0%
 
 ---

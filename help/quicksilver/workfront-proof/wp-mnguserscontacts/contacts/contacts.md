@@ -4,14 +4,14 @@ product-previous: workfront-proof
 product-area: documents;system-administration;user-management
 navigation-topic: manage-your-users-and-contacts
 title: 連絡人
-description: 本節包含下列文章 — 編輯我。
+description: 瞭解Workfront Proof中的聯絡人。
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: a8b70462-28bc-45cc-b19a-cb683172d528
-source-git-commit: cb8293350add186743157ee4c60671f7c1ee96f1
+source-git-commit: c3e15a052533d43065b50a9f56169b82f8dc3765
 workflow-type: tm+mt
-source-wordcount: '46'
+source-wordcount: '44'
 ht-degree: 4%
 
 ---

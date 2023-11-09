@@ -4,15 +4,15 @@ product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: workfront-proof-navigation-topic
 title: Workfront校訂帳戶管理
-description: 本節包含以下小節 - 編輯我。
+description: 進一步瞭解Workfront校訂帳戶管理。
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 451b9f13-edeb-4e4b-9cee-d1a053bea17c
-source-git-commit: cb8293350add186743157ee4c60671f7c1ee96f1
+source-git-commit: ae80999fc7ea7e35097560aa99baa435bcd31b74
 workflow-type: tm+mt
-source-wordcount: '55'
-ht-degree: 16%
+source-wordcount: '54'
+ht-degree: 1%
 
 ---
 

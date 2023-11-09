@@ -3,14 +3,14 @@ title: 增強型分析
 content-type: reference
 product-area: enhanced-analytics
 navigation-topic: reports-and-dashboards
-description: 本節包含下列文章 — 編輯我。
+description: 瞭解增強型分析。
 author: Nolan
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: 5d5be823-77d9-4d0c-bec6-cc172ea7f50b
-source-git-commit: 752caa1d94a09871b97a11400d83f28853118d33
+source-git-commit: bcafa607da733b89747f6b448dd295d9b906d060
 workflow-type: tm+mt
-source-wordcount: '110'
+source-wordcount: '106'
 ht-degree: 3%
 
 ---

@@ -4,14 +4,14 @@ product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: basics-workfront-proof
 title: 中的系統資訊 [!DNL Workfront Proof]
-description: 本節包含下列文章 — 編輯我。
+description: 瞭解Workfront Proof中的系統資訊。
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 3fce3bc9-9660-429f-b7af-1701503d703e
-source-git-commit: cb8293350add186743157ee4c60671f7c1ee96f1
+source-git-commit: 692d0e903c1b92ad539eacf6d26e18e81530a8b0
 workflow-type: tm+mt
-source-wordcount: '45'
+source-wordcount: '44'
 ht-degree: 0%
 
 ---

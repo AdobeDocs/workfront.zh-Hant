@@ -2,27 +2,27 @@
 product-area: workfront-integrations;setup
 navigation-topic: adobe-workfront-for-creative-cloud
 title: 更新您在Adobe Photoshop中的工作
-description: 您可以在以下區域更新您的工作 — 編輯我。
+description: 您可以使用Adobe Workfront外掛程式更新您的工作。
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: 865beaa8-a585-4bdd-9d04-b5fbdf40748c
-source-git-commit: fc3eb30cef2e17524b5cbd50219861f293a2ea9d
+source-git-commit: ae80999fc7ea7e35097560aa99baa435bcd31b74
 workflow-type: tm+mt
-source-wordcount: '208'
+source-wordcount: '207'
 ht-degree: 2%
 
 ---
 
 # 使用更新您的工作 [!DNL Adobe Workfront] 外掛程式
 
-您可以使用以下任一項更新您的工作 [!DNL Adobe Creative Cloud] 應用程式：
+您可以從下列任何一項更新您的工作 [!DNL Adobe Creative Cloud] 應用程式
 
 {{cc-app-list}}
 
 
 ## 存取需求
 
-您必須具備下列存取權，才能執行本文中的步驟：
+您必須具有下列存取權才能執行本文中的步驟：
 
 <table style="table-layout:auto"> 
  <col> 
@@ -40,16 +40,16 @@ ht-degree: 2%
   </tr> -->
   <tr> 
    <td role="rowheader">產品</td> 
-   <td>您必須有 [!DNL Adobe Creative Cloud] 除了 [!DNL Workfront] 授權。</td> 
+   <td>您必須擁有 [!DNL Adobe Creative Cloud] 除了授權之外， [!DNL Workfront] 授權。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">物件權限</td> 
-   <td> <p>[!UICONTROL視圖]對要更新對象的訪問。 </p> <p>有關請求其他訪問的資訊，請參閱 <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">請求對對象的訪問 </a>.</p> </td> 
+   <td role="rowheader">物件許可權</td> 
+   <td> <p>[！UICONTROL View]存取您要更新的物件。 </p> <p>如需請求其他存取許可權的詳細資訊，請參閱 <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">要求物件的存取權 </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;若要了解您擁有的計畫、授權類型或存取權，請聯絡您的 [!DNL Workfront] 管理員。
+&#42;若要瞭解您擁有的計畫、授權型別或存取權，請聯絡您的 [!DNL Workfront] 管理員。
 
 ## 必要條件
 
@@ -57,7 +57,7 @@ ht-degree: 2%
 
 ## 發佈更新
 
-您可以從外掛程式中的下列任一區域更新您的工作：
+您可以從外掛程式的下列任何區域更新您的工作：
 
 <table style="table-layout:auto"> 
  <col> 
@@ -81,15 +81,15 @@ ht-degree: 2%
 
 若要張貼更新：
 
-1. 按一下 **[!UICONTROL 功能表]** 圖示，然後選取 **[!UICONTROL 工作清單]**. 您也可以使用功能表導覽至上層物件。
+1. 按一下 **[!UICONTROL 選單]** 圖示並選取「 」，接著選取「 」 **[!UICONTROL 工作清單]**. 您也可以使用功能表導覽至父物件。
 
    ![](assets/go-back-to-work-list-350x314.png)
 
-1. 從 **[!UICONTROL 工作清單]**，選擇需要將更新發佈到的工作項。
-1. 按一下 **[!UICONTROL 更新]** 的下一頁。\
+1. 從 **[!UICONTROL 工作清單]**，選取您需要張貼更新到的工作專案。
+1. 按一下 **[!UICONTROL 更新]** 導覽列中的。\
    ![](assets/photoshop-update-350x295.png)
 
-1. 按一下 **[!UICONTROL 新增更新]**.
-1. 輸入更新。
-1. （可選）若要標籤使用者，請輸入@符號和使用者名稱，然後從下拉式選單中選擇其名稱。
-1. 按一下 **[!UICONTROL 提交]**. 更新會與Adobe Workfront Web應用程式即時同步。
+1. 按一下 **[!UICONTROL 新的更新]**.
+1. 輸入您的更新。
+1. （選擇性）若要標籤使用者，請輸入@符號和使用者名稱，然後從下拉式選單中選擇其名稱。
+1. 按一下 **[!UICONTROL 提交]**. 更新會即時與Adobe Workfront網路應用程式同步。

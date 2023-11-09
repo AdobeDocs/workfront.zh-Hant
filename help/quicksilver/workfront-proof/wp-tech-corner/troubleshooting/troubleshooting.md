@@ -4,14 +4,14 @@ product-previous: workfront-proof
 product-area: documents
 navigation-topic: tech-corner
 title: 疑難排解 [!DNL Workfront Proof]
-description: 本節包含下列文章 — 編輯我。
+description: 瞭解如何疑難排解Workfront Proof。
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: f9e93cc2-9dff-4150-a809-10598e110ef8
-source-git-commit: cb8293350add186743157ee4c60671f7c1ee96f1
+source-git-commit: c3e15a052533d43065b50a9f56169b82f8dc3765
 workflow-type: tm+mt
-source-wordcount: '63'
+source-wordcount: '60'
 ht-degree: 0%
 
 ---

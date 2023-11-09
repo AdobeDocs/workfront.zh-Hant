@@ -4,14 +4,14 @@ product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: billing-settings
 title: 管理您的帳單
-description: 本節包含下列文章 — 編輯我。
+description: 瞭解Workfront Proof中的計費管理。
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 8c6a8fb5-842f-4322-9a99-550395207206
-source-git-commit: cb8293350add186743157ee4c60671f7c1ee96f1
+source-git-commit: ae80999fc7ea7e35097560aa99baa435bcd31b74
 workflow-type: tm+mt
-source-wordcount: '50'
+source-wordcount: '49'
 ht-degree: 0%
 
 ---

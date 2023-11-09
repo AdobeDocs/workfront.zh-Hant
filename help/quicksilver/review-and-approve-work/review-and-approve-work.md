@@ -3,15 +3,15 @@ content-type: reference
 product-area: projects
 navigation-topic: proofing-in-workfront-navigation-topic
 title: 檢閱和核准工作
-description: 您可以將核准與Adobe Workfront中的工作或檔案相關聯。
-author: Courtney and Alina
+description: 瞭解檢閱和核准。
+author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: c88c09aa-166f-4ae1-bcfc-89b678590f51
-source-git-commit: 324ad45b52dafa96c2854f1fec1172b88643bdc2
+source-git-commit: 92ebfc6e2f33c15865b824c99546c8856d4f8edd
 workflow-type: tm+mt
-source-wordcount: '38'
-ht-degree: 2%
+source-wordcount: '31'
+ht-degree: 3%
 
 ---
 

@@ -4,15 +4,15 @@ product-previous: workfront-proof
 product-area: documents
 navigation-topic: workfront-proof-navigation-topic
 title: Workfront Proof
-description: 本節包含以下小節 - 編輯我。
+description: 瞭解如何使用Workfront Proof。
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: f9c782b7-23dc-4fde-83e1-b7ef71a3b741
-source-git-commit: cb8293350add186743157ee4c60671f7c1ee96f1
+source-git-commit: ae80999fc7ea7e35097560aa99baa435bcd31b74
 workflow-type: tm+mt
-source-wordcount: '64'
-ht-degree: 18%
+source-wordcount: '62'
+ht-degree: 6%
 
 ---
 

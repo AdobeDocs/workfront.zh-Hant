@@ -3,14 +3,14 @@ product-previous: workfront-proof
 product-area: documents
 navigation-topic: work-with-proofs-and-files
 title: 中的基本功能 [!DNL Workfront Proof]
-description: 本節包含下列文章 — 編輯我。
+description: 瞭解Workfront Proof的基本功能。
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 1c8fd07d-fb86-4d64-8a3d-4148ced6659b
 recommendations: noDisplay, noCatalog
-source-git-commit: cb8293350add186743157ee4c60671f7c1ee96f1
+source-git-commit: c3e15a052533d43065b50a9f56169b82f8dc3765
 workflow-type: tm+mt
-source-wordcount: '52'
+source-wordcount: '51'
 ht-degree: 1%
 
 ---

@@ -1,22 +1,22 @@
 ---
-title: 在Enhanced Analytics中檢視「資源容量」視覺效果
+title: 在增強型分析中檢視資源容量視覺效果
 content-type: overview
 product-area: enhanced-analytics
 navigation-topic: enhanced-analytics-navigation-topic
-description: 「資源能力」視覺效果會顯示團隊是否已結束、未滿或已滿。 此計算基於 — EDIT ME。
+description: 「資源產能」視覺效果會顯示團隊產能是否超出、不足或不足。
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 5bb45ef6-9e49-4063-8e53-c9f3bc994870
-source-git-commit: 1b1f3c22b8112cfde5b10bef39076eed11630d0f
+source-git-commit: bcafa607da733b89747f6b448dd295d9b906d060
 workflow-type: tm+mt
-source-wordcount: '833'
+source-wordcount: '826'
 ht-degree: 0%
 
 ---
 
-# 在Enhanced Analytics中檢視「資源容量」視覺效果
+# 在增強型分析中檢視資源容量視覺效果
 
-「資源能力」視覺效果會顯示團隊是否已結束、未滿或已滿。
+「資源產能」視覺效果會顯示團隊產能是否超出、不足或不足。
 
 ## 存取需求
 
@@ -28,109 +28,109 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader"><a href="https://www.workfront.com/plans" target="_blank">Adobe Workfront計畫</a>*</td> 
-   <td> <p>業務或更高版本</p> </td> 
+   <td> <p>商務或以上版本</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><a href="../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront授權概觀</a>*</td> 
-   <td> <p>審核或更高版本</p> </td> 
+   <td role="rowheader"><a href="../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront授權總覽</a>*</td> 
+   <td> <p>評論或以上</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">訪問級別配置*</td> 
-   <td> <p>檢視專案的存取權</p> <p>注意：如果您仍無權存取，請洽詢您的Workfront管理員，他們是否在您的存取層級設定其他限制。<br>如需Workfront管理員如何變更您的存取層級的詳細資訊，請參閱 <a href="../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>.</p> </td> 
+   <td role="rowheader">存取層級設定*</td> 
+   <td> <p>檢視專案的存取權</p> <p>注意：如果您還是沒有存取權，請詢問您的Workfront管理員，他們是否在您的存取層級中設定其他限制。<br>如需有關Workfront管理員如何變更您的存取層級的資訊，請參閱 <a href="../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">物件權限</td> 
-   <td> <p>檢視</p> <p>有關請求其他訪問的資訊，請參閱 <a href="../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">請求對對象的訪問 </a>.</p> </td> 
+   <td role="rowheader">物件許可權</td> 
+   <td> <p>檢視</p> <p>如需請求其他存取許可權的詳細資訊，請參閱 <a href="../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">要求物件的存取權 </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;若要了解您擁有的計畫、授權類型或存取權，請聯絡您的Workfront管理員。
+&#42;若要瞭解您擁有的計畫、授權型別或存取權，請聯絡您的Workfront管理員。
 
 ## 必要條件
 
-如需使用增強分析的必要條件，請參閱 [增強的分析概觀](../enhanced-analytics/enhanced-analytics-overview.md).
+如需使用增強型Analytics的必要條件，請參閱 [增強型分析概述](../enhanced-analytics/enhanced-analytics-overview.md).
 
-## 了解資源容量視覺效果
+## 瞭解資源容量視覺效果
 
-「資源能力」視覺效果會顯示團隊是否已結束、未滿或已滿。 此計算基於：
+「資源產能」視覺效果會顯示團隊產能是否超出、不足或不足。 這項計算是根據：
 
-* **可用容量**:家庭團隊在經過篩選的時間段內可工作的總小時數
+* **可用容量**：主團隊在篩選過的時段內可工作的總時數
 
-   >[!NOTE]
-   >
-   >如果您查看的是未來時段，則可用容量會根據團隊過去7天的容量計算。 因此，不會考慮任何計畫PTO。
+  >[!NOTE]
+  >
+  >如果您檢視的是未來時段，可用容量是根據團隊過去7天的容量計算得出的。 因此，不會考慮任何已排程的PTO。
 
-* **計畫容量**:在經過篩選的時段內，預計由主團隊完成的總計工作時數
+* **計畫容量**：在篩選的時段內，主團隊預期的計畫工作時數總計
 
-將家庭團隊的計畫時間與實際的計畫時間進行比較可以幫助您確定是否沒有為家庭團隊分配足夠的工作，或者他們是否可能因工作量過重而筋疲力盡。
+此主團隊計畫時數與實際排程時數的比較可協助您判斷您是否未指派足夠的工作給主團隊，或他們是否可能因大量工作負荷而感到倦怠。
 
 ![](assets/resource-capacity-350x110.png)
 
-在「資源容量」視覺效果上，您可以看到下列詳細資料：
+在「資源產能」視覺效果上，您可以看到下列詳細資料：
 
-* **計畫容量**:藍色圓圈內嵌在主團隊名稱中，代表分配給主團隊的計畫小時數。
+* **計畫容量**：與主團隊名稱內聯，藍色圓圈代表指派給主團隊的計畫時數。
 
-   ![](assets/resource-capacity-blue-circle.png)
+  ![](assets/resource-capacity-blue-circle.png)
 
-* **實際能力**:垂直線內嵌在主團隊名稱中，表示主團隊可用的小時數。
+* **實際容量**：與主團隊名稱內聯，垂直線代表主團隊可用的小時數。
 
-   ![](assets/resource-capacity-vertical-line.png)
+  ![](assets/resource-capacity-vertical-line.png)
 
-* **超容量**:當水準線和藍色圓圈顯示在垂直線的右側時，家庭小組被分配的工作量超過了他們在可用小時數內完成的工作量。 這表示在篩選的時段內，團隊可能超過容量。 藍色圓圈右側顯示團隊完成所需的剩餘小時數。
+* **超出容量**：當水平線和藍色圓圈顯示在垂直線的右側時，主團隊被指派了比他們可以在可用時數中完成更多的工作量。 這表示該團隊在篩選過的時段內可能超出容量。 團隊需要完成的剩餘小時數會顯示在藍色圓圈的右側。
 
-   ![](assets/resource-capacity-over-capacity.png)
+  ![](assets/resource-capacity-over-capacity.png)
 
-* **能力不足**:當水準線和藍色圓圈顯示在垂直線的左側時，主團隊的可用小時數多於他們分配的計畫工時數。 這表示該團隊在經過篩選的時段內可能容量不足。 藍色圓圈左側會顯示家庭團隊完成工作的額外可用小時數。
+* **容量不足**：當水平線和藍色圓圈顯示在垂直線的左側時，主團隊的可用時數多於指派給他們的計畫工作時數。 這表示該團隊在篩選過的時段內可能沒有足夠的容量。 主團隊完成工作的額外可用時數會顯示在藍色圓圈的左側。
 
-   ![](assets/resource-capacity-under-capacity.png)
+  ![](assets/resource-capacity-under-capacity.png)
 
-將滑鼠暫留在行上，可顯示計畫容量和可用容量的確切小時數，以及主團隊超出或低於容量的小時數。
+將游標暫留在列上會顯示計畫容量和可用容量的確切小時數，以及主團隊超出或不足容量的小時數。
 
-查看此資訊有助於您確定：
+檢視此資訊可協助您判斷：
 
-* 如果主團隊的分配過多或分配不足。
-* 最大的項目是家庭團隊關注的。
-* 哪些主隊可以工作。
+* 如果主團隊配置過多或不足。
+* 主團隊專注的最大專案是什麼。
+* 哪些主團隊可以工作。
 
-若要了解如何取得此視覺效果的最佳資料，請參閱 [增強的分析概觀](../enhanced-analytics/enhanced-analytics-overview.md).
+若要瞭解如何針對此視覺效果取得最佳資料，請參閱 [增強型分析概述](../enhanced-analytics/enhanced-analytics-overview.md).
 
-## 檢視資源容量視覺效果
+## 檢視資源產能視覺效果
 
-1. 按一下「主菜單」表徵圖 ![](assets/main-menu-icon-16x12.png)，然後選取 **Analytics**.
+1. 按一下主要功能表圖示 ![](assets/main-menu-icon-16x12.png)，然後選取 **Analytics**.
 1. 在左側面板中，選取 **人員**.
 
    ![](assets/people-area-cropped-qs-350x276.png)
 
-1. （可選）若要使用不同的日期範圍，請從日期範圍篩選器中選取新的開始日期和結束日期。
+1. （可選）若要使用不同的日期範圍，請從日期範圍篩選器中選取新的開始和結束日期。
 
    ![](assets/filters-select-date-range-350x344.png)
 
-   如需使用日期範圍篩選器的詳細資訊，請參閱 [在增強分析中套用篩選器](../enhanced-analytics/use-enhanced-analytics-filters.md).
+   如需有關使用日期範圍篩選的資訊，請參閱 [在增強型分析中套用篩選器](../enhanced-analytics/use-enhanced-analytics-filters.md).
 
-1. （條件性）如果您尚未設定團隊篩選，請新增團隊篩選，並選取您要查看資料的每個團隊。
+1. （視條件而定）如果您尚未設定團隊篩選器，請新增團隊篩選器，並選取您要檢視其資料的每個團隊。
 
-   如需在增強分析中新增篩選器的詳細資訊，請參閱 [在增強分析中套用篩選器](../enhanced-analytics/use-enhanced-analytics-filters.md).
+   如需在增強型分析中新增篩選器的詳細資訊，請參閱 [在增強型分析中套用篩選器](../enhanced-analytics/use-enhanced-analytics-filters.md).
 
-   新增篩選器後，最多會顯示50個專案的資料，且即使您離開頁面或登出Workfront，篩選器仍保持作用中狀態。
+   新增篩選器後，系統會顯示最多50個專案的資料，而且即使您離開頁面或登出Workfront，篩選器仍會保持作用中。
 
-1. （可選）若要放大日期範圍，請在視覺效果上選取日期範圍開始的點，然後拖曳至日期範圍結束。
+1. （可選）若要放大日期範圍，請在視覺效果上選取一個點，作為日期範圍的起點，並拖曳至日期範圍的終點。
 
-   所有其他視覺效果都會更新至相同的日期範圍，並建立時間範圍篩選。
+   所有其他視覺效果會更新至相同的日期範圍，並建立時間範圍篩選器。
 
    ![](assets/timeframe-filter-350x220.png)
 
-1. 將滑鼠指標暫留在主團隊線上，查看仍可計畫的小時數、主團隊要完成的計畫小時數，以及標籤為「超過」、「不足」或「容量」的工作小時數總計。
+1. 將滑鼠停留在主團隊線上可檢視還有多少小時可供排程、主團隊要完成的計畫時數以及標籤為超出、不足或處於產能的工作小時總數。
 
    ![](assets/resource-capacity-capacity-pop-up-350x213.png)
 
-1. （選用）若要匯出視覺效果資料，請按一下 **匯出圖示** ![](assets/export.png) 在視覺效果的右上角，選取匯出格式：
+1. （選用）若要匯出視覺效果資料，請按一下 **「匯出」圖示** ![](assets/export.png) 然後選取匯出格式：
 
    * **圖表 (PNG)**
-   * **資料表(XSLX)**
+   * **資料表格(XSLX)**
 
-1. 按一下主團隊名稱，以在「團隊容量」視覺效果中查看詳細資訊。
+1. 按一下主團隊名稱可檢視團隊容量視覺效果中的更多資訊。
 
-   若要進一步了解「團隊能力」視覺效果，請參閱 [在Enhanced Analytics中檢視「團隊容量」視覺效果](../enhanced-analytics/team-capacity-overview.md).
+   若要深入瞭解團隊容量視覺效果，請參閱 [在Enhanced Analytics中檢視團隊容量視覺效果](../enhanced-analytics/team-capacity-overview.md).
 
 

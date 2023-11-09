@@ -3,14 +3,14 @@ content-type: reference
 product-area: reporting
 navigation-topic: reports
 title: 建立及管理報表
-description: 本節包含下列文章 — 編輯我。
+description: 瞭解如何建立和管理報告
 author: Nolan
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: e3596bd2-4f22-45c8-8cc2-cac08359a093
-source-git-commit: 417b8c081a1940b112e8cfbd6d9216d802dc8f8e
+source-git-commit: bcafa607da733b89747f6b448dd295d9b906d060
 workflow-type: tm+mt
-source-wordcount: '129'
+source-wordcount: '127'
 ht-degree: 0%
 
 ---

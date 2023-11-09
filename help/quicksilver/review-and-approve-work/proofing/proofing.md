@@ -3,15 +3,15 @@ content-type: reference
 product-area: documents
 navigation-topic: documents-navigation-topic
 title: 校訂
-description: 本節包含以下小節 - 編輯我。
+description: 瞭解校訂。
 author: Courtney
 feature: Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 34814016-e030-4e21-a597-686c4107eff4
-source-git-commit: 95679dd71ef7e4991853e63573a387f26321159d
+source-git-commit: ae80999fc7ea7e35097560aa99baa435bcd31b74
 workflow-type: tm+mt
-source-wordcount: '44'
-ht-degree: 22%
+source-wordcount: '39'
+ht-degree: 5%
 
 ---
 

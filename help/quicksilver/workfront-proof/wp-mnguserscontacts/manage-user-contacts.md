@@ -3,15 +3,15 @@ product-previous: workfront-proof
 product-area: documents;system-administration;user-management
 navigation-topic: workfront-proof-navigation-topic
 title: 管理中的使用者和聯絡人 [!DNL Workfront Proof]
-description: 本節包含以下小節 - 編輯我。
+description: 在Workfront Proof中管理使用者和連絡人。
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: b0ff2ed5-4724-4d67-aa83-6dff583aeb36
-source-git-commit: cb8293350add186743157ee4c60671f7c1ee96f1
+source-git-commit: c3e15a052533d43065b50a9f56169b82f8dc3765
 workflow-type: tm+mt
-source-wordcount: '51'
-ht-degree: 21%
+source-wordcount: '50'
+ht-degree: 6%
 
 ---
 

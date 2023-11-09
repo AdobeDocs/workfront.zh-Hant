@@ -4,15 +4,15 @@ product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: workfront-proof-navigation-topic
 title: 校訂通知和提醒總覽
-description: 本節包含以下小節 - 編輯我。
+description: 進一步瞭解校訂通知和提醒。
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 028a1a01-40fa-4b09-912a-b9f522c49df9
-source-git-commit: cb8293350add186743157ee4c60671f7c1ee96f1
+source-git-commit: ae80999fc7ea7e35097560aa99baa435bcd31b74
 workflow-type: tm+mt
-source-wordcount: '52'
-ht-degree: 15%
+source-wordcount: '51'
+ht-degree: 0%
 
 ---
 

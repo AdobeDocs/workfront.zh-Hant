@@ -1,41 +1,41 @@
 ---
 content-type: reference
 navigation-topic: announcements
-title: 取消訂閱Announcting Center報文
-description: 公告中心訊息是從Adobe Workfront傳送至Workfront客戶群的訊息。 您可以取消訂閱以下類型的公告中心報文 — EDIT ME。
+title: 取消訂閱宣告中心訊息
+description: 宣告中心訊息是從Adobe Workfront傳送至Workfront客戶群的訊息。 您可以取消訂閱Announcement Center訊息。
 author: Luke
 feature: Product Announcements
 exl-id: a9922e91-c58c-4c25-968c-ab70fa8d8916
-source-git-commit: e2335829f22551ce9fd4c88071c97fb1a893a1d8
+source-git-commit: bcafa607da733b89747f6b448dd295d9b906d060
 workflow-type: tm+mt
-source-wordcount: '236'
+source-wordcount: '230'
 ht-degree: 0%
 
 ---
 
-# 取消訂閱Announcting Center報文
+# 取消訂閱宣告中心訊息
 
-公告中心訊息是從Adobe Workfront傳送至Workfront客戶群的訊息。 您可以取消訂閱以下類型的公告中心報文：
+宣告中心訊息是從Adobe Workfront傳送至Workfront客戶群的訊息。 您可以取消訂閱下列型別的Announcement Center訊息：
 
-* 在這些主要版本之外，依功能逐項發行的相關公告。
+* 有關主要發行版本以外所發行功能的公告。
 
-   Workfront平台推出的大部分新功能，都會與每年4個主要版本中的一個版本一併發行。 不過，在這些主要版本之外，還會以逐項功能發佈部分功能。 每次在主要版本之外發佈功能時，您都會通過公告中心收到一條消息。 (有關公告中心的詳細資訊，請參閱 [傳送公告](../../administration-and-setup/get-started-wf-administration/view-send-announcements.md).)
+  Workfront平台中推出的大多數新功能，每年都會與其中的4個主要發行版本一同發行。 不過，除了這些主要發行版本外，部分功能會依個別功能發行。 每次在主要版本之外發行功能時，您都會透過Announcement Center收到訊息。 (如需有關Announcement Center的詳細資訊，請參閱 [傳送宣告](../../administration-and-setup/get-started-wf-administration/view-send-announcements.md).)
 
-* 有關即將推出的培訓內容和活動的公告。
+* 有關即將推出的培訓課程和活動的公告。
 
-要取消訂閱接收Announcting Center報文，請執行以下操作：
+若要取消訂閱接收Announcement Center訊息：
 
-1. 按一下編號圖示 ![](assets/notifications-icon-jewel.jpg) 在Workfront的右上角，開啟通知清單。
-1. 按一下 **所有公告** 在清單的底部。
+1. 按一下編號圖示 ![](assets/notifications-icon-jewel.jpg) 前往Workfront的右上角，開啟通知清單。
+1. 按一下 **所有宣告** 位於清單底部。
 
-   此 **公告** 頁面，列出您的所有公告。
+   此 **公告** 頁面隨即顯示，列出您的所有公告。
 
    ![](assets/announcements-page-qs-350x210.png)
 
-1. 按一下 **設定** 在「公告」頁面的右上角，選取 **新版本** 或 **培訓**，具體取決於您不想再收到的公告類型。
+1. 按一下 **設定** 在「公告」頁面的右上角，然後選取「 」 **新版本** 或 **培訓**，視您不想再收到的公告型別而定。
 
    ![](assets/announcementcenter-settings-350x187.png)
 
 1. 按一下 **儲存設定**.
 
-   您將不再收到此類公告的「公告中心」報文。
+   您將不會再收到這種宣告型別的宣告中心訊息。

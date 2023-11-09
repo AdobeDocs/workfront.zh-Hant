@@ -2,31 +2,31 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: '''檢視：顯示任務和項目清單的原始問題資訊'
-description: 在任務和項目清單的視圖中，將問題轉換為清單中的任務和項目後，您可以在原始問題中顯示以下資訊 — 「編輯我」。
+title: 「檢視：在任務和專案清單上顯示原始問題資訊」
+description: 當問題已轉換為清單中的任務和專案後，您可以在任務和專案清單的檢視上顯示原始問題的資訊。
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: 235156b6-a9b6-484e-b126-54874da705c8
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: bcafa607da733b89747f6b448dd295d9b906d060
 workflow-type: tm+mt
-source-wordcount: '145'
+source-wordcount: '141'
 ht-degree: 4%
 
 ---
 
-# 查看：顯示任務和項目清單的原始問題資訊
+# 檢視：顯示任務和專案清單上的原始問題資訊
 
-在將問題轉換為清單中的任務和項目後，您可以在任務和項目清單視圖中顯示原始問題的以下資訊：
+當問題已轉換為清單中的任務和專案後，您可以在任務和專案清單的檢視上顯示原始問題的以下資訊：
 
-* 轉換的問題名稱
-* 轉換的問題輸入日期
-* 轉換的問題創作者名稱
+* 已轉換問題的名稱
+* 已轉換問題的輸入日期
+* 轉換的問題建立者名稱
 
 如需使用標準Report Builder建立檢視的相關資訊，請參閱 [Adobe Workfront中的檢視概觀](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
 
-![task_and_project_list_with_original_issue_info_png](assets/task-and-project-list-with-original-issue-info-350x59.png)
+![task_and_project_list_with_original_issue_info.png](assets/task-and-project-list-with-original-issue-info-350x59.png)
 
-有關包括有關項目和任務清單的其他問題資訊的更多資訊，另請參閱 [查看：任務和項目的源問題詳細資訊](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-originating-issue-details-tasks-projects.md).
+如需將其他問題資訊包含在專案和任務清單中的詳細資訊，請參閱 [檢視：任務和專案的原始問題詳細資訊](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-originating-issue-details-tasks-projects.md).
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

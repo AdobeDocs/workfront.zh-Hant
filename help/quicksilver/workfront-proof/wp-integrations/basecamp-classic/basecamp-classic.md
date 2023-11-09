@@ -4,14 +4,14 @@ product-previous: workfront-proof
 product-area: documents;workfront-integrations
 navigation-topic: integrations-workfront-proof
 title: Basecamp Classic
-description: 本節包含下列文章 — 編輯我。
+description: 進一步瞭解如何與Basecemp Classic整合。
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: b66b7820-bb8a-4d29-822c-0de968fa2492
-source-git-commit: cb8293350add186743157ee4c60671f7c1ee96f1
+source-git-commit: c3e15a052533d43065b50a9f56169b82f8dc3765
 workflow-type: tm+mt
-source-wordcount: '46'
+source-wordcount: '45'
 ht-degree: 0%
 
 ---

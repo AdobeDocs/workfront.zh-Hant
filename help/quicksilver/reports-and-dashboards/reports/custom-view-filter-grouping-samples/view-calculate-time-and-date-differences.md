@@ -3,13 +3,13 @@ content-type: reference
 product-area: reporting
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 「檢視：計算時間和日期差異」
-description: 建立檢視，顯示物件上兩個日期欄位之間的差異，或物件上的日期欄位與父物件上的另一個日期欄位之間的差異。
+description: 瞭解如何計算時間和日期差異。
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: 548dd91f-02bc-43ed-8322-d0facf3488f0
-source-git-commit: 324ad45b52dafa96c2854f1fec1172b88643bdc2
+source-git-commit: 92ebfc6e2f33c15865b824c99546c8856d4f8edd
 workflow-type: tm+mt
-source-wordcount: '670'
+source-wordcount: '647'
 ht-degree: 0%
 
 ---

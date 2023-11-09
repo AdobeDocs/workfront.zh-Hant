@@ -2,23 +2,23 @@
 content-type: tips-tricks-troubleshooting
 product-area: reporting
 navigation-topic: tips-tricks-and-troubleshooting-reports
-title: 「執行報表時出現錯誤訊息：'您當前未登錄。'」
-description: 您必須具備下列存取權，才能執行本文「編輯我」中的步驟。
+title: 「執行報告時出現錯誤訊息：『您目前未登入。』」
+description: 瞭解「您目前未登入」錯誤訊息。
 author: Nolan
 feature: Reports and Dashboards
 exl-id: fda4630a-2590-46f4-94ff-499a485367ee
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: bcafa607da733b89747f6b448dd295d9b906d060
 workflow-type: tm+mt
-source-wordcount: '269'
+source-wordcount: '265'
 ht-degree: 4%
 
 ---
 
-# 執行報表時出現錯誤訊息：&quot;您當前未登錄。&quot;
+# 執行報告時的錯誤訊息：「您目前未登入。」
 
 ## 存取需求
 
-您必須具備下列存取權，才能執行本文中的步驟：
+您必須具有下列存取權才能執行本文中的步驟：
 
 <table style="table-layout:auto"> 
  <col> 
@@ -32,44 +32,44 @@ ht-degree: 4%
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront授權*</td> 
-   <td> <p>計畫，工作</p> </td> 
+   <td> <p>計畫、工作</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">訪問級別配置*</td> 
-   <td> <p>編輯對報表、控制面板、日曆的存取</p> <p>注意：如果您仍無權存取，請洽詢您的Workfront管理員，他們是否在您的存取層級設定其他限制。 如需Workfront管理員如何修改您的存取層級的詳細資訊，請參閱 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>.</p> </td> 
+   <td role="rowheader">存取層級設定*</td> 
+   <td> <p>編輯報告、儀表板、行事曆的存取權</p> <p>注意：如果您還是沒有存取權，請詢問您的Workfront管理員，他們是否在您的存取層級中設定其他限制。 如需有關Workfront管理員如何修改您的存取層級的資訊，請參閱 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">物件權限</td> 
-   <td> <p>管理報表權限</p> <p>有關請求其他訪問的資訊，請參閱 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">請求對對象的訪問 </a>.</p> </td> 
+   <td role="rowheader">物件許可權</td> 
+   <td> <p>管理報表的許可權</p> <p>如需請求其他存取許可權的詳細資訊，請參閱 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">要求物件的存取權 </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;若要了解您擁有的計畫、授權類型或存取權，請聯絡您的Workfront管理員。
+&#42;若要瞭解您擁有的計畫、授權型別或存取權，請聯絡您的Workfront管理員。
 
 ## 問題
 
-執行報表或在控制面板中顯示報表時，會傳回下列錯誤：\
+執行報表或在控制面板中顯示報表時，系統傳回下列錯誤：\
 *請再試一次。您目前未登入。*
 
-報表中不顯示任何結果。
+報表中未顯示任何結果。
 
 ## 原因
 
-報表目前設為以停用使用者身分執行。
+報表目前設定為以停用使用者的身分執行。
 
 ## 解決方案
 
-您必須擁有報表的「管理」權限，才能變更報表設定。\
-要調整報表並查看結果，請執行以下操作：
+您必須擁有報表的管理許可權才能變更報表設定。\
+若要調整報表並檢視結果：
 
-1. 前往報表。
+1. 移至報表。
 1. 按一下 **報表動作** > **編輯** > **報表設定**.
 
-1. 指定 **以下列權限運行此報告：** 欄位。\
+1. 在中指定作用中使用者的名稱 **透過以下存取許可權運行此報告：** 欄位。\
    或\
-   保留 **以下列權限運行此報告：** 欄位空白。
+   離開 **透過以下存取許可權運行此報告：** 欄位空白。
 
 1. 按一下 **完成**.
 1. 按一下 **儲存+關閉**.\
-   執行此報表時，不應再次顯示錯誤。
+   執行此報告時，錯誤不應再次出現。

@@ -1,23 +1,23 @@
 ---
 product-area: documents
 navigation-topic: review-a-proof
-title: 控制視訊校樣中的播放
-description: 您必須具備下列存取權，才能執行本文「編輯我」中的步驟。
+title: 控制視訊校訂中的播放
+description: 瞭解如何控制視訊校訂中的播放。
 author: Courtney
 feature: Digital Content and Documents
 exl-id: e1dce216-c41d-447b-b5b0-64b04b4132ff
-source-git-commit: 49950895440fec8cebdf12ec81191c6e890383cf
+source-git-commit: ae80999fc7ea7e35097560aa99baa435bcd31b74
 workflow-type: tm+mt
-source-wordcount: '353'
+source-wordcount: '348'
 ht-degree: 1%
 
 ---
 
-# 控制視訊校樣中的播放
+# 控制視訊校訂中的播放
 
 ## 存取需求
 
-您必須具備下列存取權，才能執行本文中的步驟：
+您必須具有下列存取權才能執行本文中的步驟：
 
 <table style="table-layout:auto"> 
  <col> 
@@ -25,61 +25,61 @@ ht-degree: 1%
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront計畫*</td> 
-   <td> <p>當前計畫：Pro或更高</p> <p>或</p> <p>舊計畫：Select或Premium</p> <p>如需使用不同計畫校對存取權限的詳細資訊，請參閱 <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">存取Workfront中的校對功能</a>.</p> </td> 
+   <td> <p>目前計畫：Pro或更高版本</p> <p>或</p> <p>舊版計畫：選擇或Premium</p> <p>如需有關校訂不同方案的存取許可權的詳細資訊，請參閱 <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">存取Workfront中的校訂功能</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront授權*</td> 
-   <td> <p>當前計畫：工作或計畫</p> <p>舊計畫：任何（您必須為使用者啟用校對）</p> </td> 
+   <td> <p>目前計畫：工作或計畫</p> <p>舊版計畫：任何（您必須為使用者啟用校訂）</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">校訂權限設定檔 </td> 
-   <td>管理員或更高</td> 
+   <td>經理或以上</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">訪問級別配置*</td> 
-   <td> <p>編輯對文檔的訪問</p> <p>有關請求其他訪問的資訊，請參閱 <a href="../../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">請求對對象的訪問 </a>.</p> </td> 
+   <td role="rowheader">存取層級設定*</td> 
+   <td> <p>編輯檔案的存取權</p> <p>如需請求其他存取許可權的詳細資訊，請參閱 <a href="../../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">要求物件的存取權 </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;若要了解您擁有的計畫、角色或校樣權限設定檔，請聯絡您的Workfront或Workfront Proof管理員。
+&#42;若要瞭解您擁有的計畫、角色或校訂許可權設定檔，請聯絡您的Workfront或Workfront校訂管理員。
 
 ## 調整視訊播放速度
 
-您可以調整視訊校樣的播放速度。 您可以選取以兩倍速度來檢視四分之一速度之間的視訊。
+您可以調整視訊校樣的播放速度。 您可以選擇以四分之一速度檢視視訊，以雙倍速度檢視。
 
-1. 轉到包含文檔的項目、任務或問題，然後選擇 **檔案**.
-1. 找到您需要的校樣，然後按一下 **開啟校樣**.
+1. 前往包含檔案的專案、任務或問題，然後選取「 」 **檔案**.
+1. 尋找所需的證明，然後按一下 **未完成的校訂**.
 
-1. 在校對檢視器的右下角，按一下 **設定** 表徵圖。
+1. 在校訂檢視器的右下角，按一下 **設定** 圖示。
 
    ![phq_viewer_video_playbackspeed__2_.png](assets/phq-viewer-video-playbackspeed--2-.png)
 
 1. 按一下目前的速度，然後選取新的播放速度。
-1. 按一下 **播放** 按鈕，以測試新速度。
+1. 按一下 **播放** 按鈕以測試新速度。
 
-## 逐幀查看視頻
+## 逐幀檢視視訊
 
-若要更詳細地查看影片校樣，您可以手動逐個檢閱影片。
+如需視訊校訂的詳細資訊，您可以手動逐幀檢閱視訊。
 
-1. 轉到包含文檔的項目、任務或問題，然後選擇 **檔案**.
-1. 找到您需要的校樣，然後按一下 **開啟校樣**.
+1. 前往包含檔案的專案、任務或問題，然後選取「 」 **檔案**.
+1. 尋找所需的證明，然後按一下 **未完成的校訂**.
 
-1. 在校對檢視器底部，按一下 **前進** 和 **返回** 箭頭，逐幀查看視頻。
+1. 在校訂檢視器底部，按一下 **前進** 和 **返回** 箭頭可逐幀檢視視訊。
 
    ![](assets/frame-.png)
 
-## 更改播放音量
+## 變更播放音量
 
-您可以控制視訊播放中的音量。
+您可以控制視訊播放的音量。
 
-1. 轉到包含文檔的項目、任務或問題，然後選擇 **檔案**.
-1. 找到您需要的校樣，然後按一下 **開啟校樣**.
+1. 前往包含檔案的專案、任務或問題，然後選取「 」 **檔案**.
+1. 尋找所需的證明，然後按一下 **未完成的校訂**.
 
-1. 在校樣檢視器的右下角，將滑鼠移至 **卷** 表徵圖，然後拖動滑塊以選擇新卷。
+1. 在校訂檢視器的右下角，將滑鼠移至 **音量** 圖示，然後拖曳滑桿以選取新的磁碟區。
 
    ![](assets/phq-viewer-volume.png)
 
    或
 
-   按一下 **卷** 表徵圖將音量靜音和取消靜音。
+   按一下 **音量** 圖示來將磁碟區設為靜音或取消靜音。

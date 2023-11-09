@@ -2,23 +2,23 @@
 content-type: tips-tricks-troubleshooting
 product-area: reporting;calendars
 navigation-topic: tips-tricks-and-troubleshooting-reports
-title: 「日曆上的錯誤消息：'此日曆具有已停用使用者的檢視權限。'」
-description: 您必須具備下列存取權，才能執行本文「編輯我」中的步驟。
+title: 「行事曆上的錯誤訊息：『此行事曆擁有已停用使用者的檢視許可權。』」
+description: 瞭解「此行事曆擁有已停用使用者的檢視許可權」錯誤訊息。
 author: Lisa
 feature: Reports and Dashboards
 exl-id: ba1e25f2-4960-47f7-ac7d-6f6b0f59cfe2
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: bcafa607da733b89747f6b448dd295d9b906d060
 workflow-type: tm+mt
-source-wordcount: '309'
+source-wordcount: '308'
 ht-degree: 6%
 
 ---
 
-# 日曆上的錯誤訊息：&quot;此日曆具有已停用用戶的視圖權限。&quot;
+# 行事曆上的錯誤訊息：「此行事曆擁有已停用使用者的檢視許可權。」
 
 ## 存取需求
 
-您必須具備下列存取權，才能執行本文中的步驟：
+您必須具有下列存取權才能執行本文中的步驟：
 
 <table style="table-layout:auto"> 
  <col> 
@@ -32,37 +32,37 @@ ht-degree: 6%
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront授權*</td> 
-   <td> <p>計畫，工作</p> </td> 
+   <td> <p>計畫、工作</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">訪問級別配置*</td> 
-   <td> <p>編輯對報表、控制面板、日曆的存取</p> <p>注意：如果您仍無權存取，請洽詢您的Workfront管理員，他們是否在您的存取層級設定其他限制。 如需Workfront管理員如何修改您的存取層級的詳細資訊，請參閱 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>.</p> </td> 
+   <td role="rowheader">存取層級設定*</td> 
+   <td> <p>編輯報告、儀表板、行事曆的存取權</p> <p>注意：如果您還是沒有存取權，請詢問您的Workfront管理員，他們是否在您的存取層級中設定其他限制。 如需有關Workfront管理員如何修改您的存取層級的資訊，請參閱 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">物件權限</td> 
-   <td> <p>管理日曆的權限</p> <p>有關請求其他訪問的資訊，請參閱 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">請求對對象的訪問 </a>.</p> </td> 
+   <td role="rowheader">物件許可權</td> 
+   <td> <p>管理行事曆的許可權</p> <p>如需請求其他存取許可權的詳細資訊，請參閱 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">要求物件的存取權 </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;若要了解您擁有的計畫、授權類型或存取權，請聯絡您的Workfront管理員。
+&#42;若要瞭解您擁有的計畫、授權型別或存取權，請聯絡您的Workfront管理員。
 
 ## 問題
 
-存取與您共用的日曆時，您會收到下列錯誤： 
+存取共用給您的行事曆時，您會收到下列錯誤： 
 
 *此行事曆具有已停用使用者的檢視權限。請通知管理員修正行事曆權限。*
 
 ## 原因
 
-建立此日曆的用戶（其原始所有者）是已停用的用戶。 
+建立此行事曆的使用者（其原始擁有者）是已停用的使用者。 
 
 ## 解決方案
 
 您可以透過下列方式解決此問題：
 
-1. 複製原始日曆。 當您複製日曆時，您將成為日曆的所有者。 複製的日曆應顯示原始日曆中的所有資訊。\
-   如需複製日曆的詳細資訊，請參閱 [複製日曆報表](../../../reports-and-dashboards/reports/calendars/copy-a-calendar-report.md).
+1. 複製原始行事曆。 當您複製行事曆時，您就會成為行事曆的擁有者。 複製的行事曆應顯示原始行事曆的所有資訊。\
+   如需有關複製行事曆的詳細資訊，請參閱 [複製行事曆報告](../../../reports-and-dashboards/reports/calendars/copy-a-calendar-report.md).
 
-1. 將複製的日曆與原始日曆的用戶共用。 所有使用者都應在新日曆上看到相同的資訊。
-1. （可選和條件性）如果您有管理原始日曆的權限，請從日曆共用區域中刪除與其共用日曆的所有其他用戶。 這可避免使用者嘗試顯示錯誤日曆時的混淆。
+1. 與原始行事曆相同的使用者共用複製的行事曆。 所有使用者在新行事曆上應該會看到相同的資訊。
+1. （選擇性和條件性）如果您有管理原始行事曆的許可權，請從行事曆共用區域移除與其共用行事曆的所有其他使用者。 這可消除使用者嘗試顯示錯誤行事曆時的困惑。

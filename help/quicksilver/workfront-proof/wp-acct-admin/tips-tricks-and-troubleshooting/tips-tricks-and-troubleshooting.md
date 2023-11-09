@@ -4,14 +4,14 @@ product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: account-administration
 title: 秘訣、技巧和疑難排解 [!DNL Workfront] 證明帳戶管理
-description: 本節包含下列文章 — 編輯我。
+description: 瞭解如何疑難排解Workfront Proof帳戶。
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 1e6bd078-b794-4fac-bbda-3ba125408370
-source-git-commit: cb8293350add186743157ee4c60671f7c1ee96f1
+source-git-commit: ae80999fc7ea7e35097560aa99baa435bcd31b74
 workflow-type: tm+mt
-source-wordcount: '50'
+source-wordcount: '49'
 ht-degree: 0%
 
 ---

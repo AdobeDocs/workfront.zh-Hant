@@ -3,14 +3,14 @@ product-previous: workfront-proof
 product-area: documents;system-administration;user-management
 navigation-topic: manage-your-users-and-contacts
 title: 使用者
-description: 本節包含下列文章 — 編輯我。
+description: 瞭解Workfront Proof的使用者。
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: ae23ae5f-f6fe-4ecd-8480-b889ad76b512
-source-git-commit: cb8293350add186743157ee4c60671f7c1ee96f1
+source-git-commit: c3e15a052533d43065b50a9f56169b82f8dc3765
 workflow-type: tm+mt
-source-wordcount: '50'
+source-wordcount: '48'
 ht-degree: 4%
 
 ---

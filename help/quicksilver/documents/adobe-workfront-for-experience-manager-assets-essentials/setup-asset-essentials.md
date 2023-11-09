@@ -2,28 +2,28 @@
 product-area: documents;workfront-integrations
 navigation-topic: adobe-workfront-for-experince-manager-asset-essentials
 title: 設定Experience Manager Assets Essentials整合
-description: 在Experience Manager Assets Essentials中將您的工作與您的內容連線起來 — 編輯我。
+description: 在Experience Manager Assets Essentials中將您的工作與您的內容連線起來。
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: abaa76e2-bbf1-47d0-8bdc-4e950df4f7ea
-source-git-commit: a6cb6d4780f2b1c3e77547caf7324e882d2dab4f
+source-git-commit: bcafa607da733b89747f6b448dd295d9b906d060
 workflow-type: tm+mt
-source-wordcount: '643'
+source-wordcount: '641'
 ht-degree: 4%
 
 ---
 
 # 設定Experience Manager Assets Essentials整合
 
-在Experience Manager Assets Essentials&#x200B;中將您的工作與您的內容連線起來：
+在Experience Manager Assets Essentials&#x200B;中將您的工作與內容連線起來：
 
-* 將資產和中繼資料從Adobe Workfront推送到Experience Manager Assets &#x200B; Essentials
+* 將資產和中繼資料從Adobe Workfront推送到Experience Manager Assets Essentials&#x200B;。
 * 從Experience Manager Assets Essentials將資產連結到Workfront中的專案和任務&#x200B;。
-* 促進推送到Experience Manager Assets Essentials的資產的版本設定工作流程
+* 促進推送到Experience Manager Assets Essentials的資產版本設定工作流程
 
 >[!NOTE]
 >
->您也可以將多個Experience Manager Assets存放庫連線到一個Workfront環境，或將多個Workfront環境連線到跨組織ID的一個Experience Manager Assets存放庫。 請依照本文中的設定指示，針對您想要設定的每個整合進行設定。
+>您也可以將多個Experience Manager Assets存放庫連線至一個Workfront環境，或連線至跨組織ID的一個Workfront存放庫的多個Experience Manager Assets環境。 針對您要設定的每項整合，請依照本文的設定指示操作。
 
 ## 存取需求
 
@@ -57,13 +57,13 @@ ht-degree: 4%
   <tr>
    <td><strong>存取層級設定</strong>
    </td>
-   <td>您必須是Workfront管理員。 如需Workfront管理員的相關資訊，請參閱 <strong>授予使用者完全管理存取權</strong>.
+   <td>您必須是Workfront管理員。 如需Workfront管理員的詳細資訊，請參閱 <strong>授予使用者完整管理存取權</strong>.
    </td>
   </tr>
 </table>
 
 
-*若要瞭解您擁有的計畫、授權型別或存取權，請聯絡Workfront管理員。
+*若要瞭解您擁有的計畫、授權型別或存取權，請聯絡您的Workfront管理員。
 
 
 ## 設定整合
@@ -83,7 +83,7 @@ ht-degree: 4%
    <tr>
       <td><strong>導覽URL</strong>
       </td>
-      <td>系統會自動填入導覽URL。 此URL用於從主功能表連結至您組織的Assets Essentials執行個體，以便快速存取。
+      <td>系統會自動填入導覽URL。 此URL用於從主選單連結到您組織的Assets Essentials執行個體，以進行快速存取。
       </td>
    </tr>
    <tr>
@@ -96,7 +96,7 @@ ht-degree: 4%
    </tr>
    </table>
 
-1. 按一下 **儲存** 或繼續前往 [設定中繼資料（選擇性）](#set-up-metadata-optional) 章節。
+1. 按一下 **儲存** 或移至 [設定中繼資料（選擇性）](#set-up-metadata-optional) 一節。
 
 
 ## 設定中繼資料（選擇性）
@@ -131,7 +131,7 @@ For more information on keywords in Experience Manager Assets, including how to 
 
 ### 資產
 
-中繼資料會在第一次從Workfront推送資產時進行對應。 具有內建或自訂欄位的檔案，會在第一次將資產傳送到Experience Manager Assets Essentials時自動對應到指定的欄位。
+中繼資料會在第一次從Workfront推送資產時進行對應。 具有內建或自訂欄位的檔案，在首次將資產傳送到Experience Manager Assets Essentials時會自動對應到指定的欄位。
 
 1. 在 **Workfront欄位** 欄中，選擇內建或自訂Workfront欄位。
    >[!NOTE]
@@ -142,7 +142,7 @@ For more information on keywords in Experience Manager Assets, including how to 
    若要將Workfront欄位對應至Experience Manager Assets標籤，請選取 `dc:subject`.
 1. 視需要重複步驟1和2。
    ![啟用中繼資料](assets/metadata-assets-essentials.png)
-1. 按一下 **儲存** 或繼續前往 [設定連結的資料夾（選擇性）](#set-up-linked-folders-optional) 章節。
+1. 按一下 **儲存** 或移至 [設定連結的資料夾（選擇性）](#set-up-linked-folders-optional) 一節。
 
 
 ## 設定連結的資料夾（選擇性）
