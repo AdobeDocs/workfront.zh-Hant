@@ -4,9 +4,9 @@ description: 2023年第四季版本總覽
 author: Becky
 feature: Product Announcements
 exl-id: 6c14bd61-60b1-49aa-84bd-d494a226d70e
-source-git-commit: 421cfdeaab4ef102b6b896677dae824cbeae4d70
+source-git-commit: 706e531be6f6269a927f94fee4d2c37d9367c9af
 workflow-type: tm+mt
-source-wordcount: '2700'
+source-wordcount: '2705'
 ht-degree: 0%
 
 ---
@@ -510,7 +510,7 @@ These enhancements will be included in the following releases:
                 </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">升級為拖放檔案整合</a></p><p>我們做了一些增強功能，讓檔案拖放至連結資料夾時，能更清晰易懂且移除使用者錯誤。</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">升級為拖放檔案整合</a></p><p>[！BADGE In Production ]{type=Informative}</p><p>我們做了一些增強功能，讓檔案拖放至連結資料夾時，能更清晰易懂且移除使用者錯誤。</p>
                     </td>
                     <td><p><b>將於下列日期提供：</b></p>
                         <ul>

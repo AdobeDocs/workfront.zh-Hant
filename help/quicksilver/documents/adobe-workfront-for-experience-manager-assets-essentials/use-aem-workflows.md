@@ -6,16 +6,14 @@ description: 在Experience Manager Assets Essentials整合中使用工作流程
 author: Courtney, Becky
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 4c1e5ec1-3fd1-4527-ba8a-9db1a2350f69
-source-git-commit: 0f625e7d058c6d3ccbfd9dbb12175ad3e2797911
+source-git-commit: 706e531be6f6269a927f94fee4d2c37d9367c9af
 workflow-type: tm+mt
-source-wordcount: '838'
+source-wordcount: '816'
 ht-degree: 0%
 
 ---
 
 # 在Experience Manager Assets整合中使用工作流程
-
-<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它僅在預覽Sandbox環境中可用。</span>
 
 工作流程是一組將Workfront連線至Adobe Experience Manager as a Cloud Service的動作。 Workfront管理員可以在Workfront中設定工作流程，然後將它們指派給專案範本。 使用指派了工作流程的專案範本建立專案時，會觸發工作流程中定義的動作。
 
@@ -147,8 +145,6 @@ ht-degree: 0%
 
 #### 發佈資產
 
-<div class="preview">
-
 若要編輯資產發佈的工作流程：
 
 1. 切換 **自動發佈資產** 視需要開啟或關閉。
@@ -159,4 +155,4 @@ ht-degree: 0%
 
    如果您在 [!DNL Adobe Experience Manager area]，您的變更會自動儲存。 <!--Do they though?-->
 
-</div>
+

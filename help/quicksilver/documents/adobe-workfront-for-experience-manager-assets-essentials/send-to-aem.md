@@ -6,16 +6,14 @@ description: 您可以從Workfront傳送檔案至Experience Manager Assets或Ass
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 7942e77b-9466-4dff-9737-97b17647ac48
-source-git-commit: 24ffde1850a005428a3f619fc00842a8779bbc6d
+source-git-commit: 706e531be6f6269a927f94fee4d2c37d9367c9af
 workflow-type: tm+mt
-source-wordcount: '888'
+source-wordcount: '866'
 ht-degree: 0%
 
 ---
 
 # 傳送檔案至Experience Manager Assets或Assets Essentials
-
-<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它僅在預覽Sandbox環境中可用。</span>
 
 您可以從Workfront傳送檔案至Experience Manager Assets或Assets Essentials。 從Workfront上傳並傳送至Assets Essentials的檔案仍會計入您的整體檔案儲存。 從Assets Essentials連結的資產不會計入整體儲存空間。
 
@@ -116,9 +114,9 @@ ht-degree: 0%
 1. 找到您要移動的檔案。
 1. 將檔案拖放至您要移動它的連結Experience Manager Assets資料夾。
 
-<div class="preview">檔案正在移動時，檔案選項不可用。 檔案移至Experience Manager Assets後，Workfront的檔案清單中將不再顯示。
+檔案正在移動時，檔案選項不可用。 檔案移至Experience Manager Assets後，Workfront的檔案清單中將不再顯示。
 
 >[!NOTE]
 >
 > 您在檔案移動時對它所做的任何動作或編輯都不會顯示在Experience Manager Assets的檔案中，因此將會遺失。
-</div>
+
