@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: 324ad45b52dafa96c2854f1fec1172b88643bdc2
+source-git-commit: 4cdebe4890b775a097469e7d7035a38397b71094
 workflow-type: tm+mt
-source-wordcount: '1474'
+source-wordcount: '1496'
 ht-degree: 1%
 
 ---
@@ -219,6 +219,7 @@ role: User
    按一下 **全部清除** 以移除所有欄位。
 
 1. 按一下 **記錄分組依據** 方塊以關閉它。
+1. （選用）按一下 **設定**，然後 **顏色** 至色彩程式碼群組。 如需詳細資訊，請參閱 [編輯時間軸檢視設定](#edit-the-timeline-view-settings) 一節。
 
 <!-- 
 

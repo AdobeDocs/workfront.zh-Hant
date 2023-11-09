@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: 0699740f8ef0932316843d9aec0008ccdeb319f5
+source-git-commit: 4cdebe4890b775a097469e7d7035a38397b71094
 workflow-type: tm+mt
-source-wordcount: '954'
+source-wordcount: '965'
 ht-degree: 0%
 
 ---
@@ -98,7 +98,7 @@ ht-degree: 0%
 
 您可以在記錄型別頁面的表格檢視中建立記錄。
 
-1. 按一下 **主要功能表** 圖示 ![](assets/main-menu-workfront.png) 在右上角 <!--or the **Main Menu** icon ![](assets/main-menu-shell.png) in the upper-left corner, if available-->，然後按一下 **大師** ![](assets/maestro-icon.png).
+1. 按一下 **主要功能表** 圖示 ![](assets/main-menu-workfront.png) 位於右上角，或 **主要功能表** 圖示 ![](assets/main-menu-shell.png) （如果有的話）按一下 **大師** ![](assets/maestro-icon.png).
 您上次存取的工作區預設會開啟。 如需有關建立工作區的資訊，請參閱 [建立工作區](../architecture-and-fields/create-workspaces.md).
 1. 按一下記錄型別卡。 如需有關建立記錄型別的資訊，請參閱 [建立記錄型別](../architecture-and-fields/create-record-types.md).
 

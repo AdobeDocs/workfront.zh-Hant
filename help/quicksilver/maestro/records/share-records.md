@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 83ff53ac-f18e-4b71-bdb2-57e05d69ed29
-source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
+source-git-commit: 4cdebe4890b775a097469e7d7035a38397b71094
 workflow-type: tm+mt
-source-wordcount: '385'
+source-wordcount: '396'
 ht-degree: 1%
 
 ---
@@ -97,7 +97,7 @@ ht-degree: 1%
 
 ## 從記錄型別表格檢視共用記錄連結
 
-1. 按一下 **主要功能表** ![](assets/main-menu-workfront.png) 在右上角， <!--or the **Main Menu** ![](assets/main-menu-shell.png) in the upper-left corner, if it is available,--> 然後按一下 **大師**.
+1. 按一下 **主要功能表** ![](assets/main-menu-workfront.png) 位於右上角，或 **主要功能表** ![](assets/main-menu-shell.png) 左上角（如果有的話），然後按一下 **大師**.
 
    您上次存取的工作區會開啟。
 1. 按一下記錄型別卡。
@@ -110,7 +110,7 @@ ht-degree: 1%
 
    或
 
-   將游標停留在記錄名稱上，然後按一下「更多」功能表 ![](assets/more-menu.png)，然後按一下 **複製連結**.
+   將游標停留在記錄名稱上，按一下 **更多** 功能表 ![](assets/more-menu.png)，然後按一下 **複製連結**.
 
    ![](assets/contextual-menu-for-record-row.png)
 
