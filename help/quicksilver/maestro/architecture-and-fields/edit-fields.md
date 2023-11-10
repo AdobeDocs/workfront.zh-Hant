@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 6c35c313-d6ed-428b-b70d-2ea242da4e8f
-source-git-commit: 4cdebe4890b775a097469e7d7035a38397b71094
+source-git-commit: 48f46abab1958325aba6832b85247dc2c80f4e80
 workflow-type: tm+mt
-source-wordcount: '454'
+source-wordcount: '462'
 ht-degree: 1%
 
 ---
@@ -112,11 +112,15 @@ ht-degree: 1%
 
    這會開啟記錄型別的頁面。
 1. （視條件而定）選取 **表格檢視** 從 **檢視** 記錄型別頁面右上角的下拉式功能表。
-1. 暫留在您要編輯的欄位之欄標題上，然後按一下欄位名稱后的向下箭頭。
+1. 將游標停留在您要編輯的欄位標題上，然後按一下欄位名稱后的向下箭頭，然後按一下 **編輯欄位**
+
+   或
+
+   連按兩下欄位的欄標題。
 
    ![](assets/arrow-menu-after-name-of-field-in-table-header-highlighted.png)
 
-1. 按一下 **編輯欄位**，然後更新欄位的相關資訊並按一下 **儲存**.
+1. 更新欄位的相關資訊，然後按一下 **儲存**.
 
    <!--insert screen shot when finalized-->
 

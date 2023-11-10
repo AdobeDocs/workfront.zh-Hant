@@ -7,9 +7,9 @@ author: Alina
 feature: Timesheets
 role: User
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: 324ad45b52dafa96c2854f1fec1172b88643bdc2
+source-git-commit: 48f46abab1958325aba6832b85247dc2c80f4e80
 workflow-type: tm+mt
-source-wordcount: '3349'
+source-wordcount: '3451'
 ht-degree: 0%
 
 ---
@@ -344,9 +344,33 @@ ht-degree: 0%
 
 您可以在「首頁」中記錄專案特定時間。
 
-如需有關使用「首頁」區域的一般資訊，請參閱 [使用首頁區域](../../workfront-basics/using-home/using-the-home-area/use-the-home-area.md).
+如需使用「首頁」區域的一般資訊，請參閱下列章節：
 
-若要從「首頁」區域記錄工作專案的時間：
+* 如需有關使用舊版「首頁」區域的資訊，請參閱 [使用首頁區域](../../workfront-basics/using-home/using-the-home-area/use-the-home-area.md).
+* 如需有關使用新「首頁」區域的資訊，請參閱 [開始使用Adobe Workfront中的新首頁](../../workfront-basics/using-home/new-home/get-started-with-new-home.md).
+
+#### 從新的首頁區域在工作專案上記錄時間
+
+1. 已移至 **首頁** 區域。
+1. 新增下列任一Widget：
+
+   * 我的任務
+   * 我的問題
+   * 我的工作
+   * 我的請求
+1. 在清單中選取任務、問題或請求，然後按一下 **摘要**
+
+   或
+
+   按一下 **摘要** 圖示 ![](assets/open-summary-icon-in-home.png) 從「我的工作」小工具集中的任務或問題。
+
+   「摘要」面板會在右側開啟。
+
+   ![](assets/log-time-new-home-my-work-widget.png)
+1. 在「摘要」面板中繼續記錄時間，如所述 [摘要概觀](../../workfront-basics/the-new-workfront-experience/summary-overview.md).
+
+
+#### 從舊版「首頁」區域在工作專案上記錄時間
 
 1. 在 **工作清單** 區域，選取您要記錄時間的專案。
 1. 在右側面板中，按一下 **記錄時間**.
@@ -430,16 +454,16 @@ ht-degree: 0%
    * **擁有者：** 您的名稱預設會顯示在此欄位中。\
      如果您記錄其他使用者的時數，請指定其名稱。
 
-   * **小時**：輸入專案、任務或問題的小時數。
    * **小時型別**：從下拉式選單中選取時數型別（如果它與預設顯示的型別不同）。
 
      根據系統中設定的小時型別，此處提供的選項可能會有所不同。 如需有關設定時數型別的詳細資訊，請參閱 [定義時程表的小時型別和可用性](../../timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md).
 
    * **工作角色**：（視條件而定）如果您的Workfront或群組管理員已啟用 **手動指派工作角色到時數專案** 設定，選取 **工作角色** （從下拉式功能表）。 依預設，系統會顯示指定給物件時所指定的角色。 如果您在物件上未被指派角色，則您的「主要角色」將顯示為預設值。 如需此設定的詳細資訊，請參閱文章 [設定時程表和小時偏好設定](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
 
-     ![Screen_Shot_2017-05-03_at_10.16.52_AM.png](assets/screen-shot-2017-05-03-at-10.16.52-am-350x346.png)
+     ![](assets/log-time-box-in-hours-section-on-task.png)
+   * **小時**：輸入專案、任務或問題的小時數。
 
-1. 按一下 **記錄小時**.
+1. 按一下 **記錄時間**.
 
 ### 摘要面板
 
