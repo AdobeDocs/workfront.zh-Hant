@@ -2,84 +2,86 @@
 user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: work-with-a-groups-objects
-title: 建立和修改組項目
-description: 作為組管理員，當您在「組」區域中查看管理的組時，可以查看和處理其項目。
+title: 建立和修改群組投資組合
+description: 作為群組管理員，當您在「群組」區域中檢視您管理的群組時，您可以檢視和處理其投資組合。
 author: Caroline
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 76ac1f4e-8323-45d1-81f3-6a07e4e2e080
-source-git-commit: 888c938e5d649557df69374a55d4e4ecc2da6f55
+source-git-commit: deb63ca8c53719a98379bbd63caf686e2232b6b4
 workflow-type: tm+mt
-source-wordcount: '415'
+source-wordcount: '392'
 ht-degree: 1%
 
 ---
 
-# 建立和修改組的項目
+# 建立和修改群組的專案
 
-作為組管理員，當您在「組」區域中查看管理的組時，可以查看和處理其項目。
+當您檢視您在「群組」區域中管理的群組時，您可以檢視和使用其投資組合。
 
-如果您管理的組上有任何組，則其管理員也可以為您的組執行此操作。 對於Workfront管理員（對於任何組）也是如此。
+如果您管理的群組之上有任何群組，其管理員也可以為您的群組執行此動作。 Workfront管理員也是如此（適用於任何群組）。
 
-## 訪問要求
+## 存取需求
 
-要執行本文中的步驟，必須具備以下條件：
+您必須具備下列專案才能執行本文所述的步驟：
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><a href="https://www.workfront.com/plans" target="_blank">Workfront計畫</a>*</td> 
+   <td role="rowheader">Workfront計畫*</td> 
    <td>任何</td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><a href="../../add-users/access-levels-and-object-permissions/wf-licenses.md">Adobe工作前許可證</a>*</td> 
-   <td> <p>計劃 </p> <p>您必須是組的組管理員或Workfront管理員。 有關詳細資訊，請參見 <a href="../../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">組管理員</a> 和 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">授予用戶完全管理訪問權限</a>。</p> </td> 
+   <td role="rowheader">AdobeWorkfront授權*</td> 
+   <td> <p>計劃 </p> <p>您必須是群組的群組管理員或Workfront管理員。 如需詳細資訊，請參閱 <a href="../../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">群組管理員</a> 和 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">授予使用者完整管理存取權</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">對象權限</td> 
-   <td> <p>項目必須與組或其任何子組相關聯。</p> <p>此外，您必須具有查看項目的權限，因為您建立了該項目，或者該項目已與您共用。</p> <p>有關請求附加訪問的資訊，請參見 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">請求訪問對象 </a>。</p> </td> 
+   <td role="rowheader">物件許可權</td> 
+   <td> <p>投資組合必須與群組或其任何子群組相關聯。</p> <p>此外，您必須有許可權才能檢視投資組合，可能是因為您已建立投資組合，或是因為已與您共用。</p> <p>如需請求其他存取許可權的詳細資訊，請參閱 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">要求物件的存取權 </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;如果您需要瞭解您擁有的計畫或許可證類型，請與Workfront管理員聯繫。
+&#42;如果您需要瞭解自己的計畫或授權型別，請聯絡Workfront管理員。
 
-## 建立和修改組的項目
+## 從群組區域檢視、處理和建立群組的投資組合
 
-1. 按一下 **主菜單** 表徵圖 ![](assets/main-menu-icon.png) 在Adobe Workfront的右上角，然後按一下 **設定** ![](assets/gear-icon-settings.png)。
+1. 按一下 **主要功能表** 圖示 ![](assets/main-menu-icon.png) (位於Adobe Workfront的右上角)，然後按一下 **設定** ![](assets/gear-icon-settings.png).
 
-1. 在左面板中，按一下 **組** ![](assets/groups-icon.png)。
+1. 在左側面板中，按一下 **群組** ![](assets/groups-icon.png).
 
-1. 按一下要為其建立或修改項目的組的名稱。
-1. 在左面板中，按一下 **項目** 列出與組（及其下面的任何子組）關聯的項目。
-1. 執行下列任一操作：
+1. 按一下您要建立、檢視或使用投資組合的群組名稱。
+1. 在左側面板中，按一下 **Portfolio** 列出與群組（及其下方的任何子群組）相關聯的投資組合。
+1. 執行下列任一項作業：
 
    <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">添加項目</td> 
+      <td role="rowheader">新增投資組合</td> 
       <td> 
        <ol> 
-        <li value="1"> <p>按一下 <strong>新建項目</strong> 並在下拉菜單中選擇一個選項，以指示要如何添加它。</p> <p>有關詳細資訊，請參閱 <a href="../../../manage-work/projects/create-projects/create-project.md#ways-to-create-projects" class="MCXref xref">建立項目的方法</a> 在文章中 <a href="../../../manage-work/projects/create-projects/create-project.md" class="MCXref xref">建立項目</a>。</p> </li> 
-        <li value="2"> <p>在顯示的螢幕中配置項目。 </p> <p>系統填充 <strong>組</strong> 的子菜單。</p> <p>有關配置選項的詳細資訊，請參見 <a href="../../../manage-work/projects/manage-projects/edit-projects.md" class="MCXref xref">編輯項目</a>。</p> </li> 
-        <li value="3"> <p>按一下 <strong>保存</strong> 返回組的「項目」清單。</p> </li> 
-       </ol> </td> 
+        <li value="1"> <p>按一下 <strong>新Portfolio</strong>.</p> </li> 
+        <li value="2">取代 <strong>未命名的Portfolio</strong> ，其名稱為您想要的投資組合。</li>
+        <li value="3"><p>按一下 <strong>Portfolio詳細資料</strong> 並視需要更新概述區域中的資訊。</p>
+        <p>如需有關組態選項的詳細資訊，請參閱 <a href="/help/quicksilver/manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md" class="MCXref xref">建立投資組合</a>.</p></li>
+        <li value="4">按一下瀏覽器的「上一步」按鈕，返回群組的Portfolio清單。</li> 
+       </ol> </td>
      </tr> 
      <tr> 
-      <td role="rowheader"> <p>編輯或刪除項目</p> </td> 
-      <td> <p>至少選擇一個您有權編輯的項目，然後使用工具欄按鈕進行編輯 <img src="assets/edit-icon.png">，刪除 <img src="assets/delete.png"> 它。</p> </td> 
+      <td role="rowheader"> <p>編輯或刪除投資組合</p> </td> 
+      <td> <p>請至少選取一個您有權編輯的投資組合，然後使用工具列按鈕進行編輯 <img src="assets/edit-icon.png"> 或刪除 <img src="assets/delete.png"> it.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">共用項目</td> 
-      <td>至少選擇一個您有權共用的項目，然後按一下共用表徵圖 <img src="assets/share-icon.png">。</td> 
+      <td role="rowheader">共用投資組合</td> 
+      <td>請至少選取一個您有權共用的投資組合，然後按一下共用圖示 <img src="assets/share-icon.png">.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader"> <p>導出項目清單</p> </td> 
-      <td>按一下 <strong>導出</strong> <img src="assets/export.png">，然後選擇要導出清單的檔案格式。</td> 
+      <td role="rowheader"> <p>匯出投資組合清單</p> </td> 
+      <td>按一下 <strong>匯出</strong> <img src="assets/export.png">，然後選取您要用於匯出清單的檔案格式。</td> 
      </tr> 
     </tbody> 
    </table>

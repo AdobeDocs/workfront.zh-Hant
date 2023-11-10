@@ -3,7 +3,7 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文件、教學課程和其他資源，了解如何在您的組織中實施並有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: adce227ab7108409195be56ace27f533a926268b
+source-git-commit: 6f9eddd46430990e11d5d661ea09f0595a9acebc
 workflow-type: tm+mt
 source-wordcount: '13392'
 ht-degree: 1%
@@ -729,7 +729,7 @@ ht-degree: 1%
          * [管理群組物件](administration-and-setup/manage-groups/work-with-group-objects/work-with-a-groups-objects.md)
          * [管理群組公司](administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-companies.md)
          * [管理群組配置範本](administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md)
-         * [管理群組專案](administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-portfolios.md)
+         * [管理群組投資組合](administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-portfolios.md)
          * [管理群組計畫](administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-programs.md)
          * [管理群組團隊](administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-teams.md)
          * [管理群組核准流程](administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-groups-approval-processes.md)
@@ -1418,7 +1418,7 @@ ht-degree: 1%
          * [在Portfolio最佳化工具中排定專案的優先順序](manage-work/portfolios/portfolio-optimizer/prioritize-projects-in-portfolio-optimizer.md)
          * [在Portfolio最佳化工具中最佳化專案](manage-work/portfolios/portfolio-optimizer/optimize-projects-in-portfolio-optimizer.md)
          * [計算投資組合中淨值的風險](manage-work/portfolios/portfolio-optimizer/calculate-risk-to-net-value-in-portfolio.md)
-   * 請求 {#requests}
+   * 要求 {#requests}
       * [請求](manage-work/requests/requests-overview.md)
       * 建立及管理請求佇列 {#create-and-manage-request-queues}
          * [建立及管理請求佇列](manage-work/requests/create-and-manage-request-queues/create-manage-request-queues.md)
