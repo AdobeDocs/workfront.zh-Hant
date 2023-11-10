@@ -6,9 +6,9 @@ description: 下列通知會提醒您正在贊助的專案上發生的活動。
 author: Lisa
 feature: Get Started with Workfront
 exl-id: fd93a48b-ef09-4489-b93d-5328240ffed6
-source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
+source-git-commit: 298b74c2d228a76c02d34470fa8298028605cab4
 workflow-type: tm+mt
-source-wordcount: '966'
+source-wordcount: '970'
 ht-degree: 8%
 
 ---
@@ -53,7 +53,7 @@ ht-degree: 8%
    <td><strong>立即</strong> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>已發現需要我注意的錯誤</strong> </p> <p>當無法傳遞回覆時，透過電子郵件回複評論的使用者會收到電子郵件通知。</p> <p>即時通知電子郵件的主旨為： <em>[！UICONTROL無法處理] &lt;subject of="" original="" message=""&gt;</em></p> <p>如需使用電子郵件回複評論的詳細資訊，請參閱。<strong></strong></p> </td> 
+   <td> <p><strong>已發現需要我注意的錯誤</strong> </p> <p>當無法傳遞回覆時，透過電子郵件回複評論的使用者會收到電子郵件通知。</p> <p>即時通知電子郵件的主旨為： <em>[！UICONTROL無法處理] &lt;subject of="" original="" message=""&gt;</em></p> <p>如需使用電子郵件回複評論的詳細資訊，請參閱 <a href="/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/reply-to-email-notifications.md">回覆電子郵件通知</a>.</p> </td>
    <td> </td> 
    <td><strong>立即</strong> </td> 
   </tr> 
