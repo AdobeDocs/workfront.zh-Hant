@@ -1,74 +1,74 @@
 ---
-title: 的 [!DNL Adobe Workfront] 狀態站點
-description: 您可以查看 [!DNL Workfront] 平台，包括事件、計畫維護窗口和所有系統的當前狀態 [!DNL Workfront] 通過訪問 [!DNL Workfront Status] 的子菜單。
+title: 此 [!DNL Adobe Workfront] 狀態網站
+description: 您可以檢視 [!DNL Workfront] 平台，包括事件、排程維護期間，以及所有專案的目前狀態 [!DNL Workfront] 叢集，存取 [!DNL Workfront Status] 網站。
 draft: Probably
 feature: Get Started with Workfront
 exl-id: 2d8509b4-b0fc-435c-8c2f-3154fe152e7a
-source-git-commit: 114d306d99ae9ba0a18abd63a6137ad0568ab202
+source-git-commit: 5d7ff744ed0721ffa6d793a224226f28a76c57a0
 workflow-type: tm+mt
 source-wordcount: '406'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
-# 的 [!DNL Adobe Workfront] 狀態站點
+# 此 [!DNL Adobe Workfront] 狀態網站
 
-## 狀態站點概覽
+## Status網站概觀
 
-您可以查看 [!DNL Workfront] 平台，包括事件、計畫維護窗口和所有系統的當前狀態 [!DNL Workfront] 通過訪問 [!DNL Workfront Status] 的子菜單。
+您可以檢視 [!DNL Workfront] 平台，包括事件、排程維護期間，以及所有專案的目前狀態 [!DNL Workfront] 叢集，存取 [!DNL Workfront Status] 網站。
 
-您可以訪問「狀態」站點上的以下資訊：
+您可以在Status網站上存取下列資訊：
 
-* 即時系統效能統計
-* 計畫維護計畫
-* 關於使用的保障措施的資訊 [!DNL Workfront] 保護用戶資料
-* 命名的漏洞狀態
+* 即時系統效能統計資料
+* 計畫的維護排程
+* 使用的保護裝置資訊 [!DNL Workfront] 保護使用者資料
+* 具名弱點狀態
 
-## 視圖 [!DNL Adobe Workfront] 狀態更新
+## 檢視 [!DNL Adobe Workfront] 狀態更新
 
-您可以查看 [!DNL Adobe] 狀態站點。
+您可以在以下網址檢視狀態更新： [!DNL Adobe] 狀態網站。
 
-1. 轉到 [[!DNL https://one.workfront.com]](https://one.workfront.com/)，然後按一下 **[!UICONTROL 狀態]** 的 **[!UICONTROL 支援]** 的上界。
+1. 前往 [[!DNL https://one.workfront.com]](https://one.workfront.com/)，然後按一下 **[!UICONTROL 狀態]** 在 **[!UICONTROL 支援]** 區段，位於頁面的右下角。
 
    或
 
-   類型 [狀態.adobe.com](http://status.adobe.com/) 訪問「狀態」網站。
+   型別 [status.adobe.com](https://status.adobe.com/) 存取Status網站的瀏覽器。
 
-1. 選擇 **[!UICONTROL Experience Cloud]**。
-1. 向下滾動並選擇 **[!UICONTROL Adobe Workfront]** 從解決方案清單中。
+1. 選取 **[!UICONTROL Experience Cloud]**.
+1. 向下捲動並選取 **[!UICONTROL Adobe Workfront]** 從解決方案清單中。
 
-## 訂閱或管理訂閱
+## 訂閱或管理您的訂閱
 
-要訂閱「狀態」站點或在您已訂閱後管理訂閱，請執行以下操作：
+若要訂閱Status網站或在您已訂閱後管理您的訂閱：
 
-1. 轉到 [狀態.adobe.com](http://status.adobe.com/)。
-1. 在狀態欄中，選擇 **[!UICONTROL 管理訂閱]**。
-1. 如果您有現有帳戶，請登錄該帳戶；否則，請建立新帳戶。
-1. 按一下 **[!UICONTROL 建立預訂]** 按鈕
-1. 選擇 **[!UICONTROL Adobe Workfront]** 下 **[!UICONTROL Experience Cloud]** 標題，然後按一下 **[!UICONTROL 繼續]**。
-1. 選擇區域和事件類型首選項，然後按一下 **[!UICONTROL 繼續]**。
-1. 按一下 **[!UICONTROL 完成]** 確認您的訂閱。
+1. 前往 [status.adobe.com](https://status.adobe.com/).
+1. 在狀態列中，選取 **[!UICONTROL 管理訂閱]**.
+1. 如果您有現有的帳戶，請登入該帳戶；否則，請建立新帳戶。
+1. 按一下 **[!UICONTROL 建立訂閱]** 按鈕。
+1. 選取 **[!UICONTROL Adobe Workfront]** 在 **[!UICONTROL Experience Cloud]** 標題，然後按一下 **[!UICONTROL 繼續]**.
+1. 選取您的地區和事件型別偏好設定，然後按一下 **[!UICONTROL 繼續]**.
+1. 按一下 **[!UICONTROL 完成]** 以確認您的訂閱。
 
-## 瞭解命名漏洞
+## 瞭解已命名的漏洞
 
-* [什麼是命名的漏洞？](#what-is-a-named-vulnerability)
-* [如何查看由 [!DNL Workfront?]](#how-do-i-view-named-vulnerabilities-identified-by-workfront)
+* [何謂具名漏洞？](#what-is-a-named-vulnerability)
+* [我如何檢視所識別的已命名漏洞？ [!DNL Workfront?]](#how-do-i-view-named-vulnerabilities-identified-by-workfront)
 * [為什麼這很重要？](#why-is-this-important)
 
-### 什麼是命名的漏洞？ {#what-is-a-named-vulnerability}
+### 何謂具名漏洞？ {#what-is-a-named-vulnerability}
 
-在電腦安全中，漏洞是一個弱點，使得攻擊者能夠降低系統的穩定性、安全性或完整性。
+在電腦安全性中，漏洞是一種弱點，可讓攻擊者降低系統的穩定性、安全性或完整性。
 
-漏洞研究人員和利用漏洞的建立者在內部命名他們的項目，以便輕鬆引用它們(例如， [!DNL ShellShock]。 [!DNL Heartbleed]。 [!DNL POODLE], [!DNL WannaCry]/[!DNL Petya])。 當漏洞具有廣泛影響時，這些名稱在漏洞被公開時會變為公開。
+弱點研究人員和利用漏洞的創造者在內部為其專案命名，以便輕鬆參照(例如， [!DNL ShellShock]， [!DNL Heartbleed]， [!DNL POODLE]、和 [!DNL WannaCry]/[!DNL Petya])。 當漏洞具有廣泛影響時，這些名稱會在漏洞揭露時公開。
 
-### 如何查看由 [!DNL Workfront?] {#how-do-i-view-named-vulnerabilities-identified-by-workfront}
+### 我如何檢視所識別的已命名漏洞？ [!DNL Workfront?] {#how-do-i-view-named-vulnerabilities-identified-by-workfront}
 
-1. 轉到  [狀態.adobe.com](https://status.adobe.com/)，然後按一下 **[!UICONTROL 安全]**。
+1. 前往  [status.adobe.com](https://status.adobe.com/)，然後按一下 **[!UICONTROL 安全性]**.
 
 ## 為什麼這很重要？ {#why-is-this-important}
 
-任何具有安全意識的網路管理員都應熟悉狀態站點以及Workfront所識別的已命名漏洞。
+任何安全性感知的網路管理員都應該熟悉Status網站和Workfront識別的已命名漏洞。
 
-當洩露大影響漏洞時，必須確保您的供應商知道並保護您的資料。
+在揭露重大影響弱點時，必須確保您的供應商知道並保護您的資料。
 
-「狀態」站點提供可隨時訪問的此類漏洞的當前日誌，您可以在其中避免等待記錄票證或聯繫您的帳戶經理以獲取此資訊。
+Status網站提供您隨時可以觸及的此類漏洞的目前記錄，您可以避免等待記錄票證或聯絡您的帳戶管理員以獲取此資訊。

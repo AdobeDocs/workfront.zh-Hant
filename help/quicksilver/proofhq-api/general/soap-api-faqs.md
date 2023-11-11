@@ -6,7 +6,7 @@ draft: Probably
 feature: Workfront API, Workfront Proof
 role: Developer
 exl-id: fcf89bd6-0e07-42a7-9ae3-9a1309e51946
-source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
+source-git-commit: 5d7ff744ed0721ffa6d793a224226f28a76c57a0
 workflow-type: tm+mt
 source-wordcount: '803'
 ht-degree: 0%
@@ -57,9 +57,9 @@ ht-degree: 0%
 
 ## 什麼是校訂/個人URL？
 
-**團隊/公開**：每個校訂版本都有獨特的團隊（公用） URL。 如果啟用，它將以唯讀模式開啟校訂。 您可以使用取得團隊URL [getProofURL()](http://api.proofhq.com/home/proofs/getproofurl) 方法。
+**團隊/公開**：每個校訂版本都有獨特的團隊（公用） URL。 如果啟用，它將以唯讀模式開啟校訂。 您可以使用取得團隊URL [getProofURL()](https://api.proofhq.com/home/proofs/getproofurl.html) 方法。
 
-**個人**：每個檢閱者和校訂版本的個人網址都是獨一無二的。 如果校訂集包含3個版本，而稽核者位於所有版本，則稽核者將有3個不重複的個人URL。 個人URL會開啟校訂版本，其中檢閱者已識別，因此應妥善儲存且不分享。 個人URL可透過呼叫 [getProofReviewers()](http://api.proofhq.com/home/proofs/getproofreviewers) 方法，然後在每個方法上迭代  [SOAPRecepientObject](http://api.proofhq.com/home/objects/soaprecipientobject) 並取得引數&quot;proof_url&quot;。
+**個人**：每個檢閱者和校訂版本的個人網址都是獨一無二的。 如果校訂集包含3個版本，而稽核者位於所有版本，則稽核者將有3個不重複的個人URL。 個人URL會開啟校訂版本，其中檢閱者已識別，因此應妥善儲存且不分享。 個人URL可透過呼叫 [getProofReviewers()](https://api.proofhq.com/home/proofs/getproofreviewers.html) 方法，然後在每個方法上迭代  [SOAPRecepientObject](https://api.proofhq.com/home/objects/soaprecipientobject.html) 並取得引數&quot;proof_url&quot;。
 
 ## >如何在開啟迷你校樣時包含自訂引數？
 
@@ -71,5 +71,5 @@ ht-degree: 0%
 
 ## 如何建立Java Web服務使用者端？
 
-[此影片](http://screencast.com/t/xsSNrqs5b) 顯示如何使用Eclipse和Workfront Proof WSDL定義來建立Java Web Service使用者端。
+[此影片](https://screencast.com/t/xsSNrqs5b) 顯示如何使用Eclipse和Workfront Proof WSDL定義來建立Java Web Service使用者端。
 

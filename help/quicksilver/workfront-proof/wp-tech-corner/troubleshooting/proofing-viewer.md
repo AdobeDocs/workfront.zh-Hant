@@ -3,116 +3,103 @@ content-type: tips-tricks-troubleshooting
 product-previous: workfront-proof
 product-area: documents
 navigation-topic: tips-tricks-and-troubleshooting-workfront-proof-tech-corner
-title: 疑難排解 —  [!DNL Workfront Proof] 校對檢視器
-description: 如果您的校樣內容未載入，而您只看到空的校樣檢視器，很可能是因為本機有東西阻擋了此動作。 請嘗試下列可能的解決方案。
+title: 疑難排解 —  [!DNL Workfront Proof] 校訂檢視器
+description: 如果您的校訂內容未載入，而您只能看到空白的校訂檢視器，則很可能是因為有某些專案在本機阻止了此動作。 嘗試下列可能的解決方案。
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: ce463565-d21e-4dbc-8de8-78bcbf16fb2c
-source-git-commit: 41ab1312d2ccb8b8271bc851a35e31e9ff18c16b
+source-git-commit: 20fcf4dd07c1058559533501f7e297d78c43a70b
 workflow-type: tm+mt
-source-wordcount: '1278'
+source-wordcount: '1075'
 ht-degree: 0%
 
 ---
 
-# 疑難排解 —  [!DNL Workfront Proof] 校對檢視器
+# 疑難排解 —  [!DNL Workfront Proof] 校訂檢視器
 
 >[!IMPORTANT]
 >
->本文說明獨立產品中的功能 [!DNL Workfront Proof]. 有關內部校對的資訊 [!DNL Adobe Workfront]，請參閱 [校對](../../../review-and-approve-work/proofing/proofing.md).
+>本文提及獨立版產品中的功能 [!DNL Workfront Proof]. 有關內部校訂的資訊 [!DNL Adobe Workfront]，請參閱 [校訂](../../../review-and-approve-work/proofing/proofing.md).
 
-如果您的校樣內容未載入，而您只看到空的校樣檢視器，很可能是因為本機有東西阻擋了此動作。 請嘗試下列可能的解決方案。
+如果您的校訂內容未載入，而您只能看到空白的校訂檢視器，則很可能是因為有某些專案在本機阻止了此動作。 嘗試下列可能的解決方案。
 
-## 確定您的瀏覽器和 [!DNL Flash Player] 版本為最新
+## 確認您的瀏覽器和 [!DNL Flash Player] 版本為最新版本
 
-所有開發人員都不斷使用其應用程式，並定期為其產品發行新功能和修正。 這是為了改善使用者體驗並維持安全層級，因此只使用最新版本是最佳作法。 這也有助於避免應用程式之間的衝突。
+所有開發人員都會持續開發應用程式，並定期發佈產品的新功能和修正專案。 這是為了改善使用者體驗並維持安全性等級，所以最佳實務是隻使用最新版本。 這也有助於避免應用程式之間的衝突。
 
-### [!DNL Flash Player] 外掛程式版本
+<!--
+### [!DNL Flash Player] Plugin Version
 
-檢查您當前 [!DNL Flash Player] 版本造訪 [[!DNL Adobe] 網站](http://www.adobe.com/software/flash/about/).
+To check your current [!DNL Flash Player] version visit the [[!DNL Adobe] website](http://www.adobe.com/software/flash/about/).
 
 ![ProofView_2.png](assets/proofview-2-350x199.png)
 
-如果您的版本號碼與平台列出的版本號碼不同，請前往 [[!DNL Flash Player] 下載頁面](http://get.adobe.com/flashplayer/otherversions/) 並取得最新版本。
+If your version number differs from the one listed for your platform go to the [[!DNL Flash Player] download page](http://get.adobe.com/flashplayer/otherversions/) and get the latest version.
 
-請注意：建議您使用原始 [!DNL Adobe] 外掛程式，因此若您的瀏覽器使用內建解決方案來停用並安裝 [!DNL Adobe] 解決方案。
+Please note: we do recommend using the original [!DNL Adobe] plugin, so if your browser uses a built-in solution deactivate it and install the [!DNL Adobe] solution.
+-->
 
 ### 瀏覽器版本
 
-現在，大多數的瀏覽器都會自動更新，但如果您遇到任何問題，則需要檢查您使用的版本，並視需要執行更新。
+現今大部分的瀏覽器都會自動更新，但如果您遇到任何問題，建議您檢視所使用的版本，並視需要執行更新。
 
-在您的瀏覽器中，前往 [!UICONTROL 功能表] 並找到 [!UICONTROL 關於] 選項(在某些情況下，這可能顯示在 [!UICONTROL 說明] 功能表)。 在 [!UICONTROL 關於] 快顯視窗會顯示目前瀏覽器版本的相關資訊，以及更新/檢查更新的選項。
+在您的瀏覽器中，前往 [!UICONTROL 選單] 並找到 [!UICONTROL 關於] 選項(在某些情況下，這可能會顯示在 [!UICONTROL 說明] 功能表)。 在 [!UICONTROL 關於] 快顯視窗會提供您目前瀏覽器版本的相關資訊，以及更新/檢查更新的選項。
 
-請參閱Chrome:
+請在Chrome中檢視：
 
 ![ProofView_3.png](assets/proofview-3-350x206.png)
 
-一旦您擁有最新 [!DNL Flash Player] 已安裝的外掛程式和瀏覽器版本會嘗試重新開啟您的校樣，並查看問題是否已解決。
+一旦您擁有最新的 [!DNL Flash Player] 已安裝的外掛程式和瀏覽器版本請嘗試重新開啟您的校樣，並檢視問題是否已解決。
 
-## 確保您的本地 [!DNL Flash] 儲存可用
+## 確定您的本機 [!DNL Flash] 儲存空間可供使用
 
-我們的 [!DNL Workfront Proof] 檢視器是以Flash為基礎，我們會儲存一些校樣的資料(例如，註解、校樣圖磚、 [!DNL Workfront Proof] 檢視器設定)，使用 [!DNL Flash Player]. 若 [!DNL Workfront Proof] 檢視器會開啟，但您內部沒有內容，需要確定Flash儲存可在您的電腦上使用，而且 [!DNL Workfront Proof] 允許使用它。
+我們的 [!DNL Workfront Proof] 檢視器以Flash為基礎，且我們儲存了一些關於校訂的資料(即評論、校訂圖磚、 [!DNL Workfront Proof] 檢視器設定) [!DNL Flash Player]. 如果 [!DNL Workfront Proof] 檢視器會開啟，但其中沒有任何內容，您會想要確定Flash儲存體在您的電腦上可供使用，並且 [!DNL Workfront Proof] 允許使用它。
 
-如果已分配某些儲存空間，但您使用的校樣較大，且有多個頁面，且有留言，會嘗試增加 [!DNL Flash] 儲存並重新載入您的校樣。
+如果配置了一些儲存空間，但您使用具有多個頁面的較大校樣，且評論會嘗試增加 [!DNL Flash] 儲存並重新載入您的校訂。
 
-請看我們的 [檢視校樣的問題 —  [!DNL Flash] 共用對象說明](../../../workfront-proof/wp-tech-corner/troubleshooting/view-proof-flash-shared-object.md) 以取得詳細指示。
+請參閱我們的 [檢視校訂的問題 —  [!DNL Flash] 說明共用物件](../../../workfront-proof/wp-tech-corner/troubleshooting/view-proof-flash-shared-object.md) 以取得詳細指示。
 
-## 確定問題所在
+## 找出問題所在
 
 * 校樣會在不同的瀏覽器中開啟嗎？
-* 如果您每天使用一個瀏覽器，但在檢視校樣時遇到問題，請嘗試在電腦的其他瀏覽器中開啟相同的校樣。 若要這麼做，只需從主要瀏覽器的URL列複製校樣連結，然後貼到其他瀏覽器中即可。 如果校樣在原處開啟，請檢閱主要瀏覽器組態、外掛程式和擴充功能，因為這些可能會干擾。
-* 我們沒有任何偏好的瀏覽器，但如果您目前的瀏覽器出現任何效能問題，建議您切換至其他瀏覽器。
-* 校樣會在您所在的不同電腦上開啟嗎？
-如果您的校樣未在電腦上的任何瀏覽器中開啟，請嘗試在您所在位置的其他電腦和/或在您所在位置之外開啟。 這可讓您判斷問題是否由您的特定電腦造成，或是由您的本機網路造成。
-如果您的安全級別較高，則您與 [!DNL Workfront Proof] 可能被：
+* 如果您每天使用一個瀏覽器，且無法檢視校訂，請嘗試在電腦上的不同瀏覽器中開啟相同的校訂。 若要這麼做，只要從主要瀏覽器的URL列複製校樣連結，然後貼到其他瀏覽器中即可。 如果校訂在此正常開啟，請檢閱您的主要瀏覽器設定、外掛程式和擴充功能，因為這些可能會造成干擾。
+* 我們沒有任何較適合的瀏覽器，但如果您目前瀏覽器發生任何效能問題，建議您切換至其他瀏覽器。
+* 校樣會在您所在位置的不同電腦上開啟嗎？
+如果您的校樣未在您電腦上的任何瀏覽器中開啟，請嘗試在您所在位置和/或您所在位置之外的其他電腦上開啟校樣。 這可讓您判斷問題是否由您的特定電腦所造成，或是否由您的本機網路所造成。
+如果您的安全性等級較高，您的連線將會連線至 [!DNL Workfront Proof] 封鎖者可能為：
 
-   * 您的本地AV軟體
-   * 您的網路安全解決方案
-   * DNS、防火牆或代理配置
-   * 這些是我們無法控制的設定。 有各種可用的安全解決方案，我們無法判斷哪些已在您的網路中實施，哪些可能正在阻止與 [!DNL Workfront Proof]. 也不是 [!DNL Workfront Proof] 決定您的內部安全設定。 如果您在您所在位置/網路的多個電腦上開啟校樣時遇到問題，建議您與您的IT團隊聯繫，以便他們檢查網路設定並授權或新增 [!DNL Workfront Proof] 視需要新增至允許清單。
+   * 您的本機AV軟體
+   * 您的網路安全性解決方案
+   * DNS、防火牆或Proxy設定
+   * 這些設定超出我們的控制範圍。 有多種安全性解決方案可供使用，我們無法分辨哪些解決方案已在您的網路中實作，哪些解決方案可能會封鎖連線至 [!DNL Workfront Proof]. 也不適用於 [!DNL Workfront Proof] 以決定您的內部安全性組態。 如果在您位置/網路的多部電腦上開啟校訂時發生問題，建議您連絡您的IT團隊，讓他們檢查網路設定並授權或新增 [!DNL Workfront Proof] 至允許清單（如有需要）。
 
-* 連線是否 [!DNL Workfront Proof] 允許進入您的網路？
-我們會在校樣檢視器內載入圖磚 — 頁面的片段。 如果此內容在您的結尾未載入正常，可能是有些連線 [!DNL Workfront Proof] 在您的網路中被阻止。 您將要確認所有連線和*.proofhq.com中的所有內容已新增至允許清單。 您的IT團隊應能協助驗證。
+* 連線到 [!DNL Workfront Proof] 您的網路是否允許？
+在校訂檢視器內，我們載入圖磚 — 頁面片段。 若此內容在您的結尾未正常載入，可能是某些連線至 [!DNL Workfront Proof] 在您的網路中遭到封鎖。 請確定所有連線和來自*.proofhq.com的內容均已新增至允許清單。 您的IT團隊應能協助確認此事項。
 
 ## 檢閱外掛程式
 
-若您的瀏覽器和 [!DNL Flash Player] 外掛程式為最新狀態，且您的網路未封鎖至 [!DNL Workfront Proof] 瀏覽器中可能有影響校樣檢視的項目。 現在，您的瀏覽器中有多個外掛程式和擴充功能可供使用，其中有些會干擾或與其他外掛程式發生衝突。
+如果您的瀏覽器和 [!DNL Flash Player] 外掛程式為最新狀態，您的網路未封鎖與的連線 [!DNL Workfront Proof] 您的瀏覽器中可能有會影響檢視校樣的問題。 現在您的瀏覽器中有多個外掛程式和擴充功能可供使用，其中有些會干擾或與其他外掛程式和擴充功能發生衝突。
 
-最佳實務是移除所有未知的附加元件，並僅保留您使用和信任的附加元件。 每個瀏覽器都應提供選項來檢查/修改/刪除外掛程式和擴充功能。 我們的 [!DNL Workfront Proof] 檢視器以 [!DNL Flash] 我們會使用JavaScript來載入檢視器，因此您尤其想要檢閱可能影響這些的外掛程式。
+最佳實務是移除所有未知的附加元件，僅保留您使用且您信任的附加元件。 每個瀏覽器都應提供選項，讓您檢查/修改/刪除外掛程式和擴充功能。 我們的 [!DNL Workfront Proof] 檢視器的基礎為 [!DNL Flash] 而且我們使用JavaScript來載入檢視器，因此您特別想要檢閱可能影響這些專案的外掛程式。
 
-請造訪下列頁面，以取得開發人員關於如何停用瀏覽器附加元件的詳細指示：
-
-* 鉻黃： [外掛程式](https://support.google.com/chrome/answer/142064?hl=en-GB) / [擴充功能](https://support.google.com/chrome/answer/113907?hl=en-GB)
-* Firefox: [附加元件](https://support.mozilla.org/en-US/kb/disable-or-remove-add-ons)
-* Internet Explorer: [附加元件](http://windows.microsoft.com/en-GB/internet-explorer/manage-add-ons#ie=ie-11)
-* Safari: [附加元件](http://support.apple.com/en-gb/HT203353)
-
-如果校樣載入中有任何特定附加元件干擾，您可以嘗試在瀏覽器主控台中檢查詳細資訊。
+如果有任何附加元件干擾載入校樣，您可以嘗試在瀏覽器主控台中檢視詳細資訊。
 
 ![ProofView_4.png](assets/proofview-4-350x57.png)
 
-在大多數較新的瀏覽器中，有一些額外的開發人員工具可供使用，可用於更進階的疑難排解。
+在大多數較新的瀏覽器中，有一些其他可用的開發人員工具，可用於更進階的疑難排解。
 
-如果您在查看校樣時遇到問題：
+如果您無法檢視校樣：
 
-* 開啟瀏覽器的主控台，然後重新載入校樣。
-* 檢查主控台中是否有任何警報或訊息。 這些詳細資訊有助於識別問題的根本原因。
-* 請您的IT團隊分析結果。 他們應該能夠為解決本地問題提供建議和幫助。
-* 與我們的 [支援團隊](https://support.workfront.com/hc/en-us/requests/new). 我們很樂意協助。
+* 開啟瀏覽器的主控台，然後重新載入校訂。
+* 檢查主控台中是否有任何警示或訊息。 這些詳細資訊有助於確定問題的根本原因。
+* 請您的IT團隊分析結果。 他們應該能夠提出建議並幫助解決本機問題。
+* 請與我們的支援團隊分享結果。 我們很樂意提供協助。
 
-如果您不知道如何在瀏覽器中開啟主控台，請參閱錄制的步驟：
-
-* [Firefox](http://screencast.com/t/eP6FRtk4vxWS)
-* [Internet Explorer](http://screencast.com/t/bYzq1iQv)
-* [Google Chrome](http://screencast.com/t/2anpeAzOOyj)
-* [Safari](http://screencast.com/t/rnOvgl3GidjL)
-
-您也可以參閱瀏覽器開發人員的檔案以取得更詳細的指示。
 
 ## 檢查混合內容設定
 
-與 [!DNL Workfront Proof] 是透過HTTPS。 不過，在 [!DNL Workfront Proof] 檢視器會透過HTTP載入圖磚，且資料會以代號加以保護。 這會建立混合內容，供某些瀏覽器或安全解決方案封鎖（依預設或依手動設定）。
+所有與的連線 [!DNL Workfront Proof] 透過HTTPS傳輸。 不過，在 [!DNL Workfront Proof] 檢視器會透過HTTP載入圖磚，並以權杖保護資料。 這會建立某些瀏覽器或安全性解決方案可能封鎖的混合內容（根據預設或根據手動設定）。
 
-如果這是校樣未在您的電腦上開啟的原因（您應該可以在瀏覽器控制台中看到相關警報），請授權進行此類連線 [!DNL Workfront Proof] 或者修改設定，允許電腦上的被動混合內容。 您的瀏覽器、AV軟體、網路配置等可能會阻止混合內容，以確定確切原因，請與您的IT團隊/網路管理員聯繫。 他們也應該能協助在您的電腦上啟用混合的內容。
+如果這就是電腦上未開啟校訂的原因（您應該可以在瀏覽器的主控台中看到相關警示），則授權此類連線 [!DNL Workfront Proof] 或是修改您的設定，以便在您的電腦上允許被動混合式內容。 您的瀏覽器、AV軟體、網路設定等可能會封鎖混合式內容 — 若要判斷確切原因，請連絡您的IT團隊/網路管理員。 他們應該還能協助在您的電腦上啟用混合式內容。
 
-聯繫我們的 [支援團隊](https://support.workfront.com/hc/en-us/requests/new) 如果你需要我們的幫助。
+

@@ -7,7 +7,7 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: d8c27915-8e1b-4804-9ef8-3a2efd57caac
-source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
+source-git-commit: 5d7ff744ed0721ffa6d793a224226f28a76c57a0
 workflow-type: tm+mt
 source-wordcount: '4475'
 ht-degree: 0%
@@ -95,7 +95,7 @@ API會驗證每個請求，以確保使用者端有權檢視或修改請求的�
 
 #### 請求標頭驗證
 
-首選的驗證方法是傳遞包含工作階段權杖的名為SessionID的請求標頭。 其優點是可以安全抵禦 [跨網站請求偽造(CSRF)](http://en.wikipedia.org/wiki/Cross-site_request_forgery) 攻擊且不干擾URI以進行快取。
+首選的驗證方法是傳遞包含工作階段權杖的名為SessionID的請求標頭。 其優點是可以安全抵禦 [跨網站請求偽造(CSRF)](https://en.wikipedia.org/wiki/Cross-site_request_forgery) 攻擊且不干擾URI以進行快取。
 
 以下是請求標頭的範例：
 
