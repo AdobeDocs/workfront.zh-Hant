@@ -8,20 +8,26 @@ description: Adobe Workfront Fusion提供兩種不同的授權，決定您可以
 author: Becky
 feature: Workfront Fusion
 exl-id: 37fecce9-c1b8-474b-abc2-09398bfcc629
-source-git-commit: 8c781894022661bee229a88556728659ff634310
+source-git-commit: 7bae22ba1211298ac77b8909c06e18f2a35cd405
 workflow-type: tm+mt
-source-wordcount: '492'
+source-wordcount: '527'
 ht-degree: 0%
 
 ---
 
-# 舊版 [!DNL Adobe Workfront Fusion] 授權
+# [!DNL Adobe Workfront Fusion] 授權
 
-在 [!DNL Adobe Workfront Fusion] 舊版授權模式， [!DNL Fusion] 提供兩種不同的授權，決定您可以存取的功能。 您的組織在購買時選擇了其中一個授權 [!DNL Workfront Fusion].
+[!DNL Workfront Fusion] 擁有兩種授權模式，一種是新的作業型模式，另一種是舊版聯結器型模式。
 
->[!NOTE]
->
->新的Fusion授權模型是以您的組織使用的作業數量為基礎。 在此模型中，所有組織都可存取相同的功能。
+## 以作業為基礎的授權模式（新）
+
+新的 [!DNL Workfront Fusion] 授權模式是根據貴組織使用的作業數量而定。 在此模型中，所有組織都可存取相同的功能。
+
+如需有關新授權模式下的作業計數的資訊，請參閱 [中的作業 [!DNL Adobe Workfront Fusion]](/help/quicksilver/workfront-fusion/get-started/operations-in-workfront-fusion.md).
+
+## 聯結器授權模式（舊版）
+
+在 [!DNL Adobe Workfront Fusion] 舊版授權模式， [!DNL Fusion] 提供兩種不同的授權，決定您可以存取的功能。 您的組織在購買時已選擇其中一個授權 [!DNL Workfront Fusion].
 
 * [[!DNL Workfront Fusion for Work Automation]](#workfront-fusion-for-work-automation)
 * [[!DNL Workfront Fusion for Work Automation and Integration]](#workfront-fusion-for-work-automation-and-integration)
@@ -36,19 +42,19 @@ ht-degree: 0%
 
 ### 的優點 [!DNL Workfront Fusion for Work Automation]
 
-A [!DNL Workfront Fusion for Work Automation] 授權可讓您自動化 [!DNL Workfront] 工作流程。 透過使用 [!DNL Workfront Fusion for Work Automation]，您可以建立案例以自動化組織的獨特工作流程。 自動化您的 [!DNL Workfront] 程式。
+A [!DNL Workfront Fusion for Work Automation] 授權可讓您自動執行 [!DNL Workfront] 工作流程。 透過使用 [!DNL Workfront Fusion for Work Automation]，您可以建立案例以自動化組織的獨特工作流程。 自動化您的有許多好處 [!DNL Workfront] 程式。
 
 * 自動化速度更快，不易發生錯誤
-* 不需要任何決定的工作流程或具有決定的工作流程是根據簡單邏輯，例如if/then，是自動化的良好候選項
-* 自動化可針對貴組織所使用工作流程的特定需求，這些需求不會直接在中處理 [!DNL Workfront] product
+* 不需要任何決定的工作流程，或具有以簡單邏輯（例如if/then）為基礎之決定的工作流程，是理想的自動化候選專案
+* 自動化可針對貴組織所使用工作流程的特定需求，這些需求未在中直接解決 [!DNL Workfront] 產品
 
 ### 可用的聯結器和模組 [!DNL Workfront Fusion for Work Automation]
 
-使用 [!DNL Workfront Fusion for Work Automation] 授權，您便可以存取下列專案：
+使用 [!DNL Workfront Fusion for Work Automation] 授權，則您可存取下列專案：
 
 * [!DNL Adobe Workfront]
 * [!DNL Workfront Proof]
-* Webhook
+* Webhooks
 * 工具和轉換器模組，例如：
 
    * PDF工具
@@ -57,7 +63,7 @@ A [!DNL Workfront Fusion for Work Automation] 授權可讓您自動化 [!DNL Wor
    * 資料存放區
    * 影像
    * JSON
-   * 數學
+   * Math
    * MIME
    * XML
 
@@ -66,8 +72,8 @@ A [!DNL Workfront Fusion for Work Automation] 授權可讓您自動化 [!DNL Wor
 **範例：** 下列範例顯示的工作流程如下：
 
 1. 監視欄位變更
-1. 取得與欄位附加的物件相關的資訊，包括物件被指派給誰
-1. 傳送有關欄位變更的通知給指派物件的使用者
+1. 取得有關欄位附加到的物件的資訊，包括物件被指派給誰
+1. 將有關欄位變更的通知傳送給指派物件的使用者
 
 ![](assets/fusion-template-example-350x102.png)
 
@@ -79,13 +85,13 @@ A [!DNL Workfront Fusion for Work Automation] 授權可讓您自動化 [!DNL Wor
 
 ### 的優點 [!DNL Workfront Fusion for Work Automation and Integration] {#benefits-of-workfront-fusion-for-work-automation-and-integration}
 
-A [!DNL Workfront Fusion for Work Automation and Integration] 授權可讓您存取 [!DNL Workfront Fusion for Work Automation] 授權。 此外，此授權可讓您在情境中使用其他應用程式和服務。 例如，您可以使用 [!DNL Workfront Fusion] 自動化匯入的程式 [!DNL Jira] 工作，然後將其轉換為中的工作 [!DNL Workfront]. 您也可以使用 [!UICONTROL HTTP] 或 [!UICONTROL SFTP] 連線到幾乎任何Web服務的聯結器，即使是 [!DNL Workfront Fusion] 沒有專用的聯結器。
+A [!DNL Workfront Fusion for Work Automation and Integration] 授權可讓您存取 [!DNL Workfront Fusion for Work Automation] 授權。 此外，本授權可讓您在情境中使用其他應用程式和服務。 例如，您可以使用 [!DNL Workfront Fusion] 自動化匯入的程式 [!DNL Jira] 工作，然後將它們變成中的工作 [!DNL Workfront]. 您也可以使用 [!UICONTROL HTTP] 或 [!UICONTROL SFTP] 連線至幾乎任何Web服務的聯結器，即使是 [!DNL Workfront Fusion] 沒有專用的聯結器。
 
 [!DNL Workfront Fusion for Work Automation and Integration] 為您的組織提供許多好處。
 
 * [!DNL Workfront Fusion for Work Automation and Integration] 包含與以下專案相關的所有權益： [!DNL Workfront Fusion for Work Automation]
-* 整合可減少完成工作流程時跳入和跳出各種應用程式的需求。
-* 與手動傳輸資料相比，應用程式之間的自動化資料傳輸更快且不易出錯
+* 整合可減少完成工作流程時進出不同應用程式的需求。
+* 自動化應用程式之間的資料傳輸比手動傳輸資料更快，而且不易發生錯誤
 
 ### 可用的聯結器和模組 [!DNL Workfront Fusion for Work Automation and Integration]
 
