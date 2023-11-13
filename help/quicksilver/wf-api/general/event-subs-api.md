@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: c3646a5d-42f4-4af8-9dd0-e84977506b79
-source-git-commit: 7f11ddf290c24ac3436ea98f14eff1338388f314
+source-git-commit: c08bd3311892d24a9bd40af138169957f5ea2ca4
 workflow-type: tm+mt
-source-wordcount: '2123'
+source-wordcount: '2126'
 ht-degree: 3%
 
 ---
@@ -70,6 +70,7 @@ ht-degree: 3%
 * 範本
 * 時程表
 * 使用者
+* 工作區
 
 如需事件訂閱物件支援的欄位清單，請參閱 [事件訂閱資源欄位](../../wf-api/api/event-sub-resource-fields.md).
 
@@ -179,6 +180,10 @@ ht-degree: 3%
        <tr> 
         <td scope="col">使用者</td> 
         <td scope="col">使用者</td> 
+       </tr> 
+       <tr> 
+        <td scope="col">工作區</td> 
+        <td scope="col">工作區</td> 
        </tr> 
       </tbody> 
      </table>
