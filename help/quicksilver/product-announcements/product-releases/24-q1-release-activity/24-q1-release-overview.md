@@ -3,7 +3,7 @@ title: 2024年第一季版本總覽
 description: 2024年第一季版本總覽
 author: Becky
 feature: Product Announcements
-source-git-commit: 2dfb6cb4034b12c42808644f1a3966fb95948763
+source-git-commit: 0e133e36bd322cd0967246ad2176e90a7591cac7
 workflow-type: tm+mt
 source-wordcount: '458'
 ht-degree: 1%
@@ -68,7 +68,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
                                 <p>預覽版本： 2024年11月9日<br /></p>
                             </li>
                             <li>
-                                <p><span class="preview">所有客戶適用的生產日期： 11月9日。 2024</span></p>
+                                <p><span class="preview">所有客戶適用的生產日期： 11月9日。 2023年</span></p>
                             </li>
                         </ul>
                     </td>
