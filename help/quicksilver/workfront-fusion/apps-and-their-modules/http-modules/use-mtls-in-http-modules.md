@@ -9,34 +9,34 @@ description: 您可以在Adobe Workfront Fusion HTTP模組中使用Mutual TLS，
 author: Becky
 feature: Workfront Fusion
 exl-id: ace9c404-34de-4bc5-bc77-2e53df36dbd9
-source-git-commit: 8b4182ae2b32488a02cacc16fcb6a246fcb571fd
+source-git-commit: 355d060d67685a98bfc9e7c37073024f3a82c5c9
 workflow-type: tm+mt
 source-wordcount: '663'
 ht-degree: 0%
 
 ---
 
-# 在HTTP模組中使用雙向TLS [!DNL Adobe Workfront Fusion]
+# 在的HTTP模組中使用雙向TLS [!DNL Adobe Workfront Fusion]
 
 >[!NOTE]
 >
->Adobe Workfront Fusion需要 [!DNL Adobe Workfront Fusion] 除了Adobe Workfront授權之外，還附加授權。
+>Adobe Workfront Fusion需要 [!DNL Adobe Workfront Fusion] 除了Adobe Workfront授權之外，也提供授權。
 
 ## 雙向TLS總覽
 
-透過網際網路傳送資料時，請務必確保資料能前往或來自正確位置，且只有指定收件者才能讀取。 啟用TLS後，使用者端（要求資訊的電腦）會使用憑證來驗證伺服器的身分（提供資訊的電腦）。 如此可建立安全的HTTP連線。
+透過網際網路傳送資料時，請務必確保資料到達或來自正確位置，而且只有預期的收件者才能讀取。 啟用TLS後，使用者端（要求資訊的電腦）會使用憑證來驗證伺服器的身分（提供資訊的電腦）。 如此可建立安全的HTTP連線。
 
-雙向TLS可讓此身分確認雙向進行。 當伺服器傳送其憑證以驗證其身分給使用者端時，也會要求使用者端的憑證。 這可確保伺服器不會將資訊傳送給可能誤用的網站或使用者。
+雙向TLS可讓此身分確認雙向進行。 當伺服器傳送其憑證以驗證其身分給使用者端時，也會要求使用者端的憑證。 這可確保伺服器不會將資訊傳送給可能會誤用的網站或使用者。
 
 >[!INFO]
 >
 >**範例:**
 >
->* **TLS**：當使用者在瀏覽器中輸入「MyGreatBank.com」時，他們想要確保自己會前往My Great Bank，而不是會誤用或出售其銀行資訊的網站。 他們還想確認自己的銀行帳戶資訊已加密。
+>* **TLS**：當使用者在瀏覽器中輸入「MyGreatBank.com」時，他們想要確保自己會前往My Great Bank，而不是可能會濫用或銷售其銀行資訊的網站。 他們還想確認自己的銀行帳戶資訊已加密。
 >
->   瀏覽器（使用者端）連線至MyGreatBank.com （伺服器）時，TLS會需要MyGreatBank.com的憑證來驗證其身分。 憑證由憑證授權單位提供，例如 [!DNL DigiCert] 或 [!DNL Thawte]. 因為瀏覽器信任憑證授權單位，所以允許連線。
+>   當瀏覽器（使用者端）連線至MyGreatBank.com （伺服器）時，TLS需要MyGreatBank.com的憑證才能驗證其身分。 憑證是由憑證授權單位提供，例如 [!DNL DigiCert] 或 [!DNL Thawte]. 因為瀏覽器信任憑證授權單位，所以允許連線。
 >
->* **雙向TLS**： MySoftware.com是軟體使用者端，需要MyGreatBank.com API的資訊。 MyGreatBank只允許受信任的客戶連線到他們的伺服器。 因此，除了驗證MyGreatBank.com身分的常規TLS之外，TLS/憑證授權程式也會驗證MySoftware.com的請求。
+>* **雙向TLS**： MySoftware.com是軟體使用者端，需要MyGreatBank.com API的資訊。 MyGreatBank只允許受信任的使用者端連線到其伺服器。 因此，除了驗證MyGreatBank.com身分的常規TLS之外，TLS/憑證授權程式也會驗證MySoftware.com的要求。
 
 ## 存取需求
 
@@ -65,28 +65,28 @@ ht-degree: 0%
   <tr> 
    <td role="rowheader">產品</td> 
    <td>
-   <p>目前產品需求：如果您有[！UICONTROL Select]或[！UICONTROL Prime] [!DNL Adobe Workfront] 計畫，您的組織必須購買 [!DNL Adobe Workfront Fusion] 以及 [!DNL Adobe Workfront] 以使用本文所述功能。 [!DNL Workfront Fusion] 包含在[！UICONTROL Ultimate]中 [!DNL Workfront] 計畫。</p>
+   <p>目前產品需求：如果您有[！UICONTROL Select]或[！UICONTROL Prime] [!DNL Adobe Workfront] 計畫，您的組織必須購買 [!DNL Adobe Workfront Fusion] 以及 [!DNL Adobe Workfront] 以使用本文所述的功能。 [!DNL Workfront Fusion] 包含在[！UICONTROL Ultimate]中 [!DNL Workfront] 計畫。</p>
    <p>或</p>
-   <p>舊版產品需求：貴組織必須購買 [!DNL Adobe Workfront Fusion] 以及 [!DNL Adobe Workfront] 以使用本文所述功能。</p>
+   <p>舊版產品需求：貴組織必須購買 [!DNL Adobe Workfront Fusion] 以及 [!DNL Adobe Workfront] 以使用本文所述的功能。</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;若要瞭解您擁有哪些計畫、授權型別或存取權，請聯絡您的 [!DNL Workfront] 管理員。
+&#42;若要瞭解您擁有的計畫、授權型別或存取權，請聯絡您的 [!DNL Workfront] 管理員。
 
-&#42;&#42;有關以下專案的資訊： [!DNL Adobe Workfront Fusion] 授權，請參閱 [[!DNL Adobe Workfront Fusion] 授權](../../../workfront-fusion/get-started/license-automation-vs-integration.md)
+&#42;&#42;有關的資訊 [!DNL Adobe Workfront Fusion] 授權，請參閱 [[!DNL Adobe Workfront Fusion] 授權](../../../workfront-fusion/get-started/license-automation-vs-integration.md)
 
 ## 提供您的 [!DNL Workfront Fusion] 公開憑證
 
 
-當您使用HTTP要求連線至Web服務時，Web服務通常需要 [!DNL Workfront Fusion] 公開憑證以供驗證。 這可讓Web服務比較HTTP要求中提供的憑證與檔案上的憑證，藉此確保憑證位於Web服務的允許清單上。
+當您使用HTTP要求連線至Web服務時，Web服務通常需要 [!DNL Workfront Fusion] 公開憑證以供驗證。 這可讓Web服務比較HTTP要求中顯示的憑證與檔案上的憑證，藉此確保憑證位於Web服務的允許清單上。
 
-如需上傳的指示， [!DNL Adobe Workfront Fusion] Web服務的公開憑證，請參閱Web服務的檔案。
+有關上傳 [!DNL Adobe Workfront Fusion] Web服務的公開憑證，請參閱Web服務的檔案。
 
 >[!NOTE]
 >
->除了憑證外，您可能需要提供其他資訊。 如需有關Web服務需求的資訊，請參閱Web服務的API檔案。
+>除了憑證外，您可能需要提供其他資訊。 如需網站服務需求的資訊，請參閱網站服務的API檔案。
 
 您可以使用以下連結下載Workfront Fusion公開憑證：
 
@@ -96,13 +96,13 @@ ht-degree: 0%
 >
 >* 這些 [!DNL Workfront Fusion] 公開憑證將於2024年6月9日到期。 您的憑證過期後，您需要將新的憑證上傳到Web服務。 建議您：
 >
->   * 記下到期日並設定提醒，讓您自己將憑證上傳到您的Web服務。
->   * 將此頁面加入書籤，即可輕鬆找到新憑證。
+>   * 記下到期日，並設定提醒給自己，以便上傳憑證至您的Web服務。
+>   * 將此頁面加入書籤，即可輕鬆尋找新憑證。
 >
 >* 這些是非萬用字元mTLS憑證。
 
-* [下載 [!DNL Workfront Fusion] 2023年憑證](/help/quicksilver/workfront-fusion/apps-and-their-modules/http-modules/assets/fusion-prod-eu-mtls-certificate.pem)
-* [下載 [!DNL Workfront Fusion] 2023年歐盟認證](/help/quicksilver/workfront-fusion/apps-and-their-modules/http-modules/assets/fusion-prod-eu-mtls-certificate.pem)
+* [下載 [!DNL Workfront Fusion] 2023年憑證](/help/quicksilver/workfront-fusion/apps-and-their-modules/http-modules/assets/fusion-prod-us-mtls-certificate.pem)
+* [下載 [!DNL Workfront Fusion] 2023年歐盟憑證](/help/quicksilver/workfront-fusion/apps-and-their-modules/http-modules/assets/fusion-prod-eu-mtls-certificate.pem)
 
   於歐盟使用
 
@@ -126,12 +126,12 @@ ht-degree: 0%
 
 全部 [!DNL Workfront Fusion] [!UICONTROL HTTP] 請求模組可以選擇啟用雙向TLS。
 
-若要在中啟用雙向TLS [!UICONTROL HTTP] 要求模組：
+若要啟用中的雙向TLS [!UICONTROL HTTP] 要求模組：
 
 1. 新增 [!UICONTROL HTTP] 向情境要求模組。
 1. 開始設定模組。
 
-   如需設定的說明， [!UICONTROL HTTP] 請求模組，請參閱下方的適當文章 [[!UICONTROL HTTP] 模組](../../../workfront-fusion/apps-and-their-modules/http-modules/http-modules-1.md).
+   有關設定 [!UICONTROL HTTP] 請求模組，請參閱下方的適當文章 [[!UICONTROL HTTP] 模組](../../../workfront-fusion/apps-and-their-modules/http-modules/http-modules-1.md).
 
 1. 啟用 **[!UICONTROL 顯示進階設定]** 靠近模組底部。
 1. 啟用 **[!UICONTROL 使用雙向TLS]**.
