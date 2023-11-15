@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: 324ad45b52dafa96c2854f1fec1172b88643bdc2
+source-git-commit: 90c730bbab2e62bcc60bee37272edb1219b2afb4
 workflow-type: tm+mt
-source-wordcount: '1845'
+source-wordcount: '1843'
 ht-degree: 1%
 
 ---
@@ -369,7 +369,7 @@ To share the Maestro area using a layout template:
 | 將Maestro記錄連線至Workfront專案、計畫、投資組合、公司、群組 | ✓ |                                 |                  |
 | 記錄詳細資訊頁面 | ✓ |                                  |                  |
 | 更新記錄詳細資訊頁面的版面 |                               | ✓ |                  |
-| 存取層級和許可權 | | ✓ |  |
+| 工作區許可權 | | ✓ |  |
 | 提交請求 |                               |                                  | ✓ |
 | 創意簡報 |                               |                                  | ✓ |
 | 自訂記錄的顏色和圖示 | ✓ |                                  |                 |

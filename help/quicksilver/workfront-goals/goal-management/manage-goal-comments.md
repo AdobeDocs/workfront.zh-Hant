@@ -6,9 +6,9 @@ description: 您可以將註解新增至可在Adobe Workfront目標中檢視的�
 author: Alina
 feature: Workfront Goals
 exl-id: 6cf2d2d2-5ba5-40f2-a803-01359c338541
-source-git-commit: c1bc58be18e43a0c9cce10d0117a186ba2abca9e
+source-git-commit: 90c730bbab2e62bcc60bee37272edb1219b2afb4
 workflow-type: tm+mt
-source-wordcount: '921'
+source-wordcount: '952'
 ht-degree: 0%
 
 ---
@@ -120,16 +120,28 @@ ht-degree: 0%
 
 * 包含主功能表中目標區域的版面配置範本。
 
-## 找出「更新」區段
+## 管理目標註解
 
 您可以在目標頁面的「更新」區段中，將註解新增至目標。
 
 您可以回覆或喜歡您或其他人新增至此區域的註解。
 
-1. 按一下 **主要功能表** 圖示 ![](assets/main-menu-icon.png) > **目標** 位於右上角。
+1. 按一下 **主要功能表** 圖示 ![](assets/main-menu-icon.png) 位於右上角，或 **主要功能表** 圖示 ![](assets/lines-main-menu.png) （如果有的話）按一下 **目標**.
 如此將可開啟目標清單。
 1. 找到您要新增註解的目標，然後按一下其名稱以開啟目標頁面。
 1. 按一下  **更新** 在左側面板中。
+<!--
+1. (Optional) To locate an existing comment, start typing a keyword or a user's name in the **Search** box in the upper-right corner of the Updates section. You can search for comment owner's names or for users who are tagged on comments. 
+
+   ![](assets/search-field-in-updates-tab-goals.png)
+
+   The keyword or user you searched for is highlighted and the comments that contain it display at the top of the Updates section. 
+
+      >[!TIP]
+      >
+      >   Searching for a comment is not available for system activity updates. -->
+
+1. 按一下 **x** 圖示來清除搜尋結果，並返回至完成狀態。
 1. 按一下 **註解** 索引標籤更新區域的左上角。
 1. 開始在 **新註解** 方塊。
 

@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 99fac041-a235-4991-b826-d19944164bc9
-source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
+source-git-commit: 90c730bbab2e62bcc60bee37272edb1219b2afb4
 workflow-type: tm+mt
-source-wordcount: '224'
+source-wordcount: '229'
 ht-degree: 2%
 
 ---
@@ -18,11 +18,9 @@ ht-degree: 2%
 
 >[!IMPORTANT]
 >
->本文資訊是指Adobe Maestro，這是Adobe的新產品。
+>本文資訊是指Adobe Maestro，這是Adobe Workfront的新產品。
 >
->Adobe大師是Adobe Workfront的新產品。
->
->目前，Adobe大師是測試版計畫的一部分，向有限數量的客戶開放。
+>目前，Adobe大師是測試版計畫的一部分，向有限數量的客戶開放。 您必須是Workfront客戶才能存取Maestro。
 >
 >如需加入Maestro測試版計畫的詳細資訊，請聯絡您的客戶代表。
 >
@@ -36,6 +34,8 @@ ht-degree: 2%
 >[!NOTE]
 >
 >沒有與使用者或Maestro中的資訊相關聯的存取層級或許可權。 所有在其環境中啟用Maestro的使用者都可以檢視、編輯和刪除任何其他使用者新增到Maestro的所有資訊。
+
+## 存取需求
 
 您必須具有下列存取權才能使用Adobe大師：
 
@@ -71,18 +71,30 @@ ht-degree: 2%
   </tr>
 
 <tr>
-   <td role="rowheader">存取層級</td>
+   <td role="rowheader"><p>存取層級</p></td>
    <td> <p>任何</p>  
 </td>
   </tr>
 
 <tr>
-   <td role="rowheader">版面配置範本</td>
+   <td role="rowheader"><p>版面配置範本</p></td>
    <td> <p>您的系統管理員必須在您的版面配置範本中新增Maestro區域。 如需詳細資訊，請參閱 <a href="../access/grant-access.md">授與Adobe大師的存取權</a>. </p>  
 </td>
   </tr>
  </tbody>
 </table>
+
+<!--
+## Considerations about accessing Adobe Maestro
+
+* There are no access level restrictions for Adobe Maestro. 
+* There are only permissions associated with workspaces in Maestro.
+* Only Workfront administrators can create workspaces. 
+* All Workfront administrators have access to edit or delete existing workspaces, even when they are created by other users. 
+* For information about sharing the Maestro area with users or sharing permissions to Maestro workspaces, see the following articles:
+
+   * [Overview of sharing permissions in Adobe Maestro](../access/sharing-permissions-overview.md)
+   * [Grant access to Adobe Maestro](../access/grant-access.md)
 
 <!--Maybe enable this at GA - but Maestro is not supposed to have Access controls in the Workfront Access Level: 
 >[!NOTE]
