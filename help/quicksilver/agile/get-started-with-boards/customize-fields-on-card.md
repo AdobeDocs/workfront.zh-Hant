@@ -6,9 +6,9 @@ description: 您可以停用欄位來自訂卡片上顯示的欄位，使其不�
 author: Lisa
 feature: Agile
 exl-id: 28fa6455-04dd-4115-9ead-cb3e7c26289e
-source-git-commit: 0beb96dc3869e6f913d87f699aa9a51c5aaa8f79
+source-git-commit: 63d043a85c2e5300d8b5872b2ec7983de4ba1f50
 workflow-type: tm+mt
-source-wordcount: '559'
+source-wordcount: '572'
 ht-degree: 0%
 
 ---
@@ -71,9 +71,7 @@ ht-degree: 0%
 
 已連線的卡片上有自訂欄位可用。 它們只會在完整卡片檢視中顯示，不會顯示在展示板上的壓縮檢視中。
 
->[!NOTE]
->
->當您將自訂欄位新增到卡片時，卡片上的資料是唯讀的。
+自訂欄位上的資料可在卡片上編輯，但某些自訂元素可能只能在原始欄位上編輯，無法在卡片上編輯。
 
 1. 存取展示板並按一下 [!UICONTROL **設定**] 以開啟「設定」面板。
 1. 展開 [!UICONTROL **卡片**].

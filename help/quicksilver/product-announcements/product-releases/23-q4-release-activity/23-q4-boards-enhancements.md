@@ -4,9 +4,9 @@ description: 2023年第四季主機板增強功能
 author: Lisa
 feature: Product Announcements
 exl-id: 4a527328-df5d-446a-899c-a613131c7001
-source-git-commit: 421cfdeaab4ef102b6b896677dae824cbeae4d70
+source-git-commit: 63d043a85c2e5300d8b5872b2ec7983de4ba1f50
 workflow-type: tm+mt
-source-wordcount: '539'
+source-wordcount: '521'
 ht-degree: 0%
 
 ---
@@ -20,10 +20,6 @@ ht-degree: 0%
 如需在季度發行之前選擇加入新主機板功能的詳細資訊，請參閱 [Adobe Workfront展示板的早期功能選擇加入](/help/quicksilver/agile/get-started-with-boards/boards-early-feature-opt-in.md).
 
 ## Adobe Workfront展示板上現在提供子任務
-
->[!NOTE]
->
->此功能自2023年11月7日起暫時無法使用。 當此功能可用時，將會更新此頁面。
 
 當您將已連線的卡片新增到Workfront任務的展示板時，任何現有的子任務都會匯入到卡片上。 此外，當您在已連線的卡片上建立子任務時，子任務會新增到Workfront任務中。
 
