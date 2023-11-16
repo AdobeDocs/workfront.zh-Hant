@@ -7,9 +7,9 @@ description: 您可以選擇將輸入欄新增到您的展示板，在任務與�
 author: Lisa
 feature: Agile
 exl-id: 4991f4f7-6f3d-4e15-ae8d-96433ed46557
-source-git-commit: a3e9b758867bdbad6afbc0e6cc5e6c81a54f6030
+source-git-commit: b816f41796e33fed81b76e80823c83fcb45d2b6b
 workflow-type: tm+mt
-source-wordcount: '933'
+source-wordcount: '995'
 ht-degree: 2%
 
 ---
@@ -114,7 +114,11 @@ ht-degree: 2%
 
    ![篩選產生器](assets/intake-filter-dialog6.png)
 
-   此範例顯示特定專案中處於以下狀態之任務的篩選器： [!UICONTROL 新增] 或 [!UICONTROL 進行中]，並指派給我。
+   此範例顯示特定專案中處於以下狀態之任務的篩選器： [!UICONTROL 新增] 或 [!UICONTROL 進行中].
+
+   >[!NOTE]
+   >
+   >建議不要在面板篩選器上使用「我」（已登入的使用者）萬用字元，因為不保證會一律顯示已登入使用者的任務或問題。 設定包含正確任務和問題的展示板後，您可以篩選展示板以顯示特定受指派人的專案。 如需詳細資訊，請參閱 [在展示板中篩選和搜尋](/help/quicksilver/agile/get-started-with-boards/filter-search-in-board.md).
 
    如需建立篩選的詳細資訊，請參閱文章中的「在標準產生器中建立或編輯篩選」一節 [在中建立或編輯篩選器 [!DNL Adobe Workfront]](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-filters.md).
 
@@ -141,7 +145,6 @@ ht-degree: 2%
 ## 使用輸入欄
 
 您必須將輸入欄中的卡片移至其他展示板欄，才能對其進行編輯。 您可以按一下卡片，以唯讀檢視開啟它，或按一下 ![開啟任務或問題](assets/boards-launch-icon.png) 在新的瀏覽器標籤中開啟任務或問題。
-
 
 您可以手動重新排序輸入欄上的專案。
 
