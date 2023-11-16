@@ -9,10 +9,10 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 25813946-e338-4dd9-b02c-d20fa18c539c
-source-git-commit: bc9d47dddacf82b352ed4dbfe8e57861859d752b
+source-git-commit: 81a9f33f5707e37a62a81546b9249410ded23ab5
 workflow-type: tm+mt
-source-wordcount: '2609'
-ht-degree: 7%
+source-wordcount: '2642'
+ht-degree: 6%
 
 ---
 
@@ -300,6 +300,7 @@ Kick-Start是特別格式化的Excel活頁簿，可填入您要匯入Workfront�
 >
 >  例如，在 **專案專案** 標籤， **setCondition** 和 **setConditionType** 欄位可留空，但 **setGroupID** 和 **setName** 欄不能。
 >
+>* 特定欄位，包括 **setResourceRevenue** 和 **setEnteredByID**&#x200B;由系統自動產生。 如果您在試算表中輸入這些欄位的資料，當您上傳試算表時，kick-start程式會覆寫資料。
 
 ### 匯入記錄  {#import-a-record}
 
