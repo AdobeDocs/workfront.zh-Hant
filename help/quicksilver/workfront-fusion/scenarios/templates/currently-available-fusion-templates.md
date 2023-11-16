@@ -7,9 +7,9 @@ description: Adobe Workfront Fusion目前提供下列公用範本。
 author: Becky
 feature: Workfront Fusion
 exl-id: 29d95b93-ab54-416d-b0d5-ff12634951b2
-source-git-commit: 12f6d4f261dec50f76b3ecb35e3159900d34bbff
+source-git-commit: 3f07ccb23c6697547742537aa63211ac594c1062
 workflow-type: tm+mt
-source-wordcount: '1078'
+source-wordcount: '1145'
 ht-degree: 0%
 
 ---
@@ -26,23 +26,23 @@ Adobe Workfront Fusion目前提供下列公用範本。
 
 這些範本會自動化Workfront流程和工作流程。
 
-### [!BADGE 新增!]{type=Informative}
+### Workfront — 從CSV建立專案
 
 此自動化會根據您在CSV中指定的名稱、Portfolio、狀態、計劃開始日期和範本詳細資訊，在Workfront中建立新專案。
 
-### [!BADGE 新增!]{type=Informative}
+### Workfront — 清理請求，過去30天內未新增附註
 
 使用此範本來強制30天附註更新您的請求。 未在30天內更新的請求其狀態會在60天變更並關閉。
 
-### [!BADGE 新增!]{type=Informative}
+### Workfront — 在100%完成時將專案狀態變更為完成。
 
 此自動化會將具有1005完成時所有任務的專案更新為「完成」狀態。 有未完成問題或未完成任務或專案核准的專案將收到更新，在解決後，專案將移動到「完成」狀態。
 
-### [!BADGE 新增!]{type=Informative}
+### Workfront — 警告並嘗試關閉過時的專案
 
 使用此情境協助針對符合您組織過時專案原則的專案，自動發出警告，並關閉專案。
 
-### [!BADGE 新增!]{type=Informative}
+### Workfront — 將來源問題/請求的新附註和回覆複製到已轉換的專案或任務
 
 使用此範本將問題或請求的附註和回覆複製到已轉換的專案或任務。
 
@@ -57,6 +57,10 @@ Adobe Workfront Fusion目前提供下列公用範本。
 ### Workfront — 將已核准問題轉換為專案
 
 此範本會將問題轉換為專案。 您可以修改以符合組織的標準。
+
+### [!BADGE 新增!]{type=Informative}
+
+此彈性案例會將問題或請求中的檔案複製到先前轉換的專案或任務。
 
 ### 根據欄位變更量身打造的通知
 
@@ -102,7 +106,7 @@ Adobe Workfront Fusion目前提供下列公用範本。
 >
 > 您必須擁有Workfront Fusion for Work Automation and Integration授權，才能在此區段使用範本。
 
-### [!BADGE 新增!]{type=Informative}
+### 使用JWT （JSON Web權杖）建立連線
 
 為使用者端API建立JWT授權。
 
@@ -138,7 +142,7 @@ Adobe Workfront Fusion目前提供下列公用範本。
 >
 > 您必須擁有Workfront Fusion for Work Automation and Integration授權，才能在此區段使用範本。
 
-### [!BADGE 新增!]{type=Informative}
+### 監視SharePoint資料夾的變更
 
 此範本可讓您檢視SharePoint資料夾中是否有變更。
 
