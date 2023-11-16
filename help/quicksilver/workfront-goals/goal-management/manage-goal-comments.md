@@ -6,9 +6,9 @@ description: 您可以將註解新增至可在Adobe Workfront目標中檢視的�
 author: Alina
 feature: Workfront Goals
 exl-id: 6cf2d2d2-5ba5-40f2-a803-01359c338541
-source-git-commit: 90c730bbab2e62bcc60bee37272edb1219b2afb4
+source-git-commit: fdf4c86ce70402885e109a680ed1b088dcf71f55
 workflow-type: tm+mt
-source-wordcount: '952'
+source-wordcount: '1037'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,16 @@ ht-degree: 0%
 
 <!--consider retiring this article when goals and all objects are in parity - after the new commenting experience goes to production GA-->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span>-->
+<!--take "legacy" and "new commenting" references out when we remove the legacy - Jan 2024???-->
+
+<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它僅在預覽環境中可供所有客戶使用。 </span>
+
+<span class="preview">如需目前發行排程的詳細資訊，請參閱 [2024年第一季版本總覽](../../product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).</span>
+
+<!--
+After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>  
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)</span>  
+-->
 
 您可以將註解新增至可在Adobe Workfront目標中檢視的所有目標。
 
@@ -130,16 +139,13 @@ ht-degree: 0%
 如此將可開啟目標清單。
 1. 找到您要新增註解的目標，然後按一下其名稱以開啟目標頁面。
 1. 按一下  **更新** 在左側面板中。
-<!--
-1. (Optional) To locate an existing comment, start typing a keyword or a user's name in the **Search** box in the upper-right corner of the Updates section. You can search for comment owner's names or for users who are tagged on comments. 
+1. <span class="preview">（選擇性）若要尋找現有註解，請開始輸入關鍵字 <!--or a user's name--> 在 **搜尋** 方塊右上角的 **註解** 標籤。 </span>
 
-   ![](assets/search-field-in-updates-tab-goals.png)
+   <span class="preview">![](assets/search-field-in-updates-tab-goals.png)</span>
 
-   The keyword or user you searched for is highlighted and the comments that contain it display at the top of the Updates section. 
+   <span class="preview">關鍵字 <!--or user--> 您搜尋的註釋會反白顯示，且包含該註釋的註釋會顯示在「更新」區段的頂端。 </span>
 
-      >[!TIP]
-      >
-      >   Searching for a comment is not available for system activity updates. -->
+   如需詳細資訊，請參閱 [更新工作](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md)
 
 1. 按一下 **x** 圖示來清除搜尋結果，並返回至完成狀態。
 1. 按一下 **註解** 索引標籤更新區域的左上角。

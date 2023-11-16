@@ -6,9 +6,9 @@ description: 您可以對時程表、時程表中包含的工作專案以及您�
 author: Alina
 feature: Timesheets
 exl-id: 6260d176-3cfb-4bc2-93cb-00687e030248
-source-git-commit: 90c730bbab2e62bcc60bee37272edb1219b2afb4
+source-git-commit: fdf4c86ce70402885e109a680ed1b088dcf71f55
 workflow-type: tm+mt
-source-wordcount: '841'
+source-wordcount: '849'
 ht-degree: 0%
 
 ---
@@ -76,28 +76,23 @@ ht-degree: 0%
 
 ### 評論整個時程表 {#comment-on-the-overall-timesheet}
 
-您可以對時程表發表一般評論。
+您可以對時程表發表一般評論。 註解整個時程表與註解其他物件類似。
 
-1. 按一下 **主要功能表** 圖示 ![](assets/main-menu-icon.png) 在Adobe Workfront的右上角。
+1. 按一下 **主要功能表** 圖示 ![](assets/main-menu-icon.png) 位於右上角，或 **主要功能表** 圖示 ![](assets/lines-main-menu.png) 左上角或Workfront （若有）。
 
 1. 按一下 **時間表**.
 1. 移至您要發表註解的時程表。
 1. 按一下 **更新** 然後按一下「 」 **註解** 標籤。
-<!--
-1. (Optional) Start typing a keyword or a the name of a user associated with a comment in the **Search** field, in the upper-right corner of the Comments tab. 
-
-   If found, the keyword or user you searched for is highlighted and the comments associated with them display at the top of the Comments tab. -->
-1. 輸入更新 **新註解** 方塊。
+1. 開始新增註解或回覆現有註解，如所述 [更新工作](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 1. （可選）在中新增人員或團隊 **標籤人員或團隊** 欄位，以將其他專案包含在您的更新中。 如需詳細資訊，請參閱 [標籤其他人的更新](../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
-1. （選用）新增RTF格式至您的註解。 如需詳細資訊，請參閱 [更新工作](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 1. （可選）選取 **我的公司私有** 選項，只要您公司的人員檢視更新。
 1. 輸入您的註解，然後按一下 **提交**.
 
-   您的註解會顯示在 [!UICONTROL 更新] 時程表的區段。
+   您的註解會顯示在 [!UICONTROL 更新] 時程表的區段，在評論索引標籤中。
 
 1. （可選）按一下 **系統活動** 標籤以檢閱系統產生的更新。
 
-   如需詳細資訊，請參閱文章中的「啟用或停用系統更新」一節 [更新工作](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+   如需詳細資訊，請參閱 [更新工作](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
 ### 在時程表中評論個別小時專案 {#comment-on-an-individual-hour-entry-in-a-timesheet}
 

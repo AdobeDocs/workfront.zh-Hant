@@ -6,22 +6,20 @@ description: 您可以在Adobe Workfront物件（專案、任務或問題）上�
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: fd876089c964d57224452023b4656cd6df40b5a3
+source-git-commit: fdf4c86ce70402885e109a680ed1b088dcf71f55
 workflow-type: tm+mt
-source-wordcount: '3985'
+source-wordcount: '4005'
 ht-degree: 1%
 
 ---
 
 # 更新工作
 
-
-
-<!--take "legacy" and "new commnenting" references out when we remove the legacy - Jan 2024???-->
+<!--take "legacy" and "new commenting" references out when we remove the legacy - Jan 2024???-->
 
 <span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它僅在預覽環境中可供所有客戶使用。 </span>
 
-<span class="preview">如需目前發行排程的詳細資訊，請參閱 [2024年第一季版本總覽](../../product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md)</span>
+<span class="preview">如需目前發行排程的詳細資訊，請參閱 [2024年第一季版本總覽](../../product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).</span>
 
 <!--
 After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>  
@@ -83,7 +81,7 @@ After the monthly releases to Production, the same features are also available i
 
 * 您可以從與Workfront整合的其他應用程式或Workfront行動應用程式，將註解新增至Workfront物件。
 
-  並非所有與Workfront整合的應用程式都能為Workfront物件新增註解。
+  並非所有與Workfront整合的應用程式都能對Workfront物件新增註解。
 
   從應用程式存取Workfront物件時，並非所有其他應用程式都能使用Workfront物件更新區段中可用的所有功能。 例如，從協力廠商應用程式將評論新增至Workfront物件時，RTF功能或讓評論成為某人的公司私密可能無法使用。
 
@@ -263,7 +261,7 @@ drafted for P&P release:
 
    >[!TIP]
    >
-   >如果其他使用者向您更新的相同專案提交評論，則會出現帶有「新」指示器的紅線，以通知您較新的評論。
+   >如果其他使用者向您更新的相同專案提交評論，則會出現一條帶有「新」指示器的紅線，以通知您較新的評論。
    >
    >指示器只會在提交專案的註解後顯示，不會在註解仍在撰寫時顯示。
    >
@@ -290,7 +288,7 @@ drafted for P&P release:
    >
    >* 系統只會在您提交原始更新時，才會產生電子郵件通知使用者您的更新。 編輯更新後不會產生電子郵件。
    >* 註解旁邊的日期戳記是原始註解的日期，而不是上次編輯的日期。
-   >* 當您代表另一個使用者張貼評論時(當您以Workfront或群組管理員身份登入時)，如果您以其他使用者身份登入，則無法編輯評論。 只有在您以使用者身分登出並以您自己的身分重新登入後，才能編輯註解。
+   >* 當您代表另一個使用者新增註解時(以Workfront或群組管理員身份登入時)，如果您以其他使用者身份登入，則無法編輯註解。 只有在您以使用者身分登出並以您自己的身分重新登入後，才能編輯註解。
 
 
 1. （選用）按一下 **回覆** 或開始在 **新增回覆……** 區域，回覆現有註解，然後遵循上述步驟4-8。 <!--(**************insure this stays accurate***********)--> 如需有關回覆更新的資訊，請參閱 [回覆更新](../../workfront-basics/updating-work-items-and-viewing-updates/reply-to-updates.md).
@@ -391,17 +389,18 @@ drafted for P&P release:
    1. 在 **要顯示的文字**，輸入或貼上連結文字。
    1. 按一下&#x200B;**儲存**。
 
-1. （可選） <span class="preview">若要將影像附加至更新，請從電腦複製熒幕擷取畫面，然後按一下 **CTRL + V** 適用於Windows (或 **CMD + V** (適用於Mac)，將其貼到註解中</span>
+1. （可選） <span class="preview">若要在更新中附加影像，請從電腦複製熒幕擷圖，然後貼到註解中 </span>
 
    或
 
-   按一下 **新增影像** 圖示 ![](assets/add-image-mountain-with-plus-icon.png) 並使用新的註解體驗瀏覽至電腦上的影像。
+   按一下 **新增影像** 圖示 ![](assets/add-image-mountain-with-plus-icon.png) 並瀏覽至您電腦上的影像。
 
    >[!NOTE]
    >
    >* 您的Workfront管理員必須先在Workfront介面區域的更新摘要偏好設定區段中啟用新增影像，您才能看到影像或新增附件圖示。 如需詳細資訊，請參閱 [設定使用者更新的偏好設定](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-preferences-user-updates.md).
    >* 影像檔案大小上限為7 MB。 支援的影像檔案型別為.jpg、.gif和.png。
    >* 可從物件的「更新」區段存取影像，也可從主功能表下的「檔案」區域存取影像。
+   >* <span class="preview">您可以在新的註解中按一下滑鼠右鍵，或在鍵盤上按Windows適用的CTRL + V (或Mac適用的CMD + V )以貼上影像。</span>
    >* 您可以傳送包含影像且不含文字的更新。
    >* 刪除包含影像的註解時，系統會根據您選擇的體驗，顯示下列情況：
    >
@@ -424,13 +423,17 @@ drafted for P&P release:
 您可以在物件的「更新」區段中搜尋註解或回覆。
 
 1. 前往 **更新** 物件的區段。
-1. 開始輸入關鍵字 <!--or a user's name--> 在 **搜尋** 方塊中，該方塊位於更新區段的右上角。 <!--You can search for comment owner's names or for users who are tagged on comments. -->
+1. 開始輸入關鍵字 <!--or a user's name --> 在 **搜尋** 方塊右上角的 **註解** 標籤。
+
+   <!--Add this tip when it'll be possible: You can search for users who have been tagged or for comment owners.-->
 
    ![](assets/search-field-in-updates-tab.png)
 
    關鍵字 <!--or user--> 您搜尋的註釋會反白顯示，且包含該註釋的註釋會顯示在「更新」區段的頂端。
 
-1. 按一下 **x** 圖示來清除搜尋結果，並返回至完成狀態。
+   Workfront會搜尋物件的整個更新流，搜尋畫面上可見的註解之外。
+
+1. 按一下 **x** 圖示來清除搜尋結果並返回所有註解。
 
 </div>
 
