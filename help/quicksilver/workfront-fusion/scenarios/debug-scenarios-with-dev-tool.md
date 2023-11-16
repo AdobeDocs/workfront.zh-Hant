@@ -7,9 +7,9 @@ description: Adobe Workfront Fusion Devtool可讓您瞭解情境並疑難排解�
 author: Becky
 feature: Workfront Fusion
 exl-id: f7557214-3615-4797-b4cb-4af70e4797ac
-source-git-commit: 28ca9bab8d6a5aed395dc3297eb62912ebb506c7
+source-git-commit: 27117543df0d2ba0a5c5035c71a3105d7a855345
 workflow-type: tm+mt
-source-wordcount: '1816'
+source-wordcount: '1845'
 ht-degree: 0%
 
 ---
@@ -77,7 +77,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->目前，僅 **Live Stream** Unified Shell中的使用者可以使用Devtool的區域。
+>目前，僅 **Live Stream** 和 **案例偵錯工具** Devtool的區域可供統一體驗中的使用者使用。 此 **工具** 區域目前在Unified Experience中無法使用。
 
 ### 存取Classic中的Devtool [!DNL Fusion] 體驗
 
@@ -102,7 +102,7 @@ ht-degree: 0%
 若要使用 [!DNL Workfront Fusion] Devtool，您必須新增 [!DNL Workfront Fusion] 將Devtool擴充功能新增至 [!DNL Chrome] 瀏覽器，如所述 [安裝Chrome Devtool擴充功能](#install-the-chrome-Devtool-extension).
 
 1. 開啟您的 [!DNL Workfront Fusion] 情境。
-1. 開啟 [!DNL Chrome Developer Tools]:
+1. 未結 [!DNL Chrome Developer Tools]:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -193,6 +193,10 @@ Workfront Fusion Devtool分為3個主要區段。 您可以在Devtool視窗的�
 1. 按一下所需的作業以檢視請求詳細資料。
 
 ### 工具
+
+>[!NOTE]
+>
+>Adobe Unified Experience中的使用者目前無法使用此區域。
 
 此 [!DNL Workfront Fusion] Devtool提供的工具可讓您更輕鬆地設定情境。
 
