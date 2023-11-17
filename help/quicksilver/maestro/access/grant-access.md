@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 475a519d-d3bd-4461-8099-0e296d556d34
-source-git-commit: 90c730bbab2e62bcc60bee37272edb1219b2afb4
+source-git-commit: 937498a68a994d19b0005d518d7e313c48961672
 workflow-type: tm+mt
-source-wordcount: '301'
+source-wordcount: '316'
 ht-degree: 0%
 
 ---
@@ -26,29 +26,28 @@ ht-degree: 0%
 >
 >如需詳細資訊，請參閱 [Adobe大師概觀](../maestro-overview.md).
 
-<!-- the table will change after we implement access levels/ permissions for Maestro-->
-<!-- fix the formatting on the table - some lines are way too spaced out-->
+貴組織的所有使用者都可以存取Maestro，前提為具備下列必要條件：
 
-目前，如果具備以下先決條件，您組織中的所有使用者都可以存取Maestro：
+<!--the first requisite will be removed when we go to GA-->
 
 * 貴組織已註冊AdobeMaestro封閉測試版計畫。
+* 作為系統管理員，您必須使用版面配置範本將Maestro區域新增到「主功能表」。
 
-  請聯絡您的客戶代表以查詢此新產品/服務。
+  Maestro預設不會顯示在任何使用者的主功能表中，包括系統管理員。
 
+  如需詳細資訊，請參閱 [使用版面配置範本自訂主功能表](../../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).
 
-如需有關使用Maestro時所需存取許可權的資訊，請參閱 [Adobe大師存取概觀](../access/access-overview.md).
+<!-- take out the note below when we release permissions-->
 
 >[!NOTE]
 >
 >沒有與使用者或Maestro中的資訊相關聯的存取層級或許可權。 所有在其環境中啟用Maestro的使用者都可以檢視、編輯和刪除任何其他使用者新增到Maestro的所有資訊。
 
-## 為您的Workfront執行個體中的使用者啟用Maestro
+## 與其他共用主功能表中的Maestro區域
 
 <!--First, contact your account manager to obtain access to the current Maestro closed beta program.-->
 
-貴組織註冊Maestro測試版計畫後，您可以使用版面配置範本為其他使用者新增Maestro區域。
-
-若要使用版面配置範本共用主區域：
+貴組織註冊Maestro測試版計畫後，您可以使用版面配置範本將Maestro區域新增到所有使用者的主功能表中。
 
 1. 登入 **Workfront** Workfront管理員。
 
@@ -65,11 +64,16 @@ ht-degree: 0%
    使用者可以開始建立工作區、記錄型別、記錄和欄位。
 
 <!--
+
 ## Share permissions to a workspace
+
+Only system administrators can access all workspaces in Maestro. As a system administrator, you must share a workspace with other users for them to view, manage, or contribute to it. 
+
+To share a workspace with others: 
 
 1. Click the **Main Menu** icon ![](assets/dots-main-menu.png) in the upper-right or the **Main Menu** icon ![](assets/lines-main-menu.png) in the upper-left corner, if available, then click **Maestro**.
 1. Open the workspace you want to share, then click **Share** in the upper-right corner of the screen. (*************add screen shot when UI is finalized and maybe edit the steps*********)
-1. In the field provided, start typing the name of a user or a group, then click it when it displays in the list. 
+1. In the field provided, start typing the name of a user or a group (******ensure you can share with groups*******), then click it when it displays in the list. 
 1. Select one of the following permission levels from the drop-down menu: 
     * View
     * Contribute
@@ -82,7 +86,7 @@ ht-degree: 0%
 ## Remove permissions to a workspace
 
 1. Click the **Main Menu** icon ![](assets/dots-main-menu.png) in the upper-right or the **Main Menu** icon ![](assets/lines-main-menu.png) in the upper-left corner, if available, then click **Maestro**.
-1. Open the workspace you want to share, then click **Share** in the upper-right corner of the screen. (********) add screen shot when UI is finalized and maybe edit the steps???****)
+1. Open the workspace you want to share, then click **Share** in the upper-right corner of the screen. (********add screen shot when UI is finalized and maybe edit the steps???****)
 1. Click the drop-down menu at the right of a user or group name, then click **Remove**. 
     
     The user or the users that belong to the group removed no longer have access to the workspace or its objects. 

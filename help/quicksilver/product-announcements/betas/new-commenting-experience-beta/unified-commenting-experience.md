@@ -7,28 +7,33 @@ author: Alina
 feature: Product Announcements
 role: User
 exl-id: f750b35b-8021-4cc1-81d6-e1ece2530438
-source-git-commit: 3c22ea2ac3a597b5fd5f43d29b937c90c6295b28
+source-git-commit: 937498a68a994d19b0005d518d7e313c48961672
 workflow-type: tm+mt
-source-wordcount: '885'
+source-wordcount: '918'
 ht-degree: 3%
 
 ---
 
 # 新的評論體驗
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>  
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](../../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)</span>  
 
-<span class="preview">For information about the current release schedule, see [Fourth Quarter 2023 release overview](../../../product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md)</span> -->
+<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它僅在預覽環境中可供所有客戶使用。  </span>
+
+<span class="preview">如需目前發行排程的詳細資訊，請參閱 [2024年第一季版本總覽](../../product-releases/24-q1-release-activity/24-q1-release-overview.md).</span>
+
+<!--
+
+After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases.
+
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](../../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)</span>  -->
 
 >[!IMPORTANT]
 >
->本文資訊是指在Beta版階段期間針對新評論體驗所發行的功能。
+>本文資訊是指已發行給新評論體驗的功能。
 >
->新評論體驗的Beta版計畫從2023年4月開始，到2023年10月結束。
+>新評論體驗的Beta版計畫從2023年4月開始，到2023年10月結束。 新評論體驗的Beta版計畫已於2023年10月版本中結束。
 >
->從2023年第四季度發行（2023年10月）開始，測試版期間發行的功能已可供所有客戶使用，並且測試版計畫已關閉。
+>本文所述功能已於2023年10月向所有客戶發佈，除非另有說明。
 
 <!--An update to the commenting experience in Adobe Workfront is currently in development. This update includes a new interface, new features, and improved performance in the Updates section of select objects. 
 
@@ -394,13 +399,13 @@ The new commenting experience will slowly become available for all the objects w
    </td>
    <td> 
    </td>
-   <td> 
+   <td> <span class="preview">✓</span>
    </td>
    <td> 
    </td>
    <td>2024年第1季度 
    </td>
-   <td>✓ 
+   <td> 
    </td>
   </tr>
 
@@ -409,13 +414,13 @@ The new commenting experience will slowly become available for all the objects w
    </td>
    <td> 
    </td>
-   <td> 
+   <td> <span class="preview">✓</span>
    </td>
    <td> 
    </td>
    <td>2024年第1季度 
    </td>
-   <td>✓ 
+   <td> 
    </td>
   </tr>
 
@@ -508,15 +513,15 @@ The new commenting experience will slowly become available for all the objects w
 
 * 下列物件的新舊註解體驗：
 
-      *專案
-      *任務（包括劇本）
-      *問題
-      *檔案
-      
-      >[！TIP]
-      >
-      >使用新註解選項來顯示新的註解體驗（當您啟用時）或舊版註解體驗（當您停用時），如本節所述。 預設為新的註解體驗。
-  
+   * 專案
+   * 工作（包括劇本）
+   * 問題
+   * 文件
+
+  >[!TIP]
+  >
+  >使用新註解選項來顯示新的註解體驗（當您啟用時）或舊版註解體驗（當您停用時），如本節所述。 預設為新的註解體驗。
+
    * 僅限下列物件的新註解體驗。 沒有選項可啟用這些物件的舊版註解體驗：
 
       * 目標
