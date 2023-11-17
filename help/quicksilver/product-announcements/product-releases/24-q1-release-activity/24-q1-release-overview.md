@@ -3,9 +3,9 @@ title: 2024年第一季版本總覽
 description: 2024年第一季版本總覽
 author: Becky
 feature: Product Announcements
-source-git-commit: cc07fee3d98ff67894ed040cc9125b8cf903a09b
+source-git-commit: e58f502917e0091b046152531bcda0ee9b759b25
 workflow-type: tm+mt
-source-wordcount: '778'
+source-wordcount: '789'
 ht-degree: 0%
 
 ---
@@ -207,7 +207,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
 
 ### Workfront Fusion增強功能
 
-此版本目前沒有Workfront Fusion更新。 在有更新可用時，此區域將會更新。
+Workfront Fusion中的新功能可在2023年第一季度發行排程之外的步調中用於生產環境。 如需最新功能的詳細資訊，請參閱 [Adobe Workfront Fusion發行活動](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
 
 ### Workfront Scenario Planner增強功能
 

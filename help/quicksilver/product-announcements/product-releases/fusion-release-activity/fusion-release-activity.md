@@ -8,9 +8,9 @@ description: Adobe Workfront Fusion可順暢地連線您的應用程式和Web服
 author: Luke
 feature: Product Announcements, Workfront Fusion
 exl-id: 17dd5211-4531-47e9-a13a-b3698d8738d1
-source-git-commit: 7abbe7cc50391687b7983b58f0b435ec2b72850e
+source-git-commit: 83249a555a71ea9626d5df53036144f991e81617
 workflow-type: tm+mt
-source-wordcount: '567'
+source-wordcount: '575'
 ht-degree: 0%
 
 ---
@@ -23,8 +23,12 @@ Adobe Workfront Fusion可順暢地連線您的應用程式和Web服務，因此�
 
 ## 2023年Fusion發行版本
 
-### 2023年10
+### 2023年11月
 
+* [Workfront Fusion發行活動： 2023年11月13日當週](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2023-11-14.md)
+
+
+### 2023年10
 
 * [Workfront Fusion發行活動： 2023年10月30日當週](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2023-10-26.md)
 
