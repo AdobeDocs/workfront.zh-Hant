@@ -6,9 +6,9 @@ description: 您可以停用欄位來自訂卡片上顯示的欄位，使其不�
 author: Lisa
 feature: Agile
 exl-id: 28fa6455-04dd-4115-9ead-cb3e7c26289e
-source-git-commit: 63d043a85c2e5300d8b5872b2ec7983de4ba1f50
+source-git-commit: b6a824ac6248c86043f7f21866c8a14a6c97602f
 workflow-type: tm+mt
-source-wordcount: '572'
+source-wordcount: '662'
 ht-degree: 0%
 
 ---
@@ -98,3 +98,19 @@ ht-degree: 0%
 >[!NOTE]
 >
 >如果您稍後在Workfront中重新命名自訂欄位，則必須編輯「設定」面板上的欄位標籤以相符，否則該欄位將不會顯示在卡片上。
+
+## 顯示或隱藏已封存的卡片
+
+您必須開啟組態設定，才能在展示板上顯示封存的卡片。
+
+1. 存取展示板並按一下 [!UICONTROL **設定**] 以開啟「設定」面板。
+1. 展開 [!UICONTROL **卡片**].
+1. 開啟 [!UICONTROL **在展示板上顯示已封存的卡片**].
+
+   現在，您可以篩選展示板以顯示任何已封存的卡片。 如需詳細資訊，請參閱 [在展示板中篩選和搜尋](/help/quicksilver/agile/get-started-with-boards/filter-search-in-board.md).
+
+1. 按一下 [!UICONTROL **隱藏設定**] 以關閉「設定」面板。
+
+## 設定卡片縮減
+
+若要在一段時間後自動從展示板中移除卡片，請參閱 [設定卡片縮減](/help/quicksilver/agile/use-boards-agile-planning-tools/configure-card-falloff.md).

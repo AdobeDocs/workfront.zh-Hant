@@ -6,9 +6,9 @@ description: 當您從展示板中刪除卡片時，該卡片將會永久刪除�
 author: Lisa
 feature: Agile
 exl-id: 68b7d2e5-92f0-462d-8122-eaecb1e6b87c
-source-git-commit: 55d47665ca53c63142d5b71830fe56a05d991c74
+source-git-commit: b6a824ac6248c86043f7f21866c8a14a6c97602f
 workflow-type: tm+mt
-source-wordcount: '375'
+source-wordcount: '387'
 ht-degree: 0%
 
 ---
@@ -72,6 +72,6 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >此 [!UICONTROL 已封存的卡片] 如果您未開啟顯示封存卡片的組態設定，則區段在篩選中無法使用。
+   >此 [!UICONTROL 已封存的卡片] 如果您未開啟顯示封存卡片的組態設定，則區段在篩選中無法使用。 如需詳細資訊，請參閱 [自訂要在卡片上顯示的欄位](/help/quicksilver/agile/get-started-with-boards/customize-fields-on-card.md).
 
 1. 選取 **[!UICONTROL 已封存的卡片]** 再次清除選項並僅顯示作用中的卡片。
