@@ -8,9 +8,9 @@ description: 本文包含中角色之存取權和許可權的資訊。 [!DNL Ado
 author: Becky
 feature: Workfront Fusion
 exl-id: 0370fa9d-6680-4724-a431-8df884ce4f9a
-source-git-commit: 5b6f8c882b3452725a1db77420865038abb5dab1
+source-git-commit: 2169ce1dd7fe48c26b4a80a28b5cd7b0bf4e2617
 workflow-type: tm+mt
-source-wordcount: '582'
+source-wordcount: '568'
 ht-degree: 1%
 
 ---
@@ -24,10 +24,6 @@ ht-degree: 1%
 >組織角色與中的專案團隊角色不同 [!DNL Workfront Fusion]. 有關組織和專案團隊角色的詳細資訊，請參閱 [組織和團隊](../organizations/organizations-and-teams.md).
 
 ## 存取需求
-
-您必須具有下列存取權才能使用本文中的功能：
-
-&lt;##存取需求
 
 您必須具有下列存取權才能使用本文中的功能：
 
@@ -122,7 +118,7 @@ ht-degree: 1%
   <tr> 
    <td> <p>管理組織使用者</p> </td> 
    <td><span style="font-family: 'Wingdings'">u</span> </td> 
-   <td> </td> 
+   <td><span style="font-family: 'Wingdings'">u</span></td> 
    <td> </td> 
    <td> </td> 
   </tr> 
