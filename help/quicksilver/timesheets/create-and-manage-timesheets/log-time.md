@@ -7,9 +7,9 @@ author: Alina
 feature: Timesheets
 role: User
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: 48f46abab1958325aba6832b85247dc2c80f4e80
+source-git-commit: 4705c3fc76c1544f8c71e70a773432f164282abb
 workflow-type: tm+mt
-source-wordcount: '3451'
+source-wordcount: '3491'
 ht-degree: 0%
 
 ---
@@ -118,24 +118,27 @@ ht-degree: 0%
 
 #### 在時程表上記錄時間 {#log-time-on-a-timesheet}
 
-您可以在時程表上記錄一般時數或專案特定時數。
+您可以將時間記錄到時程表中的以下專案：
+
+* 預先填入的任務、問題和專案會自動顯示，根據Workfront管理員設定時程表偏好設定的方式。 如需時程表如何預先填入的詳細資訊，請參閱 [設定時程表和小時偏好設定](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
+
+  只有指派給您的任務和問題會預先填入您的時程表中。 指派給您的團隊或工作角色的任務和問題不會自動填入您的時程表。
+
+  在指派給您團隊的專案上按一下「處理它」會指派該專案給您，該專案將顯示在您的時程表中。
+* 您手動新增的任務、問題或專案。
+* 已在Workfront其他位置記錄時間的任務、問題或專案。
+* 一般時間（休假、訓練、管理時間）。
 
 >[!NOTE]
 >
 >檢閱指派給時程表設定檔的使用者可以檢視時程表區域並記錄一般時數。 但是，他們無法將時數記錄在任何任務或指派給他們的問題出現在時程表中。
 
-1. 按一下 [!UICONTROL **主要功能表**] 圖示 ![](assets/main-menu-icon.png) 在Adobe Workfront的右上角。
+若要在時程表上記錄時間：
+
+1. 按一下 [!UICONTROL **主要功能表**] 圖示 ![](assets/main-menu-icon.png) 位於右上角，或 **主要功能表** 圖示 ![](assets/lines-main-menu.png) （如果有的話）在Workfront左上角。
 
 1. 按一下 [!UICONTROL **時間表**]. 依預設會顯示您目前的時程表。
    ![時程表](assets/timesheet-redesigned-nwe.png)
-
-   時程表已預先填入在時程表的時間範圍內指派給您的專案。 如需關於如何預先填入時程表的資訊，請參閱 [設定時程表和小時偏好設定](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md). 如果您在時程表中沒有看到某個專案，您可以將其新增。
-
-   >[!NOTE]
-   >
-   >時程表只會預先填入指派給您的專案。 它不會預先填入指派給您的團隊或工作角色的專案。
-   >
-   >在指派給您團隊的專案上按一下「處理它」會指派該專案給您，該專案將顯示在您的時程表中。
 
 
 1. （可選）按一下 **全熒幕** 圖示 ![](assets/full-screen.png) 以全熒幕模式顯示時程表，然後按一下 **退出全熒幕** ![](assets/exit-full-screen.png) 圖示返回時程表。
