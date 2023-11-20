@@ -8,9 +8,9 @@ description: Adobe Workfront Fusion的「組織」和「團隊」功能可讓企
 author: Becky
 feature: Workfront Fusion
 exl-id: 601e937f-0286-4557-9a87-59aa9c0c22f1
-source-git-commit: 0cb3a77c1b9b00fa886a3321c6a8d4119f58f84d
+source-git-commit: a51dfcfc3024fd7d1d2612d6f258379d4d166c49
 workflow-type: tm+mt
-source-wordcount: '1155'
+source-wordcount: '1175'
 ht-degree: 0%
 
 ---
@@ -80,6 +80,8 @@ ht-degree: 0%
 * **[!UICONTROL 會計師]**：會計師角色只允許使用者在組織儀表板上檢視授權資訊。
 * **[!UICONTROL 應用程式開發人員]**：此角色的功能目前無法使用，不久將會推出。 我們目前不建議將使用者指派給此角色。
 
+有關每個組織角色中使用者可用的特定動作的資訊，請參閱 [組織和團隊角色](/help/quicksilver/workfront-fusion/organizations/organization-roles.md).
+
 ### 邀請使用者加入組織
 
 依預設，組織擁有者（或授權的使用者）可以邀請其他人加入其組織。
@@ -145,7 +147,7 @@ ht-degree: 0%
 * **[!UICONTROL 團隊操作員]**：此 [!UICONTROL 運運算元] 角色可讓使用者檢視執行資料，並變更案例的「作用中」狀態。
 * **[!UICONTROL 團隊受限制的成員]**：此角色的功能目前無法使用，不久將會推出。 我們目前不建議將使用者指派給此角色。
 
-有關專案團隊角色可用的特定任務的資訊，請參閱[組織和團隊角色](/help/quicksilver/workfront-fusion/organizations/organization-roles.md).
+有關每個專案團隊角色中使用者可用的特定動作資訊，請參閱 [組織和團隊角色](/help/quicksilver/workfront-fusion/organizations/organization-roles.md).
 
 ### 團隊管理
 
