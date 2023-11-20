@@ -8,9 +8,9 @@ author: Courtney
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 6d9a409d-8d16-4c58-ad02-f60aa1ac1714
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+source-git-commit: 3319fbfad98350635b7194a434f26e8528753e7b
 workflow-type: tm+mt
-source-wordcount: '355'
+source-wordcount: '401'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,10 @@ ht-degree: 0%
 # 停用或重新啟用自訂表單
 
 您可以重新啟用或停用自訂表單。 建議您停用自訂表單，不要刪除您不再用來保留歷史資料的表單。
+
+>[!NOTE]
+>
+>如果自訂表單已停用，但仍屬於佇列主題或請求佇列定義，則會將其附加到新請求。 如果您不希望表單出現在請求中，則必須從請求佇列中手動將其移除。
 
 ## 存取需求
 
