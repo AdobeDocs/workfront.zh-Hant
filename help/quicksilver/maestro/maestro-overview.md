@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: 90c730bbab2e62bcc60bee37272edb1219b2afb4
+source-git-commit: d3c22c84a9b246d1a45853c5d2825241f58bebe9
 workflow-type: tm+mt
-source-wordcount: '1843'
+source-wordcount: '1854'
 ht-degree: 1%
 
 ---
@@ -26,9 +26,9 @@ ht-degree: 1%
 
 >[!IMPORTANT]
 >
->本文資訊是指Adobe Maestro，這是Adobe的新產品。
+>本文資訊是指Adobe Maestro，這是Adobe Workfront的新產品。
 >
->目前，Adobe大師是測試版計畫的一部分，向有限數量的客戶開放。
+>目前，Adobe大師是測試版計畫的一部分，向有限數量的客戶開放。 您必須是Workfront客戶才能使用Maestro功能。
 >
 >如需加入Maestro測試版計畫的詳細資訊，請聯絡您的客戶代表。
 >[觀看Adobe大師的影片展示](https://video.tv.adobe.com/v/3424253/){target=_blank}
@@ -130,7 +130,7 @@ Maestro的架構是完全可自訂的。 您可以建立所有記錄型別、其
 
   ![](assets/marketing-workspace-with-record-type-taxonomies-opening-page.png)
 
-  如需詳細資訊，請參閱 [建立工作區](../maestro/architecture-and-fields/create-workspaces.md).
+  如需詳細資訊，請參閱 [建立工作區](../maestro/architecture/create-workspaces.md).
 
 * **記錄型別**：Maestro主要物件型別。
 
@@ -140,7 +140,7 @@ Maestro的架構是完全可自訂的。 您可以建立所有記錄型別、其
 
   在Maestro中，您可以建立符合組織工作流程的任何記錄型別。 稍後，您可以定義記錄型別如何相互關聯或表單相依性。
 
-  如需詳細資訊，請參閱 [作業記錄型態與分類的概要](../maestro/architecture-and-fields/overview-of-record-types-and-taxonomies.md).
+  如需詳細資訊，請參閱 [作業記錄型態與分類的概要](../maestro/architecture/overview-of-record-types-and-taxonomies.md).
 
   Maestro有下列記錄型別：
 
@@ -150,7 +150,7 @@ Maestro的架構是完全可自訂的。 您可以建立所有記錄型別、其
 
      例如，促銷活動、活動、方案可以是作業記錄型別。
 
-     如需詳細資訊，請參閱 [建立記錄型別](../maestro/architecture-and-fields/create-record-types.md).
+     如需詳細資訊，請參閱 [建立記錄型別](../maestro/architecture/create-record-types.md).
 
    * **分類法**：擷取操作記錄型別相關屬性的記錄型別。
 
@@ -160,7 +160,7 @@ Maestro的架構是完全可自訂的。 您可以建立所有記錄型別、其
 
      例如，「對象」、「區域」或「地址」可以是分類型別的記錄型別。
 
-     如需詳細資訊，請參閱 [建立分類記錄型別](../maestro/architecture-and-fields/create-a-taxonomy.md).
+     如需詳細資訊，請參閱 [建立分類記錄型別](../maestro/architecture/create-a-taxonomy.md).
 
 * **記錄**：Maestro記錄型別的例項。 記錄可以參考作業記錄型別或分類法。
 
@@ -183,7 +183,7 @@ Maestro的架構是完全可自訂的。 您可以建立所有記錄型別、其
 
   Maestro隨附銷售、行銷和產品管理工作區範本。
 
-  如需詳細資訊，請參閱 [建立工作區](../maestro/architecture-and-fields/create-workspaces.md).
+  如需詳細資訊，請參閱 [建立工作區](../maestro/architecture/create-workspaces.md).
 
 * **欄位**：欄位是可新增至作業或分類記錄型別的屬性，這些記錄型別包含有關記錄型別的資訊。 <!--check the shot below, "Connection" needs to be in lowercase-->
 
@@ -199,7 +199,7 @@ Maestro的架構是完全可自訂的。 您可以建立所有記錄型別、其
 
    * Maestro欄位完全可自訂，僅可在Maestro中存取。 您無法從Workfront存取Maestro欄位。
 
-  如需詳細資訊，請參閱 [建立欄位](../maestro/architecture-and-fields/create-fields.md)
+  如需詳細資訊，請參閱 [建立欄位](../maestro/fields/create-fields.md)
 
   依預設，新的作業記錄型態與下列預先定義的欄位相關聯：
 
@@ -243,7 +243,7 @@ Maestro的架構是完全可自訂的。 您可以建立所有記錄型別、其
 
   如需連結記錄型別、記錄和建立連結欄位的相關資訊，請參閱下列文章：
 
-   * [連線記錄型別](../maestro/architecture-and-fields/connect-record-types.md)
+   * [連線記錄型別](../maestro/architecture/connect-record-types.md)
    * [連線記錄](../maestro/records/connect-records.md)
 
 <!--not yet:* Fields are reusable across Record Types.  -->

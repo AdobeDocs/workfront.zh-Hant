@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: 324ad45b52dafa96c2854f1fec1172b88643bdc2
+source-git-commit: 4946a65188391df62ad3e135a5b1dbba9a16dc89
 workflow-type: tm+mt
-source-wordcount: '2069'
-ht-degree: 4%
+source-wordcount: '2080'
+ht-degree: 3%
 
 ---
 
@@ -28,9 +28,9 @@ hide: yes
 
 >[!IMPORTANT]
 >
->本文資訊是指Adobe Maestro，這是Adobe的新產品。
+>本文資訊是指Adobe Maestro，這是Adobe Workfront的新產品。
 >
->目前，Adobe大師是測試版計畫的一部分，向有限數量的客戶開放。
+>目前，Adobe大師是測試版計畫的一部分，向有限數量的客戶開放。 您必須是Workfront客戶才能使用Maestro功能。
 >
 >如需加入Maestro測試版計畫的詳細資訊，請聯絡您的客戶代表。
 >
@@ -125,7 +125,7 @@ Maestro表格檢視的欄標題會顯示與檢視中記錄相關聯的欄位。 
 您可以在表格檢視中新增最多500個欄位（或欄）。
 
 1. 移至記錄型別頁面並選取 **表格** 從「檢視」下拉式選單中檢視。
-1. 開始新增欄位（或欄），如文章所述 [建立欄位](../architecture-and-fields/create-fields.md).
+1. 開始新增欄位（或欄），如文章所述 [建立欄位](../fields/create-fields.md).
 
    您新增的欄對存取記錄型別的所有使用者可見，並作為新欄位新增到所選記錄型別的記錄的「詳細資訊」頁面上。
 
@@ -238,7 +238,7 @@ Maestro表格檢視的列會顯示所選記錄型別的個別記錄。
 
      >[!TIP]
      >
-     > 您無法選取連結的欄位。 如需詳細資訊，請參閱 [建立欄位](../architecture-and-fields/create-fields.md).
+     > 您無法選取連結的欄位。 如需詳細資訊，請參閱 [建立欄位](../fields/create-fields.md).
 
      <table>
         <thead>
@@ -412,7 +412,7 @@ Maestro表格檢視的列會顯示所選記錄型別的個別記錄。
 
    >[!TIP]
    >
-   > 您無法選取連結的欄位。 如需詳細資訊，請參閱 [建立欄位](../architecture-and-fields/create-fields.md).
+   > 您無法選取連結的欄位。 如需詳細資訊，請參閱 [建立欄位](../fields/create-fields.md).
 
 1. （選用）在 **記錄排序依據** 方塊中，按一下 **x** 圖示在排序欄位右側以移除排序
 

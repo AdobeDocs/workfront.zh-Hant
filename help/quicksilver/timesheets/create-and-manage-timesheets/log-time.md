@@ -7,7 +7,7 @@ author: Alina
 feature: Timesheets
 role: User
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: 4705c3fc76c1544f8c71e70a773432f164282abb
+source-git-commit: edd4aa9556b624de3634af26d6d9efd59f5d2e44
 workflow-type: tm+mt
 source-wordcount: '3491'
 ht-degree: 0%
@@ -125,6 +125,7 @@ ht-degree: 0%
   只有指派給您的任務和問題會預先填入您的時程表中。 指派給您的團隊或工作角色的任務和問題不會自動填入您的時程表。
 
   在指派給您團隊的專案上按一下「處理它」會指派該專案給您，該專案將顯示在您的時程表中。
+
 * 您手動新增的任務、問題或專案。
 * 已在Workfront其他位置記錄時間的任務、問題或專案。
 * 一般時間（休假、訓練、管理時間）。

@@ -4,9 +4,9 @@ description: 您可以共用或移除您所建立之Adobe Maestro工作區的許
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: b4b144a36b5ab7d3aab400d4fcd2007df2a2e4a1
+source-git-commit: 6d1d3d82e15f4232ff81294d9094c2683b01ca89
 workflow-type: tm+mt
-source-wordcount: '377'
+source-wordcount: '375'
 ht-degree: 2%
 
 ---
@@ -14,6 +14,8 @@ ht-degree: 2%
 <!--update the metadata with real things when making this public; also update the description with something like this: Not all users in the organization have the same access and permissions to use Adobe Maestro. This article describes the levels of access that users could have to Adobe Maestro. -->
 
 <!--over time, this article should look like this one does: https://experienceleague.adobe.com/docs/workfront/using/basics/grant-request-object-permissions/sharing-permissions-on-objects-overview.html?lang=en-->
+
+<!-- *********add to TOC****************-->
 
 # 在Adobe Maestro中共用許可權概觀
 
@@ -35,7 +37,7 @@ ht-degree: 2%
 
 * 工作區
 
-  共用工作區會共用與工作區相關聯的所有記錄型別、記錄和欄位。
+  當您共用工作區時，也會共用與工作區相關聯的所有記錄型別、記錄和欄位。
 
 ## 在Maestro中共用物件的考量事項
 
@@ -54,9 +56,14 @@ ht-degree: 2%
  <col> 
  <col> 
  <tbody> 
+ <tr> 
+   <td role="rowheader"><p><b>許可權層級</b></p></td> 
+   <td> <p><b>您可以執行的動作</b></p> 
+    </td> 
+  </tr> 
   <tr> 
-   <td role="rowheader">檢視</td> 
-   <td> <p>您可以執行下列動作：</p> 
+   <td role="rowheader"><p>檢視</p></td> 
+   <td> 
     <ul> 
      <li>檢視工作區</li> 
      <li>檢視工作區中的所有記錄型別</li> 
@@ -65,8 +72,8 @@ ht-degree: 2%
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">參與</td> 
-   <td> <p>您可以執行下列動作：</p> 
+   <td role="rowheader"><p>參與</p></td> 
+   <td>  
     <ul> 
      <li>檢視許可權所包含的所有動作</li> 
      <li>新增記錄</li>
@@ -77,8 +84,8 @@ ht-degree: 2%
      </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">管理</td> 
-   <td> <p>您可以執行下列動作：</p> 
+   <td role="rowheader"><p>管理</p></td> 
+   <td> 
     <ul> 
      <li>檢視和貢獻許可權中包含的所有動作</li> 
      <li>編輯記錄型別</li> 
@@ -90,7 +97,7 @@ ht-degree: 2%
      </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Workfront管理員</td> 
+   <td role="rowheader"><p>Workfront管理員</p></td> 
    <td> <p>這不是Maestro許可權。</p>
    <p> 所有Workfront管理員皆可執行下列動作： </p>
    <ul><li>建立工作區</li>
@@ -101,13 +108,15 @@ ht-degree: 2%
  </tbody> 
 </table>
 
+<!-- the following sections are hidden in the links below - ensure they are visible-->
+
 ## 共用工作區
 
-如需有關共用Maestro工作區的資訊，請參閱 [授予存取權](../access/grant-access.md).
+如需有關共用Maestro工作區的資訊，請參閱 [授與Adobe大師的存取權](../access/grant-access.md).
 
 ## 移除工作區的許可權
 
-如需有關共用Maestro工作區的資訊，請參閱 [授予存取權](../access/grant-access.md).
+如需有關共用Maestro工作區的資訊，請參閱 [授與Adobe大師的存取權](../access/grant-access.md).
 
 <!--This is currently not possible: ## Request permissions to objects -->
 

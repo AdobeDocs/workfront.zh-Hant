@@ -1,20 +1,31 @@
 ---
-title: 共用記錄
-description: 您可以與其他人共用記錄，以提高您的共同作業能力。
+title: 刪除記錄型別
+description: 當作業記錄型別或分類記錄型別不再相關時，您可以將其刪除。
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-exl-id: 83ff53ac-f18e-4b71-bdb2-57e05d69ed29
+exl-id: 70fd3887-3871-45b5-9c21-f57da63662aa
 source-git-commit: 85f499a429d4223c62b7b13dc0b1d10e8e79e9ed
 workflow-type: tm+mt
-source-wordcount: '407'
+source-wordcount: '409'
 ht-degree: 1%
 
 ---
 
-<!--update the metadata with real information when making this available in TOC and in the left nav-->
+<!--udpate the metadata with real information when making this avilable in TOC and in the left nav:
+---
+title: Delete record types
+description: You can delete operational record types or taxonomy record types when they are no longer relevant. 
+author: Alina
+feature: Work Management
+topic: Architecture
+role: User
+hidefromtoc: yes
+hide: yes
+---
+-->
 
-# 共用記錄
+# 刪除記錄型別
 
 >[!IMPORTANT]
 >
@@ -26,25 +37,13 @@ ht-degree: 1%
 >
 >如需詳細資訊，請參閱 [Adobe大師概觀](../maestro-overview.md).
 
-若要與其他使用者共同作業，您可以與其他使用者共用記錄。
+當作業記錄型別或分類記錄型別不再相關時，您可以將其刪除。
 
-您可以透過下列方式共用Maestro記錄：
+如需有關記錄型別和分類的資訊，請參閱 [記錄型別和分類概觀](../architecture/overview-of-record-types-and-taxonomies.md).
 
-* 當頁面開啟時，從瀏覽器複製記錄的詳細資訊頁面的連結。
+建議您先在其他記錄型別上重新建立與您要刪除的記錄型別或分類相關聯的欄位和記錄，然後再刪除它們。
 
-* 在記錄型別的表格檢視中檢視記錄時，複製記錄的「詳細資訊」頁面的連結。
-
-<!-- Update with this when we release permissions: 
-
-* You can share all records in a workspace with other users by sharing the workspace. For more information, see [Grant access to Adobe Maestro](../access/grant-access.md).
--->
-
-本文說明如何從記錄型別的表格檢視複製記錄之「詳細資訊」頁面的連結。
-
-<!-- add information about permissions, like:
-- in the table below, you must have at least View permissions to the record
-- the user you're sharing with must have at least View permissions to the record to view it
-- etc - others???-->
+<!-- last sentence might need to be deleted when we can recover or replace deleted record types-->
 
 ## 存取需求
 
@@ -90,8 +89,7 @@ ht-degree: 1%
 </table>
 
 <!--
-After permissions - replace the table with - below
-****AND - see more above, another bullet point to update when permissions are released****
+After permssions - replace the table with: 
 
 <table style="table-layout:auto">
  <col>
@@ -136,14 +134,16 @@ After permissions - replace the table with - below
   </tr>
 <tr>
    <td role="rowheader"><p>Permissions</p></td>
-   <td> <p>View or higher permissions to a workspace</a> </p>  
-   <p>System Administrators have permissions to all workspaces, including the ones they did not create</p>
+   <td> <p>Manage permissions to a workspace</a> </p>  
+   <p>System Administrators have permissions to all workspaces, including the ones they did not create
 </td>
   </tr>
  </tbody>
 </table>
 
 -->
+
+
 
 <!--Maybe enable this at GA - but Maestro is not supposed to have Access controls in the Workfront Access Level: 
 >[!NOTE]
@@ -156,32 +156,29 @@ After permissions - replace the table with - below
 
 <!-- Notes for the table: for the "Workfront access" row: <p>For more information, see <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront licenses overview</a>.</p>-->
 
-## 從記錄型別表格檢視共用記錄連結
+## 刪除記錄型別時的注意事項
 
-1. 按一下 **主要功能表** ![](assets/main-menu-workfront.png) 位於右上角，或 **主要功能表** ![](assets/main-menu-shell.png) 左上角（如果有的話），然後按一下 **大師**.
+<!--check this and ensure these are still true - some things might change with / after closed beta-->
 
-   您上次存取的工作區會開啟。
-1. 按一下記錄型別卡。
+* 您可以刪除您或您組織中的任何人已建立的任何記錄型別或分類法。 <!--this will change with access levels and permissions-->
+* 刪除記錄型別會移除與其相關的所有資訊，包括該型別的欄位和記錄。
+* 您無法復原已刪除的記錄型別或其資訊。
 
-   記錄型別頁面隨即開啟。
-1. （視條件而定）從 **檢視** 在表格右上角的下拉式功能表中，選取表格檢視。 這應為預設檢視，除非您上次存取時間軸檢視時已檢視該記錄型別。
+## 刪除記錄型別
 
-   與所選記錄型別相關聯的記錄會顯示在表格檢視中。
-1. 以滑鼠右鍵按一下記錄列
+刪除分類記錄型別與刪除作業記錄型別相同。
 
-   或
+1. 按一下 **主要功能表** 圖示 ![](assets/main-menu-workfront.png) 位於Workfront右上角，或 **主功能表** 圖示 ![](assets/main-menu-shell.png)  （如果有的話）按一下 **大師** ![](assets/maestro-icon.png).
 
-   將游標停留在記錄名稱上，按一下 **更多** 功能表 ![](assets/more-menu.png)，然後按一下 **複製連結**.
+   根據預設，上次存取的工作區應該會開啟。
 
-   ![](assets/contextual-menu-for-record-row.png)
+1. （可選）展開現有工作區名稱右側的向下箭頭，並選取您要刪除記錄型別的工作區。
 
-   連結已複製到您的剪貼簿。
+   工作區隨即開啟，並顯示與其關聯的記錄型別和分類法。
+1. 按一下您要刪除的記錄型別或分類法的卡片。
 
-1. 將連結貼到電子郵件或聊天視窗中，以便與其他使用者共用。 當使用者收到連結時，它會開啟記錄的詳細資訊頁面。
+   這會開啟記錄型別的頁面。
+1. 按一下 **更多** 功能表 ![](assets/more-menu.png) 在記錄型別名稱的右側，然後按一下 **刪除**.
+1. 按一下 **刪除** 以確認。
 
-   >[!TIP]
-   >
-   >「詳細資訊」頁面中記錄的欄位與記錄的「表格」檢視中可用的欄位相同。
-
-
-   <!--add there when it will be available: if they have access to this record-->
+   所選的記錄型別或分類及其欄位和相關記錄都會被刪除。

@@ -1,20 +1,31 @@
 ---
-title: 共用記錄
-description: 您可以與其他人共用記錄，以提高您的共同作業能力。
+title: 刪除欄位
+description: 在Adobe大師，您可以刪除不再相關的自訂欄位。
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-exl-id: 83ff53ac-f18e-4b71-bdb2-57e05d69ed29
-source-git-commit: 85f499a429d4223c62b7b13dc0b1d10e8e79e9ed
+exl-id: ec48db42-2395-4439-97ae-e4f5242170b7
+source-git-commit: 4946a65188391df62ad3e135a5b1dbba9a16dc89
 workflow-type: tm+mt
-source-wordcount: '407'
+source-wordcount: '405'
 ht-degree: 1%
 
 ---
 
 <!--update the metadata with real information when making this available in TOC and in the left nav-->
 
-# 共用記錄
+<!---
+title: Formula fields
+description: In Adobe Maestro, you can delete custom fields that are no longer relevant.
+hidefromtoc: yes
+hide: yes
+author: Alina
+feature: (*******************WE NEED A NEW ONE*******************)
+role: User, Administrator (************is this right???************)
+recommendations: noDisplay, noCatalog
+--->
+
+# 刪除欄位
 
 >[!IMPORTANT]
 >
@@ -26,25 +37,22 @@ ht-degree: 1%
 >
 >如需詳細資訊，請參閱 [Adobe大師概觀](../maestro-overview.md).
 
-若要與其他使用者共同作業，您可以與其他使用者共用記錄。
+在Adobe Maestro中，您可以建立自訂欄位來儲存有關記錄的資訊。
 
-您可以透過下列方式共用Maestro記錄：
+如需有關在Maestro中建立自訂欄位的資訊，請參閱 [建立欄位](../fields/create-fields.md).
 
-* 當頁面開啟時，從瀏覽器複製記錄的詳細資訊頁面的連結。
+您可以刪除不再相關的「大師」欄位。
 
-* 在記錄型別的表格檢視中檢視記錄時，複製記錄的「詳細資訊」頁面的連結。
+## 有關刪除主要欄位的考量事項：
 
-<!-- Update with this when we release permissions: 
+* 您可以刪除您建立的欄位或其他使用者或系統建立的欄位。 <!--this will change with access levels/ permissions-->
+* 您無法刪除記錄的[名稱]欄位。 <!--change this to say you can't delete the field selected to be the primary-->
+* 您只能刪除記錄型別表格中的欄位。
+* 儲存在欄位中的任何資訊都會被刪除且無法復原。
+* 當您刪除連結的記錄欄位時，所有連結的查閱欄位也會從您連結的記錄型別中刪除。 您連結到的記錄型別的連結記錄欄位不會被刪除。
 
-* You can share all records in a workspace with other users by sharing the workspace. For more information, see [Grant access to Adobe Maestro](../access/grant-access.md).
--->
-
-本文說明如何從記錄型別的表格檢視複製記錄之「詳細資訊」頁面的連結。
-
-<!-- add information about permissions, like:
-- in the table below, you must have at least View permissions to the record
-- the user you're sharing with must have at least View permissions to the record to view it
-- etc - others???-->
+  如需詳細資訊，請參閱 [連線記錄型別](../architecture/connect-record-types.md).
+  <!-- this is not possible yet, since fields cannot be shared yet; maybe move this up a bit, in this bullet list: * When you delete a field, it is deleted from all records associated with the field.-->
 
 ## 存取需求
 
@@ -90,8 +98,7 @@ ht-degree: 1%
 </table>
 
 <!--
-After permissions - replace the table with - below
-****AND - see more above, another bullet point to update when permissions are released****
+After permssions - replace the table with: 
 
 <table style="table-layout:auto">
  <col>
@@ -136,7 +143,7 @@ After permissions - replace the table with - below
   </tr>
 <tr>
    <td role="rowheader"><p>Permissions</p></td>
-   <td> <p>View or higher permissions to a workspace</a> </p>  
+   <td> <p>Manage permissions to a workspace</a> </p>  
    <p>System Administrators have permissions to all workspaces, including the ones they did not create</p>
 </td>
   </tr>
@@ -144,6 +151,7 @@ After permissions - replace the table with - below
 </table>
 
 -->
+
 
 <!--Maybe enable this at GA - but Maestro is not supposed to have Access controls in the Workfront Access Level: 
 >[!NOTE]
@@ -156,32 +164,23 @@ After permissions - replace the table with - below
 
 <!-- Notes for the table: for the "Workfront access" row: <p>For more information, see <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront licenses overview</a>.</p>-->
 
-## 從記錄型別表格檢視共用記錄連結
+## 刪除欄位
 
-1. 按一下 **主要功能表** ![](assets/main-menu-workfront.png) 位於右上角，或 **主要功能表** ![](assets/main-menu-shell.png) 左上角（如果有的話），然後按一下 **大師**.
+<!--When they release the sharing of fields between other records, revise this section.  -->
 
-   您上次存取的工作區會開啟。
-1. 按一下記錄型別卡。
+1. 按一下 **主要功能表** 圖示 ![](assets/main-menu-workfront.png) 位於Workfront右上角，或 **主功能表** 圖示 ![](assets/main-menu-shell.png)  （如果有的話）按一下 **大師** ![](assets/maestro-icon.png).
 
-   記錄型別頁面隨即開啟。
-1. （視條件而定）從 **檢視** 在表格右上角的下拉式功能表中，選取表格檢視。 這應為預設檢視，除非您上次存取時間軸檢視時已檢視該記錄型別。
+   這會開啟Maestro中上次存取的工作區。
+1. 按一下要刪除其欄位的記錄型別的卡片。
+1. （視條件而定）選取 **表格檢視** 從 **檢視** 記錄型別頁面右上角的下拉式功能表。
+1. 在欄標題中尋找要刪除的欄位，並將滑鼠游標停留在欄標題上，然後按一下欄位名稱后面的向下箭頭。
 
-   與所選記錄型別相關聯的記錄會顯示在表格檢視中。
-1. 以滑鼠右鍵按一下記錄列
+   ![](assets/arrow-menu-after-name-of-field-in-table-header-highlighted.png)
 
-   或
+1. 按一下 **刪除**. <!-- check this: they might replace it with **Delete field**-->
 
-   將游標停留在記錄名稱上，按一下 **更多** 功能表 ![](assets/more-menu.png)，然後按一下 **複製連結**.
+   <!--insert screen shot when finalized-->
 
-   ![](assets/contextual-menu-for-record-row.png)
+1. 按一下 **刪除** 以確認。
 
-   連結已複製到您的剪貼簿。
-
-1. 將連結貼到電子郵件或聊天視窗中，以便與其他使用者共用。 當使用者收到連結時，它會開啟記錄的詳細資訊頁面。
-
-   >[!TIP]
-   >
-   >「詳細資訊」頁面中記錄的欄位與記錄的「表格」檢視中可用的欄位相同。
-
-
-   <!--add there when it will be available: if they have access to this record-->
+   欄位已刪除、無法復原，且無法再與任何記錄相關聯。

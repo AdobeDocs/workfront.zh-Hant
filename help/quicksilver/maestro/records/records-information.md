@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7f32ebab-b8dd-496d-b510-99055924b0c7
-source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
+source-git-commit: 4d3b571e64fef98abd69bc67f94953a5eb73ea20
 workflow-type: tm+mt
-source-wordcount: '128'
+source-wordcount: '139'
 ht-degree: 0%
 
 ---
@@ -28,9 +28,9 @@ hide: yes
 
 >[!IMPORTANT]
 >
->本文資訊是指Adobe Maestro，這是Adobe的新產品。
+>本文資訊是指Adobe Maestro，這是Adobe Workfront的新產品。
 >
->目前，Adobe大師是測試版計畫的一部分，向有限數量的客戶開放。
+>目前，Adobe大師是測試版計畫的一部分，向有限數量的客戶開放。 您必須是Workfront客戶才能使用Maestro功能。
 >
 >如需加入Maestro測試版計畫的詳細資訊，請聯絡您的客戶代表。
 >

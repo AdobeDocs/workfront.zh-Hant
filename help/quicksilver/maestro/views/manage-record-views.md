@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: 4cdebe4890b775a097469e7d7035a38397b71094
+source-git-commit: 6d1d3d82e15f4232ff81294d9094c2683b01ca89
 workflow-type: tm+mt
-source-wordcount: '762'
+source-wordcount: '773'
 ht-degree: 1%
 
 ---
@@ -18,9 +18,9 @@ ht-degree: 1%
 
 >[!IMPORTANT]
 >
->本文資訊是指Adobe Maestro，這是Adobe的新產品。
+>本文資訊是指Adobe Maestro，這是Adobe Workfront的新產品。
 >
->目前，Adobe大師是測試版計畫的一部分，向有限數量的客戶開放。
+>目前，Adobe大師是測試版計畫的一部分，向有限數量的客戶開放。 您必須是Workfront客戶才能使用Maestro功能。
 >
 >如需加入Maestro測試版計畫的詳細資訊，請聯絡您的客戶代表。
 >
@@ -153,8 +153,8 @@ ht-degree: 1%
 ## 建立或編輯檢視 {#create-or-edit-views}
 
 1. 按一下 **主要功能表** 圖示 ![](assets/main-menu-workfront.png) 位於右上角，或 **主要功能表** 圖示 ![](assets/main-menu-shell.png) （如果有的話）按一下 **大師** ![](assets/maestro-icon.png).
-您上次存取的工作區預設會開啟。 如需有關建立工作區的資訊，請參閱 [建立工作區](../architecture-and-fields/create-workspaces.md).
-1. 按一下記錄型別卡。 如需有關建立記錄型別的資訊，請參閱 [建立記錄型別](../architecture-and-fields/create-record-types.md).
+您上次存取的工作區預設會開啟。 如需有關建立工作區的資訊，請參閱 [建立工作區](../architecture/create-workspaces.md).
+1. 按一下記錄型別卡。 如需有關建立記錄型別的資訊，請參閱 [建立記錄型別](../architecture/create-record-types.md).
 
    依預設，選取型別的所有記錄都會顯示在表格檢視中。
 
@@ -189,10 +189,10 @@ ht-degree: 1%
 
 1. 從 **主要功能表** ![](assets/main-menu-workfront.png) 在熒幕的右上角， <!--or the **Main Menu** ![](assets/main-menu-shell.png) in the upper-left corner of the screen, if available,--> 按一下 **大師** ![](assets/maestro-icon.png).
 
-   您上次存取的工作區預設會開啟。 如需有關建立工作區的資訊，請參閱 [建立工作區](../architecture-and-fields/create-workspaces.md).
+   您上次存取的工作區預設會開啟。 如需有關建立工作區的資訊，請參閱 [建立工作區](../architecture/create-workspaces.md).
 1. 按一下記錄型別卡。
 
-   如需有關建立記錄型別的資訊，請參閱 [建立記錄型別](../architecture-and-fields/create-record-types.md).
+   如需有關建立記錄型別的資訊，請參閱 [建立記錄型別](../architecture/create-record-types.md).
 
    依預設，選取型別的所有記錄都會顯示在表格檢視中。
 
@@ -208,8 +208,8 @@ ht-degree: 1%
 If you want to keep multiple versions of a view and make slight changes between the version, you can duplicate a view. Duplicating a view creates identical copies of an existing view. 
 
 1. From the **Main Menu**, click **Maestro**. 
-    The workspace you last accessed opens by default. For information about creating workspaces, see [Create workspaces](../architecture-and-fields/create-workspaces.md).
-1. Click a record type. For information about creating a record type, see [Create record types](../architecture-and-fields/create-record-types.md). 
+    The workspace you last accessed opens by default. For information about creating workspaces, see [Create workspaces](../architecture/create-workspaces.md).
+1. Click a record type. For information about creating a record type, see [Create record types](../architecture/create-record-types.md). 
 
     By default, all the records of the type selected display in the table view. 
 

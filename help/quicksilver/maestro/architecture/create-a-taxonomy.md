@@ -1,20 +1,20 @@
 ---
-title: 共用記錄
-description: 您可以與其他人共用記錄，以提高您的共同作業能力。
+title: 建立分類記錄型別
+description: 分類是可重複使用的記錄型別，可擷取Adobe Workfront Maestro中作業記錄型別的相關屬性。
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-exl-id: 83ff53ac-f18e-4b71-bdb2-57e05d69ed29
-source-git-commit: 85f499a429d4223c62b7b13dc0b1d10e8e79e9ed
+exl-id: e90a3ebe-fc02-4cce-8472-1ca5004ddde8
+source-git-commit: 4946a65188391df62ad3e135a5b1dbba9a16dc89
 workflow-type: tm+mt
-source-wordcount: '407'
+source-wordcount: '377'
 ht-degree: 1%
 
 ---
 
-<!--update the metadata with real information when making this available in TOC and in the left nav-->
+<!--udpate the metadata with real information when making this avilable in TOC and in the left nav-->
 
-# 共用記錄
+# 建立分類記錄型別
 
 >[!IMPORTANT]
 >
@@ -26,25 +26,11 @@ ht-degree: 1%
 >
 >如需詳細資訊，請參閱 [Adobe大師概觀](../maestro-overview.md).
 
-若要與其他使用者共同作業，您可以與其他使用者共用記錄。
+分類法是擷取AdobeMaestro中作業記錄型別相關屬性的記錄型別。
 
-您可以透過下列方式共用Maestro記錄：
+例如，Campaign可以是作業記錄型別。 以下是擷取促銷活動記錄型別相關屬性的分類：地區、對象、國家。
 
-* 當頁面開啟時，從瀏覽器複製記錄的詳細資訊頁面的連結。
-
-* 在記錄型別的表格檢視中檢視記錄時，複製記錄的「詳細資訊」頁面的連結。
-
-<!-- Update with this when we release permissions: 
-
-* You can share all records in a workspace with other users by sharing the workspace. For more information, see [Grant access to Adobe Maestro](../access/grant-access.md).
--->
-
-本文說明如何從記錄型別的表格檢視複製記錄之「詳細資訊」頁面的連結。
-
-<!-- add information about permissions, like:
-- in the table below, you must have at least View permissions to the record
-- the user you're sharing with must have at least View permissions to the record to view it
-- etc - others???-->
+如需有關Maestro記錄型別的詳細資訊，請參閱 [記錄型別和分類概觀](../architecture/overview-of-record-types-and-taxonomies.md).
 
 ## 存取需求
 
@@ -52,7 +38,9 @@ ht-degree: 1%
 
 <table style="table-layout:auto">
  <col>
+ <col>
  <tbody>
+ <tr>
 <td>
    <p> Adobe產品</p> </td>
    <td>
@@ -81,6 +69,7 @@ ht-degree: 1%
    <td> <p>任何</p>  
 </td>
   </tr>
+
 <tr>
    <td role="rowheader">版面配置範本</td>
    <td> <p>您的系統管理員必須在您的版面配置範本中新增Maestro區域。 如需詳細資訊，請參閱 <a href="../access/grant-access.md">授與Adobe大師的存取權</a>. </p>  
@@ -90,8 +79,7 @@ ht-degree: 1%
 </table>
 
 <!--
-After permissions - replace the table with - below
-****AND - see more above, another bullet point to update when permissions are released****
+After permssions - replace the table with: 
 
 <table style="table-layout:auto">
  <col>
@@ -136,15 +124,14 @@ After permissions - replace the table with - below
   </tr>
 <tr>
    <td role="rowheader"><p>Permissions</p></td>
-   <td> <p>View or higher permissions to a workspace</a> </p>  
-   <p>System Administrators have permissions to all workspaces, including the ones they did not create</p>
+   <td> <p>Manage permissions to a workspace</a> </p>  
+   <p>System Administrators have permissions to all workspaces, including the ones they did not create
 </td>
   </tr>
  </tbody>
 </table>
 
 -->
-
 <!--Maybe enable this at GA - but Maestro is not supposed to have Access controls in the Workfront Access Level: 
 >[!NOTE]
 >
@@ -156,32 +143,34 @@ After permissions - replace the table with - below
 
 <!-- Notes for the table: for the "Workfront access" row: <p>For more information, see <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront licenses overview</a>.</p>-->
 
-## 從記錄型別表格檢視共用記錄連結
+## 建立分類的相關考量事項
 
-1. 按一下 **主要功能表** ![](assets/main-menu-workfront.png) 位於右上角，或 **主要功能表** ![](assets/main-menu-shell.png) 左上角（如果有的話），然後按一下 **大師**.
+* 您必須先建立工作區，才能在工作區中建立分類。
 
-   您上次存取的工作區會開啟。
-1. 按一下記錄型別卡。
+  如需有關工作區的資訊，請參閱 [建立工作區](../architecture/create-workspaces.md).
+* 您可以執行下列任一項作業來建立分類記錄型別：
+   * 使用範本建立工作區時自動建立它們。 如需詳細資訊，請參閱 [建立工作區](../architecture/create-workspaces.md).
+   * 從頭開始手動建立。
+   * 從外部清單貼上資訊，以手動方式建立它們。
 
-   記錄型別頁面隨即開啟。
-1. （視條件而定）從 **檢視** 在表格右上角的下拉式功能表中，選取表格檢視。 這應為預設檢視，除非您上次存取時間軸檢視時已檢視該記錄型別。
+  <!--this is not possible yet:
+  * You can taxonomies to a workspace by doing one of the following:
+    * Create a connection to object types from other systems, when adding fields to a taxnomy record type. This creates a read-only record type in Maestro.  - update this sentence when you can connect taxonomies as well as operational records to a third-party system.-->
 
-   與所選記錄型別相關聯的記錄會顯示在表格檢視中。
-1. 以滑鼠右鍵按一下記錄列
+* 所有新建立的分類都隨附下列欄位：
 
-   或
+   * 名稱 <!--if there won't be any more fields, consider rephrasing this-->
 
-   將游標停留在記錄名稱上，按一下 **更多** 功能表 ![](assets/more-menu.png)，然後按一下 **複製連結**.
+  此外，您可以將自訂欄位新增到分類法。 如需詳細資訊，請參閱 [建立欄位](../fields/create-fields.md).
 
-   ![](assets/contextual-menu-for-record-row.png)
+  >[!NOTE]
+  >
+  >    使用工作區範本時建立的分類有其他欄位。
 
-   連結已複製到您的剪貼簿。
+## 建立分類法
 
-1. 將連結貼到電子郵件或聊天視窗中，以便與其他使用者共用。 當使用者收到連結時，它會開啟記錄的詳細資訊頁面。
+建立分類類似於從頭開始或從工作區範本建立作業記錄型別。
 
-   >[!TIP]
-   >
-   >「詳細資訊」頁面中記錄的欄位與記錄的「表格」檢視中可用的欄位相同。
+如需詳細資訊，請參閱文章中的「從頭開始建立記錄型別」一節 [建立記錄型別](../architecture/create-record-types.md).
 
-
-   <!--add there when it will be available: if they have access to this record-->
+如需從範本建立工作區時自動建立分類的相關資訊，請參閱 [建立工作區](../architecture/create-workspaces.md).

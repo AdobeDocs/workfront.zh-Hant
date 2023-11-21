@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 90c730bbab2e62bcc60bee37272edb1219b2afb4
+source-git-commit: d3c22c84a9b246d1a45853c5d2825241f58bebe9
 workflow-type: tm+mt
-source-wordcount: '2030'
+source-wordcount: '2041'
 ht-degree: 0%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->本文資訊是指Adobe Maestro，這是Adobe的新產品。
+>本文資訊是指Adobe Maestro，這是Adobe Workfront的新產品。
 >
->目前，Adobe大師是測試版計畫的一部分，向有限數量的客戶開放。
+>目前，Adobe大師是測試版計畫的一部分，向有限數量的客戶開放。 您必須是Workfront客戶才能使用Maestro功能。
 >
 >如需加入Maestro測試版計畫的詳細資訊，請聯絡您的客戶代表。
 >
@@ -37,28 +37,31 @@ ht-degree: 0%
 功能每週都會發行，並依發行順序列出，最新的則排在前。 參與Maestro封閉測試版計畫的客戶可以存取其預覽和生產環境中的所有功能。
 
 <!--
-## Week of November 13, 2023
+## Week of November 27, 2023
 
 ### Maestro permissions for users and groups
 
-Preview and production: November 16, 2023
+Production: November 28, 2023
 
-You can now share a workspace with users and groups and set their permissions to different levels, depending on what information they need to view or edit in a Maestro workspace.  
+>[!IMPORTANT]
+>
+>This functionality is not yet available in Preview.
+
+You can now share a workspace with users and groups. You can set their permissions to different levels, depending on what information they need to view or edit in a Maestro workspace. After you share permissions to a workspace, users have permissions to the record types, records, and fields in that space.
 
 The following are the permissions levels for Maestro workspaces:  
 
-No permissions: Users cannot access any workspaces in Maestro, even if the Maestro area is shared with them through a layout template. 
+* None: Users cannot access any workspaces in Maestro, even if the Maestro area is shared with them through a layout template. 
 
-View permissions: Users can view workspaces that are shared with them. They can also view record types, and records from the shared workspace. 
+* View: Users can view workspaces that are shared with them. They can also view record types, and records from the shared workspace. 
 
-Contribute permissions: Users can create, edit, or delete records in the workspace that is shared with them.  They cannot create or edit record types or workspaces ones shared with them.  
+* Contribute: Users can create, edit, or delete records in the workspace that is shared with them.  They cannot create or edit record types or workspaces ones shared with them.  
 
-Manage permissions: Users can create, edit, and delete record types, records, and fields in workspaces that are shared with them. They cannot create workspaces.  
+* Manage: Users can create, edit, and delete record types, records, and fields in workspaces that are shared with them. They cannot create workspaces.  
 
-Only Workfront administrators can create, edit, or delete workspaces and all information associated with them. They also can add users and groups with various permission levels to Maestro workspaces.  
- 
+Only Workfront administrators can create, edit, or delete workspaces and all information associated with them.  
 
-For more information, see [Grant access to Adobe Maestro](../maestro/access/grant-access.md). -->
+For more information, see [Grant access to Adobe Maestro](../maestro/access/grant-access.md) and [Overview of sharing permissions in Adobe Maestro](../maestro/access/sharing-permissions-overview.md). -->
 
 ## 2023年11月6日當週
 
@@ -88,7 +91,7 @@ For more information, see [Grant access to Adobe Maestro](../maestro/access/gran
 
 從這些欄位型別建立的欄位值是唯讀的，並擷取建立或上次修改記錄的使用者名稱，或記錄建立或上次修改的日期。
 
-如需詳細資訊，請參閱 [建立欄位](../maestro/architecture-and-fields/create-fields.md).
+如需詳細資訊，請參閱 [建立欄位](../maestro/fields/create-fields.md).
 
 ### 從Maestro記錄導覽至Workfront物件
 
@@ -124,8 +127,7 @@ For more information, see [Grant access to Adobe Maestro](../maestro/access/gran
 
 預覽和生產： 2023年10月16日
 
-您現在可以新增People-type欄位至Maestro記錄型別。 您可以使用「人員」型別欄位，將現有使用者與記錄建立關聯。 如需詳細資訊，請參閱 [建立欄位](../maestro/architecture-and-fields/create-fields.md).
-
+您現在可以新增People-type欄位至Maestro記錄型別。 您可以使用「人員」型別欄位，將現有使用者與記錄建立關聯。 如需詳細資訊，請參閱 [建立欄位](../maestro/fields/create-fields.md).
 
 ### RTF格式 — 段落欄位格式
 
@@ -198,7 +200,7 @@ For more information, see [Grant access to Adobe Maestro](../maestro/access/gran
 
   如需詳細資訊，請參閱下列文章：
 
-   * [連線記錄型別](../maestro/architecture-and-fields/connect-record-types.md)
+   * [連線記錄型別](../maestro/architecture/connect-record-types.md)
    * [連線記錄](../maestro/records/connect-records.md)
 
 ### 單行文字欄位的URL支援

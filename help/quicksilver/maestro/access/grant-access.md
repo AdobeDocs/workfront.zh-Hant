@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 475a519d-d3bd-4461-8099-0e296d556d34
-source-git-commit: 937498a68a994d19b0005d518d7e313c48961672
+source-git-commit: 85f499a429d4223c62b7b13dc0b1d10e8e79e9ed
 workflow-type: tm+mt
-source-wordcount: '316'
+source-wordcount: '403'
 ht-degree: 0%
 
 ---
@@ -43,6 +43,63 @@ ht-degree: 0%
 >
 >沒有與使用者或Maestro中的資訊相關聯的存取層級或許可權。 所有在其環境中啟用Maestro的使用者都可以檢視、編輯和刪除任何其他使用者新增到Maestro的所有資訊。
 
+## 存取需求
+
+您必須具有下列存取權才能執行本文中的步驟：
+
+<table style="table-layout:auto">
+ <col>
+ </col>
+ <col>
+ </col>
+ <tbody>
+    <tr>
+<tr>
+<td>
+   <p> Adobe產品</p> </td>
+   <td>
+   <p> Adobe Workfront</p> </td>
+  </tr>  
+ <td role="rowheader"><p>Adobe Workfront合約</p></td>
+   <td>
+<p>貴組織必須註冊AdobeMaestro封閉測試版計畫。 請聯絡您的客戶代表以查詢此新產品/服務。 </p>
+   </td>
+  </tr>
+  <tr>
+   <td role="rowheader"><p>Adobe Workfront計畫</p></td>
+   <td>
+<p>任何</p>
+   </td>
+  </tr>
+  <tr>
+   <td role="rowheader"><p>Adobe Workfront授權</p></td>
+   <td>
+   <p>任何</p> 
+  </td>
+  </tr>
+
+<tr>
+   <td role="rowheader"><p>存取層級</p></td>
+   <td> <p>任何使用Maestro</p>
+   <p>系統管理員或計畫在版面配置範本中共用大師</p>  
+</td>
+  </tr>
+
+<tr>
+   <td role="rowheader"><p>版面配置範本</p></td>
+   <td> <p>您的Workfront或群組管理員必須將Maestro區域新增至您的版面配置範本。 </p>  
+</td>
+  </tr>
+ </tbody>
+</table>
+
+<!--
+When permissions is released:
+
+* leave as is for Access levels (I think)
+* Add a new row for Permissions: System admin or Manage access to the workspace to share a workspace with others
+-->
+
 ## 與其他共用主功能表中的Maestro區域
 
 <!--First, contact your account manager to obtain access to the current Maestro closed beta program.-->
@@ -67,11 +124,14 @@ ht-degree: 0%
 
 ## Share permissions to a workspace
 
-Only system administrators can access all workspaces in Maestro. As a system administrator, you must share a workspace with other users for them to view, manage, or contribute to it. 
+The following users can share a workspace with other users:
+
+* System administrators can share all workspaces, including the ones that they did not create.
+* All other users can share only workspaces for which they have Manage permissions to. 
 
 To share a workspace with others: 
 
-1. Click the **Main Menu** icon ![](assets/dots-main-menu.png) in the upper-right or the **Main Menu** icon ![](assets/lines-main-menu.png) in the upper-left corner, if available, then click **Maestro**.
+1. Click the **Main Menu** icon ![](assets/dots-main-menu.png) in the upper-right or the **Main Menu** icon ![](assets/lines-main-menu.png) in the upper-left corner or Workfront, if available, then click **Maestro**.
 1. Open the workspace you want to share, then click **Share** in the upper-right corner of the screen. (*************add screen shot when UI is finalized and maybe edit the steps*********)
 1. In the field provided, start typing the name of a user or a group (******ensure you can share with groups*******), then click it when it displays in the list. 
 1. Select one of the following permission levels from the drop-down menu: 
@@ -85,11 +145,11 @@ To share a workspace with others:
 
 ## Remove permissions to a workspace
 
-1. Click the **Main Menu** icon ![](assets/dots-main-menu.png) in the upper-right or the **Main Menu** icon ![](assets/lines-main-menu.png) in the upper-left corner, if available, then click **Maestro**.
-1. Open the workspace you want to share, then click **Share** in the upper-right corner of the screen. (********add screen shot when UI is finalized and maybe edit the steps???****)
-1. Click the drop-down menu at the right of a user or group name, then click **Remove**. 
-    
-    The user or the users that belong to the group removed no longer have access to the workspace or its objects. 
+1. Click the **Main Menu** icon ![](assets/dots-main-menu.png) in the upper-right or the **Main Menu** icon ![](assets/lines-main-menu.png) in the upper-left corner of Workfront, if available, then click **Maestro**.
+1. Open the workspace you want to remove permissions to, then click **Share** in the upper-right corner of the screen. (********add screen shot when UI is finalized and maybe edit the steps???****)
+1. Click the drop-down menu to the right of a user or group name, then click **Remove**. 
 1. Click **Save**.
+
+    The user or the users that belong to the group removed no longer have access to the workspace or its objects. 
 
 -->

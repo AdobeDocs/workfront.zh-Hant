@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7a65d66e-a578-4016-805e-0cb04caaa18a
-source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
+source-git-commit: 4946a65188391df62ad3e135a5b1dbba9a16dc89
 workflow-type: tm+mt
-source-wordcount: '351'
+source-wordcount: '386'
 ht-degree: 0%
 
 ---
@@ -32,9 +32,9 @@ hide: yes
 
 >[!IMPORTANT]
 >
->本文資訊是指Adobe Maestro，這是Adobe的新產品。
+>本文資訊是指Adobe Maestro，這是Adobe Workfront的新產品。
 >
->目前，Adobe大師是測試版計畫的一部分，向有限數量的客戶開放。
+>目前，Adobe大師是測試版計畫的一部分，向有限數量的客戶開放。 您必須是Workfront客戶才能使用Maestro功能。
 >
 >如需加入Maestro測試版計畫的詳細資訊，請聯絡您的客戶代表。
 >
@@ -62,7 +62,8 @@ hide: yes
 
 以下章節包含詳細說明目前可用Maestro功能的文章：
 
-* [存取資訊](../maestro/access/access-information.md)：有關使用Adobe Maestro所需存取權的資訊。
-* [架構資訊](../maestro/architecture-and-fields/architecture-and-fields-information.md)：有關Adobe Maestro架構的深入資訊，包括有關如何建立和管理工作區、記錄型別和欄位的逐步指示。
+* [存取資訊](../maestro/access/access-information.md)：有關使用Adobe大師所需存取權和許可權的資訊。
+* [架構資訊](../maestro/architecture/architecture-information.md)：有關Adobe Maestro架構的深入資訊，包括有關如何建立和管理工作區及記錄型別的逐步指示。
+* [欄位資訊](../maestro/fields/fields-information.md)：建立Maestro記錄型別的自訂欄位的相關深入資訊和逐步指示。
 * [記錄資訊](../maestro/records/records-information.md)：有關如何建立和管理記錄的深入資訊和逐步指示。
-* [檢視資訊](../maestro/views/views-information.md)：有關Maestro檢視以及如何管理檢視的深入資訊。
+* [檢視資訊](../maestro/views/views-information.md)：有關Maestro檢視的深入資訊，以及如何在記錄型別頁面中檢視記錄時管理這些檢視。

@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
-source-git-commit: 1dcc267f04242782efea4a219410380ca5a01e1d
+source-git-commit: d3c22c84a9b246d1a45853c5d2825241f58bebe9
 workflow-type: tm+mt
-source-wordcount: '1964'
+source-wordcount: '1975'
 ht-degree: 0%
 
 ---
@@ -30,9 +30,9 @@ hide: yes
 
 >[!IMPORTANT]
 >
->本文資訊是指Adobe Maestro，這是Adobe的新產品。
+>本文資訊是指Adobe Maestro，這是Adobe Workfront的新產品。
 >
->目前，Adobe大師是測試版計畫的一部分，向有限數量的客戶開放。
+>目前，Adobe大師是測試版計畫的一部分，向有限數量的客戶開放。 您必須是Workfront客戶才能使用Maestro功能。
 >
 >如需加入Maestro測試版計畫的詳細資訊，請聯絡您的客戶代表。
 >
@@ -42,9 +42,9 @@ hide: yes
 
 您必須先將兩個記錄型別連線在一起，或將記錄型別連線到另一個應用程式的物件型別，然後可以使用記錄型別的「表格」檢視將記錄連線到另一個或記錄連線到其他物件。
 
-如需有關將記錄型別相互連線或從其他應用程式連線到物件型別的資訊，請參閱 [連線記錄型別](../architecture-and-fields/connect-record-types.md).
+如需有關將記錄型別相互連線或從其他應用程式連線到物件型別的資訊，請參閱 [連線記錄型別](../architecture/connect-record-types.md).
 
-如需連線記錄型別的範例，請參閱 [連線記錄型別和記錄的範例](../architecture-and-fields/example-connect-record-types-and-records.md).
+如需連線記錄型別的範例，請參閱 [連線記錄型別和記錄的範例](../architecture/example-connect-record-types-and-records.md).
 
 您可以連線下列專案：
 
@@ -113,6 +113,61 @@ hide: yes
  </tbody>
 </table>
 
+<!--
+After permssions - replace the table with: 
+
+<table style="table-layout:auto">
+ <col>
+ </col>
+ <col>
+ </col>
+ <tbody>
+    <tr>
+<tr>
+<td>
+   <p> Adobe product</p> </td>
+   <td>
+   <p> Adobe Workfront</p> </td>
+  </tr>  
+ <td role="rowheader"><p>Adobe Workfront agreement</p></td>
+   <td>
+<p>Your organization must be enrolled in the Adobe Maestro closed beta program. Contact your account representative to inquire about this new offering. </p>
+   </td>
+  </tr>
+  <tr>
+   <td role="rowheader"><p>Adobe Workfront plan</p></td>
+   <td>
+<p>Any</p>
+   </td>
+  </tr>
+  <tr>
+   <td role="rowheader"><p>Adobe Workfront license</p></td>
+   <td>
+   <p>Any</p> 
+  </td>
+  </tr>
+  
+  <tr>
+   <td role="rowheader"><p>Access level</p></td>
+   <td> <p>Any</p>  
+</td>
+  </tr>
+<tr>
+   <td role="rowheader"><p>Layout template</p></td>
+   <td> <p>Your Workfront or group administrator must add the Maestro area in your layout template. For information, see <a href="../access/grant-access.md">Grant access to Adobe Maestro</a>. </p>  
+</td>
+  </tr>
+<tr>
+   <td role="rowheader"><p>Permissions</p></td>
+   <td> <p>Manage permissions to a workspace</a> </p>  
+   <p>System Administrators have permissions to all workspaces, including the ones they did not create</p>
+</td>
+  </tr>
+ </tbody>
+</table>
+
+-->
+
 <!--Maybe enable this at GA - but Maestro is not supposed to have Access controls in the Workfront Access Level: 
 >[!NOTE]
 >
@@ -143,11 +198,11 @@ hide: yes
    * Workfront物件。 例如，您必須先在Workfront中建立專案、投資組合、方案、公司或群組。
    * Maestro工作區、記錄型別和記錄。 如需詳細資訊，請參閱下列文章：
 
-      * [建立工作區](../architecture-and-fields/create-workspaces.md)
-      * [建立記錄型別](../architecture-and-fields/create-record-types.md)
+      * [建立工作區](../architecture/create-workspaces.md)
+      * [建立記錄型別](../architecture/create-record-types.md)
       * [建立記錄](../records/create-records.md)
 
-   * 記錄型別之間的連線，或記錄型別與其他應用程式物件之間的連線。 如需詳細資訊，請參閱 [連線記錄型別](../architecture-and-fields/connect-record-types.md).
+   * 記錄型別之間的連線，或記錄型別與其他應用程式物件之間的連線。 如需詳細資訊，請參閱 [連線記錄型別](../architecture/connect-record-types.md)
 
 ### 連線大師記錄
 
@@ -158,7 +213,7 @@ hide: yes
 1. （可選）展開現有工作區名稱右側的向下箭頭，並選取您要連線記錄的工作區。
 1. 按一下記錄型別的卡片以開啟記錄型別頁面。
 1. 選取 **表格** 從檢視 **檢視** 記錄型別頁面右上角的下拉式功能表。
-1. 從選取的記錄型別新增連線至其他記錄或物件型別。 如需詳細資訊，請參閱 [連線記錄型別](../architecture-and-fields/connect-record-types.md).
+1. 從選取的記錄型別新增連線至其他記錄或物件型別。 如需詳細資訊，請參閱 [連線記錄型別](../architecture/connect-record-types.md).
 
    表格中會新增一欄，以顯示連結的記錄型別。
 
@@ -216,7 +271,7 @@ hide: yes
    * 公司
    * 群組
 
-   如需詳細資訊，請參閱 [連線記錄型別](../architecture-and-fields/connect-record-types.md).
+   如需詳細資訊，請參閱 [連線記錄型別](../architecture/connect-record-types.md).
 
    表格中會新增一欄，以顯示連結物件型別。
 
