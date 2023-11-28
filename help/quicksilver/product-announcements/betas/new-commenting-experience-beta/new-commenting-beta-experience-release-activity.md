@@ -7,9 +7,9 @@ author: Alina
 feature: Product Announcements
 role: User, Admin
 exl-id: 276b28f0-3955-4a0e-aa31-604b291f2f14
-source-git-commit: c2c09486756db021b6edaf380c5a54d531ffa723
+source-git-commit: c3abb5dce14c0b19ab2e5b82f159cd29f80f79e4
 workflow-type: tm+mt
-source-wordcount: '2209'
+source-wordcount: '2223'
 ht-degree: 2%
 
 ---
@@ -117,6 +117,11 @@ For general information on the new commenting experience, including a list of fe
 ### 2023年9月11日起一週
 
 #### 新的評論體驗會擷取從2019年1月1日開始的資訊
+
+>[!NOTE]
+>
+>此限制已在2023年11月28日後移除。 如需詳細資訊，請參閱 [2024年第一季版本總覽](../../product-releases/24-q1-release-activity/24-q1-release-overview.md).
+
 
 專案、任務、問題和檔案現在顯示從2019年1月1日起的更新。 在此增強功能之前，新的註釋體驗僅擷取這些物件自2022年6月以來的更新。
 
@@ -362,19 +367,19 @@ For general information on the new commenting experience, including a list of fe
 
 針對註解Beta版的問題和目標發佈了以下維護更新：
 
-編輯註解時編輯附加影像. 如需詳細資訊，請參閱文章中的「4月27日維護更新」一節 <a href="https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=en#updates-in-april-2023">2023年4月更新</a>.
+編輯評論時編輯附加影像. 如需詳細資訊，請參閱文章中的「4月27日維護更新」一節 <a href="https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=en#updates-in-april-2023">2023年4月更新</a>.
 
 ### 2023 年 4 月 20 日
 
 針對註解Beta版的問題和目標發佈了以下維護更新：
 
-在離開目標更新和註解測試版體驗中的問題時，將影像保留為草稿. 如需詳細資訊，請參閱文章中的「4月20日維護更新」一節 <a href="https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=en#updates-in-april-2023">2023年4月更新</a>.
+在離開目標更新和評論測試版體驗中的問題時，將影像保留為草稿. 如需詳細資訊，請參閱文章中的「4月20日維護更新」一節 <a href="https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=en#updates-in-april-2023">2023年4月更新</a>.
 
 ### 2023 年 4 月 17 日
 
 針對註解Beta版的問題和目標發佈了以下維護更新：
 
-在問題 (新的註解 Beta 體驗) 和目標的更新區段顯示螢幕可見區域外的新註解. 如需詳細資訊，請參閱文章中的「4月17日維護更新」一節  <a href="https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=en#updates-in-april-2023">2023年4月更新</a>.
+在問題 (新的評論 Beta 體驗) 和目標的更新區段顯示螢幕可見區域外的新評論. 如需詳細資訊，請參閱文章中的「4月17日維護更新」一節  <a href="https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=en#updates-in-april-2023">2023年4月更新</a>.
 
 
 ### 2023年4月6日當週

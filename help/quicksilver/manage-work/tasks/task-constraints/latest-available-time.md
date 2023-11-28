@@ -2,34 +2,34 @@
 content-type: reference;how-to-procedural
 product-area: projects
 navigation-topic: task-constraints
-title: 「任務約束概述：最新可用時間'
-description: 「最新可用時間」(LAT)是Adobe Workfront中的「任務限制」類型。
+title: 「任務限制總覽：最新可用時間」
+description: 最新可用時間(LAT)是Adobe Workfront中的任務限制型別。
 author: Alina
 feature: Work Management
 exl-id: acf55004-9424-4e24-9ff5-90f6fd7f72a6
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: c3abb5dce14c0b19ab2e5b82f159cd29f80f79e4
 workflow-type: tm+mt
 source-wordcount: '334'
 ht-degree: 0%
 
 ---
 
-# 任務約束概覽：最新可用時間
+# 任務限制總覽：最新可用時間
 
-「最新可用時間」(LAT)是Adobe Workfront中的「任務限制」類型。
+最新可用時間(LAT)是Adobe Workfront中的任務限制型別。
 
-## 使用最新可用時間任務約束
+## 使用最新可用時間任務限制
 
-在考慮項目中的前置項 — 後繼項關係後，如果要安排從最新可用時間開始的任務，則可以使用LAT約束。
+當您想要在專案中考慮前置任務 — 後續任務關係後，在最新的可用時間開始排程任務時，可以使用LAT限制。
 
-此約束與「盡快」不同，因為它不會強制重新安排前置任務或後置任務。 相反，它只會影響與其關聯的任務的時間表，根據其與其他任務的關係將其設定為最新的可用時間。
+此限制與「儘快」不同，因為它不會強制重新排程前置任務或後續任務。 相反地，它只會影響與其相關聯之任務的排程，根據其與其他任務的關係將其設定為最新的可用時間。
 
-有關如何更新任務的任務約束的資訊，請參閱 [更新任務的任務約束](../../../manage-work/tasks/task-constraints/update-task-constraint-of-task.md).
+如需有關如何更新任務的任務限制資訊，請參閱 [更新任務的任務限制](../../../manage-work/tasks/task-constraints/update-task-constraint-of-task.md).
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
 <p>To update the Task Constraint to Latest Available Time:</p>
-<p>(NOTE:&nbsp;replaced with new article linked above)&nbsp;</p>
+<p>(NOTE: replaced with new article linked above) </p>
 <ol>
 <li value="1">Go to a task whose Task Constraint you want to update.</li>
 <li value="2"> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click the <strong>More</strong> icon <img src="assets/qs-more-icon-on-an-object.png"> next to the task name, then click <strong>Edit</strong>.</p> </li>
@@ -40,35 +40,35 @@ ht-degree: 0%
 </div>
 -->
 
-## 最新可用時間與盡可能晚之間的差異
+## 最新可用時間和儘可能晚可用時間之間的差異
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: [! This section is duplicated in "As Late As Possible"] - inserted snippet in both (Alina)) </p>
 -->
 
-當存在以下條件時，「最新可用時間」約束與「盡可能晚」約束不同：
+當存在下列條件時，「最新可用時間」限制與「儘可能晚到」限制不同：
 
-* 專案排程從開始日期開始
-* 項目中的任務具有前置關係
-* 後續任務具有靈活的任務約束
+* 從開始日期排程專案
+* 專案中的任務具有前置任務關係
+* 後續任務具有彈性任務限制
 
-在這種情況下：
+在此情況下：
 
-* **最新可用時間：** 在前置任務上使用「最新可用時間」約束將優先順序設定為後置任務的靈活約束。
+* **最新可用時間：** 對前置任務使用最新可用時間限制時，會優先處理後續任務的彈性限制。
 
-   **範例：** 例如，任務A是任務B的前身。任務A具有最新的可用時間約束，任務B具有盡快的約束。 在此情況下，任務A將排程得盡可能靠近項目開始。
+  **範例：** 例如，任務A是任務B的前置任務。任務A具有「最新可用時間」限制，而任務B具有「儘快」限制。 在此情況下，任務A會儘可能安排在接近專案開始的時間。
 
-   ![](assets/latest-available-time-task-constraint-in-task-list-350x116.png)
+  ![](assets/latest-available-time-task-constraint-in-task-list-350x116.png)
 
-* **盡可能晚：** 在此情況下，對前置任務使用盡可能晚的約束將優先順序分配給前置任務。
+* **儘可能遲：** 在此案例中，在前置任務上使用儘可能晚的限制會將優先順序給予前置任務。
 
-   **範例：** 例如，任務A是任務B的前身。任務A具有盡可能晚的約束，任務B具有盡可能快的約束。 在此情況下，任務A將排程得盡可能接近專案結尾。
+  **範例：** 例如，任務A是任務B的前置任務。任務A具有儘可能晚的限制，而任務B具有儘可能早的限制。 在此情況下，任務A會排程儘可能接近專案結尾。
 
-   ![](assets/as-late-as-possible-task-constraint-in-task-list-350x104.png)
+  ![](assets/as-late-as-possible-task-constraint-in-task-list-350x104.png)
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
-<p>(NOTE:&nbsp;this content was here before but it was wrong - according to this issue in Hub, per Dev, the correct functionality is in the snippet above: https://hub.workfront.com/task/6193c6910004bce9de07cda7757f3ce8/updates?email-source=subscribedCommunication) </p>
+<p>(NOTE: this content was here before but it was wrong - according to this issue in Hub, per Dev, the correct functionality is in the snippet above: https://hub.workfront.com/task/6193c6910004bce9de07cda7757f3ce8/updates?email-source=subscribedCommunication) </p>
 <p>The Latest Available Time constraint differs from the As Late As Possible constraint when the following criteria exist:</p>
 <ul>
 <li> The project is scheduled From Completion </li>

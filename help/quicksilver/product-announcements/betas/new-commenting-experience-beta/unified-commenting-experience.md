@@ -7,9 +7,9 @@ author: Alina
 feature: Product Announcements
 role: User
 exl-id: f750b35b-8021-4cc1-81d6-e1ece2530438
-source-git-commit: 937498a68a994d19b0005d518d7e313c48961672
+source-git-commit: c3abb5dce14c0b19ab2e5b82f159cd29f80f79e4
 workflow-type: tm+mt
-source-wordcount: '918'
+source-wordcount: '863'
 ht-degree: 3%
 
 ---
@@ -64,18 +64,21 @@ The new commenting experience will slowly become available for all the objects w
 * 當Workfront或群組管理員以其他使用者身份登入並代表他們新增評論時，「代表&lt;使用者名稱>」資訊最初被移除。 它已於2023年10月19日恢復。
 * 當您在檔案中新增註解時標籤人員的「要求核准」選項。
 
+<!--removed this note on November 28, 2023, when this limitation was removed: 
+
 >[!NOTE]
 >
->以下列出的物件只有新註釋體驗中提供的從2019年1月1日開始的註釋和系統更新。
+>The objects listed below have only the comments and system updates starting with January 1, 2019 available in the new commenting experience.  
 >
->在2019年1月1日之前檢視目前體驗中的「更新」區段時，您可以檢視這些物件的註解和系統更新：
+>You can view comments and system updates on these objects prior to January 1, 2019 when viewing the Updates section in the current experience:
 >
->* 問題
->* 專案
->* 任務
->* 文件
+>* Issues
+>* Projects
+>* Tasks
+>* Documents
 
-如需詳細資訊，請參閱 [新的評論體驗常見問題集](../../betas/new-commenting-experience-beta/new-commenting-faq.md).
+For more information, see the [New commenting experience FAQs](../../betas/new-commenting-experience-beta/new-commenting-faq.md). 
+-->
 
 下表說明新評論體驗中可用的功能，及其在支援區域中的可用性：
 

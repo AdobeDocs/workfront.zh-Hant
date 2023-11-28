@@ -4,9 +4,10 @@ description: 您可以共用或移除您所建立之Adobe Maestro工作區的許
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 6d1d3d82e15f4232ff81294d9094c2683b01ca89
+exl-id: 698036a6-b3b4-44a9-91ee-63fdb6a646a1
+source-git-commit: c3abb5dce14c0b19ab2e5b82f159cd29f80f79e4
 workflow-type: tm+mt
-source-wordcount: '375'
+source-wordcount: '382'
 ht-degree: 2%
 
 ---
@@ -94,6 +95,7 @@ ht-degree: 2%
      <li>新增欄位</li> 
      <li>刪除欄位</li> 
      <li>在記錄型別之間新增連線</li> 
+     <li>與使用者和群組共用工作區</li> 
      </ul> </td> 
   </tr> 
   <tr> 
@@ -119,5 +121,3 @@ ht-degree: 2%
 如需有關共用Maestro工作區的資訊，請參閱 [授與Adobe大師的存取權](../access/grant-access.md).
 
 <!--This is currently not possible: ## Request permissions to objects -->
-
-
