@@ -8,9 +8,9 @@ feature: Product Announcements
 hide: true
 hidefromtoc: true
 exl-id: a1603a06-957b-4d52-89f3-f0cec1a4e02c
-source-git-commit: 2778cd34a70f2c268490bdf4cbc2e8ef81bdead2
+source-git-commit: 02e55be36d3b649aeb5b81d185538f77ac3d4ec7
 workflow-type: tm+mt
-source-wordcount: '1136'
+source-wordcount: '1183'
 ht-degree: 0%
 
 ---
@@ -60,9 +60,17 @@ ht-degree: 0%
 
 以下是我們要解決的主要使用案例相關資訊，以及我們目前計畫要處理的功能。 <!--, along with documentation to get you started testing.-->
 
+>[!NOTE]
+>
+><span class="preview">醒目提示文字</span> 以下提及尚未實作，但將納入後續版本的功能。
+>
+>專案符號下 **「未來版本的潛在改善」** 視於alpha意見回饋和我們的開發計畫而定，頁首可能包含在未來版本中，也可能不包含在未來版本中。
+>
+
+
 ### Workfront管理員可以在Workfront群組和Frame.io帳戶之間建立連線
 
-* _在Workfront中，您可以將Workfront群組連線至Frame.io帳戶_
+* <span class="preview">在Workfront中，您可以將Workfront群組連線至Frame.io帳戶</span>
 
 * 將在Frame.io中建立新的Frame.io群組，代表已連線的Workfront群組
 
@@ -76,19 +84,19 @@ ht-degree: 0%
 
 * 可透過指派框架連線群組將Workfront專案標示為Frame.io已啟用
 
-* _增強功能：能夠將Workfront專案內的任務切換為框架任務，這反過來會在Frame.io內建立任務資料夾_
+* <span class="preview">增強功能：能夠將Workfront專案內的任務切換為框架任務，這反過來會在Frame.io內建立任務資料夾</span>
 
 * 當Workfront專案狀態設定為「目前」時，對應的已連線專案會在Frame中建立，Workfront指派的使用者會新增至Frame專案，並從Frame.io傳送電子郵件通知給他們
 
    * 所有Workfront專案成員（使用者和團隊）將新增為Frame.io專案的共同作業人員（于專案建立時及稍後時）
 
-   * _變更：指派給已啟用Frame之Workfront任務的使用者和團隊將新增為Frame.io專案的共同作業人員，並會收到通知（專案建立時和稍後時）_
+   * <span class="preview">變更：指派給已啟用Frame之Workfront任務的使用者和團隊將新增為Frame.io專案的共同作業人員，並會收到通知（專案建立時和稍後時）</span>
 
 * 當建立專案時，新增至專案和啟用Frame之任務的檔案（創意簡介）將推送至Frame.io專案（在個別工作資料夾內）（觸發器：專案狀態設為「目前」）
 
    * 建議您先限制新增到專案中的檔案數量，然後再開始使用創意摘要，以避免傳送多份不必要的檔案至Frame.io
 
-* _增強功能：若從已啟用框架的Workfront任務中明確取消指派，則會從Frame.io專案中移除使用者/團隊_
+* <span class="preview">增強功能：若從已啟用框架的Workfront任務中明確取消指派，則會從Frame.io專案中移除使用者/團隊</span>
 
 **未來版本的潛在改善：**
 
@@ -104,9 +112,9 @@ ht-degree: 0%
 
 * 在Frame.io內上傳的新版本會自動在Workfront內的已連線資產上建立新檔案版本
 
-* _增強功能：能夠從Frame.io中將參照的Workfront工作標示為完成_
+* <span class="preview">增強功能：能夠從Frame.io中將參照的Workfront工作標示為完成</span>
 
-* _增強功能：萬一刪除已連線的Workfront檔案，檔案會保留在Frame.io中，並可重新連線至相同或其他專案任務_
+* <span class="preview">增強功能：萬一刪除已連線的Workfront檔案，檔案會保留在Frame.io中，並可重新連線至相同或其他專案任務</span>
 
 **未來版本的潛在改善：**
 
@@ -118,7 +126,7 @@ ht-degree: 0%
 
 * 可以將Workfront使用者和團隊新增到Frame.io連線檔案的新檔案核准
 
-* _增強：當使用者/團隊從已啟用Frame的檔案中取消共用時，他們也將失去對Frame.io Viewer中資產的存取權_
+* <span class="preview">增強：當使用者/團隊從已啟用Frame的檔案中取消共用時，他們也將失去對Frame.io Viewer中資產的存取權</span>
 
 **未來版本的潛在改善：**
 
@@ -134,12 +142,12 @@ ht-degree: 0%
 
 * 能夠利用Frame.io Viewer提供的現有檢閱和註解功能(將與Workfront的更新流同步)
 
-* _能夠從Frame.io檢視器內作出新檔案核准決定_
+* <span class="preview">能夠從Frame.io檢視器內作出新檔案核准決定</span>
 
 ### 在Frame.io中，創意人員將會收到有關已連線Frame.io資產上所做整體決策的通知
 
-* _增強功能：整體檔案核准狀態會顯示在Frame.io內的資產上_
+* <span class="preview">增強功能：整體檔案核准狀態會顯示在Frame.io內的資產上</span>
 
 ### 專案專員可將最終資產傳送至AEM
 
-* _增強功能：可使用現有的Workfront + AEM Asset CS聯結器，將包含中繼資料的框架連線檔案傳送至AEM_
+* <span class="preview">增強功能：可使用現有的Workfront + AEM Asset CS聯結器，將包含中繼資料的框架連線檔案傳送至AEM</span>

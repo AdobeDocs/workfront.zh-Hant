@@ -7,13 +7,13 @@ author: Nolan
 feature: Product Announcements
 hide: true
 hidefromtoc: true
-source-git-commit: 0ad33f377086f71699c550e2300731056a834e72
+exl-id: 8c9f26fb-4d61-4743-959d-cfaba1b7b63b
+source-git-commit: 02e55be36d3b649aeb5b81d185538f77ac3d4ec7
 workflow-type: tm+mt
 source-wordcount: '599'
 ht-degree: 0%
 
 ---
-
 
 # Adobe Workfront與Frame.io原生整合alpha：概觀
 

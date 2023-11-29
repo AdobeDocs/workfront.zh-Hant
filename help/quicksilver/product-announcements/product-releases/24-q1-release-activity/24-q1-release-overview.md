@@ -3,13 +3,13 @@ title: 2024年第一季版本總覽
 description: 2024年第一季版本總覽
 author: Becky
 feature: Product Announcements
-source-git-commit: e58f502917e0091b046152531bcda0ee9b759b25
+exl-id: 2ad9e170-9e63-472a-8476-13f81b7abff3
+source-git-commit: 02e55be36d3b649aeb5b81d185538f77ac3d4ec7
 workflow-type: tm+mt
-source-wordcount: '789'
+source-wordcount: '897'
 ht-degree: 0%
 
 ---
-
 
 # 2024年第一季版本總覽
 
@@ -99,6 +99,40 @@ The <add release> release webinar will be held on <date>. You can [register for 
            </tbody>
 </table>
 
+### 首頁增強功能
+
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 50%;" />
+            <tbody>
+                <tr>
+                    <td>
+                        <p><span class="bold">功能</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">發行日期</span>
+                        </p>
+                    </td>
+                 </tr>
+                 <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">我的工作快速動作按鈕已變更為僅在滑鼠懸停時顯示</a><span style="color: #ff0000;"> 預覽中的新增專案！</span></p><p>為了提高效能，現在只有當工作專案以滑鼠懸停在工作專案上時，才會顯示我的工作Widget中可用的快速動作按鈕。</p>
+                    </td>
+                    <td><p><b>將於下列日期提供：</b></p>
+                        <ul>
+                            <li>
+                                <p>預覽版本： 2023年11月29日</p>
+                            </li>
+                            <li>
+                                <p><span class="preview">適用於所有客戶的生產： 2023年11月29日</span></p>
+                            </li>
+                        </ul>
+                    </td>
+                 </tr>
+           </tbody>
+        </table>
+
 ### 整合增強功能
 
 <table>
@@ -164,6 +198,21 @@ The <add release> release webinar will be held on <date>. You can [register for 
                         </p>
                     </td>
                  </tr>
+                 <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">新的評論體驗會擷取專案、任務、問題和檔案的所有資訊</a><span style="color: #ff0000;"> 預覽中的新增專案！</span></p><p>專案、任務、問題和檔案會顯示自Workfront執行個體開始以來的新評論體驗區域中的所有更新。</p>
+                    </td>
+                    <td><p><b>將於下列日期提供：</b></p>
+                        <ul>
+                            <li>
+                                <p>預覽版本： 2023年11月28日</p>
+                            </li>
+                            <li>
+                                <p>適用於所有客戶的生產： 2023年11月28日</p>
+                            </li>
+                        </ul>
+                    </td>
+                    </tr>
                  <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">在更新區段中搜尋評論或使用者</a><span style="color: #ff0000;"> 預覽中的新增專案！</span></p><p>若要在物件的「更新」區段中快速尋找資訊，您現在可以從註解搜尋關鍵字，或搜尋與註解相關聯的任何使用者。</p>

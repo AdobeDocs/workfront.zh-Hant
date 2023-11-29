@@ -1,14 +1,9 @@
 ---
-content-type: tips-tricks-troubleshooting
-product-previous: workfront-proof
-product-area: documents
-navigation-topic: tips-tricks-and-troubleshooting-workfront-proof-mobile
 title: 無法登入 [!DNL Workfront Proof] 行動應用程式
 description: 登入Workfront Proof行動應用程式疑難排解。
-author: Courtney
-feature: Workfront Proof, Digital Content and Documents
-exl-id: c6c52365-dbfe-481f-953c-6c70af6af46d
-source-git-commit: c3e15a052533d43065b50a9f56169b82f8dc3765
+hide: true
+hidefromtoc: true
+source-git-commit: 02e55be36d3b649aeb5b81d185538f77ac3d4ec7
 workflow-type: tm+mt
 source-wordcount: '152'
 ht-degree: 0%
