@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: d3c22c84a9b246d1a45853c5d2825241f58bebe9
+source-git-commit: 579c30d1090f80d7fecef47286206e4ba03ddbb7
 workflow-type: tm+mt
-source-wordcount: '2041'
+source-wordcount: '2161'
 ht-degree: 0%
 
 ---
@@ -62,6 +62,30 @@ The following are the permissions levels for Maestro workspaces:
 Only Workfront administrators can create, edit, or delete workspaces and all information associated with them.  
 
 For more information, see [Grant access to Adobe Maestro](../maestro/access/grant-access.md) and [Overview of sharing permissions in Adobe Maestro](../maestro/access/sharing-permissions-overview.md). -->
+
+## 2023年11月27日當週
+
+### 在Maestro表格檢視中，將資訊從一個欄位複製並貼上到另一個欄位
+
+預覽和生產： 2023年11月28日
+
+您現在可以在Maestro記錄型別表格檢視中，將資訊從一個欄位複製並貼到另一個相同型別的欄位。
+
+請考量下列事項：
+
+* 您無法從其他來源複製資訊，除了與貼上資訊的欄位型別相同的Maestro欄位之外。
+
+* 您無法複製和貼上顯示在記錄之詳細資訊區域中的欄位值。
+
+* 您無法複製和貼上下列欄位型別的欄位值：
+
+   * 人員
+
+   * 系統欄位
+
+   * 在連線記錄之後建立的連結欄位
+
+如需詳細資訊，請參閱 [編輯記錄](../maestro/records/edit-records.md).
 
 ## 2023年11月6日當週
 

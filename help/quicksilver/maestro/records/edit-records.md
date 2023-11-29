@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: 85f499a429d4223c62b7b13dc0b1d10e8e79e9ed
+source-git-commit: 66a4a1e11ff04008d1d0c77fbd6887e8f5f1c46b
 workflow-type: tm+mt
-source-wordcount: '668'
-ht-degree: 2%
+source-wordcount: '821'
+ht-degree: 1%
 
 ---
 
@@ -193,7 +193,7 @@ After permssions - replace the table with:
 
 ### 從記錄型別表格檢視編輯記錄
 
-1. 按一下 **主要功能表** ![](assets/main-menu-workfront.png) 在右上角， <!--or the **Main Menu** ![](assets/main-menu-shell.png) in the upper-left corner, if it is available,--> 然後按一下 **大師** ![](assets/maestro-icon.png).
+1. 按一下 **主要功能表** ![](assets/main-menu-workfront.png) 位於右上角，或 **主要功能表** ![](assets/main-menu-shell.png) 左上角（如果有的話），然後按一下 **大師** ![](assets/maestro-icon.png).
 
    您上次存取的工作區會開啟。
 
@@ -201,10 +201,38 @@ After permssions - replace the table with:
 1. 按一下記錄型別卡。
 
    記錄型別頁面隨即開啟。
-1. （視條件而定）從 **檢視** 在表格右上角的下拉式功能表中，選取「表格」檢視。 這應為預設檢視，除非您上次存取時間軸檢視時已檢視該記錄型別。
+1. （視條件而定）從 **檢視** 在表格右上角的下拉式功能表中，選取 **表格** 檢視。 這應為預設檢視，除非您上次存取時間軸檢視時已檢視該記錄型別。
 
    與所選記錄型別相關聯的記錄會顯示在表格檢視中。
 1. 在記錄列內按一下，開始編輯有關內嵌記錄的資訊。
 
    ![](assets/edit-record-paragraph-field-with-formatting-table-view.png)
 1. 按下 **輸入** 使用鍵盤或按一下資料列外部以儲存變更。 變更會自動儲存。 已儲存的指標會短暫顯示在表格檢視的右上角，顯示變更已儲存。
+
+   >[!NOTE]
+   >
+   >  您無法編輯下列欄位的資訊，因為這些欄位是唯讀欄位，且Workfront會自動更新它們：
+   >  
+   >  * 透過連結記錄型別建立的連結欄位
+   >  * 下列型別的欄位：建立者、建立日期、上次修改者、上次修改日期
+
+
+1. （可選）複製欄位的現有值，然後貼入另一筆記錄中相同型別的欄位中，然後按一下 **輸入** 以儲存變更。
+
+   >[!NOTE]
+   >
+   >請考量下列事項：
+   >
+   >* 您無法從其他來源複製資訊，除了與貼上資訊的欄位型別相同的Maestro欄位之外。
+   >
+   >* 您無法複製和貼上顯示在記錄之詳細資訊區域中的欄位值。
+   >* 您無法複製和貼上下列欄位型別的欄位值：
+   ><ul>
+   >
+   > * 人員
+   >
+   > * 系統欄位
+   >
+   > * 在連線記錄之後建立的連結欄位
+
+   <!--take People out of the list above when they release this - this might be coming later-->
