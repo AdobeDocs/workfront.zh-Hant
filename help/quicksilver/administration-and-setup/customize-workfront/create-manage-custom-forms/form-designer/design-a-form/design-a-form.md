@@ -8,9 +8,9 @@ author: Courtney
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: 456310e460bae44183de390efc4be919fda3f36d
+source-git-commit: 85afa798eacb297ad4e5fd3a92277e307eea5a97
 workflow-type: tm+mt
-source-wordcount: '4886'
+source-wordcount: '4908'
 ht-degree: 4%
 
 ---
@@ -538,8 +538,9 @@ ht-degree: 4%
       <td><p>輸入或貼上API的URL。</p><p>API URL必須傳回您要在下拉式清單中顯示的選項JSON內容。 您可以使用JSON路徑欄位，從傳回的JSON中選取特定值作為下拉式選項。</p><p>輸入API URL時，您可以選擇在URL中傳遞下列值：</p>
       <ul><li>$$QUERY — 這代表一般使用者在欄位中輸入的搜尋文字，可讓您為一般使用者實作查詢篩選。 （使用者會在下拉式清單中搜尋值。）</li>
       <li>$$HOST — 這代表目前的Workfront主機，可用來對Workfront API進行/search API呼叫。 使用此萬用字元時，會處理驗證，使用者不需要傳送驗證標題。 （例如，使用者可以使用基本URL "$$HOST/attask/api/task/search"來搜尋工作，而且它允許搜尋工作並從傳回的工作清單中選取值。）</li>
-      <li>{fieldName}  — 其中fieldName是Workfront中的任何自訂或原生欄位。 這樣，當您將已選取欄位的值傳遞至外部查詢欄位以篩選下拉選項時，您就可以實作階層式下拉選項篩選器。 （例如，「地區」欄位已存在於表單上，而您正在將國家/地區清單從API縮小至特定地區。）</li></ul>
-      <p><strong>注意：</strong> 檢閱您正在使用的API的檔案，以瞭解您可以定義的特定查詢。</p></td> 
+      <li>{fieldName}  — 其中fieldName是Workfront中的任何自訂或原生欄位。 這樣，當您將已選取欄位的值傳遞至外部查詢欄位以篩選下拉選項時，您就可以實作階層式下拉選項篩選器。 （例如，「地區」欄位已存在於表單上，而您正在將國家/地區清單從API縮小至特定地區。）</li>
+      <li>{referenceObject}.{fieldName}  — 其中欄位是物件的一部分。 此語法類似於自訂運算式。 (例如，portfolioID={project}.{portfolioID})</li></ul>
+      <p><strong>注意：</strong> 檢閱您正在使用的API的檔案，以瞭解您可以定義的特定查詢。</p></td>
      </tr>
      <tr> 
       <td role="rowheader">HTTP 方法</td> 
@@ -615,7 +616,7 @@ The Workfront Mobile app -->
 
    * 影像
    * PDF
-   * 視訊
+   * 影片
 
    ![](assets/drag-field-to-section.png)
 
