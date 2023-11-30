@@ -4,9 +4,9 @@ description: 2024年第一季版本總覽
 author: Becky
 feature: Product Announcements
 exl-id: 2ad9e170-9e63-472a-8476-13f81b7abff3
-source-git-commit: 02e55be36d3b649aeb5b81d185538f77ac3d4ec7
+source-git-commit: e46a471ce0d2d7c3a6a95cfc056516555628c150
 workflow-type: tm+mt
-source-wordcount: '897'
+source-wordcount: '899'
 ht-degree: 0%
 
 ---
@@ -151,7 +151,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
                  </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Adobe Experience Manager整合現在提供預先輸入欄位</a><span style="color: #ff0000;"> 預覽中的新增專案！</span></p><p>為了更方便在Workfront和Adobe Experience Manager之間連結欄位，我們在中繼資料對應中新增了預先輸入欄位的支援。 現在，您可以將預先輸入欄位對應至Adobe Experience Manager中的對應欄位。</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Adobe Experience Manager整合現在提供預先輸入欄位</a></p><p>[！BADGE In Production ]{type=Informative}</p><p>為了更方便在Workfront和Adobe Experience Manager之間連結欄位，我們在中繼資料對應中新增了預先輸入欄位的支援。 現在，您可以將預先輸入欄位對應至Adobe Experience Manager中的對應欄位。</p>
                     </td>
                     <td><p><b>將於下列日期提供：</b></p>
                         <ul>
@@ -159,7 +159,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
                                 <p>預覽版本： 2023年11月16日</p>
                             </li>
                             <li>
-                                <p><span class="preview">所有客戶的生產： 2023年12月7日</span></p>
+                                <p><span class="preview">適用於所有客戶的生產： 2023年11月29日</span></p>
                             </li>
                         </ul>
                     </td>
