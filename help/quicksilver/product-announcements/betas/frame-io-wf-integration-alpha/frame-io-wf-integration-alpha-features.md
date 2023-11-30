@@ -8,9 +8,9 @@ feature: Product Announcements
 hide: true
 hidefromtoc: true
 exl-id: a1603a06-957b-4d52-89f3-f0cec1a4e02c
-source-git-commit: 02e55be36d3b649aeb5b81d185538f77ac3d4ec7
+source-git-commit: 15e2869417d8315bf8e96f7d9d537cd70a5e39df
 workflow-type: tm+mt
-source-wordcount: '1183'
+source-wordcount: '1204'
 ht-degree: 0%
 
 ---
@@ -32,25 +32,30 @@ ht-degree: 0%
 
 若要測試功能，請登入您的Workfront預覽或沙箱執行個體，然後執行下列步驟：
 
+>[!NOTE]
+>
+><span class="preview">醒目提示文字</span> 以下提及尚未針對測試實作，但將包含在更新版本中的功能。
+>
+
 1. **協調員：** 在Workfront中，建立專案，使用 `Frame.io alpha testing` 群組已指派為專案群組。
 
-1. **協調員：** 在Workfront中，將創意內容指派給專案或啟用影格的任務，並將專案狀態變更為「目前」。
+1. **協調員：** 在Workfront中，將您的創意內容指派給專案 <span class="preview">或框架啟用的任務</span> 並將專案狀態變更為「目前」。
 
 1. **創意內容：** 檢查您的電子郵件，以取得新建立Frame.io專案的邀請
 
 1. **創意內容：** 按一下邀請電子郵件中的「加入專案」按鈕，加入Frame.io專案、檢閱專案內的創意簡報，並在您選擇的Creative Cloud工具中開始建立內容。
 
-1. **創意內容：** 將您建立的資產上傳到Frame.io，並將其新增到連結的Workfront專案（或指派已啟用框架的任務）。
+1. **創意內容：** 將您建立的資產上傳至Frame.io，並將其新增至連結的Workfront專案 <span class="preview">（或指派的框架啟用工作）。</span>
 
 1. **協調員：** 在Workfront中，在您的專案中找到連結的Frame.io資產，並指派檢閱者/核准者(如需指派檢閱/核准者的詳細資訊，請參閱 [新增其他核准者或稽核者至檔案](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/add-additional-reviewers-or-approvers.md))。
 
 1. **利害關係人：** 在Workfront中，在「首頁」或「檔案詳細資訊」中檢視您的核准請求，並在Frame.io檢視器中檢閱「框架連線」檔案，然後留下包含意見回饋的註解。
 
-1. **協調員：** 在Workfront中，檢視利害關係人在Frame.io連線檔案的「更新」區段內建立的評論。
+1. <span class="preview">**協調員：** 在Workfront中，檢視利害關係人在Frame.io連線檔案的「更新」區段內建立的評論。</span>
 
-1. **利害關係人：** 在Frame.io檢視器中做出決定。
+1. <span class="preview">**利害關係人：** 在Frame.io檢視器中做出決定。</span>
 
-1. **創意內容：** 在Frame.io中，請注意針對您的資產所作出的整體核准決定。
+1. <span class="preview">**創意內容：** 在Frame.io中，請注意針對您的資產所作出的整體核准決定。</span>
 
 1. **創意內容：** 在Frame.io中，將更新版本新增至連線資產的版本棧疊中，以套用要求的變更。
 
