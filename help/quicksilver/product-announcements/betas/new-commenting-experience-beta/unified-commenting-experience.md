@@ -7,10 +7,10 @@ author: Alina
 feature: Product Announcements
 role: User
 exl-id: f750b35b-8021-4cc1-81d6-e1ece2530438
-source-git-commit: c3abb5dce14c0b19ab2e5b82f159cd29f80f79e4
+source-git-commit: 3ec1b40ec66b7fa043412203b6c0303a27eb8bfc
 workflow-type: tm+mt
-source-wordcount: '863'
-ht-degree: 3%
+source-wordcount: '1226'
+ht-degree: 2%
 
 ---
 
@@ -33,7 +33,7 @@ After the monthly releases to Production, the same features are also available i
 >
 >新評論體驗的Beta版計畫從2023年4月開始，到2023年10月結束。 新評論體驗的Beta版計畫已於2023年10月版本中結束。
 >
->本文所述功能已於2023年10月向所有客戶發佈，除非另有說明。
+>從2023年10月開始，新評論體驗的所有新功能都會發行給所有客戶。 如需詳細資訊，請參閱每個版本目前的版本概觀頁面。
 
 <!--An update to the commenting experience in Adobe Workfront is currently in development. This update includes a new interface, new features, and improved performance in the Updates section of select objects. 
 
@@ -502,9 +502,45 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
 
 ## 發行時間表
 
-有關最近發行給新評論體驗的功能以及發行時間表的資訊，請參閱 [新的評論Beta版體驗發行活動](../../betas/new-commenting-experience-beta/new-commenting-beta-experience-release-activity.md).
+如需在Beta版時間範圍內發行給新評論體驗之功能的相關資訊，請參閱 [新的評論Beta版體驗發行活動](../../betas/new-commenting-experience-beta/new-commenting-beta-experience-release-activity.md).
 
 如需管理Workfront物件更新的詳細資訊，請參閱 [更新工作](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+
+以下是新註解體驗發行至生產環境的計畫時間表，其中包含關鍵里程碑。 除了下列里程碑，我們將繼續透過較小的增強功能改善評論體驗。
+
+如需有關Beta版結束後針對新評論體驗所發行功能的資訊，請參閱目前的版本概觀頁面。
+
+以下是新評論體驗發行的計畫時間表：
+
+* 第23.2發行版本（2023年4月6日）：
+   * 啟動問題的評論體驗Beta版
+   * 發佈目標的新評論體驗（作為唯一體驗）
+* 第23.3發行版本（2023年7月20日）：
+   * 啟動專案、任務和檔案的評論體驗測試版。
+   * 針對展示板區域中的卡片發行新的註解體驗（作為唯一體驗）
+* 在2023年第四季版本（限量版，僅供選擇快速版本的客戶使用）：
+   * 發行新的範本、範本任務、計畫、投資組合、團隊、使用者和時程表的評論體驗（作為唯一體驗）
+   * 更新專案、任務、問題和檔案的評論體驗Beta版，使其成為預設選項。 「Beta」標籤會移除。
+* 2023年第四季(23.10)版本（2023年10月26日）
+   * 發行新的範本、範本任務、計畫、投資組合、團隊、使用者和時程表的評論體驗（作為唯一的體驗）給所有客戶。
+   * 將專案、任務、問題和檔案的新註解體驗設為預設選項。
+
+  >[!IMPORTANT]
+  >
+  >    這將結束新評論體驗的Beta階段。
+
+   * 自此日期開始針對新評論體驗發佈的所有功能，都是目前定期每月和季度發佈的一部分。
+* 2023年底：
+   * 將舊版註釋體驗保留為下列物件的次要選項：專案、任務、問題和檔案。 新的註解體驗是這些物件之所有使用者的預設選項。
+   * 讓新的註解體驗成為所有其他物件的唯一體驗。
+
+  >[!NOTE]
+  >
+  >    反複專案將繼續擁有舊版評論體驗。 新的註解體驗將不可用於反複專案。
+
+* 2024年第二季（2024年4月）：
+
+   * 移除切換回舊版註解資料流的選項，並使新註解資料流成為所有物件的唯一體驗，版序除外。
 
 ## 找出新的註解體驗
 
