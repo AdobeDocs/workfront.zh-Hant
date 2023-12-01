@@ -9,8 +9,7 @@ title: Adobe Experience Manager Forms模組
 description: 使用 [!DNL Adobe Experience Manager Forms] 的聯結器 [!DNL Adobe Workfront Fusion], you can start a scenario based on events in your [!DNL Adobe Experience Manager Forms] 帳戶、建立、上傳和更新資產，以及複製或行動資料夾和資產。
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
-exl-id: 0749f230-8cab-464f-863c-9cb4870125d1
-source-git-commit: 744b2c3c13a1fe4bd07d9de2eec50dce59ae2863
+source-git-commit: c4e068729d8de4bef4b2018868e3fa020ca61a06
 workflow-type: tm+mt
 source-wordcount: '555'
 ht-degree: 1%
