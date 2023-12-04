@@ -6,9 +6,9 @@ description: 您可以在Adobe Workfront物件（專案、任務或問題）上�
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: fdf4c86ce70402885e109a680ed1b088dcf71f55
+source-git-commit: 97f6e3390a2bf2a4f01c2780561bad80d271f03a
 workflow-type: tm+mt
-source-wordcount: '4005'
+source-wordcount: '4052'
 ht-degree: 1%
 
 ---
@@ -102,7 +102,9 @@ After the monthly releases to Production, the same features are also available i
    * 從首頁區域（用於任務和問題）
    * 從物件清單中的摘要面板或時間表（用於任務和問題）
 
-本頁資訊說明如何評論Workfront物件，以及如何更新專案、任務和問題。
+此頁面上的資訊說明如何在Workfront物件上加上註解，以及如何在新增註解時更新專案、任務和問題。
+
+<!--take this out (below) when we remove legacy out of the application-->
 
 如需有關註解目標的資訊，請參閱 [在Adobe Workfront目標中管理目標註解](../../workfront-goals/goal-management/manage-goal-comments.md). 您必須額外擁有授權才能存取Workfront目標。
 
@@ -156,13 +158,14 @@ drafted for P&P release:
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Adobe Workfront授權*</strong></td> 
-   <td> <p>要求或更高的問題和檔案；檢閱或更高的所有其他物件</p> </td> 
+   <td> <p>要求或更高的問題和檔案</p>
+   <p> 檢視其他所有物件或以上物件</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>存取層級設定*</strong></td> 
    <td> <p>檢視或編輯更新所在物件的存取權</p> <p><b>附註</b>
 
-如果您還是沒有存取權，請詢問您的Workfront管理員，他們是否在您的存取層級中設定其他限制。 如需有關Workfront管理員如何修改您的存取層級的資訊，請參閱 <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>.</p> </td>
+如果您沒有存取權，請洽詢Workfront管理員，瞭解他們是否在您的存取層級設定其他限制。 如需有關Workfront管理員如何修改您的存取層級的資訊，請參閱 <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>.</p> </td>
 </tr> 
   <tr> 
    <td role="rowheader"><strong>物件許可權</strong></td> 
@@ -175,14 +178,29 @@ drafted for P&P release:
 
 ## 將更新新增至工作專案
 
+根據您使用的更新區段版本，向工作專案新增更新會有所不同。
+
+您可以將更新新增至下列物件：
+
+* 專案
+* 任務
+* 問題
+* 計劃
+* 專案組合
+* 範本
+* 範本任務
+* 使用者
+* 時程表
+* 團隊
+* 目標
+* 面板區域中的卡片
+* 疊代
+
+### 在舊版更新區段中為工作專案新增更新
+
 >[!IMPORTANT]
 >
 >此頁面上的資訊說明如何更新專案、任務和問題。
-
-
-根據您使用的更新區段版本，向工作專案新增更新會有所不同。
-
-### 在舊版更新區段中為工作專案新增更新
 
 1. 移至您要為其提供更新的工作專案（例如專案、任務或問題）。
 1. 按一下 **更新** 區段。
