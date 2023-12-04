@@ -1,7 +1,7 @@
 ---
-source-git-commit: 55ba26b65cf046806f5a198e4de1b5eed2e08384
+source-git-commit: 6ad50604b74310659572d679f483afa0fc44491f
 workflow-type: tm+mt
-source-wordcount: '1669'
+source-wordcount: '2241'
 ht-degree: 0%
 
 ---
@@ -77,7 +77,7 @@ ht-degree: 0%
 
 ## 步驟1 — 接近使用者 {#step-1-to-users}
 
-1. 按一下 **[!UICONTROL 主要功能表]** 圖示 ![主要功能表](assets/main-menu-icon.png) 在Adobe Workfront的右上角，或（如果有的話）按一下 **[!UICONTROL 主要功能表]** 圖示 ![主要功能表](assets/main-menu-icon-left-nav.png) 然後按一下「 」 **[!UICONTROL 使用者]** ![](assets/users-icon-in-main-menu.png).
+1. 按一下 **[!UICONTROL 主要功能表]** 圖示 ![主要功能表](assets/main-menu-icon.png) 在Adobe Workfront的右上角，或（如果有的話）按一下 **[!UICONTROL 主要功能表]** 圖示 ![主要功能表](assets/main-menu-icon-left-nav.png) 然後按一下「 」 **[!UICONTROL 使用者]** ![使用者圖示](assets/users-icon-in-main-menu.png).
 
 
 <!-- Agile -->
@@ -86,9 +86,23 @@ ht-degree: 0%
 
 1. 按一下 **[!UICONTROL 主要功能表]** 圖示 ![主要功能表](assets/main-menu-icon.png) 在Adobe Workfront的右上角，或（如果有的話）按一下 **[!UICONTROL 主要功能表]** 圖示 ![主要功能表](assets/main-menu-icon-left-nav.png) 然後按一下「 」 **[!UICONTROL 展示板]**.
 
+<!-- Blueprints -->
+
+## 步驟1 — 前往Blueprint - {#step1-to-blueprints}
+
+1. 按一下 **[!UICONTROL 主要功能表]** 圖示 ![主要功能表](assets/main-menu-icon.png) 在Adobe Workfront的右上角，或（如果有的話）按一下 **[!UICONTROL 主要功能表]** 圖示 ![主要功能表](assets/main-menu-icon-left-nav.png) 然後按一下「 」 **[!UICONTROL 藍圖]**.
+
 <!-- Calendars -->
 
+## 步驟1 — 前往行事曆 —  {#step1-to-calendars}
+
+1. 按一下 **[!UICONTROL 主要功能表]** 圖示 ![主要功能表](assets/main-menu-icon.png) 在Adobe Workfront的右上角，或（如果有的話）按一下 **[!UICONTROL 主要功能表]** 圖示 ![主要功能表](assets/main-menu-icon-left-nav.png) 然後按一下「 」 **[!UICONTROL 行事曆]**.
+
 <!-- Documents -->
+
+## 步驟1 — 前往檔案 —  {#step1-to-documents}
+
+1. 按一下 **[!UICONTROL 主要功能表]** 圖示 ![主要功能表](assets/main-menu-icon.png) 在Adobe Workfront的右上角，或（如果有的話）按一下 **[!UICONTROL 主要功能表]** 圖示 ![主要功能表](assets/main-menu-icon-left-nav.png) 然後按一下「 」 **[!UICONTROL 檔案]**.
 
 ## 設定連結的資料夾 {#setup-linked-folder}
 
@@ -104,7 +118,7 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >使用者需要在Adobe Experience Manager資產中擁有指定資料夾的寫入許可權，才能建立連結資料夾。
+   >使用者需要在Adobe Experience Manager Assets中擁有所指定資料夾的寫入許可權，才能建立連結資料夾。
 
 1. 按一下&#x200B;**儲存**。
 
@@ -229,18 +243,45 @@ ht-degree: 0%
       </tr>
       </table>
 
+<!-- Maestro -->
 
+## 步驟1 — 前往Maestro - {#step1-to-maestro}
 
-
-<!-- Log Time -->
+1. 按一下 **[!UICONTROL 主要功能表]** 圖示 ![主要功能表](assets/main-menu-icon.png) 在Adobe Workfront的右上角，或（如果有的話）按一下 **[!UICONTROL 主要功能表]** 圖示 ![主要功能表](assets/main-menu-icon-left-nav.png) 然後按一下「 」 **[!UICONTROL 大師]**.
 
 <!-- Manage Work -->
+
+## 步驟1 — 前往Portfolio- {#step1-to-portfolios}
+
+1. 按一下 **[!UICONTROL 主要功能表]** 圖示 ![主要功能表](assets/main-menu-icon.png) 在Adobe Workfront的右上角，或（如果有的話）按一下 **[!UICONTROL 主要功能表]** 圖示 ![主要功能表](assets/main-menu-icon-left-nav.png) 然後按一下「 」 **[!UICONTROL Portfolio]**.
+
+## 步驟1 — 前往計畫 —  {#step1-to-programs}
+
+1. 按一下 **[!UICONTROL 主要功能表]** 圖示 ![主要功能表](assets/main-menu-icon.png) 在Adobe Workfront的右上角，或（如果有的話）按一下 **[!UICONTROL 主要功能表]** 圖示 ![主要功能表](assets/main-menu-icon-left-nav.png) 然後按一下「 」 **[!UICONTROL 計畫]**.
+
+## 步驟1 — 前往專案 —  {#step1-to-projects}
+
+1. 按一下 **[!UICONTROL 主要功能表]** 圖示 ![主要功能表](assets/main-menu-icon.png) 在Adobe Workfront的右上角，或（如果有的話）按一下 **[!UICONTROL 主要功能表]** 圖示 ![主要功能表](assets/main-menu-icon-left-nav.png) 然後按一下「 」 **[!UICONTROL 專案]**.
+
+## 步驟1 — 前往請求 —  {#step1-to-requests}
+
+1. 按一下 **[!UICONTROL 主要功能表]** 圖示 ![主要功能表](assets/main-menu-icon.png) 在Adobe Workfront的右上角，或（如果有的話）按一下 **[!UICONTROL 主要功能表]** 圖示 ![主要功能表](assets/main-menu-icon-left-nav.png) 然後按一下「 」 **[!UICONTROL 請求]**.
+
+## 步驟1 — 前往範本 —  {#step1-to-templates}
+
+1. 按一下 **[!UICONTROL 主要功能表]** 圖示 ![主要功能表](assets/main-menu-icon.png) 在Adobe Workfront的右上角，或（如果有的話）按一下 **[!UICONTROL 主要功能表]** 圖示 ![主要功能表](assets/main-menu-icon-left-nav.png) 然後按一下「 」 **[!UICONTROL 範本]**.
 
 <!-- Mobile -->
 
 ## 行動校訂 — 更多選單 {#mobile-proof-more-menu}
 
 1. 開啟檔案校樣並選取 **[!UICONTROL 更多]** 功能表 ![更多選單](assets/mobile-verticalmoremenu-20x33.png) 在檔案的右上角。 然後，選取 **[!UICONTROL 更多]**.
+
+<!-- My Updates -->
+
+## 步驟1 — 前往我的更新 —  {#step1-to-my-updates}
+
+1. 按一下 **[!UICONTROL 主要功能表]** 圖示 ![主要功能表](assets/main-menu-icon.png) 在Adobe Workfront的右上角，或（如果有的話）按一下 **[!UICONTROL 主要功能表]** 圖示 ![主要功能表](assets/main-menu-icon-left-nav.png) 然後按一下「 」 **[!UICONTROL 我的更新]**.
 
 <!-- Notifications -->
 
@@ -260,7 +301,23 @@ ht-degree: 0%
 
 <!-- Reports -->
 
+## 步驟1 — 前往報表 —  {#step1-to-reports}
+
+1. 按一下 **[!UICONTROL 主要功能表]** 圖示 ![主要功能表](assets/main-menu-icon.png) 在Adobe Workfront的右上角，或（如果有的話）按一下 **[!UICONTROL 主要功能表]** 圖示 ![主要功能表](assets/main-menu-icon-left-nav.png) 然後按一下「 」 **[!UICONTROL 報表]**.
+
+## 步驟1 — 前往儀表板 —  {#step1-to-dashboards}
+
+1. 按一下 **[!UICONTROL 主要功能表]** 圖示 ![主要功能表](assets/main-menu-icon.png) 在Adobe Workfront的右上角，或（如果有的話）按一下 **[!UICONTROL 主要功能表]** 圖示 ![主要功能表](assets/main-menu-icon-left-nav.png) 然後按一下「 」 **[!UICONTROL 儀表板]**.
+
+## 步驟1 — 前往Analytics - {#step1-to-analytics}
+
+1. 按一下 **[!UICONTROL 主要功能表]** 圖示 ![主要功能表](assets/main-menu-icon.png) 在Adobe Workfront的右上角，或（如果有的話）按一下 **[!UICONTROL 主要功能表]** 圖示 ![主要功能表](assets/main-menu-icon-left-nav.png) 然後按一下「 」 **[!UICONTROL Analytics]**.
+
 <!-- Resource Management -->
+
+## 步驟1 — 開始使用資源 —  {#step1-to-resourcing}
+
+1. 按一下 **[!UICONTROL 主要功能表]** 圖示 ![主要功能表](assets/main-menu-icon.png) 在Adobe Workfront的右上角，或（如果有的話）按一下 **[!UICONTROL 主要功能表]** 圖示 ![主要功能表](assets/main-menu-icon-left-nav.png) 然後按一下「 」 **[!UICONTROL 資源]**.
 
 <!-- Review and approve work -->
 
@@ -268,7 +325,7 @@ ht-degree: 0%
 
 ## 步驟1 — 前往Scenario Planner - {#step1-to-scenario-planner}
 
-1. 按一下 **[!UICONTROL 主要功能表]** 圖示 ![主要功能表](assets/main-menu-icon.png)， (或 ![主要功能表](assets/main-menu-icon-left-nav.png) （如果有的話），然後按一下 **[!UICONTROL 情境]**.
+1. 按一下 **[!UICONTROL 主要功能表]** 圖示 ![主要功能表](assets/main-menu-icon.png) 在Adobe Workfront的右上角，或（如果有的話）按一下 **[!UICONTROL 主要功能表]** 圖示 ![主要功能表](assets/main-menu-icon-left-nav.png) 然後按一下「 」 **[!UICONTROL 情境]**.
 
 <!-- Teams -->
 
@@ -332,13 +389,15 @@ ht-degree: 0%
 
 <!-- Timesheets -->
 
+## 步驟1 — 前往時程表 —  {#step1-to-timesheets}
+
+1. 按一下 **[!UICONTROL 主要功能表]** 圖示 ![主要功能表](assets/main-menu-icon.png) 在Adobe Workfront的右上角，或（如果有的話）按一下 **[!UICONTROL 主要功能表]** 圖示 ![主要功能表](assets/main-menu-icon-left-nav.png) 然後按一下「 」 **[!UICONTROL 時間表]**.
+
 <!-- Workfront Goals -->
 
 ## 步驟1 — 前往目標 —  {#step1-to-goals}
 
-1. 按一下 **[!UICONTROL 主要功能表]** 圖示 ![主要功能表](assets/main-menu-icon.png) 在熒幕的右上角，或（如果有的話）按一下 **[!UICONTROL 主要功能表]** 圖示 ![主要功能表](assets/main-menu-icon-left-nav.png) 然後按一下「 」 **[!UICONTROL 目標]**.
-
-   如此將可開啟Workfront目標區域。
+1. 按一下 **[!UICONTROL 主要功能表]** 圖示 ![主要功能表](assets/main-menu-icon.png) 在Adobe Workfront的右上角，或（如果有的話）按一下 **[!UICONTROL 主要功能表]** 圖示 ![主要功能表](assets/main-menu-icon-left-nav.png) 然後按一下「 」 **[!UICONTROL 目標]**.
 
 <!-- Workfront Fusion -->
 
