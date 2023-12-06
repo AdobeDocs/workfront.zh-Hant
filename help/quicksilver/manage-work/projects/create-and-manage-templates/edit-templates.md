@@ -2,14 +2,14 @@
 product-area: templates
 navigation-topic: templates-navigation-topic
 title: 編輯專案範本
-description: 您可以編輯專案範本，以反映專案程式和設定中的變更。
+description: 您可以編輯專案範本以反映專案流程和設定的變更。
 author: Alina
 feature: Work Management
 exl-id: da0fca31-6a50-4862-ad9a-a453ef968773
-source-git-commit: dcdcf21903d0fceb3c05039689bb87ae4c834d07
+source-git-commit: 421fd012c2ce6a4ae0b11fe343c279d1a3fd551c
 workflow-type: tm+mt
-source-wordcount: '4704'
-ht-degree: 3%
+source-wordcount: '4775'
+ht-degree: 2%
 
 ---
 
@@ -23,11 +23,11 @@ ht-degree: 3%
 <The Resource Pools part also duplicates in the "Working with Resource Pools" article</p>
 -->
 
-您可以編輯專案範本，以反映專案程式和設定中的變更。 使用範本建立專案時，在範本上更新並儲存變更後，新變更會顯示在新專案中。 您在範本上所做的變更，不會反映在目前使用該範本的專案上。
+您可以編輯專案範本以反映專案流程和設定的變更。 更新並儲存範本上的變更後，當使用範本建立專案時，新變更會顯示在新專案中。 您在範本上進行的變更不會反映在目前使用該範本的專案上。
 
 ## 存取需求
 
-您必須具備下列存取權，才能執行本文中的步驟：
+您必須具有下列存取權才能執行本文中的步驟：
 
 <table style="table-layout:auto"> 
  <col> 
@@ -43,20 +43,20 @@ ht-degree: 3%
   </tr> 
   <tr> 
    <td role="rowheader">存取層級*</td> 
-   <td> <p>編輯範本的存取權</p> <p>如果您仍無權存取，請洽詢您的Workfront管理員，他們是否在您的存取層級設定其他限制。 如需存取範本的詳細資訊，請參閱 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-templates.md" class="MCXref xref">授予範本的存取權</a>. 如需Workfront管理員如何變更您的存取層級的詳細資訊，請參閱 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>. </p> </td> 
+   <td> <p>編輯範本的存取權</p> <p>如果您還是沒有存取權，請詢問您的Workfront管理員，他們是否在您的存取層級中設定其他限制。 如需關於存取範本的資訊，請參閱 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-templates.md" class="MCXref xref">授予範本存取權</a>. 如需有關Workfront管理員如何變更您的存取層級的資訊，請參閱 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>. </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">物件權限</td> 
+   <td role="rowheader">物件許可權</td> 
    <td> 
     <ul> 
-     <li> <p>將權限貢獻給範本，以便在範本詳細資訊索引標籤中編輯</p> </li> 
-     <li> <p>管理範本的權限，以便在「編輯範本」方塊中編輯範本</p> </li> 
-    </ul> <p> 如需範本權限的相關資訊，請參閱 <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md" class="MCXref xref">共用範本</a>. </p> <p>有關請求其他訪問的資訊，請參閱 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">請求對對象的訪問 </a>.</p> </td> 
+     <li> <p>貢獻範本的許可權以在「範本詳細資訊」索引標籤中進行編輯</p> </li> 
+     <li> <p>管理範本的許可權，以在「編輯範本」方塊中編輯範本</p> </li> 
+    </ul> <p> 如需範本許可權的相關資訊，請參閱 <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md" class="MCXref xref">共用範本</a>. </p> <p>如需請求其他存取許可權的詳細資訊，請參閱 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">要求物件的存取權 </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*若要了解您擁有的計畫、授權類型或存取權，請聯絡您的Workfront管理員。
+*若要瞭解您擁有的計畫、授權型別或存取權，請聯絡您的Workfront管理員。
 
 ## 編輯範本 {#edit-a-template}
 
@@ -559,28 +559,29 @@ By editing issue settings, you can prevent users from adding issues inline in th
 ### Edit a template in the Preview environment {#edit-a-template-in-the-preview-environment}
 -->
 
-1. 前往您要編輯的範本。
-1. （條件性）若要編輯有關範本的有限資訊，請按一下 **範本詳細資料** 在左側面板中，轉至左側面板中列出的區域，以編輯每個區域的資訊。
-1. 若要編輯「詳細資訊」區段中的資訊，請按一下 **編輯** 圖示 ![](assets/edit-icon.png)，然後從下面的任何區域中選取，或按一下 **全部編輯** 要編輯所有區域的資訊，請執行以下操作：
+1. 移至您要編輯的範本。
+1. （視條件而定）若要編輯範本的有限資訊，請按一下 **範本詳細資訊** 在左側面板中，然後前往左側面板中列出的區域，編輯每個區域的資訊。
+1. 若要編輯「詳細資訊」段落中的資訊，請按一下 **編輯** 圖示 ![](assets/edit-icon.png)，然後從以下任何區域選取，或按一下 **編輯全部** 若要編輯所有區域的資訊：
 
    * 總覽
    * 自訂表單
 
-   只有在物件附加自訂表單時，海關表單的名稱才會顯示。
+   只有當物件附有自訂表單時，才會顯示自訂表單的名稱。
 
    * 財務
+
    >[!TIP]
    >
-   >有關「詳細資訊」區域中顯示的所有欄位的資訊，請繼續使用下面的「編輯模板」框編輯所有欄位。
+   >如需詳細資訊區域中顯示的所有欄位相關資訊，請使用下方的「編輯範本」方塊繼續編輯所有欄位。
 
-1. （條件性）若要編輯範本的所有資訊，請按一下 **更多** 功能表 ![](assets/qs-more-icon-on-an-object.png) 在範本名稱旁，按一下 **編輯**.
+1. （視條件而定）若要編輯範本的所有相關資訊，請按一下 **更多** 功能表 ![](assets/qs-more-icon-on-an-object.png) 在範本名稱旁，然後按一下 **編輯**.
 
-   此 **編輯範本** 框。 此方塊中的區段包含的欄位與範本詳細資料區段中提供的欄位相同。
+   此 **編輯範本** 方塊開啟。 此方塊中的區段包含與「範本詳細資訊」區段相同的欄位。
 
 1. 請考慮編輯下列任一節中的資訊：
 
    * [範本名稱](#template-name)
-   * [總覽](#overview-preview)
+   * [概觀](#overview-preview)
    * [財務](#finance-preview)
    * [自訂表單](#custom-forms-preview)
    * [專案設定](#project-settings)
@@ -591,9 +592,9 @@ By editing issue settings, you can prevent users from adding issues inline in th
 
 ### 範本名稱{#template-name}
 
-1. 按上述方式開始編輯範本。
-1. 在 **編輯範本** 按一下 **範本名稱**.
-1. （可選）根據您要修改的資訊，繼續編輯以下部分
+1. 如上所述開始編輯您的範本。
+1. 在 **編輯範本** 方塊，按一下 **範本名稱**.
+1. （選擇性）根據您要修改的資訊，繼續編輯下列區段
 
    或
 
@@ -603,8 +604,8 @@ By editing issue settings, you can prevent users from adding issues inline in th
 
 ### 總覽 {#overview-preview}
 
-1. 按上述方式開始編輯範本。
-1. 在 **編輯範本** 按一下 **概述**.
+1. 如上所述開始編輯您的範本。
+1. 在 **編輯範本** 方塊，按一下 **概觀**.
 
    ![](assets/edit-template-box-overview-section.png)
 
@@ -616,83 +617,84 @@ By editing issue settings, you can prevent users from adding issues inline in th
        <tbody> 
          <tr> 
          <td role="rowheader"><strong>說明</strong></td> 
-         <td>新增其他有關範本的資訊。</td> 
+         <td>新增範本的其他相關資訊。</td> 
        </tr> 
          <tr> 
          <td role="rowheader"><strong>優先順序</strong></td> 
-         <td><p>這只是視覺標幟，可讓您為未來的專案排定優先順序。 從下列選項中選取：</p> 
+         <td><p>這只是一個視覺化的標幟，可讓您為未來的專案設定優先順序。 從下列選項中選取：</p> 
          <ul> 
          <li><p><strong>無</strong></p></li> 
          <li><p><strong>低</strong></p></li> 
          <li><p><strong>標準</strong></p></li> 
          <li><p><strong>高</strong></p></li> 
          <li><p><strong>緊急</strong></p></li> 
-         </ul><p><p>視您的Workfront管理員選取的「專案偏好設定」而定，優先順序的名稱可能會有所不同。 如需有關編輯優先順序的詳細資訊，請參閱 <a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-priorities.md" class="MCXref xref">建立和自訂優先順序</a>.</p></p></td> 
+         </ul><p><p>根據Workfront管理員選取的專案偏好設定，您的優先順序名稱可能會不同。 如需有關編輯優先順序的詳細資訊，請參閱 <a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-priorities.md" class="MCXref xref">建立和自訂優先順序</a>.</p></p></td> 
        </tr> 
        <tr> 
        <td role="rowheader"><strong>URL</strong></td> 
          <td>指定與此範本相關資訊的網頁連結。</td> 
        </tr>
        <tr> 
-       <td role="rowheader"><strong>狀態類型</strong></td> 
-       <td><p>在下列條件類型之間選取：</p> 
+       <td role="rowheader"><strong>狀況類型</strong></td> 
+       <td><p>在下列條件型別之間選取：</p> 
          <ul> 
-         <li><strong>手動：</strong> 專案擁有者會手動設定專案的條件。 <strong></strong></li> 
-         <li><strong>進度狀態：</strong> Workfront會根據關鍵路徑上任務的進度狀態自動設定未來項目的條件。 有關了解進度狀態的詳細資訊，請參閱 <a href="../../../manage-work/tasks/task-information/task-progress-status.md" class="MCXref xref">任務進度狀態概述</a>.</li> 
+         <li><strong>手動：</strong> 專案所有者手動設定專案上的專案條件。 <strong></strong></li> 
+         <li><strong>進度狀態：</strong> Workfront會根據關鍵路徑上任務的進度狀態，自動設定未來專案的條件。 如需瞭解進度狀態的詳細資訊，請參閱 <a href="../../../manage-work/tasks/task-information/task-progress-status.md" class="MCXref xref">任務進度狀態總覽</a>.</li> 
        </ul>
          </td> 
          </tr> 
        <tr> 
-         <td role="rowheader"><strong>時程表模式</strong></td> 
-         <td><p>指定是否從 <strong>開始日期</strong>，或 <strong>完成日期</strong>. 此選擇將確定使用此模板的項目上未來任務的計畫日期。 </p><p>從以下項目中選取： </p> 
+         <td role="rowheader"><strong>排程模式</strong></td> 
+         <td><p>指定使用此範本的專案是否排程自 <strong>開始日期</strong>，或從 <strong>完成日期</strong>. 此選取範圍會決定使用此範本之專案中未來任務的計畫日期。 </p><p>從下列選項中選取： </p> 
        <ul> 
-       <li><p><strong>從開始日期開始排程</strong>:範本的開始日期實際上為開始日。 從開始日期開始排程範本時，Adobe Workfront會根據所有範本工作的持續時間，計算範本的完成日。 範本的「開始日」會變成未來專案的「計劃開始日期」。</p></li> 
-       <li><p><strong>從完成日期開始計畫</strong>:範本的完成日期實際為完成日。 從完成日期開始計畫模板時，Workfront會根據所有模板任務的持續時間計算模板的開始日。 模板的「完成日」(Completion Day)變為將來項目的「計畫完成日」(Planed Completion Date)。 </p></li> 
-       </ul><p>有關模板任務的「開始」和「完成天數」的詳細資訊，請參閱 <a href="../../../manage-work/projects/create-and-manage-templates/overview-of-start-completion-day-on-template.md" class="MCXref xref">範本中的開始和完成天數概觀</a>. </p><p>範本的「排程方式」設定與專案的設定類似。 您的Workfront管理員會為您系統中的專案選取預設的「排程來源」設定。 有關設定項目預設值的資訊，請參閱 <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">配置系統範圍的項目首選項</a>.</p></td> 
+       <li><p><strong>從開始日期排程</strong>：範本的開始日期實際上是開始日期。 當您從「開始日期」排程範本時，Adobe Workfront會根據所有範本工作的「持續時間」計算範本的「完成日期」。 範本的開始日期成為未來專案的規劃開始日期。</p></li> 
+       <li><p><strong>從完成日期排程</strong>：範本的完成日期實際上是完成日。 當您從「完成日期」排程範本時，Workfront會根據所有範本任務的持續時間計算範本的「開始日期」。 範本的「完成日」成為未來專案的「計畫完成日」。 </p></li> 
+       </ul><p>如需範本任務開始和完成天數的詳細資訊，請參閱 <a href="../../../manage-work/projects/create-and-manage-templates/overview-of-start-completion-day-on-template.md" class="MCXref xref">範本中的開始與完成天數概要</a>. </p><p>範本的「排程起始日期」設定與專案的設定類似。 您的Workfront管理員會為您的系統中的專案選取預設的「排程起始日期」設定。 如需有關設定專案預設值的資訊，請參閱 <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">設定全系統專案偏好設定</a>.</p></td> 
        </tr>
 
    <tr> 
          <td role="rowheader"><strong>專案組合</strong></td> 
-         <td><p>指定從此範本建立之專案的Portfolio。 您必須先建立Portfolio，才會顯示在下拉式清單中。 </p><p>清單中只會顯示作用中的產品組合。 如需建立產品組合的詳細資訊，請參閱 <a href="../../../manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md" class="MCXref xref">建立產品組合 </a>.</p></td> 
+         <td><p>指定從此範本建立之專案的Portfolio。 您必須先建立Portfolio，它才會出現在下拉式清單中。 </p><p>只有作用中的投資組合會顯示在清單中。 如需關於建立投資組合的詳細資訊，請參閱 <a href="../../../manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md" class="MCXref xref">建立投資組合 </a>.</p></td> 
        </tr> 
        <tr> 
          <td role="rowheader"><strong>方案</strong></td> 
-         <td><p>如果您選取範本的Portfolio，請指定 <strong>方案</strong> 為未來的項目。 某些Portfolio可能沒有方案。 您必須先建立程式，才會顯示在此下拉式清單中。 清單中只顯示活動程式。</p><p>如需建立方案的詳細資訊，請參閱 <a href="../../../manage-work/portfolios/create-and-manage-programs/create-program.md" class="MCXref xref">建立方案</a>.</p></td> 
+         <td><p>如果您為範本選取了Portfolio，請指定 <strong>計畫</strong> 以利未來專案使用。 某些Portfolio可能沒有計畫。 您必須先建立程式，它才會顯示在此下拉式清單中。 清單中只會顯示使用中的程式。</p><p>如需有關建立程式的詳細資訊，請參閱 <a href="../../../manage-work/portfolios/create-and-manage-programs/create-program.md" class="MCXref xref">建立方案</a>.</p></td> 
        </tr>  
        <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
          <td role="rowheader"><strong>群組</strong></td> 
-         <td><p>在下拉式清單中，選取您要與範本中建立之專案相關聯的群組。 可以是任何層級的群組。 </p><p>您可以將游標移至群組上並按一下資訊圖示，以確定您正在選取正確的群組 <img src="assets/info-icon.png"> 顯示於其旁。 此工具提示會列出群組的相關資訊，例如上方的群組階層及其管理員。</p> <p><b>附註</b>
+         <td><p>在下拉式清單中，選取要與從範本建立的專案相關聯的群組。 可以是任何層級的群組。 </p><p>您可以將游標移至正確的群組上，並按一下資訊圖示，藉此確定您選取的群組正確 <img src="assets/info-icon.png"> 隨即顯示。 這會顯示工具提示，列出群組的相關資訊，例如群組及其管理員上方的群組階層。</p> <p><b>附註</b>
 
    <ul> 
-       <li><p>在組頁面上的「項目」區域中，當某人使用未選擇組的模板建立項目時，系統會將當前開啟的組與項目關聯。</p><p>這與使用者使用未選取群組的範本建立專案時，系統將使用者的首頁群組與專案建立關聯的其他區域不同。</p></li> 
-       <li><p>如果用戶在建立項目時（或將任務或問題轉換為項目時）選擇了選定組的模板，則用戶可以為項目選擇不同的組。</p></li> 
-       <li>雖然此欄位僅可在新Adobe Workfront體驗的範本中使用，但您可在Adobe Workfront Classic的清單和報表中看到它。 </li> 
+       <li><p>在群組頁面的「專案」區域中，當有人使用未選取群組的範本建立專案時，系統會建立目前開啟的群組與專案之間的關聯。</p><p>這與當使用者使用未選取群組的範本建立專案時，系統將使用者的「主群組」與專案關聯的其他區域不同。</p></li> 
+       <li><p>如果使用者在建立專案時或在將任務或問題轉換為專案時選取已選取群組的範本，則使用者可以為專案選擇不同的群組。</p></li> 
+       <li>雖然此欄位僅在新的Adobe Workfront體驗中可在範本中使用，但您可在範本中的清單與報表以及Adobe Workfront Classic中檢視。 </li> 
          </ul> </p></td> 
        </tr> 
        <tr> 
          <td role="rowheader"><strong>公司</strong></td> 
-         <td><p>指定要與範本關聯的公司。 清單中只會顯示作用中的公司。</p></td> 
+         <td><p>指定您要與範本建立關聯的公司。 清單中只會顯示作用中的公司。</p></td> 
        </tr> 
        <tr> 
          <td role="rowheader"><strong>範本所有者</strong></td> 
-         <td><p>指定為範本擁有者的使用者必須是Workfront作用中使用者。 </p><p>請考慮以下指定為模板所有者的用戶： </p> 
+         <td><p>指定為範本擁有者的使用者必須是Workfront作用中使用者。 </p><p>請考量下列有關指定為「範本擁有者」的使用者： </p> 
          <ul> 
-         <li>系統會自動為範本授予「管理」權限。 </li> 
-         <li>它們會新增至專案團隊，並自動為從範本建立的專案授予「管理」權限。 </li> 
-         <li>從此範本建立專案時，他們就會成為專案擁有者。 </li> 
+         <li>系統會自動授予使用者範本的管理許可權。 </li> 
+         <li>他們會被新增至專案團隊，並自動獲得從範本建立的專案的管理許可權。 </li> 
+         <li>從此範本建立專案時，他們就會成為專案所有者。 </li> 
+         <li> 如果指定為範本擁有者的使用者從存取層級對範本或專案具有有限的存取權，則其範本和專案的管理許可權將受到限制。 例如，如果他們只有其存取層級中的範本或專案的檢視存取權，當他們被指定為範本擁有者時，他們將會自動獲得範本和專案的檢視許可權。</li>
          </ul></td> 
        </tr> 
        <tr> 
          <td role="rowheader"><strong>範本贊助者</strong></td> 
-         <td><p>將模板添加到項目時，此欄位中指定的用戶將成為項目贊助商。 此使用者會新增至專案團隊，並自動獲得專案的檢視權限。 指定為範本贊助商的使用者必須是Workfront作用中使用者。 </p></td> 
+         <td><p>將範本新增至專案時，此欄位中指定的使用者會成為專案贊助者。 此使用者會新增至專案團隊，並自動獲得專案的檢視許可權。 被指定為範本贊助者的使用者必須是Workfront作用中使用者。 </p></td> 
        </tr> 
        <tr> 
          <td role="rowheader"><strong>資源管理員</strong></td> 
-         <td><p>系統會自動為指定的使用者授予未來專案的管理權限，並可為專案的任務和問題指派資源。 您可以指定多個資源管理器。 </p></td> 
+         <td><p>指定的使用者會自動獲得管理未來專案的許可權，並且可以指派資源給專案的任務和問題。 您可以指定一個以上的Resource Manager。 </p></td> 
        </tr> 
       </table>
 
-1. （選用）根據您要修改的資訊，繼續編輯下列章節。
+1. （選擇性）根據您要修改的資訊，繼續編輯下列區段。
 
    或
 
@@ -700,8 +702,8 @@ By editing issue settings, you can prevent users from adding issues inline in th
 
 ### 財務 {#finance-preview}
 
-1. 按上述方式開始編輯範本。
-1. 在 **編輯範本** 按一下 **金融**.
+1. 如上所述開始編輯您的範本。
+1. 在 **編輯範本** 方塊，按一下 **財務**.
 
    ![](assets/edit-template-box-finance-section.png)
 
@@ -713,42 +715,42 @@ By editing issue settings, you can prevent users from adding issues inline in th
        <tbody>
        <tr> 
          <td role="rowheader"><strong> 貨幣</strong></td> 
-         <td><p>如果未來專案的貨幣與系統的預設貨幣不同，請指定該貨幣。 如果系統中只有預設貨幣，則此欄位不會顯示。<br>如需貨幣的詳細資訊，請參閱 <a href="../../../administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md" class="MCXref xref">設定匯率</a>.</p></td> 
+         <td><p>若與系統的預設貨幣不同，請指定未來專案的貨幣。 如果系統中只有預設貨幣，則不會顯示此欄位。<br>如需貨幣的詳細資訊，請參閱 <a href="../../../administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md" class="MCXref xref">設定匯率</a>.</p></td> 
        </tr>
        <tr> 
        <td role="rowheader"><strong>預算</strong></td> 
-       <td><p>指定從此模板建立的項目的預算。</p></td> 
+       <td><p>指定從此範本建立之專案的預算。</p></td> 
        </tr>  
        <tr> 
          <td role="rowheader"><strong>績效指數方法</strong></td> 
-         <td><p>選擇Workfront如何計算未來專案的掙值量度。 從以下選項中選擇：
+         <td><p>選擇Workfront計算未來專案盈餘量度的方式。 從下列選項中選擇：
          <ul>
          <li>基於小時</li>
          <li>基於成本</li>
          </ul>
 
-   有關效能索引方法的詳細資訊，請參見 <a href="../../../manage-work/projects/project-finances/set-pim.md" class="MCXref xref">設定效能索引方法(PIM)</a>. </p></td>
+   如需有關績效指數方法的詳細資訊，請參閱 <a href="../../../manage-work/projects/project-finances/set-pim.md" class="MCXref xref">設定績效指數方法(PIM)</a>. </p></td>
    </tr> 
          <tr> 
          <td role="rowheader"><strong>計畫收益</strong></td> 
-         <td><p>指定從此模板建立的項目的計畫效益。 計畫利益用於項目和Portfolio優化程式的業務案例。 </p><p>有關項目的計畫效益的詳細資訊，請參閱 <a href="../../../manage-work/projects/project-finances/project-planned-benefit.md" class="MCXref xref">項目計畫收益概覽</a>. 在計算項目的淨值時，將考慮項目的計畫效益。 </p><p>如需使用Portfolio優化程式的詳細資訊，請參閱 <a href="../../../manage-work/portfolios/portfolio-optimizer/manage-projects-in-portfolio-optimizer.md" class="MCXref xref">在Portfolio優化程式中管理專案</a> </p></td> 
+         <td><p>指定從此範本建立之專案的計畫收益。 計畫收益用於專案的業務案例以及Portfolio最佳化工具。 </p><p>如需有關專案計畫收益的詳細資訊，請參閱 <a href="../../../manage-work/projects/project-finances/project-planned-benefit.md" class="MCXref xref">專案計畫收益總覽</a>. 計算專案淨值時，會考慮專案的計畫收益。 </p><p>如需有關使用Portfolio最佳化程式的詳細資訊，請參閱 <a href="../../../manage-work/portfolios/portfolio-optimizer/manage-projects-in-portfolio-optimizer.md" class="MCXref xref">在Portfolio最佳化工具中管理專案</a> </p></td> 
        </tr> 
        <tr> 
          <td role="rowheader"><strong>固定成本</strong></td> 
-         <td><p>為從此模板建立的項目指定固定成本。 這與「人工成本」不同，「人工成本」來自項目的工時，而「費用成本」來自項目的費用金額。 在計算項目的淨值時，將考慮項目的固定成本，它是預算成本的一部分。</p></td> 
+         <td><p>指定從此範本建立之專案的「固定成本」。 這與專案時數所產生的人工成本，以及專案費用金額所產生費用成本不同。 計算專案的淨值時會考慮專案的固定成本，而且該成本是預算成本的一部分。</p></td> 
        </tr> 
        <tr> 
        <td role="rowheader"><strong>固定收入</strong></td> 
-       <td><p>指定從此範本建立之專案的「固定收入」。</p></td> 
+       <td><p>指定從此範本建立之專案的「固定收入」 。</p></td> 
        </tr> 
        <tr> 
        <td role="rowheader"><strong>此專案需要時間核准</strong></td> 
-       <td><p>選擇此選項可要求將來使用此模板建立的項目的項目所有者批准項目登錄時間。 如果您使用「開單記錄」，並且選擇了此選項，則只有項目上批准的小時數才會顯示為「開單記錄」的可開單小時數。 項目批准時間與批准時間表無關。 如需需要在專案上核准時間的詳細資訊，請參閱 <a href="../../../manage-work/projects/manage-projects/require-time-approval-for-projects.md" class="MCXref xref">需要為項目批准的時間</a>.</p></td> 
+       <td><p>選取此選項可要求從此範本建立的未來專案的專案所有者核准登入專案的時間。 如果您使用「計費記錄」並選取此選項，則只有專案中已核准的時數，才會顯示為「計費記錄」的可用計費時數。 核准專案的時間與核準時程表無關。 如需有關專案需要時間核准的詳細資訊，請參閱 <a href="../../../manage-work/projects/manage-projects/require-time-approval-for-projects.md" class="MCXref xref">專案需要時間核准</a>.</p></td> 
        </tr> 
        </tbody> 
       </table>
 
-1. （選用）根據您要修改的資訊，繼續編輯下列章節。
+1. （選擇性）根據您要修改的資訊，繼續編輯下列區段。
 
    或
 
@@ -756,26 +758,26 @@ By editing issue settings, you can prevent users from adding issues inline in th
 
 ### 自訂表單 {#custom-forms-preview}
 
-1. 按上述方式開始編輯範本。
-1. 在 **編輯範本** 按一下 **自訂Forms**.
+1. 如上所述開始編輯您的範本。
+1. 在 **編輯範本** 方塊，按一下 **自訂Forms**.
 
    ![](assets/edit-template-box-custom-forms-section.png)
 
-   已附加至範本的自訂表單名稱會顯示在左側面板。
+   已附加至範本的自訂表單的名稱會顯示在左側面板中。
 
-1. 按一下內部 **新增自訂表單** 欄位，然後選取您要與範本建立關聯的自訂表單或表單。 您必須先建置自訂表單，才能在此欄位中供選取。
+1. 按一下 **新增自訂表格** 欄位並選取您要與範本建立關聯的一或多個自訂表單。 您必須先建置自訂表單，才能在此欄位中選取它們。
 
-   清單中只會顯示使用中的自訂表單。 如需建立自訂表單的詳細資訊，請參閱 [建立或編輯自訂表單](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
+   清單中只會顯示作用中的自訂表單。 如需建立自訂表單的詳細資訊，請參閱 [建立或編輯自訂表單](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
 
-   您最多可將10個自訂表單新增至範本。
+   您最多可以新增10個自訂表單至範本。
 
    表單將新增至從此範本建立的專案。
 
-1. （選用）更新自訂表單上任何欄位的資訊。 資訊會轉移至將從範本建立的專案。
+1. （選用）更新自訂表單上任何欄位中的資訊。 此資訊將會傳輸至將使用範本建立的專案。
 
-1. （選用）按一下 **x** 圖示（位於自訂表單名稱的右側），然後按一下 **移除** 從範本中移除。
+1. （可選）按一下 **x** 圖示並按一下「 」，接著按一下「 」 **移除** 以將其從範本中移除。
 
-1. （可選）根據您要修改的資訊，繼續編輯以下部分。
+1. （選擇性）根據您要修改的資訊，繼續編輯下列區段。
 
    或
 
@@ -783,8 +785,8 @@ By editing issue settings, you can prevent users from adding issues inline in th
 
 ### 專案設定 {#project-settings}
 
-1. 按上述方式開始編輯範本。
-1. 在 **編輯範本** 按一下 **專案設定**.
+1. 如上所述開始編輯您的範本。
+1. 在 **編輯範本** 方塊，按一下 **專案設定**.
 
    ![](assets/edit-template-box-project-settings-section.png)
 
@@ -796,144 +798,144 @@ By editing issue settings, you can prevent users from adding issues inline in th
        <tbody> 
        <tr> 
        <td role="rowheader"><strong>里程碑路徑</strong> </td> 
-       <td> <p>為模板選擇里程碑路徑。 清單中只會顯示作用中的里程碑路徑。<br>如需里程碑路徑的詳細資訊，請參閱 <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md" class="MCXref xref">建立里程碑路徑</a>.</p> </td> 
+       <td> <p>選取範本的里程碑路徑。 只有作用中的里程碑路徑會顯示在清單中。<br>如需里程碑路徑的詳細資訊，請參閱 <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md" class="MCXref xref">建立里程碑路徑</a>.</p> </td> 
        </tr> 
        <tr> 
          <td role="rowheader"><strong>完成模式</strong> </td> 
-         <td> <p>控制將來項目標籤為「完成」的方式。 <br>從下列選項中選取：</p> 
+         <td> <p>控制如何將未來的專案標示為完成。 <br>從下列選項中選取：</p> 
          <ul> 
-         <li> <p><strong>自動</strong>:完成所有任務和問題後，項目將標籤為「完成」。</p> </li> 
-         <li> <p><strong>手動</strong>:完成所有任務和問題後，必須手動選擇項目的「完成」狀態。 </p> </li> 
+         <li> <p><strong>自動</strong>：完成所有任務和問題後，專案會標示為完成。</p> </li> 
+         <li> <p><strong>手動</strong>：當所有任務和問題完成時，您必須手動選取專案的完成狀態。 </p> </li> 
          </ul> </td> 
        </tr> 
        <tr> 
        <td role="rowheader"><strong>摘要完成模式</strong> </td> 
-       <td> <p>控制將來項目的父任務標籤為「完成」的方式。 <br>從下列選項中選取：</p> 
+       <td> <p>控制如何將未來專案上的父系任務標示為完成。 <br>從下列選項中選取：</p> 
        <ul> 
-       <li> <p><strong>自動</strong>:父任務標籤為「完成」，並且隨著子任務完成和子任務的完成百分比更新，父任務將自動更新其完成百分比。 </p> </li> 
-       <li> <p><strong>手動</strong>:您必須手動更新父任務的完成百分比和狀態，而不受子任務的更改影響。 </p> </li> 
+       <li> <p><strong>自動</strong>：當子系任務完成並更新子系完成百分比時，父系任務會標籤為「完成」並自動更新其完成百分比。 </p> </li> 
+       <li> <p><strong>手動</strong>：您必須手動更新完成百分比和父系任務的狀態，不論對子系任務進行什麼變更。 </p> </li> 
        </ul> </td> 
        </tr> 
        <tr> 
-         <td role="rowheader"><strong>更新類型</strong> </td> 
-         <td> <p>控制您對未來專案時間軸所做的變更會儲存在專案上的時間。 </p> 
+         <td role="rowheader"><strong>更新型別</strong> </td> 
+         <td> <p>控制您對未來專案時間表所做的變更何時儲存在專案上。 </p> 
          <b>範例 </b> 
-         <p>對專案所做的下列變更會觸發對專案時間軸的更新：</p> 
+         <p>專案的下列變更會觸發專案時間表更新：</p> 
          <ul> 
          <li> <p>更新任務日期</p> </li> 
-         <li> <p>更改前置關係<br></p> </li> 
-         <li> <p>更改父子關係</p> </li> 
-         <li> <p>除了更改任務約束或持續時間類型之外，還添加或刪除分配。</p> </li> 
+         <li> <p>變更前置任務關係<br></p> </li> 
+         <li> <p>變更父子關係</p> </li> 
+         <li> <p>除了變更任務限制或期間型別之外，還新增或移除指派。</p> </li> 
          </ul> 
          </div> <p>從下列選項中選取：<br></p> 
          <ul> 
-         <li> <p><strong>自動和更改</strong> （預設設定）:每次在項目中或時間軸所依賴的另一個項目中發生更改時（更改時），將更新將來的項目時間軸。 每晚也會更新專案時間軸（自動）。<br>此為此欄位的建議設定，因為它可確保專案時間軸隨時保持最新。<br>當您對觸發時間軸重新計算的任務或專案執行動作時，會立即顯示所有可用日期，讓您繼續工作。 在工作超過100個的專案中，需要更長時間重新計算的日期會短暫地顯示為問號（介於1秒和5秒之間，或大型專案則最多一分鐘）。 這表示重新計算尚未完成，日期可能會有所變更。<br></p> </li> 
+         <li> <p><strong>自動與變更時</strong> （預設設定）：每次在專案中或時間表所依賴的其他專案中發生變更時，都會更新未來的專案時間表（變更時）。 專案時間表也會每晚更新（自動）。<br>這是此欄位的建議設定，因為它可確保專案時間表隨時保持最新。<br>當您對觸發時間表重新計算的任務或專案執行動作時，所有可用日期會立即顯示，讓您繼續工作。 在具有100個以上任務的專案中，需要更長重新計算的日期會短暫顯示為問號（1到5秒之間，大型專案最多會顯示一分鐘）。 這表示重新計算尚未完成，日期可能會變更。<br></p> </li> 
          </ul> 
          <ul> 
-         <li> <p><strong>僅更改</strong>:每次在項目中或時間軸所依賴的其他項目中發生更改時，都會更新項目時間軸。 如果項目或時間軸所依賴的其他項目中很少發生更改，則可能需要選擇此選項。<br></p> </li> 
+         <li> <p><strong>僅變更</strong>：每次在專案中或時間表相依的其他專案中發生變更時，專案時間表都會更新。 如果變更很少發生在專案或時間表所依賴的其他專案中，您可能會想要選取此選項。<br></p> </li> 
          </ul> 
          <ul> 
-         <li> <p><strong>僅自動</strong>:每晚更新項目時間表；進行變更後不會立即更新。<br>如果每天在項目中或時間軸所依賴的其他項目中發生許多更改，則可能要選擇此選項。 但請注意，您已選取此設定，因為專案不會在進行變更的同時更新。<br></p> </li> 
+         <li> <p><strong>僅限自動</strong>：專案時間表會每晚更新，不會在進行變更後立即更新。<br>如果每天在專案或時間表相依的其他專案中發生許多變更，您可能會想要選取此選項。 但是，請注意，您選擇了此設定，因為專案不會在進行變更的同時更新。<br></p> </li> 
          </ul> 
          <ul> 
-         <li> <p><strong>僅手動</strong>:僅當選擇「重新計算時間軸」選項時，才會更新項目時間軸，如 <a href="../../../manage-work/projects/manage-projects/recalculate-project-timeline.md" class="MCXref xref">重新計算項目時間表</a>.<br></p> </li> 
-         </ul> <p>如果您同時對專案進行許多變更，且希望時間軸重新計算在所有變更完成之後（而非每次個別變更後），您可以選取此選項。</p> </td> 
+         <li> <p><strong>僅限手動</strong>：專案時間表僅在您選取重新計算時間表的選項時才會更新，如中所述 <a href="../../../manage-work/projects/manage-projects/recalculate-project-timeline.md" class="MCXref xref">重新計算專案時間表</a>.<br></p> </li> 
+         </ul> <p>如果您一次對專案進行許多變更，且希望在所有變更完成後（而不是在每次個別變更後）重新計算時間表，則可能需要選取此選項。</p> </td> 
        </tr> 
        <tr> 
          <td role="rowheader"><strong>排程</strong> </td> 
-         <td> <p>選取範本的排程。 這會成為從此範本建立的專案排程。 這應該與指派給大多數從事專案工作的人員的排程相同。 您必須先建立排程，才能將其指派給範本。<br>如需建立排程的詳細資訊，請參閱 <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md" class="MCXref xref">建立排程</a>. <br>如果您尚未在系統中建立自訂排程，則會選取「預設排程」。 </p> </td> 
+         <td> <p>選取範本的排程。 這會成為從此範本建立的專案排程。 這應該是指派給大多數處理專案的人的相同排程。 您必須先建立排程，才能將其指派給範本。<br>如需建立排程的詳細資訊，請參閱 <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md" class="MCXref xref">建立排程</a>. <br>如果您尚未在系統中建立自訂排程，則會選取「預設排程」。 </p> </td> 
        </tr> 
        <tr> 
          <td role="rowheader"><strong>使用者休假</strong> </td> 
-         <td> <p>確定任務的主要受託人的休息時間是否調整任務計畫日期。 將模板附加到現有項目，且該模板對此欄位的設定與項目不同時，項目上的設定保持不變。 新模板的此設定的預設選項與系統級項目首選項相同。 </p> <p>有關係統級別的項目首選項的資訊，請參見 <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">配置系統範圍的項目首選項</a>. </p> <p>有關此設定如何影響項目任務日期的資訊，請參閱 <a href="../../../manage-work/projects/manage-projects/edit-projects.md" class="MCXref xref">編輯專案</a>.<br>從下列選項中選取：<br></p> 
+         <td> <p>決定任務之主要受指派人的休假是否調整任務計畫日期。 當您將範本附加到現有專案時，並且範本對此欄位的設定與專案不同，專案上的設定保持不變。 新範本此設定的預設選項與系統層級專案偏好設定相同。 </p> <p>有關系統層級專案偏好設定的資訊，請參閱 <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">設定全系統專案偏好設定</a>. </p> <p>如需此設定如何影響專案上任務日期的詳細資訊，請參閱 <a href="../../../manage-work/projects/manage-projects/edit-projects.md" class="MCXref xref">編輯專案</a>.<br>從下列選項中選取：<br></p> 
          <ul> 
-         <li> <p><strong>考慮任務持續時間中的用戶超時</strong>:選擇此選項時，根據此模板建立的項目上任務的計畫日期會根據任務的主要受託人的休假時間進行調整（如果在任務期間發生休假）。 </p> </li> 
-         <li> <p><strong>忽略任務持續時間中的用戶超時</strong>:選擇此選項時，即使任務的主要受託人在任務期間有時間休息，從此模板建立的項目上的任務的計畫日期仍保持原計畫日期。 </p> </li> 
+         <li> <p><strong>考量使用者在任務持續期間的休假</strong>：選取此選項時，如果休假發生在任務期間，則根據任務主要受指派人的休假調整從此範本建立的專案上任務的計畫日期。 </p> </li> 
+         <li> <p><strong>忽略使用者在任務持續期間的休假</strong>：選取此選項時，從此範本建立的專案上任務的計畫日期會維持原始計畫，即使任務的主要受指派人在任務期間具有休假亦然。 </p> </li> 
          </ul> </td> 
        </tr> 
        <tr> 
          <td role="rowheader"><strong>資源平準模式</strong> </td> 
          <td> <p>從下列選項中選取：<br></p> 
          <ul> 
-         <li> <p><strong>手動</strong>:您必須在此範本中建立的專案上手動層級資源（此為預設設定）</p> </li> 
-         <li> <p><strong>自動：</strong> Workfront會對未來專案的資源進行分級。 <br>有關資源調平的詳細資訊，請參閱 <a href="../../../manage-work/gantt-chart/use-the-gantt-chart/level-resources-in-gantt.md" class="MCXref xref">甘特圖中的層資源 </a>. </p> </li> 
+         <li> <p><strong>手動</strong>：您必須手動對從這個範本建立的專案進行資源層級（這是預設設定）</p> </li> 
+         <li> <p><strong>自動：</strong> Workfront會針對未來的專案提供資源層級。 <br>如需資源平準的詳細資訊，請參閱 <a href="../../../manage-work/gantt-chart/use-the-gantt-chart/level-resources-in-gantt.md" class="MCXref xref">在甘特圖中平準資源 </a>. </p> </li> 
          </ul> </td> 
        </tr> 
        <tr> 
          <td role="rowheader"><strong>風險</strong> </td> 
-         <td> <p>定義從此模板建立的項目的風險級別。 風險只是一個項目風險程度的指標。 您可以根據風險等級排定執行專案的優先順序。<br>請考慮從以下風險級別中選擇：<br></p> 
+         <td> <p>定義從此範本建立的專案之風險等級。 風險只是專案風險程度的指標。 您可以根據風險等級來排定執行專案的優先順序。<br>考慮從下列風險等級中選取：<br></p> 
          <ul> 
          <li> <p><strong>極低</strong> </p> </li> 
          <li> <p><strong>低</strong> </p> </li> 
-         <li> <p><strong>中</strong> </p> </li> 
+         <li> <p><strong>Medium</strong> </p> </li> 
          <li> <p><strong>高</strong> </p> </li> 
-         <li> <p><strong>極高</strong> </p> </li> 
+         <li> <p><strong>非常高</strong> </p> </li> 
          </ul> </td> 
        </tr> 
        <tr> 
          <td role="rowheader"><strong>資源集區</strong> </td> 
-         <td> <p>指定與模板關聯的資源池。 資源池是項目完成時同時需要的用戶集合。 有關資源池的詳細資訊，請參見 <a href="../../../resource-mgmt/resource-planning/resource-pools/work-with-resource-pools.md" class="MCXref xref"> 資源池概述 </a>.</p> <p> <p><b>附註</b>
+         <td> <p>指定與範本關聯的資源集區。 資源集區是同時需要用來完成專案的使用者集合。 如需有關資源集區的詳細資訊，請參閱 <a href="../../../resource-mgmt/resource-planning/resource-pools/work-with-resource-pools.md" class="MCXref xref"> 資源集區概觀 </a>.</p> <p> <p><b>附註</b>
 
-   批量編輯模板時，此欄位中只顯示所有選定模板共同的資源池。 如果所選模板沒有共用資源池，則此欄位將為空。 在此處指定的資源池將覆蓋模板的各個資源池。</p> </p> </td>
+   當您大量編輯範本時，此欄位只會顯示所有選定範本通用的資源集區。 如果選取的範本沒有共用資源集區，此欄位將為空白。 您在此處指定的資源集區將會覆寫範本的個別資源集區。</p> </p> </td>
    </tr>
        <tr> 
-         <td role="rowheader"><strong>篩選小時類型</strong> </td> 
-         <td> <p>請考量下列事項：</p> <p>選擇 <strong>否</strong> 讓未來專案可使用所有專案專屬的小時類型。 （這是預設選取項目）</p> <p>或</p> <p>選擇 <strong>是</strong> 若要讓未來專案僅提供專案特定小時類型的子集，請選取您要提供的小時類型。 （按住Shift鍵可選擇多個小時類型。）</p> <p>如果選擇此選項，則在記錄項目小時數時（或在項目內的任務和問題時），將僅提供您選擇的小時數類型。 至少必須選擇一個小時類型；如果選擇此選項，並且未選擇任何小時類型，則項目上將提供所有小時類型。</p> <p>必須在個別使用者層級選取相同的小時類型，才能讓使用者在專案中查看這些小時類型選項。 </p> <p>如需在使用者層級定義小時類型的詳細資訊，請參閱區段 <a href="../../../timesheets/create-and-manage-timesheets/log-time.md#understa" class="MCXref xref">記錄時間</a> in <a href="../../../timesheets/create-and-manage-timesheets/log-time.md" class="MCXref xref">記錄時間</a>.</p> </td> 
+         <td role="rowheader"><strong>篩選時數型別</strong> </td> 
+         <td> <p>請考量下列事項：</p> <p>選取 <strong>否</strong> 讓所有特定專案小時型別都可在未來專案中使用。 （這是預設選取範圍）</p> <p>或</p> <p>選取 <strong>是</strong> 若只要讓特定專案時數型別的子集可用於未來的專案，然後選取您想使其可用的時數型別。 （按住Shift鍵以選取多個小時型別。）</p> <p>如果您選取此選項，則在記錄專案時數（或專案內任務和問題）時，只有您選取的時數型別可供選取。 您必須至少選取一個小時型別；如果您選取此選項而未選取任何小時型別，則專案上將會提供所有小時型別。</p> <p>必須在個別使用者層級做出相同的小時型別選擇，以便使用者在專案上檢視這些小時型別選項。 </p> <p>如需在使用者層級定義時數型別的詳細資訊，請參閱區段 <a href="../../../timesheets/create-and-manage-timesheets/log-time.md#understa" class="MCXref xref">記錄時間</a> 在 <a href="../../../timesheets/create-and-manage-timesheets/log-time.md" class="MCXref xref">記錄時間</a>.</p> </td> 
        </tr> 
        <tr> 
-         <td role="rowheader"><strong>核准程序</strong> </td> 
-         <td> <p>選擇要與模板關聯的審批流程。 您的Workfront管理員或具有核准流程管理存取權的使用者必須先定義系統層級或群組層級的專案核准流程，才能將他們與範本建立關聯。 如需建立核准程式的詳細資訊，請參閱 <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md" class="MCXref xref">建立工作項的審批流程</a>.</p> <p>新增核准程式時，請考量下列事項： </p> 
+         <td role="rowheader"><strong>核准流程</strong> </td> 
+         <td> <p>選取您要與範本產生關聯的核准程式。 您的Workfront管理員或具有核准流程管理存取權的使用者必須定義系統層級或群組層級的專案核准流程，您才能將其與範本建立關聯。 如需有關建立核准流程的詳細資訊，請參閱 <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md" class="MCXref xref">建立工作專案的核准流程</a>.</p> <p>新增核准程式時，請考量下列事項： </p> 
          <ul> 
-         <li>清單中只會顯示作用中的核准程式。 </li> 
-         <li> <p>清單中顯示系統範圍和組特定的批准流程。 與範本以外的群組相關聯的核准程式不會顯示在清單中。</p> <p><b>重要</b>
+         <li>清單中只會顯示有效的核准流程。 </li> 
+         <li> <p>系統範圍及群組特定的核准程式會顯示在清單中。 與範本以外的群組相關聯的核准程式不會顯示在清單中。</p> <p><b>重要</b>
 
-   如果與模板關聯的組發生更改，則特定於組的審批流程將變成一次性審批流程。 有關項目組的更改或審批流程中的更改如何影響審批設定的詳細資訊，請參閱 <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/how-changes-affect-group-approvals.md">組和審批流程更改如何影響分配的審批流程</a>. </p> </li>
-   <li> <p>如果您新增單次使用的核准程式，在此欄位中會顯示為「自訂」。 如需詳細資訊，請參閱 <a href="../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md" class="MCXref xref">將新審批流程或現有審批流程與工作關聯</a>. </p> 
+   如果與範本關聯的群組變更，群組特定核准流程會變成單一使用核准流程。 如需關於專案群組變更或核准流程變更如何影響核准設定的詳細資訊，請參閱 <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/how-changes-affect-group-approvals.md">群組和核准流程變更如何影響指派的核准流程</a>. </p> </li>
+   <li> <p>如果您新增單次使用的核准程式，在此欄位中顯示為「自訂」。 如需詳細資訊，請參閱 <a href="../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md" class="MCXref xref">將新的或現有的核准流程與工作建立關聯</a>. </p> 
          </li> 
          <li> <p>大量編輯範本時，會出現下列情況：</p> 
          <ul> 
-            <li> <p>從同一組中選擇模板時，系統級和組級審批流程都顯示在此欄位中。</p> </li> 
-            <li> <p>從不同的組中選擇模板時，此欄位中只顯示系統級別的審批流程。</p> </li> 
-            <li> <p>如果任何模板附加了一次性批准流程，則會由您選擇的系統級別替換。 </p> </li> 
+            <li> <p>當您從相同群組選取範本時，系統層次與群組層次核准程式都會顯示在此欄位中。</p> </li> 
+            <li> <p>當您從不同的群組選取範本時，此欄位中只會顯示系統層級的核准程式。</p> </li> 
+            <li> <p>當任何範本附加單一使用核准流程時，它會由您選取的系統層級取代。 </p> </li> 
          </ul> </li> 
          </ul> </td> 
        </tr> 
        <tr> 
          <td role="rowheader"><strong>提醒通知</strong> </td> 
-         <td>選擇應與將來項目關聯的提醒通知。 您必須配置項目的提醒通知，此欄位才能在編輯模板時顯示。 <br>有關配置提醒通知的詳細資訊，請參閱 <a href="../../../administration-and-setup/manage-workfront/emails/set-up-reminder-notifications.md" class="MCXref xref">設定提醒通知</a>.</td> 
+         <td>選取應該與未來專案關聯的提醒通知。 您必須為專案設定提醒通知，此欄位才能在編輯範本時顯示。 <br>如需有關設定提醒通知的詳細資訊，請參閱 <a href="../../../administration-and-setup/manage-workfront/emails/set-up-reminder-notifications.md" class="MCXref xref">設定提醒通知</a>.</td> 
        </tr> 
        </tbody> 
       </table>
 
-1. （選用）根據您要修改的資訊，繼續編輯下列章節。\
+1. （選擇性）根據您要修改的資訊，繼續編輯下列區段。\
    或
 1. 按一下&#x200B;**儲存**。
 
 ### 任務設定 {#task-settings}
 
-將所有新任務添加到從模板建立的項目時，您可以定義與這些任務關聯的預設值。
+當您將新任務新增至使用範本建立的專案時，您可以定義與所有新任務關聯的預設值。
 
-有關這些設定如何影響建立新任務的資訊，請參見 [建立任務概述](../../../manage-work/tasks/create-tasks/create-tasks-overview.md).
+如需這些設定如何影響建立新工作的詳細資訊，請參閱 [建立任務總覽](../../../manage-work/tasks/create-tasks/create-tasks-overview.md).
 
-1. 按上述方式開始編輯範本。
-1. 在 **編輯範本** 按一下 **任務設定**.
+1. 如上所述開始編輯您的範本。
+1. 在 **編輯範本** 方塊，按一下 **任務設定**.
 
    ![](assets/edit-template-box-tax-settings-section.png)
 
-1. 在 **任務預設審批流程** 框中，選擇當您將所有新任務添加到從此模板建立的項目時，要與其關聯的審批流程。 您必須先建立任務的審批流程，才能將其與任務關聯。 清單中只會顯示作用中的核准程式。 如需建立核准程式的詳細資訊，請參閱 [建立核准流程](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
-1. 在 **任務預設自定義Forms** 框中，選擇當您將新任務添加到從此模板建立的項目中時，要與所有新任務關聯的自定義表單或表單。 您必須先建置自訂表單，才能在此欄位中供選取。 清單中只會顯示使用中的自訂表單。 如需建立自訂表單的詳細資訊，請參閱 [建立自訂Forms](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md). 您最多可以將10個自訂表單與任務建立關聯。
-1. （選用）選取 **使用工作量自動計算任務計畫小時數** 如果要在從模板建立的項目中使用「工作量」(Work Work)而非「計畫小時數」(Planned Hours)來啟用管理任務工作。
-1. （條件式和可選）如果您選擇了「使用工作量」以自動計算任務計畫小時數，請按一下下拉菜單以更新每個工作量級別的百分比。 預設值如下：
+1. 在 **任務預設核准流程** 方塊中，選取當您新增至從此範本建立的專案時，要與所有新任務關聯的核准程式。 您必須先建立任務的核准流程，然後才能將其與任務建立關聯。 清單中只會顯示有效的核准流程。 如需有關建立核准流程的詳細資訊，請參閱 [建立核准流程](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
+1. 在 **任務預設自訂Forms** 方塊中，選取當您新增至從此範本建立的專案時，要與所有新任務關聯的一或多個自訂表單。 您必須先建置自訂表單，才能在此欄位中選取它們。 清單中只會顯示作用中的自訂表單。 如需建立自訂表單的詳細資訊，請參閱 [建立自訂Forms](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md). 您最多可以將十個自訂表單與任務建立關聯。
+1. （選用）選取 **使用工作量自動計算任務計畫時數** 如果您想在以範本建立的專案中使用「工作量」而不是「計畫時數」來啟用管理工作量。
+1. （條件式與選擇性）如果您選取使用工作量自動計算任務計畫時數，請按一下下拉式功能表，以更新每個工作量層級的百分比。 預設值為下列百分比值：
 
-   | 工作精力等級 | 百分比值 |
+   | 工作投入等級 | 百分比值 |
    |---|---|
    | 小 | 25% |
    | 中 | 50% |
    | 大 | 75% |
 
-   有關使用工作量管理項目任務工作量的資訊，請參閱 [工作成果概觀](../../../manage-work/tasks/task-information/work-effort.md).
+   如需有關使用工作量來管理專案上任務的工作量的資訊，請參閱 [工作投入概觀](../../../manage-work/tasks/task-information/work-effort.md).
 
-1. （可選）根據您要修改的資訊，繼續編輯以下部分。
+1. （選擇性）根據您要修改的資訊，繼續編輯下列區段。
 
    或
 
@@ -941,28 +943,28 @@ By editing issue settings, you can prevent users from adding issues inline in th
 
 ### 問題設定 {#issue-settings}
 
-通過編輯問題設定，可以防止用戶在將來從模板建立的項目中添加內聯問題。
+透過編輯問題設定，您可以防止使用者在將來的專案中新增使用範本建立的問題。
 
-1. 按上述方式開始編輯範本。
-1. 在 **編輯範本** 按一下 **問題設定**.
+1. 如上所述開始編輯您的範本。
+1. 在 **編輯範本** 方塊，按一下 **問題設定**.
 
    ![](assets/edit-template-box-issue-settings-section.png)
 
-1. （選用）取消選取 **允許使用者內嵌新增問題** 選項。 預設會啟用。
+1. （可選）取消選取 **允許使用者新增內嵌問題** 選項。 預設為啟用。
 
-   停用此選項時，使用者無法從範本建立專案時，將問題內嵌至專案或「問題」區段中的任務。
+   停用此選項時，當從範本建立專案時，使用者無法將內聯問題新增到專案或問題區段中的任務。
 
    >[!TIP]
    >
-   >如果您想要強制使用者填寫新問題欄位或與新問題相關聯的自訂表單，請停用此選項。
+   >如果您要強制使用者完成新問題欄位或與新問題相關聯的自訂表單，請停用此選項。
 
-   停用此選項時，有權向從範本建立的專案新增問題的使用者，可以使用「新增問題」按鈕或與專案相關聯的請求佇列，將問題新增至專案。
+   當停用此選項時，具有將問題新增至從範本建立的專案之許可權的使用者可以使用「新增問題」按鈕或與專案關聯的請求佇列來這樣做。
 
-   如需在專案上設定問題設定的詳細資訊，請參閱 [問題設定](../../../manage-work/projects/manage-projects/edit-projects.md#issue) 文章一節 [編輯專案](../../../manage-work/projects/manage-projects/edit-projects.md).
+   如需有關在專案上設定問題設定的詳細資訊，請參閱 [問題設定](../../../manage-work/projects/manage-projects/edit-projects.md#issue) 文章中的區段 [編輯專案](../../../manage-work/projects/manage-projects/edit-projects.md).
 
-   如需在專案上建立問題的相關資訊，請參閱 [建立問題](../../../manage-work/issues/manage-issues/create-issues.md).
+   如需有關在專案中建立問題的資訊，請參閱 [建立問題](../../../manage-work/issues/manage-issues/create-issues.md).
 
-1. （可選）根據您要修改的資訊，繼續編輯以下部分。
+1. （選擇性）根據您要修改的資訊，繼續編輯下列區段。
 
    或
 
@@ -970,14 +972,14 @@ By editing issue settings, you can prevent users from adding issues inline in th
 
 ### 存取 {#access-preview}
 
-1. 按上述方式開始編輯範本。
-1. 在 **編輯範本** 按一下 **存取**.
+1. 如上所述開始編輯您的範本。
+1. 在 **編輯範本** 方塊，按一下 **存取**.
 
    ![](assets/edit-template-box-access-section.png)
 
    使用範本建立專案時，您為範本指定的存取權將成為與專案相關聯的使用者存取權。
 
-   指定下列項目 **存取** 範本資訊：
+   指定下列專案 **存取** 範本的資訊：
 
    <table style="table-layout:auto"> 
        <col> 
@@ -985,44 +987,44 @@ By editing issue settings, you can prevent users from adding issues inline in th
        <tbody> 
        <tr> 
          <td role="rowheader"><strong>將某人指派給任務時</strong> </td> 
-         <td> <p>從 <strong>檢視</strong>, <strong>貢獻、</strong> 或 <strong>管理</strong> 對任務的訪問。 分配給任務的用戶將自動授予該任務的訪問權限。 </p> </td> 
+         <td> <p>選取自 <strong>檢視</strong>， <strong>Contribute，</strong> 或 <strong>管理</strong> 任務的存取權。 指派給任務的使用者會自動被授予此任務的存取權。 </p> </td> 
        </tr> 
        <tr> 
-         <td role="rowheader"><strong>同時授予專案的存取權</strong> </td> 
-         <td> <p> 從 <strong>檢視</strong>, <strong>Contribute</strong>，或 <strong>管理</strong> 存取專案。 指派給任務的使用者也會自動獲得此專案存取權。 </p> </td> 
+         <td role="rowheader"><strong>同時授與專案的存取權</strong> </td> 
+         <td> <p> 選取自 <strong>檢視</strong>， <strong>Contribute</strong>，或 <strong>管理</strong> 專案的存取權。 指派給任務的使用者也會自動被授予此專案的存取權。 </p> </td> 
        </tr> 
        <tr> 
          <td role="rowheader"><strong>將某人指派給問題時</strong> </td> 
-         <td> <p>從 <strong>檢視</strong>, <strong>貢獻、</strong> 或 <strong>管理</strong> 存取問題。 指派給問題的使用者會自動獲得此問題存取權。 </p> </td> 
+         <td> <p>選取自 <strong>檢視</strong>， <strong>Contribute，</strong> 或 <strong>管理</strong> 存取問題。 指派給問題的使用者會自動被授予此問題的存取權。 </p> </td> 
        </tr> 
        <tr> 
-         <td role="rowheader"><strong>同時授予專案的存取權</strong> </td> 
-         <td> <p> 從 <strong>檢視</strong>, <strong>Contribute</strong>，或 <strong>管理</strong> 存取專案。 指派給問題的使用者也會自動獲得此專案存取權。 </p> </td> 
+         <td role="rowheader"><strong>同時授與專案的存取權</strong> </td> 
+         <td> <p> 選取自 <strong>檢視</strong>， <strong>Contribute</strong>，或 <strong>管理</strong> 專案的存取權。 指派給問題的使用者也被自動授予此專案的存取權。 </p> </td> 
        </tr> 
        <tr> 
-         <td role="rowheader"><strong>當有人提交請求時：授予他們存取權</strong> </td> 
-         <td> <p> 從 <strong>檢視</strong>, <strong>Contribute</strong>，或 <strong>管理</strong> 存取請求。 當他們向項目提交請求時，他們將有權訪問他們提交的請求。 如需詳細資訊，請參閱 <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">共用問題 </a>.</p> </td> 
+         <td role="rowheader"><strong>某人提交請求時：授予他們存取權</strong> </td> 
+         <td> <p> 選取自 <strong>檢視</strong>， <strong>Contribute</strong>，或 <strong>管理</strong> 請求的存取權。 當他們向專案提交請求時，他們被授予對所提交請求的存取權。 如需詳細資訊，請參閱 <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">共用問題 </a>.</p> </td> 
        </tr> 
        <tr> 
-         <td role="rowheader"><strong>來自同一公司的人員將繼承所有請求的相同權限</strong> </td> 
-         <td> <p>如果您希望來自相同公司的人員對專案上的所有請求擁有相同的存取權，無論他們是否已提交，請選取此欄位。</p> </td> 
+         <td role="rowheader"><strong>來自相同公司的人員將針對所有請求繼承相同許可權</strong> </td> 
+         <td> <p>如果您希望來自相同公司的人員擁有專案上所有請求的相同存取權（無論他們是否提交請求），請選取此欄位。</p> </td> 
        </tr> 
        <tr> 
-         <td role="rowheader"><strong>當某人獲得此項目的訪問權限時：授予他們……</strong> </td> 
-         <td> <p>如果已與使用者共用專案，請選取您希望使用者在專案上擁有的存取選項。 如果指定為，請選取其存取的特定選項 <strong>檢視器</strong>, <strong>貢獻者</strong>，或 <strong>經理</strong> 與他們共用專案時。 </p> </td> 
+         <td role="rowheader"><strong>某人獲得此專案的存取權時：授予他們存取權……</strong> </td> 
+         <td> <p>選取您希望使用者在專案上擁有的存取選項（如果專案已與他們共用）。 選取其存取權的特定選項(如果它們被指定為 <strong>檢視者</strong>， <strong>貢獻者</strong>，或 <strong>管理員</strong> 與他們共用專案時。 </p> </td> 
        </tr> 
        </tbody> 
       </table>
 
-1. （選用）根據您要修改的資訊，繼續編輯下列章節。
+1. （選擇性）根據您要修改的資訊，繼續編輯下列區段。
 
    或
 
    按一下&#x200B;**儲存**。
 
-   您將為此模板提交更改。
+   您的變更將會針對此範本提交。
 
-   現在，使用此範本建立專案時，所有這些設定都會轉移至新專案。
+   現在，當您使用此範本建立專案時，所有這些設定都將轉移到新專案。
 
 
 ## 大量編輯範本
@@ -1031,86 +1033,86 @@ By editing issue settings, you can prevent users from adding issues inline in th
 
 若要大量編輯範本：
 
-1. 按一下 **主菜單** 圖示 ![](assets/main-menu-icon.png) 在Adobe Workfront的右上角。
+1. 按一下 **主要功能表** 圖示 ![](assets/main-menu-icon.png) 在Adobe Workfront的右上角。
 
 1. 按一下 **範本**.
 1. 在清單中選取數個範本。
 1. 按一下 **編輯**.
 
-   此 **編輯範本** 對話框。
+   此 **編輯範本** 對話方塊開啟。
 
    ![](assets/edit-templates-in-bulk-box-nwe-350x327.png)
 
-1. 按一下左側的區段，以編輯所有選取的範本。
+1. 按一下左側的區段以編輯所有選取的範本。
 
    如需有關編輯範本資訊的詳細資訊，請參閱 [編輯範本](#edit-a-template) 一節。
 
 1. 按一下 **儲存變更**.
 
-   您所做的所有變更現在都會顯示在所有選取的範本上。
+   您所做的所有變更現在會顯示在所有選取的範本上。
 
-## 將任務添加到模板
+## 將任務新增至範本
 
-建立模板並編輯了模板資訊後，可以向其添加任務。
+建立範本並編輯範本資訊後，您就可以新增任務至範本。
 
-將任務添加到模板類似於向項目添加任務。
+將任務新增至範本類似於將任務新增至專案。
 
-如需新增工作至專案的詳細資訊，請參閱 [在專案中建立任務](../../../manage-work/tasks/create-tasks/create-tasks-in-project.md).
+如需有關將任務新增至專案的詳細資訊，請參閱 [在專案中建立任務](../../../manage-work/tasks/create-tasks/create-tasks-in-project.md).
 
-將任務添加到模板時，模板的持續時間和模板的開始和完成天數將相應地更改。 有關模板和模板任務的開始和完成天數的資訊，請參閱 [範本中的開始和完成天數概觀](../../../manage-work/projects/create-and-manage-templates/overview-of-start-completion-day-on-template.md).
+當您將任務新增到範本時，範本的持續時間以及範本的開始和完成天數會相應變更。 有關範本和範本任務的「開始日」和「完成日」的資訊，請參閱 [範本中的開始與完成天數概要](../../../manage-work/projects/create-and-manage-templates/overview-of-start-completion-day-on-template.md).
 
-## 新增其他項目至範本
+## 新增其他專案至範本
 
-建立範本並編輯範本資訊後，您可以新增更多項目至範本。 從範本建立專案時，您新增的項目將可供專案使用。
+建立範本並編輯範本資訊後，您就可以新增更多專案至範本。 從範本建立專案時，您新增的專案將可用於該專案。
 
-將下列項目新增至範本，與將其新增至專案相同：
+將下列專案新增至範本與將它們新增至專案相同：
 
 * 文件
 * 風險
 
-   有關建立風險的詳細資訊，請參閱 [建立和編輯項目風險](../../../manage-work/projects/define-a-business-case/create-edit-risks-on-projects.md#create)  文章一節 [建立和編輯項目風險](../../../manage-work/projects/define-a-business-case/create-edit-risks-on-projects.md).
+  如需建立風險的詳細資訊，請參閱 [建立及編輯專案的風險](../../../manage-work/projects/define-a-business-case/create-edit-risks-on-projects.md#create)  文章中的區段 [建立及編輯專案的風險](../../../manage-work/projects/define-a-business-case/create-edit-risks-on-projects.md).
 
 * 核准流程
 
-   有關將審批流程與工作關聯的資訊，請參閱 [將新審批流程或現有審批流程與工作關聯](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md).
+  如需將核准程式與工作產生關聯的資訊，請參閱 [將新的或現有的核准流程與工作建立關聯](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md).
 
 * 收費率
 
-   如需關於覆寫專案計費率的詳細資訊，請參閱 [改寫任務職責開單費率和計算項目收入概覽](../../../manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md).
+  如需有關覆寫專案收費率的詳細資訊，請參閱 [覆寫工作角色帳單費率與計算專案收入的概要](../../../manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md).
 
 * 費用
 
-   有關添加費用的詳細資訊，請參閱 [管理項目費用](../../../manage-work/projects/project-finances/manage-project-expenses.md).
+  如需新增費用的詳細資訊，請參閱 [管理專案費用](../../../manage-work/projects/project-finances/manage-project-expenses.md).
 
-* 主題群組和佇列主題
+* 主題群組與佇列主題
 
-   如需將主題群組和佇列主題新增至專案或範本的詳細資訊，請參閱 [建立請求佇列](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
+  如需有關將主題群組和佇列主題新增至專案或範本的詳細資訊，請參閱 [建立請求佇列](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
 
-您可以將下列項目新增至範本中的工作：
+您可以將下列專案新增至範本中的任務：
 
 * 文件
 * 費用
 
-   有關添加費用的詳細資訊，請參閱 [管理項目費用](../../../manage-work/projects/project-finances/manage-project-expenses.md).
+  如需新增費用的詳細資訊，請參閱 [管理專案費用](../../../manage-work/projects/project-finances/manage-project-expenses.md).
 
 * 核准
 
-   有關將批准與工作關聯的詳細資訊，請參閱 [將新審批流程或現有審批流程與工作關聯](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md).
+  有關將核准與工作關聯的詳細資訊，請參閱 [將新的或現有的核准流程與工作建立關聯](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md).
 
 
 ## 啟用或停用範本
 
-如果您希望使用者找不到範本，可以停用該範本，並從中建立專案。 您無法將停用的範本附加至專案，也無法使用它來建立專案。
+如果您希望使用者找不到範本並無法從中建立專案，您可以停用範本。 您無法將已停用的範本附加到專案，也無法使用它來建立專案。
 
-停用的範本不會影響使用這些範本建立的現有專案。
+已停用的範本不會影響使用它們建立的現有專案。
 
-停用範本：
+若要停用範本：
 
-1. 前往作用中的範本，然後按一下 **更多** ![](assets/qs-more-icon-on-an-object.png) 範本名稱旁的功能表，然後按一下 **停用**.
+1. 移至使用中的範本，然後按一下 **更多** ![](assets/qs-more-icon-on-an-object.png) 範本名稱旁的功能表，然後按一下 **停用**.
 
    ![](assets/deactivate-template-link-in-more-menu.png)
 
-   範本不再作用中，使用者也找不到範本來建立專案。
-1. （選用）若要啟動範本，請按一下 **更多** ![](assets/qs-more-icon-on-an-object.png) 範本名稱旁的功能表，然後按一下 **啟動**.
+   範本已不在使用中，使用者無法找到範本以從中建立專案。
+1. （可選）若要啟動範本，請按一下 **更多** ![](assets/qs-more-icon-on-an-object.png) 範本名稱旁的功能表，然後按一下 **啟動**.
 
-   範本現在處於作用中狀態，可附加至專案或用於建立專案。
+   此範本現在已啟用，可附加至專案或用來建立專案。

@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 579c30d1090f80d7fecef47286206e4ba03ddbb7
+source-git-commit: 421fd012c2ce6a4ae0b11fe343c279d1a3fd551c
 workflow-type: tm+mt
-source-wordcount: '2161'
+source-wordcount: '2305'
 ht-degree: 0%
 
 ---
@@ -62,6 +62,29 @@ The following are the permissions levels for Maestro workspaces:
 Only Workfront administrators can create, edit, or delete workspaces and all information associated with them.  
 
 For more information, see [Grant access to Adobe Maestro](../maestro/access/grant-access.md) and [Overview of sharing permissions in Adobe Maestro](../maestro/access/sharing-permissions-overview.md). -->
+
+## 2023年12月4日當週
+
+### 在Maestro表格檢視中，針對People-type和連結的記錄欄位，將資訊從一個欄位複製並貼到另一個欄位
+
+預覽和生產： 2023年12月5日
+
+您現在可以在Maestro記錄型別表格檢視中，將資訊從一個欄位複製並貼到另一個相同型別的欄位。 下列欄位型別現在支援此功能：
+
+* 人員
+* 連結的記錄欄位
+
+請考量下列事項：
+
+* 顯示多個值的欄位支援將欄位值從一個欄位複製和貼上到另一個欄位。
+
+* 您無法從其他來源複製資訊，除了與貼上資訊的欄位型別相同的Maestro欄位之外。
+
+* 您無法複製和貼上顯示在記錄之詳細資訊區域中的欄位值。
+
+如需詳細資訊，請參閱 [編輯記錄](../maestro/records/edit-records.md).
+
+如需連結欄位的詳細資訊，請參閱 [連線記錄型別](../maestro/architecture/connect-record-types.md).
 
 ## 2023年11月27日當週
 

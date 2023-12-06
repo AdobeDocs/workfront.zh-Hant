@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: 66a4a1e11ff04008d1d0c77fbd6887e8f5f1c46b
+source-git-commit: 421fd012c2ce6a4ae0b11fe343c279d1a3fd551c
 workflow-type: tm+mt
-source-wordcount: '821'
+source-wordcount: '813'
 ht-degree: 1%
 
 ---
@@ -217,7 +217,7 @@ After permssions - replace the table with:
    >  * 下列型別的欄位：建立者、建立日期、上次修改者、上次修改日期
 
 
-1. （可選）複製欄位的現有值，然後貼入另一筆記錄中相同型別的欄位中，然後按一下 **輸入** 以儲存變更。
+1. （可選）複製欄位的一或多個現有值，然後貼到另一筆記錄中相同型別的欄位中，然後按一下 **輸入** 以儲存變更。
 
    >[!NOTE]
    >
@@ -229,10 +229,7 @@ After permssions - replace the table with:
    >* 您無法複製和貼上下列欄位型別的欄位值：
    ><ul>
    >
-   > * 人員
-   >
    > * 系統欄位
-   >
-   > * 在連線記錄之後建立的連結欄位
+
 
    <!--take People out of the list above when they release this - this might be coming later-->

@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
-source-git-commit: 4946a65188391df62ad3e135a5b1dbba9a16dc89
+source-git-commit: 98b57b08b87e47a402684428a76576455df664d7
 workflow-type: tm+mt
-source-wordcount: '1762'
+source-wordcount: '1784'
 ht-degree: 0%
 
 ---
@@ -173,7 +173,10 @@ After permssions - replace the table with:
 
 <!-- Notes for the table: for the "Workfront access" row: <p>For more information, see <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront licenses overview</a>.</p>-->
 
+
 ## 有關連線記錄型別的考量事項
+
+請考量下列事項：
 
 * 您可以在Maestro中連線下列實體：
 
@@ -219,7 +222,7 @@ After permssions - replace the table with:
 
 <!--when changes here, also update the article for "Connect records"-->
 
-1. 按一下 **主要功能表** 圖示 ![](assets/main-menu-workfront.png) 位於Workfront右上角，或 **主功能表** 圖示 ![](assets/main-menu-shell.png)  （如果有的話）按一下 **大師** ![](assets/maestro-icon.png).
+1. 按一下 **[!UICONTROL 主要功能表]** 圖示 ![主要功能表](assets/dots-main-menu.png) 在Adobe Workfront的右上角，或（如果有的話）按一下 **[!UICONTROL 主要功能表]** 圖示 ![主要功能表](assets/lines-main-menu.png) 然後按一下「 」 **[!UICONTROL 大師]**.
 
    根據預設，上次存取的工作區應該會開啟。
 
@@ -252,7 +255,7 @@ After permssions - replace the table with:
    * **允許多筆記錄**：選取此選項以表示您允許使用者在原始記錄上顯示「連結的記錄型別」欄位時新增多個記錄。 依預設會選取此選項。
    * **選取查閱欄位**：選取此選項，從選取的記錄型別新增欄位。 依預設會選取此選項。
 
-1. 按一下 **建立**。
+1. 按一下 **建立**.
 
 1. （視條件而定）如果您在上一步驟中選取選取查閱欄位設定，則 **新增查詢欄位** 方塊開啟。
 

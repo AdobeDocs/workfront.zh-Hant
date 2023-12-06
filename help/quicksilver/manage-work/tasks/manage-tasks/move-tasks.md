@@ -6,9 +6,9 @@ description: 您可以在Adobe Workfront中將任務移動到不同的專案或�
 author: Alina
 feature: Work Management
 exl-id: 93295d70-a6cf-46ca-b621-228fa6c983f5
-source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
+source-git-commit: 421fd012c2ce6a4ae0b11fe343c279d1a3fd551c
 workflow-type: tm+mt
-source-wordcount: '1479'
+source-wordcount: '1488'
 ht-degree: 2%
 
 ---
@@ -39,7 +39,9 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront授權*</td> 
-   <td> <p>工作或更高</p> </td> 
+   <td> <p>新計畫：標準 </p> 
+ <p>或</p>  
+<p>目前計畫：工作或以上 </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定*</td> 
@@ -202,7 +204,7 @@ ht-degree: 2%
      <tr> 
       <td role="rowheader">文件</td> 
       <td> <p>附加到任務的檔案未轉移到已移動的任務。 這包括版本、校樣和連結檔案。</p> <p>這不包括檔案核准。 移動任務時無法移動檔案核准。</p> 
-      <b>附註</b>
+      <b>注意</b>
 
    如果您選擇不將檔案與任務一起移動，檔案將被刪除並放入資源回收筒30天。 管理員可以還原它們，它們將在移動的任務上還原。
 
