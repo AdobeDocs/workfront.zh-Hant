@@ -2,30 +2,30 @@
 title: 在增強型分析中套用篩選器
 product-area: enhanced-analytics
 navigation-topic: enhanced-analytics-navigation-topic
-description: 增強型分析區域中的篩選器可幫助您專注於特定專案或特定型別的資料。
+description: Adobe Workfront增強型分析區域中的篩選器可幫助您專注於特定專案或特定型別的資料。
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 25854c04-d914-4302-a36b-e8134637efe1
-source-git-commit: bcafa607da733b89747f6b448dd295d9b906d060
+source-git-commit: 4ade799ff735183f83f045e7eaa876961d266208
 workflow-type: tm+mt
-source-wordcount: '1484'
-ht-degree: 1%
+source-wordcount: '1508'
+ht-degree: 0%
 
 ---
 
 # 在增強型分析中套用篩選器
 
-增強型分析區域中的篩選器可幫助您專注於特定專案或特定型別的資料。 您使用的篩選器型別可讓您深入分析：
+Adobe Workfront增強型分析區域中的篩選器可幫助您專注於特定專案或特定型別的資料。 您使用的篩選器型別可讓您深入分析：
 
 * 您擁有的專案
 * 特定投資組合或計畫檢視
 * 特定時間範圍（周、季、會計年度）的關鍵績效指標
 
-您可以視需要新增和移除篩選器，即使您登出，Adobe Workfront仍會保留您套用的篩選器。
+您可以視需要新增和移除篩選器，即使您登出，Workfront仍會保留您套用的篩選器。
 
 ## 存取需求
 
-若要完成此工作，您必須具備下列專案：
+您必須具有下列存取權才能執行本文中的步驟：
 
 <table style="table-layout:auto"> 
  <caption style="text-align: left;">
@@ -35,13 +35,20 @@ ht-degree: 1%
  <col> 
  <tbody> 
   <tr> 
-   <td> <p><a href="https://www.workfront.com/plans" target="_blank">Workfront計畫</a>*</p> </td> 
-   <td>商務或以上版本</td> 
-  </tr> 
+   <td role="rowheader">Adobe Workfront計畫*</td> 
+   <td>
+      <p>新計畫：任何</p>
+      <p>或</p>
+      <p>目前計畫：商務或以上</p></td> 
+  </tr>
   <tr> 
-   <td> <p><a href="../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront授權總覽</a>*</p> </td> 
-   <td> <p>評論或以上</p> </td> 
-  </tr> 
+   <td role="rowheader">Adobe Workfront授權*</td> 
+   <td>
+      <p>新計畫：淺色或更高</p>
+      <p>或</p>
+      <p>目前計畫：複查或更新</p>
+   </td> 
+  </tr>
   <tr> 
    <td><b>存取層級*</b> </td> 
    <td> <p>檢視專案的存取權</p> <p>您也必須擁有「任務」、「Portfolio」和「使用者」的「檢視」存取權，才能檢視特定專案欄位篩選選項。</p> <p>注意：如果在「編輯存取層級」對話方塊的「設定其他限制」區段中選取限制，則套用篩選後，您可能無法在篩選或「增強分析」頁面上看到所有資訊。 如需有關Workfront管理員如何變更您的存取層級的資訊，請參閱 <a href="../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>.</p> </td> 
@@ -55,7 +62,7 @@ ht-degree: 1%
 
 ## 必要條件
 
-如需使用增強型分析的先決條件，請參閱 [必要條件](../enhanced-analytics/enhanced-analytics-overview.md#prerequi) 在 [增強型分析概述](../enhanced-analytics/enhanced-analytics-overview.md).
+如需使用增強型分析的先決條件，請參閱 [必要條件](../enhanced-analytics/enhanced-analytics-overview.md#prerequisites) 在 [增強型分析概述](../enhanced-analytics/enhanced-analytics-overview.md).
 
 ## 變更日期範圍篩選 {#change-the-date-range-filter}
 
@@ -64,22 +71,23 @@ ht-degree: 1%
 >[!TIP]
 >
 >您也可以使用鍵盤上的鍵，導覽至、開啟及選取行事曆Widget的日期範圍。\
->如需詳細資訊，請參閱 [鍵盤快速鍵](../enhanced-analytics/enhanced-analytics-overview.md#keyboard) 文章中的區段 [增強型分析概述](../enhanced-analytics/enhanced-analytics-overview.md).
+>如需詳細資訊，請參閱 [鍵盤快速鍵](../enhanced-analytics/enhanced-analytics-overview.md#keyboard-shortcuts) 文章中的區段 [增強型分析概述](../enhanced-analytics/enhanced-analytics-overview.md).
 
 若要選取新的日期範圍：
 
-1. 按一下主要功能表圖示 ![](assets/main-menu-icon-16x12.png)，然後選取 **Analytics**.
-1. 在畫面的右上角，按一下日期範圍欄位以開啟行事曆檢視。
+{{step1-to-analytics}}
+
+1. 在右上方，按一下日期範圍欄位以開啟行事曆檢視。
 1. 使用日曆上方的箭頭來找出開始日期的月份，然後選取開始日期。
 
-   ![](assets/filters-select-date-range-350x344.png)
+   ![選取日期範圍](assets/filters-select-date-range-350x344.png)
 
 1. 使用日曆上方的箭頭來找出結束日期的月份，然後選取結束日期。
 1. （可選）若要放大顯示較短的日期範圍，請在其中一個視覺效果上，將滑鼠從一個特定日期拖曳至另一個特定日期。
 
-   熒幕上的所有視覺效果都會更新以符合所選的時間範圍，而時間範圍篩選器會出現在任何現有篩選器旁。 如果您登出或離開增強型分析區域，則不會保留此篩選器。
+   熒幕上的所有視覺效果都會更新以符合所選的時間範圍，而時間範圍篩選器會出現在任何現有篩選器的旁邊。 如果您登出或離開增強型分析區域，則不會保留此篩選器。
 
-   ![](assets/timeframe-filter-350x220.png)
+   ![時間範圍篩選器](assets/timeframe-filter-350x220.png)
 
 ## 新增篩選器
 
@@ -91,7 +99,7 @@ ht-degree: 1%
 >如需詳細資訊，請參閱 [鍵盤快速鍵](../enhanced-analytics/enhanced-analytics-overview.md#keyboard) 文章中的區段 [增強型分析概述](../enhanced-analytics/enhanced-analytics-overview.md).
 
 * [新增專案欄位篩選器](#add-a-project-field-filter)
-* [新增專案欄位篩選器](#add-a-project-field-filter)
+* [新增專案自訂表單篩選器](#add-a-project-custom-form-filter)
 * [新增團隊篩選器](#add-a-team-filter)
 
 ### 新增專案欄位篩選器 {#add-a-project-field-filter}
@@ -100,36 +108,38 @@ ht-degree: 1%
 
 下列專案欄位篩選型別可供使用：
 
-| **專案** | 僅顯示選定專案的資料 |
+| 欄位 | 顯示的資料 |
 |---|---|
-| **方案** | 僅顯示選定計畫中的專案資料 |
-| **專案組合** | 僅顯示選定投資組合中專案的資料 |
+| **專案** | 僅顯示選定專案的資料 |
+| **計畫** | 僅顯示選定方案中專案的資料 |
+| **Portfolio** | 僅顯示選定投資組合中專案的資料 |
 | **條件** | 僅顯示最近具有選定狀態（符合目標、有風險或有問題）之專案的資料 |
 | **狀態** | 僅顯示最近具有選定狀態（完成、目前、保留、取消等）的專案資料 |
 | **贊助者** | 僅顯示具有所選贊助者的專案的資料 |
 | **專案所有者** | 僅顯示具有所選專案所有者的專案的資料 |
 
-{style="table-layout:auto"}
-
-自訂表單篩選器的運作方式不同。 如需詳細資訊，請參閱 [新增專案欄位篩選器](#add-a-project-field-filter).
+自訂表單篩選器的運作方式不同。 如需詳細資訊，請參閱 [新增專案自訂表單篩選器](#add-a-project-custom-form-filter).
 
 若要新增專案欄位篩選：
 
-1. 按一下主要功能表圖示 ![](assets/main-menu-icon-16x12.png)，然後選取 **Analytics**.
-1. 在熒幕的左上角，按一下 **新增篩選器**，然後選取所需的篩選器型別。
+{{step1-to-analytics}}
+
+1. 在左上方，按一下 **新增篩選器**，然後選取所需的篩選器型別。
 
    >[!NOTE]
    >
-   >不同的篩選器型別會顯示不同的資料。 在一個篩選中只能使用一個篩選型別。 選取後，某個篩選型別即無法用於其他專案欄位篩選。
+   >不同的篩選器型別會顯示不同的資料。 在一個篩選中只能使用一個篩選型別。 選取篩選器型別後，即無法在其他專案欄位篩選中使用。
 
-1. 請至少輸入3個字元的文字，找出您要檢視其資料的值 **搜尋** 欄位，然後選取要納入篩選的每個值。
+1. 請至少輸入三個文字字元，找出您要檢視其資料的值 **搜尋** 欄位，然後選取要納入篩選的每個值。
 
    若要選取所有目前值，請按一下 **全選**.
 
-   ![](assets/select-filter-value-350x251.png)
+   ![選取篩選器值](assets/select-filter-value-350x251.png)
 
-1. 選取所有所需值後，按一下 **套用篩選器**.\
-   頁面右上角的專案計數會更新，以反映您套用的篩選器。
+1. 選取所有所需值後，按一下 **套用篩選器**.
+
+   右上角的專案計數會更新，以反映您套用的篩選器。
+
 1. 對每個要新增的篩選器重複這些步驟。
 
    當您新增篩選器時，資料會顯示在下方的視覺效果中，最多50個專案。
@@ -138,52 +148,48 @@ ht-degree: 1%
    >
    >若要檢視預設顯示的50個以上專案的資料，您可以：
    >
+   >   * 使用左下方的箭頭，在該視覺效果中顯示接下來的50個專案。\
+   >     ![分頁箭頭](assets/pagination-350x118.png)
    >   
-   >   
-   >   * 使用左下角的箭頭，在該視覺效果中顯示接下來的50個專案。\
-   >     ![](assets/pagination-350x118.png)
-   >   
-   >   * 使用視覺效果上的「排序依據」下拉式功能表，以不同順序檢視專案。\
-   >     ![](assets/sort-by-menu-350x247.png)
-   >   
-   >   
-   >
+   >   * 使用 **排序依據：** 視覺效果上的下拉式功能表，以不同順序檢視專案。\
+   >     ![依功能表排序](assets/sort-by-menu-350x247.png)
 
    若要調整日期範圍，請參閱 [變更日期範圍篩選](#change-the-date-range-filter).
 
-### 新增專案自訂表格篩選器
+### 新增專案自訂表單篩選器
 
-「自訂表單」篩選型別可讓您根據在專案的「自訂表單」欄位中輸入的值，篩選專案和任務的資料。 與其他增強型分析篩選器型別不同，您可以新增多個自訂表單篩選器。 每個自訂表單篩選器僅包含在特定自訂表單上選定欄位內輸入的值。
+自訂表單篩選型別可讓您根據在專案的自訂表單欄位中輸入的值，篩選專案和任務的資料。 與其他增強型分析篩選器型別不同，您可以新增多個自訂表單篩選器。 每個自訂表單篩選器僅包含在特定自訂表單上選定欄位內輸入的值。
 
 若要新增自訂表單篩選器：
 
-1. 按一下主要功能表圖示 ![](assets/main-menu-icon-16x12.png)，然後選取 **Analytics**.
+{{step1-to-analytics}}
+
 1. 在熒幕的左上角，按一下 **新增篩選器**，然後選取 **自訂表格**.
 
-   ![](assets/select-custom-form-filter-350x271.png)
+   ![選取自訂表單篩選器](assets/select-custom-form-filter-350x271.png)
 
-1. 請至少輸入3個字元的文字，找出您想要的自訂表格。 **搜尋** 欄位，然後選取自訂表格。
+1. 請至少輸入三個字元的文字，找出您想要的自訂表格 **搜尋** 欄位，然後選取自訂表格。
 1. 選取您想要的欄位，然後根據要新增至篩選的欄位型別完成下列動作之一：
 
    >[!NOTE]
    >
-   >並非所有自訂表單欄位型別都可以新增到篩選器中。 目前，增強型分析僅支援上方列出的欄位型別。
+   >並非所有自訂corm欄位型別都可以新增到篩選器中。 目前，增強型分析僅支援下列欄位型別。
 
-   * **核取方塊**， **下拉式清單**，或 **選項按鈕**：選取所選欄位中要納入篩選的每個值，或按一下 **全選** 核取方塊。\
-     ![](assets/custom-form-filter-checkbox-350x255.png)
+   * **核取方塊**， **下拉式清單**，或 **選項按鈕**：選取欄位中要納入篩選的每個值，或按一下 **全選** 核取方塊。\
+     ![核取方塊值](assets/custom-form-filter-checkbox-350x255.png)
 
-   * **日期**：使用箭頭來導覽至特定月份，然後在選取的欄位中選取您要納入篩選的日期。\
-     ![](assets/custom-form-filter-date-350x348.png)
+   * **日期**：使用箭頭來導覽至特定月份，然後在欄位中選取您要納入篩選的日期。\
+     ![日期值](assets/custom-form-filter-date-350x348.png)
 
-   * **文字**：在選取的欄位中輸入您要納入篩選的文字。\
-     ![](assets/custom-form-filter-text-350x90.png)
+   * **文字**：在欄位中輸入您要納入篩選的文字。\
+     ![文字值](assets/custom-form-filter-text-350x90.png)
 
-   * **數字**：在選取的欄位中輸入數字，以納入您的篩選條件。\
-     ![](assets/custom-form-filter-number-350x93.png)
+   * **數字**：在欄位中輸入您要納入篩選器的數字。\
+     ![數值](assets/custom-form-filter-number-350x93.png)
 
 1. 輸入或選取要篩選的值後，按一下 **套用篩選器**.
 
-   頁面右上角的專案計數會更新，以反映您套用的篩選器。
+   右上角的專案計數會更新，以反映您套用的篩選器。
 
 1. 對每個要新增的篩選器重複這些步驟。
 
@@ -192,36 +198,31 @@ ht-degree: 1%
    >[!TIP]
    >
    >若要檢視預設顯示的50個以上專案的資料，您可以：
-   >
+   >  
+   >   * 使用左下方的箭頭，在該視覺效果中顯示接下來的50個專案。\
+   >     ![分頁箭頭](assets/pagination-350x118.png)
    >   
-   >   
-   >   * 使用左下角的箭頭，在該視覺效果中顯示接下來的50個專案。\
-   >     ![](assets/pagination-350x118.png)
-   >   
-   >   * 使用視覺效果上的「排序依據」下拉式功能表，以不同順序檢視專案。\
-   >     ![](assets/sort-by-menu-350x247.png)
-   >   
-   >   
-   >
+   >   * 使用 **排序依據：** 視覺效果上的下拉式功能表，以不同順序檢視專案。\
+   >     ![依功能表排序](assets/sort-by-menu-350x247.png)
 
    若要調整日期範圍，請參閱 [變更日期範圍篩選](#change-the-date-range-filter).
 
 ### 新增團隊篩選器 {#add-a-team-filter}
 
-1. 按一下主要功能表圖示 ![](assets/main-menu-icon-16x12.png)，然後選取 **Analytics**.
+{{step1-to-analytics}}
+
 1. 在左側面板中，按一下 **人員**.
 
-   ![](assets/people-area-cropped-qs-350x276.png)
+   ![選取人員](assets/people-area-cropped-qs-350x276.png)
 
-1. 在熒幕的左上角，按一下 **新增篩選器**，然後選取 **團隊** 篩選。
-1. 請在欄位中輸入至少3個字元的文字，以找到您要檢視資料的團隊 **搜尋** 欄位，然後選取要納入篩選的每個團隊。 若要選取所有專案團隊，請按一下 **全選**.
+1. 在畫面左上方，按一下 **新增篩選器**，然後選取 **團隊** 篩選。
+1. 請至少輸入三個字元的文字，以找出您要檢視其資料的團隊 **搜尋** 欄位，然後選取要納入篩選的每個團隊。 若要選取所有專案團隊，請按一下 **全選**.
 
-   ![](assets/select-team-value-350x253.png)
+   ![選取團隊](assets/select-team-value-350x253.png)
 
    >[!NOTE]
    >
    >無論您的存取層級為何，所有團隊都會納入為篩選器選項。
-
 
 1. 選取所有所需團隊後，按一下 **套用篩選器**.
 
@@ -240,15 +241,16 @@ ht-degree: 1%
 
 若要移除篩選器：
 
-1. 按一下主要功能表圖示 ![](assets/main-menu-icon-16x12.png)，然後選取 **Analytics**.
-1. 如果要移除工作篩選器，請保留在 **工作** 區域。
+{{step1-to-analytics}}
+
+1. 如果要移除專案欄位或自訂表單篩選器，請保留在 **工作** 區域。
 
    或
 
-   如果要移除「人員」篩選器，請選取「 」 **人員** 在左側面板中。
+   如果要移除團隊篩選器，請選取 **人員** 在左側面板中。
 
 1. 找到所需的篩選器，然後按一下 **X** 以移除它。
 
-   ![](assets/remove-filter-350x213.png)
+   ![移除](assets/remove-filter-350x213.png)
 
    篩選器不再啟用，除非您再次新增，否則不會顯示。
