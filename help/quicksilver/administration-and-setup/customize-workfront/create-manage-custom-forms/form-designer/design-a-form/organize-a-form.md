@@ -8,7 +8,7 @@ author: Courtney
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 08de894a-82f0-4440-a350-680d6648f01e
-source-git-commit: 961e0451ce9011a8a9f511d7d5da99368d22d6fb
+source-git-commit: 7467e75cf468fa6a1dd14dbc0f4fdcda87de1b1e
 workflow-type: tm+mt
 source-wordcount: '1113'
 ht-degree: 0%
@@ -34,9 +34,9 @@ ht-degree: 0%
   <tr> 
    <td role="rowheader">Adobe Workfront授權*</td> 
    <td>
-   <p>目前計畫：標準</p>
+   <p>新計畫：標準</p>
    <p>或</p>
-   <p>舊版計畫：計畫</p></td> 
+   <p>目前計畫：計畫</p></td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">存取層級設定*</td> 
@@ -105,7 +105,7 @@ ht-degree: 0%
          </ul> </li> 
        </ul> 
        <p>如需物件許可權的相關資訊，請參閱 <a href="/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md" class="MCXref xref">物件許可權共用概觀</a>.</p> 
-       <p><b>附註</b>:  
+       <p><b>注意</b>：  
        <ul> 
        <li> <p>沒有您在此指定許可權的使用者無法看到區段中的自訂欄位和Widget。 </p> <p>如果您在報表中顯示欄位值，或在文字模式報表的計算欄位中使用這些值，也會發生這種情況。</p> </li> 
        <li> <p>將多個物件型別與您的表單建立關聯，可以變更這些步驟中可用的檢視和編輯許可權。 如需詳細資訊，請參閱 <a href="#how-multiple-object-types-can-affect-section-break-permissions-in-a-custom-form" class="MCXref xref">多個物件型別如何影響自訂表單中的分割槽符號許可權</a> 本文章內容。</p> </li> 

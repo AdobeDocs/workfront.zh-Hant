@@ -8,7 +8,7 @@ author: Courtney
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: c43ea6b2-7d5b-46f0-a092-f57128de60f0
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+source-git-commit: 7467e75cf468fa6a1dd14dbc0f4fdcda87de1b1e
 workflow-type: tm+mt
 source-wordcount: '532'
 ht-degree: 0%
@@ -34,9 +34,9 @@ ht-degree: 0%
   <tr> 
    <td role="rowheader">Adobe Workfront授權*</td> 
    <td>
-   <p>目前計畫：標準</p>
+   <p>新計畫：標準</p>
    <p>或</p>
-   <p>舊版計畫：計畫</p></td> 
+   <p>目前計畫：計畫</p></td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">存取層級設定*</td> 

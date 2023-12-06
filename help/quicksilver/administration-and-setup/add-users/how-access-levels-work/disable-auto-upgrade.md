@@ -9,10 +9,10 @@ description: 每位使用者都必須具備存取層級，才能登入及在Work
 author: Courtney
 feature: System Setup and Administration
 role: Admin
-exl-id: 1ff727f1-bc26-4ffe-a510-615bebfe5b96
-source-git-commit: 8807636d2309435cb5f4e08d6a7d27246342200d
+exl-id: 58c76187-fc74-4ab4-80e8-c3e296a84f27
+source-git-commit: 7467e75cf468fa6a1dd14dbc0f4fdcda87de1b1e
 workflow-type: tm+mt
-source-wordcount: '211'
+source-wordcount: '205'
 ht-degree: 1%
 
 ---
@@ -26,7 +26,6 @@ ht-degree: 1%
 >[!IMPORTANT]
 >
 >一旦停用，任何超過分配數量決定的非付費使用者都不會自動升級。
-
 
 ## 存取需求
 
@@ -42,9 +41,9 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront授權</td> 
-   <td>目前計畫：標準
+   <td>新計畫：標準
    <p>或</p>
-   <p>舊版計畫：計畫</p></td> 
+   <p>目前計畫：計畫</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定</td> 

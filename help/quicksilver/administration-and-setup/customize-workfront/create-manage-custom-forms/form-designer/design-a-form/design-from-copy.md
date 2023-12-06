@@ -8,7 +8,7 @@ author: Courtney
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 578a8bd5-d93f-4327-bb4f-2c17b91b170a
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+source-git-commit: 7467e75cf468fa6a1dd14dbc0f4fdcda87de1b1e
 workflow-type: tm+mt
 source-wordcount: '421'
 ht-degree: 0%
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 # 使用表單設計工具從副本設計表單
 
-您可以根據現有表單來設計新的自訂表單。 您可以將自訂表單附加至不同的Workfront物件，以擷取這些物件的相關資料。
+您可以根據現有表格設計新的自訂表格。 您可以將自訂表單附加至不同的Workfront物件，以擷取這些物件的相關資料。
 
 ## 存取需求
 
@@ -34,9 +34,9 @@ ht-degree: 0%
   <tr> 
    <td role="rowheader">Adobe Workfront授權*</td> 
    <td>
-   <p>目前計畫：標準</p>
+   <p>新計畫：標準</p>
    <p>或</p>
-   <p>舊版計畫：計畫</p></td> 
+   <p>目前計畫：計畫</p></td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">存取層級設定*</td> 

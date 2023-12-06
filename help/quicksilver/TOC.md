@@ -3,10 +3,10 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文件、教學課程和其他資源，了解如何在您的組織中實施並有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: 2ed1d2df76f27ef6e2fe2c9612f8cdf867ed994d
+source-git-commit: 7467e75cf468fa6a1dd14dbc0f4fdcda87de1b1e
 workflow-type: tm+mt
-source-wordcount: '13442'
-ht-degree: 1%
+source-wordcount: '13775'
+ht-degree: 0%
 
 ---
 
@@ -525,7 +525,7 @@ ht-degree: 1%
       * Adobe Workfront中的自訂品牌 {#custom-branding}
          * [自訂品牌](administration-and-setup/customize-workfront/brand-workfront/brand-workfront.md)
          * [品牌化您的執行個體](administration-and-setup/customize-workfront/brand-workfront/brand-your-workfront-instance.md)
-         * [設定自訂幫助 URL](administration-and-setup/customize-workfront/brand-workfront/configure-custom-help-url.md)
+         * [設定自訂說明URL](administration-and-setup/customize-workfront/brand-workfront/configure-custom-help-url.md)
       * 版面配置範本 {#layout-templates}
          * [版面配置範本](administration-and-setup/customize-workfront/use-layout-templates/use-layout-templates-customize-ui.md)
          * [預設Workfront配置](administration-and-setup/customize-workfront/use-layout-templates/about-the-default-wf-layout.md)
@@ -545,8 +545,8 @@ ht-degree: 1%
          * [將使用者指派給版面配置範本](administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md)
          * [復製版面範本](administration-and-setup/customize-workfront/use-layout-templates/copy-a-layout-template.md)
          * [使用API呼叫刪除傳統版面配置範本](administration-and-setup/customize-workfront/use-layout-templates/delete-classic-layout-templates.md)
-      * 自訂表單 {#custom-forms}
-         * [自訂表單](administration-and-setup/customize-workfront/create-manage-custom-forms/create-and-manage-custom-forms.md)
+      * 自訂表格 {#custom-forms}
+         * [我的群組中的自訂表格](administration-and-setup/customize-workfront/create-manage-custom-forms/create-and-manage-custom-forms.md)
          * [自訂表單概述](administration-and-setup/customize-workfront/create-manage-custom-forms/custom-forms-overview.md)
          * 舊版自訂表單產生器 {#custom-form-builder}
             * 使用自訂表單產生器 {#use-the-custom-form-builder}
@@ -676,7 +676,7 @@ ht-degree: 1%
       * 診斷 {#diagnostics}
          * [診斷](administration-and-setup/manage-workfront/run-diagnostics/diagnostics.md)
          * [使用診斷來觸發自動化](administration-and-setup/manage-workfront/run-diagnostics/use-diagnostics-to-trigger-automated-processes.md)
-      * Kick-Start {#kick-starts}
+      * Kick-Starts {#kick-starts}
          * [Kick-Start](administration-and-setup/manage-workfront/using-kick-starts/kick-starts.md)
          * [透過Kick-Start匯出Workfront資料](administration-and-setup/manage-workfront/using-kick-starts/export-data-from-wf-via-kick-starts.md)
          * [使用Kick-Start範本匯入資料](administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md)
@@ -1028,14 +1028,14 @@ ht-degree: 1%
       * [從Kanban面板刪除劇本](agile/use-kanban-in-an-agile-team/delete-story-from-kanban-board.md)
    * 敏捷團隊中的Scrum {#scrum}
       * [敏捷團隊中的Scrum](agile/use-scrum-in-an-agile-team/scrum-in-an-agile-team.md)
-      * 專案待執行工作 {#burndown}
+      * 待執行工作 {#burndown}
          * [專案待執行工作](agile/use-scrum-in-an-agile-team/burndown/burndown.md)
          * [敏捷待執行工作圖表總覽](agile/use-scrum-in-an-agile-team/burndown/burndown-chart-overview.md)
          * [反複專案完成狀態概觀](agile/use-scrum-in-an-agile-team/burndown/iteration-completion-status-overview.md)
          * [調整待執行工作圖表的大小並收合](agile/use-scrum-in-an-agile-team/burndown/resize-collapse-burndown-chart.md)
          * [同步化待執行工作圖表中的資料](agile/use-scrum-in-an-agile-team/burndown/sync-the-burndown-chart.md)
          * [對待執行工作圖表使用替代的小組排程](agile/use-scrum-in-an-agile-team/burndown/use-alt--team-schedule-burndown-charts.md)
-      * 疊代 {#iterations}
+      * 反複專案 {#iterations}
          * [疊代](agile/use-scrum-in-an-agile-team/iterations/iterations.md)
          * [反複專案概觀](agile/use-scrum-in-an-agile-team/iterations/iterations-overview.md)
          * [建立反複專案](agile/use-scrum-in-an-agile-team/iterations/create-an-iteration.md)
@@ -1063,7 +1063,7 @@ ht-degree: 1%
    * 敏捷的秘訣、技巧和疑難排解 {#tips-tricks-agile}
       * [敏捷的秘訣、技巧和疑難排解](agile/tips-tricks-and-troubleshooting/tips-tricks-troubleshooting-agile.md)
       * [自訂狀態未顯示在敏捷故事板上](agile/tips-tricks-and-troubleshooting/custom-status-does-not-show.md)
-* 文件 {#documents}
+* 檔案 {#documents}
    * [文件](documents/documents-overview.md)
    * 新增檔案至Adobe Workfront {#add-new-documents-to-workfront}
       * [新增檔案至Adobe Workfront](documents/adding-documents-to-workfront/add-new-documents--to-workfront.md)
@@ -1393,7 +1393,7 @@ ht-degree: 1%
          * [更新工作清單甘特圖中的資訊](manage-work/gantt-chart/use-the-gantt-chart/update-info-task-list-gantt.md)
          * [在甘特圖中平準資源](manage-work/gantt-chart/use-the-gantt-chart/level-resources-in-gantt.md)
          * [將甘特圖匯出至PDF](manage-work/gantt-chart/use-the-gantt-chart/export-gantt-chart-to-pdf.md)
-   * 投資組合管理 {#portfolio-management}
+   * Portfolio管理 {#portfolio-management}
       * [投資組合管理](manage-work/portfolios/portfolio-management-overview.md)
       * Adobe Workfront中的Portfolio概觀 {#portfolio-overview-in-adobe-workfront}
          * [專案組合](manage-work/portfolios/portfolios-overview/portfolio-overview-1.md)
@@ -1423,7 +1423,7 @@ ht-degree: 1%
          * [在Portfolio最佳化工具中排定專案的優先順序](manage-work/portfolios/portfolio-optimizer/prioritize-projects-in-portfolio-optimizer.md)
          * [在Portfolio最佳化工具中最佳化專案](manage-work/portfolios/portfolio-optimizer/optimize-projects-in-portfolio-optimizer.md)
          * [計算投資組合中淨值的風險](manage-work/portfolios/portfolio-optimizer/calculate-risk-to-net-value-in-portfolio.md)
-   * 要求 {#requests}
+   * 請求 {#requests}
       * [請求](manage-work/requests/requests-overview.md)
       * 建立及管理請求佇列 {#create-and-manage-request-queues}
          * [建立及管理請求佇列](manage-work/requests/create-and-manage-request-queues/create-manage-request-queues.md)
@@ -1477,7 +1477,7 @@ ht-degree: 1%
    * [報告](reports-and-dashboards/reports-and-dashboards-overview.md)
    * 報告畫布 {#reporting-canvas}
       * [報告畫布](reports-and-dashboards/reporting-canvas/reporting-canvas.md)
-      * 管理報告 {#manage-reports}
+      * 管理報表 {#manage-reports}
          * [管理報表概觀](reports-and-dashboards/reporting-canvas/manage-reports/manage-reports.md)
          * [在報告畫布中建立報告](reports-and-dashboards/reporting-canvas/manage-reports/build-report.md)
          * [匯出報告畫布中的報告](reports-and-dashboards/reporting-canvas/manage-reports/export-report.md)
@@ -1498,7 +1498,7 @@ ht-degree: 1%
       * 其他區塊 {#other-blocks}
          * [其他區塊](reports-and-dashboards/reporting-canvas/other-blocks/other-blocks.md)
          * [在報告畫布中新增或編輯網頁內容區塊](reports-and-dashboards/reporting-canvas/other-blocks/add-or-edt-web-content-block.md)
-   * 報告 {#reports}
+   * 報表 {#reports}
       * [報告](reports-and-dashboards/reports/reports-overview.md)
       * 報表基本需知 {#report-basics}
          * [報表基本需知](reports-and-dashboards/reports/reporting/reporting-basics.md)
@@ -1673,12 +1673,12 @@ ht-degree: 1%
          * [內嵌編輯日期班次行事曆顯示在方塊外](reports-and-dashboards/reports/tips-tricks-and-troubleshooting/date-edits-shift-calendar.md)
          * [來自共用欄的資料不會顯示在儀表板報表中](reports-and-dashboards/reports/tips-tricks-and-troubleshooting/shared-columns-not-displayed-in-report-dashboard.md)
    * 儀表板 {#dashboards}
-      * [儀表板](reports-and-dashboards/dashboards/dashboards-overview.md)
+      * [儀錶板](reports-and-dashboards/dashboards/dashboards-overview.md)
       * 瞭解儀表板 {#understand-dashboards}
          * [瞭解儀表板](reports-and-dashboards/dashboards/understanding-dashboards/understand-dashboards.md)
          * [開始使用儀表板](reports-and-dashboards/dashboards/understanding-dashboards/get-started-dashboards.md)
          * [瞭解報表在儀表板上的顯示方式](reports-and-dashboards/dashboards/understanding-dashboards/understand-how-reports-display-dashboard.md)
-      * 建立和管理報告面板 {#create-dashboards}
+      * 建立和管理儀表板 {#create-dashboards}
          * [建立和管理報告面板](reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-and-manage-dashboards.md)
          * [建立儀表板](reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-dashboard.md)
          * [新增報告至儀表板](reports-and-dashboards/dashboards/creating-and-managing-dashboards/add-report-dashboard.md)
@@ -1898,7 +1898,7 @@ ht-degree: 1%
    * 核准的秘訣、技巧和疑難排解 {#ttt-approvals}
       * [核准的秘訣、技巧和疑難排解](review-and-approve-work/tips-tricks-troubleshooting-approvals/tips-tricks-troubleshooting-approvals.md)
       * [檢視所有使用者的校訂和檔案決策數量](review-and-approve-work/tips-tricks-troubleshooting-approvals/view-number-of-decisions-for-users.md)
-* 時程表 {#timesheets}
+* 時間表 {#timesheets}
    * [時程表](timesheets/timesheets-all.md)
    * 時程表詳細資訊 {#details}
       * [Adobe Workfront中的時程表詳細資訊](timesheets/timesheets/timesheets.md)
@@ -1950,8 +1950,8 @@ ht-degree: 1%
    * [在「情境規劃工具」中共用計畫](scenario-planner/share-a-plan.md)
    * [顯示任務清單中專案和方案的角色分配](scenario-planner/show-role-allocation-task-list-nwe.md)
    * [在工作負載平衡器顯示專案和方案的角色分配](scenario-planner/show-role-allocation-workload-balancer.md)
-* Adobe Workfront Goals {#adobe-workfront-goals}
-   * [Adobe Workfront Goals](workfront-goals/workfront-goals.md)
+* Adobe Workfront目標 {#adobe-workfront-goals}
+   * [Adobe Workfront目標](workfront-goals/workfront-goals.md)
    * [Adobe Workfront目標總覽](workfront-goals/goal-management/wf-goals-overview.md)
    * Adobe Workfront目標中的目標管理 {#goal-management}
       * [Adobe Workfront目標中的目標管理](workfront-goals/goal-management/goal-management.md)
@@ -2339,7 +2339,7 @@ ht-degree: 1%
       * [從Adobe Workfront行銷活動請求建立Anaplan清單專案](workfront-integrations-and-apps/adobe-workfront-with-anaplan/create-an-anaplan-list-item-from-a-workfront-campaign-request.md)
       * [將Anaplan預算分配套用至Adobe Workfront行銷活動請求或行銷活動專案](workfront-integrations-and-apps/adobe-workfront-with-anaplan/apply-anaplan-budget-allocation-to-workfront-campaign-requests-and-projects.md)
 * Workfront Proof {#workfront-proof}
-   * [Workfront Proof](workfront-proof/workfront-proof.md)
+   * [Workfront Proof：文章索引](workfront-proof/workfront-proof.md)
    * 開始使用Workfront Proof {#get-started-wf-proof}
       * [Workfront Proof快速入門](workfront-proof/wp-getstarted/getting-started-with-workfront-proof.md)
       * 工作流程範例 {#workflow-examples}

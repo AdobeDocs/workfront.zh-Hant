@@ -8,9 +8,9 @@ author: Courtney
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: 85afa798eacb297ad4e5fd3a92277e307eea5a97
+source-git-commit: 7467e75cf468fa6a1dd14dbc0f4fdcda87de1b1e
 workflow-type: tm+mt
-source-wordcount: '4908'
+source-wordcount: '4918'
 ht-degree: 4%
 
 ---
@@ -34,9 +34,9 @@ ht-degree: 4%
   <tr> 
    <td role="rowheader">Adobe Workfront授權*</td> 
    <td>
-   <p>目前計畫：標準</p>
+   <p>新計畫：標準</p>
    <p>或</p>
-   <p>舊版計畫：計畫</p></td> 
+   <p>目前計畫：計畫</p></td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">存取層級設定*</td> 
@@ -196,7 +196,7 @@ ht-degree: 4%
     </tr>
     <tr>
     <td>格式</td>
-    <td><p>選取將在自訂欄位中擷取的資料型別。</p> <p><b>附註</b>:   
+    <td><p>選取將在自訂欄位中擷取的資料型別。</p> <p><b>注意</b>：   
     <ul> 
     <li>表單儲存後即無法編輯此欄位。 如果您要在數學計算中使用欄位，請務必選取「數字」或「貨幣」格式。<br></li> 
     <li>當您選取「數字」或「貨幣」時，系統會自動截斷以0開頭的數字。</li> 
@@ -313,7 +313,7 @@ ht-degree: 4%
     </tr> 
     <tr> 
     <td role="rowheader">格式</td> 
-    <td> <p>選取將在自訂欄位中擷取的資料型別。</p> <p><b>附註</b>:   
+    <td> <p>選取將在自訂欄位中擷取的資料型別。</p> <p><b>注意</b>：   
      <ul> 
     <li>表單儲存後即無法編輯此欄位。 如果您要在數學計算中使用欄位，請務必選取「數字」或「貨幣」格式。<br></li> 
     <li>當您選取「數字」或「貨幣」時，系統會自動截斷以0開頭的數字。</li> 
@@ -462,7 +462,7 @@ ht-degree: 4%
      </tr> 
      <tr> 
       <td role="rowheader">參考物件類型</td> 
-      <td> <p>選取您要與欄位關聯的物件型別。</p> <p>按一下「套用」或「儲存+關閉」後，就無法變更欄位的物件型別。</p> <p><b>附註</b>:   
+      <td> <p>選取您要與欄位關聯的物件型別。</p> <p>按一下「套用」或「儲存+關閉」後，就無法變更欄位的物件型別。</p> <p><b>注意</b>：   
         <ul> 
          <li>如果您的Workfront管理員在Workfront使用者介面中為「Portfolio」、「程式」或「專案」自訂名稱，此下拉式清單中會顯示物件的預設Workfront名稱，而非自訂名稱。 如果您需要這方面的協助，請洽詢Workfront管理員。<br></li> 
          <li>iOS和Android Workfront Mobile應用程式支援下列物件型別：使用者、公司、群組、工作角色、Portfolio、方案、專案和範本。</li> 
@@ -529,7 +529,7 @@ ht-degree: 4%
      <tr> 
       <td role="rowheader">格式</td>
       <td><p>選取將在自訂欄位中擷取的資料型別。</p>
-      <p><strong>附註:</strong></p>
+      <p><strong>注意：</strong></p>
       <ul><li>您可以在儲存表單後變更格式型別，但有一個限制：物件上的所有現有值都必須能夠轉換為新型別。 （例如，如果格式型別是Text，而物件正在儲存「abc」值，則您無法轉換欄位，且會收到系統無法將「abc」轉換為數字/貨幣的錯誤。） 如果您要在數學計算中使用欄位，請務必選取「數字」或「貨幣」格式。</li>
       <li>當您選取「數字」或「貨幣」時，系統會自動截斷以0開頭的數字。</li></ul></td>
      </tr> 

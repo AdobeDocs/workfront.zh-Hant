@@ -8,7 +8,7 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: d2a73d24-51d3-42e2-9c09-7f4bc30b2caa
-source-git-commit: b3869a9339cf1c0aedd7dcd00cc679fb4717b2db
+source-git-commit: 7467e75cf468fa6a1dd14dbc0f4fdcda87de1b1e
 workflow-type: tm+mt
 source-wordcount: '1402'
 ht-degree: 6%
@@ -42,9 +42,9 @@ ht-degree: 6%
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront授權</td> 
-   <td>目前計畫：標準
+   <td>新計畫：標準
    <p>或</p>
-   <p>舊版計畫：計畫</p></td> 
+   <p>目前計畫：計畫</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定</td> 
@@ -100,7 +100,7 @@ ht-degree: 6%
       <td>在Workfront中新增及編輯現有公司。<br><p>若無此存取權，使用者只能檢視現有公司。</p></td> 
      </tr> 
      <tr> 
-      <td role="rowheader">自訂表單</td> 
+      <td role="rowheader">我的群組中的自訂表格</td> 
       <td>建立並管理群組中的所有自訂表單。 <br><p>若無此存取權，使用者只能將現有表單附加至他們有權貢獻或管理的物件。</p></td> 
      </tr> 
      <tr> 
