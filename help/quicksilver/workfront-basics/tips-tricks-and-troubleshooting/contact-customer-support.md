@@ -2,12 +2,13 @@
 content-type: tips-tricks-troubleshooting
 navigation-topic: tips-tricks-and-troubleshooting-workfront-basics
 title: 聯絡客戶支援
-description: Adobe Workfront客戶可以透過電話或線上提交票證聯絡Workfront客戶支援團隊。
+description: Adobe Workfront客戶可以透過電話或線上提交票證聯絡Workfront客戶支援團隊。 本文包含聯絡客戶支援以及檢視和管理支援案例的說明。
 feature: Get Started with Workfront
+author: Becky
 exl-id: fa8e0559-7af6-4049-9c24-76d1bcbebf84
-source-git-commit: 5db9a4869e1321bd268e80f786d157fbb41c0656
+source-git-commit: 489c5b0fd1f4b50a2b479070064dda2ee09185f8
 workflow-type: tm+mt
-source-wordcount: '393'
+source-wordcount: '430'
 ht-degree: 0%
 
 ---
@@ -36,28 +37,32 @@ ht-degree: 0%
 
 您可以從自助服務提交支援票證 [!DNL Experience League] 入口網站。
 
->[!CAUTION]
+>[!IMPORTANT]
 >
->只有授權支援聯絡人（或授權客戶）才能提交線上支援票證。
+>只有授權支援聯絡人（或支援授權的使用者）才能提交線上支援票證。
 
 
 1. 從 [[!DNL Experience League]](https://experienceleague.adobe.com) 網站，按一下 **[!UICONTROL 支援]**  ，位於頁面頂端。
 
    ![](assets/experience-league-top-navigation-with-support-highlighted.png)
 
-   從支援首頁，您可以輕鬆導覽至未解決的支援案例、記錄新案例、檢視熱門支援文章或存取其他學習來源。
+   此 [!UICONTROL 支援] 頁面隨即開啟。
+
+   從 [!UICONTROL 支援] 首頁，您可以導覽至您未解決的支援案例、記錄新案例、檢視頂端 [!UICONTROL 支援] 文章，或存取其他學習來源。
 
 1. 若要提交案例，請選取選項 **[!UICONTROL 開啟支援案例]**，然後按一下 **[!UICONTROL 簽署] 在**.
 
 1. 按一下 **[!UICONTROL 未結案例]** 在左側邊欄中。
 
+<!--
    ![](assets/left-nav-bar-for-exl-support-portal.png)
+-->
 
-   此 [!UICONTROL 案例建立] 頁面隨即開啟，您可在此輸入產品名稱([!DNL Adobe Workfront]， [!DNL Adobe Workfront Fusion]、案例標題及案例說明。
+此 [!UICONTROL 案例建立] 頁面隨即開啟，您可在此輸入產品名稱([!DNL Adobe Workfront]， [!DNL Adobe Workfront Fusion]、案例標題及案例說明。
 
-   >[!TIP]
-   >
-   >在描述您面臨的問題時，請儘可能提供說明，以協助我們加快疑難排解流程。
+>[!TIP]
+>
+>在描述您面臨的問題時，請儘可能提供說明，以協助我們加快疑難排解流程。
 
 
 1. 填寫下列欄位的資訊，以提供我們更具體的詳細資料：
@@ -69,29 +74,30 @@ ht-degree: 0%
 
 1. 上傳任何相關的檔案，然後按一下 **[!UICONTROL 提交案例]**.
 
-   此 [!UICONTROL 我的個案] 頁面隨即顯示。
+   案例已提交，且 [!UICONTROL 我的個案] 頁面隨即顯示。
 
-   ![](assets/all-cases-list-exl-support-portal.png)
-
-1. （選用）在 **[!UICONTROL 我的個案]** 頁面，檢閱貴組織已提交的案例。
-
-   >[!TIP]
-   >
-   >您也可以導覽至 [!UICONTROL 我的個案] 按一下以建立頁面 **[!UICONTROL 我的個案]** 在左側邊欄中。
-
-1. 在 **[!UICONTROL 我的個案]** 頁面上，使用頁面頂端的選項來篩選 **產品([!DNL Experience Cloud] solution)** 或大小寫 **[!UICONTROL 狀態]** （開啟或關閉）。 您也可以使用 [!UICONTROL 搜尋] 方塊以搜尋與您的支援案例相關的任何關鍵字。
-
-1. 若要檢視案例的詳細資訊，請按一下 **案例編號** 以存取它。 此 [!UICONTROL 案例] 檢視會開啟。
-
-1. 在 [!UICONTROL 案例] 檢視、檢閱指派案例擁有者的最新註解，並新增任何其他附件或回應。
-
-1. 按一下 **[!UICONTROL 提升至管理層]** 在頁面右側下方的 **[!UICONTROL 案例詳細資料]** 以呈報案件。
-
-1. 按一下 **[!UICONTROL 關閉大小寫]** 按鈕以關閉案例。
-
+   <!--
+   [](assets/all-cases-list-exl-support-portal.png)
+   -->
 
 如果您在提交請求時遇到任何問題或疑問，請聯絡客戶支援團隊。
 
+
+## 檢視及管理您的支援案例
+
+1. 導覽至 **[!UICONTROL 我的個案]** 頁面。 當您提交案例時，此頁面便會開啟；或者，您可以按一下 **[!UICONTROL 我的個案]** ，位於左側導覽器中。
+
+1. （可選）使用頁面頂端的選項來篩選依據 **產品([!DNL Experience Cloud] solution)** 或大小寫 **[!UICONTROL 狀態]** ([!UICONTROL 開啟] 或Closed)。 您也可以使用 [!UICONTROL 搜尋] 方塊以搜尋與您的支援案例相關的任何關鍵字。
+
+1. （選用）若要檢視案例的詳細資訊，請按一下 **案例編號** 以存取它。
+
+   案例檢視隨即開啟。
+
+1. （選擇性）在案例檢視中，與指派的案例擁有者一起檢閱最新的註解，並新增任何其他附件或回應。
+
+1. （可選）若要呈報案例，請按一下 **[!UICONTROL 提升至管理層]** 在頁面右側的**下方[!UICONTROL 案例詳細資料].
+
+1. 按一下 **[!UICONTROL 關閉大小寫]** 按鈕以關閉案例。
 
 
 <!--drafted: I took the information above from this blog post by Jon Chen (on September 13, 2022): https://experienceleaguecommunities.adobe.com/t5/workfront-blogs/how-to-submit-a-support-ticket-on-experience-league/ba-p/461737)

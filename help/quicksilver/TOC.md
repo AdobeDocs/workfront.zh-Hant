@@ -3,9 +3,9 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文件、教學課程和其他資源，了解如何在您的組織中實施並有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: 7467e75cf468fa6a1dd14dbc0f4fdcda87de1b1e
+source-git-commit: 9d273023179c3f650b043be2de8f6bd15febf130
 workflow-type: tm+mt
-source-wordcount: '13775'
+source-wordcount: '13779'
 ht-degree: 0%
 
 ---
@@ -394,7 +394,7 @@ ht-degree: 0%
 * 管理和設定 {#administration-and-setup}
    * [管理和設定](administration-and-setup/administration-and-setup.md)
    * 開始使用管理 {#get-started-administration}
-      * [開始使用](administration-and-setup/get-started-wf-administration/get-started-with-wf-administration.md)
+      * [開始使用管理：文章索引](administration-and-setup/get-started-wf-administration/get-started-with-wf-administration.md)
       * [定義實作目標](administration-and-setup/get-started-wf-administration/define-wf-goals-objectives.md)
       * [管理您的授權](administration-and-setup/get-started-wf-administration/manage-available-licenses-in-your-system.md)
       * [設定基本資訊](administration-and-setup/get-started-wf-administration/configure-basic-info.md)

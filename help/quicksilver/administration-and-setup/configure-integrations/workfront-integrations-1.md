@@ -4,21 +4,21 @@ user-type: administrator
 content-type: reference;overview
 product-area: system-administration;workfront-integrations
 navigation-topic: administrator-integrations
-description: 您可以整合Adobe Workfront與協力廠商應用程式。 整合可擴充Workfront的公用程式，並根據貴組織的需求量身打造。
-author: Becky, Caroline
+description: 您可以整合Adobe Workfront與協力廠商應用程式及其他 [!DNL Adobe] 產品。 整合可擴充Workfront的公用程式，並根據貴組織的需求量身打造。 閱讀本文章，深入瞭解不同型別的整合專案。
+author: Becky
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 exl-id: 50aca40a-f971-42f2-b20f-fa4fff22335e
-source-git-commit: 8e283fce9aa2ad981c88e0b8cd5201c7408ab878
+source-git-commit: 68bfc55b68863682c3a0e3fcf303c4501420dd98
 workflow-type: tm+mt
-source-wordcount: '1061'
+source-wordcount: '1136'
 ht-degree: 0%
 
 ---
 
 # [!DNL Adobe Workfront] 整合
 
-您可以整合Adobe Workfront與協力廠商應用程式及其他 [!DNL Adobe] 產品。 整合可擴充Workfront的公用程式，並根據貴組織的需求量身打造。
+您可以整合 [!DNL Adobe Workfront] 協力廠商應用程式及其他 [!DNL Adobe] 產品。 整合可擴充Workfront的公用程式，並根據貴組織的需求量身打造。
 
 的整合 [!DNL Workfront] 分為下列類別：
 
@@ -44,9 +44,9 @@ ht-degree: 0%
 
 1. **識別您的技術管理員**
 
-   識別您組織的技術管理員，瞭解您要整合的應用程式 [!DNL Workfront]. 例如，如果您選擇整合 [!DNL Jira]，您必須與貴公司的 [!DNL Jira] 管理員，並讓他們參與平台內的任何設定需求。 您也應該讓此管理員參與任何與的對話 [!DNL Workfront] 客戶支援。
+   識別您要整合之應用程式的技術管理員 [!DNL Workfront]. 例如，如果您選擇整合 [!DNL Jira]，您必須與貴公司的 [!DNL Jira] 管理員，並讓他們參與平台內的任何設定需求。 您也應該讓此管理員參與任何對話 [!DNL Workfront] 客戶支援。
 
-   若要讓管理員開始使用，您必須提供該整合的特定指示。 如需這些指示的連結，請參閱 [整合功能不需額外付費](#integrations-available-at-no-additional-cost).
+   若要讓您的管理員開始使用，您必須提供該整合的特定指示。 如需這些指示的連結，請參閱 [整合功能不需額外付費](#integrations-available-at-no-additional-cost).
 
 1. **參與 [!DNL Workfront] 客戶支援**
 
@@ -60,7 +60,7 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >您必須是組織的指派支援聯絡人才能提交支援案例。 案例提交後，您可以將其他系統的技術管理員新增至對話中。 他們無法直接自行聯絡支援人員。
+   >您必須是組織的指派支援聯絡人才能提交支援案例。 案例提交後，您可以將其他系統的技術管理員新增至對話中。 他們無法直接聯絡支援人員。
 
 我們瞭解可用的內建（原生）整合可能無法滿足貴公司的所有需求。 如果是這種情況，請聯絡您的帳戶管理員以討論自訂整合。
 
@@ -130,7 +130,7 @@ ht-degree: 0%
     <ul> 
      <li>[!DNL G Suite] 使用者必須擁有 [!DNL Workfront] 授權 </li> 
      <li>[!DNL Workfront] 檢視和工作共用許可權必須依存取層級設定 </li> 
-     <li> 啟用POP的電子郵件帳戶 </li> 
+     <li> 使用者必須有啟用POP的電子郵件帳戶 </li> 
      <li>[!DNL Workfront] 請求設定必須包括POP設定 </li> 
     </ul> </td> 
    <td> 
@@ -158,7 +158,7 @@ ht-degree: 0%
     </ul> <p>如需詳細資訊，請參閱 <a href="../../workfront-integrations-and-apps/use-workfront-with-jira/workfront-for-jira.md" class="MCXref xref">[!DNL Adobe Workfront for Jira]</a>.</p> </td> 
    <td> 
     <ul> 
-     <li>[！UICONTROL Pro] [!DNL Workfront] 計畫或更高</li> 
+     <li><p>新的Workfront計畫： [！UICONTROL Select] [!DNL Workfront] 計畫或更高</p><p>目前的Workfront計畫： [！UICONTROL Pro] [!DNL Workfront] 計畫或更高</p> </li> 
     </ul> </td> 
    <td> 
     <ul> 
@@ -167,7 +167,7 @@ ht-degree: 0%
     </ul> </td> 
   </tr> 
   <tr> 
-   <td>[!DNL Microsoft] 行事曆 ([!DNL Office 365] / [!DNL Outlook Live])</td> 
+   <td>[!DNL Microsoft] 行事曆([!DNL Office 365] / [!DNL Outlook Live])</td> 
    <td> 
     <ul> 
      <li> <p>與網頁型版本整合 [!DNL Outlook] 在雲端託管 [!DNL Office 365] 或 [!DNL Outlook Live.] </p> </li> 
@@ -234,7 +234,7 @@ ht-degree: 0%
     </ul> <p>如需詳細資訊，請參閱 <a href="../../workfront-integrations-and-apps/using-workfront-with-salesforce/workfront-for-salesforce.md" class="MCXref xref">[!DNL Adobe Workfront for Salesforce]</a>.</p> </td> 
    <td> 
     <ul> 
-     <li>[！UICONTROL Pro] [!DNL Workfront] 計畫或更高</li> 
+     <li><p>新的Workfront計畫： [！UICONTROL Select] [!DNL Workfront] 計畫或更高</p><p>目前的Workfront計畫： [！UICONTROL Pro] [!DNL Workfront] 計畫或更高</p> </li> 
     </ul> </td> 
    <td> 
     <ul> 
@@ -289,18 +289,26 @@ ht-degree: 0%
 
 * [!DNL Workfront Fusion]
 
+  [!DNL Adobe Workfront Fusion] 連結應用程式和服務內外的動作，以建立自動傳輸和轉換資料的情境。 它擁有可連線許多應用程式的專用聯結器，但可以使用公用API連線至任何應用程式。
+
   如需詳細資訊，請參閱 [[!DNL Adobe Workfront Fusion] 概述](../../workfront-fusion/get-started/workfront-fusion-overview.md).
 
 * [!DNL Adobe Experience Manager Assets]
 
-  如需詳細資訊，請參閱 [適用於Experience Manager Assets和Assets Essentials的Adobe Workfront](../../documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md).
+Workfront與Experience Manager Assets或Assets Essentials之間的整合可讓組織在本質上連線工作和數位資產管理，藉以改善內容速度和上市時間。
+
+如需詳細資訊，請參閱 [適用於Experience Manager Assets的Adobe Workfront整合總覽](../../documents/adobe-workfront-for-experience-manager-assets-essentials/aem-asset-integrations.md).
 
 ## 合作夥伴整合
 
-[!DNL Workfront] 擁有豐富的合作夥伴生態系統，其中包含數十種整合，讓您的 [!DNL Workfront] 體驗。
+[!DNL Workfront] 有許多合作夥伴整合，讓您的 [!DNL Workfront] 體驗。
 
-現有合作夥伴方案的範例包括與整合 [!DNL Salesforce.com]， [!DNL Oracle Responsys]、和 [!DNL Microsoft Visual Studio]. 如需這些整合功能和其他令人期待的整合功能的詳細資訊，請參閱 [[!DNL Workfront] Marketplace](https://www.workfront.com/enterprise/marketplace/apps/).
+現有合作夥伴方案的範例包括與整合 [!DNL Salesforce.com]， [!DNL Oracle Responsys]、和 [!DNL Microsoft Visual Studio].
+
+如需這些和其他合作夥伴整合的詳細資訊，請參閱 [[!DNL Workfront] Marketplace](https://www.workfront.com/enterprise/marketplace/apps/).
 
 ## [!DNL Workfront] API
 
-此 [!DNL Workfront] API可讓您擴充及增強 [!DNL Workfront] 運用我們的公用API獲得體驗。 您可以使用我們的開放API建立您自己的整合。 如需中可用物件的詳細清單， [!DNL Workfront] API，請參閱 [!DNL Workfront] [API總管](../../wf-api/general/api-explorer.md).
+此 [!DNL Workfront] API可讓您擴充及增強 [!DNL Workfront] 運用我們的公用API獲得體驗。 您可以使用我們的開放API建立您自己的整合。
+
+如需中可用物件的詳細清單， [!DNL Workfront] API，請參閱 [!DNL Workfront] [API總管](../../wf-api/general/api-explorer.md).
