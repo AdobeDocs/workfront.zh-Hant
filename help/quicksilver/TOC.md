@@ -3,9 +3,9 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文件、教學課程和其他資源，了解如何在您的組織中實施並有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: 9d273023179c3f650b043be2de8f6bd15febf130
+source-git-commit: 27a4305826a6e9516d110c5bf7a82d2e465c58c8
 workflow-type: tm+mt
-source-wordcount: '13779'
+source-wordcount: '13776'
 ht-degree: 0%
 
 ---
@@ -833,7 +833,7 @@ ht-degree: 0%
       * [釘選頁面以自訂您的工作區](workfront-basics/the-new-workfront-experience/pin-pages.md)
       * [建立自訂部分](workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/create-custom-tabs.md)
       * [存取Adobe Workfront說明](workfront-basics/navigate-workfront/workfront-navigation/access-workfront-help.md)
-      * [瞭解Adobe Workfront中的物件](workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)
+      * [[!DNL Adobe Workfront] 物件概觀](workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)
       * [瞭解工作授權使用者的導覽](workfront-basics/navigate-workfront/workfront-navigation/worker-global-navigation-bar.md)
       * [瞭解檢閱授權使用者的導覽](workfront-basics/navigate-workfront/workfront-navigation/reviewer-global-navigation-bar.md)
       * [Adobe Workfront中的專案、任務和問題日期概觀](workfront-basics/navigate-workfront/workfront-navigation/definitions-pti-dates.md)

@@ -3,36 +3,36 @@ content-type: reference
 product-area: documents
 navigation-topic: proofing-overview
 title: 支援的校訂檔案型別和大小限制概觀
-description: 您可以與檢閱者共用和檢閱各種型別的檔案，即使他們沒有在電腦上安裝用來建立檔案的軟體(例如Photoshop或Illustrator)。 我們支援靜態檔案、視訊、音訊、網路擷取和互動式檔案，最大大小為4 GB。
+description: 您可以與檢閱者共用及檢閱各種型別的檔案，即使他們沒有在電腦上安裝用來建立檔案的軟體(例如Photoshop或Illustrator)。 我們支援靜態、視訊、音訊、網頁擷取和互動式檔案型別，大小最高可達4 GB。
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 647edda3-de52-4bb9-b202-36c5cf832fb0
-source-git-commit: 6e6cc1db8f89b76d9903905e6ee4cf9014727ba1
+source-git-commit: d3aefd7ec045b9bf4c5b42c0bb3576061a1056b0
 workflow-type: tm+mt
-source-wordcount: '1051'
+source-wordcount: '1066'
 ht-degree: 0%
 
 ---
 
 # 支援的校訂檔案型別和大小限制概觀
 
-您可以與檢閱者共用和檢閱各種型別的檔案，即使他們沒有在電腦上安裝用來建立檔案的軟體(例如Photoshop或Illustrator)。 我們支援靜態檔案、視訊、音訊、網路擷取和互動式檔案，最大大小為4 GB。
+您可以與檢閱者共用及檢閱各種型別的檔案，即使他們沒有在電腦上安裝用來建立檔案的軟體(例如Photoshop或Illustrator)。 我們支援靜態、視訊、音訊、網頁擷取和互動式檔案型別，大小最高可達4 GB。
 
 ## 檔案大小限制
 
 Workfront有下列限制：
 
-* 每個檔案的檔案大小必須小於4 GB。
-* Microsoft Word (DOC、DOCX)和PowerPoint (PPT、PPTX)檔案必須小於512 MB。 （這也適用於在實施大小限制之前建立的這些檔案型別的取消封存校樣。）
+* 每個檔案必須小於4 GB。
+* Microsoft Word (DOC， DOCX)和PowerPoint (PPT， PPTX)檔案必須小於512 MB。 （這同樣適用於在實施大小限制之前建立的這些檔案型別的取消封存校樣。）
 * XLS和XLSX檔案必須小於100 MB。
 * 附加到校樣上評論的檔案必須小於30 MB。
-* PNG的高度和寬度必須小於65535畫素。
-* 靜態合併校樣最多可支援50個檔案。
-* 上傳為校樣的檔案必須少於2,000頁。
+* PNG的高度與寬度必須小於65535px。
+* 靜態合併校訂最多可支援50個檔案。
+* 上傳為校訂的檔案必須少於2,000頁。
 
 >[!NOTE]
 >
->上傳大型檔案需要更多時間，如果連線不穩定，動作可能會終止/中斷。
+>上傳大型檔案需要更多時間，如果您的連線不穩定，動作可能會終止/中斷。
 
 ## 靜態檔案
 
@@ -49,7 +49,7 @@ Workfront有下列限制：
 > * xltx - Microsoft Excel範本
 
 * ABC - LEAD進階位元壓縮
-* ABIC — 最適化雙層影像壓縮
+* ABIC — 最適化雙層級影像壓縮
 * AFP — 進階功能簡報
 * AI - Adobe Illustrator圖稿
 * ANI - Windows動畫游標
@@ -58,8 +58,8 @@ Workfront有下列限制：
 * AWD - Microsoft傳真
 * BMP - Windows和OS/2點陣圖格式
 * CAL - CALS Raster
-* CGM — 電腦圖形中繼檔案
-* CIN — 柯達電影
+* CGM — 電腦圖形中繼檔
+* CIN — 柯達文
 * CLP - Windows剪貼簿
 * CMP — 潛在客戶已壓縮
 * CMW - LEAD小波壓縮
@@ -71,19 +71,19 @@ Workfront有下列限制：
 * DGN — 介面設計
 * DOC - Microsoft Word檔案
 * DOCX - Microsoft Word檔案
-* DCR - Kodak數位相機
+* DCR - Kodak數位攝影機
 * DCS - Kodak數位相機系統
 * DCM - DICOM
-* DCX — 油漆筆刷
+* DCX — 繪圖筆刷
 * DNG -Adobe數位負片
 * DOC - Microsoft Word檔案
-* DOCX - Microsoft Word檔案2007
+* DOCX - Microsoft Word Document 2007
 * DRW - DRaWing
 * DWF - AutoDesk向量
 * ECW — 增強型壓縮小波
 * EMF - Windows中繼檔
 * EXIF — 可交換影像檔案格式
-* 傳真 — LaserView雷射資料
+* FAX - LaserView雷射資料
 * FITS — 彈性的影像傳輸系統
 * FLC - Flic動畫
 * FPX - Kodak FlashPix
@@ -94,17 +94,17 @@ Workfront有下列限制：
 * IFF — 交換檔案格式
 * IOCA — 影像物件內容架構
 * IMG - GEM影像
-* ITG — 插入式
+* ITG — 互動圖
 * JBG - JBIG
 * JB2 - JBIG2
 * JPG — 聯合攝影專家小組(JPEG)
 * JPEG-XR - Windows Media像片/HD像片(HDP)
-* JPEG-LS -JPEG不失真
+* JPEG-LS — 不失真JPEG
 * J2K -JPEG2000
-* JP2 — 壓縮的JPEG2000
-* JPM -JPEG2000第6部分
+* JP2 — 壓縮JPEG2000
+* JPM - JPEG 2000第6部分
 * JPX -JPEG2000第2部分
-* KDC - Kodak數位相機
+* KDC - Kodak數位攝影機
 * Mac - MacPaint
 * MIF - MapInfo交換
 * MNG — 多重網路圖形
@@ -121,8 +121,8 @@ Workfront有下列限制：
 * PCD - Kodak像片CD
 * PCL — 印表機命令語言
 * PCL6 — 印表機命令語言
-* PCT - Macintosh圖片
-* PCX — 油漆筆刷
+* pct - Macintosh Pict
+* PCX — 繪圖筆刷
 * PDF-Adobe可攜式檔案檔案
 * PGM — 可攜式點陣圖公用程式
 * PLT - HPGL繪圖儀
@@ -130,28 +130,28 @@ Workfront有下列限制：
 * PNM — 可攜式點陣圖公用程式
 * PPM — 可攜式點陣圖公用程式
 * PPT - PowerPoint簡報
-* PPTX - PowerPoint Presentation 2007 PS - PostScript檔案
+* PPTX - PowerPoint簡報2007 PS - PostScript檔案
 * PSD- Photoshop
 * PSP - Paint Shop Pro
 * PTK - PTOCA
 * RAS - SUN Raster
 * RAF - Fujifilm原始格式
-* RAW — 原始資料
+* 原始 — 原始資料
 * RTF - RTF文字
-* RW2 - Panasonic原始格式
+* RW2 — 松下原始格式
 * SCT - Scitex連續色調
 * SFF — 結構化傳真格式
-* SGI - Silicon Graphics圖片
+* SGI - Silicon圖形影像
 * SHP - ESRI形狀
-* SMP - Xionics
+* SMP — 湘際
 * SNP - Microsoft存取報表快照
-* SR2 - Sony Raw格式
+* SR2 - Sony原始格式
 * SRF - Sony Raw格式
 * SVG — 可縮放向量圖形
 * TDB - Microsoft Windows縮圖快取
 * TFX — 網際網路傳真
 * TGA - Truevision TARGA
-* TIFF — 標籤的影像檔案格式
+* TIFF — 標籤影像檔案格式
 * TIFX - Xerox網際網路傳真檔案
 * vff - Sun TAAC點陣圖
 * wbmp — 無線點陣圖
@@ -190,8 +190,8 @@ Workfront有下列限制：
 * DOC - Microsoft Word檔案
 * DOCX - Microsoft Word檔案
 * PDF-Adobe可攜式檔案檔案
-* PPT - PowerPoint簡報
-* PPTX - PowerPoint Presentation 2007 PS - PostScript檔案
+* PPT- PowerPoint簡報
+* PPTX - PowerPoint簡報2007 PS - PostScript檔案
 * PSD- Photoshop
 * RTF - RTF文字
 * XLS - Microsoft Excel試算表
@@ -243,7 +243,7 @@ Workfront有下列限制：
 
 基於安全考量，我們不支援或解壓縮ZIP檔案中的檔案。 請先解壓縮檔案，然後再上傳。 如果不這樣做，上傳將不會失敗。
 
-只有在壓縮檔包含完整的互動式專案，而且您的帳戶已啟用互動式功能（進階計畫）時，才能提交。
+只有在壓縮檔包含完整的互動式專案，而且您的帳戶已啟用互動式功能（進階計畫）時，您才能提交壓縮檔。
 
 如需詳細資訊，請參閱 [互動式內容校訂概觀](../../../review-and-approve-work/proofing/proofing-overview/interactive-content-proofs.md).
 

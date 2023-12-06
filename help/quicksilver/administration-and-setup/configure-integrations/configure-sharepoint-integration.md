@@ -8,7 +8,7 @@ author: Becky
 feature: System Setup and Administration, [!DNL Workfront] Integrations and Apps, Digital Content and Documents
 role: Admin
 exl-id: fd45e1bc-9a35-4960-a73a-ff845216afe4
-source-git-commit: 3cc1745b33d645d37248185b4163a39c1bead60e
+source-git-commit: d1d0e8461cc1d36545c0b649add812bb62dcdf81
 workflow-type: tm+mt
 source-wordcount: '1588'
 ht-degree: 0%
