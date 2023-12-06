@@ -6,9 +6,9 @@ description: 您可以在Adobe Workfront物件（專案、任務或問題）上�
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: 97f6e3390a2bf2a4f01c2780561bad80d271f03a
+source-git-commit: 3ffb6fdebb54682abc737e55186850458a133f7c
 workflow-type: tm+mt
-source-wordcount: '4052'
+source-wordcount: '4073'
 ht-degree: 1%
 
 ---
@@ -206,7 +206,7 @@ drafted for P&P release:
 1. 按一下 **更新** 區段。
 1. （視條件而定）如果已啟用，請按一下 **新增註解** 「更新」區段右上角的選項可停用並啟用舊版評論體驗。
 1. 按一下 **開始新的更新，** 然後輸入您的更新。
-1. （選用）使用RTF文字，或在更新中新增emoji、連結或影像，以增強您的內容。 如需詳細資訊，請參閱 [在Workfront更新中使用RTF文字](#use-rich-text-in-a-workfront-update) 一節。
+1. （可選）使用RTF工具列中的選項來格式化文字、新增emoji、連結或影像至更新，以強化內容。 如需詳細資訊，請參閱 [在Workfront更新中使用RTF文字](#use-rich-text-in-a-workfront-update) 一節。
 1. （選擇性）更新下列任何有關工作專案的資訊：
 
    <table style="table-layout:auto"> 
@@ -275,7 +275,7 @@ drafted for P&P release:
    * CTRL + Z (Mac為⌘ + z)可復原變更
    * 按CTRL + Y (Mac則為⌘ + y)以重做變更
 1. （選用）在 **標籤人員或團隊** 區域，開始輸入使用者或要納入此註解中的團隊的名稱或電子郵件，然後在其顯示在清單中時選取它。
-1. （選用）使用RTF文字，或在更新中新增emoji、連結或影像，以增強您的內容。 如需詳細資訊，請參閱 [在Workfront更新中使用RTF文字](#use-rich-text-in-a-workfront-update) 一節。
+1. （可選）使用RTF工具列中的選項來格式化文字、新增emoji、連結或影像至更新，以強化內容。 如需詳細資訊，請參閱 [在Workfront更新中使用RTF文字](#use-rich-text-in-a-workfront-update) 一節。
 
    >[!TIP]
    >
@@ -291,7 +291,7 @@ drafted for P&P release:
 
    >[!IMPORTANT]
    >
-   >您只能在15分鐘內編輯您提交的評論。
+   >您只能在提交評論的15分鐘內編輯評論。
 
 1. 編輯註解中的資訊、新增或移除影像，或移除任何已標籤的使用者。 「已編輯」指示器會新增至日期戳記的左側，該日期戳記會在輸入評論時顯示。
 
@@ -407,11 +407,15 @@ drafted for P&P release:
    1. 在 **要顯示的文字**，輸入或貼上連結文字。
    1. 按一下&#x200B;**儲存**。
 
-1. （可選） <span class="preview">若要在更新中附加影像，請從電腦複製熒幕擷圖，然後貼到註解中 </span>
+1. （可選）若要將影像附加到更新中，請執行下列任一項作業：
 
-   或
+   <!--* <span class="preview">Save the image on our computer, then drag and drop it in the New comment area.</span>
+   <span class="preview">This is not available in the Production environment for the new commenting experience.</span>
+   -->
 
-   按一下 **新增影像** 圖示 ![](assets/add-image-mountain-with-plus-icon.png) 並瀏覽至您電腦上的影像。
+   * <span class="preview">從電腦複製熒幕擷圖，然後貼到註解中 </span>
+   * 按一下 **新增影像** 圖示 ![](assets/add-image-mountain-with-plus-icon.png) 並瀏覽至您電腦上的影像。
+
 
    >[!NOTE]
    >

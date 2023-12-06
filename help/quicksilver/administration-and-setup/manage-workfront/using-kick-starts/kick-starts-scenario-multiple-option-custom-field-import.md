@@ -1,24 +1,24 @@
 ---
 user-type: administrator
 product-area: system-administration;user-management
-keywords: kickstart,kickstart,kickstarts,kickstarts
+keywords: kickstart，kick-start，kickstart，kick-start
 navigation-topic: use-kick-starts
-title: 『啟動情況：將多選項自訂欄位匯入Workfront
-description: 您可以使用Kick-Start功能，在Adobe Workfront中匯入含有多個選項的自訂欄位。
+title: 「Kick-Starts案例：將多個選項自訂欄位匯入Workfront」
+description: 您可以使用Kick-Start功能，在Adobe Workfront中匯入具有多個選項的自訂欄位。
 author: Courtney
 feature: System Setup and Administration
 role: Admin
-source-git-commit: 80ad604330e8b55037f1607b754cc8bb34f6a3ec
+exl-id: 70f3dac7-f449-4dc8-9d7d-a5284b37f9ec
+source-git-commit: 3ffb6fdebb54682abc737e55186850458a133f7c
 workflow-type: tm+mt
-source-wordcount: '2126'
+source-wordcount: '2131'
 ht-degree: 0%
 
 ---
 
+# Kick-Starts情境：將多個選項自訂欄位匯入Workfront
 
-# Kick-Starts案例：將多選項自訂欄位匯入Workfront
-
-您可以使用Kick-Start功能，在Adobe Workfront中匯入含有多個選項的自訂欄位。
+您可以使用Kick-Start功能，在Adobe Workfront中匯入具有多個選項的自訂欄位。
 
 具有多個選項的自訂欄位範例包括：
 
@@ -27,37 +27,36 @@ ht-degree: 0%
 * 核取方塊
 * 單選按鈕
 
-這些欄位有時可以有許多（有時是數百個）選項。 使用Kick-Start功能匯入這些函式可節省您(身為Workfront管理員)的大量時間，並確保您避免錯誤。
+這些欄位有時會有許多（有時數百個）選項。 使用Kick-Start功能匯入這些變數，可讓您作為Workfront管理員節省大量時間並確保避免錯誤。
 
 >[!IMPORTANT]
 >
->您必須依照以下各節所述的步驟，依序使用啟動匯入具有多個選項的自訂欄位：
+>您必須依照以下各節所述的步驟，以使用kick-start依序匯入具有多個選項的自訂欄位：
 >
->1. 從Workfront匯出現有自訂資料（可選步驟）
->1. 匯出自訂資料的啟動範本
->1. 填入Excel開始試算表
->1. 上傳Excel試算表至Workfront
+>1. 從Workfront匯出現有的自訂資料（選擇性步驟）
+>1. 匯出自訂資料的Kick-Starts範本
+>1. 填入Excel Kick-Start試算表
+>1. 將Excel試算表上傳至Workfront
 
 
+## 從Workfront匯出現有的自訂資料（選擇性步驟）
 
-## 從Workfront匯出現有自訂資料（可選步驟）
+如果您不熟悉Workfront資料庫結構，或不熟悉Workfront匯入資訊所需的快速啟動檔案，建議您先從Workfront匯出包含現有資訊的快速啟動檔案，類似於您要匯入的欄位。
 
-如果您不熟悉Workfront資料庫結構，或不熟悉Workfront匯入資訊所需的啟動檔案，建議您先從Workfront匯出具有現有資訊的啟動檔案，類似於您要匯入之欄位的資訊。
+例如，如果您想要匯入自訂表單或自訂欄位，必須先匯出包含現有自訂資料的KickStart檔案。
 
-例如，如果要匯入自訂表單或自訂欄位，您必須先匯出含有現有自訂資料的啟動檔案。
+先匯出現有資料可讓您掃描資料，並檢視新資料需要如何格式化。
 
-先匯出現有資料可讓您掃描資料，並了解新資料的格式化需求。
-
-如果您對Workfront資料庫物件和結構有很好的了解，可以繼續下列章節。
+如果您熟悉Workfront資料庫物件和結構，可以繼續下一節。
 
 若要從Workfront匯出現有資料：
 
-1. 按一下 **主菜單>設定** 在Workfront介面的右上角。
-1. 展開 **系統** 菜單，然後按一下 **匯出資料（啟動）**.
+1. 按一下 **主要功能表>設定** 在Workfront介面的右上角。
+1. 展開 **系統** 功能表左側，然後按一下 **匯出資料(Kick-Start)**.
 
    ![](assets/export-data-kick-starts-link-in-setup.png)
 
-1. 選擇 **自訂資料** 在 **應包含的內容** 區段。
+1. 選取 **自訂資料** 在 **要包含的內容** 區段。
 
    ![](assets/existing-custom-data-box-checked-kick-starts.png)
 
@@ -65,69 +64,69 @@ ht-degree: 0%
 
    >[!TIP]
    >
-   >    視您在系統中擁有的自訂資料量而定，這可能需要很長的時間。
+   >    視您在系統中的自訂資料量而定，這可能需要很長的時間。
 
    ![](assets/download-button-for-kick-starts.png)
 
-1. 按一下 **下載**. .xlsx檔案下載至您的電腦。 導覽至並開啟它。
+1. 按一下 **下載**. 將.xlsx檔案下載到您的電腦。 導覽至並開啟它。
 
    ![](assets/existing-data-excel-parameter-sheet.png)
 
 1. 檢查下載的檔案，並記下下列詳細資訊：
 
-   * 檔案包含數張工作表。 您可能不需要知道每個工作表中的資訊，但會使用其中的一些工作表來匯入資訊。 請花點時間熟悉內容，尤其是每張工作表的內容格式。
-   * 請特別注意欄名稱和每個欄中資料的顯示格式。
-   * 您不得更改任何工作表中列的名稱或順序。 欄標題會指出您在每一列中需要填入資訊的欄位。 如果欄標題以粗體顯示，則為必填欄位，因此您必須在該欄中有資訊。
+   * 檔案包含數個頁面。 您可能不需要知道每個工作表中的資訊，但會使用某些工作表來匯入您的資訊。 請花點時間熟悉內容，尤其是每個工作表內容的格式。
+   * 請特別留意欄位名稱以及每個欄位中資料顯示的格式。
+   * 您不得變更任何頁面中的欄名或欄順序。 欄標題指示您必須在每列中填寫資訊的欄位。 如果欄標題顯示為粗體，則為必填欄位，因此該欄中必須有資訊。
+
    >[!IMPORTANT]
    >
-   >某些欄標題可能無法以粗體顯示，但仍為必要項目。
+   >某些欄標題可能不會以粗體顯示，但仍可能需要。
 
-   * 保留下載的檔案以供日後參考，並繼續前往下節。
+   * 保留下載的檔案以供日後參考，並繼續進行下一節。
 
+## 匯出自訂資料的Kick-Start範本
 
-## 匯出自訂資料的「啟動」範本
+掃描系統中現有自訂欄位的相關資訊後，您可以下載新的快速啟動範本進行匯入。
 
-掃描系統中現有自訂欄位的相關資訊後，您可以下載新的啟動範本以匯入。
+1. 按一下 **主要功能表>設定** 在Workfront介面的右上角。
 
-1. 按一下 **主菜單>設定** 在Workfront介面的右上角。
+1. 展開 **系統** 功能表左側。
 
-1. 展開 **系統** 菜單。
-
-1. 按一下 **匯入資料（啟動）**.
+1. 按一下 **匯入資料(Kick-Start)**.
 
    ![](assets/import-data-kick-starts-link-in-setup.png)
 
-1. 在 **下載空白的Kick-Start試算表** 區域，選擇 **自訂資料** 核取方塊和按一下 **下載**.
+1. 在 **下載空白的快速啟動試算表** 區域，選擇 **自訂資料** 核取方塊並按一下 **下載**.
 
    ![](assets/blank-custom-data-option-checked-kick-starts.png)
 
-   將空白的啟動檔案下載到您的電腦。
+   將空白的快速啟動檔案下載到您的電腦。
 
    >[!NOTE]
    >
-   >檔案中的工作表數、其名稱、每個工作表中的欄數和名稱，應與上節（包含您現有自訂資料）中下載的啟動開始中的工作表數相同。
+   >檔案中的工作表數、工作表名稱、以及每個工作表中的欄數和名稱應該與上方區段中下載的kick-start （包含您現有的自訂資料）中的工作表數和名稱相同。
 
-## 填入Excel開始試算表
+## 填入Excel Kick-Start試算表
 
-在填入Excel試算表之前，請依照上節所述下載「啟動」範本。
+在填入Excel試算表之前，請依照上節所述下載Kick-start範本。
 
 >[!IMPORTANT]
 >
->請勿嘗試使用臨機Excel試算表匯入資訊。 所有使用啟動功能將資訊匯入Workfront的試算表，都必須符合您從Workfront下載並在本文中說明的檔案內容。
+>請勿嘗試使用臨機Excel試算表匯入資訊。 使用Kick-Start功能將資訊匯入Workfront的所有試算表都必須符合您從Workfront下載以及本文所述的檔案內容。
 
-若要在Excel試算表中填入新自訂欄位的資訊：
+若要將新自訂欄位的資訊填入Excel試算表中：
 
-1. 開啟您在前一節下載的Excel試算表，然後注意到數張工作表。 每個工作表都表示應用程式中的一個對象。
+1. 開啟您在上一節下載的Excel試算表，並注意一些工作表。 每個工作表代表應用程式中的一個物件。
 
    >[!INFO]
    >
-   >例如， **參數** （指自訂欄位）, **參數選項**（即「自訂欄位」選項）, **類別** （指自訂表單）。
+   >例如， **引數** （指自訂欄位）， **引數選項**（指自訂欄位選項）， **類別** （指自訂表格）。
    >
-   >您必須以Workfront資料庫支援的格式寫入對象的名稱及其屬性。
+   >您必須使用Workfront資料庫支援的格式來寫入物件名稱及其屬性。
    >
-   >如需這些物件含意的相關資訊，請參閱 [Workfront字彙表](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
+   >如需這些物件含義的詳細資訊，請參閱 [字彙表 [!DNL Adobe Workfront] 術語](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
    >
-   >有關Workfront資料庫中對象名稱的資訊，請參見 [API Explorer](../../../wf-api/general/api-explorer.md).
+   >如需Workfront資料庫中物件名稱的相關資訊，請參閱 [API總管](../../../wf-api/general/api-explorer.md).
    >
    >![](assets/sheets-included-in-custom-data-export-kick-start-file.png)
 
@@ -135,142 +134,145 @@ ht-degree: 0%
 
 
 
-1. 請確定下列資訊的格式正確：
+1. 請確認下列資訊的格式正確：
 
-   * 每個工作表的第一行必須保持空白，否則匯入會產生錯誤。
-   * 每個工作表中的列標題表示可在導入期間設定的對象的屬性。 匯出工作表時，所有欄標題必須依您找到的相同順序保持不變，且無法重新命名。
-   * 粗體的欄標題是必填欄位，且必須有值。
+   * 每個頁面的第一列都必須保持空白，否則匯入會產生錯誤。
+   * 每個工作表中的欄標題代表可在匯入期間設定的物件屬性。 匯出工作表時，所有的欄標題必須保持相同的順序，而且不能重新命名。
+   * 以粗體顯示的欄標題是必填欄位，必須具有值。
 
-      >[!TIP]
-      >
-      >某些欄並非以粗體顯示，但仍為必要欄。 例如， `isNew` 和 `ID` 欄不是粗體，但是是必填欄位。
+     >[!TIP]
+     >
+     >有些欄雖然非粗體，但還是需要使用。 例如， `isNew` 和 `ID` 欄不是粗體，但為必填欄位。
 
-1. 選取 `**PARAM Parameter`**工作表，並在下列必要欄中新增有關新自訂欄位的資訊：
+1. 選取 `**PARAM Parameter`**一下工作表，並在下列必填欄位中新增有關新自訂欄位的資訊：
 
-   * **`isNew`** =輸入 **`TRUE`** 在此欄中，代表新自訂欄位的每一行皆適用。 這表示此欄位是新欄位，且不存在於Workfront中。
+   * **`isNew`** = enter **`TRUE`** 在此欄中代表新自訂欄位的每一行。 這表示欄位是Workfront中的新欄位且不存在。
 
-      >[!TIP]
-      >
-      >    如果行代表Workfront中已存在的欄位，您可以輸入 **`isNew`** = **`FALSE`**.
+     >[!TIP]
+     >
+     >    如果線條代表Workfront中已存在的欄位，則應輸入 **`isNew`** = **`FALSE`**.
 
-   * **`ID`** =必須是代表新欄位之每行的唯一數字。 只要每個新欄位都有唯一的編號，您就可以使用以1開頭的任何編號。
-   * **`setDataType`** =對於代表新欄位的每行，輸入欄位支援的資料類型。 必須按資料庫中顯示的方式輸入資料類型。 從下列資料類型中選取：
-      * **`NMBR`** 數字
-      * **`CURC`** 貨幣
-      * **`TEXT`** 文字
-   * `**setDisplaySize**`=顯示大小(「**setDisplaySize**&#39;)對於任何多個選項，自訂欄位一律為0。
-   * **`setDisplayType`** =對於代表新欄位的每行，輸入欄位的顯示類型。 必須輸入顯示類型，該類型將顯示在資料庫中。
+   * **`ID`** =必須為代表新欄位的每行唯一數字。 您可以使用任何從1開始的數字，但前提是每個新欄位都有唯一的數字。
+   * **`setDataType`** =對於代表新欄位的每一行，輸入欄位支援的資料型別。 必須按在資料庫中顯示的形式輸入資料型別。 從下列資料型別中選取：
+      * **`NMBR`** 代表數字
+      * **`CURC`** 針對貨幣
+      * **`TEXT`** 針對文字
+   * `**setDisplaySize**`=顯示大小(&#39;**setDisplaySize**&#39;)對於任何多個選項，自訂欄位一律為0。
+   * **`setDisplayType`** =對於代表新欄位的每一行，輸入欄位的顯示型別。 必須輸入顯示型別，就像在資料庫中顯示的顯示型別一樣。
 
-      若為多選項自訂欄位，請從下列選項中選取：
+     若為多選項自訂欄位，請從下列選項中選取：
 
-      * **`MULT`** 多選下拉式清單
-      * **`SLCT`** 下拉式清單
-      * **`RDIO`** 選項按鈕
-      * **`CHCK`** 複選框
-      >[!TIP]
-      >
-      >要查找資料類型和顯示類型資訊，請參閱 [API Explorer](../../../wf-api/general/api-explorer.md)，展開 **參數** 對象，並在下查找這些屬性 **欄位** 標籤。
+      * **`MULT`** 適用於多選下拉式清單
+      * **`SLCT`** 適用於下拉式清單
+      * **`RDIO`** 用於選項按鈕
+      * **`CHCK`** 核取方塊的
 
-   * **`setName`** =輸入自訂欄位名稱，如您所希望的顯示在Workfront中。
+     >[!TIP]
+     >
+     >若要尋找「資料型別」和「顯示型別」資訊，請參閱 [API總管](../../../wf-api/general/api-explorer.md)，展開 **引數** 物件，並在 **欄位** 標籤。
 
-      >[!INFO]
-      >
-      >例如，我們可匯入兩個自訂欄位，稱為 _品牌_、核取方塊欄位和 _媒體_，選項按鈕欄位。
+   * **`setName`** =輸入您想要在Workfront中顯示的自訂欄位名稱。
 
-   * 此 **`setName`** 和 **`setValue`** 欄通常包含相同資訊，且應反映新欄位在Workfront介面中所需的名稱。
-   例如，欄位的值是顯示在報表中的名稱，而名稱顯示在附加至物件的自訂表單中。
+     >[!INFO]
+     >
+     >例如，我們可能會匯入兩個自訂欄位，稱為 _品牌_，核取方塊欄位，以及 _媒體_，單選按鈕欄位。
+
+   * 此 **`setName`** 和 **`setValue`** 欄通常包含相同的資訊，且它們應反映Workfront介面中新欄位所需的名稱。
+
+   欄位的值是出現在報表中的名稱，而名稱顯示在附加到物件的自訂表單中。
 
    如需詳細資訊，請參閱 [新增自訂欄位至自訂表單](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md).
 
    ![](assets/parameter-sheet-filled-out-kick-starts.png)
 
-1. 選取 **`POPT Parameter Options`** 工作表，並在下列必要欄中新增每個自訂欄位選項的相關資訊：
+1. 選取 **`POPT Parameter Options`** 並在下列必填欄位中新增每個自訂欄位選項的相關資訊：
 
-   * **`isNew`** =輸入 **`TRUE`** 在此欄中，代表新欄位選項的每行。
+   * **`isNew`** = enter **`TRUE`** 在此欄中代表新欄位選項的每一行。
 
-      >[!TIP]
-      >
-      >    如果行代表現有選項，您可輸入 **`isNew`** = **`FALSE`**.
+     >[!TIP]
+     >
+     >    如果線條代表現有選項，您應輸入 **`isNew`** = **`FALSE`**.
 
-   * **`ID`** =必須是代表新選項之每行的唯一數字。 只要每個新選項都有唯一的編號，您就可以使用以1開頭的任何編號。
-   * **`setIsDefault`** =輸入 `TRUE` 以取得預設要顯示的選項，以及 `FALSE` 針對所有其他選項，針對每個欄位。  例如，我們想要 _Nike_ 為的預設選項 _品牌_ 和 _列印_ 為的預設選項 _媒體_.
+   * **`ID`** =必須為代表新選項的每一行的唯一數字。 您可以使用任何以1開頭的數字，但前提是每個新選項都有唯一的數字。
+   * **`setIsDefault`** = enter `TRUE` 預設顯示的選項，以及 `FALSE` 針對所有其他選項，針對每個欄位。  例如，我們希望 _Nike_ 預設選項 _品牌_ 和 _列印_ 預設選項 _媒體_.
 
-      >[!TIP]
-      >
-      >每個欄位只能有一個預設選項。
+     >[!TIP]
+     >
+     >每個欄位只能有一個預設選項。
 
-   * **`setParameterID`** =與 _品牌_ 自訂欄位具有 **`setParameterID`** 的1，以及 _媒體_ 有**`setParameterID`**/2。 此 `PARAM` 和 `POPT` 工作表互相參照，以指出哪些選項屬於哪些自訂欄位。
-   * **`setDisplayOrder`**=顯示順序欄會指出選項在您的自訂欄位中的顯示順序。 無論選項屬於哪些欄位，您都可以從1開始，並以升序繼續。 重要的是，每個選項都有不重複的編號。
-   * 此 **`setLabel`** 和 `**setValue`**欄通常包含相同的資訊，且應反映Workfront UI中需要的名稱。 例如，選項的值是報表中顯示的名稱，而標籤在附加至物件時會顯示在自訂表單中。 如需詳細資訊，請參閱 [新增自訂欄位至自訂表單](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md).
-   * **`setIsHidden`** =輸入 `TRUE` 如果希望隱藏任何選項。
+   * **`setParameterID`** =對應至「 」的選項 _品牌_ 自訂欄位具有 **`setParameterID`** 的1，與對應的選項 _媒體_ 有**`setParameterID`**/2。 此 `PARAM` 和 `POPT` 工作表會相互交叉參照，指出哪些選項屬於哪個自訂欄位。
+   * **`setDisplayOrder`**=顯示順序欄指示選項在自訂欄位中的顯示順序。 您可以從1開始，然後依遞增順序繼續所有選項，無論它們屬於哪個欄位。 這裡重要的是每個選項都有唯一編號。
+   * 此 **`setLabel`** 和 `**setValue`**欄通常包含相同的資訊，且應反映Workfront UI中所需的名稱。 選項的值是顯示在報表中的名稱，例如，而標籤在附加到物件時顯示在自訂表單中。 如需詳細資訊，請參閱 [新增自訂欄位至自訂表單](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md).
+   * **`setIsHidden`** = enter `TRUE` 如果您希望隱藏任何選項。
+
    ![](assets/parameter-option-sheet-filled-out-kick-starts.png)
 
 
-1. （可選）如果您也想建立自訂表單，以便稍後新增欄位，請選取  **`CTGY Category`** 工作表並更新以下自訂表單資訊所需的欄：
+1. （選擇性）如果您也想要建立自訂表單，以便稍後新增欄位，請選取  **`CTGY Category`** 並更新下列自訂表單資訊的必要欄：
 
-   * **`isNew`** =輸入 **`TRUE`** 在此欄中，代表新自訂表單的每一行皆適用。
-   * **`ID`** =為代表新表單的每行輸入唯一編號。 只要每個新選項或行都有唯一編號，您就可以使用以1開頭的任何編號。
-   * **`setGroupID`** =為您的「首頁組」或系統中任何其他組添加組ID，這些組的成員要訪問此表單。 這是必填欄位。
-   若要了解 `ID` 群組中，您可以建立群組報表並新增 `ID` 欄位，或導覽至群組並尋找群組的URL。 群組ID會位於群組頁面的URL中。 例如，如果群組的URL為 `https://companyName.my.workfront.com/group/575b000800467a6f66e747932c807464/members`，群組ID為 `575b000800467a6f66e747932c807464`.
+   * **`isNew`** = enter **`TRUE`** 在此欄中，代表新自訂表單的每一行。
+   * **`ID`** =為代表新表單的每一行輸入唯一的數字。 您可以使用任何以1開頭的數字，只要每個新選項或行具有一個唯一數字即可。
+   * **`setGroupID`** =新增主群組的群組ID，或系統中您希望其成員存取此表單的任何其他群組。 這是必填欄位。
 
-   * **`setCatObjCode` **=這是要為其建立表單的對象類型的對象代碼。 從下列選項中輸入代碼：
-      * **`CMPY`** 公司
-      * **`TASK`** 任務
+   若要瞭解 `ID` 您可以建立群組報表，然後新增 `ID` 欄位，或導覽至群組並尋找該群組的URL。 群組ID會位於群組頁面的URL中。 例如，如果群組的URL為 `https://companyName.my.workfront.com/group/575b000800467a6f66e747932c807464/members`，群組識別碼為 `575b000800467a6f66e747932c807464`.
+
+   * **`setCatObjCode` **=這是您要建立表單之物件型別的物件程式碼。 從下列選項輸入代碼：
+      * **`CMPY`** 適用於公司
+      * **`TASK`** 針對任務
       * **`PROJ`** 專案
-      * **`PORT`** Portfolio
-      * **`PRGM`** 方案
-      * **`USER`** 使用者
-      * **`DOCU`** 檔案
+      * **`PORT`** 用於Portfolio
+      * **`PRGM`** 適用於計畫
+      * **`USER`** 適用於使用者
+      * **`DOCU`** 針對檔案
       * **`OPTASK`** 問題
-      * **`EXPNS`** 支出
-      * **`ITRN`** 迭代
-      * **`BILL`** 對於帳單記錄
-      * **`GROUP`** 群組
-      >[!NOTE]
-      >
-      >對於多物件表單，請在UI中建立表單時輸入您要選取的第一個物件。 例如，設定 `setCatObjCode` to `TASK`，如果您先在Workfront介面中選取「工作」，然後再選取「問題」、「Portfolio」等，但您不希望該表單可供「專案」使用。
+      * **`EXPNS`** 費用
+      * **`ITRN`** 適用於反複專案
+      * **`BILL`** 針對付費記錄
+      * **`GROUP`** 適用於群組
 
-   * **`setName`** =這是您希望自訂表單顯示在Workfront介面中的名稱。
+     >[!NOTE]
+     >
+     >針對多物件表單，輸入您在UI中建立表單時將會選取的第一個物件。 例如，設定 `setCatObjCode` 至 `TASK`，如果您要在Workfront介面中選取「任務」，然後選取「問題」、「Portfolio」等，但您不想要表單可供專案使用。
 
-      ![](assets/category-sheet-filled-out-kick-starts.png)
+   * **`setName`** =這是自訂表單的名稱，顯示於Workfront介面中即可。
+
+     ![](assets/category-sheet-filled-out-kick-starts.png)
+
+1. 將試算表儲存為電腦上的.xls或.xlsx檔案。 您的Excel試算表已填滿，現在可以匯入Workfront了。
 
 
+## 將Excel試算表上傳至Workfront
 
-1. 將試算表儲存為電腦上的.xls或.xlsx檔案。 您的Excel試算表已填寫，現在已可匯入至Workfront。
+執行前述各節所述的步驟後，繼續下列步驟，將新欄位和表單上傳至Workfront：
 
+1. 按一下 **匯入資料** **(Kick-Starts) **在 **主要功能表>設定>系統** 功能表。
 
-## 上傳Excel試算表至Workfront
+1. 按一下 **選擇檔案** 在區段下 **使用Kick-Start試算表上傳資料**.
 
-執行前幾節所述的步驟後，請繼續下列步驟，將新欄位和表單上傳至Workfront:
-
-1. 按一下 **匯入資料** **（啟動）** **主菜單>設定>系統** 功能表。
-
-1. 按一下 **選擇檔案** 在 **使用Kick-Start試算表上傳資料**.
-
-1. 在電腦上瀏覽您準備的Excel試算表，並在找到後加以選取。  Workfront辨識檔案時，「上傳」按鈕會變成藍色。
+1. 在電腦上瀏覽您準備的Excel試算表，並在找到時加以選取。  當Workfront識別檔案時， 「上傳」按鈕將變成藍色。
 1. 按一下 **上傳。**
 
    ![](assets/kick-start-file-selected-and-upload-blue-button.png)
 
-1. 會顯示匯入成功的通知。 根據您要匯入的資訊量，此步驟可能需要幾秒鐘到一分鐘的時間。
+1. 系統會顯示匯入成功的通知。 視您匯入的資訊量而定，此步驟可能需要幾秒鐘到一分鐘的時間。
 
    ![](assets/kick-start-successful.png)
 
-   新的自訂欄位和表單現在位於您的Workfront系統中。 您可以在「設定」的「自訂Forms」區域中找到它們。
+   新的自訂欄位和表單現在包含在您的Workfront系統中。 您可以在「設定」的「自訂Forms」區域中找到它們。
 
    >[!NOTE]
    >
-   >您匯入的新表單和欄位尚未連線。 匯入的表單沒有自訂欄位。 您必須手動將欄位新增至新的自訂表單，或新增至其他現有的自訂表單。
+   >您匯入的新表單和欄位尚未連線。 匯入的表單沒有自訂欄位。 您必須手動將欄位新增至新自訂表單或其他現有自訂表單。
 
 
-   如需將欄位新增至自訂表單的詳細資訊，請參閱 [新增自訂欄位至自訂表單](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md).
+   如需有關新增欄位至自訂表單的資訊，請參閱 [新增自訂欄位至自訂表單](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md).
 
-1. （條件性）如果匯入未成功，您會收到錯誤訊息，其中包含問題所在。 嘗試識別遇到問題的欄位、工作表和行號，並更正Excel檔案中的資訊，然後嘗試再次導入該檔案。
+1. （條件式）如果匯入失敗，您會收到錯誤訊息，指出問題所在。 請嘗試識別發生問題的欄位、工作表和列號，並修正Excel檔案中的資訊，然後再次嘗試匯入檔案。
 
    ![](assets/kick-start-error.png)
 
-1. （條件性）根據問題所在，如錯誤訊息所述，可能已匯入某些資訊。 必須執行以下操作之一，才能再次導入工作表：
+1. （視條件而定）根據問題性質（如錯誤訊息所述），某些資訊可能已匯入。 您必須執行下列任一項作業，才能再次匯入頁面：
 
-   * 從「自訂Workfront」區域刪除已成功匯入Forms的資訊，然後進行錯誤訊息所指示的更正。
-   * 指出系統中已針對已匯入的欄位或表單已有欄位或表單，然後進行更正。
-若要指出欄位或自訂表單已在Workfront中，您必須確定 `inNew` 欄位標示為 `FALSE` 包含表單資訊的工作表(`CTGY`)或欄位(`PARAM`)。
+   * 刪除成功從Workfront從「自訂Forms」區域匯入的資訊，然後進行錯誤訊息所指示的更正。
+   * 指出系統中已有欄位或表單用於已匯入的欄位或表單，然後進行更正。
+若要指出欄位或自訂表單已存在於Workfront中，您必須確定 `inNew` 欄位標示為 `FALSE` 在包含表單相關資訊的工作表中(`CTGY`)或欄位(`PARAM`)。

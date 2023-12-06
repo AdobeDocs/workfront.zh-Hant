@@ -2,15 +2,17 @@
 content-type: reference
 navigation-topic: workfront-navigation
 title: 字彙表 [!DNL Adobe Workfront] 術語
-description: 此 [!DNL Adobe Workfront] 字彙表列出Adobe Workfront中常用的術語。
+description: 此 [!DNL Adobe Workfront] 字彙表列出以下專案中的常用術語： [!DNL Adobe Workfront]. You can use the glossary when you want to find the definition of concepts you see in the [!UICONTROL Workfront] 介面、報告或您試圖瞭解的意義 [!DNL Workfront] 中定義的概念 [!DNL Workfront] 檔案。
+author: Alina
 feature: Get Started with Workfront
 exl-id: 758072b3-775e-4771-9ae9-da0b38580c93
-source-git-commit: bc7039bc4b8b257fc55e71e73f72327fdb417837
+source-git-commit: 3ffb6fdebb54682abc737e55186850458a133f7c
 workflow-type: tm+mt
-source-wordcount: '19729'
+source-wordcount: '19897'
 ht-degree: 0%
 
 ---
+
 
 # 字彙表 [!DNL Adobe Workfront] 術語
 
@@ -92,7 +94,7 @@ ht-degree: 0%
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[！UICONTROL敏捷團隊]</td> 
-   <td>與傳統團隊不同，他們可從待處理專案取得潛在工作，並在稱為[！UICONTROL反複專案]的設定時間內處理。</td> 
+   <td>與傳統團隊不同，因為他們從待處理專案取得潛在工作，並在稱為[！UICONTROL反複專案]的設定期間內處理。</td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[！UICONTROL All My Teams]</td> 
@@ -127,7 +129,7 @@ ht-degree: 0%
      <p>針對[！UICONTROL預算時數]報表：</p> 
      <ul> 
       <li>嘗試瞭解在資源規劃工具中分配給您的資源或您的專案的[！UICONTROL預算時數]金額時，請建立此報告。</li> 
-      <li> <p>[！UICONTROL配置日期]是您在[！UICONTROL資源規劃工具]中編列時數預算的一週的第一天（星期日）。 </p> <p>秘訣：   <p>如果一週持續兩個月，它會在報表中產生兩列：一個對應一週的第一天（第一個月的第一週星期日），第二列顯示第二個月的第一天。 </p> <p>例如，如果您為使用者編列了6月30日（星期日） - 7月6日（星期六）這週的8小時的預算，則兩列會顯示6月30日和7月1日的[！UICONTROL分配日期]。 </p> </p> <p>如需有關預算資源的資訊，請參閱 [!DNL Resource Planner]，請參閱文章 <a href="../../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md" class="MCXref xref">預算中的資源 [!DNL Resource Planner] 使用[！UICONTROL Project]和[！UICONTROL Role]檢視</a>.</p> <p>如需有關建立[！UICONTROL預算時數]報表的資訊，請參閱 <a href="../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/report-budgeted-hour.md" class="MCXref xref">報告：預算時數</a>. </p> </li> 
+      <li> <p>[！UICONTROL配置日期]是您在[！UICONTROL資源規劃工具]中編列時數預算的一週的第一天（星期日）。 </p> <p><b>秘訣</b></p> <p>如果一週持續兩個月，它會在報表中產生兩列：一個對應一週的第一天（第一個月的第一週星期日），第二列顯示第二個月的第一天。 </p> <p>例如，如果您為使用者編列了6月30日（星期日） - 7月6日（星期六）這週的8小時的預算，則兩列會顯示6月30日和7月1日的[！UICONTROL分配日期]。 </p> </p> <p>如需有關預算資源的資訊，請參閱 [!DNL Resource Planner]，請參閱文章 <a href="../../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md" class="MCXref xref">預算中的資源 [!DNL Resource Planner] 使用[！UICONTROL Project]和[！UICONTROL Role]檢視</a>.</p> <p>如需有關建立[！UICONTROL預算時數]報表的資訊，請參閱 <a href="../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/report-budgeted-hour.md" class="MCXref xref">報告：預算時數</a>. </p> </li> 
      </ul> 
     </div> </td> 
   </tr> 
@@ -332,7 +334,7 @@ ht-degree: 0%
         <td> <p>使用率報表[！UICONTROL小時]檢視</p> <p>如需[！UICONTROL使用率]報表的詳細資訊，請參閱文章 <a href="../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md" class="MCXref xref">[！UICONTROL Resource Utilization]報告概觀</a>.</p> </td> 
        </tr> 
        <tr> 
-        <td>[！UICONTROL預算。 時數]</td> 
+        <td>[！UICONTROL預算。 小時]</td> 
         <td> <p>[！UICONTROL預算時數]報告</p><p>「預算時數」報表中的[！UICONTROL預算時數]物件會參考與已棄用資源管理工具相關的資訊。 僅限「[！UICONTROL預算」。 此報表中的「時數」欄位會參考專案之[！UICONTROL Business Case]的[！UICONTROL資源規劃工具]或[！UICONTROL資源預算]區域中的預算時數。 </p> <p>如需建立報表的詳細資訊，請參閱文章 <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md" class="MCXref xref">建立自訂報表</a>.</p> </td> 
        </tr> 
        <tr> 
@@ -446,7 +448,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td>[！UICONTROL計算工作分派]</td> 
-   <td> <p>任務[！UICONTROL工期]型別之一。 這將根據任務的[！UICONTROL工期]和[！UICONTROL所需工作]計算指派給任務的使用者在8小時工作日中分配給任務的百分比。</p> <p>如需詳細資訊，請參閱 <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">任務[！UICONTROL工期]和[！UICONTROL工期型別]概觀</a>.</p> </td> 
+   <td> <p>工作[！UICONTROL期間型別]之一。 這將根據任務的[！UICONTROL工期]和[！UICONTROL所需工作]計算指派給任務的使用者在8小時工作日中分配給任務的百分比。</p> <p>如需詳細資訊，請參閱 <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">任務[！UICONTROL工期]和[！UICONTROL工期型別]概觀</a>.</p> </td> 
   </tr> 
   <tr> 
    <td>[！UICONTROL已計算的工作]</td> 
@@ -454,7 +456,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td>[！UICONTROL行事曆]</td> 
-   <td> <p>中有兩種行事曆 [!DNL Workfront]：[！UICONTROL首頁行事曆]和行事曆報告。</p> <p>[！UICONTROL首頁行事曆]是個人行事曆，可讓使用者根據以下位置可用的時數管理其工作量： [!DNL Workfront]. 使用者也可以將其[！UICONTROL首頁行事曆]與整合 [!DNL Outlook] ([!DNL Google] 和 [!DNL Microsoft] 整合即將推出)。 </p> <p>如需[！UICONTROL首頁行事曆]的詳細資訊，請參閱 <a href="../../../workfront-basics/using-home/using-the-home-area/home-calendar-view.md" class="MCXref xref">[！UICONTROL首頁行事曆]檢視</a>.</p> <p>行事曆報告是一種動態報告，使用者可以在其中檢視事件的日期和其他重要詳細資訊，包括到期日、工作狀態以及事件指派給的使用者。</p> <p> 如需有關行事曆報表的詳細資訊，請參閱 <a href="../../../reports-and-dashboards/reports/calendars/calendar-reports-overview.md" class="MCXref xref">行事曆報表總覽</a>.</p> </td> 
+   <td> <p>中有兩種行事曆 [!DNL Workfront]：[！UICONTROL首頁行事曆]和行事曆報告。</p> <p>[！UICONTROL首頁行事曆]是個人行事曆，可讓使用者根據以下位置可用的時數管理其工作量： [!DNL Workfront]. 使用者也可以將其[！UICONTROL首頁行事曆]與 [!DNL Outlook] ([!DNL Google] 和 [!DNL Microsoft] 整合即將推出)。 </p> <p>如需[！UICONTROL首頁行事曆]的詳細資訊，請參閱 <a href="../../../workfront-basics/using-home/using-the-home-area/home-calendar-view.md" class="MCXref xref">[！UICONTROL首頁行事曆]檢視</a>.</p> <p>行事曆報告是一種動態報告，使用者可以在其中檢視事件的日期和其他重要詳細資訊，包括到期日、工作狀態以及事件指派給的使用者。</p> <p> 如需有關行事曆報表的詳細資訊，請參閱 <a href="../../../reports-and-dashboards/reports/calendars/calendar-reports-overview.md" class="MCXref xref">行事曆報表總覽</a>.</p> </td> 
   </tr> 
    <tr> 
    <td>[！UICONTROL可以開始]</td> 
@@ -528,7 +530,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td>僅限[！UICONTROL變更]</td> 
-   <td>其中一個專案[！UICONTROL更新型別]。 它只會在對專案執行任務更新或編輯專案時更新[！UICONTROL專案預計]和[！UICONTROL計畫]時間表。</td> 
+   <td>其中一個專案[！UICONTROL更新型別]。 它只會在任務更新時更新[！UICONTROL專案預計]和[！UICONTROL計畫]時間表，或在專案或任務上執行編輯時更新。</td> 
   </tr> 
   <tr> 
    <td>[！UICONTROL變更順序]</td> 
@@ -592,14 +594,14 @@ ht-degree: 0%
      <li>[！UICONTROL On Target]</li> 
      <li>[！UICONTROL有風險]</li> 
      <li>[！UICONTROL陷入困境]</li> 
-    </ul> <p>如需有關專案狀況的詳細資訊，請參閱文章 <a href="../../../manage-work/projects/manage-projects/project-condition-and-condition-type.md" class="MCXref xref">[！UICONTROL專案條件]和[！UICONTROL條件型別]概觀</a>.</p>
+    </ul> <p>如需有關專案條件的詳細資訊，請參閱文章 <a href="../../../manage-work/projects/manage-projects/project-condition-and-condition-type.md" class="MCXref xref">[！UICONTROL專案條件]和[！UICONTROL條件型別]概觀</a>.</p>
      <p>您可以將任務和問題條件與可顯示在報告中的數字相關聯。 以下清單顯示任務和問題條件的預設名稱和編號。 您的系統管理員可以更新條件的名稱，並且他們可以新增具有不同號碼的條件。 將數字與條件關聯後，即無法進行編輯。  </p> 
      <p>對於任務，條件由任務擁有者手動設定。 工作條件的可能值包括：</p> 
     <ul> 
      <li>[！UICONTROL運作順利] (0)<br></li> 
      <li> [！UICONTROL一些問題] (1)<br></li> 
      <li>[！UICONTROL主要障礙] (2)</li> 
-    </ul> <p>如需工作條件的詳細資訊，請參閱文章 <a href="../../../manage-work/projects/updating-work-in-a-project/update-condition-for-tasks-and-issues.md" class="MCXref xref">更新任務和問題的[！UICONTROL條件]</a>.</p> <p>對於問題，條件由問題擁有者手動設定。 問題條件的可能值包括：<br></p> 
+    </ul> <p>如需關於工作條件的詳細資訊，請參閱文章 <a href="../../../manage-work/projects/updating-work-in-a-project/update-condition-for-tasks-and-issues.md" class="MCXref xref">更新任務和問題的[！UICONTROL條件]</a>.</p> <p>對於問題，條件由問題擁有者手動設定。 問題條件的可能值包括：<br></p> 
     <ul> 
      <li>[！UICONTROL運作順利] (0)<br></li> 
      <li>[！UICONTROL一些問題] (1)<br></li> 
@@ -621,11 +623,11 @@ ht-degree: 0%
      <li>[！UICONTROL必須完成於]</li> 
      <li>[！UICONTROL開始時間不晚於]</li> 
      <li>[！UICONTROL開始時間不早於]</li> 
-    </ul> <p>秘訣：   
+    </ul> <p><b>秘訣</b></p>   
      <ul> 
       <li> <p>[！UICONTROL條件約束]為[！UICONTROL固定日期]的任務沒有[！UICONTROL條件約束日期]。 </p> </li> 
       <li> <p> [！UICONTROL限制日期]只能在報表或自訂檢視中檢視。</p> </li> 
-     </ul> </p> </td> 
+     </ul> </td> 
   </tr> 
   <tr> 
    <td>[！UICONTROL限制日]</td> 
@@ -635,7 +637,7 @@ ht-degree: 0%
      <li>[！UICONTROL必須完成於]</li> 
      <li>[！UICONTROL開始時間不晚於]</li> 
      <li>[！UICONTROL開始時間不早於]</li> 
-    </ul> <p>提示： [！UICONTROL限制日]只能在報表或自訂檢視中檢視。 </p> </td> 
+    </ul> <p><b>秘訣</b></p> <p>  [！UICONTROL限制日]只能在報表或自訂檢視中檢視。 </p> </td> 
   </tr> 
   <tr> 
    <td>[！UICONTROL條件約束型別]</td> 
@@ -688,7 +690,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td>[！UICONTROL自訂欄</td> 
-   <td>對於可讓使用者從數個選項中進行選取的自訂資料，這些是使用者可從中選取的值。 自訂選項僅在[！UICONTROL下拉式清單]、[！UICONTROL多選下拉式清單]、[！UICONTROL選項按鈕]和[！UICONTROL核取方塊]有效。</td> 
+   <td>對於允許使用者從多個選項中進行選取的自訂資料，這些是使用者可從中選取的值。 自訂選項僅在[！UICONTROL下拉式清單]、[！UICONTROL多選下拉式清單]、[！UICONTROL選項按鈕]和[！UICONTROL核取方塊]有效。</td> 
   </tr> 
   <tr> 
    <td>[！UICONTROL自訂表單標籤]</td> 
@@ -700,7 +702,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td>[！UICONTROL自訂檢視]</td> 
-   <td>針對清單中的每個物件所顯示的資料欄位或欄的定義。</td> 
+   <td>為清單中的每個物件顯示的資料欄位或欄的定義。</td> 
   </tr> 
   <tr> 
    <td>[！UICONTROL客戶]</td> 
@@ -723,7 +725,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td>[！UICONTROL儀表板]</td> 
-   <td> <p> 您可以在報表或報表物件清單中新增此欄位，以顯示報表在清單中列出的儀表板。 </p> <p> 您也可以使用此欄位來篩選列在特定控制面板上的報表。 </p> <p> 如需在報表物件報表中加入儀表板資訊的詳細資訊，請參閱文章中的「瞭解哪些報表列在儀表板上」一節 <a href="../../../reports-and-dashboards/reports/report-usage/access-organize-reports.md" class="MCXref xref">存取及組織報告</a></p> </td> 
+   <td> <p> 您可以在報表或報表物件的檢視中新增此欄位，以顯示報表列於清單中的儀表板。 </p> <p> 您也可以使用此欄位來篩選列在特定控制面板上的報表。 </p> <p> 如需在報表物件報表中加入儀表板資訊的詳細資訊，請參閱文章中的「瞭解哪些報表列在儀表板上」一節 <a href="../../../reports-and-dashboards/reports/report-usage/access-organize-reports.md" class="MCXref xref">存取及組織報告</a></p> </td> 
   </tr> 
   <tr> 
    <td>[！UICONTROL資料型別]</td> 
@@ -784,7 +786,7 @@ ht-degree: 0%
   </tr> 
   <tr data-mc-conditions="SnippetConitions_MaturityModel.Integrated"> 
    <td>[！UICONTROL期間型別]</td> 
-   <td> <p>一個工作列位，指明完成任務所需的工作如何在任務持續期間分配給受指派人。 它表示任務的[！UICONTROL工期]、[！UICONTROL所需工作]與指派的資源應花費在任務完成的時間量（即[！UICONTROL配置]）之間的關係。 </p> <p>此欄位會顯示在任務的[！UICONTROL詳細資訊]索引標籤上。 </p> <p>選項包括：</p> 
+   <td> <p>一個工作列位，指明完成任務所需的工作如何在任務持續期間分配給受指派人。 它表示任務的[！UICONTROL工期]、[！UICONTROL所需工作]與指派的資源應花費在任務完成的時間量（即[！UICONTROL配置]）之間的關係。 </p> <p>此欄位會顯示在任務的[！UICONTROL詳細資訊]索引標籤上。 </p> <p>任務的「期間型別」選項包括：</p> 
     <ul> 
      <li>[！UICONTROL計算工作分派]</li> 
      <li>[！UICONTROL已計算的工作]</li> 
@@ -842,7 +844,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td>[！UICONTROL External]</td> 
-   <td> <p>通常，是授權型別或具有此類授權的使用者，只能檢閱系統中的資訊。</p> <p>如需詳細資訊，請參閱 <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">[!DNL Adobe Workfront] 授權總覽</a>.</p> </td> 
+   <td> <p>通常，這是授權型別，或具有此類授權的使用者。 具有此類授權型別的使用者只能檢閱系統中的資訊。 他們無法主動參與工作。</p> <p>如需詳細資訊，請參閱 <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">[!DNL Adobe Workfront] 授權總覽</a>.</p> </td> 
   </tr> 
   <tr> 
    <td>[！UICONTROL外部系統]</td> 
@@ -854,13 +856,13 @@ ht-degree: 0%
    <td><p>顯示在資料庫中的任何Workfront物件或與其關聯的資訊。 </p>
    <p>例如，「專案」、「使用者」、「小時」既是Workfront物件，也是欄位。 「名稱」、「狀態」、「擁有者」、「開始日期」是與上述物件相關聯的Workfront欄位。 </p>
 
-<p>在參照物件時，專案「物件」和「欄位」可互換使用。</p>
+<p>在參考物件時，術語「物件」和「欄位」可以互換使用。</p>
    <p>在報表的範圍中，「欄位」是指物件，或是您要在報表中擷取的物件相關資訊。</p>
 
 <p><b>附註</b></p>
 
 <p>在更多文字的報表中，欄位會參照物件或物件在資料庫中顯示的資訊。</p>
-   <p>有時候，您在使用者介面中看到的名稱與資料庫中欄位的名稱不同。 例如，「問題」是Workfront介面中的物件名稱，而「opTask」是Workfront資料庫中的物件（或欄位）名稱。 </p> 
+   <p>有時候，您在使用者介面中看到的名稱會與資料庫中欄位的名稱不同。 例如，「問題」是Workfront介面中的物件名稱，而「opTask」是Workfront資料庫中的物件（或欄位）名稱。 </p> 
    <p> 在寫入文字模式報表、檢視、篩選或分組或建立計算欄位時，使用顯示在資料庫中的欄位非常重要。</p>
 
 <p>如需詳細資訊，請參閱 <a href="../../../wf-api/general/api-explorer.md">API總管</a> 和 <a href="../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md">文字模式概觀</a>.</p>
@@ -995,7 +997,7 @@ The designated full time equivalency for users. A full-time user should have 100
   </tr> 
   <tr> 
    <td>[！UICONTROL服務檯]</td> 
-   <td>部分 [!DNL Workfront] 會保留所有問題佇列的物件。 [！UICONTROL服務檯]可用於處理客戶支援票證、專案請求、服務檯票證等。 這與[！UICONTROL Requests]區域相同。</td> 
+   <td>此區域為下列專案的替代名稱： [！UICONTROL要求]區域： [!DNL Workfront]. 您可以使用[！UICONTROL請求]區域來處理客戶支援票證、專案請求、服務檯票證等。</td> 
   </tr> 
   <tr> 
    <td>[！UICONTROL擁有者]</td> 
@@ -1035,7 +1037,7 @@ The designated full time equivalency for users. A full-time user should have 100
   </tr> 
   <tr> 
    <td>[！UICONTROL ID]</td> 
-   <td> <p>ID是與中的每個物件相關聯的英數字元指標 [!DNL Workfront]. 它會唯一識別 [!DNL Workfront] 資料庫。 您可以檢視報表中任何物件的ID，或檢視每個物件的清單。 </p> <p>秘訣：   <p>您也可以在物件頁面的URL中檢視ID。 例如，當您存取[！UICONTROL專案詳細資料]頁面時，專案的ID看起來可能會像下列URL中列出的數字：</p> <p><code>https://&lt;your domain>.my.workfront.com/project/<b>5e29c8010027d8eb334762d4fff3ffca</b>/overview</code> </p> </p> </td> 
+   <td> <p>ID是與中的每個物件相關聯的英數字元指標 [!DNL Workfront]. 它會唯一識別 [!DNL Workfront] 資料庫。 您可以檢視報表中任何物件的ID，或檢視每個物件的清單。 </p> <p><b>秘訣</b></p>   <p>您也可以在物件頁面的URL中檢視ID。 例如，當您存取[！UICONTROL專案詳細資料]頁面時，專案的ID看起來可能會像下列URL中列出的數字：</p> <p><code>https://&lt;your domain>.my.workfront.com/project/<b>5e29c8010027d8eb334762d4fff3ffca</b>/overview</code> </p> </p> </td> 
   </tr> 
   <tr data-mc-conditions="SnippetConitions_MaturityModel.Ad hoc"> 
    <td>[！UICONTROL Individual Goals]</td> 
@@ -1063,7 +1065,7 @@ The designated full time equivalency for users. A full-time user should have 100
   </tr> 
   <tr> 
    <td>[！UICONTROL方案上次發佈日期]</td> 
-   <td> <p>[！UICONTROL Initiative]、[！UICONTROL Initiative Job Role]和[！UICONTROL Project]報表中的欄位，顯示上次將計畫方案發佈至專案的日期。 您可以發佈方案以建立專案或更新連結至方案的專案。</p> <p>此 [!DNL Scenario Planner] 需要額外的授權。 如需關於的資訊， [!DNL Workfront Scenario Planner]，請參閱 <a href="../../../scenario-planner/scenario-planner-overview.md">此 [!DNL Scenario Planner] 概述</a>. </p> <p><span>如需關於發佈方案的資訊，請參閱</span><a href="../../../scenario-planner/publish-scenarios-update-projects.md">發佈情境以在中建立和更新專案 [!DNL Workfront Scenario Planner]</a>. 此欄位在您的 [!DNL Workfront] 例項，除非貴公司已購買 [!DNL Workfront Scenario Planner] 授權。</p> </td> 
+   <td> <p>[！UICONTROL Initiative]、[！UICONTROL Initiative Job Role]和[！UICONTROL Project]報告中的欄位，顯示上次將計畫方案發佈至專案的日期。 您可以發佈方案以建立專案或更新連結至方案的專案。</p> <p>此 [!DNL Scenario Planner] 需要額外的授權。 如需關於的資訊， [!DNL Workfront Scenario Planner]，請參閱 <a href="../../../scenario-planner/scenario-planner-overview.md">此 [!DNL Scenario Planner] 概述</a>. </p> <p><span>如需關於發佈方案的資訊，請參閱</span><a href="../../../scenario-planner/publish-scenarios-update-projects.md">發佈情境以在中建立和更新專案 [!DNL Workfront Scenario Planner]</a>. 此欄位在您的 [!DNL Workfront] 例項，除非貴公司已購買 [!DNL Workfront Scenario Planner] 授權。</p> </td> 
   </tr> 
   <tr> 
    <td>[！UICONTROL內嵌搜尋]</td> 
@@ -1249,7 +1251,7 @@ The designated full time equivalency for users. A full-time user should have 100
  <tbody> 
   <tr> 
    <td>[！UICONTROL手冊]</td> 
-   <td> <p>[！UICONTROL專案]的其中一個[！UICONTROL更新型別]。 此設定允許只有在按一下「[！UICONTROL重新計算時間表]」時，才會更新[！UICONTROL專案預計]和[！UICONTROL計畫]時間表。 在輕度重新計算過程中以及更新專案中的專案或任務時，將忽略以這種方式設定的專案。</p> <p>如需詳細資訊，請參閱 <a href="../../../manage-work/projects/manage-projects/select-project-update-type.md" class="MCXref xref">選取專案[！UICONTROL更新型別] </a>.</p> </td> 
+   <td> <p>[！UICONTROL專案]的其中一個[！UICONTROL更新型別]。 此設定允許只有在按一下「[！UICONTROL重新計算時間表]」時，才會更新[！UICONTROL專案預計]和[！UICONTROL計畫]時間表。 在夜間重新計算過程中以及更新專案中的一個或多個任務時，將忽略以這種方式設定的專案。</p> <p>如需詳細資訊，請參閱 <a href="../../../manage-work/projects/manage-projects/select-project-update-type.md" class="MCXref xref">選取專案[！UICONTROL更新型別] </a>.</p> </td> 
   </tr> 
   <tr> 
    <td>[！UICONTROL我]</td> 
@@ -1303,7 +1305,7 @@ The designated full time equivalency for users. A full-time user should have 100
   </tr>
   <tr> 
    <td>[！UICONTROL非工作日]</td> 
-   <td>未配置完成任何指派的日期。 這通常是假日、假期或週末。</td> 
+   <td>未配置完成任何指派的日期。 這通常是假日、假期或週末。 辭彙會顯示在API總管中。 </td> 
   </tr> 
   <tr> 
    <td>[！UICONTROL附註]</td> 
@@ -1496,7 +1498,7 @@ The designated full time equivalency for users. A full-time user should have 100
   </tr> 
   <tr data-mc-conditions="SnippetConitions_MaturityModel.Managed"> 
    <td>[！UICONTROL計畫預算時數]</td> 
-   <td> <p>在[！UICONTROL預算時數]報表中，這會顯示[！UICONTROL資源規劃工具]中專案或[！UICONTROL工作角色]的預算時數。 </p> <p>如需有關在[！UICONTROL資源規劃工具]中將專案或角色編列預算的資訊，請參閱文章 <a href="../../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md" class="MCXref xref">使用[！UICONTROL專案]和[！UICONTROL角色]檢視的[！UICONTROL資源規劃工具]中的預算資源</a>. 如需[！UICONTROL預算時數]報表的相關資訊，請參閱文章 <a href="../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/report-budgeted-hour.md" class="MCXref xref">報告：預算時數</a>.</p> </td> 
+   <td> <p>在[！UICONTROL預算時數]報表中，這會顯示[！UICONTROL資源規劃工具]中專案或[！UICONTROL工作角色]的預算時數。 </p> <p>如需有關在[！UICONTROL資源規劃工具]中編列專案或角色的資訊，請參閱文章 <a href="../../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md" class="MCXref xref">使用[！UICONTROL專案]和[！UICONTROL角色]檢視的[！UICONTROL資源規劃工具]中的預算資源</a>. 如需[！UICONTROL預算時數]報表的相關資訊，請參閱文章 <a href="../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/report-budgeted-hour.md" class="MCXref xref">報告：預算時數</a>.</p> </td> 
   </tr> 
   <tr> 
    <td>[！UICONTROL計畫完成日期]</td> 
@@ -1512,7 +1514,7 @@ The designated full time equivalency for users. A full-time user should have 100
   </tr> 
   <tr> 
    <td>[！UICONTROL計畫期間]</td> 
-   <td> <p>任務的[！UICONTROL計畫持續時間]通常與任務的[！UICONTROL持續時間]相同。 它代表任務的[！UICONTROL計劃開始]與[！UICONTROL計畫完成日期]之間的天數差異。 </p> <p>當任務的[！UICONTROL工期]型別為[！UICONTROL投入比導向]時，根據您指派給任務的資源數量，[！UICONTROL計畫工期]可能與任務的[！UICONTROL工期]不同。 </p> <p>例如，如果[！UICONTROL工期]型別為[！UICONTROL投入比導向]的任務具有3 d的[！UICONTROL工期]，而您指派一個具有完整時間排程的資源給該任務，則[！UICONTROL計畫工期]也為3天。 如果您將三個全時排程資源指派給相同任務，[！UICONTROL工期]會保留3天，但[！UICONTROL計畫工期]會變成1天。 [！UICONTROL計畫期間]也會變更任務的[！UICONTROL計劃開始]和[！UICONTROL計畫完成]日期，以反映新的[！UICONTROL計畫期間]。 因此，專案的時間表也會受到影響。 </p> <p>如需有關[！UICONTROL持續時間]與[！UICONTROL計畫持續時間]之間任務差異的詳細資訊，請參閱文章 <a href="../../../manage-work/tasks/task-information/planned-duration-vs-duration-for-tasks.md" class="MCXref xref">[！UICONTROL計畫持續時間]與任務的[！UICONTROL持續時間]之間的差異</a>.</p> <p>專案和問題沒有[！UICONTROL計畫期間]。 </p> </td> 
+   <td> <p>任務的[！UICONTROL計畫持續時間]通常與任務的[！UICONTROL持續時間]相同。 它代表任務的[！UICONTROL計劃開始]與[！UICONTROL計畫完成日期]之間的天數差異。 </p> <p>當任務的[！UICONTROL工期]型別為[！UICONTROL投入比導向]時，根據您指派給任務的資源數量，[！UICONTROL計畫工期]可能與任務的[！UICONTROL工期]不同。 </p> <p>例如，如果[！UICONTROL工期]型別為[！UICONTROL投入比導向]的任務具有3 d的[！UICONTROL工期]，而您指派一個具有全職排程的資源給該任務，則[！UICONTROL計畫工期]也為3天。 如果您將三個具有全職排程的資源指派給相同工作，[！UICONTROL期間]會保留3天，但[！UICONTROL計畫期間]會變成1天。 [！UICONTROL計畫期間]也會變更任務的[！UICONTROL計劃開始]和[！UICONTROL計畫完成]日期，以反映新的[！UICONTROL計畫期間]。 因此，專案的時間表也會受到影響。 </p> <p>如需有關[！UICONTROL持續時間]與[！UICONTROL計畫持續時間]之間任務差異的詳細資訊，請參閱文章 <a href="../../../manage-work/tasks/task-information/planned-duration-vs-duration-for-tasks.md" class="MCXref xref">[！UICONTROL計畫持續時間]與任務的[！UICONTROL持續時間]之間的差異</a>.</p> <p>專案和問題沒有[！UICONTROL計畫期間]。 </p> </td> 
   </tr> 
   <tr> 
    <td>[！UICONTROL計畫期間分鐘]</td> 
@@ -1529,9 +1531,9 @@ The designated full time equivalency for users. A full-time user should have 100
   </tr> 
   <tr> 
    <td>[！UICONTROL計畫時數]</td> 
-   <td> <p>此欄位會顯示在[！UICONTROL專案]、[！UICONTROL任務]和問題區域、專案、任務或問題的報告以及資源管理工具，例如[！UICONTROL資源規劃工具]、[！UICONTROL工作負載平衡器]和[！UICONTROL使用率]報告。 </p> <p>它會顯示專案所有者估計完成每個任務或問題所需的小時數。 對於專案而言，這通常是專案任務中[！UICONTROL計畫時數]的彙總。 </p> <p>視您從何處檢視而定，[！UICONTROL規劃時數]欄位可能會顯示不同的資訊。 如需有關計畫時數的資訊，請參閱 <a href="../../../manage-work/tasks/task-information/planned-hours.md" class="MCXref xref">計畫時數概觀</a>.</p> <p>計畫時數會以分鐘為單位儲存在 [!DNL Workfront] 資料庫。 使用此欄位寫入計算時，請確定您考慮小時顯示為分鐘的事實。<br></p> <p>依照預設，計畫時數會平均分配給工作專案期間內的所有天數，也會平均分配給任務的所有資源。 使用者可以更新工作專案的每日計畫時數金額，或每個受指派人的個別計畫時數。</p> <p>專案、任務和問題的更新此欄位不同： </p> 
+   <td> <p>此欄位會顯示在[！UICONTROL專案]、[！UICONTROL任務]和問題區域、專案、任務或問題的報告以及資源管理工具，例如[！UICONTROL資源規劃工具]、[！UICONTROL工作負載平衡器]和[！UICONTROL使用率]報告。 </p> <p>它會顯示專案所有者估計完成每個任務或問題所需的小時數。 對於專案而言，這通常是專案任務中[！UICONTROL計畫時數]的彙總。 </p> <p>視您從何處檢視而定，[！UICONTROL規劃時數]欄位可能會顯示不同的資訊。 如需有關計畫時數的資訊，請參閱 <a href="../../../manage-work/tasks/task-information/planned-hours.md" class="MCXref xref">計畫時數概觀</a>.</p> <p>計畫時數會以分鐘為單位儲存在 [!DNL Workfront] 資料庫。 使用此欄位寫入計算時，請確定您考慮小時顯示為分鐘的事實。<br></p> <p>依照預設，計畫時數會平均分配給工作專案期間內的所有天數，也會平均分配給任務的所有資源。 使用者可以更新工作專案的每日計畫時數或每個受指派人的個別計畫時數。</p> <p>專案、任務和問題的更新此欄位不同： </p> 
     <ul> 
-     <li> <p>如有問題，您可以手動更新此欄位。 問題計畫時數未新增到專案計畫時數。 </p> <p>提示：在問題報表中，其中一個[！UICONTROL計畫時數]欄位會被[！UICONTROL工作]欄位取代。 欄位會顯示問題的計畫時數數目。 如需詳細資訊，請參閱此表格中的「工作」或「[！UICONTROL工作]」欄位。 </p> </li> 
+     <li> <p>如有問題，您可以手動更新此欄位。 問題計畫時數未新增到專案計畫時數。 </p> <p><b>秘訣</b></p> <p>在問題報告中，[！UICONTROL計畫時數]欄位之一已由[！UICONTROL工作]欄位取代。 欄位會顯示問題的計畫時數數目。 如需詳細資訊，請參閱此表格中的「工作」或「[！UICONTROL工作]」欄位。 </p> </li> 
     </ul> 
     <ul> 
      <li> <p>對於任務，當任務的[！UICONTROL期間型別]是[！UICONTROL計算任務]或[！UICONTROL簡單]時，您可以手動更新此欄位。 此欄位的計算方式 [!DNL Workfront] 當任務的[！UICONTROL期間型別]為[！UICONTROL計算量度]或[！UICONTROL投入比導向]時。<br>如需[！UICONTROL工作期間]的相關資訊，請參閱文章 <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">任務[！UICONTROL工期]和[！UICONTROL工期型別]概觀</a>.</p> </li> 
@@ -1599,7 +1601,7 @@ The designated full time equivalency for users. A full-time user should have 100
   </tr> 
   <tr data-mc-conditions="SnippetConitions_MaturityModel.Integrated"> 
    <td>[！UICONTROL前置任務]</td> 
-   <td> <p>在依存性任務完成之前必須完成的工作。 還有標籤為另一個任務的[！UICONTROL相依性]的任務。 前置任務可讓供需規劃員設定順序相依性邏輯，例如在另一個任務完成後啟動任務。</p> <p>如需詳細資訊，請參閱 <a href="../../../manage-work/tasks/use-prdcssrs/predecessors-overview.md" class="MCXref xref">前置任務概觀</a>.</p> </td> 
+   <td> <p>必須在相依任務完成之前完成的工作。 還有標籤為另一個任務的[！UICONTROL相依性]的任務。 前置任務可讓供需規劃員設定順序相依性邏輯，例如在另一個任務完成後啟動任務。</p> <p>如需詳細資訊，請參閱 <a href="../../../manage-work/tasks/use-prdcssrs/predecessors-overview.md" class="MCXref xref">前置任務概觀</a>.</p> </td> 
   </tr> 
   <tr> 
    <td>[！UICONTROL主要公司]</td> 
@@ -1609,7 +1611,7 @@ The designated full time equivalency for users. A full-time user should have 100
    <td>[！UICONTROL主要連絡人]</td> 
    <td><p>[！UICONTROL主要連絡人]是問題的建立者，並由以下自動指定 [!DNL Workfront] 當有人建立問題時。 如果您有，可以手動更新此欄位 [!DNL Manage] 問題的許可權。 問題只能有一個主要連絡人。</p> 
    <p>如果您變更主要連絡人，原本指定為主要連絡人的使用者仍然擁有[！UICONTROL管理]問題的存取權。</p>
-   <p>將問題轉換為任務或專案時，指定為的[！UICONTROL主要聯絡人]的使用者會成為專案或任務的[！UICONTROL轉換的問題建立者]。 如果問題的[！UICONTROL主要連絡人]在問題轉換後有所更新，則在轉換發生時，[！UICONTROL轉換的問題建立者]將保留為問題的[！UICONTROL主要連絡人]。 另請參閱本文中的「[！UICONTROL轉換的問題建立者]」。</p> 
+   <p>將問題轉換為任務或專案時，被指定為問題[！UICONTROL主要聯絡人]的使用者會成為專案或任務的[！UICONTROL轉換的問題建立者]。 如果問題的[！UICONTROL主要連絡人]在問題轉換後有所更新，則在轉換發生時，[！UICONTROL轉換的問題建立者]將保留為問題的[！UICONTROL主要連絡人]。 另請參閱本文中的「[！UICONTROL轉換的問題建立者]」。</p> 
    </td> 
   </tr>
   <tr> 
@@ -1618,7 +1620,7 @@ The designated full time equivalency for users. A full-time user should have 100
   </tr> 
   <tr> 
    <td>[！UICONTROL Private]</td> 
-   <td>在[！UICONTROL附註]或[！UICONTROL檔案]上，此選項會讓大部分檢視者隱藏該物件。 對於私人服務檯佇列，只有佇列團隊中的使用者可以透過[！UICONTROL服務檯]區域提交問題給該佇列。</td> 
+   <td>在[！UICONTROL附註]或[！UICONTROL檔案]上，此選項會讓大部分檢視者隱藏該物件。 對於私人說明請求佇列，只有專案團隊中的使用者可以透過[！UICONTROL請求]區域提交問題給該佇列（或專案）。</td> 
   </tr> 
   <tr> 
    <td>[！UICONTROL設定檔]</td> 
@@ -1724,7 +1726,7 @@ The designated full time equivalency for users. A full-time user should have 100
   </tr> 
   <tr> 
    <td>[！UICONTROL Public]</td> 
-   <td>在[！UICONTROL備註]或[！UICONTROL檔案]上，此選項可讓其他使用者或甚至外部人員存取該物件 [!DNL Workfront]. 對於[！UICONTROL服務檯佇列]，[！UICONTROL Public]表示所有可以提交問題的使用者都可以透過[！UICONTROL服務檯]區域提交問題。</td> 
+   <td>在[！UICONTROL備註]或[！UICONTROL檔案]上，此選項可讓其他使用者或甚至外部人員存取該物件 [!DNL Workfront]. 對於[！UICONTROL Help Request Queue]，[！UICONTROL Public]表示所有可以提交問題至專案的使用者都可以透過[！UICONTROL Requests]區域提交問題。</td> 
   </tr> 
   <tr data-mc-conditions="SnippetConitions_MaturityModel.Integrated"> 
    <td>[！UICONTROL品質]</td> 
@@ -1732,19 +1734,19 @@ The designated full time equivalency for users. A full-time user should have 100
   </tr> 
   <tr> 
    <td>[！UICONTROL佇列]</td> 
-   <td>也稱為[！UICONTROL服務檯佇列]。 此專案已發佈至[！UICONTROL服務檯]區域，可供使用者提交問題。 通常佇列是為特定主題建立的，例如Bug、專案請求等。</td> 
+   <td>也稱為服務檯佇列或[！UICONTROL說明請求佇列]。 此專案已發佈至[！UICONTROL Requests]區域，可供使用者提交問題。 通常會為特定主題建立佇列，例如[！UICONTROL Bugs]、[！UICONTROL專案請求]等。</td> 
   </tr> 
   <tr> 
    <td>[！UICONTROL佇列屬性]</td> 
-   <td>這些設定針對發佈至[！UICONTROL服務檯]的專案定義問題提交規則。</td> 
+   <td>這些設定可為發佈至[！UICONTROL請求]區域的專案定義問題提交規則。</td> 
   </tr> 
   <tr> 
    <td>[！UICONTROL佇列主題]</td> 
-   <td> <p>[！UICONTROL服務檯佇列]上的屬性，可讓提交問題的使用者選取主題。 主題可以：</p> 
+   <td> <p>[！UICONTROL說明請求佇列]上的屬性，可讓提交問題的使用者選取主題。 主題可以：</p> 
     <ul> 
      <li>與自訂資料表單建立關聯。</li> 
      <li>透過所選主題上的路由規則集，自動將問題指派給使用者、角色或團隊。</li> 
-     <li>透過所選主題上的路由規則集，將問題移至不同的專案或佇列。</li> 
+     <li>透過所選主題上的路由規則集，將問題移至其他專案或佇列。</li> 
     </ul> <p>如需詳細資訊，請參閱 <a href="../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md" class="MCXref xref">建立佇列主題</a>.</p> </td> 
   </tr> 
   <tr> 
@@ -1773,7 +1775,7 @@ The designated full time equivalency for users. A full-time user should have 100
   </tr> 
   <tr> 
    <td>[！UICONTROL重新計畫]</td> 
-   <td>變更專案的日期以修復或解決問題。 例如，已擱置幾個月的專案需要重新計畫以反映準確的日期。</td> 
+   <td>變更專案的日期以修復或解決問題。 例如，已擱置幾個月的專案需要重新計畫以反映準確的日期。 這是調整專案日期或任務日期的手動作業。 </td> 
   </tr> 
   <tr> 
    <td>[！UICONTROL報表]</td> 
@@ -1797,7 +1799,7 @@ The designated full time equivalency for users. A full-time user should have 100
   </tr> 
   <tr> 
    <td>[！UICONTROL保留時間]</td> 
-   <td>在使用者個人時間中指定的天數，表示使用者將無法工作。 請參閱「[！UICONTROL非工作日]」。</td> 
+   <td>指定在使用者個人時間上的天數，表示使用者無法工作。 請參閱「[！UICONTROL非工作日]」。</td> 
   </tr> 
   <tr> 
    <td>[！UICONTROL解決問題]</td> 
@@ -1813,7 +1815,7 @@ The designated full time equivalency for users. A full-time user should have 100
   </tr> 
   <tr> 
    <td>[！UICONTROL資源]</td> 
-   <td>存在於系統中的使用者和/或角色，並指派給專案團隊和任務。</td> 
+   <td>中存在的使用者或角色 [!DNL Workfront] 和會指派給專案團隊、任務和問題。 他們負責完成與專案、任務或問題相關聯的工作。 </td> 
   </tr> <!--
    <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
     <td>Resource Estimates</td> 
@@ -1844,12 +1846,12 @@ The designated full time equivalency for users. A full-time user should have 100
   </tr> 
   <tr> 
    <td>[！UICONTROL資源規劃工具預算勞力成本]</td> 
-   <td> <p>這些是與使用資源規劃工具的專案工作角色預算時數關聯的成本。 </p> <p>另請參閱本文中的「預算勞力成本」。 </p> </td>
+   <td> <p>這是與使用資源規劃工具之專案工作角色的預算時數關聯的成本。 </p> <p>另請參閱本文中的「預算勞力成本」。 </p> </td>
 
 </tr> 
   <tr> 
    <td>[！UICONTROL資源集區]</td> 
-   <td> <p>資源集區是可與專案相關聯的使用者集合。相同資源集區中的使用者通常屬於相同部門、具有類似或互補的技能，或是由相同預算所資助。 您可以將多個資源集區關聯至專案或使用者。 資源集區可以專門指派給專案，或由數個專案共用。</p> 
+   <td> <p>資源集區是可和專案相關聯的使用者集合。 相同資源集區中的使用者通常屬於相同部門、具有類似或互補的技能，或由相同預算提供資金。 您可以將多個資源集區關聯至專案或使用者。 資源集區可以專門指派給專案，或由數個專案共用。</p> 
    <p>如需有關資源集區的詳細資訊，請參閱 <a href="../../../resource-mgmt/resource-planning/resource-pools/work-with-resource-pools.md" class="MCXref xref"> 資源集區概觀 </a>.</p> 
    <p>在專案報表中，「資源集區」會顯示與專案相關的所有集區。 此物件無法用於群組。</p> 
   </td> 
@@ -1902,11 +1904,11 @@ The designated full time equivalency for users. A full-time user should have 100
   </tr> 
   <tr> 
    <td>[！UICONTROL路由]</td> 
-   <td>自動指派或移動問題，通常是由於「佇列主題」(Queue Topic)或作為「佇列」(Queue)的「預設路由」（路由規則）所致。</td> 
+   <td>自動指派或移動問題，通常是由於「佇列主題」或作為佇列的預設路由（路由規則）所致。</td> 
   </tr> 
   <tr> 
    <td>[！UICONTROL路由規則]</td> 
-   <td>專案和佇列上的設定，可自動將問題指派給使用者、角色或團隊，或將問題移動到另一個專案或佇列。 路由規則通常與服務檯佇列搭配使用，以自動指派傳入的問題。</td> 
+   <td>專案和佇列主題的設定，可自動將問題指派給使用者、角色或團隊，或將問題移至另一個專案或佇列主題。 路由規則通常與說明請求佇列搭配使用，以自動指派傳入的問題。</td> 
   </tr> 
  </tbody> 
 </table>
@@ -1937,7 +1939,7 @@ The designated full time equivalency for users. A full-time user should have 100
   </tr> 
   <tr> 
    <td>[！UICONTROL排程]</td> 
-   <td>每週工作排程，包括工作時間，以及休息日（例如假日）和例外日（例如星期六工作日）。 時程表可套用至專案和使用者。</td> 
+   <td>每週工作排程，包括工作時間，以及休息日（例如假日）和例外日（例如星期六工作日）。 姚可建立排程與專案和使用者的關聯。</td> 
   </tr> 
   <tr> 
    <td>[！UICONTROL排程劐免]</td> 
@@ -1949,7 +1951,7 @@ The designated full time equivalency for users. A full-time user should have 100
   </tr> 
   <tr> 
    <td>[！UICONTROL範圍變更]</td> 
-   <td>[！UICONTROL稽核軌跡]可在任何時候變更專案或任務的範圍時（例如[！UICONTROL任務持續時間]或[！UICONTROL前置任務]已變更），如果啟用，產生附註。</td> 
+   <td>[！UICONTROL稽核軌跡]如果啟用，則會在任何時候變更專案或任務的範圍時產生附註，例如變更[！UICONTROL任務持續時間]或[！UICONTROL前置任務]時。</td> 
   </tr> 
   <tr> 
    <td>[！UICONTROL節]</td> 
@@ -1961,7 +1963,7 @@ The designated full time equivalency for users. A full-time user should have 100
   </tr> 
   <tr> 
    <td>[！UICONTROL安全性]</td> 
-   <td>允許使用者與系統中的特定物件（而非其他物件）互動的設定。 另請參閱本文中的「[！UICONTROL存取層級]」。</td> 
+   <td>允許使用者與系統中的特定物件進行互動（而非其他物件）的設定。 另請參閱本文中的「[！UICONTROL存取層級]」。</td> 
   </tr> 
   <tr> 
    <td>[！UICONTROL設定]</td> 
@@ -2021,13 +2023,13 @@ The designated full time equivalency for users. A full-time user should have 100
      <li>[！UICONTROL保留] </li> 
      <li>[！UICONTROL完成] </li> 
      <li>[！UICONTROL廢棄]</li> 
-    </ul> <p>如需專案狀態的詳細資訊，請參閱 <a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/project-statuses.md">存取系統專案狀態清單</a>.</p>
+    </ul> <p>如需有關專案狀態的詳細資訊，請參閱 <a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/project-statuses.md">存取系統專案狀態清單</a>.</p>
     <p>對於工作，[！UICONTROL Status]是工作上的設定，指出工作是否為：</p> 
     <ul> 
      <li>[！UICONTROL新]</li> 
      <li>[！UICONTROL進行中]</li> 
      <li>[！UICONTROL完成]</li> 
-    </ul> <p>有關工作狀態的詳細資訊，請參閱 <a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/task-statuses.md">存取系統工作狀態清單</a></p> <p>對於問題，[！UICONTROL Status]是問題上的設定，可指出此問題是否為：</p> 
+    </ul> <p>如需有關工作狀態的詳細資訊，請參閱 <a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/task-statuses.md">存取系統工作狀態清單</a></p> <p>對於問題，[！UICONTROL Status]是問題的設定，可指出此問題是否為：</p> 
     <ul> 
      <li>[！UICONTROL新]</li> 
      <li>[！UICONTROL進行中]</li> 
@@ -2052,7 +2054,7 @@ The designated full time equivalency for users. A full-time user should have 100
   </tr> 
   <tr> 
    <td>[！UICONTROL狀態變更]</td> 
-   <td>[！UICONTROL稽核軌跡]。 當使用者變更專案、任務或問題的狀態時，會產生附註。</td> 
+   <td>[！UICONTROL稽核軌跡]。 當使用者變更專案、任務或問題的狀態時會產生附註。</td> 
   </tr> 
   <tr> 
    <td>狀態圖示</td> 
@@ -2078,8 +2080,8 @@ The designated full time equivalency for users. A full-time user should have 100
   </tr> 
   <tr> 
    <td>[！UICONTROL狀態更新]</td> 
-   <td> <p>此欄位顯示'[！UICONTROL Update Status]'欄位中物件擁有者提供的最新狀態更新。 對於專案，這表示專案擁有者所做的評論；對於任務和問題，這表示受指派者所做的評論。</p> 
-   <p> 對狀態更新所做的評論不會顯示在[！UICONTROL狀態更新]欄中。</p> <p>若要顯示'[！UICONTROL New]、' '[！UICONTROL In Process]，'和'[！UICONTROL Complete]'狀態，請使用[！UICONTROL Status]資料行。</p> <p>如需狀態的詳細資訊，請參閱文章 <a href="../../../manage-work/projects/updating-work-in-a-project/update-task-status.md" class="MCXref xref">更新任務狀態</a>.</p> </td> 
+   <td> <p>在專案、任務或問題報告中，此欄位會顯示物件擁有者在「[！UICONTROL更新]」區域中提供的最新狀態更新。 對於專案，這表示專案所有者所做的評論；對於任務和問題，這表示受指派人所做的評論。</p> 
+   <p> 更新物件狀態時所做的註解不會顯示在[！UICONTROL狀態更新]欄中。</p> <p>若要顯示'[！UICONTROL New]、' '[！UICONTROL In Process]，'和'[！UICONTROL Complete]'狀態，請使用[！UICONTROL Status]資料行。</p> <p>如需狀態的詳細資訊，請參閱文章 <a href="../../../manage-work/projects/updating-work-in-a-project/update-task-status.md" class="MCXref xref">更新任務狀態</a>.</p> </td> 
   </tr> 
   <tr> 
    <td>[！UICONTROL狀態]</td> 
@@ -2140,7 +2142,7 @@ The designated full time equivalency for users. A full-time user should have 100
   </tr> 
   <tr> 
    <td>[！UICONTROL任務屬性]</td> 
-   <td>與「任務」相關聯並指示有關「任務」之特定詳細資訊的其他欄位或物件。 [！UICONTROL規劃完成日期]和[！UICONTROL狀態]即是其中一例。</td> 
+   <td>與任務相關聯並指示任務特定詳細資訊的其他欄位或物件。 [！UICONTROL規劃完成日期]和[！UICONTROL狀態]即是其中一例。</td> 
   </tr> 
   <tr> 
    <td>[！UICONTROL任務限制]</td> 
@@ -2169,7 +2171,7 @@ The designated full time equivalency for users. A full-time user should have 100
   </tr> 
   <tr> 
    <td>[！UICONTROL範本任務]</td> 
-   <td>屬於範本一部分的任務。 範本任務成為使用範本建立的專案中的任務。</td> 
+   <td>屬於範本一部分的任務。 範本任務會成為使用範本建立的專案中的任務。</td> 
   </tr> 
   <tr> 
    <td>[！UICONTROL執行緒]</td> 
@@ -2205,9 +2207,9 @@ The designated full time equivalency for users. A full-time user should have 100
   </tr> 
   <tr> 
    <td>[！UICONTROL追蹤模式]</td> 
-   <td> <p>任務的屬性。 這會決定如何更新「任務」的「預計」時間表，然後再更新。 例如：</p> 
+   <td> <p>任務的屬性。 這會決定如何以及何時為任務更新預計時間表。 例如：</p> 
     <ul> 
-     <li>[！UICONTROL使用者必須更新]要求手動更新任務。 否則，它將變成[！UICONTROL落後於排程]，然後變成[！UICONTROL延遲]。</li> 
+     <li>[！UICONTROL使用者必須更新]需要手動更新工作。 否則，它將變成[！UICONTROL落後於排程]，然後變成[！UICONTROL延遲]。</li> 
      <li>[！UICONTROL自動完成]將在到期日或[！UICONTROL規劃完成日期]過後自動完成任務。</li> 
     </ul> <p>如需詳細資訊，請參閱 <a href="../../../manage-work/tasks/task-information/task-tracking-mode.md" class="MCXref xref">任務追蹤模式概觀</a>.</p> </td> 
   </tr> 
@@ -2225,7 +2227,7 @@ The designated full time equivalency for users. A full-time user should have 100
   </tr> 
   <tr> 
    <td>[！UICONTROL更新型別]</td> 
-   <td> <p>專案上決定重新計算專案預計時間表時間的設定。 選項包括：</p> 
+   <td> <p>專案上決定重新計算專案預計時間表時間的設定。 [！UICONTROL更新型別]可以有下列值：</p> 
     <ul> 
      <li>[！UICONTROL Automatic and On Change]</li> 
      <li>[！UICONTROL Automatic Only]</li> 
@@ -2282,7 +2284,8 @@ The designated full time equivalency for users. A full-time user should have 100
    </tr> 
   <tr> 
    <td>[！UICONTROL檢視]</td> 
-   <td> <p>檢視可用於修改報告或專案、任務或問題清單中的欄，或者可用於指示使用者僅有權檢視存取層級或許可權共用層級的資訊。</p> </td> 
+   <td> <p>檢視參考報表元素，可讓您修改報表或物件清單中的欄。</p> 
+   <p> 檢視也指使用者根據其存取層級或物件的許可權共用層級，僅檢視物件資訊的權利。</p> </td> 
   </tr> 
   <tr> 
    <td>[！UICONTROL檢檢視示]</td> 
@@ -2320,7 +2323,7 @@ The designated full time equivalency for users. A full-time user should have 100
   <td> <code>[!UICONTROL width]</code>
   </td>
 <td> 在報表中使用[！UICONTROL文字模式]介面時，您可以在其中指定每欄寬度（以畫素為單位）的程式碼行。 Workfront會提供每個欄位的建議寬度，不過根據欄位型別和格式，您可能想要進行調整。
-您必須使用 <code>[!UICONTROL usewidths=true]</code> 程式碼行，強制使用為欄指定的寬度。 
+您必須使用 <code>[!UICONTROL usewidths=true]</code> 用於強制實施為欄指定的寬度的程式碼行。 
   </td>
 
 </tr>
@@ -2336,7 +2339,7 @@ The designated full time equivalency for users. A full-time user should have 100
   </tr> 
   <tr> 
    <td>[！UICONTROL作品]</td> 
-   <td> <p>兩種主要授權型別之一。 這比[！UICONTROL Plan]具有更少的存取權，但可以在系統中建立和進行更新。 這比[！UICONTROL External]、[！UICONTROL Reviewer]或[！UICONTROL Requester]授權型別更具能力。</p> <p>如需詳細資訊，請參閱 <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">[!DNL Adobe Workfront] 授權總覽</a>.</p> <p>工作可能指專案、任務或問題的[！UICONTROL計畫時數]。 如需詳細資訊，請參閱此表格中的「[！UICONTROL工作]」欄位。 </p> <p>提示：在問題報告中，新增其中一個[！UICONTROL規劃時數]欄位會新增 <code>work </code>欄位至報表。 </p> </td> 
+   <td> <p>兩種主要授權型別之一。 這比[！UICONTROL Plan]具有更少的存取權，但可以在系統中建立和進行更新。 擁有工作授權的使用者擁有的能力比[！UICONTROL External]、[！UICONTROL Reviewer]或[！UICONTROL Requester]授權擁有者強。</p> <p>如需詳細資訊，請參閱 <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">[!DNL Adobe Workfront] 授權總覽</a>.</p> <p>工作可能指專案、任務或問題的[！UICONTROL計畫時數]。 如需詳細資訊，請參閱此表格中的「[！UICONTROL工作]」欄位。 </p> <p><b>秘訣</b></p> <p> 在問題報告中，新增其中一個[！UICONTROL規劃時數]欄位會新增 <code>work </code>欄位至報表。 </p> </td> 
   </tr> 
   <tr> 
    <td>[！UICONTROL工作分解結構]</td> 
@@ -2347,7 +2350,7 @@ The designated full time equivalency for users. A full-time user should have 100
    <td> 
     <p>專案經理可能會決定使用此欄位而不是[！UICONTROL計畫時數]來預估完成任務所需的工作。 只有在符合下列條件時，才會顯示此欄位：</p> 
      <ul> 
-      <li> <p>任務具有[！UICONTROL簡單期間型別]。 </p> <p>提示：如果您將任務[！UICONTROL期間型別]更新為任何其他型別，此欄位將會隱藏。 </p> </li> 
+      <li> <p>任務具有[！UICONTROL簡單期間型別]。 </p> <p><b>秘訣</b></p> <p> 如果您將任務[！UICONTROL期間型別]更新為任何其他型別，此欄位將會隱藏。 </p> </li> 
       <li>專案經理已啟用[！UICONTROL使用工時]自動計算專案上的任務[！UICONTROL計畫時數]欄位。 </li> 
      </ul> 
      <p>如需有關使用[！UICONTROL工作量]而非[！UICONTROL計畫時數]來預估工作量的資訊，請參閱 <a href="../../../manage-work/tasks/task-information/work-effort.md" class="MCXref xref">工作投入概觀</a>. </p> 
