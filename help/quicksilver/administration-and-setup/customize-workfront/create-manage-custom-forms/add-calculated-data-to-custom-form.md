@@ -8,9 +8,9 @@ author: Caroline
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 9174c4ef-3beb-4d47-9c5c-363f52105a2c
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+source-git-commit: 32966d4732221d73aa3397771e157b630f7d5760
 workflow-type: tm+mt
-source-wordcount: '2573'
+source-wordcount: '2582'
 ht-degree: 0%
 
 ---
@@ -122,7 +122,7 @@ ht-degree: 0%
    >
    >在此範例中， `SUB` 是運算式，而參考欄位為 `actualRevenue` 和 `actualCost`.
 
-   計算通常以運算式開始，後面接著括弧，其中包含當自訂表單附加至物件時要參考的欄位。 如需可用運算式的詳細資訊，請參閱 [計算的資料運算式](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
+   計算通常以運算式開始，後面接著括弧，其中包含當自訂表單附加至物件時要參考的欄位。 如需可用運算式的詳細資訊，請參閱 [計算資料運算式的概觀](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
 
    每個欄位都必須以大括弧括住，如區段中所述 [計算自訂欄位中所需的語法](#syntax-required-in-calculated-custom-fields) 本文章內容。 當您開始輸入欄位名稱時，系統會提供建議，您可以選取一個來將其插入計算。
 
@@ -138,7 +138,7 @@ ht-degree: 0%
    >
    >您可以執行下列任一項作業，以取得計算的協助：
    > 
-   >* 將滑鼠指標暫留在計算中的運算式上可檢視說明、示範其使用方式的範例，以及文章中其他資訊的「瞭解更多」連結 [計算的資料運算式](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
+   >* 將滑鼠指標暫留在計算中的運算式上可檢視說明、示範其使用方式的範例，以及文章中其他資訊的「瞭解更多」連結 [計算資料運算式的概觀](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
    >  ![](assets/hover-expression-help-text.jpg)
    >* 使用顏色編碼來識別您新增的元件。 運算式會以藍色顯示，而欄位則會以綠色顯示。
    >  ![](assets/colors-fields-expressions.jpg)
@@ -261,7 +261,7 @@ ht-degree: 0%
 
 >[!INFO]
 >
->**範例:**
+>**範例：**
 >
 >在設定為與Task物件型別搭配使用的自訂表單中，您會建立名為「負責」的計算自訂欄位。 您可將其設定為參考內建欄位，以便在表單附加至任務時，顯示負責的主要受指派人名稱：
 >

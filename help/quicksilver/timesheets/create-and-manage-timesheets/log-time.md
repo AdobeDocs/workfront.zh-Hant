@@ -7,9 +7,9 @@ author: Alina
 feature: Timesheets
 role: User
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: edd4aa9556b624de3634af26d6d9efd59f5d2e44
+source-git-commit: 32966d4732221d73aa3397771e157b630f7d5760
 workflow-type: tm+mt
-source-wordcount: '3491'
+source-wordcount: '3496'
 ht-degree: 0%
 
 ---
@@ -107,7 +107,7 @@ ht-degree: 0%
 
 您可以在Workfront中的下列區域記錄時間：
 
-* [時程表](#timesheet)
+* [時間表](#timesheet)
 * [首頁](#home)
 * [專案、任務或問題](#project-task-or-issue)
 * [摘要面板](#summary-panel)
@@ -139,7 +139,7 @@ ht-degree: 0%
 1. 按一下 [!UICONTROL **主要功能表**] 圖示 ![](assets/main-menu-icon.png) 位於右上角，或 **主要功能表** 圖示 ![](assets/lines-main-menu.png) （如果有的話）在Workfront左上角。
 
 1. 按一下 [!UICONTROL **時間表**]. 依預設會顯示您目前的時程表。
-   ![時程表](assets/timesheet-redesigned-nwe.png)
+   ![時間表](assets/timesheet-redesigned-nwe.png)
 
 
 1. （可選）按一下 **全熒幕** 圖示 ![](assets/full-screen.png) 以全熒幕模式顯示時程表，然後按一下 **退出全熒幕** ![](assets/exit-full-screen.png) 圖示返回時程表。
@@ -351,7 +351,7 @@ ht-degree: 0%
 如需使用「首頁」區域的一般資訊，請參閱下列章節：
 
 * 如需有關使用舊版「首頁」區域的資訊，請參閱 [使用首頁區域](../../workfront-basics/using-home/using-the-home-area/use-the-home-area.md).
-* 如需有關使用新「首頁」區域的資訊，請參閱 [開始使用Adobe Workfront中的新首頁](../../workfront-basics/using-home/new-home/get-started-with-new-home.md).
+* 如需有關使用新「首頁」區域的資訊，請參閱 [開始使用新首頁](../../workfront-basics/using-home/new-home/get-started-with-new-home.md).
 
 #### 從新的首頁區域在工作專案上記錄時間
 

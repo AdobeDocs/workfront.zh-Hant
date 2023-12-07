@@ -3,13 +3,13 @@ content-type: overview
 product-area: projects
 navigation-topic: use-predecessors
 title: 前置任務概觀
-description: 前置任務是指另一個任務（稱為後置任務或相依任務）所依賴的任務。 Adobe Workfront支援五種型別的前置任務相依性。
+description: 前置任務是另一個任務（稱為後置任務或相依任務）所依賴的任務。 Adobe Workfront支援五種型別的前置任務相依性。
 author: Alina
 feature: Work Management
 exl-id: b2020a50-0921-4ed2-8a34-1a0411992b99
-source-git-commit: 5db9a4869e1321bd268e80f786d157fbb41c0656
+source-git-commit: 32966d4732221d73aa3397771e157b630f7d5760
 workflow-type: tm+mt
-source-wordcount: '1107'
+source-wordcount: '1190'
 ht-degree: 0%
 
 ---
@@ -20,17 +20,17 @@ ht-degree: 0%
 
 CONTEXT SENSITIVE HELP article. DO NOT CHANGE THE NAME OF THE ARTICLE/ DO NOT MOVE OR DELETE! -->
 
-前置任務是指另一個任務（稱為後置任務或相依任務）所依賴的任務。 Adobe Workfront支援五種型別的前置任務相依性。 若要瞭解前置任務相依性，請參閱 [作業相依性型別的概要](../../../manage-work/tasks/use-prdcssrs/task-dependency-types.md).
+前置任務是另一個任務（稱為後置任務或相依任務）所依賴的任務。 Adobe Workfront支援五種型別的前置任務相依性。 若要瞭解前置任務相依性，請參閱 [作業相依性型別的概要](../../../manage-work/tasks/use-prdcssrs/task-dependency-types.md).
 
 ## 前置任務概觀
 
 瞭解前置任務功能對於瞭解專案中的時間表非常重要。
 
-任務之間的前置任務關係存在於單一專案中以及跨多個專案中。
+任務前置任務關係存在於單一專案中的任務之間以及不同專案中的任務之間。
 
-在多專案相依性的情況下，您可以建立跨專案前置任務。
+在多專案相依性的情況下，您可以在來自兩個不同專案的任務之間建立跨專案前置任務。
 
-不論前置任務和後續任務屬於相同專案還是兩個不同專案，相依性和時間軸的計算方式都相同。
+不論前置任務和後續任務屬於同一專案還是屬於兩個不同的專案，每個專案的相依性和時間表的計算方式都相同。
 
 關於前置任務，專案時間表受下列影響：
 
@@ -38,15 +38,19 @@ CONTEXT SENSITIVE HELP article. DO NOT CHANGE THE NAME OF THE ARTICLE/ DO NOT MO
 * 延遲值與型別\
   如需相依性和延遲的詳細資訊，請參閱 [任務清單中的前置任務值範例](#examples-of-predecessor-values-in-a-task-list).
 
-例如，如果任務A是完成 — 開始關係中任務B的前置任務，而任務B具有儘快的任務限制，則Workfront會在任務A的計畫完成日期之後立即指派任務B的計劃開始日期，無論前置任務是否已強制執行。
+  例如，如果任務A是完成 — 開始關係中任務B的前置任務，而任務B具有儘快的任務限制，則Workfront會在任務A的計畫完成日期之後立即指派任務B的計劃開始日期，無論前置任務是否已強制執行。
 
 若要瞭解前置任務關係，您必須瞭解：
 
 * **相依性型別：** 前置任務由各種相依性型別連結。 如需相依性型別的詳細資訊，請參閱 [作業相依性型別的概要](../../../manage-work/tasks/use-prdcssrs/task-dependency-types.md).
 
-* **強制前置任務：** 強制前置任務時，前置任務完成後才能開始後續任務。 後續任務會在前置任務完成後立即顯示為「開始」。
+* **強制前置任務：** 強制實施前置任務時，前置任務完成之前後置任務絕對不能開始。 後續任務會在前置任務完成後立即顯示為「開始」。
 
-  在前置任務完成之前，Workfront不允許將其標籤為進行中或完成。 但是，Workfront允許針對任務報告時數。\
+  當前置任務未完成（或已開始）且未強制執行時，後續任務可以開始，但專案時間表仍受前置任務和後續任務日期的影響。
+
+  如果有強制的前置任務，Workfront不允許在前置任務完成之前，將後續任務標示為「進行中」或「完成」。
+
+  但是，Workfront允許針對任務報告時數。\
   如需強制前置任務的詳細資訊，請參閱 [強制執行前置任務](../../../manage-work/tasks/use-prdcssrs/enforced-predecessors.md).
 
 * **延遲：** 您可以在相依性中建立延遲，這會造成前置任務完成後以及後續任務開始之前必須發生的延遲。 延遲會影響專案的時間表。
@@ -104,7 +108,7 @@ CONTEXT SENSITIVE HELP article. DO NOT CHANGE THE NAME OF THE ARTICLE/ DO NOT MO
 
   >[!NOTE]
   >
-  >強制值(**è**)必須新增至延遲，而非前置任務。
+  >您必須新增強制值(**è**)，而不是前置任務。
 
 * **4515:2** 前置任務編號為2。  — 這是專案中前置任務的「完成開始」、非強制相依性及參考編號 **4515**.
 

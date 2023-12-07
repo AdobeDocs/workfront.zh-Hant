@@ -8,9 +8,9 @@ author: Courtney
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 407aae49-4bc3-4364-a794-7e170a57a6d3
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+source-git-commit: 32966d4732221d73aa3397771e157b630f7d5760
 workflow-type: tm+mt
-source-wordcount: '2317'
+source-wordcount: '2319'
 ht-degree: 0%
 
 ---
@@ -237,7 +237,7 @@ ht-degree: 0%
 
         >[!INFO]
         >
-        >**範例:**
+        >**範例：**
         >
         >在設定為處理專案、任務和問題的自訂表單中，您可以使用以下公式來顯示物件型別：
         >
@@ -281,7 +281,7 @@ ht-degree: 0%
       >
       >您可以執行下列任一項作業，以取得計算的協助：
       > 
-      >* 將滑鼠指標暫留在計算中的運算式上可檢視說明、示範其使用方式的範例，以及文章中其他資訊的「瞭解更多」連結 [計算的資料運算式](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
+      >* 將滑鼠指標暫留在計算中的運算式上可檢視說明、示範其使用方式的範例，以及文章中其他資訊的「瞭解更多」連結 [計算資料運算式的概觀](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
       >  ![](assets/hover-expression-help-text.jpg)
       >* 使用顏色編碼來識別您新增的元件。 運算式會以藍色顯示，而欄位則會以綠色顯示。
       >  ![](assets/colors-fields-expressions.jpg)
