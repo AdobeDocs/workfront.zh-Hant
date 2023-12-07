@@ -6,7 +6,7 @@ description: Adobe Workfront增強型分析區域中的篩選器可幫助您專�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 25854c04-d914-4302-a36b-e8134637efe1
-source-git-commit: 4ade799ff735183f83f045e7eaa876961d266208
+source-git-commit: 2f6664aefd664e1275648abd6f7e41b1d545b9e7
 workflow-type: tm+mt
 source-wordcount: '1508'
 ht-degree: 0%
@@ -28,9 +28,6 @@ Adobe Workfront增強型分析區域中的篩選器可幫助您專注於特定�
 您必須具有下列存取權才能執行本文中的步驟：
 
 <table style="table-layout:auto"> 
- <caption style="text-align: left;">
-  *若要瞭解您擁有的計畫、授權型別或存取權，請聯絡您的Workfront管理員。
- </caption> 
  <col> 
  <col> 
  <tbody> 
@@ -50,15 +47,17 @@ Adobe Workfront增強型分析區域中的篩選器可幫助您專注於特定�
    </td> 
   </tr>
   <tr> 
-   <td><b>存取層級*</b> </td> 
+   <td>存取層級* </td> 
    <td> <p>檢視專案的存取權</p> <p>您也必須擁有「任務」、「Portfolio」和「使用者」的「檢視」存取權，才能檢視特定專案欄位篩選選項。</p> <p>注意：如果在「編輯存取層級」對話方塊的「設定其他限制」區段中選取限制，則套用篩選後，您可能無法在篩選或「增強分析」頁面上看到所有資訊。 如需有關Workfront管理員如何變更您的存取層級的資訊，請參閱 <a href="../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td> <p><b>物件許可權</b> </p> </td> 
+   <td> <p>物件許可權 </p> </td> 
    <td> <p>檢視</p> <p>如需請求其他存取許可權的詳細資訊，請參閱 <a href="../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">要求物件的存取權 </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
+
+&#42;若要瞭解您擁有的計畫、授權型別或存取權，請聯絡您的Workfront管理員。
 
 ## 必要條件
 

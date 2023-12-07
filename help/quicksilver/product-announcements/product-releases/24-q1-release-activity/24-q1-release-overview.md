@@ -4,9 +4,9 @@ description: 2024年第一季版本總覽
 author: Becky
 feature: Product Announcements
 exl-id: 2ad9e170-9e63-472a-8476-13f81b7abff3
-source-git-commit: e46a471ce0d2d7c3a6a95cfc056516555628c150
+source-git-commit: 45c82f659d02dca69d2a2c390b084330773d4252
 workflow-type: tm+mt
-source-wordcount: '899'
+source-wordcount: '941'
 ht-degree: 0%
 
 ---
@@ -17,10 +17,7 @@ ht-degree: 0%
 
 此頁面上的增強功能可在預覽環境中取得。 2024年第一季版本接近其計畫生產版本時，此頁面將透過其他增強功能進行更新。
 
-
-<!-- Keep commented until Final Preview release.
-
-The <add release> release webinar will be held on <date>. You can [register for the webinar here <get link from product ops>. -->
+24.1版本網路研討會將於2024年1月11日舉行。 您可以 [在這裡報名參加網路講座](https://webinars.on24.com/adobe_workfront/whatsnewin241?partnerref=releaseoverview).
 
 <span class="preview">非週期功能（在2024年第一季度發行日期之前發佈到生產環境的功能）會以黃色醒目提示。</span>
 
