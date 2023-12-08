@@ -8,10 +8,10 @@ author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: c81e485a-7e8c-4907-8e6c-9991681c3541
-source-git-commit: 48f46abab1958325aba6832b85247dc2c80f4e80
+source-git-commit: 8f8a274eb872f78f888cf76b2d5fd3d39c6d6223
 workflow-type: tm+mt
-source-wordcount: '1380'
-ht-degree: 2%
+source-wordcount: '1382'
+ht-degree: 1%
 
 ---
 
@@ -23,17 +23,13 @@ ht-degree: 2%
 
 ## 任務期間概觀
 
->[!NOTE]
->
->若將專案的主要受指派人休假列入考量，任務的計畫日期可能會調整，但任務的期間保持不變。 如需有關在計畫專案時考慮主要受指派人休假的資訊，請參閱  [設定全系統專案偏好設定](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
-
 如果任務的「實際開始日期」與「實際完成日期」在專案、主要受指派人或預設排程的排程之外，則任務「工期」為零。
 
 **範例：** 如果您的排程從上午9:00開始，到中午12:00結束，而任務的排程從下午2:00開始，到下午4:00結束，則任務的「工期」為零。
 
-以下是在Adobe Workfront中計算持續時間時存在的兩種情況。
+在Adobe Workfront中計算持續時間時，有兩種情況存在：
 
-* 如果任務指派給使用者，Workfront會依此確切順序使用下列其中一個排程，以計算「工期」：
+* 如果任務指派給使用者Workfront，會依此精確順序使用下列其中一個排程來計算工期：
 
    1. Workfront會考慮使用者的排程。
    1. 如果使用者未關聯排程，Workfront會考慮專案的排程。
@@ -41,11 +37,15 @@ ht-degree: 2%
 
 * 如果任務指派給多個使用者：
 
-  Workfront會考慮專案或主要受指派人的排程。
+   1. Workfront會考慮專案或主要受指派人的排程。
 
   當任務指派給多個使用者時，您的Workfront管理員會決定Workfront使用的排程。 如需詳細資訊，請參閱 [設定全系統專案偏好設定](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
   這些步驟類似於瞭解Workfront使用哪個排程來計算持續時間後的第一個案例。
+
+>[!NOTE]
+>
+>若將專案的主要受指派人休假列入考量，任務的計畫日期可能會調整，但任務的期間保持不變。 如需有關在計畫專案時考慮主要受指派人休假的資訊，請參閱  [設定全系統專案偏好設定](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
 ## 任務期間的時間單位
 
@@ -57,7 +57,7 @@ ht-degree: 2%
 |---|---|
 | 分鐘 | 一 |
 | 時數 | H |
-| 天. 這是預設值。 | D |
+| 天。 這是預設值。 | D |
 | 週 | 週 |
 | 個月 | T |
 | 經過的分鐘數 | EM |
@@ -94,7 +94,7 @@ ht-degree: 2%
 * 這項工作有多大？
 * 需要多久？
 
-![duration_type_triangle.png](assets/duration-type-triangle-350x245.png)
+![duration_type_triangle.png](assets/duration_type_triangle.png)
 
 ## 定義期間型別
 
@@ -104,8 +104,8 @@ ht-degree: 2%
  <col> 
  <thead> 
   <tr> 
-   <th scope="row">期間類型 </th> 
-   <th scope="col"> <p><strong>函數</strong> </p> </th> 
+   <th scope="row"><p><strong>期間類型</strong></p></th> 
+   <th scope="col"> <p><strong>函式</strong> </p> </th> 
    <th scope="col"> <p><strong>資源如何影響</strong> </p> </th> 
   </tr> 
  </thead> 
@@ -121,7 +121,7 @@ ht-degree: 2%
    <td scope="col"> <p>當受指派人新增至任務時，計畫時數會增加。 </p> <p>當受指派人從任務中移除時，計畫時數便會減少。</p> </td> 
   </tr> 
   <tr> 
-   <th scope="col"> <p>投入比導向</p> </th> 
+   <th scope="col"> <p><strong>投入比導向</strong></p> </th> 
    <td scope="col"> <p>根據資源數量決定計畫時數。</p> <p>選擇此「期間型別」時，您就可以為任務輸入個別期間。 Workfront計算任務的「計畫時數」，方法是將「工期」中的天數乘以排程中的工作時數，再除以任務的受指派人數。 </p> <p>您可以手動變更每個受指派人至任務的配置百分比，但計畫時數保持不變。</p> <p>如需詳細資訊，請參閱 <a href="../../../manage-work/tasks/taskdurtn/effort-driven.md" class="MCXref xref">期間型別概觀：投入比導向</a>.</p> </td> 
    <td scope="col"> <p>當受指派人從任務中移除時，計畫時數會增加。</p> <p>當受指派人新增至任務時，計畫時數便會減少。 </p> <p>期間不會變更，無論受指派人數或其排程有何變更。 </p> <p>期間等於計畫時數。 計畫期間等於計畫時數除以受指派人數。</p> </td> 
   </tr> 

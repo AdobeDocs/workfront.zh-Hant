@@ -2,20 +2,20 @@
 product-area: workfront-integrations
 navigation-topic: workfront-for-outlook
 title: 設定 [!DNL Adobe Workfront] 的 [!DNL Outlook]
-description: Adobe Workfront Fusion可與Outlook整合。 本文說明如何在您自己的工作流程中開始使用此整合。
+description: 此 [!DNL Adobe Workfront] [!DNL Outlook] 增益集可讓您執行金鑰 [!DNL Workfront] 直接從Outlook執行工作。
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 57f0560b-68c2-4654-863e-bd728e76da29
-source-git-commit: a1569362dee8cd686a91698af3c9c217e920c263
+source-git-commit: fe370eee9e1fa53edc615f82ece8bc46a9cdb0ce
 workflow-type: tm+mt
-source-wordcount: '748'
+source-wordcount: '726'
 ht-degree: 0%
 
 ---
 
 # 設定 [!DNL Adobe Workfront for Outlook]
 
-此 [!DNL Adobe Workfront] [!DNL Outlook] 增益集可讓您進行下列工作 [!DNL Workfront] 直接從Outlook執行工作：
+此 [!DNL Adobe Workfront] [!DNL Outlook] 增益集可讓您執行下列索引鍵 [!DNL Workfront] 直接從Outlook執行工作：
 
 * 使用電子郵件中的資訊更新現有的專案、任務或問題。 如需詳細資訊，請參閱 [從更新現有物件 [!DNL Outlook] 電子郵件](../../workfront-integrations-and-apps/using-workfront-with-outlook/update-an-existing-object-from-an-outlook-email.md).
 * 建立 [!DNL Workfront] 根據中的電子郵件提出請求 [!DNL Outlook]. 如需詳細資訊，請參閱 [從建立Adobe Workfront請求 [!DNL Outlook] 電子郵件](../../workfront-integrations-and-apps/using-workfront-with-outlook/create-a-wf-request-from-an-outlook-email.md).
@@ -41,12 +41,11 @@ ht-degree: 0%
    <td role="rowheader">[!DNL Adobe Workfront] 計畫*</td> 
    <td> <p>任何</p> </td> 
   </tr> 
-  <tr>
-   <td role="rowheader">Adobe Workfront授權*</td> 
-   <td> <p>新計畫：標準 </p>
- <p>或</p> 
-<p>目前計畫： [！UICONTROL Work]， [！UICONTROL Plan] </p> 
-  </td> 
+  <tr> 
+   <td role="rowheader">[!DNL Adobe Workfront] 授權*</td> 
+   <td> 
+   <p>新計畫： [！UICONTROL Standard]</p> 
+   <p>目前計畫：[！UICONTROL Work]， [！UICONTROL Plan]</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -71,7 +70,7 @@ ht-degree: 0%
 
 ### 使用者端需求 {#client-requirements}
 
-我們支援以下版本的 [!DNL Outlook]：
+Workfront支援下列版本 [!DNL Outlook]：
 
 * [!DNL Outlook 2013] 或稍後 [!DNL Windows]
 *[!DNL  Outlook 2016] 或稍後 [!DNL Windows]
@@ -91,7 +90,7 @@ ht-degree: 0%
 
 當您連線到時，預設會符合郵件伺服器需求 [!DNL Office 365] 或 [!DNL Outlook.com]. 不過，如果您已連線至內部部署安裝， [!DNL Exchange Server]，則適用下列要求：
 
-* 我們支援所有 [!DNL Exchange On-Premise] 伺服器
+* Workfront支援所有 [!DNL Exchange On-Premise] 伺服器
 * [!DNL Exchange Web Services] (EWS)必須已啟用，且必須公開至網際網路。
 * 伺服器必須具備有效的驗證憑證，伺服器才能核發有效的身分識別權杖。 全新安裝 [!DNL Exchange Server] 包含預設的驗證憑證。
 
@@ -103,11 +102,7 @@ ht-degree: 0%
 
 ## 安裝增益集
 
-如需關於設定的詳細資訊， [!DNL Workfront] 的增益集 [!DNL Outlook]，請參閱 [[!DNL Workfront]  — 合作工作管理。](https://appsource.microsoft.com/en-us/product/office/WA104380943?tab=Overview)
-
-* [[!DNL Workfront] 的 [!DNL Outlook 365]](#workfront-for-outlook-365-workfront-for-outlook-365)
-* [[!DNL Workfront] 的 [!DNL Outlook] 在網頁上](#workfront-for-outlook-on-the-web-workfront-for-outlook-on-the-web)
-* [[!DNL Workfront] 的 [!DNL Outlook] 於 [!DNL Windows] 或 [!DNL Mac]](#workfront-for-outlook-on-windows-or-mac-workfront-for-outlook-on-windows-or-mac)
+您可以從取得適用於Outlook的Workfront增益集 [Microsoft商店](https://appsource.microsoft.com/en-us/product/office/WA104380943?tab=Overview).
 
 ### [!DNL Workfront] 的 [!DNL Outlook 365] {#workfront-for-outlook-365}
 
