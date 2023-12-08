@@ -10,7 +10,7 @@ feature: System Setup and Administration
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: cdc0a2bb-f125-42b2-acab-c869bc71250c
-source-git-commit: 86a0a9ddf5be1515ed8f5c2a537b0e2ccd5a1b63
+source-git-commit: 7c1115065e4d2f4732b392336aed692c055ba97c
 workflow-type: tm+mt
 source-wordcount: '264'
 ht-degree: 0%
@@ -32,7 +32,7 @@ Workfront中的電子郵件（包括內部和外部電子郵件）是多樣且�
 * [Adobe Workfront中可用的事件通知](../../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md)
 * [解鎖或鎖定所有群組的事件通知設定](../../../administration-and-setup/manage-workfront/emails/unlock-configuration-of-event-notifications-for-groups.md)
 * [自訂事件通知的電子郵件主題](../../../administration-and-setup/manage-workfront/emails/custom-email-subjects-event-notification.md)
-* [修改使用者設定檔中的電子郵件通知設定](../../../administration-and-setup/manage-workfront/emails/modify-email-notification-settings-user-profiles.md)
+* [修改多位使用者的電子郵件通知設定](../../../administration-and-setup/manage-workfront/emails/modify-email-notification-settings-user-profiles.md)
 * [設定提醒通知](../../../administration-and-setup/manage-workfront/emails/set-up-reminder-notifications.md)
 * [將提醒通知附加至物件](../../../workfront-basics/using-notifications/attach-reminder-notification-object.md)
 * [設定自動提醒](../../../administration-and-setup/manage-workfront/emails/setting-up-automatic-reminders.md)

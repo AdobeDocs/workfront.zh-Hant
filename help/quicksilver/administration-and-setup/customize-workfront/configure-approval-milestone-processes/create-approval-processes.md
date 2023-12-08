@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration, Approvals
 role: Admin
 exl-id: 1709e285-51a5-49a1-a03a-743a334fbe4d
-source-git-commit: 3d4ba0396c5a59b1109ec70a6e85b77d0d093bf5
+source-git-commit: 7800211cedc91285a755d2783fff3324e5d16843
 workflow-type: tm+mt
-source-wordcount: '2227'
+source-wordcount: '2202'
 ht-degree: 1%
 
 ---
@@ -52,7 +52,10 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront授權*</td> 
-   <td>計劃</td> 
+   <td> <p>新計畫：標準 </p>
+ <p>或</p> 
+<p>目前計畫：計畫 </p> 
+</td> 
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定*</td> 
@@ -66,7 +69,7 @@ ht-degree: 1%
 
 ## 建立工作專案的系統層次或群組層次全域核准程式
 
-1. 按一下 **主要功能表** 圖示 ![](assets/main-menu-icon.png) (位於Adobe Workfront的右上角)，然後按一下 **設定** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. （視條件而定）如果您正在建立系統層級的核准程式，請按一下 **程式** > **核准** 在左側面板中。
 
@@ -78,7 +81,7 @@ ht-degree: 1%
    ![](assets/approvals-area-in-setup-processes.png)
    -->
 
-1. 按一下 **專案核准**， **任務核准**，或 **問題核准** 標籤，視您要建立的核准流程型別而定。
+1. 選擇 **專案核准**， **任務核准**，或 **問題核准** 標籤。
 
 1. 按一下 **建立核准流程**.
 1. 在顯示的方塊中指定下列資訊：
@@ -89,15 +92,15 @@ ht-degree: 1%
     <tbody> 
      <tr> 
       <td role="rowheader">核准流程名稱</td> 
-      <td>輸入核准流程的描述性名稱。 將核准流程套用至物件時，使用者可看見此名稱，如所述 <a href="../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md" class="MCXref xref">將新的或現有的核准流程與工作建立關聯</a>.</td> 
+      <td><p>輸入核准流程的描述性名稱。 將核准流程套用至物件時，使用者可看見此名稱，如所述 <a href="../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md" class="MCXref xref">將新的或現有的核准流程與工作建立關聯</a>.</p></td> 
      </tr> 
      <tr> 
       <td role="rowheader">說明</td> 
-      <td>輸入核准流程的說明。 這會顯示在 <b>核准</b> 中的區段 <b>設定</b> 核准流程名稱旁的區域。</td> 
+      <td><p>輸入核准流程的說明。 這會顯示在 <b>核准</b> 中的區段 <b>設定</b> 核准流程名稱旁的區域。</p></td> 
      </tr> 
      <tr> 
-      <td role="rowheader">為使用中</td> 
-      <td> <p>如果您希望其他使用者能夠將核准流程附加到他們建立的專案、任務和問題，請將此選項保持啟用。 </p> <p>此選項預設為啟用。</p> <p> 當您的組織不再需要使用核准流程，但您想要保留其使用的相關歷史資訊時，將核准流程標籤為非使用中會很有用。</p> </td> 
+      <td role="rowheader">已啟用</td> 
+      <td> <p>如果您希望其他使用者能夠將核准流程附加到他們建立的專案、任務和問題，請將此選項保持啟用。 </p> <p>此選項預設為啟用。</p> <p> 提示：當您的組織不再需要使用核准流程，但您想要保留其使用的相關歷史資訊時，將核准流程標籤為非使用中會很有用。</p> </td> 
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader">此核准流程能由以下人員使用 </td> 
@@ -143,7 +146,7 @@ ht-degree: 1%
    <p>將使用者新增為核准者時，請注意頭像、使用者的主要角色或其電子郵件地址，以區分具有相同名稱的使用者。 使用者必須至少與一個工作角色相關聯，才能在您新增時檢視該角色。</p>
       <p>您必須在存取層級中啟用檢視聯絡資訊設定，使用者才能檢視使用者的電子郵件。 如需詳細資訊，請參閱 <a href="../../add-users/configure-and-grant-access/grant-access-other-users.md">授予使用者存取許可權</a>. </p>
 
-   <p><b>附註</b>:
+   <p><b>注意</b>：
 
    將使用者、團隊或角色新增為核准者，並不會自動授予他們與該核准相關聯的物件許可權。 他們會在觸發核准步驟時獲得物件的許可權。 否則，物件必須先與他們共用，他們才能做出核准決定。 </p> <p>您也可以指定個人的角色，將個人指定為核准者。 例如，您可以將專案所有者、專案贊助者、Portfolio所有者、方案所有者或經理指派為核准者。 當您開始輸入時，這些選項會自動顯示。</p>
 
@@ -159,12 +162,12 @@ ht-degree: 1%
        </ul> <p> <img src="assets/approval-create-add-users-nwe-350x304.png" style="width: 350;height: 304;"> </p> </p> <p>您可以重複此程式，將多個核准者新增至階段。 單一階段可包含使用者、團隊和職務角色作為核准者的組合。 您可以新增到階段的核准者數量沒有限制。</p> <p><b>重要</b>：  <p>當您指派工作角色作為核准者時，與該工作角色相關聯且同樣位於專案團隊中的所有使用者都可以對核准做出決定。 </p> <p>當您將團隊指派為核准者時，該團隊中的任何使用者都可以對核准做出決定。 </p> <p>如需有關專案團隊的詳細資訊，請參閱 <a href="../../../manage-work/projects/planning-a-project/project-team-overview.md" class="MCXref xref">專案團隊概述</a>. 如需核准工作的詳細資訊，請參閱 <a href="../../../review-and-approve-work/manage-approvals/approving-work.md" class="MCXref xref">核准工作 </a>.</p> </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">僅需要一個決策</td> 
-      <td> <p>（只有在您將多個核准者新增至階段時才會顯示）如果階段上的任何核准者可以在此階段核准或拒絕工作專案，請選取此選項。 此動作允許工作專案離開階段。 </p> <p>如果未選取此選項，則所有已識別的核准者必須在專案離開階段之前，以任何順序核准或拒絕階段。 如果任一核准者拒絕該階段，則程式會中斷並重新開始，以便進行所需的變更。 然後核准者可以再次核准或拒絕階段。</p> <p>當團隊被指定為核准者時，團隊的任何成員都可以授予或拒絕階段。</p> </td> 
+      <td role="rowheader">只需要一個決定 <br> <br>（只有在您將多個核准者新增至階段時才會顯示） </td> 
+      <td> <p>如果階段中的任何一位核准者可以在此階段核准或拒絕工作專案，請選取此選項。 此動作允許工作專案離開階段。 </p> <p>如果未選取此選項，則所有已識別的核准者必須在專案離開階段之前，以任何順序核准或拒絕階段。 如果任一核准者拒絕該階段，則程式會中斷並重新開始，以便進行所需的變更。 然後核准者可以再次核准或拒絕階段。</p> <p>當團隊被指定為核准者時，團隊的任何成員都可以授予或拒絕階段。</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"> <p role="rowheader">新增階段</p> </td> 
-      <td>（可選）使用以上三列所述的選項，將另一個階段新增至路徑。 您可以視需要為路徑新增多個階段。</td> 
+      <td><p>（可選）使用以上三列所述的選項，將另一個階段新增至路徑。 您可以視需要為路徑新增多個階段。</p></td> 
      </tr> 
      <tr> 
       <td role="rowheader">選擇核准被拒絕時會發生的情況</p> </td> 
@@ -197,7 +200,11 @@ ht-degree: 1%
 
 ## 將核准流程與工作專案建立關聯
 
-當您想要建立工作專案（專案、任務或問題）的核准流程時，請先建立核准流程，然後再建立工作專案，然後您與您的使用者可以將核准流程與工作專案建立關聯。
+當您想要建立工作專案（專案、任務或問題）的核准流程時，
+
+1. 先建立核准流程
+1. 建立工作專案
+1. 將核准流程與工作專案建立關聯
 
 如需將核准程式與工作專案產生關聯的指示，請參閱 [將新的或現有的核准流程與工作建立關聯](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md).
 

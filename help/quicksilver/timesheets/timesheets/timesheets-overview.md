@@ -3,65 +3,30 @@ content-type: overview
 product-area: timesheets
 navigation-topic: timesheets-navigation-topic
 title: 時程表總覽
-description: 您可以使用時程表來追蹤您花在工作上的時間。 如需Adobe Workfront中時程表配置的相關資訊，請參閱瞭解時程表配置。
+description: 您可以使用時程表來追蹤Adobe Workfront內外您花在工作上的時間。
 author: Alina
 feature: Timesheets
 exl-id: 2174a879-4a19-4a0f-803a-f19a8909f227
-source-git-commit: 48f46abab1958325aba6832b85247dc2c80f4e80
+source-git-commit: e2db904bc5b4e3682421677b30b0187a6fff46d9
 workflow-type: tm+mt
-source-wordcount: '707'
+source-wordcount: '496'
 ht-degree: 0%
 
 ---
 
 # 時程表總覽
 
-您可以使用時程表來追蹤在Adobe Workfront中工作所花費的時間。
+您可以使用時程表來追蹤Adobe Workfront內外您花在工作上的時間。
 
-身為Workfront或群組管理員，您可以建立時程表並將其與使用者建立關聯。 如需關於建立時程表的資訊，請參閱 [建立和管理時程表](../create-and-manage-timesheets/create-and-manage-timesheets.md).
+您可以在工作專案上記錄專案時間，例如專案、任務和問題。 任務、問題和專案的登入時間會自動顯示在您的時程表中。
 
-時程表是類似格線的表格，會顯示工作專案與行事曆區域。 您可以記錄專案的時間，並將其與工作的執行日期建立關聯。 這會追蹤您在Workfront中的實際工作時間。 時程表中也有一個區域，可供您記錄非工作相關專案的時間，例如會議、訓練或外出時間。
+您也可以在一般時間下，將非工作相關專案（例如會議、培訓或離公司時間）的非專案時間直接記錄到您的時程表中。
 
-如需Adobe Workfront中時程表配置的相關資訊，請參閱 [瞭解時程表配置](../../timesheets/timesheets/timesheet-layout.md).
-
-![](assets/timesheet-example.png)
-
-您可以在Workfront中以多種方式記錄時間，通常是在專案、任務或執行工作問題的層級。 對照任務、問題和專案記錄的時間也會顯示在您的時程表中。
-
-您也可以在「一般時數」底下記錄非專案工作的時間。 一般小時時間只能在您的時程表中記錄。
-
-如需可以在Workfront中記錄時間位置的詳細資訊，請參閱 [記錄時間](../../timesheets/create-and-manage-timesheets/log-time.md).
+如需有關如何在Workfront中記錄時間的詳細資訊，請參閱 [記錄時間](../../timesheets/create-and-manage-timesheets/log-time.md).
 
 >[!TIP]
 >
->Workfront行動應用程式也可讓您發佈更新、變更記錄時間、輸入註解及關閉時程表。
-
-## 存取需求
-
-您必須具備下列專案才能執行本文所述的步驟：
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront計畫</td> 
-   <td> <p>任何</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront授權</td> 
-   <td> <p>計劃 </p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">存取層級設定*</td> 
-   <td> <p>您必須擁有時程表的管理存取權。 </p> <p>如需詳細資訊，請參閱 <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">授予使用者管理特定區域的存取權</a>.</p> <p><b>附註</b>
-
-如果您還是沒有存取權，請詢問您的Workfront管理員，他們是否在您的存取層級中設定其他限制。 如需有關Workfront管理員如何修改您的存取層級的資訊，請參閱 <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>.</p> </td>
-</tr> 
- </tbody> 
-</table>
-
-&#42;若要瞭解您擁有的計畫、授權型別或存取權，請聯絡您的Workfront管理員。
+>如果您是Workfront或群組管理員，可以建立時程表並將其與使用者建立關聯。 如需關於建立時程表的資訊，請參閱 [建立和管理時程表](../create-and-manage-timesheets/create-and-manage-timesheets.md).
 
 
 ## 瞭解專案時間與非專案時間
@@ -76,21 +41,21 @@ ht-degree: 0%
 
 * **非專案時間：** 直接在使用者時程表上。 如需如何在Workfront中追蹤時間的詳細資訊，請參閱   [記錄時間](../../timesheets/create-and-manage-timesheets/log-time.md).
 
-  在時程表中，資源可以記錄休假時數、病假時數、運輸時數、維修或維護裝置時數，或您希望建立的任何一般管理費用時數型別。
+  在時程表中，您可以記錄休假時數、病假時數、運輸時數、維修或維護裝置時數，或您希望建立的任何一般管理時數型別。
 
 ## 存取時程表區域中的時程表
 
-如需可記錄時間之Workfront所有區域的詳細資訊，請參閱 [記錄時間](../../timesheets/create-and-manage-timesheets/log-time.md).
+依預設，所有使用者都可以使用時程表區域。 Workfront管理員可視需要在版面配置範本中變更此設定。 如需詳細資訊，請參閱 [使用版面配置範本自訂主功能表](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).
 
 若要存取時程表：
 
-1. 按一下 **主要功能表** 圖示 ![](assets/dots-main-menu.png) 位於右上角，或 **主要功能表** 圖示 ![](assets/lines-main-menu.png) 在Workfront的左上角（如果有的話），按一下「時程表」。
+{{step1-to-timesheets}}
 
-   依預設，會顯示時程表區域，以及屬於您或您有權檢視的所有時程表顯示。
+您的所有時程表以及您預設有權顯示的時程表。 如需Adobe Workfront中時程表配置的相關資訊，請參閱 [瞭解時程表配置](../../timesheets/timesheets/timesheet-layout.md).
 
-   ![](assets/all-timesheets-list-nwe-350x68.png)
+![](assets/all-timesheets-list-nwe-350x68.png)
 
-1. 按一下右上角的以下選項之一，以顯示有限數量的時程表：
+1. 按一下右上角的以下選項之一，以顯示您的時程表：
 
    * **我的時間表** 以僅顯示您的時間表。
 
@@ -100,7 +65,6 @@ ht-degree: 0%
 
      ![](assets/timesheets-i-approve-list-with0filters-new-nwe-350x61.png)
 
-   此時會顯示經篩選的時程表清單。
 
 1. （選用）更新時程表清單頂端的檢視、篩選和群組。 如需詳細資訊，請參閱 [報表元素：篩選器、檢視和群組](../../reports-and-dashboards/reports/reporting-elements/reporting-elements-overview.md).
 
@@ -109,6 +73,3 @@ ht-degree: 0%
    每個時程表都會顯示您已記錄時間的所有任務、問題和專案。 時程表也會顯示最多45個指派給您的任務、問題或專案，其日期在時程表的時間範圍內，但您可能尚未記錄時間。
 
    如需詳細資訊，請參閱 [設定時程表和小時偏好設定](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
-
-
-

@@ -1,20 +1,20 @@
 ---
 content-type: reference
 navigation-topic: get-started-with-workfront
-title: 導覽 [!DNL Adobe Workfront]
+title: 「導覽 [!DNL Adobe Workfront]：文章索引」
 description: 請參閱這些文章以瞭解如何導覽Adobe Workfront並瞭解Workfront術語。
 feature: Get Started with Workfront
 author: Lisa
 recommendations: noDisplay, noCatalog
 exl-id: 2ee82e53-1cc3-4438-a325-8c2c4d4ca1fb
-source-git-commit: 48f46abab1958325aba6832b85247dc2c80f4e80
+source-git-commit: 396d273f6a2a61786f9f2afb9541065ae407bb45
 workflow-type: tm+mt
-source-wordcount: '109'
-ht-degree: 1%
+source-wordcount: '113'
+ht-degree: 0%
 
 ---
 
-# 導覽 [!DNL Adobe Workfront]
+# 導覽 [!DNL Adobe Workfront]：文章索引
 
 請參閱這些文章以瞭解如何導覽Adobe Workfront並瞭解Workfront術語。
 
@@ -22,7 +22,7 @@ ht-degree: 1%
 
 * [瞭解中的物件 [!DNL Adobe Workfront]](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)
 * [字彙表 [!DNL Adobe Workfront] 術語](../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md)
-* [[!DNL Adobe Unified Experience] 針對 [!DNL Workfront]](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md)
+* [[!DNL Adobe Unified Experience] 的 [!DNL Workfront]](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md)
 * [[!DNL Adobe Unified Experience] 常見問題集](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/unified-experience-faq.md)
 * [[!DNL Adobe Workfront] 搜尋](../../workfront-basics/navigate-workfront/search/search.md)
 * [中的最近專案與我的最愛 [!DNL Adobe Workfront]](../../workfront-basics/navigate-workfront/recent-and-favorites/recent-and-favorites.md)

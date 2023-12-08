@@ -4,9 +4,9 @@ description: 在22.2版本中，為管理自訂表單進行了以下重要增強
 author: Luke
 feature: Product Announcements, Custom Forms
 exl-id: 81568eab-8a65-4767-b8ab-fb9353a90bb6
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+source-git-commit: d8e3c2da7f8fcd062e1bf2bb5de43a6238f5eadd
 workflow-type: tm+mt
-source-wordcount: '1180'
+source-wordcount: '1186'
 ht-degree: 0%
 
 ---
@@ -56,7 +56,7 @@ ht-degree: 0%
 
 >[!INFO]
 >
->**範例:**
+>**範例：**
 >
 >某人提交內部IT請求（問題），並提供附加自訂表格中所需專案的詳細資訊。
 >
@@ -127,7 +127,7 @@ ht-degree: 0%
 
 如需將計算自訂欄位新增至自訂表單的說明，請參閱 [新增計算資料至自訂表單](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
 
-如需變數的詳細資訊，例如 `$$OBJCODE`，請參閱 [萬用字元篩選器變數](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
+如需變數的詳細資訊，例如 `$$OBJCODE`，請參閱 [萬用字元篩選器變數概觀](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
 
 ### 從自訂表單中刪除物件型別時請小心
 

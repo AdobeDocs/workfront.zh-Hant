@@ -5,9 +5,9 @@ description: 上方導覽列 — 顯示在熒幕上方的新欄位 [!DNL Adobe W
 feature: Get Started with Workfront
 author: Nolan
 exl-id: 6262d0ff-4be0-41ac-b2e7-5eaa6b2795dc
-source-git-commit: 7467e75cf468fa6a1dd14dbc0f4fdcda87de1b1e
+source-git-commit: 98d3240bb57ff10c7031eb324f3ce67c1bf6ac9e
 workflow-type: tm+mt
-source-wordcount: '642'
+source-wordcount: '644'
 ht-degree: 0%
 
 ---
@@ -121,7 +121,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td> <p class="bold">[！UICONTROL設定]</p> </td> 
-   <td> <p>按一下 <b>[！UICONTROL設定]</b> 帶您前往[！UICONTROL設定]區域，您可在此設定您的 [!DNL Workfront] 帳戶。 根據您的存取設定，您可以設定的內容可能會受到限制。</p> <p>如需[！UICONTROL Setup]區域的詳細資訊，請參閱 <a href="../../administration-and-setup/administration-and-setup.md" class="MCXref xref">管理和設定</a>.</p> </td> 
+   <td> <p>按一下 <b>[！UICONTROL設定]</b> 帶您前往[！UICONTROL設定]區域，您可在此設定您的 [!DNL Workfront] 帳戶。 根據您的存取設定，您可以設定的內容可能會受到限制。</p> <p>如需[！UICONTROL Setup]區域的詳細資訊，請參閱 <a href="../../administration-and-setup/administration-and-setup.md" class="MCXref xref">管理和設定：文章索引</a>.</p> </td> 
   </tr> 
   <tr> 
    <td> <p class="bold">[！UICONTROL說明]</p> </td> 

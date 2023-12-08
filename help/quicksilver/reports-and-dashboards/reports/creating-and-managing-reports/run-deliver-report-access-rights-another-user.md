@@ -1,153 +1,157 @@
 ---
 product-area: reporting
 navigation-topic: create-and-manage-reports
-title: 運行並提交具有其他用戶訪問權限的報告
-description: 預設情況下，用戶只能查看他們有權查看的報告中的對象。
+title: 執行並傳遞具有其他使用者存取許可權的報告
+description: 依預設，使用者只能在他們有權檢視的報告中檢視物件。
 author: Nolan
 feature: Reports and Dashboards
 exl-id: e5e2b683-876c-45b4-ab61-07b1ad0b5650
-source-git-commit: e68e470da3b03e418584898c4098f0be302c68ec
+source-git-commit: d8e3c2da7f8fcd062e1bf2bb5de43a6238f5eadd
 workflow-type: tm+mt
-source-wordcount: '1206'
+source-wordcount: '1207'
 ht-degree: 0%
 
 ---
 
-# 運行並提交具有其他用戶訪問權限的報告
+# 執行並傳遞具有其他使用者存取許可權的報告
 
-預設情況下，用戶只能查看他們有權查看的報告中的對象。
+依預設，使用者只能在他們有權檢視的報告中檢視物件。
 
-您可以允許所有用戶在報告中看到與其他用戶相同的結果，而不管他們對報告內對象的訪問權限級別或權限級別如何。
+您可以允許所有使用者在報表中看到與其他使用者相同的結果，無論他們對於報表中物件的存取層級或許可權層級為何。
 
-如果您運行的報告具有其他具有較高訪問權限的用戶的訪問權限(例如，Adobe Workfront管理員的訪問權限)，則所有具有查看報告權限的用戶都可以以報告生成器中指定的用戶身份查看報告中的資訊。 您可以為用戶在Workfront介面中找到的兩個報告或作為電子郵件附件發送給用戶的報告設定此設定。
+如果您透過其他擁有較高存取許可權的使用者的存取許可權(例如，Adobe Workfront管理員的存取許可權)來執行報表，則所有擁有檢視報表許可權的使用者，都可以以Report Builder中指定的使用者身分，檢視報表中的資訊。 您可以為使用者在Workfront介面中找到的兩個報表，或是以電子郵件附件形式傳遞給使用者的報表，設定此專案。
 
 >[!TIP]
 >
->您應替換 **使用以下權限運行此報告：** 僅當希望報告以該用戶的訪問權限顯示時，才顯示該活動用戶的欄位。 例如，工作許可證用戶可能無權查看由計畫許可證用戶或系統管理員構建的報告中的所有項目，除非報告顯示時具有計畫員或系統管理員的訪問權限。\
-如果報告與具有與中指定的用戶相似訪問權限的用戶共用 **使用以下權限運行此報告：** 欄位，可將此欄位留空。
+>您應取代 **透過以下存取許可權運行此報告：** 欄位，其作用中使用者為當您希望報表以該使用者的存取許可權顯示時。 例如，工作授權使用者可能沒有許可權檢視計畫授權使用者或系統管理員建立的報告中的所有專案，除非報告顯示時具有供需規劃員或系統管理員的存取許可權。\
+如果與具有類似存取許可權的使用者共用報告，則該使用者可在 **透過以下存取許可權運行此報告：** 欄位，您可以將此欄位留空。
 
-## 訪問要求
+## 存取需求
 
-您必須具有以下訪問權限才能執行本文中的步驟：
+您必須具有下列存取權才能執行本文中的步驟：
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront計畫</td> 
+   <td role="rowheader">Adobe Workfront計畫*</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront許可證*</td> 
+   <td role="rowheader">Adobe Workfront授權*</td> 
    <td> <p>計劃 </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">訪問級別配置*</td> 
-   <td> <p>編輯對報表、儀表板、日曆的訪問</p> <p>編輯對篩選器、視圖、分組的訪問</p> <p>注：如果您仍然沒有訪問權限，請詢問您的Workfront管理員是否在您的訪問級別設定了其他限制。 有關Workfront管理員如何修改您的訪問級別的資訊，請參見 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自定義訪問級別</a>。</p> </td> 
+   <td role="rowheader">存取層級設定*</td> 
+   <td> <p>編輯報告、儀表板、行事曆的存取權</p> <p>編輯對篩選器、檢視、群組的存取權</p> <p>注意：如果您還是沒有存取權，請詢問您的Workfront管理員，他們是否在您的存取層級中設定其他限制。 如需有關Workfront管理員如何修改您的存取層級的資訊，請參閱 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">對象權限</td> 
-   <td> <p>查看對報告的權限（查看已交付的報告）</p> <p>管理對報告的權限（以運行報告）</p> <p>有關請求附加訪問的資訊，請參見 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">請求訪問對象 </a>。</p> </td> 
+   <td role="rowheader">物件許可權</td> 
+   <td> <p>檢視報表許可權（檢視傳遞的報表）</p> <p>管理報告的許可權（執行報告）</p> <p>如需請求其他存取許可權的詳細資訊，請參閱 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">要求物件的存取權 </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;要瞭解您擁有的計畫、許可證類型或訪問權限，請與您的Workfront管理員聯繫。
+&#42;若要瞭解您擁有的計畫、授權型別或存取權，請聯絡您的Workfront管理員。
 
-## 顯示具有其他用戶訪問權限的報告
+## 顯示具有其他使用者存取許可權的報告
 
-填充 **使用以下權限運行此報表：** 欄位確保報告包含相同的資料，而不管哪個用戶正在訪問該報告。 該報告將像指定用戶一樣顯示。
+填入 **透過以下存取許可權運行此報告：** 欄位可確保報表包含相同的資料，無論哪個使用者正在存取報表。 報表會依指定使用者的顯示方式顯示。
 
-訪問報告的用戶必須至少對報告具有「查看」權限才能查看報告。 如果中列出的用戶 **使用以下權限運行此報表：** 欄位已停用，報告將不再顯示給與報告共用的其他用戶。
+存取報告的使用者必須至少具有報告的檢視許可權，才能看到報告。 若使用者列於 **透過以下存取許可權運行此報告：** 欄位已停用，該報表不再顯示給共用該報表的任何其他使用者。
 
-要運行具有其他用戶訪問權限的報告，請執行以下操作：
+若要以其他使用者的存取許可權執行報告：
 
-1. 按一下 **主菜單** 表徵圖 ![](assets/main-menu-icon.png) 在Workfront的右上角，然後按一下 **報告**。
+1. 按一下 **主要功能表** 圖示 ![](assets/main-menu-icon.png) (位於Workfront的右上角)，然後按一下 **報表**.
 
-1. 選擇要顯示的報告，並具有其他用戶的訪問權限。
-1. 按一下 **報告操作**，然後按一下 **編輯**。
+1. 選取您要以其他使用者的存取許可權顯示的報告。
+1. 按一下 **報表動作**，然後按一下 **編輯**.
 
-1. 按一下 **報告設定**。
+1. 按一下 **報表設定**.
 
-1. 在 **使用以下權限運行此報告：** 欄位中，開始鍵入希望報告顯示為的用戶的名稱，然後在清單中看到報告時選擇它。\
+1. 在 **透過以下存取許可權運行此報告：** 欄位，開始輸入您希望報表顯示成的使用者名稱，然後在清單中看到時選取該名稱。\
    ![](assets/qs-access-rights-of-350x251.png)
 
    >[!NOTE]
-   訪問級別較低且允許生成報告的用戶沒有能力為 **使用以下權限運行此報表：** 的子菜單。
+   >
+   具有較低存取層級、可建置報表的使用者，無法為其選取除了自己以外的使用者。 **透過以下存取許可權運行此報告：** 欄位。
 
-1. 按一下 **完成**。
-1. 按一下 **保存+關閉**。\
-   現在，將為與報告共用的所有用戶顯示該報告，如同在中指定的用戶查看了該報告一樣 **使用以下權限運行此報告：** 的子菜單。
+1. 按一下 **完成**.
+1. 按一下 **儲存+關閉**.\
+   現在，與其共用報表的所有使用者均可看到報表，就像報表已由中指定的使用者檢視一樣 **透過以下存取許可權運行此報告：** 欄位。
 
 >[!IMPORTANT]
-輸入登錄用戶以外的用戶 **使用以下權限運行此報告：** 如果報表包含引用登錄用戶的通配符的篩選器，則欄位會影響報表中顯示的資訊。 根據在 **使用以下權限運行此報告：** 欄位，而不是通配符篩選器中定義的內容。
-有關用戶欄位的通配符的詳細資訊，請參閱中的「基於用戶的變數」部分 [通配符篩選器變數](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md)。
+>
+輸入非登入使用者的使用者 **透過以下存取許可權運行此報告：** 如果報表包含使用萬用字元參照登入使用者的篩選器，欄位會影響報表中顯示的資訊。 報表會依據中指定的值顯示 **透過以下存取許可權運行此報告：** 欄位，而不是萬用字元篩選器中定義的內容。
+>
+如需使用者欄位萬用字元的詳細資訊，請參閱下列「使用者型變數」一節： [萬用字元篩選器變數概觀](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
 
-## 提交具有其他用戶訪問權限的報告
+## 傳送具有其他使用者存取許可權的報告
 
-您可以設定要作為電子郵件附件傳送的報告。 您可以設定這些已傳送的報告以在它們顯示時顯示給訪問級別較高的用戶，以便所有用戶都可以在已傳送的報告中看到相同的資訊。 要查看通過電子郵件發送的報告的用戶必須添加到報告發送內收件人的「發送到」清單中。 有關設定要交付的報表的詳細資訊，請參閱文章 [報告交付概述](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md)。
+您可以設定要作為電子郵件附件傳送的報表。 您可以設定這些傳送的報表在針對較高存取層級的使用者顯示時顯示，讓所有使用者都可以在傳送的報表中看到相同的資訊。 將會看到以電子郵件傳送之報表的使用者，必須新增至報表傳送內的「傳送至」收件者清單。 如需設定傳送報表的詳細資訊，請參閱文章 [報表傳送概覽](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md).
 
-要提交具有其他用戶訪問權限的報告，請執行以下操作：
+若要傳送具有其他使用者存取許可權的報告：
 
-1. 按一下 **主菜單** 表徵圖 ![](assets/main-menu-icon.png) 在Workfront的右上角，然後按一下 **報告**。
+1. 按一下 **主要功能表** 圖示 ![](assets/main-menu-icon.png) (位於Workfront的右上角)，然後按一下 **報表**.
 
-1. 選擇要提交且具有其他用戶訪問權限的報告。
-1. 按一下報告的名稱以選擇它。
-1. 按一下 **報告操作**。
-1. 按一下 **發送報告**。
+1. 選取您要傳送且有其他使用者存取許可權的報告。
+1. 按一下報表名稱以將其選取。
+1. 按一下 **報表動作**.
+1. 按一下 **傳送報告**.
 
-1. 在 **提交此報告，其訪問權限為：** 欄位中，開始鍵入希望報告在通過電子郵件發送時顯示的用戶名稱，然後在清單中看到報告時選擇它。 預設值是生成報告的用戶的名稱。\
+1. 在 **提供此報告以及以下存取許可權：** 欄位，開始輸入使用者名稱，您希望報表在電子郵件中傳送時顯示使用者名稱，然後在清單中看到報表時選取報表。 預設值為建立報表的使用者名稱。\
    ![](assets/qs-send-report-access-rights-of-350x446.png)
 
    >[!NOTE]
-   訪問級別較低且允許生成報告的用戶沒有能力為 **以下列權限提交此報告：** 的子菜單。
+   >
+   具有較低存取層級、可建置報表的使用者，無法為其選取除了自己以外的使用者。 **提供此報告以及以下存取許可權：** 欄位。
 
-1. 選擇 **格式** 您希望報告在電子郵件中顯示：
+1. 選取 **格式** 您想要報表顯示在電子郵件中：
 
    * HTML
    * PDF
    * MS Excel
-   * MS Excel(.xlsx)
+   * MS Excel (.xlsx)
    * TSV
 
-1. 按一下 **立即發送** 立即發送。\
+1. 按一下 **立即傳送** 立即傳送。\
    或\
-   按一下 **重複傳遞** 計畫報表的定期交貨。\
-   有關報表交貨的詳細資訊，請參閱文章 [報告交付概述](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md)。
+   按一下 **建立重複傳遞** 排程報表的循環傳送。\
+   如需關於報告傳送的詳細資訊，請參閱文章 [報表傳送概覽](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md).
 
-## 具有源列的報表的限制
+## 具有來源欄的報表限制
 
-以下報表顯示「源」列，在該列中可以查看有關父對象的資訊：
+下列報表會顯示「來源」欄，您可以在其中檢視父物件的相關資訊：
 
-* 發佈報告
-* 工時報告
-* 文檔報表
+* 問題報告
+* 小時報告
+* 檔案報表
 
-如果用戶對問題、小時或文檔的父對象沒有權限，則即使將報告配置為顯示或以其他用戶的訪問權限傳遞，報告的「源」列也將顯示為空。
+如果使用者沒有問題、小時或檔案的父物件的許可權，則報告的「來源」欄會顯示空白，即使報告已設定為顯示，或要使用其他使用者的存取許可權傳送。
 
-為了在報告中顯示有關父對象的資訊，我們建議為父對象添加一列，在列中可以顯示父對象的名稱。
+為了在報告中顯示有關父物件的資訊，我們建議為父物件新增一欄，您可以在其中顯示父物件的名稱。
 
-例如，可以將下列任何一項添加到具有「源」列的報表中：
+例如，您可以將下列任一專案新增至含有來源欄的報表：
 
-* 文檔或小時報表的「項目名稱」(Project Name)、「任務名稱」(Task Name)或「發行名稱」(Issue Name)列。
-* 發佈報告的「項目名稱」或「任務名稱」列。
-* 使用引用所有三個對象的文本模式表達式的列。 以下是小時報告的示例：
+* 專案名稱、任務名稱或問題名稱欄到檔案或小時報告。
+* 問題報告的「專案名稱」或「任務名稱」欄。
+* 使用參照所有三個物件的文字模式運算式的欄。 以下是時數報告的範例：
 
-   `displayname=Custom Source`
+  `displayname=Custom Source`
 
-   `linkedname=opTask`
+  `linkedname=opTask`
 
-   `namekey=view.relatedcolumn`
+  `namekey=view.relatedcolumn`
 
-   `namekeyargkey.0=opTask`
+  `namekeyargkey.0=opTask`
 
-   `namekeyargkey.1=name`
+  `namekeyargkey.1=name`
 
-   `textmode=true`
+  `textmode=true`
 
-   `valueexpression=IF(!ISBLANK({opTaskID}),{opTask}.{name},IF(!ISBLANK({taskID}),{task}.{name},IF(!ISBLANK({projectID}),{project}.{name},IF(!ISBLANK({timesheetID}),CONCAT({owner}.{name}," ",{timesheet}.{startDate}," - ",{timesheet}.{endDate}),""))))`
+  `valueexpression=IF(!ISBLANK({opTaskID}),{opTask}.{name},IF(!ISBLANK({taskID}),{task}.{name},IF(!ISBLANK({projectID}),{project}.{name},IF(!ISBLANK({timesheetID}),CONCAT({owner}.{name}," ",{timesheet}.{startDate}," - ",{timesheet}.{endDate}),""))))`
 
-   `valueformat=HTML`
+  `valueformat=HTML`
 
-   有關文本模式視圖的資訊，請參見 [使用文本模式編輯視圖](../text-mode/edit-text-mode-in-view.md)。
+  如需有關文字模式檢視的資訊，請參閱 [使用文字模式編輯檢視](../text-mode/edit-text-mode-in-view.md).
