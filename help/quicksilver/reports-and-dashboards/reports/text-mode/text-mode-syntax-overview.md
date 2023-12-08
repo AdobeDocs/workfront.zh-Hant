@@ -7,9 +7,9 @@ author: Nolan
 feature: Reports and Dashboards
 role: User
 exl-id: f24430e1-c5f7-4925-93df-0e956a03c863
-source-git-commit: b774a74863bb35e3477a69ff11189c40a6d66437
+source-git-commit: dcbb55f57d189c715cc1111fde3c4bc597495851
 workflow-type: tm+mt
-source-wordcount: '1857'
+source-wordcount: '1863'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 如需所有可報告欄位及其屬性的完整清單，請參閱 [API總管](../../../wf-api/general/api-explorer.md).
 
-如需使用文字模式建立報表的詳細資訊，包括類別、影片和教學課程，請參閱Adobe Experience League網站上的「瞭解」一節。
+如需使用文字模式建立報表的詳細資訊，包括類別、影片和教學課程，請造訪Adobe Experience League網站上的「學習」區段。
 
 ## 有關文字模式語法的考量事項
 
@@ -99,14 +99,14 @@ ht-degree: 0%
 
 ### 檢視和群組的語法
 
-您可能會注意到建置檢視和分組時的程式碼行類似。
+建置檢視和分組時的程式碼行類似。
 
 如需建立檢視和群組的相關資訊，請參閱下列文章：
 
 * [Adobe Workfront中的檢視概觀](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md)
 * [Adobe Workfront中的群組概觀](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md)
 
-檢視或分組最重要的程式碼行是識別檢視欄或分組中參考之物件的行。 視此欄位是Workfront資料庫欄位的直接參照，還是數個欄位之間的計算而定，程式碼行的開頭可能會為 `valuefield` 或 `valueexpression`
+檢視或分組最重要的程式碼行是用來識別檢視欄或分組中參考的物件的行。 這行程式碼的開頭可能為 `valuefield` 或 `valueexpression` 根據此欄位是Workfront資料庫欄位的直接參照，還是數個欄位之間的計算。
 
 下表列出檢視或群組中最常見的程式碼行：
 
@@ -216,13 +216,11 @@ ht-degree: 0%
 
 #### `Valueformat` 檢視和群組的概觀
 
-檢視或分組中第二重要的一行程式碼為 `valueformat=` 行。 這會告訴Workfront要以哪種格式傳回您在
-`valuefield` 或valueexpression行。 雖然您可以使用各種格式來 `valueformat` 行數，我們建議您在使用時
-`valueexpression`：
+檢視或分組中第二重要的一行程式碼為 `valueformat=` 行。 這會告訴Workfront要以哪種格式傳回您在 `valuefield` 或 `valueexpression` 行。 雖然您可以使用各種格式來 `valueformat` 行數，我們建議您在使用時 `valueexpression`：
 
 `valueformat=HTML`
 
-其他 `valueformats` 值，另請參閱下列文章：
+其他 `valueformat` 值，另請參閱下列文章：
 
 * [文字模式報表中的日期格式](../../reports/text-mode/format-dates-in-text-mode-reports.md)
 * [格式化文字模式報表中的數字、貨幣和百分比值](../../reports/text-mode/format-numbers-in-text-mode-reports.md)
@@ -233,7 +231,7 @@ ht-degree: 0%
 
 您必須使用 `usewidths=true` 用於強制實施為欄指定的寬度的程式碼行。
 
-**範例：** 若要顯示寬度為80畫素的欄，請使用下列行：
+**範例：** 若要顯示寬度為80畫素的欄，請使用下列線條：
 
 `width=80`
 

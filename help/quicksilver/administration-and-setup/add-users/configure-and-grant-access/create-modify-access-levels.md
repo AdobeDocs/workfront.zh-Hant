@@ -4,13 +4,13 @@ user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: configure-access-to-workfront
 description: 身為Adobe Workfront管理員，您可以建立自訂存取層級並套用至使用者。
-author: Caroline
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: d2a73d24-51d3-42e2-9c09-7f4bc30b2caa
-source-git-commit: 7467e75cf468fa6a1dd14dbc0f4fdcda87de1b1e
+source-git-commit: bf4236d4a7ac5dc9bf5b91c5c70126f6e4de78a1
 workflow-type: tm+mt
-source-wordcount: '1402'
+source-wordcount: '1420'
 ht-degree: 6%
 
 ---
@@ -19,10 +19,10 @@ ht-degree: 6%
 
 <!--Don't delete, draft, or change the title of this article. The UI links to it via context-sensitive help. -->
 
-身為Adobe Workfront管理員，您可以建立自訂存取層級並套用至使用者。 當您使用存取層級時，請務必瞭解它們如何與使用者在共用物件時授與的物件許可權搭配使用。 如需存取層級的詳細資訊，請參閱
+身為Adobe Workfront管理員，您可以建立自訂存取層級並套用至使用者。 當您使用存取層級時，請務必瞭解它們如何與使用者在共用物件時授與的物件許可權搭配使用。 如需存取層級的詳細資訊，請參閱：
 
 * [新存取層級概觀](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md)
-* [存取層級概觀](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).
+* [存取層級概觀](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md)
 
 >[!IMPORTANT]
 >
@@ -105,7 +105,7 @@ ht-degree: 6%
      </tr> 
      <tr> 
       <td role="rowheader">匯率</td> 
-      <td> <p>在Workfront中新增貨幣。</p> <p>如果沒有此存取權，使用者只能將現有貨幣新增到他們建立的專案。</p> </td> 
+      <td> 在Workfront中新增貨幣。 <p>如果沒有此存取權，使用者只能將現有貨幣新增到他們建立的專案。</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">費用</td> 
@@ -118,13 +118,13 @@ ht-degree: 6%
      </tr> 
      <tr> 
       <td role="rowheader">工作角色</td> 
-      <td> <p>透過此存取權，使用者可以執行下列動作：</p> 
+      <td> 透過此存取權，使用者可以執行下列動作： 
        <ul> 
         <li>檢視和編輯現有職位角色</li> 
         <li>新增職位角色</li> 
         <li>編輯角色帳單和成本費率</li> 
        </ul> 
-       <p>有關對職位角色具有管理存取權的標準或規劃工具使用者可用以存取財務資料的重要資訊，請參閱 <a href="#planner-users-with-administrative-access-to-job-roles">對職位角色具有管理存取權的標準或規劃工具使用者</a>.</p>
+       <p>有關對職位角色具有管理存取權的標準或規劃工具使用者可用以存取財務資料的重要資訊，請參閱 <a href="#standard-or-planner-users-with-administrative-access-to-job-roles">對職位角色具有管理存取權的標準或規劃工具使用者</a>.</p>
       </td> 
      </tr> 
      <tr> 
@@ -137,7 +137,7 @@ ht-degree: 6%
      </tr> 
      <tr> 
       <td role="rowheader">時間表和時數</td> 
-      <td> <p>群組管理員可以將時間表設定檔指派給其管理的群組和子群組中的使用者。</p> <p>如果未啟用此選項，群組管理員無法將時程表設定檔指派給其管理的群組和子群組中的其他使用者，儘管他們可以建立這些設定檔。</p> <p>所有其他使用者擁有Standard或Plan授權，即可在Workfront中檢視所有時數與時間表。</p> <p>若未啟用此選項，使用者只能在下列位置檢視時數：</p> 
+      <td> 群組管理員可以將時間表設定檔指派給其管理的群組和子群組中的使用者。 <p>如果未啟用此選項，群組管理員無法將時程表設定檔指派給其管理的群組和子群組中的其他使用者，儘管他們可以建立這些設定檔。</p> <p>所有其他使用者擁有Standard或Plan授權，即可在Workfront中檢視所有時數與時間表。</p> <p>若未啟用此選項，使用者只能在下列位置檢視時數：</p> 
        <ul> 
         <li>他們管理的專案、任務或問題</li> 
         <li>他們自己的時間表</li> 
@@ -168,11 +168,11 @@ ht-degree: 6%
      </tr> 
      <tr> 
       <td role="rowheader">僅檢視已加入交談的更新</td> 
-      <td> <p>讓使用者只能看見包含其名稱或團隊名稱的註解。</p> <p> <p><b>注意</b>：這可防止使用者訂閱Workfront中的專案。 如需訂閱專案的詳細資訊，請參閱 <a href="../../../administration-and-setup/add-users/create-and-manage-users/add-users.md" class="MCXref xref">新增使用者</a>.</p> </p> </td> 
+      <td> 讓使用者只能看見包含其名稱或團隊名稱的註解。 <p> <p><b>注意</b>：這可防止使用者訂閱Workfront中的專案。 如需訂閱專案的詳細資訊，請參閱 <a href="../../../workfront-basics/using-notifications/subscribe-to-items-in-workfront.md" class="MCXref xref">訂閱Adobe Workfront中的專案</a>.</p> </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">永不允許使用者刪除註解 </td> 
-      <td> <p>防止使用者刪除對專案所做的註解。 </p> <p><b>注意</b>：沒有人可以刪除其他使用者的評論。</p> </td> 
+      <td> 防止使用者刪除對專案所做的註解。  <p><b>注意</b>：沒有人可以刪除其他使用者的評論。</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">僅檢視他們所屬的公司、群組和小組</td> 
@@ -191,7 +191,7 @@ ht-degree: 6%
 
 1. （有條件且選用）如果您的Workfront系統設定為適用於屬於多個公司的使用者，請根據其他使用者在區段中屬於的公司來限制其他人看得見 **其他公司的人員應該只能從檢視使用者**.
 
-   您可以限制使用者，使其只能看見自己公司或您指定為主要公司之公司的使用者。 如需主要公司的詳細資訊，請參閱 [建立和編輯公司](../../../administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md).
+   您可以限制使用者，使其只能看見自己公司或您指定為主要公司之公司的使用者。 主要公司通常代表您大部分使用者工作所在的Workfront帳戶。 如需主要公司的詳細資訊，請參閱 [建立和編輯公司](../../../administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md).
 
    >[!NOTE]
    >

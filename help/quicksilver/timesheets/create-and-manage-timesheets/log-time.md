@@ -7,9 +7,9 @@ author: Alina
 feature: Timesheets
 role: User
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: 32966d4732221d73aa3397771e157b630f7d5760
+source-git-commit: 3d9631f0108487b4cad312ed1a6be5ae313eee93
 workflow-type: tm+mt
-source-wordcount: '3496'
+source-wordcount: '3570'
 ht-degree: 0%
 
 ---
@@ -72,8 +72,11 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront授權*</td> 
-   <td> <ul><li>檢閱或更高版本以在時程表中記錄一般時數</li>
-   <li> 在專案、任務或問題上記錄小時數的工作或更高</li></ul>
+   <td> <p>新計畫：<ul><li>在時程表中記錄一般時數的淺色或更高</li></p>
+   <li> 在專案、任務或問題上記錄時數的標準或更高</li></ul></p>
+   <p>或</p>
+   <p>目前計畫：<ul><li>檢閱或更高版本以在時程表中記錄一般時數</li></p>
+   <li> 在專案、任務或問題上記錄小時數的工作或更高</li></ul></p>
    </td> 
   </tr> 
   <tr> 
@@ -103,7 +106,7 @@ ht-degree: 0%
 * 計入計費計費記錄中的小時專案會變暗且無法在時程表中編輯。 如需詳細資訊，請參閱 [建立付費記錄](../../manage-work/projects/project-finances/create-billing-records.md).
 * 依預設，個人任務不會顯示在時程表中。 個人任務只有在記錄時間時才會顯示在時程表中。 在您將時間登入個人任務後，您可以將任務釘選到時程表中，如果它保持釘選狀態，將保留在時程表中。 如需詳細資訊，請參閱 [從首頁區域建立工作專案](../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md).
 
-## 記錄時間
+## 記錄時間 {#log-time-section}
 
 您可以在Workfront中的下列區域記錄時間：
 
@@ -136,7 +139,7 @@ ht-degree: 0%
 
 若要在時程表上記錄時間：
 
-1. 按一下 [!UICONTROL **主要功能表**] 圖示 ![](assets/main-menu-icon.png) 位於右上角，或 **主要功能表** 圖示 ![](assets/lines-main-menu.png) （如果有的話）在Workfront左上角。
+1. 按一下 **[!UICONTROL 主要功能表]** 圖示 ![主要功能表](/help/_includes/assets/main-menu-icon.png) 在Adobe Workfront的右上角，或（如果有的話）按一下 **[!UICONTROL 主要功能表]** 圖示 ![主要功能表](/help/_includes/assets/main-menu-icon-left-nav.png) 左上角。
 
 1. 按一下 [!UICONTROL **時間表**]. 依預設會顯示您目前的時程表。
    ![時間表](assets/timesheet-redesigned-nwe.png)
@@ -157,6 +160,8 @@ ht-degree: 0%
 1. （選擇性）展開篩選、檢視或群組下拉式功能表，以套用或自訂其中一個功能表，並檢視您想要的專案資訊。
 
 1. 在清單中選取一或多個專案，然後按一下 **新增**.
+
+   如果您一次新增的專案少於50個，這些專案會新增到時程表中。 任務和問題會列在專案名稱下。
 
    >[!NOTE]
    >
@@ -208,6 +213,7 @@ ht-degree: 0%
 
    ![時數型別下拉式功能表](assets/hour-type-drop-down-expanded-redesigned-timesheet.png)
 
+
    >[!TIP]
    >
    >   視您的作業系統或瀏覽器而定，在使用標準QWERTY鍵盤時，請按下列按鍵組以新增另一列：
@@ -231,7 +237,6 @@ ht-degree: 0%
    >   視您的作業系統或瀏覽器而定，在使用標準QWERTY鍵盤時，請按下列按鍵來刪除列：
    >   * Ctrl + Option + - （適用於Windows電腦）
    >   * Cmd + Option + — 適用於Mac電腦
-
 
 1. 在時程表的時間表區段中，指定您要登入任何指定日期的時間長度，然後按一下小時方塊外部以儲存小時專案。 時數會自動儲存。 您記錄時間的列會以淺藍色反白顯示，而小時輸入方塊則會以深藍色外框。
 
@@ -300,6 +305,8 @@ ht-degree: 0%
 
    ![enter-an-update-in-redesigned-timesheet-left-panel](assets/enter-an-update-in-redesigned-timesheet-left-panel.png)
 
+1. （選用）返回 **時間表** 區域以關閉或提交您的時程表。
+
    * **關閉**：完成更新時程表後將其關閉。 只有在您的時程表未與核准者關聯時，才可使用此選項。
 
    * **提交以供核准：** 只有在時程表上有核准者時，才可使用此選項。 儲存您的變更並提交以待核准。 您可以在關閉時程表後按一下「 」，以將其開啟 **恢復**，表示尚未授予核准。 如需詳細資訊，請參閱 [提交時程表以供核准](../../timesheets/create-and-manage-timesheets/submit-timesheet-for-approval.md).
@@ -323,7 +330,7 @@ ht-degree: 0%
 
 若要從時程表中移除小時專案：
 
-1. 前往時程表，尋找您要移除的小時輸入項。
+1. 移至時程表，並尋找您要移除的小時輸入項。
 1. 以0取代輸入的小時，或移除小時並以0取代，然後按Enter鍵。
 
    時數會移除，而時程表會自動儲存。

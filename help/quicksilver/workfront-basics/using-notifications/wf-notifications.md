@@ -1,25 +1,25 @@
 ---
 content-type: overview;reference
 navigation-topic: notifications
-title: Adobe Workfront通知
+title: 通知總覽
 description: Adobe Workfront會在您的行動裝置上傳送電子郵件通知、應用程式內通知和通知。
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 118677e9-a13f-47e6-96a3-6f5e93b005e9
-source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
+source-git-commit: f0ad08f21101bca3f881b6e5a8267d30ce3988ed
 workflow-type: tm+mt
-source-wordcount: '1307'
-ht-degree: 1%
+source-wordcount: '1395'
+ht-degree: 0%
 
 ---
 
-# [!DNL Adobe Workfront] 通知
+# 通知總覽
 
 [!DNL Adobe Workfront] 會在您的行動裝置上傳送電子郵件通知、應用程式內通知和通知。
 
 ## 電子郵件通知
 
-[!DNL Workfront] 會傳送許多電子郵件通知，以提醒使用者有關Workfront中的活動，並提供有用的資訊和連結。
+[!DNL Workfront] 會傳送電子郵件通知以提醒使用者有關Workfront中的活動，並提供有用的資訊和連結。
 
 若要變更電子郵件通知的偏好設定，請參閱 [修改您自己的電子郵件通知](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
@@ -39,11 +39,11 @@ ht-degree: 1%
 
 ### 事件通知
 
-事件通知預先定義於 [!DNL Workfront]. 它們通常由特定事件觸發。
+事件通知通常由某些預先定義事件觸發，例如將任務指派給您，或獲得您所做評論的回覆。
 
-在您的啟動事件通知後 [!DNL Workfront] 管理員或群組管理員，您可以透過編輯您的檔案來選擇要接收哪些收件者 [!UICONTROL 通知] 您的使用者設定檔中的偏好設定。 您也可以選擇要在事件發生時收到通知，還是要接收在一封每日摘要電子郵件中摘要的事件。
+在您的中啟用事件通知後 [!DNL Workfront] 系統（依您的） [!DNL Workfront] 管理員或群組管理員，您可以透過編輯您的檔案來選擇要接收哪些收件者 [!UICONTROL 通知] 您的使用者設定檔中的偏好設定。 您也可以選擇要在事件發生時收到通知，還是要接收在一封每日摘要電子郵件中摘要的事件。
 
-取決於 [!DNL Workfront] 管理員已為您的設定事件通知 [!DNL Workfront] 系統（如所述） [為系統中的每個人設定事件通知](../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md))，則您可能在設定中只看到這些通知的子集。
+您可能在您的設定中只看到這些通知的子集，端視以下選項的方式而定 [!DNL Workfront] 管理員已為您的設定事件通知 [!DNL Workfront] 系統。 如需詳細資訊，請參閱 [為系統中的每個人設定事件通知](../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md).
 
 預設狀態顯示當您建立新使用者時，新使用者預設已啟用哪些通知（每日、即時或兩者）。
 
@@ -56,6 +56,8 @@ ht-degree: 1%
 >事件通知是唯一可設定為在每日摘要更新中傳送的通知。
 
 ### 每日摘要通知
+
+每日摘要通知是一封電子郵件，其中包含您在電子郵件之前24小時內收到的特定型別的所有通知。
 
 如需為每日摘要電子郵件傳送啟用哪些電子郵件通知的完整清單，以及有關電子郵件通知所有類別的資訊，請參閱 [事件通知](../../workfront-basics/using-notifications/event-notifications.md#understanding-instant-and-daily-digest-notifications).
 
@@ -72,6 +74,10 @@ ht-degree: 1%
 
   對於 **[!UICONTROL 通訊]** 類別中，通知會依發生通訊的物件分組。
 
+  >[!NOTE]
+  >
+  >在「通訊」類別中，您可以選取僅供即時傳送的個別通知。 若要在每日摘要中傳送通知，您必須選取所有通知。
+
 * 每日摘要電子郵件會列出某個特定區域(例如 **關於我擁有的專案資訊**)在選取的傳送時間前24小時內。
 * 為每日摘要傳送選取的時間時區與您的時區相符，因為它是根據瀏覽器上的設定而定。
 * 每日摘要電子郵件的主旨行中有區段名稱，以及傳送日期。
@@ -85,13 +91,15 @@ ht-degree: 1%
 
 會針對發生通訊的物件摘要資訊，並顯示每個物件的通訊訊息總數。
 
-如需設定電子郵件通知的詳細資訊，請參閱 [修改您自己的電子郵件通知](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+若要回複評論或在Workfront中檢視評論：
 
-有關註解的指示 [!UICONTROL 通訊] 電子郵件，請參閱 [更新工作](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+1. 按一下 **[!UICONTROL 註解]** 電子郵件中的按鈕。
 
-若要深入瞭解 [!UICONTROL 通訊] 電子郵件，請參閱 [修改您自己的電子郵件通知](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+   此 [!UICONTROL 更新] 物件的區域隨即開啟，特定註解會以藍色外框。
 
-如需啟用每日摘要通知的詳細資訊，請參閱 [修改您自己的電子郵件通知](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+   回複方塊已開啟，您可用來回覆註解。
+
+如需設定電子郵件通知（包括啟用每日摘要通知）的詳細資訊，請參閱 [檢視並修改您的電子郵件通知設定](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md#view-and-modify-your-email-notification-settings) 在 [修改您自己的電子郵件通知](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
 ### 自動提醒
 
@@ -120,7 +128,7 @@ ht-degree: 1%
 
 ### 提醒通知
 
-A [!DNL Workfront] 管理員(或具有 [!UICONTROL 計畫者] 存取層級和管理提醒通知的存取權)可以設計有關臨近截止時間的提醒通知，並將其附加到專案、任務、問題和時間表。 如需有關如何取得所需管理存取許可權的詳細資訊，請參閱 [授予使用者管理特定區域的存取權](../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
+A [!DNL Workfront] 管理員(或具有 [!UICONTROL 計畫者] 存取層級和管理提醒通知的存取權)可以設計有關臨近截止日期的提醒通知，並手動將其與專案、任務、問題和時程表相關聯。
 
 >[!IMPORTANT]
 >
@@ -130,15 +138,19 @@ A [!DNL Workfront] 管理員(或具有 [!UICONTROL 計畫者] 存取層級和管
 
 如需設定和啟用提醒通知的詳細資訊，請參閱 [設定提醒通知](../../administration-and-setup/manage-workfront/emails/set-up-reminder-notifications.md).
 
+有關如何取得所需管理存取權的資訊，請參閱 [授予使用者管理特定區域的存取權](../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
+
 ### 面板通知
 
-[!DNL Adobe Workfront] [!UICONTROL 展示板] 會在您將您新增至展示板以及將卡片指派給您時傳送電子郵件給您。
+[!DNL Adobe Workfront] [!UICONTROL 展示板] 會在您將您新增至展示板以及將卡片指派給您時傳送電子郵件給您。 您可以選取要在展示板偏好設定中接收的電子郵件。
 
-您可以選取要在展示板偏好設定中接收的電子郵件。 如需詳細資訊，請參閱 [面板電子郵件通知和偏好設定](/help/quicksilver/agile/get-started-with-boards/boards-emails.md).
+如需詳細資訊，請參閱 [面板電子郵件通知和偏好設定](/help/quicksilver/agile/get-started-with-boards/boards-emails.md).
 
 ### 其他 [!DNL Workfront] 電子郵件
 
-您可能會收到其他電子郵件 [!DNL Workfront] 無法設定的。 以下電子郵件是由自動傳送 [!DNL Workfront] 當滿足下列條件時：
+您可能會收到其他電子郵件 [!DNL Workfront] 無法設定的。
+
+以下電子郵件是由自動傳送 [!DNL Workfront] 當滿足下列條件時：
 
 * 還原專案：當 [!DNL Workfront] 管理員從還原物件 [!UICONTROL 回收] 在收件匣中，會傳送電子郵件至 [!DNL Workfront] 管理員。
 * 無法還原：當 [!DNL Workfront] 管理員嘗試從資源回收筒還原物件，還原失敗時，會傳送電子郵件至 [!DNL Workfront] 管理員。
@@ -161,11 +173,11 @@ A [!DNL Workfront] 管理員(或具有 [!UICONTROL 計畫者] 存取層級和管
 如果您擁有 [!DNL Workfront] 安裝在您手機上的行動應用程式，點選電子郵件中的連結會在以下位置開啟它們： [!DNL Workfront] 行動應用程式。 這包括點選下列任一動作按鈕：
 
 * [!UICONTROL 處理它]
-* [!UICONTROL 評論]
-* [!UICONTROL 進行核准決策]
-* [!UICONTROL 查看所有通知]
+* [!UICONTROL 註解]
+* [!UICONTROL 進行核准決定]
+* [!UICONTROL 檢視所有通知]
 * [!UICONTROL 新增]
 * [!UICONTROL 開始使用]
-* [!UICONTROL 查看更多詳細資料]
+* [!UICONTROL 檢視更多詳細資料]
 
 如需關於的詳細資訊 [!DNL Workfront] 行動應用程式，請參閱 [使用 [!DNL Adobe Workfront] 行動應用程式](../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/use-the-mobile-app.md).
