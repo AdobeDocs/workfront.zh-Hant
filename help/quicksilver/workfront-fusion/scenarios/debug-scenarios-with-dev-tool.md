@@ -7,7 +7,7 @@ description: Adobe Workfront Fusion Devtool可讓您瞭解情境並疑難排解�
 author: Becky
 feature: Workfront Fusion
 exl-id: f7557214-3615-4797-b4cb-4af70e4797ac
-source-git-commit: a84c59e44055dec25928f34f1a795bb8565ff199
+source-git-commit: fb0ead5a39d95b3228fccd417947fa77b49305dd
 workflow-type: tm+mt
 source-wordcount: '1809'
 ht-degree: 0%
@@ -88,7 +88,7 @@ ht-degree: 0%
 
 您可以新增 [!DNL Workfront Fusion] 開發工具至 [!DNL Chrome] 透過 [!UICONTROL [!DNL Chrome] 網站商店].
 
-1. 按一下 [此連結](https://chrome.google.com/webstore/detail/workfront-fusion-Devtool/hkimbmkkmmejdnhbhoaefggkpkndfjnn/related) 前往 [!DNL Workfront Fusion] 上的Devtool [!UICONTROL [!DNL Chrome] 網站商店].
+1. 按一下 [此連結](https://chromewebstore.google.com/u/1/detail/workfront-fusion-devtool/hkimbmkkmmejdnhbhoaefggkpkndfjnn) 前往 [!DNL Workfront Fusion] 上的Devtool [!UICONTROL [!DNL Chrome] 網站商店].
 1. 按一下 **[!UICONTROL 新增至[!DNL Chrome]]**.
 1. 在開啟的視窗中，檢查許可權。 如果您同意許可權，請按一下 **[!UICONTROL 新增擴充功能]**.
 
