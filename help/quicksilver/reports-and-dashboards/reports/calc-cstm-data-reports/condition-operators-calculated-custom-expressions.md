@@ -7,9 +7,9 @@ description: 使用文字模式在Adobe Workfront中建立計算的自訂資料�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: ce98ca39-cb86-4ef7-b75c-29ceb916e885
-source-git-commit: 32966d4732221d73aa3397771e157b630f7d5760
+source-git-commit: 3e1e651662f9ff695d475ffcbdc77f0802d108f1
 workflow-type: tm+mt
-source-wordcount: '752'
+source-wordcount: '718'
 ht-degree: 1%
 
 ---
@@ -55,27 +55,27 @@ ht-degree: 1%
   <tr> 
    <td>等於 (區分大小寫)</td> 
    <td>= </td> 
-   <td> <p>使用此運運算元表示當對帳單的第一個欄位等於第二個欄位時，滿足條件。</p> <p>例如，在計算的自訂欄位中使用下列陳述式來建置「IF」陳述式，比較任務的計畫完成日期與預計完成日期： </p><pre>if({projectedCompletionDate}={plannedCompletionDate}，「正軌」，「偏離正軌」)</pre> </td> 
+   <td> <p>使用此運運算元表示當對帳單的第一個欄位等於第二個欄位時，滿足條件。</p> <p>例如，在計算的自訂欄位中使用下列陳述式來建置「IF」陳述式，比較任務的計畫完成日期與預計完成日期： </p><p><code>IF({projectedCompletionDate}={plannedCompletionDate},"On Track","Off Track")</code></p> </td> 
   </tr> 
   <tr> 
    <td>大於 </td> 
    <td>&gt; </td> 
-   <td>使用此運運算元指示當對帳單的第一個欄位大於第二個欄位時，符合條件。 <p>例如，在計算的自訂欄位中使用下列陳述式來建置「IF」陳述式，比較任務的計畫完成日期與預計完成日期： </p><pre>if({projectedCompletionDate}&gt;{plannedCompletionDate}，「延遲」，「)</pre></td> 
+   <td>使用此運運算元指示當對帳單的第一個欄位大於第二個欄位時，符合條件。 <p>例如，在計算的自訂欄位中使用下列陳述式來建置「IF」陳述式，比較任務的計畫完成日期與預計完成日期： </p><p><code>IF({projectedCompletionDate}&gt;{plannedCompletionDate},"Late","")</code></p></td> 
   </tr> 
   <tr> 
    <td>大於或等於 </td> 
    <td>&gt;= </td> 
-   <td>使用此運運算元指示當對帳單的第一個欄位大於或等於第二個欄位時，符合條件。 <p>例如，在計算的自訂欄位中使用下列陳述式來建置「IF」陳述式，比較任務的計畫完成日期與預計完成日期： </p><pre>if({projectedCompletionDate}&gt;={plannedCompletionDate}，「延遲」，「早期」)</pre></td> 
+   <td>使用此運運算元指示當對帳單的第一個欄位大於或等於第二個欄位時，符合條件。 <p>例如，在計算的自訂欄位中使用下列陳述式來建置「IF」陳述式，比較任務的計畫完成日期與預計完成日期： </p><p><code>IF({projectedCompletionDate}&gt;={plannedCompletionDate},"Late","Early")</code></p></td> 
   </tr> 
   <tr> 
    <td>小於 </td> 
    <td>&lt; </td> 
-   <td>使用此運運算元指示當對帳單的第一個欄位小於第二個欄位時，符合條件。 <p>例如，在計算的自訂欄位中使用下列陳述式來建置「IF」陳述式，比較任務的計畫完成日期與預計完成日期： </p><pre>if({projectedCompletionDate}&lt;{plannedCompletionDate}，「早期」，「)</pre></td> 
+   <td>使用此運運算元指示當對帳單的第一個欄位小於第二個欄位時，符合條件。 <p>例如，在計算的自訂欄位中使用下列陳述式來建置「IF」陳述式，比較任務的計畫完成日期與預計完成日期： </p><p><code>IF({projectedCompletionDate}&lt;{plannedCompletionDate},"Early","")</code></p></td> 
   </tr> 
   <tr> 
    <td>小於或等於 </td> 
    <td>&lt;= </td> 
-   <td>使用此運運算元表示當對帳單的第一個欄位小於或等於第二個欄位時，滿足條件。 <p>例如，在計算的自訂欄位中使用下列陳述式來建置「IF」陳述式，比較任務的計畫完成日期與預計完成日期： </p><pre>if({projectedCompletionDate}&lt;={plannedCompletionDate}，「早期」，「延遲」)</pre></td> 
+   <td>使用此運運算元表示當對帳單的第一個欄位小於或等於第二個欄位時，滿足條件。 <p>例如，在計算的自訂欄位中使用下列陳述式來建置「IF」陳述式，比較任務的計畫完成日期與預計完成日期： </p><p><code>IF({projectedCompletionDate}&lt;={plannedCompletionDate},"Early","Late")</code></p></td> 
   </tr> 
   <tr> 
    <td>不會 </td> 
@@ -95,12 +95,12 @@ ht-degree: 1%
   <tr> 
    <td>或 </td> 
    <td>|| </td> 
-   <td> <p>使用此運運算元，表示當運算式找到陳述式的第一個或第二個值時，條件已經滿足。 </p> <p>例如，在計算的自訂欄位中使用下列陳述式來建置「IF」陳述式，將「目前」或「計畫」狀態的專案標籤為「作用中」： </p><pre>if({status}="PLN"||{status}="CUR"，"Active"，"Not Active")</pre> </td> 
+   <td> <p>使用此運運算元，表示當運算式找到陳述式的第一個或第二個值時，條件已經滿足。 </p> <p>例如，在計算的自訂欄位中使用下列陳述式來建置「IF」陳述式，將「目前」或「計畫」狀態的專案標籤為「作用中」： </p><p><code>IF({status}="PLN"||{status}="CUR","Active","Not Active")</code></p> </td> 
   </tr> 
   <tr> 
    <td> 與 </td> 
    <td>&amp;&amp; </td> 
-   <td> <p>使用此運運算元指示當運算式找到同時滿足兩個條件的專案時，該條件已經滿足。 </p> <p>例如，在計算自訂欄位中使用下列陳述式來建置「IF」陳述式，以尋找處於目前狀態且狀況為有風險的專案，並將它們標示為「需要中介」。 </p><pre>if({status}=「目前」&amp;&amp;{condition}="AR"，"Mediation Needed"，"))</pre> </td> 
+   <td> <p>使用此運運算元指示當運算式找到同時滿足兩個條件的專案時，該條件已經滿足。 </p> <p>例如，在計算自訂欄位中使用下列陳述式來建置「IF」陳述式，以尋找處於目前狀態且狀況為有風險的專案，並將它們標示為「需要中介」。 </p><p><code>IF({status}="CUR"&&{condition}="AR","Mediation Needed","")</code></p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: 421fd012c2ce6a4ae0b11fe343c279d1a3fd551c
+source-git-commit: 3e1e651662f9ff695d475ffcbdc77f0802d108f1
 workflow-type: tm+mt
-source-wordcount: '813'
+source-wordcount: '868'
 ht-degree: 1%
 
 ---
@@ -191,7 +191,7 @@ After permssions - replace the table with:
 
 1. 按一下 **儲存變更**. <!--logged a bug for this - this needs to be "Save"-->
 
-### 從記錄型別表格檢視編輯記錄
+### 從記錄型別的表格檢視中編輯記錄
 
 1. 按一下 **主要功能表** ![](assets/main-menu-workfront.png) 位於右上角，或 **主要功能表** ![](assets/main-menu-shell.png) 左上角（如果有的話），然後按一下 **大師** ![](assets/maestro-icon.png).
 
@@ -213,7 +213,7 @@ After permssions - replace the table with:
    >
    >  您無法編輯下列欄位的資訊，因為這些欄位是唯讀欄位，且Workfront會自動更新它們：
    >  
-   >  * 透過連結記錄型別建立的連結欄位
+   >  * 透過連線記錄型別建立的連結欄位。 如需詳細資訊，請參閱 [連線記錄型別](../architecture/connect-record-types.md).
    >  * 下列型別的欄位：建立者、建立日期、上次修改者、上次修改日期
 
 
@@ -225,11 +225,12 @@ After permssions - replace the table with:
    >
    >* 您無法從其他來源複製資訊，除了與貼上資訊的欄位型別相同的Maestro欄位之外。
    >
-   >* 您無法複製和貼上顯示在記錄之詳細資訊區域中的欄位值。
+   >* 您無法在記錄的詳細資訊區域中複製和貼上欄位值。 只有在記錄型別的表格檢視中才支援此功能。
    >* 您無法複製和貼上下列欄位型別的欄位值：
-   ><ul>
    >
-   > * 系統欄位
+   >
+   >    * 透過連線記錄型別建立的連結欄位。 您可以複製並貼上連結的記錄欄位。 如需詳細資訊，請參閱 [連線記錄型別](../architecture/connect-record-types.md).
+   >    * 下列型別的欄位：建立者、建立日期、上次修改者、上次修改日期
 
 
    <!--take People out of the list above when they release this - this might be coming later-->

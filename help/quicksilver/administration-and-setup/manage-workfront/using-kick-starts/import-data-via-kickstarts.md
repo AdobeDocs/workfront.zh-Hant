@@ -5,13 +5,13 @@ keywords: kickstart，kick-start，kickstart，kick-start
 navigation-topic: use-kick-starts
 title: 使用Kick-Start範本將資料匯入Adobe Workfront
 description: Kick-Start是特別格式化的Excel活頁簿，可填入您要匯入Workfront的資料。 Adobe Workfront提供了一個Kick-Start範本，您可以使用它來執行此操作，如Kick-Start資料匯入工具中所述。
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 25813946-e338-4dd9-b02c-d20fa18c539c
-source-git-commit: 81a9f33f5707e37a62a81546b9249410ded23ab5
+source-git-commit: 3e1e651662f9ff695d475ffcbdc77f0802d108f1
 workflow-type: tm+mt
-source-wordcount: '2642'
+source-wordcount: '2780'
 ht-degree: 6%
 
 ---
@@ -42,11 +42,14 @@ Kick-Start是特別格式化的Excel活頁簿，可填入您要匯入Workfront�
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront授權</td> 
-   <td>計劃</td> 
+   <td>
+   <p> 新增：標準</p>
+   或
+   <p>目前：計畫</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定</td> 
-   <td> <p>您必須是Workfront管理員。</p> <p><b>附註</b>:</p> 
+   <td> <p>您必須是Workfront管理員。</p> <p><b>注意</b>：</p> 
    <p> 如果您還是沒有存取權，請詢問您的Workfront管理員，他們是否在您的存取層級中設定其他限制。 如需有關Workfront管理員如何修改您的存取層級的資訊，請參閱 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>.</p> </td> 
   </tr> 
  </tbody> 
@@ -56,23 +59,26 @@ Kick-Start是特別格式化的Excel活頁簿，可填入您要匯入Workfront�
 
 您可以使用Kick-Start範本，將大量物件匯入Workfront。 但是，請考量下列限制：
 
-* 以這種方式匯入資料不會更新Workfront中已存在的記錄資訊
-* 您只能匯入新記錄及其資訊
+* 以這種方式匯入資料不會更新Workfront中已存在之記錄的資訊。
+* 您只能匯入新記錄及其資訊。
 * 一次匯入不超過2,000筆記錄，以確保匯入不會逾時
 
 ## 將Kick-Start範本匯出為試算表檔案
 
-匯出Kick-Start範本時，您會收到空白的Excel試算表活頁簿。 在本文的後續程式中，您會將資訊填入活頁簿中，然後將其匯回Workfront。
+匯出Kick-Start範本時，您會收到空白的Excel試算表活頁簿。 將試算表下載到您的電腦後，您可以使用試算表來填入您的資訊，然後將其匯入Workfront。
 
 匯出Kick-Start範本：
 
-1. 按一下 **主要功能表** 圖示 ![](assets/main-menu-icon.png) (位於Adobe Workfront的右上角)，然後按一下 **設定** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
-1. 按一下 **系統** > **匯出資料(Kick-Start)**.
+<!--
+1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).  -->
 
-1. 按一下 **更多選項**，然後選取您要包含的資訊型別。
+1. 按一下 **系統** > **匯入資料(Kick-Start)**.
 
-   您選取的每個選項代表匯出試算表中多個索引標籤的集合。 例如，如果您選取「報表」選項，則建立報表所需的所有物件皆會納入試算表（檢視、篩選器、群組、報表）中。
+1. 選取您要包含的資訊型別。
+
+   您選取的每個選項代表匯出試算表中多個索引標籤的集合。 例如，如果您選取 **報告** 選項，建立報告的所有必要物件將包含在試算表中（檢視、篩選器、群組、報告）。
 
    您可以使用下列所有物件型別，將資料匯入Workfront。 (唯一的例外是「存取層級」選項。 匯出中的「存取層級」資料表僅供參考之用，可讓您依ID將存取層級指派給新的使用者帳戶。)
 
@@ -93,22 +99,22 @@ Kick-Start是特別格式化的Excel活頁簿，可填入您要匯入Workfront�
      <tr> 
       <td scope="col"> <p>儀表板</p> <p>系統中的所有儀表板都可以匯出。 您在一次匯出中最多可以選取100個特定儀表板。</p> </td> 
       <td scope="col">匯出為ZIP檔案</td> 
-      <td scope="col"> <p>參數</p> <p>參數選項</p> <p>參數群組</p> <p>類別參數</p> <p>類別</p> <p>報告</p> <p>入口網站頁籤區段</p> <p>儀表板</p> <p>偏好設定</p> </td> 
+      <td scope="col"> <p>參數</p> <p>描述文字</p><p>參數選項</p> <p>參數群組</p> <p>類別參數</p> <p>類別</p> <p>報告</p> <p>入口網站頁籤區段</p> <p>儀表板</p> <p>偏好設定</p> </td> 
      </tr> 
      <tr> 
       <td scope="col"> <p>報告</p> <p>系統中的所有報表都可以匯出。 您在一次匯出中最多可以選取100個特定報告。</p> </td> 
       <td scope="col">匯出為ZIP檔案 </td> 
-      <td scope="col"> <p scope="col">參數</p> <p scope="col">參數選項</p> <p scope="col">參數群組</p> <p scope="col">類別參數</p> <p scope="col">類別</p> <p scope="col">報告</p> <p scope="col">偏好設定</p> </td> 
+      <td scope="col"> <p scope="col">參數</p> <p scope="col">描述文字</p> <p scope="col">參數選項</p> <p scope="col">參數群組</p> <p scope="col">類別參數</p> <p scope="col">類別</p> <p scope="col">報告</p> <p scope="col">偏好設定</p> </td> 
      </tr> 
      <tr> 
       <td scope="col"> <p>核准</p> </td> 
       <td scope="col"> <p>匯出為Excel檔案</p> </td> 
-      <td scope="col"> <p>步驟核准者</p> <p>核准步驟</p> <p>核准</p> <p>核准流程</p> <p>偏好設定</p> </td> 
+      <td scope="col"> <p>階段核准者</p> <p>核准階段</p> <p>核准</p> <p>核准流程</p> <p>偏好設定</p> </td> 
      </tr> 
      <tr> 
       <td scope="col"> <p>自訂資料</p> </td> 
       <td scope="col"> <p>匯出為Excel檔案</p> </td> 
-      <td scope="col"> <p>參數</p> <p>參數選項</p> <p>參數群組</p> <p>類別參數</p> <p>類別</p> <p>偏好設定</p> </td> 
+      <td scope="col"> <p>參數</p> <p>描述文字</p>  <p>參數選項</p> <p>參數群組</p> <p>類別參數</p> <p>類別</p> <p>偏好設定</p> </td> 
      </tr> 
      <tr> 
       <td scope="col"> <p>費用類型</p> </td> 
@@ -189,13 +195,33 @@ Kick-Start是特別格式化的Excel活頁簿，可填入您要匯入Workfront�
       <td>職務角色</td> 
       <td>匯出為Excel檔案</td> 
       <td> <p> 工作角色</p> <p>偏好設定 </p> </td> 
-     </tr> 
-     <tr> 
+     </tr>
+
+   <tr> 
+      <td>舊版資源集區</td> 
+      <td>匯出為Excel檔案</td> 
+      <td> <p> 舊版資源集區</p> <p>偏好設定 </p> </td> 
+     </tr>
+
+   <tr> 
       <td>里程碑路徑</td> 
       <td> 匯出為Excel檔案</td> 
       <td> <p> 里程碑</p> <p>里程碑路徑</p> <p>偏好設定 </p> </td> 
-     </tr> 
-     <tr> 
+     </tr>
+
+   <tr> 
+      <td>非人工資源</td> 
+      <td> 匯出為Excel檔案</td> 
+      <td> <p> 非人工資源</p> <p>偏好設定</p></td> 
+     </tr>
+
+   <tr> 
+      <td>非人工資源分類</td> 
+      <td> 匯出為Excel檔案</td> 
+      <td> <p> 非人工資源分類</p> <p>偏好設定</p></td> 
+     </tr>
+
+   <tr> 
       <td>備註</td> 
       <td>匯出為Excel檔案</td> 
       <td> <p> 備註</p> <p>偏好設定 </p> </td> 
@@ -214,11 +240,6 @@ Kick-Start是特別格式化的Excel活頁簿，可填入您要匯入Workfront�
       <td>資源估計</td> 
       <td>匯出為Excel檔案</td> 
       <td> <p> 資源估計</p> <p>偏好設定 </p> </td> 
-     </tr> 
-     <tr> 
-      <td>資源集區</td> 
-      <td>匯出為Excel檔案</td> 
-      <td> <p> 資源集區</p> <p>偏好設定 </p> </td> 
      </tr> 
      <tr> 
       <td>風險</td> 
@@ -269,17 +290,17 @@ Kick-Start是特別格式化的Excel活頁簿，可填入您要匯入Workfront�
    </table>
 
 1. 按一下 **下載**.
-1. 繼續使用 [將您的資料填入試算表範本中](#populate-the-spreadsheet-template-with-your-data) 以使用您的資訊填入範本。
+1. 繼續使用 [將您的資料填入試算表範本中](#populate-the-spreadsheet-template-with-your-data) 將您的資訊填入空白範本試算表中。
 
 ## 將您的資料填入試算表範本中 {#populate-the-spreadsheet-template-with-your-data}
 
-* [關於試算表中包含的標籤（資料表）](#about-the-tabs-data-sheets-included-in-the-spreadsheet)
+* [試算表中索引標籤（資料表）的概觀](#overview-of-the-tabs-data-sheets-included-in-the-spreadsheet)
 * [匯入記錄](#import-a-record)
 * [包含日期](#include-dates)
 * [使用萬用字元](#use-wildcards)
 * [ID的屬性名稱替代](#attribute-name-substitution-for-ids)
 
-### 關於試算表中包含的標籤（資料表） {#about-the-tabs-data-sheets-included-in-the-spreadsheet}
+### 試算表中索引標籤（資料表）的概觀
 
 >[!TIP]
 >
@@ -293,12 +314,13 @@ Kick-Start是特別格式化的Excel活頁簿，可填入您要匯入Workfront�
 >
 >若要避免錯誤，請確定下列事項：
 >
->* 請勿刪除或修改這些欄位。 例如，請勿變更其順序或名稱。
->* 以粗體顯示的欄標題填入每個欄位。 這些代表必填欄位。
+>* 請勿刪除Kick-Start試算表的空白第一列。
+>* 請勿以任何方式刪除、修改或重新排列這些欄位（欄標題）。 例如，請勿變更其順序或名稱。
+>* 將值新增至欄標題中以粗體顯示的每個欄位。 這些代表必填欄位。
 >
->  但是，如果必要欄位包含系統偏好設定中設定的預設值，則不需要填入該欄位。
+>     但是，如果必要欄位包含系統偏好設定中設定的預設值，則不需要填入該欄位。
 >
->  例如，在 **專案專案** 標籤， **setCondition** 和 **setConditionType** 欄位可留空，但 **setGroupID** 和 **setName** 欄不能。
+>     例如，在 **專案專案** 標籤， **setCondition** 和 **setConditionType** 欄位可留空，但 **setGroupID** 和 **setName** 欄不能。
 >
 >* 特定欄位，包括 **setResourceRevenue** 和 **setEnteredByID**&#x200B;由系統自動產生。 如果您在試算表中輸入這些欄位的資料，當您上傳試算表時，kick-start程式會覆寫資料。
 
@@ -306,26 +328,30 @@ Kick-Start是特別格式化的Excel活頁簿，可填入您要匯入Workfront�
 
 工作表的每一列都對應一個唯一物件。
 
-1. 完成中的儲存格 **isNew** 欄：
+1. 在中新增資訊 **isNew** 欄：
 
-   * 如果您要匯入的物件是新的，請鍵入 **TRUE** 匯入列中的資料。
-   * 如果物件已存在於Workfront中， **假** 必須位於欄中才能忽略該列。
+   * 如果您要匯入的物件是新的，請鍵入 **TRUE** 匯入列中的資料。 此值區分大小寫，且必須一律使用大寫字母
+   * 如果物件已存在於Workfront中，請輸入 **假** 在 **isNew** 欄以忽略列。 此值區分大小寫，且必須一律使用大寫字母
 
       * Workfront中已存在的記錄不會更新。
-      * 如果您下載含有資料的範本，則現有物件已標有 **假**.
+      * 如果您從Workfront下載含有資料的範本，則現有物件已標籤有 **假**.
       * 如果您下載了空白範本，則不需要為現有物件新增列。
 
-1. 完成中的儲存格 **ID** 欄，方法如下：
+1. 在中新增資訊 **ID** 欄，方法如下：
 
-   * 如果您要匯入的物件是新的(而且您鍵入了 **TRUE** 在 **isNew** 欄)，為ID輸入任何數字。 此數字在試算表中必須是唯一的。
+   * 如果您要匯入的物件是新的(而且您鍵入了 **TRUE** 在 **isNew** 欄)，為ID輸入任何數字。 此數字在試算表中必須是唯一的。 例如，如果您匯入三個物件，您可以分別賦予它們ID 1、2、3。
 
-   * 如果物件已存在於Workfront中(且 **假** 位於 **isNew** 欄)，ID必須是該物件在Workfront中存在的英數字元GUID。
+   * 如果物件已存在於Workfront中(且 **假** 位於 **isNew** 欄)，而且您正在匯入關於現有物件的新資訊，則ID必須是該物件在Workfront中存在的英數字元GUID。
 
-      * Workfront中已存在的記錄不會更新。
-      * 如果您下載含有資料的範本，則現有物件已包含GUID作為ID。
-      * 您可以透過變更來根據現有物件匯入新物件 **假** 至 **TRUE** 在 **isNew** 欄，變更ID，並在匯入前進行必要的資料調整。
+   >[!TIP]
+   >
+   > 若要在Workfront中找出物件的唯一GUID，您可以為該物件建立報表，並將ID欄新增至報表。 該欄中每個物件的值是物件的GUID。
 
-     ![群組的範例ID](assets/kick-start-group-example.png)
+   * Workfront中已存在的記錄不會更新。
+   * 如果您下載含有資料的範本，則現有物件已包含GUID作為ID。
+   * 您可以透過變更來根據現有物件匯入新物件 **假** 至 **TRUE** 在 **isNew** 欄，變更ID，並在匯入前進行必要的資料調整。
+
+   ![群組的範例ID](assets/kick-start-group-example.png)
 
    * 匯入專案時，您必須指定群組ID。
 
@@ -341,7 +367,7 @@ Kick-Start是特別格式化的Excel活頁簿，可填入您要匯入Workfront�
 1. （選用）若要新增自訂資料：
 
    * 為您要納入匯入程式的每個自訂欄位建立新欄。
-   * 為其對應的自訂欄位命名每個新欄，如下所示： **DE：[顯示在Workfront中的自訂欄位名稱]**.
+   * 為其對應的自訂欄位命名每個新欄，如下所示： **DE：[顯示在Workfront中的自訂欄位名稱]**. 例如，您可以建立下列自訂欄位：&quot;DE： Departments&quot;。
    * 在欄中 **setCategoryId**，鍵入此自訂欄位所在的現有自訂表單的GUID。 匯入自訂資料時，此欄位是必填欄位。
    * 如果您需要在自訂欄位中新增多個資料值（例如單選按鈕、核取方塊或清單），請使用「偏好設定」標籤中列出的垂直列自訂資料分隔符號「|」來分隔值。
 
@@ -353,13 +379,17 @@ Workfront可以處理大部分的日期格式。 不過，您必須確保試算�
 
 >[!TIP]
 >
->大部分人會發現，使用YYYY/MM/DD格式最容易（例如：07/10/2022）。
+>最受歡迎的格式為YYYY/MM/DD格式。
+>
+>例如：07/10/2023。
 
-Workfront也接受時間值作為日期的一部分（例如：07/10/2022 01:30或07/10/2022 1:00 PM）。
+Workfront也接受時間值做為日期的一部分。
+
+例如：07/10/2022 01:30或07/10/2022 1:00 PM。
 
 如果您在日期中省略時間，Workfront會執行下列任一項作業：
 
-* 假設午夜12:00。 為了檢視您預期的日期結果，系統時區必須與您的時區相符。
+* 假設時間是凌晨12:00。 為了檢視您預期的日期結果，系統時區必須與您的時區相符。
 * 如果它位在與排程相關聯的物件上，則時間會遞延至排程允許的最早時間。
 
 >[!NOTE]
@@ -405,21 +435,21 @@ Workfront也接受時間值作為日期的一部分（例如：07/10/2022 01:30�
 
 雖然最佳做法是儘可能使用ID，但有時在設定 **setattributeid** 值。 只要變更欄標題，您就可以依名稱參考值。
 
-**範例:**
+**範例：**
 
-* **（專案匯入）**
+* **專案匯入**
 
   匯入專案時，設定 **setGroupID** ，方法是前往 **群組群組** 工作表，記下個別群組ID，並將它們貼到正確的儲存格中(**setGroupID** 欄) **專案專案** 工作表。
 
   這在僅處理幾個群組和專案時是可行的，但如果您處理每個群組和專案，則不太現實。
 
-  若要對上述範例進行屬性名稱替代，請變更 **setGroupID** 欄標題至 **#setGroupID GROUP****name**. 然後，您可以依名稱參照每個專案的群組。
+  若要對上述範例進行屬性名稱替代，請變更 **setGroupID** 欄標題至 **#setGroupID群組名稱**. 然後，您可以依名稱參照每個專案的群組。
 
   >[!NOTE]
   >
   >使用「屬性名稱替代」的選項僅限於現有記錄的參照。 您無法在相同匯入中建立的物件使用名稱替代。
 
-* **（使用者匯入）**
+* **使用者匯入**
 
   匯入使用者時，請填寫 **setRoleID** 從 **角色角色** 標籤。
 
@@ -443,8 +473,7 @@ Workfront也接受時間值作為日期的一部分（例如：07/10/2022 01:30�
 
 Kick-Start匯入支援下列檔案型別：
 
-* XML型Excel (.xlsx)
-* 舊版Excel (.xls)
+* Excel (.xls或.xlsx)
 * 壓縮的(.ZIP)檔案（僅包含.xlsx或.xls檔案）
 
   >[!NOTE]
@@ -460,7 +489,9 @@ Kick-Start匯入支援下列檔案型別：
 
 若要將範本試算表資料匯入Workfront：
 
-1. 按一下 **主要功能表** 圖示 ![](assets/main-menu-icon.png) (位於Adobe Workfront的右上角)，然後按一下 **設定** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
+
+<!--1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).-->
 
 1. 按一下 **系統** >**匯入資料(Kick-Start)**.
 
@@ -468,7 +499,7 @@ Kick-Start匯入支援下列檔案型別：
 
 1. 按一下 **上傳。**
 
-   如果Excel檔案上傳至Workfront需要5分鐘以上的時間，應用程式會逾時，且檔案無法上傳。
+   如果Excel檔案上傳至Workfront需要5分鐘以上的時間，應用程式會逾時，且Workfront無法上傳檔案。
 
    嘗試以較小的物件批次匯入資料。
 
