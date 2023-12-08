@@ -7,9 +7,9 @@ description: Adobe Workfront Fusion Devtool可讓您瞭解情境並疑難排解�
 author: Becky
 feature: Workfront Fusion
 exl-id: f7557214-3615-4797-b4cb-4af70e4797ac
-source-git-commit: 82ff5d2731c981c89eb02c86d6d6eddc5d87dec7
+source-git-commit: a84c59e44055dec25928f34f1a795bb8565ff199
 workflow-type: tm+mt
-source-wordcount: '1799'
+source-wordcount: '1809'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,8 @@ ht-degree: 0%
 # 使用對案例進行偵錯 [!DNL Adobe Workfront Fusion] Devtool
 
 此 [!DNL Adobe Workfront Fusion] Devtool可讓您瞭解案例並疑難排解。 Devtool會將額外的面板新增至 [!DNL Chrome Developer Tools]. 使用此偵錯工具面板，您可以檢查案例的所有手動執行、檢閱所有已執行的操作，並檢視每個已執行API呼叫的詳細資訊。 您可以檢視導致錯誤的模組、操作或單一回應，並運用該知識來調整您的案例。
+
+如需Fusion Devtool的深入視訊逐步解說，請參閱 [Devtool逐步說明](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/fusion/troubleshooting-and-error-handling/dev-tool-walkthrough.html?lang=en).
 
 ## 存取需求
 
@@ -27,7 +29,7 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-    <td role="rowheader">[!DNL Adobe Workfront] 計劃*</td> 
+    <td role="rowheader">[!DNL Adobe Workfront] 計畫*</td> 
    <td> <p>[!DNL Pro] 或更高</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -98,7 +100,7 @@ ht-degree: 0%
 若要使用 [!DNL Workfront Fusion] Devtool，您必須新增 [!DNL Workfront Fusion] 將Devtool擴充功能新增至 [!DNL Chrome] 瀏覽器，如所述 [安裝Chrome Devtool擴充功能](#install-the-chrome-Devtool-extension).
 
 1. 開啟您的 [!DNL Workfront Fusion] 情境。
-1. 未結 [!DNL Chrome Developer Tools]:
+1. 開啟 [!DNL Chrome Developer Tools]：
 
    <table style="table-layout:auto"> 
     <col> 
@@ -325,11 +327,11 @@ Workfront Fusion Devtool分為3個主要區段。 您可以在Devtool視窗的�
  <tbody> 
   <tr> 
    <td role="rowheader">[！UICONTROL要尋找的變數]</td> 
-   <td> <p> 從情境的模組中找出您要取代的變數藥丸，並將其複製到此（[！UICONTROL要尋找的變數]）欄位。 在欄位中，它會顯示為雙大括弧。 範例: <code>&#123;&#123;5.value&#125;&#125;</code>.</p> </td> 
+   <td> <p> 從情境的模組中找出您要取代的變數藥丸，並將其複製到此（[！UICONTROL要尋找的變數]）欄位。 在欄位中，它會顯示為雙大括弧。 範例： <code>&#123;&#123;5.value&#125;&#125;</code>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[！UICONTROL取代為]</p> </td> 
-   <td> <p>從情境的模組中，找出您要取代變數的變數藥丸，並將其複製到此（[！UICONTROL要尋找的變數]）欄位。 在欄位中，它會顯示為雙大括弧。 範例: <code>&#123;&#123;5.value&#125;&#125;</code>.</p> </td> 
+   <td> <p>從情境的模組中，找出您要取代變數的變數藥丸，並將其複製到此（[！UICONTROL要尋找的變數]）欄位。 在欄位中，它會顯示為雙大括弧。 範例： <code>&#123;&#123;5.value&#125;&#125;</code>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[！UICONTROL模組]</p> </td> 
