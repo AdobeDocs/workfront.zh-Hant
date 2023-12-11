@@ -170,7 +170,7 @@ You can see the level in which users are allocated on a given day, as described 
 * **Time off:** Time off is represented on the scheduling timeline by a light gray indicator in the column on the day for which time off is scheduled for a given user.   
   Time off is configured for each user based on the following information:
 
-  The user's personal time-off calendar. For more information about the personal time-off calendar, see [Configure personal time off in Adobe Workfront](../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/personal-time-overview.md).
+  The user's personal time-off calendar. For more information about the personal time-off calendar, see [Configure personal time off](../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/personal-time-overview.md).
 
   The schedule that is assigned to the user. This might be the default schedule or a custom schedule. For more information about schedules, see [Create a schedule](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
 
