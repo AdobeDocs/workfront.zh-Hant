@@ -2,13 +2,13 @@
 product-area: reporting
 navigation-topic: create-and-manage-reports
 title: 建立自訂報表
-description: 瞭解如何建立報表可協助您在Adobe Workfront中提供組織所需資訊的存取權。 您可以使用Workfront提供的任何內建報表，或從頭開始建立自己的報表。
+description: 您可以透過建立報告，提供貴組織在Adobe Workfront中所需資訊的存取權。 您可以使用Workfront中提供的任何內建報表，或從頭開始建立自訂報表。
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 10c4df37-f09f-4b91-9cfd-3d0c3835bc7b
-source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
+source-git-commit: ad309990a4e09f5c083c1518fd503078718a97d1
 workflow-type: tm+mt
-source-wordcount: '1807'
+source-wordcount: '1820'
 ht-degree: 1%
 
 ---
@@ -38,7 +38,9 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront授權*</td> 
-   <td> <p>計劃 </p> </td> 
+   <td> <p>新增：標準 </p>
+   或
+   <p>目前：計畫 </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定*</td> 
@@ -47,7 +49,7 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td role="rowheader">物件許可權</td> 
-   <td> <p>您將取得所建立報表的管理許可權</p> <p>如需請求其他存取許可權的詳細資訊，請參閱 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">要求物件的存取權 </a>.</p> </td> 
+   <td> <p>您可取得所建立報告的「管理」許可權。</p> <p>如需請求其他存取許可權的詳細資訊，請參閱 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">要求物件的存取權 </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -56,9 +58,8 @@ ht-degree: 1%
 
 ## 建立報告 {#create-a-report}
 
-若要觀看如何建立報告的影片，請參閱此 [建立自訂報表](#Walk-thr) 底下。
+{{step1-to-reports}}
 
-1. 按一下 **主要功能表** 圖示 ![](assets/main-menu-icon.png) 按一下「 」 **報表**.
 1. 按一下 **新報告**，然後選取您要用於報表的物件型別。
 
    Report Builder隨即載入。
@@ -109,17 +110,17 @@ ht-degree: 1%
 
 1. 開始建立報表，如 [建立報告](#create-a-report) 一節。
 1. 在Report Builder中選取 **欄（檢視）** 標籤以識別報表中顯示的欄。
-1. （選用）按一下 **套用現有檢視** 以使用現有檢視。
+1. （選用）按一下 **套用現有檢視** ，然後按一下下拉式選單中的檢視名稱，以使用現有的檢視。
 
-   如需有關建立新檢視的詳細資訊，請參閱 [Adobe Workfront中的檢視概觀](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
+   如需建立檢視的詳細資訊，請參閱 [Adobe Workfront中的檢視概觀](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
+
+1. （選擇性）若要移除現有欄，請按一下要移除的欄，然後按一下 **x** 欄標題中目前名稱的旁邊。
 
 1. 若要新增欄，請按一下 **新增欄**.
 
    或
 
-   若要變更現有欄，請選取您要變更的欄，然後按一下目前名稱旁的(x)。
-
-1. 開始輸入您要新增的欄位。 如果欄位可供使用，則會針對可與其關聯的每個物件填入欄位。 按一下欄位名稱以將其新增至欄。
+   若要變更現有欄，請按一下該欄，然後按一下 **移除** 圖示 ![](assets/x-icon-circled.png) 中目前欄位的左側 **顯示在此欄欄位中** 方塊，並開始輸入新欄位，然後在其顯示在清單中時按一下它。
 
    如需有關您在欄中看到的欄位的詳細資訊，請參閱 [Adobe Workfront術語表](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
 
@@ -150,7 +151,7 @@ ht-degree: 1%
    >
    >當您彙總分組中下列欄位的值時，下列例外情況適用於父系物件（例如父系任務）：
    >
-   >* 除「實際時數」（例如「計畫/實際勞力成本」、「計畫/實際費用成本」、「計畫/實際成本」、「計畫時數」）之外的所有數字與幣別欄位，只會彙總子任務與獨立任務的值。 它們不會彙總父系任務的值或父系父系的值。
+   >* 除「實際時數」（例如「計畫或實際勞力成本」、「計畫或實際費用成本」、「計畫或實際成本」、「計畫時數」）之外的所有數字與幣別欄位，只會彙總子任務與獨立任務的值。 它們不會彙總父系任務的值或父系父系的值。
    >* 實際小時彙總主要父系和獨立任務的值；它們不會彙總父系任務的父系或子系任務的數量。
    >* 數字和貨幣值的自訂資料欄位會彙總所有工作：父項、子項、父項的父項以及獨立工作。
 
@@ -193,7 +194,8 @@ ht-degree: 1%
 
    或
 
-   選擇 **套用現有群組** 以選取現有群組
+   選擇 **套用現有群組** 以在清單中顯示現有群組時加以選取。
+
    ![](assets/nwe-add-grouping-350x230.png)
 
 1. 開始輸入您要新增為群組的欄位。 如果欄位可供使用，則會針對可與其關聯的每個物件填入欄位。 按一下欄位名稱以將其新增到該群組。
@@ -210,7 +212,7 @@ ht-degree: 1%
    >* 當您在檢視清單時手動調整群組，Workfront會記住您的手動偏好設定，直到您登出為止。 當您重新登入時，清單會根據此設定顯示。
    >* 從圖表元素存取群組結果後，群組結果一律展開顯示。
 
-1. （選擇性）您可以選擇建立矩陣群組，以格線格式顯示結果。
+1. （選用）按一下 **切換至矩陣群組**，以建立矩陣分組，並以格線格式顯示結果。
 
    如需建立矩陣報表的詳細資訊，請參閱 [建立矩陣報表](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-matrix-report.md).
 
