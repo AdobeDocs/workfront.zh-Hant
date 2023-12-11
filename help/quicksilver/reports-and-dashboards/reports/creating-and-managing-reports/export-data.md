@@ -6,9 +6,9 @@ description: 瞭解如何匯出報表資料
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 7fd45fa2-f5d2-411d-849e-cff5be420fbc
-source-git-commit: bcafa607da733b89747f6b448dd295d9b906d060
+source-git-commit: 3980d24b4a9c34b85c475a124c2b83dae7aa55ff
 workflow-type: tm+mt
-source-wordcount: '2177'
+source-wordcount: '2185'
 ht-degree: 0%
 
 ---
@@ -100,6 +100,7 @@ NOTE: Alina: [! This information is shared between "Exporting Data" and "Setting
 
 關於報表在Workfront中的顯示方式，以及透過手動匯出、已傳送報表或透過API匯出的方式，有一些限制。
 
+* **50,000個儲存格：** Excel檔案的報表匯出中允許的儲存格數上限。
 * **50,000列：** 報表匯出中允許的.pdf和Tab字元分隔檔案資料列數。
 
    * 若為Excel .xls檔案，此限製為 **65,000列**.
@@ -310,14 +311,14 @@ NOTE: Alina: [! This information is shared between "Exporting Data" and "Setting
 
 >[!TIP]
 >
->如果行 `valueformat=HTML` 以文字模式顯示自訂欄位欄，且連結值未顯示在轉存的.pdf檔案中，您必須在文字模式中輸入額外的程式碼行至欄。
+如果行 `valueformat=HTML` 以文字模式顯示自訂欄位欄，且連結值未顯示在轉存的.pdf檔案中，您必須在文字模式中輸入額外的程式碼行至欄。
 >
->例如，如果您有一個名為「開啟第1季專案」的自訂欄位，其中包含連結，您可以新增下列程式碼：
+例如，如果您有一個名為「開啟第1季專案」的自訂欄位，其中包含連結，您可以新增下列程式碼：
 >
->```
->link.url=customDataLabelsAsString(Open Q1 Projects)
->linkedname=direct
->```
+```
+link.url=customDataLabelsAsString(Open Q1 Projects)
+linkedname=direct
+```
 
 當您匯出為Excel格式時，匯出的檔案中只會包含指向Workfront內物件的連結，而且只有當您可選取在匯出的Excel檔案中允許連結的位置（例如報表傳送）才支援這些連結。
 
