@@ -4,9 +4,9 @@ description: 2024年第一季版本總覽
 author: Becky
 feature: Product Announcements
 exl-id: 2ad9e170-9e63-472a-8476-13f81b7abff3
-source-git-commit: 45c82f659d02dca69d2a2c390b084330773d4252
+source-git-commit: 17a4a607354cdc991b1c1f72697c530c32f713bd
 workflow-type: tm+mt
-source-wordcount: '941'
+source-wordcount: '1005'
 ht-degree: 0%
 
 ---
@@ -59,7 +59,25 @@ ht-degree: 0%
                  </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">將評論標示為完成</a><span style="color: #ff0000;"> 預覽中的新增專案！</span></p><p>為了更清楚說明檔案何時已檢閱並準備好進行下一個核准階段，我們建立了新的 <strong>完成我的評論</strong> 按鈕。</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">檔案核准的更新狀態</a><span style="color: #ff0000;"> 預覽中的新增專案！</span></p><p>為了更清楚的檔案核准狀態，我們已更新可用的檔案狀態核准。 現在，核准狀態會說明標籤為稽核完成的稽核者，以及只有稽核者但沒有核准者的情況。</p>
+                    </td>
+                    <td><p><b>將於下列日期提供：</b></p>
+                        <ul>
+                            <li>
+                                <p>預覽版本： 2023年12月7日</p>
+                            </li>
+                            <li>
+                                <p>快速發行生產：第24.1發行版本</p>
+                            </li>
+                            <li>
+                                <p>每季發行生產：透過24.1發行</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">將評論標示為完成</a></p><p>為了更清楚說明檔案何時已檢閱並準備好進行下一個核准階段，我們建立了新的 <strong>完成我的評論</strong> 按鈕。</p>
                     </td>
                     <td><p><b>將於下列日期提供：</b></p>
                         <ul>
