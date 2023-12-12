@@ -14,7 +14,7 @@ hide: yes
 > 
 ><span class="preview"> You can now use the Workload Balancer to schedule work for your resources. </span>  
 >  
-> <span class="preview">For information about scheduling resources using the Workload Balancer, see the section [The Workload Balancer](../../resource-mgmt/workload-balancer/workload-balancer.md). </span>  
+> <span class="preview">For information about scheduling resources using the Workload Balancer, see the section [The Workload Balancer: article index](../../resource-mgmt/workload-balancer/workload-balancer.md). </span>  
 
 <!--
 We are currently in the process of removing all Scheduling tools from Adobe Workfront and replacing them with the Workload Balancer.
