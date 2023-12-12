@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: cf09859c-7d6f-4bf0-9b7f-c57096233c94
-source-git-commit: b4fe4dd38bca513f1ce932a8474c06192d97d760
+source-git-commit: 6d2494f1ccb2f9b222a953ed8bae922bd0f26389
 workflow-type: tm+mt
-source-wordcount: '1026'
+source-wordcount: '1024'
 ht-degree: 6%
 
 ---
@@ -41,9 +41,9 @@ ht-degree: 6%
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront授權</td> 
-   <td><p>新計畫：標準 </p>
+   <td><p>新增：標準 </p>
        <p>或</p> 
-       <p>目前計畫：計畫 </p>
+       <p>目前：計畫 </p>
    </td> 
   </tr> 
   <tr> 

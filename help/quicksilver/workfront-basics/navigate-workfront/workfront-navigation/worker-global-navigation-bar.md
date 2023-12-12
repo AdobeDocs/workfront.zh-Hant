@@ -7,9 +7,9 @@ description: 主要功能表會隨著您指派的存取層級而改變 [!DNL Ado
 author: Lisa
 feature: Get Started with Workfront
 exl-id: c6e67518-a9e7-4b71-93d2-7a9d36633792
-source-git-commit: e2db904bc5b4e3682421677b30b0187a6fff46d9
+source-git-commit: 6d2494f1ccb2f9b222a953ed8bae922bd0f26389
 workflow-type: tm+mt
-source-wordcount: '473'
+source-wordcount: '475'
 ht-degree: 0%
 
 ---
@@ -40,7 +40,7 @@ ht-degree: 0%
 
 * **[!UICONTROL 請求]**：您可以提交請求，並在這裡檢閱您或您的團隊成員已提交的請求。 如需詳細資訊，請參閱 [請求](../../../manage-work/requests/requests-overview.md).
 
-* **[!UICONTROL 時間表]**：您可以在這裡存取您目前、未來或舊的時程表。 如需詳細資訊，請參閱 [時間表](../../../timesheets/timesheets-all.md).
+* **[!UICONTROL 時間表]**：您可以在這裡存取您目前、未來或舊的時程表。 如需詳細資訊，請參閱 [時程表：文章索引](../../../timesheets/timesheets-all.md).
 
 * **[!UICONTROL 檔案]**：您可以在這裡上傳檔案或檢閱與您共用的檔案。 如需詳細資訊，請參閱 [檔案](../../../documents/documents-overview.md).
 

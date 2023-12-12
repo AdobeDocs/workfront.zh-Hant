@@ -6,9 +6,9 @@ description: 您可以使用 [!DNL Adobe Workfront for Jira] 若要整合您的 
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 959adc88-5201-4945-96c4-ea890f0bd371
-source-git-commit: 4ade799ff735183f83f045e7eaa876961d266208
+source-git-commit: 6d2494f1ccb2f9b222a953ed8bae922bd0f26389
 workflow-type: tm+mt
-source-wordcount: '2424'
+source-wordcount: '2420'
 ht-degree: 0%
 
 ---
@@ -35,16 +35,16 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">[!DNL [!DNL Adobe Workfront] 計畫]*</td> 
-   <td><p>新計畫：任何</p>
+   <td><p>新增：任何</p>
        <p>或</p>
-       <p>目前計畫： [！UICONTROL Pro]或更高版本</p>
+       <p>目前： [！UICONTROL Pro]或更高版本</p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 授權*</td> 
-   <td><p>新計畫： [！UICONTROL Standard] </p>
+   <td><p>新增：[！UICONTROL Standard] </p>
        <p>或</p> 
-       <p>目前計畫： [！UICONTROL計畫] </p>
+       <p>目前： [！UICONTROL計畫] </p>
    </td>
   </tr> 
   <tr> 
