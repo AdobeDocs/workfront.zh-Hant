@@ -3,10 +3,10 @@ title: 『[!DNL Adobe Workfront] documentation`
 description: 的檔案 [!DNL Adobe Workfront].
 feature: Get Started with Workfront
 exl-id: 337efdc8-ee1e-4223-a211-2cb1dcecfafa
-source-git-commit: 647788221b4acff1cfd5e0ce14d5b99cf90ceee0
+source-git-commit: dfd8dd07e1a88da872550163051e703f6aea5f74
 workflow-type: tm+mt
-source-wordcount: '380'
-ht-degree: 2%
+source-wordcount: '379'
+ht-degree: 0%
 
 ---
 
@@ -75,9 +75,9 @@ Workfront中的敏捷功能可讓團隊以一致的步調完成少量可管理�
 
 使用工作負載平衡器作為在Workfront中排程資源的替代方法。
 
-另請參閱 [工作負載平衡器](/help/quicksilver/resource-mgmt/workload-balancer/workload-balancer.md).
+另請參閱 [工作負載平衡器：文章索引](/help/quicksilver/resource-mgmt/workload-balancer/workload-balancer.md).
 
-### Adobe Workfront Goals
+### Adobe Workfront目標
 
 讓您的策略與您的工作保持一致，以使用Adobe工作框架目標達成一致並取得成功。
 
@@ -97,7 +97,7 @@ Workfront中的敏捷功能可讓團隊以一致的步調完成少量可管理�
 
 請參閱 [developer.adobe.com上的Workfront API Explorer](https://developer.adobe.com/workfront/api-explorer/).
 
-### Workfront 整合
+### Workfront整合
 
 透過將Workfront與其他系統整合，在一個位置存取所有應用程式。
 

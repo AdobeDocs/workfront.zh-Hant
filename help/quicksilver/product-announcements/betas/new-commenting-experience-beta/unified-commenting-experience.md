@@ -7,9 +7,9 @@ author: Alina
 feature: Product Announcements
 role: User
 exl-id: f750b35b-8021-4cc1-81d6-e1ece2530438
-source-git-commit: 3ec1b40ec66b7fa043412203b6c0303a27eb8bfc
+source-git-commit: dfd8dd07e1a88da872550163051e703f6aea5f74
 workflow-type: tm+mt
-source-wordcount: '1226'
+source-wordcount: '1289'
 ht-degree: 2%
 
 ---
@@ -102,7 +102,7 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
    </td>
    <td>✓ (A) 
   </td>
-   <td>✓ 
+   <td>✓ (A) 
    </td>
    <td> 
    </td>
@@ -114,9 +114,9 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
   <tr>
    <td>RTF文字（不包括引號和emoji）
    </td>
-   <td>✓ 
+   <td>✓ (A) 
    </td>
-   <td>✓
+   <td>✓ (A)
    </td>
    <td> 
    </td>
@@ -129,9 +129,9 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
 <tr>
    <td>RTF文字（表情符號）
    </td>
-   <td>✓ 
+   <td>✓ (A) 
    </td>
-   <td>✓
+   <td>✓ (A)
    </td>
    <td> 
    </td>
@@ -144,9 +144,9 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
 <tr>
    <td>RTF文字（區塊引號）
    </td>
-   <td>✓ 
+   <td>✓ (A) 
    </td>
-   <td> ✓
+   <td> ✓ (A)
    </td>
    <td> 
    </td>
@@ -159,9 +159,9 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
 <tr>
    <td> 報價註解
    </td>
-   <td>✓ 
+   <td>✓ (A) 
    </td>
-   <td> ✓
+   <td> ✓ (A)
    </td>
    <td> 
    </td>
@@ -173,9 +173,9 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
   <tr>
    <td>對評論做出反應（類似） 
    </td>
-   <td>✓ 
+   <td>✓ (A) 
    </td>
-   <td>✓ 
+   <td>✓ (A) 
    </td>
    <td> 
    </td>
@@ -187,9 +187,9 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
   <tr>
    <td>將影像附加至註解 
    </td>
-   <td>✓ 
+   <td>✓ (A) 
    </td>
-   <td>✓ 
+   <td>✓ (A) 
    </td>
    <td> 
    </td>
@@ -201,9 +201,9 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
   <tr>
    <td>在評論中標籤人員 
    </td>
-   <td>✓ 
+   <td>✓ (A) 
    </td>
-   <td>✓ 
+   <td>✓ (A) 
    </td>
    <td> 
    </td>
@@ -217,7 +217,7 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
    </td>
    <td> 
    </td>
-   <td>✓
+   <td>✓ (A)
    </td>
    <td> 
    </td>
@@ -233,7 +233,7 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
    </td>
    <td> 
    </td>
-   <td>✓
+   <td>✓ (A)
    </td>
    <td> 
    </td>
@@ -246,9 +246,9 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
 <tr>
    <td>公司私有的評論 
    </td>
-   <td>✓ 
+   <td>✓ (A) 
    </td>
-   <td>✓ 
+   <td>✓ (A) 
    </td>
    <td> 
    </td>
@@ -260,7 +260,7 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
   <tr>
    <td>還原評論的張貼 
    </td>
-   <td>✓ 
+   <td>✓ (A) 
    </td>
    <td>已取代為編輯註解 
    </td>
@@ -274,7 +274,7 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
   <tr>
    <td>關閉系統更新 
    </td>
-   <td>✓ 
+   <td>✓ (A) 
    </td>
    <td>已取代為活動索引標籤 
    </td>
@@ -290,7 +290,7 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
    </td>
    <td> 
    </td>
-   <td> ✓
+   <td> ✓ (A)
    </td>
    <td> 
    </td>
@@ -302,9 +302,9 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
   <tr>
    <td>離開頁面時儲存註解草稿 
    </td>
-   <td>✓ 
+   <td>✓ (A) 
    </td>
-   <td>✓ 
+   <td>✓ (A) 
    </td>
    <td> 
    </td>
@@ -318,7 +318,7 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
    </td>
    <td> 
    </td>
-   <td>✓
+   <td>✓ (A)
    </td>
    <td> 
    </td>
@@ -330,9 +330,9 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
   <tr>
    <td>記錄時間 
    </td>
-   <td>✓ 
+   <td>✓ (A) 
    </td>
-   <td>✓
+   <td>✓ (A)
    </td>
    <td> 
    </td>
@@ -344,7 +344,7 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
     <tr>
    <td>複製對話連結 
    </td>
-   <td>✓ 
+   <td>✓ (A) 
    </td>
    <td> 已取代為複製連結
    </td>
@@ -358,7 +358,7 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
   <tr>
    <td>複製評論連結 
    </td>
-   <td>✓ 
+   <td>✓ (A) 
    </td>
    <td> 已取代為複製連結
    </td>
@@ -372,9 +372,9 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
   <tr>
    <td>報價註解文字 
    </td>
-   <td>✓ 
+   <td>✓ (A) 
    </td>
-   <td>✓
+   <td>✓ (A)
    </td>
    <td> 
    </td>
@@ -386,9 +386,9 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
   <tr>
    <td>複製本文 
    </td>
-   <td>✓ 
+   <td>✓ (A) 
    </td>
-   <td> ✓
+   <td> ✓ (A)
    </td>
    <td> 
    </td>
@@ -402,7 +402,7 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
    </td>
    <td> 
    </td>
-   <td> <span class="preview">✓</span>
+   <td> <span class="preview">✓ (A)</span>
    </td>
    <td> 
    </td>
@@ -417,7 +417,7 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
    </td>
    <td> 
    </td>
-   <td> <span class="preview">✓</span>
+   <td> <span class="preview">✓ (A)</span>
    </td>
    <td> 
    </td>
@@ -430,7 +430,7 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
 <tr>
    <td>在註解中拖放影像
    </td>
-   <td> 
+   <td> ✓ (A)
    </td>
    <td> 
    </td>
@@ -438,14 +438,14 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
    </td>
    <td>2024年第1季度 
    </td>
-   <td>✓ 
+   <td>✓ (A) 
    </td>
   </tr>
 
 <tr>
    <td>編輯自訂表單 
    </td>
-   <td>✓ 
+   <td>✓ (A) 
    </td>
    <td> 
    </td>
@@ -459,7 +459,7 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
   <tr>
    <td>可在註解時編輯狀態、條件、認可日期 
    </td>
-   <td>✓ 
+   <td>✓ (A) 
    </td>
    <td> 
    </td>
@@ -473,7 +473,7 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
 <tr>
    <td>回覆系統更新 
    </td>
-   <td> ✓
+   <td> ✓ (A)
    </td>
    <td> 
    </td>
@@ -487,9 +487,9 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
 <tr>
    <td>新增以其他使用者身分登入的評論時顯示「代表」
    </td>
-   <td> ✓
+   <td> ✓ (A)
    </td>
-   <td> ✓
+   <td> ✓ (A)
    </td>
    <td> 
    </td>
