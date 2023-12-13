@@ -5,11 +5,12 @@ navigation-topic: workfront-integrations-navigation-topic
 title: Adobe Workfront內建整合概述
 description: 您可以整合 [!DNL Adobe Workfront] 協力廠商應用程式。 這些整合可擴充下列專案的公用程式： [!DNL Workfront] 並根據貴組織的需求量身打造。 例如，如果您是行銷行業的創意工作者，可以使用Adobe Creative Cloud增益集將資產直接從Photoshop匯出至Workfront。
 feature: Workfront Integrations and Apps
+author: Becky
 exl-id: ca51cb23-9332-4ce5-aefb-f333455cfc7c
-source-git-commit: 8e283fce9aa2ad981c88e0b8cd5201c7408ab878
+source-git-commit: 02bacdc99c23b70bbe8dd71e493c940f91058965
 workflow-type: tm+mt
-source-wordcount: '510'
-ht-degree: 2%
+source-wordcount: '482'
+ht-degree: 3%
 
 ---
 
@@ -41,7 +42,7 @@ Workfront目前提供下列內建整合。
      <li>After Effects </li>
      </ul>
      <li><p>下載/安裝 <a href="https://exchange.adobe.com/apps/browse/cc?page=1&amp;product=All&amp;q=workfront&amp;sort=RELEVANCE" class="MCXref xref">Adobe交換</a>.</p></li></ul>
-     <p>如需詳細資訊與指示，請參閱 <a href="https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-integrations/workfront-for-creative-cloud/install-wf-cc/wf-cc-install-toc.html" class="MCXref xref">安裝  [!DNL Adobe Workfront] 外掛程式 [!DNL Creative Cloud] 應用</a></p> </td> 
+     <p>如需詳細資訊與指示，請參閱 <a href="https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-integrations/workfront-for-creative-cloud/install-wf-cc/wf-cc-install-toc.html" class="MCXref xref">安裝  [!DNL Adobe Workfront] 外掛程式 [!DNL Creative Cloud] 應用</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>方塊</p> <p> <img src="assets/box,-inc.-logo.png"> </p> </td> 
