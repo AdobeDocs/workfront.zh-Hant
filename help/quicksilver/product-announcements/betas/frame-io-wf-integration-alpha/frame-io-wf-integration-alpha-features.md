@@ -8,9 +8,9 @@ feature: Product Announcements
 hide: true
 hidefromtoc: true
 exl-id: a1603a06-957b-4d52-89f3-f0cec1a4e02c
-source-git-commit: 15e2869417d8315bf8e96f7d9d537cd70a5e39df
+source-git-commit: 31adfeffeda9fc6aa4e76ceae7ef410d9c4c178c
 workflow-type: tm+mt
-source-wordcount: '1204'
+source-wordcount: '1246'
 ht-degree: 0%
 
 ---
@@ -39,7 +39,7 @@ ht-degree: 0%
 
 1. **協調員：** 在Workfront中，建立專案，使用 `Frame.io alpha testing` 群組已指派為專案群組。
 
-1. **協調員：** 在Workfront中，將您的創意內容指派給專案 <span class="preview">或框架啟用的任務</span> 並將專案狀態變更為「目前」。
+1. **協調員：** 在Workfront中，將您的創意內容指派給專案 <span class="preview">或啟用框架的工作（請注意，子工作不能標籤為啟用框架）</span> 並將專案狀態變更為「目前」。
 
 1. **創意內容：** 檢查您的電子郵件，以取得新建立Frame.io專案的邀請
 
@@ -60,6 +60,10 @@ ht-degree: 0%
 1. **創意內容：** 在Frame.io中，將更新版本新增至連線資產的版本棧疊中，以套用要求的變更。
 
 1. **協調員：** 在Workfront中，將核准者/稽核者指派給新上傳的版本，並監控進度，直到該版本達到登出為止。
+
+## 詳細測試案例
+
+對於想要測試其他功能的參與者，我們已建立更複雜的測試情境。 您可以在此處下載此詳細測試案例的指南： [WF + Frame.io詳細測試案例逐步說明](/help/quicksilver/product-announcements/betas/assets/WF-Frame-Detailed-Test-Scenario-Walkthrough.pdf).
 
 ## 功能計畫
 
