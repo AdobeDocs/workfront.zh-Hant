@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 7b920a139689efe6c33f3a4bc495e5c5f270ebf4
+source-git-commit: a74f9f8940a170d8e1347fd99ff2a6c816b12eca
 workflow-type: tm+mt
-source-wordcount: '2492'
+source-wordcount: '2629'
 ht-degree: 0%
 
 ---
@@ -96,6 +96,27 @@ For more information, see [Grant access to Adobe Maestro](../maestro/access/gran
 * 記錄型別的所有表格檢視都具有您選取的相同主要欄位。
 
 如需詳細資訊，請參閱 [管理表格檢視](/help/quicksilver/maestro/views/manage-the-table-view.md).
+
+
+### 連結Maestro記錄與Adobe Experience Manager (AEM)資產
+
+預覽版本： 2023年12月14日
+
+生產版本： 2023年12月15日
+
+您現在可以在Maestro記錄型別與Adobe Experience Manager資產之間建立連線。
+
+建立連線後，此更新便可使用下列功能：
+
+* Maestro使用者可以將AEM資產、資料夾或集合從AEM中他們有權存取的特定存放庫連結至Maestro記錄
+
+* Maestro使用者連線至記錄後，即可在Maestro中檢視所有連線的資產。
+
+* 建立連線後，Experience Manager Assets記錄型別會自動在Maestro中建立。 此新記錄型別的「大師」表格和時間軸檢視中會顯示連線的資產。
+
+* 您可以在連線所在的Maestro記錄表格中檢視AEM資產資訊。
+
+如需詳細資訊，請參閱 [連線記錄型別](/help/quicksilver/maestro/architecture/connect-record-types.md)
 
 ## 2023年12月4日當週
 

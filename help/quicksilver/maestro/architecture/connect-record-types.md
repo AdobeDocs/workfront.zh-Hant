@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
-source-git-commit: 98b57b08b87e47a402684428a76576455df664d7
+source-git-commit: a74f9f8940a170d8e1347fd99ff2a6c816b12eca
 workflow-type: tm+mt
-source-wordcount: '1784'
+source-wordcount: '1941'
 ht-degree: 0%
 
 ---
@@ -74,7 +74,9 @@ author: Alina
 <td>
    <p> Adobe產品</p> </td>
    <td>
-   <p> Adobe Workfront</p> </td>
+   <p> Adobe Workfront</p> 
+   <p>若要將Maestro記錄型別與Experience Manager Assets連線，您必須擁有Adobe Experience Manager Assets</p>
+   </td>
   </tr>  
  <td role="rowheader"><p>Adobe Workfront合約</p></td>
    <td>
@@ -121,7 +123,7 @@ After permssions - replace the table with:
 <td>
    <p> Adobe product</p> </td>
    <td>
-   <p> Adobe Workfront</p> </td>
+   <p> Adobe Workfront</p> <p>To connect Maestro record types with Experience Manager Assets, you must have an Adobe Experience Manager Assets</p> </td>
   </tr>  
  <td role="rowheader"><p>Adobe Workfront agreement</p></td>
    <td>
@@ -199,6 +201,12 @@ After permssions - replace the table with:
       * 公司
       * 群組
 
+   * Adobe Experience Manager Assets：
+
+      * 資產
+      * 資料夾
+      * 集合
+
 * 將記錄型別與另一個記錄型別或另一個應用程式的物件型別連線後，就會出現下列情況：
 
    * 當您連線兩種記錄型別時：「已連結」記錄欄位會在您連線的記錄型別上建立。 類似的連結記錄欄位會在您連線的記錄型別上建立。
@@ -230,12 +238,14 @@ After permssions - replace the table with:
 1. 按一下記錄型別的卡片以開啟記錄型別頁面。
 1. 按一下 **+** 圖示並按一下 **新連線** 標籤。
 
-   ![](assets/new-connection-tab-with-workfront-option.png)
+   ![](assets/new-connection-tab-with-workfront-aem-options.png)
+
 1. 在 **記錄型別** 欄位中，選取下列其中一項： <!--is the field name spelled right? lowercase "t"?-->
 
-   * 另一個作業記錄型別
-   * 分類法
-   * Workfront專案、Portfolio、方案、公司或群組。
+   * 您選取之工作區的另一個作業記錄型別
+   * 來自所選工作區的分類法
+   * Workfront物件型別區段中的專案、Portfolio、方案、公司或群組。
+   * Adobe應用程式區段中的Experience Manager Assets 。
 
    ![](assets/new-connection-tab-fields-with-another-record-selected.png)
 
@@ -255,9 +265,17 @@ After permssions - replace the table with:
    * **允許多筆記錄**：選取此選項以表示您允許使用者在原始記錄上顯示「連結的記錄型別」欄位時新增多個記錄。 依預設會選取此選項。
    * **選取查閱欄位**：選取此選項，從選取的記錄型別新增欄位。 依預設會選取此選項。
 
-1. 按一下 **建立**.
+1. （條件式與選擇性）如果您已選取連線Workfront物件，請選取 **自訂表格** 從 **僅連結符合這些條件的專案** 區段。 <!--this needs to be updated for each object when they fix this UI.--> 只有已附加所選自訂表單的物件才能連結至所選的Maestro記錄型別。 您可以選取多個表單。
 
-1. （視條件而定）如果您在上一步驟中選取選取查閱欄位設定，則 **新增查詢欄位** 方塊開啟。
+   ![](assets/workfront-project-connection-selection.png)
+
+1. （視條件而定）如果您已選取連線至Experience Manager Assets，請從 **Experience Manager存放庫** 中的下拉式功能表 **從下列存放庫連結資產** 區段。 這是必填欄位。 此欄位只會顯示您在Experience Manager Assets中有權存取的存放庫。
+
+   ![](assets/aem-assets-connection-selection.png)
+
+1. 按一下「**建立**」。
+
+1. （視條件而定）如果您已選取 **選取查閱欄位** 在上一步中設定， **新增查詢欄位** 方塊開啟。
 
    按一下 **+** 圖示以從新增欄位 **未選取的欄位** 區域。
 
@@ -274,6 +292,10 @@ After permssions - replace the table with:
 1. （選擇性和條件性）如果您選取連結數字、貨幣、百分比或日期型別欄位，請同時選取彙總值。 當使用者在連結的記錄欄位中選取多個連結的記錄時，連結欄位的值會根據您選擇的彙總器，以逗號分隔或顯示為彙總值。
 
    ![](assets/aggregator-drop-down-for-number-linked-field.png)
+
+   >[!NOTE]
+   >
+   > 將記錄型別連線至Experience Manager Assets時，無法使用彙總器。
 
    從下列選項中選取：
 

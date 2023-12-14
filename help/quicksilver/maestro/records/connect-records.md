@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
-source-git-commit: d3c22c84a9b246d1a45853c5d2825241f58bebe9
+source-git-commit: a74f9f8940a170d8e1347fd99ff2a6c816b12eca
 workflow-type: tm+mt
-source-wordcount: '1975'
+source-wordcount: '2911'
 ht-degree: 0%
 
 ---
@@ -206,9 +206,9 @@ After permssions - replace the table with:
 
 ### 連線大師記錄
 
-1. 按一下 **主要功能表** 圖示 ![](assets/main-menu-workfront.png) 位於Workfront右上角，或 **主功能表** 圖示 ![](assets/main-menu-shell.png)  （如果有的話）按一下 **大師** ![](assets/maestro-icon.png).
+{{step1-to-maestro}}
 
-   根據預設，上次存取的工作區應該會開啟。
+根據預設，上次存取的工作區應該會開啟。
 
 1. （可選）展開現有工作區名稱右側的向下箭頭，並選取您要連線記錄的工作區。
 1. 按一下記錄型別的卡片以開啟記錄型別頁面。
@@ -254,33 +254,24 @@ After permssions - replace the table with:
 
 <!--when we will have more applications to link to from Maestro, change the title to soemthing like: Connect Maestro records to objects from other applications-->
 
-在Maestro記錄型別和Workfront物件型別之間建立連線後，您可以將個別Maestro記錄連線到Workfront中的物件。 您也可以將欄位從Workfront物件連線至Maestro記錄型別。
+在Maestro記錄型別和Workfront物件型別之間建立連線後，您可以將個別Maestro記錄連線到Workfront中的物件。 您連結的Workfront欄位會自動填入您連結物件的Maestro記錄中。
 
-1. 按一下 **主要功能表** 圖示 ![](assets/main-menu-workfront.png) 位於Workfront右上角，或 **主功能表** 圖示 ![](assets/main-menu-shell.png)  （如果有的話）按一下 **大師** ![](assets/maestro-icon.png).
+{{step1-to-maestro}}
 
-   根據預設，上次存取的工作區應該會開啟。
+根據預設，上次存取的工作區應該會開啟。
 
 1. （可選）展開現有工作區名稱右側的向下箭頭，並選取您要連線記錄的工作區。
 1. 按一下記錄型別的卡片以開啟記錄型別頁面。
-1. 從「 」中選取「表格」檢視 **檢視** 記錄型別頁面右上角的下拉式功能表。
-1. 從Workfront將新的連線新增至所選記錄型別的物件型別。 從Workfront區段下的下列物件中選取：
+1. 選取 **表格** 從檢視 **檢視** 記錄型別頁面右上角的下拉式功能表。
 
-   * 專案
-   * 專案組合
-   * 方案
-   * 公司
-   * 群組
-
-   如需詳細資訊，請參閱 [連線記錄型別](../architecture/connect-record-types.md).
-
-   表格中會新增一欄，以顯示連結物件型別。
-
-1. 將個別記錄新增至表格中，以將個別記錄新增至您選取的記錄型別。 如需詳細資訊，請參閱 [建立記錄](../../maestro/records/create-records.md).
-1. 從表格檢視中列出的記錄，移至連結物件欄，將游標停留在您要與Workfront中其他物件連結之記錄對應的儲存格上，然後按一下 **+** 圖示。 <!--change Workfront to other applications, when this will be possible-->
+1. （選擇性）將個別記錄新增至表格的新列，以將個別記錄新增至您選取的記錄型別。 如需詳細資訊，請參閱 [建立記錄](../../maestro/records/create-records.md).
+1. （視條件而定）如果您將選取的記錄型別與Workfront物件連線，請移至連結物件欄，將游標停留在您要與Workfront物件連結之記錄對應的儲存格上，然後按一下 **+** 圖示。
 
    此 **連線物件** 方塊隨即顯示。
 
    ![](assets/connect-objects-box-to-select-projects.png)
+
+   如需有關將記錄型別與來自協力廠商應用程式的物件連線的詳細資訊，請參閱 [連線記錄型別](../architecture/connect-record-types.md).
 
 1. 開始在搜尋方塊中輸入Workfront物件的名稱，然後在其顯示在清單中時選取它
 
@@ -288,11 +279,11 @@ After permssions - replace the table with:
 
    在方塊中選取一或多個物件的名稱，然後按一下 **連線物件** 在「連線物件」方塊的右上角。
 
-   下列專案已新增至Maestro：
+   新增下列專案：
 
    * 選取的Workfront物件會新增至連結的記錄欄位。
    * 將連結欄位新增至連結記錄時，會針對您選取的每個連結欄位建立新的連結欄位（或查詢欄位）。
-   * 名為「Workfront物件」的新記錄型別會建立在與您連結的Maestro記錄相同的工作區中。 物件的名稱是此記錄型別名稱的一部分。 例如，連結至Workfront專案會在Maestro中建立Workfront專案記錄型別。
+   * 名為「&lt; Workfront物件型別名稱>」的新記錄型別會建立在與您連結的Maestro記錄相同的工作區中。 物件的名稱是此記錄型別名稱的一部分。 例如，連結至Workfront專案會建立 **專案** Maestro中的記錄型別。
 
      這是唯讀記錄型別，它顯示在您從Maestro記錄建立的新連結物件欄位中選取的Workfront物件。 連結物件的連結欄位也會顯示在唯讀的連結Workfront記錄上。
 
@@ -307,7 +298,7 @@ After permssions - replace the table with:
      >
      >* 如果您啟用「允許多筆記錄」設定，則多個物件的值會以逗號分隔顯示，或根據您選擇的彙總器彙總。
      >
-     >* 連結的Workfront物件不會建立連結至Maestro連結記錄的連結記錄欄位。
+     >* 在Workfront中，不會針對連結的Workfront物件建立連結至Maestro連結記錄的連結記錄欄位。
 
 
 1. （可選）關閉Maestro記錄型別頁面，然後移至您選取的工作區。
@@ -318,7 +309,6 @@ After permssions - replace the table with:
    >    * Workfront記錄型別頁面中列出的記錄是唯讀的Workfront物件。 從Workfront記錄型別連結的欄位也會顯示為唯讀欄，且在Workfront中填入欄位時自動填入。
    >    * 您無法在Maestro中手動更新Workfront欄位。 Workfront物件欄位必須填入Workfront，且欄位值會自動顯示在Maestro的Workfront記錄中。
    >
-   >    * 若要在「時間軸」檢視中顯示Workfront物件記錄型別，唯讀Workfront記錄型別頁面的「表格」檢視中必須至少顯示兩個日期欄位。
 
 1. （可選）若要在Maestro中開啟Workfront物件記錄「詳細資訊」頁面，請執行下列任一項作業：
 
@@ -351,4 +341,122 @@ After permssions - replace the table with:
    >
    >  您在Workfront物件記錄型別頁面中新增或移除的欄位，不會從連結至Workfront物件型別的Maestro記錄型別中新增或移除。 這些欄位僅在唯讀的Workfront記錄型別頁面上可見，因此您可以在Maestro中檢視它們。
 
-1. （選擇性和條件性）如果您將至少兩個日期欄位新增至Workfront物件，請按一下 **檢視** Workfront物件記錄型別頁面中的下拉式功能表，然後選取 **時間表** 檢視。 Workfront連結物件會顯示在時間軸檢視中。
+1. （選擇性和條件性）如果您將至少兩個日期欄位新增至Workfront物件，請按一下 **檢視** Workfront物件記錄型別頁面中的下拉式功能表，然後選取 **時間表** 檢視或 **建立檢視** 以建立時間表檢視。  如需詳細資訊，請參閱 [管理時間表檢視](/help/quicksilver/maestro/views/manage-the-timeline-view.md).
+
+   Workfront連結物件會顯示在時間軸檢視中。
+
+
+### 將Maestro記錄連線到Adobe Experience Manager物件
+
+<!--when we will have more applications to link to from Maestro, change the title to soemthing like: Connect Maestro records to objects from other applications-->
+
+建立Maestro記錄型別與Adobe Experience Manager Assets之間的連線後，您可以將個別Maestro記錄連線至Experience Manager資產。 當您建立連線時，您從Experience Manager Assets連線的資產欄位會自動填入您連結的Maestro記錄型別中。
+
+{{step1-to-maestro}}
+
+根據預設，上次存取的工作區應該會開啟。
+
+1. （可選）展開現有工作區名稱右側的向下箭頭，並選取您要連線記錄的工作區。
+1. 按一下記錄型別的卡片以開啟記錄型別頁面。
+1. 選取 **表格** 從檢視 **檢視** 記錄型別頁面右上角的下拉式功能表。
+
+1. （選擇性）將個別記錄新增至表格的新列，以將個別記錄新增至您選取的記錄型別。 如需詳細資訊，請參閱 [建立記錄](../../maestro/records/create-records.md).
+1. （視條件而定）如果您將選取的記錄型別與Experience Manager Assets連線，請移至連結物件欄，將游標停留在您要從Experience Manager連結其他物件的記錄所對應的儲存格上，然後按一下 **+** 圖示。
+
+   此 **選取資產** 方塊隨即顯示。 <!--update screen shot with actual assets-->
+
+   ![](assets/select-assets-box-for-aem-record-connections.png)
+
+   如需有關將記錄型別與來自協力廠商應用程式的物件連線的詳細資訊，請參閱 [連線記錄型別](../architecture/connect-record-types.md).
+
+1. 按一下以選取下列部分資產型別：
+
+   * 影像
+   * 集合
+   * 資料夾
+
+   您可以選取多個資產。
+
+   >[!IMPORTANT]
+   >
+   > 您只能連線您有權在Experience Manager中檢視的資產。
+
+1. 按一下 **選取**.
+
+   新增下列專案：
+
+   * 選取的Experience Manager資產會新增至連結的記錄欄位。
+   * 將連結欄位新增至連結記錄時，會針對您選取的每個連結欄位建立新的連結欄位（或查詢欄位）。
+   * 名為「Experience Manager Assets」的新記錄型別會建立在與您連結的Maestro記錄相同的工作區中。
+
+     這是唯讀記錄型別，它顯示在您從Maestro記錄建立的新連結物件欄位中選取的Experience Manager物件。 連結物件的連結欄位也會顯示在唯讀的連結Experience Manager記錄上。
+
+     >[!IMPORTANT]
+     >
+     > 唯讀的Experience Manager Assets記錄型別只會在個別資產新增到Maestro記錄時建立。 只是在Maestro記錄型別和Experience Manager Assets之間建立連線，不會建立Experience Manager Assets記錄型別。
+
+     Experience Manager資產欄位中的任何現有資訊都會顯示在連結或查詢欄位中。
+
+     >[!TIP]
+     >
+     >
+     >* 如果您啟用「允許多筆記錄」設定，則會以逗號分隔多個物件的值。
+     >
+     >* 在Experience Manager Assets應用程式中，不會針對連結的Experience Manager資產建立連結至Maestro連結記錄的連結記錄欄位。
+
+
+1. （可選）關閉Maestro記錄型別頁面，然後移至您選取的工作區。
+1. 按一下Experience Manager Assets記錄型別的卡片。 唯讀Experience Manager Assets記錄型別卡片應在表格檢視中開啟。
+
+   >[!NOTE]
+   >
+   >    * Experience Manager Assets記錄型別頁面中列出的記錄為唯讀資產。 從Experience Manager Assets記錄型別連結的欄位也會顯示為唯讀欄，並在以Experience Manager填入時自動填入。
+   >    * 您無法在Maestro中手動更新Experience Manager欄位。 Experience Manager資產欄位必須填入Experience Manager，且欄位值會自動顯示在Maestro的Experience Manager Assets記錄中。
+   >
+
+1. （可選）前往您連結至Experience Manager Assets的記錄型別，然後在連結的記錄欄位中按一下資產名稱。 資產的Experience Manager詳細資訊會顯示在快顯視窗中。 <!--update screen shot with hi-rez picture-->
+
+   ![](assets/asset-pop-up-window-with-aem-details-and-thumbnail.png)
+
+   影像檔案會顯示下列欄位：
+
+   * 影像縮圖
+   * 影像檔案名稱
+   * 尺寸
+   * 大小
+   * 說明
+   * Experience Manager的檔案路徑
+   * 資產型別
+   * 建立日期
+   * 修改日期
+
+1. （可選）若要在Maestro中開啟「Experience Manager Assets記錄詳細資訊」頁面，請執行下列動作：
+
+   1. 前往 **Experience Manager Assets** Maestro記錄型別卡在您最初選取的工作區中，然後按一下以開啟記錄型別頁面。
+Experience Manager Assets Maestro記錄型別頁面為唯讀。
+   1. 從表格檢視中，按一下資產名稱
+
+      或
+
+      將游標停留在資產名稱上，按一下 **更多** 功能表 ![](assets/more-menu.png) 資產名稱右側，然後按一下 **檢視**.\
+      如此將可開啟資產的大師 **詳細資料** 頁面。 這是唯讀頁面。
+1. （可選）若要以Experience Manager開啟「Experience Manager資產記錄詳細資訊」頁面，請執行下列任一項作業：
+
+   * 前往您連結之記錄的Maestro記錄型別頁面，在連結的記錄欄位中按一下資產名稱以開啟快顯視窗，然後按一下 **開啟** 圖示 ![](assets/open-asset-icon.png) 以開啟資產。
+   * 前往 **Experience Manager Assets** Maestro記錄型別卡在您最初選取的同一個工作區中，並按一下以開啟記錄型別頁面，按一下資產名稱以開啟Maestro **詳細資料** 頁面，然後按一下 **移至來源** 在畫面的右上角。
+
+     ![](assets/go-to-source-asset-maestro-details-page.png)
+   * 前往 **Experience Manager Assets** Maestro記錄型別卡在您最初選取的相同工作區中，按一下卡片以開啟Experience Manager Assets記錄型別頁面，將游標停留在資產名稱上，然後按一下 **更多** 功能表，然後按一下 **移至來源**.
+
+     ![](assets/go-to-source-option-on-table-view.png)
+
+   資產會在Experience Manager Assets中開啟。
+
+1. （可選）按一下 **新增欄位** 圖示 ![](assets/add-fields-icon.png) 「Experience Manager Assets記錄型別」頁面上「表格」檢視的右上角，新增或移除Experience Manager欄位。
+
+   >[!NOTE]
+   >
+   >  您在Experience Manager Assets記錄型別頁面中新增或移除的欄位，不會從連結至Experience Manager資產的Maestro記錄型別中新增或移除。 這些欄位僅在唯讀的Experience Manager Assets記錄型別頁面上可見，因此您可以在Maestro中檢視它們。
+
+1. （選擇性和條件性）如果您在Experience Manager連結資產中新增至少兩個日期欄位，請按一下 **檢視** 在Experience Manager Assets記錄型別頁面中的下拉式功能表，然後選取 **時間表** 檢視或 **建立檢視** 以建立時間表檢視。  如需詳細資訊，請參閱 [管理時間表檢視](/help/quicksilver/maestro/views/manage-the-timeline-view.md).
+Experience Manager Assets連結的資產會顯示在時間軸檢視中。
