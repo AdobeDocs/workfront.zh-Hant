@@ -4,9 +4,9 @@ description: 2024年第一季版本總覽
 author: Becky
 feature: Product Announcements
 exl-id: 2ad9e170-9e63-472a-8476-13f81b7abff3
-source-git-commit: 7de68150d1da45d88e987b59056f906ed15d0080
+source-git-commit: 1ccbab53684928974ef739b0176a6ea893a27320
 workflow-type: tm+mt
-source-wordcount: '1136'
+source-wordcount: '1140'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 0%
 >
 >23.3版本包含將您的組織移至每月版本的選項。 因此，Workfront已變更版本的編號方案，以說明每月和每季的發行追蹤。
 >
->除非另有說明，否則每月和每季發行計畫於當月最後一個星期四提供。
+>除非另有指定，否則每月和每季發行計畫於每月第二整週的星期四提供。
 >
 >| 每月發行 | 每季發行 |
 >|----|----|
