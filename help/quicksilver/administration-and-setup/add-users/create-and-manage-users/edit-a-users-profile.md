@@ -4,13 +4,13 @@ user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: create-and-manage-users
 description: 身為Adobe Workfront管理員，您可以建立新使用者並管理現有使用者的設定檔。
-author: Courtney, Alina
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 0343fe74-1be4-43e2-9e3d-8aa1f7ea26fa
-source-git-commit: a5596a2c734aa1d0f7927e37873761abd56e590b
+source-git-commit: 81a5c0e3bc3b31223b0d584d4d20399cd0081d9d
 workflow-type: tm+mt
-source-wordcount: '3139'
+source-wordcount: '3396'
 ht-degree: 0%
 
 ---
@@ -27,9 +27,7 @@ ht-degree: 0%
 >
 >如需根據貴組織是否已加入Adobe Admin Console而有所差異的程式清單，請參閱 [平台型管理差異(Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
-身為Adobe Workfront管理員，您可以建立新使用者並管理現有使用者的設定檔。 如需建立使用者的詳細資訊，請參閱 [新增使用者](../../../administration-and-setup/add-users/create-and-manage-users/add-users.md).
-
-擁有Plan授權的使用者也可以建立和管理使用者。 如需有關編輯使用者所需存取權的資訊，請參閱 [授予使用者存取許可權](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
+身為Adobe Workfront管理員，您可以建立使用者並管理現有使用者的設定檔。 如需建立使用者的詳細資訊，請參閱 [新增使用者](../../../administration-and-setup/add-users/create-and-manage-users/add-users.md).
 
 ## 存取需求
 
@@ -45,25 +43,35 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront授權</td> 
-   <td>計劃</td> 
+   <td> <p>新增：標準</p>
+   或
+   <p>目前：計畫</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定</td> 
    <td> <p>您必須具備下列其中一項：</p> 
     <ul> 
      <li> <p>系統管理員存取層級。 如需詳細資訊，請參閱 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">授予使用者完整管理存取權</a>. </p> </li> 
-     <li> <p><b>使用者</b> 將存取層級中的設定設為 <b>編輯</b> 存取，使用 <b>建立</b> 以及兩者中的至少一個 <b>使用者管理員</b> 選項已啟用於 <b>微調您的設定</b> <img src="assets/gear-icon-in-access-levels.png">. </p> <p>這兩個選項中，如果使用者 <b>管理員（群組使用者）</b> 已啟用，您必須是使用者所屬群組的群組管理員。</p> <p>如需關於的詳細資訊 <b>使用者</b> 在存取層級中設定，請參閱 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">授予使用者存取許可權</a>.</p> </li> 
+     <li> <p>此 <b>使用者</b> 您存取層級中的物件已設定為 <b>編輯</b> 存取，使用 <b>建立</b> 以及下列至少其中一個 <b>使用者管理員</b> 選項已啟用於 <b>微調您的設定</b> <img src="assets/gear-icon-in-access-levels.png">. </p> 
+     <ul><li> 使用者管理 (所有使用者)</li>
+     <li>管理使用者 (所有使用者)</li></ul>
+     <p>如果  <b>使用者管理員（群組使用者）</b> 已啟用，您必須是群組的群組管理員（使用者為群組成員），才能編輯使用者。</p> 
+     <p>如需關於的詳細資訊 <b>使用者</b> 在存取層級中設定，請參閱 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">授予使用者存取許可權</a>.</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
-</table>
+</table> 
+*若要瞭解您擁有的計畫、授權型別或存取權，請聯絡您的Workfront管理員。
 
 ## 編輯使用者設定檔
 
-1. 按一下 **主要功能表** 圖示 ![](assets/main-menu-icon.png) (位於Adobe Workfront的右上角)，然後按一下 **使用者** ![](assets/users-icon-in-main-menu.png).
-1. 選取使用者，然後按一下編輯圖示 ![](assets/edit-icon.png).
+{{step-1-to-users}}
 
-1. 在 **編輯使用者** 方塊中，變更下列任何資訊，然後按一下 **儲存變更**：
+1. 選取使用者，然後按一下 **編輯** 圖示 ![](assets/edit-icon.png).
+
+   編輯使用者方塊隨即顯示。
+
+1. 在 **編輯使用者** 方塊，變更下列任何資訊，然後按一下 **儲存變更** 隨時：
 
    <table style="table-layout:auto"> 
     <col> 
@@ -73,18 +81,21 @@ ht-degree: 0%
       <td role="rowheader">個人資訊 </td> 
       <td> 
        <ul> 
-        <li><b>名字</b>， <b>姓氏</b></li> 
-        <li> <p><b>電子郵件地址：</b> 使用者的電子郵件地址也是他們在Workfront的使用者名稱。 此欄位區分大小寫，且必須是唯一的。 如果有任何使用者嘗試在10分鐘視窗內新增非唯一電子郵件地址3次，就會出現reCAPTCHA回應。</p> <p>如果您使用電子郵件允許清單並輸入不在清單中的電子郵件網域，使用者將不會收到電子郵件通知。 如需允許清單的詳細資訊，請參閱 <a href="../../../administration-and-setup/get-started-wf-administration/configure-your-email-allowlist.md" class="MCXref xref">設定您的電子郵件允許清單</a>.</p> </li> 
-        <li> <p><b>重設密碼</b>：按一下此連結可重設使用者密碼。 在您重設使用者密碼之前，系統會要求您輸入自己的密碼。</p> <p>若要重設其他使用者的密碼，您必須是Workfront管理員或群組管理員。</p> <p><b>附註</b>:  
+        <li><p><b>名字</b></p></li>
+        <li><p><b>姓氏</b></p></li> 
+        <li> <p><b>電子郵件地址：</b> 使用者的電子郵件地址也是他們在Workfront的使用者名稱。 此欄位區分大小寫，且必須是唯一的。 如果有任何使用者嘗試在10分鐘視窗內新增非唯一電子郵件地址3次，就會出現reCAPTCHA回應。</p> <p> 選取 <b>我不是機器人</b> 設定，然後才能繼續。</p><p>如果您使用電子郵件允許清單並輸入不在清單中的電子郵件網域，使用者將不會收到電子郵件通知。 如需允許清單的詳細資訊，請參閱 <a href="../../../administration-and-setup/get-started-wf-administration/configure-your-email-allowlist.md" class="MCXref xref">設定您的電子郵件允許清單</a>.</p> </li> 
+        <li> <p><b>重設密碼</b>：按一下此連結可重設使用者密碼。 您必須先輸入自己的密碼，才能重設其他使用者的密碼。</p> <p>若要重設其他使用者的密碼，您必須是Workfront管理員或群組管理員。</p> <p><b>注意</b>：  
           <ul> 
-           <li> <p>如果您是群組管理員，則只能為您指定密碼的群組中的使用者重設密碼。 此外，您必須在存取層級中啟用「使用者管理員（群組使用者）」許可權：</p> <p> <img src="assets/group-admin-user.png" > </p> <p>此設定預設為停用。 如需詳細資訊，請參閱 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>.</p> </li> 
+           <li> <p>如果您是群組管理員，則只能為您指定為管理員的群組中的使用者重設密碼。 此外，您必須在存取層級中啟用「使用者管理員（群組使用者）」許可權：</p> <p> <img src="assets/group-admin-user.png" > </p> <p>此設定預設為停用。 如需詳細資訊，請參閱 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>.</p> </li> 
            <li> <p>您無法重設Workfront管理員的密碼。</p> </li> 
           </ul> </p> </li> 
         <li><b>&lt;sso configuration=""&gt; 使用者名稱</b>：如果您的Workfront管理員已啟用Workfront的SSO整合，則SSO使用者名稱會顯示在此欄位中。 此欄位會顯示為您的Workfront執行個體啟用的SSO設定型別。 </li> 
-        <li> <p><b>OnlyAllow &lt;sso configuration=""&gt; 驗證</b>：如果您的Workfront管理員已啟用Workfront的SSO整合，並已更新所有SSO使用者，則此欄位預設為選取。 此欄位會顯示為您的Workfront執行個體啟用的SSO設定型別。</p> <p>選取此欄位時，使用者必須使用其SSO憑證登入Workfront。 取消核取此專案將允許他們使用其Workfront憑證登入Workfront。</p> <p>如需使用SSO解決方案設定Workfront的詳細資訊，請參閱 <a href="../../../administration-and-setup/add-users/single-sign-on/sso-in-workfront.md" class="MCXref xref">Adobe Workfront單一登入概觀</a></p> <p>如需更新SSO使用者的詳細資訊，請參閱 <a href="../../../administration-and-setup/add-users/single-sign-on/update-users-sso.md" class="MCXref xref">更新單一登入的使用者</a>.</p> <p><b>注意</b>：如果您是群組管理員，可以編輯 &lt;sso configuration=""&gt; 欄位僅供指定為此欄位之群組中的使用者使用。 此外，您必須在存取層級中啟用「使用者管理員（群組使用者）」許可權。
+        <li> <p><b>OnlyAllow &lt;sso configuration=""&gt; 驗證</b>：如果您的Workfront管理員已啟用Workfront的SSO整合，並已更新所有SSO使用者，則此欄位預設為選取。 此欄位會顯示為您的Workfront執行個體啟用的SSO設定型別。</p> <p>選取此欄位時，使用者必須使用其SSO憑證登入Workfront。 取消核取此專案將允許他們使用其Workfront憑證登入Workfront。</p> <p>如需使用SSO解決方案設定Workfront的詳細資訊，請參閱 <a href="../../../administration-and-setup/add-users/single-sign-on/sso-in-workfront.md" class="MCXref xref">Adobe Workfront單一登入概觀</a></p> <p>如需更新SSO使用者的詳細資訊，請參閱 <a href="../../../administration-and-setup/add-users/single-sign-on/update-users-sso.md" class="MCXref xref">更新單一登入的使用者</a>.</p> 
+        <p><b>注意</b>：</p> 
+        <p> 如果您是群組管理員，可以編輯 &lt;sso configuration=""&gt; 欄位僅供指定為此欄位之群組中的使用者使用。 此外，您必須在存取層級中啟用「使用者管理員（群組使用者）」許可權。
         <p>如果您是群組管理員，且您的存取層級中已啟用「使用者管理員（所有使用者）」許可權，您可以編輯 &lt;sso configuration=""&gt; 適用於所有使用者的欄位。</p> </li> 
-        <li><b>工作資訊：</b> 有關工作的資訊，例如職稱以及使用者負責哪些專長領域。</li> 
-        <li><p><b>聯絡資訊</b>：使用者的電話號碼和位址。</p>
+        <li><b>工作資訊：</b> 有關工作的資訊，如職稱(位於 <b>標題</b> 欄位)，以及使用者負責的專業領域(在 <b>與我談及</b> 欄位)。</li> 
+        <li><p><b>聯絡資訊</b>：使用者的電話號碼(位於 <b>電話號碼，分機</b>、和 <b>行動電話號碼</b> 欄位)和地址(在 <b>地址、城市、州/省、郵遞區號、國家/地區</b> 欄位)。</p>
         <p>如果使用者已啟用統一使用者管理(UUM)或AdobeIdentity Management系統(IMS)，則 <b>國家</b> 聯絡資訊區段中的欄位僅接受國家/地區代碼值（例如，US、GB、IN）。</p></li>
        </ul> </td> 
      </tr> 
@@ -93,15 +104,16 @@ ht-degree: 0%
       <td> 
        <ul> 
       <li> <p><b>時區：</b> 使用者的時區。</p> <p>如需如何協助使用者在Workfront中跨時區共同作業的資訊，請參閱 <a href="../../../workfront-basics/tips-tricks-and-troubleshooting/working-across-timezones.md" class="MCXref xref">跨時區工作</a>.</p> </li> 
-       <li><b>電子郵件地區設定</b>：使用者偏好的電子郵件地區設定。 這會影響來自Workfront之電子郵件中的數字和日期格式。</li>
+       <li><b>電子郵件地區設定</b>：使用者偏好的電子郵件地區設定。 這會影響從Workfront傳送給此使用者的電子郵件中的數字和日期格式。</li>
 
    <li><b>接收來自此測試環境的電子郵件</b>：如果您想要從目前登入的環境接收電子郵件通知，請核取此選項。
       <p><b>附註</b></p>
-      此選項僅在預覽和沙箱環境中可用。 生產環境中預設會啟用電子郵件通知。 
+      <p>此選項僅在預覽和沙箱環境中可用。 生產環境中預設會啟用電子郵件通知。 </p>
       </li>
 
    <li><b>顯示更新狀態的完成百分比</b>：如果您想要在此使用者工作的「更新」區域內顯示完成百分比列，請核取此選項。</li> 
-       <li><b>將我指派給我自己的工作傳送至我的「正在處理」標籤</b>：如果您希望使用者指派給自己的所有內容直接顯示在「處理中」標籤上，請核取此選項。 預設為在使用者的「工作請求」標籤上列出指派給使用者的所有內容。</li> 
+       <li><b>將我指派給我自己的工作傳送至我的「正在處理」標籤</b>：如果您希望使用者指派給自己的所有內容都直接顯示在首頁區域的工作清單中，請核取此選項。 預設是在首頁區域的「準備開始」或「未就緒」清單中，列出指派給使用者的所有內容。</li> 
+       <li><b>上傳檔案時自動產生校樣</b>：如果您希望使用者上傳的檔案立即產生校訂，請核取此選項。 根據您的Workfront校訂授權，使用者產生校訂時，可在您的系統中為所有使用者產生的校訂總數可能會受到影響。 </li>
        </ul> </td> 
      </tr> 
      <tr> 
@@ -112,11 +124,15 @@ ht-degree: 0%
       <td role="rowheader">存取</td> 
       <td> 
        <ul> 
-      <li><b>作用中：</b> 選取此方塊表示使用者處於使用中狀態。 作用中使用者使用Workfront授權。 清除此方塊會停用使用者。</li> 
+      <li><b>作用中：</b> 選取此方塊表示使用者處於使用中狀態。 作用中使用者使用Workfront授權。 清除此方塊會停用使用者並防止他們登入Workfront。</li> 
        <li> <p><b>存取層級：</b> 選取要指派給此使用者的存取層級。</p> 
-       <p>將存取層級指派給使用者時，可以指派等於或小於您自己的存取層級的層級。 （例如，如果您的存取層級是「供需規劃員」，則您無法指派「管理員」存取層級。） 不過，如果Workfront管理員已在存取層級上啟用非預設許可權，且您的存取層級上也未啟用非預設許可權（透過「微調」設定），則您無法指派預設低於您自己的存取層級的存取層級（如所述） <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>)。 </p> 
-       <p>如需存取層級的詳細資訊，請參閱 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/configure-access.md" class="MCXref xref">設定Adobe Workfront的存取權</a>.</p><p> <b>注意：</b> 如果您的組織使用新的存取模式（標準/輕度/貢獻者），如果標準或輕度使用者已達到其當月的決策限制，則您無法重新指派該使用者給貢獻者存取層級。 </p><p>如需新存取模式的詳細資訊，請參閱 <a href="../how-access-levels-work/access-level-overview.md" class="MCXref xref">新存取層級概觀</a>. </p><p>如需有關決定限制的資訊，請參閱 <a href="/help/quicksilver/review-and-approve-work/proof-doc-decision-limits.md" class="MCXref xref">非付費使用者的有限檔案和校訂決定概覽</a>.</p></li> 
-       <li> <p><b>版面配置範本</b>：為使用者選擇版面範本。 此配置範本優先於任何指派給使用者主群組、主團隊或主要工作角色的配置範本。 如需版面配置範本的指派優先順序的詳細資訊，請參閱 <a href="../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md" class="MCXref xref">建立及管理版面範本</a>.</p> <p><b>附註</b>:  <p>您在此欄位中可用的範本清單取決於您的存取權：</p> 
+       <p>將存取層級指派給使用者時，可以指派等於或低於您自己的存取層級的層級。</p>
+       <p>例如，如果您的存取層級是「計畫」，則您無法指派「管理員」存取層級。 但是，如果Workfront管理員在存取層級上啟用非預設許可權，而您自己的存取層級中未啟用該許可權，則您不能指派預設低於您自己的存取層級的存取層級。 </p>
+       <p>例如，如果您擁有無權刪除任務的「計畫」授權，儘管該「工作」授權低於「計畫」授權，但您無法指派有權刪除任務的「工作」授權給某人。 如需詳細資訊，請參閱  <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>. </p> 
+       <p>如需存取層級的詳細資訊，請參閱 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/configure-access.md" class="MCXref xref">設定Adobe Workfront的存取權</a>.</p>
+       <p> <b>注意：</b></p> 
+       <p> 如果您的組織使用新的存取模式（標準/輕度/貢獻者），如果標準或輕度使用者已達到其當月的決策限制，則無法將該使用者重新指派給貢獻者存取層級。 </p><p>如需新存取模式的詳細資訊，請參閱 <a href="../how-access-levels-work/access-level-overview.md" class="MCXref xref">新存取層級概觀</a>. </p><p>如需有關決定限制的資訊，請參閱 <a href="/help/quicksilver/review-and-approve-work/proof-doc-decision-limits.md" class="MCXref xref">非付費使用者的有限檔案和校訂決定概覽</a>.</p></li> 
+       <li> <p><b>版面配置範本</b>：為使用者選擇版面範本。 此配置範本優先於任何指派給使用者主群組、主團隊或主要角色的配置範本。 如需版面配置範本的指派優先順序的詳細資訊，請參閱 <a href="../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md" class="MCXref xref">建立及管理版面範本</a>.</p> <p><b>注意</b>：  <p>下列清單說明您在此欄位中可用的範本清單如何取決於您的存取權：</p> 
        <ul> 
        <li>身為Workfront管理員，您可以檢視所有系統層級和群組層級的版面配置範本。</li> 
        <li>身為群組管理員，您可以檢視系統層級配置範本，以及與您管理的群組相關聯的配置範本。</li> 
@@ -129,12 +145,17 @@ ht-degree: 0%
       <td> 
        <ul> 
       <li><b>公司</b>：使用者的公司。 使用者只能與一個公司相關聯。 您必須先建立公司，然後才能與使用者建立關聯。 清單中只會顯示作用中的公司。 如需建立公司的詳細資訊，請參閱 <a href="../../../administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md" class="MCXref xref">建立和編輯公司</a>.</li> 
-      <li><b>報告給：</b> 如果您為使用者指定了公司，也可以在此欄位中指定使用者的直接經理。 使用者只能有一個管理員。</li> 
-      <li><b>直接下屬：</b> 如果您為使用者指定了公司，也可以指定使用者的直接下屬。 一個使用者可以有多個直接下屬。</li> 
-      <li><b>主團隊</b>：指定使用者的主團隊。 使用者只能有一個主團隊。</li> 
-      <li><b>其他團隊</b>：使用者可隸屬於多個團隊。</li> 
-      <li> <p><b>主群組：</b> 選取適當的群組以指派使用者。 這可讓使用者存取與群組共用的物件。</p> <p>這是必填欄位. 每個使用者都必須與主群組相關聯。 如果您未選取主群組，則會將您的群組指派為新使用者的主群組。</p> <p><b>注意</b>：您必須是Workfront管理員、群組管理員或群組為公開時，才能將群組指派給使用者。</p> </li> 
-      <li> <p><b>其他群組</b>：使用者可屬於多個群組。 只有當您是Workfront管理員、您是群組管理員或群組為公用時，才能將群組指派給使用者。</p> <p><b>重要</b>：新增使用者至超過100個群組可能會在載入群組清單的Workfront任何區域造成效能問題。</p> <p>如需公用群組的詳細資訊，請參閱 <a href="../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md" class="MCXref xref">建立群組</a>.</p> <p>如需群組的詳細資訊，請參閱 <a href="../../../administration-and-setup/manage-groups/groups-overview/groups.md" class="MCXref xref">群組概述</a>.</p> </li> 
+      <li><b>報告給：</b> 如果您為使用者指定了公司，也可以在此欄位中指定使用者的直接經理。 使用者只能有一個管理員。 如果使用者沒有先與公司建立關聯，則不會顯示此欄位。 </li> 
+      <li><b>直接下屬：</b> 如果您為使用者指定了公司，也可以指定使用者的直接下屬。 一個使用者可以有多個直接下屬。 如果使用者沒有先與公司建立關聯，則不會顯示此欄位。</li> 
+      <li><b>主團隊</b>：指定使用者的主團隊。 使用者只能有一個主團隊。 在指派版面配置範本，或為指派給使用者的任務和問題定義「處理它」按鈕時，主團隊很重要。 </li> 
+      <li><b>其他團隊</b>：使用者可隸屬於多個團隊。 使用者可以在他們的首頁區域檢視指派給他們的任何團隊的工作專案。 </li> 
+      <li> <p><b>主群組：</b> 選取適當的群組以指派使用者。 這可讓使用者存取與群組共用的物件。 您也可以和使用者的主群組共用版面範本。</p> <p>這是必填欄位。 每個使用者都必須與主群組相關聯。 如果您未選取主群組，則會將您的群組指派為新使用者的主群組。</p> <p><b>注意</b>：</p> 
+      <p> 只有符合下列其中一項，您才能將群組指派給使用者：</p>
+      <ul><li>您是Workfront管理員</li>
+      <li>您是群組的管理員</li>
+      <li>群組是公開的。</li></ul> 
+      <li> <p><b>其他群組</b>：使用者可屬於多個群組。 只有當您是Workfront管理員、您是群組管理員或群組為公用時，才能將群組指派給使用者。</p> <p><b>重要</b>：</p> 
+      <p>新增使用者至超過100個群組可能會在載入群組清單的Workfront任何區域造成效能問題。</p> <p>如需公用群組的詳細資訊，請參閱 <a href="../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md" class="MCXref xref">建立群組</a>.</p> <p>如需群組的詳細資訊，請參閱 <a href="../../../administration-and-setup/manage-groups/groups-overview/groups.md" class="MCXref xref">群組概述</a>.</p> </li> 
        </ul> </td> 
      </tr> 
      <tr> 
@@ -150,7 +171,7 @@ ht-degree: 0%
 
    如需有關在Workfront中建立排程的詳細資訊，請參閱 <a href="../../set-up-workfront/configure-timesheets-schedules/create-schedules.md">建立排程</a>.
 
-   排程例外和休假也可能會影響使用者容量。
+   排程例外狀況與休假也可能會影響使用者的容量。
 
    Workfront會根據您設定區域中的Resource Management偏好設定來計算使用者的可用性。 如需詳細資訊，請參閱 <a href="../../set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md">設定資源管理喜好設定</a>.
 
@@ -158,12 +179,12 @@ ht-degree: 0%
 
    將「工作時間」值設為1，表示使用者可用於專案相關工作的整個全職同等工作。
    </li> 
-      <li> <b>排程停用</b>：如果您想要排程在一段時間後停用此使用者，請核取此方塊。 </li> 
-       <li><b>排程的停用日期</b>：停用使用者的截止日期。 如需有關排程使用者停用的資訊，請參閱 <a href="../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md#scheduling-users-for-deactivation" class="MCXref xref">排程使用者停用</a> 在 <a href="../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md" class="MCXref xref">停用或重新啟用使用者</a>.</li> 
+      <li> <b>排程停用</b>：如果您想要排程在特定日期和特定時間停用此使用者，請核取此方塊。 </li> 
+       <li><b>排程的停用日期</b>：停用使用者的日期和時間。 如需有關排程使用者停用的資訊，請參閱 <a href="../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md#scheduling-users-for-deactivation" class="MCXref xref">排程使用者停用</a> 在 <a href="../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md" class="MCXref xref">停用或重新啟用使用者</a>.</li> 
        <li> <p><b>主要角色</b>：這是使用者可以在Workfront中完成的主要工作角色。 指派給使用者的每個任務和問題也會指派給此工作角色。 職務角色在資源管理中至關重要。 只有當您擁有具有管理使用者存取權的計畫授權，或您是Workfront管理員時，才能更新此欄位。 如需有關設定具有管理使用者存取許可權的使用者的詳細資訊，請參閱 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">授予使用者存取許可權</a>.</p> <p>清單中只會顯示作用中的職位角色。 </p> </li> 
        <li>如果您已選取 <b>主要角色</b>，則 <b>FTE可用性百分比</b> 欄位隨即顯示。 指定將使用者排程的時間百分比分配給此工作角色。 主要角色的FTE可用性百分比預設值為100%。 </li> 
        <li> <p><b>其他角色</b>：使用者可在Workfront中擁有多個職務角色。 職務角色在資源管理中至關重要。 使用者可以完成的工作角色數量沒有限制。 但是，我們建議不要將一位使用者指派給太多工作角色，因為這些使用者可能很難管理資源。<p>清單中只會顯示作用中的職位角色。 如需有關工作角色的詳細資訊，請參閱 <a href="../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md" class="MCXref xref">建立和管理職位角色</a>.</p> <p>只有當您擁有具有管理使用者存取權的計畫授權，或您是Workfront管理員時，才能更新此欄位。 <br>如需有關設定具有管理使用者存取許可權的使用者的詳細資訊，請參閱 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">授予使用者存取許可權</a>.</p> </li> 
-       <li> <p>（視條件而定）如果您選取一或多個 <b>其他角色</b>，則 <b>FTE可用性百分比</b> 每個角色都會顯示欄位。 指定將使用者排程的時間百分比分配給每個工作角色。 其他角色的FTE可用性百分比預設值為0%。</p> <p><b>注意</b>：如果其他角色具有0%的FTE可用性，除非將使用者指派給這些角色中的任務，否則它們不會顯示在資源規劃工具中。</p> <p> <img alt="user_settings_roles_and_dte_boxes_rp_story.png" src="assets/user-settings-roles-and-dte-boxes-rp-story.png"> </p> <p><b>附註</b>: <p>全部的總和 <b>FTE可用性百分比</b> 所有角色的必須等於100%。 每個FTE可用性的百分比會計算「資源規劃工具」中每個使用者的「可用時數」。 每個使用者每個角色的可用時數取決於使用者的可用時數。</p> <p>使用者的可用時間由Workfront根據Workfront管理員在資源管理偏好設定中計算約當全職人數時所選取的方法計算。</p> <p>如需有關計算使用者可用性的資訊，請參閱 <a href="../../../resource-mgmt/resource-planning/calculate-hours-fte-for-users-roles-resource-planner.md" class="MCXref xref">計算資源規劃工具中使用者和角色的時數和FTE的概觀</a>.</p> <p>如需有關設定資源管理偏好設定的資訊，請參閱 <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md" class="MCXref xref">設定資源管理喜好設定</a>.</p> </p>
+       <li> <p>（視條件而定）如果您選取一或多個 <b>其他角色</b>，則 <b>FTE可用性百分比</b> 每個角色都會顯示欄位。 指定將使用者排程的時間百分比分配給每個工作角色。 其他角色的FTE可用性百分比預設值為0%。</p> <p><b>注意</b>：如果其他角色具有0%的FTE可用性，除非將使用者指派給這些角色中的任務，否則它們不會顯示在資源規劃工具中。</p> <p> <img alt="user_settings_roles_and_dte_boxes_rp_story.png" src="assets/user-settings-roles-and-dte-boxes-rp-story.png"> </p> <p><b>注意</b>： <p>全部的總和 <b>FTE可用性百分比</b> 所有角色的必須等於100%。 每個FTE可用性的百分比會計算「資源規劃工具」中每個使用者的「可用時數」。 每個使用者每個角色的可用時數取決於使用者的可用時數。</p> <p>使用者的可用時間由Workfront根據Workfront管理員在資源管理偏好設定中計算約當全職人數時所選取的方法計算。</p> <p>如需有關計算使用者可用性的資訊，請參閱 <a href="../../../resource-mgmt/resource-planning/calculate-hours-fte-for-users-roles-resource-planner.md" class="MCXref xref">計算資源規劃工具中使用者和角色的時數和FTE的概觀</a>.</p> <p>如需有關設定資源管理偏好設定的資訊，請參閱 <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md" class="MCXref xref">設定資源管理喜好設定</a>.</p> </p>
        <span class="preview"><p>（選擇性）如果使用者在專案期間的工作角色變更，則財務計算中會使用有效日期的工作角色指派。</p><p>按一下 <b>依日期定義角色</b>，選取 <b>主要角色</b> 和 <b>其他角色</b>，然後輸入每個角色的配置百分比。 這些角色可能與現有角色（使用不同的百分比）或新角色相同。 選取 <b>開始日期</b> 當這些角色作用中時。 這可以是未來的日期。 當最新的角色作用中時，您可以按一下 <b>顯示先前的角色</b> 檢視先前的非作用中角色。</p> </li></span>
        <li> <p><b>排程</b>：將排程與使用者建立關聯。 使用者的排程會計算指派給使用者的任務的時間表。</p> <p>您必須先建立排程，然後才能與使用者建立關聯。 如需建立排程的詳細資訊，請參閱 <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md" class="MCXref xref">建立排程</a>.</p> <p><b>注意</b>：建議您與使用者建立關聯的排程符合使用者的時區。</p> </li> 
        <li> <p><b>週期性時程表</b>：將時程表設定檔與使用者建立關聯，以確保自動為使用者產生時程表。</p> <p><b>注意</b>：您在此欄位中可用的設定檔清單取決於您的存取權：

@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 421fd012c2ce6a4ae0b11fe343c279d1a3fd551c
+source-git-commit: 7b920a139689efe6c33f3a4bc495e5c5f270ebf4
 workflow-type: tm+mt
-source-wordcount: '2305'
+source-wordcount: '2492'
 ht-degree: 0%
 
 ---
@@ -62,6 +62,40 @@ The following are the permissions levels for Maestro workspaces:
 Only Workfront administrators can create, edit, or delete workspaces and all information associated with them.  
 
 For more information, see [Grant access to Adobe Maestro](../maestro/access/grant-access.md) and [Overview of sharing permissions in Adobe Maestro](../maestro/access/sharing-permissions-overview.md). -->
+
+## 2023年12月18日當週
+
+### 更新記錄型別表格檢視中的主要欄位
+
+預覽和生產： 2023年12月14日
+
+您現在可以選擇要顯示在Maestro表格檢視的第一欄中的欄位。 此欄位現在稱為主要欄位。
+
+在此增強功能之前，記錄的「名稱」欄位一律顯示在表格檢視的第一欄，且無法放置於其他位置。
+
+改良後，請注意下列事項：
+
+* 依預設，「名稱」欄或欄位仍然是表格的第一欄。
+
+* 您可以選擇以下任何型別的欄位作為主要欄位，並取代第一欄中的「名稱」欄位：
+
+   * 單行文字
+
+   * 數字
+
+   * 公式
+
+     >[!NOTE]
+     >
+     >公式型別的欄位將在稍後日期發佈。
+
+* 表格檢視的主要欄位一律凍結且無法移動，除非您將其他欄位設定為主要欄位。
+
+* 您可以從非主要欄標題變更主要欄位。
+
+* 記錄型別的所有表格檢視都具有您選取的相同主要欄位。
+
+如需詳細資訊，請參閱 [管理表格檢視](/help/quicksilver/maestro/views/manage-the-table-view.md).
 
 ## 2023年12月4日當週
 

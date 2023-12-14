@@ -7,10 +7,10 @@ description: 物件的「更新」區段會顯示使用者對物件所做的註�
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: 4cdebe4890b775a097469e7d7035a38397b71094
+source-git-commit: 7b920a139689efe6c33f3a4bc495e5c5f270ebf4
 workflow-type: tm+mt
-source-wordcount: '1170'
-ht-degree: 4%
+source-wordcount: '1210'
+ht-degree: 3%
 
 ---
 
@@ -18,6 +18,13 @@ ht-degree: 4%
 # 更新區段概觀
 
 <!--take "legacy" and "new commnenting" references out when we remove the legacy - Jan 2024???-->
+
+<!--take "legacy" and "new commenting" references out when we remove the legacy - Jan 2024???-->
+
+<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它僅在預覽環境中可供所有客戶使用。 </span>
+
+<span class="preview">如需目前發行排程的詳細資訊，請參閱 [2024年第一季版本總覽](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).</span>
+
 
 >[!IMPORTANT]
 >
@@ -49,7 +56,7 @@ ht-degree: 4%
 
 物件的「更新」區段會顯示系統更新，以及使用者在過去90天內所做的最近200項更新。
 
-![](assets/updates-tab-after-unified-experience-for-issues.png)
+<span class="preview">![](assets/updates-tab-after-unified-experience-for-issues.png)</span>
 
 根據您存取評論體驗的物件，您可能會在「更新」區段找到下列體驗：
 
@@ -89,7 +96,7 @@ ht-degree: 4%
 
 ### 新評論體驗中「更新」區段的概觀
 
-![](assets/updates-tab-after-unified-experience-for-tasks.png)
+<span class="preview">![](assets/updates-tab-after-unified-experience-for-tasks.png)</span>
 
 >[!NOTE]
 >
@@ -202,9 +209,6 @@ ht-degree: 4%
  </tbody> 
 </table>
 
-
-<br>
-
 >[!NOTE]
 >
 >新增至系統更新的回覆不會彙總至父物件。 只有子物件的直接回覆和新增至現有更新的回覆會向上彙整至父物件。
@@ -213,7 +217,6 @@ ht-degree: 4%
 >
 > 無法在新評論體驗中回覆系統更新。 如需詳細資訊，請參閱 [新的評論體驗](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 
-</br>
 
 ## 更新區段的限制
 
@@ -230,9 +233,9 @@ ht-degree: 4%
 * 專案團隊的「更新」區段由在下列物件上輸入的更新來填入：
 
    * 使用者
-   * 時程表*
+   * 時間表*
    * 劇本
-   * 疊代*
+   * 反複專案*
 
   *這些不適用於新的評論體驗。
 

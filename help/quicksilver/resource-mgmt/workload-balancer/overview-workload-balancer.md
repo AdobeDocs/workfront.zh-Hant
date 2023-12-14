@@ -3,13 +3,13 @@ content-type: overview
 product-area: resource-management
 navigation-topic: the-workload-balancer
 title: 工作負載平衡器概覽
-description: 在專案經理計畫專案工作並建立任務後，您可以使用工作負載平衡器將此工作指派給團隊中的使用者。
-author: Alina
+description: 在專案經理透過建立任務來計畫專案工作之後，以及資源經理將工作角色資源配置給資源規劃工具中的專案之後，專案所有者和專案團隊經理可以使用工作負載平衡器將工作專案指派給使用者。
+author: Lisa
 feature: Resource Management
 exl-id: 9398bd04-9df7-4b77-8361-fdb5bdce6829
-source-git-commit: b3ec7af8032e077736df1f48a9a4990b8c11922f
+source-git-commit: 3c5bcb85080a882a8b69bffcd01563a0479f98a5
 workflow-type: tm+mt
-source-wordcount: '1147'
+source-wordcount: '1180'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
 <p>(NOTE: this is linked from the UI for the Workload Balancer page. DO NOT CHANGE TITLE OR LINK) </p>
 -->
 
-在專案經理計畫專案工作並建立任務後，您可以使用工作負載平衡器將此工作指派給使用者。
+在專案經理透過建立任務來計畫專案工作之後，以及資源經理將工作角色資源配置給資源規劃工具中的專案之後，專案所有者和專案團隊經理可以使用工作負載平衡器將工作專案指派給使用者。
 
 >[!IMPORTANT]
 >
@@ -60,7 +60,7 @@ ht-degree: 0%
 
   如需詳細資訊，請參閱 [在工作負載平衡器中指派工作的總覽](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md).
 
-  您也可以大量指派工作專案，如此將能更輕鬆地一次將大量工作專案分散到多個專案中。 如需詳細資訊，請參閱 [使用工作負載平衡器大量指派工作](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer-in-bulk.md).
+  您也可以大量指派工作專案，如此將能更輕鬆地一次在多個專案中分配多個工作專案。 如需詳細資訊，請參閱 [使用工作負載平衡器大量指派工作](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer-in-bulk.md).
 
 * 高階主管可以透過透明度來決定組織內部人員使用方式，進而及時決定人員配置。
 * 團隊成員受益於更好的共同作業，因為他們可以在任何指定時間檢視同事正在工作的內容。 如需有關檢視或管理工作負載平衡器中的資源所需存取許可權的資訊，請參閱 [管理工作負載平衡工具中的資源所需的存取權](../../resource-mgmt/workload-balancer/access-needed-manage-resources-balancer.md).
@@ -92,15 +92,18 @@ ht-degree: 0%
 
   如需有關在工作負載平衡器管理資源的工作負載所需的存取權資訊，請參閱 [管理工作負載平衡工具中的資源所需的存取權](../../resource-mgmt/workload-balancer/access-needed-manage-resources-balancer.md).
 
-* 您想要管理其工作負載的使用者必須符合下列條件，以便其使用狀態和技能的資訊是準確的：
+* 您要管理其工作負載的使用者必須符合下列條件，以便有關其使用狀態和技能的資訊是準確的：
 
    * 擁有與其設定檔相關聯的排程和工作角色。
-   * 有關將排程和工作角色與使用者關聯的詳細資訊，請參閱 [新增使用者](../../administration-and-setup/add-users/create-and-manage-users/add-users.md)
+
+     有關將排程和工作角色與使用者關聯的詳細資訊，請參閱 [新增使用者](../../administration-and-setup/add-users/create-and-manage-users/add-users.md)
    * 若使用者未與排程建立關聯，為了進行資源管理，您的Workfront系統的「預設排程」預設會與使用者建立關聯。
-   * 在其排程中更新「排程例外」。\
+   * 在其排程中更新「排程例外」。
+
      如需建立排程的詳細資訊，請參閱 [建立排程](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md)
 
-   * 在設定檔中更新其休假行事曆。\
+   * 在設定檔中更新其休假行事曆。
+
      如需有關更新使用者休假行事曆的資訊，請參閱 [設定個人休假](../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/personal-time-overview.md).
 
      <!--   
@@ -110,13 +113,15 @@ ht-degree: 0%
      </div>   
      -->
 
-* Workfront管理員必須決定Workfront計算使用者可用性的方式。 他們可以決定Workfront是使用系統預設排程還是使用者的排程，來計算使用者可工作的時間。 如需詳細資訊，請參閱 [設定資源管理喜好設定](../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md).
+* Workfront管理員必須決定Workfront計算使用者可用性的方式。 他們可以決定Workfront是否使用系統預設排程，或使用者的排程，透過調整Workfront設定區域中的資源管理偏好設定來計算使用者可使用的時間。
+
+  如需詳細資訊，請參閱 [設定資源管理喜好設定](../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md).
 
 ### 設定任務和問題的最佳實務 {#best-practices-for-setting-up-tasks-and-issues}
 
 開始將工作指派給工作負載平衡器中的使用者之前，請確定以下任務和問題設定存在：
 
-* 父系任務未指派給使用者或角色。 它們不會顯示在工作負載平衡器中。
+* 父系任務未指派給使用者或角色。 父系任務未顯示在工作負載平衡器中。
 * 任務和問題的計畫時數值大於零。
 
 * 任務和問題的持續時間值大於零。
@@ -124,16 +129,16 @@ ht-degree: 0%
 
 ## 開始使用工作負載平衡器之前
 
-* 您可以使用工作負載平衡器來指派工作並管理組織中使用者的每日配置。
+* 開始使用工作負載平衡器之前請檢閱下列文章：
 
-  本文將引導您瞭解如何導覽工作負載平衡器以執行這些動作： [瀏覽工作負載平衡器](../workload-balancer/navigate-the-workload-balancer.md).
+   * 本文將引導您瞭解如何導覽工作負載平衡器以執行這些動作： [瀏覽工作負載平衡器](../workload-balancer/navigate-the-workload-balancer.md).
 
-  以下文章將逐步引導您瞭解如何指派工作和管理使用者分配：
+   * 以下文章將逐步引導您瞭解如何指派工作和管理使用者分配：
 
-   * [在工作負載平衡器中指派工作的總覽](../workload-balancer/assign-work-in-workload-balancer.md).
-   * [在工作負載平衡器中管理使用者配置](../workload-balancer/manage-user-allocations-workload-balancer.md).
+      * [在工作負載平衡器中指派工作的總覽](../workload-balancer/assign-work-in-workload-balancer.md).
+      * [在工作負載平衡器中管理使用者配置](../workload-balancer/manage-user-allocations-workload-balancer.md).
 
-* 工作負載平衡器可以位於Workfront的多個不同區域。 如需有關可在何處找到工作負載平衡器的資訊，請參閱 [找到工作負載平衡器](../../resource-mgmt/workload-balancer/locate-workload-balancer.md).
+* 工作負載平衡器可以在Workfront的多個不同區域找到。 如需有關可在何處找到工作負載平衡器的資訊，請參閱 [找到工作負載平衡器](../../resource-mgmt/workload-balancer/locate-workload-balancer.md).
 
 ## 使用工作負載平衡器所需的存取權
 

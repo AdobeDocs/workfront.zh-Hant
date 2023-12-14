@@ -7,7 +7,7 @@ author: Alina
 feature: Product Announcements
 role: User
 exl-id: f750b35b-8021-4cc1-81d6-e1ece2530438
-source-git-commit: dfd8dd07e1a88da872550163051e703f6aea5f74
+source-git-commit: 7b920a139689efe6c33f3a4bc495e5c5f270ebf4
 workflow-type: tm+mt
 source-wordcount: '1289'
 ht-degree: 2%
@@ -432,13 +432,13 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
    </td>
    <td> ✓ (A)
    </td>
-   <td> 
+   <td> <span class="preview">✓ (A)</span>
    </td>
    <td> 
    </td>
    <td>2024年第1季度 
    </td>
-   <td>✓ (A) 
+   <td> 
    </td>
   </tr>
 

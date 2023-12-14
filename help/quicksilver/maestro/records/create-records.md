@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: d3c22c84a9b246d1a45853c5d2825241f58bebe9
+source-git-commit: 92e8b9949f13536b3464922a93fafcb74688d916
 workflow-type: tm+mt
-source-wordcount: '976'
+source-wordcount: '1053'
 ht-degree: 0%
 
 ---
@@ -39,6 +39,12 @@ ht-degree: 0%
 
 * 為Maestro記錄型別手動建立它們
 * 將它們連線到來自協力廠商應用程式的Maestro記錄。
+* 從外部清單複製並貼上資訊，以建立記錄。
+
+本文說明如何建立Maestro記錄。 如需有關管理表格或時間表檢視中的記錄的資訊，請參閱下列文章：
+
+* [管理表格檢視](/help/quicksilver/maestro/views/manage-the-table-view.md)
+* [管理時間表檢視](/help/quicksilver/maestro/views/manage-the-timeline-view.md)
 
 ## 存取需求
 
@@ -183,7 +189,7 @@ After permssions - replace the table with:
 
 ## 從其他應用程式連線記錄以建立記錄
 
-您可以將記錄連結至Maestro連結的記錄，藉此從其他應用程式匯入記錄。
+您可以將記錄連結至Maestro連結的記錄，藉此從其他應用程式匯入記錄。 這會為協力廠商應用程式連線物件建立Maestro記錄型別。 您連線至原始Maestro記錄的記錄會顯示在協力廠商應用程式連線物件Maestro記錄型別表格檢視中。
 
 1. 建立Maestro記錄型別，如 [建立記錄型別](../architecture/create-record-types.md).
 
@@ -199,7 +205,6 @@ After permssions - replace the table with:
 
      例如，如果您將Maestro記錄型別連線至Workfront專案，會在相同工作區中建立名為「Workfront專案」的唯讀記錄型別。
    * 第三方記錄型別頁面中的唯讀記錄。 從協力廠商應用程式匯入的記錄仍維持唯讀狀態，且只能在其原始應用程式中更新。
-
 
 ## 從外部清單複製並貼上資訊，以建立記錄
 

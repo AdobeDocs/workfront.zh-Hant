@@ -6,10 +6,10 @@ description: 您在中建立Kanban或Scrum敏捷團隊 [!DNL Adobe Workfront].
 author: Lisa
 feature: Agile
 exl-id: b4c417a6-64c8-43e0-bace-b73572247b3e
-source-git-commit: dfd8dd07e1a88da872550163051e703f6aea5f74
+source-git-commit: 3c5bcb85080a882a8b69bffcd01563a0479f98a5
 workflow-type: tm+mt
-source-wordcount: '1548'
-ht-degree: 0%
+source-wordcount: '1476'
+ht-degree: 1%
 
 ---
 
@@ -42,16 +42,23 @@ ht-degree: 0%
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] 計畫*</strong></td> 
+   <td role="rowheader">[!DNL Adobe Workfront] 計畫*</td> 
    <td> <p>任何</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] 授權*</strong></td> 
+  </tr>
+
+<tr> 
+   <td role="rowheader">[!DNL Adobe Workfront] 授權*</td> 
    <td> <p>新增：[！UICONTROL Standard]</p> 
    或
    <p>目前： [！UICONTROL Work]或更高版本</p> </td> 
-  </tr> 
- </tbody> 
+  </tr>
+
+<tr> 
+   <td role="rowheader">存取層級</td> 
+   <td> <p>編輯團隊的存取權</p>  </td> 
+  </tr>
+
+</tbody> 
 </table>
 
 *若要瞭解您擁有的計畫或授權型別，請連絡 [!DNL Workfront] 管理員。
@@ -68,14 +75,13 @@ ht-degree: 0%
 1. 選取您要管理的敏捷團隊。
 1. 按一下 **[!UICONTROL 更多]** 功能表 ![](assets/more-menu.png) ，然後選取 **[!UICONTROL 編輯]**.
 
-   僅限擁有下列任一專案的團隊成員： [!UICONTROL 計畫] 或 [!UICONTROL 工作] 授權請參閱此選項。\
    ![編輯團隊](assets/edit-team-settings-350x205.png)
 
 1. 在 **[!UICONTROL 敏捷]** 區段，在 **[!UICONTROL 預估劇本在]** 區域，選取您是否要使用點或小時來預估內文的大小（工作負載）。 如果您選取「點」，請指定多少小時等於1點。 （預設值為1點= 8小時。） 這是新增到劇本的計畫時數。
 
    **範例：** 如果您已選取以點為單位來預估劇本，而1點等於8小時，則預估劇本為3點，則系統會將24個計畫小時新增至劇本。
 
-1. 按一下 **[!UICONTROL 儲存變更]**.
+1. 按一下「**[!UICONTROL 儲存變更]**」。
 
 ## 在敏捷故事板上設定狀態列
 
@@ -89,8 +95,6 @@ ht-degree: 0%
 
 1. 選取您要管理的敏捷團隊。
 1. 按一下 **[!UICONTROL 更多]** 功能表，然後選取 **[!UICONTROL 編輯]**.
-
-   僅限擁有下列任一專案的團隊成員： [!UICONTROL 計畫] 或 [!UICONTROL 工作] 授權請參閱此選項。
 
    ![編輯團隊](assets/edit-team-settings-350x205.png)
 
@@ -109,7 +113,7 @@ ht-degree: 0%
 
    您可以新增自訂狀態，如果 [!DNL Workfront] 管理員已設定它們。 如需詳細資訊，請參閱 [建立或編輯狀態](../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md).
 
-1. 按一下 **[!UICONTROL 儲存變更]**.
+1. 按一下「**[!UICONTROL 儲存變更]**」。
 
 ## 設定要在敏捷故事板上顯示在故事卡上的其他欄位
 
@@ -139,7 +143,6 @@ ht-degree: 0%
 
 1. 選取您要管理的敏捷團隊。
 1. 按一下 **[!UICONTROL 更多]** 功能表，然後選取 **[!UICONTROL 編輯]**.\
-   僅限擁有下列任一專案的團隊成員： [!UICONTROL 計畫] 或 [!UICONTROL 工作] 授權請參閱此選項。
 
    ![編輯團隊](assets/edit-team-settings-350x205.png)
 
@@ -149,7 +152,7 @@ ht-degree: 0%
 
 1. 選取您要新增的欄位名稱。
 1. 輸入 **[!UICONTROL 顯示名稱]** ，以便在本文或問題卡上顯示的欄位。
-1. 按一下 **[!UICONTROL 儲存變更]**.
+1. 按一下「**[!UICONTROL 儲存變更]**」。
 
 ## 設定進行中的工作(WIP)限制
 
@@ -166,8 +169,6 @@ ht-degree: 0%
 1. 選取您要管理的Kanban團隊。
 1. 按一下 **[!UICONTROL 更多]** 功能表 ![](assets/more-menu.png)，然後選取 **[!UICONTROL 編輯]**.
 
-   僅限擁有下列任一專案的團隊成員： [!UICONTROL 計畫] 或 [!UICONTROL 工作] 授權請參閱此選項。
-
    ![編輯團隊](assets/edit-team-settings-350x205.png)
 
 1. 在 **[!UICONTROL 敏捷]** 區段，在 **[!UICONTROL 方法]** 區段，確定已選取Kanban。
@@ -178,7 +179,7 @@ ht-degree: 0%
 
    ![WIP限制](assets/wip-limit-350x193.png)
 
-1. 按一下 **儲存變更**.
+1. 按一下「**儲存變更**」。
 
 ## 設定從待處理專案自動新增劇本
 
@@ -193,8 +194,6 @@ ht-degree: 0%
 1. 選取您要管理的Kanban團隊。
 1. 按一下 **[!UICONTROL 更多]** 功能表 ![](assets/more-menu.png)，然後選取 **[!UICONTROL 編輯]**.
 
-   僅限擁有下列任一專案的團隊成員： [!UICONTROL 計畫] 或 [!UICONTROL 工作] 授權請參閱此選項。
-
    ![編輯團隊](assets/edit-team-settings-350x205.png)
 
 1. 選取 **[!UICONTROL 自動從待處理專案新增下一個劇本]** 設定待處理專案中的下一個專案自動新增至 **[!UICONTROL 新增]** 欄(當專案移出 **[!UICONTROL 進行中]** 欄。
@@ -204,7 +203,7 @@ ht-degree: 0%
    任何時候將劇本從 [!UICONTROL 進行中] 欄放入故事板上的欄，代表 [!UICONTROL 完成] 狀態（或相等的狀態） [!UICONTROL 完成])，待處理專案欄中的劇本會自動移至 [!UICONTROL 新增] 的欄 [!UICONTROL Kanban面板].
 從待處理專案新增時，具有最高優先順序的內文會新增到內文板中。
 
-1. 按一下 **[!UICONTROL 儲存變更]**.
+1. 按一下「**[!UICONTROL 儲存變更]**」。
 
 ## 設定卡片在網站上停留的時間 [!UICONTROL Kanban] 展示板
 
@@ -216,11 +215,9 @@ ht-degree: 0%
 1. 選取Kanban團隊。
 1. 按一下 **[!UICONTROL 更多]** 功能表 ![](assets/more-menu.png) ，然後選取 **[!UICONTROL 編輯]**.
 
-   僅限擁有下列任一專案的團隊成員： [!UICONTROL 計畫] 或 [!UICONTROL 工作] 授權請參閱此選項。
-
    ![編輯團隊](assets/edit-team-settings-350x205.png)
 
 1. 在 **[!UICONTROL 已完成天數卡會保留在Kanban板上]** 從下拉式選單中選取一個值。
 
    您可以選擇1到30天之間的數字。
-1. 按一下 **[!UICONTROL 儲存變更]**.
+1. 按一下「**[!UICONTROL 儲存變更]**」。

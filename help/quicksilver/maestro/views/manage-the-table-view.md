@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: dfd8dd07e1a88da872550163051e703f6aea5f74
+source-git-commit: 7b920a139689efe6c33f3a4bc495e5c5f270ebf4
 workflow-type: tm+mt
-source-wordcount: '2085'
+source-wordcount: '2271'
 ht-degree: 3%
 
 ---
@@ -137,36 +137,44 @@ Maestro表格檢視的欄標題會顯示與檢視中記錄相關聯的欄位。 
 
      ![](assets/fields-setting-table-view-toolbar-expanded.png)
 
-   >[!TIP]
-   >
-   >* [名稱]欄位永遠是表格檢視中的第一個欄位。
-   >
-   >* 您無法將「名稱」欄位移至其他位置。
-   >
-   >* 您無法隱藏「名稱」欄位。
-   >
-   >* 「名稱」欄位已凍結，且不是水準捲動的一部分。
 
-   <!--* Replace the field in the first column with another field by changing the primary field. For more information, continue to step 4. (******ensure this is accurate****)-->
+     >[!TIP]
+     >
+     >* [名稱]欄位永遠是表格檢視中的第一個欄位。
+     >
+     >* 您無法將「名稱」欄位移至其他位置。
+     >
+     >* 您無法隱藏「名稱」欄位。
+     >
+     >* 「名稱」欄位已凍結，且不是水準捲動的一部分。
 
-   <!--1. (Optional) Hover over a field name in the column header of any field that does not display in the first field of the table, click the downward-pointing arrow to the right of the field name, then click **Set as primary field**. 
-    (******add screen shot*****)
+   * 變更主要欄位，以其他欄位取代第一欄中的欄位。 如需詳細資訊，請繼續步驟4。 <!--accurate?-->
 
-    1. Click **Set field** to confirm. 
-    The field becomes a primary field which means it displays as the first column of the table view. The previous primary field moves in the second column.
-    >[!NOTE]
-    >
-    >   * Only fields of the following types can be primary fields: 
-    >
-    >       * Single-line text
-    >       * Number
-    >       * Formula (********HIDE THIS FOR NOW???********)
-    >
-    >   * The primary field is always frozen.
-    >
-    >   * Changing the primary field in your table view affects the view for all other users who choose it.
-    
-    ************ALSO UPDATE THE TIP BELOW ABOUT THE PRIMARY FIELD******-->
+1. （選擇性）將滑鼠游標停留在任何未顯示在表格第一欄之欄位的欄位標題中，按一下欄位名稱右側的向下箭頭，然後按一下 **設為主要欄位**.
+
+   ![](assets/set-as-primary-field-option-table-view.png)
+
+1. 按一下 **設定欄位** 以確認。
+
+   該欄位會變成主要欄位，表示它會顯示為表格檢視的第一欄。 前一個主要欄位會移至第二欄。
+
+   >[!NOTE]
+   >
+   >   * 只有下列型別的欄位才能為主要欄位：
+   >
+   >       * 單行文字
+   >       * 數字
+   >       * 公式
+   >
+   >         公式欄位將在稍後日期發佈。
+   >
+   >   * 主要欄位一律凍結且無法移動。 如果需要將主要欄位移至其他位置，您可以選取其他欄位來取代主要欄位。
+   >
+   >   * 變更表格檢視中的主要欄位會影響其他所有選擇檢視的使用者的檢視。
+   >
+   >   * 變更表格檢視中的主要欄位會影響所有表格檢視。
+   >
+   >   * 您無法刪除或隱藏主要欄位。
 
 1. 按一下並拖曳欄分隔線，並將它們拖曳到所需的位置以增加欄寬。
 

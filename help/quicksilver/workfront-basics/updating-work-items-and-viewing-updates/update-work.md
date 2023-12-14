@@ -6,9 +6,9 @@ description: 您可以在Adobe Workfront物件（專案、任務或問題）上�
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: 3ffb6fdebb54682abc737e55186850458a133f7c
+source-git-commit: 7b920a139689efe6c33f3a4bc495e5c5f270ebf4
 workflow-type: tm+mt
-source-wordcount: '4073'
+source-wordcount: '4163'
 ht-degree: 1%
 
 ---
@@ -222,7 +222,7 @@ drafted for P&P release:
       <td>在日期選擇器中，選取您認可完成工作專案的日期。 如需有關認可日期的資訊，請參閱 <a href="../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md" class="MCXref xref">認可日期總覽</a>.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>條件</strong></td> 
+      <td role="rowheader"><strong>狀態</strong></td> 
       <td>為任務或問題選取新條件。 如需有關選取條件的資訊，請參閱 <a href="../../manage-work/projects/updating-work-in-a-project/update-condition-for-tasks-and-issues.md" class="MCXref xref">更新任務和問題的條件</a>.</td> 
      </tr> 
      <tr> 
@@ -405,13 +405,12 @@ drafted for P&P release:
    1. 在 **建立連結** 方塊，位於 **URL**，鍵入或貼上您要連結之來源的URL。
 
    1. 在 **要顯示的文字**，輸入或貼上連結文字。
-   1. 按一下&#x200B;**儲存**。
+   1. 按一下「**儲存**」。
 
 1. （可選）若要將影像附加到更新中，請執行下列任一項作業：
 
-   <!--* <span class="preview">Save the image on our computer, then drag and drop it in the New comment area.</span>
-   <span class="preview">This is not available in the Production environment for the new commenting experience.</span>
-   -->
+   * <span class="preview">將影像儲存在電腦上，然後將其拖放到「新增註解」區域。</span>
+     <span class="preview">這不適用於新評論體驗的生產環境。 在生產環境中的舊版註解體驗中，可將影像拖放至註解中。 </span>
 
    * <span class="preview">從電腦複製熒幕擷圖，然後貼到註解中 </span>
    * 按一下 **新增影像** 圖示 ![](assets/add-image-mountain-with-plus-icon.png) 並瀏覽至您電腦上的影像。
@@ -431,6 +430,11 @@ drafted for P&P release:
    >* 當有人從「檔案」區域刪除附加至註解的影像時，該影像也會從註解中移除。
 
    <!--remove the statement above about legacy, when we remove the legacy environment.-->
+
+1. （選擇性）若要在現有更新中檢視影像，請執行下列任一項作業：
+
+   * 按一下 **預覽** 圖示 <span class="preview">![](assets/previewimageicon-31x31.png)</span> 在影像縮圖上，以在新的瀏覽器標籤中開啟全尺寸影像。
+   * 按一下 **下載** 圖示 ![](assets/downloadimageicon.png) 在影像縮圖上以下載影像。
 
 1. 按一下 **提交** 以新增您的註解。
 
