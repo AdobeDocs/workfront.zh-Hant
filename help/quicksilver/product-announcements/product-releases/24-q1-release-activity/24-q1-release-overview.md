@@ -4,9 +4,9 @@ description: 2024年第一季版本總覽
 author: Becky
 feature: Product Announcements
 exl-id: 2ad9e170-9e63-472a-8476-13f81b7abff3
-source-git-commit: 17a4a607354cdc991b1c1f72697c530c32f713bd
+source-git-commit: 7de68150d1da45d88e987b59056f906ed15d0080
 workflow-type: tm+mt
-source-wordcount: '1005'
+source-wordcount: '1136'
 ht-degree: 0%
 
 ---
@@ -37,9 +37,47 @@ ht-degree: 0%
 
 ## Adobe Workfront增強功能
 
+* [管理員增強功能](#administrator-enhancements)
 * [檔案管理增強功能](#document-management-enhancements)
 * [整合增強功能](#integration-enhancements)
 * [更新流和通知增強功能](#update-stream-and-notification-enhancements)
+
+### 管理員增強功能
+
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 50%;" />
+            <tbody>
+                <tr>
+                    <td>
+                        <p><span class="bold">功能</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">發行日期</span>
+                        </p>
+                    </td>
+                 </tr>
+                 <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">現在提供前12個月的校訂/檔案決策</a><span style="color: #ff0000;"> 預覽中的新增專案！</span></p><p>新授權和舊授權型別的「使用者決策」報告現在會顯示當月以及前12個月的決策數。</p>
+                    </td>
+                    <td><p><b>將於下列日期提供：</b></p>
+                        <ul>
+                            <li>
+                                <p>預覽版本： 2023年12月14日</p>
+                            </li>
+                            <li>
+                                <p>快速發行生產：第24.1發行版本</p>
+                            </li>
+                            <li>
+                                <p>每季發行生產：透過24.1發行</p>
+                            </li>
+                        </ul>
+                    </td>
+                 </tr>
+           </tbody>
+        </table>
 
 ### 檔案管理增強功能
 
@@ -59,7 +97,7 @@ ht-degree: 0%
                  </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">檔案核准的更新狀態</a><span style="color: #ff0000;"> 預覽中的新增專案！</span></p><p>為了更清楚的檔案核准狀態，我們已更新可用的檔案狀態核准。 現在，核准狀態會說明標籤為稽核完成的稽核者，以及只有稽核者但沒有核准者的情況。</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">檔案核准的更新狀態</a></p><p>為了更清楚的檔案核准狀態，我們已更新可用的檔案狀態核准。 現在，核准狀態會說明標籤為稽核完成的稽核者，以及只有稽核者但沒有核准者的情況。</p>
                     </td>
                     <td><p><b>將於下列日期提供：</b></p>
                         <ul>
@@ -132,7 +170,7 @@ ht-degree: 0%
                  </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">我的工作快速動作按鈕已變更為僅在滑鼠懸停時顯示</a><span style="color: #ff0000;"> 預覽中的新增專案！</span></p><p>為了提高效能，現在只有當工作專案以滑鼠懸停在工作專案上時，才會顯示我的工作Widget中可用的快速動作按鈕。</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">我的工作快速動作按鈕已變更為僅在滑鼠懸停時顯示</a></p><p>[！BADGE In Production ]{type=Informative}</p><p>為了提高效能，現在只有當工作專案以滑鼠懸停在工作專案上時，才會顯示我的工作Widget中可用的快速動作按鈕。</p>
                     </td>
                     <td><p><b>將於下列日期提供：</b></p>
                         <ul>
@@ -215,7 +253,25 @@ ht-degree: 0%
                  </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">新的評論體驗會擷取專案、任務、問題和檔案的所有資訊</a><span style="color: #ff0000;"> 預覽中的新增專案！</span></p><p>專案、任務、問題和檔案會顯示自Workfront執行個體開始以來的新評論體驗區域中的所有更新。</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">在更新區段的註解中拖放影像</a><span style="color: #ff0000;"> 預覽中的新增專案！</span></p><p>若要增強註解的內容，您現在可以快速將影像拖放到註解中，或回覆物件的「更新」區段。</p>
+                    </td>
+                    <td><p><b>將於下列日期提供：</b></p>
+                        <ul>
+                            <li>
+                                <p>預覽版本： 2023年12月14日</p>
+                            </li>
+                            <li>
+                                <p>快速發行生產：第24.1發行版本</p>
+                            </li>
+                            <li>
+                                <p>每季發行生產：透過24.1發行</p>
+                            </li>
+                        </ul>
+                    </td>
+                    </tr>
+                 <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">新的評論體驗會擷取專案、任務、問題和檔案的所有資訊</a></p><p>[！BADGE In Production ]{type=Informative}</p><p>專案、任務、問題和檔案會顯示自Workfront執行個體開始以來的新評論體驗區域中的所有更新。</p>
                     </td>
                     <td><p><b>將於下列日期提供：</b></p>
                         <ul>
@@ -223,14 +279,14 @@ ht-degree: 0%
                                 <p>預覽版本： 2023年11月28日</p>
                             </li>
                             <li>
-                                <p>適用於所有客戶的生產： 2023年11月28日</p>
+                                <p><span class="preview">適用於所有客戶的生產： 2023年11月28日</span></p>
                             </li>
                         </ul>
                     </td>
                     </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">在更新區段中搜尋評論或使用者</a><span style="color: #ff0000;"> 預覽中的新增專案！</span></p><p>若要在物件的「更新」區段中快速尋找資訊，您現在可以從註解搜尋關鍵字，或搜尋與註解相關聯的任何使用者。</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">在更新區段中搜尋評論或使用者</a></p><p>若要在物件的「更新」區段中快速尋找資訊，您現在可以從註解搜尋關鍵字，或搜尋與註解相關聯的任何使用者。</p>
                     </td>
                     <td><p><b>將於下列日期提供：</b></p>
                         <ul>
@@ -248,7 +304,7 @@ ht-degree: 0%
                     </tr>
                     <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">在更新區段的註解中複製並貼上影像</a><span style="color: #ff0000;"> 預覽中的新增專案！</span></p><p>若要提供訊息內容的前後關聯，您現在可以從電腦複製影像，然後貼到新的更新或回覆中，以快速將影像附加至註解。</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">在更新區段的註解中複製並貼上影像</a></p><p>若要提供訊息內容的前後關聯，您現在可以從電腦複製影像，然後貼到新的更新或回覆中，以快速將影像附加至註解。</p>
                     </td>
                     <td><p><b>將於下列日期提供：</b></p>
                         <ul>

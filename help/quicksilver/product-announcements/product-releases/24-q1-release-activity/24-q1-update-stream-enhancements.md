@@ -4,9 +4,9 @@ description: 2024年第一季度更新流和通知增強功能
 author: Lisa
 feature: Product Announcements
 exl-id: 837b5a23-162d-4862-b6fd-be3048ab0269
-source-git-commit: 02e55be36d3b649aeb5b81d185538f77ac3d4ec7
+source-git-commit: 7e1bcff7361a76988a319b266c7b885a6b614c15
 workflow-type: tm+mt
-source-wordcount: '284'
+source-wordcount: '375'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,16 @@ ht-degree: 0%
 本頁說明2024年第一季度版本對預覽環境所做的所有更新流和通知增強功能。 這些增強功能將在2024年第一季度版本的生產環境中提供。
 
 如需2024年第一季發行週期目前可用的所有變更清單，請參閱 [2024年第一季版本總覽](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).
+
+## 在更新區段的註解中拖放影像
+
+若要增強註解的內容，您現在可以快速將影像拖放到註解中，或回覆物件的「更新」區段。
+
+您僅可以下列格式新增儲存在電腦上的影像： .jpg、.jpeg、.png、.gif。
+
+此功能存在於舊版評論串流中，現在已新增至新評論體驗。
+
+如需詳細資訊，請參閱 [更新工作](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
 ## 新的評論體驗會擷取專案、任務、問題和檔案的所有資訊
 
