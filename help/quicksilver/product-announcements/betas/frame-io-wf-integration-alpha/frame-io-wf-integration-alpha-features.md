@@ -8,9 +8,9 @@ feature: Product Announcements
 hide: true
 hidefromtoc: true
 exl-id: a1603a06-957b-4d52-89f3-f0cec1a4e02c
-source-git-commit: 31adfeffeda9fc6aa4e76ceae7ef410d9c4c178c
+source-git-commit: 4ab78cff65141636e9e2c95526d68face1f278ba
 workflow-type: tm+mt
-source-wordcount: '1246'
+source-wordcount: '1248'
 ht-degree: 0%
 
 ---
@@ -21,10 +21,10 @@ ht-degree: 0%
 
 若要進一步瞭解Alpha的運作方式以及參與的方式，請參閱 [Adobe Workfront與Frame.io整合alpha：概觀](/help/quicksilver/product-announcements/betas/frame-io-wf-integration-alpha/frame-io-wf-integration-alpha-overview.md)
 
-
 >[!NOTE]
 >
 >如果您的公司未參與此Alpha方案，您可能會看到這些頁面，請務必謹慎處理這些資訊，並聯絡Workfront或Frame.io管理員以取得詳細資訊。
+>
 
 ## 基本測試案例
 
@@ -32,30 +32,32 @@ ht-degree: 0%
 
 若要測試功能，請登入您的Workfront預覽或沙箱執行個體，然後執行下列步驟：
 
->[!NOTE]
->
-><span class="preview">醒目提示文字</span> 以下提及尚未針對測試實作，但將包含在更新版本中的功能。
->
-
 1. **協調員：** 在Workfront中，建立專案，使用 `Frame.io alpha testing` 群組已指派為專案群組。
 
-1. **協調員：** 在Workfront中，將您的創意內容指派給專案 <span class="preview">或啟用框架的工作（請注意，子工作不能標籤為啟用框架）</span> 並將專案狀態變更為「目前」。
+1. **協調員：** 在Workfront中，將需要創意工作的任務標示為已啟用框架（在任務詳細資料中），並將您的創意指派給它（如果您想要測試整個工作流程，也請指派您自己）。
+
+>[!NOTE]
+>
+>子工作無法標籤為框架已啟用。
+>
+
+1. **協調員：** 上傳您的創意簡報並將專案狀態變更為「目前」。
 
 1. **創意內容：** 檢查您的電子郵件，以取得新建立Frame.io專案的邀請
 
 1. **創意內容：** 按一下邀請電子郵件中的「加入專案」按鈕，加入Frame.io專案、檢閱專案內的創意簡報，並在您選擇的Creative Cloud工具中開始建立內容。
 
-1. **創意內容：** 將您建立的資產上傳至Frame.io，並將其新增至連結的Workfront專案 <span class="preview">（或指派的框架啟用工作）。</span>
+1. **創意內容：** 將您建立的資產上傳到Frame.io，並選取其中一個指派的啟用Frame任務，將其新增到連結的Workfront專案。 選取選項以將工作標示為完成。
 
-1. **協調員：** 在Workfront中，在您的專案中找到連結的Frame.io資產，並指派檢閱者/核准者(如需指派檢閱/核准者的詳細資訊，請參閱 [新增其他核准者或稽核者至檔案](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/add-additional-reviewers-or-approvers.md))。
+1. **協調員：** 在Workfront中，於啟用框架的任務中找到連結的Frame.io資產，並檢查任務的狀態是否變更為「完成」。
 
-1. **利害關係人：** 在Workfront中，在「首頁」或「檔案詳細資訊」中檢視您的核准請求，並在Frame.io檢視器中檢閱「框架連線」檔案，然後留下包含意見回饋的註解。
+1. **協調員：** 將稽核者/核准者指派給連結的Frame.io資產。 如果您想要測試整個工作流程，請將自己指派為核准者。 (如需指派檢閱/核准者的詳細資訊，請參閱 [新增其他核准者或稽核者至檔案](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/add-additional-reviewers-or-approvers.md))。
 
-1. <span class="preview">**協調員：** 在Workfront中，檢視利害關係人在Frame.io連線檔案的「更新」區段內建立的評論。</span>
+1. **利害關係人：** 在Workfront中，在首頁、檔案詳細資料或收到的電子郵件通知中檢視您的核准請求。 在Frame.io Viewer中開啟資產、留下包含意見回饋的評論，然後做出決定。
 
-1. <span class="preview">**利害關係人：** 在Frame.io檢視器中做出決定。</span>
+1. **協調員：** 在Workfront中，檢視Frame.io連線檔案的「更新」區段內利害關係人建立的評論，以及「核准」區段或檔案摘要窗格內的決定。
 
-1. <span class="preview">**創意內容：** 在Frame.io中，請注意針對您的資產所作出的整體核准決定。</span>
+1. **創意內容：** 在Frame.io中，請注意針對您的資產所作出的整體核准決定。
 
 1. **創意內容：** 在Frame.io中，將更新版本新增至連線資產的版本棧疊中，以套用要求的變更。
 
@@ -71,17 +73,14 @@ ht-degree: 0%
 
 >[!NOTE]
 >
-><span class="preview">醒目提示文字</span> 以下提及尚未實作，但將納入後續版本的功能。
->
 >專案符號下 **「未來版本的潛在改善」** 視於alpha意見回饋和我們的開發計畫而定，頁首可能包含在未來版本中，也可能不包含在未來版本中。
 >
 
-
 ### Workfront管理員可以在Workfront群組和Frame.io帳戶之間建立連線
 
-* <span class="preview">在Workfront中，您可以將Workfront群組連線至Frame.io帳戶</span>
+* 在Workfront中，您可以將Workfront群組連線至Frame.io帳戶
 
-* 將在Frame.io中建立新的Frame.io群組，代表已連線的Workfront群組
+* 將在Frame.io中建立新的Frame.io團隊，代表已連線的Workfront群組(請注意，此功能僅針對在生產環境中使用整合的客戶啟用。 仍在沙箱或預覽上測試的客戶將由Adobe團隊設定連線。)
 
 **未來版本的潛在改善：**
 
@@ -93,19 +92,17 @@ ht-degree: 0%
 
 * 可透過指派框架連線群組將Workfront專案標示為Frame.io已啟用
 
-* <span class="preview">增強功能：能夠將Workfront專案內的任務切換為框架任務，這反過來會在Frame.io內建立任務資料夾</span>
+* 能夠將Workfront專案內的任務切換為框架任務，這反過來會在Frame.io內建立任務資料夾
 
-* 當Workfront專案狀態設定為「目前」時，對應的已連線專案會在Frame中建立，Workfront指派的使用者會新增至Frame專案，並從Frame.io傳送電子郵件通知給他們
+* 假設Workfront專案已指派框架連線群組，且至少有一個框架已啟用任務，當Workfront專案狀態設為「目前」時，對應的連線專案會在Frame中建立，Workfront指派的使用者則會新增至Frame專案，並從Frame.io傳送電子郵件通知給他們
 
-   * 所有Workfront專案成員（使用者和團隊）將新增為Frame.io專案的共同作業人員（于專案建立時及稍後時）
-
-   * <span class="preview">變更：指派給已啟用Frame之Workfront任務的使用者和團隊將新增為Frame.io專案的共同作業人員，並會收到通知（專案建立時和稍後時）</span>
+   * 指派給已啟用Frame之Workfront任務的使用者和團隊會新增為Frame.io專案的共同作業人員，並會收到通知（建立專案時和稍後時）
 
 * 當建立專案時，新增至專案和啟用Frame之任務的檔案（創意簡介）將推送至Frame.io專案（在個別工作資料夾內）（觸發器：專案狀態設為「目前」）
 
    * 建議您先限制新增到專案中的檔案數量，然後再開始使用創意摘要，以避免傳送多份不必要的檔案至Frame.io
 
-* <span class="preview">增強功能：若從已啟用框架的Workfront任務中明確取消指派，則會從Frame.io專案中移除使用者/團隊</span>
+   * 初始專案同步化後新增的檔案/任務不會推送至Frame.io，只會推送給使用者/團隊
 
 **未來版本的潛在改善：**
 
@@ -121,9 +118,9 @@ ht-degree: 0%
 
 * 在Frame.io內上傳的新版本會自動在Workfront內的已連線資產上建立新檔案版本
 
-* <span class="preview">增強功能：能夠從Frame.io中將參照的Workfront工作標示為完成</span>
+* 能夠從Frame.io中將參照的Workfront工作標示為完成
 
-* <span class="preview">增強功能：萬一刪除已連線的Workfront檔案，檔案會保留在Frame.io中，並可重新連線至相同或其他專案任務</span>
+* 萬一刪除已連線的Workfront檔案，該檔案會保留在Frame.io中，並可重新連線到相同或其他專案任務
 
 **未來版本的潛在改善：**
 
@@ -135,7 +132,7 @@ ht-degree: 0%
 
 * 可以將Workfront使用者和團隊新增到Frame.io連線檔案的新檔案核准
 
-* <span class="preview">增強：當使用者/團隊從已啟用Frame的檔案中取消共用時，他們也將失去對Frame.io Viewer中資產的存取權</span>
+* 當使用者/團隊從已啟用Frame的檔案中取消共用時，他們也將失去對Frame.io Viewer中資產的存取權
 
 **未來版本的潛在改善：**
 
@@ -151,12 +148,4 @@ ht-degree: 0%
 
 * 能夠利用Frame.io Viewer提供的現有檢閱和註解功能(將與Workfront的更新流同步)
 
-* <span class="preview">能夠從Frame.io檢視器內作出新檔案核准決定</span>
-
-### 在Frame.io中，創意人員將會收到有關已連線Frame.io資產上所做整體決策的通知
-
-* <span class="preview">增強功能：整體檔案核准狀態會顯示在Frame.io內的資產上</span>
-
-### 專案專員可將最終資產傳送至AEM
-
-* <span class="preview">增強功能：可使用現有的Workfront + AEM Asset CS聯結器，將包含中繼資料的框架連線檔案傳送至AEM</span>
+* 能夠從Frame.io檢視器內作出新檔案核准決定
