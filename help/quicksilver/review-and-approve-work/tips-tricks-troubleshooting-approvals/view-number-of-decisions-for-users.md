@@ -6,15 +6,17 @@ description: 您可以在您的Workfront例項中檢視使用者所做的校訂�
 author: Courtney
 feature: Work Management
 exl-id: e7b1ee0a-3306-49a8-aa4f-142b9d894834
-source-git-commit: a2650ccc3deffd841a7b497e6ff1b5eed6145211
+source-git-commit: eb666e1fc9349e90d8adcd2be1c5efe964e4c77b
 workflow-type: tm+mt
-source-wordcount: '193'
+source-wordcount: '305'
 ht-degree: 0%
 
 ---
 
 
 # 檢視所有使用者的校訂和檔案決策數量
+
+{{highlighted-preview}}
 
 您可以在您的Workfront例項中檢視使用者所做的校訂和檔案決定數量。
 
@@ -26,11 +28,17 @@ ht-degree: 0%
 
 若要檢視使用者的決定數目，請執行下列步驟：
 
-1. 按一下 **主要功能表** Adobe Workfront圖示並按一下「 」，接著再按一下「 」。 **使用者**.
+{{step-1-to-users}}
 
 1. 開啟 **檢視** 區域，然後選擇 **授權** 檢視。
+1. 尋找欄 **本月決策** 檢視每個使用者在當月所做的決定數。
+1. <span class="preview">若要檢視歷史資料，請開啟 **檢視** 區域並選擇 **歷史使用者檢視**.</span>
+1. <span class="preview">尋找欄 **使用者歷史決策** 檢視每個使用者在一個月內的決策次數。 資料會從當月返回12個月。</span>
 
-1. 尋找欄 **本月決策** 檢視每個使用者在當月所做的決策次數。
+>[!NOTE]
+>
+><span class="preview">如果「歷史使用者檢視」無法使用，您可以建立新檢視來顯示歷史資料。 新增 **使用者歷史決策** 作為檢視中的欄。 如需將欄新增至檢視的詳細資訊，請參閱 [在Adobe Workfront中建立或編輯檢視](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md).</span>
+
 
 ## 在報告區域中檢視決策
 
@@ -38,7 +46,12 @@ ht-degree: 0%
 >
 >此報告適用於新存取層級和舊存取層級模型的使用者。
 
-1. 按一下 **主要功能表** Adobe Workfront圖示並按一下「 」，接著再按一下「 」。 **報表**.
+{{step1-to-reports}}
+
 1. 按一下 **新報告**，然後選取 **使用者決策**.
+1. 尋找欄 **本月決策** 檢視每個使用者在當月所做的決定數。
+
+   <span class="preview">資料會從當月返回12個月。 此 **月** 和 **年** 欄會顯示進行決策的月份。 第1個月是指1月，第2個月是指2月，以此類推。</span>
+
 1. 檢閱報告並視需要加以編輯。 如需詳細資訊，請參閱 [建立自訂報表](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
