@@ -6,7 +6,7 @@ description: 此 [!DNL Adobe Workfront] 字彙表列出以下專案中的常用�
 author: Alina
 feature: Get Started with Workfront
 exl-id: 758072b3-775e-4771-9ae9-da0b38580c93
-source-git-commit: 3ffb6fdebb54682abc737e55186850458a133f7c
+source-git-commit: 6f026590f0030b564f0d110afead9ade1acd7896
 workflow-type: tm+mt
 source-wordcount: '19897'
 ht-degree: 0%
@@ -15,6 +15,8 @@ ht-degree: 0%
 
 
 # 字彙表 [!DNL Adobe Workfront] 術語
+
+<!--Audited: 12/2023-->
 
 >[!IMPORTANT]
 >

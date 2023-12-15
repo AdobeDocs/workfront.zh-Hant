@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: 4946a65188391df62ad3e135a5b1dbba9a16dc89
+source-git-commit: 6f026590f0030b564f0d110afead9ade1acd7896
 workflow-type: tm+mt
-source-wordcount: '3160'
+source-wordcount: '3158'
 ht-degree: 2%
 
 ---
@@ -170,9 +170,9 @@ After permssions - replace the table with:
 
 <!--in a table (not sure if this can be done elsewhere?!-->
 
-1. 按一下 **主要功能表** 圖示 ![](assets/main-menu-workfront.png) 位於Workfront右上角，或 **主功能表** 圖示 ![](assets/main-menu-shell.png)  （如果有的話）按一下 **大師** ![](assets/maestro-icon.png).
+{{step1-to-maestro}}
 
-   根據預設，上次存取的工作區應該會開啟。
+根據預設，上次存取的工作區應該會開啟。
 
 1. （可選）展開現有工作區名稱右側的向下箭頭，並選取您要為其建立欄位之記錄型別的工作區，然後按一下記錄型別。
 
@@ -220,7 +220,7 @@ After permssions - replace the table with:
 1. 將下列資訊新增至 **新欄位** 標籤：
    * **名稱**：欄位型別的名稱，它將顯示在表格或記錄的詳細資訊頁面中。 <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
    * **說明**：欄位的其他相關資訊。 當您將滑鼠懸停在表格中的欄位欄標題上時，會顯示欄位說明。
-1. 按一下 **建立**。
+1. 按一下「**建立**」。
 
    新的單行欄位會新增為記錄型別的欄，其值可與記錄相關聯。
 
@@ -243,7 +243,7 @@ After permssions - replace the table with:
 1. 將下列資訊新增至 **新欄位** 標籤：
    * **名稱**：欄位型別的名稱，它將顯示在表格或記錄的詳細資訊頁面中。 <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
    * **說明**：欄位的其他相關資訊。 當您將滑鼠游標停留在表格中的欄位欄位上時，會顯示欄位說明。
-1. 按一下 **建立**。
+1. 按一下「**建立**」。
 
    新的段落欄位會新增為記錄型別的欄，其值可以與記錄相關聯。
 
@@ -266,7 +266,7 @@ After permssions - replace the table with:
    **將選項按A-Z排序** 選項。 <!--Add this if they added this functionality: You cannot edit this option after you save the field.-->
 1. 按一下 **x** 圖示加以移除。
 1. 按一下選項左側的色票，即可展開顏色選取器並自訂每個選項的顏色。
-1. 按一下 **建立**。
+1. 按一下「**建立**」。
 
    新的多重選取欄位會新增為記錄型別的欄，其值可與記錄相關聯。
 
@@ -288,7 +288,7 @@ After permssions - replace the table with:
 1. （選用）以所需順序手動拖放每個選項，或選取 **將選項按A-Z排序** 選項。 <!--Add this if they added this functionality: You cannot edit this option after you save the field.-->
 1. 按一下 **x** 圖示加以移除。
 1. 按一下選項左側的色票，即可展開顏色選取器並自訂每個選項的顏色。
-1. 按一下 **建立**。
+1. 按一下「**建立**」。
 
    新的單選欄位會新增為記錄型別的欄，其值可與記錄相關聯。
 
@@ -319,7 +319,7 @@ After permssions - replace the table with:
       * **24小時**：例如： 18:00
       * **12小時**：例如：PM 6:00
 
-1. 按一下 **建立**。
+1. 按一下「**建立**」。
 
    新的日期欄位會新增為記錄型別的欄，其值可與記錄相關聯。
 
@@ -341,7 +341,7 @@ After permssions - replace the table with:
    >
    >    如果您選取「允許負數」，且負值儲存在附加欄位的記錄上，則以後無法再取消選取設定。
 
-1. 按一下 **建立**。
+1. 按一下「**建立**」。
 
    新數字欄位會新增為記錄型別的欄，其值可與記錄相關聯。
 
@@ -363,7 +363,7 @@ After permssions - replace the table with:
    >
    >    如果您選取「允許負數」，且負值儲存在附加欄位的記錄上，則以後無法再取消選取設定。
 
-1. 按一下 **建立**。
+1. 按一下「**建立**」。
 
    新的百分比欄位會新增為記錄型別的欄，其值可與記錄相關聯。
 
@@ -386,7 +386,7 @@ After permssions - replace the table with:
    >
    >    如果您選取「允許負數」，且負值儲存在附加欄位的記錄上，則以後無法再取消選取設定。
 
-1. 按一下 **建立**。
+1. 按一下「**建立**」。
 
    新貨幣欄位會新增為記錄型別的欄，其值可與記錄相關聯。
 
@@ -401,7 +401,7 @@ After permssions - replace the table with:
 1. 將下列資訊新增至 **新欄位** 標籤：
    * **名稱**：欄位型別的名稱，它將顯示在表格或記錄的詳細資訊頁面中。 <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
    * **說明**：欄位的其他相關資訊。 當您將滑鼠游標停留在表格中的欄位欄位上時，會顯示欄位說明。
-1. 按一下 **建立**。
+1. 按一下「**建立**」。
 
    新的核取方塊欄位會新增為記錄型別的欄，其值可與記錄相關聯。
 
@@ -422,7 +422,7 @@ After permssions - replace the table with:
    >
    >    如果您選取「允許多個值」，且有多個使用者儲存在附加欄位的記錄中，則以後編輯此欄位時，無法再取消選取設定。
 
-1. 按一下 **建立**。
+1. 按一下「**建立**」。
 
    新的「人員型別」欄位會新增為記錄型別的欄，其值可與記錄相關聯。
 
@@ -439,7 +439,7 @@ After permssions - replace the table with:
    * **名稱**：欄位型別的名稱，它將顯示在表格或記錄的詳細資訊頁面中。 <!--this might change and they might prepopulate it with "Created by"-->
    * **說明**：欄位的其他相關資訊。 當您將滑鼠游標停留在表格中的欄位欄位上時，會顯示欄位說明。
 
-1. 按一下 **建立**。
+1. 按一下「**建立**」。
 
    新的「建立者型別」欄位會新增為記錄型別的欄，其值會預先填入建立每個記錄的使用者名稱。
 
@@ -472,7 +472,7 @@ After permssions - replace the table with:
       * **24小時**：例如： 18:00
       * **12小時**：例如：PM 6:00
 
-1. 按一下 **建立**。
+1. 按一下「**建立**」。
 
    新的「建立日期 — 型別」欄位會新增為記錄型別的欄，其值會預先填入建立記錄的日期（或日期和時間）。
 
@@ -490,7 +490,7 @@ After permssions - replace the table with:
    * **名稱**：欄位型別的名稱，它將顯示在表格或記錄的詳細資訊頁面中。 <!--this might change and they might prepopulate it with "Created by"-->
    * **說明**：欄位的其他相關資訊。 當您將滑鼠游標停留在表格中的欄位欄位上時，會顯示欄位說明。
 
-1. 按一下 **建立**。
+1. 按一下「**建立**」。
 
    新的「上次修改者」型別欄位會新增為記錄型別的欄，其值會預先填入上次修改每筆記錄的使用者名稱。
 
@@ -523,7 +523,7 @@ After permssions - replace the table with:
       * **24小時**：例如： 18:00
       * **12小時**：例如：PM 6:00
 
-1. 按一下 **建立**。
+1. 按一下「**建立**」。
 
    新的上次修改日期型別欄位會新增為記錄型別的欄，其值會預先填入上次修改記錄的日期（或日期和時間）。
 

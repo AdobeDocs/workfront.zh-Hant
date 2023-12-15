@@ -4,9 +4,10 @@ description: 您可以在Adobe經理中新增反映組織生命週期的欄位�
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 6d1d3d82e15f4232ff81294d9094c2683b01ca89
+exl-id: a1ad5ada-5010-4dec-934e-a49a3e28aa5f
+source-git-commit: 6f026590f0030b564f0d110afead9ade1acd7896
 workflow-type: tm+mt
-source-wordcount: '539'
+source-wordcount: '541'
 ht-degree: 2%
 
 ---
@@ -55,7 +56,7 @@ hide: yes
 
 * 您可以透過下列方式手動或自動建立欄位：
 
-   * 手動:
+   * 手動：
 
       * 在記錄型別頁面的表格檢視中新增欄。 表格的欄是與記錄型別相關聯的欄位。 它們是顯示在記錄「詳細資料」頁面上的相同欄位。
 
@@ -71,17 +72,17 @@ hide: yes
 
       * 使用Excel或CSV檔案匯入記錄型別。 如需詳細資訊，請參閱 [建立記錄型別](../architecture/create-record-types.md).
 
-   * 自動:
+   * 自動：
 
       * 根據預設，每次建立記錄型別時。
 
         以下是預設為每個新作業記錄型別建立的標準欄位：
 
-         * 名稱
+         * 姓名
          * 說明
          * 開始日期
          * 結束日期
-         * 狀態. 記錄狀態的預設值為：
+         * 狀態。 記錄狀態的預設值為：
             * 開發
             * 計畫
             * 啟用中

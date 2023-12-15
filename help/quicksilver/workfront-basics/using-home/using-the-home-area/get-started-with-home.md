@@ -6,7 +6,7 @@ description: 此 [!UICONTROL 首頁] 區域是您尋找指派給您的任務、�
 author: Nolan
 feature: Get Started with Workfront
 exl-id: eddb2db0-88c5-40f9-ba05-14839a3dfc7f
-source-git-commit: 421fd012c2ce6a4ae0b11fe343c279d1a3fd551c
+source-git-commit: 6f026590f0030b564f0d110afead9ade1acd7896
 workflow-type: tm+mt
 source-wordcount: '1237'
 ht-degree: 0%
@@ -14,6 +14,8 @@ ht-degree: 0%
 ---
 
 # 開始使用 [!UICONTROL 首頁]
+
+<!--Audited: 12/2023-->
 
 本文旨在說明目前的 [!UICONTROL 首頁] 區域於 [!DNL Adobe Workfront]. 有關使用新專案的資訊 [!UICONTROL 首頁]，請參閱 [開始使用新首頁](../new-home/get-started-with-new-home.md).
 

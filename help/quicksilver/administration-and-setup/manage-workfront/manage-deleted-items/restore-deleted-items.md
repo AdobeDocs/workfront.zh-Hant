@@ -8,7 +8,7 @@ feature: System Setup and Administration
 author: Lisa
 role: Admin
 exl-id: e5b63652-ce16-44a9-a806-a41f19970ee1
-source-git-commit: dfd8dd07e1a88da872550163051e703f6aea5f74
+source-git-commit: 6f026590f0030b564f0d110afead9ade1acd7896
 workflow-type: tm+mt
 source-wordcount: '1071'
 ht-degree: 1%
@@ -16,6 +16,8 @@ ht-degree: 1%
 ---
 
 # 還原已刪除的專案
+
+<!--Audited: 12/2023-->
 
 <!--
 DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.
@@ -75,7 +77,7 @@ DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH T
 * 狀態
 * 財務資訊：
 
-   * 付費記錄
+   * 計費記錄
    * 收費率
    * 費用
 

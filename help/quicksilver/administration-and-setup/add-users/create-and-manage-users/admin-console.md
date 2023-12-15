@@ -5,7 +5,7 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: ae657964-d4a5-4c3b-afc6-8dde7695955d
-source-git-commit: dfd8dd07e1a88da872550163051e703f6aea5f74
+source-git-commit: 6f026590f0030b564f0d110afead9ade1acd7896
 workflow-type: tm+mt
 source-wordcount: '1121'
 ht-degree: 0%
@@ -43,7 +43,7 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-## 必要條件
+## 先決條件
 
 在針對Workfront使用Admin Console之前，您應該會收到一封電子郵件邀請您加入主控台。
 
@@ -180,6 +180,8 @@ ht-degree: 0%
 
 
 ## 使用Adobe Admin Console在Workfront中建立系統管理員 {#create-system-administrators-in-workfront-with-the-adobe-admin-console}
+
+<!--Audited: 12/2023-->
 
 系統管理員存取層級僅在Adobe Admin Console上授予。 您無法從Workfront中授與或移除管理員存取權。
 

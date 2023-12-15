@@ -8,14 +8,17 @@ feature: Work Management, Requests
 topic: Collaboration
 role: User, Admin
 exl-id: 385420aa-0962-4b67-9d0d-b153dcf302cf
-source-git-commit: 421fd012c2ce6a4ae0b11fe343c279d1a3fd551c
+source-git-commit: 6f026590f0030b564f0d110afead9ade1acd7896
 workflow-type: tm+mt
 source-wordcount: '2679'
 ht-degree: 2%
 
 ---
 
+
 # 建立請求佇列
+
+<!--Audited: 12/2023-->
 
 <!--
 <THIS IS CONNECTED TO THE PRODUCT IN BLUEPRINTS. DO NOT MOVE/ CHANGE URL>
@@ -310,7 +313,7 @@ You must have the following access to perform the steps in this article:
 
    如需詳細資訊，請參閱 [讓使用者透過電子郵件將問題傳送到請求佇列專案](../../../manage-work/requests/create-requests/enable-email-issues-into-projects.md).
 
-1. 按一下&#x200B;**儲存**。\
+1. 按一下「**儲存**」。\
    您的專案現在已設定為請求佇列，使用者現在可以在其中新增請求。
 
 1. （可選）若要增強「請求佇列」功能，請為您的佇列建立其他子區段，以及將傳入的請求路由到正確團隊、受指派人或專案的規則。

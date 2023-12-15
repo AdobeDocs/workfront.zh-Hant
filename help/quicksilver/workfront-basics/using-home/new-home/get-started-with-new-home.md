@@ -6,7 +6,7 @@ description: 新首頁是管理您工作的強大新功能。 您可以自訂此
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 40bb32f0-acc7-4a22-92b9-bab9dc7c987b
-source-git-commit: 32966d4732221d73aa3397771e157b630f7d5760
+source-git-commit: 6f026590f0030b564f0d110afead9ade1acd7896
 workflow-type: tm+mt
 source-wordcount: '1059'
 ht-degree: 8%
@@ -14,6 +14,8 @@ ht-degree: 8%
 ---
 
 # 開始使用新首頁
+
+<!--Audited: 12/2023-->
 
 Adobe Workfront新的首頁體驗旨在改善目前的首頁體驗，同時提供更靈活的方式讓您聚焦於正確的工作。
 

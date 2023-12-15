@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: ec48db42-2395-4439-97ae-e4f5242170b7
-source-git-commit: 4946a65188391df62ad3e135a5b1dbba9a16dc89
+source-git-commit: 6f026590f0030b564f0d110afead9ade1acd7896
 workflow-type: tm+mt
-source-wordcount: '405'
-ht-degree: 1%
+source-wordcount: '406'
+ht-degree: 0%
 
 ---
 
@@ -45,9 +45,9 @@ recommendations: noDisplay, noCatalog
 
 ## 有關刪除主要欄位的考量事項：
 
+* 您只能在記錄型別表格檢視中刪除欄位。
 * 您可以刪除您建立的欄位或其他使用者或系統建立的欄位。 <!--this will change with access levels/ permissions-->
-* 您無法刪除記錄的[名稱]欄位。 <!--change this to say you can't delete the field selected to be the primary-->
-* 您只能刪除記錄型別表格中的欄位。
+* 您無法刪除記錄的主要欄位。
 * 儲存在欄位中的任何資訊都會被刪除且無法復原。
 * 當您刪除連結的記錄欄位時，所有連結的查閱欄位也會從您連結的記錄型別中刪除。 您連結到的記錄型別的連結記錄欄位不會被刪除。
 

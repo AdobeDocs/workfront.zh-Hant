@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: a74f9f8940a170d8e1347fd99ff2a6c816b12eca
+source-git-commit: 6f026590f0030b564f0d110afead9ade1acd7896
 workflow-type: tm+mt
-source-wordcount: '2629'
+source-wordcount: '2698'
 ht-degree: 0%
 
 ---
@@ -98,25 +98,34 @@ For more information, see [Grant access to Adobe Maestro](../maestro/access/gran
 如需詳細資訊，請參閱 [管理表格檢視](/help/quicksilver/maestro/views/manage-the-table-view.md).
 
 
-### 連結Maestro記錄與Adobe Experience Manager (AEM)資產
+### 連結Maestro記錄與Adobe Experience Manager Assets
 
 預覽版本： 2023年12月14日
 
 生產版本： 2023年12月15日
 
-您現在可以在Maestro記錄型別與Adobe Experience Manager資產之間建立連線。
+>[!IMPORTANT]
+>
+>貴組織的Workfront執行個體必須上線至Adobe業務平台或Adobe Admin Console，才能將Maestro記錄連線至Adobe Experience Manager Assets。
+>
+>如果您對上線Adobe Admin Console有任何疑問，請參閱 [Adobe Unified Experience常見問題集](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/unified-experience-faq.md).
+
+
+您現在可以在Maestro記錄型別與Adobe Experience Manager Assets之間建立連線。
 
 建立連線後，此更新便可使用下列功能：
 
-* Maestro使用者可以將AEM資產、資料夾或集合從AEM中他們有權存取的特定存放庫連結至Maestro記錄
+* 您可以將Experience Manager資產和資料夾從Experience Manager Assets中他們有權存取的特定存放庫連結到Maestro記錄。 您可以在此程式中連線資產欄位至Maestro欄位。
 
-* Maestro使用者連線至記錄後，即可在Maestro中檢視所有連線的資產。
+* Maestro使用者可以檢視連線資產的名稱，以及Maestro中連線欄位的值
 
-* 建立連線後，Experience Manager Assets記錄型別會自動在Maestro中建立。 此新記錄型別的「大師」表格和時間軸檢視中會顯示連線的資產。
+<!--removed per PM, for now: 
+* An Experience Manager Assets record type is automatically created in Maestro after you establish the connection. Connected assets are visible in the Maestro table and timeline views of this new record type.  
+-->
 
-* 您可以在連線所在的Maestro記錄表格中檢視AEM資產資訊。
+* 您可以從連線的記錄欄位按一下Maestro記錄表格檢視中的資產名稱，並檢視包含資產縮圖和數個關鍵欄位的快顯視窗。 從快顯視窗中，您可以導覽至Experience Manager中的資產檢視器，並檢視有關該檢視器的所有詳細資訊。
 
-如需詳細資訊，請參閱 [連線記錄型別](/help/quicksilver/maestro/architecture/connect-record-types.md)
+如需詳細資訊，請參閱 [連線記錄型別](/help/quicksilver/maestro/architecture/connect-record-types.md).
 
 ## 2023年12月4日當週
 

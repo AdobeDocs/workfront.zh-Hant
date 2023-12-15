@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: 3e1e651662f9ff695d475ffcbdc77f0802d108f1
+source-git-commit: 6f026590f0030b564f0d110afead9ade1acd7896
 workflow-type: tm+mt
-source-wordcount: '868'
+source-wordcount: '845'
 ht-degree: 1%
 
 ---
@@ -166,12 +166,12 @@ After permssions - replace the table with:
 
 ### 從記錄的「詳細資訊」頁面編輯記錄
 
-1. 按一下 **主要功能表** ![](assets/main-menu-workfront.png) 位於右上角，或 **主要功能表** ![](assets/main-menu-shell.png) 左上角（如果有的話），然後按一下 **大師**.
+{{step1-to-maestro}}
 
-   您上次存取的工作區會開啟。
+您上次存取的工作區會開啟。
 
 1. （可選）按一下工作區名稱右側的向下箭頭，以選取您要更新其記錄的工作區。
-1. 執行下列任一項作業：
+1. 執行下列其中一項：
 
    * 在「表格」檢視中，按一下記錄名稱。
    * 在「表格」檢視中，暫留在記錄名稱上，然後按一下 **更多** 功能表 ![](assets/more-menu.png)，然後按一下 **檢視**

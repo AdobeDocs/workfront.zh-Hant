@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: b04ed2e8-c60e-4978-8a9d-b9e087987ef4
-source-git-commit: 3c5bcb85080a882a8b69bffcd01563a0479f98a5
+source-git-commit: 6f026590f0030b564f0d110afead9ade1acd7896
 workflow-type: tm+mt
 source-wordcount: '334'
 ht-degree: 7%
@@ -16,6 +16,8 @@ ht-degree: 7%
 ---
 
 # 自訂表單概述
+
+<!--Audited: 12/2023-->
 
 您可以建置使用者可附加至Adobe Workfront物件的自訂表單。 處理物件的使用者可以填寫自訂表格，以提供物件的相關資訊。
 

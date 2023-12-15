@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
-source-git-commit: a74f9f8940a170d8e1347fd99ff2a6c816b12eca
+source-git-commit: 6f026590f0030b564f0d110afead9ade1acd7896
 workflow-type: tm+mt
-source-wordcount: '1941'
+source-wordcount: '2020'
 ht-degree: 0%
 
 ---
@@ -42,10 +42,10 @@ author: Alina
 
 您可以連線下列專案：
 
-* Maestro作業記錄型別
-* 將主要作業記錄型別轉換為分類記錄型別
-* 作業記錄型別的主要分類型別
-* 來自其他應用程式的大型作業記錄型別和物件型別。
+* 將主要作業記錄型別相互轉換
+* 相互間的主要分類法
+* 相互之間主要作業記錄型別和分類
+* 使用其他應用程式的物件型別來建立主要作業記錄型別和分類。
 
 這樣，您就可以在另一個Maestro記錄上顯示連結記錄或物件型別的欄位。
 
@@ -75,7 +75,8 @@ author: Alina
    <p> Adobe產品</p> </td>
    <td>
    <p> Adobe Workfront</p> 
-   <p>若要將Maestro記錄型別與Experience Manager Assets連線，您必須擁有Adobe Experience Manager Assets</p>
+   <p><b>附註</b></p>
+   <p>若要將Maestro記錄型別與Experience Manager Assets連線，您必須擁有Adobe Experience Manager Assets授權，並且貴組織的Workfront執行個體必須上線至Adobe Business Platform或Adobe Admin Console。 </p>
    </td>
   </tr>  
  <td role="rowheader"><p>Adobe Workfront合約</p></td>
@@ -123,7 +124,7 @@ After permssions - replace the table with:
 <td>
    <p> Adobe product</p> </td>
    <td>
-   <p> Adobe Workfront</p> <p>To connect Maestro record types with Experience Manager Assets, you must have an Adobe Experience Manager Assets</p> </td>
+   <p> Adobe Workfront</p> <p>To connect Maestro record types with Experience Manager Assets, you must have an Adobe Experience Manager Assets license and your organization's instance of Workfront must be onboarded to the Adobe Business Platform or the Adobe Admin Console.</p> </td>
   </tr>  
  <td role="rowheader"><p>Adobe Workfront agreement</p></td>
    <td>
@@ -185,11 +186,7 @@ After permssions - replace the table with:
    * 兩種作業記錄型別
    * 兩種分類
    * 作業記錄型別和分類法
-   * 來自其他應用程式的作業記錄型別和物件型別。
-
-     >[!TIP]
-     >
-     >    您無法將分類記錄型別連線到作業記錄型別，或從另一個應用程式連線到物件型別。
+   * 其他應用程式的作業記錄型別或分類法和物件型別。
 
 * 您可以連線下列具有Maestro記錄型別的應用程式的物件：
 
@@ -203,36 +200,44 @@ After permssions - replace the table with:
 
    * Adobe Experience Manager Assets：
 
-      * 資產
+      * 影像
       * 資料夾
-      * 集合
+
+     >[!IMPORTANT]
+     >
+     >您必須擁有Adobe Experience Manager Assets授權，且貴組織的Workfront執行個體必須上線至Adobe商業平台或Adobe Admin Console，才能將Maestro記錄連線至Adobe Experience Manager Assets。
+     >
+     >如果您對上線Adobe Admin Console有任何疑問，請參閱 [Adobe Unified Experience常見問題集](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/unified-experience-faq.md).
 
 * 將記錄型別與另一個記錄型別或另一個應用程式的物件型別連線後，就會出現下列情況：
 
-   * 當您連線兩種記錄型別時：「已連結」記錄欄位會在您連線的記錄型別上建立。 類似的連結記錄欄位會在您連線的記錄型別上建立。
+   * **當您連線兩種記錄型別時**：連結的記錄欄位會在您連線的記錄型別上建立。 類似的連結記錄欄位會在您連線的記錄型別上建立。
 
      例如，如果您將「促銷活動」記錄型別與「產品」記錄型別連結，您會為「促銷活動」記錄型別建立名為「連結的產品」的連結記錄欄位，並為「產品」記錄型別建立自動名為「促銷活動」的連結記錄型別。
 
-   * 使用分類法連線記錄型別欄位時：連結的記錄欄位會在您連線的記錄型別上建立。 您連線的分類法上不會建立任何連結的記錄欄位。
+   * **當您從另一個應用程式將記錄型別與物件型別連線時**：連結的記錄欄位會在您連線的記錄型別上建立。 第三方應用程式物件上不會自動建立任何連結的記錄欄位。
 
-     例如，如果您將「行銷活動」記錄型別與「對象」分類記錄型別連結，您命名為「連結的對象」的連結記錄欄位就會建立在行銷活動記錄型別上。 在對象分類記錄型別上不會建立自動命名為「Campaign」的連結記錄欄位。 <!--this might be temporary-->
-
-   * 當您用另一個應用程式的物件型別連線記錄型別欄位時：連結的記錄欄位會在您連線的記錄型別上建立。 Workfront中的Workfront專案不會自動建立任何連結的記錄欄位。 只有當實際物件連線到Maestro記錄時，才會在Workfront物件記錄型別上建立連結記錄欄位。
+     只有當實際物件連線到Maestro記錄時，才會為第三方應用程式物件建立新的Maestro記錄型別。
 
      如需詳細資訊，請參閱 [連線記錄](../records/connect-records.md).
 
-* 連線記錄型別之後，您可以將一個記錄型別的多個欄位連線到另一個記錄型別。 我們將這些欄位稱為「連結欄位」或「查詢欄位」。
+   * **當您從您所連線的記錄或物件加入查閱欄位時**：連結的欄位會新增至您連結的記錄，其中顯示您選取要從連結的記錄帶入至您連結之記錄的查詢欄位。 記錄欄位一律為唯讀，並自動填入協力廠商物件的值。
+
+     例如，如果您將「行銷活動」Maestro記錄型別與Workfront專案連線，並且選擇將專案的「計畫完成日期」欄位帶到Maestro記錄，則系統會自動為您正在連結的記錄建立名為「計畫完成日期」（來自「專案」）的連結欄位。
+
 * 連結的記錄欄位前面有關係圖示 ![](assets/relationship-field-icon.png).
+
+  連結的欄位前面有識別欄位型別的圖示。 例如，指示欄位是數字、段落或日期的圖示。
+
 * 為記錄型別建立個別記錄後，您可以從連結的記錄型別欄位中選取連線的記錄。 如需詳細資訊，請參閱 [連線記錄](../records/connect-records.md).
-* 您無法從連結的記錄型別編輯連結欄位的資訊，因為當您選取連結的記錄時，連結欄位就會自動從原始記錄型別填入。
 
 ## 連線記錄型別
 
 <!--when changes here, also update the article for "Connect records"-->
 
-1. 按一下 **[!UICONTROL 主要功能表]** 圖示 ![主要功能表](assets/dots-main-menu.png) 在Adobe Workfront的右上角，或（如果有的話）按一下 **[!UICONTROL 主要功能表]** 圖示 ![主要功能表](assets/lines-main-menu.png) 然後按一下「 」 **[!UICONTROL 大師]**.
+{{step1-to-maestro}}
 
-   根據預設，上次存取的工作區應該會開啟。
+根據預設，上次存取的工作區應該會開啟。
 
 1. （可選）展開現有工作區名稱右側的向下箭頭，並選取您要連線記錄型別的工作區。
 1. 按一下記錄型別的卡片以開啟記錄型別頁面。
@@ -242,16 +247,19 @@ After permssions - replace the table with:
 
 1. 在 **記錄型別** 欄位中，選取下列其中一項： <!--is the field name spelled right? lowercase "t"?-->
 
-   * 您選取之工作區的另一個作業記錄型別
-   * 來自所選工作區的分類法
-   * Workfront物件型別區段中的專案、Portfolio、方案、公司或群組。
-   * Adobe應用程式區段中的Experience Manager Assets 。
+   * 您選取之工作區的另一個作業記錄型別或分類法
+
+     >[!TIP]
+     >
+     >只有來自您選取之工作區的記錄型別和分類可供連線。
+     > 
+     >如果您在選取的工作區中沒有其他記錄型別，則不會顯示工作區名稱。
+
+   * A **專案、Portfolio、計畫、公司**，或 **群組** 從 **Workfront物件型別** 區段。
+   * **Experience Manager Assets** 從 **Adobe應用程式** 區段。
 
    ![](assets/new-connection-tab-fields-with-another-record-selected.png)
 
-   >[!TIP]
-   >
-   > 只有所選工作區的記錄型別和分類可供選取。
 
 1. 更新下列資訊：
 
@@ -275,7 +283,7 @@ After permssions - replace the table with:
 
 1. 按一下「**建立**」。
 
-1. （視條件而定）如果您已選取 **選取查閱欄位** 在上一步中設定， **新增查詢欄位** 方塊開啟。
+1. （視條件而定）如果您已選取 **選取查閱欄位** 設定， **新增查詢欄位** 方塊開啟。
 
    按一下 **+** 圖示以從新增欄位 **未選取的欄位** 區域。
 
@@ -285,9 +293,8 @@ After permssions - replace the table with:
 
    ![](assets/add-lookup-fields-for-another-maestro-record-type-box.png)
 
-   >[!NOTE]
-   >
-   >如果您未選取任何欄位，則 **名稱** 是原始記錄表格檢視中唯一可見的欄位。 此 **名稱** 欄位無法移除。
+
+1. （選用）按一下 **略過** 並且不要從連結的記錄或物件新增任何欄位。 此 **名稱** 是原始記錄表格檢視中唯一可見的欄位。
 
 1. （選擇性和條件性）如果您選取連結數字、貨幣、百分比或日期型別欄位，請同時選取彙總值。 當使用者在連結的記錄欄位中選取多個連結的記錄時，連結欄位的值會根據您選擇的彙總器，以逗號分隔或顯示為彙總值。
 
@@ -318,19 +325,17 @@ After permssions - replace the table with:
 
 1. （選用）使用 **搜尋** 圖示 ![](assets/search-icon.png) 以搜尋欄位。
 
-1. （選用）按一下 **略過** 如果您不想從連線的記錄型別新增任何欄位。
-
 1. 按一下 **新增欄位** 以儲存變更。
 
    已新增下列專案：
 
-   * 在您手動新增連結的記錄型別後，將顯示連結的記錄欄位。 連結的記錄欄位名稱是您在步驟6中選取的名稱。 <!-- ensure this is still accurate-->
+   * 在您手動新增連結的記錄型別後，顯示連結的記錄欄位。 連結的記錄欄位名稱是您在步驟5中選取的名稱。 <!--accurate-->
 
-   * 在您手動新增連結記錄欄位中的記錄後，將顯示連結記錄型別欄位資訊的連結欄位。 連結的欄位僅在 **選取查閱欄位** 建立連線時會選取「設定」。 連結的欄位會根據以下模式命名：
+   * 在您手動新增連結記錄欄位中的記錄後，顯示連結記錄型別欄位資訊的連結欄位。 連結的欄位僅在 **選取查閱欄位** 建立連線時會選取「設定」。 連結的欄位會根據以下模式命名：
 
      `<Name of the original field on the linked record> (from <Name of your linked field>)`
 
-   * 您要連結的記錄型別上的連結記錄欄位。 連結的記錄型別上連結的記錄欄位名稱是您連結的記錄型別名稱。
+   * 當您將Maestro記錄型別連結至彼此時，您連結至的記錄型別也會新增連結的記錄欄位。 連結的記錄型別上連結的記錄欄位名稱是您連結的記錄型別名稱。
 
      例如，如果您從「行銷活動」記錄型別連結「產品」記錄型別，並將行銷活動的已連線欄位命名為「連結的產品」，則會為「產品」記錄型別建立「行銷活動」連結記錄欄位。
 
@@ -341,7 +346,14 @@ After permssions - replace the table with:
 
    ![](assets/edit-field-and-lookup-fields-drop-down-menu-in-table-column.png)
 
-   若要新增或移除查詢欄位，請遵循上述步驟7-12中的指示。 <!--ensure these step numbers stay accurate-->
+   若要新增或移除查詢欄位，請遵循上述步驟9-13中的指示。 <!--ensure these step numbers stay accurate-->
+
+   >[!NOTE]
+   >
+   > 您無法將您連結的記錄之查詢欄位新增至連結的記錄型別，該型別表示協力廠商應用程式中的物件。
+   >
+   > 例如，連結至Workfront專案時，您無法從「Maestro專案」記錄型別中顯示的「Campaign」連結記錄欄位，新增「Campaign」Maestro物件的查詢欄位。
+
 
 1. （可選）從您要連結的記錄型別中，按一下連結的記錄欄位標題中的向下箭頭，然後按一下 **刪除**.
 

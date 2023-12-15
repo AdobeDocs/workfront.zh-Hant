@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: 92e8b9949f13536b3464922a93fafcb74688d916
+source-git-commit: 6f026590f0030b564f0d110afead9ade1acd7896
 workflow-type: tm+mt
-source-wordcount: '1053'
+source-wordcount: '1052'
 ht-degree: 0%
 
 ---
@@ -181,7 +181,7 @@ After permssions - replace the table with:
 
    >[!NOTE]
    >
-   >  * [名稱]欄位不是必要欄位。 不過，我們建議您為記錄新增名稱，因為將記錄連結至彼此時，有助於識別記錄。
+   >  * 記錄沒有必填欄位。 不過，我們建議您為記錄新增「名稱」，因為將記錄連結至彼此時，有助於識別記錄。
    >
    >  * 參考其他記錄型別或計算欄位的欄位為唯讀欄位。
 

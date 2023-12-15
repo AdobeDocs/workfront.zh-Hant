@@ -6,7 +6,7 @@ description: 您可以透過建立報告，提供貴組織在Adobe Workfront中�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 10c4df37-f09f-4b91-9cfd-3d0c3835bc7b
-source-git-commit: ad309990a4e09f5c083c1518fd503078718a97d1
+source-git-commit: 6f026590f0030b564f0d110afead9ade1acd7896
 workflow-type: tm+mt
 source-wordcount: '1820'
 ht-degree: 1%
@@ -15,6 +15,8 @@ ht-degree: 1%
 
 
 # 建立自訂報表
+
+<!--Audited: 12/2023-->
 
 您可以透過建立報告，提供貴組織在Adobe Workfront中所需資訊的存取權。 您可以使用Workfront中提供的任何內建報表，或從頭開始建立自訂報表。
 

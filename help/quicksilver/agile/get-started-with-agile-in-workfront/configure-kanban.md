@@ -6,7 +6,7 @@ description: 您在中建立Kanban或Scrum敏捷團隊 [!DNL Adobe Workfront].
 author: Lisa
 feature: Agile
 exl-id: b4c417a6-64c8-43e0-bace-b73572247b3e
-source-git-commit: 3c5bcb85080a882a8b69bffcd01563a0479f98a5
+source-git-commit: 6f026590f0030b564f0d110afead9ade1acd7896
 workflow-type: tm+mt
 source-wordcount: '1476'
 ht-degree: 1%
@@ -32,6 +32,8 @@ ht-degree: 1%
 如需有關設定Scrum群組的資訊，請參閱 [設定Scrum](../get-started-with-agile-in-workfront/configure-scrum.md).
 
 ## 存取需求
+
+<!--Audited: 12/2023-->
 
 您必須具有下列存取權才能執行本文中的步驟：
 
