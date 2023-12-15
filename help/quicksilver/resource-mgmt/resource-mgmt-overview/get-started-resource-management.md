@@ -7,14 +7,16 @@ description: 「資源管理」可讓您設定系統，以根據資源的可用�
 author: Alina
 feature: Resource Management
 exl-id: b10ef503-60ea-4450-b63e-b2918e9bcc11
-source-git-commit: dfd8dd07e1a88da872550163051e703f6aea5f74
+source-git-commit: ca4da5302198d8fffc8b706baa3b3aeaa1f738e3
 workflow-type: tm+mt
-source-wordcount: '1175'
+source-wordcount: '1171'
 ht-degree: 0%
 
 ---
 
 # 開始使用資源管理
+
+<!-- Audited: 12/2023 -->
 
 <!--
 <p>(NOTE: DO NOT DELETE THIS ARTICLE. MANY ARTICLES MENTIONING RES MANAGEMENT ARE AND STILL SHOULD / WILL BE LINKED TO IT.) </p>
@@ -34,7 +36,7 @@ Workfront有幾組用於管理資源的工具。 每個工具都有個別的範�
 
    * **資源規劃工具**：您可以在資源管理的第一個階段中使用資源規劃工具，根據資源的已排程可用性來預算資源的專案時間。 在資源規劃階段中，您可以組織資源集區中的使用者，並將多個資源集區指定給專案。
 
-     如需有關「資源規劃」的詳細資訊，請參閱區段 [Adobe Workfront中的資源規劃](../../resource-mgmt/resource-planning/resource-planning-overview.md).
+     如需有關「資源規劃」的詳細資訊，請參閱 [Adobe Workfront中的資源規劃](../../resource-mgmt/resource-planning/resource-planning-overview.md).
 
    * **情境規劃工具**：這是資源的較高層級計畫，可讓您跨多個方案管理資源，這些方案可跨越一、三或五年計畫，並包含多個專案。 您可以善用最佳情境，以充分利用其可用性和預算。
 
@@ -48,7 +50,7 @@ Workfront有幾組用於管理資源的工具。 每個工具都有個別的範�
 
    * **工作負載平衡器**：這屬於資源管理的較低層級階段，您可以在此處根據完成資源所需的時數及其可用性，將資源指派給必須完成的實際工作（任務和問題）。 您可以使用工作負載平衡器將使用者指派給目前未指派或指派給工作角色的實際工作。
 
-     如需Workfront平衡器的相關資訊，請參閱區段 [工作負載平衡器：文章索引](../../resource-mgmt/workload-balancer/workload-balancer.md).
+     如需Workfront平衡器的相關資訊，請參閱 [工作負載平衡器：文章索引](../../resource-mgmt/workload-balancer/workload-balancer.md).
 
 <!--
 
@@ -165,9 +167,9 @@ Workfront有幾組用於管理資源的工具。 每個工具都有個別的範�
 
 如需Workfront中每個資源管理工具的需求相關資訊，請參閱下列內容：
 
-* 文章中「在資源規劃工具中工作的先決條件」一節 [資源規劃工具概觀](../../resource-mgmt/resource-planning/get-started-resource-planner.md).
+* 區段 [在資源規劃工具中工作的先決條件](../../resource-mgmt/resource-planning/get-started-resource-planner.md#prerequisites-for-working-in-the-resource-planner) 在文章中 [資源規劃工具概觀](../../resource-mgmt/resource-planning/get-started-resource-planner.md).
   <!--remove this at production: * The section "Prerequisites" in the article [Get started with Resource Scheduling](../../resource-mgmt/resource-scheduling/get-started-resource-scheduling.md).-->
-* 文章中「使用工作負載平衡器的最佳實務」小節 [工作負載平衡器概覽](../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
+* 區段 [使用工作負載平衡器的最佳實務](../../resource-mgmt/workload-balancer/overview-workload-balancer.md#best-practices-for-using-the-workload-balancer) 在文章中 [工作負載平衡器概覽](../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
 * [在Adobe Workfront中預算資源所需的存取權](../../resource-mgmt/resource-planning/access-needed-to-budget-resources.md).
 * [管理工作負載平衡工具中的資源所需的存取權](../../resource-mgmt/workload-balancer/access-needed-manage-resources-balancer.md).
 

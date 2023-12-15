@@ -1,46 +1,48 @@
 ---
 product-area: documents;workfront-integrations
 navigation-topic: adobe-workfront-for-experince-manager-asset-essentials
-title: Adobe Experience Manager Assets整合概觀
-description: Workfront與Experience Manager Assets或Assets Essentials的整合，讓組織能透過內在連結工作與數位資產管理，來提升內容速度和上市時間。
+title: Adobe Experience Manager Assets整合概述
+description: Workfront與Experience Manager Assets或Assets Essentials之間的整合可讓組織在本質上連線工作和數位資產管理，藉以改善內容速度和上市時間。
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: bdcf315c-5710-41dc-8528-0634e89907df
-source-git-commit: 059cfa79c57f071b3c7efd690b583099f46c99fb
+source-git-commit: ca4da5302198d8fffc8b706baa3b3aeaa1f738e3
 workflow-type: tm+mt
-source-wordcount: '271'
-ht-degree: 0%
+source-wordcount: '266'
+ht-degree: 1%
 
 ---
 
-# Adobe Experience Manager Assets整合概觀
+# Adobe Experience Manager Assets整合概述
 
-Workfront與Experience Manager Assets或Assets Essentials的整合，讓組織能透過內在連結工作與數位資產管理，來提升內容速度和上市時間。
+<!-- Audited: 12/2023 -->
+
+Workfront與Experience Manager Assets或Assets Essentials之間的整合可讓組織在本質上連線工作和數位資產管理，藉以改善內容速度和上市時間。
 
 >[!IMPORTANT]
 >
->Adobe不支援同時使用舊版或增強連接器與Experience Manager整合。
+>Adobe不支援同時使用舊版或增強型聯結器和Experience Manager整合。
 
 ## 主要功能
 
 透過原生Experience Manager整合，您可以
 
-* 快速設定Workfront內的整合
-* 自動建立連結在Workfront和Experience Manager之間的資料夾
+* 快速設定Workfront中的整合
+* 自動建立在Workfront和Experience Manager之間連結的資料夾
 * 輕鬆同步現有連結資產的中繼資料
-* 在Workfront中變更產品組合、方案、專案、任務、問題和檔案中繼資料時，自動更新它
-* 跨組織ID將數個Experience Manager Assets存放庫順暢地連結至一個Workfront環境，或將數個Workfront環境順暢地連結至一個Experience Manager Assets存放庫。
+* 在Workfront中變更投資組合、方案、專案、任務、問題和檔案中繼資料時，自動更新這些中繼資料
+* 將多個Experience Manager Assets存放庫順利連線到一個Workfront環境，或多個Workfront環境連線到跨組織ID的一個Experience Manager Assets存放庫
 
 
-## 必要條件
+## 先決條件
 
-* Workfront必須位於已指派組織ID的Admin Console中。
-* Workfront和Experience Manager資產或Assets Essentials必須指派為產品給設定整合的使用者。
+* Workfront必須採用已指派組織ID的Admin Console。
+* Workfront和Experience Manger資產或Assets Essentials必須指派為產品，以供設定整合的使用者使用。
 
 
 ## 支援的產品
 
-* Adobe Experience Manager資產as a Cloud Service
+* Adobe Experience Manager Assetsas a Cloud Service
 * Adobe Experience Manager Assets Essentials
 
 
@@ -51,4 +53,4 @@ Workfront與Experience Manager Assets或Assets Essentials的整合，讓組織�
    1. [設定Experience Manager Assetsas a Cloud Service整合](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md)
 或
    1. [設定Experience Manager Assets Essentials整合](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md)
-1. 使用整合：傳送資產、建立連結的資料夾、對應中繼資料等。 請參閱 [Adobe Workfront for Experience Manager Assets和Assets Essentials](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md) 以取得更多資訊。
+1. 使用整合：傳送資產、建立連結資料夾、對應中繼資料等。 另請參閱 [適用於Experience Manager Assets和Assets Essentials的Adobe Workfront：文章索引](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md) 以取得詳細資訊。

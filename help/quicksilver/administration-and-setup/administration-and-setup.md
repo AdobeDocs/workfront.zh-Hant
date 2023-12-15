@@ -9,7 +9,7 @@ feature: System Setup and Administration
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: f80bb267-be96-41d4-98c5-398bde66499e
-source-git-commit: a1569362dee8cd686a91698af3c9c217e920c263
+source-git-commit: b326ae3023b32ace7b1f5d4584de20cab89cdbe5
 workflow-type: tm+mt
 source-wordcount: '73'
 ht-degree: 1%
@@ -26,7 +26,7 @@ ht-degree: 1%
   -->
 
 * [設定Adobe Workfront](../administration-and-setup/set-up-workfront/set-up-workfront.md)
-* [新增使用者](../administration-and-setup/add-users/add-users.md)
+* [使用者管理](../administration-and-setup/add-users/add-users.md)
 * [自訂Adobe Workfront](../administration-and-setup/customize-workfront/customize-workfront.md)
 * [管理Adobe Workfront](../administration-and-setup/manage-workfront/manage-workfront.md)
 * [管理群組](../administration-and-setup/manage-groups/manage-groups.md)

@@ -3,9 +3,9 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文件、教學課程和其他資源，了解如何在您的組織中實施並有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: 3361cf540b5a32cb4621b550b17253675ef43222
+source-git-commit: 62b18c06c05a2a36386bd7fb3c0e33c32b507d63
 workflow-type: tm+mt
-source-wordcount: '13793'
+source-wordcount: '13796'
 ht-degree: 1%
 
 ---
@@ -451,8 +451,8 @@ ht-degree: 1%
          * [預覽Sandbox環境](administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md)
          * [自訂重新整理沙箱環境](administration-and-setup/set-up-workfront/workfront-testing-environments/wf-custom-refresh-sandbox-environment.md)
          * [將物件從其中移動 [!DNL Workfront] 環境至另一個環境](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion.md)
-   * 新增使用者 {#add-users}
-      * [將使用者新增至Workfront](administration-and-setup/add-users/add-users.md)
+   * 使用者管理 {#add-users}
+      * [使用者管理：文章索引](administration-and-setup/add-users/add-users.md)
       * 建立和管理使用者 {#create-manage-users}
          * [管理使用者](administration-and-setup/add-users/create-and-manage-users/create-and-manage-users.md)
          * [新增使用者](administration-and-setup/add-users/create-and-manage-users/add-users.md)
@@ -1111,8 +1111,8 @@ ht-degree: 1%
          * [校訂具有增強型聯結器的連結資產](documents/workfront-and-experience-manager-integrations/workfront-for-experience-manager-enhanced-connector/enhanced-connector-proof-asset.md)
          * [檢視或下載具有增強型聯結器的連結資產](documents/workfront-and-experience-manager-integrations/workfront-for-experience-manager-enhanced-connector/enhanced-connector-view-download-asset.md)
       * 適用於Experience Manager Assets和Assets Essentials的Adobe Workfront {#wf-aem-essentials}
-         * [適用於Experience Manager Assets和Assets Essentials的Adobe Workfront](documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md)
-         * [Adobe Experience Manager資產整合總覽](documents/adobe-workfront-for-experience-manager-assets-essentials/aem-asset-integrations.md)
+         * [適用於Experience Manager Assets和Assets Essentials的Adobe Workfront：文章索引](documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md)
+         * [Adobe Experience Manager Assets整合概述](documents/adobe-workfront-for-experience-manager-assets-essentials/aem-asset-integrations.md)
          * [從Experience Manager Assets Essentials連結資產和資料夾](documents/adobe-workfront-for-experience-manager-assets-essentials/link-to-aem.md)
          * [檢視Experience Manager Assets或Assets Essentials的對應中繼資料](documents/adobe-workfront-for-experience-manager-assets-essentials/view-asset-metadata.md)
          * [從Experience Manager Assets或Assets Essentials檢視或下載連結的資產](documents/adobe-workfront-for-experience-manager-assets-essentials/view-download-asset.md)
