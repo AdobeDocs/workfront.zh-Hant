@@ -8,10 +8,10 @@ author: Nolan
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: b7117ff8-5353-4766-b982-ba624a484ad1
-source-git-commit: 417b8c081a1940b112e8cfbd6d9216d802dc8f8e
+source-git-commit: e61e20c1cafbcf32a116bae2cc9e779a8a567986
 workflow-type: tm+mt
-source-wordcount: '59'
-ht-degree: 5%
+source-wordcount: '61'
+ht-degree: 3%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 5%
 * [建立及管理報表](../../reports-and-dashboards/reports/creating-and-managing-reports/create-manage-reports.md)
 * [報表中計算的自訂資料](../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-custom-data-reports.md)
 * [自訂檢視、篩選和分組範例](../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md)
-* [文字模式資源](../../reports-and-dashboards/reports/text-mode/text-mode-resources.md)
+* [文字模式資源：文章索引](../../reports-and-dashboards/reports/text-mode/text-mode-resources.md)
 * [報表使用情況概觀](../../reports-and-dashboards/reports/report-usage/report-usage-overview.md)
 * [行事曆](../../reports-and-dashboards/reports/calendars/calendars.md)
 * [報告的提示、技巧和疑難排解](../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/tips-troubleshooting-reports.md)

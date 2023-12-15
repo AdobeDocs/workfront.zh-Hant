@@ -2,20 +2,32 @@
 product-area: reporting
 navigation-topic: create-and-manage-reports
 title: 匯出資料
-description: 瞭解如何匯出報表資料
+description: 您可以從各種清單、報表、控制面板和搜尋匯出Adobe Workfront資料。
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 7fd45fa2-f5d2-411d-849e-cff5be420fbc
-source-git-commit: 3980d24b4a9c34b85c475a124c2b83dae7aa55ff
+source-git-commit: 219c952185f50bd3888f6deee17cbc35d3b34b22
 workflow-type: tm+mt
-source-wordcount: '2185'
+source-wordcount: '2206'
 ht-degree: 0%
 
 ---
 
 # 匯出資料
 
+<!-- Audited: 12/2023 -->
+
 您可以從各種清單、報表、控制面板和搜尋匯出Adobe Workfront資料。
+
+匯出資料的部分原因包括：
+
+* 您想要將資料的硬複製提供給Workfront以外的人員。
+* 您要將報告結果作為附件傳送給外部使用者。
+* 您要建立Workfront資料的外部備份。
+* Workfront網路應用程式中，有一個頁面只能顯示2,000個結果的限制。 如果您的報告產生超過2,000個，您可以將報告匯出為任何可用格式，並在一個清單中檢視報告中的所有結果。
+
+您可以從Workfront介面手動匯出報表，也可以排程報表的傳送，以便稍後將該報表傳送給您。 如需排程傳送報表的詳細資訊，請參閱 [報表傳送概覽](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md).
+
 本文資訊不適用於下列匯出：
 
 * 從圖表報表匯出資訊。
@@ -29,15 +41,6 @@ ht-degree: 0%
 * 從資源規劃工具匯出資訊。
 
   如需有關從資源規劃工具匯出資訊的詳細資訊，請參閱以下的「匯出選項」： [資源規劃工具導覽概觀](../../../resource-mgmt/resource-planning/resource-planner-navigation.md).
-
-匯出資料的部分原因包括：
-
-* 您想要將資料的硬複製提供給Workfront以外的人員。
-* 您要將報告結果作為附件傳送給外部使用者。
-* 您要建立Workfront資料的外部備份。
-* Workfront網路應用程式中，有一個頁面只能顯示2,000個結果的限制。 如果您的報告產生超過2,000個，您可以將報告匯出為以下任何一種格式，並取得在一個清單中檢視報告中的所有結果。
-
-您可以從Workfront介面手動匯出報表，也可以排程報表的傳送，以便稍後將該報表傳送給您。 如需排程傳送報表的詳細資訊，請參閱 [報表傳送概覽](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md).
 
 ## 存取需求
 
@@ -55,29 +58,31 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront授權*</td> 
-   <td> <p>評論或以上</p> </td> 
+   <td>
+    <p>新增：淺色或更高</p>
+    <p>或</p>
+    <p>目前：檢閱或以上</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定*</td> 
-   <td> <p>檢視或更高許可權的報告、儀表板、行事曆以匯出報告</p> <p>檢視您檢視清單中的物件或更高存取權以匯出清單</p> <p>注意：如果您還是沒有存取權，請詢問您的Workfront管理員，他們是否在您的存取層級中設定其他限制。 如需有關Workfront管理員如何修改您的存取層級的資訊，請參閱 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>.</p> </td> 
+   <td> <p>檢視或更高許可權的報告、儀表板和行事曆以匯出報告</p> <p>檢視您檢視清單中的物件或更高存取權以匯出清單</p> <p>注意：如果您還是沒有存取權，請詢問您的Workfront管理員，他們是否在您的存取層級中設定其他限制。 如需有關Workfront管理員如何修改您的存取層級的資訊，請參閱 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">物件許可權</td> 
-   <td> <p>檢視報表或儀表板的許可權或以上以匯出報表或儀表板</p> <p>檢視您在清單中檢視的物件或擁有更高的許可權以匯出清單</p> <p>如需請求其他存取許可權的詳細資訊，請參閱 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">要求物件的存取權 </a>.</p> </td> 
+   <td> <p>檢視報表或儀表板的許可權或以上以匯出報表或儀表板</p> <p>檢視您在清單中檢視的物件或擁有更高的許可權以匯出清單</p> <p>如需請求其他存取許可權的詳細資訊，請參閱 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">要求物件的存取權</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## 必要條件
+&#42;若要瞭解您擁有的計畫、授權型別或存取權，請聯絡您的Workfront管理員。
+
+## 先決條件
 
 必須先建立報表，然後才能匯出其資料。
 
-如需建立報表的詳細資訊，請參閱 [建立報告](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-report.md).
+如需建立報表的詳細資訊，請參閱 [建立自訂報表](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md) 或 [建立報告副本](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-copy-report.md).
 
 ## 匯出格式和限制
-
-* [匯出格式](#export-formats)
-* [匯出限制](#export-limits)
 
 ### 匯出格式 {#export-formats}
 
@@ -105,7 +110,7 @@ NOTE: Alina: [! This information is shared between "Exporting Data" and "Setting
 
    * 若為Excel .xls檔案，此限製為 **65,000列**.
    * 若為Excel .xlsx檔案，此限製為 **100,000列**.
-   * 這些限制會排除欄標題，以及報表中分組的列。 例如，如果報表中有6個群組，以及50,000列或資料，則匯出的檔案將有50,000列。
+   * 這些限制會排除欄標題，以及報表中分組的列。 例如，如果報表中有6個群組，且有50,000列資料，則匯出的檔案會有50,000列。
 
   >[!IMPORTANT]
   >
@@ -129,11 +134,11 @@ NOTE: Alina: [! This information is shared between "Exporting Data" and "Setting
    * 透過API整合的匯出。
    * 透過Kick-Start匯出的資料。
 
-     如需有關透過Kick-Start匯出資料的詳細資訊，請參閱 [透過Kick-Start從Adobe Workfront匯出資料](../../../administration-and-setup/manage-workfront/using-kick-starts/export-data-from-wf-via-kick-starts.md)
+     如需有關透過Kick-Start匯出資料的詳細資訊，請參閱 [透過Kick-Start從Adobe Workfront匯出資料](../../../administration-and-setup/manage-workfront/using-kick-starts/export-data-from-wf-via-kick-starts.md).
 
      >[!NOTE]
      >
-     >您可在快速啟動檔案中匯出50,000列，但您只能將資料匯出為Excel格式檔案。 
+     >您可在快速啟動檔案中匯出50,000列，但您只能將資料匯出為Excel格式檔案。
 
    * 匯出專案的利用資訊。
 
@@ -151,9 +156,6 @@ NOTE: Alina: [! This information is shared between "Exporting Data" and "Setting
 
 ## 匯出資料
 
-* [從報表或清單匯出資料](#export-data-from-a-report-or-list)
-* [從儀表板匯出資料](#export-data-from-a-dashboard)
-
 ### 從報表或清單匯出資料 {#export-data-from-a-report-or-list}
 
 1. 前往您要匯出的報告或清單。
@@ -167,14 +169,17 @@ NOTE: Alina: [! This information is shared between "Exporting Data" and "Setting
 
 1. 按一下 **匯出**，然後選取格式。
 
+   <!--
+   This note doesn't seem to be true (I tested with e reviewer and they could export the dashboard and its reports), and there's another article all about exporting dashboards. Lisa 12/23
    >[!NOTE]
    >
-   若要匯出「儀表板」報告，您必須擁有「計畫」授權。\
-   ![](assets/nwe-dashboard-export-note-350x271.png)
+   >To export a Dashboard report, you must have a Plan license.  
+   >![](assets/nwe-dashboard-export-note-350x271.png)
+   -->
 
    或
 
-   按一下 **匯出** 圖示 ![](assets/export-icon-nwe.png)，然後選取格式。
+   按一下 **匯出** 圖示 ![「匯出」圖示](assets/export-icon-nwe.png)，然後選取格式。
 
    您可用於PDF匯出的選項取決於Workfront使用者設定中的地區設定：
 
@@ -212,9 +217,6 @@ NOTE: Alina: [! This information is shared between "Exporting Data" and "Setting
 
 無論您匯出物件清單還是報告，匯出的檔案都會有檔案名稱和標題。 您可以參照檔案名稱，在電腦上找到匯出的檔案。 報告的標題會在您與使用者共用匯出的檔案時，為使用者指出該檔案代表的意義。
 
-* [匯出清單的檔案名稱](#file-names-for-exported-lists)
-* [匯出報告的檔案名稱](#file-names-for-exported-reports)
-
 #### 匯出清單的檔案名稱 {#file-names-for-exported-lists}
 
 匯出物件清單時，物件的型別會顯示在匯出的檔案中，檔案名稱及清單標題中。
@@ -245,10 +247,7 @@ NOTE: Alina: [! This information is shared between "Exporting Data" and "Setting
 
 ### 標題 {#titles}
 
-匯出物件清單時，只有PDF格式的檔案會有標題。 如果您將清單或報表匯出為Excel、Excel (.xlsx)或Tab分隔格式，則檔案沒有標題。
-
-* [匯出清單的標題](#titles-for-exported-lists)
-* [匯出報告的標題](#titles-for-exported-reports)
+匯出物件清單時，只有PDF格式的檔案會有標題。 如果將清單或報表匯出為Excel、Excel (.xlsx)或Tab字元分隔格式，檔案就沒有標題。
 
 #### 匯出清單的標題 {#titles-for-exported-lists}
 
@@ -257,7 +256,7 @@ NOTE: Alina: [! This information is shared between "Exporting Data" and "Setting
 * *專案名稱 — 匯出的任務*
 * *專案名稱 — 匯出的問題*
 
-當您將「任務」中的「任務」和「問題」清單匯出到PDF檔案時，所匯出檔案的拼貼是以下內容之一：
+當您將任務中的任務和問題清單匯出到PDF檔案時，匯出的檔案的拼貼是以下拼貼之一：
 
 * *專案名稱 — 任務名稱 — 匯出的任務*
 * *專案名稱 — 任務名稱 — 匯出的問題*
@@ -297,11 +296,11 @@ NOTE: Alina: [! This information is shared between "Exporting Data" and "Setting
 
 除非報表有特殊檢視，否則在傳送或排程傳送報表時，您一律會收到報表的預設標籤。
 
-如果您的報表在Web應用程式中具有特殊格式，則僅針對.pdf和Excel檔案傳送「詳細資料」和「矩陣」標籤時，應使用特殊格式傳送報表。
+如果您的報表在Web應用程式中具有特殊格式，則在傳送「詳細資料」和「矩陣」標籤時，報表應具有特殊格式，僅適用於.pdf和Excel檔案。
 
 >[!NOTE]
 >
-如果您要匯出的資料包含共用欄，並且您匯出為Excel或Tab分隔格式，則匯出的檔案會分隔這些欄。
+>如果您要匯出的資料包含共用欄，並且您匯出為Excel或Tab分隔格式，則匯出的檔案會分隔這些欄。
 
 如需如何在報表中自訂格式的詳細資訊，請參閱 [在檢視中使用條件式格式](../../../reports-and-dashboards/reports/reporting-elements/use-conditional-formatting-views.md).
 
@@ -311,18 +310,22 @@ NOTE: Alina: [! This information is shared between "Exporting Data" and "Setting
 
 >[!TIP]
 >
-如果行 `valueformat=HTML` 以文字模式顯示自訂欄位欄，且連結值未顯示在轉存的.pdf檔案中，您必須在文字模式中輸入額外的程式碼行至欄。
+>如果行 `valueformat=HTML` 以文字模式顯示自訂欄位欄，且連結值未顯示在轉存的.pdf檔案中，您必須在文字模式中輸入額外的程式碼行至欄。
 >
-例如，如果您有一個名為「開啟第1季專案」的自訂欄位，其中包含連結，您可以新增下列程式碼：
+>例如，如果您有一個名為「開啟第1季專案」的自訂欄位，其中包含連結，您可以新增下列程式碼：
 >
->```
->link.url=customDataLabelsAsString(Open Q1 Projects)
->linkedname=direct
->```
+>`link.url=customDataLabelsAsString(Open Q1 Projects)`
+>`linkedname=direct`
 
 當您匯出為Excel格式時，匯出的檔案中只會包含指向Workfront內物件的連結，而且只有當您可選取在匯出的Excel檔案中允許連結的位置（例如報表傳送）才支援這些連結。
 
 ## 品牌化 {#branding}
+
+>[!IMPORTANT]
+>
+>品牌推廣僅適用於尚未加入Adobe Experience Cloud的組織。
+>
+>如果您的組織已上線Adobe Experience Cloud，將無法使用品牌推廣。
 
 如果您的Workfront管理員已將自訂品牌新增至全域導覽列的Workfront執行個體，則匯出的.pdf檔案也會包含您的個人化標誌。
 

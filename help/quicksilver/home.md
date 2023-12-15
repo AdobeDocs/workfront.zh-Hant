@@ -3,10 +3,10 @@ title: 『[!DNL Adobe Workfront] documentation`
 description: 的檔案 [!DNL Adobe Workfront].
 feature: Get Started with Workfront
 exl-id: 337efdc8-ee1e-4223-a211-2cb1dcecfafa
-source-git-commit: dfd8dd07e1a88da872550163051e703f6aea5f74
+source-git-commit: e61e20c1cafbcf32a116bae2cc9e779a8a567986
 workflow-type: tm+mt
-source-wordcount: '379'
-ht-degree: 0%
+source-wordcount: '381'
+ht-degree: 2%
 
 ---
 
@@ -65,11 +65,11 @@ Workfront中的敏捷功能可讓團隊以一致的步調完成少量可管理�
 
 另請參閱 [報告和儀表板](/help/quicksilver/reports-and-dashboards/reports-and-dashboards-overview.md).
 
-#### 文字模式報表
+#### 文字模式報告
 
 如果您不確定如何在Workfront中建立所需的報告，您可能會使用文字模式找到所要的解決方案。
 
-另請參閱 [文字模式資源](/help/quicksilver/reports-and-dashboards/reports/text-mode/text-mode-resources.md).
+另請參閱 [文字模式資源：文章索引](/help/quicksilver/reports-and-dashboards/reports/text-mode/text-mode-resources.md).
 
 ### 工作負載平衡器
 
@@ -91,7 +91,7 @@ Workfront中的敏捷功能可讓團隊以一致的步調完成少量可管理�
 
 另請參閱 [API基本概念](/help/quicksilver/wf-api/general/api-basics.md).
 
-### API總管
+### API Explorer
 
 您可以在API總管中檢視透過Adobe Workfront API取得的所有物件。
 

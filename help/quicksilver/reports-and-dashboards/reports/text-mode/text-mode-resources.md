@@ -2,20 +2,22 @@
 content-type: reference
 product-area: reporting
 navigation-topic: reports
-title: 文字模式資源
+title: 「文字模式資源：文章索引」
 description: 文字模式資源
 author: Nolan
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: 892f1746-b9c6-4414-bfa1-24f68a3be6fb
-source-git-commit: 417b8c081a1940b112e8cfbd6d9216d802dc8f8e
+source-git-commit: e61e20c1cafbcf32a116bae2cc9e779a8a567986
 workflow-type: tm+mt
-source-wordcount: '143'
+source-wordcount: '147'
 ht-degree: 0%
 
 ---
 
-# 文字模式資源
+# 文字模式資源：文章索引
+
+<!-- Audited: 12/2023 -->
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: Alina: This is the section article with links to all other articles in this section)</p>
