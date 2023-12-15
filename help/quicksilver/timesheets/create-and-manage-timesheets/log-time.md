@@ -7,14 +7,16 @@ author: Alina
 feature: Timesheets
 role: User
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: 3d9631f0108487b4cad312ed1a6be5ae313eee93
+source-git-commit: 6d2144732e5f47b670c2281d042a2dc950a2928f
 workflow-type: tm+mt
-source-wordcount: '3570'
+source-wordcount: '3568'
 ht-degree: 0%
 
 ---
 
 # 記錄時間
+
+<!--Audited: 12/2023-->
 
 <!--remove all preview and production references from this article with 23.3 release-->
 
@@ -72,10 +74,10 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront授權*</td> 
-   <td> <p>新計畫：<ul><li>在時程表中記錄一般時數的淺色或更高</li></p>
+   <td> <p>新增：<ul><li>在時程表中記錄一般時數的淺色或更高</li></p>
    <li> 在專案、任務或問題上記錄時數的標準或更高</li></ul></p>
    <p>或</p>
-   <p>目前計畫：<ul><li>檢閱或更高版本以在時程表中記錄一般時數</li></p>
+   <p>目前：<ul><li>檢閱或更高版本以在時程表中記錄一般時數</li></p>
    <li> 在專案、任務或問題上記錄小時數的工作或更高</li></ul></p>
    </td> 
   </tr> 

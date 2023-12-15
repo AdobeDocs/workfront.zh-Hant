@@ -6,14 +6,16 @@ description: 案頭校訂檢視器是必須安裝在本機電腦上的應用程�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 4441cf7f-13c7-4bd5-a971-2c9c0302d309
-source-git-commit: 73e6a62e4c4103d0a4dc7e3f58ddd68cbd145b8c
+source-git-commit: 4e3cafafb121371249fb73f2f001477bdbad2d77
 workflow-type: tm+mt
-source-wordcount: '606'
+source-wordcount: '543'
 ht-degree: 0%
 
 ---
 
 # 安裝案頭校訂檢視器
+
+<!--Audited: 12/2023-->
 
 案頭校訂檢視器是必須安裝在本機電腦上的應用程式，主要設計用來校訂互動式內容。
 
@@ -34,11 +36,11 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront計畫*</td> 
-   <td> <p>目前計畫：Pro或更高版本</p> <p>或</p> <p>舊版計畫：選擇或Premium</p> <p>如需有關校訂不同方案的存取許可權的詳細資訊，請參閱 <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">存取Workfront中的校訂功能</a>.</p> </td> 
+   <td> <p>新增：任何</p> <p>或</p> <p>目前：Pro或更高</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront授權</td> 
-   <td> <p>任何</p> <p>舊版計畫：任何（您必須為使用者啟用校訂）</p> </td> 
+   <td> <p>任何</p></td> 
   </tr> 
  </tbody> 
 </table>
@@ -65,7 +67,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->如果您開啟互動式校訂時「案頭校訂檢視器」未啟動，可能表示您的Workfront或Workfront校訂管理員需要將「案頭校訂檢視器」設定為互動式校訂的預設檢視器，如所述 [在案頭校訂檢視器中開啟非互動校訂的使用者設定](../../../workfront-proof/wp-work-proofsfiles/review-proofs-dpv/destop-proofing-viewer.md#user-setting-for-launching-non-interactive-proofs).
+>如果您開啟互動式校訂時「案頭校訂檢視器」未啟動，可能表示您的Workfront或Workfront校訂管理員需要將「案頭校訂檢視器」設定為互動式校訂的預設檢視器，如所述 [在案頭校訂檢視器中開啟非互動校訂的使用者設定](../../../workfront-proof/wp-work-proofsfiles/review-proofs-dpv/destop-proofing-viewer.md#user-setting-for-opening-non-interactive-proofs-in-the-desktop-proofing-viewer).
 
 ## 在Windows上安裝案頭校訂檢視器
 

@@ -7,7 +7,7 @@ author: Nolan
 feature: Reports and Dashboards
 role: User
 exl-id: f24430e1-c5f7-4925-93df-0e956a03c863
-source-git-commit: 6279106f56fa0d128e0dd03cd13b63a71d4c2952
+source-git-commit: 6d2144732e5f47b670c2281d042a2dc950a2928f
 workflow-type: tm+mt
 source-wordcount: '1865'
 ht-degree: 0%
@@ -15,6 +15,8 @@ ht-degree: 0%
 ---
 
 # 文字模式語法概觀
+
+<!--Audited: 12/2023-->
 
 您可以使用文字模式介面在清單和報告中建立更複雜的檢視、篩選器、分組和自訂提示。 使用文字模式，您可以存取在標準模式介面中無法使用的欄位及其屬性。
 
@@ -55,7 +57,7 @@ ht-degree: 0%
   如需Workfront中物件階層的相關資訊，請參閱：
 
    * [瞭解Adobe Workfront中的物件](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)
-   * [API總管](../../../wf-api/general/api-explorer.md)
+   * [API Explorer](../../../wf-api/general/api-explorer.md)
 
 * 儘可能使用萬用字元，讓您的報告和清單更動態，並避免針對不同使用者和類似時間表重複使用它們。
 

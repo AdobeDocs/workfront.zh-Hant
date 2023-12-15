@@ -7,7 +7,7 @@ description: 您可以與檢閱者共用及檢閱各種型別的檔案，即使�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 647edda3-de52-4bb9-b202-36c5cf832fb0
-source-git-commit: 8d9fc0f391f24a513f118e904da35af4467f0c95
+source-git-commit: 6d2144732e5f47b670c2281d042a2dc950a2928f
 workflow-type: tm+mt
 source-wordcount: '1067'
 ht-degree: 0%
@@ -15,6 +15,8 @@ ht-degree: 0%
 ---
 
 # 支援的校訂檔案型別和大小限制概觀
+
+<!--Audited: 12/2023-->
 
 您可以與檢閱者共用及檢閱各種型別的檔案，即使他們沒有在電腦上安裝用來建立檔案的軟體(例如Photoshop或Illustrator)。 我們支援靜態、視訊、音訊、網頁擷取和互動式檔案型別，大小最高可達4 GB。
 

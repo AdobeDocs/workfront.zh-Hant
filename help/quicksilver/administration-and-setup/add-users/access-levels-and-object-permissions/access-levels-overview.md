@@ -10,9 +10,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 7c323af9-8c33-48ad-9aff-96758e96b40b
-source-git-commit: fbfc8c5b905479c39687754f9c5c34f77f8225d7
+source-git-commit: 70a2ab0400a50c807aae301116902c5cefb3358b
 workflow-type: tm+mt
-source-wordcount: '266'
+source-wordcount: '305'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 0%
 身為Adobe Workfront管理員，您可以為使用者指派存取層級，目的有二：
 
 * 每位使用者都必須具備存取層級，才能登入及在Workfront中工作。
-* 您可以使用存取層級來控制使用者可以檢視特定Workfront物件與區域的內容，以及對這些物件與區域執行的動作。
+* 存取層級會控制使用者對於特定Workfront物件與區域的看見與操作。
 
 六個內建存取層級分別附加至五個Workfront授權之一：計畫、工作、檢閱、要求和外部。
 
@@ -32,7 +32,7 @@ ht-degree: 0%
 
 ![](assets/access-levels-and-licenses-old.png)
 
-如需相關主題的資訊，請參閱下列文章：
+如需與存取層級相關的主題資訊，請參閱下列文章：
 
 <table style="table-layout:auto"> 
  <col> 
@@ -55,6 +55,10 @@ ht-degree: 0%
   <tr> 
    <td><strong>指派存取層級</strong></td> 
    <td> <p>如需有關如何將存取層級指派給使用者的指示，請參閱 <a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md" class="MCXref xref">編輯使用者設定檔</a>.</p> </td> 
+  </tr> 
+  <tr> 
+   <td>存取層級標準、輕度、貢獻者</td> 
+   <td> <p>如果您在環境中看到這些存取層級，而不是「計畫」、「工作」、「檢閱」或「請求」，則您的組織會使用新的存取層級模型。 有關新模型的資訊，請參閱 <a href="../../../administration-and-setup/add-users/how-access-levels-work/access-level-overview.md" class="MCXref xref">新存取層級概觀</a>.</p> </td> 
   </tr> 
   <!--
   <tr> 

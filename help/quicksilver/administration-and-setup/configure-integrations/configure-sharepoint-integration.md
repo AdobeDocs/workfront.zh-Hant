@@ -8,14 +8,16 @@ author: Becky
 feature: System Setup and Administration, [!DNL Workfront] Integrations and Apps, Digital Content and Documents
 role: Admin
 exl-id: fd45e1bc-9a35-4960-a73a-ff845216afe4
-source-git-commit: d1d0e8461cc1d36545c0b649add812bb62dcdf81
+source-git-commit: 6d2144732e5f47b670c2281d042a2dc950a2928f
 workflow-type: tm+mt
-source-wordcount: '1588'
+source-wordcount: '1591'
 ht-degree: 0%
 
 ---
 
 # 設定 [!DNL SharePoint] 整合
+
+<!--Audited: 12/2023-->
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">**DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. **</p>
@@ -51,7 +53,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 授權</td> 
-   <td>[！UICONTROL計畫]</td> 
+   <td>新增：標準 <p>或</p><p>目前：計畫</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定*</td> 
@@ -62,7 +64,7 @@ ht-degree: 0%
 
 &#42;若要瞭解您擁有的計畫、授權型別或存取權，請聯絡您的 [!DNL Workfront] 管理員。
 
-## 必要條件
+## 先決條件
 
 您必須擁有中任何必要的存取權或許可權 [!DNL SharePoint] 若要修改或設定您的 [!DNL SharePoint] 整合。
 
@@ -100,7 +102,7 @@ ht-degree: 0%
 
    * 檔案未標示圖示。
 
-1. 按一下&#x200B;**儲存**。
+1. 按一下「**儲存**」。
 
 
 ## 的安全性、存取和授權資訊 [!DNL SharePoint] 整合
@@ -155,7 +157,7 @@ ht-degree: 0%
 1. 按一下 **[!UICONTROL 主要功能表]** 圖示 ![主要功能表](assets/main-menu-icon.png) 在Adobe Workfront的右上角，或（如果有的話）按一下 **[!UICONTROL 主要功能表]** 圖示 ![主要功能表](/help/_includes/assets/main-menu-icon-left-nav.png) 然後按一下「 」 **[!UICONTROL 設定]** ![「設定」圖示](/help/_includes/assets/gear-icon-setup.png).
 1. 選取 **[!UICONTROL 檔案]** 在左側導覽中，然後選取 **[!UICONTROL 雲端服務供應商]**.
 1. 確定 **[!DNL SharePoint]** 選項和 **[!UICONTROL [!DNL SharePoint](Graph API)]** 選項皆已啟用。
-1. 按一下&#x200B;**[!UICONTROL 儲存]**。
+1. 按一下「**[!UICONTROL 儲存]**」。
 1. 選取 **[!UICONTROL 檔案]** 在左側導覽中，然後選取 **[!UICONTROL [!DNL SharePoint]整合]**.
 1. 選取清單左側的核取記號，取得所有現有整合，然後選取「 」 **[!UICONTROL 停用]**.
    ![](assets/disable-old-sharepoint.png)
@@ -180,7 +182,7 @@ ht-degree: 0%
 1. 在左側面板中，按一下 **[!UICONTROL 檔案]** > **[!UICONTROL [!DNL SharePoint]整合]**.
 1. 按一下 [!DNL SharePoint] 要更新的整合，然後按一下 **[!UICONTROL 編輯]**.
 1. 找到 **連線資訊** 編輯視窗的區段，然後將新的使用者端密碼輸入到 **[!UICONTROL SharePoint使用者端密碼]** 欄位。
-1. 按一下&#x200B;**[!UICONTROL 儲存]**。
+1. 按一下「**[!UICONTROL 儲存]**」。
 
 <!--
 

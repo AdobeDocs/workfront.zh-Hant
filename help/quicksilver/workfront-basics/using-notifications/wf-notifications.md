@@ -6,14 +6,16 @@ description: Adobe Workfront會在您的行動裝置上傳送電子郵件通知�
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 118677e9-a13f-47e6-96a3-6f5e93b005e9
-source-git-commit: f0ad08f21101bca3f881b6e5a8267d30ce3988ed
+source-git-commit: 6d2144732e5f47b670c2281d042a2dc950a2928f
 workflow-type: tm+mt
 source-wordcount: '1395'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
 # 通知總覽
+
+<!--Audited: 12/2023-->
 
 [!DNL Adobe Workfront] 會在您的行動裝置上傳送電子郵件通知、應用程式內通知和通知。
 
@@ -105,7 +107,7 @@ ht-degree: 0%
 
 自動提醒功能由您的啟用 [!DNL Workfront] 管理員警示您到期、延遲或接近計畫完成日期的任務和問題。 對於延遲通知，在任務或問題完成之前，每晚會傳送電子郵件。 管理員設定這些專案後，您就無法停用它們。 此外，您無法變更自動提醒所觸發之電子郵件的內容或主旨列。
 
-它們可以傳送到以下一個或多個專案：
+此提醒可以傳送給以下其中一位或多位：
 
 * 指派給任務或問題的使用者
 * 使用者的直接管理員

@@ -8,14 +8,16 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: d2a73d24-51d3-42e2-9c09-7f4bc30b2caa
-source-git-commit: bf4236d4a7ac5dc9bf5b91c5c70126f6e4de78a1
+source-git-commit: 6d2144732e5f47b670c2281d042a2dc950a2928f
 workflow-type: tm+mt
-source-wordcount: '1420'
+source-wordcount: '1418'
 ht-degree: 6%
 
 ---
 
 # 建立和修改自訂存取層級
+
+<!--Audited: 12/2023-->
 
 <!--Don't delete, draft, or change the title of this article. The UI links to it via context-sensitive help. -->
 
@@ -42,9 +44,9 @@ ht-degree: 6%
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront授權</td> 
-   <td>新計畫：標準
+   <td>新增：標準
    <p>或</p>
-   <p>目前計畫：計畫</p></td> 
+   <p>目前：計畫</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定</td> 
@@ -71,7 +73,7 @@ ht-degree: 6%
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">名稱</td> 
+      <td role="rowheader">姓名</td> 
       <td> <p>輸入存取層級的名稱。 </p> <p>如果您剛複製存取層級來建立新存取層級，預設名稱為存取層級名稱（複製），其中存取層級名稱是您複製的存取層級。</p> <p><strong>秘訣</strong>：我們建議您在副本的名稱中加入存取層級的原始名稱。 例如，在ACME公司，「標準」存取層級的復本可能命名為ACME Standard。</p> </td> 
      </tr> 
      <tr> 
@@ -100,7 +102,7 @@ ht-degree: 6%
       <td>在Workfront中新增及編輯現有公司。<br><p>若無此存取權，使用者只能檢視現有公司。</p></td> 
      </tr> 
      <tr> 
-      <td role="rowheader">我的群組中的自訂表格</td> 
+      <td role="rowheader">自訂表單</td> 
       <td>建立並管理群組中的所有自訂表單。 <br><p>若無此存取權，使用者只能將現有表單附加至他們有權貢獻或管理的物件。</p></td> 
      </tr> 
      <tr> 
@@ -198,7 +200,7 @@ ht-degree: 6%
    >如果兩個使用者屬於兩個不同的公司，但他們都可以看到來自主要公司的使用者，則他們可以看到與主要公司相關聯的「更新」區域。
 
 1. （選擇性）若要為您正在處理的存取層級中的其他物件與區域設定存取設定，請繼續下列其中一篇文章 [設定Adobe Workfront的存取權](../../../administration-and-setup/add-users/configure-and-grant-access/configure-access.md)，例如 [授與任務的存取權](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-tasks.md) 和 [授予財務資料的存取權](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).
-1. 按一下&#x200B;**儲存**。
+1. 按一下「**儲存**」。
 
    建立存取層級後，您可以將其指派給使用者（除非它是系統管理員存取層級）。
 

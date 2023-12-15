@@ -6,7 +6,7 @@ description: 「您在中顯示的資訊 [!DNL Adobe Workfront] 由儲存在 [!D
 feature: Get Started with Workfront
 author: Alina
 exl-id: f324f198-5472-4cf2-a46e-7fc24605ca90
-source-git-commit: 0d167d78477b746d35209b315f0a7903b7269d1b
+source-git-commit: 6d2144732e5f47b670c2281d042a2dc950a2928f
 workflow-type: tm+mt
 source-wordcount: '2306'
 ht-degree: 1%
@@ -14,6 +14,8 @@ ht-degree: 1%
 ---
 
 # [!DNL Adobe Workfront] 物件概觀
+
+<!--Audited: 12/2023-->
 
 <!--
 <***Linked to several articles, do not remove/ change. 
@@ -247,7 +249,7 @@ ht-degree: 1%
 * [!UICONTROL 儀表板]
 * [!UICONTROL 檔案]
 * [!UICONTROL 檔案核准]
-* [!UICONTROL 檔案版本]
+* [!UICONTROL 文件版本]
    * 您可以檢視檔案版本的相關資訊、與版本相關聯的檔案、建立版本的使用者，以及在檔案版本上建立校訂的使用者（校訂建立者）（如果存在）。
 * [!UICONTROL 電子郵件範本]
 * [!UICONTROL 費用]
