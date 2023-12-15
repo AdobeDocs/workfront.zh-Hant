@@ -6,7 +6,7 @@ description: 您可以使用 [!DNL Adobe Workfront for Jira] 若要整合您的 
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 959adc88-5201-4945-96c4-ea890f0bd371
-source-git-commit: 6d2494f1ccb2f9b222a953ed8bae922bd0f26389
+source-git-commit: 91d757513792604677d6285baafa795629b4506d
 workflow-type: tm+mt
 source-wordcount: '2420'
 ht-degree: 0%
@@ -14,6 +14,8 @@ ht-degree: 0%
 ---
 
 # 設定 [!DNL Adobe Workfront for Jira]
+
+<!-- Audited: 12/2023 -->
 
 您可以使用 [!DNL Adobe Workfront for Jira] 若要整合您的 [!DNL Jira] 和 [!DNL Workfront] 系統。
 
@@ -60,7 +62,7 @@ ht-degree: 0%
 
 &#42;若要瞭解您擁有的計畫、授權型別或存取權，請聯絡您的 [!DNL Workfront] 管理員。
 
-## 必要條件
+## 先決條件
 
 設定之前 [!DNL Workfront for Jira]，您必須：
 
@@ -161,7 +163,7 @@ ht-degree: 0%
 
    這表示在中建立的問題型別 [!DNL Jira] 當滿足此觸發器的條件時，根據您對中的特定專案的設定 [!DNL Jira].
 
-1. 按一下&#x200B;**[!UICONTROL 儲存]**。
+1. 按一下「**[!UICONTROL 儲存]**」。
 
    透過此設定，每次 [!DNL Workfront] 使用者建立符合指定觸發器的專案，新問題建立於 [!DNL Jira].
 
@@ -312,7 +314,7 @@ ht-degree: 0%
        </tbody>
       </table>
 
-1. 按一下&#x200B;**[!UICONTROL 儲存]**。
+1. 按一下「**[!UICONTROL 儲存]**」。
 
    現在，每次使用者更新此設定中指定的任何欄位（在中的專案上） [!DNL Jira] 或 [!DNL Workfront]，另一個應用程式中的連結專案也會更新。
 

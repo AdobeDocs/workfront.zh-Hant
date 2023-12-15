@@ -8,10 +8,10 @@ author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: 5d17322b-e517-4475-aa77-faaeb4677152
-source-git-commit: 579c30d1090f80d7fecef47286206e4ba03ddbb7
+source-git-commit: 91d757513792604677d6285baafa795629b4506d
 workflow-type: tm+mt
-source-wordcount: '218'
-ht-degree: 2%
+source-wordcount: '220'
+ht-degree: 1%
 
 ---
 
@@ -27,10 +27,10 @@ ht-degree: 2%
 
 本節包含下列子章節：
 
-* [專案](../manage-work/projects/projects-overview.md)
+* [專案：文章索引](../manage-work/projects/projects-overview.md)
 * [任務](../manage-work/tasks/tasks-overview.md)
 * [問題](../manage-work/issues/issues-overview.md)
 * [甘特圖](../manage-work/gantt-chart/the-gantt-chart.md)
-* [投資組合管理](../manage-work/portfolios/portfolio-management-overview.md)
+* [Portfolio管理](../manage-work/portfolios/portfolio-management-overview.md)
 * [請求](../manage-work/requests/requests-overview.md)
 * [委派工作](../manage-work/delegate-work/delegate-work.md)

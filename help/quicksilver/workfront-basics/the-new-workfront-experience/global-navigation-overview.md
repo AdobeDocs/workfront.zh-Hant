@@ -5,9 +5,9 @@ description: 上方導覽列 — 顯示在熒幕上方的新欄位 [!DNL Adobe W
 feature: Get Started with Workfront
 author: Nolan
 exl-id: 6262d0ff-4be0-41ac-b2e7-5eaa6b2795dc
-source-git-commit: 6d2494f1ccb2f9b222a953ed8bae922bd0f26389
+source-git-commit: fb1c7ade6622db391e0dac54f37603efe9dc0a58
 workflow-type: tm+mt
-source-wordcount: '646'
+source-wordcount: '650'
 ht-degree: 0%
 
 ---
@@ -90,7 +90,7 @@ ht-degree: 0%
      <li>[！UICONTROL首頁]： <a href="../../workfront-basics/using-home/using-the-home-area/use-the-home-area.md" class="MCXref xref">使用[！UICONTROL首頁]區域</a></li> 
      <li>[！UICONTROLPortfolio]： <a href="../../manage-work/portfolios/portfolio-management-overview.md" class="MCXref xref">Portfolio管理</a></li> 
      <li>[！UICONTROL程式]： <a href="../../manage-work/portfolios/create-and-manage-programs/create-and-manage-programs.md" class="MCXref xref">建立和管理計畫 </a></li> 
-     <li>[！UICONTROL專案]： <a href="../../manage-work/projects/projects-overview.md" class="MCXref xref">專案</a></li> 
+     <li>[！UICONTROL專案]： <a href="../../manage-work/projects/projects-overview.md" class="MCXref xref">專案：文章索引</a></li> 
      <li>[！UICONTROL報表]： <a href="../../reports-and-dashboards/reports/reports-overview.md" class="MCXref xref">報表</a></li> 
      <li>[！UICONTROL儀表板]： <a href="../../reports-and-dashboards/dashboards/dashboards-overview.md" class="MCXref xref">儀表板</a></li> 
      <li>[！UICONTROL行事曆]： <a href="../../reports-and-dashboards/reports/calendars/calendars.md" class="MCXref xref">行事曆</a></li> 
@@ -103,7 +103,7 @@ ht-degree: 0%
      <li>[！UICONTROL請求]： <a href="../../manage-work/requests/create-requests/create-requests.md" class="MCXref xref">建立請求</a></li> 
      <li>[！UICONTROL時程表]： <a href="../../timesheets/timesheets-all.md" class="MCXref xref">時程表：文章索引</a></li> 
      <li>[！UICONTROL檔案]： <a href="../../documents/documents-overview.md" class="MCXref xref">檔案</a></li> 
-     <li>[！UICONTROL範本]： <a href="../../manage-work/projects/create-and-manage-templates/create-manage-templates.md" class="MCXref xref">建立和管理專案範本</a></li> 
+     <li>[！UICONTROL範本]： <a href="../../manage-work/projects/create-and-manage-templates/create-manage-templates.md" class="MCXref xref">建立及管理專案範本：文章索引</a></li> 
      <li>[！UICONTROL Analytics]： <a href="../../enhanced-analytics/enhanced-analytics-overview.md" class="MCXref xref">增強型分析概述</a></li> 
      <li>[！UICONTROL目標]： <a href="../../workfront-goals/goal-management/wf-goals-overview.md" class="MCXref xref">[!DNL Adobe Workfront Goals] 概述</a></li> 
      <li>[！UICONTROL案例]： <a href="../../scenario-planner/scenario-planner-overview.md" class="MCXref xref">情境規劃工具概觀</a></li> 

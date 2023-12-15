@@ -2,20 +2,20 @@
 content-type: reference
 product-area: projects
 navigation-topic: create-and-manage-projects
-title: 更新專案上的工作
+title: 「更新專案上的工作：文章索引」
 description: 若要更新專案的狀態和進度，您必須更新其任務的狀態和進度。 最終將統計並顯示專案的進度。
 author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: 6f7793f4-93e4-46b5-86f4-6ebede289ccb
-source-git-commit: b08377e539b04e896e84d17f46d2c941b0f66731
+source-git-commit: fb1c7ade6622db391e0dac54f37603efe9dc0a58
 workflow-type: tm+mt
-source-wordcount: '138'
+source-wordcount: '142'
 ht-degree: 0%
 
 ---
 
-# 更新專案上的工作
+# 更新專案上的工作：文章索引
 
 若要更新專案的狀態和進度，您必須更新其任務的狀態和進度。 最終將統計並顯示專案的進度。
 

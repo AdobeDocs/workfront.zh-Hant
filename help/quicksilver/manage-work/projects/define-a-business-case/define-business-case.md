@@ -1,20 +1,20 @@
 ---
 content-type: reference
 navigation-topic: create-and-manage-projects
-title: 定義業務案例
+title: 「定義業務案例：文章索引」
 description: 您可以透過建立業務案例來正式且有效地請求專案。 以下文章說明定義專案的業務案例所需的資訊。
 author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: ca5679ba-db5c-4430-9469-0eaaa94fb9ec
-source-git-commit: b08377e539b04e896e84d17f46d2c941b0f66731
+source-git-commit: fb1c7ade6622db391e0dac54f37603efe9dc0a58
 workflow-type: tm+mt
-source-wordcount: '132'
+source-wordcount: '136'
 ht-degree: 0%
 
 ---
 
-# 定義業務案例
+# 定義業務案例：文章索引
 
 本節包含下列文章：
 

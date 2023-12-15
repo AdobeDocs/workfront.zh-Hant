@@ -6,7 +6,7 @@ description: 專案是Adobe Workfront中的大型工作單位。 您可以從頭
 author: Alina
 feature: Work Management
 exl-id: d4e28fa6-25f9-4765-b051-8960c8873d5a
-source-git-commit: 6d2494f1ccb2f9b222a953ed8bae922bd0f26389
+source-git-commit: 91d757513792604677d6285baafa795629b4506d
 workflow-type: tm+mt
 source-wordcount: '1245'
 ht-degree: 1%
@@ -18,6 +18,8 @@ ht-degree: 1%
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE:this is linked from the UI from the Projects global nav section in classic. Do not change/ remove)</p>
 -->
+
+<!-- Audited: 12/2023 -->
 
 專案代表在Adobe Workfront中需要完成的大量工作。
 
@@ -111,7 +113,7 @@ ht-degree: 1%
 
 * 從Adobe Workfront情境規劃工具中的情境發佈方案。 Scenario Planner需要額外的授權。 如需Workfront Scenario Planner的相關資訊，請參閱 [情境規劃工具概觀](../../../scenario-planner/scenario-planner-overview.md). 如需有關從發佈方案建立專案的資訊，請參閱  [透過在情境規劃工具中發佈行動方案來更新或建立專案](../../../scenario-planner/publish-scenarios-update-projects.md).
 
-## 必要條件
+## 先決條件
 
 開始之前，您必須確定：
 
@@ -155,7 +157,7 @@ ht-degree: 1%
 
 ## 從頭開始建立專案
 
-1. 執行下列任一項作業：
+1. 執行下列其中一項：
 
    * 按一下 **[!UICONTROL 主要功能表]** 圖示 ![主要功能表](/help/_includes/assets/main-menu-icon.png) 在Adobe Workfront的右上角，或（如果有的話）按一下 **[!UICONTROL 主要功能表]** 圖示 ![主要功能表](/help/_includes/assets/main-menu-icon-left-nav.png) 左上角。 按一下 **專案**，然後展開 **新增專案**.
    * 前往投資組合，然後展開 **新增專案**.

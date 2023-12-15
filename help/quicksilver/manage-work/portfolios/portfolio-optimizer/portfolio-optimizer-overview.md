@@ -7,9 +7,9 @@ description: 此 [!UICONTROL Portfolio最佳化工具] 是用於專案評估和�
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 1e48a24c-65de-49c2-85a8-dc931ac40c52
-source-git-commit: 3a2745437e00ac968f2a4590be2637dbc01594ad
+source-git-commit: fb1c7ade6622db391e0dac54f37603efe9dc0a58
 workflow-type: tm+mt
-source-wordcount: '1654'
+source-wordcount: '1649'
 ht-degree: 0%
 
 ---
@@ -24,11 +24,9 @@ ht-degree: 0%
 
 此 [!UICONTROL Portfolio最佳化工具] 您必須完成下列必要條件，才能提供協助：
 
-
-* 此 [!UICONTROL 業務案例] 已完成專案。 如需詳細資訊，請參閱區段中的文章 [定義業務案例](../../projects/define-a-business-case/define-business-case.md).
-* 投資組合是在專案詳細資訊區段的專案總覽區域中為您要檢閱的專案定義的
+* 此 [!UICONTROL 業務案例] 已完成專案。 如需詳細資訊，請參閱以下文章中的內容： [定義業務案例：文章索引](../../projects/define-a-business-case/define-business-case.md).
+* 投資組合是在專案詳細資訊區段的專案總覽區域中為您要檢閱的專案定義的。
 * 您已針對要複查的專案指明專案預算和計畫收益。 固定成本和固定收入為選用，但可新增額外價值。 如需詳細資訊，請參閱 [專案財務欄位](../../projects/project-finances/project-finances-overview-1.md).
-
 
 如需有關找出 [!UICONTROL Portfolio最佳化工具]，請參閱 [找到 [!UICONTROL Portfolio最佳化工具]](../../../manage-work/portfolios/portfolio-optimizer/locate-portfolio-optimizer.md).
 
@@ -165,7 +163,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td>Portfolio最佳化工具中的圖示</td> 
-   <td>名稱</td> 
+   <td>姓名</td> 
    <td>函數</td> 
   </tr> 
   <tr> 

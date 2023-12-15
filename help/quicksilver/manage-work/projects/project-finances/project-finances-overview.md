@@ -2,20 +2,20 @@
 content-type: overview;reference
 product-area: projects
 navigation-topic: create-and-manage-projects
-title: 專案財務
+title: 「專案財務：文章索引」
 description: 下列文章包含您可以找到專案財務資訊的區域的相關資訊，以及如何管理專案財務的相關資訊。
 author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: 7dda021d-4cf8-4f65-b187-23fcd935a842
-source-git-commit: b08377e539b04e896e84d17f46d2c941b0f66731
+source-git-commit: fb1c7ade6622db391e0dac54f37603efe9dc0a58
 workflow-type: tm+mt
-source-wordcount: '207'
+source-wordcount: '211'
 ht-degree: 0%
 
 ---
 
-# 專案財務
+# 專案財務：文章索引
 
 如需有關可在其中找到專案財務資訊的區域以及如何管理專案財務的資訊，請參閱下列文章：
 

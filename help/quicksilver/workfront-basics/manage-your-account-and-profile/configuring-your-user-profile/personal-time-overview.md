@@ -7,7 +7,7 @@ description: 請務必在Adobe Workfront中指明核准的休假何時發生，�
 author: Lisa
 feature: Get Started with Workfront
 exl-id: e7710495-c418-47b1-8598-725580054fc5
-source-git-commit: 6d2494f1ccb2f9b222a953ed8bae922bd0f26389
+source-git-commit: 91d757513792604677d6285baafa795629b4506d
 workflow-type: tm+mt
 source-wordcount: '393'
 ht-degree: 0%
@@ -15,6 +15,8 @@ ht-degree: 0%
 ---
 
 # 設定個人休假
+
+<!-- Audited: 12/2023 -->
 
 [!DNL Adobe Workfront] 並非設計用來複製或取代您現有的系統，以管理、累積及追蹤個人休假。
 
@@ -75,6 +77,6 @@ ht-degree: 0%
 
    如果您休假不到一整天，請保持此核取方塊為空白，並指出休假的開始和結束時間。
 
-1. 按一下&#x200B;**[!UICONTROL 儲存]**。
+1. 按一下「**[!UICONTROL 儲存]**」。
 
    您的休假現在可以在以下位置看到： [!DNL Workfront] 系統，位於資源管理工具，例如資源規劃工具和工作負載平衡器。 在此期間為您指派工作時，工具提示會通知使用者您已排程休假。

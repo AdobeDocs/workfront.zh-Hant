@@ -7,9 +7,9 @@ description: 主要功能表會隨著您指派的存取層級而改變 [!DNL Ado
 author: Lisa
 feature: Get Started with Workfront
 exl-id: c6e67518-a9e7-4b71-93d2-7a9d36633792
-source-git-commit: 6d2494f1ccb2f9b222a953ed8bae922bd0f26389
+source-git-commit: 91d757513792604677d6285baafa795629b4506d
 workflow-type: tm+mt
-source-wordcount: '475'
+source-wordcount: '477'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 0%
 
 * **[!UICONTROL 首頁]**：指派給您的任務和問題會顯示在這裡。 這是Worker的預設登陸頁面，但不會顯示在 [!UICONTROL 主要功能表] 除非Workfront管理員將其新增到版面配置範本中。  如需詳細資訊，請參閱 [開始使用 [!UICONTROL 首頁]](../../../workfront-basics/using-home/using-the-home-area/get-started-with-home.md).
 
-* **[!UICONTROL 專案]**：與您共用的專案會顯示在這裡。 如需詳細資訊，請參閱 [專案](../../../manage-work/projects/projects-overview.md).
+* **[!UICONTROL 專案]**：與您共用的專案會顯示在這裡。 如需詳細資訊，請參閱 [專案：文章索引](../../../manage-work/projects/projects-overview.md).
 
 * **[!UICONTROL 報表]**：與您共用的報告會顯示在這裡。 如需詳細資訊，請參閱 [報表](../../../reports-and-dashboards/reports/reports-overview.md).
 

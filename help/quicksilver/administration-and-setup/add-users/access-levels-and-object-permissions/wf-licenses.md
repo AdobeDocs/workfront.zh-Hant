@@ -10,7 +10,7 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 7f30e2d8-f5c3-4811-b780-49a2b0d058e7
-source-git-commit: 2f6664aefd664e1275648abd6f7e41b1d545b9e7
+source-git-commit: 91d757513792604677d6285baafa795629b4506d
 workflow-type: tm+mt
 source-wordcount: '350'
 ht-degree: 3%
@@ -18,6 +18,8 @@ ht-degree: 3%
 ---
 
 # 授權總覽
+
+<!-- Audited: 12/2023 -->
 
 您的組織在取得Adobe Workfront時購買了特定數量的授權。 身為Workfront管理員，您可為每位使用者指派存取層級時，提供五種型別的Workfront授權之一。
 

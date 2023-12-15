@@ -8,7 +8,7 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: cf09859c-7d6f-4bf0-9b7f-c57096233c94
-source-git-commit: 6d2494f1ccb2f9b222a953ed8bae922bd0f26389
+source-git-commit: 91d757513792604677d6285baafa795629b4506d
 workflow-type: tm+mt
 source-wordcount: '1024'
 ht-degree: 6%
@@ -20,6 +20,8 @@ ht-degree: 6%
 <!--
 **DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.** </p>
 -->
+
+<!-- Audited: 12/2023 -->
 
 {{important-admin-console-onboard}}
 

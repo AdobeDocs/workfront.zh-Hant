@@ -6,9 +6,9 @@ description: 定義專案的工作劃分結構(WBS)是一組最終概述專案�
 author: Alina
 feature: Work Management
 exl-id: a76c468d-6373-4dab-93ff-a0b3734f368c
-source-git-commit: dfd8dd07e1a88da872550163051e703f6aea5f74
+source-git-commit: fb1c7ade6622db391e0dac54f37603efe9dc0a58
 workflow-type: tm+mt
-source-wordcount: '1748'
+source-wordcount: '1750'
 ht-degree: 1%
 
 ---
@@ -114,7 +114,7 @@ Workfront中的資源管理可讓您確定是否有足夠的員工完成專案�
 
 Workfront將計算每個任務的計畫成本以及專案的整體成本。 任務的計畫成本包括任務的所有費用以及指派給任務的員工或角色的成本。 在任務、角色和使用者建立期間指派任務、角色和員工的小時費率。
 
-如需有關專案財務的資訊，請參閱區段 [專案財務](../../../manage-work/projects/project-finances/project-finances-overview.md) .
+如需有關專案財務的資訊，請參閱區段 [專案財務：文章索引](../../../manage-work/projects/project-finances/project-finances-overview.md).
 
 ## 決定專案的核准點
 

@@ -9,7 +9,7 @@ author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: f9c782b7-23dc-4fde-83e1-b7ef71a3b741
-source-git-commit: 7467e75cf468fa6a1dd14dbc0f4fdcda87de1b1e
+source-git-commit: 91d757513792604677d6285baafa795629b4506d
 workflow-type: tm+mt
 source-wordcount: '68'
 ht-degree: 0%
@@ -17,6 +17,8 @@ ht-degree: 0%
 ---
 
 # Workfront Proof：文章索引
+
+<!-- Audited: 12/2023 -->
 
 >[!IMPORTANT]
 >

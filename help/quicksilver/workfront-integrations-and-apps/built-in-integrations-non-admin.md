@@ -7,7 +7,7 @@ description: 您可以整合 [!DNL Adobe Workfront] 協力廠商應用程式。 
 feature: Workfront Integrations and Apps
 author: Becky
 exl-id: ca51cb23-9332-4ce5-aefb-f333455cfc7c
-source-git-commit: 02bacdc99c23b70bbe8dd71e493c940f91058965
+source-git-commit: 91d757513792604677d6285baafa795629b4506d
 workflow-type: tm+mt
 source-wordcount: '482'
 ht-degree: 3%
@@ -15,6 +15,8 @@ ht-degree: 3%
 ---
 
 # Adobe Workfront內建整合概述
+
+<!-- Audited: 12/2023 -->
 
 您可以整合 [!DNL Adobe Workfront] 協力廠商應用程式及其他 [!DNL Adobe] 產品。 這些整合可擴充下列專案的公用程式： [!DNL Workfront] 並根據貴組織的需求量身打造。 例如，如果您是行銷行業的創意工作者，您可以使用 [!DNL Adobe Workfront] 外掛程式 [!DNL Creative Cloud] 應用程式直接從Photoshop匯出資產至Workfront。
 

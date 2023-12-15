@@ -7,7 +7,7 @@ description: 相依性型別是指任務之間的前置任務關係。 它們根
 author: Alina
 feature: Work Management
 exl-id: 30d1c60d-0632-4a32-b7e7-a9f8e81bf727
-source-git-commit: 45c82f659d02dca69d2a2c390b084330773d4252
+source-git-commit: 91d757513792604677d6285baafa795629b4506d
 workflow-type: tm+mt
 source-wordcount: '315'
 ht-degree: 0%
@@ -15,6 +15,8 @@ ht-degree: 0%
 ---
 
 # 作業相依性型別的概要
+
+<!-- Audited: 12/2023 -->
 
 相依性型別是指任務之間的前置任務關係。 它們根據前置任務的開始或完成來定義相依任務何時可以開始或完成。
 

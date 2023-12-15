@@ -3,9 +3,9 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文件、教學課程和其他資源，了解如何在您的組織中實施並有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: 62b18c06c05a2a36386bd7fb3c0e33c32b507d63
+source-git-commit: fb1c7ade6622db391e0dac54f37603efe9dc0a58
 workflow-type: tm+mt
-source-wordcount: '13796'
+source-wordcount: '13812'
 ht-degree: 1%
 
 ---
@@ -1132,9 +1132,9 @@ ht-degree: 1%
 * 管理工作 {#manage-work}
    * [管理工作](manage-work/manage-work.md)
    * 專案 {#projects}
-      * [專案](manage-work/projects/projects-overview.md)
+      * [專案：文章索引](manage-work/projects/projects-overview.md)
       * 計畫專案 {#plan-a-project}
-         * [計畫專案](manage-work/projects/planning-a-project/plan-project-overview.md)
+         * [計畫專案：文章索引](manage-work/projects/planning-a-project/plan-project-overview.md)
          * [計畫專案概述](manage-work/projects/planning-a-project/plan-project.md)
          * [決定專案中的工作分解結構](manage-work/projects/planning-a-project/determine-project-work-breakdown-structure.md)
          * [專案團隊概述](manage-work/projects/planning-a-project/project-team-overview.md)
@@ -1155,14 +1155,14 @@ ht-degree: 1%
          * [專案進度狀態概觀](manage-work/projects/planning-a-project/project-progress-status.md)
          * [專案預計開始日期概要](manage-work/projects/planning-a-project/project-projected-start-date.md)
       * 建立專案 {#create-projects}
-         * [建立專案](manage-work/projects/create-projects/create-projects-overview.md)
+         * [建立專案：文章索引](manage-work/projects/create-projects/create-projects-overview.md)
          * [建立專案](manage-work/projects/create-projects/create-project.md)
          * [請求專案](manage-work/projects/create-projects/request-project.md)
          * [使用範本建立專案](manage-work/projects/create-projects/create-project-from-template.md)
          * [從Microsoft專案匯入專案](manage-work/projects/create-projects/import-project-from-ms-project.md)
          * [建立專案基準線](manage-work/projects/create-projects/create-baselines.md)
       * 更新專案上的工作 {#update-work-on-a-project}
-         * [更新專案上的工作](manage-work/projects/updating-work-in-a-project/update-work-on-project.md)
+         * [更新專案上的工作：文章索引](manage-work/projects/updating-work-in-a-project/update-work-on-project.md)
          * [將狀態套用至與群組相關聯的工作](manage-work/projects/updating-work-in-a-project/apply-custom-status-work-assigned-to-group.md)
          * [更新任務狀態](manage-work/projects/updating-work-in-a-project/update-task-status.md)
          * [更新問題狀態](manage-work/projects/updating-work-in-a-project/update-issue-status.md)
@@ -1173,7 +1173,7 @@ ht-degree: 1%
          * [更新任務和問題的條件](manage-work/projects/updating-work-in-a-project/update-condition-for-tasks-and-issues.md)
          * [更新專案狀態](manage-work/projects/updating-work-in-a-project/update-condition-on-project.md)
       * 管理專案 {#manage-projects}
-         * [管理專案](manage-work/projects/manage-projects/manage-projects-overview.md)
+         * [管理專案：文章索引](manage-work/projects/manage-projects/manage-projects-overview.md)
          * [編輯專案](manage-work/projects/manage-projects/edit-projects.md)
          * [複製專案](manage-work/projects/manage-projects/copy-project.md)
          * [將專案另存為範本](manage-work/projects/manage-projects/save-project-as-template.md)
@@ -1195,7 +1195,7 @@ ht-degree: 1%
          * [專案量度概觀](manage-work/projects/manage-projects/project-metrics.md)
          * [專案限制總覽](manage-work/projects/manage-projects/project-maximums.md)
       * 建立和管理專案範本 {#create-and-manage-project-templates}
-         * [建立和管理專案範本](manage-work/projects/create-and-manage-templates/create-manage-templates.md)
+         * [建立及管理專案範本：文章索引](manage-work/projects/create-and-manage-templates/create-manage-templates.md)
          * [專案範本概觀](manage-work/projects/create-and-manage-templates/project-template-overview.md)
          * [建立專案範本](manage-work/projects/create-and-manage-templates/create-template.md)
          * [從範例建立專案範本](manage-work/projects/create-and-manage-templates/create-templates-from-examples.md)
@@ -1212,7 +1212,7 @@ ht-degree: 1%
          * [範本中的開始與完成天數概要](manage-work/projects/create-and-manage-templates/overview-of-start-completion-day-on-template.md)
          * [將範本附加至專案的概觀](manage-work/projects/create-and-manage-templates/attach-template-to-project-overview.md)
       * 定義業務案例 {#define-business-case}
-         * [定義業務案例](manage-work/projects/define-a-business-case/define-business-case.md)
+         * [定義業務案例：文章索引](manage-work/projects/define-a-business-case/define-business-case.md)
          * [業務案例的領域概述](manage-work/projects/define-a-business-case/areas-of-business-case.md)
          * [為專案建立業務案例](manage-work/projects/define-a-business-case/create-business-case.md)
          * [核准業務案例](manage-work/projects/define-a-business-case/approve-business-case.md)
@@ -1226,7 +1226,7 @@ ht-degree: 1%
          * [建立及編輯專案的風險](manage-work/projects/define-a-business-case/create-edit-risks-on-projects.md)
          * [匯出專案的業務案例](manage-work/projects/define-a-business-case/export-business-case.md)
       * 專案類務 {#project-finances}
-         * [專案財務](manage-work/projects/project-finances/project-finances-overview.md)
+         * [專案財務：文章索引](manage-work/projects/project-finances/project-finances-overview.md)
          * [專案財務欄位](manage-work/projects/project-finances/project-finances-overview-1.md)
          * [重新計算專案財務](manage-work/projects/project-finances/recalculate-project-finances.md)
          * [專案基準線中包含的專案財務](manage-work/projects/project-finances/project-finances-included-in-project-baselines.md)
@@ -1255,7 +1255,7 @@ ht-degree: 1%
          * [瞭解專案的預算勞力成本和預算時數](manage-work/projects/project-finances/budgeted-labor-cost.md)
          * [計算計畫勞力成本](manage-work/projects/project-finances/planned-labor-cost.md)
       * 專案的秘訣、技巧和疑難排解 {#tips-tricks-troubleshooting-for-projects}
-         * [專案的秘訣、技巧和疑難排解](manage-work/projects/tips-tricks-and-troubleshooting/tips-tricks-troubleshooting-for-projects.md)
+         * [秘訣、技巧和疑難排解：文章索引](manage-work/projects/tips-tricks-and-troubleshooting/tips-tricks-troubleshooting-for-projects.md)
          * [專案常見問題集](manage-work/projects/tips-tricks-and-troubleshooting/projects-faqs.md)
          * [專案狀態不會從完成變更為目前](manage-work/projects/tips-tricks-and-troubleshooting/project-status-does-not-change-from-complete-to-current.md)
          * [計算範例 — 從任務累加計算EAC](manage-work/projects/tips-tricks-and-troubleshooting/calculate-eac-by-rolling-up-from-tasks-example.md)

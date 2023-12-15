@@ -6,7 +6,7 @@ description: Adobe Workfront增強型分析區域中的篩選器可幫助您專�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 25854c04-d914-4302-a36b-e8134637efe1
-source-git-commit: 6d2494f1ccb2f9b222a953ed8bae922bd0f26389
+source-git-commit: 91d757513792604677d6285baafa795629b4506d
 workflow-type: tm+mt
 source-wordcount: '1504'
 ht-degree: 0%
@@ -14,6 +14,8 @@ ht-degree: 0%
 ---
 
 # 在增強型分析中套用篩選器
+
+<!-- Audited: 12/2023 -->
 
 Adobe Workfront增強型分析區域中的篩選器可幫助您專注於特定專案或特定型別的資料。 您使用的篩選器型別可讓您深入分析：
 
@@ -59,7 +61,7 @@ Adobe Workfront增強型分析區域中的篩選器可幫助您專注於特定�
 
 &#42;若要瞭解您擁有的計畫、授權型別或存取權，請聯絡您的Workfront管理員。
 
-## 必要條件
+## 先決條件
 
 如需使用增強型分析的先決條件，請參閱 [必要條件](../enhanced-analytics/enhanced-analytics-overview.md#prerequisites) 在 [增強型分析概述](../enhanced-analytics/enhanced-analytics-overview.md).
 
