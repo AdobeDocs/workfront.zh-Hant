@@ -7,9 +7,9 @@ description: 您可以整合 [!DNL Adobe Workfront] 協力廠商應用程式。 
 feature: Workfront Integrations and Apps
 author: Becky
 exl-id: ca51cb23-9332-4ce5-aefb-f333455cfc7c
-source-git-commit: 91d757513792604677d6285baafa795629b4506d
+source-git-commit: 5ea991185cbf2f925beccce9f46a16c3d8c8447d
 workflow-type: tm+mt
-source-wordcount: '482'
+source-wordcount: '475'
 ht-degree: 3%
 
 ---
@@ -82,7 +82,6 @@ Workfront目前提供下列內建整合。
     <ul> 
      <li>在中建立新票證 [!DNL Jira] 根據中的任務和問題 [!DNL Workfront]</li> 
      <li>同步更新與連結任務的狀態，介於 [!DNL Workfront] 和 [!DNL Jira] </li> 
-     <li>對兩者都有效 [!DNL Jira] 伺服器和Jira Cloud </li> 
     </ul> </td> 
   </tr> 
   <tr> 
