@@ -3,9 +3,9 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文件、教學課程和其他資源，了解如何在您的組織中實施並有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: 02bff4280909c8a7a26a51356503268a87704c06
+source-git-commit: 029bb2267c9fc101ab4f2383b61368c3a5b379ca
 workflow-type: tm+mt
-source-wordcount: '13821'
+source-wordcount: '13825'
 ht-degree: 1%
 
 ---
@@ -470,7 +470,7 @@ ht-degree: 1%
          * [稽核記錄](administration-and-setup/add-users/create-and-manage-users/audit-logs.md)
          * [檢視和匯出稽核記錄](administration-and-setup/add-users/create-and-manage-users/view-and-export-audit-logs.md)
          * [檢視使用者登入資訊](administration-and-setup/add-users/create-and-manage-users/view-user-login-info.md)
-         * [Adobe Admin Console](administration-and-setup/add-users/create-and-manage-users/admin-console.md)
+         * [在Adobe Admin Console中管理使用者](administration-and-setup/add-users/create-and-manage-users/admin-console.md)
       * 新存取層級的運作方式 {#access-levels}
          * [新存取層級的運作方式](administration-and-setup/add-users/how-access-levels-work/access-levels-toc.md)
          * [新存取層級概觀](administration-and-setup/add-users/how-access-levels-work/access-level-overview.md)
