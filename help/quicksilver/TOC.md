@@ -3,9 +3,9 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文件、教學課程和其他資源，了解如何在您的組織中實施並有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: e61e20c1cafbcf32a116bae2cc9e779a8a567986
+source-git-commit: ac5a75384e68c5479e18f167975e673aa1188c0b
 workflow-type: tm+mt
-source-wordcount: '13812'
+source-wordcount: '13818'
 ht-degree: 1%
 
 ---
@@ -478,6 +478,7 @@ ht-degree: 1%
          * [透過新授權存取物件和區域](administration-and-setup/add-users/how-access-levels-work/access-to-objects-areas-license-types.md)
          * [可用於新存取層級之每種物件型別的功能](administration-and-setup/add-users/how-access-levels-work/functionality-available-for-objects.md)
          * [停用新授權計畫上未付費使用者的自動升級選項](administration-and-setup/add-users/how-access-levels-work/disable-auto-upgrade.md)
+         * [Workfront檔案中的存取層級要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)
       * 存取層級的運作方式 {#legacy-access-levels}
          * [存取層級的運作方式](administration-and-setup/add-users/access-levels-and-object-permissions/access-levels.md)
          * [存取權總覽](administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md)

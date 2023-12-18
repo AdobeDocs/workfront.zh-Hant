@@ -9,9 +9,9 @@ feature: System Setup and Administration
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 14cf53be-e8b5-4508-b0df-c024f1e4f3a7
-source-git-commit: 86a0a9ddf5be1515ed8f5c2a537b0e2ccd5a1b63
+source-git-commit: ac5a75384e68c5479e18f167975e673aa1188c0b
 workflow-type: tm+mt
-source-wordcount: '147'
+source-wordcount: '165'
 ht-degree: 0%
 
 ---
@@ -32,3 +32,4 @@ ht-degree: 0%
 
 * 如需有關如何建立存取層級的資訊，請參閱 [設定Adobe Workfront的存取權](../../../administration-and-setup/add-users/configure-and-grant-access/configure-access.md).
 * 如需使用者如何彼此共用物件、授與這些物件的「檢視」和「編輯」許可權的詳細資訊，請參閱 [授予物件許可權並請求物件](../../../workfront-basics/grant-and-request-access-to-objects/grant-and-request-access-to-objects.md).
+* 如需說明檔案文章中「存取需求」表格的相關資訊，請參閱 [Workfront檔案中的存取層級要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
