@@ -6,14 +6,18 @@ description: 您可以接收通知 [!DNL Adobe Workfront] 關於您需要核准�
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 7771a7d7-7e20-4b3d-95e7-1050aeb3af67
-source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
+source-git-commit: 1f2655c0e88a5cc918501e2a0ef830758111ded8
 workflow-type: tm+mt
-source-wordcount: '1278'
+source-wordcount: '1351'
 ht-degree: 0%
 
 ---
 
 # 管理 [!DNL Adobe Workfront] 中的通知 [!DNL Microsoft Teams]
+
+>[!NOTE]
+>
+>適用於Microsoft Teams的Adobe Workfront整合目前僅支援傳統Microsoft Teams體驗。
 
 您可以接收通知 [!DNL Adobe Workfront] 關於您需要核准的專案、已給予您的指派，或您關聯專案的註解與變更。
 
@@ -33,7 +37,7 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 計劃*</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] 計畫*</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
@@ -74,7 +78,7 @@ ht-degree: 0%
 1. 按一下 **[!UICONTROL 更多新增]** （三點）應用程式圖示位於中的左側導覽列 [!DNL Microsoft Teams].
 
 1. 按一下 [!DNL Workfront] 在出現的清單中。
-1. 選取 **[!UICONTROL 設定]** 標籤。
+1. 選取「**[!UICONTROL 設定]**」標籤。
 
    ![](assets/ms-teams-settings-tab-350x552.png)
 
@@ -140,47 +144,47 @@ ht-degree: 0%
   <tr> 
    <td role="rowheader">您必須核准專案</td> 
    <td>✓ (A)</td> 
-   <td>✓</td> 
+   <td>✓ (A)</td> 
    <td> </td> 
    <td> </td> 
-   <td>✓</td> 
+   <td>✓ (A)</td> 
   </tr> 
   <tr> 
    <td role="rowheader">您需要核准任務</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ (A)</td> 
+   <td>✓ (A)</td> 
    <td> </td> 
    <td> </td> 
-   <td>✓</td> 
+   <td>✓ (A)</td> 
   </tr> 
   <tr> 
    <td role="rowheader">您需要核准問題</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ (A)</td> 
+   <td>✓ (A)</td> 
    <td> </td> 
    <td> </td> 
-   <td>✓</td> 
+   <td>✓ (A)</td> 
   </tr> 
   <tr> 
    <td role="rowheader">您需要核准檔案</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ (A)</td> 
+   <td>✓ (A)</td> 
+   <td>✓ (A)</td> 
    <td> </td> 
-   <td>✓</td> 
+   <td>✓ (A)</td> 
   </tr> 
   <tr> 
    <td role="rowheader">您必須核准物件的存取許可權</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ (A)</td> 
+   <td>✓ (A)</td> 
    <td> </td> 
    <td> </td> 
-   <td>✓</td> 
+   <td>✓ (A)</td> 
   </tr> 
   <tr> 
    <td role="rowheader">您需要核準時程表</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ (A)</td> 
+   <td>✓ (A)</td> 
    <td> </td> 
    <td> </td> 
    <td> </td> 
@@ -190,8 +194,8 @@ ht-degree: 0%
    <td> </td> 
    <td> </td> 
    <td> </td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ (A)</td> 
+   <td>✓ (A)</td> 
   </tr> 
   <tr> 
    <td role="rowheader">您的時程表已拒絕</td> 
@@ -215,7 +219,7 @@ ht-degree: 0%
    <td> </td> 
    <td> </td> 
    <td> </td> 
-   <td>✓</td> 
+   <td>✓ (A)</td> 
   </tr> 
   <tr> 
    <td role="rowheader">您請求的檔案核准請求已核准，但有變更</td> 
@@ -223,7 +227,7 @@ ht-degree: 0%
    <td> </td> 
    <td> </td> 
    <td> </td> 
-   <td>✓</td> 
+   <td>✓ (A)</td> 
   </tr> 
   <tr> 
    <td role="rowheader">您請求的檔案核准請求被拒絕</td> 
@@ -231,7 +235,7 @@ ht-degree: 0%
    <td> </td> 
    <td> </td> 
    <td> </td> 
-   <td>✓</td> 
+   <td>✓ (A)</td> 
   </tr> 
   <tr> 
    <td role="rowheader">您的時程表已核准</td> 
@@ -272,27 +276,27 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">您被指派至一個任務</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ (A)</td> 
+   <td>✓ (A)</td> 
+   <td>✓ (A)</td> 
   </tr> 
   <tr> 
    <td role="rowheader">您被指派到一個問題</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ (A)</td> 
+   <td>✓ (A)</td> 
+   <td>✓ (A)</td> 
   </tr> 
   <tr> 
    <td role="rowheader">您被指派的團隊會收到任務的工作請求</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ (A)</td> 
+   <td>✓ (A)</td> 
+   <td>✓ (A)</td> 
   </tr> 
   <tr> 
    <td role="rowheader">您被指派的團隊會收到問題的工作請求</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ (A)</td> 
+   <td>✓ (A)</td> 
+   <td>✓ (A)</td> 
   </tr> 
  </tbody> 
 </table>
@@ -321,42 +325,42 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">註解已張貼在您的請求上</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ (A)</td> 
+   <td>✓ (A)</td> 
   </tr> 
   <tr> 
    <td role="rowheader">回覆已張貼在您的工作請求上</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ (A)</td> 
+   <td>✓ (A)</td> 
   </tr> 
   <tr> 
    <td role="rowheader">有人對您所在的執行緒發表註解</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ (A)</td> 
+   <td>✓ (A)</td> 
   </tr> 
   <tr> 
    <td role="rowheader">某人備註您的工作專案之一</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ (A)</td> 
+   <td>✓ (A)</td> 
   </tr> 
   <tr> 
    <td role="rowheader">某人備註您核准的時程表</td> 
-   <td>✓</td> 
+   <td>✓ (A)</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">註解會新增至您的使用者設定檔頁面，或透過大量編輯多位使用者來進行</td> 
-   <td>✓</td> 
+   <td>✓ (A)</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">您的其中一個更新已新增註解</td> 
-   <td>✓</td> 
+   <td>✓ (A)</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">註解已新增至您的時程表</td> 
-   <td>✓</td> 
+   <td>✓ (A)</td> 
    <td> </td> 
   </tr> 
  </tbody> 
@@ -386,18 +390,18 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">您訂閱的任務、問題或專案已更新</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ (A)</td> 
+   <td>✓ (A)</td> 
   </tr> 
   <tr> 
    <td role="rowheader">有人將您加入定向更新</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ (A)</td> 
+   <td>✓ (A)</td> 
   </tr> 
   <tr> 
    <td role="rowheader">有人將您的團隊加入[！UICONTROL導向更新]</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ (A)</td> 
+   <td>✓ (A)</td> 
   </tr> 
  </tbody> 
 </table>
@@ -423,8 +427,8 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">在指派給您的任務上變更了到期日期</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ (A)</td> 
+   <td>✓ (A)</td> 
   </tr> 
  </tbody> 
 </table>
