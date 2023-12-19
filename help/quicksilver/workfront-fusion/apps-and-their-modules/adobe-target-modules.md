@@ -9,9 +9,9 @@ description: 在 [!DNL Adobe Workfront Fusion] 情境中，您可以使用自動
 author: Becky
 feature: Workfront Fusion
 exl-id: 9597806b-d4bf-4627-b27d-30e24a1e6776
-source-git-commit: 51db439995430dad86e41190520824743216df69
+source-git-commit: c0be0a1f21d5db3a480485a39e019a129d248574
 workflow-type: tm+mt
-source-wordcount: '2646'
+source-wordcount: '2665'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ ht-degree: 0%
   <col/>
   <tbody>
     <tr>
-      <td role="rowheader">[!DNL Adobe Workfront] 計劃*</td>
+      <td role="rowheader">[!DNL Adobe Workfront] 計畫*</td>
       <td>
         <p>[！UICONTROL Pro]或更高版本</p>
       </td>
@@ -70,7 +70,7 @@ ht-degree: 0%
 
 有關的資訊 [!DNL Adobe Workfront Fusion] 授權，請參閱 [[!DNL Adobe Workfront Fusion] 授權](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
-## 必要條件
+## 先決條件
 
 開始使用 [!DNL Adobe Target] 聯結器時，您必須確定符合下列先決條件：
 
@@ -611,8 +611,8 @@ ht-degree: 0%
       <td>
         <p>啟用切換即可讓規則變成必須套用所有規則的AND。</p>
         <p>針對您想要套用至對象的每個規則，按一下 <b>[！UICONTROL新增專案]</b> 並輸入您要套用之規則的JSON。 </p>
-        <div class="example"><span class="autonumber"><span><b>範例: </b></span></span>
-          <p>範例:</p>
+        <div class="example"><span class="autonumber"><span><b>範例： </b></span></span>
+          <p>範例：</p>
           <p ><code>&lbrace;</code></p>
                     <p ><code>                "page": "url",</code>
                     </p>
@@ -649,7 +649,7 @@ ht-degree: 0%
 
 #### [!UICONTROL 進行自訂API呼叫]
 
-此模組會對 [!DNL Adobe Target] API
+此模組會對 [!DNL Adobe Target] API。
 
 <table style="table-layout:auto"> 
   <col/>
@@ -693,7 +693,7 @@ ht-degree: 0%
     </tr>
     <tr>
       <td role="rowheader">[！UICONTROL Body]</td>
-   <td> <p>以標準JSON物件的形式新增API呼叫的內文內容。</p> <p>備註:  <p>使用條件陳述式時，例如 <code>if</code> 在JSON中，將引號放在條件陳述式之外。</p> 
+   <td> <p>以標準JSON物件的形式新增API呼叫的內文內容。</p> <p>注意：  <p>使用條件陳述式時，例如 <code>if</code> 在JSON中，將引號放在條件陳述式之外。</p> 
      <div class="example" data-mc-autonum="<b>Example: </b>"> 
       <p> <img src="assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
      </div> </p> </td>     </tr>

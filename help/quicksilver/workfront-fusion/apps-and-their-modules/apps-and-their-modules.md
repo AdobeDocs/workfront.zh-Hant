@@ -10,10 +10,10 @@ author: Becky
 feature: Workfront Fusion
 recommendations: noDisplay, noCatalog
 exl-id: 7075a649-ab0c-4dfc-b726-c5702c90b457
-source-git-commit: c4e5aea70a8013643d3d9ce1c588ff560d2c3afd
+source-git-commit: c0be0a1f21d5db3a480485a39e019a129d248574
 workflow-type: tm+mt
-source-wordcount: '206'
-ht-degree: 27%
+source-wordcount: '209'
+ht-degree: 20%
 
 ---
 
@@ -39,6 +39,7 @@ ht-degree: 27%
 * [[!DNL Adobe Creative Cloud Libraries] 模組](../../workfront-fusion/apps-and-their-modules/creative-cloud-libraries-modules.md)
 * [[!DNL Adobe Experience Manager Assets] 模組](../../workfront-fusion/apps-and-their-modules/aem-assets-modules.md)
 * [[!DNL Adobe Journey Optimizer] 模組](../../workfront-fusion/apps-and-their-modules/adobe-journey-optimizer-modules.md)
+* [Adobe大師模組](/help/quicksilver/workfront-fusion/apps-and-their-modules/maestro-modules.md)
 * [[!DNL Adobe PDF Services] 模組](../../workfront-fusion/apps-and-their-modules/pdf-modules.md)
 * [[!DNL Adobe Target] 模組](../../workfront-fusion/apps-and-their-modules/adobe-target-modules.md)
 * [[!DNL Airtable] 模組](../../workfront-fusion/apps-and-their-modules/airtable-modules.md)

@@ -3,9 +3,9 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文件、教學課程和其他資源，了解如何在您的組織中實施並有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: 029bb2267c9fc101ab4f2383b61368c3a5b379ca
+source-git-commit: c0be0a1f21d5db3a480485a39e019a129d248574
 workflow-type: tm+mt
-source-wordcount: '13825'
+source-wordcount: '13828'
 ht-degree: 1%
 
 ---
@@ -2155,9 +2155,10 @@ ht-degree: 1%
       * [Adobe Experience Manager資產模組](workfront-fusion/apps-and-their-modules/aem-assets-modules.md)
       * [Adobe Experience Manager Forms模組](workfront-fusion/apps-and-their-modules/aem-forms-modules.md)
       * [Adobe Journey Optimizer模組](workfront-fusion/apps-and-their-modules/adobe-journey-optimizer-modules.md)
+      * [Adobe大師模組](/help/quicksilver/workfront-fusion/apps-and-their-modules/maestro-modules.md)
       * [Adobe PDF服務模組](workfront-fusion/apps-and-their-modules/pdf-modules.md)
-      * [可投放模組](workfront-fusion/apps-and-their-modules/airtable-modules.md)
       * [Adobe Target模組](workfront-fusion/apps-and-their-modules/adobe-target-modules.md)
+      * [可投放模組](workfront-fusion/apps-and-their-modules/airtable-modules.md)
       * [配置模組](workfront-fusion/apps-and-their-modules/allocadia-modules.md)
       * [Anaplan模組](workfront-fusion/apps-and-their-modules/anaplan-modules.md)
       * [封存模組](workfront-fusion/apps-and-their-modules/archive-modules.md)
