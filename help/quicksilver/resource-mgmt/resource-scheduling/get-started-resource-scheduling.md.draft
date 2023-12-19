@@ -47,7 +47,7 @@ The following sections provide more detail about using the Scheduling areas in W
 
 >[!IMPORTANT]
 >
->The prerequisites documented in this article apply only to the Scheduling areas of Workfront. For information about best practices for using the Workload Balancer, see [Overview of the Workload Balancer](../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
+>The prerequisites documented in this article apply only to the Scheduling areas of Workfront. For information about best practices for using the Workload Balancer, see [Workload Balancer overview](../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
 
 To successfully use resource scheduling functionality in Workfront, you must first ensure that you, your projects, and your tasks and issues meet the following prerequisites:
 
