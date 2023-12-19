@@ -2,19 +2,19 @@
 content-type: overview
 product-area: resource-management
 navigation-topic: the-workload-balancer
-title: 工作負載平衡器概覽
+title: 工作負載平衡器總覽
 description: 在專案經理透過建立任務來計畫專案工作之後，以及資源經理將工作角色資源配置給資源規劃工具中的專案之後，專案所有者和專案團隊經理可以使用工作負載平衡器將工作專案指派給使用者。
 author: Lisa
 feature: Resource Management
 exl-id: 9398bd04-9df7-4b77-8361-fdb5bdce6829
-source-git-commit: 3c5bcb85080a882a8b69bffcd01563a0479f98a5
+source-git-commit: 59c3a57e334d1660e3e59da480a90060b1ba81b7
 workflow-type: tm+mt
-source-wordcount: '1180'
+source-wordcount: '1176'
 ht-degree: 0%
 
 ---
 
-# 工作負載平衡器概覽
+# 工作負載平衡器總覽
 
 <!--
 <p>(NOTE: this is linked from the UI for the Workload Balancer page. DO NOT CHANGE TITLE OR LINK) </p>

@@ -8,9 +8,9 @@ author: Lisa
 feature: Resource Management
 recommendations: noDisplay, noCatalog
 exl-id: b6a9e2ad-bd69-4075-8b87-3545e07b744d
-source-git-commit: 6f026590f0030b564f0d110afead9ade1acd7896
+source-git-commit: 59c3a57e334d1660e3e59da480a90060b1ba81b7
 workflow-type: tm+mt
-source-wordcount: '168'
+source-wordcount: '166'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 0%
 
 如需有關工作負載平衡器是什麼、如何導覽它以及如何使用它指派工作的資訊，請參閱以下文章：
 
-* [工作負載平衡器概覽](../../resource-mgmt/workload-balancer/overview-workload-balancer.md)
+* [工作負載平衡器總覽](../../resource-mgmt/workload-balancer/overview-workload-balancer.md)
 * [管理工作負載平衡工具中的資源所需的存取權](../../resource-mgmt/workload-balancer/access-needed-manage-resources-balancer.md)
 * [找到工作負載平衡器](../../resource-mgmt/workload-balancer/locate-workload-balancer.md)
 * [瀏覽工作負載平衡器](../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md)

@@ -7,9 +7,9 @@ description: 「資源管理」可讓您設定系統，以根據資源的可用�
 author: Alina
 feature: Resource Management
 exl-id: b10ef503-60ea-4450-b63e-b2918e9bcc11
-source-git-commit: ca4da5302198d8fffc8b706baa3b3aeaa1f738e3
+source-git-commit: 59c3a57e334d1660e3e59da480a90060b1ba81b7
 workflow-type: tm+mt
-source-wordcount: '1171'
+source-wordcount: '1169'
 ht-degree: 0%
 
 ---
@@ -125,7 +125,7 @@ Workfront有幾組用於管理資源的工具。 每個工具都有個別的範�
 <!--
 * **Resource scheduling**: After generally planning for resources to use on your projects at a high level, you can start assigning work items (tasks and issues) to users based on their job roles using the Workload Balancer.
 
-  For more information, see [Overview of the Workload Balancer](../workload-balancer/overview-workload-balancer.md). 
+  For more information, see [Workload Balancer overview](../workload-balancer/overview-workload-balancer.md). 
 -->
 
 * **分析**：身為資源管理員、專案所有者或人員管理員，請檢閱使用率報表，以瞭解資源的預算及計畫配置與實際配置的比較情形。 依時數、成本或收入複查資訊。 如需「使用率」報表的相關資訊，請參閱 [檢視資源使用率資訊](../../resource-mgmt/resource-utilization/view-utilization-information.md).
@@ -169,7 +169,7 @@ Workfront有幾組用於管理資源的工具。 每個工具都有個別的範�
 
 * 區段 [在資源規劃工具中工作的先決條件](../../resource-mgmt/resource-planning/get-started-resource-planner.md#prerequisites-for-working-in-the-resource-planner) 在文章中 [資源規劃工具概觀](../../resource-mgmt/resource-planning/get-started-resource-planner.md).
   <!--remove this at production: * The section "Prerequisites" in the article [Get started with Resource Scheduling](../../resource-mgmt/resource-scheduling/get-started-resource-scheduling.md).-->
-* 區段 [使用工作負載平衡器的最佳實務](../../resource-mgmt/workload-balancer/overview-workload-balancer.md#best-practices-for-using-the-workload-balancer) 在文章中 [工作負載平衡器概覽](../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
+* 區段 [使用工作負載平衡器的最佳實務](../../resource-mgmt/workload-balancer/overview-workload-balancer.md#best-practices-for-using-the-workload-balancer) 在文章中 [工作負載平衡器總覽](../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
 * [在Adobe Workfront中預算資源所需的存取權](../../resource-mgmt/resource-planning/access-needed-to-budget-resources.md).
 * [管理工作負載平衡工具中的資源所需的存取權](../../resource-mgmt/workload-balancer/access-needed-manage-resources-balancer.md).
 

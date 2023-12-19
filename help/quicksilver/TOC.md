@@ -3,9 +3,9 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文件、教學課程和其他資源，了解如何在您的組織中實施並有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: c0be0a1f21d5db3a480485a39e019a129d248574
+source-git-commit: 59c3a57e334d1660e3e59da480a90060b1ba81b7
 workflow-type: tm+mt
-source-wordcount: '13828'
+source-wordcount: '13836'
 ht-degree: 1%
 
 ---
@@ -596,7 +596,7 @@ ht-degree: 1%
          * [建立自訂狀態和優先順序標籤](administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-custom-status-and-priority-labels.md)
          * [狀態概觀](administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/statuses-overview.md)
          * [列出所有專案狀態](administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/project-statuses.md)
-         * [專案狀態](administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/system-project-statuses.md)
+         * [系統專案狀態概觀](administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/system-project-statuses.md)
          * [列出所有任務狀態](administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/task-statuses.md)
          * [任務狀態](administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/system-task-statuses.md)
          * [列出問題狀態](administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/issue-statuses.md)
@@ -1744,7 +1744,7 @@ ht-degree: 1%
       * [檢視資源使用率資訊](resource-mgmt/resource-utilization/view-utilization-information.md)
    * 工作負載平衡器 {#the-workload-balancer}
       * [工作負載平衡器：文章索引](resource-mgmt/workload-balancer/workload-balancer.md)
-      * [工作負載平衡器概覽](resource-mgmt/workload-balancer/overview-workload-balancer.md)
+      * [工作負載平衡器總覽](resource-mgmt/workload-balancer/overview-workload-balancer.md)
       * [管理工作負載平衡工具中的資源所需的存取權](resource-mgmt/workload-balancer/access-needed-manage-resources-balancer.md)
       * [找到工作負載平衡器](resource-mgmt/workload-balancer/locate-workload-balancer.md)
       * [在工作負載平衡器中指派工作的總覽](resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md)
@@ -2003,7 +2003,7 @@ ht-degree: 1%
    * [Adobe大師概觀](maestro/maestro-overview.md)
    * [Adobe大師發行活動](maestro/release-activity.md)
    * Adobe大師架構 {#adobe-maestro-architecture}
-      * [架構資訊](maestro/architecture/architecture-information.md)
+      * [架構：文章索引](maestro/architecture/architecture-information.md)
       * [建立工作區](maestro/architecture/create-workspaces.md)
       * [記錄型別和分類概觀](maestro/architecture/overview-of-record-types-and-taxonomies.md)
       * [建立作業記錄型別](maestro/architecture/create-record-types.md)
@@ -2015,7 +2015,7 @@ ht-degree: 1%
       * [連線記錄型別和記錄的範例](maestro/architecture/example-connect-record-types-and-records.md)
       * [工作區範本清單](maestro/architecture/workspace-templates.md)
    * Adobe大師欄位 {#adobe-maestro-fields}
-      * [欄位資訊](maestro/fields/fields-information.md)
+      * [欄位：文章索引](maestro/fields/fields-information.md)
       * [欄位概觀](maestro/fields/fields-overview.md)
       * [建立欄位](maestro/fields/create-fields.md)
       * [編輯欄位](maestro/fields/edit-fields.md)
@@ -2025,14 +2025,15 @@ ht-degree: 1%
       * [存取權總覽](maestro/access/access-overview.md)
       * [授與Adobe大師的存取權](maestro/access/grant-access.md)
    * AdobeMaestro記錄 {#adobe-maestro-records}
-      * [記錄資訊](maestro/records/records-information.md)
+      * [記錄：文章索引](maestro/records/records-information.md)
       * [建立記錄](maestro/records/create-records.md)
       * [連線記錄](maestro/records/connect-records.md)
       * [編輯記錄](maestro/records/edit-records.md)
       * [刪除記錄](maestro/records/delete-records.md)
       * [共用記錄](maestro/records/share-records.md)
+      * [管理記錄註解](maestro/records/manage-record-comments.md)
    * Adobe大師檢視 {#adobe-maestro-views}
-      * [檢視資訊](maestro/views/views-information.md)
+      * [檢視：文章索引](maestro/views/views-information.md)
       * [管理記錄檢視](maestro/views/manage-record-views.md)
       * [管理表格檢視](maestro/views/manage-the-table-view.md)
       * [管理時間表檢視](maestro/views/manage-the-timeline-view.md)

@@ -1,17 +1,18 @@
 ---
-title: Adobe大師欄位
+title: 「欄位：文章索引」
 description: 您可以在Adobe經理中新增反映組織生命週期的欄位。 欄位是記錄型別的屬性。
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: d3c22c84a9b246d1a45853c5d2825241f58bebe9
+exl-id: d06028d9-9230-4a6c-a227-20618067192c
+source-git-commit: bccd29ce284ca247b51971369102b5992061afb0
 workflow-type: tm+mt
-source-wordcount: '156'
+source-wordcount: '157'
 ht-degree: 0%
 
 ---
 
-# 欄位資訊
+# 欄位：文章索引
 
 <!--
 title: Adobe Maestro fields
@@ -44,5 +45,3 @@ hide: yes
 * [編輯欄位](../fields/edit-fields.md)
 * [刪除欄位](../fields/delete-fields.md)
   <!--* [Formula fields](../fields/formula-fields.md)-->
-
-

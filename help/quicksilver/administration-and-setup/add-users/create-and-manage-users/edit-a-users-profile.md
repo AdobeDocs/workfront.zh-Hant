@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 0343fe74-1be4-43e2-9e3d-8aa1f7ea26fa
-source-git-commit: 81a5c0e3bc3b31223b0d584d4d20399cd0081d9d
+source-git-commit: 59c3a57e334d1660e3e59da480a90060b1ba81b7
 workflow-type: tm+mt
-source-wordcount: '3396'
+source-wordcount: '3369'
 ht-degree: 0%
 
 ---
@@ -113,7 +113,7 @@ ht-degree: 0%
 
    <li><b>顯示更新狀態的完成百分比</b>：如果您想要在此使用者工作的「更新」區域內顯示完成百分比列，請核取此選項。</li> 
        <li><b>將我指派給我自己的工作傳送至我的「正在處理」標籤</b>：如果您希望使用者指派給自己的所有內容都直接顯示在首頁區域的工作清單中，請核取此選項。 預設是在首頁區域的「準備開始」或「未就緒」清單中，列出指派給使用者的所有內容。</li> 
-       <li><b>上傳檔案時自動產生校樣</b>：如果您希望使用者上傳的檔案立即產生校訂，請核取此選項。 根據您的Workfront校訂授權，使用者產生校訂時，可在您的系統中為所有使用者產生的校訂總數可能會受到影響。 </li>
+       <li><b>上傳檔案時自動產生校樣</b>：如果您希望使用者上傳的檔案立即產生校訂，請核取此選項。 </li>
        </ul> </td> 
      </tr> 
      <tr> 

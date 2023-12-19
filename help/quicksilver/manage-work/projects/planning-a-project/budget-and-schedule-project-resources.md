@@ -1,33 +1,33 @@
 ---
 product-area: projects;resource-management
 navigation-topic: plan-a-project
-title: 預算和計畫項目資源
-description: 預算和計畫項目資源
+title: 專案資源的預算與排程
+description: 專案資源的預算與排程
 author: Alina
 feature: Work Management
 exl-id: c6495ce5-fe70-499b-87f5-6a1f2e93a3f4
-source-git-commit: fb538c6511514eedf81f4b9be452d5f87e3f7577
+source-git-commit: 59c3a57e334d1660e3e59da480a90060b1ba81b7
 workflow-type: tm+mt
-source-wordcount: '134'
+source-wordcount: '132'
 ht-degree: 0%
 
 ---
 
-# 預算和計畫項目資源
+# 專案資源的預算與排程
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: this article is only valuable for searching. All the information resides in other articles.)</p>
 -->
 
-資源預算和計畫是項目計畫的一部分。
+資源預算與排程是專案計畫的一部分。
 
-在Adobe Workfront中完成專案規劃時，請務必執行下列作業：
+在Adobe Workfront中完成專案規劃時，請務必執行下列動作：
 
-* 為專案預算資源（使用者和工作角色）。 在預算資源時，您可以在高層估計這些資源將用於項目的時間和時間。
+* 為您的專案預算資源（使用者和職位角色）。 當您預算資源時，從高層次來估算，這些資源將在專案上使用的時間和時間。
 
-   如需詳細資訊，請參閱下列文章：
+  如需詳細資訊，請參閱下列文章：
 
-   * [Adobe Workfront資源規劃](../../../resource-mgmt/resource-planning/resource-planning-overview.md)
-   * [開始使用方案規劃器](../../../scenario-planner/get-started-with-scenario-planning.md)
+   * [Adobe Workfront中的資源規劃](../../../resource-mgmt/resource-planning/resource-planning-overview.md)
+   * [開始使用案例規劃工具](../../../scenario-planner/get-started-with-scenario-planning.md)
 
-* 排程您的資源，或將資源指派給工作和問題。 將資源分配給任務和問題時，您實際上可以將用戶、團隊或角色關聯到特定工作項，使他們負責完成這些項。 如需詳細資訊，請參閱 [工作負載平衡器概述](../../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
+* 排程您的資源或將其指派給任務和問題。 當您將資源指派給任務和問題時，您實際上可以將使用者、團隊或角色關聯到特定工作專案，讓他們負責完成這些專案。 如需詳細資訊，請參閱 [工作負載平衡器總覽](../../../resource-mgmt/workload-balancer/overview-workload-balancer.md).

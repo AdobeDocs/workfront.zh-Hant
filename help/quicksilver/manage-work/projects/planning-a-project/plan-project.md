@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: 23372e16-3933-445d-977c-901f52299cb2
-source-git-commit: 4cdebe4890b775a097469e7d7035a38397b71094
+source-git-commit: 59c3a57e334d1660e3e59da480a90060b1ba81b7
 workflow-type: tm+mt
-source-wordcount: '1402'
+source-wordcount: '1400'
 ht-degree: 0%
 
 ---
@@ -152,4 +152,4 @@ ht-degree: 0%
    * 新增更多使用者至任務，以確保任務可在為其分配的時間內完成。
    * 將任務重新指派給沒有其他限制的使用者。\
      如需有關計畫專案資源的詳細資訊，請參閱文章 [Adobe Workfront中的資源規劃](../../../resource-mgmt/resource-planning/resource-planning-overview.md).\
-     如需排程資源以完成專案工作的詳細資訊，請參閱 [工作負載平衡器概覽](../../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
+     如需排程資源以完成專案工作的詳細資訊，請參閱 [工作負載平衡器總覽](../../../resource-mgmt/workload-balancer/overview-workload-balancer.md).

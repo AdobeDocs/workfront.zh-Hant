@@ -3,47 +3,47 @@ content-type: overview
 product-area: agile-and-teams
 navigation-topic: agile-navigation-topic
 title: 敏捷概覽
-description: Agile是一種工作方法，可讓團隊以一致的順序完成小量、可管理的工作。 在敏捷中，團隊會管理積壓工作或故事展示板上的故事，而非專案中的任務。 [!DNL Adobe Workfront] 提供工具，協助團隊以敏捷的方式運作。
+description: 敏捷是一種工作方法，可讓團隊以一致的步調完成少量可管理的工作量。 在敏捷中，團隊管理待處理專案或故事板上的故事，而不是專案中的任務。 [!DNL Adobe Workfront] 提供可協助團隊以敏捷方式運作的工具。
 author: Lisa
 feature: Agile
 exl-id: 35b329e5-f360-416c-adbb-ec39ab7a50cc
-source-git-commit: 867da7dd9d8b13f13e816c20ccd9a8a96ab04eb8
+source-git-commit: 59c3a57e334d1660e3e59da480a90060b1ba81b7
 workflow-type: tm+mt
-source-wordcount: '326'
+source-wordcount: '325'
 ht-degree: 0%
 
 ---
 
 # 敏捷概覽
 
-Agile是一種工作方法，可讓團隊以一致的順序完成小量、可管理的工作。 在敏捷中，團隊會管理積壓工作或故事展示板上的故事，而非專案中的任務。 [!DNL Adobe Workfront] 提供工具，協助團隊以敏捷的方式運作。
+敏捷是一種工作方法，可讓團隊以一致的步調完成少量可管理的工作量。 在敏捷中，團隊管理待處理專案或故事板上的故事，而不是專案中的任務。 [!DNL Adobe Workfront] 提供可協助團隊以敏捷方式運作的工具。
 
-[!DNL Workfront] 展示板是簡單而靈活的團隊協作工具。 如需展示板的相關資訊，請參閱 [展示板概述](../agile/boards-overview.md).
+[!DNL Workfront] 主機板是簡單但靈活的團隊合作工具。 如需面板的相關資訊，請參閱 [展示板概述](../agile/boards-overview.md).
 
-其他高級敏捷團隊工具使用看板或掃描。 有關看板和清單方法的資訊，請參閱 [決定靈活的方法](../agile/get-started-with-agile-in-workfront/create-an-agile-team.md#deciding) 在文章中 [建立敏捷的團隊](../agile/get-started-with-agile-in-workfront/create-an-agile-team.md).
+其他進階敏捷團隊工具使用Kanban或Scrum。 如需Kanban和Scrum方法的詳細資訊，請參閱區段 [決定敏捷方法](../agile/get-started-with-agile-in-workfront/create-an-agile-team.md#deciding) 在文章中 [建立敏捷團隊](../agile/get-started-with-agile-in-workfront/create-an-agile-team.md).
 
-若要開始在Workfront中使用進階敏捷：
+若要開始使用Workfront中的進階敏捷功能：
 
-1. 建立敏捷的團隊。
+1. 建立敏捷團隊。
 
-   如需詳細資訊，請參閱 [建立新的敏捷團隊](../agile/get-started-with-agile-in-workfront/create-an-agile-team.md#creating-an-agile-team-from-scratch) 或 [將現有團隊轉換為敏捷團隊](../agile/get-started-with-agile-in-workfront/create-an-agile-team.md#converting-an-existing-team-into-an-agaile-team) 在文章中 [建立敏捷的團隊](../agile/get-started-with-agile-in-workfront/create-an-agile-team.md).
+   如需詳細資訊，請參閱區段 [建立敏捷團隊](../agile/get-started-with-agile-in-workfront/create-an-agile-team.md/#create-an-agile-team-1) 或 [將現有團隊轉換為敏捷團隊](../agile/get-started-with-agile-in-workfront/create-an-agile-team.md#converting-an-existing-team-into-an-agaile-team) 在文章中 [建立敏捷團隊](../agile/get-started-with-agile-in-workfront/create-an-agile-team.md).
 
-1. 配置敏捷團隊以使用看板或掃描。
+1. 設定敏捷團隊以使用Kanban或Scrum。
 
-   如需詳細資訊，請參閱 [配置看板](../agile/get-started-with-agile-in-workfront/configure-kanban.md) 或 [配置Scrum](../agile/get-started-with-agile-in-workfront/configure-scrum.md).
+   如需詳細資訊，請參閱 [設定Kanban](../agile/get-started-with-agile-in-workfront/configure-kanban.md) 或 [設定Scrum](../agile/get-started-with-agile-in-workfront/configure-scrum.md).
 
-1. 看板小組：管理積壓工作並建立 [!UICONTROL 看板] 展示板。
+1. 看板團隊：管理待處理專案並建置 [!UICONTROL Kanban] 展示板。
 
-   如需詳細資訊，請參閱 [管理敏捷積壓](../agile/work-in-an-agile-environment/manage-the-agile-backlog.md) 和 [看板概述](../agile/use-kanban-in-an-agile-team/kanban-overview.md).
+   如需詳細資訊，請參閱 [管理敏捷待處理專案](../agile/work-in-an-agile-environment/manage-the-agile-backlog.md) 和 [Kanban總覽](../agile/use-kanban-in-an-agile-team/kanban-overview.md).
 
-1. Scrum團隊：管理積壓、建立小版本和建立 [!UICONTROL Scrum] 展示板。
+1. Scrum團隊：管理待處理專案、建立反複專案並建置 [!UICONTROL Scrum] 展示板。
 
-   如需詳細資訊，請參閱 [管理敏捷積壓](../agile/work-in-an-agile-environment/manage-the-agile-backlog.md), [反覆項目概觀](../agile/use-scrum-in-an-agile-team/iterations/iterations-overview.md)，和 [畫板概觀](../agile/use-scrum-in-an-agile-team/scrum-board/scrum-board-overview.md).
+   如需詳細資訊，請參閱 [管理敏捷待處理專案](../agile/work-in-an-agile-environment/manage-the-agile-backlog.md)， [反複專案概觀](../agile/use-scrum-in-an-agile-team/iterations/iterations-overview.md)、和 [Scrum展示板概述](../agile/use-scrum-in-an-agile-team/scrum-board/scrum-board-overview.md).
 
-1. 將項目中的任務添加到該團隊的積壓工作或留言板。
+1. 將專案中的任務新增至團隊的待處理專案或劇本面板。
 
-   如需詳細資訊，請參閱 [管理敏捷積壓](../agile/work-in-an-agile-environment/manage-the-agile-backlog.md), [將現有任務或問題新增至 [!UICONTROL 看板] 展示板](../agile/use-kanban-in-an-agile-team/add-existing-tasks-or-issues-to-the-kanban-board.md)，和 [將動態添加到現有小版本](../agile/use-scrum-in-an-agile-team/iterations/add-stories-to-existing-iteration.md).
+   如需詳細資訊，請參閱 [管理敏捷待處理專案](../agile/work-in-an-agile-environment/manage-the-agile-backlog.md)， [將現有任務或問題新增至 [!UICONTROL Kanban] 展示板](../agile/use-kanban-in-an-agile-team/add-existing-tasks-or-issues-to-the-kanban-board.md)、和 [將劇本新增至現有反複專案](../agile/use-scrum-in-an-agile-team/iterations/add-stories-to-existing-iteration.md).
 
 ## 在專案上使用敏捷
 
-您可以針對您的專案運用靈活的功能，避免通常伴隨靈活實務（例如管理團隊積壓、建立反覆項目等）的管理挑戰。 如需詳細資訊，請參閱 [在敏捷檢視中管理專案](/help/quicksilver/manage-work/projects/manage-projects/manage-projects-in-agile-view.md).
+您可以針對專案利用敏捷功能，而不會遇到敏捷實務通常伴隨的管理挑戰（例如管理團隊待處理專案、建立反複專案等）。 如需詳細資訊，請參閱 [在敏捷檢視中管理專案](/help/quicksilver/manage-work/projects/manage-projects/manage-projects-in-agile-view.md).
