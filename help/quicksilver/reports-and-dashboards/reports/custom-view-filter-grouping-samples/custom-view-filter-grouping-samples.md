@@ -2,20 +2,22 @@
 content-type: reference
 product-area: reporting
 navigation-topic: reports
-title: 自訂檢視、篩選和分組範例
-description: 自訂檢視、篩選和分組範例目錄適當的文章」。 我看不到透過物件來組織這項工作的多大價值。)」
-author: Lisa and Nolan
+title: 「自訂檢視、篩選和分組範例：文章索引」
+description: 本節提供您可以在Adobe Workfront帳戶中使用的自訂檢視、篩選器和群組的範例。
+author: Nolan
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: beac1ea6-a983-4d12-8972-91150914f731
-source-git-commit: 417b8c081a1940b112e8cfbd6d9216d802dc8f8e
+source-git-commit: dad054fe52bd7c5ca97144567c80e6d340541a50
 workflow-type: tm+mt
-source-wordcount: '695'
+source-wordcount: '705'
 ht-degree: 0%
 
 ---
 
-# 自訂檢視、篩選和分組範例
+# 自訂檢視、篩選和分組範例：文章索引
+
+<!-- Audited: 12/2023 -->
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: this used to be the content of this article but when I did the reorg of text mode for Kyna, Luke asked me to make this article a "TOC-proper article". I did not see much value in organizing this by objects.) </p>

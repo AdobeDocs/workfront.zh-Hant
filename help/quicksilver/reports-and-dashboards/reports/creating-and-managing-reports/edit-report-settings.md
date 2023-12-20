@@ -1,61 +1,61 @@
 ---
 product-area: reporting
 navigation-topic: create-and-manage-reports
-title: 編輯報告設定
-description: 您可以編輯報表的設定，以定義它如何為其他用戶顯示，或用戶在運行報表之前可以提示哪些類型的資訊。
+title: 編輯報表設定
+description: 您可以編輯報表的設定，以定義對其他使用者的顯示方式，或使用者在執行報表之前可提示輸入何種資訊。
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 6fbbc557-65da-4ffe-968a-9c8db6a45811
-source-git-commit: 888c938e5d649557df69374a55d4e4ecc2da6f55
+source-git-commit: dad054fe52bd7c5ca97144567c80e6d340541a50
 workflow-type: tm+mt
-source-wordcount: '664'
+source-wordcount: '663'
 ht-degree: 6%
 
 ---
 
-# 編輯報告設定
+# 編輯報表設定
 
-您可以編輯報表的設定，以定義它如何為其他用戶顯示，或用戶在運行報表之前可以提示哪些類型的資訊。
+您可以編輯報表的設定，以定義對其他使用者的顯示方式，或使用者在執行報表之前可提示輸入何種資訊。
 
-## 訪問要求
+## 存取需求
 
-您必須具有以下訪問權限才能執行本文中的步驟：
+您必須具有下列存取權才能執行本文中的步驟：
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront計畫</td> 
+   <td role="rowheader">Adobe Workfront計畫*</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront許可證*</td> 
+   <td role="rowheader">Adobe Workfront授權*</td> 
    <td> <p>計劃 </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">訪問級別配置*</td> 
-   <td> <p>編輯對報表、儀表板、日曆的訪問</p> <p>編輯對篩選器、視圖、分組的訪問</p> <p>注：如果您仍然沒有訪問權限，請詢問您的Workfront管理員是否在您的訪問級別設定了其他限制。 有關Workfront管理員如何修改您的訪問級別的資訊，請參見 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自定義訪問級別</a>。</p> </td> 
+   <td role="rowheader">存取層級設定*</td> 
+   <td> <p>編輯報告、儀表板、行事曆的存取權</p> <p>編輯對篩選器、檢視、群組的存取權</p> <p>注意：如果您還是沒有存取權，請詢問您的Workfront管理員，他們是否在您的存取層級中設定其他限制。 如需有關Workfront管理員如何修改您的存取層級的資訊，請參閱 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">對象權限</td> 
-   <td> <p>管理對報表的權限</p> <p>有關請求附加訪問的資訊，請參見 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">請求訪問對象 </a>。</p> </td> 
+   <td role="rowheader">物件許可權</td> 
+   <td> <p>管理報表的許可權</p> <p>如需請求其他存取許可權的詳細資訊，請參閱 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">要求物件的存取權 </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;要瞭解您擁有的計畫、許可證類型或訪問權限，請與您的Workfront管理員聯繫。
+&#42;若要瞭解您擁有的計畫、授權型別或存取權，請聯絡您的Workfront管理員。
 
 ## 操作步驟
 
-1. 通過轉到 **主菜單** > **報告**，然後選擇報表的對象。
+1. 開始建立報表，請前往 **主功能表** > **報表**，然後選取報表的物件。
 
    或
 
-   開啟現有報告，然後按一下 **報告操作** > **編輯**。
+   開啟現有報表，然後按一下 **報表動作** > **編輯**.
 
-1. 按一下 **報告設定** 的子菜單。
-1. 配置以下報告設定：
+1. 按一下 **報表設定** （位於report builder的右上角）。
+1. 設定下列報表設定：
 
    <table style="table-layout:auto"> 
     <col> 
@@ -67,61 +67,61 @@ ht-degree: 6%
      </tr> 
      <tr> 
       <td role="rowheader">說明</td> 
-      <td>指定描述報表用途和用途的語句。</td> 
+      <td>指定說明報表用途和使用的陳述式。</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">運行此報告，其訪問權限為</td> 
-      <td>選擇要在顯示給其他用戶時使用此報告的訪問權限的用戶。 有關使用其他用戶的訪問權限運行報告的詳細資訊，請參閱文章 <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/run-deliver-report-access-rights-another-user.md" class="MCXref xref">運行並提交具有其他用戶訪問權限的報告</a>。</td> 
+      <td role="rowheader">透過以下存取許可權運行此報告：</td> 
+      <td>選取您希望此報告在顯示給其他使用者時，使用哪個使用者的存取權。 如需以其他使用者的存取許可權執行報告的詳細資訊，請參閱文章 <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/run-deliver-report-access-rights-another-user.md" class="MCXref xref">執行並傳遞具有其他使用者存取許可權的報告</a>.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">載入報表時，顯示</td> 
-      <td>選擇載入報告時為所有用戶顯示的預設頁籤。</td> 
+      <td role="rowheader">報告載入時，顯示</td> 
+      <td>選擇報告載入時為所有使用者顯示的預設標籤。</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">在儀表板上載入報表時，顯示……項目</td> 
-      <td>指定在儀表板上載入報表時為所有用戶顯示的項目數。 預設值為15個項目，最大項目數為200。</td> 
+      <td role="rowheader">報告在儀表板上載入時，顯示……專案</td> 
+      <td>指定報告在儀表板上載入時，為所有使用者顯示的專案數。 預設值為15個專案，專案數量上限為200個。</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">在「詳細資訊」頁籤上顯示「資源網格」視圖</td> 
-      <td> <p>（僅限用戶報告）選擇此選項可在報告的「詳細資訊」頁籤上顯示「資源網格」。</p> <p>注：在將「資源網格」視圖應用於用戶報表時，該報表僅顯示處於「當前」狀態的項目。 如果要查看處於任何其他狀態的項目，可以使用全局導航欄的「人員」區域中的「用戶利用率」頁籤，並在該區域應用「資源網格視圖」。 <!--
+      <td role="rowheader">在詳細資訊標籤上顯示「資源格線」檢視</td> 
+      <td> <p>（僅使用者報表）選取此選項可在報表的「詳細資訊」標籤上顯示「資源格線」。</p> <p>注意：套用「資源格線」檢視至使用者報表時，報表只會顯示處於「目前」狀態的專案。 如果您想檢視處於任何其他狀態的專案，可以使用「全域導覽列」之「人員」區域中的「使用者使用率」標籤，然後套用「資源格線檢視」。 <!--
          <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
           For more information about using the Resource Grid, see the article Overview of the Resource Grid . (drafted because this article is drafted also: Article is in draft Feb 1, 2021)
          </MadCap:conditionalText>
         --></p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">在「詳細資訊」頁籤上顯示特殊視圖</td> 
-      <td>（僅限項目報告）指定用戶在訪問詳細資訊頁籤上的此資訊時將看到的視圖類型。 例如，可以選擇「里程碑」或「甘特圖」視圖。</td> 
+      <td role="rowheader">在詳細資訊標籤上顯示特殊檢視</td> 
+      <td>（僅限專案報告）指定當使用者在詳細資訊標籤上存取此資訊時，將會看到的檢視型別。 例如，您可以選取「里程碑」或「甘特圖」檢視。</td> 
      </tr> 
      <tr> 
       <td role="rowheader">預設為以甘特圖檢視顯示此報告</td> 
-      <td>（僅限項目報表和任務報表）選擇此選項可在用戶查看此報表中的「詳細資訊」標籤時自動啟用甘特圖視圖。<br>有關在項目報告和任務報告中查看甘特圖的詳細資訊，請參閱文章中的「查看項目清單甘特圖中的任務資訊」一節 <a href="../../../manage-work/gantt-chart/use-the-gantt-chart/view-info-in-gantt.md" class="MCXref xref">在甘特圖中查看資訊 </a>。</td> 
+      <td>（僅限專案報表與任務報表）選取此選項，可在使用者檢視此報表中的「詳細資訊」索引標籤時，自動啟用「甘特圖」檢視。<br>如需有關在專案報告和任務報告中檢視甘特圖的詳細資訊，請參閱文章中的「在專案清單甘特圖中檢視任務資訊」一節 <a href="../../../manage-work/gantt-chart/use-the-gantt-chart/view-info-in-gantt.md" class="MCXref xref">檢視甘特圖中的資訊 </a>.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">允許在報告中變更檢視</td> 
-      <td>選擇此選項可允許用戶在運行報告時更改視圖。</td> 
+      <td>選取此選項可允許使用者在執行報告時變更檢視。</td> 
      </tr> 
      <tr> 
       <td role="rowheader">允許在報告中變更群組</td> 
-      <td>選擇此選項可允許用戶在運行報告時更改組。</td> 
+      <td>選擇此選項可允許使用者在執行報告時變更群組。</td> 
      </tr> 
      <tr> 
       <td role="rowheader">允許在報告中變更篩選</td> 
-      <td>選擇此選項可允許用戶在運行報告時更改篩選器。</td> 
+      <td>選取此選項可允許使用者在執行報告時變更篩選器。</td> 
      </tr> 
     </tbody> 
    </table>
 
-1. 按一下 **報表提示** 設定報表的任何提示。\
-   有關向報表添加提示的詳細資訊，請參閱文章 [向報表添加提示](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md)。
+1. 按一下 **報告提示** 為報告設定任何提示。\
+   如需有關在報表中新增提示的詳細資訊，請參閱文章 [新增提示至報表](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md).
 
-1. 按一下&#x200B;**完成，** 按一下 **保存+關閉**。
+1. 按一下&#x200B;**完成，** 然後按一下 **儲存+關閉**.
 
 ## 其他資訊
 
 另請參閱：
 
 <!--outdated: * [Basic Report Creation Program for the new Workfront experience](https://one.workfront.com/s/basic-report-creation-program) -->
-* [開始在Adobe Workfront](../../../reports-and-dashboards/reports/reporting/get-started-reports-workfront.md)
-* [使用Adobe Workfront內置報告](../../../reports-and-dashboards/reports/using-built-in-reports/use-workfront-built-in-reports.md)
-* [建立自定義報告](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md)
+* [開始使用報告](../../../reports-and-dashboards/reports/reporting/get-started-reports-workfront.md)
+* [使用Adobe Workfront內建報告](../../../reports-and-dashboards/reports/using-built-in-reports/use-workfront-built-in-reports.md)
+* [建立自訂報表](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md)

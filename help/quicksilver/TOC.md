@@ -3,9 +3,9 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文件、教學課程和其他資源，了解如何在您的組織中實施並有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: 59c3a57e334d1660e3e59da480a90060b1ba81b7
+source-git-commit: ec254d4a81e92dc6e61afa852dde7d5d7ef5fc20
 workflow-type: tm+mt
-source-wordcount: '13836'
+source-wordcount: '13835'
 ht-degree: 1%
 
 ---
@@ -1504,7 +1504,7 @@ ht-degree: 1%
       * [報告](reports-and-dashboards/reports/reports-overview.md)
       * 報表基本需知 {#report-basics}
          * [報表基本需知](reports-and-dashboards/reports/reporting/reporting-basics.md)
-         * [開始使用Adobe Workfront中的報告](reports-and-dashboards/reports/reporting/get-started-reports-workfront.md)
+         * [開始使用報告](reports-and-dashboards/reports/reporting/get-started-reports-workfront.md)
          * [將預設報表另存為新報表](reports-and-dashboards/reports/reporting/save-default-reports-new-reports.md)
       * 報表元素 {#report-elements}
          * [報表元素概觀](reports-and-dashboards/reports/reporting-elements/reporting-elements-overview.md)
@@ -1562,7 +1562,7 @@ ht-degree: 1%
          * [計算自訂欄位範例：在自訂表單中顯示狀態時間戳記](reports-and-dashboards/reports/calc-cstm-data-reports/example-status-timestamp-in-calculated-field.md)
          * [計算自訂欄位範例：顯示欄位的編輯歷史記錄](reports-and-dashboards/reports/calc-cstm-data-reports/calculated-field-example-edit-history-of-another-field.md)
       * 自訂檢視、篩選和分組範例 {#custom-view-samples}
-         * [自訂檢視、篩選和分組範例](reports-and-dashboards/reports/custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md)
+         * [自訂檢視、篩選和分組範例：文章索引](reports-and-dashboards/reports/custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md)
          * [報表或清單：顯示與物件相關聯的使用者](reports-and-dashboards/reports/custom-view-filter-grouping-samples/display-object-users-in-report.md)
          * [篩選器：顯示不完整的跨專案前置任務](reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-cross-project-predecessors.md)
          * [篩選器：顯示不完整的跨專案後置任務](reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-cross-project-successors.md)

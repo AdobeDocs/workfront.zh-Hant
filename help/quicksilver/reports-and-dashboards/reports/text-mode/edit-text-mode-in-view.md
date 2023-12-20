@@ -1,29 +1,29 @@
 ---
 product-area: reporting
 navigation-topic: text-mode-reporting
-title: 使用文本模式編輯視圖
-description: '注意：在本文新增章節：/Content/Reports and Dashboards/Reports/Reporting Elements/create-customize-views.html ***此外，在「文字模式」概觀文章中草稿此區域)'
+title: 使用文字模式編輯檢視
+description: '注意：在文章中新增區段：/Content/Reports and Dashboards/Reports/Reporting Elements/create-customize-views.html ***此外，在文字模式概觀文章中草稿此區域)'
 author: Nolan
 feature: Reports and Dashboards
 exl-id: b99a2d14-a226-4075-9b1b-ac9426fd41b8
-source-git-commit: 89a6d856f9f87a67b6a2ccfb4282f9f6200b977c
+source-git-commit: dad054fe52bd7c5ca97144567c80e6d340541a50
 workflow-type: tm+mt
-source-wordcount: '1636'
+source-wordcount: '1639'
 ht-degree: 1%
 
 ---
 
-# 使用文本模式編輯視圖
+# 使用文字模式編輯檢視
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">NOTE: add a section in this article: /Content/Reports and Dashboards/Reports/Reporting Elements/create-customize-views.html *** Also, draft this area in the Text Mode overview article) </p>
 -->
 
-您可以使用文字模式編輯清單或報表中的檢視，以存取標準介面中無法使用的欄位，並建立更複雜的檢視。
+您可以使用文字模式來編輯清單或報表中的檢視，以存取標準介面中無法使用的欄位，並建立更複雜的檢視。
 
 ## 存取需求
 
-您必須具備下列存取權，才能執行本文中的步驟：
+您必須具有下列存取權才能執行本文中的步驟：
 
 <table style="table-layout:auto"> 
  <col> 
@@ -38,44 +38,44 @@ ht-degree: 1%
    <td> <p>計劃 </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">訪問級別配置*</td> 
-   <td> <p>編輯對篩選器、檢視、群組的存取</p> <p>編輯對報表、控制面板、日曆的存取，以編輯報表中的報表元素</p> <p>注意：如果您仍無權存取，請洽詢您的Workfront管理員，他們是否在您的存取層級設定其他限制。 如需Workfront管理員如何修改您的存取層級的詳細資訊，請參閱 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>.</p> </td> 
+   <td role="rowheader">存取層級設定*</td> 
+   <td> <p>編輯對篩選器、檢視、群組的存取權</p> <p>編輯報告、儀表板、行事曆的存取權，以編輯報告中的報告元素</p> <p>注意：如果您還是沒有存取權，請詢問您的Workfront管理員，他們是否在您的存取層級中設定其他限制。 如需有關Workfront管理員如何修改您的存取層級的資訊，請參閱 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">物件權限</td> 
-   <td> <p>管理報表權限以編輯報表中的檢視</p> <p>管理檢視的權限以進行編輯</p> <p>有關請求其他訪問的資訊，請參閱 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">請求對對象的訪問 </a>.</p> </td> 
+   <td role="rowheader">物件許可權</td> 
+   <td> <p>管理報表的許可權，以編輯報表中的檢視</p> <p>管理檢視的許可權以進行編輯</p> <p>如需請求其他存取許可權的詳細資訊，請參閱 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">要求物件的存取權 </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;若要了解您擁有的計畫、授權類型或存取權，請聯絡您的Workfront管理員。
+&#42;若要瞭解您擁有的計畫、授權型別或存取權，請聯絡您的Workfront管理員。
 
-## 必要條件
+## 先決條件
 
-開始在報表或清單中使用文字模式之前，請務必熟悉Workfront文字模式語法。
+在報表或清單中開始使用文字模式之前，請務必熟悉Workfront文字模式語法。
 
 如需詳細資訊，請參閱：
 
 * [文字模式概觀](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md)
 * [文字模式語法概觀](../../../reports-and-dashboards/reports/text-mode/text-mode-syntax-overview.md)
-* [自訂檢視、篩選和分組範例](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md)
+* [自訂檢視、篩選和分組範例：文章索引](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md)
 
 ## 在檢視中編輯文字模式
 
-使用文字模式編輯檢視，對報表和清單是相同的。 從報表或清單存取檢視的方式有所不同。
+對於報告和清單，使用文字模式編輯檢視是相同的。 從報表或清單存取檢視表的方式會有所不同。
 
 >[!TIP]
 >
->建議您在標準模式中盡可能多地建立檢視，然後轉換為文字模式以編輯它。
+>建議您在標準模式中建立儘可能多的檢視，然後將其轉換為文字模式以進行編輯。
 
-如需建立檢視的詳細資訊，請參閱 [Adobe Workfront中的檢視概觀](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
+如需有關建立檢視的資訊，請參閱 [Adobe Workfront中的檢視概觀](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
 
 如需建立報表的相關資訊，請參閱 [建立自訂報表](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
-1. 執行下列任一項作業：
+1. 執行下列其中一項：
 
-   1. 若要從報表存取檢視，請前往報表，然後按一下 **報表動作** > **編輯** > **欄（檢視）** 標籤。
-   1. 要從清單訪問視圖，請轉至清單，然後從 **檢視** 下拉式選單中，將滑鼠移至您要修改的檢視上，然後按一下 **編輯** 圖示 ![](assets/edit-icon.png).
+   1. 若要從報表存取檢視，請移至報表，然後按一下 **報表動作** > **編輯** > **欄（檢視）** 標籤。
+   1. 若要從清單存取檢視，請移至清單並從 **檢視** 下拉式功能表，將滑鼠移至您要修改的檢視上，然後按一下 **編輯** 圖示 ![](assets/edit-icon.png).
 
       檢視產生器隨即開啟。
 
@@ -83,21 +83,21 @@ ht-degree: 1%
 
    或
 
-   選取 **欄（檢視）** ，然後選取欄。
+   選取 **欄（檢視）** 標籤，然後選取欄。
 
    >[!TIP]
    >
-   >要使用文本模式編輯視圖，必須一次編輯一列。
+   >若要使用文字模式編輯檢視，您必須一次編輯一欄。
 
-1. 按一下 **切換到文本模式** 建立器的右上角。
+1. 按一下 **切換到文字模式** 建立器的右上角。
 
    >[!NOTE]
    >
-   >以文字模式編輯欄時，Workfront會新增 `textmode=true` 行代碼到列。 這表示欄已在文字模式中修改。
+   >當您以文字模式編輯欄時，Workfront會新增 `textmode=true` 欄的程式碼行。 這表示在文字模式中修改了欄。
 
    ![](assets/switch-to-text-mode-in-view-nwe-highlighted-350x447.png)
 
-   下表概述文本模式視圖中的關鍵行：
+   下表概述文字模式檢視中的關鍵行：
 
    <!--
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: make this a snippet and add it to the grouping article too)</p>
@@ -115,69 +115,69 @@ ht-degree: 1%
     <tbody> 
      <tr> 
       <td> <p><strong>valuefield</strong>=</p> </td> 
-      <td> <p>這是資料庫中顯示的對象或欄位的名稱。 有關對象和欄位在資料庫中如何顯示的詳細資訊，請參見 <a href="../../../wf-api/general/api-explorer.md" class="MCXref xref">API Explorer</a>.</p> <p>存在下列情況：</p> 
+      <td> <p>這是物件或欄位在資料庫中顯示的名稱。 如需有關物件和欄位如何在資料庫中顯示的詳細資訊，請參閱 <a href="../../../wf-api/general/api-explorer.md" class="MCXref xref">API總管</a>.</p> <p>存在下列情況：</p> 
        <ol> 
-        <li value="1"> <p> 如果您顯示的欄位名稱是片語，而非單一名詞，您必須對 <code>valuefield</code>. 例如，對於任務的計畫起始日期，代碼為： </p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>範例: </b></span></span><code>valuefield=plannedStartDate</code> </p> </li> 
-        <li value="2"> <p>如果要顯示自訂欄位，請 <code>valuefield</code> 值是欄位的實際名稱，如您在介面中所見。 例如，對於名為「更多資訊」的自訂欄位，程式碼為：</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>範例: </b></span></span><code>valuefield=More information</code> </p> </li> 
-        <li value="3"> <p>如果要顯示與視圖中的其他對象相關的對象，請使用 <code>valuefield</code> 代碼行的對象名稱和屬性以冒號分隔。 </p> <p>例如，在任務視圖中顯示Portfolio所有者名稱的列在值欄位行中具有以下值：</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>範例: </b></span></span><code>valuefield=project:portfolio:owner:name</code> </p> <p>這表示從報表（任務）的對象中，您可以從該處訪問下一個相關對象（項目），您可以從項目（項目組合）訪問以下相關對象，然後依次訪問項目組合所有者（所有者）及其名稱（名稱）。 </p> </li> 
-       </ol> <p>有關對象如何彼此連接的資訊，請參見一節 <a href="../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#understanding-interdependency-and-hierarchy-of-objects" class="MCXref xref">對象的相互依存和層次</a> in <a href="../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md" class="MCXref xref">了解Adobe Workfront中的物件</a>.</p> <p>注意：如果您選擇在標準介面中無效的文本模式欄位，則無法切換回列內的標準介面。</p> </td> 
+        <li value="1"> <p> 如果您顯示的欄位名稱是短語而不是單一名詞，則必須使用駝峰式大小寫語法 <code>valuefield</code>. 例如，對於任務的計劃開始日期，程式碼為： </p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>範例： </b></span></span><code>valuefield=plannedStartDate</code> </p> </li> 
+        <li value="2"> <p>如果您想要顯示自訂欄位，請 <code>valuefield</code> value是欄位的實際名稱，如您在介面中所見。 例如，對於名為「更多資訊」的自訂欄位，程式碼為：</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>範例： </b></span></span><code>valuefield=More information</code> </p> </li> 
+        <li value="3"> <p>如果您想要顯示與檢視中其他物件相關的物件，請使用 <code>valuefield</code> 程式碼行物件名稱和屬性會以冒號分隔。 </p> <p>例如，在任務檢視中顯示「Portfolio擁有者」名稱的欄具有下列valuefield行的值：</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>範例： </b></span></span><code>valuefield=project:portfolio:owner:name</code> </p> <p>這表示您可以從報表（工作）的物件存取下一個相關物件（專案），從那裡，您可以從專案（專案組合）存取下列相關物件，接著存取專案組合擁有者（擁有者），然後存取其名稱（名稱）。 </p> </li> 
+       </ol> <p>如需物件如何彼此連線的詳細資訊，請參閱區段 <a href="../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#understanding-interdependency-and-hierarchy-of-objects" class="MCXref xref">物件的相依性和階層</a> 在 <a href="../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md" class="MCXref xref">瞭解Adobe Workfront中的物件</a>.</p> <p>備註：如果您在文字模式中選擇的欄位在標準介面中無效，則無法切換回欄位中的標準介面。</p> </td> 
      </tr> 
      <tr> 
-      <td><strong>valueformat=</strong> </td> 
-      <td> <p>此行代表用來顯示 <code>valuefield</code>. 此 <code>valueformat</code> 識別物件或欄位是否顯示為文字、數字、百分比或日期。</p> <p>建議您使用 <code>HTML</code> 為 <code>valueformat</code>，尤其是使用 <code>valueexpression</code>，以確保資訊的顯示最準確。 </p> <p>如需此行的其他值的相關資訊，請參閱 <a href="../../../reports-and-dashboards/reports/text-mode/use-conditional-formatting-text-mode.md" class="MCXref xref">在文字模式中使用條件式格式</a>.</p> </td> 
+      <td><strong>值格式=</strong> </td> 
+      <td> <p>此線條代表用來顯示 <code>valuefield</code>. 此 <code>valueformat</code> 會識別物件或欄位是否顯示為文字、數字、百分比或日期。</p> <p>我們建議使用 <code>HTML</code> 針對您的 <code>valueformat</code>，尤其是使用 <code>valueexpression</code>，確保以最精確的方式顯示您的資訊。 </p> <p>如需此行的其他值相關資訊，請參閱 <a href="../../../reports-and-dashboards/reports/text-mode/use-conditional-formatting-text-mode.md" class="MCXref xref">在文字模式中使用條件式格式</a>.</p> </td> 
      </tr> 
      <tr> 
       <td> <p><strong>valueexpression=</strong> </p> </td> 
-      <td> <p>您可以新增此行以取代 <code>valuefield</code>，以便在欄中顯示計算欄位。</p> <p>您必須將 <code>valuefield</code> 在 <code>valueexpression</code>.</p> <p>存在下列情況： </p> 
+      <td> <p>您可以新增此行來取代 <code>valuefield</code>，則會在欄中顯示計算欄位。</p> <p>您必須將 <code>valuefield</code> 括弧內的物件，每次在 <code>valueexpression</code>.</p> <p>存在下列情況： </p> 
        <ol> 
-        <li value="1"> <p>如果您想以大寫顯示欄位，請使用：</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>範例: </b></span></span><code>valueexpression=UPPER({valuefield})</code> </p> <p>此 <code>valuefield</code> 的拼寫方式與API檔案總管中顯示的一樣。 </p> </li> 
-        <li value="2">如果您想要新增多個 <code>valuefields</code> 把它們串在一起，就必須按時間分開。</li> 
-        <li value="3"> <p>例如，如果要顯示任務的主要受託人的名稱，請使用 <code>valueexpression</code>，您會使用：</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>範例: </b></span></span><code>valueexpreesion={assignedTo}.{name}</code> </p> </li> 
-        <li value="4"> <p>如果您想在 <code>valueexpression</code> 行，必須在欄位名稱前面 <code>DE:</code> 以指出這是自訂欄位。 欄位名稱的拼寫方式與介面中顯示的名稱相同。 </p> <p>重要：若您使用自訂欄位放在某些使用者具有限制權限的自訂表單區段中，當這些使用者在報表中檢視此計算時，值運算式的計算會空白。 如需調整自訂表單區段權限的相關資訊，請參閱 <span href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md"><a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref">建立或編輯自訂表單</a></span>.</p> <p>例如，如果您有標示為「開發人員名稱」的自訂欄位，而您想要在欄中以大寫顯示此欄位，您可以使用下列項目 <code>valueexpression</code> 以指出：</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>範例: </b></span></span><code>valueexpression=UPPER({DE:Developer Name}</code>) </p> <p>參考Typeahead類型自訂欄位時，請使用下列運算式來參考在標示為「開發人員名稱」的欄位中選取之物件的名稱：</p> <p><code>valueexpression=UPPER({DE:Developer Name:name})</code> </p> </li> 
+        <li value="1"> <p>如果您想要以大寫在欄中顯示欄位，請使用：</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>範例： </b></span></span><code>valueexpression=UPPER({valuefield})</code> </p> <p>此 <code>valuefield</code> 在API Explorer中顯示的物件會拼寫。 </p> </li> 
+        <li value="2">如果您想要新增多個 <code>valuefields</code> 藉由將它們串連在一起，您必須以句點分隔它們。</li> 
+        <li value="3"> <p>例如，如果您想使用顯示任務的主要受指派人名稱 <code>valueexpression</code>，您會使用：</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>範例： </b></span></span><code>valueexpreesion={assignedTo}.{name}</code> </p> </li> 
+        <li value="4"> <p>如果您想在中使用自訂欄位 <code>valueexpression</code> 欄位名稱的前面必須加一行 <code>DE:</code> 以指示它是一個自訂欄位。 欄位名稱在介面中顯示時拼寫。 </p> <p>重要：若您使用的自訂欄位位位位位於某些使用者許可權有限的自訂表單區段中，則當這些使用者在報表中檢視此計算時，值運算式的計算為空白。 如需有關調整自訂表格區段許可權的資訊，請參閱 <span href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md"><a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref">建立或編輯自訂表單</a></span>.</p> <p>例如，如果您有一個標示為「開發人員名稱」的自訂欄位，並且您想在欄中以大寫顯示此欄位，您可以使用以下專案 <code>valueexpression</code> 以表示此訊息：</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>範例： </b></span></span><code>valueexpression=UPPER({DE:Developer Name}</code>) </p> <p>參照「預先輸入」型別自訂欄位時，請使用下列運算式來參照在標示為「開發人員名稱」的欄位中選取的物件名稱：</p> <p><code>valueexpression=UPPER({DE:Developer Name:name})</code> </p> </li> 
        </ol> </td> 
      </tr> 
      <tr> 
       <td> <p><strong>descriptionkey= / description=</strong> </p> </td> 
-      <td> <p>將滑鼠移到列的名稱上時，此行定義工具提示的文本。 在這種情況下，它使用鍵來翻譯說明文本中的名稱值。 如果要修改說明，請將此行更改為： </p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>範例: </b></span></span><code>description=Your Value</code>.</p> </td> 
+      <td> <p>當您將滑鼠移到欄的名稱上時，此行會定義工具提示的文字。 在此案例中，它使用索引鍵來翻譯說明文字中的名稱值。 如果您要修改說明，請將此行變更為以下內容： </p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>範例： </b></span></span><code>description=Your Value</code>.</p> </td> 
      </tr> 
      <tr> 
       <td><strong>namekey= / name=</strong> </td> 
-      <td> <p>此行定義列標籤。 在此情況下，會根據索引鍵使用縮寫的值。</p> <p>如果要修改列名，可將此值更改為： </p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>範例: </b></span></span><code>name=Your Value</code> </p> <p><code>Name</code> 可讓您為欄名稱輸入任何文字，而<code>namekey</code> 需要您輸入用於轉換列名稱的鍵。</p> <p>若要變更欄名稱，您也可以新增 <code>displayname </code>行，如果沒有。</p> </td> 
+      <td> <p>此行定義欄標籤。 在此情況下，它會使用根據索引鍵的縮寫值。</p> <p>如果要修改欄名稱，可將此值變更為： </p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>範例： </b></span></span><code>name=Your Value</code> </p> <p><code>Name</code> 可讓您為欄名稱輸入任何文字，而<code>namekey</code> 需要您輸入用來轉譯欄名稱的索引鍵。</p> <p>若要變更欄名稱，您也可以新增 <code>displayname </code>行（如果不存在）。</p> </td> 
      </tr> 
      <tr> 
       <td><strong>displayname =</strong> </td> 
-      <td> <p>您可以新增下列行以變更欄的名稱，這會暫停 <code>namekey/name</code> 值：</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>範例: </b></span></span><code>displayname=Your Value</code> </p> </td> 
+      <td> <p>您可以新增下列行來變更欄的名稱，這會暫停 <code>namekey/name</code> 值：</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>範例： </b></span></span><code>displayname=Your Value</code> </p> </td> 
      </tr> 
      <tr> 
       <td><strong>querysort=</strong> </td> 
-      <td>此行定義按一下列標題時結果的排序方式。 如果不存在，則無法在報表執行後排序欄。</td> 
+      <td>此行定義在按一下欄標題時如何排序結果。 如果欄不存在，則無法在報表執行後排序該欄。</td> 
      </tr> 
      <tr> 
-      <td><strong>width=</strong> </td> 
-      <td> <p>此行表示用於列的像素數。 如果省略該行或將其設為0（零），則該列不會出現在視圖中。</p> <p>在文字模式中手動修改此欄位時，您也必須新增 <code>usewidths=true</code> 值。</p> </td> 
+      <td><strong>寬度=</strong> </td> 
+      <td> <p>此線條代表用於欄的畫素數。 如果省略該行或設為0 （零），則該欄不會出現在檢視中。</p> <p>當您在文字模式中手動修改此欄位時，您也必須新增 <code>usewidths=true</code> 值至您的欄。</p> </td> 
      </tr> 
      <tr> 
       <td><strong>usewidths=true</strong> </td> 
-      <td> <p>除了 <code>width=</code> 行。 </p> </td> 
+      <td> <p>除了以下專案外，您還必須使用此行： <code>width=</code> 自訂欄寬時的線條。 </p> </td> 
      </tr> 
      <tr> 
       <td><strong>makeFieldEditable=</strong> </td> 
-      <td> <p>此行定義列中顯示的值是否內聯可編輯。 如果此行等於 <strong>true</strong>，欄中的值便可內嵌編輯。 如果此行等於 <code>false</code>，則欄中的值不會內嵌編輯。</p> </td> 
+      <td> <p>此行定義欄中顯示的值是否可內嵌編輯。 如果此行等於 <strong>true</strong>，欄中的值可內嵌編輯。 如果此行等於 <code>false</code>，欄中的值不可內嵌編輯。</p> </td> 
      </tr> 
      <tr> 
       <td><strong>link.valuefield=</strong> </td> 
-      <td> <p>僅當您希望列中顯示的值連結到與其關聯的對象時，才插入此行。 連結會開啟物件的詳細資訊頁面。 此值應符合 <code>valuefield=</code> 行。 插入此項目時，您也必須新增 <code>link.valueformat=</code> 行。 </p> <p> 例如，您可以插入 <code>link.valuefield=priority</code> 在「問題」檢視中，問題的「優先順序」會顯示為連結。 按一下此連結會開啟「問題」頁面。</p> </td> 
+      <td> <p>只有在您希望欄中顯示的值連結到與其關聯的物件時，才插入此行。 連結會開啟物件的詳細資訊頁面。 此值應符合 <code>valuefield=</code> 行。 當您插入此專案時，您也必須新增 <code>link.valueformat=</code> 行。 </p> <p> 例如，您可以插入 <code>link.valuefield=priority</code> 在問題檢視中，和問題的優先順序會顯示為連結。 按一下此連結會開啟問題頁面。</p> </td> 
      </tr> 
      <tr> 
       <td><strong>link.valueformat=</strong> </td> 
-      <td> <p>只有在插入 <code>link.valuefield</code> 行，將連結新增至欄中的值。 連結會開啟物件的詳細資訊頁面。 此值應符合 <code>valueformat=</code> 行，並指示用於顯示 <code>valuefield</code>. </p> <p>重要：在內建欄中檢視文字模式（也包含連結）時，您會注意到引用連結的數行。 當您以文字模式建立自己的自訂欄並新增連結陳述式時，這些行中的某些可能已不受支援，或是沒有必要。 新增連結值時必須使用的行是<code> link.valuefield</code> 和 <code>link.valueformat</code>. </p> </td> 
+      <td> <p>只有在您已插入 <code>link.valuefield</code> 行，將連結新增至欄中的值。 連結會開啟物件的詳細資訊頁面。 此值應符合 <code>valueformat=</code> 行並指示用來顯示 <code>valuefield</code>. </p> <p>重要：在內建欄（也包含連結）中檢視文字模式時，您會注意到有多行文字參考該連結。 當您在文字模式中建立自己的自訂欄並將連結陳述式新增到其中時，其中某些行可能不再受支援或不必要。 新增連結值時必須使用的行包括<code> link.valuefield</code> 和 <code>link.valueformat</code>. </p> </td> 
      </tr> 
      <tr> 
       <td><strong>aggregator.function=</strong> </td> 
-      <td> <p>這表示如何匯總各欄的值。 有多行開頭為 <code>aggregator.</code> 它們都指匯總欄結果的匯總器。 </p> <p>一般而言， <code>aggregator.</code> 行與列對象的行匹配。 </p> 
+      <td> <p>這指的是彙總各欄值的方式。 有多行開頭為 <code>aggregator.</code> 而且他們都引用摘要列出欄結果的彙總。 </p> <p>一般而言， <code>aggregator.</code> 行與欄物件的行相符。 </p> 
        <div class="example" data-mc-autonum="<b>Example: </b>">
-        <span class="autonumber"><span><b>範例: </b></span></span> 
-        <p>匯總的任務報表中的「計畫小時數」列可能如下所示： </p> 
+        <span class="autonumber"><span><b>範例： </b></span></span> 
+        <p>任務報告中按「總和」彙總的「計畫時數」欄可能如下所示： </p> 
         <div>
          <pre>textmode=true</pre>
          <pre>valuefield=workRequired</pre>
@@ -197,9 +197,9 @@ ht-degree: 1%
     </tbody> 
    </table>
 
-1. 按一下 **套用** 如果要保存更改並繼續編輯視圖。
-1. 按一下 **儲存+關閉** 儲存報表。
+1. 按一下 **套用** 如果您要儲存變更並繼續編輯檢視。
+1. 按一下 **儲存+關閉** 以儲存報表。
 
    或
 
-   按一下 **保存視圖** 將視圖保存在清單中。
+   按一下 **儲存檢視** 將檢視儲存在清單中。
