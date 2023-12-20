@@ -5,9 +5,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: ae657964-d4a5-4c3b-afc6-8dde7695955d
-source-git-commit: 6f026590f0030b564f0d110afead9ade1acd7896
+source-git-commit: cc20fd99ec334140cc5f6d73e4f257ea2cdabe23
 workflow-type: tm+mt
-source-wordcount: '1121'
+source-wordcount: '1116'
 ht-degree: 0%
 
 ---
@@ -84,15 +84,15 @@ ht-degree: 0%
 
 ## 存取您的Workfront生產執行個體的使用者和管理區域 {#access-the-user-and-admin-area-for-your-production-instance-of-workfront}
 
-1. 從 [Adobe Admin Console頁面](https://adminconsole.adobe.com/)，選取 **產品** 索引標籤，然後選取 **Workfront** 產品拼貼。
+1. 從 [Adobe Admin Console頁面](https://adminconsole.adobe.com/)，選取 **產品** 索引標籤，然後選取 **Workfront**.
 
-   ![](assets/admin-product-1.png)
+   <!--![](assets/admin-product-1.png)-->
 
 1. 在顯示的清單中，選取頂端的連結。
 
    這是您的使用者所在的生產執行個體。
 
-   ![](assets/instances-1.png)
+   <!--![](assets/instances-1.png)-->
 
    >[!TIP]
    >
@@ -165,7 +165,7 @@ ht-degree: 0%
 
 {{step-1-to-users}}
 
-1. 選取使用者，然後按一下&#x200B;**ö**&#x200B;重新圖示 ![](assets/more-icon.png).
+1. 選取使用者，然後按一下 **更多** 圖示 ![](assets/more-icon.png).
 
 1. 若要核准使用者，請按一下 **核准**，然後按一下 **提交**.
 
