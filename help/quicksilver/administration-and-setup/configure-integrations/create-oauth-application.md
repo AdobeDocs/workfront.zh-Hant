@@ -8,7 +8,7 @@ author: Becky
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 exl-id: e13c7dda-8945-47ad-b6d3-4d6a62b368f5
-source-git-commit: 59c3a57e334d1660e3e59da480a90060b1ba81b7
+source-git-commit: 762053edbf490532b96285a6d1edff2af49500a4
 workflow-type: tm+mt
 source-wordcount: '1945'
 ht-degree: 6%
@@ -298,7 +298,7 @@ ht-degree: 6%
       <td>這是設定OAuth2應用程式的開發人員電子郵件地址。</td> 
      </tr> 
    <tr> 
-      <td role="rowheader">[！UICONTROL隱私權原則UTL]</td> 
+      <td role="rowheader">[！UICONTROL隱私權原則URL]</td> 
       <td>這是貴組織儲存隱私權原則的連結。</td> 
      </tr>
 

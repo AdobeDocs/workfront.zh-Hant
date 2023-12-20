@@ -2,56 +2,66 @@
 content-type: overview;how-to-procedural
 product-area: projects;user-management
 navigation-topic: assign-tasks
-title: 智慧分配概述
-description: 在管理任務和問題分配時，您可以使用智慧分配來確定最適合的用戶來完成工作。 智慧分配是當您根據演算法將工作項目指派給資源時，Adobe Workfront會向您顯示的建議，演算法可決定該工作的最合適資源。
+title: 智慧指派總覽
+description: 在管理任務和問題指派時，您可以使用智慧指派來識別誰是完成工作的最佳使用者。 智慧型指派是Adobe Workfront在您根據演演算法將工作專案指派給資源時所顯示的建議，該演演算法會決定最適合工作的資源。
 author: Alina
 feature: Work Management
 exl-id: 8d17eff6-5ff0-4985-b575-4934a3bb7c0b
-source-git-commit: 7e220e496aff2675910416bd86e3ddf7b9231afa
+source-git-commit: daba001c28df268721c87df7d2516ffb76e535d9
 workflow-type: tm+mt
-source-wordcount: '526'
+source-wordcount: '520'
 ht-degree: 0%
 
 ---
 
-# 智慧分配概述
+# 智慧指派總覽
 
-在管理任務和問題分配時，您可以使用智慧分配來確定最適合的用戶來完成工作。 智慧分配是當您根據演算法將工作項目指派給資源時，Adobe Workfront會向您顯示的建議，演算法可決定該工作的最合適資源。
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers.</span>   
+  
+<span class="preview">For information about the current release schedule, see [First Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).</span> 
+-->
+
+在管理任務和問題指派時，您可以使用智慧指派來識別誰是完成工作的最佳使用者。 智慧型指派是Adobe Workfront在您根據演演算法將工作專案指派給資源時所顯示的建議，該演演算法會決定最適合工作的資源。
 
 >[!NOTE]
 >
->智慧分配不考慮用戶的可用性。 但是，根據其計畫提供它們會影響任務和問題的計畫日期和預計日期（在分配任務和問題時）。 如需排程的相關資訊，請參閱文章 [建立排程](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
+>智慧型指派未考慮使用者的可用性。 但是，根據它們的排程可用性，會影響任務和問題在指派時的計畫和預計日期。 如需有關排程的資訊，請參閱文章 [建立排程](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
 
-本文包含有關智慧分配的一般資訊。 有關使用智慧分配將任務和問題分配給用戶的資訊，請參閱 [進行智慧分配](../../../manage-work/tasks/assign-tasks/make-smart-assignments.md).
+本文包含智慧指派的一般資訊。 有關使用智慧指派指派指派任務和問題給使用者的資訊，請參閱 [進行智慧型指派](../../../manage-work/tasks/assign-tasks/make-smart-assignments.md).
 
-## 智慧分配概述
+## 智慧指派總覽
 
-使用智慧指派時，請考量下列事項：
+使用智慧型指派時，請考量下列事項：
 
-* 演算法可獨立運作於任務和問題。 這表示問題的建議使用者清單可能與任務的建議使用者清單不同，因為Workfront會根據與問題和任務相關的標準分別建立清單。
-* 智慧分配不建議作業角色或團隊。 而是最適合完成工作或問題的使用者建議。
-* 建議的分配始終為活動用戶。
-* 第一個列出的使用者應是該工作的最佳相符者。
+* 演演算法可獨立處理任務和問題。 這表示問題的建議使用者清單可能與任務的建議使用者清單不同，因為Workfront會根據與問題和任務分別相關的准則來建立清單。
+* 智慧指派不建議職務角色或團隊。 相反地，他們是最適合完成任務或問題的使用者的建議。
+* 建議的指派一律為作用中的使用者。
+* 首先列出的使用者應該是此任務的最佳相符者。
 
-## 查找智慧分配建議
+## 尋找智慧指派建議
 
-您可以在以下區域查看智慧分配，在這些區域中可以分配任務或問題：
+您可以在下列區域中檢視智慧型指派，您可指派任務或問題：
 
-* 任務或問題清單或報告
+* 任務、問題清單或報告 <!--edit this to say just issue list or report and update screen shot - add new one-->
 
-   ![](assets/smart-assignments-task-list-nwe-350x280.png)
+  ![](assets/smart-assignments-task-list-nwe-350x280.png)
+
+<!--
+* <span class="preview">A task list or report (******insert shot here*****)</span>
+-->
 
 * 任務或問題標題
 
-   ![](assets/smart-assignments-task-header-nwe-350x302.png)
+  ![](assets/smart-assignments-task-header-nwe-350x302.png)
 
 * 任務或問題摘要面板
 
-   ![](assets/smart-assignments-summary-panel-nwe-350x332.png)
+  ![](assets/smart-assignments-summary-panel-nwe-350x332.png)
 
-* 「主」區域中所列項的「分配」欄位
+* 「首頁」區域中列出之專案的「工作總攬」欄位
 
-   ![](assets/smart-assignments-in-home-nwe-350x216.png)
+  ![](assets/smart-assignments-in-home-nwe-350x216.png)
 
 
 <!--removed for scheduling deprecation: 
@@ -67,27 +77,71 @@ ht-degree: 0%
 -->
 * 工作負載平衡器
 
-   ![](assets/smart-assignments-workload-balancer-bulk-assignments.png)
+  ![](assets/smart-assignments-workload-balancer-bulk-assignments.png)
 
 
-## 智慧分配條件
+## 智慧指派條件
 
-智慧型指派會根據專屬演算法顯示前50個建議。
+<!--
+<div class="preview">
 
-根據以下條件的組合（按從最重要到最不重要的順序列出），在智慧分配下拉清單中建議用戶：
+Smart assignments work differently for tasks than for issues.  
 
-* 過去30天內由進行分配的用戶分配給其他工作項的用戶。 接下來會顯示符合此條件的前50位使用者。 最常被指派的使用者會先顯示。
+### Smart assignments criteria for tasks
 
-   如果工作項被分配給團隊或角色，則建議用戶的清單會進一步篩選，同時考慮到下面的現有分配。 在此情況下，建議清單中只會顯示下列使用者：
+Task smart assignments work in two phases:  
 
-   * 其「主團隊」是指派給工作項的團隊的用戶。
-   * 其「主要角色」是指派給工作項的角色的用戶。
+#### First phase of smart assignment calculation criteria for tasks 
 
-      >[!TIP]
-      >
-      >* 若 <!--you're not part of any team and --> 沒有為任務或問題指派任何角色或團隊，Workfront會顯示過去30天（最多50個使用者）指派的所有使用者。
-      >* 如果過去30天內未進行任何分配，則智慧分配清單中只會顯示屬於已分配團隊或已分配給工作項的角色的用戶。
+Workfront calculates a similarity score for every assignment. The calculation for the similarity score and the order in which the assignments are listed take into account the following:  
 
+* A score of 100% is given to an existing assignment where the task, project, and portfolio names are identical to the task you're trying to assign. The project and portfolio names of the task of an existing assignment must also match the project and portfolio of the task you are trying to assign.   
+
+* If only some of this information from other assignments matches on the existing tasks, the score might be lower.  
+
+  For example, if you are assigning a task called "My second task" on a project called "My project" in a portfolio called "My portfolio" and you have an existing task called "My task" in another project called "My project" in a portfolio called "My portfolio", the user assigned to "My task" might get a score of 95% because the name of the existing task and the task you're trying to assign now are similar, but not identical.  
+ 
+    >[!TIP]
+    >
+    >  Workfront looks for matches only in the Name fields of tasks, projects, and portfolios and not in any other fields. 
+
+* An assignment could get a higher score when they are assigned to a lot of tasks in the system that are similar in names. For example, if a team called "Development" is assigned to 50% of the tasks in the system containing "AI" in the name and you are now assigning another task with "AI" in the name, the score of the "Development" team is higher. In this case, the names of  projects and portfolios are not as important.  
+
+* Taking into account this scoring system, the first 7 suggestions are listed as smart assignments, in the descending order of their scores. Assignments with scores lower than 40% do not display.  
+
+* If several assignments have identical scores, they display in descending order of the date on which the assignments were made.  
+For example, if Rick was assigned to a similar task earlier today and Jennifer was assigned to a similar task two days ago, Rick displays first.  
+
+* If there are no matches using this calculation, the second step of smart assignments applies which is calculated using a different algorithm.  
+
+#### Second phase of smart assignment calculation criteria for tasks
+
+If the first step of task smart assignments has found no matches, Workfront calculates smart assignments for tasks in the same way that it calculates them for issues.  
+
+### Smart assignments criteria for tasks and issues 
+
+</div> 
+
+>[!NOTE]
+>
+><span class="preview">The following criteria applies for tasks only when the first phase of the task smart assignment calculation did not find any matches. The following criteria always applies for issues, by default. </span>
+
+-->
+
+根據以下條件的組合，建議在智慧指派下拉式清單中使用者（按照從最重要到最不重要的順序列出）：
+
+1. 由進行指派的使用者在過去30天內指派給其他工作專案的使用者。 符合此條件的前50名使用者隨即顯示。 最常被指派的使用者會先顯示。
+
+2. 如果將工作專案指派給團隊或角色，則會進一步篩選建議的使用者清單，並考量以下現有的指派。 在此情況下，建議清單只會顯示下列使用者：
+
+   * 主團隊是指派給工作專案的團隊的使用者。
+   * 主要角色是指派給工作專案的角色的使用者。
+
+>[!TIP]
+>
+>* 如果任務或問題未指派任何角色或團隊，Workfront會顯示過去30天指派的所有使用者，最多50名使用者。
+>
+>* 如果您在過去30天內未進行任何指派，則只有屬於指派的團隊或擁有指派給工作專案的角色的使用者才會顯示在智慧指派清單中。
 
 <!--the commented out piece in the tip above was live before but I am not totally sure that smart assignments look at your team. I think they look JUST at the team/ role assigned to the work item; see this help site request for more info: https://experience.adobe.com/#/@adobeinternalworkfront/so:hub-Hub/workfront/issue/62fd222200037eb87572c5b6ad6bf53e/overview -->
 <!--

@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7a65d66e-a578-4016-805e-0cb04caaa18a
-source-git-commit: bccd29ce284ca247b51971369102b5992061afb0
+source-git-commit: daba001c28df268721c87df7d2516ffb76e535d9
 workflow-type: tm+mt
 source-wordcount: '391'
 ht-degree: 0%
@@ -24,7 +24,9 @@ role: User, Admin
 hide: yes
 -->
 
-<!--udpate the metadata with real information when making this avilable in TOC and in the left nav-->
+<!--update the metadata with real information when making this avilable in TOC and in the left nav-->
+
+<!-- update the title to "Article index" when we get out of beta and we inhide this article-->
 
 <!--remove the video at open beta or before-->
 

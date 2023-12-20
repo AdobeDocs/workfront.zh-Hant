@@ -6,9 +6,9 @@ description: 建立構成報告或清單的元素時，您可以使用標準或�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 8be8cbd0-da1b-4e90-a52e-dc352f646d18
-source-git-commit: b774a74863bb35e3477a69ff11189c40a6d66437
+source-git-commit: daba001c28df268721c87df7d2516ffb76e535d9
 workflow-type: tm+mt
-source-wordcount: '979'
+source-wordcount: '799'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,11 @@ ht-degree: 0%
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: This will be linked to the Ninja feature about adding a filter to the User typeahead field (which originally is open only for text mode filters). Update the Context Sensitive sheet at release time) </p>
 -->
 
-建立構成報告或清單的元素時，您可以使用標準或文字模式介面，在Adobe Workfront中建立報告或清單。 標準介面可讓您參照在Workfront介面中可立即使用的欄位及其屬性。 使用文字模式，您可以參考在標準模式下可能不可用，但在Workfront資料庫中可用的欄位和屬性。
+建立構成報告或清單的元素時，您可以使用標準或文字模式介面，在Adobe Workfront中建立報告或清單。
+
+標準介面可讓您參照在Workfront介面中可立即使用的欄位及其屬性。
+
+使用文字模式，您可以參考在標準模式下可能不可用，但在Workfront資料庫中可用的欄位和屬性。
 
 如需使用文字模式建立報表的詳細資訊，包括類別、影片和教學課程，請參閱Adobe Experience League網站上的「瞭解」一節。
 
@@ -74,9 +78,6 @@ ht-degree: 0%
 >
 >並非所有透過API可用的欄位都可透過文字模式介面使用。 如果您在文字模式程式碼中使用正確的欄位，但未顯示預期的結果，則欄位可能只能透過API報告。
 
-* [存取報表元素及編輯文字模式](#access-reporting-elements-and-edit-text-mode)
-* [使用文字模式的常見原因](#common-reasons-to-use-text-mode)
-
 ## 存取報表元素及編輯文字模式 {#access-reporting-elements-and-edit-text-mode}
 
 從報表或清單存取檢視、群組和篩選器時，存取文字模式介面的方式會類似。
@@ -95,13 +96,20 @@ ht-degree: 0%
 
 如需有關存取自訂提示的文字模式介面的資訊，請參閱 [新增提示至報表](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md).
 
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">Editing the text mode code inside views, filters, and groupings has some differences outlined below.</p>
--->
+## 使用文字模式的常見原因 {#common-reasons-to-use-text-mode}
+
+除了建立只能使用文字模式設定的自訂提示外，我們建議您使用Report Builder來建置檢視、篩選器和群組。 不過，在某些情況下，您可以使用文字模式來增強報表和清單。
+
+如需文字模式常見用途的詳細資訊，請參閱 [文字模式的常見用途概觀](../../../reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md).
+
 
 <!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: everything below, and the four subsections >>> drafted and created individual articles.)</p>
--->
+  <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Editing the text mode code inside views, filters, and groupings has some differences outlined below.</p>
+  -->
+
+<!--
+  <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: everything below, and the four subsections >>> drafted and created individual articles.)</p>
+  -->
 
 <!--
   <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="#edit-text-mode-in-a-view" class="MCXref xref">Edit text mode in a view</a> </li>
@@ -120,18 +128,18 @@ ht-degree: 0%
   -->
 
 <!--
-<h4 data-mc-conditions="QuicksilverOrClassic.Draft mode" id="edit-text-mode-in-a-view"><strong>Edit text mode in a view</strong> </h4>
--->
+  <h4 data-mc-conditions="QuicksilverOrClassic.Draft mode" id="edit-text-mode-in-a-view"><strong>Edit text mode in a view</strong> </h4>
+  -->
 
 <!--
-<note type="tip">
-We recommend that you build as much of the view as possible in standard mode, then convert it to text mode to edit it.
-</note>
--->
+  <note type="tip">
+  We recommend that you build as much of the view as possible in standard mode, then convert it to text mode to edit it.
+  </note>
+  -->
 
 <!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">To access the text mode interface for a view:</p>
--->
+  <p data-mc-conditions="QuicksilverOrClassic.Draft mode">To access the text mode interface for a view:</p>
+  -->
 
 <!--
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Find the report you want to modify in text mode.</p>
@@ -539,21 +547,21 @@ We recommend that you build as much of the grouping as possible in standard mode
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">The lines of code that refer to the same field selected in the grouping are numbered with the same number, as follows:</p>
    -->
 
-    &lt;!—
-    &lt;li data-mc-conditions=&quot;QuicksilverOrClassic.Draft mode&quot;>報表的第一個群組具有群組編號0。 所有參照第一個群組的行都以group.0開頭。&lt;/code>&lt;/li>
-    —>
-    
-    &lt;!>—
-    &lt;li data-mc-conditions=&quot;QuicksilverOrClassic.Draft mode&quot;>報表的第二個群組具有群組編號1。 所有參照第二個群組的行都以&lt;code>group.1&lt;/code>開頭。&lt;/em>&lt;/li>
-    —>
-    
-    &lt;!>—
-    &lt;li data-mc-conditions=&quot;QuicksilverOrClassic.Draft mode&quot;>報表的第三個分組的群組編號為2。 所有參照第三個群組的行都以&lt;code>group.2&lt;/code>開頭。&lt;/em>&lt;/li>
-    —>
-    
-    &lt;!>—
-    &lt;li data-mc-conditions=&quot;QuicksilverOrClassic.Draft mode&quot;>只有在文字模式中，您才能為第四個群組新增群組編號3。 所有參考第四個群組的行都以&lt;code>group.3&lt;/code>開頭。&lt;/em>&lt;/li>
-    —>
+<!--   
+  <li data-mc-conditions="QuicksilverOrClassic.Draft mode">The first grouping of the report has a group number of 0. All lines referring to the first grouping start with <code>group.0.</code></li>   
+  -->
+
+<!--   
+  <li data-mc-conditions="QuicksilverOrClassic.Draft mode">The second grouping of the report has a group number of 1. All lines referring to the second grouping start with <em><code>group.1</code>.</em></li>   
+  -->
+
+<!--   
+  <li data-mc-conditions="QuicksilverOrClassic.Draft mode">The third grouping of the report has a group number of 2. All lines referring to the third grouping start with <em><code>group.2</code>.</em></li>   
+  -->
+
+<!--   
+  <li data-mc-conditions="QuicksilverOrClassic.Draft mode">Only in text mode, you can add a group number of 3, for a fourth grouping. All lines referring to the fourth grouping start with <em><code>group.3</code>.</em></li>   
+  -->
 
 <!--
    <note type="note">
@@ -585,11 +593,13 @@ We recommend that you build as much of the grouping as possible in standard mode
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: the tips repeat in the Create groupings to organize results article, Common uses of text mode, Edit groupings to organize reports, Create a Custom Report)</p>   
    -->
 
->[!TIP]
->
->當您在檢視清單時手動調整群組，Workfront會記住您的手動偏好設定，直到您登出為止。 當您重新登入時，清單會根據此設定顯示。
->
->從圖表元素存取群組結果後，群組結果一律展開顯示。
+<!--
+   >[!TIP]
+   >
+   >When you manually adjust groupings when viewing a list, Workfront remembers your manual preference until you log out. When you log back in, the list displays according to this setting.
+   >
+   >The results of a grouping always display expanded after accessing them from a chart element.
+   -->
 
 <!--
    <li value="8" data-mc-conditions="QuicksilverOrClassic.Draft mode">Click <strong>Apply</strong> if you want to save your changes and continue editing the report.</li>
@@ -611,8 +621,4 @@ We recommend that you build as much of the grouping as possible in standard mode
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">For more information about creating a custom prompt, see <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md" class="MCXref xref">Add a prompt to a report</a>.</p>
 -->
 
-## 使用文字模式的常見原因 {#common-reasons-to-use-text-mode}
 
-除了建立只能使用文字模式設定的自訂提示外，我們建議您使用Report Builder來建置檢視、篩選器和群組。 不過，在某些情況下，您可以使用文字模式來增強報表和清單。
-
-如需文字模式常見用途的詳細資訊，請參閱 [文字模式的常見用途概觀](../../../reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md).

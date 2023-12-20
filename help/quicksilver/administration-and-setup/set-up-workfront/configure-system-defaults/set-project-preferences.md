@@ -4,13 +4,13 @@ product-area: system-administration;projects
 navigation-topic: configure-system-defaults
 title: 設定全系統專案偏好設定
 description: 作為 [!DNL Adobe Workfront] 管理員，您可以為在整個系統中建立的所有專案設定預設偏好設定。 這些偏好設定會影響專案、任務和問題行為。
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 1a1affed-1b06-442c-98b2-9f360eee767b
-source-git-commit: fb1c7ade6622db391e0dac54f37603efe9dc0a58
+source-git-commit: daba001c28df268721c87df7d2516ffb76e535d9
 workflow-type: tm+mt
-source-wordcount: '2522'
+source-wordcount: '2513'
 ht-degree: 0%
 
 ---
@@ -32,27 +32,30 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 計劃</td> 
+   <td role="rowheader"><p>[!DNL Adobe Workfront] 計劃</p></td> 
    <td>任何</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 授權</td> 
-   <td>[！UICONTROL計畫]</td> 
+   <td><p>新增：[！UICONTROL Standard]</p>
+   或
+   <p>目前： [！UICONTROL計畫]</p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定</td> 
-   <td> <p>您必須是 [!DNL Workfront] 管理員。</p> <p><b>注意</b>：如果您還是沒有存取權，請詢問您的 [!DNL Workfront] 管理員是否對您的存取層級設定其他限制。 如需瞭解如何 [!DNL Workfront] 管理員可以修改您的存取層級，請參閱 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>.</p> </td> 
+   <td> <p>[！UICONTROL系統管理員]</p> <p><b>注意</b>：</p><p>如果您還是沒有存取權，請詢問您的 [!DNL Workfront] 管理員是否對您的存取層級設定其他限制。 如需瞭解如何 [!DNL Workfront] 管理員可以修改您的存取層級，請參閱 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## 設定整個組織的專案偏好設定
 
-1. 按一下 **[!UICONTROL 主要功能表]** 圖示 ![](assets/main-menu-icon.png) 位於的右上角 [!DNL Adobe Workfront]，然後按一下 **[!UICONTROL 設定]** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. 在左側面板中，按一下 **[!UICONTROL 專案偏好設定]** > **[!UICONTROL 專案]**.
 
-1. 在出現的頁面上，繼續下列的4個區段之一，以設定偏好設定 [!UICONTROL 專案狀態]， [!UICONTROL 時間表]， [!UICONTROL 業務案例]、和 [!UICONTROL 死亡後期限].
+1. 在 **專案偏好設定** 頁面，繼續下列四個區段之一，以設定偏好設定 [!UICONTROL 專案狀態]， [!UICONTROL 時間表]， [!UICONTROL 業務案例]、和 [!UICONTROL 死亡後期限].
 1. 如果您希望整個組織中的所有群組都使用相同的專案偏好設定，請確定每個偏好設定都已鎖定 ![](assets/lock-toggle-button.png) （這是預設值）。
 
    >[!IMPORTANT]
@@ -89,7 +92,7 @@ ht-degree: 0%
          </ul>
         <p>此偏好設定預設為啟用。 </p> 
         <p><b>附註</b></p>
-        <p> 群組管理員可以變更群組的此偏好設定。 當使用者屬於具有不同偏好設定的多個群組時，如果使用者的主群組啟用了此偏好設定，則允許使用者建立沒有範本的專案。</p> 
+        <p> 群組管理員可以變更群組的此偏好設定。 當使用者屬於具有不同偏好設定的多個群組時，如果使用者的主群組已啟用此偏好設定，則使用者可以建立沒有範本的專案。</p> 
         </td> 
   </tr>
   <tr> 
@@ -112,7 +115,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL根據進度狀態自動設定專案條件]</td> 
-   <td> <p>此偏好設定可讓使用者手動設定專案的[！UICONTROL條件] ([！UICONTROL On Target]、[！UICONTROL At Risk]、[！UICONTROL In Trouble])或具有 [!DNL Workfront] 根據專案在時間表上的進度自動設定[！UICONTROL條件] （進度狀態）。 如需專案條件的詳細資訊，請參閱 <a href="../../../manage-work/projects/manage-projects/project-condition-and-condition-type.md" class="MCXref xref" data-mc-variable-override="">專案狀態與狀態型別概觀</a>.</p> </td> 
+   <td> <p>此偏好設定可讓使用者手動將專案的[！UICONTROL Condition]設定為([！UICONTROL On Target]、[！UICONTROL At Risk]、[！UICONTROL In Trouble])或具有 [!DNL Workfront] 根據專案在時間表上的進度自動設定[！UICONTROL條件] （進度狀態）。 如需專案條件的詳細資訊，請參閱 <a href="../../../manage-work/projects/manage-projects/project-condition-and-condition-type.md" class="MCXref xref" data-mc-variable-override="">專案狀態與狀態型別概觀</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[！UICONTROL自動建立基準線]</p> </td> 
@@ -157,7 +160,7 @@ ht-degree: 0%
    <td role="rowheader">[！UICONTROL使用者休假]</td> 
    <td> <p>決定任務的主要受指派人的休假是否調整專案上該任務的計畫日期。</p> 
     <ul> 
-     <li> <p><strong>[！UICONTROL考量使用者在任務持續期間的休假]</strong>：如果休假發生在任務持續期間，為任務的主要受指派人排定的任何休假都會調整任務的計畫日期。 這是預設設定。 </p> <p>例如，如果限製為[！UICONTROL]的任務排程在6月1日開始並在6月3日完成，而主要受指派人將6月2日標籤為休假，則任務的計畫日期將調整為6月1日至6月4日。</p> <p><b>重要</b>：任務期間在選取此設定時不會變更。 根據任務限制，只有計畫日期會變更。</p> </li> 
+     <li> <p><strong>[！UICONTROL考量使用者在任務持續期間的休假]</strong>：如果休假發生在任務持續期間，為任務的主要受指派人排定的任何休假都會調整任務的計畫日期。 這是預設設定。 </p> <p>例如，如果限製為[！UICONTROL]的任務排程在6月1日開始並在6月3日完成，而主要受指派人將6月2日標籤為休假，則任務的計畫日期將調整為6月1日至6月4日。</p> <p><b>重要</b>：</p> <p>當您選取此設定時，工作的持續時間不會變更。 根據任務限制，只有計畫日期會變更。</p> </li> 
      <li><strong>[！UICONTROL忽略使用者在任務持續期間的休假]</strong>：專案上每個任務的計畫日期仍維持原計畫，即使任務的主要受指派人在其期間有休假。</li> 
     </ul> <p>選取此設定的選項時，請考量下列事項：</p> 
     <ul> 
@@ -172,7 +175,7 @@ ht-degree: 0%
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[！UICONTROL專案時間表將自動重新計算]</p> </td> 
+   <td role="rowheader"> <p>[！UICONTROL專案時間表會自動重新計算]</p> </td> 
    <td> <p>決定重新計算專案的時間表。 如需重新計算專案時間表的相關資訊，請參閱 <a href="../../../manage-work/projects/manage-projects/recalculate-project-timeline.md" class="MCXref xref" data-mc-variable-override="">重新計算專案時間表</a>.</p> <p>預設會啟用下列選項。 您可以選取下列一或多個設定：</p> 
     <ul> 
      <li> <p><strong>[！UICONTROL每晚]</strong>：選取此項以每晚重新計算專案時間表。 您對專案所做的任何可能影響時間表的變更都不會立即顯示。 [!DNL Workfront​​​] 只有在滿足以下兩個條件的專案中，才會在夜間重新計算時間表：</p> <p> 
@@ -185,14 +188,14 @@ ht-degree: 0%
         <li>僅限變更</li>
         <li>僅限自動</li> 
       </ul>       
-    <b>秘訣</b>
+    <b>秘訣：</b>
     <p>此設定不會影響更新型別為「僅限手動」的專案。</p>
     <li> <p><strong>專案範圍變更時</strong>：選取此專案可在專案範圍變更時立即重新計算專案時間表。 如需有關構成專案範圍變更之內容的資訊，請參閱 <a href="../../../manage-work/projects/manage-projects/recalculate-project-timeline.md" class="MCXref xref" data-mc-variable-override="">重新計算專案時間表</a>.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[！UICONTROL將多位使用者指派到一個任務時，請使用]的排程</p> </td> 
-   <td> <p>如果專案未指派排程，或指派給其任務的使用者未指派排程， [!DNL Workfront] 使用系統預設排程來計算任務的時間表。</p> <p>如果您在專案中將多個使用者指派給同一個任務，而且指派給該任務的使用者也指派了時間表，則[！UICONTROL Workfront]會使用以下時間表：</p> 
+   <td> <p>如果專案未指派排程，或指派給其任務的使用者未指派排程， [!DNL Workfront] 使用系統預設排程來計算任務的時間表。</p> <p>如果您將多位使用者指派至專案中的相同任務，且專案已指派排程，且指派至任務的使用者也已指派排程，則[！UICONTROL Workfront]會使用以下排程：</p> 
     <ul> 
      <li><strong>[！UICONTROL主要指派]</strong>： [!DNL Workfront] 使用任務上主要指派的排程來計算時間表。</li> 
      <li><strong>[！UICONTROL專案]</strong>： [!DNL Workfront] 使用專案排程來計算每項工作的時間表。</li> 
@@ -206,11 +209,11 @@ ht-degree: 0%
     </ul> 
     <ul> 
      <li><strong>[！UICONTROL每週一般工作天數]</strong>：為處理專案的使用者設定標準工作週。 預設值為5天。</li> 
-    </ul> <p>這2個選項會將天數轉換為小時，或將周數轉換為天數。</p> <p>例如，如果您有一個任務具有8個計畫時數，而持續時間是根據計畫時數計算的， [!DNL Workfront] 將這些小時轉換為天，以便將「持續時間」顯示為天。</p> <p>從一般[！UICONTROL每週工作天數]欄位， [!DNL Workfront] 會計算系統的全時當量(FTE)值。 這是什麼 [!DNL Workfront] 在計算使用者的分配時使用。</p> <p>當您計畫專案時間表、編列資源預算或針對專案記錄時間時，會使用這些值。 </p> <p>當您在系統中為使用者建立時程表時，不會使用這些時間表，如中所述 <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md" class="MCXref xref" data-mc-variable-override="">[！UICONTROL設定]時程表和小時偏好設定</a>.</p> <p><b>注意</b>： [!DNL Workfront] 管理員無法解鎖[！UICONTROL時間表計算]喜好設定。</p> </td> 
+    </ul> <p>這2個選項會將天數轉換為小時，或將周數轉換為天數。</p> <p>例如，如果您有一個任務具有8個計畫時數，而持續時間是根據計畫時數計算的， [!DNL Workfront] 將這些小時轉換為天，以便將「持續時間」顯示為天。</p> <p>從一般[！UICONTROL每週工作天數]欄位， [!DNL Workfront] 會計算系統的全時當量(FTE)值。 這是什麼 [!DNL Workfront] 在計算使用者的分配時使用。</p> <p>當您計畫專案時間表、編列資源預算或針對專案記錄時間時，會使用這些值。 </p> <p>當您在系統中為使用者建立時程表時，不會使用這些時間表，如中所述 <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md" class="MCXref xref" data-mc-variable-override="">[！UICONTROL設定]時程表和小時偏好設定</a>.</p> <p><b>注意</b>：</p> <p>[!DNL Workfront] 管理員無法解鎖[！UICONTROL時間表計算]喜好設定。</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader"> <p>[！UICONTROL自訂季度]</p> </td> 
-   <td> <p>為將處理專案的使用者設定自訂每年季度。 自訂季度通常是不符合日曆年度中傳統季度劃分的季度。 您可以新增多個自訂季度。 如需詳細資訊，請參閱 <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md" class="MCXref xref" data-mc-variable-override="">啟用專案的自訂季度</a>.</p>  <p><b>注意</b>： [!DNL Workfront] 管理員無法解鎖[！UICONTROL自訂季度]喜好設定。</p> </td> 
+   <td> <p>為將處理專案的使用者設定自訂每年季度。 自訂季度通常是不符合日曆年度中傳統季度劃分的季度。 您可以新增多個自訂季度。 如需詳細資訊，請參閱 <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md" class="MCXref xref" data-mc-variable-override="">啟用專案的自訂季度</a>.</p>  <p><b>注意</b>： </p><p>[!DNL Workfront] 管理員無法解鎖[！UICONTROL自訂季度]喜好設定。</p> </td> 
   </tr> 
  </tbody> 
 </table>

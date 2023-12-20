@@ -8,10 +8,10 @@ author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: 12fa2d34-a7b4-47ba-825c-a00fb5f71efd
-source-git-commit: b08377e539b04e896e84d17f46d2c941b0f66731
+source-git-commit: daba001c28df268721c87df7d2516ffb76e535d9
 workflow-type: tm+mt
-source-wordcount: '60'
-ht-degree: 10%
+source-wordcount: '61'
+ht-degree: 0%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 10%
 本節包含下列文章：
 
 * [建立問題](../../../manage-work/issues/manage-issues/create-issues.md)
-* [修改問題指派總覽](../../../manage-work/issues/manage-issues/modify-issue-assignments-overview.md)
+* [修改問題指派的概觀](../../../manage-work/issues/manage-issues/modify-issue-assignments-overview.md)
 * [指派問題](../../../manage-work/issues/manage-issues/assign-issues.md)
 * [檢視問題](../../../manage-work/issues/manage-issues/view-issues.md)
 * [編輯問題](../../../manage-work/issues/manage-issues/edit-issues.md)

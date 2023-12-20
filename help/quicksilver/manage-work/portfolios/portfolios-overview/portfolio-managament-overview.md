@@ -6,9 +6,9 @@ description: Portfolio或專案Portfolio管理(PPM)是排定專案清單優先�
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 26fb28ce-0957-4db6-a275-174b1d149180
-source-git-commit: fb1c7ade6622db391e0dac54f37603efe9dc0a58
+source-git-commit: daba001c28df268721c87df7d2516ffb76e535d9
 workflow-type: tm+mt
-source-wordcount: '619'
+source-wordcount: '621'
 ht-degree: 1%
 
 ---
@@ -55,7 +55,7 @@ Portfolio或專案Portfolio管理(PPM)是排定專案清單優先順序並加以
 
 ### 專案評論 {#project-review}
 
-提交專案請求後，Portfolio經理或執行團隊會進行稽核，並決定是否核准請求。 如果它們獲得核准，則會被選為公司專案Portfolio。
+提交專案請求後，Portfolio經理或執行團隊會進行稽核，並決定是否核准專案。 如果他們核准了專案，則會為公司專案Portfolio選擇專案。
 
 如需投資組合的詳細資訊，請參閱 [中的Portfolio概觀 [!DNL Adobe Workfront]](../../../manage-work/portfolios/portfolios-overview/portfolio-overview.md)如需核准業務案例的詳細資訊，請參閱 [核准業務案例](../../../manage-work/projects/define-a-business-case/approve-business-case.md).
 
@@ -75,7 +75,7 @@ Portfolio或專案Portfolio管理(PPM)是排定專案清單優先順序並加以
 
 ### 專案執行 {#project-execution}
 
-在收到「Portfolio管理員」的專案核准及從「資源管理員」驗證資源後，您可以「專案所有者」將專案置於 [!UICONTROL 目前] 您的使用者可以開始工作以完成專案。 建議在此階段中擷取專案的基準線，以擁有專案的原始狀態參考點。
+在收到「Portfolio管理員」的專案核准及從「資源管理員」驗證資源後，您可以「專案所有者」將專案置於 [!UICONTROL 目前] 您的使用者可以開始工作以完成專案。 我們建議您在此階段中擷取專案的基準線，讓專案在原始狀態下有一個參考點。
 
 有關管理中專案的詳細資訊 [!DNL Workfront]，請參閱 [管理專案：文章索引](../../../manage-work/projects/manage-projects/manage-projects-overview.md).\
 如需有關在專案上建立基準的詳細資訊，請參閱 [建立專案基準線](../../../manage-work/projects/create-projects/create-baselines.md).

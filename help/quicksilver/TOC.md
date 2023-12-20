@@ -3,9 +3,9 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文件、教學課程和其他資源，了解如何在您的組織中實施並有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: c49b545938a78716084296ef1b4e7c0fc075ef95
+source-git-commit: 2d58b1938dbce4a8425236f0f690e1697d8340c1
 workflow-type: tm+mt
-source-wordcount: '13834'
+source-wordcount: '13835'
 ht-degree: 1%
 
 ---
@@ -1381,7 +1381,7 @@ ht-degree: 1%
          * [複製問題](manage-work/issues/manage-issues/copy-issues.md)
          * [移動問題](manage-work/issues/manage-issues/move-issues.md)
          * [刪除問題](manage-work/issues/manage-issues/delete-issues.md)
-         * [修改問題指派總覽](manage-work/issues/manage-issues/modify-issue-assignments-overview.md)
+         * [修改問題指派的概觀](manage-work/issues/manage-issues/modify-issue-assignments-overview.md)
          * [修改清單中多個問題的使用者指派](manage-work/issues/manage-issues/edit-assignments-for-multiple-issues.md)
          * [自動將問題狀態從等待回饋更新為進行中](manage-work/issues/manage-issues/turn-issue-status-from-awf-to-inp-automatically.md)
    * 甘特圖 {#the-gantt-chart}

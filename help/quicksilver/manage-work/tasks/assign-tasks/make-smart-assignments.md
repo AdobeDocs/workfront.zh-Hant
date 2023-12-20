@@ -1,25 +1,31 @@
 ---
 product-area: projects;user-management
 navigation-topic: assign-tasks
-title: 進行智慧分配
-description: 您可以使用智慧指派來識別最適合使用者的工作完成者。 智慧分配是當您根據演算法將工作項目指派給資源（此演算法可決定該工作最合適的資源）時，Adobe Workfront會為您呈現的使用者建議。 有關智慧分配的資訊，請參閱智慧分配概覽。
+title: 進行智慧型指派
+description: 您可以使用智慧指派來識別最佳使用者是何人來完成工作。 智慧型指派是根據決定最適合工作資源的演演算法，將工作專案指派給資源時，Adobe Workfront會提供給您的使用者建議。 如需智慧指派的相關資訊，請參閱智慧指派概述。
 author: Alina
 feature: Work Management
 exl-id: 073a3234-3156-4b4f-a3e1-dbb32d61068a
-source-git-commit: 420ba180dd0bfd53514c58f77ca9897ba9797320
+source-git-commit: daba001c28df268721c87df7d2516ffb76e535d9
 workflow-type: tm+mt
-source-wordcount: '459'
+source-wordcount: '470'
 ht-degree: 0%
 
 ---
 
-# 進行智慧分配
+# 進行智慧型指派
 
-您可以使用智慧指派來識別最適合使用者的工作完成者。 智慧分配是當您根據演算法將工作項目指派給資源（此演算法可決定該工作最合適的資源）時，Adobe Workfront會為您呈現的使用者建議。 有關智慧分配的資訊，請參閱 [智慧分配概述](../../../manage-work/tasks/assign-tasks/smart-assignments.md).
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers.</span>   
+  
+<span class="preview">For information about the current release schedule, see [First Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).</span> 
+-->
+
+您可以使用智慧指派來識別最佳使用者是何人來完成工作。 智慧型指派是根據決定最適合工作資源的演演算法，將工作專案指派給資源時，Adobe Workfront會提供給您的使用者建議。 如需智慧指派的相關資訊，請參閱 [智慧指派總覽](../../../manage-work/tasks/assign-tasks/smart-assignments.md).
 
 ## 存取需求
 
-您必須具備下列存取權，才能執行本文中的步驟：
+您必須具有下列存取權才能執行本文中的步驟：
 
 <table style="table-layout:auto"> 
  <col> 
@@ -31,51 +37,61 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront授權*</td> 
-   <td> <p>工作或更高</p> </td> 
+   <td> <p>新增：標準</p>
+      或
+      <p>目前：工作或以上</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">訪問級別配置*</td> 
-   <td> <p>編輯對任務和問題的訪問</p> <p>檢視或更高權限存取專案</p> <p><b>附註</b>
+   <td role="rowheader">存取層級設定*</td> 
+   <td> <p>編輯任務和問題的存取權</p> <p>檢視或更高專案存取權</p> <p><b>附註</b>
 
-如果您仍無權存取，請洽詢您的Workfront管理員，他們是否在您的存取層級設定其他限制。 如需Workfront管理員如何修改您的存取層級的詳細資訊，請參閱 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>.</p> </td>
+如果您還是沒有存取權，請詢問您的Workfront管理員，他們是否在您的存取層級中設定其他限制。 如需有關Workfront管理員如何修改您的存取層級的資訊，請參閱 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>.</p> </td>
 </tr> 
   <tr> 
-   <td role="rowheader">物件權限</td> 
-   <td> <p>貢獻或更高權限，並能夠指派工作和問題</p> <p>有關請求其他訪問的資訊，請參閱 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">請求對對象的訪問 </a>.</p> </td> 
+   <td role="rowheader">物件許可權</td> 
+   <td> <p>分配或更高的許可權，能夠進行任務和問題的指派</p> <p>如需請求其他存取許可權的詳細資訊，請參閱 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">要求物件的存取權 </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;若要了解您擁有的計畫、授權類型或存取權，請聯絡您的Workfront管理員。
+&#42;若要瞭解您擁有的計畫、授權型別或存取權，請聯絡您的Workfront管理員。
 
-## 進行智慧分配
+## 進行智慧型指派
 
-在您可以在Workfront中進行指派的大部分位置中，都提供智慧指派。
+智慧指派適用於大部分可在Workfront中進行指派的位置。
 
-1. 前往下列區域，按一下 **分配** 或 **將此項指派給** 欄位：   
+1. 前往下列區域，然後按一下 **指定任務** 或 **將此指派至** 欄位：   
 
-   * 任務或問題清單或報告
+   * 任務、問題清單或報告
    * 任務或問題標題
    * 任務或問題摘要面板
-   * 「主」區域中所列項的「分配」欄位
-   * 「計畫」或「計畫」區域中的任務或問題
+   * 「首頁」區域中列出之專案的「工作總攬」欄位
+   * 「排程」或「排程」區域中的任務或問題
    * 工作負載平衡器中的任務或問題
 
-1. 將游標置於分配欄位中，然後等待兩秒。 ******建議的分配** 清單。
+1. 將游標置於指派欄位中，並等候兩秒。 此 **建議的指派** 或 **以下是一些建議** 清單隨即顯示。
+
+   <!--check the casing for "assignments" should be lower case in task lists??-->
+
+   <!--replace the last sentence above with this when we release smarter assignments:
+   The **Suggested assignments** list displays. 
+   NOTE (********and add preview tags for the note*****)
+   The list header displays **Here are a few recommendations** instead of **Suggested assignments** in an issue list.
+   -->
 
    ![](assets/smart-assignments-task-header-nwe-350x302.png)
 
-   此清單中顯示的用戶是任務或問題的智慧分配建議。
+   此清單中顯示的使用者是任務或問題的智慧指派建議。
 
-   有關智慧分配顯示位置的詳細資訊，請參閱文章中的「查找智慧分配建議」部分 [智慧分配概述](../../../manage-work/tasks/assign-tasks/smart-assignments.md) .
+   如需智慧指派顯示位置的詳細資訊，請參閱文章中的「尋找智慧指派建議」一節 [智慧指派總覽](../../../manage-work/tasks/assign-tasks/smart-assignments.md) .
 
-1. 按一下使用者的名稱，以在建議清單中選取使用者。 按一下 **指派給我** 將工作項指派給自己。
+1. 按一下使用者名稱，在建議清單中選取使用者。 按一下 **指派給我** 指派工作專案給您自己。
 
    >[!TIP]
    >
-   >如果沒有建議，則不會開啟建議清單。
+   >如果沒有建議，建議清單不會開啟。
 
-1. （可選）如果您不想使用智慧分配清單中的建議用戶之一，請開始鍵入所需用戶的名稱，並在清單中出現時選擇名稱。
-1. 按一下 **輸入** 來完成任務。
+1. （選擇性）如果您不想使用智慧指派清單中的其中一個建議使用者，請開始輸入所需使用者的名稱，並在該名稱出現在清單中時選取名稱。
+1. 按一下 **輸入** 進行指派。
 
-   所選用戶被分配給任務或問題。
+   所選的使用者已指派給任務或問題。
