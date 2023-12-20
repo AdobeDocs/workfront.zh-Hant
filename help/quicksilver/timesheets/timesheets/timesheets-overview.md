@@ -7,9 +7,9 @@ description: 您可以使用時程表來追蹤Adobe Workfront內外您花在工�
 author: Alina
 feature: Timesheets
 exl-id: 2174a879-4a19-4a0f-803a-f19a8909f227
-source-git-commit: 6d2494f1ccb2f9b222a953ed8bae922bd0f26389
+source-git-commit: c49b545938a78716084296ef1b4e7c0fc075ef95
 workflow-type: tm+mt
-source-wordcount: '498'
+source-wordcount: '497'
 ht-degree: 0%
 
 ---
@@ -51,7 +51,7 @@ ht-degree: 0%
 
 {{step1-to-timesheets}}
 
-您的所有時程表以及您預設有權顯示的時程表。 如需Adobe Workfront中時程表配置的相關資訊，請參閱 [瞭解時程表配置](../../timesheets/timesheets/timesheet-layout.md).
+您的所有時程表以及您預設有權顯示的時程表。 如需Adobe Workfront中時程表配置的相關資訊，請參閱 [時程表配置總覽](../../timesheets/timesheets/timesheet-layout.md).
 
 ![](assets/all-timesheets-list-nwe-350x68.png)
 

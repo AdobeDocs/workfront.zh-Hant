@@ -1,23 +1,25 @@
 ---
 product-area: projects
 navigation-topic: create-projects
-title: 建立專案基線
-description: 基線是項目快照，表示初始項目計畫中包含的關鍵資訊，或在項目生命期內的任何給定時間。
+title: 建立專案基準線
+description: 基準線是專案快照，代表初始專案計畫或專案生命週期中任何指定時間包含的關鍵資訊。
 author: Alina
 feature: Work Management
 exl-id: 422bd7a5-d7a0-4c24-8624-bd0fe6e79d7b
-source-git-commit: bbd64e9deed1b89d720272508b3562c354578704
+source-git-commit: c49b545938a78716084296ef1b4e7c0fc075ef95
 workflow-type: tm+mt
-source-wordcount: '810'
+source-wordcount: '832'
 ht-degree: 0%
 
 ---
 
-# 建立專案基線
+# 建立專案基準線
 
-基線是項目快照，表示初始項目計畫中包含的關鍵資訊，或在項目生命期內的任何給定時間。
+<!-- Audited: 12/2023 -->
 
-您可以使用基線來比較從當前計畫到原始計畫或任何其他時間點的這些資訊，以確定問題任務、範圍蠕變和隨時間變化的其他趨勢。
+基準線是專案快照，代表初始專案計畫或專案生命週期中任何指定時間包含的關鍵資訊。
+
+您可以使用基準線來比較目前計畫與原始計畫或任何其他時間點的那些資訊片段，以識別問題作業、範圍潛移和其他隨時間變化的趨勢。
 
 ## 存取需求
 
@@ -53,7 +55,7 @@ drafted for P&P:
 </table>
 -->
 
-您必須具備下列存取權，才能執行本文中的步驟：
+您必須具有下列存取權才能執行本文中的步驟：
 
 <table style="table-layout:auto"> 
  <col> 
@@ -65,89 +67,91 @@ drafted for P&P:
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront授權*</td> 
-   <td> <p>計劃 </p> </td> 
+    <td><p>新增：標準</p>
+        <p>或</p>
+        <p>目前：計畫 </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">存取層級*</td> 
    <td> <p>編輯專案的存取權</p> <p><b>注意</b>
-   如果您仍無權存取，請洽詢您的Workfront管理員，他們是否在您的存取層級設定其他限制。 如需存取專案的相關資訊，請參閱 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md" class="MCXref xref">授予專案的存取權</a>. 如需Workfront管理員如何變更您的存取層級的詳細資訊，請參閱 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>. </p> </td> 
+   如果您還是沒有存取權，請詢問您的Workfront管理員，他們是否在您的存取層級中設定其他限制。 如需有關存取專案的資訊，請參閱 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md" class="MCXref xref">授予專案存取權</a>. 如需有關Workfront管理員如何變更您的存取層級的資訊，請參閱 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>. </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">物件權限</td> 
-   <td> <p>檢視專案或以上版本的權限以檢視基線</p> <p>管理專案的權限以建立基線</p> <p> 如需專案權限的相關資訊，請參閱 <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md" class="MCXref xref">在Adobe Workfront中共用專案</a>.</p> <p>有關請求其他訪問的資訊，請參閱 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">請求對對象的訪問 </a>.</p> </td> 
+   <td role="rowheader">物件許可權</td> 
+   <td> <p>檢視專案或以上版本的許可權以檢視基準線</p> <p>管理專案的許可權以建立基準線</p> <p> 如需有關專案許可權的資訊，請參閱 <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md" class="MCXref xref">在Adobe Workfront中共用專案</a>.</p> <p>如需請求其他存取許可權的詳細資訊，請參閱 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">要求物件的存取權</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;若要了解您擁有的計畫、授權類型或存取權，請聯絡您的Workfront管理員。
+&#42;若要瞭解您擁有的計畫、授權型別或存取權，請聯絡您的Workfront管理員。
 
-## 使用基線的考量事項
+## 使用基準線的注意事項
 
-* 您可以在項目的生命週期內多次捕獲項目進度的快照，從而建立多個基線。
-* 您可以建立基線或建立基線報表，以檢視包含在專案基線中的資訊。
-* 建立基線時，也會根據該基線的基線任務捕獲任務資訊。
-* 通過構建「基線任務」報告，可以查看基線任務的資訊。
+* 您可以在專案存留期內多次擷取專案進度快照，建立多個基準線。
+* 您可以透過建立基準線或建立「基準線」報表，來檢視專案基準線中包含的資訊。
+* 當您建立基準線時，也會擷取該基準線之基準線工作上的工作資訊。
+* 您可以建立「基準線作業」報表，以檢視基準線作業的資訊。
 
 >[!IMPORTANT]
 >
->基線會拍攝項目名稱、日期和財務資訊的快照。 基線不包含專案上自訂欄位的值。 有關基線中包括的財務資訊的資訊，請參見 [項目基線中包含的項目財務](../../../manage-work/projects/project-finances/project-finances-included-in-project-baselines.md).
+>基準線會擷取專案名稱、日期和財務資訊的快照。 基準線不包含專案上自訂欄位的值。 如需基準線中包含的財務資訊，請參閱 [專案基準線中包含的專案財務](../../../manage-work/projects/project-finances/project-finances-included-in-project-baselines.md).
 
-## 建立基線
+## 建立基準線
 
-可以通過以下方式建立基線：
+您可以使用下列方式建立基準線：
 
-* **自動**:您的Workfront管理員或群組管理員會設定Workfront的專案偏好設定，以在專案變成「目前」時自動建立基線。 啟用此設定時，當項目狀態變為「當前」時，將建立基線。 未啟用此設定時，您必須手動建立基線。
+* **自動**：您的Workfront管理員或群組管理員會設定Workfront的專案偏好設定，以在專案變為「目前」時自動建立基準。 啟用此設定時，會在專案狀態變成「目前」時建立基準線。 未啟用此設定時，您必須手動建立基準線。
 
-   有關配置項目首選項和設定自動基線建立的詳細資訊，請參閱 [配置系統範圍的項目首選項](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+  如需有關設定專案偏好設定和設定自動建立基準線的詳細資訊，請參閱 [設定全系統專案偏好設定](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
-   >[!CAUTION]
-   >
-   >啟用此設定會在每次項目狀態更改為「當前」時自動為項目建立基線。 第一個建立的基線是預設的基線。 在項目生效期間，必須手動建立所有其他基線。
+  >[!CAUTION]
+  >
+  >啟用此設定會在每次專案狀態變更為目前時，自動建立專案的基準線。 第一個建立的基準線是預設基準線。 在專案存留期內，您必須手動建立所有其他基準線。
 
-* **手動**:您可以視需要隨著專案進行，為專案建立新基線。 然後，您可以比較基線，以查看專案在一段時間內的進展情形。
+* **手動**：您可以在專案進行時，視需要為專案建立新的基準線。 然後您可以比較基準線，以檢視專案在一段時間內的進度。
 
-要建立基線：
+若要建立基準線：
 
 1. 導覽至專案。
-1. 在左側面板中，按一下 **基線**.
+1. 在左側面板中，按一下 **基準線**.
 
    或
 
-   按一下 **顯示更多**，然後按一下 **基線**.
+   按一下 **顯示更多**，然後按一下 **基準線**.
 
-   ![](assets/nwe-baselines-section-on-project-with-header-350x78.png)
+   ![專案的「基準線」區段](assets/baselines-section-on-project-with-header.png)
 
-1. 按一下 **新基線。**
-1. 指定基線的名稱。
-1. （可選）如果這是第一個基線，則可選擇它作為預設基線。
-1. 按一下&#x200B;**儲存**。
+1. 按一下 **新增基準線。**
+1. 指定基準線的名稱。
+1. （選擇性）如果這是第一個基準線，您可以選取它作為預設值。
+1. 按一下「**儲存**」。
 
-   依預設，會顯示您建立之基線的下列資訊：
+   依預設，會顯示下列有關您建立之基準線的資訊：
 
-   * 基線名稱
-   * 基準錄入日期
-   * 計畫起始日期建立基準時的項目起始日期
-   * 預計起始日期建立基準時的項目日期
-   * 建立基線時的項目實際持續時間
-   * 建立基線時項目完成%
-   * 顯示基線是否為項目的預設基線的預設基線指標
+   * 基準線名稱
+   * 基準線輸入日期
+   * 建立基準時的專案計劃開始日期
+   * 建立基準時的專案預計開始日期
+   * 建立基準時的專案實際期間
+   * 建立基準線時專案的完成百分比
+   * 顯示基準是否為專案之「預設」基準的預設基準指標
 
-      >[!TIP]
-      >
-      >不能在同一個視圖或報告中同時查看任何兩個基線的資訊。 您只能在同一報告中查看給定基線和預設基線的資訊。 在項目生命期內，可以隨時修改您認為是預設基線的基線。
+     >[!TIP]
+     >
+     >您無法在同一檢視或報表中同時檢視任何兩個基準的資訊。 您只能在同一個報表中檢視指定基準線與「預設」基準線的資訊。 您可以在專案存留期內隨時修改您認為是「預設」基準線的基準。
 
-1. （選用）按一下「檢視」旁的下拉式箭頭，然後 **自訂檢視** 將欄位新增至檢視，並比較基線之間的其他資訊。
+1. （可選）按一下 **檢視** 按鈕，然後建立新檢視或編輯目前檢視，將欄位新增至檢視並比較基準之間的額外資訊。 如需詳細資訊，請參閱 [在Adobe Workfront中建立或編輯檢視](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md).
 
-## 建立基線或基線任務報告
+## 建立基準或基準任務報告
 
-要查看基線資訊，還可以建立基線或基線任務報告。 這可讓您顯示任何數量的基線或基線任務相關欄位，以便在一個檢視中比較這些欄位。
+若要檢視基準資訊，您也可以建立「基準線」或「基準線工作」報告。 這可讓您在一個檢視中顯示任何數目的基準線或基準線工作的相關欄位，以比較它們。
 
 >[!TIP]
 >
->必須先建立基線，然後才能建立基線或基線任務報告。
+>您必須先建立基準線，才能建立「基準線」或「基準線工作」報表。
 
 如需建立報表的相關資訊，請參閱 [建立自訂報表](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
-建議您將「專案名稱」分組新增至「基線」或「基線」報表，以方便閱讀。
+我們建議您將「專案名稱」分組新增至「基準線」或「基準線任務」報告，以便於閱讀。
 
-如需建立分組的相關資訊，請參閱 [在Adobe Workfront中建立群組](../../../reports-and-dashboards/reports/reporting-elements/create-groupings.md).
+如需建立群組的詳細資訊，請參閱 [在Adobe Workfront中建立群組](../../../reports-and-dashboards/reports/reporting-elements/create-groupings.md).

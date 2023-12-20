@@ -3,30 +3,30 @@ content-type: overview
 product-area: reporting
 navigation-topic: calculate-custom-data-reports
 title: 計算自訂欄位與計算欄的比較
-description: 瞭解報告和儀表板中的自訂資料
+description: 若要彙總Adobe Workfront中的多個欄位並在新欄位中顯示彙總值，您可以在自訂表單中建立計算自訂欄位，或在檢視中建立計算欄。
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 17ac554d-0c90-4592-946e-a89f1784571d
-source-git-commit: dad054fe52bd7c5ca97144567c80e6d340541a50
+source-git-commit: c49b545938a78716084296ef1b4e7c0fc075ef95
 workflow-type: tm+mt
-source-wordcount: '802'
+source-wordcount: '829'
 ht-degree: 0%
 
 ---
 
 # 計算自訂欄位與計算欄的比較
 
-若要在Adobe Workfront中彙總數個欄位，並在新欄位中顯示該彙總值，您可以執行以下操作：
+若要在Adobe Workfront中彙總數個欄位，並在新欄位中顯示該彙總值，您可以建立下列專案：
 
 * 自訂表單中的計算自訂欄位\
-  如需將計算自訂欄位新增至自訂表單的詳細資訊，請參閱區段 [新增計算欄位至自訂表單](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md#creating-calculated-custom-fields) 在文章中 [新增計算資料至自訂表單](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
+  如需將計算自訂欄位新增至自訂表單的詳細資訊，請參閱區段 [新增計算欄位至自訂表單](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md#add-a-calculated-field-to-a-custom-form) 在文章中 [新增計算資料至自訂表單](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
 
 * 檢視中的計算欄\
-  如需在檢視中使用計算的詳細資訊，請參閱區段 [在檢視中使用文字模式](../../../reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md#using-text-mode-in-views) 在文章中 [文字模式的常見用途概觀](../../../reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md).
+  如需在檢視中使用計算的詳細資訊，請參閱區段 [在檢視中使用文字模式](../../../reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md#use-text-mode-in-views) 在文章中 [文字模式的常見用途概觀](../../../reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md).
 
-雖然您使用文字模式來建立計算欄位和計算欄，但建立它們的語法不同。 請參閱上方列出的文章，以瞭解如何建立計算欄位和計算欄。 如需有關計算資料運算式（例如計算自訂欄位和欄）中所使用不同語法的資訊，請參閱區段 [計算自訂欄位與計算自訂欄的語法](#syntax-of-calculated-custom-fields-vs-calculated-custom-columns-syntax) 本文章內容。
+雖然您使用文字模式來建立計算欄位和計算欄，但建立它們的語法不同。 請參閱上方列出的文章，以瞭解如何建立計算欄位和計算欄。 如需有關計算資料運算式（例如計算自訂欄位和欄）中所使用不同語法的資訊，請參閱區段 [計算自訂欄位與計算自訂欄的語法](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-custom-fields-calculated-columns.md#syntax-of-calculated-custom-fields-vs-calculated-custom-columns) 本文章內容。
 
-您可以在計算欄位和計算欄中使用相同的計算。 不過，視您用於這些計算的目的而定，您可能會想要考慮建立一種而非另一種模型。
+您可以在計算欄位和計算欄中使用相同的計算。 不過，視您用於這些計算的目的而定，您可能會想要考慮建立其中一個。
 
 ## 計算自訂欄位與計算自訂欄的語法
 
@@ -36,25 +36,19 @@ ht-degree: 0%
 
 * 在自訂欄位中，在任務的自訂表單上，您可以使用以下專案產生附加自訂表單之任務的父專案名稱：
 
-  ```
-  {project}.{name}
-  ```
+  `{project}.{name}`
 
 * 在報表的自訂欄中，您會使用下列專案，在任務報表中新增「專案名稱」自訂欄：
 
-  ```
-  valuefield=project:name
-  ```
+  `valuefield=project:name`
 
   或
 
-  ```
-  valueexpression={project}.{name}
-  ```
+  `valueexpression={project}.{name}`
 
   >[!TIP]
   >
-  >相同的語法適用於所有使用計算運算式的文字模式報表元素：檢視、篩選器、群組、提示。
+  >相同的語法會套用至使用計算運算式的所有文字模式報表元素：檢視、篩選器、群組和提示。
 
 兩種語法之間的差異為：
 
@@ -63,8 +57,8 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td>計算的自訂欄位</td> 
-   <td>已計算的自訂報表元素</td> 
+   <td><strong>計算的自訂欄位</strong></td>
+   <td><strong>已計算的自訂報表元素</strong></td> 
   </tr> 
   <tr> 
    <td> <p>使用在Workfront介面中顯示的欄位名稱。</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>範例： </b></span></span>計算自訂欄位中使用的欄位名稱範例： <code>Planned Completion Date</code>.</p> </td> 
@@ -76,7 +70,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td>依句點分隔欄位</td> 
-   <td> <p>在中使用欄位時，請以冒號分隔欄位 <code>valuefield </code>折線圖</p> <p>在中使用欄位時，請依句號區隔欄位 <code>valueexpression </code>行。 </p> </td> 
+   <td> <p>在中使用欄位時，請以冒號分隔欄位 <code>valuefield</code>行。</p> <p>在中使用欄位時，請依句號區隔欄位 <code>valueexpression</code>行。</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -114,7 +108,7 @@ ht-degree: 0%
 
 如需計算自訂欄位的範例，請參閱 [報表中計算的自訂資料](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-custom-data-reports.md).
 
-如需檢視中計算自訂欄的範例，請參閱下列文章：
+如需檢視中計算的自訂欄的範例，請參閱下列文章：
 
 * [文字模式的常見用途概觀](../../../reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md)
 * [自訂檢視、篩選和分組範例：文章索引](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md)
