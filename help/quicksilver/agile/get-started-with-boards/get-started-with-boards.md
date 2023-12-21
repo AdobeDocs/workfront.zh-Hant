@@ -7,14 +7,16 @@ author: Lisa
 feature: Agile
 recommendations: noDisplay, noCatalog
 exl-id: f9b8b721-d4ba-4ed5-b7a4-ad3610cbc18e
-source-git-commit: e2db904bc5b4e3682421677b30b0187a6fff46d9
+source-git-commit: d98bb6b6bb8ff3bff6f367f1376948d5104887e5
 workflow-type: tm+mt
 source-wordcount: '123'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
 # 開始使用面板：文章索引
+
+<!-- Audited: 12/2023 -->
 
 本節包含下列文章：
 
@@ -24,7 +26,7 @@ ht-degree: 0%
 * [建立或編輯展示板](../../agile/get-started-with-boards/create-edit-board.md)
 * [刪除或封存展示板](/help/quicksilver/agile/get-started-with-boards/delete-archive-board.md)
 * [從展示板新增或移除成員](../../agile/get-started-with-boards/add-members-to-board.md)
-* [管理展示板欄](../../agile/get-started-with-boards/manage-board-columns.md)
+* [管理展示板的欄](../../agile/get-started-with-boards/manage-board-columns.md)
 * [新增臨機卡到展示板](../../agile/get-started-with-boards/add-card-to-board.md)
 * [在展示板上使用連線的卡片](/help/quicksilver/agile/get-started-with-boards/connected-cards.md)
 * [將現有任務或問題新增到展示板](/help/quicksilver/agile/get-started-with-boards/add-card-from-list-to-board.md)

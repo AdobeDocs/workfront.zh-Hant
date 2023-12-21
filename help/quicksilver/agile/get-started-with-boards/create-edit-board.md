@@ -6,14 +6,16 @@ description: 從 [!UICONTROL 展示板] 圖示板，您可以建立新電路板�
 author: Lisa
 feature: Agile
 exl-id: 5f755177-c8ea-4509-a34f-57ffcfd8ba7f
-source-git-commit: 4e5bff5ad62dce8766072e04e3a2b89371a90f03
+source-git-commit: 03abff907016809addbbf8f50eb2e6e012e6fed3
 workflow-type: tm+mt
-source-wordcount: '692'
-ht-degree: 3%
+source-wordcount: '683'
+ht-degree: 1%
 
 ---
 
 # 建立或編輯展示板
+
+<!-- Audited: 12/2023 -->
 
 從 [!UICONTROL 展示板] 圖示板，您可以建立新電路板或編輯現有電路板。
 
@@ -26,8 +28,15 @@ ht-degree: 3%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] 計劃*</strong></td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] 計畫*</strong></td> 
    <td> <p>任何</p> </td> 
+  </tr> 
+    <tr> 
+   <td role="rowheader">Adobe Workfront授權*</td> 
+   <td> <p>新增：投稿人或更高版本 </p>
+ <p>或</p> 
+<p>目前： [！UICONTROL Request]或以上 </p> 
+</td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] 授權*</strong></td> 
@@ -40,7 +49,7 @@ ht-degree: 3%
 
 ## 建立新展示板
 
-1. 按一下 **[!UICONTROL 主要功能表]** 圖示 ![](assets/main-menu-icon.png) 位於的右上角 [!DNL Adobe Workfront]，然後按一下 **[!UICONTROL 展示板]**.
+{{step1-to-boards}}
 1. 按一下 **[!UICONTROL 新增展示板]**.
 
 1. 選取展示板的範本。
@@ -49,7 +58,7 @@ ht-degree: 3%
    |---------|----------|
    | 基本展示板 | 展示板上提供三個預設欄。 您可以新增欄，以及重新命名或刪除預設欄。 <p>展示板上提供三個預設欄。 您可以新增欄，以及重新命名或刪除預設欄。 |
    | Kanban 展示板 | 展示板上提供下列欄：「待處理專案」、「新增」、「進行中」、「完成」和「保留」。 您可以新增欄，以及重新命名或刪除預設欄。<p>若要使用待處理專案，您必須為輸入欄設定篩選器。 如需詳細資訊，請參閱 [將輸入欄新增到展示板](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md). <p>若要複查每一欄的預設原則，請按一下 [!UICONTROL **更多** 功能表] 在欄上並選取 [!UICONTROL **編輯**]. 您可以變更這些預先設定原則中的任何一項。 如需詳細資訊，請參閱 [管理展示板欄](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md). |
-   | 追溯展示板 | 展示板上提供下列欄：哪些方面進展順利？ 有哪些可以改進的地方? 我們應該為誰慶祝? 我們可以做些什麼來加快進度? 您可以新增欄，以及重新命名或刪除預設欄。 <p>不會套用任何欄原則。 |
+   | 追溯展示板 | 展示板上提供下列欄：哪些方面進展順利？ 有哪些可改善？ 我們應該為誰慶祝？ 我們可以做些什麼來加快進度？ 您可以新增欄，以及重新命名或刪除預設欄。 <p>不會套用任何欄原則。 |
    | 動態展示板 | 展示板上提供下列欄：「未選取」、「新增」、「進行中」、「保留」和「完成」。 您可以新增欄，以及重新命名或刪除預設欄。 (未選取欄可以重新命名，但不能刪除。 此欄會保留狀態不符合任何其他欄狀態的所有卡片。) <p>預設欄原則會根據欄的狀態為欄指派卡片。 如需詳細資訊，請參閱 [管理展示板欄](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md). |
 
 1. 僅適用於動態主機板，請遵循設定精靈步驟：
@@ -86,7 +95,7 @@ ht-degree: 3%
 
 ## 編輯現有展示板
 
-1. 按一下 **[!UICONTROL 主要功能表]** 圖示 ![](assets/main-menu-icon.png) 位於的右上角 [!DNL Adobe Workfront]，然後按一下 **[!UICONTROL 展示板]**.
+{{step1-to-boards}}
 1. 在控制面板上，選取要開啟的面板。
 1. 視需要編輯展示板。 您可以按一下電路板名稱來重新命名。
 

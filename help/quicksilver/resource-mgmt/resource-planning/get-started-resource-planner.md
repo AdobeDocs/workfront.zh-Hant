@@ -7,7 +7,7 @@ description: 您可以使用「資源規劃工具」，估計並預算資源配�
 author: Alina
 feature: Resource Management
 exl-id: 06cd2226-f94d-4b6a-8692-6d35210782f2
-source-git-commit: 59c3a57e334d1660e3e59da480a90060b1ba81b7
+source-git-commit: 1c8d9a62f5582b0dbc3c72b5881bb5d8f0b790ba
 workflow-type: tm+mt
 source-wordcount: '2075'
 ht-degree: 0%
@@ -15,6 +15,8 @@ ht-degree: 0%
 ---
 
 # 資源規劃工具概觀
+
+<!-- Audited: 12/2023 -->
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(Alina: this used to be the beginning of Planning in the Resource Planner - consider restructuring it further? Merging some of this information with information about Understanding Navigation in the RP?!)</p>
@@ -41,8 +43,8 @@ ht-degree: 0%
 * 若要使用「使用者」檢視來檢視下列資訊：
 
    * 使用者根據其排程的可用性
-   * 根據專案計畫完成工作所需的計畫時間量。
-   * 使用者已登入實際工作專案的時間。
+   * 根據專案計畫完成工作所需的計畫時間量
+   * 使用者已登入實際工作專案的時間量
 
   如需有關檢視資源規劃工具中使用者的可用、計畫和實際時數或FTE的更多資訊，請參閱文章 [使用使用者檢視時檢視資源規劃工具中的可用、計畫和實際時數或FTE](../../resource-mgmt/resource-planning/view-hours-fte-user-view-resource-planner.md#using).
 

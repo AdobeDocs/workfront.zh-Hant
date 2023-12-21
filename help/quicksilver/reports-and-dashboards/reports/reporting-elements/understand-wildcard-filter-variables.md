@@ -7,7 +7,7 @@ description: 若在篩選中使用萬用字元，您可以參照一般使用者�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: f99cd99e-c4c1-471d-8428-c680f0e73336
-source-git-commit: eb85a68801b3542efc94766a017dd7b59b99b914
+source-git-commit: d98bb6b6bb8ff3bff6f367f1376948d5104887e5
 workflow-type: tm+mt
 source-wordcount: '1449'
 ht-degree: 1%
@@ -15,6 +15,8 @@ ht-degree: 1%
 ---
 
 # 萬用字元篩選器變數概觀
+
+<!-- Audited: 12/2023 -->
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -174,7 +176,7 @@ ht-degree: 1%
    <td> <p>$$USER.name變數是指登入使用者的全名。</p> <p>注意：   <p>此萬用字元變數僅適用於在文字模式中修改篩選時。 您無法在不支援文字模式的篩選器中使用此萬用字元。 例如，您無法在下列區域的篩選中使用這個萬用字元：</p> 
      <ul> 
       <li> <p>資源規劃工具</p> </li> 
-      <li> <p>工作量平衡工具</p> </li> 
+      <li> <p>工作負載平衡器</p> </li> 
       <li> <p>分析</p> </li> 
      </ul> </p> </td> 
   </tr> 

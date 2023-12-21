@@ -6,11 +6,11 @@ product-area: system-administration
 keywords: 授權，型別
 navigation-topic: access-levels
 description: 您的組織在購買Adobe Workfront時已購買特定數量的授權。 身為Workfront管理員，您可為每位使用者指派存取層級時，提供三種新Workfront授權型別之一。
-author: Courtney
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 10a5c04d-adbf-4985-a81c-1b33868ce260
-source-git-commit: 9317f8ef2f31497dd7bb864472e4da4b1eca8edb
+source-git-commit: e47f5d06d0c7d72c171583b53b69f951e4e99afe
 workflow-type: tm+mt
 source-wordcount: '348'
 ht-degree: 2%
@@ -19,13 +19,15 @@ ht-degree: 2%
 
 # 新授權總覽
 
+<!-- Audited: 12/2023 -->
+
 您的組織在購買Adobe Workfront時已購買特定數量的授權。 身為Workfront管理員，當您指派存取層級給每位使用者時，您提供了3種型別的Workfront授權之一。
 
 ## 新的Workfront授權與新的存取層級如何繫結在一起
 
 這3種型別的新Workfront授權允許以不同層級存取Workfront。 每個存取層級都會附加至其中一個授權。
 
-身為Workfront管理員，您不必將授權指派給使用者，而是將附加至該授權的存取層級指派給使用者。
+您不需要將授權指派給使用者，而是將附加至該授權的存取層級指派給使用者。
 
 此表格和圖表顯示Workfront的主要存取層級：
 
@@ -54,6 +56,6 @@ ht-degree: 2%
 
 例如，如果您將「標準」存取層級指派給使用者，則您可用的「標準」授權數量會減少1。
 
-您可以檢視指派給使用者的授權和存取層級。 如需詳細資訊，請參閱 [列出使用者的存取層級和授權](../../../administration-and-setup/add-users/access-levels-and-object-permissions/list-access-levels-and-licenses-for-your-users.md).<!-- MAY NEED NEW LINK -->
+您可以檢視指派給使用者的授權和存取層級。 如需詳細資訊，請參閱 [列出使用者的存取層級和授權](../../../administration-and-setup/add-users/access-levels-and-object-permissions/list-access-levels-and-licenses-for-your-users.md).
 
-如需管理授權的相關資訊，請參閱 [管理系統中的可用授權](../../../administration-and-setup/get-started-wf-administration/manage-available-licenses-in-your-system.md).<!-- MAY NEED NEW LINK -->
+如需管理授權的相關資訊，請參閱 [管理系統中的可用授權](../../../administration-and-setup/get-started-wf-administration/manage-available-licenses-in-your-system.md).

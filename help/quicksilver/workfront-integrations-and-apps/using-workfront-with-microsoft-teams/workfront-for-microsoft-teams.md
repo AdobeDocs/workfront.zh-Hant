@@ -8,7 +8,7 @@ author: Becky
 feature: Workfront Integrations and Apps
 recommendations: noDisplay, noCatalog
 exl-id: 88b05a70-a304-461d-bab3-21d328c9356e
-source-git-commit: 1f2655c0e88a5cc918501e2a0ef830758111ded8
+source-git-commit: 1c8d9a62f5582b0dbc3c72b5881bb5d8f0b790ba
 workflow-type: tm+mt
 source-wordcount: '318'
 ht-degree: 0%
@@ -16,6 +16,8 @@ ht-degree: 0%
 ---
 
 # [!DNL Adobe Workfront for Microsoft Teams] 概觀
+
+<!-- Audited: 12/2023 -->
 
 >[!NOTE]
 >

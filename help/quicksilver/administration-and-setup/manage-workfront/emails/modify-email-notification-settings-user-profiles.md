@@ -9,7 +9,7 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 658f97cd-0500-421d-9c89-26041ca59655
-source-git-commit: 7c1115065e4d2f4732b392336aed692c055ba97c
+source-git-commit: d98bb6b6bb8ff3bff6f367f1376948d5104887e5
 workflow-type: tm+mt
 source-wordcount: '446'
 ht-degree: 0%
@@ -17,6 +17,8 @@ ht-degree: 0%
 ---
 
 # 修改多位使用者的電子郵件通知設定
+
+<!-- Audited: 12/2023 -->
 
 如果您是Adobe Workfront管理員或您具有允許編輯其他使用者設定的「規劃者」存取層級，您可以一次為多個使用者設定通知設定。 這包括指定使用者在發生事件時收到通知，還是在一封每日摘要電子郵件中收到通知，如中所述 [Adobe Workfront通知](../../../workfront-basics/using-notifications/wf-notifications.md). 如需有關編輯使用者所需存取層級的資訊，請參閱 [授予使用者存取許可權](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
 

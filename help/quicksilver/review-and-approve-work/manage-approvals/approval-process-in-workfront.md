@@ -7,14 +7,16 @@ description: 您可以建立核准程式並將其附加至物件，以確保指�
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: dd0822b6-80f1-4a2e-bf6a-0c425984f4d0
-source-git-commit: 95679dd71ef7e4991853e63573a387f26321159d
+source-git-commit: e4de185f172b173dcc3ad966afa69ffb3bc479eb
 workflow-type: tm+mt
-source-wordcount: '1747'
+source-wordcount: '1752'
 ht-degree: 0%
 
 ---
 
 # 核准流程總覽
+
+<!-- Audited: 12/2023 -->
 
 您可以建立核准程式並將其附加至物件，以確保指定的使用者在物件進行之前先檢閱某些變更。
 
@@ -22,27 +24,26 @@ ht-degree: 0%
 
 * 工作專案（專案、任務或問題、範本、範本任務）
 * 文件
-* 校訂
-
-如需建立核准程式的說明，請參閱 [建立工作專案的核准流程](../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
+* 證明
 
 本文包含與工作專案相關之核准流程的一般資訊。
+如需建立核准程式的說明，請參閱 [建立工作專案的核准流程](../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
 
-## 核准流程型別
+## 工作專案的核准流程型別
 
 如果您是Adobe Workfront管理員或具有核准流程管理存取權的使用者，則可以為專案、任務和問題建立以下核准流程：
 
 * **系統層級的全域核准程式**：使用者可以將這些連結附加到下列任一專案：
 
    * 核准區段中的專案、任務或問題
-   * 在編輯專案方塊中，任務預設核准流程區域
-   * 在專案的「佇列詳細資訊」或「佇列主題」區段的「預設核准流程」區域中。 專案必須啟用為請求佇列。
+   * 在編輯專案方塊中的任務預設核准流程區域
+   * 在預設核准流程區域中專案的佇列詳細資訊或佇列主題區段中。 專案必須啟用為請求佇列。
 
 * **群組層級全域核准流程**：使用者可以將這些連結附加到下列專案：
 
    * 屬於「核准」區段中與核准流程相關聯之群組的專案、任務或問題
-   * 在「編輯專案」方塊中，屬於與核准流程相關之群組的專案的「任務預設核准流程」區域
-   * 在專案的「佇列詳細資訊」或「佇列主題」區段的「預設核准流程」區域中。 專案必須啟用為請求佇列，且必須屬於與核准流程關聯的群組。
+   * 在任務預設核准流程區域中屬於與核准流程相關聯之群組的專案的「編輯專案」方塊中
+   * 在預設核准流程區域中專案的佇列詳細資訊或佇列主題區段中。 專案必須啟用為請求佇列，且必須屬於與核准流程關聯的群組。
 
   如需有關建立系統層級或群組層級核准流程的資訊，請參閱 [建立工作專案的核准流程](../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
 

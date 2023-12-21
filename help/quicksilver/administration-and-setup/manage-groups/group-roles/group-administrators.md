@@ -4,110 +4,122 @@ user-type: administrator
 content-type: reference;overview
 product-area: system-administration;user-management
 navigation-topic: group-roles
-description: Adobe Workfront管理員位於擁有許多部門的大型組織中，可能不想管理這些部門內組織的所有部門和群組。 相反，他們可以為該組內的每個部門和子組建立一個組，每個部門和子組由組管理員管理。
-author: Caroline
+description: 在擁有許多部門的大型組織中，Adobe Workfront管理員可能不想管理這些部門中的所有組織部門和群組。 相反地，他們可以為該群組中的每個部門及子群組建立一個群組，每個群組都由群組管理員管理。
+author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 589cf9fb-f195-4b69-a240-3f73e6ca623e
-source-git-commit: 03667fbdd1b0d68b9ad2d2db4a1ed85b8136062b
+source-git-commit: 850e0801511177efc5189258acd9b88234cf59c9
 workflow-type: tm+mt
-source-wordcount: '987'
+source-wordcount: '1047'
 ht-degree: 0%
 
 ---
 
 # 群組管理員
 
-Adobe Workfront管理員位於擁有許多部門的大型組織中，可能不想管理這些部門內組織的所有部門和群組。 相反，他們可以為該組內的每個部門和子組建立一個組，每個部門和子組由組管理員管理。
+<!-- Audited: 12/2023 -->
 
-群組管理員可管理群組的需求，例如使用者成員資格、版面範本、自訂資料、狀態和偏好設定。
+在擁有許多部門的大型組織中，Adobe Workfront管理員可能不想管理這些部門中的所有組織部門和群組。 相反地，他們可以為該群組中的每個部門及子群組建立一個群組，每個群組都由群組管理員管理。
 
-一個組中最多可以包含14個子組。
+群組管理員可以管理群組的需求，例如使用者成員資格、版面配置範本、自訂資料、狀態和偏好設定。
+
+一個群組下最多可以有14個層級的子群組。
 
 >[!NOTE]
 >
->子組上方層次結構中的所有組管理員都具有管理該子組的管理權限。
+>子群組之上階層中的所有群組管理員都擁有管理該子群組的管理許可權。
 
-如需建立和管理群組的相關資訊，請參閱 [建立群組](../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md) 和 [管理群組](../../../administration-and-setup/manage-groups/create-and-manage-groups/manage-a-group.md). 另請參閱 [子組概述](../../../administration-and-setup/manage-groups/groups-overview/subgroups.md).
+如需建立和管理群組的詳細資訊，請參閱 [建立群組](../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md) 和 [管理群組](../../../administration-and-setup/manage-groups/create-and-manage-groups/manage-a-group.md). 另請參閱 [子群組概述](../../../administration-and-setup/manage-groups/groups-overview/subgroups.md).
 
 ## 指定群組管理員
 
-每個頂級組必須至少有一個組管理員。 組的Workfront管理員或管理員可以將組管理員分配給組的子組，但這不是必需的。 如需詳細資訊，請參閱 [建立群組](../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md).
+每個頂層群組都必須至少有一個群組管理員。 Workfront管理員或群組管理員可將群組管理員指派給群組的子群組，但這並非必要。 如需詳細資訊，請參閱 [建立群組](../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md).
 
-如果您是Workfront管理員，建議您先執行下列操作，再將使用者指定為群組管理員：
+如果您是Workfront管理員，建議您先執行下列動作，再將使用者指定為群組管理員：
 
-* 請注意您系統中目前的Workfront管理員人數。
-* 記下您在系統中的群組數。
-* 決定您是否可以變更某些Workfront管理員的存取層級，並指定他們為群組管理員。
+* 記下系統中目前的Workfront管理員人數。
+* 記下您在系統中的群組數目。
+* 決定是否可變更部分Workfront管理員的存取層級，並將他們指定為群組管理員。
 
-   如需群組管理員功能的詳細資訊，請參閱 [由組管理員完成的任務](#tasks-done-by-group-administrators).
+  有關群組管理員權能的詳細資訊，請參閱 [群組管理員完成的工作](#tasks-done-by-group-administrators) 本文章內容。
 
-* 確定是否希望組管理員能夠以其他用戶身份登錄，或是重置所管理組中用戶的密碼。 執行這些任務需要其他訪問，如 [組管理員所需的訪問權](#access-needed-for-group-administrators).
-* 為了更好地管理用戶，請考慮將組或子組（而非用戶）分配給以下對象：
+* 決定您是否希望群組管理員能夠以其他使用者身份登入，或重設您管理之群組中的使用者密碼。 執行這些工作需要額外的存取權，如下所述： [群組管理員所需的存取權](#access-needed-for-group-administrators).
+* 為了更好地管理使用者，請考慮將群組或子群組指派給下列物件，而非指派使用者：
 
    * 版面配置範本
    * 排程
    * 週期性時程表
 
-## 組管理員所需的訪問權 {#access-needed-for-group-administrators}
+## 群組管理員所需的存取權 {#access-needed-for-group-administrators}
 
-每個組管理員都必須擁有計畫許可證。
+每個群組管理員都必須擁有
 
-建議群組管理員擁有使用者的編輯存取權，這樣他們就能執行下列工作：
+* 目前定價與封裝模式中的計畫授權
+* 新定價與封裝模式中的標準授權
 
-* 以其管理的群組和子群組中的其他使用者身分登入。
-* 在管理的組中重置其他用戶的密碼。
+我們建議群組管理員擁有使用者的「編輯」存取權，以便他們可執行下列工作：
+
+* 以其他使用者的身份登入他們管理的群組和子群組。
+* 重設其他使用者在其管理的群組中的密碼。
 
 >[!IMPORTANT]
 >
->群組管理員的存取權必須高於其管理的存取權；否則，他們將無法查看或修改較低的訪問級別。
->有關授予此訪問權限的說明，請參閱 [建立或修改自訂存取層級](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+>群組管理員的存取權必須高於其管理者，否則將無法檢視或修改較低的存取層級。
+>如需授與此存取權的指示，請參閱 [建立或修改自訂存取層級](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
-對於需要將時間表配置檔案分配給組和子組中的用戶的組管理員，我們還建議對時間表和小時進行管理訪問。 有關授予此訪問權限的說明，請參閱 [授予用戶對特定區域的管理訪問權限](../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
+對於需要為其群組和子群組中的使用者指派時程表設定檔的群組管理員，我們也建議對時程表和時數進行管理存取。 如需授與此存取權的指示，請參閱 [授予使用者管理特定區域的存取權](../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
 
-## 由組管理員完成的任務 {#tasks-done-by-group-administrators}
+## 群組管理員完成的工作 {#tasks-done-by-group-administrators}
 
-作為組管理員，您可以執行以下任務來管理您監督的組。 其中一些功能與Workfront管理員所具備的功能相同。
+身為群組管理員，您可以執行下列概述的工作，以管理您所監督的群組。 其中的一些功能與Workfront管理員獲得的功能相同。
 
-* [管理群組成員](#manage-group-members)
-* [管理組對象](#manage-group-objects)
-* [管理群組偏好設定和工具](#manage-group-preferences-and-tools)
+>[!NOTE]
+>
+>在新的定價與封裝模式中，您必須擁有主要計畫或以上版本，才能執行下列作業：
+>
+> * 建立群組事件通知
+> * 設定群組專案偏好設定
+> * 設定群組任務和問題偏好設定
+> * 解鎖子群組偏好設定的設定
+> * 群組時程表和小時偏好設定
+> * 解鎖時程表和小時偏好設定
 
 ### 管理群組成員 {#manage-group-members}
 
-* 在您管理的組和子組中建立、編輯和刪除子組。 如需指示，請參閱 [建立子組](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/create-a-subgroup.md).
-* 新增您對其擁有群組和子群組編輯存取權的使用者。 或者，編輯使用者的設定檔，將使用者新增至群組和子群組。
+* 在您管理的群組和子群組中建立、編輯和刪除子群組。 如需指示，請參閱 [建立子群組](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/create-a-subgroup.md).
+* 新增您對其具有編輯許可權的使用者以存取您的群組和子群組。 或者，透過編輯使用者的設定檔來將使用者新增至群組和子群組。
 
-   如果您已在存取層級中啟用「使用者管理員（群組使用者）」權限，也可以更新群組成員設定檔中的欄位。
+  如果您在存取層級中啟用了使用者管理員（群組使用者）許可權，則也可以更新群組成員設定檔中的欄位。
 
-   如需詳細資訊，請參閱 [編輯使用者的設定檔](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
+  如需詳細資訊，請參閱 [編輯使用者設定檔](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 
-   >[!NOTE]
-   >
-   >Workfront管理員可以覆寫群組管理員對群組成員資格所做的變更。
+  >[!NOTE]
+  >
+  >Workfront管理員可以覆寫群組管理員對群組成員資格所做的變更。
 
-* 重設您管理之群組成員之使用者的密碼。 如需詳細資訊，請參閱 [編輯使用者的設定檔](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
-* 以您所管理群組成員的使用者身分登入。 如需詳細資訊，請參閱 [以其他使用者身分登入](../../../administration-and-setup/add-users/create-and-manage-users/log-in-as-another-user.md).
-* 查看組及其下面的子組可用許可證的數量。 如需詳細資訊，請參閱 [管理系統中的可用許可證](../../../administration-and-setup/get-started-wf-administration/manage-available-licenses-in-your-system.md).
+* 重設您管理之群組成員的使用者密碼。 如需詳細資訊，請參閱 [編輯使用者設定檔](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
+* 以您管理群組成員的使用者身分登入。 如需詳細資訊，請參閱 [以其他使用者身分登入](../../../administration-and-setup/add-users/create-and-manage-users/log-in-as-another-user.md).
+* 檢視您的群組及其下方的子群組可用的授權數量。 如需詳細資訊，請參閱 [管理系統中的可用授權](../../../administration-and-setup/get-started-wf-administration/manage-available-licenses-in-your-system.md).
 
-### 管理組對象 {#manage-group-objects}
+### 管理群組物件 {#manage-group-objects}
 
-* 建立組級別的「佈局模板」，並將它們與您管理的組和子組關聯。 如需詳細資訊，請參閱 [建立和管理版面範本](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
-* 建立組級時間表配置檔案，將它們與您管理的用戶和組關聯，並手動生成時間表。 如需詳細資訊，請參閱 [建立、編輯和分配工時單配置檔案](../../../timesheets/create-and-manage-timesheets/create-timesheet-profiles.md).
-* 沒有對批准流程的管理訪問權限，請為您管理的組和子組建立和編輯批准流程。 如需詳細資訊，請參閱 [建立工作項的審批流程](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
+* 建立群組層級版面配置範本，並將其與您管理的群組和子群組建立關聯。 如需詳細資訊，請參閱 [建立及管理版面範本](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
+* 建立群組層級的時程表設定檔，將其與您管理的使用者和群組建立關聯，並手動產生時程表。 如需詳細資訊，請參閱 [建立、編輯和指派週期性時程表](../../../timesheets/create-and-manage-timesheets/create-timesheet-profiles.md).
+* 若沒有核准程式的管理存取權，請為您管理的群組和子群組建立和編輯核准程式。 如需詳細資訊，請參閱 [建立工作專案的核准流程](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
 
-   有關對批准流程的管理訪問的資訊，請參閱 [授予用戶對特定區域的管理訪問權限](../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
+  如需有關核准流程的管理存取權的資訊，請參閱 [授予使用者管理特定區域的存取權](../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
 
-* 建立排程，並將其與您管理的群組建立關聯。 如需詳細資訊，請參閱 [建立排程](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
-* 管理指派給您管理之群組的團隊，而不是團隊的成員。 同時，根據「組」(Group)欄位建立組報告，以標識某個組被分配給哪個組。 如需詳細資訊，請參閱 [建立團隊](../../../people-teams-and-groups/create-and-manage-teams/create-a-team.md).
-* 還原與您管理的組關聯的項目，以及與項目關聯的任何任務、問題或文檔。 如需詳細資訊，請參閱 [還原已刪除的項](../../../administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md).
+* 建立排程並將其與您管理的群組建立關聯。 如需詳細資訊，請參閱 [建立排程](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
+* 管理指派給您管理之群組的團隊，但不成為團隊成員。 此外，根據「群組」欄位建立專案團隊報告，以識別將特定專案團隊指派給哪個群組。 如需詳細資訊，請參閱 [建立團隊](../../../people-teams-and-groups/create-and-manage-teams/create-a-team.md).
+* 還原與您管理的群組相關聯的專案，以及與專案相關聯的任何任務、問題或檔案。 如需詳細資訊，請參閱 [還原已刪除的專案](../../../administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md).
 
 ### 管理群組偏好設定和工具 {#manage-group-preferences-and-tools}
 
-* 在系統中為組解除鎖定項目首選項、任務或問題首選項，或時間表和小時首選項時，請編輯您管理的組的首選項。 這些首選項會影響項目、任務和問題行為。 如需詳細資訊，請參閱下列內容：
+* 當系統各群組的專案偏好設定、任務或問題偏好設定、或時程表和時數偏好設定已解鎖時，請編輯您管理之群組的該偏好設定。 這些偏好設定會影響專案、任務和問題行為。 如需詳細資訊，請參閱下列內容：
 
-   * [配置組的項目首選項](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-project-preferences-group.md)
-   * [配置組的任務和問題首選項](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-task-issue-preferences-group.md)
+   * [設定群組的專案偏好設定](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-project-preferences-group.md)
+   * [設定群組的任務和問題偏好設定](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-task-issue-preferences-group.md)
 
 * 為您管理的群組建立和編輯群組狀態。 如需詳細資訊，請參閱 [建立或編輯群組狀態](../../../administration-and-setup/manage-groups/manage-group-statuses/create-or-edit-a-group-status.md).
-* 為您管理的群組設定事件通知。 只有在Workfront管理員解除鎖定透過系統為群組設定事件通知的功能後，才能執行此動作。 如需詳細資訊，請參閱 [檢視及設定群組的事件通知](../../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-configure-event-notifications-group.md).
+* 為您管理的群組設定事件通知。 只有在Workfront管理員解除鎖定透過系統為群組設定事件通知的功能後，您才能執行此動作。 如需詳細資訊，請參閱 [檢視和設定群組的事件通知](../../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-configure-event-notifications-group.md).

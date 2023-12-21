@@ -8,7 +8,7 @@ author: Alina
 feature: System Setup and Administration, Approvals
 role: Admin
 exl-id: 1709e285-51a5-49a1-a03a-743a334fbe4d
-source-git-commit: 7800211cedc91285a755d2783fff3324e5d16843
+source-git-commit: d98bb6b6bb8ff3bff6f367f1376948d5104887e5
 workflow-type: tm+mt
 source-wordcount: '2202'
 ht-degree: 1%
@@ -16,6 +16,8 @@ ht-degree: 1%
 ---
 
 # 建立工作專案的核准流程
+
+<!-- Audited: 12/2023 -->
 
 <!--see below the "hidden" content for the redesigned tabs - August 2023-->
 
@@ -189,7 +191,7 @@ ht-degree: 1%
 
    新路徑必須與另一個狀態相關聯。 專案更新以顯示此狀態時會觸發路徑。 相同狀態不能有兩個路徑。
 
-1. 按一下&#x200B;**儲存**。
+1. 按一下「**儲存**」。
 1. 現在核准流程已建立，請繼續下列任一項作業：
 
    * 將核准流程與系統中的特定專案、任務或問題建立關聯，如中所述 [將新的或現有的核准流程與工作建立關聯](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md).

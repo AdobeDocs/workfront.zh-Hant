@@ -8,7 +8,7 @@ author: Courtney
 feature: Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 34814016-e030-4e21-a597-686c4107eff4
-source-git-commit: a1569362dee8cd686a91698af3c9c217e920c263
+source-git-commit: d98bb6b6bb8ff3bff6f367f1376948d5104887e5
 workflow-type: tm+mt
 source-wordcount: '116'
 ht-degree: 0%
@@ -16,6 +16,8 @@ ht-degree: 0%
 ---
 
 # 校訂：文章索引
+
+<!-- Audited: 12/2023 -->
 
 在創意團隊工作的同一檔案中檢閱和註解。 有了Workfront Proofing，您可以請求意見反應、檢視評論，以及取得擱置中及已完成核准的通知，同時維護評論和版本的稽核軌跡。
 
