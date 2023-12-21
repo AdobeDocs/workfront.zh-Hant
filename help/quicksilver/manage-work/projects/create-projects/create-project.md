@@ -6,9 +6,9 @@ description: 專案是Adobe Workfront中的大型工作單位。 您可以從頭
 author: Alina
 feature: Work Management
 exl-id: d4e28fa6-25f9-4765-b051-8960c8873d5a
-source-git-commit: 91d757513792604677d6285baafa795629b4506d
+source-git-commit: 5d8e189f01a52b2d1b605b497ed17737fb0a0924
 workflow-type: tm+mt
-source-wordcount: '1245'
+source-wordcount: '1268'
 ht-degree: 1%
 
 ---
@@ -156,6 +156,11 @@ ht-degree: 1%
      如果您透過轉換問題來建立專案時使用範本，請參閱上述第二個情境，以瞭解哪一個群組以及哪個Workfront狀態套用至新專案。
 
 ## 從頭開始建立專案
+
+>[!NOTE]
+>
+>如果您使用範本建立專案，建議您也看到本文 [使用範本建立專案](/help/quicksilver/manage-work/projects/create-projects/create-project-from-template.md).
+
 
 1. 執行下列其中一項：
 

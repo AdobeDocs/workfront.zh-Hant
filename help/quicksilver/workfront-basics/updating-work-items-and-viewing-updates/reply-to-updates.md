@@ -1,21 +1,21 @@
 ---
 product-area: projects
 navigation-topic: update-work-items-and-view-updates
-title: 回覆更新
+title: 回覆更新內容
 description: 當有人在工作物件上新增或回覆更新時，他們的回覆會出現在物件「更新」區段的通訊系線中。 如果您擁有物件的「檢視」存取權，則可以將回覆新增至更新或「讚」。
 author: Lisa and Alina
 feature: Get Started with Workfront
 role: User
 topic: Collaboration
 exl-id: a8271f3c-7a08-4eb3-aaff-deb250f5af73
-source-git-commit: 97a89293989fd5dcc3ba40dd12ad0e1cf97d69ff
+source-git-commit: 5d8e189f01a52b2d1b605b497ed17737fb0a0924
 workflow-type: tm+mt
-source-wordcount: '1043'
+source-wordcount: '1049'
 ht-degree: 0%
 
 ---
 
-# 回覆更新
+# 回覆更新內容
 
 <!--remove legacy and new experience references when we remove the legacy updates in the UI - Jan 2024???-->
 
@@ -43,6 +43,7 @@ ht-degree: 0%
 > * 首頁
 > * 清單中的摘要面板
 > * 時程表中的摘要面板
+> * 工作負載平衡器中的摘要面板
 
 當有人回覆工作物件的評論或系統更新時，他們的回覆會出現在物件「更新」區段的通訊對話串中。
 

@@ -6,7 +6,7 @@ description: 您可以透過篩選條件限制在專案清單中熒幕顯示的�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 2e912e32-7924-418d-9d55-ce3c09f67d3e
-source-git-commit: daba001c28df268721c87df7d2516ffb76e535d9
+source-git-commit: 5d8e189f01a52b2d1b605b497ed17737fb0a0924
 workflow-type: tm+mt
 source-wordcount: '2462'
 ht-degree: 1%
@@ -149,24 +149,24 @@ ht-degree: 1%
   >
   >1. 使用標準產生器建立具有下列語法的篩選器：
   >
-  >   `(A OR B) AND C`
+  >      `(A OR B) AND C`
   >
-  >1. 切換到舊版產生器，並使用舊版產生器的語法來編輯篩選器，如 [在舊版產生器中建立或編輯篩選器](#create-filter-in-legacy-builder) 一節。 舊版產生器的語法會顯示篩選陳述式，如下所示：
+  >1. 切換到舊版產生器，並使用舊版產生器的語法來編輯篩選器，如區段中所述 [在舊版產生器中建立或編輯篩選器](#create-filter-in-legacy-builder) 本文章內容。 舊版產生器的語法會顯示篩選陳述式，如下所示：
   >
-  >   `A AND C`
-  >   `OR`
-  >   `B AND C`
+  >      `A AND C`
+  >      `OR`
+  >      `B AND C`
   >
   >1. 變更舊版介面中的篩選器。
   >1. 切換回標準產生器。 如上所述，篩選陳述式會根據舊版產生器中支援的邏輯而顯示。
   >
-  >   篩選器在標準產生器介面中顯示如下：
+  >      篩選器在標準產生器介面中顯示如下：
   >  
-  >   `A AND C`
-  >   `OR`
-  >   `B AND C`
+  >      `A AND C`
+  >      `OR`
+  >      `B AND C`
   > 
-  >   發生此情況是因為已在舊版介面中修改篩選器。
+  >      發生此情況是因為已在舊版介面中修改篩選器。
 
 ## 在標準產生器中建立或編輯篩選器
 

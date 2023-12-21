@@ -6,9 +6,9 @@ description: 您可以在Adobe Workfront物件（專案、任務或問題）上�
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: 7b920a139689efe6c33f3a4bc495e5c5f270ebf4
+source-git-commit: 5d8e189f01a52b2d1b605b497ed17737fb0a0924
 workflow-type: tm+mt
-source-wordcount: '4163'
+source-wordcount: '4172'
 ht-degree: 1%
 
 ---
@@ -42,6 +42,7 @@ After the monthly releases to Production, the same features are also available i
 > * 首頁
 > * 清單中的摘要面板
 > * 時程表中的摘要面板
+> * 工作負載平衡器中的摘要面板
 
 <!-- with October 26 release: add somewhere this, and decide where we need to keep information about the legacy commenting. Should we create an article about iterations comments like we have for goals and cards?!:
 
@@ -100,7 +101,7 @@ After the monthly releases to Production, the same features are also available i
 
    * 從Workfront物件，在更新區段
    * 從首頁區域（用於任務和問題）
-   * 從物件清單中的摘要面板或時間表（用於任務和問題）
+   * 從物件清單、時程表的「摘要」面板或從工作負載平衡器（用於任務和問題）
 
 此頁面上的資訊說明如何在Workfront物件上加上註解，以及如何在新增註解時更新專案、任務和問題。
 

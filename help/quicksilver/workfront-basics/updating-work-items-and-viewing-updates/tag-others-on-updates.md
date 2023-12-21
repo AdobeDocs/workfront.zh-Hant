@@ -6,9 +6,9 @@ description: 在Adobe Workfront物件上提供更新註解時，專案上的所�
 author: Alina
 feature: Get Started with Workfront
 exl-id: c4c0d74f-ac50-4fc5-89d6-28f004c25b29
-source-git-commit: 97a89293989fd5dcc3ba40dd12ad0e1cf97d69ff
+source-git-commit: 5d8e189f01a52b2d1b605b497ed17737fb0a0924
 workflow-type: tm+mt
-source-wordcount: '1574'
+source-wordcount: '1583'
 ht-degree: 0%
 
 ---
@@ -41,6 +41,7 @@ ht-degree: 0%
 > * 首頁
 > * 清單中的摘要面板
 > * 時程表中的摘要面板
+> * 工作負載平衡器中的摘要面板
 
 如果您想要吸引使用者注意某個物件，而他們可能不會關注該物件，則可以在更新物件時標籤使用者。
 

@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7a65d66e-a578-4016-805e-0cb04caaa18a
-source-git-commit: daba001c28df268721c87df7d2516ffb76e535d9
+source-git-commit: 5d8e189f01a52b2d1b605b497ed17737fb0a0924
 workflow-type: tm+mt
-source-wordcount: '391'
+source-wordcount: '397'
 ht-degree: 0%
 
 ---
@@ -59,6 +59,7 @@ hide: yes
 * [觀看Adobe大師的影片展示](https://video.tv.adobe.com/v/3424253/){target=_blank}
 * [Adobe大師概觀](maestro-overview.md)：Adobe大師的高層級概觀，包括此解決方案特有的術語和概念。 我們建議您在這裡與Maestro一起開始您的歷程。
 * [Adobe大師發行活動](../maestro/release-activity.md)：列出自2023年5月22日Maestro封閉Beta版計畫推出以來已發行的所有功能，包含確切發行日期以及每個功能的簡短概觀。
+* [Workfront Fusion的Adobe大師模組](/help/quicksilver/workfront-fusion/apps-and-their-modules/maestro-modules.md)
 
 ## Maestro架構與功能
 

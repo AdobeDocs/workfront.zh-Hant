@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: 6f026590f0030b564f0d110afead9ade1acd7896
+source-git-commit: 5d8e189f01a52b2d1b605b497ed17737fb0a0924
 workflow-type: tm+mt
-source-wordcount: '3158'
+source-wordcount: '3169'
 ht-degree: 2%
 
 ---
@@ -186,7 +186,7 @@ After permssions - replace the table with:
 
 
 1. 按一下 **+** 圖示以新增欄位。
-1. 在 **新欄位** 標籤，從下列欄位型別中選取：
+1. 在 **新欄位** 標籤，搜尋中的欄位型別 **欄位型別** 方塊，或從下列欄位型別中選取：
 
    * [單行文字](#single-line-text)
    * [段落](#paragraph)

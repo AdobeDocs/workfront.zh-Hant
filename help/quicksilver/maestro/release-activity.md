@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 94d3fc1715d32531962a1b7405850c0b2944c776
+source-git-commit: 5d8e189f01a52b2d1b605b497ed17737fb0a0924
 workflow-type: tm+mt
-source-wordcount: '2870'
+source-wordcount: '2890'
 ht-degree: 0%
 
 ---
@@ -89,7 +89,13 @@ Maestro記錄的註解體驗符合Workfront物件的新註解體驗。
 
 ### Adobe Workfront Fusion的Maestro聯結器(Beta)
 
-預覽和生產： 2023年12月21日
+生產： 2023年12月21日
+
+>[!IMPORTANT]
+>
+>貴組織必須購買Adobe Workfront Fusion，才能與Maestro建立連線。
+>
+>如需詳細資訊，請參閱 [Adobe Workfront Fusion概觀](/help/quicksilver/workfront-fusion/get-started/workfront-fusion-overview.md).
 
 現在，您可以使用Adobe Workfront Fusion來連線到Maestro。 使用新的AdobeMaestro Fusion連線，您可以：
 

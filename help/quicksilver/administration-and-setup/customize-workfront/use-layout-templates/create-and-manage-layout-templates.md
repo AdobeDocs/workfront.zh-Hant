@@ -9,9 +9,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 53076920-3b13-4b65-85cb-38096cf2d04d
-source-git-commit: daba001c28df268721c87df7d2516ffb76e535d9
+source-git-commit: 5d8e189f01a52b2d1b605b497ed17737fb0a0924
 workflow-type: tm+mt
-source-wordcount: '596'
+source-wordcount: '521'
 ht-degree: 0%
 
 ---
@@ -66,11 +66,14 @@ ht-degree: 0%
 ## 建立及管理版面配置範本的考量事項
 
 * 使用者可以自訂其自身配置的幾個區域。 當您變更版面配置範本時，您的變更會與其所做的任何自訂合併，而不會覆寫或重設它們。 如果您將使用者指派給新的版面配置範本，也會發生這種情況。
-* 您在Adobe Workfront Classic中建立的舊版面範本，自2019年秋初移轉以來，現在已自動可用於新Adobe Workfront Experience的執行個體。 2020年4月移轉在Adobe Workfront Classic中建立該時間之後的版面範本。 我們建議您更新新Adobe Workfront體驗中的這些版面配置範本，以運用新功能，讓這些範本在該環境中發揮更大效用。
 * 群組管理員和擁有計畫授權的使用者若能編輯其他使用者，可將系統層級和群組層級的版面配置範本新增到他們編輯個人資料時可管理的使用者中。
 * 群組管理員無法將配置範本指派給工作角色或團隊。
 
 如需版面配置範本的詳細資訊，請參閱 [版面配置範本](../../../administration-and-setup/customize-workfront/use-layout-templates/use-layout-templates-customize-ui.md).
+
+<!--removed this from above, but keeping it for a bit, in case it will be needed - known issue around old templates still visible at time:
+* Your older layout templates created in Adobe Workfront Classic have been automatically available in your instance of the new Adobe Workfront experience since they were migrated in early Fall 2019. Layout templates created in Adobe Workfront Classic after that time were migrated in April 2020. We recommend that you update these layout templates in the new Adobe Workfront experience to take advantage of new functionality and to make them even more useful in that environment.
+-->
 
 ## 建立或修改版面範本
 
