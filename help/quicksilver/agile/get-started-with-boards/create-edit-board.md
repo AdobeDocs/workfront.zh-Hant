@@ -6,9 +6,9 @@ description: 從 [!UICONTROL 展示板] 圖示板，您可以建立新電路板�
 author: Lisa
 feature: Agile
 exl-id: 5f755177-c8ea-4509-a34f-57ffcfd8ba7f
-source-git-commit: 03abff907016809addbbf8f50eb2e6e012e6fed3
+source-git-commit: 5b6c7488bc1233e141e478da8546a05fcfffdc96
 workflow-type: tm+mt
-source-wordcount: '683'
+source-wordcount: '764'
 ht-degree: 1%
 
 ---
@@ -70,11 +70,13 @@ ht-degree: 1%
 
       此 [!UICONTROL **正在新增的卡片**] 計數器會顯示展示板上有多少張卡片。 例如，如果您選取包含100個任務和問題的專案，計數器會顯示100。 如果您新增使用者指派，且該人員指派至專案上的5個任務，則計數器會顯示5。
 
-   1. （選用）選取 [!UICONTROL **包含已完成的工作**] 將完成的卡片加入展示板中。
+   1. （選用）選取 [!UICONTROL **將已完成的工作加入為封存的卡片**] 將完成的任務和問題以封存卡片的形式帶入展示板。
 
       >[!NOTE]
       >
-      >如果未選取此選項，當處於其他狀態的卡片標示為完成時，它們會「脫落」在展示板上，且不再顯示。
+      >預設情況下，已封存的卡片不會顯示在展示板上。 若要顯示封存的卡片，您必須開啟組態設定，然後篩選展示板以顯示封存的卡片。 如需詳細資訊，請參閱 [自訂要在卡片上顯示的欄位](/help/quicksilver/agile/get-started-with-boards/customize-fields-on-card.md) 和 [在展示板中篩選和搜尋](/help/quicksilver/agile/get-started-with-boards/filter-search-in-board.md).
+      >
+      >如果未選取此選項，建立展示板時完成的卡片不會顯示在展示板上。 稍後標籤為完成的卡片會保留在「完成」欄中的展示板上，除非您設定卡片減少，否則不會封存。 如需詳細資訊，請參閱 [設定卡片縮減](/help/quicksilver/agile/use-boards-agile-planning-tools/configure-card-falloff.md).
 
    1. （選用）按一下 [!UICONTROL **使用進階篩選**] 以顯示其他篩選選項。
 
