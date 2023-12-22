@@ -4,9 +4,9 @@ description: 2024年第一季版本總覽
 author: Becky
 feature: Product Announcements
 exl-id: 2ad9e170-9e63-472a-8476-13f81b7abff3
-source-git-commit: 1ccbab53684928974ef739b0176a6ea893a27320
+source-git-commit: abaabf12d63ea1e279d14ad8467ac239e6c211b1
 workflow-type: tm+mt
-source-wordcount: '1140'
+source-wordcount: '1372'
 ht-degree: 0%
 
 ---
@@ -72,6 +72,40 @@ ht-degree: 0%
                             </li>
                             <li>
                                 <p>每季發行生產：透過24.1發行</p>
+                            </li>
+                        </ul>
+                    </td>
+                 </tr>
+           </tbody>
+        </table>
+
+### 展示板增強功能
+
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 50%;" />
+            <tbody>
+                <tr>
+                    <td>
+                        <p><span class="bold">功能</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">發行日期</span>
+                        </p>
+                    </td>
+                 </tr>
+                 <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-boards-enhancements.md" class="MCXref xref" xrefformat="{para}">建立展示板時，動態展示板會封存完成的卡片</a></p><p>[！BADGE In Production ]{type=Informative}</p><p>建立動態展示板時，您可以選擇將已完成的任務和問題包含在展示板上。 對於具有大量已完成任務和問題的專案，動態展示板可能有效能問題。 現在，當您建立動態展示板並選擇包含已完成的工作時，任務和問題將作為封存卡片帶入展示板。</p>
+                    </td>
+                    <td><p><b>將於下列日期提供：</b></p>
+                        <ul>
+                            <li>
+                                <p>預覽版本： 2023年12月21日</p>
+                            </li>
+                            <li>
+                                <p><span class="preview">所有客戶的生產： 2023年12月21日</span></p>
                             </li>
                         </ul>
                     </td>
@@ -170,6 +204,24 @@ ht-degree: 0%
                  </tr>
                  <tr>
                     <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">使用版面配置範本的新首頁的管理員控制項</a></p><p>管理員現在可以使用版面配置範本來自訂使用者的新首頁。 自訂選項包括選取必要的Widget及其位置、選擇背景，以及用於選擇可用篩選器和群組（以及設定預設值）的Widget特定選項。</p>
+                    </td>
+                    <td><p><b>將於下列日期提供：</b></p>
+                        <ul>
+                            <li>
+                                <p>預覽版本： 2023年12月21日</p>
+                            </li>
+                            <li>
+                                <p>快速發行生產：第24.1發行版本</p>
+                            </li>
+                            <li>
+                                <p>每季發行生產：透過24.1發行</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                 <tr>
+                    <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">我的工作快速動作按鈕已變更為僅在滑鼠懸停時顯示</a></p><p>[！BADGE In Production ]{type=Informative}</p><p>為了提高效能，現在只有當工作專案以滑鼠懸停在工作專案上時，才會顯示我的工作Widget中可用的快速動作按鈕。</p>
                     </td>
                     <td><p><b>將於下列日期提供：</b></p>
@@ -228,6 +280,44 @@ ht-degree: 0%
                             </li>
                             <li>
                                 <p><span class="preview">適用於所有客戶的生產： 2023年11月9日</span></p>
+                            </li>
+                        </ul>
+                    </td>
+                    </tr>
+           </tbody>
+        </table>
+
+
+### 專案增強功能
+
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 50%;" />
+            <tbody>
+                <tr>
+                    <td>
+                        <p><span class="bold">功能</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">發行日期</span>
+                        </p>
+                    </td>
+                 </tr>
+                 <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-project-enhancements.md" class="MCXref xref" xrefformat="{para}">AI導向的智慧指派</a></p><p>我們已變更Workfront用來計算及建議智慧型任務指派的演演算法。 新演演算法適用於Workfront中指派任務（任務清單、任務標題中的「工作」區域、首頁和「摘要」面板）的所有位置。</p>
+                    </td>
+                    <td><p><b>將於下列日期提供：</b></p>
+                        <ul>
+                            <li>
+                                <p>預覽版本： 2023年12月21日</p>
+                            </li>
+                            <li>
+                                <p>快速發行生產：第24.1發行版本</p>
+                            </li>
+                            <li>
+                                <p>每季發行生產：透過24.1發行</p>
                             </li>
                         </ul>
                     </td>
