@@ -4,9 +4,9 @@ description: 2024年第一季版本總覽
 author: Becky
 feature: Product Announcements
 exl-id: 2ad9e170-9e63-472a-8476-13f81b7abff3
-source-git-commit: abaabf12d63ea1e279d14ad8467ac239e6c211b1
+source-git-commit: c32ff93b682ffd6333dcf50096d674a4eeaccef3
 workflow-type: tm+mt
-source-wordcount: '1372'
+source-wordcount: '1420'
 ht-degree: 0%
 
 ---
@@ -145,6 +145,7 @@ ht-degree: 0%
                                 <p>每季發行生產：透過24.1發行</p>
                             </li>
                         </ul>
+                        <p><span style="color: #ff0000;">此功能屬於分階段發行，目前僅供特定客戶使用。</span></p>
                     </td>
                 </tr>
                 <tr>
@@ -163,6 +164,7 @@ ht-degree: 0%
                                 <p>每季發行生產：透過24.1發行</p>
                             </li>
                         </ul>
+                        <p><span style="color: #ff0000;">此功能屬於分階段發行，目前僅供特定客戶使用。</span></p>
                     </td>
                 </tr>
                 <tr>
@@ -181,6 +183,7 @@ ht-degree: 0%
                                 <p>每季發行生產：透過24.1發行</p>
                             </li>
                         </ul>
+                        <p><span style="color: #ff0000;">此功能屬於分階段發行，目前僅供特定客戶使用。</span></p>
                     </td>
                 </tr>                
            </tbody>
