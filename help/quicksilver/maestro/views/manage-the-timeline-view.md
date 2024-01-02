@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: 4d3b571e64fef98abd69bc67f94953a5eb73ea20
+source-git-commit: cf044c8cff6b1172ec460ae232cd07c9b7c808b7
 workflow-type: tm+mt
-source-wordcount: '1507'
-ht-degree: 1%
+source-wordcount: '1648'
+ht-degree: 0%
 
 ---
 
@@ -145,6 +145,20 @@ role: User
    按一下 **切換至精簡檢視** 顯示日期在同一行上不相交的記錄。 <!--check to see if they updated the name of the setting here-->
 
    預設情況下，記錄會顯示在「壓縮」檢視中。
+
+1. 執行下列動作以快速尋找符合關鍵字的記錄：
+
+   1. 按一下 **搜尋** 圖示 ![](assets/search-icon.png) 並開始輸入與畫面上所顯示之記錄的任何欄位相關聯的關鍵字。 正確相符的數目會顯示在搜尋專案旁邊，而具有正確相符專案的記錄會反白顯示。
+
+      ![](assets/search-box-and-results-timeline-view.png)
+
+      您可以使用熒幕上可見的任何文字或特殊字元。
+
+      您無法使用與表格檢視中隱藏之欄位關聯的關鍵字。
+
+   1. 在鍵盤上按Enter鍵以移至下一個找到的欄位。
+   1. （選擇性）如果有多個相符專案，請按一下搜尋關鍵字右邊的向上和向下箭頭，以尋找表格中的所有相符專案。
+   1. 按一下搜尋方塊中的X圖示以清除搜尋關鍵字。
 
 1. 更新下列檢視元素，如下列子區段所述：
    * [篩選器](#add-filters)
@@ -293,6 +307,6 @@ this is not possible right now; if this is the same functionality as the table v
 
    如果選取的記錄型別沒有包含顏色編碼選項的欄位，則此選項會變暗。
 
-1. 按一下&#x200B;**儲存**。
+1. 按一下「**儲存**」。
 
    記錄會以您所選取的規格顯示在時間軸檢視中。

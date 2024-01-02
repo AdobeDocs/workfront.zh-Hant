@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 5d8e189f01a52b2d1b605b497ed17737fb0a0924
+source-git-commit: cf044c8cff6b1172ec460ae232cd07c9b7c808b7
 workflow-type: tm+mt
-source-wordcount: '2890'
+source-wordcount: '2944'
 ht-degree: 0%
 
 ---
@@ -63,7 +63,15 @@ Only Workfront administrators can create, edit, or delete workspaces and all inf
 
 For more information, see [Grant access to Adobe Maestro](../maestro/access/grant-access.md) and [Overview of sharing permissions in Adobe Maestro](../maestro/access/sharing-permissions-overview.md). -->
 
-## 2024年12月18日當週
+## 2023年12月25日當週
+
+### 在時間軸檢視中搜尋
+
+預覽和生產： 2023年12月27日
+
+您現在可以搜尋關鍵字，以便在時間軸檢視中快速尋找記錄。 您可以使用熒幕上可見的任何欄位中的關鍵字和特殊字元來尋找記錄。 如需詳細資訊，請參閱 [管理時間表檢視](../maestro/views/manage-the-timeline-view.md).
+
+## 2023年12月18日當週
 
 ### 從詳細資訊頁面新增記錄註解
 
@@ -331,7 +339,7 @@ Maestro記錄的註解體驗符合Workfront物件的新註解體驗。
 
 預覽和生產： 2023年10月9日
 
-您現在可以搜尋關鍵字，以便在表格檢視中快速尋找記錄。 您可以在熒幕上顯示的任何欄位中使用關鍵字和特殊字元來尋找記錄。 如需詳細資訊，請參閱 [管理表格檢視](../maestro/views/manage-the-table-view.md).
+您現在可以搜尋關鍵字，以便在表格檢視中快速尋找記錄。 您可以使用熒幕上可見的任何欄位中的關鍵字和特殊字元來尋找記錄。 如需詳細資訊，請參閱 [管理表格檢視](../maestro/views/manage-the-table-view.md).
 
 ## 2023年9月18日當週
 

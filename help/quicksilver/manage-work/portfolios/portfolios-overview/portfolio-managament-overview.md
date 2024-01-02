@@ -6,7 +6,7 @@ description: Portfolio或專案Portfolio管理(PPM)是排定專案清單優先�
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 26fb28ce-0957-4db6-a275-174b1d149180
-source-git-commit: daba001c28df268721c87df7d2516ffb76e535d9
+source-git-commit: cf044c8cff6b1172ec460ae232cd07c9b7c808b7
 workflow-type: tm+mt
 source-wordcount: '621'
 ht-degree: 1%
@@ -14,6 +14,8 @@ ht-degree: 1%
 ---
 
 # Portfolio管理概觀
+
+<!--Audited: 12/2023-->
 
 ## 專案Portfolio管理(PPM)概要
 

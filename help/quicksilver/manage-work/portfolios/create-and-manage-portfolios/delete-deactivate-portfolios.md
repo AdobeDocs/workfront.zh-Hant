@@ -6,14 +6,16 @@ description: Portfolio是Adobe Workfront中的專案或方案的集合。 如果
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: f88669d2-e8e9-4905-a771-1427b1fd32b2
-source-git-commit: b774a74863bb35e3477a69ff11189c40a6d66437
+source-git-commit: cf044c8cff6b1172ec460ae232cd07c9b7c808b7
 workflow-type: tm+mt
-source-wordcount: '417'
+source-wordcount: '420'
 ht-degree: 0%
 
 ---
 
 # 刪除和停用投資組合
+
+<!--Audited: 01/2024-->
 
 Portfolio是中專案或方案的集合 [!DNL Adobe Workfront]. 如果您發現某個投資組合與您的系統無關，您可以將其刪除或停用。
 
@@ -28,16 +30,17 @@ Portfolio是中專案或方案的集合 [!DNL Adobe Workfront]. 如果您發現�
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 計劃*</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] 計畫*</td> 
    <td> <p>任何 </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 授權*</td> 
-   <td> <p>[！UICONTROL計畫] </p> </td> 
+   <td> <p>新增：[！UICONTROL Standard] </p>
+   <p>目前： [！UICONTROL計畫] </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定*</td> 
-   <td> <p>[！UICONTROL Edit]專案和Portfolio的存取權</p> <p>注意：如果您還是沒有存取權，請詢問您的 [!DNL Workfront] 管理員是否對您的存取層級設定其他限制。 如需瞭解如何 [!DNL Workfront] 管理員可以變更您的存取層級，請參閱 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>.</p> </td> 
+   <td> <p>[！UICONTROL Edit]專案和Portfolio的存取權</p> <p><b>附註</b></p> <p> 如果您沒有存取權，請詢問您的 [!DNL Workfront] 管理員是否對您的存取層級設定其他限制。 如需瞭解如何 [!DNL Workfront] 管理員可以變更您的存取層級，請參閱 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">物件許可權</td> 
@@ -74,7 +77,7 @@ Portfolio是中專案或方案的集合 [!DNL Adobe Workfront]. 如果您發現�
 
 1. 按一下 **[!UICONTROL Portfolio]** .
 1. 按一下投資組合的名稱。
-1. 按一下「更多」功能表 ![](assets/more-icon.png) 投資組合名稱右側，然後按一下 **[!UICONTROL 停用Portfolio]**.
+1. 按一下 **更多** 功能表 ![](assets/more-icon.png) 投資組合名稱右側，然後按一下 **[!UICONTROL 停用Portfolio]**.
 
 ## 刪除投資組合
 

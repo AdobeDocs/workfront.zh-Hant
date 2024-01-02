@@ -6,14 +6,16 @@ description: Adobe Workfront可讓敏捷團隊以漸進式、有條理的方式�
 author: Lisa
 feature: Agile
 exl-id: 3afd16db-7829-4c9c-a981-461990c9dbc8
-source-git-commit: 59c3a57e334d1660e3e59da480a90060b1ba81b7
+source-git-commit: cf044c8cff6b1172ec460ae232cd07c9b7c808b7
 workflow-type: tm+mt
-source-wordcount: '966'
+source-wordcount: '1001'
 ht-degree: 1%
 
 ---
 
 # 建立敏捷團隊
+
+<!--Audited: 01/2024-->
 
 [!DNL Adobe Workfront] 讓敏捷團隊以漸進式、有條理的方式完成工作。
 
@@ -41,7 +43,10 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] 授權*</strong></td> 
-   <td> <p>[！UICONTROL計畫]建立新的敏捷團隊；[！UICONTROL工作]或更新的版本將團隊轉換為敏捷團隊</p> </td> 
+   <td> <p>新增：標準</p>
+   目前： 
+   <ul><li><p>[！UICONTROL計畫]以建立新的敏捷團隊</p></li> 
+   <li><p>[！UICONTROL Work]或更高版本，可將團隊轉換為敏捷團隊</p></li></ul> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -85,12 +90,15 @@ ht-degree: 1%
 
 ## 建立敏捷團隊
 
-1. 按一下 **[!UICONTROL 主要功能表]** 圖示 ![](assets/main-menu-icon.png) 位於的右上角 [!DNL Adobe Workfront]，然後按一下 **[!UICONTROL 團隊]**.
+{{step1-to-team}}
+
 1. 按一下 **[!UICONTROL 切換群組]** 圖示 ![切換群組圖示](assets/switch-team-icon.png)，然後按一下 **[!UICONTROL 建立新團隊]**.
 
    ![選取「建立新團隊」。](assets/create-new-team-350x198.png)
 
-1. 指定下列資訊於 [!UICONTROL 新團隊] 對話方塊：
+   「新專案團隊」方塊隨即顯示。
+
+1. 指定下列資訊：
 
    <table style="table-layout:auto"> 
     <col> 
@@ -103,10 +111,17 @@ ht-degree: 1%
      <tr> 
       <td role="rowheader"><strong>[！UICONTROL這是一個敏捷團隊]</strong> </td> 
       <td>選取此選項可將此新團隊設定為敏捷團隊。</td> 
-     </tr> 
-     <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
+     </tr>
+
+   <tr> 
+      <td role="rowheader"><strong>[！UICONTROL作用中]</strong> </td> 
+      <td>選取此選項以啟動此團隊。 其他使用者看不到非作用中的團隊以指派給工作。 </td> 
+     </tr>
+
+
+   <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
       <td role="rowheader"><strong>[！UICONTROL群組]</strong> </td> 
-      <td> <p>開始鍵入要加入團隊的群組名稱，然後在名稱出現在下拉式清單中時選取名稱。</p> <p>附註：將專案團隊指派給群組或子群組時，該群組或子群組的任何群組管理員都可以管理專案團隊，而無需成為其成員。 群組管理員可以從[！UICONTROL主功能表]前往[！UICONTROL團隊]區域，然後按一下[！UICONTROL切換團隊]箭頭 <img src="assets/switch-team-icon.png" alt="切換群組圖示"> 列出指派給其管理群組的所有團隊。</p> </td> 
+      <td> <p>開始鍵入要加入團隊的群組名稱，然後在名稱出現在下拉式清單中時選取名稱。</p> <p><b>附註</b></p> <p> 將專案團隊指派給群組或子群組時，該群組或子群組的任何群組管理員都可以管理專案團隊，而無需成為專案團隊的成員。 群組管理員可以從[！UICONTROL主功能表]前往[！UICONTROL團隊]區域，然後按一下[！UICONTROL切換團隊]箭頭 <img src="assets/switch-team-icon.png" alt="切換群組圖示"> 列出指派給其管理群組的所有團隊。</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>[！UICONTROL團隊成員]</strong> </td> 
@@ -145,7 +160,9 @@ ht-degree: 1%
 
 1. 按一下 **儲存變更。**
 
-   如需有關設定敏捷團隊的資訊，請參閱下列文章：
+   團隊會儲存為敏捷團隊。 編輯團隊時，您可以將新團隊設定為Scrum或Kanban團隊。
+
+   如需詳細資訊，請參閱下列文章：
 
    * [設定 [!UICONTROL Kanban]](../../agile/get-started-with-agile-in-workfront/configure-kanban.md)
    * [設定 [!UICONTROL Scrum]](../../agile/get-started-with-agile-in-workfront/configure-scrum.md)

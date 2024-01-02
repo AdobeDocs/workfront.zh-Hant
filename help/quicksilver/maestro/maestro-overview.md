@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: 5d8e189f01a52b2d1b605b497ed17737fb0a0924
+source-git-commit: cf044c8cff6b1172ec460ae232cd07c9b7c808b7
 workflow-type: tm+mt
-source-wordcount: '1951'
+source-wordcount: '1959'
 ht-degree: 1%
 
 ---
@@ -77,6 +77,7 @@ Adobe大師是Adobe Workfront的新產品。 Maestro的目的在於全面掌握�
 | 連線工作區 |                               | ✓ (A) |                  |
 | 連線主要記錄和分類法 | ✓ (A) |
 | 在表格檢視中搜尋記錄 | ✓ (A) |   |
+| 在時間軸檢視中搜尋記錄 | ✓ (A) |   |
 | 將Maestro記錄連線至Workfront專案、計畫、投資組合、公司、群組 | ✓ (A) |                                 |                  |
 | 將Maestro記錄連線至Adobe Experience Manager資產 | ✓ (A) |                                  |                 |
 | 記錄詳細資訊頁面 | ✓ (A) |                                  |                  |

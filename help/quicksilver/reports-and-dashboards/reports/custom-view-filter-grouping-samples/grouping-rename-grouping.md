@@ -2,110 +2,110 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: '分組：編輯分組中的顯示名稱'
-description: 您可以將分組更名為用戶更熟悉的內容。
-author: Lisa and Nolan
+title: 「分組：編輯分組中的顯示名稱」
+description: 您可以將清單和報告中的群組重新命名為您的使用者更熟悉的專案。
+author: Nolan
 feature: Reports and Dashboards
 exl-id: 072d3c2b-9ede-4bb9-9a27-dc77ceb732c4
-source-git-commit: 661f925b4e485069122ef4278b2914d206387974
+source-git-commit: 138181de2ad8257785773a5296bc5bcfc144a801
 workflow-type: tm+mt
-source-wordcount: '340'
+source-wordcount: '369'
 ht-degree: 0%
 
 ---
 
 # 分組：編輯分組中的顯示名稱
 
-您可以將分組更名為用戶更熟悉的內容。
+<!--Audited: 01/2024-->
 
-例如，將標準Portfolio名稱分組應用於項目清單時，分組的名稱將顯示為 *Portfolio:名稱：`<name of portfolio>`*。
+您可以將群組重新命名為使用者更熟悉的名稱。
+
+例如，當您套用標準Portfolio名稱分組至專案清單時，分組的名稱會顯示為 *Portfolio：名稱：`<name of portfolio>`*.
 
 ![](assets/grouping-unedited-name-350x167.png)
 
-可以使用文本模式修改此分組以顯示易於讀取的名稱。
+您可以使用文字模式來修改此群組，以顯示較容易閱讀的名稱。
 
 ![](assets/grouping-edited-name-350x160.png)
 
-## 訪問要求
+## 存取需求
 
-您必須具有以下訪問權限才能執行本文中的步驟：
+您必須具有下列存取權才能執行本文中的步驟：
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront計畫</td> 
+   <td role="rowheader">Adobe Workfront計畫*</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront許可證*</td> 
-   <td> <p>請求修改分組 </p>
-   <p>計畫修改報表</p> </td> 
+   <td role="rowheader">Adobe Workfront授權*</td> 
+   <td>
+
+<p>新增： </p>
+   <ul>
+   <li> <p>修改群組的參與者 </p></li>
+   <li><p>用於修改報告的標準</p></li></ul>
+
+<p> 目前：</p>
+   <ul>  
+   <li><p>請求修改分組 </p></li>
+   <li><p>計畫修改報表</p></li> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">訪問級別配置*</td> 
-   <td> <p>編輯對報表、儀表板、日曆的訪問以修改報表</p> <p>編輯對篩選器、視圖、分組的訪問以修改分組</p> <p><b>附註</b>
+   <td role="rowheader">存取層級設定*</td> 
+   <td> <p>編輯報告、儀表板、行事曆的存取權以修改報告</p> <p>編輯對篩選器、檢視、群組的存取權以修改群組</p> <p><b>附註</b>
 
-如果您仍然沒有訪問權限，請詢問您的Workfront管理員是否在您的訪問級別設定了其他限制。 有關Workfront管理員如何修改您的訪問級別的資訊，請參見 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自定義訪問級別</a>。</p> </td>
+如果您還是沒有存取權，請詢問您的Workfront管理員，他們是否在您的存取層級中設定其他限制。 如需有關Workfront管理員如何修改您的存取層級的資訊，請參閱 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>.</p> </td>
 </tr>  
   <tr> 
-   <td role="rowheader">對象權限</td> 
-   <td> <p>管理對報表的權限</p> <p>有關請求附加訪問的資訊，請參見 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">請求訪問對象 </a>。</p> </td> 
+   <td role="rowheader">物件許可權</td> 
+   <td> <p>管理報表的許可權</p> <p>如需請求其他存取許可權的詳細資訊，請參閱 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">要求物件的存取權 </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;要瞭解您擁有的計畫、許可證類型或訪問權限，請與您的Workfront管理員聯繫。
+&#42;若要瞭解您擁有的計畫、授權型別或存取權，請聯絡您的Workfront管理員。
 
-## 編輯分組中的顯示名稱
+## 編輯群組中的顯示名稱
 
-要更改項目分組中的顯示名稱：
+若要變更專案群組中的顯示名稱：
 
-1. 轉到項目清單。
-1. 從 **分組**&#x200B;下拉菜單，選擇 **新建分組**。
+1. 前往專案清單。
+1. 從 **分組** 下拉式功能表，選取 **新群組**.
 
-1. 按一下 **添加分組**，然後在中鍵入「Portfolio名稱」 **首先：** 的子菜單。
+1. 按一下 **新增群組**，並開始在「 」中輸入「Portfolio名稱」 **首先由：** 欄位，然後在其顯示在清單中時選取它。
 
-1. 按一下 **切換到文本模式**。
-1. 執行下列操作之一：
+1. 按一下 **切換到文字模式**.
+1. 執行下列任一項作業：
 
-   * 將以下代碼添加到中的現有文本 **將報告分組** 框中：
+   * 將下列程式碼新增至 **將報告分組** 方塊：
 
-      ```
-      group.0.displayname=Your
-      ```
 
-      ```
-      Value
-      ```
+     `group.0.displayname=Your Value`
 
-      或者，在本例中：
 
-      ```
-      group.0.displayname=Portfolio
-      ```
+     或者，在此案例中：
 
-   * 刪除分組的文本模式介面中包含「name」一詞的所有行，然後添加該行：
+     `group.0.displayname=Portfolio`
 
-      ```
-      group.0.name=Your Value
-      ```
+   * 移除群組文字模式介面中所有含有「名稱」字樣的行，然後新增該行：
 
-      或者，在本例中：
+     `group.0.name=Your Value`
 
-      ```
-      group.0.name=Portfolio
-      ```
+     或者，在此案例中：
 
-      您也可以
+     `group.0.name=Portfolio`
 
-      ```
-      group.0.name
-      ```
+     >[!TIP]
+     >
+     >您也可以離開 `group.0.name=` 和 `group.0.displayname=` 行空白，在此情況下，分組會顯示您分組依據的值。
 
-      行為空，在這種情況下，分組顯示要分組依據的值的名稱。
 
-      ![](assets/grouping-edited-name-no-name-350x162.png)
+     ![](assets/grouping-edited-name-no-name-350x162.png)
 
-1. 按一下 **完成**，則 **保存分組**。
+1. 按一下 **完成**，然後 **儲存群組**.
+
+   根據您的文字模式資訊修改分組的預設名稱。

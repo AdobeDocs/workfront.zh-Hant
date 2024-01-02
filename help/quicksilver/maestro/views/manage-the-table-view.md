@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: 6f026590f0030b564f0d110afead9ade1acd7896
+source-git-commit: cf044c8cff6b1172ec460ae232cd07c9b7c808b7
 workflow-type: tm+mt
 source-wordcount: '2307'
 ht-degree: 3%
@@ -199,13 +199,13 @@ Maestro表格檢視的欄標題會顯示與檢視中記錄相關聯的欄位。 
 
    1. 按一下 **搜尋** 圖示 ![](assets/search-icon.png) 並開始輸入與畫面上所顯示之記錄的任何欄位相關聯的關鍵字。 正確相符的數目會顯示在搜尋專案旁邊，而具有正確相符專案的欄位會反白顯示。
 
+      ![](assets/search-box-with-results-blue-outline-table-view.png)
+
       您可以使用熒幕上可見的任何文字或特殊字元。
 
       您無法使用與表格檢視中隱藏之欄位關聯的關鍵字。
 
-      在鍵盤上按Enter鍵會前往下一個找到的欄位。
-
-      ![](assets/search-box-with-results-blue-outline-table-view.png)
+   1. 在鍵盤上按Enter鍵以移至下一個找到的欄位。
 
    1. （選擇性）如果有多個相符專案，請按一下搜尋關鍵字右邊的向上和向下箭頭，以尋找表格中的所有相符專案。
 

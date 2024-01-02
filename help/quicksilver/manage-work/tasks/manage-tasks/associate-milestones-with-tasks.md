@@ -1,57 +1,25 @@
 ---
 product-area: projects
 navigation-topic: manage-tasks
-title: 將里程碑與任務關聯
-description: 您可以將里程碑與任務關聯，以指出您何時到達專案期限內的重要步驟。
+title: 將里程碑與任務建立關聯
+description: 您可以將里程碑與任務建立關聯，以指出您在專案存留期中何時達到重要步驟。 您必須先將里程碑路徑與專案相關聯，然後才能將里程碑與專案上的任務相關聯。
 author: Alina
 feature: Work Management
 exl-id: 56410640-fde4-417f-8ea0-f089315476f7
-source-git-commit: 7b61f6d9380365daa614c597ee7755d6d01d915d
+source-git-commit: cf044c8cff6b1172ec460ae232cd07c9b7c808b7
 workflow-type: tm+mt
-source-wordcount: '390'
+source-wordcount: '413'
 ht-degree: 0%
 
 ---
 
-# 將里程碑與任務關聯
+# 將里程碑與任務建立關聯
 
-您可以將里程碑與任務關聯，以指出您何時到達專案期限內的重要步驟。
+<!--Audited: 01/2024-->
+
+您可以將里程碑與任務建立關聯，以指出您在專案存留期中何時達到重要步驟。
 
 ## 存取需求
-
-<!--drafted - replace table for P&P:
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
-   <td> <p>Any</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>Current license: Standard</p> 
-   Or
-  <p>Legacy license: Work or higher</p> 
-   </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to Tasks</p> <p><b>NOTE</b>
-   
-   If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Object permissions</td> 
-   <td> <p>Manage permissions to the task</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
--->
-
-您必須具備下列存取權，才能執行本文中的步驟：
 
 <table style="table-layout:auto"> 
  <col> 
@@ -63,51 +31,57 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront授權*</td> 
-   <td> <p>工作或更高</p> </td> 
+   <td> <p>新授權： Standard</p> 
+   <p>目前授權：工作或以上</p> 
+   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">訪問級別配置*</td> 
-   <td> <p>編輯對任務的訪問</p> <p>注意：如果您仍無權存取，請洽詢您的Workfront管理員，他們是否在您的存取層級設定其他限制。 如需Workfront管理員如何修改您的存取層級的詳細資訊，請參閱 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>.</p> </td> 
-  </tr> 
+   <td role="rowheader">存取層級設定*</td> 
+   <td> <p>編輯任務的存取權</p> <p><b>附註</b>
+
+如果您沒有存取權，請洽詢Workfront管理員，瞭解他們是否在您的存取層級設定其他限制。 如需有關Workfront管理員如何修改您的存取層級的資訊，請參閱 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>.</p> </td>
+</tr> 
   <tr> 
-   <td role="rowheader">物件權限</td> 
-   <td> <p>管理任務的權限</p> <p>有關請求其他訪問的資訊，請參閱 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">請求對對象的訪問 </a>.</p> </td> 
+   <td role="rowheader">物件許可權</td> 
+   <td> <p>管理任務的許可權</p> <p>如需請求其他存取許可權的詳細資訊，請參閱 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">要求物件的存取權 </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;若要了解您擁有的計畫、授權類型或存取權，請聯絡您的Workfront管理員。
+&#42;若要瞭解您擁有的計畫、授權型別或存取權，請聯絡您的Workfront管理員。
 
-## 必要條件
+## 先決條件
 
-在將里程碑與任務關聯之前，必須存在以下內容：
+在您將里程碑與任務關聯之前，必須存在下列專案：
 
-* Workfront管理員必須建立里程碑路徑，如 [建立里程碑路徑](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md).
+* Workfront管理員必須建立里程碑路徑，如所述 [建立里程碑路徑](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md).
 
-* 要將里程碑路徑與項目關聯，項目必須處於「計畫」或「當前」狀態。
+* 您必須將里程碑路徑關聯至專案。
 
->[!TIP]
->
->若要使用「里程碑」檢視取得專案里里程碑進度的最佳概覽，您應建立父任務，並將它們與專案的每個主要階段建立關聯。 然後，將這些父任務與里程碑路徑的每個里程碑相關聯。
+  如需詳細資訊，請參閱 [編輯專案](/help/quicksilver/manage-work/projects/manage-projects/edit-projects.md).
 
-## 將里程碑與任務關聯
+* 若要將里程碑路徑與專案產生關聯，專案必須處於「計畫」或「目前」狀態。
 
-1. 前往專案，然後按一下 **更多** 圖示 ![](assets/more-icon.png)，然後 **編輯**.
-1. 使用 **設定** 節，設定要在項目上使用的里程碑路徑。
-1. 按一下&#x200B;**儲存**。
+  >[!TIP]
+  >
+  >若要使用「里程碑」檢視取得專案中里程碑進度的最佳總覽，您應該建立父系任務，並將其與專案的每個主要階段建立關聯。 然後，將這些父系任務與里程碑路徑的每個里程碑相關聯。
 
-   將里程碑路徑與項目關聯後，可以為任務分配里程碑。
+## 將里程碑與任務相關聯
 
-1. 前往任務，然後按一下 **更多** 圖示 ![](assets/more-icon.png)，然後 **編輯**.
+里程碑路徑與專案相關聯後，任務可指派為里程碑。
 
-   任務和里程碑之間有1:1關係。 不能將相同的里程碑附加到多個任務。 每個任務可以連結到單個里程碑，或者每個里程碑可以映射到一個任務。
+1. 前往工作，然後按一下 **更多** 圖示 ![](assets/more-icon.png) 在任務名稱的右側，然後 **編輯**.
 
-1. 按一下 **設定**，然後選取 **里程碑** 欄位。
-1. 按一下 **儲存**.
-1. （選用）在任務清單中，新增 **狀態表徵圖** 欄，以識別哪些工作具有里程碑。
+   任務和里程碑之間有1:1的關係。 您無法將相同的里程碑附加到多個任務。 每個任務都可以連結至單一里程碑，或者每個里程碑都可以對應至一個任務。
+
+1. 按一下 **設定**，然後選取中的里程碑 **里程碑** 任務的欄位。
+1. 按一下「**儲存**」。
+1. （可選）在工作清單中，新增 **狀態圖示** 欄以識別哪些任務具有里程碑。 里程碑菱形指示器會顯示在「狀態圖示」欄中。
+
+   如需詳細資訊，請參閱 [在Adobe Workfront中建立或編輯檢視](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md).
 
    ![](assets/amwt3.png)
 
-1. （選用）在專案清單中，選取 **里程碑** 查看以識別里程碑任務的進度。
+1. （可選）前往專案清單，選取 **里程碑** 檢視以識別里程碑任務的進度。
 
-   ![Screen_Shot_2018-06-13_at_3.57.56_PM.png](assets/screen-shot-2018-06-13-at-3.57.56-pm-350x57.png)
+   ![](assets/milestone-view-project-list.png)
