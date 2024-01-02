@@ -4,9 +4,9 @@ description: 2024年第一季版本總覽
 author: Becky
 feature: Product Announcements
 exl-id: 2ad9e170-9e63-472a-8476-13f81b7abff3
-source-git-commit: c32ff93b682ffd6333dcf50096d674a4eeaccef3
+source-git-commit: 845f0c04923f6e35dcb004ba807c79577385462b
 workflow-type: tm+mt
-source-wordcount: '1420'
+source-wordcount: '1354'
 ht-degree: 0%
 
 ---
@@ -205,24 +205,24 @@ ht-degree: 0%
                         </p>
                     </td>
                  </tr>
-                 <tr>
+<!--                <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">使用版面配置範本的新首頁的管理員控制項</a></p><p>管理員現在可以使用版面配置範本來自訂使用者的新首頁。 自訂選項包括選取必要的Widget及其位置、選擇背景，以及用於選擇可用篩選器和群組（以及設定預設值）的Widget特定選項。</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">Administrator controls for new Home using layout templates</a></p><p>Administrators can now customize new Home for users using layout templates. Customization options include selecting mandatory widgets and their position, choosing a background, and widget-specific options for choosing available filters and groups (and setting defaults).</p>
                     </td>
-                    <td><p><b>將於下列日期提供：</b></p>
+                    <td><p><b>Available on these dates:</b></p>
                         <ul>
                             <li>
-                                <p>預覽版本： 2023年12月21日</p>
+                                <p>Preview release: December 21, 2023</p>
                             </li>
                             <li>
-                                <p>快速發行生產：第24.1發行版本</p>
+                                <p>Production for fast release: With the 24.1 release</p>
                             </li>
                             <li>
-                                <p>每季發行生產：透過24.1發行</p>
+                                <p>Production for quarterly release: With the 24.1 release</p>
                             </li>
                         </ul>
                     </td>
-                </tr>
+                </tr>-->
                  <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">我的工作快速動作按鈕已變更為僅在滑鼠懸停時顯示</a></p><p>[！BADGE In Production ]{type=Informative}</p><p>為了提高效能，現在只有當工作專案以滑鼠懸停在工作專案上時，才會顯示我的工作Widget中可用的快速動作按鈕。</p>
