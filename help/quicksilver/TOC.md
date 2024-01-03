@@ -3,9 +3,9 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文件、教學課程和其他資源，了解如何在您的組織中實施並有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: abaabf12d63ea1e279d14ad8467ac239e6c211b1
+source-git-commit: d5f4e83badd4d011816551f06b056ffe886d3b17
 workflow-type: tm+mt
-source-wordcount: '13842'
+source-wordcount: '13841'
 ht-degree: 1%
 
 ---
@@ -1762,7 +1762,7 @@ ht-degree: 1%
       * [使用摘要更新工作負載平衡器中的工作項](resource-mgmt/workload-balancer/update-items-in-summary-panel-in-workload-balancer.md)
 * 檢閱與核准工作 {#review-and-approve-work}
    * [檢閱和核准工作](review-and-approve-work/review-and-approve-work.md)
-   * [Alpha程式 — 檔案核准](review-and-approve-work/Documents/doc-approvals-alpha.md)
+   * [Alpha計畫 — 檔案核准](review-and-approve-work/Documents/doc-approvals-alpha.md)
    * [非付費使用者的有限檔案和校訂決定概覽](review-and-approve-work/proof-doc-decision-limits.md)
    * 工作核准 {#work-approvals}
       * [工作核准](review-and-approve-work/manage-approvals/manage-approvals.md)
@@ -2156,7 +2156,7 @@ ht-degree: 1%
       * [Adobe Acrobat Sign模組](workfront-fusion/apps-and-their-modules/adobe-sign-modules.md)
       * [Adobe Creative Cloud程式庫模組](workfront-fusion/apps-and-their-modules/creative-cloud-libraries-modules.md)
       * [Adobe Campaign Classic模組](workfront-fusion/apps-and-their-modules/adobe-campaign-classic-connector.md)
-      * [Adobe Experience Manager資產模組](workfront-fusion/apps-and-their-modules/aem-assets-modules.md)
+      * [Adobe Experience Manager Assets模組](workfront-fusion/apps-and-their-modules/aem-assets-modules.md)
       * [Adobe Experience Manager Forms模組](workfront-fusion/apps-and-their-modules/aem-forms-modules.md)
       * [Adobe Journey Optimizer模組](workfront-fusion/apps-and-their-modules/adobe-journey-optimizer-modules.md)
       * [Adobe大師模組](/help/quicksilver/workfront-fusion/apps-and-their-modules/maestro-modules.md)

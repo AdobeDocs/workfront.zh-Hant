@@ -7,14 +7,16 @@ description: 與任務、問題或專案相關的計畫時數代表指派的使�
 author: Alina
 feature: Work Management
 exl-id: 0b86c760-691a-436e-9beb-31e9ac36440a
-source-git-commit: 59c3a57e334d1660e3e59da480a90060b1ba81b7
+source-git-commit: 48efc796923079622ce4bc1c2bddb2429915c9a1
 workflow-type: tm+mt
-source-wordcount: '2803'
+source-wordcount: '2815'
 ht-degree: 0%
 
 ---
 
 # 計畫時數概觀
+
+<!-- Audited: 01/2024 -->
 
 與任務、問題或專案相關的計畫時數代表指派的使用者完成任務、問題或專案所需的時間量。
 
@@ -30,16 +32,13 @@ ht-degree: 0%
 
 * 您可以隨時修改問題的計畫時數值。
 * 您無法修改專案或父系任務的計畫時數值，因為它們是所有任務和子任務的所有計畫時數的計算總數。
-* 使用資源管理工具管理使用者配置可能會變更任務、問題、專案和與工作專案相關的指派的計畫時數。
+* 使用資源管理工具管理使用者配置可能會變更任務、問題和專案的規劃時數，以及與工作專案關聯的指派的時數。
 
 ## 任務計畫時數與專案計畫時數的比較 {#planned-hours-on-tasks-vs-planned-hours-on-projects}
 
-從任務累計至專案計畫時數的計畫時數。 問題的計畫時數並不總是累計到專案的計畫時數。
+從任務累計至專案計畫時數的計畫時數。 問題中的計畫時數並不總是向上彙整到專案的計畫時數。
 
 本節說明任務和專案計畫時數之間的差異。 它還說明您可以在何處檢視累計至專案的問題計畫時數。
-
-* [任務的計畫時數](#planned-hours-on-tasks)
-* [專案計畫時數](#planned-hours-on-projects)
 
 ### 任務的計畫時數 {#planned-hours-on-tasks}
 
@@ -78,7 +77,7 @@ ht-degree: 0%
 
 ## 找到並瞭解計畫時數值
 
-您可以在Workfront的各個區域找到計畫時數值。 
+您可以在Workfront的各個區域找到計畫時數值。
 
 顯示的計畫時數源自專案上的工作專案，或根據您檢視它們的區域和物件而計算的方式不同。
 
@@ -90,19 +89,19 @@ ht-degree: 0%
 * [工作負載平衡器](#the-workload-balancer)
 * [資源規劃工具](#the-resource-planner)
 * [使用率報表](#the-utilization-report)
-* [角色配置面板](#The%C2%A0Role)
+* [角色配置面板](#the-role-allocation-panel)
 
 ### 專案、任務或問題的詳細資訊區段 {#the-details-section-of-a-project-task-or-issue}
 
-![](assets/planned-hours-on-details-for-project-nwe-350x138.png)
+![詳細資訊區段的計畫時數](assets/planned-hours-on-details-for-project.png)
 
-任務、問題或專案詳細資訊區段中的計畫時數是與個別專案相關的計畫時數總計。
+任務、問題或專案詳細資訊區段中的計畫時數是與專案相關的計畫時數總計。
 
 如需有關專案計畫時數的詳細資訊，請參閱 [任務計畫時數與專案計畫時數的比較](#planned-hours-on-tasks-vs-planned-hours-on-projects) 一節。
 
 ### 編輯任務或編輯問題方塊 {#the-edit-task-or-edit-issue-box}
 
-![](assets/planned-hours-on-edit-task-box-nwe-350x70.png)
+![編輯任務方塊](assets/planned-hours-on-edit-task-box-nwe.png)
 
 任務或問題的編輯方塊中的計畫時數是相應專案的總計畫時數。
 
@@ -114,7 +113,7 @@ ht-degree: 0%
 
 ### 報告 {#reports}
 
-![](assets/planned-hours-on-task-repot-nwe-350x99.png)
+![報告上的計畫時數](assets/planned-hours-on-task-report.png)
 
 您可以在專案、任務和問題報告中新增「計畫時數」欄位。
 
@@ -147,7 +146,7 @@ The daily hour amount represents one of the following:
 
 ### 工作負載平衡器 {#the-workload-balancer}
 
-![](assets/planned-hours-on-wb-expanded-with-pti-info-nwe-350x114.png)
+![工作負載平衡器中的計畫時數](assets/planned-hours-on-wb-expanded-with-pti-info.png)
 
 任務、問題和專案的以下計畫時數顯示在任務、問題或專案名稱右側的工作負載平衡器：
 
@@ -163,13 +162,13 @@ The daily hour amount represents one of the following:
 計畫時數的每日小時量代表下列其中一項： 
 
 * Workfront在任務、問題或專案期間每天均分的預設金額
-* 資源管理員管理的調整後每日配置。
+* 資源管理員管理的調整每日配置
 
   如需有關在工作負載平衡器調整每日分配資訊，請參閱 [在工作負載平衡器中管理使用者配置](../../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md).
 
 ### 資源規劃工具 {#the-resource-planner}
 
-![](assets/planned-hours-on-all-objects-in-resource-planned-expanded-nwe-350x204.png)
+![資源規劃工具中的計畫時數](assets/planned-hours-on-all-objects-in-resource-planned-expanded.png)
 
 資源規劃工具會顯示專案、任務和問題的計畫時數。
 
@@ -184,9 +183,9 @@ The daily hour amount represents one of the following:
 任務和問題的每週計畫時數表示以下其中一項：
 
 * Workfront平均分配任務或問題期間每天的預設每週金額
-* 由資源管理員在工作負載平衡器管理的調整每週配置。
+* 由資源管理員在工作負載平衡器管理的調整每週配置
 
-  如需有關在工作負載平衡器，請參閱 [在工作負載平衡器中管理使用者配置](../../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md).
+  如需有關在工作負載平衡器調整每日分配資訊，請參閱 [在工作負載平衡器中管理使用者配置](../../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md).
 
 專案、使用者和角色的每週金額會受與其相關之任務和問題的每週計畫時數金額影響。
 
@@ -230,7 +229,7 @@ The daily hour amount represents one of the following:
   如需有關簡單期間型別的詳細資訊，請參閱 [期間型別概觀：簡單](../../../manage-work/tasks/taskdurtn/simple-duration-type.md).
 
 * 當您管理使用者對任務的分配時，只能針對簡單期間型別任務在工作負載平衡器中更新任務計畫時數。 如需有關在工作負載平衡器中管理使用者配置的資訊，請參閱 [在工作負載平衡器中管理使用者配置](../../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md).
-* 您無法修改工期型別為投入比導向或已計算的工作之任務的計畫時數。 在這些情況下，Workfront會根據任務的期間來決定計畫時數；但在這種情況下，計畫時數一律等於期間（以時數為單位），不受指派資源的百分比配置影響。
+* 您無法修改工期型別為投入比導向或已計算的工作之任務的計畫時數。 在這些情況下，Workfront會根據任務的期間來決定計畫時數；但在這種情況下，計畫時數一律等於期間（以小時為單位），不受指派資源之百分比配置的影響。
 
   如需投入比導向期間型別的詳細資訊，請參閱 [期間型別概觀：投入比導向](../../../manage-work/tasks/taskdurtn/effort-driven.md).
 
@@ -258,13 +257,10 @@ The daily hour amount represents one of the following:
 
 >[!NOTE]
 >
-例如，如果一項任務有10個計畫時數，而您有2個受指派人，則預設會各分配5個小時。
+例如，如果一項任務有10個計畫時數，而您有兩個受指派人，則預設會各分配5個小時。
 >
 * 如果您沒有使用工作負載平衡器更新個別使用者配置或每日配置，並且您從任務中移除任何或所有受指派人，任務計畫時數將保留10小時。
-* 如果您分別手動將工作分派的指派變更為4和6小時，並且移除指派給6小時的使用者及其工作角色，則任務「計畫小時」將更新為4小時。 如果您也移除分配至4小時的使用者，但保留與已移除使用者相關聯的工作角色，則任務的規劃時數仍為4小時。 如果您移除最後一個分配至4小時的使用者及其工作角色，且任務保持未指派，則任務的計畫時數會變成0。
-
-
-
+* 如果您分別手動將工作分派的指派變更為4和6小時，並且移除指派給6小時的使用者及其工作角色，則任務「計畫小時」將更新為4小時。 如果您也移除分配至4小時的使用者，但保留與已移除使用者相關聯的工作角色，則任務的規劃時數仍為4小時。 如果您移除最後一個分配至4小時的使用者及其工作角色，並且該任務仍然未指派，則任務計畫時數將變為0。
 
 ## 使用工作量自動更新任務計畫時數
 

@@ -6,9 +6,9 @@ description: 此 [!DNL Adobe Workfront] 字彙表列出以下專案中的常用�
 author: Alina
 feature: Get Started with Workfront
 exl-id: 758072b3-775e-4771-9ae9-da0b38580c93
-source-git-commit: 6f026590f0030b564f0d110afead9ade1acd7896
+source-git-commit: d5f4e83badd4d011816551f06b056ffe886d3b17
 workflow-type: tm+mt
-source-wordcount: '19897'
+source-wordcount: '19889'
 ht-degree: 0%
 
 ---
@@ -1141,7 +1141,7 @@ The designated full time equivalency for users. A full-time user should have 100
      <li>[！UICONTROL行事曆日] （忽略假日）</li> 
      <li>[！UICONTROL百分比]</li> 
      <li>[！UICONTROL每週特定日期]</li> 
-    </ul> <p>如需詳細資訊，請參閱以下主題中的「[！UICONTROL延遲型別概觀]」一節： <a href="../../../manage-work/tasks/use-prdcssrs/lag-types.md" class="MCXref xref">延遲型別概觀</a></p> </td> 
+    </ul> <p>如需詳細資訊，請參閱 <a href="../../../manage-work/tasks/use-prdcssrs/lag-types.md" class="MCXref xref">延遲型別概觀</a>.</p> </td>
   </tr> 
   <tr> 
    <td>[！UICONTROL大型縮圖]</td> 

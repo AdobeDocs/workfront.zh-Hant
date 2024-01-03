@@ -7,14 +7,16 @@ description: 延遲是指在強制前置任務完成後必須經過的時間量�
 author: Alina
 feature: Work Management
 exl-id: 9b3cac9a-1b8d-4697-b5d4-a2d669c790a9
-source-git-commit: a2d3032b32d321c0089839dafad6c9b3c5ba153a
+source-git-commit: d5f4e83badd4d011816551f06b056ffe886d3b17
 workflow-type: tm+mt
-source-wordcount: '1519'
+source-wordcount: '1515'
 ht-degree: 0%
 
 ---
 
 # 延遲型別概觀
+
+<!-- Audited: 01/2024 -->
 
 延遲是指前置任務計畫完成之後必須經過的時間量，直到相依任務可以開始（正延遲），或是相依任務在前置任務開始之前可以開始的時間量（負延遲）。
 
@@ -64,7 +66,9 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront授權*</td> 
-   <td> <p>計劃 </p> </td> 
+   <td><p>新增：標準</p>
+       <p>或</p>
+       <p>目前：計畫 </p> </td>
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定*</td> 
@@ -72,7 +76,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">物件許可權</td> 
-   <td> <p>管理任務和專案的許可權</p> <p>如需請求其他存取許可權的詳細資訊，請參閱 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">要求物件的存取權 </a>.</p> </td> 
+   <td> <p>管理任務和專案的許可權</p> <p>如需請求其他存取許可權的詳細資訊，請參閱 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">要求物件的存取權</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -82,9 +86,6 @@ ht-degree: 0%
 ## 指示任務的延遲和延遲型別
 
 當您定義前置任務關係時，可以在任務上指示延遲型別。
-
-* [在任務的前置任務區段中指示延遲型別](#indicate-lag-types-in-the-predecessors-section-of-a-task)
-* [指示工作清單中的延遲型別](#indicate-lag-types-in-a-task-list)
 
 ### 在任務的前置任務區段中指示延遲型別 {#indicate-lag-types-in-the-predecessors-section-of-a-task}
 
@@ -106,13 +107,13 @@ ht-degree: 0%
    * **星期**
    * **星期（非零）**
 
-     如需這些延遲型別及其計算方式的詳細資訊，請參閱區段 [延遲型別概觀](#lag-types-overview) 本文章內容。
+     如需這些延遲型別及其計算方式的詳細資訊，請參閱區段 [延遲型別](#lag-types) 本文章內容。
 
-1. 按一下&#x200B;**儲存**。
+1. 按一下「**儲存**」。
 
 ### 指示工作清單中的延遲型別  {#indicate-lag-types-in-a-task-list}
 
-1. 前往工作清單，然後選取 **標準** 從檢視 **檢視** 下拉式功能表。
+1. 前往工作清單，然後選取 **標準** 檢視。
 
 1. 按一下 **前置任務** 與您要為其指定前置任務和延遲量的任務對應的欄。
 1. 輸入以下內容（不含空格）：
@@ -125,15 +126,15 @@ ht-degree: 0%
    * 或a **+** 正延遲或 **-** 若為負延遲
 
    * 延遲的金額
-   * 您要使用的Lag Type縮寫。
+   * 您要使用的Lag Type縮寫
 
-     如需Lag型別縮寫的詳細資訊，請參閱區段 [延遲型別概觀](#lag-types-overview) 本文章內容。
+     如需Lag型別縮寫的詳細資訊，請參閱區段 [延遲型別](#lag-types) 本文章內容。
 
-   例如，若要指出某個任務具有前置任務且延遲為2天，您可以輸入  `1fs+2d` 在「前置任務」欄中。
+   例如，若要指出某個任務具有前置任務且延遲為2天，您可以輸入 `1fs+2d` 在「前置任務」欄中。
 
-1. 按一下鍵盤上的Enter以儲存對您工作的變更。
+1. 在鍵盤上按Enter鍵以儲存您工作的變更。
 
-## 延遲型別概觀 {#lag-types-overview}
+## 延遲型別 {#lag-types}
 
 需要延遲時間的作業範例可能是將樹木切割成木材。 如果剛剪下的木頭必須乾燥一段時間才能剪下，那麼剪下樹木和鋸成木頭之間就會有時間延遲。
 
@@ -159,7 +160,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td> <p>百分比（p或pe）</p> </td> 
-   <td> <p>延遲以預估完成前置任務所需時間的百分比表示。 </p> <p>例如，如果在10天的前置任務上有20%的延遲的完成 — 開始相依性，則系統會計算多少天代表前置任務任務的20%工期，並作為延遲使用。 在這種情況下，它將在任務完成後2天。 </p>
+   <td> <p>延遲以預估完成前置任務所需時間的百分比表示。 </p> <p>例如，如果在10天的前置任務上有20%的延遲的完成 — 開始相依性，則系統會計算多少天代表前置任務的20%任務工期，並作為延遲使用。 在這種情況下，它將在任務完成後2天。 </p>
 
 <p><b>附註</b></p> 百分比的最大延遲限製為2000%。</p> </td> 
   </tr> 
@@ -193,7 +194,7 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-## 負數延遲概觀
+## 負數延遲
 
 您可以使用負延遲來指示任務需要或能夠在前置任務結束之前開始。
 
