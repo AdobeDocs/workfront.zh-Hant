@@ -8,7 +8,7 @@ author: Becky
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 exl-id: e13c7dda-8945-47ad-b6d3-4d6a62b368f5
-source-git-commit: 762053edbf490532b96285a6d1edff2af49500a4
+source-git-commit: ff24fcc65791b6c18668a0dd3c58e033772a2def
 workflow-type: tm+mt
 source-wordcount: '1945'
 ht-degree: 6%
@@ -39,7 +39,7 @@ ht-degree: 6%
  <tbody> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 計畫*</td> 
-   <td> <p>[！UICONTROL Pro]或更高版本</p> </td> 
+   <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 授權*</td> 
@@ -128,7 +128,7 @@ ht-degree: 6%
 1. 在左側導覽面板中，按一下 **[!UICONTROL 系統]**，然後選取 **[!UICONTROL Oauth2應用程式]**.
 1. 按一下 **[!UICONTROL 建立應用程式整合]**.
 此 **新OAuth2應用程式** 方塊隨即顯示。
-1. 在 **新OAuth2應用程式** 方塊，選取 **[!UICONTROL 伺服器驗證]**.
+1. 在 **新OAuth2應用程式** 方塊，選取 **[!UICONTROL 機器對機器應用程式]**.
 1. 輸入新應用程式的名稱，例如&quot;[!DNL Workfront] 適用於ClientApp。」
 1. 按一下「**[!UICONTROL 建立]**」。
 1. 填寫新應用程式的欄位。
@@ -180,7 +180,7 @@ ht-degree: 6%
 1. 按一下 **[!UICONTROL 建立應用程式整合]**.
 
    此 **新OAuth2應用程式** 顯示。
-1. 在 **新OAuth2應用程式** 方塊，選取 **[!UICONTROL 使用者驗證]**.
+1. 在 **新OAuth2應用程式** 方塊，選取 **[!UICONTROL 網頁應用程式]**.
 1. 輸入新OAuth2應用程式的名稱，例如&quot;[!DNL Workfront] 適用於ClientApp。」
 1. 按一下「**[!UICONTROL 建立]**」。
 1. 填寫新應用程式的欄位。
