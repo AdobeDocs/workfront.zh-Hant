@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: cf044c8cff6b1172ec460ae232cd07c9b7c808b7
+source-git-commit: 532ec7f7a33e1e1111a31422c5c3c442b2e176b5
 workflow-type: tm+mt
 source-wordcount: '2307'
 ht-degree: 3%
@@ -209,7 +209,7 @@ Maestro表格檢視的欄標題會顯示與檢視中記錄相關聯的欄位。 
 
    1. （選擇性）如果有多個相符專案，請按一下搜尋關鍵字右邊的向上和向下箭頭，以尋找表格中的所有相符專案。
 
-   1. 按一下 **X** 圖示來清除搜尋關鍵字。
+   1. 按一下 **x** 圖示來清除搜尋關鍵字。
 
 
 ### 新增列（或記錄） {#add-rows}

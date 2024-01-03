@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: cf044c8cff6b1172ec460ae232cd07c9b7c808b7
+source-git-commit: 532ec7f7a33e1e1111a31422c5c3c442b2e176b5
 workflow-type: tm+mt
-source-wordcount: '1648'
+source-wordcount: '1649'
 ht-degree: 0%
 
 ---
@@ -154,11 +154,11 @@ role: User
 
       您可以使用熒幕上可見的任何文字或特殊字元。
 
-      您無法使用與表格檢視中隱藏之欄位關聯的關鍵字。
+      您無法使用與未顯示在時間表檢視中的欄位關聯的關鍵字。
 
    1. 在鍵盤上按Enter鍵以移至下一個找到的欄位。
    1. （選擇性）如果有多個相符專案，請按一下搜尋關鍵字右邊的向上和向下箭頭，以尋找表格中的所有相符專案。
-   1. 按一下搜尋方塊中的X圖示以清除搜尋關鍵字。
+   1. 按一下 **x** 圖示來清除搜尋關鍵字。
 
 1. 更新下列檢視元素，如下列子區段所述：
    * [篩選器](#add-filters)
