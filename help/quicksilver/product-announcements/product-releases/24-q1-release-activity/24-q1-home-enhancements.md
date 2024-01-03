@@ -4,9 +4,9 @@ description: 2024年第一季度首頁增強功能
 author: Nolan
 feature: Product Announcements
 exl-id: 30867b75-ec33-486e-acfa-b8bab6ccf23c
-source-git-commit: 845f0c04923f6e35dcb004ba807c79577385462b
+source-git-commit: 511d9b0b61870ccec13aa70c9d4d3232b3e60cd3
 workflow-type: tm+mt
-source-wordcount: '130'
+source-wordcount: '249'
 ht-degree: 0%
 
 ---
@@ -17,17 +17,13 @@ ht-degree: 0%
 
 如需2024年第一季發行週期目前可用的所有變更清單，請參閱 [2024年第一季版本總覽](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).
 
-<!--
+## 使用版面配置範本的新首頁的管理員控制項
 
-## Administrator controls for new Home using layout templates
+管理員現在可以使用版面配置範本來自訂使用者的新首頁。 自訂選項包括選取必要的Widget及其位置、選擇背景，以及用於選擇可用篩選器和群組（以及設定預設值）的Widget特定選項。
 
-Administrators can now customize new Home for users using layout templates. Customization options include selecting mandatory widgets and their position, choosing a background, and widget-specific options for choosing available filters and groups (and setting defaults).
+請注意，管理員版面配置範本選擇會覆寫個別使用者的自訂；也就是說，儲存對版面配置範本的變更時，該版面配置範本上的使用者會變更其新首頁以符合版面配置範本，而他們的現有Widget選取專案會推送至頁面底部。 雖然管理員選取的Widget可由使用者重新定位，但無法移除。
 
-Note that administrator layout template choices override individual users' customization; i.e., when changes to a layout template are saved, users on that layout template will have their new Home page changed to match the layout template and their existing widget selections will pushed to the bottom of the page. While widgets selected by the administrator may be repositioned by a user, they cannot be removed.
-
-For more information, see [Customize new Home using a layout template](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-new-home-layout-template.md).
-
--->
+如需詳細資訊，請參閱 [使用版面配置範本自訂新首頁](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-new-home-layout-template.md).
 
 ## 我的工作快速動作按鈕已變更為僅在滑鼠懸停時顯示
 
