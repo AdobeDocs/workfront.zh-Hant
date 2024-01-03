@@ -10,9 +10,9 @@ feature: System Setup and Administration
 role: Admin
 hide: true
 hidefromtoc: true
-source-git-commit: d786a5bd86bcc1a4fbacf022cc9fbee9cb321da5
+source-git-commit: 66957a8bb24538fd302fe0ff7612b266da18118f
 workflow-type: tm+mt
-source-wordcount: '745'
+source-wordcount: '869'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,8 @@ ht-degree: 0%
 Workfront檔案how-to文章包含一個表格，說明該程式所需的存取和許可權需求。 此存取需求表格可讓您瞭解您是否可以在Workfront中執行特定動作，或為何無法執行。 本文說明存取需求表格的每個元素，並提供疑難排解提示和連結，以取得更深入的資訊。
 
 如果指定文章的「存取需求」表格中沒有列，則該動作就沒有該型別的需求。
+
+某些列包含標示為「新」和「目前」的資訊。 這是因為Workfront正在轉換到新的定價和封裝模式，有些組織會在新模式下運作，有些組織則仍在使用目前的模式。 若要瞭解您的組織使用哪種模型，請聯絡您的Workfront管理員。 您可以在以下連結中找到詳細資訊和資訊連結： [存取需求表格](#the-access-requirements-table) 一節。
 
 >[!NOTE]
 >
@@ -51,6 +53,18 @@ Workfront檔案how-to文章包含一個表格，說明該程式所需的存取�
    <li>如果您擁有正確的存取層級，但仍然沒有存取權，請詢問您的Workfront管理員，他們是否對您的存取層級設定其他限制。 如需有關Workfront管理員如何修改您的存取層級的資訊，請參閱 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>.
    </ul>
       </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">產品</td> 
+   <td>除了Workfront之外，Workfront還提供一些可以購買的產品。
+   <p>說明在這些其他產品內執行的程式的文章在此處列出了所需的產品。</p>
+   <ul>
+   <li>Adobe Experience Manager Assets或Assets Essentials </li>
+   <li>Workfront Fusion</li>
+   <li>Workfront Goals</li>
+   <li>Workfront情境規劃工具</li>
+   </ul>
+   <p>若要瞭解您的組織是否已購買這些額外產品之一，請聯絡您的Workfront管理員。</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">存取層級</td> 
