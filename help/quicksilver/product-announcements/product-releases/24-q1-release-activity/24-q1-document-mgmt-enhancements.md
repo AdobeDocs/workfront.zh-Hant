@@ -4,9 +4,9 @@ description: 2024年第一季度檔案管理增強功能
 author: Lisa
 feature: Product Announcements
 exl-id: 94fb579a-b5a8-42f1-b98f-05c5ac31d29a
-source-git-commit: c32ff93b682ffd6333dcf50096d674a4eeaccef3
+source-git-commit: ab094f2d52942ce9dfa8989cc83c49c65b43de15
 workflow-type: tm+mt
-source-wordcount: '343'
+source-wordcount: '341'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ ht-degree: 0%
 
 如需特定狀態的詳細資訊，請參閱 [檔案核准狀態](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/document-approval-status.md).
 
-## 將評論標示為完成
+## 完成我的檢閱
 
 >[!NOTE]
 >
