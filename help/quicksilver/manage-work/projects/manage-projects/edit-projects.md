@@ -7,14 +7,16 @@ author: Alina
 feature: Work Management, Projects
 role: User
 exl-id: a6a1f178-189a-4c41-835b-7726081a2b49
-source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
+source-git-commit: 0da724e975cfb1f0f7e36cffdc545c6223a14a76
 workflow-type: tm+mt
-source-wordcount: '7330'
-ht-degree: 2%
+source-wordcount: '7452'
+ht-degree: 1%
 
 ---
 
 # 編輯專案
+
+<!--Audited: 01/2024-->
 
 <!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available for all customers in the Preview environment and for a select group of customers in the Production environment.</span>-->
 
@@ -30,41 +32,11 @@ ht-degree: 2%
 </div>
 -->
 
-您可以視需要經常在Adobe Workfront中編輯專案。 建議您在專案狀態變更為目前後立即編輯專案，藉由傳送有關變更的通知給整個專案團隊，以避免混淆。 理想情況下，當專案處於「計畫」狀態時，您應該編輯專案。 如需有關專案團隊的資訊，請參閱 [專案團隊概述](../../../manage-work/projects/planning-a-project/project-team-overview.md).
+您可以視需要經常在Adobe Workfront中編輯專案。 建議您在專案狀態變更為目前後立即編輯專案，藉由傳送有關變更的通知給整個專案團隊，以避免混淆。
+
+理想情況下，當專案處於「計畫」狀態時，您應該編輯專案。 如需有關專案團隊的資訊，請參閱 [專案團隊概述](../../../manage-work/projects/planning-a-project/project-team-overview.md).
 
 ## 存取需求
-
-<!--drafted - replace table at P&P:
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
-   <td> <p>Any</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
-   <td><p>Current license: Standard </p> 
-   Or
-   <p>Legacy license: Plan </p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to Projects</p> <p>If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information about access to projects, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md" class="MCXref xref">Grant access to projects</a>. For information on how a Workfront administrator can change your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>. </p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Object permissions</td> 
-   <td> 
-     <p>Manage permissions to a project </p> 
-     <p> For information about project permissions, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md" class="MCXref xref">Share a project in Adobe Workfront</a>.</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
--->
-
-您必須具有下列存取權才能執行本文中的步驟：
 
 <table style="table-layout:auto"> 
  <col> 
@@ -76,17 +48,19 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront授權*</td> 
-   <td> <p>計劃 </p> </td> 
+   <td><p>新增：標準 </p> 
+   或
+   <p>目前：計畫 </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定*</td> 
-   <td> <p>編輯專案的存取權</p> <p>如果您還是沒有存取權，請詢問您的Workfront管理員，他們是否在您的存取層級中設定其他限制。 如需有關存取專案的資訊，請參閱 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md" class="MCXref xref">授予專案存取權</a>. 如需有關Workfront管理員如何變更您的存取層級的資訊，請參閱 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>. </p> </td> 
+   <td> <p>編輯專案的存取權</p> <p>如果您沒有存取權，請洽詢Workfront管理員，瞭解他們是否在您的存取層級設定其他限制。 如需有關存取專案的資訊，請參閱 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md" class="MCXref xref">授予專案存取權</a>. 如需有關Workfront管理員如何變更您的存取層級的資訊，請參閱 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>. </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">物件許可權</td> 
    <td> 
-    <p>管理專案的許可權 </p> 
-    <p> 如需有關專案許可權的資訊，請參閱 <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md" class="MCXref xref">在Adobe Workfront中共用專案</a>.</p> <p>如需請求其他存取許可權的詳細資訊，請參閱 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">要求物件的存取權 </a>.</p> </td> 
+     <p>管理專案的許可權 </p> 
+     <p> 如需有關專案許可權的資訊，請參閱 <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md" class="MCXref xref">在Adobe Workfront中共用專案</a>.</p> <p>如需請求其他存取許可權的詳細資訊，請參閱 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">要求物件的存取權 </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -99,7 +73,7 @@ ht-degree: 2%
 
 編輯專案時，請考量下列事項：
 
-* 您無法編輯核准流程中的專案，記錄時間除外。
+* 您無法編輯處於核准流程的專案，除非記錄時間並變更狀態。
 * 只有在Workfront管理員或群組管理員在專案偏好設定區域中啟用此功能時，您才能將檔案或範本附加至狀態為「完成」、「廢棄」或「擱置核准」的專案。 如需關於設定專案偏好設定的資訊，請參閱 [設定全系統專案偏好設定](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 * 您只能在處於廢棄或完成狀態的專案上編輯下列資訊：
 
@@ -110,20 +84,25 @@ ht-degree: 2%
 
 透過編輯專案，您可以修改專案的資訊和設定，以及專案上的任務和問題。
 
-本文中提及的某些設定可能會根據其建立專案之範本中的狀態從預設狀態進行修改。 如需有關編輯範本的資訊，請參閱 [編輯專案範本](../../../manage-work/projects/create-and-manage-templates/edit-templates.md).
+本文中提及的某些設定可能會根據其建立專案之範本中的狀態從預設狀態進行修改。
 
-1. 按一下 **主要功能表** 圖示 ![](assets/main-menu-icon.png) (位於Adobe Workfront的右上角)，然後按一下 **專案**.
+如需有關編輯範本的資訊，請參閱 [編輯專案範本](../../../manage-work/projects/create-and-manage-templates/edit-templates.md).
+
+如需有關從範本建立專案的資訊，請參閱 [使用範本建立專案](/help/quicksilver/manage-work/projects/create-projects/create-project-from-template.md).
+
+{{step1-to-projects}}
+
 1. （選用）按一下 **我參與的專案** 或 **我擁有的專案** 右上角以顯示您擁有之專案或您身為專案團隊成員的專案。
 
    ![](assets/projects-on-my-own-buttons-350x302.png)
-
-1. 按一下您要編輯的專案名稱以開啟專案頁面。
 
    >[!NOTE]
    >
    >如果您是群組管理員，則可在「群組」區域以及「專案」區域中看見並編輯群組的專案。 如需詳細資訊，請參閱 [建立和修改群組的專案](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-projects.md).
 
-1. （選用）若要編輯專案的有限資訊，請按一下 **專案詳細資訊** 在左側面板中。
+1. 按一下您要編輯的專案名稱以開啟專案頁面。
+
+1. （選用）若要編輯專案的有限資訊，請按一下 **專案詳細資訊** 在左側面板中。 如果您想要編輯專案的所有相關資訊，請繼續進行步驟5。 <!--accurate?!-->
 
    ![](assets/nwe-project-details-expanded-350x298.png)
 
@@ -133,7 +112,7 @@ ht-degree: 2%
 
    若要編輯「詳細資訊」段落中的資訊，請執行下列動作：
 
-   1. （可選）按一下 **全部收合** 圖示以收合所有區域。
+   1. （可選）按一下 **全部收合** 圖示 ![](assets/collapse-icon.png)  以收合所有區域。
    1. （選擇性和條件性）收合區域時，按一下 **向右鍵** ![](assets/right-pointing-arrow.png) 展開每個區域旁的要編輯區域。
    1. 如需有關在專案詳細資訊索引標籤中編輯資訊的詳細資訊，請參閱下列文章：
 
@@ -144,7 +123,7 @@ ht-degree: 2%
    1. （可選）按一下 **匯出** 圖示 ![](assets/export.png) 若要將概述和自訂表單資訊匯出至PDF檔案，請按一下 **匯出**. 從下列選項中選取：
 
       * 全選（至少附加一個自訂表單時顯示）
-      * 總覽
+      * 概觀
       * 一或多個自訂表單的名稱
 
       PDF檔案會下載到您的電腦。
@@ -158,7 +137,9 @@ ht-degree: 2%
 
    或
 
-   從專案清單中，選取專案，然後按一下 **編輯** 圖示 ![](assets/edit-icon.png) 在清單頂端。
+   從專案清單中，選取一或多個專案，然後按一下 **編輯** 圖示 ![](assets/edit-icon.png) 在清單頂端。
+
+   如需大量編輯專案的詳細資訊，請參閱區段 [大量編輯專案](#edit-projects-in-bulk) 本文章內容。
 
    此 **編輯專案** 方塊開啟。
 
@@ -172,10 +153,10 @@ ht-degree: 2%
    >
    >視您的Workfront管理員或群組管理員修改版面配置範本的方式而定，編輯專案方塊左側面板中的區域或這些區域中列出的任何欄位可能會重新排列或不顯示。 如需詳細資訊，請參閱 [使用版面配置範本自訂詳細資料檢視](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md).
 
-1. （視條件而定）如果您按一下 **更多** 功能表，然後 **編輯**，請考慮更新左側面板所列之下列任一區域中的資訊：
+1. （視條件而定）如果您按一下 **更多** 功能表，然後 **編輯**，請更新左側面板所列之下列任一區域中的資訊：
 
    * [專案名稱](#project-name)
-   * [總覽](#overview)
+   * [概觀](#overview)
    * [自訂表單](#custom-forms)
    * [財務](#finance)
    * [專案設定](#project-settings)
@@ -198,7 +179,7 @@ ht-degree: 2%
 
    大量編輯專案時，您無法編輯專案名稱。
 
-### 總覽 {#overview}
+### 概觀 {#overview}
 
 1. 如上所述開始編輯您的專案。
 1. 按一下 **概觀** 在左側面板中。
@@ -208,96 +189,102 @@ ht-degree: 2%
 1. 更新下列專案相關資訊：
 
    <table style="table-layout:auto"> 
-    <col> 
-    <col> 
-    <tbody> 
-     <tr> 
-      <td role="rowheader"><strong>說明</strong> </td> 
-      <td> <p>新增關於專案的其他資訊。</p> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader"><strong>狀態</strong> </td> 
-      <td> <p>選取專案狀態。 您無法在所有任務和問題完成之前將專案標籤為完成。 如需有關專案狀態的資訊，請參閱 <a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/project-statuses.md" class="MCXref xref">存取系統專案狀態清單</a></p> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader"><strong>優先順序</strong> </td> 
-      <td> <p> <p>這只是一個視覺化的標幟，可讓您排定專案的優先順序。</p> <p>根據Workfront管理員選取的專案偏好設定，您的優先順序名稱可能會不同。 如需有關編輯優先順序的詳細資訊，請參閱 <a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-priorities.md" class="MCXref xref">建立和自訂優先順序</a></p> </p> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader"><strong>URL</strong> </td> 
-      <td> <p>指定與此專案相關資訊的網頁連結。</p> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader"><strong>狀況類型</strong> </td> 
-      <td> <p>在下列條件型別之間選取： 
-       <ul> 
-       <li><strong>手動：</strong> 專案所有者手動設定專案條件。</li> 
-       <li><strong>進度狀態：</strong> Workfront會根據關鍵路徑上任務的進度狀態自動設定條件。 如需瞭解進度狀態的詳細資訊，請參閱 <a href="../../../manage-work/tasks/task-information/task-progress-status.md" class="MCXref xref">任務進度狀態總覽</a>.</li> 
-       </ul><p>您的Workfront管理員<span> 或群組管理員</span> 選取系統專案狀態計算方式的預設值 <span>或您的群組</span>. 如需有關設定專案預設值的資訊，請參閱 <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">設定全系統專案偏好設定</a>. </p></p> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader"><strong>狀況</strong> </td> 
-      <td> <p> <p>(僅在選取後顯示 <strong>手動</strong> 針對 <strong>條件型別</strong>)：選取「條件」以指出專案進行方式。 </p> <p>如需如何自動或手動設定專案條件的資訊，請參閱 <a href="../../../manage-work/projects/manage-projects/project-condition-and-condition-type.md" class="MCXref xref">專案狀態與狀態型別概觀</a></p> </p> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader"><strong>排程模式</strong> </td> 
-      <td> <p>指定專案是從「開始日期」排程，還是從「完成日期」排程。 此選取範圍決定專案上任務的計畫日期。 
-       <ul> 
-       <li><strong>開始日期</strong>：根據預設，專案的第一個任務的計劃開始日期與專案相同。 有關任務計劃開始日期的資訊，請參閱 <a href="../../../manage-work/tasks/task-information/task-planned-start-date.md" class="MCXref xref">任務計劃開始日期總覽</a>. 專案時間表會從開始日期開始計算，而專案完成日期則由系統根據所有任務的持續時間來計算。 </li> 
-       <li><strong>完成日期</strong>：專案的最後一項任務與專案具有相同的規劃完成日期。 專案時間表會從「完成日期」開始計算，而專案的「開始日期」則由系統計算，方法是從專案的「完成日期」減去所有任務的持續時間。 </li> 
-       </ul><p>您的Workfront管理員<span> 或群組管理員</span> 選取系統或群組的預設「排程模式」設定。 如需有關設定專案預設值的資訊，請參閱 <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">設定全系統專案偏好設定</a>.</p></p> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader"><strong>計劃開始日期和時間</strong> </td> 
-      <td> <p> <p>指定選取時的日期 <strong>從開始日期排程</strong>. <br></p> <p>當您選取時，這是唯讀欄位 <strong>從完成日期排程</strong>.<br></p> </p> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader"><strong>計畫完成日期和時間</strong> </td> 
-      <td> <p>指定選取時的日期 <strong>從完成日期排程</strong>. </p> <p>當您選取時，這是唯讀欄位 <strong>從開始日期排程</strong>.<br></p> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader"><strong>專案組合</strong></td> 
-      <td>指出專案所屬的Portfolio。 您必須先建立Portfolio，它才會出現在下拉式清單中。 只有作用中的專案組合可以與專案相關聯。 如需關於建立投資組合的詳細資訊，請參閱 <a href="../../../manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md" class="MCXref xref">建立投資組合 </a>.</td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader"><strong>方案</strong></td> 
-      <td> <p>如果您為專案選取了Portfolio，請為專案指定計畫。 某些Portfolio可能沒有計畫。 您必須先建立程式，它才會顯示在此下拉式清單中。 只有作用中的方案才能與專案建立關聯。 </p> <p>如需有關建立程式的詳細資訊，請參閱 <a href="../../../manage-work/portfolios/create-and-manage-programs/create-program.md" class="MCXref xref">建立方案</a>.</p> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader"><strong>群組</strong></td> 
-      <td> <p> <p>指定與專案相關聯的群組名稱。 </p>這是必填欄位. 您無法擁有未與群組相關聯的專案。 </p> <p>您可以將游標移至正確的群組上，並按一下資訊圖示，藉此確定您選取的群組正確 <img src="assets/info-icon.png"> 隨即顯示。 這會顯示工具提示，列出群組的相關資訊，例如群組及其管理員上方的群組階層。</p> 依照預設，除非您指定不同的群組，否則下列其中一個群組會在建立專案時自動與專案相關聯：</p> 
-       <ul> 
-       <li> <p><span>從專案區域建立專案時，專案建立者的「主群組」會與專案相關聯。</span> </p> <p>從投資組合或計畫中的專案區段建立專案時，也會發生這種情況。</p> </li> 
-       <li> <p>從設定區域中群組的主要頁面建立專案時，該群組會與專案相關聯。</p> </li> 
-       </ul> </p> <p> <img src="assets/group-details-widget-350x351.png" style="width: 350;height: 351;"> </p> 
-       <p><b>附註</b></p>
+      <col> 
+      <col> 
+      <tbody> 
+      <tr> 
+         <td role="rowheader"><strong>說明</strong> </td> 
+         <td> <p>新增關於專案的其他資訊。</p> </td> 
+      </tr> 
+      <tr> 
+         <td role="rowheader"><strong>狀態</strong> </td> 
+         <td> <p>選取專案狀態。 您無法在所有任務和問題完成之前將專案標籤為完成。 如需有關專案狀態的資訊，請參閱 <a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/project-statuses.md" class="MCXref xref">存取系統專案狀態清單</a></p> </td> 
+      </tr> 
+      <tr> 
+         <td role="rowheader"><strong>優先順序</strong> </td> 
+         <td> <p> <p>這只是一個視覺化的標幟，可讓您排定專案的優先順序。</p> <p>根據Workfront管理員選取的專案偏好設定，您的優先順序名稱可能會不同。 如需有關編輯優先順序的詳細資訊，請參閱 <a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-priorities.md" class="MCXref xref">建立和自訂優先順序</a></p> </p> </td> 
+      </tr> 
+      <tr> 
+         <td role="rowheader"><strong>URL</strong> </td> 
+         <td> <p>指定與此專案相關資訊的網頁連結。</p> </td> 
+      </tr> 
+      <tr> 
+         <td role="rowheader"><strong>條件型別</strong> </td> 
+         <td> <p>在下列條件型別之間選取： 
+         <ul> 
+         <li><strong>手動：</strong> 專案所有者手動設定專案條件。</li> 
+         <li><strong>進度狀態：</strong> Workfront會根據關鍵路徑上任務的進度狀態自動設定條件。 如需瞭解進度狀態的詳細資訊，請參閱 <a href="../../../manage-work/tasks/task-information/task-progress-status.md" class="MCXref xref">任務進度狀態總覽</a>.</li> 
+         </ul><p>您的Workfront管理員<span> 或群組管理員</span> 選取系統專案狀態計算方式的預設值 <span>或您的群組</span>. 如需有關設定專案預設值的資訊，請參閱 <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">設定全系統專案偏好設定</a>. </p></p> </td> 
+      </tr> 
+      <tr> 
+         <td role="rowheader"><strong>條件</strong> </td> 
+         <td> <p> <p>(僅在選取後顯示 <strong>手動</strong> 針對 <strong>條件型別</strong>)：選取「條件」以指出專案進行方式。 </p> <p>如需如何自動或手動設定專案條件的資訊，請參閱 <a href="../../../manage-work/projects/manage-projects/project-condition-and-condition-type.md" class="MCXref xref">專案狀態與狀態型別概觀</a></p> </p> </td> 
+      </tr> 
+      <tr> 
+         <td role="rowheader"><strong>排程模式</strong> </td> 
+         <td> <p>指定專案是從「開始日期」排程，還是從「完成日期」排程。 此選取範圍決定專案上任務的計畫日期。 
+         <ul> 
+         <li><strong>開始日期</strong>：根據預設，專案的第一個任務的計劃開始日期與專案相同。 有關任務計劃開始日期的資訊，請參閱 <a href="../../../manage-work/tasks/task-information/task-planned-start-date.md" class="MCXref xref">任務計劃開始日期總覽</a>. 專案時間表會從開始日期開始計算，而專案完成日期則由系統根據所有任務的持續時間來計算。 </li> 
+         <li><strong>完成日期</strong>：專案的最後一項任務與專案具有相同的規劃完成日期。 專案時間表會從「完成日期」開始計算，而專案的「開始日期」則由系統計算，方法是從專案的「完成日期」減去所有任務的持續時間。 </li> 
+         </ul><p>您的Workfront管理員<span> 或群組管理員</span> 選取系統或群組的預設「排程模式」設定。 如需有關設定專案預設值的資訊，請參閱 <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">設定全系統專案偏好設定</a>.</p></p> </td> 
+      </tr> 
+      <tr> 
+         <td role="rowheader"><strong>計劃開始日期和時間</strong> </td> 
+         <td> <p> <p>指定選取時的日期 <strong>從開始日期排程</strong>. <br></p> <p>當您選取時，這是唯讀欄位 <strong>從完成日期排程</strong>.<br></p> </p> </td> 
+      </tr> 
+      <tr> 
+         <td role="rowheader"><strong>計畫完成日期和時間</strong> </td> 
+         <td> <p>指定選取時的日期 <strong>從完成日期排程</strong>. </p> <p>當您選取時，這是唯讀欄位 <strong>從開始日期排程</strong>.<br></p> </td> 
+      </tr> 
+      <tr> 
+         <td role="rowheader"><strong>專案組合</strong></td> 
+         <td>指出專案所屬的Portfolio。 您必須先建立Portfolio，它才會出現在下拉式清單中。 只有作用中的專案組合可以與專案相關聯。 如需關於建立投資組合的詳細資訊，請參閱 <a href="../../../manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md" class="MCXref xref">建立投資組合 </a>.</td> 
+      </tr> 
+      <tr> 
+         <td role="rowheader"><strong>方案</strong></td> 
+         <td> <p>如果您為專案選取了Portfolio，請為專案指定計畫。 某些Portfolio可能沒有計畫。 您必須先建立程式，它才會顯示在此下拉式清單中。 只有作用中的方案才能與專案建立關聯。 </p> <p>如需有關建立程式的詳細資訊，請參閱 <a href="../../../manage-work/portfolios/create-and-manage-programs/create-program.md" class="MCXref xref">建立方案</a>.</p> </td> 
+      </tr> 
+      <tr> 
+         <td role="rowheader"><strong>群組</strong></td> 
+         <td> <p> <p>指定與專案相關聯的群組名稱。 </p>這是必填欄位。 您無法擁有未與群組相關聯的專案。 </p> <p>您可以將游標移至正確的群組上，並按一下資訊圖示，藉此確定您選取的群組正確 <img src="assets/info-icon.png"> 隨即顯示。 這會顯示工具提示，列出群組的相關資訊，例如群組及其管理員上方的群組階層。</p> 依照預設，除非您指定不同的群組，否則下列其中一個群組會在建立專案時自動與專案相關聯：</p> 
+         <ul> 
+         <li> <p><span>從專案區域建立專案時，專案建立者的「主群組」會與專案相關聯。</span> </p> <p>從投資組合或計畫中的專案區段建立專案時，也會發生這種情況。</p> </li> 
+         <li> <p>從設定區域中群組的主要頁面建立專案時，該群組會與專案相關聯。</p> </li> 
+         </ul> </p> <p> <img src="assets/group-details-widget-350x351.png" style="width: 350;height: 351;"> </p> 
+         <p><b>附註</b></p>
 
-   <ul>
-      <li><p>如果專案或其任務或問題與群組層級自訂狀態相關聯，變更專案群組可能會導致專案狀態、任務或問題變更以符合新群組。</p></li>
-      <li><p>如果專案或其任務或問題已使用群組層級自訂狀態與群組層級核准流程相關聯，變更群組可能會在先前群組的核准狀態與系統層級現有的核准狀態之間產生衝突。</p>
-      <p>在更新群組之前，請考慮移除專案的群組層級核准流程，或其任務或問題。</p>
-      <p>如需有關建立群組層次核准流程的資訊，請參閱 <a href="../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-groups-approval-processes.md" class="MCXref xref">群組層級核准流程</a>.</p>
-      <p>如需有關建立群組層級自訂狀態的資訊，請參閱 <a href="../../../administration-and-setup/manage-groups/manage-group-statuses/create-or-edit-a-group-status.md" class="MCXref xref">建立或編輯群組狀態</a></p></li></ul> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader"><strong>公司</strong> </td> 
-      <td> <p>指定與專案關聯的公司。 您必須先建立公司，才能將其與專案建立關聯。 只有作用中的公司可以與專案建立關聯。 如需建立公司的詳細資訊，請參閱 <a href="../../../administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md" class="MCXref xref">建立和編輯公司</a>.</p> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader"><strong>專案所有者</strong> </td> 
-      <td> <p>開始輸入使用者的名稱以將其新增至專案，然後在其顯示在清單中時選取它。 使用者會新增至專案團隊，並自動獲得專案的管理許可權。 指定為專案所有者的使用者必須是Workfront作用中使用者。</p>
-      </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader"><strong>專案贊助者</strong> </td> 
-      <td> <p>開始輸入使用者的名稱以將其新增至專案，然後在其顯示在清單中時選取它。 使用者會新增至專案團隊，並自動獲得專案的檢視許可權。 指定為專案贊助者的使用者必須是Workfront作用中使用者。<br></p> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader"><strong>資源管理員</strong> </td> 
-      <td> <p> 開始輸入使用者的名稱以將其新增至專案，然後在其顯示在清單中時選取它們。 使用者會新增至專案團隊，並自動獲得專案的管理許可權，且可指派資源給專案上的任務和問題。 即使使用者從Resource Manager欄位中移除，他們仍保留專案的管理許可權。 您可以指定一個以上的Resource Manager。<br></p> </td> 
-     </tr> 
-    </tbody> 
-   </table>
+       &lt;ul>
+       &lt;li>&lt;p>如果專案或其任務或問題與群組層級自訂狀態相關聯，變更專案群組可能會導致專案狀態、任務或問題變更以符合新群組。&lt;/p>&lt;/li>
+       &lt;li>&lt;p>如果專案或其任務或問題已使用群組層級自訂狀態與群組層級核准流程相關聯，變更群組可能會在先前群組的核准狀態與系統層級現有的核准狀態之間產生衝突。&lt;/p>
+       &lt;p>在更新群組之前，請考慮移除專案的群組層級核准流程，或其任務或問題。&lt;/p>
+       &lt;p>如需有關建立群組層次核准流程的資訊，請參閱&lt;a href=&quot;../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-groups-approval-processes.md&quot; class=&quot;MCXref xref&quot;>群組層次核准流程&lt;/a>。&lt;/p>
+       &lt;p>如需建立群組層級自訂狀態的相關資訊，請參閱&lt;a href=&quot;../../../administration-and-setup/manage-groups/manage-group-statuses/create-or-edit-a-group-status.md&quot; class=&quot;MCXref xref&quot;>建立或編輯群組狀態&lt;/a>&lt;/p>&lt;/li>&lt;/ul> &lt;/td>
+   </tr> 
+      <tr> 
+         <td role="rowheader"><strong>公司</strong> </td> 
+         <td> <p>指定與專案關聯的公司。 您必須先建立公司，才能將其與專案建立關聯。 只有作用中的公司可以與專案建立關聯。 如需建立公司的詳細資訊，請參閱 <a href="../../../administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md" class="MCXref xref">建立和編輯公司</a>.</p> </td> 
+      </tr> 
+      <tr> 
+         <td role="rowheader"><strong>專案所有者</strong> </td> 
+         <td> <p>開始輸入使用者的名稱以將其新增至專案，然後在其顯示在清單中時選取它。 使用者會新增至專案團隊，並自動獲得專案的管理許可權。 指定為專案所有者的使用者必須是Workfront作用中使用者。</p>
+         </td> 
+      </tr> 
+      <tr> 
+         <td role="rowheader"><strong>專案贊助者</strong> </td> 
+         <td> <p>開始輸入使用者的名稱以將其新增至專案，然後在其顯示在清單中時選取它。 使用者會新增至專案團隊，並自動獲得專案的檢視許可權。 指定為專案贊助者的使用者必須是Workfront作用中使用者。<br></p> </td> 
+      </tr> 
+      <tr> 
+         <td role="rowheader"><strong>資源管理員</strong> </td> 
+         <td> <p> 開始輸入使用者的名稱以將其新增至專案，然後在其顯示在清單中時選取它們。 使用者會新增至專案團隊，並自動獲得專案的管理許可權，且可指派資源給專案上的任務和問題。 即使使用者從Resource Manager欄位中移除，他們仍保留專案的管理許可權。 您可以指定一個以上的Resource Manager。<br></p> </td> 
+      </tr>
+
+   <tr> 
+         <td role="rowheader"><strong>轉換的問題建立者</strong> </td> 
+         <td> <p> 依預設，此欄位會自動填入建立專案轉換來源問題的使用者名稱。 您可以在Workfront中以任何其他使用者的名稱更新此名稱。 <br></p> </td> 
+      </tr>
+
+   </tbody> 
+      </table>
 
    >[!TIP]
    >
@@ -307,11 +294,11 @@ ht-degree: 2%
    >
    >您必須在存取層級中啟用檢視聯絡資訊設定，使用者才能檢視使用者的電子郵件。 如需詳細資訊，請參閱 [授予使用者存取許可權](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
 
-1. （選擇性）根據您要修改的資訊，繼續編輯下列區段。
+1. （選擇性）根據您要修改的資訊，繼續編輯下列區段
 
    或
 
-   按一下&#x200B;**儲存**。
+   按一下「**儲存**」。
 
 ### 自訂表單 {#custom-forms}
 
@@ -333,8 +320,7 @@ ht-degree: 2%
 * [共用自訂表格](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md)
 * [新增分割槽符號至自訂表單](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-section-break-to-a-custom-form.md)
 
-若要編輯自訂表單上的資訊：
-
+若要在編輯專案時編輯自訂表單上的資訊：
 
 1. 如上所述開始編輯您的專案。
 1. 按一下 **自訂Forms** 在左側面板中。
@@ -354,7 +340,7 @@ ht-degree: 2%
 
    或
 
-   按一下&#x200B;**儲存**。
+   按一下「**儲存**」。
 
 ### 財務 {#finance}
 
@@ -388,7 +374,7 @@ ht-degree: 2%
      </tr> 
      <tr> 
       <td role="rowheader"><strong>預算</strong> </td> 
-      <td> <p>指定專案的預算。<br></p> </td> 
+      <td> 指定專案的預算。 </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>績效指數方法</strong> </td> 
@@ -399,7 +385,7 @@ ht-degree: 2%
       <td> <p> <p>指定Workfront應如何計算預估完成成本(EAC)。 </p>
       從下列選項中選取： 
       <ul><li><b>在專案層級上計算</b></li>
-      <li><b>從任務/子任務積存</b></li> </ul>
+      <li><b>從任務/子任務彙總</b></li> </ul>
       <p>如需有關如何計算「完工估算」的詳細資訊，請參閱 <a href="../../../manage-work/projects/project-finances/calculate-eac.md" class="MCXref xref">計算完工估算(EAC)</a>.</p> <p>您的Workfront或群組管理員會為您的系統或群組選取預設的預估完成時間設定。 如需有關設定專案預設值的資訊，請參閱 <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">設定全系統專案偏好設定</a>.</p> </p> </td> 
      </tr> 
      <tr> 
@@ -425,7 +411,7 @@ ht-degree: 2%
 
    或
 
-   按一下&#x200B;**儲存**。
+   按一下「**儲存**」。
 
 ### 專案設定 {#project-settings}
 
@@ -493,7 +479,7 @@ ht-degree: 2%
       </tr> 
       <tr> 
        <td role="rowheader"><strong>風險</strong> </td> 
-       <td> <p> <p>定義專案的風險等級。 風險只是專案風險程度的指標。 您可以根據風險等級來排定執行專案的優先順序。</p> <p> <p>考慮從下列風險等級中選取：</p> <p>- 極低</p> <p>- 低</p> <p>- 中</p> <p>- 高</p> <p>- 極高</p> <p>您無法自訂您在此指出的風險等級。</p> <p>這些風險與專案存續期間可能發生的潛在風險無關，您應該在專案的「風險」標籤或「業務案例」中記錄這些風險。 有關潛在專案風險的資訊，請參閱 <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/edit-create-risk-types.md" class="MCXref xref">編輯和建立風險型別</a>. </p> </p> </p> </td> 
+       <td> <p> <p>定義專案的風險等級。 風險只是專案風險程度的指標。 您可以根據風險等級來排定執行專案的優先順序。</p> <p> <p>考慮從下列風險等級中選取：</p> <p> — 極低</p> <p> — 低</p> <p> — 中</p> <p> — 高</p> <p> — 非常高</p> <p>您無法自訂您在此指出的風險等級。</p> <p>這些風險與專案存續期間可能發生的潛在風險無關，您應該在專案的「風險」標籤或「業務案例」中記錄這些風險。 有關潛在專案風險的資訊，請參閱 <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/edit-create-risk-types.md" class="MCXref xref">編輯和建立風險型別</a>. </p> </p> </p> </td> 
       </tr> 
       <tr> 
        <td role="rowheader"><strong>資源集區</strong> </td> 
@@ -512,7 +498,9 @@ ht-degree: 2%
        <td> <p> <p>從下列選項中選取：</p> 
        <ul> 
        <li> <p>選取 <strong>否</strong> 讓專案可用的所有特定專案小時型別。 （這是預設選取範圍）</p> <p>或</p> </li> 
-       <li>選取 <strong>是</strong> 若只要讓專案特定時數型別的子集可在專案上使用，然後選取您想讓可用的時數型別。 （按住Shift鍵以選取多個小時型別。）</li> 
+       <li>選取 <strong>是</strong> 若只要讓專案特定時數型別的子集可在專案上使用，則從「 」中選擇您想要提供使用的時數型別 <b>小時型別</b> 欄位。</li> 
+       <p><b>秘訣</b></p>
+       <p>此 <b>小時型別</b> 當您選取時，欄位不可編輯 <b>否</b>.</p> 
        <p>如果您選取此選項，則在記錄專案時數（或專案內任務和問題）時，只有您選取的時數型別可供選取。 您必須至少選取一個小時型別；如果您選取此選項而未選取任何小時型別，則專案上將會提供所有小時型別。</p> </ul>
 
    <p>必須在個別使用者層級做出相同的小時型別選擇，以便使用者在專案上檢視這些小時型別選項。 如需在使用者層級定義時數型別的詳細資訊，請參閱 <a href="../../../timesheets/create-and-manage-timesheets/log-time.md" class="MCXref xref">記錄時間</a>. </p> </p> </td> 
@@ -543,7 +531,7 @@ ht-degree: 2%
 
    或
 
-   按一下&#x200B;**儲存**。
+   按一下「**儲存**」。
 
 ### 任務設定 {#task-settings}
 
@@ -558,7 +546,7 @@ ht-degree: 2%
 
 1. 在 **任務預設核准流程** 方塊中，選取當您新增至專案時，要與所有新任務關聯的任務「核准流程」。
 
-   您的Workfront管理員（或具有核准流程管理存取許可權的使用者）必須先為任務建立系統層級的核准流程，您才能將其與專案相關聯。 清單中只會顯示有效的核准流程。 如需有關建立核准流程的資訊，請參閱 [建立工作專案的核准流程](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md). 有關專案群組的變更或核准流程中的變更如何影響核准設定的資訊，請參閱 [群組和核准流程變更如何影響指派的核准流程](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/how-changes-affect-group-approvals.md).
+   您的Workfront管理員（或具有核准流程管理存取許可權的使用者）必須先為任務建立系統層級或群組層級的核准流程，您才能將其與專案相關聯。 清單中只會顯示有效的核准流程。 如需有關建立核准流程的資訊，請參閱 [建立工作專案的核准流程](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md). 有關專案群組的變更或核准流程中的變更如何影響核准設定的資訊，請參閱 [群組和核准流程變更如何影響指派的核准流程](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/how-changes-affect-group-approvals.md).
 
    大量編輯專案時，會出現下列情況：
 
@@ -586,7 +574,7 @@ ht-degree: 2%
 
    或
 
-   按一下&#x200B;**儲存**。
+   按一下「**儲存**」。
 
 ### 問題設定 {#issue-settings}
 
@@ -618,7 +606,7 @@ ht-degree: 2%
 
    或
 
-   按一下&#x200B;**儲存**。
+   按一下「**儲存**」。
 
 ### 存取 {#access}
 
@@ -654,17 +642,17 @@ ht-degree: 2%
       <td><p>選取自 <strong>檢視</strong>， <strong>Contribute</strong>，或 <strong>管理</strong> 請求的存取權。 當專案也是請求佇列並且使用者向專案提交請求時，他們被授予對他們提交的請求的這種存取權。 如需將專案設定為請求佇列的詳細資訊，請參閱 <a href="../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md" class="MCXref xref">建立請求佇列</a>.<br></p></td> 
      </tr> 
      <tr data-mc-conditions=""> 
-      <td role="rowheader"><strong>來自相同公司的人員將針對所有請求繼承相同許可權</strong></td> 
+      <td role="rowheader"><strong>來自相同公司的人員將針對所有要求繼承相同權限。</strong></td> 
       <td><p>如果您希望來自相同公司的人員擁有專案上所有請求的相同存取權（無論他們是否提交請求），請選取此欄位。<br></p></td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>某人獲得此專案的存取權時：授予他們存取權……</strong></td> 
+      <td role="rowheader"><strong>某人獲得此專案的存取權時：表示預設的存取權……</strong></td> 
       <td><p>選取您希望使用者在專案上擁有的存取選項（如果專案已與他們共用）。 如果指定為，則選取其存取權的特定選項 <strong>檢視者</strong>， <strong>貢獻者</strong>，或 <strong>管理員</strong> 與他們共用專案時。 </p><p>此 <strong>刪除</strong> 中的存取權 <strong>管理</strong> 許可權層級會決定是否允許使用者刪除專案本身。 使用者 <strong>管理</strong> 存取專案可以刪除專案中的任務和問題，無論是否選取此選項（如果有的話） <strong>管理</strong> 任務和問題的許可權。 </p></td> 
      </tr> 
     </tbody> 
    </table>
 
-1. 按一下&#x200B;**儲存**。
+1. 按一下「**儲存**」。
 
 ## 在專案標題中編輯專案（受限）
 
@@ -677,6 +665,7 @@ ht-degree: 2%
 預設情況下，下列欄位會包含在專案標題中。
 
 * 專案名稱
+* 完成百分比
 * 專案所有者
 * 計畫完成日期和時間
 
@@ -684,7 +673,7 @@ ht-degree: 2%
   >
   >只有當專案是從「完成日期」開始排程時，您才能編輯此欄位。 從開始日期開始排程專案時，Workfront會根據任務的持續期間計算規劃完成日期和時間。
 
-* 狀況
+* 狀態
 
   >[!NOTE]
   >
@@ -731,8 +720,8 @@ ht-degree: 2%
 
 若要大量編輯專案：
 
-1. 按一下 **主要功能表** 圖示 ![](assets/main-menu-icon.png) 在Adobe Workfront的右上角。
-1. 按一下 **專案**.
+{{step1-to-projects}}
+
 1. 在清單中選取數個專案。
 1. 按一下 **編輯** 圖示 ![](assets/edit-icon.png) 在清單頂端。
 此 **編輯專案** 對話方塊開啟。
@@ -793,7 +782,7 @@ ht-degree: 2%
    ![](assets/discard-icon-for-field-edit-projects-in-bulk-unshimmed.png)
 
 1. （選用）按一下 **取消** 在底部 **編輯專案** 頁面以移除對所有專案進行的所有變更。
-1. 按一下&#x200B;**儲存**。
+1. 按一下「**儲存**」。
 
 
 <!-- Old information for how to bulk edit in classic/ before project bulk edit redesign: 

@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: cf044c8cff6b1172ec460ae232cd07c9b7c808b7
+source-git-commit: 0da724e975cfb1f0f7e36cffdc545c6223a14a76
 workflow-type: tm+mt
-source-wordcount: '2944'
+source-wordcount: '2942'
 ht-degree: 0%
 
 ---
@@ -26,26 +26,35 @@ ht-degree: 0%
 
 本文列出2023年5月22日Maestro封閉Beta版計畫推出後所發行的功能。
 
-已發行的功能會依其發行順序列出，最新的排在前。 參與Maestro封閉測試版計畫的客戶可以存取其預覽和生產環境中的所有功能。
+已發行的功能會依其發行順序列出，最新的排在前。 參與Maestro封閉測試版計畫的客戶可以存取其生產環境中的所有功能。
+
+<!--
+>[!IMPORTANT]
+>
+>Between May 2023 and December 2023, all features in this article were released to both the Preview and Production environment. The Maestro capabilities have  temporarily been removed from the Preview and Sandbox environment since January 2024. All features released after this date are currently available in Production. 
+-->
+
+本文列有在2023年5月22日Maestro封閉Beta版計畫推出後所發行的功能和修補程式。
+
+功能每週都會發行，並依發行順序列出，最新的則排在前。 參與Maestro封閉測試版計畫的客戶可以存取其預覽和生產環境中的所有功能。
 
 >[!IMPORTANT]
 >
 >在功能發行至生產環境後的某個時間，將可使用以下各節中參考的檔案。
 
-本節列出2023年5月22日Maestro封閉Beta版計畫推出後所發行的功能和修補程式。
+<!--## Week of January 8, 2024
 
-功能每週都會發行，並依發行順序列出，最新的則排在前。 參與Maestro封閉測試版計畫的客戶可以存取其預覽和生產環境中的所有功能。
+### Maestro capabilities are removed from the Preview and Sandbox environments 
 
-<!--
-## Week of November 27, 2023
+Preview and sandbox: <Date here> 
+
+The Maestro area and all the capabilities have been temporarily removed from the Preview and Sandbox environments. Maestro will be added to these environments at a later date which we will communicate in the near future.  
+
+(************ALSO SEE IMPORTANT NOTE ABOVE IN THE MAIN INTRO AREA - UNHIDE IT************)
 
 ### Maestro permissions for users and groups
 
-Production: November 28, 2023
-
->[!IMPORTANT]
->
->This functionality is not yet available in Preview.
+Production: <****date here****>
 
 You can now share a workspace with users and groups. You can set their permissions to different levels, depending on what information they need to view or edit in a Maestro workspace. After you share permissions to a workspace, users have permissions to the record types, records, and fields in that space.
 
@@ -55,13 +64,15 @@ The following are the permissions levels for Maestro workspaces:
 
 * View: Users can view workspaces that are shared with them. They can also view record types, and records from the shared workspace. 
 
-* Contribute: Users can create, edit, or delete records in the workspace that is shared with them.  They cannot create or edit record types or workspaces ones shared with them.  
+* Contribute: Users can create, edit, or delete records in the workspace that is shared with them.  They cannot create or edit record types or workspaces that are shared with them.  
 
-* Manage: Users can create, edit, and delete record types, records, and fields in workspaces that are shared with them. They cannot create workspaces.  
+* Manage: Users can create, edit, and delete workspaces, record types, records, and fields in workspaces that are shared with them.   
 
-Only Workfront administrators can create, edit, or delete workspaces and all information associated with them.  
+Only Workfront administrators can create, edit, or delete all workspaces, including those that they did not create. All other users can create, edit, or delete workspaces they created or that they have Manage permissions to. 
 
-For more information, see [Grant access to Adobe Maestro](../maestro/access/grant-access.md) and [Overview of sharing permissions in Adobe Maestro](../maestro/access/sharing-permissions-overview.md). -->
+For more information, see [Grant access to Adobe Maestro](../maestro/access/grant-access.md) and [Overview of sharing permissions in Adobe Maestro](../maestro/access/sharing-permissions-overview.md).
+
+-->
 
 ## 2023年12月25日當週
 

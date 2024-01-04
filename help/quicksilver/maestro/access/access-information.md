@@ -1,18 +1,18 @@
 ---
-title: 存取資訊
+title: 「存取資訊：文章索引」
 description: 身為Workfront管理員，您必須將存取權授與使用者，才能使用Maestro。 以下文章包含有關使用Maestro時使用者所需存取許可權的資訊。
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 98ca7d04-35c2-420a-a87c-50c00939853c
-source-git-commit: 4d3b571e64fef98abd69bc67f94953a5eb73ea20
+source-git-commit: 0da724e975cfb1f0f7e36cffdc545c6223a14a76
 workflow-type: tm+mt
-source-wordcount: '132'
+source-wordcount: '136'
 ht-degree: 0%
 
 ---
 
-# 存取資訊
+# 存取資訊：文章索引
 
 >[!IMPORTANT]
 >

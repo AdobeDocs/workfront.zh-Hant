@@ -3,9 +3,9 @@ title: 『[!DNL Adobe Workfront] documentation`
 description: 的檔案 [!DNL Adobe Workfront].
 feature: Get Started with Workfront
 exl-id: 337efdc8-ee1e-4223-a211-2cb1dcecfafa
-source-git-commit: e61e20c1cafbcf32a116bae2cc9e779a8a567986
+source-git-commit: 0da724e975cfb1f0f7e36cffdc545c6223a14a76
 workflow-type: tm+mt
-source-wordcount: '381'
+source-wordcount: '383'
 ht-degree: 2%
 
 ---
@@ -63,7 +63,7 @@ Workfront中的敏捷功能可讓團隊以一致的步調完成少量可管理�
 
 若要以易於閱讀的格式顯示現有資訊並與所有利害關係人分享，請使用報告和儀表板。
 
-另請參閱 [報告和儀表板](/help/quicksilver/reports-and-dashboards/reports-and-dashboards-overview.md).
+另請參閱 [報表和控制面板：文章索引](/help/quicksilver/reports-and-dashboards/reports-and-dashboards-overview.md).
 
 #### 文字模式報告
 
