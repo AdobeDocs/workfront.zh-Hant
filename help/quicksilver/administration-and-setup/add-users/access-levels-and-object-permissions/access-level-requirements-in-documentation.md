@@ -10,9 +10,9 @@ feature: System Setup and Administration
 role: Admin
 hide: true
 hidefromtoc: true
-source-git-commit: 66957a8bb24538fd302fe0ff7612b266da18118f
+source-git-commit: 96f88c4b31b92998cfb8fa25ed1de0dfa0c70462
 workflow-type: tm+mt
-source-wordcount: '869'
+source-wordcount: '884'
 ht-degree: 0%
 
 ---
@@ -90,11 +90,12 @@ Workfront檔案how-to文章包含一個表格，說明該程式所需的存取�
    <p>說明在這些其他產品內執行的程式的文章在此處列出了所需的產品。</p>
    <ul>
    <li>Adobe Experience Manager Assets或Assets Essentials </li>
-   <li>Workfront Fusion</li>
-   <li>Workfront Goals</li>
-   <li>Workfront情境規劃工具</li>
+   <li>Workfront Fusion *</li>
+   <li>Workfront目標*</li>
+   <li>Workfront情境規劃工具*</li>
    </ul>
-   <p>若要瞭解您的組織是否已購買這些額外產品之一，請聯絡您的Workfront管理員。</p></td> 
+   <p>*包含在Workfront Ultimate計畫中
+   <p>若要瞭解您的組織是否已購買這些附加產品之一，或您的組織是否使用Workfront Ultimate計畫，請聯絡您的Workfront管理員。</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront Fusion授權</td> 
