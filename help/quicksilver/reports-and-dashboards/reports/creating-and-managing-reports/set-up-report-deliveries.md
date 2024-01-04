@@ -1,191 +1,194 @@
 ---
 product-area: reporting;setup
 navigation-topic: create-and-manage-reports
-title: 報表傳送概觀
-description: 報表傳送概觀
+title: 報表傳送概覽
+description: 報表傳送概覽
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 1637df59-ca1d-4cf6-b83d-2b27936cdb96
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
 workflow-type: tm+mt
-source-wordcount: '1528'
+source-wordcount: '1532'
 ht-degree: 0%
 
 ---
 
-# 報表傳送概觀
+# 報表傳送概覽
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: This is linked to the UI in the Send Report box inside the Preview sandbox. If you change title, log bug for Dev to fix the link) </p>
 -->
 
-您可以排程報表以依定義的排程自動傳送給使用者，或手動傳送報表一次。 從Adobe Workfront傳送報表時，使用者會收到另一個附件中含有Workfront報表的電子郵件。
+您可以排程報表，以按照定義的排程自動傳送給使用者，或者您可以手動傳送一次性報表。 當您從Adobe Workfront傳送報告時，使用者會收到一封電子郵件，其中包含個別附件中的Workfront報告。
 
-如需設定要傳送之報表的相關資訊，請參閱文章 [排程自動報表傳送](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-automatic-report-delivery.md).
+如需關於設定傳送報表的資訊，請參閱文章 [排程自動報告傳送](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-automatic-report-delivery.md).
 
-您無法排程報表的傳送，也無法在「預覽沙箱」環境中手動傳送。 如需預覽沙箱的詳細資訊，請參閱文章 [Adobe Workfront預覽沙箱環境](../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md).\
-如需在「預覽沙箱」環境中傳送報表的詳細資訊，請參閱文章 [在預覽沙箱環境中傳送報表](../../../reports-and-dashboards/reports/creating-and-managing-reports/send-report-preview-sandbox-environment.md).
+您無法排程報表進行傳送，也無法在「預覽Sandbox」環境中手動傳送。 如需有關預覽沙箱的詳細資訊，請參閱文章 [Adobe Workfront預覽沙箱環境](../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md).\
+如需有關在預覽Sandbox環境中傳送報告的詳細資訊，請參閱文章 [在預覽Sandbox環境中傳送報告](../../../reports-and-dashboards/reports/creating-and-managing-reports/send-report-preview-sandbox-environment.md).
 
-## 報表傳送限制
+## 報告傳遞限制
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: [! This information is shared between "Exporting Data" and "Setting Up Report Deliveries."])</p>
 -->
 
-排程傳送報表時，請考量下列事項：
+排程報表傳送時，請考量下列事項：
 
-* 您最多可以為任何指定報表排程10個重複報表傳送。
-* 只有在您是報表的建立者時，才可排程要傳送的報表。 如果您需要傳送您未建立的報表，可以手動傳送。
+* 您最多可以為任何指定報告排程10個重複報告傳遞。
+* 只有當您是報表的建立者時，才能排程報表傳送。 如果您需要傳送未建立的報表，可以手動傳送。
 
 ## 匯出限制
 
-有數個大小限制會影響報表在Workfront中的顯示方式，以及這些報表透過手動匯出、傳送的報表或API匯出的方式：
+有數個大小限制會影響報表在Workfront中的顯示方式，以及透過手動匯出、傳送報表或透過API匯出的方式：
 
-* **5MB檔案大小：** 已排程傳送之任何匯出報表的檔案大小限制。 如果附加至電子郵件的匯出檔案大於5MB，則會以電子郵件傳送可下載檔案的連結，而非附加的匯出報表。 
+* **5MB檔案大小：** 任何已排定傳送之匯出報告的檔案大小限制。 如果附加至電子郵件的匯出檔案大於5MB，則會以電子郵件傳送可下載該檔案的連結，而非附加的匯出報告。 
 
-   >[!NOTE]
-   >
-   >大於5MB的Excel .xlsx檔案不會產生電子郵件。 您可以手動將報表匯出為此格式。 如需匯出報表的相關資訊，請參閱 [匯出資料](../../../reports-and-dashboards/reports/creating-and-managing-reports/export-data.md).
+  >[!NOTE]
+  >
+  >大於5MB的Excel .xlsx檔案不會產生電子郵件。 您可以手動將報表匯出為此格式。 如需匯出報表的相關資訊，請參閱 [匯出資料](../../../reports-and-dashboards/reports/creating-and-managing-reports/export-data.md).
 
-* **50,000列：** 匯出.pdf和Tab分隔檔案的報表中允許的資料列數。
+* **50,000列：** 報表匯出中允許的.pdf和Tab字元分隔檔案資料列數。
 
-   對於Excel .xls檔案，此限制為 **65,000列**.
+  若為Excel .xls檔案，此限製為 **65,000列**.
 
-   若為Excel .xlsx檔案，此限制為 **100,000列**.
+  若為Excel .xlsx檔案，此限製為 **100,000列**.
 
-   這些限制會排除欄標題，以及報表中分組的列。 例如，若報表中有6個群組，以及50,000列或資料，則匯出的檔案將會有50,000列。
+  這些限制會排除欄標題，以及報表中分組的列。 例如，如果報表中有6個群組，且有50,000列資料，則匯出的檔案會有50,000列。
 
-   如果您的報表項目超過這些限制，您會收到報表匯出和傳送不成功的錯誤。 將您在畫面上看到的項目數減少為小於或等於這些限制，以便能夠傳送結果。 如果要匯出所有資料，建議您使用篩選器來取得較少的資料載入，然後執行多個匯出。 如需詳細資訊，請參閱 [Adobe Workfront中的篩選器概觀](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+  如果報告的專案數超過這些限制，您會收到報告匯出和傳送不成功的錯誤。 將您在畫面上看到的專案數減少到小於或等於這些限制的數字，以便能夠傳送結果。 如果要匯出所有資料，我們建議您使用篩選器來取得較小的資料負載，然後執行多個匯出。 如需詳細資訊，請參閱 [篩選器概觀](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
-   這些限制適用於：
+  這些限制適用於：
 
-   * 手動匯出報表。
-   * 排程報表。
-   * 透過API整合匯出。 
-   * 透過啟動匯出的資料。
+   * 手動匯出報告。
+   * 排程報告。
+   * 透過API整合的匯出。
+   * 透過Kick-Start匯出的資料。
 
-      如需透過啟動匯出資料的詳細資訊，請參閱文章 [透過Kick-Starts從Adobe Workfront匯出資料](../../../administration-and-setup/manage-workfront/using-kick-starts/export-data-from-wf-via-kick-starts.md).
+     如需有關透過Kick-Start匯出資料的詳細資訊，請參閱文章 [透過Kick-Start從Adobe Workfront匯出資料](../../../administration-and-setup/manage-workfront/using-kick-starts/export-data-from-wf-via-kick-starts.md).
 
-      >[!NOTE]
-      您可以將啟動檔案中的50,000列匯出，但只能匯出為Excel格式檔案。 
+     >[!NOTE]
+     >
+     您可以在快速啟動檔案中匯出50,000列，但只能匯出為Excel格式檔案。 
 
-   * 導出項目的利用率資訊。
+   * 匯出專案的利用資訊。
 
-      有關導出項目的利用率資訊的詳細資訊，請參見 [資源利用率報告概覽](../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md).
+     如需匯出專案使用率資訊的詳細資訊，請參閱 [資源使用率報表概要](../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md).
 
-* **65,530個超連結：** 這是Excel對包含65,530個以上超連結的檔案所施加的限制。 手動匯出或在傳送的報表中傳送這些檔案時，無法開啟這些檔案。 請注意， Excel文檔可能只有200行資料，但如果文檔內有65,530個以上的連結，則該文檔不會開啟。 此限制僅存在於Excel檔案中，不存在於其他支援的格式中。 
-* **256欄**：這是Excel對包含256欄以上的檔案所施加的限制。 無法手動匯出這些檔案，或在傳送的報表中傳送。 此限制僅存在於Excel檔案中，不存在於其他支援的格式中。 
+* **65,530個超連結：** 這是Excel對包含65,530個以上超連結的檔案所強加的限制。 以手動方式匯出或以傳送的報表傳送檔案時，無法開啟這些檔案。 請注意，一個Excel檔案可能只有200列資料，但如果檔案中有超過65,530個連結，則檔案不會開啟。 此限制僅存在於Excel檔案中，不存在於其他支援的格式中。 
+* **256欄**：這是Excel對包含超過256欄的檔案所施加的限制。 這些檔案無法手動匯出，或以傳送的報告傳送。 此限制僅存在於Excel檔案中，不存在於其他支援的格式中。 
 
-如果您嘗試匯出超過限制的資料，可能不會在匯出中收到所有預期的資料。 而是在限制內產生修改的報表。 
+如果您嘗試匯出超過限制的資料，您可能無法收到匯出中預期的所有資料。 而是會在限制內產生修改後的報表。 
 
-此外，執行超過60分鐘的報表將會暫停。
+此外，需要超過60分鐘才能執行的報表將會暫停。
 
-若您對限制有疑慮或有問題，請聯絡Workfront技術支援。
+如果您對限額有任何顧慮或問題，請聯絡Workfront技術支援。
 
-## 了解已傳送報表上的時間戳記
+## 瞭解已傳送報表的時間戳記
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: Note about if this is delivered at a time based on the user's time zone settings?)</p>
 -->
 
-在電子郵件中收到報表時，如果您要在Workfront中同時檢視報表，則報表的時間戳記和時間格式可能不符合Workfront中的格式。 
+以電子郵件接收報表時，如果您要在傳送報表的同時在Workfront中檢視報表，則報表上的時間戳記和時間格式可能會不符合Workfront中的時間戳記和時間格式。 
 
 請考量下列事項： 
 
-* 在瀏覽器中檢視報表時，報表上的時間戳記和格式會符合瀏覽器的地區設定和時區，如瀏覽器設定所定義。
-* 以電子郵件傳送報表時，報表的傳送時間戳記和格式會與Workfront設定檔中指定的「使用者地區」和「時區」相符。\
-   如需Workfront中「使用者地區設定」和「時區」的詳細資訊，請參閱文章 [編輯使用者的設定檔](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
+* 在瀏覽器中檢視報表時，報表上的時間戳記和格式會符合瀏覽器的地區設定和時區，如瀏覽器的設定中所定義。
+* 以電子郵件傳送報表時，報表會傳送具有時間戳記和格式的報告，且符合在Workfront設定檔中指定的使用者地區設定和時區。\
+  如需Workfront中使用者地區設定和時區的詳細資訊，請參閱文章 [編輯使用者設定檔](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 
-## 具有特殊檢視的報表 {#reports-with-a-special-view}
+## 具有特殊檢視的報告 {#reports-with-a-special-view}
 
-將特殊檢視套用至報表時，特殊檢視會顯示在Workfront中報表的「詳細資料」標籤中。
+當您將特殊檢視套用至報表時，特殊檢視會顯示在Workfront中報表的詳細資訊索引標籤中。
 
-當您排程傳送具有特殊檢視的報表時，預設的「詳細資料」索引標籤會傳送在已傳送電子郵件的附件中，而非特殊檢視中。
+當您排程具有特殊檢視的報告傳送時，預設的「詳細資訊」索引標籤會傳送在已傳送電子郵件的附件中，而不是在特殊檢視中。
 
-以下為特殊檢視：
+下列是特殊檢視：
 
-* 專案報表上的里程碑檢視
-* 項目或任務報告上的甘特視圖
-* 以圖表為預設索引標籤的報表
+* 專案報告上的里程碑檢視
+* 專案或任務報告的甘特圖
+* 以圖表作為預設標籤的報告
 
 >[!NOTE]
-如果除了具有特殊檢視的預設標籤外，報表上還有「矩陣」標籤，則報表的傳送方式會如「矩陣」標籤上所顯示。
+>
+如果除了具有特殊檢視的預設標籤之外，報表上也有Matrix標籤，則報表會以其顯示在Matrix標籤上的方式傳送。
 
 如需如何將特殊檢視套用至報表的詳細資訊，請參閱文章 [建立自訂報表](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
 ## 使用傳遞的檔案
 
- 當您從Workfront傳送報表時，使用者會收到一封電子郵件，內含報表（附件）。 
+ 當您從Workfront傳送報告時，使用者會收到一封電子郵件，其中包含單獨附件中的報告。 
 
-* [主旨行、附件名稱和報表標題](#subject-line-attachment-name-and-report-title)
+* [主旨列、附件名稱和報告標題](#subject-line-attachment-name-and-report-title)
 * [時間戳記](#timestamps)
 * [品牌化](#branding)
-* [格式](#formatting)
+* [格式化](#formatting)
 * [連結](#links)
 
-### 主旨行、附件名稱和報表標題 {#subject-line-attachment-name-and-report-title}
+### 主旨列、附件名稱和報告標題 {#subject-line-attachment-name-and-report-title}
 
-如需已傳送報表電子郵件主旨行的詳細資訊，請參閱 [排程自動報表傳送](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-automatic-report-delivery.md).
+如需所傳送報告電子郵件主旨行的詳細資訊，請參閱 [排程自動報告傳送](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-automatic-report-delivery.md).
 
-附加報表的名稱為： *The_Name_Of_The_Report*&#x200B;後跟匯出的檔案格式。 
+附加報告的名稱是： *The_Name_Of_The_Report*&#x200B;後面接著匯出的檔案格式。 
 
-如果您將傳送的報表排程為PDF或HTML檔案格式，報表標題將會是：
+如果您排程將傳送的報表格式化為PDF或HTML檔案，報表標題將為：
 
-*報表名稱。*
+*報表的名稱。*
 
-排程以Excel、Excel(.xlsx)或TSV格式傳送的報表沒有標題。
+排程以Excel、Excel (.xlsx)或TSV格式傳送的報表沒有標題。
 
 >[!NOTE]
-如果報表有說明，則如果檔案的格式為PDF或HTML檔案，則該說明將包含在導出的檔案中。
+>
+如果報告有說明，如果檔案格式為PDF或HTML檔案，則會將其包含在匯出的檔案中。
 
 ### 時間戳記 {#timestamps}
 
-只有在檔案格式為.pdf時，附加檔案上才會顯示時間戳記。 時間戳記位於附加檔案的頁尾中。
+僅當檔案格式為.pdf時，附加檔案才會顯示時間戳記。 時間戳記位於附加檔案的頁尾中。
 
 時間戳記包括：
 
 * 日期
 * 時間
-* 報表傳送時區
+* 傳送報告的時區
 
 ### 品牌化 {#branding}
 
-如果您的Workfront管理員已將自訂品牌新增至您的Workfront執行個體，則以.pdf格式傳送的報表也會包含您的個人化標誌。
+如果您的Workfront管理員已將自訂品牌新增至您的Workfront執行個體，則以.pdf格式傳送的報告也會包含您的個人化標誌。
 
-以所有其他格式傳送的報表無法以您的標誌個人化。
+以所有其他格式傳送的報告無法以您的標誌進行個人化。
 
-如需將Workfront例項品牌化的詳細資訊，請參閱文章 [品牌化您的Adobe Workfront執行個體](../../../administration-and-setup/customize-workfront/brand-workfront/brand-your-workfront-instance.md).
+如需品牌化Workfront執行個體的詳細資訊，請參閱文章 [品牌化您的Adobe Workfront執行個體](../../../administration-and-setup/customize-workfront/brand-workfront/brand-your-workfront-instance.md).
 
-### 格式 {#formatting}
+### 格式化 {#formatting}
 
-在傳送或排程傳送報表時，除非報表有特殊檢視，否則一律會收到報表的預設索引標籤。
+除非報表有特殊檢視，否則在傳送或排程傳送報表時，您一律會收到報表的預設標籤。
 
-如果您的報表在Web應用程式中有特殊格式，當「詳細資訊」和「矩陣」索引標籤僅針對.pdf和Excel檔案傳送時，應以特殊格式傳送報表。
+如果您的報表在Web應用程式中具有特殊格式，則僅針對.pdf和Excel檔案傳送「詳細資料」和「矩陣」標籤時，應使用特殊格式傳送報表。
 
-傳送的檔案中不包含報表的篩選、檢視或分組。 只有在以PDF檔案傳送報表時，才會包含報表的說明。
+報告的篩選、檢視或分組不包含在傳遞的檔案中。 只有在以PDF檔案傳送報表時，才會包含報表說明。
 
-如需接收具有特殊檢視之報表的詳細資訊，請參閱文章 [具有特殊檢視的報表](#reports-with-a-special-view).\
-如需選取報表預設標籤以及特殊格式的相關資訊，請參閱 [建立自訂報表](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+如需以特殊檢視接收報表的詳細資訊，請參閱文章 [具有特殊檢視的報告](#reports-with-a-special-view).\
+如需有關選取報表預設標籤以及特殊格式的詳細資訊，請參閱 [建立自訂報表](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
 ### 連結 {#links}
 
-將報表從Workfront傳送至PDF或Excel格式時，原始檔案中存在的任何工作連結在已傳送的檔案中仍為現時狀態。 連結可以指向Workfront中支援連結的任何物件。
+當您從Workfront將報表傳送到PDF或Excel格式時，原始檔案中存在的任何有效連結都會保留在傳送的檔案中。 連結可以指向Workfront中支援連結的任何物件。
 
-電子郵件訊息中的報表名稱也是連結。
+電子郵件訊息中的報告名稱也是連結。
 
-## 排程報表的報表
+## 報告排程報告
 
-您可以建立下列項目，查看報表是否已設定為傳送：
+您可以透過建立下列專案，檢視報表是否已設定為傳送：
 
-* **檢視** 對於清單中的報表對象或報表的報表：建立報表清單或報表報表的檢視，並新增下列欄至檢視：\
-   *排程報表名稱。\
-   *為該報告排程的所有傳送名稱會列在項目符號清單的欄中。\
-   ![scheduled_reports_info_in_view.png](assets/scheduled-reports-info-in-view-350x294.png)
+* **檢視** 針對報表的清單或報表中的Report物件：在報表清單或報表的報表中建立檢視，並將下列欄新增到檢視中：\
+  *排程報表名稱。\
+  *針對該報告排程的所有傳送的名稱會列在專案符號清單的欄中。\
+  ![scheduled_reports_info_in_view.png](assets/scheduled-reports-info-in-view-350x294.png)
 
-* **篩選** 報表物件：使用下列陳述式，在報表清單或報表上建立篩選器： *排程報表ID不得空白*.\
-   這只會顯示已排程在清單或報表中的報表。\
-   ![](assets/qs-scheduled-report-filter-350x101.png)\
-   如需建立報表的詳細資訊，請參閱 [建立自訂報表](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md). 如需建立報表報表的相關資訊，請參閱 [建立報告活動的報告](../../../reports-and-dashboards/reports/report-usage/create-report-reporting-activities.md).
+* **篩選器** 針對Report物件：在報表清單或報表報表中建立篩選器，以下列陳述式： *排程報告ID不得為空白*.\
+  這只會顯示已在您的清單或報告中排程的報告。\
+  ![](assets/qs-scheduled-report-filter-350x101.png)\
+  如需建立報表的詳細資訊，請參閱 [建立自訂報表](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md). 如需建立報告的相關資訊，請參閱 [建立報告活動的報告](../../../reports-and-dashboards/reports/report-usage/create-report-reporting-activities.md).
 
 <!--
 <h2 data-mc-conditions="QuicksilverOrClassic.Draft mode">Scheduling a Repeating&nbsp;Report Delivery</h2>

@@ -6,9 +6,9 @@ description: 您可以從各種清單、報表、控制面板和搜尋匯出Adob
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 7fd45fa2-f5d2-411d-849e-cff5be420fbc
-source-git-commit: 219c952185f50bd3888f6deee17cbc35d3b34b22
+source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
 workflow-type: tm+mt
-source-wordcount: '2206'
+source-wordcount: '2203'
 ht-degree: 0%
 
 ---
@@ -123,7 +123,7 @@ NOTE: Alina: [! This information is shared between "Exporting Data" and "Setting
 
   如果報表中有超過50,000/65,000/100,000列，而且您想要匯出所有資料，我們建議您使用篩選器或提示來取得較小的資料負載，並執行多次匯出。
 
-  如需使用篩選器的詳細資訊，請參閱 [Adobe Workfront中的篩選器概觀](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+  如需使用篩選器的詳細資訊，請參閱 [篩選器概觀](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
   如需有關使用提示的資訊，請參閱 [新增提示至報表](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md).
 

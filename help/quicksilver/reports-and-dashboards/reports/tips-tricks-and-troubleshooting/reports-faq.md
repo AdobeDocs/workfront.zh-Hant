@@ -7,9 +7,9 @@ description: 報表常見問題集
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 5e267d45-7922-4c0f-8530-59a8c152f625
-source-git-commit: d8e3c2da7f8fcd062e1bf2bb5de43a6238f5eadd
+source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
 workflow-type: tm+mt
-source-wordcount: '1512'
+source-wordcount: '1509'
 ht-degree: 0%
 
 ---
@@ -83,7 +83,7 @@ ht-degree: 0%
 
 此錯誤表示您的圖表最多包含618個不同的結果，例如長條圖中有超過618個長條。 若要解決顯示問題，您需要修改目前的篩選和群組選取專案，以縮小結果範圍。
 
-如需有關修改篩選器和群組的資訊，請參閱文章 [Adobe Workfront中的篩選器概觀](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md) 和 [Adobe Workfront中的群組概觀](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
+如需有關修改篩選器和群組的資訊，請參閱文章 [篩選器概觀](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md) 和 [Adobe Workfront中的群組概觀](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
 
 ## 當我存取與同事相同的報表（或行事曆）時，為什麼我可以看到我的任務（或問題），而他們反而會看到他們的任務？
 
@@ -124,7 +124,7 @@ ht-degree: 0%
    這可確保您看到指派給登入使用者的所有任務和問題。 您可以使用特定使用者名稱來取代萬用字元。\
    ![](assets/qs-tasks-assigned-to-me-assignment-users-name-filter-350x63.png)
 
-1. 按一下 **儲存+關閉**.
+1. 按一下「**儲存並關閉**」。
 
 ## 為什麼新增問題/新增任務連結沒有出現在專案的問題和任務清單底部？
 

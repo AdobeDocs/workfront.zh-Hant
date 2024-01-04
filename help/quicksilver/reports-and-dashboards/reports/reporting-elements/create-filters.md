@@ -6,9 +6,9 @@ description: 您可以透過篩選條件限制在專案清單中熒幕顯示的�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 2e912e32-7924-418d-9d55-ce3c09f67d3e
-source-git-commit: 532ec7f7a33e1e1111a31422c5c3c442b2e176b5
+source-git-commit: 429bec1b8884c721af4c6fe1707bea9d9fdf98f8
 workflow-type: tm+mt
-source-wordcount: '2456'
+source-wordcount: '2450'
 ht-degree: 1%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 1%
 
 * Workfront其他區域中的篩選器，在清單和報告之外。
 
-  如需Workfront中所有篩選器的清單，以及可套用篩選器的區域，請參閱 [Adobe Workfront中的篩選器概觀](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+  如需Workfront中所有篩選器的清單，以及可套用篩選器的區域，請參閱 [篩選器概觀](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
 ## 存取需求
 
@@ -241,7 +241,7 @@ ht-degree: 1%
 
    ![包含全部或任何或True下拉式功能表](assets/new-filters-all-or-any-are-true-drop-down-menu-nwe.png)
 
-   如需篩選器運運算元的詳細資訊，請參閱 [Adobe Workfront中的篩選器概觀](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+   如需篩選器運運算元的詳細資訊，請參閱 [篩選器概觀](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
 1. 按一下欄位下拉式功能表，以檢視最近使用之欄位的清單，以及篩選依據的建議欄位。 建議的欄位目前顯示在您正在篩選的清單中。
 

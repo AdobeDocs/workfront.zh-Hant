@@ -7,9 +7,9 @@ description: 若在篩選中使用萬用字元，您可以參照一般使用者�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: f99cd99e-c4c1-471d-8428-c680f0e73336
-source-git-commit: d98bb6b6bb8ff3bff6f367f1376948d5104887e5
+source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
 workflow-type: tm+mt
-source-wordcount: '1449'
+source-wordcount: '1446'
 ht-degree: 1%
 
 ---
@@ -38,7 +38,7 @@ ht-degree: 1%
 <table>
     <tr>
         <td>清單、報表和資源規劃工具中的篩選器</td>
-        <td>如需Workfront篩選器的相關資訊，請參閱文章 <a href="../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md">Adobe Workfront中的篩選器概觀</a>.
+        <td>如需Workfront篩選器的相關資訊，請參閱文章 <a href="../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md">篩選器概觀</a>.
 </td>
     </tr>
     <tr>

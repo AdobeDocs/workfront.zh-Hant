@@ -5,33 +5,33 @@ author: Nolan
 draft: Probably
 feature: Reports and Dashboards
 exl-id: ecf947ce-54d8-4103-8903-f455b1d86c39
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
 workflow-type: tm+mt
-source-wordcount: '2698'
+source-wordcount: '2686'
 ht-degree: 4%
 
 ---
 
 # 更新區域報告
 
-「日記帳分錄」報表會從項目、任務、問題和其他對象的「更新」區域顯示系統更新，這些對象以前只能通過Adobe Workfront API使用。 雖然這是針對特定使用案例的進階報表，但格式越簡單，您就能更輕鬆地報告Workfront中的專案活動和系統更新。
+「日誌專案」報表會從專案、工作、問題和其他物件的更新區域顯示系統更新，這些先前只能透過Adobe Workfront API使用。 雖然此為適用於特定使用案例的進階報表，但格式越容易解讀，您就能更輕鬆地在Workfront中報告專案活動和系統更新。
 
 >[!TIP]
 >
->「日記帳分錄」報表僅包含對象「更新」區域中的系統更新。 若要報告「更新」區域中剩餘的注釋，必須使用「注釋」報告。\
->如需附註報表的詳細資訊，請參閱 [在「附註」報表中檢視所有更新](../../../workfront-basics/updating-work-items-and-viewing-updates/view-all-updates-in-a-report.md). ‍
+>「日誌專案」報表只包含物件更新區域的系統更新。 若要報告「更新」區域中剩餘的註解，您必須使用「註記」報告。\
+>如需有關「附註」報表的詳細資訊，請參閱 [在備註報告中檢視所有更新](../../../workfront-basics/updating-work-items-and-viewing-updates/view-all-updates-in-a-report.md). ‍
 
-「日記帳分錄」報表可以顯示：
+「日誌專案」報表可顯示：
 
-* 發生了多少個狀態更改
+* 已發生的狀態變更數量
 * 刪除任務或問題時
-* 重要自訂欄位中的值在專案生命週期中的變更方式
-* 在項目的生命週期中，有哪些重要日期發生了更改
-* 如果專案的擁有者已變更
+* 重要自訂欄位中的值在專案生命週期中如何變更
+* 在專案生命週期中變更了哪些重要日期
+* 如果專案所有者已變更
 
 ## 存取需求
 
-您必須具備下列存取權，才能執行本文中的步驟：
+您必須具有下列存取權才能執行本文中的步驟：
 
 <table style="table-layout:auto"> 
  <col> 
@@ -46,41 +46,41 @@ ht-degree: 4%
    <td> <p>計劃 </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">訪問級別配置*</td> 
-   <td> <p>編輯對報表、控制面板、日曆的存取</p> <p>編輯對篩選器、檢視、群組的存取</p> <p>注意：如果您仍無權存取，請洽詢您的Workfront管理員，他們是否在您的存取層級設定其他限制。 如需Workfront管理員如何修改您的存取層級的詳細資訊，請參閱 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>.</p> </td> 
+   <td role="rowheader">存取層級設定*</td> 
+   <td> <p>編輯報告、儀表板、行事曆的存取權</p> <p>編輯對篩選器、檢視、群組的存取權</p> <p>注意：如果您還是沒有存取權，請詢問您的Workfront管理員，他們是否在您的存取層級中設定其他限制。 如需有關Workfront管理員如何修改您的存取層級的資訊，請參閱 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">物件權限</td> 
-   <td> <p>查看包含在報表中顯示的日記帳分錄的對象的權限</p> <p>建立報表後，您將取得該報表的管理權限</p> <p>有關請求其他訪問的資訊，請參閱 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">請求對對象的訪問 </a>.</p> </td> 
+   <td role="rowheader">物件許可權</td> 
+   <td> <p>檢視物件的許可權，這些物件包含您在報表中顯示的日誌專案</p> <p>建立報表後，您將會取得報表的管理許可權</p> <p>如需請求其他存取許可權的詳細資訊，請參閱 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">要求物件的存取權 </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;若要了解您擁有的計畫、授權類型或存取權，請聯絡您的Workfront管理員。
+&#42;若要瞭解您擁有的計畫、授權型別或存取權，請聯絡您的Workfront管理員。
 
-## 必要條件
+## 先決條件
 
 您必須先確定下列事項，才能執行本文所述的動作：
 
-* 您要報告的任何欄位都會在Workfront中追蹤。 您只能報告所追蹤之「更新」區域的資料。
+* 您想要報告的任何欄位會在Workfront中進行追蹤。 您只能報告來自已追蹤更新區域的資料。
 
-   若要了解如何新增您要Workfront追蹤的欄位，請參閱 [配置系統更新](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
+  若要瞭解如何新增您希望Workfront追蹤的欄位，請參閱 [設定系統更新](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
 
-* 您要報告的任何自訂欄位皆已設定 **在更新摘要中顯示欄位變更** 已啟用。
+* 您要報告的任何自訂欄位都有設定 **在更新摘要中顯示欄位變更** 已啟用。
 
-   若要了解如何為自訂欄位啟用此設定，請參閱區段 [建立或編輯自訂表單](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#create) 在文章中 [建立或編輯自訂表單](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
+  若要瞭解如何為自訂欄位啟用此設定，請參閱區段 [建立或編輯自訂表單](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#create) 在文章中 [建立或編輯自訂表單](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
 
-## 日記帳分錄報表概覽
+## 分錄報表概觀
 
-由於「日記帳分錄」報表查詢系統更新，因此可以返回大量結果。 因此，我們建議您在建立報表時，篩選特定物件（例如專案、方案、產品組合、群組等）。
+由於「日誌專案」報表會查詢系統更新，因此可傳回大量結果。 因此，在建立報告時，我們建議您篩選至特定物件，例如專案、方案、投資組合、群組等。
 
-若要進一步了解Workfront中的不同物件類型，請參閱 [了解Adobe Workfront中的物件](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
+若要進一步瞭解Workfront中的不同物件型別，請參閱 [瞭解Adobe Workfront中的物件](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
 
 >[!NOTE]
 >
->由於「日記帳分錄」報表傳回的資料太多，因此不支援匯出和計畫的報表傳送。
+>由於「日誌專案」報表會傳回太多資料，因此不支援匯出和已排程的報表傳送。
 
-此報表的預設檢視包含下列各欄：
+此報表的預設檢視包含下列欄：
 
 <table style="table-layout:auto"> 
  <col> 
@@ -94,11 +94,11 @@ ht-degree: 4%
  <tbody> 
   <tr> 
    <td><strong>欄位名稱</strong> </td> 
-   <td> <p><span style="font-weight: normal;">受影響欄位的名稱。 根據您設定報表的方式，此列可包含狀態、所有者ID、任務名稱、計畫完成日期或其他欄位。</span> </p> <p><span style="font-weight: normal;">當</span> <strong>DE</strong>:<span style="font-weight: normal;"> 顯示在此欄中，它表示列出的欄位是自訂欄位。</span></p> </td> 
+   <td> <p><span style="font-weight: normal;">受影響欄位的名稱。 根據您設定報表的方式，此欄可能包含「狀態」、「擁有者ID」、「任務名稱」、「計畫完成日期」或其他欄位。</span> </p> <p><span style="font-weight: normal;">時間</span> <strong>DE</strong>：<span style="font-weight: normal;"> 會顯示在此欄中，表示所列的欄位是自訂欄位。</span></p> </td> 
   </tr> 
   <tr> 
-   <td><strong>更改類型</strong> </td> 
-   <td> <p>對受影響欄位所做的變更類型。 根據您設定的篩選規則和使用者採取的動作，此欄位中可能會出現下列項目：</p> 
+   <td><strong>變更型別</strong> </td> 
+   <td> <p>對受影響欄位進行的變更型別。 根據您設定的篩選規則和使用者採取的動作，下列內容可能會顯示在此欄位中：</p> 
     <ul> 
      <li> <p>新增</p> </li> 
      <li> <p>稽核</p> </li> 
@@ -114,22 +114,22 @@ ht-degree: 4%
   </tr> 
   <tr> 
    <td><strong>範圍</strong> </td> 
-   <td> <p>已更改的對象類型。</p> </td> 
+   <td> <p>已變更的物件型別。</p> </td> 
   </tr> 
   <tr> 
    <td><strong>輸入日期</strong> </td> 
    <td> <p>欄位變更的日期。</p> </td> 
   </tr> 
   <tr> 
-   <td><strong>按名稱編輯</strong> </td> 
+   <td><strong>依名稱編輯</strong> </td> 
    <td> <p>變更欄位的使用者。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-若要組織此報告中的資訊，您可以使用內建的分組專案。 「項目」分組為您提供項目名稱的主要分組和錄入日期的輔助分組。 您可以在建立報表時套用此現有分組，或在檢視報表時套用。
+若要組織此報表中的資訊，您可以使用內建的分組專案。 「專案」群組提供「專案名稱」的主要群組以及「輸入日期」的次要群組。 您可以在建立報表時套用這個現有的群組，也可以在檢視報表時套用它。
 
-若要了解如何設定報表的檢視、篩選和群組，請參閱相關區段：
+若要瞭解如何設定您要用於報告的檢視、篩選器和群組，請參閱相關區段：
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -138,25 +138,25 @@ ht-degree: 4%
 </div>
 -->
 
-* [查看發生了哪些狀態更改](#see-what-status-changes-occurred)
-* [查看任務或問題的刪除時間](#see-when-a-task-or-issue-was-deleted)
-* [查看自訂欄位在專案生命週期中的變更方式](#see-how-custom-fields-changed-over-the-course-of-a-project-s-life-cycle)
-* [查看計畫完成日期在項目生命週期中如何更改](#see-how-the-planned-completion-date-changed-over-the-course-of-a-project-s-life-cycle)
-* [查看項目的所有者是否已更改](#see-if-the-owner-of-a-project-changed)
+* [檢視已發生的狀態變更](#see-what-status-changes-occurred)
+* [檢視任務或問題何時被刪除](#see-when-a-task-or-issue-was-deleted)
+* [檢視自訂欄位在專案生命週期中的變更情形](#see-how-custom-fields-changed-over-the-course-of-a-project-s-life-cycle)
+* [檢視計畫完成日期在專案生命週期中的變化](#see-how-the-planned-completion-date-changed-over-the-course-of-a-project-s-life-cycle)
+* [檢視專案所有者是否已變更](#see-if-the-owner-of-a-project-changed)
 
-## 查看發生了哪些狀態更改 {#see-what-status-changes-occurred}
+## 檢視已發生的狀態變更 {#see-what-status-changes-occurred}
 
-您可以設定「日記帳分錄」報表以顯示：
+您可以設定「分錄」報表以顯示：
 
-* 對項目、任務或問題進行了多少次狀態更改
+* 對專案、任務或問題做了多少狀態變更
 
 * 變更前的狀態
-* 更改了狀態的人員
-* 狀態更改發生時
+* 誰變更了狀態
+* 發生狀態變更的時間
 
-如果您想查看專案的運作狀況，也可以設定報表，使用專案顯示相同的資訊 **條件** 欄位。
+如果您想要檢視專案的健康情況，也可以使用專案設定報告以顯示相同的資訊 **條件** 欄位。
 
-此資訊可用於幫助進行審計，並說明您和您的組織的規劃情況。
+此資訊可用於協助稽核及說明您與貴組織的規劃成效。
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE:&nbsp;for tip below: When analytics adds the status option, update this note to say "these entries (status or condition changes)")</p>
@@ -164,17 +164,17 @@ ht-degree: 4%
 
 >[!TIP]
 >
->如果您想比較條件變更之間的天數差異，可以使用增強分析。\
->若要進一步了解增強分析，請參閱 [增強的分析概觀](../../../enhanced-analytics/enhanced-analytics-overview.md).
+>如果您想比較條件變更之間的天數差異，可使用增強型分析。\
+>若要進一步瞭解增強型分析，請參閱 [增強型分析概述](../../../enhanced-analytics/enhanced-analytics-overview.md).
 
-1. 按一下 **主菜單** 圖示 ![](assets/main-menu-icon.png) 在Adobe Workfront的右上角，然後按一下 **報表**.
-1. 按一下 **新增報表**，然後選取 **日記帳分錄**.
+1. 按一下 **主要功能表** 圖示 ![](assets/main-menu-icon.png) (位於Adobe Workfront的右上角)，然後按一下 **報表**.
+1. 按一下 **新報告**，然後選取 **日誌專案**.
 
    ![](assets/nwe-select-journal-entry-350x273.png)
 
-   報告建立工具會載入。
+   Report Builder隨即載入。
 
-1. 在 **欄（檢視）** 頁簽，添加以下列：
+1. 在 **欄（檢視）** 索引標籤中，新增下列欄：
 
    <table style="table-layout:auto"> 
     <col> 
@@ -188,61 +188,61 @@ ht-degree: 4%
     <tbody> 
      <tr> 
       <td> <p style="font-weight: bold;">欄位名稱</p> </td> 
-      <td> <p>受影響欄位的名稱。 在這種情況下， <strong>狀態</strong> 應會顯示在此欄中。</p> </td> 
+      <td> <p>受影響欄位的名稱。 在這種情況下， <strong>狀態</strong> 應該會顯示在此欄中。</p> </td> 
      </tr> 
      <tr> 
       <td> <p style="font-weight: bold;">更改類型</p> </td> 
-      <td> <p>對受影響欄位所做的變更類型，例如 <strong>新增</strong>, <strong>刪除</strong>，或 <strong>編輯</strong>.</p> </td> 
+      <td> <p>對受影響欄位進行的變更型別，例如 <strong>新增</strong>， <strong>刪除</strong>，或 <strong>編輯</strong>.</p> </td> 
      </tr> 
      <tr> 
-      <td> <p style="font-weight: bold;">按名稱編輯</p> </td> 
+      <td> <p style="font-weight: bold;">依名稱編輯</p> </td> 
       <td> <p>更新狀態的使用者名稱。</p> </td> 
      </tr> 
      <tr> 
       <td> <p style="font-weight: bold;">輸入日期</p> </td> 
-      <td> <p>狀態更改的日期。</p> </td> 
+      <td> <p>狀態變更的日期。</p> </td> 
      </tr> 
      <tr> 
       <td> <p style="font-weight: bold;">舊文字值</p> </td> 
-      <td> <p>上一個狀態的鍵。 以下是預設項目狀態的狀態鍵：</p> 
+      <td> <p>上一個狀態的索引鍵。 以下是預設專案狀態的狀態索引鍵：</p> 
        <ul> 
-        <li> <p> <strong>CUR</strong>:目前</p> </li> 
-        <li> <p><strong>DED</strong>:死亡</p> </li> 
-        <li> <p><strong>ONH</strong>:暫掛</p> </li> 
-        <li> <p><strong>PLN</strong>:規劃</p> </li> 
-        <li> <p><strong>CPL</strong>:完成</p> </li> 
-        <li> <p><strong>請求</strong>:已請求</p> </li> 
-        <li> <p><strong>4月</strong>:已核准</p> </li> 
-        <li> <p><strong>REJ</strong>:已拒絕</p> </li> 
-        <li> <p><strong>IDA</strong>:構想</p> </li> 
-       </ul> <p>如果您的組織已設定自訂狀態，則此欄中可能會顯示其他狀態索引鍵。 若要了解哪些自訂狀態與狀態金鑰相關，請聯絡您的Workfront管理員或群組管理員。</p> </td> 
+        <li> <p> <strong>目前</strong>：目前</p> </li> 
+        <li> <p><strong>DED</strong>：廢棄</p> </li> 
+        <li> <p><strong>一</strong>：保留</p> </li> 
+        <li> <p><strong>計畫</strong>：規劃</p> </li> 
+        <li> <p><strong>CPL</strong>：完成</p> </li> 
+        <li> <p><strong>需要</strong>：已要求</p> </li> 
+        <li> <p><strong>四月</strong>：已核准</p> </li> 
+        <li> <p><strong>REJ</strong>：已拒絕</p> </li> 
+        <li> <p><strong>IDA</strong>：構想</p> </li> 
+       </ul> <p>如果您的組織已設定自訂狀態，其他狀態索引鍵可能會顯示在此欄中。 若要瞭解哪些自訂狀態與狀態索引鍵相關，請聯絡您的Workfront管理員或群組管理員。</p> </td> 
      </tr> 
      <tr> 
       <td> <p style="font-weight: bold;">新文字值</p> </td> 
-      <td> <p>更新狀態的金鑰。</p> </td> 
+      <td> <p>更新狀態的索引鍵。</p> </td> 
      </tr> 
      <tr> 
       <td> <p style="font-weight: bold;">主要物件代碼</p> </td> 
-      <td> <p>狀態發生更改的欄位的最高父對象。</p> </td> 
+      <td> <p>狀態已變更之欄位的最高父物件。</p> </td> 
      </tr> 
      <tr> 
       <td> <p style="font-weight: bold;">範圍</p> </td> 
-      <td> <p>狀態已更改的對象類型。</p> </td> 
+      <td> <p>狀態已變更的物件型別。</p> </td> 
      </tr> 
      <tr> 
       <td> <p style="font-weight: bold;">問題名稱<br>（可選）</p> </td> 
-      <td> <p>狀態發生更改的問題的名稱。</p> </td> 
+      <td> <p>狀態變更的問題名稱。</p> </td> 
      </tr> 
      <tr> 
       <td> <p style="font-weight: bold;">任務名稱<br>（可選）</p> </td> 
-      <td> <p>狀態發生更改的任務的名稱。</p> </td> 
+      <td> <p>狀態變更的工作名稱。</p> </td> 
      </tr> 
     </tbody> 
    </table>
 
-   有關添加列的詳細資訊，請參閱 [Adobe Workfront中的檢視概觀](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
+   如需新增欄的詳細資訊，請參閱 [Adobe Workfront中的檢視概觀](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
 
-1. 在 **篩選器** 按一下 **新增篩選規則**，然後新增篩選規則 **欄位名稱** > **等於** > **狀態**.
+1. 在 **篩選器** 標籤，按一下 **新增篩選器規則**，然後新增篩選規則 **欄位名稱** > **等於** > **狀態**.
 
    ![](assets/nwe-journal-entry-status-filter-rules-350x90.png)
 
@@ -250,45 +250,45 @@ ht-degree: 4%
    >
    >若要報告條件變更，您可以改為新增篩選規則 **欄位名稱** > **等於** > **條件**.
 
-   如需新增篩選器的詳細資訊，請參閱 [Adobe Workfront中的篩選器概觀](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+   如需新增篩選器的詳細資訊，請參閱 [篩選器概觀](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
-1. （可選）若要縮小報表的焦點並縮短載入時間，請新增提示。
+1. （選用）若要縮小報表焦點並減少載入時間，請新增提示。
 
    或
 
-   建立其他篩選規則以包含特定專案、工作或問題。
+   建立其他篩選規則以包含特定專案、任務或問題。
 
    >[!IMPORTANT]
    >
-   >建立使用修飾詞的篩選規則 **包含** 實際上會增載入入時間。 因此，我們建議使用不同的修飾詞，例如 **等於** 可以篩選特定專案或較高層級物件ID時。
+   >建立使用修飾元的篩選規則 **包含** 實際上會增載入入時間。 因此，我們建議您使用不同的修飾元，例如 **等於** 儘可能篩選特定專案或較高層級物件ID。
 
-   若要了解如何新增提示，請參閱 [新增提示至報表](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md).
+   若要瞭解如何新增提示，請參閱 [新增提示至報表](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md).
 
-1. 在 **分組** 按一下 **應用現有分組**，然後選取 **專案**.
+1. 在 **群組** 標籤，按一下 **套用現有群組**，然後選取 **專案**.
 
-   有關添加分組的詳細資訊，請參閱 [Adobe Workfront中的群組概觀](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
+   如需新增群組的詳細資訊，請參閱 [Adobe Workfront中的群組概觀](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
 
-1. 按一下 **儲存+關閉**.
+1. 按一下「**儲存並關閉**」。
 
-   新報表載入。
+   新報表隨即載入。
 
-## 查看任務或問題的刪除時間 {#see-when-a-task-or-issue-was-deleted}
+## 檢視任務或問題何時被刪除 {#see-when-a-task-or-issue-was-deleted}
 
-您可以設定「日記帳分錄」報表以顯示：
+您可以設定「分錄」報表以顯示：
 
 * 已刪除哪些任務或問題
 * 刪除任務或問題的人員
 
-查看任務或問題的刪除時間：
+若要檢視任務或問題何時被刪除：
 
-1. 按一下 **主菜單** 圖示 ![](assets/main-menu-icon.png) 在Adobe Workfront的右上角，然後按一下 **報表**.
-1. 按一下 **新增報表**，然後選取 **日記帳分錄**.
+1. 按一下 **主要功能表** 圖示 ![](assets/main-menu-icon.png) (位於Adobe Workfront的右上角)，然後按一下 **報表**.
+1. 按一下 **新報告**，然後選取 **日誌專案**.
 
    ![](assets/nwe-select-journal-entry-350x273.png)
 
-   報告建立工具會載入。
+   Report Builder隨即載入。
 
-1. 在 **欄（檢視）** 頁簽，添加以下列：
+1. 在 **欄（檢視）** 索引標籤中，新增下列欄：
 
    <table style="table-layout:auto"> 
     <col> 
@@ -302,76 +302,77 @@ ht-degree: 4%
     <tbody> 
      <tr> 
       <td> <p style="font-weight: bold;">範圍</p> </td> 
-      <td> <p>已刪除的對象類型。</p> </td> 
+      <td> <p>已刪除的物件型別。</p> </td> 
      </tr> 
      <tr> 
       <td> <p style="font-weight: bold;">更改類型</p> </td> 
-      <td> <p>發生的變更類型。 此 <strong>刪除</strong> 此欄中會顯示變更。</p> </td> 
+      <td> <p>發生的變更型別。 此 <strong>刪除</strong> 變更會顯示在此欄中。</p> </td> 
      </tr> 
      <tr> 
       <td> <p style="font-weight: bold;">輸入日期</p> </td> 
       <td> <p>刪除任務或問題的日期。</p> </td> 
      </tr> 
      <tr> 
-      <td> <p style="font-weight: bold;">按名稱編輯</p> </td> 
-      <td> <p>刪除任務或問題的用戶的名稱。</p> </td> 
+      <td> <p style="font-weight: bold;">依名稱編輯</p> </td> 
+      <td> <p>刪除任務或問題的使用者的名稱。</p> </td> 
      </tr> 
      <tr> 
       <td> <p style="font-weight: bold;">專案名稱</p> </td> 
-      <td> <p>已刪除任務或問題的項目名稱。</p> </td> 
+      <td> <p>已刪除任務或問題的專案名稱。</p> </td> 
      </tr> 
     </tbody> 
    </table>
 
-   有關添加列的詳細資訊，請參閱 [Adobe Workfront中的檢視概觀](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
+   如需新增欄的詳細資訊，請參閱 [Adobe Workfront中的檢視概觀](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
 
-1. 在 **篩選器** 按一下 **新增篩選規則**，然後新增下列項目：
+1. 在 **篩選器** 標籤，按一下 **新增篩選器規則**，然後新增下列專案：
 
-   * **變更類型** > **等於** > **刪除**
+   * **變更型別** > **等於** > **刪除**
    * **專案ID** > **等於** > **`<project>`**
 
-      <!--WRITER check link; this png file has spaces
+     <!--WRITER check link; this png file has spaces
      [![](assets/classic-task-or-issue-deleted-350x90.png)](../../../Resources/Images/Reports/Creating and Managing Reports/QS_Task or issue deleted.png)-->
-   如需新增篩選器的詳細資訊，請參閱 [Adobe Workfront中的篩選器概觀](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
-1. （可選）若要縮小報表的焦點並縮短載入時間，請新增提示。
+   如需新增篩選器的詳細資訊，請參閱 [篩選器概觀](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+
+1. （選用）若要縮小報表焦點並減少載入時間，請新增提示。
 
    或
 
-   建立其他篩選規則以包含特定專案、工作或問題。
+   建立其他篩選規則以包含特定專案、任務或問題。
 
    >[!IMPORTANT]
    >
-   >建立使用修飾詞的篩選規則 **包含** 實際上會增載入入時間。 因此，我們建議使用不同的修飾詞，例如 **等於** 可以篩選特定專案或較高層級物件ID時。
+   >建立使用修飾元的篩選規則 **包含** 實際上會增載入入時間。 因此，我們建議您使用不同的修飾元，例如 **等於** 儘可能篩選特定專案或較高層級物件ID。
 
-   若要了解如何新增提示，請參閱 [新增提示至報表](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md).
+   若要瞭解如何新增提示，請參閱 [新增提示至報表](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md).
 
-1. （選用）在 **分組** 按一下 **應用現有分組**，然後選取 **專案**.
+1. （選用）在 **群組** 標籤，按一下 **套用現有群組**，然後選取 **專案**.
 
-   有關添加分組的詳細資訊，請參閱 [Adobe Workfront中的群組概觀](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
+   如需新增群組的詳細資訊，請參閱 [Adobe Workfront中的群組概觀](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
 
-1. 按一下 **儲存+關閉**.
+1. 按一下「**儲存並關閉**」。
 
-   新報表載入。
+   新報表隨即載入。
 
-## 查看自訂欄位在專案生命週期中的變更方式 {#see-how-custom-fields-changed-over-the-course-of-a-project-s-life-cycle}
+## 檢視自訂欄位在專案生命週期中的變更情形 {#see-how-custom-fields-changed-over-the-course-of-a-project-s-life-cycle}
 
-您可以在專案期間追蹤重要欄位變更。 要執行此操作，您可以設定要跟蹤的日記帳分錄：
+您可以追蹤專案過程中重要欄位變更。 若要這麼做，您可以設定要追蹤的日誌專案：
 
-* 如果已新增、更新或編輯某些自訂欄位
-* 這些變更發生時
-* 誰做了更改
+* 是否已新增、更新或編輯某些自訂欄位
+* 這些變更發生的時間
+* 誰進行了變更
 
-查看自定義欄位在項目生命週期中的變化：
+若要檢視自訂欄位在專案生命週期中的變更情形：
 
-1. 按一下 **主菜單** 圖示 ![](assets/main-menu-icon.png) 在Adobe Workfront的右上角，然後按一下 **報表**.
-1. 按一下 **新增報表**，然後選取 **日記帳分錄**.
+1. 按一下 **主要功能表** 圖示 ![](assets/main-menu-icon.png) (位於Adobe Workfront的右上角)，然後按一下 **報表**.
+1. 按一下 **新報告**，然後選取 **日誌專案**.
 
    ![](assets/nwe-select-journal-entry-350x273.png)
 
-   報告建立工具會載入。
+   Report Builder隨即載入。
 
-1. 在 **欄（檢視）** 頁簽，添加以下列：
+1. 在 **欄（檢視）** 索引標籤中，新增下列欄：
 
    <table style="table-layout:auto"> 
     <col> 
@@ -385,35 +386,35 @@ ht-degree: 4%
     <tbody> 
      <tr> 
       <td> <p style="font-weight: bold;">欄位名稱</p> </td> 
-      <td> <p>受影響的自訂欄位名稱。</p> <p><span style="font-weight: normal;">當</span> <strong>DE</strong>:<span style="font-weight: normal;"> 顯示在此欄中，它表示列出的欄位是自訂欄位。</span></p> </td> 
+      <td> <p>受影響的自訂欄位名稱。</p> <p><span style="font-weight: normal;">時間</span> <strong>DE</strong>：<span style="font-weight: normal;"> 會顯示在此欄中，表示所列的欄位是自訂欄位。</span></p> </td> 
      </tr> 
      <tr> 
       <td> <p style="font-weight: bold;">更改類型</p> </td> 
-      <td> <p>對受影響欄位所做的變更類型，例如 <strong>新增</strong>, <strong>刪除</strong>，或 <strong>編輯</strong>.</p> </td> 
+      <td> <p>對受影響欄位進行的變更型別，例如 <strong>新增</strong>， <strong>刪除</strong>，或 <strong>編輯</strong>.</p> </td> 
      </tr> 
      <tr> 
-      <td> <p style="font-weight: bold;">按名稱編輯</p> </td> 
+      <td> <p style="font-weight: bold;">依名稱編輯</p> </td> 
       <td> <p>更新自訂欄位的使用者名稱。</p> </td> 
      </tr> 
      <tr> 
       <td> <p style="font-weight: bold;">輸入日期</p> </td> 
-      <td> <p>自訂欄位中值變更的日期。</p> <p>您應依此欄位以降序排序。</p> </td> 
+      <td> <p>自訂欄位中的值變更的日期。</p> <p>您應該依此欄位遞減排序。</p> </td> 
      </tr> 
      <tr> 
       <td> <p style="font-weight: bold;">舊數值</p> </td> 
-      <td> <p>自訂欄位中的前一個數字值。</p> </td> 
+      <td> <p>自訂欄位中的上一個數值。</p> </td> 
      </tr> 
      <tr> 
       <td> <p style="font-weight: bold;">新數值</p> </td> 
-      <td> <p>自訂欄位中的目前數字值。</p> </td> 
+      <td> <p>自訂欄位中目前的數字值。</p> </td> 
      </tr> 
      <tr> 
       <td> <p style="font-weight: bold;">舊日期值</p> </td> 
-      <td> <p>自訂欄位中的上一個日期值。</p> </td> 
+      <td> <p>自訂欄位中的前一個日期值。</p> </td> 
      </tr> 
      <tr> 
       <td> <p style="font-weight: bold;">新日期值</p> </td> 
-      <td> <p>自訂欄位中的目前日期值。</p> </td> 
+      <td> <p>自訂欄位中目前的日期值。</p> </td> 
      </tr> 
      <tr> 
       <td> <p style="font-weight: bold;">舊文字值</p> </td> 
@@ -421,58 +422,59 @@ ht-degree: 4%
      </tr> 
      <tr> 
       <td> <p style="font-weight: bold;">新文字值</p> </td> 
-      <td> <p>自訂欄位中的目前文字值。</p> <p>如果自訂欄位是字型預覽欄位，則 <strong>新文字值</strong> 欄顯示對象ID。</p> </td> 
+      <td> <p>自訂欄位中目前的文字值。</p> <p>如果自訂欄位是預先輸入欄位， <strong>新文字值</strong> 欄會顯示物件ID。</p> </td> 
      </tr> 
     </tbody> 
    </table>
 
-   有關添加列的詳細資訊，請參閱 [Adobe Workfront中的檢視概觀](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
+   如需新增欄的詳細資訊，請參閱 [Adobe Workfront中的檢視概觀](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
 
-1. 在 **篩選器** 按一下 **新增篩選規則**，然後新增下列項目：
+1. 在 **篩選器** 標籤，按一下 **新增篩選器規則**，然後新增下列專案：
 
-   * **日記帳分錄欄位名稱** > **包含** > **DE**
+   * **日誌專案欄位名稱** > **包含** > **DE**
 
-      >[!TIP]
-      >
-      >若要將此報表限制為特定自訂欄位，請新增篩選規則 **日記帳分錄欄位名稱** > **等於** > **`<custom field>`**.
+     >[!TIP]
+     >
+     >若要將此報告限製為特定自訂欄位，請新增篩選規則 **日誌專案欄位名稱** > **等於** > **`<custom field>`**.
 
    * **專案ID** > **等於** > **`<project>`**
 
-      ![](assets/qs-custom-form-changes-filter-350x92.png)
-   如需新增篩選器的詳細資訊，請參閱 [Adobe Workfront中的篩選器概觀](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+     ![](assets/qs-custom-form-changes-filter-350x92.png)
 
-1. （可選）若要縮小報表的焦點並縮短載入時間，請新增提示。
+   如需新增篩選器的詳細資訊，請參閱 [篩選器概觀](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+
+1. （選用）若要縮小報表焦點並減少載入時間，請新增提示。
 
    或
 
-   建立其他篩選規則以包含特定專案、工作或問題。
+   建立其他篩選規則以包含特定專案、任務或問題。
 
    >[!IMPORTANT]
    >
-   >建立使用修飾詞的篩選規則 **包含** 實際上會增載入入時間。 因此，我們建議使用不同的修飾詞，例如 **等於** 可以篩選特定專案或較高層級物件ID時。
+   >建立使用修飾元的篩選規則 **包含** 實際上會增載入入時間。 因此，我們建議您使用不同的修飾元，例如 **等於** 儘可能篩選特定專案或較高層級物件ID。
 
-   若要了解如何新增提示，請參閱 [新增提示至報表](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md).
+   若要瞭解如何新增提示，請參閱 [新增提示至報表](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md).
 
-1. 在 **分組** 按一下 **應用現有分組**，然後選取 **專案**.
+1. 在 **群組** 標籤，按一下 **套用現有群組**，然後選取 **專案**.
 
-   有關添加分組的詳細資訊，請參閱 [Adobe Workfront中的群組概觀](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
+   如需新增群組的詳細資訊，請參閱 [Adobe Workfront中的群組概觀](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
 
-1. 按一下 **儲存+關閉**.
+1. 按一下「**儲存並關閉**」。
 
-   新報表載入。
+   新報表隨即載入。
 
-## 查看計畫完成日期在項目生命週期中如何更改 {#see-how-the-planned-completion-date-changed-over-the-course-of-a-project-s-life-cycle}
+## 檢視計畫完成日期在專案生命週期中的變化 {#see-how-the-planned-completion-date-changed-over-the-course-of-a-project-s-life-cycle}
 
-您可以設定「日記帳分錄」報表，以顯示計畫完成日期在項目生命週期中的更改頻率。
+您可以設定「日誌專案」報表，以顯示「計畫完成日期」在專案生命週期中變更的頻率。
 
-1. 按一下 **主菜單** 圖示 ![](assets/main-menu-icon.png) 在Adobe Workfront的右上角，然後按一下 **報表**.
-1. 按一下 **新增報表**，然後選取 **日記帳分錄**.
+1. 按一下 **主要功能表** 圖示 ![](assets/main-menu-icon.png) (位於Adobe Workfront的右上角)，然後按一下 **報表**.
+1. 按一下 **新報告**，然後選取 **日誌專案**.
 
    ![](assets/nwe-select-journal-entry-350x273.png)
 
-   報告建立工具會載入。
+   Report Builder隨即載入。
 
-1. 在 **欄（檢視）** 頁簽，添加以下列：
+1. 在 **欄（檢視）** 索引標籤中，新增下列欄：
 
    <table style="table-layout:auto"> 
     <col> 
@@ -486,94 +488,94 @@ ht-degree: 4%
     <tbody> 
      <tr> 
       <td> <p style="font-weight: bold;">欄位名稱</p> </td> 
-      <td> <p>受影響欄位的名稱。</p> <p><span style="font-weight: normal;">當</span> <strong>DE</strong>:<span style="font-weight: normal;"> 顯示在此欄中，它表示列出的欄位是自訂欄位。</span></p> </td> 
+      <td> <p>受影響欄位的名稱。</p> <p><span style="font-weight: normal;">時間</span> <strong>DE</strong>：<span style="font-weight: normal;"> 會顯示在此欄中，表示所列的欄位是自訂欄位。</span></p> </td> 
      </tr> 
      <tr> 
       <td> <p style="font-weight: bold;">更改類型</p> </td> 
-      <td>發生的變更類型，例如 <strong>新增</strong>, <strong>刪除</strong>，或 <strong>編輯</strong>.</td> 
+      <td>發生的變更型別，例如 <strong>新增</strong>， <strong>刪除</strong>，或 <strong>編輯</strong>.</td> 
      </tr> 
      <tr> 
-      <td> <p style="font-weight: bold;">按名稱編輯</p> </td> 
-      <td> <p>更新項目計畫完成日期的用戶名。</p> </td> 
+      <td> <p style="font-weight: bold;">依名稱編輯</p> </td> 
+      <td> <p>更新專案計畫完成日期的使用者名稱。</p> </td> 
      </tr> 
      <tr> 
       <td> <p style="font-weight: bold;">輸入日期</p> </td> 
-      <td> <p>更改項目計畫完成日期的日期。</p> <p>您應依此欄位以降序排序。</p> </td> 
+      <td> <p>變更專案計畫完成日期的日期。</p> <p>您應該依此欄位遞減排序。</p> </td> 
      </tr> 
      <tr> 
       <td> <p style="font-weight: bold;">主要物件代碼</p> </td> 
-      <td> <p>計畫完成日期更改的欄位的最高父對象。</p> </td> 
+      <td> <p>計畫完成日期變更的欄位的最高父級物件。</p> </td> 
      </tr> 
      <tr> 
       <td> <p style="font-weight: bold;">範圍</p> </td> 
-      <td> <p>計畫完成日期更改的對象。</p> </td> 
+      <td> <p>計畫完成日期變更的物件。</p> </td> 
      </tr> 
      <tr> 
       <td> <p style="font-weight: bold;">舊日期值</p> </td> 
-      <td> <p>計畫完成日期的前一個值。</p> </td> 
+      <td> <p>計畫完成日期的先前值。</p> </td> 
      </tr> 
      <tr> 
       <td> <p style="font-weight: bold;">新日期值</p> </td> 
-      <td> <p>計畫完成日期的當前值。</p> </td> 
+      <td> <p>計畫完成日期的目前值。</p> </td> 
      </tr> 
      <tr> 
-      <td> <p style="font-weight: bold;">專案名稱</p> <p>(可選)</p> </td> 
-      <td> <p>計畫完成日期更改的項目名稱。</p> </td> 
+      <td> <p style="font-weight: bold;">專案名稱</p> <p>（可選）</p> </td> 
+      <td> <p>計畫完成日期變更的專案名稱。</p> </td> 
      </tr> 
      <tr> 
-      <td> <p style="font-weight: bold;">任務名稱</p> <p>(可選)</p> </td> 
-      <td> <p>計畫完成日期更改的項目中任務的名稱。</p> </td> 
+      <td> <p style="font-weight: bold;">任務名稱</p> <p>（可選）</p> </td> 
+      <td> <p>專案中計畫完成日期變更的任務名稱。</p> </td> 
      </tr> 
      <tr> 
-      <td> <p style="font-weight: bold;">問題名稱</p> <p>(可選)</p> </td> 
-      <td>項目中計畫完成日期更改的問題的名稱。</td> 
+      <td> <p style="font-weight: bold;">問題名稱</p> <p>（可選）</p> </td> 
+      <td>專案中計畫完成日期變更的問題名稱。</td> 
      </tr> 
     </tbody> 
    </table>
 
-   有關添加列的詳細資訊，請參閱 [Adobe Workfront中的檢視概觀](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
+   如需新增欄的詳細資訊，請參閱 [Adobe Workfront中的檢視概觀](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
 
-1. 在 **篩選器** 按一下 **新增篩選規則**，然後新增下列項目：
+1. 在 **篩選器** 標籤，按一下 **新增篩選器規則**，然後新增下列專案：
 
    * **欄位名稱** > **等於** > **日期**
    * **專案ID** > **等於** > **`<project>`**
 
    ![](assets/qs-planned-completion-date-change-filter-350x91.png)
 
-   如需新增篩選器的詳細資訊，請參閱 [Adobe Workfront中的篩選器概觀](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+   如需新增篩選器的詳細資訊，請參閱 [篩選器概觀](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
-1. （可選）若要縮小報表的焦點並縮短載入時間，請新增提示。
+1. （選用）若要縮小報表焦點並減少載入時間，請新增提示。
 
    或
 
-   建立其他篩選規則以包含特定專案、工作或問題。
+   建立其他篩選規則以包含特定專案、任務或問題。
 
    >[!IMPORTANT]
    >
-   >建立使用修飾詞的篩選規則 **包含** 實際上會增載入入時間。 因此，我們建議使用不同的修飾詞，例如 **等於** 可以篩選特定專案或較高層級物件ID時。
+   >建立使用修飾元的篩選規則 **包含** 實際上會增載入入時間。 因此，我們建議您使用不同的修飾元，例如 **等於** 儘可能篩選特定專案或較高層級物件ID。
 
-   若要了解如何新增提示，請參閱 [新增提示至報表](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md).
+   若要瞭解如何新增提示，請參閱 [新增提示至報表](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md).
 
-1. 在 **分組** 按一下 **應用現有分組**，然後選取 **專案**.
+1. 在 **群組** 標籤，按一下 **套用現有群組**，然後選取 **專案**.
 
-   有關添加分組的詳細資訊，請參閱 [Adobe Workfront中的群組概觀](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
+   如需新增群組的詳細資訊，請參閱 [Adobe Workfront中的群組概觀](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
 
-1. 按一下 **儲存+關閉**.
+1. 按一下「**儲存並關閉**」。
 
-   新報表載入。
+   新報表隨即載入。
 
-## 查看項目的所有者是否已更改 {#see-if-the-owner-of-a-project-changed}
+## 檢視專案所有者是否已變更 {#see-if-the-owner-of-a-project-changed}
 
-您可以設定「日記帳分錄」報表，以顯示項目所有者（或項目經理）在項目生命週期中的更改次數。
+您可以設定「日誌專案」報表，以顯示專案所有者（或專案經理）在專案生命週期中的變更次數。
 
-1. 按一下 **主菜單** 圖示 ![](assets/main-menu-icon.png) 在Adobe Workfront的右上角，然後按一下 **報表**.
-1. 按一下 **新增報表**，然後選取 **日記帳分錄**.
+1. 按一下 **主要功能表** 圖示 ![](assets/main-menu-icon.png) (位於Adobe Workfront的右上角)，然後按一下 **報表**.
+1. 按一下 **新報告**，然後選取 **日誌專案**.
 
    ![](assets/nwe-select-journal-entry-350x273.png)
 
-   報告建立工具會載入。
+   Report Builder隨即載入。
 
-1. 在 **欄（檢視）** 頁簽，添加以下列：
+1. 在 **欄（檢視）** 索引標籤中，新增下列欄：
 
    <table style="table-layout:auto"> 
     <col> 
@@ -587,65 +589,66 @@ ht-degree: 4%
     <tbody> 
      <tr> 
       <td> <p style="font-weight: bold;">欄位名稱</p> </td> 
-      <td>受影響欄位的名稱。 此 <strong>ownerID</strong> 顯示於此欄中。</td> 
+      <td>受影響欄位的名稱。 此 <strong>ownerID</strong> 會顯示在此欄中。</td> 
      </tr> 
      <tr> 
       <td> <p style="font-weight: bold;">更改類型</p> </td> 
-      <td> <p>發生的變更類型，例如 <strong>新增</strong>, <strong>刪除</strong>，或 <strong>編輯</strong>.</p> </td> 
+      <td> <p>發生的變更型別，例如 <strong>新增</strong>， <strong>刪除</strong>，或 <strong>編輯</strong>.</p> </td> 
      </tr> 
      <tr> 
       <td> <p style="font-weight: bold;">主要物件代碼</p> </td> 
-      <td> <p>已更新項目所有者的項目的最高父對象。</p> </td> 
+      <td> <p>已更新專案所有者的專案之最高父物件。</p> </td> 
      </tr> 
      <tr> 
       <td> <p style="font-weight: bold;">輸入日期</p> </td> 
-      <td>變更專案擁有者的日期。<br>您應依此欄位以降序排序。</td> 
+      <td>變更專案所有者的日期。<br>您應該依此欄位遞減排序。</td> 
      </tr> 
      <tr> 
-      <td> <p style="font-weight: bold;">按名稱編輯</p> </td> 
-      <td> <p>更新專案擁有者的使用者名稱。</p> </td> 
+      <td> <p style="font-weight: bold;">依名稱編輯</p> </td> 
+      <td> <p>更新專案所有者的使用者名稱。</p> </td> 
      </tr> 
      <tr> 
       <td> <p style="font-weight: bold;">其他資訊 1</p> </td> 
-      <td> <p>專案的目前專案擁有者。</p> </td> 
+      <td> <p>專案目前的專案所有者。</p> </td> 
      </tr> 
      <tr> 
       <td> <p style="font-weight: bold;">其他資訊 2</p> </td> 
-      <td> <p>專案的上一個專案擁有者。</p> </td> 
+      <td> <p>專案的前一個專案所有者。</p> </td> 
      </tr> 
      <tr> 
       <td> <p style="font-weight: bold;">專案名稱</p> </td> 
-      <td> <p>已更新「項目所有者」欄位的項目。</p> </td> 
+      <td> <p>已更新「專案所有者」欄位的專案。</p> </td> 
      </tr> 
     </tbody> 
    </table>
 
-   有關添加列的詳細資訊，請參閱 [Adobe Workfront中的檢視概觀](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
+   如需新增欄的詳細資訊，請參閱 [Adobe Workfront中的檢視概觀](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
 
-1. 在 **篩選器** 按一下 **新增篩選規則**，然後新增下列項目：
+1. 在 **篩選器** 標籤，按一下 **新增篩選器規則**，然後新增下列專案：
 
    * **欄位名稱** > **等於** > **ownerID**
    * **專案ID** > **等於** > **`<project name>`**
 
-      ![](assets/qs-owner-changes-filter-350x94.png)
-   如需新增篩選器的詳細資訊，請參閱 [Adobe Workfront中的篩選器概觀](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+     ![](assets/qs-owner-changes-filter-350x94.png)
 
-1. （可選）若要縮小報表的焦點並縮短載入時間，請新增提示。
+   如需新增篩選器的詳細資訊，請參閱 [篩選器概觀](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+
+1. （選用）若要縮小報表焦點並減少載入時間，請新增提示。
 
    或
 
-   建立其他篩選規則以包含特定專案、工作或問題。
+   建立其他篩選規則以包含特定專案、任務或問題。
 
    >[!IMPORTANT]
    >
-   >建立使用修飾詞的篩選規則 **包含** 實際上會增載入入時間。 因此，我們建議使用不同的修飾詞，例如 **等於** 可以篩選特定專案或較高層級物件ID時。
+   >建立使用修飾元的篩選規則 **包含** 實際上會增載入入時間。 因此，我們建議您使用不同的修飾元，例如 **等於** 儘可能篩選特定專案或較高層級物件ID。
 
-   若要了解如何新增提示，請參閱 [新增提示至報表](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md).
+   若要瞭解如何新增提示，請參閱 [新增提示至報表](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md).
 
-1. （選用）在 **分組** 按一下 **應用現有分組**，然後選取 **專案**.
+1. （選用）在 **群組** 標籤，按一下 **套用現有群組**，然後選取 **專案**.
 
-   有關添加分組的詳細資訊，請參閱 [Adobe Workfront中的群組概觀](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
+   如需新增群組的詳細資訊，請參閱 [Adobe Workfront中的群組概觀](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
 
-1. 按一下 **儲存+關閉**.
+1. 按一下「**儲存並關閉**」。
 
-   新報表載入。
+   新報表隨即載入。

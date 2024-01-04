@@ -6,9 +6,9 @@ description: 您可以透過建立報告，提供貴組織在Adobe Workfront中�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 10c4df37-f09f-4b91-9cfd-3d0c3835bc7b
-source-git-commit: 6f026590f0030b564f0d110afead9ade1acd7896
+source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
 workflow-type: tm+mt
-source-wordcount: '1820'
+source-wordcount: '1817'
 ht-degree: 1%
 
 ---
@@ -235,7 +235,7 @@ ht-degree: 1%
 1. 若您按一下 **新增篩選器規則**，開始輸入您要新增為篩選的欄位。 如果欄位可供使用，則會針對可與其關聯的每個物件填入欄位。 按一下欄位名稱以將其新增至該篩選器。\
    使用篩選器修飾元來建置您的篩選器。 如需篩選修飾元的詳細資訊，請參閱 [篩選和條件修飾元](../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md).
 
-   如需建立新篩選的詳細資訊，請參閱 [Adobe Workfront中的篩選器概觀](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+   如需建立新篩選的詳細資訊，請參閱 [篩選器概觀](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
 1. （選用）您可以選擇按一下「 」，在文字模式中建立篩選器 **切換到文字模式**.
 

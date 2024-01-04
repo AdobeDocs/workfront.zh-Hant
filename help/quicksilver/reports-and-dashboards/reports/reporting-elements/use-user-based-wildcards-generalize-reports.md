@@ -6,10 +6,10 @@ description: 您可以在建立特定報表元素時，使用萬用字元而非�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 216e2869-b4f8-4cc7-9497-a12ebe00fe49
-source-git-commit: d8e3c2da7f8fcd062e1bf2bb5de43a6238f5eadd
+source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
 workflow-type: tm+mt
-source-wordcount: '502'
-ht-degree: 0%
+source-wordcount: '499'
+ht-degree: 1%
 
 ---
 
@@ -52,7 +52,7 @@ ht-degree: 0%
 
 &#42;若要瞭解您擁有的計畫、授權型別或存取權，請聯絡您的Workfront管理員。
 
-## 必要條件
+## 先決條件
 
 您必須先建立報表，才能在其中新增萬用字元變數。
 
@@ -81,7 +81,7 @@ ht-degree: 0%
 
    ![](assets/user-based-wildcard-in-project-filter-350x74.png)
 
-1. 按一下 **儲存+關閉**.
+1. 按一下「**儲存並關閉**」。
 
 ## 其他資訊
 
@@ -90,6 +90,6 @@ ht-degree: 0%
 <!--outdated: * [Basic Report Creation Program](https://one.workfront.com/s/basic-report-creation-program) -->
 * [萬用字元篩選器變數概觀](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md)
 * [在Adobe Workfront中建立或編輯篩選器](../../../reports-and-dashboards/reports/reporting-elements/create-filters.md)
-* [Adobe Workfront中的篩選器概觀](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md)
+* [篩選器概觀](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md)
 * [新增提示至報表](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md)
 * [在檢視中使用條件式格式](../../../reports-and-dashboards/reports/reporting-elements/use-conditional-formatting-views.md)

@@ -6,9 +6,9 @@ description: 為了有效地找到工作專案並專注於您管理的使用者�
 author: Alina
 feature: Resource Management
 exl-id: f8ffb40e-4e71-45fe-bcae-801d45d75a21
-source-git-commit: 59c3a57e334d1660e3e59da480a90060b1ba81b7
+source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
 workflow-type: tm+mt
-source-wordcount: '2463'
+source-wordcount: '2460'
 ht-degree: 0%
 
 ---
@@ -30,8 +30,7 @@ ht-degree: 0%
 >
 >當您儲存並套用新的篩選器，然後離開工作負載平衡器時，即使您登出並重新登入，篩選器也會保留。
 
-
-本文包含有關工作負載平衡器中的篩選器的資訊。 如需Workfront中篩選器的相關資訊，請參閱 [Adobe Workfront中的篩選器概觀](../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+本文包含有關工作負載平衡器中的篩選器的資訊。 如需Workfront中篩選器的相關資訊，請參閱 [篩選器概觀](../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
 ## 存取需求
 

@@ -6,9 +6,9 @@ description: 在投資組合中導覽
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 6c1795ab-422f-419c-b5e9-1f1323800b39
-source-git-commit: a88cc4576122967b52e044ab65ace3451179906b
+source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
 workflow-type: tm+mt
-source-wordcount: '638'
+source-wordcount: '637'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 計劃*</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] 計畫*</td> 
    <td> <p>任何 </p> </td> 
   </tr> 
   <tr> 
@@ -80,7 +80,7 @@ ht-degree: 0%
 
    * **[!UICONTROL 作用中]**：包括與所選投資組合相關聯且處於以下狀態的所有專案：
 
-      * [!UICONTROL 計畫]
+      * [!UICONTROL 規劃]
       * [!UICONTROL 已核准]
       * [!UICONTROL 目前]
    * **[!UICONTROL 已要求]**：包含與所選投資組合相關聯的專案，其狀態為 **[!UICONTROL 已要求]**.
@@ -93,7 +93,7 @@ ht-degree: 0%
      >
      >若只要檢視特定專案，請考慮在中建立專案篩選器 **[!UICONTROL 篩選]** 位於專案清單頂端的下拉式功能表，減少顯示的專案數目。
 
-     如需建立篩選的詳細資訊，請參閱 [中的篩選器概觀 [!DNL Adobe Workfront]](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+     如需建立篩選的詳細資訊，請參閱 [篩選器概觀](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
 
 1. 按一下 **[!UICONTROL 計畫]** ，以在產品組合內建立計畫或管理現有計畫。\

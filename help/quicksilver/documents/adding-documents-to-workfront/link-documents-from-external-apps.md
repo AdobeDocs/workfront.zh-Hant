@@ -2,18 +2,20 @@
 product-area: documents
 navigation-topic: add-documents-to-workfront
 title: 從外部應用程式連結檔案
-description: 您可以將檔案和資料夾連結至Adobe Workfront。
+description: 您可以從外部來源將檔案和資料夾連結到Adobe Workfront。
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 97823f70-6544-445a-9a81-abe1e2f3de55
-source-git-commit: bcafa607da733b89747f6b448dd295d9b906d060
+source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
 workflow-type: tm+mt
-source-wordcount: '2642'
+source-wordcount: '2588'
 ht-degree: 0%
 
 ---
 
 # 從外部應用程式連結檔案
+
+<!-- Audited: 01/2024 -->
 
 您可以從下列來源將檔案和資料夾連結至Adobe Workfront：
 
@@ -36,7 +38,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">Workfront Proof </td> 
-   <td>您可以將原本在Workfront Proof中建立的校訂設為可在Workfront中使用。 需要Pro Workfront Plan或更新版本才能使用此功能。 如需各種可用計畫的詳細資訊，請參閱 <a href="https://www.workfront.com/plans">Workfront計畫</a>.</td> 
+   <td>您可以將原本在Workfront Proof中建立的校訂設為可在Workfront中使用。 若為目前的授權，需要Pro Workfront Plan或更新版本才能使用此功能。 對於新授權，所有計畫都包含此功能。 如需各種可用計畫的詳細資訊，請參閱 <a href="https://www.workfront.com/plans">Workfront計畫</a>.</td> 
   </tr> 
   <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
    <td role="rowheader">Experience Manager Assets Essentials </td> 
@@ -48,7 +50,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">其他檔案提供者（透過自訂檔案整合）</td> 
-   <td> <p class="workfront_plans">需要Pro Workfront Plan或更新版本才能使用此功能。 如需各種可用計畫的詳細資訊，請參閱 <a href="https://www.workfront.com/plans">Workfront計畫</a>.</p> </td> 
+   <td> <p class="workfront_plans">若為目前的授權，需要Pro Workfront Plan或更新版本才能使用此功能。 對於新授權，所有計畫都包含此功能。 如需各種可用計畫的詳細資訊，請參閱 <a href="https://www.workfront.com/plans">Workfront計畫</a>.</p> </td>
   </tr> 
  </tbody> 
 </table>
@@ -95,13 +97,7 @@ ht-degree: 0%
 
 您可以將現有檔案與外部雲端服務供應商連結。 這包括任何共用檔案。
 
-* [必要條件](#prerequisites)
-* [將外部檔案連結至Workfront](#link-an-external-document-to-workfront)
-* [新增連結檔案的新版本](#add-a-new-version-of-a-linked-document)
-* [連結Workfront校訂檔案](#link-workfront-proof-documents)
-* [在Workfront中建立Google檔案](#create-a-google-document-from-within-workfront)
-
-### 必要條件 {#prerequisites}
+### 先決條件 {#prerequisites}
 
 在連結檔案或資料夾之前，您的Workfront管理員必須為每個檔案提供者或自訂檔案整合啟用此功能，如中所述 [設定檔案整合](../../administration-and-setup/configure-integrations/configure-document-integrations.md).
 
@@ -168,7 +164,7 @@ ht-degree: 0%
 
    您只需執行此操作一次。
 
-1. 在的搜尋方塊中 **連結外部檔案和資料夾** 在出現的方塊中，輸入您要搜尋的專案名稱，然後按 **輸入** 以檢視外部應用程式的所有結果，無論結果位於哪個資料夾中。
+1. 在的搜尋方塊中 **連結外部檔案和資料夾** 在出現的方塊中，輸入您要搜尋的專案名稱，然後按 **輸入** 以檢視外部應用程式的所有結果，無論結果儲存在哪個資料夾中。
 
    或
 
@@ -190,7 +186,7 @@ ht-degree: 0%
    >
    >對於連結到Box的檔案，在您重新整理頁面之前，不會顯示Box中檔案的連結。
 
-如需有關新增檔案新版本的資訊，請參閱從檔案系統上傳到Workfront的檔案 [從您的檔案系統新增檔案至Adobe Workfront](../../documents/adding-documents-to-workfront/add-documents-from-file-system.md#adding-new-versions-of-documents) 在 [從您的檔案系統新增檔案至Adobe Workfront](../../documents/adding-documents-to-workfront/add-documents-from-file-system.md).
+如需有關新增檔案新版本的資訊，請參閱從檔案系統上傳到Workfront的檔案 [新增檔案至Adobe Workfront](../../documents/adding-documents-to-workfront/add-documents-from-file-system.md#add-documents-to-workfront) 在 [從您的檔案系統新增檔案至Adobe Workfront](../../documents/adding-documents-to-workfront/add-documents-from-file-system.md).
 
 ### 連結Workfront校訂檔案 {#link-workfront-proof-documents}
 
@@ -205,7 +201,7 @@ ht-degree: 0%
    >
    >此功能表中的選項可能會因環境中設定的協力廠商提供者而異。
 
-1. 在 **連結** 校樣 **從** Workfront校訂方塊出現，開始輸入您要在Workfront中提供的校訂名稱。
+1. 在 **來自Workfront校訂的連結校訂** 方塊中，開始輸入您要在Workfront中提供的校訂名稱。
 
    當您輸入時，清單會經過篩選。
 
@@ -223,8 +219,6 @@ ht-degree: 0%
 
 1. 前往 **檔案** Workfront中您想要檔案的區域。
 1. 按一下 **新增** > **Google檔案**，然後選取您要建立的Google檔案型別。
-
-1. 選取您要建立的Google檔案型別。
 1. 如果 **新增Google磁碟機帳戶** 方塊出現，按一下 **授權Google Drive**.
 
    Google檔案已新增至 **檔案** 標籤。
@@ -233,7 +227,7 @@ ht-degree: 0%
    >
    > 「我的磁碟機」和「與我共用」會顯示兩個不同的結果。 如果您在[我的磁碟機]中找不到檔案，請存取[與我共用]資料夾。
 
-## 更新檔案，並將其從Workfront連結至外部雲端提供者
+## 上傳檔案並從Workfront連結至外部雲端提供者
 
 您可以上傳檔案，並將其從Workfront連結至外部雲端提供者。 這會將檔案的儲存空間從Workfront移至外部雲端提供者。 當檔案在外部應用程式中變更時，會自動在Workfront中更新。
 
@@ -248,7 +242,7 @@ ht-degree: 0%
 
    這可以是提供者的應用程式中的任何資料夾，包括共用資料夾。
 
-1. 按一下&#x200B;**儲存**。
+1. 按一下「**儲存**」。
 
    外部提供者的標誌會出現在檔名稱旁，表示檔案現在已連結至Workfront並由外部雲端提供者儲存。
 
@@ -256,11 +250,7 @@ ht-degree: 0%
 
 ## 連結資料夾
 
-當您在Workfront和外部雲端提供者之間連結資料夾時，該資料夾及其所有內容都會連結。 如果沒有Workfront存取許可權的使用者從外部檔案應用程式新增、移除和修改檔案，則其變更會同步至Workfront。 以下各節將說明如何連結資料夾和子資料夾：
-
-* [資料夾存取權](#folder-access-rights)
-* [連結一或多個外部資料夾](#link-one-or-more-external-folders)
-* [將子資料夾新增至連結的資料夾](#add-subfolders-to-a-linked-folder)
+當您在Workfront和外部雲端提供者之間連結資料夾時，該資料夾及其所有內容都會連結。 如果沒有Workfront存取許可權的使用者從外部檔案應用程式新增、移除和修改檔案，則其變更會同步至Workfront。
 
 ### 資料夾存取權 {#folder-access-rights}
 
@@ -330,8 +320,6 @@ ht-degree: 0%
 
 1. 選取您想要檔案的連結資料夾，按一下 **新增>檔案**，然後瀏覽到檔案並將其新增到資料夾。
 
-
-
    或
 
    在 **檔案** 在您想要檔案的區域，將檔案拖曳到連結的資料夾中。
@@ -340,10 +328,11 @@ ht-degree: 0%
 
 >[!NOTE]
 >
-> * 檔案正在移動時，檔案選項不可用。 檔案移至Experience Manager Assets後，Workfront的檔案清單中將不再顯示。
+> * 檔案正在移動時，檔案選項不可用。
+>
+> * 檔案移至Experience Manager Assets後，Workfront的檔案清單中將不再顯示。
 >
 > * 您在檔案移動時對它所做的任何動作或編輯都不會顯示在Experience Manager Assets的檔案中，因此將會遺失。
-
 
 ## 刪除連結的檔案或資料夾
 
@@ -362,4 +351,4 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->請勿重新命名連結至Dropbox的Workfront檔案，否則會導致Workfront中的檔案無法存取。 請改用Dropbox重新命名檔案，然後重新同步檔案，如所述 [從外部應用程式連結檔案](#synchronizing-changes-made-on-a-linked-document).
+>請勿重新命名連結至Dropbox的Workfront檔案，否則會導致Workfront中的檔案無法存取。 請改用Dropbox重新命名檔案，然後重新同步檔案。

@@ -3,9 +3,9 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文件、教學課程和其他資源，了解如何在您的組織中實施並有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: d5f4e83badd4d011816551f06b056ffe886d3b17
+source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
 workflow-type: tm+mt
-source-wordcount: '13841'
+source-wordcount: '13838'
 ht-degree: 1%
 
 ---
@@ -1512,7 +1512,7 @@ ht-degree: 1%
       * 報表元素 {#report-elements}
          * [報表元素概觀](reports-and-dashboards/reports/reporting-elements/reporting-elements-overview.md)
          * [報表元素：篩選器、檢視和群組](reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md)
-         * [Adobe Workfront中的篩選器概觀](reports-and-dashboards/reports/reporting-elements/filters-overview.md)
+         * [篩選器概觀](reports-and-dashboards/reports/reporting-elements/filters-overview.md)
          * [在Adobe Workfront中建立或編輯篩選器](reports-and-dashboards/reports/reporting-elements/create-filters.md)
          * [篩選和條件修飾元](reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md)
          * [Adobe Workfront中的檢視概觀](reports-and-dashboards/reports/reporting-elements/views-overview.md)

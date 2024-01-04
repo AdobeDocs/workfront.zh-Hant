@@ -7,9 +7,9 @@ description: 報表可讓您檢視使用者和工作的最新狀況。 使用報
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 478512af-a47c-4488-878a-581e238e0064
-source-git-commit: dad054fe52bd7c5ca97144567c80e6d340541a50
+source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
 workflow-type: tm+mt
-source-wordcount: '3297'
+source-wordcount: '3294'
 ht-degree: 0%
 
 ---
@@ -40,7 +40,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">篩選器</td> 
-   <td> <li>控制報表中顯示的資訊量。</li> <li>如需有關篩選器的資訊，請參閱 <a href="../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md" class="MCXref xref">Adobe Workfront中的篩選器概觀</a>.</li> <li>如需有關篩選修飾元的資訊，請參閱 <a href="../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md" class="MCXref xref">篩選和條件修飾元</a>.</li> <li>您可以使用萬用字元進行篩選，讓您的篩選器更通用，並提供更靈活的使用方式。</li> <li>如需有關在篩選器中使用萬用字元的資訊，請參閱 <a href="../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md" class="MCXref xref">萬用字元篩選器變數</a>.</li> </td> 
+   <td> <li>控制報表中顯示的資訊量。</li> <li>如需有關篩選器的資訊，請參閱 <a href="../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md" class="MCXref xref">篩選器概觀</a>.</li> <li>如需有關篩選修飾元的資訊，請參閱 <a href="../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md" class="MCXref xref">篩選和條件修飾元</a>.</li> <li>您可以使用萬用字元進行篩選，讓您的篩選器更通用，並提供更靈活的使用方式。</li> <li>如需有關在篩選器中使用萬用字元的資訊，請參閱 <a href="../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md" class="MCXref xref">萬用字元篩選器變數</a>.</li> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -7,9 +7,9 @@ author: Nolan
 feature: Reports and Dashboards
 role: User
 exl-id: f24430e1-c5f7-4925-93df-0e956a03c863
-source-git-commit: 6d2144732e5f47b670c2281d042a2dc950a2928f
+source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
 workflow-type: tm+mt
-source-wordcount: '1865'
+source-wordcount: '1862'
 ht-degree: 0%
 
 ---
@@ -261,7 +261,7 @@ ht-degree: 0%
 
 如需有關建立篩選和自訂提示的資訊，請參閱：
 
-* [Adobe Workfront中的篩選器概觀](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md)
+* [篩選器概觀](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md)
 * [新增提示至報表](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md)
 
 如需有關在文字模式中建立篩選的資訊，請參閱 [使用文字模式編輯篩選器](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md).

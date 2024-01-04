@@ -6,9 +6,9 @@ description: '注意：在文章中新增區段：/Content/Reports and Dashboard
 author: Nolan
 feature: Reports and Dashboards
 exl-id: bfd1d49f-72cd-466d-8b35-8ae9848646be
-source-git-commit: dad054fe52bd7c5ca97144567c80e6d340541a50
+source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
 workflow-type: tm+mt
-source-wordcount: '1035'
+source-wordcount: '1032'
 ht-degree: 0%
 
 ---
@@ -70,7 +70,7 @@ ht-degree: 0%
 >
 >建議您在標準模式中建立儘可能多的篩選器，然後將篩選器轉換為文字模式以進行編輯。
 
-如需建立篩選器的詳細資訊，請參閱 [Adobe Workfront中的篩選器概觀](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+如需建立篩選器的詳細資訊，請參閱 [篩選器概觀](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
 如需建立報表的相關資訊，請參閱 [建立自訂報表](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 

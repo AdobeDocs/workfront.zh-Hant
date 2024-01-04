@@ -1,22 +1,23 @@
 ---
 content-type: tips-tricks-troubleshooting
 navigation-topic: tips-tricks-and-troubleshooting-workfront-basics
-title: 正在篩選包含意外結果的項目
-description: 閱讀本文，疑難排解「我正在使用」篩選器中包含未預期結果的問題。
+title: 我參與的專案篩選器包含未預期的結果
+description: 請參閱本文以疑難排解我所在的專案篩選器，包括非預期的結果。
 feature: Get Started with Workfront
 author: Nolan
-source-git-commit: ba261e5121b4a28f71c58f883c784f4e8d2ada81
+exl-id: 4701464a-4cf5-4be1-bcc0-0892019986ec
+source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
 workflow-type: tm+mt
-source-wordcount: '170'
+source-wordcount: '169'
 ht-degree: 1%
 
 ---
 
-# 「我所在的項目」篩選器包含意外的結果
+# 我參與的專案篩選器包含未預期的結果
 
 ## 存取需求
 
-您必須具備下列存取權，才能執行本文中的步驟：
+您必須具有下列存取權才能執行本文中的步驟：
 
 <table style="table-layout:auto"> 
  <col> 
@@ -28,27 +29,27 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Adobe [!DNL Workfront] 授權</strong></td> 
-   <td> <p>[!UICONTROL計畫] </p> </td> 
+   <td> <p>[！UICONTROL計畫] </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>訪問級別配置</strong></td> 
-   <td> <p>[!UICONTROL系統管理員]</p> </td> 
+   <td role="rowheader"><strong>存取層級設定</strong></td> 
+   <td> <p>[！UICONTROL系統管理員]</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## 問題
 
-此 [!UICONTROL **正在執行的項目**] 篩選器包含我不會預期的結果，因為我沒有被指派或與這些專案關聯。
+此 [!UICONTROL **我參與的專案**] 篩選器包含我預料不到的結果，因為我沒有獲得這些專案的指派或關聯。
 
 ## 解決方案
 
-此 [!UICONTROL **正在執行的項目**] 篩選器包含的專案包含任何 [!UICONTROL **專案詳細資料**] 欄位，包括容易遺漏或自動填入的欄位，例如 [!UICONTROL **輸入者**] 或 [!UICONTROL **發起人ID**]. 若要移除不想要的結果，有兩種可能的解決方案：
+此 [!UICONTROL **我參與的專案**] 篩選器包含在其任何一項中包含使用者的專案 [!UICONTROL **專案詳細資訊**] 欄位，包括容易遺漏或自動填寫的欄位，例如 [!UICONTROL **輸入者**] 或 [!UICONTROL **贊助者ID**]. 若要移除不想要的結果，有兩種可能的解決方案：
 
-1. 檢查 [!UICONTROL **專案詳細資料**] 為篩選器包含的每個非預期專案，並從所有欄位中移除您的名稱。
+1. 檢查 [!UICONTROL **專案詳細資訊**] 針對篩選條件中包含的每個非預期專案，從所有欄位中移除您的名稱。
 
    或
 
-1. 嘗試使用類似的篩選器，例如 [!UICONTROL **我擁有的專案**]，僅包含專門指派給您的專案。
+1. 請嘗試使用類似的篩選器，例如 [!UICONTROL **我擁有的專案**]，僅包括特別指派給您的專案。
 
-如需在 [!DNL Workfront]，請參閱 [篩選器概觀(於 [!DNL Adobe Workfront]](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/filters-overview.md)
+如需在中使用篩選器的詳細資訊 [!DNL Workfront]，請參閱 [篩選器概觀](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/filters-overview.md).
