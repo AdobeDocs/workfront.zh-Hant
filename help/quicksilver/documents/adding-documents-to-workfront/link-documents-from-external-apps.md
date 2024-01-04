@@ -6,9 +6,9 @@ description: 您可以從外部來源將檔案和資料夾連結到Adobe Workfro
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 97823f70-6544-445a-9a81-abe1e2f3de55
-source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
+source-git-commit: 1069b34ad516f2f419fb3b547bb8fc45b542c483
 workflow-type: tm+mt
-source-wordcount: '2588'
+source-wordcount: '2602'
 ht-degree: 0%
 
 ---
@@ -61,19 +61,21 @@ ht-degree: 0%
 
 ## 存取需求
 
-您必須具備下列條件：
+您必須具有下列存取權才能執行本文中的步驟：
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront計畫*</td> 
-   <td> <p> 任何</p> </td> 
+   <td role="rowheader">Adobe Workfront計畫*</td>
+   <td> <p> 任何</p> </td>
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront授權*</td> 
-   <td> <p>要求或更高版本</p> </td> 
+   <td role="rowheader">Adobe Workfront授權*</td>
+   <td><p>新增：投稿人或更高版本</p>
+    <p>或</p>
+    <p>目前：要求或以上</p> </td>
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定*</td> 

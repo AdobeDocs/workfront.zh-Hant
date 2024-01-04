@@ -2,13 +2,13 @@
 product-area: projects;agile-and-teams
 navigation-topic: manage-projects
 title: 在敏捷檢視中管理專案
-description: 必要的計畫、授權型別和存取Adobe Workfront計畫團隊、Pro、商務或企業Workfront授權型別存取模型中的檢閱、工作或計畫許可權編輯存取權和建立報告、儀表板和行事曆的功能
-author: Alina
+description: 您可以針對專案利用敏捷功能，而不會遇到敏捷實務通常伴隨的管理挑戰（例如管理團隊待辦專案或建立反複專案）。
+author: Alina and Lisa
 feature: Work Management
 exl-id: fc633fd6-35b4-4949-8045-22c775002436
-source-git-commit: 72511f98e05c160e2ca69def8aa3a929ed62bb40
+source-git-commit: fa499d74df891441e729c32188e9b2f74e4ef5c0
 workflow-type: tm+mt
-source-wordcount: '1393'
+source-wordcount: '1386'
 ht-degree: 0%
 
 ---
@@ -202,7 +202,7 @@ Required plans, license types, and access
 
 和Workfront中的標準檢視一樣，您可以自訂現有的敏捷檢視或從頭開始建立新的敏捷檢視。 和標準檢視不同，您無法根據現有的敏捷檢視建立新的敏捷檢視。
 
-如需有關建立和自訂敏捷檢視的詳細資訊，請參閱文章中的「建立或自訂敏捷檢視」一節 [Adobe Workfront中的檢視概觀](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
+如需有關建立和自訂敏捷檢視的詳細資訊，請參閱 [建立或自訂敏捷檢視](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md#create-or-customize-an-agile-view) 文章中的區段 [在Adobe Workfront中建立或編輯檢視](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md).
 
 ## 共用現有的敏捷檢視
 
