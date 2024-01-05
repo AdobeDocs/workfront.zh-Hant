@@ -3,9 +3,9 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文件、教學課程和其他資源，了解如何在您的組織中實施並有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: b505937d1faaa29a5c5f89c7db5ca721ea9337e0
+source-git-commit: 57a9667edea9067f14a6c40a75f6cf56a00d5e7d
 workflow-type: tm+mt
-source-wordcount: '13843'
+source-wordcount: '13844'
 ht-degree: 1%
 
 ---
@@ -2222,6 +2222,7 @@ ht-degree: 1%
       * [Microsoft Word範本模組](workfront-fusion/apps-and-their-modules/microsoft-word-templates-modules.md)
       * [mime模組](workfront-fusion/apps-and-their-modules/mime.md)
       * [netsuite模組](workfront-fusion/apps-and-their-modules/netsuite.md)
+      * [[!DNL OpenAI(ChatGPT & DALL-E)] 模組](workfront-fusion/apps-and-their-modules/openai-chatgpt-modules.md)
       * [Qualtrics模組](workfront-fusion/apps-and-their-modules/qualtrics-modules.md)
       * [Quickbase模組](workfront-fusion/apps-and-their-modules/quickbase-modules.md)
       * [Salesforce模組](workfront-fusion/apps-and-their-modules/salesforce-modules.md)

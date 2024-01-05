@@ -10,9 +10,9 @@ author: Becky
 feature: Workfront Fusion
 recommendations: noDisplay, noCatalog
 exl-id: 7075a649-ab0c-4dfc-b726-c5702c90b457
-source-git-commit: c0be0a1f21d5db3a480485a39e019a129d248574
+source-git-commit: 57a9667edea9067f14a6c40a75f6cf56a00d5e7d
 workflow-type: tm+mt
-source-wordcount: '209'
+source-wordcount: '210'
 ht-degree: 20%
 
 ---
@@ -119,6 +119,7 @@ ht-degree: 20%
 * [[!DNL Microsoft Word Template] 模組](../../workfront-fusion/apps-and-their-modules/microsoft-word-templates-modules.md)
 * [[!UICONTROL MIME] 模組](../../workfront-fusion/apps-and-their-modules/mime.md)
 * [[!DNL NetSuite] 模組](../../workfront-fusion/apps-and-their-modules/netsuite.md)
+* [[!DNL OpenAI(ChatGPT & DALL-E)] 模組](../../workfront-fusion/apps-and-their-modules/openai-chatgpt-modules.md)
 * [[!DNL Qualtrics] 模組](../../workfront-fusion/apps-and-their-modules/qualtrics-modules.md)
 * [[!DNL Quickbase] 模組](../../workfront-fusion/apps-and-their-modules/quickbase-modules.md)
 * [[!DNL Salesforce] 模組](../../workfront-fusion/apps-and-their-modules/salesforce-modules.md)
