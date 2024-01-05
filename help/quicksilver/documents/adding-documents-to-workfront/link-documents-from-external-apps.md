@@ -6,9 +6,9 @@ description: 您可以從外部來源將檔案和資料夾連結到Adobe Workfro
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 97823f70-6544-445a-9a81-abe1e2f3de55
-source-git-commit: 1069b34ad516f2f419fb3b547bb8fc45b542c483
+source-git-commit: bec625b70b39fec9f9a6d4f7b48023702de43675
 workflow-type: tm+mt
-source-wordcount: '2602'
+source-wordcount: '2563'
 ht-degree: 0%
 
 ---
@@ -68,23 +68,23 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront計畫*</td>
+   <td role="rowheader">Adobe Workfront計畫</td>
    <td> <p> 任何</p> </td>
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront授權*</td>
+   <td role="rowheader">Adobe Workfront授權</td>
    <td><p>新增：投稿人或更高版本</p>
     <p>或</p>
     <p>目前：要求或以上</p> </td>
   </tr> 
   <tr> 
-   <td role="rowheader">存取層級設定*</td> 
-   <td> <p>編輯檔案的存取權</p> <p>注意：如果您還是沒有存取權，請詢問您的Workfront管理員，他們是否在您的存取層級中設定其他限制。 如需有關Workfront管理員如何修改您的存取層級的資訊，請參閱 <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>.</p> </td> 
+   <td role="rowheader">存取層級設定</td> 
+   <td> <p>編輯檔案的存取權</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;若要瞭解您擁有的計畫、授權型別或存取權，請聯絡您的Workfront管理員。
+如需有關此表格的詳細資訊，請參閱 [Workfront檔案中的存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## 檔案儲存
 
