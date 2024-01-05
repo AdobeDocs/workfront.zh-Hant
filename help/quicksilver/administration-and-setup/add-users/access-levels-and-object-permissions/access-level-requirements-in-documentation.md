@@ -1,5 +1,5 @@
 ---
-title: 存取層級需求
+title: Workfront檔案中的存取需求
 content-type: reference
 product-area: system-administration
 keywords: 存取，層級，系統，管理員，供需規劃員，工作者，檢閱者，請求者，外部，使用者
@@ -8,16 +8,14 @@ description: Workfront檔案how-to文章包含一個表格，說明該程式所�
 author: Becky
 feature: System Setup and Administration
 role: Admin
-hide: true
-hidefromtoc: true
-source-git-commit: 96f88c4b31b92998cfb8fa25ed1de0dfa0c70462
+source-git-commit: 77b30626f42adf8153d14ea9b1247da8085dcddf
 workflow-type: tm+mt
-source-wordcount: '884'
+source-wordcount: '924'
 ht-degree: 0%
 
 ---
 
-# Workfront檔案中的存取層級要求
+# Workfront檔案中的存取需求
 
 Workfront檔案how-to文章包含一個表格，說明該程式所需的存取和許可權需求。 此存取需求表格可讓您瞭解您是否可以在Workfront中執行特定動作，或為何無法執行。 本文說明存取需求表格的每個元素，並提供疑難排解提示和連結，以取得更深入的資訊。
 
@@ -50,7 +48,7 @@ Workfront檔案how-to文章包含一個表格，說明該程式所需的存取�
    <ul>
    <li>新增： <a href="/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md" class="MCXref xref">新授權總覽</a></li>
    <li>目前： <a href="/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">授權總覽</a></li></ul></li>
-   <li>如果您擁有正確的存取層級，但仍然沒有存取權，請詢問您的Workfront管理員，他們是否對您的存取層級設定其他限制。 如需有關Workfront管理員如何修改您的存取層級的資訊，請參閱 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>.
+   <li>如果您擁有正確的存取層級，但仍然沒有存取權，請詢問您的Workfront管理員，他們是否對您的存取層級設定其他限制。 如需有關Workfront管理員如何修改您的存取層級的資訊，請參閱 <a href="/help/quicksilver/administration-and-setup/get-started-wf-administration/firewall-overview.md#view-your-organizations-cluster-and-workfront-plan" class="MCXref xref">建立或修改自訂存取層級</a>.
    </ul>
       </p> </td> 
   </tr> 
@@ -75,27 +73,20 @@ Workfront檔案how-to文章包含一個表格，說明該程式所需的存取�
    <li>新增： <a href="/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md" class="MCXref xref">新存取層級概觀</a></li>
    <li>目前： <a href="/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md" class="MCXref xref">存取層級概觀</a></li></ul></li>
     <li>若要瞭解存取層級的詳細資訊，請聯絡Workfront管理員</li>
-    <li>如果您是Workfront管理員，請參閱 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/configure-access.md" class="MCXref xref">設定Adobe Workfront的存取權</a> 以進一步瞭解在存取層級中授與特定物件的存取權。</li>  
-   <li>如果您擁有正確的存取層級，但仍然沒有存取權，請詢問您的Workfront管理員，他們是否對您的存取層級設定其他限制。 如需有關Workfront管理員如何修改您的存取層級的資訊，請參閱 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>.</li>
+    <li>如果您是Workfront管理員，請參閱 <a href="/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/configure-access.md" class="MCXref xref">設定Adobe Workfront的存取權</a> 以進一步瞭解在存取層級中授與特定物件的存取權。</li>  
+   <li>如果您擁有正確的存取層級，但仍然沒有存取權，請詢問您的Workfront管理員，他們是否對您的存取層級設定其他限制。 如需有關Workfront管理員如何修改您的存取層級的資訊，請參閱 <a href="/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>.</li>
     </td>
   </tr> 
   <tr> 
    <td role="rowheader">物件許可權</td> 
    <td><p>物件許可權是指當您建立個別Workfront物件或與您共用這些物件時，您對物件擁有的存取權。 例如，您必須擁有特定專案的檢視存取權才能檢視專案，即使您的存取層級允許您檢視專案。 「存取需求」表格的這個段落說明您在文章中執行動作所需的任何特定物件許可權。</p>
-   <p>如需請求物件的其他存取許可權的相關資訊，請參閱 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">要求物件的存取權</a>.</p></td> 
+   <p>如需請求物件的其他存取許可權的相關資訊，請參閱 <a href="/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">要求物件的存取權</a>.</p><p>如需共用物件的詳細資訊，請參閱 <a href="/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/share-an-object.md" class="MCXref xref">共用物件</a>.</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">產品</td> 
-   <td>除了Workfront之外，Workfront還提供一些可以購買的產品。
-   <p>說明在這些其他產品內執行的程式的文章在此處列出了所需的產品。</p>
-   <ul>
-   <li>Adobe Experience Manager Assets或Assets Essentials </li>
-   <li>Workfront Fusion *</li>
-   <li>Workfront目標*</li>
-   <li>Workfront情境規劃工具*</li>
-   </ul>
-   <p>*包含在Workfront Ultimate計畫中
-   <p>若要瞭解您的組織是否已購買這些附加產品之一，或您的組織是否使用Workfront Ultimate計畫，請聯絡您的Workfront管理員。</p></td> 
+   <td role="rowheader">版面配置範本</td> 
+   <td><p>版面配置範本可控制您在主功能表中看到的內容，並由Workfront管理員設定。 此行會記下您的主要功能表中必須包含的任何特定Workfront區域，才能執行動作。</p><p>一般而言，如果文章指示您按一下主要功能表中的某個區域，但主要功能表中未顯示該區域，請聯絡您的Workfront管理員以判斷該區域是否可供您使用。</p><p>
+   如需Workfront管理員如何設定主功能表的資訊，請參閱 <a href="/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md" class="MCXref xref">使用版面配置範本自訂主功能表</a>.</p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront Fusion授權</td> 
