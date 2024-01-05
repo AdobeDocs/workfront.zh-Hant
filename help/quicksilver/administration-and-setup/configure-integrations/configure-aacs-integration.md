@@ -3,16 +3,19 @@ product-area: documents;workfront-integrations
 navigation-topic: adobe-workfront-for-experince-manager-asset-essentials
 title: 設定 [!UICONTROL Experience Manager Assetsas a Cloud Service] 整合
 description: 您可以在下列位置將您的工作與內容連結： [!DNL Experience Manager Assets].
+author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: bc58cc77-a177-417f-a5a4-eec51e305219
-source-git-commit: 2ae77811cc20a7580f95437debfe1eea5922185c
+source-git-commit: 8764de907f49260908911ca393c1173b66dbb065
 workflow-type: tm+mt
-source-wordcount: '1406'
+source-wordcount: '1395'
 ht-degree: 0%
 
 ---
 
 # 設定 [!UICONTROL Experience Manager Assetsas a Cloud Service] 整合
+
+<!-- Audited: 1/2024 -->
 
 >[!IMPORTANT]
 >
@@ -45,7 +48,8 @@ ht-degree: 0%
   <tr>
    <td><strong>[!DNL Adobe Workfront] 授權*</strong>
    </td>
-   <td>[！UICONTROL計畫]
+   <td>目前： [！UICONTROL計畫] <br>
+   新增：[！UICONTROL Standard]
    </td>
   </tr>
   <tr>
@@ -81,7 +85,8 @@ ht-degree: 0%
 
 ## 設定整合資訊
 
-1. 按一下 **[!UICONTROL 主要功能表]** Adobe Workfront圖示並按一下「 」，接著再按一下「 」。 **[!UICONTROL 設定]** .
+{{step-1-to-setup}}
+
 1. 選取 **[!UICONTROL 檔案]** 在左側面板中，然後選取 **[!UICONTROL [!DNL Experience Manager]整合]**.
 
    >[!NOTE]

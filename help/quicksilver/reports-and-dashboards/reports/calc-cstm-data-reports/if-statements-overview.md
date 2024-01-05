@@ -7,7 +7,7 @@ description: 您可以在一般程式語言中使用「IF」陳述式。 在Adob
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 090a85fd-fdbe-4507-8bad-ce8c29bf8fc9
-source-git-commit: 32966d4732221d73aa3397771e157b630f7d5760
+source-git-commit: 23b5ba9564b514e11c1ca9d5cca276238ef11066
 workflow-type: tm+mt
 source-wordcount: '925'
 ht-degree: 0%
@@ -15,6 +15,8 @@ ht-degree: 0%
 ---
 
 # 「IF」陳述式概述
+
+<!-- Audited: 1/2024 -->
 
 您可以在一般程式語言中使用「IF」陳述式。 在Adobe Workfront中，「IF」陳述式可讓您比較資料的欄位、將其格式化，以及將其字串在一起，以用於報表和自訂資料用途。 此外，以數學方式思考「IF」陳述式可導致更佳的概念性理解，因為通常會使用運算式的變數。
 
@@ -44,10 +46,10 @@ ht-degree: 0%
 您可以使用以下格式在Workfront中建置「IF」陳述式：
 <pre>IF(Condition，True Expression，False Expression)</pre>「IF」陳述式的元件包括：
 
-* **如果**=這是「函式」的Workfront計算資料運算式。 與SUM和PROD運算式類似，這首先會告訴系統要將函式理解為「IF」陳述式。 在此陳述式中，一律使用大寫字母表示「IF」。\
+* **如果** =這是「函式」的Workfront計算資料運算式。 與SUM和PROD運算式類似，這首先會告訴系統要將函式理解為「IF」陳述式。 在此陳述式中，一律使用大寫字母表示「IF」。\
   如需所有計算資料運算式的清單，請參閱 [計算資料運算式的概觀](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
 
-* **條件**=這是Workfront變數必須符合的條件，也是此方程式的基礎。 之後可在方程式中指定的所有內容都取決於條件。 您可以使用許多參照、比較或數學運算式來啟動方程式。 條件的一些範例包括：
+* **條件** =這是Workfront變數必須符合的條件，也是此方程式的基礎。 之後可在方程式中指定的所有內容都取決於條件。 您可以使用許多參照、比較或數學運算式來啟動方程式。 條件的一些範例包括：
 
    * 指定物件上的日期晚於另一個日期。
    * 狀態等於指定物件上可用的狀態之一。
@@ -55,9 +57,9 @@ ht-degree: 0%
 
 * **條件運運算元** =這是協助您建立「IF」陳述式條件的運運算元。 例如，「等於」或「大於」是條件運運算元。 如需可在陳述式中使用的條件運運算元清單，請參閱 [計算自訂運算式中的條件運運算元](../../../reports-and-dashboards/reports/calc-cstm-data-reports/condition-operators-calculated-custom-expressions.md).
 
-* **True****運算式**=這是「True」變數，會在符合條件時告訴方程式哪個指標要顯示（true指標）。
+* **True****運算式** =這是「True」變數，會在符合條件時告訴方程式哪個指標要顯示（true指標）。
 
-* **錯誤運算式**=這是「False」變數，會告訴方程式當條件條件條件不符時所要顯示的指標（false指標）。
+* **錯誤運算式** =這是「False」變數，會告訴方程式當條件條件條件不符時所要顯示的指標（false指標）。
 
 在下列範例中，原始陳述式格式是用來為「IF」陳述式寫入簡單資料運算式。 運算式會比較Workfront中的兩個不同日期欄位，然後以True/False結果作為資料字串：
 

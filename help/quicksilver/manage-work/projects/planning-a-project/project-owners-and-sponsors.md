@@ -2,58 +2,61 @@
 content-type: overview
 product-area: projects;user-management
 navigation-topic: plan-a-project
-title: 項目所有者和贊助商概覽
-description: 您可以為項目指定項目責任人和項目發起人。
+title: 專案所有者和贊助者概觀
+description: 您可以為專案指定專案所有者和專案贊助者。
 author: Alina
 feature: Work Management
 exl-id: e3e8be3f-105f-4702-8c93-ae8092f5d5d3
-source-git-commit: bbd64e9deed1b89d720272508b3562c354578704
+source-git-commit: 111c776af19fbc2982c14cc9d3b3778d37bc0be3
 workflow-type: tm+mt
 source-wordcount: '562'
 ht-degree: 0%
 
 ---
 
-# 項目所有者和贊助商概覽
+# 專案所有者和贊助者概觀
 
-您可以為項目指定項目責任人和項目發起人。
+<!-- Audited: 1/2024 -->
 
-項目所有者是負責按時和按預算完成項目的個人。
+您可以為專案指定專案所有者和專案贊助者。
 
-項目贊助方是項目的重要利益相關方，項目中投入了資源。 項目的完成通常有利於項目贊助商。
+專案所有者是負責依照預算準時完成專案的個人。
 
-有關如何更新項目的項目所有者或贊助商的資訊，請參閱 [更新項目所有者和贊助商](../../../manage-work/projects/planning-a-project/update-project-owners-and-sponsors.md).
+專案贊助者是專案的重要利害關係人，專案中有資源投資於專案。 專案完成通常有利於專案贊助者。
 
-## 專案擁有者
+如需有關如何更新專案的專案所有者或贊助者的資訊，請參閱 [更新專案所有者和贊助者](../../../manage-work/projects/planning-a-project/update-project-owners-and-sponsors.md).
 
-您可以在專案或範本上指定專案擁有者，借此指定專案的管理員。
+## 專案所有者
 
-您只能為專案定義一個專案擁有者。
+您可以在專案或範本上指定專案所有者，以指定專案經理。
 
-使用「項目所有者」欄位可以執行以下操作：
+您只能為一個專案定義一個專案所有者。
 
-* 您只能指定一個使用者為專案擁有者。
-* 您可以指定「專案擁有者」作為專案的小時核准者。
-* 在定義項目、任務或發放審批流程時，您可以將項目責任人指定為一般審批人。 如需核准的相關資訊，請參閱 [編輯核准程式](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/edit-an-approval-process.md).
+以下為使用「專案所有者」欄位時的可能方式：
 
-   >[!IMPORTANT]
-   >
-   >當您為項目所有者分配了批准，並且沒有人被指定為項目的所有者時，該批准將重新分配給主Workfront管理員，如「設定」區域的「客戶資訊」部分所示。 如需詳細資訊，請參閱 [配置系統的基本資訊](../../../administration-and-setup/get-started-wf-administration/configure-basic-info.md).
+* 您只能指定一個使用者作為專案所有者。
+* 您可以指定「專案所有者」為專案的時數核准者。
+* 在定義專案、任務或問題核准流程時，您可以指定「專案所有者」作為一般核准者。 如需關於核准的資訊，請參閱 [編輯核准流程](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/edit-an-approval-process.md).
+
+  >[!IMPORTANT]
+  >
+  >當您將核准指派給專案所有者，且沒有人被指定為專案的所有者時，核准將重新指派給主要Workfront管理員，如設定區域的客戶資訊區段中所述。 如需詳細資訊，請參閱 [設定系統的基本資訊](../../../administration-and-setup/get-started-wf-administration/configure-basic-info.md).
+  >
 
 
-* 您可以啟用只傳送給專案擁有者的特定通知。
+* 您可以啟用只傳送給專案所有者的某些通知。
 
-   如需電子郵件通知的詳細資訊，請參閱區段 [為系統中的每個人配置事件通知](../../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md#modify) 在文章中 [為系統中的每個人配置事件通知](../../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md).
+  如需電子郵件通知的詳細資訊，請參閱區段 [為系統中的每個人設定事件通知](../../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md#modify) 在文章中 [為系統中的每個人設定事件通知](../../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md).
 
-* 您可以在報表或清單中顯示「專案擁有者」欄位。
+* 您可以在報告或清單中顯示「專案所有者」欄位。
 
-   您也可以在檢視、分組或提示中顯示「專案擁有者」欄位。
+  您也可以在檢視、分組或提示中顯示「專案所有者」欄位。
 
-   例如，您可以將下列文字模式運算式複製到篩選器中，以顯示登入使用者擁有的專案： 
+  例如，您可以將下列文字模式運算式複製到篩選中，以顯示登入使用者擁有的專案： 
 
-   ```
-   ownerID=$$USER.ID
-   ```
+  ```
+  ownerID=$$USER.ID
+  ```
 
 如需建立報表的詳細資訊，請參閱文章 [建立自訂報表](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
@@ -71,34 +74,34 @@ ht-degree: 0%
 </div>
 -->
 
-## 項目贊助商
+## 專案贊助者
 
-您可以將系統中的任何用戶指定為項目發起人。 專案贊助者通常是需要了解專案發生狀況的經理、執行官或利害關係人。
+您可以將系統中的任何使用者指定為專案贊助者。 專案贊助者通常是需要瞭解專案情況的經理、執行或利害關係人。
 
-指派專案贊助商時，請考量下列事項：
+指派專案贊助者時，請考慮下列事項：
 
-* 專案贊助者不會取得專案的任何其他存取權，但會新增至專案的電子郵件通知中。 如需通知的相關資訊，請參閱文章 [為系統中的每個人配置事件通知](../../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md).
+* 專案贊助者未取得專案的任何額外存取權，但會新增到專案的電子郵件通知中。 如需有關通知的資訊，請參閱文章 [為系統中的每個人設定事件通知](../../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md).
 
-* 您只能指定一個項目贊助商。
-* 在定義項目、任務或發放審批流程時，您可以指定項目發起人作為一般審批人。 如需核准的相關資訊，請參閱 [編輯核准程式](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/edit-an-approval-process.md).
+* 您只能指定一個專案贊助者。
+* 在定義專案、任務或問題核准流程時，您可以將專案贊助者指定為一般核准者。 如需關於核准的資訊，請參閱 [編輯核准流程](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/edit-an-approval-process.md).
 
-   >[!IMPORTANT]
-   >
-   >當您為項目發起人分配了批准，並且沒有人被指定為項目的發起人時，批准將重新分配給項目責任人。 如果未指定任何人為專案的擁有者，則會將核准指派給Workfront管理員。
+  >[!IMPORTANT]
+  >
+  >當您將核准指派給「專案贊助者」，且沒有指定任何人員作為專案的贊助者時，核准將重新指派給「專案所有者」。 如果未指定任何人為專案的所有者，則會將核准指派給Workfront管理員。
 
-* 您可以在報表或清單中顯示「項目贊助商」欄位。
+* 您可以在報告或清單中顯示「專案贊助者」欄位。
 
-   您也可以在檢視、分組或提示中顯示「專案贊助商」欄位。
+  您也可以在檢視、分組或提示中顯示專案贊助者欄位。
 
-   例如，您可以將下列文字模式運算式複製到篩選器中，以顯示由登入使用者贊助的專案：
+  例如，您可以將下列文字模式運算式複製到篩選中，以顯示由登入使用者贊助的專案：
 
-   ```
-   sponsorID=$$USER.ID
-   ```
+  ```
+  sponsorID=$$USER.ID
+  ```
 
-    
+   
 
-   如需建立報表的詳細資訊，請參閱文章 [建立自訂報表](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+  如需建立報表的詳細資訊，請參閱文章 [建立自訂報表](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

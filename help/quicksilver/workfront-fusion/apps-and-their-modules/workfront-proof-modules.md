@@ -9,7 +9,7 @@ description: 在 [!DNL Adobe Workfront Fusion] 情境中，您可以使用自動
 author: Becky
 feature: Workfront Fusion, Workfront Proof, Digital Content and Documents
 exl-id: f5c6fb08-880d-4432-aef1-57db13b3ecdb
-source-git-commit: 5d7ff744ed0721ffa6d793a224226f28a76c57a0
+source-git-commit: 8764de907f49260908911ca393c1173b66dbb065
 workflow-type: tm+mt
 source-wordcount: '2934'
 ht-degree: 0%
@@ -37,7 +37,7 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 計劃*</td>
+   <td role="rowheader">[!DNL Adobe Workfront] 計畫*</td>
   <td> <p>[！UICONTROL Pro]或更高版本</p> </td>
   </tr> 
   <tr data-mc-conditions=""> 
@@ -353,11 +353,11 @@ ht-degree: 0%
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[！UICONTROL方法]</td> 
-   <td>設定API呼叫的動作。 如需瞭解可用的動作，請參閱 <a href="http://api.proofhq.com/">校訂API檔案</a>.</td> 
+   <td>設定API呼叫的動作。 如需瞭解可用的動作，請參閱 <a href="https://api.proofhq.com/">校訂API檔案</a>.</td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[！UICONTROL內文(XML)]</td> 
-   <td> <p>以標準JSON物件的形式新增API呼叫的內文內容。</p> <p>備註:  <p>使用條件陳述式時，例如 <code>if</code> 在JSON中，將引號放在條件陳述式之外。</p> 
+   <td> <p>以標準JSON物件的形式新增API呼叫的內文內容。</p> <p>注意：  <p>使用條件陳述式時，例如 <code>if</code> 在JSON中，將引號放在條件陳述式之外。</p> 
      <div class="example" data-mc-autonum="<b>Example: </b>"> 
       <p> <img src="assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
      </div> </p> </td> 
@@ -367,7 +367,7 @@ ht-degree: 0%
 
 >[!INFO]
 >
->**範例:**
+>**範例：**
 >
 >![](assets/wfp-api-module-example-350x586.png)
 

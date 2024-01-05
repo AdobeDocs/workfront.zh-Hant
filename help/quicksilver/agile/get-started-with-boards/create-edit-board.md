@@ -6,7 +6,7 @@ description: 從 [!UICONTROL 展示板] 圖示板，您可以建立新電路板�
 author: Lisa
 feature: Agile
 exl-id: 5f755177-c8ea-4509-a34f-57ffcfd8ba7f
-source-git-commit: 5b6c7488bc1233e141e478da8546a05fcfffdc96
+source-git-commit: 38715b9571206fd3621b5c078c3eebe380297e9b
 workflow-type: tm+mt
 source-wordcount: '764'
 ht-degree: 1%
@@ -50,6 +50,7 @@ ht-degree: 1%
 ## 建立新展示板
 
 {{step1-to-boards}}
+
 1. 按一下 **[!UICONTROL 新增展示板]**.
 
 1. 選取展示板的範本。
@@ -98,6 +99,7 @@ ht-degree: 1%
 ## 編輯現有展示板
 
 {{step1-to-boards}}
+
 1. 在控制面板上，選取要開啟的面板。
 1. 視需要編輯展示板。 您可以按一下電路板名稱來重新命名。
 

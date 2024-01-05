@@ -7,14 +7,16 @@ description: 您可以合併顯示在多個獨立欄中的資訊，並將其顯�
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: d4f9db12-59ce-4cfc-90dd-e611b49fafdf
-source-git-commit: f4ef463ebdc9a4a7a0802e5394d7820ebc447aa9
+source-git-commit: 4b8477b75697268df3581f928e3c77025c2f56cd
 workflow-type: tm+mt
-source-wordcount: '1033'
+source-wordcount: '1053'
 ht-degree: 0%
 
 ---
 
 # 檢視：合併一個共用欄中多個欄的資訊
+
+<!-- Audited: 1/2024 -->
 
 您可以合併顯示在多個獨立欄中的資訊，並將其顯示在一個共用欄中。
 
@@ -32,8 +34,19 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront授權*</td> 
-   <td> <p>請求修改檢視 </p>
-   <p>計畫修改報表</p> </td> 
+   <td> <p> 目前： 
+   <ul>
+   <li>請求修改檢視</li> 
+   <li>計畫修改報表</li>
+   </ul>
+     </p>
+     <p> 新增： 
+   <ul>
+   <li>修改檢視的貢獻者</li> 
+   <li>用於修改報告的標準</li>
+   </ul>
+     </p>
+    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定*</td> 
@@ -77,7 +90,7 @@ ht-degree: 0%
 >
 >合併兩欄時，如果不能同時顯示同一筆記錄的值，建議使用此方法。 例如，在「工作專案」報表中，「問題名稱」和「任務名稱」欄可以合併，而不在它們之間加上分行符號，因為「工作專案」絕不能同時有「問題名稱」和「任務名稱」。 工作專案可以是Workfront中的問題或任務。
 
-若要這麼做：
+若要合併兩欄資料而不使用分行符號，請執行下列動作：
 
 1. 使用檢視的文字模式，將下列文字新增至您要合併的第一欄：
 

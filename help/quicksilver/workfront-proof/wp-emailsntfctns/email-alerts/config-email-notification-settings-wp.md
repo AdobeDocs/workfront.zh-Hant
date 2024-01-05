@@ -7,9 +7,9 @@ description: 從Workfront校訂產生的電子郵件通知會通知共同作業�
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: eb82c075-e275-46b7-ac2c-ed50367f53a7
-source-git-commit: b4991b649a68ede587e47da2ebb7470aab3b5913
+source-git-commit: e80a3ede9ccf6ccf9ea7777aab35cc859f13a6ac
 workflow-type: tm+mt
-source-wordcount: '1957'
+source-wordcount: '2058'
 ht-degree: 0%
 
 ---
@@ -26,15 +26,32 @@ ht-degree: 0%
 
 您可以在下列區域為檢閱者設定電子郵件通知：
 
+## 存取需求
+
+您必須具有下列存取權才能執行本文中的步驟：
+
+<table style="table-layout:auto"> 
+<tr> 
+   <td role="rowheader">產品</td> 
+   <td>Workfront Proof Standalone</td> 
+  </tr> 
+</table>
+
+可在新校訂頁面上設定檢閱者的電子郵件通知， [!UICONTROL 新版本] 頁面，並在中管理 [!UICONTROL 工作流程] 的區段 [!UICONTROL 校訂詳細資訊] 頁面。 如需詳細資訊，請參閱 [產生校訂於 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md)
+
 * 新校訂頁面
 * 此 [!UICONTROL 新版本] 頁面
 * 此 [!UICONTROL 工作流程] 的區段 [!UICONTROL 校訂詳細資訊] 頁面。
 
 如需詳細資訊，請參閱 [產生校訂於 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md)
 
+
 * [產生校訂於 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md) [產生校訂於 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md)
 
 * [在中管理校訂詳細資訊 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md).
+
+
+如果共同作業人員有自己的偏好設定或帳戶管理員對警報頻率有他們的建議，則每位使用者都可以設定自己的電子郵件警報設定，在與他們共用校訂時自動套用這些設定。 這可在使用者詳細資訊頁面上設定為校訂預設值。
 
 每個使用者也可以設定自己的電子郵件警報設定，這些設定將在與他們共用校訂時自動套用。 <!--If the collaborators have their preferences, or account administrators have their recommendation on alerts frequency. This can be set as a proof default on the users details pages.-->
 

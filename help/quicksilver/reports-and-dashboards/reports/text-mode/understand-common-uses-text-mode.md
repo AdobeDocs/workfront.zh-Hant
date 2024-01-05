@@ -6,7 +6,7 @@ description: 文字模式的常見用途概觀
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 81512837-1ec4-4dbc-ace4-bdf08fe667ce
-source-git-commit: dad054fe52bd7c5ca97144567c80e6d340541a50
+source-git-commit: 111c776af19fbc2982c14cc9d3b3778d37bc0be3
 workflow-type: tm+mt
 source-wordcount: '765'
 ht-degree: 0%
@@ -14,6 +14,8 @@ ht-degree: 0%
 ---
 
 # 文字模式的常見用途概觀
+
+<!-- Audited: 1/2024 -->
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: Alina: ***This is linked to Understanding Text Mode (article), and the TOC article for examples of various reporting elements)</p>

@@ -3,9 +3,10 @@ title: Workfront校訂行動應用程式
 description: 瞭解Workfront Proof行動應用程式。
 hide: true
 hidefromtoc: true
-source-git-commit: 02e55be36d3b649aeb5b81d185538f77ac3d4ec7
+exl-id: 865019d7-55b4-4d53-93aa-1370d153916e
+source-git-commit: 8764de907f49260908911ca393c1173b66dbb065
 workflow-type: tm+mt
-source-wordcount: '1357'
+source-wordcount: '1344'
 ht-degree: 0%
 
 ---
@@ -33,9 +34,6 @@ ht-degree: 0%
 >[!IMPORTANT]
 >
 >Workfront Proof行動應用程式已不再受支援，並依現狀提供。  應用程式中的任何問題將不會修正。
-
-
-下載我們的 [!DNL Workfront Proof] 直接來自的行動應用程式 [Apple App Store](https://itunes.apple.com/us/app/workfront-proof/id1030372728?mt=8) 或 [Google Play商店](https://play.google.com/store/apps/details?id=com.proofhq.tabletapp).
 
 若為iOS裝置，請務必解除安裝先前的 [!DNL Workfront Proof] 適用於iOS裝置的應用程式，然後再安裝新應用程式。
 
@@ -99,7 +97,7 @@ ht-degree: 0%
 
    ![add_a_comment.png](assets/add-a-comment-350x543.png)
 
-1. 按一下&#x200B;**[!UICONTROL 儲存]**。
+1. 按一下「**[!UICONTROL 儲存]**」。
 
 ## 閱讀並回覆註解
 
