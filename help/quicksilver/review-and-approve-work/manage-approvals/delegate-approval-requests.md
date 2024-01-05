@@ -6,9 +6,9 @@ description: 委派核准請求可讓您指派另一名使用者，在一段時�
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 01b76dd5-98cb-4f0d-97ff-7e665f843a9c
-source-git-commit: 95679dd71ef7e4991853e63573a387f26321159d
+source-git-commit: 45c0af640daa7bf0c4cb342e55a88a98a745cfc3
 workflow-type: tm+mt
-source-wordcount: '1203'
+source-wordcount: '1257'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,14 @@ ht-degree: 0%
 # 委派核准請求
 
 您不在辦公室時，可以暫時委派指派給您的工作。 您可以委派任務和問題指派，也可以委派核准請求。 本文會說明如何委派核准請求。 有關委派任務和問題指派的資訊，請參閱 [管理任務和問題](../../manage-work/delegate-work/how-to-delegate-work.md).
+
+無論核准如何指派給您（無論是直接指派給您、您所屬的團隊或您的工作角色），您都可以委派下列型別的核准：
+
+* 專案核准
+* 任務核准
+* 問題核准
+
+您無法委派時程表、檔案或校訂核准。
 
 >[!NOTE]
 >
@@ -83,7 +91,7 @@ ht-degree: 0%
 * 任務核准
 * 問題核准
 
-您無法委派時程表和檔案核准。 
+您無法委派時程表、檔案或校訂核准。
 
 委派核準時，請考量下列事項：
 
@@ -128,7 +136,7 @@ ht-degree: 0%
       * 選取核准停止轉送的日期。 轉送會在您選取的日期晚上11:59結束。
       * 選取 **無結束日期** 設定Workfront以無限期委派核准。
 
-1. 按一下&#x200B;**儲存**。
+1. 按一下「**儲存**」。
 
 ### 更新或停止核准委派 {#update-or-stop-an-approval-delegation}
 

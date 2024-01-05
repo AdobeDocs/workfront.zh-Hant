@@ -6,9 +6,9 @@ description: 您可以在Adobe Workfront中將檔案新增到多個區域中的�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 0a5f82b2-f86e-4ffa-b3a6-18221dd0e158
-source-git-commit: ec753f4176208708de0a39679788d34f486f759b
+source-git-commit: efe264b274085c32c2d00163a2a43bd5d3fc1434
 workflow-type: tm+mt
-source-wordcount: '748'
+source-wordcount: '746'
 ht-degree: 1%
 
 ---
@@ -65,7 +65,7 @@ ht-degree: 1%
 1. 前往您要新增檔案的專案、任務或問題。
 1. 按一下 **檔案** 標籤，然後按一下 **新增** 下拉式功能表。
 
-   ![](assets/add-new-350x138.png)
+   ![](assets/add-new-doc.png)
 
 1. 根據您要新增的檔案型別，執行下列任一項作業：
 
@@ -98,7 +98,7 @@ ht-degree: 1%
         <li value="1">從 <strong>新增</strong> 下拉式功能表，選取 <strong>請求檔案</strong>.</li> 
         <li value="2">在 <strong>您向誰請求</strong> 方塊中，輸入您向其請求檔案的使用者名稱。</li> 
         <li value="3">在 <strong>告知您正在請求的內容</strong> 方塊中，鍵入檔案的名稱。</li> 
-        <li value="4"> <p>按一下 <strong>傳送要求</strong>.</p> <p>您的請求會顯示在「檔案」標籤上。</p> <p> <img src="assets/request-a-document-350x110.png" style="width: 350;height: 110;" data-mc-conditions="QuicksilverOrClassic.Quicksilver"> </p> <p>如需請求檔案的詳細資訊，請參閱 <a href="../../documents/adding-documents-to-workfront/request-a-document.md" class="MCXref xref">請求檔案</a>.</p> </li> 
+        <li value="4"> <p>按一下 <strong>傳送要求</strong>.</p> <p>您的請求會顯示在「檔案」標籤上。</p> <p>如需請求檔案的詳細資訊，請參閱 <a href="../../documents/adding-documents-to-workfront/request-a-document.md" class="MCXref xref">請求檔案</a>.</p> </li> 
        </ol> </td> 
      </tr> 
     </tbody> 
