@@ -8,9 +8,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: f92ceed7-b191-425b-9fff-1b0947f32db8
-source-git-commit: c709ecd8023a0a9ce9c5b4591145d0a70912e003
+source-git-commit: 9d2165cdc9399273a4f79b90d4049f50097cadee
 workflow-type: tm+mt
-source-wordcount: '833'
+source-wordcount: '831'
 ht-degree: 4%
 
 ---
@@ -95,7 +95,7 @@ DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH T
         <li>檔案請求<br></li>
         <li>檔案核准</li>
         <li>行事曆</li>
-       </ul><p>此選項預設為啟用。</p> <p><b>重要</b>：如果停用此選項，您的Workfront執行個體將無法使用外部使用者存取層級。 如需詳細資訊，請參閱 <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/default-access-levels-in-workfront.md" class="MCXref xref">Workfront中的內建存取層級</a>.</p> </td> 
+       </ul><p>此選項預設為啟用。</p> <p><b>重要</b>：如果停用此選項，您的Workfront執行個體將無法使用外部使用者存取層級。 如需詳細資訊，請參閱 <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/default-access-levels-in-workfront.md" class="MCXref xref">內建存取層級</a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">要求外部使用者使用密碼註冊</td> 
@@ -116,6 +116,6 @@ DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH T
     </tbody> 
    </table>
 
-1. 按一下&#x200B;**儲存**。
+1. 按一下「**儲存**」。
 
    您在此處儲存的變更會影響Workfront中所有使用者的體驗，以及以外部使用者身分與他們互動的任何人的體驗。

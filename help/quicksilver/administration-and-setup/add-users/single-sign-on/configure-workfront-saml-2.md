@@ -8,10 +8,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: cf09859c-7d6f-4bf0-9b7f-c57096233c94
-source-git-commit: 91d757513792604677d6285baafa795629b4506d
+source-git-commit: 16a34e4315d508e31859e962edd01026d01ee193
 workflow-type: tm+mt
-source-wordcount: '1024'
-ht-degree: 6%
+source-wordcount: '1000'
+ht-degree: 7%
 
 ---
 
@@ -50,10 +50,12 @@ ht-degree: 6%
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定</td> 
-   <td> <p>您必須是Workfront管理員。</p> <p><b>注意</b>：如果您還是沒有存取權，請詢問Workfront管理員是否對您的存取層級設定了其他限制。 如需有關Workfront管理員如何修改您的存取層級的資訊，請參閱 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>.</p> </td> 
+   <td> <p>您必須是Workfront管理員。</p> </td> 
   </tr> 
  </tbody> 
 </table>
+
+如需有關此表格的詳細資訊，請參閱 [Workfront檔案中的存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## 啟用使用SAML 2.0對Workfront的驗證
 
@@ -127,7 +129,7 @@ ht-degree: 6%
        <p>您可以對應下列Workfront屬性：</p> 
       <ul> 
       <li> <p>存取層級</p> </li> 
-      <li> <p>地址</p> </li> 
+      <li> <p>位址</p> </li> 
       <li> <p>地址 2</p> </li> 
       <li> <p>計費/小時</p> </li> 
       <li> <p>城市</p> </li> 

@@ -6,9 +6,9 @@ description: 您可以使用 [!DNL Adobe Workfront for Jira] 若要整合您的 
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 959adc88-5201-4945-96c4-ea890f0bd371
-source-git-commit: 91d757513792604677d6285baafa795629b4506d
+source-git-commit: 16a34e4315d508e31859e962edd01026d01ee193
 workflow-type: tm+mt
-source-wordcount: '2420'
+source-wordcount: '2373'
 ht-degree: 0%
 
 ---
@@ -36,14 +36,14 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL [!DNL Adobe Workfront] 計畫]*</td> 
+   <td role="rowheader">[!DNL [!DNL Adobe Workfront] 計畫]</td> 
    <td><p>新增：任何</p>
        <p>或</p>
        <p>目前： [！UICONTROL Pro]或更高版本</p>
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 授權*</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] 授權</td> 
    <td><p>新增：[！UICONTROL Standard] </p>
        <p>或</p> 
        <p>目前： [！UICONTROL計畫] </p>
@@ -54,13 +54,13 @@ ht-degree: 0%
    <td> <p>系統管理員存取權</p> <p>重要：建議您在中建立個別的系統管理員帳戶 [!DNL Jira] 和 [!DNL Workfront] 以專門用於此整合，而不使用可能附加至使用者的現有整合。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">存取層級設定*</td> 
-   <td> <p>您必須是 [!DNL Workfront] 管理員。 有關的資訊 [!DNL Workfront] 管理員，請參閱 <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">授予使用者完整管理存取權</a>.</p> <p>注意：如果您還是沒有存取權，請詢問您的 [!DNL Workfront] 管理員是否對您的存取層級設定其他限制。 如需瞭解如何 [!DNL Workfront] 管理員可以修改您的存取層級，請參閱 <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>.</p> </td> 
+   <td role="rowheader">存取層級設定</td> 
+   <td> <p>您必須是 [!DNL Workfront] 管理員。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;若要瞭解您擁有的計畫、授權型別或存取權，請聯絡您的 [!DNL Workfront] 管理員。
+如需有關此表格的詳細資訊，請參閱 [Workfront檔案中的存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## 先決條件
 

@@ -6,9 +6,9 @@ description: 您可以從各種清單、報表、控制面板和搜尋匯出Adob
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 7fd45fa2-f5d2-411d-849e-cff5be420fbc
-source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
+source-git-commit: 16a34e4315d508e31859e962edd01026d01ee193
 workflow-type: tm+mt
-source-wordcount: '2203'
+source-wordcount: '2153'
 ht-degree: 0%
 
 ---
@@ -53,28 +53,28 @@ ht-degree: 0%
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront計畫*</td> 
+   <td role="rowheader">Adobe Workfront計畫</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront授權*</td> 
+   <td role="rowheader">Adobe Workfront授權</td> 
    <td>
     <p>新增：淺色或更高</p>
     <p>或</p>
     <p>目前：檢閱或以上</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">存取層級設定*</td> 
-   <td> <p>檢視或更高許可權的報告、儀表板和行事曆以匯出報告</p> <p>檢視您檢視清單中的物件或更高存取權以匯出清單</p> <p>注意：如果您還是沒有存取權，請詢問您的Workfront管理員，他們是否在您的存取層級中設定其他限制。 如需有關Workfront管理員如何修改您的存取層級的資訊，請參閱 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>.</p> </td> 
+   <td role="rowheader">存取層級設定</td> 
+   <td> <p>檢視或更高許可權的報告、儀表板和行事曆以匯出報告</p> <p>檢視您檢視清單中的物件或更高存取權以匯出清單</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">物件許可權</td> 
-   <td> <p>檢視報表或儀表板的許可權或以上以匯出報表或儀表板</p> <p>檢視您在清單中檢視的物件或擁有更高的許可權以匯出清單</p> <p>如需請求其他存取許可權的詳細資訊，請參閱 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">要求物件的存取權</a>.</p> </td> 
+   <td> <p>檢視報表或儀表板的許可權或以上以匯出報表或儀表板</p> <p>檢視您在清單中檢視的物件或擁有更高的許可權以匯出清單</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;若要瞭解您擁有的計畫、授權型別或存取權，請聯絡您的Workfront管理員。
+如需有關此表格的詳細資訊，請參閱 [Workfront檔案中的存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## 先決條件
 

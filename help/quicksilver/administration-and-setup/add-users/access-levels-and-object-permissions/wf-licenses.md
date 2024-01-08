@@ -10,9 +10,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 7f30e2d8-f5c3-4811-b780-49a2b0d058e7
-source-git-commit: 91d757513792604677d6285baafa795629b4506d
+source-git-commit: 9d2165cdc9399273a4f79b90d4049f50097cadee
 workflow-type: tm+mt
-source-wordcount: '350'
+source-wordcount: '347'
 ht-degree: 3%
 
 ---
@@ -41,7 +41,7 @@ ht-degree: 3%
 
 >[!NOTE]
 >
->外部授權不是付費授權。 它主要是為了和不使用Workfront的合作人員共用檔案。 如需詳細資訊，請參閱 [Adobe Workfront中的內建存取層級](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/default-access-levels-in-workfront.md).
+>外部授權不是付費授權。 它主要是為了和不使用Workfront的合作人員共用檔案。 如需詳細資訊，請參閱 [內建存取層級](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/default-access-levels-in-workfront.md).
 
 ## 授權如何定義存取層級
 

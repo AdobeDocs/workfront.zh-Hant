@@ -10,9 +10,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 7c323af9-8c33-48ad-9aff-96758e96b40b
-source-git-commit: 70a2ab0400a50c807aae301116902c5cefb3358b
+source-git-commit: 9d2165cdc9399273a4f79b90d4049f50097cadee
 workflow-type: tm+mt
-source-wordcount: '305'
+source-wordcount: '302'
 ht-degree: 0%
 
 ---
@@ -50,7 +50,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td><strong>內建存取層級</strong></td> 
-   <td> <p>如需上圖中所示6個內建存取層級的詳細資訊，請參閱 <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/default-access-levels-in-workfront.md" class="MCXref xref">Adobe Workfront中的內建存取層級</a>.</p> </td> 
+   <td> <p>如需上圖中所示6個內建存取層級的詳細資訊，請參閱 <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/default-access-levels-in-workfront.md" class="MCXref xref">內建存取層級</a>.</p> </td> 
   </tr> 
   <tr> 
    <td><strong>指派存取層級</strong></td> 

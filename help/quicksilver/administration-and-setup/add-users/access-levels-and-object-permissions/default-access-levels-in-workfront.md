@@ -4,20 +4,20 @@ content-type: reference
 product-area: system-administration
 keywords: 存取，模型，漏斗，圖表，層級，許可權
 navigation-topic: access-levels
-title: Adobe Workfront中的內建存取層級
+title: 內建存取層級
 description: 目前內建的六個存取層級中的每一個層級都是為特定型別的使用者設計的，包括系統管理員、供需規劃員、工作者、檢閱者、請求者和外部使用者。 這些存取層級可讓您控制哪些使用者可以在系統中編輯和檢視。 如果您需要自訂存取層級，可以複製內建存取層級，並根據您想要它允許各種Workfront物件型別的存取量進行修改。
-author: Becky
+author: Becky, Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 5cb42dd8-1557-4fa4-ab3d-8278ce9afd96
-source-git-commit: 532ec7f7a33e1e1111a31422c5c3c442b2e176b5
+source-git-commit: 9d2165cdc9399273a4f79b90d4049f50097cadee
 workflow-type: tm+mt
-source-wordcount: '1683'
-ht-degree: 6%
+source-wordcount: '1685'
+ht-degree: 5%
 
 ---
 
-# Adobe Workfront中的內建存取層級
+# 內建存取層級
 
 <!--Audited: 01/2024-->
 
@@ -60,8 +60,7 @@ ht-degree: 6%
 >
 >您無法修改系統管理員或外部使用者存取層級。
 
-
-如需有關建立自訂存取層級或修改其中一個內建存取層級的資訊，請參閱 [建立或修改自訂存取層級](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+如需有關建立自訂存取層級或修改其中一個內建存取層級的資訊，請參閱 [建立和修改自訂存取層級](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
 >[!IMPORTANT]
 >
@@ -87,7 +86,7 @@ ht-degree: 6%
 * 任何負責計畫、建立和管理任務、專案、投資組合和計畫的人
 * 負責將工作（任務和問題）指派給其他使用者的任何人
 * 建立報告及核準時程表、工作專案和檔案的使用者
-* 需要存取主功能表中所有區域的使用者 ![](assets/main-menu-icon.png)
+* 需要存取主功能表中所有區域的使用者 ![](assets/main-menu-icon.png) 或主要功能表 ![](assets/lines-main-menu.png)，若有
 
 您可以建立Planner內建存取層級的自訂版本，並決定其允許各種Workfront物件型別的存取量。 如需詳細資訊，請參閱 [建立和修改自訂存取層級](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
@@ -159,7 +158,7 @@ ht-degree: 6%
 具有檢閱者存取層級的使用者：
 
 * 無法指派工作專案或核準時程表
-* 可以存取主功能表中的「請求與檔案」區域 ![](assets/main-menu-icon.png) 或主要功能表 ![](assets/lines-main-menu.png)，如果有的話。
+* 可以存取主功能表中的「請求與檔案」區域 ![](assets/main-menu-icon.png) 或主要功能表 ![](assets/lines-main-menu.png)，若有
 * 建立物件的能力有限 — 他們無法建立專案、投資組合、計畫或報告。
 
 您可以建立Reviewer內建存取層級的自訂版本，並決定其允許各種Workfront物件型別的存取量。 如需詳細資訊，請參閱 [建立和修改自訂存取層級](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
@@ -321,8 +320,8 @@ ht-degree: 6%
 具有外部使用者存取層級的使用者：
 
 * 只能檢視與其共用的檔案和行事曆報告
-* 檢視與他們共用檔案和行事曆報告的使用者
-* 核准與其共用的檔案
+* 可檢視與他們共用檔案和行事曆報表的使用者
+* 可以核准與其共用的檔案
 
 您無法修改此存取層級。
 
