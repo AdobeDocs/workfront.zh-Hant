@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: a5cdcb89-71c0-43f0-a5cf-dc99fac542ba
-source-git-commit: fa9a186c00f7583ee47b87ca1d24a132b9289fd0
+source-git-commit: d07902daa53c83b6ee50dbb53bc84b42f6098407
 workflow-type: tm+mt
-source-wordcount: '1945'
+source-wordcount: '1950'
 ht-degree: 0%
 
 ---
@@ -64,7 +64,7 @@ ht-degree: 0%
 **[!UICONTROL 資訊科技組織設定]**
 此Blueprint包含組織結構的設定，以展開至資訊技術使用案例。
 
-**[!UICONTROL 繼承執行個體基本知識 | 檢查清單]**
+[!BADGE 最新！]{type=Informative}**[!UICONTROL 繼承執行個體基本知識 | 檢查清單]**
 此Blueprint包含專案範本（或檢查清單），您可以利用問題、資源和連結的簡短清單進行檢視，以清楚瞭解Workfront執行個體的設定方式。 當您最近繼承Workfront執行個體並需要有關從何處開始的指引時，請使用此專案。
 
 **[!UICONTROL 整合式行銷活動執行]**
@@ -79,7 +79,7 @@ ht-degree: 0%
 **[!UICONTROL 新員工整備]**
 此Blueprint包含 [!DNL Workfront] 在人力資源團隊的實作工作期間，專業服務組織已使用數年時間，來促使人力資源專家和招聘經理完成基本活動，讓新員工的第一天變得引人注目。
 
-**離線 | 離開使用者儀表板**
+[!BADGE 最新！]{type=Informative}**離線 | 離開使用者儀表板**
 
 此Blueprint包含單一控制面板和13個報表，可協助您尋找、重新指派或管理與離開Workfront的使用者相關聯的物件與指派。 您也可以將這些報告用於移動至新角色或群組的使用者，以重新指派其工作。
 
@@ -104,7 +104,7 @@ ht-degree: 0%
 **[!UICONTROL 招聘程式追蹤]**
 此藍圖定義內部招聘資源的檢查清單，用於協助業務利害關係人追蹤人員招募請求的進度。 其設計可支援受管理的成熟度等級。
 
-**資源管理準備**
+[!BADGE 最新！]{type=Informative}**資源管理準備**
 
 使用此專案範本和使用者報告，確保您擁有產生正確資源管理資料所需的正確設定和資訊。
 
@@ -126,7 +126,7 @@ ht-degree: 0%
 **[!UICONTROL 系統管理員維護儀表板]**
 此藍圖包含單一儀表板，可協助系統管理員定期維護及清除系統，避免隨著時間累積而造成的其他混亂。
 
-**價值實現 | 核心值控制面板**
+[!BADGE 最新！]{type=Informative}**價值實現 | 核心值控制面板**
 
 此Blueprint包含單一控制面板和21個報表，可協助您測量Workfront的值。 這些報告可幫助您將集中工作和管理工作流程的好處轉化為可衡量的價值，讓您能夠隨著時間推移追蹤這些價值，以產生更好的成果。
 
@@ -134,7 +134,7 @@ ht-degree: 0%
 
 此藍圖包含單一儀表板和8份報表，可協助您實現Workfront的優點。 這些報告的設計目的，是要協助您將面向客戶的服務轉換為可衡量的價值，以便您隨著時間推移追蹤這些價值，進而創造更好的成果。
 
-**價值實現 | 檢閱和核准儀表板**
+[!BADGE 最新！]{type=Informative}**價值實現 | 檢閱和核准儀表板**
 
 此藍圖包含單一控制面板和7個報表，可協助您實現Workfront的價值。 這些報告可協助您將「稽核與核准」工作的價值轉化為可衡量的好處，讓您隨著時間推移追蹤這些好處，以產生更好的成果。
 
