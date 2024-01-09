@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 6c35c313-d6ed-428b-b70d-2ea242da4e8f
-source-git-commit: 4946a65188391df62ad3e135a5b1dbba9a16dc89
+source-git-commit: 74db651f8865965f943bc89e58e7130cffe0c450
 workflow-type: tm+mt
-source-wordcount: '473'
-ht-degree: 1%
+source-wordcount: '470'
+ht-degree: 0%
 
 ---
 
@@ -46,7 +46,7 @@ recommendations: noDisplay, noCatalog
 
 ## 編輯欄位資訊的考量事項
 
-* 您可以編輯您建立的欄位或其他使用者建立的欄位。 <!--this will change with access levels/ permissions-->
+* 您可以編輯您建立的欄位或其他使用者建立的欄位。 <!--this will change with access levels/ permissions - take out, it's in the table!-->
 * 您可以在記錄型別表格中編輯欄位。
 * 儲存欄位後，您無法編輯欄位型別。
 * 如果先前選取的「數字」、「百分比」或「幣別」欄位在其附加的記錄中已有負值，則無法取消選取該欄位的「允許負數」設定。
@@ -94,7 +94,7 @@ recommendations: noDisplay, noCatalog
   </tr>
 <tr>
    <td role="rowheader">版面配置範本</td>
-   <td> <p>您的系統管理員必須在您的版面配置範本中新增Maestro區域。 如需詳細資訊，請參閱 <a href="../access/grant-access.md">授與Adobe大師的存取權</a>. </p>  
+   <td> <p>您的系統管理員必須在您的版面配置範本中新增Maestro區域。 如需詳細資訊，請參閱 <a href="../access/access-overview.md">存取權總覽</a>. </p>  
 </td>
   </tr>
  </tbody>
@@ -141,7 +141,7 @@ After permssions - replace the table with:
   </tr>
 <tr>
    <td role="rowheader"><p>Layout template</p></td>
-   <td> <p>Your Workfront or group administrator must add the Maestro area in your layout template. For information, see <a href="../access/grant-access.md">Grant access to Adobe Maestro</a>. </p>  
+   <td> <p>Your Workfront or group administrator must add the Maestro area in your layout template. For information, see <a href="../access/access-overview.md">Access overview</a>. </p>  
 </td>
   </tr>
 <tr>

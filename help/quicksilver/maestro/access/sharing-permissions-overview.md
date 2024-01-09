@@ -1,26 +1,24 @@
 ---
 title: 在Adobe Maestro中共用許可權概觀
-description: 您可以共用或移除您所建立之Adobe Maestro工作區的許可權。 只有Workfront管理員可以建立和共用工作區。
+description: 您可以共用或移除您所建立之AdobeMaestro工作區的許可權。
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-exl-id: 698036a6-b3b4-44a9-91ee-63fdb6a646a1
-source-git-commit: c3abb5dce14c0b19ab2e5b82f159cd29f80f79e4
+el-id: 698036a6-b3b4-44a9-91ee-63fdb6a646a1
+source-git-commit: fda35538234593b66b01f9e0cc0dafd6a63a84dc
 workflow-type: tm+mt
-source-wordcount: '382'
-ht-degree: 2%
+source-wordcount: '400'
+ht-degree: 4%
 
 ---
 
 <!--update the metadata with real things when making this public; also update the description with something like this: Not all users in the organization have the same access and permissions to use Adobe Maestro. This article describes the levels of access that users could have to Adobe Maestro. -->
 
-<!--over time, this article should look like this one does: https://experienceleague.adobe.com/docs/workfront/using/basics/grant-request-object-permissions/sharing-permissions-on-objects-overview.html?lang=en-->
+<!--over time, this article should look like this one does: https://eperienceleague.adobe.com/docs/workfront/using/basics/grant-request-object-permissions/sharing-permissions-on-objects-overview.html?lang=en-->
 
 <!-- *********add to TOC****************-->
 
 # 在Adobe Maestro中共用許可權概觀
-
-您可以共用或移除您所建立之Adobe Maestro工作區的許可權。 只有Workfront管理員可以建立和共用工作區。
 
 >[!IMPORTANT]
 >
@@ -32,92 +30,306 @@ ht-degree: 2%
 >
 >如需詳細資訊，請參閱 [Adobe大師概觀](../maestro-overview.md).
 
+您可以共用或移除您所建立之AdobeMaestro工作區的許可權。
+
 ## 您可以在Adobe大師中共用的物件
 
 您可以在Maestro中共用下列物件：
 
 * 工作區
 
-  當您共用工作區時，也會共用與工作區相關聯的所有記錄型別、記錄和欄位。
+  當您共用工作區時，也會共用與工作區相關聯的所有記錄型別、記錄和欄位。 檢視不會共用。
+
+* 檢視
 
 ## 在Maestro中共用物件的考量事項
 
-* 只有Workfront管理員可以共用工作區。
-* 所有Workfront管理員都可以存取及共用其他使用者建立的工作區。
+* 您必須擁有下列授權才能在Maestro中建立工作區：
+
+   * 新的定價模式：標準授權
+   * 目前的定價模式：工作或更高授權
+* 系統管理員可以管理和共用其他使用者建立的工作區。
+* 如果您不是系統管理員，且其他人建立的工作區已共用給您，您就可以為其貢獻內容。
 * 您無法大量共用工作區。
 * 您可以與下列實體共用工作區：
    * 使用者
    * 群組
+* 其他使用者（包括系統管理員）只能存取他們已建立或已與他們共用的檢視。
 
 ## 共用Maestro物件的許可權
 
-下表說明在共用Maestro工作區時您可以選取的許可權等級：
+下表說明在共用Maestro工作區或檢視時，您可以選取的許可權等級：
 
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
- <tr> 
-   <td role="rowheader"><p><b>許可權層級</b></p></td> 
-   <td> <p><b>您可以執行的動作</b></p> 
-    </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"><p>檢視</p></td> 
-   <td> 
-    <ul> 
-     <li>檢視工作區</li> 
-     <li>檢視工作區中的所有記錄型別</li> 
-     <li>檢視記錄型別中的所有記錄</li> 
-     <li>檢視記錄型別中的所有欄位</li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"><p>參與</p></td> 
-   <td>  
-    <ul> 
-     <li>檢視許可權所包含的所有動作</li> 
-     <li>新增記錄</li>
-     <li>建立記錄</li> 
-     <li>刪除記錄</li>  
-     <li>編輯記錄</li>
-     <li>編輯欄位設定</li>
-     </ul> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"><p>管理</p></td> 
-   <td> 
-    <ul> 
-     <li>檢視和貢獻許可權中包含的所有動作</li> 
-     <li>編輯記錄型別</li> 
-     <li>建立記錄型別</li> 
-     <li>刪除記錄型別</li> 
-     <li>新增欄位</li> 
-     <li>刪除欄位</li> 
-     <li>在記錄型別之間新增連線</li> 
-     <li>與使用者和群組共用工作區</li> 
-     </ul> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"><p>Workfront管理員</p></td> 
-   <td> <p>這不是Maestro許可權。</p>
-   <p> 所有Workfront管理員皆可執行下列動作： </p>
-   <ul><li>建立工作區</li>
-    <li> 管理現有的工作區，即使他們自己尚未建立這些工作區。 </li> 
-    <li>管理工作區中的所有資訊（記錄型別、記錄、欄位）
-    </td> 
-  </tr> 
- </tbody> 
+<table>
+  <tr>
+
+
+</td>
+  </tr>
+  <tr>
+   <td>
+   </td>
+   <td>
+   </td>
+   <td><p><b>新增：標準授權</b></p> <p><b>目前：工作者或以上授權</b></p></strong>
+   </td>
+   <td><strong>管理許可權</strong>
+   </td>
+   <td><strong>Contribute許可權</strong>
+   </td>
+   <td><strong>檢視許可權</strong>
+   </td>
+  </tr>
+  <tr>
+   <td><strong>建立</strong>
+   </td>
+   <td rowspan="5" ><strong>工作區</strong>
+   </td>
+   <td>✓ (A)
+   </td>
+   <td>✓ (A)
+   </td>
+   <td>
+   </td>
+   <td>
+   </td>
+  </tr>
+  <tr>
+   <td><strong>刪除</strong>
+   </td>
+   <td>✓ (A)
+   </td>
+   <td>✓ (A)
+   </td>
+   <td>
+   </td>
+   <td>
+   </td>
+  </tr>
+  <tr>
+   <td><strong>共用</strong>
+   </td>
+   <td>✓ (A)
+   </td>
+   <td>✓ (A)
+   </td>
+   <td>
+   </td>
+   <td>
+   </td>
+  </tr>
+  <tr>
+   <td><strong>編輯</strong>
+   </td>
+   <td>✓ (A)
+   </td>
+   <td>✓ (A)
+   </td>
+   <td>
+   </td>
+   <td>
+   </td>
+  </tr>
+  <tr>
+   <td><strong>檢視</strong>
+   </td>
+   <td>✓ (A)
+   </td>
+   <td>✓ (A)
+   </td>
+   <td>✓ (A)
+   </td>
+   <td>✓ (A)
+   </td>
+  </tr>
+  <tr>
+   <td><strong>建立/刪除</strong>
+   </td>
+   <td rowspan="3" ><strong>記錄型別*</strong>
+   </td>
+   <td>✓ (A)
+   </td>
+   <td>✓ (A)
+   </td>
+   <td>
+   </td>
+   <td>
+   </td>
+  </tr>
+  <tr>
+   <td><strong>編輯</strong>
+   </td>
+   <td>✓ (A)
+   </td>
+   <td>✓ (A)
+   </td>
+   <td>
+   </td>
+   <td>
+   </td>
+  </tr>
+  <tr>
+   <td><strong>檢視</strong>
+   </td>
+   <td>✓ (A)
+   </td>
+   <td>✓ (A)
+   </td>
+   <td>✓ (A)
+   </td>
+   <td>✓ (A)
+   </td>
+  </tr>
+  <tr>
+   <td><strong>建立/刪除</strong>
+   </td>
+   <td rowspan="3" ><strong>記錄*</strong>
+   </td>
+   <td>✓ (A)
+   </td>
+   <td>✓ (A)
+   </td>
+   <td>✓ (A)
+   </td>
+   <td>
+   </td>
+  </tr>
+  <tr>
+   <td><strong>編輯</strong>
+   </td>
+   <td>✓ (A)
+   </td>
+   <td>✓ (A)
+   </td>
+   <td>✓ (A)
+   </td>
+   <td>
+   </td>
+  </tr>
+  <tr>
+   <td><strong>檢視</strong>
+   </td>
+   <td>✓ (A)
+   </td>
+   <td>✓ (A)
+   </td>
+   <td>✓ (A)
+   </td>
+   <td>✓ (A)
+   </td>
+  </tr>
+  <tr>
+   <tr>
+   <td><strong>建立</strong>
+   </td>
+   <td rowspan="5" ><strong>檢視</strong>
+   </td>
+   <td>✓ (A)
+   </td>
+   <td>✓ (A)
+   </td>
+   <td>
+   </td>
+   <td>
+   </td>
+  </tr>
+  <tr>
+   <td><strong>刪除</strong>
+   </td>
+   <td>✓ (A)
+   </td>
+   <td>✓ (A)
+   </td>
+   <td>
+   </td>
+   <td>
+   </td>
+  </tr>
+  <tr>
+   <td><strong>共用</strong>
+   </td>
+   <td>✓ (A)
+   </td>
+   <td>✓ (A)
+   </td>
+   <td>
+   </td>
+   <td>
+   </td>
+  </tr>
+  <tr>
+   <td><strong>編輯</strong>
+   </td>
+   <td>✓ (A)
+   </td>
+   <td>✓ (A)
+   </td>
+   <td>
+   </td>
+   <td>
+   </td>
+  </tr>
+  <tr>
+   <td><strong>檢視</strong>
+   </td>
+   <td>✓ (A)
+   </td>
+   <td>✓ (A)
+   </td>
+   <td>
+   </td>
+   <td>✓ (A)
+   </td>
+  </tr>
+
+<tr>
+   <td><strong>建立/刪除</strong>
+   </td>
+   <td rowspan="3" ><strong>欄位*</strong>
+   </td>
+   <td>✓ (A)
+   </td>
+   <td>✓ (A)
+   </td>
+   <td>✓ (A)
+   </td>
+   <td>
+   </td>
+  </tr>
+  <tr>
+   <td><strong>編輯</strong>
+   </td>
+   <td>✓ (A)
+   </td>
+   <td>✓ (A)
+   </td>
+   <td>
+   </td>
+   <td>
+   </td>
+  </tr>
+  <tr>
+   <td><strong>檢視</strong>
+   </td>
+   <td>✓ (A)
+   </td>
+   <td>✓ (A)
+   </td>
+   <td>✓ (A)
+   </td>
+   <td>✓ (A)
+   </td>
+  </tr>
+
+
+
 </table>
 
-<!-- the following sections are hidden in the links below - ensure they are visible-->
+*記錄型別、記錄和欄位繼承來自工作區的許可權。
 
-## 共用工作區
+如需有關在Maestro中存取的一般資訊，請參閱 [在Adobe Maestro中共用許可權概觀](../access/sharing-permissions-overview.md).
 
-如需有關共用Maestro工作區的資訊，請參閱 [授與Adobe大師的存取權](../access/grant-access.md).
+如需共用工作區的詳細資訊，請參閱 [共用工作區](/help/quicksilver/maestro/access/share-workspaces.md).
 
-## 移除工作區的許可權
+如需關於共用檢視的資訊，請參閱 [共用檢視](/help/quicksilver/maestro/access/share-views.md)
 
-如需有關共用Maestro工作區的資訊，請參閱 [授與Adobe大師的存取權](../access/grant-access.md).
-
-<!--This is currently not possible: ## Request permissions to objects -->

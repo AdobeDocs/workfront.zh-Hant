@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: ed1c4954-b338-4865-a7a9-5ba0192e7b37
-source-git-commit: d3c22c84a9b246d1a45853c5d2825241f58bebe9
+source-git-commit: 74db651f8865965f943bc89e58e7130cffe0c450
 workflow-type: tm+mt
 source-wordcount: '1430'
 ht-degree: 1%
@@ -31,7 +31,7 @@ ht-degree: 1%
 記錄型別可以是下列其中一項：
 
 * **作業記錄型別**
-* **分類法**
+* **分類**
 
 如需有關Maestro記錄型別的詳細資訊，請參閱 [記錄型別和分類概觀](../architecture/overview-of-record-types-and-taxonomies.md).
 
@@ -76,7 +76,7 @@ ht-degree: 1%
   </tr>
 <tr>
    <td role="rowheader">版面配置範本</td>
-   <td> <p>您的系統管理員必須在您的版面配置範本中新增Maestro區域。 如需詳細資訊，請參閱 <a href="../access/grant-access.md">授與Adobe大師的存取權</a>. </p>  
+   <td> <p>您的系統管理員必須在您的版面配置範本中新增Maestro區域。 如需詳細資訊，請參閱 <a href="../access/access-overview.md">存取權總覽</a>. </p>  
 </td>
   </tr>
  </tbody>
@@ -123,7 +123,7 @@ After permssions - replace the table with:
   </tr>
 <tr>
    <td role="rowheader"><p>Layout template</p></td>
-   <td> <p>Your Workfront or group administrator must add the Maestro area in your layout template. For information, see <a href="../access/grant-access.md">Grant access to Adobe Maestro</a>. </p>  
+   <td> <p>Your Workfront or group administrator must add the Maestro area in your layout template. For information, see <a href="../access/access-overview.md">Access overview</a>. </p>  
 </td>
   </tr>
 <tr>
@@ -152,7 +152,7 @@ After permssions - replace the table with:
 
 * 您可以執行下列任一項作業，在工作區中建立記錄型別：
 
-   * 自動:
+   * 自動：
       * 使用範本建立工作區時。
 
         如需詳細資訊，請參閱 [建立工作區](../architecture/create-workspaces.md).
@@ -160,9 +160,9 @@ After permssions - replace the table with:
       * 當您從另一個應用程式建立與物件型別的連線時，當將欄位新增到記錄型別時。 這會在Maestro中建立唯讀記錄型別，該記錄型別從原始應用程式連線到物件型別。
 
      如需有關連線物件型別與Maestro記錄的資訊，請參閱 [連線記錄](../records/connect-records.md).
-   * 手動:
+   * 手動：
 
-      * 從頭開始.
+      * 從頭開始。
 
 ## 使用工作區範本建立記錄型別
 
@@ -209,7 +209,7 @@ After permssions - replace the table with:
 
    依預設，下列欄位會顯示在作業記錄型別的表格檢視欄中：
 
-   * 名稱
+   * 姓名
 
      「名稱」欄位是唯一自動為分類建立的欄位。
    * 說明

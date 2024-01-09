@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: ec48db42-2395-4439-97ae-e4f5242170b7
-source-git-commit: 6f026590f0030b564f0d110afead9ade1acd7896
+source-git-commit: 74db651f8865965f943bc89e58e7130cffe0c450
 workflow-type: tm+mt
-source-wordcount: '406'
+source-wordcount: '403'
 ht-degree: 0%
 
 ---
@@ -46,7 +46,7 @@ recommendations: noDisplay, noCatalog
 ## 有關刪除主要欄位的考量事項：
 
 * 您只能在記錄型別表格檢視中刪除欄位。
-* 您可以刪除您建立的欄位或其他使用者或系統建立的欄位。 <!--this will change with access levels/ permissions-->
+* 您可以刪除您建立的欄位或其他使用者或系統建立的欄位。 <!--this will change to: take this out with permissions - it's in the table! -->
 * 您無法刪除記錄的主要欄位。
 * 儲存在欄位中的任何資訊都會被刪除且無法復原。
 * 當您刪除連結的記錄欄位時，所有連結的查閱欄位也會從您連結的記錄型別中刪除。 您連結到的記錄型別的連結記錄欄位不會被刪除。
@@ -91,7 +91,7 @@ recommendations: noDisplay, noCatalog
   </tr>
 <tr>
    <td role="rowheader">版面配置範本</td>
-   <td> <p>您的系統管理員必須在您的版面配置範本中新增Maestro區域。 如需詳細資訊，請參閱 <a href="../access/grant-access.md">授與Adobe大師的存取權</a>. </p>  
+   <td> <p>您的系統管理員必須在您的版面配置範本中新增Maestro區域。 如需詳細資訊，請參閱 <a href="../access/access-overview.md">存取權總覽</a>. </p>  
 </td>
   </tr>
  </tbody>
@@ -138,7 +138,7 @@ After permssions - replace the table with:
   </tr>
 <tr>
    <td role="rowheader"><p>Layout template</p></td>
-   <td> <p>Your Workfront or group administrator must add the Maestro area in your layout template. For information, see <a href="../access/grant-access.md">Grant access to Adobe Maestro</a>. </p>  
+   <td> <p>Your Workfront or group administrator must add the Maestro area in your layout template. For information, see <a href="../access/access-overview.md">Access overview</a>. </p>  
 </td>
   </tr>
 <tr>

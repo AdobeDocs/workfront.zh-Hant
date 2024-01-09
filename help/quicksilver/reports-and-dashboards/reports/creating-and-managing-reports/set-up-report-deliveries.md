@@ -6,9 +6,9 @@ description: 報表傳送概覽
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 1637df59-ca1d-4cf6-b83d-2b27936cdb96
-source-git-commit: 0da724e975cfb1f0f7e36cffdc545c6223a14a76
+source-git-commit: 8d89bb511ac28905f5f0043cd0cda7d61611fad3
 workflow-type: tm+mt
-source-wordcount: '1532'
+source-wordcount: '1531'
 ht-degree: 0%
 
 ---
@@ -101,7 +101,7 @@ ht-degree: 0%
 
 當您將特殊檢視套用至報表時，特殊檢視會顯示在Workfront中報表的詳細資訊索引標籤中。
 
-當您排程具有特殊檢視的報告傳送時，預設的「詳細資訊」索引標籤會傳送在已傳送電子郵件的附件中，而不是在特殊檢視中。
+當您排程具有特殊檢視的報告傳送時，詳細資訊索引標籤會傳送在已傳送電子郵件的附件中，而不是在特殊檢視中。
 
 下列是特殊檢視：
 

@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 0da724e975cfb1f0f7e36cffdc545c6223a14a76
+source-git-commit: 50e6b09d626325ee2836dc0ebaf79fc1e8cc9da9
 workflow-type: tm+mt
 source-wordcount: '2942'
 ht-degree: 0%
@@ -42,25 +42,27 @@ ht-degree: 0%
 >
 >在功能發行至生產環境後的某個時間，將可使用以下各節中參考的檔案。
 
-<!--## Week of January 8, 2024
+<!--## Week of January 15, 2024
 
 ### Maestro capabilities are removed from the Preview and Sandbox environments 
 
-Preview and sandbox: <Date here> 
+Preview and sandbox: <***Date here****> 
 
 The Maestro area and all the capabilities have been temporarily removed from the Preview and Sandbox environments. Maestro will be added to these environments at a later date which we will communicate in the near future.  
 
 (************ALSO SEE IMPORTANT NOTE ABOVE IN THE MAIN INTRO AREA - UNHIDE IT************)
 
-### Maestro permissions for users and groups
+### Maestro permissions for workspaces and views
 
 Production: <****date here****>
 
-You can now share a workspace with users and groups. You can set their permissions to different levels, depending on what information they need to view or edit in a Maestro workspace. After you share permissions to a workspace, users have permissions to the record types, records, and fields in that space.
+You can now share a workspace or a view with users and groups. You can set their permissions to different levels, depending on what information they need to view or edit. 
+
+When you share a workspace, users have permissions to the record types, records, and fields in that space.
+
+When you share a workspace, users don't receive sharing permissions on the views associated with the record types of the workspace. You must grant separate permissions to views. 
 
 The following are the permissions levels for Maestro workspaces:  
-
-* None: Users cannot access any workspaces in Maestro, even if the Maestro area is shared with them through a layout template. 
 
 * View: Users can view workspaces that are shared with them. They can also view record types, and records from the shared workspace. 
 
@@ -68,9 +70,28 @@ The following are the permissions levels for Maestro workspaces:
 
 * Manage: Users can create, edit, and delete workspaces, record types, records, and fields in workspaces that are shared with them.   
 
-Only Workfront administrators can create, edit, or delete all workspaces, including those that they did not create. All other users can create, edit, or delete workspaces they created or that they have Manage permissions to. 
+The following are the permissions levels for record type views:
 
-For more information, see [Grant access to Adobe Maestro](../maestro/access/grant-access.md) and [Overview of sharing permissions in Adobe Maestro](../maestro/access/sharing-permissions-overview.md).
+* View: Users can select the view from the View drop-down menu of a record type.
+* Manage: Users can edit, share, and delete the view. 
+
+For more information, see [Access overview](/help/quicksilver/maestro/access/access-overview.md) and [Overview of sharing permissions in Adobe Maestro](../maestro/access/sharing-permissions-overview.md).
+
+### New Formula field type (title) 
+
+Production: <*******date**********> 
+
+Preview: To be determined 
+
+You can now add a Formula type field to a record type.  
+
+Formula fields generate a new value using existing values from other fields in a record type and a function that indicates how the existing values should be calculated. 
+
+You cannot use lookup fields from linked record types in a formula calculation.  
+
+For information, see [Formula fields overview](/help/quicksilver/maestro/fields/formula-fields.md).  
+
+
 
 -->
 

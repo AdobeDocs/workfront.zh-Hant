@@ -4,16 +4,19 @@ description: 在Adobe大師，您可以建立公式欄位，這些欄位使用�
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: edd4aa9556b624de3634af26d6d9efd59f5d2e44
+source-git-commit: 74db651f8865965f943bc89e58e7130cffe0c450
 workflow-type: tm+mt
-source-wordcount: '301'
-ht-degree: 1%
+source-wordcount: '453'
+ht-degree: 0%
 
 ---
 
+
+# 公式欄位概觀
+
 <!--update the metadata with real information when making this available in TOC and in the left nav - below-->
 
-<!--**********ADD TO TOC************>
+<!--**********ADD TO miniTOC************>
 
 <!---
 title: Formula fields
@@ -26,7 +29,7 @@ role: User, Administrator (************is this right???************)
 recommendations: noDisplay, noCatalog
 --->
 
-# 公式欄位概觀
+<!--when we release permissions to RECORDS and we release referring lookup fields in a formula field, update considerations to say that lookup fields from linked records depends on the permissions to the record; if they have no permissions to view a linked record, they won't be able to use that records's lookup fields in a formula-->
 
 >[!IMPORTANT]
 >
@@ -81,7 +84,7 @@ recommendations: noDisplay, noCatalog
   </tr>
 <tr>
    <td role="rowheader">版面配置範本</td>
-   <td> <p>您的系統管理員必須在您的版面配置範本中新增Maestro區域。 如需詳細資訊，請參閱 <a href="../access/grant-access.md">授與Adobe大師的存取權</a>. </p>  
+   <td> <p>您的系統管理員必須在您的版面配置範本中新增Maestro區域。 如需詳細資訊，請參閱 <a href="../access/access-overview.md">存取權總覽</a>. </p>  
 </td>
   </tr>
  </tbody>
@@ -132,7 +135,7 @@ After permssions - replace the table with:
   </tr>
 <tr>
    <td role="rowheader"><p>Layout template</p></td>
-   <td> <p>Your Workfront or group administrator must add the Maestro area in your layout template. For information, see <a href="../access/grant-access.md">Grant access to Adobe Maestro</a>. </p>  
+   <td> <p>Your Workfront or group administrator must add the Maestro area in your layout template. For information, see <a href="../access/access-overview.md">Access overview</a>. </p>  
 </td>
   </tr>
 <tr>
@@ -151,11 +154,64 @@ After permssions - replace the table with:
 * 公式欄位參考屬於相同記錄型別的欄位。 建立公式欄位時，您無法參考其他記錄型別的欄位。 <!--is this still accurate??-->
 * 儲存公式欄位後，您無法變更其欄位型別。
 * 儲存公式欄位後，您可以更新公式欄位的計算，而計算結果會自動更新相同型別的所有記錄。
+* 您無法使用來自連結記錄型別的查詢欄位。
+* 當公式中的欄位顯示在Maestro介面時，您必須新增您在公式中參考的欄位。
+
+## 支援的公式
+
+我們支援Workfront計算欄位中的所有公式。 如需詳細資訊，請參閱 [計算資料運算式的概觀](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
+
+此外，我們為Maestro公式欄位支援下列運算式：
 
 
-<!--
-## The syntax of Maestro formula fields
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <thead> 
+  <tr> 
+   <th>運算式</th> 
+   <th>說明和範例</th> 
+  </tr> 
+ </thead> 
+ <tbody>
 
-## Functions supported in Maestro formula fields - I think this should be its own article, but link from here. 
+<tr> 
+   <td><strong>ARRAYJOIN</strong> </td> 
+   <td> <p>傳回依分隔字元的串連字串。</p> <p>運算式的格式如下：
 
--->
+    ARRAYJOIN（分隔字元，陣列）
+</p>
+   </td></tr>
+
+<tr> 
+   <td><strong>ARRAYUNIQUE</strong> </td> 
+   <td> <p>傳回具有唯一值的陣列。</p> <p>運算式的格式如下：
+
+    ARRAYUNIQUE（陣列）
+</p>
+   </td></tr>
+
+<tr> 
+   <td><strong>SETTIMEZONE</strong> </td> 
+   <td> <p>將日期和時間的時區設定為特定時區。</p> <p>運算式的格式如下：
+
+    SETTIMEZONE（日期，&#39;美洲/洛杉磯&#39;）
+</p>
+   </td></tr>
+
+<tr> 
+   <td><strong>WEEKOFYEAR</strong> </td> 
+   <td> <p>傳回一年中的周數。您可以選擇是否指定一週從哪一天開始（使用1代表星期日，或2代表星期一）。 如果省略，周從星期日開始（預設）。</p> <p>運算式的格式如下：
+
+    WEEKOFYEAR（日期，2）
+    或
+    WEEKOFYEAR（日期）
+</p>
+   </td></tr>
+
+</table>
+
+
+
+
+
