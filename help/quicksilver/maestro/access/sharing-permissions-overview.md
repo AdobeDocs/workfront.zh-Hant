@@ -1,14 +1,14 @@
 ---
 title: 在Adobe Maestro中共用許可權概觀
-description: 您可以共用或移除您所建立之AdobeMaestro工作區的許可權。
+description: 您可以共用或移除Adobe大師工作區或檢視的許可權。
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 el-id: 698036a6-b3b4-44a9-91ee-63fdb6a646a1
-source-git-commit: fda35538234593b66b01f9e0cc0dafd6a63a84dc
+source-git-commit: 3c49657c929c414888e6678022ef61b1bba1a420
 workflow-type: tm+mt
-source-wordcount: '400'
-ht-degree: 4%
+source-wordcount: '474'
+ht-degree: 8%
 
 ---
 
@@ -30,7 +30,15 @@ ht-degree: 4%
 >
 >如需詳細資訊，請參閱 [Adobe大師概觀](../maestro-overview.md).
 
-您可以共用或移除您所建立之AdobeMaestro工作區的許可權。
+您可以共用或移除Adobe大師工作區或檢視的許可權。
+
+本文說明Maestro物件的許可權層級。
+
+如需有關如何共用工作區或檢視的資訊，請參閱下列文章：
+
+* [共用工作區](/help/quicksilver/maestro/access/share-workspaces.md)
+
+* [共用檢視](/help/quicksilver/maestro/access/share-views.md)
 
 ## 您可以在Adobe大師中共用的物件
 
@@ -48,6 +56,8 @@ ht-degree: 4%
 
    * 新的定價模式：標準授權
    * 目前的定價模式：工作或更高授權
+
+  如需詳細資訊，請參閱 [Workfront檔案中的存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)
 * 系統管理員可以管理和共用其他使用者建立的工作區。
 * 如果您不是系統管理員，且其他人建立的工作區已共用給您，您就可以為其貢獻內容。
 * 您無法大量共用工作區。
@@ -58,48 +68,95 @@ ht-degree: 4%
 
 ## 共用Maestro物件的許可權
 
-下表說明在共用Maestro工作區或檢視時，您可以選取的許可權等級：
+以下各節中的表格說明在共用Maestro工作區或檢視時可以選取的許可權層級，以及每個層級允許的功能。
 
+### 工作區許可權
+
+|        | 管理 | 參與 | 檢視 |
+|--------|--------|------------|-------|
+| 編輯 | ✓ (A) |            |       |
+| 共用 | ✓ (A) |            |       |
+| 刪除 | ✓ (A) |            |       |
+| 檢視 | ✓ (A) | ✓ (A) | ✓ (A) |
+
+### 記錄型別許可權
+
+當您授予工作區許可權時，會繼承記錄型別許可權。
+
+|        | 管理 | 參與 | 檢視 |
+|--------|--------|------------|-------|
+| 建立 | ✓ (A) |            |       |
+| 刪除 | ✓ (A) |            |       |
+| 編輯 | ✓ (A) |            |       |
+| 檢視 | ✓ (A) | ✓ (A) | ✓ (A) |
+
+### 記錄許可權
+
+當您授予工作區許可權時，會繼承記錄許可權。
+
+|        | 管理 | 參與 | 檢視 |
+|--------|--------|------------|-------|
+| 建立 | ✓ (A) |            |       |
+| 刪除 | ✓ (A) | ✓ (A) |       |
+| 編輯 | ✓ (A) | ✓ (A) |       |
+| 檢視 | ✓ (A) | ✓ (A) | ✓ (A) |
+
+### 欄位許可權
+
+當您授與工作區許可權時，會繼承欄位許可權。
+以下許可權是指欄位本身，而不是與每個欄位關聯的值。 若要編輯欄位值，您必須擁有編輯記錄的許可權。
+
+|        | 管理 | 參與 | 檢視 |
+|--------|--------|------------|-------|
+| 建立 | ✓ (A) |            |       |
+| 刪除 | ✓ (A) |            |       |
+| 編輯 | ✓ (A) |            |       |
+| 檢視 | ✓ (A) | ✓ (A) | ✓ (A) |
+
+
+### 檢視許可權
+
+您必須授予個別許可權才能記錄檢視。 授予工作區許可權不會授予工作區中記錄檢視的許可權。
+
+|        | 管理 | 檢視 |
+|--------|--------|-------|
+| 編輯 | ✓ (A) |       |
+| 刪除 | ✓ (A) |       |
+| 檢視 | ✓ (A) | ✓ (A) |
+| 套用 | ✓ (A) | ✓ (A) |
+
+
+
+
+<!--
 <table>
   <tr>
+   
 
-
-</td>
-  </tr>
-  <tr>
-   <td>
-   </td>
-   <td>
-   </td>
-   <td><p><b>新增：標準授權</b></p> <p><b>目前：工作者或以上授權</b></p></strong>
-   </td>
-   <td><strong>管理許可權</strong>
-   </td>
-   <td><strong>Contribute許可權</strong>
-   </td>
-   <td><strong>檢視許可權</strong>
    </td>
   </tr>
   <tr>
-   <td><strong>建立</strong>
-   </td>
-   <td rowspan="5" ><strong>工作區</strong>
-   </td>
-   <td>✓ (A)
-   </td>
-   <td>✓ (A)
-   </td>
    <td>
    </td>
    <td>
+   </td>
+   <td><p><b>New: Standard license</b></p> <p><b>Current: Worker or higher license</b></p></strong>
+   </td>
+   <td><strong>Manage permissions</strong>
+   </td>
+   <td><strong>Contribute permissions</strong>
+   </td>
+   <td><strong>View permissions</strong>
    </td>
   </tr>
   <tr>
-   <td><strong>刪除</strong>
+   <td><strong>Create</strong>
    </td>
-   <td>✓ (A)
+   <td rowspan="5" ><strong>Workspace</strong>
    </td>
-   <td>✓ (A)
+   <td>✓
+   </td>
+   <td>✓
    </td>
    <td>
    </td>
@@ -107,23 +164,11 @@ ht-degree: 4%
    </td>
   </tr>
   <tr>
-   <td><strong>共用</strong>
+   <td><strong>Delete</strong>
    </td>
-   <td>✓ (A)
+   <td>✓
    </td>
-   <td>✓ (A)
-   </td>
-   <td>
-   </td>
-   <td>
-   </td>
-  </tr>
-  <tr>
-   <td><strong>編輯</strong>
-   </td>
-   <td>✓ (A)
-   </td>
-   <td>✓ (A)
+   <td>✓
    </td>
    <td>
    </td>
@@ -131,25 +176,11 @@ ht-degree: 4%
    </td>
   </tr>
   <tr>
-   <td><strong>檢視</strong>
+   <td><strong>Share</strong>
    </td>
-   <td>✓ (A)
+   <td>✓
    </td>
-   <td>✓ (A)
-   </td>
-   <td>✓ (A)
-   </td>
-   <td>✓ (A)
-   </td>
-  </tr>
-  <tr>
-   <td><strong>建立/刪除</strong>
-   </td>
-   <td rowspan="3" ><strong>記錄型別*</strong>
-   </td>
-   <td>✓ (A)
-   </td>
-   <td>✓ (A)
+   <td>✓
    </td>
    <td>
    </td>
@@ -157,11 +188,37 @@ ht-degree: 4%
    </td>
   </tr>
   <tr>
-   <td><strong>編輯</strong>
+   <td><strong>Edit</strong>
    </td>
-   <td>✓ (A)
+   <td>✓
    </td>
-   <td>✓ (A)
+   <td>✓
+   </td>
+   <td>
+   </td>
+   <td>
+   </td>
+  </tr>
+  <tr>
+   <td><strong>View</strong>
+   </td>
+   <td>✓
+   </td>
+   <td>✓
+   </td>
+   <td>✓
+   </td>
+   <td>✓
+   </td>
+  </tr>
+  <tr>
+   <td><strong>Create/delete</strong>
+   </td>
+   <td rowspan="3" ><strong>Record Type*</strong>
+   </td>
+   <td>✓
+   </td>
+   <td>✓
    </td>
    <td>
    </td>
@@ -169,76 +226,76 @@ ht-degree: 4%
    </td>
   </tr>
   <tr>
-   <td><strong>檢視</strong>
+   <td><strong>Edit</strong>
    </td>
-   <td>✓ (A)
+   <td>✓
    </td>
-   <td>✓ (A)
+   <td>✓
    </td>
-   <td>✓ (A)
-   </td>
-   <td>✓ (A)
-   </td>
-  </tr>
-  <tr>
-   <td><strong>建立/刪除</strong>
-   </td>
-   <td rowspan="3" ><strong>記錄*</strong>
-   </td>
-   <td>✓ (A)
-   </td>
-   <td>✓ (A)
-   </td>
-   <td>✓ (A)
+   <td>
    </td>
    <td>
    </td>
   </tr>
   <tr>
-   <td><strong>編輯</strong>
+   <td><strong>View</strong>
    </td>
-   <td>✓ (A)
+   <td>✓
    </td>
-   <td>✓ (A)
+   <td>✓
    </td>
-   <td>✓ (A)
+   <td>✓
+   </td>
+   <td>✓
+   </td>
+  </tr>
+  <tr>
+   <td><strong>Create/delete</strong>
+   </td>
+   <td rowspan="3" ><strong>Record*</strong>
+   </td>
+   <td>✓
+   </td>
+   <td>✓
+   </td>
+   <td>✓
    </td>
    <td>
    </td>
   </tr>
   <tr>
-   <td><strong>檢視</strong>
+   <td><strong>Edit</strong>
    </td>
-   <td>✓ (A)
+   <td>✓
    </td>
-   <td>✓ (A)
+   <td>✓
    </td>
-   <td>✓ (A)
+   <td>✓
    </td>
-   <td>✓ (A)
+   <td>
+   </td>
+  </tr>
+  <tr>
+   <td><strong>View</strong>
+   </td>
+   <td>✓
+   </td>
+   <td>✓
+   </td>
+   <td>✓
+   </td>
+   <td>✓
    </td>
   </tr>
   <tr>
    <tr>
-   <td><strong>建立</strong>
+   <td><strong>Create</strong>
    </td>
-   <td rowspan="5" ><strong>檢視</strong>
+   <td rowspan="5" ><strong>View</strong>
    </td>
-   <td>✓ (A)
+   <td>✓
    </td>
-   <td>✓ (A)
-   </td>
-   <td>
-   </td>
-   <td>
-   </td>
-  </tr>
-  <tr>
-   <td><strong>刪除</strong>
-   </td>
-   <td>✓ (A)
-   </td>
-   <td>✓ (A)
+   <td>✓
    </td>
    <td>
    </td>
@@ -246,23 +303,11 @@ ht-degree: 4%
    </td>
   </tr>
   <tr>
-   <td><strong>共用</strong>
+   <td><strong>Delete</strong>
    </td>
-   <td>✓ (A)
+   <td>✓
    </td>
-   <td>✓ (A)
-   </td>
-   <td>
-   </td>
-   <td>
-   </td>
-  </tr>
-  <tr>
-   <td><strong>編輯</strong>
-   </td>
-   <td>✓ (A)
-   </td>
-   <td>✓ (A)
+   <td>✓
    </td>
    <td>
    </td>
@@ -270,54 +315,78 @@ ht-degree: 4%
    </td>
   </tr>
   <tr>
-   <td><strong>檢視</strong>
+   <td><strong>Share</strong>
    </td>
-   <td>✓ (A)
+   <td>✓
    </td>
-   <td>✓ (A)
+   <td>✓
    </td>
    <td>
    </td>
-   <td>✓ (A)
+   <td>
+   </td>
+  </tr>
+  <tr>
+   <td><strong>Edit</strong>
+   </td>
+   <td>✓
+   </td>
+   <td>✓
+   </td>
+   <td>
+   </td>
+   <td>
+   </td>
+  </tr>
+  <tr>
+   <td><strong>View</strong>
+   </td>
+   <td>✓
+   </td>
+   <td>✓
+   </td>
+   <td>
+   </td>
+   <td>✓
    </td>
   </tr>
 
 <tr>
-   <td><strong>建立/刪除</strong>
+   <td><strong>Create/delete</strong>
    </td>
-   <td rowspan="3" ><strong>欄位*</strong>
+   <td rowspan="3" ><strong>Fields*</strong>
    </td>
-   <td>✓ (A)
+   <td>✓
    </td>
-   <td>✓ (A)
+   <td>✓
    </td>
-   <td>✓ (A)
-   </td>
-   <td>
-   </td>
-  </tr>
-  <tr>
-   <td><strong>編輯</strong>
-   </td>
-   <td>✓ (A)
-   </td>
-   <td>✓ (A)
-   </td>
-   <td>
+   <td>✓
    </td>
    <td>
    </td>
   </tr>
   <tr>
-   <td><strong>檢視</strong>
+   <td><strong>Edit</strong>
    </td>
-   <td>✓ (A)
+   <td>✓
    </td>
-   <td>✓ (A)
+   <td>✓
    </td>
-   <td>✓ (A)
+   <td>
    </td>
-   <td>✓ (A)
+   <td>
+   </td>
+  </tr>
+  <tr>
+   <td><strong>View</strong>
+   </td>
+   <td>✓
+   </td>
+   <td>✓
+   </td>
+   <td>✓
+   </td>
+   <td>✓
    </td>
   </tr>
 
@@ -325,11 +394,7 @@ ht-degree: 4%
 
 </table>
 
-*記錄型別、記錄和欄位繼承來自工作區的許可權。
+*Record types, records, and fields inherit permissions from the Workspace. -->
 
-如需有關在Maestro中存取的一般資訊，請參閱 [在Adobe Maestro中共用許可權概觀](../access/sharing-permissions-overview.md).
 
-如需共用工作區的詳細資訊，請參閱 [共用工作區](/help/quicksilver/maestro/access/share-workspaces.md).
-
-如需關於共用檢視的資訊，請參閱 [共用檢視](/help/quicksilver/maestro/access/share-views.md)
 

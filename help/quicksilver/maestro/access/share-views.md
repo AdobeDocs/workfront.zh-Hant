@@ -4,9 +4,9 @@ description: 在Adobe Workfront Maestro中工作時，您可以與其他人共�
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: f92fe2fc35cb810c4d52535151a75fe6c3f22f0e
+source-git-commit: 3c49657c929c414888e6678022ef61b1bba1a420
 workflow-type: tm+mt
-source-wordcount: '391'
+source-wordcount: '421'
 ht-degree: 1%
 
 ---
@@ -83,14 +83,14 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->系統管理員無法檢視或共用他們未自行建立的檢視。
+>系統管理員無法檢視或共用他們未自行建立的檢視。 他們只能檢視或共用與他們共用的檢視。
 
 
-要與其他人共用工作區：
+若要與其他人共用檢視：
 
 {{step1-to-maestro}}
 
-1. 開啟您要共用的工作區，然後按一下「記錄型別」卡片。
+1. 開啟您要共用其檢視的工作區，然後按一下「記錄型別」卡片。
 
    這會開啟記錄型別頁面。
 
@@ -98,7 +98,7 @@ ht-degree: 1%
 
    ![](assets/more-menu-for-views-expanded-with-share-option.png)
 
-1. 在 **將工作區存取權授予** 欄位，開始輸入使用者或群組的名稱，然後在其顯示在清單中時按一下它。
+1. 在 **授予檢視存取許可權至** 欄位，開始輸入使用者或群組的名稱，然後在其顯示在清單中時按一下它。
 
    ![](assets/sharing-a-view-ui-with-groups.png)
 
@@ -117,13 +117,13 @@ ht-degree: 1%
 
 {{step1-to-maestro}}
 
-1. 開啟您要共用的工作區，然後按一下「記錄型別」卡片。
+1. 開啟您要共用其檢視的工作區，然後按一下「記錄型別」卡片。
 
    這會開啟記錄型別頁面。
 
 1. 從檢視下拉式功能表中，暫留在您要共用的檢視上，然後按一下 **更多** 功能表 ![](assets/more-menu.png) 檢視名稱右側，然後按一下 **共用**.
 
-1. 尋找您要移除的使用者或群組，然後按一下 **移除**.
+1. 尋找您要移除的使用者或群組，然後按一下 **移除** 在使用者或群組名稱右側的「許可權」下拉式功能表中。
 
 1. 按一下「**儲存**」。
 

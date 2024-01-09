@@ -4,9 +4,9 @@ description: 在Adobe大師，您可以建立公式欄位，這些欄位使用�
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 74db651f8865965f943bc89e58e7130cffe0c450
+source-git-commit: 3c49657c929c414888e6678022ef61b1bba1a420
 workflow-type: tm+mt
-source-wordcount: '453'
+source-wordcount: '461'
 ht-degree: 0%
 
 ---
@@ -154,8 +154,8 @@ After permssions - replace the table with:
 * 公式欄位參考屬於相同記錄型別的欄位。 建立公式欄位時，您無法參考其他記錄型別的欄位。 <!--is this still accurate??-->
 * 儲存公式欄位後，您無法變更其欄位型別。
 * 儲存公式欄位後，您可以更新公式欄位的計算，而計算結果會自動更新相同型別的所有記錄。
-* 您無法使用來自連結記錄型別的查詢欄位。
 * 當公式中的欄位顯示在Maestro介面時，您必須新增您在公式中參考的欄位。
+* 在公式中使用連結記錄型別的查詢欄位將在稍後提供。
 
 ## 支援的公式
 
