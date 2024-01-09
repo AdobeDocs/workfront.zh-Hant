@@ -9,10 +9,10 @@ description: 您可以使用Adobe Workfront Fusion Adobe Workfront聯結器在Wo
 author: Becky
 feature: Workfront Fusion, Workfront Integrations and Apps
 exl-id: b84d2d41-a983-4ea3-b331-0302bfcf8a2b
-source-git-commit: 0810f2db8ef85b73de591649712580f23b72b5af
+source-git-commit: 37fd436070b435ebf3d042789bd385dc6a6108cc
 workflow-type: tm+mt
-source-wordcount: '5468'
-ht-degree: 3%
+source-wordcount: '5799'
+ht-degree: 2%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 3%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 計劃*</td>
+   <td role="rowheader">[!DNL Adobe Workfront] 計畫*</td>
   <td> <p>[！UICONTROL Pro]或更高版本</p> </td>
   </tr> 
   <tr data-mc-conditions=""> 
@@ -73,7 +73,7 @@ ht-degree: 3%
 您可以建立與您的電腦的連線， [!DNL Workfront] 直接從a內的帳戶 [!DNL Workfront Fusion] 模組。
 
 1. 在任何 [!DNL Workfront] 應用程式模組，按一下 **[!UICONTROL 新增]** 在 [!UICONTROL 連線] 方塊。
-1. 在URL中輸入執行個體的名稱。 範例: `https://<your instance>.my.workfront.com`.
+1. 在URL中輸入執行個體的名稱。 範例： `https://<your instance>.my.workfront.com`.
 1. 按一下 **[!UICONTROL 下一個]**.
 1. 按一下 **[!UICONTROL SAML登入]** 以建立連線並返回模組。
 
@@ -160,7 +160,7 @@ ht-degree: 3%
 
 如需詳細資訊，請參閱區段 [事件裝載範例](../../wf-api/general/event-subs-api.md#examples-of-event-payloads) 在 [!DNL Workfront] 說明文章 [事件訂閱API](../../wf-api/general/event-subs-api.md).
 
-檢視 [!DNL Workfront] 您可在其中使用此模組的物件型別 [[!DNL Workfront] object types available for each [!DNL Workfront] 模組](#workfront-object-types-available-for-each-workfront-module).
+檢視 [!DNL Workfront] 您可在其中使用此模組的物件型別 [[!DNL Workfront] 每個專案可用的物件型別 [!DNL Workfront] 模組](#workfront-object-types-available-for-each-workfront-module).
 
 +++
 
@@ -197,7 +197,7 @@ ht-degree: 3%
  </tbody> 
 </table>
 
-檢視 [!DNL Workfront] 您可在其中使用此模組的物件型別 [[!DNL Workfront] object types available for each [!DNL Workfront] 模組](#workfront-object-types-available-for-each-workfront-module).
+檢視 [!DNL Workfront] 您可在其中使用此模組的物件型別 [[!DNL Workfront] 每個專案可用的物件型別 [!DNL Workfront] 模組](#workfront-object-types-available-for-each-workfront-module).
 
 +++
 
@@ -240,7 +240,7 @@ ht-degree: 3%
  </tbody> 
 </table>
 
-檢視 [!DNL Workfront] 您可在其中使用此模組的物件型別 [[!DNL Workfront] object types available for each [!DNL Workfront] 模組](#workfront-object-types-available-for-each-workfront-module).
+檢視 [!DNL Workfront] 您可在其中使用此模組的物件型別 [[!DNL Workfront] 每個專案可用的物件型別 [!DNL Workfront] 模組](#workfront-object-types-available-for-each-workfront-module).
 
 +++
 
@@ -344,7 +344,7 @@ ht-degree: 3%
  </tbody> 
 </table>
 
-檢視 [!DNL Workfront] 您可在其中使用此模組的物件型別 [[!DNL Workfront] object types available for each [!DNL Workfront] 模組](#workfront-object-types-available-for-each-workfront-module).
+檢視 [!DNL Workfront] 您可在其中使用此模組的物件型別 [[!DNL Workfront] 每個專案可用的物件型別 [!DNL Workfront] 模組](#workfront-object-types-available-for-each-workfront-module).
 
 >[!NOTE]
 >
@@ -391,7 +391,7 @@ ht-degree: 3%
  </tbody> 
 </table>
 
-檢視 [!DNL Workfront] 您可在其中使用此模組的物件型別 [[!DNL Workfront] object types available for each [!DNL Workfront] 模組](#workfront-object-types-available-for-each-workfront-module).
+檢視 [!DNL Workfront] 您可在其中使用此模組的物件型別 [[!DNL Workfront] 每個專案可用的物件型別 [!DNL Workfront] 模組](#workfront-object-types-available-for-each-workfront-module).
 
 >[!NOTE]
 >
@@ -450,7 +450,7 @@ ht-degree: 3%
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL Body]</td> 
-   <td> <p>以標準JSON物件的形式新增API呼叫的內文內容。</p> <p>備註:  <p>使用條件陳述式時，例如 <code>if</code> 在JSON中，將引號放在條件陳述式之外。</p> 
+   <td> <p>以標準JSON物件的形式新增API呼叫的內文內容。</p> <p>注意：  <p>使用條件陳述式時，例如 <code>if</code> 在JSON中，將引號放在條件陳述式之外。</p> 
      <div class="example" data-mc-autonum="<b>Example: </b>"> 
       <p> <img src="assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
      </div> </p> </td> 
@@ -458,7 +458,7 @@ ht-degree: 3%
  </tbody> 
 </table>
 
-檢視 [!DNL Workfront] 您可在其中使用此模組的物件型別 [[!DNL Workfront] object types available for each [!DNL Workfront] 模組](#workfront-object-types-available-for-each-workfront-module).
+檢視 [!DNL Workfront] 您可在其中使用此模組的物件型別 [[!DNL Workfront] 每個專案可用的物件型別 [!DNL Workfront] 模組](#workfront-object-types-available-for-each-workfront-module).
 
 +++
 
@@ -495,7 +495,7 @@ ht-degree: 3%
  </tbody> 
 </table>
 
-檢視 [!DNL Workfront] 您可在其中使用此模組的物件型別 [[!DNL Workfront] object types available for each [!DNL Workfront] 模組](#workfront-object-types-available-for-each-workfront-module).
+檢視 [!DNL Workfront] 您可在其中使用此模組的物件型別 [[!DNL Workfront] 每個專案可用的物件型別 [!DNL Workfront] 模組](#workfront-object-types-available-for-each-workfront-module).
 
 >[!NOTE]
 >
@@ -507,7 +507,7 @@ ht-degree: 3%
 
 +++
 
-+++ **[!UICONTROL 下載文件]**
++++ **[!UICONTROL 下載檔案]**
 
 此動作模組會從Workfront下載檔案。
 
@@ -532,7 +532,7 @@ ht-degree: 3%
  </tbody> 
 </table>
 
-檢視 [!DNL Workfront] 您可在其中使用此模組的物件型別 [[!DNL Workfront] object types available for each [!DNL Workfront] 模組](#workfront-object-types-available-for-each-workfront-module).
+檢視 [!DNL Workfront] 您可在其中使用此模組的物件型別 [[!DNL Workfront] 每個專案可用的物件型別 [!DNL Workfront] 模組](#workfront-object-types-available-for-each-workfront-module).
 
 +++
 
@@ -556,7 +556,7 @@ ht-degree: 3%
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[！UICONTROL動作]</td> 
-   <td> <p>選取您希望模組執行的動作。</p> <p>視您選擇的[！UICONTROL記錄型別]和[！UICONTROL動作]而定，您可能需要填寫其他欄位。 這兩個設定的某些組合可能只需要記錄ID，而其他設定(例如的Project <strong>[！UICONTROL記錄型別]</strong> 和[！UICONTROL附加範本] <strong>[！UICONTROL動作]</strong>)需要其他資訊（例如物件ID和範本ID）。</p> <p>如需個別欄位的詳細資訊，請參閱 <a href="http://developer.workfront.com/">Workfront開發人員檔案</a>. </p> 
+   <td> <p>選取您希望模組執行的動作。</p> <p>視您選擇的[！UICONTROL記錄型別]和[！UICONTROL動作]而定，您可能需要填寫其他欄位。 這兩個設定的某些組合可能只需要記錄ID，而其他設定(例如的Project <strong>[！UICONTROL記錄型別]</strong> 和[！UICONTROL附加範本] <strong>[！UICONTROL動作]</strong>)需要其他資訊（例如物件ID和範本ID）。</p> <p>如需個別欄位的詳細資訊，請參閱 <a href="http://developer.workfront.com/">Workfront開發人員檔案</a>. <p><strong>注意</strong>：開發人員檔案網站僅包含透過API版本14的資訊，但仍包含API呼叫的重要資訊。 </p> 
     <ol> 
      <li value="1"> <p>從左側導覽選擇記錄型別 [!DNL Workfront] 開發人員檔案頁面。 下列型別有自己的頁面：</p> 
       <ul> 
@@ -568,7 +568,7 @@ ht-degree: 3%
       </ul> <p>對於所有其他記錄型別，請選取 <b>[！UICONTROL其他物件和端點]</b>，並在依字母順序排序的頁面上找到記錄型別。</p> </li> 
      <li value="2"> <p>在適當記錄型別的頁面上，搜尋動作（Ctrl-F或Cmd-F）。</p> </li> 
      <li value="3"> <p>檢視所選動作下可用欄位的說明。</p> </li> 
-    </ol> <p>備註:  <p>透過建立校訂時 [!DNL Workfront] [！UICONTROL雜湊動作]模組，最佳實務是在沒有任何進階選項的情況下建立校訂，然後使用 [!DNL Workfront Proof] SOAP API。</p> <p>有關使用建立校訂的詳細資訊 [!DNL Workfront] API （此模組使用），請參閱 <a href="../../wf-api/tips-tricks-and-troubleshooting/api-create-proof-options-json.md" class="MCXref xref">透過建立校訂時新增進階校訂選項 [!DNL Adobe Workfront] API</a></p> </p> </td> 
+    </ol> <p>注意：  <p>透過建立校訂時 [!DNL Workfront] [！UICONTROL雜湊動作]模組，最佳實務是在沒有任何進階選項的情況下建立校訂，然後使用 [!DNL Workfront Proof] SOAP API。</p> <p>有關使用建立校訂的詳細資訊 [!DNL Workfront] API （此模組使用），請參閱 <a href="../../wf-api/tips-tricks-and-troubleshooting/api-create-proof-options-json.md" class="MCXref xref">透過建立校訂時新增進階校訂選項 [!DNL Adobe Workfront] API</a></p> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[！UICONTROL ID]</td> 
@@ -577,7 +577,7 @@ ht-degree: 3%
  </tbody> 
 </table>
 
-檢視 [!DNL Workfront] 您可在其中使用此模組的物件型別 [[!DNL Workfront] object types available for each [!DNL Workfront] 模組](#workfront-object-types-available-for-each-workfront-module).
+檢視 [!DNL Workfront] 您可在其中使用此模組的物件型別 [[!DNL Workfront] 每個專案可用的物件型別 [!DNL Workfront] 模組](#workfront-object-types-available-for-each-workfront-module).
 
 +++
 
@@ -627,7 +627,7 @@ ht-degree: 3%
  </tbody> 
 </table>
 
-檢視 [!DNL Workfront] 您可在其中使用此模組的物件型別 [[!DNL Workfront] object types available for each [!DNL Workfront] 模組](#workfront-object-types-available-for-each-workfront-module).
+檢視 [!DNL Workfront] 您可在其中使用此模組的物件型別 [[!DNL Workfront] 每個專案可用的物件型別 [!DNL Workfront] 模組](#workfront-object-types-available-for-each-workfront-module).
 
 +++
 
@@ -666,7 +666,7 @@ ht-degree: 3%
  </tbody> 
 </table>
 
-檢視 [!DNL Workfront] 您可在其中使用此模組的物件型別 [[!DNL Workfront] object types available for each [!DNL Workfront] 模組](#workfront-object-types-available-for-each-workfront-module).
+檢視 [!DNL Workfront] 您可在其中使用此模組的物件型別 [[!DNL Workfront] 每個專案可用的物件型別 [!DNL Workfront] 模組](#workfront-object-types-available-for-each-workfront-module).
 
 >[!NOTE]
 >
@@ -711,7 +711,7 @@ ht-degree: 3%
  </tbody> 
 </table>
 
-檢視 [!DNL Workfront] 您可在其中使用此模組的物件型別 [[!DNL Workfront] object types available for each [!DNL Workfront] 模組](#workfront-object-types-available-for-each-workfront-module).
+檢視 [!DNL Workfront] 您可在其中使用此模組的物件型別 [[!DNL Workfront] 每個專案可用的物件型別 [!DNL Workfront] 模組](#workfront-object-types-available-for-each-workfront-module).
 
 +++
 
@@ -806,7 +806,7 @@ ht-degree: 3%
  </tbody> 
 </table>
 
-檢視 [!DNL Workfront] 您可在其中使用此模組的物件型別 [[!DNL Workfront] object types available for each [!DNL Workfront] 模組](#workfront-object-types-available-for-each-workfront-module).
+檢視 [!DNL Workfront] 您可在其中使用此模組的物件型別 [[!DNL Workfront] 每個專案可用的物件型別 [!DNL Workfront] 模組](#workfront-object-types-available-for-each-workfront-module).
 
 +++
 
@@ -841,68 +841,68 @@ ht-degree: 3%
   <tr> 
    <td>指派</td> 
    <td> </td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ (A)</td> 
+   <td>✓ (A)</td> 
   </tr> 
   <tr> 
    <td>基準線</td> 
-   <td>✓</td> 
+   <td>✓ (A)</td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td> 付費記錄 </td> 
-   <td>✓</td> 
+   <td>✓ (A)</td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td>帳單費率</td> 
+   <td>計費率</td> 
    <td> </td> 
-   <td>✓</td> 
+   <td>✓ (A)</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>公司</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ (A)</td> 
+   <td>✓ (A)</td> 
+   <td>✓ (A)</td> 
   </tr> 
   <tr> 
    <td>儀表板</td> 
    <td> </td> 
    <td> </td> 
-   <td>✓</td> 
+   <td>✓ (A)</td> 
   </tr> 
   <tr> 
    <td>文件</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ (A)</td> 
+   <td>✓ (A)</td> 
+   <td>✓ (A)</td> 
   </tr> 
   <tr> 
    <td>文件資料夾</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ (A)</td> 
+   <td>✓ (A)</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>文件要求</td> 
-   <td>✓</td> 
+   <td>✓ (A)</td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>文件版本</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ (A)</td> 
+   <td>✓ (A)</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>費用</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ (A)</td> 
+   <td>✓ (A)</td> 
+   <td>✓ (A)</td> 
   </tr> 
   <tr> 
    <td>費用類型</td> 
@@ -912,111 +912,111 @@ ht-degree: 3%
   </tr> 
   <tr> 
    <td>群組</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ (A)</td> 
+   <td>✓ (A)</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>小時</td> 
    <td> </td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ (A)</td> 
+   <td>✓ (A)</td> 
   </tr> 
   <tr> 
    <td>時數類型</td> 
    <td> </td> 
-   <td>✓</td> 
+   <td>✓ (A)</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>問題</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ (A)</td> 
+   <td>✓ (A)</td> 
+   <td>✓ (A)</td> 
   </tr> 
   <tr> 
    <td>反覆項目</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ (A)</td> 
+   <td>✓ (A)</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>職務角色</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ (A)</td> 
+   <td>✓ (A)</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>日誌輸入項目</td> 
-   <td>✓</td> 
+   <td>✓ (A)</td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>里程碑</td> 
    <td> </td> 
-   <td>✓</td> 
+   <td>✓ (A)</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>里程碑路徑</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ (A)</td> 
+   <td>✓ (A)</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>備註</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ (A)</td> 
+   <td>✓ (A)</td> 
+   <td>✓ (A)</td> 
   </tr> 
   <tr> 
    <td>附註標籤</td> 
    <td> </td> 
-   <td>✓</td> 
+   <td>✓ (A)</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>專案組合</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ (A)</td> 
+   <td>✓ (A)</td> 
+   <td>✓ (A)</td> 
   </tr> 
   <tr> 
    <td>方案</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ (A)</td> 
+   <td>✓ (A)</td> 
+   <td>✓ (A)</td> 
   </tr> 
   <tr> 
    <td>專案</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ (A)</td> 
+   <td>✓ (A)</td> 
+   <td>✓ (A)</td> 
   </tr> 
   <tr> 
    <td>專案使用者</td> 
    <td> </td> 
-   <td>✓</td> 
+   <td>✓ (A)</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>校訂核准</td> 
    <td> </td> 
    <td> </td> 
-   <td>✓</td> 
+   <td>✓ (A)</td> 
   </tr> 
   <tr> 
    <td>保留時間* </td> 
    <td> </td> 
-   <td>✓</td> 
+   <td>✓ (A)</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>報告</td> 
    <td> </td> 
    <td> </td> 
-   <td>✓</td> 
+   <td>✓ (A)</td> 
   </tr> 
   <tr> 
    <td>風險</td> 
@@ -1033,44 +1033,44 @@ ht-degree: 3%
   <tr> 
    <td>步驟核准者</td> 
    <td> </td> 
-   <td>✓</td> 
+   <td>✓ (A)</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>任務</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ (A)</td> 
+   <td>✓ (A)</td> 
+   <td>✓ (A)</td> 
   </tr> 
   <tr> 
    <td>團隊</td> 
    <td> </td> 
-   <td>✓</td> 
+   <td>✓ (A)</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>範本</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ (A)</td> 
+   <td>✓ (A)</td> 
+   <td>✓ (A)</td> 
   </tr> 
   <tr> 
    <td>範本任務</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ (A)</td> 
+   <td>✓ (A)</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>時程表</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ (A)</td> 
+   <td>✓ (A)</td> 
+   <td>✓ (A)</td> 
   </tr> 
   <tr> 
    <td>使用者</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ (A)</td> 
+   <td>✓ (A)</td> 
+   <td>✓ (A)</td> 
   </tr> 
   <tr> 
    <td>更新</td> 
@@ -1113,358 +1113,358 @@ ht-degree: 3%
  <tbody> 
   <tr> 
    <td>核准流程</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ (A)</td> 
+   <td>✓ (A)</td> 
+   <td>✓ (A)</td> 
+   <td>✓ (A)</td> 
+   <td>✓ (A)</td> 
+   <td>✓ (A)</td> 
+   <td>✓ (A)</td> 
   </tr> 
   <tr> 
    <td>指派</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ (A)</td> 
+   <td>✓ (A)</td> 
+   <td>✓ (A)</td> 
    <td> </td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ (A)</td> 
+   <td>✓ (A)</td> 
+   <td>✓ (A)</td> 
   </tr> 
   <tr> 
    <td>付費記錄</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ (A)</td> 
+   <td>✓ (A)</td> 
+   <td>✓ (A)</td> 
    <td> </td> 
-   <td>✓</td> 
+   <td>✓ (A)</td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td>帳單費率</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>計費率</td> 
+   <td>✓ (A)</td> 
+   <td>✓ (A)</td> 
+   <td>✓ (A)</td> 
+   <td>✓ (A)</td> 
+   <td>✓ (A)</td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>公司</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ (A)</td> 
+   <td>✓ (A)</td> 
+   <td>✓ (A)</td> 
+   <td>✓ (A)</td> 
+   <td>✓ (A)</td> 
+   <td>✓ (A)</td> 
+   <td>✓ (A)</td> 
   </tr> 
   <tr> 
    <td>文件</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ (A)</td> 
+   <td>✓ (A)</td> 
+   <td>✓ (A)</td> 
+   <td>✓ (A)</td> 
+   <td>✓ (A)</td> 
+   <td>✓ (A)</td> 
+   <td>✓ (A)</td> 
   </tr> 
   <tr> 
    <td>文件資料夾</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ (A)</td> 
+   <td>✓ (A)</td> 
+   <td>✓ (A)</td> 
+   <td>✓ (A)</td> 
+   <td>✓ (A)</td> 
+   <td>✓ (A)</td> 
+   <td>✓ (A)</td> 
   </tr> 
   <tr> 
    <td>文件版本</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ (A)</td> 
+   <td>✓ (A)</td> 
+   <td>✓ (A)</td> 
+   <td>✓ (A)</td> 
+   <td>✓ (A)</td> 
+   <td>✓ (A)</td> 
+   <td>✓ (A)</td> 
   </tr> 
   <tr> 
    <td>費用</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ (A)</td> 
+   <td>✓ (A)</td> 
+   <td>✓ (A)</td> 
+   <td>✓ (A)</td> 
+   <td>✓ (A)</td> 
+   <td>✓ (A)</td> 
+   <td>✓ (A)</td> 
   </tr> 
   <tr> 
    <td>費用類型</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ (A)</td> 
+   <td>✓ (A)</td> 
+   <td>✓ (A)</td> 
    <td> </td> 
-   <td>✓</td> 
+   <td>✓ (A)</td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>群組</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ (A)</td> 
+   <td>✓ (A)</td> 
+   <td>✓ (A)</td> 
+   <td>✓ (A)</td> 
+   <td>✓ (A)</td> 
+   <td>✓ (A)</td> 
+   <td>✓ (A)</td> 
   </tr> 
   <tr> 
    <td>小時</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ (A)</td> 
+   <td>✓ (A)</td> 
+   <td>✓ (A)</td> 
+   <td>✓ (A)</td> 
+   <td>✓ (A)</td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>時數類型</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ (A)</td> 
+   <td>✓ (A)</td> 
+   <td>✓ (A)</td> 
    <td> </td> 
-   <td>✓</td> 
+   <td>✓ (A)</td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>問題</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ (A)</td> 
+   <td>✓ (A)</td> 
+   <td>✓ (A)</td> 
+   <td>✓ (A)</td> 
+   <td>✓ (A)</td> 
+   <td>✓ (A)</td> 
+   <td>✓ (A)</td> 
   </tr> 
   <tr> 
    <td>反覆項目</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ (A)</td> 
+   <td>✓ (A)</td> 
+   <td>✓ (A)</td> 
+   <td>✓ (A)</td> 
+   <td>✓ (A)</td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>職務角色</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ (A)</td> 
+   <td>✓ (A)</td> 
+   <td>✓ (A)</td> 
+   <td>✓ (A)</td> 
+   <td>✓ (A)</td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>日誌輸入項目</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ (A)</td> 
+   <td>✓ (A)</td> 
+   <td>✓ (A)</td> 
    <td> </td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ (A)</td> 
+   <td>✓ (A)</td> 
+   <td>✓ (A)</td> 
   </tr> 
   <tr> 
    <td>里程碑</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ (A)</td> 
+   <td>✓ (A)</td> 
+   <td>✓ (A)</td> 
+   <td>✓ (A)</td> 
+   <td>✓ (A)</td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>里程碑路徑</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ (A)</td> 
+   <td>✓ (A)</td> 
+   <td>✓ (A)</td> 
+   <td>✓ (A)</td> 
+   <td>✓ (A)</td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>備註</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ (A)</td> 
+   <td>✓ (A)</td> 
+   <td>✓ (A)</td> 
+   <td>✓ (A)</td> 
+   <td>✓ (A)</td> 
+   <td>✓ (A)</td> 
+   <td>✓ (A)</td> 
   </tr> 
   <tr> 
    <td>附註標籤</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ (A)</td> 
+   <td>✓ (A)</td> 
+   <td>✓ (A)</td> 
+   <td>✓ (A)</td> 
+   <td>✓ (A)</td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>專案組合</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ (A)</td> 
+   <td>✓ (A)</td> 
+   <td>✓ (A)</td> 
+   <td>✓ (A)</td> 
+   <td>✓ (A)</td> 
+   <td>✓ (A)</td> 
+   <td>✓ (A)</td> 
   </tr> 
   <tr> 
    <td>方案</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ (A)</td> 
+   <td>✓ (A)</td> 
+   <td>✓ (A)</td> 
+   <td>✓ (A)</td> 
+   <td>✓ (A)</td> 
+   <td>✓ (A)</td> 
+   <td>✓ (A)</td> 
   </tr> 
   <tr> 
    <td>專案</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ (A)</td> 
+   <td>✓ (A)</td> 
+   <td>✓ (A)</td> 
+   <td>✓ (A)</td> 
+   <td>✓ (A)</td> 
+   <td>✓ (A)</td> 
+   <td>✓ (A)</td> 
   </tr> 
   <tr> 
    <td>專案使用者</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ (A)</td> 
+   <td>✓ (A)</td> 
+   <td>✓ (A)</td> 
+   <td>✓ (A)</td> 
+   <td>✓ (A)</td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>保留時間* </td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ (A)</td> 
+   <td>✓ (A)</td> 
+   <td>✓ (A)</td> 
+   <td>✓ (A)</td> 
+   <td>✓ (A)</td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>風險</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ (A)</td> 
+   <td>✓ (A)</td> 
+   <td>✓ (A)</td> 
+   <td>✓ (A)</td> 
+   <td>✓ (A)</td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>風險類型</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ (A)</td> 
+   <td>✓ (A)</td> 
+   <td>✓ (A)</td> 
    <td> </td> 
-   <td>✓</td> 
+   <td>✓ (A)</td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>步驟核准者</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ (A)</td> 
+   <td>✓ (A)</td> 
+   <td>✓ (A)</td> 
+   <td>✓ (A)</td> 
+   <td>✓ (A)</td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>任務</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ (A)</td> 
+   <td>✓ (A)</td> 
+   <td>✓ (A)</td> 
+   <td>✓ (A)</td> 
+   <td>✓ (A)</td> 
+   <td>✓ (A)</td> 
+   <td>✓ (A)</td> 
   </tr> 
   <tr> 
    <td>團隊</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ (A)</td> 
+   <td>✓ (A)</td> 
+   <td>✓ (A)</td> 
+   <td>✓ (A)</td> 
+   <td>✓ (A)</td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>範本</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ (A)</td> 
+   <td>✓ (A)</td> 
+   <td>✓ (A)</td> 
+   <td>✓ (A)</td> 
+   <td>✓ (A)</td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>範本任務</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ (A)</td> 
+   <td>✓ (A)</td> 
+   <td>✓ (A)</td> 
+   <td>✓ (A)</td> 
+   <td>✓ (A)</td> 
+   <td>✓ (A)</td> 
+   <td>✓ (A)</td> 
   </tr> 
   <tr> 
    <td>時程表</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ (A)</td> 
+   <td>✓ (A)</td> 
+   <td>✓ (A)</td> 
+   <td>✓ (A)</td> 
+   <td>✓ (A)</td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>使用者</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ (A)</td> 
+   <td>✓ (A)</td> 
+   <td>✓ (A)</td> 
+   <td>✓ (A)</td> 
+   <td>✓ (A)</td> 
+   <td>✓ (A)</td> 
+   <td>✓ (A)</td> 
   </tr> 
   <tr> 
    <td>更新</td> 
    <td> </td> 
-   <td>✓</td> 
+   <td>✓ (A)</td> 
    <td> </td> 
    <td> </td> 
    <td> </td> 
@@ -1492,182 +1492,182 @@ ht-degree: 3%
  <tbody> 
   <tr> 
    <td>核准流程</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ (A)</td> 
+   <td>✓ (A)</td> 
   </tr> 
   <tr> 
    <td>指派</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ (A)</td> 
+   <td>✓ (A)</td> 
   </tr> 
   <tr> 
    <td>付費記錄</td> 
-   <td>✓</td> 
+   <td>✓ (A)</td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td>帳單費率</td> 
-   <td>✓</td> 
+   <td>計費率</td> 
+   <td>✓ (A)</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>公司</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ (A)</td> 
+   <td>✓ (A)</td> 
   </tr> 
   <tr> 
    <td>文件</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ (A)</td> 
+   <td>✓ (A)</td> 
   </tr> 
   <tr> 
    <td>文件資料夾</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ (A)</td> 
+   <td>✓ (A)</td> 
   </tr> 
   <tr> 
    <td>文件版本</td> 
-   <td>✓</td> 
+   <td>✓ (A)</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>費用</td> 
-   <td>✓</td> 
+   <td>✓ (A)</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>費用類型</td> 
-   <td>✓</td> 
+   <td>✓ (A)</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>群組</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ (A)</td> 
+   <td>✓ (A)</td> 
   </tr> 
   <tr> 
    <td>小時</td> 
-   <td>✓</td> 
+   <td>✓ (A)</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>時數類型</td> 
-   <td>✓</td> 
+   <td>✓ (A)</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>問題</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ (A)</td> 
+   <td>✓ (A)</td> 
   </tr> 
   <tr> 
    <td>反覆項目</td> 
-   <td>✓</td> 
+   <td>✓ (A)</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>職務角色</td> 
-   <td>✓</td> 
+   <td>✓ (A)</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>日誌輸入項目</td> 
-   <td>✓</td> 
+   <td>✓ (A)</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>里程碑</td> 
-   <td>✓</td> 
+   <td>✓ (A)</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>里程碑路徑</td> 
-   <td>✓</td> 
+   <td>✓ (A)</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>備註</td> 
-   <td>✓</td> 
+   <td>✓ (A)</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>附註標籤</td> 
-   <td>✓</td> 
+   <td>✓ (A)</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>專案組合</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ (A)</td> 
+   <td>✓ (A)</td> 
   </tr> 
   <tr> 
    <td>方案</td> 
-   <td>✓</td> 
+   <td>✓ (A)</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>專案</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ (A)</td> 
+   <td>✓ (A)</td> 
   </tr> 
   <tr> 
    <td>專案使用者</td> 
-   <td>✓</td> 
+   <td>✓ (A)</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>保留時間* </td> 
-   <td>✓</td> 
+   <td>✓ (A)</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>風險</td> 
-   <td>✓</td> 
+   <td>✓ (A)</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>風險類型</td> 
-   <td>✓</td> 
+   <td>✓ (A)</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>步驟核准者</td> 
-   <td>✓</td> 
+   <td>✓ (A)</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>任務</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ (A)</td> 
+   <td>✓ (A)</td> 
   </tr> 
   <tr> 
    <td>團隊</td> 
-   <td>✓</td> 
+   <td>✓ (A)</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>範本</td> 
-   <td>✓</td> 
+   <td>✓ (A)</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>範本任務</td> 
-   <td>✓</td> 
+   <td>✓ (A)</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>時程表</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ (A)</td> 
+   <td>✓ (A)</td> 
   </tr> 
   <tr> 
    <td>使用者</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ (A)</td> 
+   <td>✓ (A)</td> 
   </tr> 
   <tr> 
    <td>使用者委派</td> 
-   <td>✓</td> 
+   <td>✓ (A)</td> 
    <td> </td> 
   </tr> 
  </tbody> 
