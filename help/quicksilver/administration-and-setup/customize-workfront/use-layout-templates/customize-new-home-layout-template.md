@@ -7,9 +7,9 @@ description: 您可以使用版面配置範本來設定使用者在開啟新首�
 author: Nolan
 feature: System Setup and Administration
 role: Admin
-source-git-commit: 511d9b0b61870ccec13aa70c9d4d3232b3e60cd3
+source-git-commit: dad055b0901cfa8114f7f6b13b6f689d70b31205
 workflow-type: tm+mt
-source-wordcount: '685'
+source-wordcount: '741'
 ht-degree: 1%
 
 ---
@@ -101,6 +101,10 @@ ht-degree: 1%
      </tr>
     </tbody> 
    </table>
+
+>[!IMPORTANT]
+>
+>如果您使用版面配置範本為特定Widget設定預設篩選或群組，則由於現有使用者偏好設定，該選項可能不會立即生效。 若要立即套用新篩選器或群組，您或使用者可能需要將「/resetUser」附加至其URL結尾以重設其使用者偏好設定。
 
 1. 繼續自訂版面範本。
 
