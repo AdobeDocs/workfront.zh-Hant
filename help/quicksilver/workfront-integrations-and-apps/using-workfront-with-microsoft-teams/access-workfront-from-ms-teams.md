@@ -6,14 +6,16 @@ description: 您可以存取 [!DNL Adobe Workfront] 從 [!DNL Microsoft Teams] �
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: a12277e8-2c2e-4b53-990f-6ee9a6541492
-source-git-commit: 1f2655c0e88a5cc918501e2a0ef830758111ded8
+source-git-commit: 4e3449e7c31d29e1a289a7866ba98f873e62922c
 workflow-type: tm+mt
-source-wordcount: '424'
+source-wordcount: '455'
 ht-degree: 1%
 
 ---
 
 # 存取 [!DNL Adobe Workfront] 從 [!DNL Microsoft Teams]
+
+<!--Audited: 01/2024-->
 
 >[!NOTE]
 >
@@ -48,12 +50,15 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 授權*</td> 
-   <td> <p>[！UICONTROL Work]， [！UICONTROL計畫]</p> </td> 
+   <td> <p>新增：[！UICONTROL Standard]</p>
+   <p>目前： [！UICONTROL Work]， [！UICONTROL Plan]</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;若要瞭解您擁有的計畫、授權型別或存取權，請聯絡您的 [!DNL Workfront] 管理員。
+*若要瞭解您擁有的計畫、授權型別或存取權，請連絡 [!DNL Workfront] 管理員。
+
+*如需有關Workfront存取需求的詳細資訊，請參閱 [Workfront檔案中的存取要求概觀](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## 先決條件
 
@@ -63,6 +68,8 @@ ht-degree: 1%
 * 您已登入 [!DNL Workfront] 從 [!DNL Microsoft Teams].
 
 ## 存取 [!DNL Workfront] 從 [!DNL Workfront] 機器人聊天頻道
+
+您必須登入Workfront。
 
 1. 開啟 **[!DNL Workfront]** 機器人聊天頻道。
 1. 按一下 **[!DNL Workfront]** 圖示來顯示搜尋方塊。
@@ -89,6 +96,8 @@ ht-degree: 1%
 
 ## 存取 [!DNL Workfront] 從團隊頻道
 
+您必須登入Workfront。
+
 1. 開啟團隊管道並輸入 **@[!DNL Workfront]**，然後選取 **[!DNL Workfront].**
 
 1. 按一下 **[!UICONTROL 搜尋]** 以搜尋專案、任務或問題。
@@ -102,7 +111,7 @@ ht-degree: 1%
    * **[!DNL Log out]** 登出Workfront
    * **[!DNL New task]** 建立新的個人任務
 
-     有關從建立新任務的資訊 [!DNL Microsoft Teams]，請參閱 [建立 [!DNL Adobe Workfront] 任務來源 [!DNL Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/create-workfront-tasks-from-ms-teams.md).
+     如需有關建立工作的資訊，請參閱 [!DNL Microsoft Teams]，請參閱 [建立 [!DNL Adobe Workfront] 任務來源 [!DNL Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/create-workfront-tasks-from-ms-teams.md).
 
    * **[!UICONTROL 說明]** 以檢視所有可用指令的清單。
 

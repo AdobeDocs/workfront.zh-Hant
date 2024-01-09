@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 99fac041-a235-4991-b826-d19944164bc9
-source-git-commit: 50e6b09d626325ee2836dc0ebaf79fc1e8cc9da9
+source-git-commit: 4e3449e7c31d29e1a289a7866ba98f873e62922c
 workflow-type: tm+mt
 source-wordcount: '359'
 ht-degree: 1%
@@ -102,13 +102,13 @@ You must have the following settings to use Adobe Maestro:
    <td>
    <p> Adobe Workfront</p> </td>
   </tr>  
- <td role="rowheader"><p>Adobe Workfront agreement*</p></td>
+ <td role="rowheader"><p>Adobe Workfront agreement</p></td>
    <td>
 <p>Your organization must be enrolled in the Adobe Maestro closed beta program. </p>
    </td>
   </tr>
   <tr>
-   <td role="rowheader"><p>Adobe Workfront plan*</p></td>
+   <td role="rowheader"><p>Adobe Workfront plan</p></td>
    <td>
 <p>Any</p>
    </td>
@@ -145,16 +145,9 @@ You must have the following settings to use Adobe Maestro:
  </tbody>
 </table>
 
-*To find out your Workfront plan, license, or access level, contact your Workfront administrator. 
+*For more information about the new and current pricing models, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).  
 
 -->
-
-<!-- Notes to add for the table: for the "Workfront plans" row: the above is only for closed beta; when going to GA - activate the following plans:    
-<p>Current plan: Prime and Ultimate</p>
-<p>Legacy plan: Enterprise</p>-->
-
-<!-- Notes for the table: for the "Workfront access" row: <p>For more information, see <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront licenses overview</a>.</p>-->
-
 
 ## 與其他共用主功能表中的Maestro區域
 
@@ -191,6 +184,6 @@ Maestro沒有存取控制。
 <!--
 Take out the text above and replace with this: 
 
-For more information, see [Access overview](/help/quicksilver/maestro/access/access-overview.md)-->
+For more information, see [Sharing permissions overview in Adobe Maestro](/help/quicksilver/maestro/access/sharing-permissions-overview.md).-->
 
 

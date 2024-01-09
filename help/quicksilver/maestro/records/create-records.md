@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: 74db651f8865965f943bc89e58e7130cffe0c450
+source-git-commit: 4e3449e7c31d29e1a289a7866ba98f873e62922c
 workflow-type: tm+mt
-source-wordcount: '1049'
+source-wordcount: '1026'
 ht-degree: 0%
 
 ---
@@ -160,7 +160,8 @@ After permssions - replace the table with:
 
 您可以在記錄型別頁面的表格檢視中建立記錄。
 
-1. 按一下 **主要功能表** 圖示 ![](assets/main-menu-workfront.png) 位於右上角，或 **主要功能表** 圖示 ![](assets/main-menu-shell.png) （如果有的話）按一下 **大師** ![](assets/maestro-icon.png).
+{#step1-to-maestro}
+
 您上次存取的工作區預設會開啟。 如需有關建立工作區的資訊，請參閱 [建立工作區](../architecture/create-workspaces.md).
 1. 按一下記錄型別卡。 如需有關建立記錄型別的資訊，請參閱 [建立記錄型別](../architecture/create-record-types.md).
 
@@ -186,6 +187,11 @@ After permssions - replace the table with:
    >  * 參考其他記錄型別或計算欄位的欄位為唯讀欄位。
 
 1. 繼續新增每一列的資訊，然後按一下 **輸入** 以儲存變更。
+
+<!--1. (Optional) Use the following keyboard shortcuts to undo or redo adding new records: 
+
+    * **Undo**: CTRL/CMD + Z
+    * **Redo**: CTRL/CMD + Shift + Z-->
 
 ## 從其他應用程式連線記錄以建立記錄
 

@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 3f7a3667-8a9f-462a-b706-cf15850a0d1c
-source-git-commit: 74db651f8865965f943bc89e58e7130cffe0c450
+source-git-commit: 4e3449e7c31d29e1a289a7866ba98f873e62922c
 workflow-type: tm+mt
 source-wordcount: '523'
 ht-degree: 1%
@@ -193,3 +193,8 @@ After permssions - replace the table with:
    ![](assets/contextual-menu-for-record-row.png)
 
    記錄已刪除，無法復原。
+
+<!--1. (Optional) Use the following keyboard shortcuts to undo or redo deleting a record:
+
+   * **Undo**: CTRL/CMD + Z
+   * **Redo**: CTRL/CMD + Shift + Z-->

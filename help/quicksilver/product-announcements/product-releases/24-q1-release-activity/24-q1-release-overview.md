@@ -4,9 +4,9 @@ description: 2024年第一季版本總覽
 author: Becky
 feature: Product Announcements
 exl-id: 2ad9e170-9e63-472a-8476-13f81b7abff3
-source-git-commit: 0ac00ba31f9960f9c8a0d42db47481dea0798334
+source-git-commit: 4e3449e7c31d29e1a289a7866ba98f873e62922c
 workflow-type: tm+mt
-source-wordcount: '1494'
+source-wordcount: '1497'
 ht-degree: 0%
 
 ---
@@ -328,7 +328,7 @@ ht-degree: 0%
                  </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-project-enhancements.md" class="MCXref xref" xrefformat="{para}">AI導向的智慧指派</a></p><p>我們已變更Workfront用來計算及建議智慧型任務指派的演演算法。 新演演算法適用於Workfront中指派任務（任務清單、任務標題中的「工作」區域、首頁和「摘要」面板）的所有位置。</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-project-enhancements.md" class="MCXref xref" xrefformat="{para}">AI導向的智慧指派</a></p><p>我們已變更Workfront用來計算及建議智慧型任務指派的演演算法。 新演演算法適用於Workfront中指派任務的以下區域：任務清單、任務標題中的「工作」區域、「首頁」和「摘要」面板。</p>
                     </td>
                     <td><p><b>將於下列日期提供：</b></p>
                         <ul>

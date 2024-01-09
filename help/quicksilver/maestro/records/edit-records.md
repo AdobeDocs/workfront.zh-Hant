@@ -5,14 +5,14 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: 74db651f8865965f943bc89e58e7130cffe0c450
+source-git-commit: 4e3449e7c31d29e1a289a7866ba98f873e62922c
 workflow-type: tm+mt
-source-wordcount: '842'
+source-wordcount: '819'
 ht-degree: 1%
 
 ---
 
-<!--udpate the metadata with real information when making this avilable in TOC and in the left nav-->
+<!--update the metadata with real information when making this avilable in TOC and in the left nav-->
 
 # 編輯記錄
 
@@ -130,17 +130,6 @@ After permssions - replace the table with:
 -->
 
 
-<!--Maybe enable this at GA - but Maestro is not supposed to have Access controls in the Workfront Access Level: 
->[!NOTE]
->
->If you don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see [Create or modify custom access levels](../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md). -->
-
-<!-- Notes to add for the table: for the "Workfront plans" row: the above is only for closed beta; when going to GA - activate the following plans:    
-<p>Current plan: Prime and Ultimate</p>
-<p>Legacy plan: Enterprise</p>-->
-
-<!-- Notes for the table: for the "Workfront access" row: <p>For more information, see <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront licenses overview</a>.</p>-->
-
 ## 編輯記錄的相關考量事項
 
 * 您可以編輯您或其他使用者建立的記錄。 <!--will change with access levels-->
@@ -193,9 +182,9 @@ After permssions - replace the table with:
 
 ### 從記錄型別的表格檢視中編輯記錄
 
-1. 按一下 **主要功能表** ![](assets/main-menu-workfront.png) 位於右上角，或 **主要功能表** ![](assets/main-menu-shell.png) 左上角（如果有的話），然後按一下 **大師** ![](assets/maestro-icon.png).
+{#step1-to-maestro}
 
-   您上次存取的工作區會開啟。
+您上次存取的工作區會開啟。
 
 1. （可選）按一下工作區名稱右側的向下箭頭，以選取您要更新其記錄的工作區。
 1. 按一下記錄型別卡。
@@ -232,5 +221,7 @@ After permssions - replace the table with:
    >    * 透過連線記錄型別建立的連結欄位。 您可以複製並貼上連結的記錄欄位。 如需詳細資訊，請參閱 [連線記錄型別](../architecture/connect-record-types.md).
    >    * 下列型別的欄位：建立者、建立日期、上次修改者、上次修改日期
 
+<!--1. (Optional) Use the following keyboard shortcuts to undo or redo editing or copying and pasting record information: 
 
-   <!--take People out of the list above when they release this - this might be coming later-->
+    * **Undo**: CTRL/CMD + Z
+    * **Redo**: CTRL/CMD + Shift + Z-->

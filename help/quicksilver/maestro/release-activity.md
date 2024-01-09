@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 50e6b09d626325ee2836dc0ebaf79fc1e8cc9da9
+source-git-commit: 4e3449e7c31d29e1a289a7866ba98f873e62922c
 workflow-type: tm+mt
 source-wordcount: '2942'
 ht-degree: 0%
@@ -56,6 +56,8 @@ The Maestro area and all the capabilities have been temporarily removed from the
 
 Production: <****date here****>
 
+Preview: To be determined
+
 You can now share a workspace or a view with users and groups. You can set their permissions to different levels, depending on what information they need to view or edit. 
 
 When you share a workspace, users have permissions to the record types, records, and fields in that space.
@@ -91,7 +93,30 @@ You cannot use lookup fields from linked record types in a formula calculation.
 
 For information, see [Formula fields overview](/help/quicksilver/maestro/fields/formula-fields.md).  
 
+### Undo/ Redo actions when managing records in the table view
 
+Production: <****Date******>
+Preview: To be determined
+
+You can now undo or redo your changes when performing the following actions in the table view:  
+
+* Copy/ paste data 
+* Edit record 
+* Add record 
+* Delete record 
+
+You can use the following keystrokes to undo or redo actions: 
+
+* Undo: CTRL + Z 
+* Redo: CTRL + Shift+Z 
+
+For more information, see the following articles:  
+
+* Edit records (/help/quicksilver/maestro/records/edit-records.md) 
+
+* Delete  records (/help/quicksilver/maestro/records/delete-records.md) 
+
+* Create records (/help/quicksilver/maestro/records/create-records.md) 
 
 -->
 

@@ -5,14 +5,15 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 83ff53ac-f18e-4b71-bdb2-57e05d69ed29
-source-git-commit: 74db651f8865965f943bc89e58e7130cffe0c450
+source-git-commit: 4e3449e7c31d29e1a289a7866ba98f873e62922c
 workflow-type: tm+mt
-source-wordcount: '404'
+source-wordcount: '381'
 ht-degree: 0%
 
 ---
 
 <!--update the metadata with real information when making this available in TOC and in the left nav-->
+<!--should this move to the Access folder when we have sharing for ALL the objects???-->
 
 # 共用記錄
 
@@ -158,9 +159,9 @@ After permissions - replace the table with - below
 
 ## 從記錄型別表格檢視共用記錄連結
 
-1. 按一下 **主要功能表** ![](assets/main-menu-workfront.png) 位於右上角，或 **主要功能表** ![](assets/main-menu-shell.png) 左上角（如果有的話），然後按一下 **大師**.
+{#step1-to-maestro}
 
-   您上次存取的工作區會開啟。
+您上次存取的工作區會開啟。
 1. 按一下記錄型別卡。
 
    記錄型別頁面隨即開啟。

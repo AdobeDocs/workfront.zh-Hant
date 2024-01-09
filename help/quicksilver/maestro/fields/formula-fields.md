@@ -4,9 +4,9 @@ description: 在Adobe大師，您可以建立公式欄位，這些欄位使用�
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 3c49657c929c414888e6678022ef61b1bba1a420
+source-git-commit: 4e3449e7c31d29e1a289a7866ba98f873e62922c
 workflow-type: tm+mt
-source-wordcount: '461'
+source-wordcount: '477'
 ht-degree: 0%
 
 ---
@@ -159,7 +159,7 @@ After permssions - replace the table with:
 
 ## 支援的公式
 
-我們支援Workfront計算欄位中的所有公式。 如需詳細資訊，請參閱 [計算資料運算式的概觀](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
+Maestro公式欄位支援Workfront計算欄位的所有運算式。 如需詳細資訊，請參閱 [計算資料運算式的概觀](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
 
 此外，我們為Maestro公式欄位支援下列運算式：
 
@@ -179,7 +179,7 @@ After permssions - replace the table with:
    <td><strong>ARRAYJOIN</strong> </td> 
    <td> <p>傳回依分隔字元的串連字串。</p> <p>運算式的格式如下：
 
-    ARRAYJOIN（分隔字元，陣列）
+<code>ARRAYJOIN（分隔字元，陣列）</code>
 </p>
    </td></tr>
 
@@ -187,7 +187,14 @@ After permssions - replace the table with:
    <td><strong>ARRAYUNIQUE</strong> </td> 
    <td> <p>傳回具有唯一值的陣列。</p> <p>運算式的格式如下：
 
-    ARRAYUNIQUE（陣列）
+<code>ARRAYUNIQUE（陣列）</code>
+</p>
+   </td></tr>
+     <tr> 
+   <td><strong>ID</strong> </td> 
+   <td> <p>傳回記錄的ID。</p> <p>運算式的格式如下：
+
+<code>{ID}</code>
 </p>
    </td></tr>
 
@@ -195,7 +202,7 @@ After permssions - replace the table with:
    <td><strong>SETTIMEZONE</strong> </td> 
    <td> <p>將日期和時間的時區設定為特定時區。</p> <p>運算式的格式如下：
 
-    SETTIMEZONE（日期，&#39;美洲/洛杉磯&#39;）
+<code>SETTIMEZONE（日期，&#39;美洲/洛杉磯&#39;）</code>
 </p>
    </td></tr>
 
@@ -203,9 +210,9 @@ After permssions - replace the table with:
    <td><strong>WEEKOFYEAR</strong> </td> 
    <td> <p>傳回一年中的周數。您可以選擇是否指定一週從哪一天開始（使用1代表星期日，或2代表星期一）。 如果省略，周從星期日開始（預設）。</p> <p>運算式的格式如下：
 
-    WEEKOFYEAR（日期，2）
-    或
-    WEEKOFYEAR（日期）
+<code>WEEKOFYEAR（日期，2）</code>
+或
+<code>WEEKOFYEAR（日期）</code>
 </p>
    </td></tr>
 
