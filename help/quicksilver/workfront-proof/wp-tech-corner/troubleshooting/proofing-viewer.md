@@ -8,9 +8,9 @@ description: 如果您的校訂內容未載入，而您只能看到空白的校�
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: ce463565-d21e-4dbc-8de8-78bcbf16fb2c
-source-git-commit: d2836549ee3c615201ce5f3454258e9af31efa42
+source-git-commit: 238b675b15b189c622692c1ba9babab5e82bfe09
 workflow-type: tm+mt
-source-wordcount: '962'
+source-wordcount: '955'
 ht-degree: 0%
 
 ---
@@ -82,11 +82,11 @@ Please see [Problems With Viewing Proofs - [!DNL Flash] Shared Objects Explained
 
 ## 檢閱外掛程式
 
-如果您的瀏覽器和 [!DNL Flash Player] 外掛程式為最新狀態，您的網路未封鎖與的連線 [!DNL Workfront Proof] 您的瀏覽器中可能有會影響檢視校樣的問題。 現在您的瀏覽器中有多個外掛程式和擴充功能可供使用，其中有些會干擾或與其他外掛程式和擴充功能發生衝突。
+如果您的瀏覽器是最新的，而且您的網路未封鎖與的連線 [!DNL Workfront Proof]，您的瀏覽器中可能會出現影響檢視校樣的問題。 您的瀏覽器通常有多個可用的外掛程式和擴充功能，其中有些可能會干擾或與其他外掛程式衝突。
 
-最佳實務是移除所有未知的附加元件，僅保留您使用且您信任的附加元件。 每個瀏覽器都應提供選項，讓您檢查/修改/刪除外掛程式和擴充功能。 我們的 [!DNL Workfront Proof] 檢視器的基礎為 [!DNL Flash] 而且我們使用JavaScript來載入檢視器，因此您特別想要檢閱可能影響這些專案的外掛程式。
+最佳實務是移除所有未知的附加元件，僅保留您使用且您信任的附加元件。 每個瀏覽器都應提供選項，讓您檢查/修改/刪除外掛程式和擴充功能。 我們使用JavaScript載入 [!DNL Workfront Proof] 檢視器，因此您特別想要檢閱可能影響該檢視器的外掛程式。
 
-如果有任何附加元件干擾載入校樣，您可以嘗試在瀏覽器主控台中檢視詳細資訊。
+如果載入校樣有任何特定的附加元件干擾，可以嘗試在瀏覽器的主控台中檢視詳細資訊。
 
 ![瀏覽器主控台](assets/proofview-4.png)
 
@@ -101,8 +101,8 @@ Please see [Problems With Viewing Proofs - [!DNL Flash] Shared Objects Explained
 
 ## 檢查混合內容設定
 
-所有與的連線 [!DNL Workfront Proof] 透過HTTPS傳輸。 不過，在 [!DNL Workfront Proof] 檢視器會透過HTTP載入圖磚，並以權杖保護資料。 這會建立某些瀏覽器或安全性解決方案可能封鎖的混合內容（根據預設或根據手動設定）。
+所有與的連線 [!DNL Workfront Proof] 透過HTTPS傳輸。 不過，在 [!DNL Workfront Proof] 檢視器會透過HTTP載入圖磚，並以權杖保護資料。 這會建立混合式內容，而有些瀏覽器或安全性解決方案可能會封鎖此內容（根據預設或手動設定）。
 
-如果這就是電腦上未開啟校訂的原因（您應該可以在瀏覽器的主控台中看到相關警示），則授權此類連線 [!DNL Workfront Proof] 或是修改您的設定，以便在您的電腦上允許被動混合式內容。 您的瀏覽器、AV軟體、網路設定等可能會封鎖混合式內容 — 若要判斷確切原因，請連絡您的IT團隊/網路管理員。 他們應該還能協助在您的電腦上啟用混合式內容。
+如果這就是電腦上未開啟校訂的原因（您應該可以在瀏覽器的主控台中看到相關警示），請授權此類連線 [!DNL Workfront Proof] 或是修改您的設定，以便在您的電腦上允許被動混合式內容。 您的瀏覽器、AV軟體或網路組態可能會封鎖混合式內容，以判斷確切的原因。 您應該連絡您的IT團隊/網路管理員。 他們應該還能協助在您的電腦上啟用混合式內容。
 
 
