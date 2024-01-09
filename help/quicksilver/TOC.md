@@ -3,9 +3,9 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文件、教學課程和其他資源，了解如何在您的組織中實施並有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: 50e6b09d626325ee2836dc0ebaf79fc1e8cc9da9
+source-git-commit: 93dfcd639f1b821e68e388ac4206aeb7447caee1
 workflow-type: tm+mt
-source-wordcount: '13864'
+source-wordcount: '13856'
 ht-degree: 1%
 
 ---
@@ -2557,7 +2557,6 @@ ht-degree: 1%
          * [疑難排解 — Mac上校訂檢視器中的介面字型損毀](workfront-proof/wp-tech-corner/troubleshooting/corrupted-interface-font-pv-mac.md)
          * [瞭解快取和Cookie如何影響Workfront校訂](workfront-proof/wp-tech-corner/troubleshooting/how-cache-cookies-affect-pv.md)
          * [Workfront Proof中的速度問題](workfront-proof/wp-tech-corner/troubleshooting/speed-issue.md)
-         * [檢視校訂的問題 — 說明Flash共用物件](workfront-proof/wp-tech-corner/troubleshooting/view-proof-flash-shared-object.md)
          * [疑難排解 — Workfront校訂檢視器](workfront-proof/wp-tech-corner/troubleshooting/proofing-viewer.md)
    * Workfront校訂整合 {#wf-proof-integrations}
       * [Workfront校訂整合](workfront-proof/wp-integrations/wp-integrations.md)

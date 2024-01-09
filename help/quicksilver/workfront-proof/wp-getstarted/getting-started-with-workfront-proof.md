@@ -3,20 +3,22 @@ content-type: reference
 product-previous: workfront-proof
 product-area: documents;workfront-integrations
 navigation-topic: workfront-proof-navigation-topic
-title: 快速入門 [!DNL Workfront Proof]
+title: 「快速入門 [!DNL Workfront Proof]：文章索引」
 description: 瞭解如何開始使用Workfront Proof。
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 71fe6ed9-62f8-4c08-8883-6c70aa9f7678
-source-git-commit: 692d0e903c1b92ad539eacf6d26e18e81530a8b0
+source-git-commit: 6255181469b517fa4e0c487ca372c08b540abadd
 workflow-type: tm+mt
-source-wordcount: '47'
+source-wordcount: '51'
 ht-degree: 0%
 
 ---
 
-# 快速入門 [!DNL Workfront Proof]
+# 快速入門 [!DNL Workfront Proof]：文章索引
+
+<!-- Audited: 1/2024 -->
 
 >[!IMPORTANT]
 >

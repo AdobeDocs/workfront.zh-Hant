@@ -2,20 +2,22 @@
 user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: organization-setup
-title: 建立和管理職位角色
+title: 建立和管理職務角色
 description: 作為 [!DNL Adobe Workfront] 管理員或具有職位角色管理存取權的使用者，您可以建立可指派給使用者的職位角色，並刪除與您的組織無關的預設職位角色。
 author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 664fb2fe-ff7e-4807-9a43-b37e7d5d57eb
-source-git-commit: f66a6c340d8789db447c860d995d9836a30eeeb0
+source-git-commit: 3af289f9aeecee417d1e82f9c66551360185b85c
 workflow-type: tm+mt
-source-wordcount: '1168'
+source-wordcount: '1163'
 ht-degree: 0%
 
 ---
 
-# 建立和管理職位角色
+# 建立和管理職務角色
+
+<!-- Audited: 1/2024 -->
 
 <!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.-->
 
@@ -30,12 +32,14 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 計劃*</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] 計畫*</td> 
    <td> <p>任何 </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 授權*</td> 
-   <td>[！UICONTROL計畫]</td> 
+   <td>
+   <p>新增：標準</p>
+   <p>目前： [！UICONTROL計畫]</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定*</td> 
@@ -48,7 +52,9 @@ ht-degree: 0%
 
 ## 建立職位角色
 
-1. 按一下 **[!UICONTROL 主要功能表]** 圖示 ![](assets/main-menu-icon.png) 位於的右上角 [!DNL Adobe] Workfront，然後按一下 **[!UICONTROL 設定]** ![](assets/gear-icon-settings.png).
+若要建立工作角色，請執行下列動作：
+
+{{step-1-to-setup}}
 
 1. 在左側面板中，按一下&#x200B;。 **[!UICONTROL 職位角色].**
 1. 按一下 **[!UICONTROL 新增工作角色].**

@@ -1,18 +1,20 @@
 ---
 title: 為系統中的每個人設定事件通知
 description: 事件發生時，事件通知會觸發電子郵件傳送給使用者。 作為Adobe Workfront管理員或具有供需規劃員存取層級的使用者，您可以為系統中的所有使用者設定事件通知。 事件通知的設定包含啟用或停用。
-author: Caroline, Lisa
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 027ecebd-d9de-4cdd-b15a-88de18367591
-source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
+source-git-commit: a5cad262eff029be443457cbd8dddf4c65789b35
 workflow-type: tm+mt
-source-wordcount: '602'
+source-wordcount: '593'
 ht-degree: 0%
 
 ---
 
 # 為系統中的每個人設定事件通知
+
+<!-- Audited: 1/2024 -->
 
 <!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS-->
 
@@ -44,7 +46,10 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront授權*</td> 
-   <td>計劃</td> 
+   <td> <p>新增：標準</p>
+ <p>或</p> 
+<p>目前：計畫</p> 
+</td> 
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定*</td> 
@@ -57,13 +62,13 @@ ht-degree: 0%
 
 ## 為所有使用者設定事件通知
 
-您必須先在Workfront的設定區域中啟用通知，使用者才能在其設定檔中啟用或停用通知。
+您必須先在Workfront的設定區域中啟用通知，使用者才能在其個別設定檔中啟用或停用通知。
 
 >[!TIP]
 >
 >您無法從設定區域啟動Workfront目標的通知。 使用者只能在其設定檔中啟動這些通知。 擁有Plan授權的使用者可以為其他使用者啟用這些授權。 如需為使用者啟用Workfront目標通知的相關資訊，請參閱 [通知：目標](../../../workfront-basics/using-notifications/notifications-goals.md).
 
-1. 按一下 **主要功能表** 圖示 ![](assets/main-menu-icon.png) (位於Adobe Workfront的右上角)，然後按一下 **設定** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. 按一下 **電子郵件** > **通知**.
 
@@ -71,7 +76,7 @@ ht-degree: 0%
 
 
 1. 確定 **事件通知** 標籤已開啟。
-1. 按一下事件名稱左側的開關，以開啟或關閉事件。
+1. 將開關切換至事件名稱左側，以開啟或關閉該開關。
 
    若要檢視事件的預設通知狀態，請參閱 [事件通知](../../../workfront-basics/using-notifications/event-notifications.md).
 

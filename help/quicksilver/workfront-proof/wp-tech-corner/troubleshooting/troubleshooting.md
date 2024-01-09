@@ -9,9 +9,9 @@ author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: f9e93cc2-9dff-4150-a809-10598e110ef8
-source-git-commit: c3e15a052533d43065b50a9f56169b82f8dc3765
+source-git-commit: f6dc13a03f6468b4c2f52c370e48229ca70815c7
 workflow-type: tm+mt
-source-wordcount: '60'
+source-wordcount: '52'
 ht-degree: 0%
 
 ---
@@ -27,5 +27,4 @@ ht-degree: 0%
 * [疑難排解 — Mac上校訂檢視器中的介面字型損毀](../../../workfront-proof/wp-tech-corner/troubleshooting/corrupted-interface-font-pv-mac.md)
 * [瞭解快取和Cookie如何影響 [!DNL Workfront Proof]](../../../workfront-proof/wp-tech-corner/troubleshooting/how-cache-cookies-affect-pv.md)
 * [中的速度問題 [!DNL Workfront Proof]](../../../workfront-proof/wp-tech-corner/troubleshooting/speed-issue.md)
-* [檢視校訂的問題 — 說明Flash共用物件](../../../workfront-proof/wp-tech-corner/troubleshooting/view-proof-flash-shared-object.md)
 * [疑難排解 —  [!DNL Workfront Proof] 校訂檢視器](../../../workfront-proof/wp-tech-corner/troubleshooting/proofing-viewer.md)

@@ -5,16 +5,18 @@ author: Alina, Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 6c0fa8af-cd89-4941-a6f6-aa4e84a7dc67
-source-git-commit: aff9ba1082af998f104fa01bbc437f7e2ec9b16a
+source-git-commit: 108ebd3b8677124085056cf2812fa86e70a11887
 workflow-type: tm+mt
-source-wordcount: '1141'
-ht-degree: 1%
+source-wordcount: '1094'
+ht-degree: 2%
 
 ---
 
 # 設定提醒通知
 
-提醒通知會根據指定條件傳送電子郵件給收件者。 作為Adobe Workfront管理員或具有提醒通知的供需規劃員存取層級和管理存取權的使用者，您可以手動將提醒通知與您的工作專案相關聯，例如專案、任務、問題和時程表。
+<!-- Audited: 1/2024 -->
+
+提醒通知會根據指定條件傳送電子郵件給收件者。 您可以手動將提醒通知與您的工作專案建立關聯，例如專案、任務、問題和時程表。
 
 <!--
 DRAFTED IN FLARE:
@@ -39,7 +41,10 @@ An example of how this can be used would be helpful here and/or in the section <
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront授權*</td> 
-   <td>計劃</td> 
+   <td> <p>新增：標準 </p>
+ <p>或</p> 
+<p>目前：計畫</p> 
+</td> 
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定*</td> 
@@ -52,7 +57,7 @@ An example of how this can be used would be helpful here and/or in the section <
 
 ## 自訂提醒電子郵件
 
-您可以使用包含自訂電子郵件主旨和本文的自訂電子郵件來自訂提醒通知。 電子郵件內文可包含自訂HTML。
+您可以自訂提醒通知電子郵件中的主旨、內文和HTML。
 
 或者，您可以使用提醒通知隨附的預設電子郵件。 預設電子郵件使用提醒通知名稱作為電子郵件主旨，並在電子郵件內文中使用物件名稱，包括觸發通知的事件。
 
@@ -62,7 +67,7 @@ An example of how this can be used would be helpful here and/or in the section <
 
 ## 建立提醒通知
 
-1. 按一下 **主要功能表** 圖示 ![](assets/main-menu-icon.png) (位於Adobe Workfront的右上角)，然後按一下 **設定** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. 按一下 **電子郵件** > **通知** > **提醒通知**.
 
@@ -86,7 +91,7 @@ An example of how this can be used would be helpful here and/or in the section <
      </tr> 
      <tr> 
       <td role="rowheader">符合資格的期間</td> 
-      <td> <p>在中指定日期之前或之後的小時數、工作日數、日數（行事曆日數）、周數或月數 <strong>時間</strong> 欄位。</p> <p><b>附註</b>:  
+      <td> <p>在中指定日期之前或之後的小時數、工作日數、日數（行事曆日數）、周數或月數 <strong>時間</strong> 欄位。</p> <p><b>注意</b>：  
         <ul> 
          <li> <p>提醒通知會在指定日期後24小時開始，並在符合所有條件後開始。</p> </li> 
          <li> <p>美國山區時間每天午夜觸發專案、任務和問題的提醒通知。 當天起符合提醒通知資格的所有物件會在當天不久之後觸發通知給指定的使用者。</p> </li> 
@@ -126,7 +131,7 @@ An example of how this can be used would be helpful here and/or in the section <
     </tbody> 
    </table>
 
-1. 按一下&#x200B;**儲存**。
+1. 按一下「**儲存**」。
 1. 將提醒通知附加至工作專案，如所述 [將提醒通知附加至物件](../../../workfront-basics/using-notifications/attach-reminder-notification-object.md).
 
 ## 接收提醒通知
@@ -144,10 +149,12 @@ An example of how this can be used would be helpful here and/or in the section <
 
 若要手動觸發提醒通知：
 
-1. 按一下 **主要功能表** 圖示 ![](assets/main-menu-icon.png) (位於Adobe Workfront的右上角)，然後按一下 **設定** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. 按一下 **系統** > **診斷** 在Workfront的左下角。
 
 1. 按一下 **傳送提醒通知** 並在熒幕上方等待傳送確認。
 
    在提醒通知中指定的使用者會收到電子郵件。
+
+![](assets/reminder-test.png)

@@ -9,9 +9,9 @@ author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: f9c782b7-23dc-4fde-83e1-b7ef71a3b741
-source-git-commit: 91d757513792604677d6285baafa795629b4506d
+source-git-commit: 6255181469b517fa4e0c487ca372c08b540abadd
 workflow-type: tm+mt
-source-wordcount: '68'
+source-wordcount: '70'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 0%
 
 本節包含下列子章節：
 
-* [快速入門 [!DNL Workfront Proof]](../workfront-proof/wp-getstarted/getting-started-with-workfront-proof.md)
+* [快速入門 [!DNL Workfront Proof]：文章索引](../workfront-proof/wp-getstarted/getting-started-with-workfront-proof.md)
 * [在中處理校訂和檔案 [!DNL Workfront Proof]](../workfront-proof/wp-work-proofsfiles/wp-work-proofs-files.md)
 * [[!DNL Workfront Proof] 帳戶管理](../workfront-proof/wp-acct-admin/wp-account-admin.md)
 * [[!DNL Workfront Proof] 帳單設定](../workfront-proof/wp-billingsettings/wp-billing-settings.md)

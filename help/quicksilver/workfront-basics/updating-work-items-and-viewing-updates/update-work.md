@@ -6,7 +6,7 @@ description: 您可以在Adobe Workfront物件（專案、任務或問題）上�
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: 38715b9571206fd3621b5c078c3eebe380297e9b
+source-git-commit: ba0dc486dfb104eb9fb8c964875f77cf24f520fd
 workflow-type: tm+mt
 source-wordcount: '4189'
 ht-degree: 1%
@@ -14,6 +14,8 @@ ht-degree: 1%
 ---
 
 # 更新工作
+
+<!-- Audited: 1/2024 -->
 
 <!--take "legacy" and "new commenting" references out when we remove the legacy - Jan 2024???-->
 
@@ -112,7 +114,6 @@ After the monthly releases to Production, the same features are also available i
 如需在「面板」區域中註解卡片的相關資訊，請參閱 [新增臨機卡到展示板](../../agile/get-started-with-boards/add-card-to-board.md).
 
 ## 存取需求
-
 
 您必須具有下列存取權才能執行本文中的步驟：
 

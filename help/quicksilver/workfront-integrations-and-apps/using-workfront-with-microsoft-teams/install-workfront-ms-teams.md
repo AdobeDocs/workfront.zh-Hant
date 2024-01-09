@@ -6,18 +6,21 @@ description: 此 [!DNL Adobe Workfront for Microsoft Teams] 應用程式可讓�
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: a8d4e48c-1ccc-4e6e-a0a0-9b68748590c0
-source-git-commit: 1f2655c0e88a5cc918501e2a0ef830758111ded8
+source-git-commit: 3af289f9aeecee417d1e82f9c66551360185b85c
 workflow-type: tm+mt
-source-wordcount: '815'
+source-wordcount: '808'
 ht-degree: 0%
 
 ---
 
 # 安裝 [!DNL Adobe Workfront] 適用於Microsoft Teams
 
->[!NOTE]
+<!-- Audited: 1/2024 -->
+
+>[!IMPORTANT]
 >
 >適用於Microsoft Teams的Adobe Workfront整合目前僅支援傳統Microsoft Teams體驗。
+
 
 此 [!DNL Adobe Workfront for Microsoft Teams] 應用程式可讓您在中執行基本動作 [!DNL Workfront] 無須離開您的 [!DNL Microsoft Teams] 聊天頻道。
 
@@ -40,7 +43,8 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 授權*</td> 
-   <td> <p>[！UICONTROL Work]， [！UICONTROL計畫]</p> </td> 
+   <td><p>新增：標準</p>
+    <p>目前： [！UICONTROL Work]， [！UICONTROL Plan]</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -54,9 +58,6 @@ ht-degree: 0%
 ## 安裝 [!DNL Workfront for Microsoft Teams]
 
 在中作為團隊所有者 [!DNL Microsoft Teams]，您可以安裝 [!DNL Workfront for Microsoft Teams] 您每個團隊的應用程式，可從 [!DNL Microsoft] 存放區或透過提供的檔案 [!DNL Workfront].
-
-* [安裝 [!DNL Workfront for Microsoft Teams] 從Microsoft市集](#install-workfront-for-microsoft-teams-from-the-microsoft-store)
-* [安裝 [!DNL Workfront for Microsoft Teams] 從私人檔案](#install-workfront-for-microsoft-teams-from-a-private-file)
 
 ### 安裝 [!DNL Workfront for Microsoft Teams] 從 [!DNL Microsoft] 儲存
 
