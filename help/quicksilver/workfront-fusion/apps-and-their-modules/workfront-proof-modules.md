@@ -9,9 +9,9 @@ description: 在 [!DNL Adobe Workfront Fusion] 情境中，您可以使用自動
 author: Becky
 feature: Workfront Fusion, Workfront Proof, Digital Content and Documents
 exl-id: f5c6fb08-880d-4432-aef1-57db13b3ecdb
-source-git-commit: 8764de907f49260908911ca393c1173b66dbb065
+source-git-commit: 94ebd79a566ca946944339e3a5c1df9b3d2d2608
 workflow-type: tm+mt
-source-wordcount: '2934'
+source-wordcount: '3099'
 ht-degree: 0%
 
 ---
@@ -66,6 +66,58 @@ ht-degree: 0%
 若要瞭解您擁有的計畫、授權型別或存取權，請聯絡您的 [!DNL Workfront] 管理員。
 
 有關的資訊 [!DNL Adobe Workfront Fusion] 授權，請參閱 [[!DNL Adobe Workfront Fusion] 授權](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+
+## 連線 [!DNL Workfront Proof] 至 [!DNL Workfront Fusion]
+
+您可以建立與您的電腦的連線， [!DNL Workfront Proof] 直接從a內的帳戶 [!DNL Workfront Fusion] 模組。
+
+1. 在任何 [!DNL Workfront Fusion] 模組，按一下 [!UICONTROL **新增**] 在 [!UICONTROL 連線] 欄位
+
+2. 填寫下列欄位：
+
+   <table style="table-layout:auto"> 
+        <col/>
+        <col/>
+        <tbody>
+            <tr>
+                <td role="rowheader">
+                    <p role="rowheader">[！UICONTROL連線名稱]</p>
+                </td>
+                <td>輸入連線的名稱</td>
+            </tr>
+            <tr>
+                <td  role="rowheader">[！UICONTROL connections.environmentType]</td>
+                <td>選取這是生產環境或非生產環境，例如預覽或沙箱。</td>
+            </tr>
+            <tr>
+                <td role="rowheader">[！UICONTROL connections.authenticationType]</td>
+                <td>選取這是服務帳戶還是個人帳戶。</td>
+            </tr>
+            <tr>
+                <td  role="rowheader">[！UICONTROL電子郵件/使用者名稱]</td>
+                <td>輸入您的使用者名稱 [!DNL Workfront Proof] 帳戶。</td>
+            </tr>
+            <tr>
+                <td  role="rowheader">[！UICONTROL密碼]</td>
+                <td>輸入您的密碼 [!DNL Workfront Proof] 帳戶。</td>
+            </tr>
+            <tr>
+                <td  role="rowheader">[！UICONTROL租使用者名稱稱]</td>
+                <td><strong>注意</strong>：不使用BYOK的客戶必須將此欄位留空。 <p>輸入此帳戶的租使用者ID。 如果您需要協助尋找租使用者ID，請聯絡Workfront客戶支援。</p></td>
+            </tr>
+            <tr>
+                <td role="rowheader">[！UICONTROL網域延伸模組]</td>
+                <td>輸入您用來存取帳戶之URL的副檔名。 <p>範例： <code>com</code> 或 <code>eu</code></p></td>
+            </tr>
+            <tr>
+                <td  role="rowheader">[！UICONTROL生產、預覽或自訂環境]</td>
+                <td>選取與生產、預覽或自訂環境的連線。</td>
+            </tr>
+        </tbody>
+    </table>
+
+
+3. 按一下 [!UICONTROL **繼續**] 以儲存連線並返回模組
 
 ## [!DNL Workfront Proof] 模組及其欄位
 
