@@ -4,9 +4,9 @@ description: 2024年第一季版本總覽
 author: Becky
 feature: Product Announcements
 exl-id: 2ad9e170-9e63-472a-8476-13f81b7abff3
-source-git-commit: 4e3449e7c31d29e1a289a7866ba98f873e62922c
+source-git-commit: cfe574eb8eaf238ef07ff45afa976bc1bc0484ed
 workflow-type: tm+mt
-source-wordcount: '1497'
+source-wordcount: '1572'
 ht-degree: 0%
 
 ---
@@ -129,6 +129,7 @@ ht-degree: 0%
                         </p>
                     </td>
                  </tr>
+                </tr>
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">檔案核准的更新狀態</a></p><p>為了更清楚的檔案核准狀態，我們已更新可用的檔案狀態核准。 現在，核准狀態會說明標籤為稽核完成的稽核者，以及只有稽核者但沒有核准者的情況。</p>
@@ -276,6 +277,23 @@ ht-degree: 0%
                         </p>
                     </td>
                  </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">Experience Manager Assets Essentials中的對應中繼資料現在使用 <code>xcm:keywords</code> 而非 <code>dc:subject</code></a></p><p>[！BADGE In Production ]{type=Informative}</p><p>我們已更新Experience Manager Assets Essentials整合，以符合Experience Manager Assetsas a Cloud Service整合的體驗。 現在，將多個單行文字欄位對應到Experience Manager Assets中的單一欄位時，兩種服務都會使用 <code>xcm:keywords</code> 欄位。</p>
+                    </td>
+                    <td><p><b>將於下列日期提供：</b></p>
+                        <ul>
+                            <li>
+                                <p>預覽版本： 2023年1月10日</p>
+                            </li>
+                            <li>
+                                <p>快速發行生產： 2023年1月10日</p>
+                            </li>
+                            <li>
+                                <p>每季發行量： 2023年1月10日</p>
+                            </li>
+                        </ul>
+                    </td>
                  <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Adobe Experience Manager整合現在提供預先輸入欄位</a></p><p>[！BADGE In Production ]{type=Informative}</p><p>為了更方便在Workfront和Adobe Experience Manager之間連結欄位，我們在中繼資料對應中新增了預先輸入欄位的支援。 現在，您可以將預先輸入欄位對應至Adobe Experience Manager中的對應欄位。</p>
