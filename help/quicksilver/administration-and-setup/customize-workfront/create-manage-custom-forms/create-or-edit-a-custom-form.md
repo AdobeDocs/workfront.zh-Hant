@@ -4,22 +4,26 @@ user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
 description: 您可以建立或編輯新的自訂表格。
-author: Caroline
+author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 5712e82d-bd1d-4d8a-9a2a-1e19b562b9d1
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+source-git-commit: 8af1890b2e2ae613279b5191cf8f2190364fb524
 workflow-type: tm+mt
-source-wordcount: '891'
+source-wordcount: '922'
 ht-degree: 0%
 
 ---
 
 # 使用舊版表單產生器建立或編輯自訂表單
 
+<!--Audited: 01/2024-->
+
 您可以建立或編輯新的自訂表格。 本文會說明這兩項工作。
 
 如需從現有表單建立新自訂表單的相關資訊，請參閱 [複製自訂表單，使用舊版表單產生器建立新表單](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/copy-custom-form-to-create-a-new-one.md).
+
+本文說明如何使用舊版表單產生器建立自訂表單。 如需有關使用表單設計工具建立自訂表單的資訊，請參閱 [使用表單設計工具設計表單](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 ## 存取需求
 
@@ -35,7 +39,8 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront授權*</td> 
-   <td>計劃</td> 
+   <td><p>新增：標準</p>
+   <p>目前：計畫</p></td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">存取層級設定*</td> 
@@ -44,15 +49,16 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-&#42;若要瞭解您擁有的計畫、授權型別或存取層級設定，請聯絡Workfront管理員。
+&#42;若要瞭解您擁有的計畫、授權型別或存取層級設定，請聯絡Workfront管理員。 如需存取需求的詳細資訊，請參閱 [Workfront檔案中的存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
 
 ## 開始建立自訂表單
 
-1. 按一下 **主要功能表** 圖示 ![](assets/main-menu-icon.png) (位於Adobe Workfront的右上角)，然後按一下 **設定** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. 按一下 **自訂Forms** 在左側面板中。
 
-   在顯示的檢視中，您可以檢閱為組織建立的所有自訂表單和自訂欄位。 您還可以檢視每個表單的建立者以及與其關聯的欄位。
+   自訂表單會顯示在清單中。 您可以檢閱為您的組織建立的所有自訂表單和自訂欄位。 您也可以檢視每個表單的建立者、與其相關聯的物件，以及表單是否處於作用中狀態。
 
 1. 按一下 **新增自訂表格。**
 1. 請至少選取一個要與自訂表單關聯的物件型別，然後按一下 **繼續**.
@@ -61,13 +67,15 @@ ht-degree: 0%
 
 1. 在 **表單設定** 開啟的標籤，鍵入 **表單標題** 和選填 **說明** 用於自訂表格。
 
-1. （選擇性）如果要將更多物件型別加入表單，以便將其附加到更多物件，請按一下「物件型別」後面的加號，然後在顯示的選單中選取您想要的物件型別。
+1. （選擇性）如果要將更多物件型別加入表單，以便將其附加到更多物件，請按一下 **加** 於以下時間後簽署： **物件型別**，然後在顯示的功能表中選取您想要的物件型別。
 
-   您可以重複此動作，以新增任意數目的物件型別。您也可以按一下物件型別上的X，將其從表單中刪除。
+   您可以重複此步驟，新增任意數目的物件型別。
+
+1. （可選）按一下 **X** 物件型別，以將其從表單中刪除。
 
    如需有關從已儲存的自訂表單中刪除物件型別的資訊，請參閱 [刪除自訂表單上的物件型別](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/delete-object-type-on-a-custom-form.md).
 
-1. 按一下 **完成**.
+1. 按一下 **完成** 在熒幕的左下角。
 
    >[!TIP]
    >
@@ -96,11 +104,11 @@ ht-degree: 0%
 >
 >一般而言，建議您儘可能減少編輯已使用中的自訂表單的次數。 沒有通知系統可提醒使用自訂表單的人員您的變更。
 
-1. 按一下 **主要功能表** 圖示 ![](assets/main-menu-icon.png) (位於Adobe Workfront的右上角)，然後按一下 **設定** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. 按一下 **自訂Forms** 在左側面板中。
 
-   在出現的檢視中，您可以檢閱為組織建立的所有自訂表單。 您也可以檢視每個表單的建立者、表單使用的物件型別，以及表單是否使用中。
+   自訂表單會顯示在清單中。 您可以檢閱為您的組織建立的所有自訂表單和自訂欄位。 您也可以檢視每個表單的建立者、與其相關聯的物件，以及表單是否處於作用中狀態。
 
 1. 選取您要編輯的自訂表單，然後按一下 **編輯**.
 1. （可選）若要變更自訂表單的標題和說明，請按一下 **表單設定** 標籤，然後輸入 **表單標題** 和 **說明**.

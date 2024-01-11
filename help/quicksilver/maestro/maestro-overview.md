@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: 50e6b09d626325ee2836dc0ebaf79fc1e8cc9da9
+source-git-commit: 1ae60512c337d778939ef6c48fd2eda8b279dcce
 workflow-type: tm+mt
-source-wordcount: '1959'
+source-wordcount: '1903'
 ht-degree: 1%
 
 ---
@@ -15,10 +15,6 @@ ht-degree: 1%
 # Adobe大師概觀
 
 <!--udpate the metadata with real information when making this avilable in TOC and in the left nav-->
-
-<!--see the separate article I wrote to have the PMs vet it for this: https://adobe-my.sharepoint.com/personal/alinaw_adobe_com/_layouts/15/doc.aspx?sourcedoc={79f94807-3d73-4015-afc0-5c016fc63cfc}&action=edit-->
-
-<!--all the links are hidden for now, so I can share this with customer zero. Activate the links before making this public. -->
 
 <!-- remove the references to closed beta from the entire article-->
 
@@ -82,8 +78,8 @@ Adobe大師是Adobe Workfront的新產品。 Maestro的目的在於全面掌握�
 | 將Maestro記錄連線至Adobe Experience Manager資產 | ✓ (A) |                                  |                 |
 | 記錄詳細資訊頁面 | ✓ (A) |                                  |                  |
 | 更新記錄詳細資訊頁面的版面 |                               | ✓ (A) |                  |
-| 共用工作區 | | ✓ (A) |  |
-| 共用檢視 | | ✓ (A) |  |
+| 共用工作區 | ✓ (A) | |  |
+| 共用檢視 | ✓ (A) | |  |
 | 提交請求 |                               |                                  | ✓ (A) |
 | 創意簡報 |                               |                                  | ✓ (A) |
 | 自訂記錄的顏色和圖示 | ✓ (A) |                                  |                 |
@@ -92,15 +88,11 @@ Adobe大師是Adobe Workfront的新產品。 Maestro的目的在於全面掌握�
 | Adobe Workfront Fusion的Maestro模組 | ✓ (A) |                                  |                 |
 | 從一個欄位複製資訊並貼上到另一個欄位 | ✓ (A) |                                  |                 |
 
-## 在封閉Beta版計畫期間使用Maestro所需的存取權
+## 為您的Workfront執行個體中的使用者啟用Maestro
 
->[!IMPORTANT]
->
->目前，沒有與使用者或Maestro中的資訊相關聯的存取層級或許可權。 所有使用者都可以檢視、編輯和刪除任何其他使用者新增至Maestro的所有資訊。
+貴組織必須註冊AdobeMaestro封閉測試版計畫，您才能存取Maestro。 如需註冊Beta版計畫的相關資訊，請聯絡客戶代表。
 
-如需使用Maestro所需存取權的詳細資訊，請參閱 [Adobe大師存取概觀](../maestro/access/access-overview.md).
-
-<!--take the IMPORTANT note out when we release permissions; keep the link to the Access article-->
+如需有關授予存取權以及允許其他人使用Maestro的詳細資訊，請參閱 [存取權總覽](/help/quicksilver/maestro/access/access-overview.md).
 
 ## Maestro術語
 
@@ -185,7 +177,7 @@ Maestro的架構是完全可自訂的。 您可以建立所有記錄型別、其
 
    * Maestro欄位完全可自訂，僅可在Maestro中存取。 您無法從Workfront存取Maestro欄位。
 
-  如需詳細資訊，請參閱 [建立欄位](../maestro/fields/create-fields.md)
+  如需詳細資訊，請參閱 [建立欄位](../maestro/fields/create-fields.md).
 
   依預設，新的作業記錄型態與下列預先定義的欄位相關聯：
 
@@ -208,6 +200,7 @@ Maestro的架構是完全可自訂的。 您可以建立所有記錄型別、其
    * 百分比
    * 貨幣
    * 核取方塊
+   * 公式
    * 人員
    * 建立者
    * 建立日期
@@ -272,12 +265,6 @@ Maestro的架構是完全可自訂的。 您可以建立所有記錄型別、其
 | 您可以透過記錄型別表格的API匯入的檔案大小 | 1.5毫巴 |
 | 提出API要求的速率 | 每分鐘200個請求 |
 | 您可在表格中匯入的Excel檔案CSV大小 | 5MB |
-
-## 為您的Workfront執行個體中的使用者啟用Maestro
-
-貴組織必須註冊AdobeMaestro封閉測試版計畫，您才能存取Maestro。 如需註冊Beta版計畫的相關資訊，請聯絡客戶代表。
-
-如需有關授予存取權以及允許其他人使用Maestro的詳細資訊，請參閱 [存取權總覽](/help/quicksilver/maestro/access/access-overview.md).
 
 ## 找到Maestro
 

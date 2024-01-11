@@ -7,17 +7,19 @@ author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: 23372e16-3933-445d-977c-901f52299cb2
-source-git-commit: 59c3a57e334d1660e3e59da480a90060b1ba81b7
+source-git-commit: 297e72ebb70c335078d65e7ed6e28862285d2fb1
 workflow-type: tm+mt
-source-wordcount: '1400'
+source-wordcount: '1397'
 ht-degree: 0%
 
 ---
 
 # 計畫專案概述
 
+<!--Audited: 01/2024-->
+
 <!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: see if you need to add something about approval settings and users's time off might add time to tasks' timelines - Ninja story 2019.3) </p>
+< see if you need to add something about approval settings and users's time off might add time to tasks' timelines - Ninja story 2019.3) </p>
 -->
 
 專案是Adobe Workfront中的大型工作專案。 您可以將專案劃分為較小工作專案的任務，例如任務。 可以將任務指派給負責完成任務的使用者或團隊。 當所有使用者完成其任務時，專案也會變得完成。
@@ -58,7 +60,7 @@ ht-degree: 0%
 
 ### 定義專案排程 {#define-the-project-schedule}
 
-您必須決定排程並將其與專案相關聯，以及與負責完成專案任務的使用者相關聯。
+您必須決定排程，並將其與專案相關聯，並與負責完成專案任務的使用者相關聯。
 
 請考慮在排程上定義下列專案：
 
@@ -118,7 +120,7 @@ ht-degree: 0%
 
 ## 定義任務 {#define-tasks}
 
-當您定義專案目標及與其相關的任務時，就是要建立專案時間表。
+當您定義專案目標及與其相關的任務時，就是建立專案時間表。
 
 您可以透過下列方式在專案上建立任務：
 

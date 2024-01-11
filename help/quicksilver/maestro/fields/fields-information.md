@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: d06028d9-9230-4a6c-a227-20618067192c
-source-git-commit: bccd29ce284ca247b51971369102b5992061afb0
+source-git-commit: 1ae60512c337d778939ef6c48fd2eda8b279dcce
 workflow-type: tm+mt
-source-wordcount: '157'
+source-wordcount: '159'
 ht-degree: 0%
 
 ---
@@ -44,4 +44,4 @@ hide: yes
 * [建立欄位](../fields/create-fields.md)
 * [編輯欄位](../fields/edit-fields.md)
 * [刪除欄位](../fields/delete-fields.md)
-  <!--* [Formula fields](../fields/formula-fields.md)-->
+* [公式欄位](../fields/formula-fields.md)
