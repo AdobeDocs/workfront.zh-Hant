@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: a1ad5ada-5010-4dec-934e-a49a3e28aa5f
-source-git-commit: 6f026590f0030b564f0d110afead9ade1acd7896
+source-git-commit: ce015eba8291995eec1611917896a0e797f820cc
 workflow-type: tm+mt
-source-wordcount: '541'
-ht-degree: 2%
+source-wordcount: '554'
+ht-degree: 1%
 
 ---
 
@@ -101,7 +101,7 @@ hide: yes
 
 * 只有當您連線Maestro記錄型別與Workfront物件型別，並從Workfront物件新增連結或查詢欄位時，才能從Workfront存取連結欄位。 如需詳細資訊，請參閱 [連線記錄型別](../architecture/connect-record-types.md).
 
-* 您可以檢視和更新您或任何其他使用者建立的欄位設定。 <!--this will change with access/ permissions-->
+* 如果您擁有欄位所屬工作區的管理許可權，您可以檢視和更新您或任何其他使用者建立的欄位設定。
 
 * 一個記錄型別最多可以有500個欄位。
 

@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: ec48db42-2395-4439-97ae-e4f5242170b7
-source-git-commit: 1ae60512c337d778939ef6c48fd2eda8b279dcce
+source-git-commit: ce015eba8291995eec1611917896a0e797f820cc
 workflow-type: tm+mt
 source-wordcount: '390'
 ht-degree: 0%
@@ -114,12 +114,6 @@ recommendations: noDisplay, noCatalog
 >[!NOTE]
 >
 >If you don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see [Create or modify custom access levels](../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md). -->
-
-<!-- Notes to add for the table: for the "Workfront plans" row: the above is only for closed beta; when going to GA - activate the following plans:    
-<p>Current plan: Prime and Ultimate</p>
-<p>Legacy plan: Enterprise</p>-->
-
-<!-- Notes for the table: for the "Workfront access" row: <p>For more information, see <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront licenses overview</a>.</p>-->
 
 ## 刪除欄位
 

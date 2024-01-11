@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 6c35c313-d6ed-428b-b70d-2ea242da4e8f
-source-git-commit: 74db651f8865965f943bc89e58e7130cffe0c450
+source-git-commit: ce015eba8291995eec1611917896a0e797f820cc
 workflow-type: tm+mt
-source-wordcount: '470'
+source-wordcount: '528'
 ht-degree: 0%
 
 ---
@@ -42,12 +42,13 @@ recommendations: noDisplay, noCatalog
 
 如需有關建立Adobe主要欄位的資訊，請參閱 [建立欄位](../fields/create-fields.md).
 
-本文說明如何編輯Maestro欄位的設定。 如需有關編輯Maestro記錄欄位值的資訊，請參閱 [編輯記錄](../records/edit-records.md).
+本文說明如何編輯Maestro欄位的設定。 如需有關編輯Maestro記錄欄位值的資訊，請參閱 [編輯記錄](/help/quicksilver/maestro/records/edit-records.md).
 
 ## 編輯欄位資訊的考量事項
 
-* 您可以編輯您建立的欄位或其他使用者建立的欄位。 <!--this will change with access levels/ permissions - take out, it's in the table!-->
+* 如果您擁有該欄位所屬工作區的管理許可權，您可以編輯您建立的欄位或其他使用者建立的欄位。
 * 您可以在記錄型別表格中編輯欄位。
+* 您無法在記錄的詳細資訊頁面或時間軸檢視中編輯欄位。
 * 儲存欄位後，您無法編輯欄位型別。
 * 如果先前選取的「數字」、「百分比」或「幣別」欄位在其附加的記錄中已有負值，則無法取消選取該欄位的「允許負數」設定。
 <!--this is not true yet; one piece of it is true and I added it as the bullet above: 
@@ -63,9 +64,14 @@ recommendations: noDisplay, noCatalog
 
 <table style="table-layout:auto">
  <col>
+ </col>
+ <col>
+ </col>
  <tbody>
+    <tr>
+<tr>
 <td>
-   <p> Adobe產品</p> </td>
+   <p> 產品</p> </td>
    <td>
    <p> Adobe Workfront</p> </td>
   </tr>  
@@ -88,83 +94,30 @@ recommendations: noDisplay, noCatalog
   </tr>
 
 <tr>
-   <td role="rowheader">存取層級</td>
-   <td> <p>任何</p>  
+   <td role="rowheader"><p>存取層級設定</p></td>
+   <td> <p>Maestro沒有存取控制</p>  
+</td>
+  </tr>
+
+<tr>
+   <td role="rowheader"><p>權限</p></td>
+   <td> <p>管理工作區的許可權</a> </p>  
+   <p>系統管理員擁有所有工作區的許可權，包括他們未建立的工作區</p>
 </td>
   </tr>
 <tr>
-   <td role="rowheader">版面配置範本</td>
-   <td> <p>您的系統管理員必須在您的版面配置範本中新增Maestro區域。 如需詳細資訊，請參閱 <a href="../access/access-overview.md">存取權總覽</a>. </p>  
+   <td role="rowheader"><p>版面配置範本</p></td>
+   <td> <p>您的Workfront或群組管理員必須在您的版面配置範本中新增Maestro區域。 如需詳細資訊，請參閱 <a href="../access/access-overview.md">存取權總覽</a>. </p>  
 </td>
   </tr>
- </tbody>
+
+</tbody>
 </table>
-
-<!--
-After permssions - replace the table with: 
-
-<table style="table-layout:auto">
- <col>
- </col>
- <col>
- </col>
- <tbody>
-    <tr>
-<tr>
-<td>
-   <p> Adobe product</p> </td>
-   <td>
-   <p> Adobe Workfront</p> </td>
-  </tr>  
- <td role="rowheader"><p>Adobe Workfront agreement</p></td>
-   <td>
-<p>Your organization must be enrolled in the Adobe Maestro closed beta program. Contact your account representative to inquire about this new offering. </p>
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront plan</p></td>
-   <td>
-<p>Any</p>
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront license</p></td>
-   <td>
-   <p>Any</p> 
-  </td>
-  </tr>
-  
-  <tr>
-   <td role="rowheader"><p>Access level</p></td>
-   <td> <p>Any</p>  
-</td>
-  </tr>
-<tr>
-   <td role="rowheader"><p>Layout template</p></td>
-   <td> <p>Your Workfront or group administrator must add the Maestro area in your layout template. For information, see <a href="../access/access-overview.md">Access overview</a>. </p>  
-</td>
-  </tr>
-<tr>
-   <td role="rowheader"><p>Permissions</p></td>
-   <td> <p>Manage permissions to a workspace</a> </p>  
-   <p>System Administrators have permissions to all workspaces, including the ones they did not create</p>
-</td>
-  </tr>
- </tbody>
-</table>
-
--->
 
 <!--Maybe enable this at GA - but Maestro is not supposed to have Access controls in the Workfront Access Level: 
 >[!NOTE]
 >
 >If you don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see [Create or modify custom access levels](../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md). -->
-
-<!-- Notes to add for the table: for the "Workfront plans" row: the above is only for closed beta; when going to GA - activate the following plans:    
-<p>Current plan: Prime and Ultimate</p>
-<p>Legacy plan: Enterprise</p>-->
-
-<!-- Notes for the table: for the "Workfront access" row: <p>For more information, see <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront licenses overview</a>.</p>-->
 
 ## 編輯欄位
 

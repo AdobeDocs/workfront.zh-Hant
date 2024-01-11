@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 99fac041-a235-4991-b826-d19944164bc9
-source-git-commit: 1ae60512c337d778939ef6c48fd2eda8b279dcce
+source-git-commit: ce015eba8291995eec1611917896a0e797f820cc
 workflow-type: tm+mt
-source-wordcount: '423'
+source-wordcount: '420'
 ht-degree: 0%
 
 ---
@@ -89,7 +89,7 @@ ht-degree: 0%
  </tbody>
 </table>
 
-*如需新的和目前定價模式的詳細資訊，請參閱 [Workfront檔案中的存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*如需有關Workfront存取需求的詳細資訊，請參閱 [Workfront檔案中的存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 
 ## 與其他共用主功能表中的Maestro區域

@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: 74db651f8865965f943bc89e58e7130cffe0c450
+source-git-commit: ce015eba8291995eec1611917896a0e797f820cc
 workflow-type: tm+mt
-source-wordcount: '1646'
+source-wordcount: '1659'
 ht-degree: 0%
 
 ---
@@ -46,9 +46,14 @@ role: User
 
 <table style="table-layout:auto">
  <col>
+ </col>
+ <col>
+ </col>
  <tbody>
+    <tr>
+<tr>
 <td>
-   <p> Adobe產品</p> </td>
+   <p> 產品</p> </td>
    <td>
    <p> Adobe Workfront</p> </td>
   </tr>  
@@ -71,10 +76,17 @@ role: User
   </tr>
 
 <tr>
-   <td role="rowheader">存取層級</td>
-   <td> <p>任何</p>  
+   <td role="rowheader">存取層級設定</td>
+   <td> <p>Maestro沒有存取層級控制項 </p>  
 </td>
   </tr>
+
+<tr>
+   <td role="rowheader"><p>權限</p></td>
+   <td> <p>管理檢視的許可權</p>  
+</td>
+  </tr>
+
 <tr>
    <td role="rowheader">版面配置範本</td>
    <td> <p>您的系統管理員必須在您的版面配置範本中新增Maestro區域。 如需詳細資訊，請參閱 <a href="../access/access-overview.md">存取權總覽</a>. </p>  
@@ -82,62 +94,6 @@ role: User
   </tr>
  </tbody>
 </table>
-
-<!--
-When we release permissions to views:
-
-<table style="table-layout:auto">
- <col>
- </col>
- <col>
- </col>
- <tbody>
-    <tr>
-<tr>
-<td>
-   <p> Product</p> </td>
-   <td>
-   <p> Adobe Workfront</p> </td>
-  </tr>  
- <td role="rowheader"><p>Adobe Workfront agreement</p></td>
-   <td>
-<p>Your organization must be enrolled in the Adobe Maestro closed beta program. Contact your account representative to inquire about this new offering. </p>
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront plan</p></td>
-   <td>
-<p>Any</p>
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront license</p></td>
-   <td>
-   <p>Any</p> 
-  </td>
-  </tr>
-  
-  <tr>
-   <td role="rowheader">Access level configurations</td>
-   <td> <p>There are no access controls for Maestro objects</p>  
-</td>
-  </tr>
-
-  <tr>
-   <td role="rowheader"><p>Object permissions</p></td>
-   <td> <p>Manage permissions to the view</p>  
-</td>
-  </tr>
-
-<tr>
-   <td role="rowheader">Layout template</td>
-   <td> <p>Your system administrator must add the Maestro area in your layout template. For information, see <a href="../access/access-overview.md">Access overview</a>. </p>  
-</td>
-  </tr>
- </tbody>
-</table>
-
--->
 
 
 ## 管理時間表檢視 {#manage-a-timeline-view}

@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7d6de742-9657-4286-968c-1fc78ebbb94e
-source-git-commit: 74db651f8865965f943bc89e58e7130cffe0c450
+source-git-commit: ce015eba8291995eec1611917896a0e797f820cc
 workflow-type: tm+mt
-source-wordcount: '447'
+source-wordcount: '513'
 ht-degree: 0%
 
 ---
@@ -46,11 +46,16 @@ hide: yes
 
 <table style="table-layout:auto">
  <col>
+ </col>
+ <col>
+ </col>
  <tbody>
+    <tr>
+<tr>
 <td>
-   <p> Adobe產品</p> </td>
+   <p> 產品</p> </td>
    <td>
-   <p> Adobe Workfront</p> </td>
+   <p> Adobe Workfront</p> <p>若要將Maestro記錄型別與Experience Manager Assets連線，您必須擁有Adobe Experience Manager Assets授權，並且貴組織的Workfront執行個體必須上線至Adobe Business Platform或Adobe Admin Console。</p> </td>
   </tr>  
  <td role="rowheader"><p>Adobe Workfront合約</p></td>
    <td>
@@ -71,84 +76,30 @@ hide: yes
   </tr>
 
 <tr>
-   <td role="rowheader">存取層級</td>
-   <td> <p>任何</p>  
+   <td role="rowheader"><p>存取層級設定</p></td>
+   <td> <p>Maestro沒有存取層級控制項</p>  
+</td>
+  </tr>
+
+<tr>
+   <td role="rowheader"><p>權限</p></td>
+   <td> <p>管理工作區的許可權</a> </p>  
+   <p>系統管理員擁有所有工作區的許可權，包括他們未建立的工作區
 </td>
   </tr>
 <tr>
-   <td role="rowheader">版面配置範本</td>
-   <td> <p>您的系統管理員必須在您的版面配置範本中新增Maestro區域。 如需詳細資訊，請參閱 <a href="../access/access-overview.md">存取權總覽</a>. </p>  
+   <td role="rowheader"><p>版面配置範本</p></td>
+   <td> <p>您的Workfront或群組管理員必須在您的版面配置範本中新增Maestro區域。 如需詳細資訊，請參閱 <a href="../access/access-overview.md">存取權總覽</a>. </p>  
 </td>
   </tr>
- </tbody>
+
+</tbody>
 </table>
-
-
-<!--
-After permssions - replace the table with: 
-
-<table style="table-layout:auto">
- <col>
- </col>
- <col>
- </col>
- <tbody>
-    <tr>
-<tr>
-<td>
-   <p> Adobe product</p> </td>
-   <td>
-   <p> Adobe Workfront</p> </td>
-  </tr>  
- <td role="rowheader"><p>Adobe Workfront agreement</p></td>
-   <td>
-<p>Your organization must be enrolled in the Adobe Maestro closed beta program. Contact your account representative to inquire about this new offering. </p>
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront plan</p></td>
-   <td>
-<p>Any</p>
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront license</p></td>
-   <td>
-   <p>Any</p> 
-  </td>
-  </tr>
-  
-  <tr>
-   <td role="rowheader"><p>Access level</p></td>
-   <td> <p>Any</p>  
-</td>
-  </tr>
-<tr>
-   <td role="rowheader"><p>Layout template</p></td>
-   <td> <p>Your Workfront or group administrator must add the Maestro area in your layout template. For information, see <a href="../access/access-overview.md">Access overview</a>. </p>  
-</td>
-  </tr>
-<tr>
-   <td role="rowheader"><p>Permissions</p></td>
-   <td> <p>Manage permissions to a workspace</a> </p>  
-   <p>System Administrators have permissions to all workspaces, including the ones they did not create</p>
-</td>
-  </tr>
- </tbody>
-</table>
-
--->
 
 <!--Maybe enable this at GA - but Maestro is not supposed to have Access controls in the Workfront Access Level: 
 >[!NOTE]
 >
 >If you don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see [Create or modify custom access levels](../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md). -->
-
-<!-- Notes to add for the table: for the "Workfront plans" row: the above is only for closed beta; when going to GA - activate the following plans:    
-<p>Current plan: Prime and Ultimate</p>
-<p>Legacy plan: Enterprise</p>-->
-
-<!-- Notes for the table: for the "Workfront access" row: <p>For more information, see <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront licenses overview</a>.</p>-->
 
 ## 編輯記錄型別
 

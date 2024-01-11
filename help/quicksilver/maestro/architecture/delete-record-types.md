@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 70fd3887-3871-45b5-9c21-f57da63662aa
-source-git-commit: 74db651f8865965f943bc89e58e7130cffe0c450
+source-git-commit: ce015eba8291995eec1611917896a0e797f820cc
 workflow-type: tm+mt
-source-wordcount: '406'
+source-wordcount: '456'
 ht-degree: 0%
 
 ---
@@ -51,11 +51,16 @@ hide: yes
 
 <table style="table-layout:auto">
  <col>
+ </col>
+ <col>
+ </col>
  <tbody>
+    <tr>
+<tr>
 <td>
-   <p> Adobe產品</p> </td>
+   <p> 產品</p> </td>
    <td>
-   <p> Adobe Workfront</p> </td>
+   <p> Adobe Workfront</p> <p>若要將Maestro記錄型別與Experience Manager Assets連線，您必須擁有Adobe Experience Manager Assets授權，並且貴組織的Workfront執行個體必須上線至Adobe Business Platform或Adobe Admin Console。</p> </td>
   </tr>  
  <td role="rowheader"><p>Adobe Workfront合約</p></td>
    <td>
@@ -76,74 +81,25 @@ hide: yes
   </tr>
 
 <tr>
-   <td role="rowheader">存取層級</td>
-   <td> <p>任何</p>  
+   <td role="rowheader"><p>存取層級設定</p></td>
+   <td> <p>Maestro沒有存取層級控制項</p>  
+</td>
+  </tr>
+
+<tr>
+   <td role="rowheader"><p>權限</p></td>
+   <td> <p>管理工作區的許可權</a> </p>  
+   <p>系統管理員擁有所有工作區的許可權，包括他們未建立的工作區
 </td>
   </tr>
 <tr>
-   <td role="rowheader">版面配置範本</td>
-   <td> <p>您的系統管理員必須在您的版面配置範本中新增Maestro區域。 如需詳細資訊，請參閱 <a href="../access/access-overview.md">存取權總覽</a>. </p>  
+   <td role="rowheader"><p>版面配置範本</p></td>
+   <td> <p>您的Workfront或群組管理員必須在您的版面配置範本中新增Maestro區域。 如需詳細資訊，請參閱 <a href="../access/access-overview.md">存取權總覽</a>. </p>  
 </td>
   </tr>
- </tbody>
+
+</tbody>
 </table>
-
-<!--
-After permssions - replace the table with: 
-
-<table style="table-layout:auto">
- <col>
- </col>
- <col>
- </col>
- <tbody>
-    <tr>
-<tr>
-<td>
-   <p> Adobe product</p> </td>
-   <td>
-   <p> Adobe Workfront</p> </td>
-  </tr>  
- <td role="rowheader"><p>Adobe Workfront agreement</p></td>
-   <td>
-<p>Your organization must be enrolled in the Adobe Maestro closed beta program. Contact your account representative to inquire about this new offering. </p>
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront plan</p></td>
-   <td>
-<p>Any</p>
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront license</p></td>
-   <td>
-   <p>Any</p> 
-  </td>
-  </tr>
-  
-  <tr>
-   <td role="rowheader"><p>Access level</p></td>
-   <td> <p>Any</p>  
-</td>
-  </tr>
-<tr>
-   <td role="rowheader"><p>Layout template</p></td>
-   <td> <p>Your Workfront or group administrator must add the Maestro area in your layout template. For information, see <a href="../access/access-overview.md">Access overview</a>. </p>  
-</td>
-  </tr>
-<tr>
-   <td role="rowheader"><p>Permissions</p></td>
-   <td> <p>Manage permissions to a workspace</a> </p>  
-   <p>System Administrators have permissions to all workspaces, including the ones they did not create
-</td>
-  </tr>
- </tbody>
-</table>
-
--->
-
-
 
 <!--Maybe enable this at GA - but Maestro is not supposed to have Access controls in the Workfront Access Level: 
 >[!NOTE]
@@ -160,17 +116,17 @@ After permssions - replace the table with:
 
 <!--check this and ensure these are still true - some things might change with / after closed beta-->
 
-* 您可以刪除您或您組織中的任何人已建立的任何記錄型別或分類法。 <!--this will change with access levels and permissions-->
-* 刪除記錄型別會移除與其相關的所有資訊，包括該型別的欄位和記錄。
+* 您只能從您擁有「管理」許可權的工作區中刪除記錄型別或分類。
+* 刪除記錄型別會移除與其相關的所有資訊，包括該型別的欄位和記錄。 記錄型別會從存取工作區的所有使用者中移除。
 * 您無法復原已刪除的記錄型別或其資訊。
 
 ## 刪除記錄型別
 
 刪除分類記錄型別與刪除作業記錄型別相同。
 
-1. 按一下 **主要功能表** 圖示 ![](assets/main-menu-workfront.png) 位於Workfront右上角，或 **主功能表** 圖示 ![](assets/main-menu-shell.png)  （如果有的話）按一下 **大師** ![](assets/maestro-icon.png).
+{{step1-to-maestro}}
 
-   根據預設，上次存取的工作區應該會開啟。
+根據預設，上次存取的工作區應該會開啟。
 
 1. （可選）展開現有工作區名稱右側的向下箭頭，並選取您要刪除記錄型別的工作區。
 

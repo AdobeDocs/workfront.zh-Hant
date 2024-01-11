@@ -5,15 +5,13 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 475a519d-d3bd-4461-8099-0e296d556d34
-source-git-commit: 50e6b09d626325ee2836dc0ebaf79fc1e8cc9da9
+source-git-commit: ce015eba8291995eec1611917896a0e797f820cc
 workflow-type: tm+mt
-source-wordcount: '359'
-ht-degree: 1%
+source-wordcount: '358'
+ht-degree: 2%
 
 ---
 
-
-<!--*****************ADD TO TOC AND MINITOC WHEN RELEASING*********************-->
 
 <!--update the metadata and description when we turn this article live; also, update title after Bob adds Maestro as a product-->
 
@@ -68,7 +66,7 @@ ht-degree: 1%
   </tr>
 
 <tr>
-   <td role="rowheader"><p>物件許可權</p></td>
+   <td role="rowheader"><p>權限</p></td>
    <td> <p>管理工作區的許可權</p>  
 </td>
   </tr>

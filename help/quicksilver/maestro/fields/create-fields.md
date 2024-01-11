@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: 1ae60512c337d778939ef6c48fd2eda8b279dcce
+source-git-commit: ce015eba8291995eec1611917896a0e797f820cc
 workflow-type: tm+mt
-source-wordcount: '3360'
+source-wordcount: '3390'
 ht-degree: 2%
 
 ---
@@ -118,12 +118,6 @@ recommendations: noDisplay, noCatalog
 >[!NOTE]
 >
 >If you don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see [Create or modify custom access levels](../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md). -->
-
-<!-- Notes to add for the table: for the "Workfront plans" row: the above is only for closed beta; when going to GA - activate the following plans:    
-<p>Current plan: Prime and Ultimate</p>
-<p>Legacy plan: Enterprise</p>-->
-
-<!-- Notes for the table: for the "Workfront access" row: <p>For more information, see <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront licenses overview</a>.</p>-->
 
 ## 從頭開始建立欄位 {#create-fields-from-scratch}
 
@@ -388,6 +382,11 @@ recommendations: noDisplay, noCatalog
    如需支援哪些運算式的詳細資訊，請參閱 [公式欄位概觀](/help/quicksilver/maestro/fields/formula-fields.md)
 
 1. 在Maestro介面中新增欄位名稱，以在公式中參照它們。
+
+   >[!NOTE]
+   >
+   >    您無法從公式中的連結記錄新增欄位。 此功能將在稍後發佈。 如需新版本的詳細資訊，請參閱 [Adobe Maestro發行活動](/help/quicksilver/maestro/release-activity.md).
+
 
 1. 按一下「**建立**」。
 

@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 604b84c1-4ec6-4d4a-b9f4-4223641ff2ea
-source-git-commit: 74db651f8865965f943bc89e58e7130cffe0c450
+source-git-commit: ce015eba8291995eec1611917896a0e797f820cc
 workflow-type: tm+mt
-source-wordcount: '525'
+source-wordcount: '561'
 ht-degree: 0%
 
 ---
@@ -36,9 +36,14 @@ ht-degree: 0%
 
 <table style="table-layout:auto">
  <col>
+ </col>
+ <col>
+ </col>
  <tbody>
+    <tr>
+<tr>
 <td>
-   <p> Adobe產品</p> </td>
+   <p> 產品</p> </td>
    <td>
    <p> Adobe Workfront</p> </td>
   </tr>  
@@ -54,81 +59,35 @@ ht-degree: 0%
    </td>
   </tr>
   <tr>
-   <td role="rowheader"><p>Adobe Workfront授權</p></td>
+   <td role="rowheader"><p>Adobe Workfront授權*</p></td>
    <td>
-   <p>任何</p> 
+   <p>新增：標準</p>
+   <p>目前：工作或以上</p> 
   </td>
   </tr>
 
 <tr>
-   <td role="rowheader">存取層級</td>
-   <td> <p>任何</p>  
+   <td role="rowheader"><p>存取層級設定</p></td>
+   <td> <p>Maestro沒有存取層級控制項</p>
 </td>
   </tr>
+
 <tr>
-   <td role="rowheader">版面配置範本</td>
-   <td> <p>您的系統管理員必須在您的版面配置範本中新增Maestro區域。 如需詳細資訊，請參閱 <a href="../access/access-overview.md">存取權總覽</a>. </p>  
+   <td role="rowheader"><p>權限</p></td>
+   <td> <p>您會收到您所建立之工作區的「管理」許可權。 </p>  
 </td>
   </tr>
- </tbody>
+
+<tr>
+   <td role="rowheader"><p>版面配置範本</p></td>
+   <td> <p>您必須將Maestro區域新增至您的版面配置範本。 如需詳細資訊，請參閱 <a href="../access/access-overview.md">存取權總覽</a>. </p>  
+</td>
+  </tr>
+
+</tbody>
 </table>
 
-<!--
-After permssions - replace the table with: 
-
-<table style="table-layout:auto">
- <col>
- </col>
- <col>
- </col>
- <tbody>
-    <tr>
-<tr>
-<td>
-   <p> Adobe product</p> </td>
-   <td>
-   <p> Adobe Workfront</p> </td>
-  </tr>  
- <td role="rowheader"><p>Adobe Workfront agreement</p></td>
-   <td>
-<p>Your organization must be enrolled in the Adobe Maestro closed beta program. Contact your account representative to inquire about this new offering. </p>
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront plan</p></td>
-   <td>
-<p>Any</p>
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront license</p></td>
-   <td>
-   <p>Any</p> 
-  </td>
-  </tr>
-  
-  <tr>
-   <td role="rowheader"><p>Access level*</p></td>
-   <td> <p>System Administrator</p>  
-   <p>The following license types:</p>
-   <ul><li>New: Standard</li>
-   <li>Current: Worker or higher </li></ul>
-</td>
-  </tr>
-<tr>
-   <td role="rowheader"><p>Layout template</p></td>
-   <td> <p>You must add the Maestro area to your layout template. For information, see <a href="../access/access-overview.md">Access overview</a>. </p>  
-</td>
-  </tr>
-
- </tbody>
-</table>
-
-For more information, see [Access requirements in Workfront documentation](/help/quicksilver\administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
--->
-
-
-
+如需存取需求的詳細資訊，請參閱 [Workfront檔案中的存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 <!--Maybe enable this at GA - but Maestro is not supposed to have Access controls in the Workfront Access Level: 
 >[!NOTE]
@@ -145,13 +104,15 @@ For more information, see [Access requirements in Workfront documentation](/help
 
 * 您可以為組織內的特定組織單位建立工作區，以符合每個單位的獨特運作方式。
 * 工作區包含的記錄型別和分類應反映組織單位的工作生命週期。
-* 建立工作區時，組織中的所有人都可以檢視、編輯或刪除工作區。  <!--this will change with access levels and permissions-->
+* 當您建立工作區時，只有您才有權存取和管理您的工作區。 您必須與其他使用者共用，他們才能在相同空間中與您共同作業。 如需詳細資訊，請參閱 [共用工作區](/help/quicksilver/maestro/access/share-workspaces.md).
 * 貴組織中最多可以有1,000個工作區。
 * 工作區包含每個工作區唯一的記錄型別。 <!--this might change-->
 
 ## 建立工作區
 
-1. （視條件而定）如果系統中沒有任何工作區，請按一下 **主要功能表** 圖示 ![](assets/main-menu-workfront.png) 位於Workfront右上角，或 **主功能表** 圖示 ![](assets/main-menu-shell.png)  （如果有的話）按一下 **大師** ![](assets/maestro-icon.png).
+{{step1-to-maestro}}
+
+1. （視條件而定）如果您的環境中沒有任何工作區，請按一下 **建立工作區**
 
    或者，從現有工作區中，按一下工作區名稱右側的向下指向，然後按一下 **建立工作區**.
 
