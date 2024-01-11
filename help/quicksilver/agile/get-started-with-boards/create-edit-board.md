@@ -6,9 +6,9 @@ description: 從 [!UICONTROL 展示板] 圖示板，您可以建立新電路板�
 author: Lisa
 feature: Agile
 exl-id: 5f755177-c8ea-4509-a34f-57ffcfd8ba7f
-source-git-commit: 38715b9571206fd3621b5c078c3eebe380297e9b
+source-git-commit: 1195738966734e311a1438002454b29c3fa6986a
 workflow-type: tm+mt
-source-wordcount: '764'
+source-wordcount: '742'
 ht-degree: 1%
 
 ---
@@ -28,24 +28,20 @@ ht-degree: 1%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] 計畫*</strong></td> 
+   <td role="rowheader">[!DNL Adobe Workfront] 計劃</td> 
    <td> <p>任何</p> </td> 
   </tr> 
     <tr> 
-   <td role="rowheader">Adobe Workfront授權*</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] 授權</td> 
    <td> <p>新增：投稿人或更高版本 </p>
  <p>或</p> 
 <p>目前： [！UICONTROL Request]或以上 </p> 
 </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] 授權*</strong></td> 
-   <td> <p>[！UICONTROL Request]或更高版本</p> </td> 
-  </tr> 
+  </tr>
  </tbody> 
 </table>
 
-&#42;若要瞭解您擁有的計畫、授權型別或存取權，請聯絡您的 [!DNL Workfront] 管理員。
+如需有關此表格的詳細資訊，請參閱 [Workfront檔案中的存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## 建立新展示板
 
@@ -64,6 +60,7 @@ ht-degree: 1%
 
 1. 僅適用於動態主機板，請遵循設定精靈步驟：
 
+   1. 輸入展示板的名稱，然後按一下 [!UICONTROL **下一個**].
    1. 搜尋並選取 [!DNL Workfront] [!UICONTROL **專案**] 將任務和問題帶入討論區。
    1. 搜尋並選取 [!UICONTROL **指定任務**] 將任務和問題帶入討論區。
 
@@ -71,13 +68,11 @@ ht-degree: 1%
 
       此 [!UICONTROL **正在新增的卡片**] 計數器會顯示展示板上有多少張卡片。 例如，如果您選取包含100個任務和問題的專案，計數器會顯示100。 如果您新增使用者指派，且該人員指派至專案上的5個任務，則計數器會顯示5。
 
-   1. （選用）選取 [!UICONTROL **將已完成的工作加入為封存的卡片**] 將完成的任務和問題以封存卡片的形式帶入展示板。
+   1. （選用）選取 [!UICONTROL **不要封存完成的卡片**] 將已完成的任務和問題帶入展示板，在「已完成」欄中顯示卡片。 未選取此選項時，建立展示板時完成的卡片會作為封存卡片帶入展示板上。
 
       >[!NOTE]
       >
       >預設情況下，已封存的卡片不會顯示在展示板上。 若要顯示封存的卡片，您必須開啟組態設定，然後篩選展示板以顯示封存的卡片。 如需詳細資訊，請參閱 [自訂要在卡片上顯示的欄位](/help/quicksilver/agile/get-started-with-boards/customize-fields-on-card.md) 和 [在展示板中篩選和搜尋](/help/quicksilver/agile/get-started-with-boards/filter-search-in-board.md).
-      >
-      >如果未選取此選項，建立展示板時完成的卡片不會顯示在展示板上。 稍後標籤為完成的卡片會保留在「完成」欄中的展示板上，除非您設定卡片減少，否則不會封存。 如需詳細資訊，請參閱 [設定卡片縮減](/help/quicksilver/agile/use-boards-agile-planning-tools/configure-card-falloff.md).
 
    1. （選用）按一下 [!UICONTROL **使用進階篩選**] 以顯示其他篩選選項。
 
