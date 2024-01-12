@@ -4,13 +4,13 @@ product-area: system-administration;user-management
 navigation-topic: organization-setup
 title: 建立和管理職務角色
 description: 作為 [!DNL Adobe Workfront] 管理員或具有職位角色管理存取權的使用者，您可以建立可指派給使用者的職位角色，並刪除與您的組織無關的預設職位角色。
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 664fb2fe-ff7e-4807-9a43-b37e7d5d57eb
-source-git-commit: 3af289f9aeecee417d1e82f9c66551360185b85c
+source-git-commit: e7ce6f0b02a1ecde3daaeb9ab678caaae112ac23
 workflow-type: tm+mt
-source-wordcount: '1163'
+source-wordcount: '1177'
 ht-degree: 0%
 
 ---
@@ -98,7 +98,7 @@ ht-degree: 0%
       <td>
         <p>選取與此工作角色關聯的貨幣。 這是具有以下特性的貨幣 [!DNL Workfront] 會使用來計算與此職務角色相關聯的成本和收入。 </p> 
         <p><span>與您設定的[！UICONTROL基本貨幣]不同 [!DNL Workfront] 管理員（位於[！UICONTROL設定]區域），且可能與專案相關的貨幣不同。</span> </p> 
-        <p>提示：此欄位僅提供您系統中[！UICONTROL Exchange Rates]區域中可用的貨幣。</p> 
+        <p>提示：此欄位僅提供您系統中[！UICONTROL Exchange Rates]區域中可用的貨幣。 如果您只設定一種貨幣，則此欄位不會出現。</p> 
        <p><span>如需有關在中設定[！UICONTROL基本貨幣]的資訊 [!DNL Workfront]，請參閱</span> <a href="../../../administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md" class="MCXref xref">設定匯率</a>.</p> <p><span>如需有關變更專案貨幣的資訊，請參閱</span> <a href="../../../manage-work/projects/project-finances/change-project-currency.md" class="MCXref xref">變更專案貨幣</a>.</p> </td> 
      </tr> 
      <tr data-mc-conditions=""> 

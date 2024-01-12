@@ -1,8 +1,8 @@
 ---
-source-git-commit: 849bd09f4d7bfa205b2a9dbc5c6f4acd2f394d2d
+source-git-commit: 6a6906419058c398ee7b780b2f05f45b90975df9
 workflow-type: tm+mt
-source-wordcount: '2241'
-ht-degree: 0%
+source-wordcount: '2285'
+ht-degree: 1%
 
 ---
 # 代碼片段
@@ -120,7 +120,7 @@ ht-degree: 0%
    >
    >使用者需要在Adobe Experience Manager Assets中擁有所指定資料夾的寫入許可權，才能建立連結資料夾。
 
-1. 按一下&#x200B;**儲存**。
+1. 按一下「**儲存**」。
 
 
 <!-- Home -->
@@ -142,9 +142,9 @@ ht-degree: 0%
 
 <!-- Integrations -->
 
-## 必要條件 {#cc-install-prereq}
+## 先決條件 {#cc-install-prereq}
 
-您必須為您使用的Adobe Creative Cloud應用程式安裝正確的外掛程式：
+您必須為正在使用的 Adobe Creative Cloud 應用程式安裝正確的外掛程式：
 * 若為Photoshop，請參閱 [安裝適用於Photoshop的Adobe Workfront](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install-ps.md)
 * 若為XD，請參閱 [安裝適用於XD的Adobe Workfront](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-xd-install.md)
 * 如需InDesign、Illustrator、Premiere Pro和After Effects的相關資訊，請參閱 [安裝Adobe Workfront以進行設計和製作影片](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-install-cc.md)
@@ -319,6 +319,10 @@ ht-degree: 0%
 
 1. 按一下 **[!UICONTROL 主要功能表]** 圖示 ![主要功能表](/help/_includes/assets/main-menu-icon.png) 在Adobe Workfront的右上角，或（如果有的話）按一下 **[!UICONTROL 主要功能表]** 圖示 ![主要功能表](/help/_includes/assets/main-menu-icon-left-nav.png) 然後按一下「 」 **[!UICONTROL 資源]**.
 
+## 步驟1 — 前往「使用率」報表 —  {#step1-to-utilization-report}
+
+1. 按一下 **[!UICONTROL 主要功能表]** 圖示 ![主要功能表](/help/_includes/assets/main-menu-icon.png) 在Adobe Workfront的右上角，或（如果有的話）按一下 **[!UICONTROL 主要功能表]** 圖示 ![主要功能表](/help/_includes/assets/main-menu-icon-left-nav.png) 然後按一下「 」 **[!UICONTROL 資源]**，然後 [!UICONTROL **使用率**] 在左側面板中。
+
 <!-- Review and approve work -->
 
 <!-- Scenario Planner -->
@@ -367,7 +371,7 @@ ht-degree: 0%
 
    如果任務或問題指派給多個使用者，除了為您的團隊選擇的多個狀態外，您會在下拉式選單中看到「完成我的部分」選項。
 
-1. 按一下 **[!UICONTROL 儲存變更]**.
+1. 按一下「**[!UICONTROL 儲存變更]**」。
 
 ## 將使用者與主團隊建立關聯 {#associate-users-with-home-team}
 
