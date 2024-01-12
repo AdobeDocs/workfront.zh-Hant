@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration, Approvals
 role: Admin
 exl-id: 1709e285-51a5-49a1-a03a-743a334fbe4d
-source-git-commit: d98bb6b6bb8ff3bff6f367f1376948d5104887e5
+source-git-commit: 8382b69e6a55af69397dd8f566395143f3c1dcd3
 workflow-type: tm+mt
-source-wordcount: '2202'
+source-wordcount: '2163'
 ht-degree: 1%
 
 ---
@@ -49,11 +49,11 @@ ht-degree: 1%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront計畫*</td> 
+   <td role="rowheader">Adobe Workfront計畫</td> 
    <td>任何</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront授權*</td> 
+   <td role="rowheader">Adobe Workfront授權</td> 
    <td> <p>新計畫：標準 </p>
  <p>或</p> 
 <p>目前計畫：計畫 </p> 
@@ -62,12 +62,12 @@ ht-degree: 1%
   <tr> 
    <td role="rowheader">存取層級設定*</td> 
    <td> <p>如果您是Workfront管理員或具有核准流程的管理存取權，則可以為特定群組建立系統層級核准流程，或群組層級核准流程。</p> 
-   <p>如果您是群組管理員，您可以為您管理的群組建立群組層級核准流程。</p> <p><b>注意</b>：如果您還是沒有存取權，請詢問Workfront管理員是否對您的存取層級設定了其他限制。 如需有關Workfront管理員如何修改您的存取層級的資訊，請參閱 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>.</p> </td> 
+   <p>如果您是群組管理員，您可以為您管理的群組建立群組層級核准流程。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;若要瞭解您擁有的計畫、授權型別或存取權，請聯絡您的Workfront管理員。
+如需有關此表格的詳細資訊，請參閱 [Workfront檔案中的存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## 建立工作專案的系統層次或群組層次全域核准程式
 

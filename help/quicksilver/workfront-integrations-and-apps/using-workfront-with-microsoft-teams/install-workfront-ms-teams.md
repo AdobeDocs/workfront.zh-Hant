@@ -6,9 +6,9 @@ description: 此 [!DNL Adobe Workfront for Microsoft Teams] 應用程式可讓�
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: a8d4e48c-1ccc-4e6e-a0a0-9b68748590c0
-source-git-commit: 3af289f9aeecee417d1e82f9c66551360185b85c
+source-git-commit: 8382b69e6a55af69397dd8f566395143f3c1dcd3
 workflow-type: tm+mt
-source-wordcount: '808'
+source-wordcount: '809'
 ht-degree: 0%
 
 ---
@@ -38,18 +38,18 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 計畫*</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] 計劃</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 授權*</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] 授權</td> 
    <td><p>新增：標準</p>
     <p>目前： [！UICONTROL Work]， [！UICONTROL Plan]</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;若要瞭解您擁有的計畫、授權型別或存取權，請聯絡您的 [!DNL Workfront] 管理員。
+如需有關此表格的詳細資訊，請參閱 [Workfront檔案中的存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## 先決條件
 

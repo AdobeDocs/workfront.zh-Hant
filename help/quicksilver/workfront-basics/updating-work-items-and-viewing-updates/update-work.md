@@ -6,9 +6,9 @@ description: 您可以在Adobe Workfront物件（專案、任務或問題）上�
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: ba0dc486dfb104eb9fb8c964875f77cf24f520fd
+source-git-commit: 8382b69e6a55af69397dd8f566395143f3c1dcd3
 workflow-type: tm+mt
-source-wordcount: '4189'
+source-wordcount: '4139'
 ht-degree: 1%
 
 ---
@@ -124,31 +124,28 @@ After the monthly releases to Production, the same features are also available i
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront計畫*</strong></td> 
+   <td role="rowheader"><strong>Adobe Workfront計畫</strong></td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront授權*</strong></td> 
+   <td role="rowheader"><strong>Adobe Workfront授權</strong></td> 
    <td> 
    <p>目前：問題與檔案的要求或更高；所有其他物件的檢閱或更高</p>
    <p>新增：問題和檔案的貢獻者或更高：所有其他物件的輕度或更高</p> 
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>存取層級設定*</strong></td> 
-   <td> <p>檢視或編輯更新所在物件的存取權</p> <p><b>附註</b>
-
-如果您還是沒有存取權，請詢問您的Workfront管理員，他們是否在您的存取層級中設定其他限制。 如需有關Workfront管理員如何修改您的存取層級的資訊，請參閱 <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>.</p> </td>
-</tr> 
+   <td role="rowheader"><strong>存取層級設定</strong></td> 
+   <td> <p>檢視或編輯更新所在物件的存取權</p></td> 
+  </tr> 
   <tr> 
    <td role="rowheader"><strong>物件許可權</strong></td> 
-   <td> <p>檢視物件的存取權</p> <p>如需請求其他存取許可權的詳細資訊，請參閱 <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">要求物件的存取權 </a>.</p> </td> 
+   <td> <p>檢視物件的存取權</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-
-&#42;若要瞭解您擁有的計畫、授權型別或存取權，請聯絡您的Workfront管理員。
+如需有關此表格的詳細資訊，請參閱 [Workfront檔案中的存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## 將更新新增至工作專案
 

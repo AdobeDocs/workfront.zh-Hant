@@ -6,9 +6,9 @@ description: 此 [!DNL Adobe Workfront] [!DNL Outlook] 增益集可讓您執行�
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 57f0560b-68c2-4654-863e-bd728e76da29
-source-git-commit: d98bb6b6bb8ff3bff6f367f1376948d5104887e5
+source-git-commit: 8382b69e6a55af69397dd8f566395143f3c1dcd3
 workflow-type: tm+mt
-source-wordcount: '726'
+source-wordcount: '727'
 ht-degree: 0%
 
 ---
@@ -40,11 +40,11 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 計畫*</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] 計劃</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 授權*</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] 授權</td> 
    <td> 
    <p>新計畫： [！UICONTROL Standard]</p> 
    <p>目前計畫：[！UICONTROL Work]， [！UICONTROL Plan]</p> </td> 
@@ -52,7 +52,7 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-&#42;若要瞭解您擁有的計畫、授權型別或存取權，請聯絡您的 [!DNL Workfront] 管理員。
+如需有關此表格的詳細資訊，請參閱 [Workfront檔案中的存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## 先決條件
 

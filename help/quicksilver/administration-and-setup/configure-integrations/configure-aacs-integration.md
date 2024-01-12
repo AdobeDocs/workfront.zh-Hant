@@ -6,9 +6,9 @@ description: 您可以在下列位置將您的工作與內容連結： [!DNL Exp
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: bc58cc77-a177-417f-a5a4-eec51e305219
-source-git-commit: 8764de907f49260908911ca393c1173b66dbb065
+source-git-commit: 8382b69e6a55af69397dd8f566395143f3c1dcd3
 workflow-type: tm+mt
-source-wordcount: '1395'
+source-wordcount: '1384'
 ht-degree: 0%
 
 ---
@@ -40,13 +40,13 @@ ht-degree: 0%
 
 <table>
   <tr>
-   <td><strong>[!DNL Adobe Workfront] 計畫*</strong>
+   <td><strong>[!DNL Adobe Workfront] 計畫</strong>
    </td>
    <td>任何
    </td>
   </tr>
   <tr>
-   <td><strong>[!DNL Adobe Workfront] 授權*</strong>
+   <td><strong>[!DNL Adobe Workfront] 授權</strong>
    </td>
    <td>目前： [！UICONTROL計畫] <br>
    新增：[！UICONTROL Standard]
@@ -67,13 +67,12 @@ ht-degree: 0%
   <tr>
    <td>存取層級設定*
    </td>
-   <td>您必須是 [!DNL Workfront] 管理員。 有關的資訊 [!DNL Workfront] 管理員，請參閱 <strong>授予使用者完整管理存取權</strong>.
+   <td>您必須是 [!DNL Workfront] 管理員。
    </td>
   </tr>
 </table>
 
-
-*若要瞭解您擁有的計畫、授權型別或存取權，請聯絡您的Workfront管理員。
+如需有關此表格的詳細資訊，請參閱 [Workfront檔案中的存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 
 ## 先決條件

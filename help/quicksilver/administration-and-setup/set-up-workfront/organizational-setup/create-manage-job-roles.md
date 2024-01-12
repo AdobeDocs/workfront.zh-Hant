@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 664fb2fe-ff7e-4807-9a43-b37e7d5d57eb
-source-git-commit: e7ce6f0b02a1ecde3daaeb9ab678caaae112ac23
+source-git-commit: 32441df90b915077f57ead791116dcbd32c9557a
 workflow-type: tm+mt
-source-wordcount: '1177'
+source-wordcount: '1140'
 ht-degree: 0%
 
 ---
@@ -32,18 +32,18 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 計畫*</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] 計劃</td> 
    <td> <p>任何 </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 授權*</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] 授權</td> 
    <td>
    <p>新增：標準</p>
    <p>目前： [！UICONTROL計畫]</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">存取層級設定*</td> 
-   <td> <p>職位角色的管理存取權</p> <p><b>注意</b>：如果您還是沒有存取權，請詢問您的 [!DNL Workfront] 管理員是否對您的存取層級設定其他限制。 如需瞭解如何 [!DNL Workfront] 管理員可以修改您的存取層級，請參閱 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>.</p> </td> 
+   <td role="rowheader">存取層級設定</td> 
+   <td> <p>職位角色的管理存取權</p> </td> 
   </tr> 
  </tbody> 
 </table>

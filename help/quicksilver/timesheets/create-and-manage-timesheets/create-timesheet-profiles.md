@@ -6,9 +6,9 @@ description: 您可以建立、編輯和指派為使用者產生週期性時程�
 author: Alina
 feature: Timesheets
 exl-id: 8f4826bd-82b4-4157-a7d4-a7c94b8fc879
-source-git-commit: 3983f82dfa668c3fcb0948a759ba47a76ec52f86
+source-git-commit: 8382b69e6a55af69397dd8f566395143f3c1dcd3
 workflow-type: tm+mt
-source-wordcount: '1510'
+source-wordcount: '1461'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,7 @@ ht-degree: 0%
    <td> <p>任何</p> </td> 
   </tr> 
    <tr> 
-   <td role="rowheader">Adobe Workfront授權*</td> 
+   <td role="rowheader">Adobe Workfront授權</td> 
    <td> <p>新增：標準 </p>
  <p>或</p> 
 <p>目前：計畫 </p> 
@@ -44,12 +44,12 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定*</td> 
-   <td> <p>您必須擁有時程表的管理存取權。 </p> <p>如需詳細資訊，請參閱 <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref" data-mc-variable-override="">授予使用者管理特定區域的存取權</a>.</p> <p>如果您還是沒有存取權，請詢問您的Workfront管理員，他們是否在您的存取層級中設定其他限制。 如需有關Workfront管理員如何修改您的存取層級的資訊，請參閱 <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref" data-mc-variable-override="">建立或修改自訂存取層級</a>.</p> </td> 
+   <td> <p>您必須擁有時程表的管理存取權。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*若要瞭解您擁有的計畫、授權型別或存取權，請聯絡您的Workfront管理員。
+如需有關此表格的詳細資訊，請參閱 [Workfront檔案中的存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## 建立或編輯週期性時程表
 

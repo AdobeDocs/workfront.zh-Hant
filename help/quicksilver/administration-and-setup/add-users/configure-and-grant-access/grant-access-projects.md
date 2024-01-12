@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: ba6a9e68-68a1-4152-b024-cd39e06d556f
-source-git-commit: e47f5d06d0c7d72c171583b53b69f951e4e99afe
+source-git-commit: 8382b69e6a55af69397dd8f566395143f3c1dcd3
 workflow-type: tm+mt
-source-wordcount: '654'
+source-wordcount: '630'
 ht-degree: 0%
 
 ---
@@ -38,7 +38,7 @@ ht-degree: 0%
    <td>任何</td> 
   </tr> 
     <tr> 
-   <td role="rowheader">Adobe Workfront授權*</td> 
+   <td role="rowheader">Adobe Workfront授權</td> 
    <td> <p>新增：標準 </p>
  <p>或</p> 
 <p>目前：計畫 </p> 
@@ -47,10 +47,12 @@ ht-degree: 0%
 
 <tr> 
    <td role="rowheader">存取層級設定</td> 
-   <td> <p>您必須是Workfront管理員。</p> <p><b>注意</b>：如果您還是沒有存取權，請詢問Workfront管理員是否對您的存取層級設定了其他限制。 如需有關Workfront管理員如何修改您的存取層級的資訊，請參閱 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref" data-mc-variable-override="">建立或修改自訂存取層級</a>.</p> </td> 
+   <td> <p>您必須是Workfront管理員。</p> </td> 
   </tr> 
  </tbody> 
 </table>
+
+如需有關此表格的詳細資訊，請參閱 [Workfront檔案中的存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## 使用自訂存取層級設定使用者對專案的存取權
 
