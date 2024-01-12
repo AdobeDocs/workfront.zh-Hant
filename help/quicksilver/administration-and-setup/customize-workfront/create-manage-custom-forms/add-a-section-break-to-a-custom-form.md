@@ -4,12 +4,13 @@ product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
 title: 使用舊版表單產生器將分割槽符號新增至自訂表單
 description: 您可以將自訂表單中的自訂欄位和Widget分組到具有標題的區段中。 這對於向將填寫表單的使用者展示有組織體驗非常有用。 此外，如果您需要限制特定使用者對特定自訂欄位和Widget的存取權，您可以將它們放置在區段中，然後僅授予這些使用者對區段的存取權。
+author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 44a52767-60a7-4aaa-b3b8-6b8fb7da7e72
-source-git-commit: 961e0451ce9011a8a9f511d7d5da99368d22d6fb
+source-git-commit: a46ad2d847372c153e2da29e0545d70cdb6e04f7
 workflow-type: tm+mt
-source-wordcount: '1137'
+source-wordcount: '1189'
 ht-degree: 0%
 
 ---
@@ -83,12 +84,12 @@ ht-degree: 0%
       <td>如果要向使用者說明此區段的用途，請鍵入文字。 這會顯示在自訂表單上區段的標籤下方。</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">新增邏輯</td> 
-      <td>根據使用者在填寫表單時於多選自訂欄位中所做的選擇，使用顯示邏輯來指定區段是否應顯示在表單上。 如需詳細資訊，請參閱 <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/display-or-skip-logic-custom-form.md" class="MCXref xref">新增顯示邏輯和略過邏輯至自訂表單</a>.</td> 
+      <td role="rowheader"><p>新增邏輯</p></td> 
+      <td><p>根據使用者在填寫表單時於多選自訂欄位中所做的選擇，使用顯示邏輯來指定區段是否應顯示在表單上。</p><p><strong>注意：</strong> 如果分割槽符號下的所有個別欄位已套用顯示邏輯，並且它們都因該邏輯而隱藏，則整個分割槽將在自訂表單上隱藏。 即使顯示邏輯未套用至分割槽符號，也會發生這種情況。</p><p>如需詳細資訊，請參閱 <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/display-or-skip-logic-custom-form.md" class="MCXref xref">新增顯示邏輯和略過邏輯至自訂表單</a>.</p></td> 
      </tr> 
      <tr> 
       <td role="rowheader"> <p>授予存取權</p> </td> 
-      <td> <p> 選取使用者在已附加自訂表單的物件上所需的許可權，以便檢視此區段並編輯其欄位值。 
+      <td> <p> 選取使用者在已附加自訂表單的物件上所需的許可權，以便檢視此區段並編輯其欄位值。
        <p>下列許可權位於 <b>具有物件存取許可權的使用者可以檢視欄位值</b>：</p> 
          <ul>
           <li><strong>檢視</strong>：檢視物件的許可權</li>
@@ -108,7 +109,7 @@ ht-degree: 0%
          </ul> </li> 
        </ul> 
        <p>如需物件許可權的相關資訊，請參閱 <a href="../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md" class="MCXref xref">物件許可權共用概觀</a>.</p> 
-       <p><b>附註</b>:  
+       <p><b>注意</b>：  
        <ul> 
        <li> <p>沒有您在此指定許可權的使用者無法看到區段中的自訂欄位和Widget。 </p> <p>如果您在報表中顯示欄位值，或在文字模式報表的計算欄位中使用這些值，也會發生這種情況。</p> </li> 
        <li> <p>將多個物件型別與您的表單建立關聯，可以變更這些步驟中可用的檢視和編輯許可權。 如需詳細資訊，請參閱 <a href="#how-multiple-object-types-can-affect-section-break-permissions-in-a-custom-form" class="MCXref xref">多個物件型別如何影響自訂表單中的分割槽符號許可權</a> 本文章內容。</p> </li> 
