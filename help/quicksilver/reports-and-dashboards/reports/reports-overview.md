@@ -8,9 +8,9 @@ author: Nolan
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: b7117ff8-5353-4766-b982-ba624a484ad1
-source-git-commit: dad054fe52bd7c5ca97144567c80e6d340541a50
+source-git-commit: 811eb1453c140808b0d6c5d9a3b4a0729cb16b2d
 workflow-type: tm+mt
-source-wordcount: '63'
+source-wordcount: '65'
 ht-degree: 3%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 3%
 * [自訂檢視、篩選和分組範例：文章索引](../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md)
 * [文字模式資源：文章索引](../../reports-and-dashboards/reports/text-mode/text-mode-resources.md)
 * [報表使用情況概觀](../../reports-and-dashboards/reports/report-usage/report-usage-overview.md)
-* [行事曆](../../reports-and-dashboards/reports/calendars/calendars.md)
+* [行事曆：文章索引](../../reports-and-dashboards/reports/calendars/calendars.md)
 * [報告的提示、技巧和疑難排解](../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/tips-troubleshooting-reports.md)
 
 <!--outdated: For in-depth training on reports, see  [Basic Report Creation Program for the new Workfront experience](https://one.workfront.com/s/basic-report-creation-program).-->

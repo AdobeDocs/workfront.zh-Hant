@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 el-id: 698036a6-b3b4-44a9-91ee-63fdb6a646a1
-source-git-commit: 1ae60512c337d778939ef6c48fd2eda8b279dcce
+source-git-commit: 811eb1453c140808b0d6c5d9a3b4a0729cb16b2d
 workflow-type: tm+mt
-source-wordcount: '474'
+source-wordcount: '470'
 ht-degree: 8%
 
 ---
@@ -53,7 +53,7 @@ ht-degree: 8%
 * 您必須擁有下列授權才能在Maestro中建立工作區：
 
    * 新的定價模式：標準授權
-   * 目前的定價模式：工作或更高授權
+   * 目前的訂價模式：計畫授權。
 
   如需詳細資訊，請參閱 [Workfront檔案中的存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)
 * 系統管理員可以管理和共用其他使用者建立的工作區。

@@ -3,9 +3,9 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文件、教學課程和其他資源，了解如何在您的組織中實施並有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: 729cdf8ca5d917d5d009b3d64563d7d37053d8ee
+source-git-commit: 811eb1453c140808b0d6c5d9a3b4a0729cb16b2d
 workflow-type: tm+mt
-source-wordcount: '13854'
+source-wordcount: '13856'
 ht-degree: 1%
 
 ---
@@ -1660,7 +1660,7 @@ ht-degree: 1%
          * [瞭解如何在控制面板上組織報表](reports-and-dashboards/reports/report-usage/understand-how-organize-reports-dashboard.md)
          * [檢視報表使用情形](reports-and-dashboards/reports/report-usage/view-report-usage.md)
       * 行事曆 {#calendars}
-         * [行事曆](reports-and-dashboards/reports/calendars/calendars.md)
+         * [行事曆：文章索引](reports-and-dashboards/reports/calendars/calendars.md)
          * [行事曆報表總覽](reports-and-dashboards/reports/calendars/calendar-reports-overview.md)
          * [在行事曆報告中使用自訂日期欄位](reports-and-dashboards/reports/calendars/use-custom-dates.md)
          * [在行事曆報告中使用計畫日期](reports-and-dashboards/reports/calendars/use-planned-dates.md)
@@ -2015,6 +2015,7 @@ ht-degree: 1%
       * [連線記錄型別](maestro/architecture/connect-record-types.md)
       * [編輯記錄型別](maestro/architecture/edit-record-types.md)
       * [刪除工作區](maestro/architecture/delete-workspaces.md)
+      * [編輯工作區](maestro/architecture/edit-workspaces.md)
       * [刪除記錄型別](maestro/architecture/delete-record-types.md)
       * [連線記錄型別和記錄的範例](maestro/architecture/example-connect-record-types-and-records.md)
       * [工作區範本清單](maestro/architecture/workspace-templates.md)

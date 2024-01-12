@@ -2,22 +2,26 @@
 content-type: reference
 product-area: calendars
 navigation-topic: reports
-title: 行事曆
-description: 請參閱這些文章以瞭解Adobe Workfront中的行事曆報告。
+title: 「行事曆：文章索引」
+description: 行事曆報告是一種動態報告，可提供工作的視覺化呈現。 您可以在行事曆報告中顯示專案、任務和問題的日期資訊。 請參閱這些文章以瞭解Adobe Workfront中的行事曆報告。
 author: Lisa
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: b46834db-358e-4ee2-9512-f7419351de30
-source-git-commit: 417b8c081a1940b112e8cfbd6d9216d802dc8f8e
+source-git-commit: 811eb1453c140808b0d6c5d9a3b4a0729cb16b2d
 workflow-type: tm+mt
-source-wordcount: '77'
-ht-degree: 2%
+source-wordcount: '147'
+ht-degree: 0%
 
 ---
 
-# 行事曆
+# 行事曆：文章索引
 
-本節包含下列文章：
+<!--Audited: 01/2024-->
+
+行事曆報告是一種動態報告，可提供工作的視覺化呈現。 您可以在行事曆報告中顯示專案、任務和問題的日期資訊。
+
+請參閱下列文章以瞭解Adobe Workfront中的行事曆報告：
 
 * [行事曆報表總覽](../../../reports-and-dashboards/reports/calendars/calendar-reports-overview.md)
 * [在行事曆報告中使用自訂日期欄位](../../../reports-and-dashboards/reports/calendars/use-custom-dates.md)

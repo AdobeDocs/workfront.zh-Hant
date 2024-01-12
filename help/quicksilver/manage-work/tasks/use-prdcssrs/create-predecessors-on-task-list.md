@@ -1,103 +1,119 @@
 ---
 product-area: projects
 navigation-topic: use-predecessors
-title: 在任務清單上建立前置關係
-description: 您可以使用前置任務（或僅前置任務）來連結依賴其他任務啟動或完成的任務。 例如，在發送邀請（前置任務）之前，您不想主機某個交易方（相關任務）。
+title: 在任務清單上建立前置任務關係
+description: 您可以使用前置任務（或只是前置任務）來連結依賴其他任務開始或完成的任務。 例如，在傳送邀請（前置任務）之前，您不想主持一方（相依任務）。
 author: Alina
 feature: Work Management
 exl-id: a84d88ac-8dd4-4952-b83f-02fafa61e68b
-source-git-commit: 420ba180dd0bfd53514c58f77ca9897ba9797320
+source-git-commit: 811eb1453c140808b0d6c5d9a3b4a0729cb16b2d
 workflow-type: tm+mt
-source-wordcount: '640'
+source-wordcount: '720'
 ht-degree: 0%
 
 ---
 
-# 在任務清單上建立前置關係
+# 在任務清單上建立前置任務關係
 
-您可以使用前置任務（或僅前置任務）來連結依賴其他任務啟動或完成的任務。 例如，在發送邀請（前置任務）之前，您不想主機某個交易方（相關任務）。
+您可以使用前置任務（或只是前置任務）來連結依賴其他任務開始或完成的任務。 例如，在傳送邀請（前置任務）之前，您不想主持一方（相依任務）。
 
 本文說明如何在任務清單中建立前置任務。
 
-您可以在下列Adobe Workfront區域中檢視前置任務：
+您可以在Adobe Workfront的下列區域中檢視前置任務：
 
-* 在「前置任務」列的任務清單中。
+* 在「前置任務」欄的工作清單中。
 * 在甘特圖中
-* 在從屬任務的前置任務部分中
+* 在相依任務的前置任務區段中
 
-如需詳細資訊，請參閱 [任務前置任務概述](../../../manage-work/tasks/use-prdcssrs/predecessors-overview.md).
+如需詳細資訊，請參閱 [前置任務概觀](../../../manage-work/tasks/use-prdcssrs/predecessors-overview.md).
 
 ## 存取需求
 
-您必須具備下列存取權，才能執行本文中的步驟：
+您必須具有下列存取權才能執行本文中的步驟：
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront計畫*</td> 
+   <td role="rowheader">Adobe Workfront計畫</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront授權*</td> 
-   <td> <p>計劃 </p> </td> 
+   <td> <p>新增：標準 </p><p>目前：計畫 </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">訪問級別配置*</td> 
-   <td> <p>編輯對任務和項目的訪問</p> <p><b>附註</b>
+   <td role="rowheader">存取層級設定*</td> 
+   <td> <p>編輯任務與專案的存取權</p> <p><b>附註</b>
 
-如果您仍無權存取，請洽詢您的Workfront管理員，他們是否在您的存取層級設定其他限制。 如需Workfront管理員如何修改您的存取層級的詳細資訊，請參閱 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>.</p> </td>
+如果您還是沒有存取權，請詢問您的Workfront管理員，他們是否在您的存取層級中設定其他限制。 </p> </td>
 </tr> 
   <tr> 
-   <td role="rowheader">物件權限</td> 
-   <td> <p>管理任務和專案的權限</p> <p>有關請求其他訪問的資訊，請參閱 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">請求對對象的訪問 </a>.</p> </td> 
+   <td role="rowheader">物件許可權</td> 
+   <td> <p>管理任務和專案的許可權</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;若要了解您擁有的計畫、授權類型或存取權，請聯絡您的Workfront管理員。
+&#42;若要瞭解您擁有的計畫、授權型別或存取權，請聯絡您的Workfront管理員。 如需存取需求的詳細資訊，請參閱 [Workfront檔案中的存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## 建立前置任務
 
 1. 前往專案。
-1. 按一下 **工作** 中。
-1. 請確定您目前的檢視顯示 **前身** 欄。
+1. 按一下 **任務** 在左側面板中。
+1. 確定您目前的檢視顯示 **前置任務** 欄。
 
-   如果視圖未顯示前置項列，請更改為顯示前置項的視圖，或將該列添加到您的視圖中。
+   如果檢視未顯示「前置任務」欄，請變更為顯示前置任務的檢視，或將欄新增至您的檢視。
 
-1. 選擇要指定為相依任務的任務。
-1. 按一下內部 **前置任務** 欄。
-1. 鍵入要指定為選定任務前置任務的任務編號，然後按鍵 **輸入**.
+1. 選取要指定為相依性工作的工作。
+1. 按一下 **前置任務** 欄。
+1. 輸入您要指定為所選任務的前置任務編號，然後按 **輸入**.
 
-   前置任務標籤為完成時，前置任務表徵圖將變為綠色。 這表示相依任務已準備就緒可供使用。
+   >[!TIP]
+   >
+   >若要新增跨專案前置任務，請執行下列動作：
+   >
+   >1. 按一下 **計畫模式** 圖示並選擇 **自動儲存**.
+   >
+   >1. 輸入前置任務專案的「參考編號」，後面加上冒號和任務編號。 例如，輸入： 765021：12。 這表示前置任務專案的參考編號是765021，而前置任務是專案上的任務編號12。
+   >
+   >1. 新增此前置任務的相依性型別。 如需詳細資訊，請參閱 [建立跨專案前置任務](/help/quicksilver/manage-work/tasks/use-prdcssrs/cross-project-predecessors.md).
+   >
+   >按下 **輸入**.
+   >
+   >**重要**
+   >
+   >當任務清單以手動儲存模式顯示時，您無法新增跨專案前置任務。
 
-   有關「前置項」(Preceverses)列中可用的關係類型的詳細資訊，請參見 [任務前置任務概述](../../../manage-work/tasks/use-prdcssrs/predecessors-overview.md) in [任務前置任務概述](../../../manage-work/tasks/use-prdcssrs/predecessors-overview.md).
+   前置任務被標示為完成時，前置任務圖示會變成綠色。 這表示相依任務已準備好工作。
 
-## 查看前置項詳細資訊
+   如需「前置任務」欄中可用關係型別的詳細資訊，請參閱 [前置任務概觀](../../../manage-work/tasks/use-prdcssrs/predecessors-overview.md) 在 [前置任務概觀](../../../manage-work/tasks/use-prdcssrs/predecessors-overview.md).
 
-您可以從任務清單中快速查看有關前置任務的詳細資訊。
+## 檢視前置任務詳細資訊
 
-1. 在任務清單中，將滑鼠移到 **前置任務** 欄。
+您可以從任務清單中快速檢視有關前置任務的詳細資訊。
 
-   隨即顯示包含前置項詳細資訊的方塊。
+1. 在任務清單上，將滑鼠游標停留在 **前置任務** 欄。
+
+   顯示含有前置任務詳細資訊的方塊。
 
    ![前置任務詳細資訊](assets/predecessor-details-in-task-list.png)
 
    會顯示下列詳細資料：
 
-   **前置名稱：** 引用的前置項的名稱。 包括前置任務的任務編號。 按一下任務名稱以開啟它。 在上述範例中，前身是生產/執行/傳送。
+   **前置任務名稱：** 被參考的前置任務名稱。 已包含前置任務的任務編號。 按一下工作名稱以開啟它。 在上述範例中，前置任務為「生產/執行/傳送」。
 
-   **項目名稱：** 前置項所在的項目的名稱。 如果前置項與任務屬於相同項目，則將項目標識為當前項目；如果前置項屬於不同項目，則將標識為交叉項目。 在上述範例中，專案名稱為「數位資產生產（整合） — 專案」。 如需跨專案前置作業的詳細資訊，請參閱 [建立跨專案的前置項目](../../tasks/use-prdcssrs/cross-project-predecessors.md).
+   **專案名稱：** 前置任務所在的專案名稱。 如果前置任務屬於與任務相同的專案，則會將該專案識別為目前專案；如果前置任務屬於不同的專案，則會將該專案識別為跨專案。 在上述範例中，專案名稱為Digital Asset Production (Integrated) - Project。 如需跨專案前置任務的詳細資訊，請參閱 [建立跨專案前置任務](../../tasks/use-prdcssrs/cross-project-predecessors.md).
 
-   您可以展開專案詳細資訊，查看專案的計劃開始和結束日期、條件、狀態、完成百分比及擁有者。 對於跨專案，您可以按一下 **請參閱專案** 來開啟專案。
+   您可以展開專案詳細資料以檢視專案的計劃開始和結束日期、條件、狀態、完成百分比以及擁有者。 若為跨專案，您可以按一下 **檢視專案** 以開啟專案。
 
-   **ID:** 前置項所在項目的參考編號。
+   **ID：** 前置任務所在專案的參考號碼。
 
-   **計劃開始：** 前置任務的計畫起始日期。
+   **計劃開始：** 前置任務的計劃開始日期。
 
    **計畫結束：** 前置任務的計畫完成日期。
 
-   **前置任務數：** 被引用的前置任務的數目。 在上例中，引用的前置有1個前置。
+   **前置任務數量：** 被參考的前置任務的前置任務數量。 在上述範例中，被參考的前置任務有1個前置任務。
 
-   **後繼者數：** 被引用的前身的後繼（或從屬）任務數。 在上例中，被引用的前置有1個後置。
+   **後置任務數目：** 被參考的前置任務之後置任務（或相依任務）的數目。 在上述範例中，被參考的前置任務有1個後置任務。

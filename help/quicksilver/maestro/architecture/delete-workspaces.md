@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: adec4b8e-2964-479b-8cf0-79d3afa27b2a
-source-git-commit: ce015eba8291995eec1611917896a0e797f820cc
+source-git-commit: 811eb1453c140808b0d6c5d9a3b4a0729cb16b2d
 workflow-type: tm+mt
-source-wordcount: '384'
+source-wordcount: '377'
 ht-degree: 0%
 
 ---
@@ -61,9 +61,10 @@ ht-degree: 0%
    </td>
   </tr>
   <tr>
-   <td role="rowheader"><p>Adobe Workfront授權</p></td>
+   <td role="rowheader"><p>Adobe Workfront授權*</p></td>
    <td>
-   <p>任何</p> 
+   <p>新增：標準</p>
+   <p>目前：計畫</p> 
   </td>
   </tr>
 
@@ -77,8 +78,7 @@ ht-degree: 0%
    <td role="rowheader"><p>權限</p></td>
    <td> <p>管理工作區的許可權</a> </p>  
    <p>系統管理員擁有所有工作區的許可權，包括他們未建立的工作區</p>
-   <p><b>附註</b></p>
-   背景工作授權和請求授權使用者無法建立工作區，但如果他們擁有工作區的「管理」許可權，則可將其刪除。 
+
 </td>
   </tr>
 <tr>
@@ -90,16 +90,12 @@ ht-degree: 0%
 </tbody>
 </table>
 
+*如需存取需求的詳細資訊，請參閱 [Workfront檔案中的存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
 <!--Maybe enable this at GA - but Maestro is not supposed to have Access controls in the Workfront Access Level: 
 >[!NOTE]
 >
 >If you don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see [Create or modify custom access levels](../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md). -->
-
-<!-- Notes to add for the table: for the "Workfront plans" row: the above is only for closed beta; when going to GA - activate the following plans:    
-<p>Current plan: Prime and Ultimate</p>
-<p>Legacy plan: Enterprise</p>-->
-
-<!-- Notes for the table: for the "Workfront access" row: <p>For more information, see <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront licenses overview</a>.</p>-->
 
 ## 有關刪除工作區的考量事項
 

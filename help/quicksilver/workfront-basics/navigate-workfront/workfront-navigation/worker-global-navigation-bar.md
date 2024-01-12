@@ -7,9 +7,9 @@ description: 主要功能表會隨著您指派的存取層級而改變 [!DNL Ado
 author: Lisa
 feature: Get Started with Workfront
 exl-id: c6e67518-a9e7-4b71-93d2-7a9d36633792
-source-git-commit: 91d757513792604677d6285baafa795629b4506d
+source-git-commit: 811eb1453c140808b0d6c5d9a3b4a0729cb16b2d
 workflow-type: tm+mt
-source-wordcount: '477'
+source-wordcount: '479'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 0%
 
 * **[!UICONTROL 儀表板]**：與您共用的儀表板會顯示在這裡。 如需詳細資訊，請參閱 [儀表板](../../../reports-and-dashboards/dashboards/dashboards-overview.md).
 
-* **[!UICONTROL 行事曆]**：與您共用的行事曆會顯示在這裡。 如需詳細資訊，請參閱 [行事曆](../../../reports-and-dashboards/reports/calendars/calendars.md).
+* **[!UICONTROL 行事曆]**：與您共用的行事曆會顯示在這裡。 如需詳細資訊，請參閱 [行事曆：文章索引](../../../reports-and-dashboards/reports/calendars/calendars.md).
 
 * **[!UICONTROL 團隊]**：指派給您團隊的任務和問題會顯示在此區域中。 身為工作人員，您是唯一 [!DNL Workfront] 看到「 」的使用者 [!UICONTROL 團隊] 區域依預設。
 
