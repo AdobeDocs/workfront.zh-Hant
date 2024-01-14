@@ -4,7 +4,7 @@ description: 2024年第一季版本總覽
 author: Becky
 feature: Product Announcements
 exl-id: 2ad9e170-9e63-472a-8476-13f81b7abff3
-source-git-commit: 293e94a73edaf723852fd40e5dfcdfdc9f76ddf8
+source-git-commit: 242c54f8d650b948f4adac079f5e45b6a741f97f
 workflow-type: tm+mt
 source-wordcount: '1567'
 ht-degree: 0%
@@ -279,7 +279,7 @@ ht-degree: 0%
                  </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">Experience Manager Assets Essentials中的對應中繼資料現在使用 <code>xcm:keywords</code> 而非 <code>dc:subject</code></a></p><p>[！BADGE In Production ]{type=Informative}</p><p>我們已更新Experience Manager Assets Essentials整合，以符合Experience Manager Assetsas a Cloud Service整合的體驗。 現在，將多個單行文字欄位對應到Experience Manager Assets中的單一欄位時，兩種服務都會使用 <code>xcm:keywords</code> 欄位。</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Experience Manager Assets Essentials中的對應中繼資料現在使用 <code>xcm:keywords</code> 而非 <code>dc:subject</code></a></p><p>[！BADGE In Production ]{type=Informative}</p><p>我們已更新Experience Manager Assets Essentials整合，以符合Experience Manager Assetsas a Cloud Service整合的體驗。 現在，將多個單行文字欄位對應到Experience Manager Assets中的單一欄位時，兩種服務都會使用 <code>xcm:keywords</code> 欄位。</p>
                     </td>
                     <td><p><b>將於下列日期提供：</b></p>
                         <ul>
