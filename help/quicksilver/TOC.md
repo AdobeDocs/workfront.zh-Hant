@@ -3,9 +3,9 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文件、教學課程和其他資源，了解如何在您的組織中實施並有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: 811eb1453c140808b0d6c5d9a3b4a0729cb16b2d
+source-git-commit: 2dcf8d3baf5ca5032153627b7e833bafea3418f7
 workflow-type: tm+mt
-source-wordcount: '13856'
+source-wordcount: '13860'
 ht-degree: 1%
 
 ---
@@ -645,9 +645,9 @@ ht-degree: 1%
          * [隱藏報表](administration-and-setup/manage-workfront/configure-reports/hide-built-in-reports.md)
       * 電子郵件 {#emails}
          * [電子郵件](administration-and-setup/manage-workfront/emails/emails.md)
-         * [電子郵件通知](administration-and-setup/manage-workfront/emails/email-notifications-page.md)
+         * [電子郵件通知：文章索引](administration-and-setup/manage-workfront/emails/email-notifications-page.md)
          * [設定事件通知](administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md)
-         * [可用的事件通知](administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md)
+         * [可用的事件通知a](administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md)
          * [解鎖所有群組的事件通知](administration-and-setup/manage-workfront/emails/unlock-configuration-of-event-notifications-for-groups.md)
          * [事件通知主旨行](administration-and-setup/manage-workfront/emails/custom-email-subjects-event-notification.md)
          * [修改使用者的電子郵件通知設定](administration-and-setup/manage-workfront/emails/modify-email-notification-settings-user-profiles.md)
@@ -694,8 +694,8 @@ ht-degree: 1%
    * 管理群組 {#manage-groups}
       * [管理群組](administration-and-setup/manage-groups/manage-groups.md)
       * 群組 {#groups}
-         * [群組概述](administration-and-setup/manage-groups/groups-overview/groups-overview.md)
-         * [群組](administration-and-setup/manage-groups/groups-overview/groups.md)
+         * [群組：文章索引](administration-and-setup/manage-groups/groups-overview/groups-overview.md)
+         * [群組概述](administration-and-setup/manage-groups/groups-overview/groups.md)
          * [子群組概述](administration-and-setup/manage-groups/groups-overview/subgroups.md)
          * [主群組概觀](administration-and-setup/manage-groups/groups-overview/home-groups.md)
       * 建立和管理群組 {#create-manage-groups}

@@ -6,14 +6,16 @@ description: 此 [!UICONTROL 展示板] 儀表板顯示您可以存取的展示�
 author: Lisa
 feature: Agile
 exl-id: bb275f4f-efaf-4dcc-b184-40e015f089b6
-source-git-commit: 4e5bff5ad62dce8766072e04e3a2b89371a90f03
+source-git-commit: 9c4aa8d1f812299ba6cdcb664b990c1119e3cb31
 workflow-type: tm+mt
-source-wordcount: '720'
+source-wordcount: '818'
 ht-degree: 0%
 
 ---
 
 # 使用面板儀表板
+
+<!-- Audited: 1/2024 -->
 
 >[!IMPORTANT]
 >
@@ -40,30 +42,35 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] 計劃*</strong></td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] 計畫*</strong></td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] 授權*</strong></td> 
-   <td> <p>[！UICONTROL Request]或更高版本</p> </td> 
+   <td> 
+   <p>新增：[！UICONTROL Contributor]或以上</p> 
+   <p>或</p>
+   <p>目前： [！UICONTROL Request]或以上</p>
+   </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;若要瞭解您擁有的計畫、授權型別或存取權，請聯絡您的 [!DNL Workfront] 管理員。
+如需有關此表格的詳細資訊，請參閱 [Workfront檔案中的存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
 
 ## 篩選展示板和工作流程 {#filter-boards}
 
 您可以篩選展示板控制面板，以顯示使用中、已封存或所有展示板或工作流程。
 
-1. 按一下 **[!UICONTROL 主要功能表]** 圖示 ![](assets/main-menu-icon.png) 位於的右上角 [!DNL Adobe Workfront]，然後按一下 **[!UICONTROL 展示板]**.
+1. 按一下 **[!UICONTROL 主要功能表]** 圖示 ![主要功能表](/help/_includes/assets/main-menu-icon.png) 在Adobe Workfront的右上角，或（如果有的話）按一下 **[!UICONTROL 主要功能表]** 圖示 ![主要功能表](/help/_includes/assets/main-menu-icon-left-nav.png) 然後按一下「 」 **[!UICONTROL 展示板]**.
 1. 按一下 [!UICONTROL **篩選**] 在「面板」區域或「工作流程」區域中，選取 **[!UICONTROL 全部]**， **[!UICONTROL 作用中]**，或 **[!UICONTROL 已封存]**.
 
    當在圖示板上套用預設以外的篩選器時，篩選器圖示上會顯示一個指示器 ![套用至儀表板的篩選器](assets/boards-filterapplied-30x30.png).
 
 ## 排序展示板
 
-1. 按一下 **[!UICONTROL 主要功能表]** 圖示 ![](assets/main-menu-icon.png) 位於的右上角 [!DNL Adobe Workfront]，然後按一下 **[!UICONTROL 展示板]**.
+1. 按一下 **[!UICONTROL 主要功能表]** 圖示 ![主要功能表](/help/_includes/assets/main-menu-icon.png) 在Adobe Workfront的右上角，或（如果有的話）按一下 **[!UICONTROL 主要功能表]** 圖示 ![主要功能表](/help/_includes/assets/main-menu-icon-left-nav.png) 然後按一下「 」 **[!UICONTROL 展示板]**.
 1. 若要排序面板清單，請按一下 [!UICONTROL **排序**]. 頁面的預設排序選項為 **[!UICONTROL 修改日期]**. 您也可以依展示板排序頁面 **[!UICONTROL 名稱]**.
 
    選取 **[!UICONTROL 反轉順序]** 以反向的修改日期或名稱順序來排序面板。 當排序圖示上的箭頭指向上時，即會套用反向順序。 當箭頭向下指向時，會套用標準順序。
@@ -74,7 +81,7 @@ ht-degree: 0%
 
 您可以在「面板」區域中搜尋特定面板，或在「工作流程」區域中搜尋特定工作流程。
 
-1. 按一下 **[!UICONTROL 主要功能表]** 圖示 ![](assets/main-menu-icon.png) 位於的右上角 [!DNL Adobe Workfront]，然後按一下 **[!UICONTROL 展示板]**.
+1. 按一下 **[!UICONTROL 主要功能表]** 圖示 ![主要功能表](/help/_includes/assets/main-menu-icon.png) 在Adobe Workfront的右上角，或（如果有的話）按一下 **[!UICONTROL 主要功能表]** 圖示 ![主要功能表](/help/_includes/assets/main-menu-icon-left-nav.png) 然後按一下「 」 **[!UICONTROL 展示板]**.
 1. 按一下 [!UICONTROL **搜尋**] 並輸入搜尋字詞。 然後，按下Enter。
 
    會顯示標題中包含搜尋字詞的所有展示板或工作流程。
@@ -93,7 +100,7 @@ ht-degree: 0%
 >
 >當您封存工作串流時，其所有展示板都會被封存。
 
-1. 按一下 **[!UICONTROL 主要功能表]** 圖示 ![](assets/main-menu-icon.png) 位於的右上角 [!DNL Adobe Workfront]，然後按一下 **[!UICONTROL 展示板]**.
+1. 按一下 **[!UICONTROL 主要功能表]** 圖示 ![主要功能表](/help/_includes/assets/main-menu-icon.png) 在Adobe Workfront的右上角，或（如果有的話）按一下 **[!UICONTROL 主要功能表]** 圖示 ![主要功能表](/help/_includes/assets/main-menu-icon-left-nav.png) 然後按一下「 」 **[!UICONTROL 展示板]**.
 1. 按一下 **[!UICONTROL 更多]** 功能表 ![更多選單](assets/more-icon-spectrum.png) 在展示板或工作流程上，然後選取 **[!UICONTROL 封存]**.
 
    在工作流程上，功能表位於右側，在 [!UICONTROL **檢視工作流程**] 按鈕。
@@ -114,7 +121,7 @@ ht-degree: 0%
 >
 >您只能刪除您建立的展示板和工作串流，不能刪除您加入的展示板和工作串流。
 
-1. 按一下 **[!UICONTROL 主要功能表]** 圖示 ![](assets/main-menu-icon.png) 位於的右上角 [!DNL Adobe Workfront]，然後按一下 **[!UICONTROL 展示板]**.
+1. 按一下 **[!UICONTROL 主要功能表]** 圖示 ![主要功能表](/help/_includes/assets/main-menu-icon.png) 在Adobe Workfront的右上角，或（如果有的話）按一下 **[!UICONTROL 主要功能表]** 圖示 ![主要功能表](/help/_includes/assets/main-menu-icon-left-nav.png) 然後按一下「 」 **[!UICONTROL 展示板]**.
 1. 按一下 **[!UICONTROL 更多]** 功能表 ![[!UICONTROL 更多選單]](assets/more-icon-spectrum.png) 在展示板或工作流程上，然後選取 **[!UICONTROL 刪除]**.
 
    在工作流程上，功能表位於右側，在 [!UICONTROL **檢視工作流程**] 按鈕。
