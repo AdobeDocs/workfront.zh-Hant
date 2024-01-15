@@ -7,9 +7,9 @@ description: 您可以將現有的自訂表單新增至下列任何物件。 自
 author: Alina
 feature: Get Started with Workfront
 exl-id: c06666a7-ab78-4311-8fcb-1d1a68034133
-source-git-commit: 4e3cafafb121371249fb73f2f001477bdbad2d77
+source-git-commit: aec61210cf2c17775738db4975ae8d19223153cc
 workflow-type: tm+mt
-source-wordcount: '850'
+source-wordcount: '811'
 ht-degree: 2%
 
 ---
@@ -45,11 +45,11 @@ ht-degree: 2%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront計畫*</td> 
+   <td role="rowheader">Adobe Workfront計畫</td> 
    <td> <p>任何 </p> </td> 
   </tr> 
 <tr> 
-  <td role="rowheader">Adobe Workfront授權*</td> 
+  <td role="rowheader">Adobe Workfront授權</td> 
   <td> <p>新增：投稿人或更高版本 </p>
  <p>或</p> 
 <p>目前：要求或以上 </p> 
@@ -57,10 +57,9 @@ ht-degree: 2%
  </tr> 
   <tr> 
    <td role="rowheader">存取層級設定*</td> 
-   <td> <p>編輯您管理自訂表單之物件的存取權</p> <p><b>附註</b></p>
-
-如果您還是沒有存取權，請詢問您的Workfront管理員，他們是否在您的存取層級中設定其他限制。 如需有關Workfront管理員如何修改您的存取層級的資訊，請參閱 <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>.</p> </td>
-</tr> 
+   <td> <p>編輯您管理自訂表單之物件的存取權</p>
+    </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">物件許可權</td> 
    <td> <p>管理您要附加自訂表單之物件的許可權。</p> <p>檢視自訂表單或更高許可權，並具有以下許可權： <b>附加至自訂資料</b> 物件（專案、任務和問題）。 如需詳細資訊，請參閱 <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md" class="MCXref xref">共用自訂表格</a>.</p> <p>重要：如果您沒有可管理存取自訂Forms的計畫授權，則您必須至少擁有檢視自訂表單的特定許可權，如所述 <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md" class="MCXref xref">共用自訂表格</a>. 即使表單在整個系統內可見，也必須將這些許可權授予您。 </p> <p>如需請求其他存取許可權的詳細資訊，請參閱 <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">要求物件的存取權</a>.</p> </td> 
@@ -68,7 +67,7 @@ ht-degree: 2%
  </tbody> 
 </table>
 
-&#42;若要瞭解您擁有的計畫、授權型別或存取權，請聯絡您的Workfront管理員。
+如需有關此表格的詳細資訊，請參閱 [Workfront檔案中的存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## 先決條件
 

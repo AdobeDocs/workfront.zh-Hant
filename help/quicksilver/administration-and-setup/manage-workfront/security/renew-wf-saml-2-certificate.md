@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 4b481215-36a1-4945-828a-1598502529d8
-source-git-commit: 54cbdfddb3a012b78b3428a3f8bd5c094561c860
+source-git-commit: aec61210cf2c17775738db4975ae8d19223153cc
 workflow-type: tm+mt
-source-wordcount: '682'
+source-wordcount: '658'
 ht-degree: 0%
 
 ---
@@ -49,7 +49,7 @@ You must take action to update the metadata in your identity provider with the i
    <td>任何</td> 
   </tr> 
  <tr> 
-  <td role="rowheader">Adobe Workfront授權*</td> 
+  <td role="rowheader">Adobe Workfront授權</td> 
   <td> <p>新增：標準 </p>
  <p>或</p> 
 <p>目前：計畫 </p> 
@@ -57,10 +57,12 @@ You must take action to update the metadata in your identity provider with the i
  </tr>   
  <tr> 
    <td role="rowheader">存取層級設定</td> 
-   <td> <p>您必須是Workfront管理員。</p> <p><b>注意</b>：如果您還是沒有存取權，請詢問Workfront管理員是否對您的存取層級設定了其他限制。 如需有關Workfront管理員如何修改您的存取層級的資訊，請參閱 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>.</p> </td> 
+   <td> <p>您必須是Workfront管理員。</p> </td> 
   </tr> 
  </tbody> 
 </table>
+
+如需有關此表格的詳細資訊，請參閱 [Workfront檔案中的存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## 在Workfront中設定SAML 2.0
 
