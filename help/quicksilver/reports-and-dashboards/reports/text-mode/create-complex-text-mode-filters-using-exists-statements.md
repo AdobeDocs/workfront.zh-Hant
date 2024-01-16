@@ -2,18 +2,20 @@
 product-area: reporting
 navigation-topic: text-mode-reporting
 title: 使用EXISTS陳述式建立複雜的文字模式篩選器
-description: 使用EXISTS陳述式建立複雜的文字模式篩選器
+description: 您可以使用EXISTS陳述式來建立複雜的文字模式篩選器。 本文需要透徹瞭解Adobe Workfront API和文字模式報表介面。
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 106f7c9d-46cc-46c5-ae34-93fd13a36c14
-source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
+source-git-commit: 09492b2657aaf599bb31a19329d5de23791b66ec
 workflow-type: tm+mt
-source-wordcount: '2766'
+source-wordcount: '2649'
 ht-degree: 0%
 
 ---
 
 # 使用EXISTS陳述式建立複雜的文字模式篩選器
+
+<!-- Audited: 01/2024 -->
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: do not EVER&nbsp;delete this article as long as Text Mode still exists in the system.&nbsp;Google ordered this article to be written and we wrote it with the help of consultants, so the use case is very complex and very hard to understand without this. It is also very much used by many customers)</p>
@@ -34,7 +36,7 @@ ht-degree: 0%
 
 瞭解物件的階層與相依性，有助於您找出哪些物件可在報表中參照。
 
-如需有關哪些物件在Workfront中及其階層與相依性的資訊，請參閱 [瞭解Adobe Workfront中的物件](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
+如需有關哪些物件在Workfront中及其階層與相依性的資訊，請參閱 [Adobe Workfront物件總覽](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
 
 建立濾鏡時，您可以使用標準報表介面，在最多2層關係中參照連線到濾鏡物件的其他物件。
 
@@ -42,7 +44,7 @@ ht-degree: 0%
 
 但是，您不能在使用標準介面的問題篩選器中參考Portfolio所有者，以僅顯示與所有者為特定使用者的專案組合相關聯的問題。 您必須使用文字模式來存取「Portfolio擁有者名稱」欄位，此欄位與問題相隔三個層級。
 
-![issue_to_portfolio_owner_sraight_line_icons.PNG](assets/issue-to-portfolio-owner-sraight-line-icons-350x83.png)
+![專案組合擁有者圖示的問題](assets/issue-to-portfolio-owner-sraight-line-icons-350x83.png)
 
 如需Workfront中物件的完整清單，請參閱 [API總管](../../../wf-api/general/api-explorer.md).
 
@@ -50,7 +52,7 @@ ht-degree: 0%
 
 建立篩選器時，您必須在文字模式介面中建立複雜陳述式，以參考這些型別的物件。
 
-如需有關建立複雜篩選器的資訊，請參閱 [使用EXISTS陳述式的複雜文字模式篩選器概觀](#overview-of-complex-text-mode-filters-that-use-exists-statements) 區段。
+如需有關建立複雜篩選器的資訊，請參閱 [使用EXISTS陳述式的複雜文字模式篩選器概觀](#overview-of-complex-text-mode-filters-that-use-exists-statements) 一節。
 
 ## 使用EXISTS陳述式的複雜文字模式篩選器概觀 {#overview-of-complex-text-mode-filters-that-use-exists-statements}
 
@@ -81,7 +83,7 @@ ht-degree: 0%
   如需API Explorer的相關資訊，請參閱 [API總管](../../../wf-api/general/api-explorer.md).
 
 * 當連結物件因原始物件與目標物件直接連線而遺失時，您可以使用目標物件的物件程式碼，而非連結物件。
-* 您可以參照相同物件（目標物件）上的多個欄位（目標欄位），在此情況下，您必須使用AND連線參照欄位的行。\
+* 您可以參照相同物件（目標物件）上的多個欄位（目標欄位），在這種情況下，您必須使用AND連線參照欄位的行。\
   如需篩選屬於目標物件的多個欄位的範例，請參閱 [範例4：依多個欄位篩選：依「Portfolio擁有者名稱」和「Portfolio對齊計分卡ID」的任務](#example-4-filter-by-multiple-fields-tasks-by-portfolio-owner-name-and-portfolio-alignment-scorecard-id) 一節。
 
 * EXISTS陳述式唯一支援的修飾詞是NOTEXISTS。
@@ -95,25 +97,27 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront計畫*</td> 
+   <td role="rowheader">Adobe Workfront計畫</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront授權*</td> 
-   <td> <p>計劃 </p> </td> 
+   <td role="rowheader">Adobe Workfront授權</td> 
+   <td><p>新增：標準</p>
+       <p>或</p>
+       <p>目前：計畫</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定*</td> 
-   <td> <p>編輯對篩選器、檢視、群組的存取權</p> <p>編輯報告、儀表板、行事曆的存取權，以編輯報告中的篩選器</p> <p>注意：如果您還是沒有存取權，請詢問您的Workfront管理員，他們是否在您的存取層級中設定其他限制。 如需有關Workfront管理員如何修改您的存取層級的資訊，請參閱 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>.</p> </td> 
+   <td> <p>編輯對篩選器、檢視、群組的存取權</p> <p>編輯報告、儀表板、行事曆的存取權，以編輯報告中的篩選器</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">物件許可權</td> 
-   <td> <p>管理報表的許可權，以編輯報表中的篩選器</p> <p>管理篩選器的許可權以編輯它</p> <p>如需請求其他存取許可權的詳細資訊，請參閱 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">要求物件的存取權 </a>.</p> </td> 
+   <td> <p>管理報表的許可權，以編輯報表中的篩選器</p> <p>管理篩選器的許可權以編輯它</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;若要瞭解您擁有的計畫、授權型別或存取權，請聯絡您的Workfront管理員。
+如需有關此表格的詳細資訊，請參閱 [Workfront檔案中的存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## 建立跨越物件階層中多個層級的複雜文字模式篩選器
 
@@ -131,9 +135,12 @@ ht-degree: 0%
 
 1. 識別篩選的物件。 我們將此物件稱為「原始物件」。\
    例如，「問題」。
+
 1. 識別您要作為篩選依據的欄位。 我們將此物件稱為屬於目標物件的目標欄位。\
-   例如，屬於Portfolio（目標物件）的ownerID欄位（目標欄位）。
-1. （視條件而定）如果原始物件（問題）與目標欄位（所有者ID）未直接連結，您必須找到第三個物件，即連結它們的連結物件（專案）。 連結物件必須至少有一個從原始物件的「欄位」或「參照」(References)標籤中參照的欄位（「連結欄位」顯示在原始物件上），而且它也必須有一個目標物件的連結欄位，顯示在「連結物件」的「欄位」或「參照」(References)標籤中。 連結物件上顯示的連結欄位（或連結物件上顯示的連結欄位）必須與目標欄位相符。\
+   例如，所有者ID欄位（目標欄位），它屬於Portfolio（目標物件）。
+
+1. （視條件而定）如果原始物件（問題）與目標欄位（所有者ID）未直接連結，您必須找到第三個物件，即連結它們的連結物件（專案）。 連結物件必須至少有一個從原始物件的「欄位」或「參照」(References)標籤中參照的欄位（「連結欄位」顯示在原始物件上），而且它也必須有一個目標物件的連結欄位，顯示在「連結物件」的「欄位」或「參照」(References)標籤中。 連結物件上顯示的連結欄位（或連結物件上顯示的連結欄位）必須與目標欄位相符。
+
    例如，（專案） ID （顯示在原始物件上的連結欄位）是從問題（原始物件）中參考的。 (Portfolio) ownerID （連結欄位至目標物件）會顯示在專案（連結物件）的「欄位」標籤中。 PortfolioownerID也是目標物件(Portfolio)上的欄位。 連結物件上的連結欄位符合目標欄位。\
    ![portfolio_id_in_the_project_api_object.PNG](assets/portfolio-id-in-the-project-api-object-350x88.png)
 
@@ -146,13 +153,13 @@ ht-degree: 0%
    如需建立篩選的詳細資訊，請參閱 [篩選器概觀](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
 1. 按一下 **切換到文字模式**.
-1. 將下列公式範例貼到新篩選器的文字模式介面，並用正確的物件和欄位取代建議的文字：
+1. 將下列公式範例貼到新篩選器的文字模式介面中，並用正確的物件和欄位取代範例文字：
 
-   ```
-   EXISTS:A:$$OBJCODE=<Object code of the Linking Object>
-   EXISTS:A:<Linking Field on the Linking Object>=FIELD:<Linking Field displayed on the Original Object>
-   EXISTS:A:<Target Object>:<Target Field>=<Your value for the Target Field>
-   ```
+   `EXISTS:A:$$OBJCODE=<Object code of the Linking Object>`
+
+   `EXISTS:A:<Linking Field on the Linking Object>=FIELD:<Linking Field displayed on the Original Object>`
+
+   `EXISTS:A:<Target Object>:<Target Field>=<Your value for the Target Field>`
 
    如需使用上述欄位的範例，請參閱 [範例1：依Portfolio擁有者名稱篩選問題](#example-1-filter-for-issues-by-portfolio-owner-name) 一節。
 
@@ -177,10 +184,14 @@ ht-degree: 0%
 
 1. 識別篩選的物件。 我們將此物件稱為「原始物件」。\
    例如，引數或自訂欄位。
+
 1. 識別您要作為篩選依據的欄位。 我們將此物件稱為屬於目標物件的目標欄位。\
-   例如，屬於類別（目標物件）的categoryID欄位（目標欄位）。
-1. 由於「原始物件」（引數）和「目標欄位」(categoryID)之間沒有直接連線，因此您必須找到第三個物件，即連線它們的連結物件（類別引數）。 連結物件必須至少有一個從原始物件的「欄位」或「參照」(References)標籤中參照的欄位（「連結欄位」顯示在原始物件上），而且它也必須有一個目標物件的連結欄位，顯示在「連結物件」的「欄位」或「參照」(References)標籤中。 連結物件上顯示的連結欄位（或連結物件上顯示的連結欄位）必須與目標欄位相符。\
-   例如，類別引數（顯示在原始物件上的連結欄位）的ID會從引數（原始物件）中參照。 parameterID （連結欄位至目標物件）會顯示在類別引數（連結物件）的「欄位」標籤中。 連結物件上顯示的連結欄位與目標欄位相符。
+   例如，categoryID欄位（目標欄位），它屬於類別（目標物件）。
+
+1. 由於「原始物件」（引數）和「目標欄位」(categoryID)之間沒有直接連線，因此您必須找到第三個物件，即連線它們的連結物件（類別引數）。 連結物件必須至少有一個從原始物件的「欄位」或「參照」(References)標籤中參照的欄位（「連結欄位」顯示在原始物件上），而且它也必須有一個目標物件的連結欄位，顯示在「連結物件」的「欄位」或「參照」(References)標籤中。 連結物件上顯示的連結欄位（或連結物件上顯示的連結欄位）必須與目標欄位相符。
+
+   例如，類別引數（顯示在原始物件上的連結欄位）的ID是從引數（原始物件）中參照的。 parameterID （連結欄位至目標物件）會顯示在類別引數（連結物件）的「欄位」標籤中。 連結物件上顯示的連結欄位與目標欄位相符。
+
 1. 使用API Explorer識別 **物件程式碼** 連結物件（類別引數）的。\
    例如，類別引數的物件程式碼為CTGYPA。\
    ![category_parameter_objcode_in_api.PNG](assets/category-parameter-objcode-in-api-350x79.png)
@@ -190,15 +201,11 @@ ht-degree: 0%
    如需建立篩選的詳細資訊，請參閱 [篩選器概觀](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
 1. 按一下 **切換到文字模式**.
-1. （視條件而定）如果您要篩選缺少的物件，請將下列公式範例貼到新篩選器的文字模式介面，並以正確的物件和欄位取代建議的文字：
+1. （視條件而定）如果您要篩選缺少的物件，請將下列公式範例貼到新篩選器的文字模式介面，並以正確的物件和欄位取代範例文字：
 
-   ```
-   EXISTS:A:$$OBJCODE=<Object code of the Linking Object><br>
-   ```
+   `EXISTS:A:$$OBJCODE=<Object code of the Linking Object>`
 
-   ```
-   EXISTS:A:<Linking Field displayed on the Linking Object>=FIELD:<Linking Field displayed on the Original Object><br>EXISTS:A:$$EXISTSMOD=NOTEXISTS
-   ```
+   `EXISTS:A:<Linking Field displayed on the Linking Object>=FIELD:<Linking Field displayed on the Original Object><br>EXISTS:A:$$EXISTSMOD=NOTEXISTS`
 
    如需有關未與自訂Forms相關聯之自訂欄位的報告範例，請參閱 [範例2：篩選缺少的物件：未出現在任何自訂表單中的自訂欄位](#example-2-filter-for-missing-objects-custom-fields-that-do-not-appear-in-any-custom-forms) 一節。
 
@@ -206,10 +213,7 @@ ht-degree: 0%
 
 ## 橫跨物件階層中多個層級的文字模式篩選器範例
 
-* [範例1：依Portfolio擁有者名稱篩選問題](#example-1-filter-for-issues-by-portfolio-owner-name)
-* [範例2：篩選缺少的物件：未出現在任何自訂表單中的自訂欄位](#example-2-filter-for-missing-objects-custom-fields-that-do-not-appear-in-any-custom-forms)
-* [範例3：篩選缺少的物件：在特定時段內未記錄時間的使用者](#example-3-filter-for-missing-objects-users-who-did-not-log-time-for-a-certain-period-of-time)
-* [範例4：依多個欄位篩選：依「Portfolio擁有者名稱」和「Portfolio對齊計分卡ID」的任務](#example-4-filter-by-multiple-fields-tasks-by-portfolio-owner-name-and-portfolio-alignment-scorecard-id)
+使用這些範例來建置含有EXISTS陳述式的文字模式篩選器。
 
 ### 範例1：依Portfolio擁有者名稱篩選問題 {#example-1-filter-for-issues-by-portfolio-owner-name}
 
@@ -223,16 +227,17 @@ ht-degree: 0%
 1. 按一下 **切換到文字模式**.
 1. 請參閱下列一般程式碼：
 
-   ```
-   EXISTS:A:$$OBJCODE=<Object code of the Linking Object><br>
-   ```
+   `EXISTS:A:$$OBJCODE=<Object code of the Linking Object>`
 
-   ```
-   EXISTS:A:<Linking Field on the Linking Object>=FIELD:<Linking Field displayed on the Original Object><br>EXISTS:A:<Target Object>:<Target Field>=<Your value for the Target Field>
-   ```
+   `EXISTS:A:<Linking Field on the Linking Object>=FIELD:<Linking Field displayed on the Original Object><br>EXISTS:A:<Target Object>:<Target Field>=<Your value for the Target Field>`
 
 1. 將下列程式碼貼入 **設定報告的篩選規則** 區域以取代上述一般程式碼：
-   <pre>存在:A:$$OBJCODE=PROJ<br>存在:A:ID=FIELD：projectID<br>存在:A:portfolio：ownerID=4d94d7da001699b19edf50de15682221</pre>
+
+   `EXISTS:A:$$OBJCODE=PROJ`
+
+   `EXISTS:A:ID=FIELD:projectID`
+
+   `EXISTS:A:portfolio:ownerID=4d94d7da001699b19edf50de15682221`
 
    >[!NOTE]
    >
@@ -248,11 +253,11 @@ ht-degree: 0%
 
 ### 範例2：篩選缺少的物件：未出現在任何自訂表單中的自訂欄位 {#example-2-filter-for-missing-objects-custom-fields-that-do-not-appear-in-any-custom-forms}
 
-使用文字模式介面，您可以建立篩選器以檢視與自訂Forms （類別）無關聯的自訂欄位（引數）。 此篩選會將引數連結至類別，這些類別會透過另一個物件（類別引數）連結。 因為這兩個欄位未直接連線到彼此，而且由於您正在篩選遺漏的資訊，所以您必須使用EXISTS陳述式。
+使用文字模式介面，您可以建立篩選器以檢視與自訂Forms （類別）無關聯的自訂欄位（引數）。 此篩選會將引數連結至類別，這些類別會透過另一個物件（類別引數）連結。 由於這兩個欄位未直接連線到彼此，而且您正在篩選遺漏的資訊，因此您必須使用EXISTS陳述式。
 
 >[!IMPORTANT]
 >
->引數是存在於自訂表單中參考的欄位資料庫中的欄位。 類別引數是出現在特定表單上的欄位版本。 例如，如果在5個表單上顯示相同的欄位，Workfront資料庫中將有1個引數和5個類別引數。
+>引數是存在於自訂表單中參考的欄位資料庫中的欄位。 類別引數是出現在特定表單上的欄位版本。 例如，如果5個表單中出現相同欄位，Workfront資料庫中將有1個引數和5個類別引數。
 
 若要篩選未與自訂表單相關聯的自訂欄位：
 
@@ -262,16 +267,17 @@ ht-degree: 0%
 1. 按一下 **切換到文字模式**.
 1. 請參閱下列一般程式碼：
 
-   ```
-   EXISTS:A:$$OBJCODE=<Object code of the Linking Object>
-   ```
+   `EXISTS:A:$$OBJCODE=<Object code of the Linking Object>`
 
-   ```
-   EXISTS:A:<Linking Field displayed on the Linking Object>=FIELD:<Linking Field displayed on the Original Object><br>EXISTS:A:$$EXISTSMOD=NOTEXISTS
-   ```
+   `EXISTS:A:<Linking Field displayed on the Linking Object>=FIELD:<Linking Field displayed on the Original Object><br>EXISTS:A:$$EXISTSMOD=NOTEXISTS`
 
 1. 將下列程式碼貼入 **設定報告的篩選規則** 區域以取代上述一般程式碼：
-   <pre>存在:A:$$OBJCODE=CTGYPA<br>存在:A:parameterid=FIELD：ID<br>存在:A:$$EXISTSMOD=NOTEXISTS</pre>
+
+   `EXISTS:A:$$OBJCODE=CTGYPA`
+
+   `EXISTS:A:parameterID=FIELD:ID`
+
+   `EXISTS:A:$$EXISTSMOD=NOTEXISTS`
 
    >[!NOTE]
    >
@@ -286,7 +292,7 @@ ht-degree: 0%
 
 ### 範例3：篩選缺少的物件：在特定時段內未記錄時間的使用者 {#example-3-filter-for-missing-objects-users-who-did-not-log-time-for-a-certain-period-of-time}
 
-使用文字模式介面，您可以建立篩選器以檢視在特定時段內未記錄時間的使用者。 此篩選器會將使用者連結至小時，這些小時會直接相互連線。 不過，您必須使用EXISTS陳述式和文字模式介面，才能篩選遺漏的資訊.information。
+使用文字模式介面，您可以建立篩選器以檢視在特定時段內未記錄時間的使用者。 此篩選器會將使用者連結至小時，這些小時會直接相互連線。 不過，您必須使用EXISTS陳述式和文字模式介面，才能篩選遺漏的資訊。
 
 若要篩選上週未記錄時間的使用者：
 
@@ -296,19 +302,13 @@ ht-degree: 0%
 1. 按一下 **切換到文字模式**.
 1. 請參閱下列一般程式碼：
 
-   ```
-   EXISTS:A:$$OBJCODE=<Object code of the Linking Object><br>
-   ```
+   `EXISTS:A:$$OBJCODE=<Object code of the Linking Object>`
 
-   ```
-   EXISTS:A:<Linking Field displayed on the Linking Object>=FIELD:<Linking Field displayed on the Original Object><br>EXISTS:A:$$EXISTSMOD=NOTEXISTS
-   ```
+   `EXISTS:A:<Linking Field displayed on the Linking Object>=FIELD:<Linking Field displayed on the Original Object><br>EXISTS:A:$$EXISTSMOD=NOTEXISTS`
 
 1. 將下列程式碼貼入 **設定報告的篩選規則** 區域以取代上述一般程式碼：
 
-   ```
-   EXISTS:A:$$OBJCODE=HOUR<br>EXISTS:A:ownerID=FIELD:ID<br>EXISTS:A:entryDate=$$TODAYb-1w<br>EXISTS:A:entryDate_Range=$$TODAYe-1w<br>EXISTS:A:entryDate_Mod=between<br>EXISTS:A:$$EXISTSMOD=NOTEXISTS
-   ```
+   `EXISTS:A:$$OBJCODE=HOUR<br>EXISTS:A:ownerID=FIELD:ID<br>EXISTS:A:entryDate=$$TODAYb-1w<br>EXISTS:A:entryDate_Range=$$TODAYe-1w<br>EXISTS:A:entryDate_Mod=between<br>EXISTS:A:$$EXISTSMOD=NOTEXISTS`
 
    >[!NOTE]
    >
@@ -339,7 +339,14 @@ ht-degree: 0%
 
 1. 按一下 **切換到文字模式**.
 1. 將下列程式碼貼入 **設定報告的篩選規則** 區域：
-   <pre>存在:A:$$OBJCODE=PROJ<br>存在:A:ID=FIELD：projectID<br>存在:A:portfolio：ownerID=4d80ce5200000528787d57807732a33f<br>和:A:存在:A:$$EXISTSMOD=NOTEXISTS<br>和:A:存在:A:$$OBJCODE=PROJ<br>和:A:存在:A:ID=FIELD：projectID<br>和:A:存在:A:portfolio：alignmentScoreCardID=4da387b00001cbc732bb259355c33dad</pre>
+
+   `EXISTS:A:$$OBJCODE=PROJ`
+   `EXISTS:A:ID=FIELD:projectID`
+   `EXISTS:A:portfolio:ownerID=4d80ce5200000528787d57807732a33f`
+   `AND:A:EXISTS:A:$$EXISTSMOD=NOTEXISTS`
+   `AND:A:EXISTS:A:$$OBJCODE=PROJ`
+   `AND:A:EXISTS:A:ID=FIELD:projectID`
+   `AND:A:EXISTS:A:portfolio:alignmentScoreCardID=4da387b00001cbc732bb259355c33dad`
 
    >[!NOTE]
    >

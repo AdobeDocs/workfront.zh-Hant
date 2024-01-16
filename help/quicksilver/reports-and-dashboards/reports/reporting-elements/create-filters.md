@@ -6,7 +6,7 @@ description: 您可以透過篩選條件限制在專案清單中熒幕顯示的�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 2e912e32-7924-418d-9d55-ce3c09f67d3e
-source-git-commit: 429bec1b8884c721af4c6fe1707bea9d9fdf98f8
+source-git-commit: 09492b2657aaf599bb31a19329d5de23791b66ec
 workflow-type: tm+mt
 source-wordcount: '2450'
 ht-degree: 1%
@@ -55,11 +55,11 @@ ht-degree: 1%
 
 若要編輯報告中的篩選器，您必須擁有下列授權：
 
-<p>新增：計畫</p>
+<p>新增：標準</p>
 
 或
 
-<p>目前：標準</p>
+<p>目前：計畫</p>
 
 </td> 
   </tr> 
