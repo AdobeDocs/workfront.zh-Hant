@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: d2a73d24-51d3-42e2-9c09-7f4bc30b2caa
-source-git-commit: aec61210cf2c17775738db4975ae8d19223153cc
+source-git-commit: f84611ef1c6ba1e5b2ec55375c4eb222bcf1cf5e
 workflow-type: tm+mt
-source-wordcount: '1433'
+source-wordcount: '1452'
 ht-degree: 6%
 
 ---
@@ -180,7 +180,7 @@ ht-degree: 6%
      </tr> 
      <tr> 
       <td role="rowheader">僅檢視他們所屬的公司、群組和小組</td> 
-      <td>僅允許使用者檢視專案並與他們所屬的公司、群組和團隊共用。</td> 
+      <td>僅允許使用者檢視專案並與他們所屬的公司、群組和團隊共用。<p><strong>注意</strong>：即使選取此選項，擁有請求者授權的使用者仍無法檢視他們不屬於的公司。</td> 
      </tr> 
      <tr> 
       <td role="rowheader">絕對禁止顯示規劃時數或實際時數</td> 
