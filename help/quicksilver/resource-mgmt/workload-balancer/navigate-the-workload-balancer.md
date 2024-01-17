@@ -3,12 +3,12 @@ product-area: resource-management
 navigation-topic: the-workload-balancer
 title: 瀏覽工作負載平衡器
 description: 使用工作負載平衡器瞭解資源的可用性，並將工作指派給使用者。 本文將引導您使用可用的圖示和設定更新檢視，並瀏覽工作負載平衡器。
-author: Alina
+author: Lisa
 feature: Resource Management
 exl-id: 60dabfc5-6a2e-4368-9dac-db48d0307895
-source-git-commit: 01351c0d86b0deea2d952564172841ba6a77c894
+source-git-commit: 2c4fe48ef969741ba792e37c28adba86ffdcba9a
 workflow-type: tm+mt
-source-wordcount: '4168'
+source-wordcount: '4146'
 ht-degree: 0%
 
 ---
@@ -121,7 +121,7 @@ ht-degree: 0%
 
 * 當您沒有檢視特定專案的許可權時，專案會顯示為 **無法存取的工作專案** 或 **無法存取的專案**.
 
-  ![不可存取的工作項目](assets/wb-inaccessible-work-items.png)
+  ![無法存取的工作專案](assets/wb-inaccessible-work-items.png)
 
 * 工作專案的名稱會顯示在左側，而時間軸則會顯示在右側。
 * 每個工作專案的計畫時數總計會顯示在工作專案名稱的右側，以及代表工作專案時間表之長條的左側。
@@ -159,7 +159,7 @@ ht-degree: 0%
 1. 按一下 **主要功能表** 圖示 ![](assets/main-menu-icon.png) (位於Workfront的右上角)，然後按一下 **資源**.
 1. 按一下 **工作負載平衡器** 在左側面板中。
 
-   ![工作負載平衡器](assets/nwe-balancer-global.png)
+   ![工作量平衡工具](assets/nwe-balancer-global.png)
 
    工作負載平衡器顯示從本週開始的工作指派資訊，包括以下兩個區域：
 
@@ -222,7 +222,7 @@ ht-degree: 0%
 1. 從下列選項選取您要在工作負載平衡器中一次顯示的周數：
    * 1 週
    * 2 週
-   * 4 週. 這是預設設定。
+   * 4週。 這是預設設定。
    * 6 週
    * 3 個月
 
