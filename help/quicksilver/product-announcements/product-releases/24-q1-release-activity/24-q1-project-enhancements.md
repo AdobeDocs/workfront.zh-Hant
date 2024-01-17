@@ -3,9 +3,9 @@ title: 2024年第一季度專案增強功能
 description: 2024年第一季專案增強功能
 author: Nolan
 feature: Product Announcements
-source-git-commit: 293e94a73edaf723852fd40e5dfcdfdc9f76ddf8
+source-git-commit: 55ed32932e5791b57da9cbc4138d6252e9420ddd
 workflow-type: tm+mt
-source-wordcount: '253'
+source-wordcount: '255'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->快速發行生產：24.1版；所有客戶生產：24.4版（2024年4月）
+>快速發行生產：24.2版（2024年2月）；所有客戶生產：24.4版（2024年4月）
 
 我們已變更Workfront用來計算及建議智慧型任務指派的演演算法。 新演演算法適用於Workfront中指派任務的以下區域：任務清單、任務標題中的「工作」區域、「首頁」和「摘要」面板。
 

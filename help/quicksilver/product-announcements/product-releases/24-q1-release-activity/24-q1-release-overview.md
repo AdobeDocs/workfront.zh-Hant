@@ -4,20 +4,18 @@ description: 2024年第一季版本總覽
 author: Becky
 feature: Product Announcements
 exl-id: 2ad9e170-9e63-472a-8476-13f81b7abff3
-source-git-commit: 242c54f8d650b948f4adac079f5e45b6a741f97f
+source-git-commit: bb80c0f6a7d65f39b0b80a011629e1a0af88e53b
 workflow-type: tm+mt
-source-wordcount: '1567'
+source-wordcount: '1571'
 ht-degree: 0%
 
 ---
 
 # 2024年第一季版本總覽
 
-此頁面提供排定於2024年1月15日當週發行的2024年第一季度中包含的功能相關資訊。
+此頁面提供2024年第一季度版本中包含的功能相關資訊。 這些增強功能預計將在2024年1月18日和19日的24.1版本中，提供給所有客戶在生產環境中使用。
 
-此頁面上的增強功能可在預覽環境中取得。 2024年第一季版本接近其計畫生產版本時，此頁面將透過其他增強功能進行更新。
-
-24.1版本網路研討會將於2024年1月11日舉行。 您可以 [在這裡報名參加網路講座](https://webinars.on24.com/adobe_workfront/whatsnewin241?partnerref=releaseoverview).
+24.1版本網路研討會於2024年1月11日舉行。 您可以 [在此報名參加網路研討會以觀看隨選錄影](https://webinars.on24.com/adobe_workfront/whatsnewin241?partnerref=releaseoverview).
 
 <span class="preview">非週期功能（在2024年第一季度發行日期之前發佈到生產環境的功能）會以黃色醒目提示。</span>
 
@@ -352,9 +350,10 @@ ht-degree: 0%
                         <ul>
                             <li>
                                 <p>預覽版本： 2023年12月21日</p>
+                                <p>注意：在24.4版發行之前，此功能將保留在「預覽」中。</p>
                             </li>
                             <li>
-                                <p>快速發行生產：第24.1發行版本</p>
+                                <p>快速發行生產：24.2版（2024年2月）</p>
                             </li>
                             <li>
                                 <p>適用於所有客戶的生產：24.4版（2024年4月）</p>
