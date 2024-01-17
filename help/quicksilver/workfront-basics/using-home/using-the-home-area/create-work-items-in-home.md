@@ -2,13 +2,13 @@
 product-area: projects
 navigation-topic: use-the-home-area
 title: 從首頁區域建立工作專案
-description: 從首頁區域建立工作專案
-author: Lisa
+description: 您可以從以下位置建立工作專案： [!UICONTROL 首頁] 區域。 您可以自行建立個人任務、向其他使用者請求工作，或將任務新增到特定專案。
+author: Nolan
 feature: Get Started with Workfront, Work Management
 exl-id: 9db6e509-ea6a-493a-9d86-21a163da1915
-source-git-commit: ecbba9b1da674328df866ec30e48fe44dd02cb86
+source-git-commit: 644e2487dae0d3b2f7931660fb8e6ed68e6b8b93
 workflow-type: tm+mt
-source-wordcount: '793'
+source-wordcount: '813'
 ht-degree: 0%
 
 ---

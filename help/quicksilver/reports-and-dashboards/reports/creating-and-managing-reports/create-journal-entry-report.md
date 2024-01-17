@@ -1,13 +1,13 @@
 ---
 title: 更新區域報告
-description: 更新區域報告
+description: 「日誌專案」報表會從專案、工作、問題和其他物件的更新區域顯示系統更新，這些先前只能透過Adobe Workfront API使用。 雖然此為適用於特定使用案例的進階報表，但格式越容易解讀，您就能更輕鬆地在Workfront中報告專案活動和系統更新。
 author: Nolan
 draft: Probably
 feature: Reports and Dashboards
 exl-id: ecf947ce-54d8-4103-8903-f455b1d86c39
-source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
+source-git-commit: 94c2930d155f38a56fe36e5a09bd29f27d1593f0
 workflow-type: tm+mt
-source-wordcount: '2686'
+source-wordcount: '2765'
 ht-degree: 4%
 
 ---
@@ -38,25 +38,25 @@ ht-degree: 4%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront計畫*</td> 
+   <td role="rowheader">Adobe Workfront計畫</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront授權*</td> 
-   <td> <p>計劃 </p> </td> 
+   <td role="rowheader">Adobe Workfront授權</td> 
+   <td> <p>新增：標準 </p><p>或 </p><p>目前：計畫 </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">存取層級設定*</td> 
-   <td> <p>編輯報告、儀表板、行事曆的存取權</p> <p>編輯對篩選器、檢視、群組的存取權</p> <p>注意：如果您還是沒有存取權，請詢問您的Workfront管理員，他們是否在您的存取層級中設定其他限制。 如需有關Workfront管理員如何修改您的存取層級的資訊，請參閱 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>.</p> </td> 
+   <td role="rowheader">存取層級設定</td> 
+   <td> <p>編輯報告、儀表板、行事曆的存取權</p> <p>編輯對篩選器、檢視、群組的存取權</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">物件許可權</td> 
-   <td> <p>檢視物件的許可權，這些物件包含您在報表中顯示的日誌專案</p> <p>建立報表後，您將會取得報表的管理許可權</p> <p>如需請求其他存取許可權的詳細資訊，請參閱 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">要求物件的存取權 </a>.</p> </td> 
+   <td> <p>檢視物件的許可權，這些物件包含您在報表中顯示的日誌專案</p> <p>建立報表後，您將會取得報表的管理許可權</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;若要瞭解您擁有的計畫、授權型別或存取權，請聯絡您的Workfront管理員。
+如需有關此表格的詳細資訊，請參閱 [Workfront檔案中的存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## 先決條件
 
@@ -68,7 +68,7 @@ ht-degree: 4%
 
 * 您要報告的任何自訂欄位都有設定 **在更新摘要中顯示欄位變更** 已啟用。
 
-  若要瞭解如何為自訂欄位啟用此設定，請參閱區段 [建立或編輯自訂表單](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#create) 在文章中 [建立或編輯自訂表單](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
+  若要瞭解如何為自訂欄位啟用此設定，請參閱 [建立或編輯自訂表單](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#).
 
 ## 分錄報表概觀
 
@@ -127,7 +127,7 @@ ht-degree: 4%
  </tbody> 
 </table>
 
-若要組織此報表中的資訊，您可以使用內建的分組專案。 「專案」群組提供「專案名稱」的主要群組以及「輸入日期」的次要群組。 您可以在建立報表時套用這個現有的群組，也可以在檢視報表時套用它。
+若要組織此報表中的資訊，您可以使用名為「專案」的內建群組。 「專案」群組提供「專案名稱」的主要群組以及「輸入日期」的次要群組。 您可以在建立報表時套用這個現有的群組，也可以在檢視報表時套用它。
 
 若要瞭解如何設定您要用於報告的檢視、篩選器和群組，請參閱相關區段：
 
@@ -167,7 +167,7 @@ ht-degree: 4%
 >如果您想比較條件變更之間的天數差異，可使用增強型分析。\
 >若要進一步瞭解增強型分析，請參閱 [增強型分析概述](../../../enhanced-analytics/enhanced-analytics-overview.md).
 
-1. 按一下 **主要功能表** 圖示 ![](assets/main-menu-icon.png) (位於Adobe Workfront的右上角)，然後按一下 **報表**.
+1. 按一下 **[!UICONTROL 主要功能表]** 圖示 ![主要功能表](/help/_includes/assets/main-menu-icon.png) 在Adobe Workfront的右上角，或（如果有的話）按一下 **[!UICONTROL 主要功能表]** 圖示 ![主要功能表](/help/_includes/assets/main-menu-icon-left-nav.png) 然後按一下「 」 **報表**.
 1. 按一下 **新報告**，然後選取 **日誌專案**.
 
    ![](assets/nwe-select-journal-entry-350x273.png)
@@ -281,7 +281,7 @@ ht-degree: 4%
 
 若要檢視任務或問題何時被刪除：
 
-1. 按一下 **主要功能表** 圖示 ![](assets/main-menu-icon.png) (位於Adobe Workfront的右上角)，然後按一下 **報表**.
+1. 按一下 **[!UICONTROL 主要功能表]** 圖示 ![主要功能表](/help/_includes/assets/main-menu-icon.png) 在Adobe Workfront的右上角，或（如果有的話）按一下 **[!UICONTROL 主要功能表]** 圖示 ![主要功能表](/help/_includes/assets/main-menu-icon-left-nav.png) 然後按一下「 」 **報表**.
 1. 按一下 **新報告**，然後選取 **日誌專案**.
 
    ![](assets/nwe-select-journal-entry-350x273.png)
@@ -325,7 +325,7 @@ ht-degree: 4%
 
    如需新增欄的詳細資訊，請參閱 [Adobe Workfront中的檢視概觀](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
 
-1. 在 **篩選器** 標籤，按一下 **新增篩選器規則**，然後新增下列專案：
+1. 在 **篩選器** 標籤，按一下 **新增篩選器規則**，然後新增下列篩選器：
 
    * **變更型別** > **等於** > **刪除**
    * **專案ID** > **等於** > **`<project>`**
@@ -365,7 +365,7 @@ ht-degree: 4%
 
 若要檢視自訂欄位在專案生命週期中的變更情形：
 
-1. 按一下 **主要功能表** 圖示 ![](assets/main-menu-icon.png) (位於Adobe Workfront的右上角)，然後按一下 **報表**.
+1. 按一下 **[!UICONTROL 主要功能表]** 圖示 ![主要功能表](/help/_includes/assets/main-menu-icon.png) 在Adobe Workfront的右上角，或（如果有的話）按一下 **[!UICONTROL 主要功能表]** 圖示 ![主要功能表](/help/_includes/assets/main-menu-icon-left-nav.png) 然後按一下「 」 **報表**.
 1. 按一下 **新報告**，然後選取 **日誌專案**.
 
    ![](assets/nwe-select-journal-entry-350x273.png)
@@ -429,7 +429,7 @@ ht-degree: 4%
 
    如需新增欄的詳細資訊，請參閱 [Adobe Workfront中的檢視概觀](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
 
-1. 在 **篩選器** 標籤，按一下 **新增篩選器規則**，然後新增下列專案：
+1. 在 **篩選器** 標籤，按一下 **新增篩選器規則**，然後新增下列篩選器：
 
    * **日誌專案欄位名稱** > **包含** > **DE**
 
@@ -467,7 +467,7 @@ ht-degree: 4%
 
 您可以設定「日誌專案」報表，以顯示「計畫完成日期」在專案生命週期中變更的頻率。
 
-1. 按一下 **主要功能表** 圖示 ![](assets/main-menu-icon.png) (位於Adobe Workfront的右上角)，然後按一下 **報表**.
+1. 按一下 **[!UICONTROL 主要功能表]** 圖示 ![主要功能表](/help/_includes/assets/main-menu-icon.png) 在Adobe Workfront的右上角，或（如果有的話）按一下 **[!UICONTROL 主要功能表]** 圖示 ![主要功能表](/help/_includes/assets/main-menu-icon-left-nav.png) 然後按一下「 」 **報表**.
 1. 按一下 **新報告**，然後選取 **日誌專案**.
 
    ![](assets/nwe-select-journal-entry-350x273.png)
@@ -568,7 +568,7 @@ ht-degree: 4%
 
 您可以設定「日誌專案」報表，以顯示專案所有者（或專案經理）在專案生命週期中的變更次數。
 
-1. 按一下 **主要功能表** 圖示 ![](assets/main-menu-icon.png) (位於Adobe Workfront的右上角)，然後按一下 **報表**.
+1. 按一下 **[!UICONTROL 主要功能表]** 圖示 ![主要功能表](/help/_includes/assets/main-menu-icon.png) 在Adobe Workfront的右上角，或（如果有的話）按一下 **[!UICONTROL 主要功能表]** 圖示 ![主要功能表](/help/_includes/assets/main-menu-icon-left-nav.png) 然後按一下「 」 **報表**.
 1. 按一下 **新報告**，然後選取 **日誌專案**.
 
    ![](assets/nwe-select-journal-entry-350x273.png)

@@ -2,26 +2,29 @@
 product-area: projects
 navigation-topic: use-the-home-area
 title: 在中顯示專案 [!UICONTROL 工作清單] 在「首頁」區域中
-description: 此 [!UICONTROL 工作清單] 在 [!UICONTROL 首頁] 區域顯示指派給您的所有工作專案。 您可以控制哪些專案會顯示在 [!UICONTROL 工作] 清單如下所述。
-author: Lisa
+description: 此 [!UICONTROL 工作清單] 在 [!UICONTROL 首頁] 區域顯示指派給您的所有工作專案。 您可以控制哪些專案會顯示在 [!UICONTROL 工作清單]，使用篩選器以及將您的工作專案分組和排序。
+author: Nolan
 feature: Get Started with Workfront, Work Management
 exl-id: eac2e065-9e32-43c1-90ff-0f841b508c35
-source-git-commit: 7c624eff8931d206285b6c4d91083f4bf09a88b0
+source-git-commit: 644e2487dae0d3b2f7931660fb8e6ed68e6b8b93
 workflow-type: tm+mt
-source-wordcount: '1654'
+source-wordcount: '1826'
 ht-degree: 0%
 
 ---
 
-# 在中顯示專案 [!UICONTROL 工作清單] 在「首頁」區域中
+# 在中顯示專案 [!UICONTROL 工作清單] 在 [!UICONTROL 首頁] 區域
 
-此 [!UICONTROL 工作清單] 在 [!UICONTROL 首頁] 區域顯示指派給您的所有工作專案。 您可以控制哪些專案會顯示在 [!UICONTROL 工作] 清單如下所述。
+<!-- Audited: 1/2024 -->
+
+
+此 [!UICONTROL 工作清單] 在 [!UICONTROL 首頁] 區域顯示指派給您的所有工作專案。 您可以控制哪些專案會顯示在 [!UICONTROL 工作清單]，使用篩選器以及將您的工作專案分組和排序。
 
 >[!NOTE]
 >
->將問題轉換為任務或專案時，問題會從指派給問題的使用者的首頁區域移除。
+>* 將問題轉換為任務或專案時，問題會從指派給問題的使用者的首頁區域移除。
 >
->將任務轉換為專案時，任務會被刪除，並從指派給任務的使用者的「首頁」區域中移除。
+>* 將任務轉換為專案時，任務會被刪除，並從指派給任務的使用者的「首頁」區域中移除。
 
 
 ## 存取需求
@@ -35,25 +38,26 @@ ht-degree: 0%
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront plan*]</strong></td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront plan]</strong></td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] 授權*</strong></td> 
-   <td> <p>[！UICONTROL Review]僅供核准</p> <p>適用於所有其他物件的[！UICONTROL Work]或更新版本</p> </td> 
-  </tr> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] 授權</strong></td> 
+   <td> <p>新增：</p><ul><li>[！UICONTROL參與者]僅供核准</li> <li>適用於所有其他物件的[！UICONTROL Standard]或更新版本</li> <p>或</p> 
+  </ul><p>目前：</p><ul><li>[！UICONTROL Review]僅供核准</li> <li>適用於所有其他物件的[！UICONTROL Work]或更新版本</li> </td> 
+  </tr> </ul>
   <tr> 
-   <td role="rowheader"><strong>存取層級設定*</strong></td> 
-   <td> <p>[！UICONTROL檢視]或更高的專案、任務、問題和檔案存取權</p> <p>注意：如果您還是沒有存取權，請詢問您的 [!DNL Workfront] 管理員是否對您的存取層級設定其他限制。 如需瞭解如何 [!DNL Workfront] 管理員可以修改您的存取層級，請參閱 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>.</p> </td> 
+   <td role="rowheader"><strong>存取層級設定</strong></td> 
+   <td> <p>[！UICONTROL檢視]或更高的專案、任務、問題和檔案存取權</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>物件許可權</strong></td> 
-   <td> <p>貢獻您需要處理的任務和問題的許可權或更高</p> <p>如需請求其他存取許可權的詳細資訊，請參閱 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">要求物件的存取權</a>.</p> </td> 
+   <td> <p>貢獻您需要處理的任務和問題的許可權或更高</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;若要瞭解您擁有的計畫、授權型別或存取權，請聯絡您的 [!DNL Workfront] 管理員。
+如需有關此表格的詳細資訊，請參閱 [Workfront檔案中的存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## 篩選 [!UICONTROL 工作清單]
 
@@ -63,8 +67,8 @@ ht-degree: 0%
 >
 >篩選器選項會儲存在瀏覽器中。 如果您在相同的電腦上持續使用相同的瀏覽器（且不清除網站資料），則選取的篩選器不會變更。 如果您切換瀏覽器或電腦，則篩選器會還原為預設選項，該選項會取消選取所有篩選器。
 
-1. 按一下 **[!UICONTROL 主要功能表]** ![](assets/main-menu-icon.png) 按一下「 」 **[!UICONTROL 首頁]**.
-1. 按一下 **[!UICONTROL 篩選]** ![](assets/filter-nwepng.png) 下拉式功能表。
+1. 按一下 **[!UICONTROL 主要功能表]** 圖示 ![主要功能表](/help/_includes/assets/main-menu-icon.png) 在Adobe Workfront的右上角，或（如果有的話）按一下 **[!UICONTROL 主要功能表]** 圖示 ![主要功能表](/help/_includes/assets/main-menu-icon-left-nav.png) 然後按一下「 」 **[!UICONTROL 首頁]**.
+1. 按一下 **[!UICONTROL 篩選]** ![](assets/filter-nwepng.png) 下拉式功能表。 如果您已選取任何篩選器，則選取的篩選器數會取代圖示顯示。
 1. 從下列篩選選項中選取，以指定要顯示的專案型別：
 
    <table style="table-layout:auto"> 
@@ -76,11 +80,11 @@ ht-degree: 0%
       <td>顯示並選取所有專案。 這包括任務、問題、核准、個人任務，以及已完成的任務和問題。 </td>
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>[！UICONTROL正在處理的任務]</strong></td> 
+      <td role="rowheader"><strong>[！UICONTROL任務：處理]</strong></td> 
       <td> <p>僅顯示您正在處理的任務。 這些是指派給您已按一下[！UICONTROL處理它]按鈕的任務。</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>[！UICONTROL工作準備開始]</strong></td> 
+      <td role="rowheader"><strong>[！UICONTROL工作：準備開始]</strong></td> 
       <td> 
        <div> 
         <p>僅顯示已準備好要啟動的任務。 下列兩個陳述式都必須為true：</p> 
@@ -91,7 +95,7 @@ ht-degree: 0%
        </div> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>[！UICONTROL工作未就緒]</strong></td> 
+      <td role="rowheader"><strong>[！UICONTROL工作：未就緒]</strong></td> 
       <td> 
        <div> 
         <p>僅顯示尚未準備開始的任務。 下列其中一個陳述式必須為true：</p> 
@@ -102,16 +106,16 @@ ht-degree: 0%
        </div> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>[！UICONTROL處理中的問題]</strong></td> 
+      <td role="rowheader"><strong>[！UICONTROL問題：處理]</strong></td> 
       <td> <p>僅顯示您正在處理的問題。 這是指派給您的問題，而您已按一下[！UICONTROL處理它]按鈕。</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>[！UICONTROL已要求問題]</strong></td> 
+      <td role="rowheader"><strong>[！UICONTROL問題：已要求]</strong></td> 
       <td>僅顯示已指派給您但尚未按一下[！UICONTROL處理它的問題]按鈕。</td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>個人</strong></td> 
-      <td>僅顯示個人工作。 如區段所述，這些是您建立為[！UICONTROL待辦事項的工作 <a href="../../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md#creating-a-personal-task">建立個人任務</a> 在文章中 <a href="../../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md">從[！UICONTROL首頁]區域建立工作專案</a>.</td> 
+      <td>僅顯示個人工作。 如區段所述，這些是您建立為[！UICONTROL待辦事項的工作 <a href="../../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md#create-a-personal-task">建立個人任務</a> 在文章中 <a href="../../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md">從[！UICONTROL首頁]區域建立工作專案</a>.</td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>[！UICONTROL核准]</strong></td> 
@@ -128,6 +132,21 @@ ht-degree: 0%
        </div> </td> 
      </tr> 
      <tr> 
+      <td role="rowheader"><strong>[！UICONTROL Delegated： Delegated by me]</strong></td> 
+      <td> 
+       <div> 
+        <p>僅顯示您已委派給其他使用者的工作專案。</p> 
+        <p>如需委派工作的詳細資訊，請參閱 <a href="/help/quicksilver/manage-work/delegate-work/how-to-delegate-work.md#delegate-tasks-and-issues-to-another-user" class="MCXref xref">將任務和問題委派給其他使用者</a>.
+       </div> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader"><strong>[！UICONTROL已委派：已委派給我]</strong></td> 
+      <td> 
+       <div> 
+        <p>僅顯示其他使用者暫時委派給您的工作專案。</p> 
+       </div> </td> 
+     </tr> 
+     <tr> 
       <td role="rowheader"><strong>[！UICONTROL已完成]</strong></td> 
       <td> <p>僅顯示已完成的任務、問題和個人任務。 已完成的工作會顯示前兩週，並會根據其完成所在的周分組到「工作清單」中。 不包含核准。</p> <p>已完成的工作會隱藏在[！UICONTROL工作清單]中，除非您選取此篩選器。</p> </td> 
      </tr> 
@@ -141,8 +160,8 @@ ht-degree: 0%
    >* 篩選選項是根據物件（任務、問題、核准、個人任務）。
    >* 任務和問題會依據其狀態以及我們處理它們的準備程度來進一步篩選([!UICONTROL 處理]， [!UICONTROL 準備開始]， [!UICONTROL 尚未就緒] 用於任務，以及 [!UICONTROL 處理] 和 [!UICONTROL 已要求] 問題)。 您可以選擇顯示特定狀態的任務或問題，或按一下任務或問題以選擇並顯示所有狀態。
    >* 已完成專案有單獨的篩選器，其中同時包含任務和問題。 這不包括核准。 此 [!UICONTROL 已完成] 篩選器包含個人任務。
-   >* 您一次只能選取一個狀態。 例如，您只能顯示 [!UICONTROL 處理] 僅限任務 [!UICONTROL 已要求] 問題。
-   >* 您無法對指派給您其中一個團隊的專案套用篩選器，這些篩選器不會包含在直接指派給您的專案中。
+   >* 您可以選取一次只顯示一個狀態。 例如，您只能顯示 [!UICONTROL 處理] 僅限任務 [!UICONTROL 已要求] 問題。 您也可以一次選取多個狀態。
+   >* 您無法對指派給您其中一個團隊的專案套用篩選器，且團隊指派不會包含在直接指派給您的專案中。
 
 
 1. （選用）進一步組織 [!UICONTROL 工作清單]，如一節所述 [依日期、專案和優先順序分組並排序](#group-and-sort-by-date-project-and-priority) 本文章內容。
@@ -151,10 +170,12 @@ ht-degree: 0%
 
 您可以分組並排序 [!UICONTROL 工作清單] 作者： [!UICONTROL 計畫完成日期]， [!UICONTROL 認可日期]， [!UICONTROL 專案]，或 [!UICONTROL 我的優先順序]. 您選擇的選項決定專案在 [!UICONTROL 工作清單].
 
-1. 按一下 **[!UICONTROL 主要功能表]** ![](assets/main-menu-icon.png) 按一下「 」 **[!UICONTROL 首頁]**.
-1. 按一下 **[!UICONTROL 分組依據]** 下拉式功能表。
+1. 按一下 **[!UICONTROL 主要功能表]** 圖示 ![主要功能表](/help/_includes/assets/main-menu-icon.png) 在Adobe Workfront的右上角，或（如果有的話）按一下 **[!UICONTROL 主要功能表]** 圖示 ![主要功能表](/help/_includes/assets/main-menu-icon-left-nav.png) 然後按一下「 」 **[!UICONTROL 首頁]**.
+1. 按一下 **[!UICONTROL 分組依據]** ![分組依據](/help/quicksilver/workfront-basics/using-home/using-the-home-area/assets/grouping-28x19.png) 下拉式功能表。
 
+   <!--
    ![](assets/group-by-drop-down-expanded-in-home-with-planned-start-date-nwe-350x273.png)
+   -->
 
 1. 從下列選項中選取：
 
@@ -205,7 +226,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->預設排序為遞增順序。 如果您將排序變更為降序，則所選的排序選項會儲存在瀏覽器中。 如果您一律在同一部電腦上使用相同的瀏覽器（且不清除網站資料），排序不會變更，但如果您切換瀏覽器或電腦，則排序會變更為預設排序。
+>預設排序為升序。 如果您將排序變更為降序，則所選的排序選項會儲存在瀏覽器中。 如果您一律在同一部電腦上使用相同的瀏覽器（且不清除網站資料），排序不會變更，但如果您切換瀏覽器或電腦，則排序會變更為預設排序。
 
 ## 檢視延遲專案
 
@@ -226,12 +247,12 @@ ht-degree: 0%
 
 若要搜尋 [!UICONTROL 工作清單]：
 
-1. 按一下 **[!UICONTROL 主要功能表]** ![](assets/main-menu-icon.png) 按一下「 」 **[!UICONTROL 首頁]**.
-1. （可選）篩選 [!UICONTROL 工作清單]，如所述 [篩選 [!UICONTROL 工作清單]](#filter-the-work-list) 和 [依日期、專案和優先順序分組並排序](#group-and-sort-by-date-project-and-priority).
+1. 按一下 **[!UICONTROL 主要功能表]** 圖示 ![主要功能表](/help/_includes/assets/main-menu-icon.png) 在Adobe Workfront的右上角，或（如果有的話）按一下 **[!UICONTROL 主要功能表]** 圖示 ![主要功能表](/help/_includes/assets/main-menu-icon-left-nav.png) 然後按一下「 」 **[!UICONTROL 首頁]**.
+1. （可選）篩選並分組 [!UICONTROL 工作清單]，如所述 [篩選 [!UICONTROL 工作清單]](#filter-the-work-list) 和 [依日期、專案和優先順序分組並排序](#group-and-sort-by-date-project-and-priority).
 
 1. （選擇性）如果您要搜尋已完成的工作專案，則必須設定 [!UICONTROL 工作清單] 以在搜尋前顯示已完成的專案。
-1. ![](assets/search-icon-highlighted-home-new-filters-and-sorting-nwe-350x238.png)
 
+1. 按一下搜尋圖示 ![搜尋](/help/quicksilver/workfront-basics/using-home/using-the-home-area/assets/search-icon.png).
 1. 開始輸入您要搜尋的專案名稱。\
    此 [!UICONTROL 工作清單] 系統會自動篩選以包含具有相符名稱的專案。
 
@@ -239,7 +260,7 @@ ht-degree: 0%
 
 您可以變更的大小 [!UICONTROL 工作清單] 因此大約會耗用Home區域的四分之一到一半之間的任何地方 [!UICONTROL 首頁] 區域。
 
-1. 按一下 **[!UICONTROL 主要功能表]** ![](assets/main-menu-icon.png) 按一下「 」 **[!UICONTROL 首頁]**.
+1. 按一下 **[!UICONTROL 主要功能表]** 圖示 ![主要功能表](/help/_includes/assets/main-menu-icon.png) 在Adobe Workfront的右上角，或（如果有的話）按一下 **[!UICONTROL 主要功能表]** 圖示 ![主要功能表](/help/_includes/assets/main-menu-icon-left-nav.png) 然後按一下「 」 **[!UICONTROL 首頁]**.
 1. 將滑鼠移至 [!UICONTROL 工作清單]，然後向左或向右拖曳，直到工作清單達到所需大小為止。
 
 ## 摺疊和展開群組
@@ -249,7 +270,7 @@ ht-degree: 0%
 您可以收合和展開以下專案中的群組： [!UICONTROL 工作清單] 以便更妥善地控制哪些資訊可見。\
 根據預設， [!UICONTROL 本週] 群組會展開，而所有其他群組則會摺疊。 您所做的任何變更會在下次存取「首頁」區域時被記住。
 
-1. 按一下 **[!UICONTROL 主要功能表]** ![](assets/main-menu-icon.png) 按一下「 」 **[!UICONTROL 首頁]**.
+1. 按一下 **[!UICONTROL 主要功能表]** 圖示 ![主要功能表](/help/_includes/assets/main-menu-icon.png) 在Adobe Workfront的右上角，或（如果有的話）按一下 **[!UICONTROL 主要功能表]** 圖示 ![主要功能表](/help/_includes/assets/main-menu-icon-left-nav.png) 然後按一下「 」 **[!UICONTROL 首頁]**.
 1. 按一下 **[!UICONTROL 展開]** 或 **[!UICONTROL 摺疊]** 您想要展開或收合的任何群組旁的箭頭。
 
    ![](assets/expand-section-icon-highlighted-home-new-filters-and-sorting-nwe-350x268.png)
