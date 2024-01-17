@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: ce015eba8291995eec1611917896a0e797f820cc
+source-git-commit: 5f3d5c93c2fc721dda2dd04adac22190ef6a3f29
 workflow-type: tm+mt
-source-wordcount: '1659'
+source-wordcount: '1678'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ role: User
 >
 >如需加入Maestro測試版計畫的詳細資訊，請聯絡您的客戶代表。
 >
->如需詳細資訊，請參閱 [Adobe大師概觀](../maestro-overview.md).
+>如需詳細資訊，請參閱 [Adobe大師概觀](/help/quicksilver/maestro/maestro-overview.md).
 
 存取Adobe Maestro中的記錄型別頁面時，您可以在時間軸檢視中顯示記錄。
 
@@ -129,7 +129,12 @@ role: User
 
    ![](assets/timeline-view-example.png)
 
-   與您選取的記錄型別相關聯的記錄會在時間軸中顯示為長條，並依預設以時間順序排序。
+   與您選取的記錄型別相關聯的記錄會在時間軸中顯示為長條，並依其開始日期的時間順序依預設排序。
+
+   >[!TIP]
+   >
+   >    時間軸中記錄的排序在壓縮檢視中不可見。
+
 
 1. 執行下列任一項作業來瀏覽時間軸：
 
@@ -165,8 +170,8 @@ role: User
 1. 更新下列檢視元素，如下列子區段所述：
    * [篩選器](#add-filters)
    * [分組](#add-grouping)
-     <!--* [Sort](#add-sort) not sure if this is present in timeline views?!; also check the anchor and make sure it's correct-->
    * [設定](#edit-the-timeline-view-settings)
+     <!--* [Sort](#add-sort) not sure if this is present in timeline views?!; also check the anchor and make sure it's correct-->
 
 ### 新增篩選器
 

@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 99fac041-a235-4991-b826-d19944164bc9
-source-git-commit: ce015eba8291995eec1611917896a0e797f820cc
+source-git-commit: 5f3d5c93c2fc721dda2dd04adac22190ef6a3f29
 workflow-type: tm+mt
 source-wordcount: '420'
 ht-degree: 0%
@@ -25,7 +25,7 @@ ht-degree: 0%
 >
 >如需加入Maestro測試版計畫的詳細資訊，請聯絡您的客戶代表。
 >
->如需詳細資訊，請參閱 [Adobe大師概觀](../maestro-overview.md).
+>如需詳細資訊，請參閱 [Adobe大師概觀](/help/quicksilver/maestro/maestro-overview.md).
 
 使用Adobe Maestro功能時，有授權和共用許可權限制。
 

@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: 1ae60512c337d778939ef6c48fd2eda8b279dcce
+source-git-commit: 5f3d5c93c2fc721dda2dd04adac22190ef6a3f29
 workflow-type: tm+mt
-source-wordcount: '1903'
+source-wordcount: '1948'
 ht-degree: 1%
 
 ---
@@ -48,9 +48,11 @@ Adobe大師是Adobe Workfront的新產品。 Maestro的目的在於全面掌握�
 * 完全自訂您的工作流程，從決定您的組織使用哪些物件型別（或記錄型別），到設定這些物件如何彼此連結。
 * 從其他系統連結到物件型別，為所有流程建立一致的架構。
 
-## Maestro目前可用的功能
+## 目前可用的Maestro功能
 
 下表說明Maestro中可用的主要功能，及其可用時間軸。 此清單並未包含所有功能。
+
+有關新功能及其發行時間的資訊，請參閱 [Maestro發行活動](/help/quicksilver/maestro/release-activity.md).
 
 | 功能 | 現在可用 | 即將推出 | 研究中 |
 |----------------------------------------------------|:-----------------------------:|:--------------------------------:|:----------------:|
@@ -222,6 +224,8 @@ Maestro的架構是完全可自訂的。 您可以建立所有記錄型別、其
 
 * **連結的欄位** （或查詢欄位）：在兩個記錄型別之間建立連線並將個別記錄連結在一起後，您可以在要連線的記錄上參考連結記錄的欄位。
 
+  例如，如果您將Maestro行銷活動與Workfront專案連線，您可以在Maestro行銷活動記錄中顯示已連線專案的「專案所有者」欄位。
+
   ![](assets/add-lookup-fields-modal.png)
 
   如需連結記錄型別、記錄和建立連結欄位的相關資訊，請參閱下列文章：
@@ -268,7 +272,7 @@ Maestro的架構是完全可自訂的。 您可以建立所有記錄型別、其
 
 ## 找到Maestro
 
-確保貴組織已獲得Maestro的存取權，且您的系統或群組管理員已將Maestro區域新增至您的主功能表。
+確保貴組織已獲得Maestro的存取權，且您的系統或群組管理員已將Maestro區域新增至您的主功能表。 如需詳細資訊，請參閱 [存取權總覽](/help/quicksilver/maestro/access/access-overview.md) .
 
 若要尋找Maestro：
 

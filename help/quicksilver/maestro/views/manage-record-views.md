@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: 811eb1453c140808b0d6c5d9a3b4a0729cb16b2d
+source-git-commit: daa195b0273a232692fe47691a2926579b87ba6b
 workflow-type: tm+mt
-source-wordcount: '783'
+source-wordcount: '800'
 ht-degree: 0%
 
 ---
@@ -135,14 +135,13 @@ ht-degree: 0%
 | 從外部清單複製列並將它們貼到表格中 | ✓ (A) |               |
 | 在時間軸中顯示記錄 |            | ✓ (A) |
 | 篩選記錄 | ✓ (A) | ✓ (A) |
-| 群組記錄 |           | ✓ (A) |
+| 群組記錄 | ✓ (A) | ✓ (A) |
 | 排序記錄 | ✓ (A) |              |
 | 色彩代碼記錄 |           | ✓ (A) |
 | Color-code分組 |           | ✓ (A) |
-| 搜尋記錄 | ✓ (A) | ✓ (A) |
-
-<!--| Sort groupings                                                        | ✓          | ✓             |-->
-<!--| Display a limited number of fields as columns, by default                      | ✓          |               |-->
+| 搜尋特定記錄 | ✓ (A) | ✓ (A) |
+| 共用檢視 | ✓ (A) | ✓ (A) |
+| 從檢視開啟記錄的「詳細資訊」頁面 | ✓ (A) | ✓ (A) |
 
 ## 建立或編輯檢視 {#create-or-edit-views}
 
@@ -171,15 +170,11 @@ ht-degree: 0%
    依預設，Maestro會將檢視命名為「表格&lt;數字>」或「時間軸&lt;數字>」。 數字是自動產生的增量。
 
 1. （選擇性）若要在建立檢視後重新命名，請按一下檢視下拉式功能表，然後按一下 **更多** 功能表 ![](assets/more-menu.png) > **重新命名** 以更新檢視名稱。 <!--ensure there is not another saving step here?!-->
-1. （選用）若要管理檢視，請參閱下列文章以取得詳細資訊：
+1. （可選）若要管理特定型別的檢視，請參閱下列文章：
 
    * [管理表格檢視](../views/manage-the-table-view.md)
    * [管理時間表檢視](../views/manage-the-timeline-view.md)
 
-
-<!--# Add a view as a favorite - this is not possible yet-->
-
-<!-- ## Share views - not possible yet-->
 
 ## 刪除檢視
 
@@ -202,6 +197,7 @@ ht-degree: 0%
 
 如需關於共用檢視的資訊，請參閱 [共用檢視](/help/quicksilver/maestro/access/share-views.md).
 
+<!--## Add a view as a favorite - this is not possible yet-->
 
 <!--not possible yet - August 30, 2023: 
 

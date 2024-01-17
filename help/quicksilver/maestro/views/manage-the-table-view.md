@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: ce015eba8291995eec1611917896a0e797f820cc
+source-git-commit: 5f3d5c93c2fc721dda2dd04adac22190ef6a3f29
 workflow-type: tm+mt
-source-wordcount: '2314'
+source-wordcount: '2316'
 ht-degree: 3%
 
 ---
@@ -204,7 +204,7 @@ Maestro表格檢視的欄標題會顯示與檢視中記錄相關聯的欄位。 
 
       您無法使用與表格檢視中隱藏之欄位關聯的關鍵字。
 
-   1. 在鍵盤上按Enter鍵以移至下一個找到的欄位。
+   1. 按下 **輸入** 前往下一個找到的欄位。
 
    1. （選擇性）如果有多個相符專案，請按一下搜尋關鍵字右邊的向上和向下箭頭，以尋找表格中的所有相符專案。
 
@@ -279,7 +279,7 @@ Maestro表格檢視的列會顯示所選記錄型別的個別記錄。
         </thead>
         <tbody>
         <tr>
-            <td>單行，段落 </td>
+            <td>單行，段落，公式 </td>
             <td><p>包含</p>
             <p>不包含</p>
             <p>是</p>
@@ -296,7 +296,7 @@ Maestro表格檢視的列會顯示所選記錄型別的個別記錄。
             <p>不是空的</p></td>
         </tr>
         <tr>
-            <td>多選</td>
+            <td>多選，人員</td>
             <td><p>具有任一</p>
             <p>具有所有</p>
             <p>完全符合</p>
@@ -305,7 +305,7 @@ Maestro表格檢視的列會顯示所選記錄型別的個別記錄。
             <p>不是空的</p></td>
         </tr>
         <tr>
-            <td>數值，百分比，貨幣</td>
+            <td>數字、百分比、貨幣</td>
             <td><p>=</p>
             <p>≠</p>
             <p> &lt; </p>

@@ -4,9 +4,9 @@ description: 您可以在AdobeMaestro記錄上共同作業，方法是在記錄�
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: ce015eba8291995eec1611917896a0e797f820cc
+source-git-commit: 5f3d5c93c2fc721dda2dd04adac22190ef6a3f29
 workflow-type: tm+mt
-source-wordcount: '1028'
+source-wordcount: '991'
 ht-degree: 0%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 0%
 
 <!--update the metadata with real information when making this available in TOC and in the left nav-->
 
-<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它僅在預覽環境中可供所有客戶使用。 </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. </span>
 
-<span class="preview">如需目前發行排程的詳細資訊，請參閱 [2024年第一季版本總覽](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).</span>
+<span class="preview">For information about the current release schedule, see [First Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).</span> -->
 
 您可以在AdobeMaestro記錄上共同作業，方法是在記錄的「註解」區域中新增註解或回覆。
 
@@ -144,9 +144,9 @@ ht-degree: 0%
    >
    >目前年份的評論不會在日期戳記中顯示年份。 將游標暫留在時間戳記上會顯示完整日期，包括年份。
 
-1. <span class="preview">（選擇性和條件性）若要搜尋現有的註解，請在 **註解** 區域。</span>
+1. （選擇性和條件性）若要搜尋現有的註解，請在 **註解** 區域。
 
-   <span class="preview">![](assets/search-box-for-comments-area.png)</span>
+   ![](assets/search-box-for-comments-area.png)
 
 1. （選用）按一下 **回覆** 或開始在 **新增回覆……** 區域，回覆現有的評論，然後遵循上述步驟4到8。 <!--(**************accurate??***********)-->
 

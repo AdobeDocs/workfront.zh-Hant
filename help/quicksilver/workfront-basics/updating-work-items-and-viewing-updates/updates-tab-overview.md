@@ -7,9 +7,9 @@ description: 物件的「更新」區段會顯示使用者對物件所做的註�
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: 5d8e189f01a52b2d1b605b497ed17737fb0a0924
+source-git-commit: 5f3d5c93c2fc721dda2dd04adac22190ef6a3f29
 workflow-type: tm+mt
-source-wordcount: '1216'
+source-wordcount: '1179'
 ht-degree: 3%
 
 ---
@@ -17,13 +17,11 @@ ht-degree: 3%
 
 # 更新區段概觀
 
-<!--take "legacy" and "new commnenting" references out when we remove the legacy - Jan 2024???-->
+<!--take "legacy" and "new commenting" references out when we remove the legacy - April 2024???-->
 
-<!--take "legacy" and "new commenting" references out when we remove the legacy - Jan 2024???-->
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. </span>
 
-<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它僅在預覽環境中可供所有客戶使用。 </span>
-
-<span class="preview">如需目前發行排程的詳細資訊，請參閱 [2024年第一季版本總覽](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).</span>
+<span class="preview">For information about the current release schedule, see [First Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).</span> -->
 
 
 >[!IMPORTANT]
@@ -46,18 +44,11 @@ ht-degree: 3%
 > * 時程表中的摘要面板
 > * 工作負載平衡器中的摘要面板
 
-<!-- with October 26 release: add somewhere this:
-
->[!NOTE]
->
->Iterations display the legacy commenting experience.-->
-
-
 ## 「更新」區段的總覽
 
 物件的「更新」區段會顯示系統更新，以及使用者在過去90天內所做的最近200項更新。
 
-<span class="preview">![](assets/updates-tab-after-unified-experience-for-issues.png)</span>
+![](assets/updates-tab-after-unified-experience-for-issues.png)
 
 根據您存取評論體驗的物件，您可能會在「更新」區段找到下列體驗：
 
@@ -97,7 +88,7 @@ ht-degree: 3%
 
 ### 新評論體驗中「更新」區段的概觀
 
-<span class="preview">![](assets/updates-tab-after-unified-experience-for-tasks.png)</span>
+![](assets/updates-tab-after-unified-experience-for-tasks.png)
 
 >[!NOTE]
 >
@@ -250,7 +241,7 @@ Adobe Workfront管理員和群組管理員可以其他使用者身份登入，�
 
 如需詳細資訊，請參閱 [以其他使用者身分登入](../../administration-and-setup/add-users/create-and-manage-users/log-in-as-another-user.md).
 
-以其他使用者身份登入並新增註解時，請考慮下列事項：
+以其他使用者身分登入並新增註解時，請考慮下列事項：
 
 * 代表其他使用者所做的任何評論都會在評論中標示。
 

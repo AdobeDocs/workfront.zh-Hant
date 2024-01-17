@@ -6,9 +6,9 @@ description: 您可以在Adobe Workfront物件（專案、任務或問題）上�
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: 8382b69e6a55af69397dd8f566395143f3c1dcd3
+source-git-commit: 5f3d5c93c2fc721dda2dd04adac22190ef6a3f29
 workflow-type: tm+mt
-source-wordcount: '4139'
+source-wordcount: '4110'
 ht-degree: 1%
 
 ---
@@ -17,11 +17,11 @@ ht-degree: 1%
 
 <!-- Audited: 1/2024 -->
 
-<!--take "legacy" and "new commenting" references out when we remove the legacy - Jan 2024???-->
+<!--take "legacy" and "new commenting" references out when we remove the legacy - April 2024???-->
 
-<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它僅在預覽環境中可供所有客戶使用。 </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. </span>
 
-<span class="preview">如需目前發行排程的詳細資訊，請參閱 [2024年第一季版本總覽](../../product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).</span>
+<span class="preview">For information about the current release schedule, see [First Quarter 2024 release overview](../../product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).</span> -->
 
 <!--
 After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>  
@@ -380,10 +380,8 @@ After the monthly releases to Production, the same features are also available i
 
 1. （可選）若要將影像附加到更新中，請執行下列任一項作業：
 
-   * <span class="preview">將影像儲存在電腦上，然後將其拖放到「新增註解」區域。</span>
-     <span class="preview">這不適用於新評論體驗的生產環境。 在生產環境中的舊版註解體驗中，可將影像拖放至註解中。 </span>
-
-   * <span class="preview">從電腦複製熒幕擷圖，然後貼到註解中 </span>
+   * 將影像儲存在電腦上，然後將其拖放到「新增註解」區域。
+   * 從電腦複製熒幕擷圖，然後貼到註解中。 舊版評論體驗中不提供此功能。
    * 按一下 **新增影像** 圖示 ![](assets/add-image-mountain-with-plus-icon.png) 並瀏覽至您電腦上的影像。
 
 
@@ -392,7 +390,7 @@ After the monthly releases to Production, the same features are also available i
    >* 您的Workfront管理員必須先在Workfront介面區域的更新摘要偏好設定區段中啟用新增影像，您才能看到影像或新增附件圖示。 如需詳細資訊，請參閱 [設定使用者更新的偏好設定](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-preferences-user-updates.md).
    >* 影像檔案大小上限為7 MB。 支援的影像檔案型別為.jpg、.gif和.png。
    >* 可從物件的「更新」區段存取影像，也可從主功能表下的「檔案」區域存取影像。
-   >* <span class="preview">您可以在新的註解中按一下滑鼠右鍵，或在鍵盤上按Windows適用的CTRL + V (或Mac適用的CMD + V )以貼上影像。</span>
+   >* 您可以在新的註解中按一下滑鼠右鍵，或在鍵盤上按Windows適用的CTRL + V (或Mac適用的⌘ + V )以貼上影像。
    >* 您可以傳送包含影像且不含文字的更新。
    >* 刪除包含影像的註解時，系統會根據您選擇的體驗，顯示下列情況：
    >
@@ -404,12 +402,10 @@ After the monthly releases to Production, the same features are also available i
 
 1. （選擇性）若要在現有更新中檢視影像，請執行下列任一項作業：
 
-   * 按一下 **預覽** 圖示 <span class="preview">![](assets/previewimageicon-31x31.png)</span> 在影像縮圖上，以在新的瀏覽器標籤中開啟全尺寸影像。
+   * 按一下 **預覽** 圖示 ![](assets/previewimageicon-31x31.png) 在影像縮圖上，以在新的瀏覽器標籤中開啟全尺寸影像。
    * 按一下 **下載** 圖示 ![](assets/downloadimageicon.png) 在影像縮圖上以下載影像。
 
 1. 按一下 **提交** 以新增您的註解。
-
-<div class="preview">
 
 ## 搜尋更新
 
@@ -422,7 +418,11 @@ After the monthly releases to Production, the same features are also available i
 1. 前往 **更新** 物件的區段。
 1. 開始輸入關鍵字 <!--or a user's name --> 在 **搜尋** 方塊右上角的 **註解** 標籤。
 
-   <!--Add this tip when it'll be possible: You can search for users who have been tagged or for comment owners.-->
+   <!--Add this tip or note instead of the note below - when it'll be possible: You can search for users who have been tagged or for comment owners.-->
+
+   >[!NOTE]
+   >
+   >   您只能搜尋屬於註解或回覆文字的單字。 您無法搜尋在更新中標籤的使用者或團隊名稱。
 
    ![](assets/search-field-in-updates-tab.png)
 
@@ -431,8 +431,6 @@ After the monthly releases to Production, the same features are also available i
    Workfront會搜尋物件的整個更新流，搜尋畫面上可見的註解之外。
 
 1. 按一下 **x** 圖示來清除搜尋結果並返回所有註解。
-
-</div>
 
 <!-- when we release search to production, check above and make sure you don't have to add that the users tagged/ owners are also searchable-->
 
