@@ -4,7 +4,7 @@ description: 2024年第一季版本總覽
 author: Becky
 feature: Product Announcements
 exl-id: 2ad9e170-9e63-472a-8476-13f81b7abff3
-source-git-commit: bb80c0f6a7d65f39b0b80a011629e1a0af88e53b
+source-git-commit: f233b57fc654866be2b82f86fa964470769c381f
 workflow-type: tm+mt
 source-wordcount: '1571'
 ht-degree: 0%
@@ -470,11 +470,11 @@ Workfront Fusion中的新功能可在2023年第一季度發行排程之外的步
 
 此版本中目前沒有Workfront目標更新。 在有更新可用時，此區域將會更新。
 
-### API 16版
+### API 17版
 
-針對API版本16，我們已修改一些資源和端點。 有些變更支援新功能，有些則讓您更輕鬆地透過API使用可用資訊。
+針對API版本17，我們已修改一些資源和端點。 有些變更支援新功能，有些則讓您更輕鬆地透過API使用可用資訊。
 
-如需新增功能和更新的詳細資訊，請參閱 [API 16版的新增功能](/help/quicksilver/wf-api/api/new-api-version-16.md).
+如需新增功能和更新的詳細資訊，請參閱 [API 17版的新增功能](/help/quicksilver/wf-api/api/new-api-version-17.md).
 
 如需API版本的詳細資訊，請參閱 [API版本設定和支援排程](/help/quicksilver/wf-api/api/api-version-support-schedule.md).
 
