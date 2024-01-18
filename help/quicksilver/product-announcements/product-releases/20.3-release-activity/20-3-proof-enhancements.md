@@ -1,64 +1,65 @@
 ---
 content-type: release-notes
 navigation-topic: 2020-3-release-activity
-title: 20.3校樣增強功能
-description: 本頁說明在生產環境的20.3版中所做的所有校樣增強功能。 這些增強功能已於2020年8月10日當周在生產環境中推出。
+title: 20.3校訂增強功能
+description: 本頁說明了20.3版本對生產環境所做的所有校訂增強功能。 這些增強功能已在2020年8月10日當週的生產環境中推出。
 author: Luke
 feature: Product Announcements, Workfront Proof
+recommendations: noDisplay, noCatalog
 exl-id: d719c8e8-be72-42ca-80e4-83a1237c299f
-source-git-commit: 665732453b33b49421108791a560ab84d51280b9
+source-git-commit: ccba3a3d7c0cac50dbd29cae677b076811904a91
 workflow-type: tm+mt
-source-wordcount: '359'
+source-wordcount: '365'
 ht-degree: 0%
 
 ---
 
-# 20.3校樣增強功能
+# 20.3校訂增強功能
 
-本頁說明在生產環境的20.3版中所做的所有校樣增強功能。 這些增強功能已於2020年8月10日當周在生產環境中推出。
+本頁說明了20.3版本對生產環境所做的所有校訂增強功能。 這些增強功能已在2020年8月10日當週的生產環境中推出。
 
-如需20.3版所有可用變更的清單，請參閱 [20.3版本概觀](../../../product-announcements/product-releases/20.3-release-activity/20.3-release-overview.md).
+如需20.3版所有可用變更的清單，請參閱 [20.3版本總覽](../../../product-announcements/product-releases/20.3-release-activity/20.3-release-overview.md).
 
-## 改善「更新」標籤和「校樣」註解之間的可見性
-
->[!NOTE]
->
->此功能僅適用於新的Adobe Workfront體驗
-
-文檔區域提供以下改進：
-
-* 「更新」標籤中顯示校樣留言時，會出現新的「在校樣中回覆」按鈕，讓您進入校樣檢視器進行回覆。
-* 當校樣檢視器內的動作標籤校樣註解時，動作會顯示在「更新」標籤中。
-
-如需詳細資訊，請參閱 [向文檔添加更新](../../../documents/managing-documents/add-update-documents.md).
-
-## 更新校對檔案詳細資料中的自訂欄位
+## 改善「更新」標籤和「校訂」評論之間的可見性
 
 >[!NOTE]
 >
->此功能僅適用於新的Adobe Workfront體驗
+>此功能僅在新的Adobe Workfront體驗中可用
 
-為了簡化校對程式，如果您包含在校樣工作流程中，現在可以在Workfront的「檔案詳細資料」頁面上，查看並編輯Workfront Proof中設定的自訂欄位。
+檔案區域提供下列改善功能：
 
-過去，您只能在校對檢視器中檢視自訂欄位。
+* 當校訂評論顯示在更新索引標籤中時，會出現一個新的在校訂中回覆按鈕，允許您進入校訂檢視器以進行回覆。
+* 當校訂評論在校訂檢視器內被某個動作標籤時，該動作會顯示在「更新」標籤中。
 
-如需詳細資訊，請參閱 [文檔詳細資訊概述](../../../documents/managing-documents/document-details-overview.md).
+如需詳細資訊，請參閱 [將更新新增至檔案](../../../documents/managing-documents/add-update-documents.md).
 
-## 「文檔」工具欄的新查找
-
-「檔案」區域中的工具列現在與新Workfront體驗中專案、工作和問題的工具列具有相同的外觀和風格。
-
-此外，新版本選項現在位於新Workfront體驗和Classic的「新增」下拉式選單下。
-
-## 從文檔清單建立高級校樣
+## 更新檔案詳細資訊中的校訂自訂欄位
 
 >[!NOTE]
 >
->此功能僅適用於新的Adobe Workfront體驗
+>此功能僅在新的Adobe Workfront體驗中可用
 
-要在校樣中轉換現有文檔時更輕鬆地設定工作流，請使用新的「建立校樣」下拉菜單從文檔清單配置校樣工作流。
+若要簡化校訂程式，您現在可以在Workfront的檔案詳細資訊頁面上，檢視和編輯Workfront校訂中設定的自訂欄位（如果您包含在校訂工作流程中）。
 
-之前，您必須產生校樣，然後前往「校樣工作流程」區域以設定工作流程。
+之前，您只能在校訂檢視器中檢視自訂欄位。
 
-如需詳細資訊，請參閱 [為文檔建立校樣](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/generate-proof-for-a-document.md).
+如需詳細資訊，請參閱 [檔案詳細資訊總覽](../../../documents/managing-documents/document-details-overview.md).
+
+## 「檔案」工具列的新外觀
+
+檔案區域中的工具列現在具有與新Workfront體驗中專案、任務和問題的工具列相同外觀。
+
+此外，新版本選項現在位於新Workfront Experience和Classic的新增下拉式選單下方。
+
+## 從檔案清單中建立進階校訂
+
+>[!NOTE]
+>
+>此功能僅在新的Adobe Workfront體驗中可用
+
+若要在校樣中開啟現有檔案時更輕鬆地設定工作流程，請使用新的「建立校樣」下拉式選單，從檔案清單設定校樣工作流程。
+
+之前，您必須產生校訂，然後前往校訂工作流程區域以設定工作流程。
+
+如需詳細資訊，請參閱 [為檔案建立校訂](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/generate-proof-for-a-document.md).
 

@@ -1,35 +1,36 @@
 ---
-title: 21.3校對增強功能
-description: 21.3校對增強功能
+title: 21.3校訂增強功能
+description: 21.3校訂增強功能
 author: Luke
 draft: Probably
-feature: Product Announcements, Workfront Proof, Digital Content and Documents
+feature: Product Announcements, Workfront Proof
+recommendations: noDisplay, noCatalogr
 exl-id: cad1ebc1-0477-4a05-a8c0-6cdfacbdc976
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: ccba3a3d7c0cac50dbd29cae677b076811904a91
 workflow-type: tm+mt
-source-wordcount: '198'
+source-wordcount: '204'
 ht-degree: 0%
 
 ---
 
-# 21.3校對增強功能
+# 21.3校訂增強功能
 
-本頁說明在「預覽」環境中21.3版所做的所有校對增強功能。 這些增強功能已於2021年7月21日當周在生產環境中推出。
+本頁說明預覽環境的21.3版本所進行的所有「校訂」增強功能。 這些增強功能已在2021年7月21日當週的生產環境中推出。
 
-如需21.3版所有可用變更的清單，請參閱 [21.3版本概觀](../../../product-announcements/product-releases/21.3-release-activity/21-3-release-overview.md).
+如需21.3版本所有可用變更的清單，請參閱 [21.3版本總覽](../../../product-announcements/product-releases/21.3-release-activity/21-3-release-overview.md).
 
-## 移除在連結資料夾中建立新檔案或校樣版本的功能
+## 移除在連結資料夾中建立新檔案或校訂版本的功能
 
-我們移除了在連結資料夾中建立新版本檔案或校樣的功能。 您仍可以建立新版本的連結文檔，如果連結文檔位於連結資料夾之外，則可以建立校樣。
+我們已移除在連結資料夾中建立檔案或校訂新版本的功能。 如果連結檔案或校訂位於連結資料夾之外，您仍可建立新版本的連結檔案或校訂。
 
-以前，仍會針對連結資料夾中的檔案和校樣顯示此選項，但用戶無法建立新版本的檔案。
+以前，對於連結資料夾中的檔案和校訂，此選項仍會顯示，但使用者無法建立檔案的新版本。
 
-## 添加到校樣的用戶自動授予對文檔的「查看」訪問權
+## 新增到校訂的使用者會自動被授予檔案的檢視存取權
 
 >[!NOTE]
 >
->此功能已於2021年5月20日發佈至「預覽」環境。 它已於2021年6月17日發佈至生產環境。
+>此功能已於2021年5月20日發佈到預覽環境。 它於2021年6月17日發佈到生產環境。
 
-如果用戶以前沒有「審核者」或「只讀」作為其校樣角色，則會自動授予他們對文檔的「查看」訪問權限。
+如果使用者以前沒有檢視許可權，則以「檢閱者」或「唯讀」選取為其校訂角色的使用者將被自動授予檔案上的「檢視」存取許可權。
 
-以前，具有上述校樣角色的使用者在新增至校樣時，必須要求存取檔案。
+先前，具有上述校訂角色的使用者在新增到校訂中時，必須請求對檔案的存取權。
