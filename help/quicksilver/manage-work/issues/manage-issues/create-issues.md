@@ -8,9 +8,9 @@ feature: Work Management
 topic: Collaboration
 role: User
 exl-id: 2a4488fb-fe2f-422a-887c-996f6367afc5
-source-git-commit: c2c09486756db021b6edaf380c5a54d531ffa723
+source-git-commit: 31ee3259167532e1e1efa75d635786762f6e476e
 workflow-type: tm+mt
-source-wordcount: '1498'
+source-wordcount: '1522'
 ht-degree: 0%
 
 ---
@@ -99,11 +99,10 @@ To create an issue on a task or a project:
 1. (Optional) If you want to log the issue for a task, go to the **Tasks** area, then click the name of a task. 
 1. Click the **Issues** section.
 
-   ![](assets/qs-issues-icon-highlighted-on-project-350x216.png)
-
+   
 1. Click **New Issue**.
 
-   ![](assets/qs-issue-list-on-project-with-new-issue-button-highlighted-350x270.png)
+  
 
 1. (Conditional) If the project creator created Queue Topics or Topic Groups on the project they are added to the new issue form. Specify the **Topic Group** or the **Queue Topic** of your new issue. Topic Groups and Queue Topics have names customized to your environment.  
    For more information about creating Topic Groups, see [Create Topic Groups](../../../manage-work/requests/create-and-manage-request-queues/create-topic-groups.md). For more information about creating Queue Topics, see [Create Queue Topics](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).
@@ -155,9 +154,9 @@ Issues can be assigned to multiple users, job roles or to a team. For more infor
 1. （可選）如果要記錄任務的問題，請前往 **任務** 區域，然後按一下工作的名稱。
 1. 按一下 **問題** 區段。
 
-   ![](assets/qs-issues-icon-highlighted-on-project-350x216.png)
+   專案問題清單隨即顯示
 
-1. 按一下 **新問題**.
+1. 按一下 **新問題** 位於問題清單頂端。
 新問題方塊隨即顯示。
 
    ![](assets/new-issue-box-matches-new-request-ui.png)
@@ -220,7 +219,7 @@ Issues can be assigned to multiple users, job roles or to a team. For more infor
 1. 前往您要建立問題的專案。
 1. （可選）如果要記錄任務的問題，請前往 **任務** 區段，然後按一下工作的名稱。
 1. 按一下 **問題** 區段。
-1. 按一下 **新增更多問題**.
+1. 按一下 **新增更多問題** 位於問題清單底部。
 
    在「問題」區段的問題清單中會建立新行。
 

@@ -8,9 +8,9 @@ feature: Work Management
 topic: Collaboration
 role: User
 exl-id: 97c83b65-208b-4e3f-b4cc-681237d82aa3
-source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
+source-git-commit: 31ee3259167532e1e1efa75d635786762f6e476e
 workflow-type: tm+mt
-source-wordcount: '1375'
+source-wordcount: '1383'
 ht-degree: 2%
 
 ---
@@ -161,9 +161,9 @@ ht-degree: 2%
 -->
 <!--
 <ol>
-<li value="1"> Click the <strong>Issues</strong> icon on a project. <p data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <img src="assets/qs-issues-icon-highlighted-on-project.png"> </p> </li>
+<li value="1"> Click the <strong>Issues</strong> icon on a project. </li>
 <li value="2"> <p>Click the issue to be converted to access the issue.</p> </li>
-<li value="3"> <p> Click the <strong>More</strong> menu, then click <strong>Convert to Project</strong>. </p> <p> <img src="assets/qs-issue-more-menu-highlighted-350x469.png" style="width: 350;height: 469;" data-mc-conditions="QuicksilverOrClassic.Quicksilver"> </p> </li>
+<li value="3"> <p> Click the <strong>More</strong> menu, then click <strong>Convert to Project</strong>. </p>  </li>
 <li value="4"> <p>In the submenu that displays, do one of the following:</p>
 <ul>
 <li>Click <strong>New Project</strong></li>
@@ -202,7 +202,7 @@ ht-degree: 2%
 <ol>
 <li value="1"> Click the Issues icon on a project.  </li>
 <li value="2"> <p>Click the issue you want to convert to go to the issue's landing page. </p> </li>
-<li value="3"> <p> Click the <strong>More</strong> menu on the issue, then <strong>Convert to Task</strong>.  </p> <p> <img src="assets/qs-issue-more-menu-highlighted-350x469.png" style="width: 350;height: 469;" data-mc-conditions="QuicksilverOrClassic.Quicksilver"> </p> </li>
+<li value="3"> <p> Click the <strong>More</strong> menu on the issue, then <strong>Convert to Task</strong>.  </p>  </li>
 <li value="4"> <p>Name the task.</p> </li>
 <li value="5"> <p>Identify the project where the task will reside. </p> <p>You can select a different project from the project that the issue is on.</p> </li>
 <li value="6"> <p>In the <strong>Project</strong> box, start typing the name of the project where you want to put the new task, then press <strong>Enter</strong> when it appears.</p> <p>By default, this box the name of the project containing the issue that you are converting.</p> </li>
@@ -238,7 +238,7 @@ ht-degree: 2%
 
 | 問題欄位 | 專案或工作列位 | 專案清單或報告 | 專案詳細資訊區域 | 任務清單或報告 | 任務詳細資訊區域 |
 |---|---|---|---|---|---|
-| 問題名稱 | 轉換的問題名稱 | ✔ | ✔ | ✔ | ✔ |
+| 問題名稱 | 已轉換問題的名稱 | ✔ | ✔ | ✔ | ✔ |
 | 主要連絡人 | 轉換的問題建立者名稱 | ✔ | `✔` | ✔ |   |
 | 輸入日期 | 轉換的問題輸入日期 | ✔ |   | ✔ |   |
 

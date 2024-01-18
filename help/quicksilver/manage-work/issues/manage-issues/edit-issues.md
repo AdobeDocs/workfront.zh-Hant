@@ -8,10 +8,10 @@ feature: Work Management
 topic: Collaboration
 role: User
 exl-id: 1449374a-ab0d-4c98-83cd-4e511467633a
-source-git-commit: 5b7a5aff0f8bdf7cf8429ac29b50c3beaf4bd3b4
+source-git-commit: 31ee3259167532e1e1efa75d635786762f6e476e
 workflow-type: tm+mt
-source-wordcount: '2504'
-ht-degree: 3%
+source-wordcount: '2506'
+ht-degree: 2%
 
 ---
 
@@ -78,8 +78,6 @@ ht-degree: 3%
 
 1. （選用）若要編輯問題的有限資訊，請按一下 **問題詳細資訊** 在左側面板中。
 
-   ![](assets/qs-issue-details-icon-highlighted-and-expanded-on-issue-350x206.png)
-
    >[!NOTE]
    >
    >根據您的Workfront管理員或群組管理員如何修改您的版面配置範本，問題詳細資訊區域中的欄位可能會重新排列或不顯示。 如需詳細資訊，請參閱 [使用版面配置範本自訂詳細資料檢視](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md).
@@ -92,7 +90,7 @@ ht-degree: 3%
    1. （可選）按一下 **匯出** 圖示 ![](assets/export.png) 若要將概述和自訂表單資訊匯出至PDF檔案，請按一下 **匯出**. 從下列選項中選取：
 
       * 全選（至少附加一個自訂表單時顯示）
-      * 總覽
+      * 概觀
       * 一或多個自訂表單的名稱
 
       PDF檔案會下載到您的電腦。
@@ -120,7 +118,7 @@ ht-degree: 3%
 1. 請考慮在下列任何一節中指定資訊：
 
    * [問題名稱](#issue-name)
-   * [總覽](#overview)
+   * [概觀](#overview)
    * [指派](#assignments)
    * [自訂表單](#Custom%C2%A0F)
    * [設定](#settings)
@@ -141,7 +139,7 @@ ht-degree: 3%
 1. 更新 **問題名稱** 欄位。
 1. 按一下 **儲存** 或繼續編輯下列章節。
 
-### 總覽 {#overview}
+### 概觀 {#overview}
 
 1. 如上所述開始編輯問題。
 1. 按一下 **概觀**.
@@ -171,10 +169,10 @@ ht-degree: 3%
        <ul> 
         <li> <p><strong>無</strong> </p> </li> 
         <li> <p><strong>低</strong> </p> </li> 
-        <li> <p><strong>標準</strong> </p> </li> 
+        <li> <p><strong>一般</strong> </p> </li> 
         <li> <p><strong>高</strong> </p> </li> 
         <li> <p><strong>緊急</strong> </p> </li> 
-       </ul> <p>根據您的Workfront管理員所選取的「專案偏好設定」，優先順序的名稱可能會有所不同。 如需有關編輯優先順序的詳細資訊，請參閱 <a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-priorities.md" class="MCXref xref">建立和自訂優先順序</a>.</p> </td> 
+       </ul> <p>根據Workfront管理員選取的專案偏好設定，您的優先順序名稱可能會不同。 如需有關編輯優先順序的詳細資訊，請參閱 <a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-priorities.md" class="MCXref xref">建立和自訂優先順序</a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">嚴重程度</td> 
@@ -237,7 +235,7 @@ ht-degree: 3%
       <td role="rowheader">解決者</td> 
       <td> <p>這會顯示問題是否已由其他物件解決。 您可以從下拉式選單中選取此問題是由任務、專案還是其他問題解決，然後開始輸入將解決此問題的任務、專案或問題的名稱。 當它出現在清單中時選取它。</p>
 
-   <b>附註</b>
+   <b>注意</b>
 
    當您選取要解決問題的物件時，問題狀態會連結到解決物件的狀態，並且無法在此問題上變更。 如需有關解析物件的詳細資訊，請參閱 <a href="../../../manage-work/issues/convert-issues/resolving-and-resolvable-objects.md" class="MCXref xref">解析與可解析物件的概觀 </a>.
 
@@ -305,7 +303,7 @@ ht-degree: 3%
     </col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">計畫小時</td> 
+      <td role="rowheader">規劃時數</td> 
       <td> <p>這是問題的受指派人完成問題所需的實際時間。 輸入問題的計畫時數數目。<br></p> <p>附註：變更問題的計畫時數不會變更問題的計畫完成日期。 </p> </td> 
      </tr> 
      <tr data-mc-conditions=""> 

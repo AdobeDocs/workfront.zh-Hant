@@ -6,9 +6,9 @@ description: 您可以更新任務的狀態，以通知其他人該任務在何�
 author: Alina
 feature: Work Management
 exl-id: e1efc676-e110-486e-91dc-f521421575e8
-source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
+source-git-commit: 31ee3259167532e1e1efa75d635786762f6e476e
 workflow-type: tm+mt
-source-wordcount: '681'
+source-wordcount: '652'
 ht-degree: 1%
 
 ---
@@ -23,37 +23,6 @@ ht-degree: 1%
 
 ## 存取需求
 
-<!--drafted for P&P:
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
-   <td> <p>Any</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>Current license: Standard</p> 
-   Or
-   <p>Legacy license: Work or higher</p>
-   </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to Tasks</p> <p><b>NOTE</b>
-   
-   If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Object permissions</td> 
-   <td> <p>Manage permissions to the task</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
--->
-
 您必須具有下列存取權才能手動更新任務：
 
 <table style="table-layout:auto"> 
@@ -61,27 +30,28 @@ ht-degree: 1%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront計畫*</td> 
+   <td role="rowheader">Adobe Workfront計畫</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront授權*</td> 
-   <td> <p>工作或更高</p> </td> 
+   <td> <p>新增：標準</p> 
+   或
+   <p>目前：工作或以上</p>
+   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">存取層級設定*</td> 
-   <td> <p>編輯任務的存取權</p> <p><b>附註</b>
-
-如果您還是沒有存取權，請詢問您的Workfront管理員，他們是否在您的存取層級中設定其他限制。 如需有關Workfront管理員如何修改您的存取層級的資訊，請參閱 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>.</p> </td>
-</tr> 
+   <td role="rowheader">存取層級設定</td> 
+   <td> <p>編輯任務的存取權</p>  </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">物件許可權</td> 
-   <td> <p>管理任務的許可權</p> <p>如需請求其他存取許可權的詳細資訊，請參閱 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">要求物件的存取權 </a>.</p> </td> 
+   <td> <p>管理任務的許可權</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;若要瞭解您擁有的計畫、授權型別或存取權，請聯絡您的Workfront管理員。
+*若要瞭解您擁有的計畫、授權型別或存取權，請聯絡您的Workfront管理員。 如需詳細資訊，請參閱 [Workfront檔案中的存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## 更新任務狀態的注意事項
 
@@ -94,20 +64,54 @@ ht-degree: 1%
 
 ## 手動更新任務狀態
 
-當您更新任務狀態時，也可以鍵入有關新狀態的說明，並變更其他任務資訊，例如到期日。
+您可以在Workfront的下列區域中更新任務狀態：
 
-1. 移至您要更新其狀態的指定任務。
+* 任務頁面上的任務標題。
+* 編輯任務時顯示的「編輯任務」方塊。
+* 「任務」頁面上的「任務詳細資訊」區段。
+* 在任務清單或報告中，何時在檢視中可看到Status欄位。
+* 在任務的摘要面板中。
+
+若要手動更新任務標題中的任務狀態：
+
+1. 移至您要更新其狀態的作業。
 1. 按一下 **狀態** 欄位並選取新狀態。
-1. （選擇性）執行下列任一項作業，提供更新的其他資訊，然後按一下 **更新** 或者，如果任務具有 **完成** 狀態，按一下 **完成：**
+1. 若要提供任務完成的視覺指示，請拖曳或按兩下方的泡泡 **完成百分比** 在任務標題中
 
-   * 若要新增更新的相關附註，請前往 **更新** 區域並按一下 **開始新的更新**，然後輸入您的附註。
+   或
 
-   * 若要通知特定使用者有關更新資訊，請在 **通知** 當您鍵入有關更新的註記時出現的方塊。 如需詳細資訊，請參閱 [標籤其他人的更新](../../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
-   * 若要更新工作的狀態，請按一下 **選取條件** 右側 **通知** 方塊（當您鍵入有關更新的備註時，這些選項就會出現），然後選取最能反映目前任務條件的條件。
+   在任務標題的泡泡內按一下以輸入百分比。
 
-   * 若要更新任務的認可日期，請展開 **認可日期** 下拉式行事曆，並選取新的認可日期。
-   * 若要提供任務完成的視覺化指示，請拖曳完成百分比下的泡泡，或按兩下以輸入百分比值。\
-     ![](assets/drag-the-progress-bar-350x155.png)
+   ![](assets/percent-complete-status-widgets-task-header.png)
+
+1. （可選）執行下列任一項作業，以提供有關更新的其他資訊：
+
+   * 若要新增更新的相關附註，請前往 **更新** 區段並按一下 **新註解**，然後輸入附註。
+
+     ![](assets/add-update-to-task.png)
+
+   * 若要通知特定使用者有關更新資訊，請在 **標籤人員或團隊** 輸入註解時顯示的欄位。 如需詳細資訊，請參閱 [標籤其他人的更新](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
+   * 若要更新任務的認可日期，請按一下 **任務詳細資訊**，然後編輯 **認可日期** 欄位。 如需詳細資訊，請參閱 [編輯任務](/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md).
+
+
+   >[!IMPORTANT]
+   >
+   >  只有任務受指派人可以更新認可日期。
+
+<!--old functionality in old commenting: 
+
+1. Go to a task that you are assigned to for which you want to update the status.
+1. Click the **Status** field in the task header and select a new status. 
+1. (Optional) Do any of the following to provide additional information about the update, then click **Update** or, if the task has the **Complete** status, click **Done:**
+
+   * To add a note about the update, go to the **Updates** area and click **Start a new update**, then type your note.  
+
+   * To notify certain users about the update, type their names in the **Notify** box that appears when you type a note about the update. For more information, see [Tag others on updates](../../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md). 
+   * To update the condition of the task, click **Select Condition** to the right of the **Notify** box (these appear when you type a note about the update), then select the condition that best reflects the current condition of the task.
+   
+   * To update the Commit Date of the task, expand the **Commit Date** drop-down calendar, and select a new Commit Date. 
+   * To provide a visual indication of task completion, drag the bubble under Percent Complete or double-click it to enter a percent value.   
+     ![](assets/drag-the-progress-bar-350x155.png)-->
 
 ## 自動更新任務狀態
 
@@ -123,9 +127,9 @@ ht-degree: 1%
  <col> 
  <tbody> 
   <tr> 
-   <td>動作</td> 
-   <td>原始狀態</td> 
-   <td>新狀態</td> 
+   <td><b>動作</b></td> 
+   <td><b>原始狀態</b></td> 
+   <td><b>新狀態</b></td> 
   </tr> 
   <tr> 
    <td>將任務完成百分比更新為100%</td> 
