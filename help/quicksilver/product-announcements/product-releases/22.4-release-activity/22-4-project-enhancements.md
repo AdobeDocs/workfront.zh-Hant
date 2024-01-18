@@ -4,8 +4,9 @@ description: 22.4專案增強功能
 author: Luke
 draft: Probably
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: 41372dd8-5002-4f8b-a5ac-a577c8b05d11
-source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
 source-wordcount: '965'
 ht-degree: 2%

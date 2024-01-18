@@ -4,134 +4,135 @@ description: 23.1敏捷增強功能
 author: Courtney
 draft: Probably
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: 4bd041a5-a6e3-4fe3-ae23-45980701e904
-source-git-commit: f0e21f9b2846c5665474903a2910ce9f41cdf810
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '882'
+source-wordcount: '889'
 ht-degree: 0%
 
 ---
 
 # 23.1敏捷增強功能
 
-本頁說明在「預覽」環境中23.1版所進行的所有敏捷增強功能。 這些增強功能將於2023年1月16日當周在生產環境中提供。
+本頁說明預覽環境的23.1版本所做的所有敏捷增強功能。 這些增強功能將在2023年1月16日當週的生產環境中提供。
 
-如需23.1版所有可用變更的清單，請參閱 [23.1版本概觀](/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-release-overview.md).
+如需23.1版所有可用變更的清單，請參閱 [23.1版本總覽](/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-release-overview.md).
 
-## Workfront展示板的掃描規劃
+## Workfront主機板的Scrum規劃
 
-Adobe Workfront展示板中新的Scrum規劃功能提供彈性的選項，以管理您敏捷的流程。 使用這些工具，您可以：
+Adobe Workfront展示板中的新Scrum規劃功能提供彈性選項，可管理您的敏捷流程。 使用這些工具，您可以：
 
-* 在迭代或約束中跟蹤工作
-* 使用velocity來指導團隊承諾
-* 跟蹤燃耗和完成率
+* 追蹤反複專案或衝刺中的工作
+* 使用Velocity引導團隊承諾
+* 追蹤待執行工作及完成率
 
-第23.1發行版本後，Scrum規劃功能將是「快速跟進」。
+在23.1版發行後，Scrum規劃功能將是「快速跟隨」。
 
-## 卡片的到期日對應至Workfront物件的計畫完成日期
+## 卡片上的到期日對應至Workfront物件上的計畫完成日期
 
 >[!NOTE]
 >
->只有透過Workfront展示板的早期功能選擇，才能使用此功能。
+>此功能只能透過Workfront展示板的早期功能選擇加入來使用。
 
-Workfront主板中連線卡的到期日現在對應至關聯Workfront物件的計畫完成日期。 如果更新卡上的到期日，則計畫完成日期將在任務或問題上更新。 變更計畫完成日期也會變更卡片上的到期日。 之前，卡片到期日是手動輸入，未對應至任務或問題上的任何日期。
+Workfront面板中連線卡片的到期日現在對應至關聯Workfront物件上的計畫完成日期。 如果您更新卡片上的到期日，則任務或問題上的計畫完成日期會更新。 變更計畫完成日期也會變更卡上的到期日。 以往，卡片到期日是手動輸入，未對應至任務或問題的任何日期。
 
-日期對應也適用於同步至子任務的已連線檢查清單項目。
+日期對應也會套用至同步至子任務的已連線檢查清單專案。
 
-連線卡和臨機卡的到期日現在也包含時間欄位。
+連線的卡片和臨機卡片上的到期日期現在也包含時間欄位。
 
-如需詳細資訊，請參閱 [在主板上使用連接的卡](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
+如需詳細資訊，請參閱 [在展示板上使用連線的卡片](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
 
 [觀看此功能的影片示範](https://video.tv.adobe.com/v/3411952/){target=_blank}
 
-## 現在已連結展示板檢查清單項目和Workfront子任務
+## 展示板檢查清單專案和Workfront子任務現在已連結
 
 >[!NOTE]
 >
->只有透過Workfront展示板的早期功能選擇，才能使用此功能。
+>此功能只能透過Workfront展示板的早期功能選擇加入來使用。
 
-當您將已連線的資訊卡新增至Workfront工作的展示板時，任何子任務都會匯入為資訊卡上的檢查清單項目。 此外，當您在連線的資訊卡上建立檢查清單項目時，會將子任務新增至Workfront任務。 問題的檢查清單項目未與任何Workfront物件連結。
+當您為Workfront任務將連線的卡片新增到展示板時，任何子任務都會匯入為卡片上的清單專案。 此外，當您在已連線的卡片上建立檢查清單專案時，子任務會新增到Workfront任務中。 問題的清單專案未連線至任何Workfront物件。
 
-以前未連結檢查清單項目和子任務。 如果您想在展示板上包含子任務，可以將其作為單獨的連接卡導入，或手動將檢查清單項添加到資訊卡。
+以前檢查清單專案和子任務未連結。 如果您想在展示板上加入子任務，您可以將它匯入為個別的連線卡片，或手動將檢查清單專案新增到卡片。
 
-如需詳細資訊，請參閱 [在主板上使用連接的卡](/help/quicksilver/agile/get-started-with-boards/connected-cards.md) 和 [管理卡上的檢查清單項目](/help/quicksilver/agile/get-started-with-boards/manage-checklist-items.md).
+如需詳細資訊，請參閱 [在展示板上使用連線的卡片](/help/quicksilver/agile/get-started-with-boards/connected-cards.md) 和 [管理卡片上的檢查清單專案](/help/quicksilver/agile/get-started-with-boards/manage-checklist-items.md).
 
 [觀看此功能的影片示範](https://video.tv.adobe.com/v/3411951/){target=_blank}
 
-## 板上的卡計數器
+## 展示板欄上的卡片計數器
 
 >[!NOTE]
 >
->只有透過Workfront展示板的早期功能選擇，才能使用此功能。
+>此功能只能透過Workfront展示板的早期功能選擇加入來使用。
 
-新的組態設定可用來開啟展示板上所有欄的卡片計數器。 如果您在欄上使用WIP限制，則不會新增個別的卡片計數器。
+有新的組態設定可開啟展示板上所有欄的卡片計數器。 如果您在欄上使用WIP限制，則不會新增個別的卡片計數器。
 
 如需詳細資訊，請參閱 [管理展示板欄](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md).
 
-## 在展示板控制面板上搜尋及排序
+## 在面板控制面板上搜尋和排序
 
 >[!NOTE]
 >
->只有透過Workfront展示板的早期功能選擇，才能使用此功能。
+>此功能只能透過Workfront展示板的早期功能選擇加入來使用。
 
-您現在可以依展示板名稱或日期來排序展示板控制面板，並在清單中搜尋特定展示板。
+您現在可以依展示板名稱或日期來排序展示板，並在清單中搜尋特定展示板。
 
-如需詳細資訊，請參閱 [使用展示板控制面板](/help/quicksilver/agile/get-started-with-boards/use-boards-page.md).
+如需詳細資訊，請參閱 [使用面板儀表板](/help/quicksilver/agile/get-started-with-boards/use-boards-page.md).
 
-## 狀態會顯示在資訊卡上
-
->[!NOTE]
->
->只有透過Workfront展示板的早期功能選擇，才能使用此功能。
-
-如果展示板上的資訊卡獲派狀態，狀態現在會顯示在資訊卡上，因此您不必開啟資訊卡即可查看狀態。 此增強功能適用於臨機和已連線的資訊卡。
-
-如需詳細資訊，請參閱 [在主板上使用連接的卡](/help/quicksilver/agile/get-started-with-boards/connected-cards.md) 和 [新增臨機卡至展示板](/help/quicksilver/agile/get-started-with-boards/add-card-to-board.md).
-
-![卡片狀態](/help/quicksilver/product-announcements/product-releases/assets/boards-connected-card-details-110922.png)
-
-## 可連結卡現在可在板上使用
+## 狀態會顯示在卡片上
 
 >[!NOTE]
 >
->只有透過Workfront展示板的早期功能選擇，才能使用此功能。
+>此功能只能透過Workfront展示板的早期功能選擇加入來使用。
 
-您現在可以將特定資訊卡的連結傳送給其他展示板使用者。 人員必須擁有檢視展示板的存取權，才能開啟連結。
+如果展示板上的卡片已指派狀態，狀態現在會顯示在卡片上，因此您不必開啟卡片即可檢視狀態。 此增強功能同時適用於ad hoc卡和連線卡。
 
-當您在展示板上開啟資訊卡時，瀏覽器URL看起來會像這樣：
+如需詳細資訊，請參閱 [在展示板上使用連線的卡片](/help/quicksilver/agile/get-started-with-boards/connected-cards.md) 和 [新增臨機卡到展示板](/help/quicksilver/agile/get-started-with-boards/add-card-to-board.md).
+
+![卡片上的狀態](/help/quicksilver/product-announcements/product-releases/assets/boards-connected-card-details-110922.png)
+
+## 可連結卡現在可在展示板上使用
+
+>[!NOTE]
+>
+>此功能只能透過Workfront展示板的早期功能選擇加入來使用。
+
+您現在可以將特定卡片的連結傳送給其他看板使用者。 此人必須擁有檢視展示板的存取權，才能開啟連結。
+
+當您在展示板上開啟卡片時，瀏覽器URL看起來像這樣：
 
 ```
 https://<Workfront-URL>/boards/<board-id>/card/<card-id>. 
 ```
 
-您可以複製完整的URL並傳送給其他人。 當使用者存取連結時，會直接前往開啟的資訊卡。
+您可以複製完整的URL並傳送給其他人。 使用者存取連結時，會直接前往開啟的卡片。
 
-過去，展示板可使用連結，但無法使用特定資訊卡。
+以前展示板有連結，但特定卡片沒有連結。
 
-如需資訊卡，請參閱 [新增臨機卡至展示板](/help/quicksilver/agile/get-started-with-boards/add-card-to-board.md) 和 [在主板上使用連接的卡](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
+如需卡片的相關資訊，請參閱 [新增臨機卡到展示板](/help/quicksilver/agile/get-started-with-boards/add-card-to-board.md) 和 [在展示板上使用連線的卡片](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
 
-## 在展示板上依連線篩選
+## 在面板上依連線篩選
 
 >[!NOTE]
 >
->只有透過Workfront展示板的早期功能選擇，才能使用此功能。
+>此功能只能透過Workfront展示板的早期功能選擇加入來使用。
 
-展示板上的篩選器清單現在包含可依連線篩選的選項，可顯示特定專案的所有已連線卡片。 您也可以依未連線的卡片來篩選。
+展示板上的篩選器清單現在包含依連線篩選的選項，這會顯示特定專案的所有已連線卡片。 您也可以依未連線的卡片進行篩選。
 
 如需詳細資訊，請參閱 [在展示板中篩選和搜尋](/help/quicksilver/agile/get-started-with-boards/filter-search-in-board.md).
 
 [觀看此功能的影片示範](https://video.tv.adobe.com/v/3412381/){target=_blank}
 
-## 依排程從展示板封存資訊卡
+## 依排程從展示板封存卡片
 
 >[!NOTE]
 >
->只有透過Workfront展示板的早期功能選擇，才能使用此功能。
+>此功能只能透過Workfront展示板的早期功能選擇加入來使用。
 
-您可以設定展示板，讓資訊卡依排程封存或「流失」展示板。 可使用選項在特定欄中設定卡片，以在特定天數或周內封存。 例如，您可以定義衰退，讓「完成」欄中的卡片在欄中存放兩週後即進行封存。
+您可以設定展示板，讓卡片可依排程封存或「脫落」展示板。 選項可用於在特定欄中設定卡片，以在特定天數或周數中封存。 例如，您可以定義減少，讓完整欄中的卡片在欄中停留兩週後封存。
 
-如果您想在資訊卡從展示板掉下來後再次顯示，您可以設定展示板篩選來顯示已封存的資訊卡。
+如果您想在卡片從展示板掉落後再次顯示卡片，您可以將展示板篩選器設定為顯示已封存的卡片。
 
-如需詳細資訊，請參閱 [設定卡片流失](/help/quicksilver/agile/use-boards-agile-planning-tools/configure-card-falloff.md).
+如需詳細資訊，請參閱 [設定卡片縮減](/help/quicksilver/agile/use-boards-agile-planning-tools/configure-card-falloff.md).
 
 [觀看此功能的影片示範](https://video.tv.adobe.com/v/3412323/){target=_blank}

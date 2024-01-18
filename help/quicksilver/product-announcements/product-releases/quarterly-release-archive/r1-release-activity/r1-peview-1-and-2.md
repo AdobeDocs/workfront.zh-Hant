@@ -5,10 +5,11 @@ title: R1預覽1和2
 description: 本頁說明R1.1和R1.2版本在「預覽」環境中可用的所有變更。 此頁面的功能已於2017年1月19日在預覽環境中推出。
 author: Luke
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: 65219cf1-809f-4d8e-a858-01f7881064d7
-source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '1131'
+source-wordcount: '1143'
 ht-degree: 2%
 
 ---

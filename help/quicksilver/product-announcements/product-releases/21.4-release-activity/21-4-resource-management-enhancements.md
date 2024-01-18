@@ -4,48 +4,49 @@ description: 21.4資源管理增強功能
 author: Luke
 draft: Probably
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: c978e88b-ee07-4af9-b5df-cb62dab4b3ac
-source-git-commit: e0a8093be33773a8b801567cfbe90f67701f9ff3
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '360'
 ht-degree: 0%
 
 ---
 
 # 21.4資源管理增強功能
 
-本頁介紹在「預覽」環境的21.4版中進行的所有資源管理增強。 這些增強功能將於2021年10月4日當周在生產環境中提供。
+此頁面說明21.4版本對「預覽」環境所做的所有資源管理增強功能。 這些增強功能將在2021年10月4日當週的生產環境中提供。
 
-如需21.4版所有可用變更的清單，請參閱 [21.4版本概觀](../../../product-announcements/product-releases/21.4-release-activity/21.4-release-overview.md).
+如需21.4版本所有可用變更的清單，請參閱 [21.4版本總覽](../../../product-announcements/product-releases/21.4-release-activity/21.4-release-overview.md).
 
-## 在工作負載平衡器中快速分配
+## 在工作負載平衡器中進行快速指派
 
-您現在可以從「未分配」區域拖動項目，並將其拖放到「已分配」區域的用戶行上，以最少的點擊數有效地平衡工作負載平衡器中的資源。 您也可以透過拖放方式，取消指派使用者的項目，並將其移回「未指派」區域，以及將項目移至其他使用者。
+您現在可以透過從未指派區域拖曳專案並將其放置在已指派區域中的使用者行上，以最少點按次數有效平衡工作負載平衡器中的資源。 您也可以使用拖放功能從使用者中取消指派專案，並將它們移回「未指派」區域，以及將它們移動給其他使用者。
 
-在此增強功能之前，您只能通過按一下任務或問題的「更多」菜單，然後使用「分配」選項來分配項。 現在，分配給使用者的「計畫時數」會在拖曳工作時即時更新。
+在此增強功能之前，您只能透過按一下任務或問題的更多選單，然後使用指派選項來指派專案。 現在，分配給使用者的計畫時數在拖曳任務時即時更新。
 
-有關在工作負載平衡器中分配工作項的資訊，請參見 [工作負載平衡器中分配工作的概述](../../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md).
+有關在工作負載平衡器中指派工作專案的資訊，請參見 [在工作負載平衡器中指派工作的總覽](../../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md).
 
 ## 工作負載平衡器的新預設選項
 
-為了淘汰排程並讓工作負載平衡器Workfront的主要資源指派工具，我們已將Workfront平衡器設為所有新使用者的預設選項。 目前，排程是預設選項。 這項變更適用於您可以存取「排程」的所有區域，其中包括「資源」區域(在新的Adobe Workfront體驗中)或「人員」區域(在Adobe Workfront Classic中)，以及專案和團隊層級。
+為了淘汰排程並改用工作負載平衡器Workfront的主要資源指派工具，我們已將Workfront平衡器設為所有新使用者的預設選項。 目前，排程是預設選項。 此變更適用於您可從中存取排程的所有區域，包括「資源」區域(在新的Adobe Workfront體驗中)或「人員」區域(在Adobe Workfront Classic中)，以及專案和團隊層級。
 
 ## 工作負載平衡器中的新篩選器體驗
 
 >[!NOTE]
 >
->此功能已於2021年9月16日發佈至「預覽」環境。
+>此功能已於2021年9月16日發佈到預覽環境。
 
-我們重新設計了工作負載平衡器中的篩選器體驗，以包括以下附加功能：
+我們重新設計了工作負載平衡器的篩選器體驗，以包含以下附加功能：
 
-* 更輕鬆、更簡化的使用者介面，與新的Workfront體驗相符
-* 您可依
+* 更簡單、更精簡的使用者介面，符合新的Workfront體驗
+* 可篩選的其他欄位
 * 複製篩選器的功能
 * 與其他使用者共用篩選器
 
-如需詳細資訊，請參閱 [在工作負載平衡器中管理篩選器](../../../resource-mgmt/workload-balancer/filter-information-workload-balancer.md).
+如需詳細資訊，請參閱 [管理工作負載平衡器中的篩選器](../../../resource-mgmt/workload-balancer/filter-information-workload-balancer.md).
 
 >[!NOTE]
 >
->篩選器更新後，我們已將 **所有工作項** 和 **此項目的工作項** 項目的工作負載平衡器中的內置篩選器。
+>透過篩選器更新，我們已消除 **所有工作專案** 和 **此專案的工作專案** 專案的工作負載平衡器中的內建篩選器。
 

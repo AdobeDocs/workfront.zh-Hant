@@ -6,8 +6,9 @@ title: Adobe Workfront發行排程和程式
 description: 預覽環境每週更新一次，其中包含新功能。 這些功能會在即將發佈的季度版本的發行說明中予以傳達。
 author: Alina
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: 4cc72e55-8105-420a-9609-e965222399e3
-source-git-commit: 1ccbab53684928974ef739b0176a6ea893a27320
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
 source-wordcount: '939'
 ht-degree: 0%

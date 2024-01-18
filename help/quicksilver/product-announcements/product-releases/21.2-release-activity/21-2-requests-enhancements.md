@@ -1,120 +1,121 @@
 ---
 content-type: release-notes
-keywords: 附註，每季，更新，發行
+keywords: 備註，每季，更新，發行
 navigation-topic: 2021-2-release-activity
 title: 21.2要求增強功能
-description: 本頁說明在「預覽」環境中21.2版本中進行的所有「請求」增強功能。 這些增強功能將於2021年5月10日當周在生產環境中提供。 如需21.2版所有可用變更的清單，請參閱21.2版本概觀。
+description: 此頁面說明21.2版本對預覽環境提出的所有要求增強功能。 這些增強功能將在2021年5月10日當週的生產環境中提供。 如需21.2版所有可用變更的清單，請參閱21.2版總覽。
 author: Luke
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: af9c801f-ae40-439a-8749-ae8d178040ae
-source-git-commit: 665732453b33b49421108791a560ab84d51280b9
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '1084'
+source-wordcount: '1053'
 ht-degree: 0%
 
 ---
 
 # 21.2要求增強功能
 
-本頁說明在「預覽」環境中21.2版本中進行的所有「請求」增強功能。 這些增強功能將於2021年5月10日當周在生產環境中提供。 如需21.2版所有可用變更的清單，請參閱 [21.2版本概觀](../../../product-announcements/product-releases/21.2-release-activity/21-2-release-overview.md).
+此頁面說明21.2版本對預覽環境提出的所有要求增強功能。 這些增強功能將在2021年5月10日當週的生產環境中提供。 如需21.2版所有可用變更的清單，請參閱 [21.2版本總覽](../../../product-announcements/product-releases/21.2-release-activity/21-2-release-overview.md).
 
-## 控制您在新請求中進行的分配類型
+## 控制您在新請求上進行的指派型別
 
 >[!NOTE]
 >
->僅適用於新的Adobe Workfront體驗。
+>僅於新的Adobe Workfront體驗中提供。
 
-我們已更改了在建立新請求時「分配」欄位的運作方式，以提供一致性，而且無論用戶可以輸入什麼類型的分配，始終顯示相同的欄位。
+我們已變更在建立新請求時指派欄位的運作方式，以提供一致性並一律顯示相同欄位，無論使用者可輸入的指派型別為何。
 
-在設定請求隊列時，如果啟用「已分配給」、「作業角色」或「團隊」欄位，請求者將看到相同的「分配」欄位，該欄位可容納這三種分配類型中的全部或任何一種。
+當您在設定請求佇列時，啟用「指派至」、「工作角色」或「專案團隊」欄位以顯示時，請求者會看到相同的「指派」欄位，該欄位可容納全部或這三種指派型別中的任何一種。
 
-「分配」(Assignments)欄位中指示了允許的分配類型。 例如，當您在設定請求佇列時啟用「已指派給」和「團隊」欄位時，系統會提示您輸入「搜尋人員或團隊」，而非「搜尋人員、角色或團隊」。
+「工作總攬」欄位中會指示允許的工作總攬型別。 例如，當您在設定請求佇列時啟用了「指派至」和「團隊」欄位時，系統將提示您輸入「搜尋人員或團隊」而不是「搜尋人員、角色或團隊」。
 
 如需詳細資訊，請參閱下列文章：
 
 * [建立及提交Adobe Workfront請求](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md)
 * [建立請求佇列](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md)
 
-## 改善建立請求和管理草稿
+## 建立請求和管理草稿的改進
 
 >[!NOTE]
 >
->僅適用於新的Adobe Workfront體驗。
+>僅於新的Adobe Workfront體驗中提供。
 
-隨著我們持續將您有關在新Workfront體驗中建立請求的意見整合，我們對新請求工作流程進行了幾項改善。 這些包括：
+我們持續將您有關建立請求的意見納入新的Workfront體驗中，因此我們對新的請求工作流程進行了幾項改進。 這些功能包括：
 
-* 以「顯示選項」圖示清楚指出「請求類型」、「主題群組」和「佇列主題」欄位是下拉式清單，您可從中選取先前定義的選項。
-* 以「x」圖示清楚指出在選取請求類型、主題群組或佇列主題後，您可以將其移除。
-* 在建立新請求時提供「關閉」按鈕，以在不遺失草稿的情況下離開請求。 除此變更外，「捨棄」按鈕已重新命名為「捨棄草稿」。
+* 以「顯示選項」圖示清楚指出「請求型別」、「主題群組」和「佇列主題」的欄位是下拉式清單，您可從中選擇先前已定義的選項。
+* 以「x」圖示清楚指出，請求型別、主題群組或佇列主題的選擇可在選取後移除。
+* 建立新請求時提供「關閉」按鈕，以便在不遺失草稿的情況下離開請求。 除了此變更，「捨棄」按鈕已重新命名為「捨棄草稿」。
 
-如需建立新請求的相關資訊，請參閱 [建立及提交Adobe Workfront請求](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md).
+如需建立新請求的詳細資訊，請參閱 [建立及提交Adobe Workfront請求](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md).
 
-此功能現已納入 [新Workfront體驗的Collaborator基礎知識](https://one.workfront.com/s/learningpath1/collaborator-fundamentals-for-the-new-workfront-experience-MCY5AMOQQTGFDVZB4ODS6TXCYE2A) Workfront一號的學習路徑。
+此功能現已包含在 [新Workfront體驗的Collaborator基礎知識](https://one.workfront.com/s/learningpath1/collaborator-fundamentals-for-the-new-workfront-experience-MCY5AMOQQTGFDVZB4ODS6TXCYE2A) Workfront One的學習路徑。
 
-## 改善請求工作流程
-
->[!NOTE]
->
->此功能僅適用於新的Adobe Workfront體驗
-
-隨著我們持續聽取和整合您的意見，我們已在新的請求工作流程中新增數個改善項目，讓您更輕鬆、更直覺地與Adobe Workfront互動。 這些改善包括：
-
-* 在定義「隊列設定」時，您可以選擇在建立請求隊列時放置用於上載檔案的「文檔」部分的位置。 您可以將此區段放置在請求表單的自訂欄位之前或之後。 如需詳細資訊，請參閱 [建立請求佇列](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
-* 現在當您從頁面導覽離開時，會保留依其中一欄來排序已提交請求清單。 如需詳細資訊，請參閱 [找出提交的請求](../../../manage-work/requests/create-requests/locate-submitted-requests.md).
-* 建立新請求時，「提交」和「取消」按鈕現在位於「新請求」表單的底部。 如需詳細資訊，請參閱 [建立及提交Workfront請求](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md).
-
-此功能現已納入 [新Workfront體驗的Collaborator基礎知識](https://one.workfront.com/s/learningpath1/collaborator-fundamentals-for-the-new-workfront-experience-MCY5AMOQQTGFDVZB4ODS6TXCYE2A) Workfront一號的學習路徑。
-
-## 在「請求」區域的「已提交」區段中，開啟「摘要」面板
+## 要求工作流程的改善
 
 >[!NOTE]
 >
->此功能僅適用於新的Adobe Workfront體驗。
+>此功能僅在新的Adobe Workfront體驗中可用
 
-為了讓您的體驗在Adobe Workfront的所有區域保持一致，我們已將「開啟摘要」圖示新增至「請求」區域的「已提交」區段。 現在，您可以開啟「摘要」面板，查看有關問題的詳細資訊、指派問題，或新增檔案或評論。
+我們持續聽取並匯入您的意見回饋，因此已對新的請求工作流程新增數項改善，讓您更容易、更直覺地與Adobe Workfront互動。 這些改善專案包括：
 
-如需已提交請求的相關資訊，請參閱 [找出提交的請求](../../../manage-work/requests/create-requests/locate-submitted-requests.md).
+* 當您在定義佇列設定時，可以選取當建立請求佇列時，要放置檔案區段以供上傳檔案的位置。 您可以將此區段放置在請求表單的自訂欄位之前或之後。 如需詳細資訊，請參閱 [建立請求佇列](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
+* 現在當您導覽離開頁面時，會保留依其中一個欄排序已提交請求清單。 如需詳細資訊，請參閱 [找出已提交的請求](../../../manage-work/requests/create-requests/locate-submitted-requests.md).
+* 建立新請求時，提交和取消按鈕現在位於新請求表單的底部。 如需詳細資訊，請參閱 [建立及提交Workfront請求](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md).
 
-此功能現已納入 [新Workfront體驗的Collaborator基礎知識](https://one.workfront.com/s/learningpath1/collaborator-fundamentals-for-the-new-workfront-experience-MCY5AMOQQTGFDVZB4ODS6TXCYE2A) Workfront一號的學習路徑。
+此功能現已包含在 [新Workfront體驗的Collaborator基礎知識](https://one.workfront.com/s/learningpath1/collaborator-fundamentals-for-the-new-workfront-experience-MCY5AMOQQTGFDVZB4ODS6TXCYE2A) Workfront One的學習路徑。
 
-## 將新請求表單中已移除的新問題欄位重新顯示
+## 在請求區域的已提交區段中開啟摘要面板
 
 >[!NOTE]
 >
->此功能僅適用於新的Adobe Workfront體驗。
+>此功能僅在新的Adobe Workfront體驗中可用。
 
-在重新設計新請求表單後（於上一版發佈），我們已阻止專案「佇列詳細資料」區段的「新問題欄位」區域中的數個欄位在提交新請求時顯示。 納入您的意見後，我們決定將欄位復原，以便所有欄位都可顯示在「新請求」表單中。
+為了讓您的體驗在Adobe Workfront的所有區域保持一致，我們在請求區域的已提交區段新增了開啟摘要圖示。 現在，您可以開啟已提交問題的摘要面板，並檢視有關問題的更多資訊、指派問題或新增檔案或評論。
+
+如需關於已提交請求的資訊，請參閱 [找出已提交的請求](../../../manage-work/requests/create-requests/locate-submitted-requests.md).
+
+此功能現已包含在 [新Workfront體驗的Collaborator基礎知識](https://one.workfront.com/s/learningpath1/collaborator-fundamentals-for-the-new-workfront-experience-MCY5AMOQQTGFDVZB4ODS6TXCYE2A) Workfront One的學習路徑。
+
+## 重新顯示新請求表單中已移除的新問題欄位
+
+>[!NOTE]
+>
+>此功能僅在新的Adobe Workfront體驗中可用。
+
+由於重新設計從舊版啟動的新請求表單，我們阻止了來自專案佇列詳細資料區段的新問題欄位區域在提交新請求時顯示幾個欄位。 在合併您的意見回饋後，我們決定恢復這些欄位，以便它們能全部顯示在「新請求」表單中。
 
 如需詳細資訊，請參閱 [建立請求佇列](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
 
-## 在「請求」區域提交請求時的新體驗
+## 在請求區域中提交請求的新體驗
 
 >[!NOTE]
 >
->透過21.1版新增至預覽，但將包含在生產環境的21.2版中。
+>已在21.1版中新增到「預覽」，但將包含在21.2版的「生產」中。
 
-為了與新的Workfront體驗保持一致，並在提交請求時提高效率，我們已重新設計「請求」區域的「新請求」方塊。 以下是部分改善：
+為了與新的Workfront體驗保持一致，並為您建立提交請求時的效率，我們重新設計了請求區域的新請求方塊。 以下是一些改善專案：
 
-* 包含與其餘新Workfront體驗的使用者介面
-* 消除「新請求」區域，提供更輕鬆且直覺的體驗
-* 將檔案附加至請求的全新、更有效率的方式
+* 與其他全新Workfront體驗相同的使用者介面
+* 消除了「新請求」區域，體驗更簡單直觀
+* 更有效率的新方式可將檔案附加至您的請求
 
-可在您輸入請求時共用請求佇列、主題群組或佇列主題的連結。
+可在您輸入請求時，共用請求佇列、主題群組或佇列主題的連結。
 
-如需提交請求的相關資訊，請參閱 [建立及提交Workfront請求](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md).
+如需有關提交請求的資訊，請參閱 [建立及提交Workfront請求](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md).
 
-此功能現已納入 [新Workfront體驗的Collaborator基礎知識](https://one.workfront.com/s/learningpath1/collaborator-fundamentals-for-the-new-workfront-experience-MCY5AMOQQTGFDVZB4ODS6TXCYE2A) Workfront一號的學習路徑。
+此功能現已包含在 [新Workfront體驗的Collaborator基礎知識](https://one.workfront.com/s/learningpath1/collaborator-fundamentals-for-the-new-workfront-experience-MCY5AMOQQTGFDVZB4ODS6TXCYE2A) Workfront One的學習路徑。
 
-## 在提交請求時共用請求佇列的連結
+## 提交請求時分享請求佇列的連結
 
 >[!NOTE]
 >
->透過21.1版新增至預覽，但將包含在生產環境的21.2版中。
+>已在21.1版中新增到「預覽」，但將包含在21.2版的「生產」中。
 
-現在，當您建立請求時，可以共用請求佇列、主題群組或佇列主題的連結。
+現在已可讓您在建立請求時，共用請求佇列、主題群組或佇列主題的連結。
 
-在提交新請求之前，您可以複製請求的請求佇列、主題群組或佇列主題的連結，並與其他使用者共用，或將其內嵌在控制面板中。
+在提交新請求之前，您可以複製請求的請求佇列、主題群組或佇列主題的連結，並將其與其他使用者共用，或嵌入到儀表板中。
 
-如需在提交請求時共用請求佇列連結的相關資訊，請參閱 [共用請求佇列的連結](../../../manage-work/requests/create-requests/share-link-to-request-queue.md).
+如需有關在提交請求時共用請求佇列連結的資訊，請參閱 [分享請求佇列的連結](../../../manage-work/requests/create-requests/share-link-to-request-queue.md).
 
-此功能現已納入 [新Workfront體驗的Collaborator基礎知識](https://one.workfront.com/s/learningpath1/collaborator-fundamentals-for-the-new-workfront-experience-MCY5AMOQQTGFDVZB4ODS6TXCYE2A) Workfront一號的學習路徑。
+此功能現已包含在 [新Workfront體驗的Collaborator基礎知識](https://one.workfront.com/s/learningpath1/collaborator-fundamentals-for-the-new-workfront-experience-MCY5AMOQQTGFDVZB4ODS6TXCYE2A) Workfront One的學習路徑。

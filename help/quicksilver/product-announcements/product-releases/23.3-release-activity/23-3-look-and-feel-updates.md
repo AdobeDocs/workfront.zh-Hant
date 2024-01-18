@@ -3,10 +3,11 @@ title: 在23.3發行時間範圍內的外觀和感覺更新
 description: 在23.3發行時間範圍內的外觀和感覺更新
 author: Courtney
 feature: Product Announcements
-exl-id: 77b43c01-4476-4243-b8c4-062afe786a1d
-source-git-commit: 2fc3799b97e353e124a3ee2f181ad62fbadec592
+recommendations: noDisplay, noCatalog
+exl-id: 86287956-445b-4d1c-9f62-1d5c8d58ee89
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '303'
+source-wordcount: '315'
 ht-degree: 0%
 
 ---

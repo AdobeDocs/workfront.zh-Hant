@@ -3,39 +3,40 @@ product-previous: workfront-fusion
 content-type: release-notes
 product-area: workfront-integrations
 navigation-topic: fusion-release-activity
-title: '''Workfront Fusion發行活動：《2020年12月7日周》'
-description: 本頁說明2020年12月7日當周在Adobe Workfront Fusion中所做的所有增強功能。
+title: 「Workfront Fusion發行活動： 2020年12月7日當週」
+description: 本頁說明2020年12月7日當週在Adobe Workfront Fusion中所做的所有增強功能。
 author: Luke
 feature: Product Announcements, Workfront Fusion
+recommendations: noDisplay, noCatalog
 exl-id: fb8275b5-ef37-48cc-bde1-cfd0e065a896
 hidefromtoc: true
-source-git-commit: e6995cd57c4210725d49379df5bcd7e93ce4b02a
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '181'
+source-wordcount: '177'
 ht-degree: 0%
 
 ---
 
-# Workfront Fusion發行活動：2020年12月7日起第一週
+# Workfront Fusion發行活動： 2020年12月7日當週
 
-本頁說明2020年12月7日當周在Adobe Workfront Fusion中所做的所有增強功能。
+本頁說明2020年12月7日當週在Adobe Workfront Fusion中所做的所有增強功能。
 
 如需所有最近變更的清單，請參閱 [Adobe Workfront Fusion發行活動](../../../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
 
-如需Workfront Fusion最近錯誤修正的清單，請參閱 [Workfront維護更新](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) 並檢查任何標示為「Workfront Fusion維護更新」的更新。
+如需Workfront Fusion中近期的錯誤修正清單，請參閱 [Workfront維護更新](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) 頁面，並檢查是否有任何標示為Workfront Fusion維護更新的更新。
 
-## Jira伺服器連接器和模組現已可用
+## Jira伺服器聯結器和模組現已推出
 
-Workfront Fusion 2.0現已提供新的Jira伺服器連接器。Jira伺服器連接器提供與目前Jira雲連接器相同的功能。 使用Jira伺服器模組，您可以：
+Workfront Fusion 2.0現已提供新的Jira伺服器聯結器。Jira伺服器聯結器提供與目前Jira雲端聯結器相同的功能。 使用Jira伺服器模組，您可以：
 
-* 在添加、修改或刪除記錄時觸發方案
+* 新增、修改或刪除記錄時觸發情境
 * 建立、讀取、更新或刪除記錄
-* 清單或搜索記錄
+* 列出或搜尋記錄
 * 下載附件
-* 將問題新增至衝刺
+* 新增問題至衝刺
 * 進行自訂API呼叫
 
-以前，Jira模組只適用於Jira Cloud。
+之前，Jira模組僅適用於Jira Cloud。
 
 如需可用Jira模組的詳細資訊，請參閱 [Jira軟體模組](../../../../../workfront-fusion/apps-and-their-modules/jira-software-modules.md).
 

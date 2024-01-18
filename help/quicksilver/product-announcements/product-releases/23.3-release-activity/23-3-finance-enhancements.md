@@ -3,10 +3,11 @@ title: 23.3 Financial Management增強功能
 description: 23.3 Financial Management增強功能
 author: Lisa
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: dc8ea58d-ad8a-45c8-bd02-552ab6127c38
-source-git-commit: 46d0a392875f24a55ebddaa7ff123bca0289a0bf
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '275'
+source-wordcount: '283'
 ht-degree: 0%
 
 ---

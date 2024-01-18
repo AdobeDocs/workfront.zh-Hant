@@ -3,10 +3,11 @@ title: 2023年第四季版本總覽
 description: 2023年第四季版本總覽
 author: Becky
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: 6c14bd61-60b1-49aa-84bd-d494a226d70e
-source-git-commit: 63d043a85c2e5300d8b5872b2ec7983de4ba1f50
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '2700'
+source-wordcount: '2772'
 ht-degree: 0%
 
 ---
@@ -780,9 +781,9 @@ API第17版已於2023年10月12日發行。 針對API版本17，我們已修改�
 
 請注意，Workfront行動應用程式需要Workfront登入。 外部使用者和來賓可以繼續使用校訂應用程式進行校訂工作；但是，它不再受支援，並將在23.10中變得無法使用。
 
-#### 已刪除帳戶不使用的工作流程
+#### 已針對未使用工作資料流的帳戶移除工作資料流
 
-對於從未在Adobe Workfront面板中建立工作流程的帳戶，自2023年10月11日起，工作流程區域已從面板控制面板中移除。 有使用工作流程的帳戶仍然可以存取它們。增強的Scrum功能將在未來版本中解決。
+對於從未在Adobe Workfront面板中建立工作流程的帳戶，自2023年10月11日起，工作流程區域已從面板控制面板中移除。 使用工作流程的帳戶仍可存取工作流程。 增強的Scrum功能將在未來版本中解決。
 
 <!-- HTML you might need
 

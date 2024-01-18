@@ -3,10 +3,11 @@ title: 23.3版本總覽
 description: 23.3版本總覽
 author: Becky
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: 441d84d6-6c40-4a03-967e-836cf78c8fc1
-source-git-commit: 46d0a392875f24a55ebddaa7ff123bca0289a0bf
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '2737'
+source-wordcount: '2798'
 ht-degree: 0%
 
 ---
@@ -452,8 +453,8 @@ ht-degree: 0%
                 </tr>-->
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">建立專案時自動建立連結資料夾至Adobe Experience Manager資產</a></p>
-                        <p>使用新的Adobe Experience Manager整合的建立連結資料夾工作流程，您可以透過Adobe Experience Manager資產資料夾的路徑設定整合。 將整合新增至專案範本時，從範本建立的任何專案都會在指定資料夾的Experience Manager Assets中自動建立連結的子資料夾。 </p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">建立專案時自動建立連結至Adobe Experience Manager Assets的資料夾</a></p>
+                        <p>有了適用於Adobe Experience Manager整合的全新建立連結資料夾工作流程，您可以透過Adobe Experience Manager Assets資料夾的路徑設定整合。 將整合新增至專案範本時，從範本建立的任何專案都會在指定資料夾的Experience Manager Assets中自動建立連結的子資料夾。 </p>
                     </td>
                     <td><p><b>將於下列日期提供：</b></p>
                         <ul>

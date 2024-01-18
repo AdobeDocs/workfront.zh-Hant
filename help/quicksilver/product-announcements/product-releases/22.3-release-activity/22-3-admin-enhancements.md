@@ -4,112 +4,113 @@ description: 22.3管理員增強功能
 author: Luke
 draft: false
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: 4607703a-d70e-432c-9fa2-bd43af5a870e
-source-git-commit: be4904f0b37870c1bfc8ec345e468d5fc283aa36
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '805'
+source-wordcount: '812'
 ht-degree: 0%
 
 ---
 
 # 22.3管理員增強功能
 
-本頁面說明在「預覽」環境中22.3版中進行的所有管理員增強功能。 這些增強功能已於2022年7月11日當周推出。 如需22.3版所有可用變更的清單，請參閱 [22.3版本概觀](/help/quicksilver/product-announcements/product-releases/22.3-release-activity/22-3-release-overview.md).
+本頁說明22.3版對預覽環境所做的所有管理員增強功能。 這些增強功能已在2022年7月11日當週推出。 如需22.3版所有可用變更的清單，請參閱 [22.3版本總覽](/help/quicksilver/product-announcements/product-releases/22.3-release-activity/22-3-release-overview.md).
 
 ## 將Adobe Workfront與JumpSeat整合
 
-您現在可以整合JumpSeat與Workfront，為使用者建立自訂的產品內指引。 您必須擁有Adobe Workfront企業授權和有效的JumpSeat訂閱，才能啟用整合。
+您現在可以將JumpSeat與Workfront整合，為使用者建立自訂的產品內指南。 您必須擁有Adobe Workfront企業授權和使用中的JumpSeat訂閱才能啟用整合。
 
-如需詳細資訊，請參閱 [配置JumpSeat整合](/help/quicksilver/administration-and-setup/configure-integrations/configure-jumpseat.md).
+如需詳細資訊，請參閱 [設定JumpSeat整合](/help/quicksilver/administration-and-setup/configure-integrations/configure-jumpseat.md).
 
-## 校樣預設設定已移至Workfront
+## 校訂預設設定已移至Workfront
 
-您現在可以在Workfront設定區域內編輯下列校樣設定：
+您現在可以在Workfront設定區域中編輯以下校訂設定：
 
-* 校樣預設設定
+* 校訂預設設定
 
-* 校樣決策設定
+* 校訂決定設定
 
-如需詳細資訊，請參閱 [配置預設校樣設定](/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/configure-default-proof-settings.md).
+如需詳細資訊，請參閱 [設定預設校訂設定](/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/configure-default-proof-settings.md).
 
-## 在批准流程中使用解除鎖定狀態
+## 在核准流程中使用解除鎖定狀態
 
-**注意：** 從22.3生產版本中移除。 此功能預計於2022年9月15日發行至生產環境。
+**注意：** 從22.3生產版本中移除。 此功能計畫於2022年9月15日發佈到生產環境。
 
-為了讓您對系統中的核准流程和狀態擁有更多控制權，我們讓您可以根據未鎖定的系統狀態建立核准流程。 此外，您現在可以解除鎖定核准程式中已使用的任何狀態。
+為了讓您更能掌控系統中的核准程式和狀態，我們讓您能夠根據解鎖的系統狀態來建立核准程式。 此外，您現在可以解除鎖定核准程式中已使用的任何狀態。
 
-以前，必須鎖定核准程式中使用的系統狀態。 這使它可供所有組使用（不可能刪除或更名），因此組管理員無法簡化組的狀態清單以滿足其特定需要。
+以前，必須鎖定核准流程中使用的系統狀態。 這使得它可供所有群組使用 — 無法將其移除或重新命名 — 因此群組管理員無法簡化其群組狀態清單以符合其特定需求。
 
 如需詳細資訊，請參閱下列文章：
 
-* [建立工作項的審批流程](/help/quicksilver/administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md)
+* [建立工作專案的核准流程](/help/quicksilver/administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md)
 
 * [建立或編輯狀態](/help/quicksilver/administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md)
 
-* [鎖定和解除鎖定系統級狀態](/help/quicksilver/administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/lock-or-unlock-a-custom-system-level-status.md)
+* [鎖定和未鎖定的系統層級狀態](/help/quicksilver/administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/lock-or-unlock-a-custom-system-level-status.md)
 
 
 ## 將PDF檔案新增至自訂表單
 
-我們持續協助您透過可新增的新資產小工具（例如影像和影片），讓自訂表單更加視覺化，提供更多資訊。 現在，您可以將連結新增至PDF檔案至自訂表單。 表單附加至物件時，使用物件的使用者可以從表單內檢視與PDF互動。
+我們持續協助您使用可新增的新資產小工具（例如影像和視訊），讓自訂表單更視覺化且資訊更豐富。 現在您可以將PDF檔案的連結新增至自訂表格。 當表單附加到物件時，使用物件的使用者可以從表單內檢視並與PDF互動。
 
-如需詳細資訊，請參閱 [在自訂表單中新增或編輯影像或其他資產介面工具集](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md).
+如需詳細資訊，請參閱 [在自訂表單中新增或編輯影像或其他資產Widget](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md).
 
-## 自定義表單域計算編輯器顯示錯誤資訊
+## 自訂表單欄位計算編輯器顯示錯誤資訊
 
 >[!NOTE]
 >
->此功能暫時無法使用。 此頁面將在功能可用時更新。
+>此功能暫時無法使用。 當此功能可用時，將會更新此頁面。
 
-編輯自訂欄位的計算現在更輕鬆，計算中直接指出實用的錯誤資訊。 在自訂表單中建立計算欄位時，錯誤會以粉紅色強調顯示。 將滑鼠移到醒目提示的部分上時，畫面會顯示工具提示，說明問題所在。
+編輯自訂欄位的計算現在更容易，並在計算中直接指示有用的錯誤資訊。 當您在自訂表單中建立計算欄位時，錯誤會以粉紅色反白顯示。 當您將滑鼠停留在醒目提示的部分上時，會顯示工具提示來說明問題所在。
 
-如需詳細資訊，請參閱 [將計算資料新增至自訂表單](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
+如需詳細資訊，請參閱 [新增計算資料至自訂表單](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
 
 ## 專案標題自訂
 
-身為Workfront或群組管理員，您現在可以在使用「配置範本」時，自訂專案標題中顯示的欄位。
+作為Workfront或群組管理員，您現在可以自訂當您使用版面配置範本時專案標題中顯示的欄位。
 
 此更新包含下列增強功能：
 
 * 從專案標題中移除現有欄位。
 
-* 新增不可編輯的專案概述欄位。 您無法新增可編輯的自訂欄位或欄位。 目前位於專案標題上的可編輯欄位可保留在標題上。
+* 新增不可編輯的新專案概述欄位。 您無法新增可編輯的自訂欄位或欄位。 目前位於專案標題上的可編輯欄位可以保留在標題上。
 
-* 物件標題最多可包含五個欄位。
+* 物件標頭最多可包含五個欄位。
 
 
 在此版本之前，無法自訂物件標題中的欄位。
 
-如需詳細資訊，請參閱 [使用版面範本自訂物件標題](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md).
+如需詳細資訊，請參閱 [使用版面配置範本自訂物件標頭](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md).
 
 ## 控制建立空白專案
 
-身為系統或群組管理員，您現在可以控制使用者是否可以建立空白專案，而不需使用範本。 我們已在「設定」的「專案偏好設定」區域導入新設定，可讓您在下列區域停用建立空白專案：
+作為系統或群組管理員，您現在可以控制使用者是否可以在不使用範本的情況下建立空白專案。 我們在「設定」的「專案偏好設定」區域中引入了一項新設定，可讓您停用在下列區域建立空白專案：
 
-* 從項目清單中的「新建項目」選項
+* 從專案清單中的新專案選項
 
 * 從問題頁面將問題轉換為專案時
 
 
-新設定為「允許使用者建立專案而不使用範本」，預設為啟用。
+新的設定是「允許使用者在不使用範本的情況下建立專案」，預設為啟用。
 
-**注意：** 使用者仍可將任務轉換為空白專案。
+**注意：** 使用者仍然可以將任務轉換為空白專案。
 
-如需詳細資訊，請參閱 [配置系統範圍的項目首選項](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+如需詳細資訊，請參閱 [設定全系統專案偏好設定](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
-## 從「群組」頁面停用群組
+## 從群組頁面停用群組
 
-最近，我們新增了停用和重新啟用群組的功能。 為了讓動作更快更輕鬆，我們已將其新增至群組的頁面。 現在，按一下群組名稱以前往其頁面後，您可以選取「更多」功能表 ![](/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-groups/assets/main-menu-icon.png) 在群組名稱旁，選取「停用」或「重新啟用」。
+最近，我們新增了停用及重新啟用群組的功能。 為了更快、更輕鬆地進行該動作，我們將其新增到群組的頁面。 現在，按一下群組名稱以移至其頁面後，您可以選取「更多」功能表 ![](/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-groups/assets/main-menu-icon.png) 在群組名稱旁，選取「停用」或「重新啟用」。
 
-以前，您只能使用群組詳細資訊頁面上的「使用中」核取方塊，以停用或重新啟用群組。
+過去，您只能使用群組「詳細資訊」頁面上的「作用中」核取方塊來停用或重新啟用群組。
 
 如需詳細資訊，請參閱 [停用或重新啟用群組](/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-groups/deactivate-or-reactivate-a-group.md).
 
-## 將影片新增至自訂表單
+## 新增視訊至自訂表格
 
-現在，您可以新增影片，為自訂表單提供新的資訊、視覺興趣和創意模式。 表單附加至物件時，使用物件的使用者隨時都可以播放視訊。
+現在，您可以新增視訊，為自訂表單提供全新的資訊、視覺趣味和創意模式。 當表單附加到物件時，使用物件的使用者可以隨時播放視訊。
 
-以前，您只能將文字欄位和影像新增至自訂表單。
+以前，您只能將文字欄位和影像新增到自訂表單中。
 
-如需詳細資訊，請參閱 [在自訂表單中新增或編輯影像或視訊資產介面工具集](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md).
+如需詳細資訊，請參閱 [在自訂表單中新增或編輯影像或視訊資產Widget](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md).
 

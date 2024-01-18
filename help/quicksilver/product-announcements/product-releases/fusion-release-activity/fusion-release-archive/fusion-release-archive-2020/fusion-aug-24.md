@@ -3,44 +3,45 @@ product-previous: workfront-fusion
 content-type: release-notes
 product-area: workfront-integrations
 navigation-topic: fusion-release-activity
-title: '''Workfront Fusion發行活動：《2020年8月24日周》'
-description: 本頁說明2020年8月17日當周在Adobe Workfront Fusion中所做的所有增強功能。
+title: 「Workfront Fusion發行活動： 2020年8月24日起一週」
+description: 本頁說明2020年8月17日當週在Adobe Workfront Fusion中所做的所有增強功能。
 author: Luke
 feature: Product Announcements, Workfront Fusion
+recommendations: noDisplay, noCatalog
 exl-id: 195fc28b-435c-4c5e-be47-c73dea0499a6
 hidefromtoc: true
-source-git-commit: e6995cd57c4210725d49379df5bcd7e93ce4b02a
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '306'
+source-wordcount: '301'
 ht-degree: 0%
 
 ---
 
-# Workfront Fusion發行活動：2020年8月24日起第一週
+# Workfront Fusion發行活動： 2020年8月24日起一週
 
-本頁說明2020年8月17日當周在Adobe Workfront Fusion中所做的所有增強功能。
+本頁說明2020年8月17日當週在Adobe Workfront Fusion中所做的所有增強功能。
 
 如需所有最近變更的清單，請參閱 [Adobe Workfront Fusion發行活動](../../../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
 
-如需Workfront Fusion最近錯誤修正的清單，請參閱 [Workfront維護更新](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) 並檢查任何標示為「Workfront Fusion維護更新」的更新。
+如需Workfront Fusion中近期的錯誤修正清單，請參閱 [Workfront維護更新](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) 頁面，並檢查是否有任何標示為Workfront Fusion維護更新的更新。
 
-## 在Workfront的「雜項動作」模組中，使用自訂資料輕鬆轉換物件
+## 在Workfront「其他動作」模組中更輕鬆地使用自訂資料轉換物件
 
-選擇convertToProject操作或convertToTask操作時，以下新功能有助於設定和管理此通用流程。
+選取convertToProject動作或convertToTask動作時，下列新功能有助於此通用程式的設定和管理。
 
-* 沒有新的項目（或任務）標準欄位清單，您可以填寫或映射新對象。 之前，此模組需要進階設定。 如果您先前曾使用過此模組，您的進階設定仍可在進階設定下使用。
-* 新參數：複製自訂資料。 如果已啟用，則任何在原始對象上具有值且存在於新對象上的自定義欄位都會自動複製到新對象。
-
-如需詳細資訊，請參閱 [Adobe Workfront模組](../../../../../workfront-fusion/apps-and-their-modules/workfront-modules.md).
-
-## 將檔案上傳至Workfront上傳檔案模組中的特定資料夾。
-
-現在，將文檔上載到項目、任務或問題時，您可以選擇標識要上載檔案的資料夾。
-
-以前無法直接上傳至資料夾。
+* 現在有新的專案（或任務）標準欄位清單可供您填寫或對應新物件。 之前，此模組需要進階設定。 如果您先前已使用此模組，則進階設定仍可在「進階」設定下使用。
+* 新引數：複製自訂資料。 如果啟用，任何在原始物件上有值且存在於新物件上的自訂欄位都會自動複製到新物件。
 
 如需詳細資訊，請參閱 [Adobe Workfront模組](../../../../../workfront-fusion/apps-and-their-modules/workfront-modules.md).
 
-## 現已提供Hubspot CRM和模組
+## 上傳檔案至Workfront上傳檔案模組中的特定資料夾。
 
-您現在可以使用Workfront Fusion連線至Hubspot CRM帳戶。 使用HubSpot CRM模組，您可以監視Hubspot CRM帳戶中的項目，並執行搜索、建立或刪除這些項目等操作。
+現在，當您將檔案上傳到專案、任務或問題時，您可以選擇識別要將檔案上傳到的資料夾。
+
+之前，無法直接上傳至資料夾。
+
+如需詳細資訊，請參閱 [Adobe Workfront模組](../../../../../workfront-fusion/apps-and-their-modules/workfront-modules.md).
+
+## Hubspot CRM和模組現已推出
+
+您現在可以使用Workfront Fusion連線至您的Hubspot CRM帳戶。 透過HubSpot CRM模組，您可以監視Hubspot CRM帳戶中的專案，以及執行搜尋、建立或刪除這些專案等動作。

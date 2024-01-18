@@ -3,26 +3,27 @@ product-previous: workfront-fusion
 content-type: release-notes
 product-area: workfront-integrations
 navigation-topic: fusion-release-activity
-title: 'Workfront Fusion發行活動： 2021年2月1日當週'
+title: 「Workfront Fusion發行活動： 2021年2月1日當週」
 description: 本頁說明2021年2月1日當週在Adobe Workfront Fusion中所做的所有增強功能。
 author: Luke
 feature: Product Announcements, Workfront Fusion
+recommendations: noDisplay, noCatalog
 exl-id: b9e74780-93e1-4cf4-a429-678e5f871594
 hidefromtoc: true
-source-git-commit: c241fe4ae228432ef3fc7ebfaf7874680e039587
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '202'
+source-wordcount: '197'
 ht-degree: 0%
 
 ---
 
-# Workfront Fusion發行活動： 2021年2月1日當週
+# Workfront Fusion發行活動： 2021年2月1日起一週
 
 本頁說明2021年2月1日當週在Adobe Workfront Fusion中所做的所有增強功能。
 
 如需所有最近變更的清單，請參閱 [Adobe Workfront Fusion發行活動](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
 
-如需Workfront Fusion中近期的錯誤修正清單，請參閱 [Workfront維護更新](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) 頁面，並檢查是否有任何標籤為Workfront Fusion維護更新的更新。
+如需Workfront Fusion中近期的錯誤修正清單，請參閱 [Workfront維護更新](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) 頁面，並檢查是否有任何標示為Workfront Fusion維護更新的更新。
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -50,9 +51,9 @@ ht-degree: 0%
 * 建立、讀取或更新記錄
 * 上傳或下載檔案
 * 列出或搜尋指定型別的記錄
-* 在清單中新增潛在客戶或從中移除潛在客戶
+* 在清單中新增銷售機會或移除銷售機會
 * 排程行銷活動
-* 複製計畫
+* 複製方案
 * 進行自訂API呼叫
 
 如需詳細資訊，請參閱 [Marketo模組](../../../workfront-fusion/apps-and-their-modules/marketo-modules.md).

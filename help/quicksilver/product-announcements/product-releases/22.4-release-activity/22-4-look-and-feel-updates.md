@@ -1,63 +1,64 @@
 ---
-title: 在22.4版本期間更新外觀
-description: 在22.4版本期間更新外觀
+title: 在22.4發行時間範圍內的外觀和感覺更新
+description: 在22.4發行時間範圍內的外觀和感覺更新
 author: Luke
 draft: Probably
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: e5c347ef-aa14-4607-bf30-11b2812ff40d
-source-git-commit: 53cc430dc5fce8f3d0b570c661ec93dd566c7ab9
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '266'
+source-wordcount: '275'
 ht-degree: 0%
 
 ---
 
-# 22.4版本期間的外觀與風格更新
+# 在22.4發行時間範圍內的外觀和感覺更新
 
-本頁說明在22.4版本範圍內對Adobe Workfront應用程式各個區域的外觀和風格進行微幅更新。 這些增強功能將在發佈至預覽後至少2週內，於生產環境中提供使用。
+本頁說明在22.4版發行時間範圍內對Adobe Workfront應用程式的各個區域外觀和感覺所做的小幅更新。 這些增強功能將在發佈到「預覽」後至少2週內可在「生產」環境中使用。
 
-如需22.4版所有可用變更的清單，請參閱 [22.4版本概觀](/help/quicksilver/product-announcements/product-releases/22.4-release-activity/22-4-release-overview.md).
+如需22.4版本所有可用變更的清單，請參閱 [22.4版本總覽](/help/quicksilver/product-announcements/product-releases/22.4-release-activity/22-4-release-overview.md).
 
-## 「許可證」頁面的外觀更新
+## 授權頁面的外觀和感覺更新
 
-我們已將重要授權資訊移至頁面的右上角，並更新文字和按鈕的外觀，以符合Workfront的其他區域。
+我們已將重要的授權資訊移至頁面右上角，並更新文字和按鈕的外觀以符合Workfront的其他區域。
 
-如需詳細資訊，請參閱 [管理系統中的可用許可證](/help/quicksilver/administration-and-setup/get-started-wf-administration/manage-available-licenses-in-your-system.md).
+如需詳細資訊，請參閱 [管理系統中的可用授權](/help/quicksilver/administration-and-setup/get-started-wf-administration/manage-available-licenses-in-your-system.md).
 
-## 更新自訂Forms區域的清單
+## 更新自訂Forms區域中的清單
 
 >[!NOTE]
 >
->預覽發行日期：2022年7月21日；生產版本：2022年8月18日
+>預覽版本： 2022年7月21日；生產版本： 2022年8月18日
 
-在「自訂Forms」區域中，清單現在擁有更現代的外觀，並且在Workfront的其他大多數清單中都能找到。 此更新新增了快速篩選器，可讓您僅列出需要檢閱、編輯或共用的自訂表單。
+在自訂Forms區域，清單現在具有在整個Workfront的大部分其他清單中找到的更現代的外觀和感覺。 此更新會新增快速篩選器，讓您僅列出需要檢閱、編輯或共用的自訂表單。
 
-## 更新的清單和報表
+## 更新的清單與報告
 
-下列清單和報表中的工具列現在具有現代的外觀，讓您可以快速管理Adobe Workfront中的物件。
+下列清單和報告上的工具列現在具有現代外觀，可讓您快速管理Adobe Workfront中的物件。
 
-### 預覽版本：2022年7月28日；生產版本：第22.4版
+### 預覽版本： 2022年7月28日；生產版本：搭配22.4版
 
-項目隊列主題組清單
+專案佇列主題群組清單
 
-### 預覽版本：2022年7月21日；生產版本：第22.4版
+### 預覽版本： 2022年7月21日；生產版本：搭配22.4版
 
-問題時數清單
+問題小時清單
 
-任務小時數清單
+任務時數清單
 
-任務前置任務清單
+前置任務清單
 
 專案佇列主題清單
 
-項目開單記錄清單
+專案付費記錄清單
 
-項目路由規則清單
+專案路由規則清單
 
-項目開單記錄可開單小時數清單
+專案記帳記錄可記帳時數清單
 
-專案基線清單
+專案基準線清單
 
-項目風險清單
+專案風險清單
 
-項目隊列主題組清單
+專案佇列主題群組清單

@@ -4,17 +4,18 @@ description: 22.2行動增強功能
 author: Luke
 draft: Probably
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: 72761545-9781-4a66-8672-2ff6a15cce9f
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '170'
+source-wordcount: '177'
 ht-degree: 0%
 
 ---
 
 # 22.2行動增強功能
 
-本頁說明在「預覽」環境中22.2版所做的所有行動裝置增強功能。 這些增強功能將可在生產環境中使用
+本頁說明22.2版對預覽環境所做的所有行動裝置增強功能。 這些增強功能將在生產環境中提供
 
 <!--
 <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -22,20 +23,20 @@ in January 2022
 </MadCap:conditionalText>
 -->
 
-2022年4月4日當周。
+2022年4月4日當週。
 
-如需22.2版所有可用變更的清單，請參閱 [22.2版本概觀](../../../product-announcements/product-releases/22.2-release-activity/22-2-release-overview.md).
+如需22.2版所有可用變更的清單，請參閱 [22.2版本總覽](../../../product-announcements/product-releases/22.2-release-activity/22-2-release-overview.md).
 
-## 行動應用程式中校樣檔案的繪圖和註解
+## 行動應用程式中校訂檔案的繪圖和註解
 
 >[!NOTE]
 >
->此功能將於2022年4月中旬在Apple App Store和Google Play Store上推出。
+>2022年4月中旬，Apple App Store和Google Play商店將正式提供此功能。
 
-Adobe Workfront行動應用程式現在可讓您在校樣檔案上新增繪圖和註解。 校樣上的新工具欄包含形狀的繪圖工具。 您可以選擇每個形狀的設定，例如顏色和線條粗細。 在校樣上繪製形狀將注釋連接到校樣文檔的該區域。
+Adobe Workfront行動應用程式現在可讓您在校訂檔案上新增工程圖和註解。 校樣上的新工具列包含圖形的繪圖工具。 您可以選取設定，例如每個形狀的顏色和線條粗細。 在校樣上繪製形狀會將您的註解連線到校樣檔案的該區域。
 
-您也可以回覆其他人對證明的意見。
+您也可以回覆其他人在校樣上發表的評論。
 
-當應用程式發行至應用程式商店時，將會更新下列文章：
+當應用程式發行至應用程式商店時，下列文章將會更新：
 
-[檢閱Adobe Workfront行動應用程式中的校樣並做出決策](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/work-with-proofs-in-mobile-app.md)
+[在Adobe Workfront行動應用程式中檢閱校訂並作出決定](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/work-with-proofs-in-mobile-app.md)

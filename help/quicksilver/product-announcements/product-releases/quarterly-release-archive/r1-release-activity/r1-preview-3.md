@@ -5,10 +5,11 @@ title: R1預覽3
 description: 本頁說明R1.3版本預覽環境中所有可用的變更。 此頁面的功能已於2017年2月1日在預覽環境中推出。
 author: Luke
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: d1502a17-b131-4d29-9b0c-03ad44be4ba6
-source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '1343'
+source-wordcount: '1347'
 ht-degree: 2%
 
 ---
@@ -138,7 +139,7 @@ ht-degree: 2%
 
 * 核准計劃開始日期
 * 預計核准開始日期
-* 預計的核准開始日期
+* 核准預估開始日期
 
 ## 「我已提出要求」的新電子郵件摘要選項
 

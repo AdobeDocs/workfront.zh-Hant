@@ -1,24 +1,26 @@
 ---
-title: 23.2報表與控制面板增強功能
-description: 23.2報表與控制面板增強功能
+title: 23.2報表和控制面板增強功能
+description: 23.2報表和控制面板增強功能
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: f4e3991745109bfe9f2d27d4be30bbcf90a23cb4
+recommendations: noDisplay, noCatalog
+exl-id: 2b5785e4-2fc3-4b93-9fdf-9638282c732d
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '125'
+source-wordcount: '132'
 ht-degree: 1%
 
 ---
 
-# 23.2報表與控制面板增強功能
+# 23.2報表和控制面板增強功能
 
-本頁說明在「預覽」環境的23.2版中對「報表和控制面板」所做的所有增強功能。 這些增強功能將於23.2版的生產環境中提供使用。
+本頁說明23.2版對「預覽」環境的所有報表和控制面板增強功能。 這些增強功能將在23.2版本的生產環境中提供。
 
-如需23.2版本週期中此時所有可用變更的清單，請參閱 [23.2版本概觀](/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-release-overview.md).
+如需23.2版本週期目前可用的所有變更清單，請參閱 [23.2版本總覽](/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-release-overview.md).
 
 ## 畫布儀表板
 
-畫布控制面板已新增為控制面板的進行中功能，可在配置範本中啟用。 除了新的配置選項外，畫布控制面板還可讓報表畫布視覺效果與現有報表結合。 目前僅支援清單報表，但隨著開發持續，將會新增更多選項。
+畫布控制面板已新增為控制面板的進行中功能，可在版面配置範本中啟用。 除了新的版面配置選項外，畫布儀表板將允許報告畫布視覺效果與現有報告結合。 目前僅支援清單報告，但隨著開發繼續進行，將會新增更多選項。
 
-如需啟用和使用畫布控制面板的詳細資訊，請參閱 [畫布控制面板概觀](/help/quicksilver/reports-and-dashboards/dashboards/creating-and-managing-dashboards/canvas-dashboards-overview.md)
+如需啟用和使用畫布控制面板的詳細資訊，請參閱 [Canvas儀表板概觀](/help/quicksilver/reports-and-dashboards/dashboards/creating-and-managing-dashboards/canvas-dashboards-overview.md)

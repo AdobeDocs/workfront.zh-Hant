@@ -7,8 +7,9 @@ title: Adobe Workfront Fusion發行活動概覽
 description: Adobe Workfront Fusion可順暢地連線您的應用程式和Web服務，因此您可以專注在新任務上，而不是一而再、再而三地重複相同的任務。
 author: Luke
 feature: Product Announcements, Workfront Fusion
+recommendations: noDisplay, noCatalog
 exl-id: 17dd5211-4531-47e9-a13a-b3698d8738d1
-source-git-commit: 1d0c03e7818f6ecf4cd5ea8b6cc1c7324fbadd23
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
 source-wordcount: '634'
 ht-degree: 0%

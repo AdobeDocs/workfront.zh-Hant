@@ -3,8 +3,9 @@ title: 2024年第一季度整合增強功能
 description: 2024年第一季度整合增強功能
 author: Becky
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: 0d581f3c-2aaf-4ac1-97a5-df1b01627080
-source-git-commit: 44dd48b72e798b8967c4a4e3dc7d523fe9b130d2
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
 source-wordcount: '384'
 ht-degree: 0%

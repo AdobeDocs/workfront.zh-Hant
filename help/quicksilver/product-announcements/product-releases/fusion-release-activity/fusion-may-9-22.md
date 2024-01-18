@@ -8,11 +8,12 @@ title: 「Workfront Fusion發行活動： 2022年5月9日當週」
 description: 本頁說明2022年5月9日當週在Adobe Workfront Fusion中所做的所有增強功能。
 author: Luke
 feature: Product Announcements, Workfront Fusion
+recommendations: noDisplay, noCatalog
 hidefromtoc: true
 exl-id: 199bdc78-08b0-403b-b762-560b25c6d05a
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '209'
+source-wordcount: '204'
 ht-degree: 0%
 
 ---

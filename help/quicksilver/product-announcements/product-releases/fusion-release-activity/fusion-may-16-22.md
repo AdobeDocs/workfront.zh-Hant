@@ -3,31 +3,32 @@ product-previous: workfront-fusion
 content-type: release-notes
 product-area: workfront-integrations
 navigation-topic: fusion-release-activity
-title: '''Workfront Fusion發行活動：2022年5月16日當周」'
-description: 本頁說明2022年5月16日當周在Adobe Workfront Fusion中所做的所有增強功能。
+title: 「Workfront Fusion發行活動： 2022年5月16日起一週」
+description: 本頁說明2022年5月16日當週在Adobe Workfront Fusion中所做的所有增強功能。
 author: Luke
 feature: Product Announcements, Workfront Fusion
+recommendations: noDisplay, noCatalog
 hidefromtoc: true
 exl-id: ed844acd-3f1c-466c-89ca-a644fa01c825
-source-git-commit: e6995cd57c4210725d49379df5bcd7e93ce4b02a
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '167'
+source-wordcount: '162'
 ht-degree: 0%
 
 ---
 
-# Workfront Fusion發行活動： 2022年5月16日當周
+# Workfront Fusion發行活動： 2022年5月16日起一週
 
-本頁說明2022年5月16日當周在Adobe Workfront Fusion中所做的所有增強功能。
+本頁說明2022年5月16日當週在Adobe Workfront Fusion中所做的所有增強功能。
 
 如需所有最近變更的清單，請參閱 [Adobe Workfront Fusion發行活動](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
 
-如需Workfront Fusion最近錯誤修正的清單，請參閱 [Workfront維護更新](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) 並檢查任何標示為「Workfront Fusion維護更新」的更新。
+如需Workfront Fusion中近期的錯誤修正清單，請參閱 [Workfront維護更新](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) 頁面，並檢查是否有任何標示為Workfront Fusion維護更新的更新。
 
 
-## Workfront Fusion中Anaplan連接器現已可使用「執行動作」模組
+## 「執行動作」模組現在可用於Workfront Fusion中的Anaplan聯結器
 
-為簡化Workfront Anaplan連接器，我們建立了「執行動作模組」。 此模組包含「匯入資料」和「匯出資料」模組的功能。 您也可以使用此模組來刪除Anaplan操作或運行Anaplan流程。
-以前，匯入和匯出資料是透過個別模組控制，且刪除動作和執行程式無法使用。
+為簡化Workfront Anaplan聯結器，我們已建立「執行動作」模組。 此模組包含匯入資料和匯出資料模組的功能。 您也可以使用此模組來刪除Anaplan動作或執行Anaplan流程。
+以前，資料的匯入和匯出是由不同的模組所控制，因此無法使用刪除動作和執行中的程式。
 
 如需詳細資訊，請參閱 [Anaplan模組](../../../workfront-fusion/apps-and-their-modules/anaplan-modules.md).

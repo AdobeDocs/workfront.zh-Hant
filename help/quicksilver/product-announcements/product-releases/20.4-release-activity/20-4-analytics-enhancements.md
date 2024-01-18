@@ -4,28 +4,29 @@ description: 20. 4 Analytics增強功能
 author: Luke
 draft: Probably
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: 39e09278-afce-4e9b-857c-f18453081f9d
-source-git-commit: 665732453b33b49421108791a560ab84d51280b9
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '218'
-ht-degree: 1%
+source-wordcount: '223'
+ht-degree: 0%
 
 ---
 
 # 20. 4 Analytics增強功能
 
-本頁說明在「預覽」環境中20.4版本中進行的所有分析增強功能。 這些增強功能將於2020年11月9日當周在生產環境中提供。
+本頁說明20.4版本對「預覽」環境所做的所有分析增強功能。 這些增強功能將在2020年11月9日當週的生產環境中提供。
 
-如需20.4版所有可用變更的清單，請參閱 [20.4版本概觀](../../../product-announcements/product-releases/20.4-release-activity/20-4-release-overview.md).
+如需20.4版所有可用變更的清單，請參閱 [20.4版本總覽](../../../product-announcements/product-releases/20.4-release-activity/20-4-release-overview.md).
 
-## Enhanced Analytics新增分頁和排序功能
+## 已新增分頁和排序至增強型分析
 
-為了讓您檢視想要查看的資訊而不須套用限制篩選，我們已進行下列變更：
+為了讓您檢視想要檢視的資訊，而不需要套用限制性的篩選器，我們做了下列變更：
 
-* 畫面右上角的專案計數只會顯示套用篩選器內的專案總量。
-* 每個圖表現在都可讓您選取要跳至特定專案集的頁碼，或使用箭頭在頁面之間往前和往後導覽，以50個群組（例如51-100、150-200等）檢視其他專案。 在一個圖表上選取新頁面會更新整個畫面的專案。
-* 每個圖表現在都有一個「排序依據」菜單，允許您按字母順序排序、按計畫起始日期或按計畫完成日期排序。
+* 畫面右上角的專案計數只會顯示套用篩選器中的專案總數。
+* 現在，每個圖表都可讓您選取頁碼以跳至特定專案集，或使用箭頭在頁面之間向前和向後導覽，以群組50檢視其他專案（例如，51-100、150-200等）。 在一個圖表上選取新頁面，會更新整個畫面的專案。
+* 現在，每個圖表都有「排序依據」功能表，可讓您依字母順序、計劃開始日期或計畫完成日期進行排序。
 
-過去，「增強分析」區域將您可檢視的專案數量限制為50個。
+之前，增強型分析區域限制您可以檢視的專案數量為50個。
 
-此功能現已納入 [增強的Analytics，第1部分學習路徑](https://one.workfront.com/s/learningpath2/enhanced-analytics-part-1-overview-20Y0z000000bmgOEAQ) Workfront一號。
+此功能現已包含在 [增強型分析，第1部分學習路徑](https://one.workfront.com/s/learningpath2/enhanced-analytics-part-1-overview-20Y0z000000bmgOEAQ) 在Workfront One上。

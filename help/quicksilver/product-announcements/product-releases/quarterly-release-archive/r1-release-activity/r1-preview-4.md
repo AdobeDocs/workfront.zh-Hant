@@ -5,10 +5,11 @@ title: R1預覽4
 description: 本頁說明R1.4版本預覽環境中所有可用的變更。 此頁面的功能已於2017年2月15日在預覽環境中推出。
 author: Luke
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: 2945e058-74dd-4cc3-9d6c-e5618ee7041c
-source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '847'
+source-wordcount: '849'
 ht-degree: 0%
 
 ---
@@ -99,7 +100,7 @@ ht-degree: 0%
 
 您可以複製行動應用程式中可見之所有物件的下列欄位中的文字：
 
-* 名稱
+* 姓名
 * 說明
 * 參考號碼
 * 評論

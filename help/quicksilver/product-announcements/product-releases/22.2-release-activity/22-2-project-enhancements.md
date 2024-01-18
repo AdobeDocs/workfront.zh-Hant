@@ -1,20 +1,21 @@
 ---
-title: 22.2湯匙；項目增強功能
-description: 22.2湯匙；項目增強功能
+title: 22.2&nbsp；專案增強功能
+description: 22.2&nbsp；專案增強功能
 author: Luke
 draft: Probably
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: 43ea91db-d6f2-4218-9261-580a7e5b31d0
-source-git-commit: be4904f0b37870c1bfc8ec345e468d5fc283aa36
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '1087'
+source-wordcount: '1095'
 ht-degree: 1%
 
 ---
 
 # 22.2專案增強功能
 
-本頁面說明在「預覽」環境中22.2版本中進行的所有專案增強功能。 這些增強功能將可在生產環境中使用
+本頁說明22.2版對預覽環境所做的所有專案增強功能。 這些增強功能將在生產環境中提供
 
 <!--
 <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -22,134 +23,134 @@ in January 2022
 </MadCap:conditionalText>
 -->
 
-2022年4月4日當周。 如需22.2版所有可用變更的清單，請參閱 [22.2版本概觀](../../../product-announcements/product-releases/22.2-release-activity/22-2-release-overview.md).
+2022年4月4日當週。 如需22.2版所有可用變更的清單，請參閱 [22.2版本總覽](../../../product-announcements/product-releases/22.2-release-activity/22-2-release-overview.md).
 
-## Adobe Workfront展示板現已可用！
+## Adobe Workfront展示板現已推出！
 
-展示板是彈性的工具，可提供對包含欄和資訊卡之共用展示板的存取，以允許團隊共同作業。
+看板是彈性的工具，可透過提供對包含欄和卡片的共用看板的存取權來允許團隊共同作業。
 
-使用展示板，您可以：
+您可以使用展示板：
 
-* 快速設定具有多列的任務板
-* 配置列以顯示狀態或類別
-* 新增其他使用者至展示板，並將其指派至資訊卡
-* 快速新增已開啟的卡片和核取清單
+* 快速設定包含多欄的工作面板
+* 設定欄以顯示狀態或類別
+* 新增其他使用者到展示板並將他們指派到卡片
+* 快速新增未結的卡片及檢查清單
 
-請注意，展示板上的資訊卡未連線至Adobe Workfront中的物件和工作項目。
+請注意，展示板上的卡片未連線至Adobe Workfront中的物件和工作專案。
 
-系統管理員必須啟用版面範本中的展示板，才能讓主功能表中的所有使用者都能使用該選項。
+系統管理員必須啟用版面配置範本中的面板，才能讓主功能表中的所有使用者都可以使用選項。
 
 如需詳細資訊，請參閱 [展示板概述](../../../agile/boards-overview.md).
 
-## Workfront展示板的其他改良
+## Workfront面板的其他改善
 
-Workfront展示板現在提供下列額外改善：
+Workfront主機板現在提供下列其他改良功能：
 
 * 展示板上的標籤卡
 
-   您現在可以使用色彩編碼的標籤，將展示板上的資訊卡分類。 標籤可讓您快速識別卡片。 您甚至可以根據套用的標籤來排序展示板。
+  您現在可以使用顏色編碼的標籤將展示板上的卡片分類。 標籤可讓您快速識別卡片。 您甚至可以根據套用的標籤來排序展示板。
 
-* 管理展示板上的資訊卡
+* 管理展示板上的卡片
 
-   我們已新增下列功能，協助您管理展示板上的資訊卡：
+  我們新增了下列功能，協助您管理展示板上的卡片：
 
-   * 複製資訊卡：在展示板上建立現有資訊卡的復本。
-   * 移動資訊卡：使用新的「欄頂」和「欄底」功能表選項，將資訊卡快速移至展示板的頂端或底部。
+   * 複製卡片：建立展示板上現有卡片的副本。
+   * 移動卡片：使用新的「欄頂端」和「欄底部」選單選項，快速將卡片移動到展示板的頂端或底部。
 
-* 在展示板中搜尋
+* 在面板中搜尋
 
-   我們已新增搜尋列，協助您搜尋展示板上的所有資訊卡。
+  我們已新增搜尋列，協助您搜尋展示板上的所有卡片。
 
-* 設定展示板中資訊卡的到期日
+* 在面板中設定卡片的到期日
 
-   您現在可以設定展示板上個別資訊卡的到期日。
+  您現在可以為展示板上的個別卡片設定到期日期。
 
-如需詳細資訊，請參閱 [開始使用Adobe Workfront中的展示板](../../../agile/get-started-with-boards/get-started-with-boards.md).
+如需詳細資訊，請參閱 [開始使用Adobe Workfront中的面板](../../../agile/get-started-with-boards/get-started-with-boards.md).
 
-## 更新貼文的還原選項
+## 「更新貼文」的「還原」選項
 
-現在發佈更新時更容易發現錯誤。 現在，在物件的「更新」索引標籤中完成註解後，會建立7秒的快顯視窗，讓您在系統時間戳記或傳送任何電子郵件和應用程式內通知之前，取消貼文並返回編輯。 如果您關閉快顯視窗、離開頁面，或等待視窗逾時7秒，則會正常張貼貼文。
+現在，在張貼更新時更容易擷取錯誤。 現在，在物件的Update索引標籤中完成評論時，會建立一個彈出式視窗，持續7秒，讓您在系統時間戳記該文章或傳送任何電子郵件和應用程式內通知之前取消文章並返回編輯。 如果您關閉快顯視窗、離開頁面，或等待視窗7秒逾時，系統就會正常張貼。
 
 如需詳細資訊，請參閱 [更新工作](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
 ## 更新複製和移動問題時的體驗
 
-為了讓您使用Workfront與新的Adobe Workfront體驗一致，我們重新設計了複製和移動問題的介面。 目前，複製或移動單一問題，或從清單或報表大量複製或移動問題時，都可使用此功能。
+為了讓您使用Workfront與新的Adobe Workfront體驗一致，我們重新設計了複製和移動問題的介面。 目前複製或移動單一問題，或從清單或報告大量複製或移動問題時，可使用此功能。
 
-這個新重新設計的介面的部分改進包括：
+這個全新重新設計的介面部分改良包括：
 
-* 移動前您必須更新的所有資訊會顯示在一個連續頁面上。
-* Workfront會在選擇專案後，立即檢查您是否擁有目的地專案的存取權。 在此增強功能之前，Workfront警告您，在確認導致額外步驟且不允許移動的移動後，您沒有正確的存取權。
-* 能夠請求您要移動問題而不離開「移動任務」框的項目的訪問權。
-* 將問題移至其他位置時，可從問題中移除項目（指派、進度、檔案、權限、更新）的功能。 此功能先前僅可用於複製問題。
-* 在複製問題時，除了選擇目標項目外，還可以選擇目標任務。
+* 移動前必須更新的所有資訊都會顯示在一個連續的頁面上。
+* Workfront會在選擇專案後，立即檢查您是否有目的地專案的存取權。 在此增強功能之前，Workfront警告您確認移動後沒有正確的存取權，這會導致額外的步驟，且不允許移動。
+* 能夠為您想要移動問題的專案請求存取權，而不離開「移動任務」方塊。
+* 將問題移至其他位置時，能夠從中移除專案（指派、進度、檔案、許可權、更新）。 此功能先前僅適用於複製問題。
+* 複製問題時，除了選取目標專案外，還能選取目標任務。
 
-如需移動或複製問題的詳細資訊，請參閱下列文章：
+如需有關移動或複製問題的詳細資訊，請參閱下列文章：
 
 * [複製問題](../../../manage-work/issues/manage-issues/copy-issues.md)
 * [移動問題](../../../manage-work/issues/manage-issues/move-issues.md)
 
 ## 複製專案時的新體驗
 
-為了讓您使用Workfront與新的Adobe Workfront體驗一致，我們重新設計了複製專案的介面。 目前，從專案頁面複製專案，或從清單或報表複製專案時，都可使用此功能。 在此更新前，您只能從專案頁面複製專案。
+為了讓您使用Workfront與新的Adobe Workfront體驗一致，我們重新設計了複製專案的介面。 目前從專案頁面複製專案或從清單或報告複製專案時，可使用此功能。 在此更新之前，您只能從專案頁面複製專案。
 
 如需詳細資訊，請參閱 [複製專案](../../../manage-work/projects/manage-projects/copy-project.md).
 
-## 從新的「更多」功能表管理清單和報表的專案
+## 從新的「更多」選單管理清單和報告專案的功能
 
-我們在專案清單和報表中新增了「更多」功能表，可讓您從這些區域執行下列動作：
+我們在專案清單和報告中新增了更多選單，可讓您從這些區域執行以下動作：
 
-* 一次執行數個專案：
+* 一次針對多個專案：
 * 重新計算時間表
 * 重新計算財務
 * 重新計算自訂運算式
-* 針對單一專案：
+* 若為單一專案：
 * 附加範本
 * 匯出到 MS Project
 * 訂閱
 
 如需詳細資訊，請參閱下列文章：
 
-* [重新計算項目時間表](../../../manage-work/projects/manage-projects/recalculate-project-timeline.md)
-* [重新計算項目財務](../../../manage-work/projects/project-finances/recalculate-project-finances.md)
-* [在自訂表單欄位中編輯資訊](../../../workfront-basics/work-with-custom-forms/edit-custom-forms.md)
+* [重新計算專案時間表](../../../manage-work/projects/manage-projects/recalculate-project-timeline.md)
+* [重新計算專案財務](../../../manage-work/projects/project-finances/recalculate-project-finances.md)
+* [編輯自訂表單欄位中的資訊](../../../workfront-basics/work-with-custom-forms/edit-custom-forms.md)
 * [將範本附加至專案](../../../manage-work/projects/create-and-manage-templates/attach-template-to-project.md)
 * [將專案匯出至Microsoft專案](../../../manage-work/projects/manage-projects/export-project-to-ms-project.md)
-* [訂閱Adobe Workfront中的項目](../../../workfront-basics/using-notifications/subscribe-to-items-in-workfront.md)
+* [訂閱Adobe Workfront中的專案](../../../workfront-basics/using-notifications/subscribe-to-items-in-workfront.md)
 
-## 將問題轉換為專案後，讓使用者留在控制面板、清單或報表上
+## 將問題轉換為專案後，讓使用者留在儀表板、清單或報告中
 
-為了提高效率並減少點按次數，我們已發佈一項改善，將問題從清單、報表或控制面板轉換為專案。
+為了提高效率並消除點按次數，我們發佈了一項改善功能，用於從清單、報告或儀表板將問題轉換為專案。
 
-將問題轉換為專案後，使用者會停留在清單、報表或控制面板上，而非重新導向至專案的頁面。 轉換完成後，會顯示包含專案連結的成功通知，讓您視需要輕鬆導覽至專案。
+將問題轉換為專案後，使用者留在清單、報告或儀表板上，而不是被重新導向到專案的頁面。 轉換完成後，系統會顯示成功通知，內含專案的連結，可讓您視需要輕鬆導覽至專案。
 
-如需詳細資訊，請參閱 [將問題轉換為Adobe Workfront中的專案](../../../manage-work/issues/convert-issues/convert-issue-to-project.md).
+如需詳細資訊，請參閱 [在Adobe Workfront中將問題轉換為專案](../../../manage-work/issues/convert-issues/convert-issue-to-project.md).
 
-## 對分配進行更改時，將不再刪除分配小時
-
->[!NOTE]
->
->此功能原本預計於22.2版發行。 預計於2022年4月21日上線生產。
-
-為確保資料的準確性，我們進行了更改，以保留分配小時數，並在對任務上的分配進行更改時保持任務計畫小時數不變。
-
-已對具有簡單持續時間類型的任務進行以下更改：
-
-* 刪除所有受分配者時，將保留計畫小時數。
-* 替換用戶和角色時，將保留單個分配分配。
-* 刪除用戶時，各個分配分配將保留在角色上。 (從發行中移除。 現在，刪除所有受分配者後，「計畫小時數」將設定為0。)
-
-如需「計畫小時數」的詳細資訊，請參閱 [計畫小時數概觀](../../../manage-work/tasks/task-information/planned-hours.md).
-
-## 僅在資料夾層次結構的前五個級別中共用資料夾
+## 變更指派時，分配時數將不再移除
 
 >[!NOTE]
 >
->此功能暫時無法使用。 當此功能可在生產環境中使用時，我們會更新此發行說明。
+>此功能原計畫隨22.2版發行。 它將在2022年4月21日發佈到生產環境。
 
-為確保用戶共用資料夾的效能最佳，我們當前將共用限制在對象上資料夾層次結構中的前五個級別。
+為確保資料的準確性，我們在變更任務指派時，進行了變更以保留分配時數並保留任務計畫時數不變。
 
-第六級或第六級以下的每個資料夾都會繼承其上方資料夾的共用配置。
+已對「簡單期間型別」的工作進行下列變更：
 
-如需共用資料夾的詳細資訊，請參閱 [共用文檔資料夾](../../../workfront-basics/grant-and-request-access-to-objects/share-a-document-folder.md).
+* 移除所有受指派人時，會保留計畫時數。
+* 取代使用者和角色時，會保留個別指派分配。
+* 移除使用者時，會保留角色上的個別指派分配。 (已從發行版本中移除。 現在，計畫時數將在移除所有受指派人後設為0。)
+
+如需計畫時數的詳細資訊，請參閱 [計畫時數概觀](../../../manage-work/tasks/task-information/planned-hours.md).
+
+## 僅共用資料夾階層前五個層級的資料夾
+
+>[!NOTE]
+>
+>此功能暫時無法使用。 當功能在生產環境中可用時，我們將更新此發行說明。
+
+為確保使用者共用資料夾的最佳效能，我們目前將共用限制在物件資料夾階層的最前五個層級。
+
+第六層級或更低層級的每個資料夾都會從其正上方的資料夾繼承其共用設定。
+
+如需共用資料夾的詳細資訊，請參閱 [共用檔案資料夾](../../../workfront-basics/grant-and-request-access-to-objects/share-a-document-folder.md).
 

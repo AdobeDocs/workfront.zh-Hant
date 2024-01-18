@@ -5,10 +5,11 @@ title: R1預覽5
 description: 本頁說明R1 Preview 5版本中「預覽」環境的所有可用變更。 此頁面的功能已於2017年3月16日在預覽環境中推出。
 author: Luke
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: 4fba14b5-6c5a-4b03-99a7-f0e6f75807c3
-source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '1281'
+source-wordcount: '1288'
 ht-degree: 13%
 
 ---
@@ -87,7 +88,7 @@ ht-degree: 13%
 
 立即電子郵件通知現在提供下列選項。 這些選項僅適用於也有每日文摘對應的即時通知：
 
-* &quot;將此項目新增到每日摘要&quot;
+* 「將此專案新增至每日摘要」
 * 「停止此型別的電子郵件」
 
 現在，當您收到立即電子郵件通知時，您可以將該通知新增到每日摘要通知，或者您可以完全取消訂閱該通知。

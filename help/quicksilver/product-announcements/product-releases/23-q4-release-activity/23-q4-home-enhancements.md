@@ -3,9 +3,11 @@ title: 2023年第四季首頁增強功能
 description: 2023年第四季首頁增強功能
 author: Lisa
 feature: Product Announcements
-source-git-commit: ee84471418590401fe143741cadd1d76a8917149
+recommendations: noDisplay, noCatalog
+exl-id: f69cbb95-e7fe-4f8f-a7e7-7693c968e76c
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '846'
+source-wordcount: '853'
 ht-degree: 0%
 
 ---

@@ -3,10 +3,11 @@ title: 2023年第四季整合增強功能
 description: 2023年第四季整合增強功能
 author: Lisa
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: 0e8952db-5103-4730-860b-e3d6088497ec
-source-git-commit: 706e531be6f6269a927f94fee4d2c37d9367c9af
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '274'
+source-wordcount: '282'
 ht-degree: 0%
 
 ---
