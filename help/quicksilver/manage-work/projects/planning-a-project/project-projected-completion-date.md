@@ -7,9 +7,9 @@ description: 預計完成日期是即時計算的指標，指出專案、任務�
 author: Alina
 feature: Work Management
 exl-id: dde400e6-189f-4431-8f2f-7142ce424826
-source-git-commit: f4ef463ebdc9a4a7a0802e5394d7820ebc447aa9
+source-git-commit: bac9856f3d0946b17e36797262d1a21f093ceadd
 workflow-type: tm+mt
-source-wordcount: '923'
+source-wordcount: '876'
 ht-degree: 0%
 
 ---
@@ -22,69 +22,40 @@ ht-degree: 0%
 
 ## 存取需求
 
-<!--drafted for P&P:
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
-   <td> <p>Any</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
-   <td> 
-   <p>For current licenses: 
-   <ul><li><p>Contributor or higher to view the Projected Completion Date in a report</p></li> <li><p>A Standard license to create a report</p></li> </ul>
-   
-   <p>For legacy licenses: 
-   <ul><li><p>Review or higher to view the Projected Completion Date in a report</p></li> 
-   <li><p>A Plan license to create a report</p> </li></ul>
-      </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Access level configurations*</td> 
-   <td> <p>View or higher access to Projects</p> <p>You must have Edit access to Reports, Dashboards, Calendars to create a report</p> <p>You must have Edit access to Filters, Views, Groupings to create a report or modify a list view</p> <p><b>NOTE</b>
-   
-   If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Object permissions</td> 
-   <td> <p>View or higher permissions to a project</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
--->
-
 您必須具有下列存取權才能執行本文中的步驟：
 
+
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront計畫*</td> 
+   <td role="rowheader">Adobe Workfront計畫</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront授權*</td> 
-   <td> <p>複查或更高以檢視報告中的預計完成日期</p> <p>建立報告的計畫授權</p> </td> 
+   <td role="rowheader">Adobe Workfront授權</td> 
+   <td> 
+   <p>新增： 
+   <ul><li><p>投稿人或以上人員可檢視報告中的預計完成日期</p></li> <li><p>建立報告的標準授權</p></li> </ul>
+
+<p>目前： 
+   <ul><li><p>複查或更高以檢視報告中的預計完成日期</p></li> 
+   <li><p>建立報告的計畫授權</p> </li></ul>
+      </td> 
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定*</td> 
-   <td> <p>檢視或更高專案存取權</p> <p>您必須擁有報告、儀表板、行事曆的編輯存取權，才能建立報告</p> <p>您必須擁有「篩選器」、「檢視」、「群組」的「編輯」存取權，才能建立報告或修改清單檢視</p> <p><b>附註</b>
-
-如果您還是沒有存取權，請詢問您的Workfront管理員，他們是否在您的存取層級中設定其他限制。 如需有關Workfront管理員如何修改您的存取層級的資訊，請參閱 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>.</p> </td>
-</tr> 
+   <td> <p>檢視或更高專案存取權</p> <p>您必須擁有報告、儀表板、行事曆的編輯存取權，才能建立報告</p> <p>您必須擁有「篩選器」、「檢視」、「群組」的「編輯」存取權，才能建立報告或修改清單檢視</p>  </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">物件許可權</td> 
-   <td> <p>檢視專案或更高的許可權</p> <p>如需請求其他存取許可權的詳細資訊，請參閱 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">要求物件的存取權 </a>.</p> </td> 
+   <td> <p>檢視專案或更高的許可權</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;若要瞭解您擁有的計畫、授權型別或存取權，請聯絡您的Workfront管理員。
+如需有關此表格的詳細資訊，請參閱 [Workfront檔案中的存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Adobe Workfront如何決定預計完成日期
 
@@ -122,27 +93,23 @@ ht-degree: 0%
 
 ## 檢視預計完成日期
 
-您可以在報告中檢視專案、任務和問題的預計完成日期。 您可以在Workfront的其他區域中檢視專案和任務的預計完成日期。 
-
-* [檢視專案的預計完成日期](#view-the-projected-completion-date-of-a-project)
-* [檢視任務的預計完成日期](#view-the-projected-completion-date-of-a-task)
-* [檢視問題的預計完成日期](#view-the-projected-completion-date-of-an-issue)
+您可以在報告中檢視專案、任務和問題的預計完成日期。 您可以在Workfront的其他區域中檢視專案和任務的預計完成日期。
 
 ### 檢視專案的預計完成日期 {#view-the-projected-completion-date-of-a-project}
 
 1. 移至您要檢視預計完成日期的專案。
 1. 按一下 **專案詳細資訊** 在左側面板中。
-1. 找到 **預計完成日期** 中的欄位 **概觀** 區段。
+1. 找到 **預計完成日期** 中的欄位 **概觀** > **專案日期** 區段。
 
 ### 檢視任務的預計完成日期 {#view-the-projected-completion-date-of-a-task}
 
 1. 移至您要檢視「預計完成日期」的工作。
 1. 按一下 **任務詳細資訊** 在左側面板中。
-1. 找到 **預計完成日期** 中的欄位 **概觀** 區段。
+1. 找到 **預計完成日期** 中的欄位 **概觀** > **任務日期和限制** 區段。
 
 ### 檢視問題的預計完成日期 {#view-the-projected-completion-date-of-an-issue}
 
-您只能在問題報告或清單檢視中檢視問題的預計完成日期。 建立清單檢視類似於在報告中建立檢視。
+您只能在問題報告或清單檢視中檢視問題的預計完成日期。 建立清單檢視類似於在報告中建立檢視。
 
 若要建立包含預計完成日期的問題報表，請執行下列步驟：
 
@@ -151,7 +118,7 @@ ht-degree: 0%
 1. 按一下 **新增欄**，並開始輸入 **預計完成日期** 在 **顯示在此欄：** 欄位。
 
 1. 當它出現在清單中時，在 **問題** 物件。 
-1. 按一下 **儲存+關閉**.
+1. 按一下「**儲存並關閉**」。
 
    此 **預計完成日期** 欄會填入。 
 

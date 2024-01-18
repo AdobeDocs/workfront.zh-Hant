@@ -6,9 +6,9 @@ description: 您可以在檔案上傳至Workfront時為其產生校訂。 您也
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 609e95fa-1fb3-4cc4-9ee8-403fd2f30e10
-source-git-commit: 6e24b9c717ecedd6efbdf62ec01e53ac98079cfe
+source-git-commit: c3bbcaff2643bff43d0c26ee97d2a4ba22680a30
 workflow-type: tm+mt
-source-wordcount: '698'
+source-wordcount: '656'
 ht-degree: 0%
 
 ---
@@ -32,12 +32,16 @@ If a proof fails to generate after following the steps described in the followin
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront計畫*</td> 
-   <td> <p>目前計畫：Pro或更高版本</p> <p>或</p> <p>舊版計畫：選擇或Premium</p> <p>如需有關校訂不同方案的存取許可權的詳細資訊，請參閱 <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">存取Workfront中的校訂功能</a>.</p> </td> 
+   <td role="rowheader">Adobe Workfront計畫</td> 
+   <td> 
+   <p>新增：任何 </p>
+   <p>目前：Pro或更高</p> <p>舊版計畫：選擇或Premium</p> <p>如需有關校訂不同方案的存取許可權的詳細資訊，請參閱 <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">存取Workfront中的校訂功能</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront授權*</td> 
-   <td> <p>目前計畫：工作或計畫</p> <p>舊版計畫：任何（您必須為使用者啟用校訂）</p> </td> 
+   <td role="rowheader">Adobe Workfront授權</td> 
+   <td> 
+   <p>新增：標準</p>
+   <p>目前：工作或計畫</p> <p>舊版計畫：任何（您必須為使用者啟用校訂）</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">校訂權限設定檔 </td> 
@@ -45,19 +49,19 @@ If a proof fails to generate after following the steps described in the followin
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定*</td> 
-   <td> <p>編輯檔案的存取權</p> <p>注意：如果您還是沒有存取權，請詢問您的Workfront管理員，他們是否在您的存取層級中設定其他限制。 如需有關Workfront管理員如何修改您的存取層級的資訊，請參閱 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>.</p> </td> 
+   <td> <p>編輯檔案的存取權</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;若要瞭解您擁有的計畫、角色或校訂許可權設定檔，請聯絡您的Workfront或Workfront校訂管理員。
+如需有關此表格的詳細資訊，請參閱 [Workfront檔案中的存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## 上傳檔案並建立校訂
 
 1. 前往您要建立新校訂的專案、任務或問題。
-1. 按一下 **檔案** 標籤。
+1. 按一下 **檔案** 標籤。
 1. 按一下檔案 ![](assets/document-icon.png) 在左側面板中。
-1. 按一下 **新增**，然後按一下 **證明** 在出現的選單中。
+1. 按一下 **新增**，然後按一下 **證明** 在出現的選單中。
 
    >[!TIP]
    >
@@ -71,9 +75,9 @@ If a proof fails to generate after following the steps described in the followin
 ## 上傳檔案並建立新版本的校訂
 
 1. 前往您要建立現有校訂新版本的專案、任務或問題。
-1. 按一下 **檔案** 標籤。
+1. 按一下 **檔案** 標籤。
 1. 選取您要新增新版本的檔案。
-1. 按一下 **新增** > **版本** > **證明**.
+1. 按一下 **新增** > **版本** > **證明**.
 1. 在 **新校訂版本** 顯示的頁面，您可以
 
    * [使用基本工作流程建立進階校訂](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/configure-basic-proof-workflow.md)
