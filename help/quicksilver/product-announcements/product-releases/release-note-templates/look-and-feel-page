@@ -4,6 +4,7 @@ description: Look-and-feel updates during the <!-- add release --> release time 
 author: Courtney
 draft: Probably
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 ---
 
 # Look-and-feel updates during the <!-- add relesae --> release time frame

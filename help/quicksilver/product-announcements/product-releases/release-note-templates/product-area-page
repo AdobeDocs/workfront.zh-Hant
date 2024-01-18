@@ -4,6 +4,7 @@ description: <!-- add release and product area --> enhancements
 author: Courtney
 draft: Probably
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 ---
 # <!-- add release and product area --> enhancements
 
