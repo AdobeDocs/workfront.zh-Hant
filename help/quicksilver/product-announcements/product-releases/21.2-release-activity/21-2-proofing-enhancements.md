@@ -5,10 +5,10 @@ navigation-topic: 2021-2-release-activity
 title: 21.2校訂增強功能
 description: 本頁說明預覽環境的21.2版本所進行的所有「校訂」增強功能。 這些增強功能將在2021年5月10日當週的生產環境中提供。 如需21.2版所有可用變更的清單，請參閱21.2版總覽。
 author: Luke
-feature: Product Announcements, Workfront Proof
+feature: Product Announcements, Workfront Proof, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 1f82c397-5cb6-4adc-bb84-f5b1e1ed9d5e
-source-git-commit: ccba3a3d7c0cac50dbd29cae677b076811904a91
+source-git-commit: ea1248f7b5227bbab222b3616ff4222122964358
 workflow-type: tm+mt
 source-wordcount: '426'
 ht-degree: 0%

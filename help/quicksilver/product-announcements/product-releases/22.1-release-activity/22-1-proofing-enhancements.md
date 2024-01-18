@@ -3,10 +3,10 @@ title: 22.1校訂增強功能
 description: 22.1校訂增強功能
 author: Luke
 draft: Probably
-feature: Product Announcements, Workfront Proof
+feature: Product Announcements, Workfront Proof, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: c76c2dba-1497-414a-8979-712f093efd73
-source-git-commit: 750c0a3863989e758ec35b11e48603300fa31fc7
+source-git-commit: ea1248f7b5227bbab222b3616ff4222122964358
 workflow-type: tm+mt
 source-wordcount: '372'
 ht-degree: 0%

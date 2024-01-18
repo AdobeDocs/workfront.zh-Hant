@@ -3,10 +3,10 @@ title: 21.4校訂增強功能
 description: 21.4校訂增強功能
 author: Luke
 draft: Probably
-feature: Product Announcements, Workfront Proof
+feature: Product Announcements, Workfront Proof, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: a8141c36-3e57-47df-8f27-9166fbdf1358
-source-git-commit: ccba3a3d7c0cac50dbd29cae677b076811904a91
+source-git-commit: ea1248f7b5227bbab222b3616ff4222122964358
 workflow-type: tm+mt
 source-wordcount: '181'
 ht-degree: 0%
