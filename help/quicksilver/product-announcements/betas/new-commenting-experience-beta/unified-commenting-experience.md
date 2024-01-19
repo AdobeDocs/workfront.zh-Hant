@@ -7,15 +7,16 @@ author: Alina
 feature: Product Announcements
 role: User
 exl-id: f750b35b-8021-4cc1-81d6-e1ece2530438
-source-git-commit: 5f3d5c93c2fc721dda2dd04adac22190ef6a3f29
+source-git-commit: 980e6c2cea2ceb98abda6b98811e734d895ad274
 workflow-type: tm+mt
-source-wordcount: '1252'
+source-wordcount: '1317'
 ht-degree: 2%
 
 ---
 
 # 新的評論體驗
 
+<!--take out legacy, preview, prod references from below-->
 
 <!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers.  </span>  
 
@@ -56,13 +57,15 @@ The new commenting experience will slowly become available for all the objects w
 * 將新註解新增至物件時的即時指示器
 * 在提交評論後進行編輯
 
-下列功能已從新體驗中移除：
+下列功能已移除或將從新體驗中棄用：
 
 * 系統更新的註解
-* 可在註解時編輯狀態、條件、認可日期
+* 可在評論任務和問題時編輯狀態、條件、認可日期和完成百分比
 * 編輯自訂表單
 * 當Workfront或群組管理員以其他使用者身份登入並代表他們新增評論時，「代表&lt;使用者名稱>」資訊最初被移除。 它已於2023年10月19日恢復。
 * 當您在檔案中新增註解時標籤人員的「要求核准」選項。
+* 編輯使用者設定檔方塊時的「顯示更新狀態的完成百分比」設定將被移除。 更新任務或問題完成百分比的功能已移除。
+* 更新區域中專案所有者的通知，任務或問題的受指派人編輯了認可日期 <!--ensure this is correct when re remove the legacy and leave only new commenting-->
 
 <!--removed this note on November 28, 2023, when this limitation was removed: 
 

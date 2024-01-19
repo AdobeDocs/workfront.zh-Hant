@@ -6,10 +6,10 @@ description: 您的 [!DNL Adobe Workfront] 設定檔包含自己的相關資訊�
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 0199bf74-0611-48f0-9c05-da6afac85033
-source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
+source-git-commit: 980e6c2cea2ceb98abda6b98811e734d895ad274
 workflow-type: tm+mt
-source-wordcount: '3246'
-ht-degree: 1%
+source-wordcount: '3301'
+ht-degree: 0%
 
 ---
 
@@ -210,7 +210,7 @@ ht-degree: 1%
    * [自訂表單](#custom-form)
    * [評論](#comment)
 
-1. 按一下&#x200B;**[!UICONTROL 儲存]**。
+1. 按一下「**[!UICONTROL 儲存]**」。
 
 ### [!UICONTROL 個人資訊]
 
@@ -240,7 +240,7 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[！UICONTROL電子郵件地址]</strong></td> 
-   <td> 更新您的電子郵件地址。 這是必填欄位. 請記住，您的電子郵件地址也是您的使用者名稱 [!DNL Workfront].</td> 
+   <td> 更新您的電子郵件地址。 這是必填欄位。 請記住，您的電子郵件地址也是您的使用者名稱 [!DNL Workfront].</td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[！UICONTROL重設密碼]</strong></td> 
@@ -340,7 +340,9 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[！UICONTROL在更新狀態上顯示完成百分比]</strong> </td> 
-   <td>選取此核取方塊可在任務的[！UICONTROL更新狀態]欄位中顯示百分比列，這樣您便可以在輸入任務更新時更新任務的完成百分比。</td> 
+   <td>如果您想在使用舊版註解體驗時，在任務的更新區域內顯示完成百分比列，請勾選此選項。 如需詳細資訊，請參閱 <a href="/help/quicksilver/product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md">新的評論體驗</a>.
+
+</td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[！UICONTROL將指派給我自己的工作傳送至我的「正在處理」索引標籤]</strong> </td> 
@@ -475,7 +477,7 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td role="rowheader"><strong>（視條件而定）如果您選取一或多個其他角色，則會針對每個角色顯示[！UICONTROL FTE可用性百分比]欄位。</strong></td> 
-   <td> <p>指定將排程時間的百分比分配給每個工作角色。 [！UICONTROL其他角色]的[！UICONTROL FTE可用性百分比]預設值為0%。</p> <p> <img src="assets/user-settings-roles-and-dte-boxes-rp-story--1--350x224.png" alt="user_settings_roles_and_dte_boxes_rp_story__1_.png" style="width: 350;height: 224;"> </p> <p>備註:  
+   <td> <p>指定將排程時間的百分比分配給每個工作角色。 [！UICONTROL其他角色]的[！UICONTROL FTE可用性百分比]預設值為0%。</p> <p> <img src="assets/user-settings-roles-and-dte-boxes-rp-story--1--350x224.png" alt="user_settings_roles_and_dte_boxes_rp_story__1_.png" style="width: 350;height: 224;"> </p> <p>注意：  
      <ul> 
       <li>如果[！UICONTROL其他角色]具有0% FTE可用性，除非將使用者指派給這些角色中的任務，否則它們不會顯示在[！UICONTROL資源規劃工具]中。</li> 
       <li> <p>全部的總和 <strong>[！UICONTROL FTE可用性百分比]</strong> 所有角色的必須等於100%。 每個[！UICONTROL FTE可用性百分比]會計算[！UICONTROL資源規劃工具]中每個使用者每個角色的[！UICONTROL可用時數]。 </p> <p>每位使用者各角色的[！UICONTROL可用時數]取決於使用者的可用時間。 使用者的可用時間計算方式： [!DNL Workfront] 視您選取的方法而定 [!DNL Workfront] 管理員可在[！UICONTROL資源管理偏好設定]中計算FTE。 如需有關計算使用者可用性的詳細資訊，請參閱 <a href="../../../resource-mgmt/resource-planning/calculate-hours-fte-for-users-roles-resource-planner.md" class="MCXref xref">計算資源規劃工具中使用者和角色的時數和FTE的概觀</a>. 如需有關設定資源管理偏好設定的詳細資訊，請參閱 <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md" class="MCXref xref">設定資源管理喜好設定</a>.</p> </li> 
@@ -512,7 +514,7 @@ ht-degree: 1%
  </tbody> 
 </table>
 
-### [!UICONTROL 自訂表單]
+### [!UICONTROL 自訂表格]
 
 您可以將自訂表單與使用者設定檔建立關聯。 這可讓您為使用者儲存其他資訊，這些資訊原本無法儲存在 [!DNL Workfront] 上述原生欄位。\
 您必須具備下列存取權或許可權之一，才能將自訂表單附加至使用者：
@@ -524,7 +526,7 @@ ht-degree: 1%
 
 您的 [!DNL Workfront] 管理員必須為使用者物件設定自訂表單，以便您將自訂表單附加到使用者設定檔中。 如需建立自訂表單的詳細資訊，請參閱 [建立或編輯自訂表單](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
 
-### [!UICONTROL 評論]
+### [!UICONTROL 註解]
 
 您可以在儲存在上的使用者設定檔上記錄評論 [!UICONTROL 更新] 的索引標籤中。
 

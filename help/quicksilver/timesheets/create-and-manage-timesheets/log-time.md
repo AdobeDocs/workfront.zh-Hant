@@ -7,9 +7,9 @@ author: Alina
 feature: Timesheets
 role: User
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: aec61210cf2c17775738db4975ae8d19223153cc
+source-git-commit: 980e6c2cea2ceb98abda6b98811e734d895ad274
 workflow-type: tm+mt
-source-wordcount: '3499'
+source-wordcount: '3526'
 ht-degree: 0%
 
 ---
@@ -334,24 +334,18 @@ ht-degree: 0%
 
 #### 從新的首頁區域在工作專案上記錄時間
 
+您可以使用「摘要」面板，將時間記錄到任何介面工具中的任何物件。 如需詳細資訊，請參閱 [摘要面板](#summary-panel) 一節。
+
+此外，若要在「我的工作」小工具中記錄專案的時間：
+
 1. 已移至 **首頁** 區域。
-1. 新增下列任一Widget：
+1. 新增 **我的工作** Widget至您的首頁。
+1. 在清單中選取任務、問題或請求，然後按一下 **處理它**
+1. 暫留在您要記錄時間的任務或問題上，然後按一下 **記錄時間** 圖示 ![](assets/log-time-icon-in-new-home.png) 位於任務資訊的右側。
 
-   * 我的任務
-   * 我的問題
-   * 我的工作
-   * 我的請求
-1. 在清單中選取任務、問題或請求，然後按一下 **摘要**
+   ![](assets/log-time-ui-for-task-from-new-home.png)
 
-   或
-
-   按一下 **摘要** 圖示 ![](assets/open-summary-icon-in-home.png) 從「我的工作」小工具集中的任務或問題。
-
-   「摘要」面板會在右側開啟。
-
-   ![](assets/log-time-new-home-my-work-widget.png)
-1. 在「摘要」面板中繼續記錄時間，如所述 [摘要概觀](../../workfront-basics/the-new-workfront-experience/summary-overview.md).
-
+1. 按一下 **記錄時間**.
 
 #### 從舊版「首頁」區域在工作專案上記錄時間
 

@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 0343fe74-1be4-43e2-9e3d-8aa1f7ea26fa
-source-git-commit: 59c3a57e334d1660e3e59da480a90060b1ba81b7
+source-git-commit: 980e6c2cea2ceb98abda6b98811e734d895ad274
 workflow-type: tm+mt
-source-wordcount: '3369'
+source-wordcount: '3381'
 ht-degree: 0%
 
 ---
@@ -111,7 +111,7 @@ ht-degree: 0%
       <p>此選項僅在預覽和沙箱環境中可用。 生產環境中預設會啟用電子郵件通知。 </p>
       </li>
 
-   <li><b>顯示更新狀態的完成百分比</b>：如果您想要在此使用者工作的「更新」區域內顯示完成百分比列，請核取此選項。</li> 
+   <li><b>顯示更新狀態的完成百分比</b>：如果您想在使用舊版註解體驗時，在此使用者工作的更新區域內顯示完成百分比列，請核取此選項。 如需詳細資訊，請參閱 <a href="/help/quicksilver/product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md">新的評論體驗</a>.</li> 
        <li><b>將我指派給我自己的工作傳送至我的「正在處理」標籤</b>：如果您希望使用者指派給自己的所有內容都直接顯示在首頁區域的工作清單中，請核取此選項。 預設是在首頁區域的「準備開始」或「未就緒」清單中，列出指派給使用者的所有內容。</li> 
        <li><b>上傳檔案時自動產生校樣</b>：如果您希望使用者上傳的檔案立即產生校訂，請核取此選項。 </li>
        </ul> </td> 

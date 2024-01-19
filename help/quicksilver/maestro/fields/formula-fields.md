@@ -4,9 +4,9 @@ description: 在Adobe大師，您可以建立公式欄位，這些欄位使用�
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 1ae60512c337d778939ef6c48fd2eda8b279dcce
+source-git-commit: 980e6c2cea2ceb98abda6b98811e734d895ad274
 workflow-type: tm+mt
-source-wordcount: '505'
+source-wordcount: '511'
 ht-degree: 0%
 
 ---
@@ -147,7 +147,7 @@ Maestro公式欄位支援Workfront計算欄位的所有運算式。 如需詳細
    </td></tr>
      <tr> 
    <td><strong>ID</strong> </td> 
-   <td> <p>傳回記錄的ID。</p> <p>運算式的格式如下：
+   <td> <p>傳回記錄的ID。 每個記錄都有一個唯一的ID。</p> <p>運算式的格式如下：
 
 <code>{ID}</code>
 </p>
