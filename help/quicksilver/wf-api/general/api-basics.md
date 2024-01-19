@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: d8c27915-8e1b-4804-9ef8-3a2efd57caac
-source-git-commit: 5d7ff744ed0721ffa6d793a224226f28a76c57a0
+source-git-commit: 362a14c2c25e995d06a26b77ab51448b033bc2ac
 workflow-type: tm+mt
-source-wordcount: '4475'
+source-wordcount: '4361'
 ht-degree: 0%
 
 ---
@@ -53,7 +53,7 @@ Adobe Workfront API的目標是透過引入透過HTTP運作的REST-ful架構，�
 
 如需有效ObjCode的清單，請參閱  [API總管](../../wf-api/general/api-explorer.md).
 
-### 作業
+### 營運
 
 透過傳送HTTP請求至物件的唯一URI來控制物件。 要執行的作業會由HTTP方法指定。
 
@@ -67,7 +67,7 @@ Adobe Workfront API的目標是透過引入透過HTTP運作的REST-ful架構，�
 為了解決使用者端缺陷或通訊協定長度限制，可以使用方法引數覆寫HTTP行為。 例如，可藉由張貼下列URI來實作GET作業：
 <pre>GET/attask/api/v15.0/project？id=4c78...54d0&amp;method=get<br>GET/attask/api/v15.0/project/4c78...54d0？method=get</pre>
 
-### 個回應
+### 回應
 
 每個要求都會有JSON格式的回應。 如果要求成功，回應會具有資料屬性，如果有問題，則會具有錯誤屬性。 例如，請求
 
@@ -269,7 +269,7 @@ GET /attask/api/v15.0/task/search?percentComplete=100
 
 下表列出您可以搭配Workfront API使用的一些修飾元。
 
-| **修飾詞** | **說明** | **範例** |
+| **修飾元** | **說明** | **範例** |
 |---|---|---|
 | eq | 傳回狀態為「已關閉」的結果 | <pre>...status=cls&amp;status_Mod=eq...</pre> |
 | 新 | 傳回不處於「已關閉」狀態的結果 | <pre>...status=cls&amp;status_Mod=ne...</pre> |
@@ -361,11 +361,11 @@ OR陳述式只會傳回API呼叫中符合OR陳述式篩選條件的記錄。 OR�
 某些物件型別已命名搜尋，通常會執行，而且可將查詢名稱附加至物件型別URI的結尾來使用。 例如，以下請求會擷取使用者目前被指派的工作專案（任務和問題）：
 <pre>/attask/api/v15.0/work/myWork</pre>具名查詢支援請求欄位引數以擷取其他欄位。 某些具名查詢也接受其他篩選器。 如需物件中允許的命名查詢清單，請參閱[API總管](../../wf-api/general/api-explorer.md)中物件的「動作」標籤。
 
-#### 使用計數篩選
+#### 使用 `Count`
 
-您可以指定指定搜尋要傳回的結果數目。 這可讓伺服器更快處理請求並節省頻寬。 例如，請求
+您可以使用 `count` 以傳回符合您查詢的結果數目。 當您不需要結果中的資料時，這會很有用。 只傳回計數，伺服器就能更快速地處理請求，並節省頻寬。 例如，請求
 <pre>GET/attask/api/v15.0/project/count？status=CUR</pre>傳回以下格式的結果數：
-<pre>{<br>    "count"： 3 <br>}</pre>相較於完整物件已傳送的情況，此結果的下載要小得多。 篩選語法與搜尋指令相同。
+<pre>{<br>    "count"： 3 <br>}</pre>傳回計數比傳回完整物件的資料傳輸小得多。 語法與search指令相同。
 
 ### 請求報告
 
