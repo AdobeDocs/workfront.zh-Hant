@@ -6,9 +6,9 @@ description: 新首頁是管理您工作的強大新功能。 您可以自訂此
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 40bb32f0-acc7-4a22-92b9-bab9dc7c987b
-source-git-commit: b2409ceb7358d92ca1941bd849cb6ffd76f0763e
+source-git-commit: 61074fd87dafde9eb555da27e207198ee0eadc60
 workflow-type: tm+mt
-source-wordcount: '1124'
+source-wordcount: '1102'
 ht-degree: 8%
 
 ---
@@ -16,8 +16,6 @@ ht-degree: 8%
 # 開始使用新首頁
 
 <!--Audited: 12/2023-->
-
-<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它僅在預覽Sandbox環境中可用。</span>
 
 Adobe Workfront新的首頁體驗旨在改善目前的首頁體驗，同時提供更靈活的方式讓您聚焦於正確的工作。
 
@@ -59,8 +57,8 @@ Widget是新首頁的基礎。 將Widget新增至首頁後，您就可以選擇�
 * **所有核准**\
     在具有可自訂欄的表格中顯示貴組織的所有核准，以及可讓您搜尋特定核准的搜尋列。
 
-* <span class="preview">**未決核准**</span>\
-    <span class="preview">顯示指派給您專案上檔案的核准。 在這裡，您可以檢視核准狀態並提醒使用者有關未完成的稽核和核准。 <span style="color: #ff0000;">此功能屬於分階段發行，目前僅供特定客戶使用。</span></span>
+* **未決核准**&lt;\
+    顯示指派給您專案上檔案的核准。 在這裡，您可以檢視核准狀態並提醒使用者有關未完成的稽核和核准。 <span style="color: #ff0000;">此功能屬於分階段發行，目前僅供特定客戶使用。</span>
 
 * **提及**\
     顯示來自Workfront的最近評論對話串，類似於「我的更新」頁面。 您可以使用回覆按鈕在Widget中撰寫回覆。 只要任務或問題在過去30天內已更新，此Widget也會顯示針對您指派給、您指派給其他使用者、您擁有、您是主要連絡人或您建立之任務或問題所做的評論。
