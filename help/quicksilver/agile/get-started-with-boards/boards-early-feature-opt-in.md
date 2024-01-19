@@ -7,25 +7,20 @@ description: 閱讀本文章以瞭解 [!DNL Workfront Boards] 早期功能選擇
 author: Lisa
 feature: Agile
 exl-id: c4a6b045-b0f3-4d4d-994c-c03ef7ad25c8
-source-git-commit: ec753f4176208708de0a39679788d34f486f759b
+source-git-commit: 3706921e4705a05d9d1fa18a3d242632b5e0616b
 workflow-type: tm+mt
-source-wordcount: '685'
+source-wordcount: '626'
 ht-degree: 0%
 
 ---
 
 # 的早期功能選擇加入 [!DNL Adobe Workfront] [!UICONTROL 展示板]
 
-所有使用者都可使用附有ad hoc卡和連線卡的主機板，我們很高興能在2022年7月起開啟額外的主機板功能，以提早選擇加入功能。
+適用於的早期功能選擇加入 [!DNL Adobe Workfront] [!UICONTROL 展示板] 於2022年7月推出。
 
 [!DNL Adobe Workfront] [!UICONTROL 展示板] 是彈性的工具，可透過提供對包含欄和卡片的共用展示板的存取權來允許團隊共同作業。
 
 如需有關面板的一般資訊，請參閱 [[!UICONTROL 展示板] 概述](/help/quicksilver/agile/boards-overview.md).
-
-## 發行排程
-
-* 預覽版中的早期功能選擇加入啟動： 2022年7月22日
-* 正式發行： 2022年7月28日
 
 ## 功能
 
@@ -138,8 +133,8 @@ ht-degree: 0%
    <td>已發行</td>
   </tr>
   <tr>
-   <td>將子任務匯入為卡片上的清單專案</td>
-   <td>計畫</td>
+   <td>匯入卡片上的子任務</td>
+   <td>已發行</td>
   </tr>
   <tr>
    <td>自訂卡片上的欄位顯示</td>
@@ -198,7 +193,8 @@ ht-degree: 0%
 
 僅限 [!DNL Workfront] 管理員可以選擇加入展示板的早期功能。 當 [!DNL Workfront] 管理員會啟用早期功能，組織中的所有使用者都會選擇加入。
 
-1. 按一下 **[!UICONTROL 主要功能表]** 圖示 ![](assets/main-menu-icon.png) 位於的右上角 [!DNL Adobe Workfront]，然後按一下 **[!UICONTROL 展示板]**.
+{{step1-to-boards}}
+
 1. 按一下 ![早期功能選擇加入](assets/early-feature-opt-in-not-enabled.png) ([!UICONTROL 早期功能選擇加入])。
 1. 按一下 **[!UICONTROL 啟用]**.
 1. 開始使用面板的早期功能。
@@ -228,6 +224,7 @@ ht-degree: 0%
 
 僅限 [!DNL Workfront] 管理員可以選擇退出接收早期功能。 如果 [!DNL Workfront] 管理員會停用早期功能，組織中的所有使用者都會選擇退出。
 
-1. 按一下 **[!UICONTROL 主要功能表]** 圖示 ![](assets/main-menu-icon.png) 位於的右上角 [!DNL Adobe Workfront]，然後按一下 **[!UICONTROL 展示板]**.
+{{step1-to-boards}}
+
 1. 按一下 ![已啟用早期功能選擇加入](assets/early-feature-opt-in-enabled.png) ([!UICONTROL 已啟用早期功能選擇加入])。
 1. 按一下 **[!UICONTROL 停用]**.
