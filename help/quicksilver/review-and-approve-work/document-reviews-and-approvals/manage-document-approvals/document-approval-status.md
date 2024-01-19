@@ -6,17 +6,14 @@ description: 列出並解釋檔案核准狀態
 author: Becky
 feature: Work Management, Digital Content and Documents
 exl-id: 30a10ed9-ae11-4ff1-a66c-58ea94fe9959
-source-git-commit: 17a4a607354cdc991b1c1f72697c530c32f713bd
+source-git-commit: 58dffc8a84c2bcaaf09dfc65c6555d57f0b2eeb4
 workflow-type: tm+mt
-source-wordcount: '184'
-ht-degree: 4%
+source-wordcount: '163'
+ht-degree: 5%
 
 ---
 
 # 檔案核准狀態
-
-<span class="preview">本頁資訊所提及的功能尚未普遍提供。 它僅在預覽Sandbox環境中可用。</span>
-
 
 您可以在檔案的標題中找到檔案的核准狀態。
 

@@ -6,16 +6,14 @@ description: 身為稽核者，您可以預覽已提交您稽核的檔案。
 author: Nolan
 feature: Work Management, Digital Content and Documents
 exl-id: 371970e4-cd3e-49b6-8a2d-6cb8fa628679
-source-git-commit: 9a5780010e32526282255dd8a54e6ae22c5f0c55
+source-git-commit: 58dffc8a84c2bcaaf09dfc65c6555d57f0b2eeb4
 workflow-type: tm+mt
-source-wordcount: '532'
+source-wordcount: '510'
 ht-degree: 0%
 
 ---
 
 # 檢閱檔案
-
-<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它僅在預覽Sandbox環境中可用。</span>
 
 身為稽核者，您可以檢視已提交您稽核的檔案。 不像核准，您不需要做出決定。 而是要確認您已檢閱該資產。
 
@@ -72,7 +70,7 @@ Add once functionality is added
    按一下 **下載** 將檔案的本機復本下載到您的裝置上。
 
 1. （選擇性）檢閱檔案後，您可以在檔案的註解中保留給請求者的註解 **更新** 區段。 如需註解的詳細資訊，請參閱 [更新工作](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
-1. <span class="preview">若要記錄您已完成稽核，請按一下 **完成評論**.</span>
+1. 若要記錄您已完成稽核，請按一下 **完成評論**.
 
 ## 從[檔案摘要]窗格檢閱檔案
 
@@ -93,4 +91,4 @@ Add once functionality is added
 1. （選擇性）檢閱檔案後，您可以在檔案的註解中保留給請求者的註解 **更新** 區段。 如需註解的詳細資訊，請參閱 [更新工作](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
 1. （選擇性）您也可以向下捲動至「 」，預覽或下載檔案的特定版本 **版本** 區段，然後按一下更多圖示 ![](../assets/more-icon.png) ，位於您要檢閱及選取的版本旁 **下載** 或 **預覽**.
-1. <span class="preview"> 若要記錄您已完成稽核，請按一下 **完成評論**.</span>
+1. 若要記錄您已完成稽核，請按一下 **完成評論**.

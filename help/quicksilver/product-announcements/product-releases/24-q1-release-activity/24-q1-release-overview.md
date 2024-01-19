@@ -5,9 +5,9 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 2ad9e170-9e63-472a-8476-13f81b7abff3
-source-git-commit: 6ea6a81ad99178b24d4f6d7034394d8b4e137918
+source-git-commit: 58dffc8a84c2bcaaf09dfc65c6555d57f0b2eeb4
 workflow-type: tm+mt
-source-wordcount: '1602'
+source-wordcount: '1622'
 ht-degree: 0%
 
 ---
@@ -134,7 +134,7 @@ ht-degree: 0%
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">檔案核准的更新狀態</a></p><p>為了更清楚的檔案核准狀態，我們已更新可用的檔案狀態核准。 現在，核准狀態會說明標籤為稽核完成的稽核者，以及只有稽核者但沒有核准者的情況。</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">檔案核准的更新狀態</a></p><p>[！BADGE In Production ]{type=Informative}</p><p>為了更清楚的檔案核准狀態，我們已更新可用的檔案狀態核准。 現在，核准狀態會說明標籤為稽核完成的稽核者，以及只有稽核者但沒有核准者的情況。</p>
                     </td>
                     <td><p><b>將於下列日期提供：</b></p>
                         <ul>
@@ -153,7 +153,7 @@ ht-degree: 0%
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">將評論標示為完成</a></p><p>為了更清楚說明檔案何時已檢閱並準備好進行下一個核准階段，我們建立了新的 <strong>完成我的評論</strong> 按鈕。</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">將評論標示為完成</a></p><p>[！BADGE In Production ]{type=Informative}</p><p>為了更清楚說明檔案何時已檢閱並準備好進行下一個核准階段，我們建立了新的 <strong>完成我的評論</strong> 按鈕。</p>
                     </td>
                     <td><p><b>將於下列日期提供：</b></p>
                         <ul>
@@ -172,7 +172,7 @@ ht-degree: 0%
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">檔案檢閱和核准狀態會顯示在檔案標題中</a></p><p>為了讓檢閱和核准程式更透明，我們已將狀態新增到「檔案詳細資訊」頁面的頁首。</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">檔案檢閱和核准狀態會顯示在檔案標題中</a></p><p>[！BADGE In Production ]{type=Informative}</p><p>為了讓檢閱和核准程式更透明，我們已將狀態新增到「檔案詳細資訊」頁面的頁首。</p>
                     </td>
                     <td><p><b>將於下列日期提供：</b></p>
                         <ul>
@@ -210,7 +210,7 @@ ht-degree: 0%
                  </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">新的擱置核准Widget可供使用</a></p><p>為了讓您更輕鬆地檢視您擁有的專案上的核准和稽核狀態，我們已將一個新的未決核准Widget新增到首頁。</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">新的擱置核准Widget可供使用</a></p><p>[！BADGE In Production ]{type=Informative}</p><p>為了讓您更輕鬆地檢視您擁有的專案上的核准和稽核狀態，我們已將一個新的未決核准Widget新增到首頁。</p>
                     </td>
                     <td><p><b>將於下列日期提供：</b></p>
                         <ul>
