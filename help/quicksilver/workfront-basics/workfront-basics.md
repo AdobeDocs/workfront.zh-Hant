@@ -3,13 +3,13 @@ content-type: reference
 navigation-topic: get-started-with-workfront
 title: Adobe Workfront基本需知
 description: 請檢視這些區域以了解 Adobe Workfront 的基礎知識。
-author: Lisa
+author: Nolan
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: c0b25ec2-38a5-4499-9366-be3b71ae62a2
-source-git-commit: 152159a27bf7253d292133d3406096d8f7049922
+source-git-commit: 90c4f33f988b2a303aa6ab11a797c90321c148af
 workflow-type: tm+mt
-source-wordcount: '78'
+source-wordcount: '80'
 ht-degree: 17%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 17%
 * [首頁](../workfront-basics/using-home/home.md)
 * [更新工作專案並檢視更新](../workfront-basics/updating-work-items-and-viewing-updates/update-work-items-and-view-updates.md)
 * [使用自訂表格](../workfront-basics/work-with-custom-forms/work-with-custom-forms.md)
-* [使用通知](../workfront-basics/using-notifications/use-notifications.md)
+* [使用通知：文章索引](../workfront-basics/using-notifications/use-notifications.md)
 * [授予物件許可權並請求物件](../workfront-basics/grant-and-request-access-to-objects/grant-and-request-access-to-objects.md)
 * [管理您的帳戶和設定檔](../workfront-basics/manage-your-account-and-profile/manage-your-account-and-profile.md)
 * [行動應用程式](../workfront-basics/mobile-apps/mobile-apps.md)

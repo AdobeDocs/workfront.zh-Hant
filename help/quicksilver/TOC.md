@@ -3,9 +3,9 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文件、教學課程和其他資源，了解如何在您的組織中實施並有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: 2dcf8d3baf5ca5032153627b7e833bafea3418f7
+source-git-commit: 90c4f33f988b2a303aa6ab11a797c90321c148af
 workflow-type: tm+mt
-source-wordcount: '13860'
+source-wordcount: '13862'
 ht-degree: 1%
 
 ---
@@ -630,7 +630,7 @@ ht-degree: 1%
       * [管理Workfront](administration-and-setup/manage-workfront/manage-workfront.md)
       * 設定校訂功能 {#configure-proofing}
          * [設定校樣](administration-and-setup/manage-workfront/configure-proofing/configuring-proofing-functionality.md)
-         * [校訂設定](administration-and-setup/manage-workfront/configure-proofing/configure-proofing-organization.md)
+         * [校樣設定](administration-and-setup/manage-workfront/configure-proofing/configure-proofing-organization.md)
          * [Workfront和Workfront Proof之間的使用者同步](administration-and-setup/manage-workfront/configure-proofing/user-sync-proofing.md)
          * [存取校訂](administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md)
          * [案頭校訂檢視器](administration-and-setup/manage-workfront/configure-proofing/install-desktop-proofing-viewer-org.md)
@@ -882,7 +882,7 @@ ht-degree: 1%
       * [匯出自訂表單和物件詳細資料](workfront-basics/work-with-custom-forms/export-custom-forms-details.md)
       * [管理附加到物件的自訂表單](workfront-basics/work-with-custom-forms/manage-custom-forms-attached-to-objects.md)
    * 使用通知 {#use-notifications}
-      * [使用通知](workfront-basics/using-notifications/use-notifications.md)
+      * [使用通知：文章索引](workfront-basics/using-notifications/use-notifications.md)
       * [通知總覽](workfront-basics/using-notifications/wf-notifications.md)
       * [修改您自己的電子郵件通知](workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md)
       * [訂閱Adobe Workfront中的專案](workfront-basics/using-notifications/subscribe-to-items-in-workfront.md)
