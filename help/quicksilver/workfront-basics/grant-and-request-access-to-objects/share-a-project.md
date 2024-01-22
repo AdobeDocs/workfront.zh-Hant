@@ -6,7 +6,7 @@ description: 指派存取層級時，您的Adobe Workfront管理員可授予您�
 author: Alina
 feature: Get Started with Workfront
 exl-id: eaeedff8-9114-40d9-8cd4-56996edc7dad
-source-git-commit: 3af289f9aeecee417d1e82f9c66551360185b85c
+source-git-commit: 71d5e15c38b26b9a833ac2418d5782afd249a24c
 workflow-type: tm+mt
 source-wordcount: '986'
 ht-degree: 2%
@@ -88,7 +88,7 @@ ht-degree: 2%
 <ol style="list-style-type: lower-alpha;">
 <li value="1">Go to a project whose sharing permissions you want to view. </li>
 <li value="2"> Click the <strong>More</strong> menu <img src="assets/more-icon.png">, then click <strong>Sharing</strong>. </li>
-<li value="3"> <p>Expand the <strong>Inherited Permissions</strong> list. </p> <p>This list displays the names of users that have access to either the portfolio or the program that the project belongs to and also have permissions to the project. </p> <p> <img src="assets/screen-shot-2014-01-22-at-10.13.10-am-350x284.png" style="width: 350;height: 284;"> </p> </li>
+<li value="3"> <p>Expand the <strong>Inherited Permissions</strong> list. </p> <p>This list displays the names of users that have access to either the portfolio or the program that the project belongs to and also have permissions to the project. </p>  </li>
 </ol>
 </div>
 -->
@@ -117,7 +117,7 @@ ht-degree: 2%
 <p>To configure the default permissions that are included with each access level:</p>
 <ol>
 <li value="1">Go to the project where you want to set the default permissions.</li>
-<li value="2"> <p>Click the More menu <img src="assets/more-icon.png">, then click <strong>Edit</strong>. <img src="assets/edit-icon.png"></p> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <img src="assets/edit-projnwe-350x155.png" style="width: 350;height: 155;"> </p> </li>
+<li value="2"> <p>Click the More menu <img src="assets/more-icon.png">, then click <strong>Edit</strong>. <img src="assets/edit-icon.png"></p> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver"> </p> </li>
 <li value="3">Click <strong>Access</strong> in the list on the left.</li>
 <li value="4"> <p>In the <strong>When someone is given access to this PROJECT</strong> section, select permissions that you want to be available when users are given access to the project via sharing.</p> <p>Ensure that any permissions that you want to include in the selected access level are selected and deselect any permissions that you do not want to include in the selected permissions level.</p> <p>To view which permissions are available for each level, see&nbsp;<a title="Project Permissions" href="#Understanding_Project_Permissions" class="MCXref xref">Share a project in Adobe Workfront</a>.</p> <note type="note">
 The

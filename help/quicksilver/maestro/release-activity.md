@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 811eb1453c140808b0d6c5d9a3b4a0729cb16b2d
+source-git-commit: 71d5e15c38b26b9a833ac2418d5782afd249a24c
 workflow-type: tm+mt
 source-wordcount: '3404'
 ht-degree: 0%
@@ -39,6 +39,29 @@ ht-degree: 0%
 >[!IMPORTANT]
 >
 >在功能發行至生產環境後的某個時間，將可使用以下各節中參考的檔案。
+
+<!--
+## Week of January 22, 2024
+
+### New History section displays system activity for Maestro records (title) 
+
+Production: < date > 
+
+Preview: To be determined 
+
+We have introduced a new section in the right panel of a record where you can review changes made to the record.  
+
+Maestro records the following information in the new History section:  
+
+* Any field changes 
+
+* The full name of the user who made the change 
+
+* A date and time stamp of when the change occurred. 
+
+ For more information, see [Manage record comments](/help/quicksilver/maestro/records/manage-record-comments.md) 
+
+-->
 
 ## 2024年1月8日當週
 

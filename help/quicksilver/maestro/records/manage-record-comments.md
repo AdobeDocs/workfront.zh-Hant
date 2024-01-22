@@ -4,7 +4,7 @@ description: 您可以在AdobeMaestro記錄上共同作業，方法是在記錄�
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 5f3d5c93c2fc721dda2dd04adac22190ef6a3f29
+source-git-commit: 71d5e15c38b26b9a833ac2418d5782afd249a24c
 workflow-type: tm+mt
 source-wordcount: '991'
 ht-degree: 0%
@@ -15,12 +15,22 @@ ht-degree: 0%
 # 管理記錄註解
 
 <!--update the metadata with real information when making this available in TOC and in the left nav-->
+<!--update the system updates articles when we release to open beta - check the long commenting stream article list and see articles that document where in the system we have system updates; "Maestro records" should be there-->
 
 <!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. </span>
 
 <span class="preview">For information about the current release schedule, see [First Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).</span> -->
 
 您可以在AdobeMaestro記錄上共同作業，方法是在記錄的「註解」區域中新增註解或回覆。
+
+<!--replace first paragraph with this and update the Description in the metadata: 
+You can collaborate on Adobe Maestro records, by adding comments or replies in the right panel of a record. You can also view other changes made to the record in this area.
+
+The right panel of a record displays the following sections:
+
+* Comments: Users can add comments and reply to existing ones.
+* History: When you make a change to a record, Maestro records the change in this section. 
+-->
 
 ## 在記錄上加上註解的考量事項
 
@@ -167,3 +177,18 @@ ht-degree: 0%
    如需詳細資訊，請參閱 [更新工作](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 1. （可選）按一下 **更多** 圖示 ![](assets/more-menu.png) 在註解的右上角，然後按一下 **刪除** 以刪除註解。
 
+<!--
+## History section overview
+
+*********also update the screen shot above for the Comments section ******
+
+You can refer to the History section in the right panel of a record to view changes made to the record. 
+
+![](assets/history-area-in-comments.png)
+
+Maestro records the following information in the History section: 
+
+* Any field changes
+* The full name of the user who made the change
+* A date and time stamp of when the change occurred. 
+-->
