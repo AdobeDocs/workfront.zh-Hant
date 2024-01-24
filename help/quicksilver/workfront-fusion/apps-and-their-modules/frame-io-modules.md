@@ -9,16 +9,20 @@ description: 此 [!DNL Adobe Workfront Fusion Frame].io modules enable you to mo
 author: Becky
 feature: Workfront Fusion
 exl-id: 373a86f6-fbba-4914-b08d-a3a035ac0ae4
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: c51169c18bef8ac8126a04c08deb88d830517b0b
 workflow-type: tm+mt
-source-wordcount: '2311'
+source-wordcount: '2338'
 ht-degree: 0%
 
 ---
 
 # [!DNL Frame.io] 模組
 
-此 [!DNL Adobe Workfront Fusion] [!DNL Frame.io] 模組可讓您監視、建立、更新、擷取或刪除資產和 [!DNL Frame.io] 帳戶。
+此 [!DNL Adobe Workfront Fusion] [!DNL Frame.io] 模組可讓您監視、建立、更新、擷取或刪除中的資產和註解 [!DNL Frame.io] 帳戶。
+
+如需Frame.io聯結器的影片簡介，請參閱：
+
+* [Frame.io](https://video.tv.adobe.com/v/3427032/){target=_blank}
 
 ## 存取需求
 
@@ -29,7 +33,7 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 計劃*</td>
+   <td role="rowheader">[!DNL Adobe Workfront] 計畫*</td>
   <td> <p>[！UICONTROL Pro]或更高版本</p> </td>
   </tr> 
   <tr data-mc-conditions=""> 
@@ -47,25 +51,25 @@ ht-degree: 0%
   <tr> 
    <td role="rowheader">產品</td> 
    <td>
-   <p>目前產品需求：如果您有[！UICONTROL Select]或[！UICONTROL Prime] [!DNL Adobe Workfront] 計畫，您的組織必須購買 [!DNL Adobe Workfront Fusion] 以及 [!DNL Adobe Workfront] 以使用本文所述功能。 [!DNL Workfront Fusion] 包含在[！UICONTROL Ultimate]中 [!DNL Workfront] 計畫。</p>
+   <p>目前產品需求：如果您有[！UICONTROL Select]或[！UICONTROL Prime] [!DNL Adobe Workfront] 計畫，您的組織必須購買 [!DNL Adobe Workfront Fusion] 以及 [!DNL Adobe Workfront] 以使用本文所述的功能。 [!DNL Workfront Fusion] 包含在[！UICONTROL Ultimate]中 [!DNL Workfront] 計畫。</p>
    <p>或</p>
-   <p>舊版產品需求：貴組織必須購買 [!DNL Adobe Workfront Fusion] 以及 [!DNL Adobe Workfront] 以使用本文所述功能。</p>
+   <p>舊版產品需求：貴組織必須購買 [!DNL Adobe Workfront Fusion] 以及 [!DNL Adobe Workfront] 以使用本文所述的功能。</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-若要瞭解您擁有哪些計畫、授權型別或存取權，請聯絡您的 [!DNL Workfront] 管理員。
+若要瞭解您擁有的計畫、授權型別或存取權，請聯絡您的 [!DNL Workfront] 管理員。
 
-有關以下專案的資訊： [!DNL Adobe Workfront Fusion] 授權，請參閱 [[!DNL Adobe Workfront Fusion] 授權](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+有關的資訊 [!DNL Adobe Workfront Fusion] 授權，請參閱 [[!DNL Adobe Workfront Fusion] 授權](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
-## 必要條件
+## 先決條件
 
 使用 [!DNL Frame.io] 模組，您必須擁有 [!DNL Frame.io] 帳戶
 
-## Connect [!DNL Frame.io] 至 [!UICONTROL Adobe Workfront Fusion]
+## 連線 [!DNL Frame.io] 至 [!UICONTROL Adobe Workfront Fusion]
 
-您可以連線至 [!DNL Frame.io] 使用API權杖，或使用OAuth 2.0。
+您可以連線到 [!DNL Frame.io] 使用API權杖，或使用OAuth 2.0。
 
 [連線到 [!DNL Frame.io] 使用API權杖](#connect-to-frameio-using-an-api-token)
 
@@ -73,13 +77,13 @@ ht-degree: 0%
 
 ### 連線到 [!DNL Frame.io] 使用API權杖
 
-若要連線您的 [!DNL Frame.io] 帳戶至 [!DNL Workfront Fusion] 使用API權杖時，您必須在您的 [!DNL Frame.io] 帳戶並將其插入 [!DNL Workfront Fusion] [!DNL Frame.io] [!UICONTROL 建立連線] 對話方塊。
+連線您的 [!DNL Frame.io] 帳戶至 [!DNL Workfront Fusion] 使用API權杖時，您必須在 [!DNL Frame.io] 帳戶並將其插入 [!DNL Workfront Fusion] [!DNL Frame.io] [!UICONTROL 建立連線] 對話方塊。
 
 1. 登入您的 [!DNL Frame.io] 帳戶。
 1. 前往 **[!UICONTROL Token]** 中的頁面 [!DNL Frame.io] 開發人員。
 1. 按一下 **[!UICONTROL 新增]**.
 1. 輸入權杖的名稱，選取您要使用的範圍，然後按一下 **[!UICONTROL 建立]**.
-1. 複製提供的權杖。
+1. 複製提供的Token。
 1. 前往 [!DNL Workfront Fusion] 並開啟 [!DNL Frame.io] 模組的 **[!UICONTROL 建立連線]** 對話方塊。
 1. 在 **[!UICONTROL 連線型別]** 欄位，選取 **[!DNL Frame.io]**.
 1. 輸入您在步驟5中複製至的Token **[!UICONTROL 您的 [!DNL Frame.io] API金鑰]** 欄位並按一下 **[!UICONTROL 繼續]** 以建立連線。
@@ -88,21 +92,21 @@ ht-degree: 0%
 
 ### 連線到 [!DNL Frame.io] 使用OAuth 2.0 PKCE
 
-您可以建立連線至 [!DNL Frame.io] 搭配選用使用者端ID使用OAuth 2.0 PKCE。 如果您想要在連線中包含使用者端ID，您必須在您的中建立OAuth 2.0應用程式 [!DNL Frame.io] 帳戶。
+您可以建立連線至 [!DNL Frame.io] 使用OAuth 2.0 PKCE搭配選擇性使用者端ID。 如果您想在連線中包含使用者端ID，您必須在您的中建立OAuth 2.0應用程式 [!DNL Frame.io] 帳戶。
 
 * [連線到 [!DNL Frame.io] 使用OAuth 2.0 PKCE （不含使用者端ID）](#connect-to-frameio-using-using-oauth-20-pkce-without-client-id)
-* [連線到 [!DNL Frame.io] 使用OAuth 2.0 PKCE （搭配使用者端ID）](#connect-to-frameio-using-using-oauth-20-pkce-with-client-id)
+* [連線到 [!DNL Frame.io] 使用OAuth 2.0 PKCE （含使用者端ID）](#connect-to-frameio-using-using-oauth-20-pkce-with-client-id)
 
 #### 連線到 [!DNL Frame.io] 使用OAuth 2.0 PKCE （不含使用者端ID）
 
 1. 前往 [!DNL Workfront Fusion] 並開啟 [!DNL Frame.io] 模組的 **[!UICONTROL 建立連線]** 對話方塊。
 1. 在 **[!UICONTROL 連線型別]** 欄位，選取 **[!UICONTROL [!DNL Frame.io]OAuth 2.0 PKCE]**.
-1. 在中為新連線輸入名稱 **[!UICONTROL 連線名稱]** 欄位。
+1. 在中輸入新連線的名稱 **[!UICONTROL 連線名稱]** 欄位。
 1. 按一下 **[!UICONTROL 繼續]** 以建立連線。
 
 已建立連線。 您可以繼續設定模組。
 
-#### 連線到 [!DNL Frame.io] 使用OAuth 2.0 PKCE （搭配使用者端ID）
+#### 連線到 [!DNL Frame.io] 使用OAuth 2.0 PKCE （含使用者端ID）
 
 1. 在中建立OAuth 2.0應用程式 [!DNL Frame.io]. 如需指示，請參閱 [!DNL Frame.io] 檔案： [!UICONTROL OAuth 2.0程式碼授權流程].
 
@@ -122,18 +126,18 @@ ht-degree: 0%
 1. 複製提供的 `client_id`.
 1. 前往 [!DNL Workfront Fusion] 並開啟 [!DNL Frame.io] 模組的 **[!UICONTROL 建立連線]** 對話方塊。
 1. 在 **[!UICONTROL 連線型別]** 欄位，選取 **[!UICONTROL [!DNL Frame.io]OAuth 2.0 PKCE]**.
-1. 在中為新連線輸入名稱 **[!UICONTROL 連線名稱]** 欄位。
+1. 在中輸入新連線的名稱 **[!UICONTROL 連線名稱]** 欄位。
 1. 按一下 **[!UICONTROL 顯示進階設定]**.
-1. 輸入 `client_id` 您已在步驟2中將複製到 **[!UICONTROL 使用者端ID]** 欄位。
+1. 輸入 `client_id` 您在步驟2中已將複製到 **[!UICONTROL 使用者端ID]** 欄位。
 1. 按一下 **[!UICONTROL 繼續]** 以建立連線。
 
 已建立連線。 您可以繼續設定模組。
 
 ## [!DNL Frame.io] 模組及其欄位
 
-當您設定 [!DNL Frame.io] 模組， [!DNL Workfront Fusion] 顯示下列欄位。 除了這些以外， [!DNL Frame.io] 視您在應用程式或服務中的存取層級等因素而定，可能會顯示欄位。 模組中的粗體標題表示必填欄位。
+當您設定 [!DNL Frame.io] 模組， [!DNL Workfront Fusion] 顯示下列欄位。 除了這些以外， [!DNL Frame.io] 欄位可能會顯示，端視您應用程式或服務中的存取層級等因素而定。 模組中的粗體標題表示必填欄位。
 
-如果您在欄位或函式上方看到對應按鈕，則可以使用它來設定該欄位的變數和函式。 如需詳細資訊，請參閱 [將資訊從一個模組對應至中的另一個模組 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
+如果您在欄位或函式上方看到對應按鈕，則可以使用它來設定該欄位的變數和函式。 如需詳細資訊，請參閱 [在中將資訊從一個模組對應到另一個模組 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
 
 ![](assets/map-toggle-350x74.png)
 
@@ -162,12 +166,12 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[！UICONTROL連線] </td> 
-   <td>如需建立連線的相關指示，請前往 [!DNL Frame.io]，請參閱 <a href="#connect-frame-io-to-adobe-workfront-fusion" class="MCXref xref">Connect [!DNL Frame.io] 至 [!DNL Adobe Workfront Fusion]</a> 本文章內容。</td> 
+   <td role="rowheader">[！UICONTROL Connection] </td> 
+   <td>有關建立與的連線的指示 [!DNL Frame.io]，請參閱 <a href="#connect-frame-io-to-adobe-workfront-fusion" class="MCXref xref">連線 [!DNL Frame.io] 至 [!DNL Adobe Workfront Fusion]</a> 本文章內容。</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL團隊ID] </td> 
-   <td> <p>選取或對應擁有您要為其建立資產的專案的團隊。</p> </td> 
+   <td> <p>選取或對應擁有您要建立資產的專案團隊。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL專案ID] </td> 
@@ -175,11 +179,11 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL資料夾ID] </td> 
-   <td> <p>選取資料夾或對應您要建立資產的資料夾ID。</p> </td> 
+   <td> <p>選取資料夾或對應您要建立資產的資料夾之ID。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL型別] </td> 
-   <td> <p>選取是否要建立資料夾或檔案。</p> </td> 
+   <td> <p>選擇是否要建立資料夾或檔案。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL名稱] </td> 
@@ -215,12 +219,12 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-    <td role="rowheader">[！UICONTROL連線] </td> 
-   <td>如需建立連線的相關指示，請前往 [!DNL Frame.io]，請參閱 <a href="#connect-frame-io-to-adobe-workfront-fusion" class="MCXref xref">Connect [!DNL Frame.io] 至 [!DNL Adobe Workfront Fusion]</a> 本文章內容。</td> 
+    <td role="rowheader">[！UICONTROL Connection] </td> 
+   <td>有關建立與的連線的指示 [!DNL Frame.io]，請參閱 <a href="#connect-frame-io-to-adobe-workfront-fusion" class="MCXref xref">連線 [!DNL Frame.io] 至 [!DNL Adobe Workfront Fusion]</a> 本文章內容。</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL團隊ID] </td> 
-   <td> <p>選取或對應擁有您要刪除之資產之專案的團隊。</p> </td> 
+   <td> <p>選取或對應擁有專案的團隊，專案中包含您要刪除的資產。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL專案ID]</td> 
@@ -228,11 +232,11 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL資料夾ID] </td> 
-   <td> <p>選取包含您要刪除之資產的資料夾</p> </td> 
+   <td> <p>選取包含您要刪除之資產的檔案夾</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL資產ID] </td> 
-   <td> <p>選取或對映您要刪除的資產。</p> </td> 
+   <td> <p>選取或對應您要刪除的資產。</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -246,12 +250,12 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-    <td role="rowheader">[！UICONTROL連線] </td> 
-   <td>如需建立連線的相關指示，請前往 [!DNL Frame.io]，請參閱 <a href="#connect-frame-io-to-adobe-workfront-fusion" class="MCXref xref">Connect [!DNL Frame.io] 至 [!DNL Adobe Workfront Fusion]</a> 本文章內容。</td> 
+    <td role="rowheader">[！UICONTROL Connection] </td> 
+   <td>有關建立與的連線的指示 [!DNL Frame.io]，請參閱 <a href="#connect-frame-io-to-adobe-workfront-fusion" class="MCXref xref">連線 [!DNL Frame.io] 至 [!DNL Adobe Workfront Fusion]</a> 本文章內容。</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL團隊ID] </td> 
-   <td> <p>選取或對應擁有專案的團隊，專案中包含您要擷取其詳細資訊的資產。</p> </td> 
+   <td> <p>選取或對映擁有專案的團隊，專案中包含您要擷取詳細資訊的資產。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL專案ID]</td> 
@@ -259,7 +263,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL資料夾ID] </td> 
-   <td> <p>選取包含您要擷取詳細資訊之資產的資料夾。</p> </td> 
+   <td> <p>選取包含您要擷取詳細資訊之資產的檔案夾。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL資產ID] </td> 
@@ -279,12 +283,12 @@ ht-degree: 0%
  </col> 
  <tbody> 
   <tr> 
-    <td role="rowheader">[！UICONTROL連線] </td> 
-   <td>如需建立連線的相關指示，請前往 [!DNL Frame.io]，請參閱 <a href="#connect-frame-io-to-adobe-workfront-fusion" class="MCXref xref">Connect [!DNL Frame.io] 至 [!DNL Adobe Workfront Fusion]</a> 本文章內容。</td> 
+    <td role="rowheader">[！UICONTROL Connection] </td> 
+   <td>有關建立與的連線的指示 [!DNL Frame.io]，請參閱 <a href="#connect-frame-io-to-adobe-workfront-fusion" class="MCXref xref">連線 [!DNL Frame.io] 至 [!DNL Adobe Workfront Fusion]</a> 本文章內容。</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL團隊ID] </td> 
-   <td> <p>選取或對應擁有專案的團隊，專案中包含您要從中擷取資產的資料夾。</p> </td> 
+   <td> <p>選取或對應擁有專案的團隊，專案中包含您想要從中擷取資產的資料夾。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL專案ID]</td> 
@@ -292,11 +296,11 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL資料夾ID] </td> 
-   <td> <p>選取您要從中列出資產的資料夾。</p> </td> 
+   <td> <p>選取您要列出資產的資料夾。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL限制] </td> 
-   <td> <p>設定資產數量上限 [!DNL Workfront Fusion] 會在一個執行週期內傳回。</p> </td> 
+   <td> <p>設定資產最大數量 [!DNL Workfront Fusion] 將會在一個執行週期中傳回。</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -310,20 +314,20 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-    <td role="rowheader">[！UICONTROL連線] </td> 
-   <td>如需建立連線的相關指示，請前往 [!DNL Frame.io]，請參閱 <a href="#connect-frame-io-to-adobe-workfront-fusion" class="MCXref xref">Connect [!DNL Frame.io] 至 [!DNL Adobe Workfront Fusion]</a> 本文章內容。</td> 
+    <td role="rowheader">[！UICONTROL Connection] </td> 
+   <td>有關建立與的連線的指示 [!DNL Frame.io]，請參閱 <a href="#connect-frame-io-to-adobe-workfront-fusion" class="MCXref xref">連線 [!DNL Frame.io] 至 [!DNL Adobe Workfront Fusion]</a> 本文章內容。</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL團隊ID] </td> 
-   <td> <p>選取或對應擁有您要更新其資產的專案的團隊。</p> </td> 
+   <td> <p>選取或對應擁有您要更新資產的專案團隊。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL專案ID] </td> 
-   <td> <p>選取專案或對應您要更新其資產的專案ID。</p> </td> 
+   <td> <p>選取專案或對應您要更新資產的專案ID。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL資料夾ID] </td> 
-   <td> <p>選取資料夾或對應您要更新資產的資料夾ID。</p> </td> 
+   <td> <p>選取資料夾或對應您要更新資產的資料夾之ID。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL名稱] </td> 
@@ -338,7 +342,7 @@ ht-degree: 0%
 
 #### [!UICONTROL 觀看資產已刪除]
 
-此觸發模組會在資產刪除後啟動案例。
+此觸發模組會在資產刪除時啟動案例。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -349,8 +353,8 @@ ht-degree: 0%
    <td> <p> 輸入webhook的名稱，例如已刪除的資產。</p> </td> 
   </tr> 
   <tr> 
-    <td role="rowheader">[！UICONTROL連線] </td> 
-   <td>如需建立連線的相關指示，請前往 [!DNL Frame.io]，請參閱 <a href="#connect-frame-io-to-adobe-workfront-fusion" class="MCXref xref">Connect [!DNL Frame.io] 至 [!DNL Adobe Workfront Fusion]</a> 本文章內容。</td> 
+    <td role="rowheader">[！UICONTROL Connection] </td> 
+   <td>有關建立與的連線的指示 [!DNL Frame.io]，請參閱 <a href="#connect-frame-io-to-adobe-workfront-fusion" class="MCXref xref">連線 [!DNL Frame.io] 至 [!DNL Adobe Workfront Fusion]</a> 本文章內容。</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL團隊ID] </td> 
@@ -361,7 +365,7 @@ ht-degree: 0%
 
 #### [!UICONTROL 觀看資產標籤已更新]
 
-此觸發模組會在資產狀態設定、變更或移除時啟動案例。
+此觸發器模組會在資產狀態設定、變更或移除時啟動案例。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -369,11 +373,11 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">[！UICONTROL Webhook名稱]</td> 
-   <td> <p> 輸入webhook的名稱，例如資產狀態已更新。</p> </td> 
+   <td> <p> 輸入webhook的名稱，例如更新的資產狀態。</p> </td> 
   </tr> 
   <tr> 
-    <td role="rowheader">[！UICONTROL連線] </td> 
-   <td>如需建立連線的相關指示，請前往 [!DNL Frame.io]，請參閱 <a href="#connect-frame-io-to-adobe-workfront-fusion" class="MCXref xref">Connect [!DNL Frame.io] 至 [!DNL Adobe Workfront Fusion]</a> 本文章內容。</td> 
+    <td role="rowheader">[！UICONTROL Connection] </td> 
+   <td>有關建立與的連線的指示 [!DNL Frame.io]，請參閱 <a href="#connect-frame-io-to-adobe-workfront-fusion" class="MCXref xref">連線 [!DNL Frame.io] 至 [!DNL Adobe Workfront Fusion]</a> 本文章內容。</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL團隊ID] </td> 
@@ -395,8 +399,8 @@ ht-degree: 0%
    <td> <p> 輸入webhook的名稱，例如建立的資產。</p> </td> 
   </tr> 
   <tr> 
-    <td role="rowheader">[！UICONTROL連線] </td> 
-   <td>如需建立連線的相關指示，請前往 [!DNL Frame.io]，請參閱 <a href="#connect-frame-io-to-adobe-workfront-fusion" class="MCXref xref">Connect [!DNL Frame.io] 至 [!DNL Adobe Workfront Fusion]</a> 本文章內容。</td> 
+    <td role="rowheader">[！UICONTROL Connection] </td> 
+   <td>有關建立與的連線的指示 [!DNL Frame.io]，請參閱 <a href="#connect-frame-io-to-adobe-workfront-fusion" class="MCXref xref">連線 [!DNL Frame.io] 至 [!DNL Adobe Workfront Fusion]</a> 本文章內容。</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL團隊ID] </td> 
@@ -424,20 +428,20 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-    <td role="rowheader">[！UICONTROL連線] </td> 
-   <td>如需建立連線的相關指示，請前往 [!DNL Frame.io]，請參閱 <a href="#connect-frame-io-to-adobe-workfront-fusion" class="MCXref xref">Connect [!DNL Frame.io] 至 [!DNL Adobe Workfront Fusion]</a> 本文章內容。</td> 
+    <td role="rowheader">[！UICONTROL Connection] </td> 
+   <td>有關建立與的連線的指示 [!DNL Frame.io]，請參閱 <a href="#connect-frame-io-to-adobe-workfront-fusion" class="MCXref xref">連線 [!DNL Frame.io] 至 [!DNL Adobe Workfront Fusion]</a> 本文章內容。</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL型別] </td> 
-   <td> <p>選取您要建立評論還是回複評論。</p> </td> 
+   <td> <p>選取您要建立註解還是回覆註解。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL團隊ID] </td> 
-   <td> <p>選取或對應擁有專案的團隊，專案中包含您要新增註解的資產。</p> </td> 
+   <td> <p>選取或對應擁有專案的團隊，專案中包含您想要新增註解的資產。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL專案ID] </td> 
-   <td> <p>選取專案或對映專案ID，專案包含您要新增註解的資產。</p> </td> 
+   <td> <p>選取專案或對應專案ID，專案包含您要新增註解的資產。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL資料夾ID] </td> 
@@ -452,12 +456,12 @@ ht-degree: 0%
    <td> <p>選取或對應您要新增回覆的註解。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL文字]</td> 
+   <td role="rowheader">[！UICONTROL Text]</td> 
    <td> <p> 輸入評論或回覆的文字內容。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL時間戳記] </td> 
-   <td> <p>在視訊中輸入評論應連結的影格編號。</p> </td> 
+   <td> <p>在影片中輸入評論應連結的影格編號。</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -471,16 +475,16 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-    <td role="rowheader">[！UICONTROL連線] </td> 
-   <td>如需建立連線的相關指示，請前往 [!DNL Frame.io]，請參閱 <a href="#connect-frame-io-to-adobe-workfront-fusion" class="MCXref xref">Connect [!DNL Frame.io] 至 [!DNL Adobe Workfront Fusion]</a> 本文章內容。</td> 
+    <td role="rowheader">[！UICONTROL Connection] </td> 
+   <td>有關建立與的連線的指示 [!DNL Frame.io]，請參閱 <a href="#connect-frame-io-to-adobe-workfront-fusion" class="MCXref xref">連線 [!DNL Frame.io] 至 [!DNL Adobe Workfront Fusion]</a> 本文章內容。</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL團隊ID]</td> 
-   <td> <p> 選取或對應擁有專案的團隊，專案中包含您要從中刪除註解的資產。</p> </td> 
+   <td> <p> 選取或對映擁有專案的團隊，專案中包含您要從中刪除註解的資產。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL專案ID]</td> 
-   <td> <p> 選取專案或對映專案ID，專案包含您要從中刪除註解的資產。</p> </td> 
+   <td> <p> 選取專案或對應包含您要從中刪除註解之資產的專案ID。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL資料夾ID]</td> 
@@ -506,12 +510,12 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-    <td role="rowheader">[！UICONTROL連線] </td> 
-   <td>如需建立連線的相關指示，請前往 [!DNL Frame.io]，請參閱 <a href="#connect-frame-io-to-adobe-workfront-fusion" class="MCXref xref">Connect [!DNL Frame.io] 至 [!DNL Adobe Workfront Fusion]</a> 本文章內容。</td> 
+    <td role="rowheader">[！UICONTROL Connection] </td> 
+   <td>有關建立與的連線的指示 [!DNL Frame.io]，請參閱 <a href="#connect-frame-io-to-adobe-workfront-fusion" class="MCXref xref">連線 [!DNL Frame.io] 至 [!DNL Adobe Workfront Fusion]</a> 本文章內容。</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL團隊ID] </td> 
-   <td> <p>選取或對應擁有專案的團隊，專案中包含您要從中擷取資產的資料夾。</p> </td> 
+   <td> <p>選取或對應擁有專案的團隊，該專案包含您要從中擷取資產的資料夾。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL專案ID] </td> 
@@ -519,7 +523,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL資料夾ID] </td> 
-   <td> <p>選取您要從中列出資產的資料夾。</p> </td> 
+   <td> <p>選取您要列出資產的資料夾。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL資產ID] </td> 
@@ -541,12 +545,12 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-    <td role="rowheader">[！UICONTROL連線] </td> 
-   <td>如需建立連線的相關指示，請前往 [!DNL Frame.io]，請參閱 <a href="#connect-frame-io-to-adobe-workfront-fusion" class="MCXref xref">Connect [!DNL Frame.io] 至 [!DNL Adobe Workfront Fusion]</a> 本文章內容。</td> 
+    <td role="rowheader">[！UICONTROL Connection] </td> 
+   <td>有關建立與的連線的指示 [!DNL Frame.io]，請參閱 <a href="#connect-frame-io-to-adobe-workfront-fusion" class="MCXref xref">連線 [!DNL Frame.io] 至 [!DNL Adobe Workfront Fusion]</a> 本文章內容。</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL團隊ID] </td> 
-   <td> <p>選取或對應擁有專案的團隊，專案中包含您要從中擷取註解的資料夾。</p> </td> 
+   <td> <p>選取或對應擁有專案的團隊，該專案包含您要從中擷取註解的資料夾。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL專案ID] </td> 
@@ -554,15 +558,15 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL資料夾ID] </td> 
-   <td> <p>選取包含您要從中列出註解之資產的資料夾。</p> </td> 
+   <td> <p>選取包含您要列出註解之資產的資料夾。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL資產ID] </td> 
-   <td> <p>選取您要為其列出註解的資產。</p> </td> 
+   <td> <p>選取您要列出註解的資產。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL限制] </td> 
-   <td> <p>設定評論數量上限 [!DNL Workfront Fusion] 會在一個執行週期內傳回。</p> </td> 
+   <td> <p>設定評論數量上限 [!DNL Workfront Fusion] 將會在一個執行週期中傳回。</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -576,8 +580,8 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-    <td role="rowheader">[！UICONTROL連線] </td> 
-   <td>如需建立連線的相關指示，請前往 [!DNL Frame.io]，請參閱 <a href="#connect-frame-io-to-adobe-workfront-fusion" class="MCXref xref">Connect [!DNL Frame.io] 至 [!DNL Adobe Workfront Fusion]</a> 本文章內容。</td> 
+    <td role="rowheader">[！UICONTROL Connection] </td> 
+   <td>有關建立與的連線的指示 [!DNL Frame.io]，請參閱 <a href="#connect-frame-io-to-adobe-workfront-fusion" class="MCXref xref">連線 [!DNL Frame.io] 至 [!DNL Adobe Workfront Fusion]</a> 本文章內容。</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL團隊ID] </td> 
@@ -589,7 +593,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL資料夾ID] </td> 
-   <td> <p>選取包含您要更新註解的資產的資料夾。</p> </td> 
+   <td> <p>選取包含您要更新評論之資產的資料夾。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL資產ID] </td> 
@@ -597,10 +601,10 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL註解ID] </td> 
-   <td> <p>選取您要更新的註解。</p> </td> 
+   <td> <p>選取要更新的註解。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL文字]</td> 
+   <td role="rowheader">[！UICONTROL Text]</td> 
    <td> <p> 輸入註解的文字內容。</p> </td> 
   </tr> 
   <tr> 
@@ -620,11 +624,11 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">[！UICONTROL Webhook名稱] </td> 
-   <td> <p>輸入webhook的名稱，例如「已編輯評論」。</p> </td> 
+   <td> <p>輸入webhook的名稱，例如「編輯的註解」。</p> </td> 
   </tr> 
   <tr> 
-    <td role="rowheader">[！UICONTROL連線] </td> 
-   <td>如需建立連線的相關指示，請前往 [!DNL Frame.io]，請參閱 <a href="#connect-frame-io-to-adobe-workfront-fusion" class="MCXref xref">Connect [!DNL Frame.io] 至 [!DNL Adobe Workfront Fusion]</a> 本文章內容。</td> 
+    <td role="rowheader">[！UICONTROL Connection] </td> 
+   <td>有關建立與的連線的指示 [!DNL Frame.io]，請參閱 <a href="#connect-frame-io-to-adobe-workfront-fusion" class="MCXref xref">連線 [!DNL Frame.io] 至 [!DNL Adobe Workfront Fusion]</a> 本文章內容。</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL團隊ID] </td> 
@@ -635,7 +639,7 @@ ht-degree: 0%
 
 #### [!UICONTROL 觀看新評論]
 
-此觸發模組會在建立新評論或回覆時啟動案例。
+此觸發器模組會在建立新評論或回覆時啟動案例。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -646,8 +650,8 @@ ht-degree: 0%
    <td> <p>輸入webhook的名稱，例如新增註解。</p> </td> 
   </tr> 
   <tr> 
-    <td role="rowheader">[！UICONTROL連線] </td> 
-   <td>如需建立連線的相關指示，請前往 [!DNL Frame.io]，請參閱 <a href="#connect-frame-io-to-adobe-workfront-fusion" class="MCXref xref">Connect [!DNL Frame.io] 至 [!DNL Adobe Workfront Fusion]</a> 本文章內容。</td> 
+    <td role="rowheader">[！UICONTROL Connection] </td> 
+   <td>有關建立與的連線的指示 [!DNL Frame.io]，請參閱 <a href="#connect-frame-io-to-adobe-workfront-fusion" class="MCXref xref">連線 [!DNL Frame.io] 至 [!DNL Adobe Workfront Fusion]</a> 本文章內容。</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL團隊ID] </td> 
@@ -667,8 +671,8 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-    <td role="rowheader">[！UICONTROL連線] </td> 
-   <td>如需建立連線的相關指示，請前往 [!DNL Frame.io]，請參閱 <a href="#connect-frame-io-to-adobe-workfront-fusion" class="MCXref xref">Connect [!DNL Frame.io] 至 [!DNL Adobe Workfront Fusion]</a> 本文章內容。</td> 
+    <td role="rowheader">[！UICONTROL Connection] </td> 
+   <td>有關建立與的連線的指示 [!DNL Frame.io]，請參閱 <a href="#connect-frame-io-to-adobe-workfront-fusion" class="MCXref xref">連線 [!DNL Frame.io] 至 [!DNL Adobe Workfront Fusion]</a> 本文章內容。</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL團隊ID] </td> 
@@ -676,7 +680,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL限制] </td> 
-   <td> <p>設定最大專案數量 [!DNL Workfront Fusion] 會在一個執行週期內傳回。</p> </td> 
+   <td> <p>設定最大專案數量 [!DNL Workfront Fusion] 將會在一個執行週期中傳回。</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -692,28 +696,28 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-    <td role="rowheader">[！UICONTROL連線] </td> 
-   <td>如需建立連線的相關指示，請前往 [!DNL Frame.io]，請參閱 <a href="#connect-frame-io-to-adobe-workfront-fusion" class="MCXref xref">Connect [!DNL Frame.io] 至 [!DNL Adobe Workfront Fusion]</a> 本文章內容。</td> 
+    <td role="rowheader">[！UICONTROL Connection] </td> 
+   <td>有關建立與的連線的指示 [!DNL Frame.io]，請參閱 <a href="#connect-frame-io-to-adobe-workfront-fusion" class="MCXref xref">連線 [!DNL Frame.io] 至 [!DNL Adobe Workfront Fusion]</a> 本文章內容。</td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[！UICONTROL URL]</p> </td> 
-   <td> <p>輸入相對於 <code>https://api.frame.io</code>. 範例: <code> /v2/teams</code></p> <p>注意：如需可用端點的清單，請參閱 [!DNL Frame.io] API參考。</p> </td> 
+   <td> <p>輸入相對於 <code>https://api.frame.io</code>. 範例： <code> /v2/teams</code></p> <p>注意：如需可用端點的清單，請參閱 [!DNL Frame.io] API參考。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[！UICONTROL方法]</p> </td> 
    <td> <p>選取設定API呼叫所需的HTTP要求方法。 如需詳細資訊，請參閱 <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref">中的HTTP要求方法 [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL標頭]</td> 
+   <td role="rowheader">[！UICONTROL Headers]</td> 
    <td> <p>以標準JSON物件的形式新增請求的標頭。</p> <p>例如， <code>{"Content-type":"application/json"}</code></p> <p>[!DNL Workfront Fusion] 自動新增授權標頭。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL查詢字串] </td> 
-   <td> <p>輸入請求查詢字串。 對於要包含在查詢字串中的每個引數，按一下 <b>[！UICONTROL新增專案]</b> 並輸入欄位名稱和所需的值。</p> </td> 
+   <td> <p>輸入請求查詢字串。 針對您要納入查詢字串的每個引數，按一下 <b>[！UICONTROL新增專案]</b> 並輸入欄位名稱和所需值。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL內文]</td> 
-   <td> <p>以標準JSON物件的形式新增API呼叫的正文內容。</p> <p>備註:  <p>使用條件陳述式時，例如 <code>if</code> 在JSON中，將引號放在條件陳述式之外。</p> 
+   <td role="rowheader">[！UICONTROL Body]</td> 
+   <td> <p>以標準JSON物件的形式新增API呼叫的內文內容。</p> <p>注意：  <p>使用條件陳述式時，例如 <code>if</code> 在JSON中，將引號放在條件陳述式之外。</p> 
      <div class="example" data-mc-autonum="<b>Example: </b>"> 
       <p> <img src="assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
      </div> </p> </td> 
@@ -721,15 +725,15 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-**範例：** 以下API呼叫會傳回中的所有團隊及其詳細資料 [!DNL Frame.io] 帳戶：
+**範例：** 以下API呼叫會傳回您團隊中的所有團隊及其詳細資料 [!DNL Frame.io] 帳戶：
 
-URL: `/v2/teams`
+URL： `/v2/teams`
 
-方法: `GET`
+方法： `GET`
 
 ![](assets/api-call-example.png)
 
-結果可在模組的「輸出」中找到，位於「套件>內文」下。
+結果可以在「束>內文」下模組的輸出中找到。
 
 在我們的範例中，傳回1個團隊的詳細資料：
 

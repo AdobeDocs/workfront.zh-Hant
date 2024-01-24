@@ -8,9 +8,9 @@ description: 一個 [!DNL Adobe Workfront Fusion] 資料存放區（類似於資
 author: Becky
 feature: Workfront Fusion
 exl-id: 1dc9cb88-d1b9-4a67-91fb-be980cc1ccd1
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: c51169c18bef8ac8126a04c08deb88d830517b0b
 workflow-type: tm+mt
-source-wordcount: '1151'
+source-wordcount: '1164'
 ht-degree: 0%
 
 ---
@@ -19,9 +19,13 @@ ht-degree: 0%
 
 一個 [!DNL Adobe Workfront Fusion] 資料存放區（類似於資料庫或簡單表格）可以儲存案例的資料，以便在個別案例或案例執行之間傳輸資料。 您可以在同步期間使用資料存放區來儲存來自不同系統的新資料。
 
-資料存放區模組可讓您新增、取代、更新、擷取、刪除、搜尋或計算您的中的記錄 [!DNL Adobe Workfront Fusion] 資料存放區。
+資料存放區模組可讓您新增、取代、更新、擷取、刪除、搜尋或計算您的記錄數 [!DNL Adobe Workfront Fusion] 資料存放區。
 
-如需建立、編輯和疑難排解資料存放區的相關資訊，請參閱 [中的資料存放區 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/data-stores.md)
+如需有關建立、編輯和疑難排解資料存放區的資訊，請參閱 [資料儲存位置 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/data-stores.md)
+
+如需有關Workfront Fusion中資料存放區的影片簡介，請參閱：
+
+* [資料存放區](https://video.tv.adobe.com/v/3427029/){target=_blank}
 
 ## 存取需求
 
@@ -32,7 +36,7 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 計劃*</td>
+   <td role="rowheader">[!DNL Adobe Workfront] 計畫*</td>
   <td> <p>[！UICONTROL Pro]或更高版本</p> </td>
   </tr> 
   <tr data-mc-conditions=""> 
@@ -44,35 +48,35 @@ ht-degree: 0%
    <td>
    <p>目前授權需求：否 [!DNL Workfront Fusion] 授權需求。</p>
    <p>或</p>
-   <p>舊版授權需求： [！UICONTROL [!DNL Workfront Fusion] 若為工作自動化與整合]，[！UICONTROL [!DNL Workfront Fusion] 工作自動化專用]</p>
+   <p>舊版授權需求： [！UICONTROL [!DNL Workfront Fusion] 工作自動化與整合]，請參閱[！UICONTROL [!DNL Workfront Fusion] 工作自動化專用]</p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">產品</td> 
    <td>
-   <p>目前產品需求：如果您有[！UICONTROL Select]或[！UICONTROL Prime] [!DNL Adobe Workfront] 計畫，您的組織必須購買 [!DNL Adobe Workfront Fusion] 以及 [!DNL Adobe Workfront] 以使用本文所述功能。 [!DNL Workfront Fusion] 包含在[！UICONTROL Ultimate]中 [!DNL Workfront] 計畫。</p>
+   <p>目前產品需求：如果您有[！UICONTROL Select]或[！UICONTROL Prime] [!DNL Adobe Workfront] 計畫，您的組織必須購買 [!DNL Adobe Workfront Fusion] 以及 [!DNL Adobe Workfront] 以使用本文所述的功能。 [!DNL Workfront Fusion] 包含在[！UICONTROL Ultimate]中 [!DNL Workfront] 計畫。</p>
    <p>或</p>
-   <p>舊版產品需求：貴組織必須購買 [!DNL Adobe Workfront Fusion] 以及 [!DNL Adobe Workfront] 以使用本文所述功能。</p>
+   <p>舊版產品需求：貴組織必須購買 [!DNL Adobe Workfront Fusion] 以及 [!DNL Adobe Workfront] 以使用本文所述的功能。</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-若要瞭解您擁有哪些計畫、授權型別或存取權，請聯絡您的 [!DNL Workfront] 管理員。
+若要瞭解您擁有的計畫、授權型別或存取權，請聯絡您的 [!DNL Workfront] 管理員。
 
-有關以下專案的資訊： [!DNL Adobe Workfront Fusion] 授權，請參閱 [[!DNL Adobe Workfront Fusion] 授權](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+有關的資訊 [!DNL Adobe Workfront Fusion] 授權，請參閱 [[!DNL Adobe Workfront Fusion] 授權](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
-## 必要條件
+## 先決條件
 
 使用 [!UICONTROL 資料存放區] 模組，您必須先建立資料存放區。
 
-如需建立資料存放區的詳細資訊，請參閱 [中的資料存放區 [!UICONTROL Adobe Workfront Fusion]](../../workfront-fusion/modules/data-stores.md)
+如需建立資料存放區的詳細資訊，請參閱 [資料儲存位置 [!UICONTROL Adobe Workfront Fusion]](../../workfront-fusion/modules/data-stores.md)
 
 ## [!UICONTROL 資料存放區] 模組及其欄位
 
-當您設定資料存放區模組時， [!DNL Workfront Fusion] 顯示下列欄位。 此外，其他資料存放區欄位可能會根據您在應用程式或服務中的存取層級等因素而顯示。 模組中的粗體標題表示必填欄位。
+當您設定資料存放區模組時， [!DNL Workfront Fusion] 顯示下列欄位。 除此之外，其他資料存放區欄位可能會顯示，端視您應用程式或服務中的存取層級等因素而定。 模組中的粗體標題表示必填欄位。
 
-如果您在欄位或函式上方看到對應按鈕，則可以使用它來設定該欄位的變數和函式。 如需詳細資訊，請參閱 [將資訊從一個模組對應至中的另一個模組 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
+如果您在欄位或函式上方看到對應按鈕，則可以使用它來設定該欄位的變數和函式。 如需詳細資訊，請參閱 [在中將資訊從一個模組對應到另一個模組 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
 
 ![](assets/map-toggle-350x74.png)
 
@@ -91,13 +95,13 @@ ht-degree: 0%
 
 此動作模組新增或取代記錄。
 
-您可以指定資料存放區和記錄的金鑰。
+您可以指定資料存放區和記錄的索引鍵。
 
-模組會傳回記錄ID和任何關聯欄位，以及連線存取的任何自訂欄位和值。 您可以將此資訊對應到情境中的後續模組中。
+模組會傳回記錄ID及任何關聯欄位，連同連線存取的任何自訂欄位和值。 您可以在情境中的後續模組中對應此資訊。
 
 >[!NOTE]
 >
->當您嘗試以相同的名稱新增已在資料存放區中的記錄時，模組會擲回錯誤， [!UICONTROL 覆寫現有記錄] 選項已停用。
+>當您嘗試將已存在於資料存放區中的記錄以相同名稱新增時，模組會擲回錯誤， [!UICONTROL 覆寫現有記錄] 選項已停用。
 
 當您設定此模組時，會顯示下列欄位。
 
@@ -107,15 +111,15 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td>[！UICONTROL資料存放區]</td> 
-   <td> <p> 選取或新增您要建立記錄的資料存放區。 </p> </td> 
+   <td> <p> 選取或新增要建立記錄的資料存放區。 </p> </td> 
   </tr> 
   <tr> 
-   <td>[！UICONTROL索引鍵] </td> 
-   <td> <p>輸入您要模組新增或取代之記錄的唯一索引鍵。 金鑰稍後可用於擷取記錄。 如果您將此欄位留空，則會自動產生索引鍵。</p> </td> 
+   <td>[！UICONTROL Key] </td> 
+   <td> <p>輸入您要模組新增或取代之記錄的唯一索引鍵。 此金鑰稍後可用於擷取記錄。 如果您將此欄位留空，則會自動產生索引鍵。</p> </td> 
   </tr> 
   <tr> 
    <td>[！UICONTROL覆寫現有記錄] </td> 
-   <td> <p>啟用此選項以覆寫記錄。 您必須在上方的[金鑰]欄位中指定您要覆寫的記錄。</p> </td> 
+   <td> <p>啟用此選項以覆寫記錄。 您必須在上方的[索引鍵]欄位中指定您要覆寫的記錄。</p> </td> 
   </tr> 
   <tr> 
    <td>[！UICONTROL記錄] </td> 
@@ -128,9 +132,9 @@ ht-degree: 0%
 
 此動作模組會更新記錄。
 
-您可以指定資料存放區和記錄的金鑰。
+您可以指定資料存放區和記錄的索引鍵。
 
-模組會傳回記錄ID和任何關聯欄位，以及連線存取的任何自訂欄位和值。 您可以將此資訊對應到情境中的後續模組中。
+模組會傳回記錄ID及任何關聯欄位，連同連線存取的任何自訂欄位和值。 您可以在情境中的後續模組中對應此資訊。
 
 當您設定此模組時，會顯示下列欄位。
 
@@ -140,15 +144,15 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td>[！UICONTROL資料存放區]</td> 
-   <td> <p> 選取或新增您要建立記錄的資料存放區。 </p> </td> 
+   <td> <p> 選取或新增要建立記錄的資料存放區。 </p> </td> 
   </tr> 
   <tr> 
-   <td>[！UICONTROL索引鍵] </td> 
+   <td>[！UICONTROL Key] </td> 
    <td> <p>輸入您要模組更新的記錄唯一索引鍵。</p> </td> 
   </tr> 
   <tr> 
    <td>[！UICONTROL插入遺漏的記錄] </td> 
-   <td> <p>啟用此選項以在具有指定索引鍵的記錄不存在時建立新記錄。</p> </td> 
+   <td> <p>啟用此選項以在指定索引鍵的記錄不存在時建立新記錄。</p> </td> 
   </tr> 
   <tr> 
    <td>[！UICONTROL記錄]</td> 
@@ -161,9 +165,9 @@ ht-degree: 0%
 
 此動作模組會擷取記錄。
 
-您可以指定資料存放區和記錄的金鑰。
+您可以指定資料存放區和記錄的索引鍵。
 
-模組會傳回記錄ID和任何關聯欄位，以及連線存取的任何自訂欄位和值。 您可以將此資訊對應到情境中的後續模組中。
+模組會傳回記錄ID及任何關聯欄位，連同連線存取的任何自訂欄位和值。 您可以在情境中的後續模組中對應此資訊。
 
 <table style="table-layout:auto">
  <col> 
@@ -174,7 +178,7 @@ ht-degree: 0%
    <td> <p> 選取您要從中擷取記錄的資料存放區</p> </td> 
   </tr> 
   <tr> 
-   <td>[！UICONTROL索引鍵] </td> 
+   <td>[！UICONTROL Key] </td> 
    <td> <p>輸入您要模組擷取之記錄的唯一索引鍵。</p> </td> 
   </tr> 
  </tbody> 
@@ -184,7 +188,7 @@ ht-degree: 0%
 
 此動作模組會指定特定記錄是否存在。
 
-您可以指定資料存放區和記錄的金鑰。
+您可以指定資料存放區和記錄的索引鍵。
 
 <table style="table-layout:auto">
  <col> 
@@ -195,8 +199,8 @@ ht-degree: 0%
    <td> <p>選取您要檢查記錄是否存在的資料存放區。</p> </td> 
   </tr> 
   <tr> 
-   <td>[！UICONTROL索引鍵] </td> 
-   <td> <p>輸入您希望模組檢查是否存在之記錄的唯一索引鍵。</p> </td> 
+   <td>[！UICONTROL Key] </td> 
+   <td> <p>輸入您要模組檢查其是否存在之記錄的唯一索引鍵。</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -205,9 +209,9 @@ ht-degree: 0%
 
 此動作模組會刪除記錄。
 
-您可以指定資料存放區和記錄的金鑰。
+您可以指定資料存放區和記錄的索引鍵。
 
-模組會傳回記錄ID和任何關聯欄位，以及連線存取的任何自訂欄位和值。 您可以將此資訊對應到情境中的後續模組中。
+模組會傳回記錄ID及任何關聯欄位，連同連線存取的任何自訂欄位和值。 您可以在情境中的後續模組中對應此資訊。
 
 <table style="table-layout:auto">
  <col> 
@@ -218,15 +222,15 @@ ht-degree: 0%
    <td> <p>選取您要檢查記錄是否存在的資料存放區。</p> </td> 
   </tr> 
   <tr> 
-   <td>[！UICONTROL索引鍵] </td> 
-   <td> <p>輸入您要模組刪除之記錄的唯一索引鍵。</p> </td> 
+   <td>[！UICONTROL Key] </td> 
+   <td> <p>輸入您要模組刪除之記錄的唯一關鍵值。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ### [!UICONTROL 刪除所有記錄]
 
-此動作模組會從特定資料存放區刪除所有記錄。
+此動作模組會從特定資料存放區中刪除所有記錄。
 
 您可以指定資料存放區。
 
@@ -236,16 +240,16 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td>[！UICONTROL資料存放區] </td> 
-   <td> <p>選取您要從中刪除所有記錄的資料存放區。</p> </td> 
+   <td> <p>選取要刪除所有記錄的資料存放區。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ### [!UICONTROL 搜尋記錄]
 
-此搜尋模組會在Data Store中尋找符合您所指定搜尋查詢的物件記錄。
+此搜尋模組會在資料存放區中尋找符合您指定之搜尋查詢的物件記錄。
 
-您可以將此資訊對應到情境中的後續模組中。
+您可以在情境中的後續模組中對應此資訊。
 
 當您設定此模組時，會顯示下列欄位。
 
@@ -263,7 +267,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td> <p>[！UICONTROL排序]</p> </td> 
-   <td> <p style="font-weight: normal;">針對您要排序的每個欄位，填寫以下欄位：</p> <p style="font-weight: bold;">[！UICONTROL索引鍵]</p> <p>選取要作為結果排序依據的欄名稱。</p> <p style="font-weight: bold;">[！UICONTROL順序]</p> <p>選取您要以遞增或遞減順序排序結果。</p> </td> 
+   <td> <p style="font-weight: normal;">針對您要排序的每個欄位，填寫以下欄位：</p> <p style="font-weight: bold;">[！UICONTROL Key]</p> <p>選取要作為結果排序依據的欄名稱。</p> <p style="font-weight: bold;">[！UICONTROL順序]</p> <p>選取您要以遞增或遞減順序排序結果。</p> </td> 
   </tr> 
   <tr> 
    <td>[！UICONTROL限制]</td> 
@@ -271,14 +275,14 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td>[！UICONTROL即使模組未傳回任何結果，仍繼續執行路由]</td> 
-   <td> <p> 如果啟用，則此模組所屬的路由會繼續處理，即使此模組未傳回任何結果。</p> </td> 
+   <td> <p> 如果啟用，即使此模組未傳回任何結果，此模組所屬的路由仍會繼續處理。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ### [!UICONTROL 計算記錄]
 
-此動作模組會對資料存放區中的記錄進行編號。
+此動作模組對資料存放區中的記錄進行編號。
 
 您可以指定資料存放區。
 

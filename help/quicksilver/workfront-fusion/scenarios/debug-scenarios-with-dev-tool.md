@@ -7,10 +7,10 @@ description: Adobe Workfront Fusion Devtool可讓您瞭解情境並疑難排解�
 author: Becky
 feature: Workfront Fusion
 exl-id: f7557214-3615-4797-b4cb-4af70e4797ac
-source-git-commit: fb0ead5a39d95b3228fccd417947fa77b49305dd
+source-git-commit: c51169c18bef8ac8126a04c08deb88d830517b0b
 workflow-type: tm+mt
-source-wordcount: '1809'
-ht-degree: 0%
+source-wordcount: '1813'
+ht-degree: 1%
 
 ---
 
@@ -18,7 +18,10 @@ ht-degree: 0%
 
 此 [!DNL Adobe Workfront Fusion] Devtool可讓您瞭解案例並疑難排解。 Devtool會將額外的面板新增至 [!DNL Chrome Developer Tools]. 使用此偵錯工具面板，您可以檢查案例的所有手動執行、檢閱所有已執行的操作，並檢視每個已執行API呼叫的詳細資訊。 您可以檢視導致錯誤的模組、操作或單一回應，並運用該知識來調整您的案例。
 
-如需Fusion Devtool的深入視訊逐步解說，請參閱 [Devtool逐步說明](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/fusion/troubleshooting-and-error-handling/dev-tool-walkthrough.html?lang=en).
+如需Fusion Devtool的影片簡介和逐步解說，請參閱
+
+* [Fusion Development Tool](https://video.tv.adobe.com/v/3427031/){target=_blank}.
+* [Devtool逐步說明](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/fusion/troubleshooting-and-error-handling/dev-tool-walkthrough.html?lang=en)
 
 ## 存取需求
 
@@ -445,6 +448,6 @@ Workfront Fusion Devtool分為3個主要區段。 您可以在Devtool視窗的�
 
 #### [!UICONTROL 移轉GS]
 
-此工具專為升級而設計 [!DNL Google Sheets] （舊版）模組至最新 [!DNL Google Sheets] 版本。 它會在案例路由中的模組舊版之後新增新版本。
+此工具專為升級而設計 [!DNL Google Sheets] （舊版）模組至最新 [!DNL Google Sheets] 版本。 在情境執行路徑中，新版本的模組會新增在舊版模組之後。
 
 此模組不需要您設定任何引數。
