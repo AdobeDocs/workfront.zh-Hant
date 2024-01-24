@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: ce015eba8291995eec1611917896a0e797f820cc
+source-git-commit: 03894773e61fc0706148695572a164a2e778da9b
 workflow-type: tm+mt
 source-wordcount: '3390'
 ht-degree: 2%
@@ -385,7 +385,7 @@ recommendations: noDisplay, noCatalog
 
    >[!NOTE]
    >
-   >    您無法從公式中的連結記錄新增欄位。 此功能將在稍後發佈。 如需新版本的詳細資訊，請參閱 [Adobe Maestro發行活動](/help/quicksilver/maestro/release-activity.md).
+   >    您無法從公式中的連結記錄新增欄位。 此功能將在稍後發佈。 如需新版本的詳細資訊，請參閱 [Adobe大師發行活動](/help/quicksilver/maestro/release-activity.md).
 
 
 1. 按一下「**建立**」。

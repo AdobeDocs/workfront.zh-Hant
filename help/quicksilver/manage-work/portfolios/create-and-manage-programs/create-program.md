@@ -6,9 +6,9 @@ description: 方案代表共用跨專案界限的共同策略、目標或目標�
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 6ec353c2-2241-47c2-8c59-1d8ddc43781e
-source-git-commit: e4cd543aa9f47e6b93aa148ea3fb972fbd356c02
+source-git-commit: 03894773e61fc0706148695572a164a2e778da9b
 workflow-type: tm+mt
-source-wordcount: '998'
+source-wordcount: '1020'
 ht-degree: 1%
 
 ---
@@ -28,15 +28,15 @@ ht-degree: 1%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 計畫*</td> 
-   <td> <p>新增：任何</p><p>或</p><p>目前： [！UICONTROL Business]或更高版本</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] 計劃</td> 
+   <td> <p>任何</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 授權*</td> 
    <td> <p>新增：[！UICONTROL Standard] </p><p>或 </p><p>目前： [！UICONTROL計畫] </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">存取層級設定*</td> 
+   <td role="rowheader">存取層級設定</td> 
    <td> <p>[！UICONTROL Edit]對Portfolio和計畫的存取權 </p>  </td> 
   </tr> 
   <tr> 
@@ -179,7 +179,7 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL計畫完成日期]</td> 
-   <td>您無法在標題中編輯方案的規劃完成日期。  </td> 
+   <td>您無法在標題中編輯方案的規劃完成日期。 此資訊會從計畫中的專案更新。 計畫中最新專案的計畫完成日期會變成計畫的計畫完成日期。  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL作用中專案條件]</td> 

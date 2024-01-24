@@ -6,20 +6,27 @@ description: 您可以使用智慧指派來識別最佳使用者是何人來完�
 author: Alina
 feature: Work Management
 exl-id: 073a3234-3156-4b4f-a3e1-dbb32d61068a
-source-git-commit: 94d3fc1715d32531962a1b7405850c0b2944c776
+source-git-commit: 03894773e61fc0706148695572a164a2e778da9b
 workflow-type: tm+mt
-source-wordcount: '509'
+source-wordcount: '558'
 ht-degree: 0%
 
 ---
 
 # 進行智慧型指派
 
+<!--update "Results" to "Other assignments" with Prod-->
+
 <span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它僅在預覽環境中可供所有客戶使用。</span>
 
 <span class="preview">如需目前發行排程的詳細資訊，請參閱 [2024年第一季版本總覽](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).</span>
 
-您可以使用智慧指派來識別最佳使用者是何人來完成工作。 智慧型指派是根據決定最適合工作資源的演演算法，將工作專案指派給資源時，Adobe Workfront會提供給您的使用者建議。 如需智慧指派的相關資訊，請參閱 [智慧指派總覽](../../../manage-work/tasks/assign-tasks/smart-assignments.md).
+您可以使用智慧指派來識別最佳使用者是何人來完成工作。
+
+智慧型指派是根據決定最適合工作資源的演演算法，將工作專案指派給資源時，Adobe Workfront會提供給您的使用者建議。
+
+<span class="preview">Workfront中有兩個用於任務和問題的獨立演演算法。 </span>
+如需智慧指派的相關資訊，請參閱 [智慧指派總覽](../../../manage-work/tasks/assign-tasks/smart-assignments.md).
 
 ## 存取需求
 
@@ -76,9 +83,16 @@ ht-degree: 0%
 
    ![](assets/smart-assignments-task-header-nwe-350x302.png)
 
-   此清單中顯示的使用者是任務或問題的智慧指派建議。
+   如果發生問題，智慧指派建議會顯示在 **建議的指派** 區域。
 
-   如需智慧指派顯示位置的詳細資訊，請參閱文章中的「尋找智慧指派建議」一節 [智慧指派總覽](../../../manage-work/tasks/assign-tasks/smart-assignments.md) .
+   對於任務，智慧型指派會根據演演算法計算識別指派的階段，顯示在下列區段中：
+
+   * **建議的指派**：在任務智慧指派的演演算法計算的第一階段中識別的指派。
+   * <span class="preview">**結果**：在任務智慧指派的演演算法計算的第二階段中識別的指派。 此區段不適用於問題。 </span> <!--replace this with the new UI: "Other assignments"-->
+
+   ![](assets/smart-assignments-task-list.png)
+
+   如需詳細資訊，請參閱 [智慧指派總覽](../../../manage-work/tasks/assign-tasks/smart-assignments.md) .
 
 1. 按一下使用者名稱，在建議清單中選取使用者。
 
