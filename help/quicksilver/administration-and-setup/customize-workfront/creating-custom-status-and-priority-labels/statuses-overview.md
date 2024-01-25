@@ -5,18 +5,20 @@ product-area: system-administration;projects
 navigation-topic: create-custom-status-and-priority-labels
 title: 狀態概觀
 description: 若要瞭解專案、任務或問題的目前開發狀態，使用者可以檢視其狀態。
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 0fa2f445-be8e-405f-864a-dbc4726d096b
-source-git-commit: 6f9eddd46430990e11d5d661ea09f0595a9acebc
+source-git-commit: 81118e794dca746b482b8355c24fa997a9f0edc9
 workflow-type: tm+mt
-source-wordcount: '235'
+source-wordcount: '239'
 ht-degree: 0%
 
 ---
 
 # 狀態概觀
+
+<!-- Audited: 01/2024 -->
 
 若要瞭解專案、任務或問題的目前開發狀態，使用者可以檢視其狀態。
 
@@ -26,11 +28,11 @@ ht-degree: 0%
 
 變更專案、任務或問題的狀態通常是手動過程。 不過，有時候問題的狀態會根據系統中發生的其他因素自動變更。
 
-Workfront提供9個專案狀態、3個任務狀態和10個問題狀態。 如需這些專案的詳細資訊，請參閱下列文章：
+Adobe Workfront提供9個專案狀態、3個任務狀態和10個問題狀態。 如需這些專案的詳細資訊，請參閱下列文章：
 
 * [存取系統專案狀態清單](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/project-statuses.md)
 * [存取系統工作狀態清單](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/task-statuses.md)
-* [存取系統問題狀態清單](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/issue-statuses.md).
+* [存取系統問題狀態清單](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/issue-statuses.md)
 
 ## 自訂狀態
 

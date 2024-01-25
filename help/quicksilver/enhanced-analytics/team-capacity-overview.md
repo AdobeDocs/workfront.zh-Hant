@@ -7,9 +7,9 @@ description: 團隊容量視覺效果會顯示主團隊的總容量，不論是�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: cfeb1a87-01be-4088-9e33-53a97e3871ad
-source-git-commit: 45dac4c5e8ff584546783d561c04d137697a03a4
+source-git-commit: 81118e794dca746b482b8355c24fa997a9f0edc9
 workflow-type: tm+mt
-source-wordcount: '713'
+source-wordcount: '712'
 ht-degree: 4%
 
 ---
@@ -38,7 +38,7 @@ ht-degree: 4%
       <p>目前：商務或以上</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront授權總覽</td>
+   <td role="rowheader">Adobe Workfront授權</td>
    <td>
       <p>新增：淺色或更高</p>
       <p>或</p>
