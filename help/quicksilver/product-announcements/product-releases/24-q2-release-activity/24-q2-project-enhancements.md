@@ -1,21 +1,21 @@
 ---
-title: 2024年第一季度專案增強功能
-description: 2024年第一季專案增強功能
-author: Nolan
+title: 2024年第二季專案增強功能
+description: 2024年第二季專案增強功能
+author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 0e60aae4be4161918af248b49e9320f93f0e59d3
+source-git-commit: 4612d1915340c6053bf658f729b8b10e09f646f7
 workflow-type: tm+mt
-source-wordcount: '256'
+source-wordcount: '252'
 ht-degree: 0%
 
 ---
 
-# 2024年第一季度專案增強功能
+# 2024年第二季專案增強功能
 
-此頁面說明2024年第一季度版本對「預覽」環境所做的所有專案增強功能。 這些增強功能將在2024年第一季度版本的生產環境中提供。
+此頁面說明2024年第二季度版本對「預覽」環境所做的所有專案增強功能。 如上所述，這些增強功能將於生產環境中提供。
 
-如需2024年第一季發行週期目前可用的所有變更清單，請參閱 [2024年第一季版本總覽](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).
+如需2024年第二季發行週期目前可用的所有變更清單，請參閱 [2024年第二季版本總覽](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).
 
 ## 更相關的智慧指派
 
