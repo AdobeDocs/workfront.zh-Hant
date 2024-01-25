@@ -7,7 +7,7 @@ description: 「待執行工作」視覺效果會顯示特定專案在一段時�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: e67c92d5-b309-406b-b6f0-4d414d0e7dcc
-source-git-commit: 16a34e4315d508e31859e962edd01026d01ee193
+source-git-commit: 45dac4c5e8ff584546783d561c04d137697a03a4
 workflow-type: tm+mt
 source-wordcount: '795'
 ht-degree: 0%
@@ -51,7 +51,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">物件許可權</td> 
-   <td> <p>檢視</p> </td> 
+   <td> <p>檢視</p> </td>
   </tr> 
  </tbody> 
 </table>
@@ -60,7 +60,7 @@ ht-degree: 0%
 
 ## 先決條件
 
-如需使用增強型Analytics的必要條件，請參閱 [增強型分析概述](../enhanced-analytics/enhanced-analytics-overview.md#prerequisites).
+如需使用增強型Analytics的必要條件，請參閱 [增強型分析概述](../enhanced-analytics/enhanced-analytics-overview.md).
 
 ## 瞭解待執行工作視覺效果
 
@@ -152,7 +152,7 @@ ht-degree: 0%
    >如果實際速度是沿著視覺效果x軸（內嵌0小時或0天）運行的平面線，這表示沒有將計畫時數（或天數）新增到專案。\
    >如果實際速度是x軸上方的平直線（與小時數或天數內嵌），且永不下降，則表示在篩選期間內未完成任何工作。
 
-1. （選用）若要匯出視覺效果資料，請按一下 **匯出** 圖示 ![「匯出」圖示](assets/export.png)圖示的右上角，並選取匯出格式：
+1. （選用）若要匯出視覺效果資料，請按一下 **匯出** 圖示 ![「匯出」圖示](assets/export.png) 圖示的右上角，並選取匯出格式：
 
    * 圖表 (PNG)
    * 資料表格(XSLX)

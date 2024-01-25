@@ -7,9 +7,9 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 587d1dff-6ef1-4f97-84b9-32a073481d37
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: 45dac4c5e8ff584546783d561c04d137697a03a4
 workflow-type: tm+mt
-source-wordcount: '666'
+source-wordcount: '651'
 ht-degree: 0%
 
 ---
@@ -94,8 +94,6 @@ Workfront是企業工作管理解決方案，可讓現代知識工人和高階�
 
 **瞭解更多**
 
-* 請在此處下載R1資料表：  [https://resources.workfront.com/data-sheets/r1-release-datasheet](https://resources.workfront.com/data-sheets/r1-release-datasheet)
-* 請在這裡下載R1版本常見問答集： [https://resources.workfront.com/data-sheets/r1-faq-for-customers](https://resources.workfront.com/data-sheets/r1-faq-for-customers)
 * 如需R1中可用的改善專案完整清單： [R1發行活動概覽](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-release-activity-overview.md)
 
 Workfront。 因為工作很重要。
