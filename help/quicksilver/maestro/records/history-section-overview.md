@@ -4,10 +4,10 @@ description: 您可以在Adobe Maestro的記錄右側面板中，檢閱對記錄
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 54c6adf51ab8ef4e7968e8fdeeb0025e42deecc5
+source-git-commit: c264c0c96b818934a7c25ed54c7666d2d6c95e54
 workflow-type: tm+mt
-source-wordcount: '420'
-ht-degree: 2%
+source-wordcount: '446'
+ht-degree: 4%
 
 ---
 
@@ -72,7 +72,6 @@ ht-degree: 2%
 
    * 多選
    * 連結的記錄欄位
-   * 連結（查詢）欄位
    * 人員
 
   如果變更僅新增值至欄位，則不會顯示舊值，而只會顯示新欄位值。
@@ -80,5 +79,14 @@ ht-degree: 2%
 * 核取方塊型別的欄位絕不會以刪除線格式顯示舊值。 如果欄位已編輯，則只顯示進行變更時的目前狀態。
 
   如需有關Maestro欄位的詳細資訊，請參閱 [建立欄位](/help/quicksilver/maestro/fields/create-fields.md).
+
+* 下列型別的欄位變更不會顯示在「歷史記錄」區段中：
+
+   * 連結（查詢）欄位
+   * 公式
+   * 建立者
+   * 建立日期
+   * 上次修改者
+   * 上次修改日期
 
 * 如果欄位從系統中移除，對該欄位所做的更新會保留在「歷史記錄」區段中。 沒有跡象顯示欄位在記錄的History區段中已移除。

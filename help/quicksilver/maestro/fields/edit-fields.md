@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 6c35c313-d6ed-428b-b70d-2ea242da4e8f
-source-git-commit: ce015eba8291995eec1611917896a0e797f820cc
+source-git-commit: c264c0c96b818934a7c25ed54c7666d2d6c95e54
 workflow-type: tm+mt
 source-wordcount: '528'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 <!--udpate the metadata with real information when making this avilable in TOC and in the left nav-->
 
 <!---
-title: Formula fields
+title: Edit foelds
 description: In Adobe Maestro, you can edit the field settings for fields that are already created.
 hidefromtoc: yes
 hide: yes

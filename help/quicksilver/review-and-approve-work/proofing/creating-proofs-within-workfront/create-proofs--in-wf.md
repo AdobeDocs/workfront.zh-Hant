@@ -3,21 +3,25 @@ content-type: reference
 product-area: documents
 navigation-topic: proofing-in-workfront-navigation-topic
 title: 建立校樣
-description: 瞭解如何建立校樣。
+description: 您可以在Adobe Workfront中建立檔案的校樣。 您可以在Adobe Workfront中建立檔案的校樣。 您可以建立檔案、互動式內容和網站的校樣。 在下列文章中瞭解如何建立校樣。
 author: Courtney
 feature: Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: c8cdde5a-75c3-48ae-ad22-0ee4fed591fc
-source-git-commit: ae80999fc7ea7e35097560aa99baa435bcd31b74
+source-git-commit: c264c0c96b818934a7c25ed54c7666d2d6c95e54
 workflow-type: tm+mt
-source-wordcount: '77'
+source-wordcount: '133'
 ht-degree: 0%
 
 ---
 
-# 建立校樣
+# 建立校訂：文章索引
 
-本節包含下列文章：
+<!--Audited: 01/2024-->
+
+您可以在Adobe Workfront中建立檔案的校樣。 您可以建立檔案、互動式內容和網站的校樣。
+
+在下列文章中瞭解如何建立校樣：
 
 * [使用基本工作流程建立進階校訂](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/configure-basic-proof-workflow.md)
 * [使用自動化工作流程建立進階校訂](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-automated-proof-workflow.md)
