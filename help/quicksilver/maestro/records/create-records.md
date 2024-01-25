@@ -1,13 +1,13 @@
 ---
 title: 建立記錄
-description: 在Adobe大師，記錄是記錄型別的例項。 在建立個別記錄之前，您必須先建立記錄型別。
+description: 在Adobe大師，記錄是記錄型別的例項。 在建立個別記錄之前，您必須先建立記錄型別。 建立分類記錄與建立作業記錄相同。
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: 5f3d5c93c2fc721dda2dd04adac22190ef6a3f29
+source-git-commit: 54c6adf51ab8ef4e7968e8fdeeb0025e42deecc5
 workflow-type: tm+mt
-source-wordcount: '1091'
+source-wordcount: '1096'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ ht-degree: 0%
 * **作業記錄**：代表工作相關物件。 例如，針對名為「行銷活動」的營運記錄，您可以為「每月電子報」或「夏季銷售」等記錄命名。
 * **分類法記錄**：它們代表可與作業記錄關聯的屬性。 例如，針對名為「頻道」的分類法記錄型別，您可以命名分類法，例如「電子郵件」、「社群媒體」或「廣告」。
 
-建立作業記錄與建立分類記錄或分類相同。
+建立作業記錄與建立分類記錄相同。
 
 您可以執行下列其中一項作業，在Maestro中建立記錄：
 
@@ -120,7 +120,7 @@ ht-degree: 0%
 
 1. （視條件而定）如果記錄型別頁面未在表格檢視中開啟，請按一下 **檢視** 下拉式功能表，並選取現有的 **表格檢視** ![](assets/table-view-icon.png) 或按一下 **建立檢視>表格** 以建立表格檢視。
 
-1. 若要新增記錄，請按一下 **新&lt;記錄型別名稱>** 在表格的最後一列
+1. 若要新增記錄，請按一下 **新記錄** 在表格的最後一列
 
    或
 

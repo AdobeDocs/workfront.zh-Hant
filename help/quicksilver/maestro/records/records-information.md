@@ -1,13 +1,13 @@
 ---
 title: 「記錄：文章索引」
-description: 在Adobe大師中建立記錄型別之後，您可以建立這些型別的個別記錄。 以下文章說明如何在Adobe Maestro中建立和管理記錄。
+description: 在Adobe大師中建立記錄型別之後，您可以建立這些型別的個別記錄。 以下文章說明如何在Adobe Maestro中建立和管理記錄及其資訊。
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7f32ebab-b8dd-496d-b510-99055924b0c7
-source-git-commit: bccd29ce284ca247b51971369102b5992061afb0
+source-git-commit: 54c6adf51ab8ef4e7968e8fdeeb0025e42deecc5
 workflow-type: tm+mt
-source-wordcount: '144'
+source-wordcount: '153'
 ht-degree: 0%
 
 ---
@@ -38,7 +38,7 @@ hide: yes
 
 在Adobe大師中建立記錄型別之後，您可以建立這些型別的個別記錄。
 
-以下文章說明如何在Adobe Maestro中建立和管理記錄：
+以下文章說明如何在Adobe Maestro中建立和管理記錄及其資訊：
 
 * [建立記錄](../records/create-records.md)
 * [編輯記錄](../records/edit-records.md)
@@ -46,3 +46,4 @@ hide: yes
 * [共用記錄](../records/share-records.md)
 * [連線記錄](../records/connect-records.md)
 * [管理記錄註解](/help/quicksilver/maestro/records/manage-record-comments.md)
+* [歷史記錄區段總覽](/help/quicksilver/maestro/records/history-section-overview.md)

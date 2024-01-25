@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: 5f3d5c93c2fc721dda2dd04adac22190ef6a3f29
+source-git-commit: 54c6adf51ab8ef4e7968e8fdeeb0025e42deecc5
 workflow-type: tm+mt
-source-wordcount: '1948'
+source-wordcount: '1956'
 ht-degree: 1%
 
 ---
@@ -86,6 +86,7 @@ Adobe大師是Adobe Workfront的新產品。 Maestro的目的在於全面掌握�
 | 創意簡報 |                               |                                  | ✓ (A) |
 | 自訂記錄的顏色和圖示 | ✓ (A) |                                  |                 |
 | 新增註解至記錄 | ✓ (A) |                                  |                 |
+| 檢視記錄變更的歷史記錄 | ✓ (A) |                                  |                 |
 | 段落欄位的RTF格式 | ✓ (A) |                                  |                 |
 | Adobe Workfront Fusion的Maestro模組 | ✓ (A) |                                  |                 |
 | 從一個欄位複製資訊並貼上到另一個欄位 | ✓ (A) |                                  |                 |
