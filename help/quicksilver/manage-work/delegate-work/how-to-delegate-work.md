@@ -6,19 +6,22 @@ description: 您不在辦公室時，可以暫時委派指派給您的工作。 
 author: Alina
 feature: Work Management
 exl-id: 42b3112f-4f39-4078-aaa0-623559384a12
-source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
+source-git-commit: 42601f701e4109320e9e7b3f3f4275dee59bad97
 workflow-type: tm+mt
-source-wordcount: '1485'
-ht-degree: 1%
+source-wordcount: '1449'
+ht-degree: 0%
 
 ---
 
 # 管理任務和問題
 
+<!-- Audited: 1/2024 -->
+
+
 <!--
 <NOTE: 
 <you might need to change the tile to Delegate PTI, etc, when that functionality is added. Named it this so it will not conflict with the TOC article for Delegate section which was also "Delegate work"
-I wrote thhis as a "Manage..." article and I did not add three separate articles, to match what we have for delegating approval requests)
+I wrote this as a "Manage..." article and I did not add three separate articles, to match what we have for delegating approval requests)
 -->
 
 您不在辦公室時，可以暫時委派指派給您的工作。
@@ -35,10 +38,10 @@ I wrote thhis as a "Manage..." article and I did not add three separate articles
 >* 這些許可權必須在其存取層級內運作，有時其存取層級可能低於您的存取層級。
 >
 >   
->   例如，如果使用者對其存取層級中的任務只有「檢視」存取權，而您對您委派給他們的任務具有「管理」許可權，則他們可獲得您委派給他們的任務的「管理」許可權。 但是，他們將無法對委派的任務執行與您相同的動作。 他們必須向系統管理員請求任務的編輯存取權，才能在您不在時更新任務。
+>   例如，如果使用者對其存取層級中的任務只有「檢視」存取權，而您對您委派給他們的任務具有「管理」許可權，則他們可獲得您委派給他們的任務的「管理」許可權。 但是，他們將無法對委派的任務執行與您相同的動作。 若要在缺勤時更新任務，他們必須向系統管理員請求任務的編輯存取權。
 >
 >   
->   如需有關如何修改存取層級的資訊，請參閱 [建立或修改自訂存取層級](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+>   有關系統管理員如何修改您的存取層級的資訊，請參閱 [建立或修改自訂存取層級](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 >
 >* 對於在委派開始之後指派的專案，最多可能需要一小時的時間（在指派專案之後） [!DNL Workfront] 與委派共用新指派的專案。
 
@@ -50,37 +53,38 @@ I wrote thhis as a "Manage..." article and I did not add three separate articles
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 計劃*</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] 計劃</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 授權*</td> 
-   <td> <p>評論或以上</p>
+   <td role="rowheader">[!DNL Adobe Workfront] 授權</td> 
+   <td> <p>新增：投稿人或更高版本</p><p>或</p><p>目前：檢閱或以上</p>
 
 >[!NOTE]
 >
->雖然您可以在擁有Request授權時獲得工作指派，但您無法將工作委派給其他人。 [!DNL Workfront] 不建議將工作指派給檢閱或請求使用者。
+>雖然您可以在擁有Request授權時獲得工作指派，但您無法將工作委派給其他人。 [!DNL Workfront] 不建議將工作指派給檢閱、請求或貢獻者使用者。
 
 </tr> 
   <tr> 
-   <td role="rowheader">存取層級設定*</td> 
-   <td> <p>編輯任務和問題的存取權如果您還是沒有存取權，請詢問 [!DNL Workfront] 管理員是否對您的存取層級設定其他限制。 如需瞭解如何 [!DNL Workfront] 管理員可以修改您的存取層級，請參閱 <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> 建立或修改自訂存取層級</a>.</p> </td> 
+   <td role="rowheader">存取層級設定</td> 
+   <td> <p>編輯任務和問題的存取權 
+     </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">物件許可權</td> 
    <td> <p>檢視或更高的許可權給您指派的任務或問題</p> 
-    <p>如需請求其他存取許可權的詳細資訊，請參閱 <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">要求物件的存取權 </a>.</p> </td> 
+    </td> 
   </tr> 
  </tbody> 
 </table>
 
-*若要瞭解您擁有的計畫、授權型別或存取權，請連絡 [!DNL Workfront] 管理員。
+如需有關此表格的詳細資訊，請參閱 [Workfront檔案中的存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 <!--note from the table for Object permissions:
      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Contribute or higher permissions to the projects where you are designated as the Project&nbsp;Owner (NOTE:&nbsp;you cannot delegate projects yet)</p>
     -->
 
-## 必要條件
+## 先決條件
 
 您必須先確定下列事項，才能執行本文所述的活動：
 
@@ -92,7 +96,7 @@ I wrote thhis as a "Manage..." article and I did not add three separate articles
 
 將工作委派給他人之前，建議您聯絡他們並通知他們他們將被指定為您工作專案的代理人。 在委派工作前要求他們口頭核准，以確保他們有必要的時間，在您外出時完成工作。
 
-如需委派任務和問題的一般資訊，請參閱 [委派任務和問題總覽](delegate-work.md).
+如需委派任務和問題的一般資訊，請參閱 [委派任務和問題總覽](/help/quicksilver/manage-work/delegate-work/delegate-work-overview.md).
 
 若要將您的任務和問題委派給其他人：
 
@@ -102,9 +106,9 @@ I wrote thhis as a "Manage..." article and I did not add three separate articles
 
 1. 在 [!UICONTROL **委派任務和問題**] 索引標籤中，更新下列專案：
 
-   * [!UICONTROL **將您的任務和問題委派給**]：開始輸入您希望將您的任務和問題委派給的使用者名稱，然後在其顯示在清單中時選取它。 您只能選取一個使用者。\
+   * [!UICONTROL **將您的任務和問題委派給**]：開始輸入您希望將您的任務和問題委派給的使用者名稱，然後在其顯示在清單中時選取它。 您只能選取一個使用者。
 
-     您選取作為委派的使用者會收到與您委派給他們的任務和問題之許可權相同的許可權。 如需詳細資訊，請參閱 [委派任務和問題總覽](delegate-work-overview.md).
+     您選取作為委派的使用者會收到與您委派給他們的任務和問題之許可權相同的許可權。
 
    * [!UICONTROL **開始日期**]：從行事曆選取開始委派工作專案的日期。
 
@@ -118,24 +122,24 @@ I wrote thhis as a "Manage..." article and I did not add three separate articles
 
      >[!TIP]
      >
-     >未選取「結束日期」只會啟用當天的委派。
+     >如果您將「結束日期」欄位保留空白，而未選取「無結束日期」選項，則委派僅會針對當天設定。
 
      ![](assets/delegate-box-expanded-in-home.png)
 
-1. 按一下&#x200B;[!UICONTROL **儲存**]。
+1. 按一下「[!UICONTROL **儲存**]」。
 
    會發生下列情況：
 
    * 您的工作已委派給指定的使用者。 任何日期在您選取的時間範圍內（包括啟用委派後新指派的任務）的未完成任務或問題都會被委派。
 
-   >[!TIP]
-   >
-   >   日期在委派時間範圍內的已完成工作專案不會委派。
+     >[!TIP]
+     >
+     >   日期在委派時間範圍內的已完成工作專案不會委派。
 
 
    * 您會在畫面的右上角收到一則訊息，確認您已啟用將您的工作委派給其他使用者。 委派使用者的名稱會顯示在確認訊息中。
 
-   * 在大多數您可以看到指派的區域中，會顯示您的任務和問題已委派給其他使用者的指示。 [!DNL Workfront]. 如需關於哪些區域不包含代理人名稱的詳細資訊，請參閱 [委派任務和問題總覽](delegate-work-overview.md).
+   * 在大多數您可以看到指派的區域中，會顯示您的任務和問題已委派給其他使用者的指示。 [!DNL Workfront]. 如需關於哪些區域不包含代理人名稱的詳細資訊，請參閱 [委派工作概覽](delegate-work-overview.md).
 
    * 此 [!UICONTROL **委派**] 中的按鈕 [!UICONTROL 首頁] 區域變更為 [!UICONTROL **編輯委派**] 表示已有委派。
    <!--
@@ -151,9 +155,6 @@ I wrote thhis as a "Manage..." article and I did not add three separate articles
    * 如果您選取作為委派的使用者已啟用其事件通知，則該使用者會收到有關委派的電子郵件。
 
      如需啟用個人電子郵件通知的相關資訊，請參閱 [修改您自己的電子郵件通知](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
-
-
-
 
 ## 編輯或停止委派
 
@@ -201,9 +202,9 @@ I wrote thhis as a "Manage..." article and I did not add three separate articles
 
 * 任務或問題標題
 
-  ![](assets/assignments-and-delegates-panel-in-task-header.png)
-
   此 [!UICONTROL 指定任務] 任務或問題標題中的欄位變更為 [!UICONTROL 指派與委派].
+
+  ![](assets/assignments-and-delegates-panel-in-task-header.png)
 
 * 此 [!UICONTROL 工作負載平衡器] 手動指派任務或問題時
 
@@ -232,8 +233,8 @@ I wrote thhis as a "Manage..." article and I did not add three separate articles
    ![](assets/delegated-to-me-or-by-me-filters-in-home.png)
 
 1. 按一下 [!UICONTROL 排序] 下拉式功能表，依下列條件排序清單：
-   * [!UICONTROL 已計劃完成]. 這是預設的排序選項。
-   * [!UICONTROL 規劃開始日期]
+   * [!UICONTROL 計畫完成]. 這是預設的排序選項。
+   * [!UICONTROL 計劃開始]
    * [!UICONTROL 認可日期]
    * [!UICONTROL 專案]
    * [!UICONTROL 我的優先順序]

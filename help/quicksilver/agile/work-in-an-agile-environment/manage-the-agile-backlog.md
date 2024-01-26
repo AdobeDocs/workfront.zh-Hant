@@ -1,34 +1,34 @@
 ---
 product-area: agile-and-teams
 navigation-topic: work-in-an-agile-environment
-title: 管理敏捷積壓
-description: 任務和問題可以指派給敏捷團隊，並根據團隊使用的敏捷方法，以故事形式新增至該團隊的積壓工作中。
+title: 管理敏捷待處理專案
+description: 任務和問題可以指派給敏捷團隊，並根據團隊使用的敏捷方法以該團隊的待辦專案為單位新增。
 author: Lisa
 feature: Agile
 exl-id: 59660840-7ab8-482e-8b43-96b4a1ecc538
-source-git-commit: b855f032b24079ff27435fb833cd3ed8a382a77c
+source-git-commit: 3c7bdcc1dc2a3a0db62a175ec11d4d6701acbb53
 workflow-type: tm+mt
-source-wordcount: '1376'
+source-wordcount: '1360'
 ht-degree: 0%
 
 ---
 
-# 管理敏捷積壓
+# 管理敏捷待處理專案
 
-可根據團隊使用的敏捷方法，將下列工作項目指派給敏捷團隊，並以動態形式添加到該團隊的積壓工作中：
+以下工作專案可指派給敏捷團隊，並根據團隊使用的敏捷方法，以劇本形式新增到該團隊的待辦專案中：
 
-* **[!UICONTROL 敏捷戰鬥隊]:** 可將任務和問題指派給敏捷團隊，並新增至積壓工作。
-* **[!UICONTROL 看板敏捷團隊]:** 可將任務分配給敏捷團隊，並添加到積壓工作中。 使用者可以直接從敏捷故事板檢視積壓，如 [[!UICONTROL 添加積壓] 看板板](../../agile/use-kanban-in-an-agile-team/view-the-backlog-on-the-kanban-board.md). 該團隊使用此積壓工作來優先處理和管理其工作隊列。
+* **[!UICONTROL Scrum敏捷團隊]：** 可以將任務和問題指派給敏捷團隊並新增到待辦專案中。
+* **[!UICONTROL Kanban敏捷團隊]：** 任務可以指派給敏捷團隊並新增到待辦專案中。 使用者可以直接從敏捷故事板檢視待處理專案，如所述 [[!UICONTROL 新增待處理專案] 至Kanban面板](../../agile/use-kanban-in-an-agile-team/view-the-backlog-on-the-kanban-board.md). 團隊使用此待處理專案來排定優先順序並管理其工作佇列。
 
-可以從以下位置將任務或問題指派給團隊（並隨後新增至團隊積壓）: [!DNL Adobe Workfront]. 例如，單個團隊可能被從多個項目中分配工作分配。
+任務或問題可以從中的任何位置指派給團隊（並隨後新增到團隊待辦專案中）。 [!DNL Adobe Workfront]. 例如，一個團隊可能被指派來自多個專案的工作指派。
 
 >[!NOTE]
 >
->如果向積壓物料添加多個團隊，則任務或問題僅顯示在主要團隊的積壓上。 主要團隊是先指派的團隊。
+>如果您將多個團隊新增至待處理專案，則任務或問題僅會顯示在主要團隊的待處理專案中。 主要團隊是先指派的團隊。
 
 ## 存取需求
 
-您必須具備下列存取權，才能執行本文中的步驟：
+您必須具有下列存取權才能執行本文中的步驟：
 
 <table style="table-layout:auto"> 
  <col> 
@@ -37,101 +37,98 @@ ht-degree: 0%
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] 計劃*</strong></td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] 計劃</strong></td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] 授權*</strong></td> 
-   <td> <p>[!UICONTROL工作]或更高版本</p> </td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] 授權</strong></td> 
+   <td> <p>新增：[！UICONTROL Standard]</p><p>或</p><p>目前： [！UICONTROL Work]或更高版本</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>訪問級別配置*</strong></td> 
-   <td> <p>[!UICONTROL Worker]或更高版本</p> <p>注意：如果您仍無法存取，請詢問您的 [!DNL Workfront] 管理員。 若要了解 [!DNL Workfront] 管理員可修改您的存取層級，請參閱 <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>.</p> </td> 
+   <td role="rowheader"><strong>存取層級設定</strong></td> 
+   <td> <p>新增：[！UICONTROL Standard]</p><p>或</p><p>目前： [！UICONTROL Worker]或更高版本</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>物件權限</strong></td> 
-   <td> <p>[!UICONTROL管理]對文章所在項目的訪問</p> <p>有關請求其他訪問的資訊，請參閱 <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">請求對對象的訪問 </a>.</p> </td> 
+   <td role="rowheader"><strong>物件許可權</strong></td> 
+   <td> <p>[！UICONTROL Manage]內文所在專案的存取權</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;若要了解您擁有的計畫、授權類型或存取權，請聯絡您的 [!DNL Workfront] 管理員。
+如需有關此表格的詳細資訊，請參閱 [Workfront檔案中的存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-## 建立和管理積壓工作的動態
+## 建立和管理待處理專案上的劇本
 
-* [重新排序動態](#reorder-stories)
-* [[!UICONTROL 插播] 故事](#break-down-stories)
-* [編輯動態](#edit-stories)
-* [建立關於積壓的新動態](#create-new-stories-on-the-backlog)
-* [將物料從積壓移至小版本或看板板](#move-stories-from-the-backlog-to-an-iteration-or-kanban-board)
+* [重新排序劇本](#reorder-stories)
+* [[!UICONTROL 劃分] 劇本](#break-down-stories)
+* [編輯劇本](#edit-stories)
 
-### 重新排序動態 {#reorder-stories}
+### 重新排序劇本 {#reorder-stories}
 
-您可以使用拖放方法，重新排序積壓清單中的動態。
+您可以使用拖放方式，重新排序待處理專案清單中的劇本。
 
-1. 轉至要重新排序動態的敏捷積壓工作。
-1. 在 **[!UICONTROL 檢視]** 下拉式功能表，選取 **[!UICONTROL 積壓]** 檢視或包含 **[!UICONTROL 順序]** 欄。
+1. 前往您要重新排序劇本的敏捷待辦專案。
+1. 在 **[!UICONTROL 檢視]** 下拉式功能表，選取 **[!UICONTROL 待處理專案]** 檢視或包含 **[!UICONTROL 訂購]** 欄。
 
    >[!NOTE]
    >
-   >如果任務或問題已分配一個敏捷的團隊，並且項目的狀態不等於「當前」，則它們不會顯示在積壓工作上。 但是，它們仍會影響「訂單」列中的積壓數量。
+   >如果任務或問題指派給敏捷團隊，且專案未處於等於目前狀態，則它們不會顯示在待辦專案中。 不過，它們仍會影響「訂單」欄中的待處理專案計數。
 
-1. 選取一或多個動態，然後將動態拖曳至您希望動態在積壓中顯示的順序。\
-   ![拖放積壓項目](assets/agile-backlog-drag-and-drop.png)
+1. 選取一或多個劇本，然後將這些劇本拖曳到您要它們顯示在待處理專案中的順序。\
+   ![拖放待處理專案](assets/agile-backlog-drag-and-drop.png)
 
-### 劃分故事 {#break-down-stories}
+### 劃分劇本 {#break-down-stories}
 
-因為積壓工作中的故事大小不同，所以用戶可以將它們分解為迭代的可操作大小。 分解動態將建立動態所代表的任務的子任務，並替換積壓工作中的原始任務。 您可以將父任務或其子任務分配給敏捷團隊，但不能同時將兩者分配給團隊。
+由於待處理專案中的內文大小不一，因此使用者可以將內文細分為可供反複專案使用的大小。 分解內文會在內文所代表的任務上建立子任務，並取代待處理專案中的原始任務。 您可以將父項任務或其子任務指派給敏捷專案團隊，但您不能將兩者同時指派給專案團隊。
 
 >[!NOTE]
 >
->劃分動態時，請考量下列限制：
+>劃分本文時，請考量下列限制：
 >
->* 只能劃分代表任務的故事。 您無法劃分代表問題的故事。
->* 只有當動態與專案相關聯時，才能加以劃分。
+>* 只能劃分代表任務的劇本。 您無法劃分代表問題的劇本。
+>* 內文必須與專案相關聯時，才能加以劃分。
 
 
+若要劃分劇本，請執行下列動作：
 
-要分解故事：
+1. 移至包含您要劃分之劇本的待處理專案。
+1. 選取您要劃分的內文，然後按一下 **[!UICONTROL 分解劇本]**.\
+   此 [!UICONTROL 分解劇本] 對話方塊隨即顯示。\
+   ![分解內文對話方塊](assets/backlog-breakdown-dialog.png)
 
-1. 轉到包含要分解的故事的積壓。
-1. 選取您要劃分的動態，然後按一下 **[!UICONTROL 劃分動態]**.\
-   此 [!UICONTROL 劃分動態] 對話框。\
-   ![劃分動態對話方塊](assets/backlog-breakdown-dialog.png)
+1. 指定內文的名稱和預估，然後選取內文是否準備就緒。
+1. 按一下 **[!UICONTROL 新增劇本]** 從原始劇本建立另一個劇本。
+1. 按一下「**[!UICONTROL 儲存]**」。
 
-1. 指定動態的名稱和估計，並選取動態是否已就緒。
-1. 按一下 **[!UICONTROL 添加動態]** 從原始故事中創作另一個故事。
-1. 按一下&#x200B;**[!UICONTROL 儲存]**。
+### 編輯劇本 {#edit-stories}
 
-### 編輯動態 {#edit-stories}
+您可以直接從編輯劇本 [!UICONTROL 劇本] 或 [!UICONTROL 問題] 如要大量編輯專案中的任何任務或問題，位於待處理專案索引標籤上，如所述 [大量編輯任務](../../manage-work/tasks/manage-tasks/edit-tasks.md#edit-tasks-in-bulk) 在 [編輯任務](../../manage-work/tasks/manage-tasks/edit-tasks.md)、和 [編輯問題](../../manage-work/issues/manage-issues/edit-issues.md).
 
-您可以直接從 [!UICONTROL 故事] 或 [!UICONTROL 問題] 按一下「積壓」頁簽，即可批量編輯項目中的任何任務或問題，如 [大量編輯任務](../../manage-work/tasks/manage-tasks/edit-tasks.md#editing-tasks-in-bulk) in [編輯任務](../../manage-work/tasks/manage-tasks/edit-tasks.md) 和 [編輯問題](../../manage-work/issues/manage-issues/edit-issues.md#bulk-editing-issues) in [編輯問題](../../manage-work/issues/manage-issues/edit-issues.md).
+## 在待處理專案上建立新劇本 {#create-new-stories-on-the-backlog}
 
-## 建立關於積壓的新動態 {#create-new-stories-on-the-backlog}
+您可以直接從待處理專案建立內文，或將現有任務或問題指派給敏捷團隊，來建立待處理專案上的新內文。
 
-您可以直接從積壓工作中建立積壓工作，或將現有任務或問題指派給敏捷團隊，從而建立積壓工作的新動態。
-
-* [從積壓工作中建立故事](#create-a-story-from-the-backlog)
+* [從待處理專案建立劇本](#create-a-story-from-the-backlog)
 * [將任務或問題指派給敏捷團隊](#assign-a-task-or-issue-to-an-agile-team)
 
-### 從積壓工作中建立故事 {#create-a-story-from-the-backlog}
+### 從待處理專案建立劇本 {#create-a-story-from-the-backlog}
 
-當您從積壓工作中建立動態時，該動態將作為任務或項目中的問題建立。 您不能從積壓工作中建立一個問題。
+當您從待處理專案建立內文時，內文會建立為專案內的任務或問題。 您無法從待處理專案中將劇本建立為問題。
 
-要從積壓工作中建立工作流，請執行以下操作：
+若要從待處理專案建立劇本，請執行下列動作：
 
-1. 按一下 **[!UICONTROL 主菜單]** 圖示 ![](assets/main-menu-icon.png) 在 [!DNL Adobe Workfront]，然後按一下 **[!UICONTROL 團隊]**.
+1. 按一下 **[!UICONTROL 主要功能表]** 圖示 ![主要功能表](/help/_includes/assets/main-menu-icon.png) 在Adobe Workfront的右上角，或（如果有的話）按一下 **[!UICONTROL 主要功能表]** 圖示 ![主要功能表](/help/_includes/assets/main-menu-icon-left-nav.png) 然後按一下「 」 **[!UICONTROL 團隊]**.
 
-1. （選用）按一下 **[!UICONTROL 交換組]** 圖示 ![切換團隊表徵圖](assets/switch-team-icon.png)，然後從下拉式選單中選取新的Scrum團隊，或在搜尋列中搜尋團隊。
+1. （可選）按一下 **[!UICONTROL 切換群組]** 圖示 ![切換群組圖示](assets/switch-team-icon.png)，然後從下拉式選單中選取新的Scrum團隊，或在搜尋列中搜尋團隊，並在團隊出現時加以選取。
 
-1. 選擇 **[!UICONTROL 積壓]** 從左側面板。
-1. 根據您要建立任務還是問題，執行下列任一操作：
+1. 選取 **[!UICONTROL 待處理專案]** 從左側面板。
+1. 根據您想要建立任務還是問題，執行下列任一操作：
 
-   * **要建立任務，請執行以下操作：** 按一下 **[!UICONTROL 故事]**.
+   * **若要建立任務：** 按一下 **[!UICONTROL 劇本]**.
 
-   * **建立問題：** 按一下 **[!UICONTROL 問題]**.
+   * **若要建立問題：** 按一下 **[!UICONTROL 問題]**.
 
-1. 按一下 **[!UICONTROL 新動態]** 或 **[!UICONTROL 新問題]**.
+1. 按一下 **[!UICONTROL 新增劇本]** 或 **[!UICONTROL 新問題]**.
 
 1. 指定下列資訊：
 
@@ -140,81 +137,86 @@ ht-degree: 0%
     <col>
     <tbody>
      <tr>
-      <td role="rowheader"><strong>[!UICONTROL文章名稱]</strong></td>
-      <td> 輸入動態名稱。</td>
+      <td role="rowheader"><strong>[！UICONTROL劇本名稱]</strong></td>
+      <td> 輸入劇本的名稱。</td>
      </tr>
      <tr>
-      <td role="rowheader"><strong>[!UICONTROL描述]</strong></td>
-      <td>（選用）輸入動態說明。</td>
+      <td role="rowheader"><strong>[！UICONTROL說明]</strong></td>
+      <td>（選擇性）輸入劇本的說明。</td>
      </tr>
      <tr>
-      <td role="rowheader"><strong>[!UICONTROL就緒]</strong></td>
-      <td> 選擇文章是否準備好添加到小版本。 此設定僅提供資訊。 無論此設定的狀態如何，文章都可以新增至小版本。</td>
+      <td role="rowheader"><strong>[！UICONTROL就緒]</strong></td>
+      <td> 選取內文是否準備好新增至反複專案。 此設定僅供參考。 無論此設定的狀態為何，內文都可以新增至反複專案。</td>
      </tr>
      <tr>
-      <td role="rowheader"><strong>[!UICONTROL估計]</strong></td>
-      <td>指定動態的點數或每小時預估。 估計值會影響燃耗圖。 只有每個文章包含準確的估計時，迭代的燃耗圖才準確。 （如果您提供點估計值，則必須已在團隊設定中指定每個點代表的小時數。）</td>
+      <td role="rowheader"><strong>[！UICONTROL估計]</strong></td>
+      <td>指定劇本的點數或每小時預估。 預估會影響待執行工作圖表。 只有當每個內文都包含正確的估計時，疊代的待執行工作圖表才會準確。 （如果您提供點數預估，則必須在專案團隊設定中指定每個點代表的時數。）</td>
      </tr>
      <tr>
-      <td role="rowheader"><strong>[!UICONTROL父項項目]</strong></td>
-      <td>開始輸入要建立此動態的專案名稱，然後在下拉式清單中出現時按一下名稱。<br>項目的狀態必須設定為[!UICONTROL當前]。 如果專案的狀態為[!UICONTROL目前]以外的任何值，則下拉式功能表中不會顯示它。</td>
+      <td role="rowheader"><strong>[！UICONTROL父專案]</strong></td>
+      <td>開始輸入將建立此劇本的專案名稱，然後在名稱出現在下拉式清單中時按一下該名稱。<br>專案狀態必須設定為[！UICONTROL目前]。 如果專案狀態不是[！UICONTROL目前]，則不會顯示在下拉式功能表中。</td>
      </tr>
      <tr>
-      <td role="rowheader"><strong>[!UICONTROL父任務]</strong></td>
-      <td>（可選）開始鍵入此動態所屬的父任務的名稱，然後在下拉清單中顯示該名稱時按一下該名稱。</td>
+      <td role="rowheader"><strong>[！UICONTROL父系任務]</strong></td>
+      <td>（選擇性）開始輸入此內文所屬之父系工作的名稱，然後在名稱出現在下拉式清單中時按一下該名稱。</td>
      </tr>
      <tr>
-      <td role="rowheader"><strong>[!UICONTROL自訂Forms]</strong></td>
-      <td> （選用）選取您要新增至此動態的任何自訂表單。</td>
+      <td role="rowheader"><strong>[！UICONTROL自訂Forms]</strong></td>
+      <td> （選擇性）選取您要新增至本文的任何自訂表格。</td>
      </tr>
     </tbody>
    </table>
 
-1. 按一下 **[!UICONTROL 儲存動態]**.
+1. 按一下 **[!UICONTROL 儲存劇本]**.
 
 ### 將任務或問題指派給敏捷團隊 {#assign-a-task-or-issue-to-an-agile-team}
 
-您可以將任務或問題指派給敏捷團隊。 分配任務或問題後，該任務或問題將以新的動態形式顯示在團隊積壓工作上。
+您可以將任務或問題指派給敏捷團隊。 指派後，任務或問題會在團隊待辦專案中顯示為新劇本。
 
-要將任務或問題分配給敏捷團隊，請執行以下操作：
+若要將任務或問題指派給敏捷團隊：
 
-1. 轉到包含要重新分配的任務的項目。
-1. 在清單中選擇任務或問題。
+1. 移至包含您要指派之任務的專案。
+1. 選擇清單中的任務或問題。
 1. 按一下 **[!UICONTROL 編輯]**.
-1. 按一下 **[!UICONTROL 分配]**.
-1. （可選）刪除任何現有受分配者。
-1. 按一下 **[!UICONTROL 新增受託人]**.
-1. 開始鍵入要分配給任務或問題的敏捷團隊的名稱，然後在下拉清單中出現團隊名稱時按一下該團隊名稱。
-1. 按一下 **[!UICONTROL 儲存變更]**.\
-   該任務或問題現在可用於團隊積壓。
+1. 按一下 **[!UICONTROL 指定任務]**.
+1. （選用）刪除任何現有的受指派人。
+1. 按一下 **[!UICONTROL 新增被指定者]**.
+1. 開始輸入您要指派給任務或問題的敏捷團隊名稱，然後按一下出現在下拉清單中的團隊名稱。
+1. 按一下「**[!UICONTROL 儲存變更]**」。\
+   團隊待處理專案現在提供任務或問題。
 
-## 將積壓工作中的動態移到迭代或+展示板 {#move-stories-from-the-backlog-to-an-iteration-or-kanban-board}
+## 將劇本移入或移出待處理專案
 
-* [將現有動態移到積壓工作](#move-existing-stories-to-the-backlog)
-* [從積壓中導出故事](#export-stories-from-the-backlog)
+{#move-stories-from-the-backlog-to-an-iteration-or-kanban-board}
 
-1. 去處理敏捷團隊的積壓問題。
-1. 選擇要移至小版本或看板板的動態，然後按一下 **[!UICONTROL 更多]** > **[!UICONTROL 移至]**.\
-   如果把故事 [!UICONTROL 看板] 董事會， [!UICONTROL 將動態移至看板] 顯示展示板。\
-   如果將文章移到迭代，則 [!UICONTROL 將文章移動到迭代] 對話框。\
-   ![移動文章對話框](assets/agile-backlog-addtoiteration.png)
+* [將內文從待處理專案移至反複專案或+展示板](#move-stories-from-the-backlog-to-an-iteration-or--board)
+* [將現有劇本移至待處理專案](#move-existing-stories-to-the-backlog)
+* [從待處理專案匯出劇本](#export-stories-from-the-backlog)
 
-1. 執行下列任一操作：
+### 將內文從待處理專案移至反複專案或+展示板
 
-   * **Scrum團隊：** 在 **[!UICONTROL 選擇迭代]** 欄位中，選擇要移動文章的小版本。
+1. 前往敏捷團隊的待辦專案。
+1. 選取您要移至反複專案或Kanban展示板的劇本，然後按一下 **[!UICONTROL 更多]** > **[!UICONTROL 移至]**.\
+   如果移動本文至 [!UICONTROL Kanban] 展示板， [!UICONTROL 將劇本移至Kanban] 顯示展示板。\
+   如果移動本文至反複專案，則 [!UICONTROL 移動本文至反複專案] 對話方塊隨即顯示。\
+   ![移動內文對話方塊](assets/agile-backlog-addtoiteration.png)
 
-   * **看板小組：** 在 **[!UICONTROL 選擇看板板]** 欄位，選取您的團隊 [!UICONTROL 看板] 展示板。 (看板小組只能有一個 [!UICONTROL 看板] 展示板。)
+1. 執行下列任一項作業：
 
-1. 按一下 **[!UICONTROL 移動動態]**.
+   * **對於Scrum團隊：** 在 **[!UICONTROL 選取反複專案]** 欄位，選取您要移動內文的疊代。
 
-### 將現有動態移到積壓工作 {#move-existing-stories-to-the-backlog}
+   * **對於Kanban團隊：** 在 **[!UICONTROL 選取Kanban面板]** 欄位，選取您的團隊 [!UICONTROL Kanban] 展示板。 (Kanban團隊只能有一個 [!UICONTROL Kanban] 展示板。)
 
-如果您決定您的團隊尚未準備好處理動態，您可以將動態移至積壓工作。
+1. 按一下 **[!UICONTROL 移動劇本]**.
 
-如需詳細資訊，請參閱 [敏捷的故事](../../agile/work-in-an-agile-environment/move-an-agile-story.md).
+### 將現有劇本移至待處理專案 {#move-existing-stories-to-the-backlog}
 
-### 從積壓中導出故事 {#export-stories-from-the-backlog}
+如果您決定您的團隊尚未準備好處理劇本，您可以將劇本移至待處理專案。
 
-您可以直接從積壓工作中匯出一或多個動態（包括任務和問題）。
+如需詳細資訊，請參閱 [移動敏捷劇本](../../agile/work-in-an-agile-environment/move-an-agile-story.md).
 
-從積壓工作中匯出動態的方式與將其他資料匯出至 [!DNL Workfront]，如 [匯出資料](../../reports-and-dashboards/reports/creating-and-managing-reports/export-data.md).
+### 從待處理專案匯出劇本 {#export-stories-from-the-backlog}
+
+您可以直接從待處理專案匯出一或多個劇本（包括任務和問題）。
+
+從待處理專案匯出劇本的方式與匯出其他資料的方式相同 [!DNL Workfront]，如所述 [匯出資料](../../reports-and-dashboards/reports/creating-and-managing-reports/export-data.md).

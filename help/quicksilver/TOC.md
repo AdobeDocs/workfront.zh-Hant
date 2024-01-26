@@ -3,9 +3,9 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文件、教學課程和其他資源，了解如何在您的組織中實施並有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: 1d760fbad6633fac988278b14d630a0aad3f4b76
+source-git-commit: 6a734a7e8f8b1e717c5ec02fc803a14057f5a052
 workflow-type: tm+mt
-source-wordcount: '13881'
+source-wordcount: '13885'
 ht-degree: 1%
 
 ---
@@ -1073,7 +1073,7 @@ ht-degree: 1%
       * [敏捷的秘訣、技巧和疑難排解](agile/tips-tricks-and-troubleshooting/tips-tricks-troubleshooting-agile.md)
       * [自訂狀態未顯示在敏捷故事板上](agile/tips-tricks-and-troubleshooting/custom-status-does-not-show.md)
 * 檔案 {#documents}
-   * [文件](documents/documents-overview.md)
+   * [檔案：文章索引](documents/documents-overview.md)
    * 新增檔案至Adobe Workfront {#add-new-documents-to-workfront}
       * [新增檔案至Adobe Workfront](documents/adding-documents-to-workfront/add-new-documents--to-workfront.md)
       * [從您的檔案系統新增檔案至Adobe Workfront](documents/adding-documents-to-workfront/add-documents-from-file-system.md)
@@ -1322,7 +1322,7 @@ ht-degree: 1%
          * [將里程碑與任務建立關聯](manage-work/tasks/manage-tasks/associate-milestones-with-tasks.md)
          * [將任務轉換為專案](manage-work/tasks/manage-tasks/convert-task-to-project.md)
       * 任務限制 {#task-constraints}
-         * [任務限制](manage-work/tasks/task-constraints/task-constraints.md)
+         * [任務限制：文章索引](manage-work/tasks/task-constraints/task-constraints.md)
          * [任務限制總覽](manage-work/tasks/task-constraints/task-constraint-overview.md)
          * [任務限制總覽：開始時間不晚於](manage-work/tasks/task-constraints/start-no-later-than.md)
          * [任務限制總覽：開始時間不得早於](manage-work/tasks/task-constraints/start-no-earlier-than.md)

@@ -7,14 +7,16 @@ description: 身為專案經理，您可以使用收費率來擷取專案的收�
 author: Alina, Lisa
 feature: Work Management
 exl-id: 400abcde-e368-4a70-89a9-05027900ab81
-source-git-commit: f66a6c340d8789db447c860d995d9836a30eeeb0
+source-git-commit: c485676fb5584e8438823e9ce0c28b551f6bab45
 workflow-type: tm+mt
-source-wordcount: '3657'
+source-wordcount: '3691'
 ht-degree: 0%
 
 ---
 
 # 帳單與收入概要
+
+<!-- Audited: 1/2024 -->
 
 {{highlighted-preview}}
 
@@ -26,7 +28,7 @@ ht-degree: 0%
 
 處理計費率時，請考慮下列各項：
 
-* 您需要具有編輯財務資料存取權的計畫授權，才能管理收費率。\
+* 您需要Plan或Standard授權，具有編輯財務資料的存取權，才能管理收費率。\
   如需授與財務資料存取權的詳細資訊，請參閱 [授予財務資料的存取權](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).
 
 * 收費率是與工作角色或使用者相關之每個工作單位的收入金額。
@@ -62,13 +64,13 @@ ht-degree: 0%
 
 ### 工作角色收費率 {#job-role-billing-rates}
 
-身為Adobe Workfront管理員，當您建立職務角色時，可以透過指定「每小時計費」欄位的值以及費率的日期，將其與日期有效的「計費費率」建立關聯。
+身為Adobe Workfront管理員，當您建立職務角色時，可以透過指定「每小時開立帳單」欄位的值以及費率的日期，將其與日期生效的「開立帳單費率」建立關聯。
 
 您可以使用Workfront系統的基本貨幣或其他自訂貨幣來定義工作角色收費率的值。
 
 如需建立工作角色和覆寫其貨幣的詳細資訊，請參閱本文 [建立和管理職位角色](../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).
 
-![編輯工作角色成本和計費率](assets/edit-job-role-multiple-billing-rates.png)
+![編輯工作角色成本和計費率](assets/edit-job-role-multiple-billing-rates-new.png)
 
 ### 專案或任務的固定收費率 {#fixed-billing-rates-for-projects-or-tasks}
 
@@ -108,23 +110,23 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">計畫收入</td> 
-   <td> <p>對於任務，這是與任務的計畫時數關聯的收入。 所有任務的計畫時數會累計至專案的計畫時數，以貢獻專案計畫時數的計算。 </p> <p>如需Workfront中計畫時數的詳細資訊，請參閱 <a href="../../../manage-work/tasks/task-information/planned-hours.md" class="MCXref xref">計畫時數概觀</a>. </p> <p>Workfront使用此公式計算任務的計畫收入：</p>
-   <p><code>Task Planned Revenue = Planned Hours * Billing hourly rate</code><p> <p><strong>注意</strong></br> 公式中的帳單小時費率會考量費率的任何日期有效變更。</p> <p>Workfront會使用下列公式計算專案的計畫收入：</p> <p><code>Project Planned Revenue = SUM (All tasks Planned Revenue) + Fixed Revenue</code></p>
+   <td role="rowheader">規劃收入</td> 
+   <td> <p>對於任務，這是與任務的計畫時數關聯的收入。 所有任務的計畫時數會累計至專案的計畫時數，以貢獻專案計畫時數的計算。 </p> <p>如需Workfront中計畫時數的詳細資訊，請參閱 <a href="../../../manage-work/tasks/task-information/planned-hours.md" class="MCXref xref">計畫時數概觀</a>. </p> <ul><li><p>Workfront使用此公式計算任務的計畫收入：</p>
+   <p><code>Task Planned Revenue = Planned Hours * Billing hourly rate</code><p> <p><strong>注意</strong></br> 公式中的帳單小時費率會考量費率的任何日期有效變更。</p> </li><li><p>Workfront會使用下列公式計算專案的計畫收入：</p> <p><code>Project Planned Revenue = SUM (All tasks Planned Revenue) + Fixed Revenue</code></p>
    <p><b>附註</b>
 
-<p>顯示在「專案詳細資訊」區域和專案報表中的專案計畫收入，與「使用率」報表中顯示的計畫收入不同。 </p> <p>專案詳細資訊區域中的計畫收入反映與任務計畫時數以及專案的固定收入相關的任務收入。 「使用率報表」中的「計畫收入」僅顯示與專案上任務指派之計畫時數相關聯的計畫收入。 </p> 
+<p>顯示在「專案詳細資訊」區域和專案報表中的專案計畫收入，與「使用率」報表中顯示的計畫收入不同。 </p></li></ul> <p>專案詳細資訊區域中的計畫收入反映與任務計畫時數以及專案的固定收入相關的任務收入。 「使用率報表」中的「計畫收入」僅顯示與專案上任務指派之計畫時數相關聯的計畫收入。 </p> 
      <div class="example" data-mc-autonum="<b>Example: </b>"> 
       <p>如果專案有1個時數為10的任務，指派給顧問時數為$20的費率，且專案有$100的固定收入，則「使用率」報表會顯示計畫收入$200 （與任務時數相關的計畫收入）。 專案詳細資訊區段顯示$300 （任務的計畫收入與專案的固定收入）。 </p> 
      </div> </p> <p>任務計畫收入使用指派給任務的使用者或工作角色的計費小時費率計算。 任務的收入型別會影響用於計算計畫收入的比率（使用者或角色）。 如需詳細資訊，請參閱本文中的下列章節：</p> 
     <ul> 
      <li> <p><a href="#overview-of-task-revenue-types" class="MCXref xref">作業收入型態概要</a> </p> </li> 
      <li> <p><a href="#revenue-calculations-for-tasks-based-on-user-and-role-assignments" class="MCXref xref">根據使用者和角色指派的任務收入計算</a> </p> </li> 
-    </ul> <p>如需「使用率」報表中計畫收入計算的相關資訊，請參閱 <a href="../../../resource-mgmt/resource-utilization/view-utilization-information.md" class="MCXref xref">檢視資源使用率資訊 </a>. </p> </td> 
+    </ul> <p>如需「使用率」報表中計畫收入計算的相關資訊，請參閱 <a href="../../../resource-mgmt/resource-utilization/view-utilization-information.md" class="MCXref xref">檢視資源使用率資訊</a>. </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">實際收入*</td> 
-   <td> <p>與任務、問題和專案的實際小時數相關聯。 </p> <p>一般而言，Workfront會使用此公式來計算實際收入：</p> <p><code>Actual Revenue = Actual Hours * Billing rate</code> </p> <p><strong>注意</strong></br> 公式中的帳單小時費率會考量費率的任何日期有效變更。</p> <p>如需「使用率報表」中實際收入計算的資訊，請參閱 <a href="../../../resource-mgmt/resource-utilization/view-utilization-information.md" class="MCXref xref">檢視資源使用率資訊 </a>. </p> <p><b>秘訣</b>
+   <td> <p>與任務、問題和專案的實際時數相關聯的收入。 </p> <p>一般而言，Workfront會使用此公式來計算實際收入：</p> <p><code>Actual Revenue = Actual Hours * Billing rate</code> </p> <p><strong>注意</strong></br> 公式中的帳單小時費率會考量費率的任何日期有效變更。</p> <p>如需「使用率報表」中實際收入計算的資訊，請參閱 <a href="../../../resource-mgmt/resource-utilization/view-utilization-information.md" class="MCXref xref">檢視資源使用率資訊</a>. </p> <p><b>秘訣</b>
 
 您無法檢視問題層級的「實際收入」，但與問題上的「實際時數」相關的收入會貢獻專案的「實際收入」。 </p> </td>
 </tr> 
@@ -167,7 +169,7 @@ ht-degree: 0%
  <col> 
  <thead> 
   <tr> 
-   <th> <p><strong>收入類型</strong> </p> </th> 
+   <th> <p><strong>收入型別</strong> </p> </th> 
    <th> <p><strong>說明</strong> </p> </th> 
   </tr> 
  </thead> 
@@ -177,7 +179,7 @@ ht-degree: 0%
    <td> <p>此型別可用於專案和任務。 </p> <p>將範本附加至專案時，範本的「固定收入」會新增至專案的「固定收入」。 如需詳細資訊，請參閱 <a href="../../../manage-work/projects/create-and-manage-templates/attach-template-to-project-overview.md" class="MCXref xref">將範本附加至專案的概觀</a>. </p> <p>對於任務，無論任務指派為何，都會使用任務上指定的固定金額來計算任務上的收入。 </p> <p>子系任務的「固定收入」會累計至父系任務的收入，然後再累計至專案的收入。 如果在父系任務和/或專案上定義了固定金額，則會將該金額新增到從任何子系任務累計的計畫收入中。</p> <p>任務的固定收入金額可以包含在專案的記帳記錄中。</p> </td> 
   </tr> 
   <tr> 
-   <td> <p>使用者小時</p> </td> 
+   <td> <p>使用者每小時</p> </td> 
    <td> <p>此型別僅能用於工作。 </p> <p>您為特定使用者設定的收費率，乘以該任務的計畫時數，便成為任務的計畫收入金額。 您為特定使用者設定的收費率，乘以使用者針對任務記錄的時數，即為任務的「實際收入」金額。 <br>例如，當您建立使用者並為其每小時付費欄位設定$20時，如果使用者為時程表上的任務提交5小時，則該任務的實際付費金額為$100。</p>
    <p>使用者設定檔可包含具有有效日期的多個計費費率。 例如，第一個使用者收費率$20於2023年4月30日結束，第二個使用者收費率$25於2023年5月1日開始。 若使用者於4月28日提交2小時，並於5月2日提交3小時，則任務的「實際帳單」金額為$40 + $75 = $115。</p>
    <p><b>秘訣</b>
@@ -185,7 +187,7 @@ ht-degree: 0%
 這是您建立任務時的預設收入型別。</p> </td>
 </tr> 
   <tr> 
-   <td> <p>角色小時</p> </td> 
+   <td> <p>角色每小時</p> </td> 
    <td> <p>此型別僅能用於工作。</p> <p>此型別類似於「每小時使用者」，但使用工作角色費率而非使用者費率。</p> <p><strong>注意</strong><br>職務角色也可以有多個具有有效日期的計費率。</p></td> 
   </tr> 
   <tr> 
@@ -205,11 +207,11 @@ ht-degree: 0%
    <td> <p>此型別僅能用於工作。 </p> <p>任務會依角色每小時計費，但會有額外的「固定金額」可新增至角色費率。 在任務上指定的「固定金額」可包含在專案的記帳記錄中。 固定數量不會乘以任務的時數。 只有工作角色收費率可以。 </p> </td> 
   </tr> 
   <tr> 
-   <td> <p>固定小時</p> </td> 
+   <td> <p>固定每小時</p> </td> 
    <td> <p>此型別僅能用於工作。</p> <p>您為任務設定的上限或固定金額乘以針對任務輸入的小時數（無論使用者或其工作角色為何）即為計費金額。</p> </td> 
   </tr> 
   <tr> 
-   <td> <p>不可記帳</p> </td> 
+   <td> <p>不可計費</p> </td> 
    <td> <p>此型別僅能用於工作。</p> <p>此收入型別對收入沒有影響。 </p> <p>如果父物件有此設定，則具有計費型別的子工作仍會正常套用。</p> <p>當沒有財務資料存取許可權的使用者或沒有範本財務許可權的使用者從該範本建立專案時，這是專案上任務的預設「收入型別」。</p> <p>如需有關存取財務資料的資訊，請參閱文章 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md" class="MCXref xref">授予財務資料的存取權</a>.<br>如需物件的財務許可權相關資訊，請參閱文章 <a href="../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md" class="MCXref xref">物件許可權共用概觀</a>.<br>如需有關從範本建立專案的資訊，請參閱文章 <a href="../../../manage-work/projects/create-projects/create-project-from-template.md" class="MCXref xref">使用範本建立專案</a>. </p> </td> 
   </tr> 
  </tbody> 
@@ -246,7 +248,7 @@ ht-degree: 0%
 
 有一個階層，其費率會根據任務指派用於收入計算。
 
-如果您的Workfront管理員已啟用 **手動指派工作角色到時數專案** 時程表和時數偏好設定區域中的設定，以及專案上的使用者記錄時間會選取與此時關聯的不同角色，任務或專案的實際收入一律根據與時數專案關聯的角色進行計算。 如需有關為特定工作角色啟用記錄時間的資訊，請參閱文章 [時程表和小時喜好設定](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
+如果您的Workfront管理員已啟用 **手動指派工作角色到時數專案** 時程表和時數偏好設定區域中的設定，以及專案上的使用者記錄時間會選取與此時關聯的不同角色，任務或專案的實際收入一律根據與時數專案關聯的角色進行計算。 如需有關為特定工作角色啟用記錄時間的資訊，請參閱文章 [設定時程表和小時偏好設定](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
 
 根據「收入型別」與任務指派的性質來計算任務收入時，會出現下列案例：
 

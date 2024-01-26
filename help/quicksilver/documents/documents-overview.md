@@ -2,20 +2,22 @@
 content-type: overview;reference
 product-area: documents
 navigation-topic: documents-navigation-topic
-title: 文件
+title: 「檔案：文章索引」
 description: 瞭解如何使用檔案。
 author: Courtney
 feature: Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 75635712-c237-4a83-9ab0-fe37c8069284
-source-git-commit: bcafa607da733b89747f6b448dd295d9b906d060
+source-git-commit: 0e6ffd54fdbe968d48d27dc7e0a5501579f50f8d
 workflow-type: tm+mt
-source-wordcount: '35'
-ht-degree: 5%
+source-wordcount: '39'
+ht-degree: 0%
 
 ---
 
-# 文件
+# 檔案：文章索引
+
+<!-- Audited: 1/2024 -->
 
 本節包含下列子章節：
 

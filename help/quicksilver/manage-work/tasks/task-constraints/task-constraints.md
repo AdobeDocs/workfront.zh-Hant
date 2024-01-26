@@ -2,24 +2,24 @@
 content-type: reference
 product-area: projects
 navigation-topic: tasks
-title: 任務限制
+title: 「任務限制：文章索引」
 description: 任務限制決定任務在專案上何時開始和結束。 您可以使用數個「任務限制」來指示任務應該何時開始和結束。 如需Workfront中所有任務限制的相關資訊，請參閱下列文章。
 author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: 2e37b051-00ff-4784-bd8b-1897bb4ac80b
-source-git-commit: b08377e539b04e896e84d17f46d2c941b0f66731
+source-git-commit: 42601f701e4109320e9e7b3f3f4275dee59bad97
 workflow-type: tm+mt
-source-wordcount: '171'
+source-wordcount: '169'
 ht-degree: 0%
 
 ---
 
-# 任務限制
+# 任務限制：文章索引
+
+<!-- Audited: 1/2024 -->
 
 任務限制決定任務在專案上何時開始和結束。 您可以使用數個「任務限制」來指示任務應該何時開始和結束。 如需Workfront中所有任務限制的相關資訊，請參閱下列文章：
-
-本節包含下列文章：
 
 * [任務限制總覽](../../../manage-work/tasks/task-constraints/task-constraint-overview.md)
 * [更新任務的任務限制](../../../manage-work/tasks/task-constraints/update-task-constraint-of-task.md)
