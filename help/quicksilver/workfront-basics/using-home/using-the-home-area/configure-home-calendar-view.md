@@ -6,21 +6,25 @@ description: 您可以設定[首頁行事曆]設定，以與Outlook網頁版整�
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 2acd930b-5923-452e-9d8d-a6121d8d37ac
-source-git-commit: 644e2487dae0d3b2f7931660fb8e6ed68e6b8b93
+source-git-commit: 3b3ba7cc6a975af71205f7f524e1a9a91a9d3810
 workflow-type: tm+mt
-source-wordcount: '809'
+source-wordcount: '843'
 ht-degree: 1%
 
 ---
 
 # 設定您的 [!UICONTROL 首頁行事曆] 檢視設定
 
+<!--Audited: 01/2024-->
+
 您可以設定 [!UICONTROL 首頁行事曆] 進行以下操作的設定：
 
-* 與雲端託管的 [!DNL Office 365] 或 [!DNL Outlook Live] 之網頁版 [!DNL Outlook] 整合。您可以顯示Outlook行事曆及您選取的任何相關行事曆（例如生日及假日行事曆）中的所有事件。 [!UICONTROL 首頁行事曆].
+* 與雲端託管的 [!DNL Office 365] 或 [!DNL Outlook Live] 之網頁版 [!DNL Outlook] 整合。您可以顯示Outlook行事曆的所有事件，以及您在 [!UICONTROL 首頁行事曆] 在Adobe Workfront中。
 * 協助您根據以下網站提供的可用工作時數追蹤您的工作負載： [!UICONTROL 配置] 長條圖。
 
 若要深入瞭解首頁行事曆，請參閱 [[!UICONTROL 首頁行事曆] 檢視](../../../workfront-basics/using-home/using-the-home-area/home-calendar-view.md).
+
+本文說明如何設定首頁行事曆設定，以及如何將首頁行事曆與外部Outlook行事曆整合。
 
 ## 存取需求
 
@@ -33,17 +37,20 @@ ht-degree: 1%
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront plan*]</strong></td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront plan]</strong></td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] 授權*</strong></td> 
-   <td> <p>[！UICONTROL Work]或更高版本</p> </td> 
+   <td> <p>目前： [！UICONTROL Work]或更高版本</p> 
+   或
+   <p>新增：[！UICONTROL Standard]</p> 
+   </td> 
   </tr> 
- </tbody> 
+   </tbody> 
 </table>
 
-若要瞭解您擁有的計畫或授權型別，請連絡您的 [!DNL Workfront] 管理員。
+*若要瞭解您擁有的計畫或授權型別，請連絡 [!DNL Workfront] 管理員。 如需詳細資訊，請參閱 [Workfront檔案中的存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## 關於整合 [!DNL Microsoft Outlook] 行事曆
 
@@ -60,16 +67,16 @@ ht-degree: 1%
 * 出現在中的事件 [!UICONTROL 到期] 長條圖未出現在您的 [!DNL Microsoft] 除非您從「 」拖曳行事曆 [!UICONTROL 工作清單] 至您的 [!DNL Adobe Workfront] 行事曆。 如需詳細資訊，請參閱 [[!UICONTROL 到期] 長條圖](../../../workfront-basics/using-home/using-the-home-area/home-calendar-view.md#viewing-the-due-bar) 和 [上的工作清單 [!UICONTROL 首頁行事曆]](../../../workfront-basics/using-home/using-the-home-area/home-calendar-view.md#using-the-left-panel-of-the-home-view) 在 [[!UICONTROL 首頁行事曆] 檢視](../../../workfront-basics/using-home/using-the-home-area/home-calendar-view.md).
 
 * 當您啟用與的整合時 [!DNL Outlook]，僅限拖曳至 [!UICONTROL 首頁行事曆] 從那時起，將會進行同步。 在啟用整合之前位於首頁行事曆上的專案將不會顯示，如果您希望這些專案出現在中，必須將其再次拖曳到首頁行事曆上 [!DNL Outlook].
-* 當您共用（或取消共用） [!DNL Outlook] 行事曆與其他人共用或當您變更與其他人共用的行事曆的許可權層級時，此變更不會影響其行事曆約30分鐘(如需詳細資訊，請參閱 [!DNL Microsoft Outlook] 檔案)。\
+* 當您共用（或取消共用） [!DNL Outlook] 行事曆與其他人共用或當您變更與其他人共用的行事曆的許可權層級時，此變更在約30分鐘內不會影響他們的行事曆。 如需詳細資訊，請參閱 [!DNL Microsoft Outlook] 檔案。\
    因此，當您整合 [!DNL Workfront] 具有的行事曆 [!DNL Outlook] 您與其他使用者共用的行事曆，他們看不到您的 [!DNL Workfront] 行事曆專案約30分鐘。
 
 >[!NOTE]
 >
 >此 [!DNL Outlook] 行事曆設定與 [!DNL Outlook] 增益集([!UICONTROL [!DNL Outlook] 整合] 或 [!DNL Workfront Outlook])。 不需要安裝即可設定行事曆，但需要安裝 [!DNL Outlook] 增益集。 如需詳細資訊，請參閱 [!DNL Outlook] 增益集請參閱 [設定 [!DNL Adobe Workfront for Outlook]](../../../workfront-integrations-and-apps/using-workfront-with-outlook/set-up-workfront-for-outlook.md).
 
-## 設定您的 [!UICONTROL 首頁行事曆] 檢視設定
+## 設定您的 [!UICONTROL 首頁行事曆] 檢視設定並將其與Outlook行事曆整合
 
-1. 在 [!UICONTROL 首頁行事曆] 檢視，按一下 **[!UICONTROL 設定]** 齒輪圖示 ![Calendar_Settings_gear_icon.png](assets/calendar-settings-gear-icon.png) 以開啟 **[!UICONTROL 行事曆設定]** 面板的視窗右側。
+1. 在 [!UICONTROL 首頁行事曆] 檢視，按一下 **[!UICONTROL 設定]** 齒輪圖示 ![Calendar_Settings_gear_icon.png](assets/calendar-settings-gear-icon.png) 以開啟 **[!UICONTROL 行事曆設定]** 面板。
 
    如果您需要有關存取 [!UICONTROL 首頁行事曆] 檢視，請參閱 [檢視 [!UICONTROL 首頁行事曆]](../../../workfront-basics/using-home/using-the-home-area/view-home-calendar.md).
 
@@ -93,6 +100,8 @@ ht-degree: 1%
 
 1. （選用）在 **[!UICONTROL 一般]** 區段在 **[!UICONTROL 每週開始於]**，選取您要在首頁行事曆中顯示為工作週第一天的日期。
 
+   ![](assets/general-section-home-calendar-settings-panel.png)
+
 1. 設定下列選項：
 
    * **[!UICONTROL 我的工作日]：** 選取您的工作日。
@@ -101,7 +110,7 @@ ht-degree: 1%
 
    [!DNL Workfront] 會使用這三個設定來計算您一週的工作時數。 此數字會影響 [!UICONTROL 配置] 長條圖，可協助您根據可用工作時數追蹤工作負載。 如需詳細資訊，請參閱 [[!UICONTROL 配置] 長條圖](../../../workfront-basics/using-home/using-the-home-area/home-calendar-view.md#understanding-the-allocation-of-time) 在文章中 [[!UICONTROL 首頁行事曆] 檢視](../../../workfront-basics/using-home/using-the-home-area/home-calendar-view.md).
 
-1. 按一下 **[!UICONTROL 行事曆設定]** 區域將其關閉。
+1. 按一下 **[!UICONTROL 行事曆設定]** 區域以關閉它。
 
    [!DNL Workfront] 會自動儲存您的變更。
 

@@ -3,20 +3,20 @@ title: 在增強型分析中檢視資源容量視覺效果
 content-type: overview
 product-area: enhanced-analytics
 navigation-topic: enhanced-analytics-navigation-topic
-description: 「資源產能」視覺效果會顯示團隊產能是否超出、不足或不足。
+description: 在Adobe Workfront中檢視「增強型分析」資源容量視覺效果圖表時，您可以評估團隊是否超出、低於或處於容量狀態。
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 5bb45ef6-9e49-4063-8e53-c9f3bc994870
-source-git-commit: bcafa607da733b89747f6b448dd295d9b906d060
+source-git-commit: 3b3ba7cc6a975af71205f7f524e1a9a91a9d3810
 workflow-type: tm+mt
-source-wordcount: '826'
-ht-degree: 0%
+source-wordcount: '815'
+ht-degree: 1%
 
 ---
 
 # 在增強型分析中檢視資源容量視覺效果
 
-「資源產能」視覺效果會顯示團隊產能是否超出、不足或不足。
+在Adobe Workfront中檢視「增強型分析」資源容量視覺效果圖表時，您可以評估團隊是否超出、低於或處於容量狀態。
 
 ## 存取需求
 
@@ -27,33 +27,38 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><a href="https://www.workfront.com/plans" target="_blank">Adobe Workfront計畫</a>*</td> 
-   <td> <p>商務或以上版本</p> </td> 
+   <td>Adobe Workfront計畫</a>*</td> 
+   <td> <p>目前：商務或以上</p>
+   或
+   <p>新增：任何</p>
+    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><a href="../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront授權總覽</a>*</td> 
-   <td> <p>評論或以上</p> </td> 
+   <td>Adobe Workfront授權*</td> 
+   <td> <p>目前：檢閱或以上</p>
+   或
+   <p>新增：標準</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">存取層級設定*</td> 
-   <td> <p>檢視專案的存取權</p> <p>注意：如果您還是沒有存取權，請詢問您的Workfront管理員，他們是否在您的存取層級中設定其他限制。<br>如需有關Workfront管理員如何變更您的存取層級的資訊，請參閱 <a href="../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>.</p> </td> 
+   <td role="rowheader">存取層級設定</td> 
+   <td> <p>檢視專案的存取權</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">物件許可權</td> 
-   <td> <p>檢視</p> <p>如需請求其他存取許可權的詳細資訊，請參閱 <a href="../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">要求物件的存取權 </a>.</p> </td> 
+   <td> <p>檢視專案的許可權</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;若要瞭解您擁有的計畫、授權型別或存取權，請聯絡您的Workfront管理員。
+*若要瞭解您擁有的計畫、授權型別或存取權，請聯絡您的Workfront管理員。 如需詳細資訊，請參閱 [Workfront檔案中的存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-## 必要條件
+## 先決條件
 
 如需使用增強型Analytics的必要條件，請參閱 [增強型分析概述](../enhanced-analytics/enhanced-analytics-overview.md).
 
-## 瞭解資源容量視覺效果
+## 瞭解資源容量圖表
 
-「資源產能」視覺效果會顯示團隊產能是否超出、不足或不足。 這項計算是根據：
+「資源產能」圖表顯示團隊是超出、不足或產能不足。 這項計算是根據：
 
 * **可用容量**：主團隊在篩選過的時段內可工作的總時數
 
@@ -87,11 +92,11 @@ ht-degree: 0%
 
 將游標暫留在列上會顯示計畫容量和可用容量的確切小時數，以及主團隊超出或不足容量的小時數。
 
-檢視此資訊可協助您判斷：
+查看這些資訊可協助您判斷：
 
 * 如果主團隊配置過多或不足。
 * 主團隊專注的最大專案是什麼。
-* 哪些主團隊可以工作。
+* 哪些主團隊可接受工作指派。
 
 若要瞭解如何針對此視覺效果取得最佳資料，請參閱 [增強型分析概述](../enhanced-analytics/enhanced-analytics-overview.md).
 
@@ -126,7 +131,7 @@ ht-degree: 0%
 
 1. （選用）若要匯出視覺效果資料，請按一下 **「匯出」圖示** ![](assets/export.png) 然後選取匯出格式：
 
-   * **圖表 (PNG)**
+   * **圖表(PNG)**
    * **資料表格(XSLX)**
 
 1. 按一下主團隊名稱可檢視團隊容量視覺效果中的更多資訊。
