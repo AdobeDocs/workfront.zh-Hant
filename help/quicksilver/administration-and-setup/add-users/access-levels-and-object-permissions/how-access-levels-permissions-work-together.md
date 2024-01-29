@@ -6,13 +6,13 @@ product-area: system-administration
 keywords: 存取，模型，漏斗，圖表，層級，許可權
 navigation-topic: access-levels
 description: Adobe Workfront管理員會決定每個使用者應該具有的存取層級。 該存取層級會定義使用者能夠檢視的物件型別以及系統中區域的動作。
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 594e002c-19e3-4baa-b5f8-223c3fdf8ca8
-source-git-commit: 9d2165cdc9399273a4f79b90d4049f50097cadee
+source-git-commit: 09afa5808fd4078def16da7a9ccf393c99f47d03
 workflow-type: tm+mt
-source-wordcount: '901'
+source-wordcount: '873'
 ht-degree: 2%
 
 ---
@@ -21,9 +21,8 @@ ht-degree: 2%
 
 Adobe Workfront管理員會決定每個使用者應該具有的存取層級。 該存取層級會定義使用者能夠檢視的物件型別以及系統中區域的動作。
 
-此外，當其他使用者共用並授予這些物件的特定許可權時，使用者可獲得對個別物件的存取權。
+當其他使用者共用並授予這些物件的特定許可權時，使用者也可存取個別物件。
 
-因此，使用者可以對物件執行的活動會根據其存取層級以及該專案所獲許可權的組合來定義。
 
 ![](assets/security-model-hierachy.png)
 

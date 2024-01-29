@@ -6,7 +6,7 @@ description: 在Workfront中，任務可以有父子關係。 子任務稱為子
 author: Alina
 feature: Work Management
 exl-id: 3d970794-b5ea-422f-bc92-51846cb7db35
-source-git-commit: 58f2895b1c3964b4481752ddf0df05d41d61f32f
+source-git-commit: d71ee30378c39975366f4f257e3f7b17aba0c0ae
 workflow-type: tm+mt
 source-wordcount: '532'
 ht-degree: 0%
@@ -14,6 +14,8 @@ ht-degree: 0%
 ---
 
 # 建立子任務
+
+<!-- Audited: 1/2024 -->
 
 在Workfront中，任務可以有父子關係。 子任務稱為子任務。 您可以將主要任務設為子任務，以在任務清單中建立子任務。 您也可以將子任務設為主要任務。
 

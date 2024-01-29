@@ -9,7 +9,7 @@ author: Courtney
 feature: System Setup and Administration, Digital Content and Documents
 role: Admin
 exl-id: 30a41ae9-9755-4c7b-9e3b-d4a8b0ad7ee8
-source-git-commit: 41a2d58ce00baa6460ee6ca697d4fe06363eee85
+source-git-commit: f670255de4826f91094060b5cc20329c54d602d6
 workflow-type: tm+mt
 source-wordcount: '453'
 ht-degree: 0%
@@ -26,7 +26,7 @@ Workfront中目前有三個校訂方案選項：
 
 * **新的Workfront計畫**：校訂會自動包含在新的Workfront計畫中的所有授權。
 * **目前的Workfront Pro+計畫**：如果您擁有專業、商業或企業Workfront計畫，則工作和計畫授權會自動包含校訂。
-* **Workfront Premium舊版計畫**：此選項適用於舊版Workfront計畫：Select、Enterprise、Premium。 此計畫中的授權不會自動包含校訂。 您必須將校訂存取權授與其使用者設定檔中的特定使用者。
+* **舊版Workfront Premium計畫**：此選項適用於舊版Workfront計畫：Select、Enterprise、Premium。 此計畫中的授權不會自動包含校訂。 您必須將校訂存取權授與其使用者設定檔中的特定使用者。
 
   如果您是Workfront管理員，可以前往「設定>系統>授權」檢查並檢視您的執行個體正在執行哪個計畫。
 

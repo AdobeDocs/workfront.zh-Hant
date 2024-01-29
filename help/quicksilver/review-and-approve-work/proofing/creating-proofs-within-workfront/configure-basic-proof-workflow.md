@@ -6,7 +6,7 @@ description: 使用基本工作流程，您可以讓多個稽核者檢閱校樣�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 4f5d0c0e-e070-4f32-89c4-3b511a3b7fdc
-source-git-commit: 41a2d58ce00baa6460ee6ca697d4fe06363eee85
+source-git-commit: d71ee30378c39975366f4f257e3f7b17aba0c0ae
 workflow-type: tm+mt
 source-wordcount: '1842'
 ht-degree: 1%
@@ -14,6 +14,8 @@ ht-degree: 1%
 ---
 
 # 使用基本工作流程建立進階校訂
+
+<!-- Audited: 1/2024 -->
 
 使用基本工作流程，您可以讓多個稽核者檢閱校樣，但他們不會整理到不同階段。 您新增的所有檢閱者都可以在您建立校訂後立即存取校訂。
 

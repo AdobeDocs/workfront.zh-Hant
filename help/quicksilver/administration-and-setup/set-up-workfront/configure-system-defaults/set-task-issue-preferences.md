@@ -8,10 +8,10 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 8b99f939-12fe-4470-9dc8-f8a92c6db334
-source-git-commit: ca3ded2d18f369a0859efce49d185fa0de4cf54f
+source-git-commit: 4a9936b6bc034f2176167fc3939d647ee679a888
 workflow-type: tm+mt
-source-wordcount: '2105'
-ht-degree: 1%
+source-wordcount: '2108'
+ht-degree: 0%
 
 ---
 
@@ -56,7 +56,7 @@ Linked to Converting Issues.-->
 1. 在左側面板中，按一下 **[!UICONTROL 專案偏好設定]** >**[!UICONTROL 任務和問題].**
 
 1. 在出現的頁面上，繼續下列的5個區段之一，以配置設定 [!UICONTROL 新任務預設值]， [!UICONTROL 問題]， [!UICONTROL 刪除]， [!UICONTROL 實際日期]、和 [!UICONTROL 存取].
-1. 按一下&#x200B;**[!UICONTROL 儲存]**。
+1. 按一下「**[!UICONTROL 儲存]**」。
 
 * [[!UICONTROL 新任務預設值]](#new-task-defaults)
 * [[!UICONTROL 問題]](#issues)
@@ -82,7 +82,7 @@ Linked to Converting Issues.-->
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[！UICONTROL期間型別] </p> </td> 
-   <td> <p>決定資源數（及其配置百分比）與工期或任務總付出之間的關係。 如需詳細資訊，請參閱 <a href="../../../manage-work/tasks/taskdurtn/task-duration-duration-type.md" class="MCXref xref">任務工期與工期型別</a></p> </td> 
+   <td> <p>決定資源數（及其配置百分比）與工期或任務總付出之間的關係。 如需詳細資訊，請參閱 <a href="../../../manage-work/tasks/taskdurtn/task-duration-duration-type.md" class="MCXref xref">工作期間與期間型別：文章索引</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL收入型別]</td> 
@@ -113,7 +113,7 @@ Linked to Converting Issues.-->
    <td role="rowheader" [!UICONTROL>將問題轉換為任務時]</td> 
    <td> <p>本節中的設定會決定從問題轉換為任務期間會發生什麼情況：</p> 
     <ul> 
-     <li> <p><strong>[！UICONTROL保留原始問題並將其解決方案連結至任務]</strong>：轉換問題時，在任務完成之前，問題仍會顯示為問題。 任務完成後，問題的狀態會自動變更為[！UICONTROL已關閉]。 取消選取時，問題即被刪除。</p> <p><b>附註</b>:  <p>無論此設定的狀態為何，沒有存取許可權或刪除問題的使用者在轉換問題時都將無法刪除問題。 如需問題的存取和許可權資訊，請參閱：</p> 
+     <li> <p><strong>[！UICONTROL保留原始問題並將其解決方案連結至任務]</strong>：轉換問題時，在任務完成之前，問題仍會顯示為問題。 任務完成後，問題的狀態會自動變更為[！UICONTROL已關閉]。 取消選取時，問題即被刪除。</p> <p><b>注意</b>：  <p>無論此設定的狀態為何，沒有存取許可權或刪除問題的使用者在轉換問題時都將無法刪除問題。 如需問題的存取和許可權資訊，請參閱：</p> 
        <ul> 
         <li> <p><a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-issues.md" class="MCXref xref">授予問題的存取許可權</a> </p> </li> 
         <li> <p><a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">共用問題 </a> </p> </li> 
@@ -128,7 +128,7 @@ Linked to Converting Issues.-->
    <td role="rowheader">[！UICONTROL將問題轉換為專案時]</td> 
    <td> <p>本節中的設定會決定從問題轉換至專案的流程中會發生什麼情況：</p> 
     <ul> 
-     <li> <p><strong>[！UICONTROL保留原始問題並將其解決方案連結至專案]</strong>：當您轉換問題時，在專案完成之前，問題仍會顯示為問題。 專案完成時，問題的狀態會自動變更為[！UICONTROL已關閉]。 取消選取時，問題即被刪除。 </p> <p><b>附註</b>:  <p>無論此設定的狀態為何，沒有存取許可權或刪除問題的使用者在轉換問題時都將無法刪除問題。 如需問題的存取和許可權資訊，請參閱：</p> 
+     <li> <p><strong>[！UICONTROL保留原始問題並將其解決方案連結至專案]</strong>：當您轉換問題時，在專案完成之前，問題仍會顯示為問題。 專案完成時，問題的狀態會自動變更為[！UICONTROL已關閉]。 取消選取時，問題即被刪除。 </p> <p><b>注意</b>：  <p>無論此設定的狀態為何，沒有存取許可權或刪除問題的使用者在轉換問題時都將無法刪除問題。 如需問題的存取和許可權資訊，請參閱：</p> 
        <ul> 
         <li> <p><a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-issues.md" class="MCXref xref">授予問題的存取許可權</a> </p> </li> 
         <li> <p><a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">共用問題 </a> </p> </li> 
@@ -282,4 +282,4 @@ I have not had a chance to follow up with customers to verify if this is still a
      >
      >我們建議您與整個系統群組內的管理員和使用者溝通，以確保以您設定鎖定偏好設定的方式考慮所有需求。 當您鎖定時，系統中的所有群組都會繼承您的設定。 如果偏好設定已解除鎖定任何時間段，您的設定會取代群組管理員可能已進行的設定。
 
-1. 按一下&#x200B;**[!UICONTROL 儲存]**。
+1. 按一下「**[!UICONTROL 儲存]**」。

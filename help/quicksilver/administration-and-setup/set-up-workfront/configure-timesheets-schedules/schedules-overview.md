@@ -6,11 +6,11 @@ keywords: user，schedule
 navigation-topic: configure-timesheets-and-schedules
 title: 排程總覽
 description: 您可以使用排程來定義您的工作週。 您可以將排程與使用者或專案建立關聯。 這允許 [!DNL Adobe Workfront] 以計算時間表和使用者可用性。 如需指示，請參閱建立排程。
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 02350860-f997-4a76-8aec-c6c813d58e2d
-source-git-commit: b3ec7af8032e077736df1f48a9a4990b8c11922f
+source-git-commit: 32da139d7385e05436a669bdc6f36b71ad83c8d2
 workflow-type: tm+mt
 source-wordcount: '753'
 ht-degree: 0%
@@ -19,15 +19,15 @@ ht-degree: 0%
 
 # 排程總覽
 
+<!-- Audited: 1/2024 -->
+
 您可以使用排程來定義您的工作週，並將排程與使用者或專案相關聯。 這允許 [!DNL Adobe Workfront] 以計算時間表和使用者可用性。 如需指示，請參閱 [建立排程](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
 
 在Workfront中使用排程時，請考慮下列事項：
 
 * 此 [!DNL Workfront] 管理員會識別排程中組織的作業時數。
 
-  同樣地，群組管理員可以識別由他們管理的群組所管理之排程的作業時數。
-
-  如需群組管理員的詳細資訊，請參閱 [群組管理員](../../../administration-and-setup/manage-groups/group-roles/group-administrators.md).
+  同樣地，群組管理員可以識別由他們管理的群組所管理之排程的作業時數。 如需群組管理員的詳細資訊，請參閱 [群組管理員](../../../administration-and-setup/manage-groups/group-roles/group-administrators.md).
 
   例如，排程可定義為：星期一至星期五、上午8點至下午5點，以及午飯休息一小時。
 

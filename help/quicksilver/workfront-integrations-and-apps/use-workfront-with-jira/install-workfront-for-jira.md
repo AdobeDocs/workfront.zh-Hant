@@ -1,29 +1,29 @@
 ---
 product-area: workfront-integrations;setup
 navigation-topic: workfront-for-jira
-title: 安裝 [!DNL Adobe Workfront] for [!DNL Jira]
-description: 您可以使用 [!DNL Adobe Workfront] for [!DNL Jira] 整合 [!DNL Jira] 和 [!DNL Workfront] 系統。
+title: 安裝 [!DNL Adobe Workfront] 的 [!DNL Jira]
+description: 您可以使用 [!DNL Adobe Workfront] 的 [!DNL Jira] 若要整合您的 [!DNL Jira] 和 [!DNL Workfront] 系統。
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: f6e0feb1-349f-459f-9f93-c7492cb15f11
-source-git-commit: 04782dfdb8c1ed24bb9c7399a01511c0cbd2dec3
+source-git-commit: b98a7fa48e60f1f2c2ea938b14b88e0c5a2ee418
 workflow-type: tm+mt
-source-wordcount: '563'
+source-wordcount: '500'
 ht-degree: 0%
 
 ---
 
 # 安裝 [!DNL Adobe Workfront for Jira]
 
-您可以使用 [!DNL Adobe Workfront for Jira] 整合 [!DNL Jira] 和 [!DNL Workfront] 系統。
+您可以使用 [!DNL Adobe Workfront for Jira] 若要整合您的 [!DNL Jira] 和 [!DNL Workfront] 系統。
 
-安裝附加元件後，您可以定義要建立的工作流程 [!DNL Jira] 自動發生 [!DNL Workfront] 工作項目隨即建立。 兩個應用程式中的項都會被連結，並且它們的某些資訊可以在兩個系統中自動更新。
+安裝附加元件後，您可以定義要建立的工作流程 [!DNL Jira] 發生以下情況時自動問題： [!DNL Workfront] 工作專案已建立。 兩個應用程式中的專案會連結，而且其部分資訊可在兩個系統中自動更新。
 
-中的所有使用者 [!DNL Workfront] 和 [!DNL Jira] 可從這項整合中獲益。 他們只需要系統的許可證，而不是兩個系統。
+中的所有使用者 [!DNL Workfront] 和 [!DNL Jira] 可受惠於這項整合。 他們只需要最常使用的系統授權，而不需要兩個系統的授權。
 
-此附加元件適用於 [!UICONTROL 伺服器] 和 [!UICONTROL OnDemand] (或 [!UICONTROL 雲])版本 [!DNL Jira] 軟體。 此附加元件不適用於 [!DNL Data Center] 版本 [!DNL Jira] 軟體。
+此附加元件適用於 [!UICONTROL 伺服器] 和 [!UICONTROL 隨選] (或 [!UICONTROL 雲端])個版本的 [!DNL Jira] 軟體。 此附加元件不適用於 [!DNL Data Center] 版本 [!DNL Jira] 軟體。
 
-若需 [!DNL Jira] 版本 [!DNL Workfront for Jira] 目前支援，請參閱 [[!DNL [!DNL Workfront for Jira]]](https://marketplace.atlassian.com/apps/1218653/workfront-for-jira?hosting=cloud&amp;tab=overview) 在Atlassian Marketplace
+針對清單 [!DNL Jira] 版本為 [!DNL Workfront for Jira] 目前支援，請參閱 [[!DNL [!DNL Workfront for Jira]]](https://marketplace.atlassian.com/apps/1218653/workfront-for-jira?hosting=cloud&amp;tab=overview) 在Atlassian Marketplace。
 
 ## 存取需求
 
@@ -34,70 +34,74 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><a href="https://www.workfront.com/plans" target="_blank">[!DNL Adobe Workfront] 計劃</a>*</td> 
-   <td> <p>[!UICONTROL Pro]或更高版本</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] 計劃</td> 
+   <td> 
+   <p>新增：任何</p>
+   <p>目前： [！UICONTROL Pro]或更高版本</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe [!DNL Workfront] 授權概述</a>*</td> 
-   <td> <p>[!UICONTROL計畫]</p> </td> 
+   <td role="rowheader">Adobe [!DNL Workfront] 授權總覽</td> 
+   <td> 
+   <p>新增：標準</p>
+   <p>目前： [！UICONTROL計畫]</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Jira] 存取</td> 
-   <td> <p>系統管理員存取</p> <p>重要：建議您在 [!DNL Jira] 和 [!DNL Workfront] 以專用於此整合，而非使用可能附加至使用者的現有整合。</p> </td> 
+   <td> <p>系統管理員存取權</p> <p>重要：建議您在中建立個別的系統管理員帳戶 [!DNL Jira] 和 [!DNL Workfront] 以專門用於此整合，而不使用可能附加至使用者的現有整合。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">訪問級別配置*</td> 
-   <td> <p>您必須是 [!DNL Workfront] 管理員。 如需 [!DNL Workfront] 管理員請參閱 <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">授予使用者完整的管理存取權</a>.</p> <p>注意：如果您仍無法存取，請詢問您的 [!DNL Workfront] 管理員。 若要了解 [!DNL Workfront] 管理員可修改您的存取層級，請參閱 <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>.</p> </td> 
+   <td role="rowheader">存取層級設定</td> 
+   <td><p>您必須是 [!DNL Workfront] 管理員。</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;若要了解您擁有的計畫、授權類型或存取權，請聯絡您的 [!DNL Workfront] 管理員。
+如需有關此表格的詳細資訊，請參閱 [Workfront檔案中的存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-## 安裝 [!DNL Workfront] for [!DNL Jira]
+## 安裝 [!DNL Workfront] 的 [!DNL Jira]
 
-安裝 [!DNL Workfront] for [!DNL Jira] OnDemand等同於在 [!DNL Jira] 伺服器實例。
+安裝 [!DNL Workfront] 的 [!DNL Jira] OnDemand等同於在 [!DNL Jira] 伺服器例項。
 
 您必須是 [!DNL Jira] 管理員以安裝 [!DNL Workfront] 附加元件。
 
-如果您不是 [!DNL Jira] 管理員，您可以瀏覽 [!DNL Workfront] 附加元件並要求安裝。 您的要求會傳送至 [!DNL Jira] 管理員以進行核准和安裝。
+如果您不是 [!DNL Jira] 管理員，您可以瀏覽 [!DNL Workfront] 附加元件並要求安裝。 您的請求會傳送至 [!DNL Jira] 管理員核准與安裝。
 
-有關請求在 [!DNL Jira] 應用程式，請參閱 [管理用戶對載入項的請求。](https://confluence.atlassian.com/upm/managing-user-requests-for-add-ons-781394968.html)
+如需關於要求將附加元件安裝在您的電腦上的詳細資訊， [!DNL Jira] 應用程式，請參閱 [管理附加元件的使用者請求。](https://confluence.atlassian.com/upm/managing-user-requests-for-add-ons-781394968.html)
 
-安裝 [!DNL Workfront for Jira]:
+若要安裝 [!DNL Workfront for Jira]：
 
 1. 登入 [!DNL Jira] as a [!DNL Jira] 管理員。
 1. 尋找 **[!DNL Workfront for Jira]** 中的附加元件 [[!DNL Atlassian Marketplace]](https://marketplace.atlassian.com/apps/1218653/workfront-for-jira?hosting=cloud&amp;tab=overview).
 
-1. 按一下 **[!UICONTROL 現在就去]** 來安裝。
+1. 按一下 **[!UICONTROL 立即取得]** 以安裝。
 
-   安裝完成後，您可以登入 [!DNL Workfront] 從 [!DNL Jira] 和設定您的整合。
-   [!DNL ]
-如需詳細資訊，請參閱 [為Jira配置Adobe Workfront](../../workfront-integrations-and-apps/use-workfront-with-jira/configure-workfront-for-jira.md).
+   安裝完成後，您可以登入 [!DNL Workfront] 從 [!DNL Jira] 並設定您的整合。
 
-## 針對 [!DNL Jira Server] 安裝
+   如需詳細資訊，請參閱 [設定Jira適用的Adobe Workfront](../../workfront-integrations-and-apps/use-workfront-with-jira/configure-workfront-for-jira.md).
+
+## 的考量事項 [!DNL Jira Server] 安裝
 
 >[!NOTE]
 >
->這些要求不適用於 [!UICONTROL OnDemand] ([!UICONTROL 雲])版本 [!DNL Jira] 軟體。
+>這些要求不適用於 [!UICONTROL 隨選] ([!UICONTROL 雲端])版本 [!DNL Jira] 軟體。
 
-雖然安裝 [!DNL Workfront] 兩個 [!DNL Jira] 環境類似，使用 [!DNL Jira Server] 安裝：
+雖然已安裝 [!DNL Workfront] 兩個中的附加元件 [!DNL Jira] 環境類似，使用時必須考慮以下事項 [!DNL Jira Server] 安裝：
 
-* 在中設定附加元件時 [!DNL Jira]，則 **[!DNL JIRA Base URL]** 欄位可能與您用來存取的URL不同 [!DNL Jira] 在您的私人伺服器上。 此 **[!DNL JIRA Base URL]** 必須是使用NAT或反向代理通訊協定連線至私人伺服器的公開存取位址，因此 [!DNL Workfront] 可以存取它以向您的伺服器提出請求。
+* 在中設定附加元件時 [!DNL Jira]，中指定的位址 **[!DNL JIRA Base URL]** 欄位可能與您用來存取的URL不同 [!DNL Jira] 私人伺服器上。 此 **[!DNL JIRA Base URL]** 必須是可公開存取的位址，且必須使用NAT或反向Proxy通訊協定連線至您的私人伺服器，因此 [!DNL Workfront] 可以存取該檔案以向伺服器提出要求。
 
-* 您必須使用SSL加密，以保護 [!DNL Jira] 和 [!DNL Workfront]. 啟用SSL時，您必須擁有憑證授權機構的完整SSL憑證堆疊。 不支援自簽名證書。
-* 您必須確保 [!DNL jira.workfront.com] 可從公司伺服器存取網域。 它可作為 [!DNL Workfront] 和 [!DNL Jira] 和是該附加元件運作的必要條件。
+* 您必須使用SSL加密來保護兩者之間的通訊 [!DNL Jira] 和 [!DNL Workfront]. 啟用SSL時，您必須擁有來自憑證授權單位的完整SSL憑證棧疊。 我們不支援自我簽署憑證。
+* 您必須確保 [!DNL jira.workfront.com] 網域可從您的公司伺服器存取。 它是介於兩者之間的中介軟體環境 [!DNL Workfront] 和 [!DNL Jira] 且是附加元件運作的必要專案。
 
-   您也必須將下列靜態IP位址新增至防火牆上，以供傳出和傳入連線使用的允許清單。
+  您還必須將下列靜態IP位址新增至防火牆上的允許清單，以進行輸出和輸入連線。
 
-   `35.162.128.73`
+  `35.162.128.73`
 
-   `34.213.36.118`
+  `34.213.36.118`
 
-   `35.160.0.242`
+  `35.160.0.242`
 
-   `3.209.27.146`
+  `3.209.27.146`
 
-   `18.205.251.4`
+  `18.205.251.4`
 
-   有關配置防火牆以實現最佳功能的詳細資訊，請使用 [!DNL Workfront]，請參閱 [配置防火牆](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).
+  如需有關設定防火牆以發揮最佳功能的詳細資訊，請參閱 [!DNL Workfront]，請參閱 [設定防火牆](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).
