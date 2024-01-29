@@ -7,16 +7,20 @@ description: 在Adobe Workfront中檢視「增強型分析」資源容量視覺�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 5bb45ef6-9e49-4063-8e53-c9f3bc994870
-source-git-commit: 3b3ba7cc6a975af71205f7f524e1a9a91a9d3810
+source-git-commit: d9a8af627c8d3da4a7625cd5180bfca69da43b3d
 workflow-type: tm+mt
-source-wordcount: '815'
+source-wordcount: '844'
 ht-degree: 1%
 
 ---
 
 # 在增強型分析中檢視資源容量視覺效果
 
+<!--Audited: 01/2024-->
+
 在Adobe Workfront中檢視「增強型分析」資源容量視覺效果圖表時，您可以評估團隊是否超出、低於或處於容量狀態。
+
+資源視覺效果中說明的團隊是指在指定時段內指派到工作的使用者主團隊。
 
 ## 存取需求
 
@@ -56,9 +60,9 @@ ht-degree: 1%
 
 如需使用增強型Analytics的必要條件，請參閱 [增強型分析概述](../enhanced-analytics/enhanced-analytics-overview.md).
 
-## 瞭解資源容量圖表
+## 瞭解資源容量視覺效果
 
-「資源產能」圖表顯示團隊是超出、不足或產能不足。 這項計算是根據：
+「資源產能」視覺效果會顯示團隊產能是否超出、不足或不足。 這項計算是根據：
 
 * **可用容量**：主團隊在篩選過的時段內可工作的總時數
 
@@ -90,24 +94,25 @@ ht-degree: 1%
 
   ![](assets/resource-capacity-under-capacity.png)
 
-將游標暫留在列上會顯示計畫容量和可用容量的確切小時數，以及主團隊超出或不足容量的小時數。
+將滑鼠游標停留在團隊的列上會顯示計畫容量和可用容量的確切小時數，以及主團隊超出或不足容量的小時數。
 
 查看這些資訊可協助您判斷：
 
-* 如果主團隊配置過多或不足。
+* 如果團隊配置過多或配置不足。
 * 主團隊專注的最大專案是什麼。
-* 哪些主團隊可接受工作指派。
+* 哪些團隊可以工作。
 
 若要瞭解如何針對此視覺效果取得最佳資料，請參閱 [增強型分析概述](../enhanced-analytics/enhanced-analytics-overview.md).
 
 ## 檢視資源產能視覺效果
 
-1. 按一下主要功能表圖示 ![](assets/main-menu-icon-16x12.png)，然後選取 **Analytics**.
+{{step1-to-analytics}}
+
 1. 在左側面板中，選取 **人員**.
 
    ![](assets/people-area-cropped-qs-350x276.png)
 
-1. （可選）若要使用不同的日期範圍，請從日期範圍篩選器中選取新的開始和結束日期。
+1. （可選）若要使用不同的日期範圍，請從圖表右上角的日期範圍篩選器中選取新的開始和結束日期。
 
    ![](assets/filters-select-date-range-350x344.png)
 
@@ -125,7 +130,15 @@ ht-degree: 1%
 
    ![](assets/timeframe-filter-350x220.png)
 
-1. 將滑鼠停留在主團隊線上可檢視還有多少小時可供排程、主團隊要完成的計畫時數以及標籤為超出、不足或處於產能的工作小時總數。
+1. 將滑鼠停留在主團隊線上，即可檢視下列專案：
+
+   * 還有多少小時可供排程
+   * 主團隊要完成的計畫時數
+   * 工作時數總計。 工作時數總計可包含下列標籤：
+
+      * 超過
+      * 在
+      * 已達容量。
 
    ![](assets/resource-capacity-capacity-pop-up-350x213.png)
 

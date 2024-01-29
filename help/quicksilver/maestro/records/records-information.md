@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7f32ebab-b8dd-496d-b510-99055924b0c7
-source-git-commit: 54c6adf51ab8ef4e7968e8fdeeb0025e42deecc5
+source-git-commit: d9a8af627c8d3da4a7625cd5180bfca69da43b3d
 workflow-type: tm+mt
 source-wordcount: '153'
 ht-degree: 0%
@@ -47,3 +47,5 @@ hide: yes
 * [連線記錄](../records/connect-records.md)
 * [管理記錄註解](/help/quicksilver/maestro/records/manage-record-comments.md)
 * [歷史記錄區段總覽](/help/quicksilver/maestro/records/history-section-overview.md)
+
+<!--* [Add thumbnails to records](/help/quicksilver/maestro/records/add-thumbnails-to-records.md)-->

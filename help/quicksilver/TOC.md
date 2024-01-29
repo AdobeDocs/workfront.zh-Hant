@@ -3,9 +3,9 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文件、教學課程和其他資源，了解如何在您的組織中實施並有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: 6a734a7e8f8b1e717c5ec02fc803a14057f5a052
+source-git-commit: d9a8af627c8d3da4a7625cd5180bfca69da43b3d
 workflow-type: tm+mt
-source-wordcount: '13885'
+source-wordcount: '13886'
 ht-degree: 1%
 
 ---
@@ -2044,6 +2044,7 @@ ht-degree: 1%
       * [共用記錄](maestro/records/share-records.md)
       * [管理記錄註解](maestro/records/manage-record-comments.md)
       * [歷史記錄區段總覽](maestro/records/history-section-overview.md)
+      * [新增縮圖至記錄](maestro/records/add-thumbnails-to-records.md)
    * Adobe大師檢視 {#adobe-maestro-views}
       * [檢視：文章索引](maestro/views/views-information.md)
       * [管理記錄檢視](maestro/views/manage-record-views.md)
@@ -2320,7 +2321,7 @@ ht-degree: 1%
       * [檢視適用於Outlook的Adobe Workfront的其他相關資訊並登出](workfront-integrations-and-apps/using-workfront-with-outlook/view-additional-infor-wf-outlook-and-log-out.md)
       * [啟用Outlook for Office以搭配Adobe Workfront和SAML 2.0使用](workfront-integrations-and-apps/using-workfront-with-outlook/enable-outlook-for-office-for-use-with-wf-and-saml-2.md)
    * 適用於Microsoft Teams的Adobe Workfront {#workfront-for-microsoft-teams}
-      * [適用於Microsoft Teams的Adobe Workfront](workfront-integrations-and-apps/using-workfront-with-microsoft-teams/use-workfront-with-ms-teams.md)
+      * [[!DNL Adobe Workfront for Microsoft Teams]：文章索引](workfront-integrations-and-apps/using-workfront-with-microsoft-teams/use-workfront-with-ms-teams.md)
       * [Microsoft Teams的Adobe Workfront概述](workfront-integrations-and-apps/using-workfront-with-microsoft-teams/workfront-for-microsoft-teams.md)
       * [安裝適用於Microsoft Teams的Adobe Workfront](workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md)
       * [從Microsoft Teams存取Adobe Workfront](workfront-integrations-and-apps/using-workfront-with-microsoft-teams/access-workfront-from-ms-teams.md)

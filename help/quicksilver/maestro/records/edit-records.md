@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: ce015eba8291995eec1611917896a0e797f820cc
+source-git-commit: d9a8af627c8d3da4a7625cd5180bfca69da43b3d
 workflow-type: tm+mt
 source-wordcount: '888'
 ht-degree: 1%
@@ -107,7 +107,7 @@ ht-degree: 1%
 您可以從下列區域編輯記錄：
 
 * [從記錄的詳細資訊頁面](#edit-a-record-from-the-records-details-page)
-* [從記錄型別的表格檢視](#edit-a-record-from-the-record-type-table-view)
+* [從記錄型別的表格檢視](#edit-a-record-from-the-table-view-of-a-record-type)
 
 ### 從記錄的「詳細資訊」頁面編輯記錄
 
@@ -181,3 +181,5 @@ ht-degree: 1%
 
    * CTRL + Z (Mac為⌘ + Z)可復原變更
    * CTRL + Shift + Z (Mac為⌘ + Shift + Z)以重做變更
+<!--
+1. (Optional) Add a thumbnail to a record. For information, see [Add a thumbnail to a record](/help/quicksilver/maestro/records/add-thumbnail-to-a-record.md). -->
