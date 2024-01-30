@@ -8,14 +8,16 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 264eed40-6d90-498b-83cc-2500c8b19c84
-source-git-commit: ed5f941690754f631c16c5206faeeeb30d126841
+source-git-commit: 4e928defe9b6271cef64f6554e91af4fc31ddeca
 workflow-type: tm+mt
-source-wordcount: '1569'
-ht-degree: 13%
+source-wordcount: '1608'
+ht-degree: 0%
 
 ---
 
 # 設定防火牆的允許清單
+
+<!-- Audited: 12/2023 -->
 
 >[!IMPORTANT]
 >
@@ -219,7 +221,7 @@ ht-degree: 13%
    <td role="rowheader">若為SSO和檔案webhook整合，則使用測試驅動</td> 
    <td> 
     <ul> 
-     <li> <p>69.42.126.188:</p> <p>此位址也必須新增至您的允許清單，使用者才能收到來自Workfront的電子郵件。</p> </li> 
+     <li> <p>69.42.126.188：</p> <p>此位址也必須新增至您的允許清單，使用者才能收到來自Workfront的電子郵件。</p> </li> 
      <li>66.119.37.186</li> 
      <li>66.119.37.167</li> 
      <li>54.244.142.219</li> 
@@ -501,7 +503,7 @@ jira.workfront.com網域也必須可從您的公司伺服器存取。 此網域�
      <li>*.workfront.com — 需在Workfront中檢視校樣</li> 
      <li>*.proofhq.com — 需要在Workfront Proof中檢視校樣</li> 
      <li>*.proofhq.eu — 需要在Workfront Proof中檢視校樣</li> 
-    </ul> <p><b>附註</b>:  <p>我們不支援將IP位址新增至您的Workfront Proof允許清單。 Workfront移至AWS後，這些量度為動態變化。 反之，我們建議您僅允許Workfront Proof網域。</p> <p>如果將這些網域新增至您的允許清單時發生問題，而您需要IP位址，請聯絡Workfront客戶支援。</p> </p> </td> 
+    </ul> <p><b>注意</b>：  <p>我們不支援將IP位址新增至您的Workfront Proof允許清單。 Workfront移至AWS後，這些量度為動態變化。 反之，我們建議您僅允許Workfront Proof網域。</p> <p>如果將這些網域新增至您的允許清單時發生問題，而您需要IP位址，請聯絡Workfront客戶支援。</p> </p> </td> 
   </tr> 
  </tbody> 
 </table>

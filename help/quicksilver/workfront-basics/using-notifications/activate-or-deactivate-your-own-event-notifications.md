@@ -7,14 +7,16 @@ description: 本文說明如何在使用者設定檔中管理電子郵件通知�
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 3d1f877e-6bb4-494e-b08e-c18ec87dd001
-source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
+source-git-commit: 4e928defe9b6271cef64f6554e91af4fc31ddeca
 workflow-type: tm+mt
-source-wordcount: '605'
+source-wordcount: '609'
 ht-degree: 0%
 
 ---
 
 # 修改您自己的電子郵件通知
+
+<!-- Audited: 1/2024 -->
 
 您的Adobe [!DNL Workfront] 管理員可設定在Workfront中發生事件時，使用者會收到哪些電子郵件通知（如所述） [[!UICONTROL 設定事件] 系統內每個人的通知](../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md))。
 
@@ -41,17 +43,21 @@ ht-degree: 0%
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront plan*]</strong></td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront plan]</strong></td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] 授權*</strong></td> 
-   <td> <p>[！UICONTROL Request]或更高版本</p> </td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] 授權</strong></td> 
+   <td>  <p>新增：</p> 
+   <ul><li>投稿人或以上</li></ul>
+   <p>目前：</p>
+   <ul><li>要求或更高</li></ul>
+   </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;若要瞭解您擁有的計畫或授權型別，請連絡您的 [!DNL Workfront] 管理員。
+如需有關此表格的詳細資訊，請參閱 [Workfront檔案中的存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## 檢視並修改您的電子郵件通知設定
 
@@ -89,4 +95,4 @@ ht-degree: 0%
 
    ![](assets/receive-emails-from-sandbox-setting-edit-350x223.png)
 
-1. 按一下 **[!UICONTROL 儲存變更]**.
+1. 按一下「**[!UICONTROL 儲存變更]**」。
