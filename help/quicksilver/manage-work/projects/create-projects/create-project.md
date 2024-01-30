@@ -6,9 +6,9 @@ description: 專案是Adobe Workfront中的大型工作單位。 您可以從頭
 author: Alina
 feature: Work Management
 exl-id: d4e28fa6-25f9-4765-b051-8960c8873d5a
-source-git-commit: 16a34e4315d508e31859e962edd01026d01ee193
+source-git-commit: 9447310f0d4cf4504ee6d690116fb62f718fe23d
 workflow-type: tm+mt
-source-wordcount: '1195'
+source-wordcount: '1196'
 ht-degree: 1%
 
 ---
@@ -74,7 +74,7 @@ ht-degree: 1%
         <p>目前：計畫 </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">存取層級</td> 
+   <td role="rowheader">存取層級設定</td> 
    <td> <p>編輯專案的存取權</p> </td> 
   </tr> 
   <tr> 

@@ -4,12 +4,12 @@ product-area: projects
 navigation-topic: update-work-items-and-view-updates
 title: 欄位中的字元限制
 description: Adobe Workfront中的某些欄位會限制可包含在該欄位中的字元數。 Workfront會編制內容索引，以便日後可以搜尋。 已強制執行字元限制，以確保Workfront系統的高品質效能。
-author: Lisa and Alina
+author: Alina
 feature: Get Started with Workfront
 exl-id: f09dadf4-24f2-46d9-85ae-6081731d917d
-source-git-commit: b774a74863bb35e3477a69ff11189c40a6d66437
+source-git-commit: e2a2a8cfe402c1f9f810ca360db4912d804b0a57
 workflow-type: tm+mt
-source-wordcount: '248'
+source-wordcount: '250'
 ht-degree: 5%
 
 ---

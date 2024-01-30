@@ -2,43 +2,44 @@
 product-area: projects;templates
 navigation-topic: create-projects
 title: 使用範本建立專案
-description: 您可以使用範本作為建立專案的架構。 如果您的專案經常重複，則在新專案的一般時間軸中使用範本，可省去重複建立相同專案的繁瑣工作。
+description: 您可以使用範本作為框架，在Adobe Workfront中建立專案。 如果您的專案經常重複，則使用範本作為新專案的一般時間表，可讓您無須重複建立相同的專案。
 author: Alina
 feature: Work Management
 exl-id: 622cbfe0-b8c0-4045-bef2-9e21d45bfda0
-source-git-commit: e38411056b3f9be6d0241ee18e71984ef2a678a0
+source-git-commit: 9447310f0d4cf4504ee6d690116fb62f718fe23d
 workflow-type: tm+mt
-source-wordcount: '1104'
-ht-degree: 1%
+source-wordcount: '1089'
+ht-degree: 0%
 
 ---
 
 # 使用範本建立專案
 
-您可以使用範本作為建立專案的架構。 如果您的專案經常重複，則在新專案的一般時間軸中使用範本，可省去重複建立相同專案的繁瑣工作。
+<!-- Audited: 01/2024 -->
 
-範本可讓您擷取與專案相關聯的可重複的程式、資訊和設定。 與模板相關的資訊將傳輸到項目。 這包括任務、分配、持續時間、文檔、財務詳細資訊、風險和自定義表單。
+您可以使用範本作為框架，在Adobe Workfront中建立專案。 如果您的專案經常重複，則使用範本作為新專案的一般時間表，可讓您無須重複建立相同的專案。
+
+範本提供您擷取與專案相關之可重複流程、資訊和設定的方式。 與範本相關的資訊會傳輸到專案。 這包括工作、指派、持續時間、檔案、財務詳細資訊、風險和自訂表單。
 
 >[!TIP]
 >
->Workfront將新專案的群組和狀態定義為：
+>Workfront會依照以下方式定義新專案的群組和狀態：
 >
->* 從模板建立的新項目的預設狀態與主「項目首選項」區域中的Workfront管理員或組的「項目首選項」區域中的組管理員(或Workfront管理員)所定義的狀態相對應。 如需設定專案偏好設定的相關資訊，請參閱 [配置系統範圍的項目首選項](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md) 或 [配置組的項目首選項](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-project-preferences-group.md).
+>* 從範本建立的新專案的預設狀態與您在主「專案偏好設定」區域中由Workfront管理員定義的狀態相對應，或與群組的「專案偏好設定」區域中的群組管理員(或Workfront管理員)相對應。 如需有關設定專案偏好設定的資訊，請參閱 [設定全系統專案偏好設定](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md) 或 [設定群組的專案偏好設定](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-project-preferences-group.md).
 >
->* 新項目組是模板組。 如果模板未與組關聯，則項目組是建立項目的用戶的首頁組。
+>* 新專案的群組是範本的群組。 如果範本未與「群組」相關聯，則專案的「群組」是建立專案之使用者的「主群組」 。
 >
->* 新項目可用的狀態與項目組的狀態匹配，該項目組是模板組或建立項目的用戶的首頁組。
+>* 新專案的可用狀態與專案群組（範本群組，或建立專案之使用者的主群組）的狀態相符。
 
+使用範本建立專案時，有以下選項：
 
-從範本建立專案時，您有下列選項：
-
-* 從「項目」區域中的模板建立項目
-* 從範本層級的範本建立專案
+* 從專案區域中的範本建立專案
+* 在範本層級從範本建立專案
 * 將範本附加至現有專案
 
-   如需詳細資訊，請參閱 [將範本附加至專案](../../../manage-work/projects/create-and-manage-templates/attach-template-to-project.md).
+  如需詳細資訊，請參閱 [將範本附加至專案](../../../manage-work/projects/create-and-manage-templates/attach-template-to-project.md).
 
-* 從「組」區域中的模板建立項目
+* 從群組區域中的範本建立專案
 
 ## 存取需求
 
@@ -73,135 +74,136 @@ ht-degree: 1%
 </table>
 -->
 
-您必須具備下列存取權，才能執行本文中的步驟：
+您必須具有下列存取權才能執行本文中的步驟：
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront計畫*</td> 
+   <td role="rowheader">Adobe Workfront計畫</td> 
    <td> <p>任何 </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Workfront授權概述*</td> 
-   <td> <p>計劃 </p> </td> 
+   <td role="rowheader">Workfront授權</td> 
+   <td> <p>新增：標準</p>
+        <p>或</p>
+        <p>目前：計畫 </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">存取層級*</td> 
-   <td> <p>編輯專案和範本的存取權</p> <p><b>附註</b>
-
-如果您仍無權存取，請洽詢您的Workfront管理員，他們是否在您的存取層級設定其他限制。 如需存取專案的相關資訊，請參閱 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md" class="MCXref xref">授予專案的存取權</a>. 如需Workfront管理員如何變更您的存取層級的詳細資訊，請參閱 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>. </p> </td>
-</tr> 
+   <td role="rowheader">存取層級設定</td> 
+   <td> <p>編輯專案和範本的存取權</p> </td> 
+  </tr> 
   <tr> 
-   <td role="rowheader">物件權限</td> 
-   <td> <p>檢視範本的權限</p> <p>建立專案時，您會自動收到專案的「管理」權限 </p> <p> 如需專案權限的相關資訊，請參閱 <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md" class="MCXref xref">在Adobe Workfront中共用專案</a>.</p> <p>有關請求其他訪問的資訊，請參閱 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">請求對對象的訪問 </a>.</p> </td> 
+   <td role="rowheader">物件許可權</td> 
+   <td> <p>檢視範本的許可權</p> <p>建立專案時，您會自動收到專案的管理許可權。</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;若要了解您擁有的計畫、授權類型或存取權，請聯絡您的Workfront管理員。
+如需有關此表格的詳細資訊，請參閱 [Workfront檔案中的存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-## 從「項目」區域中的模板建立項目
+## 從專案區域中的範本建立專案
 
-您可以從主菜單中的「項目」區域，或從產品組合或方案的「項目」區域建立項目。
+您可以從主要功能表的專案區域，或從投資組合或方案的專案區域建立專案。
 
-1. 執行下列任一項作業：
+1. 執行下列其中一項：
 
-   * 按一下 **主菜單** ![](assets/main-menu-icon.png)，按一下 **專案**，然後展開 **新增專案**.
-   * 前往產品組合，然後展開 **新增專案**.
+   * 按一下 **[!UICONTROL 主要功能表]** 圖示 ![主要功能表](/help/_includes/assets/main-menu-icon.png) 在Adobe Workfront的右上角，或（如果有的話）按一下 **[!UICONTROL 主要功能表]** 圖示 ![主要功能表](/help/_includes/assets/main-menu-icon-left-nav.png) 左上角。 按一下 **專案**，然後展開 **新增專案**.
+   * 前往投資組合，然後展開 **新增專案**.
 
-      >[!TIP]
-      >
-      >當您使用產品組合中的範本建立專案時，新專案的「Portfolio」欄位會更新，以顯示您選擇建立專案的產品組合。 如果已指定，則會覆寫範本上的Portfolio欄位。
+     >[!TIP]
+     >
+     >當您使用專案組合中的範本建立專案時，新專案的「Portfolio」欄位會更新，以顯示您選擇建立專案的來源專案組合。 如果已指定，這會覆寫範本上的Portfolio欄位。
 
    * 前往程式，然後展開 **新增專案**.
 
-      >[!TIP]
-      >
-      >使用方案的模板建立項目時，新項目的「方案」欄位將更新，以顯示您選擇建立項目的方案。 範本的「Portfolio」欄位會更新，以顯示您選擇建立專案的方案組合。 這會覆寫範本上的程式和Portfolio欄位（如果已指定）。
+     >[!TIP]
+     >
+     >使用方案中的範本建立專案時，新專案的「方案」欄位會更新，以顯示您選擇建立專案的方案。 範本的「Portfolio」欄位會更新，以顯示您選擇建立專案的計畫組合。 如果已指定，這會覆寫範本上的程式和Portfolio欄位。
 
-   * 如果您是群組管理員，也可以在您管理之群組的「專案」區段中建立專案。 如需詳細資訊，請參閱 [建立和修改群組的專案](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-projects.md).
+   * 如果您是群組管理員，您也可以在您管理之群組的專案區段中建立專案。 如需詳細資訊，請參閱 [建立和修改群組的專案](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-projects.md).
 
-      >[!TIP]
-      >
-      >使用組中的模板建立項目時，僅當未指定模板的「組」欄位時，才會在新項目的「組」欄位中顯示從中建立項目的組。 如果指定了模板組欄位，則新項目的組欄位為模板的組欄位。
+     >[!TIP]
+     >
+     >使用群組的範本建立專案時，僅當未指定範本的群組欄位時，您從中建立專案的群組才會顯示在新專案的群組欄位中。 如果指定了範本「群組」欄位，則新專案的「群組」欄位就是範本的「群組」欄位。
+
    <!--
    <p>(this, above, is hyperlinked to the classic version of this article; the Milestone View steps are similar to creating a project in Classic than to the way you do it in NWE)</p>
    -->
 
-   ![](assets/new-project-dropdown-nwe-350x358.png)
+   ![新專案選項](assets/new-project-dropdown.png)
 
-1. 在 **最喜愛的範本** 清單
+1. 按一下中範本的名稱 **我的最愛範本** 清單。
 
-   ![](assets/new-project-from-template-dropdown-with-template-favorites-nwe-350x235.png)
+   ![選取我的最愛範本](assets/new-project-from-template-dropdown-with-template-favorites.png)
 
    或
 
    執行下列動作：
 
-   1. 選擇 **從範本新增專案**.
-   1. 在 **搜尋範本** 欄位中，開始鍵入模板的名稱，然後在該名稱顯示在清單中時按一下。
+   1. 選取 **透過範本新增專案**.
+   1. 在 **搜尋範本** 欄位，開始輸入範本的名稱，並在範本顯示在清單中時按一下它。
    1. 檢閱右側的範本詳細資訊。
 
-      範本詳細資訊包括：
+      範本詳細資料包括：
 
       * 範本持續時間
-      * 範本擁有者
-      * 包括前三個任務名稱的頂層任務數
-      * 模板中所有任務的數量
+      * 範本所有者
+      * 最上層工作的數目，包括前三個工作的名稱
+      * 範本中所有任務的數量
       * 範本自訂表單的名稱
-   1. （選用）將滑鼠指標暫留在範本名稱上，然後按一下 **我的最愛** **圖示** ![](assets/favorites-icon-small.png) 將其標示為收藏供將來使用。
+
+   1. （可選）將滑鼠懸停在左窗格中的範本名稱上，然後按一下 **我的最愛** **圖示** ![](assets/favorites-icon-small.png) 以標示為未來使用的最愛。
 
       或
 
-      展開 **最喜愛的範本** 清單，然後從下拉式清單中選取範本。
+      展開 **我的最愛範本** 清單並從下拉式清單中選取範本。
 
       >[!TIP]
       >
-      >您最多可以有40個Workfront項目標示為我的最愛。 這包括範本和其他項目。
+      >您最多可以有40個Workfront專案標示為我的最愛。 這包括範本和其他專案。
 
    1. 按一下 **使用範本** 當您已選取範本時。
 
-   ![](assets/new-project-from-template-small-box-with-template-details-panel-nwe-350x279.png)
+      ![範本詳細資料](assets/new-project-from-template-small-box-with-template-details-panel.png)
 
-   >[!NOTE]
-   >
-   >如果已將「里程碑視圖」(Milestone View)應用到項目清單，請按一下 **從範本新增區段**.
-   >
-   >
-   >![](assets/create-project-from-template-box-from-milestone-view-nwe-350x275.png)   >
+      >[!NOTE]
+      >
+      >如果您已將「里程碑檢視」套用至專案清單，請在 **從範本區段新增**.
+      >
+      >
+      >![從範本建立專案的里程碑檢視](assets/create-project-from-template-box-from-milestone-view-nwe-350x275.png)
+      >
 
-1. 此 **新增專案** 框。
+   此 **新增專案** 方塊開啟。
 
-   ![](assets/new-project-from-template-box-with-all-sections-on-left-panel-nwe-350x282.png)
+   ![新增專案方塊](assets/new-project-from-template-box.png)
 
-1. 如果範本中已填入欄位，則會在 **新增專案** 框。 您可以編輯預先填入的值，以更符合您的專案。 如需詳細資訊，請參閱 [編輯專案](../../../manage-work/projects/manage-projects/edit-projects.md).
+1. 如果欄位已填入範本中，則該欄位會預先填入 **新增專案** 方塊。 您可以編輯預先填入的值，以更符合您的專案。 如需詳細資訊，請參閱 [編輯專案](../../../manage-work/projects/manage-projects/edit-projects.md).
 1. 按一下 **建立專案**.
 
-   如果您未在上一步驟中變更，則模板中定義的所有詳細資訊都會自動與新建立的項目關聯。
+   如果您在上一步沒有變更範本中定義的所有詳細資訊，這些詳細資訊會自動與新建立的專案建立關聯。
 
-## 從「模板」區域的模板建立項目
+## 從範本區域中的範本建立專案
 
-您可以從範本開始，從範本開始建立專案，而不是從「專案」區域開始。
+您可以從範本開始建立專案，而不是從專案區域開始。
 
- 
-
-1. 從 **主菜單**，按一下 **範本**.
+{{step1-to-templates}}
 
 1. 按一下您要使用的範本名稱。
-1. 按一下 **更多** 功能表 ![](assets/more-icon.png)，然後按一下 **建立專案。**
+1. 按一下 **更多** 功能表 ![](assets/more-icon.png)，然後按一下 **建立專案**.
 
-   ![從範本建立專案](assets/project-sharing-on-template-nwe-2022-350x172.png)
+   ![從範本建立專案](assets/project-sharing-on-template.png)
 
-   此 **新增專案** 框。
+   此 **新增專案** 方塊開啟。
 
-1. 指定專案的名稱，然後檢閱每個區段並進行任何必要的變更。
+1. 輸入專案名稱，然後檢閱每個區段並進行任何必要的變更。
 
-   ![](assets/new-project-from-template-box-with-all-sections-on-left-panel-nwe-350x282.png)
+   ![新增專案方塊](assets/new-project-from-template-box.png)
 
-   如果範本中已填入欄位，則會在 **新增專案** 框。 您可以編輯預先填入的值，以更符合您的專案。 如需詳細資訊，請參閱 [編輯專案](../../../manage-work/projects/manage-projects/edit-projects.md).
+   如果欄位已填入範本中，則該欄位會預先填入 **新增專案** 方塊。 您可以編輯預先填入的值，以更符合您的專案。 如需詳細資訊，請參閱 [編輯專案](../../../manage-work/projects/manage-projects/edit-projects.md).
 
-1. 按一下 **建立專案。**
+1. 按一下 **建立專案**.
 
-   如果您未在上一步驟中變更，則模板中定義的所有詳細資訊都會自動與新建立的項目關聯。
+   如果您在上一步沒有變更範本中定義的所有詳細資訊，這些詳細資訊會自動與新建立的專案建立關聯。
