@@ -2,84 +2,57 @@
 title: 刪除專案
 product-area: projects
 navigation-topic: manage-projects
-description: 如果不再需要專案及其資料，您可以刪除該專案。
+description: 如果不再需要專案及其資料，您可以刪除該專案。 建議您編輯專案並將狀態變更為「完成」或「廢棄」，作為刪除專案的替代方法。 這會從使用者的任務清單中移除與專案相關的所有目前任務，但儲存與專案相關的所有資料。
 author: Alina
 feature: Work Management
 exl-id: a0e80c4d-29a8-4bf8-aa19-0c2d493236c6
-source-git-commit: 5db9a4869e1321bd268e80f786d157fbb41c0656
+recommendations: noDisplay, noCatalog
+source-git-commit: dda00a43c5122a233ce2849d828d2e5e4555d2d9
 workflow-type: tm+mt
-source-wordcount: '894'
+source-wordcount: '884'
 ht-degree: 1%
 
 ---
 
 # 刪除專案
 
+<!--Audited: 01/2024-->
+
 如果不再需要專案及其資料，您可以刪除該專案。
 
 建議您編輯專案並將狀態變更為「完成」或「廢棄」，作為刪除專案的替代方法。 這會從使用者的任務清單中移除與專案相關的所有目前任務，但儲存與專案相關的所有資料。
 
+您可以刪除專案清單中的專案或專案層級的專案。
+
 ## 存取需求
 
-<!-- drafted for P&P:
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td> <p>Adobe Workfront plan*</p> </td> 
-   <td>Any</td> 
+   <td> <p>Adobe Workfront計畫</p> </td> 
+   <td>任何</td> 
   </tr> 
   <tr> 
-   <td> <p>Adobe Workfront license*</p> </td> 
-   <td> <p>Current license: Standard </p> 
-   Or
-   <p>Legacy license: Plan </p>
+   <td> <p>Adobe Workfront授權*</p> </td> 
+   <td> <p>目前授權：計畫 </p> 
+   或
+   <p>新授權： Standard </p>
    </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td><strong>Access level configurations*</strong> </td> 
-   <td> <p>Edit access to Projects with ability to Create <span>and Delete</span> projects</p> <p><b>NOTE</b>
-   
-   If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td>存取層級設定</td> 
+   <td> <p>編輯專案的存取權，並具備建立和刪除專案的能力</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><strong>Object permissions</strong> </p> </td> 
-   <td> <p>Edit access to Projects, Tasks, Issues with ability to Delete projects, tasks, and issues</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
--->
-
-您必須具備下列專案才能執行本文所述的步驟：
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront計畫*</td> 
-   <td> <p>任何 </p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront授權*</td> 
-   <td> <p>計劃 </p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">存取層級設定*</td> 
-   <td> <p>編輯對專案、任務、問題的存取權，並具備刪除專案、任務和問題的能力</p> <p><b>附註</b></p>
-
-<p>如果您還是沒有存取權，請詢問您的Workfront管理員，他們是否在您的存取層級中設定其他限制。 如需有關Workfront管理員如何修改您的存取層級的資訊，請參閱 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">物件許可權</td> 
-   <td> <p>管理專案的許可權、專案上的任務和問題，並可刪除專案、任務和問題。 </p> <p>如需請求其他存取許可權的詳細資訊，請參閱 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">要求物件的存取權 </a>.</p> </td> 
+   <td> <p>物件許可權 </p> </td> 
+   <td> <p>編輯對專案、任務、問題的存取權，並具備刪除專案、任務和問題的能力</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;若要瞭解您擁有的計畫、授權型別或存取權，請聯絡您的Workfront管理員。
-您可以刪除專案清單中的專案或專案層級的專案。
+*若要瞭解您擁有的計畫、授權型別或存取權，請聯絡您的Workfront管理員。 如需存取需求的詳細資訊，請參閱 [Workfront檔案中的存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## 瞭解刪除專案的程式
 
@@ -125,7 +98,7 @@ ht-degree: 1%
 
      您無法刪除記帳記錄狀態為「已記帳」的專案。 如需詳細資訊，請參閱 [建立付費記錄](../../projects/project-finances/create-billing-records.md).
 
-* 根據Workfront管理員在Workfront執行個體的時程表和小時偏好設定中設定專案、任務或問題刪除偏好設定的方式，任務、問題或專案的記錄小時會在刪除專案時以下列方式之一處理：
+* 根據Workfront管理員如何在Workfront執行個體的時程表和時數偏好設定中設定專案、任務或問題刪除偏好設定，任務、問題或專案的記錄時數在刪除專案時以下列方式之一處理：
 
    * 小時會作為一般時間保留在時程表中。
    * 時數會遭到刪除，如果專案已還原，則會還原時數。
@@ -138,7 +111,7 @@ ht-degree: 1%
    * 如果您刪除的專案連結至計畫中唯一發佈的方案，則也會移除已發佈計畫的指示。
    * 如果您復原已刪除的專案，專案將會復原，但其方案連結並未復原，且「情境規劃工具」區域不再顯示在「專案詳細資料」中。
 
-     Scenario Planner僅在新的Adobe Workfront體驗中可用，並且需要額外的授權。 如需Workfront Scenario Planner的相關資訊，請參閱 [情境規劃工具概觀](../../../scenario-planner/scenario-planner-overview.md).
+     Scenario Planner需要額外的授權。 如需Workfront Scenario Planner的相關資訊，請參閱 [情境規劃工具概觀](../../../scenario-planner/scenario-planner-overview.md).
 
      如需「情境規劃工具」中連結至方案的專案相關資訊，請參閱 [透過在情境規劃工具中發佈行動方案來更新或建立專案](../../../scenario-planner/publish-scenarios-update-projects.md).
 
@@ -166,7 +139,7 @@ ht-degree: 1%
 ## 刪除專案層級的專案
 
 1. 前往您要刪除的專案。
-1. 按一下 **更多** 圖示 ![](assets/qs-more-menu.png)，然後按一下 **刪除專案**.
+1. 按一下 **更多** 圖示 ![](assets/qs-more-menu.png) 在專案名稱右側，然後按一下 **刪除專案**.
 
    ![](assets/more-icon-expanded-delete-project-highlighted.png)
 

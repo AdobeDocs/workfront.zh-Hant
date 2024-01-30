@@ -4,9 +4,9 @@ description: 在Adobe Workfront Maestro中工作時，您可以與其他人共�
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 811eb1453c140808b0d6c5d9a3b4a0729cb16b2d
+source-git-commit: 72d044541f8e061c51c4483672a89ce20e4f30d9
 workflow-type: tm+mt
-source-wordcount: '419'
+source-wordcount: '468'
 ht-degree: 1%
 
 ---
@@ -17,6 +17,8 @@ ht-degree: 1%
 <!--update the metadata and description when we turn this article live; also, update title after Bob adds Maestro as a product-->
 
 # 共用檢視
+
+{{maestro-important-intro}}
 
 在Adobe Workfront Maestro中工作時，您可以與其他人共用檢視，以確保共同作業。
 
@@ -107,6 +109,8 @@ ht-degree: 1%
    * 管理
 
      如需許可權層級以及使用者可針對每個層級執行的動作的相關資訊，請參閱 [在Adobe Maestro中共用許可權概觀](../access/sharing-permissions-overview.md).
+1. 按一下 **複製連結** 將檢視的連結複製到剪貼簿。
+1. 與他人共用複製的連結。 收到連結的使用者必須是作用中使用者，並登入Workfront，才能存取記錄型別頁面並在選取的檢視中顯示該頁面。
 1. 按一下「**儲存**」。
 
 

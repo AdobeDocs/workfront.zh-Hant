@@ -4,7 +4,7 @@ description: 您可以在「Adobe大師」中編輯記錄資訊，並將每個�
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 7448f6b8a622bc814604e59d4654644b3d7a1e12
+source-git-commit: dda00a43c5122a233ce2849d828d2e5e4555d2d9
 workflow-type: tm+mt
 source-wordcount: '559'
 ht-degree: 0%
@@ -74,8 +74,8 @@ ht-degree: 0%
   </tr>
 <tr>
    <td role="rowheader"><p>權限</p></td>
-   <td> <p>檢視或更高的工作區許可權 </p>  
-   <p>檢視或更高的表格檢視許可權 </p> 
+   <td> <p>貢獻或更高的工作區許可權 </p>  
+   <p>貢獻或更高的表格檢視許可權 </p> 
    <p>系統管理員擁有所有工作區的許可權，包括他們未建立的工作區</p>
 </td>
   </tr>

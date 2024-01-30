@@ -1,7 +1,7 @@
 ---
-source-git-commit: 6a6906419058c398ee7b780b2f05f45b90975df9
+source-git-commit: dda00a43c5122a233ce2849d828d2e5e4555d2d9
 workflow-type: tm+mt
-source-wordcount: '2285'
+source-wordcount: '2356'
 ht-degree: 1%
 
 ---
@@ -203,7 +203,7 @@ ht-degree: 1%
          </td>
       </tr>
       <tr>
-         <td>設定期限
+         <td>設定截止日期
          </td>
          <td>
       <ol>
@@ -248,6 +248,18 @@ ht-degree: 1%
 ## 步驟1 — 前往Maestro - {#step1-to-maestro}
 
 1. 按一下 **[!UICONTROL 主要功能表]** 圖示 ![主要功能表](/help/_includes/assets/main-menu-icon.png) 在Adobe Workfront的右上角，或（如果有的話）按一下 **[!UICONTROL 主要功能表]** 圖示 ![主要功能表](/help/_includes/assets/main-menu-icon-left-nav.png) 然後按一下「 」 **[!UICONTROL 大師]**.
+
+## 大師重要介紹 —  {#maestro-important-intro}
+
+>[!IMPORTANT]
+>
+>本文資訊是指Adobe Maestro，這是Adobe Workfront的新產品。
+>
+>目前，Adobe大師是測試版計畫的一部分，向有限數量的客戶開放。 您必須是Workfront客戶才能使用Maestro功能。
+>
+>如需加入Maestro測試版計畫的詳細資訊，請聯絡您的客戶代表。
+>
+>如需有關Maestro的詳細資訊，請參閱 [Adobe大師概觀](/help/quicksilver/maestro/maestro-overview.md).
 
 <!-- Manage Work -->
 

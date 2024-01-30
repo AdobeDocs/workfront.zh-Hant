@@ -6,37 +6,14 @@ description: 您可以針對專案利用敏捷功能，而不會遇到敏捷實�
 author: Alina and Lisa
 feature: Work Management
 exl-id: fc633fd6-35b4-4949-8045-22c775002436
-source-git-commit: fa499d74df891441e729c32188e9b2f74e4ef5c0
+source-git-commit: dda00a43c5122a233ce2849d828d2e5e4555d2d9
 workflow-type: tm+mt
-source-wordcount: '1386'
+source-wordcount: '1380'
 ht-degree: 0%
 
 ---
 
 # 在敏捷檢視中管理專案
-
-<!--
-Required plans, license types, and access
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td> <p><a href="https://www.workfront.com/plans" target="_blank">Adobe Workfront Plan</a> </p> </td> 
-   <td> <p>Team, Pro, Business, or Enterprise </p> </td> 
-  </tr> 
-  <tr> 
-   <td> <p>Workfront License Type</p> </td> 
-   <td> <p>Review, Work, or Plan </p> </td> 
-  </tr> 
-   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-    <td> <p>Permissions in the access model</p> </td> 
-    <td> <li>Edit access and ability to create reports, dashboards, and calendars</li> </td> 
-   </tr>
- </tbody> 
-</table>
--->
 
 您可以針對專案利用敏捷功能，而不會遇到敏捷實務通常伴隨的管理挑戰（例如管理團隊待辦專案或建立反複專案）。
 
@@ -51,30 +28,31 @@ Required plans, license types, and access
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront計畫*</td> 
+   <td role="rowheader">Adobe Workfront計畫</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront授權*</td> 
-   <td> <p>評論或以上</p> </td> 
+   <td> <p>目前：檢閱或以上</p> 
+   <p>新增：投稿人或更高版本</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">存取層級設定*</td> 
+   <td role="rowheader">存取層級設定</td> 
    <td> <p>編輯對以下區域的存取權：</p> 
     <ul> 
      <li> <p>專案</p> </li> 
      <li> <p>報告、儀表板、行事曆</p> </li> 
      <li> <p>篩選器、檢視、群組</p> </li> 
-    </ul> <p>注意：如果您還是沒有存取權，請詢問您的Workfront管理員，他們是否在您的存取層級中設定其他限制。 如需有關Workfront管理員如何修改您的存取層級的資訊，請參閱 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>.</p> </td> 
+    </ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">物件許可權</td> 
-   <td> <p>檢視專案的許可權</p> <p>如需請求其他存取許可權的詳細資訊，請參閱 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">要求物件的存取權 </a>.</p> </td> 
+   <td> <p>檢視專案的許可權</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;若要瞭解您擁有的計畫、授權型別或存取權，請聯絡您的Workfront管理員。
+&#42;若要瞭解您擁有的計畫、授權型別或存取權，請聯絡您的Workfront管理員。 如需存取需求的詳細資訊，請參閱 [Workfront檔案中的存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## 瞭解敏捷專案
 
@@ -111,7 +89,9 @@ Required plans, license types, and access
 * 沒有父系任務或子任務的任務一律會顯示為內文板上的單一內文卡片。\
   例如，這些任務在專案清單檢視中會如下所示：
 
-  ![敏捷專案清單 — 無父系或子系任務的任務](assets/agile-project-single-list-nwe.png) 這些任務在專案敏捷檢視中顯示如下：
+  ![敏捷專案清單 — 無父系或子系任務的任務](assets/agile-project-single-list-nwe.png)
+
+  這些任務在專案敏捷檢視中顯示如下：
 
   ![專案敏捷檢視 — 沒有父系或子任務的任務](assets/agile-project-singlecard-nwe.png)
 
@@ -162,7 +142,7 @@ Required plans, license types, and access
 ## 在敏捷檢視中檢視專案
 
 1. 前往您要在敏捷檢視中檢視的專案（在任務清單或問題清單上）。
-1. 按一下 **展示板** 圖示 ![展示板圖示](assets/board-icon-for-agile-view.png).
+1. 按一下 **展示板檢視** 圖示 ![展示板圖示](assets/board-icon-for-agile-view.png).
 
    預設會顯示專案的展示板檢視。
 
@@ -210,7 +190,9 @@ Required plans, license types, and access
 >
 >本節僅適用於舊版敏捷檢視，不適用於專案的展示板檢視。
 
-如需關於如何共用敏捷檢視的資訊，請參閱 [共用篩選、檢視或分組](../../../reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md).
+您可以共用您建立的敏捷檢視，或是以與共用任何其他檢視、篩選或分組相同的方式擁有許可權。
+
+如需詳細資訊，請參閱 [共用篩選、檢視或分組](../../../reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md).
 
 ## 移除現有的敏捷檢視
 
@@ -218,4 +200,6 @@ Required plans, license types, and access
 >
 >本節僅適用於舊版敏捷檢視，不適用於專案的展示板檢視。
 
-如需有關如何刪除檢視的資訊，請參閱文章中的「移除檢視」一節 [Adobe Workfront中的檢視概觀](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
+您可以用移除任何其他檢視、篩選或分組的相同方式，移除敏捷檢視。
+
+如需詳細資訊，請參閱 [移除篩選器、檢視和群組](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/remove-filters-views-groupings.md).

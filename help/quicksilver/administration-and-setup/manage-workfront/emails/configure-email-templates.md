@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 2ebc3be5-2734-4012-9277-86176c070137
-source-git-commit: 1129f8ab93d349325bed56bc2b3ba94c2600c03f
+source-git-commit: dda00a43c5122a233ce2849d828d2e5e4555d2d9
 workflow-type: tm+mt
-source-wordcount: '742'
-ht-degree: 1%
+source-wordcount: '810'
+ht-degree: 2%
 
 ---
 
@@ -37,8 +37,10 @@ ht-degree: 1%
    <td>任何</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront授權</td> 
-   <td>計劃</td> 
+   <td role="rowheader">Adobe Workfront授權*</td> 
+   <td><p>目前：計畫</p>
+   或
+   <p>新增：標準</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定</td> 
@@ -47,13 +49,15 @@ ht-degree: 1%
  </tbody> 
 </table>
 
-## 建立新的電子郵件範本 {#create-a-new-email-template}
+*如需存取需求的詳細資訊，請參閱 [Workfront檔案中的存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-1. 按一下 **主要功能表** 圖示 ![](assets/main-menu-icon.png) (位於Adobe Workfront的右上角)，然後按一下 **設定** ![](assets/gear-icon-settings.png).
+## 建立電子郵件範本 {#create-an-email-template}
 
-1. 在左側的面板中，按一下 **電子郵件** > **通知**> **電子郵件範本**.
+{{step-1-to-setup}}
 
-![](assets/email-templates-tab-under-setup-email-notifications-area.png)
+1. 在左側面板中，按一下 **電子郵件** > **通知**> **電子郵件範本**.
+
+   ![](assets/email-templates-tab-under-setup-email-notifications-area.png)
 
 1. 按一下 **新增電子郵件範本**.
 
@@ -64,30 +68,37 @@ ht-degree: 1%
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">名稱</td> 
-      <td>電子郵件範本的標題（必填）。</td> 
+      <td role="rowheader">姓名</td> 
+      <td>新增電子郵件範本的標題。 這是必填欄位。</td> 
      </tr> 
      <tr> 
       <td role="rowheader">物件類型</td> 
-      <td>指定您要與範本建立關聯的物件型別（必要，預設會設為「問題」）。</td> 
-     </tr>
+      <td>指定要與範本關聯的物件型別。 從下列物件中選擇：
+      <ul>
+      <li>專案</li>
+      <li>任務</li>
+      <li>問題</li>
+      <li>時程表</li> </ul>
+
+   這是必填欄位，預設情況下設為「專案」。</td>
+   </tr>
      <tr> 
       <td role="rowheader">說明</td> 
-      <td>範本的說明。</td> 
+      <td>新增更多有關電子郵件範本、其用途和預期對象的資訊。</td> 
      </tr>
 
    <tr> 
       <td role="rowheader">主旨 </td> 
-      <td>傳送電子郵件訊息時顯示的主旨（必要）。</td> 
+      <td>當範本產生的電子郵件訊息傳送時，新增顯示在電子郵件主旨列中的文字。 這是必填欄位。</td> 
      </tr> 
      <tr> 
       <td role="rowheader">內文 </td> 
-      <td> <p>傳送電子郵件訊息時顯示的內容。</p> <p>您可以對電子郵件內容使用HTML格式，如所述 <a href="#add-html-formatting-to-an-email-template" class="MCXref xref">新增HTML格式至電子郵件範本</a> 本文章內容。</p> </td> 
+      <td> <p>新增電子郵件訊息內容的文字。</p> <p>您可以對電子郵件內容使用HTML格式，如區段中所述 <a href="#add-html-formatting-to-an-email-template" class="MCXref xref">新增HTML格式至電子郵件範本</a> 本文章內容。</p> </td> 
      </tr> 
     </tbody> 
    </table>
 
-1. 按一下&#x200B;**儲存**。
+1. 按一下「**儲存**」。
 
 ## 新增HTML格式至電子郵件範本 {#add-html-formatting-to-an-email-template}
 
@@ -128,15 +139,15 @@ Workfront您可以使用 `$$` 萬用字元，告訴電子郵件產生器從與�
 
 若要取得物件的「萬用字元」值，請執行下列任一項作業：
 
-<!-- Refer to the API Explorer and select the names of your objects from the Fields tab of any object. For more information about the API Explorer, see [Adobe Workfront API](../../../wf-api/workfront-api.md).-->
+* 參考API Explorer，並從任何物件的「欄位」標籤中選取物件名稱。 如需API Explorer的詳細資訊，請參閱 [API總管](/help/quicksilver/wf-api/general/api-explorer.md).
 
-* 使用您在報表的文字模式檢視中找到的「valuefield」值。 如需文字模式值的詳細資訊，請參閱 [文字模式概觀](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).
+* 使用 `valuefield` 您在報表的文字模式檢視中找到的值。 如需文字模式值的詳細資訊，請參閱 [文字模式概觀](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).
 
-  「標題」值可以是物件的名稱，如您想要其顯示在電子郵件內文中的名稱。
+此 `heading` value可以是物件的名稱，如同您想要其顯示在電子郵件內文中的名稱。
 
 ### 具有HTML的自訂欄位連結 {#link-to-custom-fields-with-html}
 
-您可以使用來包含使用者連結和自訂欄位 **$$** 萬用字元，告訴電子郵件產生器從與物件關聯的資料庫中尋找值。 它們必須出現在資料庫屬性參考的兩側。
+您可以使用來包含使用者連結和自訂欄位 `$$` 萬用字元，告訴電子郵件產生器從與物件關聯的資料庫中尋找值。 它們必須出現在資料庫屬性參考的兩側。
 
 例如，將以下文字新增為HTML會將指派使用者的名字新增至與任務關聯的提醒通知：
 
@@ -193,11 +204,11 @@ Workfront您可以使用 `$$` 萬用字元，告訴電子郵件產生器從與�
 
 取代 `<your domain>` 括弧)的Workfront網域中輸入URL。
 
-**主旨:**
+**主旨：**
 
 您管理的專案已延遲
 
-**內容:**
+**內容：**
 
 ```html
 <html>
@@ -231,11 +242,11 @@ Workfront您可以使用 `$$` 萬用字元，告訴電子郵件產生器從與�
 
 若要將此用於問題電子郵件，請變更 `/task/view.` 工作專案連結中的值 `/issue/view`.
 
-**主旨:**
+**主旨：**
 
 `$$name$$ to start on $$plannedStartDate$$`
 
-**內容:**
+**內容：**
 
 ```html
 <html>

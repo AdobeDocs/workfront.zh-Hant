@@ -6,22 +6,29 @@ description: 您可以新增圖表來增強報表。 您可以將圖表新增至
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 9b58d68c-4b7b-4344-bde3-7c65e2e1aac8
-source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
+source-git-commit: dda00a43c5122a233ce2849d828d2e5e4555d2d9
 workflow-type: tm+mt
-source-wordcount: '2755'
+source-wordcount: '2733'
 ht-degree: 0%
 
 ---
 
 # 新增圖表至報表
 
+<!--Audited: 01/2024-->
+
 您可以新增圖表來增強報表。 您可以將圖表新增至現有報表或您正在建立的報表。
 
-在將圖表新增到報表之前，您應該為報表建立檢視和分組。 除非將資訊分組到報表中，否則無法新增大多數圖表。 唯一可以新增而不使用分組的圖表是量測軌圖表。\
-如需關於如何建立檢視的資訊，請參閱 [Adobe Workfront中的檢視概觀](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).\
+在將圖表新增到報表之前，您應該為報表建立檢視和分組。
+
+除非您先將報表中的資訊分組，否則您無法將圖表新增至大多數報表。 唯一可以新增而不使用分組的圖表是量測軌圖表。
+
+如需關於檢視的資訊，請參閱 [Adobe Workfront中的檢視概觀](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
+
 如需分組的詳細資訊，請參閱 [Adobe Workfront中的群組概觀](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
 
-如果報表顯示太多專案，則不會建立圖表。 在此情況下，您也必須新增篩選器至報表，以減少報表中的結果數。\
+如果報表顯示太多專案，則不會建立圖表。 在此情況下，您也必須新增篩選器至報表，以減少報表中的結果數。
+
 如需篩選的詳細資訊，請參閱 [篩選器概觀](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
 ## 存取需求
@@ -33,33 +40,36 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront計畫*</td> 
+   <td role="rowheader">Adobe Workfront計畫</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront授權*</td> 
-   <td> <p>計劃 </p> </td> 
+   <td> <p>目前：計畫 </p>
+   或
+   <p>新增：標準</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">存取層級設定*</td> 
-   <td> <p>編輯報告、儀表板、行事曆的存取權</p> <p>編輯對篩選器、檢視、群組的存取權</p> <p>注意：如果您還是沒有存取權，請詢問您的Workfront管理員，他們是否在您的存取層級中設定其他限制。 如需有關Workfront管理員如何修改您的存取層級的資訊，請參閱 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>.</p> </td> 
+   <td role="rowheader">存取層級設定</td> 
+   <td> <p>編輯報告、儀表板、行事曆的存取權</p> <p>編輯對篩選器、檢視、群組的存取權</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">物件許可權</td> 
-   <td> <p>管理報表的許可權</p> <p>如需請求其他存取許可權的詳細資訊，請參閱 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">要求物件的存取權 </a>.</p> </td> 
+   <td> <p>管理報表的許可權</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;若要瞭解您擁有的計畫、授權型別或存取權，請聯絡您的Workfront管理員。
+&#42;若要瞭解您擁有的計畫、授權型別或存取權，請聯絡您的Workfront管理員。 如需存取需求的詳細資訊，請參閱 [Workfront檔案中的存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## 新增圖表至報表
 
 1. 移至現有報表或建立新報表。 如需建立新報告的詳細資訊，請參閱 [建立自訂報表](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 1. （視條件而定）如果您前往現有報表，請按一下 **報表動作** > **編輯**.
 
-1. 確保 **欄（檢視）** 標籤已更新以符合報告的需求。\
-   有關如何建立或修改報告檢視的資訊，請參閱 [Adobe Workfront中的檢視概觀](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
+1. 確保 **欄（檢視）** 標籤已更新，以在報告中顯示您想要繪成圖表的資訊。
+
+   有關如何建立或修改報告檢視的資訊，請參閱 [在Adobe Workfront中建立或編輯檢視](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md).
 
 1. 按一下 **群組** 標籤並新增群組。
 
@@ -67,15 +77,15 @@ ht-degree: 0%
    >
    >* 您只能在報告結果分組時向報告新增圖表。
    >* 圖表不支援文字模式分組。 如需文字模式群組的詳細資訊，請參閱 [編輯群組中的文字模式](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-grouping.md).
-   >* 如果您新增代表一個度量的單一群組，則除了圓形圖之外，其他所有圖表都會將群組中的每個結果顯示為相同的顏色。
+   >* 如果您新增代表一個度量的單一群組，則除了圓餅圖之外，其他所有圖表都會將群組中的每個結果顯示為相同的顏色。
 
-   如需分組的詳細資訊，請參閱 [Adobe Workfront中的群組概觀](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
+   如需建立群組的詳細資訊，請參閱 [在Adobe Workfront中建立群組](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-groupings.md).
 
 1. 選取 **圖表** 標籤。
 1. 按一下圖表型別以將其選取。\
    ![](assets/qs-report-builder-chart-350x265.png)
 
-1. 您可以將下列型別的圖表新增至Adobe Workfront報表：
+1. 從下列圖表型別中選取：
 
    * [柱狀圖](#column-chart)
    * [橫條圖](#bar-chart)
@@ -100,12 +110,13 @@ ht-degree: 0%
 1. （可選） **群組欄**：選取此選項可定義欄的群組方式。\
    從下列選項中選取：
 
-   * 按一下下列其中一個選項，以選取群組欄的顯示方式：\
-     **— 並排**
-     **— 棧疊**
-     **— 棧疊至100%**
+   * 按一下下列其中一個選項，以選取群組欄的顯示方式：
 
-   * 選取您要包含在圖表中的「群組」 。
+      * **並排**
+      * **棧疊**
+      * **棧疊至100%**
+
+   * 從中選擇要包含在圖表中的分組 **資料分組依據** 下拉式功能表。
    * （選用）選取 **自訂顏色** 以自訂欄的顏色。\
      如需自訂圖表顏色的詳細資訊，請參閱 [自訂圖表顏色](#customize-chart-colors).
 
@@ -129,15 +140,16 @@ ht-degree: 0%
    如需自訂圖表顏色的詳細資訊，請參閱 [自訂圖表顏色](#customize-chart-colors).
 
 1. （選用）選取 **以3D顯示** 以在3維檢視中顯示圖表。
-1. （選用）群組長條**：選取此選項可定義長條的分組方式。\
+1. （選用）選取 **群組條** 以定義要如何群組長條。\
    從下列選項中選取：
 
-   * 按一下下列其中一個選項，以選取群組長條的顯示方式：\
-     **— 並排**
-     **— 棧疊**
-     **— 棧疊至100%**
+   * 按一下下列其中一個選項，以選取群組長條的顯示方式：
 
-   * 選取您要包含在圖表中的「群組」 。
+      * **並排**
+      * **棧疊**
+      * **棧疊至100%**
+
+   * 從以下位置選取您要將圖表中的資訊群組到的方式： **資料分組依據** 下拉式功能表。
    * （選用）選取 **自訂顏色** 以自訂欄的顏色。\
      如需自訂圖表顏色的詳細資訊，請參閱 [自訂圖表顏色](#customize-chart-colors).
 

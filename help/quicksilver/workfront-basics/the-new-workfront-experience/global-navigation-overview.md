@@ -1,26 +1,32 @@
 ---
 content-type: overview
 title: 頂端導覽列概觀
-description: 上方導覽列 — 顯示在熒幕上方的新欄位 [!DNL Adobe Workfront] 體驗 — 可讓您輕鬆尋找並瀏覽至平台的其他區域。
+description: 頂端導覽列 — 顯示在您的熒幕頂端，位於 [!DNL Adobe Workfront]  — 可讓您輕鬆尋找及導覽至平台的其他區域。
 feature: Get Started with Workfront
 author: Nolan
 exl-id: 6262d0ff-4be0-41ac-b2e7-5eaa6b2795dc
-source-git-commit: 811eb1453c140808b0d6c5d9a3b4a0729cb16b2d
+source-git-commit: dda00a43c5122a233ce2849d828d2e5e4555d2d9
 workflow-type: tm+mt
-source-wordcount: '652'
+source-wordcount: '744'
 ht-degree: 0%
 
 ---
 
 # 頂端導覽列概觀
 
-頂端導覽列 — 顯示在您的熒幕頂端 [!DNL Adobe Workfront] 可讓您輕鬆尋找及導覽至平台的其他區域。
+<!--Audited: 01/2024-->
+
+頂端導覽列 — 顯示在您的熒幕頂端，位於 [!DNL Adobe Workfront]  — 可讓您輕鬆尋找及導覽至平台的其他區域。
 
 ![頂端導覽列](assets/global-navigation-bar.png)
 
 ## [!UICONTROL 首頁] 圖示
 
-此 **[!UICONTROL 首頁]** 圖示 ![](assets/home-icon.png) 帶您前往 [!UICONTROL 首頁] 頁面，此為預設登陸頁面。 若要深入瞭解首頁，請參閱 [使用 [!UICONTROL 首頁] 區域](../../workfront-basics/using-home/using-the-home-area/use-the-home-area.md).
+此 **[!UICONTROL 首頁]** 圖示 ![](assets/home-icon.png) 帶您前往 [!UICONTROL 首頁] 頁面，此為預設登陸頁面。
+
+依預設，「首頁」圖示會開啟「首頁」區域。 如需首頁的詳細資訊，請參閱 [使用 [!UICONTROL 首頁] 區域](../../workfront-basics/using-home/using-the-home-area/use-the-home-area.md).
+
+您的Workfront管理員可以自訂「首頁」圖示，透過建立版面配置範本並將其指派給您來開啟其他頁面。 如需詳細資訊，請參閱 [使用版面配置範本自訂登入頁面](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-landing-page.md).
 
 ## 釘選頁面
 
@@ -36,11 +42,17 @@ ht-degree: 0%
 
 藍色編號方塊 ![](assets/notifications-icon.png) 在畫面的右上角，會開啟通知清單。
 
-若要深入瞭解通知，請參閱 [檢視及管理應用程式內通知](../../workfront-basics/using-notifications/view-and-manage-in-app-notifications.md).
+您可以從「通知」功能表存取下列專案：
+
+* **通知**：這些是Workfront在滿足某些條件時產生的警報，可讓您知道可能需要注意的資訊。
+
+* **公告**：您的Workfront管理員所傳送有關重要主題的公告。
+
+若要進一步瞭解通知和公告，請參閱 [檢視及管理應用程式內通知](../../workfront-basics/using-notifications/view-and-manage-in-app-notifications.md).
 
 ## [!UICONTROL 我的最愛] 功能表
 
-此 **[!UICONTROL 我的最愛]** 圖示 ![我的最愛](assets/favorites-icon-62x55.png) 在系統中開啟您已最喜愛的頁面清單。 您可以從此功能表新增目前所在的頁面。
+此 **[!UICONTROL 我的最愛]** 圖示 ![我的最愛](assets/favorites-icon-62x55.png) 在系統中開啟已標籤為我的最愛頁面的清單。 您可以從此功能表新增目前所在的頁面。
 
 若要深入瞭解我的最愛，請參閱 [檢視和管理我的最愛](../../workfront-basics/navigate-workfront/recent-and-favorites/view-and-manage-favorites.md).
 
@@ -64,7 +76,7 @@ ht-degree: 0%
 >
 > 如果您的組織已上線 [!DNL Adobe Experience Cloud]，請參閱 [[!DNL Adobe Unified Experience] 的 [!DNL Workfront]](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
 
-此 **[!UICONTROL 主要功能表]** 圖示 ![主要功能表](assets/main-menu-icon.png) 開啟 [!UICONTROL 主要功能表]，可讓您導覽至Workfront的其他區域。
+此 **[!UICONTROL 主要功能表]** 圖示 ![主要功能表](assets/main-menu-icon.png) 開啟 [!UICONTROL 主要功能表]，您可從中導覽至Workfront的其他區域。
 
 中可用的選項 [!UICONTROL 主要功能表] 取決於：
 
@@ -74,7 +86,9 @@ ht-degree: 0%
 
 ![主要功能表選項](assets/main-menu-options-350x481.png)
 
-每個圖示都會將您帶往新專案的不同區域 [!DNL Adobe Workfront] 體驗。 若要深入瞭解每個區域，請參閱：
+每個圖示都會將您帶往Workfront的不同區域。
+
+若要深入瞭解每個區域，請參閱：
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: Update screenshot and add icons for new products/features.)</p>
@@ -113,7 +127,7 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-這些選項的下方 [!UICONTROL 主要功能表]，您可以存取：
+在主功能表下半部，您可以存取下列專案：
 
 <table style="table-layout:auto"> 
  <col> 
