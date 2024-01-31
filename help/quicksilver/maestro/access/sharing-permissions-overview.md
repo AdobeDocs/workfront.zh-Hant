@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 el-id: 698036a6-b3b4-44a9-91ee-63fdb6a646a1
-source-git-commit: 72d044541f8e061c51c4483672a89ce20e4f30d9
+source-git-commit: 86f9a88518c8a03643061b3328719d2da4016f2b
 workflow-type: tm+mt
-source-wordcount: '453'
+source-wordcount: '454'
 ht-degree: 8%
 
 ---
@@ -55,7 +55,7 @@ ht-degree: 8%
    * 使用者
    * 群組
 * 其他使用者（包括系統管理員）只能存取他們已建立或已與他們共用的檢視。
-* 您可以與其他人共用工作區的連結，或從記錄型別頁面共用檢視。 收到連結的使用者必須是作用中使用者，並登入Workfront，才能存取所選檢視中顯示的工作區或記錄型別頁面。
+* 您可以與其他人共用工作區連結或從記錄型別頁面檢視連結。 收到連結的使用者必須是作用中使用者，並登入Workfront，才能存取所選檢視中顯示的工作區或記錄型別頁面。
 
 ## 共用Maestro物件的許可權
 

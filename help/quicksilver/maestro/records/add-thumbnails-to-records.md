@@ -4,9 +4,9 @@ description: 您可以在「Adobe大師」中編輯記錄資訊，並將每個�
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: dda00a43c5122a233ce2849d828d2e5e4555d2d9
+source-git-commit: 86f9a88518c8a03643061b3328719d2da4016f2b
 workflow-type: tm+mt
-source-wordcount: '559'
+source-wordcount: '604'
 ht-degree: 0%
 
 ---
@@ -75,19 +75,17 @@ ht-degree: 0%
 <tr>
    <td role="rowheader"><p>權限</p></td>
    <td> <p>貢獻或更高的工作區許可權 </p>  
-   <p>貢獻或更高的表格檢視許可權 </p> 
    <p>系統管理員擁有所有工作區的許可權，包括他們未建立的工作區</p>
 </td>
   </tr>
 <tr>
    <td role="rowheader"><p>版面配置範本</p></td>
-   <td> <p>您的Workfront或群組管理員必須在您的版面配置範本中新增Maestro區域。 如需詳細資訊，請參閱 <a href="../access/access-overview.md">存取權總覽</a>. </p>  
+   <td>  <p>必須為所有使用者(包括Workfront管理員)指派一個版面配置範本，該範本包含主功能表中的Maestro區域。 </p> <p>如需詳細資訊，請參閱 <a href="/help/quicksilver/maestro/access/access-overview.md">存取權總覽</a>. </p>  
 </td>
   </tr>
 
 </tbody>
 </table>
-
 
 ## 有關記錄縮圖的考量事項
 
@@ -96,14 +94,14 @@ ht-degree: 0%
 請考量下列事項：
 
 * 您只能將影像檔案新增為縮圖。
+  <!--above: when you know exactly what type of files are allowed, add the exact extensions above-->
 * 您可以在表格檢視中將縮圖影像新增至個別記錄。
+* 縮圖屬於記錄資訊，且會顯示在記錄顯示的檢視中。 例如，縮圖會與記錄資訊一起顯示在下列區域中：
+
+   * 表格檢視中記錄的主要欄位
+   * 時間軸檢視中的記錄列。
 * 您無法從記錄的「詳細資訊」頁面或時間軸檢視中新增記錄縮圖。
-* 無論欄位型別為何，縮圖影像一律會顯示在每筆記錄的主要欄位左側。
-
-  單行文字、數字或公式欄位可指定為主要欄位。
-如需詳細資訊，請參閱 [管理表格檢視](/help/quicksilver/maestro/views/manage-the-table-view.md).
-
-<!--above: when you know exactly what type of files are allowed, add the exact extensions above-->
+* 縮圖不會顯示在記錄的詳細資訊頁面中。
 
 ## 新增縮圖至記錄
 
@@ -131,10 +129,11 @@ ht-degree: 0%
 1. （選用）使用大小調整工具來裁切影像和調整影像大小。
 1. 按一下 **使用影像** 將影像新增為縮圖。
 如此即會關閉 **錄製縮圖** 方塊。
-1. 按一下表格檢視右上角的「欄位」。
+1. （視條件而定）如果您至少擁有表格檢視的「貢獻」許可權，請按一下 **欄位** 表格檢視的右上角。
 1. 選取 **縮圖** 切換即可顯示縮圖。 預設會取消選取此選項。
 
    ![](assets/thumbnail-toggle-in-fields-menu-deselected.png)
 
    縮圖會顯示在主要欄位值的左側。
+1. （選擇性和條件性）如果您沒有Contribute或更高的檢視許可權，請從 **檢視** 下拉式功能表，或建立檢視。
 1. （可選）若要移除縮圖，請將游標移至主要欄位上，然後按一下 **更多** 功能表 ![](assets/more-menu.png)> **縮圖** > **移除** 圖示 ![](assets/remove-image-icon.png)，然後按一下 **儲存變更**.

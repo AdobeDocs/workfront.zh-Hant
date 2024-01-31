@@ -1,19 +1,19 @@
 ---
 product-previous: workfront-goals
 navigation-topic: goal-management
-title: 存取與Adobe Workfront目標中的開放目標
+title: 在Adobe Workfront目標中存取和開啟目標
 description: 本文說明如何在Adobe Workfront中尋找和管理目標。
 author: Alina
 feature: Workfront Goals
 exl-id: a729f334-6ca4-4cf5-a3ef-01a7effb7153
-source-git-commit: 1d221d10e5845e477dff825f853330b9b4df0adf
+source-git-commit: 86f9a88518c8a03643061b3328719d2da4016f2b
 workflow-type: tm+mt
 source-wordcount: '430'
 ht-degree: 0%
 
 ---
 
-# 存取與Adobe Workfront目標中的開放目標
+# 在Adobe Workfront目標中存取和開啟目標
 
 本文說明如何在Adobe Workfront中尋找和管理策略目標。
 
@@ -71,6 +71,13 @@ You must have the following to perform the activities described in this article:
      <p>For information about sharing goals, see <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Share a goal in Workfront Goals</a>. </p> 
     </div> </td> 
   </tr> 
+  <tr> 
+   <td role="rowheader"><p>Layout template</p></td> 
+   <td> 
+    <div> 
+     <p>All users, including Workfront administrators,  must be assigned to a layout template that includes the Goals area in the Main Menu. </p> 
+    </div> </td> 
+  </tr> 
  </tbody> 
 </table>
 -->
@@ -83,47 +90,50 @@ You must have the following to perform the activities described in this article:
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront計畫*</td> 
-   <td> <p>Pro或更高版本</p> </td> 
+   <td> <p>Pro或更高</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront授權*</td> 
-   <td> <p>要求或更高版本</p> <p>如需詳細資訊，請參閱 <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront授權概觀</a>.</p> </td> 
+   <td> <p>要求或更高版本</p> <p>如需詳細資訊，請參閱 <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront授權總覽</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">產品</td> 
-   <td> <p>您必須購買額外的Adobe Workfront目標授權才能存取本文所述的功能。 </p> <p>如需詳細資訊，請參閱 <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">使用Workfront目標的需求</a>. </p> </td> 
+   <td> <p>您必須為Adobe Workfront目標購買額外的授權，才能存取本文所述的功能。 </p> <p>如需詳細資訊，請參閱 <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">使用Workfront目標的需求</a>. </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">存取層級*</td> 
-   <td> <p>編輯目標的存取權</p> <p><b>附註</b><p>如果您仍無權存取，請洽詢您的Workfront管理員，他們是否在您的存取層級設定其他限制。 如需Workfront管理員如何變更您的存取層級的詳細資訊，請參閱：</p> 
+   <td> <p>編輯目標的存取權</p> <p><b>附註</b><p>如果您還是沒有存取權，請詢問您的Workfront管理員，他們是否在您的存取層級中設定其他限制。 如需Workfront管理員如何變更存取層級的詳細資訊，請參閱：</p> 
      <ul> 
       <li> <p><a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a> </p> </li> 
       <li> <p><span href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md"><a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md" class="MCXref xref">授予Adobe Workfront目標的存取權</a></span> </p> </li> 
      </ul> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">物件權限</td> 
+   <td role="rowheader">物件許可權</td> 
    <td> 
     <div> 
-     <p>檢視目標的或更高的權限以檢視</p> 
-     <p>管理目標的權限以進行編輯</p> 
-     <p>如需共用目標的相關資訊，請參閱 <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">在Workfront目標中共用目標</a>. </p> 
+     <p>檢視目標或更高許可權以檢視它</p> 
+     <p>管理目標的許可權以編輯它</p> 
+     <p>如需關於共用目標的資訊，請參閱 <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">在Workfront目標中共用目標</a>. </p> 
     </div> </td> 
-  </tr> 
- </tbody> 
+  </tr>
+
+<tr> 
+   <td role="rowheader"><p>版面配置範本</p></td> 
+   <td> 
+    <div> 
+     <p>必須為所有使用者(包括Workfront管理員)指派一個版面配置範本，該範本包含主功能表中的「目標」區域。 </p> 
+    </div> </td> 
+  </tr>
+
+</tbody> 
 </table>
 
-*若要了解您擁有的計畫、授權類型或存取權，請聯絡您的Workfront管理員。
-
-## 必要條件
-
-您必須具備下列條件，才能開始：
-
-* 一種佈局模板，在主菜單中包括目標區域。
+*若要瞭解您擁有的計畫、授權型別或存取權，請聯絡您的Workfront管理員。
 
 ## 存取Workfront目標
 
-1. 按一下 **主菜單** 圖示 ![](assets/main-menu-icon.png) 在右上角，按一下 **目標**.
+1. 按一下 **主要功能表** 圖示 ![](assets/main-menu-icon.png) 按一下「 」 **目標**.
 
    <!-- drafted for Shell release: Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-management/assets/three-line-main-menu-icon.png) in the upper-left corner)
    -->
@@ -133,17 +143,17 @@ You must have the following to perform the activities described in this article:
 
    >[!IMPORTANT]
    >
-   >   如果您有正確的Workfront目標存取權，則您可以依預設檢視您或目標清單中建立的其他人的目標。
+   >   當您擁有Workfront目標的正確存取權時，預設情況下，您可以檢視自己或其他任何人在目標清單中建立的目標。
 
    <!--   
    (NOTE: This might change when sharing is in place; right now, with sharing in place, they can VIEW all goals in the system but they cannot EDIT the ones others created!)
    -->
 
-1. （選用）按一下目標名稱以開啟或編輯目標。
+1. （選用）按一下目標的名稱以開啟或編輯目標。
 
    或
 
-   按一下 **新目標** 來新增目標。
+   按一下 **新目標** 以新增目標。
 
    如需建立目標的相關資訊，請參閱 [在Adobe Workfront目標中建立目標](../../workfront-goals/goal-management/create-goals.md).
 
@@ -151,16 +161,15 @@ You must have the following to perform the activities described in this article:
 
 您必須存取個別目標，才能在管理目標時執行下列動作：
 
-* 編輯
-* 新增結果或活動
-* 編輯與其相關聯的結果和活動
-* 啟動它
-* 停用
+* 編輯它
+* 新增結果或活動到其中
+* 編輯與其關聯的結果和活動
+* 啟用它
+* 停用它
 * 刪除它
-* 將其與另一個目標一致
+* 使其與另一個目標一致
 * 將結果或活動轉換為其他目標
-* 更新
-
+* 更新它
 <!--
 Accessing goals differs depending on what environment you use.
 
@@ -192,13 +201,13 @@ To access an individual goal in the Production environment:
 
 若要存取個別目標：
 
-1. 按一下 **主菜單** 圖示，然後按一下 **目標** .
+1. 按一下 **主要功能表** Workfront圖示並按一下「 」，接著再按一下「 」。 **目標** .
 預設會顯示「目標清單」。
    ![](assets/goal-list-unshimmed.png)
 1. 按一下清單中目標的名稱。
 目標的頁面隨即顯示。
    ![](assets/goal-page-unshimmed.png)
-1. 按一下 **更多** 功能表 ![](assets/more-icon.png) ，以進一步編輯或共用目標。
-1. 按一下 **目標詳細資訊** ，編輯關於目標的資訊。 如需詳細資訊，請參閱 [更新Adobe Workfront目標中「目標詳細資訊」區段中的目標](../goal-management/update-goals-in-goal-details-panel.md).
+1. 按一下 **更多** 功能表 ![](assets/more-icon.png) 位於目標名稱的右側，以進一步編輯或共用目標。
+1. 按一下 **目標詳細資料** 編輯目標的相關資訊。 如需詳細資訊，請參閱 [更新「Adobe Workfront目標」中「目標詳細資料」區段中的目標](../goal-management/update-goals-in-goal-details-panel.md).
 
 
