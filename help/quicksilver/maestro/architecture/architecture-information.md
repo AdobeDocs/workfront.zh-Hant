@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 0da08e30-51a8-4163-ae1e-821a099fac3b
-source-git-commit: 811eb1453c140808b0d6c5d9a3b4a0729cb16b2d
+source-git-commit: 4016ba2c1b94ba84037612bdc9c1136267513fd5
 workflow-type: tm+mt
-source-wordcount: '250'
+source-wordcount: '185'
 ht-degree: 0%
 
 ---
@@ -28,15 +28,7 @@ hide: yes
 
 # 架構：文章索引
 
->[!IMPORTANT]
->
->本文資訊是指Adobe Maestro，這是Adobe Workfront的新產品。
->
->目前，Adobe大師是測試版計畫的一部分，向有限數量的客戶開放。 您必須是Workfront客戶才能使用Maestro功能。
->
->如需加入Maestro測試版計畫的詳細資訊，請聯絡您的客戶代表。
->
->如需詳細資訊，請參閱 [Adobe大師概觀](../maestro-overview.md).
+{{maestro-important-intro}}
 
 身為行銷營運領導者，您可以使用Adobe Maestro為所有團隊在行銷生命週期中組織工作。
 

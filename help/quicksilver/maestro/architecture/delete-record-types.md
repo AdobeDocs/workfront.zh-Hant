@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 70fd3887-3871-45b5-9c21-f57da63662aa
-source-git-commit: ce015eba8291995eec1611917896a0e797f820cc
+source-git-commit: 4016ba2c1b94ba84037612bdc9c1136267513fd5
 workflow-type: tm+mt
-source-wordcount: '456'
+source-wordcount: '391'
 ht-degree: 0%
 
 ---
@@ -27,15 +27,7 @@ hide: yes
 
 # 刪除記錄型別
 
->[!IMPORTANT]
->
->本文資訊是指Adobe Maestro，這是Adobe Workfront的新產品。
->
->目前，Adobe大師是測試版計畫的一部分，向有限數量的客戶開放。 您必須是Workfront客戶才能使用Maestro功能。
->
->如需加入Maestro測試版計畫的詳細資訊，請聯絡您的客戶代表。
->
->如需詳細資訊，請參閱 [Adobe大師概觀](../maestro-overview.md).
+{{maestro-important-intro}}
 
 當作業記錄型別或分類記錄型別不再相關時，您可以將其刪除。
 

@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 604b84c1-4ec6-4d4a-b9f4-4223641ff2ea
-source-git-commit: 811eb1453c140808b0d6c5d9a3b4a0729cb16b2d
+source-git-commit: 4016ba2c1b94ba84037612bdc9c1136267513fd5
 workflow-type: tm+mt
-source-wordcount: '559'
+source-wordcount: '494'
 ht-degree: 0%
 
 ---
@@ -16,15 +16,7 @@ ht-degree: 0%
 
 # 建立工作區
 
->[!IMPORTANT]
->
->本文資訊是指Adobe Maestro，這是Adobe Workfront的新產品。
->
->目前，Adobe大師是測試版計畫的一部分，向有限數量的客戶開放。 您必須是Workfront客戶才能使用Maestro功能。
->
->如需加入Maestro測試版計畫的詳細資訊，請聯絡您的客戶代表。
->
->如需詳細資訊，請參閱 [Adobe大師概觀](../maestro-overview.md).
+{{maestro-important-intro}}
 
 在Adobe大師，工作區是團隊計畫工作的集中位置。
 

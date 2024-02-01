@@ -4,9 +4,9 @@ description: 在Adobe大師，您可以建立公式欄位，這些欄位使用�
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 980e6c2cea2ceb98abda6b98811e734d895ad274
+source-git-commit: 4016ba2c1b94ba84037612bdc9c1136267513fd5
 workflow-type: tm+mt
-source-wordcount: '511'
+source-wordcount: '446'
 ht-degree: 0%
 
 ---
@@ -29,15 +29,7 @@ recommendations: noDisplay, noCatalog
 
 <!--when we release permissions to RECORDS and we release referring lookup fields in a formula field, update considerations to say that lookup fields from linked records depends on the permissions to the record; if they have no permissions to view a linked record, they won't be able to use that records's lookup fields in a formula-->
 
->[!IMPORTANT]
->
->本文資訊是指Adobe Maestro，這是Adobe Workfront的新產品。
->
->目前，Adobe大師是測試版計畫的一部分，向有限數量的客戶開放。 您必須是Workfront客戶才能使用Maestro功能。
->
->如需加入Maestro測試版計畫的詳細資訊，請聯絡您的客戶代表。
->
->如需詳細資訊，請參閱 [Adobe大師概觀](../maestro-overview.md).
+{{maestro-important-intro}}
 
 您可以在Adobe Maestro中建立自訂欄位，方法是參考現有欄位並使用公式將其連線。 您可以建立自訂公式型別欄位來完成此操作。
 

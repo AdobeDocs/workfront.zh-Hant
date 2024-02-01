@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 6c35c313-d6ed-428b-b70d-2ea242da4e8f
-source-git-commit: c264c0c96b818934a7c25ed54c7666d2d6c95e54
+source-git-commit: 4016ba2c1b94ba84037612bdc9c1136267513fd5
 workflow-type: tm+mt
-source-wordcount: '528'
+source-wordcount: '463'
 ht-degree: 0%
 
 ---
@@ -28,15 +28,7 @@ recommendations: noDisplay, noCatalog
 
 # 編輯欄位
 
->[!IMPORTANT]
->
->本文資訊是指Adobe Maestro，這是Adobe Workfront的新產品。
->
->目前，Adobe大師是測試版計畫的一部分，向有限數量的客戶開放。 您必須是Workfront客戶才能使用Maestro功能。
->
->如需加入Maestro測試版計畫的詳細資訊，請聯絡您的客戶代表。
->
->如需詳細資訊，請參閱 [Adobe大師概觀](../maestro-overview.md).
+{{maestro-important-intro}}
 
 您可以編輯已建立欄位的欄位設定。
 

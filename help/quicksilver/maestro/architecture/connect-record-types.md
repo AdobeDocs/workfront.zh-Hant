@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
-source-git-commit: ce015eba8291995eec1611917896a0e797f820cc
+source-git-commit: 4016ba2c1b94ba84037612bdc9c1136267513fd5
 workflow-type: tm+mt
-source-wordcount: '2051'
+source-wordcount: '1986'
 ht-degree: 0%
 
 ---
@@ -28,15 +28,7 @@ author: Alina
 
 # 連線記錄型別
 
->[!IMPORTANT]
->
->本文資訊是指Adobe Maestro，這是Adobe Workfront的新產品。
->
->目前，Adobe大師是測試版計畫的一部分，向有限數量的客戶開放。 您必須是Workfront客戶才能使用Maestro功能。
->
->如需加入Maestro測試版計畫的詳細資訊，請聯絡您的客戶代表。
->
->如需詳細資訊，請參閱 [Adobe大師概觀](../maestro-overview.md).
+{{maestro-important-intro}}
 
 您可以使用Adobe Maestro來設計包含貴組織所需記錄型別的完全可自訂工作區。 指示個別記錄型別如何彼此關聯的一種方法是連線它們。 此外，您也可以將Maestro記錄型別與其他應用程式的物件型別連線起來，以強化使用者的體驗，並將他們的焦點放在一個應用程式中。
 

@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: 5f3d5c93c2fc721dda2dd04adac22190ef6a3f29
+source-git-commit: 4016ba2c1b94ba84037612bdc9c1136267513fd5
 workflow-type: tm+mt
-source-wordcount: '1678'
+source-wordcount: '1663'
 ht-degree: 0%
 
 ---
@@ -26,15 +26,7 @@ role: User
 
 <!--update the metadata with real information when making this available in TOC and in the left nav-->
 
->[!IMPORTANT]
->
->本文資訊是指Adobe Maestro，這是Adobe Workfront的新產品。
->
->目前，Adobe大師是測試版計畫的一部分，向有限數量的客戶開放。 您必須是Workfront客戶才能使用Maestro功能。
->
->如需加入Maestro測試版計畫的詳細資訊，請聯絡您的客戶代表。
->
->如需詳細資訊，請參閱 [Adobe大師概觀](/help/quicksilver/maestro/maestro-overview.md).
+{{maestro-important-intro}}
 
 存取Adobe Maestro中的記錄型別頁面時，您可以在時間軸檢視中顯示記錄。
 
@@ -265,6 +257,12 @@ this is not possible right now; if this is the same functionality as the table v
 1. 按一下 **橫條樣式** 在左側面板中，指定您要在記錄列上顯示的欄位。
 
    依預設，會選取「名稱」欄位。 <!--adjust this when the primary field is released??-->
+
+1. （選擇性和條件性）如果您將縮圖新增至記錄，請選取「縮圖」選項，以顯示與其記錄列中的記錄相關聯的影像。
+
+   >[!NOTE]
+   >
+   >    您必須先在表格檢視中新增縮圖，才能在時間軸檢視中顯示它們。 如需詳細資訊，請參閱 [新增縮圖至記錄](/help/quicksilver/maestro/records/add-thumbnails-to-records.md).
 
 1. 按一下 **新增欄位** 以新增最多4個欄位到記錄列。
 1. 按一下 **搜尋欄位** 方塊，然後按一下您要新增的欄位。

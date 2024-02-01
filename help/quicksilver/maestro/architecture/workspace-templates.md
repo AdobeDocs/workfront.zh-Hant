@@ -5,9 +5,9 @@ hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: c4758b87-45dc-4ffd-b086-5e2e907bdf34
-source-git-commit: 6d1d3d82e15f4232ff81294d9094c2683b01ca89
+source-git-commit: 4016ba2c1b94ba84037612bdc9c1136267513fd5
 workflow-type: tm+mt
-source-wordcount: '473'
+source-wordcount: '464'
 ht-degree: 0%
 
 ---
@@ -27,15 +27,7 @@ role: User
 
 # 工作區範本清單
 
->[!IMPORTANT]
->
->本文資訊是指Adobe Maestro，這是Adobe Workfront的新產品。
->
->目前，Adobe大師是測試版計畫的一部分，向有限數量的客戶開放。 您必須是Workfront客戶才能使用Maestro功能。
->
->如需加入Maestro測試版計畫的詳細資訊，請聯絡您的客戶代表。
->
->如需詳細資訊，請參閱 [Adobe大師概觀](../maestro-overview.md).
+{{maestro-important-intro}}
 
 在Adobe大師，工作區是團隊使用的操作記錄型別和分類法的集合，並代表團隊的工作生命週期。
 
@@ -112,7 +104,7 @@ You must have the following:
       * **Campaign**：9個欄位和7個連結欄位
       * **計畫**：9個欄位和5個連結欄位
       * **活動**：6個欄位和5個連結欄位
-   * 分類法:
+   * 分類：
       * **對象**：3個欄位和3個連結欄位
       * **區段**：5個欄位和1個連結欄位
       * **客戶歷程**：4個欄位
@@ -130,7 +122,7 @@ You must have the following:
       * **商機**：7個欄位和4個連結欄位
       * **活動**：4個欄位和5個連結欄位
       * **Campaign**：5個欄位和3個連結欄位
-   * 分類法:
+   * 分類：
       * **帳戶**：4個欄位和3個連結欄位
       * **銷售機會**：12個欄位和2個連結欄位
       * **連絡人**：10個欄位和2個連結欄位
@@ -149,7 +141,7 @@ You must have the following:
       * **Epic**：9個欄位和3個連結欄位
       * **使用者劇本**：9個欄位和2個連結欄位
 
-   * 分類法:
+   * 分類：
 
       * **客戶**：6個欄位和1個連結欄位
       * **衝刺(sprint)**：7個欄位和1個連結欄位

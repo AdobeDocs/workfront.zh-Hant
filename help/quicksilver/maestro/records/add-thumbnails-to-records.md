@@ -4,9 +4,9 @@ description: 您可以在「Adobe大師」中編輯記錄資訊，並將每個�
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 86f9a88518c8a03643061b3328719d2da4016f2b
+source-git-commit: 4016ba2c1b94ba84037612bdc9c1136267513fd5
 workflow-type: tm+mt
-source-wordcount: '604'
+source-wordcount: '539'
 ht-degree: 0%
 
 ---
@@ -15,15 +15,7 @@ ht-degree: 0%
 
 # 新增縮圖至記錄
 
->[!IMPORTANT]
->
->本文資訊是指Adobe Maestro，這是Adobe Workfront的新產品。
->
->目前，Adobe大師是測試版計畫的一部分，向有限數量的客戶開放。 您必須是Workfront客戶才能使用Maestro功能。
->
->如需加入Maestro測試版計畫的詳細資訊，請聯絡您的客戶代表。
->
->如需詳細資訊，請參閱 [Adobe大師概觀](../maestro-overview.md).
+{{maestro-important-intro}}
 
 您可以在Adobe Maestro中將記錄與唯一縮圖建立關聯，以便輕鬆識別。
 

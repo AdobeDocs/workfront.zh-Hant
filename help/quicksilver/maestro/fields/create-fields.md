@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: 03894773e61fc0706148695572a164a2e778da9b
+source-git-commit: 4016ba2c1b94ba84037612bdc9c1136267513fd5
 workflow-type: tm+mt
-source-wordcount: '3390'
+source-wordcount: '3325'
 ht-degree: 2%
 
 ---
@@ -33,15 +33,7 @@ recommendations: noDisplay, noCatalog
 
 # 建立欄位
 
->[!IMPORTANT]
->
->本文資訊是指Adobe Maestro，這是Adobe Workfront的新產品。
->
->目前，Adobe大師是測試版計畫的一部分，向有限數量的客戶開放。 您必須是Workfront客戶才能使用Maestro功能。
->
->如需加入Maestro測試版計畫的詳細資訊，請聯絡您的客戶代表。
->
->如需詳細資訊，請參閱 [Adobe大師概觀](../maestro-overview.md).
+{{maestro-important-intro}}
 
 在「Adobe管理員」中，您可以建立作業記錄型別或分類的自訂欄位。 然後，您可以將欄位與Maestro記錄建立關聯，以增強記錄資訊。
 

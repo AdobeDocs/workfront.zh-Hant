@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: d9a8af627c8d3da4a7625cd5180bfca69da43b3d
+source-git-commit: 83b4aa974fe0d9ba2ace797b52198b15fc55f5d8
 workflow-type: tm+mt
-source-wordcount: '2316'
+source-wordcount: '2298'
 ht-degree: 3%
 
 ---
@@ -26,15 +26,7 @@ hide: yes
 
 <!--update the metadata with real information when making this available in TOC and in the left nav-->
 
->[!IMPORTANT]
->
->本文資訊是指Adobe Maestro，這是Adobe Workfront的新產品。
->
->目前，Adobe大師是測試版計畫的一部分，向有限數量的客戶開放。 您必須是Workfront客戶才能使用Maestro功能。
->
->如需加入Maestro測試版計畫的詳細資訊，請聯絡您的客戶代表。
->
->如需詳細資訊，請參閱 [Adobe大師概觀](../maestro-overview.md).
+{{maestro-important-intro}}
 
 存取Adobe Maestro中的記錄型別頁面時，您可以在表格檢視中顯示記錄及其欄位。
 
@@ -222,8 +214,9 @@ Maestro表格檢視的列會顯示所選記錄型別的個別記錄。
 
    您在表格檢視中新增的記錄會立即儲存，且所有擁有工作區檢視或更高許可權的使用者皆可看到。
 
-   <!--1. (Optional) Add a thumbnail to each record, then click **Fields** in the upper-right corner of the table, and select the toggle for the Thumbnail field to display it to the left of the primary field. It is deselected by default. 
-        For information, see [Add thumbnails to records](/help/quicksilver/maestro/records/add-thumbnail-to-a-record.md). -->
+1. （可選）新增縮圖至每筆記錄，然後按一下 **欄位** ，並選取「縮圖」欄位的切換按鈕，以在主要欄位的左側顯示。 預設會取消選取它。
+
+   如需詳細資訊，請參閱 [新增縮圖至記錄](/help/quicksilver/maestro/records/add-thumbnails-to-records.md).
 
 1. （選擇性）選取一列中的一或多個記錄，然後拖放 **控點** 圖示 ![](assets/handle-icon.png) 記錄名稱左側，以重新排序列。
 

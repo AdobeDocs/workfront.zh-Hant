@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: d9a8af627c8d3da4a7625cd5180bfca69da43b3d
+source-git-commit: 83b4aa974fe0d9ba2ace797b52198b15fc55f5d8
 workflow-type: tm+mt
-source-wordcount: '888'
+source-wordcount: '839'
 ht-degree: 1%
 
 ---
@@ -16,15 +16,7 @@ ht-degree: 1%
 
 # 編輯記錄
 
->[!IMPORTANT]
->
->本文資訊是指Adobe Maestro，這是Adobe Workfront的新產品。
->
->目前，Adobe大師是測試版計畫的一部分，向有限數量的客戶開放。 您必須是Workfront客戶才能使用Maestro功能。
->
->如需加入Maestro測試版計畫的詳細資訊，請聯絡您的客戶代表。
->
->如需詳細資訊，請參閱 [Adobe大師概觀](../maestro-overview.md).
+{{maestro-important-intro}}
 
 您可以在Adobe Maestro中編輯記錄資訊。 您必須先建立記錄型別，才能開始建立和編輯記錄。
 如需詳細資訊，請參閱 [建立記錄型別](../architecture/create-record-types.md).
@@ -181,5 +173,4 @@ ht-degree: 1%
 
    * CTRL + Z (Mac為⌘ + Z)可復原變更
    * CTRL + Shift + Z (Mac為⌘ + Shift + Z)以重做變更
-<!--
-1. (Optional) Add a thumbnail to a record. For information, see [Add a thumbnail to a record](/help/quicksilver/maestro/records/add-thumbnail-to-a-record.md). -->
+1. （選用）新增縮圖至記錄。 如需詳細資訊，請參閱 [新增縮圖至記錄](/help/quicksilver/maestro/records/add-thumbnails-to-records.md).

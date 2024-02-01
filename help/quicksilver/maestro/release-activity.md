@@ -5,24 +5,16 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 86f9a88518c8a03643061b3328719d2da4016f2b
+source-git-commit: 4016ba2c1b94ba84037612bdc9c1136267513fd5
 workflow-type: tm+mt
-source-wordcount: '3673'
+source-wordcount: '3730'
 ht-degree: 0%
 
 ---
 
 # Adobe大師發行活動
 
->[!IMPORTANT]
->
->本文資訊是指Adobe Maestro，這是Adobe Workfront的新產品。
->
->目前，Adobe大師是測試版計畫的一部分，向有限數量的客戶開放。 您必須是Workfront客戶才能使用Maestro功能。
->
->如需加入Maestro測試版計畫的詳細資訊，請聯絡您的客戶代表。
->
->如需詳細資訊，請參閱 [Adobe大師概觀](../maestro/maestro-overview.md).
+{{maestro-important-intro}}
 
 本文列出2023年5月22日Maestro封閉Beta版計畫推出後所發行的功能。
 
@@ -60,17 +52,26 @@ ht-degree: 0%
 * [共用工作區](/help/quicksilver/maestro/access/share-workspaces.md)
 * [共用檢視](/help/quicksilver/maestro/access/share-views.md)
 
-<!--
-### Add thumbnails to records 
+### 新增縮圖至記錄
 
-Production: < date > 
+生產： 2024年2月1日
 
-Preview: To be determined  
+預覽：待定
 
-You can now add individual thumbnails to each record to distinguish them in a view. In the table view, you can add image files that you have previously saved on your computer as thumbnails. The thumbnails can be unique to each record and display in both the table and the timeline views of the record type page. 
+您現在可以將個別縮圖新增至每個記錄，以便在檢視中加以區分。 在表格檢視中，您可以將先前儲存在電腦上的影像檔案新增為縮圖。 縮圖對每個記錄都可能是唯一的，並會顯示在記錄型別頁面的表格和時間軸檢視中。
 
-For more information, see [Add thumbnails to records](/help/quicksilver/maestro/records/add-thumbnails-to-records.md).  
--->
+如需詳細資訊，請參閱 [新增縮圖至記錄](/help/quicksilver/maestro/records/add-thumbnails-to-records.md).
+
+### 移除已連線的記錄型別卡片
+
+生產： 2024年2月1日
+
+預覽：待定
+
+為避免混淆並簡化工作流程，我們已移除將Maestro記錄與來自協力廠商應用程式的物件連線後所建立的記錄型別卡片。 <!---Now, when you connect Workfront objects with Maestro records, for example, you can navigate to Workfront to manage the linked objects. You can no longer find the read-only Workfront object record type page in Maestro. This simplifies the number of objects and places you manage information for your objects.  -->
+
+
+如需詳細資訊，請參閱 [連線記錄](/help/quicksilver/maestro/records/connect-records.md).
 
 ## 2024年1月22日起一週
 

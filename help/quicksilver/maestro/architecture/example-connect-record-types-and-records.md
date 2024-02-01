@@ -5,24 +5,16 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 38509572-72a4-4fce-b3ec-2cb31bb4669a
-source-git-commit: d3c22c84a9b246d1a45853c5d2825241f58bebe9
+source-git-commit: 4016ba2c1b94ba84037612bdc9c1136267513fd5
 workflow-type: tm+mt
-source-wordcount: '1888'
+source-wordcount: '1825'
 ht-degree: 0%
 
 ---
 
 # 連線記錄型別和記錄的範例
 
->[!IMPORTANT]
->
->本文資訊是指Adobe Maestro，這是Adobe Workfront的新產品。
->
->目前，Adobe大師是測試版計畫的一部分，向有限數量的客戶開放。 您必須是Workfront客戶才能使用Maestro功能。
->
->如需加入Maestro測試版計畫的詳細資訊，請聯絡您的客戶代表。
->
->如需詳細資訊，請參閱 [Adobe大師概觀](../maestro-overview.md).
+{{maestro-important-intro}}
 
 本文會說明下列範例：
 
@@ -207,7 +199,7 @@ ht-degree: 0%
 1. 按一下 **新增欄位** 圖示 ![](assets/add-fields-icon.png) 在Workfront專案記錄型別表格的右上角，將更多專案欄位新增到Workfront專案經理記錄型別。
 1. 按一下 **+** 圖示來儲存您想要新增至中Workfront專案經理記錄的任何專案欄位。 **未選取的欄位** 區段。
 1. 按一下 **-** 圖示來代表您要從「 」中Workfront專案主要記錄中移除的任何專案欄位。 **選取的欄位** 區段。
-1. 按一下&#x200B;**儲存**。
+1. 按一下「**儲存**」。
 
    >[!TIP]
    >

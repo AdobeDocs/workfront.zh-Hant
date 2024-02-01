@@ -4,7 +4,7 @@ description: 您可以在記錄的右側面板中新增評論或回覆，對Adob
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 54c6adf51ab8ef4e7968e8fdeeb0025e42deecc5
+source-git-commit: 4016ba2c1b94ba84037612bdc9c1136267513fd5
 workflow-type: tm+mt
 source-wordcount: '1155'
 ht-degree: 0%
@@ -13,6 +13,8 @@ ht-degree: 0%
 
 
 # 管理記錄註解
+
+{{maestro-important-intro}}
 
 <!--update the metadata with real information when making this available in TOC and in the left nav-->
 

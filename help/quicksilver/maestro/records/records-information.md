@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7f32ebab-b8dd-496d-b510-99055924b0c7
-source-git-commit: d9a8af627c8d3da4a7625cd5180bfca69da43b3d
+source-git-commit: 4016ba2c1b94ba84037612bdc9c1136267513fd5
 workflow-type: tm+mt
-source-wordcount: '153'
+source-wordcount: '92'
 ht-degree: 0%
 
 ---
@@ -26,26 +26,17 @@ hide: yes
 
 # 記錄：文章索引
 
->[!IMPORTANT]
->
->本文資訊是指Adobe Maestro，這是Adobe Workfront的新產品。
->
->目前，Adobe大師是測試版計畫的一部分，向有限數量的客戶開放。 您必須是Workfront客戶才能使用Maestro功能。
->
->如需加入Maestro測試版計畫的詳細資訊，請聯絡您的客戶代表。
->
->如需詳細資訊，請參閱 [Adobe大師概觀](../maestro-overview.md).
+{{maestro-important-intro}}
 
 在Adobe大師中建立記錄型別之後，您可以建立這些型別的個別記錄。
 
 以下文章說明如何在Adobe Maestro中建立和管理記錄及其資訊：
 
-* [建立記錄](../records/create-records.md)
-* [編輯記錄](../records/edit-records.md)
-* [刪除記錄](../records/delete-records.md)
-* [共用記錄](../records/share-records.md)
-* [連線記錄](../records/connect-records.md)
+* [建立記錄](/help/quicksilver/maestro/records/create-records.md)
+* [編輯記錄](/help/quicksilver/maestro/records/edit-records.md)
+* [刪除記錄](/help/quicksilver/maestro/records/delete-records.md)
+* [共用記錄](/help/quicksilver/maestro/records/share-records.md)
+* [連線記錄](/help/quicksilver/maestro/records/connect-records.md)
 * [管理記錄註解](/help/quicksilver/maestro/records/manage-record-comments.md)
 * [歷史記錄區段總覽](/help/quicksilver/maestro/records/history-section-overview.md)
-
-<!--* [Add thumbnails to records](/help/quicksilver/maestro/records/add-thumbnails-to-records.md)-->
+* [新增縮圖至記錄](/help/quicksilver/maestro/records/add-thumbnails-to-records.md)
