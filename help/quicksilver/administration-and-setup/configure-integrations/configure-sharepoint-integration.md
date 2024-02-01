@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration, [!DNL Workfront] Integrations and Apps, Digital Content and Documents
 role: Admin
 exl-id: fd45e1bc-9a35-4960-a73a-ff845216afe4
-source-git-commit: aec61210cf2c17775738db4975ae8d19223153cc
+source-git-commit: 42e20743b98d9a7cf1f6b37f007823c035e1b636
 workflow-type: tm+mt
-source-wordcount: '1581'
+source-wordcount: '1685'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 0%
 >
 >新的 [!DNL SharePoint] 整合隨22.3版（2022年7月）發佈到生產環境。 雖然您的使用者仍可存取透過舊版連結的檔案 [!DNL SharePoint] 整合，他們必須使用新的 [!DNL SharePoint] 整合以從SharePoint連結檔案。
 >
->* 新的SharePoint整合不需要管理員進行設定，可由個別使用者進行設定。 不過，為確保順利轉換至新的SharePoint整合，Workfront管理員必須在Workfront設定區域中變更幾項設定。
+>* 新的SharePoint整合可能不需要管理員進行設定，也可能由個別使用者進行設定。 不過，為確保順利轉換至新的SharePoint整合，Workfront管理員必須在Workfront設定區域中變更幾項設定。
 >
 >    如需詳細資訊與指示，請參閱 [設定舊版SharePoint整合，以便持續存取檔案](#configure-the-legacy-sharepoint-integration-for-continued-access-to-documents) 本文章內容。
 >    
@@ -72,13 +72,15 @@ ht-degree: 0%
 
 個別使用者可透過新檔案連結檔案 [!DNL SharePoint] 整合。 整合不需要管理員設定。 相反地，使用者會登入 [!DNL Microsoft] 連結檔案時的帳戶，可讓整合功能存取使用者檔案中可用的檔案。 [!DNL SharePoint].
 
-使用者第一次連線 [!DNL Workfront] [!DNL SharePoint] 整合至其 [!DNL SharePoint] 帳戶，他們將看到並同意以下所有許可權： [!DNL Workfront] 在與以下專案互動時使用 [!UICONTROL SharePoint] 帳戶。 讀取許可權允許 [!DNL Workfront] 若要檢視及存取檔案，請執行下列動作： [!DNL SharePoint]、和寫入許可權可讓使用者上傳檔案到 [!DNL SharePoint].
+使用者第一次連線 [!DNL Workfront] [!DNL SharePoint] 整合至其 [!DNL SharePoint] 帳戶，他們將會看到並同意以下所有許可權： [!DNL Workfront] 在與以下專案互動時使用 [!UICONTROL SharePoint] 帳戶，或能夠向其Microsoft管理員要求許可權。 讀取許可權允許 [!DNL Workfront] 若要檢視及存取檔案，請執行下列動作： [!DNL SharePoint]、和寫入許可權可讓使用者上傳檔案到 [!DNL SharePoint].
 
 ![Sharepoint許可權](assets/sharepoint-permissions.png)
 
 有關透過新檔案連結檔案的指示 [!DNL SharePoint] 整合，請參閱 [連結外部檔案至 [!DNL Workfront]](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md#link-an-external-document-to-workfront)
 
 >[!NOTE]
+>
+>* 根據組織的Microsoft設定，使用者可能會看到「需要核准」頁面，而不是「要求的許可權」頁面。 在此情況下，使用者可以使用此頁面來要求組織的Microsoft管理員授與Sharepoint整合的許可權。
 >
 >* A [!DNL SharePoint] 整合可連線至單一 [!DNL SharePoint] 執行個體。 因此，使用者可以為其中一個設定整合 [!DNL SharePoint]，但無法將整合設定到秒 [!DNL SharePoint]，即使他們擁有和檔案的許可權(在 [!DNL SharePoint].
 >
@@ -113,7 +115,13 @@ ht-degree: 0%
 
 ### 存取權和許可權
 
-使用者第一次將檔案新增至時 [!DNL Workfront] 從 [!DNL SharePoint]，系統會將使用者導向至要求下列許可權的畫面：
+使用者第一次將檔案新增至時 [!DNL Workfront] 從 [!DNL SharePoint]，系統會將使用者導向至「要求的許可權」頁面，在頁面中他們可以授與其SharePoint整合的許可權。
+
+>[!NOTE]
+>
+>根據組織的Microsoft設定，使用者可能會看到「需要核准」頁面，而不是「要求的許可權」頁面。 在此情況下，使用者可以使用此頁面來要求組織的Microsoft管理員授與Sharepoint整合的許可權。
+
+需要下列許可權：
 
 | 存取 | 原因 |
 |---|---|
