@@ -9,8 +9,9 @@ description: 準備將您的組織加入Adobe Admin Console
 author: Becky, Caroline
 feature: System Setup and Administration
 role: Admin
+recommendations: noDisplay, noCatalog
 exl-id: e168ba61-8e12-4f42-961a-465b62bc4775
-source-git-commit: b1f6c0d9766d6c45e48755033d0f031c0f439955
+source-git-commit: 99b94c246f14110e37b23c95a178efd5b9042a9d
 workflow-type: tm+mt
 source-wordcount: '43'
 ht-degree: 0%

@@ -9,7 +9,7 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 54d855e6-c387-458c-9cd3-f32318c8ae02
-source-git-commit: 4888113d57fa083eb4b5e639ed8edb1072b00df3
+source-git-commit: 99b94c246f14110e37b23c95a178efd5b9042a9d
 workflow-type: tm+mt
 source-wordcount: '1017'
 ht-degree: 0%
@@ -72,7 +72,7 @@ Workfront產品設定檔管理員(Workfront系統管理員)將：
 
 ### 移轉當天的期望
 
-* **使用者移轉將於客戶託管Workfront資料中心的午夜開始。 **
+* **使用者移轉將於客戶託管Workfront資料中心的午夜開始。**
 
 * **Adobe將會先自動移轉Workfront管理員。** Workfront管理員移轉至Adobe身分識別時，將會被指派Adobe產品設定檔管理員(Workfront系統管理員)角色。 使用者在移轉前可能擁有的現有角色將不會受到影響。
 
