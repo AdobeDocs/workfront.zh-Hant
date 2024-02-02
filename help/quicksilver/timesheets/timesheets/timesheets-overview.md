@@ -7,9 +7,9 @@ description: 您可以使用時程表來追蹤Adobe Workfront內外您花在工�
 author: Alina
 feature: Timesheets
 exl-id: 2174a879-4a19-4a0f-803a-f19a8909f227
-source-git-commit: 1c8d9a62f5582b0dbc3c72b5881bb5d8f0b790ba
+source-git-commit: 66e6c96ca51a159f6e9a16178f06dd016217c7d8
 workflow-type: tm+mt
-source-wordcount: '497'
+source-wordcount: '509'
 ht-degree: 0%
 
 ---
@@ -72,6 +72,6 @@ ht-degree: 0%
 
 1. 按一下 **日期範圍** 時程表以將其開啟。
 
-   每個時程表都會顯示您已記錄時間的所有任務、問題和專案。 時程表也會顯示最多45個指派給您的任務、問題或專案，其日期在時程表的時間範圍內，但您可能尚未記錄時間。
+   每個時程表都會顯示您已記錄時間的所有任務、問題和專案。 時程表也會顯示最多45個指派給您的任務和問題，其日期在時程表的時間範圍內，但您可能尚未記錄時間。 系統會選取45個最近更新的專案以顯示於時程表中。
 
    如需詳細資訊，請參閱 [設定時程表和小時偏好設定](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
