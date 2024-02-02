@@ -6,9 +6,9 @@ description: 從 [!UICONTROL 展示板] 圖示板，您可以建立新電路板�
 author: Lisa
 feature: Agile
 exl-id: 5f755177-c8ea-4509-a34f-57ffcfd8ba7f
-source-git-commit: 1195738966734e311a1438002454b29c3fa6986a
+source-git-commit: d431ae178a157522e2b5d8d963da7b0623510d28
 workflow-type: tm+mt
-source-wordcount: '742'
+source-wordcount: '757'
 ht-degree: 1%
 
 ---
@@ -67,6 +67,10 @@ ht-degree: 1%
       所有物件都會以連線的卡片形式顯示在展示板上。
 
       此 [!UICONTROL **正在新增的卡片**] 計數器會顯示展示板上有多少張卡片。 例如，如果您選取包含100個任務和問題的專案，計數器會顯示100。 如果您新增使用者指派，且該人員指派至專案上的5個任務，則計數器會顯示5。
+
+      >[!NOTE]
+      >
+      >如果主機板上有超過1,000張卡片，就會影響主機板的效能。
 
    1. （選用）選取 [!UICONTROL **不要封存完成的卡片**] 將已完成的任務和問題帶入展示板，在「已完成」欄中顯示卡片。 未選取此選項時，建立展示板時完成的卡片會作為封存卡片帶入展示板上。
 
