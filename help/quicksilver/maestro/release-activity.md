@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 4016ba2c1b94ba84037612bdc9c1136267513fd5
+source-git-commit: 16db6e7fedbea7a95e8e0356c523409db1f78199
 workflow-type: tm+mt
 source-wordcount: '3730'
 ht-degree: 0%
@@ -68,8 +68,7 @@ ht-degree: 0%
 
 預覽：待定
 
-為避免混淆並簡化工作流程，我們已移除將Maestro記錄與來自協力廠商應用程式的物件連線後所建立的記錄型別卡片。 <!---Now, when you connect Workfront objects with Maestro records, for example, you can navigate to Workfront to manage the linked objects. You can no longer find the read-only Workfront object record type page in Maestro. This simplifies the number of objects and places you manage information for your objects.  -->
-
+為避免混淆並簡化工作流程，我們已移除將Maestro記錄與來自協力廠商應用程式的物件連線後所建立的記錄型別卡片。 <!-- Now, when you connect Workfront objects with Maestro records, for example, you can navigate to Workfront to manage the linked objects. You can no longer find the read-only Workfront object record type page in Maestro. This simplifies the number of objects and places you manage information for your objects.  -->
 
 如需詳細資訊，請參閱 [連線記錄](/help/quicksilver/maestro/records/connect-records.md).
 
