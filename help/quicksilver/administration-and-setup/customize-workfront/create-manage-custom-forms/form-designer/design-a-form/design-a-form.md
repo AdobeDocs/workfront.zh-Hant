@@ -8,9 +8,9 @@ author: Courtney
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: d1229f8da39d4df3167a25b7d8b0f2c5d9f1089f
+source-git-commit: 4120b44a1be1fc8cf7da26ac441c8e51fa8b48ac
 workflow-type: tm+mt
-source-wordcount: '5011'
+source-wordcount: '5096'
 ht-degree: 3%
 
 ---
@@ -502,7 +502,7 @@ ht-degree: 3%
 
 >[!NOTE]
 >
->外部查閱功能在Document物件上無法使用。
+>Document或User物件沒有外部查閱功能。
 
 若要新增外部查詢：
 
@@ -540,9 +540,11 @@ ht-degree: 3%
      <tr> 
       <td role="rowheader">基底 API URL</td> 
       <td><p>輸入或貼上API的URL。</p><p>API URL必須傳回您要在下拉式清單中顯示的選項JSON內容。 您可以使用JSON路徑欄位，從傳回的JSON中選取特定值作為下拉式選項。</p><p>輸入API URL時，您可以選擇在URL中傳遞下列值：</p>
-      <ul><li>$$QUERY — 這代表一般使用者在欄位中輸入的搜尋文字，可讓您為一般使用者實作查詢篩選。 （使用者會在下拉式清單中搜尋值。）</li>
-      <li><p>$$HOST — 這代表目前的Workfront主機，可用來對Workfront API進行/search API呼叫。 使用此萬用字元時，會處理驗證，使用者不需要傳送驗證標題。 (例如，使用者可以使用基本URL來搜尋任務 <code>$$HOST/attask/api/task/search</code> 而且它允許搜尋任務並從傳回的任務清單中選取值。)<p>
-      <p>如果您參考的API允許，您也可以在搜尋查詢中包含修飾詞，以識別搜尋應該如何運作。 例如，您可以使用下列專案作為基礎API URL，讓人們搜尋包含特定文字的任何Workfront專案： <code>$$HOST/attask/api/v15.0/proj/search?name=$$QUERY&name_Mod=contains</code>.</p><p>進一步瞭解Workfront搜尋修飾詞於 <a href="/help/quicksilver/wf-api/general/api-basics.md">API基本需知</a>.</p></li>
+      <ul>
+      <li>$$HOST — 這代表目前的Workfront主機，可用來對Workfront API進行/search API呼叫。 使用此萬用字元時，會處理驗證，使用者不需要傳送驗證標題。 (例如，使用者可以使用基本URL來搜尋任務 <code>$$HOST/attask/api/task/search</code> 而且它允許搜尋任務並從傳回的任務清單中選取值。)</li>
+      <li><p>$$QUERY — 這代表一般使用者在欄位中輸入的搜尋文字，可讓您為一般使用者實作查詢篩選。 （使用者會在下拉式清單中搜尋值。）</p>
+      <p>如果您參考的API允許，您也可以在搜尋查詢中包含修飾詞，以識別搜尋應該如何運作。 例如，您可以使用下列專案作為基礎API URL，讓人們搜尋包含特定文字的任何Workfront專案： <code>$$HOST/attask/api/v15.0/proj/search?name=$$QUERY&name_Mod=contains</code>.</p><p>進一步瞭解Workfront搜尋修飾詞於 <a href="/help/quicksilver/wf-api/general/api-basics.md">API基本需知</a>.</p>
+      <p><strong>注意：</strong> 如果您未使用$$QUERY，且使用者在搜尋方塊中輸入文字，將會縮小您已擁有的選擇範圍。 但是，如果您使用$$QUERY且使用者鍵入任何內容，則會對您的API執行新的網路呼叫。 因此，如果您的API中有超過2000個值，且API支援查詢，您便可以利用$$QUERY來不僅搜尋現有2000個值，而且搜尋具有縮小選項的原始API。</p></li>
       <li><p>{fieldName}  — 其中fieldName是Workfront中的任何自訂或原生欄位。 這樣，當您將已選取欄位的值傳遞至外部查詢欄位以篩選下拉選項時，您就可以實作階層式下拉選項篩選器。 （例如，「地區」欄位已存在於表單上，而您正在將國家/地區清單從API縮小至特定地區。）</p>
       <p>對於相依於其他欄位的外部查詢欄位(使用 {fieldName} 語法)，從API傳回的選項僅限於符合在其他欄位中輸入的任何字串或值的選項。 （清單和報告不支援此功能。）</p></li>
       <li>{referenceObject}.{fieldName}  — 其中欄位是物件的一部分。 此語法類似於自訂運算式。 (例如，portfolioID={project}.{portfolioID})</li></ul>
