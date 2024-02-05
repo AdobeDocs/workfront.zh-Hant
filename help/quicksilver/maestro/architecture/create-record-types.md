@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: ed1c4954-b338-4865-a7a9-5ba0192e7b37
-source-git-commit: 4016ba2c1b94ba84037612bdc9c1136267513fd5
+source-git-commit: 5681b540bceddaae85116b632e968d94761eec0d
 workflow-type: tm+mt
-source-wordcount: '1431'
+source-wordcount: '1189'
 ht-degree: 0%
 
 ---
@@ -46,7 +46,7 @@ ht-degree: 0%
 <td>
    <p> 產品</p> </td>
    <td>
-   <p> Adobe Workfront</p> <p>若要將Maestro記錄型別與Experience Manager Assets連線，您必須擁有Adobe Experience Manager Assets授權，並且貴組織的Workfront執行個體必須上線至Adobe Business Platform或Adobe Admin Console。</p> </td>
+   </td>
   </tr>  
  <td role="rowheader"><p>Adobe Workfront合約</p></td>
    <td>
@@ -98,16 +98,16 @@ ht-degree: 0%
 
 ## 建立記錄型別的相關考量事項
 
-* 您可以執行下列任一項作業，在工作區中建立記錄型別：
+* 您可以透過下列方式在工作區中建立記錄型別：
 
    * 自動：
       * 使用範本建立工作區時。
 
         如需詳細資訊，請參閱 [建立工作區](../architecture/create-workspaces.md).
       * 當您使用Excel或CSV檔案匯入時。 這不適用於分類記錄型別。
-      * 當您從另一個應用程式建立與物件型別的連線時，當將欄位新增到記錄型別時。 這會在Maestro中建立唯讀記錄型別，該記錄型別從原始應用程式連線到物件型別。
-
-     如需有關連線物件型別與Maestro記錄的資訊，請參閱 [連線記錄](../records/connect-records.md).
+     <!--this should not ne known anymore: * When you add objects from another application to a linked record field of a Maestro record. This creates a read-only record type in Maestro which is connected to object types from the original application. 
+        For information about connecting record types with object types from another application, see [Connect record types](/help/quicksilver/maestro/architecture/connect-record-types.md).
+        For information about connecting objects with Maestro records, see [Connect records](/help/quicksilver/maestro/records/connect-records.md). -->
    * 手動：
 
       * 從頭開始。
@@ -126,9 +126,9 @@ ht-degree: 0%
 
 如需分類的詳細資訊，請參閱 [建立分類法](../architecture/create-a-taxonomy.md).
 
-1. 按一下 **主要功能表** 圖示 ![](assets/main-menu-workfront.png) 位於Workfront右上角，或 **主功能表** 圖示 ![](assets/main-menu-shell.png)  （如果有的話）按一下 **大師** ![](assets/maestro-icon.png).
+{{step1-to-maestro}}
 
-   根據預設，上次存取的工作區應該會開啟。
+根據預設，上次存取的工作區應該會開啟。
 
 1. （可選）展開現有工作區名稱右側的向下箭頭，並選取您要建立記錄型別的工作區。
 1. 按一下 **新增記錄型別**.
@@ -138,14 +138,14 @@ ht-degree: 0%
 
    ![](assets/add-record-type-box-with-appearance-options.png)
 
-1. 選取下列資訊：
+1. 更新下列資訊：
 
-   * **記錄名稱**：將「未命名的作業記錄型別」取代為您未來記錄型別的名稱。 <!--correct this - I asked Garik to change this field to "Record type name"-->
+   * **記錄型別名稱**：將「未命名的作業記錄型別」取代為您未來記錄型別的名稱。
    * **外觀**：定義與記錄型別相關之圖示的顏色和形狀。 執行下列動作：
       * 選取顏色以識別您的新記錄型別。 這是記錄型別圖示的顏色。 預設會選取「灰色」。
       * 從清單中選取圖示，或開始輸入圖示名稱以說明其代表內容，然後在顯示時選取它。 這是記錄型別的圖示。 依預設，會選取檔案圖示。
 
-1. 按一下 **新增記錄型別** 方塊以儲存記錄。
+1. 按一下 **新增記錄型別** 方塊以儲存記錄型別。
 
    記錄型別卡片會新增至您選取的工作區。
 記錄型別包含的欄位數顯示在卡片上。
@@ -171,8 +171,11 @@ ht-degree: 0%
 
    按一下 **更多** 圖示 ![](assets/more-menu.png) 在記錄型別名稱的右側，然後按一下 **重新命名** 以重新命名。
 
-1. （選用）按一下 **+新增&lt;記錄型別名稱>** 以新增所選記錄型別的記錄。 如需詳細資訊，請參閱 [建立記錄](../records/create-records.md).
-1. （可選）按一下 **+** 圖示來新增更多欄位至記錄型別。 如需詳細資訊，請參閱 [建立欄位](../fields/create-fields.md).
+1. （選用）按一下 **+新增記錄** 以新增所選記錄型別的記錄。 如需詳細資訊，請參閱 [建立記錄](../records/create-records.md).
+1. （可選）按一下 **+** 圖示來新增更多欄位至記錄型別。
+
+   如需有關建立欄位的詳細資訊，請參閱 [建立欄位](../fields/create-fields.md).
+
 1. （選擇性）按一下記錄型別名稱左側的向左箭頭，返回選取的工作區。
 
    記錄型別卡片會顯示記錄型別包含的欄位數和連線數。
@@ -184,7 +187,7 @@ ht-degree: 0%
    * [建立記錄](../records/create-records.md)
    * [刪除記錄型別](../architecture/delete-record-types.md)
    * [編輯記錄型別](../architecture/edit-record-types.md)
-   * [在Adobe大師中管理記錄檢視](../views/manage-record-views.md) <!--add information here about the sorting and grouping when available-->
+   * [管理記錄檢視](../views/manage-record-views.md)
 
 ## 匯入Excel或CSV檔案來建立記錄型別
 
@@ -202,9 +205,9 @@ ht-degree: 0%
 
 若要使用Excel檔案匯入記錄型別：
 
-1. 按一下 **主要功能表** 圖示 ![](assets/main-menu-workfront.png) 在Workfront的右上角， <!---or the **Main menu** icon ![](assets/main-menu-shell.png)  in the upper-left corner, if available--> 然後按一下 **大師** ![](assets/maestro-icon.png).
+{{step1-to-maestro}}
 
-   根據預設，上次存取的工作區應該會開啟。
+根據預設，上次存取的工作區應該會開啟。
 
 1. （可選）展開現有工作區名稱右側的向下箭頭，並選取您要建立記錄型別的工作區。
 1. 按一下 **新增記錄型別**.
@@ -250,20 +253,21 @@ ht-degree: 0%
 
    所有有權存取Maestro的人員現在都可以檢視及編輯匯入的記錄型別及其資訊。 <!--this will change with permissions-->
 
-## 將記錄型別與其他應用程式的物件型別連線
+<!--## Connect record types with object types from another application
 
-當您在Maestro記錄型別與另一個應用程式的物件型別之間建立連線時，可以匯入記錄型別。 這會在Maestro中建立與協力廠商應用程式中的物件型別對應的唯讀記錄型別。
+You can connect a Maestro record type and an object type from another application. This creates a read-only record type in Maestro that corresponds to the object type in the other application. 
 
-例如，您可以將Maestro記錄型別與Workfront專案連線，以建立記錄型別。 因此，Workfront專案物件型別會以唯讀記錄型別匯入至Maestro。 依預設，記錄型別會命名為「Workfront專案」。 <!--has this name changed? Lusine wanted to change it at some point-->
+For example, you can create record types by connecting Maestro record types with Workfront projects. As a result, the Workfront project object type is imported into Maestro as a read-only record type. By default, the record type is named "Workfront Project." (********************)has this name changed? Lusine wanted to change it at some point***********)
+    
+You can import the following objects from the following applications: 
 
-您可以從下列應用程式匯入下列物件：
+* From Workfront:
 
-* 從Workfront：
+    * Projects
+    * Portfolios
+    * Programs
+    * Company
+    * Group
 
-   * 專案
-   * 專案組合
-   * 計劃
-   * 公司
-   * 群組
-
-如需詳細資訊，請參閱 [連線記錄型別](../architecture/connect-record-types.md).
+For more information, see [Connect record types](../architecture/connect-record-types.md). 
+-->

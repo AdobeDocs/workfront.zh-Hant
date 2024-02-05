@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
-source-git-commit: 66e6c96ca51a159f6e9a16178f06dd016217c7d8
+source-git-commit: 5681b540bceddaae85116b632e968d94761eec0d
 workflow-type: tm+mt
-source-wordcount: '2396'
-ht-degree: 0%
+source-wordcount: '2227'
+ht-degree: 1%
 
 ---
 
@@ -32,7 +32,9 @@ hide: yes
 
 您可以將AdobeMaestro記錄彼此連線，或連線到其他應用程式的物件。
 
-您必須先將兩個記錄型別彼此連線，或將記錄型別從另一個應用程式連線到物件型別。 這會建立連結的記錄欄位。 然後，您可以使用連結的記錄欄位，將記錄彼此連線，或將記錄從另一個應用程式連線到其他物件。
+您必須先將兩個記錄型別彼此連線，或將記錄型別從另一個應用程式連線到物件型別。 這會建立連結的記錄欄位。 然後，您可以使用連結的記錄欄位，將記錄彼此連線，或將記錄從其他應用程式連線到其他物件。
+
+連線記錄類似於將記錄從另一個應用程式連線到物件。
 
 如需有關將記錄型別相互連線或從其他應用程式連線到物件型別的資訊，請參閱 [連線記錄型別](../architecture/connect-record-types.md).
 
@@ -105,8 +107,9 @@ hide: yes
   </tr>
 <tr>
    <td role="rowheader"><p>權限</p></td>
-   <td> <p>管理工作區的許可權</a> </p>  
-   <p>系統管理員擁有所有工作區的許可權，包括他們未建立的工作區</p>
+   <td> <p>管理工作區的許可權以連線記錄 </p>  
+   <p>檢視工作區或更高許可權，可檢視與其他應用程式之物件和欄位的所有連線，無論您對其他應用程式的存取權為何。 </p>
+   <p>系統管理員擁有所有工作區的許可權，包括他們未建立的工作區。</p>
 </td>
   </tr>
 
@@ -133,9 +136,9 @@ hide: yes
 * 您可以將連結的記錄型別的欄位新增至您正在連結的記錄型別的表格。
 * 您無法手動更新連結來源記錄之連結欄位的值。
 
-  連結記錄中連結欄位的值會填入您要從您設定的Maestro工作區或從第三方應用程式自動連結的Maestro記錄。
+  連結記錄的連結欄位值會填入您從原始記錄或物件自動連結的Maestro記錄。
 
-* 擁有工作區之Maestro和「檢視」存取許可權或較高許可權的所有人，都可以看到您在Maestro記錄之間或Maestro記錄與其他應用程式物件之間的連線。 使用者可檢視連線的記錄和物件，無論其對於您所連線的協力廠商應用程式的許可權為何。
+* 擁有工作區之Maestro和「檢視」存取許可權或較高許可權的所有人，都可以看到您在Maestro記錄之間或Maestro記錄與其他應用程式物件之間的連線。 無論連線至應用程式的許可權為何，使用者都可以檢視連線的記錄和物件。
 * 如果您對連線記錄所在的工作區具有管理許可權，則可以檢視及編輯其他人的連線。
 * 您可以將一個Maestro記錄連線到另一個應用程式的一個或多個物件。
 * 若要將Maestro記錄與其他記錄或物件連結，您必須具備下列專案：
@@ -178,13 +181,16 @@ hide: yes
 
    新增下列專案：
 
-   * 連結的記錄會顯示在您在步驟6中選取之記錄的連結記錄欄位中。 <!--accurate?--> 更新連結的記錄會自動更新連結的記錄之連結欄位。 您無法手動編輯連結的欄位。
+   * 連結的記錄會顯示在您在步驟6中選取之記錄的連結記錄欄位中。 <!--accurate?-->
+   * 連結的欄位會填入來自連結記錄的資訊。
 
-     >[!TIP]
-     >
-     >* 我們會交替使用「連結欄位」和「查詢欄位」。
-     >
-     >* 如果您已啟用 **允許多筆記錄** 設定當您連線記錄型別時，多個所選物件的欄位值會以逗號分隔顯示，或根據您選擇的彙總器彙總。
+   更新連結的記錄會自動更新連結的記錄之連結欄位。 您無法手動編輯連結的欄位。
+
+   >[!TIP]
+   >
+   >* 我們會交替使用「連結欄位」和「查詢欄位」。
+   >
+   >* 如果您已啟用 **允許多筆記錄** 設定當您連線記錄型別時，多個所選物件的欄位值會以逗號分隔顯示，或根據您選擇的彙總器彙總。
 
 1. （可選）關閉Maestro記錄型別頁面，然後移至您選取的工作區。
 1. 按一下您所連結之記錄型別的卡片。
@@ -197,7 +203,7 @@ hide: yes
 
 ### 將Maestro記錄連線到Workfront物件
 
-<!--when we will have more applications to link to from Maestro, change the title to soemthing like: Connect Maestro records to objects from other applications-->
+<!--when we will have more applications to link to from Maestro, change the title to something like: Connect Maestro records to objects from other applications-->
 
 在Maestro記錄型別和Workfront物件型別之間建立連線後，您可以將個別Maestro記錄連線到Workfront中的物件。 您連結的Workfront欄位會自動填入您連結物件的Maestro記錄中。
 
@@ -214,7 +220,7 @@ hide: yes
 1. 按一下記錄型別的卡片以開啟記錄型別頁面。
 1. 選取 **表格** 從檢視 **檢視** 下拉式功能表。
 
-1. 將個別記錄新增至表格中，以將個別記錄新增至您選取的記錄型別。 如需詳細資訊，請參閱 [建立記錄](../../maestro/records/create-records.md).
+1. 按一下 **新記錄**  將個別記錄新增至您選取的記錄型別。 如需詳細資訊，請參閱 [建立記錄](../../maestro/records/create-records.md).
 1. （視條件而定）如果您將選取的記錄型別與Workfront物件連線，請移至連結物件欄，將游標停留在您要與Workfront物件連結之記錄對應的儲存格上，然後按一下 **+** 圖示。
 
    此 **連線物件** 方塊隨即顯示。
@@ -225,7 +231,7 @@ hide: yes
    >
    >    您可以開啟記錄的「詳細資訊」頁面，找到連結的記錄欄位，然後按一下 **+** 圖示來從連線的物件型別新增物件。
 
-   如需有關將記錄型別與來自協力廠商應用程式的物件連線的詳細資訊，請參閱 [連線記錄型別](../architecture/connect-record-types.md).
+   如需有關將記錄型別與來自其他應用程式的物件連線的詳細資訊，請參閱 [連線記錄型別](../architecture/connect-record-types.md).
 
 1. 開始在搜尋方塊中輸入Workfront物件的名稱，然後在其顯示在清單中時選取它
 
@@ -243,21 +249,14 @@ hide: yes
 
    * 選取的Workfront物件會新增至連結的記錄欄位。
    * 如果您在使用Workfront連線記錄型別時新增這些欄位，Workfront物件的連結欄位（或查詢欄位）會自動填入Workfront的資訊。
-   * 連線的Workfront物件在Maestro中的唯讀「詳細資訊」頁面。 您可以按一下Maestro記錄之連結欄位中的專案名稱來存取此頁面。 繼續步驟8。 <!--accurate?-->
 
-     例如，連結至Workfront專案會在Maestro中建立這些專案的詳細資訊頁面。
+1. （選擇性）在表格檢視的連結欄位中，或從表格檢視的連結欄位中，按一下與Maestro記錄連線的Workfront物件名稱。 **詳細資料** Maestro記錄的頁面。
 
-     >[!IMPORTANT]
-     >
-     > 唯讀的Workfront物件「詳細資訊」頁面只會在個別專案新增至Maestro記錄時建立。 只是在Maestro記錄型別和Workfront物件型別之間建立連線，不會在Maestro中建立Workfront記錄型別。
-
-1. （可選）在表格檢視的連結欄位中或從「 」中，按一下與Maestro記錄連結的Workfront物件名稱。 **詳細資料** Maestro記錄的頁面。
-
-   這會開啟唯讀的Maestro **詳細資料** 連結的Workfront物件頁面。 將記錄型別與Workfront物件連線時，您選取做為查閱欄位的欄位會顯示在「詳細資料」頁面中。
+   這會開啟唯讀的Maestro **詳細資料** 連結的Workfront物件頁面。 將記錄型別與Workfront物件連線時，您選取作為查詢欄位的欄位會顯示在Workfront Maestro記錄的「詳細資料」頁面中。
 
    >[!TIP]
    >
-   >* 如果您啟用「允許多筆記錄」設定，則多個物件的值會以逗號分隔顯示，或根據您選擇的彙總器彙總。
+   >* 當您啟用「允許多筆記錄」設定時，查閱欄位的值會以逗號分隔顯示，或根據您選擇的彙總器進行彙總。
    >
    >* Workfront中的連結Workfront物件不會建立連結記錄欄位。
 
@@ -280,7 +279,7 @@ hide: yes
 
 ### 將Maestro記錄連線到Adobe Experience Manager物件
 
-<!--when we will have more applications to link to from Maestro, change the title to soemthing like: Connect Maestro records to objects from other applications-->
+<!--when we will have more applications to link to from Maestro, change the title to something like: Connect Maestro records to objects from other applications-->
 
 >[!IMPORTANT]
 >
@@ -305,11 +304,9 @@ hide: yes
    >
    >  您可以新增，按一下 **+** 圖示加以存取（在Maestro記錄的「詳細資訊」頁面中，位於連結物件欄位中），以將資產連結至記錄。
 
-   此 **選取資產** 方塊隨即顯示。 <!--update screen shot with actual assets-->
+   此 **選取資產** 方塊隨即顯示。 <!--we might change this to Connect assets-->
 
    ![](assets/select-assets-box-for-aem-record-connections.png)
-
-   如需有關從協力廠商應用程式連線記錄型別與物件型別的詳細資訊，請參閱 [連線記錄型別](../architecture/connect-record-types.md).
 
 1. 按一下以選取下列部分資產型別：
 
@@ -322,27 +319,20 @@ hide: yes
    >
    > 您只能連線您有權在Experience Manager中檢視的資產。 連線之後，所有Maestro使用者都可以在Maestro中檢視資產，無論他們在Experience Manager Assets中是否具備存取權。
 
-1. 按一下 **選取**.
+1. 按一下 **選取**. <!-- we might change this to Connect-->
 
    新增下列專案：
 
    * 選取的Experience Manager資產會新增至連結的記錄欄位。
    * 連結欄位（或查詢欄位）會填入Experience Manager連線資產的資訊。
-   * 連線的Experience Manager Assets物件在Maestro中的唯讀「詳細資訊」頁面。 您可以按一下Maestro記錄之連結欄位中的資產名稱，以存取此頁面。 繼續步驟8。 <!--accurate?-->
 
-     >[!IMPORTANT]
-     >
-     > 唯讀的連結記錄型別「Experience Manager Assets詳細資訊」頁面只會在個別資產新增至Maestro記錄時建立。 只是在Maestro記錄型別和Experience Manager Assets之間建立連線，不會建立Experience Manager Assets記錄型別。
-
-     Experience Manager資產欄位中的任何現有資訊都會顯示在連結或查詢欄位中。
+     Experience Manager資產欄位中的任何現有資訊都會自動顯示在連結或查詢欄位中。
 
      >[!TIP]
      >
-     >
-     >* 如果您啟用「允許多筆記錄」設定，則會以逗號分隔多個物件的值。
+     >* 如果您啟用「允許多筆記錄」設定，則多個物件的值會以逗號區隔，或根據您選擇的彙總器彙總。
      >
      >* 在Experience Manager Assets應用程式中，不會針對連結的Experience Manager資產建立連結至Maestro連結記錄的連結記錄欄位。
-
 
 1. （可選）前往您連結至Experience Manager Assets的記錄型別，然後在連結的記錄欄位中按一下資產名稱。 資產的Experience Manager詳細資訊會顯示在快顯視窗中。 <!--update screen shot with hi-rez picture-->
 
@@ -362,13 +352,7 @@ hide: yes
 
 1. （可選）若要以Experience Manager開啟Experience Manager資產記錄「詳細資訊」頁面，請移至您要連結之記錄的「Maestro記錄型別」頁面，按一下連結記錄欄位中的資產名稱以開啟快顯視窗，然後按一下 **開啟** 圖示 ![](assets/open-asset-icon.png) 以開啟資產。
 
-   這會開啟Experience Manager資產的 **詳細資料** 頁面。
-
-1. 按一下 **移至來源** 在畫面的右上角。
-
-   ![](assets/go-to-source-asset-maestro-details-page.png)
-
-   如果您有檢視資產的許可權，這就會在Adobe Experience Manager Assets中開啟資產。 如果您有許可權，可以更新此應用程式中的資產。
+   如此即會在Adobe Experience Manager Assets中開啟Experience Manager資產。
 
 1. （可選）從Maestro記錄型別的表格檢視中，暫留在連結Experience Manager資產的欄標題上，然後按一下下拉式功能表，然後按一下 **編輯查閱欄位**.
 

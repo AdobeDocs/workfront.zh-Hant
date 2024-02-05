@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: e90a3ebe-fc02-4cce-8472-1ca5004ddde8
-source-git-commit: 4016ba2c1b94ba84037612bdc9c1136267513fd5
+source-git-commit: 5681b540bceddaae85116b632e968d94761eec0d
 workflow-type: tm+mt
-source-wordcount: '375'
+source-wordcount: '372'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 {{maestro-important-intro}}
 
-分類法是擷取AdobeMaestro中作業記錄型別相關屬性的記錄型別。
+分類記錄型別會擷取關於Adobe大數中作業記錄型別的屬性。
 
 例如，Campaign可以是作業記錄型別。 以下是擷取促銷活動記錄型別相關屬性的分類：地區、對象、國家。
 
@@ -91,19 +91,14 @@ ht-degree: 0%
 
 ## 建立分類的相關考量事項
 
-* 您必須先建立工作區，才能在工作區中建立分類。
+* 您必須先建立工作區，才能在工作區中建立分類記錄型別。
 
   如需有關工作區的資訊，請參閱 [建立工作區](../architecture/create-workspaces.md).
 * 您可以執行下列任一項作業來建立分類記錄型別：
    * 使用範本建立工作區時自動建立它們。 如需詳細資訊，請參閱 [建立工作區](../architecture/create-workspaces.md).
    * 從頭開始手動建立。
-   * 從外部清單貼上資訊，以手動方式建立它們。
 
-  <!--this is not possible yet:
-  * You can taxonomies to a workspace by doing one of the following:
-    * Create a connection to object types from other systems, when adding fields to a taxnomy record type. This creates a read-only record type in Maestro.  - update this sentence when you can connect taxonomies as well as operational records to a third-party system.-->
-
-* 所有新建立的分類都隨附下列欄位：
+* 所有新建立的分類記錄型別都隨附下列欄位：
 
    * 名稱 <!--if there won't be any more fields, consider rephrasing this-->
 
@@ -111,11 +106,11 @@ ht-degree: 0%
 
   >[!NOTE]
   >
-  >    使用工作區範本時建立的分類有其他欄位。
+  >    使用工作區範本時建立的分類記錄型別還有其他欄位。
 
-## 建立分類法
+## 建立分類記錄型別
 
-建立分類類似於從頭開始或從工作區範本建立作業記錄型別。
+建立分類記錄型別類似於從頭開始或從工作區範本建立作業記錄型別。
 
 如需詳細資訊，請參閱文章中的「從頭開始建立記錄型別」一節 [建立記錄型別](../architecture/create-record-types.md).
 

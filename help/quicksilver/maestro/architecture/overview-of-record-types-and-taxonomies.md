@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 1de095b3-78d9-44df-a678-51f4238deb91
-source-git-commit: 4016ba2c1b94ba84037612bdc9c1136267513fd5
+source-git-commit: 5681b540bceddaae85116b632e968d94761eec0d
 workflow-type: tm+mt
-source-wordcount: '516'
+source-wordcount: '515'
 ht-degree: 0%
 
 ---
@@ -75,7 +75,7 @@ Maestro物件型別稱為「記錄型別」。 記錄型別是Maestro工作區�
 | 它們代表工作相關物件的屬性 |                         | ✓ (A) |
 | 您可以從頭開始建立 | ✓ (A) | ✓ (A) |
 | 您可以透過匯入Excel或CSV檔案來建立 | ✓ (A) |                      |
-| 您可以將記錄型別連線到第三方應用程式的物件 | ✓ (A) |                      |
+| 您可以將記錄型別連線到另一個應用程式的物件 | ✓ (A) |                      |
 | 您可以連線到其他主要記錄型別 | ✓ (A) |                    |
 | 您可以在表格檢視中檢視其關聯記錄 | ✓ (A) | ✓ (A) |
 | 您可以在時間表檢視中檢視其關聯記錄 | ✓ (A) | ✓ (A) |

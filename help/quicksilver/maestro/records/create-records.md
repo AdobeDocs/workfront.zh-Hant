@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: 4016ba2c1b94ba84037612bdc9c1136267513fd5
+source-git-commit: 5681b540bceddaae85116b632e968d94761eec0d
 workflow-type: tm+mt
-source-wordcount: '1040'
+source-wordcount: '1011'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ ht-degree: 0%
 您可以執行下列其中一項作業，在Maestro中建立記錄：
 
 * 為Maestro記錄型別手動建立它們
-* 將它們連線到來自協力廠商應用程式的Maestro記錄。
+* 將它們連線到其他應用程式的Maestro記錄。
 * 從外部清單複製並貼上資訊，以建立記錄。
 
 本文說明如何建立Maestro記錄。 如需有關管理表格或時間表檢視中的記錄的資訊，請參閱下列文章：
@@ -139,22 +139,21 @@ ht-degree: 0%
 
 ## 從其他應用程式連線記錄以建立記錄
 
-您可以將記錄連結至Maestro連結的記錄，藉此從其他應用程式匯入記錄。 這會為協力廠商應用程式連線物件建立Maestro記錄型別。 您連線至原始Maestro記錄的記錄會顯示在協力廠商應用程式連線物件Maestro記錄型別表格檢視中。
+您可以將記錄連結至Maestro連結的記錄，藉此從其他應用程式匯入記錄。 這會為其他應用程式的連線物件建立Maestro記錄型別。
 
 1. 建立Maestro記錄型別，如 [建立記錄型別](../architecture/create-record-types.md).
 
 1. 為您在上一步建立的記錄型別建立Maestro記錄。 如需詳細資訊，請參閱區段 [手動將記錄新增至記錄型別以建立記錄](#create-records-by-manually-adding-them-to-a-record-type) 本文章內容。
 
-1. 針對您建立的Maestro記錄型別，從協力廠商應用程式建立與物件型別的連線。 如需詳細資訊，請參閱 [連線記錄型別](../architecture/connect-record-types.md).
+1. 從另一個應用程式為您建立的Maestro記錄型別建立物件型別的連線。 如需詳細資訊，請參閱 [連線記錄型別](../architecture/connect-record-types.md).
 
-1. 使用您在上一步建立的連結記錄欄位，將第三方應用程式的記錄新增至您在上一步建立的Maestro記錄。 如需詳細資訊，請參閱 [連線記錄](../records/connect-records.md).
+1. 使用您在上一步建立的連結記錄欄位，將來自另一個應用程式的記錄新增至您在上一步建立的Maestro記錄。 如需詳細資訊，請參閱 [連線記錄](../records/connect-records.md).
 
    在Maestro中建立下列專案：
 
-   * 唯讀的Maestro記錄型別，參考您在連線記錄欄位中連結的第三方記錄型別。
+   * 唯讀的Maestro記錄型別，參照您在連線記錄欄位中連結到的其他應用程式記錄型別。
 
-     例如，如果您將Maestro記錄型別連線至Workfront專案，會在相同工作區中建立名為「Workfront專案」的唯讀記錄型別。
-   * 第三方記錄型別頁面中的唯讀記錄。 從協力廠商應用程式匯入的記錄仍維持唯讀狀態，且只能在其原始應用程式中更新。
+     例如，如果您將Maestro記錄型別連線至Workfront專案，會在相同工作區中建立名為「Workfront專案」的唯讀記錄型別。 您可以從您連結的Maestro記錄表格檢視，存取唯讀的Workfront記錄型別。
 
 ## 從外部清單複製並貼上資訊，以建立記錄
 
@@ -178,7 +177,7 @@ ht-degree: 0%
    >
    > 確保您已在Maestro中建立所需的欄位，且工作表中的資訊以符合Maestro中每個欄位之資訊的正確格式顯示。
 
-1. 從第三方應用程式中，選取數個列和欄，然後將資訊貼到記錄型別表格檢視中，從第一個新記錄開始。
+1. 從另一個應用程式中，選取數個列和欄，然後將資訊貼到記錄型別表格檢視中，從第一個新記錄開始。
 
    下列資訊會在Maestro中匯入：
 
