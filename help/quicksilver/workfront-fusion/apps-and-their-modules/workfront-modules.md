@@ -9,9 +9,9 @@ description: 您可以使用Adobe Workfront Fusion Adobe Workfront聯結器在Wo
 author: Becky
 feature: Workfront Fusion, Workfront Integrations and Apps
 exl-id: b84d2d41-a983-4ea3-b331-0302bfcf8a2b
-source-git-commit: 37fd436070b435ebf3d042789bd385dc6a6108cc
+source-git-commit: 879d2ec0c8f3909a5dd385c77bd2de81120d40fa
 workflow-type: tm+mt
-source-wordcount: '5799'
+source-wordcount: '5825'
 ht-degree: 2%
 
 ---
@@ -94,6 +94,10 @@ ht-degree: 2%
 當您設定 [!DNL Workfront] 模組， [!DNL Workfront Fusion] 顯示下列欄位。 除了這些以外， [!DNL Workfront] 欄位可能會顯示，端視您應用程式或服務中的存取層級等因素而定。 模組中的粗體標題表示必填欄位。
 
 如果您在欄位或函式上方看到對應按鈕，則可以使用它來設定該欄位的變數和函式。 如需詳細資訊，請參閱 [在中將資訊從一個模組對應到另一個模組 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
+
+>[!NOTE]
+>
+>如果您在Workfront模組中未看到最新欄位，可能是因為快取問題。 請等待一小時，然後再試一次。
 
 ![](assets/map-toggle-350x74.png)
 
