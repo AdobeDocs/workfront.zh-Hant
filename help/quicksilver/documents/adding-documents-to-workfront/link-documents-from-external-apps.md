@@ -6,9 +6,9 @@ description: 您可以從外部來源將檔案和資料夾連結到Adobe Workfro
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 97823f70-6544-445a-9a81-abe1e2f3de55
-source-git-commit: bec625b70b39fec9f9a6d4f7b48023702de43675
+source-git-commit: 9e57fa6d70e5cfe3de90a24564e76e22b82f63ff
 workflow-type: tm+mt
-source-wordcount: '2563'
+source-wordcount: '2578'
 ht-degree: 0%
 
 ---
@@ -232,6 +232,10 @@ ht-degree: 0%
 ## 上傳檔案並從Workfront連結至外部雲端提供者
 
 您可以上傳檔案，並將其從Workfront連結至外部雲端提供者。 這會將檔案的儲存空間從Workfront移至外部雲端提供者。 當檔案在外部應用程式中變更時，會自動在Workfront中更新。
+
+>[!NOTE]
+>
+>將資產傳送至外部檔案供應者時，會建立資產的新版本。
 
 沒有Workfront存取許可權的使用者如果擁有應用程式的存取許可權，便可以在外部應用程式中檢視檔案。
 
