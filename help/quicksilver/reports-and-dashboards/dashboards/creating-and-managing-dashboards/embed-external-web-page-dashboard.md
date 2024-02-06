@@ -6,9 +6,9 @@ description: 您可以將外部網頁內嵌在控制面板中，藉此存取Adob
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 04b623b5-38b0-4c32-b54e-204f1d422e45
-source-git-commit: 3b3ba7cc6a975af71205f7f524e1a9a91a9d3810
+source-git-commit: 332c744ab9b760268620461ed2cb2551caf383cf
 workflow-type: tm+mt
-source-wordcount: '1006'
+source-wordcount: '1014'
 ht-degree: 0%
 
 ---
@@ -130,6 +130,11 @@ ht-degree: 0%
         基於安全理由，您的Workfront管理員可能會以不允許在外部頁面中使用工作階段資訊的方式設定您的系統偏好設定。 在此情況下，外部頁面不會在控制面板上載入。\
         如需有關系統安全性偏好設定的詳細資訊，請參閱 [設定系統安全性偏好設定](../../../administration-and-setup/manage-workfront/security/configure-security-preferences.md).\
         ![external_page_with_session_id_example.png](assets/external-page-with-session-id-example-350x134.png)
+
+     >[!WARNING]
+     >
+     >使用SessionID是不安全的，不建議使用。
+     >
 
    * **高度**：輸入大於0的數字，以定義外部頁面在控制面板上的空間。 預設高度為500。
 

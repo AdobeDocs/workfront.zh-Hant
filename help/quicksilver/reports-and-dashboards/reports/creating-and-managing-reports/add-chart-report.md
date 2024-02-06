@@ -6,9 +6,9 @@ description: 您可以新增圖表來增強報表。 您可以將圖表新增至
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 9b58d68c-4b7b-4344-bde3-7c65e2e1aac8
-source-git-commit: dda00a43c5122a233ce2849d828d2e5e4555d2d9
+source-git-commit: 68d93ccb8b96f802ef0a612e7e41cf168e34e863
 workflow-type: tm+mt
-source-wordcount: '2733'
+source-wordcount: '2757'
 ht-degree: 0%
 
 ---
@@ -157,6 +157,10 @@ ht-degree: 0%
    ![](assets/qs-bar-chart-350x167.png)
 
 1. 按一下 **儲存+關閉** 以儲存圖表和報表。
+
+>[!IMPORTANT]
+>
+>將長條圖限製為23個或更少的長條，因為包含超過23個長條的長條圖無法正確顯示所有長條標籤。
 
 ### 圓形圖 {#pie-chart}
 

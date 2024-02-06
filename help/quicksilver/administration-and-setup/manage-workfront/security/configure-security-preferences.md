@@ -8,9 +8,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: f92ceed7-b191-425b-9fff-1b0947f32db8
-source-git-commit: 9d2165cdc9399273a4f79b90d4049f50097cadee
+source-git-commit: 57ea12e1da0ad326910021b2d2349c6d1eba4b69
 workflow-type: tm+mt
-source-wordcount: '831'
+source-wordcount: '848'
 ht-degree: 4%
 
 ---
@@ -81,7 +81,7 @@ DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH T
      </tr> 
      <tr> 
       <td role="rowheader">啟用在建立外部頁面URL時使用工作階段資訊</td> 
-      <td> <p>允許使用者在將外部頁面新增到儀表板時使用網站的工作階段ID資訊。</p> <p>如需新增外部頁面至控制面板的詳細資訊，請參閱 <a href="../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-external-web-page-dashboard.md" class="MCXref xref">將外部網頁內嵌在控制面板中</a>.</p> </td> 
+      <td> <p>允許使用者在將外部頁面新增到儀表板時使用網站的工作階段ID資訊。</p> <p>此選項不安全，預設為關閉。 建議改用OAuth進行整合。</p> <p>如需新增外部頁面至控制面板的詳細資訊，請參閱 <a href="../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-external-web-page-dashboard.md" class="MCXref xref">將外部網頁內嵌在控制面板中</a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">讓人們使用Workfront的行動應用程式和 <strong>Workfront</strong> Outlook增益集</td> 

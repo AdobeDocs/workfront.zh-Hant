@@ -7,9 +7,9 @@ description: '報告：預算時數'
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: 2c0b60a6-fae4-4b29-8243-2a7f7d1f574b
-source-git-commit: 32966d4732221d73aa3397771e157b630f7d5760
+source-git-commit: 332c744ab9b760268620461ed2cb2551caf383cf
 workflow-type: tm+mt
-source-wordcount: '647'
+source-wordcount: '657'
 ht-degree: 1%
 
 ---
@@ -17,18 +17,14 @@ ht-degree: 1%
 # 報告：預算時數
 
 <!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: From&nbsp;Alina: This is my article, but since it's about building a report, it is in the Reporting section. Please don't remove it -it's linked to Resouce Management and it is super important.) </p>
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: From&nbsp;Alina: This is my article, but since it's about building a report, it is in the Reporting section. Please don't remove it -it's linked to Resource Management and it is super important.) </p>
 -->
 
 當您想要與無法存取資源規劃工具的其他使用者共用預算時數資訊時，您可以透過建立預算時數報表來執行此操作。 接著，您就可以與他們共用報表。
 
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: This info is also added and drafted in the article "View Budget Hours in a report" in the Resource Planning section. Consider deleting this article?!)</p>
--->
-
 >[!IMPORTANT]
 >
->預算時數在Adobe Workfront資料庫中每小時更新一次。 重新整理報告不一定會重新整理報告中的小時資訊。 您可以在每個預算時數報表的右上角，檢視自上次更新以來的經過時間。 重新整理報告只會在上次更新後超過一小時時重新整理其中的資訊。
+>預算時數通常每小時在Adobe Workfront資料庫中更新一次（少數情況下，最多可能需要三個小時）。 重新整理報告不一定會重新整理報告中的小時資訊。 您可以在每個預算時數報表的右上角，檢視自上次更新以來的經過時間。 重新整理報告只會在上次更新後超過一小時時重新整理其中的資訊。
 >
 >![](assets/budgeted-hour-report-time-sync-warning-350x74.png)>
 

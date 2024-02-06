@@ -6,9 +6,9 @@ description: 您可以與其他使用者共用您有權檢視的篩選器、檢�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 63a6db90-d52c-4147-a442-7904ef9e9d49
-source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
+source-git-commit: 332c744ab9b760268620461ed2cb2551caf383cf
 workflow-type: tm+mt
-source-wordcount: '1249'
+source-wordcount: '1211'
 ht-degree: 1%
 
 ---
@@ -117,13 +117,7 @@ ht-degree: 1%
 
    篩選器共用方塊隨即顯示。
 
-1. 啟用 **檢視系統範圍** 設定。 這可授予Workfront中的任何人檢視篩選的許可權。
-
-   >[!IMPORTANT]
-   >
-   >請謹慎使用此設定。 為所有使用者新增許多篩選器將會使篩選器體驗雜亂，並使篩選器更難以找到。
-
-   或開始輸入您要在其中共用的使用者、團隊、角色、群組或公司名稱 **將存取權授予** 欄位。
+1. 開始輸入您要在其中共用的使用者、團隊、角色、群組或公司名稱 **將存取權授予** 欄位。
 
    ![篩選器共用方塊](assets/new-filters-share-filter.png)
 
