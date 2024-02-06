@@ -8,7 +8,7 @@ author: Courtney
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: 4120b44a1be1fc8cf7da26ac441c8e51fa8b48ac
+source-git-commit: fac70de35b3380105911f2958f477f65c9999e55
 workflow-type: tm+mt
 source-wordcount: '5096'
 ht-degree: 3%
@@ -198,8 +198,8 @@ ht-degree: 3%
     <td>格式</td>
     <td><p>選取將在自訂欄位中擷取的資料型別。</p> <p><b>注意</b>：   
     <ul> 
-    <li>表單儲存後即無法編輯此欄位。 如果您要在數學計算中使用欄位，請務必選取「數字」或「貨幣」格式。<br></li> 
-    <li>當您選取「數字」或「貨幣」時，系統會自動截斷以0開頭的數字。</li> 
+    <li>表單儲存後即無法編輯此欄位。 如果您要在數學計算中使用欄位，請務必選取「數字」或「貨幣」格式。</li> 
+    <li>當您選取「數字」或「貨幣」時，系統會自動截斷以0開頭的數字。</li>
      </ul></p></td> </td>
     <td><ul>
     <li>單行文字</li>
@@ -316,7 +316,7 @@ ht-degree: 3%
     <td> <p>選取將在自訂欄位中擷取的資料型別。</p> <p><b>注意</b>：   
      <ul> 
     <li>表單儲存後即無法編輯此欄位。 如果您要在數學計算中使用欄位，請務必選取「數字」或「貨幣」格式。<br></li> 
-    <li>當您選取「數字」或「貨幣」時，系統會自動截斷以0開頭的數字。</li> 
+    <li>當您選取「數字」或「貨幣」時，系統會自動截斷以0開頭的數字。</li>
      </ul></p></td> 
      <td><ul>
     <li>單選按鈕</li>

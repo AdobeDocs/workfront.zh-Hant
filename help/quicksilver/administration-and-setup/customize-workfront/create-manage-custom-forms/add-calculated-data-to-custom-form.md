@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 9174c4ef-3beb-4d47-9c5c-363f52105a2c
-source-git-commit: dda00a43c5122a233ce2849d828d2e5e4555d2d9
+source-git-commit: fac70de35b3380105911f2958f477f65c9999e55
 workflow-type: tm+mt
-source-wordcount: '2863'
+source-wordcount: '2898'
 ht-degree: 0%
 
 ---
@@ -126,7 +126,8 @@ ht-degree: 0%
      <tr> 
       <td role="rowheader">格式</td> 
       <td> <p>您希望儲存並顯示欄位結果的格式。</p> <p>如果您打算在數學計算中使用欄位，請一律使用 <strong>數字</strong> 或 <strong>貨幣</strong> 格式。 當您選取「數字」或「貨幣」時，系統會自動截斷以0開頭的數字。</p> 
-      <p><b>重要</b>： <p>在選擇格式之前，請考慮新欄位的正確格式。 儲存自訂表單後無法編輯格式欄位。 選擇錯誤的格式可能會影響未來的計算，以及報告和清單分組中的彙總值。</p> </td> 
+      <p><b>重要</b>： <p>在選擇格式之前，請考慮新欄位的正確格式。 儲存自訂表單後無法編輯格式欄位。 選擇錯誤的格式可能會影響未來的計算，以及報告和清單分組中的彙總值。</p>
+      <p><strong>注意：</strong> 使用貨幣格式的計算欄位不應包含引號。 （例如，使用800.00而非「800.00」。） 使用引號可能會由於貨幣型別的語言格式細微差別而造成非預期的後果。</p></td> 
      </tr> 
     </tbody> 
    </table>

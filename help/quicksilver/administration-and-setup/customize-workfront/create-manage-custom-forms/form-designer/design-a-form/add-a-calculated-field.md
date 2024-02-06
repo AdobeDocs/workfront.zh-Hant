@@ -4,13 +4,13 @@ user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
 description: 您可以將自訂表單附加至物件時，新增使用現有資料產生新資料的計算自訂欄位。
-author: Courtney
+author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 407aae49-4bc3-4364-a794-7e170a57a6d3
-source-git-commit: d8e3c2da7f8fcd062e1bf2bb5de43a6238f5eadd
+source-git-commit: fac70de35b3380105911f2958f477f65c9999e55
 workflow-type: tm+mt
-source-wordcount: '2320'
+source-wordcount: '2355'
 ht-degree: 0%
 
 ---
@@ -157,7 +157,8 @@ ht-degree: 0%
      <tr> 
       <td role="rowheader">格式</td> 
       <td> <p>您希望儲存並顯示欄位結果的格式。</p> <p>如果該欄位將用於數學計算，請一律使用 <strong>數字</strong> 或 <strong>貨幣</strong> 格式。 當您選取「數字」或「貨幣」時，系統會自動截斷以0開頭的數字。</p> 
-      <p><b>重要</b>：在選擇格式之前，請考慮新欄位的正確格式。 儲存自訂表單後無法編輯格式欄位。 選擇錯誤的格式可能會影響未來的計算，以及報告和清單分組中的彙總值。</p> </td> 
+      <p><b>重要</b>：在選擇格式之前，請考慮新欄位的正確格式。 儲存自訂表單後無法編輯格式欄位。 選擇錯誤的格式可能會影響未來的計算，以及報告和清單分組中的彙總值。</p>
+      <p><strong>注意：</strong> 使用貨幣格式的計算欄位不應包含引號。 （例如，使用800.00而非「800.00」。） 使用引號可能會由於貨幣型別的語言格式細微差別而造成非預期的後果。</p></td>
      </tr> 
     </tbody> 
    </table>
