@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: bb597032-3395-4c9a-b622-5c920ba55131
-source-git-commit: dda00a43c5122a233ce2849d828d2e5e4555d2d9
+source-git-commit: e9acccbaf2ce9c418e9417ff205bdfdb926b51d5
 workflow-type: tm+mt
-source-wordcount: '1414'
+source-wordcount: '1416'
 ht-degree: 0%
 
 ---
@@ -148,9 +148,9 @@ ht-degree: 0%
 
 當 [!DNL Workfront] 管理員將群組指派給公司，群組管理員可取得群組收益 [!UICONTROL 管理] 存取中的公司 [!UICONTROL 設定]. 這包含對的存取 [!UICONTROL 公司] 頁面位置 [!UICONTROL 設定]，可讓他們檢視及管理與其群組相關聯的公司。
 
-透過此許可權可存取 [!UICONTROL 公司] 頁面上，群組管理員可以將群組指派給公司，但是它必須是群組管理員建立的公司。 如果群組管理員的存取層級未設定為對公司的管理存取權， [!UICONTROL 群組] 當群組管理員建立公司時，欄位是必填欄位 — 其粗體標題指示如下：
+透過此許可權可存取 [!UICONTROL 公司] 頁面上，群組管理員可以將群組指派給公司，但是它必須是群組管理員建立的公司。 如果群組管理員的存取層級未設定為對公司的管理存取權， [!UICONTROL 群組] 當群組管理員建立公司時，需要欄位，其粗體標題指示如下：
 
-![](assets/manage-company-group-field-req.jpg)
+![編輯公司](assets/group-admin-add-company.png)
 
 如需有關使用者如何在其存取層級中取得公司的管理存取權的資訊，請參閱 [授予使用者管理特定區域的存取權](../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
 
