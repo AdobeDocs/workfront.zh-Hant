@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: 83b4aa974fe0d9ba2ace797b52198b15fc55f5d8
+source-git-commit: 08a7fa1f3871494c4c6b0c385a98a64735b7f7e4
 workflow-type: tm+mt
-source-wordcount: '839'
+source-wordcount: '1056'
 ht-degree: 1%
 
 ---
@@ -18,8 +18,13 @@ ht-degree: 1%
 
 {{maestro-important-intro}}
 
-您可以在Adobe Maestro中編輯記錄資訊。 您必須先建立記錄型別，才能開始建立和編輯記錄。
+您可以在Adobe Maestro中編輯記錄資訊，方法是編輯與記錄關聯的欄位值。
+
+您必須先建立記錄型別，才能開始建立和編輯記錄。
+
 如需詳細資訊，請參閱 [建立記錄型別](../architecture/create-record-types.md).
+
+如需建立記錄的相關資訊，請參閱 [建立記錄](/help/quicksilver/maestro/records/create-records.md).
 
 &lt;! — 在此提及，詳細資訊檢視中的欄位與表格檢視中的欄位相同 — 本文從「管理記錄」檢視連結，其中一個參考此資訊 — >
 
@@ -52,9 +57,11 @@ ht-degree: 1%
    </td>
   </tr>
   <tr>
-   <td role="rowheader"><p>Adobe Workfront授權</p></td>
+   <td role="rowheader"><p>Adobe Workfront授權*</p></td>
    <td>
-   <p>任何</p> 
+   <p>新增：淺色或更高</p>
+   或
+   <p>目前：工作或以上</p> 
   </td>
   </tr>
 
@@ -78,21 +85,20 @@ ht-degree: 1%
 </tbody>
 </table>
 
+*如需詳細資訊，請參閱 [Workfront檔案中的存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
 ## 編輯記錄的相關考量事項
 
-* 您可以編輯您或其他使用者建立的記錄。 <!--will change with access levels-->
-* 您無法編輯從其他記錄連結的欄位或包含計算的欄位。
+* 如果您擁有工作區的許可權，您可以編輯您建立的記錄或其他人建立的記錄。
+* 您可以從記錄的「詳細資訊」頁面或記錄型別的表格檢視中編輯記錄欄位。
+* 您無法從時間軸檢視編輯記錄資訊。
+* 下列型別的欄位會自動更新，您無法手動編輯其值：
+   * 從其他記錄連結的欄位
+   * 公式型別欄位
+   * 系統欄位（「建立者」、「建立日期」、「上次修改者」、「上次修改日期」）
 * 如果顯示的記錄連結到其他記錄，則您正在編輯的記錄的新資訊會反映在連結的記錄上。
 * 您無法大量編輯記錄。 <!--this will probably change-->
 * URL只有以下列專案開頭時，才會被識別為單行文字欄位型別中的連結： http://、https://、ftp://或www。.
-* 編輯段落型別欄位時，您可以使用下列RTF格式選項：
-
-   * 粗體
-   * 斜體
-   * 底線
-   * 新增連結
-   * 新增專案符號清單
-   * 新增編號清單
 
 ## 編輯記錄
 
@@ -110,8 +116,8 @@ ht-degree: 1%
 1. （可選）按一下工作區名稱右側的向下箭頭，以選取您要更新其記錄的工作區。
 1. 執行下列其中一項：
 
-   * 在「表格」檢視中，按一下記錄名稱。
-   * 在「表格」檢視中，暫留在記錄名稱上，然後按一下 **更多** 功能表 ![](assets/more-menu.png)，然後按一下 **檢視**
+   * 從 **表格** 檢視，按一下記錄名稱。
+   * 從 **表格** 檢視，將游標停留在記錄名稱上，然後按一下 **更多** 功能表 ![](assets/more-menu.png)，然後按一下 **檢視**
 
      ![](assets/contextual-menu-for-record-row.png)
    * 在「時間軸」檢視中，按一下記錄列。
@@ -144,7 +150,6 @@ ht-degree: 1%
 1. 在記錄列內按一下，開始編輯有關內嵌記錄的資訊。
 
    ![](assets/edit-record-paragraph-field-with-formatting-table-view.png)
-1. 按下 **輸入** 使用鍵盤或按一下資料列外部以儲存變更。 變更會自動儲存。 已儲存的指標會短暫顯示在表格檢視的右上角，顯示變更已儲存。
 
    >[!NOTE]
    >
@@ -153,13 +158,31 @@ ht-degree: 1%
    >  * 透過連線記錄型別建立的連結欄位。 如需詳細資訊，請參閱 [連線記錄型別](../architecture/connect-record-types.md).
    >  * 下列型別的欄位：建立者、建立日期、上次修改者、上次修改日期
 
+1. （選擇性和條件性）編輯「段落」型別欄位時，請使用下列專案 **RTF文字** 格式化選項：
 
-1. （可選）複製欄位的一或多個現有值，然後貼到另一筆記錄中相同型別的欄位中，然後按一下 **輸入** 以儲存變更。
+   * 粗體
+   * 斜體
+   * 底線
+   * 新增連結
+   * 新增專案符號清單
+   * 新增編號清單
+
+   ![](assets/rich-text-toolbar-on-paragraph-field.png)
+1. 按下 **輸入** 使用鍵盤或按一下資料列外部以儲存變更。 變更會自動儲存。 A **已儲存** 指標會短暫顯示在表格檢視的右上角，顯示變更已儲存。
+
+1. （選擇性）若要將某個欄位的資訊複製並貼到另一個欄位，請執行下列任一項作業：
+
+   * 複製欄位的一或多個現有值，然後將它們貼到另一個記錄上相同型別的欄位中
+   * 按一下欄的欄標題以選取並複製它，然後按一下其他欄的欄標題並貼上複製欄的內容。 欄必須包含類似的欄位型別。
+   * 按住Shift鍵，按一下選取表格中的數列，複製選取列中的資訊，然後按一下其他列，然後將選取的資訊貼到新列中，接著再貼上後續的列。
 
    >[!NOTE]
    >
    >請考量下列事項：
    >
+   >* 使用下列鍵盤快速鍵來複製和貼上資訊：
+   >   * 複製： CTRL + C (Mac為⌘ + C)
+   >   * 貼上：CTRL + V (Mac為⌘ + V)
    >* 您無法從其他來源複製資訊，除了與貼上資訊的欄位型別相同的Maestro欄位之外。
    >
    >* 您無法在記錄的詳細資訊區域中複製和貼上欄位值。 只有在記錄型別的表格檢視中才支援此功能。
@@ -173,4 +196,9 @@ ht-degree: 1%
 
    * CTRL + Z (Mac為⌘ + Z)可復原變更
    * CTRL + Shift + Z (Mac為⌘ + Shift + Z)以重做變更
+
+   >[!TIP]
+   >
+   >    您可以在一列中多次使用鍵盤快速鍵來復原多項變更。
+
 1. （選用）新增縮圖至記錄。 如需詳細資訊，請參閱 [新增縮圖至記錄](/help/quicksilver/maestro/records/add-thumbnails-to-records.md).

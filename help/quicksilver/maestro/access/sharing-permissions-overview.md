@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 el-id: 698036a6-b3b4-44a9-91ee-63fdb6a646a1
-source-git-commit: 86f9a88518c8a03643061b3328719d2da4016f2b
+source-git-commit: 08a7fa1f3871494c4c6b0c385a98a64735b7f7e4
 workflow-type: tm+mt
-source-wordcount: '454'
-ht-degree: 8%
+source-wordcount: '499'
+ht-degree: 7%
 
 ---
 
@@ -42,12 +42,9 @@ ht-degree: 8%
 
 ## 在Maestro中共用物件的考量事項
 
-* 您必須擁有下列授權才能在Maestro中建立工作區：
+* 您的Adobe Workfront授權型別會與您的Maestro許可權搭配使用，讓您能夠檢視、貢獻或管理Maestro物件。
 
-   * 新的定價模式：標準授權
-   * 目前的訂價模式：計畫授權。
-
-  如需詳細資訊，請參閱 [Workfront檔案中的存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)
+  如需有關授權型別如何影響Maestro物件許可權等級的資訊，請參閱 [Adobe Maestro中的授權型別概觀](/help/quicksilver/maestro/access/license-type-overview.md).
 * 系統管理員可以管理和共用其他使用者建立的工作區。
 * 如果您不是系統管理員，且其他人建立的工作區已共用給您，您就可以為其貢獻內容。
 * 您無法大量共用工作區。
@@ -60,6 +57,13 @@ ht-degree: 8%
 ## 共用Maestro物件的許可權
 
 以下各節中的表格說明在共用Maestro工作區或檢視時可以選取的許可權層級，以及每個層級允許的功能。
+
+>[!IMPORTANT]
+>
+>並非所有使用者都可擁有下述許可權層級。 使用者的個別授權會決定他們可以接收的Maestro物件許可權層級。
+>
+>如需詳細資訊，請參閱 [Adobe Maestro中的授權型別概觀](/help/quicksilver/maestro/access/license-type-overview.md).
+
 
 ### 工作區許可權
 

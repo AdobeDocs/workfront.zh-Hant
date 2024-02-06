@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: 83b4aa974fe0d9ba2ace797b52198b15fc55f5d8
+source-git-commit: 08a7fa1f3871494c4c6b0c385a98a64735b7f7e4
 workflow-type: tm+mt
-source-wordcount: '2298'
+source-wordcount: '2313'
 ht-degree: 3%
 
 ---
@@ -166,6 +166,8 @@ Maestro表格檢視的欄標題會顯示與檢視中記錄相關聯的欄位。 
    >   * 變更表格檢視中的主要欄位會影響所有表格檢視。
    >
    >   * 您無法刪除或隱藏主要欄位。
+   >
+   >   * 主要欄位中列出的值一律會以超連結方式連結至記錄的「詳細資訊」頁面。
 
 1. 按一下並拖曳欄分隔線，並將它們拖曳到所需的位置以增加欄寬。
 
@@ -214,7 +216,7 @@ Maestro表格檢視的列會顯示所選記錄型別的個別記錄。
 
    您在表格檢視中新增的記錄會立即儲存，且所有擁有工作區檢視或更高許可權的使用者皆可看到。
 
-1. （可選）新增縮圖至每筆記錄，然後按一下 **欄位** ，並選取「縮圖」欄位的切換按鈕，以在主要欄位的左側顯示。 預設會取消選取它。
+1. （可選）新增縮圖至每筆記錄，然後按一下 **欄位** 在表格的右上角，然後選取 **縮圖** 欄位，在主欄位左側顯示。 預設會取消選取它。
 
    如需詳細資訊，請參閱 [新增縮圖至記錄](/help/quicksilver/maestro/records/add-thumbnails-to-records.md).
 

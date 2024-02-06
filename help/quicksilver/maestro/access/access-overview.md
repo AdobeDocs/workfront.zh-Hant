@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 99fac041-a235-4991-b826-d19944164bc9
-source-git-commit: 86f9a88518c8a03643061b3328719d2da4016f2b
+source-git-commit: 08a7fa1f3871494c4c6b0c385a98a64735b7f7e4
 workflow-type: tm+mt
-source-wordcount: '352'
+source-wordcount: '418'
 ht-degree: 0%
 
 ---
@@ -53,9 +53,15 @@ ht-degree: 0%
    <td role="rowheader"><p>Adobe Workfront授權*</p></td>
    <td>
    <p>任何</p>
-   若要建立工作區，使用者必須擁有下列授權： 
-   <ul><li><p>新增：標準</p> </li>
-   <li><p>目前：工作者或以上</p> </li></ul>
+   <p>若要建立工作區，您必須擁有下列授權：</p>
+   <ul>
+   <li>
+   新增：標準
+   </li>
+   <li>
+   目前：工作者或以上
+   </li>
+   </ul>
   </td>
   </tr>
   <tr>
@@ -66,7 +72,7 @@ ht-degree: 0%
 <tr>
    <td role="rowheader"><p>物件許可權</p></td>
    <td>
-   <p>對您未建立的工作區和檢視貢獻或更高的許可權，以編輯、刪除和共用它們</p>
+   <p>貢獻或更高的許可權給您未建立的工作區和檢視，以編輯、刪除和共用它們，以及建立、編輯或刪除記錄型別和記錄。</p>
     <p>系統管理員可以管理他們未建立的工作區和檢視 </p>
    <p>如需有關共用Maestro物件許可權的資訊，請參閱  
    <a href="../access/sharing-permissions-overview.md">在Adobe Maestro中共用許可權概觀</a> 
@@ -109,10 +115,16 @@ Maestro沒有存取控制。
 
 擁有任何授權型別的使用者都可以存取Maestro。
 
+如需在Workfront中授與存取權的相關資訊，請參閱 [建立和修改自訂存取層級](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+
 ## 授予許可權
 
 您必須將您建立的工作區和檢視授予非系統管理員的使用者許可權，他們才能存取這些工作區與檢視。
 
 如需詳細資訊，請參閱 [在Adobe Maestro中共用許可權概觀](/help/quicksilver/maestro/access/sharing-permissions-overview.md).
+
+您的Adobe Workfront授權型別會與您的Maestro許可權搭配使用，讓您能夠檢視、貢獻或管理Maestro物件。
+
+如需有關授權型別如何影響Maestro物件許可權等級的資訊，請參閱 [Adobe Maestro中的授權型別概觀](/help/quicksilver/maestro/access/license-type-overview.md).
 
 

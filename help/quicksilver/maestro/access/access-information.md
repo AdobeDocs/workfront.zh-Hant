@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 98ca7d04-35c2-420a-a87c-50c00939853c
-source-git-commit: dda00a43c5122a233ce2849d828d2e5e4555d2d9
+source-git-commit: 08a7fa1f3871494c4c6b0c385a98a64735b7f7e4
 workflow-type: tm+mt
-source-wordcount: '77'
+source-wordcount: '83'
 ht-degree: 0%
 
 ---
@@ -24,5 +24,6 @@ ht-degree: 0%
 * [在Adobe Maestro中共用許可權概觀](/help/quicksilver/maestro/access/sharing-permissions-overview.md)
 * [共用工作區](/help/quicksilver/maestro/access/share-workspaces.md)
 * [共用檢視](/help/quicksilver/maestro/access/share-views.md)
+* [Adobe Maestro中的授權型別概觀](/help/quicksilver/maestro/access/license-type-overview.md)
 
 
