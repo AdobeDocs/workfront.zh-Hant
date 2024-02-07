@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: 4016ba2c1b94ba84037612bdc9c1136267513fd5
+source-git-commit: 420a9c24695f950ad191431ca6c6848b7649f3b1
 workflow-type: tm+mt
-source-wordcount: '3325'
+source-wordcount: '3339'
 ht-degree: 2%
 
 ---
@@ -179,7 +179,7 @@ recommendations: noDisplay, noCatalog
 >
 >* 段落欄位的內容最多可包含1,000個字元。
 >
->* 當段落欄位顯示在表格檢視或記錄的詳細資訊頁面時，您可以使用RTF格式來增強段落欄位的內容。
+>* 當段落欄位顯示在表格檢視或記錄的詳細資訊頁面時，您可以使用RTF格式來增強段落欄位的內容。 如需詳細資訊，請參閱 [編輯記錄](/help/quicksilver/maestro/records/edit-records.md).
 
 1. 依照一節所述開始建立欄位 [從頭開始建立欄位](#create-fields-from-scratch) 在本文章中，然後選取 **段落** 欄位型別。
 
@@ -377,7 +377,9 @@ recommendations: noDisplay, noCatalog
 
    >[!NOTE]
    >
-   >    您無法從公式中的連結記錄新增欄位。 此功能將在稍後發佈。 如需新版本的詳細資訊，請參閱 [Adobe大師發行活動](/help/quicksilver/maestro/release-activity.md).
+   > * 您無法在公式中新增多重選取型別欄位。
+   >
+   > * 您無法從公式中的連結記錄新增欄位。 此功能將在稍後發佈。 如需新版本的詳細資訊，請參閱 [Adobe大師發行活動](/help/quicksilver/maestro/release-activity.md).
 
 
 1. 按一下「**建立**」。
