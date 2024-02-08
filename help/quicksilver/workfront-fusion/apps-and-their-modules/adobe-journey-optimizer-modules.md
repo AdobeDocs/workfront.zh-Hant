@@ -9,7 +9,7 @@ description: 在 [!DNL Adobe Workfront Fusion] 情境中，您可以使用自動
 author: Becky
 feature: Workfront Fusion
 exl-id: 2c1aea46-edbf-42a3-a6e9-f8aea042a48d
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+source-git-commit: 50078aec71a4173a67c386ae5a8a4b5ba6cf3ade
 workflow-type: tm+mt
 source-wordcount: '1602'
 ht-degree: 0%
@@ -38,7 +38,7 @@ Becky: pull from main, add to TOCs, then push to merge.
   <col/>
   <tbody>
     <tr>
-      <td role="rowheader">[!DNL Adobe Workfront] 計劃*</td>
+      <td role="rowheader">[!DNL Adobe Workfront] 計畫*</td>
       <td>
         <p>[！UICONTROL Pro]或更高版本</p>
       </td>
@@ -73,7 +73,7 @@ Becky: pull from main, add to TOCs, then push to merge.
 
 有關的資訊 [!DNL Adobe Workfront Fusion] 授權，請參閱 [[!DNL Adobe Workfront Fusion] 授權](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
-## 必要條件
+## 先決條件
 
 開始使用 [!DNL Adobe Journey Optimizer] 聯結器時，您必須確定符合下列先決條件：
 
@@ -469,7 +469,6 @@ Becky: pull from main, add to TOCs, then push to merge.
       <td role="rowheader">
         <p>[！UICONTROL方法]</p>
       </td>
-      <td>
    <td> <p>選取設定API呼叫所需的HTTP要求方法。 如需詳細資訊，請參閱 <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">中的HTTP要求方法 [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
       </td>
     </tr>
@@ -489,7 +488,7 @@ Becky: pull from main, add to TOCs, then push to merge.
     </tr>
     <tr>
       <td role="rowheader">[！UICONTROL Body]</td>
-   <td> <p>以標準JSON物件的形式新增API呼叫的內文內容。</p> <p>備註:  <p>使用條件陳述式時，例如 <code>if</code> 在JSON中，將引號放在條件陳述式之外。</p> 
+   <td> <p>以標準JSON物件的形式新增API呼叫的內文內容。</p> <p>注意：  <p>使用條件陳述式時，例如 <code>if</code> 在JSON中，將引號放在條件陳述式之外。</p> 
      <div class="example" data-mc-autonum="<b>Example: </b>"> 
       <p> <img src="assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
      </div> </p> </td>     </tr>
