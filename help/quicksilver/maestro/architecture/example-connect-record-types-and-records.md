@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 38509572-72a4-4fce-b3ec-2cb31bb4669a
-source-git-commit: 5681b540bceddaae85116b632e968d94761eec0d
+source-git-commit: 24975c463c93de61672f1986d82d1d6500133baa
 workflow-type: tm+mt
-source-wordcount: '1543'
+source-wordcount: '1720'
 ht-degree: 0%
 
 ---
@@ -77,11 +77,30 @@ ht-degree: 0%
    >    連結的記錄欄位前面有關係圖示 ![](assets/relationship-field-icon.png).
 
 1. 從 **Campaign** 記錄型別表格檢視，請在「行銷活動」記錄型別頁面的表格中新增列，以建立行銷活動。
-1. 按一下 **+** 圖示內  **產品資訊** 欄中新增行銷活動。 此 **連線物件** 方塊隨即顯示。 您要連結的記錄型別（產品）名稱會顯示在方塊的左上角。
 
-   ![](assets/connect-objects-box-to-select-other-maestro-records-example-for-product-record.png)
+1. 在內按兩下  **產品資訊** 欄中新增行銷活動。
 
-1. 選取您要連線至Campaign記錄的產品記錄，然後按一下 **連線物件**.
+   ![](assets/connect-other-records-smaller-box-in-table-view.png)
+
+1. 執行下列其中一項：
+
+   * 從清單中按一下已連線的產品名稱，將其新增至選取的記錄。 產品會自動新增。
+   * 開始輸入產品名稱，然後在產品顯示在清單中時按一下該名稱。 產品會自動新增。
+   * 按一下 **檢視全部** 以顯示所有產品。
+
+1. （視條件而定）如果您按一下 **全選** 在上一步中， **連線物件** 方塊隨即顯示。
+
+   ![](assets/connected-objects-table-for-records.png)
+
+1. 開始在搜尋方塊中輸入產品名稱，然後在其顯示在清單中時選取它
+
+   或
+
+   選取您要連線至Campaign記錄的產品記錄，然後按一下 **連線物件**.
+
+   >[!TIP]
+   >
+   >    您可以開啟行銷活動的「詳細資訊」頁面，找到連結的記錄欄位，然後按一下 **+** 圖示來從連線的產品記錄型別新增產品。
 
    Campaign記錄型別表格中會填入下列欄：
    * 此 **產品資訊** 欄位會針對所選產品的行銷活動記錄填入。
@@ -142,13 +161,32 @@ ht-degree: 0%
    >    連結物件欄位的前面會加上關聯圖示 ![](assets/relationship-field-icon.png).
 
 1. 從 **Campaign** 記錄型別表格檢視，在表格中新增一列以建立行銷活動。
-1. 按一下 **+** 圖示內  **專案資訊** 欄中新增行銷活動。 此 **連線物件** 方塊隨即顯示。 您要連結至的物件型別(Workfront專案)名稱會顯示在方塊的左上角。
 
-   ![](assets/connect-objects-box-to-select-projects.png)
+1. 在內按兩下  **專案資訊** 欄中新增行銷活動。
 
-1. 選取您要連線至Campaign記錄的專案，然後按一下 **連線物件**.
+   ![](assets/connect-projects-smaller-box-in-table.png)
 
-   下列專案會新增至選取的工作區：
+1. 執行下列其中一項：
+
+   * 從清單中按一下專案名稱，將其新增到所選記錄。 專案會自動新增。
+   * 開始輸入專案名稱，然後在專案顯示在清單中時按一下該專案。 專案會自動新增。
+   * 按一下 **檢視全部** 以顯示所有專案。
+
+1. （視條件而定）如果您按一下 **全選** 在上一步中， **連線物件** 方塊隨即顯示。
+
+   ![](assets/connect-projects-larger-box.png)
+
+1. 開始在搜尋方塊中輸入專案名稱，然後在清單中顯示時選取它
+
+   或
+
+   選取您要連線至Campaign記錄的Project記錄，然後按一下 **連線物件**.
+
+   >[!TIP]
+   >
+   >    您可以開啟行銷活動的詳細資訊頁面，找到連結的專案欄位，然後按一下 **+** 圖示來從連線的產品記錄型別新增專案。
+
+   這會將下列專案新增至選取的工作區：
 
    * 在Campaign記錄型別表中：
       * 此 **專案資訊** 欄位會針對選取的專案填入Campaign記錄。
@@ -165,7 +203,7 @@ ht-degree: 0%
    這會開啟唯讀的Maestro專案的 **詳細資料** 頁面。
 檢閱專案的相關資訊。 「詳細資訊」頁面中只會顯示選取的專案欄位。
 
-1. 如果您至少擁有專案的檢視許可權，請按一下畫面右上角的「前往來源」以在Workfront中開啟專案。
+1. 按一下 **移至來源** 如果您至少有專案的檢視許可權，可在畫面的右上角開啟Workfront中的專案。
 1. （選用）如果您有許可權，可更新Workfront中專案的相關資訊。
 
 1. 在Campaign表格檢視中，暫留在 **專案資訊** 欄位標題，並按一下向下箭頭，然後按一下 **編輯查閱欄位。**

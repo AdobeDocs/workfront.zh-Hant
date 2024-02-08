@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 420a9c24695f950ad191431ca6c6848b7649f3b1
+source-git-commit: 24975c463c93de61672f1986d82d1d6500133baa
 workflow-type: tm+mt
-source-wordcount: '3969'
+source-wordcount: '4110'
 ht-degree: 0%
 
 ---
@@ -65,22 +65,29 @@ ht-degree: 0%
 
 如需詳細資訊，請參閱  [編輯記錄](/help/quicksilver/maestro/records/edit-records.md).
 
-<!--
-### Improved experience when editing Single-select, Multi-select, People fields, and when adding connected objects
+### 改善編輯單選、多選、人物欄位及新增連線物件時的體驗
 
-Production: February 8, 2024 
+生產： 2024年2月8日
 
-Preview: To be determined 
+預覽：待定
 
-We have redesigned and improved the experience of adding options for Single-select, Multi-select, or People fields, and when adding connected objects to a record. With the new improvement, a smaller, more responsive box displays.  
- 
-For connected fields, you have the option of adding your objects by searching for them in the smaller box, or accessing the larger Connected objects box to view more information in addition to the objects' names.  
+我們重新設計和改善了為以下欄位型別新增選項或物件的體驗：
 
-The improvements are now available when updating fields in the table view of a record type.  
+* 單選
+* 多選
+* 人員
+* 連線的記錄欄位(當連線Maestro記錄型別或Workfront物件時)
 
-For more information, see [Connect records](/help/quicksilver/maestro/records/connect-records.md). 
+有了新的改進，最先顯示的是一個更小、回應更迅速的方塊。
 
--->
+對於已連線的欄位，您可以執行下列操作之一來新增它們：
+
+* 透過在表格檢視的清單中搜尋和選取物件，同時內聯編輯欄位，將物件新增到已連線的欄位
+* 按一下以開啟較大的「連線物件」方塊，您可在其中檢視所有專案名稱，以及有關專案的更多資訊。
+
+更新記錄型別表格檢視中的欄位時，現在可取得這些改善專案。
+
+如需詳細資訊，請參閱 [連線記錄](/help/quicksilver/maestro/records/connect-records.md).
 
 ## 2024年1月29日起一週
 
