@@ -1,13 +1,13 @@
 ---
 title: 檢視使用特定自訂欄位或Widget的所有報表
 description: 您可以在「自訂Forms」區域中新增自訂檢視，以顯示哪些報表正在使用特定自訂欄位或Widget。 當您需要編輯或刪除欄位或Widget時，這個用法很有用，因為它可能已在一個或多個報告中實作。 請務必評估這些報表是否需要調整，才能繼續正常運作。
-author: Caroline
+author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: eaafe79b-bdbc-4fb9-b449-23e5a4bc455a
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+source-git-commit: 35de4535970d5cd15fcd68f79bf849803f94a77e
 workflow-type: tm+mt
-source-wordcount: '817'
+source-wordcount: '776'
 ht-degree: 0%
 
 ---
@@ -27,38 +27,39 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader"> <p>Adobe Workfront計畫*</p> </td> 
+   <td role="rowheader"> <p>Adobe Workfront計畫</p> </td> 
    <td>任何</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront授權*</td> 
-   <td>計劃</td> 
+   <td role="rowheader">Adobe Workfront授權</td> 
+   <td>
+   <p>新增：標準</p>
+   <p>或</p>
+   <p>目前：計畫</p></td>
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">存取層級設定*</td> 
-   <td> <p>管理自訂表單的存取權</p> <p>如需Workfront管理員如何授予此存取許可權的詳細資訊，請參閱 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">授予使用者管理特定區域的存取權</a>.</p> </td> 
+   <td role="rowheader">存取層級設定</td> 
+   <td> <p>管理自訂表單的存取權</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;若要瞭解您擁有的計畫、授權型別或存取層級設定，請聯絡Workfront管理員。
+如需有關此表格的詳細資訊，請參閱 [Workfront檔案中的存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## 列出使用特定自訂欄位或Widget的報告
 
-1. 按一下 **主要功能表** 圖示 ![](assets/main-menu-icon.png) (位於Adobe Workfront的右上角)，然後按一下 **設定** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. 在左側面板中，按一下 **自訂Forms**.
-1. 開啟 **欄位** 索引標籤以顯示報告，其中列出Workfront執行個體中的所有自訂欄位和Widget。
+1. 按一下 **欄位** 顯示列出您Workfront執行個體中所有自訂欄位和Widget的報告。
 
-   ![](assets/fields-tab.png)
-
-1. 按一下 **檢視** 清單頂端標題中的下拉式功能表，然後檢查清單中是否有任何包含 **報表** 欄（不是此索引標籤上的預設欄）。
+1. 按一下 **檢視** 功能表，然後檢查清單中是否包含任何自訂檢視 **報表** 欄（不是此索引標籤上的預設欄）。
 
    「報表」欄是您檢視哪些報表正在使用系統中已新增至自訂表單的每個自訂欄位和Widget。 有人可能已經建立包含 **報表** 欄。
 
 1. 如果您沒有看到包含 **報表** 欄，建立包含它的新檢視：
 
-   1. 按一下 **檢視** 下拉式功能表，然後按一下 **新檢視**.
+   1. 按一下 **檢視** 功能表，然後按一下 **新檢視**.
 
    1. 在 **新檢視** 出現的頁面，在左上角附近的方塊中，取代 **新增引數檢視** 具有檢視的描述性名稱，例如 *欄位和Widget*.
 

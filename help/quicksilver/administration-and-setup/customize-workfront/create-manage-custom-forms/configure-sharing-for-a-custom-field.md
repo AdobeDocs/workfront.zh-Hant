@@ -4,18 +4,20 @@ product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
 title: 使用舊版表單產生器設定自訂欄位和Widget的共用
 description: 根據預設，當您新增自訂欄位或Widget至自訂表單時，系統中有權存取自訂表單的任何人都可以編輯該專案的屬性，例如其標籤和名稱。 您可以透過控制誰可以與其共用來變更此專案。
-author: Caroline
+author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: ae774e73-9798-40d1-a96d-a4511f729e7f
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+source-git-commit: 35de4535970d5cd15fcd68f79bf849803f94a77e
 workflow-type: tm+mt
-source-wordcount: '963'
-ht-degree: 2%
+source-wordcount: '942'
+ht-degree: 0%
 
 ---
 
 # 使用舊版表單產生器設定自訂欄位和Widget的共用
+
+{{highlighted-preview}}
 
 根據預設，當您新增自訂欄位或Widget至自訂表單時，系統中有權存取自訂表單的任何人都可以編輯該專案的屬性，例如其標籤和名稱。 您可以透過控制誰可以與其共用來變更此專案。
 
@@ -30,35 +32,38 @@ ht-degree: 2%
  <col> 
  <tbody> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader"> <p>Adobe Workfront計畫*</p> </td> 
+   <td role="rowheader"> <p>Adobe Workfront計畫</p> </td> 
    <td>任何</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront授權*</td> 
-   <td>計劃</td> 
+   <td role="rowheader">Adobe Workfront授權</td> 
+   <td>
+   <p>新增：標準</p>
+   <p>或</p>
+   <p>目前：計畫</p></td>
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">存取層級設定*</td> 
-   <td> <p>管理自訂表單的存取權</p> <p>如需Workfront管理員如何授予此存取許可權的詳細資訊，請參閱 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">授予使用者管理特定區域的存取權</a>.</p> </td> 
+   <td role="rowheader">存取層級設定</td> 
+   <td> <p>管理自訂表單的存取權</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;若要瞭解您擁有的計畫、授權型別或存取層級設定，請聯絡Workfront管理員。
+如需有關此表格的詳細資訊，請參閱 [Workfront檔案中的存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## 設定自訂欄位或Widget的共用
 
-1. 按一下 **主要功能表** 圖示 ![](assets/main-menu-icon.png) (位於Adobe Workfront的右上角)，然後按一下 **設定** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. 在左側面板中，按一下 **自訂Forms**.
 1. 如果您在貴組織的Workfront例項中為自訂欄位或Widget設定共用，請執行以下操作：
 
-   1. 按一下 **欄位** 標籤。
-   1. 選取您要設定共用的專案，然後按一下 **共用**.
+   1. 按一下 **欄位** 以開啟「欄位」區域。
+   1. 選取您要設定共用的專案，然後按一下 **共用** <span class="preview">或 ![「共用」圖示](assets/share-icon.png).</span>
 
    或者，如果您要設定現有自訂表單中自訂欄位或Widget的共用，請執行下列動作：
 
-   1. 選取自訂表格，然後按一下 **編輯**.
+   1. 選取自訂表格，然後按一下 **編輯** <span class="preview">或 ![編輯圖示](assets/edit-icon.png).</span>
    1. 在右側的表單編輯區域中，選取您要設定共用的專案。
    1. 在左側面板中，按一下 **共用欄位**.
 
@@ -96,11 +101,11 @@ ht-degree: 2%
 
      當您新增自訂欄位或Widget且您未限制其共用時，系統中有權存取自訂表單的所有人都可以檢視並編輯其屬性。
 
-   * **移除系統範圍編輯存取權限。**
+   * **移除系統範圍編輯存取權**
 
      限制只有您已新增至清單的使用者才可存取。
 
-   * **使其在整個系統內都可見，以便 Workfront 中的每個人都可以看到它**
+   * **使其在整個系統內可見，讓Workfront中的每個人都可以看到它**
 
 1. 按一下 **儲存** 或 **儲存+關閉**.
 

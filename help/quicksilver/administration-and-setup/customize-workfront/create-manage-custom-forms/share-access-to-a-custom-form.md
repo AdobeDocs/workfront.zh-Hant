@@ -4,18 +4,20 @@ user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
 description: 您可以設定自訂表單的存取權，以控制誰（人員、角色、群組、團隊、公司）可以檢視、共用及編輯該表單。
-author: Caroline
+author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: a264512f-54ab-426e-8dd7-5602ece81c57
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+source-git-commit: 35de4535970d5cd15fcd68f79bf849803f94a77e
 workflow-type: tm+mt
-source-wordcount: '884'
+source-wordcount: '848'
 ht-degree: 1%
 
 ---
 
 # 共用自訂表格
+
+{{highlighted-preview}}
 
 您可以設定自訂表單的存取權，以控制誰（人員、角色、群組、團隊、公司）可以檢視、共用及編輯該表單。
 
@@ -28,21 +30,24 @@ ht-degree: 1%
  <col> 
  <tbody> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader"> <p>Adobe Workfront計畫*</p> </td> 
+   <td role="rowheader"> <p>Adobe Workfront計畫</p> </td> 
    <td>任何</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront授權*</td> 
-   <td>計劃</td> 
+   <td role="rowheader">Adobe Workfront授權</td> 
+   <td>
+   <p>新增：標準</p>
+   <p>或</p>
+   <p>目前：計畫</p></td>
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">存取層級設定*</td> 
-   <td> <p>管理自訂表單的存取權</p> <p>如需Workfront管理員如何授予此存取許可權的詳細資訊，請參閱 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref" data-mc-variable-override="">授予使用者管理特定區域的存取權</a>.</p> </td> 
+   <td role="rowheader">存取層級設定</td> 
+   <td> <p>管理自訂表單的存取權</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;若要瞭解您擁有的計畫、授權型別或存取層級設定，請聯絡Workfront管理員。
+如需有關此表格的詳細資訊，請參閱 [Workfront檔案中的存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## 存取自訂表格 {#access-to-custom-forms}
 
@@ -57,10 +62,10 @@ ht-degree: 1%
 
 而不是將自訂表單留在預設共用狀態（如所述） [存取自訂表格](#access-to-custom-forms) 在本文中)，您可以為特定使用者、工作角色、群組、團隊和公司設定表單的特定存取層級。
 
-1. 按一下 **主要功能表** 圖示 ![](assets/main-menu-icon.png) (位於Adobe Workfront的右上角)，然後按一下 **設定** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. 在左側面板中，按一下 **自訂Forms**.
-1. 選取自訂表格，然後按一下 **共用**.
+1. 選取自訂表格，然後按一下 **共用** <span class="preview">或 ![「共用」圖示](assets/share-icon.png).</span>
 1. 在顯示的方塊中，在 **授予自訂表單存取權**，開始輸入您要與其共用自訂表單的使用者、團隊、工作角色、群組或公司名稱，然後按下 **輸入** 名稱顯示時。
 1. 若要調整您剛新增的使用者、團隊、工作角色、群組或公司的存取權，請按一下名稱右側的下拉式功能表，然後設定下列其中一個可用選項及其任何進階設定：
 
@@ -102,14 +107,14 @@ ht-degree: 1%
    >   
    >如果您擔心自訂表單，當使用者將敏感資料附加至特定物件時，可能會在該表單中輸入資料，因此限制這些物件的共用 *物件* 比起限制表單本身的存取權，可能會更好。
 
-1. 按一下&#x200B;**儲存**。
+1. 按一下「**儲存**」。
 
 ## 移除對自訂表單的存取權
 
-1. 按一下 **主要功能表** 圖示 ![](assets/main-menu-icon.png) (位於Adobe Workfront的右上角)，然後按一下 **設定** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. 在左側面板中，按一下 **自訂Forms**.
-1. 選取自訂表格，然後按一下 **共用**.
+1. 選取自訂表格，然後按一下 **共用** <span class="preview">或 ![「共用」圖示](assets/share-icon.png).</span>
 1. 在顯示的方塊中，按一下您不想再擁有表單特殊存取許可權的使用者、團隊、角色、群組或公司名稱右側的X。
 1. （可選）對要移除的其他名稱重複上一步驟至。
-1. 按一下&#x200B;**儲存**。
+1. 按一下「**儲存**」。

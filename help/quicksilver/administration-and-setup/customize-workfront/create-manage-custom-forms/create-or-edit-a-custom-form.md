@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 5712e82d-bd1d-4d8a-9a2a-1e19b562b9d1
-source-git-commit: 8af1890b2e2ae613279b5191cf8f2190364fb524
+source-git-commit: 35de4535970d5cd15fcd68f79bf849803f94a77e
 workflow-type: tm+mt
-source-wordcount: '922'
+source-wordcount: '895'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,8 @@ ht-degree: 0%
 # 使用舊版表單產生器建立或編輯自訂表單
 
 <!--Audited: 01/2024-->
+
+{{highlighted-preview}}
 
 您可以建立或編輯新的自訂表格。 本文會說明這兩項工作。
 
@@ -34,23 +36,23 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader"> <p>Adobe Workfront計畫*</p> </td> 
+   <td role="rowheader"> <p>Adobe Workfront計畫</p> </td> 
    <td>任何</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront授權*</td> 
+   <td role="rowheader">Adobe Workfront授權</td> 
    <td><p>新增：標準</p>
+   <p>或</p>
    <p>目前：計畫</p></td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">存取層級設定*</td> 
-   <td> <p>管理自訂表單的存取權</p> <p>如需Workfront管理員如何授予此存取許可權的詳細資訊，請參閱 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">授予使用者管理特定區域的存取權</a>.</p> </td> 
+   <td role="rowheader">存取層級設定</td> 
+   <td> <p>管理自訂表單的存取權</p> </td> 
   </tr>  
  </tbody> 
 </table>
 
-&#42;若要瞭解您擁有的計畫、授權型別或存取層級設定，請聯絡Workfront管理員。 如需存取需求的詳細資訊，請參閱 [Workfront檔案中的存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
-
+如需有關此表格的詳細資訊，請參閱 [Workfront檔案中的存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## 開始建立自訂表單
 
@@ -110,7 +112,7 @@ ht-degree: 0%
 
    自訂表單會顯示在清單中。 您可以檢閱為您的組織建立的所有自訂表單和自訂欄位。 您也可以檢視每個表單的建立者、與其相關聯的物件，以及表單是否處於作用中狀態。
 
-1. 選取您要編輯的自訂表單，然後按一下 **編輯**.
+1. 選取您要編輯的自訂表單，然後按一下 **編輯** <span class="preview">或 ![編輯圖示](assets/edit-icon.png).</span>
 1. （可選）若要變更自訂表單的標題和說明，請按一下 **表單設定** 標籤，然後輸入 **表單標題** 和 **說明**.
 
 1. （選擇性）如果您想要將更多物件型別新增至表單，以便將其附加至更多物件，請按一下加號+之後 **物件型別**，然後在顯示的功能表中選取您想要的型別。
