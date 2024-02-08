@@ -3,9 +3,9 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文件、教學課程和其他資源，了解如何在您的組織中實施並有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: ce957a06275b437272cf00769783e0c8a0918e85
+source-git-commit: cd281e0dc91a2b39f54ceea674b36940ffb06a13
 workflow-type: tm+mt
-source-wordcount: '13926'
+source-wordcount: '13930'
 ht-degree: 1%
 
 ---
@@ -463,7 +463,7 @@ ht-degree: 1%
    * 使用者管理 {#add-users}
       * [使用者管理：文章索引](administration-and-setup/add-users/add-users.md)
       * 建立和管理使用者 {#create-manage-users}
-         * [管理使用者](administration-and-setup/add-users/create-and-manage-users/create-and-manage-users.md)
+         * [建立和管理使用者：文章索引](administration-and-setup/add-users/create-and-manage-users/create-and-manage-users.md)
          * [新增使用者](administration-and-setup/add-users/create-and-manage-users/add-users.md)
          * [匯入使用者](administration-and-setup/add-users/create-and-manage-users/import-users.md)
          * [編輯使用者設定檔](administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md)

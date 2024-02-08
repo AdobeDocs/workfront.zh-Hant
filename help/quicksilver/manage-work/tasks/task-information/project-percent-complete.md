@@ -2,119 +2,117 @@
 content-type: overview
 product-area: projects
 navigation-topic: task-information
-title: 專案完成百分比概觀
-description: 項目的「完成百分比」值是根據項目中的「計畫持續時間」或「計畫小時數」來計算的。 您的Adobe Workfront管理員或群組管理員會定義在「專案偏好設定」區域中設定資訊時，在計算系統完成百分比時要考慮哪個值。 有關配置項目首選項的資訊，請參閱配置全系統項目首選項。
+title: 專案完成百分比總覽
+description: 專案的完成百分比值是根據專案中任務的規劃期間或規劃時數來計算。 您的Adobe Workfront管理員或群組管理員會定義在系統中計算完成百分比時，在「專案偏好設定」區域中設定資訊時要考慮的值。 如需有關設定專案偏好設定的資訊，請參閱設定系統範圍的專案偏好設定。
 author: Alina
 feature: Work Management
 exl-id: d2395569-9fe5-42e7-a392-cff49eb519d9
-source-git-commit: 31533bd7ee1890a8343d32770d623d5d9a6007d2
+source-git-commit: 816fd70642ffb7b24095602ce160421aa947e2a6
 workflow-type: tm+mt
-source-wordcount: '783'
+source-wordcount: '778'
 ht-degree: 0%
 
 ---
 
-# 專案完成百分比概觀
+# 專案完成百分比總覽
 
-項目的「完成百分比」值是根據項目中任務的「持續時間」或「計畫小時數」計算的。 您的Adobe Workfront管理員或群組管理員會定義在「專案偏好設定」區域中設定資訊時，在計算系統完成百分比時要考慮哪個值。
+<!-- Audited 01/2024 -->
 
-如需設定專案偏好設定的相關資訊，請參閱 [配置系統範圍的項目首選項](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+專案的完成百分比值是根據專案中任務的期間或計畫時數而計算的。 您的Adobe Workfront管理員或群組管理員會定義在系統中計算完成百分比時，在「專案偏好設定」區域中設定資訊時要考慮的值。
 
-父任務的「完成百分比」基於其每個子任務的「持續時間」或「計畫小時數」。
+如需有關設定專案偏好設定的資訊，請參閱 [設定全系統專案偏好設定](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
-同樣，項目的「完成百分比」也基於項目中每個主要任務的持續時間或計畫小時數。
+父系任務的完成百分比取決於其每個子任務的期間或計畫時數。
 
-主要任務是父任務和沒有子任務的獨立任務。
+同樣地，專案的完成百分比是根據專案中每個主要任務的持續時間或計畫時數。
+
+主要任務是父系任務及沒有子系的獨立任務。
 
 >[!TIP]
 >
->主要任務在項目計畫中不會縮進。
+>主要任務未在專案計畫中縮排。
 
-## Workfront如何計算完成百分比
-
-* [更新任務的完成百分比](#update-the-percent-complete-on-a-task)
-* [Workfront如何計算父任務的完成百分比](#how-workfront-calculates-percent-complete-on-a-parent-task)
-* [Workfront如何計算專案的完成百分比](#how-workfront-calculates-percent-complete-on-a-project)
+## Workfront計算完成百分比的方式
 
 ### 更新任務的完成百分比 {#update-the-percent-complete-on-a-task}
 
 您可以手動修改任務的完成百分比。 這不是計算。
 
-Workfront使用個別任務的完成百分比來計算其父任務的完成百分比或專案的完成百分比。
+Workfront使用個別任務的完成百分比來計算其上層任務的完成百分比或專案的完成百分比。
 
-有關更新任務完成百分比的資訊，請參閱 [查看和更新任務的完成百分比](../../../manage-work/projects/updating-work-in-a-project/view-update-percent-complete-for-tasks.md).
+如需有關更新任務完成百分比的資訊，請參閱 [檢視並更新任務的完成百分比](../../../manage-work/projects/updating-work-in-a-project/view-update-percent-complete-for-tasks.md).
 
-### Workfront如何計算父任務的完成百分比 {#how-workfront-calculates-percent-complete-on-a-parent-task}
+### Workfront如何計算父系任務的完成百分比 {#how-workfront-calculates-percent-complete-on-a-parent-task}
 
-根據您的Workfront或組管理員在系統或組級別的「項目首選項」中選擇的項目，父任務的完成百分比將根據任務的持續時間或計畫小時計算。
+根據您的Workfront或群組管理員在系統或群組層級的「專案偏好設定」中所選取的專案，系統會根據任務的期間或計畫時數計算父任務的完成百分比。
 
 請考量下列情況：
 
-* 如果系統根據計畫小時計算完成百分比，則父任務完成百分比將使用以下公式計算：
+* 如果系統根據計畫時數計算完成百分比，則父級任務完成百分比會使用下列公式計算：
 
-   `Parent Task Percent Complete = (((Task 1 Planned Hours * Task 1 Percent Complete) + (Task 2 Planned Hours * Task 2 Percent Complete))/Total Planned Hours of Parent)*100`
+  `Parent Task Percent Complete = (((Task 1 Planned Hours * Task 1 Percent Complete) + (Task 2 Planned Hours * Task 2 Percent Complete))/Total Planned Hours of Parent)*100`
 
-   父代的「總計畫小時數」表示每個子代的所有「計畫小時數」的總和。
+  父系的計畫時數總計表示每個子系的所有計畫時數總和。
 
-   ![](assets/project-with-tasks-percent-complete-planned-hours-calculation.png)
+  ![](assets/project-with-tasks-percent-complete-planned-hours-calculation.png)
 
-* 如果系統根據「持續時間」計算完成百分比，則父任務完成百分比將使用以下公式計算：
+* 如果系統根據「工期」計算完成百分比，則使用下列公式計算父級任務完成百分比：
 
-   `Parent Task Percent Complete = (((Task 1 Duration * Task 1 Percent Complete) + (Task 2 Duration * Task 2 Percent Complete))/ Total Duration of Parent)*100`
+  `Parent Task Percent Complete = (((Task 1 Duration * Task 1 Percent Complete) + (Task 2 Duration * Task 2 Percent Complete))/ Total Duration of Parent)*100`
 
-   ![](assets/project-with-tasks-percent-complete-duration-calculation.png)
+  ![](assets/project-with-tasks-percent-complete-duration-calculation.png)
 
-   >[!IMPORTANT]
-   >
-   >父任務的總持續時間是子任務的所有持續時間的總計。 例如，父項任務（具有兩個子項，各自的持續時間為1天和2天）的總持續時間為3天，即使兩個子項可以在同一天開始也是如此。
+  >[!IMPORTANT]
+  >
+  >「父系任務的總持續時間」是子系任務的所有持續時間的總計。 例如，如果父系任務有兩個子系且各自的「持續時間」為1天和2天，則其「總持續時間」為3天，即使兩個子系可以在同一天開始。
 
 
-### Workfront如何計算專案的完成百分比 {#how-workfront-calculates-percent-complete-on-a-project}
+### Workfront計算專案完成百分比的方式 {#how-workfront-calculates-percent-complete-on-a-project}
 
-根據您的Workfront或組管理員在系統或組級別的「項目首選項」中選擇的項目完成百分比，將根據項目上主要任務的「持續時間」或「計畫小時數」計算項目完成百分比。
+根據您的Workfront或群組管理員在系統或群組層級的「專案偏好設定」中所選取的專案，專案的完成百分比會根據專案上主要任務的期間或計畫時數計算。
 
-* 如果系統根據計畫小時計算完成百分比，則使用以下公式計算項目完成百分比：
+* 如果系統根據計畫時數計算完成百分比，則專案完成百分比會使用下列公式計算：
 
-   `Project Percent Complete =(((Task 1 Planned Hours * Task 1 Percent Complete) + (Task 2 Planned Hours * Task 2 Percent Complete))/Total Planned Hours of the Project)*100`
+  `Project Percent Complete =(((Task 1 Planned Hours * Task 1 Percent Complete) + (Task 2 Planned Hours * Task 2 Percent Complete))/Total Planned Hours of the Project)*100`
 
-   項目的「總計計畫時數」是項目上所有主要任務的「計畫時數」的總和。
+  專案的總計畫時數是專案上所有主要任務的計畫時數總和。
 
-   ![](assets/project-with-tasks-percent-complete-planned-hours-calculation.png)
+  ![](assets/project-with-tasks-percent-complete-planned-hours-calculation.png)
 
-   >[!NOTE]
-   >
-   >任務1或任務2隻能是父任務或獨立任務。 此計算中不使用子任務的「計畫小時數」和「完成百分比」。
+  >[!NOTE]
+  >
+  >任務1或任務2隻能是父系任務或獨立任務。 此計算中未使用子系任務的計畫時數和完成百分比。
 
-* 如果系統根據持續時間計算完成百分比，則使用以下公式計算項目完成百分比：
+* 如果系統根據「持續時間」計算完成百分比，則使用下列公式計算專案完成百分比：
 
-   `Project Percent Complete = (((Task 1 Duration * Task 1 Percent Complete) + (Task 2 Duration * Task 2 Percent Complete))/Duration of the Project)*100`
+  `Project Percent Complete = (((Task 1 Duration * Task 1 Percent Complete) + (Task 2 Duration * Task 2 Percent Complete))/Duration of the Project)*100`
 
-   >[!IMPORTANT]
-   >
-   >「專案持續時間」是顯示完成百分比之主要任務的所有持續時間總計。 例如，如果項目的獨立任務的持續時間為2天，父任務的持續時間為5天，並且已完成了工作，則該項目的總持續時間為7天，即使這兩個任務可以在同一天開始。
+  >[!IMPORTANT]
+  >
+  >專案期間是顯示完成百分比之主要任務的所有期間總數。 例如，如果專案具有持續時間為2天的獨立任務，以及持續時間為5天的父任務，且已完成其工作，則專案的總持續時間為7天，即使這兩個任務可以在同一天開始。
 
-   ![](assets/project-with-tasks-percent-complete-duration-calculation.png)
+  ![](assets/project-with-tasks-percent-complete-duration-calculation.png)
 
-   >[!NOTE]
-   >
-   >任務1或任務2隻能是父任務或獨立任務。 此計算中不使用子任務的持續時間和完成百分比。
+  >[!NOTE]
+  >
+  >任務1或任務2隻能是父系任務或獨立任務。 此計算中不會使用子系任務的持續期間和完成百分比。
 
-## 使用持續時間的專案完成百分比範例
+## 使用期間的專案完成百分比範例
 
-使用任務的持續時間來計算項目完成百分比時，請考慮以下示例：
+使用任務的期間來計算專案完成百分比時，請考慮以下範例：
 
 ![](assets/project-with-tasks-percent-complete-duration-calculation.png)
 
-以下資訊用於計算專案的完成百分比
+下列資訊可用來計算專案的完成百分比
 
-* 獨立任務完成百分比（任務1 - 20%）
-* 父任務完成百分比（任務2 - 25%）
-* 任務1的持續時間（5天）
-* 任務2的持續時間（2天）
-* 專案持續時間（7天）
+* 獨立任務的完成百分比（任務1 - 20%）
+* 父系任務的完成百分比（任務2 - 25%）
+* 任務1的期間（5天）
+* 任務2的期間（2天）
+* 專案期間（7天）
 
 
-要使用持續時間計算項目完成百分比，請執行以下操作：
+若要使用「持續時間」計算專案的完成百分比：
 
 `Project Percent Complete = (((Task 1 Duration * Task 1 Percent Complete) + (Task 2 Duration * Task 2 Percent Complete))/Duration of the Project)*100`
 

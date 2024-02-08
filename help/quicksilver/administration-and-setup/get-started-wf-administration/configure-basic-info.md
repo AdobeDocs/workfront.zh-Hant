@@ -2,28 +2,30 @@
 user-type: administrator
 product-area: system-administration;setup
 navigation-topic: start-with-workfront-administration
-title: 配置系統的基本資訊
-description: 在設定Adobe Workfront系統時，您可以在客戶資訊頁面的基本資訊區段中管理組織的詳細資訊。
-author: Caroline
+title: 設定系統的基本資訊
+description: 在設定Adobe Workfront系統時，您可以在客戶資訊頁面的「基本資訊」區段中管理有關組織的詳細資訊。
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: bad5e700-79a6-49ed-bcf9-f0b5b3eaa909
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 5f11e6ccda9fa3b37ec1300edb8f322521013a52
 workflow-type: tm+mt
-source-wordcount: '897'
-ht-degree: 2%
+source-wordcount: '821'
+ht-degree: 1%
 
 ---
 
-# 配置系統的基本資訊
+# 設定系統的基本資訊
+
+<!-- Audited: 2/2024 -->
 
 <!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.</p>-->
 
-在設定Adobe Workfront系統時，您可以在客戶資訊頁面的基本資訊區段中管理組織的詳細資訊。
+在設定Adobe Workfront系統時，您可以在客戶資訊頁面的「基本資訊」區段中管理有關組織的詳細資訊。
 
 ## 存取需求
 
-您必須具備下列存取權，才能執行本文中的步驟：
+您必須具有下列存取權才能執行本文中的步驟：
 
 <table style="table-layout:auto"> <col> 
  <col> 
@@ -34,102 +36,105 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront授權</td> 
-   <td>計劃</td> 
+   <td>
+   <p>新增：標準</p>
+   或
+   <p>目前：計畫</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">訪問級別配置</td> 
-   <td> <p>您必須是Workfront管理員。 如需詳細資訊，請參閱 <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">授予使用者完整的管理存取權</a>.</p> <p><b>注意</b>:如果您仍無權存取，請洽詢您的Workfront管理員，他們是否在您的存取層級設定其他限制。 如需Workfront管理員如何修改您的存取層級的詳細資訊，請參閱 <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>.</p> </td> 
+   <td role="rowheader">存取層級設定</td> 
+   <td> <p>您必須是Workfront管理員。</p></td> 
   </tr> 
  </tbody> 
 </table>
 
 ## 存取客戶資訊
 
-客戶代表貴組織的Workfront例項。 您身為Workfront的客戶，所在區域中的選項都是專屬的。
+客戶代表貴組織的Workfront執行個體。 身為Workfront的客戶，此區域的選項是您專屬的。
 
 若要存取「客戶資訊」頁面：
 
-1. 按一下 **主菜單** 圖示 ![](assets/main-menu-icon.png) 在Adobe Workfront的右上角，然後按一下 **設定** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. 在左側面板中，按一下 **系統** > **客戶資訊**.
 
-   根據您已購買的Workfront計畫，「客戶資訊」頁面可能會遺漏某些區段。 如果您需要了解貴組織使用的Workfront計畫，請連絡您的客戶代表。
+   根據您購買的Workfront計畫，客戶資訊頁面中可能會遺漏某些區段。 如果您需要瞭解您的組織使用哪個Workfront計畫，請聯絡客戶代表。
 
-   「客戶資訊」區域中可用的區段為：
+   「客戶資訊」區域中提供的區段包括：
 
    * **基本資訊**
 
-      如需在Workfront中設定基本資訊的詳細資訊，請參閱 [配置基本資訊](#configure-basic-info).
+     如需在Workfront中設定基本資訊的詳細資訊，請參閱 [設定基本資訊](#configure-basic-info).
 
-   * **API 金鑰設定**
+   * **API金鑰設定**
 
-      如需API金鑰設定的相關資訊，請參閱 [管理API金鑰](../../administration-and-setup/manage-workfront/security/manage-api-keys.md).
+     如需API金鑰設定的相關資訊，請參閱 [管理API金鑰](../../administration-and-setup/manage-workfront/security/manage-api-keys.md).
 
-   * **IP 允許清單**
+   * **IP允許清單**
 
-      如需將IP位址新增至您允許清單，供您的使用者存取Workfront的相關資訊，請參閱 [配置防火牆的允許清單](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).
+     如需有關將IP位址新增至您的允許清單(您的使用者可透過該清單存取Workfront)的資訊，請參閱 [設定防火牆的允許清單](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).
 
    * **授權**
 
-      有關許可證的資訊，請參閱 [管理系統中的可用許可證](../../administration-and-setup/get-started-wf-administration/manage-available-licenses-in-your-system.md).
+     如需授權的相關資訊，請參閱 [管理系統中的可用授權](../../administration-and-setup/get-started-wf-administration/manage-available-licenses-in-your-system.md).
 
-## 配置基本資訊 {#configure-basic-info}
+## 設定基本資訊 {#configure-basic-info}
 
-在「客戶資訊」頁面的「基本資訊」區域內，有關客戶的部分詳細資訊由Workfront設定，並以唯讀模式顯示。 您可以設定其他詳細資訊。 您可以在此區域編輯的任何選項，都會對Workfront中的所有使用者產生全域影響。
+在「客戶資訊」頁面的「基本資訊」區域中，Workfront會設定有關客戶的一些詳細資料，這些詳細資料將以唯讀模式顯示。 其他詳細資料可由您設定。 您可以在此區域中編輯的任何選項都會對Workfront中的所有使用者產生全域影響。
 
 若要在「客戶資訊」區域中設定「基本資訊」區段：
 
-1. 按一下 **主菜單** 圖示 ![](assets/main-menu-icon.png) 在Adobe Workfront的右上角，然後按一下 **設定** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. 在左側面板中，按一下 **系統** > **客戶資訊**.
 
-1. 在 **基本資訊** 區段 **客戶資訊** 頁面，找到下列關於您使用Workfront的例項的資訊：
+1. 在 **基本資訊** 區段在頂端 **客戶資訊** 頁面上，尋找有關您使用Workfront執行個體的下列資訊：
 
    <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">名稱</td> 
-      <td>組織的名稱，也與公司的名稱相符。 此項目由Workfront新增，且無法編輯。</td> 
+      <td role="rowheader">姓名</td> 
+      <td>組織名稱，也會符合公司的名稱。 此專案由Workfront新增，無法編輯。</td> 
      </tr> 
      <tr> 
       <td role="rowheader">群集設定 </td> 
-      <td>實例的群集號。</td> 
+      <td>您執行個體的叢集編號。</td> 
      </tr> 
      <tr> 
       <td role="rowheader">管理員電子郵件</td> 
-      <td> <p>Workfront管理員的電子郵件地址。 您可以編輯此欄位，以符合您其中一位Workfront管理員的電子郵件地址。 與此電子郵件地址相關聯的使用者被視為您的Workfront系統的主要Workfront管理員。 來自Workfront的任何網站範圍通訊都會導向至此電子郵件地址，因此請務必持續更新。</p> <p><b>注意</b>:您無法停用、刪除或變更與管理員電子郵件相關聯的使用者的存取層級。</p> </td> 
+      <td> <p>Workfront管理員的電子郵件地址。 您可以編輯此欄位以符合其中一個Workfront管理員的電子郵件地址。 與此電子郵件地址相關聯的使用者會視為Workfront系統的主要Workfront管理員。 來自Workfront的任何全網站通訊都會導向此電子郵件地址，因此保持更新非常重要。</p> <p><b>注意</b>：您無法停用、刪除或變更與管理員電子郵件相關聯之使用者的存取層級。</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">網域</td> 
-      <td> <p>建立帳戶時，網域由Workfront設定。</p> <p>網域會在您用來存取Workfront的URL中識別您的唯一子網域。<p>例如，如果貴組織已獲派「mycompany」網域，則您用來存取Workfront的URL為 <i>https://mycompany.my.workfront.com。</i></p><p>您無法自行編輯網域。 如果您想要變更網域，請聯絡Workfront客戶支援。 如需聯絡Workfront客戶支援的詳細資訊，請參閱 <a href="../../workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md" class="MCXref xref">聯絡客戶支援</a>.</p> </td> 
+      <td> <p>網域是在建立帳戶時由Workfront設定。</p> <p>網域會識別您用來存取Workfront之URL的唯一子網域。<p>例如，如果您的組織已被指派網域「mycompany」，則您用來存取Workfront的URL為 <i>https://mycompany.my.workfront.com.</i></p><p>您無法自行編輯網域。 如果您想要變更網域，請聯絡Workfront客戶支援。 如需聯絡Workfront客戶支援的詳細資訊，請參閱 <a href="../../workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md" class="MCXref xref">聯絡客戶支援</a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">時區</td> 
-      <td> <p>這是您Workfront執行個體的預設時區。 您可以編輯此欄位，以符合主要Workfront位置的時區。 您選取的時區會決定下列項目： </p> 
+      <td> <p>這是Workfront執行個體的預設時區。 您可以編輯此欄位以符合主要Workfront位置的時區。 您選取的時區會決定下列專案： </p> 
        <ul> 
-        <li>傳出電子郵件中顯示的日期和時間</li> 
+        <li>外寄電子郵件中顯示的日期和時間</li> 
         <li>新使用者建立時的預設時區</li> 
-       </ul> <p>使用者可在其設定檔下修改其Workfront例項的時區。 當使用者修改其時區時，來自Workfront的電子郵件中的日期和時間會符合其設定檔偏好設定。 有關修改用戶配置檔案首選項的詳細資訊，請參閱 <a href="../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md" class="MCXref xref">配置我的設定</a>. 建立新計畫時，系統會將其選為預設時區。 如需建立排程的詳細資訊，請參閱 <a href="../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md" class="MCXref xref">建立排程</a>.</p> <p>如需如何使用排程來協助使用者在Workfront中跨時區進行共同作業的詳細資訊，請參閱 <a href="../../workfront-basics/tips-tricks-and-troubleshooting/working-across-timezones.md" class="MCXref xref">跨時區工作</a>.</p> </td> 
+       </ul> <p>使用者可以在個人資料下修改其Workfront執行個體的時區。 當使用者修改他們的時區時，他們來自Workfront的電子郵件中的日期和時間符合他們的設定檔偏好設定。 如需有關修改使用者設定檔偏好設定的詳細資訊，請參閱 <a href="../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md" class="MCXref xref">設定我的設定</a>. 當您建立新排程時，系統會選取預設時區作為預設時區。 如需建立排程的詳細資訊，請參閱 <a href="../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md" class="MCXref xref">建立排程</a>.</p> <p>如需使用排程協助使用者在Workfront中跨時區共同作業的相關資訊，請參閱 <a href="../../workfront-basics/tips-tricks-and-troubleshooting/working-across-timezones.md" class="MCXref xref">跨時區工作</a>.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">地區</td> 
-      <td>控制傳出電子郵件中使用的語言、日期和數字格式。 新建用戶時，此處選擇的區域設定為預設值。 用戶可以在其用戶配置檔案中修改其區域設定。 當使用者修改其地區設定時，來自Workfront的電子郵件中的語言、日期和數字格式會符合其設定檔偏好設定。 如需修改設定檔偏好設定的詳細資訊，請參閱 <a href="../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md" class="MCXref xref">配置我的設定</a>.</td> 
+      <td role="rowheader">語系設定</td> 
+      <td>控制用於外寄電子郵件訊息的語言、日期和數字格式。 此處選取的地區設定是建立新使用者時的預設設定。 使用者可以在他們的使用者設定檔中修改他們的地區設定。 當使用者修改他們的地區設定時，他們來自Workfront的電子郵件中的語言、日期和數字格式符合他們的設定檔偏好設定。 如需有關修改設定檔偏好設定的詳細資訊，請參閱 <a href="../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md" class="MCXref xref">設定我的設定</a>.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">儲存配額</td> 
-      <td> <p>這是Workfront執行個體中可用的檔案儲存空間量。<br>配額包含您直接上傳至Workfront的檔案。<br>其中不包含：</p> 
+      <td> <p>這是您的Workfront執行個體中可用的檔案儲存空間量。<br>配額包含您直接上傳至Workfront的檔案。<br>其中不包含：</p> 
        <ul> 
-        <li>您從任何其他協力廠商服務提供者(SharePoint、Google Drive、Webdam、Box、Dropbox、任何其他檔案資產管理提供者)連結至Workfront的檔案。</li> 
-        <li>您的Workfront資料（專案、工作、問題、使用者等）。</li> 
+        <li>從任何其他第三方服務提供者(SharePoint、Google Drive、Webdam、Box、Dropbox、任何其他檔案資產管理提供者)連結至Workfront的檔案。</li> 
+        <li>您的Workfront資料（專案、任務、問題、使用者等）。</li> 
        </ul> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">產品版本</td> 
-      <td>這是指派給您的Workfront例項類型。 大多數Workfront客戶的產品版本為 <strong>企業</strong>.</td> 
+      <td>這是指派給您的Workfront執行個體型別。 大部分Workfront客戶的產品版本為 <strong>企業</strong>.</td> 
      </tr> 
     </tbody> 
    </table>
 
-1. 按一下&#x200B;**儲存**。
+1. 按一下「**儲存**」。

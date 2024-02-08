@@ -7,7 +7,7 @@ description: 使用文字模式在Adobe Workfront中建立計算的自訂資料�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: ce98ca39-cb86-4ef7-b75c-29ceb916e885
-source-git-commit: 3e1e651662f9ff695d475ffcbdc77f0802d108f1
+source-git-commit: 639a696c19d79cf2415a45ccb9849ec183fb0bb8
 workflow-type: tm+mt
 source-wordcount: '718'
 ht-degree: 1%
@@ -16,9 +16,9 @@ ht-degree: 1%
 
 # 計算自訂欄位中的條件運運算元
 
-使用文字模式在Adobe Workfront中建立計算的自訂資料時，您可以使用條件運運算元或修飾元。
+<!-- Audited: 2/2024 -->
 
-如需有關在Workfront中使用文字模式的資訊，請參閱 [文字模式概觀](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).
+使用文字模式在Adobe Workfront中建立計算的自訂資料時，您可以使用條件運運算元或修飾元。 如需有關在Workfront中使用文字模式的資訊，請參閱 [文字模式概觀](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).
 
 條件運運算元或修飾元可連線陳述式中現有的Workfront欄位並產生新欄位，有助於建立條件陳述式。 條件運運算元最常見的用法是建置「IF」陳述式的條件。
 
@@ -86,7 +86,7 @@ ht-degree: 1%
      <li>不等於： ！= </li> 
     </ul> <p>在下列資料運算式前面新增此運運算元，會在運算式中新增負值陳述式： </p> 
     <ul> 
-     <li>包含 </li> 
+     <li>CONTAINS </li> 
      <li>在 </li> 
      <li>IFIN </li> 
      <li>ISBLANK </li> 
