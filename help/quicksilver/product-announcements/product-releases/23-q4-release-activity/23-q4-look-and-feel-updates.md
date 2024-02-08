@@ -6,9 +6,9 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: c18a5ff5-ac84-43a3-8980-ddadea3c2677
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: 91cb2fd85089a081192c85e373938a03a795a54b
 workflow-type: tm+mt
-source-wordcount: '287'
+source-wordcount: '299'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->預覽版本： 2023年11月1日；適用於所有客戶的生產版本： 11月1日
+>預覽版本： 2023年11月1日；適用於所有客戶的生產版本： 2023年11月1日
 
 檔案核准通知的電子郵件範本已更新，以更符合其他Adobe電子郵件範本，並提高清晰度和可用性。
 
@@ -31,7 +31,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->預覽版本： 2023年10月12日；適用於所有客戶的生產版本：待定
+>預覽版本： 2023年10月12日；快速發行生產：24.2版（2024年2月15日）；每季發行生產：24.4版（2024年4月）
 
 為了更清楚地說明工作負載平衡器中手動調整或分佈，手動調整的每小時分配現在會顯示一個鉛筆圖示。
 
