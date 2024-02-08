@@ -8,9 +8,9 @@ title: Adobe Authenticator模組
 description: 透過Adobe Authenticator模組，您可以使用單一連線透過API連線至任何Adobe產品。
 author: Becky
 feature: Workfront Fusion
-source-git-commit: 07443d85e160004c273fc977629dd9f588cc23b2
+source-git-commit: 61a579c19228381d0aa06de3db5217614999731b
 workflow-type: tm+mt
-source-wordcount: '880'
+source-wordcount: '882'
 ht-degree: 1%
 
 ---
@@ -21,7 +21,7 @@ Adobe Authenticator模組可讓您使用單一連線來連線至任何AdobeAPI�
 
 與HTTP模組相比，您可在專用應用程式中建立連線。
 
-若要檢視可用的AdobeAPI清單，請參閱X。您只能使用指派給您的API。
+若要檢視可用的AdobeAPI清單，請參閱 [ADOBEAPI](https://developer.adobe.com/apis). 您只能使用指派給您的API。
 
 ## 存取需求
 
