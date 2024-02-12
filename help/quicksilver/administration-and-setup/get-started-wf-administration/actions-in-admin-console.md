@@ -2,29 +2,35 @@
 user-type: administrator
 product-area: system-administration;setup
 navigation-topic: start-with-workfront-administration
-title: 平台管理差異(Adobe Workfront/Adobe業務平台)
-description: 如果您的組織已上線至Adobe業務平台，則您的使用者會使用Adobe業務平台來存取Adobe Workfront。 這表示使用者管理主要是透過Adobe Admin Console完成，而單一登入(SSO)是透過Adobe業務平台處理，而非透過Workfront。 身為Adobe Workfront管理員，您的管理職責和程式會因貴組織是否已上線至Adobe業務平台而有所不同。 本文列出必須以不同方式處理的程式，以及Workfront和Adobe Admin Console指示的連結。
+title: 平台型管理差異(Adobe Workfront/Adobe Business Platform)
+description: 如果您的組織已上線到Adobe Business Platform，您的使用者會使用Adobe Business Platform來存取Adobe Workfront。 這表示使用者管理主要透過Adobe Admin Console完成，而單一登入(SSO)是透過Adobe Business Platform處理，而非透過Workfront。 身為Adobe Workfront管理員，您的管理職責和程式會因貴組織是否已加入Adobe業務平台而有所不同。 本文列出必須以不同方式處理的程式，以及Workfront和Adobe Admin Console指示的連結。
 author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: a84a5a8d-7c2a-4b51-a614-91a6dc9aa4ed
-source-git-commit: 137165deb0c0e9172224e810c82bc651bb0adfc0
+source-git-commit: b476c012f825afc4bc48b7172be26accc6bac0d1
 workflow-type: tm+mt
-source-wordcount: '526'
+source-wordcount: '536'
 ht-degree: 1%
 
 ---
 
-# 平台管理差異(Adobe Workfront/Adobe業務平台)
+# 平台型管理差異(Adobe Workfront/Adobe Business Platform)
 
-如果您的組織已上線至Adobe業務平台，則您的使用者會使用Adobe業務平台來存取Adobe Workfront。 這表示：
+如果您的組織已上線到Adobe Business Platform，您的使用者會使用Adobe Business Platform來存取Adobe Workfront。 這表示：
 
-* 使用者管理主要透過Adobe Admin Console完成
-* 單一登入(SSO)是透過Adobe業務平台處理，而非透過Workfront
+* 系統管理員是透過Adobe Admin Console建立的
+* 單一登入(SSO)是透過「Adobe商業平台」處理，而非透過Workfront處理
 
-身為Adobe Workfront管理員，您的管理職責和程式會因貴組織是否已上線至Adobe業務平台而有所不同。 本文列出必須以不同方式處理的程式，以及Workfront和Adobe Admin Console指示的連結。
+身為Adobe Workfront管理員，您的管理職責和程式會因貴組織是否已加入Adobe業務平台而有所不同。 本文列出以不同方式處理的程式，以及Workfront和Adobe Admin Console指示的連結。
 
 ## 使用者
+
+
+
+>[!NOTE]
+>
+>我們建議直接在Workfront中新增非系統管理員使用者。 您可以在Adobe Admin Console中新增使用者，但若在Workfront中新增使用者，您可於建立使用者時設定其存取層級，藉此節省您的時間。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -33,8 +39,8 @@ ht-degree: 1%
  <thead> 
   <tr> 
    <th>動作</th> 
-   <th>如需Workfront的指示，請參閱</th> 
-   <th>如需AdobeAdmin Console的指示，請參閱</th> 
+   <th>如需Workfront的說明，請參閱</th> 
+   <th>如需AdobeAdmin Console的說明，請參閱</th> 
   </tr> 
  </thead> 
  <tbody> <!--
@@ -54,11 +60,11 @@ ht-degree: 1%
    <td role="rowheader">授予使用者管理員存取權</td> 
    <td> 
     <ul> 
-     <li> <p><a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">授予使用者完整的管理存取權</a> </p> </li> 
+     <li> <p><a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">授予使用者完整管理存取權</a> </p> </li> 
     </ul> </td> 
    <td> 
     <ul> 
-     <li> <p>在 <a href="https://helpx.adobe.com/enterprise/using/manage-users-individually.html">個別管理使用者</a></p> </li> 
+     <li> <p>中的「編輯使用者詳細資訊」區段 <a href="https://helpx.adobe.com/enterprise/using/manage-users-individually.html">個別管理使用者</a></p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -70,7 +76,7 @@ ht-degree: 1%
    <td> 
     <ul> 
      <li> <p><a href="../../administration-and-setup/add-users/create-and-manage-users/admin-console.md" class="MCXref xref">在Adobe Admin Console中管理使用者</a> </p> </li> 
-     <li> <p>在 <a href="https://helpx.adobe.com/enterprise/using/manage-users-individually.html">個別管理使用者</a></p> </li> 
+     <li> <p>中的「新增使用者」區段 <a href="https://helpx.adobe.com/enterprise/using/manage-users-individually.html">個別管理使用者</a></p> </li> 
     </ul> </td> 
   </tr> <!--
    <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
@@ -94,7 +100,7 @@ ht-degree: 1%
     </ul> </td> 
    <td> 
     <ul> 
-     <li> <p>在 <a href="https://helpx.adobe.com/enterprise/using/manage-users-individually.html">個別管理使用者</a></p> </li> 
+     <li> <p>中的「移除使用者」區段 <a href="https://helpx.adobe.com/enterprise/using/manage-users-individually.html">個別管理使用者</a></p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -105,19 +111,19 @@ ht-degree: 1%
     </ul> </td> 
    <td> 
     <ul> 
-     <li> <p>中的「永久刪除使用者」一節 <a href="https://helpx.adobe.com/enterprise/using/manage-directory-users.html">管理目錄用戶</a>
-     </p><p>注意：從 [!DNL Adobe Admin Console] 停用 [!DNL Workfront]，但不會從 [!DNL Workfront].</p> </li> 
+     <li> <p>中的「永久刪除使用者」區段 <a href="https://helpx.adobe.com/enterprise/using/manage-directory-users.html">管理目錄使用者</a>
+     </p><p>附註：從刪除使用者 [!DNL Adobe Admin Console] 在中停用使用者 [!DNL Workfront]，但不會從中刪除它們 [!DNL Workfront].</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">編輯使用者設定檔</td> 
    <td> 
     <ul> 
-     <li> <p><a href="../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md" class="MCXref xref">編輯使用者的設定檔</a> </p> </li> 
+     <li> <p><a href="../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md" class="MCXref xref">編輯使用者設定檔</a> </p> </li> 
     </ul> </td> 
    <td> 
     <ul> 
-     <li> <p>在 <a href="https://helpx.adobe.com/enterprise/using/manage-users-individually.html">個別管理使用者</a></p> </li> 
+     <li> <p>中的「編輯使用者詳細資訊」區段 <a href="https://helpx.adobe.com/enterprise/using/manage-users-individually.html">個別管理使用者</a></p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -128,7 +134,7 @@ ht-degree: 1%
     </ul> </td> 
    <td> 
     <ul> 
-     <li> <p>在 <a href="https://helpx.adobe.com/enterprise/using/bulk-upload-users.html">大量CSV上傳</a></p> </li> 
+     <li> <p>中的「編輯使用者詳細資訊」區段 <a href="https://helpx.adobe.com/enterprise/using/bulk-upload-users.html">大量CSV上傳</a></p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -139,11 +145,11 @@ ht-degree: 1%
     </ul> </td> 
    <td> 
     <ul> 
-     <li> <p>在 <a href="https://helpx.adobe.com/enterprise/using/bulk-upload-users.html">大量CSV上傳</a></p> </li> 
+     <li> <p>中的「新增使用者」區段 <a href="https://helpx.adobe.com/enterprise/using/bulk-upload-users.html">大量CSV上傳</a></p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">以其他使用者身分登入</td> 
+   <td role="rowheader">以另一位使用者身分登入</td> 
    <td> 
     <ul> 
      <li> <p><a href="../../administration-and-setup/add-users/create-and-manage-users/log-in-as-another-user.md" class="MCXref xref">以其他使用者身分登入</a> </p> </li> 
@@ -158,21 +164,21 @@ ht-degree: 1%
     </ul> </td> 
    <td> 
     <ul> 
-     <li> <p>「SAML回應中的數位簽章未驗證……」 in <a href="https://helpx.adobe.com/enterprise/kb/tshoot-fed-id.html">疑難排解Federated ID</a></p> </li> 
+     <li> <p>中的「SAML回應中的數位簽章未驗證……」一節 <a href="https://helpx.adobe.com/enterprise/kb/tshoot-fed-id.html">疑難排解Federated ID</a></p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## SSO（單一登入）
+## SSO （單一登入）
 
-由於Adobe業務平台控制用戶的單一登錄(SSO)，因此以下操作和功能將通過Adobe業務平台自動處理。 如果您的組織尚未上線至Adobe業務平台，您必須在Workfront中執行這些動作。
+由於Adobe Business Platform會控制使用者的「單一登入」(SSO)，因此系統會透過Adobe Business Platform自動處理下列動作和功能。 如果您的組織尚未上線至Adobe Business Platform，您必須在Workfront中執行這些動作。
 
 
 * [使用SAML 2.0設定Adobe Workfront](../../administration-and-setup/add-users/single-sign-on/configure-workfront-saml-2.md)
 * [使用ADFS以SAML 2.0設定Adobe Workfront](../../administration-and-setup/add-users/single-sign-on/configure-workfront-saml-2-adfs.md)
 * [在Adobe Workfront中停用單一登入](../../administration-and-setup/add-users/single-sign-on/deactivate-sso.md)
-* [在您的身分提供者中更新SAML 2.0中繼資料](../../administration-and-setup/add-users/single-sign-on/update-saml-2-metadata-ip.md)
+* [更新身分提供者中的SAML 2.0中繼資料](../../administration-and-setup/add-users/single-sign-on/update-saml-2-metadata-ip.md)
 * [更新單一登入的使用者](../../administration-and-setup/add-users/single-sign-on/update-users-sso.md)
-* [配置用於身份驗證的密碼策略](../../administration-and-setup/manage-workfront/security/configure-password-policies-authentication.md)
-* [配置系統安全首選項](../../administration-and-setup/manage-workfront/security/configure-security-preferences.md)
+* [設定驗證的密碼原則](../../administration-and-setup/manage-workfront/security/configure-password-policies-authentication.md)
+* [設定系統安全性偏好設定](../../administration-and-setup/manage-workfront/security/configure-security-preferences.md)

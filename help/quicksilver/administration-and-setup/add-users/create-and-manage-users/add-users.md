@@ -8,9 +8,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: e95dbc32-915b-4ea7-a5ad-e1da99edfbe3
-source-git-commit: 01b60a2fab1188c8510857490ea87f609897b0bb
+source-git-commit: b476c012f825afc4bc48b7172be26accc6bac0d1
 workflow-type: tm+mt
-source-wordcount: '1272'
+source-wordcount: '1229'
 ht-degree: 1%
 
 ---
@@ -19,15 +19,11 @@ ht-degree: 1%
 
 >[!IMPORTANT]
 >
->此頁面中說明的程式適用於尚未加入Admin Console的組織。 如果您的組織已加入Adobe Admin Console，您必須透過Adobe Admin Console執行此動作。
+>如果您的組織已上線Adobe Admin Console，您必須透過Adobe Admin Console建立系統管理員。
+>
+>如需在Adobe Admin Console中建立系統管理員的指示，請參閱 [在Adobe Admin Console中管理使用者](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/admin-console.md).
 >
 >已加入Adobe Admin Console的組織中，群組管理員可使用此程式來建立使用者並提交使用者以供管理員核准。
->
->如需在Adobe Admin Console中新增使用者的指示：
->
->* 另請參閱 [使用Adobe Admin Console在Workfront中建立使用者](../../../administration-and-setup/add-users/create-and-manage-users/admin-console.md#create)
->* 請參閱文章中的「新增使用者」一節 [個別管理使用者](https://helpx.adobe.com/enterprise/using/manage-users-individually.html)
->* 請連絡您的Adobe Admin Console管理員。
 >
 >如需根據貴組織是否已加入Adobe Admin Console而有所差異的程式清單，請參閱 [平台型管理差異(Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
@@ -67,7 +63,7 @@ As an Adobe administrator, you can add users in Adobe Workfront by adding them t
  </tbody> 
 </table>
 
-## 必要條件
+## 先決條件
 
 在新增使用者之前，請收集下列使用者的相關資訊，並決定要與該使用者建立關聯的資訊：
 
@@ -107,7 +103,7 @@ As an Adobe administrator, you can add users in Adobe Workfront by adding them t
 
    如需這些選項的相關資訊，請參閱 [編輯使用者設定檔](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 
-1. 執行下列任一項作業：
+1. 執行下列其中一項：
 
    * 離開 **傳送邀請電子郵件給此人** 已啟用。 若您這麼做，使用者會收到電子郵件，追蹤連結以建立自己的Workfront密碼。 不接受電子郵件邀請並建立Workfront密碼的使用者，在Workfront中會列為「未註冊」。
    * 停用 **傳送邀請電子郵件給此人**，然後輸入 **密碼** ，並在中確認 **確認密碼** 方塊。 您需要與Workfront外部的使用者共用此密碼。

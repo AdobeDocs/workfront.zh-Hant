@@ -5,9 +5,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: ae657964-d4a5-4c3b-afc6-8dde7695955d
-source-git-commit: 1224ecc73ed333a5296b23735ad4e899f15f544b
+source-git-commit: b476c012f825afc4bc48b7172be26accc6bac0d1
 workflow-type: tm+mt
-source-wordcount: '1128'
+source-wordcount: '1144'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,11 @@ ht-degree: 0%
 >
 >如需根據貴組織是否已加入Adobe Business Platform而有所差異的程式清單，請參閱 [平台型管理差異(Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
-作為Adobe管理員，您可以使用Adobe Admin Console建立Adobe Workfront使用者和系統管理員。 主控台是管理整個組織中Adobe許可權的中央位置。 如需詳細資訊，請參閱 [Admin Console概觀](https://helpx.adobe.com/tw/enterprise/using/admin-console.html).
+作為Adobe管理員，您可以使用Adobe Admin Console建立Adobe Workfront系統管理員。 主控台是管理整個組織中Adobe許可權的中央位置。 如需詳細資訊，請參閱 [Admin Console概觀](https://helpx.adobe.com/tw/enterprise/using/admin-console.html).
+
+>[!NOTE]
+>
+>我們建議直接在Workfront中新增非系統管理員使用者。 您可以在Adobe Admin Console中新增使用者，但若在Workfront中新增使用者，您可於建立使用者時設定其存取層級，藉此節省您的時間。
 
 ## 存取需求
 
@@ -116,9 +120,33 @@ ht-degree: 0%
    * [使用Adobe Admin Console在Workfront中建立使用者](#create-users-in-workfront-with-the-adobe-admin-console)
    * [使用Adobe Admin Console在Workfront中建立系統管理員](#create-system-administrators-in-workfront-with-the-adobe-admin-console)
 
+## 使用Adobe Admin Console在Workfront中建立系統管理員 {#create-system-administrators-in-workfront-with-the-adobe-admin-console}
+
+<!--Audited: 12/2023-->
+
+系統管理員存取層級僅在Adobe Admin Console上授予。 您無法從Workfront中授與或移除管理員存取權。
+
+您必須先將使用者新增到Workfront的生產執行個體，然後才能將使用者設為Workfront系統管理員。
+
+1. 如區段所述，前往Admin Console中的使用者和管理員區域 [存取您的Workfront生產執行個體的使用者和管理區域](#access-the-user-and-admin-area-for-your-production-instance-of-workfront) 本文章內容。
+1. 選取 **管理員** 索引標籤的使用者清單上方。
+1. 選取 **新增管理員**.
+1. 在 **新增產品設定檔管理員** 方塊中，輸入您要新增的管理員電子郵件地址或名稱，然後選取 **儲存**.
+
+   ![](assets/add-admin-1.png)
+
+   系統管理員是在Workfront中建立。
+
+   >[!IMPORTANT]
+   >
+   >請勿對產品設定檔本身進行任何變更。
+
+
 ## 使用Adobe Admin Console在Workfront中建立使用者 {#create-users-in-workfront-with-the-adobe-admin-console}
 
-必須將Workfront使用者新增至Adobe Admin Console。 管理員可以直接在Adobe Admin Console中建立使用者。 群組管理員會在Workfront中建立使用者，然後提交使用者以供核准。 核准後，使用者會新增至Adobe Admin Console。
+>[!NOTE]
+>
+>我們建議直接在Workfront中新增非系統管理員使用者。 您可以在Adobe Admin Console中新增使用者，但若在Workfront中新增使用者，您可於建立使用者時設定其存取層級，藉此節省您的時間。
 
 * [直接在Adobe Admin Console的Workfront中建立使用者](#create-users-in-workfront-directly-in-the-adobe-admin-console)
 * [在Workfront中建立使用者並核准他們用於Adobe Admin Console](#create-users-in-workfront-and-approve-them-for-the-adobe-admin-console)
@@ -179,26 +207,6 @@ ht-degree: 0%
 
 
 
-## 使用Adobe Admin Console在Workfront中建立系統管理員 {#create-system-administrators-in-workfront-with-the-adobe-admin-console}
-
-<!--Audited: 12/2023-->
-
-系統管理員存取層級僅在Adobe Admin Console上授予。 您無法從Workfront中授與或移除管理員存取權。
-
-您必須先將使用者新增到Workfront的生產執行個體，然後才能將使用者設為Workfront系統管理員。 如需指示，請參閱區段 [使用Adobe Admin Console在Workfront中建立使用者](#create-users-in-workfront-with-the-adobe-admin-console) 本文章內容。
-
-1. 如區段所述，前往Admin Console中的使用者和管理員區域 [存取您的Workfront生產執行個體的使用者和管理區域](#access-the-user-and-admin-area-for-your-production-instance-of-workfront) 本文章內容。
-1. 選取 **管理員** 索引標籤的使用者清單上方。
-1. 選取 **新增管理員**.
-1. 在 **新增產品設定檔管理員** 方塊中，輸入您要新增的管理員電子郵件地址或名稱，然後選取 **儲存**.
-
-   ![](assets/add-admin-1.png)
-
-   系統管理員是在Workfront中建立。
-
-   >[!IMPORTANT]
-   >
-   >請勿對產品設定檔本身進行任何變更。
 
 
 
