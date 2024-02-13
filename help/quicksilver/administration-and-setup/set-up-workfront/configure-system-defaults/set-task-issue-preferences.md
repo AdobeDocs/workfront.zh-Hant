@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 8b99f939-12fe-4470-9dc8-f8a92c6db334
-source-git-commit: a1af801e70a7d1a4da7ec572989ebba7634aef58
+source-git-commit: 128082d2af40f1dcbbc058f8bc2fd25deae00809
 workflow-type: tm+mt
-source-wordcount: '2060'
+source-wordcount: '2063'
 ht-degree: 0%
 
 ---
@@ -62,15 +62,15 @@ Linked to Converting Issues.-->
 
 1. 在出現的頁面上，繼續下列的5個區段之一，以配置設定 [!UICONTROL 新任務預設值]， [!UICONTROL 問題]， [!UICONTROL 刪除]， [!UICONTROL 實際日期]、和 [!UICONTROL 存取]：
 
-* [[!UICONTROL 新任務預設值]](#new-task-defaults)
-* [[!UICONTROL 問題]](#issues)
-* [[!UICONTROL 刪除]](#deletion)
-* [[!UICONTROL 實際日期]](#actual-dates)
-* [[!UICONTROL 委派]](#delegation)
+   * [[!UICONTROL 新任務預設值]](#new-task-defaults)
+   * [[!UICONTROL 問題]](#issues)
+   * [[!UICONTROL 刪除]](#deletion)
+   * [[!UICONTROL 實際日期]](#actual-dates)
+   * [[!UICONTROL 委派]](#delegation)
 
-  <!--
-  <li class="preview" data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="#work-on-it" class="MCXref xref">Work On It</a> </li>
-  -->
+   <!--
+<li class="preview" data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="#work-on-it" class="MCXref xref">處理它</a> </li>
+  —&gt;
 
 * [[!UICONTROL 存取]](#access)
 
@@ -97,7 +97,7 @@ Linked to Converting Issues.-->
     <td> <p>計算任務的計畫和實際成本預估。 當設定為 <strong>[！UICONTROL免費]</strong>，計畫時數與實際記錄時數不會產生任務的計畫或實際成本預估，且任務上的工作不會貢獻專案層級的成本。</p> </td> 
     </tr> 
   </tbody> 
-  </table>
+</table>
 
 ### 問題 {#issues}
 
@@ -181,7 +181,7 @@ Linked to Converting Issues.-->
       </ul> </td> 
     </tr> 
   </tbody> 
-  </table>
+</table>
 
 ### 委派
 
@@ -192,7 +192,7 @@ Linked to Converting Issues.-->
 * 此 [!UICONTROL 委派] 連結至其 [!UICONTROL 首頁] 區域。 他們可以從這裡委派核准，或任務和問題指派。
 * 表示任務或問題已委派給中的其他使用者。 [!UICONTROL 指派與委派] 任務或問題標題中的區域。
 
-如果您停用 [!UICONTROL 允許使用者委派其任務和問題] 設定，目前排程的委派將停止，且委派的使用者將收到電子郵件通知，告知委派已停止。
+  如果您停用 [!UICONTROL 允許使用者委派其任務和問題] 設定，目前排程的委派將停止，且委派的使用者將收到電子郵件通知，告知委派已停止。
 
 如需將工作委派給其他人的相關資訊，請參閱下列文章：
 
@@ -257,7 +257,7 @@ I have not had a chance to follow up with customers to verify if this is still a
       </ul> </td> 
     </tr> 
   </tbody> 
-  </table>
+</table>
 
 1. 按一下「**[!UICONTROL 儲存]**」。
 
