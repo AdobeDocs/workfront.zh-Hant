@@ -7,16 +7,16 @@ description: Adobe Workfront可讓您快速輕鬆地將與任何工作專案無�
 author: Lisa
 feature: People Teams and Groups
 exl-id: 82a1c304-176a-48c5-809d-40663ee768b7
-source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
+source-git-commit: 4f63bca8634663c4106be0175851af0b982d3408
 workflow-type: tm+mt
-source-wordcount: '352'
+source-wordcount: '354'
 ht-degree: 0%
 
 ---
 
 # 傳送直接訊息給其他使用者
 
-[!DNL Adobe Workfront] 可讓您快速輕鬆地將與任何工作專案無關的訊息直接傳送給其他人 [!DNL Workfront] 使用者。 依照本節所述傳送的訊息會顯示在 [!UICONTROL 更新] 標籤內的所有使用者皆可見。 如需更新的詳細資訊，請參閱 [更新工作專案並檢視更新](../../workfront-basics/updating-work-items-and-viewing-updates/update-work-items-and-view-updates.md).
+[!DNL Adobe Workfront] 可讓您快速輕鬆地將與任何工作專案無關的訊息直接傳送給其他人 [!DNL Workfront] 使用者。 依照本節所述傳送的訊息會顯示在 [!UICONTROL 更新] 標籤內的所有使用者皆可見。 如需更新的詳細資訊，請參閱 [更新工作專案和檢視更新：文章索引](../../workfront-basics/updating-work-items-and-viewing-updates/update-work-items-and-view-updates.md).
 
 傳送訊息給的使用者會在您傳送訊息時收到下列型別的通知，如本節所述：
 
@@ -36,7 +36,7 @@ ht-degree: 0%
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] 計劃*</strong></td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] 計畫*</strong></td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 

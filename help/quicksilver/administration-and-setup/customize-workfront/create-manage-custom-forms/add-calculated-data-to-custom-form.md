@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 9174c4ef-3beb-4d47-9c5c-363f52105a2c
-source-git-commit: fac70de35b3380105911f2958f477f65c9999e55
+source-git-commit: 4f63bca8634663c4106be0175851af0b982d3408
 workflow-type: tm+mt
-source-wordcount: '2898'
+source-wordcount: '2900'
 ht-degree: 0%
 
 ---
@@ -331,4 +331,4 @@ ht-degree: 0%
 
   >[!NOTE]
   >
-  ><div>在附加到物件的自訂表單中，已計算自訂欄位中的日期和時間陳述式會根據世界協調時間(UTC)進行計算和儲存，而不是根據為組織執行個體和使用者設定檔設定的時區設定。 自訂表單中的計算是根據每位使用者的個別時區產生。</div>
+  >在附加到物件的自訂表單中，已計算自訂欄位中的日期和時間陳述式會根據世界協調時間(UTC)進行計算和儲存，而不是根據為組織執行個體和使用者設定檔設定的時區設定。 不過，自訂表單中的計算會根據每位使用者的個別時區顯示。

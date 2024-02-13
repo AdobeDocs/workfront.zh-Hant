@@ -2,22 +2,24 @@
 content-type: reference
 product-area: projects
 navigation-topic: get-started-with-workfront
-title: 更新工作專案並檢視更新
-description: 您可以使用大多數物件的「更新」區段來新增註釋、回覆，或遵循物件上發生變更的系統追蹤更新。
+title: 「更新工作專案並檢視更新：文章索引」
+description: 您可以使用大部分物件的「更新」區段來新增評論和回覆，或遵循物件上發生變更的系統追蹤更新。
 author: Alina
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: ef3440fd-92b7-4760-9f53-1b0e736d3a0f
-source-git-commit: 34ce6492e14399926aed910bf9ed4d8688904341
+source-git-commit: 4f63bca8634663c4106be0175851af0b982d3408
 workflow-type: tm+mt
-source-wordcount: '104'
+source-wordcount: '110'
 ht-degree: 0%
 
 ---
 
-# 更新工作專案並檢視更新
+# 更新工作專案和檢視更新：文章索引
 
-您可以使用大多數物件的「更新」區段來新增註釋、回覆，或遵循物件上發生變更的系統追蹤更新。
+<!-- Audited: 02/2024 -->
+
+您可以使用大部分物件的「更新」區段來新增評論和回覆，或遵循物件上發生變更的系統追蹤更新。
 
 本節包含下列文章：
 
