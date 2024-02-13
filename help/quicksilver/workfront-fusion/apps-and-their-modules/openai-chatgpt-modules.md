@@ -8,9 +8,9 @@ title: Openai (ChatGPT)模組
 description: 在Adobe Workfront Fusion案例中，您可以自動化使用OpenAIT(ChatGPT)的工作流程，並將其連結到多個協力廠商應用程式和服務。
 author: Becky
 feature: Workfront Fusion
-source-git-commit: a8bc882f393dcf17bca80da86c25c053272e27c9
+source-git-commit: aa672a81b0899c45c1c7e6abba03b6d975dc7017
 workflow-type: tm+mt
-source-wordcount: '1395'
+source-wordcount: '1320'
 ht-degree: 0%
 
 ---
@@ -97,30 +97,38 @@ ht-degree: 0%
 
 ### 建立完成
 
-此動作模組會為提供的提示或聊天建立完成。
+>[!IMPORTANT]
+>
+>此模組已淘汰。
+
+<!--
+
+This action module creates a completion for the provided prompt or chat.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[！UICONTROL Connection]</td> 
-   <td> <p>如需有關連線您的電腦的指示 [!DNL OpenAI (ChatGPT & DALL-E)] Workfront Fusion的帳戶，請參閱 <a href="#connecting-openaichatgpt-to-workfront-fusion" class="MCXref xref">正在連線 [!DNL OpenAI (ChatGPT & DALL-E)] 至 [!DNL Workfront Fusion]</a> 本文章內容。</p> </td> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td> <p>For instructions about connecting your [!DNL OpenAI (ChatGPT & DALL-E)] account to Workfront Fusion, see <a href="#connecting-openaichatgpt-to-workfront-fusion" class="MCXref xref">Connecting [!DNL OpenAI (ChatGPT & DALL-E)] to [!DNL Workfront Fusion]</a> in this article.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL模型]</td> 
-   <td> 輸入或對映要使用的模型ID。 您可以使用「取得模型」模組來檢視所有可用的模型。 </td> 
+   <td role="rowheader">[!UICONTROL Model]</td> 
+   <td> Enter or map the ID of the model to use. You can use the Get models module to see all of your available models. </td> 
   </tr> 
-  <!--<tr> 
+ <tr> 
    <td role="rowheader">[!UICONTROL Temperature]</td> 
    <td> This value must be between 0 and 2, and determines the randomness of the output. Higher values produce output that is more random, while lower values produce more focused output. </td> 
-  </tr> -->
+  </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL進階設定]</td> 
-   <td> <p>如需此模組中選擇性進階設定的相關資訊，請參閱此模組中有關建立完成的資訊。 <a href="https://platform.openai.com/docs/api-reference/completions/create" class="MCXref xref">OpenAI API檔案</a>.</p> </td> 
+   <td role="rowheader">[!UICONTROL Advanced settings]</td> 
+   <td> <p>For information about the optional advanced settings in this module, see the information about creating completions in the <a href="https://platform.openai.com/docs/api-reference/completions/create" class="MCXref xref">OpenAI API documentation</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
+
+-->
 
 ### 建立稽核
 
