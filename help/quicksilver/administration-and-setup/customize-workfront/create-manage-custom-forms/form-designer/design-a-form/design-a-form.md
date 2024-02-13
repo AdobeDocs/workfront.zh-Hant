@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: a9d9ae15f4d80fa6e09414459417cfd2b57daf42
+source-git-commit: d5b4531be831356f81880d9f6c90f472bbc8a6ed
 workflow-type: tm+mt
-source-wordcount: '5075'
+source-wordcount: '5105'
 ht-degree: 3%
 
 ---
@@ -393,7 +393,7 @@ ht-degree: 3%
    * 使用者
    * 群組
    * 職務角色
-   * 專案組合
+   * Portfolio
    * 方案
    * 專案
    * 團隊
@@ -499,6 +499,8 @@ ht-degree: 3%
 ### 新增外部查詢欄位
 
 外部查詢欄位會呼叫外部API，並在下拉式欄位中傳回值作為選項。 使用自訂表單附加至之物件的使用者可以從下拉式清單中選取一個或多個選項。 清單和報告中也提供外部查詢欄位。
+
+如需使用外部查詢欄位來呼叫相同Workfront執行個體或公用API的範例，請參閱 [自訂表單中的外部查詢欄位範例](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/external-lookup-examples.md).
 
 >[!NOTE]
 >

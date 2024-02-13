@@ -3,9 +3,9 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文件、教學課程和其他資源，了解如何在您的組織中實施並有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: cd281e0dc91a2b39f54ceea674b36940ffb06a13
+source-git-commit: d5b4531be831356f81880d9f6c90f472bbc8a6ed
 workflow-type: tm+mt
-source-wordcount: '13930'
+source-wordcount: '13940'
 ht-degree: 1%
 
 ---
@@ -585,6 +585,7 @@ ht-degree: 1%
                * [使用表單設計工具從副本設計表單](administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-from-copy.md)
                * [使用表單設計工具新增計算欄位](administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md)
                * [使用表單設計工具新增顯示邏輯和略過邏輯](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/display-skip-logic-form-designer.md)
+               * [自訂表單中的外部查詢欄位範例](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/external-lookup-examples.md)
                * [使用表單設計工具來組織和預覽表單](administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/organize-a-form.md)
             * 管理表單 {#manage-a-form}
                * [管理表單](administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/manage-a-form/manage-a-form-toc.md)
