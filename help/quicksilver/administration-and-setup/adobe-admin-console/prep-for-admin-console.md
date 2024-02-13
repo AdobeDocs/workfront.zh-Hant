@@ -10,9 +10,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: d9b5e4a1-069e-48be-80d0-84f4bf8aea8b
-source-git-commit: 91d757513792604677d6285baafa795629b4506d
+source-git-commit: 5d4434d090c4b6cdefc9c313fecccf6d6e9a510b
 workflow-type: tm+mt
-source-wordcount: '645'
+source-wordcount: '648'
 ht-degree: 0%
 
 ---
@@ -83,8 +83,8 @@ ht-degree: 0%
    >
    >此步驟為選用步驟，但強烈建議使用，因為未來將不再使用其他形式的API驗證和授權。
 
-在使用Workfront設定Adobe Admin Console後，您就可以用它來管理使用者。
+使用Workfront設定Adobe Admin Console後，您就可以用它來建立Workfront系統管理員。
 
-如需詳細資訊，請參閱 [在Adobe Admin Console中管理使用者](../../administration-and-setup/add-users/create-and-manage-users/admin-console.md).
+如需詳細資訊，請參閱 [在Adobe Admin Console中管理系統管理員](../../administration-and-setup/add-users/create-and-manage-users/admin-console.md).
 
 如需根據貴組織是否已上線至Adobe Admin Console而有所不同的其他動作清單，請參閱 [平台型管理差異(Adobe Workfront/Adobe Business Platform)](../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).

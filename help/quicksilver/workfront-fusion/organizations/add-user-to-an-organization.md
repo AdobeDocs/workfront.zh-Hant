@@ -7,9 +7,9 @@ description: 您可以在Adobe Workfront Fusion中新增使用者至組織。
 author: Becky
 feature: Workfront Fusion
 exl-id: 98248cca-98f5-4eb5-b203-67e261df33f1
-source-git-commit: 2884f709ef9ea89f275ff88db41ddde725dbd781
+source-git-commit: 5d4434d090c4b6cdefc9c313fecccf6d6e9a510b
 workflow-type: tm+mt
-source-wordcount: '586'
+source-wordcount: '403'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-    <td role="rowheader">[!DNL Adobe Workfront] 計劃*</td> 
+    <td role="rowheader">[!DNL Adobe Workfront] 計畫*</td> 
    <td> <p>[!DNL Pro] 或更高</p> </td> 
   </tr> 
    <tr> 
@@ -72,23 +72,27 @@ ht-degree: 0%
 
 ## 將使用者新增至組織
 
-<p>將使用者新增至您的Fusion組織的程式會根據您的組織是否已上線至「Adobe企業平台」而有所不同。 </p>
+
+<!--
+<p>The procedure to add a user to your Fusion organization differs based on whether your organization has been onboarded to the Adobe Business Platform. </p>
 <ul>
-<li> <p><a href="#add-a-user-to-an-organization-that-has-been-onboarded-to-the-adobe-business-platform" class="MCXref xref">將使用者新增至已上線至Adobe業務平台的組織</a> </p> </li>
-<li> <p><a href="#add-a-user-to-an-organization-that-has-not-been-onboarded-to-the-adobe-business-console" class="MCXref xref">將使用者新增至尚未上線至Adobe業務控制檯的組織</a> </p> </li>
+<li> <p><a href="#add-a-user-to-an-organization-that-has-been-onboarded-to-the-adobe-business-platform" class="MCXref xref">Add a user to an organization that has been onboarded to the Adobe Business Platform</a> </p> </li>
+<li> <p><a href="#add-a-user-to-an-organization-that-has-not-been-onboarded-to-the-adobe-business-console" class="MCXref xref">Add a user to an organization that has not been onboarded to the Adobe Business Console</a> </p> </li>
 </ul>
 <div>
-<p><strong>將使用者新增至已上線至Adobe業務平台的組織</strong></p>
-<p>如果您的組織已加入Adobe Business Platform，您必須透過Adobe Admin Console執行此動作。</p>
-<p>如需在Adobe Admin Console中新增使用者的指示：</p>
+<p><strong>Add a user to an organization that has been onboarded to the Adobe Business Platform</strong></p>
+<p>If your organization has been onboarded to the Adobe Business Platform, you must perform this action through the Adobe Admin Console.</p>
+<p>For instructions on adding a user in the Adobe Admin Console:</p>
 <ul>
-<li> <p>另請參閱 <a href="../../administration-and-setup/add-users/create-and-manage-users/admin-console.md#create" class="MCXref xref">使用Adobe Admin Console在Workfront中建立使用者</a></p> </li>
-<li> <p>請參閱文章中的「新增使用者」一節 <a href="https://helpx.adobe.com/enterprise/using/manage-users-individually.html">個別管理使用者</a></p> </li>
-<li> <p>請連絡您的Adobe Admin Console管理員。</p> </li>
+<li> <p>See <a href="../../administration-and-setup/add-users/create-and-manage-users/admin-console.md#create" class="MCXref xref">Create users in Workfront with the Adobe Admin Console</a></p> </li>
+<li> <p>See the section "Add users" in the article <a href="https://helpx.adobe.com/enterprise/using/manage-users-individually.html">Manage users individually</a></p> </li>
+<li> <p>Contact your Adobe Admin Console Administrator.</p> </li>
 </ul>
-<p>如需根據貴組織是否已加入Adobe Business Platform而有所差異的程式清單，請參閱 <a href="../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md" class="MCXref xref">平台型管理差異(Adobe Workfront/Adobe Business Platform)</a>.</p>
+<p>For a list of procedures that differ based on whether your organization has been onboarded to the Adobe Business Platform, see <a href="../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md" class="MCXref xref">Platform-based administration differences (Adobe Workfront/Adobe Business Platform)</a>.</p>
 </div>
-<p><strong>將使用者新增至尚未上線至Adobe業務控制檯的組織</strong></p>
+<p><strong>Add a user to an organization that has not been onboarded to the Adobe Business Console</strong></p>
+
+-->
 
 若要將使用者新增至組織，您必須是要新增使用者的組織的管理員。 如需角色的相關資訊，請參閱 [中的組織角色 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/organizations/organization-roles.md).
 

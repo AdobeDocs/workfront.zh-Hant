@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 0343fe74-1be4-43e2-9e3d-8aa1f7ea26fa
-source-git-commit: 980e6c2cea2ceb98abda6b98811e734d895ad274
+source-git-commit: 1949a0bb213553f1f1f252c4382a90514fcd0b5b
 workflow-type: tm+mt
-source-wordcount: '3381'
+source-wordcount: '3279'
 ht-degree: 0%
 
 ---
@@ -19,13 +19,16 @@ ht-degree: 0%
 
 {{highlighted-preview}}
 
+<!--
+
 >[!IMPORTANT]
 >
->此頁面中說明的程式僅適用於尚未加入Admin Console的組織。 如果您的組織已加入Adobe Admin Console，您必須透過Adobe Admin Console執行此動作。
+>The procedure described on this page applies only to organizations that have not yet been onboarded to the Admin Console. If your organization has been onboarded to the Adobe Admin Console, you must perform this action through the Adobe Admin Console.
 >
->如需在Adobe Admin Console中編輯使用者設定檔的說明，請參閱文章中的「編輯使用者詳細資訊」一節 [個別管理使用者](https://helpx.adobe.com/enterprise/using/manage-users-individually.html) 或聯絡Adobe Admin Console管理員。
+>For instructions on editing a user's profile in the Adobe Admin Console, see the section "Edit user details" in the article [Manage users individually](https://helpx.adobe.com/enterprise/using/manage-users-individually.html) or contact your Adobe Admin Console Administrator.
 >
->如需根據貴組織是否已加入Adobe Admin Console而有所差異的程式清單，請參閱 [平台型管理差異(Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
+>For a list of procedures that differ based on whether your organization has been onboarded to the Adobe Admin Console, see [Platform-based administration differences (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
+-->
 
 身為Adobe Workfront管理員，您可以建立使用者並管理現有使用者的設定檔。 如需建立使用者的詳細資訊，請參閱 [新增使用者](../../../administration-and-setup/add-users/create-and-manage-users/add-users.md).
 

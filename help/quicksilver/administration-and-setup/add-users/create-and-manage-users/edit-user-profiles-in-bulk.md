@@ -8,22 +8,25 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: cb709b2f-659e-4110-81ac-a1ef967d534c
-source-git-commit: 980e6c2cea2ceb98abda6b98811e734d895ad274
+source-git-commit: 1949a0bb213553f1f1f252c4382a90514fcd0b5b
 workflow-type: tm+mt
-source-wordcount: '2387'
+source-wordcount: '2285'
 ht-degree: 0%
 
 ---
 
 # 大量編輯使用者設定檔
 
+<!--
+
 >[!IMPORTANT]
 >
->此頁面中說明的程式僅適用於尚未加入Admin Console的組織。 如果您的組織已加入Adobe Admin Console，您必須透過Adobe Admin Console執行此動作。
+>The procedure described on this page applies only to organizations that have not yet been onboarded to the Admin Console. If your organization has been onboarded to the Adobe Admin Console, you must perform this action through the Adobe Admin Console.
 >
->如需在Adobe Admin Console中編輯使用者設定檔的說明，請參閱文章中的「編輯使用者詳細資訊」一節 [大量上傳使用者](https://helpx.adobe.com/enterprise/using/bulk-upload-users.html) 或聯絡Adobe Admin Console管理員。
+>For instructions on editing a user's profile in the Adobe Admin Console, see the section "Edit user details" in the article [Bulk Upload Users](https://helpx.adobe.com/enterprise/using/bulk-upload-users.html) or contact your Adobe Admin Console Administrator.
 >
->如需根據貴組織是否已加入Adobe Admin Console而有所差異的程式清單，請參閱 [平台型管理差異(Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
+>For a list of procedures that differ based on whether your organization has been onboarded to the Adobe Admin Console, see [Platform-based administration differences (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
+-->
 
 您可以大量編輯使用者帳戶。 當大量編輯使用者時，只有您特別選取的欄位會更新為所選的所有使用者提供相同的資訊。 您未選取的所有其他欄位，每位使用者都將維持不變，即使每位使用者各有不同。
 

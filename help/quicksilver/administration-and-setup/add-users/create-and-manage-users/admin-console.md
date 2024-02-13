@@ -5,14 +5,14 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: ae657964-d4a5-4c3b-afc6-8dde7695955d
-source-git-commit: b476c012f825afc4bc48b7172be26accc6bac0d1
+source-git-commit: 5d4434d090c4b6cdefc9c313fecccf6d6e9a510b
 workflow-type: tm+mt
-source-wordcount: '1144'
+source-wordcount: '1145'
 ht-degree: 0%
 
 ---
 
-# 在Adobe Admin Console中管理使用者
+# 在Adobe Admin Console中管理系統管理員
 
 >[!IMPORTANT]
 >

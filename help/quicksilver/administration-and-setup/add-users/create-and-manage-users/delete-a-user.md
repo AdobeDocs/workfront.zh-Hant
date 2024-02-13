@@ -8,9 +8,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: da57dea3-082b-4a86-ae13-5bf55401122e
-source-git-commit: 7467e75cf468fa6a1dd14dbc0f4fdcda87de1b1e
+source-git-commit: b3717fc89e45983b80471fdd629c79b82086c6ff
 workflow-type: tm+mt
-source-wordcount: '926'
+source-wordcount: '810'
 ht-degree: 0%
 
 ---
@@ -21,15 +21,17 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->* 從系統中刪除使用者也會刪除與您可能想要保留的使用者相關的資訊。 建議您停用使用者，而非刪除使用者。 如需詳細資訊，請參閱 [停用或重新啟用使用者](../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md).
->* 此頁面中說明的程式僅適用於尚未加入Admin Console的組織。 如果您的組織已加入Adobe Admin Console，您必須透過Adobe Admin Console執行此動作。
+>從系統中刪除使用者也會刪除與您可能想要保留的使用者相關的資訊。 建議您停用使用者，而非刪除使用者。 如需詳細資訊，請參閱 [停用或重新啟用使用者](../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md).
+<!--
+>* The procedure described on this page applies only to organizations that have not yet been onboarded to the Admin Console. If your organization has been onboarded to the Adobe Admin Console, you must perform this action through the Adobe Admin Console.
 >
->從刪除使用者 [!DNL Adobe Admin Console] 在中停用使用者 [!DNL Workfront]，但不會從中刪除它們 [!DNL Workfront].
+>Deleting a user from the [!DNL Adobe Admin Console] deactivates the user in [!DNL Workfront], but does not delete them from [!DNL Workfront].
 >
->  如需在Adobe Admin Console中刪除使用者的指示，請參閱文章中的「永久刪除使用者」一節 [個別管理使用者](https://helpx.adobe.com/enterprise/using/manage-users-individually.html) 或聯絡Adobe Admin Console管理員。
+>  For instructions on deleting a user in the Adobe Admin Console, see the section "Permanently delete users" in the article [Manage users individually](https://helpx.adobe.com/enterprise/using/manage-users-individually.html) or contact your Adobe Admin Console Administrator.
 >
->  如需根據貴組織是否已加入Adobe Admin Console而有所差異的程式清單，請參閱 [平台型管理差異(Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
+>  For a list of procedures that differ based on whether your organization has been onboarded to the Adobe Admin Console, see [Platform-based administration differences (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 >
+-->
 
 ## 存取需求
 
@@ -70,7 +72,7 @@ ht-degree: 0%
 * 它們與下列物件的關聯會維持不變：
 
    * 任務、問題、專案、投資組合
-   * 儀錶板
+   * 儀表板
 
      >[!NOTE]
      >
@@ -93,7 +95,7 @@ ht-degree: 0%
 * 刪除該使用者與下列物件的關聯：
 
    * 任務、問題、專案、投資組合
-   * 儀錶板
+   * 儀表板
 
      >[!NOTE]
      >
