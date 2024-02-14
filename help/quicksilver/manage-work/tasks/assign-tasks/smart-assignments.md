@@ -7,9 +7,9 @@ description: 在管理任務和問題指派時，您可以使用智慧指派來�
 author: Alina
 feature: Work Management
 exl-id: 8d17eff6-5ff0-4985-b575-4934a3bb7c0b
-source-git-commit: 08a7fa1f3871494c4c6b0c385a98a64735b7f7e4
+source-git-commit: 75a67f1eb32d9ec03e27a0dbe2fde1bfaf3a7d1f
 workflow-type: tm+mt
-source-wordcount: '1231'
+source-wordcount: '1245'
 ht-degree: 0%
 
 ---
@@ -63,7 +63,11 @@ ht-degree: 0%
 
   ![](assets/smart-assignments-summary-panel-nwe-350x332.png)
 
-* 當您開啟任務或問題時，在「工作總攬」區域的「首頁」區域中列出的專案的「工作總攬」欄位
+* <span class="preview">將任務新增至專案時，在「新增任務」方塊中的「工作總攬」欄位</span>
+
+  <span class="preview">![](assets/smart-assignments-new-task-modal.png)</span>
+
+* 當您開啟任務或問題時，針對「首頁」區域中列出的專案，顯示「工作總攬」欄位
 
   ![](assets/smart-assignments-in-home-nwe-350x216.png)
 
@@ -128,7 +132,7 @@ ht-degree: 0%
 
 如需詳細資訊，請參閱區段 [任務和問題的智慧指派條件](#smart-assignments-criteria-for-tasks-and-issues) 本文章內容。
 
-此階段中識別的指派會列在 **結果** 區段。 <!--update this to "Other assignments"-->
+此階段中識別的指派會列在 **其他指派** 任務指派欄位的區段。 <!--update this to "Other assignments"-->
 
 ### 任務和問題的智慧指派條件
 
