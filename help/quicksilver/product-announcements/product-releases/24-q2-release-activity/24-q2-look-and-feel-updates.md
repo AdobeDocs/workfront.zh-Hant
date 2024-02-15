@@ -4,9 +4,9 @@ description: 2024年第二季發行時間範圍內的外觀和感覺更新
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 91cb2fd85089a081192c85e373938a03a795a54b
+source-git-commit: 6e4e6ba8f960f11aeb824d29b4bbf1d75532747b
 workflow-type: tm+mt
-source-wordcount: '267'
+source-wordcount: '316'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,14 @@ ht-degree: 0%
 本頁說明在2024年第二季度發行時間範圍內對Adobe Workfront應用程式的各個區域外觀和感覺所做的小幅更新。
 
 如需2024年第二季版本所有可用變更的清單，請參閱 [2024年第二季版本總覽](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).
+
+## 兩個電子郵件範本的外觀更新
+
+>[!NOTE]
+>
+>所有客戶適用的版本：第24.2版本（2024年2月15日）
+
+用於將核准者新增至資產和用於將使用者新增至展示板的電子郵件範本已更新，以便更好地匹配其他Adobe電子郵件範本，並提高清晰度和可用性。
 
 ## 「自訂Forms」區域中索引標籤的新外觀更新
 
