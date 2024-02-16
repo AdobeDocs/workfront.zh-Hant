@@ -8,7 +8,7 @@ author: Lisa
 feature: Agile
 recommendations: noDisplay, noCatalog
 exl-id: 0c3621e2-26e5-4b9f-84cc-967761a3f050
-source-git-commit: 752caa1d94a09871b97a11400d83f28853118d33
+source-git-commit: ddff70b61a2c3b3479e278bb3bb8628ac83f5c97
 workflow-type: tm+mt
 source-wordcount: '47'
 ht-degree: 4%
@@ -23,4 +23,4 @@ ht-degree: 4%
 * [反複專案完成狀態概觀](../../../agile/use-scrum-in-an-agile-team/burndown/iteration-completion-status-overview.md)
 * [調整待執行工作圖表的大小並收合](../../../agile/use-scrum-in-an-agile-team/burndown/resize-collapse-burndown-chart.md)
 * [同步化待執行工作圖表中的資料](../../../agile/use-scrum-in-an-agile-team/burndown/sync-the-burndown-chart.md)
-* [對待執行工作圖表使用替代的小組排程](../../../agile/use-scrum-in-an-agile-team/burndown/use-alt--team-schedule-burndown-charts.md)
+* [對待執行工作圖表使用替代的小組排程](../../../agile/use-scrum-in-an-agile-team/burndown/use-alt-team-schedule-burndown-charts.md)

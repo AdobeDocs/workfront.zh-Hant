@@ -6,7 +6,7 @@ description: 互動式內容提供多種吸引觀眾的方法。 機構可使用
 author: Courtney
 feature: Digital Content and Documents
 exl-id: fdcad9c6-5508-476a-bfb8-2fe3bfbb007b
-source-git-commit: 45dac4c5e8ff584546783d561c04d137697a03a4
+source-git-commit: f783e3033a67b4702e4e2d80214cbb0c4591b922
 workflow-type: tm+mt
 source-wordcount: '603'
 ht-degree: 0%
@@ -70,7 +70,7 @@ ht-degree: 0%
 
 準備ZIP套件組合檔案後，請建立互動式校訂。
 
-如需詳細資訊，請參閱 [在ZIP檔案中建立互動式內容的校訂](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/generate-proof-interactive-content-.md).
+如需詳細資訊，請參閱 [在ZIP檔案中建立互動式內容的校訂](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/generate-proof-interactive-content.md).
 
 或者，如果您正在使用Workfront校訂，請參閱區段 [產生互動式內容的校訂](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md#generate-a-proof-for-interactive-content) 在文章中 [在Workfront Proof中產生校訂](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md).
 

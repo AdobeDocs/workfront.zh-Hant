@@ -9,7 +9,7 @@ author: Courtney
 feature: System Setup and Administration, Digital Content and Documents
 role: Admin
 exl-id: 30a41ae9-9755-4c7b-9e3b-d4a8b0ad7ee8
-source-git-commit: f670255de4826f91094060b5cc20329c54d602d6
+source-git-commit: ddff70b61a2c3b3479e278bb3bb8628ac83f5c97
 workflow-type: tm+mt
 source-wordcount: '453'
 ht-degree: 0%
@@ -34,7 +34,7 @@ Workfront中目前有三個校訂方案選項：
 
 如需關於授與和撤銷使用者在Workfront中建立和檢視校訂之存取權的資訊，請參閱 [設定使用者的校訂存取權](../../../administration-and-setup/manage-workfront/configure-proofing/configure-a-users-proofing-access.md).
 
-* 在面向外部的URL和檔案上產生靜態或互動式校樣。 如需詳細資訊，請參閱 [建立校樣](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-proofs--in-wf.md).
+* 在面向外部的URL和檔案上產生靜態或互動式校樣。 如需詳細資訊，請參閱 [建立校樣](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-proofs-in-wf.md).
 * 在校樣上包含自動化工作流程。 如需詳細資訊，請參閱 [自動化工作流程總覽](../../../review-and-approve-work/proofing/proofing-overview/automated-workflow.md).
 * 在校樣上設定存取權和訂閱設定。 如需詳細資訊，請參閱 [設定校訂的存取權和訂閱設定](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/configure-access-subscription-settings-proof.md).
 * 在Workfront中啟用使用者的校訂功能時，指派自訂校訂許可權設定檔。 如需詳細資訊，請參閱 [為使用者啟用和停用校訂（僅限舊版計畫）](../../../administration-and-setup/manage-workfront/configure-proofing/configure-a-users-proofing-access.md#enabling-and-disabling-proofing-for-a-user) 在 [設定使用者的校訂存取權](../../../administration-and-setup/manage-workfront/configure-proofing/configure-a-users-proofing-access.md).

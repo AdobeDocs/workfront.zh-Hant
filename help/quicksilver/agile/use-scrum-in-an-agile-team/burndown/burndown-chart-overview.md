@@ -2,29 +2,29 @@
 content-type: overview
 product-area: agile-and-teams
 navigation-topic: burndown
-title: 敏捷燃耗圖概述
-description: 燃耗圖以視覺化方式呈現動態在迭代或專案中的進度。 實際燃耗率是根據迭代或項目時間軸的理想燃耗率測量的。
+title: 敏捷待執行工作圖表總覽
+description: 待執行工作圖表提供內文在反複專案或專案中進度方式的視覺化表示。 實際待執行工作速率是根據反複專案或專案時間表理想的待執行工作速率來測量。
 author: Lisa
 feature: Agile
 exl-id: 414e3315-35ed-4aa4-a2d8-be42ec585f29
-source-git-commit: 373f2522b85196d6395f189ae6cfe03449cac61a
+source-git-commit: ddff70b61a2c3b3479e278bb3bb8628ac83f5c97
 workflow-type: tm+mt
 source-wordcount: '936'
 ht-degree: 0%
 
 ---
 
-# 敏捷燃耗圖概述
+# 敏捷待執行工作圖表總覽
 
-燃耗圖以視覺化方式呈現動態在迭代中的進度。 實際燃耗率根據迭代時間軸的理想燃耗率來測量。
+待執行工作圖表提供內文在反複專案中的進度視覺化表示。 實際待執行工作速率是依照反複專案時間表的理想待執行工作速率來測量。
 
-燃耗圖會根據所選日期進行調整。 預設為當天。 選擇前一天時，燃耗圖中的所有資料和 [!UICONTROL 完成狀態] 系統會重新計算燃耗圖上方的區段，以呈現所選日期結束時的資料。 (您可以選取過去天數或當天；您無法選擇未來天數。)
+待執行工作圖表會根據選取的日期進行調整。 目前日期是預設值。 選取前一天時，待執行工作圖表中的所有資料以及 [!UICONTROL 完成狀態] 待執行工作圖表上方的區段會重新計算，以呈現所選日期結束時的資料。 （您可以選取過去幾天或當天，但無法選取未來的天數。）
 
 ![](assets/agile-iteration-burndown-350x88.png)
 
-## 視覺指標
+## 視覺指示器
 
-燃耗圖包含以下可視指示器：
+待執行工作圖表包含下列視覺化指示器：
 
 <table style="table-layout:auto"> 
  <col> 
@@ -32,64 +32,64 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader"> <img src="assets/agile-iteration-burndown-dottedblue.png" alt=""> </td> 
-   <td> <p>基於迭代開始時的理想燃耗率。</p> <p>如果小版本的範圍從未更改（小時或點從未添加或刪除），則不會顯示此行。</p> <p>這行在休息一天完成工作時會顯示為平整。 如需詳細資訊，請參閱 <a title="使用敏捷燃耗圖" href="#how-days-off-affect-the-burndown-chart" class="MCXref xref">休息天數如何影響燃耗圖</a>.</p> </td> 
+   <td> <p>理想的待執行工作速率（根據反複專案開始的時間）。</p> <p>如果反複專案的範圍從未變更（不會新增或移除時數或點），則不會顯示此行。</p> <p>此線條在休息日完成工作時顯示為平坦。 如需詳細資訊，請參閱 <a title="使用敏捷待執行工作圖表" href="#how-days-off-affect-the-burndown-chart" class="MCXref xref">休假如何影響待執行工作圖表</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <img src="assets/agile-iteration-burndown-solidblue.png" alt=""> </td> 
-   <td> <p>基於當前故事或任務的理想燃耗率。</p> <p>當小時或點在迭代開始後添加到迭代或從迭代中刪除時，當前的理想燃耗率（實藍線）與原始的理想燃耗率（虛藍線）不同。</p> <p>這行在休息一天完成工作時會顯示為平整。</p> <p>如需詳細資訊，請參閱 <a title="使用敏捷燃耗圖" href="#how-days-off-affect-the-burndown-chart" class="MCXref xref">休息天數如何影響燃耗圖</a>.</p> </td> 
+   <td> <p>根據目前劇本或任務的理想待執行工作速率。</p> <p>當反複專案開始後，在反複專案中加入或移除時數或點時，目前的理想待執行專案速率（實心藍線）與原始的理想待執行專案速率（虛藍線）不同。</p> <p>此線條在休息日完成工作時顯示為平坦。</p> <p>如需詳細資訊，請參閱 <a title="使用敏捷待執行工作圖表" href="#how-days-off-affect-the-burndown-chart" class="MCXref xref">休假如何影響待執行工作圖表</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <img src="assets/agile-iteration-burndown-red.png" alt=""> </td> 
-   <td> <p>當燃耗率小於理想值時，實際燃耗率以紅色顯示（比理想燃耗計算剩餘的點數或小時數多）。</p> <p>以下公式用於計算實際燃耗率：</p> <p>[SUM（進行中工作的點值或小時值*完成百分比）+已完成工作的點值或小時值]</p> </td> 
+   <td> <p>當待執行工作速率小於理想值（每天剩餘的點數或小時數多於理想的待執行工作計算）時，實際待執行工作速率會以紅色顯示。</p> <p>下列公式用於計算實際待執行工作速率：</p> <p>[SUM（進行中工作的點或小時值*完成百分比） +完成工作的點或小時值]</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <img src="assets/agile-iteration-burndown-green.png" alt=""> </td> 
-   <td> <p>當燃耗率等於或優於理想時，實際燃耗率以綠色表示（等於或小於理想燃耗計算時的每天剩餘點）。</p> <p>以下公式用於計算實際燃耗率：</p> <p>[SUM（進行中工作的點值或小時值*完成百分比）+已完成工作的點值或小時值]</p> </td> 
+   <td> <p>當待執行工作速率等於或高於理想值（相等於或低於理想待執行工作計算的每日剩餘點數）時，實際待執行工作速率會以綠色顯示。</p> <p>下列公式用於計算實際待執行工作速率：</p> <p>[SUM（進行中工作的點或小時值*完成百分比） +完成工作的點或小時值]</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <img src="assets/agile-iteration-burndown-scope.png" alt=""> </td> 
-   <td> <p>範圍的更改（小時或點從小版本中添加或刪除）。</p> <p>範圍變更一律會在當天中旬顯示為垂直線。 此外，在發生範圍更改的任何一天的中間都顯示一個藍點。</p> <p>燃耗圖的垂直軸顯示故事點或小時。</p> </td> 
+   <td> <p>範圍變更（在反複專案中新增或移除時數或點）。</p> <p>範圍變更一律在白天中間顯示為垂直線。 此外，每當發生範圍變更時，中間都會顯示藍色圓點。</p> <p>待執行工作圖表的垂直軸顯示本文點或小時。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <img src="assets/agile-iteration-burndown-scope.png" alt=""> </td> 
-   <td> <p>日期範圍的變更（迭代持續時間可以增加或減少）。</p> <p>在小版本持續時間變更的任何一天中，都會顯示一個藍點。</p> </td> 
+   <td> <p>日期範圍變更（反複專案持續時間會增加或減少）。</p> <p>任何反複專案持續時間變更的日子中間都會顯示一個藍色點。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <img src="assets/agile-iteration-burndown-scope.png" alt=""> </td> 
-   <td> <p>每次工作被燒毀時，實際燃耗率上都會顯示一個綠色或紅色點。 (當當天實際燃耗率為紅色時，點為紅色；當當天的實際燃耗率為綠色時，點為綠色。)</p> <p>發生下列任一情況時，將燒毀工作：</p> 
+   <td> <p>每次工作燒毀時，實際燒毀率都會顯示綠色或紅點。 （當當天的實際待執行工作速率是紅色時，點代表紅色；噹噹噹天的實際待執行工作速率是綠色時，點代表綠色。）</p> <p>發生下列任一情況時，工作就會被燒毀：</p> 
     <ul> 
-     <li> [!UICONTROL百分比完成]在文章中增加。<br>[!UICONTROL百分比完成]在下列情況下增加： 
+     <li> [！UICONTROL完成百分比]會增加到劇本上。<br>[！UICONTROL完成百分比]在下列情況下會增加： 
       <ul> 
        <li> <p>手動變更</p> </li> 
-       <li> <p>動態更新的點數或小時數</p> </li> 
+       <li> <p>內文上的點數或小時數已更新</p> </li> 
       </ul></li>  
-     <li>動態狀態已變更為[!UICONTROL Complete]</li> 
+     <li>內文的狀態已變更為[！UICONTROL完成]</li> 
     </ul> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## 休息天數如何影響燃耗圖 {#how-days-off-affect-the-burndown-chart}
+## 休假如何影響待執行工作圖表 {#how-days-off-affect-the-burndown-chart}
 
-中定義的預設排程 [!DNL Workfront] 通過從燃耗中排除休假天數（週末和節假日），影響燃耗圖。 燃耗圖使用預設計畫來定義工作日(如  [建立排程](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md))。
+中定義的預設排程 [!DNL Workfront] 會透過從待執行工作排除休假（週末和假日）來影響待執行工作圖表。 待執行工作圖表使用預設排程來定義工作天（如所述）  [建立排程](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md))。
 
-敏捷團隊可定義替代排程，以合併特定於團隊的非工作日（如文章所述） [對折磨圖使用替代的團隊計畫](../../../agile/use-scrum-in-an-agile-team/burndown/use-alt--team-schedule-burndown-charts.md))。 然後，此替代計畫將反映在分配給團隊的任何小版本的燃耗圖中。 備用計畫只影響燃耗圖。
+敏捷團隊可以定義替代排程（如文章所述），以合併團隊特定的非工作日 [對待執行工作圖表使用替代的小組排程](../../../agile/use-scrum-in-an-agile-team/burndown/use-alt-team-schedule-burndown-charts.md))。 然後，此替代排程會反映在指派給團隊之任何反複專案的待執行工作圖表中。 替代排程只會影響待執行工作圖表。
 
-只有符合以下條件時，燃耗圖才會反映天數：
+只有在下列情況下，休假才會反映在待執行工作圖表中：
 
-* 工作之前是在休息日登錄的。 （會顯示記錄工作的日期。）
+* 工作先前是借一天休假來登入。 （會顯示工作記錄的日期。）
 
-   當工作記錄在休息日時：
+  當工作已登入休息日時：
 
-   * 計算理想燃耗時不包括記錄的任何工作，因為沒有計畫團隊執行任何工作。
-   * 理想的燃耗線（實藍線和虛藍線）在工作完成時或查看燃耗圖的當天（如果您在休息日查看），在燃耗圖中顯示為扁平。
-   * 計算其他燃耗統計資料（如估計完成情況和每天的平均點數或小時數）時，將包括記錄的工作。
+   * 計算理想的待執行工作時不包括任何記錄的工作，因為團隊未排程進行任何工作。
+   * 理想的待執行工作線（實心藍線和虛線藍線）會顯示在待執行工作圖中的任何一天或您檢視待執行工作圖的那一天（如果您在休息日檢視），顯示為平坦。
+   * 計算其他待執行工作統計資料（例如預估完成和平均每日點數或時數）時，會包含記錄的工作。
 
-* 你在休息一天查看燃耗圖。 （您檢視的日期會顯示在燃耗圖上。）
-* 您在休息日完成小版本的剩餘總工作。
+* 您正在休息日檢視待執行工作圖表。 （您檢視的日期會顯示在待執行工作圖表上。）
+* 您已在休息日完成疊代的總剩餘工作。
 
-   當用戶在一天外完成小版本的剩餘工作總計時， [!UICONTROL 估計完成] 欄位顯示完成小版本的日期。
+  當使用者在休假日完成疊代的總剩餘工作時， [!UICONTROL 預估完成] 欄位顯示完成反複運算的日期。
 
-   在計畫小版本時，如果為非工作日設定小版本結束日期，而小版本正在跟蹤以按時完成，則 [!UICONTROL 估計完成] 日期設定在您設定的迭代結束日期之前的最後一個工作日（因為沒有計畫在非工作日燒錄工作）。
+  規劃反複專案時，如果您為非工作日設定反複專案結束日期，且反複專案正在追蹤以準時完成，則 [!UICONTROL 預估完成] 日期設定為您設定的反複專案結束日期之前的最後一個工作日（因為未排程在非工作日燒錄工作）。
 
-   在計畫小版本時指定小版本的終止日期，如文章所述 [建立小版本](../../../agile/use-scrum-in-an-agile-team/iterations/create-an-iteration.md).
+  反複專案的結束日期會在計畫反複專案時指定，如文章所述 [建立反複專案](../../../agile/use-scrum-in-an-agile-team/iterations/create-an-iteration.md).

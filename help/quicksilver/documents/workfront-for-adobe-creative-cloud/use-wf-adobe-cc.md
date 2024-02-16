@@ -6,7 +6,7 @@ description: 您可以使用Workfront擴充功能，將您在Adobe Illustrator�
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: 40945eac-e8de-42af-b6ba-f3082c208e02
-source-git-commit: c264c0c96b818934a7c25ed54c7666d2d6c95e54
+source-git-commit: ddff70b61a2c3b3479e278bb3bb8628ac83f5c97
 workflow-type: tm+mt
 source-wordcount: '3076'
 ht-degree: 0%
@@ -285,7 +285,7 @@ ht-degree: 0%
 
 ## 從Illustrator或InDesign產生校訂 {#generate-a-proof-from-illustrator-or-indesign}
 
-如果您的組織使用自動化工作流程範本，您無需離開應用程式，即可為您在Adobe應用程式中建立的檔案產生校訂。 如需關於建立校訂的資訊，請參閱 [建立校樣](../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-proofs--in-wf.md). 如需有關自動化工作流程範本的資訊，請參閱 [自動化工作流程範本](../../review-and-approve-work/proofing/proofing-overview/automated-workflow.md#automate) 在 [自動化工作流程總覽](../../review-and-approve-work/proofing/proofing-overview/automated-workflow.md).
+如果您的組織使用自動化工作流程範本，您無需離開應用程式，即可為您在Adobe應用程式中建立的檔案產生校訂。 如需關於建立校訂的資訊，請參閱 [建立校樣](../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-proofs-in-wf.md). 如需有關自動化工作流程範本的資訊，請參閱 [自動化工作流程範本](../../review-and-approve-work/proofing/proofing-overview/automated-workflow.md#automate) 在 [自動化工作流程總覽](../../review-and-approve-work/proofing/proofing-overview/automated-workflow.md).
 
 1. 開啟其中一個支援的Adobe應用程式。
 1. 如果未顯示Workfront擴充功能，請按一下 **視窗** > **擴充功能** >Workfront。
