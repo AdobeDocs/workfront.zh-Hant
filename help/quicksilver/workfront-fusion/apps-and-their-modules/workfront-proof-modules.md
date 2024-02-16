@@ -9,7 +9,7 @@ description: 在 [!DNL Adobe Workfront Fusion] 情境中，您可以使用自動
 author: Becky
 feature: Workfront Fusion, Workfront Proof, Digital Content and Documents
 exl-id: f5c6fb08-880d-4432-aef1-57db13b3ecdb
-source-git-commit: 94ebd79a566ca946944339e3a5c1df9b3d2d2608
+source-git-commit: 614fd206ea2c5fe103beb5be8f5ff99c8a45a502
 workflow-type: tm+mt
 source-wordcount: '3099'
 ht-degree: 0%
@@ -102,7 +102,7 @@ ht-degree: 0%
                 <td>輸入您的密碼 [!DNL Workfront Proof] 帳戶。</td>
             </tr>
             <tr>
-                <td  role="rowheader">[！UICONTROL租使用者名稱稱]</td>
+                <td  role="rowheader">[！UICONTROL租使用者ID]</td>
                 <td><strong>注意</strong>：不使用BYOK的客戶必須將此欄位留空。 <p>輸入此帳戶的租使用者ID。 如果您需要協助尋找租使用者ID，請聯絡Workfront客戶支援。</p></td>
             </tr>
             <tr>

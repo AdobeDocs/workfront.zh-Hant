@@ -4,13 +4,13 @@ product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
 title: 使用舊版表單產生器新增自訂欄位至自訂表單
 description: 處理自訂表單時，您可以建立新的自訂欄位並將其新增到自訂表單。 您也可以新增已新增至其他自訂表單的自訂欄位。
-author: Caroline
+author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 3579ae0f-1d2e-4ff5-bbdf-58fdd20d01d7
-source-git-commit: 9b4faccb6b4d61970abb69af60a0e8d47c9408e7
+source-git-commit: 0100baa3ce3eb266cf650eacfc94120f7c9eb49b
 workflow-type: tm+mt
-source-wordcount: '2305'
+source-wordcount: '2335'
 ht-degree: 2%
 
 ---
@@ -90,7 +90,7 @@ ht-degree: 2%
       <ul><li>使用者</li>
       <li>群組</li>
       <li>職務角色</li>
-      <li>專案組合</li>
+      <li>Portfolio</li>
       <li>方案</li>
       <li>專案</li>
       <li>團隊</li>
@@ -143,7 +143,7 @@ ht-degree: 2%
       <td> <p>（必要）輸入描述性標籤，以在自訂欄位上方顯示。 您可以隨時變更標籤。</p> <p><b>重要</b>：請避免在此標籤中使用特殊字元。 它們在報表中無法正確顯示。</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">名稱</td> 
+      <td role="rowheader">姓名</td> 
       <td> <p>（必要）此名稱是當您新增自訂欄位至Workfront的各個區域時（例如報表、首頁和API互動），系統識別該欄位的方法。</p> <p>當您第一次設定自訂欄位並輸入標籤時，會自動填入「名稱」欄位以符合它。 但是「標籤」和「名稱」欄位不同步，這可讓您自由地變更使用者看到的標籤，而不必變更系統看到的名稱。</p> 
       <p><b>重要</b>：   
       <ul> 
@@ -165,6 +165,8 @@ ht-degree: 2%
    <p><strong>範例：</strong> 如果您將某個欄位的數值儲存為至少一個物件上文字格式的欄位，稍後又將格式變更為數字或貨幣，則不會發生錯誤。 </p>
       <p>不過，如果您將英數字元值儲存在欄位中，且此欄位具有至少一個物件的「文字」格式，然後嘗試將格式變更為「數字」或「貨幣」，您將會遇到錯誤，因為儲存的英數字元值與「數字」或「貨幣」格式不相容。 </p>
 
+   <p><strong>注意：</strong> 數字欄位的字元限製為16。 您也可以使用文字欄位來輸入數字並避免限制。</p>
+
    </td> 
      </tr> 
      <tr> 
@@ -181,7 +183,7 @@ ht-degree: 2%
      </tr> 
      <tr> 
       <td role="rowheader">參考物件類型</td> 
-      <td> <p>（僅限預先輸入欄位）選取您要與欄位關聯的物件型別。</p> <p>按一下「套用」或「儲存+關閉」後，就無法變更欄位的物件型別。</p> <p><b>附註</b>:   
+      <td> <p>（僅限預先輸入欄位）選取您要與欄位關聯的物件型別。</p> <p>按一下「套用」或「儲存+關閉」後，就無法變更欄位的物件型別。</p> <p><b>注意</b>：   
         <ul> 
          <li>如果您的Workfront管理員在Workfront使用者介面中為「Portfolio」、「程式」或「專案」自訂名稱，此下拉式清單中會顯示物件的預設Workfront名稱，而非自訂名稱。 如果您需要這方面的協助，請洽詢Workfront管理員。<br></li> 
          <li>iOS和Android Workfront Mobile應用程式支援下列物件型別：使用者、公司、群組、工作角色、Portfolio、方案、專案和範本。</li> 
@@ -194,7 +196,7 @@ ht-degree: 2%
         <li>它們屬於您指定的群組</li> 
         <li>它們與您指定的角色或職稱相關聯</li> 
         <li>他們與使用欄位的人屬於同一群組</li> 
-       </ul> <p>您必須使用「文字模式」語法來定義所選物件型別的濾鏡。 如需使用「文字模式」建立篩選的詳細資訊，請參閱區段 <a href="../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md#editing2" class="MCXref xref">在篩選器中編輯文字模式</a> 在文章中 <a href="../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md" class="MCXref xref">文字模式概觀</a>. </p> <p><b>附註</b>:   
+       </ul> <p>您必須使用「文字模式」語法來定義所選物件型別的濾鏡。 如需使用「文字模式」建立篩選的詳細資訊，請參閱區段 <a href="../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md#editing2" class="MCXref xref">在篩選器中編輯文字模式</a> 在文章中 <a href="../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md" class="MCXref xref">文字模式概觀</a>. </p> <p><b>注意</b>：   
         <ul> 
          <li>如果您正在編輯現有的自訂表單，將篩選條件新增至預先輸入欄位時，不會移除使用者已使用該欄位新增的任何物件（在篩選條件範圍之外）。</li> 
          <li>此篩選器不適用於行動裝置。 如果您針對「預先輸入」欄位使用篩選器，則該欄位將會顯示在不受篩選器影響之使用者的行動裝置上。</li> 
