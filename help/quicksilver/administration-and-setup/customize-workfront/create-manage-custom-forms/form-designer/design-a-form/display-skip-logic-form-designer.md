@@ -7,16 +7,20 @@ description: 您可以根據使用者在填寫自訂表單時所做的選擇，�
 author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
-source-git-commit: 2d46a047db8117983978f1411095bc8c022abbe2
+source-git-commit: 930a04e02d73b75a6dac957e4dfbc76a5f73246f
 workflow-type: tm+mt
-source-wordcount: '1298'
+source-wordcount: '1358'
 ht-degree: 0%
 
 ---
 
 # 使用表單設計工具新增顯示邏輯和略過邏輯
 
-{{highlighted-preview-article-level}}
+<span class="preview">本頁資訊所提及的功能尚未普遍提供。 它僅適用於所有客戶的預覽環境，或適用於啟用快速發行的客戶的生產環境。</span>
+
+<span class="preview">如需快速發行版本的相關資訊，請參閱 [啟用或停用組織的快速發行](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
+
+<span class="preview">如需目前版本的相關資訊，請參閱 [2024年第二季版本總覽](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>
 
 您可以根據使用者在填寫自訂表單時所做的選擇，決定應顯示或略過哪些區段。
 

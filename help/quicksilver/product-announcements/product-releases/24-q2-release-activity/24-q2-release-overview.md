@@ -4,9 +4,9 @@ description: 此頁面提供2024年第二季度版本中包含的功能相關資
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 6e4e6ba8f960f11aeb824d29b4bbf1d75532747b
+source-git-commit: 930a04e02d73b75a6dac957e4dfbc76a5f73246f
 workflow-type: tm+mt
-source-wordcount: '786'
+source-wordcount: '788'
 ht-degree: 0%
 
 ---
@@ -54,16 +54,19 @@ ht-degree: 0%
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">表單設計工具Beta版現在提供略過邏輯和顯示邏輯</a><span style="color: #ff0000;"> 預覽中的新增專案！</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">表單設計工具Beta版現在提供略過邏輯和顯示邏輯</a></p>
                         <p>您現在可以編輯現有的顯示和略過邏輯，並在表單設計工具Beta版中新增邏輯至自訂表單。 易於使用的邏輯產生器可協助您根據表單中的選取專案定義要顯示或略過的欄位。</p>
                     </td>
                     <td><p><b>將於下列日期提供：</b></p>
                         <ul>
                             <li>
-                                <p>預覽版本： 2024年2月8日<br /></p>
+                                <p>預覽版本： 2024年2月8日</p>
                             </li>
                             <li>
-                                <p><span class="preview">適用於所有客戶的生產：24.2版（2024年2月15日）</span></p>
+                                <p>快速發行生產：24.2版（2024年2月15日）</p>
+                            </li>
+                            <li>
+                                <p>適用於所有客戶的生產：待定</p>
                             </li>
                         </ul>
                     </td>
