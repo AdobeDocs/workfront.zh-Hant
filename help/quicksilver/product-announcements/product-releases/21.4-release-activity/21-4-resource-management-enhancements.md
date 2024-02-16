@@ -6,7 +6,7 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: c978e88b-ee07-4af9-b5df-cb62dab4b3ac
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
 workflow-type: tm+mt
 source-wordcount: '360'
 ht-degree: 0%
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 此頁面說明21.4版本對「預覽」環境所做的所有資源管理增強功能。 這些增強功能將在2021年10月4日當週的生產環境中提供。
 
-如需21.4版本所有可用變更的清單，請參閱 [21.4版本總覽](../../../product-announcements/product-releases/21.4-release-activity/21.4-release-overview.md).
+如需21.4版本所有可用變更的清單，請參閱 [21.4版本總覽](../../../product-announcements/product-releases/21.4-release-activity/21-4-release-overview.md).
 
 ## 在工作負載平衡器中進行快速指派
 

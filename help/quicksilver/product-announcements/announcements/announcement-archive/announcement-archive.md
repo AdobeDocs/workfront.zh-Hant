@@ -7,9 +7,9 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: d2962100-3a64-47a9-a67c-5ebf6a594711
-source-git-commit: 417b8c081a1940b112e8cfbd6d9216d802dc8f8e
+source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
 workflow-type: tm+mt
-source-wordcount: '105'
+source-wordcount: '114'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 0%
 * [取代Adobe Workfront中的Flash型工具](replace-flash-tools.md)
 * [全新Adobe Workfront管理系統，以21.1取代請求佇列的POP電子郵件](pop-removal-request-queue.md)
 * [全新Adobe Workfront管理系統，以21.1取代請求佇列的POP電子郵件](pop-removal-request-queue.md)
-* [Adobe Workfront 21.1版本電子郵件的新IP位址](new-email-ip-21.1.md)
+* [Adobe Workfront 21.1版本電子郵件的新IP位址](new-email-ip-21-1.md)
 * [電子郵件詐騙和POP回覆](email-spoofing-pop-reply-message.md)
 * [叢集1、2和3的客戶必須更新任何允許清單IP區塊，以防止封鎖Adobe Workfront服務](clusters-1-3-update-whitelist.md)
 * [移除作為外寄電子郵件選項的自訂SMTP](remove-custom-smtp.md)

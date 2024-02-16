@@ -6,7 +6,7 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 6bcd332e-bd4e-4a74-bae9-9ba507299a51
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
 workflow-type: tm+mt
 source-wordcount: '950'
 ht-degree: 0%
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 本頁說明21.4版對預覽環境所做的所有專案增強功能。 這些增強功能將在2021年10月4日當週的生產環境中提供。
 
-如需21.4版本所有可用變更的清單，請參閱 [21.4版本總覽](../../../product-announcements/product-releases/21.4-release-activity/21.4-release-overview.md).
+如需21.4版本所有可用變更的清單，請參閱 [21.4版本總覽](../../../product-announcements/product-releases/21.4-release-activity/21-4-release-overview.md).
 
 ## 在更新中包含影像
 

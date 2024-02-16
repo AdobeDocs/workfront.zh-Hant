@@ -6,7 +6,7 @@ description: 在投資組合中導覽
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 6c1795ab-422f-419c-b5e9-1f1323800b39
-source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
+source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
 workflow-type: tm+mt
 source-wordcount: '637'
 ht-degree: 0%
@@ -63,7 +63,7 @@ ht-degree: 0%
    * **[!UICONTROL 全部]**：包含您至少擁有檢視存取權的所有投資組合。\
 
      如需有關存取Portfolio的詳細資訊，請參閱 [存取層級概觀](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).\
-      如需Portfolio許可權的詳細資訊，請參閱  [共用投資組合](../../../workfront-basics/grant-and-request-access-to-objects/share-a-portfolio..md).
+      如需Portfolio許可權的詳細資訊，請參閱  [共用投資組合](../../../workfront-basics/grant-and-request-access-to-objects/share-a-portfolio.md).
 
      若要新增投資組合，請參閱 [建立投資組合](../../../manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md).
 

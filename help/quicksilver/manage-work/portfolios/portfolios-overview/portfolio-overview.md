@@ -7,7 +7,7 @@ description: Portfolio是具有統一特性的專案集合。 這些專案通常
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: b340501e-1190-415e-aa96-5aad177c4b7b
-source-git-commit: d71ee30378c39975366f4f257e3f7b17aba0c0ae
+source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
 workflow-type: tm+mt
 source-wordcount: '477'
 ht-degree: 0%
@@ -31,7 +31,7 @@ Portfolio是具有統一特性的專案集合。 這些專案通常會爭奪相�
 * [!UICONTROL 檢視] Portfolio上能夠檢視它的許可權
 
 如需有關存取Portfolio的資訊，請參閱 [存取層級概觀](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).\
-如需Portfolio許可權的相關資訊，請參閱 [共用投資組合](../../../workfront-basics/grant-and-request-access-to-objects/share-a-portfolio..md).
+如需Portfolio許可權的相關資訊，請參閱 [共用投資組合](../../../workfront-basics/grant-and-request-access-to-objects/share-a-portfolio.md).
 
 如需有關使用程式的資訊，請參閱 [建立方案](../../../manage-work/portfolios/create-and-manage-programs/create-program.md).
 

@@ -7,7 +7,7 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: a2c34117-e03c-4394-9b81-7c18433531d1
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
 workflow-type: tm+mt
 source-wordcount: '837'
 ht-degree: 0%
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 本頁說明20.3版中針對「生產」環境所做的所有資源管理增強功能。 這些增強功能已在2020年8月10日當週的生產環境中推出。
 
-如需20.3版所有可用變更的清單，請參閱 [20.3版本總覽](../../../product-announcements/product-releases/20.3-release-activity/20.3-release-overview.md).
+如需20.3版所有可用變更的清單，請參閱 [20.3版本總覽](../../../product-announcements/product-releases/20.3-release-activity/20-3-release-overview.md).
 
 ## 包括問題時數在指派的工作區域工作負載平衡器
 

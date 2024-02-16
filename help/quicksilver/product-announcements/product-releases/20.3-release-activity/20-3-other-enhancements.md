@@ -7,7 +7,7 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 6fef7261-114f-4c26-861e-61a4acb22d40
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
 workflow-type: tm+mt
 source-wordcount: '1503'
 ht-degree: 0%
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 本頁說明生產環境第20.3發行版本所做的所有其他增強功能。 這些增強功能已在2020年8月10日當週的生產環境中推出。
 
-如需20.3版所有可用變更的清單，請參閱 [20.3版本總覽](../../../product-announcements/product-releases/20.3-release-activity/20.3-release-overview.md).
+如需20.3版所有可用變更的清單，請參閱 [20.3版本總覽](../../../product-announcements/product-releases/20.3-release-activity/20-3-release-overview.md).
 
 ## 與私人連結共用行事曆
 

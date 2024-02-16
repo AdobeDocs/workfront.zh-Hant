@@ -8,7 +8,7 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 3affee76-347e-4610-b255-4b1bb4414c5d
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
 workflow-type: tm+mt
 source-wordcount: '3658'
 ht-degree: 0%
@@ -365,7 +365,7 @@ This section will be updated with more information prior to the 20.4 release bei
 
 為了提高成功的電子郵件傳送，我們在21.1生產版本中為叢集1、2、3、4和5新增新的IP位址。
 
-如需有關您需要為叢集新增哪些IP位址的詳細資訊，請參閱 [Adobe Workfront 21.1版本電子郵件的新IP位址](../../../product-announcements/announcements/announcement-archive/new-email-ip-21.1.md).
+如需有關您需要為叢集新增哪些IP位址的詳細資訊，請參閱 [Adobe Workfront 21.1版本電子郵件的新IP位址](../../../product-announcements/announcements/announcement-archive/new-email-ip-21-1.md).
 
 若要瞭解您正在使用的叢集，請前往「設定>系統>客戶資訊」。
 

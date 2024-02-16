@@ -8,7 +8,7 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 264eed40-6d90-498b-83cc-2500c8b19c84
-source-git-commit: 4e928defe9b6271cef64f6554e91af4fc31ddeca
+source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
 workflow-type: tm+mt
 source-wordcount: '1608'
 ht-degree: 0%
@@ -73,7 +73,7 @@ ht-degree: 0%
 >
 >部分Workfront整合在啟用允許清單時無法運作，因為它們無法設定靜態IP位址。 若要使用下列整合，您必須停用允許清單。
 >
->* 適用於G Suite的Workfront
+>* 適用於 G Suite 的 Workfront
 >* 適用於Outlook的Workfront
 >* 適用於Salesforce的Workfront
 
@@ -124,7 +124,7 @@ ht-degree: 0%
      <li>52.14.70.114</li> 
      <li>52.15.230.220</li> 
      <li>54.71.252.65</li> 
-    </ul> <p>如需有關下列IP位址的資訊，請參閱 <a href="../../product-announcements/announcements/announcement-archive/new-email-ip-21.1.md" class="MCXref xref">Adobe Workfront 21.1版本電子郵件的新IP位址</a></p> 
+    </ul> <p>如需有關下列IP位址的資訊，請參閱 <a href="../../product-announcements/announcements/announcement-archive/new-email-ip-21-1.md" class="MCXref xref">Adobe Workfront 21.1版本電子郵件的新IP位址</a></p> 
     <ul> 
      <li>23.251.237.107</li> 
      <li>23.251.237.108</li> 
@@ -158,7 +158,7 @@ ht-degree: 0%
 * 54.220.93.204
 * 34.254.76.122
 
-如需有關下列IP位址的資訊，請參閱 [Adobe Workfront 21.1版本電子郵件的新IP位址](../../product-announcements/announcements/announcement-archive/new-email-ip-21.1.md)
+如需有關下列IP位址的資訊，請參閱 [Adobe Workfront 21.1版本電子郵件的新IP位址](../../product-announcements/announcements/announcement-archive/new-email-ip-21-1.md)
 
 * 23.251.239.98
 * 23.251.239.99

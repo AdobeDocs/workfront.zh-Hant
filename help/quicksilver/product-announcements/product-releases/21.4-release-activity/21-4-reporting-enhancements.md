@@ -6,7 +6,7 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: db33cee1-45d3-4641-9afa-790de92654c5
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
 workflow-type: tm+mt
 source-wordcount: '333'
 ht-degree: 0%
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 本頁說明21.4版本對「預覽」環境所做的所有報表增強功能。 這些增強功能將在2021年10月4日當週的生產環境中提供。
 
-如需21.4版本所有可用變更的清單，請參閱 [21.4版本總覽](../../../product-announcements/product-releases/21.4-release-activity/21.4-release-overview.md).
+如需21.4版本所有可用變更的清單，請參閱 [21.4版本總覽](../../../product-announcements/product-releases/21.4-release-activity/21-4-release-overview.md).
 
 ## 更新清單和報告中「工作總攬」欄位的新外觀
 

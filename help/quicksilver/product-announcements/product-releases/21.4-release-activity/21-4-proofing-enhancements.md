@@ -6,7 +6,7 @@ draft: Probably
 feature: Product Announcements, Workfront Proof, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: a8141c36-3e57-47df-8f27-9166fbdf1358
-source-git-commit: ea1248f7b5227bbab222b3616ff4222122964358
+source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
 workflow-type: tm+mt
 source-wordcount: '181'
 ht-degree: 0%
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 本頁說明預覽環境的21.4版本所進行的所有「校訂」增強功能。 這些增強功能將在2021年10月4日當週的生產環境中提供。
 
-如需21.4版本所有可用變更的清單，請參閱 [21.4版本總覽](../../../product-announcements/product-releases/21.4-release-activity/21.4-release-overview.md).
+如需21.4版本所有可用變更的清單，請參閱 [21.4版本總覽](../../../product-announcements/product-releases/21.4-release-activity/21-4-release-overview.md).
 
 ## 改善檢閱者和請求者的校訂功能
 
