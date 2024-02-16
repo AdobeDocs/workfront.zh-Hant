@@ -9,9 +9,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 25813946-e338-4dd9-b02c-d20fa18c539c
-source-git-commit: 6f026590f0030b564f0d110afead9ade1acd7896
+source-git-commit: 22c8f41f725784e348c44b209b9bc1537b26c952
 workflow-type: tm+mt
-source-wordcount: '2780'
+source-wordcount: '2725'
 ht-degree: 6%
 
 ---
@@ -51,11 +51,12 @@ Kick-Start是特別格式化的Excel活頁簿，可填入您要匯入Workfront�
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定</td> 
-   <td> <p>您必須是Workfront管理員。</p> <p><b>注意</b>：</p> 
-   <p> 如果您還是沒有存取權，請詢問您的Workfront管理員，他們是否在您的存取層級中設定其他限制。 如需有關Workfront管理員如何修改您的存取層級的資訊，請參閱 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>.</p> </td> 
+   <td>您必須是Workfront管理員。 </td> 
   </tr> 
  </tbody> 
 </table>
+
+如需有關此表格的詳細資訊，請參閱 [Workfront檔案中的存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## 限制
 
@@ -200,27 +201,9 @@ Kick-Start是特別格式化的Excel活頁簿，可填入您要匯入Workfront�
      </tr>
 
    <tr> 
-      <td>舊版資源集區</td> 
-      <td>匯出為Excel檔案</td> 
-      <td> <p> 舊版資源集區</p> <p>偏好設定 </p> </td> 
-     </tr>
-
-   <tr> 
       <td>里程碑路徑</td> 
       <td> 匯出為Excel檔案</td> 
       <td> <p> 里程碑</p> <p>里程碑路徑</p> <p>偏好設定 </p> </td> 
-     </tr>
-
-   <tr> 
-      <td>非人工資源</td> 
-      <td> 匯出為Excel檔案</td> 
-      <td> <p> 非人工資源</p> <p>偏好設定</p></td> 
-     </tr>
-
-   <tr> 
-      <td>非人工資源分類</td> 
-      <td> 匯出為Excel檔案</td> 
-      <td> <p> 非人工資源分類</p> <p>偏好設定</p></td> 
      </tr>
 
    <tr> 
@@ -229,9 +212,9 @@ Kick-Start是特別格式化的Excel活頁簿，可填入您要匯入Workfront�
       <td> <p> 備註</p> <p>偏好設定 </p> </td> 
      </tr> 
      <tr> 
-      <td>專案組合</td> 
+      <td>Portfolio</td> 
       <td>匯出為Excel檔案</td> 
-      <td> <p> 專案組合</p> <p>偏好設定 </p> </td> 
+      <td> <p> Portfolio</p> <p>偏好設定 </p> </td> 
      </tr> 
      <tr> 
       <td>專案</td> 
@@ -471,7 +454,7 @@ Workfront也接受時間值做為日期的一部分。
 
 ## 將試算表資料匯入Workfront
 
-將資料填入Excel範本中後，您就可以將資料上傳至Workfront。
+將資料填入Excel範本中後，您就可以將其資料上傳至Workfront。
 
 Kick-Start匯入支援下列檔案型別：
 
@@ -485,17 +468,17 @@ Kick-Start匯入支援下列檔案型別：
   >* 報告
   >* 文件
   >* 頭像
-  >* 檢視、篩選或分組屬性檔案。
+  >* 檢視、篩選或分組屬性檔案
   >
   >使用壓縮的匯入檔案時，.ZIP檔案的名稱必須與.xlsx或.xls檔案相同，而且所有檔案都必須處於相同的結構層級（沒有資料夾）。
 
 若要將範本試算表資料匯入Workfront：
 
-{{step-1-to-setup}}
-
 <!--1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).-->
 
-1. 按一下 **系統** >**匯入資料(Kick-Start)**.
+{{step-1-to-setup}}
+
+1. 按一下 **系統** > **匯入資料(Kick-Start)**.
 
 1. 在 **使用Kick-Start試算表上傳資料** 區段，按一下 **選擇檔案**，然後瀏覽並選取填入的試算表。
 
