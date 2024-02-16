@@ -8,14 +8,16 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 3579ae0f-1d2e-4ff5-bbdf-58fdd20d01d7
-source-git-commit: 0100baa3ce3eb266cf650eacfc94120f7c9eb49b
+source-git-commit: db362bd73e51b30090708822876ad02f7804d064
 workflow-type: tm+mt
-source-wordcount: '2335'
+source-wordcount: '2313'
 ht-degree: 2%
 
 ---
 
 # 使用舊版表單產生器新增自訂欄位至自訂表單
+
+<!-- Audited: 02/2024 -->
 
 處理自訂表單時，您可以建立新的自訂欄位並將其新增到自訂表單。
 
@@ -36,30 +38,33 @@ ht-degree: 2%
  <col> 
  <tbody> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader"> <p>Adobe Workfront計畫*</p> </td> 
+   <td role="rowheader"> <p>Adobe Workfront計畫</p> </td> 
    <td>任何</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront授權*</td> 
-   <td>計劃</td> 
+   <td role="rowheader">Adobe Workfront授權</td> 
+   <td>
+   <p>新增：標準</p>
+   <p>或</p>
+   <p>目前：計畫</p></td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">存取層級設定*</td> 
-   <td> <p>管理自訂表單的存取權</p> <p>如需Workfront管理員如何授予此存取許可權的詳細資訊，請參閱 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">授予使用者管理特定區域的存取權</a>.</p> </td> 
+   <td role="rowheader">存取層級設定</td> 
+   <td>管理自訂表單的存取權 </td> 
   </tr>  
  </tbody> 
 </table>
 
-&#42;若要瞭解您擁有的計畫、授權型別或存取層級設定，請聯絡Workfront管理員。
+如需有關此表格的詳細資訊，請參閱 [Workfront檔案中的存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-## 新增自訂欄位至自訂表單
+## 新增自訂欄位至自訂表單 {#add-custom-field-to-custom-form}
 
 1. 開始建立或編輯自訂表單，如所述 [建立或編輯自訂表單](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
-1. 開啟 **新增欄位** 標籤。
+1. 選取 **新增欄位** 標籤。
 
-   ![](assets/add-a-field.jpg)
+   ![新增欄位索引標籤](assets/add-a-field.jpg)
 
-1. 替換為 **新欄位** ![](assets/new-field.jpg) 選取，選取下列其中一個欄位型別：
+1. 替換為 **新欄位** ![「新增欄位」圖示](assets/new-field.jpg) 選取，選取下列其中一個欄位型別：
 
    <table style="table-layout:auto"> 
     <col> 
@@ -77,7 +82,7 @@ ht-degree: 2%
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader">含格式的文字欄位</td> 
-      <td>允許使用者在欄位中輸入多行文字，並以粗體、斜體、底線、專案符號、編號、超連結和區塊引號來格式化文字。 這可在首頁、更新區域、清單和Workfront物件的詳細資訊區域中取得。 15,000的字元限制可提供大量的文字和格式。</p> <p>如需有關透過API存取此欄位的資訊，請參閱 <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/rich-text-field-storage-in-the-api.md" class="MCXref xref">API中的RTF文字欄位儲存</a>.</p> <p><b>注意</b>：含有格式的文字欄位不適用於Workfront行動應用程式（將於未來發行版本中提供）。 </p> </td> 
+      <td>允許使用者在欄位中輸入多行文字，並以粗體、斜體、底線、專案符號、編號、超連結和區塊引號來格式化文字。 這可在首頁、更新區域、清單和Workfront物件的詳細資訊區域中取得。 15,000的字元限制可提供大量的文字和格式。</p> <p>如需有關透過API存取此欄位的資訊，請參閱 <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/rich-text-field-storage-in-the-api.md" class="MCXref xref">API中的RTF文字欄位儲存</a>.</p> <p><b>注意</b>：含有格式的文字欄位不適用於Workfront行動應用程式。 </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">下拉</td> 
@@ -150,7 +155,7 @@ ht-degree: 2%
       <li>雖然可以這樣做，但建議您不要在您或其他使用者開始使用Workfront中的自訂表單後變更此名稱。 如果這樣做，系統將不再識別現在可能在Workfront其他區域參考該欄位的自訂欄位。 <p>例如，如果您新增自訂欄位至報表，之後又變更其名稱，Workfront將無法辨識報表中的自訂欄位，且除非您使用新名稱將其重新新增至報表，否則將無法正常運作。</p> </li>
       <li> <p>建議您不要輸入已用於內建Workfront欄位的名稱。</p> </li>
       <li><p>建議您不要在自訂欄位名稱中使用句號/點字元，以防止在Workfront的不同區域使用欄位時發生錯誤。</p></li>
-      </ul> <p>每個自訂欄位名稱在貴組織的Workfront例項中必須是唯一的。 如此一來，您便可重複使用已針對其他自訂表單建立的表單。 如需詳細資訊，請參閱 <a href="#Add" class="MCXref xref">新增自訂欄位至自訂表單</a> 本文章內容。</p> </td>
+      </ul> <p>每個自訂欄位名稱在貴組織的Workfront例項中必須是唯一的。 如此一來，您便可重複使用已針對其他自訂表單建立的表單。 如需詳細資訊，請參閱 <a href="#add-a-custom-field-to-a-custom-form">新增自訂欄位至自訂表單</a> 本文章內容。</p> </td>
      </tr> 
      <tr> 
       <td role="rowheader">指示</td> 
@@ -196,7 +201,8 @@ ht-degree: 2%
         <li>它們屬於您指定的群組</li> 
         <li>它們與您指定的角色或職稱相關聯</li> 
         <li>他們與使用欄位的人屬於同一群組</li> 
-       </ul> <p>您必須使用「文字模式」語法來定義所選物件型別的濾鏡。 如需使用「文字模式」建立篩選的詳細資訊，請參閱區段 <a href="../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md#editing2" class="MCXref xref">在篩選器中編輯文字模式</a> 在文章中 <a href="../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md" class="MCXref xref">文字模式概觀</a>. </p> <p><b>注意</b>：   
+       </ul> <p>您必須使用「文字模式」語法來定義所選物件型別的濾鏡。 如需有關使用文字模式建立篩選的資訊，請參閱 <a href="/help/quicksilver/reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md" class="MCXref xref">使用文字模式編輯篩選器</a>.</p>
+       <p><b>注意</b>：   
         <ul> 
          <li>如果您正在編輯現有的自訂表單，將篩選條件新增至預先輸入欄位時，不會移除使用者已使用該欄位新增的任何物件（在篩選條件範圍之外）。</li> 
          <li>此篩選器不適用於行動裝置。 如果您針對「預先輸入」欄位使用篩選器，則該欄位將會顯示在不受篩選器影響之使用者的行動裝置上。</li> 
@@ -225,10 +231,10 @@ ht-degree: 2%
       <p><b>重要</b>：在這裡選取或取消選取物件型別會影響與所選物件型別關聯且包含此欄位的所有自訂表單。 例如，如果您在此取消選取物件型別並儲存自訂表單，則不再追蹤包含該欄位之任何自訂表單中該物件型別的欄位值變更。</p>
        <p>在這裡為欄位選擇物件型別並儲存自訂表單後，該欄位會顯示在「設定」中「更新摘要」區域的「自訂欄位」索引標籤上。</p> 
        <p>反之，若在「設定」的「更新摘要」區域中刪除此欄位，則會在與物件型別關聯且包含此欄位的所有自訂表單上，取消選取此設定的物件型別。</p> 
-       <p>如需詳細資訊，請參閱區段 <a href="../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md#adding-fields-to-the-update-feeds" class="MCXref xref">新增您希望Workfront追蹤的欄位</a> 在文章中 <a href="../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md" class="MCXref xref">設定系統更新</a>.</p> </td> 
+       <p>如需詳細資訊，請參閱區段 <a href="/help/quicksilver/administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md#add-fields-you-want-workfront-to-track">新增您希望Workfront追蹤的欄位</a> 在文章中 <a href="/help/quicksilver/administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md">設定系統更新</a>.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">新增邏輯</td> 
+      <td role="rowheader">新增邏輯</td>
       <td>根據使用者在現有欄位中所做的選擇，指定哪些欄位應該顯示在表單上。 如需詳細資訊，請參閱 <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/display-or-skip-logic-custom-form.md" class="MCXref xref">新增顯示邏輯和略過邏輯至自訂表單</a>.</td> 
      </tr> 
      <tr> 
@@ -269,11 +275,11 @@ ht-degree: 2%
    >* 如果您變更為選項按鈕，Workfront會保留使用者在欄位中可能輸入的任何多選值，直到使用者變更並儲存表單任何部分的資料為止。 此時，使用「多重選取型別」欄位選取的任何值都會被選取的「選項按鈕」值取代。
    >* 如果您變更為單選下拉式清單，Workfront會保留使用者在欄位中可能輸入的任何多選值，直到使用者變更並儲存欄位中的值為止。 此時，使用「多重選取型別」欄位選取的任何值都會被選取的「下拉式清單」值取代。
 
-1. （選用）重複步驟2至6以新增其他自訂欄位。
+1. （選用）重複步驟3至5，以新增更多自訂欄位。
 
    或
 
-   新增已為貴組織建立的欄位，如中所述 [在自訂表單中重複使用自訂欄位或Widget](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/reuse-an-existing-field.md#add).
+   新增已為貴組織建立的欄位，如中所述 [在自訂表單中重複使用自訂欄位或Widget](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/reuse-an-existing-field.md).
 
    >[!NOTE]
    >
