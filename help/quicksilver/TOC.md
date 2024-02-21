@@ -3,7 +3,7 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文件、教學課程和其他資源，了解如何在您的組織中實施並有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: ddff70b61a2c3b3479e278bb3bb8628ac83f5c97
+source-git-commit: 321bc9e190916d417f2b981bb273bb2d01931540
 workflow-type: tm+mt
 source-wordcount: '13950'
 ht-degree: 1%
@@ -275,12 +275,12 @@ ht-degree: 1%
             * [20.3整合與行動增強功能](product-announcements/product-releases/20.3-release-activity/20-3-mobile-enhancements.md)
             * [20.3其他增強功能](product-announcements/product-releases/20.3-release-activity/20-3-other-enhancements.md)
          * 第20.2發行版本 {#release-20-2}
-            * [2020.2版本總覽](product-announcements/product-releases/2020.2.-release-activity/2020.2-release-overview.md)
-            * [2020.2行動版增強功能](product-announcements/product-releases/2020.2.-release-activity/2020.2-mobile-enhancements.md)
-            * [2020.2其他增強功能](product-announcements/product-releases/2020.2.-release-activity/2020.2-other-enhancements.md)
-            * [2020.2專案增強功能](product-announcements/product-releases/2020.2.-release-activity/2020.2-project-enhancements.md)
-            * [2020.2校訂增強功能](product-announcements/product-releases/2020.2.-release-activity/2020.2-proofing-enhancements.md)
-            * [2020.2資源管理增強功能：工作負載平衡器](product-announcements/product-releases/2020.2.-release-activity/2020.2-resource-management.md)
+            * [2020.2版本總覽](product-announcements/product-releases/2020.2.-release-activity/2020-2-release-overview.md)
+            * [2020.2行動版增強功能](product-announcements/product-releases/2020.2.-release-activity/2020-2-mobile-enhancements.md)
+            * [2020.2其他增強功能](product-announcements/product-releases/2020.2.-release-activity/2020-2-other-enhancements.md)
+            * [2020.2專案增強功能](product-announcements/product-releases/2020.2.-release-activity/2020-2-project-enhancements.md)
+            * [2020.2校訂增強功能](product-announcements/product-releases/2020.2.-release-activity/2020-2-proofing-enhancements.md)
+            * [2020.2資源管理增強功能：工作負載平衡器](product-announcements/product-releases/2020.2.-release-activity/2020-2-resource-management.md)
          * 第20.1發行版本 {#release-20-1}
             * [2020.1版本總覽](product-announcements/product-releases/2020.1-release-activity/2020-1-release-overview.md)
             * [2020.1清單增強功能](product-announcements/product-releases/2020.1-release-activity/2020-1-list-enhancements.md)
@@ -291,12 +291,12 @@ ht-degree: 1%
             * [2020.1資源管理增強功能](product-announcements/product-releases/2020.1-release-activity/2020-1-resource-management-enhancements.md)
             * [2020.1版之前發行到生產環境的其他Workfront Classic功能](product-announcements/product-releases/2020.1-release-activity/prior-to-2020-1.md)
          * 2019.4版本 {#release-19-4}
-            * [2019.4版本總覽](product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019.4-release-activity-overview.md)
-            * [2019.4清單增強功能](product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019.4-list-enhancements.md)
-            * [2019.4行動版增強功能](product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019.4-mobile-enhancements.md)
-            * [2019.4其他增強功能](product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019.4-other-enhancements.md)
-            * [2019.4資源管理增強功能](product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019.4-resource-management-enhancements.md)
-            * [2019.4版之前發行到生產環境的其他Workfront Classic功能](product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/other-workfront-classic-features-prior-to-19.4.md)
+            * [2019.4版本總覽](product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019-4-release-activity-overview.md)
+            * [2019.4清單增強功能](product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019-4-list-enhancements.md)
+            * [2019.4行動版增強功能](product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019-4-mobile-enhancements.md)
+            * [2019.4其他增強功能](product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019-4-other-enhancements.md)
+            * [2019.4資源管理增強功能](product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019-4-resource-management-enhancements.md)
+            * [2019.4版之前發行到生產環境的其他Workfront Classic功能](product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/other-workfront-classic-features-prior-to-19-4.md)
          * 2019.3版本 {#release-19-3}
             * [2019.3版本活動概覽](product-announcements/product-releases/quarterly-release-archive/2019.3-release-activity/2019-3-release-activity-overview.md)
             * [2019.3資源規劃增強功能](product-announcements/product-releases/quarterly-release-archive/2019.3-release-activity/2019-3-resource-planning-enhancements.md)

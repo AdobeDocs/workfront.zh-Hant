@@ -7,7 +7,7 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 505a9602-580c-4932-a85c-6c9a7c8af457
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+source-git-commit: 99aac8d1621370f901704f58affd9e3e18497c4e
 workflow-type: tm+mt
 source-wordcount: '223'
 ht-degree: 12%
@@ -78,7 +78,7 @@ ht-degree: 12%
   <tr> 
    <td> <p>2020年發行</p> 
     <ul> 
-     <li><a href="../../product-announcements/product-releases/20.4-release-activity/20-4-release-overview.md" class="MCXref xref" xrefformat="{para}">20.4版本總覽</a> <li><a href="../../product-announcements/product-releases/20.3-release-activity/20-3-release-overview.md" class="MCXref xref" xrefformat="{para}">20.3版本總覽</a> </li> <li><a href="/help/quicksilver/product-announcements/product-releases/2020.2.-release-activity/2020.2-release-overview.md">2020.2版本總覽</a> </li> <li><a href="../../product-announcements/product-releases/2020.1-release-activity/2020-1-release-overview.md" class="MCXref xref" xrefformat="{para}">2020.1版本總覽</a> </li> </li> 
+     <li><a href="../../product-announcements/product-releases/20.4-release-activity/20-4-release-overview.md" class="MCXref xref" xrefformat="{para}">20.4版本總覽</a> <li><a href="../../product-announcements/product-releases/20.3-release-activity/20-3-release-overview.md" class="MCXref xref" xrefformat="{para}">20.3版本總覽</a> </li> <li><a href="/help/quicksilver/product-announcements/product-releases/2020.2.-release-activity/2020-2-release-overview.md">2020.2版本總覽</a> </li> <li><a href="../../product-announcements/product-releases/2020.1-release-activity/2020-1-release-overview.md" class="MCXref xref" xrefformat="{para}">2020.1版本總覽</a> </li> </li> 
     </ul> <p>2019年發行</p> 
     <ul> 
      <li><a href="../../product-announcements/product-releases/quarterly-release-archive/2019.3-release-activity/2019-3-release-activity-overview.md" class="MCXref xref" xrefformat="{para}">2019.3版本活動概覽</a> <li><a href="../../product-announcements/product-releases/quarterly-release-archive/2019.2-release-activity/2019-2-release-activity-overview.md" class="MCXref xref" xrefformat="{para}">2019.2版本活動概覽</a> </li> <li><a href="../../product-announcements/product-releases/quarterly-release-archive/2019.1-release-activity/2019-1-release-activity.md" class="MCXref xref" xrefformat="{para}">2019.1版本活動</a> </li> </li> 
