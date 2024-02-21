@@ -3,12 +3,12 @@ product-area: projects
 navigation-topic: update-work-items-and-view-updates
 title: 回覆電子郵件通知
 description: 您可以回應根據對專案、任務、問題和其他物件的評論所產生的Workfront電子郵件通知，將回覆新增至Adobe Workfront應用程式中所做的原始評論。
-author: Lisa and Alina
+author: Nolan and Alina
 feature: Get Started with Workfront
 exl-id: fea88410-8f37-49d0-9f5d-9fbac4ab5de6
-source-git-commit: 298b74c2d228a76c02d34470fa8298028605cab4
+source-git-commit: ea16514d15f0b00908d33e2f02dbf23e56b232d4
 workflow-type: tm+mt
-source-wordcount: '595'
+source-wordcount: '583'
 ht-degree: 1%
 
 ---
@@ -22,9 +22,11 @@ ht-degree: 1%
 * 使用電子郵件內的「評論」按鈕可導覽回Workfront並回覆更新區域的更新。
 * 回覆您收到的電子郵件。 您的回覆電子郵件會新增為原始評論的Workfront回覆。
 
+<!--
 >[!NOTE]
 >
->叢集6上的環境無法使用電子郵件回覆更新。
+>Replying to updates by email is not available for environments on Cluster 6.
+-->
 
 您可以回應針對下列物件所做評論所產生的Workfront電子郵件：
 
@@ -33,7 +35,7 @@ ht-degree: 1%
 * 問題
 * 文件
 * 範本和範本任務
-* 專案組合
+* Portfolio
 * 方案
 * 反覆項目
 * 時程表
@@ -108,6 +110,6 @@ ht-degree: 1%
 1. 在電子郵件回覆中輸入您的更新。
 
    不允許附件，且在「更新」標籤中檢視時，套用至電子郵件中更新的任何RTF格式都不會顯示在更新上。
-1. 按一下 **傳送**.
+1. 按一下「**傳送**」。
 
    您的更新會新增為物件之通訊對話串的回覆。
