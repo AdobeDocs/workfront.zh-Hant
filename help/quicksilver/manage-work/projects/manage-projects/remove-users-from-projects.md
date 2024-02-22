@@ -2,26 +2,26 @@
 product-area: projects;user-management
 navigation-topic: manage-projects
 title: 從專案移除使用者
-description: 當使用者不再參與完成專案的工作時，您可以將使用者從專案中移除。
+description: 當使用者不再參與完成專案工作時，您可以從專案中將其移除。
 author: Alina
 feature: Work Management
 exl-id: 3a75c78d-faed-41cd-a0a4-59504bb981af
-source-git-commit: 301c86152340a184345bd39cec77fdcf28258196
+source-git-commit: afbf2e2fbfcc2c527223da008518bc7632872c23
 workflow-type: tm+mt
-source-wordcount: '573'
+source-wordcount: '570'
 ht-degree: 0%
 
 ---
 
 # 從專案移除使用者
 
-當使用者不再參與完成專案的工作時，您可以將使用者從專案中移除。 從項目中刪除用戶會影響任務和問題分配以及項目角色。 已移除使用者，停止接收專案團隊專屬的通知。 如需專案團隊通知的詳細資訊，請參閱 [Adobe Workfront中提供的事件通知](../../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md).
+當使用者不再參與完成專案工作時，您可以從專案中將其移除。 從專案中移除使用者會對任務和問題指派以及專案角色產生影響。 已移除的使用者停止接收專案團隊的通知。 如需有關專案團隊通知的詳細資訊，請參閱 [事件通知型別](../../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md).
 
-與專案相關聯的使用者會列在專案的「人員」區域中。 他們代表專案團隊。 如需專案團隊的詳細資訊，請參閱 [專案團隊概觀](../../../manage-work/projects/planning-a-project/project-team-overview.md).
+與專案相關聯的使用者會列在專案的「人員」區域中。 他們代表專案團隊。 如需有關專案團隊的詳細資訊，請參閱 [專案團隊概述](../../../manage-work/projects/planning-a-project/project-team-overview.md).
 
 ## 存取需求
 
-您必須具備下列存取權，才能執行本文中的步驟：
+您必須具有下列存取權才能執行本文中的步驟：
 
 <table style="table-layout:auto"> 
  <col> 
@@ -36,47 +36,47 @@ ht-degree: 0%
    <td> <p>計劃 </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">訪問級別配置*</td> 
+   <td role="rowheader">存取層級設定*</td> 
    <td> <p>編輯專案的存取權</p> <p><b>附註</b>
 
-如果您仍無權存取，請洽詢您的Workfront管理員，他們是否在您的存取層級設定其他限制。 如需Workfront管理員如何修改您的存取層級的詳細資訊，請參閱 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>.</p> </td>
+如果您還是沒有存取權，請詢問您的Workfront管理員，他們是否在您的存取層級中設定其他限制。 如需有關Workfront管理員如何修改您的存取層級的資訊，請參閱 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>.</p> </td>
 </tr> 
   <tr> 
-   <td role="rowheader">物件權限</td> 
-   <td> <p>管理專案的權限</p> <p>有關請求其他訪問的資訊，請參閱 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">請求對對象的訪問 </a>.</p> </td> 
+   <td role="rowheader">物件許可權</td> 
+   <td> <p>管理專案的許可權</p> <p>如需請求其他存取許可權的詳細資訊，請參閱 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">要求物件的存取權 </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*若要了解您擁有的計畫、授權類型或存取權，請聯絡您的Workfront管理員。
+*若要瞭解您擁有的計畫、授權型別或存取權，請聯絡您的Workfront管理員。
 
-## 移除使用者會如何影響現有工作、問題和專案
+## 移除使用者對現有任務、問題和專案有何影響
 
-從項目中刪除用戶時，分配給他們的任何任務或問題都可能受到影響，具體取決於刪除用戶時是否已完成任務或問題：
+從專案移除使用者時，指派給他們的任何任務或問題可能會受到影響，具體取決於移除使用者時任務或問題是否已完成：
 
-* **如果移除使用者時未完成項目：** 如果已分配了作業角色，則重新將該項目分配給作業角色，或者將其分配給用戶在項目上履行的作業角色。 如果項目或用戶未分配作業角色，則必須手動重新分配項目。
-* **如果移除使用者時項目已完成：** 移除的使用者名稱仍保留在項目上。
-* **如果移除的使用者也是專案的建立者：** 專案不會從 **正在執行的項目** 清單。 系統會從清單中移除所有其他使用者的專案，這些使用者會依「輸入者」欄位來篩選該專案。
-* **如果用戶是項目所有者或贊助商：** 使用者仍擔任專案的贊助者或擁有者。
+* **如果移除使用者時專案尚未完成：** 若已指派工作角色，則會將此專案重新指派給工作角色，或將其指派給使用者在專案上所執行的工作角色。 如果專案或使用者沒有指派工作角色，您必須手動重新指派專案。
+* **如果移除使用者時專案已完成：** 移除的使用者名稱會保留在專案上。
+* **如果移除的使用者也是專案的建立者：** 此專案不會從他們的清單中移除 **我參與的專案** 清單中的「專案」區域。 該專案會從按「輸入者」欄位篩選該專案的所有其他使用者的清單中移除。
+* **如果使用者是專案所有者或贊助者：** 使用者仍以其專案贊助者或擁有者的角色保留。
 
-## 從專案和專案團隊移除使用者
+## 從專案和專案團隊中移除使用者
 
-您可以從專案團隊中移除使用者，以從專案中移除使用者。
+您可以將使用者從專案團隊中移除，將使用者從專案中移除。
 
-當使用者履行專案的角色時，就會成為專案團隊的一員。
+當使用者在專案中履行角色時，他們會成為專案團隊的一部分。
 
-從使用者在專案中的角色中移除使用者時，使用者仍是專案團隊的一員。
+當您從使用者在專案中的角色中移除使用者時，他們仍然是專案團隊的一部分。
 
-如需使用者在專案上的角色的相關資訊，請參閱 [管理專案團隊](../planning-a-project/manage-project-team.md).
+如需有關專案中使用者角色的資訊，請參閱 [管理專案團隊](../planning-a-project/manage-project-team.md).
 
-要從項目組中刪除用戶，請執行以下操作：
+若要從專案團隊中移除使用者：
 
 1. 前往您要移除使用者的專案。
 
-1. 按一下 **人員** 在左側面板中，選取您要移除的使用者。 您可能需要按一下 **顯示更多**，然後 **人員**.
+1. 按一下 **人員** 在左側面板中，然後選取您要移除的使用者。 您可能需要按一下 **顯示更多**，然後 **人員**.
 
-1. 按一下 **移除** 圖示  ![移除項目](assets/remove-icon---x-in-circle.png) ，即可取得Advertising Cloud的說明。
+1. 按一下 **移除** 圖示  ![移除專案](assets/remove-icon---x-in-circle.png) 位在使用者清單頂端。
 
-1. 按一下 **是，刪除選定用戶** 確認刪除。
+1. 按一下 **是的，移除選取的使用者** 以確認移除。
 
-   系統會從專案團隊和任何可能指派給的未完成任務或問題中移除使用者。 他們不再收到專案團隊的通知。
+   系統會將使用者從專案團隊中移除，並從其可能受指派的任何未完成任務或問題中移除。 他們不再收到專案團隊適用的通知。

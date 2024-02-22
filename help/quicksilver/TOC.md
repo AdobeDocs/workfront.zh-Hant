@@ -3,7 +3,7 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文件、教學課程和其他資源，了解如何在您的組織中實施並有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: 1ccd3441e51b3c4ea61f5bedb83f12ea27a2aac5
+source-git-commit: e99dab2bc82dd2c2a64e177cbf0c2bb11973e4f5
 workflow-type: tm+mt
 source-wordcount: '13950'
 ht-degree: 1%
@@ -656,7 +656,7 @@ ht-degree: 1%
          * [電子郵件](administration-and-setup/manage-workfront/emails/emails.md)
          * [電子郵件通知：文章索引](administration-and-setup/manage-workfront/emails/email-notifications-page.md)
          * [設定事件通知](administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md)
-         * [可用的事件通知a](administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md)
+         * [事件通知型別](administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md)
          * [解鎖所有群組的事件通知](administration-and-setup/manage-workfront/emails/unlock-configuration-of-event-notifications-for-groups.md)
          * [事件通知主旨行](administration-and-setup/manage-workfront/emails/custom-email-subjects-event-notification.md)
          * [修改使用者的電子郵件通知設定](administration-and-setup/manage-workfront/emails/modify-email-notification-settings-user-profiles.md)

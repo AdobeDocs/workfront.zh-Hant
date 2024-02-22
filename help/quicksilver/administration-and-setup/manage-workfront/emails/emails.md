@@ -10,9 +10,9 @@ feature: System Setup and Administration
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: cdc0a2bb-f125-42b2-acab-c869bc71250c
-source-git-commit: 7c1115065e4d2f4732b392336aed692c055ba97c
+source-git-commit: afbf2e2fbfcc2c527223da008518bc7632872c23
 workflow-type: tm+mt
-source-wordcount: '264'
+source-wordcount: '261'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ Workfront中的電子郵件（包括內部和外部電子郵件）是多樣且�
 
 * [電子郵件通知頁面](../../../administration-and-setup/manage-workfront/emails/email-notifications-page.md)
 * [為系統中的每個人設定事件通知](../../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md)
-* [Adobe Workfront中可用的事件通知](../../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md)
+* [事件通知型別](../../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md)
 * [解鎖或鎖定所有群組的事件通知設定](../../../administration-and-setup/manage-workfront/emails/unlock-configuration-of-event-notifications-for-groups.md)
 * [自訂事件通知的電子郵件主題](../../../administration-and-setup/manage-workfront/emails/custom-email-subjects-event-notification.md)
 * [修改多位使用者的電子郵件通知設定](../../../administration-and-setup/manage-workfront/emails/modify-email-notification-settings-user-profiles.md)
