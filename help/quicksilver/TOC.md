@@ -3,7 +3,7 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文件、教學課程和其他資源，了解如何在您的組織中實施並有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: 321bc9e190916d417f2b981bb273bb2d01931540
+source-git-commit: 1ccd3441e51b3c4ea61f5bedb83f12ea27a2aac5
 workflow-type: tm+mt
 source-wordcount: '13950'
 ht-degree: 1%
