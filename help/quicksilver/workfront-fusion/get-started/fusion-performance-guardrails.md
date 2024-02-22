@@ -8,9 +8,9 @@ description: 除了Adobe Workfront授權，Adobe Workfront Fusion還需要Adobe 
 author: Becky
 feature: Workfront Fusion
 exl-id: cdf46eb1-46ba-4707-9063-b76899195a2c
-source-git-commit: d80f84f8698d0c969dc94b46d7af70ff49c1039c
+source-git-commit: a866fec950343c73712f22a08e2e045e8b80dbd9
 workflow-type: tm+mt
-source-wordcount: '498'
+source-wordcount: '517'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,11 @@ ht-degree: 0%
 
 工作自動化需要快速處理，因此 [!DNL Adobe Workfront Fusion] 專為高效能而設計。 因為長期執行情境會減慢工作速度，我們設計 [!DNL Workfront Fusion] 提供可限制執行時間、資料大小和其他案例引數的保全效能護欄。 [!DNL Workfront Fusion] 設計人員應該注意這些護欄，並將它們融入到其設計實務中。
 
-## 情景
+## 瀏覽器
+
+Workfront Fusion僅支援Chrome瀏覽器。
+
+## 情境
 
 * 預設案例執行逾時為 **40分鐘**. 當執行達到此逾時時， [!DNL Workfront Fusion] 根據情境，會在下一個週期或作業之後中斷情境執行。 這會在達到40分鐘限制後不久強制停止情境
 * 情境Blueprint的大小上限為 **5 MB**，但建議將案例大小維持在 **3 MB**.
@@ -35,7 +39,7 @@ ht-degree: 0%
 
 * 雖然案例中的模組數量沒有上限，但超過150個模組的案例會對您的效能產生負面影響 [!DNL Workfront Fusion] 系統。 因此，我們不建議建立超過150個模組的情境。
 
-## 作業
+## 營運
 
 * 預設的作業逾時通常為 **40秒**.
 
@@ -53,7 +57,7 @@ ht-degree: 0%
 
   許多因素（例如大型檔案或複雜模組）可能會以難以預測或控制的方式影響伺服器記憶體使用率。 因此，即使案例遵循所有其他效能護欄，您的案例執行仍可能超過1 GB記憶體限制。 超過記憶體限制會導致執行失敗。
 
-## Webhooks
+## Webhook
 
 * 承載的預設大小上限為 **5 MB**.
 * Webhook僅限於 **每秒100個要求**. 當達到此限制時，Workfront Fusion會傳送429 ([!UICONTROL 太多請求])狀態。
