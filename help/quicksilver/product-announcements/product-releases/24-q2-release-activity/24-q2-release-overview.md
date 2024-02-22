@@ -4,9 +4,9 @@ description: 此頁面提供2024年第二季度版本中包含的功能相關資
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 930a04e02d73b75a6dac957e4dfbc76a5f73246f
+source-git-commit: a8637365a09b6e426b93a99a636af9f48fdfd888
 workflow-type: tm+mt
-source-wordcount: '788'
+source-wordcount: '932'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,9 @@ ht-degree: 0%
 ## Adobe Workfront增強功能
 
 * [管理員增強功能](#administrator-enhancements)
+* [首頁增強功能](#home-enhancements)
 * [專案增強功能](#project-enhancements)
+* [其他增強功能](#other-enhancements)
 
 ### 管理員增強功能
 
@@ -52,6 +54,22 @@ ht-degree: 0%
                         </p>
                     </td>
                 </tr>
+                <!--<tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">Attribute mapping now available for organizations that have migrated to Adobe IMS</a></p>
+                        <p>[!BADGE In production ]{type=Informative}</p><p>Workfront system administrators can now set up user attribute mapping for organization that have migrated to Adobe IMS. This allows user information to pass into Workfront from the organization's SSO (Single Sign-on) provider, so that the user's data does not have to be entered into both Workfront and the SSO provider.</p>
+                    </td>
+                    <td><p><b>Available on these dates:</b></p>
+                        <ul>
+                            <li>
+                                <p>Preview release: February 22, 2024</p>
+                            </li>
+                            <li>
+                                <p><span class="preview">Production release for all customers: February 22, 2024</span></p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>-->                
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">表單設計工具Beta版現在提供略過邏輯和顯示邏輯</a></p>
@@ -66,7 +84,7 @@ ht-degree: 0%
                                 <p>快速發行生產：24.2版（2024年2月15日）</p>
                             </li>
                             <li>
-                                <p>適用於所有客戶的生產：待定</p>
+                                <p>每季發行的生產：待定</p>
                             </li>
                         </ul>
                     </td>
@@ -162,7 +180,7 @@ ht-degree: 0%
                             </li>
                         </ul>
                     </td>
-                    </tr>
+                 </tr>
            </tbody>
         </table>
 
@@ -180,6 +198,42 @@ ht-degree: 0%
                     <td>
                         <p><span class="bold">發行日期</span>
                         </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-other-enhancements.md" class="MCXref xref" xrefformat="{para}">新的更新流索引標籤可擷取評論和系統活動專案</a><span style="color: #ff0000;"> 預覽中的新增專案！</span></p><p>為了讓您依時間順序呈現評論和系統活動記錄的檢視，我們將在所有物件的「更新」區域引入第三個標籤。 「全部」索引標籤會在一個內聚的串流中擷取使用者評論和系統活動評論。</p>
+                    </td>
+                    <td><p><b>將於下列日期提供：</b></p>
+                        <ul>
+                            <li>
+                                <p>預覽版本： 2024年2月22日</p>
+                            </li>
+                            <li>
+                                <p>快速發行生產：第24.3發行版本（2024年3月）</p>
+                            </li>
+                            <li>
+                                <p>每季發行生產：24.4版（2024年4月）</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>                
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-other-enhancements.md" class="MCXref xref" xrefformat="{para}">摘要面板中現在提供新的評論資料流</a><span style="color: #ff0000;"> 預覽中的新增專案！</span></p><p>我們現在已將新的評論功能新增到任務和問題清單的摘要面板。</p>
+                    </td>
+                    <td><p><b>將於下列日期提供：</b></p>
+                        <ul>
+                            <li>
+                                <p>預覽版本： 2024年2月22日</p>
+                            </li>
+                            <li>
+                                <p>快速發行生產：第24.3發行版本（2024年3月）</p>
+                            </li>
+                            <li>
+                                <p>每季發行生產：24.4版（2024年4月）</p>
+                            </li>
+                        </ul>
                     </td>
                 </tr>
                 <tr>
