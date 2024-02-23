@@ -3,31 +3,28 @@ user-type: administrator
 content-type: tips-tricks-troubleshooting
 product-area: system-administration;user-management
 navigation-topic: create-and-manage-users
-title: 映射用戶屬性並自動布建新用戶
-description: 使用單一登入(SSO)，您可以將屬性從身分提供者的Active Directory傳遞給Adobe Workfront使用者。 您也可以使用自動布建選項（也稱為「準時布建」或JIT），將新使用者新增至Workfront。
-author: Caroline
+title: 對應使用者屬性
+description: 使用單一登入(SSO)，您可以將身分提供者的Active Directory中的屬性傳遞給Adobe Workfront使用者。
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 3d523584-dcb8-4aa6-8217-611f22dc1450
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 5b1efd8000417b9368fe3eb9037ac55464579bb4
 workflow-type: tm+mt
-source-wordcount: '563'
-ht-degree: 3%
+source-wordcount: '952'
+ht-degree: 1%
 
 ---
 
-# 映射用戶屬性並自動布建新用戶
+# 對應使用者屬性
 
-使用單一登入(SSO)，您可以將屬性從身分提供者的Active Directory傳遞給Adobe Workfront使用者。 您也可以使用自動布建選項（也稱為「準時布建」或JIT），將新使用者新增至Workfront。
+<!--Audited 2/2024-->
 
->[!NOTE]
->
->如果您的組織已上線至Adobe Admin Console，則無法使用此功能。 如需詳細資訊，請洽詢您的網路或IT管理員。
-
+使用單一登入(SSO)，您可以將身分提供者的Active Directory中的屬性傳遞給Adobe Workfront使用者。
 
 ## 存取需求
 
-您必須具備下列存取權，才能執行本文中的步驟：
+您必須具有下列存取權才能執行本文中的步驟：
 
 <table style="table-layout:auto"> 
  <col> 
@@ -39,57 +36,65 @@ ht-degree: 3%
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront授權</td> 
-   <td>計劃</td> 
+   <td><p>新增：標準</p><p>或</p><p>目前：計畫</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">訪問級別配置</td> 
-   <td> <p>您必須是Workfront管理員。</p> <p><b>注意</b>:如果您仍無權存取，請洽詢您的Workfront管理員，他們是否在您的存取層級設定其他限制。 如需Workfront管理員如何修改您的存取層級的詳細資訊，請參閱 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>.</p> </td> 
+   <td role="rowheader">存取層級設定</td> 
+   <td> <p>您必須是Workfront管理員。</p> </td> 
   </tr> 
  </tbody> 
 </table>
+
+如需有關此表格的詳細資訊，請參閱 [Workfront檔案中的存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
 
 ## 對應屬性的提示
 
 對應屬性時，請牢記下列事項：
 
-* 一律在「預覽」沙箱或「客戶重新整理(CR)」沙箱中測試。
-* 使用管理員帳戶和非管理員帳戶進行測試，以確認您正在正確對應屬性。
-* 每次使用者透過SSO登入Workfront時，屬性都會對應，而不只是在自動布建期間。
+* 一律在預覽沙箱或客戶重新整理(CR)沙箱中測試。
+* 使用管理員與非管理員帳戶進行測試，以確認您正確對應屬性。
+* 每次使用者透過單一登入登入時，都會套用對應的屬性。
 
-## 映射用戶屬性並自動布建新用戶
+  範例：如果您在Workfront中對映「姓氏」並更新其名稱，而未更新其身分提供者中的值，則會在使用者下次登入時，覆寫姓氏以符合身分提供者中任何專案的值。
 
-1. 按一下 **主菜單** 圖示 ![](assets/main-menu-icon.png) 在Adobe Workfront的右上角，然後按一下 **設定** ![](assets/gear-icon-settings.png).
+## 對應組織的使用者屬性
+
+根據您的組織是否使用Adobe統一體驗，對應屬性的程式會有所不同。
+
+若要判斷您的組織是否在Adobe統一體驗中，請檢查您用來存取Workfront的URL。
+
+| URL | Adobe體驗 |
+|---|---|
+| （公司名稱）.my.workfront.com | 傳統體驗 |
+| experience.adobe.com | Adobe統一體驗 |
+
+* [在傳統體驗中對應使用者屬性](#map-user-attributes-in-the-classic-experience)
+* [在Adobe統一體驗中對應使用者屬性](#map-user-attributes-in-the-adobe-unified-experience)
+
+### 在傳統體驗中對應使用者屬性
+
+1. 按一下 **主要功能表** 圖示 ![](assets/main-menu-icon.png) (位於Adobe Workfront的右上角)，然後按一下 **設定** ![](assets/gear-icon-settings.png).
 
 1. 按一下 **系統** > **單一登入(SSO)**.
 
-1. 在 **類型** 下拉式清單，按一下 **SAML 2.0**.
+1. 在 **型別** 下拉式清單，按一下 **SAML 2.0**.
 
-1. 按一下 **映射用戶屬性**.
+1. 按一下 **對應使用者屬性**.
 
    ![](assets/map-user-attributes.png)
 
-1. （可選）如果您希望Workfront自動從Active Directory建立新用戶，請按一下 **自動布建用戶**.
+1. 在出現的選項列中，對應您Workfront使用者所需的屬性。
 
-   此功能需要屬性對應。
+   您可以對應如地址、經理、工作角色、主群組等屬性。
 
-1. 在顯示的選項列中，對應您為Workfront使用者所需的屬性。
-
-   您可以映射地址、經理、工作角色、家庭組等屬性。
-
-   屬性映射在1:1比率下工作。 例如，您無法設定使用者所屬的每個群組；您只能為每位使用者設定一個。
+   屬性對應會以1:1的比例運作。 例如，您不能設定使用者屬於的每個群組；您只能為每個使用者設定一個。
 
    >[!IMPORTANT]
    >
-   >每個使用者都需要下列屬性：
-   >      
-   >* 名字
-   >* 姓氏
-   >* 電子郵件位址
+   >我們不建議在屬性對應中對應存取層級。 如果這樣做，設定預設值時請務必小心，以免不慎移除管理員存取權。
 
-   >      
-   >我們不建議在屬性映射中映射訪問級別。 若有此設定，請務必留意設定預設值的時機，以確保不會不慎移除「管理員存取」。
-
-   下表說明了可用於映射屬性的欄位：
+   下表說明可用來對應屬性的欄位：
 
    <table style="table-layout:auto"> 
     <col data-mc-conditions=""> 
@@ -97,26 +102,71 @@ ht-degree: 3%
     <tbody> 
      <tr> 
       <td role="rowheader">Workfront 使用者屬性</td> 
-      <td>選擇要映射的屬性名稱</td> 
+      <td>選擇您要對應的屬性名稱</td> 
      </tr> 
      <tr> 
       <td role="rowheader">目錄屬性</td> 
-      <td>輸入您要使用的SSO屬性標籤。/td&gt; 
+      <td>輸入您要使用的SSO屬性標籤。</td> 
      </tr> 
      <tr> 
       <td role="rowheader">預設值</td> 
-      <td> <p>選擇「Workfront用戶屬性」後，如果連接期間的值為NULL，則此欄位將填入系統中相應的預設值。 只有在您打算套用屬性對應規則時，才在此處輸入值（請參閱步驟7）。 預設值可作為這些規則的例外。</td> 
+      <td> <p>選擇Workfront使用者屬性後，如果連線期間的值為NULL，則此欄位會填入系統中對應的預設值。 只有在您打算套用屬性對應規則時（請參閱步驟7），才能在此處輸入值。 預設值會作為這些規則的例外。</td> 
      </tr> 
     </tbody> 
    </table>
 
-1. （選用）按一下 **規則** 新增規則至屬性。
+1. （選用）按一下 **規則** 將規則新增至屬性。
 
-   1. 在下拉式清單中，選擇您要使用的屬性修飾元。
-   1. 在右側的2個欄位中，輸入目錄屬性值以及要替換它的值。
+   1. 在下拉式清單中，選取您要使用的屬性修飾元。
+   1. 在右側的2個欄位中，輸入目錄屬性值以及要取代它的值。
 
       ![](assets/rule-fields.png)
-   您可以按一下 **新增規則** 新增更多規則至屬性。
 
-1. （選用）若要對應更多使用者屬性，請按一下 **新增對應** 重複步驟6-7。
-1. 按一下&#x200B;**儲存**。
+   您可以按一下 **新增規則** 以新增更多規則至屬性。
+
+1. （選用）若要對應更多使用者屬性，請按一下 **新增對應** 並重複步驟6至7。
+1. 按一下「**儲存**」。
+
+### 在Adobe統一體驗中對應使用者屬性
+
+1. 按一下 **主要功能表** 圖示 ![](assets/main-menu-left.png) (位於Adobe Workfront左上角)，然後按一下 **設定** ![](assets/gear-icon-settings.png).
+
+1. 按一下 **系統** > **單一登入(SSO)**.
+
+1. 選取 **Adobe** 標籤。
+
+1. （選擇性和條件性）如果您的組織在傳統體驗中設定了屬性對應，而您想要將該屬性對應複製到Adobe統一體驗，請按一下 **移轉對應**. 然後，您可以捨棄、刪除或編輯這些對應。
+
+   >[!NOTE]
+   >
+   >建議您第一次在Adobe統一體驗中設定對應時移轉對應。 稍後再移轉這些檔案並沒有壞處，但不需要多次移轉。
+
+1. 若要建立新的屬性對應，請按一下 **新增對應**.
+
+1. 按一下Workfront欄位名稱旁的箭頭，然後選取 [!DNL Workfront] 要對應的欄位。
+
+1. （可選）如果要為指定欄位建立多個規則，請按一下旁邊的箭頭 **一直** 並選取您要規則使用的運運算元。
+
+1. （視條件而定）如果您在「一律」之外選取運運算元，請選取運運算元套用的Workfront欄位和值。
+
+   >[!NOTE]
+   >
+   >運運算元 `Is Truthy` 和 `Is Falsy` 不需要值。
+
+1. 選取您要將Identity Manager中的屬性值套用至Workfront欄位，或是要套用特定的常數值。
+
+1. 輸入要套用的Identity Manager欄位名稱，或輸入要套用的常數值文字。
+
+1. （選用）若要為相同的Workfront欄位新增更多規則，請按一下 **新增規則**，並依照步驟4-9執行。
+
+   >[!IMPORTANT]
+   >
+   > * 一律規則下的任何規則都會被忽略。 如果您有「一律」規則，則必須將其移至規則清單底部。 您可以按一下規則右側的三個點功能表，將規則上移或下移，以移動清單中的規則。
+   > * 若要在清單中間建立規則，請按一下要位於新規則上方或下方的規則旁的三點選單，然後選取 **新增上述規則** 或 **在下方新增規則**.
+
+1. 若要刪除規則，請按一下要刪除的規則旁的三點式功能表，然後選取 **刪除**.
+1. 若要刪除對應，請按一下 **刪除** 圖示進行該對應的卡片上。
+
+1. 若要儲存，請捲動至頁面頂端並按一下 **儲存**.
+
+
