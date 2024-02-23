@@ -4,9 +4,9 @@ description: 2024年第二季度管理員增強功能
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: a8637365a09b6e426b93a99a636af9f48fdfd888
+source-git-commit: b55217ee95a41d731c7ef1beebc3e5b32d04b48a
 workflow-type: tm+mt
-source-wordcount: '181'
+source-wordcount: '294'
 ht-degree: 0%
 
 ---
@@ -17,17 +17,17 @@ ht-degree: 0%
 
 如需2024年第二季發行週期目前可用的所有變更清單，請參閱 [2024年第二季版本總覽](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).
 
-<!--## Attribute mapping now available for organizations that have migrated to Adobe IMS
+## 屬性對應現在可供已移轉至Adobe IMS的組織使用
 
 >[!NOTE]
 >
->Preview release: February 22, 2024; Production for all customers: February 22, 2024
+>預覽版本： 2024年2月22日；適用於所有客戶的生產： 2024年2月22日
 
-Workfront system administrators can now set up user attribute mapping for organization that have migrated to Adobe IMS. This allows user information to pass into Workfront from the organization's SSO (Single Sign-on) provider, so that the user's data does not have to be entered into both Workfront and the SSO provider.
+Workfront系統管理員現在可以為已移轉至Adobe IMS的組織設定使用者屬性對應。 這可讓使用者資訊從組織的SSO （單一登入）提供者傳遞到Workfront，因此使用者的資料不必同時輸入到Workfront和SSO提供者。
 
-Previously, this functionality was only available to organizations that had not yet been onboarded to Adobe IMS.
+以前，此功能僅適用於尚未上線Adobe IMS的組織。
 
-For instructions on configuring attribute mapping, see **Map user attributes in the Adobe unified experience** in the article [Map user attributes and auto-provision new users](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/map-user-attributes.md).-->
+如需設定屬性對應的說明，請參閱 **在Adobe統一體驗中對應使用者屬性** 在文章中 [對應使用者屬性並自動布建新使用者](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/map-user-attributes.md).
 
 ## 表單設計工具Beta版現在提供略過邏輯和顯示邏輯
 
