@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: abe026d0-3584-49f3-a6db-ef88b3aab186
-source-git-commit: bec625b70b39fec9f9a6d4f7b48023702de43675
+source-git-commit: c3cb97a36c29b90bbc9d8438d8811cc23266d894
 workflow-type: tm+mt
-source-wordcount: '323'
+source-wordcount: '335'
 ht-degree: 2%
 
 ---
@@ -86,7 +86,7 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td>使用者偏好設定</td> 
-   <td> <p>已恢復為系統預設值</p> <p>電子郵件通知會恢復為系統預設值。</p> </td> 
+   <td> <p>已恢復為系統預設值</p> <p>電子郵件通知會恢復為系統預設值。 預設通知列於 <a href="/help/quicksilver/administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md">Adobe Workfront中可用的事件通知</a>.</p> </td> 
   </tr> 
   <tr> 
    <td>使用者定義的自訂標籤</td> 

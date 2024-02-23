@@ -6,9 +6,9 @@ description: 為了有效地找到工作專案並專注於您管理的使用者�
 author: Lisa
 feature: Resource Management
 exl-id: f8ffb40e-4e71-45fe-bcae-801d45d75a21
-source-git-commit: 2c4fe48ef969741ba792e37c28adba86ffdcba9a
+source-git-commit: c3cb97a36c29b90bbc9d8438d8811cc23266d894
 workflow-type: tm+mt
-source-wordcount: '2460'
+source-wordcount: '2496'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 0%
 >
 >為了有效地找到工作專案並專注於您管理的使用者或專案，我們強烈建議您在工作負載平衡器中使用篩選器。 這可讓您在開始管理資源指派之前顯示正確的資訊。
 >
->當您儲存並套用新的篩選器，然後離開工作負載平衡器時，即使您登出並重新登入，篩選器也會保留。
+>當您儲存並套用新的篩選器，然後導覽離開工作負載平衡器時，即使您登出並重新登入，篩選器也會保留。
 
 本文包含有關工作負載平衡器中的篩選器的資訊。 如需Workfront中篩選器的相關資訊，請參閱 [篩選器概觀](../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
@@ -205,6 +205,10 @@ ht-degree: 0%
       > 當您想要顯示特定投資組合中的工作物件時，可以套用以下篩選條件：「Portfolio名稱包含行銷。」 這會顯示屬於名稱中包含「行銷」之任何投資組合的工作專案。
       >
       >![](assets/portfolio-name-filter-statement-wb-350x262.png)
+
+      >[!NOTE]
+      >
+      >若要排除狀態為「保留」的專案，您必須套用下列篩選：「專案：狀態不等於「保留」。 這可防止保留專案中的工作項顯示在工作負載平衡器中。
 
    1. （可選）按一下 **刪除** 圖示 ![](assets/delete.png) 以移除篩選條件。
 
