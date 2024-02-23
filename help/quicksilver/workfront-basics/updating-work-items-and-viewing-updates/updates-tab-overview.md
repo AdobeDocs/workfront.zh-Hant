@@ -7,15 +7,17 @@ description: 物件的「更新」區段會顯示使用者對物件所做的註�
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: 73c24892c3adc30e3a2f7b331b2d818ce7f157ea
+source-git-commit: 815c0504ab1b8b02bde62258fdc939901ffa0c8c
 workflow-type: tm+mt
-source-wordcount: '1243'
+source-wordcount: '1308'
 ht-degree: 3%
 
 ---
 
 
 # 更新區段概觀
+
+{{highlighted-preview}}
 
 <!-- Audited: 1/2024 -->
 
@@ -42,14 +44,25 @@ ht-degree: 3%
 >新註解體驗僅適用於Workfront物件的「更新」區段，當您從以下區域存取物件時，將無法使用：
 >
 > * 首頁
+> * 清單中的摘要面板
 > * 時程表中的摘要面板
 > * 工作負載平衡器中的摘要面板
+>
+><span class="preview">新的評論體驗可在「預覽」環境的清單、時程表和工作負載平衡器的摘要面板中取得。</span>
 
 ## 「更新」區段的總覽
 
 物件的「更新」區段會顯示系統更新，以及使用者在過去90天內所做的最近200項更新。
 
+<div class="preview">
+
+預覽環境中的更新區段範例：
 ![更新區段](assets/updates-tab-with-unified-experience-for-issues-all-tab.png)
+
+</div>
+
+生產環境中「更新」區段的範例：
+![更新區段](assets/updates-tab-after-unified-experience-for-issues.png)
 
 根據您存取評論體驗的物件，您可能會在「更新」區段找到下列體驗：
 
@@ -89,19 +102,25 @@ ht-degree: 3%
 
 ### 新評論體驗中「更新」區段的概觀
 
+<div class="preview">
+
+預覽環境中的更新區段範例：
 ![更新區段](assets/updates-tab-after-unified-experience-for-tasks-all-tab.png)
+
+</div>
+
+生產環境中「更新」區段的範例：
+![更新區段](assets/updates-tab-after-unified-experience-for-tasks.png)
 
 >[!NOTE]
 >
 >新的註解體驗不適用於反複專案。
 
-
 * 「更新」區段在新註解體驗的以下標籤中顯示資訊：
-
 
    * **註解**：顯示使用者所做的評論以及對這些評論的回覆。 使用「註解」標籤來新增註解或回覆現有註解。 如需有關更新新註解體驗中物件的資訊，請參閱 [更新工作](../updating-work-items-and-viewing-updates/update-work.md).
    * **系統活動**：顯示系統更新，這些資訊性訊息是Workfront為記錄物件上的特定事件而建立的訊息。 例如，狀態、名稱或自訂欄位的變更會透過系統更新擷取。 您的Workfront或群組管理員可以為您的物件啟用系統更新。 如需詳細資訊，請參閱 [設定系統更新](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
-   * **全部（唯讀）**：在一個位置同時顯示使用者註解和系統活動註解。 這是僅供檢視的標籤。 您無法在[全部]索引標籤的現有註解中回覆註解或標籤其他使用者。 若要回覆特定註解，請使用「全部」標籤到「註解」標籤的連結。 如需有關更新新註解體驗中物件的資訊，請參閱 [更新工作](../updating-work-items-and-viewing-updates/update-work.md).
+   * <span class="preview">**全部（唯讀）**：在一個位置同時顯示使用者註解和系統活動註解。 這是僅供檢視的標籤。 您無法在[全部]索引標籤的現有註解中回覆註解或標籤其他使用者。 若要回覆特定註解，請使用「全部」標籤到「註解」標籤的連結。 如需有關更新新註解體驗中物件的資訊，請參閱 [更新工作](../updating-work-items-and-viewing-updates/update-work.md).</span>
 
 * 下列物件沒有「系統活動」標籤：
 
