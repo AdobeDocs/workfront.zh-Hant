@@ -4,9 +4,9 @@ description: 此頁面提供2024年第二季度版本中包含的功能相關資
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: b55217ee95a41d731c7ef1beebc3e5b32d04b48a
+source-git-commit: 47bfc377f593758e16793dd9999dda12a9b82ca9
 workflow-type: tm+mt
-source-wordcount: '1013'
+source-wordcount: '1026'
 ht-degree: 0%
 
 ---
@@ -36,6 +36,7 @@ ht-degree: 0%
 * [管理員增強功能](#administrator-enhancements)
 * [首頁增強功能](#home-enhancements)
 * [專案增強功能](#project-enhancements)
+* [更新流和通知增強功能](#update-stream-and-notification-enhancements)
 * [其他增強功能](#other-enhancements)
 
 ### 管理員增強功能
@@ -184,7 +185,7 @@ ht-degree: 0%
            </tbody>
         </table>
 
-### 其他增強功能
+### 更新流和通知增強功能
 
 <table>
             <col style="width: 50%;" />
@@ -202,7 +203,7 @@ ht-degree: 0%
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-other-enhancements.md" class="MCXref xref" xrefformat="{para}">新的更新流索引標籤可擷取評論和系統活動專案</a><span style="color: #ff0000;"> 預覽中的新增專案！</span></p><p>為了讓您依時間順序呈現評論和系統活動記錄的檢視，我們將在所有物件的「更新」區域引入第三個標籤。 「全部」索引標籤會在一個內聚的串流中擷取使用者評論和系統活動評論。</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">新的更新流索引標籤可擷取評論和系統活動專案</a><span style="color: #ff0000;"> 預覽中的新增專案！</span></p><p>為了讓您依時間順序呈現評論和系統活動記錄的檢視，我們將在所有物件的「更新」區域引入第三個標籤。 「全部」索引標籤會在一個內聚的串流中擷取使用者評論和系統活動評論。</p>
                     </td>
                     <td><p><b>將於下列日期提供：</b></p>
                         <ul>
@@ -220,7 +221,7 @@ ht-degree: 0%
                 </tr>                
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-other-enhancements.md" class="MCXref xref" xrefformat="{para}">摘要面板中現在提供新的評論資料流</a><span style="color: #ff0000;"> 預覽中的新增專案！</span></p><p>我們現在已將新的評論功能新增到任務和問題清單的摘要面板。</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">摘要面板中現在提供新的評論資料流</a><span style="color: #ff0000;"> 預覽中的新增專案！</span></p><p>我們現在已將新的評論功能新增到任務和問題清單的摘要面板。</p>
                     </td>
                     <td><p><b>將於下列日期提供：</b></p>
                         <ul>
@@ -234,6 +235,25 @@ ht-degree: 0%
                                 <p>每季發行生產：24.4版（2024年4月）</p>
                             </li>
                         </ul>
+                    </td>
+                </tr>           
+           </tbody>
+</table>
+
+### 其他增強功能
+
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 50%;" />
+            <tbody>
+                <tr>
+                    <td>
+                        <p><span class="bold">功能</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">發行日期</span>
+                        </p>
                     </td>
                 </tr>
                 <tr>
