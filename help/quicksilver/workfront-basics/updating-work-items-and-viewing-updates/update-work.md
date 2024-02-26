@@ -6,14 +6,16 @@ description: 您可以在Adobe Workfront物件（專案、任務或問題）上�
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: 5f3d5c93c2fc721dda2dd04adac22190ef6a3f29
+source-git-commit: 19f6584b507af19b8af5bc6646602393acd41079
 workflow-type: tm+mt
-source-wordcount: '4110'
+source-wordcount: '4226'
 ht-degree: 1%
 
 ---
 
 # 更新工作
+
+{{highlighted-preview}}
 
 <!-- Audited: 1/2024 -->
 
@@ -45,6 +47,8 @@ After the monthly releases to Production, the same features are also available i
 > * 清單中的摘要面板
 > * 時程表中的摘要面板
 > * 工作負載平衡器中的摘要面板
+>
+><span class="preview">新的評論體驗可在「預覽」環境的清單、時程表和工作負載平衡器的摘要面板中取得。</span>
 
 <!-- with October 26 release: add somewhere this, and decide where we need to keep information about the legacy commenting. Should we create an article about iterations comments like we have for goals and cards?!:
 
@@ -193,7 +197,7 @@ After the monthly releases to Production, the same features are also available i
       <td>在日期選擇器中，選取您認可完成工作專案的日期。 如需有關認可日期的資訊，請參閱 <a href="../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md" class="MCXref xref">認可日期總覽</a>.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>狀態</strong></td> 
+      <td role="rowheader"><strong>狀況</strong></td> 
       <td>為任務或問題選取新條件。 如需有關選取條件的資訊，請參閱 <a href="../../manage-work/projects/updating-work-in-a-project/update-condition-for-tasks-and-issues.md" class="MCXref xref">更新任務和問題的條件</a>.</td> 
      </tr> 
      <tr> 
@@ -234,8 +238,17 @@ After the monthly releases to Production, the same features are also available i
 1. （視條件而定）如果 **新增註解** 選項已停用，請按一下以啟用它。
 
    這會啟用新的評論體驗。 此 **註解** 標籤預設為選取。
+
 1. 開始在 **新註解** 方塊。
 
+   <div class="preview">
+
+   「預覽」環境中的新註解方塊範例：
+   ![新註解方塊](assets/comment-box-all-tabs.png)
+
+   </div>
+
+   生產環境中的新註解方塊範例：
    ![](assets/comment-box-empty-unshimmed.png)
 
    >[!TIP]
@@ -304,11 +317,17 @@ After the monthly releases to Production, the same features are also available i
 
 1. （可選）按一下 **系統活動** 標籤以檢視系統記錄的更新。 當物件或其任何子系更新時，Workfront會產生有關該更新的附註，並將其顯示在系統活動標籤中。
 
-   如需詳細資訊，請參閱 [更新區段概觀](../updating-work-items-and-viewing-updates/updates-tab-overview.md)
+   如需詳細資訊，請參閱 [更新區段概觀](../updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
    >[!TIP]
    >
    >您無法將註解新增至系統更新。
+
+1. <span class="preview">（可選）按一下 **全部** 標籤以在一個位置檢視使用者註解和系統活動註解。 這是僅供檢視的標籤。</span>
+
+   >[!TIP]
+   >
+   ><span class="preview">您無法在[全部]索引標籤的現有註解中回覆註解或標籤其他使用者。 若要回覆「全部」標籤中的註解，請按一下 **在評論中回覆** 以在「註解」標籤中開啟註解。</span>
 
 ## 在Workfront更新中使用RTF文字{#use-rich-text-in-a-workfront-update}
 
@@ -422,8 +441,16 @@ After the monthly releases to Production, the same features are also available i
 
    >[!NOTE]
    >
-   >   您只能搜尋屬於註解或回覆文字的單字。 您無法搜尋在更新中標籤的使用者或團隊名稱。
+   >您只能搜尋屬於註解或回覆文字的單字。 您無法搜尋在更新中標籤的使用者或團隊名稱。
 
+   <div class="preview">
+
+   在預覽環境中搜尋的範例：
+   ![搜尋更新](assets/updates-all-tabs-with-search-field.png)
+
+   </div>
+
+   在生產環境中搜尋的範例：
    ![](assets/search-field-in-updates-tab.png)
 
    關鍵字 <!--or user--> 您搜尋的註釋會反白顯示，且包含該註釋的註釋會顯示在「更新」區段的頂端。

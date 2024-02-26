@@ -6,14 +6,16 @@ description: 在Adobe Workfront物件上提供更新註解時，專案上的所�
 author: Alina
 feature: Get Started with Workfront
 exl-id: c4c0d74f-ac50-4fc5-89d6-28f004c25b29
-source-git-commit: 5d8e189f01a52b2d1b605b497ed17737fb0a0924
+source-git-commit: 56ab6fe79fe6e10be2ec61cb16ff48b30856dc0f
 workflow-type: tm+mt
-source-wordcount: '1583'
+source-wordcount: '1621'
 ht-degree: 0%
 
 ---
 
 # 標籤其他人的更新
+
+{{highlighted-preview}}
 
 <!--take new commenting and legacy commenting out when we remove the legacy commenting and the new one is the only experience-->
 
@@ -42,6 +44,8 @@ ht-degree: 0%
 > * 清單中的摘要面板
 > * 時程表中的摘要面板
 > * 工作負載平衡器中的摘要面板
+>
+><span class="preview">新的評論體驗可在「預覽」環境的清單、時程表和工作負載平衡器的摘要面板中取得。</span>
 
 如果您想要吸引使用者注意某個物件，而他們可能不會關注該物件，則可以在更新物件時標籤使用者。
 
@@ -127,6 +131,14 @@ ht-degree: 0%
    > 
    >您必須在存取層級中啟用檢視聯絡資訊設定，使用者才能檢視使用者的電子郵件。 如需詳細資訊，請參閱 [授予使用者存取許可權](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
 
+   <div class="preview">
+
+   預覽環境中的標籤範例：
+   ![標籤使用者](assets/tag-others-unified-commenting-with-all-tab.png)
+
+   </div>
+
+   生產環境中的標籤範例：
    ![](assets/tag-others-unified-commenting.png)
 
 1. （選用）若要設為私人更新，請啟用 **我的公司私有** 位於更新方塊的右下角。 這可讓貴公司的使用者看到更新。 此 **我的公司私有** 只有在Workfront設定檔中指定了公司時，才可使用選項。

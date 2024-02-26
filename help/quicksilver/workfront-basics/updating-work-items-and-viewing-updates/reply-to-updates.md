@@ -3,19 +3,21 @@ product-area: projects
 navigation-topic: update-work-items-and-view-updates
 title: 回覆更新內容
 description: 當有人在工作物件上新增或回覆更新時，他們的回覆會出現在物件「更新」區段的通訊系線中。 如果您擁有物件的「檢視」存取權，則可以將回覆新增至更新或「讚」。
-author: Lisa and Alina
+author: Nolan and Alina
 feature: Get Started with Workfront
 role: User
 topic: Collaboration
 exl-id: a8271f3c-7a08-4eb3-aaff-deb250f5af73
-source-git-commit: 5d8e189f01a52b2d1b605b497ed17737fb0a0924
+source-git-commit: 56ab6fe79fe6e10be2ec61cb16ff48b30856dc0f
 workflow-type: tm+mt
-source-wordcount: '1049'
+source-wordcount: '1098'
 ht-degree: 0%
 
 ---
 
 # 回覆更新內容
+
+{{highlighted-preview}}
 
 <!--remove legacy and new experience references when we remove the legacy updates in the UI - Jan 2024???-->
 
@@ -44,6 +46,8 @@ ht-degree: 0%
 > * 清單中的摘要面板
 > * 時程表中的摘要面板
 > * 工作負載平衡器中的摘要面板
+>
+><span class="preview">新的評論體驗可在「預覽」環境的清單、時程表和工作負載平衡器的摘要面板中取得。</span>
 
 當有人回覆工作物件的評論或系統更新時，他們的回覆會出現在物件「更新」區段的通訊對話串中。
 
@@ -96,6 +100,11 @@ ht-degree: 0%
 
 1. 移至您要新增回覆的物件。
 1. 按一下 **更新**，然後按一下 **註解** 定位物件，並尋找您要回覆的註解或回覆。
+
+>[!NOTE]
+>
+><span class="preview">若要回覆「全部」標籤中的註解，請按一下 **在評論中回覆** 以在「註解」標籤中開啟註解。 您無法在「全部」索引標籤中回覆。</span>
+
 1. （可選）若要在回覆中包含先前更新的文字，請按一下 **更多** 選單，然後按一下 **引用回覆**. 先前更新的文字會出現在輸入區域中，以垂直灰色線標示。
 1. 按一下 **回覆**.
 
