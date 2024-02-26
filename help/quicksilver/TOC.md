@@ -3,9 +3,9 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文件、教學課程和其他資源，了解如何在您的組織中實施並有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: b045cc3ac31459c4d92083d3a332606b37deaa36
+source-git-commit: 0815b00da7b75691d1a40c2b32eb2b2c7bd1453c
 workflow-type: tm+mt
-source-wordcount: '13955'
+source-wordcount: '13959'
 ht-degree: 1%
 
 ---
@@ -2060,6 +2060,7 @@ ht-degree: 1%
       * [管理時間表檢視](maestro/views/manage-the-timeline-view.md)
 * Adobe Workfront Fusion {#adobe-workfront-fusion}
    * [Adobe Workfront Fusion](workfront-fusion/workfront-fusion-2.md)
+   * [Fusion存取表格範本](/help/quicksilver/workfront-fusion/fusion-access-table-template.md)
    * 開始使用Adobe Workfront Fusion {#get-started-with-workfront-fusion}
       * [開始使用Adobe Workfront Fusion](workfront-fusion/get-started/get-started.md)
       * [Adobe Workfront Fusion概觀](workfront-fusion/get-started/workfront-fusion-overview.md)
