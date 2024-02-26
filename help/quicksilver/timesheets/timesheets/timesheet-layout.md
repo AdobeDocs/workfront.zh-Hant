@@ -7,14 +7,16 @@ description: 本文說明Adobe Workfront中時程表的配置，讓您更瞭解�
 author: Alina
 feature: Timesheets
 exl-id: 31c48a50-5235-495c-8e46-0974ed98ede1
-source-git-commit: 71d5e15c38b26b9a833ac2418d5782afd249a24c
+source-git-commit: a1481513747bec3486d94c74c234e2db5cc664d6
 workflow-type: tm+mt
-source-wordcount: '1049'
+source-wordcount: '1066'
 ht-degree: 1%
 
 ---
 
 # 時程表配置總覽
+
+{{highlighted-preview}}
 
 <!-- Audited: 12/2023 -->
 
@@ -119,6 +121,14 @@ ht-degree: 1%
 
 ## 更新左側面板中的區域
 
+<div class="preview">
+
+預覽環境中的範例：
+![更新左側時程表面板中的區域](assets/timesheet-updates-with-all-tab.png)
+
+</div>
+
+生產環境中的範例：
 ![更新左側時程表面板中的區域](assets/timesheet-updates-section-unshimmed-redesign.png)
 
 您可以在時程表上發表評論，與時程表核准者或其他使用者在時程表左側面板的更新區段中溝通。

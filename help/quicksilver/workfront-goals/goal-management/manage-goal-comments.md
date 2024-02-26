@@ -6,14 +6,16 @@ description: 您可以將註解新增至可在Adobe Workfront目標中檢視的�
 author: Alina
 feature: Workfront Goals
 exl-id: 6cf2d2d2-5ba5-40f2-a803-01359c338541
-source-git-commit: 5f3d5c93c2fc721dda2dd04adac22190ef6a3f29
+source-git-commit: a1481513747bec3486d94c74c234e2db5cc664d6
 workflow-type: tm+mt
-source-wordcount: '1095'
+source-wordcount: '1172'
 ht-degree: 0%
 
 ---
 
 # 在Adobe Workfront目標中管理目標註解
+
+{{highlighted-preview}}
 
 <!--Audited: 01/2024-->
 
@@ -99,6 +101,14 @@ After the monthly releases to Production, the same features are also available i
 1. 按一下  **更新** 在左側面板中。
 1. （選擇性）若要尋找現有註解，請開始輸入關鍵字 <!--or a user's name--> 在 **搜尋** 方塊右上角的 **註解** 標籤。
 
+   <div class="preview">
+
+   預覽環境中的範例：
+   ![搜尋註解](assets/search-for-update-goals-2.png)
+
+   </div>
+
+   生產環境中的範例：
    ![](assets/search-field-in-updates-tab-goals.png)
 
    關鍵字 <!--or user--> 您搜尋的註釋會反白顯示，且包含該註釋的註釋會顯示在「更新」區段的頂端。
@@ -107,15 +117,22 @@ After the monthly releases to Production, the same features are also available i
 
    >[!NOTE]
    >
-   >   您必須搜尋包含在註解或回覆中的單字。 您無法搜尋已標籤的使用者或團隊。
+   >您必須搜尋包含在註解或回覆中的單字。 您無法搜尋已標籤的使用者或團隊。
 
+   如需詳細資訊，請參閱 [更新工作](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
-   如需詳細資訊，請參閱 [更新工作](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md)
-
-1. 按一下 **x** 圖示來清除搜尋結果，並返回至完成狀態。
+1. 按一下 **x** 圖示來清除搜尋結果並返回完整更新。
 1. 按一下 **註解** 索引標籤更新區域的左上角。
 1. 開始在 **新註解** 方塊。
 
+   <div class="preview">
+
+   「預覽」環境中的新註解方塊範例：
+   ![新註解方塊](assets/comment-box-all-tabs.png)
+
+   </div>
+
+   生產環境中的新註解方塊範例：
    ![](assets/comment-box-empty-unshimmed.png)
 
    >[!TIP]
@@ -140,7 +157,7 @@ After the monthly releases to Production, the same features are also available i
    >如果其他使用者向您更新的相同專案提交評論，則會有帶有「新」指示器的紅線通知您較新的評論，而畫面底部會有藍色通知，指出新評論的數量。
    >
    >指示器只會在專案上提交註解後顯示，不會在註解仍在撰寫時顯示。
-   >![](assets/real-time-new-red-indicator-unified-commenting.png)
+   >![](assets/real-time-new-red-indicator-unified-commenting-copy.png)
 
 1. （可選）若要編輯註解，請按一下 **更多** 功能表 ![](assets/more-icon.png) 按一下「讚」圖示右側，然後按一下 **編輯**.
 1. 編輯註解中的資訊、新增或移除影像，或移除任何已標籤的使用者。
@@ -172,4 +189,6 @@ After the monthly releases to Production, the same features are also available i
 1. （可選）按一下 **按讚** 圖示![](assets/like-icon.png) 喜歡其他人新增的註解。 圖示會隨著喜歡的數量而更新。
 
 1. （可選）按一下 **系統活動** 標籤以檢視系統記錄的更新。 目標更新時，Workfront會產生該更新的相關附註，並顯示在系統活動標籤中。 將結果、活動或專案新增至目標或更新時，Workfront也會記錄系統更新。 <!--ensure the casing on the tab has not changed-->
+
+1. <span class="preview">（可選）按一下 **全部** 標籤以在一個位置檢視使用者註解和系統活動註解。 若要回覆「全部」標籤中的註解，請按一下 **在評論中回覆** 以在「註解」標籤中開啟註解。 您無法在「全部」索引標籤中回覆。</span>
 
