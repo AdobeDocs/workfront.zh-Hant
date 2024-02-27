@@ -3,9 +3,9 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文件、教學課程和其他資源，了解如何在您的組織中實施並有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: 0815b00da7b75691d1a40c2b32eb2b2c7bd1453c
+source-git-commit: 4cf52a9a11765ba5fcd34a52c3fa105811fed1e9
 workflow-type: tm+mt
-source-wordcount: '13959'
+source-wordcount: '13967'
 ht-degree: 1%
 
 ---
@@ -940,8 +940,9 @@ ht-degree: 1%
          * [管理您的Adobe Workfront帳戶](workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/manage-workfront-account.md)
          * [登入Adobe Workfront](workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/log-in-to-workfront.md)
          * [登出Adobe Workfront](workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/log-out-of-workfront.md)
-         * [接收電子郵件邀請並建立Adobe Workfront的密碼](workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/receive-email-invitations.md)
          * [使用增強式驗證重設使用者密碼](workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/reset-user-password-eauth.md)
+         * [接收電子郵件邀請並建立Adobe Workfront的密碼](workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/receive-email-invitations.md)
+         * [在中建立帳戶 [!DNL Adobe Workfront] 作為外部使用者](workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/create-account-external-user.md)
          * [重設密碼](workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/reset-your-password.md)
    * 行動應用程式 {#mobile-apps}
       * [行動應用程式](workfront-basics/mobile-apps/mobile-apps.md)
