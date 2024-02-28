@@ -3,10 +3,10 @@ product-area: projects
 navigation-topic: approvals
 title: 核准檔案
 description: 如果您被指派為檔案的核准者，則您有多種方式可以做出核准決定。
-author: Nolan
+author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 5490973b-99a7-4790-9d89-bf8f16ff5765
-source-git-commit: 95679dd71ef7e4991853e63573a387f26321159d
+source-git-commit: 864481fe2af7a2433bac841bb35995c58fe06743
 workflow-type: tm+mt
 source-wordcount: '1060'
 ht-degree: 0%
