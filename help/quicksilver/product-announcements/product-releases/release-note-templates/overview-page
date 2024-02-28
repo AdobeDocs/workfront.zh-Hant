@@ -215,6 +215,11 @@ Badge for available in Fast Release
 [!BADGE In production for Fast Release ]{type=Positive}
 
 
+Badge for in production for everyone
+
+[!BADGE In production ]{type=Informative}
+
+
 Test for boards early access stuff
 
 Production release for early opt-in: March 2, 2023 This feature is available in Production only through the early feature opt-in for Workfront Boards.
