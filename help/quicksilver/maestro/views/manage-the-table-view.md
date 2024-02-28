@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: ef313bf912c65b9b316bd7403235ccf6f05a0ac6
+source-git-commit: 5cfb4cd064daff455d8b9458d3bcbbb0d209516a
 workflow-type: tm+mt
-source-wordcount: '2288'
+source-wordcount: '2313'
 ht-degree: 3%
 
 ---
@@ -409,6 +409,8 @@ Maestro表格檢視的列會顯示所選記錄型別的個別記錄。
 * 當您導覽到其他位置時，您建立的排序會保留。
 
 * 您可以依顯示在記錄型別表格檢視中的欄位數量來排序。
+
+* 僅當連結欄位允許單一值，或允許選取了彙總選項（總和、平均、最大值、最小值）的多重選取值時，連結欄位才可排序。
 
 * 移除排序標準會將它們從存取與您相同記錄型別的任何人中移除，並使用與您使用的相同檢視。
 
