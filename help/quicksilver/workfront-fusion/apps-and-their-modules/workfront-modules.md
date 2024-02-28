@@ -9,9 +9,9 @@ description: 您可以使用Adobe Workfront Fusion Adobe Workfront聯結器在Wo
 author: Becky
 feature: Workfront Fusion, Workfront Integrations and Apps
 exl-id: b84d2d41-a983-4ea3-b331-0302bfcf8a2b
-source-git-commit: 0558f72fb8a7fc52d06adc0421082e20520c0b8f
+source-git-commit: 1c5c348916421efb08cca8170b56f8181e1a4d98
 workflow-type: tm+mt
-source-wordcount: '5935'
+source-wordcount: '5945'
 ht-degree: 2%
 
 ---
@@ -201,7 +201,7 @@ ht-degree: 2%
      </tr> 
      <tr data-mc-conditions=""> 
       <td>排除此連線造成的事件</td> 
-      <td>啟用此選項可排除使用此觸發模組使用的相同聯結器建立或更新的事件。 這可防止案例可能觸發自身的情況，導致其在無限回圈中重複。</td> 
+      <td>啟用此選項可排除使用此觸發模組使用的相同聯結器建立或更新的事件。 這可防止案例可能觸發自身的情況，導致其在無限回圈中重複。<p><b>注意</b>指派記錄型別不包含此選項。</p></td> 
      </tr> 
      <tr> 
       <td>[！UICONTROL記錄來源]</td> 
