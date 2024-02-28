@@ -7,9 +7,9 @@ description: 「資源管理」可讓您設定系統，以根據資源的可用�
 author: Alina
 feature: Resource Management
 exl-id: b10ef503-60ea-4450-b63e-b2918e9bcc11
-source-git-commit: 59c3a57e334d1660e3e59da480a90060b1ba81b7
+source-git-commit: c80d9b0b7eb2a638af9e0a11ca3038ed99ecf1ee
 workflow-type: tm+mt
-source-wordcount: '1169'
+source-wordcount: '1167'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,7 @@ Workfront有幾組用於管理資源的工具。 每個工具都有個別的範�
 
    * **資源規劃工具**：您可以在資源管理的第一個階段中使用資源規劃工具，根據資源的已排程可用性來預算資源的專案時間。 在資源規劃階段中，您可以組織資源集區中的使用者，並將多個資源集區指定給專案。
 
-     如需有關「資源規劃」的詳細資訊，請參閱 [Adobe Workfront中的資源規劃](../../resource-mgmt/resource-planning/resource-planning-overview.md).
+     如需有關「資源規劃」的詳細資訊，請參閱 [資源規劃：文章索引](../../resource-mgmt/resource-planning/resource-planning-overview.md).
 
    * **情境規劃工具**：這是資源的較高層級計畫，可讓您跨多個方案管理資源，這些方案可跨越一、三或五年計畫，並包含多個專案。 您可以善用最佳情境，以充分利用其可用性和預算。
 
@@ -118,7 +118,7 @@ Workfront有幾組用於管理資源的工具。 每個工具都有個別的範�
 
   如需資源規劃與指派工作的詳細資訊，請參閱下列章節：
 
-   * [Adobe Workfront中的資源規劃](../../resource-mgmt/resource-planning/resource-planning-overview.md)
+   * [資源規劃：文章索引](../../resource-mgmt/resource-planning/resource-planning-overview.md)
    * [Adobe Workfront情境規劃工具](../../scenario-planner/scenario-planning.md)
    * [工作負載平衡器：文章索引](../../resource-mgmt/workload-balancer/workload-balancer.md)
 

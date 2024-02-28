@@ -9,9 +9,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 1b425244-e3f3-45a0-8ba1-5fbc7b339c85
-source-git-commit: 6f026590f0030b564f0d110afead9ade1acd7896
+source-git-commit: c80d9b0b7eb2a638af9e0a11ca3038ed99ecf1ee
 workflow-type: tm+mt
-source-wordcount: '659'
+source-wordcount: '658'
 ht-degree: 0%
 
 ---
@@ -72,7 +72,7 @@ ht-degree: 0%
 
 * 開發傳遞服務的程式，並使用Workfront來管理與任何每日或每週職責相關的工作。
 * 使用資源管理工具來檢視資源對任務的配置，以便您更瞭解如何改善生產力和傳遞品質。\
-  如需有關「資源規劃」的詳細資訊，請參閱 [Adobe Workfront中的資源規劃](../../resource-mgmt/resource-planning/resource-planning-overview.md)
+  如需有關「資源規劃」的詳細資訊，請參閱 [資源規劃：文章索引](../../resource-mgmt/resource-planning/resource-planning-overview.md)
 
 ## 定義成功標準
 

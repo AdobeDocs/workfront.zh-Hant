@@ -6,9 +6,9 @@ description: 專案資源的預算與排程
 author: Alina
 feature: Work Management
 exl-id: c6495ce5-fe70-499b-87f5-6a1f2e93a3f4
-source-git-commit: 59c3a57e334d1660e3e59da480a90060b1ba81b7
+source-git-commit: c80d9b0b7eb2a638af9e0a11ca3038ed99ecf1ee
 workflow-type: tm+mt
-source-wordcount: '132'
+source-wordcount: '131'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 0%
 
   如需詳細資訊，請參閱下列文章：
 
-   * [Adobe Workfront中的資源規劃](../../../resource-mgmt/resource-planning/resource-planning-overview.md)
+   * [資源規劃：文章索引](../../../resource-mgmt/resource-planning/resource-planning-overview.md)
    * [開始使用案例規劃工具](../../../scenario-planner/get-started-with-scenario-planning.md)
 
 * 排程您的資源或將其指派給任務和問題。 當您將資源指派給任務和問題時，您實際上可以將使用者、團隊或角色關聯到特定工作專案，讓他們負責完成這些專案。 如需詳細資訊，請參閱 [工作負載平衡器總覽](../../../resource-mgmt/workload-balancer/overview-workload-balancer.md).

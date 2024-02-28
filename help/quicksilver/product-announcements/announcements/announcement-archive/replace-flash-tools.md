@@ -5,9 +5,9 @@ author: Luke
 draft: Probably
 feature: Product Announcements
 exl-id: a0ca824d-aab8-4da2-97ed-0913a7f76d55
-source-git-commit: 59c3a57e334d1660e3e59da480a90060b1ba81b7
+source-git-commit: c80d9b0b7eb2a638af9e0a11ca3038ed99ecf1ee
 workflow-type: tm+mt
-source-wordcount: '2702'
+source-wordcount: '2701'
 ht-degree: 0%
 
 ---
@@ -57,7 +57,7 @@ Workfront現在提供根據目前標準的取代工具。 這些變更與Adobe�
    * 產能規劃工具
    * 資源估計
    * 資源格線\
-     如需詳細資訊，請參閱 [Adobe Workfront中的資源規劃](../../../resource-mgmt/resource-planning/resource-planning-overview.md).
+     如需詳細資訊，請參閱 [資源規劃：文章索引](../../../resource-mgmt/resource-planning/resource-planning-overview.md).
 
 * 專案業務案例中的舊版資源估計區域
 

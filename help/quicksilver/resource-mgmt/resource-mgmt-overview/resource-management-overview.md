@@ -8,9 +8,9 @@ author: Lisa
 feature: Resource Management
 recommendations: noDisplay, noCatalog
 exl-id: 137787c9-82f6-4b18-a427-720589221a7c
-source-git-commit: 3b3ba7cc6a975af71205f7f524e1a9a91a9d3810
+source-git-commit: c80d9b0b7eb2a638af9e0a11ca3038ed99ecf1ee
 workflow-type: tm+mt
-source-wordcount: '128'
+source-wordcount: '127'
 ht-degree: 1%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 1%
 本節包含下列文章和子章節：
 
 * [開始使用資源管理](../../resource-mgmt/resource-mgmt-overview/get-started-resource-management.md)
-* [Adobe Workfront中的資源規劃](/help/quicksilver/resource-mgmt/resource-planning/resource-planning-overview.md)
+* [資源規劃：文章索引](/help/quicksilver/resource-mgmt/resource-planning/resource-planning-overview.md)
 * [工作負載平衡器：文章索引](/help/quicksilver/resource-mgmt/workload-balancer/workload-balancer.md)
 * [資源使用率](/help/quicksilver/resource-mgmt/resource-utilization/resource-utilization.md)
 * [Adobe Workfront情境規劃工具](/help/quicksilver/scenario-planner/scenario-planning.md)
