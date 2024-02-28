@@ -4,11 +4,11 @@ product-area: system-administration
 navigation-topic: emails-administration
 title: 解鎖或鎖定所有群組的事件通知設定
 description: 如果您是Adobe Workfront管理員，您可以解除鎖定或重新鎖定群組管理員為其管理的最上層群組設定事件通知的能力。 事件通知的設定包含啟用或停用。
-author: Lisa, Caroline
+author: Lisa, Nolan
 feature: System Setup and Administration
 role: Admin
 exl-id: 056d76c1-7e9b-49b9-974a-75765e53b7fd
-source-git-commit: 325fb9e58d32d1b6cfa1035cd4a25da4b66f6955
+source-git-commit: 1c0a656f2603c5decabd2bb4e88da1b9530f9e1c
 workflow-type: tm+mt
 source-wordcount: '548'
 ht-degree: 0%
@@ -69,7 +69,7 @@ ht-degree: 0%
 
    如果您想要一次解除鎖定或鎖定多個通知，請選取通知，然後按一下解除鎖定 ![「解除鎖定」圖示](assets/unlock-icon-toolbar.png) 或鎖定 ![「鎖定」圖示](assets/lock-icon-locked-qs.png) 按鈕顯示在清單上方的工具列中。
 
-1. 按一下&#x200B;**儲存**。
+1. 按一下「**儲存**」。
 1. （選擇性）如果要為最上層群組設定事件通知，而不是將此工作留給群組管理員，您可以執行下列任一項作業：
 
    * 刪除 **系統事件通知** 在通知清單上方的搜尋方塊中，搜尋並選取最上層群組的名稱，以列出其通知，然後在顯示的清單中啟動或停用已解鎖的通知。

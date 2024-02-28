@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 24975c463c93de61672f1986d82d1d6500133baa
+source-git-commit: ef313bf912c65b9b316bd7403235ccf6f05a0ac6
 workflow-type: tm+mt
-source-wordcount: '4110'
+source-wordcount: '4172'
 ht-degree: 0%
 
 ---
@@ -31,6 +31,18 @@ ht-degree: 0%
 >[!IMPORTANT]
 >
 >在功能發行至生產環境後的某個時間，將可使用以下各節中參考的檔案。
+
+## 2024年2月26日當週
+
+### 依連線的記錄或查詢欄位進行篩選、排序和群組
+
+生產： 2024年2月28日
+
+預覽：待定
+
+您現在可以依連線記錄或其查詢欄位來篩選、排序及分組。 此增強功能可協助您在表格和時間表檢視中，有效率地整理和視覺化您的資料。
+
+如需詳細資訊，請參閱 [管理表格檢視](/help/quicksilver/maestro/views/manage-the-table-view.md) 和 [管理時間表檢視](/help/quicksilver/maestro/views/manage-the-timeline-view.md).
 
 ## 2024年2月5日當週
 
@@ -124,7 +136,7 @@ ht-degree: 0%
 
 預覽：待定
 
-為避免混淆並簡化工作區管理，我們已從工作區中移除已連線的非Maestro物件的自動產生、僅準備就緒的記錄型別卡片。
+為避免混淆並簡化工作區管理，我們已從工作區中移除已連線的非Maestro物件自動產生的唯讀記錄型別卡。
 <!-- Now, when you connect Workfront objects with Maestro records, for example, you can navigate to Workfront to manage the linked objects. You can no longer find the read-only Workfront object record type page in Maestro. This simplifies the number of objects and places you manage information for your objects.  -->
 
 如需詳細資訊，請參閱 [連線記錄](/help/quicksilver/maestro/records/connect-records.md).

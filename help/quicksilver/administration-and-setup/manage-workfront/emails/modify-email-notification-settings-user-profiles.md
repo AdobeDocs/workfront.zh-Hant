@@ -5,11 +5,11 @@ keywords: 修改，電子郵件，通知，設定，批次，大量編輯，設�
 navigation-topic: emails-administration
 title: 修改多位使用者的電子郵件通知設定
 description: 本文為Workfront或群組管理員提供有關如何更新其他使用者的電子郵件通知的資訊。
-author: Lisa
+author: Nolan
 feature: System Setup and Administration
 role: Admin
 exl-id: 658f97cd-0500-421d-9c89-26041ca59655
-source-git-commit: 8382b69e6a55af69397dd8f566395143f3c1dcd3
+source-git-commit: 1c0a656f2603c5decabd2bb4e88da1b9530f9e1c
 workflow-type: tm+mt
 source-wordcount: '447'
 ht-degree: 0%

@@ -4,11 +4,11 @@ product-area: system-administration
 navigation-topic: emails-administration
 title: 事件通知型別
 description: 事件通知是由物件上各種型別的事件所觸發的電子郵件，例如專案、任務和問題。 本文列出並說明可用的事件通知型別。
-author: Lisa, Nolan
+author: Nolan
 feature: System Setup and Administration
 role: Admin
 exl-id: de7a995d-ff1e-4631-91f7-4dc895a87c94
-source-git-commit: afbf2e2fbfcc2c527223da008518bc7632872c23
+source-git-commit: 1c0a656f2603c5decabd2bb4e88da1b9530f9e1c
 workflow-type: tm+mt
 source-wordcount: '5121'
 ht-degree: 8%
