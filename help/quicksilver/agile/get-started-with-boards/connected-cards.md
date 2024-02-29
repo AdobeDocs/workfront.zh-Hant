@@ -6,14 +6,16 @@ description: 您可以在展示板上新增卡片，該卡片會連線至Workfro
 author: Lisa
 feature: Agile
 exl-id: c6d979dd-e4a4-48a5-a91b-b31d7ef848d1
-source-git-commit: ec753f4176208708de0a39679788d34f486f759b
+source-git-commit: 246750d2a7a053d74df2ceb150f14fdb50f32ade
 workflow-type: tm+mt
-source-wordcount: '1427'
+source-wordcount: '1447'
 ht-degree: 0%
 
 ---
 
 # 在展示板上使用連線的卡片
+
+<!-- Audited: 2/2024 -->
 
 您可以在展示板上新增卡片，該卡片會連線至中的現有任務和問題 [!DNL Workfront].
 
@@ -21,9 +23,9 @@ ht-degree: 0%
 
 * [!UICONTROL 名稱]
 * [!UICONTROL 說明]
-* [!UICONTROL 受託人]
+* [!UICONTROL 被指定者]
 * [!UICONTROL 狀態]
-* [!UICONTROL 規劃完成日期]
+* [!UICONTROL 計畫完成日期]
 * [!UICONTROL 預估] / [!UICONTROL 劇本點]
 * [!UICONTROL 子任務]
 * [!UICONTROL 文件]
@@ -39,29 +41,33 @@ ht-degree: 0%
 <table style="table-layout:auto"> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] 計劃*</strong></td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] 計劃</strong></td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] 授權*</strong></td> 
-   <td> <p>[！UICONTROL Request]或更高版本</p> </td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] 授權</strong></td> 
+   <td>
+   <p>新增：投稿人或更高版本</p>
+   <p>或</p>
+   <p>目前：要求或以上</p>
+ </td> 
   </tr> 
   <tr>
-   <td role="rowheader"><strong>存取層級設定*</strong></td>
-   <td><p>[！UICONTROL檢視]或更高的任務和問題存取權</p></td>
+   <td role="rowheader"><strong>存取層級設定</strong></td>
+   <td><p>檢視或更高的任務和問題存取權</p></td>
   </tr>
   <tr>
    <td role="rowheader"><strong>物件許可權</strong></td>
-   <td><p>[！UICONTROL檢視]或對Workfront任務或問題的更高許可權</p></td>
+   <td><p>檢視Workfront任務或問題的或更高許可權</p></td>
   </tr>
  </tbody> 
 </table>
 
-&#42;若要瞭解您擁有的計畫、授權型別或存取權，請聯絡您的 [!DNL Workfront] 管理員。
+如需有關此表格的詳細資訊，請參閱 [Workfront檔案中的存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## 新增連線的卡片
 
-1. 按一下 **[!UICONTROL 主要功能表]** 圖示 ![](assets/main-menu-icon.png) (位於Adobe Workfront的右上角)，然後按一下 **[!UICONTROL 展示板]**.
+1. 按一下 **[!UICONTROL 主要功能表]** 圖示 ![主要功能表](/help/_includes/assets/main-menu-icon.png) 在Adobe Workfront的右上角，或（如果有的話）按一下 **[!UICONTROL 主要功能表]** 圖示 ![主要功能表](/help/_includes/assets/main-menu-icon-left-nav.png) 然後按一下「 」 **[!UICONTROL 展示板]**.
 1. 存取展示板。 如需詳細資訊，請參閱 [建立或編輯展示板](../../agile/get-started-with-boards/create-edit-board.md).
 1. 按一下 **[!UICONTROL 新增卡片] > [!UICONTROL 已連線的卡片]**.
 1. 選擇專案，然後選擇要新增為展示板上卡片的任務或問題。
@@ -79,7 +85,7 @@ ht-degree: 0%
 
    卡片會新增至最左側的欄底部。 連線的 [!DNL Workfront] 物件與其工作負責人會顯示在卡片上。
 
-   ![已連接的卡片](assets/boards-connected-card-first-added.png)
+   ![已連線的卡片](assets/boards-connected-card-first-added.png)
 
 1. 按一下 ![開啟任務或問題](assets/boards-launch-icon.png) 以開啟 [!DNL Workfront] 新瀏覽器標籤中的任務或問題。
 1. 若要編輯卡片詳細資料，請按一下卡片（不在卡片名稱中）。

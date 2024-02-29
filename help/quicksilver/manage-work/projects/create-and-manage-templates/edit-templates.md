@@ -6,22 +6,18 @@ description: 您可以編輯專案範本以反映專案流程和設定的變更�
 author: Alina
 feature: Work Management
 exl-id: da0fca31-6a50-4862-ad9a-a453ef968773
-source-git-commit: 421fd012c2ce6a4ae0b11fe343c279d1a3fd551c
+source-git-commit: 246750d2a7a053d74df2ceb150f14fdb50f32ade
 workflow-type: tm+mt
-source-wordcount: '4775'
+source-wordcount: '4710'
 ht-degree: 2%
 
 ---
 
 # 編輯專案範本
 
-<!--drafted
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> 
--->
+<!-- Audited: 2/2024 -->
 
-<!--
-<The Resource Pools part also duplicates in the "Working with Resource Pools" article</p>
--->
+<!--The Resource Pools part also duplicates in the "Working with Resource Pools" article-->
 
 您可以編輯專案範本以反映專案流程和設定的變更。 更新並儲存範本上的變更後，當使用範本建立專案時，新變更會顯示在新專案中。 您在範本上進行的變更不會反映在目前使用該範本的專案上。
 
@@ -34,16 +30,20 @@ ht-degree: 2%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront計畫*</td> 
+   <td role="rowheader">Adobe Workfront計畫</td> 
    <td> <p>任何 </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront授權*</td> 
-   <td> <p>計劃 </p> </td> 
+   <td role="rowheader">Adobe Workfront授權</td> 
+   <td>
+      <p>新增：標準</p>
+      <p>或</p>
+      <p>目前：計畫</p>
+   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">存取層級*</td> 
-   <td> <p>編輯範本的存取權</p> <p>如果您還是沒有存取權，請詢問您的Workfront管理員，他們是否在您的存取層級中設定其他限制。 如需關於存取範本的資訊，請參閱 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-templates.md" class="MCXref xref">授予範本存取權</a>. 如需有關Workfront管理員如何變更您的存取層級的資訊，請參閱 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>. </p> </td> 
+   <td role="rowheader">存取層級</td> 
+   <td> <p>編輯範本的存取權</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">物件許可權</td> 
@@ -51,12 +51,12 @@ ht-degree: 2%
     <ul> 
      <li> <p>貢獻範本的許可權以在「範本詳細資訊」索引標籤中進行編輯</p> </li> 
      <li> <p>管理範本的許可權，以在「編輯範本」方塊中編輯範本</p> </li> 
-    </ul> <p> 如需範本許可權的相關資訊，請參閱 <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md" class="MCXref xref">共用範本</a>. </p> <p>如需請求其他存取許可權的詳細資訊，請參閱 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">要求物件的存取權 </a>.</p> </td> 
+   </td> 
   </tr> 
  </tbody> 
 </table>
 
-*若要瞭解您擁有的計畫、授權型別或存取權，請聯絡您的Workfront管理員。
+如需有關此表格的詳細資訊，請參閱 [Workfront檔案中的存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## 編輯範本 {#edit-a-template}
 
@@ -563,7 +563,7 @@ By editing issue settings, you can prevent users from adding issues inline in th
 1. （視條件而定）若要編輯範本的有限資訊，請按一下 **範本詳細資訊** 在左側面板中，然後前往左側面板中列出的區域，編輯每個區域的資訊。
 1. 若要編輯「詳細資訊」段落中的資訊，請按一下 **編輯** 圖示 ![](assets/edit-icon.png)，然後從以下任何區域選取，或按一下 **編輯全部** 若要編輯所有區域的資訊：
 
-   * 總覽
+   * 概觀
    * 自訂表單
 
    只有當物件附有自訂表單時，才會顯示自訂表單的名稱。
@@ -598,11 +598,11 @@ By editing issue settings, you can prevent users from adding issues inline in th
 
    或
 
-   按一下&#x200B;**儲存**。
+   按一下「**儲存**」。
 
 
 
-### 總覽 {#overview-preview}
+### 概觀 {#overview-preview}
 
 1. 如上所述開始編輯您的範本。
 1. 在 **編輯範本** 方塊，按一下 **概觀**.
@@ -653,7 +653,7 @@ By editing issue settings, you can prevent users from adding issues inline in th
        </tr>
 
    <tr> 
-         <td role="rowheader"><strong>專案組合</strong></td> 
+         <td role="rowheader"><strong>Portfolio</strong></td> 
          <td><p>指定從此範本建立之專案的Portfolio。 您必須先建立Portfolio，它才會出現在下拉式清單中。 </p><p>只有作用中的投資組合會顯示在清單中。 如需關於建立投資組合的詳細資訊，請參閱 <a href="../../../manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md" class="MCXref xref">建立投資組合 </a>.</p></td> 
        </tr> 
        <tr> 
@@ -698,7 +698,7 @@ By editing issue settings, you can prevent users from adding issues inline in th
 
    或
 
-   按一下&#x200B;**儲存**。
+   按一下「**儲存**」。
 
 ### 財務 {#finance-preview}
 
@@ -754,7 +754,7 @@ By editing issue settings, you can prevent users from adding issues inline in th
 
    或
 
-   按一下&#x200B;**儲存**。
+   按一下「**儲存**」。
 
 ### 自訂表單 {#custom-forms-preview}
 
@@ -781,7 +781,7 @@ By editing issue settings, you can prevent users from adding issues inline in th
 
    或
 
-   按一下&#x200B;**儲存**。
+   按一下「**儲存**」。
 
 ### 專案設定 {#project-settings}
 
@@ -909,7 +909,7 @@ By editing issue settings, you can prevent users from adding issues inline in th
 
 1. （選擇性）根據您要修改的資訊，繼續編輯下列區段。\
    或
-1. 按一下&#x200B;**儲存**。
+1. 按一下「**儲存**」。
 
 ### 任務設定 {#task-settings}
 
@@ -939,7 +939,7 @@ By editing issue settings, you can prevent users from adding issues inline in th
 
    或
 
-   按一下&#x200B;**儲存**。
+   按一下「**儲存**」。
 
 ### 問題設定 {#issue-settings}
 
@@ -968,7 +968,7 @@ By editing issue settings, you can prevent users from adding issues inline in th
 
    或
 
-   按一下&#x200B;**儲存**。
+   按一下「**儲存**」。
 
 ### 存取 {#access-preview}
 
@@ -1020,7 +1020,7 @@ By editing issue settings, you can prevent users from adding issues inline in th
 
    或
 
-   按一下&#x200B;**儲存**。
+   按一下「**儲存**」。
 
    您的變更將會針對此範本提交。
 
@@ -1047,7 +1047,7 @@ By editing issue settings, you can prevent users from adding issues inline in th
 
    如需有關編輯範本資訊的詳細資訊，請參閱 [編輯範本](#edit-a-template) 一節。
 
-1. 按一下 **儲存變更**.
+1. 按一下「**儲存變更**」。
 
    您所做的所有變更現在會顯示在所有選取的範本上。
 

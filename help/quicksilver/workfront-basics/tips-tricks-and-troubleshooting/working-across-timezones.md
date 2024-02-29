@@ -5,7 +5,7 @@ title: 跨時區工作
 description: 有助於瞭解如何 [!DNL Adobe Workfront] 會使用時區來計算物件的時間欄位，以及其他區域（例如電子郵件）的時間。
 feature: Get Started with Workfront
 exl-id: b6574165-a6dc-4694-a367-d98927abf1e3
-source-git-commit: 32966d4732221d73aa3397771e157b630f7d5760
+source-git-commit: 246750d2a7a053d74df2ceb150f14fdb50f32ade
 workflow-type: tm+mt
 source-wordcount: '1081'
 ht-degree: 0%
@@ -13,6 +13,8 @@ ht-degree: 0%
 ---
 
 # 跨時區工作
+
+<!-- Audited: 2/2024 -->
 
 有助於瞭解如何 [!DNL Adobe Workfront] 會使用時區來計算下列專案：
 
