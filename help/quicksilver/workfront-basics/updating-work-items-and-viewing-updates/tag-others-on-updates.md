@@ -6,9 +6,9 @@ description: 在Adobe Workfront物件上提供更新註解時，專案上的所�
 author: Alina
 feature: Get Started with Workfront
 exl-id: c4c0d74f-ac50-4fc5-89d6-28f004c25b29
-source-git-commit: 56ab6fe79fe6e10be2ec61cb16ff48b30856dc0f
+source-git-commit: d86b1d5fb6fcfeddccfb079f3040f1ddfe29e71d
 workflow-type: tm+mt
-source-wordcount: '1621'
+source-wordcount: '1637'
 ht-degree: 0%
 
 ---
@@ -160,6 +160,8 @@ ht-degree: 0%
    標籤實體的名稱會顯示在其頭像旁，最多兩個實體。 如果標籤了兩個以上的實體，除了會標籤多少個其他實體外，還會顯示第一個實體的名稱。
 
    ![](assets/members-icons-expanded-unshimmed.png)
+
+   <span class="preview">當您在註解文字中被標籤時，您的使用者名稱會反白顯示在那些註解中。</span>
 
    有關更新工作專案時可用的其他功能的資訊，請參閱 [更新工作](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
