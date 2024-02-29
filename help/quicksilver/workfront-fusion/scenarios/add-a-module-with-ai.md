@@ -6,9 +6,9 @@ title: 使用AI產生模組
 description: 您可以輸入文字提示，以建立設定為提示的HTTP模組。
 author: Becky
 feature: Workfront Fusion
-source-git-commit: c80f9ab6d10aa9067b995c99107f98301fa17872
+source-git-commit: 8f6216938b2fe946f6acd02c45c2072476b0c47b
 workflow-type: tm+mt
-source-wordcount: '322'
+source-wordcount: '341'
 ht-degree: 1%
 
 ---
@@ -16,6 +16,10 @@ ht-degree: 1%
 # 使用AI產生模組
 
 <!--DO NOT DELETE - linked through CSH-->
+
+>[!IMPORTANT]
+>
+>由於此功能仍處於開發初期，因此僅供內部Workfront使用者使用。
 
 您可以使用AI輸入文字提示，說明您需要模組做什麼。 然後Fusion將產生HTTP模組，該模組將連線到所需API的正確端點。
 
