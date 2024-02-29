@@ -4,9 +4,9 @@ description: 2024年第二季度管理員增強功能
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: b55217ee95a41d731c7ef1beebc3e5b32d04b48a
+source-git-commit: 980979bcc96739671ea69bdb1387d98c3f39d047
 workflow-type: tm+mt
-source-wordcount: '294'
+source-wordcount: '543'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,24 @@ ht-degree: 0%
 此頁面說明2024年第二季度版本對「預覽」環境所做的所有管理員增強功能。 如上所述，這些增強功能將於生產環境中提供。
 
 如需2024年第二季發行週期目前可用的所有變更清單，請參閱 [2024年第二季版本總覽](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).
+
+## 表單設計工具Beta版提供Workfront原生欄位
+
+>[!NOTE]
+>
+>預覽版本： 2024年2月29日；快速版本的生產版：24.3版（2024年3月14日）；所有客戶的生產版：24.4 （2024年4月）
+
+Workfront原生欄位現在可讓您新增至自訂表單。 此新欄位型別可讓您以邏輯方式組織資料並將其呈現給使用者，而無需在自訂欄位中重新建立現有資料。
+
+在自訂表單欄位清單中選取原生欄位以將該欄位新增至表單設計工具後，您可以為表單物件選取任何原生欄位。 例如，如果表單設計器頂端的「物件型別」清單顯示「專案」，您將能夠選取專案的原生欄位，但不能選取任務特定的欄位。
+
+當自訂表單附加到物件時，會從物件資料填入欄位。 例如，附加到專案的自訂表單上的說明欄位將提取專案說明。 （如果沒有可用資料，欄位可能會顯示「N/A」。）
+
+自訂表單中使用的原生欄位在設計工具的欄位資料庫中變為可供重複使用。也可從設定>自訂Forms >欄位區域看到，讓您檢視這些欄位在哪些表單中使用。
+
+此功能僅在表單設計工具（測試版）中可用，不在舊版表單產生器中可用。
+
+此功能的Experience League文章將於3月7日前更新。
 
 ## 屬性對應現在可供已移轉至Adobe IMS的組織使用
 

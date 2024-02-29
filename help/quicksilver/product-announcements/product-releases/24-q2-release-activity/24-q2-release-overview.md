@@ -4,9 +4,9 @@ description: 此頁面提供2024年第二季度版本中包含的功能相關資
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 47bfc377f593758e16793dd9999dda12a9b82ca9
+source-git-commit: 980979bcc96739671ea69bdb1387d98c3f39d047
 workflow-type: tm+mt
-source-wordcount: '1026'
+source-wordcount: '1235'
 ht-degree: 0%
 
 ---
@@ -57,6 +57,25 @@ ht-degree: 0%
                 </tr>
                 <tr>
                     <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">表單設計工具Beta版提供Workfront原生欄位</a><span style="color: #ff0000;"> 預覽中的新增專案！</span></p>
+                        <p>Workfront原生欄位現在可讓您新增至自訂表單。 此新欄位型別可讓您以邏輯方式組織資料並將其呈現給使用者，而無需在自訂欄位中重新建立現有資料。</p>
+                    </td>
+                    <td><p><b>將於下列日期提供：</b></p>
+                        <ul>
+                            <li>
+                                <p>預覽版本： 2024年2月29日</p>
+                            </li>
+                            <li>
+                                <p>快速發行生產：24.3版（2024年3月14日）</p>
+                            </li>
+                            <li>
+                                <p>每季發行生產：24.4版（2024年4月）</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>                
+                <tr>
+                    <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">屬性對應現在可供已移轉至Adobe IMS的組織使用</a></p>
                         <p>[！BADGE In Production ]{type=Informative}</p><p>Workfront系統管理員現在可以為已移轉至Adobe IMS的組織設定使用者屬性對應。 這可讓使用者資訊從組織的SSO （單一登入）提供者傳遞到Workfront，因此使用者的資料不必同時輸入到Workfront和SSO提供者。</p>
                     </td>
@@ -73,7 +92,7 @@ ht-degree: 0%
                 </tr>                
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">表單設計工具Beta版現在提供略過邏輯和顯示邏輯</a></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">表單設計工具Beta版現在提供略過邏輯和顯示邏輯</a></p><p>[！BADGE In Production for Fast Release ]{type=Positive}</p>
                         <p>您現在可以編輯現有的顯示和略過邏輯，並在表單設計工具Beta版中新增邏輯至自訂表單。 易於使用的邏輯產生器可協助您根據表單中的選取專案定義要顯示或略過的欄位。</p>
                     </td>
                     <td><p><b>將於下列日期提供：</b></p>
@@ -111,7 +130,7 @@ ht-degree: 0%
                  </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-home-enhancements.md" class="MCXref xref" xrefformat="{para}">使用版面配置範本針對新首頁新增至管理員控制項的欄選項</a></p><p>管理員現在可以使用版面配置範本，自訂在特定新首頁Widget中哪些欄可供使用者使用。 選項包括隱藏或顯示預設欄，以及將現有欄位新增為新欄。</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-home-enhancements.md" class="MCXref xref" xrefformat="{para}">使用版面配置範本針對新首頁新增至管理員控制項的欄選項</a></p><p>[！BADGE In Production for Fast Release ]{type=Positive}</p><p>管理員現在可以使用版面配置範本，自訂在特定新首頁Widget中哪些欄可供使用者使用。 選項包括隱藏或顯示預設欄，以及將現有欄位新增為新欄。</p>
                     </td>
                     <td><p><b>將於下列日期提供：</b></p>
                         <ul>
@@ -148,7 +167,7 @@ ht-degree: 0%
                  </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-project-enhancements.md" class="MCXref xref" xrefformat="{para}">已將更相關的指派新增至「新任務」工作流程</a><span style="color: #ff0000;"> 預覽中的新增專案！</span></p><p>將任務新增至專案和專案任務清單時，我們已將相同功能新增至「新增任務」方塊的「工作總攬」欄位，以提供更相關的智慧指派。</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-project-enhancements.md" class="MCXref xref" xrefformat="{para}">已將更相關的指派新增至「新任務」工作流程</a></p><p>將任務新增至專案和專案任務清單時，我們已將相同功能新增至「新增任務」方塊的「工作總攬」欄位，以提供更相關的智慧指派。</p>
                     </td>
                     <td><p><b>將於下列日期提供：</b></p>
                         <ul>
@@ -203,7 +222,33 @@ ht-degree: 0%
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">新的更新流索引標籤可擷取評論和系統活動專案</a><span style="color: #ff0000;"> 預覽中的新增專案！</span></p><p>為了讓您依時間順序呈現評論和系統活動記錄的檢視，我們將在所有物件的「更新」區域引入第三個標籤。 「全部」索引標籤會在一個內聚的串流中擷取使用者評論和系統活動評論。</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">新評論體驗中可用的其他評論者資訊</a><span style="color: #ff0000;"> 預覽中的新增專案！</span></p><p>我們在新的註解體驗中進行了下列增強功能：</p>
+                        <ul>
+                            <li>
+                                <p>您可以按一下評論者的名稱，在資訊方塊中檢視其名稱、角色和電子郵件地址。 如果您有多個同名使用者，此資訊可協助您識別正確的使用者。 當您在資訊方塊中按一下評論者的名稱時，其使用者設定檔會開啟。</p>
+                            </li>
+                            <li>
+                                <p>當您在註解文字中被提及時，您的使用者名稱會在您被標籤的註解中反白顯示。</p>
+                            </li>
+                        </ul>
+                    </td>
+                    <td><p><b>將於下列日期提供：</b></p>
+                        <ul>
+                            <li>
+                                <p>預覽版本： 2024年2月29日</p>
+                            </li>
+                            <li>
+                                <p>快速發行生產：24.3版（2024年3月14日）</p>
+                            </li>
+                            <li>
+                                <p>每季發行生產：24.4版（2024年4月）</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>  
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">新的更新流索引標籤可擷取評論和系統活動專案</a></p><p>為了讓您依時間順序呈現評論和系統活動記錄的檢視，我們將在所有物件的「更新」區域引入第三個標籤。 「全部」索引標籤會在一個內聚的串流中擷取使用者評論和系統活動評論。</p>
                     </td>
                     <td><p><b>將於下列日期提供：</b></p>
                         <ul>
@@ -221,7 +266,7 @@ ht-degree: 0%
                 </tr>                
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">摘要面板中現在提供新的評論資料流</a><span style="color: #ff0000;"> 預覽中的新增專案！</span></p><p>我們現在已將新的評論功能新增到任務和問題清單的摘要面板。</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">摘要面板中現在提供新的評論資料流</a></p><p>我們現在已將新的評論功能新增到任務和問題清單的摘要面板。</p>
                     </td>
                     <td><p><b>將於下列日期提供：</b></p>
                         <ul>

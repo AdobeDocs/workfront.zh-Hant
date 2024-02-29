@@ -4,9 +4,9 @@ description: 2024年第二季度更新流和通知增強功能
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: b045cc3ac31459c4d92083d3a332606b37deaa36
+source-git-commit: 980979bcc96739671ea69bdb1387d98c3f39d047
 workflow-type: tm+mt
-source-wordcount: '258'
+source-wordcount: '378'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,19 @@ ht-degree: 0%
 本頁說明2024年第二季度版本對預覽環境所做的所有更新流和通知增強功能。 如上所述，這些增強功能將於生產環境中提供。
 
 如需2024年第二季發行週期目前可用的所有變更清單，請參閱 [2024年第二季版本總覽](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).
+
+## 新評論體驗中可用的其他評論者資訊
+
+>[!NOTE]
+>
+>預覽版本： 2024年2月29日；快速發行生產：24.3版（2024年3月14日）；所有客戶生產：24.4版（2024年4月）
+
+我們在新的註解體驗中進行了下列增強功能：
+
+* 您可以按一下評論者的名稱，在資訊方塊中檢視其名稱、角色和電子郵件地址。 如果您有多個同名使用者，此資訊可協助您識別正確的使用者。 當您在資訊方塊中按一下評論者的名稱時，其使用者設定檔會開啟。
+* 當您在註解文字中被提及時，您的使用者名稱會在您被標籤的註解中反白顯示。
+
+如需詳細資訊，請參閱 [更新工作](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
 ## 新的更新流索引標籤可擷取評論和系統活動專案
 
