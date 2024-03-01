@@ -10,14 +10,16 @@ feature: System Setup and Administration
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: f8961140-948f-4bea-956b-a8126008b8cb
-source-git-commit: ac70fc3564273ef7865de2ae4ca704bb7f61af70
+source-git-commit: 7a9232f59e4c6f2eac2995be7d7862295b6bab2c
 workflow-type: tm+mt
-source-wordcount: '158'
-ht-degree: 2%
+source-wordcount: '160'
+ht-degree: 1%
 
 ---
 
-# 版面配置範本
+# 版面配置範本：文章索引
+
+<!-- Audited: 2/2024 -->
 
 本節包含下列文章：
 

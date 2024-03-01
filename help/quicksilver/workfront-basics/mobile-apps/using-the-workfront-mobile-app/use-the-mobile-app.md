@@ -7,14 +7,16 @@ author: Nolan
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 10419dc8-8e7b-40fb-91fe-0ddbd0a493c9
-source-git-commit: 34ce6492e14399926aed910bf9ed4d8688904341
+source-git-commit: 7a9232f59e4c6f2eac2995be7d7862295b6bab2c
 workflow-type: tm+mt
-source-wordcount: '286'
+source-wordcount: '262'
 ht-degree: 0%
 
 ---
 
-# 使用 [!DNL Adobe Workfront] 行動應用程式
+# 使用 [!DNL Adobe Workfront] 行動應用程式：文章索引
+
+<!-- Audited: 2/2024 -->
 
 透過以下方式，加速參與並簡化組織中團隊和個人的工作 [!DNL Adobe Workfront's] 行動應用程式，適用於任何iOS或Android裝置。 使用應用程式時，您可以：
 
@@ -38,13 +40,13 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->此 [!DNL Adobe Workfront] 行動應用程式正在取代 [!DNL Workfront Proof] 此應用程式已不受支援，將在10月的第23.10發行版本中完全移除。 [!DNL Workfront] 客戶現在應該使用 [!DNL Adobe Workfront] 用於進行校訂檢閱和核准的行動應用程式。
+>此 [!DNL Adobe Workfront] 行動應用程式已取代 [!DNL Workfront Proof] 應用程式。 [!DNL Workfront] 客戶現在應該使用 [!DNL Adobe Workfront] 用於進行校訂檢閱和核准的行動應用程式。
 
 如需詳細資訊，請參閱 [!DNL Adobe Workfront] 檢閱下列文章：
 
-* [[!DNL Adobe Workfront] 針對 [!DNL Android]](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-android.md)
+* [[!DNL Adobe Workfront] 的 [!DNL Android]](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-android.md)
 * [成為 [!DNL Android] Beta測試者](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/android-beta-tester.md)
-* [[!DNL Adobe Workfront] 針對 [!DNL iOS]](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-ios.md)
+* [[!DNL Adobe Workfront] 的 [!DNL iOS]](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-ios.md)
 * [成為 [!DNL iOS] Beta測試者](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/ios-beta-tester.md)
 * [[!UICONTROL 首頁] 區域Widget](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/home-area-widgets-mobile.md)
 * [[!UICONTROL 我的工作] 區段](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/my-work-section-mobile.md)
