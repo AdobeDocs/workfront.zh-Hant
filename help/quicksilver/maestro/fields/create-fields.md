@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: 420a9c24695f950ad191431ca6c6848b7649f3b1
+source-git-commit: be9cedb0d09e6409a0e589f01b85a72933ac89fc
 workflow-type: tm+mt
-source-wordcount: '3339'
+source-wordcount: '3341'
 ht-degree: 2%
 
 ---
@@ -379,7 +379,7 @@ recommendations: noDisplay, noCatalog
    >
    > * 您無法在公式中新增多重選取型別欄位。
    >
-   > * 您無法從公式中的連結記錄新增欄位。 此功能將在稍後發佈。 如需新版本的詳細資訊，請參閱 [Adobe大師發行活動](/help/quicksilver/maestro/release-activity.md).
+   > * 您無法從公式中的連結記錄新增欄位。 此功能將在稍後發佈。 如需新版本的詳細資訊，請參閱 [Adobe Workfront規劃功能發行活動](/help/quicksilver/maestro/release-activity.md).
 
 
 1. 按一下「**建立**」。

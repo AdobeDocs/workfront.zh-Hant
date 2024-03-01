@@ -1,32 +1,32 @@
 ---
-title: Adobe大師發行活動
-description: Adobe Maestro目前可供特定Workfront客戶使用。 請經常閱讀本文章，瞭解最近為Adobe Maestro發行的功能。
+title: Adobe Workfront規劃功能發行活動
+description: Adobe Workfront規劃功能目前可供特定Workfront客戶使用。 請經常閱讀本文章，瞭解最近針對規劃功能發行的功能。
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: ef313bf912c65b9b316bd7403235ccf6f05a0ac6
+source-git-commit: be9cedb0d09e6409a0e589f01b85a72933ac89fc
 workflow-type: tm+mt
-source-wordcount: '4172'
+source-wordcount: '4258'
 ht-degree: 0%
 
 ---
 
-# Adobe大師發行活動
+# Adobe Workfront規劃功能發行活動
 
 {{maestro-important-intro}}
 
-本文列出2023年5月22日Maestro封閉Beta版計畫推出後所發行的功能。
+本文列出2023年5月22日Adobe Workfront規劃功能封閉測試版計畫推出後所發行的功能。
 
-已發行的功能會依其發行順序列出，最新的排在前。 參與Maestro封閉測試版計畫的客戶可以存取其生產環境中的所有功能。
+已發行的功能會依其發行順序列出，最新的排在前。 參與計畫功能封閉測試計畫的客戶可以存取其生產環境中的所有功能。
 
 >[!IMPORTANT]
 >
->在2023年5月至2023年12月期間，本文中的所有功能均已發佈到「預覽」和「生產」環境。 自2024年1月起，Maestro功能已暫時從預覽和沙箱環境中移除。 在此日期之後發行的所有功能目前可在生產環境中使用。
+>在2023年5月至2023年12月期間，本文中的所有功能均已發佈到「預覽」和「生產」環境。 自2024年1月起，規劃功能已暫時從預覽和沙箱環境中移除。 在此日期之後發行的所有功能目前可在生產環境中使用。
 
-本文列有在2023年5月22日Maestro封閉Beta版計畫推出後所發行的功能和修補程式。
+本文列出2023年5月22日Adobe Workfront規劃功能封閉測試版計畫推出後所發行的功能和修補程式。
 
-功能每週都會發行，並依發行順序列出，最新的則排在前。 參與Maestro封閉測試版計畫的客戶可以存取其預覽和生產環境中的所有功能。
+功能每週都會發行，並依發行順序列出，最新的則排在前。 參與計畫功能封閉測試計畫的客戶可以存取其預覽和生產環境中的所有功能。
 
 >[!IMPORTANT]
 >
@@ -64,7 +64,7 @@ ht-degree: 0%
 
 有關新許可證模型的資訊，請參閱 [Workfront檔案中的存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-如需Maestro中授權型別與許可權之間的連線資訊，請參閱 [Adobe Maestro中的授權型別概觀](/help/quicksilver/maestro/access/license-type-overview.md).
+如需有關計畫功能中許可證型別與許可權之間的連線的資訊，請參閱 [Adobe Maestro中的授權型別概觀](/help/quicksilver/maestro/access/license-type-overview.md).
 
 
 ### 記錄欄位RTF工具列的新外觀
@@ -88,7 +88,7 @@ ht-degree: 0%
 * 單選
 * 多選
 * 人員
-* 連線的記錄欄位(當連線Maestro記錄型別或Workfront物件時)
+* 已連線的記錄欄位(當連線planning權能記錄型別或Workfront物件時)
 
 有了新的改進，最先顯示的是一個更小、回應更迅速的方塊。
 
@@ -136,14 +136,14 @@ ht-degree: 0%
 
 預覽：待定
 
-為避免混淆並簡化工作區管理，我們已從工作區中移除已連線的非Maestro物件自動產生的唯讀記錄型別卡。
+為避免混淆並簡化工作區管理，我們已從工作區中移除已連線外部物件的自動產生、唯讀記錄型別卡。
 <!-- Now, when you connect Workfront objects with Maestro records, for example, you can navigate to Workfront to manage the linked objects. You can no longer find the read-only Workfront object record type page in Maestro. This simplifies the number of objects and places you manage information for your objects.  -->
 
 如需詳細資訊，請參閱 [連線記錄](/help/quicksilver/maestro/records/connect-records.md).
 
 ## 2024年1月22日起一週
 
-### 新歷史記錄區段顯示Maestro記錄的系統活動
+### 「新增歷史記錄」段落顯示計畫權能記錄的系統作業
 
 生產： 2024年1月25日
 
@@ -151,7 +151,7 @@ ht-degree: 0%
 
 為了提高稽核能力，我們在記錄的右側面板中引入了新區段，您可以在其中檢視對系統記錄的記錄所做的更改。
 
-Maestro會在新的「歷史記錄」區段中記錄下列資訊：
+下列資訊會記錄在新的「歷史記錄」區段中：
 
 * 任何欄位變更
 
@@ -173,13 +173,13 @@ Maestro會在新的「歷史記錄」區段中記錄下列資訊：
 
 ## 2024年1月8日當週
 
-### 主要功能已從預覽和沙箱環境中移除
+### 規劃功能已從預覽和沙箱環境中移除
 
 預覽和沙箱： 2024年1月11日
 
-Maestro區域和所有Maestro功能已暫時從「預覽」和「沙箱」環境中移除。 Maestro稍後將新增到這些環境中，我們將在發行活動附註中傳達這些資訊。
+Adobe Workfront規劃功能已暫時從預覽和沙箱環境中移除。 它們將在日後新增到這些環境中，我們將在發行活動附註中介紹。
 
-### 工作區與檢視的Maestro許可權
+### 工作區和檢視的Planning功能許可權
 
 生產： 2024年1月11日
 
@@ -191,7 +191,7 @@ Maestro區域和所有Maestro功能已暫時從「預覽」和「沙箱」環境
 
 當您共用工作區時，使用者不會收到與工作區記錄型別相關聯的檢視的共用許可權。 您必須授予檢視個別的許可權。
 
-以下是Maestro工作區的許可權層級：
+以下是工作區的許可權層級：
 
 * 檢視：使用者可以檢視與他們共用的工作區。 他們也可以從共用工作區檢視記錄型別和記錄。
 
@@ -274,21 +274,21 @@ Maestro區域和所有Maestro功能已暫時從「預覽」和「沙箱」環境
 
 您現在可以在詳細資訊頁面中檢視記錄時，新增評論或回覆其他人，以在個別記錄上與其他人共同作業。
 
-Maestro記錄的註解體驗符合Workfront物件的新註解體驗。
+規劃功能記錄的註解體驗符合Workfront物件的新註解體驗。
 
 如需詳細資訊，請參閱 [管理記錄註解](/help/quicksilver/maestro/records/manage-record-comments.md).
 
-### Adobe Workfront Fusion的Maestro聯結器(Beta)
+### Adobe Workfront Fusion的規劃功能聯結器(Beta)
 
 生產： 2023年12月21日
 
 >[!IMPORTANT]
 >
->貴組織必須購買Adobe Workfront Fusion，才能與Maestro建立連線。
+>貴組織必須購買Adobe Workfront Fusion，才能與Adobe Workfront規劃功能建立連線。
 >
 >如需詳細資訊，請參閱 [Adobe Workfront Fusion概觀](/help/quicksilver/workfront-fusion/get-started/workfront-fusion-overview.md).
 
-現在，您可以使用Adobe Workfront Fusion來連線到Maestro。 使用新的AdobeMaestro Fusion連線，您可以：
+現在，您可以使用Adobe Workfront Fusion連線至規劃功能。 透過新的Fusion連線，您可以：
 
 * 建立、讀取、更新和刪除記錄
 
@@ -300,7 +300,7 @@ Maestro記錄的註解體驗符合Workfront物件的新註解體驗。
 
 * 進行API呼叫
 
-* 在Maestro中進行變更時觸發案例
+* 在規劃功能中變更時觸發案例
 
 如需詳細資訊，請參閱 [Adobe大師模組](/help/quicksilver/workfront-fusion/apps-and-their-modules/maestro-modules.md).
 
@@ -310,7 +310,7 @@ Maestro記錄的註解體驗符合Workfront物件的新註解體驗。
 
 預覽和生產： 2023年12月14日
 
-您現在可以選擇要顯示在Maestro表格檢視的第一欄中的欄位。 此欄位現在稱為主要欄位。
+您現在可以選擇要在表格檢視的第一欄中顯示的欄位。 此欄位現在稱為主要欄位。
 
 在此增強功能之前，記錄的「名稱」欄位一律顯示在表格檢視的第一欄，且無法放置於其他位置。
 
@@ -334,8 +334,7 @@ Maestro記錄的註解體驗符合Workfront物件的新註解體驗。
 
 如需詳細資訊，請參閱 [管理表格檢視](/help/quicksilver/maestro/views/manage-the-table-view.md).
 
-
-### 連結Maestro記錄與Adobe Experience Manager Assets
+### 將規劃功能記錄與Adobe Experience Manager Assets連結
 
 預覽版本： 2023年12月14日
 
@@ -343,34 +342,33 @@ Maestro記錄的註解體驗符合Workfront物件的新註解體驗。
 
 >[!IMPORTANT]
 >
->貴組織的Workfront執行個體必須上線至Adobe業務平台或Adobe Admin Console，才能將Maestro記錄連線至Adobe Experience Manager Assets。
+>貴組織的Workfront例項必須上線至Adobe業務平台或Adobe Admin Console，才能將Adobe Workfront規劃功能記錄連線至Adobe Experience Manager Assets。
 >
 >如果您對上線Adobe Admin Console有任何疑問，請參閱 [Adobe Unified Experience常見問題集](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/unified-experience-faq.md).
 
-
-您現在可以在Maestro記錄型別與Adobe Experience Manager Assets之間建立連線。
+您現在可以在Adobe Workfront規劃功能記錄型別與Adobe Experience Manager Assets之間建立連線。
 
 建立連線後，此更新便可使用下列功能：
 
-* 您可以將Experience Manager資產和資料夾從Experience Manager Assets中他們有權存取的特定存放庫連結到Maestro記錄。 您可以在此程式中連線資產欄位至Maestro欄位。
+* 您可以將Experience Manager資產和資料夾從他們有權存取的Experience Manager Assets中的特定存放庫連結到規劃功能記錄。 您可以在此程式中連線資產欄位與計畫功能欄位。
 
-* Maestro使用者可以檢視連線資產的名稱，以及Maestro中連線欄位的值
+* Planning功能使用者可檢視連線資產的名稱，以及規劃功能中連線欄位的值。
 
 <!--removed per PM, for now: 
 * An Experience Manager Assets record type is automatically created in Maestro after you establish the connection. Connected assets are visible in the Maestro table and timeline views of this new record type.  
 -->
 
-* 您可以從連線的記錄欄位按一下Maestro記錄表格檢視中的資產名稱，並檢視包含資產縮圖和數個關鍵欄位的快顯視窗。 從快顯視窗中，您可以導覽至Experience Manager中的資產檢視器，並檢視有關該檢視器的所有詳細資訊。
+* 您可以從連線的記錄欄位按一下規劃功能記錄之表格檢視中的資產名稱，並檢視包含資產縮圖和數個關鍵欄位的快顯視窗。 從快顯視窗中，您可以導覽至Experience Manager中的資產檢視器，並檢視有關該檢視器的所有詳細資訊。
 
 如需詳細資訊，請參閱 [連線記錄型別](/help/quicksilver/maestro/architecture/connect-record-types.md).
 
 ## 2023年12月4日當週
 
-### 在Maestro表格檢視中，針對People-type和連結的記錄欄位，將資訊從一個欄位複製並貼到另一個欄位
+### 在「人員」型別與連結的記錄欄位之計畫功能表格檢視中，將資訊從一個欄位複製並貼上至另一個欄位
 
 預覽和生產： 2023年12月5日
 
-您現在可以在Maestro記錄型別表格檢視中，將資訊從一個欄位複製並貼到另一個相同型別的欄位。 下列欄位型別現在支援此功能：
+您現在可以在記錄型別表格檢視中，將資訊從一個欄位複製並貼到另一個相同型別的欄位。 下列欄位型別現在支援此功能：
 
 * 人員
 * 連結的記錄欄位
@@ -379,7 +377,7 @@ Maestro記錄的註解體驗符合Workfront物件的新註解體驗。
 
 * 顯示多個值的欄位支援將欄位值從一個欄位複製和貼上到另一個欄位。
 
-* 您無法從其他來源複製資訊，除了與貼上資訊的欄位型別相同的Maestro欄位之外。
+* 您無法從其他來源複製資訊，但計畫功能欄位與貼上資訊的欄位型別相同。
 
 * 您無法複製和貼上顯示在記錄之詳細資訊區域中的欄位值。
 
@@ -389,15 +387,15 @@ Maestro記錄的註解體驗符合Workfront物件的新註解體驗。
 
 ## 2023年11月27日當週
 
-### 在Maestro表格檢視中，將資訊從一個欄位複製並貼上到另一個欄位
+### 在規劃功能表格檢視中，將資訊從一個欄位複製並貼上到另一個欄位
 
 預覽和生產： 2023年11月28日
 
-您現在可以在Maestro記錄型別表格檢視中，將資訊從一個欄位複製並貼到另一個相同型別的欄位。
+您現在可以將某個欄位的資訊複製並貼上至計畫權能記錄型別表格檢視中相同型別的另一個欄位。
 
 請考量下列事項：
 
-* 您無法從其他來源複製資訊，除了與貼上資訊的欄位型別相同的Maestro欄位之外。
+* 您無法從其他來源複製資訊，但計畫功能欄位與貼上資訊的欄位型別相同。
 
 * 您無法複製和貼上顯示在記錄之詳細資訊區域中的欄位值。
 
@@ -417,7 +415,7 @@ Maestro記錄的註解體驗符合Workfront物件的新註解體驗。
 
 預覽和生產： 2023年11月7日
 
-您現在可以在記錄型別頁面的表格檢視中將記錄分組。 您可以在Maestro介面中依三個不重複欄位分組 <!--checking into this for now: and by four fields when using the API-->.
+您現在可以在記錄型別頁面的表格檢視中將記錄分組。 您可以在計畫功能介面中依三個唯一欄位分組<!--checking into this for now: and by four fields when using the API-->.
 
 如需詳細資訊，請參閱 [管理表格檢視](../maestro/views/manage-the-table-view.md).
 
@@ -427,7 +425,7 @@ Maestro記錄的註解體驗符合Workfront物件的新註解體驗。
 
 預覽和生產： 2023年10月30日
 
-我們為Maestro記錄引進了以下欄位型別：
+我們為Adobe Workfront規劃功能記錄引進了以下欄位型別：
 
 * 建立者
 
@@ -441,11 +439,11 @@ Maestro記錄的註解體驗符合Workfront物件的新註解體驗。
 
 如需詳細資訊，請參閱 [建立欄位](../maestro/fields/create-fields.md).
 
-### 從Maestro記錄導覽至Workfront物件
+### 從規劃權能記錄導覽至Workfront物件
 
 預覽和生產： 2023年10月31日
 
-您現在可以從Maestro的下列區域開啟Workfront物件頁面：
+您現在可以從規劃功能的下列區域開啟Workfront物件頁面：
 
 * 唯讀連結Workfront物件記錄表格檢視
 
@@ -475,7 +473,7 @@ Maestro記錄的註解體驗符合Workfront物件的新註解體驗。
 
 預覽和生產： 2023年10月16日
 
-您現在可以新增People-type欄位至Maestro記錄型別。 您可以使用「人員」型別欄位，將現有使用者與記錄建立關聯。 如需詳細資訊，請參閱 [建立欄位](../maestro/fields/create-fields.md).
+您現在可以將「人員」型別欄位新增至規劃權能記錄型別。 您可以使用「人員」型別欄位，將現有使用者與記錄建立關聯。 如需詳細資訊，請參閱 [建立欄位](../maestro/fields/create-fields.md).
 
 ### RTF格式 — 段落欄位格式
 
@@ -530,26 +528,26 @@ Maestro記錄的註解體驗符合Workfront物件的新註解體驗。
 
 ## 2023年9月4日當週
 
-### 連結Maestro記錄與Workfront公司和群組
+### 將規劃功能記錄與Workfront公司和群組連結
 
 預覽和生產： 2023年9月5日
 
-您現在可以連結Maestro記錄與Workfront公司和群組。 您必須先在Maestro記錄型別與Workfront公司和群組物件型別之間建立連線。 然後，您可以將所選記錄型別的單一Maestro記錄連線到個別Workfront公司和群組。
+您現在可以將規劃功能記錄與Workfront公司和群組連結。 您必須先在規劃功能記錄型別與Workfront公司和群組物件型別之間建立連線。 然後，您可以將所選記錄型別的單一計畫功能記錄連線到個別Workfront公司和群組。
 
 請考量下列事項：
 
-* 您必須為每個Workspace在Maestro記錄型別與Workfront公司和群組物件型別之間建立連線。
+* 您必須為每個Workspace在Planning權能記錄型別與Workfront公司和群組物件型別之間建立連線。
 
 * 您無法將分類記錄型別與Workfront物件型別連線。
 
-* 您可以將多個Maestro記錄連線到同一個Workfront公司或群組，並將多個公司或群組連線到同一個Maestro記錄。
+* 您可以將多個計畫功能記錄連線到相同的Workfront公司或群組，並將多個公司或群組連線到相同的計畫功能記錄。
 
-* 您無法在Maestro中編輯公司或群組。 檢閱Maestro連結的記錄時，在Workfront中執行的所有公司或群組變更都會顯示在Maestro中。
+* 您無法編輯規劃權能中的公司或群組。 檢閱規劃功能連結的記錄時，在Workfront中執行的所有公司或群組變更都會顯示在規劃功能中。
 
   如需詳細資訊，請參閱下列文章：
 
    * [連線記錄型別](../maestro/architecture/connect-record-types.md)
-   * [連線記錄](../maestro/records/connect-records.md)
+   * [連接記錄](../maestro/records/connect-records.md)
 
 ### 單行文字欄位的URL支援
 
@@ -571,15 +569,15 @@ Maestro記錄的註解體驗符合Workfront物件的新註解體驗。
 
 ## 2023年8月21日起一週
 
-### 將Maestro記錄連線到計畫和投資組合
+### 將Adobe Workfront規劃功能記錄連線到計畫和投資組合
 
 預覽和生產： 2023年8月24日
 
-您現在可以將Maestro記錄與Workfront計畫和產品組合連線。 您必須在Maestro記錄型別與建立連線欄位的方案或投資組合之間建立連線。 然後，您可以將來自相同工作區中所有其他記錄型別的任何Maestro記錄連線到特定計畫和產品組合，這些計畫和產品組合會在相同工作區中建立唯讀Workfront計畫或WorkfrontPortfolio記錄型別。 請考量下列事項：
+您現在可以將規劃功能記錄與Workfront程式和產品組合連結。 您必須在計畫權能記錄型別與建立連線欄位的方案或投資組合之間建立連線。 然後，您可以將來自相同工作區中所有其他記錄型別的任何規劃權能記錄連線到特定程式和產品組合，這些程式和產品組合會在相同工作區中建立唯讀Workfront程式或WorkfrontPortfolio記錄型別。 請考量下列事項：
 
 * Workfront聯結器記錄型別對於每個工作區都是唯一的。
-* 您可以將多個Maestro記錄連線到同一個Workfront計畫或產品組合，並將多個計畫和產品組合連線到同一個Maestro記錄。
-* 您無法在Maestro中編輯計畫和投資組合。 檢閱連結的記錄時，在Workfront中執行的所有計畫和產品組合變更在Maestro中可見。
+* 您可以將多個規劃權能記錄連線到同一個Workfront方案或產品組合，並將多個方案和產品組合連線到同一規劃權能記錄。
+* 您不能在規劃權能中編輯方案和投資組合。 檢閱連結的記錄時，在Workfront中執行的所有方案和產品組合變更都會顯示在計畫功能中。
 
 ### 表格檢視的新排序功能
 
@@ -608,13 +606,13 @@ Maestro記錄的註解體驗符合Workfront物件的新註解體驗。
 
 ### 重新排序表格檢視中的欄
 
-您現在可以在Maestro表格檢視中重新排序欄。 重新排序欄時，請考量下列事項：
+您現在可以在表格檢視中重新排序欄。 重新排序欄時，請考量下列事項：
 
 * [名稱]欄位永遠是記錄型別頁面表格檢視中的第一個欄位
 
 * 您無法將「名稱」欄位移至其他位置
 
-* 「名稱」欄位已凍結，且不是水準捲動的一部分。
+* 「名稱」欄位已凍結，且不是水準捲動的一部分
 
 ### 時間軸檢視的水準捲動
 
@@ -650,7 +648,7 @@ Maestro記錄的註解體驗符合Workfront物件的新註解體驗。
 
 預覽和生產： 2023年7月13日
 
-您現在可以將「核取方塊」欄位型別新增至Maestro記錄型別。 您可以使用Checkbox-type欄位，將單一核取方塊選項新增到記錄。 您可以使用此欄位來指示該特定記錄的特定屬性或狀態。 例如，您可以將其用作追蹤完成、核准或每個記錄的任何其他二進位屬性的標幟。
+您現在可以將「核取方塊」欄位型別新增至計畫權能記錄型別。 您可以使用Checkbox-type欄位，將單一核取方塊選項新增到記錄。 您可以使用此欄位來指示該特定記錄的特定屬性或狀態。 例如，您可以將其用作追蹤完成、核准或每個記錄的任何其他二進位屬性的標幟。
 
 ## 2023年6月26日起一週
 
@@ -664,19 +662,19 @@ Maestro記錄的註解體驗符合Workfront物件的新註解體驗。
 
 ### 記錄欄位名稱是唯一的
 
-我們現在引入了一項要求，要求Maestro記錄型別的欄位名稱應具有唯一名稱。 屬於不同記錄型別的欄位不必有唯一名稱。
+我們現在已引入一項要求，即規劃功能記錄型別的欄位名稱應具有唯一名稱。 屬於不同記錄型別的欄位不必有唯一名稱。
 
 ## 2023年6月5日起一週
 
-### 將Maestro記錄連線至Workfront專案
+### 將Adobe Workfront規劃功能記錄與Workfront專案連線
 
 預覽和生產： 2023年6月5日
 
-您現在可以將Maestro記錄與Workfront專案連線。 您必須建立聯結器Maestro記錄型別，以建立Maestro記錄與Workfront專案之間的連線。 然後，您可以使用「關係」欄位，將所有其他記錄型別的任何Maestro記錄連線到聯結器記錄。 請考量下列事項：
+您現在可以將規劃功能記錄與Workfront專案連線。 您必須建立聯結器規劃功能記錄型別，以建立規劃功能記錄與Workfront專案之間的連線。 然後，您可以使用「關係」欄位，將所有其他記錄型別的計畫權能記錄連線至聯結器記錄。 請考量下列事項：
 
 * 您必須擁有每個工作區的Workfront聯結器記錄型別。
-* 您可以將多個Maestro記錄連線到同一個Workfront專案，並將多個專案連線到同一個Maestro記錄。
-* 您無法在Maestro編輯專案。 檢閱連結的記錄時，在Workfront中執行的所有專案變更都會顯示在Maestro中。
+* 您可以將多個計畫功能記錄連線到同一個Workfront專案，並將多個專案連線到相同的計畫功能記錄。
+* 您不能在規劃功能中編輯專案。 檢閱連結的記錄時，在Workfront中執行的所有專案變更都會顯示在規劃功能中。
 
 ## 2023年5月29日起一週
 

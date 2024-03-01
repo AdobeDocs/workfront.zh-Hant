@@ -1,7 +1,7 @@
 ---
-source-git-commit: dda00a43c5122a233ce2849d828d2e5e4555d2d9
+source-git-commit: 472fe32b5f0fa09b00496cf07166e178d248957f
 workflow-type: tm+mt
-source-wordcount: '2356'
+source-wordcount: '2362'
 ht-degree: 1%
 
 ---
@@ -253,13 +253,13 @@ ht-degree: 1%
 
 >[!IMPORTANT]
 >
->本文資訊是指Adobe Maestro，這是Adobe Workfront的新產品。
+>本文資訊說明Adobe Workfront規劃功能，這是Adobe Workfront的新產品。
 >
->目前，Adobe大師是測試版計畫的一部分，向有限數量的客戶開放。 您必須是Workfront客戶才能使用Maestro功能。
+>目前，規劃功能屬於Beta版計畫，僅對有限數量的客戶開放。 您必須是Workfront客戶才能使用這些功能。
 >
->如需加入Maestro測試版計畫的詳細資訊，請聯絡您的客戶代表。
+>請聯絡您的客戶代表，以取得加入規劃功能測試版計畫的詳細資訊。
 >
->如需有關Maestro的詳細資訊，請參閱 [Adobe大師概觀](/help/quicksilver/maestro/maestro-overview.md).
+>如需有關規劃功能的詳細資訊，請參閱 [Adobe Workfront規劃功能概觀](/help/quicksilver/maestro/maestro-overview.md).
 
 <!-- Manage Work -->
 
