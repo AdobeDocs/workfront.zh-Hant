@@ -10,9 +10,9 @@ author: Becky
 feature: Workfront Fusion
 recommendations: noDisplay, noCatalog
 exl-id: 7075a649-ab0c-4dfc-b726-c5702c90b457
-source-git-commit: 07443d85e160004c273fc977629dd9f588cc23b2
+source-git-commit: 42d5c47ff0f286c1a4a73ccb295027c539fceeaa
 workflow-type: tm+mt
-source-wordcount: '213'
+source-wordcount: '214'
 ht-degree: 20%
 
 ---
@@ -42,6 +42,7 @@ ht-degree: 20%
 * [[!DNL Adobe Journey Optimizer] 模組](../../workfront-fusion/apps-and-their-modules/adobe-journey-optimizer-modules.md)
 * [Adobe大師模組](/help/quicksilver/workfront-fusion/apps-and-their-modules/maestro-modules.md)
 * [[!DNL Adobe PDF Services] 模組](../../workfront-fusion/apps-and-their-modules/pdf-modules.md)
+* [[!DNL Adobe Photoshop] 模組](../../workfront-fusion/apps-and-their-modules/adobe-photoshop-modules.md)
 * [[!DNL Adobe Target] 模組](../../workfront-fusion/apps-and-their-modules/adobe-target-modules.md)
 * [[!DNL Airtable] 模組](../../workfront-fusion/apps-and-their-modules/airtable-modules.md)
 * [[!DNL Allocadia] 模組](../../workfront-fusion/apps-and-their-modules/allocadia-modules.md)
