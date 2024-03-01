@@ -9,9 +9,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: e18c005b-e6ff-4a1e-a589-63132f3a8ad2
-source-git-commit: 0e2c529e61ed1c9c85dbd826029cf64346f865ff
+source-git-commit: 0bfeae7db0e3dfbb402ee602b4ede97cb6c605fa
 workflow-type: tm+mt
-source-wordcount: '1555'
+source-wordcount: '1595'
 ht-degree: 0%
 
 ---
@@ -62,7 +62,7 @@ ht-degree: 0%
 >[!NOTE]
 >
 >* 您無法排程當天的重新整理。 例如，如果今天是6月1日，則排程重新整理的最早日期是6月2日。
->* 根據提交請求的使用者時區，排程的重新整理會在指定日期的凌晨12:00進行。
+>* 排程的重新整理會在夜間根據使用者的叢集進行（美國的叢集會在夜間重新整理）。 由於佇列中的其他客戶以及重新整理的資料量，特定時間無法預測。 如果佇列有許多大型客戶，則您的重新整理可能要到當天稍後或第二天才會執行。
 >* 您的自訂重新整理沙箱一律會有與生產環境相同的產品功能。 不過，當您重新整理「自訂重新整理沙箱」時，它只會保留登入畫面背景顏色的品牌。 登入畫面和導覽列圖志會重設為 [!DNL Workfront] 預設值，以及您在重新整理之前修改的任何品牌影像都不會顯示。
 >
 
