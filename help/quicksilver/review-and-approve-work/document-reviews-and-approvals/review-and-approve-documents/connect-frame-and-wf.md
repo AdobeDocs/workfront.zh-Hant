@@ -5,9 +5,9 @@ title: 連線Workfront和Frame.io
 description: Workfront在稽核和核准流程中使用Frame.io來會見他們想要工作的人。 專案管理和核准程式在Workfront中進行管理，而稽核程式在Frame.io中完成。
 author: Courtney
 feature: Work Management, Digital Content and Documents
-source-git-commit: f50d102eb9c44abb9780c378c41c108b124077c4
+source-git-commit: cf8501ff21dc9f3a3c66d8e98555986f18aeaa80
 workflow-type: tm+mt
-source-wordcount: '573'
+source-wordcount: '632'
 ht-degree: 0%
 
 ---
@@ -20,13 +20,11 @@ Workfront在稽核和核准流程中使用Frame.io來會見他們想要工作的
 * [將Workfront群組連線到Frame.io群組](#connect-a-workfront-group-to-a-frameio-team)
 * [建立Workfront專案並新增連線的群組](#create-a-workfront-project-and-add-a-connected-group)
 
->[!IMPORTANT]
->
->本文內容指的更新檔案核准功能僅適用於特定帳戶。 如需有關標準核准流程的資訊，請參閱下列文章： [工作核准](/help/quicksilver/review-and-approve-work/manage-approvals/manage-approvals.md).
+本文內容指的更新檔案核准功能僅適用於特定帳戶。 如需有關標準核准流程的資訊，請參閱下列文章： [工作核准](/help/quicksilver/review-and-approve-work/manage-approvals/manage-approvals.md).
 
 ## 存取需求
 
-* 您的組織必須手動上線，才能使用本文所述的功能。 如需詳細資訊，請參閱 [Adobe Workfront與Frame.io原生整合alpha：概觀](/help/quicksilver/product-announcements/betas/frame-io-wf-integration-alpha/frame-io-wf-integration-alpha-overview.md)
+* 您的組織必須手動上線，才能使用本文所述的功能。 如需詳細資訊，請參閱 [Adobe Workfront與Frame.io原生整合alpha：概觀](/help/quicksilver/product-announcements/betas/frame-io-wf-integration-alpha/frame-io-wf-integration-alpha-overview.md).
 
 
 ## 將Workfront群組連線到Frame.io群組
@@ -43,12 +41,12 @@ Workfront在稽核和核准流程中使用Frame.io來會見他們想要工作的
 {{step-1-to-setup}}
 
 1. 在左側面板中，按一下 **群組**.
-1. 選擇現有群組或按一下 **建立群組**.
+1. 選擇現有群組，或按一下 **建立群組**.
 1. 在左側面板中，按一下 **連線到Frame.io**.
    ![](assets/connect-frame-group.png)
 1. 輸入API開發人員權杖。
 1. 按一下 **啟動連線**.
-1. （視條件而定）選取Frame.io帳戶。
+1. （視條件而定）如果您是多個Frame.io帳戶的管理員，請選取您要使用的帳戶。
 
 ## 建立Workfront專案並新增連線的群組
 
@@ -81,7 +79,7 @@ Workfront在稽核和核准流程中使用Frame.io來會見他們想要工作的
 
 >[!NOTE]
 >
->目前不支援子任務。
+>連線的Frame.io專案目前不支援子任務。
 
 
 1. 建立您需要填入Frame.io中的任務
@@ -92,9 +90,10 @@ Workfront在稽核和核准流程中使用Frame.io來會見他們想要工作的
 
    >[!IMPORTANT]
    >
-   >您必須新增Frame.io已連線的群組，才能在任務上看到此自訂表單。
+   >必須在[專案詳細資料]區域中指定連線的Frame.io群組，才能顯示此表單。 如需詳細資訊，請參閱 [建立Workfront專案並新增連線的群組](#create-a-workfront-project-and-add-a-connected-group) 本文章內容。
 
-1. 啟用核取方塊，然後選擇 **作用中**.
+
+1. 啟用 **此任務的整合狀態** 核取方塊，然後選擇 **作用中**.
    ![](assets/frame-custom-form.png)
 
 1. 按一下 **儲存變更**. 專案名稱旁會顯示Frame.io圖示。
@@ -111,6 +110,12 @@ Workfront在稽核和核准流程中使用Frame.io來會見他們想要工作的
 
 ### 在Frame.io中啟用專案
 
-1. 變更狀態，從 **規劃** 至 **目前** 或等於目前狀態的自訂狀態。 如此即可完成整合，並在Frame.io中產生專案、任務及任何檔案。
+1. 變更專案狀態 **規劃** 至 **目前** 或等於目前狀態的自訂狀態。 如此即可完成整合，並在Frame.io中產生專案、任務及任何檔案。
 
 專案名稱旁的Frame.io圖示會變成紫色，表示整合成功。 使用者會收到電子郵件邀請他們加入Frame.io專案。
+
+>[!IMPORTANT]
+>
+>為Frame.io連線專案後，對專案群組所做的變更不會反映在Frame.io中。
+
+
