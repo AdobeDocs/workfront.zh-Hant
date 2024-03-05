@@ -4,9 +4,9 @@ description: 2024年第二季度更新流和通知增強功能
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 980979bcc96739671ea69bdb1387d98c3f39d047
+source-git-commit: 07d5abb6a36dd97a5d810fb69bde95ef74a76174
 workflow-type: tm+mt
-source-wordcount: '378'
+source-wordcount: '452'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,16 @@ ht-degree: 0%
 本頁說明2024年第二季度版本對預覽環境所做的所有更新流和通知增強功能。 如上所述，這些增強功能將於生產環境中提供。
 
 如需2024年第二季發行週期目前可用的所有變更清單，請參閱 [2024年第二季版本總覽](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).
+
+## 新首頁Widget的快速動作現在提供新的評論資料流
+
+>[!NOTE]
+>
+>預覽版本： 2024年3月1日；快速發行生產：24.3版（2024年3月14日）；所有客戶生產：24.4版（2024年4月）
+
+我們現在已將新的註解功能新增到 **新增更新** 新首頁中「我的工作」、「我的專案」、「我的任務」和「我的問題」小工具中的快速動作按鈕。
+
+如需詳細資訊，請參閱 [開始使用新首頁](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md).
 
 ## 新評論體驗中可用的其他評論者資訊
 
@@ -34,7 +44,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->預覽版本： 2024年2月22日；快速版本的生產：24.3版（2024年3月）；所有客戶的生產：24.4版（2024年4月）
+>預覽版本： 2024年2月22日；快速發行生產：24.3版（2024年3月14日）；所有客戶生產：24.4版（2024年4月）
 
 為了讓您依時間順序呈現評論和系統活動記錄的檢視，我們將在所有物件的「更新」區域引入第三個標籤。 「全部」索引標籤會在一個內聚的串流中擷取使用者評論和系統活動評論。
 

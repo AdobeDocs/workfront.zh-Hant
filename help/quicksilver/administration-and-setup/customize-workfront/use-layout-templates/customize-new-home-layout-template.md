@@ -7,9 +7,9 @@ description: 您可以使用版面配置範本來設定使用者在開啟新首�
 author: Nolan
 feature: System Setup and Administration
 role: Admin
-source-git-commit: 6e4e6ba8f960f11aeb824d29b4bbf1d75532747b
+source-git-commit: 2551089a20d3301ff1cf7dd633114dbb5235e959
 workflow-type: tm+mt
-source-wordcount: '746'
+source-wordcount: '779'
 ht-degree: 1%
 
 ---
@@ -80,7 +80,14 @@ ht-degree: 1%
       <p>選取使用者工作區中將會出現的Widget、其位置，然後選擇背景。 請注意，雖然使用者無法移除選取的Widget，但他們可以自由移動及調整大小，以及新增其他Widget。</p>
       <p>此索引標籤的作用基本上是作為小型的新Home工作區；因此，可以根據中所述的步驟來自訂它 <a href="/help/quicksilver/workfront-basics/using-home/new-home/add-edit-remove-widgets-in-new-home.md" class="MCXref xref">新增、編輯或移除新首頁中的Widget</a>. 選取Widget，並依照您想要為使用者顯示的工作區來安排工作區。</p>
       <p>若要變更背景，請遵循底下的步驟 <b>背景自訂</b> 在 <a href="/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md" class="MCXref xref">開始使用新首頁</a>.</p>
-      </td> 
+      <p>
+
+>[!NOTE]
+>
+>只有在配置範本中移動或調整Widget大小時，不會觸發使用者的新首頁更新其配置。 不過，新增或移除Widget將會觸發使用者頁面的更新。
+
+</p>
+     </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Widget 設定</td> 
@@ -93,18 +100,24 @@ ht-degree: 1%
       </ul>
       <p>選取您要編輯的Widget後，可用選項將顯示在右側。 這些選項包括 <b>篩選器</b>， <b>欄</b>、和 <b>群組</b>. 您可以：</p>
       <ul>
-        <li><b>選取使用者可用的篩選器、欄或群組：</b><p>勾選清單中所有選項旁的方塊，讓使用者能夠使用。 使用者看不到未核取的選項。</li></p>
-        <li><b>設定Widget的預設篩選或群組：</b><p>將滑鼠停留在選項上，會出現一個按鈕，可讓您將該選項設定為使用者的預設值。 目前預設的右側會有藍色的「預設」徽章。</li></p>
-        <li><b>將現有的篩選器、欄或群組新增至可用選項清單：</b><p>按一下每個清單底部的加號按鈕，將選項新增至該清單。 請注意，只有現有的篩選器、欄位（用於欄）或群組可以這種方式新增。</li></p>
+      <li><p><b>選取使用者可用的篩選器、欄或群組：</b></p>
+      <p>勾選清單中所有選項旁的方塊，讓使用者能夠使用。 使用者看不到未核取的選項。</li></p>
+      <li><p><b>設定Widget的預設篩選或群組：</b></p>
+      <p>將滑鼠停留在選項上，會出現一個按鈕，可讓您將該選項設定為使用者的預設值。 目前預設的右側會有藍色的「預設」徽章。</li></p>
+      <li><p><b>將現有的篩選器、欄或群組新增至可用選項清單：</b></p>
+      <p>按一下每個清單底部的加號按鈕，將選項新增至該清單。 請注意，只有現有的篩選器、欄位（用於欄）或群組可以這種方式新增。</p></li>
       </ul>
-      </td> 
-     </tr>
-    </tbody> 
-   </table>
+      <p>
 
->[!IMPORTANT]
+>[!NOTE]
 >
 >如果您使用版面配置範本為特定Widget設定預設篩選或群組，則由於現有使用者偏好設定，該選項可能不會立即生效。 若要立即套用新篩選器或群組，您或使用者可能需要將「/resetUser」附加至其URL結尾以重設其使用者偏好設定。
+
+</p>
+  </td> 
+  </tr>
+  </tbody> 
+  </table>
 
 1. 繼續自訂版面範本。
 

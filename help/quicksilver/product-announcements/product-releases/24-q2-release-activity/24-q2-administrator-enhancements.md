@@ -4,9 +4,9 @@ description: 2024年第二季度管理員增強功能
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 980979bcc96739671ea69bdb1387d98c3f39d047
+source-git-commit: 2551089a20d3301ff1cf7dd633114dbb5235e959
 workflow-type: tm+mt
-source-wordcount: '543'
+source-wordcount: '615'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,16 @@ ht-degree: 0%
 此頁面說明2024年第二季度版本對「預覽」環境所做的所有管理員增強功能。 如上所述，這些增強功能將於生產環境中提供。
 
 如需2024年第二季發行週期目前可用的所有變更清單，請參閱 [2024年第二季版本總覽](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).
+
+## JumpSeat整合現在可用於新封裝型別
+
+>[!NOTE]
+>
+>預覽版本： 2024年2月26日；快速版本的生產版：24.3版（2024年3月14日）；所有客戶的生產版：24.4 （2024年4月）
+
+使用其中一個新套件型別（即Select、Prime或Ultimate）的帳戶現在可以使用現有的JumpSeat整合。 您必須擁有使用中的JumpSeat訂閱才能啟用整合。
+
+如需JumpSeat整合的詳細資訊，請參閱 [設定JumpSeat整合](/help/quicksilver/administration-and-setup/configure-integrations/configure-jumpseat.md).
 
 ## 表單設計工具Beta版提供Workfront原生欄位
 
