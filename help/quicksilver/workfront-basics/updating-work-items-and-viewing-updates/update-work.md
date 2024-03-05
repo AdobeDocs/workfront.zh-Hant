@@ -6,9 +6,9 @@ description: 您可以在Adobe Workfront物件（專案、任務或問題）上�
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: d86b1d5fb6fcfeddccfb079f3040f1ddfe29e71d
+source-git-commit: d76ab0e165d280f84718b52cc72a9b4c152a0897
 workflow-type: tm+mt
-source-wordcount: '4257'
+source-wordcount: '4279'
 ht-degree: 1%
 
 ---
@@ -322,7 +322,7 @@ After the monthly releases to Production, the same features are also available i
 
    >[!TIP]
    >
-   >您無法將註解新增至系統更新。
+   >您無法將註解新增至系統更新。 <span class="preview">但是，對舊版註釋體驗中的系統活動記錄所做的任何回覆，都會以唯讀形式填入系統活動標籤中。</span>
 
 1. <span class="preview">（可選）按一下 **全部** 標籤以在一個位置檢視使用者註解和系統活動註解。 這是僅供檢視的標籤。</span>
 

@@ -9,14 +9,16 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: c88823a7-100b-40dd-b4f1-bead53ae5dc4
-source-git-commit: c2c09486756db021b6edaf380c5a54d531ffa723
+source-git-commit: d76ab0e165d280f84718b52cc72a9b4c152a0897
 workflow-type: tm+mt
-source-wordcount: '405'
-ht-degree: 6%
+source-wordcount: '447'
+ht-degree: 0%
 
 ---
 
 # 系統追蹤更新
+
+{{highlighted-preview}}
 
 <!--remove new experience and legacy notes when we remove legacy in the UI - Jan 24???-->
 
@@ -51,18 +53,18 @@ ht-degree: 6%
    * [!UICONTROL 專案]
    * [!UICONTROL 任務]
    * [!UICONTROL 問題]
-   * [!UICONTROL 專案組合]
-   * [!UICONTROL 方案]
+   * [!UICONTROL Portfolio]
+   * [!UICONTROL 計畫]
    * [!UICONTROL 使用者]
    * [!UICONTROL 範本]
    * [!UICONTROL 範本任務]
    * [!UICONTROL 團隊]
-   * [!UICONTROL 文件]
-   * [!UICONTROL 時程表]
-   * [!UICONTROL 本文]
+   * [!UICONTROL 檔案]
+   * [!UICONTROL 時間表]
+   * [!UICONTROL Story]
 
      在 [!DNL Workfront]，本文是任務。
-   * [!UICONTROL 反覆項目]
+   * [!UICONTROL 反複專案]
    * [!UICONTROL 目標]
 
      您必須額外擁有授權，才能存取 [!UICONTROL 目標] 區域。 如需詳細資訊，請參閱 [使用Workfront目標的需求](../../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
@@ -76,7 +78,7 @@ ht-degree: 6%
    * [!UICONTROL 範本]
    * [!UICONTROL 範本任務]
    * 臨機 [!UICONTROL 卡片]
-   * [!UICONTROL 疊代]
+   * [!UICONTROL 反複專案]
 
 
 <!--hiding this bit because this is not true, at this time (August 2023). Users with a Work or Review license can see system updates by default as well.
@@ -90,6 +92,7 @@ Your [!DNL Workfront] license determines whether system updates display by defau
 
      如需有關新註解體驗的詳細資訊，請參閱 [新的評論體驗](../../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 
+   * <span class="preview">使用新的評論體驗時，使用者無法將評論新增到系統更新。 但是，對舊版評論體驗中系統活動記錄所做的任何回覆，都會在新版評論體驗中以唯讀形式填入系統活動標籤中。</span>
    * 使用舊版評論體驗時，系統和使用者更新會顯示在一個連續的摘要中。
 
    * 使用舊版評論體驗時，使用者可依預設檢視系統更新，也可以選擇不顯示更新。 使用新的註解體驗時，無法停用系統更新。
@@ -98,15 +101,15 @@ Your [!DNL Workfront] license determines whether system updates display by defau
 
 * Workfront會記錄下列物件的系統追蹤更新，但沒有選項可停用顯示它們：
 
-   * [!UICONTROL 專案組合]
-   * [!UICONTROL 方案]
-   * [!UICONTROL 反覆項目]
+   * [!UICONTROL Portfolio]
+   * [!UICONTROL 計畫]
+   * [!UICONTROL 反複專案]
 
 * [!DNL Workfront] 管理員可以定義系統應在中追蹤的變更型別 [!UICONTROL 更新] 區域。 並非所有物件都具有 [!UICONTROL 更新] 區域也有可設定的 [!UICONTROL 更新] 摘要。 下列物件具有 [!UICONTROL 更新] 擷取系統追蹤更新摘要，但沒有可設定更新摘要的區域：
 
-   * [!UICONTROL 文件]
-   * [!UICONTROL 時程表]
-   * [!UICONTROL 反覆項目]
+   * [!UICONTROL 檔案]
+   * [!UICONTROL 時間表]
+   * [!UICONTROL 反複專案]
    * [!UICONTROL 目標]
 
 
