@@ -7,9 +7,9 @@ description: 本文說明Adobe Workfront中時程表的配置，讓您更瞭解�
 author: Alina
 feature: Timesheets
 exl-id: 31c48a50-5235-495c-8e46-0974ed98ede1
-source-git-commit: a1481513747bec3486d94c74c234e2db5cc664d6
+source-git-commit: 48ac3bd727787ed214b87342ab60e844f342d0b8
 workflow-type: tm+mt
-source-wordcount: '1066'
+source-wordcount: '1078'
 ht-degree: 1%
 
 ---
@@ -137,6 +137,14 @@ ht-degree: 1%
 
 ## 摘要面板
 
+<div class="preview">
+
+預覽環境中的範例：
+![摘要面板](assets/timesheet-summary-panel-on-updates.png)
+
+</div>
+
+生產環境中的範例：
 ![摘要面板](assets/timesheet-summary-panel-for-task-unshimmed-redesign.png)
 
 您可以存取時程表中顯示的任務或問題的摘要面板。 從這裡，您可以對任務和問題發表評論，或更新其資訊。 如需詳細資訊，請參閱 [摘要概觀](../../workfront-basics/the-new-workfront-experience/summary-overview.md).
