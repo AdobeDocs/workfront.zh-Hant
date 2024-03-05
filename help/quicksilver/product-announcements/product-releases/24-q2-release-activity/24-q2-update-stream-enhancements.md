@@ -4,9 +4,9 @@ description: 2024年第二季度更新流和通知增強功能
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 07d5abb6a36dd97a5d810fb69bde95ef74a76174
+source-git-commit: 8fada0325adf8d750143289ef455728b494444d4
 workflow-type: tm+mt
-source-wordcount: '452'
+source-wordcount: '531'
 ht-degree: 0%
 
 ---
@@ -39,6 +39,16 @@ ht-degree: 0%
 * 當您在註解文字中被提及時，您的使用者名稱會在您被標籤的註解中反白顯示。
 
 如需詳細資訊，請參閱 [更新工作](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+
+## 新評論體驗上的系統活動標籤支援唯讀評論
+
+>[!NOTE]
+>
+>預覽版本： 2024年2月22日；快速發行生產：24.3版（2024年3月14日）；所有客戶生產：24.4版（2024年4月）
+
+對舊版評論體驗中系統活動記錄所做的評論，現在會以唯讀形式填入新評論體驗的「系統活動」標籤中。 您無法回覆新評論體驗中的系統活動記錄。
+
+如需詳細資訊，請參閱 [更新區段概觀](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
 ## 新的更新流索引標籤可擷取評論和系統活動專案
 

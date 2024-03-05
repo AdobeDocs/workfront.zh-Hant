@@ -4,9 +4,9 @@ description: 此頁面提供2024年第二季度版本中包含的功能相關資
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 2551089a20d3301ff1cf7dd633114dbb5235e959
+source-git-commit: 8fada0325adf8d750143289ef455728b494444d4
 workflow-type: tm+mt
-source-wordcount: '1377'
+source-wordcount: '1454'
 ht-degree: 0%
 
 ---
@@ -284,6 +284,24 @@ ht-degree: 0%
                         </ul>
                     </td>
                 </tr>  
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">新評論體驗上的系統活動標籤支援唯讀評論</a></p><p>對舊版評論體驗中系統活動記錄所做的評論，現在會以唯讀形式填入新評論體驗的「系統活動」標籤中。 您無法回覆新評論體驗中的系統活動記錄。</p>
+                    </td>
+                    <td><p><b>將於下列日期提供：</b></p>
+                        <ul>
+                            <li>
+                                <p>預覽版本： 2024年2月22日</p>
+                            </li>
+                            <li>
+                                <p>快速發行生產：第24.3發行版本（2024年3月）</p>
+                            </li>
+                            <li>
+                                <p>每季發行生產：24.4版（2024年4月）</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr> 
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">新的更新流索引標籤可擷取評論和系統活動專案</a></p><p>為了讓您依時間順序呈現評論和系統活動記錄的檢視，我們將在所有物件的「更新」區域引入第三個標籤。 「全部」索引標籤會在一個內聚的串流中擷取使用者評論和系統活動評論。</p>
