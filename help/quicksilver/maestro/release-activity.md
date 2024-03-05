@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: be9cedb0d09e6409a0e589f01b85a72933ac89fc
+source-git-commit: 83f10ed479f31101add8747f8b672bbc1dbd922b
 workflow-type: tm+mt
 source-wordcount: '4258'
 ht-degree: 0%
@@ -31,6 +31,60 @@ ht-degree: 0%
 >[!IMPORTANT]
 >
 >在功能發行至生產環境後的某個時間，將可使用以下各節中參考的檔案。
+
+<!--
+## Week of March 4, 2024
+
+### Change row height in the table view
+
+Production: March 7, 2024 
+
+Preview: To be determined 
+
+You now have an option to modify the height of a row when displaying records in the table view.
+
+You can update the row height to one of the following sizes:  
+
+* Short 
+* Medium
+* Tall.  
+
+For more information, see [Manage the table view](/help/quicksilver/maestro/views/manage-the-table-view.md). 
+
+### New tabbed design for record views 
+
+Production: March 7, 2024 
+
+Preview: To be determined 
+
+For better navigation and ease of use, we have redesigned the display of record views. Now, the views display horizontally, as tabs on the record type page, so you can easily navigate through them. Prior to this enhancement, views displayed in the View drop-down menu.  
+
+Views display chronologically by added date from left to right. Shared  views also display in chronological order of when they were shared.  
+
+For more information, see [Manage record views](/help/quicksilver/maestro/views/manage-record-views.md).  
+
+### Dynamic design of a record view
+
+Production: March 7, 2024
+Preview: To be determined 
+
+We have updated the look and feel of the views in the record type page. The new views are dynamically responsive and quickly adjust to the size of your screen. The toolbar option labels are hidden to make the toolbar easier to use on smaller screens.  
+
+For more information, see the following articles: 
+* [Manage the table view](/help/quicksilver/maestro/views/manage-the-table-view.md) 
+* [Manage the timeline view](/help/quicksilver/maestro/views/manage-the-timeline-view.md).
+
+### New calendar view for records
+
+Production: March 7, 2024 
+
+Preview: To be determined 
+
+You can now display records in a calendar view. You must have at least two date fields on a record type to be able to create the calendar view.  
+
+For more information, see [Manage the calendar view](/help/quicksilver/maestro/views/manage-the-calendar-view.md). 
+
+-->
 
 ## 2024年2月26日當週
 

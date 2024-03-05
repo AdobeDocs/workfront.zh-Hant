@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: be9cedb0d09e6409a0e589f01b85a72933ac89fc
+source-git-commit: 83f10ed479f31101add8747f8b672bbc1dbd922b
 workflow-type: tm+mt
 source-wordcount: '2051'
 ht-degree: 1%
@@ -264,7 +264,7 @@ Adobe Workfront規劃功能是Adobe Workfront推出的全新產品。 規劃功�
 |-------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------:|
 | 一個Workfront例項的工作區數 | 1,000 |
 | 一個工作區的記錄型別數 | 1,000 （這包括工作區的分類，或從其他應用程式匯入的物件） |
-| 一種記錄型別的記錄數 | 10,000 |
+| 一種記錄型別的記錄數 | 50,000 |
 | 一種記錄型別或分類法的欄位數 | 500 |
 | 文字欄位的字元數 | 1,000個字元 |
 | 您可以在記錄型別表格中貼上的檔案大小 | 1MB |
