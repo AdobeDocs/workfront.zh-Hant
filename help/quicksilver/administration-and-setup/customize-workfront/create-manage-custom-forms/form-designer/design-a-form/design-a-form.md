@@ -8,14 +8,16 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: 0100baa3ce3eb266cf650eacfc94120f7c9eb49b
+source-git-commit: e5ab7cf79ad2d2542146336bd48071154d0abc53
 workflow-type: tm+mt
-source-wordcount: '5171'
+source-wordcount: '5592'
 ht-degree: 3%
 
 ---
 
 # 使用表單設計工具設計表單
+
+{{highlighted-preview}}
 
 您可以使用表單設計工具來設計自訂表單。 您可以將自訂表單附加至不同的Workfront物件，以擷取這些物件的相關資料。
 
@@ -80,7 +82,9 @@ ht-degree: 3%
    * [新增計算欄位](#add-calculated-fields)
    * [新增選項按鈕、核取方塊群組和下拉式清單](#add-radio-buttons-checkboxes-and-dropdowns)
    * [新增預先輸入和日期欄位](#add-typeahead-and-date-fields)
+   * [新增外部查詢欄位](#add-external-lookup-fields)
    * [新增影像、PDF和影片](#add-images-pdfs-and-videos)
+   * [新增Workfront原生欄位](#add-workfront-native-fields)
    * [新增Adobe XD檔案](#add-adobe-xd-files)
 
 ## 新增欄位或現有欄位至您的自訂表單
@@ -395,7 +399,7 @@ ht-degree: 3%
    * 使用者
    * 群組
    * 職務角色
-   * Portfolio
+   * 專案組合
    * 方案
    * 專案
    * 團隊
@@ -645,7 +649,7 @@ The Workfront Mobile app -->
      </tr> 
      <tr> 
       <td role="rowheader">姓名</td> 
-      <td> <p>（必要）此名稱是系統識別Widget的方式。</p> <p>當您第一次設定Widget且輸入標籤時，「名稱」欄位會自動填入以和相符。 但是「標籤」和「名稱」欄位不同步，這可讓您自由地變更使用者看到的標籤，而不必變更系統看到的名稱。</p> <p><b>重要</b>：雖然可以這樣做，但建議您不要在您或其他使用者開始在Widget中使用自訂表單後變更此名稱。 如果這樣做，系統將無法再辨識Widget，而此時它可能會在Workfront的其他區域中被參照。 </p> <p>每個Widget名稱在貴組織的Workfront例項中必須是唯一的。 如此一來，您便可重複使用已針對其他自訂表單建立的表單。 </p> </td> 
+      <td> <p>（必要）此名稱是系統識別Widget的方式。</p> <p>當您第一次設定Widget且輸入標籤時，「名稱」欄位會自動填入以和相符。 但是「標籤」和「名稱」欄位不同步，這可讓您自由地變更使用者看到的標籤，而不必變更系統看到的名稱。</p> <p><b>重要</b>：雖然可以這樣做，但建議您不要在您或其他使用者開始使用Workfront中的自訂表單後變更此名稱。 如果這樣做，系統將無法再辨識Widget，而此時它可能會在Workfront的其他區域中被參照。 </p> <p>每個Widget名稱在貴組織的Workfront例項中必須是唯一的。 如此一來，您便可重複使用已針對其他自訂表單建立的表單。 </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">URL</td> 
@@ -699,6 +703,55 @@ The Workfront Mobile app -->
    或
 
    按一下 **儲存並關閉**.
+
+<div class="preview">
+
+### 新增Workfront原生欄位
+
+您可以將Workfront原生欄位新增至自訂表單。 當自訂表單附加到物件時，會從物件資料填入欄位。 例如，附加到專案的自訂表單上的說明欄位將提取專案說明。 （如果沒有可用資料，欄位可能會顯示「N/A」。）
+
+1. 在畫面左側，尋找 **原生欄位** 並將其拖曳至畫布上的區段。
+1. 在畫面右側，設定自訂欄位的選項：
+
+   <table style="table-layout:auto"> 
+    <col> 
+    <col> 
+    <tbody> 
+     <tr> 
+      <td role="rowheader">標籤</td> 
+      <td> <p>（必要）輸入描述性標籤以顯示於欄位上方。 您可以隨時變更標籤。</p> <p><b>重要</b>：請避免在此標籤中使用特殊字元。 它們在報表中無法正確顯示。</p> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">姓名</td> 
+      <td> <p>（必要）此名稱是系統識別欄位的方式。</p><p> 當您第一次設定欄位並輸入標籤時，「名稱」欄位會自動填入以和欄位相符。 但是「標籤」和「名稱」欄位不同步，這可讓您自由地變更使用者看到的標籤，而不必變更系統看到的名稱。</p>
+      <p><b>重要</b>：
+      <ul> 
+      <li>雖然可以這樣做，但建議您不要在您或其他使用者開始使用Workfront中的自訂表單後變更此名稱。 如果這樣做，系統將不再識別現在可能在Workfront其他區域參考它的欄位。</p> </li>
+      <li> <p>每個欄位名稱在貴組織的Workfront例項中必須是唯一的。 如此一來，您便可重複使用已針對其他自訂表單建立的表單。</p> </li>
+      <li><p>建議您不要在自訂欄位名稱中使用句號/點字元，以防止在Workfront的不同區域使用欄位時發生錯誤。</p></td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">指示</td> 
+      <td> <p>輸入有關欄位的任何其他資訊。 當使用者填寫自訂表單時，可以將滑鼠指標暫留在問號圖示上，以檢視包含您在此處輸入資訊的工具提示。</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">參考欄位</td> 
+      <td><p>（必要）選取Workfront原生欄位。<p><p>僅表單物件的原生欄位可用。 例如，如果表單設計器頂端的「物件型別」清單顯示「專案」，您將能夠選取專案的原生欄位，但不能選取任務特定的欄位。</p></td>
+     </tr>
+     <tr> 
+      <td role="rowheader">大小</td> 
+      <td>（可選）視需要變更欄位的顯示大小。</td> 
+     </tr> 
+    </tbody> 
+   </table>
+
+1. 若要儲存變更，請按一下 **套用** 並移至另一個區段，以繼續建立您的表單。
+
+   或
+
+   按一下 **儲存並關閉**.
+
+</div>
 
 ### 新增Adobe XD檔案
 
