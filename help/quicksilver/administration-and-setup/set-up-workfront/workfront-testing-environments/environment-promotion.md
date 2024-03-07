@@ -12,9 +12,9 @@ hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: dd3c29df-4583-463a-b27a-bbfc4dda8184
-source-git-commit: 5d7ff744ed0721ffa6d793a224226f28a76c57a0
+source-git-commit: 5927c3e09b0013a296ccde20b38a948d9562e935
 workflow-type: tm+mt
-source-wordcount: '2304'
+source-wordcount: '2402'
 ht-degree: 2%
 
 ---
@@ -57,7 +57,7 @@ Add to tocs
  </tbody> 
 </table>
 
-## 必要條件
+## 先決條件
 
 「建立促銷活動套件」端點會假設您已設定來源環境。 此API呼叫需要手動建立 [!DNL Workfront] 物件程式碼和物件GUID。 此地圖的特定結構如下所述。
 
@@ -250,7 +250,7 @@ POST https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/p
 }
 ```
 
-#### 個回應
+#### 回應
 
 ```json
 200
@@ -314,7 +314,7 @@ GET https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/pa
 
 _空白_
 
-#### 個回應
+#### 回應
 
 ```
 200
@@ -379,7 +379,7 @@ GET https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/pa
 
 _空白_
 
-#### 個回應
+#### 回應
 
 ```
 200
@@ -502,7 +502,7 @@ PATCH https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/
 }
 ```
 
-#### 個回應
+#### 回應
 
 ```
 200
@@ -580,7 +580,7 @@ DELETE https://{domain}.{environment}.workfront.com/environment-promotion/api/v1
 
 _空白_
 
-#### 個回應
+#### 回應
 
 ```
 200
@@ -621,11 +621,15 @@ Deleted
   </tr> 
   <tr> 
    <td>USEEXISTING</td> 
-   <td><p>在目標環境中找到對應的記錄時，該動作會設為USEEXISTING並且 <code>targetId</code> 也會擷取至 <code>translationmap</code>.</p><p>此動作設定於 <code>translationmap</code> 提供給 <code>/install</code> 端點，安裝服務將不會建立記錄。 但是，它會使用 <code>targetId</code> 包含在對應專案中，用於可能參照此記錄的其他物件。</p><p>例如，在部署套件的目標環境中可能會找到「預設群組」。 不可能有兩個「預設群組」記錄，所以安裝服務將在任何其他物件建立動作中使用現有群組的GUID，這些動作包括對「預設群組」的參照，例如專案、表單或與此群組相關的任何其他實體。</p><p><b>備註:</b> <ul><li><p>指派USEEXISTING動作時，不會修改目標環境中的現有記錄。 </p><p>例如，如果在建立套件的來源沙箱中「預設群組」的說明已變更，並且目標環境中的說明值不同，則在使用此專案安裝後，值將維持不變 <code>translationmap</code>.</li></ul></td> 
+   <td><p>在目標環境中找到對應的記錄時，該動作會設為USEEXISTING並且 <code>targetId</code> 也會擷取至 <code>translationmap</code>.</p><p>此動作設定於 <code>translationmap</code> 提供給 <code>/install</code> 端點，安裝服務將不會建立記錄。 但是，它會使用 <code>targetId</code> 包含在對應專案中，用於可能參照此記錄的其他物件。</p><p>例如，在部署套件的目標環境中可能會找到「預設群組」。 不可能有兩個「預設群組」記錄，所以安裝服務將在任何其他物件建立動作中使用現有群組的GUID，這些動作包括對「預設群組」的參照，例如專案、表單或與此群組相關的任何其他實體。</p><p><b>注意：</b> <ul><li><p>指派USEEXISTING動作時，不會修改目標環境中的現有記錄。 </p><p>例如，如果在建立套件的來源沙箱中「預設群組」的說明已變更，並且目標環境中的說明值不同，則在使用此專案安裝後，值將維持不變 <code>translationmap</code>.</li></ul></td> 
+  </tr> 
+  <tr> 
+   <td>覆寫</td> 
+   <td><p>系統不會自動設定此動作。</p><p>此動作提供更新目標環境中存在的物件的功能。 它提供在執行之前手動覆寫指派的CREATE或USEEXISTING動作的功能 <code>/install</code> 呼叫。<ul><li>使用者可以更新測試環境中的物件，然後使用OVERWRITING動作更新目標環境中的該物件。</p></li><li><p>如果使用者一開始安裝一個推進封裝，而日後新（或更新的）封裝包含對初始封裝中物件的變更，則使用者可以使用「覆寫」來取代（覆寫）先前安裝的物件。 </p></li><ul></td> 
   </tr> 
   <tr> 
    <td>忽略</td> 
-   <td><p>系統不會自動設定此動作。</p><p>它提供在執行之前手動覆寫指派的CREATE或USEEXISTING動作的功能 <code>/install</code> 呼叫。</p><p><b>附註: </b><ul><li><p>如果原本設定為CREATE的記錄設定為IGNORE，則任何子記錄也應設定為IGNORE。</p><p>例如，如果範本記錄已使用CREATE動作對應，而安裝使用者希望將其從部署中排除，他們可以將範本的動作設定為IGNORE。</p><p>在此情況下，如果安裝使用者未將範本任務、範本任務指派、範本任務前置任務、佇列定義、佇列主題、路由規則等也設定為IGNORE，則部署會導致安裝嘗試失敗。</p></li><li><p>如果原本設定為USEEXISTING的記錄設定為IGNORE，安裝過程中可能會產生一些不良影響。</p><p>例如，如果「群組」記錄是以USEEXISTING動作對應，而安裝使用者將動作變更為IGNORE，則對於需要群組的物件（例如，如果沒有指派群組，Project就無法存在），系統預設群組將被指派給該專案。</p></li><li><p>如果原本設定為USEEXISTING的記錄設為CREATE，則在安裝過程中可能會產生一些不良影響，因為許多Workfront實體都有唯一名稱限制。</p><p>例如，如果以USEEXISTING動作對應「Default Group」記錄，而安裝使用者將動作變更為CREATE，因為已經有「Default Group」，所以安裝嘗試將無法完成所有步驟。 群組名稱必須是唯一的。</p><p>某些實體沒有唯一名稱限制。 對於這些物件，進行此變更將會產生兩個名稱相同的記錄。 例如，範本、專案、檢視、篩選器、群組、報告和儀表板不需要唯一名稱限制。 最佳做法是為這些記錄指定唯一的名稱，但不會強制執行。</p></li></ul></p></td> 
+   <td><p>系統不會自動設定此動作。</p><p>它提供在執行之前手動覆寫指派的CREATE或USEEXISTING動作的功能 <code>/install</code> 呼叫。</p><p><b>附註： </b><ul><li><p>如果原本設定為CREATE的記錄設定為IGNORE，則任何子記錄也應設定為IGNORE。</p><p>例如，如果範本記錄已使用CREATE動作對應，而安裝使用者希望將其從部署中排除，他們可以將範本的動作設定為IGNORE。</p><p>在此情況下，如果安裝使用者未將範本任務、範本任務指派、範本任務前置任務、佇列定義、佇列主題、路由規則等也設定為IGNORE，則部署會導致安裝嘗試失敗。</p></li><li><p>如果原本設定為USEEXISTING的記錄設定為IGNORE，安裝過程中可能會產生一些不良影響。</p><p>例如，如果「群組」記錄是以USEEXISTING動作對應，而安裝使用者將動作變更為IGNORE，則對於需要群組的物件（例如，如果沒有指派群組，Project就無法存在），系統預設群組將被指派給該專案。</p></li><li><p>如果原本設定為USEEXISTING的記錄設為CREATE，則在安裝過程中可能會產生一些不良影響，因為許多Workfront實體都有唯一名稱限制。</p><p>例如，如果以USEEXISTING動作對應「Default Group」記錄，而安裝使用者將動作變更為CREATE，因為已經有「Default Group」，所以安裝嘗試將無法完成所有步驟。 群組名稱必須是唯一的。</p><p>某些實體沒有唯一名稱限制。 對於這些物件，進行此變更將會產生兩個名稱相同的記錄。 例如，範本、專案、檢視、篩選器、群組、報告和儀表板不需要唯一名稱限制。 最佳做法是為這些記錄指定唯一的名稱，但不會強制執行。</p></li></ul></p></td> 
   </tr> 
   </tbody> 
 </table>
@@ -662,7 +666,7 @@ POST https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/p
 {}
 ```
 
-#### 個回應
+#### 回應
 
 ```
 200
@@ -814,7 +818,7 @@ POST https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/i
 }
 ```
 
-#### 個回應
+#### 回應
 
 ```
 202
@@ -865,7 +869,7 @@ GET https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/in
 
 _空白_
 
-#### 個回應
+#### 回應
 
 ```
 200
@@ -962,7 +966,7 @@ GET https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/in
 
 _空白_
 
-#### 個回應
+#### 回應
 
 ```
 200
