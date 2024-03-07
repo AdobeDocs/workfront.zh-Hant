@@ -4,9 +4,9 @@ description: 2024年第二季發行時間範圍內的外觀和感覺更新
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 6e4e6ba8f960f11aeb824d29b4bbf1d75532747b
+source-git-commit: 20f9e9468c85235c0afadfee4d925a796ff89c54
 workflow-type: tm+mt
-source-wordcount: '316'
+source-wordcount: '315'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->預覽版本： 2024年2月8日；快速發行生產：24.3版（2024年3月）；季度發行生產：24.4版（2024年4月）
+>預覽版本： 2024年2月8日；快速發行生產：24.3版（2024年3月14日）；每季發行生產：24.4版（2024年4月）
 
 我們已更新「設定>自訂Forms」區域中Forms、欄位和區段的標籤，使其成為與Workfront其他區域一致的更現代化設計。 您現在可從左側導覽功能表存取三個區域。 清單仍可使用篩選器、檢視和群組。 更新的設計適用於新表單設計人員和舊版表單產生器中建立的自訂表單、欄位和區段。
 

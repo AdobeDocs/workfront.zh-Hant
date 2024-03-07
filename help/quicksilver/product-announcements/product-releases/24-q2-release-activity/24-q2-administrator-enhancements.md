@@ -4,9 +4,9 @@ description: 2024年第二季度管理員增強功能
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 2551089a20d3301ff1cf7dd633114dbb5235e959
+source-git-commit: 20f9e9468c85235c0afadfee4d925a796ff89c54
 workflow-type: tm+mt
-source-wordcount: '615'
+source-wordcount: '620'
 ht-degree: 0%
 
 ---
@@ -43,7 +43,9 @@ Workfront原生欄位現在可讓您新增至自訂表單。 此新欄位型別�
 
 此功能僅在表單設計工具（測試版）中可用，不在舊版表單產生器中可用。
 
-此功能的Experience League文章將於3月7日前更新。
+如需詳細資訊，請參閱 [使用表單設計工具設計表單](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+
+[觀看此功能的示範影片。](https://video.tv.adobe.com/v/3427702/){target=_blank}
 
 ## 屬性對應現在可供已移轉至Adobe IMS的組織使用
 
@@ -55,7 +57,7 @@ Workfront系統管理員現在可以為已移轉至Adobe IMS的組織設定使�
 
 以前，此功能僅適用於尚未上線Adobe IMS的組織。
 
-如需設定屬性對應的說明，請參閱 **在Adobe統一體驗中對應使用者屬性** 在文章中 [對應使用者屬性並自動布建新使用者](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/map-user-attributes.md).
+如需設定屬性對應的說明，請參閱 [在Adobe統一體驗中對應使用者屬性](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/map-user-attributes.md#map-user-attributes-in-the-adobe-unified-experience) 在文章中 **對應使用者屬性並自動布建新使用者**.
 
 ## 表單設計工具Beta版現在提供略過邏輯和顯示邏輯
 

@@ -4,9 +4,9 @@ description: 此頁面提供2024年第二季度版本中包含的功能相關資
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 8fada0325adf8d750143289ef455728b494444d4
+source-git-commit: 20f9e9468c85235c0afadfee4d925a796ff89c54
 workflow-type: tm+mt
-source-wordcount: '1454'
+source-wordcount: '1437'
 ht-degree: 0%
 
 ---
@@ -57,7 +57,7 @@ ht-degree: 0%
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">JumpSeat整合現在可用於新封裝型別</a><span style="color: #ff0000;"> 預覽中的新增專案！</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">JumpSeat整合現在可用於新封裝型別</a></p>
                         <p>使用其中一個新套件型別（即Select、Prime或Ultimate）的帳戶現在可以使用現有的JumpSeat整合。 您必須擁有使用中的JumpSeat訂閱才能啟用整合。</p>
                     </td>
                     <td><p><b>將於下列日期提供：</b></p>
@@ -76,7 +76,7 @@ ht-degree: 0%
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">表單設計工具Beta版提供Workfront原生欄位</a><span style="color: #ff0000;"> 預覽中的新增專案！</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">表單設計工具Beta版提供Workfront原生欄位</a></p>
                         <p>Workfront原生欄位現在可讓您新增至自訂表單。 此新欄位型別可讓您以邏輯方式組織資料並將其呈現給使用者，而無需在自訂欄位中重新建立現有資料。</p>
                     </td>
                     <td><p><b>將於下列日期提供：</b></p>
@@ -194,7 +194,7 @@ ht-degree: 0%
                                 <p>預覽版本： 2024年2月13日</p>
                             </li>
                             <li>
-                                <p>快速發行生產：第24.3發行版本（2024年3月）</p>
+                                <p>快速發行生產：24.3版（2024年3月14日）</p>
                             </li>
                             <li>
                                 <p>每季發行生產：24.4版（2024年4月）</p>
@@ -212,7 +212,7 @@ ht-degree: 0%
                                 <p>預覽版本： 2023年12月21日</p>
                             </li>
                             <li>
-                                <p>快速發行生產：第24.3發行版本（2024年3月）</p>
+                                <p>快速發行生產：24.3版（2024年3月14日）</p>
                             </li>
                             <li>
                                 <p>每季發行生產：24.4版（2024年4月）</p>
@@ -241,8 +241,8 @@ ht-degree: 0%
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">新首頁Widget的快速動作現在提供新的評論資料流</a><span style="color: #ff0000;"> 預覽中的新增專案！</span></p>
-                        <p>我們現在已將新的註解功能新增到 <b>新增更新</b> 新首頁中「我的工作」、「我的專案」、「我的任務」和「我的問題」小工具中的快速動作按鈕。</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">新首頁Widget的快速動作現在提供新的評論資料流</a></p>
+                        <p>我們現在已將新的評論功能新增到新首頁中的「我的工作、我的專案、我的任務和我的問題」小工具中的「新增更新」快速動作按鈕。</p>
                     </td>
                     <td><p><b>將於下列日期提供：</b></p>
                         <ul>
@@ -260,7 +260,7 @@ ht-degree: 0%
                 </tr>  
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">新評論體驗中可用的其他評論者資訊</a><span style="color: #ff0000;"> 預覽中的新增專案！</span></p><p>我們在新的註解體驗中進行了下列增強功能：</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">新評論體驗中可用的其他評論者資訊</a></p><p>我們在新的註解體驗中進行了下列增強功能：</p>
                         <ul>
                             <li>
                                 <p>您可以按一下評論者的名稱，在資訊方塊中檢視其名稱、角色和電子郵件地址。 如果您有多個同名使用者，此資訊可協助您識別正確的使用者。 當您在資訊方塊中按一下評論者的名稱時，其使用者設定檔會開啟。</p>
@@ -294,7 +294,7 @@ ht-degree: 0%
                                 <p>預覽版本： 2024年2月22日</p>
                             </li>
                             <li>
-                                <p>快速發行生產：第24.3發行版本（2024年3月）</p>
+                                <p>快速發行生產：24.3版（2024年3月14日）</p>
                             </li>
                             <li>
                                 <p>每季發行生產：24.4版（2024年4月）</p>
@@ -312,7 +312,7 @@ ht-degree: 0%
                                 <p>預覽版本： 2024年2月22日</p>
                             </li>
                             <li>
-                                <p>快速發行生產：第24.3發行版本（2024年3月）</p>
+                                <p>快速發行生產：24.3版（2024年3月14日）</p>
                             </li>
                             <li>
                                 <p>每季發行生產：24.4版（2024年4月）</p>
@@ -330,7 +330,7 @@ ht-degree: 0%
                                 <p>預覽版本： 2024年2月22日</p>
                             </li>
                             <li>
-                                <p>快速發行生產：第24.3發行版本（2024年3月）</p>
+                                <p>快速發行生產：24.3版（2024年3月14日）</p>
                             </li>
                             <li>
                                 <p>每季發行生產：24.4版（2024年4月）</p>
