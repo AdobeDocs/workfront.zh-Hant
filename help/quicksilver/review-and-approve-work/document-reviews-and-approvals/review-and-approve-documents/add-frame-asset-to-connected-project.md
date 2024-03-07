@@ -5,7 +5,7 @@ title: 將Frame.io資產新增至已連線的Workfront專案
 description: 創意人員可以將需要稽核的資產新增至Frame.io，並傳送至Workfront進行正式稽核和核准。
 author: Courtney
 feature: Work Management, Digital Content and Documents
-source-git-commit: 87ad8ac6c5768b8ed31ee280212e965789e3ccf4
+source-git-commit: 2c1945cdc9f923ea7fdc750f69eeba2a026571ac
 workflow-type: tm+mt
 source-wordcount: '320'
 ht-degree: 0%
@@ -15,11 +15,11 @@ ht-degree: 0%
 
 # 將Frame.io資產新增至已連線的Workfront專案
 
-創意人員可以將需要稽核的資產新增至Frame.io，並傳送至Workfront進行正式稽核和核准。
-
 >[!IMPORTANT]
 >
 >本文內容指的更新檔案核准功能僅適用於特定帳戶。 如需有關標準核准流程的資訊，請參閱下列文章： [工作核准](/help/quicksilver/review-and-approve-work/manage-approvals/manage-approvals.md).
+
+創意人員可以將需要稽核的資產新增至Frame.io，並傳送至Workfront進行正式稽核和核准。
 
 ## 存取需求
 

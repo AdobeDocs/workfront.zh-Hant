@@ -5,7 +5,7 @@ title: 連線Workfront和Frame.io
 description: Workfront在稽核和核准流程中使用Frame.io來會見他們想要工作的人。 專案管理和核准程式在Workfront中進行管理，而稽核程式在Frame.io中完成。
 author: Courtney
 feature: Work Management, Digital Content and Documents
-source-git-commit: cf8501ff21dc9f3a3c66d8e98555986f18aeaa80
+source-git-commit: 2c1945cdc9f923ea7fdc750f69eeba2a026571ac
 workflow-type: tm+mt
 source-wordcount: '632'
 ht-degree: 0%
@@ -15,12 +15,16 @@ ht-degree: 0%
 
 # 連線Workfront和Frame.io
 
+>[!IMPORTANT]
+>
+>本文內容指的更新檔案核准功能僅適用於特定帳戶。 如需有關標準核准流程的資訊，請參閱下列文章： [工作核准](/help/quicksilver/review-and-approve-work/manage-approvals/manage-approvals.md).
+
 Workfront在稽核和核准流程中使用Frame.io來會見他們想要工作的人。 專案管理和核准程式在Workfront中進行管理，而稽核程式在Frame.io中完成。 您必須完成下列所有章節，才能成功設定整合：
 
 * [將Workfront群組連線到Frame.io群組](#connect-a-workfront-group-to-a-frameio-team)
 * [建立Workfront專案並新增連線的群組](#create-a-workfront-project-and-add-a-connected-group)
 
-本文內容指的更新檔案核准功能僅適用於特定帳戶。 如需有關標準核准流程的資訊，請參閱下列文章： [工作核准](/help/quicksilver/review-and-approve-work/manage-approvals/manage-approvals.md).
+
 
 ## 存取需求
 

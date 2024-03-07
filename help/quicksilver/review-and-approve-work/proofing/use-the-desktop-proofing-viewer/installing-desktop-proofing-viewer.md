@@ -6,7 +6,7 @@ description: 案頭校訂檢視器是必須安裝在本機電腦上的應用程�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 4441cf7f-13c7-4bd5-a971-2c9c0302d309
-source-git-commit: aec61210cf2c17775738db4975ae8d19223153cc
+source-git-commit: 98e2ebc214adf13d0f8b2962395504fb86e6d0c9
 workflow-type: tm+mt
 source-wordcount: '558'
 ht-degree: 0%
@@ -57,8 +57,8 @@ ht-degree: 0%
 
 1. 執行下列任一項作業來下載應用程式：
 
-   * 如果您使用生產環境，請按一下 [適用於案頭校訂檢視器的Mac生產下載。](https://assets.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof-2.1.32.pkg)
-   * 如果您使用預覽環境，請按一下 [案頭校訂檢視器的Mac預覽下載。](https://assets.preview.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof+Preview-2.1.32.pkg)
+   * 如果您使用生產環境，請按一下 [適用於案頭校訂檢視器的Mac生產下載。](https://assets.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof-2.1.34.pkg)
+   * 如果您使用預覽環境，請按一下 [案頭校訂檢視器的Mac預覽下載。](https://assets.preview.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof+Preview-2.1.34.pkg)
 
 1. 開啟您剛下載的檔案，開始安裝。
 1. 在出現的安裝方塊上，按一下 **繼續**，然後按一下 **安裝**.
