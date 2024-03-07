@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: 4016ba2c1b94ba84037612bdc9c1136267513fd5
+source-git-commit: ff52e43fc5ed5a7939b9e28b2bda195e94e81724
 workflow-type: tm+mt
-source-wordcount: '735'
+source-wordcount: '765'
 ht-degree: 0%
 
 ---
@@ -141,9 +141,28 @@ ht-degree: 0%
 
 
 您上次存取的工作區預設會開啟。 如需有關建立工作區的資訊，請參閱 [建立工作區](../architecture/create-workspaces.md).
+
 1. 按一下記錄型別卡。 如需有關建立記錄型別的資訊，請參閱 [建立記錄型別](../architecture/create-record-types.md).
 
    依預設，選取型別的所有記錄都會顯示在表格檢視中。
+
+<!--
+    1. Click **+ View** to add a new view. 
+
+    1. Select from the following types of views: 
+
+        * Table
+        * Timeline
+        * Calendar
+
+        >[!TIP]
+        >
+        >When you create a record type, the table view is also created by default. 
+        >
+        >To create a timeline or a calendar view, the record type you build the view for must have at least two date fields. Otherwise, the Timeline and the Calendar options are dimmed.
+        >
+        >(*********remove all of the below steps and replace the screen shot when calendar view releases*********)
+    -->
 
 1. 按一下 **檢視** 下拉式功能表，並選取現有的 **表格檢視** ![](assets/table-view-icon.png) 或按一下 **建立檢視>表格** 建立表格檢視
 
@@ -157,15 +176,20 @@ ht-degree: 0%
    >
    >    若要建立時間表檢視，您為其建立檢視的記錄型別必須至少有兩個日期欄位。 否則，「時間軸」選項會變暗。
 
-1. （可選）更新檢視的名稱，然後按一下 **建立** 以儲存。
+1. （可選）更新檢視的名稱，然後按一下 **建立** 儲存表格檢視
+
+   或按一下 **下一個**，建立時間表時 <!--or calendar--> 檢視。
 
    依預設，Maestro會將檢視命名為「表格&lt;數字>」或「時間軸&lt;數字>」。 數字是自動產生的增量。
 
+1. （視條件而定）選取時間軸中所顯示記錄的開始和結束日期 <!--or calendar--> 檢視，然後按一下 **建立**.
 1. （選擇性）若要在建立檢視後重新命名，請按一下檢視下拉式功能表，然後按一下 **更多** 功能表 ![](assets/more-menu.png) > **重新命名** 以更新檢視名稱。 <!--ensure there is not another saving step here?!-->
+   <!--1. (Optional) To rename a view after it is created, double-click the view name and start typing the new name, or click the **More** menu ![](assets/more-menu.png) to the right of the view name, then click **Rename**.-->
 1. （可選）若要管理特定型別的檢視，請參閱下列文章：
 
    * [管理表格檢視](../views/manage-the-table-view.md)
    * [管理時間表檢視](../views/manage-the-timeline-view.md)
+     <!--* [Manage the calendar view](/help/quicksilver/maestro/views/manage-the-calendar-view.md)-->
 
 
 ## 刪除檢視
@@ -180,6 +204,7 @@ ht-degree: 0%
 
    依預設，選取型別的所有記錄都會顯示在表格檢視中。
 
+<!--1. Hover over on the of the view's names in the view tab, then click **More** ![](assets/more-menu.png) > **Delete**. (********delete the instructions below but keep the last step***********)-->
 1. 按一下「檢視」下拉式功能表，將滑鼠停留在清單中的其中一個檢視上，然後按一下 **更多** 功能表 ![](assets/more-menu.png) > **刪除**.
 1. 按一下 **刪除** 以確認。 <!--ensure there is not another saving step here?!-->
 
