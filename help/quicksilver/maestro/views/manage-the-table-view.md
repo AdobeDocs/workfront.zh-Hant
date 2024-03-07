@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: 5cfb4cd064daff455d8b9458d3bcbbb0d209516a
+source-git-commit: b3a2f3ee4d89a6370c498457c1958cd7b9ea69b8
 workflow-type: tm+mt
-source-wordcount: '2313'
+source-wordcount: '2334'
 ht-degree: 3%
 
 ---
@@ -98,6 +98,11 @@ hide: yes
 1. 建立表格檢視，如文章所述 [管理記錄檢視](../views/manage-record-views.md).
 
    ![](assets/table-view-example.png)
+
+1. （選用）按一下 **列高**，然後從下列選項中選取，以修改表格列的高度：
+   * 短
+   * 中
+   * 高
 
 1. 更新下列檢視元素，如下列子區段所述：
    * [欄（或欄位）](#add-columns-or-fields)

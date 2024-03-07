@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: 83f10ed479f31101add8747f8b672bbc1dbd922b
+source-git-commit: b3a2f3ee4d89a6370c498457c1958cd7b9ea69b8
 workflow-type: tm+mt
 source-wordcount: '2051'
 ht-degree: 1%
@@ -253,7 +253,11 @@ Adobe Workfront規劃功能是Adobe Workfront推出的全新產品。 規劃功�
 
      ![](assets/grouping-applied-in-timeline-view.png)
 
-  如需詳細資訊，請參閱 [管理記錄檢視](../maestro/views/manage-record-views.md).
+  <!--* **Calendar view**: Displays records that have at least two Date-type fields in a calendar format. 
+    ![](assets/calendar-view-example.png)-->
+
+
+如需詳細資訊，請參閱 [管理記錄檢視](../maestro/views/manage-record-views.md).
 
 
 ## Adobe Workfront規劃功能物件限制

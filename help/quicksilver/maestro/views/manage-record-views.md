@@ -1,13 +1,13 @@
 ---
 title: 管理記錄檢視
-description: 使用「Adobe大師」時，您可以在表格或時間軸檢視中顯示記錄。
+description: 使用Adobe Workfront規劃功能時，您可以在表格、時間軸或行事曆檢視中顯示記錄。
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: ff52e43fc5ed5a7939b9e28b2bda195e94e81724
+source-git-commit: b3a2f3ee4d89a6370c498457c1958cd7b9ea69b8
 workflow-type: tm+mt
-source-wordcount: '765'
+source-wordcount: '783'
 ht-degree: 0%
 
 ---
@@ -18,14 +18,19 @@ ht-degree: 0%
 
 {{maestro-important-intro}}
 
-在「Adobe大師」中選取記錄型別後，您可以在下列檢視中顯示該型別的所有記錄：
+在Adobe Workfront規劃功能區域中選取記錄型別後，您可以在下列檢視中顯示該型別的所有記錄：
 
 * 表格
 
   如需詳細資訊，請參閱 [管理表格檢視](../views/manage-the-table-view.md).
+
 * 時間表
 
   如需詳細資訊，請參閱 [管理時間表檢視](../views/manage-the-timeline-view.md).
+
+<!--* Calendar 
+
+    For more information, see [Manage the calendar view](/help/quicksilver/maestro/views/manage-the-calendar-view.md). -->
 
 ## 存取需求
 
@@ -46,7 +51,7 @@ ht-degree: 0%
   </tr>  
  <td role="rowheader"><p>Adobe Workfront合約</p></td>
    <td>
-<p>貴組織必須註冊AdobeMaestro封閉測試版計畫。 請聯絡您的客戶代表以查詢此新產品/服務。 </p>
+<p>貴組織必須註冊Adobe Workfront規劃功能封閉測試版計畫。 請聯絡您的客戶代表以查詢此新產品/服務。 </p>
    </td>
   </tr>
   <tr>
@@ -64,7 +69,7 @@ ht-degree: 0%
 
 <tr>
    <td role="rowheader">存取層級設定</td>
-   <td> <p>Maestro沒有存取層級控制項</p>  
+   <td> <p>Workfront規劃功能沒有存取層級控制項</p>  
 </td>
   </tr>
 
@@ -82,13 +87,13 @@ ht-degree: 0%
  </tbody>
 </table>
 
-## 使用Maestro檢視時的注意事項
+## 使用記錄檢視時的注意事項
 
-* Maestro中的檢視是記錄型別專屬檢視。 您不能將相同的檢視套用至兩種不同的記錄型別。
+* Workfront規劃功能區域中的檢視是記錄型別專屬檢視。 您不能將相同的檢視套用至兩種不同的記錄型別。
 * 您建立的檢視只對您和共用檢視的使用者可見。
 * 建立作業記錄型別的檢視與建立分類記錄型別的檢視相同。
 * 當您修改或刪除檢視時，該檢視會被修改並刪除，以供擁有該檢視許可權的所有使用者使用。
-* Maestro中每個檢視都有以下獨特元素：
+* 以下元素是每個記錄檢視所獨有的：
 
    * 篩選器
    * 分組
@@ -100,7 +105,7 @@ ht-degree: 0%
 
   >[!NOTE]
   >
-  > 由於Maestro目前處於Beta版狀態，因此某些檢視元素可能無法用於這兩個檢視。
+  > 由於Adobe Workfront規劃功能目前處於測試版狀態，因此部分檢視元素可能未提供給所有檢視。
 
 本文說明有關Maestro檢視的下列資訊：
 
@@ -111,6 +116,8 @@ ht-degree: 0%
 * [共用檢視](#share-a-view)
 
 ## 表格和時間表檢視之間的異同
+
+<!-- should we include Calendar here or remove this section???-->
 
 下表顯示Maestro中的表格檢視與時間表檢視之間的異同：
 
@@ -180,7 +187,7 @@ ht-degree: 0%
 
    或按一下 **下一個**，建立時間表時 <!--or calendar--> 檢視。
 
-   依預設，Maestro會將檢視命名為「表格&lt;數字>」或「時間軸&lt;數字>」。 數字是自動產生的增量。
+   依預設，Workfront會將檢視命名為「表格&lt;數字>」或「時間軸&lt;數字>」， <!--or "Calendar < number >"-->. 數字是自動產生的增量。
 
 1. （視條件而定）選取時間軸中所顯示記錄的開始和結束日期 <!--or calendar--> 檢視，然後按一下 **建立**.
 1. （選擇性）若要在建立檢視後重新命名，請按一下檢視下拉式功能表，然後按一下 **更多** 功能表 ![](assets/more-menu.png) > **重新命名** 以更新檢視名稱。 <!--ensure there is not another saving step here?!-->
@@ -208,7 +215,7 @@ ht-degree: 0%
 1. 按一下「檢視」下拉式功能表，將滑鼠停留在清單中的其中一個檢視上，然後按一下 **更多** 功能表 ![](assets/more-menu.png) > **刪除**.
 1. 按一下 **刪除** 以確認。 <!--ensure there is not another saving step here?!-->
 
-   所有可以存取Maestro區域的使用者都將刪除該檢視，且無法復原該檢視。
+   所有可存取記錄區域的使用者檢視都會刪除，且無法復原。
 
 ## 共用檢視
 
