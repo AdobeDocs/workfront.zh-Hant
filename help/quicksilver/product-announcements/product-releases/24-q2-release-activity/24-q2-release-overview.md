@@ -4,9 +4,9 @@ description: 此頁面提供2024年第二季度版本中包含的功能相關資
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 20f9e9468c85235c0afadfee4d925a796ff89c54
+source-git-commit: edc9d53152ea3828b04a0cd7c2bbb5cf48e541f6
 workflow-type: tm+mt
-source-wordcount: '1437'
+source-wordcount: '1449'
 ht-degree: 0%
 
 ---
@@ -381,7 +381,7 @@ ht-degree: 0%
 
 ### Workfront Fusion增強功能
 
-此版本目前沒有Workfront Fusion更新。 在有更新可用時，此區域將會更新。
+Workfront Fusion中的新功能可在2023年第一季度發行排程之外的步調中用於生產環境。 如需最新功能的詳細資訊，請參閱 [Adobe Workfront Fusion發行活動](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
 
 ### Workfront Scenario Planner增強功能
 
