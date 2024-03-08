@@ -6,7 +6,7 @@ description: 您可以在Adobe Workfront中將檔案新增到多個區域中的�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 0a5f82b2-f86e-4ffa-b3a6-18221dd0e158
-source-git-commit: efe264b274085c32c2d00163a2a43bd5d3fc1434
+source-git-commit: 873745b7a7e7902a3617a577b3ed0414f987a4ce
 workflow-type: tm+mt
 source-wordcount: '746'
 ht-degree: 1%
@@ -123,4 +123,4 @@ Workfront網站可透過檔案以下列方式防止病毒和其他惡意內容�
 
 ### 檔案名稱限制 {#file-name-restrictions}
 
-上傳至Workfront的檔案無法在檔案名稱中包含某些字元。 如果檔案在檔案名稱中包含下列任一字元，則上傳檔案時，會從檔案名稱中移除這些字元： `< > { }`.
+上傳至Workfront的檔案無法在檔案名稱中包含某些字元。 如果檔案在檔案名稱中包含下列任一字元，則上傳檔案時，會從檔案名稱中移除這些字元： `! # % * \ | ' " / ? < > { } [ ]`.

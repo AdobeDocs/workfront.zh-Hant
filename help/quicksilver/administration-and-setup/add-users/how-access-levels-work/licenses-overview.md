@@ -10,7 +10,7 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 10a5c04d-adbf-4985-a81c-1b33868ce260
-source-git-commit: e47f5d06d0c7d72c171583b53b69f951e4e99afe
+source-git-commit: aefa43697ae0d4edd5300acb94a9880b3cd0c94f
 workflow-type: tm+mt
 source-wordcount: '348'
 ht-degree: 2%
@@ -21,11 +21,11 @@ ht-degree: 2%
 
 <!-- Audited: 12/2023 -->
 
-您的組織在購買Adobe Workfront時已購買特定數量的授權。 身為Workfront管理員，當您指派存取層級給每位使用者時，您提供了3種型別的Workfront授權之一。
+您的組織在購買Adobe Workfront時已購買特定數量的授權。 身為Workfront管理員，當您指派存取層級給每位使用者時，您提供了2種型別的Workfront授權之一。
 
 ## 新的Workfront授權與新的存取層級如何繫結在一起
 
-這3種型別的新Workfront授權允許以不同層級存取Workfront。 每個存取層級都會附加至其中一個授權。
+這2種新Workfront授權可允許不同層級的Workfront存取。 每個存取層級都會附加至其中一個授權。
 
 您不需要將授權指派給使用者，而是將附加至該授權的存取層級指派給使用者。
 
