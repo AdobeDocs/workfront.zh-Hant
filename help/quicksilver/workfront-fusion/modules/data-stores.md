@@ -8,7 +8,7 @@ description: 資料存放區（類似於資料庫或簡單表格）可以儲存�
 author: Becky
 feature: Workfront Fusion
 exl-id: 2a665a71-b819-4861-b119-f5c28b87e9c5
-source-git-commit: c51169c18bef8ac8126a04c08deb88d830517b0b
+source-git-commit: 85e5483b7ee1433d0b1efbaa37c6d55c7c1d5bf7
 workflow-type: tm+mt
 source-wordcount: '1268'
 ht-degree: 1%
@@ -115,7 +115,7 @@ ht-degree: 1%
      </tr> 
      <tr> 
       <td> <p>[！UICONTROL資料儲存大小(MB)</p> </td> 
-      <td> <p>從您的內部資料儲存總量中配置資料儲存的大小。</p> <p> 預設值為10 MB。 如果500 MB配置中未配置的資料存放區空間少於10 MB，則預設大小為未配置的存放區數量。  <p>備註：預留金額可隨時變更。</p>  </td> 
+      <td> <p>從您的內部資料儲存總量中配置資料儲存的大小。</p> <p> 預設值為10 MB。 如果您的95 MB配置中有10 MB以下的未配置資料存放區空間，預設大小為未配置存放區的數量。  <p>備註：預留金額可隨時變更。</p>  </td> 
      </tr> 
     </tbody> 
    </table>
