@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: b3a2f3ee4d89a6370c498457c1958cd7b9ea69b8
+source-git-commit: 26d6fecf02541fff649deabe61e65dbe5ae5f688
 workflow-type: tm+mt
-source-wordcount: '4316'
+source-wordcount: '4364'
 ht-degree: 0%
 
 ---
@@ -50,6 +50,16 @@ ht-degree: 0%
 
 如需詳細資訊，請參閱 [管理表格檢視](/help/quicksilver/maestro/views/manage-the-table-view.md).
 
+### 記錄的新行事曆檢視
+
+生產： 2024年3月7日
+
+預覽：待定
+
+您現在可以在行事曆檢視中顯示記錄。 記錄型別中必須至少有兩個日期欄位，才能建立行事曆檢視。
+
+如需詳細資訊，請參閱 [管理行事曆檢視](/help/quicksilver/maestro/views/manage-the-calendar-view.md).
+
 <!--
 ## Week of March 11, 2024
 
@@ -91,16 +101,6 @@ We have updated the look and feel of the views in the record type page. The new 
 For more information, see the following articles: 
 * [Manage the table view](/help/quicksilver/maestro/views/manage-the-table-view.md) 
 * [Manage the timeline view](/help/quicksilver/maestro/views/manage-the-timeline-view.md).
-
-### New calendar view for records
-
-Production: March 14, 2024 
-
-Preview: To be determined 
-
-You can now display records in a calendar view. You must have at least two date fields on a record type to be able to create the calendar view.  
-
-For more information, see [Manage the calendar view](/help/quicksilver/maestro/views/manage-the-calendar-view.md). 
 
 ### Allow System Administrators to manage all shared views 
 

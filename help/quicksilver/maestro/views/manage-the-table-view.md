@@ -1,13 +1,13 @@
 ---
 title: 管理表格檢視
-description: 存取Adobe Maestro中的記錄型別頁面時，您可以在表格檢視中顯示記錄及其欄位。
+description: 存取Adobe Workfront規劃功能中的記錄型別頁面時，您可以在表格檢視中顯示記錄及其欄位。
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: b3a2f3ee4d89a6370c498457c1958cd7b9ea69b8
+source-git-commit: 26d6fecf02541fff649deabe61e65dbe5ae5f688
 workflow-type: tm+mt
-source-wordcount: '2334'
+source-wordcount: '2337'
 ht-degree: 3%
 
 ---
@@ -28,9 +28,9 @@ hide: yes
 
 {{maestro-important-intro}}
 
-存取Adobe Maestro中的記錄型別頁面時，您可以在表格檢視中顯示記錄及其欄位。
+存取Adobe Workfront規劃功能中的記錄型別頁面時，您可以在表格檢視中顯示記錄及其欄位。
 
-有關Maestro檢視以及如何管理檢視的資訊，請參閱 [管理記錄檢視](../views/manage-record-views.md).
+如需有關記錄檢視以及如何管理檢視的資訊，請參閱 [管理記錄檢視](../views/manage-record-views.md).
 
 ## 存取需求
 
@@ -51,7 +51,7 @@ hide: yes
   </tr>  
  <td role="rowheader"><p>Adobe Workfront合約</p></td>
    <td>
-<p>貴組織必須註冊AdobeMaestro封閉測試版計畫。 請聯絡您的客戶代表以查詢此新產品/服務。 </p>
+<p>貴組織必須註冊Adobe Workfront規劃功能封閉測試版計畫。 請聯絡您的客戶代表以查詢此新產品/服務。 </p>
    </td>
   </tr>
   <tr>
@@ -69,7 +69,7 @@ hide: yes
 
 <tr>
    <td role="rowheader">存取層級設定</td>
-   <td> <p>Maestro沒有存取層級控制項 </p>  
+   <td> <p>Adobe Workfort規劃功能沒有存取層級控制項 </p>  
 </td>
   </tr>
 
@@ -114,7 +114,7 @@ hide: yes
 
 ### 新增欄（或欄位） {#add-columns}
 
-Maestro表格檢視的欄標題會顯示與檢視中記錄相關聯的欄位。 表格檢視中顯示的相同欄位也會顯示在Maestro記錄的「詳細資訊」區段中。 如需詳細資訊，請參閱 [編輯記錄](../records/edit-records.md).
+表格檢視的欄標題會顯示與檢視中記錄相關聯的欄位。 表格檢視中顯示的相同欄位也會顯示在記錄的「詳細資訊」區段中。 如需詳細資訊，請參閱 [編輯記錄](../records/edit-records.md).
 
 <!--this is not available yet:You can display record fields (or columns) in both a table and a timeline view. However, the number of columns displayed in the table of the timeline view is limited and you cannot add columns in addition to those selected by default.-->
 
@@ -123,6 +123,8 @@ Maestro表格檢視的欄標題會顯示與檢視中記錄相關聯的欄位。 
 您可以在表格檢視中新增最多500個欄位（或欄）。
 
 1. 移至記錄型別頁面並選取 **表格** 從「檢視」下拉式選單中檢視。
+
+   <!-- replace above with this when view redesign: Go to a record type page and click a table view tab, or click **+ View **to add a new view, then choose **Table**. -->
 1. 開始新增欄位（或欄），如文章所述 [建立欄位](../fields/create-fields.md).
 
    您新增的欄對存取記錄型別的所有使用者可見，並作為新欄位新增到所選記錄型別的記錄的「詳細資訊」頁面上。
@@ -212,11 +214,13 @@ Maestro表格檢視的欄標題會顯示與檢視中記錄相關聯的欄位。 
 
 ### 新增列（或記錄） {#add-rows}
 
-Maestro表格檢視的列會顯示所選記錄型別的個別記錄。
+表格檢視的列會顯示所選記錄型別的個別記錄。
 
-在Maestro中，記錄型別最多可以有10,000筆記錄（或列）。
+記錄型別最多可以有50,000筆記錄（或列）。
 
 1. 移至記錄型別頁面並選取 **表格** 從「檢視」下拉式選單中檢視。
+
+<!-- replace above with this when view redesign: Go to a record type page and click a table view tab, or click **+ View **to add a new view, then choose **Table**. -->
 1. 開始新增記錄（或列），如文章所述 [建立記錄](../records/create-records.md).
 
    您在表格檢視中新增的記錄會立即儲存，且所有擁有工作區檢視或更高許可權的使用者皆可看到。
@@ -359,7 +363,7 @@ Maestro表格檢視的列會顯示所選記錄型別的個別記錄。
 請考量下列事項：
 
 * 您可以在表格和時間軸檢視中套用群組。 表格檢視的分組與相同記錄型別之時間軸檢視中的群組是獨立的。
-* 您可以在Maestro檢視中套用3個群組層級。 記錄會依照您選取的群組順序進行分組。
+* 您可以在檢視中套用3個群組層級。 記錄會依照您選取的群組順序進行分組。
 &lt;!—*使用API時，您最多可以套用4個層級的群組。  — 現在正在檢查此專案 — >
 * 群組對於您選取的檢視而言是唯一的。 相同記錄型別的兩個表格檢視可以套用不同的群組。 檢視相同表格檢視的兩個使用者會看到目前套用的相同分組。
 * 您無法為表格檢視建立的分組命名。

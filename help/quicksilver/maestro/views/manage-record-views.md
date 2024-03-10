@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: b3a2f3ee4d89a6370c498457c1958cd7b9ea69b8
+source-git-commit: 2c630ad348955380620eef073b0c7dde81d11835
 workflow-type: tm+mt
-source-wordcount: '783'
-ht-degree: 0%
+source-wordcount: '811'
+ht-degree: 1%
 
 ---
 
@@ -28,9 +28,9 @@ ht-degree: 0%
 
   如需詳細資訊，請參閱 [管理時間表檢視](../views/manage-the-timeline-view.md).
 
-<!--* Calendar 
+* 行事曆
 
-    For more information, see [Manage the calendar view](/help/quicksilver/maestro/views/manage-the-calendar-view.md). -->
+  如需詳細資訊，請參閱 [管理行事曆檢視](/help/quicksilver/maestro/views/manage-the-calendar-view.md).
 
 ## 存取需求
 
@@ -107,7 +107,7 @@ ht-degree: 0%
   >
   > 由於Adobe Workfront規劃功能目前處於測試版狀態，因此部分檢視元素可能未提供給所有檢視。
 
-本文說明有關Maestro檢視的下列資訊：
+本文說明有關記錄檢視的下列資訊：
 
 * [建立及編輯檢視](#create-or-edit-record-views)
 * [刪除檢視](#delete-views)
@@ -115,32 +115,32 @@ ht-degree: 0%
   <!--* [Add a view as a favorite](#add-a-view-as-a-favorite) - not possible yet-->
 * [共用檢視](#share-a-view)
 
-## 表格和時間表檢視之間的異同
+## 記錄檢視之間的相似之處和差異
 
-<!-- should we include Calendar here or remove this section???-->
-
-下表顯示Maestro中的表格檢視與時間表檢視之間的異同：
+下表顯示表格、時間表與行事曆檢視之間的異同：
 
 <!--some of these are NOT available right now; if you make this public, comment out the ones not there-->
 
-| 功能 | 表格檢視 | 時間表檢視 |
-|-----------------------------------------------------------------------|------------|---------------|
-| 在清單或表格中顯示記錄 | ✓ (A) |              |
-| 預設將所有欄位顯示為表格中的欄 | ✓ (A) |              |
-| 隱藏或顯示欄位 | ✓ (A) |               |
-| 編輯每個記錄的欄位值 | ✓ (A) |               |
-| 在檢視中將記錄新增為新列 | ✓ (A) |               |
-| 在檢視中新增欄位作為新欄 | ✓ (A) |               |
-| 從外部清單複製列並將它們貼到表格中 | ✓ (A) |               |
-| 在時間軸中顯示記錄 |            | ✓ (A) |
-| 篩選記錄 | ✓ (A) | ✓ (A) |
+| 功能 | 表格檢視 | 時間表檢視 | 行事曆檢視 |
+|-----------------------------------------------------------------------|------------|---------------|--------------|
+| 在清單或表格中顯示記錄 | ✓ (A) |              | |
+| 預設將所有欄位顯示為表格中的欄 | ✓ (A) |              |    |
+| 隱藏或顯示欄位 | ✓ (A) |               |    |
+| 編輯每個記錄的欄位值 | ✓ (A) |               |             |
+| 在檢視中將記錄新增為新列 | ✓ (A) |               |        |
+| 在檢視中新增欄位作為新欄 | ✓ (A) |               |         |
+| 從外部清單複製列並將它們貼到表格中 | ✓ (A) |               |          |
+| 在時間軸中顯示記錄 |            | ✓ (A) |             |
+| 篩選記錄 | ✓ (A) | ✓ (A) |           |
+| 顯示行事曆上的記錄 |           |              | ✓ (A) |
 | 群組記錄 | ✓ (A) | ✓ (A) |
 | 排序記錄 | ✓ (A) |              |
-| 色彩代碼記錄 |           | ✓ (A) |
+| 色彩代碼記錄 |           | ✓ (A) | ✓ (A) |
 | Color-code分組 |           | ✓ (A) |
 | 搜尋特定記錄 | ✓ (A) | ✓ (A) |
-| 共用檢視 | ✓ (A) | ✓ (A) |
-| 從檢視開啟記錄的「詳細資訊」頁面 | ✓ (A) | ✓ (A) |
+| 共用檢視 | ✓ (A) | ✓ (A) | ✓ (A) |
+| 從檢視開啟記錄的「詳細資訊」頁面 | ✓ (A) | ✓ (A) |    |
+
 
 ## 建立或編輯檢視 {#create-or-edit-views}
 
@@ -154,49 +154,62 @@ ht-degree: 0%
    依預設，選取型別的所有記錄都會顯示在表格檢視中。
 
 <!--
-    1. Click **+ View** to add a new view. 
+1. Click **+ View** to add a new view. 
+1. Select from the following types of views: 
 
-    1. Select from the following types of views: 
+    * Table
+    * Timeline
+    * Calendar
 
-        * Table
-        * Timeline
-        * Calendar
-
-        >[!TIP]
-        >
-        >When you create a record type, the table view is also created by default. 
-        >
-        >To create a timeline or a calendar view, the record type you build the view for must have at least two date fields. Otherwise, the Timeline and the Calendar options are dimmed.
-        >
-        >(*********remove all of the below steps and replace the screen shot when calendar view releases*********)
-    -->
+>[!TIP]
+>
+>When you create a record type, the table view is also created by default. 
+>
+>To create a timeline or a calendar view, the record type you build the view for must have at least two date fields. Otherwise, the Timeline and the Calendar options are dimmed.
+>
+>(*********remove the step below and replace the screen shot when calendar view releases*********)
+-->
 
 1. 按一下 **檢視** 下拉式功能表，並選取現有的 **表格檢視** ![](assets/table-view-icon.png) 或按一下 **建立檢視>表格** 建立表格檢視
 
    或
 
-   選取現有 **時間表檢視** ![](assets/timeline-view-icon.png) 檢視或按一下 **建立檢視>時間表** 以建立時間表檢視。
+   選取現有 **時間表檢視** ![](assets/timeline-view-icon.png) 或按一下 **建立檢視>時間表** 以建立時間表檢視。
+
+   或
+
+   選取現有 **行事曆檢視** ![](assets/calendar-view-icon.png) 或按一下 **建立檢視>行事曆** 以建立行事曆檢視。
 
    ![](assets/view-types-drop-down-from-record-type-list.png)
 
    >[!NOTE]
    >
-   >    若要建立時間表檢視，您為其建立檢視的記錄型別必須至少有兩個日期欄位。 否則，「時間軸」選項會變暗。
+   >    若要建立時間表或行事曆檢視，您為其建立檢視的記錄型別必須至少有兩個日期欄位。 否則，「時間軸」或「行事曆」選項會變暗。
 
-1. （可選）更新檢視的名稱，然後按一下 **建立** 儲存表格檢視
+1. （視條件而定）按一下 **下一個**，在建立時間表或行事曆檢視時。
 
-   或按一下 **下一個**，建立時間表時 <!--or calendar--> 檢視。
+   依預設，Workfront會提供下列其中一個檢視名稱：
 
-   依預設，Workfront會將檢視命名為「表格&lt;數字>」或「時間軸&lt;數字>」， <!--or "Calendar < number >"-->. 數字是自動產生的增量。
+   * `Table < number >`
+   * `Timeline < number >`
+   * `Calendar < number >`
 
-1. （視條件而定）選取時間軸中所顯示記錄的開始和結束日期 <!--or calendar--> 檢視，然後按一下 **建立**.
+   數字是自動產生的增量。
+
+1. （視條件而定）選取 **開始** 和 **結束日期** 適用於將在時間軸或行事曆檢視中顯示的記錄。
+1. 按一下「**建立**」。
+
+   <!--add for view redesign: The view displays as a new tab. Views display in the chronological order from when they were created or shared with you. -->
+<!--1. (Optional) Click the **More** menu ![](assets/more-caret-down-icon-views.png) next to the last view to view all views for the selected record type. 
+
+    Additional views display under the **More** menu after the last view tab. The number next to the **More** menu shows the number of additional views. -->
 1. （選擇性）若要在建立檢視後重新命名，請按一下檢視下拉式功能表，然後按一下 **更多** 功能表 ![](assets/more-menu.png) > **重新命名** 以更新檢視名稱。 <!--ensure there is not another saving step here?!-->
    <!--1. (Optional) To rename a view after it is created, double-click the view name and start typing the new name, or click the **More** menu ![](assets/more-menu.png) to the right of the view name, then click **Rename**.-->
 1. （可選）若要管理特定型別的檢視，請參閱下列文章：
 
    * [管理表格檢視](../views/manage-the-table-view.md)
    * [管理時間表檢視](../views/manage-the-timeline-view.md)
-     <!--* [Manage the calendar view](/help/quicksilver/maestro/views/manage-the-calendar-view.md)-->
+   * [管理行事曆檢視](/help/quicksilver/maestro/views/manage-the-calendar-view.md)
 
 
 ## 刪除檢視
@@ -211,7 +224,7 @@ ht-degree: 0%
 
    依預設，選取型別的所有記錄都會顯示在表格檢視中。
 
-<!--1. Hover over on the of the view's names in the view tab, then click **More** ![](assets/more-menu.png) > **Delete**. (********delete the instructions below but keep the last step***********)-->
+<!--1. Hover over on the of the view's names in the view tab, then click **More** ![](assets/more-menu.png) > **Delete**. (********delete the instructions in the point below but keep the last step***********)-->
 1. 按一下「檢視」下拉式功能表，將滑鼠停留在清單中的其中一個檢視上，然後按一下 **更多** 功能表 ![](assets/more-menu.png) > **刪除**.
 1. 按一下 **刪除** 以確認。 <!--ensure there is not another saving step here?!-->
 

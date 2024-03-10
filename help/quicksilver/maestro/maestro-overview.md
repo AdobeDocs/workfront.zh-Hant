@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: b3a2f3ee4d89a6370c498457c1958cd7b9ea69b8
+source-git-commit: 26d6fecf02541fff649deabe61e65dbe5ae5f688
 workflow-type: tm+mt
-source-wordcount: '2051'
+source-wordcount: '1977'
 ht-degree: 1%
 
 ---
@@ -253,8 +253,8 @@ Adobe Workfront規劃功能是Adobe Workfront推出的全新產品。 規劃功�
 
      ![](assets/grouping-applied-in-timeline-view.png)
 
-  <!--* **Calendar view**: Displays records that have at least two Date-type fields in a calendar format. 
-    ![](assets/calendar-view-example.png)-->
+   * **行事曆檢視**：以行事曆格式顯示至少有兩個日期型別欄位的記錄。
+     ![](assets/calendar-view-example.png)
 
 
 如需詳細資訊，請參閱 [管理記錄檢視](../maestro/views/manage-record-views.md).
@@ -300,17 +300,13 @@ Adobe Workfront規劃功能是Adobe Workfront推出的全新產品。 規劃功�
 
    1. 按一下記錄型別的名稱以開啟記錄的頁面。 依預設，記錄頁面會在「表格」檢視中開啟。
 
-   1. 執行下列任一項作業來自訂「表格」檢視：
+      您也可以建立時間表或行事曆檢視。
 
-      * 按一下「 」以新增更多欄位至記錄型別 **+** 圖示加以顯示。 檢視中的欄是與記錄型別相關聯的欄位。
-      * 按一下 **+** 圖示重新整理。 檢視中的列是所選記錄型別的唯一記錄。
-      * 按一下 **篩選器** 以篩選您顯示在記錄型別頁面上的資訊。
+   1. 在表格檢視中，新增列以開始新增記錄
 
-   1. 按一下記錄名稱，在記錄的「詳細資訊」頁面中檢視更多資訊。
+      或
 
-   1. 從建立時間表檢視 **檢視** 記錄型別頁面右上角的下拉式功能表。
-
-   1. 透過更新篩選器、群組或設定來自訂時間軸檢視。
+      透過新增欄開始新增記錄欄位。
 
 ## Adobe Workfront規劃功能發行活動
 

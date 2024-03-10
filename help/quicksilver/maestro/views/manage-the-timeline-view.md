@@ -1,13 +1,13 @@
 ---
 title: 管理時間表檢視
-description: 存取Adobe Maestro中的記錄型別頁面時，您可以在時間軸檢視中顯示記錄。
+description: 存取Adobe Workfront規劃功能中的記錄型別頁面時，您可以在時間軸檢視中顯示記錄。
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: ef313bf912c65b9b316bd7403235ccf6f05a0ac6
+source-git-commit: 26d6fecf02541fff649deabe61e65dbe5ae5f688
 workflow-type: tm+mt
-source-wordcount: '1658'
+source-wordcount: '1663'
 ht-degree: 0%
 
 ---
@@ -28,9 +28,9 @@ role: User
 
 {{maestro-important-intro}}
 
-存取Adobe Maestro中的記錄型別頁面時，您可以在時間軸檢視中顯示記錄。
+存取Adobe Workfront規劃功能中的記錄型別頁面時，您可以在時間軸檢視中顯示記錄。
 
-如需Maestro檢視的相關資訊，請參閱 [在Adobe大師中管理記錄檢視](../views/manage-record-views.md).
+如需有關記錄檢視的資訊，請參閱 [管理記錄檢視](../views/manage-record-views.md).
 
 ## 存取需求
 
@@ -51,7 +51,7 @@ role: User
   </tr>  
  <td role="rowheader"><p>Adobe Workfront合約</p></td>
    <td>
-<p>貴組織必須註冊AdobeMaestro封閉測試版計畫。 請聯絡您的客戶代表以查詢此新產品/服務。 </p>
+<p>貴組織必須註冊Adobe Workfront規劃功能封閉測試版計畫。 請聯絡您的客戶代表以查詢此新產品/服務。 </p>
    </td>
   </tr>
   <tr>
@@ -69,7 +69,7 @@ role: User
 
 <tr>
    <td role="rowheader">存取層級設定</td>
-   <td> <p>Maestro沒有存取層級控制項 </p>  
+   <td> <p>Adobe Workfront規劃功能沒有存取層級控制項 </p>  
 </td>
   </tr>
 
@@ -102,17 +102,6 @@ role: User
    * 當開始和結束日期沒有值時
    * 當「開始」或「結束」日期沒有值時
    * 當開始日期在結束日期之後時
-
-<!--these are NOT available now because there won't be a table for the timeline view for the near future, per Andy: 
-* The records displayed in the timeline view also display in a view-only table to the left of the timeline. 
-* Each row in the table and each bar on the timeline represent the same record. 
-* Each column in the table is a record field. The columns of this table are preconfigured and cannot be customized. 
-* Only a limited number of fields (or columns) display in the timeline view table. 
-* You cannot do the following in a timeline view:
-     * Add rows or records
-     * Add columns or fields
-     * Edit record information
--->
 
 若要管理時間表檢視：
 
@@ -196,7 +185,7 @@ role: User
 在時間軸檢視中使用群組時，請考量下列事項：
 
 * 您可以在表格和時間軸檢視中套用群組。 表格檢視的分組與相同記錄型別之時間軸檢視中的群組是獨立的。
-* 您可以在Maestro檢視中套用3個群組層級。 記錄會依照您選取的群組順序進行分組。
+* 您可以在檢視中套用3個群組層級。 記錄會依照您選取的群組順序進行分組。
 * 使用API時，您最多可以套用4個層級的群組。
 * 群組對於您選取的檢視而言是唯一的。 相同記錄型別的兩個時間軸檢視可套用不同的群組。 檢視相同時間表檢視的兩個使用者會看到目前套用的相同分組。
 * 您無法為時間表檢視建立的分組命名。
@@ -218,6 +207,8 @@ role: User
 1. （可選）重複上述步驟以新增最多3個群組。
 
    為分組選取的欄位數會顯示在「分組」圖示旁。
+
+   <!-- update screen shot with view redesign-->
 
    ![](assets/grouping-applied-in-timeline-view.png)
 

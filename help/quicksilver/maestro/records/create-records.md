@@ -1,13 +1,13 @@
 ---
 title: 建立記錄
-description: 在Adobe大師，記錄是記錄型別的例項。 在建立個別記錄之前，您必須先建立記錄型別。 建立分類記錄與建立作業記錄相同。
+description: 使用Adobe Workfront規劃功能時，記錄是記錄型別的例項。 在建立個別記錄之前，您必須先建立記錄型別。 建立分類記錄與建立作業記錄相同。
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: 5681b540bceddaae85116b632e968d94761eec0d
+source-git-commit: 26d6fecf02541fff649deabe61e65dbe5ae5f688
 workflow-type: tm+mt
-source-wordcount: '1011'
+source-wordcount: '810'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 {{maestro-important-intro}}
 
-在Adobe大師，記錄是記錄型別的例項。
+在Adobe Workfront規劃功能中，記錄是記錄型別的例項。
 
 您可以擁有下列記錄型別：
 
@@ -27,13 +27,13 @@ ht-degree: 0%
 
 建立作業記錄與建立分類記錄相同。
 
-您可以執行下列其中一項作業，在Maestro中建立記錄：
+您可以執行下列其中一項作業來建立記錄：
 
-* 為Maestro記錄型別手動建立它們
-* 將它們連線到其他應用程式的Maestro記錄。
+* 手動為記錄型別建立它們
+  <!-- not possible anymore: * Connect them to records from other applications-->
 * 從外部清單複製並貼上資訊，以建立記錄。
 
-本文說明如何建立Maestro記錄。 如需有關管理表格或時間表檢視中的記錄的資訊，請參閱下列文章：
+本文會介紹如何建立記錄。 如需有關管理表格或時間表檢視中的記錄的資訊，請參閱下列文章：
 
 * [管理表格檢視](/help/quicksilver/maestro/views/manage-the-table-view.md)
 * [管理時間表檢視](/help/quicksilver/maestro/views/manage-the-timeline-view.md)
@@ -57,7 +57,7 @@ ht-degree: 0%
   </tr>  
  <td role="rowheader"><p>Adobe Workfront合約</p></td>
    <td>
-<p>貴組織必須註冊AdobeMaestro封閉測試版計畫。 請聯絡您的客戶代表以查詢此新產品/服務。 </p>
+<p>貴組織必須註冊Adobe Workfront規劃功能封閉測試版計畫。 請聯絡您的客戶代表以查詢此新產品/服務。 </p>
    </td>
   </tr>
   <tr>
@@ -75,7 +75,7 @@ ht-degree: 0%
 
 <tr>
    <td role="rowheader"><p>存取層級設定</p></td>
-   <td> <p>Maestro沒有存取控制 </p>  
+   <td> <p>Adobe Workfront規劃功能沒有存取控制 </p>  
 </td>
   </tr>
 <tr>
@@ -132,28 +132,44 @@ ht-degree: 0%
 
 1. 繼續新增每一列的資訊，然後按一下 **輸入** 以儲存變更。
 
+<!--Or 
+    
+    Click the new record's name or the **Open details** icon ![](assets/open-details-icon-in-table-name-field.png) to the left of the record name. The **Details** box opens in the table. 
+
+      >[!TIP]
+      >
+      >    You can access the Details box only from the name field of the record when the Name field is a primary field. 
+
+  1. Start editing the record's information in the Details box. Workfront automatically saves your changes. 
+  1. (Optional) Click the **Open in new tab** icon ![](assets/open-details-in-a-new-tab-icon.png) in the upper-right corner of the Details box to open the record's **Details** page in a new tab. Continue editing the record on the Details page.
+    -->
+
 1. （可選）使用下列鍵盤快速鍵來復原或重做新增記錄：
 
    * CTRL + Z (Mac為⌘ + Z)可復原變更
    * CTRL + Shift + Z (Mac為⌘ + Shift + Z)以重做變更
 
-## 從其他應用程式連線記錄以建立記錄
+<!-- this is not possible anymore: 
 
-您可以將記錄連結至Maestro連結的記錄，藉此從其他應用程式匯入記錄。 這會為其他應用程式的連線物件建立Maestro記錄型別。
+## Create records by connecting them from another application
 
-1. 建立Maestro記錄型別，如 [建立記錄型別](../architecture/create-record-types.md).
+You can import records from other applications by linking them to existing records. This creates a linked record for the other application's connected object. 
 
-1. 為您在上一步建立的記錄型別建立Maestro記錄。 如需詳細資訊，請參閱區段 [手動將記錄新增至記錄型別以建立記錄](#create-records-by-manually-adding-them-to-a-record-type) 本文章內容。
+1. Create a record type, as described in the [Create record types](../architecture/create-record-types.md).
 
-1. 從另一個應用程式為您建立的Maestro記錄型別建立物件型別的連線。 如需詳細資訊，請參閱 [連線記錄型別](../architecture/connect-record-types.md).
+1. Create records for the record type you created in the previous step. For information, see the section [Create records by manually adding them to a record type](#create-records-by-manually-adding-them-to-a-record-type) in this article. 
 
-1. 使用您在上一步建立的連結記錄欄位，將來自另一個應用程式的記錄新增至您在上一步建立的Maestro記錄。 如需詳細資訊，請參閱 [連線記錄](../records/connect-records.md).
+1. Create a connection to an object type from another application for the record type you created. For information, see [Connect record types](../architecture/connect-record-types.md).
 
-   在Maestro中建立下列專案：
+1. Add objects from another application to the records you created above using the linked record field you created in the previous step. For information, see [Connect records](../records/connect-records.md). 
 
-   * 唯讀的Maestro記錄型別，參照您在連線記錄欄位中連結到的其他應用程式記錄型別。
+    The following items are created in Maestro:
 
-     例如，如果您將Maestro記錄型別連線至Workfront專案，會在相同工作區中建立名為「Workfront專案」的唯讀記錄型別。 您可以從您連結的Maestro記錄表格檢視，存取唯讀的Workfront記錄型別。
+    * A read-only Maestro record type that refers to the other application's record type you linked to in the connected record field. 
+
+      For example, if you connect a Maestro record type to Workfront project, a read-only record type named "Workfront project" is created in the same workspace. You can access the read-only Workfront record types from the table view of the Maestro records you're linking from. 
+   
+-->
 
 ## 從外部清單複製並貼上資訊，以建立記錄
 

@@ -1,13 +1,13 @@
 ---
 title: 編輯記錄
-description: 您可以在Adobe Maestro中編輯記錄資訊。 您必須先建立記錄型別，才能開始建立和編輯記錄。
+description: 您可以在Adobe Workfront規劃功能中編輯記錄資訊。 您必須先建立記錄型別，才能開始建立和編輯記錄。
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: 24975c463c93de61672f1986d82d1d6500133baa
+source-git-commit: 26d6fecf02541fff649deabe61e65dbe5ae5f688
 workflow-type: tm+mt
-source-wordcount: '1077'
+source-wordcount: '1087'
 ht-degree: 1%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 1%
 
 {{maestro-important-intro}}
 
-您可以在Adobe Maestro中編輯記錄資訊，方法是編輯與記錄關聯的欄位值。
+您可以編輯與記錄關聯的欄位值，以在Adobe Workfront規劃功能中編輯記錄資訊。
 
 您必須先建立記錄型別，才能開始建立和編輯記錄。
 
@@ -47,7 +47,7 @@ ht-degree: 1%
   </tr>  
  <td role="rowheader"><p>Adobe Workfront合約</p></td>
    <td>
-<p>貴組織必須註冊AdobeMaestro封閉測試版計畫。 請聯絡您的客戶代表以查詢此新產品/服務。 </p>
+<p>貴組織必須註冊Adobe Workfront規劃功能封閉測試版計畫。 請聯絡您的客戶代表以查詢此新產品/服務。 </p>
    </td>
   </tr>
   <tr>
@@ -67,7 +67,7 @@ ht-degree: 1%
 
 <tr>
    <td role="rowheader"><p>存取層級設定</p></td>
-   <td> <p>Maestro沒有存取控制 </p>  
+   <td> <p>Adobe Workfront規劃功能沒有存取控制 </p>  
 </td>
   </tr>
 <tr>
@@ -104,35 +104,8 @@ ht-degree: 1%
 
 您可以從下列區域編輯記錄：
 
-* [從記錄的詳細資訊頁面](#edit-a-record-from-the-records-details-page)
 * [從記錄型別的表格檢視](#edit-a-record-from-the-table-view-of-a-record-type)
-
-### 從記錄的「詳細資訊」頁面編輯記錄
-
-{{step1-to-maestro}}
-
-您上次存取的工作區會開啟。
-
-1. （可選）按一下工作區名稱右側的向下箭頭，以選取您要更新其記錄的工作區。
-1. 執行下列其中一項：
-
-   * 從 **表格** 檢視，按一下記錄名稱。
-   * 從 **表格** 檢視，將游標停留在記錄名稱上，然後按一下 **更多** 功能表 ![](assets/more-menu.png)，然後按一下 **檢視**
-
-     ![](assets/contextual-menu-for-record-row.png)
-   * 在「時間軸」檢視中，按一下記錄列。
-
-   記錄 **詳細資料** 頁面隨即開啟。
-
-1. 按一下 **更多** 功能表 ![](assets/more-menu.png) 在記錄名稱的右側，然後按一下 **編輯**
-
-   或
-
-   按一下「詳細資訊」頁面上的任何可編輯欄位以編輯資訊。
-
-   ![](assets/more-menu-options-from-record-details-page.png) <!--ensure the options have not changed or been renamed-->
-
-1. 按一下 **儲存變更**. <!--logged a bug for this - this needs to be "Save"-->
+* [從記錄的詳細資訊頁面](#edit-a-record-from-the-records-details-page)
 
 ### 從記錄型別的表格檢視中編輯記錄
 
@@ -144,7 +117,7 @@ ht-degree: 1%
 1. 按一下記錄型別卡。
 
    記錄型別頁面隨即開啟。
-1. （視條件而定）從 **檢視** 在表格右上角的下拉式功能表中，選取 **表格** 檢視。 這應為預設檢視，除非您上次存取時間軸檢視時已檢視該記錄型別。
+1. （視條件而定）從 **檢視** 下拉式功能表 <!--tab--> 在表格的右上角，選取 **表格** 檢視。 這應為預設檢視，除非您在上次存取記錄型別時已在其他型別的檢視中檢視該記錄型別。
 
    與所選記錄型別相關聯的記錄會顯示在表格檢視中。
 1. 在記錄列內按一下，開始編輯有關內嵌記錄的資訊。
@@ -171,6 +144,16 @@ ht-degree: 1%
 
 1. （選擇性）連按兩下連線的記錄欄位，以將連線的記錄或物件新增至其他記錄。 如需詳細資訊，請參閱 [連線記錄](/help/quicksilver/maestro/records/connect-records.md).
 1. 按下 **輸入** 使用鍵盤或按一下資料列外部以儲存變更。 變更會自動儲存。 A **已儲存** 指標會短暫顯示在表格檢視的右上角，顯示變更已儲存。
+
+
+   <!--
+    1. (Optional) Click the **Open details** icon ![](assets/open-details-icon-in-table-name-field.png) to the left of a record name, or click on a record name. The **Details** box opens in the table. 
+        >[!TIP]
+        >
+        >    You can view the Open details icon to the left of the Name field of a record only when the Name field is a primary field. 
+    1. Start editing the field information in the Details box. Workfront automatically saves your changes. 
+    1. (Optional) Click the **Open in new tab** icon ![](assets/open-details-in-a-new-tab-icon.png) in the upper-right corner of the Details box to open the record's **Details** page in a new tab. Continue editing the record as described in [Edit a record from the record's Details page](#edit-a-record-from-the-records-details-page) section in this article. 
+    -->
 
 1. （選擇性）若要將某個欄位的資訊複製並貼到另一個欄位，請執行下列任一項作業：
 
@@ -204,3 +187,33 @@ ht-degree: 1%
    >    您可以在一列中多次使用鍵盤快速鍵來復原多項變更。
 
 1. （選用）新增縮圖至記錄。 如需詳細資訊，請參閱 [新增縮圖至記錄](/help/quicksilver/maestro/records/add-thumbnails-to-records.md).
+
+
+### 從記錄的「詳細資訊」頁面編輯記錄
+
+<!--You can edit a record from the Details box in a table view, or from the Details page. For information about editing records in the Detais box, see the [Edit a record from the table view of a record type](#edit-a-record-from-the-table-view-of-a-record-type) section in this article.-->
+
+{{step1-to-maestro}}
+
+您上次存取的工作區會開啟。
+
+1. （可選）按一下工作區名稱右側的向下箭頭，以選取您要更新其記錄的工作區。
+1. 執行下列其中一項：
+
+   * 從 **表格** 檢視，按一下記錄名稱。
+   * 從 **表格** 檢視，將游標停留在記錄名稱上，然後按一下 **更多** 功能表 ![](assets/more-menu.png)，然後按一下 **檢視**
+
+     ![](assets/contextual-menu-for-record-row.png)
+   * 在「時間軸」檢視中，按一下記錄列。
+
+   記錄 **詳細資料** 頁面隨即開啟。
+
+1. 按一下 **更多** 功能表 ![](assets/more-menu.png) 在記錄名稱的右側，然後按一下 **編輯**
+
+   或
+
+   按一下「詳細資訊」頁面上的任何可編輯欄位以編輯資訊。
+
+   ![](assets/more-menu-options-from-record-details-page.png) <!--ensure the options have not changed or been renamed-->
+
+1. 按一下 **儲存變更**. <!--logged a bug for this - this needs to be "Save"-->

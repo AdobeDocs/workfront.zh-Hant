@@ -4,9 +4,9 @@ description: 您可以在行事曆檢視中顯示記錄及其欄位。
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: ff52e43fc5ed5a7939b9e28b2bda195e94e81724
+source-git-commit: 26d6fecf02541fff649deabe61e65dbe5ae5f688
 workflow-type: tm+mt
-source-wordcount: '338'
+source-wordcount: '360'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ hide: yes
 
 您可以從記錄型別頁面，在行事曆檢視中顯示記錄及其欄位。
 
-有關Maestro檢視以及如何管理檢視的資訊，請參閱 [管理記錄檢視](../views/manage-record-views.md).
+如需Adobe Workfront規劃功能檢視及管理檢視方式的詳細資訊，請參閱 [管理記錄檢視](../views/manage-record-views.md).
 
 ## 存取需求
 
@@ -50,7 +50,7 @@ hide: yes
   </tr>  
  <td role="rowheader"><p>Adobe Workfront合約</p></td>
    <td>
-<p>貴組織必須註冊AdobeMaestro封閉測試版計畫。 請聯絡您的客戶代表以查詢此新產品/服務。 </p>
+<p>貴組織必須註冊Adobe Workfront規劃功能封閉測試版計畫。 請聯絡您的客戶代表以查詢此新產品/服務。 </p>
    </td>
   </tr>
   <tr>
@@ -68,7 +68,7 @@ hide: yes
 
 <tr>
    <td role="rowheader">存取層級設定</td>
-   <td> <p>Maestro沒有存取層級控制項 </p>  
+   <td> <p>Adobe Workfront規劃功能沒有存取層級控制項  </p>  
 </td>
   </tr>
 
@@ -94,11 +94,11 @@ hide: yes
 請考量下列事項：
 
 * 只有當您至少有兩個日期欄位與記錄型別相關聯時，才能建立「行事曆」檢視。 當您有一個或沒有與記錄型別相關聯的日期欄位時，「行事曆」檢視選項會變暗。
-* 下列情境：
+* 存在下列情況：
 
-   * 當「開始」與「結束」日期沒有值時，記錄不會顯示在行事曆上
+   * 當「開始」與「結束」日期都沒有值時，記錄不會顯示在行事曆上
    * 當「開始」或「結束」日期沒有值時，記錄會顯示為單日事件
-   * 當開始日期在結束日期之後時，記錄不會顯示在行事曆上。
+   * 當開始日期晚於結束日期時，記錄不會顯示在行事曆上。
 
 若要管理行事曆檢視：
 
@@ -107,7 +107,7 @@ hide: yes
 
    ![](assets/calendar-view-example.png)
 
-   與您選取的記錄型別相關聯的記錄會在行事曆中顯示為長條。
+   與您選取的記錄型別相關聯的記錄會在行事曆中顯示為長條。 長條的顏色與記錄圖示的顏色相符。
 
 1. 執行下列任一項作業來瀏覽行事曆：
 
