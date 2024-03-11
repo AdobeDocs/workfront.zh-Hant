@@ -4,10 +4,10 @@ description: 您可以在使用Adobe Workfront規劃功能時，與其他人共�
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 023ca8c4e7c2dec2098390c1cda1e5b4eafbb840
+source-git-commit: 1da2e6448f7ac6f4bd5bd76846fbfc1a23c3da77
 workflow-type: tm+mt
-source-wordcount: '380'
-ht-degree: 1%
+source-wordcount: '497'
+ht-degree: 0%
 
 ---
 
@@ -109,3 +109,13 @@ ht-degree: 1%
 1. 按一下 **複製連結** 將檢視的連結複製到剪貼簿。
 1. 與他人共用複製的連結。 收到連結的使用者必須是作用中使用者，並登入Workfront，才能存取記錄型別頁面並在選取的檢視中顯示該頁面。
 1. 按一下「**儲存**」。
+
+## 移除檢視的許可權
+
+{{step1-to-maestro}}
+
+1. 開啟您要共用其檢視的工作區，然後按一下記錄型別卡片。 這會開啟記錄型別頁面。
+1. 從檢視下拉式功能表中，暫留在您要共用的檢視上，然後按一下 **更多** 功能表 ![](assets/more-menu.png) 檢視名稱右側，然後按一下 **共用**.
+1. 尋找您要移除的使用者或群組，然後按一下 **移除** 在使用者或群組名稱右側的「許可權」下拉式功能表中。
+1. 按一下 **儲存**.
+屬於已移除群組的使用者或使用者無法再存取該檢視。 對於已從存取檢視中移除的使用者，不會有任何通知。

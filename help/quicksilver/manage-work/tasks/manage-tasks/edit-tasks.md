@@ -7,10 +7,10 @@ author: Alina
 feature: Work Management, Tasks
 role: User
 exl-id: 572c6008-3a67-47ae-8f5d-6b871ef1f37b
-source-git-commit: 5b7a5aff0f8bdf7cf8429ac29b50c3beaf4bd3b4
+source-git-commit: 1da2e6448f7ac6f4bd5bd76846fbfc1a23c3da77
 workflow-type: tm+mt
-source-wordcount: '3712'
-ht-degree: 4%
+source-wordcount: '3729'
+ht-degree: 3%
 
 ---
 
@@ -89,6 +89,8 @@ ht-degree: 4%
    * 編輯現有費用
    * 附加自訂表單
 
+* 其他使用者必須先重新整理頁面，才能檢視您對任務所做的更新。
+
 ## 編輯清單中的任務
 
 您可以透過內聯編輯清單檢視中顯示的欄位，編輯任務清單中的任務資訊。
@@ -114,7 +116,7 @@ ht-degree: 4%
 
    請考慮編輯「工作詳細資訊」段落中下列區域的資訊：
 
-   * **總覽**
+   * **概觀**
 
      此區域預設為展開。
 
@@ -143,7 +145,7 @@ ht-degree: 4%
    1. （可選）按一下 **匯出** 圖示 ![](assets/export.png) 若要將概述和自訂表單資訊匯出至PDF檔案，請按一下 **匯出**. 從下列選項中選取：
 
       * 全選（至少附加一個自訂表單時顯示）
-      * 總覽
+      * 概觀
       * 一或多個自訂表單的名稱
 
       PDF檔案會下載到您的電腦。
@@ -173,7 +175,7 @@ ht-degree: 4%
    請考慮在下列任何一節中指定資訊：
 
    * [任務名稱](#task-name)
-   * [總覽](#overview)
+   * [概觀](#overview)
    * [指派](#assignments)
    * [自訂表單](#Custom%C2%A0F)
    * [財務](#finance)
@@ -194,7 +196,7 @@ ht-degree: 4%
 
 1. 按一下 **儲存** 或繼續下列章節。
 
-### 總覽 {#overview}
+### 概觀 {#overview}
 
 1. 如上所述開始編輯您的工作。
 1. 按一下 **概觀** 在左側面板中。
@@ -229,7 +231,7 @@ ht-degree: 4%
       <li> <p>標準 </p> </li> 
       <li> <p>高 </p> </li> 
       <li> <p> 緊急 </p> </li> 
-       </ul> <p>根據您的Workfront管理員所選取的「專案偏好設定」，優先順序的名稱可能會有所不同。 如需有關工作優先順序的資訊，請參閱 <a href="../../../manage-work/tasks/task-information/task-priority.md" class="MCXref xref">更新任務優先順序</a>. </p> </td> 
+       </ul> <p>根據Workfront管理員選取的專案偏好設定，您的優先順序名稱可能會不同。 如需有關工作優先順序的資訊，請參閱 <a href="../../../manage-work/tasks/task-information/task-priority.md" class="MCXref xref">更新任務優先順序</a>. </p> </td> 
      </tr> 
      <tr> 
       <td colspan="2" role="rowheader"><span style="font-weight: bold;">任務日期和限制區段</span> </td> 
@@ -239,14 +241,14 @@ ht-degree: 4%
       <td> <p>透過指定工作限制來決定必須完成工作的時間。 </p> <p>從下列選項中選取： </p> 
        <ul> 
       <li> <p><span>固定日期</span> </p> <p>指定 <strong>計劃開始</strong> 和 <strong>計畫完成日期</strong>. </p> </li> 
-      <li> <p><span>必須開始時間</span> </p> <p>指定 <strong>計劃開始日期</strong>. </p> </li> 
+      <li> <p><span>必須開始於</span> </p> <p>指定 <strong>計劃開始日期</strong>. </p> </li> 
       <li> <p><span>必須完成時間</span> </p> <p>指定 <strong>計畫完成日期</strong>. </p> </li> 
        </ul> 
        <ul> 
       <li> <p><span>儘快</span></p> </li> 
       <li> <p><span>儘可能遲</span></p> </li> 
       <li> <p><span>最早可用時間</span></p> </li> 
-      <li> <p> <span>最晚可用時間</span></p> </li> 
+      <li> <p> <span>最新可用時間</span></p> </li> 
       <li> <p><span>開始時間不晚於</span> </p> </li> 
       <li> <p>指定計劃開始日期</p> </li> 
       <li> <p><span>開始時間不早於</span> </p> <p>指定 <strong>計劃開始日期</strong>. </p> </li> 
@@ -256,7 +258,7 @@ ht-degree: 4%
      </tr> 
      <tr> 
       <td role="rowheader">認可日期和時間</td> 
-      <td> <p>這是指派給任務的使用者認可完成任務的日期。 這可能與計畫完成日期不同。 僅受指派人可以編輯此欄位。如需Workfront中認可日期的相關資訊，請參閱 <a href="../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md" class="MCXref xref">認可日期總覽</a>. </p> </td> 
+      <td> <p>這是指派給任務的使用者認可完成任務的日期。 這可能與計畫完成日期不同。 僅受指派人可以編輯此欄位。 如需Workfront中認可日期的相關資訊，請參閱 <a href="../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md" class="MCXref xref">認可日期總覽</a>. </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">計劃開始日期和時間</td> 
@@ -288,7 +290,7 @@ ht-degree: 4%
       <td role="rowheader"><b>「工作時間」區段</b></td> 
      </tr> 
      <tr> 
-      <td role="rowheader">工作量 </td> 
+      <td role="rowheader">工作投入 </td> 
       <td>
 
    <p>完成任務所需的工時量。 您的專案經理可能會決定使用此欄位而不是計畫時數來預估完成任務所需的工作。 只有在符合下列條件時，才會顯示此欄位：</p> 
@@ -362,7 +364,7 @@ ht-degree: 4%
      </tr> 
      <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
       <td role="rowheader">各事件的持續時間</td> 
-      <td> <p>這僅顯示在遞回任務的父繫上。 它會顯示每個週期性任務的持續時間，如建立任務時定義。 如需建立週期性工作的相關資訊，請參閱 <a href="../../../manage-work/tasks/create-tasks/create-recurring-tasks.md" class="MCXref xref">建立週期性任務</a>. </p> <p> <b>附註</b>
+      <td> <p>這僅顯示在遞回任務的父繫上。 它會顯示每個週期性任務的持續時間，如建立任務時定義。 如需建立週期性工作的相關資訊，請參閱 <a href="../../../manage-work/tasks/create-tasks/create-recurring-tasks.md" class="MCXref xref">建立週期性任務</a>. </p> <p> <b>注意</b>
 
    在個別週期性任務中修改的持續時間不顯示此欄位中指示的值。 </p> </td>
    </tr> 
@@ -399,7 +401,7 @@ ht-degree: 4%
       <td>H</td> 
       </tr> 
       <tr> 
-      <td>天. 這是預設值。 </td> 
+      <td>天。 這是預設值。 </td> 
       <td>D</td> 
       </tr> 
       <tr> 
@@ -442,9 +444,9 @@ ht-degree: 4%
    </div> </td> 
    </tr> 
    <tr> 
-   <td role="rowheader">計畫小時</td> 
+   <td role="rowheader">規劃時數</td> 
    <td> <p>指定任務的計畫時數（以時數為單位）。 這是工作的受指派人完成工作所需的實際時間。 當「期間型別」設定為「計算的指定任務」時，您只能指定任務的計畫時數。 如需持續時間型別的詳細資訊，請參閱 <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">任務期間與期間型別概觀</a>.</p> 
-   <b>附註</b>
+   <b>注意</b>
    <p>
    建立週期性任務時，計畫時數是每個事件的計畫時數。 父系任務的計畫時數是所有發生次數的所有計畫時數總計。 如需建立週期性工作的相關資訊，請參閱 <a href="../../../manage-work/tasks/create-tasks/create-recurring-tasks.md" class="MCXref xref">建立週期性任務</a>.
    </p>
@@ -510,19 +512,19 @@ ht-degree: 4%
       <td> <p>指定作業的成本型別。 這將決定如何根據任務的小時數計算任務成本。 </p> <p>從下列選項中選取： </p> 
        <ul> 
         <li> <p>無成本</p> </li> 
-        <li> <p>固定小時 </p> </li> 
-        <li> <p> 使用者小時 </p> </li> 
-        <li> <p> 角色小時</p> </li> 
+        <li> <p>固定每小時 </p> </li> 
+        <li> <p> 使用者每小時 </p> </li> 
+        <li> <p> 角色每小時</p> </li> 
        </ul> <p>如需有關追蹤成本的詳細資訊，請參閱 <a href="../../../manage-work/projects/project-finances/track-costs.md" class="MCXref xref">追蹤成本</a> . 您的Workfront管理員或群組管理員會為您的系統或群組中的任務選取預設成本型別設定。 如需有關設定專案預設值的資訊，請參閱 <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">設定全系統專案偏好設定</a> .</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">收入類型</td> 
       <td> <p>指定工作的收入型別。 這將根據任務的小時數，決定如何計算任務的收入。 </p> <p>從下列選項中選取： </p> 
        <ul> 
-      <li> <p> 不可記帳 </p> </li> 
-      <li> <p>使用者小時 </p> </li> 
-      <li> <p>角色小時 </p> </li> 
-      <li> <p>固定小時 </p> </li> 
+      <li> <p> 不可計費 </p> </li> 
+      <li> <p>使用者每小時 </p> </li> 
+      <li> <p>角色每小時 </p> </li> 
+      <li> <p>固定每小時 </p> </li> 
       <li> <p>受限使用者小時 </p> </li> 
       <li> <p>受限角色小時 </p> </li> 
       <li> <p>使用者小時加固定 </p> </li> 
@@ -597,7 +599,7 @@ ht-degree: 4%
    </table>
     </li>
 
-1. 按一下&#x200B;**儲存**。
+1. 按一下「**儲存**」。
 
 <!--notes from the table: <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: this bullet stays here although the sections it might appear in are QS only, so we can use the snippet for both Qs and classic)</p>       -->
 

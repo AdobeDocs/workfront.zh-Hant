@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 26d6fecf02541fff649deabe61e65dbe5ae5f688
+source-git-commit: 1da2e6448f7ac6f4bd5bd76846fbfc1a23c3da77
 workflow-type: tm+mt
-source-wordcount: '4364'
+source-wordcount: '4374'
 ht-degree: 0%
 
 ---
@@ -146,7 +146,7 @@ Preview: To be determined
 
 我們已修改許可權層級，以考慮使用者的授權型別。 在此增強功能之前，根據使用者的授權型別，工作區許可權沒有差異。
 
-下列許可權現在可與使用者的授權型別搭配使用：
+根據使用者的授權型別，以下是使用者可接收的最高許可權層級：
 
 * 擁有「計畫」授權（或新授權模式中的「標準」授權）的使用者可以建立和管理工作區、記錄型別和記錄。
 
@@ -156,7 +156,7 @@ Preview: To be determined
 
 有關新許可證模型的資訊，請參閱 [Workfront檔案中的存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-如需有關計畫功能中許可證型別與許可權之間的連線的資訊，請參閱 [Adobe Maestro中的授權型別概觀](/help/quicksilver/maestro/access/license-type-overview.md).
+如需有關計畫功能中許可證型別與許可權之間的連線的資訊，請參閱 [使用Adobe Workfront規劃功能時的授權型別概觀](/help/quicksilver/maestro/access/license-type-overview.md).
 
 
 ### 記錄欄位RTF工具列的新外觀

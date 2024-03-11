@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 99fac041-a235-4991-b826-d19944164bc9
-source-git-commit: 08a7fa1f3871494c4c6b0c385a98a64735b7f7e4
+source-git-commit: 1da2e6448f7ac6f4bd5bd76846fbfc1a23c3da77
 workflow-type: tm+mt
-source-wordcount: '418'
+source-wordcount: '422'
 ht-degree: 0%
 
 ---
@@ -125,6 +125,6 @@ Maestro沒有存取控制。
 
 您的Adobe Workfront授權型別會與您的Maestro許可權搭配使用，讓您能夠檢視、貢獻或管理Maestro物件。
 
-如需有關授權型別如何影響Maestro物件許可權等級的資訊，請參閱 [Adobe Maestro中的授權型別概觀](/help/quicksilver/maestro/access/license-type-overview.md).
+如需有關授權型別如何影響Maestro物件許可權等級的資訊，請參閱 [使用Adobe Workfront規劃功能時的授權型別概觀](/help/quicksilver/maestro/access/license-type-overview.md).
 
 
