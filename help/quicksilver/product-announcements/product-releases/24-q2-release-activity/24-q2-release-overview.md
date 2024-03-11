@@ -4,9 +4,9 @@ description: 此頁面提供2024年第二季度版本中包含的功能相關資
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: edc9d53152ea3828b04a0cd7c2bbb5cf48e541f6
+source-git-commit: 2a5feca46715a9d17070157af3799a8c8a35ef3d
 workflow-type: tm+mt
-source-wordcount: '1449'
+source-wordcount: '1507'
 ht-degree: 0%
 
 ---
@@ -167,6 +167,40 @@ ht-degree: 0%
                 </tr>
            </tbody>
         </table>
+
+### 整合增強功能
+
+<table>
+    <col style="width: 50%;" />
+    <col style="width: 50%;" />
+    <tbody>
+                <tr>
+                    <td>
+                        <p><span class="bold">功能</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">發行日期</span>
+                        </p>
+                    </td>
+                 </tr>
+                 <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Adobe Experience Manager整合中自動化資料夾建立工作流程的增強功能</a></p><span style="color: #ff0000;"> 預覽中的新增專案！</span><p>為確保您的Adobe Experience Manager資料夾能更準確地反映您的需求，我們已將巢狀資料夾樹狀結構新增至Adobe Experience Manager連結資料夾工作流程。</p>
+                    </td>
+                    <td><p><b>將於下列日期提供：</b></p>
+                        <ul>
+                            <li>
+                                <p>預覽版本： 2024年3月11日</p>
+                            </li>
+                             <li> <p><span class="preview">每季發佈至生產環境： 2024年3月14日</span></p>
+                             </li>
+                        </ul>
+                    </td>
+                 </tr>          
+            </tbody>
+</table>
+
 
 ### 專案增強功能
 

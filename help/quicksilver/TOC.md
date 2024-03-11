@@ -3,9 +3,9 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文件、教學課程和其他資源，了解如何在您的組織中實施並有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: 83f10ed479f31101add8747f8b672bbc1dbd922b
+source-git-commit: 2a5feca46715a9d17070157af3799a8c8a35ef3d
 workflow-type: tm+mt
-source-wordcount: '14000'
+source-wordcount: '14004'
 ht-degree: 1%
 
 ---
@@ -23,6 +23,7 @@ ht-degree: 1%
          * [2024年第2季版本總覽](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md)
          * [2024年第2季管理員增強功能](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md)
          * [2024年第2季首頁增強功能](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-home-enhancements.md)
+         * [2024年第2季整合增強功能](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-integration-enhancements.md)
          * [2024年第2季專案增強功能](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-project-enhancements.md)
          * [2024年第2季更新流增強功能](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md)
          * [2024年第2季度發佈時間範圍內的外觀和感覺更新](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-look-and-feel-updates.md)
