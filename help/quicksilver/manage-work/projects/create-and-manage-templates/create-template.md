@@ -6,7 +6,7 @@ description: 您可以從「範本」區域建立及刪除範本。 建立新範
 author: Alina
 feature: Work Management
 exl-id: 5094ba3f-3cb0-4301-aa7d-88c64d112b78
-source-git-commit: 094a54d2d1f6445aa9611152cb632d85be74bbeb
+source-git-commit: a243094dc6bbbe71a6efdb4fe99f7365daae514d
 workflow-type: tm+mt
 source-wordcount: '561'
 ht-degree: 2%
@@ -78,7 +78,7 @@ ht-degree: 2%
 
 1. 在範本標題中指定新範本的名稱，然後按下 **輸入。**
 1. 按一下 **範本任務** 區段。
-1. 按一下&#x200B;**開始新增範本任務**.
+1. 按一下 **開始新增範本任務**.
 
    或
 

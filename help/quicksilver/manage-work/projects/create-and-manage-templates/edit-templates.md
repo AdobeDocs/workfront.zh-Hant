@@ -6,7 +6,7 @@ description: 您可以編輯專案範本以反映專案流程和設定的變更�
 author: Alina
 feature: Work Management
 exl-id: da0fca31-6a50-4862-ad9a-a453ef968773
-source-git-commit: 246750d2a7a053d74df2ceb150f14fdb50f32ade
+source-git-commit: a243094dc6bbbe71a6efdb4fe99f7365daae514d
 workflow-type: tm+mt
 source-wordcount: '4710'
 ht-degree: 2%
@@ -653,7 +653,7 @@ By editing issue settings, you can prevent users from adding issues inline in th
        </tr>
 
    <tr> 
-         <td role="rowheader"><strong>Portfolio</strong></td> 
+         <td role="rowheader"><strong>專案組合</strong></td> 
          <td><p>指定從此範本建立之專案的Portfolio。 您必須先建立Portfolio，它才會出現在下拉式清單中。 </p><p>只有作用中的投資組合會顯示在清單中。 如需關於建立投資組合的詳細資訊，請參閱 <a href="../../../manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md" class="MCXref xref">建立投資組合 </a>.</p></td> 
        </tr> 
        <tr> 
@@ -1116,3 +1116,4 @@ By editing issue settings, you can prevent users from adding issues inline in th
 1. （可選）若要啟動範本，請按一下 **更多** ![](assets/qs-more-icon-on-an-object.png) 範本名稱旁的功能表，然後按一下 **啟動**.
 
    此範本現在已啟用，可附加至專案或用來建立專案。
+

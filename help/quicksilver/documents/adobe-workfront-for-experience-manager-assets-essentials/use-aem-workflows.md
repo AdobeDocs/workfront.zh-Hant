@@ -6,14 +6,16 @@ description: 在Experience Manager Assets Essentials整合中使用工作流程
 author: Courtney, Becky
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 4c1e5ec1-3fd1-4527-ba8a-9db1a2350f69
-source-git-commit: 706e531be6f6269a927f94fee4d2c37d9367c9af
+source-git-commit: 83cd0960947108186f8d1d8ef2ad6c35c89820bd
 workflow-type: tm+mt
-source-wordcount: '816'
+source-wordcount: '1114'
 ht-degree: 0%
 
 ---
 
 # 在Experience Manager Assets整合中使用工作流程
+
+<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它僅在預覽Sandbox環境中可用。</span>
 
 工作流程是一組將Workfront連線至Adobe Experience Manager as a Cloud Service的動作。 Workfront管理員可以在Workfront中設定工作流程，然後將它們指派給專案範本。 使用指派了工作流程的專案範本建立專案時，會觸發工作流程中定義的動作。
 
@@ -63,7 +65,7 @@ ht-degree: 0%
   </tr>
 </table>
 
-## 必要條件
+## 先決條件
 
 開始之前，
 
@@ -107,6 +109,10 @@ ht-degree: 0%
 
 ### 將工作流程新增至現有專案
 
+>[!NOTE]
+>
+>當範本附加到現有專案時，建立專案時執行的工作流程（例如連結的資料夾建立）不會執行。 它們只會在從範本建立專案時執行。
+
 1. 開始新增範本至專案。
 
    如需指示，請參閱 [將範本附加至專案](/help/quicksilver/manage-work/projects/create-and-manage-templates/attach-template-to-project.md).
@@ -116,9 +122,11 @@ ht-degree: 0%
 
    只有已在「設定」的Experience Manager區域中啟動的工作流程，才能用於範本或專案。
 
+
+
 ### 編輯專案中的工作流程值
 
-您可以在專案層級編輯工作流程值。 專案層級工作流程值會覆寫在專案範本上設定的值，這些值會覆寫在Adobe Experience Manager資產整合中設定的預設值。
+您可以在專案層級編輯工作流程值。 專案層級工作流程值會覆寫在專案範本上設定的值，這些值會覆寫在Adobe Experience Manager Assets整合中設定的預設值。
 
 所有工作流程值都可在下列位置找到：
 
@@ -130,9 +138,17 @@ ht-degree: 0%
   >
   >如果看不到這些區域，表示您的Workfront管理員尚未為您的組織啟用工作流程。
 
+
+
 #### 連結的資料夾
 
+>[!NOTE]
+>
+>由於連結資料夾是在建立專案時建立的，因此編輯現有專案上的連結資料夾工作流程會無效。 在建立專案時按預期編輯這些值。
+
 若要編輯連結資料夾的工作流程：
+
+在生產環境中：
 
 1. 切換 **[!UICONTROL 建立連結的資料夾]** 視需要開啟或關閉。
 1. （視條件而定）如果您正在啟用連結的資料夾，請選擇資料夾路徑，以指出所有與此整合相關聯的連結資料夾的位置。
@@ -142,6 +158,31 @@ ht-degree: 0%
 
    如果您在 [!DNL Adobe Experience Manager area]，您的變更會自動儲存。 <!--Do they though?-->
 
+在預覽Sandbox環境中：
+
+<div class="preview">
+
+1. 切換 **[!UICONTROL 建立連結的資料夾]** 視需要開啟或關閉。 如果您將其開啟，則可以編輯連結的資料夾組態。
+
+   如需連結資料夾組態的詳細資訊，請參閱 [建立Adobe Experience Manager連結資料夾](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md#create-adobe-experience-manager-linked-folders) 在文章中 [設定 [!UICONTROL Experience Manager Assetsas a Cloud Service] 整合](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md).
+
+1. （選擇性）如果您希望只有在附加到專案的自訂表單中存在某些值時才建置資料夾樹狀結構，請按一下 **套用篩選器** 針對該資料夾樹狀結構，然後選取包含欄位、欄位和欄位值的自訂表單。 如果附加到新專案的自訂表單上的欄位包含所選值，則會建立資料夾樹狀結構。
+1. （選擇性）設定資料夾名稱時，您可以從下列選項中選取：
+
+   * **名稱**：輸入資料夾的名稱。
+
+   * **物件資料**：選取資料夾名稱的來源，如專案名稱。
+
+   * **自訂表單資料**：選取要當作資料夾名稱使用的自訂表單資料。
+
+     資料夾名稱使用自訂表單資料僅在範本層級可用，並且無法在整合層級設定。
+
+     如果資料夾名稱設為自訂資料，而該資料夾不存在於附加到專案的自訂中，則會將隨機ID指派為資料夾名稱。
+
+1. 按一下「**[!UICONTROL 儲存]**」。
+
+</div>
+
 
 #### 發佈資產
 
@@ -149,10 +190,4 @@ ht-degree: 0%
 
 1. 切換 **自動發佈資產** 視需要開啟或關閉。
 1. （視條件而定）如果您正在啟用發佈，請選取您要發佈至發佈服務、Brand Portal或兩者。
-1. 按一下 **[!UICONTROL 儲存]** 如果您使用 [!UICONTROL 建立專案] 或 [!UICONTROL 編輯專案] 視窗。
-
-   或
-
-   如果您在 [!DNL Adobe Experience Manager area]，您的變更會自動儲存。 <!--Do they though?-->
-
-
+1. 按一下「**[!UICONTROL 儲存]**」。
