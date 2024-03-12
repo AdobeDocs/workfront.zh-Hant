@@ -4,9 +4,9 @@ description: 除了物件的許可權外，您對Adobe Workfront規劃功能的�
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 1da2e6448f7ac6f4bd5bd76846fbfc1a23c3da77
+source-git-commit: 4c62b567fa1ebec37fc64831757eb67d4a048c1f
 workflow-type: tm+mt
-source-wordcount: '304'
+source-wordcount: '306'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ ht-degree: 0%
 >![](assets/permissions-grayed-out-for-requestor-user.png)
 
 
-如需Workfront規劃功能中物件許可權的相關資訊，請參閱 [在Adobe Maestro中共用許可權概觀](/help/quicksilver/maestro/access/sharing-permissions-overview.md).
+如需Workfront規劃功能中物件許可權的相關資訊，請參閱 [在Adobe Workfront規劃功能中共用許可權的概觀](/help/quicksilver/maestro/access/sharing-permissions-overview.md).
 
 ## Workfront授權型別與Workfront規劃功能許可權之間的關係
 

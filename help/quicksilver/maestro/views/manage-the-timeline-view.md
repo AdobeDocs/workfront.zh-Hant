@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: 26d6fecf02541fff649deabe61e65dbe5ae5f688
+source-git-commit: 4c62b567fa1ebec37fc64831757eb67d4a048c1f
 workflow-type: tm+mt
-source-wordcount: '1663'
+source-wordcount: '1705'
 ht-degree: 0%
 
 ---
@@ -174,6 +174,8 @@ role: User
 
   如需詳細資訊，請參閱文章中的「新增篩選器」一節 [管理表格檢視](../views/manage-the-table-view.md).
 
+* 您可以依已連線的記錄欄位或查詢欄位進行篩選，但不能針對允許連結至多個記錄的欄位進行篩選。
+
 ### 新增分組
 
 <!-- groupings are almost identical between this view and table  but they display a little differently, so I kept the steps for both; update in both places if they make changes to groupings-->
@@ -190,6 +192,7 @@ role: User
 * 群組對於您選取的檢視而言是唯一的。 相同記錄型別的兩個時間軸檢視可套用不同的群組。 檢視相同時間表檢視的兩個使用者會看到目前套用的相同分組。
 * 您無法為時間表檢視建立的分組命名。
 * 移除群組會將群組從存取與您相同記錄型別以及顯示與您相同檢視的任何人中移除。
+* 您可以依已連線的記錄欄位或查詢欄位來分組，但不能針對允許連結至多個記錄的欄位進行分組。
 
 若要在時間表檢視中新增群組：
 

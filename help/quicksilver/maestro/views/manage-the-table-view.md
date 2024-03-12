@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: 26d6fecf02541fff649deabe61e65dbe5ae5f688
+source-git-commit: 4c62b567fa1ebec37fc64831757eb67d4a048c1f
 workflow-type: tm+mt
-source-wordcount: '2337'
+source-wordcount: '2400'
 ht-degree: 3%
 
 ---
@@ -109,7 +109,7 @@ hide: yes
    * [列（或記錄）](#add-rows-or-records)
    * [篩選器](#add-filters)
    * [分組](#add-groupings)
-   * [排序](#sort-information)
+   * [排序](#add-a-sort)
 
 
 ### 新增欄（或欄位） {#add-columns}
@@ -261,6 +261,8 @@ hide: yes
 
 * 將濾鏡新增至表格檢視與將濾鏡新增至時間軸檢視相同。
 
+* 您可以依已連線的記錄欄位或查詢欄位進行篩選，但不能針對允許連結至多個記錄的欄位進行篩選。
+
 若要將篩選器新增至表格檢視：
 
 1. 建立記錄型別頁面的表格檢視，如文章所述 [管理記錄檢視](../views/manage-record-views.md).
@@ -369,6 +371,7 @@ hide: yes
 * 您無法為表格檢視建立的分組命名。
 * 移除群組會將群組從存取與您相同記錄型別以及顯示與您相同檢視的任何人中移除。
 * 您可以編輯列在群組下的記錄。
+* 您可以依已連線的記錄欄位或查詢欄位來分組，但不能針對允許連結至多個記錄的欄位進行分組。
 <!--checking into this: * You can apply up to 4 levels of grouping when using the API. -->
 <!-- checking also into this: * You cannot group by a Paragraph-type field.-->
 
@@ -422,6 +425,8 @@ hide: yes
 * 僅當連結欄位允許單一值，或允許選取了彙總選項（總和、平均、最大值、最小值）的多重選取值時，連結欄位才可排序。
 
 * 移除排序標準會將它們從存取與您相同記錄型別的任何人中移除，並使用與您使用的相同檢視。
+
+* 您可以依已連線的記錄欄位或查詢欄位排序，但不能針對允許連結至多個記錄的欄位進行排序。
 
 排序 <!--ungrouped (add this when sorting for groupings will be available--> 記錄，請執行下列動作：
 

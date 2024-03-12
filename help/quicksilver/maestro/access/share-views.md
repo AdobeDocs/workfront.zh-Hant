@@ -4,9 +4,9 @@ description: 您可以在使用Adobe Workfront規劃功能時，與其他人共�
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 1da2e6448f7ac6f4bd5bd76846fbfc1a23c3da77
+source-git-commit: 4c62b567fa1ebec37fc64831757eb67d4a048c1f
 workflow-type: tm+mt
-source-wordcount: '497'
+source-wordcount: '499'
 ht-degree: 0%
 
 ---
@@ -65,7 +65,8 @@ ht-degree: 0%
 
 <tr>
    <td role="rowheader"><p>物件許可權</p></td>
-   <td> <p>管理檢視的許可權</p>  
+   <td> <p>管理檢視的許可權</p>
+
 </td>
   </tr>
 
@@ -85,7 +86,7 @@ ht-degree: 0%
 >
 >系統管理員無法檢視或共用他們未自行建立的檢視。 他們只能存取或共用與他們共用的檢視。
 
-<!--for above note: System administrators can have only Manage permissions to a view.-->
+<!--for above note - add when this releases: System administrators can have only Manage permissions to a view.-->
 
 {{step1-to-maestro}}
 
@@ -105,7 +106,7 @@ ht-degree: 0%
    * 檢視
    * 管理
 
-     如需許可權層級以及使用者可針對每個層級執行的動作的相關資訊，請參閱 [在Adobe Maestro中共用許可權概觀](../access/sharing-permissions-overview.md).
+     如需許可權層級以及使用者可針對每個層級執行的動作的相關資訊，請參閱 [在Adobe Workfront規劃功能中共用許可權的概觀](../access/sharing-permissions-overview.md).
 1. 按一下 **複製連結** 將檢視的連結複製到剪貼簿。
 1. 與他人共用複製的連結。 收到連結的使用者必須是作用中使用者，並登入Workfront，才能存取記錄型別頁面並在選取的檢視中顯示該頁面。
 1. 按一下「**儲存**」。

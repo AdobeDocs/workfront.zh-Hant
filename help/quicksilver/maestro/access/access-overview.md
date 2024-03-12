@@ -1,13 +1,13 @@
 ---
 title: 存取權總覽
-description: 使用Adobe Maestro功能時，有授權和共用許可權限制。
+description: 使用Adobe Workfront的規劃功能時，有授權和共用許可權限制。
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 99fac041-a235-4991-b826-d19944164bc9
-source-git-commit: 1da2e6448f7ac6f4bd5bd76846fbfc1a23c3da77
+source-git-commit: 4c62b567fa1ebec37fc64831757eb67d4a048c1f
 workflow-type: tm+mt
-source-wordcount: '422'
+source-wordcount: '453'
 ht-degree: 0%
 
 ---
@@ -19,11 +19,11 @@ ht-degree: 0%
 
 {{maestro-important-intro}}
 
-使用Adobe Maestro功能時，有授權和共用許可權限制。
+使用Adobe Workfront規劃功能時，有授權和共用許可權限制。
 
 ## 存取需求
 
-您必須具備下列設定才能使用Adobe大師：
+您必須有以下設定才能使用Adobe Workfront中的規劃功能：
 
 <table style="table-layout:auto">
  <col>
@@ -40,7 +40,7 @@ ht-degree: 0%
   </tr>  
  <td role="rowheader"><p>Adobe Workfront合約</p></td>
    <td>
-<p>貴組織必須註冊AdobeMaestro封閉測試版計畫。 </p>
+<p>貴組織必須註冊Adobe Workfront規劃功能封閉測試版計畫。 </p>
    </td>
   </tr>
   <tr>
@@ -66,16 +66,17 @@ ht-degree: 0%
   </tr>
   <tr>
    <td role="rowheader"><p>存取層級設定</p></td>
-   <td> <p>Maestro物件沒有存取層級控制項</p>  
+   <td> <p>規劃權能物件沒有存取層級控制項</p>  
 </td>
   </tr>
 <tr>
    <td role="rowheader"><p>物件許可權</p></td>
    <td>
    <p>貢獻或更高的許可權給您未建立的工作區和檢視，以編輯、刪除和共用它們，以及建立、編輯或刪除記錄型別和記錄。</p>
-    <p>系統管理員可以管理他們未建立的工作區和檢視 </p>
-   <p>如需有關共用Maestro物件許可權的資訊，請參閱  
-   <a href="../access/sharing-permissions-overview.md">在Adobe Maestro中共用許可權概觀</a> 
+    <p>系統管理員可以管理他們未建立的工作區。 </p>
+    <p>系統管理員無法管理他們未建立的檢視。 </p>
+   <p>如需有關共用規劃權能物件許可權的資訊，請參閱  
+   <a href="../access/sharing-permissions-overview.md">在Adobe Workfront規劃功能中共用許可權的概觀</a> 
   </td>
   </tr>
 <tr>
@@ -93,7 +94,7 @@ ht-degree: 0%
 
 <!--First, contact your account manager to obtain access to the current Maestro closed beta program.-->
 
-貴組織註冊Maestro測試版計畫後，您可以使用版面配置範本將Maestro區域新增到所有使用者的主功能表中。
+貴組織註冊Workfront規劃功能測試版計畫後，您可以使用版面配置範本將Maestro區域新增到所有使用者的主功能表中。
 
 1. 登入 **Workfront** Workfront管理員。
 
@@ -101,7 +102,7 @@ ht-degree: 0%
 
    如需詳細資訊，請參閱 [使用版面配置範本自訂主功能表](../../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).
 
-1. 將版面配置範本指派給您要存取Maestro的使用者。
+1. 將版面配置範本指派給您要存取Workfront規劃權能的使用者。
 
    如需詳細資訊，請參閱 [將使用者指派至版面配置範本](../../administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md).
 
@@ -111,20 +112,20 @@ ht-degree: 0%
 
 ## 授予存取權
 
-Maestro沒有存取控制。
+Workfront中的規劃功能沒有存取控制。
 
-擁有任何授權型別的使用者都可以存取Maestro。
+擁有任何授權型別的使用者都可以存取Workfront規劃功能。
 
 如需在Workfront中授與存取權的相關資訊，請參閱 [建立和修改自訂存取層級](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
 ## 授予許可權
 
-您必須將您建立的工作區和檢視授予非系統管理員的使用者許可權，他們才能存取這些工作區與檢視。
+您必須授予使用者對您建立的工作區和檢視的許可權，使用者才能存取它們。
 
-如需詳細資訊，請參閱 [在Adobe Maestro中共用許可權概觀](/help/quicksilver/maestro/access/sharing-permissions-overview.md).
+如需詳細資訊，請參閱 [在Adobe Workfront規劃功能中共用許可權的概觀](/help/quicksilver/maestro/access/sharing-permissions-overview.md).
 
-您的Adobe Workfront授權型別會與您的Maestro許可權搭配使用，讓您能夠檢視、貢獻或管理Maestro物件。
+您的Adobe Workfront授權型別與規劃功能許可權搭配使用，可讓您檢視、貢獻或管理規劃功能物件。
 
-如需有關授權型別如何影響Maestro物件許可權等級的資訊，請參閱 [使用Adobe Workfront規劃功能時的授權型別概觀](/help/quicksilver/maestro/access/license-type-overview.md).
+如需有關授權型別如何影響規劃權能物件的許可權層級的資訊，請參閱 [使用Adobe Workfront規劃功能時的授權型別概觀](/help/quicksilver/maestro/access/license-type-overview.md).
 
 

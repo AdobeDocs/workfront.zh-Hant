@@ -1,13 +1,13 @@
 ---
-title: 在Adobe Maestro中共用許可權概觀
+title: 在Adobe Workfront規劃功能中共用許可權的概觀
 description: 您可以共用或移除Adobe大師工作區或檢視的許可權。
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 el-id: 698036a6-b3b4-44a9-91ee-63fdb6a646a1
-source-git-commit: 1da2e6448f7ac6f4bd5bd76846fbfc1a23c3da77
+source-git-commit: 4c62b567fa1ebec37fc64831757eb67d4a048c1f
 workflow-type: tm+mt
-source-wordcount: '507'
+source-wordcount: '531'
 ht-degree: 7%
 
 ---
@@ -16,13 +16,13 @@ ht-degree: 7%
 
 <!--over time, this article should look like this one does: https://eperienceleague.adobe.com/docs/workfront/using/basics/grant-request-object-permissions/sharing-permissions-on-objects-overview.html?lang=en-->
 
-# 在Adobe Maestro中共用許可權概觀
+# 在Adobe Workfront規劃功能中共用許可權的概觀
 
 {{maestro-important-intro}}
 
-您可以共用或移除Adobe大師工作區或檢視的許可權。
+使用Adobe Workfront中的規劃功能時，您可以共用或移除工作區或檢視的許可權。
 
-本文說明Maestro物件的許可權層級。
+本文說明規劃權能物件的許可權層級。
 
 如需有關如何共用工作區或檢視的資訊，請參閱下列文章：
 
@@ -30,9 +30,9 @@ ht-degree: 7%
 
 * [共用檢視](/help/quicksilver/maestro/access/share-views.md)
 
-## 您可以在Adobe大師中共用的物件
+## 可在Adobe Workfront規劃功能中共用的物件
 
-您可以在Maestro中共用下列物件：
+您可以共用下列物件：
 
 * 工作區
 
@@ -40,27 +40,27 @@ ht-degree: 7%
 
 * 檢視
 
-## 在Maestro中共用物件的考量事項
+## 在Adobe Workfront規劃功能中共用物件的相關考量事項
 
-* 您的Adobe Workfront授權型別會與您的Maestro許可權搭配使用，讓您能夠檢視、貢獻或管理Maestro物件。
+* 您的Adobe Workfront授權型別可與您的許可權搭配使用，讓您在使用規劃功能時能夠檢視、貢獻或管理物件。
 
-  如需有關授權型別如何影響Maestro物件許可權等級的資訊，請參閱 [使用Adobe Workfront規劃功能時的授權型別概觀](/help/quicksilver/maestro/access/license-type-overview.md).
+  如需有關授權型別如何影響規劃權能物件的許可權層級的資訊，請參閱 [使用Adobe Workfront規劃功能時的授權型別概觀](/help/quicksilver/maestro/access/license-type-overview.md).
 * 系統管理員可以管理和共用其他使用者建立的工作區。
 * 如果您不是系統管理員，且其他人建立的工作區已共用給您，您就可以為其貢獻內容。
 * 您無法大量共用工作區。
-* 您可以與下列實體共用工作區：
+* 您可以與下列實體共用工作區或檢視：
    * 使用者
    * 群組
-* 其他使用者（包括系統管理員）只能存取他們已建立或已與他們共用的檢視。
+* 其他使用者（包括系統管理員）只能存取他們已建立或已與他們共用的檢視。 <!--System administrators can only be given permissions to Manage a view.-->
 * 您可以與其他人共用工作區連結或從記錄型別頁面檢視連結。 收到連結的使用者必須是作用中使用者，並登入Workfront，才能存取所選檢視中顯示的工作區或記錄型別頁面。
 
-## 共用Maestro物件的許可權
+## 共用Adobe Workfront規劃功能物件的許可權
 
-以下各節中的表格說明在共用Maestro工作區或檢視時可以選取的許可權層級，以及每個層級允許的功能。
+以下各節中的表格說明了共用工作區或檢視時您可以選取的許可權層級，以及每個層級允許的功能。
 
 >[!IMPORTANT]
 >
->並非所有使用者都可擁有下述許可權層級。 使用者的個別授權會決定他們可以接收的Maestro物件許可權層級。
+>並非所有使用者都可擁有下述許可權層級。 使用者的個別授權會決定他們可以接收規劃功能物件的許可權等級。
 >
 >如需詳細資訊，請參閱 [使用Adobe Workfront規劃功能時的授權型別概觀](/help/quicksilver/maestro/access/license-type-overview.md).
 

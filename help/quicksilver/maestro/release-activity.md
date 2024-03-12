@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 1da2e6448f7ac6f4bd5bd76846fbfc1a23c3da77
+source-git-commit: 4c62b567fa1ebec37fc64831757eb67d4a048c1f
 workflow-type: tm+mt
-source-wordcount: '4374'
+source-wordcount: '4391'
 ht-degree: 0%
 
 ---
@@ -133,6 +133,8 @@ Preview: To be determined
 預覽：待定
 
 您現在可以依連線記錄或其查詢欄位來篩選、排序及分組。 此增強功能可協助您在表格和時間表檢視中，有效率地整理和視覺化您的資料。
+
+您無法按允許多筆記錄連線的查閱欄位來篩選、排序或群組。
 
 如需詳細資訊，請參閱 [管理表格檢視](/help/quicksilver/maestro/views/manage-the-table-view.md) 和 [管理時間表檢視](/help/quicksilver/maestro/views/manage-the-timeline-view.md).
 
@@ -296,7 +298,7 @@ Adobe Workfront規劃功能已暫時從預覽和沙箱環境中移除。 它們�
 * 檢視：使用者可以從記錄型別頁面的「檢視」下拉式功能表中選取檢視。
 * 管理：使用者可以編輯、共用和刪除檢視。
 
-如需詳細資訊，請參閱 [存取權總覽](/help/quicksilver/maestro/access/access-overview.md) 和 [在Adobe Maestro中共用許可權概觀](../maestro/access/sharing-permissions-overview.md).
+如需詳細資訊，請參閱 [存取權總覽](/help/quicksilver/maestro/access/access-overview.md) 和 [在Adobe Workfront規劃功能中共用許可權的概觀](../maestro/access/sharing-permissions-overview.md).
 
 ### 新公式欄位型別
 

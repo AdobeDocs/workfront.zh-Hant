@@ -1,14 +1,14 @@
 ---
 title: 共用工作區
-description: 您可以在使用Adobe Workfront Maestro時，與其他人共用工作區以確保共同作業。
+description: 您可以在使用Adobe Workfront規劃功能時，與其他人共用工作區以確保共同作業。
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 475a519d-d3bd-4461-8099-0e296d556d34
-source-git-commit: 86f9a88518c8a03643061b3328719d2da4016f2b
+source-git-commit: 4c62b567fa1ebec37fc64831757eb67d4a048c1f
 workflow-type: tm+mt
-source-wordcount: '407'
-ht-degree: 1%
+source-wordcount: '419'
+ht-degree: 2%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 1%
 
 {{maestro-important-intro}}
 
-您可以在使用Adobe Workfront Maestro時，與其他人共用工作區以確保共同作業。
+您可以在使用Adobe Workfront規劃功能時，與其他人共用工作區以確保共同作業。
 
 >[!NOTE]
 >
@@ -45,7 +45,7 @@ ht-degree: 1%
   </tr>  
  <td role="rowheader"><p>Adobe Workfront合約</p></td>
    <td>
-<p>貴組織必須註冊AdobeMaestro封閉測試版計畫。 請聯絡您的客戶代表以查詢此新產品/服務。 </p>
+<p>貴組織必須註冊Adobe Workfront規劃功能封閉測試版計畫。 請聯絡您的客戶代表以查詢此新產品/服務。 </p>
    </td>
   </tr>
   <tr>
@@ -57,13 +57,15 @@ ht-degree: 1%
   <tr>
    <td role="rowheader"><p>Adobe Workfront授權</p></td>
    <td>
-   <p>任何</p> 
+   <p>新增：標準</p>
+   或
+   <p>目前：計畫 </p> 
   </td>
   </tr>
 
 <tr>
    <td role="rowheader"><p>存取層級設定</p></td>
-   <td> Adobe大師沒有存取控制</p>  
+   <td> Adobe Workfront規劃功能沒有存取控制</p>  
 </td>
   </tr>
 
@@ -105,7 +107,7 @@ ht-degree: 1%
    * 參與
    * 管理
 
-     如需許可權層級以及使用者可針對每個層級執行的動作的相關資訊，請參閱 [在Adobe Maestro中共用許可權概觀](../access/sharing-permissions-overview.md).
+     如需許可權層級以及使用者可針對每個層級執行的動作的相關資訊，請參閱 [在Adobe Workfront規劃功能中共用許可權的概觀](../access/sharing-permissions-overview.md).
 1. 按一下 **複製連結** 將指向工作區的連結複製到剪貼簿。
 1. 與他人共用複製的連結。 收到連結的使用者必須是作用中使用者，並登入Workfront才能存取工作區。
 1. 按一下「**儲存**」。
