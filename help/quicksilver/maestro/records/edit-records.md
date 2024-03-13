@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: 26d6fecf02541fff649deabe61e65dbe5ae5f688
+source-git-commit: b795ceccb3f72eb64269062823199be9c8511860
 workflow-type: tm+mt
-source-wordcount: '1087'
+source-wordcount: '1089'
 ht-degree: 1%
 
 ---
@@ -117,9 +117,11 @@ ht-degree: 1%
 1. 按一下記錄型別卡。
 
    記錄型別頁面隨即開啟。
-1. （視條件而定）從 **檢視** 下拉式功能表 <!--tab--> 在表格的右上角，選取 **表格** 檢視。 這應為預設檢視，除非您在上次存取記錄型別時已在其他型別的檢視中檢視該記錄型別。
+1. （視條件而定）從 **檢視** 在表格左上角的下拉式功能表中，選取 **表格** 檢視。 這應為預設檢視，除非您在上次存取記錄型別時已在其他型別的檢視中檢視該記錄型別。
 
-   與所選記錄型別相關聯的記錄會顯示在表格檢視中。
+<!--replace above with this when we release view redesign: (Conditional) Click the tab of a table view or click **+ View** to create a table view. The table view should be the default view, unless you viewed the record type in another type of view when you accessed it last. -->
+
+    與所選記錄型別相關聯的記錄會顯示在表格檢視中。
 1. 在記錄列內按一下，開始編輯有關內嵌記錄的資訊。
 
    ![](assets/edit-record-paragraph-field-with-formatting-table-view.png)
@@ -129,7 +131,7 @@ ht-degree: 1%
    >  您無法編輯下列欄位的資訊，因為這些欄位是唯讀欄位，且Workfront會自動更新它們：
    >  
    >  * 透過連線記錄型別建立的連結欄位。 如需詳細資訊，請參閱 [連線記錄型別](../architecture/connect-record-types.md).
-   >  * 下列型別的欄位：建立者、建立日期、上次修改者、上次修改日期
+   >  * 下列型別的欄位：「建立者」、「建立日期」、「上次修改者」、「上次修改日期」、「公式」欄位。
 
 1. （選擇性和條件性）編輯「段落」型別欄位時，請使用下列專案 **RTF文字** 格式化選項：
 
@@ -147,12 +149,12 @@ ht-degree: 1%
 
 
    <!--
-    1. (Optional) Click the **Open details** icon ![](assets/open-details-icon-in-table-name-field.png) to the left of a record name, or click on a record name. The **Details** box opens in the table. 
+    1. (Optional) Click the **Open details** icon ![](assets/open-details-icon-in-table-name-field.png) to the left of a record name, or click a record name. The **Details** box opens in the table. 
         >[!TIP]
         >
         >    You can view the Open details icon to the left of the Name field of a record only when the Name field is a primary field. 
     1. Start editing the field information in the Details box. Workfront automatically saves your changes. 
-    1. (Optional) Click the **Open in new tab** icon ![](assets/open-details-in-a-new-tab-icon.png) in the upper-right corner of the Details box to open the record's **Details** page in a new tab. Continue editing the record as described in [Edit a record from the record's Details page](#edit-a-record-from-the-records-details-page) section in this article. 
+    1. (Optional) Click the **Open in new tab** icon ![](assets/open-details-in-a-new-tab-icon.png) (*********check the icon; they are changing it***********) in the upper-right corner of the Details box to open the record's **Details** page in a new tab. Continue editing the record as described in [Edit a record from the record's Details page](#edit-a-record-from-the-records-details-page) section in this article. 
     -->
 
 1. （選擇性）若要將某個欄位的資訊複製並貼到另一個欄位，請執行下列任一項作業：
@@ -168,7 +170,7 @@ ht-degree: 1%
    >* 使用下列鍵盤快速鍵來複製和貼上資訊：
    >   * 複製： CTRL + C (Mac為⌘ + C)
    >   * 貼上：CTRL + V (Mac為⌘ + V)
-   >* 您無法從其他來源複製資訊，除了與貼上資訊的欄位型別相同的Maestro欄位之外。
+   >* 除了與貼上資訊的欄位型別相同的記錄欄位外，您無法從其他來源複製資訊。
    >
    >* 您無法在記錄的詳細資訊區域中複製和貼上欄位值。 只有在記錄型別的表格檢視中才支援此功能。
    >* 您無法複製和貼上下列欄位型別的欄位值：
@@ -191,7 +193,7 @@ ht-degree: 1%
 
 ### 從記錄的「詳細資訊」頁面編輯記錄
 
-<!--You can edit a record from the Details box in a table view, or from the Details page. For information about editing records in the Detais box, see the [Edit a record from the table view of a record type](#edit-a-record-from-the-table-view-of-a-record-type) section in this article.-->
+<!--You can edit a record from the Details box in a table view, or from the Details page. For information about editing records in the Details box, see the [Edit a record from the table view of a record type](#edit-a-record-from-the-table-view-of-a-record-type) section in this article.-->
 
 {{step1-to-maestro}}
 
@@ -212,8 +214,8 @@ ht-degree: 1%
 
    或
 
-   按一下「詳細資訊」頁面上的任何可編輯欄位以編輯資訊。
+   按一下「詳細資訊」頁面上的任何可編輯欄位以編輯資訊。 <!--Your changes are saved automatically.-->
 
    ![](assets/more-menu-options-from-record-details-page.png) <!--ensure the options have not changed or been renamed-->
 
-1. 按一下 **儲存變更**. <!--logged a bug for this - this needs to be "Save"-->
+1. 按一下 **儲存變更**. <!--Eliminate this step when we release the new Details box in the table with the Details page. Add above that the saves are automatic-->

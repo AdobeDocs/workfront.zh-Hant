@@ -7,16 +7,16 @@ description: 「摘要」可讓您直接從檔案清單與重要資訊互動。
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 7a4a4bd3-ad60-4d84-b4b0-332c2a4eb8fb
-source-git-commit: d19b817aabf169e1b8f38bf63f6ca5cc3c0de308
+source-git-commit: b795ceccb3f72eb64269062823199be9c8511860
 workflow-type: tm+mt
-source-wordcount: '441'
+source-wordcount: '440'
 ht-degree: 2%
 
 ---
 
 # 檔案摘要概覽
 
-{{highlighted-preview}}
+<span class="preview">此頁面上反白顯示的資訊僅可在預覽環境中使用。</span> <!--and in the Production environment for customers who have opted for the fast release process. For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). For information about the current release schedule, see [First Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).-->
 
 「摘要」可讓您直接從檔案清單與重要資訊互動。
 
@@ -67,7 +67,7 @@ ht-degree: 2%
 * [概觀](#overview)
 * [自訂表單](#custom-forms)
 
-![](assets/copy-of-doc-summary-details-section-350x404.png)
+<span class="preview">![](assets/copy-of-doc-summary-details-section-350x404.png)</span>
 
 ### 概觀 {#overview}
 
@@ -79,7 +79,7 @@ ht-degree: 2%
 
 使用自訂Forms區段來新增、編輯或檢視與檔案相關聯的任何自訂表單。 開始輸入自訂表單的名稱，以將其新增到檔案。 如需詳細資訊，請參閱 [新增或編輯自訂表單至檔案](../../documents/managing-documents/add-custom-form-documents.md).
 
-![](assets/add-custom-form-doc-summary-350x265.png)
+<span class="preview">![](assets/add-custom-form-doc-summary-350x265.png)</span>
 
 ## 更新
 
@@ -87,13 +87,10 @@ ht-degree: 2%
 
 <div class="preview">
 
-預覽環境中的更新範例：
 ![摘要面板中的更新區段](assets/summary-updates-section-new-comments.png)
 
 </div>
 
-生產環境中的更新範例：
-![](assets/summary-upddates,-approvals,-versions,-custom-forms-350x415.png)
 
 ## 核准
 
@@ -104,7 +101,7 @@ ht-degree: 2%
 * [核准工作](../../review-and-approve-work/manage-approvals/approving-work.md)
 * [請求文件核准](../../review-and-approve-work/manage-approvals/request-document-approvals.md)
 
-![](assets/summary-upddates,-approvals,-versions,-custom-forms-350x415.png)
+<span class="preview">![](assets/summary-upddates,-approvals,-versions,-custom-forms-350x415.png)</span>
 
 ## 版本
 
@@ -116,4 +113,4 @@ ht-degree: 2%
 * 前往檔案詳細資訊
 * 刪除校訂或檔案
 
-![](assets/summary-upddates,-approvals,-versions,-custom-forms-350x415.png)
+<span class="preview">![](assets/summary-upddates,-approvals,-versions,-custom-forms-350x415.png)</span>

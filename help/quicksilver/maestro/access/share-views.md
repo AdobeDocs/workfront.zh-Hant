@@ -4,7 +4,7 @@ description: 您可以在使用Adobe Workfront規劃功能時，與其他人共�
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 4c62b567fa1ebec37fc64831757eb67d4a048c1f
+source-git-commit: b795ceccb3f72eb64269062823199be9c8511860
 workflow-type: tm+mt
 source-wordcount: '499'
 ht-degree: 0%
@@ -107,6 +107,9 @@ ht-degree: 0%
    * 管理
 
      如需許可權層級以及使用者可針對每個層級執行的動作的相關資訊，請參閱 [在Adobe Workfront規劃功能中共用許可權的概觀](../access/sharing-permissions-overview.md).
+
+     <!--System administrators always receive Manage permissions to views shared with them.-->
+
 1. 按一下 **複製連結** 將檢視的連結複製到剪貼簿。
 1. 與他人共用複製的連結。 收到連結的使用者必須是作用中使用者，並登入Workfront，才能存取記錄型別頁面並在選取的檢視中顯示該頁面。
 1. 按一下「**儲存**」。

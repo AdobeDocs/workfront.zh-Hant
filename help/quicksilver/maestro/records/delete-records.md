@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 3f7a3667-8a9f-462a-b706-cf15850a0d1c
-source-git-commit: 4016ba2c1b94ba84037612bdc9c1136267513fd5
+source-git-commit: b795ceccb3f72eb64269062823199be9c8511860
 workflow-type: tm+mt
-source-wordcount: '478'
-ht-degree: 1%
+source-wordcount: '470'
+ht-degree: 2%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 1%
 
 {{maestro-important-intro}}
 
-您可以刪除Adobe Maestro中不再相關的記錄。
+您可以刪除Adobe Workfront規劃功能中不再相關的記錄。
 
 ## 存取需求
 
@@ -39,7 +39,7 @@ ht-degree: 1%
   </tr>  
  <td role="rowheader"><p>Adobe Workfront合約</p></td>
    <td>
-<p>貴組織必須註冊AdobeMaestro封閉測試版計畫。 請聯絡您的客戶代表以查詢此新產品/服務。 </p>
+<p>貴組織必須註冊Adobe Workfront規劃功能封閉測試版計畫。 請聯絡您的客戶代表以查詢此新產品/服務。 </p>
    </td>
   </tr>
   <tr>
@@ -58,7 +58,7 @@ ht-degree: 1%
 
 <tr>
    <td role="rowheader"><p>存取層級設定</p></td>
-   <td> <p>Maestro沒有存取層級控制項 </p>  
+   <td> <p>Adobe Workfront規劃功能沒有存取層級控制項 </p>  
 </td>
   </tr>
 
@@ -90,7 +90,6 @@ ht-degree: 1%
 * 如果刪除的記錄連結到其他記錄，則連結的記錄不會被刪除，但是已刪除的記錄中的資訊也會被刪除。
 * 您無法大量刪除記錄。 <!--this will probably change-->
 * 您無法從時間表檢視中刪除記錄。
-* 您無法刪除從其他應用程式連結的記錄型別。 例如，如果您將Maestro記錄連結至Workfront物件，則無法從Workfront物件記錄頁面刪除Workfront物件。
 
 ## 刪除記錄
 
@@ -132,12 +131,16 @@ ht-degree: 1%
 1. 按一下記錄型別。
 
    記錄型別頁面隨即開啟。
-1. （視條件而定）從 **檢視** 在表格右上角的下拉式功能表中，選取「表格」檢視。 這應為預設檢視，除非您上次存取時間軸檢視時已檢視該記錄型別。
+1. （視條件而定）從 **檢視** 在表格左上角的下拉式功能表中，選取「表格」檢視。 這應為預設檢視，除非您上次存取時間軸檢視時已檢視該記錄型別。
 
    與所選記錄型別相關聯的記錄會顯示在表格檢視中。
-1. 以滑鼠右鍵按一下記錄列，然後按一下 **刪除**.
+1. 執行下列其中一項：
+
+   * 以滑鼠右鍵按一下記錄列，然後按一下 **刪除**.
+   * 按一下 **更多** 功能表 ![](assets/more-menu.png) 在記錄名稱的右側，然後按一下 **刪除**
 
    ![](assets/contextual-menu-for-record-row.png)
+   <!--* Click the **Open details** icon ![](assets/open-details-icon-in-table-name-field.png) to open the Details box, and click **More** ![](assets/more-menu.png) to the right of the record name, then **Delete**. -->
 
    記錄已刪除，無法復原。
 

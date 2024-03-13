@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: 26d6fecf02541fff649deabe61e65dbe5ae5f688
+source-git-commit: b795ceccb3f72eb64269062823199be9c8511860
 workflow-type: tm+mt
-source-wordcount: '810'
+source-wordcount: '809'
 ht-degree: 0%
 
 ---
@@ -114,6 +114,9 @@ ht-degree: 0%
 
 1. （視條件而定）如果記錄型別頁面未在表格檢視中開啟，請按一下 **檢視** 下拉式功能表，並選取現有的 **表格檢視** ![](assets/table-view-icon.png) 或按一下 **建立檢視>表格** 以建立表格檢視。
 
+<!--Replace the above with this when we release the tabbed views: 
+1. (Conditional) If the record type page does not open in the table view, click the tab of a table view, or click **+ View** to create a table view. -->
+
 1. 若要新增記錄，請按一下 **新記錄** 在表格的最後一列
 
    或
@@ -173,15 +176,15 @@ You can import records from other applications by linking them to existing recor
 
 ## 從外部清單複製並貼上資訊，以建立記錄
 
-1. 在Maestro中，開始在「表格」檢視中建立記錄，如區段中所述 [手動將記錄新增至記錄型別以建立記錄](#create-records-by-manually-adding-them-to-a-record-type) 本文章內容。
+1. 開始在「表格」檢視中建立記錄（如區段所述） [手動將記錄新增至記錄型別以建立記錄](#create-records-by-manually-adding-them-to-a-record-type) 本文章內容。
 
-   請確定Maestro表格檢視具有您要填入新記錄資訊的欄（或欄位）。
+   確定表格檢視具有您要填入新記錄資訊的欄（或欄位）。
 
 1. 按一下 **新&lt;記錄型別名稱>** 在表格的最後一列，新增任意數目的新資料列至表格。
 
    例如，如果要從另一個應用程式貼上10筆新記錄的資訊，請將10列新增到表格檢視中。
 
-1. 在另一個應用程式中，建立您要匯入Maestro的記錄清單。
+1. 在另一個應用程式中，建立您要匯入的記錄清單。
 
    例如，您可以使用Excel試算表來建立清單。
 
@@ -189,13 +192,13 @@ You can import records from other applications by linking them to existing recor
 
    >[!TIP]
    >
-   > 清單的欄應包含您在Maestro中擁有的現有欄位資訊。
+   > 清單的欄應包含您在Workfront中擁有的現有欄位資訊。
    >
-   > 確保您已在Maestro中建立所需的欄位，且工作表中的資訊以符合Maestro中每個欄位之資訊的正確格式顯示。
+   > 確定您已在Workfront中建立所需欄位，且工作表中的資訊以符合Workfront中每個欄位資訊的正確格式顯示。
 
 1. 從另一個應用程式中，選取數個列和欄，然後將資訊貼到記錄型別表格檢視中，從第一個新記錄開始。
 
-   下列資訊會在Maestro中匯入：
+   下列資訊會匯入Workfront規劃功能區域：
 
    * 列包含新記錄
    * 欄會填入記錄欄位的資訊。
