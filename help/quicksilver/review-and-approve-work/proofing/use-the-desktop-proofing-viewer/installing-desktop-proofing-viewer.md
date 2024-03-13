@@ -6,7 +6,7 @@ description: 案頭校訂檢視器是必須安裝在本機電腦上的應用程�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 4441cf7f-13c7-4bd5-a971-2c9c0302d309
-source-git-commit: 98e2ebc214adf13d0f8b2962395504fb86e6d0c9
+source-git-commit: f21e87d86e62f85d7661224ac75f06f61caff61e
 workflow-type: tm+mt
 source-wordcount: '558'
 ht-degree: 0%
@@ -77,12 +77,12 @@ ht-degree: 0%
 
 >[!TIP]
 >
->您可以透過執行命令列來安裝案頭校訂檢視器 `Workfront Proof Setup 2.1.31.exe" /S`
+>您可以透過執行命令列來安裝案頭校訂檢視器 `Workfront Proof Setup 2.1.34.exe" /S`
 
 1. 執行下列任一項作業來下載應用程式：
 
-   * 在生產環境中，按一下 [適用於案頭校訂檢視器的Windows生產環境下載。](https://assets.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof+Setup+2.1.32.exe)
-   * 在預覽環境中，按一下 [案頭校訂檢視器的Windows預覽下載](https://assets.preview.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof+Preview+Setup+2.1.32.exe)
+   * 在生產環境中，按一下 [適用於案頭校訂檢視器的Windows生產環境下載。](https://assets.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof+Setup+2.1.34.exe)
+   * 在預覽環境中，按一下 [案頭校訂檢視器的Windows預覽下載](https://assets.preview.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof+Preview+Setup+2.1.34.exe)
 
 1. 開啟您剛下載的檔案，開始安裝。
 1. 在出現的安裝方塊中，開啟您剛下載的檔案以開始安裝。
