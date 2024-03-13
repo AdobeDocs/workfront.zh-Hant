@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management, Projects
 role: User
 exl-id: a6a1f178-189a-4c41-835b-7726081a2b49
-source-git-commit: aec61210cf2c17775738db4975ae8d19223153cc
+source-git-commit: 821e31b8c6023a9ec4e017cc5548bb9fd930983c
 workflow-type: tm+mt
-source-wordcount: '7404'
+source-wordcount: '7486'
 ht-degree: 1%
 
 ---
@@ -252,14 +252,13 @@ ht-degree: 1%
          <li> <p>從設定區域中群組的主要頁面建立專案時，該群組會與專案相關聯。</p> </li> 
          </ul> </p> <p> <img src="assets/group-details-widget-350x351.png" style="width: 350;height: 351;"> </p> 
          <p><b>附註</b></p>
-
-       &lt;ul>
-       &lt;li>&lt;p>如果專案或其任務或問題與群組層級自訂狀態相關聯，變更專案群組可能會導致專案狀態、任務或問題變更以符合新群組。&lt;/p>&lt;/li>
-       &lt;li>&lt;p>如果專案或其任務或問題已使用群組層級自訂狀態與群組層級核准流程相關聯，變更群組可能會在先前群組的核准狀態與系統層級現有的核准狀態之間產生衝突。&lt;/p>
-       &lt;p>在更新群組之前，請考慮移除專案的群組層級核准流程，或其任務或問題。&lt;/p>
-       &lt;p>如需有關建立群組層次核准流程的資訊，請參閱&lt;a href=&quot;../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-groups-approval-processes.md&quot; class=&quot;MCXref xref&quot;>群組層次核准流程&lt;/a>。&lt;/p>
-       &lt;p>如需建立群組層級自訂狀態的相關資訊，請參閱&lt;a href=&quot;../../../administration-and-setup/manage-groups/manage-group-statuses/create-or-edit-a-group-status.md&quot; class=&quot;MCXref xref&quot;>建立或編輯群組狀態&lt;/a>&lt;/p>&lt;/li>&lt;/ul> &lt;/td>
-   </tr> 
+         <ul>
+         <li><p>如果專案或其任務或問題與群組層級自訂狀態相關聯，變更專案群組可能會導致專案狀態、任務或問題變更以符合新群組。</p></li>
+         <li><p>如果專案或其任務或問題已使用群組層級自訂狀態與群組層級核准流程相關聯，變更群組可能會在先前群組的核准狀態與系統層級現有的核准狀態之間產生衝突。</p>
+         <p>在更新群組之前，請考慮移除專案的群組層級核准流程，或其任務或問題。</p>
+         <p>如需有關建立群組層次核准流程的資訊，請參閱 <a href="../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-groups-approval-processes.md" class="MCXref xref">群組層級核准流程</a>.</p>
+         <p>如需有關建立群組層級自訂狀態的資訊，請參閱 <a href="../../../administration-and-setup/manage-groups/manage-group-statuses/create-or-edit-a-group-status.md" class="MCXref xref">建立或編輯群組狀態</a></p></li></ul> </td> 
+      </tr> 
       <tr> 
          <td role="rowheader"><strong>公司</strong> </td> 
          <td> <p>指定與專案關聯的公司。 您必須先建立公司，才能將其與專案建立關聯。 只有作用中的公司可以與專案建立關聯。 如需建立公司的詳細資訊，請參閱 <a href="../../../administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md" class="MCXref xref">建立和編輯公司</a>.</p> </td> 
@@ -654,6 +653,22 @@ ht-degree: 1%
 
 1. 按一下「**儲存**」。
 
+### 連結的資料夾
+
+連結資料夾功能會自動在Adobe Experience Manager Assets中建立資料夾，並將這些資料夾連結至Workfront。
+
+只有符合下列所有條件時，才會顯示此區段：
+
+* 您的組織已移轉至Adobe Admin Console
+* 您的組織已啟用並設定與Adobe Experience Manager的整合
+* 用來建立此專案的範本已啟用並設定了連結資料夾。
+
+如需有關編輯連結資料夾的說明，請參閱 [編輯專案中的工作流程值](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/use-aem-workflows.md#edit-workflow-values-in-a-project) 在文章中使用工作流程在Experience Manager Assets整合。
+
+>[!NOTE]
+>
+>由於連結資料夾是在建立專案時建立的，因此編輯現有專案上的連結資料夾工作流程會無效。 在建立專案時按預期編輯這些值。
+
 ## 在專案標題中編輯專案（受限）
 
 您可以編輯專案標題中的有限資訊量。
@@ -673,7 +688,7 @@ ht-degree: 1%
   >
   >只有當專案是從「完成日期」開始排程時，您才能編輯此欄位。 從開始日期開始排程專案時，Workfront會根據任務的持續期間計算規劃完成日期和時間。
 
-* 狀態
+* 狀況
 
   >[!NOTE]
   >

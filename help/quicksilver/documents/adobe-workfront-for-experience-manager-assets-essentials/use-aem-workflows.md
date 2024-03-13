@@ -6,16 +6,14 @@ description: 在Experience Manager Assets Essentials整合中使用工作流程
 author: Courtney, Becky
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 4c1e5ec1-3fd1-4527-ba8a-9db1a2350f69
-source-git-commit: 83cd0960947108186f8d1d8ef2ad6c35c89820bd
+source-git-commit: 821e31b8c6023a9ec4e017cc5548bb9fd930983c
 workflow-type: tm+mt
-source-wordcount: '1114'
+source-wordcount: '1042'
 ht-degree: 0%
 
 ---
 
 # 在Experience Manager Assets整合中使用工作流程
-
-<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它僅在預覽Sandbox環境中可用。</span>
 
 工作流程是一組將Workfront連線至Adobe Experience Manager as a Cloud Service的動作。 Workfront管理員可以在Workfront中設定工作流程，然後將它們指派給專案範本。 使用指派了工作流程的專案範本建立專案時，會觸發工作流程中定義的動作。
 
@@ -130,7 +128,7 @@ ht-degree: 0%
 
 所有工作流程值都可在下列位置找到：
 
-* 「建立專案」或「編輯專案」視窗的「工作流程」區段。
+* 「建立專案」或「編輯專案」視窗的「工作流程」或「連結的資料夾」區段。
 * 左側導覽的Adobe Experience Manager區段。
 
 
@@ -148,19 +146,6 @@ ht-degree: 0%
 
 若要編輯連結資料夾的工作流程：
 
-在生產環境中：
-
-1. 切換 **[!UICONTROL 建立連結的資料夾]** 視需要開啟或關閉。
-1. （視條件而定）如果您正在啟用連結的資料夾，請選擇資料夾路徑，以指出所有與此整合相關聯的連結資料夾的位置。
-1. 按一下 **[!UICONTROL 儲存]** 如果您使用 [!UICONTROL 建立專案] 或 [!UICONTROL 編輯專案] 視窗。
-
-   或
-
-   如果您在 [!DNL Adobe Experience Manager area]，您的變更會自動儲存。 <!--Do they though?-->
-
-在預覽Sandbox環境中：
-
-<div class="preview">
 
 1. 切換 **[!UICONTROL 建立連結的資料夾]** 視需要開啟或關閉。 如果您將其開啟，則可以編輯連結的資料夾組態。
 
@@ -179,10 +164,8 @@ ht-degree: 0%
 
      如果資料夾名稱設為自訂資料，而該資料夾不存在於附加到專案的自訂中，則會將隨機ID指派為資料夾名稱。
 
+1. 若要檢視資料夾樹狀結構，請按一下 **預覽** ![預覽圖示](assets/preview-icon.png) 圖示
 1. 按一下「**[!UICONTROL 儲存]**」。
-
-</div>
-
 
 #### 發佈資產
 

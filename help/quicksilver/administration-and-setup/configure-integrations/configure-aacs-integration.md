@@ -6,9 +6,9 @@ description: 您可以在下列位置將您的工作與內容連結： [!DNL Exp
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: bc58cc77-a177-417f-a5a4-eec51e305219
-source-git-commit: 54ece5a3082264af80d6a720452f8afe5e99c868
+source-git-commit: 821e31b8c6023a9ec4e017cc5548bb9fd930983c
 workflow-type: tm+mt
-source-wordcount: '1763'
+source-wordcount: '1667'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,6 @@ ht-degree: 0%
 
 <!-- Audited: 1/2024 -->
 
-<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它僅在預覽Sandbox環境中可用。</span>
 
 >[!IMPORTANT]
 >
@@ -253,16 +252,6 @@ Adobe Experience Manager整合提供下列工作流程：
 ### 建立Adobe Experience Manager連結資料夾
 
 1. 切換 **[!UICONTROL 建立連結的資料夾]** 開啟。
-1. 選擇資料夾路徑，以指出您要將所有連結的資料夾與此整合相關聯的位置。
-   ![連結的資料夾導覽](assets/select-folder-aem-integration.png)
-1. 啟用 **[!UICONTROL 附加Portfolio和計畫名稱]** 在連結資料夾名稱結尾自動包含Portfolio和程式名稱的選項。
-1. 按一下 **[!UICONTROL 儲存]** 或移至 [發佈傳送至Adobe Experience Manager Assets的資產](#publish-assets-that-are-sent-to-adobe-experience-manager-assets) 一節。
-
-在預覽Sandbox環境中
-
-<div class="preview">
-
-1. 切換 **[!UICONTROL 建立連結的資料夾]** 開啟。
 1. 輸入您正在建立的連結資料夾名稱。
 1. （視條件而定）啟用 **預設資料夾樹狀結構** 選項，如果您希望此連結資料夾為使用使用此整合之範本所建立專案的預設資料夾。 您可以選取一或多個預設資料夾。
 1. 選擇資料夾路徑，以指出您要將所有連結的資料夾與此整合相關聯的位置。
@@ -295,8 +284,6 @@ Adobe Experience Manager整合提供下列工作流程：
 >* 資料夾樹狀結構中的第一個資料夾會自動標示為連結至Workfront。 如果您不想要連結此資料夾，可以取消其連結。
 >* 如果未提供資料夾樹狀結構，則根資料夾會成為連結的資料夾。
 
-
-</div>
 
 ### 發佈傳送至Adobe Experience Manager Assets的資產
 
