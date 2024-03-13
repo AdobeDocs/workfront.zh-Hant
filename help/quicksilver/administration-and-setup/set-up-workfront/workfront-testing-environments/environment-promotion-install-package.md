@@ -4,16 +4,16 @@ content-type: how-to-procedural
 product-area: system-administration
 navigation-topic: workfront-testing-environments
 title: 安裝環境升級套件
-description: 環境推進功能旨在提供與組態相關的物件從一個環境移動到另一個環境的功能。 瞭解如何將環境升級套件安裝到新環境中。
+description: 環境推進功能旨在提供與組態相關的物件從一個環境移動到另一個環境的功能。 瞭解如何將環境升級套件安裝至目標環境。
 author: Becky
 feature: System Setup and Administration
 role: Admin
 hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
-source-git-commit: d710e6dbb93cdec530ed8513bd96f5e7381f93c0
+source-git-commit: 690dda5bfc0ac77d396532ff7cfce38f4b61f4af
 workflow-type: tm+mt
-source-wordcount: '46'
+source-wordcount: '299'
 ht-degree: 0%
 
 ---
@@ -22,28 +22,32 @@ ht-degree: 0%
 
 此頁面正在建構中
 
+
+
+1. 前往您要安裝套件的環境。 這是您複製物件的環境 **至**.
+1. 按一下 **[!UICONTROL 主要功能表]** 圖示 ![主要功能表](/help/_includes/assets/main-menu-icon.png) 在Adobe Workfront的右上角，或（如果有的話）按一下 **[!UICONTROL 主要功能表]** 圖示 ![主要功能表](/help/_includes/assets/main-menu-icon-left-nav.png) 然後按一下「 」 **[!UICONTROL 設定]** ![「設定」圖示](/help/_includes/assets/gear-icon-setup.png).
+1. 選取 **系統** 在左側導覽中，然後選取 **環境升級**.
+1. 從顯示的清單中選取封裝。
+1. 若要安裝套件，請按一下 **安裝** 在畫面的右上角。
+1. 將套件中的每個物件對應至目標環境中對應的物件。
+
+   如需詳細資訊，請參閱 [對應](#mapping) 本文章
+
+
+## 對應
+
+每個物件型別都會列在左側導覽和卡片上。 卡片會顯示該型別的物件，以及這些物件是否存在於目標環境中。 您可以決定如何將這些物件移動到目標環境。
+
+* 新建：物件位於目標環境中
+* 使用現有：未安裝套件中的物件，且目標環境中已存在的物件未變更。
+* 覆寫現有：封裝中的物件會取代目標環境中的現有物件。
+* 請勿使用：
+
+預設值為 `Create new` 如果物件不存在於目標環境中，且 `Use existing` 如果物件確實存在於目標環境中。 您可以按一下「 」，還原為預設的對應 **重設為預設對應**.
+
+如果您選取「不使用」，則會出現一則錯誤訊息，詳細說明此選擇將如何影響其他物件或欄位。
+
 <!--
-
-## Mapping
-
-<!--How does one get to the mapping page?--
-
-<!--Also show how to tell you're installing it in the right place (note 3 on slide 3)--
-
-Each object in the package is shown in the left navigation, and as a card on the page.
-
-Each card displays the object and its <!--fields? properties? sub-objects>--. You can determine how these <!--???--s will move to the new environment. 
-
-* Create new <!--does this mean you can have multiples?--
-* Use existing
-* Overwrite existing
-* Do not use
-
-You can revert to the default mapping by clicking **Reset to default mapping**.
-
-If you select Do not use, an error message will appear detailing how this choice will affect other objects or fields.
-If you select Create new, you will need to change the value <!--of what?--
-
 ## Collisions
 
 A collision occurs when <!--???--.
