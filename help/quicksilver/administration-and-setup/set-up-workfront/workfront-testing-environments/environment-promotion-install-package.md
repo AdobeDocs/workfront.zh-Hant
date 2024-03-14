@@ -11,9 +11,9 @@ role: Admin
 hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 79468b31b48deecaf63c332387ebbd88dea7d57a
+source-git-commit: 5ab9f7c975df86fa7a1f6d54a2fefcbd4cbd9248
 workflow-type: tm+mt
-source-wordcount: '294'
+source-wordcount: '297'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ ht-degree: 0%
 
 * 新建：物件位於目標環境中
 * 使用現有：未安裝套件中的物件，且目標環境中已存在的物件未變更。
-* 覆寫現有：封裝中的物件會取代目標環境中的現有物件。
+* 覆寫現有： （目前無法使用）封裝中的物件會取代目標環境中的現有物件。
 * 不使用：如果您選取「不使用」，將會出現錯誤訊息，詳細說明此選擇將如何影響其他物件或欄位。
 
 預設值為 `Create new` 如果物件不存在於目標環境中，且 `Use existing` 如果物件確實存在於目標環境中。 您可以按一下「 」，還原為預設的對應 **重設為預設對應**.
@@ -52,5 +52,7 @@ A collision occurs when <!--???--.
 In Workfront, a potential collision is marked with a blue dot. You can select 
 
 You can select whether to show all package contents, or collisions only.
--->
 
+## Comparison tool
+
+-->
