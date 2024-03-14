@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: a1ab60c4-4255-4d80-87f1-f36d325254c2
-source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
+source-git-commit: 293b7354e4549e51d78ad1aa75927a21d9044c43
 workflow-type: tm+mt
-source-wordcount: '690'
+source-wordcount: '695'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ ht-degree: 0%
 
 您的使用者需要登入，才能在其帳戶中授權此整合。 使用者可授權的頁面具有特定格式，如下所述。 使用此資訊來判斷應用程式的授權頁面位址，並提供您的使用者此位址或連結。
 
-* 您組織網域的完整URL。 範例:
+* 您組織網域的完整URL。 範例：
 
   ```
   https://myorganization.my.workfront.com
@@ -66,11 +66,11 @@ https://<URL of your organization's domain>/integrations/oauth2/authorize?client
  <tbody> 
   <tr> 
    <td role="rowheader">授權URI</td> 
-   <td> <p><code>https://&lt;the full URL of your organization's domain&gt;/integrations/oauth2/authorize</code> </p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>範例: </b></span></span><code> https://myorganization.my.workfront.com/integrations/oauth2/authorize</code> </p> </td> 
+   <td> <p><code>https://&lt;the full URL of your organization's domain&gt;/integrations/oauth2/authorize</code> </p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>範例： </b></span></span><code> https://myorganization.my.workfront.com/integrations/oauth2/authorize</code> </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">權杖URL</td> 
-   <td> <p><code>https://&lt;the full URL of your organization's domain&gt;/integrations/oauth2/api/v1/token</code> </p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>範例: </b></span></span><code>https://myorganization.my.workfront.com/integrations/oauth2/api/v1/token</code> </p> </td> 
+   <td> <p><code>https://&lt;the full URL of your organization's domain&gt;/integrations/oauth2/api/v1/token</code> </p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>範例： </b></span></span><code>https://myorganization.my.workfront.com/integrations/oauth2/api/v1/token</code> </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">範圍</td> 
@@ -81,7 +81,7 @@ https://<URL of your organization's domain>/integrations/oauth2/authorize?client
 
 ## 設定授權代碼流程
 
-![](assets/oauth-2-authorization-code-flow-350x194.png)
+![](assets/oauth-2-authorization-code-flow.png)
 
 若要使用OAuth2登入使用者，請使用下列程式：
 
