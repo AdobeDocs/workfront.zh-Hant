@@ -8,14 +8,16 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: bb597032-3395-4c9a-b622-5c920ba55131
-source-git-commit: e9acccbaf2ce9c418e9417ff205bdfdb926b51d5
+source-git-commit: 155a2a8f5f266006629a28917a6a7565a95b37a9
 workflow-type: tm+mt
-source-wordcount: '1416'
+source-wordcount: '1461'
 ht-degree: 0%
 
 ---
 
 # 建立和編輯公司
+
+{{highlighted-preview}}
 
 <!--Audited: 01/2024-->
 
@@ -117,7 +119,7 @@ ht-degree: 0%
      </tr>
      <tr> 
       <td role="rowheader">[！UICONTROL自訂Forms]區段</td> 
-      <td> <p>如果存在您想要新增至公司的欄位，但該欄位在中無法使用 [!DNL Workfront]，您可以建立自訂表單並將其與您的公司建立關聯。 </p> <p>您可以從下拉式選單中選取此表單，以將其附加至您的公司。</p> <p>下拉式選單中只會列出作用中的自訂表單。</p> <p> 如需建立自訂Forms的相關資訊，請參閱 <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref">建立或編輯自訂表單</a>. </p> </td> 
+      <td> <p>如果存在您想要新增至公司的欄位，但該欄位在中無法使用 [!DNL Workfront]，您可以建立自訂表單，並將其與您的公司建立關聯。 </p> <p>您可以從下拉式選單中選取此表單，以將其附加至您的公司。 只有作用中的自訂表單會列在功能表中。</p> <p><span class="preview"><strong>注意：</strong> 進階自訂表單功能(例如，外部查詢欄位和Workfront原生欄位)只有在您於詳細資訊頁面開啟公司記錄時，才可使用，不能在編輯公司對話方塊中開啟。 （從公司清單中，按一下公司名稱以開啟詳細資訊。）</span></p> <p> 如需建立自訂表單的相關資訊，請參閱 <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref">建立或編輯自訂表單</a>. </p> </td>
      </tr> 
     </tbody> 
    </table>
