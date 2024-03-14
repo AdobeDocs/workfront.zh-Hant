@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: 4c62b567fa1ebec37fc64831757eb67d4a048c1f
+source-git-commit: c50ff48bbc492199b39db17b8c445207209bb6a5
 workflow-type: tm+mt
-source-wordcount: '1976'
+source-wordcount: '1982'
 ht-degree: 1%
 
 ---
@@ -65,6 +65,7 @@ Adobe Workfront規劃功能是Adobe Workfront推出的全新產品。 規劃功�
 | 連結記錄 | ✓ (A) |                                  |                  |
 | 檢視表格中的記錄 | ✓ (A) |                                  |                  |
 | 在時間軸中檢視記錄 | ✓ (A) |                                  |                  |
+| 檢視行事曆中的記錄 | ✓ (A) |                                  |                  |
 | 篩選記錄 | ✓ (A) |                                  |                  |
 | 在時間軸檢視中將記錄分組 | ✓ (A) |                                  |                  |
 | 在表格檢視中將記錄分組 | ✓ (A) |                                 |                  |

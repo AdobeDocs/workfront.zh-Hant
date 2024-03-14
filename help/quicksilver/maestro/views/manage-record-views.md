@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: b795ceccb3f72eb64269062823199be9c8511860
+source-git-commit: c50ff48bbc492199b39db17b8c445207209bb6a5
 workflow-type: tm+mt
-source-wordcount: '857'
+source-wordcount: '948'
 ht-degree: 1%
 
 ---
@@ -153,18 +153,17 @@ ht-degree: 1%
 
    依預設，選取型別的所有記錄都會顯示在表格檢視中。
 
-<!--
-1. Click **+ View** to add a new view. 
-1. Select from the following types of views: 
+1. 按一下 **+檢視** 以新增檢視。
+1. 從下列檢視型別中選取：
 
-    * Table
-    * Timeline
-    * Calendar
+   * 表格
+   * 時間表
+   * 行事曆
 
-    A new tab is created with the selected view. 
+   會以選取的檢視建立新標籤。
 
-    Depending on the width of your screen, additional views might display in the **More** menu ![](assets/more-menu.png).   
--->
+   根據熒幕的寬度，其他檢視可能會顯示在 **更多** 功能表 ![](assets/more-menu.png).
+
 
 >[!TIP]
 >
@@ -173,21 +172,11 @@ ht-degree: 1%
 >若要建立時間表或行事曆檢視，您為其建立檢視的記錄型別必須至少有兩個日期欄位。 否則，「時間軸」和「行事曆」選項會變暗。
 >
 
-1. 按一下 **檢視** 下拉式功能表，並選取現有的 **表格檢視** ![](assets/table-view-icon.png) 或按一下 **建立檢視>表格** 建立表格檢視
+![](assets/view-types-drop-down-from-record-type-list.png)
 
-   或
-
-   選取現有 **時間表檢視** ![](assets/timeline-view-icon.png) 或按一下 **建立檢視>時間表** 以建立時間表檢視。
-
-   或
-
-   選取現有 **行事曆檢視** ![](assets/calendar-view-icon.png) 或按一下 **建立檢視>行事曆** 以建立行事曆檢視。
-
-   ![](assets/view-types-drop-down-from-record-type-list.png)
-
-   >[!NOTE]
-   >
-   >    若要建立時間表或行事曆檢視，您為其建立檢視的記錄型別必須至少有兩個日期欄位。 否則，「時間軸」或「行事曆」選項會變暗。
+>[!NOTE]
+>
+>    若要建立時間表或行事曆檢視，您為其建立檢視的記錄型別必須至少有兩個日期欄位。 否則，「時間軸」或「行事曆」選項會變暗。
 
 1. （視條件而定）按一下 **下一個**，在建立時間表或行事曆檢視時。
 
@@ -202,12 +191,16 @@ ht-degree: 1%
 1. （視條件而定）選取 **開始** 和 **結束日期** 適用於將在時間軸或行事曆檢視中顯示的記錄。
 1. 按一下「**建立**」。
 
-   <!--add for view redesign: The view displays as a new tab. Views display in the chronological order from when they were created or shared with you. -->
-<!--1. (Optional) Click the **More** menu ![](assets/more-caret-down-icon-views.png) next to the last view to view all views for the selected record type. 
+   檢視會顯示為新標籤。 檢視會以建立或與您共用的時間順序顯示。
+1. （可選）按一下 **更多** 功能表 ![](assets/more-caret-down-icon-views.png) 在最後一個檢視旁邊，顯示所選記錄型別的所有檢視。
 
-    Additional views display under the **More** menu after the last view tab. The number next to the **More** menu shows the number of additional views. -->
-1. （選擇性）若要在建立檢視後重新命名，請按一下檢視下拉式功能表，然後按一下 **更多** 功能表 ![](assets/more-menu.png) > **重新命名** 以更新檢視名稱。 <!--ensure there is not another saving step here?!-->
-   <!--1. (Optional) To rename a view after it is created, double-click the view name and start typing the new name, or click the **More** menu ![](assets/more-menu.png) to the right of the view name, then click **Rename**.-->
+   其他檢視顯示在 **更多** 「最後檢視」標籤之後的功能表。 旁的數字 **更多** 功能表會顯示其他檢視的數目。
+1. （選擇性）若要在建立檢視後重新命名，請按一下檢視下拉式功能表，然後按一下 **更多** 功能表 ![](assets/more-menu.png) > **重新命名** 更新檢視名稱
+
+   或
+
+   連按兩下檢視名稱，然後開始輸入新名稱。  <!--ensure there is not another saving step here?!-->
+
 1. （可選）若要管理特定型別的檢視，請參閱下列文章：
 
    * [管理表格檢視](../views/manage-the-table-view.md)
@@ -227,10 +220,9 @@ ht-degree: 1%
 
    依預設，選取型別的所有記錄都會顯示在表格檢視中。
 
-<!--1. Hover over one the of the view's names in the view tab, then click **More** ![](assets/more-menu.png) to the left of the view name, then click **Delete**. (********delete the instructions in the point below but keep the last step***********)
-First, you might need to click **More** to the left of the last tab to find the view you want to delete. -->
+1. 將滑鼠懸停在檢視標籤中其中一個檢視名稱上，然後按一下 **更多** ![](assets/more-menu.png) ，然後按一下「 」 **刪除**.
+首先，您可能需要按一下 **更多** ，以尋找您要刪除的檢視。
 
-1. 按一下「檢視」下拉式功能表，將滑鼠停留在清單中的其中一個檢視上，然後按一下 **更多** 功能表 ![](assets/more-menu.png) > **刪除**.
 1. 按一下 **刪除** 以確認。 <!--ensure there is not another saving step here?!-->
 
    所有可存取記錄區域的使用者檢視都會刪除，且無法復原。

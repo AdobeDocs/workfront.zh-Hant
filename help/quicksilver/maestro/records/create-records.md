@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: b795ceccb3f72eb64269062823199be9c8511860
+source-git-commit: c50ff48bbc492199b39db17b8c445207209bb6a5
 workflow-type: tm+mt
-source-wordcount: '809'
+source-wordcount: '897'
 ht-degree: 0%
 
 ---
@@ -107,15 +107,13 @@ ht-degree: 0%
 {#step1-to-maestro}
 
 您上次存取的工作區預設會開啟。 如需有關建立工作區的資訊，請參閱 [建立工作區](../architecture/create-workspaces.md).
+
 1. 按一下記錄型別卡。 如需有關建立記錄型別的資訊，請參閱 [建立記錄型別](../architecture/create-record-types.md).
 
    記錄型別頁面會在您上次存取的檢視中開啟。 依預設，會在表格檢視中開啟記錄型別頁面。
 所選型別的所有記錄都會顯示在表格檢視中。
 
-1. （視條件而定）如果記錄型別頁面未在表格檢視中開啟，請按一下 **檢視** 下拉式功能表，並選取現有的 **表格檢視** ![](assets/table-view-icon.png) 或按一下 **建立檢視>表格** 以建立表格檢視。
-
-<!--Replace the above with this when we release the tabbed views: 
-1. (Conditional) If the record type page does not open in the table view, click the tab of a table view, or click **+ View** to create a table view. -->
+1. （視條件而定）如果記錄型別頁面未在表格檢視中開啟，請按一下表格檢視的標籤，或按一下 **+檢視** 以建立表格檢視。
 
 1. 若要新增記錄，請按一下 **新記錄** 在表格的最後一列
 
@@ -135,17 +133,17 @@ ht-degree: 0%
 
 1. 繼續新增每一列的資訊，然後按一下 **輸入** 以儲存變更。
 
-<!--Or 
-    
-    Click the new record's name or the **Open details** icon ![](assets/open-details-icon-in-table-name-field.png) to the left of the record name. The **Details** box opens in the table. 
+   或
 
-      >[!TIP]
-      >
-      >    You can access the Details box only from the name field of the record when the Name field is a primary field. 
+   按一下新記錄的名稱或 **開啟詳細資料** 圖示 ![](assets/open-details-icon-in-table-name-field.png) 記錄名稱的左側。 此 **詳細資料** 方塊在表格中開啟。
 
-  1. Start editing the record's information in the Details box. Workfront automatically saves your changes. 
-  1. (Optional) Click the **Open in new tab** icon ![](assets/open-details-in-a-new-tab-icon.png) in the upper-right corner of the Details box to open the record's **Details** page in a new tab. Continue editing the record on the Details page.
-    -->
+   >[!TIP]
+   >
+   >當「名稱」欄位是主要欄位時，您只能從記錄的名稱欄位存取「詳細資訊」方塊。
+
+1. 開始編輯詳細資訊方塊中的記錄資訊。 Workfront會自動儲存您的變更。
+1. （可選）按一下 **在新標籤中開啟** 圖示 ![](assets/open-details-in-a-new-tab-icon.png) 在「詳細資訊」方塊的右上角，開啟記錄的 **詳細資料** 新索引標籤中的頁面。 繼續編輯詳細資訊頁面上的記錄。
+
 
 1. （可選）使用下列鍵盤快速鍵來復原或重做新增記錄：
 

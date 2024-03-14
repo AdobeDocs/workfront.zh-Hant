@@ -4,9 +4,9 @@ description: 您可以在使用Adobe Workfront規劃功能時，與其他人共�
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: b795ceccb3f72eb64269062823199be9c8511860
+source-git-commit: c50ff48bbc492199b39db17b8c445207209bb6a5
 workflow-type: tm+mt
-source-wordcount: '499'
+source-wordcount: '508'
 ht-degree: 0%
 
 ---
@@ -85,8 +85,8 @@ ht-degree: 0%
 >[!NOTE]
 >
 >系統管理員無法檢視或共用他們未自行建立的檢視。 他們只能存取或共用與他們共用的檢視。
-
-<!--for above note - add when this releases: System administrators can have only Manage permissions to a view.-->
+>
+>系統管理員只能擁有檢視的管理許可權。
 
 {{step1-to-maestro}}
 
@@ -94,7 +94,7 @@ ht-degree: 0%
 
    這會開啟記錄型別頁面。
 
-1. 從檢視下拉式功能表 <!--tab-->，將游標停留在您要共用的檢視上，然後按一下 **更多** 功能表 ![](assets/more-menu.png) 檢視名稱右側，然後按一下 **共用**.
+1. 在檢視標籤中，暫留在您要共用的檢視上，然後按一下 **更多** 功能表 ![](assets/more-menu.png) 檢視名稱右側，然後按一下 **共用**.
 
    ![](assets/more-menu-for-views-expanded-with-share-option.png)
 

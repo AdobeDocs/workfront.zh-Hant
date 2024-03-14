@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: b795ceccb3f72eb64269062823199be9c8511860
+source-git-commit: c50ff48bbc492199b39db17b8c445207209bb6a5
 workflow-type: tm+mt
-source-wordcount: '1089'
-ht-degree: 1%
+source-wordcount: '1244'
+ht-degree: 0%
 
 ---
 
@@ -117,11 +117,9 @@ ht-degree: 1%
 1. 按一下記錄型別卡。
 
    記錄型別頁面隨即開啟。
-1. （視條件而定）從 **檢視** 在表格左上角的下拉式功能表中，選取 **表格** 檢視。 這應為預設檢視，除非您在上次存取記錄型別時已在其他型別的檢視中檢視該記錄型別。
+1. （視條件而定）按一下表格檢視的標籤，或按一下 **+檢視** 以建立表格檢視。 表格檢視應該是預設檢視，除非您上次存取記錄型別時，已在其他型別的檢視中檢視該記錄型別。
 
-<!--replace above with this when we release view redesign: (Conditional) Click the tab of a table view or click **+ View** to create a table view. The table view should be the default view, unless you viewed the record type in another type of view when you accessed it last. -->
-
-    與所選記錄型別相關聯的記錄會顯示在表格檢視中。
+   與所選記錄型別相關聯的記錄會顯示在表格檢視中。
 1. 在記錄列內按一下，開始編輯有關內嵌記錄的資訊。
 
    ![](assets/edit-record-paragraph-field-with-formatting-table-view.png)
@@ -147,15 +145,15 @@ ht-degree: 1%
 1. （選擇性）連按兩下連線的記錄欄位，以將連線的記錄或物件新增至其他記錄。 如需詳細資訊，請參閱 [連線記錄](/help/quicksilver/maestro/records/connect-records.md).
 1. 按下 **輸入** 使用鍵盤或按一下資料列外部以儲存變更。 變更會自動儲存。 A **已儲存** 指標會短暫顯示在表格檢視的右上角，顯示變更已儲存。
 
+1. （可選）按一下 **開啟詳細資料** 圖示 ![](assets/open-details-icon-in-table-name-field.png) 記錄名稱的左側，或按一下記錄名稱。 此 **詳細資料** 方塊在表格中開啟。
 
-   <!--
-    1. (Optional) Click the **Open details** icon ![](assets/open-details-icon-in-table-name-field.png) to the left of a record name, or click a record name. The **Details** box opens in the table. 
-        >[!TIP]
-        >
-        >    You can view the Open details icon to the left of the Name field of a record only when the Name field is a primary field. 
-    1. Start editing the field information in the Details box. Workfront automatically saves your changes. 
-    1. (Optional) Click the **Open in new tab** icon ![](assets/open-details-in-a-new-tab-icon.png) (*********check the icon; they are changing it***********) in the upper-right corner of the Details box to open the record's **Details** page in a new tab. Continue editing the record as described in [Edit a record from the record's Details page](#edit-a-record-from-the-records-details-page) section in this article. 
-    -->
+   >[!TIP]
+   >
+   >您可以檢視 **開啟詳細資料** 圖示（只有當「名稱」欄位是主要欄位時，才會顯示於記錄的「名稱」欄位左側）。
+
+1. 開始編輯中的欄位資訊 **詳細資料** 方塊。 Workfront會自動儲存您的變更。
+1. （可選）按一下 **在新標籤中開啟** 圖示 ![](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> 位於的右上角 **詳細資料** 方塊以開啟記錄的 **詳細資料** 新索引標籤中的頁面。 繼續編輯記錄，如所述 [從記錄的「詳細資訊」頁面編輯記錄](#edit-a-record-from-the-records-details-page) 一節。
+
 
 1. （選擇性）若要將某個欄位的資訊複製並貼到另一個欄位，請執行下列任一項作業：
 
@@ -193,7 +191,9 @@ ht-degree: 1%
 
 ### 從記錄的「詳細資訊」頁面編輯記錄
 
-<!--You can edit a record from the Details box in a table view, or from the Details page. For information about editing records in the Details box, see the [Edit a record from the table view of a record type](#edit-a-record-from-the-table-view-of-a-record-type) section in this article.-->
+您可以從表格檢視的「詳細資訊」方塊或「詳細資訊」頁面編輯記錄。
+
+如需有關在「詳細資訊」方塊中編輯記錄的資訊，請參閱 [從記錄型別的表格檢視中編輯記錄](#edit-a-record-from-the-table-view-of-a-record-type) 一節。
 
 {{step1-to-maestro}}
 
@@ -214,8 +214,8 @@ ht-degree: 1%
 
    或
 
-   按一下「詳細資訊」頁面上的任何可編輯欄位以編輯資訊。 <!--Your changes are saved automatically.-->
+   按一下「詳細資訊」頁面上的任何可編輯欄位以編輯資訊。
 
    ![](assets/more-menu-options-from-record-details-page.png) <!--ensure the options have not changed or been renamed-->
 
-1. 按一下 **儲存變更**. <!--Eliminate this step when we release the new Details box in the table with the Details page. Add above that the saves are automatic-->
+1. 按一下 **儲存變更**.
