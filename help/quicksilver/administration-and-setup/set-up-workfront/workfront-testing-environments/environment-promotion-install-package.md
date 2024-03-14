@@ -11,17 +11,14 @@ role: Admin
 hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 690dda5bfc0ac77d396532ff7cfce38f4b61f4af
+source-git-commit: 79468b31b48deecaf63c332387ebbd88dea7d57a
 workflow-type: tm+mt
-source-wordcount: '299'
+source-wordcount: '294'
 ht-degree: 0%
 
 ---
 
 # 安裝環境升級套件
-
-此頁面正在建構中
-
 
 
 1. 前往您要安裝套件的環境。 這是您複製物件的環境 **至**.
@@ -41,11 +38,11 @@ ht-degree: 0%
 * 新建：物件位於目標環境中
 * 使用現有：未安裝套件中的物件，且目標環境中已存在的物件未變更。
 * 覆寫現有：封裝中的物件會取代目標環境中的現有物件。
-* 請勿使用：
+* 不使用：如果您選取「不使用」，將會出現錯誤訊息，詳細說明此選擇將如何影響其他物件或欄位。
 
 預設值為 `Create new` 如果物件不存在於目標環境中，且 `Use existing` 如果物件確實存在於目標環境中。 您可以按一下「 」，還原為預設的對應 **重設為預設對應**.
 
-如果您選取「不使用」，則會出現一則錯誤訊息，詳細說明此選擇將如何影響其他物件或欄位。
+
 
 <!--
 ## Collisions
