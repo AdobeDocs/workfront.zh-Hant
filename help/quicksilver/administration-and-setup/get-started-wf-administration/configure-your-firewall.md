@@ -8,9 +8,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 264eed40-6d90-498b-83cc-2500c8b19c84
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+source-git-commit: 1199551f9ffb802a5691f6986cd855064a921d08
 workflow-type: tm+mt
-source-wordcount: '1608'
+source-wordcount: '1620'
 ht-degree: 0%
 
 ---
@@ -110,6 +110,9 @@ ht-degree: 0%
      <li>54.244.142.219</li> 
      <li>52.39.217.230</li> 
      <li>44.241.82.96</li> 
+     <li>54.203.255.135/32</li> 
+     <li>35.155.2.51/32</li> 
+     <li>52.34.192.77/32</li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -157,6 +160,9 @@ ht-degree: 0%
 * 52.30.133.50
 * 54.220.93.204
 * 34.254.76.122
+* 34.242.62.80/32
+* 46.51.194.192/32
+* 54.229.129.66/32
 
 如需有關下列IP位址的資訊，請參閱 [Adobe Workfront 21.1版本電子郵件的新IP位址](../../product-announcements/announcements/announcement-archive/new-email-ip-21-1.md)
 
