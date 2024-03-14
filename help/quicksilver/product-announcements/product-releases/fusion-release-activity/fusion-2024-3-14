@@ -1,0 +1,23 @@
+---
+title: Workfront Fusion release activity Week of March 11, 2024
+description: Workfront Fusion release activity Week of March 11, 2024
+author: Becky
+feature: Product Announcements, Workfront Fusion
+recommendations: noDisplay, noCatalog
+hidefromtoc: yes
+---
+# Workfront Fusion release activity: Week of March 11, 2024
+
+This page describes all enhancements made in Adobe Workfront Fusion the week of March 11, 2024
+
+For a list of all recent changes, see [Adobe Workfront Fusion release activity](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
+
+For a list of recent bug fixes in Workfront Fusion, see the [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) page and check for any updates labeled Workfront Fusion Maintenance Update.
+
+## Dropbox Business connection now available for Dropbox modules
+
+We've added an option in Dropbox connections to connect to Dropbox business. Now, you can select whether you are connecting to Dropbox or Dropbox Business when creating your connection.
+
+We've also moved the Client ID and Client Secret fields to be easier to find when creating a connection.
+
+For more information on creating a connection to Dropbox in Workfront Fusion, see [Create a connection to Dropbox](/help/quicksilver/workfront-fusion/apps-and-their-modules/dropbox-modules.md#create-a-connection-to-dropbox) in the article Dropbox modules.
