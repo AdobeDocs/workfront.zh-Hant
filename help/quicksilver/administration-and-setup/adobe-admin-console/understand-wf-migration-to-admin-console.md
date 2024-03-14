@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 54d855e6-c387-458c-9cd3-f32318c8ae02
-source-git-commit: 99b94c246f14110e37b23c95a178efd5b9042a9d
+source-git-commit: 0a638b143d2de4b8ff2948e701ee90acbd1ab857
 workflow-type: tm+mt
-source-wordcount: '1017'
+source-wordcount: '1067'
 ht-degree: 0%
 
 ---
@@ -44,6 +44,7 @@ Workfront移轉至Adobe Admin Console完成後，系統管理員將會收到電�
 
 * **如果您的Workfront使用者目前是以SSO登入**，您必須在Adobe Admin Console上設定SSO，讓您的使用者可以繼續以SSO登入。 如果您的Workfront使用者目前未使用SSO，但您想在Adobe Admin Console上加以設定，您可在移轉歷程中的此時點進行設定。
 * **如果您已在您的Adobe Admin Console中管理其他Adobe產品**，Adobe可能會要求您同意自動將使用者移轉至您現有的主控台。 按一下 **開始使用** 電子郵件中的按鈕，以導覽至同意頁面。
+* **如果您先前已刪除請求者授權型別**，則會將其新增至您的系統。 系統不會將任何使用者指派給此授權型別，但若要在Workfront與Adobe Admin Console之間同步，則必須使用它。 您無需採取任何有關請求者授權型別的動作。
 
 目前使用者管理沒有變更。 Workfront管理員將繼續在Workfront中管理使用者，使用者將繼續使用其Workfront ID或SSO登入，直到使用者移轉完成。
 
