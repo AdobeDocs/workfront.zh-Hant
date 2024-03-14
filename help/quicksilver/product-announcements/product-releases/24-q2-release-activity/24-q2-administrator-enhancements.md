@@ -4,9 +4,9 @@ description: 2024年第二季度管理員增強功能
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 20f9e9468c85235c0afadfee4d925a796ff89c54
+source-git-commit: a4056eb307c326b99f25406c2d5b87ad6018c754
 workflow-type: tm+mt
-source-wordcount: '620'
+source-wordcount: '722'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,16 @@ ht-degree: 0%
 此頁面說明2024年第二季度版本對「預覽」環境所做的所有管理員增強功能。 如上所述，這些增強功能將於生產環境中提供。
 
 如需2024年第二季發行週期目前可用的所有變更清單，請參閱 [2024年第二季版本總覽](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).
+
+## 公司和使用者現在支援進階自訂表單欄位
+
+>[!NOTE]
+>
+>預覽版本： 2024年3月14日；適用於所有客戶的生產： 24.4 （2024年4月）
+
+當您將自訂表單附加至公司或使用者時，現在可以使用進階自訂表單功能，例如外部查詢欄位和Workfront原生欄位。 進階功能可在「公司詳細資訊」和「使用者詳細資訊」頁面上使用，而非「編輯公司」和「編輯使用者」對話方塊。 必須在新的表單設計工具中建立自訂表單，才能利用這些欄位型別。
+
+如需自訂表單欄位的詳細資訊，請參閱 [使用表單設計工具設計表單](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 ## JumpSeat整合現在可用於新封裝型別
 
