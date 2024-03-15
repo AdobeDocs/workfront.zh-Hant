@@ -6,9 +6,9 @@ description: 篩選和條件修飾元可讓您建立篩選器，並建立格式�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 13e9d926-8a89-490e-aa7a-e6e8baf2a36b
-source-git-commit: 7eecc4879d1e5e760735db4de89ac1a661477be7
+source-git-commit: d2268e50080ddbe306731d034d88fd29b712b86d
 workflow-type: tm+mt
-source-wordcount: '1492'
+source-wordcount: '1516'
 ht-degree: 0%
 
 ---
@@ -92,7 +92,7 @@ ht-degree: 0%
   <tr valign="top"> 
    <td> <p> </p> </td> 
    <td> <p><strong>cieq</strong> </p> </td> 
-   <td> <p>這是 <i>區分大小寫</i> 選項 <strong>eq</strong>. 它只會傳回與搜尋值完全相符的值。</p> <p>例如，當搜尋具有特定名稱的任務時， <code>task name cieq test</code> 尋找名稱為的任務 <code>Test</code>， <code>TEST</code>，或 <code>Test</code>，但找不到名稱為的任務 <code>test 123.</code></p> <p>此修飾元只能用於文字模式篩選中。 如需有關篩選器中文字模式的詳細資訊，請參閱 <a href="../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md" class="MCXref xref">使用文字模式編輯篩選器</a>.</p> </td> 
+   <td> <p>這是 <i>區分大小寫</i> 選項 <strong>eq</strong>. 它只會傳回與搜尋值完全相符的值。</p> <p>例如，當搜尋具有特定名稱的任務時， <code>task name cieq test</code> 尋找名稱為的任務 <code>Test</code>， <code>TEST</code>，或 <code>Test</code>，但找不到名稱為的任務 <code>test 123.</code></p> <p>搜尋狀態時， <strong>cieq</strong> 不支援修飾元。 您應使用區分大小寫的修飾詞， <strong>eq</strong>，以搜尋狀態。</p> <p>此修飾元只能用於文字模式篩選中。 如需有關篩選器中文字模式的詳細資訊，請參閱 <a href="../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md" class="MCXref xref">使用文字模式編輯篩選器</a>.</p> </td>
   </tr> 
   <tr valign="top"> 
    <td> </td> 

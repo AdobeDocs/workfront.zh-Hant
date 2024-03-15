@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 3579ae0f-1d2e-4ff5-bbdf-58fdd20d01d7
-source-git-commit: db362bd73e51b30090708822876ad02f7804d064
+source-git-commit: d2268e50080ddbe306731d034d88fd29b712b86d
 workflow-type: tm+mt
-source-wordcount: '2313'
+source-wordcount: '2327'
 ht-degree: 2%
 
 ---
@@ -82,7 +82,7 @@ ht-degree: 2%
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader">含格式的文字欄位</td> 
-      <td>允許使用者在欄位中輸入多行文字，並以粗體、斜體、底線、專案符號、編號、超連結和區塊引號來格式化文字。 這可在首頁、更新區域、清單和Workfront物件的詳細資訊區域中取得。 15,000的字元限制可提供大量的文字和格式。</p> <p>如需有關透過API存取此欄位的資訊，請參閱 <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/rich-text-field-storage-in-the-api.md" class="MCXref xref">API中的RTF文字欄位儲存</a>.</p> <p><b>注意</b>：含有格式的文字欄位不適用於Workfront行動應用程式。 </p> </td> 
+      <td>允許使用者在欄位中輸入多行文字，並以粗體、斜體、底線、專案符號、編號、超連結和區塊引號來格式化文字。 這可在首頁、更新區域、清單和Workfront物件的詳細資訊區域中取得。 15,000的字元限制可提供大量的文字和格式。</p> <p>清單和報告上的篩選器不支援此自訂欄位型別。</p> <p>如需有關透過API存取此欄位的資訊，請參閱 <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/rich-text-field-storage-in-the-api.md" class="MCXref xref">API中的RTF文字欄位儲存</a>.</p> <p><b>注意</b>：含有格式的文字欄位不適用於Workfront行動應用程式。 </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">下拉</td> 
@@ -95,7 +95,7 @@ ht-degree: 2%
       <ul><li>使用者</li>
       <li>群組</li>
       <li>職務角色</li>
-      <li>Portfolio</li>
+      <li>專案組合</li>
       <li>方案</li>
       <li>專案</li>
       <li>團隊</li>
@@ -225,7 +225,7 @@ ht-degree: 2%
       <td><p>按一下下拉式清單，然後選取您要自動追蹤欄位值變更的物件型別。</p> 
       <p><b>注意</b>：此選項不適用於下列專案：</p> 
       <ul> 
-      <li>與下列物件型別相關聯的自訂表單：費用、公司、反複專案、記帳記錄和群組。</li> 
+      <li>與下列物件型別相關聯的自訂表單：費用、公司、反複專案、記帳記錄、檔案和群組。</li> 
       <li>下列欄位型別：計算、描述性文字和分割槽符號</li> 
       </ul>
       <p><b>重要</b>：在這裡選取或取消選取物件型別會影響與所選物件型別關聯且包含此欄位的所有自訂表單。 例如，如果您在此取消選取物件型別並儲存自訂表單，則不再追蹤包含該欄位之任何自訂表單中該物件型別的欄位值變更。</p>

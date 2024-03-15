@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: cf63099d2c86ad9a9390deef7df0ad140464276a
+source-git-commit: d2268e50080ddbe306731d034d88fd29b712b86d
 workflow-type: tm+mt
-source-wordcount: '5681'
+source-wordcount: '5694'
 ht-degree: 3%
 
 ---
@@ -125,7 +125,9 @@ ht-degree: 3%
 * **段落文字欄位**：可讓使用者在欄位中輸入多行文字。
 * **含格式的文字欄位**：可讓使用者在欄位中輸入多行文字，並以粗體、斜體、底線、專案符號、編號、超連結和區塊引號格式化文字。 15,000的字元限制可提供大量的文字和格式。
 
-  如需有關透過API存取此欄位的資訊，請參閱API中的RTF文字欄位儲存。
+  清單和報告上的篩選器不支援此自訂欄位型別。
+
+  如需有關透過API存取此欄位的資訊，請參閱 [API中的RTF文字欄位儲存](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/rich-text-field-storage-in-the-api.md).
 
   >[!NOTE]
   >
