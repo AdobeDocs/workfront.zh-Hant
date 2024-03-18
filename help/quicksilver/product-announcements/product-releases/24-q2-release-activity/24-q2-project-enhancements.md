@@ -4,9 +4,9 @@ description: 2024年第二季專案增強功能
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 20f9e9468c85235c0afadfee4d925a796ff89c54
+source-git-commit: c4b7ef023d4b45deade0f56f422b0ba6b6662ee4
 workflow-type: tm+mt
-source-wordcount: '327'
+source-wordcount: '351'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,9 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->預覽版本： 2024年2月13日；快速發行生產：24.3版（2024年3月14日）；所有客戶生產：24.4版（2024年4月）
+>預覽版本： 2024年2月13日；快速版本的生產：24.3版（2024年3月14日）；所有客戶的生產：24.4版（2024年4月）。
+
+<span style="color: #ff0000;">此功能已於2024年3月18日從快速發行客戶的生產中移除。</span>
 
 我們在下列區域的「工作總攬」欄位中，為更相關的智慧指派新增了相同的功能：
 
@@ -36,7 +38,9 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->預覽版本： 2023年12月21日；快速發行生產：24.3版（2024年3月14日）；所有客戶生產：24.4版（2024年4月）
+>預覽版本： 2023年12月21日；快速版本的生產：24.3版（2024年3月14日）；所有客戶的生產：24.4版（2024年4月）。
+
+<span style="color: #ff0000;">此功能已於2024年3月18日從快速發行客戶的生產中移除。</span>
 
 我們已變更Workfront用來計算及建議智慧型任務指派的演演算法。 新演演算法適用於Workfront中指派任務的以下區域：任務清單、任務標題中的「工作」區域、「首頁」和「摘要」面板。
 
