@@ -9,7 +9,7 @@ description: 您可以使用Adobe Workfront Fusion Adobe Workfront聯結器在Wo
 author: Becky
 feature: Workfront Fusion, Workfront Integrations and Apps
 exl-id: b84d2d41-a983-4ea3-b331-0302bfcf8a2b
-source-git-commit: 1c5c348916421efb08cca8170b56f8181e1a4d98
+source-git-commit: 5110370fd934ac53e48d5993604d541c73ffdadf
 workflow-type: tm+mt
 source-wordcount: '5945'
 ht-degree: 2%
@@ -72,7 +72,7 @@ ht-degree: 2%
 
 您可以建立與您的電腦的連線， [!DNL Workfront] 直接從a內的帳戶 [!DNL Workfront Fusion] 模組。
 
-1. 在任何Adobe Authenticator模組中，按一下 **新增** ，位於連線欄位旁。
+1. 在任何Adobe Workfront模組中，按一下 **新增** ，位於連線欄位旁。
 1. 填寫下列欄位：
 
    <table style="table-layout:auto"> 
@@ -1031,7 +1031,7 @@ ht-degree: 2%
    <td> </td> 
   </tr> 
   <tr> 
-   <td>Portfolio</td> 
+   <td>專案組合</td> 
    <td>✓ (A)</td> 
    <td>✓ (A)</td> 
    <td>✓ (A)</td> 
@@ -1376,7 +1376,7 @@ ht-degree: 2%
    <td> </td> 
   </tr> 
   <tr> 
-   <td>Portfolio</td> 
+   <td>專案組合</td> 
    <td>✓ (A)</td> 
    <td>✓ (A)</td> 
    <td>✓ (A)</td> 
@@ -1650,7 +1650,7 @@ ht-degree: 2%
    <td> </td> 
   </tr> 
   <tr> 
-   <td>Portfolio</td> 
+   <td>專案組合</td> 
    <td>✓ (A)</td> 
    <td>✓ (A)</td> 
   </tr> 

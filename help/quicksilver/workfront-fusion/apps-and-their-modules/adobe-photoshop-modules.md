@@ -8,16 +8,16 @@ title: Adobe Photoshop模組
 description: 透過Adobe Photoshop模組，您可以根據Adobe Photoshop帳戶中的事件啟動Adobe Workfront Fusion案例，建立、讀取或更新協定和其他記錄，使用您設定的條件搜尋記錄，以及上傳檔案。
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
-source-git-commit: 0ea4ac4c4579d09dafeed47946ae9c7caf906cfe
+source-git-commit: 8d6f8217a58459539c9e4f4faa43e01d17d6ecee
 workflow-type: tm+mt
-source-wordcount: '1582'
+source-wordcount: '1549'
 ht-degree: 0%
 
 ---
 
 # [!DNL Adobe Photoshop] 模組
 
-在 [!DNL Adobe Workfront Fusion] 情境中，您可以使用自動化工作流程 [!DNL Adobe Photoshop]，並連結至多個協力廠商應用程式和服務。 [!DNL Adobe Photoshop] 模組可讓您建立、讀取、更新或刪除記錄、列出特定型別的所有記錄、根據您指定的條件搜尋記錄，或執行自訂API呼叫至 [!DNL Adobe Photoshop] API。
+在 [!DNL Adobe Workfront Fusion] 情境中，您可以使用自動化工作流程 [!DNL Adobe Photoshop]，並連結至多個協力廠商應用程式和服務。
 
 
 如果您需要有關建立情境的指示，請參閱 [建立情境](../../workfront-fusion/scenarios/create-a-scenario.md).
