@@ -8,9 +8,9 @@ author: Becky
 feature: Workfront Fusion
 hide: true
 hidefromtoc: true
-source-git-commit: 5623ca255478757c58605d05f2f24e56b21a5d78
+source-git-commit: cb2dba1c74f1d33be0bb21a7e1cdd176a3577bb2
 workflow-type: tm+mt
-source-wordcount: '341'
+source-wordcount: '347'
 ht-degree: 1%
 
 ---
@@ -31,6 +31,9 @@ ht-degree: 1%
 
 Fusion AI目前可以產生連線到以下應用程式的模組：
 
+* Adobe Firefly
+* Azure OpenAI
+* Microsoft Graph
 * Adobe大師
 * Adobe Analytics
 * Adobe PDF服務
