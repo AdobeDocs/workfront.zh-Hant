@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: c2e2901b-0558-4a63-ae3c-4c3a6edf0ff0
-source-git-commit: a3830935bea08d6ded54c4444f4030b2e48e7089
+source-git-commit: 215f72a1619a46f28e0b3a2afb73bcb91586b15e
 workflow-type: tm+mt
-source-wordcount: '402'
+source-wordcount: '366'
 ht-degree: 1%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 1%
 
 新的表單設計工具有一個新的畫布樣式工作區，可讓您同時檢視欄位、畫布和欄位設定。 它也可讓您在設計表單時拖放區段內的欄位。
 
-<!-- add screenshot when field settings empty state is ready -->
+![範例表單設計工具](assets/form-designer-example.png)
 
 ## 如何存取新的表單設計工具
 
@@ -41,17 +41,7 @@ ht-degree: 1%
 
   >[!NOTE]
   >
-  >將表單附加至物件後，物件中就不會顯示預設區段。
-
-## 功能即將推出
-
-下列專案目前無法在表單設計工具中使用，但很快將會新增：
-
-* 篩選自動提示欄位
-
->[!IMPORTANT]
->
->使用新表單設計工具時，預先輸入篩選器的現有設定不受影響。
+  >將表單附加至物件後，物件中即不會顯示「預設」區段。
 
 ## 從表單設計工具中移除的功能
 

@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: d2268e50080ddbe306731d034d88fd29b712b86d
+source-git-commit: c508878704cf149f5ed348c581531d266433f0c3
 workflow-type: tm+mt
-source-wordcount: '5694'
+source-wordcount: '5867'
 ht-degree: 3%
 
 ---
@@ -415,7 +415,7 @@ ht-degree: 3%
 
 +++
 
-若要新增預先輸入日期欄位：
+若要新增預先輸入和日期欄位：
 
 1. 在畫面的左側，找到下列其中一個欄位，並將其拖曳至畫布上的區段。
 
@@ -482,6 +482,25 @@ ht-degree: 3%
          <td><ul>
     <li>自動提示</li>
     </ul></td>
+     </tr>
+     <tr>
+      <td role="rowheader">新增篩選器</td>
+      <td><p>為物件型別新增篩選條件，以限制使用者在使用欄位時可以選擇的物件。 </p> <p>例如，您可以限制欄位，以便只有在使用者符合以下條件時才可選取使用者名稱：</p> 
+       <ul> 
+        <li>它們屬於您指定的群組</li> 
+        <li>它們與您指定的角色或職稱相關聯</li> 
+        <li>他們與使用欄位的人屬於同一群組</li> 
+       </ul> <p>您必須使用「文字模式」語法來定義所選物件型別的濾鏡。 如需有關使用文字模式建立篩選的資訊，請參閱 <a href="/help/quicksilver/reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md">使用文字模式編輯篩選器</a>.</p>
+       <p><b>注意</b>：
+       <ul> 
+        <li>如果您正在編輯現有的自訂表單，將篩選條件新增至預先輸入欄位時，不會移除使用者已使用該欄位新增的任何物件（在篩選條件範圍之外）。</li> 
+        <li>此篩選器不適用於行動裝置。 如果您針對「預先輸入」欄位使用篩選器，則該欄位將會顯示在不受篩選器影響之使用者的行動裝置上。</li> 
+        </ul></p></td> 
+      <td>
+       <ul>
+       <li>自動提示</li>
+       </ul>
+      </td>
      </tr>
      <tr> 
       <td role="rowheader">建立必要欄位</td> 
