@@ -8,16 +8,20 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 8eea97e7-1d05-4145-b1fd-855a6d111107
-source-git-commit: 35de4535970d5cd15fcd68f79bf849803f94a77e
+source-git-commit: ccb2b6bb9fa63d29523ff396490f9580ad130bdd
 workflow-type: tm+mt
-source-wordcount: '281'
+source-wordcount: '342'
 ht-degree: 0%
 
 ---
 
 # 編輯自訂表單中自訂欄位、分割槽符號或Widget的屬性
 
-{{highlighted-preview}}
+<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它僅適用於所有客戶的預覽環境，或適用於啟用快速發行的客戶的生產環境。</span>
+
+<span class="preview">如需快速發行版本的相關資訊，請參閱 [啟用或停用組織的快速發行](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
+
+<span class="preview">如需目前版本的相關資訊，請參閱 [2024年第二季版本總覽](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>
 
 您可以在Adobe Workfront執行個體中編輯自訂表單中使用的自訂欄位、分割槽符號或Widget的屬性。 其中包括專案的標籤、名稱、指示等。
 

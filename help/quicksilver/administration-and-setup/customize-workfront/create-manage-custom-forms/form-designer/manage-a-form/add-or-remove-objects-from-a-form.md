@@ -8,16 +8,20 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: c43ea6b2-7d5b-46f0-a092-f57128de60f0
-source-git-commit: 35de4535970d5cd15fcd68f79bf849803f94a77e
+source-git-commit: ccb2b6bb9fa63d29523ff396490f9580ad130bdd
 workflow-type: tm+mt
-source-wordcount: '478'
+source-wordcount: '539'
 ht-degree: 0%
 
 ---
 
 # 使用表單設計工具從現有自訂表單新增或刪除物件型別
 
-{{highlighted-preview}}
+<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它僅適用於所有客戶的預覽環境，或適用於啟用快速發行的客戶的生產環境。</span>
+
+<span class="preview">如需快速發行版本的相關資訊，請參閱 [啟用或停用組織的快速發行](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
+
+<span class="preview">如需目前版本的相關資訊，請參閱 [2024年第二季版本總覽](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>
 
 您可以使用表單設計工具，在現有自訂表單中新增或刪除物件型別。
 
