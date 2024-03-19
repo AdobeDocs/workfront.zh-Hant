@@ -8,9 +8,9 @@ title: Adobe Workfront主機板模組
 description: 您可以使用Adobe Workfront面板聯結器在Workfront面板中自動化您的流程，並將其連線到第三方應用程式和服務。
 author: Becky
 feature: Workfront Fusion, Workfront Integrations and Apps
-source-git-commit: 074bcf15c61f9c0c75cebf774b15baf7fe383f35
+source-git-commit: db3f5b1e406d62fd0d3b99cb108ad824d1a32c24
 workflow-type: tm+mt
-source-wordcount: '2118'
+source-wordcount: '2111'
 ht-degree: 1%
 
 ---
@@ -65,7 +65,7 @@ Adobe Workfront展示板是彈性的工具，可讓團隊透過提供對包含�
 如需有關此表格的詳細資訊，請參閱 [Workfront檔案中的存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 有關的資訊 [!DNL Adobe Workfront Fusion] 授權，請參閱 [[!DNL Adobe Workfront Fusion] 授權](../../workfront-fusion/get-started/license-automation-vs-integration.md).
-Adobe Workfront面板模組及其欄位
+
 
 ## 先決條件
 
