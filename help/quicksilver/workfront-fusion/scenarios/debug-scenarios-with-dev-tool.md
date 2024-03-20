@@ -7,9 +7,9 @@ description: Adobe Workfront Fusion Devtool可讓您瞭解情境並疑難排解�
 author: Becky
 feature: Workfront Fusion
 exl-id: f7557214-3615-4797-b4cb-4af70e4797ac
-source-git-commit: c51169c18bef8ac8126a04c08deb88d830517b0b
+source-git-commit: 7fe35f70cfc7ef346584e3cf525c2553f867ed1f
 workflow-type: tm+mt
-source-wordcount: '1813'
+source-wordcount: '1831'
 ht-degree: 1%
 
 ---
@@ -17,6 +17,10 @@ ht-degree: 1%
 # 使用對案例進行偵錯 [!DNL Adobe Workfront Fusion] Devtool
 
 此 [!DNL Adobe Workfront Fusion] Devtool可讓您瞭解案例並疑難排解。 Devtool會將額外的面板新增至 [!DNL Chrome Developer Tools]. 使用此偵錯工具面板，您可以檢查案例的所有手動執行、檢閱所有已執行的操作，並檢視每個已執行API呼叫的詳細資訊。 您可以檢視導致錯誤的模組、操作或單一回應，並運用該知識來調整您的案例。
+
+>[!NOTE]
+>
+>在機密案例、自動執行和成功操作中，偵錯工具面板中的登入將會受到限制或無法使用。
 
 如需Fusion Devtool的影片簡介和逐步解說，請參閱
 
