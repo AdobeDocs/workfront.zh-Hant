@@ -6,9 +6,9 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: dc97f4a2-9c51-4ccd-8121-c00fd1ac6988
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: ba11f324f6ad68f841bf4266e5eb27f59e25ddae
 workflow-type: tm+mt
-source-wordcount: '1212'
+source-wordcount: '1198'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ Workfront面板中提供的幾項新功能可讓您使用敏捷Scrum功能。 �
 
 請注意，集合已重新命名為工作流程。 工作串流可協助您以不同方式視覺化資料。 您可以在清單中的卡片、展示板或版序上顯示專案。 工作流程中的卡片也可以在多個展示板之間共用。 您可以在工作流程中使用卡片和面板，輕鬆促進工作流程。
 
-如需詳細資訊，請參閱 [管理工作流程](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md)， [在工作串流中建立反複專案](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration-in-workstream.md)、和 [使用卡片清單](/help/quicksilver/agile/use-boards-agile-planning-tools/use-card-list.md). 第二兩篇文章要等到我發佈分支後才能在Main中使用。
+如需詳細資訊，請參閱 [管理工作流程](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md)， [在工作串流中建立反複專案](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration-in-workstream.md)、和 [使用卡片清單](/help/quicksilver/agile/use-boards-agile-planning-tools/use-card-list.md).
 
 [觀看此功能的影片示範](https://video.tv.adobe.com/v/3417059/){target=_blank}
 
