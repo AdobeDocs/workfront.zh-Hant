@@ -4,9 +4,9 @@ description: 2024年第二季度更新流和通知增強功能
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 20f9e9468c85235c0afadfee4d925a796ff89c54
+source-git-commit: d6094d944b7955db8a97b5e1ce0af8cb85f82a9e
 workflow-type: tm+mt
-source-wordcount: '530'
+source-wordcount: '588'
 ht-degree: 0%
 
 ---
@@ -40,6 +40,8 @@ ht-degree: 0%
 
 如需詳細資訊，請參閱 [更新工作](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
+[觀看此功能的示範影片。](https://video.tv.adobe.com/v/3427992/){target=_blank} （關於此特定功能的討論在2:47開始）
+
 ## 新評論體驗上的系統活動標籤支援唯讀評論
 
 >[!NOTE]
@@ -49,6 +51,8 @@ ht-degree: 0%
 對舊版評論體驗中系統活動記錄所做的評論，現在會以唯讀形式填入新評論體驗的「系統活動」標籤中。 您無法回覆新評論體驗中的系統活動記錄。
 
 如需詳細資訊，請參閱 [更新區段概觀](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
+
+[觀看此功能的示範影片。](https://video.tv.adobe.com/v/3427992/){target=_blank} （此特定功能的討論會在影片的2:00點開始。）
 
 ## 新的更新流索引標籤可擷取評論和系統活動專案
 
@@ -62,6 +66,8 @@ ht-degree: 0%
 
 如需詳細資訊，請參閱 [更新區段概觀](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
+[觀看此功能的示範影片。](https://video.tv.adobe.com/v/3427992/){target=_blank} （此特定功能的討論會在影片的0:31開始。）
+
 ## 摘要面板中現在提供新的評論資料流
 
 >[!NOTE]
@@ -71,3 +77,5 @@ ht-degree: 0%
 我們現在已將新的評論功能新增到任務和問題清單的摘要面板。
 
 如需詳細資訊，請參閱 [摘要概觀](/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md).
+
+[觀看此功能的示範影片。](https://video.tv.adobe.com/v/3427991/){target=_blank}
