@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: 4c62b567fa1ebec37fc64831757eb67d4a048c1f
+source-git-commit: e881aa57b5175ce5b559180a2713de0c607b3b1d
 workflow-type: tm+mt
-source-wordcount: '1705'
+source-wordcount: '1704'
 ht-degree: 0%
 
 ---
@@ -162,9 +162,11 @@ role: User
 
 <!-- this list is almost identical to the one for the table view - update both-->
 
-* 您為時間軸檢視建立的篩選器套用至相同記錄型別時，會與表格檢視中的篩選器分開運作。
+* 您為時間軸檢視建立的篩選器與套用至相同記錄型別之任何其他檢視中的篩選器是獨立運作的。
 
-* 這些篩選器對於您選取的檢視而言是唯一的。 相同記錄型別的兩個時間軸檢視可以套用不同的篩選器。 檢視相同時間表檢視的兩個使用者會看到目前套用的相同篩選器。
+* 這些篩選器對於您選取的檢視而言是唯一的。 相同記錄型別的兩個時間軸檢視可以套用不同的篩選器。
+
+* 檢視相同時間表檢視的兩個使用者會看到目前套用的相同篩選器。
 
 * 您無法為您為時間表檢視建置的篩選器命名。
 

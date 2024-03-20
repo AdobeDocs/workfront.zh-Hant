@@ -4,9 +4,9 @@ description: 您可以在行事曆檢視中顯示記錄及其欄位。
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 26d6fecf02541fff649deabe61e65dbe5ae5f688
+source-git-commit: e881aa57b5175ce5b559180a2713de0c607b3b1d
 workflow-type: tm+mt
-source-wordcount: '360'
+source-wordcount: '547'
 ht-degree: 0%
 
 ---
@@ -116,3 +116,32 @@ hide: yes
    * 從時間範圍下拉式選單中選取下列其中一個選項，以更新時間增量：
 
       * 月
+1. 更新下列檢視元素，如下列子區段所述：
+   * [篩選器](#add-filters)
+     <!--* [Grouping](#add-grouping)-->
+     <!--* [Settings](#edit-the-calendar-view-settings)-->
+     <!--* [Sort](#add-sort) not sure if this is present in calendar views?!; also check the anchor and make sure it's correct-->
+
+### 新增篩選器
+
+您可以使用篩選器來減少熒幕上顯示的資訊量。
+
+在行事曆檢視中使用篩選器時，請考慮下列事項：
+
+<!-- this list is almost identical to the one for the table view - update both-->
+
+* 您為行事曆檢視建立的篩選器與套用至相同記錄型別之任何其他檢視中的篩選器分開運作。
+
+* 這些篩選器對於您選取的檢視而言是唯一的。 相同記錄型別的兩個行事曆檢視可以套用不同的篩選器。
+
+* 檢視相同行事曆檢視的兩個使用者會看到目前套用的相同篩選器。
+
+* 您無法命名您為行事曆檢視建立的篩選器。
+
+* 移除篩選器會將篩選器從存取與您相同記錄型別以及顯示與您相同檢視的任何人移除。
+
+* 在行事曆檢視中新增篩選器，與在表格檢視中新增篩選器相同。
+
+  如需詳細資訊，請參閱文章中的「新增篩選器」一節 [管理表格檢視](/help/quicksilver/maestro/views/manage-the-table-view.md).
+
+* 您可以依已連線的記錄欄位或查詢欄位進行篩選，但不能針對允許連結至多個記錄的欄位進行篩選。

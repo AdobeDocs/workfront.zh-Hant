@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: c50ff48bbc492199b39db17b8c445207209bb6a5
+source-git-commit: e881aa57b5175ce5b559180a2713de0c607b3b1d
 workflow-type: tm+mt
-source-wordcount: '1982'
+source-wordcount: '1994'
 ht-degree: 1%
 
 ---
@@ -61,7 +61,7 @@ Adobe Workfront規劃功能是Adobe Workfront推出的全新產品。 規劃功�
 | 建立分類 | ✓ (A) |                                  |                  |
 | 建立個別具名記錄和分類法 | ✓ (A) |                                  |                  |
 | 建立記錄自訂欄位 | ✓ (A) |                                  |                  |
-| 使用Excel或CSV檔案匯入記錄型別和欄位 | ✓ (A) |                                  |                  |
+| 使用Excel或CSV檔案匯入記錄型別和欄位* | ✓ (A) |                                  |                  |
 | 連結記錄 | ✓ (A) |                                  |                  |
 | 檢視表格中的記錄 | ✓ (A) |                                  |                  |
 | 在時間軸中檢視記錄 | ✓ (A) |                                  |                  |
@@ -275,7 +275,12 @@ Adobe Workfront規劃功能是Adobe Workfront推出的全新產品。 規劃功�
 | 您可以在記錄型別表格中貼上的檔案大小 | 1MB |
 | 您可以透過記錄型別表格的API匯入的檔案大小 | 1.5毫巴 |
 | 提出API要求的速率 | 每分鐘200個請求 |
-| 您可在表格中匯入的Excel檔案CSV大小 | 5MB |
+| 您可以匯入的Excel檔案CSV大小* | 5MB |
+
+>[!IMPORTANT]
+>
+>*此功能已暫時停用，將於稍後提供
+
 
 ## 找到Adobe Workfront規劃功能
 

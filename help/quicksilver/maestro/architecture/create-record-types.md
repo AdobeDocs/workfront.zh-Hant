@@ -1,13 +1,13 @@
 ---
 title: 建立作業記錄型別
-description: 記錄型別是Adobe大師(Maestro)的物件型別。 在Maestro中，您可以建立自訂記錄型別，以說明組織生命週期中所需的工作專案。
+description: 記錄型別是Adobe Workfront計畫的物件型別。 在Workfront Planning中，您可以建立自訂記錄型別，以說明組織生命週期中所需的工作專案。
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: ed1c4954-b338-4865-a7a9-5ba0192e7b37
-source-git-commit: 5681b540bceddaae85116b632e968d94761eec0d
+source-git-commit: e881aa57b5175ce5b559180a2713de0c607b3b1d
 workflow-type: tm+mt
-source-wordcount: '1189'
+source-wordcount: '1234'
 ht-degree: 0%
 
 ---
@@ -18,14 +18,14 @@ ht-degree: 0%
 
 {{maestro-important-intro}}
 
-記錄型別是Adobe大師(Maestro)的物件型別。 在Maestro中，您可以建立自訂記錄型別，以說明組織生命週期中所需的工作相關專案。
+記錄型別是Adobe Workfront計畫的物件型別。 在Workfront Planning中，您可以建立自訂記錄型別，以說明組織生命週期中所需的工作相關專案。
 
 記錄型別可以是下列其中一項：
 
 * **作業記錄型別**
 * **分類**
 
-如需有關Maestro記錄型別的詳細資訊，請參閱 [記錄型別和分類概觀](../architecture/overview-of-record-types-and-taxonomies.md).
+如需有關記錄型別的詳細資訊，請參閱 [記錄型別和分類概觀](../architecture/overview-of-record-types-and-taxonomies.md).
 
 建立作業記錄型別與建立分類記錄型別類似。 本文說明如何建立作業記錄型別。
 
@@ -45,12 +45,12 @@ ht-degree: 0%
 <tr>
 <td>
    <p> 產品</p> </td>
-   <td>
+   <td> Adobe Workfront
    </td>
   </tr>  
  <td role="rowheader"><p>Adobe Workfront合約</p></td>
    <td>
-<p>貴組織必須註冊AdobeMaestro封閉測試版計畫。 請聯絡您的客戶代表以查詢此新產品/服務。 </p>
+<p>貴組織必須註冊Adobe Workfront計畫封閉測試版計畫。 請聯絡您的客戶代表以查詢此新產品/服務。 </p>
    </td>
   </tr>
   <tr>
@@ -62,13 +62,15 @@ ht-degree: 0%
   <tr>
    <td role="rowheader"><p>Adobe Workfront授權</p></td>
    <td>
-   <p>任何</p> 
+   <p>目前：計畫</p>
+   或
+   <p>新增：標準 </p> 
   </td>
   </tr>
 
 <tr>
    <td role="rowheader"><p>存取層級設定</p></td>
-   <td> <p>Maestro沒有存取層級控制項</p>  
+   <td> <p>Workfront計畫沒有存取層級控制項</p>  
 </td>
   </tr>
 <tr>
@@ -105,6 +107,11 @@ ht-degree: 0%
 
         如需詳細資訊，請參閱 [建立工作區](../architecture/create-workspaces.md).
       * 當您使用Excel或CSV檔案匯入時。 這不適用於分類記錄型別。
+
+        >[!IMPORTANT]
+        >
+        >此功能自2024年3月21日起已暫時停用。 這會在稍後啟用。
+
      <!--this should not ne known anymore: * When you add objects from another application to a linked record field of a Maestro record. This creates a read-only record type in Maestro which is connected to object types from the original application. 
         For information about connecting record types with object types from another application, see [Connect record types](/help/quicksilver/maestro/architecture/connect-record-types.md).
         For information about connecting objects with Maestro records, see [Connect records](/help/quicksilver/maestro/records/connect-records.md). -->
@@ -114,7 +121,7 @@ ht-degree: 0%
 
 ## 使用工作區範本建立記錄型別
 
-使用範本建立工作區時，您可以自動建立記錄型別。 每個Maestro範本都包含作業和分類記錄型別的範例。
+當您使用Workfront規劃範本建立工作區時，可以自動建立記錄型別。 每個範本都包含範例作業和分類記錄型別。
 
 如需有關建立工作區的資訊，請參閱 [建立工作區](../architecture/create-workspaces.md).
 
@@ -191,14 +198,19 @@ ht-degree: 0%
 
 ## 匯入Excel或CSV檔案來建立記錄型別
 
+>[!IMPORTANT]
+>
+>此功能自2024年3月21日起已暫時停用。 這會在稍後啟用。
+
+
 使用Excel或CSV檔案匯入記錄型別時，請考量下列事項：
 
-* 在Maestro中，每一張Excel檔案都會變成記錄型別。
+* Excel檔案的每一頁都會變成記錄型別。
 * 每個工作表的欄會成為與每個記錄型別相關聯的欄位。
 * 欄位對於其各自的記錄型別來說都是唯一的。
 * 每個工作表中的每一列都會成為與其個別記錄型別相關聯的唯一記錄。
 * 每個Excel檔案工作表不應超過下列專案：
-   * 10,000列
+   * 50,000列
    * 500欄
 * Excel檔案不應大於5MB。
 * 不支援空白工作表。
@@ -222,7 +234,7 @@ ht-degree: 0%
 
    「預覽和編輯」方塊會顯示下列資訊：
 
-   * 工作表或未來記錄型別的名稱會顯示在左側面板中。 依預設，Maestro會選取每個新記錄型別的圖示和顏色。
+   * 工作表或未來記錄型別的名稱會顯示在左側面板中。 Workfront planning依預設會選取每個新記錄型別的圖示和顏色。
    * 選擇第一個工作表或記錄型別，並且與其關聯的欄位名稱顯示為欄標題。 依預設，會選取每個欄位的型別。
    * 每一列代表新記錄。 只有前10筆記錄會顯示在「預覽與編輯」方塊中。
 
@@ -243,7 +255,7 @@ ht-degree: 0%
 
 1. 按一下 **匯入** 當您準備好匯入檔案時。
 
-   下列資訊會匯入Maestro中：
+   下列資訊會匯入至Workfront planning：
 
    * 新記錄型別
    * 與每個記錄型別關聯的新欄位
@@ -251,7 +263,7 @@ ht-degree: 0%
 
    您可以開始管理記錄型別頁面上的欄位和記錄。
 
-   所有有權存取Maestro的人員現在都可以檢視及編輯匯入的記錄型別及其資訊。 <!--this will change with permissions-->
+   所有有權存取Workfront Planning的人員現在都能檢視及編輯匯入的記錄型別及其資訊。 <!--this will change with permissions-->
 
 <!--## Connect record types with object types from another application
 

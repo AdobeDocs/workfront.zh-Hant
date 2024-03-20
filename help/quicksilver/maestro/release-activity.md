@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: c50ff48bbc492199b39db17b8c445207209bb6a5
+source-git-commit: e881aa57b5175ce5b559180a2713de0c607b3b1d
 workflow-type: tm+mt
-source-wordcount: '4925'
+source-wordcount: '5057'
 ht-degree: 0%
 
 ---
@@ -31,6 +31,36 @@ ht-degree: 0%
 >[!IMPORTANT]
 >
 >在功能發行至生產環境後的某個時間，將可使用以下各節中參考的檔案。
+
+## 2024年3月18日起一週
+
+### 行事曆檢視中可用的篩選器
+
+生產： 2024年3月19日
+
+預覽：待定
+
+您現在可以在行事曆檢視中篩選資訊。 如需詳細資訊，請參閱 [管理行事曆檢視](/help/quicksilver/maestro/views/manage-the-calendar-view.md).
+
+### 時間軸和行事曆檢視中新增的詳細資訊方塊
+
+生產： 2024年3月19日
+
+預覽：待定
+
+您現在可以從時間軸和行事曆檢視存取記錄的「詳細資訊」方塊。 您可以在時間軸和行事曆檢視內的「詳細資訊」方塊中編輯記錄。
+
+從「詳細資訊」方塊，您可以開啟記錄的「詳細資訊」頁面。
+
+如需詳細資訊，請參閱 [編輯記錄](/help/quicksilver/maestro/records/edit-records.md).
+
+### 記錄型別Excel匯入暫時停用
+
+生產： 2024年3月21日
+
+預覽：待定
+
+我們正在暫時停用使用Excel或CSV檔案匯入記錄型別。 此功能將在稍後提供。
 
 ## 2024年3月11日起一週
 

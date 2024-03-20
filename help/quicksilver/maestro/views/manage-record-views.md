@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: c50ff48bbc492199b39db17b8c445207209bb6a5
+source-git-commit: e881aa57b5175ce5b559180a2713de0c607b3b1d
 workflow-type: tm+mt
-source-wordcount: '948'
+source-wordcount: '949'
 ht-degree: 1%
 
 ---
@@ -131,7 +131,7 @@ ht-degree: 1%
 | 在檢視中新增欄位作為新欄 | ✓ (A) |               |         |
 | 從外部清單複製列並將它們貼到表格中 | ✓ (A) |               |          |
 | 在時間軸中顯示記錄 |            | ✓ (A) |             |
-| 篩選記錄 | ✓ (A) | ✓ (A) |           |
+| 篩選記錄 | ✓ (A) | ✓ (A) | ✓ (A) |
 | 顯示行事曆上的記錄 |           |              | ✓ (A) |
 | 群組記錄 | ✓ (A) | ✓ (A) |
 | 排序記錄 | ✓ (A) |              |
