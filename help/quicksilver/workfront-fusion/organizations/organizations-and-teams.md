@@ -8,9 +8,9 @@ description: Adobe Workfront Fusion的「組織」和「團隊」功能可讓企
 author: Becky
 feature: Workfront Fusion
 exl-id: 601e937f-0286-4557-9a87-59aa9c0c22f1
-source-git-commit: 7c05196cd00765a506e028627305ba17978e410d
+source-git-commit: 063c4a885d43b41ba6ff72ac22a1552486531fa6
 workflow-type: tm+mt
-source-wordcount: '1266'
+source-wordcount: '1239'
 ht-degree: 0%
 
 ---
@@ -169,19 +169,13 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->如果您存取 [!DNL Fusion] 透過 [!DNL Adobe Experience Cloud]，您的通知會在中處理 [!DNL Experience Cloud] 通知中心。
->
->如需詳細資訊，請參閱 [存取您的通知](/help/quicksilver/workfront-fusion/fusion-in-admin-console/fusion-unified-experience.md#access-your-notifications) 在 [[!DNL Adobe Unified Experience] 的 [!DNL Workfront Fusion]](/help/quicksilver/workfront-fusion/fusion-in-admin-console/fusion-unified-experience.md)
-
-在團隊層級設定電子郵件通知選項。
-
->[!NOTE]
->
 >如果您的組織已移至Unified Shell，您將會透過「Adobe通知」區域收到通知。 您必須使用Unified Shell體驗才能在Adobe通知區域中檢視通知。
 >
 >若要使用Unified Shell Experience (包括Adobe通知區域)，請按一下靠近頁面頂端的在Unified Experience中嘗試新的Fusion UI按鈕。 此按鈕僅在您的組織已移至Unified Shell時可用。
 >
->如需在Unified Shell中尋找通知的詳細資訊，請參閱 [存取您的通知](/help/quicksilver/workfront-fusion/fusion-in-admin-console/fusion-unified-experience.md#access-your-notifications).
+>如需詳細資訊，請參閱 [存取您的通知](/help/quicksilver/workfront-fusion/fusion-in-admin-console/fusion-unified-experience.md#access-your-notifications) 在 [!DNL Adobe Unified Experience] 的 [!DNL Workfront Fusion].
+
+在團隊層級設定電子郵件通知選項。
 
 1. 在左側導覽面板中，按一下 **[!UICONTROL 團隊]**
 1. 選取 **[!UICONTROL 通知選項]** 標籤。
