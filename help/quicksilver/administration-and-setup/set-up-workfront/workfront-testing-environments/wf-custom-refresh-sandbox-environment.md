@@ -9,9 +9,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: e18c005b-e6ff-4a1e-a589-63132f3a8ad2
-source-git-commit: 0bfeae7db0e3dfbb402ee602b4ede97cb6c605fa
+source-git-commit: 8ceb370df6ff6f3a7a4376d6086fbabe99609e29
 workflow-type: tm+mt
-source-wordcount: '1595'
+source-wordcount: '1605'
 ht-degree: 0%
 
 ---
@@ -197,6 +197,8 @@ If you are a Workfront Goals customer, Workfront Goals data does not transfer to
 
 ## 預期用途與可用性
 
-[!DNL Workfront] 自訂重新整理沙箱環境不適用於效能或負載測試。 反之，使用這些環境來驗證組織現有工作流程的功能性。
+* [!DNL Workfront] 自訂重新整理沙箱環境不適用於效能或負載測試。 反之，使用這些環境來驗證組織現有工作流程的功能性。
 
-[!DNL Workfront] 自訂重新整理沙箱環境旨在永遠可用。 Workfront自訂重新整理沙箱環境在正常工作時間內發生的任何中斷，都是解決任何生產問題（如果存在）後立即優先考慮的事項。 Workfront自訂重新整理沙箱環境在週末（星期六和星期日）發生的任何中斷都會得到解決，因此環境會在星期一的營業時間執行。
+* [!DNL Workfront] 自訂重新整理沙箱環境旨在永遠可用。 Workfront自訂重新整理沙箱環境在正常工作時間內發生的任何中斷，都是解決任何生產問題（如果存在）後立即優先考慮的事項。 Workfront自訂重新整理沙箱環境在週末（星期六和星期日）發生的任何中斷都會得到解決，因此環境會在星期一的營業時間執行。
+
+* 校訂在自訂重新整理沙箱環境中不可用。
