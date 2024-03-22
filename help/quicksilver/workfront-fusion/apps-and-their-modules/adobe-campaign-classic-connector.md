@@ -9,9 +9,9 @@ description: 使用 [!DNL Adobe Campaign] 模組，您可以啟動 [!DNL Adobe W
 author: Becky
 feature: Workfront Fusion
 exl-id: 84e8fa35-0c3c-46bd-8886-88c6d8d9e1d5
-source-git-commit: 33488d46a14dae070083f28f56e1347da3944ca0
+source-git-commit: 7decc5cbf4bb2c3d4d1802dec1f369ca061f6b48
 workflow-type: tm+mt
-source-wordcount: '1383'
+source-wordcount: '1434'
 ht-degree: 0%
 
 ---
@@ -58,6 +58,13 @@ ht-degree: 0%
 若要瞭解您擁有的計畫、授權型別或存取權，請聯絡您的 [!DNL Workfront] 管理員。
 
 有關的資訊 [!DNL Adobe Workfront Fusion] 授權，請參閱 [[!DNL Adobe Workfront Fusion] 授權](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+
+## 先決條件
+
+您必須將Fusion IP位址新增至 [!DNL Adobe Campaign].
+
+* 如需將IP位址新增至您的Campaign允許清單的說明，請參閱 [將IP位址新增至允許清單](https://experienceleague.adobe.com/en/docs/control-panel/using/sftp-management/ip-range-allow-listing#adding-ip-addresses-allow-list) (位於Adobe Campaign檔案中)。
+* 如需新增至允許清單的IP位址清單，請參閱 [用於存取Adobe Workfront Fusion的IP位址](/help/quicksilver/workfront-fusion/get-started/ip-addresses-for-fusion.md).
 
 ## 連線 [!DNL Adobe Campaign] 至 [!DNL Adobe Workfront Fusion]
 
