@@ -4,9 +4,9 @@ description: 2024年第二季度更新流和通知增強功能
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: d6094d944b7955db8a97b5e1ce0af8cb85f82a9e
+source-git-commit: 4387c4cda66384f9d988d82cab5e7ed90a70173e
 workflow-type: tm+mt
-source-wordcount: '588'
+source-wordcount: '582'
 ht-degree: 0%
 
 ---
@@ -52,7 +52,7 @@ ht-degree: 0%
 
 如需詳細資訊，請參閱 [更新區段概觀](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
-[觀看此功能的示範影片。](https://video.tv.adobe.com/v/3427992/){target=_blank} （此特定功能的討論會在影片的2:00點開始。）
+[觀看此功能的示範影片。](https://video.tv.adobe.com/v/3427992/){target=_blank} （關於此特定功能的討論在2:00開始）
 
 ## 新的更新流索引標籤可擷取評論和系統活動專案
 
@@ -66,7 +66,7 @@ ht-degree: 0%
 
 如需詳細資訊，請參閱 [更新區段概觀](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
-[觀看此功能的示範影片。](https://video.tv.adobe.com/v/3427992/){target=_blank} （此特定功能的討論會在影片的0:31開始。）
+[觀看此功能的示範影片。](https://video.tv.adobe.com/v/3427992/){target=_blank} （有關此特定功能的討論在0:31開始）
 
 ## 摘要面板中現在提供新的評論資料流
 
