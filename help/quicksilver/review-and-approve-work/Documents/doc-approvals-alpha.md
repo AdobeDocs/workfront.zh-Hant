@@ -9,9 +9,9 @@ hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: 0ede24f4-4bba-4812-9dd9-e7af77ea5ecc
-source-git-commit: 580ed17642f2f7e20e507de00f61aec7f7a3b131
+source-git-commit: 86ae4fee243bbb2bee6f32c081b6b9debcc3e9b3
 workflow-type: tm+mt
-source-wordcount: '575'
+source-wordcount: '645'
 ht-degree: 0%
 
 ---
@@ -26,6 +26,20 @@ ht-degree: 0%
 
 ## 最新版本
 
+## Alpha第7發行版本 — 2024年3月
+
+在此第7個Alpha版本中，我們有：
+
+* 新增功能，讓您為檔案核准建立截止日期。
+* 推出核准範本，現在可建立這些範本並套用至您的核准，以節省設定時間。
+* 更新核准Widget，現在顯示多個關鍵績效指標，並附上詳細清單，供您進一步深入研究。
+
+請觀看下方的完整影片逐步解說：
+
+>[!VIDEO](https://video.tv.adobe.com/v/3428023/)
+
+## _過去的版本_
+
 ## Alpha第6發行版本 — 2024年1月
 
 在此第6個Alpha版本中，我們有：
@@ -37,8 +51,6 @@ ht-degree: 0%
 請觀看下方的完整影片逐步解說：
 
 >[!VIDEO](https://video.tv.adobe.com/v/3426860/)
-
-## _過去的版本_
 
 ### Alpha版本5 - 2023年9月
 
