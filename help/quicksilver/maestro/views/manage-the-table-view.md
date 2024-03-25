@@ -1,13 +1,13 @@
 ---
 title: 管理表格檢視
-description: 存取Adobe Workfront規劃功能中的記錄型別頁面時，您可以在表格檢視中顯示記錄及其欄位。
+description: 存取Adobe Workfront規劃中的記錄型別頁面時，您可以在表格檢視中顯示記錄及其欄位。
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: 4c62b567fa1ebec37fc64831757eb67d4a048c1f
+source-git-commit: a0f12a016ae8ac73136f05bf3255f9882e2ce6d4
 workflow-type: tm+mt
-source-wordcount: '2400'
+source-wordcount: '2395'
 ht-degree: 3%
 
 ---
@@ -28,7 +28,7 @@ hide: yes
 
 {{maestro-important-intro}}
 
-存取Adobe Workfront規劃功能中的記錄型別頁面時，您可以在表格檢視中顯示記錄及其欄位。
+存取Adobe Workfront規劃中的記錄型別頁面時，您可以在表格檢視中顯示記錄及其欄位。
 
 如需有關記錄檢視以及如何管理檢視的資訊，請參閱 [管理記錄檢視](../views/manage-record-views.md).
 
@@ -51,7 +51,7 @@ hide: yes
   </tr>  
  <td role="rowheader"><p>Adobe Workfront合約</p></td>
    <td>
-<p>貴組織必須註冊Adobe Workfront規劃功能封閉測試版計畫。 請聯絡您的客戶代表以查詢此新產品/服務。 </p>
+<p>貴組織必須註冊Adobe Workfront計畫Beta版計畫。 請聯絡您的客戶代表以查詢此新產品/服務。 </p>
    </td>
   </tr>
   <tr>
@@ -69,7 +69,7 @@ hide: yes
 
 <tr>
    <td role="rowheader">存取層級設定</td>
-   <td> <p>Adobe Workfort規劃功能沒有存取層級控制項 </p>  
+   <td> <p>AdobeWorkfront計畫沒有存取層級控制項</p>  
 </td>
   </tr>
 

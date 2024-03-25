@@ -3,9 +3,9 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文件、教學課程和其他資源，了解如何在您的組織中實施並有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: 593612fea52d917904605cf3d97403347c9c9ac0
+source-git-commit: c3ba1d5fe789dec76e5513583d35679be290f14a
 workflow-type: tm+mt
-source-wordcount: '14044'
+source-wordcount: '14037'
 ht-degree: 1%
 
 ---
@@ -2025,13 +2025,13 @@ ht-degree: 1%
       * [啟用Adobe Workfront目標通知](workfront-goals/workfront-goals-settings/wf-goals-notifications.md)
 * Adobe大師 {#adobe-maestro}
    * [Adobe大師資訊](maestro/maestro-information.md)
-   * [Adobe Workfront規劃功能概觀](maestro/maestro-overview.md)
-   * [Adobe Workfront規劃功能發行活動](maestro/release-activity.md)
+   * [Adobe Workfront規劃概觀](maestro/maestro-overview.md)
+   * [Adobe Workfront規劃發行活動](maestro/release-activity.md)
    * Adobe大師架構 {#adobe-maestro-architecture}
       * [架構：文章索引](maestro/architecture/architecture-information.md)
       * [建立工作區](maestro/architecture/create-workspaces.md)
-      * [記錄型別和分類概觀](maestro/architecture/overview-of-record-types-and-taxonomies.md)
-      * [建立作業記錄型別](maestro/architecture/create-record-types.md)
+      * [記錄型別概觀](maestro/architecture/overview-of-record-types-and-taxonomies.md)
+      * [建立記錄型別](maestro/architecture/create-record-types.md)
       * [建立分類記錄型別](maestro/architecture/create-a-taxonomy.md)
       * [連線記錄型別](maestro/architecture/connect-record-types.md)
       * [編輯記錄型別](maestro/architecture/edit-record-types.md)
@@ -2051,7 +2051,7 @@ ht-degree: 1%
       * [存取資訊](maestro/access/access-information.md)
       * [存取權總覽](maestro/access/access-overview.md)
       * [在Adobe Workfront規劃功能中共用許可權的概觀](maestro/access/sharing-permissions-overview.md)
-      * [使用Adobe Workfront規劃功能時的授權型別概觀](maestro/access/license-type-overview.md)
+      * [使用Adobe Workfront規劃時的授權型別概觀](maestro/access/license-type-overview.md)
       * [共用工作區](maestro/access/share-workspaces.md)
       * [共用檢視](maestro/access/share-views.md)
    * AdobeMaestro記錄 {#adobe-maestro-records}

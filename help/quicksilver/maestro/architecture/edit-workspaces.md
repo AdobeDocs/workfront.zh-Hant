@@ -4,22 +4,23 @@ description: 您可以編輯現有工作區的資訊，例如重新命名。
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 4016ba2c1b94ba84037612bdc9c1136267513fd5
+exl-id: 374b6d9c-69a9-4a73-8708-51c14a78c7c9
+source-git-commit: a0f12a016ae8ac73136f05bf3255f9882e2ce6d4
 workflow-type: tm+mt
-source-wordcount: '279'
+source-wordcount: '275'
 ht-degree: 0%
 
 ---
 
-<!--update the metadata with real information when making this avilable in TOC and in the left nav-->
+<!--update the metadata with real information when making this available in TOC and in the left nav-->
 
 # 編輯工作區
 
 {{maestro-important-intro}}
 
-在Adobe大師，工作區是團隊計畫工作的集中位置。
+在Adobe Workfront計畫中，工作區是團隊計畫工作的集中位置。
 
-工作區是團隊使用的操作記錄型別和分類法的集合，代表團隊的工作生命週期。 您可以在Maestro中完全自訂工作區。
+工作區是團隊使用的記錄型別集合，代表團隊的工作生命週期。 您可以在Adobe Workfront規劃中完全自訂工作區。
 
 如需有關建立工作區的資訊，請參閱 [建立工作區](/help/quicksilver/maestro/architecture/create-workspaces.md).
 
@@ -42,7 +43,7 @@ ht-degree: 0%
   </tr>  
  <td role="rowheader"><p>Adobe Workfront合約</p></td>
    <td>
-<p>貴組織必須註冊AdobeMaestro封閉測試版計畫。 請聯絡您的客戶代表以查詢此新產品/服務。 </p>
+<p>貴組織必須註冊Adobe Workfront計畫封閉測試版計畫。 請聯絡您的客戶代表以查詢此新產品/服務。 </p>
    </td>
   </tr>
   <tr>
@@ -61,7 +62,7 @@ ht-degree: 0%
 
 <tr>
    <td role="rowheader"><p>存取層級設定</p></td>
-   <td> <p>Maestro沒有存取層級控制項</p>
+   <td> <p>Workfront計畫沒有存取層級控制項</p>
 </td>
   </tr>
 
@@ -73,7 +74,7 @@ ht-degree: 0%
 
 <tr>
    <td role="rowheader"><p>版面配置範本</p></td>
-   <td> <p>您必須將Maestro區域新增至您的版面配置範本。 如需詳細資訊，請參閱 <a href="../access/access-overview.md">存取權總覽</a>. </p>  
+   <td> <p>您必須將Planning區域新增至版面配置範本。 如需詳細資訊，請參閱 <a href="../access/access-overview.md">存取權總覽</a>. </p>  
 </td>
   </tr>
 
@@ -87,7 +88,7 @@ ht-degree: 0%
 
 {{step1-to-maestro}}
 
-這會開啟Maestro的「工作區」區域。
+這會開啟Workfront規劃的「工作區」區域。
 
 1. 在新工作區標題的工作區名稱內按一下以重新命名，然後按下 **輸入**
 
@@ -99,11 +100,7 @@ ht-degree: 0%
 
    如需詳細資訊，請參閱 [建立記錄型別](../architecture/create-record-types.md).
 
-1. （選用）按一下 **新增分類法** 將分類新增至工作區。
-
-   如需詳細資訊，請參閱 [建立分類](../architecture/create-a-taxonomy.md).
-
-1. （選擇性）按一下「檢視」(View)下拉式功能表以編輯現有檢視或建立檢視。
+1. （選擇性）按一下檢視標籤中的檢視名稱，編輯現有檢視或按一下 **+檢視** 以建立檢視。
 
    如需詳細資訊，請參閱 [管理記錄檢視](/help/quicksilver/maestro/views/manage-record-views.md).
 

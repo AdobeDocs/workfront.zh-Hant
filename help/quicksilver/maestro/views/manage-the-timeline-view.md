@@ -1,13 +1,13 @@
 ---
 title: 管理時間表檢視
-description: 存取Adobe Workfront規劃功能中的記錄型別頁面時，您可以在時間軸檢視中顯示記錄。
+description: 存取Adobe Workfront規劃中的記錄型別頁面時，您可以在時間軸檢視中顯示記錄。
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: e881aa57b5175ce5b559180a2713de0c607b3b1d
+source-git-commit: a0f12a016ae8ac73136f05bf3255f9882e2ce6d4
 workflow-type: tm+mt
-source-wordcount: '1704'
+source-wordcount: '1699'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ role: User
 
 {{maestro-important-intro}}
 
-存取Adobe Workfront規劃功能中的記錄型別頁面時，您可以在時間軸檢視中顯示記錄。
+存取Adobe Workfront規劃中的記錄型別頁面時，您可以在時間軸檢視中顯示記錄。
 
 如需有關記錄檢視的資訊，請參閱 [管理記錄檢視](../views/manage-record-views.md).
 
@@ -51,7 +51,7 @@ role: User
   </tr>  
  <td role="rowheader"><p>Adobe Workfront合約</p></td>
    <td>
-<p>貴組織必須註冊Adobe Workfront規劃功能封閉測試版計畫。 請聯絡您的客戶代表以查詢此新產品/服務。 </p>
+<p>貴組織必須註冊Adobe Workfront計畫Beta版計畫。 請聯絡您的客戶代表以查詢此新產品/服務。 </p>
    </td>
   </tr>
   <tr>
@@ -69,7 +69,7 @@ role: User
 
 <tr>
    <td role="rowheader">存取層級設定</td>
-   <td> <p>Adobe Workfront規劃功能沒有存取層級控制項 </p>  
+   <td> <p>Adobe Workfront計畫沒有存取層級控制項 </p>  
 </td>
   </tr>
 
@@ -81,7 +81,7 @@ role: User
 
 <tr>
    <td role="rowheader">版面配置範本</td>
-   <td> <p>您的系統管理員必須在您的版面配置範本中新增Maestro區域。 如需詳細資訊，請參閱 <a href="../access/access-overview.md">存取權總覽</a>. </p>  
+   <td> <p>您的系統管理員必須在版面配置範本中新增Planning區域。 如需詳細資訊，請參閱 <a href="../access/access-overview.md">存取權總覽</a>. </p>  
 </td>
   </tr>
  </tbody>

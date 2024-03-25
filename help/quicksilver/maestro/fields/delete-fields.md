@@ -1,13 +1,13 @@
 ---
 title: 刪除欄位
-description: 在Adobe大師，您可以刪除不再相關的自訂欄位。
+description: 在Adobe Workfront規劃中，您可以刪除不再相關的自訂欄位。
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: ec48db42-2395-4439-97ae-e4f5242170b7
-source-git-commit: 4016ba2c1b94ba84037612bdc9c1136267513fd5
+source-git-commit: a0f12a016ae8ac73136f05bf3255f9882e2ce6d4
 workflow-type: tm+mt
-source-wordcount: '325'
+source-wordcount: '332'
 ht-degree: 0%
 
 ---
@@ -29,13 +29,13 @@ recommendations: noDisplay, noCatalog
 
 {{maestro-important-intro}}
 
-在Adobe Maestro中，您可以建立自訂欄位來儲存有關記錄的資訊。
+在Adobe Workfront Planning中，您可以建立自訂欄位來儲存有關記錄的資訊。
 
-如需有關在Maestro中建立自訂欄位的資訊，請參閱 [建立欄位](../fields/create-fields.md).
+如需有關在Workfront Planning中建立自訂欄位的資訊，請參閱 [建立欄位](../fields/create-fields.md).
 
-您可以刪除不再相關的「大師」欄位。
+您可以刪除不再相關的Workfront規劃欄位。
 
-## 有關刪除主要欄位的考量事項：
+## 有關刪除Workfront規劃欄位的考量事項：
 
 * 您只能在記錄型別表格檢視中刪除欄位。
 * 您無法刪除記錄的主要欄位。
@@ -65,7 +65,7 @@ recommendations: noDisplay, noCatalog
   </tr>  
  <td role="rowheader"><p>Adobe Workfront合約</p></td>
    <td>
-<p>貴組織必須註冊AdobeMaestro封閉測試版計畫。 請聯絡您的客戶代表以查詢此新產品/服務。 </p>
+<p>貴組織必須註冊Adobe Workfront計畫Beta版計畫。 請聯絡您的客戶代表以查詢此新產品/服務。 </p>
    </td>
   </tr>
   <tr>
@@ -83,12 +83,12 @@ recommendations: noDisplay, noCatalog
 
 <tr>
    <td role="rowheader"><p>存取層級設定</p></td>
-   <td> <p>Maestro沒有存取層級控制項</p>  
+   <td> <p>Workfront計畫沒有存取層級控制項</p>  
 </td>
   </tr>
 <tr>
    <td role="rowheader"><p>版面配置範本</p></td>
-   <td> <p>您的Workfront或群組管理員必須在您的版面配置範本中新增Maestro區域。 如需詳細資訊，請參閱 <a href="../access/access-overview.md">存取權總覽</a>. </p>  
+   <td> <p>您的Workfront或群組管理員必須在版面配置範本中新增Planning區域。 如需詳細資訊，請參閱 <a href="../access/access-overview.md">存取權總覽</a>. </p>  
 </td>
   </tr>
 <tr>
@@ -113,7 +113,7 @@ recommendations: noDisplay, noCatalog
 
 {{step1-to-maestro}}
 
-這會開啟Maestro中上次存取的工作區。
+這會開啟Workfront規劃中上次存取的工作區。
 1. 按一下要刪除其欄位的記錄型別的卡片。
 1. （視條件而定）選取 **表格檢視** 從 **檢視** 記錄型別頁面右上角的下拉式功能表。
 1. 在欄標題中尋找要刪除的欄位，並將滑鼠游標停留在欄標題上，然後按一下欄位名稱后面的向下箭頭。

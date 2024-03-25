@@ -1,12 +1,13 @@
 ---
 title: 新增縮圖至記錄
-description: 您可以在「Adobe大師」中編輯記錄資訊，並將每個記錄與個別縮圖建立關聯，以便輕鬆識別。
+description: 您可以在Adobe Workfront Planning中編輯記錄資訊，並將每個記錄與個別縮圖建立關聯，以便輕鬆識別。
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 4016ba2c1b94ba84037612bdc9c1136267513fd5
+exl-id: b22c4955-c3f2-4841-a278-bb40e8890ed9
+source-git-commit: a0f12a016ae8ac73136f05bf3255f9882e2ce6d4
 workflow-type: tm+mt
-source-wordcount: '539'
+source-wordcount: '542'
 ht-degree: 0%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 0%
 
 {{maestro-important-intro}}
 
-您可以在Adobe Maestro中將記錄與唯一縮圖建立關聯，以便輕鬆識別。
+您可以在Adobe Workfront Planning中將記錄與唯一縮圖建立關聯，以便輕鬆識別。
 
 您必須先建立記錄型別，才能開始建立和編輯記錄。
 如需詳細資訊，請參閱 [建立記錄型別](../architecture/create-record-types.md).
@@ -43,7 +44,7 @@ ht-degree: 0%
   </tr>  
  <td role="rowheader"><p>Adobe Workfront合約</p></td>
    <td>
-<p>貴組織必須註冊AdobeMaestro封閉測試版計畫。 請聯絡您的客戶代表以查詢此新產品/服務。 </p>
+<p>貴組織必須註冊Adobe Workfront計畫Beta版計畫。 請聯絡您的客戶代表以查詢此新產品/服務。 </p>
    </td>
   </tr>
   <tr>
@@ -61,7 +62,7 @@ ht-degree: 0%
 
 <tr>
    <td role="rowheader"><p>存取層級設定</p></td>
-   <td> <p>Maestro沒有存取控制 </p>  
+   <td> <p>Workfront計畫沒有存取控制 </p>  
 </td>
   </tr>
 <tr>
@@ -72,7 +73,7 @@ ht-degree: 0%
   </tr>
 <tr>
    <td role="rowheader"><p>版面配置範本</p></td>
-   <td>  <p>必須為所有使用者(包括Workfront管理員)指派一個版面配置範本，該範本包含主功能表中的Maestro區域。 </p> <p>如需詳細資訊，請參閱 <a href="/help/quicksilver/maestro/access/access-overview.md">存取權總覽</a>. </p>  
+   <td>  <p>必須為所有使用者(包括Workfront管理員)指派一個版面配置範本，該範本包含主功能表中的Planning區域。 </p> <p>如需詳細資訊，請參閱 <a href="/help/quicksilver/maestro/access/access-overview.md">存取權總覽</a>. </p>  
 </td>
   </tr>
 

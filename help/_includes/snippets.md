@@ -1,7 +1,7 @@
 ---
-source-git-commit: 46c4deee89c786b73945c2facbf6d21ef035c14f
+source-git-commit: 130365bfa220337aa25f27ba03742ea3471972cb
 workflow-type: tm+mt
-source-wordcount: '2362'
+source-wordcount: '2355'
 ht-degree: 1%
 
 ---
@@ -247,19 +247,19 @@ ht-degree: 1%
 
 ## 步驟1 — 前往Maestro - {#step1-to-maestro}
 
-1. 按一下 **[!UICONTROL 主要功能表]** 圖示 ![主要功能表](/help/_includes/assets/main-menu-icon.png) 在Adobe Workfront的右上角，或（如果有的話）按一下 **[!UICONTROL 主要功能表]** 圖示 ![主要功能表](/help/_includes/assets/main-menu-icon-left-nav.png) 然後按一下「 」 **[!UICONTROL 大師]**.
+1. 按一下 **[!UICONTROL 主要功能表]** 圖示 ![主要功能表](/help/_includes/assets/main-menu-icon.png) 在Adobe Workfront的右上角，或（如果有的話）按一下 **[!UICONTROL 主要功能表]** 圖示 ![主要功能表](/help/_includes/assets/main-menu-icon-left-nav.png) 然後按一下「 」 **[!UICONTROL 規劃]**.
 
 ## 大師重要介紹 —  {#maestro-important-intro}
 
 >[!IMPORTANT]
 >
->本文資訊說明Adobe Workfront規劃功能，這是Adobe Workfront的新產品。
+>本文資訊說明Adobe Workfront的新產品Adobe Workfront規劃。
 >
->目前，規劃功能屬於Beta版計畫，僅對有限數量的客戶開放。 您必須是Workfront客戶才能使用這些功能。
+>目前，Workfront規劃屬於向有限數量客戶開放的Beta計畫。 您必須是Workfront客戶才能使用這些功能。
 >
->請聯絡您的客戶代表，以取得加入規劃功能測試版計畫的詳細資訊。
+>請聯絡您的客戶代表，以取得有關加入Workfront規劃Beta版計畫的詳細資訊。
 >
->如需有關規劃功能的詳細資訊，請參閱 [Adobe Workfront規劃功能概觀](/help/quicksilver/maestro/maestro-overview.md).
+>如需詳細資訊，請參閱 [Adobe Workfront規劃概觀](/help/quicksilver/maestro/maestro-overview.md).
 
 <!-- Manage Work -->
 

@@ -1,16 +1,16 @@
 ---
 title: 歷史記錄區段總覽
-description: 您可以在Adobe Maestro的記錄右側面板中，檢閱對記錄所做的變更以及系統所做的記錄。
+description: 您可以在Adobe Workfront規劃中記錄的右側面板中，檢閱系統對記錄所做的變更和記錄。
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 4016ba2c1b94ba84037612bdc9c1136267513fd5
+exl-id: 8258589f-a7c3-4d77-9abe-c99e9184bd21
+source-git-commit: a0f12a016ae8ac73136f05bf3255f9882e2ce6d4
 workflow-type: tm+mt
-source-wordcount: '446'
+source-wordcount: '448'
 ht-degree: 4%
 
 ---
-
 
 # 歷史記錄區段總覽
 
@@ -24,11 +24,11 @@ ht-degree: 4%
 
 <span class="preview">For information about the current release schedule, see [First Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).</span> -->
 
-您可以在記錄的右側面板中新增評論或回覆，共同作業AdobeMaestro記錄。 您也可以在此區域中檢視系統記錄的其它變更。
+您可以在記錄的右側面板中新增評論或回覆，對Adobe Workfront規劃記錄進行共同作業。 您也可以在此區域中檢視系統記錄的其它變更。
 
 記錄的右側面板會顯示下列區段：
 
-* **註解**：顯示使用者新增至記錄的評論和回覆。 如需有關管理Maestro記錄中的註解的詳細資訊，請參閱 [管理記錄註解](/help/quicksilver/maestro/records/manage-record-comments.md).
+* **註解**：顯示使用者新增至記錄的評論和回覆。 如需有關管理Workfront計畫記錄中的註解的詳細資訊，請參閱 [管理記錄註解](/help/quicksilver/maestro/records/manage-record-comments.md).
 * **歷史記錄**：顯示使用者對記錄欄位進行的系統記錄變更。
 
 ## 找出記錄的「歷史記錄」區段
@@ -46,11 +46,11 @@ ht-degree: 4%
 
 ## 關於「歷史記錄」段落的考量事項
 
-您可以在作業記錄或分類的「詳細資訊」頁面之右側面板的「歷史記錄」區段中，複查對記錄欄位所做的變更。
+您可以在記錄的「詳細資訊」頁面右側面板的「歷史記錄」區段中，檢閱對記錄欄位所做的變更。
 
 ![](assets/history-area-in-comments.png)
 
-* Maestro會在「歷史記錄」區段中記錄下列資訊：
+* Workfront planning會在「歷史記錄」區段中記錄下列資訊：
 
    * 任何欄位變更
 
@@ -80,7 +80,7 @@ ht-degree: 4%
 
 * 核取方塊型別的欄位絕不會以刪除線格式顯示舊值。 如果欄位已編輯，則只顯示進行變更時的目前狀態。
 
-  如需有關Maestro欄位的詳細資訊，請參閱 [建立欄位](/help/quicksilver/maestro/fields/create-fields.md).
+  如需Workfront規劃欄位的詳細資訊，請參閱 [建立欄位](/help/quicksilver/maestro/fields/create-fields.md).
 
 * 下列型別的欄位變更不會顯示在「歷史記錄」區段中：
 

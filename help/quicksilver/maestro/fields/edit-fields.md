@@ -1,13 +1,13 @@
 ---
 title: 編輯欄位
-description: 在Adobe大師，您可以編輯已建立欄位的欄位設定。
+description: 在Adobe Workfront規劃中，您可以編輯已建立欄位的欄位設定。
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 6c35c313-d6ed-428b-b70d-2ea242da4e8f
-source-git-commit: 4016ba2c1b94ba84037612bdc9c1136267513fd5
+source-git-commit: a0f12a016ae8ac73136f05bf3255f9882e2ce6d4
 workflow-type: tm+mt
-source-wordcount: '463'
+source-wordcount: '440'
 ht-degree: 0%
 
 ---
@@ -30,11 +30,11 @@ recommendations: noDisplay, noCatalog
 
 {{maestro-important-intro}}
 
-您可以編輯已建立欄位的欄位設定。
+您可以編輯已在Adobe Workfront規劃中建立的欄位之欄位設定。
 
-如需有關建立Adobe主要欄位的資訊，請參閱 [建立欄位](../fields/create-fields.md).
+如需有關建立Adobe Workfront規劃欄位的資訊，請參閱 [建立欄位](../fields/create-fields.md).
 
-本文說明如何編輯Maestro欄位的設定。 如需有關編輯Maestro記錄欄位值的資訊，請參閱 [編輯記錄](/help/quicksilver/maestro/records/edit-records.md).
+本文說明如何編輯Workfront規劃欄位的設定。 如需有關編輯記錄欄位值的資訊，請參閱 [編輯記錄](/help/quicksilver/maestro/records/edit-records.md).
 
 ## 編輯欄位資訊的考量事項
 
@@ -69,7 +69,7 @@ recommendations: noDisplay, noCatalog
   </tr>  
  <td role="rowheader"><p>Adobe Workfront合約</p></td>
    <td>
-<p>貴組織必須註冊AdobeMaestro封閉測試版計畫。 請聯絡您的客戶代表以查詢此新產品/服務。 </p>
+<p>貴組織必須註冊Adobe Workfront計畫Beta版計畫。 請聯絡您的客戶代表以查詢此新產品/服務。 </p>
    </td>
   </tr>
   <tr>
@@ -87,7 +87,7 @@ recommendations: noDisplay, noCatalog
 
 <tr>
    <td role="rowheader"><p>存取層級設定</p></td>
-   <td> <p>Maestro沒有存取控制</p>  
+   <td> <p>Workfront計畫沒有存取控制</p>  
 </td>
   </tr>
 
@@ -99,7 +99,7 @@ recommendations: noDisplay, noCatalog
   </tr>
 <tr>
    <td role="rowheader"><p>版面配置範本</p></td>
-   <td> <p>您的Workfront或群組管理員必須在您的版面配置範本中新增Maestro區域。 如需詳細資訊，請參閱 <a href="../access/access-overview.md">存取權總覽</a>. </p>  
+   <td> <p>您的Workfront或群組管理員必須在版面配置範本中新增Planning區域。 如需詳細資訊，請參閱 <a href="../access/access-overview.md">存取權總覽</a>. </p>  
 </td>
   </tr>
 
@@ -113,14 +113,14 @@ recommendations: noDisplay, noCatalog
 
 ## 編輯欄位
 
-1. 按一下 **主要功能表** 圖示 ![](assets/main-menu-workfront.png) 位於Workfront右上角，或 **主功能表** 圖示 ![](assets/main-menu-shell.png)  （如果有的話）按一下 **大師** ![](assets/maestro-icon.png).
+{{step1-to-maestro}}
 
-   根據預設，上次存取的工作區應該會開啟。
+    根據預設，上次存取的工作區應該會開啟。
 
 1. （可選）展開現有工作區名稱右側的向下箭頭，並選取您要刪除記錄型別的工作區。
 
-   工作區隨即開啟，並顯示與其關聯的記錄型別和分類法。
-1. 按一下您要編輯其欄位的記錄型別或分類法的卡片。
+   工作區隨即開啟，並顯示與其關聯的記錄型別。
+1. 按一下您要編輯其欄位的記錄型別的卡片。
 
    這會開啟記錄型別的頁面。
 1. （視條件而定）選取 **表格檢視** 從 **檢視** 記錄型別頁面右上角的下拉式功能表。

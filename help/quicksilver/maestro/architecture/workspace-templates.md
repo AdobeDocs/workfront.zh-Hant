@@ -1,13 +1,13 @@
 ---
 title: 工作區範本清單
-description: 工作區是團隊使用的操作記錄型別和分類法的集合，代表團隊的工作生命週期。 Maestro隨附一組範本，可讓您在建立工作區時開始使用基本記錄型別、分類和欄位。
+description: 工作區是團隊使用的記錄型別集合，代表團隊的工作生命週期。 Adobe Workfront規劃隨附一組範本，可讓您在建立工作區時開始使用基本記錄型別和欄位。
 hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: c4758b87-45dc-4ffd-b086-5e2e907bdf34
-source-git-commit: 4016ba2c1b94ba84037612bdc9c1136267513fd5
+source-git-commit: a0f12a016ae8ac73136f05bf3255f9882e2ce6d4
 workflow-type: tm+mt
-source-wordcount: '464'
+source-wordcount: '486'
 ht-degree: 0%
 
 ---
@@ -29,17 +29,21 @@ role: User
 
 {{maestro-important-intro}}
 
-在Adobe大師，工作區是團隊使用的操作記錄型別和分類法的集合，並代表團隊的工作生命週期。
+在Adobe Workfront規劃中，工作區是團隊使用的記錄型別集合，代表團隊的工作生命週期。
 
-Maestro隨附一組範本，可讓您在建立工作區時開始使用基本記錄型別、分類和欄位。 如需有關建立工作區的資訊，請參閱 [建立工作區](../architecture/create-workspaces.md).
+Workfront規劃隨附一組範本，可讓您在建立工作區時開始使用基本記錄型別和欄位。 如需有關建立工作區的資訊，請參閱 [建立工作區](../architecture/create-workspaces.md).
 
-本文說明Maestro中可用的工作區範本。
+本文說明Adobe Workfront規劃中可用的工作區範本。
 
-## 有關主要範本的考量事項
+## 關於Adobe Workfront規劃範本的考量事項
 
-* 每個範本都隨附一組作業記錄型別和分類法。 如需詳細資訊，請參閱 [記錄型別和分類概觀](../architecture/overview-of-record-types-and-taxonomies.md).
-* 每個作業記錄型別和分類都隨附一組欄位。 其中一些欄位是與其他Maestro記錄型別的連線。
-* 您可以自訂任何範本。
+* 每個範本都隨附一組記錄型別。 如需詳細資訊，請參閱 [記錄型別概觀](../architecture/overview-of-record-types-and-taxonomies.md).
+* 每個範本中的記錄型別會整理在下列各節中：
+
+   * 運作記錄類型
+   * 分類法
+* 每個記錄型別都隨附一組欄位。 這些欄位中有些是與其他Workfront計畫記錄型別的連線。
+* 您可以自訂任何範本，並向現有範本新增更多記錄型別和欄位。
 
 <!-- I modeled this article by the "List of available Blueprints" and that articles does not have an Access area
 
@@ -92,9 +96,9 @@ You must have the following:
 
 -->
 
-## Maestro工作區範本
+## Workfront規劃工作區範本
 
-以下是Maestro中的工作區範本及其包含的欄位數：
+以下是Workfront規劃中的工作區範本及其包含的欄位數：
 
 * **行銷管理**：使用此範本時，您可以管理所有行銷活動。 範本隨附下列專案：
 

@@ -1,21 +1,21 @@
 ---
 title: 刪除記錄型別
-description: 當作業記錄型別或分類記錄型別不再相關時，您可以將其刪除。
+description: 當記錄型別不再相關時，您可以將其刪除。
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 70fd3887-3871-45b5-9c21-f57da63662aa
-source-git-commit: 5681b540bceddaae85116b632e968d94761eec0d
+source-git-commit: 130365bfa220337aa25f27ba03742ea3471972cb
 workflow-type: tm+mt
-source-wordcount: '354'
+source-wordcount: '367'
 ht-degree: 0%
 
 ---
 
-<!--udpate the metadata with real information when making this avilable in TOC and in the left nav:
+<!--update the metadata with real information when making this available in TOC and in the left nav:
 ---
 title: Delete record types
-description: You can delete operational record types or taxonomy record types when they are no longer relevant. 
+description: You can delete record types when they are no longer relevant. 
 author: Alina
 feature: Work Management
 topic: Architecture
@@ -29,11 +29,11 @@ hide: yes
 
 {{maestro-important-intro}}
 
-當作業記錄型別或分類記錄型別不再相關時，您可以將其刪除。
+當記錄型別不再相關時，您可以將其刪除。
 
-如需有關記錄型別和分類的資訊，請參閱 [記錄型別和分類概觀](../architecture/overview-of-record-types-and-taxonomies.md).
+但是，刪除記錄型別也會刪除與記錄型別相關的所有資訊。 如需詳細資訊，請參閱 [刪除記錄型別時的注意事項](#considerations-when-deleting-record-types) 一節。
 
-建議您先在其他記錄型別上重新建立與您要刪除的記錄型別或分類相關聯的欄位和記錄，然後再刪除它們。
+如需有關記錄型別的資訊，請參閱 [記錄型別概觀](../architecture/overview-of-record-types-and-taxonomies.md).
 
 <!-- last sentence might need to be deleted when we can recover or replace deleted record types-->
 
@@ -56,7 +56,7 @@ hide: yes
   </tr>  
  <td role="rowheader"><p>Adobe Workfront合約</p></td>
    <td>
-<p>貴組織必須註冊AdobeMaestro封閉測試版計畫。 請聯絡您的客戶代表以查詢此新產品/服務。 </p>
+<p>貴組織必須註冊Adobe Workfront計畫Beta版計畫。 請聯絡您的客戶代表以查詢此新產品/服務。 </p>
    </td>
   </tr>
   <tr>
@@ -74,7 +74,7 @@ hide: yes
 
 <tr>
    <td role="rowheader"><p>存取層級設定</p></td>
-   <td> <p>Maestro沒有存取層級控制項</p>  
+   <td> <p>Adobe Workfront計畫沒有存取層級控制項</p>  
 </td>
   </tr>
 
@@ -86,14 +86,14 @@ hide: yes
   </tr>
 <tr>
    <td role="rowheader"><p>版面配置範本</p></td>
-   <td> <p>您的Workfront或群組管理員必須在您的版面配置範本中新增Maestro區域。 如需詳細資訊，請參閱 <a href="../access/access-overview.md">存取權總覽</a>. </p>  
+   <td> <p>您的Workfront或群組管理員必須在版面配置範本中新增Planning區域。 如需詳細資訊，請參閱 <a href="../access/access-overview.md">存取權總覽</a>. </p>  
 </td>
   </tr>
 
 </tbody>
 </table>
 
-<!--Maybe enable this at GA - but Maestro is not supposed to have Access controls in the Workfront Access Level: 
+<!--Maybe enable this at GA - but Planning is not supposed to have Access controls in the Workfront Access Level: 
 >[!NOTE]
 >
 >If you don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see [Create or modify custom access levels](../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md). -->
@@ -108,13 +108,17 @@ hide: yes
 
 <!--check this and ensure these are still true - some things might change with / after closed beta-->
 
-* 您只能從您擁有「管理」許可權的工作區中刪除記錄型別或分類。
-* 刪除記錄型別會移除與其相關的所有資訊，包括該型別的欄位和記錄。 記錄型別會從存取工作區的所有使用者中移除。
+* 您只能從您擁有「管理」許可權的工作區中刪除記錄型別。
+* 刪除記錄型別會移除下列與其相關的資訊：
+
+   * 該型別的所有記錄。
+   * 與記錄型別關聯的所有欄位。
+   * 記錄型別的所有檢視（包括篩選器、群組和排序標準）。
+* 記錄型別會從存取工作區的所有使用者中移除。
 * 您無法復原已刪除的記錄型別或其資訊。
+* 建議您先在其他記錄型別上重新建立與您要刪除之記錄型別相關的欄位和記錄，然後再刪除它們。
 
 ## 刪除記錄型別
-
-刪除分類記錄型別與刪除作業記錄型別相同。
 
 {{step1-to-maestro}}
 
@@ -123,10 +127,10 @@ hide: yes
 1. （可選）展開現有工作區名稱右側的向下箭頭，並選取您要刪除記錄型別的工作區。
 
    工作區隨即開啟，並顯示與其關聯的記錄型別和分類法。
-1. 按一下您要刪除的記錄型別或分類法的卡片。
+1. 按一下要刪除的記錄型別的卡片。
 
    這會開啟記錄型別的頁面。
 1. 按一下 **更多** 功能表 ![](assets/more-menu.png) 在記錄型別名稱的右側，然後按一下 **刪除**.
 1. 按一下 **刪除** 以確認。
 
-   所選的記錄型別或分類及其欄位和相關記錄都會被刪除。
+   所選的記錄型別及其欄位、關聯的記錄和檢視都會被刪除。

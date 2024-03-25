@@ -1,25 +1,25 @@
 ---
 title: 共用工作區
-description: 您可以在使用Adobe Workfront規劃功能時，與其他人共用工作區以確保共同作業。
+description: 您可以在使用Adobe Workfront規劃時，與其他人共用工作區以確保共同作業。
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 475a519d-d3bd-4461-8099-0e296d556d34
-source-git-commit: 4c62b567fa1ebec37fc64831757eb67d4a048c1f
+source-git-commit: 130365bfa220337aa25f27ba03742ea3471972cb
 workflow-type: tm+mt
-source-wordcount: '419'
+source-wordcount: '414'
 ht-degree: 2%
 
 ---
 
 
-<!--update the metadata and description when we turn this article live; also, update title after Bob adds Maestro as a product-->
+<!--update the metadata and description when we turn this article live; also, update title after Bob adds Planning as a product ??-->
 
 # 共用工作區
 
 {{maestro-important-intro}}
 
-您可以在使用Adobe Workfront規劃功能時，與其他人共用工作區以確保共同作業。
+您可以在使用Adobe Workfront規劃時，與其他人共用工作區以確保共同作業。
 
 >[!NOTE]
 >
@@ -45,7 +45,7 @@ ht-degree: 2%
   </tr>  
  <td role="rowheader"><p>Adobe Workfront合約</p></td>
    <td>
-<p>貴組織必須註冊Adobe Workfront規劃功能封閉測試版計畫。 請聯絡您的客戶代表以查詢此新產品/服務。 </p>
+<p>貴組織必須註冊Adobe Workfront計畫封閉測試版計畫。 請聯絡您的客戶代表以查詢此新產品/服務。 </p>
    </td>
   </tr>
   <tr>
@@ -65,7 +65,7 @@ ht-degree: 2%
 
 <tr>
    <td role="rowheader"><p>存取層級設定</p></td>
-   <td> Adobe Workfront規劃功能沒有存取控制</p>  
+   <td> Adobe Workfront計畫沒有存取控制</p>  
 </td>
   </tr>
 
@@ -77,7 +77,7 @@ ht-degree: 2%
 
 <tr>
    <td role="rowheader"><p>版面配置範本</p></td>
-   <td> <p>必須為所有使用者(包括Workfront管理員)指派一個版面配置範本，該範本包含主功能表中的Maestro區域。 </p> <p>如需詳細資訊，請參閱 <a href="/help/quicksilver/maestro/access/access-overview.md">存取權總覽</a>. </p> 
+   <td> <p>必須為所有使用者(包括Workfront管理員)指派一個版面配置範本，該範本包含主功能表中的Planning區域。 </p> <p>如需詳細資訊，請參閱 <a href="/help/quicksilver/maestro/access/access-overview.md">存取權總覽</a>. </p> 
 </td>
   </tr>
  </tbody>
@@ -107,7 +107,7 @@ ht-degree: 2%
    * 參與
    * 管理
 
-     如需許可權層級以及使用者可針對每個層級執行的動作的相關資訊，請參閱 [在Adobe Workfront規劃功能中共用許可權的概觀](../access/sharing-permissions-overview.md).
+     如需許可權層級以及使用者可針對每個層級執行的動作的相關資訊，請參閱 [在Adobe Workfront Planning中共用許可權的概觀](../access/sharing-permissions-overview.md).
 1. 按一下 **複製連結** 將指向工作區的連結複製到剪貼簿。
 1. 與他人共用複製的連結。 收到連結的使用者必須是作用中使用者，並登入Workfront才能存取工作區。
 1. 按一下「**儲存**」。

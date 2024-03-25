@@ -1,20 +1,20 @@
 ---
 title: 連線記錄型別
-description: 指示個別記錄型別如何彼此關聯的一種方法是連線它們。 此外，您也可以將Maestro記錄型別與其他應用程式的物件型別連線起來，以強化使用者的體驗，並將他們的焦點放在一個應用程式中。
+description: 指示個別記錄型別如何彼此關聯的一種方法是連線它們。 此外，您可以將Adobe Workfront規劃記錄型別與其他應用程式的物件型別連線起來，以增強您的使用者體驗，並將他們的焦點放在一個應用程式中。
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
-source-git-commit: 5681b540bceddaae85116b632e968d94761eec0d
+source-git-commit: 130365bfa220337aa25f27ba03742ea3471972cb
 workflow-type: tm+mt
-source-wordcount: '2222'
+source-wordcount: '2213'
 ht-degree: 0%
 
 ---
 
 <!-----
 title: Connect record types
-description: A way to indicate how individual record types relate to one another is to connect them. Also, you can connect Maestro record types with object types from other applications to enhance your users' experience and keep their focus in one application.
+description: A way to indicate how individual record types relate to one another is to connect them. Also, you can connect Adobe Workfront planning record types with object types from other applications to enhance your users' experience and keep their focus in one application.
 hidefromtoc: yes
 hide: yes
 feature: Work management
@@ -30,17 +30,17 @@ author: Alina
 
 {{maestro-important-intro}}
 
-您可以使用Adobe Maestro來設計包含貴組織所需記錄型別的完全可自訂工作區。 指示個別記錄型別如何彼此關聯的一種方法是連線它們。 此外，您也可以將Maestro記錄型別與其他應用程式的物件型別連線起來，以強化使用者的體驗，並將他們的焦點放在一個應用程式中。
+您可以使用Adobe Workfront計畫來設計包含組織所需記錄型別的完全可自訂工作區。 指示個別記錄型別如何彼此關聯的一種方法是連線它們。 此外，您可以將Workfront規劃記錄型別與其他應用程式的物件型別連線起來，以增強您的使用者體驗，並將他們的焦點放在一個應用程式中。
 
-您可以將Maestro記錄型別與其他應用程式的物件型別相互連線或Maestro記錄型別。
+您可以將記錄型別連結到其他應用程式，或使用其他應用程式的物件型別來記錄型別。
 
-這樣，您就可以在另一個Maestro記錄上顯示連結記錄或物件型別的欄位。
+透過這樣做，您可以在Workfront計畫記錄上顯示連結記錄或物件型別的欄位。
 
-本文說明如何將兩個Maestro記錄型別或Maestro記錄型別與另一個應用程式的物件連線。
+本文說明如何在Workfront planning中將兩個記錄型別或一個記錄型別與其他應用程式的物件連線。
 
 在記錄或物件型別之間建立連線後，可以將個別記錄彼此連線。
 
-如需有關將Maestro記錄從另一個應用程式連線到物件的資訊，請參閱 [連線記錄](../records/connect-records.md).
+如需有關將Workfront計畫記錄從另一個應用程式連線到物件的資訊，請參閱 [連線記錄](../records/connect-records.md).
 
 如需連線記錄型別的範例，請參閱 [連線記錄型別和記錄的範例](../architecture/example-connect-record-types-and-records.md).
 
@@ -61,11 +61,11 @@ author: Alina
 <td>
    <p> 產品</p> </td>
    <td>
-   <p> Adobe Workfront</p> <p>若要將Maestro記錄型別與Experience Manager Assets連線，您必須擁有Adobe Experience Manager Assets授權，並且貴組織的Workfront執行個體必須上線至Adobe Business Platform或Adobe Admin Console。</p> </td>
+   <p> Adobe Workfront</p> <p>若要將Adobe Workfront規劃記錄型別與Experience Manager Assets連線，您必須擁有Adobe Experience Manager Assets授權，並且貴組織的Workfront執行個體必須上線至Adobe商業平台或Adobe Admin Console。</p> </td>
   </tr>  
  <td role="rowheader"><p>Adobe Workfront合約</p></td>
    <td>
-<p>貴組織必須註冊AdobeMaestro封閉測試版計畫。 請聯絡您的客戶代表以查詢此新產品/服務。 </p>
+<p>貴組織必須註冊Adobe Workfront計畫封閉測試版計畫。 請聯絡您的客戶代表以查詢此新產品/服務。 </p>
    </td>
   </tr>
   <tr>
@@ -83,12 +83,12 @@ author: Alina
 
 <tr>
    <td role="rowheader"><p>存取層級設定</p></td>
-   <td> <p>Maestro沒有存取層級控制項</p>  
+   <td> <p>Adobe Workfront計畫沒有存取層級控制項</p>  
 </td>
   </tr>
 <tr>
    <td role="rowheader"><p>版面配置範本</p></td>
-   <td> <p>您的Workfront或群組管理員必須在您的版面配置範本中新增Maestro區域。 如需詳細資訊，請參閱 <a href="../access/access-overview.md">存取權總覽</a>. </p>  
+   <td> <p>您的Workfront或群組管理員必須在版面配置範本中新增Planning區域。 如需詳細資訊，請參閱 <a href="../access/access-overview.md">存取權總覽</a>. </p>  
 </td>
   </tr>
 <tr>
@@ -100,7 +100,7 @@ author: Alina
  </tbody>
 </table>
 
-<!--Maybe enable this at GA - but Maestro is not supposed to have Access controls in the Workfront Access Level: 
+<!--Maybe enable this at GA - but planing is not supposed to have Access controls in the Workfront Access Level: 
 >[!NOTE]
 >
 >If you don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see [Create or modify custom access levels](../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md). -->
@@ -114,16 +114,14 @@ author: Alina
 
 ## 有關連線記錄型別的考量事項
 
-* 您可以在Maestro中連線下列實體：
+* 您可以在Adobe Workfront planning中連線下列實體：
 
-   * 兩種作業記錄型別
-   * 兩種分類
-   * 作業記錄型別和分類法
-   * 其他應用程式的作業記錄型別或分類法和物件型別。
+   * 兩種記錄型別
 
-  所有作業記錄型別和分類必須屬於相同的工作區。
+     記錄型別必須屬於相同的工作區。
+   * 來自另一個應用程式的記錄型別和物件型別。
 
-* 您可以連線下列具有Maestro記錄型別的應用程式的物件型別：
+* 您可以使用以下應用程式中的下列物件型別與Workfront規劃記錄型別連線：
 
    * Adobe Workfront：
 
@@ -140,7 +138,7 @@ author: Alina
 
      >[!IMPORTANT]
      >
-     >您必須擁有Adobe Experience Manager Assets授權，且貴組織的Workfront執行個體必須上線至Adobe商業平台或Adobe Admin Console，才能將Maestro記錄連線至Adobe Experience Manager Assets。
+     >您必須擁有Adobe Experience Manager Assets授權，且貴組織的Workfront執行個體必須上線至Adobe商業平台或Adobe Admin Console，才能將Workfront規劃記錄連線至Adobe Experience Manager Assets。
      >
      >如果您對上線Adobe Admin Console有任何疑問，請參閱 [Adobe Unified Experience常見問題集](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/unified-experience-faq.md).
 
@@ -154,13 +152,13 @@ author: Alina
 
    * **當您從另一個應用程式將記錄型別與物件型別連線時**：連結的記錄欄位會在您連線的記錄型別上建立。 不會在其他應用程式的物件型別上自動建立任何連結的記錄欄位。
 
-     只有當實際物件連線到Maestro記錄時，才會為其他應用程式的物件建立新的Maestro唯讀記錄型別。
+     只有當實際物件連線到Workfront planning記錄時，才會為其他應用程式的物件建立新的Workfront planning唯讀記錄型別。
 
      如需詳細資訊，請參閱 [連線記錄](../records/connect-records.md).
 
-   * **當您新增您所連線之記錄或物件的查閱欄位時**：您可以將其他應用程式物件的欄位連線至Maestro記錄型別。 這些是連結或查詢欄位。 連結的欄位會在您連線記錄或物件時，自動顯示已連線記錄或物件的資訊。 連結的查閱欄位永遠是唯讀的，而且會自動填入連線記錄或物件的值。
+   * **當您新增您所連線之記錄或物件的查閱欄位時**：您可以將其他應用程式物件的欄位連線至Workfront規劃記錄型別。 這些是連結或查詢欄位。 連結的欄位會在您連線記錄或物件時，自動顯示已連線記錄或物件的資訊。 連結的查閱欄位永遠是唯讀的，而且會自動填入連線記錄或物件的值。
 
-     例如，如果您將「行銷活動」Maestro記錄型別與Workfront專案連線，並且選擇將專案的「計畫完成日期」欄位帶到Maestro記錄，則系統會自動為行銷活動建立名為「計畫完成日期」（來自「專案」）的連結欄位。 您無法手動編輯此連結的欄位。 計畫完成日期（來自專案）欄位會顯示連結專案的計畫完成日期。
+     例如，如果您將「行銷活動」記錄型別與Workfront專案連線，並且選擇將專案的「計畫完成日期」欄位帶入Workfront計畫記錄，則系統會自動為行銷活動建立名為「計畫完成日期」（來自「專案」）的連結欄位。 您無法手動編輯此連結的欄位。 計畫完成日期（來自專案）欄位會顯示連結專案的計畫完成日期。
 
      >[!IMPORTANT]
      >
@@ -186,11 +184,11 @@ author: Alina
 
 1. 在 **記錄型別** 欄位，搜尋記錄型別，或選取下列其中一項：
 
-   * 您選取之工作區的區段中的其他作業記錄型別或分類法
+   * 來自所選工作區區段的其他記錄型別
 
      >[!TIP]
      >
-     >只有來自您選取之工作區的記錄型別和分類可供連線。
+     >您選取的工作區中只有記錄型別可供連線。
      > 
      >如果您在選取的工作區中沒有其他記錄型別，工作區區段不會顯示。
 
@@ -212,7 +210,7 @@ author: Alina
    * **允許多筆記錄**：選取此選項以表示您允許使用者在原始記錄上顯示「連結的記錄型別」欄位時新增多個記錄。 依預設會選取此選項。
    * **選取查閱欄位**：選取此選項，從選取的記錄型別新增欄位。 查閱欄位是與您要連結的記錄或物件型別相關聯的欄位。 連結它們會顯示您連結的記錄或物件在您所連結的記錄上的資訊。 依預設會選取此選項。
 
-1. （條件式與選擇性）如果您已選取連線Workfront物件，請選取 **自訂表格** 從 **僅連結符合這些條件的物件** 區段。 只有已附加所選自訂表單的物件才能連結至所選的Maestro記錄型別。 您可以選取多個表單。
+1. （條件式與選擇性）如果您已選取連線Workfront物件，請選取 **自訂表格** 從 **僅連結符合這些條件的物件** 區段。 只有已附加所選自訂表單的物件才能連結至所選記錄型別。 您可以選取多個表單。
 
    ![](assets/workfront-project-connection-selection.png)
 
@@ -286,13 +284,13 @@ author: Alina
 
      例如，如果您連結的「行銷活動」記錄型別具有「方案」記錄型別，且將「方案」連結的記錄欄位命名為「方案資訊」，然後選取以在「行銷活動」表格檢視中同時顯示「方案」的「預算」欄位，則連結的欄位會自動命名為 `Budget (from Program information)` 在行銷活動的表格檢視中。
 
-   * 當您將Maestro記錄型別連結到彼此時，連結的記錄欄位也會新增到您連結到的記錄型別上。 連結的記錄型別上連結的記錄欄位名稱是您連結的記錄型別名稱。
+   * 當您將記錄型別連結到彼此時，連結的記錄欄位也會新增到您連結到的記錄型別上。 連結的記錄型別上連結的記錄欄位名稱是您連結的記錄型別名稱。
 
      例如，如果您從「行銷活動」記錄型別連結「產品」記錄型別，並將行銷活動的已連線欄位命名為「連結的產品」，則會為「產品」記錄型別建立「行銷活動」連結記錄欄位。
 
      >[!TIP]
      >
-     > 連結的記錄欄位不會為物件建立從另一個應用程式到您在Maestro中連結的記錄型別。
+     > 系統不會為其他應用程式的物件建立連結記錄欄位，而您會從Workfront規劃中連結至記錄型別。
 
 1. （選擇性和條件性）在原始記錄型別或連結記錄型別表格檢視中，按一下連結記錄欄位標題中的向下箭頭，然後按一下下列其中一項：
 
@@ -305,7 +303,7 @@ author: Alina
 
    >[!NOTE]
    >
-   > 您無法新增屬於您從其他應用程式連結至物件型別的Maestro記錄型別的查詢欄位。
+   > 您無法從其他應用程式新增屬於您正在連結至物件型別的記錄型別的查閱欄位。
    >
    > 例如，您無法將「促銷活動狀態」的查詢欄位新增至您正從促銷活動連結至的Workfront專案。
 

@@ -1,13 +1,13 @@
 ---
 title: 欄位概述
-description: 您可以在Adobe經理中新增反映組織生命週期的欄位。 欄位是記錄型別的屬性。
+description: 您可以在Adobe Workfront規劃中新增反映組織生命週期的欄位。 欄位是記錄型別的屬性。
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: a1ad5ada-5010-4dec-934e-a49a3e28aa5f
-source-git-commit: 4016ba2c1b94ba84037612bdc9c1136267513fd5
+source-git-commit: a0f12a016ae8ac73136f05bf3255f9882e2ce6d4
 workflow-type: tm+mt
-source-wordcount: '489'
+source-wordcount: '454'
 ht-degree: 2%
 
 ---
@@ -28,10 +28,10 @@ hide: yes
 
 {{maestro-important-intro}}
 
-您可以在Adobe經理中新增反映組織生命週期的欄位。 欄位是記錄型別的屬性。
+您可以在Adobe Workfront規劃中新增反映組織生命週期的欄位。 欄位是記錄型別的屬性。
 
 
-## 關於主欄位的考量事項
+## 有關Adobe Workfront規劃欄位的考量事項
 
 * 您只能從記錄型別頁面的表格檢視建立欄位。 欄位在表格檢視中顯示為欄。 與記錄型別相關的所有欄位也會顯示在該型別每個記錄的「詳細資訊」頁面中。
 
@@ -56,42 +56,36 @@ hide: yes
 
         本文會介紹如何手動建立欄位。
 
-      * 藉由連線記錄型別。 當您在兩個Maestro記錄型別，或記錄型別與其他應用程式的物件型別之間新增連線時，可以建立連結的記錄欄位。
+      * 藉由連線記錄型別。 當您在兩個記錄型別之間新增連線，或記錄型別和其他應用程式的物件型別之間新增連線時，可以建立連結的記錄欄位。
 
         <!--* Importing record types with fields using a CSV or an Excel file. - this is not available yet-->
 
-        如需有關連線Maestro記錄型別的詳細資訊，請參閱 [連線記錄型別](../architecture/connect-record-types.md).
+        如需有關連線記錄型別的詳細資訊，請參閱 [連線記錄型別](../architecture/connect-record-types.md).
 
       * 使用Excel或CSV檔案匯入記錄型別。 如需詳細資訊，請參閱 [建立記錄型別](../architecture/create-record-types.md).
 
    * 自動：
 
-      * 根據預設，每次建立記錄型別時。
+     以下是預設為每種新記錄型別建立的標準欄位：
 
-        以下是預設為每個新作業記錄型別建立的標準欄位：
+      * 姓名
+      * 說明
+      * 開始日期
+      * 結束日期
+      * 狀態。 記錄狀態的預設值為：
+         * 開發
+         * 計畫
+         * 啟用中
+         * 已完成
+         * 保留
 
-         * 姓名
-         * 說明
-         * 開始日期
-         * 結束日期
-         * 狀態。 記錄狀態的預設值為：
-            * 開發
-            * 計畫
-            * 啟用中
-            * 已完成
-            * 保留
+        您可以新增更多值或重新命名現有值。
 
-           您可以新增更多值或重新命名現有值。
+     當您從範本建立工作區時，Workfront planning會為記錄型別建立欄位。 如需詳細資訊，請參閱 [建立工作區](../architecture/create-workspaces.md).
 
-        以下是每個新分類記錄型別預設建立的標準欄位：
+* 無法從Workfront存取Workfront規劃欄位。
 
-         * 名稱 <!--will more be added? If not, consider rephrasing this bullet-->
-
-      * 從範本建立工作區時。 當您從範本建立工作區時，Maestro會為作業記錄型別和分類建立欄位。 如需詳細資訊，請參閱 [建立工作區](../architecture/create-workspaces.md).
-
-* 無法從Workfront存取大數欄位。
-
-* 只有當您連線Maestro記錄型別與Workfront物件型別，並從Workfront物件新增連結或查詢欄位時，才能從Workfront存取連結欄位。 如需詳細資訊，請參閱 [連線記錄型別](../architecture/connect-record-types.md).
+* 只有當您連線記錄型別與Workfront物件型別，並從Workfront物件新增連結或查詢欄位時，才能從Workfront planning存取Workfront欄位。 如需詳細資訊，請參閱 [連線記錄型別](../architecture/connect-record-types.md).
 
 * 如果您擁有欄位所屬工作區的管理許可權，您可以檢視和更新您或任何其他使用者建立的欄位設定。
 
@@ -99,4 +93,4 @@ hide: yes
 
 * 欄位名稱最多可包含250個字元。
 
-* 刪除作業記錄型別、分類法或工作區時，所有與其關聯的欄位和欄位值也會被刪除且無法復原。 <!-- this might change with a possible recycle bin solution?!-->
+* 刪除記錄型別或工作區時，與其關聯的所有欄位和欄位的值也會被刪除並且無法復原。 <!-- this might change with a possible recycle bin solution?!-->

@@ -1,13 +1,13 @@
 ---
 title: 建立記錄
-description: 使用Adobe Workfront規劃功能時，記錄是記錄型別的例項。 在建立個別記錄之前，您必須先建立記錄型別。 建立分類記錄與建立作業記錄相同。
+description: 使用Adobe Workfront計畫時，記錄是記錄型別的例項。
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: c50ff48bbc492199b39db17b8c445207209bb6a5
+source-git-commit: a0f12a016ae8ac73136f05bf3255f9882e2ce6d4
 workflow-type: tm+mt
-source-wordcount: '897'
+source-wordcount: '796'
 ht-degree: 0%
 
 ---
@@ -18,19 +18,11 @@ ht-degree: 0%
 
 {{maestro-important-intro}}
 
-在Adobe Workfront規劃功能中，記錄是記錄型別的例項。
-
-您可以擁有下列記錄型別：
-
-* **作業記錄**：代表工作相關物件。 例如，針對名為「行銷活動」的營運記錄，您可以為「每月電子報」或「夏季銷售」等記錄命名。
-* **分類法記錄**：它們代表可與作業記錄關聯的屬性。 例如，針對名為「頻道」的分類法記錄型別，您可以命名分類法，例如「電子郵件」、「社群媒體」或「廣告」。
-
-建立作業記錄與建立分類記錄相同。
+在Adobe Workfront規劃中，記錄是記錄型別的例項。
 
 您可以執行下列其中一項作業來建立記錄：
 
 * 手動為記錄型別建立它們
-  <!-- not possible anymore: * Connect them to records from other applications-->
 * 從外部清單複製並貼上資訊，以建立記錄。
 
 本文會介紹如何建立記錄。 如需有關管理表格或時間表檢視中的記錄的資訊，請參閱下列文章：
@@ -57,7 +49,7 @@ ht-degree: 0%
   </tr>  
  <td role="rowheader"><p>Adobe Workfront合約</p></td>
    <td>
-<p>貴組織必須註冊Adobe Workfront規劃功能封閉測試版計畫。 請聯絡您的客戶代表以查詢此新產品/服務。 </p>
+<p>貴組織必須註冊Adobe Workfront計畫Beta版計畫。 請聯絡您的客戶代表以查詢此新產品/服務。 </p>
    </td>
   </tr>
   <tr>
@@ -75,7 +67,7 @@ ht-degree: 0%
 
 <tr>
    <td role="rowheader"><p>存取層級設定</p></td>
-   <td> <p>Adobe Workfront規劃功能沒有存取控制 </p>  
+   <td> <p>Adobe Workfront計畫沒有存取控制 </p>  
 </td>
   </tr>
 <tr>
@@ -86,7 +78,7 @@ ht-degree: 0%
   </tr>
 <tr>
    <td role="rowheader"><p>版面配置範本</p></td>
-   <td> <p>您的Workfront或群組管理員必須在您的版面配置範本中新增Maestro區域。 如需詳細資訊，請參閱 <a href="../access/access-overview.md">存取權總覽</a>. </p>  
+   <td> <p>您的Workfront或群組管理員必須在版面配置範本中新增Planning區域。 如需詳細資訊，請參閱 <a href="../access/access-overview.md">存取權總覽</a>. </p>  
 </td>
   </tr>
 
@@ -196,7 +188,7 @@ You can import records from other applications by linking them to existing recor
 
 1. 從另一個應用程式中，選取數個列和欄，然後將資訊貼到記錄型別表格檢視中，從第一個新記錄開始。
 
-   下列資訊會匯入Workfront規劃功能區域：
+   下列資訊會匯入Workfront規劃區域：
 
    * 列包含新記錄
    * 欄會填入記錄欄位的資訊。

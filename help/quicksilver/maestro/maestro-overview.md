@@ -1,18 +1,18 @@
 ---
-title: Adobe Workfront規劃功能概觀
-description: Adobe Workfront規劃功能是Adobe Workfront的新產品。 您可以建立可完全自訂的工作區，以定義符合企業內每個組織單位需求的工作流程。
+title: Adobe Workfront規劃概觀
+description: Adobe Workfront規劃是Adobe Workfront的新產品。 您可以建立可完全自訂的工作區，以定義符合企業內每個組織單位需求的工作流程。
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: e881aa57b5175ce5b559180a2713de0c607b3b1d
+source-git-commit: 130365bfa220337aa25f27ba03742ea3471972cb
 workflow-type: tm+mt
-source-wordcount: '1994'
+source-wordcount: '1785'
 ht-degree: 1%
 
 ---
 
-# Adobe Workfront規劃功能概觀
+# Adobe Workfront規劃概觀
 
 <!--udpate the metadata with real information when making this avilable in TOC and in the left nav-->
 
@@ -22,20 +22,21 @@ ht-degree: 1%
 
 >[!IMPORTANT]
 >
->本文資訊說明Adobe Workfront規劃功能，這是Adobe Workfront的新產品。
+>本文資訊說明Adobe Workfront的新產品Adobe Workfront規劃。
 >
->目前，規劃功能屬於Beta版計畫，僅對有限數量的客戶開放。 您必須是Workfront客戶才能使用這些功能。
+>目前，Adobe Workfront規劃屬於向有限數量客戶開放的Beta計畫。 您必須是Workfront客戶才能使用這些功能。
 >
->請聯絡您的客戶代表，以取得加入規劃功能測試版計畫的詳細資訊。
->[觀看Adobe Workfront規劃功能的影片示範。](https://video.tv.adobe.com/v/3424253/){target=_blank}
+>請聯絡您的客戶代表，以取得有關加入Workfront規劃Beta版計畫的詳細資訊。
 
-## Adobe Workfront規劃功能簡介
+<!--[View a video demonstration of Adobe Workfront planning capabilities.](https://video.tv.adobe.com/v/3424253/){target=_blank}-->
 
-Adobe Workfront規劃功能是Adobe Workfront推出的全新產品。 規劃功能的目的在於全面掌握組織的營運細節，並回答工作管理生命週期各階段的關鍵業務問題。
+## Adobe Workfront規劃簡介
+
+Adobe Workfront規劃是Adobe Workfront的新產品。 Workfront規劃的目的在於全面掌握組織的營運細節，並回答工作管理生命週期各階段的關鍵業務問題。
 
 團隊和領導力需要這些問題的明確答案，例如：
 
-* 第4季我們在EMEA執行多少次行銷活動？
+* 第4季我們在EMEA執行多少行銷活動？
 * 並行行銷活動之間是否有任何對象重疊？
 * 認識計畫目前表現如何？
 * 特定行銷活動的資產看起來如何？ 其中哪些仍須核准？
@@ -48,18 +49,16 @@ Adobe Workfront規劃功能是Adobe Workfront推出的全新產品。 規劃功�
 * 完全自訂您的工作流程，從決定您的組織使用哪些物件型別（或記錄型別），到設定這些物件如何彼此連結。
 * 從其他系統連結到物件型別，為所有流程建立一致的架構。
 
-## 目前可用的Adobe Workfront規劃功能功能
+## 目前可用的Adobe Workfront規劃功能
 
-下表說明規劃功能中可用的主要功能，及其可用性的時間表。 此清單並未包含所有功能。
+下表說明Workfront規劃中可用的主要功能，及其可用性的時間表。 此清單並未包含所有功能。
 
-有關新功能及其發行時間的資訊，請參閱 [Adobe Workfront規劃功能發行活動](/help/quicksilver/maestro/release-activity.md).
+有關新功能及其發行時間的資訊，請參閱 [Adobe Workfront規劃發行活動](/help/quicksilver/maestro/release-activity.md).
 
 | 功能 | 現在可用 | 即將推出 | 研究中 |
 |----------------------------------------------------|:-----------------------------:|:--------------------------------:|:----------------:|
 | 建立工作區 | ✓ (A) |                                  |                  |
-| 建立作業記錄型別 | ✓ (A) |                                  |                  |
-| 建立分類 | ✓ (A) |                                  |                  |
-| 建立個別具名記錄和分類法 | ✓ (A) |                                  |                  |
+| 建立記錄型別 | ✓ (A) |                                  |                  |
 | 建立記錄自訂欄位 | ✓ (A) |                                  |                  |
 | 使用Excel或CSV檔案匯入記錄型別和欄位* | ✓ (A) |                                  |                  |
 | 連結記錄 | ✓ (A) |                                  |                  |
@@ -74,15 +73,15 @@ Adobe Workfront規劃功能是Adobe Workfront推出的全新產品。 規劃功�
 | 在表格檢視中排序群組 |                               | ✓ (A) |                  |
 | 在時間軸檢視中排序群組 |                               | ✓ (A) |                  |
 | 連線工作區 |                               | ✓ (A) |                  |
-| 連線規劃功能記錄和分類 | ✓ (A) |
 | 在表格檢視中搜尋記錄 | ✓ (A) |   |
 | 在時間軸檢視中搜尋記錄 | ✓ (A) |   |
-| 將規劃功能記錄連線到Workfront專案、方案、投資組合、公司、群組 | ✓ (A) |                                 |                  |
-| 將規劃功能記錄連線至Adobe Experience Manager資產 | ✓ (A) |                                  |                 |
+| 將Workfront規劃記錄連線至Workfront專案、計畫、投資組合、公司、群組 | ✓ (A) |                                 |                  |
+| 將Workfront規劃記錄連線至Adobe Experience Manager資產 | ✓ (A) |                                  |                 |
 | 記錄詳細資訊頁面 | ✓ (A) |                                  |                  |
 | 更新記錄詳細資訊頁面的版面 |                               | ✓ (A) |                  |
 | 共用工作區 | ✓ (A) | |  |
 | 共用檢視 | ✓ (A) | |  |
+| 重複檢視 | ✓ (A) | |  |
 | 提交請求 |                               |                                  | ✓ (A) |
 | 創意簡報 |                               |                                  | ✓ (A) |
 | 自訂記錄的顏色和圖示 | ✓ (A) |                                  |                 |
@@ -90,24 +89,24 @@ Adobe Workfront規劃功能是Adobe Workfront推出的全新產品。 規劃功�
 | 新增縮圖至記錄 | ✓ (A) |                                  |                 |
 | 檢視記錄變更的歷史記錄 | ✓ (A) |                                  |                 |
 | 段落欄位的RTF格式 | ✓ (A) |                                  |                 |
-| Adobe Workfront Fusion的Adobe Workfront規劃功能模組 | ✓ (A) |                                  |                 |
+| Adobe Workfront Fusion的Adobe Workfront規劃模組 | ✓ (A) |                                  |                 |
 | 從一個欄位複製資訊並貼上到另一個欄位 | ✓ (A) |                                  |                 |
 
-## 為您的Workfront例項中的使用者啟用Adobe Workfront規劃功能
+## 為您的Workfront例項中的使用者啟用Adobe Workfront規劃
 
-貴組織必須註冊Adobe Workfront規劃功能封閉測試版計畫，您才能存取規劃功能。 如需註冊Beta版計畫的相關資訊，請聯絡客戶代表。
+貴組織必須註冊Adobe Workfront計畫封閉測試版計畫，您才能存取計畫功能。 如需註冊Beta版計畫的相關資訊，請聯絡客戶代表。
 
-如需有關授予存取權以及允許其他人使用規劃功能的詳細資訊，請參閱 [存取權總覽](/help/quicksilver/maestro/access/access-overview.md).
+如需有關授予存取權以及讓其他人使用Workfront計畫的詳細資訊，請參閱 [存取權總覽](/help/quicksilver/maestro/access/access-overview.md).
 
-## Adobe Workfront規劃功能術語
+## Adobe Workfront規劃術語
 
-雖然規劃功能屬於Workfront的一部分，但隨附專有概念和術語。 開始為組織設定規劃功能之前，請確定您熟悉規劃功能概念。
+雖然Workfront規劃屬於Workfront的一部分，但隨附專屬的概念和術語。 開始為組織設定Workfront規劃之前，請務必熟悉新概念。
 
-規劃功能的架構是完全可自訂的。 您可以建立所有記錄型別、其屬性以及與其相關聯的任何欄位，以符合您組織的確切需求。
+Workfront規劃框架是完全可自訂的。 您可以建立所有記錄型別、其屬性以及與其相關聯的任何欄位，以符合您組織的確切需求。
 
-以下是主要的規劃功能物件與概念：
+以下是主要的Workfront規劃物件和概念：
 
-* **工作區**：定義特定組織作業生命週期的記錄型別和分類之集合。 工作區是組織單位的工作框架。
+* **工作區**：定義特定組織作業生命週期的記錄型別集合。 工作區是組織單位的工作框架。
 
   一個Workfront例項最多可以有1,000個工作區。
 
@@ -115,64 +114,39 @@ Adobe Workfront規劃功能是Adobe Workfront推出的全新產品。 規劃功�
 
   如需詳細資訊，請參閱 [建立工作區](../maestro/architecture/create-workspaces.md).
 
-* **記錄型別**：主要規劃功能物件型別。
+* **記錄型別**：物件型別或Workfront規劃。
 
-  與Workfront預先定義物件型別不同，在規劃功能中，您可以建立自己的物件型別。
+  與Workfront （預先定義物件型別）不同，在Workfront規劃中，您可以建立自己的物件型別。
 
   例如，在Workfront中，已建立方案、Portfolio、專案、任務或問題的物件型別。
 
-  在規劃功能中，您可以建立符合組織工作流程的任何記錄型別。 稍後，您可以定義記錄型別如何相互關聯或表單相依性。
+  在Workfront規劃中，您可以建立符合組織工作流程的任何記錄型別。 稍後，您可以定義記錄型別如何相互關聯或表單相依性。
 
-  如需詳細資訊，請參閱 [作業記錄型態與分類的概要](../maestro/architecture/overview-of-record-types-and-taxonomies.md).
+  如需詳細資訊，請參閱 [記錄型別概觀](../maestro/architecture/overview-of-record-types-and-taxonomies.md).
 
-  規劃功能具有下列記錄型別：
-
-   * **作業記錄型別**：代表策略性計畫、方案或已執行工作的記錄型別。
-
-     ![](assets/operational-record-type-blank.png)
-
-     例如，促銷活動、活動、方案可以是作業記錄型別。
-
-     如需詳細資訊，請參閱 [建立記錄型別](../maestro/architecture/create-record-types.md).
-
-   * **分類法**：擷取操作記錄型別相關屬性的記錄型別。
-
-     ![](assets/taxonomy-record-type-blank.png)
-
-     雖然建立分類與建立作業記錄型別相同，但計畫功能會區分作業記錄型別和分類記錄型別。 分類法的用途是增強作業記錄型別。 <!--this is no longer true, but might be later?!: A taxonomy is a record without dates, like a static list of attributes.-->
-
-     例如，「對象」、「區域」或「地址」可以是分類型別的記錄型別。
-
-     如需詳細資訊，請參閱 [建立分類記錄型別](../maestro/architecture/create-a-taxonomy.md).
-
-* **記錄**：計畫功能記錄型別的例項。 記錄可以參考作業記錄型別或分類法。
+* **記錄**：記錄型別的例項。
 
   ![](assets/records-highlighted-in-campaign-record-type-list.png)
-  ![](assets/records-highlighted-in-region-taxonomy-type-list.png)
 
   將記錄型別新增至工作區後，您就可以開始在記錄型別的頁面上新增該型別的記錄。
 
-  例如，「Campaign」可以是作業記錄型別，「Summer Campaign for EMEA」是Campaign記錄型別的記錄
-
-  或
-
-  「地區」是分類法型別的記錄，而「美洲 — 拉丁美洲」或「EMEA — 中歐」是分類法記錄。
+  例如，「Campaign」可以是記錄型別，「Summer Campaign for EMEA」是Campaign記錄型別的記錄
 
   如需詳細資訊，請參閱 [建立記錄](../maestro/records/create-records.md).
 
-* **工作區範本**：您可以使用預先定義的範本建立工作區。 您可以使用範本中預先定義的記錄型別、分類和欄位，也可以新增您自己的記錄型別、分類和欄位。
+* **工作區範本**：您可以使用預先定義的範本建立工作區。 您可以使用範本中預先定義的記錄型別和欄位，也可以新增您自己的記錄型別和欄位。
 
   ![](assets/workspaces-page-with-templates-thumbnails.png)
 
-  Adobe Workfront規劃功能隨附銷售、行銷和產品管理工作區範本。
+  Adobe Workfront規劃隨附銷售、行銷和產品管理工作區範本。
 
   如需詳細資訊，請參閱 [建立工作區](../maestro/architecture/create-workspaces.md).
 
-* **欄位**：欄位是可新增至作業或分類記錄型別的屬性，這些記錄型別包含有關記錄型別的資訊。 <!--check the shot below, "Connection" needs to be in lowercase-->
+* **欄位**：欄位是您可以新增到記錄型別的屬性。 欄位包含有關記錄型別的資訊。 <!--check the shot below, "Connection" needs to be in lowercase-->
 
   ![](assets/drop-down-list-of-record-fields.png)
 
-  有關規劃功能欄位的考量事項：
+  有關記錄欄位的考量事項：
 
    * 您為記錄型別新增的欄位會自動與該型別的所有記錄相關聯，並可用於擷取有關這些記錄的資料。
 
@@ -180,19 +154,17 @@ Adobe Workfront規劃功能是Adobe Workfront推出的全新產品。 規劃功�
 
    * 欄位對記錄型別是唯一的，不會從一種記錄型別轉移到另一種記錄型別。
 
-   * 規劃功能欄位完全可自訂，且僅可在規劃功能中存取。 您無法從Workfront存取規劃功能欄位。
+   * 欄位可完全自訂，僅可在Workfront規劃中存取。 您無法從Workfront存取Workfront規劃欄位。
 
   如需詳細資訊，請參閱 [建立欄位](../maestro/fields/create-fields.md).
 
-  依預設，新的作業記錄型態與下列預先定義的欄位相關聯：
+  依預設，新的記錄型別與下列預先定義的欄位相關聯：
 
    * 姓名
    * 說明
    * 開始日期
    * 結束日期
    * 狀態
-
-  依預設，新的分類記錄型別與「名稱」欄位相關聯。
 
   您可以建立下列型別的自訂欄位：
 
@@ -212,11 +184,11 @@ Adobe Workfront規劃功能是Adobe Workfront推出的全新產品。 規劃功�
    * 上次修改者
    * 上次修改日期
 
-* **連結的記錄型別**， **連結的記錄**、和 **連結的記錄欄位**：您可以在下列實體之間建立連線：
+* **連結的記錄型別**， **連結的記錄**、和 **連結的記錄欄位**：您可以在Workfront planning中的下列實體之間建立連線：
 
-   * 兩種計畫功能記錄型別。
-   * 計畫功能記錄型別和Workfront專案、方案、投資組合、公司或群組物件型別。
-   * 規劃功能記錄型別和Adobe Experience Manager資產或資料夾。
+   * 兩種記錄型別。
+   * 記錄型別和Workfront專案、方案、投資組合、公司或群組物件型別。
+   * 記錄型別和Adobe Experience Manager資產或資料夾。
 
      您必須擁有Adobe Experience Manager授權，才能將記錄型別與Experience Manager物件連結。
 
@@ -225,9 +197,9 @@ Adobe Workfront規劃功能是Adobe Workfront推出的全新產品。 規劃功�
 
   在記錄型別之間建立連線之後，可以將這些型別的個別記錄彼此連線。 記錄之間的連線會顯示為連結的記錄欄位。
 
-* **連結的欄位** （或查詢欄位）：在兩個記錄型別之間建立連線並將個別記錄連結在一起後，您可以在要連線的記錄上參考連結記錄的欄位。
+* **連結的欄位** （或查詢欄位）：建立兩個記錄型別之間的連線，並將個別記錄連結在一起後，您可以參考連結記錄上您連結的記錄欄位。
 
-  例如，如果您將計畫功能促銷活動與Workfront專案連線，則可以在計畫功能促銷活動記錄上顯示已連線專案的「專案所有者」欄位。
+  例如，如果您將促銷活動記錄型別與Workfront專案物件型別連線，則可以在促銷活動記錄上顯示已連線專案的「專案所有者」欄位。
 
   ![](assets/add-lookup-fields-modal.png)
 
@@ -261,14 +233,14 @@ Adobe Workfront規劃功能是Adobe Workfront推出的全新產品。 規劃功�
 如需詳細資訊，請參閱 [管理記錄檢視](../maestro/views/manage-record-views.md).
 
 
-## Adobe Workfront規劃功能物件限制
+## Adobe Workfront planning物件限制
 
-下表顯示可在規劃功能中建立的物件數目限制。 當我們進入下一個開發階段時，限制可能會有所變更。
+下表顯示您可以在Workfront Planning中建立多少物件的限制。 當我們進入下一個開發階段時，限制可能會有所變更。
 
-| Adobe Workfront規劃功能物件 | 限制 |
+| Adobe Workfront計畫物件 | 限制 |
 |-------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------:|
 | 一個Workfront例項的工作區數 | 1,000 |
-| 一個工作區的記錄型別數 | 1,000 （這包括工作區的分類，或從其他應用程式匯入的物件） |
+| 一個工作區的記錄型別數 | 1,000 （這包括來自所有區段的記錄型別，以及在使用工作區範本時建立的記錄型別） |
 | 一種記錄型別的記錄數 | 50,000 |
 | 一種記錄型別或分類法的欄位數 | 500 |
 | 文字欄位的字元數 | 1,000個字元 |
@@ -279,20 +251,20 @@ Adobe Workfront規劃功能是Adobe Workfront推出的全新產品。 規劃功�
 
 >[!IMPORTANT]
 >
->*此功能已暫時停用，將於稍後提供
+>*此功能已暫時停用，將於稍後提供。
 
 
-## 找到Adobe Workfront規劃功能
+## 找到Adobe Workfront計畫
 
-確保您的組織已獲得規劃權能的存取權，且您的系統或群組管理員已將規劃權能區域新增至您的主功能表。 如需詳細資訊，請參閱 [存取權總覽](/help/quicksilver/maestro/access/access-overview.md).
+確保您的組織已獲得Workfront規劃的存取權，且您的系統或群組管理員已將Planning區域新增到您的主功能表。 如需詳細資訊，請參閱 [存取權總覽](/help/quicksilver/maestro/access/access-overview.md).
 
-若要尋找規劃功能：
+若要找到Workfront規劃：
 
 1. 登入Adobe Workfront。
 
 1. 按一下 **主要功能表** ![](assets/main-menu-workfront.png) 或按一下 **主要功能表** ![](assets/main-menu-shell.png) 左上角（如果有的話）。
 
-1. 按一下 **大師** ![](assets/maestro-icon.png).
+1. 按一下 **規劃** ![](assets/maestro-icon.png).
 
    「工作區」區域隨即開啟。
 
@@ -300,11 +272,11 @@ Adobe Workfront規劃功能是Adobe Workfront推出的全新產品。 規劃功�
 
    1. 從頭開始或使用範本建立工作區。
 
+   1. 新增區段至新工作區。
+   1. 重新命名新工作區中的現有區段。
    1. 將記錄型別新增至新工作區。
 
-   1. 將分類新增至新工作區。
-
-   1. 按一下記錄型別的名稱以開啟記錄的頁面。 依預設，記錄頁面會在「表格」檢視中開啟。
+   1. 按一下記錄型別的名稱以開啟記錄型別的頁面。 記錄型別頁面預設會在「表格」檢視中開啟。
 
       您也可以建立時間表或行事曆檢視。
 
@@ -314,7 +286,9 @@ Adobe Workfront規劃功能是Adobe Workfront推出的全新產品。 規劃功�
 
       透過新增欄開始新增記錄欄位。
 
-## Adobe Workfront規劃功能發行活動
+## Adobe Workfront規劃發行活動
 
-我們將定期發佈規劃功能的新功能。 如需最新已發行功能清單，請參閱 [Adobe Workfront規劃功能發行活動](../maestro/release-activity.md).
+我們會定期為Workfront規劃發佈新功能。
+
+如需最新已發行功能清單，請參閱 [Adobe Workfront規劃發行活動](../maestro/release-activity.md).
 

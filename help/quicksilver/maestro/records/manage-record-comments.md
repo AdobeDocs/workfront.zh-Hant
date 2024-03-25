@@ -1,16 +1,16 @@
 ---
 title: 管理記錄註解
-description: 您可以在記錄的右側面板中新增評論或回覆，對AdobeMaestro記錄進行共同作業。 您也可以在此區域中檢視系統記錄的其它變更。
+description: 您可以在記錄的右側面板中新增評論或回覆，對Adobe Workfront規劃記錄進行共同作業。 您也可以在此區域中檢視系統記錄的其它變更。
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 4016ba2c1b94ba84037612bdc9c1136267513fd5
+exl-id: 215883a4-e882-438e-9c21-954c0b1d741b
+source-git-commit: a0f12a016ae8ac73136f05bf3255f9882e2ce6d4
 workflow-type: tm+mt
-source-wordcount: '1155'
+source-wordcount: '1147'
 ht-degree: 0%
 
 ---
-
 
 # 管理記錄註解
 
@@ -24,37 +24,32 @@ ht-degree: 0%
 
 <span class="preview">For information about the current release schedule, see [First Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).</span> -->
 
-您可以在記錄的右側面板中新增評論或回覆，共同作業AdobeMaestro記錄。 您也可以在此區域中檢視系統記錄的其它變更。
+您可以在記錄的右側面板中新增評論或回覆，對Adobe Workfront規劃記錄進行共同作業。 您也可以在此區域中檢視系統記錄的其它變更。
 
 記錄的右側面板會顯示下列區段：
 
 * **註解**：顯示使用者新增至記錄的評論和回覆。
 * **歷史記錄**：顯示使用者對記錄欄位進行的系統記錄變更。 如需詳細資訊，請參閱 [歷史記錄區段總覽](/help/quicksilver/maestro/records/history-section-overview.md).
 
->[!TIP]
->
->右側面板會顯示作業記錄和分類記錄。
-
-
 ## 在記錄上加上註解的考量事項
 
-* 您可以在Maestro記錄的「註解」區段中，新增對作業記錄和分類的註解和回覆。
+* 您可以在Workfront planning中，於記錄的「註解」區段中，新增註解及回覆至記錄。
 
-* 新增至連結記錄的註解不會顯示在您連結的記錄上。 例如，如果您對連結至Campaign記錄的Maestro產品記錄加上註解，該註解只會顯示在Maestro的產品記錄上，而不會顯示在您連結的Campaign記錄上。
+* 新增至連結記錄的註解不會顯示在您連結的記錄上。 例如，如果您對連結至「促銷活動」記錄的Workfront計畫產品記錄加上註解，該註解僅會顯示在Workfront計畫的「產品」記錄上，而不會顯示在您連結的「促銷活動」記錄上。
 
-* 您可以新增註解至由Maestro記錄與其他應用程式物件之間的連線所建立的Maestro記錄。
+* 您可以將註解新增至由於記錄與其他應用程式物件之間的連線而建立的Workfront planning記錄。
 
-  例如，在連線Workfront專案與Maestro記錄後，您可以對Project Maestro記錄加上註解。 如需詳細資訊，請參閱 [連線記錄](/help/quicksilver/maestro/records/connect-records.md).
+  例如，在將Workfront專案與Workfront計畫記錄連線之後，您可以對Workfront計畫記錄加上註解。 如需詳細資訊，請參閱 [連線記錄](/help/quicksilver/maestro/records/connect-records.md).
 
-* 新增至其他應用程式中連結物件的註解不會顯示在Maestro中，而新增至Maestro中連結物件的註解不會顯示在其他應用程式中。
+* 新增至其他應用程式中連結物件的註解不會顯示在Workfront規劃中，而新增至Workfront規劃中連結物件的註解不會顯示在其他應用程式中。
 
-  例如，在Workfront中新增至專案的評論不會顯示在連結至Maestro中促銷活動的相同專案上，而且新增至Maestro專案記錄的評論不會顯示在Workfront中。
+  例如，在Workfront中新增至專案的評論不會顯示在連結至Workfront規劃中行銷活動的相同專案上，而新增至專案Workfront規劃記錄的評論不會顯示在Workfront中。
 
 * 您可以標籤使用者，以提醒他們注意更新。 標籤的使用者不會收到應用程式內通知或有關您更新的電子郵件。 <!--this might change??-->
 
-* 您可以新增更新至記錄，並從Maestro的下列區域複查變更歷史記錄：
+* 您可以新增更新至記錄，並從Workfront計畫的下列區域複查變更歷史記錄：
 
-   * 從記錄或分類法的「詳細資訊」頁面。
+   * 從記錄的詳細資訊頁面。
 
   <!--* From the table view.-->
 
@@ -77,7 +72,7 @@ ht-degree: 0%
   </tr>  
  <td role="rowheader"><p>Adobe Workfront合約</p></td>
    <td>
-<p>貴組織必須註冊AdobeMaestro封閉測試版計畫。 請聯絡您的客戶代表以查詢此新產品/服務。 </p>
+<p>貴組織必須註冊Adobe Workfront計畫Beta版計畫。 請聯絡您的客戶代表以查詢此新產品/服務。 </p>
    </td>
   </tr>
   <tr>
@@ -95,7 +90,7 @@ ht-degree: 0%
 
 <tr>
    <td role="rowheader"><p>存取層級設定</p></td>
-   <td> <p>Maestro中沒有存取層級控制項。 </p>  
+   <td> <p>Workfront規劃中沒有存取層級控制項。 </p>  
 </td>
   </tr>
 <tr>
@@ -107,7 +102,7 @@ ht-degree: 0%
 
 <tr>
    <td role="rowheader"><p>版面配置範本</p></td>
-   <td> <p>您的Workfront或群組管理員必須在您的版面配置範本中新增Maestro區域。 如需詳細資訊，請參閱 <a href="../access/access-overview.md">存取權總覽</a>. </p>  
+   <td> <p>您的Workfront或群組管理員必須在版面配置範本中新增Planning區域。 如需詳細資訊，請參閱 <a href="../access/access-overview.md">存取權總覽</a>. </p>  
 </td>
   </tr>
  </tbody>
@@ -186,7 +181,6 @@ ht-degree: 0%
 
 ## 歷史記錄區段總覽
 
-您可以在作業記錄或分類法右側面板的「歷史記錄」區段中，複查對記錄所做的變更。
+您可以在記錄的右側面板的「歷史記錄」區段中，檢閱對記錄所做的變更。
 
 如需詳細資訊，請參閱 [歷史記錄區段總覽](/help/quicksilver/maestro/records/history-section-overview.md).
-

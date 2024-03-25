@@ -1,16 +1,16 @@
 ---
 title: 公式欄位概觀
-description: 在Adobe大師，您可以建立公式欄位，這些欄位使用函式和現有欄位來計算新的自訂值。
+description: 在Adobe Workfront計畫中，您可以建立公式欄位，這些欄位使用函式和現有欄位來計算新的自訂值。
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 4016ba2c1b94ba84037612bdc9c1136267513fd5
+exl-id: 5027d611-916e-492d-9a44-841bdde11c94
+source-git-commit: a0f12a016ae8ac73136f05bf3255f9882e2ce6d4
 workflow-type: tm+mt
-source-wordcount: '446'
+source-wordcount: '453'
 ht-degree: 0%
 
 ---
-
 
 # 公式欄位概觀
 
@@ -31,7 +31,7 @@ recommendations: noDisplay, noCatalog
 
 {{maestro-important-intro}}
 
-您可以在Adobe Maestro中建立自訂欄位，方法是參考現有欄位並使用公式將其連線。 您可以建立自訂公式型別欄位來完成此操作。
+您可以在Adobe Workfront計畫中建立自訂欄位，方法是參考現有欄位並使用公式將其連線。 您可以建立自訂公式型別欄位來完成此操作。
 
 公式欄位會使用記錄型別中其他欄位的現有值，以及指示應如何計算現有值的函式，來產生新值。
 
@@ -56,7 +56,7 @@ recommendations: noDisplay, noCatalog
   </tr>  
  <td role="rowheader"><p>Adobe Workfront合約</p></td>
    <td>
-<p>貴組織必須註冊AdobeMaestro封閉測試版計畫。 請聯絡您的客戶代表以查詢此新產品/服務。 </p>
+<p>貴組織必須註冊Adobe Workfront計畫Beta版計畫。 請聯絡您的客戶代表以查詢此新產品/服務。 </p>
    </td>
   </tr>
   <tr>
@@ -74,7 +74,7 @@ recommendations: noDisplay, noCatalog
 
 <tr>
    <td role="rowheader"><p>存取層級設定</p></td>
-   <td> <p>Maestro沒有存取控制</p>  
+   <td> <p>Workforce計畫沒有存取控制</p>  
 </td>
   </tr>
 <tr>
@@ -85,7 +85,7 @@ recommendations: noDisplay, noCatalog
   </tr>
 <tr>
    <td role="rowheader"><p>版面配置範本</p></td>
-   <td> <p>您的Workfront或群組管理員必須在您的版面配置範本中新增Maestro區域。 如需詳細資訊，請參閱 <a href="../access/access-overview.md">存取權總覽</a>. </p>  
+   <td> <p>您的Workfront或群組管理員必須在版面配置範本中新增Planning區域。 如需詳細資訊，請參閱 <a href="../access/access-overview.md">存取權總覽</a>. </p>  
 </td>
   </tr>
 
@@ -102,14 +102,14 @@ recommendations: noDisplay, noCatalog
 * 公式欄位參考屬於相同記錄型別的欄位。 建立公式欄位時，您無法參考其他記錄型別的欄位。 <!--is this still accurate??-->
 * 儲存公式欄位後，您無法變更其欄位型別。
 * 儲存公式欄位後，您可以更新公式欄位的計算，而計算結果會自動更新相同型別的所有記錄。
-* 當公式中的欄位顯示在Maestro介面時，您必須新增您在公式中參考的欄位。
+* 您必須新增您在公式中參考的欄位，因為它們會顯示在Workfront規劃介面中。
 * 在公式中使用連結記錄型別的查詢欄位將在稍後提供。
 
 ## 支援的公式
 
-Maestro公式欄位支援Workfront計算欄位的所有運算式。 如需詳細資訊，請參閱 [計算資料運算式的概觀](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
+Adobe Workfront規劃公式欄位支援Workfront計算欄位的所有運算式。 如需詳細資訊，請參閱 [計算資料運算式的概觀](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
 
-此外，我們為Maestro公式欄位支援下列運算式：
+此外，我們對Workfront規劃公式欄位支援下列運算式：
 
 <table style="table-layout:auto"> 
  <col> 
@@ -164,8 +164,3 @@ Maestro公式欄位支援Workfront計算欄位的所有運算式。 如需詳細
    </td></tr>
 
 </table>
-
-
-
-
-

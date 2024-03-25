@@ -1,18 +1,18 @@
 ---
-title: Adobe Workfront規劃功能發行活動
+title: Adobe Workfront規劃發行活動
 description: Adobe Workfront規劃功能目前可供特定Workfront客戶使用。 請經常閱讀本文章，瞭解最近針對規劃功能發行的功能。
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 593612fea52d917904605cf3d97403347c9c9ac0
+source-git-commit: c3ba1d5fe789dec76e5513583d35679be290f14a
 workflow-type: tm+mt
-source-wordcount: '5057'
+source-wordcount: '5266'
 ht-degree: 0%
 
 ---
 
-# Adobe Workfront規劃功能發行活動
+# Adobe Workfront規劃發行活動
 
 {{maestro-important-intro}}
 
@@ -31,6 +31,46 @@ ht-degree: 0%
 >[!IMPORTANT]
 >
 >在功能發行至生產環境後的某個時間，將可使用以下各節中參考的檔案。
+
+## 2024年3月25日起一週
+
+### 工作區的新彈性記錄型別組織
+
+生產： 2024年3月25日
+
+預覽：待定
+
+為了讓您在設定工作區時提高效率，我們已修改您在工作區中組織記錄型別的方式。 部分改善包括：
+
+* 在每個工作區中建立最多50個區段的記錄型別。 現有的「作業記錄型別」與「分類」區段仍保留於現有的工作區中。
+
+* 完全自訂所有新工作區及其新區段，以反映您的流程和組織的需求。
+
+* 將記錄型別拖放到需要的地方（包括不同的區段），以動態方式在工作區中移動記錄型別。
+
+如需詳細資訊，請參閱 [建立記錄型別](/help/quicksilver/maestro/architecture/create-record-types.md).
+
+### 重複檢視
+
+生產： 2024年3月25日
+
+預覽：待定
+
+為了節省您的時間並保持一致性，您現在可以複製您有權存取的現有檢視。
+
+複製檢視會使用相同的篩選器、排序條件和群組，建立相同的檢視。 複製檢視不會維持原始檢視的許可權。
+
+如需詳細資訊，請參閱 [管理記錄檢視](/help/quicksilver/maestro/views/manage-record-views.md).
+
+### 將主要功能表中的Maestro區域重新命名為Planning
+
+生產： 2024年3月28日
+
+預覽：待定
+
+我們已將主要功能表中的Maestro區域重新命名為Planning。
+
+如需Adobe Workfront規劃的概觀，請參閱 [Adobe Workfront規劃概觀](/help/quicksilver/maestro/maestro-overview.md).
 
 ## 2024年3月18日起一週
 
@@ -207,7 +247,7 @@ ht-degree: 0%
 
 有關新許可證模型的資訊，請參閱 [Workfront檔案中的存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-如需有關計畫功能中許可證型別與許可權之間的連線的資訊，請參閱 [使用Adobe Workfront規劃功能時的授權型別概觀](/help/quicksilver/maestro/access/license-type-overview.md).
+如需有關計畫功能中許可證型別與許可權之間的連線的資訊，請參閱 [使用Adobe Workfront規劃時的授權型別概觀](/help/quicksilver/maestro/access/license-type-overview.md).
 
 
 ### 記錄欄位RTF工具列的新外觀

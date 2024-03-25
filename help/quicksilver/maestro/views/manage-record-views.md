@@ -1,13 +1,13 @@
 ---
 title: 管理記錄檢視
-description: 使用Adobe Workfront規劃功能時，您可以在表格、時間軸或行事曆檢視中顯示記錄。
+description: 使用Adobe Workfront規劃時，您可以在表格、時間軸或行事曆檢視中顯示記錄。
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: e881aa57b5175ce5b559180a2713de0c607b3b1d
+source-git-commit: 130365bfa220337aa25f27ba03742ea3471972cb
 workflow-type: tm+mt
-source-wordcount: '949'
+source-wordcount: '1071'
 ht-degree: 1%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 1%
 
 {{maestro-important-intro}}
 
-在Adobe Workfront規劃功能區域中選取記錄型別後，您可以在下列檢視中顯示該型別的所有記錄：
+在Adobe Workfront規劃區域中選取記錄型別後，您可以在下列檢視中顯示該型別的所有記錄：
 
 * 表格
 
@@ -51,7 +51,7 @@ ht-degree: 1%
   </tr>  
  <td role="rowheader"><p>Adobe Workfront合約</p></td>
    <td>
-<p>貴組織必須註冊Adobe Workfront規劃功能封閉測試版計畫。 請聯絡您的客戶代表以查詢此新產品/服務。 </p>
+<p>貴組織必須註冊Adobe Workfront計畫封閉測試版計畫。 請聯絡您的客戶代表以查詢此新產品/服務。 </p>
    </td>
   </tr>
   <tr>
@@ -69,7 +69,7 @@ ht-degree: 1%
 
 <tr>
    <td role="rowheader">存取層級設定</td>
-   <td> <p>Workfront規劃功能沒有存取層級控制項</p>  
+   <td> <p>Workfront計畫沒有存取層級控制項</p>  
 </td>
   </tr>
 
@@ -81,7 +81,7 @@ ht-degree: 1%
 
 <tr>
    <td role="rowheader">版面配置範本</td>
-   <td> <p>您的系統管理員必須在您的版面配置範本中新增Maestro區域。 如需詳細資訊，請參閱 <a href="../access/access-overview.md">存取權總覽</a>. </p>  
+   <td> <p>您的系統管理員必須在版面配置範本中新增Planning區域。 如需詳細資訊，請參閱 <a href="../access/access-overview.md">存取權總覽</a>. </p>  
 </td>
   </tr>
  </tbody>
@@ -89,9 +89,8 @@ ht-degree: 1%
 
 ## 使用記錄檢視時的注意事項
 
-* Workfront規劃功能區域中的檢視是記錄型別專屬檢視。 您不能將相同的檢視套用至兩種不同的記錄型別。
+* Workfront Planning中的檢視是記錄型別專屬檢視。 您不能將相同的檢視套用至兩種不同的記錄型別。
 * 您建立的檢視只對您和共用檢視的使用者可見。
-* 建立作業記錄型別的檢視與建立分類記錄型別的檢視相同。
 * 當您修改或刪除檢視時，該檢視會被修改並刪除，以供擁有該檢視許可權的所有使用者使用。
 * 以下元素是每個記錄檢視所獨有的：
 
@@ -101,19 +100,19 @@ ht-degree: 1%
 
   <!-- some of these are not available in all of the views - edit above-->
 
-  例如，在表格檢視中建立篩選時，篩選結果只會顯示在選取的檢視中，而不會顯示在「檢視」下拉式選單中列出的所有檢視中。
+  例如，在表格檢視中建立篩選時，篩選結果只會在選取的檢視中顯示，而不會在與記錄型別相關的所有檢視中顯示。
 
   >[!NOTE]
   >
-  > 由於Adobe Workfront規劃功能目前處於測試版狀態，因此部分檢視元素可能未提供給所有檢視。
+  > 由於Adobe Workfront規劃目前處於測試版狀態，因此某些檢視元素可能無法用於所有檢視。
 
 本文說明有關記錄檢視的下列資訊：
 
 * [建立及編輯檢視](#create-or-edit-record-views)
 * [刪除檢視](#delete-views)
-  <!--* [Duplicate a view](#duplicate-views)-->
-  <!--* [Add a view as a favorite](#add-a-view-as-a-favorite) - not possible yet-->
+* [複製檢視](#duplicate-views)
 * [共用檢視](#share-a-view)
+  <!--* [Add a view as a favorite](#add-a-view-as-a-favorite) - not possible yet-->
 
 ## 記錄檢視之間的相似之處和差異
 
@@ -233,20 +232,30 @@ ht-degree: 1%
 
 <!--## Add a view as a favorite - this is not possible yet-->
 
-<!--not possible yet - August 30, 2023: 
+<!--not possible yet - August 30, 2023: -->
 
-## Duplicate views
+## 複製檢視
 
-If you want to keep multiple versions of a view and make slight changes between the version, you can duplicate a view. Duplicating a view creates identical copies of an existing view. 
+如果您想要保留一個檢視的多個版本，並在這些版本之間做些微變更，您可以複製一個檢視。
 
-1. From the **Main Menu**, click **Maestro**. 
-    The workspace you last accessed opens by default. For information about creating workspaces, see [Create workspaces](../architecture/create-workspaces.md).
-1. Click a record type. For information about creating a record type, see [Create record types](../architecture/create-record-types.md). 
+複製檢視會建立現有檢視的相同副本。
 
-    By default, all the records of the type selected display in the table view. 
+原始檢視的共用許可權不會轉移到複製的檢視。
 
-1. Click the view drop-down menu, then click the **More** menu ![](assets/more-menu.png) to the right of the view name > **Duplicate**. (**********ensure there is not another saving step here?! also, add how this view is named; the button to duplicate was there but not the functionality yet************)
-    
-    The view is duplicated and visible to all users who can access the Maestro area. 
+{{step1-to-maestro}}
 
--->
+您上次存取的工作區預設會開啟。
+
+如需有關建立工作區的資訊，請參閱 [建立工作區](../architecture/create-workspaces.md).
+
+1. 按一下記錄型別卡。 如需有關建立記錄型別的資訊，請參閱 [建立記錄型別](../architecture/create-record-types.md).
+
+   依預設，所選型別的所有記錄都會顯示在表格檢視中。
+
+1. 將游標停留在要複製之檢視的標籤上，然後按一下 **更多** 功能表 ![](assets/more-menu.png) 檢視名稱右側，然後按一下 **複製**.
+
+   ![](assets/view-more-menu-with-duplicate-option.png)
+
+
+   檢視會重複，而新檢視的名稱會遵循以下模式： `Original view's name (Copy)`. 新的檢視標籤會顯示在所有檢視標籤的末尾。
+

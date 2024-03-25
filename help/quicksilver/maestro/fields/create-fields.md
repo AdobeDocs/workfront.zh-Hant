@@ -1,13 +1,13 @@
 ---
 title: 建立欄位
-description: 在Adobe管理員中，您可以為每種作業記錄型別或分類法建立自訂欄位。 然後，您可以將此欄位與Maestro記錄相關聯。
+description: 在Adobe Workfront Planning中，您可以為每種記錄型別建立自訂欄位。 然後，您可以將此欄位與Workfront計畫記錄建立關聯。
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: be9cedb0d09e6409a0e589f01b85a72933ac89fc
+source-git-commit: a0f12a016ae8ac73136f05bf3255f9882e2ce6d4
 workflow-type: tm+mt
-source-wordcount: '3341'
+source-wordcount: '3338'
 ht-degree: 2%
 
 ---
@@ -35,7 +35,7 @@ recommendations: noDisplay, noCatalog
 
 {{maestro-important-intro}}
 
-在「Adobe管理員」中，您可以建立作業記錄型別或分類的自訂欄位。 然後，您可以將欄位與Maestro記錄建立關聯，以增強記錄資訊。
+在Adobe Workfront規劃中，您可以建立記錄型別的自訂欄位。 然後，您可以將這些欄位與Workfront計畫記錄建立關聯，以增強記錄資訊。
 
 您必須先建立記錄型別，然後才能建立欄位以與之關聯。 如需詳細資訊，請參閱 [建立記錄型別](../architecture/create-record-types.md).
 
@@ -68,7 +68,7 @@ recommendations: noDisplay, noCatalog
   </tr>  
  <td role="rowheader"><p>Adobe Workfront合約</p></td>
    <td>
-<p>貴組織必須註冊AdobeMaestro封閉測試版計畫。 請聯絡您的客戶代表以查詢此新產品/服務。 </p>
+<p>貴組織必須註冊Adobe Workfront計畫Beta版計畫。 請聯絡您的客戶代表以查詢此新產品/服務。 </p>
    </td>
   </tr>
   <tr>
@@ -86,7 +86,7 @@ recommendations: noDisplay, noCatalog
 
 <tr>
    <td role="rowheader"><p>存取層級設定</p></td>
-   <td> <p>Maestro沒有存取層級控制</p>  
+   <td> <p>Workfront計畫沒有存取層級控制</p>  
 </td>
   </tr>
 
@@ -98,7 +98,7 @@ recommendations: noDisplay, noCatalog
   </tr>
 <tr>
    <td role="rowheader"><p>版面配置範本</p></td>
-   <td> <p>您的Workfront或群組管理員必須在您的版面配置範本中新增Maestro區域。 如需詳細資訊，請參閱 <a href="../access/access-overview.md">存取權總覽</a>. </p>  
+   <td> <p>您的Workfront或群組管理員必須在版面配置範本中新增Planning區域。 如需詳細資訊，請參閱 <a href="../access/access-overview.md">存取權總覽</a>. </p>  
 </td>
   </tr>
 
@@ -373,13 +373,13 @@ recommendations: noDisplay, noCatalog
 
    如需支援哪些運算式的詳細資訊，請參閱 [公式欄位概觀](/help/quicksilver/maestro/fields/formula-fields.md)
 
-1. 在Maestro介面中新增欄位名稱，以在公式中參照它們。
+1. 新增在Workfront規劃介面中顯示的欄位名稱，以在公式中參照它們。
 
    >[!NOTE]
    >
    > * 您無法在公式中新增多重選取型別欄位。
    >
-   > * 您無法從公式中的連結記錄新增欄位。 此功能將在稍後發佈。 如需新版本的詳細資訊，請參閱 [Adobe Workfront規劃功能發行活動](/help/quicksilver/maestro/release-activity.md).
+   > * 您無法從公式中的連結記錄新增欄位。 此功能將在稍後發佈。 如需新版本的詳細資訊，請參閱 [Adobe Workfront規劃發行活動](/help/quicksilver/maestro/release-activity.md).
 
 
 1. 按一下「**建立**」。
@@ -513,7 +513,7 @@ recommendations: noDisplay, noCatalog
 
 當您在兩個Maestro記錄型別，或記錄型別與其他應用程式的物件型別之間新增連線時，可以建立連結的記錄欄位。
 
-如需有關連線Maestro記錄型別的資訊，請參閱 [連線記錄型別](../architecture/connect-record-types.md)
+如需有關連線Workfront規劃記錄型別的資訊，請參閱 [連線記錄型別](../architecture/connect-record-types.md)
 
 ## 使用Excel和CSV檔案匯入記錄型別來建立欄位
 
@@ -521,10 +521,10 @@ recommendations: noDisplay, noCatalog
 
 ## 建立記錄型別以建立欄位
 
-建立記錄型別時，依預設也會建立與新記錄型別相關聯的多個欄位。 如需詳細資訊，請參閱 [建立作業記錄型別](../architecture/create-record-types.md).
+建立記錄型別時，依預設也會建立與新記錄型別相關聯的多個欄位。 如需詳細資訊，請參閱 [建立記錄型別](../architecture/create-record-types.md).
 
 ## 從範本建立工作區以建立欄位
 
-當您從範本建立工作區時，Maestro會為作業記錄型別和分類建立欄位。
+當您從範本建立工作區時，Adobe Workfront planning會為記錄型別建立欄位。
 
-如需詳細資訊，請參閱 [建立作業工作區](../architecture/create-workspaces.md).
+如需詳細資訊，請參閱 [建立工作區](/help/quicksilver/maestro/architecture/create-workspaces.md).
