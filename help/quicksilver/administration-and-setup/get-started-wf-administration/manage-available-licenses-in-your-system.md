@@ -8,9 +8,9 @@ author: Lisa, Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: ea580dd0-efb7-4f56-beb3-07ad044efc8a
-source-git-commit: 16a34e4315d508e31859e962edd01026d01ee193
+source-git-commit: bba5992184c50a159be21d78f1a9c61aa2d861d8
 workflow-type: tm+mt
-source-wordcount: '1024'
+source-wordcount: '1069'
 ht-degree: 0%
 
 ---
@@ -66,6 +66,10 @@ ht-degree: 0%
    >校訂授權僅適用於已購買付費的Workfront Proof附加元件以及其Workfront授權的客戶。 如需關於此附加元件的資訊，請參閱 [Workfront Proof：文章索引](../../workfront-proof/workfront-proof.md).
 
 1. （視條件而定）如果您看到訊息 **若要設定上限，您必須新增主群組**，依照一節中的說明在您的系統中新增主群組 [在[授權]頁面新增或移除主群組](#add-or-remove-a-home-group-to-the-licenses-page) 本文章內容。
+
+   >[!NOTE]
+   >
+   >對於新計畫，Select計畫不允許管理員依主群組檢視授權。 您只能看到使用的授權總數。 Prime和Ultimate計畫提供設定每個主群組最大授權數的功能。
 
 ## 檢視Workfront附加元件授權的相關資訊
 
