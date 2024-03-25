@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7a65d66e-a578-4016-805e-0cb04caaa18a
-source-git-commit: b3a2f3ee4d89a6370c498457c1958cd7b9ea69b8
+source-git-commit: 593612fea52d917904605cf3d97403347c9c9ac0
 workflow-type: tm+mt
 source-wordcount: '367'
 ht-degree: 0%
@@ -51,7 +51,7 @@ hide: yes
 <!--* [View a video demonstration of Adobe Maestro](https://video.tv.adobe.com/v/3424253/){target=_blank}-->
 * [Adobe Workfront規劃功能概觀](maestro-overview.md)：Adobe Workfront規劃功能的整體概觀，包括此解決方案特有的術語和概念。 我們建議您在這裡使用新的規劃功能來開始您的歷程。
 * [Adobe Workfront規劃功能發行活動](../maestro/release-activity.md)：列出自2023年5月22日Adobe Workfront規劃功能封閉測試版計畫推出以來已發行的所有功能，包含確切發行日期及每個功能的簡短概觀。
-* [Workfront Fusion的Adobe大師模組](/help/quicksilver/workfront-fusion/apps-and-their-modules/maestro-modules.md)
+* [Workfront Fusion的Adobe大師模組](/help/quicksilver/workfront-fusion/apps-and-their-modules/workfront-planning-modules.md)
 
 ## Workfront規劃功能架構和功能
 
