@@ -7,9 +7,10 @@ description: 您可以使用版面配置範本來設定使用者在開啟新首�
 author: Nolan
 feature: System Setup and Administration
 role: Admin
-source-git-commit: 2551089a20d3301ff1cf7dd633114dbb5235e959
+exl-id: b9997e79-a893-49dd-8c90-290399b2d2f7
+source-git-commit: fcf4ff8525e3ac65aa75ab01463a3641e7898169
 workflow-type: tm+mt
-source-wordcount: '779'
+source-wordcount: '798'
 ht-degree: 1%
 
 ---
@@ -101,7 +102,14 @@ ht-degree: 1%
       <p>選取您要編輯的Widget後，可用選項將顯示在右側。 這些選項包括 <b>篩選器</b>， <b>欄</b>、和 <b>群組</b>. 您可以：</p>
       <ul>
       <li><p><b>選取使用者可用的篩選器、欄或群組：</b></p>
-      <p>勾選清單中所有選項旁的方塊，讓使用者能夠使用。 使用者看不到未核取的選項。</li></p>
+      <p>勾選清單中所有選項旁的方塊，讓使用者能夠使用。 使用者看不到未核取的選項。</li></p>     
+    <p>
+
+>[!IMPORTANT]
+>
+>使用者必須擁有檢視的建立存取權，才能將欄設定正確套用至其Widget。
+
+</p>
       <li><p><b>設定Widget的預設篩選或群組：</b></p>
       <p>將滑鼠停留在選項上，會出現一個按鈕，可讓您將該選項設定為使用者的預設值。 目前預設的右側會有藍色的「預設」徽章。</li></p>
       <li><p><b>將現有的篩選器、欄或群組新增至可用選項清單：</b></p>
@@ -124,4 +132,3 @@ ht-degree: 1%
    或
 
    如果您已完成自訂，請按一下 **儲存** 左下角。
-

@@ -4,7 +4,8 @@ description: 此頁面提供2024年第二季度版本中包含的功能相關資
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 4387c4cda66384f9d988d82cab5e7ed90a70173e
+exl-id: bdcfed70-1999-4c40-a38f-12c762c8c1c4
+source-git-commit: fcf4ff8525e3ac65aa75ab01463a3641e7898169
 workflow-type: tm+mt
 source-wordcount: '1820'
 ht-degree: 0%
@@ -20,7 +21,7 @@ ht-degree: 0%
 
 [Adobe Workfront的未來](https://reg.adobe.com/flow/adobe/as24/sessions/page/catalog?search=S302) 於2024年3月26日舉行，以窺探策略規劃及工作流程的未來。 瞭解Workfront團隊如何計畫在整個行銷生命週期中處理業務功能，而所有這一切都透過AI優先的方法來自動化工作、簡化使用者體驗並提高生產力。
 
-[為端對端行銷活動規劃推出行銷行事曆和工具](https://reg.adobe.com/flow/adobe/as24/sessions/page/catalog?search=s304) 於2023年3月23日開始，瞭解新產品功能，其設計可讓您的組織管理端對端營運生命週期並以視覺化方式呈現。
+[為端對端行銷活動規劃推出行銷行事曆和工具](https://reg.adobe.com/flow/adobe/as24/sessions/page/catalog?search=s304) 於2024年3月28日開始，瞭解新產品功能，其設計可讓您的組織管理端對端營運生命週期並以視覺化方式呈現。
 
 <span class="preview">非週期功能（在2024年第二季度發行日期之前發佈到生產環境的功能）會以黃色醒目提示。</span>
 
