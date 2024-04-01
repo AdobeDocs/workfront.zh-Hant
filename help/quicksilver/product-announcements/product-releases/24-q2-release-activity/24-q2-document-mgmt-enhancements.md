@@ -4,9 +4,10 @@ description: 2024年第二季檔案管理增強功能
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 2faa01024a1a174bacb42e9c6e24f528252f49f4
+exl-id: 9f7873e0-3645-49db-8dec-fb0c6eff3e8d
+source-git-commit: 7f822e5ba6c65d50eb7a7a660689f88066939e2d
 workflow-type: tm+mt
-source-wordcount: '334'
+source-wordcount: '337'
 ht-degree: 2%
 
 ---
@@ -16,6 +17,10 @@ ht-degree: 2%
 本頁說明2024年第二季度版本對預覽環境所做的所有檔案管理增強功能。 這些增強功能將在2024年第二季度版本的生產環境中提供。
 
 如需2024年第二季發行週期目前可用的所有變更清單，請參閱 [2024年第二季版本總覽](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).
+
+>[!IMPORTANT]
+>
+>此頁面上列出的功能屬於分階段發行的一部分，僅適用於特定客戶。
 
 ## 新增檔案稽核和核准的截止日期
 
@@ -47,10 +52,6 @@ ht-degree: 2%
 >[!NOTE]
 >
 >預覽版本： 2024年3月28日；適用於所有客戶的生產：搭配24.4版（2024年4月）
-
->[!IMPORTANT]
->
->此功能屬於分階段發行，目前僅供特定客戶使用。
 
 為協助您快速管理和分析核准請求，我們在「所有核准」小工具中新增了以下關鍵績效指標：
 

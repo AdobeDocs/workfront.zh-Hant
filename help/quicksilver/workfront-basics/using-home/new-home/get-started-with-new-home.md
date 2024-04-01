@@ -6,14 +6,16 @@ description: 新首頁是管理您工作的強大新功能。 您可以自訂此
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 40bb32f0-acc7-4a22-92b9-bab9dc7c987b
-source-git-commit: 4387c4cda66384f9d988d82cab5e7ed90a70173e
+source-git-commit: 7f822e5ba6c65d50eb7a7a660689f88066939e2d
 workflow-type: tm+mt
-source-wordcount: '1120'
-ht-degree: 8%
+source-wordcount: '1088'
+ht-degree: 6%
 
 ---
 
 # 開始使用新首頁
+
+
 
 <!--Audited: 12/2023-->
 
@@ -55,10 +57,7 @@ Widget是新首頁的基礎。 將Widget新增至首頁後，您就可以選擇�
     顯示所有待指派或委派的核准、用於委派核准的按鈕，以及用於直接在 Widget 中做出核准決策的按鈕。
 
 * **所有核准**\
-    在具有可自訂欄的表格中顯示貴組織的所有核准，以及可讓您搜尋特定核准的搜尋列。
-
-* **未決核准**\
-    顯示指派給您專案上檔案的核准。 在這裡，您可以檢視核准狀態並提醒使用者有關未完成的稽核和核准。 <span style="color: #ff0000;">此功能屬於分階段發行，目前僅供特定客戶使用。</span>
+        <span class="preview"> 顯示2個圖表，內含平均核准時間和決定的相關資訊，以及擱置和逾期核准的清單檢視。</span> <span style="color: #ff0000;">此功能屬於分階段發行，目前僅供特定客戶使用。</span>
 
 * **提及**\
     顯示來自Workfront的最近評論對話串，類似於「我的更新」頁面。 您可以使用回覆按鈕在Widget中撰寫回覆。 只要任務或問題在過去30天內已更新，此Widget也會顯示針對您指派給、您指派給其他使用者、您擁有、您是主要連絡人或您建立之任務或問題所做的評論。
