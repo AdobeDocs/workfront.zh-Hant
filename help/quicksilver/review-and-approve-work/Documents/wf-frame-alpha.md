@@ -8,7 +8,8 @@ feature: Work Management, Digital Content and Documents
 hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
-source-git-commit: e05c5a8889a406d3f28ba520f28c09d5ec1d1099
+exl-id: 23d1e241-ea5b-43f5-b097-8d96e13cb267
+source-git-commit: 142d94929cb31aee51e10373989f48347fc61740
 workflow-type: tm+mt
 source-wordcount: '449'
 ht-degree: 2%
@@ -68,4 +69,6 @@ ht-degree: 2%
 
 ## 傳送意見
 
-我們重視您的意見，並相信您的觀點對於協助我們打造最佳產品至關重要。 由於您對貴公司在生產環境中採用此解決方案所需的內容有特定意見反應，請傳送至 [etienneb@adobe.com](mailto:etienneb@adobe.com).
+我們重視您的意見，並相信您的觀點對於協助我們打造最佳產品至關重要。
+
+由於您對貴公司在生產環境中採用此解決方案所需的內容有特定意見反應，請傳送至 [etienneb@adobe.com](mailto:etienneb@adobe.com).
