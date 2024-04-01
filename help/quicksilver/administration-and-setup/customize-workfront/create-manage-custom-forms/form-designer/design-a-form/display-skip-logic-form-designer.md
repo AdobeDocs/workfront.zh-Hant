@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 5f5dbeb5-b974-489c-8f4d-ebaa00f5e5ba
-source-git-commit: 2280019a7cc02c0730f85c010dc8cc08834535aa
+source-git-commit: 21b2a8180512f71383a7d5201d62fd9ab166d8ef
 workflow-type: tm+mt
 source-wordcount: '1366'
 ht-degree: 0%
@@ -160,3 +160,4 @@ ht-degree: 0%
 >[!NOTE]
 >
 ><span class="preview">只有當您在預覽環境中的表單設計工具中預覽表單時，才能使用略過邏輯。</span>
+
