@@ -4,9 +4,10 @@ description: 2024年第二季度管理員增強功能
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: a4056eb307c326b99f25406c2d5b87ad6018c754
+exl-id: a297ee8d-d949-45ab-a219-437316fa8fa3
+source-git-commit: 2faa01024a1a174bacb42e9c6e24f528252f49f4
 workflow-type: tm+mt
-source-wordcount: '722'
+source-wordcount: '802'
 ht-degree: 0%
 
 ---
@@ -16,6 +17,16 @@ ht-degree: 0%
 此頁面說明2024年第二季度版本對「預覽」環境所做的所有管理員增強功能。 如上所述，這些增強功能將於生產環境中提供。
 
 如需2024年第二季發行週期目前可用的所有變更清單，請參閱 [2024年第二季版本總覽](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).
+
+## 顯示邏輯和略過邏輯現在可在表單設計工具預覽模式中使用
+
+>[!NOTE]
+>
+>預覽版本：2024年Mach 28；所有客戶生產：24.4 （2024年4月）
+
+Beta版自訂表單設計工具現在可讓您在預覽模式下測試顯示邏輯及略過邏輯。 以前，即使套用了邏輯，預覽中仍會顯示所有欄位。
+
+如需在表單設計工具中預覽自訂表單的詳細資訊，請參閱 [使用表單設計工具來組織和預覽表單](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/organize-a-form.md).
 
 ## 公司和使用者現在支援進階自訂表單欄位
 

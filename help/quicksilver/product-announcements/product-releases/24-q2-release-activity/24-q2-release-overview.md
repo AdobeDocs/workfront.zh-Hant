@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: bdcfed70-1999-4c40-a38f-12c762c8c1c4
-source-git-commit: fcf4ff8525e3ac65aa75ab01463a3641e7898169
+source-git-commit: 876991bab19d065257802a903adf432e420fcc44
 workflow-type: tm+mt
-source-wordcount: '1820'
+source-wordcount: '2020'
 ht-degree: 0%
 
 ---
@@ -40,6 +40,7 @@ ht-degree: 0%
 ## Adobe Workfront增強功能
 
 * [管理員增強功能](#administrator-enhancements)
+* [檔案管理增強功能](#document-management-enhancements)
 * [首頁增強功能](#home-enhancements)
 * [專案增強功能](#project-enhancements)
 * [資源管理增強功能](#resource-management-enhancements)
@@ -64,7 +65,23 @@ ht-degree: 0%
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">公司和使用者現在支援進階自訂表單欄位</a><span style="color: #ff0000;"> 預覽中的新增專案！</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">顯示邏輯和略過邏輯現在可在表單設計工具預覽模式中使用</a><span style="color: #ff0000;"> 預覽中的新增專案！</span></p>
+                        <p>Beta版自訂表單設計工具現在可讓您在預覽模式下測試顯示邏輯及略過邏輯。 以前，即使套用了邏輯，預覽中仍會顯示所有欄位。</p>
+                    </td>
+                    <td><p><b>將於下列日期提供：</b></p>
+                        <ul>
+                            <li>
+                                <p>預覽版本： 2024年3月28日</p>
+                            </li>
+                            <li>
+                                <p>客戶專用生產：第24.4發行版本（2024年4月）</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">公司和使用者現在支援進階自訂表單欄位</a></p>
                         <p>當您將自訂表單附加至公司或使用者時，現在可以使用進階自訂表單功能，例如外部查詢欄位和Workfront原生欄位。</p>
                     </td>
                     <td><p><b>將於下列日期提供：</b></p>
@@ -154,7 +171,7 @@ ht-degree: 0%
             </tbody>
         </table>
 
-### 首頁增強功能
+### 檔案管理增強功能
 
 <table>
             <col style="width: 50%;" />
@@ -169,58 +186,80 @@ ht-degree: 0%
                         <p><span class="bold">發行日期</span>
                         </p>
                     </td>
-                 </tr>
+                </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-home-enhancements.md" class="MCXref xref" xrefformat="{para}">使用版面配置範本針對新首頁新增至管理員控制項的欄選項</a></p><p>[！BADGE In Production for Fast Release ]{type=Positive}</p><p>管理員現在可以使用版面配置範本，自訂在特定新首頁Widget中哪些欄可供使用者使用。 選項包括隱藏或顯示預設欄，以及將現有欄位新增為新欄。</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">新增檔案稽核和核准的截止日期</a><span style="color: #ff0000;"> 預覽中的新增專案！</span></p>
+                        <p>您現在可以指定使用者或專案團隊檢閱或核准檔案的截止日期。 稽核者和核准者在指定截止日期前72小時和之後24小時收到電子郵件通知。 截止日期也會反映在新首頁區域的核准Widget。</p>
                     </td>
                     <td><p><b>將於下列日期提供：</b></p>
                         <ul>
                             <li>
-                                <p>預覽版本： 2024年1月2日</p>
+                                <p>預覽版本： 2024年3月28日</p>
                             </li>
                             <li>
-                                <p>快速發行生產：24.2版（2024年2月15日）</p>
-                            </li>
-                            <li>
-                                <p>每季發行生產：24.4版（2024年4月）</p>
+                                <p>客戶專用生產：第24.4發行版本（2024年4月）</p>
                             </li>
                         </ul>
                     </td>
                 </tr>
-           </tbody>
-        </table>
-
-### 整合增強功能
-
-<table>
-    <col style="width: 50%;" />
-    <col style="width: 50%;" />
-    <tbody>
                 <tr>
                     <td>
-                        <p><span class="bold">功能</span>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">建立及使用核准範本</a><span style="color: #ff0000;"> 預覽中的新增專案！</span></p>
+                        <p>您現在可以在「設定」區域中建立「核准範本」，以簡化複查與核准流程。 核准範本可讓您透過以下方式使稽核和核准流程更可重複
+                        <ul>
+                            <li>
+                                <p>新增稽核者和核准者</p>
+                            </li>
+                            <li>
+                                <p>設定時間範圍</p>
+                            </li>
+                        </ul>
                         </p>
-                    </td>
-                    <td>
-                        <p><span class="bold">發行日期</span>
-                        </p>
-                    </td>
-                 </tr>
-                 <tr>
-                    <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Adobe Experience Manager整合中自動化資料夾建立工作流程的增強功能</a></p><p>[！BADGE In Production ]{type=Informative}</p><p>為確保您的Adobe Experience Manager資料夾能更準確地反映您的需求，我們已將巢狀資料夾樹狀結構新增至Adobe Experience Manager連結資料夾工作流程。</p>
                     </td>
                     <td><p><b>將於下列日期提供：</b></p>
                         <ul>
                             <li>
-                                <p>預覽版本： 2024年3月11日</p>
+                                <p>預覽版本： 2024年3月28日</p>
                             </li>
-                             <li> <p><span class="preview">所有客戶的生產版本： 2024年3月14日</span></p>
-                             </li>
+                            <li>
+                                <p>客戶專用生產：第24.4發行版本（2024年4月）</p>
+                            </li>
                         </ul>
                     </td>
-                 </tr>          
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">一次檢視所有核准的相關資訊</a><span style="color: #ff0000;"> 預覽中的新增專案！</span></p>
+                        <p>為協助您快速管理和分析核准請求，我們在「所有核准」小工具中新增了以下關鍵績效指標：
+                        <ul>
+                            <li>
+                                <p>核准 (依決策區分)</p>
+                            </li>
+                            <li>
+                                <p>平均核准時間</p>
+                            </li>
+                            <li>
+                                <p>待處理的核准</p>
+                            </li>
+                            <li>
+                                <p>逾期核准</p>
+                            </li>
+                        </ul>
+                        </p>
+                    </td>
+                    <td><p><b>將於下列日期提供：</b></p>
+                        <ul>
+                            <li>
+                                <p>預覽版本： 2024年3月28日</p>
+                            </li>
+                            <li>
+                                <p>客戶專用生產：第24.4發行版本（2024年4月）</p>
+                            </li>
+                        </ul>
+                        <p><span style="color: #ff0000;">此功能屬於分階段發行，目前僅供特定客戶使用。</span></p>
+                    </td>
+                </tr>
             </tbody>
 </table>
 
@@ -338,6 +377,22 @@ ht-degree: 0%
                         </p>
                     </td>
                 </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">已移除對舊版評論區域的存取權</a><span style="color: #ff0000;"> 預覽中的新增專案！</span></p>
+                        <p>我們已移除專案、任務、問題和檔案更新區域中的「新註解」切換。 新註解現在是這些物件的預設和唯一選項。</p>
+                    </td>
+                    <td><p><b>將於下列日期提供：</b></p>
+                        <ul>
+                            <li>
+                                <p>預覽版本： 2024年4月1日</p>
+                            </li>
+                            <li>
+                                <p>適用於所有客戶的生產：24.4版（2024年4月）</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>  
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">新首頁Widget的快速動作現在提供新的評論資料流</a></p><p>[！BADGE In Production for Fast Release ]{type=Positive}</p>

@@ -8,9 +8,9 @@ author: Nolan
 feature: System Setup and Administration
 role: Admin
 exl-id: b9997e79-a893-49dd-8c90-290399b2d2f7
-source-git-commit: fcf4ff8525e3ac65aa75ab01463a3641e7898169
+source-git-commit: 9de4a3729abe0ea2ee89df0be2974b714e65332a
 workflow-type: tm+mt
-source-wordcount: '798'
+source-wordcount: '812'
 ht-degree: 1%
 
 ---
@@ -101,13 +101,13 @@ ht-degree: 1%
       </ul>
       <p>選取您要編輯的Widget後，可用選項將顯示在右側。 這些選項包括 <b>篩選器</b>， <b>欄</b>、和 <b>群組</b>. 您可以：</p>
       <ul>
-      <li><p><b>選取使用者可用的篩選器、欄或群組：</b></p>
-      <p>勾選清單中所有選項旁的方塊，讓使用者能夠使用。 使用者看不到未核取的選項。</li></p>     
-    <p>
+      <li><p><b>選取並排序使用者可用的篩選器、欄或群組：</b></p>
+      <p>勾選清單中所有選項旁的方塊，讓使用者能夠使用。 使用者看不到未核取的選項。 拖放清單中的選項以設定順序。</li></p>
+      <p>
 
 >[!IMPORTANT]
 >
->使用者必須擁有檢視的建立存取權，才能將欄設定正確套用至其Widget。
+>使用者必須至少具有對檢視的建立存取權，管理員資料行設定才能正確套用至他們的新首頁。
 
 </p>
       <li><p><b>設定Widget的預設篩選或群組：</b></p>

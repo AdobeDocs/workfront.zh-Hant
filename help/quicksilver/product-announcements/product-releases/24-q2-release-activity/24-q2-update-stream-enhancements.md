@@ -4,9 +4,10 @@ description: 2024年第二季度更新流和通知增強功能
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 4387c4cda66384f9d988d82cab5e7ed90a70173e
+exl-id: 29d8b581-27c9-4215-8147-8044b3e2bc5e
+source-git-commit: 2faa01024a1a174bacb42e9c6e24f528252f49f4
 workflow-type: tm+mt
-source-wordcount: '582'
+source-wordcount: '657'
 ht-degree: 0%
 
 ---
@@ -16,6 +17,16 @@ ht-degree: 0%
 本頁說明2024年第二季度版本對預覽環境所做的所有更新流和通知增強功能。 如上所述，這些增強功能將於生產環境中提供。
 
 如需2024年第二季發行週期目前可用的所有變更清單，請參閱 [2024年第二季版本總覽](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).
+
+## 已移除對舊版評論區域的存取權
+
+>[!NOTE]
+>
+>預覽版本： 2024年4月1日；為所有客戶生產：使用24.4版（2024年4月）
+
+我們已移除專案、任務、問題和檔案更新區域中的「新註解」切換。 新註解現在是這些物件的預設和唯一選項。 經過此變更後，您將無法再回覆至舊版評論體驗。
+
+如需詳細資訊，請參閱 [新的評論體驗](/help/quicksilver/product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 
 ## 新首頁Widget的快速動作現在提供新的評論資料流
 
