@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: a0f12a016ae8ac73136f05bf3255f9882e2ce6d4
+source-git-commit: e54142e189cd4f407161401203a7f13c752ad404
 workflow-type: tm+mt
-source-wordcount: '1332'
+source-wordcount: '1299'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 {{maestro-important-intro}}
 
-您可以編輯與記錄關聯的欄位值，以在Adobe Workfront規劃中編輯記錄資訊。
+您可以在Adobe Workfront Planning中編輯記錄資訊，方法是編輯與記錄關聯的欄位值。
 
 您必須先建立記錄型別，才能開始建立和編輯記錄。
 
@@ -47,7 +47,7 @@ ht-degree: 0%
   </tr>  
  <td role="rowheader"><p>Adobe Workfront合約</p></td>
    <td>
-<p>貴組織必須註冊Adobe Workfront計畫Beta版計畫。 請聯絡您的客戶代表以查詢此新產品/服務。 </p>
+<p>貴組織必須註冊Adobe Workfront Planning測試版計畫。 請聯絡您的客戶代表以查詢此新產品/服務。 </p>
    </td>
   </tr>
   <tr>
@@ -67,7 +67,7 @@ ht-degree: 0%
 
 <tr>
    <td role="rowheader"><p>存取層級設定</p></td>
-   <td> <p>Adobe Workfront計畫沒有存取控制</p>  
+   <td> <p>Adobe Workfront Planning沒有存取控制</p>  
 </td>
   </tr>
 <tr>
@@ -92,8 +92,8 @@ ht-degree: 0%
 * 如果您擁有工作區的許可權，您可以編輯您建立的記錄或其他人建立的記錄。
 * 您可以從下列區域編輯記錄欄位：
 
-   * 記錄檢視中記錄的「詳細資訊」方塊。
-   * 記錄的「詳細資訊」頁面。
+   * 記錄檢視中的記錄方塊
+   * 紀錄的頁面
    * 內嵌，在表格檢視中。
 
 * 下列型別的欄位會自動更新，您無法手動編輯其值：
@@ -109,7 +109,8 @@ ht-degree: 0%
 您可以從下列區域編輯記錄：
 
 * [從記錄型別的表格檢視](#edit-a-record-from-the-table-view-of-a-record-type)
-* [從記錄的詳細資訊頁面](#edit-a-record-from-the-records-details-page)
+* [從檢視中的記錄方塊](#edit-a-record-from-the-records-box-in-a-view)
+* [從紀錄的頁面](#edit-a-record-from-the-records-page)
 
 ### 在記錄型別的表格檢視中編輯內嵌記錄
 
@@ -165,7 +166,7 @@ ht-degree: 0%
    >   * 貼上：CTRL + V (Mac為⌘ + V)
    >* 除了與貼上資訊的欄位型別相同的記錄欄位外，您無法從其他來源複製資訊。
    >
-   >* 您無法在記錄的詳細資訊區域中複製和貼上欄位值。 只有在記錄型別的表格檢視中才支援此功能。
+   >* 您無法複製和貼上記錄頁面中的欄位值。 只有在記錄型別的表格檢視中才支援此功能。
    >* 您無法複製和貼上下列欄位型別的欄位值：
    >
    >
@@ -183,9 +184,7 @@ ht-degree: 0%
 
 1. （選用）新增縮圖至記錄。 如需詳細資訊，請參閱 [新增縮圖至記錄](/help/quicksilver/maestro/records/add-thumbnails-to-records.md).
 
-### 從檢視中記錄的「詳細資訊」方塊編輯記錄
-
-您可以從任何檢視的「詳細資訊」方塊編輯記錄。
+### 在檢視中編輯記錄方塊中的記錄
 
 {{step1-to-maestro}}
 
@@ -201,7 +200,7 @@ ht-degree: 0%
 
    或
 
-   從表格檢視中，按一下 **開啟詳細資料** 圖示 ![](assets/open-details-icon-in-table-name-field.png) 記錄名稱的左側，或按一下記錄名稱。 此 **詳細資料** 方塊在檢視中開啟。
+   從表格檢視中，按一下 **開啟詳細資料** 圖示 ![](assets/open-details-icon-in-table-name-field.png) 記錄名稱的左側，或按一下記錄名稱。 記錄的方塊會在檢視中開啟。
 
    ![](assets/details-box.png)
 
@@ -209,13 +208,11 @@ ht-degree: 0%
    >
    >您可以檢視 **開啟詳細資料** 圖示至表格檢視中記錄之「名稱」欄位左邊的圖示（僅當「名稱」欄位為主要欄位時）。
 
-1. 開始編輯中的欄位資訊 **詳細資料** 方塊。 Workfront會自動儲存您的變更。
+1. 開始編輯記錄方塊中的欄位資訊。 Workfront會自動儲存您的變更。
 
-1. （可選）按一下 **在新標籤中開啟** 圖示 ![](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> 位於的右上角 **詳細資料** 方塊以開啟記錄的 **詳細資料** 新索引標籤中的頁面。 繼續編輯記錄，如所述 [從記錄的「詳細資訊」頁面編輯記錄](#edit-a-record-from-the-records-details-page) 一節。
+1. （可選）按一下 **在新標籤中開啟** 圖示 ![](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> 在記錄方塊的右上角，在新索引標籤中開啟記錄頁面。 繼續編輯記錄，如所述 [從記錄的頁面編輯記錄](#edit-a-record-from-the-records-page) 一節。
 
-### 從記錄的「詳細資訊」頁面編輯記錄
-
-您可以從「詳細資訊」頁面編輯記錄。
+### 從記錄的頁面編輯記錄
 
 {{step1-to-maestro}}
 
@@ -229,13 +226,13 @@ ht-degree: 0%
 
 1. 執行下列其中一項：
 
-   * 從任何檢視中，存取「詳細資訊」方塊，如 [從檢視中記錄的「詳細資訊」方塊編輯記錄](#edit-a-record-from-the-records-details-box-in-a-view)一節。 然後，按一下 **在新標籤中開啟** 圖示 ![](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> 位於的右上角 **詳細資料** 方塊以開啟記錄的 **詳細資料** 新索引標籤中的頁面。
+   * 從任何檢視中存取記錄的方塊，如 [在檢視中編輯記錄方塊中的記錄](#edit-a-record-from-the-records-box-in-a-view) 一節。 然後，按一下 **在新標籤中開啟** 圖示 ![](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> 在記錄方塊的右上角，以在新索引標籤中開啟記錄頁面。
 
    * 從 **表格** 檢視，將游標停留在記錄名稱上，然後按一下 **更多** 功能表 ![](assets/more-menu.png)，然後按一下 **檢視**
 
      ![](assets/contextual-menu-for-record-row.png)
 
-     記錄 **詳細資料** 頁面隨即開啟。
+     記錄頁面隨即開啟。
 
      ![](assets/details-page.png)
 
@@ -243,7 +240,7 @@ ht-degree: 0%
 
    或
 
-   按一下「詳細資訊」頁面上的任何可編輯欄位以編輯資訊。
+   在記錄頁面上的任何可編輯欄位中按一下以編輯資訊。
 
    ![](assets/more-menu-options-from-record-details-page.png) <!--ensure the options have not changed or been renamed-->
 

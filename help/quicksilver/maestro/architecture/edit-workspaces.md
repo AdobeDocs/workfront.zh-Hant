@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 374b6d9c-69a9-4a73-8708-51c14a78c7c9
-source-git-commit: a0f12a016ae8ac73136f05bf3255f9882e2ce6d4
+source-git-commit: e54142e189cd4f407161401203a7f13c752ad404
 workflow-type: tm+mt
 source-wordcount: '275'
 ht-degree: 0%
@@ -18,9 +18,9 @@ ht-degree: 0%
 
 {{maestro-important-intro}}
 
-在Adobe Workfront計畫中，工作區是團隊計畫工作的集中位置。
+在Adobe Workfront Planning中，工作區是團隊規劃工作的集中位置。
 
-工作區是團隊使用的記錄型別集合，代表團隊的工作生命週期。 您可以在Adobe Workfront規劃中完全自訂工作區。
+工作區是團隊使用的記錄型別集合，代表團隊的工作生命週期。 您可以在Adobe Workfront Planning中完全自訂工作區。
 
 如需有關建立工作區的資訊，請參閱 [建立工作區](/help/quicksilver/maestro/architecture/create-workspaces.md).
 
@@ -43,7 +43,7 @@ ht-degree: 0%
   </tr>  
  <td role="rowheader"><p>Adobe Workfront合約</p></td>
    <td>
-<p>貴組織必須註冊Adobe Workfront計畫封閉測試版計畫。 請聯絡您的客戶代表以查詢此新產品/服務。 </p>
+<p>貴組織必須註冊Adobe Workfront Planning封閉測試版計畫。 請聯絡您的客戶代表以查詢此新產品/服務。 </p>
    </td>
   </tr>
   <tr>
@@ -62,7 +62,7 @@ ht-degree: 0%
 
 <tr>
    <td role="rowheader"><p>存取層級設定</p></td>
-   <td> <p>Workfront計畫沒有存取層級控制項</p>
+   <td> <p>Workfront Planning沒有存取層級控制</p>
 </td>
   </tr>
 
@@ -88,7 +88,7 @@ ht-degree: 0%
 
 {{step1-to-maestro}}
 
-這會開啟Workfront規劃的「工作區」區域。
+這會開啟Workfront Planning的「工作區」區域。
 
 1. 在新工作區標題的工作區名稱內按一下以重新命名，然後按下 **輸入**
 

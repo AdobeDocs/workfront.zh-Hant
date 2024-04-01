@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b22c4955-c3f2-4841-a278-bb40e8890ed9
-source-git-commit: a0f12a016ae8ac73136f05bf3255f9882e2ce6d4
+source-git-commit: e54142e189cd4f407161401203a7f13c752ad404
 workflow-type: tm+mt
-source-wordcount: '542'
+source-wordcount: '541'
 ht-degree: 0%
 
 ---
@@ -44,7 +44,7 @@ ht-degree: 0%
   </tr>  
  <td role="rowheader"><p>Adobe Workfront合約</p></td>
    <td>
-<p>貴組織必須註冊Adobe Workfront計畫Beta版計畫。 請聯絡您的客戶代表以查詢此新產品/服務。 </p>
+<p>貴組織必須註冊Adobe Workfront Planning測試版計畫。 請聯絡您的客戶代表以查詢此新產品/服務。 </p>
    </td>
   </tr>
   <tr>
@@ -62,7 +62,7 @@ ht-degree: 0%
 
 <tr>
    <td role="rowheader"><p>存取層級設定</p></td>
-   <td> <p>Workfront計畫沒有存取控制 </p>  
+   <td> <p>Workfront Planning沒有存取控制 </p>  
 </td>
   </tr>
 <tr>
@@ -93,8 +93,8 @@ ht-degree: 0%
 
    * 表格檢視中記錄的主要欄位
    * 時間軸檢視中的記錄列。
-* 您無法從記錄的「詳細資訊」頁面或時間軸檢視中新增記錄縮圖。
-* 縮圖不會顯示在記錄的詳細資訊頁面中。
+* 您無法從記錄的頁面或其他型別的檢視新增記錄縮圖。
+* 縮圖不會顯示在記錄的頁面上。
 
 ## 新增縮圖至記錄
 

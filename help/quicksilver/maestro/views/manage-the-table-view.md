@@ -1,13 +1,13 @@
 ---
 title: 管理表格檢視
-description: 存取Adobe Workfront規劃中的記錄型別頁面時，您可以在表格檢視中顯示記錄及其欄位。
+description: 存取Adobe Workfront Planning中的記錄型別頁面時，您可以在表格檢視中顯示記錄及其欄位。
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: a0f12a016ae8ac73136f05bf3255f9882e2ce6d4
+source-git-commit: 7fe24704cead460762322b4f26bf37431e9744ca
 workflow-type: tm+mt
-source-wordcount: '2395'
+source-wordcount: '2401'
 ht-degree: 3%
 
 ---
@@ -28,7 +28,7 @@ hide: yes
 
 {{maestro-important-intro}}
 
-存取Adobe Workfront規劃中的記錄型別頁面時，您可以在表格檢視中顯示記錄及其欄位。
+存取Adobe Workfront Planning中的記錄型別頁面時，您可以在表格檢視中顯示記錄及其欄位。
 
 如需有關記錄檢視以及如何管理檢視的資訊，請參閱 [管理記錄檢視](../views/manage-record-views.md).
 
@@ -51,7 +51,7 @@ hide: yes
   </tr>  
  <td role="rowheader"><p>Adobe Workfront合約</p></td>
    <td>
-<p>貴組織必須註冊Adobe Workfront計畫Beta版計畫。 請聯絡您的客戶代表以查詢此新產品/服務。 </p>
+<p>貴組織必須註冊Adobe Workfront Planning測試版計畫。 請聯絡您的客戶代表以查詢此新產品/服務。 </p>
    </td>
   </tr>
   <tr>
@@ -64,6 +64,7 @@ hide: yes
    <td role="rowheader"><p>Adobe Workfront授權</p></td>
    <td>
    <p>任何</p> 
+   <p>系統管理員只能存取他們建立或與他們共用的檢視。 </p>
   </td>
   </tr>
 
@@ -127,7 +128,7 @@ hide: yes
    <!-- replace above with this when view redesign: Go to a record type page and click a table view tab, or click **+ View **to add a new view, then choose **Table**. -->
 1. 開始新增欄位（或欄），如文章所述 [建立欄位](../fields/create-fields.md).
 
-   您新增的欄對存取記錄型別的所有使用者可見，並作為新欄位新增到所選記錄型別的記錄的「詳細資訊」頁面上。
+   您新增的欄對存取記錄型別的所有使用者可見，並作為記錄頁面的新欄位新增。
 
 1. 執行下列任一項作業，重新排序表格中的欄：
 
@@ -174,7 +175,7 @@ hide: yes
    >
    >   * 您無法刪除或隱藏主要欄位。
    >
-   >   * 主要欄位中列出的值一律會以超連結方式連結至記錄的「詳細資訊」頁面。
+   >   * 主要欄位中列出的值一律會以超連結方式連結至記錄的頁面。
 
 1. 按一下並拖曳欄分隔線，並將它們拖曳到所需的位置以增加欄寬。
 

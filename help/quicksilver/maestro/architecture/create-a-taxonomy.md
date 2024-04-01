@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: e90a3ebe-fc02-4cce-8472-1ca5004ddde8
-source-git-commit: 130365bfa220337aa25f27ba03742ea3471972cb
+source-git-commit: e54142e189cd4f407161401203a7f13c752ad404
 workflow-type: tm+mt
 source-wordcount: '395'
 ht-degree: 3%
@@ -48,7 +48,7 @@ ht-degree: 3%
   </tr>  
  <td role="rowheader"><p>Adobe Workfront合約</p></td>
    <td>
-<p>貴組織必須註冊Adobe Workfront計畫封閉測試版計畫。 請聯絡您的客戶代表以查詢此新產品/服務。 </p>
+<p>貴組織必須註冊Adobe Workfront Planning封閉測試版計畫。 請聯絡您的客戶代表以查詢此新產品/服務。 </p>
    </td>
   </tr>
   <tr>
@@ -66,7 +66,7 @@ ht-degree: 3%
 
 <tr>
    <td role="rowheader"><p>存取層級設定</p></td>
-   <td> <p>Adobe Workfront計畫沒有存取層級控制項</p>  
+   <td> <p>Adobe Workfront Planning沒有存取層級控制</p>  
 </td>
   </tr>
 <tr>

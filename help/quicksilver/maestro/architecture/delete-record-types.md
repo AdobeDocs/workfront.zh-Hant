@@ -1,13 +1,13 @@
 ---
 title: 刪除記錄型別
-description: 當記錄型別不再相關時，您可以將其刪除。
+description: 當記錄型別不再相關時，您可以將其刪除。 刪除記錄型別也會刪除與記錄型別相關的所有資訊，例如其記錄、欄位和檢視。
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 70fd3887-3871-45b5-9c21-f57da63662aa
-source-git-commit: 130365bfa220337aa25f27ba03742ea3471972cb
+source-git-commit: f4fb9d5c22ec6216a05e31cbcf80f1cf9add125f
 workflow-type: tm+mt
-source-wordcount: '367'
+source-wordcount: '386'
 ht-degree: 0%
 
 ---
@@ -56,7 +56,7 @@ hide: yes
   </tr>  
  <td role="rowheader"><p>Adobe Workfront合約</p></td>
    <td>
-<p>貴組織必須註冊Adobe Workfront計畫Beta版計畫。 請聯絡您的客戶代表以查詢此新產品/服務。 </p>
+<p>貴組織必須註冊Adobe Workfront Planning測試版計畫。 請聯絡您的客戶代表以查詢此新產品/服務。 </p>
    </td>
   </tr>
   <tr>
@@ -74,7 +74,7 @@ hide: yes
 
 <tr>
    <td role="rowheader"><p>存取層級設定</p></td>
-   <td> <p>Adobe Workfront計畫沒有存取層級控制項</p>  
+   <td> <p>Adobe Workfront Planning沒有存取層級控制</p>  
 </td>
   </tr>
 
@@ -126,11 +126,11 @@ hide: yes
 
 1. （可選）展開現有工作區名稱右側的向下箭頭，並選取您要刪除記錄型別的工作區。
 
-   工作區隨即開啟，並顯示與其關聯的記錄型別和分類法。
+   工作區隨即開啟，且記錄型別隨即顯示。
 1. 按一下要刪除的記錄型別的卡片。
 
    這會開啟記錄型別的頁面。
-1. 按一下 **更多** 功能表 ![](assets/more-menu.png) 在記錄型別名稱的右側，然後按一下 **刪除**.
-1. 按一下 **刪除** 以確認。
+1. 按一下 **更多** 功能表 ![](assets/more-menu.png) 在記錄型別名稱的右側，然後按一下 **刪除**. <!--add screen shot when they finalize the UI-->
+1. 型別 **刪除** ，然後按一下「 」 **永久刪除**.
 
    所選的記錄型別及其欄位、關聯的記錄和檢視都會被刪除。

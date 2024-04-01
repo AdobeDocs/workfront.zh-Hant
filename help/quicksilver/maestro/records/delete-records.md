@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 3f7a3667-8a9f-462a-b706-cf15850a0d1c
-source-git-commit: a0f12a016ae8ac73136f05bf3255f9882e2ce6d4
+source-git-commit: e54142e189cd4f407161401203a7f13c752ad404
 workflow-type: tm+mt
-source-wordcount: '488'
+source-wordcount: '487'
 ht-degree: 2%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 2%
 
 {{maestro-important-intro}}
 
-您可以刪除在Adobe Workfront規劃中不再相關的記錄。
+您可以刪除Adobe Workfront Planning中不再相關的記錄。
 
 ## 存取需求
 
@@ -39,7 +39,7 @@ ht-degree: 2%
   </tr>  
  <td role="rowheader"><p>Adobe Workfront合約</p></td>
    <td>
-<p>貴組織必須註冊Adobe Workfront計畫Beta版計畫。 請聯絡您的客戶代表以查詢此新產品/服務。 </p>
+<p>貴組織必須註冊Adobe Workfront Planning測試版計畫。 請聯絡您的客戶代表以查詢此新產品/服務。 </p>
    </td>
   </tr>
   <tr>
@@ -58,7 +58,7 @@ ht-degree: 2%
 
 <tr>
    <td role="rowheader"><p>存取層級設定</p></td>
-   <td> <p>Adobe Workfront計畫沒有存取層級控制項 </p>  
+   <td> <p>Adobe Workfront Planning沒有存取層級控制 </p>  
 </td>
   </tr>
 
@@ -95,10 +95,10 @@ ht-degree: 2%
 
 您可以從下列區域刪除記錄：
 
-* [從記錄的詳細資訊頁面](#delete-a-record-from-the-records-details-page)
+* [從紀錄的頁面](#delete-a-record-from-the-records-page)
 * [從記錄型別的表格檢視](#delete-a-record-from-the-record-type-table-view)
 
-### 從記錄的「詳細資訊」頁面中刪除記錄
+### 從記錄頁面刪除記錄
 
 {{step1-to-maestro}}
 
@@ -115,7 +115,7 @@ ht-degree: 2%
      ![](assets/contextual-menu-for-record-row.png)
    * 在「時間軸」檢視中，按一下記錄列。
 
-   記錄 **詳細資料** 頁面隨即開啟。
+   記錄頁面隨即開啟。
 
 1. 按一下 **更多** 功能表 ![](assets/more-menu.png) 在記錄名稱的右側，然後按一下 **刪除**，然後 **刪除** 再次確認。
 
@@ -141,7 +141,7 @@ ht-degree: 2%
 
      ![](assets/contextual-menu-for-record-row.png)
 
-   * 按一下 **開啟詳細資料** 圖示 ![](assets/open-details-icon-in-table-name-field.png) 以開啟「詳細資訊」方塊，然後按一下 **更多** ![](assets/more-menu.png) 在記錄名稱的右側，然後 **刪除**.
+   * 按一下 **開啟詳細資料** 圖示 ![](assets/open-details-icon-in-table-name-field.png) 開啟包含記錄詳細資訊的方塊，然後按一下 **更多** ![](assets/more-menu.png) 在記錄名稱的右側，然後 **刪除**.
 
    記錄已刪除，無法復原。
 

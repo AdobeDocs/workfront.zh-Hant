@@ -1,13 +1,13 @@
 ---
 title: 建立工作區
-description: 工作區是團隊使用的記錄型別集合，代表團隊的工作生命週期。 您可以在Adobe Workfront規劃中完全自訂工作區。
+description: 工作區是團隊使用的記錄型別集合，代表團隊的工作生命週期。 您可以在Adobe Workfront Planning中完全自訂工作區。 記錄型別會依工作區中的區段組織。
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 604b84c1-4ec6-4d4a-b9f4-4223641ff2ea
-source-git-commit: 130365bfa220337aa25f27ba03742ea3471972cb
+source-git-commit: eaf1cd4142b83a42d068e2d02fe673fa4dd25769
 workflow-type: tm+mt
-source-wordcount: '698'
+source-wordcount: '754'
 ht-degree: 0%
 
 ---
@@ -18,9 +18,9 @@ ht-degree: 0%
 
 {{maestro-important-intro}}
 
-在Adobe Workfront計畫中，工作區是團隊計畫工作的集中位置。
+在Adobe Workfront Planning中，工作區是團隊規劃工作的集中位置。
 
-工作區是團隊使用的記錄型別集合，代表團隊的工作生命週期。 您可以在Adobe Workfront規劃中完全自訂工作區。
+工作區是團隊使用的記錄型別集合，代表團隊的工作生命週期。 您可以在Adobe Workfront Planning中完全自訂工作區。
 
 ## 存取需求
 
@@ -61,7 +61,7 @@ ht-degree: 0%
 
 <tr>
    <td role="rowheader"><p>存取層級設定</p></td>
-   <td> <p>Adobe Workfront計畫沒有存取層級控制項</p>
+   <td> <p>Adobe Workfront Planning沒有存取層級控制</p>
 </td>
   </tr>
 
@@ -98,8 +98,12 @@ ht-degree: 0%
 * 您可以為組織內的特定組織單位建立工作區，以符合每個單位的獨特運作方式。
 * 工作區包含的記錄型別應反映組織單位的工作生命週期。
 * 當您建立工作區時，只有您才有權存取和管理您的工作區。 您必須與其他使用者共用，他們才能在相同空間中與您共同作業。 如需詳細資訊，請參閱 [共用工作區](/help/quicksilver/maestro/access/share-workspaces.md). 系統管理員可以管理所有工作區，即使是他們未建立的工作區。
-* 您組織的Workfront執行個體中最多可以有1,000個工作區。
-* 工作區包含每個工作區唯一的記錄型別。 <!--this might change-->
+* 您可以擁有下列專案：
+
+   * 一個工作區最多可包含50個區段。
+   * 一個工作區中所有區段最多總共1,000個記錄型別。 所有記錄型別對於每個工作區都是唯一的。 <!--this might change-->
+   * 貴組織的Workfront例項中最多1,000個工作區。
+
 
 ## 建立工作區
 
@@ -111,7 +115,7 @@ ht-degree: 0%
 
    ![](assets/workspace-drop-down-right-menu.png)
 
-   這會開啟Workfront規劃的「工作區」區域。
+   這會開啟Workfront Planning的「工作區」區域。
 1. （選擇性和條件性）按一下 **預覽** 在下列任何預先定義的工作區範本內：
 
    * 行銷管理
@@ -122,7 +126,7 @@ ht-degree: 0%
 
    ![](assets/previewing-a-workspace-template.png)
 
-   如需Workfront規劃工作區範本的相關資訊，請參閱 [工作區範本清單](../architecture/workspace-templates.md).
+   如需Workfront Planning工作區範本的相關資訊，請參閱 [工作區範本清單](../architecture/workspace-templates.md).
 
 1. 按一下 **使用範本** 以從選取的範本開始建立工作區
 
@@ -140,8 +144,6 @@ ht-degree: 0%
    或
 
    按一下 **更多** 功能表 ![](assets/more-menu.png)工作區名稱右側，然後按一下 **重新命名**.
-
-1. （選擇性和條件性）如果工作區已有區段，請按一下 **新增區段** 以新增區段至工作區。 區段可以包含數種記錄型別。
 
 1. （選擇性和條件性）如果您是從範本建立工作區，請按一下 **作業記錄型別** 或 **分類** 區段
 
@@ -163,8 +165,13 @@ ht-degree: 0%
    * 按一下 **新增區段** 位於工作區底部。
    * 將游標停留在區段名稱上，然後按一下 **更多** 功能表 ![](assets/more-menu.png)，然後按一下 **新增上述區段** 或 **在底下新增區段**.
 
-1. （選用）按一下 **新增記錄型別** 以新增記錄型別至工作區。
+1. （選用）按一下 **新增記錄型別** 將記錄型別新增至任何區段中的工作區。
 
    如需詳細資訊，請參閱 [建立記錄型別](../architecture/create-record-types.md).
 
+1. （可選）若要刪除區段，請執行下列動作：
 
+   1. 暫留在區段名稱上，然後按一下 **更多** 功能表 ![](assets/more-menu.png)，然後按一下 **刪除**. <!--add screen shot when UI is final?-->
+   1. 選取新區段以將所有記錄型別移動至該區段，然後按一下 **刪除**. <!--check the button name; logged a bug to change it to "Delete" from "Delete section".-->
+
+      所有記錄型別都會移至選取區段，而區段會被刪除。

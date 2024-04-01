@@ -1,11 +1,11 @@
 ---
 title: 編輯記錄型別
-description: 記錄型別儲存後，您可以編輯記錄型別。 記錄型別是Adobe Workfront計畫的物件型別。
+description: 記錄型別儲存後，您可以編輯記錄型別。 記錄型別是Adobe Workfront Planning的物件型別。
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7d6de742-9657-4286-968c-1fc78ebbb94e
-source-git-commit: a0f12a016ae8ac73136f05bf3255f9882e2ce6d4
+source-git-commit: e54142e189cd4f407161401203a7f13c752ad404
 workflow-type: tm+mt
 source-wordcount: '455'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 <!--update the metadata with real information when making this available in TOC and in the left nav
 ---
 title: Edit record types
-description: You can edit record types after they have been saved. Record types are the object types of Adobe Workfront planning.
+description: You can edit record types after they have been saved. Record types are the object types of Adobe Workfront Planning.
 author: Alina
 role: User
 feature: Work Management 
@@ -30,7 +30,7 @@ hide: yes
 
 {{maestro-important-intro}}
 
-記錄型別是Adobe Workfront計畫的物件型別。 您可以編輯您或其他人建立的記錄型別外觀。 如需建立Workfront計畫記錄型別的相關資訊，請參閱 [建立記錄型別](../architecture/create-record-types.md).
+記錄型別是Adobe Workfront Planning的物件型別。 您可以編輯您或其他人建立的記錄型別外觀。 如需有關建立Workfront Planning記錄型別的資訊，請參閱 [建立記錄型別](../architecture/create-record-types.md).
 
 ## 存取需求
 
@@ -47,11 +47,11 @@ hide: yes
 <td>
    <p> 產品</p> </td>
    <td>
-   <p> Adobe Workfront</p> <p>若要將Adobe Workfront規劃記錄型別與Experience Manager Assets連線，您必須擁有Adobe Experience Manager Assets授權，並且貴組織的Workfront執行個體必須上線至Adobe商業平台或Adobe Admin Console。</p> </td>
+   <p> Adobe Workfront</p> <p>若要將Adobe Workfront Planning記錄型別與Experience Manager Assets連線，您必須擁有Adobe Experience Manager Assets授權，且貴組織的Workfront執行個體必須上線至Adobe Business Platform或Adobe Admin Console。</p> </td>
   </tr>  
  <td role="rowheader"><p>Adobe Workfront合約</p></td>
    <td>
-<p>貴組織必須註冊Adobe Workfront計畫封閉測試版計畫。 請聯絡您的客戶代表以查詢此新產品/服務。 </p>
+<p>貴組織必須註冊Adobe Workfront Planning封閉測試版計畫。 請聯絡您的客戶代表以查詢此新產品/服務。 </p>
    </td>
   </tr>
   <tr>
@@ -69,7 +69,7 @@ hide: yes
 
 <tr>
    <td role="rowheader"><p>存取層級設定</p></td>
-   <td> <p>Workfront計畫沒有存取層級控制項</p>  
+   <td> <p>Workfront Planning沒有存取層級控制</p>  
 </td>
   </tr>
 

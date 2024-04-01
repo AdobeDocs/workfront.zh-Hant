@@ -1,11 +1,11 @@
 ---
 title: 公式欄位概觀
-description: 在Adobe Workfront計畫中，您可以建立公式欄位，這些欄位使用函式和現有欄位來計算新的自訂值。
+description: 在Adobe Workfront Planning中，您可以建立公式欄位，這些欄位使用函式和現有欄位來計算新的自訂值。
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 5027d611-916e-492d-9a44-841bdde11c94
-source-git-commit: a0f12a016ae8ac73136f05bf3255f9882e2ce6d4
+source-git-commit: e54142e189cd4f407161401203a7f13c752ad404
 workflow-type: tm+mt
 source-wordcount: '453'
 ht-degree: 0%
@@ -31,7 +31,7 @@ recommendations: noDisplay, noCatalog
 
 {{maestro-important-intro}}
 
-您可以在Adobe Workfront計畫中建立自訂欄位，方法是參考現有欄位並使用公式將其連線。 您可以建立自訂公式型別欄位來完成此操作。
+您可以在Adobe Workfront Planning中建立自訂欄位，方法是參照現有欄位並使用公式將其連線。 您可以建立自訂公式型別欄位來完成此操作。
 
 公式欄位會使用記錄型別中其他欄位的現有值，以及指示應如何計算現有值的函式，來產生新值。
 
@@ -56,7 +56,7 @@ recommendations: noDisplay, noCatalog
   </tr>  
  <td role="rowheader"><p>Adobe Workfront合約</p></td>
    <td>
-<p>貴組織必須註冊Adobe Workfront計畫Beta版計畫。 請聯絡您的客戶代表以查詢此新產品/服務。 </p>
+<p>貴組織必須註冊Adobe Workfront Planning測試版計畫。 請聯絡您的客戶代表以查詢此新產品/服務。 </p>
    </td>
   </tr>
   <tr>
@@ -102,14 +102,14 @@ recommendations: noDisplay, noCatalog
 * 公式欄位參考屬於相同記錄型別的欄位。 建立公式欄位時，您無法參考其他記錄型別的欄位。 <!--is this still accurate??-->
 * 儲存公式欄位後，您無法變更其欄位型別。
 * 儲存公式欄位後，您可以更新公式欄位的計算，而計算結果會自動更新相同型別的所有記錄。
-* 您必須新增您在公式中參考的欄位，因為它們會顯示在Workfront規劃介面中。
+* 您必須在Workfront Planning介面中顯示的公式中，新增您參考的欄位。
 * 在公式中使用連結記錄型別的查詢欄位將在稍後提供。
 
 ## 支援的公式
 
-Adobe Workfront規劃公式欄位支援Workfront計算欄位的所有運算式。 如需詳細資訊，請參閱 [計算資料運算式的概觀](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
+Adobe Workfront Planning公式欄位支援Workfront計算欄位的所有運算式。 如需詳細資訊，請參閱 [計算資料運算式的概觀](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
 
-此外，我們對Workfront規劃公式欄位支援下列運算式：
+此外，我們為Workfront Planning公式欄位支援下列運算式：
 
 <table style="table-layout:auto"> 
  <col> 

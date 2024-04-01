@@ -1,24 +1,25 @@
 ---
 title: 建立記錄型別
-description: 記錄型別是Adobe Workfront計畫的物件型別。 在Workfront Planning中，您可以建立自訂記錄型別，以說明組織生命週期中所需的工作專案。
+description: 記錄型別是Adobe Workfront Planning的物件型別。 在Workfront Planning中，您可以建立自訂記錄型別，以說明組織生命週期中所需的工作專案。
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: ed1c4954-b338-4865-a7a9-5ba0192e7b37
-source-git-commit: 130365bfa220337aa25f27ba03742ea3471972cb
+source-git-commit: eaf1cd4142b83a42d068e2d02fe673fa4dd25769
 workflow-type: tm+mt
-source-wordcount: '1245'
+source-wordcount: '1264'
 ht-degree: 0%
 
 ---
 
-<!--udpate the metadata with real information when making this available in TOC and in the left nav-->
+<!--update the metadata with real information when making this available in TOC and in the left nav-->
+<!--this is linked to the UI in an empty workspace screen-->
 
 # 建立記錄型別
 
 {{maestro-important-intro}}
 
-記錄型別是Adobe Workfront計畫的物件型別。 在Workfront Planning中，您可以建立自訂記錄型別，以說明組織生命週期中所需的工作相關專案。
+記錄型別是Adobe Workfront Planning的物件型別。 在Workfront Planning中，您可以建立自訂記錄型別，以說明組織生命週期中所需的工作相關專案。
 記錄型別可以是下列其中一項：
 
 如需有關記錄型別的詳細資訊，請參閱 [記錄型別概觀](../architecture/overview-of-record-types-and-taxonomies.md).
@@ -42,7 +43,7 @@ ht-degree: 0%
   </tr>  
  <td role="rowheader"><p>Adobe Workfront合約</p></td>
    <td>
-<p>貴組織必須註冊Adobe Workfront計畫封閉測試版計畫。 請聯絡您的客戶代表以查詢此新產品/服務。 </p>
+<p>貴組織必須註冊Adobe Workfront Planning封閉測試版計畫。 請聯絡您的客戶代表以查詢此新產品/服務。 </p>
    </td>
   </tr>
   <tr>
@@ -62,7 +63,7 @@ ht-degree: 0%
 
 <tr>
    <td role="rowheader"><p>存取層級設定</p></td>
-   <td> <p>Workfront計畫沒有存取層級控制項</p>  
+   <td> <p>Workfront Planning沒有存取層級控制</p>  
 </td>
   </tr>
 <tr>
@@ -105,20 +106,20 @@ ht-degree: 0%
         >
         >此功能自2024年3月21日起已暫時停用。 這會在稍後啟用。
 
-     <!--this should not ne known anymore: * When you add objects from another application to a linked record field of a record. This creates a read-only record type in Workfront planning which is connected to object types from the original application. 
+     <!--this should not ne known anymore: * When you add objects from another application to a linked record field of a record. This creates a read-only record type in Workfront Planning which is connected to object types from the original application. 
         For information about connecting record types with object types from another application, see [Connect record types](/help/quicksilver/maestro/architecture/connect-record-types.md).
         For information about connecting objects with records, see [Connect records](/help/quicksilver/maestro/records/connect-records.md). -->
    * 手動：
 
       * 從頭開始。
 
-        本文說明如何在從頭建立的工作區中，從頭開始建立一般記錄型別。
+        本文說明如何從頭開始建立記錄型別。
 
 * 您可以在區段內以及工作區一個區段之間移動記錄型別。 您無法將記錄型別從一個工作區移動到另一個工作區。
 
 ## 使用工作區範本建立記錄型別
 
-當您使用Workfront規劃範本建立工作區時，可以自動建立記錄型別。 每個範本都包含範例記錄型別。
+使用Workfront Planning範本建立工作區時，您可以自動建立記錄型別。 每個範本都包含範例記錄型別。
 
 從範本建立工作區時，記錄型別會分組到下列區段中：
 
@@ -133,17 +134,14 @@ ht-degree: 0%
 
 ## 從頭開始建立記錄型別
 
-本文會說明如何從頭開始建立記錄型別。
-
 {{step1-to-maestro}}
 
 根據預設，上次存取的工作區應該會開啟。
 
 1. （可選）展開現有工作區名稱右側的向下箭頭，並選取您要建立記錄型別的工作區。
+1. （選用）按一下 **新增區段** 以新增區段至工作區。
 1. 按一下 **新增記錄型別**.
-1. （視條件而定）如果要建立作業記錄型別，請按一下 **從頭開始**.
-
-   「新增記錄型別」方塊開啟。
+1. （視條件而定）啟用匯入Excel或CSV檔案來建立記錄型別時，請按一下 **從頭開始**. 否則， **新增記錄型別** 方塊開啟。
 
    ![](assets/add-record-type-box-with-appearance-options.png)
 
@@ -156,13 +154,17 @@ ht-degree: 0%
 
 1. 按一下 **新增記錄型別** 方塊以儲存記錄型別。
 
-   記錄型別卡片會新增至您選取的工作區。
+   記錄型別卡片會新增至區段以及您選取的工作區。
 記錄型別包含的欄位數顯示在卡片上。
 1. （選擇性）按一下記錄型別卡片以開啟記錄型別頁面。
 
    ![](assets/operational-record-type-blank.png)
 
-   記錄型別頁面預設會顯示在「表格」檢視中。 表格的欄是與新記錄型別相關聯的欄位。 每一列都是您必須新增的唯一記錄。
+   記錄型別頁面預設會顯示在表格檢視中。 表格的欄是與新記錄型別相關聯的欄位。 每一列都是您必須新增的唯一記錄。
+
+   >[!TIP]
+   >
+   >    如果您從Excel或CSV檔案匯入記錄型別，也會匯入記錄。
 
    依預設，下列欄位會顯示在作業記錄型別的表格檢視欄中：
 
@@ -183,7 +185,7 @@ ht-degree: 0%
 
    如需有關建立欄位的詳細資訊，請參閱 [建立欄位](../fields/create-fields.md).
 
-1. （選擇性）按一下記錄型別名稱左側的向左箭頭，返回選取的工作區。
+1. （可選）在標題中，按一下記錄型別名稱左側的向左箭頭，返回選取的工作區。
 
    記錄型別卡片會顯示記錄型別包含的欄位數和連線數。
 
@@ -196,16 +198,15 @@ ht-degree: 0%
    * [編輯記錄型別](../architecture/edit-record-types.md)
    * [管理記錄檢視](../views/manage-record-views.md)
 
-1. （可選）在工作區中，按一下以將記錄型別拖放到所需位置，或將它移動到另一個區段。
+1. （選擇性）在工作區中，按一下並按住記錄型別卡片，以將記錄型別拖放到所需位置，或將其移動到其他區段。
 
-   當您卸除選取的記錄型別卡片後，變更會自動儲存。
+   變更會自動儲存。
 
 ## 匯入Excel或CSV檔案來建立記錄型別
 
 >[!IMPORTANT]
 >
 >此功能自2024年3月21日起已暫時停用。 這會在稍後啟用。
-
 
 使用Excel或CSV檔案匯入記錄型別時，請考量下列事項：
 
@@ -233,7 +234,7 @@ ht-degree: 0%
 
    「預覽和編輯」方塊會顯示下列資訊：
 
-   * 工作表或未來記錄型別的名稱會顯示在左側面板中。 Workfront planning依預設會選取每個新記錄型別的圖示和顏色。
+   * 工作表或未來記錄型別的名稱會顯示在左側面板中。 根據預設，Workfront Planning會選取每個新記錄型別的圖示和顏色。
    * 選擇第一個工作表或記錄型別，並且與其關聯的欄位名稱顯示為欄標題。 依預設，會選取每個欄位的型別。
    * 每一列代表新記錄。 只有前10筆記錄會顯示在「預覽與編輯」方塊中。
 
@@ -254,7 +255,7 @@ ht-degree: 0%
 
 1. 按一下 **匯入** 當您準備好匯入檔案時。
 
-   下列資訊會匯入至Workfront planning：
+   下列資訊會匯入Workfront Planning中：
 
    * 新記錄型別
    * 與每個記錄型別關聯的新欄位
@@ -266,9 +267,9 @@ ht-degree: 0%
 
 <!--## Connect record types with object types from another application
 
-You can connect a record type and an object type from another application. This creates a read-only record type in Workfront planning that corresponds to the object type in the other application. 
+You can connect a record type and an object type from another application. This creates a read-only record type in Workfront Planning that corresponds to the object type in the other application. 
 
-For example, you can create record types by connecting Workfront planning record types with Workfront projects. As a result, the Workfront project object type is imported into Workfront planning as a read-only record type. By default, the record type is named "Workfront Project." (********************)has this name changed? Lusine wanted to change it at some point***********)
+For example, you can create record types by connecting Workfront Planning record types with Workfront projects. As a result, the Workfront project object type is imported into Workfront Planning as a read-only record type. By default, the record type is named "Workfront Project." (********************)has this name changed? Lusine wanted to change it at some point***********)
     
 You can import the following objects from the following applications: 
 

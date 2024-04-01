@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: ec48db42-2395-4439-97ae-e4f5242170b7
-source-git-commit: a0f12a016ae8ac73136f05bf3255f9882e2ce6d4
+source-git-commit: e54142e189cd4f407161401203a7f13c752ad404
 workflow-type: tm+mt
 source-wordcount: '332'
 ht-degree: 0%
@@ -35,7 +35,7 @@ recommendations: noDisplay, noCatalog
 
 您可以刪除不再相關的Workfront規劃欄位。
 
-## 有關刪除Workfront規劃欄位的考量事項：
+## 刪除Workfront Planning欄位的相關考量事項：
 
 * 您只能在記錄型別表格檢視中刪除欄位。
 * 您無法刪除記錄的主要欄位。
@@ -65,7 +65,7 @@ recommendations: noDisplay, noCatalog
   </tr>  
  <td role="rowheader"><p>Adobe Workfront合約</p></td>
    <td>
-<p>貴組織必須註冊Adobe Workfront計畫Beta版計畫。 請聯絡您的客戶代表以查詢此新產品/服務。 </p>
+<p>貴組織必須註冊Adobe Workfront Planning測試版計畫。 請聯絡您的客戶代表以查詢此新產品/服務。 </p>
    </td>
   </tr>
   <tr>
@@ -83,7 +83,7 @@ recommendations: noDisplay, noCatalog
 
 <tr>
    <td role="rowheader"><p>存取層級設定</p></td>
-   <td> <p>Workfront計畫沒有存取層級控制項</p>  
+   <td> <p>Workfront Planning沒有存取層級控制</p>  
 </td>
   </tr>
 <tr>
@@ -113,7 +113,7 @@ recommendations: noDisplay, noCatalog
 
 {{step1-to-maestro}}
 
-這會開啟Workfront規劃中上次存取的工作區。
+這會開啟上次在Workfront Planning中存取的工作區。
 1. 按一下要刪除其欄位的記錄型別的卡片。
 1. （視條件而定）選取 **表格檢視** 從 **檢視** 記錄型別頁面右上角的下拉式功能表。
 1. 在欄標題中尋找要刪除的欄位，並將滑鼠游標停留在欄標題上，然後按一下欄位名稱后面的向下箭頭。

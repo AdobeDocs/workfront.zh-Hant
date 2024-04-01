@@ -1,13 +1,13 @@
 ---
 title: 建立記錄
-description: 使用Adobe Workfront計畫時，記錄是記錄型別的例項。
+description: 使用Adobe Workfront Planning時，記錄是記錄型別的例項。
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: a0f12a016ae8ac73136f05bf3255f9882e2ce6d4
+source-git-commit: e54142e189cd4f407161401203a7f13c752ad404
 workflow-type: tm+mt
-source-wordcount: '796'
+source-wordcount: '799'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 {{maestro-important-intro}}
 
-在Adobe Workfront規劃中，記錄是記錄型別的例項。
+在Adobe Workfront Planning中，記錄是記錄型別的例項。
 
 您可以執行下列其中一項作業來建立記錄：
 
@@ -49,7 +49,7 @@ ht-degree: 0%
   </tr>  
  <td role="rowheader"><p>Adobe Workfront合約</p></td>
    <td>
-<p>貴組織必須註冊Adobe Workfront計畫Beta版計畫。 請聯絡您的客戶代表以查詢此新產品/服務。 </p>
+<p>貴組織必須註冊Adobe Workfront Planning測試版計畫。 請聯絡您的客戶代表以查詢此新產品/服務。 </p>
    </td>
   </tr>
   <tr>
@@ -67,7 +67,7 @@ ht-degree: 0%
 
 <tr>
    <td role="rowheader"><p>存取層級設定</p></td>
-   <td> <p>Adobe Workfront計畫沒有存取控制 </p>  
+   <td> <p>Adobe Workfront Planning沒有存取控制 </p>  
 </td>
   </tr>
 <tr>
@@ -127,14 +127,14 @@ ht-degree: 0%
 
    或
 
-   按一下新記錄的名稱或 **開啟詳細資料** 圖示 ![](assets/open-details-icon-in-table-name-field.png) 記錄名稱的左側。 此 **詳細資料** 方塊在表格中開啟。
+   按一下新記錄的名稱或 **開啟詳細資料** 圖示 ![](assets/open-details-icon-in-table-name-field.png) 記錄名稱的左側。 包含記錄詳細資訊的方塊會在表格中開啟。
 
    >[!TIP]
    >
    >當「名稱」欄位是主要欄位時，您只能從記錄的名稱欄位存取「詳細資訊」方塊。
 
-1. 開始編輯詳細資訊方塊中的記錄資訊。 Workfront會自動儲存您的變更。
-1. （可選）按一下 **在新標籤中開啟** 圖示 ![](assets/open-details-in-a-new-tab-icon.png) 在「詳細資訊」方塊的右上角，開啟記錄的 **詳細資料** 新索引標籤中的頁面。 繼續編輯詳細資訊頁面上的記錄。
+1. 開始編輯記錄方塊中的記錄資訊。 Workfront會自動儲存您的變更。
+1. （可選）按一下 **在新標籤中開啟** 圖示 ![](assets/open-details-in-a-new-tab-icon.png) 在記錄方塊的右上角，在新索引標籤中開啟記錄頁面。 繼續編輯記錄頁面上的記錄。
 
 
 1. （可選）使用下列鍵盤快速鍵來復原或重做新增記錄：
@@ -188,7 +188,7 @@ You can import records from other applications by linking them to existing recor
 
 1. 從另一個應用程式中，選取數個列和欄，然後將資訊貼到記錄型別表格檢視中，從第一個新記錄開始。
 
-   下列資訊會匯入Workfront規劃區域：
+   下列資訊會匯入Workfront Planning區域：
 
    * 列包含新記錄
    * 欄會填入記錄欄位的資訊。

@@ -2,42 +2,48 @@
 content-type: overview
 product-area: projects
 navigation-topic: task-duration
-title: '持續時間類型概觀：簡單'
-description: 「簡單持續時間類型」是「持續時間類型」，您可在Adobe Workfront中為任務設定。 有關Workfront中「持續時間類型」的一般資訊，請參閱「任務持續時間和持續時間類型概述」。
+title: 「期間型別概觀：簡單」
+description: 簡易期間型別是一種期間型別，您可以在Adobe Workfront中為任務設定。 如需Workfront中期間型別的一般資訊，請參閱任務期間與期間型別概觀。
 author: Alina
 feature: Work Management
 exl-id: 9bb472db-1448-467e-93ca-611453e1c00a
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 1efd7c0270fe1396345cfa6e5499e8f998297d61
 workflow-type: tm+mt
-source-wordcount: '314'
+source-wordcount: '345'
 ht-degree: 0%
 
 ---
 
-# 持續時間類型概觀：簡單
+# 期間型別概觀：簡單
 
-「簡單持續時間類型」是「持續時間類型」，您可在Adobe Workfront中為任務設定。 如需Workfront中持續時間類型的一般資訊，請參閱 [任務持續時間和持續時間類型概覽](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
+簡易期間型別是一種期間型別，您可以在Adobe Workfront中為任務設定。 如需Workfront中期間型別的一般資訊，請參閱 [任務期間與期間型別概觀](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
 
-## 簡單持續時間類型概觀
+## 簡單期間型別概觀
 
-Workfront或群組管理員可將系統或群組的預設「持續時間類型」設為「簡單」。 在這種情況下，將使用此持續時間類型建立所有新任務。 有關在系統級或組級項目首選項中更改任務和發出首選項的資訊，請參閱 [配置全系統任務和問題首選項](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
+您的Workfront或群組管理員可以將您系統或群組的預設「期間型別」設定為「簡單」。 在此情況下，所有新任務都將以此期間型別建立。 如需有關將您的任務和問題偏好設定變更為系統層級或群組層級專案偏好設定一部分的資訊，請參閱 [設定系統範圍的任務和問題偏好設定](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
 
-當任務的「持續時間類型」為「簡單」時，會發生以下情況：
+當任務的期間型別為簡單時，會發生下列情況：
 
-* 在修改應如何在受分配者之間分配這些小時時，項目經理可以修改任務的持續時間和計畫小時數。
+* 專案經理可以修改任務的期間和計畫時數，在修改這些時數應在受指派人之間的分配方式時。
 
-   如需詳細資訊，請參閱 [使用簡單持續時間類型更新任務的計畫小時數和持續時間](../../../manage-work/tasks/taskdurtn/update-planned-hours-duration-for-simple-duration-task.md).
+  如需詳細資訊，請參閱 [使用簡單期間型別更新任務的計畫時數和期間](../../../manage-work/tasks/taskdurtn/update-planned-hours-duration-for-simple-duration-task.md).
 
-   >[!IMPORTANT]
-   >
-   >當您首先建立任務並為其分配「簡單持續時間類型」而未指定「持續時間」時，Workfront會根據您為任務指定的「計畫小時數」量計算任務的持續時間。 如果您手動修改「簡單持續時間」任務的「持續時間」，Workfront會停止將「計畫小時數」與「持續時間」相匹配，因為它假定您要自己手動定義它們。
+  >[!IMPORTANT]
+  >
+  >當您第一次建立任務並為其指派簡易期間型別，但未指定期間時，Workfront會根據您為任務指定的計畫時數金額計算任務的期間。 如果您手動修改簡單期間任務的「期間」，Workfront會停止比對計畫時數與期間，因為它假設您想要手動定義它們。
+  >
+  >Workfront會使用下列公式計算未手動修改工期的工作工期：
+  >
+  > `Task Duration = Task Planned Hours / Typical hours per work day`
+  >
+  >您的Workfront管理員會定義 `Typical hours per work day` 位於執行個體設定的「專案偏好設定」區域中。
 
-* 分配百分比隱藏，而分配小時數可供編輯。
-* 所有新客戶的系統層級「持續時間類型」都設為「簡單」。
+* 配置百分比已隱藏，配置時數可改為編輯。
+* 所有新客戶的系統層級「期間型別」皆設為「簡單」。
 
-## 將任務的持續時間類型更改為簡單
+## 將任務的期間型別變更為簡單
 
-有關更改任務的「持續時間類型」的資訊，請參閱 [更新任務的持續時間類型](../../../manage-work/tasks/taskdurtn/update-duration-type-of-task.md).
+如需有關變更任務期間型別的資訊，請參閱 [更新任務的期間型別](../../../manage-work/tasks/taskdurtn/update-duration-type-of-task.md).
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: replaced with new article linked above)</p>

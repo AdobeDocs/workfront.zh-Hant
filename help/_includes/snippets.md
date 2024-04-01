@@ -1,5 +1,5 @@
 ---
-source-git-commit: 130365bfa220337aa25f27ba03742ea3471972cb
+source-git-commit: eaf1cd4142b83a42d068e2d02fe673fa4dd25769
 workflow-type: tm+mt
 source-wordcount: '2355'
 ht-degree: 1%
@@ -253,11 +253,11 @@ ht-degree: 1%
 
 >[!IMPORTANT]
 >
->本文資訊說明Adobe Workfront的新產品Adobe Workfront規劃。
+>本文資訊旨在說明Adobe Workfront的新產品Adobe Workfront Planning。
 >
->目前，Workfront規劃屬於向有限數量客戶開放的Beta計畫。 您必須是Workfront客戶才能使用這些功能。
+>目前，Workfront Planning是測試版計畫的一部分，向有限數量的客戶開放。 您必須是Workfront客戶才能使用這些功能。
 >
->請聯絡您的客戶代表，以取得有關加入Workfront規劃Beta版計畫的詳細資訊。
+>請聯絡您的客戶代表，以取得有關加入Workfront Planning測試版計畫的詳細資訊。
 >
 >如需詳細資訊，請參閱 [Adobe Workfront規劃概觀](/help/quicksilver/maestro/maestro-overview.md).
 

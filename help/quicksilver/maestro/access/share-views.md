@@ -1,11 +1,11 @@
 ---
 title: 共用檢視
-description: 您可以與其他人共用檢視，以確保在使用Adobe Workfront規劃時共同作業。
+description: 您可以與其他人共用檢視，以確保在使用Adobe Workfront Planning時共同作業。
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 673dd888-3135-48b0-8198-c8d6d6706ddf
-source-git-commit: 130365bfa220337aa25f27ba03742ea3471972cb
+source-git-commit: e54142e189cd4f407161401203a7f13c752ad404
 workflow-type: tm+mt
 source-wordcount: '502'
 ht-degree: 0%
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 {{maestro-important-intro}}
 
-在Adobe Workfront規劃中使用記錄時，您可以與其他人共用檢視，以確保共同作業。
+您可以在Adobe Workfront Planning中處理記錄時，與其他人共用檢視以確保共同作業。
 
 授予工作區許可權不會授予其他使用者記錄型別頁面上檢視的許可權。 您必須授予記錄型別頁面中個別檢視的許可權，才能與其他使用者共用檢視。
 
@@ -41,7 +41,7 @@ ht-degree: 0%
   </tr>  
  <td role="rowheader"><p>Adobe Workfront合約</p></td>
    <td>
-<p>貴組織必須註冊Adobe Workfront計畫封閉測試版計畫。 請聯絡您的客戶代表以查詢此新產品/服務。 </p>
+<p>貴組織必須註冊Adobe Workfront Planning封閉測試版計畫。 請聯絡您的客戶代表以查詢此新產品/服務。 </p>
    </td>
   </tr>
   <tr>
@@ -59,7 +59,7 @@ ht-degree: 0%
 
 <tr>
    <td role="rowheader"><p>存取層級設定</p></td>
-   <td> Adobe Workfront計畫沒有存取控制 </p>  
+   <td> Adobe Workfront Planning沒有存取控制 </p>  
 </td>
   </tr>
 

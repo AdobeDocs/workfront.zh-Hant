@@ -1,13 +1,13 @@
 ---
 title: 編輯欄位
-description: 在Adobe Workfront規劃中，您可以編輯已建立欄位的欄位設定。
+description: 在Adobe Workfront Planning中，您可以編輯已建立欄位的欄位設定。
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 6c35c313-d6ed-428b-b70d-2ea242da4e8f
-source-git-commit: a0f12a016ae8ac73136f05bf3255f9882e2ce6d4
+source-git-commit: e54142e189cd4f407161401203a7f13c752ad404
 workflow-type: tm+mt
-source-wordcount: '440'
+source-wordcount: '437'
 ht-degree: 0%
 
 ---
@@ -25,22 +25,21 @@ role: User, Administrator (************is this right???************)
 recommendations: noDisplay, noCatalog
 --->
 
-
 # 編輯欄位
 
 {{maestro-important-intro}}
 
-您可以編輯已在Adobe Workfront規劃中建立的欄位之欄位設定。
+您可以編輯已在Adobe Workfront Planning中建立的欄位之欄位設定。
 
-如需有關建立Adobe Workfront規劃欄位的資訊，請參閱 [建立欄位](../fields/create-fields.md).
+如需建立Adobe Workfront Planning欄位的相關資訊，請參閱 [建立欄位](../fields/create-fields.md).
 
-本文說明如何編輯Workfront規劃欄位的設定。 如需有關編輯記錄欄位值的資訊，請參閱 [編輯記錄](/help/quicksilver/maestro/records/edit-records.md).
+本文說明如何編輯Workfront Planning欄位的設定。 如需有關編輯記錄欄位值的資訊，請參閱 [編輯記錄](/help/quicksilver/maestro/records/edit-records.md).
 
 ## 編輯欄位資訊的考量事項
 
 * 如果您擁有該欄位所屬工作區的管理許可權，您可以編輯您建立的欄位或其他使用者建立的欄位。
 * 您可以在記錄型別表格中編輯欄位。
-* 您無法在記錄的詳細資訊頁面或時間軸檢視中編輯欄位。
+* 您無法在記錄頁面或時間軸檢視中編輯欄位。
 * 儲存欄位後，您無法編輯欄位型別。
 * 如果先前選取的「數字」、「百分比」或「幣別」欄位在其附加的記錄中已有負值，則無法取消選取該欄位的「允許負數」設定。
 <!--this is not true yet; one piece of it is true and I added it as the bullet above: 
@@ -69,7 +68,7 @@ recommendations: noDisplay, noCatalog
   </tr>  
  <td role="rowheader"><p>Adobe Workfront合約</p></td>
    <td>
-<p>貴組織必須註冊Adobe Workfront計畫Beta版計畫。 請聯絡您的客戶代表以查詢此新產品/服務。 </p>
+<p>貴組織必須註冊Adobe Workfront Planning測試版計畫。 請聯絡您的客戶代表以查詢此新產品/服務。 </p>
    </td>
   </tr>
   <tr>
@@ -87,7 +86,7 @@ recommendations: noDisplay, noCatalog
 
 <tr>
    <td role="rowheader"><p>存取層級設定</p></td>
-   <td> <p>Workfront計畫沒有存取控制</p>  
+   <td> <p>Workfront Planning沒有存取控制</p>  
 </td>
   </tr>
 

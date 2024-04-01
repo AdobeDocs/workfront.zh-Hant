@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 45b5be81-703c-45d5-a08c-60cb8ec5b103
-source-git-commit: a0f12a016ae8ac73136f05bf3255f9882e2ce6d4
+source-git-commit: 7fe24704cead460762322b4f26bf37431e9744ca
 workflow-type: tm+mt
-source-wordcount: '544'
+source-wordcount: '559'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ hide: yes
 
 您可以從記錄型別頁面，在行事曆檢視中顯示記錄及其欄位。
 
-如需Adobe Workfront規劃功能檢視及管理檢視方式的詳細資訊，請參閱 [管理記錄檢視](../views/manage-record-views.md).
+如需Adobe Workfront Planning功能檢視及管理檢視方式的詳細資訊，請參閱 [管理記錄檢視](../views/manage-record-views.md).
 
 ## 存取需求
 
@@ -51,7 +51,7 @@ hide: yes
   </tr>  
  <td role="rowheader"><p>Adobe Workfront合約</p></td>
    <td>
-<p>貴組織必須註冊Adobe Workfront計畫Beta版計畫。 請聯絡您的客戶代表以查詢此新產品/服務。 </p>
+<p>貴組織必須註冊Adobe Workfront Planning測試版計畫。 請聯絡您的客戶代表以查詢此新產品/服務。 </p>
    </td>
   </tr>
   <tr>
@@ -64,12 +64,13 @@ hide: yes
    <td role="rowheader"><p>Adobe Workfront授權</p></td>
    <td>
    <p>任何</p> 
+   <p>系統管理員只能存取他們建立或與他們共用的檢視。 </p>
   </td>
   </tr>
 
 <tr>
    <td role="rowheader">存取層級設定</td>
-   <td> <p>Adobe Workfront計畫沒有存取層級控制項</p>  
+   <td> <p>Adobe Workfront Planning沒有存取層級控制</p>  
 </td>
   </tr>
 

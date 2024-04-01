@@ -1,13 +1,13 @@
 ---
 title: 共用記錄
-description: 您可以與其他人共用記錄，以提高您的共同作業能力。
+description: 您可以與其他人共用記錄以增加共同作業。
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 83ff53ac-f18e-4b71-bdb2-57e05d69ed29
-source-git-commit: a0f12a016ae8ac73136f05bf3255f9882e2ce6d4
+source-git-commit: e54142e189cd4f407161401203a7f13c752ad404
 workflow-type: tm+mt
-source-wordcount: '428'
+source-wordcount: '416'
 ht-degree: 0%
 
 ---
@@ -21,15 +21,15 @@ ht-degree: 0%
 
 若要與其他使用者共同作業，您可以與其他使用者共用記錄。
 
-您可以透過下列方式共用Adobe Workfront計畫記錄：
+您可以透過下列方式共用Adobe Workfront Planning記錄：
 
-* 當頁面開啟時，從瀏覽器複製記錄的詳細資訊頁面的連結。
+* 當頁面開啟時，從瀏覽器複製記錄頁面的連結。
 
-* 在記錄型別的表格檢視中檢視記錄時，複製記錄的「詳細資訊」頁面的連結。
+* 在記錄型別的表格檢視中檢視記錄時，複製指向記錄頁面的連結。
 
 * 您可以透過共用工作區來與其他使用者共用工作區中的所有記錄。 如需詳細資訊，請參閱 [共用工作區](/help/quicksilver/maestro/access/share-workspaces.md).
 
-本文說明如何從記錄型別的表格檢視複製記錄之「詳細資訊」頁面的連結。
+本文說明如何從記錄型別的表格檢視複製記錄頁面的連結。
 
 ## 存取需求
 
@@ -50,7 +50,7 @@ ht-degree: 0%
   </tr>  
  <td role="rowheader"><p>Adobe Workfront合約</p></td>
    <td>
-<p>貴組織必須註冊Adobe Workfront計畫封閉測試版計畫。 請聯絡您的客戶代表以查詢此新產品/服務。 </p>
+<p>貴組織必須註冊Adobe Workfront Planning封閉測試版計畫。 請聯絡您的客戶代表以查詢此新產品/服務。 </p>
    </td>
   </tr>
   <tr>
@@ -68,7 +68,7 @@ ht-degree: 0%
 
 <tr>
    <td role="rowheader"><p>存取層級設定</p></td>
-   <td> <p>Workfront計畫沒有存取層級控制項</p>  
+   <td> <p>Workfront Planning沒有存取層級控制</p>  
 </td>
   </tr>
 <tr>
@@ -124,11 +124,11 @@ ht-degree: 0%
 
    連結已複製到您的剪貼簿。
 
-1. 將連結貼到電子郵件或聊天視窗中，以便與其他使用者共用。 當使用者收到連結時，它會開啟記錄的詳細資訊頁面。
+1. 將連結貼到電子郵件或聊天視窗中，以便與其他使用者共用。 使用者收到連結時，會開啟記錄頁面。
 
    >[!TIP]
    >
-   >「詳細資訊」頁面中記錄的欄位與記錄的「表格」檢視中可用的欄位相同。
+   >記錄頁面中的欄位與記錄的「表格」檢視中可用的欄位相同。
 
 
    <!--add there when it will be available: if they have access to this record-->

@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
-source-git-commit: a0f12a016ae8ac73136f05bf3255f9882e2ce6d4
+source-git-commit: e54142e189cd4f407161401203a7f13c752ad404
 workflow-type: tm+mt
-source-wordcount: '2372'
+source-wordcount: '2353'
 ht-degree: 1%
 
 ---
@@ -30,7 +30,7 @@ hide: yes
 
 {{maestro-important-intro}}
 
-您可以將Adobe Workfront Planning記錄彼此連線，或從其他應用程式連線到物件。
+您可以將Adobe Workfront Planning記錄彼此連線，或從其他應用程式連線至物件。
 
 您必須先將兩個記錄型別彼此連線，或將記錄型別從另一個應用程式連線到物件型別。 這會建立連結的記錄欄位。 然後，您可以使用連結的記錄欄位，將記錄彼此連線，或將記錄從其他應用程式連線到其他物件。
 
@@ -42,8 +42,8 @@ hide: yes
 
 您可以連線下列專案：
 
-* Adobe Workfront規劃記錄
-* Adobe Workfront計畫記錄包含其他應用程式的物件。
+* Adobe Workfront Planning記錄
+* Adobe Workfront Planning會記錄其他應用程式的物件。
 
   您可以從下列應用程式將記錄連線到下列型別的物件：
 
@@ -77,12 +77,12 @@ hide: yes
 <td>產品</p> </td>
    <td>
    <p> Adobe Workfront</p> 
-   <p>若要將Adobe Workfront規劃記錄與Experience Manager Assets連線，您必須擁有Adobe Experience Manager Assets授權，而且貴組織的Workfront執行個體必須上線至Adobe商業平台或Adobe Admin Console。</p>
+   <p>若要將Adobe Workfront Planning記錄與Experience Manager Assets連線，您必須擁有Adobe Experience Manager Assets授權，且貴組織的Workfront執行個體必須上線至Adobe Business Platform或Adobe Admin Console。</p>
    </td>
   </tr>  
  <td role="rowheader"><p>Adobe Workfront合約</p></td>
    <td>
-<p>貴組織必須註冊Adobe Workfront計畫封閉測試版計畫。 請聯絡您的客戶代表以查詢此新產品/服務。 </p>
+<p>貴組織必須註冊Adobe Workfront Planning封閉測試版計畫。 請聯絡您的客戶代表以查詢此新產品/服務。 </p>
    </td>
   </tr>
   <tr>
@@ -100,7 +100,7 @@ hide: yes
 
 <tr>
    <td role="rowheader"><p>存取層級設定</p></td>
-   <td> <p>Workfront計畫沒有存取層級控制項</p>  
+   <td> <p>Workfront Planning沒有存取層級控制</p>  
 </td>
   </tr>
 <tr>
@@ -129,14 +129,14 @@ hide: yes
 
 ### 有關連線記錄的考量事項
 
-* 在您連線記錄型別之後，連線的記錄型別會在它們所連結的記錄型別表格中，以及在它們所連結的記錄的「詳細資訊」頁面上，顯示為連結的記錄欄位。
+* 在您連線記錄型別之後，連線的記錄型別會在它們所連結的記錄型別表格中，以及在記錄的頁面上，顯示為連結的記錄欄位。
 * 您可以從連結記錄欄位中瀏覽並新增連結記錄的記錄和物件以及物件型別。
 * 您可以將連結的記錄型別的欄位新增至您正在連結的記錄型別的表格。
 * 您無法手動更新連結來源記錄之連結欄位的值。
 
-  連結記錄的連結欄位值會填入您從原始記錄或物件自動連結的Workfront計畫記錄。
+  連結記錄的連結欄位值會填入您從原始記錄或物件自動連結的Workfront Planning記錄。
 
-* 有權存取「Workfront規劃和檢視」或擁有工作區更高許可權的每個人，都可以看到您在記錄之間或記錄與其他應用程式物件之間建立的連線。 無論連線至應用程式的許可權為何，使用者都可以檢視連線的記錄和物件。
+* 有權存取Workfront Planning和「檢視」或擁有工作區較高許可權的所有人，都可以看見您在記錄之間或記錄與其他應用程式物件之間建立的連線。 無論連線至應用程式的許可權為何，使用者都可以檢視連線的記錄和物件。
 * 如果您對連線記錄所在的工作區具有管理許可權，則可以檢視及編輯其他人的連線。
 * 您可以將一個記錄連線到另一個應用程式的一個或多個物件。
 * 若要將記錄與其他記錄或物件連結，您必須具備下列專案：
@@ -151,7 +151,7 @@ hide: yes
 
    * 記錄型別之間的連線，或記錄型別與其他應用程式物件之間的連線。 如需詳細資訊，請參閱 [連線記錄型別](../architecture/connect-record-types.md)
 
-### 連線Adobe Workfront規劃記錄
+### 連線Adobe Workfront Planning記錄
 
 {{step1-to-maestro}}
 
@@ -183,7 +183,7 @@ hide: yes
 
    >[!TIP]
    >
-   >    您可以開啟記錄的「詳細資訊」頁面，找到連結的記錄欄位，然後按一下 **+** 圖示來從連線的記錄或物件型別新增記錄。
+   >    您可以開啟記錄的頁面，找到連結的記錄欄位，然後按一下 **+** 圖示來從連線的記錄或物件型別新增記錄。
 
    新增下列專案：
 
@@ -207,7 +207,7 @@ hide: yes
 
    請注意 **Campaign** 連結的記錄欄位會顯示您在「產品記錄型別」頁面中連結至產品的行銷活動名稱。 更新行銷活動資訊會自動更新產品記錄型別的行銷活動連結記錄欄位。
 
-### 將Adobe Workfront規劃記錄連線至Workfront物件
+### 將Adobe Workfront Planning記錄連線至Workfront物件
 
 <!--when we will have more applications to link to from Maestro, change the title to something like: Connect Maestro records to objects from other applications-->
 
@@ -215,7 +215,7 @@ hide: yes
 
 >[!NOTE]
 >
->您無法從Workfront將Workfront物件與Workfront規劃記錄連線。
+>您無法從Workfront將Workfront物件與Workfront Planning記錄連線。
 
 
 {{step1-to-maestro}}
@@ -260,13 +260,13 @@ hide: yes
 
    >[!TIP]
    >
-   >您可以開啟記錄的「詳細資訊」頁面，找到連結的記錄欄位，然後按一下 **+** 圖示來從連線的物件型別新增物件。
+   >您可以開啟記錄的頁面，找到連結的記錄欄位，然後按一下 **+** 圖示來從連線的物件型別新增物件。
 
    如需有關將記錄型別與來自其他應用程式的物件連線的詳細資訊，請參閱 [連線記錄型別](../architecture/connect-record-types.md).
 
-1. （選擇性）在表格檢視的連結欄位中，或從的連結欄位中，按一下連線至Workfront計畫記錄的Workfront物件名稱。 **詳細資料** 記錄頁面。
+1. （選擇性）在表格檢視的連結欄位中，或從記錄頁面中的連結欄位中，按一下連線至Workfront Planning記錄的Workfront物件名稱。
 
-   如此將可開啟唯讀的Workfront規劃 **詳細資料** 連結的Workfront物件頁面。 將記錄型別與Workfront物件連線時，您選取做為查閱欄位的欄位會顯示在Workfront計畫記錄的詳細資訊頁面中。
+   這會開啟連結Workfront物件的唯讀Workfront Planning記錄頁面。 將記錄型別與Workfront物件連線時，您選取作為查閱欄位的欄位會顯示在Workfront Planning記錄頁面中。
 
    >[!TIP]
    >
@@ -274,7 +274,7 @@ hide: yes
    >
    >* Workfront中的連結Workfront物件不會建立連結記錄欄位。
 
-1. （選用）若要在Workfront中開啟連結的Workfront物件，請按一下 **移至來源** 在Workfront物件的「詳細資訊」頁面的右上角。
+1. （選用）若要在Workfront中開啟連結的Workfront物件，請按一下 **移至來源** 在Workfront物件的記錄頁面的右上角。
 
    ![](assets/workfront-project-maestro-details-page-with-go-to-source-link.png)
 
@@ -288,16 +288,16 @@ hide: yes
 
    從移除Workfront物件欄位 **選取的欄位** 區域。
 
-   這會新增或移除Workfront規劃記錄中的連結欄位。 與已移除欄位相關聯的資訊仍保留在Workfront中。
+   這會新增或移除Workfront Planning記錄中的連結欄位。 與已移除欄位相關聯的資訊仍保留在Workfront中。
 
 
-### 將Workfront規劃記錄連線至Adobe Experience Manager物件
+### 將Workfront Planning記錄連線至Adobe Experience Manager物件
 
 <!--when we will have more applications to link to from Maestro, change the title to something like: Connect Maestro records to objects from other applications-->
 
 >[!IMPORTANT]
 >
->您必須擁有Adobe Experience Manager Assets授權，且貴組織的Workfront執行個體必須上線至Adobe商業平台或Adobe Admin Console，才能將Workfront規劃記錄連線至Adobe Experience Manager Assets。
+>您必須擁有Adobe Experience Manager Assets授權，且貴組織的Workfront執行個體必須上線至Adobe商業平台或Adobe Admin Console，才能將Workfront Planning記錄連線至Adobe Experience Manager Assets。
 >
 >如果您對上線Adobe Admin Console有任何疑問，請參閱 [Adobe Unified Experience常見問題集](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/unified-experience-faq.md).
 
@@ -316,7 +316,7 @@ hide: yes
 
    >[!TIP]
    >
-   >  您可以新增，按一下 **+** 圖示將資產連線到記錄中，此圖示位於記錄的詳細資訊頁面中的連結物件欄位中。
+   >  您可以新增，按一下 **+** 圖示將資產連結至記錄。
 
    此 **選取資產** 方塊隨即顯示。 <!--we might change this to Connect assets-->
 
@@ -331,7 +331,7 @@ hide: yes
 
    >[!IMPORTANT]
    >
-   > 您只能連線您有權在Experience Manager中檢視的資產。 連線之後，所有Workfront規劃使用者都可在Workfront規劃中檢視資產，無論他們在Experience Manager Assets中的存取權為何。
+   > 您只能連線您有權在Experience Manager中檢視的資產。 連線之後，所有Workfront Planning使用者都能在Workfront Planning中檢視資產，無論他們在Experience Manager Assets中的存取權為何。
 
 1. 按一下 **選取**. <!-- we might change this to Connect-->
 
@@ -346,7 +346,7 @@ hide: yes
      >
      >* 如果您啟用「允許多筆記錄」設定，則多個物件的值會以逗號區隔，或根據您選擇的彙總器彙總。
      >
-     >* 連結至Workfront planning連結記錄的連結記錄欄位不會在Experience Manager Assets應用程式中為連結的Experience Manager資產建立。
+     >* 連結至Workfront Planning連結記錄的連結記錄欄位不會在Experience Manager Assets應用程式中為連結的Experience Manager資產建立。
 
 1. （可選）前往您連結至Experience Manager Assets的記錄型別，然後在連結的記錄欄位中按一下資產名稱。 資產的Experience Manager詳細資訊會顯示在快顯視窗中。 <!--update screen shot with hi-rez picture-->
 
@@ -364,7 +364,7 @@ hide: yes
    * 建立日期
    * 修改日期
 
-1. （可選）若要以Experience Manager開啟Experience Manager資產記錄「詳細資訊」頁面，請移至您要連結之記錄的記錄型別頁面，在連結的記錄欄位中按一下資產名稱以開啟快顯視窗，然後按一下 **開啟** 圖示 ![](assets/open-asset-icon.png) 以開啟資產。
+1. （可選）若要以Experience Manager開啟Experience Manager資產記錄頁面，請前往您要連結之記錄的記錄型別頁面，在連結的記錄欄位中按一下資產名稱以開啟快顯視窗，然後按一下 **開啟** 圖示 ![](assets/open-asset-icon.png) 以開啟資產。
 
    如此即會在Adobe Experience Manager Assets中開啟Experience Manager資產。
 

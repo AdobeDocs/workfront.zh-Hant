@@ -1,13 +1,13 @@
 ---
 title: 建立欄位
-description: 在Adobe Workfront Planning中，您可以為每種記錄型別建立自訂欄位。 然後，您可以將此欄位與Workfront計畫記錄建立關聯。
+description: 在Adobe Workfront Planning中，您可以為每種記錄型別建立自訂欄位。 然後，您可以將此欄位與Workfront Planning記錄建立關聯。
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: a0f12a016ae8ac73136f05bf3255f9882e2ce6d4
+source-git-commit: e54142e189cd4f407161401203a7f13c752ad404
 workflow-type: tm+mt
-source-wordcount: '3338'
+source-wordcount: '3308'
 ht-degree: 2%
 
 ---
@@ -35,7 +35,7 @@ recommendations: noDisplay, noCatalog
 
 {{maestro-important-intro}}
 
-在Adobe Workfront規劃中，您可以建立記錄型別的自訂欄位。 然後，您可以將這些欄位與Workfront計畫記錄建立關聯，以增強記錄資訊。
+在Adobe Workfront Planning中，您可以建立記錄型別的自訂欄位。 然後，您可以將這些欄位與Workfront Planning記錄建立關聯，以增強記錄資訊。
 
 您必須先建立記錄型別，然後才能建立欄位以與之關聯。 如需詳細資訊，請參閱 [建立記錄型別](../architecture/create-record-types.md).
 
@@ -68,7 +68,7 @@ recommendations: noDisplay, noCatalog
   </tr>  
  <td role="rowheader"><p>Adobe Workfront合約</p></td>
    <td>
-<p>貴組織必須註冊Adobe Workfront計畫Beta版計畫。 請聯絡您的客戶代表以查詢此新產品/服務。 </p>
+<p>貴組織必須註冊Adobe Workfront Planning測試版計畫。 請聯絡您的客戶代表以查詢此新產品/服務。 </p>
    </td>
   </tr>
   <tr>
@@ -86,7 +86,7 @@ recommendations: noDisplay, noCatalog
 
 <tr>
    <td role="rowheader"><p>存取層級設定</p></td>
-   <td> <p>Workfront計畫沒有存取層級控制</p>  
+   <td> <p>Workfront Planning沒有存取層級控制</p>  
 </td>
   </tr>
 
@@ -248,7 +248,7 @@ recommendations: noDisplay, noCatalog
 
 
 1. 將下列資訊新增至 **新欄位** 標籤：
-   * **名稱**：欄位型別的名稱，它將顯示在表格或記錄的詳細資訊頁面中。 <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
+   * **名稱**：欄位型別的名稱，如顯示在表格或記錄頁面中的名稱。 <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
    * **說明**：欄位的其他相關資訊。 當您將滑鼠游標停留在表格中的欄位欄位上時，會顯示欄位說明。
    * **日期格式**：您要在此欄位中顯示的日期格式型別。 <!--update this casing - submitted bug for it-->
 
@@ -278,7 +278,7 @@ recommendations: noDisplay, noCatalog
    ![](assets/number-field-type.png)
 1. 將下列資訊新增至 **新欄位** 標籤：
 
-   * **名稱**：欄位型別的名稱，它將顯示在表格或記錄的詳細資訊頁面中。
+   * **名稱**：欄位型別的名稱，如顯示在表格或記錄頁面中的名稱。
    * **說明**：欄位的其他相關資訊。 當您將滑鼠游標停留在表格中的欄位欄位上時，會顯示欄位說明。
    * **精確度**：您要為欄位記錄的小數位數。 您最多可以顯示6個小數。
    * **允許負數**：如果您要允許此欄位中出現負數，請選取此選項。 預設會取消選取此選項。
@@ -300,7 +300,7 @@ recommendations: noDisplay, noCatalog
    ![](assets/percentage-field-type.png)
 
 1. 將下列資訊新增至 **新欄位** 標籤：
-   * **名稱**：欄位型別的名稱，它將顯示在表格或記錄的詳細資訊頁面中。
+   * **名稱**：欄位型別的名稱，如顯示在表格或記錄頁面中的名稱。
    * **說明**：欄位的其他相關資訊。 當您將滑鼠游標停留在表格中的欄位欄位上時，會顯示欄位說明。
    * **精確度**：您要為欄位記錄的小數位數。 您最多可以顯示6個小數。
    * **允許負數**：如果您要允許此欄位中出現負百分比值，請選取此選項。 預設會取消選取此選項。
@@ -322,7 +322,7 @@ recommendations: noDisplay, noCatalog
    ![](assets/currency-field-type.png)
 
 1. 將下列資訊新增至 **新欄位** 標籤：
-   * **名稱**：欄位型別的名稱，它將顯示在表格或記錄的詳細資訊頁面中。 <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
+   * **名稱**：欄位型別的名稱，如顯示在表格或記錄頁面中的名稱。 <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
    * **說明**：欄位的其他相關資訊。 當您將滑鼠游標停留在表格中的欄位欄位上時，會顯示欄位說明。
    * **貨幣**：您要在此欄位中顯示的貨幣型別。 這是一份國際標準化組織(ISO)的貨幣清單。
    * **精確度**：您要為欄位記錄的小數位數。 您最多可以顯示6個小數。
@@ -345,7 +345,7 @@ recommendations: noDisplay, noCatalog
    ![](assets/checkbox-field-type.png)
 
 1. 將下列資訊新增至 **新欄位** 標籤：
-   * **名稱**：欄位型別的名稱，它將顯示在表格或記錄的詳細資訊頁面中。 <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
+   * **名稱**：欄位型別的名稱，如顯示在表格或記錄頁面中的名稱。 <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
    * **說明**：欄位的其他相關資訊。 當您將滑鼠游標停留在表格中的欄位欄位上時，會顯示欄位說明。
 1. 按一下「**建立**」。
 
@@ -373,13 +373,13 @@ recommendations: noDisplay, noCatalog
 
    如需支援哪些運算式的詳細資訊，請參閱 [公式欄位概觀](/help/quicksilver/maestro/fields/formula-fields.md)
 
-1. 新增在Workfront規劃介面中顯示的欄位名稱，以在公式中參照它們。
+1. 新增在Workfront Planning介面中顯示的欄位名稱，以在公式中參照它們。
 
    >[!NOTE]
    >
    > * 您無法在公式中新增多重選取型別欄位。
    >
-   > * 您無法從公式中的連結記錄新增欄位。 此功能將在稍後發佈。 如需新版本的詳細資訊，請參閱 [Adobe Workfront規劃發行活動](/help/quicksilver/maestro/release-activity.md).
+   > * 您無法從公式中的連結記錄新增欄位。 此功能將在稍後發佈。 如需新版本的詳細資訊，請參閱 [Adobe Workfront Planning發行活動](/help/quicksilver/maestro/release-activity.md).
 
 
 1. 按一下「**建立**」。
@@ -396,7 +396,7 @@ recommendations: noDisplay, noCatalog
    ![](assets/people-field-type.png)
 
 1. 將下列資訊新增至 **新欄位** 標籤：
-   * **名稱**：欄位型別的名稱，它將顯示在表格或記錄的詳細資訊頁面中。
+   * **名稱**：欄位型別的名稱，如顯示在表格或記錄頁面中的名稱。
    * **說明**：欄位的其他相關資訊。 當您將滑鼠游標停留在表格中的欄位欄位上時，會顯示欄位說明。
    * **允許多個值**：如果您想要允許使用者在此欄位中新增多個使用者，請選取此選項。 預設會取消選取此選項。
 
@@ -418,7 +418,7 @@ recommendations: noDisplay, noCatalog
 
 1. 將下列資訊新增至 **新欄位** 標籤：
 
-   * **名稱**：欄位型別的名稱，它將顯示在表格或記錄的詳細資訊頁面中。 <!--this might change and they might prepopulate it with "Created by"-->
+   * **名稱**：欄位型別的名稱，如顯示在表格或記錄頁面中的名稱。 <!--this might change and they might prepopulate it with "Created by"-->
    * **說明**：欄位的其他相關資訊。 當您將滑鼠游標停留在表格中的欄位欄位上時，會顯示欄位說明。
 
 1. 按一下「**建立**」。
@@ -438,7 +438,7 @@ recommendations: noDisplay, noCatalog
 
 1. 將下列資訊新增至 **新欄位** 標籤：
 
-   * **名稱**：欄位型別的名稱，它將顯示在表格或記錄的詳細資訊頁面中。 <!--this might change and they might prepopulate it with "Created date"-->
+   * **名稱**：欄位型別的名稱，如顯示在表格或記錄頁面中的名稱。 <!--this might change and they might prepopulate it with "Created date"-->
    * **說明**：欄位的其他相關資訊。 當您將滑鼠游標停留在表格中的欄位欄位上時，會顯示欄位說明。
    * **日期格式**：從下列格式中選取：
 
@@ -469,7 +469,7 @@ recommendations: noDisplay, noCatalog
 
 1. 將下列資訊新增至 **新欄位** 標籤：
 
-   * **名稱**：欄位型別的名稱，它將顯示在表格或記錄的詳細資訊頁面中。 <!--this might change and they might prepopulate it with "Created by"-->
+   * **名稱**：欄位型別的名稱，如顯示在表格或記錄頁面中的名稱。 <!--this might change and they might prepopulate it with "Created by"-->
    * **說明**：欄位的其他相關資訊。 當您將滑鼠游標停留在表格中的欄位欄位上時，會顯示欄位說明。
 
 1. 按一下「**建立**」。
@@ -489,7 +489,7 @@ recommendations: noDisplay, noCatalog
 
 1. 將下列資訊新增至 **新欄位** 標籤：
 
-   * **名稱**：欄位型別的名稱，它將顯示在表格或記錄的詳細資訊頁面中。 <!--this might change and they might prepopulate it with "Created date"-->
+   * **名稱**：欄位型別的名稱，如顯示在表格或記錄頁面中的名稱。 <!--this might change and they might prepopulate it with "Created date"-->
    * **說明**：欄位的其他相關資訊。 當您將滑鼠游標停留在表格中的欄位欄位上時，會顯示欄位說明。
    * **日期格式**：從下列格式中選取：
 
@@ -513,7 +513,7 @@ recommendations: noDisplay, noCatalog
 
 當您在兩個Maestro記錄型別，或記錄型別與其他應用程式的物件型別之間新增連線時，可以建立連結的記錄欄位。
 
-如需有關連線Workfront規劃記錄型別的資訊，請參閱 [連線記錄型別](../architecture/connect-record-types.md)
+如需有關連線Workfront Planning記錄型別的資訊，請參閱 [連線記錄型別](../architecture/connect-record-types.md)
 
 ## 使用Excel和CSV檔案匯入記錄型別來建立欄位
 
@@ -525,6 +525,6 @@ recommendations: noDisplay, noCatalog
 
 ## 從範本建立工作區以建立欄位
 
-當您從範本建立工作區時，Adobe Workfront planning會為記錄型別建立欄位。
+當您從範本建立工作區時，Adobe Workfront Planning會為記錄型別建立欄位。
 
 如需詳細資訊，請參閱 [建立工作區](/help/quicksilver/maestro/architecture/create-workspaces.md).

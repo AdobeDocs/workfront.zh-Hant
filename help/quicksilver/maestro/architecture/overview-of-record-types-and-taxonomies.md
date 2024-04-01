@@ -1,11 +1,11 @@
 ---
 title: 記錄型別概觀
-description: 記錄型別是Adobe Workfront規劃工作區的建置組塊。
+description: 記錄型別是Adobe Workfront Planning工作區的建置組塊。
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 1de095b3-78d9-44df-a678-51f4238deb91
-source-git-commit: 130365bfa220337aa25f27ba03742ea3471972cb
+source-git-commit: e54142e189cd4f407161401203a7f13c752ad404
 workflow-type: tm+mt
 source-wordcount: '270'
 ht-degree: 0%
@@ -18,13 +18,13 @@ ht-degree: 0%
 
 {{maestro-important-intro}}
 
-與Workfront預先定義物件型別不同，在Adobe Workfront規劃中，您可以建立自己的物件型別。 例如，在Workfront中，已建立方案、Portfolio、專案、任務或問題的物件型別。
+與Workfront預先定義物件型別不同，在Adobe Workfront Planning中，您可以建立自己的物件型別。 例如，在Workfront中，已建立方案、Portfolio、專案、任務或問題的物件型別。
 
-Workfront planning物件型別稱為「記錄型別」，您可以建立並自訂所有型別。 記錄型別是Workfront規劃工作區的建置組塊。 如需有關工作區的資訊，請參閱 [建立工作區](../architecture/create-workspaces.md).
+Workfront Planning物件型別稱為「記錄型別」，您可以建立並自訂所有型別。 記錄型別是Workfront Planning工作區的建置組塊。 如需有關工作區的資訊，請參閱 [建立工作區](../architecture/create-workspaces.md).
 
 ## 記錄型別概觀
 
-在Workfront規劃中，您可以建立符合組織需求的自訂記錄型別。
+在Workfront Planning中，您可以建立符合組織需求的自訂記錄型別。
 
 * 從範本建立工作區時，會在下列工作區區段中建立記錄型別：
 

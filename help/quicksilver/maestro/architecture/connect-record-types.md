@@ -1,11 +1,11 @@
 ---
 title: 連線記錄型別
-description: 指示個別記錄型別如何彼此關聯的一種方法是連線它們。 此外，您可以將Adobe Workfront規劃記錄型別與其他應用程式的物件型別連線起來，以增強您的使用者體驗，並將他們的焦點放在一個應用程式中。
+description: 指示個別記錄型別如何彼此關聯的一種方法是連線它們。 此外，您可以將Adobe Workfront Planning記錄型別與其他應用程式的物件型別連線起來，以增強您的使用者體驗，並將他們的焦點放在一個應用程式中。
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
-source-git-commit: 130365bfa220337aa25f27ba03742ea3471972cb
+source-git-commit: e54142e189cd4f407161401203a7f13c752ad404
 workflow-type: tm+mt
 source-wordcount: '2213'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 <!-----
 title: Connect record types
-description: A way to indicate how individual record types relate to one another is to connect them. Also, you can connect Adobe Workfront planning record types with object types from other applications to enhance your users' experience and keep their focus in one application.
+description: A way to indicate how individual record types relate to one another is to connect them. Also, you can connect Adobe Workfront Planning record types with object types from other applications to enhance your users' experience and keep their focus in one application.
 hidefromtoc: yes
 hide: yes
 feature: Work management
@@ -30,17 +30,17 @@ author: Alina
 
 {{maestro-important-intro}}
 
-您可以使用Adobe Workfront計畫來設計包含組織所需記錄型別的完全可自訂工作區。 指示個別記錄型別如何彼此關聯的一種方法是連線它們。 此外，您可以將Workfront規劃記錄型別與其他應用程式的物件型別連線起來，以增強您的使用者體驗，並將他們的焦點放在一個應用程式中。
+您可以使用Adobe Workfront Planning來設計包含組織所需記錄型別的完全可自訂工作區。 指示個別記錄型別如何彼此關聯的一種方法是連線它們。 此外，您可以將Workfront Planning記錄型別與其他應用程式的物件型別連線起來，以增強您的使用者體驗，並將他們的焦點放在一個應用程式中。
 
 您可以將記錄型別連結到其他應用程式，或使用其他應用程式的物件型別來記錄型別。
 
-透過這樣做，您可以在Workfront計畫記錄上顯示連結記錄或物件型別的欄位。
+透過這樣做，您可以在Workfront Planning記錄上顯示連結記錄或物件型別的欄位。
 
-本文說明如何在Workfront planning中將兩個記錄型別或一個記錄型別與其他應用程式的物件連線。
+本文說明如何在Workfront Planning中將兩種記錄型別或一種記錄型別與其他應用程式的物件連線。
 
 在記錄或物件型別之間建立連線後，可以將個別記錄彼此連線。
 
-如需有關將Workfront計畫記錄從另一個應用程式連線到物件的資訊，請參閱 [連線記錄](../records/connect-records.md).
+如需有關將Workfront Planning記錄從另一個應用程式連線至物件的資訊，請參閱 [連線記錄](../records/connect-records.md).
 
 如需連線記錄型別的範例，請參閱 [連線記錄型別和記錄的範例](../architecture/example-connect-record-types-and-records.md).
 
@@ -61,11 +61,11 @@ author: Alina
 <td>
    <p> 產品</p> </td>
    <td>
-   <p> Adobe Workfront</p> <p>若要將Adobe Workfront規劃記錄型別與Experience Manager Assets連線，您必須擁有Adobe Experience Manager Assets授權，並且貴組織的Workfront執行個體必須上線至Adobe商業平台或Adobe Admin Console。</p> </td>
+   <p> Adobe Workfront</p> <p>若要將Adobe Workfront Planning記錄型別與Experience Manager Assets連線，您必須擁有Adobe Experience Manager Assets授權，且貴組織的Workfront執行個體必須上線至Adobe Business Platform或Adobe Admin Console。</p> </td>
   </tr>  
  <td role="rowheader"><p>Adobe Workfront合約</p></td>
    <td>
-<p>貴組織必須註冊Adobe Workfront計畫封閉測試版計畫。 請聯絡您的客戶代表以查詢此新產品/服務。 </p>
+<p>貴組織必須註冊Adobe Workfront Planning封閉測試版計畫。 請聯絡您的客戶代表以查詢此新產品/服務。 </p>
    </td>
   </tr>
   <tr>
@@ -83,7 +83,7 @@ author: Alina
 
 <tr>
    <td role="rowheader"><p>存取層級設定</p></td>
-   <td> <p>Adobe Workfront計畫沒有存取層級控制項</p>  
+   <td> <p>Adobe Workfront Planning沒有存取層級控制</p>  
 </td>
   </tr>
 <tr>
@@ -114,14 +114,14 @@ author: Alina
 
 ## 有關連線記錄型別的考量事項
 
-* 您可以在Adobe Workfront planning中連線下列實體：
+* 您可以在Adobe Workfront Planning中連線下列實體：
 
    * 兩種記錄型別
 
      記錄型別必須屬於相同的工作區。
    * 來自另一個應用程式的記錄型別和物件型別。
 
-* 您可以使用以下應用程式中的下列物件型別與Workfront規劃記錄型別連線：
+* 您可以使用以下應用程式中的以下物件型別與Workfront Planning記錄型別連線：
 
    * Adobe Workfront：
 
@@ -138,7 +138,7 @@ author: Alina
 
      >[!IMPORTANT]
      >
-     >您必須擁有Adobe Experience Manager Assets授權，且貴組織的Workfront執行個體必須上線至Adobe商業平台或Adobe Admin Console，才能將Workfront規劃記錄連線至Adobe Experience Manager Assets。
+     >您必須擁有Adobe Experience Manager Assets授權，且貴組織的Workfront執行個體必須上線至Adobe商業平台或Adobe Admin Console，才能將Workfront Planning記錄連線至Adobe Experience Manager Assets。
      >
      >如果您對上線Adobe Admin Console有任何疑問，請參閱 [Adobe Unified Experience常見問題集](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/unified-experience-faq.md).
 
@@ -152,11 +152,11 @@ author: Alina
 
    * **當您從另一個應用程式將記錄型別與物件型別連線時**：連結的記錄欄位會在您連線的記錄型別上建立。 不會在其他應用程式的物件型別上自動建立任何連結的記錄欄位。
 
-     只有當實際物件連線到Workfront planning記錄時，才會為其他應用程式的物件建立新的Workfront planning唯讀記錄型別。
+     只有當實際物件連線至Workfront Planning記錄時，才會為其他應用程式的物件建立新的Workfront Planning唯讀記錄型別。
 
      如需詳細資訊，請參閱 [連線記錄](../records/connect-records.md).
 
-   * **當您新增您所連線之記錄或物件的查閱欄位時**：您可以將其他應用程式物件的欄位連線至Workfront規劃記錄型別。 這些是連結或查詢欄位。 連結的欄位會在您連線記錄或物件時，自動顯示已連線記錄或物件的資訊。 連結的查閱欄位永遠是唯讀的，而且會自動填入連線記錄或物件的值。
+   * **當您新增您所連線之記錄或物件的查閱欄位時**：您可以將其他應用程式物件的欄位連線至Workfront Planning記錄型別。 這些是連結或查詢欄位。 連結的欄位會在您連線記錄或物件時，自動顯示已連線記錄或物件的資訊。 連結的查閱欄位永遠是唯讀的，而且會自動填入連線記錄或物件的值。
 
      例如，如果您將「行銷活動」記錄型別與Workfront專案連線，並且選擇將專案的「計畫完成日期」欄位帶入Workfront計畫記錄，則系統會自動為行銷活動建立名為「計畫完成日期」（來自「專案」）的連結欄位。 您無法手動編輯此連結的欄位。 計畫完成日期（來自專案）欄位會顯示連結專案的計畫完成日期。
 
@@ -200,7 +200,7 @@ author: Alina
 
 1. 更新下列資訊：
 
-   * **名稱**：連線的欄位名稱，會顯示在原始記錄型別的表格檢視或「詳細資訊」頁面中。 這會在原始記錄型別的表格檢視或原始記錄的連結記錄欄位中建立連結記錄欄。
+   * **名稱**：已連線的欄位名稱，會顯示在原始記錄型別的表格檢視或記錄頁面中。 這會在原始記錄型別的表格檢視或原始記錄的連結記錄欄位中建立連結記錄欄。
 
    >[!TIP]
    >
@@ -290,7 +290,7 @@ author: Alina
 
      >[!TIP]
      >
-     > 系統不會為其他應用程式的物件建立連結記錄欄位，而您會從Workfront規劃中連結至記錄型別。
+     > 系統不會為其他應用程式的物件建立連結記錄欄位，以連結至您在Workfront Planning中連結的記錄型別。
 
 1. （選擇性和條件性）在原始記錄型別或連結記錄型別表格檢視中，按一下連結記錄欄位標題中的向下箭頭，然後按一下下列其中一項：
 

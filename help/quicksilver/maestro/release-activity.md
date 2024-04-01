@@ -1,18 +1,18 @@
 ---
-title: Adobe Workfront規劃發行活動
+title: Adobe Workfront Planning發行活動
 description: Adobe Workfront規劃功能目前可供特定Workfront客戶使用。 請經常閱讀本文章，瞭解最近針對規劃功能發行的功能。
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: c3ba1d5fe789dec76e5513583d35679be290f14a
+source-git-commit: 5c867a0c6f81cc80675409ef9318a228bceaabb5
 workflow-type: tm+mt
-source-wordcount: '5266'
+source-wordcount: '5359'
 ht-degree: 0%
 
 ---
 
-# Adobe Workfront規劃發行活動
+# Adobe Workfront Planning發行活動
 
 {{maestro-important-intro}}
 
@@ -24,7 +24,7 @@ ht-degree: 0%
 >
 >在2023年5月至2023年12月期間，本文中的所有功能均已發佈到「預覽」和「生產」環境。 自2024年1月起，規劃功能已暫時從預覽和沙箱環境中移除。 在此日期之後發行的所有功能目前可在生產環境中使用。
 
-本文列出2023年5月22日Adobe Workfront規劃功能封閉測試版計畫推出後所發行的功能和修補程式。
+本文列出2023年5月22日Adobe Workfront計畫功能封閉測試版計畫推出後所發行的功能和修補程式。
 
 功能每週都會發行，並依發行順序列出，最新的則排在前。 參與計畫功能封閉測試計畫的客戶可以存取其預覽和生產環境中的所有功能。
 
@@ -64,13 +64,23 @@ ht-degree: 0%
 
 ### 將主要功能表中的Maestro區域重新命名為Planning
 
-生產： 2024年3月28日
+生產： 2024年3月27日
 
 預覽：待定
 
 我們已將主要功能表中的Maestro區域重新命名為Planning。
 
-如需Adobe Workfront規劃的概觀，請參閱 [Adobe Workfront規劃概觀](/help/quicksilver/maestro/maestro-overview.md).
+如需Adobe Workfront Planning的概觀，請參閱 [Adobe Workfront規劃概觀](/help/quicksilver/maestro/maestro-overview.md).
+
+### 刪除記錄型別時的新體驗
+
+生產： 2024年3月27日
+
+預覽：待定
+
+刪除記錄型別時，我們重新設計了確認方塊。 刪除記錄型別會造成影響，因為它也會刪除所有記錄、其欄位、欄位中的資訊，以及與記錄型別相關聯的檢視。 已刪除的記錄型別及其已刪除的資訊無法復原。
+
+因此，在刪除記錄型別時，我們希望確保使用者的意圖是準確的，因此我們在確認刪除時引進了額外的步驟。 如需詳細資訊，請參閱 [刪除記錄型別](/help/quicksilver/maestro/architecture/delete-record-types.md).
 
 ## 2024年3月18日起一週
 
@@ -82,15 +92,15 @@ ht-degree: 0%
 
 您現在可以在行事曆檢視中篩選資訊。 如需詳細資訊，請參閱 [管理行事曆檢視](/help/quicksilver/maestro/views/manage-the-calendar-view.md).
 
-### 時間軸和行事曆檢視中新增的詳細資訊方塊
+### 包含已新增至時間軸和行事曆檢視的記錄詳細資訊的方塊
 
 生產： 2024年3月19日
 
 預覽：待定
 
-您現在可以從時間軸和行事曆檢視存取記錄的「詳細資訊」方塊。 您可以在時間軸和行事曆檢視內的「詳細資訊」方塊中編輯記錄。
+您現在可以從時間軸和行事曆檢視存取包含記錄詳細資訊的方塊。 您可以在時間軸和行事曆檢視內的記錄方塊中編輯記錄。
 
-從「詳細資訊」方塊，您可以開啟記錄的「詳細資訊」頁面。
+在紀錄的方塊中，您可以在新的瀏覽器標籤中開啟紀錄頁面。
 
 如需詳細資訊，請參閱 [編輯記錄](/help/quicksilver/maestro/records/edit-records.md).
 
@@ -116,7 +126,7 @@ ht-degree: 0%
 
 * 修改記錄資訊的功能
 
-* 開啟記錄詳細資訊頁面的連結
+* 開啟記錄頁面的連結
 
 如需詳細資訊，請參閱 [編輯記錄](/help/quicksilver/maestro/records/edit-records.md).
 
@@ -247,7 +257,7 @@ ht-degree: 0%
 
 有關新許可證模型的資訊，請參閱 [Workfront檔案中的存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-如需有關計畫功能中許可證型別與許可權之間的連線的資訊，請參閱 [使用Adobe Workfront規劃時的授權型別概觀](/help/quicksilver/maestro/access/license-type-overview.md).
+如需有關計畫功能中許可證型別與許可權之間的連線的資訊，請參閱 [使用Adobe Workfront Planning時的授權型別概觀](/help/quicksilver/maestro/access/license-type-overview.md).
 
 
 ### 記錄欄位RTF工具列的新外觀
@@ -387,7 +397,7 @@ Adobe Workfront規劃功能已暫時從預覽和沙箱環境中移除。 它們�
 * 檢視：使用者可以從記錄型別頁面的「檢視」下拉式功能表中選取檢視。
 * 管理：使用者可以編輯、共用和刪除檢視。
 
-如需詳細資訊，請參閱 [存取權總覽](/help/quicksilver/maestro/access/access-overview.md) 和 [在Adobe Workfront規劃功能中共用許可權的概觀](../maestro/access/sharing-permissions-overview.md).
+如需詳細資訊，請參閱 [存取權總覽](/help/quicksilver/maestro/access/access-overview.md) 和 [在Adobe Workfront Planning功能中共用許可權概觀](../maestro/access/sharing-permissions-overview.md).
 
 ### 新公式欄位型別
 
@@ -439,7 +449,7 @@ Adobe Workfront規劃功能已暫時從預覽和沙箱環境中移除。 它們�
 
 ## 2023年12月18日當週
 
-### 從詳細資訊頁面新增記錄註解
+### 從記錄頁面新增記錄註解
 
 所有客戶的預覽和生產： 2023年12月18日
 
@@ -455,7 +465,7 @@ Adobe Workfront規劃功能已暫時從預覽和沙箱環境中移除。 它們�
 >
 >如需詳細資訊，請參閱 [2024年第一季版本總覽](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).
 
-您現在可以在詳細資訊頁面中檢視記錄時，新增評論或回覆其他人，以在個別記錄上與其他人共同作業。
+您現在可以新增註解或在檢視記錄頁面時回覆其他人，以在個別記錄上與其他人共同作業。
 
 規劃功能記錄的註解體驗符合Workfront物件的新註解體驗。
 
@@ -467,7 +477,7 @@ Adobe Workfront規劃功能已暫時從預覽和沙箱環境中移除。 它們�
 
 >[!IMPORTANT]
 >
->貴組織必須購買Adobe Workfront Fusion，才能與Adobe Workfront規劃功能建立連線。
+>貴組織必須購買Adobe Workfront Fusion，才能與Adobe Workfront Planning功能建立連線。
 >
 >如需詳細資訊，請參閱 [Adobe Workfront Fusion概觀](/help/quicksilver/workfront-fusion/get-started/workfront-fusion-overview.md).
 
@@ -525,11 +535,11 @@ Adobe Workfront規劃功能已暫時從預覽和沙箱環境中移除。 它們�
 
 >[!IMPORTANT]
 >
->貴組織的Workfront例項必須上線至Adobe業務平台或Adobe Admin Console，才能將Adobe Workfront規劃功能記錄連線至Adobe Experience Manager Assets。
+>貴組織的Workfront例項必須上線至Adobe業務平台或Adobe Admin Console，才能將Adobe Workfront Planning功能記錄連線至Adobe Experience Manager Assets。
 >
 >如果您對上線Adobe Admin Console有任何疑問，請參閱 [Adobe Unified Experience常見問題集](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/unified-experience-faq.md).
 
-您現在可以在Adobe Workfront規劃功能記錄型別與Adobe Experience Manager Assets之間建立連線。
+您現在可以在Adobe Workfront Planning功能記錄型別與Adobe Experience Manager Assets之間建立連線。
 
 建立連線後，此更新便可使用下列功能：
 
@@ -608,7 +618,7 @@ Adobe Workfront規劃功能已暫時從預覽和沙箱環境中移除。 它們�
 
 預覽和生產： 2023年10月30日
 
-我們為Adobe Workfront規劃功能記錄引進了以下欄位型別：
+我們為Adobe Workfront Planning功能記錄引進了以下欄位型別：
 
 * 建立者
 
@@ -630,7 +640,7 @@ Adobe Workfront規劃功能已暫時從預覽和沙箱環境中移除。 它們�
 
 * 唯讀連結Workfront物件記錄表格檢視
 
-* 唯讀Workfront物件記錄詳細資訊頁面
+* 唯讀的Workfront物件記錄頁面
 
 如需詳細資訊，請參閱 [連線記錄](../maestro/records/connect-records.md).
 
@@ -662,7 +672,7 @@ Adobe Workfront規劃功能已暫時從預覽和沙箱環境中移除。 它們�
 
 預覽和生產： 2023年10月16日
 
-我們已為段落型別欄位新增RTF格式控制項。 您可以在記錄型別的表格檢視或記錄的詳細資訊頁面中使用RTF格式化段落欄位。 如需詳細資訊，請參閱 [編輯記錄](../maestro/records/edit-records.md).
+我們已為段落型別欄位新增RTF格式控制項。 您可以在記錄型別的表格檢視或記錄頁面中使用RTF格式化段落欄位。 如需詳細資訊，請參閱 [編輯記錄](../maestro/records/edit-records.md).
 
 
 ### 時間軸檢視的記錄與群組色彩編碼
@@ -752,7 +762,7 @@ Adobe Workfront規劃功能已暫時從預覽和沙箱環境中移除。 它們�
 
 ## 2023年8月21日起一週
 
-### 將Adobe Workfront規劃功能記錄連線到計畫和投資組合
+### 將Adobe Workfront Planning功能記錄連線到計畫和投資組合
 
 預覽和生產： 2023年8月24日
 
@@ -839,7 +849,7 @@ Adobe Workfront規劃功能已暫時從預覽和沙箱環境中移除。 它們�
 
 預覽和生產： 2023年6月28日
 
-我們啟用了在表格檢視或記錄型別中檢視記錄時，以滑鼠右鍵按一下記錄列中的任何位置來啟動內容功能表的能力。 現在，當您從記錄型別的表格檢視中的任何位置存取內容功能表時，可以快速檢視、刪除或複製記錄之「詳細資訊」頁面的連結。 在此增強功能之前，內容功能表只能從記錄的「名稱」欄的「更多」功能表存取。
+我們啟用了在表格檢視或記錄型別中檢視記錄時，以滑鼠右鍵按一下記錄列中的任何位置來啟動內容功能表的能力。 現在，當您從記錄型別的表格檢視中的任何位置存取內容功能表時，可以快速檢視、刪除或複製記錄頁面的連結。 在此增強功能之前，內容功能表只能從記錄的「名稱」欄的「更多」功能表存取。
 
 ## 2023年6月19日起一週
 
@@ -849,7 +859,7 @@ Adobe Workfront規劃功能已暫時從預覽和沙箱環境中移除。 它們�
 
 ## 2023年6月5日起一週
 
-### 將Adobe Workfront規劃功能記錄與Workfront專案連線
+### 將Adobe Workfront Planning功能記錄與Workfront專案連線
 
 預覽和生產： 2023年6月5日
 

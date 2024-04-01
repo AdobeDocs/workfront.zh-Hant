@@ -1,13 +1,13 @@
 ---
 title: 管理記錄檢視
-description: 使用Adobe Workfront規劃時，您可以在表格、時間軸或行事曆檢視中顯示記錄。
+description: 使用Adobe Workfront Planning時，您可以在表格、時間軸或行事曆檢視中顯示記錄。
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: 130365bfa220337aa25f27ba03742ea3471972cb
+source-git-commit: 7fe24704cead460762322b4f26bf37431e9744ca
 workflow-type: tm+mt
-source-wordcount: '1071'
+source-wordcount: '1085'
 ht-degree: 1%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 1%
 
 {{maestro-important-intro}}
 
-在Adobe Workfront規劃區域中選取記錄型別後，您可以在下列檢視中顯示該型別的所有記錄：
+在Adobe Workfront Planning區域中選取記錄型別後，您可以在下列檢視中顯示該型別的所有記錄：
 
 * 表格
 
@@ -51,7 +51,7 @@ ht-degree: 1%
   </tr>  
  <td role="rowheader"><p>Adobe Workfront合約</p></td>
    <td>
-<p>貴組織必須註冊Adobe Workfront計畫封閉測試版計畫。 請聯絡您的客戶代表以查詢此新產品/服務。 </p>
+<p>貴組織必須註冊Adobe Workfront Planning封閉測試版計畫。 請聯絡您的客戶代表以查詢此新產品/服務。 </p>
    </td>
   </tr>
   <tr>
@@ -64,12 +64,13 @@ ht-degree: 1%
    <td role="rowheader"><p>Adobe Workfront授權</p></td>
    <td>
    <p>任何</p> 
+   <p>系統管理員只能存取他們建立或與他們共用的檢視。 </p>
   </td>
   </tr>
 
 <tr>
    <td role="rowheader">存取層級設定</td>
-   <td> <p>Workfront計畫沒有存取層級控制項</p>  
+   <td> <p>Workfront Planning沒有存取層級控制</p>  
 </td>
   </tr>
 
@@ -104,7 +105,7 @@ ht-degree: 1%
 
   >[!NOTE]
   >
-  > 由於Adobe Workfront規劃目前處於測試版狀態，因此某些檢視元素可能無法用於所有檢視。
+  > 由於Adobe Workfront Planning目前處於測試版狀態，因此某些檢視元素可能無法用於所有檢視。
 
 本文說明有關記錄檢視的下列資訊：
 
@@ -138,7 +139,7 @@ ht-degree: 1%
 | Color-code分組 |           | ✓ (A) |
 | 搜尋特定記錄 | ✓ (A) | ✓ (A) |
 | 共用檢視 | ✓ (A) | ✓ (A) | ✓ (A) |
-| 從檢視開啟記錄的「詳細資訊」頁面 | ✓ (A) | ✓ (A) |    |
+| 從檢視開啟記錄頁面 | ✓ (A) | ✓ (A) |    |
 
 
 ## 建立或編輯檢視 {#create-or-edit-views}

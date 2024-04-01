@@ -1,11 +1,11 @@
 ---
 title: 共用工作區
-description: 您可以在使用Adobe Workfront規劃時，與其他人共用工作區以確保共同作業。
+description: 您可以與其他人共用工作區，以確保在Adobe Workfront Planning中工作時，進行共同作業。
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 475a519d-d3bd-4461-8099-0e296d556d34
-source-git-commit: 130365bfa220337aa25f27ba03742ea3471972cb
+source-git-commit: e54142e189cd4f407161401203a7f13c752ad404
 workflow-type: tm+mt
 source-wordcount: '414'
 ht-degree: 2%
@@ -19,7 +19,7 @@ ht-degree: 2%
 
 {{maestro-important-intro}}
 
-您可以在使用Adobe Workfront規劃時，與其他人共用工作區以確保共同作業。
+您可以與其他人共用工作區，以確保在Adobe Workfront Planning中工作時，進行共同作業。
 
 >[!NOTE]
 >
@@ -45,7 +45,7 @@ ht-degree: 2%
   </tr>  
  <td role="rowheader"><p>Adobe Workfront合約</p></td>
    <td>
-<p>貴組織必須註冊Adobe Workfront計畫封閉測試版計畫。 請聯絡您的客戶代表以查詢此新產品/服務。 </p>
+<p>貴組織必須註冊Adobe Workfront Planning封閉測試版計畫。 請聯絡您的客戶代表以查詢此新產品/服務。 </p>
    </td>
   </tr>
   <tr>
@@ -65,7 +65,7 @@ ht-degree: 2%
 
 <tr>
    <td role="rowheader"><p>存取層級設定</p></td>
-   <td> Adobe Workfront計畫沒有存取控制</p>  
+   <td> Adobe Workfront Planning沒有存取控制</p>  
 </td>
   </tr>
 

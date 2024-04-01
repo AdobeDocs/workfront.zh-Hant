@@ -1,13 +1,13 @@
 ---
 title: 欄位概述
-description: 您可以在Adobe Workfront規劃中新增反映組織生命週期的欄位。 欄位是記錄型別的屬性。
+description: 您可以在Adobe Workfront Planning中新增反映組織生命週期的欄位。 欄位是記錄型別的屬性。
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: a1ad5ada-5010-4dec-934e-a49a3e28aa5f
-source-git-commit: a0f12a016ae8ac73136f05bf3255f9882e2ce6d4
+source-git-commit: e54142e189cd4f407161401203a7f13c752ad404
 workflow-type: tm+mt
-source-wordcount: '454'
+source-wordcount: '436'
 ht-degree: 2%
 
 ---
@@ -28,12 +28,12 @@ hide: yes
 
 {{maestro-important-intro}}
 
-您可以在Adobe Workfront規劃中新增反映組織生命週期的欄位。 欄位是記錄型別的屬性。
+您可以在Adobe Workfront Planning中新增反映組織生命週期的欄位。 欄位是記錄型別的屬性。
 
 
-## 有關Adobe Workfront規劃欄位的考量事項
+## 有關Adobe Workfront Planning欄位的考量事項
 
-* 您只能從記錄型別頁面的表格檢視建立欄位。 欄位在表格檢視中顯示為欄。 與記錄型別相關的所有欄位也會顯示在該型別每個記錄的「詳細資訊」頁面中。
+* 您只能從記錄型別頁面的表格檢視建立欄位。 欄位在表格檢視中顯示為欄。 與記錄型別關聯的所有欄位也會顯示在記錄頁面中。
 
   如需有關管理表格欄（或記錄欄位）的資訊，請參閱 [管理表格檢視](../views/manage-the-table-view.md).
 
@@ -50,11 +50,9 @@ hide: yes
 
    * 手動：
 
-      * 在記錄型別頁面的表格檢視中新增欄。 表格的欄是與記錄型別相關聯的欄位。 它們是顯示在記錄「詳細資料」頁面上的相同欄位。
+      * 在記錄型別頁面的表格檢視中新增欄。 表格的欄是與記錄型別相關聯的欄位。 它們是顯示在記錄頁面上的相同欄位。
 
-        您無法從記錄的詳細資訊頁面建立欄位。
-
-        本文會介紹如何手動建立欄位。
+        您無法從記錄的頁面建立欄位。
 
       * 藉由連線記錄型別。 當您在兩個記錄型別之間新增連線，或記錄型別和其他應用程式的物件型別之間新增連線時，可以建立連結的記錄欄位。
 
@@ -81,11 +79,11 @@ hide: yes
 
         您可以新增更多值或重新命名現有值。
 
-     當您從範本建立工作區時，Workfront planning會為記錄型別建立欄位。 如需詳細資訊，請參閱 [建立工作區](../architecture/create-workspaces.md).
+     當您從範本建立工作區時，Workfront Planning會為記錄型別建立欄位。 如需詳細資訊，請參閱 [建立工作區](../architecture/create-workspaces.md).
 
 * 無法從Workfront存取Workfront規劃欄位。
 
-* 只有當您連線記錄型別與Workfront物件型別，並從Workfront物件新增連結或查詢欄位時，才能從Workfront planning存取Workfront欄位。 如需詳細資訊，請參閱 [連線記錄型別](../architecture/connect-record-types.md).
+* 只有當您連線記錄型別與Workfront物件型別，並從Workfront物件新增連結或查詢欄位時，才能從Workfront Planning存取Workfront欄位。 如需詳細資訊，請參閱 [連線記錄型別](../architecture/connect-record-types.md).
 
 * 如果您擁有欄位所屬工作區的管理許可權，您可以檢視和更新您或任何其他使用者建立的欄位設定。
 

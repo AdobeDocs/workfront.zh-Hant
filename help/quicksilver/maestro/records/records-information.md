@@ -1,11 +1,11 @@
 ---
 title: 「記錄：文章索引」
-description: 在Adobe Workfront Planning中建立記錄型別之後，您可以建立這些型別的個別記錄。 以下文章說明如何在Adobe Workfront規劃中建立和管理記錄及其資訊。
+description: 在Adobe Workfront Planning中建立記錄型別之後，您可以建立這些型別的個別記錄。 以下文章說明如何在Adobe Workfront Planning中建立和管理記錄及其資訊。
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7f32ebab-b8dd-496d-b510-99055924b0c7
-source-git-commit: a0f12a016ae8ac73136f05bf3255f9882e2ce6d4
+source-git-commit: e54142e189cd4f407161401203a7f13c752ad404
 workflow-type: tm+mt
 source-wordcount: '96'
 ht-degree: 2%
@@ -30,7 +30,7 @@ hide: yes
 
 在Adobe Workfront Planning中建立記錄型別之後，您可以建立這些型別的個別記錄。
 
-以下文章說明如何在Adobe Workfront規劃中建立和管理記錄及其資訊：
+下列文章說明如何在Adobe Workfront Planning中建立和管理記錄及其資訊：
 
 * [建立記錄](/help/quicksilver/maestro/records/create-records.md)
 * [編輯記錄](/help/quicksilver/maestro/records/edit-records.md)

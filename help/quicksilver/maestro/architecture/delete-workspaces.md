@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: adec4b8e-2964-479b-8cf0-79d3afa27b2a
-source-git-commit: 130365bfa220337aa25f27ba03742ea3471972cb
+source-git-commit: e54142e189cd4f407161401203a7f13c752ad404
 workflow-type: tm+mt
 source-wordcount: '290'
 ht-degree: 0%
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 {{maestro-important-intro}}
 
-在Adobe Workfront計畫中，工作區是團隊計畫工作的集中位置。 如需詳細資訊，請參閱 [建立工作區](../architecture/delete-workspaces.md).
+在Adobe Workfront Planning中，工作區是團隊規劃工作的集中位置。 如需詳細資訊，請參閱 [建立工作區](../architecture/delete-workspaces.md).
 
 您可以刪除不再相關的工作區。
 
@@ -62,7 +62,7 @@ ht-degree: 0%
 
 <tr>
    <td role="rowheader"><p>存取層級設定</p></td>
-   <td> <p>Adobe Workfront計畫沒有存取層級控制項</p>  
+   <td> <p>Adobe Workfront Planning沒有存取層級控制</p>  
 </td>
   </tr>
 

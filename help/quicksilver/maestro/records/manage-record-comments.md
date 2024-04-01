@@ -1,13 +1,13 @@
 ---
 title: 管理記錄註解
-description: 您可以在記錄的右側面板中新增評論或回覆，對Adobe Workfront規劃記錄進行共同作業。 您也可以在此區域中檢視系統記錄的其它變更。
+description: 您可以在記錄的右側面板中新增評論或回覆，對Adobe Workfront Planning記錄進行共同作業。 您也可以在此區域中檢視系統記錄的其它變更。
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 215883a4-e882-438e-9c21-954c0b1d741b
-source-git-commit: a0f12a016ae8ac73136f05bf3255f9882e2ce6d4
+source-git-commit: e54142e189cd4f407161401203a7f13c752ad404
 workflow-type: tm+mt
-source-wordcount: '1147'
+source-wordcount: '1144'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 <span class="preview">For information about the current release schedule, see [First Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).</span> -->
 
-您可以在記錄的右側面板中新增評論或回覆，對Adobe Workfront規劃記錄進行共同作業。 您也可以在此區域中檢視系統記錄的其它變更。
+您可以在記錄的右側面板中新增評論或回覆，對Adobe Workfront Planning記錄進行共同作業。 您也可以在此區域中檢視系統記錄的其它變更。
 
 記錄的右側面板會顯示下列區段：
 
@@ -33,23 +33,23 @@ ht-degree: 0%
 
 ## 在記錄上加上註解的考量事項
 
-* 您可以在Workfront planning中，於記錄的「註解」區段中，新增註解及回覆至記錄。
+* 您可以在Workfront Planning中，於記錄的「註解」區段中，新增註解及回覆至記錄。
 
-* 新增至連結記錄的註解不會顯示在您連結的記錄上。 例如，如果您對連結至「促銷活動」記錄的Workfront計畫產品記錄加上註解，該註解僅會顯示在Workfront計畫的「產品」記錄上，而不會顯示在您連結的「促銷活動」記錄上。
+* 新增至連結記錄的註解不會顯示在您連結的記錄上。 例如，如果您對連結至促銷活動記錄的Workfront Planning產品記錄加上註解，該註解只會顯示在Workfront Planning的產品記錄上，而不會顯示在您連結的促銷活動記錄上。
 
-* 您可以將註解新增至由於記錄與其他應用程式物件之間的連線而建立的Workfront planning記錄。
+* 您可以將註解新增至由於記錄與其他應用程式物件之間的連線而建立的Workfront Planning記錄。
 
-  例如，在將Workfront專案與Workfront計畫記錄連線之後，您可以對Workfront計畫記錄加上註解。 如需詳細資訊，請參閱 [連線記錄](/help/quicksilver/maestro/records/connect-records.md).
+  例如，將Workfront專案與Workfront Planning記錄連線後，您就可以對Workfront Planning專案記錄加上註解。 如需詳細資訊，請參閱 [連線記錄](/help/quicksilver/maestro/records/connect-records.md).
 
-* 新增至其他應用程式中連結物件的註解不會顯示在Workfront規劃中，而新增至Workfront規劃中連結物件的註解不會顯示在其他應用程式中。
+* 新增至其他應用程式中連結物件的註解不會顯示在Workfront Planning中，而新增至Workfront Planning中連結物件的註解不會顯示在其他應用程式中。
 
-  例如，在Workfront中新增至專案的評論不會顯示在連結至Workfront規劃中行銷活動的相同專案上，而新增至專案Workfront規劃記錄的評論不會顯示在Workfront中。
+  例如，在Workfront中新增至專案的評論不會顯示在連結至Workfront Planning中行銷活動的相同專案上，而新增至專案Workfront Planning記錄的評論不會顯示在Workfront中。
 
 * 您可以標籤使用者，以提醒他們注意更新。 標籤的使用者不會收到應用程式內通知或有關您更新的電子郵件。 <!--this might change??-->
 
-* 您可以新增更新至記錄，並從Workfront計畫的下列區域複查變更歷史記錄：
+* 您可以新增更新至記錄，並從Workfront Planning的下列區域複查變更歷史記錄：
 
-   * 從記錄的詳細資訊頁面。
+   * 從記錄頁面。
 
   <!--* From the table view.-->
 
@@ -72,7 +72,7 @@ ht-degree: 0%
   </tr>  
  <td role="rowheader"><p>Adobe Workfront合約</p></td>
    <td>
-<p>貴組織必須註冊Adobe Workfront計畫Beta版計畫。 請聯絡您的客戶代表以查詢此新產品/服務。 </p>
+<p>貴組織必須註冊Adobe Workfront Planning測試版計畫。 請聯絡您的客戶代表以查詢此新產品/服務。 </p>
    </td>
   </tr>
   <tr>
@@ -90,7 +90,7 @@ ht-degree: 0%
 
 <tr>
    <td role="rowheader"><p>存取層級設定</p></td>
-   <td> <p>Workfront規劃中沒有存取層級控制項。 </p>  
+   <td> <p>Workfront Planning中沒有存取層級控制項。 </p>  
 </td>
   </tr>
 <tr>
