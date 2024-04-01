@@ -5,16 +5,20 @@ description: 您可以使用「摘要」面板，直接從任務問題、檔案�
 feature: Get Started with Workfront
 author: Nolan
 exl-id: 5e4026b2-5f2f-45c1-bef1-04e20c62ed8a
-source-git-commit: c50ff48bbc492199b39db17b8c445207209bb6a5
+source-git-commit: ee957e319941fe5eabb9144eed184372e5402197
 workflow-type: tm+mt
-source-wordcount: '931'
+source-wordcount: '1001'
 ht-degree: 1%
 
 ---
 
 # [!UICONTROL 摘要] 概述
 
-{{preview-and-fast-release}}
+<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它只能在「預覽」環境中供所有客戶使用，或在「生產」環境中供啟用快速發行的客戶使用。 </span>
+
+<span class="preview">如需快速發行版本的相關資訊，請參閱 [啟用或停用組織的快速發行](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
+
+<span class="preview">如需目前發行排程的詳細資訊，請參閱 [2024年第二季版本總覽](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>
 
 您可以使用 [!UICONTROL 摘要] 面板，直接從任務清單、問題、檔案或其他區域檢閱和更新工作專案資訊。 [!DNL Adobe Workfront] 問題按鈕來顯示任務和問題。
 
@@ -36,6 +40,9 @@ ht-degree: 1%
   <tr> 
    <td>[！UICONTROL工作負載平衡器]的[！UICONTROL未指派]和[！UICONTROL已指派]工作區域中的任務</td> 
   </tr> 
+   <tr> 
+   <td>[！UICONTROL時程表]中的任務</td> 
+  </tr> 
   <tr data-mc-conditions=""> 
    <td>問題</td> 
   </tr> 
@@ -53,7 +60,12 @@ ht-degree: 1%
   <tr data-mc-conditions=""> 
    <td>[！UICONTROL請求]區域的[！UICONTROL已提交]區段中的問題</td> 
   </tr> 
-  <tr data-mc-conditions=""> 
+</tr> 
+   <tr> 
+   <td>[！UICONTROL時程表]中的問題</td> 
+  </tr>
+
+<tr data-mc-conditions=""> 
    <td>文件</td> 
   </tr> 
   <tr data-mc-conditions=""> 

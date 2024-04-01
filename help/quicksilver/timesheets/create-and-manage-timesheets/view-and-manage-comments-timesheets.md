@@ -6,9 +6,9 @@ description: 您可以對時程表、時程表中包含的工作專案以及您�
 author: Alina
 feature: Timesheets
 exl-id: 6260d176-3cfb-4bc2-93cb-00687e030248
-source-git-commit: fdf4c86ce70402885e109a680ed1b088dcf71f55
+source-git-commit: ee957e319941fe5eabb9144eed184372e5402197
 workflow-type: tm+mt
-source-wordcount: '849'
+source-wordcount: '880'
 ht-degree: 0%
 
 ---
@@ -90,7 +90,16 @@ ht-degree: 0%
 
    您的註解會顯示在 [!UICONTROL 更新] 時程表的區段，在評論索引標籤中。
 
-1. （可選）按一下 **系統活動** 標籤以檢閱系統產生的更新。
+1. （可選）按一下 **系統活動** 標籤以檢閱系統產生的更新
+
+   或
+
+   按一下 **全部** 索引標籤來依時間順序檢視系統活動和使用者註解。
+
+   >[!TIP]
+   >
+   >   「全部」標籤是唯讀標籤，您無法從該處回覆註解。
+
 
    如需詳細資訊，請參閱 [更新工作](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
@@ -107,7 +116,7 @@ ht-degree: 0%
    >   按一下小時輸入方塊後使用標準QWERTY鍵盤時，請按下列按鍵組合以開啟註解方塊：
    >   * Shift + F2 (適用於Windows和Mac電腦)。
 
-   執行下列任一項作業：
+   執行下列其中一項：
 
    * 輸入新註解並按一下 **完成**.
    * 編輯現有註解並按一下 **完成**，或按一下 **取消** 以捨棄變更。
@@ -139,7 +148,7 @@ ht-degree: 0%
 1. 按一下 [!UICONTROL **時間表**].
 1. 移至您要發表註解的時程表，然後按一下 [!UICONTROL **時間表**] 在左側面板中。
 1. 按一下任務或問題的列，然後按一下 [!UICONTROL **開啟摘要**].
-1. 開始在 [!UICONTROL **更新**] 區域，然後按一下 [!UICONTROL **更新**].
+1. 開始在 [!UICONTROL **更新**] 區域，然後按一下 [!UICONTROL **提交**].
 更新會顯示在任務和問題的更新區段中。
 1. （選用）按一下 [!UICONTROL **關閉摘要**] 以關閉「摘要」面板。
 

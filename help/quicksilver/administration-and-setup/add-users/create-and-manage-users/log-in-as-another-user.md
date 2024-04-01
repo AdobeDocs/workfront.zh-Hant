@@ -1,5 +1,5 @@
 ---
-title: 以其他使用者身分登入
+title: 以另一位使用者身分登入
 user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: create-and-manage-users
@@ -8,14 +8,14 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 2f8dd132-1086-4980-9b56-993a68231e96
-source-git-commit: bc7039bc4b8b257fc55e71e73f72327fdb417837
+source-git-commit: ee957e319941fe5eabb9144eed184372e5402197
 workflow-type: tm+mt
-source-wordcount: '809'
-ht-degree: 0%
+source-wordcount: '794'
+ht-degree: 1%
 
 ---
 
-# 以其他使用者身分登入
+# 以另一位使用者身分登入
 
 
 <!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available for all users only in the Preview environment.</span> -->
@@ -90,7 +90,7 @@ Some users, such as executives, need to be able to control which administrators 
    >   
    >* 您無法重設Workfront管理員的密碼。
 
-1. 按一下 **主要功能表** 圖示 ![](assets/main-menu-icon.png) (位於Adobe Workfront的右上角)，然後按一下 **設定** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. 在左側面板中，按一下 **登入身份**.
 

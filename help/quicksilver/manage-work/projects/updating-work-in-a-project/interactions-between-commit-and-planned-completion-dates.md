@@ -6,9 +6,9 @@ description: 計畫完成日期與認可日期皆指出任務應於何時完成�
 author: Alina
 feature: Work Management
 exl-id: 1709c60c-ac75-48eb-9226-ec2cf556ebf0
-source-git-commit: 31ee3259167532e1e1efa75d635786762f6e476e
+source-git-commit: ee957e319941fe5eabb9144eed184372e5402197
 workflow-type: tm+mt
-source-wordcount: '436'
+source-wordcount: '410'
 ht-degree: 1%
 
 ---
@@ -57,7 +57,7 @@ this article has mostly information that is repeated from the articles linked fr
 
 受指派人變更「認可日期」不會自動變更「規劃完成日期」。 反之亦然：變更規劃完成日期不會變更認可日期。
 
-當認可日期變更為晚於計畫完成日期的日期時，如果專案所有者使用舊版評論體驗，則專案所有者會收到此變更已發生的通知，並且它可能會影響專案的時間表。 新的評論體驗不支援此功能。 如需詳細資訊，請參閱 [新的評論體驗](/help/quicksilver/product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
+當認可日期變更為晚於計畫完成日期的日期時，專案所有者會收到此變更已發生的通知，並且可能影響專案的時間表。
 
 如果專案擁有者可接受受分派者提供的「認可日期」，他們必須手動更新任務或問題的計畫完成日期。 如需詳細資訊，請參閱下列文章：
 

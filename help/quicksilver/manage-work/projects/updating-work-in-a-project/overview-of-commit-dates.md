@@ -7,16 +7,14 @@ description: 認可日期是指指派給任務或問題的使用者認可完成�
 author: Alina
 feature: Work Management
 exl-id: 47072433-bb8e-4210-947a-8bfa41ec47a9
-source-git-commit: c50ff48bbc492199b39db17b8c445207209bb6a5
+source-git-commit: ee957e319941fe5eabb9144eed184372e5402197
 workflow-type: tm+mt
-source-wordcount: '895'
-ht-degree: 0%
+source-wordcount: '763'
+ht-degree: 1%
 
 ---
 
 # 認可日期總覽
-
-{{preview-and-fast-release}}
 
 認可日期是指指派給任務或問題的使用者認可完成任務或問題的日期。 這與「計畫完成日期」不同，因為這是僅由負責工作的使用者提供的更實際的完成日期預估值。 有關計畫完成日期的資訊，請參閱 [任務計畫完成日期總覽](../../../manage-work/tasks/task-information/task-planned-completion-date.md).
 
@@ -55,11 +53,26 @@ ht-degree: 0%
 
 設定任務或問題的認可日期會觸發下列變更：
 
-* 認可日期會填入任務或問題的更新流中。
+* 認可日期變更會填入任務或問題的「系統活動」和「更新」區段的「所有」標籤中。
 
-  <span class="preview">![](assets/update-stream-confirmation-that-commit-date-changed-nwe-350x73.png)</span>
+  ![](assets/update-stream-confirmation-that-commit-date-changed-nwe-350x73.png)
 
   當Workfront管理員在設定的更新摘要區域中啟用此更新時，認可日期的變更會顯示在任務或問題的更新區域中。 如需詳細資訊，請參閱 [系統追蹤更新](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md).
+
+  如果專案所有者不想接受變更，我們建議他們使用「更新」區段中的「註解」索引標籤，將註解回覆給提出新日期的使用者，讓他們將「認可日期」變更回原始計畫日期，或選取新日期。 如果專案所有者接受變更，他們可以通過編輯任務或問題手動調整計畫完成日期，以符合指派給專案的使用者所提供的認可日期。
+
+  您必須有管理任務或問題的存取權才能編輯它們。
+
+<!--this is no longer possible: 
+>[!NOTE]
+>
+>If you want to see how the timeline of the project is affected by accepting to change the Planned Completion Date of the task, click **Project Timeline**. This opens the task list where you can evaluate the date changes and the project timeline.
+>
+>
+>![](assets/project-owner-notification-update-stream-that-commit-date-affects-project-timeline-highlighted-nwe-350x139.png)  >
+>
+-->
+
 
 * 任務或問題的預計完成日期設定為相同日期，因為任務現在有更準確的指示可能完成的時間。
 
@@ -67,27 +80,10 @@ ht-degree: 0%
 
   ![](assets/task-projected-completion-date-in-details-highlighted-nwe-350x230.png)
 
-* 如果專案所有者使用舊版註解體驗，他們會在任務的「更新」標籤中收到通知，告知此變更是否會影響專案時間表，並且他們有機會更新同一區域中任務的規劃完成日期。
 
-  新的評論體驗不支援此功能。 如需詳細資訊，請參閱 [新的評論體驗](/help/quicksilver/product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 
-  >[!TIP]
-  >
-  >  專案所有者無法更新問題的計畫完成日期，因為問題日期不會影響專案時間表。
 
-  如果專案所有者不想接受變更，我們建議他們將意見回覆給提出新日期的使用者，要求他們將認可日期變更為原始計畫日期，或選擇新日期。 如果專案所有者接受變更，他們可以手動調整「計畫完成日期」，以符合指派給料號的使用者所提供的「認可日期」。 他們也可以按一下 **將計畫日期設為：&lt;日期>** 自動設定規劃完成日期以符合新認可日期的更新區域中。
-
-  您必須有管理任務和專案的存取權才能接受此變更。
-
-  >[!NOTE]
-  >
-  >如果您想檢視接受變更任務的規劃完成日期對專案時間表的影響，請按一下 **專案時間表**. 這會開啟工作清單，您可以在其中評估日期變更和專案時間表。
-  >
-  >
-  >![](assets/project-owner-notification-update-stream-that-commit-date-affects-project-timeline-highlighted-nwe-350x139.png)  >
-  >
-
-* 在「通知」區域中通知專案所有者，任務認可日期已變更。
+* 在「通知」區域中通知專案所有者，任務或問題認可日期已變更。
 
   ![](assets/in-product-notification-commit-date-changed-nwe-350x149.png)
 
