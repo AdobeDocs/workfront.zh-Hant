@@ -11,9 +11,9 @@ feature: Workfront Fusion
 hide: true
 hidefromtoc: true
 exl-id: 892fdaf3-935e-4e66-a01c-9e9b6e0daf3e
-source-git-commit: 593612fea52d917904605cf3d97403347c9c9ac0
+source-git-commit: e067c5ff34c31060ca6fd392289d845f53a5ef3a
 workflow-type: tm+mt
-source-wordcount: '1018'
+source-wordcount: '1116'
 ht-degree: 0%
 
 ---
@@ -93,6 +93,10 @@ ht-degree: 0%
       <td role="rowheader">[！UICONTROL物件型別]</td>
       <td>選取您要監視記錄、記錄型別或工作區。</td>
     </tr>
+     <tr data-mc-conditions=""> 
+      <td> <p>[！UICONTROL事件篩選器]</p> </td> 
+      <td> <p>您可以設定篩選器，只監視符合您選取條件的記錄。</p> <p>針對每個篩選器，輸入您希望篩選器評估的欄位、運運算元，以及您希望篩選器允許的值。 您可以新增AND規則來使用一個以上的篩選器。</p> <p>附註：您無法編輯現有篩選器中的 [!DNL Workfront] webhook。 若要為設定不同的篩選器 [!DNL Workfront] 事件訂閱，移除目前的webhook並建立新的訂閱。</p> <p>如需事件篩選器的詳細資訊，請參閱 <a href="/help/quicksilver/workfront-fusion/apps-and-their-modules/workfront-modules.md#event-subscription-filters-in-the-workfront--watch-events-modules" class="MCXref xref">中的事件訂閱篩選器 [!DNL Workfront] &gt; [！UICONTROL觀看活動]模組</a> 在Workfront模組文章中。</p> </td> 
+     </tr> 
     <tr>
       <td role="rowheader">要觀看的[！UICONTROL物件]</td>
       <td>選取是否要監視新專案。 更新、新增和更新或刪除的記錄。</td>
