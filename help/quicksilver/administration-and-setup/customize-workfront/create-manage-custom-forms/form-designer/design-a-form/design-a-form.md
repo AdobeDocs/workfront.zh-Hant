@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: c508878704cf149f5ed348c581531d266433f0c3
+source-git-commit: 76841cf5ec88c790e625cad792fc37141ad2f84e
 workflow-type: tm+mt
-source-wordcount: '5867'
-ht-degree: 3%
+source-wordcount: '5942'
+ht-degree: 4%
 
 ---
 
@@ -736,6 +736,47 @@ The Workfront Mobile app -->
 ### 新增Workfront原生欄位
 
 您可以將Workfront原生欄位新增至自訂表單。 當自訂表單附加到物件時，會從物件資料填入欄位。 例如，附加到專案的自訂表單上的說明欄位將提取專案說明。 （如果沒有可用資料，欄位可能會顯示「N/A」。）
+
++++ **展開以檢視支援的原生欄位清單**
+
+* 實際完成日期
+* 實際期間
+* 實際時數
+* 實際開始日期
+* 公司
+* 狀況
+* 狀況類型
+* 說明
+* 期間
+* 期間類型
+* 期間單位
+* 輸入者
+* 輸入日期
+* 群組
+* 上次更新者
+* 上次更新日期
+* 姓名
+* 所有者
+* 規劃完成日期
+* 計畫持續時間
+* 規劃時數
+* 規劃開始日期
+* 專案組合
+* 優先順序
+* 方案
+* 預計完成日期
+* 預計期間 (分鐘)
+* 預計開始日期
+* 參考號碼
+* 排程模式
+* 嚴重程度
+* 贊助者
+* 狀態
+* 腳本點數
+* 範本
+* URL
+
++++
 
 1. 在畫面左側，尋找 **原生欄位** 並將其拖曳至畫布上的區段。
 1. 在畫面右側，設定自訂欄位的選項：

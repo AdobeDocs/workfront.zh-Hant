@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: a297ee8d-d949-45ab-a219-437316fa8fa3
-source-git-commit: 2faa01024a1a174bacb42e9c6e24f528252f49f4
+source-git-commit: 30a10e240b0f418f7ba49cd2e70e6f3d33956cd6
 workflow-type: tm+mt
-source-wordcount: '802'
+source-wordcount: '800'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->預覽版本：2024年Mach 28；所有客戶生產：24.4 （2024年4月）
+>預覽版本： 2024年3月28日；適用於所有客戶的生產： 24.4 （2024年4月）
 
 Beta版自訂表單設計工具現在可讓您在預覽模式下測試顯示邏輯及略過邏輯。 以前，即使套用了邏輯，預覽中仍會顯示所有欄位。
 
