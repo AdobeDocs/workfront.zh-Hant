@@ -2,20 +2,20 @@
 content-type: reference
 product-area: agile-and-teams
 navigation-topic: use-scrum-in-an-agile-team
-title: 管理反複專案更新
+title: 管理反複專案註解
 description: 您可以將更新新增至疊代，以便在Adobe Workfront中與其他人共同作業。
 author: Alina
 feature: Agile
 recommendations: noDisplay, noCatalog
-source-git-commit: 8abff9553518d6742f7751fefe04dcb199f5880a
+exl-id: 68af4128-82a7-41e2-a88a-27c51b4a5cb7
+source-git-commit: 7bef757c24adc7791cb3b258ae6c33f3c0eec818
 workflow-type: tm+mt
 source-wordcount: '596'
 ht-degree: 3%
 
 ---
 
-
-# 管理反複專案更新
+# 管理反複專案註解
 
 您可以將更新新增至疊代，以便在Adobe Workfront中與其他人共同作業。
 

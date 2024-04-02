@@ -6,9 +6,9 @@ description: 您可以使用範本作為框架，在Adobe Workfront中建立專�
 author: Alina
 feature: Work Management
 exl-id: 622cbfe0-b8c0-4045-bef2-9e21d45bfda0
-source-git-commit: 9447310f0d4cf4504ee6d690116fb62f718fe23d
+source-git-commit: 7bef757c24adc7791cb3b258ae6c33f3c0eec818
 workflow-type: tm+mt
-source-wordcount: '1089'
+source-wordcount: '1128'
 ht-degree: 0%
 
 ---
@@ -105,7 +105,11 @@ ht-degree: 0%
 
 ## 從專案區域中的範本建立專案
 
-您可以從主要功能表的專案區域，或從投資組合或方案的專案區域建立專案。
+您可以從主要功能表的「專案」區域，或從投資組合或方案的專案區域建立專案。
+
+>[!NOTE]
+>
+>您的系統或群組管理員可能會使用版面配置範本修改您的介面。 在此情況下，以下步驟中參照的某些區段和區域名稱，在您的Workfront例項中可能不同。
 
 1. 執行下列其中一項：
 
