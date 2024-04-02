@@ -7,9 +7,9 @@ description: 您可以在Adobe Workfront Fusion中新增使用者至組織。
 author: Becky
 feature: Workfront Fusion
 exl-id: 98248cca-98f5-4eb5-b203-67e261df33f1
-source-git-commit: 5d4434d090c4b6cdefc9c313fecccf6d6e9a510b
+source-git-commit: 447ab70566d5f9de3bc368933c9efdb94d2b9e7e
 workflow-type: tm+mt
-source-wordcount: '403'
+source-wordcount: '395'
 ht-degree: 0%
 
 ---
@@ -105,8 +105,8 @@ ht-degree: 0%
 >[!NOTE]
 >
 >   
-><p>如果您看不到[！UICONTROL邀請新使用者]按鈕，表示您的組織已上線 [!DNL Adobe Business Platform.] </p>
+>如果您沒有看到 [!UICONTROL 邀請新使用者] 按鈕，表示貴組織已上線 [!DNL Adobe Business Platform.]
 >
->   <p>有關將使用者新增至已上線之組織的指示 [!DNL Adobe Business Platform]，請參閱 <a href="#add-a-user-to-an-organization-that-has-been-onboarded-to-the-adobe-business-platform" class="MCXref xref">將使用者新增至已上線的組織 [!DNL Adobe Business Platform]</a></p>
+>  有關將使用者新增至已上線之組織的指示 [!DNL Adobe Business Platform]，請參閱 [將使用者新增至 [!DNL Adobe Workfront Fusion] 透過 [!DNL Adobe Admin Console]](/help/quicksilver/workfront-fusion/fusion-in-admin-console/add-fusion-users-admin-console.md)
 
 使用者會收到一封邀請電子郵件，讓他們可以接受邀請。

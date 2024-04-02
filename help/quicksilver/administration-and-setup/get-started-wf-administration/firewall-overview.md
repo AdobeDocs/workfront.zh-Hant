@@ -9,10 +9,10 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 172999e7-fb05-49a6-ad57-84b59e80a28e
-source-git-commit: d74b0aa22644b7c79d3c6c3c3bbd5e67efdff732
+source-git-commit: 405460158b9a540e427b9f9e5de101823838b17b
 workflow-type: tm+mt
-source-wordcount: '742'
-ht-degree: 0%
+source-wordcount: '758'
+ht-degree: 1%
 
 ---
 
@@ -49,11 +49,11 @@ Workfront使用特定的IP位址和網域進行網頁通訊。 必須先將這�
  <tbody> 
   <tr> 
    <td role="rowheader">允許的特定IP位址和網域</td> 
-   <td> <p>文章 <a href="../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md" class="MCXref xref">設定防火牆的允許清單</a> 包含貴組織必須新增至允許清單的IP位址和網域清單。 </p> <p>您的網路管理員可能沒有「設定防火牆」文章的存取權。 在這種情況下，您必須將其提供給他們。 我們不建議列印硬式（紙張）的復本。 數位復本可讓您的網路管理員複製並貼上位址，這比從硬複製輸入更快速、更準確。</p> </td> 
+   <td> <p>文章 <a href="../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md" class="MCXref xref">設定防火牆的允許清單</a> 包含貴組織必須新增至允許清單的IP位址和網域清單。 </p> <p>您的網路管理員可能沒有「設定防火牆的允許清單」文章的存取權。 在這種情況下，您必須將其提供給他們。 我們不建議列印硬式（紙張）的復本。 數位復本可讓您的網路管理員複製並貼上位址，這比從硬複製輸入更快速、更準確。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">您的叢集</td> 
-   <td>若要找出組織的叢集，請參閱 <a href="#view-your-organization-s-cluster-and-workfront-plan" class="MCXref xref">檢視貴組織的叢集和Workfront計畫</a></td> 
+   <td>若要找出組織的叢集，請參閱 <a href="#view-your-organization-s-cluster-and-workfront-plan" class="MCXref xref">檢視貴組織的叢集和Workfront計畫</a>.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">您的Workfront計畫</td> 
@@ -75,20 +75,19 @@ Workfront使用特定的IP位址和網域進行網頁通訊。 必須先將這�
    <td role="rowheader">Adobe Workfront整合</td> 
    <td>如果您使用下列任何一項，請通知您的網路管理員：
     <ul>
-     <li><p><p>適用於Jira的Workfront</p></p></li>
-     <li><p>適用於G Suite的Workfront</p></li>
-     <li><p>適用於Microsoft Teams的Workfront</p></li>
+     <li><p>適用於 Jira 的 Workfront</p></li>
+     <li><p>適用於 G Suite 的 Workfront</p></li>
+     <li><p>適用於 Microsoft Teams 的 Workfront</p></li>
      <li><p>適用於Outlook的Workfront</p></li>
      <li><p>適用於Salesforce的Workfront</p></li>
     </ul></td> 
   </tr> 
   <tr> 
    <td role="rowheader">其他功能</td> 
-   <td> <p>如果您使用以下其中一種方式，請通知您的網路管理員：</p> 
+   <td> <p>如果您使用下列專案，請通知您的網路管理員：</p> 
     <ul> 
      <li> <p>Workfront測試工具</p> </li> 
-     <li> <p>Workfront上升</p> </li> 
-    </ul> </td> 
+    </ul> </td>
   </tr> 
  </tbody> 
 </table>
@@ -99,7 +98,7 @@ Workfront使用特定的IP位址和網域進行網頁通訊。 必須先將這�
 
 ### 檢視貴組織的叢集和Workfront計畫 {#view-your-organization-s-cluster-and-workfront-plan}
 
-1. 按一下 **主要功能表** 圖示 ![](assets/main-menu-icon.png) (位於Adobe Workfront的右上角)，然後按一下 **設定** ![](assets/gear-icon-settings.png).
+1. 按一下 **[!UICONTROL 主要功能表]** 圖示 ![主要功能表](/help/_includes/assets/main-menu-icon.png) 在Adobe Workfront的右上角，或（如果有的話）按一下 **[!UICONTROL 主要功能表]** 圖示 ![主要功能表](/help/_includes/assets/main-menu-icon-left-nav.png) 然後按一下「 」 **[!UICONTROL 設定]** ![「設定」圖示](/help/_includes/assets/gear-icon-setup.png).
 
 1. 按一下 **系統** 在左側面板
 1. 若要檢視您的叢集，請選取 **客戶資訊**.
