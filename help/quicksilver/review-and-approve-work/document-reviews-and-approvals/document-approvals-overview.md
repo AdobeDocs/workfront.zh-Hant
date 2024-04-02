@@ -6,10 +6,10 @@ description: 您可以將其他核准者或稽核者新增至已有待核准的�
 author: Nolan
 feature: Work Management, Digital Content and Documents
 exl-id: 32cb95c2-8d12-492b-ad89-b38e2a337fc5
-source-git-commit: 1a03d829bc4cddfd568c6d0e8850e847004c83b4
+source-git-commit: 8321138e6bc2c789a3f4f0fc97fb4fb01ad429ae
 workflow-type: tm+mt
-source-wordcount: '464'
-ht-degree: 0%
+source-wordcount: '505'
+ht-degree: 1%
 
 ---
 
@@ -54,3 +54,10 @@ ht-degree: 0%
 若使用者希望建立或管理檔案核准，請參閱下列文章 [核准檔案：文章索引](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/approve-documents-toc.md)
 
 若使用者希望檢閱或核准其收到請求的檔案，請參閱下列文章 [檢閱檔案：文章索引](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-documents-toc.md).
+
+目前的報告工具不支援新檔案核准。 新首頁和畫布儀表板中可用的所有核准Widget提供以下有關新檔案核准的詳細資訊：
+
+* 核准 (依決策區分)
+* 平均核准時間
+* 待處理的核准
+* 逾期核准

@@ -6,9 +6,9 @@ draft: Probably
 feature: Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 83e2f884-b396-444e-9533-864fd78880f2
-source-git-commit: 95679dd71ef7e4991853e63573a387f26321159d
+source-git-commit: 8321138e6bc2c789a3f4f0fc97fb4fb01ad429ae
 workflow-type: tm+mt
-source-wordcount: '68'
+source-wordcount: '78'
 ht-degree: 0%
 
 ---
@@ -21,3 +21,4 @@ ht-degree: 0%
 * [大量編輯校訂許可權設定檔欄位](../../../review-and-approve-work/proofing/tips-tricks-and-troubleshooting/edit-proof-profile-bulk.md)
 * [停用透過公開URL或內嵌程式碼共用校訂](../../../review-and-approve-work/proofing/tips-tricks-and-troubleshooting/disable-public-proofs.md)
 * [常見問題集：Adobe Workfront內的校訂 — 美國移轉至EMEA](../../../review-and-approve-work/proofing/tips-tricks-and-troubleshooting/faq-proofing-in-wf-us-to-emea-migration.md)
+* [上傳後檔名稱已變更，且包含無效字元](/help/quicksilver/review-and-approve-work/proofing/tips-tricks-and-troubleshooting/document-to-proof-name.md)
