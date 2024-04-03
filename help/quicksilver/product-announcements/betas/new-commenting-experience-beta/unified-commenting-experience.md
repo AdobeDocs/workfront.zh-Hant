@@ -7,10 +7,10 @@ author: Alina
 feature: Product Announcements
 role: User
 exl-id: f750b35b-8021-4cc1-81d6-e1ece2530438
-source-git-commit: 980e6c2cea2ceb98abda6b98811e734d895ad274
+source-git-commit: 02d20209b8bf53c84308707a89a5abf399494b64
 workflow-type: tm+mt
-source-wordcount: '1317'
-ht-degree: 2%
+source-wordcount: '1339'
+ht-degree: 1%
 
 ---
 
@@ -18,9 +18,9 @@ ht-degree: 2%
 
 <!--take out legacy, preview, prod references from below-->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers.  </span>  
+<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它僅在預覽環境中可供所有客戶使用。  </span>
 
-<span class="preview">For information about the current release schedule, see [First Quarter 2024 release overview](../../product-releases/24-q1-release-activity/24-q1-release-overview.md).</span>-->
+<span class="preview">如需目前發行排程的詳細資訊，請參閱 [2024年第二季版本總覽](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>
 
 <!--
 
@@ -59,13 +59,13 @@ The new commenting experience will slowly become available for all the objects w
 
 下列功能已移除或將從新體驗中棄用：
 
-* 系統更新的註解
+* 在系統更新上加上註解。 過去新增至系統更新的註解已在新的「系統活動」標籤中匯入為唯讀註解。
 * 可在評論任務和問題時編輯狀態、條件、認可日期和完成百分比
-* 編輯自訂表單
+* 編輯自訂表單的功能
 * 當Workfront或群組管理員以其他使用者身份登入並代表他們新增評論時，「代表&lt;使用者名稱>」資訊最初被移除。 它已於2023年10月19日恢復。
 * 當您在檔案中新增註解時標籤人員的「要求核准」選項。
 * 編輯使用者設定檔方塊時的「顯示更新狀態的完成百分比」設定將被移除。 更新任務或問題完成百分比的功能已移除。
-* 更新區域中專案所有者的通知，任務或問題的受指派人編輯了認可日期 <!--ensure this is correct when re remove the legacy and leave only new commenting-->
+* 當認可日期從更新區段變更時，專案所有者變更任務計畫完成日期的功能。 <!--ensure this is correct when re remove the legacy and leave only new commenting-->
 
 <!--removed this note on November 28, 2023, when this limitation was removed: 
 
@@ -544,13 +544,23 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
   >
   >    反複專案將繼續擁有舊版評論體驗。 新的註解體驗將不可用於反複專案。
 
-* 2024年第二季（2024年4月）：
+* 2024年第二季發行版本（2024年4月11日）：
 
    * 移除切換回舊版註解資料流的選項，並使新註解資料流成為所有物件的唯一體驗，版序除外。
 
 ## 找出新的註解體驗
 
-&lt;! — 重要：我們移除舊版體驗時，請將此項的版本移至「更新」工作文章或「更新」區段總覽 — 表示除了版序之外，其他所有項的體驗都不同 — >
+<!--info for April 11: make this commented out text live and hide everything else underneath it, all the way to the end of the article: 
+
+>[!IMPORTANT]
+>
+>The new commenting experience is available in all Workfront environments on all objects with the exception of Iterations. 
+>
+>The legacy commenting experience has been removed from all environments for Projects, Tasks, Issues, and Documents. 
+
+For information about accessing the Updates section of Workfront objects, see [Updates section overview](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md). 
+
+-->
 
 新的評論體驗目前適用於所有客戶和環境。
 
@@ -563,25 +573,25 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
    * 問題
    * 文件
 
-  >[!TIP]
-  >
-  >使用新註解選項來顯示新的註解體驗（當您啟用時）或舊版註解體驗（當您停用時），如本節所述。 預設為新的註解體驗。
-
-   * 僅限下列物件的新註解體驗。 沒有選項可啟用這些物件的舊版註解體驗：
-
-      * 目標
-
      >[!NOTE]
      >
-     >您必須額外取得Adobe Workfront目標授權才能存取此Workfront區域。 如需詳細資訊，請參閱 [使用Workfront目標的需求](../../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
-      * 展示板上的卡片
-      * 團隊
-      * 範本
-      * 範本任務
-      * 時程表
-      * 方案
-      * 專案組合
-      * 使用者
+     ><span class="preview">自2024年4月1日起，舊版評論體驗已從預覽環境中移除。 </span>
+
+* 僅限下列物件的新註解體驗。 沒有選項可啟用這些物件的舊版註解體驗：
+
+   * 目標
+
+  >[!NOTE]
+  >
+  >您必須額外取得Adobe Workfront目標授權才能存取此Workfront區域。 如需詳細資訊，請參閱 [使用Workfront目標的需求](../../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+   * 展示板上的卡片
+   * 團隊
+   * 範本
+   * 範本任務
+   * 時程表
+   * 方案
+   * 專案組合
+   * 使用者
 
 * 僅限下列物件的舊版註解體驗：
 
@@ -619,8 +629,9 @@ The new commenting experience is currently supported for the following objects:
 
 若要啟用專案、任務、問題和檔案的評論體驗選項：
 
-1. 移至您要為其啟動新註解體驗的物件，然後按一下 **更新** 在左側面板中。
+1. （視條件而定）在生產環境中，前往您要為其啟動新註解體驗的物件，然後按一下 **更新** 在左側面板中。
 1. （視條件而定）如果已停用，請啟用 **新增註解** 「更新」區域右上角的選項以啟用它。 預設應該啟用此功能。
+   <span class="preview">新註解選項已從預覽環境中移除。</span>
 
    ![](assets/new-commenting-toggle-off-highlighted.png)
 

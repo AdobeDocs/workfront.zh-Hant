@@ -6,9 +6,9 @@ description: 您可以在Adobe Workfront物件（專案、任務或問題）上�
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: ee957e319941fe5eabb9144eed184372e5402197
+source-git-commit: 02d20209b8bf53c84308707a89a5abf399494b64
 workflow-type: tm+mt
-source-wordcount: '4341'
+source-wordcount: '4261'
 ht-degree: 1%
 
 ---
@@ -61,6 +61,8 @@ After the monthly releases to Production, the same features are also available i
 <span class="preview">如需快速發行版本的相關資訊，請參閱 [啟用或停用組織的快速發行](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
 
 <span class="preview">如需目前發行排程的詳細資訊，請參閱 [2024年第二季版本總覽](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>
+
+<!--info for April 11: take out the "Important" box below (or hide it)-->
 
 >[!IMPORTANT]
 >
@@ -119,6 +121,8 @@ After the monthly releases to Production, the same features are also available i
 
 如需在「面板」區域中註解卡片的相關資訊，請參閱 [新增臨機卡到展示板](../../agile/get-started-with-boards/add-card-to-board.md).
 
+如需有關註解版序的資訊，請參閱 [管理反複專案註解](/help/quicksilver/agile/use-scrum-in-an-agile-team/iterations/manage-iteration-updates.md).
+
 ## 存取需求
 
 您必須具有下列存取權才能執行本文中的步驟：
@@ -172,6 +176,8 @@ After the monthly releases to Production, the same features are also available i
 * 目標
 * 面板區域中的卡片
 * 疊代
+
+<!--info for April 11: hide the section below completely:-->
 
 ### 在舊版更新區段中為工作專案新增更新
 
@@ -232,6 +238,8 @@ After the monthly releases to Production, the same features are also available i
    >如果您的Workfront管理員在存取層級中選取「永不允許使用者刪除註解」設定，您便無法復原註解。 如需詳細資訊，請參閱 [建立和修改自訂存取層級](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
 1. 若要回覆更新，請參閱 [回覆更新](../../workfront-basics/updating-work-items-and-viewing-updates/reply-to-updates.md).
+
+<!--info for April 11: reword the title of this section to: Add an update to a work item-->
 
 ### 使用新的註解體驗將更新新增到工作專案
 
@@ -463,6 +471,8 @@ After the monthly releases to Production, the same features are also available i
 
 複製更新會因您使用的評論體驗而異。
 
+<!--info for April 11: take the sentence above out and reword the section title below to: Copy an update-->
+
 ### 在新的評論體驗中複製更新
 
 如需有關新註解體驗有哪些功能可用以及哪些物件的資訊，請參閱 [新的評論體驗](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
@@ -515,9 +525,9 @@ After the monthly releases to Production, the same features are also available i
 
 1. 繼續新增更新，然後按一下 **提交** 以新增註解。
 
-### 複製舊版評論體驗中的更新
+<!--info for April 11: hide the entire section below - notice that there are several sub-sub sections below this main section-->
 
-<!--remove legacy when removed from the UI-->
+### 複製舊版評論體驗中的更新
 
 * [複製更新](#copy-the-update)
 * [複製執行緒連結](#copy-the-thread-link)
@@ -621,31 +631,19 @@ Workfront使用者(包括Workfront管理員)無法刪除其他使用者所做的
 
 -->
 
-
-
-## 啟用或停用系統更新
-
-<!--update this section when we remove legacy, to just point to the article in green below and rename this section as "Review system activity updates" or something-->
-
-<!--October 2023: when the new stream goes to all objects production, consider updating this article also, to say there is no System Activity tab to be disabled for objects anymore: help\quicksilver\administration-and-setup\set-up-workfront\system-tracked-update-feeds\system-tracked-update-feeds.md-->
-
->[!NOTE]
->
->使用新的評論體驗時，無法停用系統更新。
->本節中的資訊僅說明舊版更新章節中可用的功能。 &lt;! — 從系統移除舊版時，請移除此區段 — >
->如需有關新評論體驗中系統更新的詳細資訊，請參閱 [更新區段概觀](../updating-work-items-and-viewing-updates/updates-tab-overview.md).
+## 檢閱系統更新
 
 Workfront物件的更新區段會顯示兩種型別的資訊：
 
-* **使用者更新：** 使用者更新是您和您系統中的其他使用者輸入的註解。 <!--October 2023 - new screen shot -->
+* **使用者更新：** 使用者更新是您和您系統中的其他使用者輸入的註解。 使用者更新會顯示在「更新」區段的「註釋」和「全部」標籤中。
 
   ![](assets/user-update-cl-350x277.png)
 
-* **系統更新：** 系統更新記錄移除資產、新增或刪除版本、附加或移除核准請求，以及對物件上的檔案所做的任何編輯或變更。 <!--October 2023 - new screen shot -->
+* **系統更新：** 系統更新記錄移除任務或問題、新增或刪除檔案版本、附加或移除核准請求，以及對物件所做的任何編輯或變更。 系統更新會顯示在「系統活動」和「更新」區段的「所有」標籤中。
 
   ![](assets/system-updates-cl-350x277.png)
 
-  根據您的Workfront授權，系統更新可能會依預設啟用。 Workfront管理員可決定系統更新中會追蹤哪些專案，如中所述 [系統追蹤更新](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md). 您也可以篩選掉系統更新或活動，以便只看到所有物件的使用者更新。
+  Workfront管理員可決定系統更新中會追蹤哪些專案，如中所述 [系統追蹤更新](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md). 您也可以篩選掉系統更新或活動，以便只看到所有物件的使用者更新。
 
   下列物件沒有系統產生的更新：
 
@@ -653,19 +651,6 @@ Workfront物件的更新區段會顯示兩種型別的資訊：
    * 範本
    * 範本任務
 
-若要啟用或停用系統更新：
-
-1. 按一下 **更新** 標籤上的物件。
-1. 按一下 **顯示系統更新** 向左（停用）或向右（啟用）滑動切換器。
-
-   ![](assets/show-system-updates-qs-350x55.png)
-
-   此選項在整個Workfront的所有物件中持續有效，並保持在您選取的位置，即使您登出Workfront亦然。
-
-   >[!TIP]
-   >
-   >   未記錄系統更新的物件在其「更新」區域中沒有「顯示系統更新」選項。
-
-   <!--when Anna adds the new updates stream to ALL objects, she will remove the System Activity tab from the objects that don't record system updates - add another line to the TIP above to say: The System Activity tab is not available for objects that don't record system-generated updates.*************** OR: maybe make this part of the statement where we list which objects these are, above???  -->
+如需「更新」一節中有關系統更新的詳細資訊，請參閱 [更新區段概觀](../updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
 

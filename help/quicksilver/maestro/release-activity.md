@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 5c867a0c6f81cc80675409ef9318a228bceaabb5
+source-git-commit: 02d20209b8bf53c84308707a89a5abf399494b64
 workflow-type: tm+mt
 source-wordcount: '5359'
 ht-degree: 0%
@@ -31,6 +31,32 @@ ht-degree: 0%
 >[!IMPORTANT]
 >
 >在功能發行至生產環境後的某個時間，將可使用以下各節中參考的檔案。
+
+<!--
+## Week of April 1, 2024
+
+### Reorder the fields on the records page
+
+Production: April 4, 2024 
+
+Preview: To be determined 
+
+As a Workspace manager, you now can reorder the fields listed in the record page or box. Updating the order of the fields changes the order of fields on all records for the same type, for everyone viewing the record page or box.  
+
+For more information, see [Manage the record page](/help/quicksilver/maestro/records/manage-the-record-page.md). 
+
+
+### Add cover image to record pages
+
+Production: April 4, 2024 
+
+Preview: To be determined 
+
+As you manage record pages, you can now add, reposition, and replace a cover image on a record page or box, to enrich the record's presentation and stakeholder engagement. Cover images are visible to all users viewing the records. 
+
+For more information, see [Manage the record page](/help/quicksilver/maestro/records/manage-the-record-page.md).  
+
+-->
 
 ## 2024年3月25日起一週
 

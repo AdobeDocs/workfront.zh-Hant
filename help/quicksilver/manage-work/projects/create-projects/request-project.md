@@ -2,13 +2,13 @@
 product-area: projects
 navigation-topic: create-projects
 title: 請求專案
-description: 您可以先請求核准專案，然後再開始處理。 我們建議您為新的專案建立業務案例，以便您可以概述完成專案所要達成的一些要點，並向管理層呈現您的人力與費用預算。 填寫業務案例並提交專案進行核准，即會完成專案的正式請求。 提交業務案例以供核准後，專案的狀態會變成「已要求」。
+description: 您可以先請求核准專案，然後再開始處理。 我們建議您為新的專案建立業務案例，以便您可以概述完成專案所要達成的一些要點，並向管理團隊呈現您的人力與費用預算。 填寫業務案例並提交專案進行核准，即會完成專案的正式請求。 提交業務案例以供核准後，專案的狀態會變成「已要求」。
 author: Alina
 feature: Work Management
 exl-id: 6557a7a5-3d5e-476d-b834-007c9e120397
-source-git-commit: 7bef757c24adc7791cb3b258ae6c33f3c0eec818
+source-git-commit: 02d20209b8bf53c84308707a89a5abf399494b64
 workflow-type: tm+mt
-source-wordcount: '561'
+source-wordcount: '562'
 ht-degree: 2%
 
 ---

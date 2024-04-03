@@ -2,13 +2,13 @@
 product-area: templates
 navigation-topic: templates-navigation-topic
 title: 刪除專案範本
-description: 我們建議您停用不再使用的範本，而不是刪除它們，以便您可以保留有關您專案的長期歷史資訊。 如需關於停用範本的資訊，請參閱編輯專案範本。
+description: 我們建議您停用不再使用的範本，而不是刪除它們，以便您可以保留有關您專案的長期歷史資訊。
 author: Alina
 feature: Work Management
 exl-id: 41e0979c-f8ef-4a07-8848-e4ee8cc212c5
-source-git-commit: 7bef757c24adc7791cb3b258ae6c33f3c0eec818
+source-git-commit: 02d20209b8bf53c84308707a89a5abf399494b64
 workflow-type: tm+mt
-source-wordcount: '426'
+source-wordcount: '416'
 ht-degree: 0%
 
 ---

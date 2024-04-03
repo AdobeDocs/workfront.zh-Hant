@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: e54142e189cd4f407161401203a7f13c752ad404
+source-git-commit: 02d20209b8bf53c84308707a89a5abf399494b64
 workflow-type: tm+mt
-source-wordcount: '1299'
+source-wordcount: '1294'
 ht-degree: 0%
 
 ---
@@ -103,6 +103,8 @@ ht-degree: 0%
 * 如果顯示的記錄連結到其他記錄，則您正在編輯的記錄的新資訊會反映在連結的記錄上。
 * 您無法大量編輯記錄。 <!--this will probably change-->
 * URL只有以下列專案開頭時，才會被識別為單行文字欄位型別中的連結： http://、https://、ftp://或www。.
+<!--
+* You can edit the order of the fields in a record page and add a cover image for a record. For more information, see [Manage the record page](/help/quicksilver/maestro/records/manage-the-record-page.md). -->
 
 ## 編輯記錄
 
@@ -200,7 +202,7 @@ ht-degree: 0%
 
    或
 
-   從表格檢視中，按一下 **開啟詳細資料** 圖示 ![](assets/open-details-icon-in-table-name-field.png) 記錄名稱的左側，或按一下記錄名稱。 記錄的方塊會在檢視中開啟。
+   從表格檢視中，按一下 **開啟詳細資料** 圖示 ![](assets/open-details-icon-in-table-name-field.png) 記錄名稱的左側。 記錄的方塊會在檢視中開啟。
 
    ![](assets/details-box.png)
 

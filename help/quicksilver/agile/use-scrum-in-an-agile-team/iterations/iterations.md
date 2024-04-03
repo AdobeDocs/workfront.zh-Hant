@@ -3,21 +3,21 @@ content-type: reference
 product-area: agile-and-teams
 navigation-topic: use-scrum-in-an-agile-team
 title: 疊代
-description: 請檢閱這些文章以瞭解如何使用反複專案。
+description: 以下文章說明在Scrum環境中工作時如何使用反複專案。
 author: Lisa
 feature: Agile
 recommendations: noDisplay, noCatalog
 exl-id: 474ab807-fd6c-4248-9567-121e5d4b7b5b
-source-git-commit: 7bef757c24adc7791cb3b258ae6c33f3c0eec818
+source-git-commit: 02d20209b8bf53c84308707a89a5abf399494b64
 workflow-type: tm+mt
-source-wordcount: '44'
-ht-degree: 4%
+source-wordcount: '62'
+ht-degree: 3%
 
 ---
 
 # 疊代
 
-本節包含下列文章：
+以下文章說明在Adobe Workfront的Scrum環境中工作時，如何使用反複專案：
 
 * [反複專案概觀](../../../agile/use-scrum-in-an-agile-team/iterations/iterations-overview.md)
 * [建立反複專案](../../../agile/use-scrum-in-an-agile-team/iterations/create-an-iteration.md)

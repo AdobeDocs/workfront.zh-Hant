@@ -8,14 +8,16 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: cb709b2f-659e-4110-81ac-a1ef967d534c
-source-git-commit: 1949a0bb213553f1f1f252c4382a90514fcd0b5b
+source-git-commit: 02d20209b8bf53c84308707a89a5abf399494b64
 workflow-type: tm+mt
-source-wordcount: '2285'
+source-wordcount: '2294'
 ht-degree: 0%
 
 ---
 
 # 大量編輯使用者設定檔
+
+{{highlighted-preview}}
 
 <!--
 
@@ -81,7 +83,10 @@ ht-degree: 0%
        <ul> 
         <li><b>時區：</b> 使用者的時區。</li> 
         <li><b>地區設定</b>：使用者偏好的地區設定。 這會影響來自Workfront之電子郵件中的數字和日期格式。</li> 
-        <li><b>顯示更新狀態的完成百分比</b>：如果您想在使用舊版評論體驗時，在所有使用者工作的「更新」區域內顯示完成百分比列，請核取此選項。 如需詳細資訊，請參閱 <a href="/help/quicksilver/product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md">新的評論體驗</a>.</li> 
+        <li><b>顯示更新狀態的完成百分比</b>：如果您想在使用舊版評論體驗時，在所有使用者工作的「更新」區域內顯示完成百分比列，請核取此選項。 如需詳細資訊，請參閱 <a href="/help/quicksilver/product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md">新的評論體驗</a>.
+        <p><span class="preview">此選項已從預覽環境中移除。</span></p>
+
+   </li> 
         <li><b>將我指派給我自己的工作傳送至我的「正在處理」標籤</b>：如果您希望使用者指派給自己的所有內容直接顯示在其工作索引標籤上，請核取此選項。 預設為在使用者的「工作請求」標籤上列出指派給使用者的所有內容。</li> 
        </ul> </td> 
      </tr> 

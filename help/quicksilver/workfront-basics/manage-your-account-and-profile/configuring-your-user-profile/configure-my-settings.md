@@ -6,9 +6,9 @@ description: 您的 [!DNL Adobe Workfront] 設定檔包含自己的相關資訊�
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 0199bf74-0611-48f0-9c05-da6afac85033
-source-git-commit: a750d2707699e1d4783d950807138a74baf78715
+source-git-commit: 02d20209b8bf53c84308707a89a5abf399494b64
 workflow-type: tm+mt
-source-wordcount: '3311'
+source-wordcount: '3320'
 ht-degree: 1%
 
 ---
@@ -16,6 +16,8 @@ ht-degree: 1%
 # 設定我的設定
 
 <!-- Audited: 01/2024 -->
+
+{{highlighted-preview}}
 
 <!--
 <p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">Edit the job role FTE percentage allocation blurbs when more functionality is released: now, it says that the % is that of the user's schedule, but it will be either the user's schedule or the system schedule.</p>
@@ -344,8 +346,8 @@ ht-degree: 1%
   <tr> 
    <td role="rowheader"><strong>[！UICONTROL在更新狀態上顯示完成百分比]</strong> </td> 
    <td>如果您想在使用舊版註解體驗時，在任務的更新區域內顯示完成百分比列，請選取此選項。 如需詳細資訊，請參閱 <a href="/help/quicksilver/product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md">新的評論體驗</a>.
-
-</td> 
+  <p><span class="preview">此選項已從預覽環境中移除。</span></p> 
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[！UICONTROL將指派給我自己的工作傳送至我的「正在處理」索引標籤]</strong> </td> 

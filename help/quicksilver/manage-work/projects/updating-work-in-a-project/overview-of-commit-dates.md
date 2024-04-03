@@ -3,13 +3,13 @@ content-type: overview
 product-area: projects
 navigation-topic: update-work-in-a-project
 title: 認可日期總覽
-description: 認可日期是指指派給任務或問題的使用者認可完成任務或問題的日期。 這與「計畫完成日期」不同，因為這是僅由負責工作的使用者提供的更實際的完成日期預估值。 有關計畫完成日期的資訊，請參閱任務計畫完成日期概要。
+description: 認可日期是指指派給任務或問題的使用者認可完成任務或問題的日期。 這與計畫完成日期不同，因為這是由直接負責工作的使用者提供的完成日期更實際的估計值。
 author: Alina
 feature: Work Management
 exl-id: 47072433-bb8e-4210-947a-8bfa41ec47a9
-source-git-commit: 7bef757c24adc7791cb3b258ae6c33f3c0eec818
+source-git-commit: 02d20209b8bf53c84308707a89a5abf399494b64
 workflow-type: tm+mt
-source-wordcount: '776'
+source-wordcount: '763'
 ht-degree: 1%
 
 ---

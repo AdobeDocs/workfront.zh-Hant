@@ -2,13 +2,13 @@
 product-area: projects;templates
 navigation-topic: create-projects
 title: 使用範本建立專案
-description: 您可以使用範本作為框架，在Adobe Workfront中建立專案。 如果您的專案經常重複，則使用範本作為新專案的一般時間表，可讓您無須重複建立相同的專案。
+description: 您可以使用範本作為框架，在Adobe Workfront中建立專案。 如果您的專案經常重複，則使用範本進行新專案可讓您無須重複建立相同的專案。
 author: Alina
 feature: Work Management
 exl-id: 622cbfe0-b8c0-4045-bef2-9e21d45bfda0
-source-git-commit: 7bef757c24adc7791cb3b258ae6c33f3c0eec818
+source-git-commit: 02d20209b8bf53c84308707a89a5abf399494b64
 workflow-type: tm+mt
-source-wordcount: '1128'
+source-wordcount: '1124'
 ht-degree: 0%
 
 ---
