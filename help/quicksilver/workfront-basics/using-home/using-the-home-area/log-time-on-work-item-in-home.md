@@ -1,18 +1,18 @@
 ---
 product-area: projects;calendars
 navigation-topic: use-the-home-area
-title: 從「首頁」區域登錄工作項
-description: 您可以在 [!UICONTROL 工作清單] 在 [!UICONTROL 首頁] 的上界。 如需詳細資訊，請參閱 [!UICONTROL 首頁] 記錄時間一文的一節。
+title: 從首頁區域在工作專案上記錄時間
+description: 您可以在任何工作專案上記錄時間 [!UICONTROL 工作清單] 在 [!UICONTROL 首頁] 區域。 如需詳細資訊，請參閱 [!UICONTROL 首頁] 區段。
 author: Lisa
 feature: Get Started with Workfront, Work Management
 exl-id: e68f4200-dbcb-4a2f-a2f7-45fb968684cc
-source-git-commit: d1babaf52c4035c20bf3990272af5a2f401b7fcb
+source-git-commit: 5d6e9788ccbae7a8970cff56558233a57ceee1ab
 workflow-type: tm+mt
-source-wordcount: '74'
+source-wordcount: '68'
 ht-degree: 0%
 
 ---
 
-# 從 [!UICONTROL 首頁] 區域
+# 在工作專案上記錄時間來自 [!UICONTROL 首頁] 區域
 
-您可以在 [!UICONTROL 工作清單] 在 [!UICONTROL 首頁] 的上界。 如需詳細資訊，請參閱 [[!UICONTROL 首頁]](../../../timesheets/create-and-manage-timesheets/log-time.md#home) 文章一節  [記錄時間](../../../timesheets/create-and-manage-timesheets/log-time.md).
+您可以在任何工作專案上記錄時間 [!UICONTROL 工作清單] 在 [!UICONTROL 首頁] 區域。 如需詳細資訊，請參閱  [記錄時間](../../../timesheets/create-and-manage-timesheets/log-time.md).

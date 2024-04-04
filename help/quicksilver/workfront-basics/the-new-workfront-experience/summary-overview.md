@@ -5,22 +5,38 @@ description: 您可以使用「摘要」面板，直接從任務問題、檔案�
 feature: Get Started with Workfront
 author: Nolan
 exl-id: 5e4026b2-5f2f-45c1-bef1-04e20c62ed8a
-source-git-commit: ee957e319941fe5eabb9144eed184372e5402197
+source-git-commit: 5d6e9788ccbae7a8970cff56558233a57ceee1ab
 workflow-type: tm+mt
-source-wordcount: '1001'
-ht-degree: 1%
+source-wordcount: '992'
+ht-degree: 2%
 
 ---
 
 # [!UICONTROL 摘要] 概述
 
-<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它只能在「預覽」環境中供所有客戶使用，或在「生產」環境中供啟用快速發行的客戶使用。 </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers or in Production for customers who enabled fast releases. </span>
 
-<span class="preview">如需快速發行版本的相關資訊，請參閱 [啟用或停用組織的快速發行](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
 
-<span class="preview">如需目前發行排程的詳細資訊，請參閱 [2024年第二季版本總覽](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>
+<span class="preview">For information about the current release schedule, see [Second Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span> -->
 
-您可以使用 [!UICONTROL 摘要] 面板，直接從任務清單、問題、檔案或其他區域檢閱和更新工作專案資訊。 [!DNL Adobe Workfront] 問題按鈕來顯示任務和問題。
+您可以使用 [!UICONTROL 摘要] 面板，直接從任務、問題、檔案清單或從的其他區域檢閱和更新工作專案資訊。 [!DNL Adobe Workfront] 問題按鈕來顯示任務和問題。
+
+您的Workfront或群組管理員可以修改摘要面板中顯示的區域和欄位。 他們最多可以新增16個欄位到摘要面板。
+
+>[!IMPORTANT]
+>
+>我們建議您新增必須經常更新的欄位至「摘要」面板，這樣您就可以輕鬆存取並更新這些欄位，無需存取物件的首頁面。
+>
+>例如，您可以將以下經常更新的欄位新增到任務和問題摘要面板：
+>
+>* 狀態
+>* 完成百分比
+>* 認可日期
+>* 規劃完成日期
+>* 狀況
+
+
 
 下表顯示您可以找到及使用 [!UICONTROL 摘要] 面板：
 
@@ -28,7 +44,7 @@ ht-degree: 1%
  <col data-mc-conditions=""> 
  <tbody> 
   <tr> 
-   <td>任務</td> 
+   <td><b>任務</b></td> 
   </tr> 
   <tr> 
    <td> <p>內的工作清單</p> 
@@ -44,7 +60,7 @@ ht-degree: 1%
    <td>[！UICONTROL時程表]中的任務</td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td>問題</td> 
+   <td><b>問題</b></td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p>內的問題清單</p> 
@@ -66,7 +82,7 @@ ht-degree: 1%
   </tr>
 
 <tr data-mc-conditions=""> 
-   <td>文件</td> 
+   <td><b>文件</b></td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[！UICONTROL檔案]區域</td> 
@@ -96,25 +112,27 @@ ht-degree: 1%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] 計畫*</strong></td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] 計劃</strong></td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] 授權*</strong></td> 
-   <td> <p>[！UICONTROL Request]或更高版本</p> </td> 
+   <td> <p>新增：投稿人或更高版本</p>
+   或
+   <p>目前：[！UICONTROL要求]或更高</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>存取層級設定*</strong></td> 
-   <td> <p>[！UICONTROL檢視]或更高的任務、問題、檔案存取權</p> <p>[！UICONTROL檢視]或更高的存取權存取您要檢視其檔案之任何物件的[！UICONTROL摘要]</p> <p>注意：如果您還是沒有存取權，請詢問您的 [!DNL Workfront] 管理員是否對您的存取層級設定其他限制。 如需瞭解如何 [!DNL Workfront] 管理員可以修改您的存取層級，請參閱 <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>.</p> </td> 
+   <td role="rowheader"><strong>存取層級設定</strong></td> 
+   <td> <p>[！UICONTROL檢視]或更高的任務、問題、檔案存取權</p> <p>[！UICONTROL檢視]或更高的存取權存取您要檢視其檔案[！UICONTROL摘要]的任何物件</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>物件許可權</strong></td> 
-   <td> <p>[！UICONTROL檢視]或任務、問題或檔案的更高許可權</p> <p>如需請求其他存取許可權的詳細資訊，請參閱 <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">要求物件的存取權 </a>.</p> </td> 
+   <td> <p>[！UICONTROL檢視]或任務、問題或檔案的更高許可權</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;若要瞭解您擁有的計畫、授權型別或存取權，請聯絡您的 [!DNL Workfront] 管理員。
+*若要瞭解您擁有的計畫、授權型別或存取權，請連絡 [!DNL Workfront] 管理員。 如需詳細資訊，請參閱 [Workfront檔案中的存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## 檢視 [!UICONTROL 摘要] 任務或問題清單中的面板
 
@@ -131,11 +149,7 @@ ht-degree: 1%
    >
    >您一次只能選取一個任務或一個問題，以在 [!UICONTROL 摘要] 面板。
 
-   <div class="preview">
-
    ![摘要面板](assets/summary-panel-for-task-new-comments.png)
-
-   </div>
 
 1. （選用）若要關閉 [!UICONTROL 摘要] 面板，執行下列任一項作業：
 
@@ -155,17 +169,13 @@ ht-degree: 1%
 
 使用頂端的進度列 [!UICONTROL 摘要] 更新您選取的任務或問題的完成百分比。 輸入數字或將橫條拖曳到正確的百分比。
 
-<span class="preview">![摘要面板中的完成百分比](assets/summary-overview-percent-complete.png)</span>
+![摘要面板中的完成百分比](assets/summary-overview-percent-complete.png)
 
 ## [!UICONTROL 更新]
 
 使用 [!UICONTROL 更新] 的區段 [!UICONTROL 摘要] 以檢視最近的更新，並對您選取的任務或問題進行更新。 按一下 **[!UICONTROL 檢視全部]** 直接前往 [!UICONTROL 更新] 標籤中。
 
-<div class="preview">
-
 ![摘要面板中的更新區段](assets/summary-updates-section.png)
-
-</div>
 
 ## [!UICONTROL 文件]
 

@@ -6,7 +6,7 @@ description: 跨專案前置任務是指另一個專案中另一個任務（稱�
 author: Alina
 feature: Work Management
 exl-id: 7e29e589-e0a5-437e-935d-d5bc1b268594
-source-git-commit: aec61210cf2c17775738db4975ae8d19223153cc
+source-git-commit: 0483230c5d8b7d33f420c6c5f09c4a5aafe37f37
 workflow-type: tm+mt
 source-wordcount: '715'
 ht-degree: 0%
@@ -76,7 +76,7 @@ Adobe Workfront允許任務相依於其他專案中的任務，就像它允許�
 1. 在 **任務** 欄位，開始輸入您想要成為目前任務的前置任務名稱。
 1. 指定下列資訊以定義前置任務與相依任務之間的關係：
 
-   * **相依性型別：** 選取您希望前置任務與相依任務之間的關係。 預設關係為「完成 — 開始」，這表示前置任務必須先完成，相依任務才能開始。 如需有關各種相依性型別的詳細資訊，請參閱 [作業相依性型別的概要](../../../manage-work/tasks/use-prdcssrs/task-dependency-types.md)
+   * **相依性型別：** 選取您希望前置任務與相依任務之間的關係。 預設關係為「完成 — 開始」，這表示前置任務必須先完成，相依任務才能開始。 如需有關各種相依性型別的詳細資訊，請參閱 [作業相依性型別的概要](../../../manage-work/tasks/use-prdcssrs/task-dependency-types.md).
 
    * **延遲：** 指定在強制前置任務完成後，直到相依任務可以開始之前必須經過的時間量。 如需各種延遲型別的詳細資訊，請參閱 [延遲型別概觀](../../../manage-work/tasks/use-prdcssrs/lag-types.md).
 

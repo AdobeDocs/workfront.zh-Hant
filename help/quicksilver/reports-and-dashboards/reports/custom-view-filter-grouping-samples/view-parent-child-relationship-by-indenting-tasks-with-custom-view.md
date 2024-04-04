@@ -2,71 +2,78 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: '''查看：通過縮進任務來顯示任務中的父子關係'
-description: 通過向任務清單添加自定義視圖並確保在導出清單之前選擇此視圖，可以保持導出任務清單中父 — 子關係的區別。
+title: 「檢視：透過縮排任務來顯示任務中的父子關係」
+description: 您可以在匯出的工作清單中維持父子關係的差異，方法是在工作清單中加入自訂檢視，並確保在您匯出清單之前已選取此檢視。
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: 4987501f-a1d9-47cd-bfbe-83acfc225204
-source-git-commit: 661f925b4e485069122ef4278b2914d206387974
+source-git-commit: 0483230c5d8b7d33f420c6c5f09c4a5aafe37f37
 workflow-type: tm+mt
 source-wordcount: '299'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
-# 視圖：通過縮進任務來顯示任務中的父子關係
+# 檢視：透過縮排任務來顯示任務中的父子關係
 
-通過向任務清單添加自定義視圖並確保在導出清單之前選擇此視圖，可以保持導出任務清單中父 — 子關係的區別。
+您可以在匯出的工作清單中維持父子關係的差異，方法是在工作清單中加入自訂檢視，並確保在您匯出清單之前已選取此檢視。
 
 ![](assets/parent-child-indented-custom-view-350x94.png)
 
-## 訪問要求
+## 存取需求
 
-您必須具有以下訪問權限才能執行本文中的步驟：
+您必須具有下列存取權才能執行本文中的步驟：
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront計畫</td> 
+   <td role="rowheader">Adobe Workfront計畫*</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront許可證*</td> 
-   <td> <p>請求修改視圖 </p>
+   <td role="rowheader">Adobe Workfront授權*</td> 
+   <td> <p>請求修改檢視 </p>
    <p>計畫修改報表</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">訪問級別配置*</td> 
-   <td> <p>編輯對報表、儀表板、日曆的訪問以修改報表</p> <p>編輯對篩選器、視圖、分組的訪問以修改視圖</p> <p><b>附註</b>
+   <td role="rowheader">存取層級設定*</td> 
+   <td> <p>編輯報告、儀表板、行事曆的存取權以修改報告</p> <p>編輯對篩選器、檢視、群組的存取權以修改檢視</p> <p><b>附註</b>
 
-如果您仍然沒有訪問權限，請詢問您的Workfront管理員是否在您的訪問級別設定了其他限制。 有關Workfront管理員如何修改您的訪問級別的資訊，請參見 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自定義訪問級別</a>。</p> </td>
+如果您還是沒有存取權，請詢問您的Workfront管理員，他們是否在您的存取層級中設定其他限制。 如需有關Workfront管理員如何修改您的存取層級的資訊，請參閱 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>.</p> </td>
 </tr>  
   <tr> 
-   <td role="rowheader">對象權限</td> 
-   <td> <p>管理對報表的權限</p> <p>有關請求附加訪問的資訊，請參見 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">請求訪問對象 </a>。</p> </td> 
+   <td role="rowheader">物件許可權</td> 
+   <td> <p>管理報表的許可權</p> <p>如需請求其他存取許可權的詳細資訊，請參閱 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">要求物件的存取權 </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;要瞭解您擁有的計畫、許可證類型或訪問權限，請與您的Workfront管理員聯繫。
+&#42;若要瞭解您擁有的計畫、授權型別或存取權，請聯絡您的Workfront管理員。
 
-## 通過縮進任務來顯示任務中的父子關係
+## 透過縮排任務來顯示任務中的父子關係
 
-1. 轉到包含要導出的任務清單的項目。
-1. 按一下 **視圖** 下拉菜單，然後選擇 **新建視圖**。
+1. 前往含有您要匯出之工作清單的專案。
+1. 按一下 **檢視** 下拉式功能表，然後選取 **新檢視**.
 
-1. 在螢幕左上角命名篩選器。
-1. 按一下 **任務名稱** 列標題。
+1. 在熒幕左上角為篩選器命名。
+1. 按一下 **任務名稱** 欄標題。
 
-1. 選擇 **切換到文本模式** 在右上角。
-1. 按一下文本框中的任意位置編輯文本，並刪除所有現有文本。
-1. 貼上以下文本：
+1. 選取 **切換到文字模式** 在右上角。
+1. 按一下文字方塊中的任意位置以編輯文字，並移除所有現有文字。
+1. 貼上下列文字：
 
-   ```
-   displayname=<br>linkedname=direct<br>namekey=name<br>querysort=name<br>textmode=true<br>valueexpression=IF({indent}<1,{name},IF({indent}<2,CONCAT(" - ",{name}),IF({indent}<3,CONCAT(" - - ",{name}),IF({indent}<4,CONCAT(" - - - ",{name}),CONCAT(" - - - - ",{name})))))<br>valueformat=HTML
-   ```
 
-1. 按一下&#x200B;**儲存**。
-1. 按一下 **保存視圖**。
+```
+   displayname=
+   linkedname=direct
+   namekey=name
+   querysort=name
+   textmode=true
+   valueexpression=IF({indent}<1,{name},IF({indent}<2,CONCAT(" - ",{name}),IF({indent}<3,CONCAT(" - - ",{name}),IF({indent}<4,CONCAT(" - - - ",{name}),CONCAT(" - - - - ",{name})))))
+   valueformat=HTML
+```
+
+1. 按一下「**儲存**」。
+1. 按一下「**儲存視圖**」。

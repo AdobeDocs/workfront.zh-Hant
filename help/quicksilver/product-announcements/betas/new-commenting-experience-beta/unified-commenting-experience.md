@@ -7,9 +7,9 @@ author: Alina
 feature: Product Announcements
 role: User
 exl-id: f750b35b-8021-4cc1-81d6-e1ece2530438
-source-git-commit: 9babe17ad862925440e555f881bf753fb443b67d
+source-git-commit: 5d6e9788ccbae7a8970cff56558233a57ceee1ab
 workflow-type: tm+mt
-source-wordcount: '1378'
+source-wordcount: '1377'
 ht-degree: 1%
 
 ---
@@ -62,7 +62,7 @@ The new commenting experience will slowly become available for all the objects w
 * 在系統更新上加上註解。 過去新增至系統更新的註解已在新的「系統活動」標籤中匯入為唯讀註解。
 * 可在評論任務和問題時編輯狀態、條件、認可日期和完成百分比。
 
-  或者，我們建議您在任務和問題的摘要面板中新增這些欄位，以便從清單、報告、首頁、Workfront平衡器或時程表輕鬆存取它們。
+  作為替代方法，我們建議您在任務和問題的摘要面板中新增這些欄位，以便從清單、首頁、Workfront平衡器或時程表輕鬆存取它們。
 * 編輯自訂表單的功能
 * 當Workfront或群組管理員以其他使用者身份登入並代表他們新增評論時，「代表&lt;使用者名稱>」資訊最初被移除。 它已於2023年10月19日恢復。
 * 當您在檔案中新增註解時標籤人員的「要求核准」選項。

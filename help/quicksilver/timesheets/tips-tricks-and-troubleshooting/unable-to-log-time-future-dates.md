@@ -3,13 +3,13 @@ content-type: tips-tricks-troubleshooting
 product-area: timesheets
 navigation-topic: tips-tricks-and-troubleshooting-timesheets
 title: 無法記錄未來日期的時間
-description: 由於欄位已停用，您無法記錄未來專案、工作或問題的小時數。
+description: 您無法在專案、任務或問題中記錄未來日期的時數，因為這些欄位已停用。
 author: Alina
 feature: Timesheets
 exl-id: 6108fad2-f0a2-4989-8645-69a16820032b
-source-git-commit: 7786d899841cb82cc4d3832fb083c6e2bda2e197
+source-git-commit: 0483230c5d8b7d33f420c6c5f09c4a5aafe37f37
 workflow-type: tm+mt
-source-wordcount: '137'
+source-wordcount: '151'
 ht-degree: 1%
 
 ---
@@ -18,22 +18,24 @@ ht-degree: 1%
 
 ## 問題
 
-由於欄位已停用，您無法記錄未來專案、工作或問題的小時數。 
+您無法在專案、任務或問題中記錄未來日期的時數，因為這些欄位已停用。
 
-系統管理員可以確定您是否能在工時表中記錄將來日期的小時數。 
+系統管理員可以確定您是否能在時程表中記錄未來日期的時數。
 
 ## 解決方案
 
 請連絡您的Adobe Workfront管理員。
 
-系統管理員可以按如下方式更新此設定：
+系統管理員可以更新設定，讓您記錄未來日期的時間。
 
-1. 按一下 **主菜單** 圖示 ![](assets/main-menu-icon.png) 在Adobe Workfront的右上角，然後按一下 **設定** ![](assets/gear-icon-settings.png).
+作為系統管理員，執行以下操作；
 
-1. 展開 **工時單和小時數**，然後按一下 **偏好設定**.
+1. 按一下 **主要功能表** 圖示 ![](assets/main-menu-icon.png) (位於Adobe Workfront的右上角)，然後按一下 **設定** ![](assets/gear-icon-settings.png).
 
-1. 在 **一般偏好設定** 區段，選取 **記錄未來日期的小時數**. 
+1. 展開 **時程表和時數**，然後按一下 **偏好設定**.
 
-1. 按一下&#x200B;**儲存**。
+1. 在 **一般偏好設定** 區段，選取 **記錄未來日期的時數**.
 
-有關工時單和小時數的此選項和其他選項的詳細資訊，請參見 [配置工時單和小時首選項](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
+1. 按一下「**儲存**」。
+
+如需此專案以及其他有關時程表和時數的選項的詳細資訊，請參閱 [設定時程表和小時偏好設定](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).

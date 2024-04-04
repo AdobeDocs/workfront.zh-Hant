@@ -7,9 +7,9 @@ description: 物件的「更新」區段會顯示使用者對物件所做的註�
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: 9babe17ad862925440e555f881bf753fb443b67d
+source-git-commit: 6dceeeb7803e177ee0f366ee2bc94275ed231722
 workflow-type: tm+mt
-source-wordcount: '1385'
+source-wordcount: '1426'
 ht-degree: 3%
 
 ---
@@ -19,12 +19,9 @@ ht-degree: 3%
 
 <!-- Audited: 1/2024 -->
 
-<!--take "legacy" and "new commenting" and "production" or "preview" references out when we remove the legacy - April 2024???-->
+<!--info for April 11: take "legacy" and "new commenting" and "production" or "preview" references out when we remove the legacy-->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. </span>
-
-<span class="preview">For information about the current release schedule, see [Second Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md) ).</span> -->
-
+<!--info for April 11: hide the disclaimer for preview below-->
 
 <span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它只能在「預覽」環境中供所有客戶使用，或在「生產」環境中供啟用快速發行的客戶使用。 </span>
 
@@ -33,6 +30,8 @@ ht-degree: 3%
 <span class="preview">如需目前發行排程的詳細資訊，請參閱 [2024年第二季版本總覽](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>
 
 <!--info for April 11: take out the Important box-->
+
+物件的「更新」區段會顯示使用者對物件所做的註解，或追蹤物件變更的系統更新。
 
 >[!IMPORTANT]
 >
@@ -85,7 +84,7 @@ The following objects have an Updates section where you can add comments or revi
 * Iterations
 -->
 
-<!--remove all the information below, all the way down to the following section: -->
+<!--info for April 11: remove all the information below, all the way down to the following section: -->
 
 根據您存取評論體驗的物件，您可能會在「更新」區段找到下列體驗：
 
@@ -133,7 +132,7 @@ The following objects have an Updates section where you can add comments or revi
 
 </div>
 
-<!--info for April 11: remove the NOTE below-->
+<!--info for April 11: remove the NOTE below and any references below to "the new commenting experience". This should be just the ONLY experience. -->
 
 >[!NOTE]
 >
@@ -152,9 +151,23 @@ The following objects have an Updates section where you can add comments or revi
    * 範本任務
    * 臨機卡
 
+     如需卡片更新的詳細資訊，請參閱 [新增臨機卡到展示板](/help/quicksilver/agile/get-started-with-boards/add-card-to-board.md).
+
 * 下列物件沒有 <span class="preview">所有標籤：</span>
 
    * 目標
+
+     如需有關目標更新的詳細資訊，請參閱 [管理目標註解](/help/quicksilver/workfront-goals/goal-management/manage-goal-comments.md).
+
+<!--info for April 11: make the text below live - remove the commented out brackets: 
+
+* The following objects don't have a System Activity or an All tab: 
+
+  * Iterations
+
+    For more information about updates on iterations, see [Manage iteration comments](/help/quicksilver/agile/use-scrum-in-an-agile-team/iterations/manage-iteration-updates.md). 
+
+-->
 
 <!-- info for April 11: hide the entire section below: -->
 
@@ -175,9 +188,9 @@ The following objects have an Updates section where you can add comments or revi
 * 疊代
 
 
-## 也會出現在較高排名物件上的更新
+## 也會出現在較高等級物件上的更新
 
-某些物件的註解、回覆或系統更新也會顯示在較高等級物件的「更新」區段中。
+某些物件的註解、回覆或系統更新也會出現在較高層級物件的「更新」區段中。
 
 例如，當您將更新新增到任務時，該更新會出現在任務的「更新」區段以及包含任務的專案的「更新」區段中。
 
@@ -248,6 +261,8 @@ The following objects have an Updates section where you can add comments or revi
  </tbody> 
 </table>
 
+<!--info for April 11: hide the note below-->
+
 >[!NOTE]
 >
 >新增至系統更新的回覆不會彙總至父物件。 只有子物件的直接回覆和新增至現有更新的回覆會向上彙整至父物件。
@@ -267,16 +282,14 @@ The following objects have an Updates section where you can add comments or revi
 
 * 您無法在團隊的「更新」區段中新增註解。
 
-* 您可以對您在團隊中檢視的更新新增回覆。 回覆會顯示在專案團隊的「更新」區段，以及專案團隊所屬物件的「更新」區段中。
-
 * 專案團隊的「更新」區段由在下列物件上輸入的更新來填入：
 
    * 使用者
-   * 時間表*
    * 劇本
-   * 反複專案*
+   * 時程表
+   * 疊代
 
-  *這些不適用於新的評論體驗。
+* 您可以對您在團隊中檢視的更新新增回覆。 回覆會顯示在專案團隊的「更新」區段，以及專案團隊所屬物件的「更新」區段中。
 
 * 在適用於使用者和團隊的更新區段中，您可以檢視過去90天內輸入的更新。
 
