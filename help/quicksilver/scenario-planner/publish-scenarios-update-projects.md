@@ -1,25 +1,25 @@
 ---
 product-area: enterprise-scenario-planner-product-area
-keywords: 發佈，計畫，項目，方案，方案
+keywords: 發佈，計畫，專案，案例，案例
 navigation-topic: enterprise-scenario-planner-navigation-topic
-title: 通過在方案計畫器中發佈方案來更新或建立項目
-description: 您可以從現有方案建立項目，也可以通過在Adobe Workfront方案計畫器中發佈方案來更新以前連結到方案的項目。
+title: 透過在情境規劃工具中發佈行動方案來更新或建立專案
+description: 您可以透過在Adobe Workfront情境規劃工具中發佈情境，從現有方案建立專案，以及更新先前連結至方案的專案。
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: 46d3666a-4454-4a84-8c02-a79f3947a18f
-source-git-commit: e152c20e7b987f4bef7ffd6ee534c059f7b9bf45
+source-git-commit: 9babe17ad862925440e555f881bf753fb443b67d
 workflow-type: tm+mt
-source-wordcount: '1694'
+source-wordcount: '1722'
 ht-degree: 0%
 
 ---
 
-# 更新或建立專案，方法是在 [!DNL Scenario Planner]
+# 透過發佈中的方案更新或建立專案 [!DNL Scenario Planner]
 
-從 [!DNL Adobe Workfront Scenario Planner] 完成下列操作：
+從發佈情境 [!DNL Adobe Workfront Scenario Planner] 完成下列作業：
 
-* 從方案上的方案建立專案，並將其連結在一起。
-* 使用連結計畫提供的資訊更新已與方案相關的項目。 當您將項目導入計畫時，也可以將項目連結到計畫。 如需詳細資訊，請參閱 [將專案匯入至 [!DNL Scenario Planner]](../scenario-planner/import-projects-to-plans.md)
+* 從情境上的方案建立專案，並將它們連結在一起。
+* 使用已連結方案中的資訊，更新已連結至情境上方案的專案。 當您將專案匯入計畫時，專案也可以連結到方案。 如需詳細資訊，請參閱 [將專案匯入至中的計畫 [!DNL Scenario Planner]](../scenario-planner/import-projects-to-plans.md)
 
 ## 存取需求
 
@@ -30,67 +30,68 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td> <p>[!DNL Adobe Workfront] 計劃*</p> </td> 
-   <td>[!UICONTROL Business]或更高版本</td> 
+   <td> <p>[!DNL Adobe Workfront] 計畫*</p> </td> 
+   <td>[！UICONTROL Business]或更高版本</td> 
   </tr> 
   <tr> 
    <td> <p>[!DNL Adobe Workfront] 授權*</p> </td> 
-   <td> <p>[!UICONTROL Review]或更高版本</p> </td> 
+   <td> <p>[！UICONTROL Review]或更高版本</p> </td> 
   </tr> 
   <tr> 
    <td>產品 </td> 
-   <td> <p>您必須為 [!DNL Adobe Workfront Scenario Planner] 存取本文所述功能。</p> <p>如需有關取得 [!DNL Workfront Scenario Planner]，請參閱 <a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">使用 [!DNL Scenario Planner]</a>. </p> </td> 
+   <td> <p>您必須為以下專案購買額外的授權： [!DNL Adobe Workfront Scenario Planner] 以存取本文所述的功能。</p> <p>如需有關取得 [!DNL Workfront Scenario Planner]，請參閱 <a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">使用所需的存取權 [!DNL Scenario Planner]</a>. </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p></p> <p>存取層級*</p> </td> 
    <td> 
     <ul> 
-    <li>[!UICONTROL編輯]訪問 [!DNL Scenario Planner] 和專案</li></ul>
+    <li>[！UICONTROL Edit]存取對象 [!DNL Scenario Planner] 和專案</li></ul>
 
 <p><b>附註</b>
 
-如果您仍無法存取，請詢問您的 [!DNL Workfront] 管理員。 若要了解 [!DNL Workfront] 管理員可以更改您的訪問級別，請參閱 <a href="../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>.</p> </td>
+如果您還是沒有存取權，請詢問您的 [!DNL Workfront] 管理員是否對您的存取層級設定其他限制。 如需瞭解如何 [!DNL Workfront] 管理員可以變更您的存取層級，請參閱 <a href="../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>.</p> </td>
 </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p>物件權限</p> </td> 
+   <td> <p>物件許可權</p> </td> 
    <td> 
     <ul> 
-     <li>計畫的[!UICONTROL管理]權限 </li> 
-     <li>已發佈專案的[!UICONTROL管理]權限</li> 
-    </ul> <p>如需要求對專案進行額外存取的詳細資訊，請參閱 <a href="../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">請求對對象的訪問 </a>.</p> <p>有關請求對計畫進行額外訪問的資訊，請參閱 <a href="../scenario-planner/request-access-to-plan.md" class="MCXref xref">在 [!DNL Scenario Planner]</a>.</p> </td> 
+     <li>計畫的[！UICONTROL Manage]許可權 </li> 
+     <li>已發佈專案的[！UICONTROL Manage]許可權</li> 
+    </ul> <p>如需請求專案其他存取許可權的詳細資訊，請參閱 <a href="../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">要求物件的存取權 </a>.</p> <p>如需請求對計畫的額外存取許可權的相關資訊，請參閱 <a href="../scenario-planner/request-access-to-plan.md" class="MCXref xref">請求對中的計畫的存取權 [!DNL Scenario Planner]</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;若要了解您擁有的計畫、授權類型或存取權，請聯絡您的 [!DNL Workfront] 管理員。
+&#42;若要瞭解您擁有的計畫、授權型別或存取權，請聯絡您的 [!DNL Workfront] 管理員。
 
-如需存取 [!DNL Workfront Scenario Planner]，請參閱 [使用 [!DNL Scenario Planner]](../scenario-planner/access-needed-to-use-sp.md).
+如需關於存取的其他資訊，請參閱 [!DNL Workfront Scenario Planner]，請參閱 [使用所需的存取權 [!DNL Scenario Planner]](../scenario-planner/access-needed-to-use-sp.md).
 
-## 必要條件
+## 先決條件
 
 開始之前：
 
-* 您必須先建立並儲存計畫，才能從中發佈方案。
+* 您必須先建立和儲存計畫，才能從中發佈方案。
+* 必須在「設定」的「專案偏好設定」區域中啟用「允許使用者建立專案，而不使用範本設定」 。 如需詳細資訊，請參閱 [設定全系統專案偏好設定](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
-## 將方案發佈至專案的考量事項
+## 將方案發佈至專案的相關考量事項
 
-* 您只能從計畫發佈一個案例。
-* 一個計畫只能與一個項目相連。
-* 當計畫屬於不同計畫時，一個項目可以連結到多個計畫。
+* 您只能從計畫發佈一個情境。
+* 一個行動方案只能連結至一個專案。
+* 當行動方案屬於不同計畫時，一個專案可連結至多個行動方案。
 
-   >[!TIP]
-   >
-   >當一個項目存在於多個計畫中，並且您從所有計畫發佈資訊到項目時，最新的發佈會覆蓋現有的 [!DNL Scenario Planner] 專案資訊。
+  >[!TIP]
+  >
+  >當一個專案存在於多個計畫上，而您從所有計畫發佈資訊至專案時，最新的發佈會覆寫現有的 [!DNL Scenario Planner] 有關專案的資訊。
 
-* 如果通過將項目導入計畫而在計畫上建立了倡議，則發佈倡議也將更新與倡議資訊相連結的項目。
+* 如果透過將專案匯入計畫而在計畫上建立了方案，則發佈方案也會以方案資訊更新連結的專案。
 
-   >[!TIP]
-   >
-   >您可以將相同的專案匯入多個計畫。 發佈可能會覆寫連結至多個方案之專案的方案資訊。
+  >[!TIP]
+  >
+  >您可以將相同專案匯入多個計畫。 發佈可能會覆寫連結至多個方案的專案上的方案資訊。
 
-   有關通過導入項目來建立方案的資訊，請參閱 [將專案匯入至 [!DNL Scenario Planner]](../scenario-planner/import-projects-to-plans.md).
+  如需透過匯入專案來建立方案的相關資訊，請參閱 [將專案匯入至中的計畫 [!DNL Scenario Planner]](../scenario-planner/import-projects-to-plans.md).
 
-* 對項目所做的任何更改都不會轉給連結的計畫。
+* 對專案所做的任何變更都不會轉移到連結的方案。
 
 
 
@@ -98,76 +99,76 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->如果對計畫的方案進行任何更改，包括解決衝突，則必須重新發佈方案，以便在項目上顯示新資訊。 只有當您發佈相應的方案時，才會在連結到方案的項目上顯示此資訊。 有關解決方案之間衝突的資訊，請參見 [解決 [!DNL Scenario Planner]](../scenario-planner/resolve-conflicts-in-sp.md)
+>如果您對計畫上的方案進行任何變更，包括解決衝突，則必須重新發佈方案，才能在專案上顯示新資訊。 只有當您發佈對應的方案時，此資訊才會顯示在連結至方案的專案上。 如需解決方案之間衝突的詳細資訊，請參閱 [解決中的方案衝突 [!DNL Scenario Planner]](../scenario-planner/resolve-conflicts-in-sp.md)
 
-1. 按一下 **[!UICONTROL 主菜單]** 圖示 ![](assets/main-menu-icon.png) 在Workfront的右上角，然後按一下 **[!UICONTROL 藍本]**
-1. （可選和條件性）如果您要從現有計畫發佈，請按一下 **[!UICONTROL 篩選]** 圖示 ![](assets/filter-nwepng.png) 在計畫的右上角，選擇以下選項之一：
+1. 按一下 **[!UICONTROL 主要功能表]** 圖示 ![](assets/main-menu-icon.png) (位於Workfront的右上角)，然後按一下 **[!UICONTROL 情境]**
+1. （選擇性和條件性）如果要從現有計畫發佈，請按一下 **[!UICONTROL 篩選]** 圖示 ![](assets/filter-nwepng.png) 在計畫的右上角，並選取下列其中一個選項：
 
    <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">[!UICONTROL全部]</td> 
-      <td>顯示您擁有或已與您共用的所有計畫。 這是預設值。 </td> 
+      <td role="rowheader">[！UICONTROL All]</td> 
+      <td>顯示您所擁有或與您共用的所有計畫。 這是預設值。 </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL我的計畫]</td> 
+      <td role="rowheader">[！UICONTROL我的計畫]</td> 
       <td>顯示您建立的計畫。</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL與我共用]</td> 
-      <td> <p>顯示您未建立但已與您共用的計畫。</p> <p>重要：您必須擁有與共用之計畫的[!UICONTROL管理]權限，才能發佈計畫。 </p> </td> 
+      <td role="rowheader">[！UICONTROL已共用給我]</td> 
+      <td> <p>顯示您未建立但與您共用的計畫。</p> <p>重要：您必須擁有與您共用之計畫的[！UICONTROL管理]許可權，才能發佈計畫。 </p> </td> 
      </tr> 
     </tbody> 
    </table>
 
    ![](assets/plans-filters-dropdown-options-scenario-planer.png)
 
-1. （選用）按一下 **[!UICONTROL 搜尋]** 圖示 ![](assets/search-icon.png) 然後開始鍵入計畫名稱，以便快速在清單中找到它。
-1. （條件性）若要從新計畫發佈，請建立計畫。
+1. （可選）按一下 **[!UICONTROL 搜尋]** 圖示 ![](assets/search-icon.png) 並開始輸入計畫的名稱，以便在清單中快速找到它。
+1. （視條件而定）若要從新計畫發佈，請建立計畫。
 
-   如需建立計畫的相關資訊，請參閱 [在 [!DNL Scenario Planner]](../scenario-planner/create-and-edit-plans.md) .
+   如需有關建立計畫的資訊，請參閱 [在中建立和編輯計畫 [!DNL Scenario Planner]](../scenario-planner/create-and-edit-plans.md) .
 
-1. （可選）按一下現有計畫的名稱，然後為計畫建立新方案。
+1. （選擇性）按一下現有計畫的名稱，並為計畫建立新案例。
 
-   有關建立計畫方案的資訊，請參閱 [在 [!DNL Scenario Planner]](../scenario-planner/create-and-compare-scenarios-for-a-plan.md).
+   如需有關建立計畫案例的資訊，請參閱 [在中建立和比較計畫案例 [!DNL Scenario Planner]](../scenario-planner/create-and-compare-scenarios-for-a-plan.md).
 
-1. （可選）更新現有或新計畫的方案或建立新計畫的方案。
+1. （選用）更新現有計畫或新計畫的方案，或建立新計畫。
 
-   有關建立方案的資訊，請參閱 [在 [!DNL Scenario Planner]](../scenario-planner/create-and-edit-initiatives.md).
+   如需關於建立方案的資訊，請參閱 [在中建立和編輯方案 [!DNL Scenario Planner]](../scenario-planner/create-and-edit-initiatives.md).
 
-1. 按一下 **[!UICONTROL 保存計畫]**.
-1. 從中選取您要發佈的案例 **[!UICONTROL 初始方案]** 下拉式功能表，然後按一下 **[!UICONTROL 前往發佈]** ![](assets/go-to-publish-button-icon.png) 在右上角。
+1. 按一下 **[!UICONTROL 儲存計畫]**.
+1. 從中選擇您要發佈的情境 **[!UICONTROL 初始案例]** 下拉式功能表，然後按一下 **[!UICONTROL 前往發佈]** ![](assets/go-to-publish-button-icon.png) 位於右上角。
 
    或
 
-   按一下 **[!UICONTROL 比較方案]**，將滑鼠指標暫留在您要發佈的藍本卡片上，然後按一下 **[!UICONTROL 前往發佈]** ![](assets/go-to-publish-button-icon.png).
+   按一下 **[!UICONTROL 比較案例]**，將游標停留在您要發佈的情境卡片上，然後按一下 **[!UICONTROL 前往發佈]** ![](assets/go-to-publish-button-icon.png).
 
-   此 [!UICONTROL 發佈方案] 頁面隨即顯示，其中顯示藍本中所有方案的清單。 如果先前已發佈任何計畫，則項目表徵圖 ![](assets/project-icon-sp.png) 會顯示在其名稱和 **[!UICONTROL 上次發佈]** 日期會填入清單中。
+   此 [!UICONTROL 發佈方案] 頁面隨即顯示，並顯示情境中所有方案的清單。 如果先前已發佈任何方案，專案圖示 ![](assets/project-icon-sp.png) 會顯示在它們的名稱和 **[!UICONTROL 上次發佈日期]** 日期會填入清單中。
 
    >[!TIP]
    >
-   >匯入專案所建立的方案也會顯示專案圖示 ![](assets/project-icon-sp.png) 對名字的權利
+   >透過匯入專案建立的方案也會顯示專案圖示 ![](assets/project-icon-sp.png) 名稱右側
 
    ![](assets/project-icons-and-last-published-date-in-publish-initiative-page-350x63.png)
 
-1. （可選和條件性）如果您要從現有計畫發佈，請按一下 **[!UICONTROL 篩選]** 圖示 ![](assets/filter-nwepng.png) 在計畫的右上角，選擇以下選項之一：
+1. （選擇性和條件性）如果要從現有計畫發佈，請按一下 **[!UICONTROL 篩選]** 圖示 ![](assets/filter-nwepng.png) 在計畫的右上角，並選取下列其中一個選項：
 
    <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">[!UICONTROL全部]</td> 
-      <td>顯示所選方案的所有方案。 </td> 
+      <td role="rowheader">[！UICONTROL All]</td> 
+      <td>顯示所選情境的所有方案。 </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL已發佈]</td> 
-      <td>顯示您或其他使用者之前發佈的方案。 </td> 
+      <td role="rowheader">[！UICONTROL已發佈]</td> 
+      <td>顯示您或其他使用者先前發佈的方案。 </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL取消發佈]</td> 
+      <td role="rowheader">[！UICONTROL已取消發佈]</td> 
       <td> <p>顯示未發佈的方案。 </p> </td> 
      </tr> 
     </tbody> 
@@ -175,112 +176,113 @@ ht-degree: 0%
 
    ![](assets/initiatives-fitler-in-publishing-screen-scenario-planner.png)
 
-1. （選用）按一下 **[!UICONTROL 搜尋]** 圖示 ![](assets/search-icon.png) 然後開始鍵入計畫的名稱，以便快速在清單中找到它。
+1. （可選）按一下 **[!UICONTROL 搜尋]** 圖示 ![](assets/search-icon.png) 並開始輸入方案的名稱以在清單中快速找到。
 1. 選取一或多個要發佈的方案，並從這些方案建立或更新專案，然後按一下 **[!UICONTROL 發佈方案]**.
 
-   如果已發佈的方案已連結到項目，則從每個選定的方案建立新項目或更新現有的已連接項目。
+   這會從每個選取的方案建立新專案，或是更新現有的連線專案（如果發佈的方案已連結至專案）。
 
    >[!TIP]
    >
-   >新項目的名稱與已發佈的計畫相同。
+   >新專案與已發佈方案的名稱相同。
 
-1. （條件性）執行下列其中一項作業：
+1. （視條件而定）執行下列任一項作業：
 
-   * 如果您發佈了一個計畫，請按一下 **[!UICONTROL 請參閱相關專案]** 開啟從方案建立或更新的項目。
-   * 如果您發佈了多個方案，請按一下 **[!UICONTROL 請參閱相關專案]** 開啟從方案發佈的項目清單。 [!DNL Workfront] 應用 [!DNL Scenario Planner] 依預設，專案會篩選為專案清單。 最近發佈的專案會顯示在清單頂端。
+   * 如果您發佈了一個方案，請按一下 **[!UICONTROL 檢視關聯的專案]** 以開啟從方案建立或更新的專案。
+   * 如果您發佈多個方案，請按一下 **[!UICONTROL 檢視關聯的專案]** 以開啟從方案發佈的專案清單。 [!DNL Workfront] 套用 [!DNL Scenario Planner] 依預設，專案會篩選至專案清單。 最近發佈的專案會顯示在清單頂端。
 
-      ![](assets/scenario-planner-filter-after-publishing-initiatives-350x81.png)
+     ![](assets/scenario-planner-filter-after-publishing-initiatives-350x81.png)
 
-1. 轉到以下領域以查看有關項目的計畫資訊：
+1. 移至下列區域以檢視專案上的方案資訊：
 
-   * **此 [!UICONTROL 更新] 節**:更新會發佈，以指出該項目是從計畫建立或更新的。 更新包含建立或更新項目的方案名稱以及包含方案的計畫的連結名稱。 您可以在更新中按一下計畫名稱，以在 [!DNL Scenario Planner].
+   * **此 [!UICONTROL 更新] 區段**：會發佈更新以指出專案已建立或已透過方案更新。 更新包含建立或更新專案的方案名稱，以及包含該方案的計畫的連結名稱。 您可以按一下更新中的計畫名稱，以開啟中的計畫 [!DNL Scenario Planner].
 
-      ![](assets/update-stream-confirmation-of-publish-on-project-350x65.png)
+     ![](assets/update-stream-confirmation-of-publish-on-project-350x65.png)
 
-   * **此 [!UICONTROL 概述] 區域 [!UICONTROL 專案詳細資料] 節**:新 [!DNL Scenario Planner] 此區域中建立的節包含連結方案的資訊。
+   * **此 [!UICONTROL 概觀] 的區域 [!UICONTROL 專案詳細資訊] 區段**：新的 [!DNL Scenario Planner] 區段會在此區域中建立，並包含來自連結方案的資訊。
 
-      ![](assets/scenario-planner-on-project-details-350x135.png)
+     ![](assets/scenario-planner-on-project-details-350x135.png)
 
-      以下計畫資訊發佈於 [!DNL Scenario Planner] 區域 [!UICONTROL 專案詳細資料] 小節：
+     下列方案資訊會發佈在 [!DNL Scenario Planner] 的區域 [!UICONTROL 專案詳細資訊] 區段：
 
-      <table style="table-layout:auto"> 
+     <table style="table-layout:auto"> 
       <col> 
       <col> 
       <tbody> 
        <tr> 
-        <td role="rowheader"><span>[!UICONTROL計畫持續時間]</span> </td> 
-        <td><span>項目與計畫連結時相應計畫的持續時間。 此欄位不可編輯。</span> </td> 
+        <td role="rowheader"><span>[！UICONTROL方案期間]</span> </td> 
+        <td><span>專案連結至方案時，對應方案的持續時間。 此欄位不可編輯。</span> </td> 
        </tr> 
        <tr> 
-        <td role="rowheader"><span>[!UICONTROL上次發佈日期]</span> </td> 
-        <td><span>上次從相應計畫發佈項目的日期。</span> </td> 
+        <td role="rowheader"><span>[！UICONTROL上次發佈日期]</span> </td> 
+        <td><span>專案上次從對應方案發佈的日期。</span> </td> 
        </tr> 
        <tr> 
-        <td role="rowheader"><span>[!UICONTROL計畫起始日期]</span> </td> 
-        <td><span>計劃開始月的第一天，即項目與計畫相連。</span> </td> 
+        <td role="rowheader"><span>[！UICONTROL方案開始日期]</span> </td> 
+        <td><span>當專案連結至方案時，方案開始月份的第一天。</span> </td> 
        </tr> 
        <tr> 
-        <td role="rowheader"><span>[!UICONTROL計畫終止日期]</span> </td> 
-        <td><span>計畫結束月份的最後一天，即項目與計畫相關聯。 </span> </td> 
+        <td role="rowheader"><span>[！UICONTROL方案結束日期]</span> </td> 
+        <td><span>方案結束月份的最後一天，即專案連結至方案時。 </span> </td> 
        </tr> 
        <tr> 
-        <td role="rowheader"><span>[!UICONTROL計畫FTE和小時中的職務角色]</span> </td> 
-        <td> <p>有關相關職務角色及其為計劃分配的時間的資訊。 這包括：</p> 
+        <td role="rowheader"><span>FTE和時數中的[！UICONTROL方案工作角色]</span> </td> 
+        <td> <p>方案之相關職務角色及其時間配置的相關資訊。 其中包括：</p> 
          <ul> 
-          <li>作業角色名稱</li> 
-          <li>FTE數</li> 
-          <li> <p>所有FTE的小時數</p> <p>您可以使用小時數或FTE來估計計畫或計畫所需的職務職責數量。</p> <p>如需詳細資訊，請參閱 <a href="../scenario-planner/create-and-edit-plans.md" class="MCXref xref">在方案計畫員中建立和編輯計畫</a>. </p> </li> 
+          <li>工作角色名稱</li> 
+          <li>FTE數量</li> 
+          <li> <p>所有FTE的小時數</p> <p>您可以使用時數或FTE來預估計畫或方案所需的工作角色數量。</p> <p>如需詳細資訊，請參閱 <a href="../scenario-planner/create-and-edit-plans.md" class="MCXref xref">在「情境規劃工具」中建立和編輯計畫</a>. </p> </li> 
          </ul> 
-      <p><b>筆尖</b>
+      <p><b>秘訣</b>
 
-      如果方案中每個月的職務角色數不同，則此欄位將顯示方案所需的最大角色數。 例如，如果1月需要1名顧問，2月需要2名顧問，則列將顯示2FTE以及所有月份2名FTE的相應小時數。</p> </td>
-      </tr> 
+     如果方案中每個月的工作角色數量不同，此欄位會顯示方案所需的最大角色數量。 例如，如果您在1月需要1名顧問，在2月需要2名，則欄會顯示2FTE以及所有月份2個FTE的對應時數金額。</p> </td>
+     </tr> 
       </tbody> 
      </table>
 
-      >[!NOTE]
-      >
-      >具有 [!UICONTROL 檢視] 專案的存取權可檢視 [!DNL Scenario Planner] 區段 [!UICONTROL 概述] 的上界。 您可以控制此區域是否顯示在 [!UICONTROL 詳細資料] 區段。 如果使用者沒有與其相關聯的版面範本，此區域預設會顯示。
-      >
-      >   
-      >   
-      >   * 如需新增或移除 [!UICONTROL 詳細資料] 區段，請參閱 [自訂 [!UICONTROL 詳細資料] 使用版面範本檢視](../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md).
-      >   * 如需有關檢視 [!UICONTROL 概述] 區域 [!UICONTROL 專案詳細資料]，請參閱 [[!UICONTROL 管理] 項目中的資訊 [!UICONTROL 概述] 區域](../manage-work/projects/manage-projects/understand-project-overview-area.md).
+     >[!NOTE]
+     >
+     >所有使用者具有 [!UICONTROL 檢視] 對專案的存取權可看到 [!DNL Scenario Planner] 中的區段 [!UICONTROL 概觀] 區域。 您可以控制此區域是否顯示在 [!UICONTROL 詳細資料] 區段（使用版面配置範本）。 如果使用者沒有關聯的版面配置範本，預設會顯示此區域。
+     >
+     >   
+     >   
+     >   * 有關新增或移除中的區域的資訊 [!UICONTROL 詳細資料] 區段使用版面配置範本，請參閱 [自訂 [!UICONTROL 詳細資料] 使用版面配置範本檢視](../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md).
+     >   * 如需有關檢視資訊的詳細資訊，請參閱 [!UICONTROL 概觀] 的區域 [!UICONTROL 專案詳細資訊]，請參閱 [[!UICONTROL 管理] 專案中的資訊 [!UICONTROL 概觀] 區域](../manage-work/projects/manage-projects/understand-project-overview-area.md).
+     >   
+     >
 
+   * **此 [!UICONTROL 角色分配] 面板於 [!UICONTROL 工作負載平衡器] 或專案的工作清單**：除了專案上的角色配置外，此區域中還會填入有關行動方案上的角色配置的資訊。
 
-   * **此 [!UICONTROL 角色分配] 面板 [!UICONTROL 工作負載平衡器] 或項目任務清單**:除了項目上的角色分配外，在此領域填充了有關計畫上的角色分配資訊。
+     如需詳細資訊，請參閱 [協調專案與方案之間資源配置的概要](../scenario-planner/overview-reconcile-allocations-between-projects-initiatives.md).
 
-      如需詳細資訊，請參閱 [協調項目和舉措之間資源分配的概覽](../scenario-planner/overview-reconcile-allocations-between-projects-initiatives.md).
+     ![](assets/role-allocation-panel-350x174.png)
 
-      ![](assets/role-allocation-panel-350x174.png)
+     對專案日期或資源所做的任何變更，都不會影響對應的方案或專案上包含方案資訊的任何區域。
 
-      對項目日期或資源的任何更改不會影響相應的計畫或項目中包含計畫資訊的任何區域。
+   * **此 [!UICONTROL 資源預算] 的區域 [!UICONTROL 業務案例] 專案的**：管理專案資源的新選項，使用 [!DNL Scenario Planner] 資訊新增至 [!UICONTROL 資源預算] 的區域 [!UICONTROL 業務案例] 專案的。
 
-   * **此 [!UICONTROL 資源預算] 區域 [!UICONTROL 業務案例] 的**:使用管理專案資源的新選項 [!DNL Scenario Planner] 資訊會新增至 [!UICONTROL 資源預算] 區域 [!UICONTROL 業務案例] 的URL。
+     如需詳細資訊，請參閱 [預算中的資源 [!UICONTROL 業務案例] 使用 [!DNL Scenario Planner]](../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-scenario-planner.md).
 
-      如需詳細資訊，請參閱 [預算資源 [!UICONTROL 業務案例] 使用 [!DNL Scenario Planner]](../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-scenario-planner.md).
+     ![](assets/sp-in-business-case-selected-350x110.png)
 
-      ![](assets/sp-in-business-case-selected-350x110.png)
+1. （選擇性）檢閱下列資訊： [!DNL Scenario Planner] 發佈情境後：
 
-1. （選用）檢閱以下資訊： [!DNL Scenario Planner] 發佈案例後：
+   * 已發佈的情境會成為您從中發佈方案後的第一個情境。
+   * 將情境發佈至少一次後，您就無法再從任何其他情境發佈。
+   * 此 [!UICONTROL 前往發佈] 從案例發佈至少一個方案後，選項會從所有其他案例中移除。
+   * 綠色指標會顯示在計畫中已發佈方案的專案圖示旁。
 
-   * 發佈的方案會是您從中發佈方案後的第一個方案。
-   * 發佈案例至少一次後，就無法從任何其他案例發佈。
-   * 此 [!UICONTROL 前往發佈] 從方案中至少發佈一個方案後，會從所有其他方案中移除選項。
-   * 在計畫中已發佈方案的專案圖示旁會顯示綠色指標。
+     ![](assets/indicator-for-published-initiative-icon-350x119.png)
 
-      ![](assets/indicator-for-published-initiative-icon-350x119.png)
+   * 綠色「已發佈」指標會顯示在情境頂端和情境卡片，而情境卡片會填入「已發佈」欄位，指出情境中已發佈的行動方案數目。
 
-   * 綠色的「已發佈」指標會顯示在藍本頂端和藍本卡片上，而「已發佈」欄位會填入藍本卡片上，指出藍本中已發佈的方案數量。
+     ![](assets/published-scenario-highlighted-350x632.png)
 
-      ![](assets/published-scenario-highlighted-350x632.png)
+     >[!TIP]
+     >
+     >如果刪除從情境方案發佈的所有專案，則會移除已發佈情境的指示。 如需詳細資訊，請參閱 [刪除專案](../manage-work/projects/manage-projects/delete-projects.md).
 
-      >[!TIP]
-      >
-      >如果從方案的方案發佈的所有項目都被刪除，則會刪除已發佈方案的指示。 如需詳細資訊，請參閱 [刪除專案](../manage-work/projects/manage-projects/delete-projects.md).
+1. （可選）更新方案資訊並重複上述程式以重新發佈方案並更新連結專案上的方案資訊。
 
-1. （可選）更新有關計畫的資訊，並重複上述過程，重新發佈計畫，更新有關連結項目的計畫資訊。
-
-   如需編輯活動的資訊，請參閱 [在 [!DNL Scenario Planner]](../scenario-planner/create-and-edit-initiatives.md).
+   如需有關編輯方案的資訊，請參閱 [在中建立和編輯方案 [!DNL Scenario Planner]](../scenario-planner/create-and-edit-initiatives.md).
 
 

@@ -7,9 +7,9 @@ author: Alina
 feature: Product Announcements
 role: User
 exl-id: f750b35b-8021-4cc1-81d6-e1ece2530438
-source-git-commit: 02d20209b8bf53c84308707a89a5abf399494b64
+source-git-commit: 9babe17ad862925440e555f881bf753fb443b67d
 workflow-type: tm+mt
-source-wordcount: '1339'
+source-wordcount: '1378'
 ht-degree: 1%
 
 ---
@@ -60,12 +60,14 @@ The new commenting experience will slowly become available for all the objects w
 下列功能已移除或將從新體驗中棄用：
 
 * 在系統更新上加上註解。 過去新增至系統更新的註解已在新的「系統活動」標籤中匯入為唯讀註解。
-* 可在評論任務和問題時編輯狀態、條件、認可日期和完成百分比
+* 可在評論任務和問題時編輯狀態、條件、認可日期和完成百分比。
+
+  或者，我們建議您在任務和問題的摘要面板中新增這些欄位，以便從清單、報告、首頁、Workfront平衡器或時程表輕鬆存取它們。
 * 編輯自訂表單的功能
 * 當Workfront或群組管理員以其他使用者身份登入並代表他們新增評論時，「代表&lt;使用者名稱>」資訊最初被移除。 它已於2023年10月19日恢復。
 * 當您在檔案中新增註解時標籤人員的「要求核准」選項。
 * 編輯使用者設定檔方塊時的「顯示更新狀態的完成百分比」設定將被移除。 更新任務或問題完成百分比的功能已移除。
-* 當認可日期從更新區段變更時，專案所有者變更任務計畫完成日期的功能。 <!--ensure this is correct when re remove the legacy and leave only new commenting-->
+
 
 <!--removed this note on November 28, 2023, when this limitation was removed: 
 
@@ -499,6 +501,21 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
    <td>
    </td>
    <td> 
+   </td>
+  </tr>
+
+<tr>
+   <td>當認可日期從更新區段變更時，專案所有者變更任務計畫完成日期的功能
+   </td>
+   <td> ✓ (A)
+   </td>
+   <td> 日後可能會發行
+   </td>
+   <td> 
+   </td>
+   <td>
+   </td>
+   <td> ✓ (A)
    </td>
   </tr>
 </table>

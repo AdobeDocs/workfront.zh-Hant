@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 02d20209b8bf53c84308707a89a5abf399494b64
+source-git-commit: 9babe17ad862925440e555f881bf753fb443b67d
 workflow-type: tm+mt
-source-wordcount: '5359'
+source-wordcount: '5486'
 ht-degree: 0%
 
 ---
@@ -32,31 +32,28 @@ ht-degree: 0%
 >
 >在功能發行至生產環境後的某個時間，將可使用以下各節中參考的檔案。
 
-<!--
-## Week of April 1, 2024
+## 2024年4月1日當週
 
-### Reorder the fields on the records page
+### 重新排序記錄頁面上的欄位
 
-Production: April 4, 2024 
+生產： 2024年4月4日
 
-Preview: To be determined 
+預覽：待定
 
-As a Workspace manager, you now can reorder the fields listed in the record page or box. Updating the order of the fields changes the order of fields on all records for the same type, for everyone viewing the record page or box.  
+身為工作區管理員，您現在可以重新排序記錄頁面或方塊中列出的欄位。 更新欄位順序會變更所有相同型別記錄的欄位順序，適用於所有檢視記錄頁面或記錄方塊的人。
 
-For more information, see [Manage the record page](/help/quicksilver/maestro/records/manage-the-record-page.md). 
+如需詳細資訊，請參閱 [管理記錄頁面](/help/quicksilver/maestro/records/manage-the-record-page.md).
 
 
-### Add cover image to record pages
+### 新增封面影像以記錄頁面
 
-Production: April 4, 2024 
+生產： 2024年4月4日
 
-Preview: To be determined 
+預覽：待定
 
-As you manage record pages, you can now add, reposition, and replace a cover image on a record page or box, to enrich the record's presentation and stakeholder engagement. Cover images are visible to all users viewing the records. 
+當您管理記錄頁面時，您現在可以在記錄頁面或方塊上新增、重新定位和取代封面影像，以豐富記錄的展示和利害關係人的參與。 檢視記錄的所有使用者都可以看到封面影像。
 
-For more information, see [Manage the record page](/help/quicksilver/maestro/records/manage-the-record-page.md).  
-
--->
+如需詳細資訊，請參閱 [管理記錄頁面](/help/quicksilver/maestro/records/manage-the-record-page.md).
 
 ## 2024年3月25日起一週
 
