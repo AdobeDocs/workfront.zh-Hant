@@ -4,7 +4,7 @@ description: 您可以在Adobe Workfront Planning中編輯管理記錄方塊和�
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 02d20209b8bf53c84308707a89a5abf399494b64
+source-git-commit: 7d3778d52f9a3afa12a7bdf348f7400693f8f7ab
 workflow-type: tm+mt
 source-wordcount: '800'
 ht-degree: 0%
@@ -102,7 +102,6 @@ ht-degree: 0%
 您上次存取的工作區會開啟。
 
 1. （可選）按一下工作區名稱右側的向下箭頭，以選取您要更新其記錄的工作區。
-
 1. 按一下記錄型別卡。
 
    記錄型別頁面隨即開啟。
