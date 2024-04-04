@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: bdcfed70-1999-4c40-a38f-12c762c8c1c4
-source-git-commit: 21b2a8180512f71383a7d5201d62fd9ab166d8ef
+source-git-commit: c2513beb50867fe1e1d065037a068a846f96d50b
 workflow-type: tm+mt
-source-wordcount: '2020'
+source-wordcount: '2026'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ ht-degree: 0%
 >
 >| 每月發行 | 每季發行 |
 >|----|----|
->| <ul><li>24.2 （2024年2月15日）</li><li>24.3 （2024年3月14日）</li><li>24.4 （2024年4月11日）</li></ul> | <ul><li>24.4 （2024年4月）</li></ul> |
+>| <ul><li>24.2 （2024年2月15日）</li><li>24.3 （2024年3月14日）</li><li>24.4 （2024年4月11日）</li></ul> | <ul><li>24.4 （2024年4月11日）</li></ul> |
 >
 >如需快速發行流程的詳細資訊，請參閱 [啟用或停用快速發行程式](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).
 
@@ -65,7 +65,7 @@ ht-degree: 0%
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">顯示邏輯和略過邏輯現在可在表單設計工具預覽模式中使用</a><span style="color: #ff0000;"> 預覽中的新增專案！</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">顯示邏輯和略過邏輯現在可在表單設計工具預覽模式中使用</a></p>
                         <p>Beta版自訂表單設計工具現在可讓您在預覽模式下測試顯示邏輯及略過邏輯。 以前，即使套用了邏輯，預覽中仍會顯示所有欄位。</p>
                     </td>
                     <td><p><b>將於下列日期提供：</b></p>
@@ -74,7 +74,7 @@ ht-degree: 0%
                                 <p>預覽版本： 2024年3月28日</p>
                             </li>
                             <li>
-                                <p>客戶專用生產：第24.4發行版本（2024年4月）</p>
+                                <p>客戶專用生產：第24.4發行版本（2024年4月11日）</p>
                             </li>
                         </ul>
                     </td>
@@ -90,7 +90,7 @@ ht-degree: 0%
                                 <p>預覽版本： 2024年3月14日</p>
                             </li>
                             <li>
-                                <p>客戶專用生產：第24.4發行版本（2024年4月）</p>
+                                <p>客戶專用生產：第24.4發行版本（2024年4月11日）</p>
                             </li>
                         </ul>
                     </td>
@@ -109,7 +109,7 @@ ht-degree: 0%
                                 <p>快速發行生產：24.3版（2024年3月14日）</p>
                             </li>
                             <li>
-                                <p>每季發行生產：24.4版（2024年4月）</p>
+                                <p>每季發行生產：24.4版（2024年4月11日）</p>
                             </li>
                         </ul>
                     </td>
@@ -128,7 +128,7 @@ ht-degree: 0%
                                 <p>快速發行生產：24.3版（2024年3月14日）</p>
                             </li>
                             <li>
-                                <p>每季發行生產：24.4版（2024年4月）</p>
+                                <p>每季發行生產：24.4版（2024年4月11日）</p>
                             </li>
                         </ul>
                     </td>
@@ -173,6 +173,10 @@ ht-degree: 0%
 
 ### 檔案管理增強功能
 
+>[!IMPORTANT]
+>
+>中列出的功能 **檔案管理增強功能** 是分階段發行的一部分，僅供特定客戶使用。
+
 <table>
             <col style="width: 50%;" />
             <col style="width: 50%;" />
@@ -189,7 +193,7 @@ ht-degree: 0%
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">新增檔案稽核和核准的截止日期</a><span style="color: #ff0000;"> 預覽中的新增專案！</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">新增檔案稽核和核准的截止日期</a></p>
                         <p>您現在可以指定使用者或專案團隊檢閱或核准檔案的截止日期。 稽核者和核准者在指定截止日期前72小時和之後24小時收到電子郵件通知。 截止日期也會反映在新首頁區域的核准Widget。</p>
                     </td>
                     <td><p><b>將於下列日期提供：</b></p>
@@ -198,14 +202,14 @@ ht-degree: 0%
                                 <p>預覽版本： 2024年3月28日</p>
                             </li>
                             <li>
-                                <p>客戶專用生產：第24.4發行版本（2024年4月）</p>
+                                <p>客戶專用生產：第24.4發行版本（2024年4月11日）</p>
                             </li>
                         </ul>
                     </td>
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">建立及使用核准範本</a><span style="color: #ff0000;"> 預覽中的新增專案！</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">建立及使用核准範本</a></p>
                         <p>您現在可以在「設定」區域中建立「核准範本」，以簡化複查與核准流程。 核准範本可讓您透過以下方式使稽核和核准流程更可重複
                         <ul>
                             <li>
@@ -223,14 +227,14 @@ ht-degree: 0%
                                 <p>預覽版本： 2024年3月28日</p>
                             </li>
                             <li>
-                                <p>客戶專用生產：第24.4發行版本（2024年4月）</p>
+                                <p>客戶專用生產：第24.4發行版本（2024年4月11日）</p>
                             </li>
                         </ul>
                     </td>
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">一次檢視所有核准的相關資訊</a><span style="color: #ff0000;"> 預覽中的新增專案！</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">一次檢視所有核准的相關資訊</a></p>
                         <p>為協助您快速管理和分析核准請求，我們在「所有核准」小工具中新增了以下關鍵績效指標：
                         <ul>
                             <li>
@@ -254,10 +258,9 @@ ht-degree: 0%
                                 <p>預覽版本： 2024年3月28日</p>
                             </li>
                             <li>
-                                <p>客戶專用生產：第24.4發行版本（2024年4月）</p>
+                                <p>客戶專用生產：第24.4發行版本（2024年4月11日）</p>
                             </li>
                         </ul>
-                        <p><span style="color: #ff0000;">此功能屬於分階段發行，目前僅供特定客戶使用。</span></p>
                     </td>
                 </tr>
             </tbody>
@@ -295,7 +298,7 @@ ht-degree: 0%
                                 <p><span style="color: #ff0000;">此功能已於2024年3月18日從快速發行客戶的生產中移除。</span></p>
                             </li>
                             <li>
-                                <p>每季發行生產：24.4版（2024年4月）</p>
+                                <p>每季發行生產：24.4版（2024年4月11日）</p>
                             </li>
                         </ul>
                     </td>
@@ -316,7 +319,7 @@ ht-degree: 0%
                                 <p><span style="color: #ff0000;">此功能已於2024年3月18日從快速發行客戶的生產中移除。</span></p>
                             </li>
                             <li>
-                                <p>每季發行生產：24.4版（2024年4月）</p>
+                                <p>每季發行生產：24.4版（2024年4月11日）</p>
                             </li>
                         </ul>
                     </td>
@@ -353,7 +356,7 @@ ht-degree: 0%
                                 <p>快速發行生產：24.2版（2024年2月15日）</p>
                             </li>
                             <li>
-                                <p>每季發行生產：24.4版（2024年4月）</p>
+                                <p>每季發行生產：24.4版（2024年4月11日）</p>
                             </li>
                         </ul>
                     </td>
@@ -379,8 +382,8 @@ ht-degree: 0%
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">已移除對舊版評論區域的存取權</a><span style="color: #ff0000;"> 預覽中的新增專案！</span></p>
-                        <p>我們已移除專案、任務、問題和檔案更新區域中的「新註解」切換。 新註解現在是這些物件的預設和唯一選項。</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">已移除對舊版評論區域的存取權</a></p>
+                        <p>我們已移除專案、任務、問題和檔案更新區域中的「新註解」切換。 新註解現在是這些物件的預設和唯一選項。 經過此變更後，您將無法再回覆至舊版評論體驗。 此外，我們已移除使用者設定檔上的「更新狀態顯示完成百分比」設定。</p>
                     </td>
                     <td><p><b>將於下列日期提供：</b></p>
                         <ul>
@@ -388,7 +391,7 @@ ht-degree: 0%
                                 <p>預覽版本： 2024年4月1日</p>
                             </li>
                             <li>
-                                <p>適用於所有客戶的生產：24.4版（2024年4月）</p>
+                                <p>所有客戶適用的生產環境：第24.4發行版本（2024年4月11日）</p>
                             </li>
                         </ul>
                     </td>
@@ -407,7 +410,7 @@ ht-degree: 0%
                                 <p>快速發行生產：24.3版（2024年3月14日）</p>
                             </li>
                             <li>
-                                <p>每季發行生產：24.4版（2024年4月）</p>
+                                <p>每季發行生產：24.4版（2024年4月11日）</p>
                             </li>
                         </ul>
                     </td>
@@ -434,7 +437,7 @@ ht-degree: 0%
                                 <p>快速發行生產：24.3版（2024年3月14日）</p>
                             </li>
                             <li>
-                                <p>每季發行生產：24.4版（2024年4月）</p>
+                                <p>每季發行生產：24.4版（2024年4月11日）</p>
                             </li>
                         </ul>
                     </td>
@@ -453,7 +456,7 @@ ht-degree: 0%
                                 <p>快速發行生產：24.3版（2024年3月14日）</p>
                             </li>
                             <li>
-                                <p>每季發行生產：24.4版（2024年4月）</p>
+                                <p>每季發行生產：24.4版（2024年4月11日）</p>
                             </li>
                         </ul>
                     </td>
@@ -472,7 +475,7 @@ ht-degree: 0%
                                 <p>快速發行生產：24.3版（2024年3月14日）</p>
                             </li>
                             <li>
-                                <p>每季發行生產：24.4版（2024年4月）</p>
+                                <p>每季發行生產：24.4版（2024年4月11日）</p>
                             </li>
                         </ul>
                     </td>
@@ -491,7 +494,7 @@ ht-degree: 0%
                                 <p>快速發行生產：24.3版（2024年3月14日）</p>
                             </li>
                             <li>
-                                <p>每季發行生產：24.4版（2024年4月）</p>
+                                <p>每季發行生產：24.4版（2024年4月11日）</p>
                             </li>
                         </ul>
                     </td>
@@ -540,7 +543,7 @@ ht-degree: 0%
 
 ### Workfront Fusion增強功能
 
-Workfront Fusion中的新功能可在2023年第一季度發行排程之外的步調中用於生產環境。 如需最新功能的詳細資訊，請參閱 [Adobe Workfront Fusion發行活動](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
+Workfront Fusion中的新功能可在2024年第二季發行排程之外的步調中推出。 如需最新功能的詳細資訊，請參閱 [Adobe Workfront Fusion發行活動](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
 
 ### Workfront Scenario Planner增強功能
 
@@ -564,7 +567,7 @@ Workfront Fusion中的新功能可在2023年第一季度發行排程之外的步
 
 ### Workfront 維護更新
 
-如需22.3版本期間所進行維護更新的相關資訊，請參閱 [Workfront維護更新](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
+有關2024年第二季度版本期間進行的維護更新的資訊，請參閱 [Workfront維護更新](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
 ### 訓練更新
 

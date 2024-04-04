@@ -4,9 +4,10 @@ description: 2024年第二季發行時間範圍內的外觀和感覺更新
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 1e103c41d225c3bcc2699da24b0c6733c09b6637
+exl-id: be398d7f-7bc3-4a27-bc17-ffa4054d81ac
+source-git-commit: c2513beb50867fe1e1d065037a068a846f96d50b
 workflow-type: tm+mt
-source-wordcount: '251'
+source-wordcount: '250'
 ht-degree: 0%
 
 ---
@@ -29,11 +30,8 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->預覽版本： 2024年2月8日；快速發行生產：24.3版（2024年3月14日）；每季發行生產：24.4版（2024年4月）
+>預覽版本： 2024年2月8日；快速發行生產：24.3版（2024年3月14日）；每季發行生產：24.4版（2024年4月11日）
 
 我們已更新「設定>自訂Forms」區域中Forms、欄位和區段的標籤，使其成為與Workfront其他區域一致的更現代化設計。 您現在可從左側導覽功能表存取三個區域。 清單仍可使用篩選器、檢視和群組。 更新的設計適用於新表單設計人員和舊版表單產生器中建立的自訂表單、欄位和區段。
 
 如需詳細資訊，請參閱 [使用表單設計工具設計表單](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) 和 [使用舊版表單產生器建立或編輯自訂表單](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
-
-
-
