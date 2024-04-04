@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: bdcfed70-1999-4c40-a38f-12c762c8c1c4
-source-git-commit: c2513beb50867fe1e1d065037a068a846f96d50b
+source-git-commit: 87e4676e45dd174c6abb2b1edc646d34d43af169
 workflow-type: tm+mt
-source-wordcount: '2026'
+source-wordcount: '2108'
 ht-degree: 0%
 
 ---
@@ -265,6 +265,44 @@ ht-degree: 0%
                 </tr>
             </tbody>
 </table>
+
+### 首頁增強功能
+
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 50%;" />
+            <tbody>
+                <tr>
+                    <td>
+                        <p><span class="bold">功能</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">發行日期</span>
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-home-enhancements.md" class="MCXref xref" xrefformat="{para}">使用版面配置範本針對新首頁新增至管理員控制項的欄選項</a></p><p>[！BADGE In Production for Fast Release ]{type=Positive}</p>
+                        <p>管理員現在可以使用版面配置範本，自訂在特定新首頁Widget中哪些欄可供使用者使用。 選項包括隱藏或顯示預設欄，以及將現有欄位新增為新欄。</p>
+                    </td>
+                    <td><p><b>將於下列日期提供：</b></p>
+                        <ul>
+                            <li>
+                                <p>預覽版本： 2024年1月2日</p>
+                            </li>
+                            <li>
+                                <p>快速發行生產：24.2版（2024年2月15日）</p>
+                            </li>
+                            <li>
+                                <p>每季發行生產：24.4版（2024年4月11日）</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
 
 ### 專案增強功能
 
