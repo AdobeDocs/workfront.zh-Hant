@@ -3,9 +3,9 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文件、教學課程和其他資源，了解如何在您的組織中實施並有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: c2513beb50867fe1e1d065037a068a846f96d50b
+source-git-commit: 0ed09ce00716269c01e59e64cc9efe751bcff577
 workflow-type: tm+mt
-source-wordcount: '14095'
+source-wordcount: '14102'
 ht-degree: 1%
 
 ---
@@ -1432,7 +1432,7 @@ ht-degree: 1%
          * [Adobe Workfront中的Portfolio概觀](manage-work/portfolios/portfolios-overview/portfolio-overview.md)
       * 建立和管理產品組合 {#create-and-manage-portfolios}
          * [建立和管理產品組合](manage-work/portfolios/create-and-manage-portfolios/create-and-manage-portfolios.md)
-         * [建立投資組合](manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md)
+         * [建立專案組合](manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md)
          * [刪除和停用投資組合](manage-work/portfolios/create-and-manage-portfolios/delete-deactivate-portfolios.md)
          * [編輯投資組合](manage-work/portfolios/create-and-manage-portfolios/edit-portfolios.md)
          * [將專案新增至投資組合](manage-work/portfolios/create-and-manage-portfolios/add-projects-to-portfolios.md)
@@ -2698,6 +2698,7 @@ ht-degree: 1%
       * [類別](wf-api/wf-objects/category.md)
    * Adobe Workfront API的秘訣、技巧和疑難排解 {#tips-troubleshooting-apis}
       * [Adobe Workfront API的秘訣、技巧和疑難排解](wf-api/tips-tricks-and-troubleshooting/tips-troubleshoot-api.md)
+      * [Adobe Workfront API呼叫的網域格式](wf-api/tips-tricks-and-troubleshooting/locate-domain-for-API.md)
       * [API錯誤：「遠端伺服器傳回錯誤：(400)錯誤請求」](wf-api/tips-tricks-and-troubleshooting/api-error-remote-server.md)
       * [大型分頁搜尋期間傳回的重複專案](wf-api/tips-tricks-and-troubleshooting/duplicates-paginated-search.md)
       * [排序API中的查詢結果](wf-api/tips-tricks-and-troubleshooting/query-sort-api.md)
