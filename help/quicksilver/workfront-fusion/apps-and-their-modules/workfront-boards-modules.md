@@ -9,9 +9,9 @@ description: 您可以使用Adobe Workfront面板聯結器在Workfront面板中�
 author: Becky
 feature: Workfront Fusion, Workfront Integrations and Apps
 exl-id: 0b4a25f7-a8f1-47f4-8929-7eff82f1dfdc
-source-git-commit: f5ed9dac8fdd0a5049330f06ccc26d56d5cee774
+source-git-commit: 9b4e1b4227b15a6998966838552a5058675fa9a0
 workflow-type: tm+mt
-source-wordcount: '2318'
+source-wordcount: '2325'
 ht-degree: 1%
 
 ---
@@ -136,6 +136,7 @@ Adobe Workfront展示板是彈性的工具，可讓團隊透過提供對包含�
 * [展示板](#boards)
 * [欄](#columns)
 * [標記](#tags)
+* [評論](#comments)
 * [其他](#other)
 
 <!--
@@ -482,6 +483,9 @@ After the webhook is created, you can view the address of the endpoint that even
 </table>
 
 ### 評論
+
+* [建立評論](#create-a-comment)
+* [讀取卡片註解](#read-card-comments)
 
 #### 建立評論
 
