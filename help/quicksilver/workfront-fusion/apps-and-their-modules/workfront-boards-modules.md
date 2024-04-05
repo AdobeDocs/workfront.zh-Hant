@@ -8,9 +8,10 @@ title: Adobe Workfront主機板模組
 description: 您可以使用Adobe Workfront面板聯結器在Workfront面板中自動化您的流程，並將其連線到第三方應用程式和服務。
 author: Becky
 feature: Workfront Fusion, Workfront Integrations and Apps
-source-git-commit: db3f5b1e406d62fd0d3b99cb108ad824d1a32c24
+exl-id: 0b4a25f7-a8f1-47f4-8929-7eff82f1dfdc
+source-git-commit: f5ed9dac8fdd0a5049330f06ccc26d56d5cee774
 workflow-type: tm+mt
-source-wordcount: '2111'
+source-wordcount: '2318'
 ht-degree: 1%
 
 ---
@@ -476,6 +477,54 @@ After the webhook is created, you can view the address of the endpoint that even
   <tr> 
    <td>[！UICONTROL標籤顏色]</td> 
    <td>選取此標籤的顏色。</td> 
+  </tr> 
+ </tbody> 
+</table>
+
+### 評論
+
+#### 建立評論
+
+此動作模組已在指定卡片上建立註解。
+
+<table style="table-layout:auto">
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td>[！UICONTROL Connection]</td> 
+      <td> <p>您可以使用現有的Workfront連線來連線至Workfront面板，或使用特定的Workfront面板連線。 </p><p>如需有關連線您的電腦的指示 [!DNL Workfront] 應用程式至 [!DNL Workfront Fusion]，請參閱 <a href="#create-a-connection-to-workfront-boards" class="MCXref xref">建立與Workfront展示板的連線</a> 本文章內容。</p> </td> 
+  </tr> 
+  <tr> 
+   <td>[！UICONTROL卡片ID]</td> 
+   <td>輸入或對應您要新增註解的卡片ID。<p>在Workfront中檢視卡片時，您可以在URL中找到卡片ID。</p></td> 
+  </tr> 
+  <tr> 
+   <td>[！UICONTROL註解]</td> 
+   <td>輸入或對應您要新增的註解文字。</p></td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### 讀取卡片註解
+
+此動作模組會從指定的卡片擷取註解。
+
+<table style="table-layout:auto">
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td>[！UICONTROL Connection]</td> 
+      <td> <p>您可以使用現有的Workfront連線來連線至Workfront面板，或使用特定的Workfront面板連線。 </p><p>如需有關連線您的電腦的指示 [!DNL Workfront] 應用程式至 [!DNL Workfront Fusion]，請參閱 <a href="#create-a-connection-to-workfront-boards" class="MCXref xref">建立與Workfront展示板的連線</a> 本文章內容。</p> </td> 
+  </tr> 
+  <tr> 
+   <td>[！UICONTROL卡片ID]</td> 
+   <td>輸入或對應您要擷取註解的卡片ID。<p>在Workfront中檢視卡片時，您可以在URL中找到卡片ID。</p></td> 
+  </tr> 
+  <tr> 
+   <td>[！UICONTROL限制]</td> 
+   <td>輸入您希望模組在一個執行週期內傳回的最大註解數。</p></td> 
   </tr> 
  </tbody> 
 </table>
