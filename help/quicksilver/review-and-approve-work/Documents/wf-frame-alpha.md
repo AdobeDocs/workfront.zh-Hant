@@ -9,10 +9,10 @@ hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: 23d1e241-ea5b-43f5-b097-8d96e13cb267
-source-git-commit: 33c44b10fd235ae8a90733b14391ead54053db9f
+source-git-commit: 7b2a087c2d611110ffbb14c57f52de1bf633d4d5
 workflow-type: tm+mt
-source-wordcount: '448'
-ht-degree: 2%
+source-wordcount: '533'
+ht-degree: 1%
 
 ---
 
@@ -20,9 +20,21 @@ ht-degree: 2%
 
 我們很高興宣佈推出Workfront + Frame.io的Alpha計畫。 您可以在這裡找到最新Alpha版本的相關資訊，以及入門的簡短影片逐步解說。
 
-## 最新版本
+## Frame.io中的Alpha版本更新 — 2024年3月
 
-## Alpha版本 — 2024年3月
+在此Alpha版本中，我們有：
+
+### 從Frame.io新增多個資產至Workfront
+
+您現在一次最多可以從Frame.io新增10個資產至Workfront。 您可以選擇新增至Workfront專案檔案或特定專案任務。
+
+### 改善將Frame.io資產新增至Workfront時的體驗
+
+用於將資產新增至Workfront的功能表專案已更新，以便更輕鬆地檢視指派給您的任務、任務階層以及任務狀態。
+
+>[!VIDEO](https://video.tv.adobe.com/v/3428213/)
+
+## Workfront中的Alpha版本更新 — 2024年3月
 
 在此Alpha版本中，我們有：
 
@@ -64,7 +76,7 @@ ht-degree: 2%
 
 上傳新檔案版本時，可以啟動下一輪修訂，同時保持鎖定先前的修訂。
 
->[!VIDEO](https://video.tv.adobe.com/v/3428023/)
+>[!VIDEO](https://video.tv.adobe.com/v/3428179/)
 
 
 ## 傳送意見
