@@ -3,7 +3,7 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文件、教學課程和其他資源，了解如何在您的組織中實施並有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: 0ed09ce00716269c01e59e64cc9efe751bcff577
+source-git-commit: 10967c222cdcbfc426260af491f5e6f5b9b81a76
 workflow-type: tm+mt
 source-wordcount: '14102'
 ht-degree: 1%
@@ -1788,7 +1788,7 @@ ht-degree: 1%
 * 檢閱與核准工作 {#review-and-approve-work}
    * [檢閱和核准工作](review-and-approve-work/review-and-approve-work.md)
    * [Alpha計畫 — 檔案核准](review-and-approve-work/Documents/doc-approvals-alpha.md)
-   * [Alpha程式 — Workfront + Frame.io](review-and-approve-work/Documents/wf-frame-alpha.md)
+   * [Beta版計畫 — Workfront + Frame.io](review-and-approve-work/Documents/wf-frame-alpha.md)
    * [非付費使用者的有限檔案和校訂決定概覽](review-and-approve-work/proof-doc-decision-limits.md)
    * 工作核准 {#work-approvals}
       * [工作核准](review-and-approve-work/manage-approvals/manage-approvals.md)
