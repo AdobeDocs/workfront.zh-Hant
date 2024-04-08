@@ -9,9 +9,9 @@ hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: 68b91aad-af76-473f-861d-da846fdfb84c
-source-git-commit: 7e970f4f707937a62f68c191a7cbd5dfa26e471c
+source-git-commit: 959bd3cab0de8b76c94fad1be5b6b2b8b7ae904b
 workflow-type: tm+mt
-source-wordcount: '909'
+source-wordcount: '908'
 ht-degree: 0%
 
 ---
@@ -24,11 +24,11 @@ ht-degree: 0%
 
 ## Workfront中的工作啟動和規劃
 
-Workfront管理員可啟用Workfront與Frame.io之間的整合，方法是在「設定」區域中設定預設Frame.io帳戶，然後在Workfront中指定Frame.io使用者。 這允許協調員使用Workfront專案及正式檢閱和核准來計畫和啟動工作。
+Workfront管理員可啟用Workfront與Frame.io之間的整合，方法是在「設定」區域中設定預設Frame.io帳戶，然後在Workfront中指定Frame.io使用者。 這允許協調員使用Workfront專案和正式稽核及核准工作流程來計畫和啟動工作。
 
 ### 設定預設的Frame.io帳戶
 
-Workfront管理員會在Workfront的「設定」區域中新增預設Frame.io帳戶，以起始Workfront和Frame.io整合。 設定預設的Frame.io帳戶後，整合會在Workfront和Frame.io之間建立連線的專案。
+Workfront管理員會在Workfront的「設定」區域中新增預設Frame.io帳戶，以起始Workfront和Frame.io整合。 設定預設的Frame.io帳戶後，在Workfront中建立的任何專案都會在Frame.io中建立映象專案。
 
 如需詳細資訊，請參閱 [].
 
@@ -42,11 +42,11 @@ Workfront管理員會在Workfront的「設定」區域中新增預設Frame.io帳
 
 * 他們在Frame.io中新增為共同作業人員
 * 他們可以從Frame.io將資產傳送到Workfront以進行正式檢閱和核准
+* 他們可以從Workfront在單向同步資料夾中檢視資訊
 
 >[!TIP]
 >
 >我們建議讓經常使用創意工具及上傳資產的使用者能夠以Frame.io使用者的身分檢閱和核准。
-
 
 如需詳細資訊，請參閱 [].
 
@@ -86,26 +86,26 @@ Workfront管理員會在Workfront的「設定」區域中新增預設Frame.io帳
 
 一旦創意內容從Frame.io將完成的資產傳送到Workfront，專案協調員就可以在Workfront中啟動正式的稽核和核准流程。
 
-建立核准後，使用者會返回Frame.io以評論和標示資產。 他們也可以在Frame.io檢視器中做出核准決定。
+建立核准後，使用者會返回Frame.io加上註解並標籤資產。 他們也可以在Frame.io檢視器中做出核准決定。
 
 ### 在Workfront中啟動正式稽核和核准
 
 專案專員可在Workfront的「設定」區域中建立一次性稽核和核准或可重複核准範本。 在Frame.io中進行的所有檢閱和核准活動也會記錄在Workfront中。
 
+#### 新增稽核者和核准者
+
 專案專員可選擇指派稽核者、核准者，或兩者的組合：
 
 * **檢閱者** 可以評論和標示資產。 完成後，他們可以將其稽核標籤為完成。 <!--example of when to add reviewers-->
-* **核准者** 可以在標籤資產上加上註解。 他們必須決定推進核准程式。
+* **核准者** 可以評論和標示資產。 他們必須決定推進核准程式。
 
 
+#### 建立稽核和核准工作流程
 
-在Frame.io中所做的任何評論都會反映在Workfront的「更新」索引標籤中。 在Workfront中進行的回覆不會反映在Frame.io中。
-
-標示為「僅限團隊」的註解不會出現在「Workfront更新」標籤中。
-
-檢閱者和核准者可新增至一次性使用或核准範本：
+可將稽核者和核准者新增至單一使用、核准工作流程或核准範本：
 
 <!--can also assign teams and set deadline-->
+電子郵件 — 截止日期電子郵件72、24和截止日期。
 
 * **單一使用核准**：設定核准截止日期
 
@@ -123,31 +123,34 @@ Workfront管理員會在Workfront的「設定」區域中新增預設Frame.io帳
 
 ### 核准Frame.io中的資產
 
-Frame.io連線的資產利益關係人可以在Frame.io檢視器中檢閱和核准，其註解同步至Workfront更新流、決定等。
+利害關係人可以利用Frame.io檢視器檢閱和核准連結的資產。
+
+#### 存取Frame.io檢視器
+
+使用者可透過下列方式存取Frame.io檢視器：
+
+* 新Workfront首頁區域中的等待我核准Widget
+* Workfront電子郵件通知。
+
+系統會要求外部Workfront使用者建立Frame.io登入資訊，以便檢閱及核准資產。
+
+#### 評論和標示資產
+
+在Frame.io檢視器中所做的所有註解也會記錄在Workfront的「更新」標籤中。 在Workfront中進行的回覆不會出現在Frame.io中。 標示為「僅限團隊」的註解不會出現在「Workfront更新」標籤中。
+
+#### 做出決定
+
+核准者必須執行下列其中一項決定：
+
+* 核准：這個
+* 核准 (附帶變更)
+* 需要工作
+
+檢閱者可以在Frame.io檢視器內將其檢閱標籤為完成。
 
 <!-- include screenshot from frame.io-->
 
-如果您只在Frame中工作，可以透過電子郵件通知您有要求。
 
-如果您只在Workfront中工作，則可以在首頁中使用核准Widget。
-
-您工作時隨時可以從存取Frame.io檢視器
-
-**從Frame.io核准資產**
-如何通知他們
-
-做出決定 — 核准、核准變更、需要工作
-
-**從Workfront核准資產**
-如何通知他們
-
-首頁等待我的核准Widget
-
-電子郵件 — 截止日期電子郵件72、24和截止日期。
-
-系統會要求外部WF使用者為框架建立登入
-
-如果資產未連線框架，他們可以在WF中檢視縮圖並使用註解流。 可做出檢閱和核准決定。
 
 <!-- upload assets directly to workfront to be reviewed in Frame.io/ Will have to send manually at first
 
