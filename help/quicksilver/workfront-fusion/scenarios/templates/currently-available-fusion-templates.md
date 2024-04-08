@@ -7,9 +7,9 @@ description: Adobe Workfront Fusion目前提供下列公用範本。
 author: Becky
 feature: Workfront Fusion
 exl-id: 29d95b93-ab54-416d-b0d5-ff12634951b2
-source-git-commit: 3f07ccb23c6697547742537aa63211ac594c1062
+source-git-commit: 2b2424a26ba903cda8f03c468da733732bf6d434
 workflow-type: tm+mt
-source-wordcount: '1145'
+source-wordcount: '1162'
 ht-degree: 0%
 
 ---
@@ -58,7 +58,7 @@ Adobe Workfront Fusion目前提供下列公用範本。
 
 此範本會將問題轉換為專案。 您可以修改以符合組織的標準。
 
-### [!BADGE 新增!]{type=Informative}
+### Workfront — 將檔案從問題/請求複製到已轉換的專案或任務
 
 此彈性案例會將問題或請求中的檔案複製到先前轉換的專案或任務。
 
