@@ -1,29 +1,29 @@
 ---
 content-type: reference
 navigation-topic: betas
-title: 'Adobe Workfront和Frame.io原生整合alpha：功能'
-description: Adobe Workfront和Frame.io原生整合Alpha的計畫功能
+title: 'Adobe Workfront和Frame.io原生整合beta版：功能'
+description: Adobe Workfront和Frame.io原生整合測試版的計畫功能
 author: Nolan
 feature: Product Announcements
 hide: true
 hidefromtoc: true
 exl-id: a1603a06-957b-4d52-89f3-f0cec1a4e02c
-source-git-commit: 9e6033e495e83afa994b21996a4026ac484045a0
+source-git-commit: b7a0fe333f0d8f17bc2d6c612d8cff6ee484c935
 workflow-type: tm+mt
 source-wordcount: '1250'
 ht-degree: 0%
 
 ---
 
-# Adobe Workfront與Frame.io原生整合alpha：功能和測試
+# Adobe Workfront和Frame.io原生整合Beta版：功能和測試
 
 透過這項整合，我們的目標是讓創意人員留在他們選擇的工具（CC或Frame.io）中執行其內容建立和同行審閱，同時讓專案經理協調工作，並從Workfront內部初始化和監控正式稽核流程。 最佳化兩種解決方案結合使用，即可達成此目的：Workfront管理內容核准的新檔案核准，以及Frame.io提供的內容檢閱功能。 整體而言，新檔案核准和Frame.io將形成我們新的端對端內容稽核和核准體驗。 
 
-若要進一步瞭解Alpha的運作方式以及參與的方式，請參閱 [Adobe Workfront與Frame.io整合alpha：概觀](/help/quicksilver/product-announcements/betas/frame-io-wf-integration-alpha/frame-io-wf-integration-alpha-overview.md).
+若要進一步瞭解Beta版的運作方式以及參與的方式，請參閱 [Adobe Workfront和Frame.io整合Beta版：概觀](/help/quicksilver/product-announcements/betas/frame-io-wf-integration-alpha/frame-io-wf-integration-alpha-overview.md).
 
 >[!NOTE]
 >
->如果您的公司未參與此Alpha方案，您可能會看到這些頁面，請務必謹慎處理這些資訊，並聯絡Workfront或Frame.io管理員以取得詳細資訊。
+>如果您的公司未參與此Beta版計畫，您可能會看到這些頁面，請務必謹慎處理這些資訊，並聯絡Workfront或Frame.io管理員以取得詳細資訊。
 >
 
 ## 示範影片
@@ -32,11 +32,11 @@ ht-degree: 0%
 
 ## 基本測試案例
 
-為了讓您輕鬆測試Alpha程式的新功能，我們已建立新的測試Frame.io帳戶，並將其連線到名為的新群組 `Frame.io alpha testing` 在現有的Workfront預覽或沙箱環境中。
+為了讓您輕鬆測試測試版計畫的新功能，我們已建立新的測試Frame.io帳戶，並將其連線至名為的新群組 `Frame.io testing` 在現有的Workfront預覽或沙箱環境中。
 
 若要測試功能，請登入您的Workfront預覽或沙箱執行個體，然後執行下列步驟：
 
-1. **協調員：** 在Workfront中，建立專案，使用 `Frame.io alpha testing` 群組已指派為專案群組。
+1. **協調員：** 在Workfront中，建立專案，使用 `Frame.io testing` 群組已指派為專案群組。
 
 1. **協調員：** 在Workfront中，將需要創意工作的任務標示為已啟用框架（在任務詳細資料中），並將您的創意指派給它（如果您想要測試整個工作流程，也請指派您自己）。
 
@@ -69,7 +69,9 @@ ht-degree: 0%
 
 ## 詳細測試案例
 
-對於想要測試其他功能的參與者，我們已建立更複雜的測試情境。 您可以在此處下載此詳細測試案例的指南： [WF + Frame.io詳細測試案例逐步說明](/help/quicksilver/product-announcements/betas/assets/WF-Frame-Detailed-Test-Scenario-Walkthrough.pdf).
+對於想要測試其他功能的參與者，我們已建立更複雜的測試情境。 您可以在此處下載此詳細測試案例的指南： [WF + Frame.io詳細測試案例逐步說明](/help/quicksilver/product-announcements/betas/assets/MVP-WF-Frame-Detailed-Walk-Through.pdf).
+
+
 
 ## 功能計畫
 
@@ -77,7 +79,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->專案符號下 **「未來版本的潛在改善」** 視於alpha意見回饋和我們的開發計畫而定，頁首可能包含在未來版本中，也可能不包含在未來版本中。
+>專案符號下 **「未來版本的潛在改善」** 視測試版回饋意見以及我們不斷發展的開發計畫而定，標題可能會也可能不會包含在未來版本中。
 >
 
 ### Workfront管理員可以在Workfront群組和Frame.io帳戶之間建立連線
