@@ -3,9 +3,9 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文件、教學課程和其他資源，了解如何在您的組織中實施並有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: 10967c222cdcbfc426260af491f5e6f5b9b81a76
+source-git-commit: fffe92bc21104e297bc9dfcbc399c34b011e3927
 workflow-type: tm+mt
-source-wordcount: '14102'
+source-wordcount: '14108'
 ht-degree: 1%
 
 ---
@@ -2642,6 +2642,7 @@ ht-degree: 1%
       * [使用JWT流程設定並使用您組織的自訂OAuth 2應用程式](wf-api/api/oauth-app-jwt-flow.md)
       * [使用PKCE流程設定並使用您組織的自訂OAuth 2應用程式](wf-api/api/oauth-app-pkce-flow.md)
       * [棄用API — 內部](wf-api/api/deprecation-api-internal.md)
+      * [API 18版的新增功能](wf-api/api/new-api-version-18.md)
       * [API 17版的新增功能](wf-api/api/new-api-version-17.md)
       * [API 16版的新增功能](wf-api/api/new-api-version-16.md)
       * [API 15版的新增功能](wf-api/api/new-api-version-15.md)
@@ -2698,7 +2699,7 @@ ht-degree: 1%
       * [類別](wf-api/wf-objects/category.md)
    * Adobe Workfront API的秘訣、技巧和疑難排解 {#tips-troubleshooting-apis}
       * [Adobe Workfront API的秘訣、技巧和疑難排解](wf-api/tips-tricks-and-troubleshooting/tips-troubleshoot-api.md)
-      * [Adobe Workfront API呼叫的網域格式](wf-api/tips-tricks-and-troubleshooting/locate-domain-for-API.md)
+      * [Adobe Workfront API呼叫的網域格式](wf-api/tips-tricks-and-troubleshooting/locate-domain-for-api.md)
       * [API錯誤：「遠端伺服器傳回錯誤：(400)錯誤請求」](wf-api/tips-tricks-and-troubleshooting/api-error-remote-server.md)
       * [大型分頁搜尋期間傳回的重複專案](wf-api/tips-tricks-and-troubleshooting/duplicates-paginated-search.md)
       * [排序API中的查詢結果](wf-api/tips-tricks-and-troubleshooting/query-sort-api.md)
