@@ -7,10 +7,10 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: b072704c-a34c-4a17-aca3-ab93a016dfc8
-source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
+source-git-commit: ebcd2cae176d4fec2fd0bc308f00fa261621a95c
 workflow-type: tm+mt
-source-wordcount: '249'
-ht-degree: 10%
+source-wordcount: '319'
+ht-degree: 8%
 
 ---
 
@@ -37,6 +37,10 @@ Adobe Workfront會定期發行新API版本，通常每年兩次。 API版本在�
  </thead> 
  <tbody> 
  <tr>
+   <td>18</td> 
+   <td> <p>2023年4月8日</p> </td> 
+   <td> <p>**2027年期間</p> <p>（第27.4發行版本）</p> </td> 
+  </tr>  <tr>
    <td>17</td> 
    <td> <p>2023年10月12日</p> </td> 
    <td> <p>**2026年期間</p> <p>（第26.10發行版本）</p> </td> 
