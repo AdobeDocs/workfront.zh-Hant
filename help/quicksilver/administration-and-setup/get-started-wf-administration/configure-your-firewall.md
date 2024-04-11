@@ -8,9 +8,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 264eed40-6d90-498b-83cc-2500c8b19c84
-source-git-commit: 904a7610a7c6996f9c31cb5141f7baa72fb23739
+source-git-commit: 8a8a36732800d0f48026b616cc16e4ff30e0ad41
 workflow-type: tm+mt
-source-wordcount: '1592'
+source-wordcount: '1598'
 ht-degree: 0%
 
 ---
@@ -390,6 +390,10 @@ ht-degree: 0%
   <tr> 
    <td role="rowheader"> <p>Adobe Workfront美國資料中心</p> </td> 
    <td> <p>hook.app.workfrontfusion.com </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"> <p>[!DNL Adobe Workfront Fusion] 在Microsoft Azure叢集上</p> </td> 
+   <td> <p>hook.app-az.workfrontfusion.com </p> </td> 
   </tr> 
  </tbody> 
 </table>
