@@ -9,9 +9,9 @@ description: 您可以使用Adobe Workfront Fusion Adobe Workfront聯結器在Wo
 author: Becky
 feature: Workfront Fusion, Workfront Integrations and Apps
 exl-id: b84d2d41-a983-4ea3-b331-0302bfcf8a2b
-source-git-commit: 5110370fd934ac53e48d5993604d541c73ffdadf
+source-git-commit: ceec745097d14d30a06ec347d836b701766a4f08
 workflow-type: tm+mt
-source-wordcount: '5945'
+source-wordcount: '6207'
 ht-degree: 2%
 
 ---
@@ -814,6 +814,58 @@ ht-degree: 2%
 +++
 
 +++ **[!UICONTROL 搜尋]**
+
+此搜尋模組會在中尋找物件中的記錄 [!DNL Workfront] 符合您指定的搜尋查詢。
+
+您可以在情境中的後續模組中對應此資訊。
+
+當您設定此模組時，會顯示下列欄位。
+
+<table style="table-layout:auto">
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td>[！UICONTROL Connection]</td> 
+   <td> <p>如需有關連線您的電腦的指示 [!DNL Workfront] 應用程式至 [!DNL Workfront Fusion]，請參閱 <a href="#connect-workfront-to-workfront-fusion" class="MCXref xref">連線 [!DNL Workfront] 至 [!DNL Workfront Fusion]</a> 本文章內容。</p> </td> 
+  </tr> 
+  <tr> 
+   <td>[！UICONTROL記錄型別]</td> 
+   <td> <p>選擇型別 [!DNL Workfront] 您要模組搜尋的記錄。</p> </td> 
+  </tr> 
+  <tr> 
+   <td>[！UICONTROL結果集]</td> 
+   <td>選取選項以指定您希望模組取得符合搜尋條件的第一個結果，還是所有符合該條件的結果。</td> 
+  </tr> 
+  <tr> 
+   <td>[！UICONTROL Maximal]</td> 
+   <td> <p>輸入或對應您希望模組在每個案例執行週期中傳回的最大記錄數。</p> </td> 
+  </tr> 
+  <tr> 
+   <td>[！UICONTROL搜尋條件欄位]</td> 
+   <td> <p>選取您要用於搜尋條件的欄位。 這些欄位隨後將顯示在搜尋條件下拉式清單中。</p></td> 
+  </tr> 
+  <tr> 
+   <td>[！UICONTROL搜尋條件]</td> 
+   <td> <p>輸入您要搜尋的欄位、要在查詢中使用的運運算元，以及要在欄位中搜尋的值。</p> <p>注意：請勿使用 <code>username </code>在您的搜尋條件中。 包含 <code>username </code>在API查詢中至 [!DNL Workfront] 將使用者登入Workfront，搜尋將不會成功。</p> <p>注意： <code>In</code> 和 <code>NotIn</code>使用陣列。 輸入的格式應為陣列。</p></td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td>[！UICONTROL輸出]</td> 
+   <td> <p>選取您要包含在此模組輸出中的欄位。</p> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td>[！UICONTROL參考]</td> 
+   <td>選取您要納入搜尋的任何參考欄位。</td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td>[！UICONTROL集合]</td> 
+   <td>選取您要新增至搜尋的任何集合。</td> 
+  </tr> 
+ </tbody> 
+</table>
++++
+
++++ **[!UICONTROL 搜尋（舊版）]**
 
 此搜尋模組會在中尋找物件中的記錄 [!DNL Workfront] 符合您指定的搜尋查詢。
 
