@@ -9,9 +9,9 @@ hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: 23d1e241-ea5b-43f5-b097-8d96e13cb267
-source-git-commit: 10967c222cdcbfc426260af491f5e6f5b9b81a76
+source-git-commit: f3c724135ae7fa0406f178b10cb0828f978805b7
 workflow-type: tm+mt
-source-wordcount: '533'
+source-wordcount: '560'
 ht-degree: 1%
 
 ---
@@ -19,6 +19,8 @@ ht-degree: 1%
 # Beta版計畫 — Workfront + Frame.io
 
 我們很高興宣佈推出Workfront + Frame.io的Beta版計畫。 您將在這裡找到有關最新Beta版的資訊，以及入門的簡短影片逐步解說。
+
+若要參與此Beta版，您必須由產品團隊啟用。 請聯絡您的客戶成功案例或客戶經理，要求新增專案。
 
 ## Frame.io中的Beta版更新 — 2024年3月
 
