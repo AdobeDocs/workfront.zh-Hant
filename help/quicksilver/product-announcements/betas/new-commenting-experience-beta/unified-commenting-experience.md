@@ -7,10 +7,10 @@ author: Alina
 feature: Product Announcements
 role: User
 exl-id: f750b35b-8021-4cc1-81d6-e1ece2530438
-source-git-commit: 5d6e9788ccbae7a8970cff56558233a57ceee1ab
+source-git-commit: c6575c832fa21a17a1d20fa7e92798d970ca0f50
 workflow-type: tm+mt
-source-wordcount: '1377'
-ht-degree: 1%
+source-wordcount: '1101'
+ht-degree: 0%
 
 ---
 
@@ -18,15 +18,13 @@ ht-degree: 1%
 
 <!--take out legacy, preview, prod references from below-->
 
-<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它僅在預覽環境中可供所有客戶使用。  </span>
-
-<span class="preview">如需目前發行排程的詳細資訊，請參閱 [2024年第二季版本總覽](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>
-
 <!--
 
-After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases.
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers.</span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](../../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)</span>  -->
+<span class="preview">For information about the current release schedule, see [Second Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>
+
+-->
 
 >[!IMPORTANT]
 >
@@ -567,54 +565,56 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
 
 ## 找出新的註解體驗
 
-<!--info for April 11: make this commented out text live and hide everything else underneath it, all the way to the end of the article: 
+<!--info for April 11: make this commented out text live and hide everything else underneath it, all the way to the end of the article:-->
 
 >[!IMPORTANT]
 >
->The new commenting experience is available in all Workfront environments on all objects with the exception of Iterations. 
+>除了版序之外，新註解體驗可用於所有物件的所有Workfront環境。
 >
->The legacy commenting experience has been removed from all environments for Projects, Tasks, Issues, and Documents. 
+>舊版評論體驗已從專案、任務、問題和檔案的所有環境中移除。
 
-For information about accessing the Updates section of Workfront objects, see [Updates section overview](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md). 
+如需有關存取Workfront物件「更新」區段的資訊，請參閱 [更新區段概觀](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
+
+<!--
+
+The new commenting experience is currently available for all customers and for all environments.
+
+Depending on what objects you access the commenting experience for, you might see the following functionality for the Updates section:
+
+* Both the new and legacy commenting experience for the following objects: 
+
+    * Project
+    * Task (this includes Stories)
+    * Issue
+    * Document
+
+      >[!NOTE]
+      >
+      ><span class="preview">The legacy commenting experience has been removed from the Preview environment since April 1, 2024. </span>
+
+* Only the new commenting experience for the objects listed below. There is no option to enable the legacy commenting experience for these objects:   
+
+    * Goal
+
+    >[!NOTE]
+    >
+    >You must have an additional license to Adobe Workfront Goals to be able to access this area of Workfront. For more information, see [Requirements to use Workfront Goals](../../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+  * Card on a board
+  * Team
+  * Template
+  * Template Task
+  * Timesheet
+  * Program
+  * Portfolio
+  * User
+
+* Only the legacy commenting experience for the following objects:
+
+  * Iterations
+    
+    There is no option to enable the new commenting experience for iterations. Only the legacy commenting experience is available for iterations. 
 
 -->
-
-新的評論體驗目前適用於所有客戶和環境。
-
-根據您存取註釋體驗的物件，您可能會在「更新」區段中看到下列功能：
-
-* 下列物件的新舊註解體驗：
-
-   * 專案
-   * 工作（包括劇本）
-   * 問題
-   * 文件
-
-     >[!NOTE]
-     >
-     ><span class="preview">自2024年4月1日起，舊版評論體驗已從預覽環境中移除。 </span>
-
-* 僅限下列物件的新註解體驗。 沒有選項可啟用這些物件的舊版註解體驗：
-
-   * 目標
-
-  >[!NOTE]
-  >
-  >您必須額外取得Adobe Workfront目標授權才能存取此Workfront區域。 如需詳細資訊，請參閱 [使用Workfront目標的需求](../../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
-   * 展示板上的卡片
-   * 團隊
-   * 範本
-   * 範本任務
-   * 時程表
-   * 方案
-   * 專案組合
-   * 使用者
-
-* 僅限下列物件的舊版註解體驗：
-
-   * 疊代
-
-     沒有選項可啟用反複專案的新註解體驗。 只有舊版註解體驗可用於反複專案。
 
 
 <!--before August 17: 
@@ -644,19 +644,22 @@ The new commenting experience is currently supported for the following objects:
 * <span class="preview">Enable the legacy commenting experience in the Preview  environment </span>
 -->
 
-若要啟用專案、任務、問題和檔案的評論體驗選項：
+<!--
 
-1. （視條件而定）在生產環境中，前往您要為其啟動新註解體驗的物件，然後按一下 **更新** 在左側面板中。
-1. （視條件而定）如果已停用，請啟用 **新增註解** 「更新」區域右上角的選項以啟用它。 預設應該啟用此功能。
-   <span class="preview">新註解選項已從預覽環境中移除。</span>
+To enable the commenting experience option for projects, tasks, issues, and documents: 
 
-   ![](assets/new-commenting-toggle-off-highlighted.png)
+1. (Conditional) In the Production environment, go to an object that you want to activate the new commenting experience for, then click **Updates** in the left panel.
+1. (Conditional) If it is disabled, enable the **New commenting** option in the upper-right corner of the Updates area to enable it. This should be enabled by default. 
+<span class="preview">The New commenting option has been removed from the Preview environment.</span> 
 
-1. 開始在 **註解** 標籤。 「註解」標籤是新體驗開啟時的預設標籤
+    ![](assets/new-commenting-toggle-off-highlighted.png)
 
-   或
+1. Start typing an update in the **Comments** tab. The Comments tab is the default tab when the new experience opens
 
-   按一下  **系統活動** 索引標籤以檢視Workfront產生的活動更新。
+    Or
 
-1. （可選）若要停用新的註解體驗並返回舊版註解，請取消選取 **新增註解** 選項。
+    Click the  **System Activity** tab to view the activity updates generated by Workfront. 
 
+1. (Optional) To disable the new commenting experience and return to legacy commenting, deselect the **New commenting** option. 
+
+-->

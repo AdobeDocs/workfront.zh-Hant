@@ -7,10 +7,10 @@ description: 物件的「更新」區段會顯示使用者對物件所做的註�
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: 6dceeeb7803e177ee0f366ee2bc94275ed231722
+source-git-commit: c6575c832fa21a17a1d20fa7e92798d970ca0f50
 workflow-type: tm+mt
-source-wordcount: '1426'
-ht-degree: 3%
+source-wordcount: '912'
+ht-degree: 4%
 
 ---
 
@@ -23,170 +23,172 @@ ht-degree: 3%
 
 <!--info for April 11: hide the disclaimer for preview below-->
 
-<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它只能在「預覽」環境中供所有客戶使用，或在「生產」環境中供啟用快速發行的客戶使用。 </span>
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers or in Production for customers who enabled fast releases. </span>
 
-<span class="preview">如需快速發行版本的相關資訊，請參閱 [啟用或停用組織的快速發行](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
 
-<span class="preview">如需目前發行排程的詳細資訊，請參閱 [2024年第二季版本總覽](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>
+<span class="preview">For information about the current release schedule, see [Second Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>
+-->
 
 <!--info for April 11: take out the Important box-->
 
 物件的「更新」區段會顯示使用者對物件所做的註解，或追蹤物件變更的系統更新。
 
+<!--
 >[!IMPORTANT]
 >
->我們目前正在重新設計Adobe Workfront中的評論體驗。
+>We are currently redesigning the commenting experience in Adobe Workfront.
 >
->根據您存取註釋體驗的物件，您可能會在「更新」區段中看到下列功能：
->* 新體驗
->* 舊版體驗
->* 全新和舊版體驗
+>Depending on what objects you access the commenting experience for, you might see the following functionality for the Updates section:
+>* The new experience
+>* The legacy experience
+>* The new and the legacy experience
 >
->如需有關新評論體驗及其可用性的詳細資訊，請參閱 [新的評論體驗](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
+>For more information about the new commenting experience and its availability, see [New commenting experience](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md). 
 >
-><Span class="preview"> 舊版評論體驗已從預覽環境中的專案、任務、問題和檔案中移除。 </span>
+><Span class="preview"> The legacy commenting experience has been removed from projects, tasks, issues, and documents in the Preview environment. </span>
 >
->新註解體驗僅適用於Workfront物件的「更新」區段，當您從以下區域存取更新時，無法使用：
+>The new commenting experience is available only for the Updates section of Workfront objects, and it is not available when you access updates from the following areas:
 >
-> * 首頁
-> * 清單中的摘要面板
-> * 時程表中的摘要面板
-> * 工作負載平衡器中的摘要面板
+> * Home
+> * Summary panel in lists
+> * Summary panel in timesheets 
+> * Summary panel in the Workload Balancer
 >
-><span class="preview">新的評論體驗可在「預覽」環境中的清單、時程表和工作負載平衡器中的「摘要」面板中取得，並可在已選擇快速發行流程的客戶的「生產」環境中取得。
+><span class="preview">The new commenting experience is available in the Summary panel in lists, timesheets, and the Workload Balancer in the Preview environment and in the Production environment for customers who have opted for the fast release process.
+-->
 
 ## 「更新」區段的總覽
 
 物件的「更新」區段會顯示系統更新，以及使用者在過去90天內所做的最近200項更新。
 
-<div class="preview">
-
 ![更新區段](assets/updates-tab-with-unified-experience-for-issues-all-tab.png)
 
-</div>
+<!--Info for April 11: Add the following right under the screen shot above:-->
 
-<!--Info for April 11: Add the following right under the screen shot above:
+下列物件有「更新」區段，您可以在其中新增註解或檢閱系統更新：
 
-The following objects have an Updates section where you can add comments or review system updates: 
-
-* Projects
-* Tasks
-* Issues
-* Programs
-* Portfolios
-* Templates
-* Template tasks
-* Users
-* Timesheets
-* Teams
-* Goals
-* Cards in the Boards area
-* Iterations
--->
+* 專案
+* 任務
+* 問題
+* 計劃
+* 專案組合
+* 範本
+* 範本任務
+* 使用者
+* 時程表
+* 團隊
+* 目標
+* 面板區域中的卡片
+* 疊代
 
 <!--info for April 11: remove all the information below, all the way down to the following section: -->
 
-根據您存取評論體驗的物件，您可能會在「更新」區段找到下列體驗：
+<!--
+Depending on what objects you access the commenting experience for, you might find the following experience for the Updates section:
 
-* 下列物件的新舊註解體驗：
+* Both the new and legacy commenting experience for the following objects: 
 
-   * 專案
-   * 工作（包括劇本）
-   * 問題
-   * 文件
+  * Project
+  * Task (this includes Stories)
+  * Issue
+  * Document
 
-     >[!TIP]
-     >
-     >使用新註解選項來顯示新的註解體驗（當您啟用時）或舊版註解體驗（當您停用時）。 預設為新的註解體驗。 如需詳細資訊，請參閱 [新的評論體驗](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
+    >[!TIP]
+    >
+    >Use the New commenting option to display the new commenting experience (when you enable it) or the legacy commenting experience (when you disable it). The new commenting experience is the default. For more information, see [New commenting experience](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md). 
 
-* 僅限下列物件的新註解體驗。 沒有選項可啟用這些物件的舊版註解體驗：
+* Only the new commenting experience for the objects listed below. There is no option to enable the legacy commenting experience for these objects:   
 
-   * 目標
+  * Goal
 
-     >[!NOTE]
-     >
-     >您必須額外取得Adobe Workfront目標授權才能存取此Workfront區域。 如需詳細資訊，請參閱 [使用Workfront目標的需求](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+    >[!NOTE]
+    >
+    >You must have an additional license to Adobe Workfront Goals to be able to access this area of Workfront. For more information, see [Requirements to use Workfront Goals](../../workfront-goals/goal-management/access-needed-for-wf-goals.md). 
 
-   * 展示板上的卡片
-   * 團隊
-   * 範本
-   * 範本任務
-   * 時程表
-   * 方案
-   * 專案組合
-   * 使用者
+  * Card on a board
+  * Team
+  * Template
+  * Template Task
+  * Timesheet
+  * Program
+  * Portfolio
+  * User
 
-* 僅限下列物件的舊版註解體驗：
+* Only the legacy commenting experience for the following objects:
 
-   * 疊代
+  * Iterations
 
-     沒有選項可啟用反複專案的新註解體驗。 如需詳細資訊，請參閱 [管理反複專案註解](/help/quicksilver/agile/use-scrum-in-an-agile-team/iterations/manage-iteration-updates.md).
+    There is no option to enable the new commenting experience for iterations. For more information, see [Manage iteration comments](/help/quicksilver/agile/use-scrum-in-an-agile-team/iterations/manage-iteration-updates.md). 
+-->
 
 <!--Info for April 11: reword the section title below to: Overview of the Updates section; and remove the preview tags-->
 
-### 新評論體驗中「更新」區段的概觀
-
-<div class="preview">
+### 「更新」區段的總覽 <!--in the new commenting experience-->
 
 ![更新區段](assets/updates-tab-after-unified-experience-for-tasks-all-tab.png)
 
-</div>
-
 <!--info for April 11: remove the NOTE below and any references below to "the new commenting experience". This should be just the ONLY experience. -->
 
+<!--
 >[!NOTE]
 >
->新的註解體驗不適用於反複專案。
+>The new commenting experience is not available for iterations.
+-->
 
-* 「更新」區段在新註解體驗的以下標籤中顯示資訊：
+* 「更新」區段在下列標籤中顯示資訊<!-- in the new commenting experience-->：
 
-   * **註解**：顯示使用者所做的評論以及對這些評論的回覆。 使用「註解」標籤來新增註解或回覆現有註解。 如需有關更新新註解體驗中物件的資訊，請參閱 [更新工作](../updating-work-items-and-viewing-updates/update-work.md).
-   * **系統活動**：顯示系統更新，這些資訊性訊息是Workfront為記錄物件上的特定事件而建立的訊息。 例如，狀態、名稱或自訂欄位的變更會透過系統更新擷取。 您的Workfront或群組管理員可以為您的物件啟用系統更新。 <span class="preview">對舊版評論體驗中系統活動記錄所做的任何回覆，都會以唯讀形式填入系統活動標籤中。</span> 如需詳細資訊，請參閱 [設定系統更新](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
-   * <span class="preview">**全部（唯讀）**：在一個位置同時顯示使用者註解和系統活動註解。 這是僅供檢視的標籤。 您無法在[全部]索引標籤的現有註解中回覆註解或標籤其他使用者。 若要回覆特定註解，請使用「全部」標籤到「註解」標籤的連結。 如需有關更新新註解體驗中物件的資訊，請參閱 [更新工作](../updating-work-items-and-viewing-updates/update-work.md).</span>
+   * **註解**：顯示使用者所做的評論以及對這些評論的回覆。 使用「註解」標籤來新增註解或回覆現有註解。 有關更新物件的資訊<!-- in the new commenting experience-->，請參閱 [更新工作](../updating-work-items-and-viewing-updates/update-work.md).
+   * **系統活動**：顯示系統更新，這些資訊性訊息是Workfront為記錄物件上的特定事件而建立的訊息。 例如，狀態、名稱或自訂欄位的變更會透過系統更新擷取。 您的Workfront或群組管理員可以為您的物件啟用系統更新。 在舊版註解體驗中對系統活動記錄所做的任何回覆，都會以唯讀形式填入系統活動標籤中。 如需詳細資訊，請參閱 [設定系統更新](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
+   * **全部（唯讀）**：在一個位置同時顯示使用者註解和系統活動註解。 這是僅供檢視的標籤。 您無法在[全部]索引標籤的現有註解中回覆註解或標籤其他使用者。 若要回覆特定註解，請使用「全部」標籤到「註解」標籤的連結。 有關更新物件的資訊<!-- in the new commenting experience-->，請參閱 [更新工作](../updating-work-items-and-viewing-updates/update-work.md).
 
-* 下列物件沒有「系統活動」標籤 <span class="preview">或「全部」標籤：</span>
+* 下列物件沒有「系統活動」標籤或「全部」標籤：
 
    * 團隊
    * 範本
    * 範本任務
    * 臨機卡
+   * 疊代
 
      如需卡片更新的詳細資訊，請參閱 [新增臨機卡到展示板](/help/quicksilver/agile/get-started-with-boards/add-card-to-board.md).
 
-* 下列物件沒有 <span class="preview">所有標籤：</span>
+     如需有關版序更新的詳細資訊，請參閱 [管理反複專案註解](/help/quicksilver/agile/use-scrum-in-an-agile-team/iterations/manage-iteration-updates.md).
+
+* 下列物件沒有「全部」標籤：
 
    * 目標
 
      如需有關目標更新的詳細資訊，請參閱 [管理目標註解](/help/quicksilver/workfront-goals/goal-management/manage-goal-comments.md).
 
 <!--info for April 11: make the text below live - remove the commented out brackets: 
+NOTE FROM LISA: I added this info above, because there was already a list of items without a System Activity or All tab.
 
 * The following objects don't have a System Activity or an All tab: 
 
   * Iterations
 
-    For more information about updates on iterations, see [Manage iteration comments](/help/quicksilver/agile/use-scrum-in-an-agile-team/iterations/manage-iteration-updates.md). 
-
--->
+    For more information about updates on iterations, see [Manage iteration comments](/help/quicksilver/agile/use-scrum-in-an-agile-team/iterations/manage-iteration-updates.md). -->
 
 <!-- info for April 11: hide the entire section below: -->
 
-### 舊版更新區段概觀
+<!--
+### Overview of the legacy Updates section 
 
 ![](assets/updates-tab-before-unified-experience-for-tasks.png)
 
-舊版更新區段會顯示下列資訊：
+The legacy Updates section shows the following information:
 
-* **使用者更新**：使用者所做的評論和對這些評論的回覆。
-* **系統更新**：Workfront為記錄物件上的特定事件而建立的資訊訊息。 例如，您可以使用系統更新來擷取狀態、名稱或自訂欄位中的變更。 您的Workfront或群組管理員可以為您的物件啟用系統更新。 如需詳細資訊，請參閱 [設定系統更新](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
+* **User updates**: Comments made by users and replies to those comments. 
+* **System updates**: Informational messages that Workfront creates to record certain events on an objects. For example, you can capture changes in status, name, or custom fields with system updates. Your Workfront or group administrator can enable system updates for your objects. For more information, see [Configure system updates](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
 
-下列物件不會記錄系統更新：
+The following objects don't record system updates:
 
-* 團隊
-* 範本
-* 範本任務
-* 疊代
-
+* Team
+* Template
+* Template Task
+* Iterations
+-->
 
 ## 也會出現在較高等級物件上的更新
 
@@ -263,13 +265,15 @@ The following objects have an Updates section where you can add comments or revi
 
 <!--info for April 11: hide the note below-->
 
+<!--
 >[!NOTE]
 >
->新增至系統更新的回覆不會彙總至父物件。 只有子物件的直接回覆和新增至現有更新的回覆會向上彙整至父物件。
+>Replies added to system updates do not roll up to the parent object. Only direct replies on a child object and replies added to existing updates roll up to parent objects.
 >
->如需Adobe Workfront中物件階層的相關資訊，請參閱 [瞭解Adobe Workfront中的物件](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
+>For information about the object hierarchy in Adobe Workfront, see [Understand objects in Adobe Workfront](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
 >
-> 無法在新評論體驗中回覆系統更新。 如需詳細資訊，請參閱 [新的評論體驗](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
+> It is not possible to reply to system updates in the new commenting experience. For more information, see [New commenting experience](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
+-->
 
 
 ## 更新區段的限制

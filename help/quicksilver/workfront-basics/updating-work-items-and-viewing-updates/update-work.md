@@ -6,10 +6,10 @@ description: 您可以在Adobe Workfront物件（專案、任務或問題）上�
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: 0483230c5d8b7d33f420c6c5f09c4a5aafe37f37
+source-git-commit: c6575c832fa21a17a1d20fa7e92798d970ca0f50
 workflow-type: tm+mt
-source-wordcount: '4288'
-ht-degree: 1%
+source-wordcount: '2974'
+ht-degree: 0%
 
 ---
 
@@ -19,35 +19,39 @@ ht-degree: 1%
 
 <!--info for April 11: take "legacy" and "new commenting" references out when we remove the legacy-->
 
-<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它只能在「預覽」環境中供所有客戶使用，或在「生產」環境中供啟用快速發行的客戶使用。 </span>
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers or in Production for customers who enabled fast releases. </span>
 
-<span class="preview">如需快速發行版本的相關資訊，請參閱 [啟用或停用組織的快速發行](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
 
-<span class="preview">如需目前發行排程的詳細資訊，請參閱 [2024年第二季版本總覽](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>
+<span class="preview">For information about the current release schedule, see [Second Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>
+-->
 
 <!--info for April 11: hide the "Important" box below-->
 
+<!--
 >[!IMPORTANT]
 >
->我們目前正在重新設計Adobe Workfront中的評論體驗。
+>We are currently redesigning the commenting experience in Adobe Workfront.
 >
->根據您存取註釋體驗的物件，您可能會在「更新」區段中看到下列功能：
->* 新體驗
->* 舊版體驗
->* 全新和舊版體驗
+>Depending on what objects you access the commenting experience for, you might see the following functionality for the Updates section:
+>* The new experience
+>* The legacy experience
+>* The new and the legacy experience
 >
->如需有關新評論體驗及其可用性的詳細資訊，請參閱 [新的評論體驗](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
+>For more information about the new commenting experience and its availability, see [New commenting experience](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md). 
 >
-><Span class="preview"> 舊版評論體驗已從預覽環境中的專案、任務、問題和檔案中移除。 </span>
+><Span class="preview"> The legacy commenting experience has been removed from projects, tasks, issues, and documents in the Preview environment. </span>
 >
->新註解體驗僅適用於Workfront物件的「更新」區段，當您從以下區域存取更新時，無法使用：
+>The new commenting experience is available only for the Updates section of Workfront objects, and it is not available when you access updates from the following areas:
 >
-> * 首頁
-> * 清單中的摘要面板
-> * 時程表中的摘要面板
-> * 工作負載平衡器中的摘要面板
+> * Home
+> * Summary panel in lists
+> * Summary panel in timesheets 
+> * Summary panel in the Workload Balancer
 >
-><span class="preview">新的評論體驗可在「預覽」環境中的清單、時程表和工作負載平衡器中的「摘要」面板中取得，並可在已選擇快速發行流程的客戶的「生產」環境中取得。 </span>
+><span class="preview">The new commenting experience is available in the Summary panel in lists, timesheets, and the Workload Balancer in the Preview environment and in the Production environment for customers who have opted for the fast release process. </span>
+-->
 
 您可以在Adobe Workfront物件上新增更新，以傳達物件的進度。 如需您可以在Workfront中新增更新的物件詳細資訊，請參閱 [更新區段總覽](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
@@ -133,113 +137,113 @@ ht-degree: 1%
 
 <!--info for April 11: hide the section below: add an update to a work item-->
 
-## 將更新新增至工作專案
+<!--
+## Add an update to a work item
 
-根據您使用的更新區段版本，向工作專案新增更新會有所不同。
+Adding an update to a work item differs depending on what version of the Updates section you use.
 
-您可以將更新新增至下列物件：
+You can add updates to the following objects: 
 
-* 專案
-* 任務
-* 問題
-* 計劃
-* 專案組合
-* 範本
-* 範本任務
-* 使用者
-* 時程表
-* 團隊
-* 目標
-* 面板區域中的卡片
-* 疊代
+* Projects
+* Tasks
+* Issues
+* Programs
+* Portfolios
+* Templates
+* Template tasks
+* Users
+* Timesheets
+* Teams
+* Goals
+* Cards in the Boards area
+* Iterations
+-->
 
 <!--info for April 11: hide the section below completely:-->
 
-### 在舊版更新區段中為工作專案新增更新
+<!--
+### Add an update to a work item in the legacy Updates section
 
 >[!IMPORTANT]
 >
->此頁面上的資訊說明如何更新專案、任務和問題。
+>The information on this page describes how you update projects, tasks, and issues.
 
-1. 移至您要為其提供更新的工作專案（例如專案、任務或問題）。
-1. 按一下 **更新** 區段。
-1. （視條件而定）如果已啟用，請按一下 **新增註解** 「更新」區段右上角的選項可停用並啟用舊版評論體驗。
-1. 按一下 **開始新的更新，** 然後輸入您的更新。
-1. （可選）使用RTF工具列中的選項來格式化文字、新增emoji、連結或影像至更新，以強化內容。 如需詳細資訊，請參閱 [在Workfront更新中使用RTF文字](#use-rich-text-in-a-workfront-update) 一節。
-1. （選擇性）更新下列任何有關工作專案的資訊：
+1. Go to the work item for which you want to provide an update (such as a project, task, or issue).
+1. Click the **Updates** section.
+1. (Conditional) If it is enabled, click the **New commenting** option in the upper-right corner of the Updates section to disable it and enable the legacy commenting experience.
+1. Click **Start a new update,** then type your update.  
+1. (Optional) Use the options in the Rich Text toolbar to format your text, add emojis, links, or images to your update, to enhance your content. For more information, see the [Use Rich Text in a Workfront update](#use-rich-text-in-a-workfront-update) section in this article.
+1. (Optional) Update any of the following information about the work item:
 
    <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader"><strong>通知</strong></td> 
-      <td>識別必須收到更新通知的使用者。 指定或訂閱物件的使用者會在進行更新時自動收到通知。<br><p>如需如何在更新中包含其他專案的詳細資訊，請參閱 <a href="../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md" class="MCXref xref">標籤其他人的更新</a>.</p></td> 
+      <td role="rowheader"><strong>Notify</strong></td> 
+      <td>Identify users who must be notified of the update. Users assigned or subscribed to the object automatically receive notification when an update is made.<br><p>For information about how to include others on an update, see <a href="../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md" class="MCXref xref">Tag others on updates</a>.</p></td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>認可日期</strong></td> 
-      <td>在日期選擇器中，選取您認可完成工作專案的日期。 如需有關認可日期的資訊，請參閱 <a href="../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md" class="MCXref xref">認可日期總覽</a>.</td> 
+      <td role="rowheader"><strong>Commit Date</strong></td> 
+      <td>In the date picker, select the date that you commit to complete the work item. For information about Commit Date, see <a href="../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md" class="MCXref xref">Commit Date overview</a>.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>狀況</strong></td> 
-      <td>為任務或問題選取新條件。 如需有關選取條件的資訊，請參閱 <a href="../../manage-work/projects/updating-work-in-a-project/update-condition-for-tasks-and-issues.md" class="MCXref xref">更新任務和問題的條件</a>.</td> 
+      <td role="rowheader"><strong>Condition</strong></td> 
+      <td>Select a new condition for the task or issue. For information about selecting a condition, see <a href="../../manage-work/projects/updating-work-in-a-project/update-condition-for-tasks-and-issues.md" class="MCXref xref">Update Condition for tasks and issues</a>.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>狀態</strong></td> 
-      <td>按一下目前狀態旁邊的箭頭，然後從下拉式選單中選取所需的狀態。 如需有關設定「狀態」的資訊，請參閱 <a href="../../manage-work/projects/updating-work-in-a-project/update-task-status.md" class="MCXref xref">更新任務狀態</a>.<p>更新工作專案的狀態不會自動變更專案狀態。 視您專案的設定方式而定，您可能會個別更新專案狀態。 如需各種專案更新型別的詳細資訊，請參閱 <a href="../../manage-work/projects/manage-projects/select-project-update-type.md" class="MCXref xref">選取專案更新型別 </a>.</p><p><b>附註</b>
-
-   當工作專案處於未決核准狀態時，您無法變更其狀態。</p></td>
-   </tr> 
-     <tr> 
-      <td role="rowheader"><strong>完成列</strong></td> 
-      <td>（僅適用於任務）將進度列滑至所需的百分比，以指出已完成工作的百分比。 您也可以連按兩下完成列並輸入完成百分比。</td> 
+      <td role="rowheader"><strong>Status</strong></td> 
+      <td>Click the arrow beside the current status, then select the desired status from the drop-down menu. For information about setting a Status, see <a href="../../manage-work/projects/updating-work-in-a-project/update-task-status.md" class="MCXref xref">Update task status</a>.<p>Updating the status of a work item does not automatically change the status of a project. Depending on how your project is set up, you might make updates to the project status separately. For more information on the various project update types, see <a href="../../manage-work/projects/manage-projects/select-project-update-type.md" class="MCXref xref">Select the project Update Type </a>.</p><p><b>NOTE</b>
+      
+      You cannot change the status of a work item while it is in a Pending Approval status.</p></td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>成為我公司所私有</strong></td> 
-      <td> <p>停用此選項可防止公司外部的使用者擁有檢視此更新的存取權。</p> 
-      <p><b>附註</b></p>
-      <p>只有在使用者與公司相關聯時，才會顯示此選項。</p>
-      <p>此選項並非適用於所有您可從中新增更新的區域。 例如，您無法從第三方應用程式新增更新。 </p>
+      <td role="rowheader"><strong>Completion Bar</strong></td> 
+      <td>(Only available on tasks) Indicate the percentage of work completed by sliding the progress bar to the desired percentage. You can also double-click the completion bar and enter the percent complete.</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader"><strong>Private to my company</strong></td> 
+      <td> <p>Disable this option to prevent users outside your company from having access to view this update.</p> 
+      <p><b>NOTE</b></p>
+      <p>This option displays only when the user is associated with a Company.</p>
+      <p>This option is not available in all areas where you can add updates from. For example, this is not available in third-party applications where you can add updates from. </p>
       </td> 
      </tr> 
     </tbody> 
    </table>
 
-1. 按一下 **更新** 將更新新增至Workfront物件。
+1. Click **Update** to add the update to the Workfront object.
 
    >[!NOTE]
    >
-   >按一下後會顯示一個小型快顯視窗7秒 **更新**，可讓您復原更新，並在更新發佈前返回編輯窗格。 如果您關閉復原快顯視窗、等待快顯視窗消失或離開頁面，則會發佈更新。
+   >A small pop-up window will appear for seven seconds after clicking **Update**, allowing you to undo the update and return to the editing pane before the update is posted. The update is posted if you dismiss the undo pop-up, wait for it to disappear, or navigate away from the page. 
    >
-   >如果您的Workfront管理員在存取層級中選取「永不允許使用者刪除註解」設定，您便無法復原註解。 如需詳細資訊，請參閱 [建立和修改自訂存取層級](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+   >If your Workfront administrator selects the "Never allow users to delete comments" setting in your access level, you cannot undo a comment. For more information, see [Create and modify custom access levels](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
-1. 若要回覆更新，請參閱 [回覆更新](../../workfront-basics/updating-work-items-and-viewing-updates/reply-to-updates.md).
+1. To reply to an update, see [Reply to updates](../../workfront-basics/updating-work-items-and-viewing-updates/reply-to-updates.md).
+-->
 
 <!--info for April 11: reword the title of this section to: "Add an update to a work item"; take out the step that says you need to enable the "New commenting" toggle (I think it is step 3??)-->
 
-### 使用新的註解體驗將更新新增到工作專案
+## 將更新新增至工作專案 <!--using the new commenting experience-->
 
 1. 找到您要更新的物件（專案、任務或問題），然後按一下其名稱以開啟物件的頁面。
 1. 按一下  **更新** 在左側面板中。
 此 **註解** 標籤預設為選取。
 
-1. （視條件而定）如果 **新增註解** 選項已停用，請按一下以啟用它。
+<!--
+1. (Conditional) If the **New commenting** option is disabled, click to enable it. 
 
-   這會啟用新的評論體驗。
+   This enables the new commenting experience. 
 
-   >[!TIP]
-   >
-   ><span class="preview">「新註解」選項已在「預覽」環境中移除。</span>
-
+      >[!TIP]
+      >
+      ><span class="preview">The New commenting option has been removed in the Preview environment.</span>
+-->
 
 1. 開始在 **新註解** 方塊。
 
-   <div class="preview">
-
    ![新註解方塊](assets/comment-box-all-tabs.png)
-
-   </div>
-
 
    >[!TIP]
    >
@@ -248,6 +252,7 @@ ht-degree: 1%
 1. （可選）若要復原或重做變更，請使用下列快速鍵：
    * CTRL + Z (Mac為⌘ + z)可復原變更
    * 按CTRL + Y (Mac則為⌘ + y)以重做變更
+
 1. （選用）在 **標籤人員或團隊** 區域，開始輸入使用者或要納入此註解中的團隊的名稱或電子郵件，然後在其顯示在清單中時選取它。
 1. （可選）使用RTF工具列中的選項來格式化文字、新增emoji、連結或影像至更新，以強化內容。 如需詳細資訊，請參閱 [在Workfront更新中使用RTF文字](#use-rich-text-in-a-workfront-update) 一節。
 
@@ -273,7 +278,6 @@ ht-degree: 1%
    >
    >目前年份的評論不會在日期戳記中顯示年份。 將游標暫留在時間戳記上會顯示完整日期，包括年份。
 
-
    ![](assets/edited-tag-on-comment-unified-commenting.png)
 
    >[!TIP]
@@ -282,15 +286,13 @@ ht-degree: 1%
    >* 註解旁邊的日期戳記是原始註解的日期，而不是上次編輯的日期。
    >* 當您代表另一個使用者新增註解時(以Workfront或群組管理員身份登入時)，如果您以其他使用者身份登入，則無法編輯註解。 只有在您以使用者身分登出並以您自己的身分重新登入後，才能編輯註解。
 
-
-1. （選用）按一下 **回覆** 或開始在 **新增回覆……** 區域，回覆現有註解，然後遵循上述步驟4-8。 <!--(**************insure this stays accurate***********)--> 如需有關回覆更新的資訊，請參閱 [回覆更新](../../workfront-basics/updating-work-items-and-viewing-updates/reply-to-updates.md).
+1. （選用）按一下 **回覆** 或開始在 **新增回覆……** 區域，回覆現有註解，然後遵循上述步驟3-7。 <!--(**************insure this stays accurate***********)--> 如需有關回覆更新的資訊，請參閱 [回覆更新](../../workfront-basics/updating-work-items-and-viewing-updates/reply-to-updates.md).
 
 1. （條件式與選擇性）如果您在新增註解時，有其他使用者新增的註解顯示在「更新」區段的可見區域之外，請按一下 **檢視** 藍色內部 **新評論橫幅** 在熒幕底部顯示這些註解。
 
    ![](assets/blue-new-comments-banner-with-view-button.png)
 
    熒幕底部會顯示其他註解。
-
 
    >[!NOTE]
    >
@@ -305,23 +307,22 @@ ht-degree: 1%
    >
    >前兩個已標籤實體的名稱會顯示在它們的頭像旁。 如果兩個以上的圖元被標籤，則只顯示第一個圖元的名稱和其他圖元的數量。
 
-1. <span class="preview"> （選用）按一下評論者的名稱，即可在資訊方塊中檢視其名稱、角色及電子郵件地址。 在資訊方塊中再次按一下評論者的名稱以開啟其使用者設定檔。</span>
+1. （選用）按一下評論者的名稱，即可在資訊方塊中檢視其名稱、角色及電子郵件地址。 在資訊方塊中再次按一下評論者的名稱以開啟其使用者設定檔。
 1. （可選）按一下 **系統活動** 標籤以檢視系統記錄的更新。 當物件或其任何子系更新時，Workfront會產生有關該更新的附註，並將其顯示在系統活動標籤中。
 
    如需詳細資訊，請參閱 [更新區段概觀](../updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
    >[!TIP]
    >
-   >您無法將註解新增至系統更新。 <span class="preview">但是，對舊版註釋體驗中的系統活動記錄所做的任何回覆，都會以唯讀形式填入系統活動標籤中。</span>
+   >您無法將註解新增至系統更新。 但是，對舊版註釋體驗中的系統活動記錄所做的任何回覆，都會以唯讀形式填入系統活動標籤中。
 
-1. <span class="preview">（可選）按一下 **全部** 標籤以在一個位置檢視使用者註解和系統活動註解。 這是僅供檢視的標籤。</span>
+1. （可選）按一下 **全部** 標籤以在一個位置檢視使用者註解和系統活動註解。 這是僅供檢視的標籤。
 
    >[!TIP]
    >
-   ><span class="preview">您無法在[全部]索引標籤的現有註解中回覆註解或標籤其他使用者。 若要回覆「全部」標籤中的註解，請按一下 **在評論中回覆** 以在「註解」標籤中開啟註解。</span>
+   >您無法在[全部]索引標籤的現有註解中回覆註解或標籤其他使用者。 若要回覆「全部」標籤中的註解，請按一下 **在評論中回覆** 以在「註解」標籤中開啟註解。
 
 ## 在Workfront更新中使用RTF文字{#use-rich-text-in-a-workfront-update}
-
 
 您可以使用RTF或新增各種專案（例如emoji、連結或影像）來增強更新。
 
@@ -338,7 +339,7 @@ ht-degree: 1%
    | 超連結 | ![mceclip7.png](assets/mceclip7.png) | <br>若要開啟「新增連結」方塊： ⌘+K</br> <br>若要在選取的文字上貼上連結： ⌘+V</br> | <br>若要開啟「新增連結」方塊：Ctrl+K</br> <br>若要在選取的文字上貼上連結：Ctrl+V</br> |
    | 項目符號清單 | ![mceclip6.png](assets/mceclip6.png) | ⌘+Shift+8 | Ctrl+Shift+8 |
    | 編號清單 | ![mceclip5.png](assets/mceclip5.png) | ⌘+Shift+7 | Ctrl+Shift+7 |
-   | 封鎖報價 | ![](assets/block-quote-icon-large.png) | ⌘+Shift+9 | <br>Ctrl+Shift+9</br> <br>這在新的評論體驗中無法使用。 </br> |
+   <!--| Block Quote | ![](assets/block-quote-icon-large.png)|⌘+Shift+9 |<br>Ctrl+Shift+9</br> <br>This is not available in the new commenting experience. </br> |-->
 
    <!--remove the last row when we remove legacy from the system-->
 
@@ -354,11 +355,11 @@ ht-degree: 1%
    >* 如果您的組織搭配Internet Explorer使用Workfront，則貼入更新的任何格式化文字都會遺失RTF格式，並顯示為純文字。 您可以使用RTF工具列上的屬性來重新格式化文字。
    >* RTF格式不適用於「時程表」區域中進行的更新，或報表中檢視的「附註」和「最後條件」物件。
 
-1. （選擇性和條件性）如果您要包含先前更新或其他來源的文字，並將其與您自己的更新區分開來，您可以將其標示為「區塊報價」。 按一下 **封鎖報價** 圖示 ![](assets/block-quote-small.png) 並輸入您要報價的文字。 引號文字會以垂直灰色線標示。 按一下 **封鎖報價** 圖示以恢復正常格式。 這在新的評論體驗中無法使用。
+<!--1. (Optional and conditional) If you want to include text from previous updates or from other sources and distinguish it from your own update, you can mark it as a Block Quote. Click the **Block Quote** icon ![](assets/block-quote-small.png) and type the text you want to quote. The quoted text displays marked with a vertical gray line. Click the **Block Quote** icon again to return to normal formatting. This is not available in the new commenting experience.-->
 
-   <!--remove this picture below and the bullet above when we remove legacy-->
+<!--remove this picture below and the bullet above when we remove legacy-->
 
-   ![](assets/block-quote-marked-350x144.png)</span>
+<!--![](assets/block-quote-marked-350x144.png)-->
 
 1. （可選）按一下 **emoji** 圖示 ![](assets/emoji-icon.png) 以新增emoji至您的更新。
 
@@ -384,7 +385,7 @@ ht-degree: 1%
 1. （可選）若要將影像附加到更新中，請執行下列任一項作業：
 
    * 將影像儲存在電腦上，然後將其拖放到「新增註解」區域。
-   * 從電腦複製熒幕擷圖，然後貼到註解中。 舊版評論體驗中不提供此功能。
+   * 從電腦複製熒幕擷圖，然後貼到註解中。<!-- This is not available in the legacy commenting experience.-->
    * 按一下 **新增影像** 圖示 ![](assets/add-image-mountain-with-plus-icon.png) 並瀏覽至您電腦上的影像。
 
 
@@ -395,10 +396,7 @@ ht-degree: 1%
    >* 可從物件的「更新」區段存取影像，也可從主功能表下的「檔案」區域存取影像。
    >* 您可以在新的註解中按一下滑鼠右鍵，或在鍵盤上按Windows適用的CTRL + V (或Mac適用的⌘ + V )以貼上影像。
    >* 您可以傳送包含影像且不含文字的更新。
-   >* 刪除包含影像的註解時，系統會根據您選擇的體驗，顯示下列情況：
-   >
-   >     * 在舊版註解體驗中，影像仍會保留在檔案區域中，但在更新區段中不再顯示。
-   >     * 在新註解體驗中，影像會從「更新」區段及「檔案」區域移除。 當您編輯註解並刪除影像時，也會從「檔案」區域刪除影像。
+   >* 當您刪除包含影像的註解時，該影像會從「更新」區段及「檔案」區域移除。 當您編輯註解並刪除影像時，也會從「檔案」區域刪除影像。
    >* 當有人從「檔案」區域刪除附加至註解的影像時，該影像也會從註解中移除。
 
    <!--remove the statement above about legacy, when we remove the legacy environment.-->
@@ -437,13 +435,13 @@ ht-degree: 1%
 
 有幾種方式可以複製更新。 複製連結後，您可以與其他人共用連結，以將他們導向更新。
 
-複製更新會因您使用的評論體驗而異。
+<!--Copying an update differs depending on which commenting experience you use.-->
 
 <!--info for April 11: take the sentence above out and reword the section title below to: Copy an update-->
 
-### 在新的評論體驗中複製更新
+### 複製更新 <!--in the new commenting experience-->
 
-如需有關新註解體驗有哪些功能可用以及哪些物件的資訊，請參閱 [新的評論體驗](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
+<!--For information about what features are available for the new commenting experience and for what objects, see [New commenting experience](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).-->
 
 您可以執行下列任一項作業，從現有註解複製資訊：
 
@@ -493,61 +491,63 @@ ht-degree: 1%
 
 <!--info for April 11: hide the entire section below - notice that there are several sub-sub sections below this main section - hide them all, all the way up to "Delete an update"-->
 
-### 複製舊版評論體驗中的更新
+<!--
+### Copy an update in the legacy commenting experience
 
-* [複製更新](#copy-the-update)
-* [複製執行緒連結](#copy-the-thread-link)
-* [複製更新連結](#copy-the-update-link)
-* [引文回覆](#quote-reply)
+* [Copy the update](#copy-the-update) 
+* [Copy the thread link](#copy-the-thread-link) 
+* [Copy the update link](#copy-the-update-link)
+* [Quote Reply](#quote-reply)
 
-  >[!TIP]
-  >
-  >當您複製並共用更高層物件之子物件對話的連結時，該連結會在子物件的「更新」區域中開啟對話串。
-  >
-  >例如，如果您從專案的「更新」區域複製任務註解的連結，註解會開啟任務頁面。
+   >[!TIP]
+   >
+   >When you copy and share the link of a conversation on a child object from a higher-ranking object, the link opens the thread in the child object's Updates area. 
+   >
+   >For example, if you copy the link of a task comment from the project's Updates area, the comment opens the task page.
 
-#### 複製更新 {#copy-the-update}
+#### Copy the update {#copy-the-update}
 
-此選項會將文字從特定更新複製到剪貼簿。
+This option copies the text from a specific update to the clipboard.
 
-1. 前往更新或您要複製的回覆。
-1. 按一下 **更多** 功能表，然後按一下 **複製內文**.
-
-   ![](assets/update-stream-comment-menu-marked-350x152.png)
-
-#### 複製執行緒連結 {#copy-the-thread-link}
-
-此選項會將完整對話串連結複製到剪貼簿，以便您與其他使用者共用對話串。
-
-1. 移至您要複製的更新執行緒。
-
-1. 按一下 **更多** 功能表，然後按一下 **複製對話連結**.
+1. Go to the update or reply you want to copy.
+1. Click the **More** menu, then click **Copy body text**.
 
    ![](assets/update-stream-comment-menu-marked-350x152.png)
 
-1. 將您在上一步中複製的連結貼入電子郵件或其他應用程式，以便與其他人共用。 共用連結會開啟您共用連結的註解。
+#### Copy the thread link {#copy-the-thread-link}
 
-#### 複製更新連結 {#copy-the-update-link}
+This option copies the full thread link to the clipboard so you can share the thread with other users.
 
-此選項會將特定的更新連結複製到剪貼簿。 當您共用更新連結時，追蹤該連結的使用者會看到更新周圍的邊框。
+1. Go to the update thread you want to copy.
 
-1. 前往更新或您要複製的回覆。
-1. 按一下 **更多** 個別更新旁的功能表，然後按一下 **複製更新連結**.
+1. Click the **More** menu, then click **Copy thread link**.
+
+   ![](assets/update-stream-comment-menu-marked-350x152.png) 
+
+1. Paste the link you copied in the previous step in an email or another application to share it with others. The shared link opens the comment you shared the link from. 
+
+#### Copy the update link {#copy-the-update-link}
+
+This option copies a specific update link to the clipboard. When you share the update link, the user who follows it sees a border around the update.
+
+1. Go to the update or reply you want to copy.
+1. Click the **More** menu next to the individual update, then click **Copy update link**.
 
    ![](assets/copy-update-link-old-ui.png)
 
-1. 將您在上一步中複製的連結貼入電子郵件或其他應用程式，以便與其他人共用。 共用連結會開啟您共用連結的註解。
+1. Paste the link you copied in the previous step in an email or another application to share it with others. The shared link opens the comment you shared the link from. 
 
-#### 引文回覆
+#### Quote Reply  
 
-「報價回覆」選項會將原始註解複製到新的回覆，做為區塊報價。
+The Quote Reply option copies the original comment to a new reply as a block quote. 
 
-1. 前往更新或您要複製的回覆。
-1. 按一下 **更多** 功能表，然後按一下 **引文回覆**.
+1. Go to the update or reply you want to copy.
+1. Click the **More** menu, then click **Quote Reply**.
 
-   新註解方塊開啟，引述的回覆會包含在新的註解中，並標示為區塊引號。
+   A new comment box opens and the quoted reply is included in the new comment and marked as a block quote.
 
-1. 繼續新增更新，然後按一下 **回覆** 以新增註解。
+1. Continue adding your update and click **Reply** to add the comment.
+-->
 
 ## 刪除更新或回覆
 
