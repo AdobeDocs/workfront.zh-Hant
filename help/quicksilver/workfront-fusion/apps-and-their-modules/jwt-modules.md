@@ -7,7 +7,7 @@ title: jwt模組
 description: 此 [!DNL Adobe Workfront Fusion] [!UICONTROL JWT] 應用程式會提供根據所提供演演算法建立JWT權杖的模組。
 author: Becky
 feature: Workfront Fusion
-source-git-commit: d4f6f5d4919120e37fb94a23ac834a3896019584
+source-git-commit: 121aef2ee55597fee2e2adc8250dd0651ea86f17
 workflow-type: tm+mt
 source-wordcount: '533'
 ht-degree: 0%
@@ -111,4 +111,5 @@ ht-degree: 0%
   </tr> 
  </tbody> 
 </table>
+
 
