@@ -3,9 +3,9 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文件、教學課程和其他資源，了解如何在您的組織中實施並有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: fffe92bc21104e297bc9dfcbc399c34b011e3927
+source-git-commit: 0b40f44929dc8ec01e97f88ddacbbf7bf111775c
 workflow-type: tm+mt
-source-wordcount: '14108'
+source-wordcount: '14151'
 ht-degree: 1%
 
 ---
@@ -412,6 +412,8 @@ ht-degree: 1%
       * Workfront與Frame.io整合alpha {#frame-io-wf-integration-alpha}
          * [Adobe Workfront與Frame.io原生整合alpha：概觀](product-announcements/betas/frame-io-wf-integration-alpha/frame-io-wf-integration-alpha-overview.md)
          * [Adobe Workfront與Frame.io原生整合alpha：功能](product-announcements/betas/frame-io-wf-integration-alpha/frame-io-wf-integration-alpha-features.md)
+      * Workfront data lake beta {#data-lake-beta}
+         * [Workfront data lake beta版資訊](/help/quicksilver/product-announcements/betas/data-lake-beta/data-lake-beta-information.md)
 * 管理和設定 {#administration-and-setup}
    * [管理和設定：文章索引](administration-and-setup/administration-and-setup.md)
    * 開始使用管理 {#get-started-administration}
@@ -1735,6 +1737,12 @@ ht-degree: 1%
       * [在Enhanced Analytics中檢視依團隊的活動視覺效果](enhanced-analytics/activity-by-team-overview.md)
       * [在增強型分析中檢視資源容量視覺效果](enhanced-analytics/resource-capacity-overview.md)
       * [在Enhanced Analytics中檢視團隊容量視覺效果](enhanced-analytics/team-capacity-overview.md)
+   * Workfront data lake {#data-lake}
+      * [Workfront data lake概觀](reports-and-dashboards/data-lake/data-lake-overview.md)
+      * [建立讀者帳戶](reports-and-dashboards/data-lake/create-a-reader-account.md)
+      * [Workfront data lake資料字典](reports-and-dashboards/data-lake/data-dictionary.md)
+      * [基本Workfront資料湖查詢範例](reports-and-dashboards/data-lake/basic-query-examples.md)
+      * [與商業智慧工具和外部資料倉儲共用資料湖資料](reports-and-dashboards/data-lake/share-data-externally.md)
 * 管理資源 {#manage-resources}
    * [管理資源](resource-mgmt/manage-resources.md)
    * 資源管理 {#resource-management}
