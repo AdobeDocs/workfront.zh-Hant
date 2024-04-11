@@ -3,9 +3,9 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文件、教學課程和其他資源，了解如何在您的組織中實施並有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: 0b40f44929dc8ec01e97f88ddacbbf7bf111775c
+source-git-commit: cd0d3a0651faf76592efdae93a0df7c921a283e7
 workflow-type: tm+mt
-source-wordcount: '14151'
+source-wordcount: '14153'
 ht-degree: 1%
 
 ---
@@ -2262,6 +2262,7 @@ ht-degree: 1%
       * [影像模組](workfront-fusion/apps-and-their-modules/image-module.md)
       * [Jira軟體模組](workfront-fusion/apps-and-their-modules/jira-software-modules.md)
       * [JSON 模組](workfront-fusion/apps-and-their-modules/json-modules.md)
+      * [jwt模組](workfront-fusion/apps-and-their-modules/jwt-modules.md)
       * [MariaDB模組](workfront-fusion/apps-and-their-modules/mariadb-modules.md)
       * [Markdown模組](workfront-fusion/apps-and-their-modules/markdown-modules.md)
       * [Marketo模組](workfront-fusion/apps-and-their-modules/marketo-modules.md)
