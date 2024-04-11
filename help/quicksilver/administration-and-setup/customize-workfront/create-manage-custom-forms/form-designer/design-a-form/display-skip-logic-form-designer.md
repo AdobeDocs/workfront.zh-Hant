@@ -8,20 +8,14 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 5f5dbeb5-b974-489c-8f4d-ebaa00f5e5ba
-source-git-commit: 21b2a8180512f71383a7d5201d62fd9ab166d8ef
+source-git-commit: df6b1e4b362807025f3edb5298e8445c0d44ec69
 workflow-type: tm+mt
-source-wordcount: '1366'
+source-wordcount: '1270'
 ht-degree: 0%
 
 ---
 
 # 使用表單設計工具新增顯示邏輯和略過邏輯
-
-<span class="preview">本頁資訊所提及的功能尚未普遍提供。 它僅適用於所有客戶的預覽環境，或適用於啟用快速發行的客戶的生產環境。</span>
-
-<span class="preview">如需快速發行版本的相關資訊，請參閱 [啟用或停用組織的快速發行](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
-
-<span class="preview">如需目前版本的相關資訊，請參閱 [2024年第二季版本總覽](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>
 
 您可以根據使用者在填寫自訂表單時所做的選擇，決定應顯示或略過哪些區段。
 
@@ -123,10 +117,6 @@ ht-degree: 0%
 
    顯示邏輯圖示會新增至表單設計工具的目標欄位和定義欄位。
 
->[!NOTE]
->
-><span class="preview">只有當您在預覽環境中的表單設計工具中預覽表單時，顯示邏輯才可用。</span>
-
 ## 將跳過邏輯新增至自訂表單
 
 跳過邏輯定義自訂表單欄位，當使用者在多重選擇欄位中選擇特定值時，將跳過這些欄位。 略過的欄位會隱藏在表單上。 邏輯會套用至進行選取的定義欄位，而非跳過的欄位。
@@ -157,7 +147,4 @@ ht-degree: 0%
 
    略過邏輯圖示會新增至表單設計工具中的目標欄位和定義欄位。
 
->[!NOTE]
->
-><span class="preview">只有當您在預覽環境中的表單設計工具中預覽表單時，才能使用略過邏輯。</span>
 

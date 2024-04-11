@@ -9,20 +9,14 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 946a726e-af88-413c-abe3-55fbc7486380
-source-git-commit: ccb2b6bb9fa63d29523ff396490f9580ad130bdd
+source-git-commit: df6b1e4b362807025f3edb5298e8445c0d44ec69
 workflow-type: tm+mt
-source-wordcount: '493'
+source-wordcount: '429'
 ht-degree: 0%
 
 ---
 
 # 複製自訂表單，使用舊版產生器建立新表單
-
-<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它僅適用於所有客戶的預覽環境，或適用於啟用快速發行的客戶的生產環境。</span>
-
-<span class="preview">如需快速發行版本的相關資訊，請參閱 [啟用或停用組織的快速發行](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
-
-<span class="preview">如需目前版本的相關資訊，請參閱 [2024年第二季版本總覽](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>
 
 您可以建立以現有表單為基礎的新自訂表單。
 
@@ -59,7 +53,7 @@ ht-degree: 0%
 {{step-1-to-setup}}
 
 1. 按一下 **自訂Forms。**
-1. 選取要作為新自訂表單基礎的自訂表單，然後按一下 **複製** <span class="preview">或 ![復製圖示](assets/copy-icon.png).</span>
+1. 選取要作為新自訂表單基礎的自訂表單，然後按一下 ![復製圖示](assets/copy-icon.png).
 1. 在 **自訂表格複製** 在出現的方塊中，輸入下列資訊：
 
    <table style="table-layout:auto"> 
@@ -73,14 +67,14 @@ ht-degree: 0%
      <tr> 
       <td role="rowheader"> <p role="rowheader">表單型別 </p> </td> 
       <td> <p>在 <b>表單型別</b> 方塊中，選取您要使用自訂表單的物件型別，然後按一下您要移除的任何型別旁的X。 已與此表單關聯的型別會在清單中停用。</p> 
-      <p><img src="assets/copy-form-obj-types.png"></p> 
+      <p><img src="assets/copy-form-obj-types-040524.png"></p> 
       <p>表單必須至少與一個物件型別相關聯。</p> 
       </td> 
      </tr> 
     </tbody> 
    </table>
 
-1. 按一下 **複製表單**.
+1. 按一下 **複製**.
 
    在原始表單中，如果計算欄位參考的欄位與您新增至新表單的物件型別不相容，則會出現一條訊息，提示您變更這些欄位中的計算。
 

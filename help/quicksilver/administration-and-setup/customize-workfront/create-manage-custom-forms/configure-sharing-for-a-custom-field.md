@@ -8,20 +8,14 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: ae774e73-9798-40d1-a96d-a4511f729e7f
-source-git-commit: ccb2b6bb9fa63d29523ff396490f9580ad130bdd
+source-git-commit: df6b1e4b362807025f3edb5298e8445c0d44ec69
 workflow-type: tm+mt
-source-wordcount: '1003'
+source-wordcount: '936'
 ht-degree: 0%
 
 ---
 
 # 使用舊版表單產生器設定自訂欄位和Widget的共用
-
-<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它僅適用於所有客戶的預覽環境，或適用於啟用快速發行的客戶的生產環境。</span>
-
-<span class="preview">如需快速發行版本的相關資訊，請參閱 [啟用或停用組織的快速發行](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
-
-<span class="preview">如需目前版本的相關資訊，請參閱 [2024年第二季版本總覽](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>
 
 根據預設，當您新增自訂欄位或Widget至自訂表單時，系統中有權存取自訂表單的任何人都可以編輯該專案的屬性，例如其標籤和名稱。 您可以透過控制誰可以與其共用來變更此專案。
 
@@ -63,11 +57,11 @@ ht-degree: 0%
 1. 如果您在貴組織的Workfront例項中為自訂欄位或Widget設定共用，請執行以下操作：
 
    1. 按一下 **欄位** 以開啟「欄位」區域。
-   1. 選取您要設定共用的專案，然後按一下 **共用** <span class="preview">或 ![「共用」圖示](assets/share-icon.png).</span>
+   1. 選取您要設定共用的專案，然後按一下 ![「共用」圖示](assets/share-icon.png).
 
    或者，如果您要設定現有自訂表單中自訂欄位或Widget的共用，請執行下列動作：
 
-   1. 選取自訂表格，然後按一下 **編輯** <span class="preview">或 ![編輯圖示](assets/edit-icon.png).</span>
+   1. 選取自訂表格，然後按一下 ![編輯圖示](assets/edit-icon.png).
    1. 在右側的表單編輯區域中，選取您要設定共用的專案。
    1. 在左側面板中，按一下 **共用欄位**.
 
@@ -131,7 +125,7 @@ ht-degree: 0%
 1. 按一下 **主要功能表** 圖示 ![](assets/main-menu-icon.png) (位於Adobe Workfront的右上角)，然後按一下 **設定** ![](assets/gear-icon-settings.png).
 
 1. 在左側面板中，按一下 **自訂Forms**.
-1. 按一下 **欄位** 標籤，然後選取欄位、影像或存取Widget。
+1. 按一下 **欄位**，然後選取欄位、影像或存取Widget。
 1. 在顯示的方塊中，按一下 **繼承的許可權** 並檢視顯示的名稱。
 1. 按一下 **取消**.
 

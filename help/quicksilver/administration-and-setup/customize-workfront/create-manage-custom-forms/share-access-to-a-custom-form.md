@@ -8,20 +8,14 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: a264512f-54ab-426e-8dd7-5602ece81c57
-source-git-commit: ccb2b6bb9fa63d29523ff396490f9580ad130bdd
+source-git-commit: df6b1e4b362807025f3edb5298e8445c0d44ec69
 workflow-type: tm+mt
-source-wordcount: '909'
-ht-degree: 0%
+source-wordcount: '844'
+ht-degree: 1%
 
 ---
 
 # 共用自訂表格
-
-<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它僅適用於所有客戶的預覽環境，或適用於啟用快速發行的客戶的生產環境。</span>
-
-<span class="preview">如需快速發行版本的相關資訊，請參閱 [啟用或停用組織的快速發行](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
-
-<span class="preview">如需目前版本的相關資訊，請參閱 [2024年第二季版本總覽](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>
 
 您可以設定自訂表單的存取權，以控制誰（人員、角色、群組、團隊、公司）可以檢視、共用及編輯該表單。
 
@@ -69,7 +63,7 @@ ht-degree: 0%
 {{step-1-to-setup}}
 
 1. 在左側面板中，按一下 **自訂Forms**.
-1. 選取自訂表格，然後按一下 **共用** <span class="preview">或 ![「共用」圖示](assets/share-icon.png).</span>
+1. 選取自訂表格，然後按一下 ![「共用」圖示](assets/share-icon.png).
 1. 在顯示的方塊中，在 **授予自訂表單存取權**，開始輸入您要與其共用自訂表單的使用者、團隊、工作角色、群組或公司名稱，然後按下 **輸入** 名稱顯示時。
 1. 若要調整您剛新增的使用者、團隊、工作角色、群組或公司的存取權，請按一下名稱右側的下拉式功能表，然後設定下列其中一個可用選項及其任何進階設定：
 
@@ -118,7 +112,7 @@ ht-degree: 0%
 {{step-1-to-setup}}
 
 1. 在左側面板中，按一下 **自訂Forms**.
-1. 選取自訂表格，然後按一下 **共用** <span class="preview">或 ![「共用」圖示](assets/share-icon.png).</span>
+1. 選取自訂表格，然後按一下 ![「共用」圖示](assets/share-icon.png).
 1. 在顯示的方塊中，按一下您不想再擁有表單特殊存取許可權的使用者、團隊、角色、群組或公司名稱右側的X。
 1. （可選）對要移除的其他名稱重複上一步驟至。
 1. 按一下「**儲存**」。

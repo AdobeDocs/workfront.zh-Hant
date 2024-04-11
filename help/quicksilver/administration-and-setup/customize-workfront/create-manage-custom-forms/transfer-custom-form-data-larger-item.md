@@ -8,20 +8,14 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 2d4d104a-1465-43e2-8184-83dd63d9681c
-source-git-commit: ccb2b6bb9fa63d29523ff396490f9580ad130bdd
+source-git-commit: df6b1e4b362807025f3edb5298e8445c0d44ec69
 workflow-type: tm+mt
-source-wordcount: '467'
+source-wordcount: '404'
 ht-degree: 0%
 
 ---
 
 # 轉換物件時傳輸自訂表單資料
-
-<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它僅適用於所有客戶的預覽環境，或適用於啟用快速發行的客戶的生產環境。</span>
-
-<span class="preview">如需快速發行版本的相關資訊，請參閱 [啟用或停用組織的快速發行](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
-
-<span class="preview">如需目前版本的相關資訊，請參閱 [2024年第二季版本總覽](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>
 
 根據您組織的業務需求，任務或問題中定義的工作可能會變得太大，無法在任務或問題中管理。 在這種情況下，您可以將它們轉換為較大的工作專案：
 
@@ -65,7 +59,7 @@ ht-degree: 0%
 {{step-1-to-setup}}
 
 1. 按一下 **自訂Forms**.
-1. 尋找所需的表單，然後按一下 **編輯** <span class="preview">或 ![編輯圖示](assets/edit-icon.png).</span>
+1. 尋找所需的表單，然後按一下 ![編輯圖示](assets/edit-icon.png).
 1. 在表單頂端，新增您計畫轉換任務或問題的物件。
 
    >[!INFO]

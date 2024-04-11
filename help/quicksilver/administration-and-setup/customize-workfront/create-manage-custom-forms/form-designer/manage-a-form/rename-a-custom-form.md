@@ -8,20 +8,14 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 8c49c2c8-4056-46a2-9ede-efb91ff237e5
-source-git-commit: ccb2b6bb9fa63d29523ff396490f9580ad130bdd
+source-git-commit: df6b1e4b362807025f3edb5298e8445c0d44ec69
 workflow-type: tm+mt
-source-wordcount: '265'
+source-wordcount: '203'
 ht-degree: 0%
 
 ---
 
 # 使用表單設計工具重新命名自訂表單
-
-<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它僅適用於所有客戶的預覽環境，或適用於啟用快速發行的客戶的生產環境。</span>
-
-<span class="preview">如需快速發行版本的相關資訊，請參閱 [啟用或停用組織的快速發行](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
-
-<span class="preview">如需目前版本的相關資訊，請參閱 [2024年第二季版本總覽](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>
 
 您可以使用表單設計工具建立自訂表單後，隨時重新命名。
 
@@ -61,7 +55,7 @@ ht-degree: 0%
 
    在出現的檢視中，您可以檢閱為組織建立的所有自訂表單。 您也可以檢視每個表單的建立者、表單使用的物件型別，以及表單是否使用中。
 
-1. 選取您要重新命名的自訂表單，然後按一下 **編輯** <span class="preview">或 ![編輯圖示](assets/edit-icon2.png).</span>
+1. 選取您要重新命名的自訂表單，然後按一下或 ![編輯圖示](assets/edit-icon2.png).
 1. 若要變更標題，請按一下表單名稱。
 1. 若要變更說明，請按一下說明文字方塊。
 

@@ -8,20 +8,14 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: ca6565c4-3d9e-4a11-a7b6-fce701923bf2
-source-git-commit: ccb2b6bb9fa63d29523ff396490f9580ad130bdd
+source-git-commit: df6b1e4b362807025f3edb5298e8445c0d44ec69
 workflow-type: tm+mt
-source-wordcount: '367'
+source-wordcount: '304'
 ht-degree: 0%
 
 ---
 
 # 刪除自訂表單上的物件型別
-
-<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它僅適用於所有客戶的預覽環境，或適用於啟用快速發行的客戶的生產環境。</span>
-
-<span class="preview">如需快速發行版本的相關資訊，請參閱 [啟用或停用組織的快速發行](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
-
-<span class="preview">如需目前版本的相關資訊，請參閱 [2024年第二季版本總覽](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>
 
 您可以在現有的自訂表單上刪除與表單相關聯的物件型別。 完成此操作後，使用者無法再將表單附加到該型別的物件。
 
@@ -68,7 +62,7 @@ ht-degree: 0%
 {{step-1-to-setup}}
 
 1. 按一下 **自訂Forms** 在左側面板中。
-1. 選取您要編輯的自訂表單，然後按一下 **編輯** <span class="preview">或 ![編輯圖示](assets/edit-icon.png).</span>
+1. 選取您要編輯的自訂表單，然後按一下 ![編輯圖示](assets/edit-icon.png).
 1. 按一下任何頁面上的X **物件型別** ，然後按一下「 」 **刪除** 在顯示的警告訊息上。
 
    ![](assets/click-x-object-types.jpg)

@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 5712e82d-bd1d-4d8a-9a2a-1e19b562b9d1
-source-git-commit: ccb2b6bb9fa63d29523ff396490f9580ad130bdd
+source-git-commit: df6b1e4b362807025f3edb5298e8445c0d44ec69
 workflow-type: tm+mt
-source-wordcount: '956'
+source-wordcount: '897'
 ht-degree: 0%
 
 ---
@@ -19,13 +19,7 @@ ht-degree: 0%
 
 <!--Audited: 01/2024-->
 
-<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它僅適用於所有客戶的預覽環境，或適用於啟用快速發行的客戶的生產環境。</span>
-
-<span class="preview">如需快速發行版本的相關資訊，請參閱 [啟用或停用組織的快速發行](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
-
-<span class="preview">如需目前版本的相關資訊，請參閱 [2024年第二季版本總覽](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>
-
-您可以建立或編輯新的自訂表格。 本文會說明這兩項工作。
+您可以建立新的自訂表單或編輯現有表單。 本文會說明這兩項工作。
 
 如需從現有表單建立新自訂表單的相關資訊，請參閱 [複製自訂表單，使用舊版表單產生器建立新表單](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/copy-custom-form-to-create-a-new-one.md).
 
@@ -116,7 +110,7 @@ ht-degree: 0%
 
    自訂表單會顯示在清單中。 您可以檢閱為您的組織建立的所有自訂表單和自訂欄位。 您也可以檢視每個表單的建立者、與其相關聯的物件，以及表單是否處於作用中狀態。
 
-1. 選取您要編輯的自訂表單，然後按一下 **編輯** <span class="preview">或 ![編輯圖示](assets/edit-icon.png).</span>
+1. 選取您要編輯的自訂表單，然後按一下 ![編輯圖示](assets/edit-icon.png).
 1. （可選）若要變更自訂表單的標題和說明，請按一下 **表單設定** 標籤，然後輸入 **表單標題** 和 **說明**.
 
 1. （選擇性）如果您想要將更多物件型別新增至表單，以便將其附加至更多物件，請按一下加號+之後 **物件型別**，然後在顯示的功能表中選取您想要的型別。
