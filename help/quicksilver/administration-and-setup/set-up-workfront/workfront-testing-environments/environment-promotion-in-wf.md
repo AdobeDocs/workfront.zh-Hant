@@ -12,9 +12,9 @@ hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: 8b4c04f5-f519-44e9-8429-0ce80c2d7c5b
-source-git-commit: d0ed2869c42230e9d82c553505253e3a3131fa39
+source-git-commit: 4c87f33a29f07cc1b5aa2873b1e4fdade82dc41b
 workflow-type: tm+mt
-source-wordcount: '927'
+source-wordcount: '932'
 ht-degree: 2%
 
 ---
@@ -101,7 +101,7 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->目前覆寫功能適用於下列物件：
+>動作（忽略、選取現有和新建）可用於下列物件：
 >
 >* 角色
 >* 團隊
