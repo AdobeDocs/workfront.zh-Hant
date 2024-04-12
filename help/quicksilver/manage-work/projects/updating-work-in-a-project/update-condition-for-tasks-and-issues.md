@@ -6,9 +6,9 @@ description: 任務或問題的條件是在其上放置標誌以指示進展情�
 author: Alina
 feature: Work Management
 exl-id: 5d970af6-5996-4781-9b97-de02063dc32c
-source-git-commit: ee957e319941fe5eabb9144eed184372e5402197
+source-git-commit: 18dfb67626982d73ad33871b8afce4a3f0d4cdb3
 workflow-type: tm+mt
-source-wordcount: '710'
+source-wordcount: '756'
 ht-degree: 0%
 
 ---
@@ -91,6 +91,15 @@ Adobe Workfront管理員可為您的環境建立自訂條件，如所述 [建立
 您必須被指派給任務或問題，或擁有任務或問題的管理許可權，才能對其設定條件。
 
 當您在檢視中顯示「條件」欄位時，可以手動更新任務、問題報告或清單中的任務或問題的條件。
+
+>[!NOTE]
+>
+>您可以要求系統或群組管理員將「條件」欄位新增到「摘要」面板，以便在Workfront的各個區域中更輕鬆地更新它。
+>
+>如需詳細資訊，請參閱下列文章：
+>
+>* [摘要概觀](/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md)
+>* [使用版面配置範本自訂首頁和摘要](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md).
 
 
 <!--old Condition update - in the commenting stream: 

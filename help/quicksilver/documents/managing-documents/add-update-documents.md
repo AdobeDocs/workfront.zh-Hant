@@ -6,14 +6,16 @@ description: 您可以新增或回覆檔案的更新，以便與共同作業人�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 8ecf8281-7fbd-446e-80e4-f9f0a864ad65
-source-git-commit: b795ceccb3f72eb64269062823199be9c8511860
+source-git-commit: 18dfb67626982d73ad33871b8afce4a3f0d4cdb3
 workflow-type: tm+mt
-source-wordcount: '385'
+source-wordcount: '367'
 ht-degree: 0%
 
 ---
 
 # 將更新新增至檔案
+
+<!--Audited: April, 2024-->
 
 您可以新增或回覆檔案的更新，以便與共同作業人員通訊並建立稽核軌跡。 如需有關將更新新增至工作專案的資訊，請參閱 [更新工作](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
@@ -26,21 +28,28 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront計畫*</td> 
+   <td role="rowheader">Adobe Workfront計畫</td> 
    <td> <p> 任何</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront授權*</td> 
-   <td> <p>要求或更高版本</p> </td> 
+   <td> <p>新增：投稿人或更高版本</p> 
+   <p>目前：要求或以上</p>
+   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">存取層級設定*</td> 
-   <td> <p>檢視檔案的存取權</p> <p>注意：如果您還是沒有存取權，請詢問您的Workfront管理員，他們是否在您的存取層級中設定其他限制。 如需有關Workfront管理員如何修改您的存取層級的資訊，請參閱 <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>.</p> </td> 
+   <td role="rowheader">存取層級設定</td> 
+   <td> <p>檢視檔案的存取權</p> </td> 
+  </tr>
+
+<tr> 
+   <td role="rowheader">物件許可權</td> 
+   <td> <p>檢視檔案的存取權</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;若要瞭解您擁有的計畫、授權型別或存取權，請聯絡您的Workfront管理員。
+*若要瞭解您擁有的計畫、授權型別或存取權，請聯絡您的Workfront管理員。 如需詳細資訊，請參閱 [Workfront檔案中的存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## 新增或回覆檔案的更新
 

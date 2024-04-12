@@ -6,9 +6,9 @@ description: 您可以在Adobe Workfront物件（專案、任務或問題）上�
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: c6575c832fa21a17a1d20fa7e92798d970ca0f50
+source-git-commit: 886b5d9084cb1bfb63157152f05fa20128d34903
 workflow-type: tm+mt
-source-wordcount: '2974'
+source-wordcount: '2971'
 ht-degree: 0%
 
 ---
@@ -16,8 +16,6 @@ ht-degree: 0%
 # 更新工作
 
 <!-- Audited: 1/2024 -->
-
-<!--info for April 11: take "legacy" and "new commenting" references out when we remove the legacy-->
 
 <!--
 <span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers or in Production for customers who enabled fast releases. </span>
@@ -53,7 +51,7 @@ ht-degree: 0%
 ><span class="preview">The new commenting experience is available in the Summary panel in lists, timesheets, and the Workload Balancer in the Preview environment and in the Production environment for customers who have opted for the fast release process. </span>
 -->
 
-您可以在Adobe Workfront物件上新增更新，以傳達物件的進度。 如需您可以在Workfront中新增更新的物件詳細資訊，請參閱 [更新區段總覽](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
+您可以在Adobe Workfront物件上新增更新，與他人溝通物件的進度。 如需您可以在Workfront中新增更新的物件詳細資訊，請參閱 [更新區段總覽](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
 本文中的資訊說明如何為專案、任務和問題加上註解和更新資訊。 指派或訂閱物件的使用者可以檢視您的更新。 您也可以標籤使用者，以吸引他們注意更新。
 
@@ -128,7 +126,7 @@ ht-degree: 0%
 
    * 從Workfront物件，在更新區段（專案、任務和問題）
    * 從首頁區域（用於任務和問題）
-   * 從「摘要」面板的以下區域（針對任務和問題）：
+   * 從「摘要」面板的下列區域（針對任務、問題和檔案）：
 
       * 物件清單
       * 時程表
@@ -225,21 +223,23 @@ You can add updates to the following objects:
 
 <!--info for April 11: reword the title of this section to: "Add an update to a work item"; take out the step that says you need to enable the "New commenting" toggle (I think it is step 3??)-->
 
-## 將更新新增至工作專案 <!--using the new commenting experience-->
+## 將更新新增至工作專案
 
-1. 找到您要更新的物件（專案、任務或問題），然後按一下其名稱以開啟物件的頁面。
+本文會介紹如何更新專案、任務或問題。 更新大多數其他物件類似。
+
+1. 找到您要更新的物件，然後按一下其名稱以開啟物件的頁面。
 1. 按一下  **更新** 在左側面板中。
 此 **註解** 標籤預設為選取。
 
-<!--
-1. (Conditional) If the **New commenting** option is disabled, click to enable it. 
+   <!--
+   1. (Conditional) If the **New commenting** option is disabled, click to enable it. 
 
-   This enables the new commenting experience. 
+      This enables the new commenting experience. 
 
-      >[!TIP]
-      >
-      ><span class="preview">The New commenting option has been removed in the Preview environment.</span>
--->
+         >[!TIP]
+         >
+         ><span class="preview">The New commenting option has been removed in the Preview environment.</span>
+   -->
 
 1. 開始在 **新註解** 方塊。
 
@@ -294,10 +294,6 @@ You can add updates to the following objects:
 
    熒幕底部會顯示其他註解。
 
-   >[!NOTE]
-   >
-   >   「新註解」指標和「檢視」按鈕僅在進入新更新的使用者以及目前檢視更新區段的使用者都使用新註解體驗時顯示。
-
 1. （可選）按一下 **按讚** 圖示![](assets/like-icon.png). 圖示會隨著喜歡的數量而更新。
 1. （有條件且選擇性）如果您在註解中包含其他人員，請按一下更新中包含的成員數目，以顯示與您輸入的註解共用之實體的清單。
 
@@ -314,7 +310,7 @@ You can add updates to the following objects:
 
    >[!TIP]
    >
-   >您無法將註解新增至系統更新。 但是，對舊版註釋體驗中的系統活動記錄所做的任何回覆，都會以唯讀形式填入系統活動標籤中。
+   >您無法將註解新增至系統更新。 但是，對舊版評論體驗中系統活動記錄所做的任何回覆，都會以唯讀形式新增至「系統活動」索引標籤。 舊版評論體驗已於2024年4月11日從Workfront移除。
 
 1. （可選）按一下 **全部** 標籤以在一個位置檢視使用者註解和系統活動註解。 這是僅供檢視的標籤。
 
@@ -355,11 +351,11 @@ You can add updates to the following objects:
    >* 如果您的組織搭配Internet Explorer使用Workfront，則貼入更新的任何格式化文字都會遺失RTF格式，並顯示為純文字。 您可以使用RTF工具列上的屬性來重新格式化文字。
    >* RTF格式不適用於「時程表」區域中進行的更新，或報表中檢視的「附註」和「最後條件」物件。
 
-<!--1. (Optional and conditional) If you want to include text from previous updates or from other sources and distinguish it from your own update, you can mark it as a Block Quote. Click the **Block Quote** icon ![](assets/block-quote-small.png) and type the text you want to quote. The quoted text displays marked with a vertical gray line. Click the **Block Quote** icon again to return to normal formatting. This is not available in the new commenting experience.-->
+   <!--1. (Optional and conditional) If you want to include text from previous updates or from other sources and distinguish it from your own update, you can mark it as a Block Quote. Click the **Block Quote** icon ![](assets/block-quote-small.png) and type the text you want to quote. The quoted text displays marked with a vertical gray line. Click the **Block Quote** icon again to return to normal formatting. This is not available in the new commenting experience.-->
 
-<!--remove this picture below and the bullet above when we remove legacy-->
+   <!--remove this picture below and the bullet above when we remove legacy-->
 
-<!--![](assets/block-quote-marked-350x144.png)-->
+   <!--![](assets/block-quote-marked-350x144.png)-->
 
 1. （可選）按一下 **emoji** 圖示 ![](assets/emoji-icon.png) 以新增emoji至您的更新。
 
@@ -431,9 +427,11 @@ You can add updates to the following objects:
 
 <!-- when we release search to production, check above and make sure you don't have to add that the users tagged/ owners are also searchable-->
 
-## 複製更新資訊
+## 複製更新
 
-有幾種方式可以複製更新。 複製連結後，您可以與其他人共用連結，以將他們導向更新。
+有幾種方式可以複製更新。
+
+您可以複製更新的連結，或複製更新的內容以將其用於新的更新。
 
 <!--Copying an update differs depending on which commenting experience you use.-->
 
@@ -447,7 +445,7 @@ You can add updates to the following objects:
 
 * [複製連結](#copy-link)
 * [複製本文](#copy-body-text)
-* [引用回覆](#quote-reply-1)
+* [引用回覆](#quote-reply)
 
 ![](assets/copy-comment-ways-from-more-menu-on-comment.png)
 
@@ -485,7 +483,6 @@ You can add updates to the following objects:
 
    ![](assets/block-quote-highlighted-mid-comment-before-submit.png)
 
-   <!--ensure the screen shot above is correct - missing he block quote icon in rich text -->
 
 1. 繼續新增更新，然後按一下 **提交** 以新增註解。
 
@@ -556,7 +553,7 @@ The Quote Reply option copies the original comment to a new reply as a block quo
 Workfront使用者(包括Workfront管理員)無法刪除其他使用者所做的更新。 但是，如果使用者的存取層級允許他們刪除自己的更新，Workfront管理員可以以該使用者的身分登入，並刪除他們所做的更新。 如需詳細資訊，請參閱 [建立或修改自訂存取層級](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md#creating-a-new-access-from-scratch) 和 [以其他使用者身分登入](../../administration-and-setup/add-users/create-and-manage-users/log-in-as-another-user.md).
 
 1. 前往更新或您要刪除的回覆。
-1. 按一下 **更多** 您要刪除的更新或回覆旁的功能表，然後按一下 **刪除**. <!--October 2023 - replace screen shot here-->
+1. 按一下 **更多** 您要刪除的更新或回覆旁的功能表，然後按一下 **刪除**.
 
    ![](assets/update-stream-comment-menu-marked-350x152.png)
 

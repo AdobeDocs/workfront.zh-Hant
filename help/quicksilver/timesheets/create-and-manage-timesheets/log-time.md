@@ -7,9 +7,9 @@ author: Alina
 feature: Timesheets
 role: User
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: a1481513747bec3486d94c74c234e2db5cc664d6
+source-git-commit: 886b5d9084cb1bfb63157152f05fa20128d34903
 workflow-type: tm+mt
-source-wordcount: '3526'
+source-wordcount: '3577'
 ht-degree: 0%
 
 ---
@@ -45,8 +45,12 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront授權</td> 
-   <td> <p>新增：淺色或更高</p>
-   <p>目前： 
+   <td> <p>新增： 
+   <ul><li>在時程表中記錄一般時數的淺色或更高</li>
+   <li>在專案、任務或問題上記錄時數的標準</li></ul>
+
+
+<p>目前： 
    <ul><li>檢閱或更高版本以在時程表中記錄一般時數</li>
    <li>在專案、任務或問題上記錄小時數的工作或更高</li></ul> </td> 
   </tr> 
@@ -334,7 +338,7 @@ ht-degree: 0%
 
 #### 從新的首頁區域在工作專案上記錄時間
 
-您可以使用「摘要」面板，將時間記錄到任何介面工具中的任何物件。 如需詳細資訊，請參閱 [摘要面板](#summary-panel) 一節。
+您可以使用「首頁」區域的「摘要」面板，將時間記錄到任何介面工具中的任務和問題。 如需詳細資訊，請參閱 [摘要面板](#summary-panel) 一節。
 
 此外，若要在「我的工作」小工具中記錄專案的時間：
 
@@ -346,6 +350,8 @@ ht-degree: 0%
    ![](assets/log-time-ui-for-task-from-new-home.png)
 
 1. 按一下 **記錄時間**.
+
+   記錄時間會顯示在物件的「小時」區段和您的時程表中。
 
 #### 從舊版「首頁」區域在工作專案上記錄時間
 
@@ -359,6 +365,8 @@ ht-degree: 0%
 1. （視條件而定）如果您的Workfront或群組管理員已啟用 **手動指派工作角色到時數專案** 設定，從下拉式選單中選取工作角色。 依預設，系統會顯示指派給工作專案時所指定的角色。 如果您在物件上未被指派角色，您的「主要角色」會顯示為預設值。 如需此設定的詳細資訊，請參閱文章 [設定時程表和小時偏好設定](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
 1. 指定您要記錄的時間，然後按一下 **記錄時間**.
 
+   記錄時間會顯示在物件的「小時」區段和您的時程表中。
+
 ### 專案、任務或問題 {#project-task-or-issue}
 
 您可以在下列區段中記錄專案、任務或問題的專案特定時間：
@@ -370,11 +378,9 @@ ht-degree: 0%
 
 若要在專案、任務或問題的更新區段中記錄時間，您必須具備下列條件：
 
-* 工作或計畫授權。
-* 貢獻專案、任務或記錄時數存取權問題的許可權或以上。\
-  如需有關授與專案許可權的詳細資訊，請參閱 [在Adobe Workfront中共用專案](../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md).
+* 正確的存取權和許可權，如 [存取需求](#access-requirements) 一節。
 
-* 您的Workfront管理員必須啟用「直接在專案上記錄時間」設定 [!UICONTROL **時程表和時數**]> [!UICONTROL **偏好設定**]，可直接將時間記錄到專案中。
+* 您的Workfront管理員必須啟用「直接在專案上記錄時間」設定 [!UICONTROL **時程表和時數**]> [!UICONTROL **偏好設定**] 如果您要直接將時間記錄到專案，請在「系統」區域中。
 
   如需允許使用者直接將時數記錄到專案的詳細資訊，請參閱 [設定時程表和小時偏好設定](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
 
@@ -406,6 +412,8 @@ ht-degree: 0%
 
 1. 按一下 **記錄時間**.
 
+   記錄時間會顯示在物件的「小時」區段和您的時程表中。
+
 #### 「小時」部分{#hours-section}
 
 您必須是Workfront管理員，才能在時數區段中記錄專案、任務和問題的時間。
@@ -416,7 +424,7 @@ ht-degree: 0%
 
 * 具有時程表和時數之管理存取權的計畫授權。 如需授與時程表和時數之管理存取權的詳細資訊，請參閱 [授予使用者管理特定區域的存取權](../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
 * 貢獻或更高的許可權給存取記錄時數的專案。 如需有關授與專案許可權的詳細資訊，請參閱 [在Adobe Workfront中共用專案](../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md).
-* 如果您想要直接將時間記錄到專案，您的Workfront管理員必須啟用「時程表和時數>偏好設定」下的直接在專案上記錄時間設定。 如需允許使用者直接將時數記錄到專案的詳細資訊，請參閱 [設定時程表和小時偏好設定](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
+* 您的Workfront管理員必須在中啟用直接在專案上記錄時間設定 **時程表和時數>偏好設定** 區段（如果要直接將時間記錄到專案）。 如需允許使用者直接將時數記錄到專案的詳細資訊，請參閱 [設定時程表和小時偏好設定](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
 
 若要在專案、任務或問題的時數區段中記錄時間：
 

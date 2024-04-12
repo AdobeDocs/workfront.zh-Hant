@@ -6,14 +6,16 @@ description: 您可以回應根據對專案、任務、問題和其他物件的�
 author: Nolan and Alina
 feature: Get Started with Workfront
 exl-id: fea88410-8f37-49d0-9f5d-9fbac4ab5de6
-source-git-commit: ea16514d15f0b00908d33e2f02dbf23e56b232d4
+source-git-commit: 886b5d9084cb1bfb63157152f05fa20128d34903
 workflow-type: tm+mt
-source-wordcount: '583'
+source-wordcount: '582'
 ht-degree: 1%
 
 ---
 
 # 回覆電子郵件通知
+
+<!-- Audited: April 2024-->
 
 根據您的電子郵件通知的設定方式，在您有權存取的特定物件進行更新時，您可能會收到電子郵件通知。
 
@@ -35,7 +37,7 @@ ht-degree: 1%
 * 問題
 * 文件
 * 範本和範本任務
-* Portfolio
+* 專案組合
 * 方案
 * 反覆項目
 * 時程表
@@ -49,25 +51,26 @@ ht-degree: 1%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront計畫*</strong></td> 
+   <td role="rowheader"><strong>Adobe Workfront計畫</strong></td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Adobe Workfront授權*</strong></td> 
-   <td> <p>要求或更高的問題和檔案；檢閱或更高的所有其他物件</p> </td> 
+   <td> <p>新增：問題和檔案的貢獻者或更高；所有其他物件的淺色或更高</p>
+   <p>目前：問題與檔案的要求或更高；所有其他物件的檢閱或更高</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>存取層級設定*</strong></td> 
-   <td> <p>問題和檔案的要求者或以上；所有其他物件的檢閱者或以上</p> <p><b>附註</b>
-
-如果您還是沒有存取權，請詢問您的Workfront管理員，他們是否在您的存取層級中設定其他限制。 如需有關Workfront管理員如何修改您的存取層級的資訊，請參閱 <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>.</p> </td>
-</tr> 
+   <td role="rowheader"><strong>存取層級設定</strong></td> 
+   <td> <p>檢視您想要張貼回覆之物件的存取權或更高的存取權</p> </td> 
+  </tr> 
   <tr> 
    <td role="rowheader"><strong>物件許可權</strong></td> 
-   <td> <p>檢視物件的存取權</p> <p>如需請求其他存取許可權的詳細資訊，請參閱 <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">要求物件的存取權 </a>.</p> </td> 
+   <td> <p>檢視您要張貼回覆之物件的或更高許可權</p> </td> 
   </tr> 
  </tbody> 
 </table>
+
+*若要瞭解您擁有的計畫、授權型別或存取權，請聯絡您的Workfront管理員。 如需詳細資訊，請參閱 [Workfront檔案的存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## 回覆電子郵件通知的更新
 

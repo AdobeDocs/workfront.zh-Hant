@@ -7,18 +7,18 @@ description: 「摘要」可讓您直接從檔案清單與重要資訊互動。
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 7a4a4bd3-ad60-4d84-b4b0-332c2a4eb8fb
-source-git-commit: c50ff48bbc492199b39db17b8c445207209bb6a5
+source-git-commit: 18dfb67626982d73ad33871b8afce4a3f0d4cdb3
 workflow-type: tm+mt
-source-wordcount: '427'
-ht-degree: 2%
+source-wordcount: '394'
+ht-degree: 3%
 
 ---
 
 # 檔案摘要概覽
 
-{{preview-and-fast-release}}
+<!--Audited: April, 2024-->
 
-「摘要」可讓您直接從檔案清單與重要資訊互動。
+您可以使用「摘要」面板，直接從檔案清單存取和更新重要資訊。
 
 ## 存取需求
 
@@ -31,25 +31,27 @@ ht-degree: 2%
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront計畫*</td> 
+   <td role="rowheader">Adobe Workfront計畫</td> 
    <td> <p> 任何</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront授權*</td> 
-   <td> <p>要求或更高版本</p> </td> 
+   <td> <p>新增：投稿人或更高版本</p> 
+   <p>目前：要求或以上</p>
+   </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">存取層級設定*</td> 
-   <td> <p>編輯檔案的存取權</p> <p>注意：如果您還是沒有存取權，請詢問您的Workfront管理員，他們是否在您的存取層級中設定其他限制。 如需有關Workfront管理員如何修改您的存取層級的資訊，請參閱 <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>.</p> </td> 
+   <td role="rowheader">存取層級設定</td> 
+   <td> <p>編輯檔案的存取權</p>  </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">物件許可權</td> 
-   <td> <p>檢視與檔案關聯之物件的存取權</p> <p>如需請求其他存取許可權的詳細資訊，請參閱 <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">要求物件的存取權 </a>.</p> </td> 
+   <td> <p>檢視與檔案關聯之物件的存取權</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;若要瞭解您擁有的計畫、授權型別或存取權，請聯絡您的Workfront管理員。
+*若要瞭解您擁有的計畫、授權型別或存取權，請聯絡您的Workfront管理員。 如需詳細資訊，請參閱 [Workfront檔案中的存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## 開啟摘要檢視
 
@@ -67,7 +69,7 @@ ht-degree: 2%
 * [概觀](#overview)
 * [自訂表單](#custom-forms)
 
-<span class="preview">![](assets/copy-of-doc-summary-details-section-350x404.png)</span>
+![](assets/copy-of-doc-summary-details-section-350x404.png)
 
 ### 概觀 {#overview}
 
@@ -79,18 +81,13 @@ ht-degree: 2%
 
 使用自訂Forms區段來新增、編輯或檢視與檔案相關聯的任何自訂表單。 開始輸入自訂表單的名稱，以將其新增到檔案。 如需詳細資訊，請參閱 [新增或編輯自訂表單至檔案](../../documents/managing-documents/add-custom-form-documents.md).
 
-<span class="preview">![](assets/add-custom-form-doc-summary-350x265.png)</span>
+![](assets/add-custom-form-doc-summary-350x265.png)
 
 ## 更新
 
 使用更新區段來讀取某人對該檔案或校訂進行的更新。 摘要會顯示前2個註解。 如需更新的詳細資訊，請參閱 [對校訂進行評論](../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/comment-on-proof.md).
 
-<div class="preview">
-
 ![摘要面板中的更新區段](assets/summary-updates-section-new-comments.png)
-
-</div>
-
 
 ## 核准
 
@@ -101,7 +98,7 @@ ht-degree: 2%
 * [核准工作](../../review-and-approve-work/manage-approvals/approving-work.md)
 * [請求文件核准](../../review-and-approve-work/manage-approvals/request-document-approvals.md)
 
-<span class="preview">![](assets/summary-upddates,-approvals,-versions,-custom-forms-350x415.png)</span>
+![](assets/summary-upddates,-approvals,-versions,-custom-forms-350x415.png)
 
 ## 版本
 
@@ -113,4 +110,4 @@ ht-degree: 2%
 * 前往檔案詳細資訊
 * 刪除校訂或檔案
 
-<span class="preview">![](assets/summary-upddates,-approvals,-versions,-custom-forms-350x415.png)</span>
+![](assets/summary-upddates,-approvals,-versions,-custom-forms-350x415.png)

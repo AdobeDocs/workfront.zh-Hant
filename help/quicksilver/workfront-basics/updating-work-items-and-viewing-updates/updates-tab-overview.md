@@ -7,10 +7,10 @@ description: 物件的「更新」區段會顯示使用者對物件所做的註�
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: c6575c832fa21a17a1d20fa7e92798d970ca0f50
+source-git-commit: 886b5d9084cb1bfb63157152f05fa20128d34903
 workflow-type: tm+mt
-source-wordcount: '912'
-ht-degree: 4%
+source-wordcount: '985'
+ht-degree: 5%
 
 ---
 
@@ -19,9 +19,6 @@ ht-degree: 4%
 
 <!-- Audited: 1/2024 -->
 
-<!--info for April 11: take "legacy" and "new commenting" and "production" or "preview" references out when we remove the legacy-->
-
-<!--info for April 11: hide the disclaimer for preview below-->
 
 <!--
 <span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers or in Production for customers who enabled fast releases. </span>
@@ -30,8 +27,6 @@ ht-degree: 4%
 
 <span class="preview">For information about the current release schedule, see [Second Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>
 -->
-
-<!--info for April 11: take out the Important box-->
 
 物件的「更新」區段會顯示使用者對物件所做的註解，或追蹤物件變更的系統更新。
 
@@ -125,50 +120,45 @@ Depending on what objects you access the commenting experience for, you might fi
 
 <!--Info for April 11: reword the section title below to: Overview of the Updates section; and remove the preview tags-->
 
-### 「更新」區段的總覽 <!--in the new commenting experience-->
+### 「更新」區段的總覽
 
 ![更新區段](assets/updates-tab-after-unified-experience-for-tasks-all-tab.png)
 
-<!--info for April 11: remove the NOTE below and any references below to "the new commenting experience". This should be just the ONLY experience. -->
+* 「更新」區段會在下列標籤中顯示資訊：
 
-<!--
->[!NOTE]
->
->The new commenting experience is not available for iterations.
--->
-
-* 「更新」區段在下列標籤中顯示資訊<!-- in the new commenting experience-->：
-
-   * **註解**：顯示使用者所做的評論以及對這些評論的回覆。 使用「註解」標籤來新增註解或回覆現有註解。 有關更新物件的資訊<!-- in the new commenting experience-->，請參閱 [更新工作](../updating-work-items-and-viewing-updates/update-work.md).
+   * **註解**：顯示使用者所做的評論以及對這些評論的回覆。 使用「註解」標籤來新增註解或回覆現有註解。 如需有關更新物件的資訊，請參閱 [更新工作](../updating-work-items-and-viewing-updates/update-work.md).
    * **系統活動**：顯示系統更新，這些資訊性訊息是Workfront為記錄物件上的特定事件而建立的訊息。 例如，狀態、名稱或自訂欄位的變更會透過系統更新擷取。 您的Workfront或群組管理員可以為您的物件啟用系統更新。 在舊版註解體驗中對系統活動記錄所做的任何回覆，都會以唯讀形式填入系統活動標籤中。 如需詳細資訊，請參閱 [設定系統更新](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
-   * **全部（唯讀）**：在一個位置同時顯示使用者註解和系統活動註解。 這是僅供檢視的標籤。 您無法在[全部]索引標籤的現有註解中回覆註解或標籤其他使用者。 若要回覆特定註解，請使用「全部」標籤到「註解」標籤的連結。 有關更新物件的資訊<!-- in the new commenting experience-->，請參閱 [更新工作](../updating-work-items-and-viewing-updates/update-work.md).
+   * **全部（唯讀）**：在一個位置同時顯示使用者註解和系統活動註解。 這是僅供檢視的標籤。 您無法在[全部]索引標籤的現有註解中回覆註解或標籤其他使用者。 若要回覆特定註解，請使用「全部」標籤到「註解」標籤的連結。 如需有關更新物件的資訊，請參閱 [更新工作](../updating-work-items-and-viewing-updates/update-work.md).
 
-* 下列物件沒有「系統活動」標籤或「全部」標籤：
+* 以下物件在更新區段的所有三個索引標籤中具有類似的體驗：
+
+   * 專案
+   * 任務
+   * 問題
+   * 計劃
+   * 專案組合
+   * 使用者
+   * 時程表
+
+* 下列物件沒有「系統活動」標籤或「全部」標籤，「註解」標籤中的體驗符合所有其他物件的體驗：
 
    * 團隊
    * 範本
    * 範本任務
+
+* 下列物件沒有「系統活動」標籤或「全部」標籤，且「註解」標籤中的體驗與所有其他物件的體驗不同：
    * 臨機卡
-   * 疊代
 
      如需卡片更新的詳細資訊，請參閱 [新增臨機卡到展示板](/help/quicksilver/agile/get-started-with-boards/add-card-to-board.md).
+   * 疊代
 
      如需有關版序更新的詳細資訊，請參閱 [管理反複專案註解](/help/quicksilver/agile/use-scrum-in-an-agile-team/iterations/manage-iteration-updates.md).
 
-* 下列物件沒有「全部」標籤：
+* 下列物件沒有「全部」標籤，「註解」標籤中的體驗符合大多數物件的體驗：
 
    * 目標
 
      如需有關目標更新的詳細資訊，請參閱 [管理目標註解](/help/quicksilver/workfront-goals/goal-management/manage-goal-comments.md).
-
-<!--info for April 11: make the text below live - remove the commented out brackets: 
-NOTE FROM LISA: I added this info above, because there was already a list of items without a System Activity or All tab.
-
-* The following objects don't have a System Activity or an All tab: 
-
-  * Iterations
-
-    For more information about updates on iterations, see [Manage iteration comments](/help/quicksilver/agile/use-scrum-in-an-agile-team/iterations/manage-iteration-updates.md). -->
 
 <!-- info for April 11: hide the entire section below: -->
 

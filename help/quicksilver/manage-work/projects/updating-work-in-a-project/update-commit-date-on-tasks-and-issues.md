@@ -6,9 +6,9 @@ description: 您可以手動更新指派給您的任務或問題的認可日期�
 author: Alina
 feature: Work Management
 exl-id: 003c52c7-baf3-4316-bb4b-83b600172d48
-source-git-commit: 55e8fc5ce8f3b4065f6c974bf77da4e91e66090f
+source-git-commit: 18dfb67626982d73ad33871b8afce4a3f0d4cdb3
 workflow-type: tm+mt
-source-wordcount: '418'
+source-wordcount: '409'
 ht-degree: 0%
 
 ---
@@ -69,6 +69,16 @@ ht-degree: 0%
 
 更新認可日期對於任務和問題而言是相同的。
 
+>[!NOTE]
+>
+>您可以要求系統或群組管理員將認可日期欄位新增到您的摘要面板，使其更易於在Workfront的各個區域更新。
+>
+>如需詳細資訊，請參閱下列文章：
+>
+>* [摘要概觀](/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md)
+>* [使用版面配置範本自訂首頁和摘要](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md).
+
+
 1. 前往指派給您的任務或問題 **所有者**.
 
    如需尋找問題或任務之任務負責人的詳細資訊，請參閱區段 [編輯任務](../../../manage-work/tasks/manage-tasks/edit-tasks.md#assignments) 在文章中 [編輯任務](../../../manage-work/tasks/manage-tasks/edit-tasks.md).
@@ -89,11 +99,11 @@ ht-degree: 0%
 
      ![](assets/task-projected-completion-date-in-details-highlighted-nwe-350x230.png)
 
-   * 應用程式內通知會通知專案所有者，您已建議任務或問題的新認可日期。
-   * 更新區段會通知專案所有者，您已建議新的認可日期，他們現在可以更新任務或問題的規劃完成日期，以符合您建議的認可日期。 新的評論體驗不支援此功能。 如需詳細資訊，請參閱 [新的評論體驗](/help/quicksilver/product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
+   * Workfront應用程式內通知會通知專案所有者，您已建議任務或問題的新認可日期。
+   <!--* The Project Owner is notified in the Updates section that you have suggested a new Commit Date and they can, at this time, update the Planned Completion Date of the task or issue to match the Commit Date you suggested. This functionality is not supported in the new commenting experience. For information, see [The new commenting experience](/help/quicksilver/product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md). -->
 
-     ![](assets/project-owner-notification-update-stream-that-commit-date-affects-project-timeline-highlighted-nwe-350x139.png)
+   <!--![](assets/project-owner-notification-update-stream-that-commit-date-affects-project-timeline-highlighted-nwe-350x139.png)-->
 
-     如需關於此變更所觸發的通知和更新的資訊，請參閱文章中的「變更認可日期所觸發的通知和更新」一節 [認可日期總覽](/help/quicksilver/manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md).
+   如需關於此變更所觸發的通知和更新的資訊，請參閱文章中的「變更認可日期所觸發的通知和更新」一節 [認可日期總覽](/help/quicksilver/manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md).
 
 <!--at the Production update stream when removing legacy - replace the last bullet with: The Project Owner is notified in the Systems Activity and the All tabs of the Updates section that you have suggested a new Commit Date. They can then update the Planned Completion Date accordingly by editing the task or the issue.-->

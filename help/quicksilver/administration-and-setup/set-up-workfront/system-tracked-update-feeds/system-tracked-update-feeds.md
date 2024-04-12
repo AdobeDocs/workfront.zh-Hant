@@ -5,42 +5,46 @@ product-area: system-administration
 navigation-topic: system-tracked-update-feeds
 title: 系統追蹤更新
 description: Adobe Workfront會將狀態資訊記錄在物件的上，藉此擷取特定物件上發生的活動 [!UICONTROL 更新] 區域。
-author: Lisa
+author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: c88823a7-100b-40dd-b4f1-bead53ae5dc4
-source-git-commit: ee957e319941fe5eabb9144eed184372e5402197
+source-git-commit: 18dfb67626982d73ad33871b8afce4a3f0d4cdb3
 workflow-type: tm+mt
-source-wordcount: '554'
+source-wordcount: '386'
 ht-degree: 0%
 
 ---
 
 # 系統追蹤更新
 
-<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它僅適用於所有客戶的預覽環境，或適用於啟用快速發行的客戶的生產環境。</span>
+<!-- Audited: April, 2024-->
 
-<span class="preview">如需快速發行版本的相關資訊，請參閱 [啟用或停用組織的快速發行](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers, or in the Production environment for customers who enabled fast releases.</span>
 
-<span class="preview">如需目前版本的相關資訊，請參閱 [2024年第二季版本總覽](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
 
-<!--remove new experience and legacy notes when we remove legacy in the UI - Jan 24???-->
+<span class="preview">For information about the current release, see [Second Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>-->
 
-[!DNL Adobe Workfront] 擷取特定物件上發生的活動，方法是在物件的 [!UICONTROL 更新] 區域。
+[!DNL Adobe Workfront] 擷取特定物件上發生的活動，方法是在物件的 [!UICONTROL 更新] 區段。
+
+如需有關更新區段的資訊，請參閱 [更新區段概觀](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
 此 [!UICONTROL 更新] 區域包含下列型別的更新：
 
-* **使用者更新：** 由使用者手動輸入。 也稱為評論、回覆和附註。
+* **使用者更新：** 由使用者手動輸入。 也稱為評論、回覆和附註。 使用者更新會顯示在物件「更新」區段的「註釋」和「全部」標籤中。
 
   如需設定使用者更新的詳細資訊，請參閱 [設定使用者更新的偏好設定](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-preferences-user-updates.md).
 
   ![](assets/updates-qs-350x125.png)
 
-* **系統更新：** 由系統自動進行。 系統更新包含簡短的附註，說明專案已發生何種變更。
+* **系統更新：** 由系統自動進行。 系統更新包含簡短的附註，說明專案已發生何種變更。 系統更新會顯示在物件的「系統活動」和「更新」區段的「全部」標籤中。
 
   如需有關系統更新摘要及啟用方法的詳細資訊，請參閱 [設定系統更新](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
 
   ![](assets/system-updates-example-unified-stream.png)
+
 
   <!--
   DRAFTED IN FLARE:
@@ -90,28 +94,30 @@ ht-degree: 0%
 Your [!DNL Workfront] license determines whether system updates display by default in the [!UICONTROL Updates] area of objects. [!DNL Workfront] users with a [!UICONTROL Plan] license have system updates displayed in the [!UICONTROL Updates] area by default. However, users can filter out system updates, as described in the [Enable or disable system updates](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md#enable) section in [Update work](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md). All other [!DNL Workfront] licenses filter system updates by default.
 -->
 
-* 以下是新版和舊版註釋體驗之間的差異：
+* 使用者更新顯示在「註解」標籤中，而系統更新顯示在「系統活動」和「全部」標籤中。
 
-   * 使用新的註解體驗時，使用者更新顯示在「註解」標籤中，系統更新顯示在「系統活動」中 <span class="preview">和所有</span> 索引標籤。
+  有關沒有「系統活動」或「全部」標籤的物件清單，請參閱 [更新區段總覽](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md)
 
-     如需有關新註解體驗的詳細資訊，請參閱 [新的評論體驗](../../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
+* 您無法新增回覆至系統更新。 然而，在2024年4月11日之前對舊版註釋體驗中的系統活動記錄所做的任何回覆，都會以唯讀形式填入系統活動標籤中。
 
-     <span class="preview">有關沒有「系統活動」或「全部」標籤的物件清單，請參閱 [更新區段總覽](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md)</span>
+<!--
+* The following are differences between the new and the legacy commenting experience: 
 
-   * <span class="preview">使用新的註解體驗時，您無法新增註解到系統更新。 但是，對舊版評論體驗中系統活動記錄所做的任何回覆，都會在新版評論體驗中以唯讀形式填入系統活動標籤中。</span>
-   * 使用舊版評論體驗時，系統和使用者更新會顯示在一個連續的摘要中。
+   * When using the new commenting experience, user updates display in the Comments tab and system updates display in the System Activity <span class="preview">and the All</span> tabs.  
 
-   * 使用舊版評論體驗時，使用者可依預設檢視系統更新，也可以選擇不顯示更新。 使用新的註解體驗時，無法停用系統更新。
+      For more information about the new commenting experience, see [New commenting experience](../../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 
-     如需有關停用系統更新顯示的資訊，請參閱區段 [啟用或停用系統更新](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md#enable) 在文章中 [更新工作](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+      <span class="preview">For a list of objects that do not have the System Activity or the All tabs, see [Update section overview](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md)</span>
 
-   * <span class="preview">已在預覽環境中停用舊版註解體驗。 如需詳細資訊，請參閱 [2024年第二季度更新流和通知增強功能](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md).</span>
+   * <span class="preview">When using the new commenting experience, you cannot add a comment to a system update. However, any replies made to system activity records in the legacy commenting experience are populated on the System Activity tab as read-only in the new commenting experience.</span>
+   * When using the legacy commenting experience, the system and user updates display in one continuous feed. 
 
-* Workfront會記錄下列物件的系統追蹤更新，但沒有選項可停用顯示它們：
+   * When using the legacy commenting experience, users can view system updates by default or they can choose to not display them. Disabling system updates is not possible when using the new commenting experience. 
 
-   * [!UICONTROL Portfolio]
-   * [!UICONTROL 計畫]
-   * [!UICONTROL 反複專案]
+      For information about disabling the display of system updates, see the section [Enable or disable system updates](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md#enable) in the article [Update work](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).  
+
+   * <span class="preview">The legacy commenting experience has been disabled in the Preview environment. For more information, see [Second Quarter 2024 Update stream and notification enhancements](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md).</span>
+-->
 
 * [!DNL Workfront] 管理員可以定義系統應在中追蹤的變更型別 [!UICONTROL 更新] 區域。 並非所有物件都具有 [!UICONTROL 更新] 區域也有可設定的 [!UICONTROL 更新] 摘要。 下列物件具有 [!UICONTROL 更新] 擷取系統追蹤更新摘要，但沒有可設定更新摘要的區域：
 

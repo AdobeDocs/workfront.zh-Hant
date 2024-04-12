@@ -7,9 +7,9 @@ author: Alina
 feature: Product Announcements
 role: User
 exl-id: f750b35b-8021-4cc1-81d6-e1ece2530438
-source-git-commit: c6575c832fa21a17a1d20fa7e92798d970ca0f50
+source-git-commit: 886b5d9084cb1bfb63157152f05fa20128d34903
 workflow-type: tm+mt
-source-wordcount: '1101'
+source-wordcount: '1102'
 ht-degree: 0%
 
 ---
@@ -30,19 +30,9 @@ ht-degree: 0%
 >
 >本文資訊是指已發行給新評論體驗的功能。
 >
->新評論體驗的Beta版計畫從2023年4月開始，到2023年10月結束。 新評論體驗的Beta版計畫已於2023年10月版本中結束。
+>新評論體驗的Beta版計畫從2023年4月開始，於2023年10月結束，並於2023年10月發行。
 >
->從2023年10月開始，新評論體驗的所有新功能都會發行給所有客戶。 如需詳細資訊，請參閱每個版本目前的版本概觀頁面。
-
-<!--An update to the commenting experience in Adobe Workfront is currently in development. This update includes a new interface, new features, and improved performance in the Updates section of select objects. 
-
-The new commenting experience will slowly become available for all the objects with an Updates section in Workfront, and later it will expand to other Adobe Experience Cloud applications.-->
-
-<!--For additional resources for the new commenting experience, also see the following articles:
-
-* [New commenting experience release activity](../new-commenting-experience-beta/new-commenting-beta-experience-release-activity.md)
-* [New commenting experience FAQs](../../betas/new-commenting-experience-beta/new-commenting-faq.md)
--->
+>自2024年4月11日起，所有客戶都可在生產環境中使用新評論體驗的所有功能。
 
 ## 功能
 
@@ -561,19 +551,20 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
 
 * 2024年第二季發行版本（2024年4月11日）：
 
-   * 移除切換回舊版註解資料流的選項，並使新註解資料流成為所有物件的唯一體驗，版序除外。
+  移除切換回舊版註解資料流的選項，並使新註解資料流成為所有物件的唯一體驗，版序除外。
 
 ## 找出新的註解體驗
 
-<!--info for April 11: make this commented out text live and hide everything else underneath it, all the way to the end of the article:-->
+Workfront的下列區域提供新的註解體驗：
 
->[!IMPORTANT]
->
->除了版序之外，新註解體驗可用於所有物件的所有Workfront環境。
->
->舊版評論體驗已從專案、任務、問題和檔案的所有環境中移除。
+* 在所有物件的「更新」區段中，版序除外。
 
-如需有關存取Workfront物件「更新」區段的資訊，請參閱 [更新區段概觀](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
+  如需有關存取Workfront物件「更新」區段的資訊，請參閱 [更新區段概觀](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
+
+* 在任務、問題和檔案的摘要面板中，在所有區域有這可用的（清單、時程表、工作負載平衡器和首頁）。
+* 在「首頁」區域中，檢視任務和問題。
+
+
 
 <!--
 

@@ -4,19 +4,20 @@ user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: create-and-manage-users
 description: 身為Adobe Workfront管理員，您有時可能需要代表其他使用者存取Workfront 。
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 2f8dd132-1086-4980-9b56-993a68231e96
-source-git-commit: ee957e319941fe5eabb9144eed184372e5402197
+source-git-commit: 18dfb67626982d73ad33871b8afce4a3f0d4cdb3
 workflow-type: tm+mt
-source-wordcount: '794'
+source-wordcount: '814'
 ht-degree: 1%
 
 ---
 
 # 以另一位使用者身分登入
 
+<!--Audited: April, 2024-->
 
 <!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available for all users only in the Preview environment.</span> -->
 
@@ -64,8 +65,9 @@ Some users, such as executives, need to be able to control which administrators 
    <td>任何</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront授權</td> 
-   <td>計劃</td> 
+   <td role="rowheader">Adobe Workfront授權*</td> 
+   <td> <p>新增：標準</p>
+   <p>目前：計畫</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定</td> 
@@ -75,6 +77,8 @@ Some users, such as executives, need to be able to control which administrators 
   </tr> 
  </tbody> 
 </table>
+
+*如需詳細資訊，請參閱 [Workfront檔案中的存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## 以其他使用者身分登入並執行動作
 
@@ -146,7 +150,7 @@ Workfront提供機制，可在管理員以其他使用者身份登入時追蹤�
 
 當您以其他使用者身分登入Workfront並執行動作時，Workfront會清楚指出您執行的任何動作都是由您代表您登入的使用者所執行。
 
-例如，如果您在以其他使用者身份登入時對專案進行註解，則會出現一條宣告，表示您是代表使用者進行註解。
+例如，如果您以其他使用者身份登入時註解某個專案，則說明您在檢視物件的「更新」區段時，代表使用者發表了註解。
 
 ### 檢視稽核資訊 {#view-audit-information}
 

@@ -8,58 +8,46 @@ feature: Get Started with Workfront
 role: User
 topic: Collaboration
 exl-id: a8271f3c-7a08-4eb3-aaff-deb250f5af73
-source-git-commit: ee957e319941fe5eabb9144eed184372e5402197
+source-git-commit: 886b5d9084cb1bfb63157152f05fa20128d34903
 workflow-type: tm+mt
-source-wordcount: '1190'
-ht-degree: 0%
+source-wordcount: '697'
+ht-degree: 1%
 
 ---
 
 # 回覆更新內容
 
-<!--remove legacy and new experience references when we remove the legacy updates in the UI - Jan 2024???-->
+<!-- Audited: April 2024-->
 
 <!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>  
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)</span>  
-
-<span class="preview">For information about the current release schedule, see [Fourth Quarter 2023 release overview](../../product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md)</span> 
-
+>[!IMPORTANT]
+>
+>We are currently redesigning the commenting experience in Adobe Workfront.
+>
+>Depending on what objects you access the commenting experience for, you might see the following functionality for the Updates section:
+>* The new experience
+>* The legacy experience
+>* The new and the legacy experience
+>
+>For more information about the new commenting experience and its availability, see [New commenting experience](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md). 
+>
+><Span class="preview"> The legacy commenting experience has been removed from projects, tasks, issues, and documents in the Preview environment. </span>
+>
+>The new commenting experience is available only for the Updates section of Workfront objects, and it is not available when you access updates from the following areas:
+>
+> * Home
+> * Summary panel in lists
+> * Summary panel in timesheets 
+> * Summary panel in the Workload Balancer
+>
+><span class="preview">The new commenting experience is available in the Summary panel in lists, timesheets, and the Workload Balancer in the Preview environment and in the Production environment for customers who have opted for the fast release process. </span> 
 -->
 
-<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它只能在「預覽」環境中供所有客戶使用，或在「生產」環境中供啟用快速發行的客戶使用。 </span>
-
-<span class="preview">如需快速發行版本的相關資訊，請參閱 [啟用或停用組織的快速發行](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
-
-<span class="preview">如需目前發行排程的詳細資訊，請參閱 [2024年第二季版本總覽](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>
+當有人回覆工作物件的評論或系統更新時，他們的回覆會出現在物件「更新」區段的「評論與全部」標籤中的通訊對話串中。
 
 >[!IMPORTANT]
 >
->我們目前正在重新設計Adobe Workfront中的評論體驗。
->
->根據您存取註釋體驗的物件，您可能會在「更新」區段中看到下列功能：
->* 新體驗
->* 舊版體驗
->* 全新和舊版體驗
->
->如需有關新評論體驗及其可用性的詳細資訊，請參閱 [新的評論體驗](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
->
-><Span class="preview"> 舊版評論體驗已從預覽環境中的專案、任務、問題和檔案中移除。 </span>
->
->新註解體驗僅適用於Workfront物件的「更新」區段，當您從以下區域存取更新時，無法使用：
->
-> * 首頁
-> * 清單中的摘要面板
-> * 時程表中的摘要面板
-> * 工作負載平衡器中的摘要面板
->
-><span class="preview">新的評論體驗可在「預覽」環境中的清單、時程表和工作負載平衡器中的「摘要」面板中取得，並可在已選擇快速發行流程的客戶的「生產」環境中取得。 </span>
-
-當有人回覆工作物件的評論或系統更新時，他們的回覆會出現在物件「更新」區段的通訊對話串中。
-
->[!IMPORTANT]
->
->無法在新評論體驗中回覆系統更新。 如需詳細資訊，請參閱 [新的評論體驗](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
+>無法在[系統活動]索引標籤中回覆系統更新。 在2024年4月11日之前對舊版評論體驗中所做系統更新的任何回覆都會顯示為唯讀。
 
 <!--adjust the sentence before the second IMPORTANT and remove this important note when we remove legacy from the system-->
 
@@ -72,27 +60,26 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront計畫*</strong></td> 
+   <td role="rowheader"><strong>Adobe Workfront計畫</strong></td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Adobe Workfront授權*</strong></td> 
-   <td> <p>要求或更高的問題和檔案；檢閱或更高的所有其他物件</p> </td> 
+   <td> <p>新增：問題和檔案的貢獻者或更高；所有其他物件的淺色或更高</p> 
+   <p>目前：問題與檔案的要求或更高；所有其他物件的檢閱或更高</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>存取層級設定*</strong></td> 
-   <td> <p>問題和檔案的要求者或以上；所有其他物件的檢閱者或以上</p> <p><b>附註</b>
-
-如果您還是沒有存取權，請詢問您的Workfront管理員，他們是否在您的存取層級中設定其他限制。 如需有關Workfront管理員如何修改您的存取層級的資訊，請參閱 <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>.</p> </td>
-</tr> 
+   <td role="rowheader"><strong>存取層級設定</strong></td> 
+   <td> <p>檢視或編輯更新所在物件的存取權</p> </td> 
+  </tr> 
   <tr> 
    <td role="rowheader"><strong>物件許可權</strong></td> 
-   <td> <p>檢視物件的存取權</p> <p>如需請求其他存取許可權的詳細資訊，請參閱 <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">要求物件的存取權 </a>.</p> </td> 
+   <td> <p>檢視物件的存取權</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;若要瞭解您擁有的計畫、授權型別或存取權，請聯絡您的Workfront管理員。
+*若要瞭解您擁有的計畫、授權型別或存取權，請聯絡您的Workfront管理員。 如需詳細資訊，請參閱 [Workfront檔案的存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## 在Workfront中回覆更新或回覆
 
@@ -100,16 +87,14 @@ ht-degree: 0%
 
 回覆註解或回覆會因您選擇的體驗和物件而異。
 
-### 使用新註解體驗時回覆註解
-
-如需有關新註解體驗中哪些功能可用以及哪些物件的資訊，請參閱 [新的評論體驗](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
+### 回複評論
 
 1. 移至您要新增回覆的物件。
 1. 按一下 **更新**，然後按一下 **註解** 定位物件，並尋找您要回覆的註解或回覆
 
    或
 
-   <span class="preview">按一下 **全部** 標籤，然後按一下 **在評論中回覆** 以在「註解」標籤中開啟註解並回覆。 您無法在「全部」索引標籤中回覆。</span>
+   按一下 **全部** 標籤，然後按一下 **在評論中回覆** 以在「註解」標籤中開啟註解並回覆。 您無法在「全部」索引標籤中回覆。
 
 1. （可選）若要在回覆中包含先前更新的文字，請按一下 **更多** 選單，然後按一下 **引用回覆**. 先前更新的文字會出現在輸入區域中，以垂直灰色線標示。
 1. 按一下 **回覆**.
@@ -128,25 +113,28 @@ ht-degree: 0%
 
 1. （可選）按一下 **更多** 功能表 ![](assets/more-menu.png) 在您要回覆的評論右上角，以取得管理回覆的更多選項。 如需詳細資訊，請參閱 [更新工作](../updating-work-items-and-viewing-updates/update-work.md).
 
-### 在舊版更新區段中回覆更新或回覆
+<!--
+### Reply to an update or reply in the legacy Updates section
 
-1. 移至您要新增回覆的物件。
-1. 在 **更新** 標籤中，尋找要回覆的更新或回覆。
+1. Go to the object to which you want to add a reply.
+1. On the **Updates** tab for the object, find the update or reply to which you want to reply.
 
-1. （選擇性）若要在現有更新中檢視影像，請執行下列任一項作業：
+1. (Optional) To view an image in the existing update do one of the following:
 
-   * 按一下 **預覽** 圖示 ![](assets/previewimageicon-31x31.png) 在影像縮圖上，以在新的瀏覽器標籤中開啟全尺寸影像。
-   * 按一下 **下載** 圖示 ![](assets/downloadimageicon.png) 在影像縮圖上以下載影像。
+   * Click the **Preview** icon ![](assets/previewimageicon-31x31.png) on the image thumbnail to open the full-size image in a new browser tab.
+   * Click the **Download** icon ![](assets/downloadimageicon.png) on the image thumbnail to download the image.
 
-1. 按一下 **回覆** 在更新時，在出現的方塊中輸入回覆。
+1. Click **Reply** on the update, then type a reply in the box that appears.
 
-   您可以在該更新對話串頂端看到目前參與對話或每個回覆中被標籤的使用者。 這些使用者以及訂閱物件的任何使用者會在物件進行更新或回覆時收到通知。 您也可以標籤更多使用者，讓他們加入您的回覆中。  若要標籤更多使用者，請參閱 [標籤其他人的更新](../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
+   You can see the users who are actively engaged in the conversation or tagged in each reply at the top of that update thread. These users, along with any users subscribed to the object, receive a notification whenever an update or reply is made on the object. You can also tag more users to include them in your reply.  To tag more users, see [Tag others on updates](../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
 
    ![](assets/tagging-transparency-350x192.png)
+   
+1. (Optional) To include text from a previous update in your reply, click the **More** menu next to the update or reply you want to quote, then click **Quote Reply**. Text from the previous update appears in the input area, marked with a vertical gray line.
+1. (Optional) Use formatting, emojis, include links, or images as explained in the section "Use Rich Text in a Workfront update" in the article [Update work](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+1. Click **Reply** to save the reply.
 
-1. （可選）若要在回覆中包含先前更新的文字，請按一下 **更多** 要報價的更新或回覆旁邊的功能表，然後按一下 **引文回覆**. 先前更新的文字會出現在輸入區域中，以垂直灰色線標示。
-1. （選用）使用格式、表情符號、包含連結或影像，如文章「在Workfront更新中使用RTF文字」一節中所述 [更新工作](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
-1. 按一下 **回覆** 以儲存回覆。
+-->
 
 ## 回覆電子郵件通知的更新
 
