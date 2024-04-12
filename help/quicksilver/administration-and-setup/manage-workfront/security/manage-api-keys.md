@@ -8,7 +8,7 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 1176d899-0585-430d-87f2-0823bda2f1be
-source-git-commit: f504013e202c57245a2edc3dff2b71d19bcfdbee
+source-git-commit: cbbc743cfd69aaf0e5e7468980bef730a1c8fbf5
 workflow-type: tm+mt
 source-wordcount: '1386'
 ht-degree: 2%
@@ -82,7 +82,7 @@ Workfront管理員也有唯一的API金鑰。 當應用程式使用管理員API�
    若要產生API金鑰：在 **API金鑰設定** 區段，按一下 **產生API金鑰**.
 
    或\
-   重設API金鑰：在 **API金鑰設定** 區段，按一下 **重設**，然後&#x200B;**重設。**
+   重設API金鑰：在 **API金鑰設定** 區段，按一下 **重設**，然後 **重設。**
 
    或
 
