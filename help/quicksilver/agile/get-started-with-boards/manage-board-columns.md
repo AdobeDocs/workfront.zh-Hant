@@ -6,9 +6,9 @@ description: 依預設，新展示板包含三欄。 您可以新增更多欄、
 author: Lisa
 feature: Agile
 exl-id: a736cdfe-5ddc-4bf4-82a1-a78d16c0d70b
-source-git-commit: 46099e6ceba4310453743c023823e8952f5ce553
+source-git-commit: ade2551a82f28a41816dbf956f3a216cca07034e
 workflow-type: tm+mt
-source-wordcount: '967'
+source-wordcount: '1000'
 ht-degree: 0%
 
 ---
@@ -106,6 +106,8 @@ ht-degree: 0%
 >[!NOTE]
 >
 >動態展示板總是將卡片放置在與其狀態相符的欄中，無論欄原則是啟用還是停用。 當您重新整理展示板時，卡片將返回其指派的欄。
+> 
+>此外，對於所有展示板型別，如果您將卡片從一欄移動到另一欄具有相同狀態，當您重新整理展示板時，卡片將返回到原始欄。
 
 1. 存取展示板。
 1. 按一下 **[!UICONTROL 更多]** 功能表 ![更多選單](assets/more-icon-spectrum.png) ，然後選取「 」 **[!UICONTROL 編輯]**.
