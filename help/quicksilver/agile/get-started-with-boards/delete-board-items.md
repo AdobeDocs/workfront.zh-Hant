@@ -6,16 +6,22 @@ description: 當您從展示板中刪除卡片時，該卡片將會永久刪除�
 author: Lisa
 feature: Agile
 exl-id: 68b7d2e5-92f0-462d-8122-eaecb1e6b87c
-source-git-commit: b6a824ac6248c86043f7f21866c8a14a6c97602f
+source-git-commit: 46099e6ceba4310453743c023823e8952f5ce553
 workflow-type: tm+mt
-source-wordcount: '387'
+source-wordcount: '505'
 ht-degree: 0%
 
 ---
 
 # 從展示板中刪除或封存卡片
 
-當您從展示板中刪除卡片時，該卡片將會永久刪除且無法還原。 封存卡片會將卡片傳送至封存，您稍後可以將其還原至展示板。
+當您從展示板中刪除臨機卡時，該卡片將會永久刪除且無法還原。 連線的卡片在刪除後，可以手動新增回展示板。
+
+如果您從動態展示板中刪除已連線的卡片，當您重新整理展示板時，它會重新出現，因為此展示板型別會從特定專案中拉入所有任務和問題。 若要刪除卡片，您必須從Workfront專案中刪除已連線的任務或問題。
+
+當您從任何其他具有輸入欄的展示板型別中刪除已連線的卡片時，如果連線的工作或問題尚未標籤為完成，則當您重新整理展示板時，該卡片將重新出現在輸入欄中。 如需輸入欄的詳細資訊，請參閱 [將輸入欄新增到展示板](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md).
+
+封存卡片會將卡片傳送至封存，您稍後可以將其還原至展示板。
 
 ## 存取需求
 
@@ -26,7 +32,7 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] 計劃*</strong></td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] 計畫*</strong></td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 

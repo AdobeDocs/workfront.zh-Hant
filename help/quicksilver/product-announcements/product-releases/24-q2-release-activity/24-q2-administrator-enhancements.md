@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: a297ee8d-d949-45ab-a219-437316fa8fa3
-source-git-commit: c2513beb50867fe1e1d065037a068a846f96d50b
+source-git-commit: a1386652f5181d4aa94ddab8e4f9714ef1c08b73
 workflow-type: tm+mt
-source-wordcount: '796'
+source-wordcount: '797'
 ht-degree: 0%
 
 ---
@@ -84,7 +84,7 @@ Workfront系統管理員現在可以為已移轉至Adobe IMS的組織設定使�
 
 >[!NOTE]
 >
->預覽版本： 2024年2月8日；快速版本的生產版：24.2版（2024年2月15日）；所有客戶的生產版：待定
+>預覽版本： 2024年2月8日；快速發行生產：24.2版（2024年2月15日）；所有客戶生產：24.4 （2024年4月11日）
 
 您現在可以編輯現有的顯示和略過邏輯，並在表單設計工具Beta版中新增邏輯至自訂表單。 易於使用的邏輯產生器可協助您根據表單中的選取專案定義要顯示或略過的欄位。
 

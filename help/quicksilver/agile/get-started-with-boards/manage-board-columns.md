@@ -1,19 +1,19 @@
 ---
 product-area: agile-and-teams
 navigation-topic: get-started-with-boards
-title: 管理展示板欄
+title: 管理展示板的欄
 description: 依預設，新展示板包含三欄。 您可以新增更多欄、變更欄的順序、重新命名欄，以及刪除任何您不需要的欄。
 author: Lisa
 feature: Agile
 exl-id: a736cdfe-5ddc-4bf4-82a1-a78d16c0d70b
-source-git-commit: 8097842fedb468d8f0e5c9eed94bf74d489edd2b
+source-git-commit: 46099e6ceba4310453743c023823e8952f5ce553
 workflow-type: tm+mt
-source-wordcount: '934'
+source-wordcount: '967'
 ht-degree: 0%
 
 ---
 
-# 管理展示板欄
+# 管理展示板的欄
 
 依預設，新展示板包含三欄。 您可以新增更多欄、變更欄的順序、重新命名欄，以及刪除任何您不需要的欄。
 
@@ -32,7 +32,7 @@ ht-degree: 0%
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] 計劃*</strong></td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] 計畫*</strong></td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
@@ -102,6 +102,10 @@ ht-degree: 0%
 1. 按一下 **[!UICONTROL 隱藏設定]** 以關閉 [!UICONTROL 設定] 面板。
 
 ## 定義欄設定和原則
+
+>[!NOTE]
+>
+>動態展示板總是將卡片放置在與其狀態相符的欄中，無論欄原則是啟用還是停用。 當您重新整理展示板時，卡片將返回其指派的欄。
 
 1. 存取展示板。
 1. 按一下 **[!UICONTROL 更多]** 功能表 ![更多選單](assets/more-icon-spectrum.png) ，然後選取「 」 **[!UICONTROL 編輯]**.
