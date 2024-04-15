@@ -6,9 +6,9 @@ description: 計畫完成日期與認可日期皆指出任務應於何時完成�
 author: Alina
 feature: Work Management
 exl-id: 1709c60c-ac75-48eb-9226-ec2cf556ebf0
-source-git-commit: ee957e319941fe5eabb9144eed184372e5402197
+source-git-commit: 78c28a1a5a850d13729113fa9f9819635ceb5d13
 workflow-type: tm+mt
-source-wordcount: '410'
+source-wordcount: '421'
 ht-degree: 1%
 
 ---
@@ -57,9 +57,11 @@ this article has mostly information that is repeated from the articles linked fr
 
 受指派人變更「認可日期」不會自動變更「規劃完成日期」。 反之亦然：變更規劃完成日期不會變更認可日期。
 
-當認可日期變更為晚於計畫完成日期的日期時，專案所有者會收到此變更已發生的通知，並且可能影響專案的時間表。
+當認可日期變更時，專案所有者會透過Workfront應用程式內通知得知此變更已發生。
 
-如果專案擁有者可接受受分派者提供的「認可日期」，他們必須手動更新任務或問題的計畫完成日期。 如需詳細資訊，請參閱下列文章：
+如果專案擁有者可接受受分派者提供的「認可日期」，他們必須在任務上手動更新「計畫完成日期」，以說明該日期可能對專案時間表的影響。 問題計畫完成日期的變更不會影響專案時間表。
+
+如需詳細資訊，請參閱下列文章：
 
 * [認可日期總覽](../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md)
 * [更新任務和問題的認可日期](../../../manage-work/projects/updating-work-in-a-project/update-commit-date-on-tasks-and-issues.md)

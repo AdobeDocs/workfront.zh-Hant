@@ -7,9 +7,9 @@ description: 本文說明Adobe Workfront中時程表的配置，讓您更瞭解�
 author: Alina
 feature: Timesheets
 exl-id: 31c48a50-5235-495c-8e46-0974ed98ede1
-source-git-commit: ee957e319941fe5eabb9144eed184372e5402197
+source-git-commit: 4c17466705873b06e7ea7bb08bb78a7e68078f8b
 workflow-type: tm+mt
-source-wordcount: '1109'
+source-wordcount: '1049'
 ht-degree: 1%
 
 ---
@@ -18,11 +18,11 @@ ht-degree: 1%
 
 <!-- Audited: 12/2023 -->
 
-<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它只能在「預覽」環境中供所有客戶使用，或在「生產」環境中供啟用快速發行的客戶使用。 </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers or in Production for customers who enabled fast releases. </span>
 
-<span class="preview">如需快速發行版本的相關資訊，請參閱 [啟用或停用組織的快速發行](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
 
-<span class="preview">如需目前發行排程的詳細資訊，請參閱 [2024年第二季版本總覽](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>
+<span class="preview">For information about the current release schedule, see [Second Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>-->
 
 本文說明Adobe Workfront中時程表的配置，讓您更瞭解如何自訂及利用時程表來記錄時間。
 
@@ -125,11 +125,7 @@ ht-degree: 1%
 
 ## 更新左側面板中的區域
 
-<div class="preview">
-
 ![更新左側時程表面板中的區域](assets/timesheet-updates-with-all-tab.png)
-
-</div>
 
 您可以在時程表上發表評論，與時程表核准者或其他使用者在時程表左側面板的更新區段中溝通。
 
@@ -137,11 +133,7 @@ ht-degree: 1%
 
 ## 摘要面板
 
-<div class="preview">
-
 ![摘要面板](assets/timesheet-summary-panel-on-updates.png)
-
-</div>
 
 您可以存取時程表中顯示的任務或問題的摘要面板。 從這裡，您可以對任務和問題發表評論，或更新其資訊。 如需詳細資訊，請參閱 [摘要概觀](../../workfront-basics/the-new-workfront-experience/summary-overview.md).
 

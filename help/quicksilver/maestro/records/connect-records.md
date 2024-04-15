@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
-source-git-commit: e54142e189cd4f407161401203a7f13c752ad404
+source-git-commit: 78c28a1a5a850d13729113fa9f9819635ceb5d13
 workflow-type: tm+mt
 source-wordcount: '2353'
 ht-degree: 1%
@@ -183,7 +183,9 @@ hide: yes
 
    >[!TIP]
    >
-   >    您可以開啟記錄的頁面，找到連結的記錄欄位，然後按一下 **+** 圖示來從連線的記錄或物件型別新增記錄。
+   >    您可以開啟記錄的頁面，找到連結的記錄欄位並按一下 **連線記錄** 在欄位中，從連線的記錄或物件型別新增記錄。
+   >
+   >![](assets/connect-records-from-record-page-field.png)
 
    新增下列專案：
 

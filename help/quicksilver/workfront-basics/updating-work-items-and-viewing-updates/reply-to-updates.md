@@ -8,10 +8,10 @@ feature: Get Started with Workfront
 role: User
 topic: Collaboration
 exl-id: a8271f3c-7a08-4eb3-aaff-deb250f5af73
-source-git-commit: 886b5d9084cb1bfb63157152f05fa20128d34903
+source-git-commit: 4c17466705873b06e7ea7bb08bb78a7e68078f8b
 workflow-type: tm+mt
-source-wordcount: '697'
-ht-degree: 1%
+source-wordcount: '725'
+ht-degree: 0%
 
 ---
 
@@ -43,13 +43,13 @@ ht-degree: 1%
 ><span class="preview">The new commenting experience is available in the Summary panel in lists, timesheets, and the Workload Balancer in the Preview environment and in the Production environment for customers who have opted for the fast release process. </span> 
 -->
 
-當有人回覆工作物件的評論或系統更新時，他們的回覆會出現在物件「更新」區段的「評論與全部」標籤中的通訊對話串中。
+當有人回覆工作物件的註解或系統更新時，他們的回覆會出現在物件「更新」區段的「註解」和「全部」標籤中的通訊對話串中。
 
 >[!IMPORTANT]
 >
 >無法在[系統活動]索引標籤中回覆系統更新。 在2024年4月11日之前對舊版評論體驗中所做系統更新的任何回覆都會顯示為唯讀。
 
-<!--adjust the sentence before the second IMPORTANT and remove this important note when we remove legacy from the system-->
+本文說明如何回覆Workfront中大部分物件的註解。 如需各種物件之「更新」區段之間的差異，請參閱 [更新區段概觀](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
 ## 存取需求
 
@@ -85,9 +85,9 @@ ht-degree: 1%
 
 您可以回覆物件執行緒中的註解，以檢視該物件，或者您可以以Workfront或群組管理員身分登入，並代表其他使用者回覆註解。 如需詳細資訊，請參閱 [以其他使用者身分登入](../../administration-and-setup/add-users/create-and-manage-users/log-in-as-another-user.md).
 
-回覆註解或回覆會因您選擇的體驗和物件而異。
-
 ### 回複評論
+
+在Workfront中，物件的「更新」區段中回覆註解的方式與大多數物件類似。
 
 1. 移至您要新增回覆的物件。
 1. 按一下 **更新**，然後按一下 **註解** 定位物件，並尋找您要回覆的註解或回覆

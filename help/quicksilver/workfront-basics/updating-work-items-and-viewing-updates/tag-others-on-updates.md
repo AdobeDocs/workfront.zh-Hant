@@ -6,9 +6,9 @@ description: 在Adobe Workfront物件上提供更新註解時，專案上的所�
 author: Alina
 feature: Get Started with Workfront
 exl-id: c4c0d74f-ac50-4fc5-89d6-28f004c25b29
-source-git-commit: 886b5d9084cb1bfb63157152f05fa20128d34903
+source-git-commit: 4c17466705873b06e7ea7bb08bb78a7e68078f8b
 workflow-type: tm+mt
-source-wordcount: '997'
+source-wordcount: '1031'
 ht-degree: 0%
 
 ---
@@ -87,7 +87,13 @@ ht-degree: 0%
 
 您可以透過下列方式，在更新中標籤其他人：
 
-* **自動**：當使用者啟動對話串、新增評論或新增回覆時，會自動標籤他們並新增到標籤人員或團隊區域的評論方塊。 <!--remove the tip below when the new commenting stream is the only stream and the legacy commenting is removed-->
+* **自動**：當使用者啟動對話串、新增評論或新增回覆時，會自動標籤他們並新增到標籤人員或團隊區域的評論方塊。
+
+  >[!TIP]
+  >
+  >   當您在反複專案上新增註解時，無法自動標籤使用者。  如需詳細資訊，請參閱 [管理反複專案註解](/help/quicksilver/agile/use-scrum-in-an-agile-team/iterations/manage-iteration-updates.md). \
+  >當您從其他應用程式新增註解時，無法自動標籤使用者。
+
 
 * **手動**：手動將使用者新增至評論方塊的「標籤人員」區域時。
 

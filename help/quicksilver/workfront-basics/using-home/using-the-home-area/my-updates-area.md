@@ -6,9 +6,9 @@ description: 您可以使用 [!UICONTROL 我的更新] 區域以快速檢閱等�
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 809605a0-8c24-4873-b98f-504a158be022
-source-git-commit: 5d6e9788ccbae7a8970cff56558233a57ceee1ab
+source-git-commit: 4c17466705873b06e7ea7bb08bb78a7e68078f8b
 workflow-type: tm+mt
-source-wordcount: '734'
+source-wordcount: '767'
 ht-degree: 0%
 
 ---
@@ -153,8 +153,12 @@ ht-degree: 0%
    >預設會顯示前50個提及專案。
 
 1. （選用）按一下 **[!UICONTROL 顯示更多更新]** 以檢視更多提及內容。
-1. （選用）按一下 **[!UICONTROL 回覆]** 若要回複評論，請輸入您的回覆，然後按一下 **[!UICONTROL 回覆]** 再來一次。
+1. （選用）按一下 **[!UICONTROL 回覆]** ，並執行下列任一項作業：
+   * 開始輸入回覆
+   * 使用RTF工具列來格式化您的文字、新增連結、清單、表情符號、引號或影像至您的訊息
+   * 新增使用者或團隊以通知他們您的回覆。
 
-   如需有關更新專案的詳細資訊，請參閱 [更新工作](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+     新增完回覆後，請按一下 **[!UICONTROL 回覆]** 再來一次。
 
+     ![](assets/reply-in-the-my-updates-area.png)
 1. （選用）按一下 **[!UICONTROL 釘選目前頁面]** 以釘選 [!UICONTROL 我的更新] 區域以導覽至頂端。

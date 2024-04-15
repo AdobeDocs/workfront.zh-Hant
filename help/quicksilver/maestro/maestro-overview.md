@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: eaf1cd4142b83a42d068e2d02fe673fa4dd25769
+source-git-commit: 78c28a1a5a850d13729113fa9f9819635ceb5d13
 workflow-type: tm+mt
-source-wordcount: '1790'
+source-wordcount: '1799'
 ht-degree: 2%
 
 ---
@@ -184,7 +184,7 @@ Workfront Planning的架構可完全自訂。 您可以建立所有記錄型別�
    * 上次修改者
    * 上次修改日期
 
-* **連結的記錄型別**， **連結的記錄**、和 **連結的記錄欄位**：您可以在Workfront Planning中建立下列實體之間的連線：
+* **連結的記錄型別**， **連結的記錄**、和 **連結的記錄欄位** 或 **連線的記錄型別**， **連線的記錄**、和 **已連線的欄位**：您可以在Workfront Planning中建立下列實體之間的連線：
 
    * 兩種記錄型別。
    * 記錄型別和Workfront專案、方案、投資組合、公司或群組物件型別。

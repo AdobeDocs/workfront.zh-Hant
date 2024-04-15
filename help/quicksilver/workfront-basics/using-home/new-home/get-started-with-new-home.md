@@ -6,9 +6,9 @@ description: 新首頁是管理您工作的強大新功能。 您可以自訂此
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 40bb32f0-acc7-4a22-92b9-bab9dc7c987b
-source-git-commit: 7f822e5ba6c65d50eb7a7a660689f88066939e2d
+source-git-commit: 4c17466705873b06e7ea7bb08bb78a7e68078f8b
 workflow-type: tm+mt
-source-wordcount: '1088'
+source-wordcount: '1119'
 ht-degree: 6%
 
 ---
@@ -36,7 +36,7 @@ Widget是新首頁的基礎。 將Widget新增至首頁後，您就可以選擇�
 目前有十個Widget可供選擇，以及它們顯示的資訊摘要如下：
 
 * **我的工作**\
-    此Widget是管理各種工作的絕佳起點，可在一個位置顯示您所有指派的任務、問題和請求。 您可以按一下處理它按鈕以開始處理專案。
+    此Widget是管理各種工作的絕佳起點，可在一個位置顯示您所有指派的任務、問題和請求。 您可以按一下「處理它」按鈕開始處理專案，或按一下「完成」按鈕將其標籤為完成。 您也可以更新有關任務和問題的資訊（狀態、條件、完成百分比）、記錄時間，以及從「我的工作」Widget新增更新。
 
 * **我的專案**\
     顯示您擁有的專案或您在清單中的專案。 您可以使用現有的篩選器、檢視或分組來自訂清單，或直接從介面工具集建立專案。

@@ -7,9 +7,9 @@ author: Alina
 feature: Timesheets
 role: User
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: 886b5d9084cb1bfb63157152f05fa20128d34903
+source-git-commit: 4c17466705873b06e7ea7bb08bb78a7e68078f8b
 workflow-type: tm+mt
-source-wordcount: '3577'
+source-wordcount: '3578'
 ht-degree: 0%
 
 ---
@@ -344,7 +344,7 @@ ht-degree: 0%
 
 1. 已移至 **首頁** 區域。
 1. 新增 **我的工作** Widget至您的首頁。
-1. 在清單中選取任務、問題或請求，然後按一下 **處理它**
+1. （選用）在清單中選取任務、問題或請求，然後按一下 **處理它**
 1. 暫留在您要記錄時間的任務或問題上，然後按一下 **記錄時間** 圖示 ![](assets/log-time-icon-in-new-home.png) 位於任務資訊的右側。
 
    ![](assets/log-time-ui-for-task-from-new-home.png)
