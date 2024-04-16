@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 29d8b581-27c9-4215-8147-8044b3e2bc5e
-source-git-commit: c2513beb50867fe1e1d065037a068a846f96d50b
+source-git-commit: fcd3e565c10a952bd78b4f628b071c6718c92747
 workflow-type: tm+mt
-source-wordcount: '667'
+source-wordcount: '710'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,14 @@ ht-degree: 0%
 本頁說明2024年第二季度版本對預覽環境所做的所有更新流和通知增強功能。 如上所述，這些增強功能將於生產環境中提供。
 
 如需2024年第二季發行週期目前可用的所有變更清單，請參閱 [2024年第二季版本總覽](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).
+
+## 新評論體驗已新增至疊代
+
+>[!NOTE]
+>
+>預覽版本： 2024年4月11日；適用於所有客戶的生產：使用24.4版（2024年4月11日）
+
+為了讓您在應用程式中擁有一致的體驗，我們為反複專案新增了新的評論體驗。 如需詳細資訊，請參閱 [更新區段總覽](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
 ## 已移除對舊版評論區域的存取權
 

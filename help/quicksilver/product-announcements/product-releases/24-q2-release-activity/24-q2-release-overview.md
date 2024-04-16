@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: bdcfed70-1999-4c40-a38f-12c762c8c1c4
-source-git-commit: f8ac3cd418b4be3945a793f7c81cd960eba179e2
+source-git-commit: fcd3e565c10a952bd78b4f628b071c6718c92747
 workflow-type: tm+mt
-source-wordcount: '2194'
+source-wordcount: '2254'
 ht-degree: 0%
 
 ---
@@ -445,6 +445,32 @@ ht-degree: 0%
             <col style="width: 50%;" />
             <col style="width: 50%;" />
             <tbody>
+            <tr>
+                    <td>
+                        <p><span class="bold">功能</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">發行日期</span>
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">新評論體驗已新增至疊代</a></p><p>[！BADGE In Production ]{type=Informative}</p>
+                        <p>為了讓您在應用程式中擁有一致的體驗，我們為反複專案新增了新的評論體驗。 如需詳細資訊，請參閱[更新區段概觀](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md)。</p>
+                    </td>
+                    <td><p><b>將於下列日期提供：</b></p>
+                        <ul>
+                            <li>
+                                <p>預覽版本： 2024年4月11日</p>
+                            </li>
+                            <li>
+                                <p>所有客戶適用的生產環境：第24.4發行版本（2024年4月11日）</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>  
                 <tr>
                     <td>
                         <p><span class="bold">功能</span>
