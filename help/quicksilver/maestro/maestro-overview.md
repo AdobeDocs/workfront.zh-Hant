@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: 78c28a1a5a850d13729113fa9f9819635ceb5d13
+source-git-commit: b11ab1dd0fdcc22cf2a99751d0aa4979556ec3fc
 workflow-type: tm+mt
 source-wordcount: '1799'
 ht-degree: 2%
@@ -237,6 +237,8 @@ Workfront Planning的架構可完全自訂。 您可以建立所有記錄型別�
 
 下表顯示您可以在Workfront Planning中建立多少物件的限制。 當我們進入下一個開發階段時，限制可能會有所變更。
 
+<!--consider making the table view a stand-alone article when we go to GA-->
+
 | Adobe Workfront計畫物件 | 限制 |
 |-------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------:|
 | 一個Workfront例項的工作區數 | 1,000 |
@@ -249,6 +251,8 @@ Workfront Planning的架構可完全自訂。 您可以建立所有記錄型別�
 | 您可以透過記錄型別表格的API匯入的檔案大小 | 1.5毫巴 |
 | 提出API要求的速率 | 每分鐘200個請求 |
 | 您可以匯入的Excel檔案CSV大小* | 5MB |
+
+<!--add to the table above: Maximum number of views created by one use 100 -->
 
 >[!IMPORTANT]
 >

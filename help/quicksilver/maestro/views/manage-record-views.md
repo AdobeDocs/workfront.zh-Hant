@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: 7fe24704cead460762322b4f26bf37431e9744ca
+source-git-commit: b11ab1dd0fdcc22cf2a99751d0aa4979556ec3fc
 workflow-type: tm+mt
 source-wordcount: '1085'
 ht-degree: 1%
@@ -93,6 +93,7 @@ ht-degree: 1%
 * Workfront Planning中的檢視是記錄型別專屬檢視。 您不能將相同的檢視套用至兩種不同的記錄型別。
 * 您建立的檢視只對您和共用檢視的使用者可見。
 * 當您修改或刪除檢視時，該檢視會被修改並刪除，以供擁有該檢視許可權的所有使用者使用。
+<!--* Each user can create a maximum of 100 views. -->
 * 以下元素是每個記錄檢視所獨有的：
 
    * 篩選器

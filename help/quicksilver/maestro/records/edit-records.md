@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: a9cfeaadad136f503797794050e8bc23f1392f22
+source-git-commit: b11ab1dd0fdcc22cf2a99751d0aa4979556ec3fc
 workflow-type: tm+mt
-source-wordcount: '1360'
+source-wordcount: '1336'
 ht-degree: 0%
 
 ---
@@ -166,7 +166,6 @@ ht-degree: 0%
    >* 使用下列鍵盤快速鍵來複製和貼上資訊：
    >   * 複製： CTRL + C (Mac為⌘ + C)
    >   * 貼上：CTRL + V (Mac為⌘ + V)
-   >* 除了與貼上資訊的欄位型別相同的記錄欄位外，您無法從其他來源複製資訊。
    >
    >* 您無法複製和貼上記錄頁面中的欄位值。 只有在記錄型別的表格檢視中才支援此功能。
    >* 您無法複製和貼上下列欄位型別的欄位值：

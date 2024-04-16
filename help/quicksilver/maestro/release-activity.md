@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 9babe17ad862925440e555f881bf753fb443b67d
+source-git-commit: b11ab1dd0fdcc22cf2a99751d0aa4979556ec3fc
 workflow-type: tm+mt
-source-wordcount: '5486'
+source-wordcount: '5562'
 ht-degree: 0%
 
 ---
@@ -31,6 +31,35 @@ ht-degree: 0%
 >[!IMPORTANT]
 >
 >在功能發行至生產環境後的某個時間，將可使用以下各節中參考的檔案。
+
+<!--
+## Week of <date>
+
+### Added a limit of 100 views for a record type
+
+Production: <date> 
+
+Preview: To be determined 
+
+A record type can have only 100 views. Prior to this change, there was no limit for how many views a record type could have.  
+
+For more information, see [Manage record views](/help/quicksilver/maestro/views/manage-record-views.md). 
+
+-->
+
+## 2024年4月8日當週
+
+### 複製一個儲存格的內容，然後貼到多個選取的儲存格中
+
+生產： 2024年4月10日
+
+預覽：待定
+
+您現在可以複製表格檢視中一個儲存格的內容，並將其貼到多個選取的儲存格中。 您也可以複製外部來源的資訊，並將其貼到表格檢視儲存格中。
+
+除了計算欄位外，此功能支援所有欄位型別。
+
+如需詳細資訊，請參閱 [編輯記錄](/help/quicksilver/maestro/records/edit-records.md).
 
 ## 2024年4月1日當週
 
