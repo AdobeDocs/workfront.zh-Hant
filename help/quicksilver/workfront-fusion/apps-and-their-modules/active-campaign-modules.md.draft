@@ -28,7 +28,7 @@ If you need instructions on creating a scenario, see [Create a scenario in [!DNL
 
    XsCCPEaX9L.gif
 
-   If you need instructions, see [About connecting Adobe Workfront Fusion to an app or service](../../workfront-fusion/connections/about-connecting-wf-fusion-to-app-or-service.md).
+   If you need instructions, see [Connections overview](../../workfront-fusion/connections/about-connecting-wf-fusion-to-app-or-service.md).
 
 1. In the API Key field, enter the API Key copied in step 3.
 1. In the Account name field, enter the account name in your ActiveCampaign URL.
