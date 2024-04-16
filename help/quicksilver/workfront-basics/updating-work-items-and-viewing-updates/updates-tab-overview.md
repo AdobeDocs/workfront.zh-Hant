@@ -7,9 +7,9 @@ description: 物件的「更新」區段會顯示使用者對物件所做的註�
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: 886b5d9084cb1bfb63157152f05fa20128d34903
+source-git-commit: a9cfeaadad136f503797794050e8bc23f1392f22
 workflow-type: tm+mt
-source-wordcount: '985'
+source-wordcount: '974'
 ht-degree: 5%
 
 ---
@@ -147,12 +147,10 @@ Depending on what objects you access the commenting experience for, you might fi
    * 範本任務
 
 * 下列物件沒有「系統活動」標籤或「全部」標籤，且「註解」標籤中的體驗與所有其他物件的體驗不同：
+   * 疊代
    * 臨機卡
 
      如需卡片更新的詳細資訊，請參閱 [新增臨機卡到展示板](/help/quicksilver/agile/get-started-with-boards/add-card-to-board.md).
-   * 疊代
-
-     如需有關版序更新的詳細資訊，請參閱 [管理反複專案註解](/help/quicksilver/agile/use-scrum-in-an-agile-team/iterations/manage-iteration-updates.md).
 
 * 下列物件沒有「全部」標籤，「註解」標籤中的體驗符合大多數物件的體驗：
 

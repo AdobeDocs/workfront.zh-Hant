@@ -7,10 +7,10 @@ author: Alina
 feature: Product Announcements
 role: User
 exl-id: f750b35b-8021-4cc1-81d6-e1ece2530438
-source-git-commit: 886b5d9084cb1bfb63157152f05fa20128d34903
+source-git-commit: a9cfeaadad136f503797794050e8bc23f1392f22
 workflow-type: tm+mt
-source-wordcount: '1102'
-ht-degree: 0%
+source-wordcount: '1092'
+ht-degree: 1%
 
 ---
 
@@ -551,13 +551,13 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
 
 * 2024年第二季發行版本（2024年4月11日）：
 
-  移除切換回舊版註解資料流的選項，並使新註解資料流成為所有物件的唯一體驗，版序除外。
+  移除切換回舊版註解資料流的選項，並讓新註解資料流成為所有物件的唯一體驗。
 
 ## 找出新的註解體驗
 
 Workfront的下列區域提供新的註解體驗：
 
-* 在所有物件的「更新」區段中，版序除外。
+* 在所有物件的「更新」區段中。
 
   如需有關存取Workfront物件「更新」區段的資訊，請參閱 [更新區段概觀](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
 

@@ -6,9 +6,9 @@ description: 您可以在Adobe Workfront物件（專案、任務或問題）上�
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: 886b5d9084cb1bfb63157152f05fa20128d34903
+source-git-commit: a9cfeaadad136f503797794050e8bc23f1392f22
 workflow-type: tm+mt
-source-wordcount: '2971'
+source-wordcount: '2967'
 ht-degree: 0%
 
 ---
@@ -55,17 +55,13 @@ ht-degree: 0%
 
 本文中的資訊說明如何為專案、任務和問題加上註解和更新資訊。 指派或訂閱物件的使用者可以檢視您的更新。 您也可以標籤使用者，以吸引他們注意更新。
 
-將註解新增到其他物件類似於更新專案、任務和問題。 如需關於卡片、目標或版序註解的詳細資訊，另請參閱下列文章：
+將註解新增到其他物件類似於更新專案、任務和問題。 如需關於卡片及目標註解的詳細資訊，另請參閱下列文章：
 
 * [在Adobe Workfront目標中管理目標註解](../../workfront-goals/goal-management/manage-goal-comments.md).
 
   您必須額外擁有授權才能存取Workfront目標。
 
 * [新增臨機卡到展示板](../../agile/get-started-with-boards/add-card-to-board.md)
-
-* [管理反複專案註解](/help/quicksilver/agile/use-scrum-in-an-agile-team/iterations/manage-iteration-updates.md)
-
-
 
 ## 存取需求
 
