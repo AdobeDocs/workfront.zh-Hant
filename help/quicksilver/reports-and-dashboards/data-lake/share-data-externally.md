@@ -6,10 +6,9 @@ title: 與商業智慧工具和外部資料倉儲共用資料
 description: Workfront data lake可讓您將組織的Workfront資料與熱門的商業智慧工具搭配使用，或將其儲存在外部資料倉儲中。
 author: Nolan
 feature: Reports and Dashboards
-hidefromtoc: true
-hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 7d24659833f0ac0ceeecb245358f2ade8bd08a17
+exl-id: 8348f5ff-c1f8-4608-b683-15f6407c6128
+source-git-commit: 6a7af60a5f66b37abcaeb594290503febc179d25
 workflow-type: tm+mt
 source-wordcount: '179'
 ht-degree: 0%

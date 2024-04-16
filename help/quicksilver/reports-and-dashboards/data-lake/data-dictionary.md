@@ -6,13 +6,12 @@ title: 資料湖資料字典
 description: 此頁面包含Workfront Data Lake中資料的結構與內容相關資訊。
 author: Nolan
 feature: Reports and Dashboards
-hidefromtoc: true
-hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: c82f70c78bc23f69bed2351a67c2e0d0bac9e973
+exl-id: 57985404-554e-4289-b871-b02d3427aa5c
+source-git-commit: 912f46c87170d6b678d885ccc1fb0170526578df
 workflow-type: tm+mt
-source-wordcount: '456'
-ht-degree: 8%
+source-wordcount: '455'
+ht-degree: 9%
 
 ---
 
@@ -42,7 +41,7 @@ ht-degree: 8%
 
 <!-- Custom table -->
 
-## 實體關係表
+## 術語表
 
 下表將Workfront中的物件名稱（及其在介面和API中的名稱）與其在資料湖中的對等名稱建立關聯。
 

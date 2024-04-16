@@ -6,12 +6,11 @@ title: 建立用於Snowflake的讀取器（服務）帳戶
 description: 若要存取Workfront Data Lake中的資料，您必須先建立讀取器帳戶以進行Snowflake。
 author: Nolan
 feature: Reports and Dashboards
-hidefromtoc: true
-hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 7d24659833f0ac0ceeecb245358f2ade8bd08a17
+exl-id: 70d83a10-f926-4229-ac10-7659f2ca5e7a
+source-git-commit: 912f46c87170d6b678d885ccc1fb0170526578df
 workflow-type: tm+mt
-source-wordcount: '556'
+source-wordcount: '564'
 ht-degree: 0%
 
 ---
@@ -30,7 +29,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront計畫</td> 
-   <td>Ultimate</td> 
+   <td>待定</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront授權</td> 
@@ -67,7 +66,7 @@ ht-degree: 0%
 
    ![重設Snowflake密碼](/help/quicksilver/reports-and-dashboards/data-lake/assets/reset-snowflake-password.png) {width="300"}
 
-1. 您現在可以使用使用者名稱和新密碼來存取Snowflake中的Workfront Data Lake。
+1. 您現在可以使用使用者名稱和新密碼，在Snowflake或您選擇的業務視覺化工具中存取您的Workfront Data Lake。
 
 ## 將IP新增至允許清單
 
@@ -77,9 +76,9 @@ ht-degree: 0%
 
 1. 按一下 **允許的IP** 標籤，然後按一下 **新增IP位址到您的允許清單** 按鈕。
 
-   ![新增IP位址](/help/quicksilver/reports-and-dashboards/data-lake/assets/add-IP-allowlist.png) {width="500"}
-
 1. 在中輸入IP位址的名稱 **IP位址說明** 並輸入您要用於工具的網址 **IP位址**，然後按一下 **新增IP至允許清單**.
+
+   ![新增IP位址](/help/quicksilver/reports-and-dashboards/data-lake/assets/add-IP-allowlist.png) {width="500"}
 
 ## 撤銷Reader帳戶或從允許清單中移除IP位址
 

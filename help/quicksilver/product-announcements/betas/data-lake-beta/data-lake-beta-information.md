@@ -4,10 +4,9 @@ title: Workfront data lake beta版資訊
 description: Workfront Data Lake測試版的一般資訊
 author: Nolan
 feature: Reports and Dashboards
-hidefromtoc: true
-hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: a1eb393a929ff7246056bb53b3e28b9da240c252
+exl-id: 2daf7617-5b3e-49f7-b93b-4210b1b2ea49
+source-git-commit: 6a7af60a5f66b37abcaeb594290503febc179d25
 workflow-type: tm+mt
 source-wordcount: '385'
 ht-degree: 12%
@@ -104,4 +103,3 @@ Workfront data lake是目前正在開發中的新工具，提供專用的介面�
 
 * 在讀取器帳戶設定期間限制可用的物件。
 * 將讀者帳戶與Workfront中的特定群組建立關聯，以將記錄的可見性限製為僅供群組成員檢視。
-

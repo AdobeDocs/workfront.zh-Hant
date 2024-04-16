@@ -6,19 +6,18 @@ title: Workfront data lake概觀
 description: Workfront Data Lake功能概述
 author: Nolan
 feature: Reports and Dashboards
-hidefromtoc: true
-hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: c82f70c78bc23f69bed2351a67c2e0d0bac9e973
+exl-id: 5224c12a-7879-491b-87ec-6173bcf9525c
+source-git-commit: 912f46c87170d6b678d885ccc1fb0170526578df
 workflow-type: tm+mt
-source-wordcount: '160'
+source-wordcount: '163'
 ht-degree: 0%
 
 ---
 
 # Workfront data lake概觀
 
-Workfront Data Lake讓您前所未有地存取Workfront資料，回答業務關鍵問題並評估流程價值。 此功能可讓企業客戶直接從Workfront資料湖使用資料視覺化工具詢問其資料，或將Workfront資料匯出至客戶擁有的資料倉儲。
+Workfront Data Lake可讓您使用Snowflake技術前所未有地存取Workfront資料，解答業務關鍵問題並評估流程的價值。 此功能可讓企業客戶直接從Workfront資料湖使用資料視覺化工具詢問其資料，或將Workfront資料匯出至客戶擁有的資料倉儲。
 
 訂閱者可自行選擇商務智慧工具(Tableau、Power BI、Domo、Looker等) 前往Workfront data lake ，使用下列資料型別建立資料視覺效果：
 
