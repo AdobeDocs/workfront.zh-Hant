@@ -4,23 +4,23 @@ user-type: administrator
 content-type: reference;overview
 product-area: system-administration;templates
 navigation-topic: layout-templates
-description: 預設版面配置是在Adobe Workfront管理員使用版面配置範本進行任何變更之前的主要功能表、左側面板以及檢視、群組和篩選器的排列。
+description: 預設版面配置是主要功能表、左側面板，以及檢視、群組和篩選器的排列，然後Adobe Workfront管理員才能使用版面配置範本進行任何變更。
 author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: a68bca5e-1cec-432d-bb38-14b426a9c051
-source-git-commit: 7ee96045e5673c51c3ce348f395226857686a923
+source-git-commit: bd1ebbedecff63fcc9165bd6e409ca1b3b632b3d
 workflow-type: tm+mt
-source-wordcount: '257'
-ht-degree: 14%
+source-wordcount: '309'
+ht-degree: 6%
 
 ---
 
 # 關於預設Adobe Workfront配置
 
-預設版面配置是主要功能表的排列 ![](assets/main-menu-icon.png)，左側面板，以及Adobe Workfront管理員使用版面配置範本進行任何變更前的檢視、群組和篩選器。
+預設版面配置為主功能表的排列 ![](assets/main-menu-icon.png)，左側面板，以及Adobe Workfront管理員使用版面配置範本進行任何變更之前的檢視、群組和篩選器。
 
-如需有關Workfront管理員如何透過指派版面配置範本來修改使用者的預設版面的資訊，請參閱 [將使用者指派至版面配置範本](../../../administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md).
+如需有關Workfront管理員如何透過指派版面配置範本給使用者來修改其預設版面的資訊，請參閱 [將使用者指派至版面配置範本](../../../administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md).
 
 >[!NOTE]
 >
@@ -30,7 +30,7 @@ ht-degree: 14%
 
 每個使用者的預設版面配置取決於其存取層級。 視指派給使用者的存取層級而定，某些使用者可能不會在主功能表或某些左側面板專案中看到某些區域。
 
-下表顯示預設針對每個存取層級顯示的左側面板專案。 也會指出每個存取層級的預設登陸區域：
+下表顯示預設為每個存取層級顯示的左側面板專案。 也會指出每個存取層級的預設登陸區域：
 
 <table style="table-layout:auto"> 
  <col> 
@@ -102,7 +102,7 @@ ht-degree: 14%
    <td> </td> 
   </tr> 
   <tr> 
-   <td rowspan="5"><strong>人員</strong> (已重新命名為 <strong>團隊</strong> 適用於擁有工作授權的使用者)</td> 
+   <td rowspan="5"><strong>人員</strong> (已重新命名為 <strong>團隊</strong> （適用於擁有工作授權的使用者）</td> 
    <td><strong>團隊</strong> </td> 
    <td>✔ </td> 
    <td>✔ </td> 
@@ -131,7 +131,7 @@ ht-degree: 14%
    </tr>
   --> 
   <tr> 
-   <td><strong>計畫</strong> </td> 
+   <td><strong>規劃</strong> </td> 
    <td>✔ </td> 
    <td>✔ </td> 
    <td> </td> 
@@ -140,7 +140,7 @@ ht-degree: 14%
    <td> </td> 
   </tr> 
   <tr> 
-   <td><strong>排程</strong> </td> 
+   <td><strong>正在排程</strong> </td> 
    <td>✔ </td> 
    <td>✔ </td> 
    <td> </td> 
@@ -149,7 +149,7 @@ ht-degree: 14%
    <td> </td> 
   </tr> 
   <tr> 
-   <td rowspan="3"><strong>請求</strong> </td> 
+   <td rowspan="3"><strong>要求</strong> </td> 
    <td><strong>新要求</strong> </td> 
    <td>✔ </td> 
    <td>✔ </td> 
@@ -168,7 +168,7 @@ ht-degree: 14%
    <td>✔ <br>（預設登陸區域）</td> 
   </tr> 
   <tr> 
-   <td><strong>所有要求</strong> </td> 
+   <td><strong>所有請求</strong> </td> 
    <td>✔ </td> 
    <td>✔ </td> 
    <td>✔ </td> 
@@ -177,8 +177,8 @@ ht-degree: 14%
    <td>✔ </td> 
   </tr> 
   <tr> 
-   <td rowspan="3"><strong>時程表</strong> </td> 
-   <td><strong>我的時程表</strong> </td> 
+   <td rowspan="3"><strong>時間表</strong> </td> 
+   <td><strong>我的時間表</strong> </td> 
    <td>✔ </td> 
    <td> ✔</td> 
    <td>✔ </td> 
