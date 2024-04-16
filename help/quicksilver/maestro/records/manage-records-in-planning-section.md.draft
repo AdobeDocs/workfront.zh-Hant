@@ -1,0 +1,124 @@
+---
+title: Manage records in the Planning section of Adobe Workfront objects
+description: You can display the records connected to Adobe Workfront objects in the Planning section of an object, in the left panel.
+hidefromtoc: yes
+hide: yes
+recommendations: noDisplay, noCatalog
+---
+<!--update the metadata with real information when making this available in TOC and in the left nav-->
+
+<!--add also Group and Company when they are available-->
+
+<!--add this to the main TOC and the mini TOC-->
+
+# Manage records in the Planning section of Adobe Workfront objects
+
+{{maestro-important-intro}}
+
+You can display the records connected to Adobe Workfront objects in the Planning section of an object, in the left panel.
+
+The Planning section is available for the following Workfront objects:
+
+* Project
+* Portfolio
+* Program
+<!--* Group
+* Company-->
+
+## Access requirements
+
+You must have the following access to perform the steps in this article: 
+
+<table style="table-layout:auto">
+ <col>
+ </col>
+ <col>
+ </col>
+ <tbody>
+    <tr>
+<tr>
+<td>
+   <p> Product</p> </td>
+   <td>
+   <p> Adobe Workfront</p> </td>
+  </tr>  
+ <td role="rowheader"><p>Adobe Workfront agreement</p></td>
+   <td>
+<p>Your organization must be enrolled in the Adobe Workfront Planning beta program. Contact your account representative to inquire about this new offering. </p>
+   </td>
+  </tr>
+  <tr>
+   <td role="rowheader"><p>Adobe Workfront plan</p></td>
+   <td>
+<p>Any</p>
+   </td>
+  </tr>
+  <tr>
+   <td role="rowheader"><p>Adobe Workfront license*</p></td>
+   <td>
+   <p>New: Standard</p>
+   Or
+   <p>Current: Plan</p> 
+  </td>
+  </tr>
+  
+  <tr>
+   <td role="rowheader"><p>Access level configurations</p></td>
+   <td> <p>View or higher access to Projects, Programs, and Portfolios</p>  
+</td>
+  </tr>
+<tr>
+   <td role="rowheader"><p>Permissions</p></td>
+   <td> <p>In Workfront, View or higher permissions to a project, portfolio, or program</a> </p> 
+   <p>In Workfront Planning, View or higher permissions to a workspace</a> </p>  
+   <p>System Administrators have permissions to all workspaces, including the ones they did not create</p>
+</td>
+  </tr>
+<tr>
+   <td role="rowheader"><p>Layout template</p></td>
+   <td> <p>Your Workfront or group administrator must add the Planning area in the Main Menu and the Planning section in the left panel to your layout template. For information, see <a href="../access/access-overview.md">Access overview</a>. </p>  
+</td>
+  </tr>
+
+ </tbody>
+</table>
+
+*For more information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
+
+## Considerations about the Planning section of Workfront objects
+
+* First, you must connect record types to Workfront object types, and records to Workfront objects to view them in Workfront. 
+* You can view the Planning section in a Workfront object, even when there are no records associated with the Workfront object.  
+* You can connect Planning records with Workfront objects from Workfront, in the Planning section.
+
+## Manage records in the Planning section
+
+{{step1-to-maestro}}
+
+   The last accessed workspace opens by default. 
+
+1. Click the card of a record type that is connected to a Workfront project, portfolio, or program. 
+1. Choose a table view from the **View** drop-down menu.
+1. (Conditional) Go to the connected record field in the table and add a Workfront object, then click the name of the Workfront object in the field. 
+  The Workfront objects's Planning page opens. 
+1. Click **Go to source**, in the upper-right corner of the screen. 
+
+   The Workfront object's page opens. 
+1. Click **Planning** in the left panel. 
+
+      >[!NOTE]
+      >
+      >   Your Workfront or group administrator must add the Planning section to your layout template before it displays for a Worfront project, portfolio, or program. 
+
+   The Planning section displays with the following information: 
+   
+   * The connected records display under on individual cards that contain the name of the record, the thumbnail, and the name of the the connected record field.
+   * Records display under their respective workspace section. 
+
+   ![](assets/planning-section-on-project.png)
+
+1. (Optional) Click **Connect** to connect more records. 
+
+<!--add more steps here for what happens after clicking Connect-->
+
+

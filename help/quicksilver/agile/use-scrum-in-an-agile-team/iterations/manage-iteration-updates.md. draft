@@ -1,0 +1,105 @@
+---
+content-type: reference
+product-area: agile-and-teams
+navigation-topic: use-scrum-in-an-agile-team
+title: Manage iteration comments
+description: You can add updates to an iteration when working in a Scrum environment to collaborate with others in Adobe Workfront.
+author: Alina
+feature: Agile
+recommendations: noDisplay, noCatalog
+exl-id: 68af4128-82a7-41e2-a88a-27c51b4a5cb7
+---
+# Manage iteration comments
+
+<!--removed this article on April 16, 2024, after Product decided to release the new commenting stream to iterations-->
+
+You can add updates to an iteration when working in a Scrum environment, to collaborate with others in Adobe Workfront. 
+
+## Manage updates on an iteration
+
+1. Go to an agile team, then click **Iterations** in the left panel.
+1. Click the name of an iteration to open it. 
+1. Click **Updates** to open in the section from the left panel. 
+
+    ![](assets/updates-section-in-iteration.png)
+1. Click **Start a new update,** then type your update.  
+1. (Optional) Use the options in the Rich Text toolbar to format your text, add emojis, links, or images to your update, to enhance your content. For more information, see the "Use Rich Text in a Workfront update" section in the article [Update work](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md). 
+1. (Optional) Update any of the following when adding an update to the iteration:
+
+   <table style="table-layout:auto"> 
+    <col> 
+    <col> 
+    <tbody> 
+     <tr> 
+      <td role="rowheader"><strong>Notify</strong></td> 
+      <td>Identify users who must be notified of the update. <p>For information about how to include others on an update, see <a href="/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md">Tag others on updates</a>.</p></td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader"><strong>Private to my company</strong></td> 
+      <td> <p>Disable this option to prevent users outside your company from having access to view this update.</p> 
+      <p><b>NOTE</b></p>
+      <p>This option displays only when your Workfront user profile is associated with a Company.</p>
+      <p>This option is not available in all areas where you can add updates from. For example, this is not available in third-party applications where you can add updates from. </p>
+      </td> 
+     </tr> 
+    </tbody> 
+   </table>
+
+1. Click **Update** to add the update to the iteration.
+
+   >[!NOTE]
+   >
+   >A small pop-up window will appear for seven seconds after clicking **Update**, allowing you to click **Undo comment** and undo the update and return to the editing pane before the update is posted. The update is posted if you dismiss the undo pop-up, wait for it to disappear, or navigate away from the page. 
+   >
+   >If your Workfront administrator selects the "Never allow users to delete comments" setting in your access level, you cannot undo a comment. For more information, see [Create and modify custom access levels](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md). 
+
+1. To reply to an update, click **Reply**. 
+
+    For more information, see [Reply to updates](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/reply-to-updates.md).
+
+1. (Optional) To copy the contents of a comment, click the **More** icon ![](assets/more-icon.png) to the right of an update, then click one of the following options:
+
+    * **Copy thread link**
+    * **Copy body text**
+    * **Quote Reply**
+
+    ![](assets/copy-comment-content-in-updates-section.png)
+
+    For more information, see the section [Copy an update](#copy-an-update) in this article. 
+1. (Optional) To delete a comment, click the **More** icon ![](assets/more-icon.png) to the right of an update, then click **Delete**.
+
+## Copy an update
+
+You can copy the content of an update and reuse it in the following ways: 
+
+* [Copy thread link](#copy-thread-link)
+* [Copy body text](#copy-body-text)
+* [Quote Reply](#quote-reply)
+
+### Copy thread link
+
+This option copies the full thread link to the clipboard so you can share the thread with other users.
+
+1. Go to the update thread you want to copy.
+
+1. Click the **More** menu, then click **Copy thread link**. 
+
+1. Paste the link you copied in the previous step in an email or another application to share it with others. The shared link opens the comment you shared the link from. 
+
+### Copy body text
+
+This option copies the text from a specific update to the clipboard.
+
+1. Go to the update or reply you want to copy.
+1. Click the **More** menu, then click **Copy body text**.
+
+### Quote Reply  
+
+The Quote Reply option copies the original comment to a new reply as a block quote. 
+
+1. Go to the update or reply you want to copy.
+1. Click the **More** menu, then click **Quote Reply**.
+
+   A new comment box opens and the quoted reply is included in the new comment and marked as a block quote.
+
+1. Continue adding your update and click **Reply** to add the comment.
