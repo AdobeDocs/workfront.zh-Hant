@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: bdcfed70-1999-4c40-a38f-12c762c8c1c4
-source-git-commit: fcd3e565c10a952bd78b4f628b071c6718c92747
+source-git-commit: 873aea8f26b59e73f55ee31bf2639f0e588ec274
 workflow-type: tm+mt
-source-wordcount: '2254'
+source-wordcount: '2242'
 ht-degree: 0%
 
 ---
@@ -458,7 +458,7 @@ ht-degree: 0%
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">新評論體驗已新增至疊代</a></p><p>[！BADGE In Production ]{type=Informative}</p>
-                        <p>為了讓您在應用程式中擁有一致的體驗，我們為反複專案新增了新的評論體驗。 如需詳細資訊，請參閱[更新區段概觀](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md)。</p>
+                        <p>為了讓您在應用程式中擁有一致的體驗，我們為反複專案新增了新的評論體驗。 </p>
                     </td>
                     <td><p><b>將於下列日期提供：</b></p>
                         <ul>
