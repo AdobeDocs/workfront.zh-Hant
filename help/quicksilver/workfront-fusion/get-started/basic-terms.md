@@ -8,9 +8,9 @@ description: 除了Adobe Workfront授權，Adobe Workfront Fusion還需要Adobe 
 author: Becky
 feature: Workfront Fusion
 exl-id: 2169dc2e-2135-47e0-a615-3de12cd120a9
-source-git-commit: 8b4182ae2b32488a02cacc16fcb6a246fcb571fd
+source-git-commit: f11af8d9d1e5fa65c2efb4d882d25f9e13784611
 workflow-type: tm+mt
-source-wordcount: '830'
+source-wordcount: '828'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->[!DNL Adobe Workfront Fusion] 需要 [!DNL Adobe Workfront Fusion] 除了授權外， [!UICONTROL Adobe Workfront] 授權。
+>[!DNL Adobe Workfront Fusion] 需要 [!DNL Adobe Workfront Fusion] 除了授權之外， [!UICONTROL Adobe Workfront] 授權。
 
 
 <table style="table-layout:auto">
@@ -28,39 +28,39 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>動作</p> </td> 
-   <td>此模組可讓您從選取的應用程式或服務讀取或寫入套件組合。</td> 
+   <td>此模組可讓您從選取的應用程式或服務讀取或寫入套件組合，或是將套件組合寫入選取的應用程式或服務。</td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[！UICONTROL彙總]</p> </td> 
-   <td> <p>一種模組，可將多個組合（多個資料陣列）合併為單一組合。 如需詳細資訊，請參閱 <a href="../../workfront-fusion/modules/aggregator-module.md" class="MCXref xref">[！UICONTROL Adobe Workfront Fusion]中的[！UICONTROL Aggregator]模組</a>.</p> </td> 
+   <td> <p>一種模組型別，可將多個套件（多個資料陣列）合併為單一套件。 如需詳細資訊，請參閱 <a href="../../workfront-fusion/modules/aggregator-module.md" class="MCXref xref">[！UICONTROL Adobe Workfront Fusion]中的[！UICONTROL彙總模組</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">API 密鑰</td> 
-   <td>可識別呼叫軟體API （用於驗證）的使用者、開發人員或程式的唯一代碼。 從 [!DNL Adobe Workfront Fusion] 模組透過連線API運作，API金鑰有時是必要的。 API金鑰由需要金鑰的應用程式散發。 例如，如果您需要 [!DNL ActiveCampaign]，您可透過以下方式要求 [!DNL ActiveCampaign] 帳戶。</td> 
+   <td>唯一代碼，可識別呼叫軟體API （用於驗證）的使用者、開發人員或程式。 從 [!DNL Adobe Workfront Fusion] 模組透過連線API來運作，API金鑰有時是必要的。 API金鑰由需要它們的應用程式所散發。 例如，如果您需要 [!DNL ActiveCampaign]，您可透過以下方式請求： [!DNL ActiveCampaign] 帳戶。</td> 
   </tr> 
   <tr> 
    <td role="rowheader">應用程式或服務</td> 
-   <td> <p>最常見的軟體應用程式。</p> <p>應用程式也可以是處理資料的特殊功能，例如疊代器或彙總。 </p> <p>服務是套件組合的來源，其中可能包含網頁API、網頁、不同型別的伺服器(FTP、SMTP、IMAP)等。 </p>  </td> 
+   <td> <p>最常見的軟體應用程式。</p> <p>應用程式也可以是處理資料的特殊函式，例如疊代器或彙總。 </p> <p>服務是套件組合的來源，其中可能包含網頁API、網頁、不同型別的伺服器(FTP、SMTP、IMAP)等。 </p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">應用程式聯結器</td> 
-   <td>連線到其他系統的應用程式。</td> 
+   <td>連線至其他系統的應用程式。</td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>組合</p> </td> 
    <td> <p>組合是由模組傳回或接收的基本單位。 組合是由專案所組成。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[！UICONTROL連線]</p> </td> 
-   <td> <p>將應用程式或服務新增至案例時，極有可能您必須先建立兩者之間的連線 [!DNL Workfront Fusion] 以及應用程式或服務，以擷取或傳送選取的資料。 如需詳細資訊，請參閱 <a href="../../workfront-fusion/connections/about-connecting-wf-fusion-to-app-or-service.md" class="MCXref xref">關於連線 [!DNL Adobe Workfront Fusion] 至應用程式或服務</a>.</p> </td> 
+   <td role="rowheader"> <p>[！UICONTROL Connection]</p> </td> 
+   <td> <p>將應用程式或服務新增至案例時，極有可能您必須先建立兩者之間的連線 [!DNL Workfront Fusion] 和應用程式或服務以擷取或傳送所選資料。 如需詳細資訊，請參閱 <a href="../../workfront-fusion/connections/about-connecting-wf-fusion-to-app-or-service.md" class="MCXref xref">連線總覽</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>週期</p> </td> 
-   <td> <p>週期是指案例執行的兩個階段：作業和認可。 此情境可能包含一或多個週期。 如需詳細資訊，請參閱 <a href="../../workfront-fusion/scenarios/scenario-execution-cycles-phases.md" class="MCXref xref">中的案例執行、週期和階段 [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td> <p>週期是指案例執行的兩個階段：作業與認可。 此情境可能包含一或多個週期。 如需詳細資訊，請參閱 <a href="../../workfront-fusion/scenarios/scenario-execution-cycles-phases.md" class="MCXref xref">中的案例執行、週期和階段 [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>資料存放區</p> </td> 
-   <td> <p>一種工具，可儲存案例的資料，或讓您在不同案例或案例執行之間傳輸資料。 如需詳細資訊，請參閱 <a href="../../workfront-fusion/modules/data-stores.md" class="MCXref xref">[！UICONTROL Adobe Workfront Fusion]中的資料存放區</a>.</p> </td> 
+   <td> <p>此工具可儲存案例的資料，或讓您在個別案例或案例執行之間傳輸資料。 如需詳細資訊，請參閱 <a href="../../workfront-fusion/modules/data-stores.md" class="MCXref xref">[！UICONTROL Adobe Workfront Fusion]中的資料存放區</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>資料傳輸</p> </td> 
@@ -68,11 +68,11 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader"> <p>篩選器</p> </td> 
-   <td> <p>可在兩個模組之間套用的其他功能。 篩選器可讓您只使用符合特定條件的組合。 您可以套用許多不同的篩選器。 如需詳細資訊，請參閱 <a href="../../workfront-fusion/scenarios/add-a-filter-to-a-scenario.md" class="MCXref xref">在[！UICONTROL Adobe Workfront Fusion]中將篩選器新增至情境</a>.</p> </td> 
+   <td> <p>可在兩個模組之間套用的其他功能。 篩選器可讓您只處理符合特定條件的組合。 您可以套用許多不同的篩選器。 如需詳細資訊，請參閱 <a href="../../workfront-fusion/scenarios/add-a-filter-to-a-scenario.md" class="MCXref xref">在[！UICONTROL Adobe Workfront Fusion]中將篩選器新增至案例</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>ID</p> </td> 
-   <td> <p>用來唯一識別套件組合的名稱。 ID通常用於區分要從指定服務更新或刪除的套件。</p> </td> 
+   <td> <p>用來唯一識別組合包的名稱。 ID通常用於區分要從指定服務更新或刪除的套件。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>項目</p> </td> 
@@ -80,7 +80,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[！UICONTROL迭代器]</p> </td> 
-   <td> <p>一種模組型別，可讓您取得單一資料組合（資料陣列），並分成個別的組合。 如需詳細資訊，請參閱 <a href="../../workfront-fusion/modules/iterator-module.md" class="MCXref xref">中的[！UICONTROL迭代器]模組 [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td> <p>一種模組型別，可讓您取得一束資料（資料陣列）並分割成個別的束。 如需詳細資訊，請參閱 <a href="../../workfront-fusion/modules/iterator-module.md" class="MCXref xref">中的[！UICONTROL Iterator]模組 [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>模組</p> </td> 
@@ -95,8 +95,8 @@ ht-degree: 0%
    <td>公開和私密金鑰可用來加密和解密資料。 公開金鑰可以散發，任何擁有公開金鑰的人都可以加密資料，但只有私密金鑰可以解密資料。 同樣地，擁有私密金鑰的使用者可以加密任何擁有公開金鑰的使用者都可以解密的資料。 私密金鑰加密可確保資料來自私密金鑰的擁有者，並作為資料來源的驗證。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[！UICONTROL路由器]</p> </td> 
-   <td>可讓您複製資料或向案例新增路由，以便重新路由資料並單獨處理不同的資料群組。 如需詳細資訊，請參閱 <a href="../../workfront-fusion/modules/router-module.md" class="MCXref xref">中的[！UICONTROL路由器]模組 [!DNL Adobe Workfront Fusion]</a>.</td> 
+   <td role="rowheader"> <p>[！UICONTROL Router]</p> </td> 
+   <td>可讓您複製資料或新增路由至情境，以便重新路由資料並個別處理不同的資料群組。 如需詳細資訊，請參閱 <a href="../../workfront-fusion/modules/router-module.md" class="MCXref xref">中的[！UICONTROL Router]模組 [!DNL Adobe Workfront Fusion]</a>.</td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>情境</p> </td> 
@@ -104,11 +104,11 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader"> <p>交易</p> </td> 
-   <td> <p>[!DNL Workfront Fusion] 使用交易式處理來擷取案例生命週期。 交易由數個階段組成，在這些階段中，資料會從一個一致狀態轉換為另一個一致狀態。 有4個階段：初始化、操作（讀取或寫入）、認可/復原和最終化。</p> </td> 
+   <td> <p>[!DNL Workfront Fusion] 使用交易式處理來擷取案例生命週期。 交易由幾個階段組成，在這幾個階段中，資料會從一個一致狀態轉換為另一個一致狀態。 有4個階段：初始化、作業（讀取或寫入）、認可/回覆及最終處理。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>觸發</p> </td> 
-   <td> <p>此模組可讓您抓取自上次執行案例以來新增或更新的套件組合。 有2種型別的觸發器：輪詢和即時(webhook)。 如需詳細資訊，請參閱 <a href="../../workfront-fusion/webhooks/instant-triggers-webhooks.md" class="MCXref xref">中的即時觸發器(Webhook) [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td> <p>此模組可讓您抓取自上次執行情境以來新增或更新的組合。 有2種型別的觸發器：輪詢和即時(webhook)。 如需詳細資訊，請參閱 <a href="../../workfront-fusion/webhooks/instant-triggers-webhooks.md" class="MCXref xref">中的即時觸發器(webhook) [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Webhook</p> </td> 

@@ -3,9 +3,9 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文件、教學課程和其他資源，了解如何在您的組織中實施並有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: a9cfeaadad136f503797794050e8bc23f1392f22
+source-git-commit: 97231a6021aa4e897059063293e649f45dc9908d
 workflow-type: tm+mt
-source-wordcount: '14157'
+source-wordcount: '14149'
 ht-degree: 1%
 
 ---
@@ -2115,7 +2115,7 @@ ht-degree: 1%
       * [平台型管理差異(Adobe Workfront Fusion/Adobe Business Platform)](/help/quicksilver/workfront-fusion/fusion-in-admin-console/fusion-adobe-admin-console.md)
    * Adobe Workfront Fusion中的連線 {#connections-in-fusion}
       * [Adobe Workfront Fusion中的連線](workfront-fusion/connections/connections.md)
-      * [關於將Adobe Workfront Fusion連線至應用程式或服務](workfront-fusion/connections/about-connecting-wf-fusion-to-app-or-service.md)
+      * [連線總覽](workfront-fusion/connections/about-connecting-wf-fusion-to-app-or-service.md)
       * [在Adobe Workfront Fusion中建立連線](workfront-fusion/connections/connection-instruction-toc.md)
       * [連線中繼資料](/help/quicksilver/workfront-fusion/connections/connection-metadata.md)
       * [建立與Adobe Workfront Fusion的連線 — 基本指示](workfront-fusion/connections/connect-to-fusion-general.md)

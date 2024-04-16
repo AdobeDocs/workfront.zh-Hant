@@ -7,9 +7,9 @@ description: 本文會說明如何使用Adobe Workfront Fusion建立自動化案
 author: Becky
 feature: Workfront Fusion
 exl-id: f6a6eb28-9b0b-48ea-af11-f55009a01178
-source-git-commit: 3d53042b9321c8712b9aaeea686989add5b9e35e
+source-git-commit: 97231a6021aa4e897059063293e649f45dc9908d
 workflow-type: tm+mt
-source-wordcount: '1847'
+source-wordcount: '1842'
 ht-degree: 0%
 
 ---
@@ -141,7 +141,7 @@ ht-degree: 0%
    1. 登入 [!DNL Workfront].
    1. 檢查以下存取許可權： [!DNL Workfront Fusion] 正在請求，然後按一下 **[!UICONTROL 允許存取]**.
 
-   如果您需要協助，請參閱 [關於連線 [!DNL Adobe Workfront Fusion] 至應用程式或服務](../../workfront-fusion/connections/about-connecting-wf-fusion-to-app-or-service.md).
+   如果您需要協助，請參閱 [連線總覽](../../workfront-fusion/connections/about-connecting-wf-fusion-to-app-or-service.md).
 
 ## 設定第一個模組
 

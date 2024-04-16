@@ -9,14 +9,16 @@ description: 連線必須符合其所連線之應用程式或Web服務的API所�
 author: Becky
 feature: Workfront Fusion
 exl-id: fb1a2af4-da58-48ba-85b5-1903d6a3ceda
-source-git-commit: f783e3033a67b4702e4e2d80214cbb0c4591b922
+source-git-commit: b90343eab40e91c6f5cddeaa960ce9c9c97b1d29
 workflow-type: tm+mt
-source-wordcount: '568'
-ht-degree: 0%
+source-wordcount: '503'
+ht-degree: 1%
 
 ---
 
 # 在中建立連線 [!DNL Adobe Workfront Fusion]
+
+<!-- Audited: 3/2024-->
 
 連線必須符合其所連線之應用程式或Web服務的API所設定的需求。 因此，設定連線的指示會因應用程式或Web服務而異。 本文可協助您識別並找出連線的指示 [!DNL Adobe Workfront Fusion] 至您選擇的應用程式或Web服務。
 
@@ -24,46 +26,40 @@ ht-degree: 0%
 
 您必須具有下列存取權才能使用本文中的功能：
 
-<table style="table-layout:auto">
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 計畫*</td> 
-   <td> <p>[！UICONTROL Pro]或更高版本</p> </td> 
+<table style="table-layout:auto"> 
+ <col>  
+ <col>  
+ <tbody>  
+  <tr>  
+   <td role="rowheader">[!DNL Adobe Workfront] 計劃</td>  
+   <td> <p>任何</p> </td>  
+  </tr>  
+  <tr data-mc-conditions="">  
+   <td role="rowheader">[!DNL Adobe Workfront] 授權</td>  
+   <td> <p>新增：[！UICONTROL Standard]</p><p>或</p><p>目前： [！UICONTROL Work]或更高版本</p> </td>  
+  </tr>  
+  <tr>  
+   <td role="rowheader">[!DNL Adobe Workfront Fusion] 授權**</td>  
+   <td> 
+   <p>目前：否 [!DNL Workfront Fusion] 授權需求。</p> 
+   <p>或</p> 
+   <p>舊版：任何 </p> 
+   </td>  
+  </tr>  
+  <tr>  
+   <td role="rowheader">產品</td>  
+   <td> 
+   <p>新增：</p> <ul><li>[！UICONTROL Select]或[！UICONTROL Prime] [!DNL Workfront] 計畫：您的組織必須購買 [!DNL Adobe Workfront Fusion].</li><li>[！UICONTROL Ultimate] [!DNL Workfront] 計畫： [!DNL Workfront Fusion] 已包括在內。</li></ul> 
+   <p>或</p> 
+   <p>目前：您的組織必須購買 [!DNL Adobe Workfront Fusion].</p> 
+   </td>  
   </tr> 
-  <tr data-mc-conditions=""> 
-   <td role="rowheader">[!DNL Adobe Workfront] 授權*</td> 
-   <td> <p>[！UICONTROL計畫]，[！UICONTROL工作]</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront Fusion] 授權**</td> 
-   <td>
-   <p>目前授權需求：否 [!DNL Workfront Fusion] 授權需求。</p>
-   <p>或</p>
-   <p>舊版授權需求： [！UICONTROL [!DNL Workfront Fusion] 適用於工作自動化與整合] </p>
-   </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">產品</td> 
-   <td>
-   <p>目前產品需求：如果您有[！UICONTROL Select]或[！UICONTROL Prime] [!DNL Adobe Workfront] 計畫，您的組織必須購買 [!DNL Adobe Workfront Fusion] 以及 [!DNL Adobe Workfront] 以使用本文所述的功能。 [!DNL Workfront Fusion] 包含在[！UICONTROL Ultimate]中 [!DNL Workfront] 計畫。</p>
-   <p>或</p>
-   <p>舊版產品需求：貴組織必須購買 [!DNL Adobe Workfront Fusion] 以及 [!DNL Adobe Workfront] 以使用本文所述的功能。</p>
-   </td>
-
-</tbody> 
+ </tbody>  
 </table>
 
-若要瞭解您擁有的計畫、授權型別或存取權，請聯絡您的 [!DNL Workfront] 管理員。
+如需有關此表格的詳細資訊，請參閱 [Workfront檔案中的存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 有關的資訊 [!DNL Adobe Workfront Fusion] 授權，請參閱 [[!DNL Adobe Workfront Fusion] 授權](../../workfront-fusion/get-started/license-automation-vs-integration.md).
-
-## 連線 [!DNL Adobe Workfront] 至 [!DNL Workfront Fusion]
-
-Workfront和 [!DNL Workfront Fusion] 設計上可搭配使用。 您建立的連線會決定 [!DNL Workfront Fusion] 會使用在Workfront中執行動作。
-
-如需指示，請參閱 [連線 [!DNL Workfront] 至 [!DNL Workfront Fusion]](../../workfront-fusion/apps-and-their-modules/workfront-modules.md#connect) in [[!DNL Adobe Workfront] 模組](../../workfront-fusion/apps-and-their-modules/workfront-modules.md).
 
 ## 連線到不需要設定的應用程式或Web服務
 

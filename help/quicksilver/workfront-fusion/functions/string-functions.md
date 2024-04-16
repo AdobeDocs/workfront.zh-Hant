@@ -8,10 +8,10 @@ description: Adobe Workfront Fusion對應面板中有以下字串函式。
 author: Becky
 feature: Workfront Fusion
 exl-id: c6676a87-2498-4de8-b877-7edc30aeabae
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 33f2a721aa6bc246b27e5f45107619346512318f
 workflow-type: tm+mt
-source-wordcount: '774'
-ht-degree: 3%
+source-wordcount: '696'
+ht-degree: 0%
 
 ---
 
@@ -21,40 +21,40 @@ ht-degree: 3%
 
 您必須具有下列存取權才能使用本文中的功能：
 
-<table style="table-layout:auto">
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 計劃*</td> 
-   <td> <p>[!DNL Pro] 或更高</p> </td> 
+<table style="table-layout:auto"> 
+ <col>  
+ <col>  
+ <tbody>  
+  <tr>  
+   <td role="rowheader">[!DNL Adobe Workfront] 計劃</td>  
+   <td> <p>任何</p> </td>  
+  </tr>  
+  <tr data-mc-conditions="">  
+   <td role="rowheader">[!DNL Adobe Workfront] 授權</td>  
+   <td> <p>新增：[！UICONTROL Standard]</p><p>或</p><p>目前： [！UICONTROL Work]或更高版本</p> </td>  
+  </tr>  
+  <tr>  
+   <td role="rowheader">[!DNL Adobe Workfront Fusion] 授權**</td>  
+   <td> 
+   <p>目前：否 [!DNL Workfront Fusion] 授權需求。</p> 
+   <p>或</p> 
+   <p>舊版：任何 </p> 
+   </td>  
+  </tr>  
+  <tr>  
+   <td role="rowheader">產品</td>  
+   <td> 
+   <p>新增：</p> <ul><li>[！UICONTROL Select]或[！UICONTROL Prime] [!DNL Workfront] 計畫：您的組織必須購買 [!DNL Adobe Workfront Fusion].</li><li>[！UICONTROL Ultimate] [!DNL Workfront] 計畫： [!DNL Workfront Fusion] 已包括在內。</li></ul> 
+   <p>或</p> 
+   <p>目前：您的組織必須購買 [!DNL Adobe Workfront Fusion].</p> 
+   </td>  
   </tr> 
-  <tr data-mc-conditions=""> 
-   <td role="rowheader">[!DNL Adobe Workfront] 授權*</td> 
-   <td> <p>[！UICONTROL計畫]，[！UICONTROL工作]</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[！UICONTROL Adobe Workfront Fusion]授權**</td> 
-   <td>
-   <p>目前授權需求：否 [!DNL Workfront Fusion] 授權需求。</p>
-   <p>或</p>
-   <p>舊版授權需求： [！UICONTROL [!DNL Workfront Fusion] 適用於工作自動化與整合] </p>
-   </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">產品</td> 
-   <td>
-   <p>目前產品需求：如果您有[！UICONTROL Select]或[！UICONTROL Prime] [!DNL Adobe Workfront] 計畫，您的組織必須購買 [!DNL Adobe Workfront Fusion] 以及 [!DNL Adobe Workfront] 以使用本文所述功能。 [!DNL Workfront Fusion] 包含在[！UICONTROL Ultimate]中 [!DNL Workfront] 計畫。</p>
-   <p>或</p>
-   <p>舊版產品需求：貴組織必須購買 [!DNL Adobe Workfront Fusion] 以及 [!DNL Adobe Workfront] 以使用本文所述功能。</p>
-   </td> 
-  </tr> 
- </tbody> 
+ </tbody>  
 </table>
 
-若要瞭解您擁有哪些計畫、授權型別或存取權，請聯絡您的 [!DNL Workfront] 管理員。
+如需有關此表格的詳細資訊，請參閱 [Workfront檔案中的存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-有關以下專案的資訊： [!DNL Adobe Workfront Fusion] 授權，請參閱 [[!DNL Adobe Workfront Fusion] 授權](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+有關的資訊 [!DNL Adobe Workfront Fusion] 授權，請參閱 [[!DNL Adobe Workfront Fusion] 授權](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
 ## [!UICONTROL ascii (文字； [移除變音符號])]
 
@@ -62,7 +62,7 @@ ht-degree: 3%
 
 >[!INFO]
 >
->**範例:**
+>**範例：**
 >
 >* `ascii(` `Wěošrčkřfžrýoáníté` `)`
 >
@@ -78,7 +78,7 @@ ht-degree: 3%
 
 >[!INFO]
 >
->**範例:**
+>**範例：**
 >
 >`base64( workfront )`
 >
@@ -90,7 +90,7 @@ ht-degree: 3%
 
 >[!INFO]
 >
->**範例:**
+>**範例：**
 >
 >`capitalize( workfront )`
 >
@@ -102,7 +102,7 @@ ht-degree: 3%
 
 >[!INFO]
 >
->**範例:**
+>**範例：**
 >
 >* `contains( Hello World ; Hello )`
 >
@@ -118,14 +118,14 @@ ht-degree: 3%
 
 >[!INFO]
 >
->**範例:**
+>**範例：**
 >`decodeURL( Automate%20your%20workflow )`
 >
 >傳回： [!UICONTROL 自動化您的工作流程]
 
 ## [!UICONTROL encodeURL （文字）]
 
-將某些文字中的特殊字元編碼為有效的URL位址。
+將部分文字中的特殊字元編碼為有效的URL位址。
 
 ## [!UICONTROL escapeHTML （文字）]
 
@@ -133,19 +133,19 @@ ht-degree: 3%
 
 >[!INFO]
 >
->**範例:**
+>**範例：**
 >
 >`escapeHTML( <b>Hello</b> )`
 >
 > 傳回： `&lt;b&gt;Hello&lt;/b&gt;`
 
-## [!UICONTROL escapeMarkdown(text)]
+## [!UICONTROL escapeMarkdown（文字）]
 
 逸出文字中的所有Markdown標籤。
 
 >[!INFO]
 >
->**範例:**
+>**範例：**
 >
 >`escapeMarkdown( # Header )`
 >
@@ -153,11 +153,11 @@ ht-degree: 3%
 
 ## [!DNL indexOf (string; value; [start])]
 
-傳回指定值在字串中第一次出現的位置。 如果搜尋的值不存在，此方法會傳回&#39;-1&#39;。 起始值表示字串中開始搜尋的位置。
+傳回指定值在字串中第一次出現的位置。 如果搜尋的值不存在，此方法會傳回&#39;-1&#39;。 起始值代表字串中開始搜尋的位置。
 
 >[!INFO]
 >
->**範例:**
+>**範例：**
 >
 >* `indexOf( Workfront ; o )`
 >
@@ -177,19 +177,19 @@ ht-degree: 3%
 
 >[!INFO]
 >
->**範例:**
+>**範例：**
 >
 >`length( hello )`
 >
 >傳回： 5
 
-## [!UICONTROL lower (text)]
+## [!UICONTROL 下方（文字）]
 
 將文字字串中的所有字母字元轉換為小寫。
 
 >[!INFO]
 >
->**範例:**
+>**範例：**
 >
 >`lower( Hello )`
 >
@@ -201,7 +201,7 @@ ht-degree: 3%
 
 >[!INFO]
 >
->**範例:**
+>**範例：**
 >
 >`md5( Workfront )`
 >
@@ -213,30 +213,30 @@ ht-degree: 3%
 
 >[!INFO]
 >
->**範例:**
+>**範例：**
 >
 >`replace( Hello World ; Hello ; Hi )`
 >
 >傳回： [!UICONTROL Hi World]
 
-規則運算式(包含在 `/.../`)可作為搜尋字串使用，並搭配使用各種標幟(例如 `g`， `i`， `m`)已附加：
+規則運算式(括在 `/.../`)可作為具有標幟(例如 `g`， `i`， `m`)已附加：
 
 >[!INFO]
 >
->**範例:**
+>**範例：**
 >
 >![](assets/replace---1-350x31.png)
 >
->這些數字X X X X全部取代為X
+>所有這些數字X X X X X都會以X取代
 
-取代字串可包含下列特殊取代模式：
+取代字串可包括下列特殊取代模式：
 
 * `$&` 插入相符的子字串。
-* `$n` 其中n是小於100的正整數，插入第n個以括弧括住的子符合字串。 此索引為1。
+* `$n` 其中n是小於100的正整數，插入以括弧括住的第n個子比對字串。 這是1索引。
 
 >[!INFO]
 >
->**範例:**
+>**範例：**
 >
 >![](assets/variable-value-350x63.png)
 >
@@ -252,31 +252,31 @@ ht-degree: 3%
 
 如需規則運算式的詳細資訊，請參閱 [文字剖析器](../../workfront-fusion/apps-and-their-modules/text-parser.md).
 
-## [!UICONTROL sha1 (文字； [編碼]； [金鑰])]
+## [!UICONTROL sha1 (文字； [編碼]； [key])]
 
-計算字串的sha1雜湊。 如果指定機碼引數，則會傳回sha1 HMAC雜湊。 支援的編碼：「hex」（預設）、「base64」或「latin1」。
+計算字串的sha1雜湊。 如果指定機碼引數，則會傳回sha1 HMAC雜湊。 支援的編碼：「十六進位」（預設）、「base64」或「latin1」。
 
 >[!INFO]
 >
->**範例:**
+>**範例：**
 >
 >`sha1( workfront )`
 >
 >傳回： b2b30b8ae1f9e5b40fbb0696eaabdbfd8d0c087f
 
-## [!UICONTROL sha256 (文字； [編碼]； [金鑰])]
+## [!UICONTROL sha256 (文字； [編碼]； [key])]
 
-計算字串的sha256雜湊。 如果指定機碼引數，則會傳回sha256 HMAC雜湊。 支援的編碼：「hex」（預設）、「base64」或「latin1」。>
+計算字串的sha256雜湊。 如果指定機碼引數，則會傳回sha256 HMAC雜湊。 支援的編碼：「十六進位」（預設）、「base64」或「latin1」。>
 
 >[!INFO]
 >
->**範例:**
+>**範例：**
 >
 >`sha256( workfront )`
 >
 >傳回： ed3d7397eec7b94453035b67ba4468c883ee3bedeb57137f7371f2e0cf5e2bbc
 
-## [!UICONTROL sha512 (文字； [輸出編碼]； [金鑰]； [金鑰編碼])]
+## [!UICONTROL sha512 (文字； [輸出編碼]； [key]； [金鑰編碼])]
 
 計算字串的sha512雜湊。 如果指定機碼引數，則會傳回sha512 HMAC雜湊。
 
@@ -286,17 +286,17 @@ ht-degree: 3%
 * &quot;[!UICONTROL base64]&quot;
 * &quot;[!UICONTROL latin1]&quot;
 
-支援的金鑰編碼：
+支援的關鍵編碼：
 
 * &quot;[!UICONTROL 文字]「 （預設）
 * &quot;[!UICONTROL 十六進位]&quot;
 * &quot;[!UICONTROL base64]「或」[!UICONTROL 二進位]&quot;
 
-使用&quot;[!UICONTROL 二進位]「金鑰編碼，金鑰必須是緩衝區，而不是字串。
+使用&quot;[!UICONTROL 二進位]「金鑰編碼，金鑰必須是緩衝區，而非字串。
 
 >[!INFO]
 >
->**範例:**
+>**範例：**
 >
 >`sha512(workfront)`
 >
@@ -304,21 +304,21 @@ ht-degree: 3%
 
 ## [!UICONTROL 分割（文字；分隔符號）]
 
-藉由將字串分割為子字串，將字串分割為字串陣列。
+將字串分割為子字串，將字串分割為字串陣列。
 
 >[!INFO]
 >
->**範例:**
+>**範例：**
 >
 >`split( John, George, Paul ; , )`
 
 ## [!UICONTROL startcase （文字）]
 
-每個字詞的第一個字母都會變成大寫，其他字母則會變成小寫。
+每個字的第一個字母使用大寫，其他字母則使用小寫。
 
 >[!INFO]
 >
->**範例:**
+>**範例：**
 >`startcase( hello WORLD )`
 >
 >傳回： [!UICONTROL Hello World]
@@ -329,7 +329,7 @@ ht-degree: 3%
 
 >[!INFO]
 >
->**範例:**
+>**範例：**
 >
 >`stripHTML( <b>Hello</b> )`
 >
@@ -341,7 +341,7 @@ ht-degree: 3%
 
 >[!INFO]
 >
->**範例:**
+>**範例：**
 >
 >* `substring( Hello ; 0 ; 3)`
 >
@@ -359,7 +359,7 @@ ht-degree: 3%
 
 >[!INFO]
 >
->**範例:**
+>**範例：**
 >
 >* `toBinary( Workfront )`
 >
@@ -383,7 +383,7 @@ ht-degree: 3%
 
 >[!INFO]
 >
->**範例:**
+>**範例：**
 >
 >`upper( Hello )`
 >

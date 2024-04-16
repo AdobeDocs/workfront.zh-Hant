@@ -8,9 +8,9 @@ description: 下列日期和時間函式可在Adobe Workfront Fusion對應面板
 author: Becky
 feature: Workfront Fusion
 exl-id: 76c63afc-4bb6-4895-9bba-6b3913ecbcf6
-source-git-commit: 7de4016e489c5194aee674f4ea090e7bcbb1ce79
+source-git-commit: 6374a1a0ca49507872c71eaebd5227e88e3225b7
 workflow-type: tm+mt
-source-wordcount: '1992'
+source-wordcount: '1958'
 ht-degree: 1%
 
 ---
@@ -19,44 +19,288 @@ ht-degree: 1%
 
 ## 存取需求
 
+
+
 您必須具有下列存取權才能使用本文中的功能：
 
-<table style="table-layout:auto">
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 計畫*</td> 
-   <td> <p>[!DNL Pro] 或更高</p> </td> 
+
+
+<table style="table-layout:auto"> 
+ <col>  
+ <col>  
+ <tbody>  
+  <tr>  
+   <td role="rowheader">[!DNL Adobe Workfront] 計劃</td>  
+   <td> <p>任何</p> </td>  
+  </tr>  
+  <tr data-mc-conditions="">  
+   <td role="rowheader">[!DNL Adobe Workfront] 授權</td>  
+   <td> <p>新增：[！UICONTROL Standard]</p><p>或</p><p>目前： [！UICONTROL Work]或更高版本</p> </td>  
+  </tr>  
+  <tr>  
+   <td role="rowheader">[!DNL Adobe Workfront Fusion] 授權**</td>  
+   <td> 
+   <p>目前：否 [!DNL Workfront Fusion] 授權需求。</p> 
+   <p>或</p> 
+   <p>舊版：任何 </p> 
+   </td>  
+  </tr>  
+  <tr>  
+   <td role="rowheader">產品</td>  
+   <td> 
+   <p>新增：</p> <ul><li>[！UICONTROL Select]或[！UICONTROL Prime] [!DNL Workfront] 計畫：您的組織必須購買 [!DNL Adobe Workfront Fusion].</li><li>[！UICONTROL Ultimate] [!DNL Workfront] 計畫： [!DNL Workfront Fusion] 已包括在內。</li></ul> 
+   <p>或</p> 
+   <p>目前：您的組織必須購買 [!DNL Adobe Workfront Fusion].</p> 
+   </td>  
   </tr> 
-  <tr data-mc-conditions=""> 
-   <td role="rowheader">[!DNL Adobe Workfront] 授權*</td> 
-   <td> <p>[！UICONTROL計畫]，[！UICONTROL工作]</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[！UICONTROL Adobe Workfront Fusion]授權**</td> 
-   <td>
-   <p>目前授權需求：否 [!DNL Workfront Fusion] 授權需求。</p>
-   <p>或</p>
-   <p>舊版授權需求： [！UICONTROL [!DNL Workfront Fusion] 適用於工作自動化與整合] </p>
-   </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">產品</td> 
-   <td>
-   <p>目前產品需求：如果您有[！UICONTROL Select]或[！UICONTROL Prime] [!DNL Adobe Workfront] 計畫，您的組織必須購買 [!DNL Adobe Workfront Fusion] 以及 [!DNL Adobe Workfront] 以使用本文所述的功能。 [!DNL Workfront Fusion] 包含在[！UICONTROL Ultimate]中 [!DNL Workfront] 計畫。</p>
-   <p>或</p>
-   <p>舊版產品需求：貴組織必須購買 [!DNL Adobe Workfront Fusion] 以及 [!DNL Adobe Workfront] 以使用本文所述的功能。</p>
-   </td> 
-  </tr> 
- </tbody> 
+ </tbody>  
 </table>
 
-若要瞭解您擁有的計畫、授權型別或存取權，請聯絡您的 [!DNL Workfront] 管理員。
+如需有關此表格的詳細資訊，請參閱 [Workfront檔案中的存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 有關的資訊 [!DNL Adobe Workfront Fusion] 授權，請參閱 [[!DNL Adobe Workfront Fusion] 授權](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
-## [!UICONTROL formatDate (日期；格式； [時區])]
+## 變數
+
+### now
+
+### timestamp
+
+## 函數
+
+### [!UICONTROL addSeconds (date； number)]
+
+將指定秒數新增至日期後，傳回新日期。 若要減去秒數，請輸入負數。
+
+>[!INFO]
+>
+>**範例：**
+>
+>* `addSeconds(2016-12-08T15:55:57.536Z;2)`
+>
+>   傳回2016-12-08T15:55:59.536赫
+>
+>* `addSeconds(2016-12-08T15:55:57.536Z;-2)`
+>
+>   傳回2016-12-08T15:55:55.536赫
+
+### [!UICONTROL addMinutes （日期；數字）] {#addminutes-date-number}
+
+將指定分鐘數新增至日期後，傳回新日期。 若要減去分鐘，請輸入負數。
+
+>[!INFO]
+>
+>**範例：**
+>
+>* `addMinutes(2016-12-08T15:55:57.536Z;2)`
+>
+>    傳回2016-12-08T15:57:57.536赫
+>
+>* `addMinutes(2016-12-08T15:55:57.536Z;-2)`
+>
+>    傳回2016-12-08T15:53:57.536赫
+
+### [!UICONTROL addHours （日期；數字）] {#addhours-date-number}
+
+將指定小時數新增至日期後，傳回新日期。 若要減去時數，請輸入負數。
+
+>[!INFO]
+>
+>**範例：**
+>
+>* `addHours(2016-12-08T15:55:57.536Z; 2)`
+>
+>    傳回2016-12-08T17:55:57.536赫
+>
+>* `addHours(2016-12-08T15:55:57.536Z;-2)`
+>
+>    傳回2016-12-08T13:55:57.536赫
+
+### [!UICONTROL addDays （日期；數字）] {#adddays-date-number}
+
+將指定天數新增至日期後，傳回新日期。 若要減去天數，請輸入負數。
+
+>[!INFO]
+>
+>**範例：**
+>
+>* `addDays(2016-12-08T15:55:57.536Z;2)`
+>
+>    傳回2016-12-10T15:55:57.536赫
+>
+>* `addDays(2016-12-08T15:55:57.536Z;-2)`
+>
+>    傳回2016-12-6T15:55:57.536赫
+
+### [!UICONTROL addMonths (date； number)]
+
+將指定月份數新增至日期後，傳回新日期。 若要減去月份，請輸入負數。
+
+>[!INFO]
+>
+>**範例：**
+>
+>* `addMonths(2016-08-08T15:55:57.536Z;2)`
+>
+>    傳回2016-10-08T15:55:57.536赫
+>
+>* `addMonths(2016-08-08T15:55:57.536Z;-2)`
+>
+>    傳回2016-06-08T15:55:57.536赫
+
+### [!UICONTROL addYears （日期；數字）]
+
+將指定年份新增至日期後，傳回新日期。 若要減去年數，請輸入負數。
+
+>[!INFO]
+>
+>**範例：**
+>
+>* `addYears(2016-08-08T15:55:57.536Z;2)`
+>
+>    傳回2018-08-08T15:55:57.536赫
+>
+>* `addYears(2016-12-08T15:55:57.536Z; -2)`
+>
+>    傳回2014-08-08T15:55:57.536赫
+
+### [!UICONTROL setSecond （日期；數字）]
+
+此函式使用引數中指定的秒數傳回新日期。
+
+指定從0到59的數字。 如果數字超出該範圍，此函式會傳回前一分鐘的第二秒（代表負數）或後續的分鐘（代表正數）。
+
+如果您需要指定範圍以外的數字，我們建議您使用[!UICONTROL  addSeconds]，如一節中所述 [addSeconds (date； number)](#addseconds-date-number).
+
+>[!INFO]
+>
+>**範例：**
+>
+>* `setSecond(2015-10-07T11:36:39.138Z;10)`
+>
+>    傳回2015-10-07T11:36:10.138赫
+>
+>* `setSecond(2015-10-07T11:36:39.138Z; 6)`
+>
+>    傳回2015-10-07T11:37:01.138赫
+
+### [!UICONTROL setMinute （日期；數字）]
+
+此函式使用引數中指定的分鐘數傳回新日期。
+
+指定從0到59的數字。 如果數字超出該範圍，此函式會傳回前一小時（負數）或後續小時（正數）的分鐘數。
+
+如果您需要指定超出範圍的數字，建議您使用addMinutes，如上所述 [addMinutes （日期；數字）](#addminutes-date-number).
+
+>[!INFO]
+>
+>**範例：**
+>
+>* `setMinute(2015-10-07T11:36:39.138Z;10)`
+>
+>    傳回2015-10-07T11:10:39.138赫
+>
+>* `setMinute(2015-10-07T11:36:39.138Z;61)`
+>
+>    傳回2015-10-07T12:01:39.138赫
+
+### [!UICONTROL setHour （日期；數字）]
+
+此函式使用引數中指定的小時數傳回新日期。
+
+指定從0到23的數字。 如果數字超出此範圍，此函式會傳回前一天的一小時（若為負數）或後續的天數（若為正數）。
+
+如果您需要指定範圍外的數字，建議您使用addHours，如上所述 [addHours （日期；數字）](#addhours-date-number).
+
+>[!INFO]
+>
+>**範例：**
+>
+>* `setHour(2015-08-07T11:36:39.138Z;6)`
+>
+>   傳回2015-08-07T06:36:39.138赫
+>
+>* `setHour(2015-08-07T11:36:39.138;-6)`
+>
+>    傳回2015-08-06T18:36:39.138赫
+
+### [!UICONTROL setDay （日期；英文的當日編號/名稱）]
+
+此函式傳回具有引數中所指定日期的新日期。
+
+您可以使用此函式將星期日設為1，將星期六設為7。 如果您指定從1到7的數字，則產生的日期會在目前（星期日至星期六）的周內。 如果數字超出該範圍，此函式會傳回前一週（負數）或後續周（正數）的某天。
+
+如果您需要指定超出範圍的數字，建議您使用addDays，如上所述 [addDays （日期；數字）](#adddays-date-number).
+
+>[!INFO]
+>
+>**範例：**
+>
+>* `setDay(2018-06-27T11:36:39.138Z;Monday)`
+>
+>   傳回2018-06-25T11:36:39.138赫
+>
+>* `setDay(2018-06-27T11:36:39.138Z;1)`
+>
+>   傳回2018-06-24T11:36:39.138赫
+>
+>* `setDay(2018-06-27T11:36:39.138Z;7)`
+>
+>   傳回2018-06-30T11:36:39.138赫
+
+### [!UICONTROL setDate (date； number)]
+
+此函式傳回新的日期，其中包含引數中指定的月份日期。
+
+指定從1到31的數字。 如果數字超出此範圍，此函式會傳回前一個月中的一天（如果是負數）或後續的月份（如果是正數）。
+
+>[!INFO]
+>
+>**範例：**
+>
+>* `setDate(2015-08-07T11:36:39.138Z;5)`
+>
+>   傳回2015-08-05T11:36:39.138赫
+>
+>* `setDate(2015-08-07T11:36:39.138Z;32)`
+>
+>   傳回2015-09-01T11:36:39.138赫
+
+### [!UICONTROL setMonth （日期；英文的月份編號/名稱）]
+
+此函式使用引數中指定的月份傳回新日期。
+
+指定從1到12的數字。 如果數字超出此範圍，此函式會傳回前一年（負數）或後續年度（正數）中的月份。
+
+>[!INFO]
+>
+>**範例：**
+>
+>* `setMonth(2015-08-07T11:36:39.138Z;5)`
+>
+>   傳回2015-05-07T11:36:39.138赫
+>
+>* `setMonth(2015-08-07T11:36:39.138Z;17)`
+>
+>   傳回2016-05-07T11:36:39.138赫
+>
+>* `setMonth(2015-08-07T11:36:39.138Z;january)`
+>
+>   傳回2015-01-07T12:36:39.138赫
+
+### [!UICONTROL setYear （日期；數字）]
+
+以引數中指定的年份傳回新日期。
+
+>[!INFO]
+>
+>**範例：**
+>
+>* `setYear(2015-08-07T11:36:39.138Z;2017)`
+>
+>   傳回2017-08-07T11:36:39.138赫
+
+### [!UICONTROL formatDate (日期；格式； [時區])]
 
 當您有日期值時，使用此函式，例如 `12-10-2021 20:30`，並且想要格式化為文字值，例如 `Dec 10, 2021 8:30 PM`.
 
@@ -64,7 +308,7 @@ ht-degree: 1%
 
 如需詳細資訊，請參閱 [日期](../../workfront-fusion/mapping/item-data-types.md#date) 和 [文字](../../workfront-fusion/mapping/item-data-types.md#text) 在文章中 [Adobe Workfront Fusion中的專案資料型別](../../workfront-fusion/mapping/item-data-types.md).
 
-### 參數
+#### 參數
 
 <table style="table-layout:auto"> 
  <col> 
@@ -98,7 +342,7 @@ ht-degree: 1%
 
 如果提供不同的型別，則會套用型別強制執行。 如需詳細資訊，請參閱 [輸入強制 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/type-coercion.md).
 
-### 傳回值和型別
+#### 傳回值和型別
 
 此 `formatDate` 函式會根據指定的格式和時區，傳回指定日期值的文字表示法。 資料型別為「文字」。
 
@@ -124,11 +368,11 @@ ht-degree: 1%
 >
 >    傳回19.03.2019 15:30
 
-## [!UICONTROL parseDate (文字；格式； [時區])]
+### [!UICONTROL parseDate (文字；格式； [時區])]
 
 當您有代表日期的文字值時(例如 `12-10-2019 20:30` 或 `Aug 18, 2019 10:00 AM`)，並且您想要將其轉換（剖析）為Date值（二進位電腦可讀表示法）。 如需詳細資訊，請參閱 [日期](../../workfront-fusion/mapping/item-data-types.md#date) 和 [文字](../../workfront-fusion/mapping/item-data-types.md#text) 在文章中 [中的專案資料型別 [!UICONTROL Adobe Workfront Fusion]](../../workfront-fusion/mapping/item-data-types.md).
 
-### 參數
+#### 參數
 
 第二欄指出預期的型別。 如果提供不同的型別，則會套用型別強制執行。 如需詳細資訊，請參閱 [輸入強制 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/type-coercion.md).
 
@@ -164,7 +408,7 @@ ht-degree: 1%
 
 如果提供不同的型別，則會套用型別強制執行。 如需詳細資訊，請參閱 [輸入強制 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/type-coercion.md).
 
-### 傳回值和型別
+#### 傳回值和型別
 
 此函式根據您指定的格式和時區將文字字串轉換為日期。 值的資料型別為「日期」。
 
@@ -188,239 +432,7 @@ ht-degree: 1%
 >
 >   傳回2016-12-28T16:03:06.000盎司
 
-## [!UICONTROL addDays （日期；數字）] {#adddays-date-number}
-
-將指定天數新增至日期後，傳回新日期。 若要減去天數，請輸入負數。
-
->[!INFO]
->
->**範例：**
->
->* `addDays(2016-12-08T15:55:57.536Z;2)`
->
->    傳回2016-12-10T15:55:57.536赫
->
->* `addDays(2016-12-08T15:55:57.536Z;-2)`
->
->    傳回2016-12-6T15:55:57.536赫
-
-## [!UICONTROL addHours （日期；數字）] {#addhours-date-number}
-
-將指定小時數新增至日期後，傳回新日期。 若要減去時數，請輸入負數。
-
->[!INFO]
->
->**範例：**
->
->* `addHours(2016-12-08T15:55:57.536Z; 2)`
->
->    傳回2016-12-08T17:55:57.536赫
->
->* `addHours(2016-12-08T15:55:57.536Z;-2)`
->
->    傳回2016-12-08T13:55:57.536赫
-
-## [!UICONTROL addMinutes （日期；數字）] {#addminutes-date-number}
-
-將指定分鐘數新增至日期後，傳回新日期。 若要減去分鐘，請輸入負數。
-
->[!INFO]
->
->**範例：**
->
->* `addMinutes(2016-12-08T15:55:57.536Z;2)`
->
->    傳回2016-12-08T15:57:57.536赫
->
->* `addMinutes(2016-12-08T15:55:57.536Z;-2)`
->
->    傳回2016-12-08T15:53:57.536赫
-
-## [!UICONTROL addMonths (date； number)] {#addseconds-date-number}
-
-將指定月份數新增至日期後，傳回新日期。 若要減去月份，請輸入負數。
-
->[!INFO]
->
->**範例：**
->
->* `addMonths(2016-08-08T15:55:57.536Z;2)`
->
->    傳回2016-10-08T15:55:57.536赫
->
->* `addMonths(2016-08-08T15:55:57.536Z;-2)`
->
->    傳回2016-06-08T15:55:57.536赫
-
-## [!UICONTROL addSeconds (date； number)]
-
-將指定秒數新增至日期後，傳回新日期。 若要減去秒數，請輸入負數。
-
->[!INFO]
->
->**範例：**
->
->* `addSeconds(2016-12-08T15:55:57.536Z;2)`
->
->   傳回2016-12-08T15:55:59.536赫
->
->* `addSeconds(2016-12-08T15:55:57.536Z;-2)`
->
->   傳回2016-12-08T15:55:55.536赫
-
-## [!UICONTROL addYears （日期；數字）]
-
-將指定年份新增至日期後，傳回新日期。 若要減去年數，請輸入負數。
-
->[!INFO]
->
->**範例：**
->
->* `addYears(2016-08-08T15:55:57.536Z;2)`
->
->    傳回2018-08-08T15:55:57.536赫
->
->* `addYears(2016-12-08T15:55:57.536Z; -2)`
->
->    傳回2014-08-08T15:55:57.536赫
-
-## [!UICONTROL setSecond （日期；數字）]
-
-此函式使用引數中指定的秒數傳回新日期。
-
-指定從0到59的數字。 如果數字超出該範圍，此函式會傳回前一分鐘的第二秒（代表負數）或後續的分鐘（代表正數）。
-
-如果您需要指定範圍以外的數字，我們建議您使用[!UICONTROL  addSeconds]，如一節中所述 [addSeconds (date； number)](#addseconds-date-number).
-
->[!INFO]
->
->**範例：**
->
->* `setSecond(2015-10-07T11:36:39.138Z;10)`
->
->    傳回2015-10-07T11:36:10.138赫
->
->* `setSecond(2015-10-07T11:36:39.138Z; 6)`
->
->    傳回2015-10-07T11:37:01.138赫
-
-## [!UICONTROL setMinute （日期；數字）]
-
-此函式使用引數中指定的分鐘數傳回新日期。
-
-指定從0到59的數字。 如果數字超出該範圍，此函式會傳回前一小時（負數）或後續小時（正數）的分鐘數。
-
-如果您需要指定超出範圍的數字，建議您使用addMinutes，如上所述 [addMinutes （日期；數字）](#addminutes-date-number).
-
->[!INFO]
->
->**範例：**
->
->* `setMinute(2015-10-07T11:36:39.138Z;10)`
->
->    傳回2015-10-07T11:10:39.138赫
->
->* `setMinute(2015-10-07T11:36:39.138Z;61)`
->
->    傳回2015-10-07T12:01:39.138赫
-
-## [!UICONTROL setHour （日期；數字）]
-
-此函式使用引數中指定的小時數傳回新日期。
-
-指定從0到23的數字。 如果數字超出此範圍，此函式會傳回前一天的一小時（若為負數）或後續的天數（若為正數）。
-
-如果您需要指定範圍外的數字，建議您使用addHours，如上所述 [addHours （日期；數字）](#addhours-date-number).
-
->[!INFO]
->
->**範例：**
->
->* `setHour(2015-08-07T11:36:39.138Z;6)`
->
->   傳回2015-08-07T06:36:39.138赫
->
->* `setHour(2015-08-07T11:36:39.138;-6)`
->
->    傳回2015-08-06T18:36:39.138赫
-
-## [!UICONTROL setDay （日期；英文的當日編號/名稱）]
-
-此函式傳回具有引數中所指定日期的新日期。
-
-您可以使用此函式將星期日設為1，將星期六設為7。 如果您指定從1到7的數字，則產生的日期會在目前（星期日至星期六）的周內。 如果數字超出該範圍，此函式會傳回前一週（負數）或後續周（正數）的某天。
-
-如果您需要指定超出範圍的數字，建議您使用addDays，如上所述 [addDays （日期；數字）](#adddays-date-number).
-
->[!INFO]
->
->**範例：**
->
->* `setDay(2018-06-27T11:36:39.138Z;Monday)`
->
->   傳回2018-06-25T11:36:39.138赫
->
->* `setDay(2018-06-27T11:36:39.138Z;1)`
->
->   傳回2018-06-24T11:36:39.138赫
->
->* `setDay(2018-06-27T11:36:39.138Z;7)`
->
->   傳回2018-06-30T11:36:39.138赫
-
-## [!UICONTROL setDate (date； number)]
-
-此函式傳回新的日期，其中包含引數中指定的月份日期。
-
-指定從1到31的數字。 如果數字超出此範圍，此函式會傳回前一個月中的一天（如果是負數）或後續的月份（如果是正數）。
-
->[!INFO]
->
->**範例：**
->
->* `setDate(2015-08-07T11:36:39.138Z;5)`
->
->   傳回2015-08-05T11:36:39.138赫
->
->* `setDate(2015-08-07T11:36:39.138Z;32)`
->
->   傳回2015-09-01T11:36:39.138赫
-
-## [!UICONTROL setMonth （日期；英文的月份編號/名稱）]
-
-此函式使用引數中指定的月份傳回新日期。
-
-指定從1到12的數字。 如果數字超出此範圍，此函式會傳回前一年（負數）或後續年度（正數）中的月份。
-
->[!INFO]
->
->**範例：**
->
->* `setMonth(2015-08-07T11:36:39.138Z;5)`
->
->   傳回2015-05-07T11:36:39.138赫
->
->* `setMonth(2015-08-07T11:36:39.138Z;17)`
->
->   傳回2016-05-07T11:36:39.138赫
->
->* `setMonth(2015-08-07T11:36:39.138Z;january)`
->
->   傳回2015-01-07T12:36:39.138赫
-
-## [!UICONTROL setYear （日期；數字）]
-
-以引數中指定的年份傳回新日期。
-
->[!INFO]
->
->**範例：**
->
->* `setYear(2015-08-07T11:36:39.138Z;2017)`
->
->   傳回2017-08-07T11:36:39.138赫
-
-## [!UICONTROL dateDifference (Date1； Date2； Unit)]
+### [!UICONTROL dateDifference (Date1； Date2； Unit)]
 
 傳回代表兩個日期之間差異的數字，以指定的單位表示。
 
@@ -454,9 +466,9 @@ ht-degree: 1%
 >
 >    傳回 `1`
 
-## 其他範例
+### 其他範例
 
-### 如何計算每個月中每週的第n天
+#### 如何計算每個月中每週的第n天
 
 本節內容適用於 [!DNL Workfront Fusion] 從 [!DNL Exceljet] 說明如何取得一個月中一週的第n天的網頁。
 
@@ -511,12 +523,12 @@ ht-degree: 1%
 
 ![](assets/nth-day-variable-value-350x33.png)
 
-### 說明：
+#### 說明：
 
 * `setDate(now;1)` 傳回目前月份的第一個月
 * `formatDate(....;E)` 傳回一週中的第幾天(1、2、... 6)
 
-## 如何計算日期之間的天數
+### 如何計算日期之間的天數
 
 一種可能是使用以下運算式：
 
@@ -532,7 +544,7 @@ ht-degree: 1%
 >
 >* 此 `round()` 當其中一個日期在日光節約時間期間內，而另一個日期不在時，則會使用函式。 在這些情況下，時數差會少一小時或更多。 您可以將其除以24來得出非整數結果。 您會失去一小時的日光節約時間。 將平面化成圓形，這樣就不會有百分比
 
-### 如何計算月份的最後一天/毫秒
+#### 如何計算月份的最後一天/毫秒
 
 當您指定日期範圍時，例如在搜尋模組中，如果範圍跨越整個前一個月為關閉間隔（包括其兩個限制點的間隔），則需要計算該月的最後一天。
 

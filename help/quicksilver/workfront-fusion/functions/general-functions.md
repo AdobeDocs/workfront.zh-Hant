@@ -8,10 +8,10 @@ description: Adobe Workfront Fusion對應面板中有以下一般函式。
 author: Becky
 feature: Workfront Fusion
 exl-id: 74bfda4e-5690-4b8c-ac58-20cf261f188d
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: a5130e551ad73717796bfac206d99799efc7987d
 workflow-type: tm+mt
-source-wordcount: '299'
-ht-degree: 3%
+source-wordcount: '303'
+ht-degree: 0%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 3%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 計劃*</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] 計畫*</td> 
    <td> <p>[!DNL Pro] 或更高</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -44,17 +44,17 @@ ht-degree: 3%
   <tr> 
    <td role="rowheader">產品</td> 
    <td>
-   <p>目前產品需求：如果您有[！UICONTROL Select]或[！UICONTROL Prime] [!DNL Adobe Workfront] 計畫，您的組織必須購買 [!DNL Adobe Workfront Fusion] 以及 [!DNL Adobe Workfront] 以使用本文所述功能。 [!DNL Workfront Fusion] 包含在[！UICONTROL Ultimate]中 [!DNL Workfront] 計畫。</p>
+   <p>目前產品需求：如果您有[！UICONTROL Select]或[！UICONTROL Prime] [!DNL Adobe Workfront] 計畫，您的組織必須購買 [!DNL Adobe Workfront Fusion] 以及 [!DNL Adobe Workfront] 以使用本文所述的功能。 [!DNL Workfront Fusion] 包含在[！UICONTROL Ultimate]中 [!DNL Workfront] 計畫。</p>
    <p>或</p>
-   <p>舊版產品需求：貴組織必須購買 [!DNL Adobe Workfront Fusion] 以及 [!DNL Adobe Workfront] 以使用本文所述功能。</p>
+   <p>舊版產品需求：貴組織必須購買 [!DNL Adobe Workfront Fusion] 以及 [!DNL Adobe Workfront] 以使用本文所述的功能。</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-若要瞭解您擁有哪些計畫、授權型別或存取權，請聯絡您的 [!DNL Workfront] 管理員。
+若要瞭解您擁有的計畫、授權型別或存取權，請聯絡您的 [!DNL Workfront] 管理員。
 
-有關以下專案的資訊： [!DNL Adobe Workfront Fusion] 授權，請參閱 [[!DNL Adobe Workfront Fusion] 授權](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+有關的資訊 [!DNL Adobe Workfront Fusion] 授權，請參閱 [[!DNL Adobe Workfront Fusion] 授權](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
 ## [!UICONTROL get （物件或陣列；路徑）]
 
@@ -62,20 +62,20 @@ ht-degree: 3%
 
 >[!INFO]
 >
->**範例:**
+>**範例：**
 >
 >* `get( array ; 1 + 1 )`
 >* `get( array ; 5.raw_name )`
 >* `get( object ; raw_name )`
 >* `get( object ; raw_name.sub_raw_name )`
 
-## [!UICONTROL if （運算式；值1；值2）]
+## [!UICONTROL 若為（運算式；值1；值2）]
 
 傳回 `value1` 如果運算式的計算結果為true，則傳回 `value2`.
 
 >[!INFO]
 >
->**範例:**
+>**範例：**
 >
 >* `if( 1 = 1 ; A ; B )`
 >
@@ -91,7 +91,7 @@ ht-degree: 3%
 
 >[!INFO]
 >
->**範例:**
+>**範例：**
 >
 >* `ifempty(` `A` `;` `B` )
 >
@@ -105,13 +105,13 @@ ht-degree: 3%
 >
 >   傳回B
 
-## [!UICONTROL switch (運算式；value1；result1； [value2； result2； ...]； [否則])]
+## [!UICONTROL switch (運算式；值1；結果1； [value2； result2； ...]； [否則])]
 
 根據值清單評估一個值（稱為運算式）；傳回對應至第一個相符值的結果。
 
 >[!INFO]
 >
->**範例:**
+>**範例：**
 >
 >* `switch( B ; A ; 1 ; B ; 2 ; C ; 3 )`
 >
@@ -125,17 +125,17 @@ ht-degree: 3%
 >
 >  傳回4
 
-## [!UICONTROL omit(object； key1； [key2； ...])]
+## [!UICONTROL 省略(object； key1； [key2； ...])]
 
 省略物件的指定索引鍵並傳回其餘索引鍵。
 
 >[!INFO]
 >
->**範例:**
+>**範例：**
 >
 >`omit(` 使用者 `;` 密碼 `)`
 >
->傳回使用者資訊的集合，不包括密碼。
+>傳回使用者資訊（不包括密碼）的集合。
 
 ## [!UICONTROL pick(object； key1； [key2； ...])]
 
@@ -143,7 +143,7 @@ ht-degree: 3%
 
 >[!INFO]
 >
->**範例:**
+>**範例：**
 >
 >`pick(` 使用者 `;` 密碼 `;` 電子郵件 `)`
 >

@@ -9,14 +9,16 @@ author: Becky
 feature: Workfront Fusion
 recommendations: noDisplay, noCatalog
 exl-id: 7fc257ea-0c17-4bf5-aa07-e81f6f2d756c
-source-git-commit: f783e3033a67b4702e4e2d80214cbb0c4591b922
+source-git-commit: b90343eab40e91c6f5cddeaa960ce9c9c97b1d29
 workflow-type: tm+mt
-source-wordcount: '107'
+source-wordcount: '102'
 ht-degree: 0%
 
 ---
 
-# Adobe Workfront Fusion中的連線
+# Fusion中的連線：文章索引
+
+<!-- Audited: 3/2024-->
 
 >[!NOTE]
 >
@@ -24,7 +26,7 @@ ht-degree: 0%
 
 本節包含下列文章：
 
-* [關於連線 [!DNL Adobe Workfront Fusion] 至應用程式或服務](../../workfront-fusion/connections/about-connecting-wf-fusion-to-app-or-service.md)
+* [連線總覽](../../workfront-fusion/connections/about-connecting-wf-fusion-to-app-or-service.md)
 * [在中建立連線 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/connections/connection-instruction-toc.md)
 * [建立與的連線 [!DNL Adobe Workfront Fusion]  — 基本指示](../../workfront-fusion/connections/connect-to-fusion-general.md)
 * [連線 [!DNL Adobe Workfront Fusion] 至任何網站服務](../../workfront-fusion/connections/connect-wf-fusion-to-any-web-service.md)

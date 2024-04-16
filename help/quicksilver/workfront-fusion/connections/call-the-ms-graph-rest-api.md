@@ -2,56 +2,57 @@
 title: 透過呼叫MS Graph REST API [!DNL Adobe Workfront Fusion] HTTP &gt；建立OAuth 2.0請求模組
 description: 透過呼叫MS Graph REST API [!DNL Adobe Workfront Fusion] HTTP &gt；建立OAuth 2.0請求模組
 author: Becky
-draft: Probably
 feature: Workfront Fusion
 exl-id: adae390d-8b9e-4dab-8551-605e50af5a1e
-source-git-commit: f783e3033a67b4702e4e2d80214cbb0c4591b922
+source-git-commit: b90343eab40e91c6f5cddeaa960ce9c9c97b1d29
 workflow-type: tm+mt
-source-wordcount: '610'
-ht-degree: 0%
+source-wordcount: '571'
+ht-degree: 1%
 
 ---
 
 # 呼叫[!UICONTROL  MS Graph REST API] 透過 [!DNL Adobe Workfront Fusion] [!UICONTROL HTTP] > [!UICONTROL 提出OAuth 2.0請求] 模組
 
-許多 [!DNL Microsoft] 網路服務可透過 [!DNL Microsoft Graph API]. 本文會說明如何使用建立與該API的連線， [!DNL Workfront Fusion] [!DNL HTTP] > [!UICONTROL 提出OAuth 2.0請求] 模組。
+<!-- Audited: 3/2024-->
+
+許多 [!DNL Microsoft] 網路服務可透過 [!DNL Microsoft Graph API]. 您可以建立與的連線， [!DNL Microsoft Graph API]，方式為使用 [!DNL Workfront Fusion] [!DNL HTTP] > [!UICONTROL 提出OAuth 2.0請求] 模組。
 
 ## 存取需求
 
 您必須具有下列存取權才能使用本文中的功能：
 
-<table style="table-layout:auto"> 
+<table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 計畫*</td> 
-   <td> <p>[！UICONTROL Pro]或更高版本</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] 計劃</td> 
+   <td> <p>任何</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">[!DNL Adobe Workfront] 授權*</td> 
-   <td> <p>[！UICONTROL計畫]，[！UICONTROL工作]</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] 授權</td> 
+   <td> <p>新增：[！UICONTROL Standard]</p><p>或</p><p>目前： [！UICONTROL Work]或更高版本</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] 授權**</td> 
    <td>
-   <p>目前授權需求：否 [!DNL Workfront Fusion] 授權需求。</p>
+   <p>目前：否 [!DNL Workfront Fusion] 授權需求。</p>
    <p>或</p>
-   <p>舊版授權需求： [！UICONTROL [!DNL Workfront Fusion] 適用於工作自動化與整合] </p>
+   <p>舊版：任何 </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">產品</td> 
    <td>
-   <p>目前產品需求：如果您有[！UICONTROL Select]或[！UICONTROL Prime] [!DNL Adobe Workfront] 計畫，您的組織必須購買 [!DNL Adobe Workfront Fusion] 以及 [!DNL Adobe Workfront] 以使用本文所述的功能。 [!DNL Workfront Fusion] 包含在[！UICONTROL Ultimate]中 [!DNL Workfront] 計畫。</p>
+   <p>新增：</p> <ul><li>[！UICONTROL Select]或[！UICONTROL Prime] [!DNL Workfront] 計畫：您的組織必須購買 [!DNL Adobe Workfront Fusion].</li><li>[！UICONTROL Ultimate] [!DNL Workfront] 計畫： [!DNL Workfront Fusion] 已包括在內。</li></ul>
    <p>或</p>
-   <p>舊版產品需求：貴組織必須購買 [!DNL Adobe Workfront Fusion] 以及 [!DNL Adobe Workfront] 以使用本文所述的功能。</p>
+   <p>目前：您的組織必須購買 [!DNL Adobe Workfront Fusion].</p>
    </td> 
   </tr>
  </tbody> 
 </table>
 
-若要瞭解您擁有的計畫、授權型別或存取權，請聯絡您的 [!DNL Workfront] 管理員。
+如需有關此表格的詳細資訊，請參閱 [Workfront檔案中的存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 有關的資訊 [!DNL Adobe Workfront Fusion] 授權，請參閱 [[!DNL Adobe Workfront Fusion] 授權](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
@@ -107,7 +108,7 @@ ht-degree: 0%
         <li> <p><code>offline_access</code> </p> </li> 
         <li> <p><code>openid</code> </p> </li> 
         <li> <p>您的整合所需的任何其他許可權(例如： <code>User.Read</code>)</p> </li> 
-       </ul> <p>重要：您需要選取的許可權才能在中設定您的連線 [!DNL Workfront Fusion].</p> </td> 
+       </ul> <p><b>重要</b>：您需要選取的許可權才能在中設定您的連線 [!DNL Workfront Fusion].</p> </td> 
      </tr> 
     </tbody> 
    </table>
@@ -116,9 +117,9 @@ ht-degree: 0%
 
 ## 設定您的 [!DNL MS Graph API] 中的連線 [!DNL Workfront Fusion]
 
-註冊之後 [!DNL Workfront Fusion] 如中所述 [註冊 [!DNL Workfront Fusion] 在 [!DNL Microsoft Application Registration Portal]](#register-workfront-fusion-in-the-microsoft-application-registration-portal)，您可在以下位置設定連線： [!UICONTROL HTTP] >[!UICONTROL 建立Oauth 2.0] 要求模組。
+註冊之後 [!DNL Workfront Fusion] 如中所述 [註冊 [!DNL Workfront Fusion] 在 [!DNL Microsoft Application Registration Portal]](#register-workfront-fusion-in-the-microsoft-application-registration-portal)，您可在以下位置設定連線： [!UICONTROL HTTP] > [!UICONTROL 建立Oauth 2.0] 要求模組。
 
-1. 新增 [!UICONTROL HTTP] >[!UICONTROL 進行OAuth 2.0呼叫] 模組至您的情境。
+1. 新增 [!UICONTROL HTTP] > [!UICONTROL 進行OAuth 2.0呼叫] 模組至您的情境。
 1. 按一下 **[!UICONTROL 新增]** 在 [!UICONTROL 連線] 欄位。
 1. 依照以下方式設定連線欄位：
 
@@ -156,7 +157,7 @@ ht-degree: 0%
      </tr> 
      <tr> 
       <td role="rowheader">[！UICONTROL使用者端密碼]</td> 
-      <td>輸入您在步驟2產生的[！UICONTROL應用程式密碼] <a href="#register-workfront-fusion-in-the-microsoft-application-registration-portal" class="MCXref xref">註冊 [!DNL Workfront Fusion] 在 [!DNL Microsoft Application Registration Portal]</a>.</td> 
+      <td>輸入您在步驟3產生的[！UICONTROL應用程式密碼] <a href="#register-workfront-fusion-in-the-microsoft-application-registration-portal" class="MCXref xref">註冊 [!DNL Workfront Fusion] 在 [!DNL Microsoft Application Registration Portal]</a>.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">[！UICONTROL Authorize引數]</td> 
