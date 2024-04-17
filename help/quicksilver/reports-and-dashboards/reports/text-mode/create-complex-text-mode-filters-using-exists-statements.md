@@ -6,7 +6,7 @@ description: 您可以使用EXISTS陳述式來建立複雜的文字模式篩選�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 106f7c9d-46cc-46c5-ae34-93fd13a36c14
-source-git-commit: 09492b2657aaf599bb31a19329d5de23791b66ec
+source-git-commit: 6b746b3cdd0fa38607ba3230d44e1b9f3f12b6d6
 workflow-type: tm+mt
 source-wordcount: '2649'
 ht-degree: 0%
@@ -163,7 +163,7 @@ ht-degree: 0%
 
    如需使用上述欄位的範例，請參閱 [範例1：依Portfolio擁有者名稱篩選問題](#example-1-filter-for-issues-by-portfolio-owner-name) 一節。
 
-1. 按一下 **儲存篩選器**.
+1. 按一下「**儲存篩選器**」。
 
 ## 為遺失的物件建立複雜文字模式篩選器
 
@@ -209,7 +209,7 @@ ht-degree: 0%
 
    如需有關未與自訂Forms相關聯之自訂欄位的報告範例，請參閱 [範例2：篩選缺少的物件：未出現在任何自訂表單中的自訂欄位](#example-2-filter-for-missing-objects-custom-fields-that-do-not-appear-in-any-custom-forms) 一節。
 
-1. 按一下 **儲存篩選器**.
+1. 按一下「**儲存篩選器**」。
 
 ## 橫跨物件階層中多個層級的文字模式篩選器範例
 
@@ -229,7 +229,9 @@ ht-degree: 0%
 
    `EXISTS:A:$$OBJCODE=<Object code of the Linking Object>`
 
-   `EXISTS:A:<Linking Field on the Linking Object>=FIELD:<Linking Field displayed on the Original Object><br>EXISTS:A:<Target Object>:<Target Field>=<Your value for the Target Field>`
+   `EXISTS:A:<Linking Field on the Linking Object>=FIELD:<Linking Field displayed on the Original Object>`
+
+   `EXISTS:A:<Target Object>:<Target Field>=<Your value for the Target Field>`
 
 1. 將下列程式碼貼入 **設定報告的篩選規則** 區域以取代上述一般程式碼：
 
@@ -249,7 +251,7 @@ ht-degree: 0%
    >* 原始物件上顯示的連結欄位是projectID，而連結欄位是ID。
 
 1. 將上一個陳述式中目標欄位(ownerID)的值取代為您環境中的使用者ID。
-1. 按一下 **儲存篩選器**.
+1. 按一下「**儲存篩選器**」。
 
 ### 範例2：篩選缺少的物件：未出現在任何自訂表單中的自訂欄位 {#example-2-filter-for-missing-objects-custom-fields-that-do-not-appear-in-any-custom-forms}
 
@@ -288,7 +290,7 @@ ht-degree: 0%
    >* 連結物件的欄位是parameterID，因為parameterID同時存在於連結物件表格和目標物件表格中。
    >* 在原始物件上顯示的連結欄位是ID （類別引數的）。
 
-1. 按一下 **儲存篩選器**.
+1. 按一下「**儲存篩選器**」。
 
 ### 範例3：篩選缺少的物件：在特定時段內未記錄時間的使用者 {#example-3-filter-for-missing-objects-users-who-did-not-log-time-for-a-certain-period-of-time}
 
@@ -321,7 +323,7 @@ ht-degree: 0%
    >* 存在:A:entryDate陳述式是指定義Target物件(Hour)的欄位，並使用與一般篩選陳述式相同的語法。 這可確保只顯示在特定時段（在此例中為上一週）未記錄時間的使用者。
    >* NOTEXISTS修飾元指出我們正在尋找報表物件（使用者）不存在的專案（小時）。
 
-1. 按一下 **儲存篩選器**.
+1. 按一下「**儲存篩選器**」。
 
 ### 範例4：依多個欄位篩選：依「Portfolio擁有者名稱」和「Portfolio對齊計分卡ID」的任務 {#example-4-filter-by-multiple-fields-tasks-by-portfolio-owner-name-and-portfolio-alignment-scorecard-id}
 
@@ -360,4 +362,4 @@ ht-degree: 0%
    >* 原始物件上顯示的連結欄位是projectID。
    >* 以您環境中的使用者ID取代ownerID。
 
-1. 按一下 **儲存篩選器**.
+1. 按一下「**儲存篩選器**」。
