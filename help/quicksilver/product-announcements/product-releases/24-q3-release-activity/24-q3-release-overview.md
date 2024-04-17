@@ -5,10 +5,10 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 372aa2c2-5deb-49da-aadc-6e870bbd083a
-source-git-commit: c50e59af57a6ba962c57f095350a75cfd5a7a996
+source-git-commit: 90817ecaee73ea357790a690ff6cdb792f36a533
 workflow-type: tm+mt
-source-wordcount: '496'
-ht-degree: 1%
+source-wordcount: '660'
+ht-degree: 0%
 
 ---
 
@@ -35,6 +35,68 @@ ht-degree: 1%
 ## Adobe Workfront增強功能
 
 * [其他增強功能](#other-enhancements)
+* [專案增強功能](#project-enhancements)
+
+### 專案增強功能
+
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 50%;" />
+            <tbody>
+                <tr>
+                    <td>
+                        <p><span class="bold">功能</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">發行日期</span>
+                        </p>
+                    </td>
+                 </tr>
+                 <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-project-enhancements.md" class="MCXref xref" xrefformat="{para}">已將更相關的指派新增至「新任務」工作流程</a></p>
+                        <!-- <p>[!BADGE In production for Fast Release ]{type=Positive}</p> -->
+                        <p>將任務新增至專案和專案任務清單時，我們已將相同功能新增至「新增任務」方塊的「工作總攬」欄位，以提供更相關的智慧指派。</p>
+                    </td>
+                    <td><p><b>將於下列日期提供：</b></p>
+                        <ul>
+                            <li>
+                                <p>預覽版本： 2024年2月13日</p>
+                            </li>
+                            <li>
+                                <p>快速發行生產：24.3版（2024年3月14日）</p>
+                                <p><span style="color: #ff0000;">此功能已於2024年3月18日從快速發行客戶的生產中移除。</span></p>
+                            </li>
+                            <li>
+                                <p>每季發行的生產：待定</p>
+                            </li>
+                        </ul>
+                    </td>
+                 </tr>
+                 <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-project-enhancements.md" class="MCXref xref" xrefformat="{para}">更相關的智慧指派</a></p>
+                        <!-- <p>[!BADGE In production for Fast Release ]{type=Positive}</p> -->
+                        <p>我們已變更Workfront用來計算及建議智慧型任務指派的演演算法。 新演演算法適用於Workfront中指派任務的以下區域：任務清單、任務標題中的「工作」區域、「首頁」和「摘要」面板。</p>
+                    </td>
+                    <td><p><b>將於下列日期提供：</b></p>
+                        <ul>
+                            <li>
+                                <p>預覽版本： 2023年12月21日</p>
+                            </li>
+                            <li>
+                                <p>快速發行生產：24.3版（2024年3月14日）</p>
+                                <p><span style="color: #ff0000;">此功能已於2024年3月18日從快速發行客戶的生產中移除。</span></p>
+                            </li>
+                            <li>
+                                <p>每季發行的生產：待定</p>
+                            </li>
+                        </ul>
+                    </td>
+                 </tr>
+           </tbody>
+        </table>
 
 ### 其他增強功能
 
@@ -72,6 +134,8 @@ ht-degree: 1%
         </table>   
            </tbody>
         </table>
+
+
 
 ## 公告
 

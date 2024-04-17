@@ -3,9 +3,9 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文件、教學課程和其他資源，了解如何在您的組織中實施並有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: 97231a6021aa4e897059063293e649f45dc9908d
+source-git-commit: 77fa441ab01407142efa4ac3afe9f8f35406023c
 workflow-type: tm+mt
-source-wordcount: '14149'
+source-wordcount: '14158'
 ht-degree: 1%
 
 ---
@@ -21,6 +21,7 @@ ht-degree: 1%
       * [準備Adobe Workfront的季度發行](product-announcements/product-releases/release-readiness.md)
       * 2024年第3季發行 {#release-24-q3}
          * [2024年第3季版本總覽](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md)
+         * [2024年第3季專案增強功能](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-project-enhancements.md)
          * [2024年第3季度發佈時間範圍內的外觀與感覺更新](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-look-and-feel-updates.md)
       * 2024年第2季發行 {#release-24-q2}
          * [2024年第2季版本總覽](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md)
@@ -1121,6 +1122,7 @@ ht-degree: 1%
       * [檢查檔案儲存限制](documents/managing-documents/check-document-storage.md)
       * [刪除文件](documents/managing-documents/delete-documents.md)
       * [從剪貼簿貼上影像](documents/managing-documents/paste-image-clipboard.md)
+      * [Workfront檔案詳細資料中的AddBuilder](/help/quicksilver/documents/managing-documents/app-builder-doc-details.md)
    * 組織檔案 {#organize-documents}
       * [組織檔案](documents/organizing-documents/organize-documents.md)
       * [建立檔案資料夾](documents/organizing-documents/create-documents-folder.md)
