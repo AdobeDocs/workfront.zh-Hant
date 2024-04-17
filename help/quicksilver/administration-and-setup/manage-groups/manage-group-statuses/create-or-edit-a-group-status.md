@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 75018e0e-ff74-4afb-9a99-34bbb39b6e14
-source-git-commit: ba11f324f6ad68f841bf4266e5eb27f59e25ddae
+source-git-commit: 0afd578ebaa55d911c04a1d08fbcadddc1d05bbc
 workflow-type: tm+mt
 source-wordcount: '1345'
 ht-degree: 1%
@@ -172,3 +172,4 @@ ht-degree: 1%
    狀態會變暗，且不再對該群組中的所有使用者可見。
 
 1. 重複步驟3到5以隱藏自訂狀態，不讓任何不需要該狀態的其他群組看到。
+
