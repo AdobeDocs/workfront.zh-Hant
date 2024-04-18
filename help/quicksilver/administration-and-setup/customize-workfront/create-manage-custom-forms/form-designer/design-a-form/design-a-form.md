@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: df6b1e4b362807025f3edb5298e8445c0d44ec69
+source-git-commit: d0bbb51b3f12c7f134e045d9b62814c0ed0ffb73
 workflow-type: tm+mt
-source-wordcount: '6018'
+source-wordcount: '6042'
 ht-degree: 4%
 
 ---
@@ -529,9 +529,9 @@ ht-degree: 4%
 
 >[!NOTE]
 >
->Document或User物件沒有外部查閱功能。
->
->儀表板目前不支援來自自訂表單的外部查閱欄位。 您無法內嵌編輯欄位值，而且該欄位值在儀表板中可能無法正確顯示。
+>* Document或User物件沒有外部查閱功能。
+>* 儀表板目前不支援來自自訂表單的外部查閱欄位。 您無法內嵌編輯欄位值，而且該欄位值在儀表板中可能無法正確顯示。 （畫布儀表板支援外部查詢欄位。）
+>* 外部查詢欄位可在清單中使用，除非該欄位與其他欄位具有相依性。
 
 若要新增外部查詢：
 
