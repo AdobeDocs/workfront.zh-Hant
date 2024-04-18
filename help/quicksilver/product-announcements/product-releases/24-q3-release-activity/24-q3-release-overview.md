@@ -5,7 +5,7 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 372aa2c2-5deb-49da-aadc-6e870bbd083a
-source-git-commit: 90817ecaee73ea357790a690ff6cdb792f36a533
+source-git-commit: a1d43c76d4737960f926c07df86065a40b87d6ef
 workflow-type: tm+mt
 source-wordcount: '660'
 ht-degree: 0%
@@ -34,8 +34,50 @@ ht-degree: 0%
 
 ## Adobe Workfront增強功能
 
-* [其他增強功能](#other-enhancements)
+<!--* [Administrator enhancements](#administrator-enhancements)-->
 * [專案增強功能](#project-enhancements)
+* [其他增強功能](#other-enhancements)
+
+<!--
+### Administrator enhancements
+
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 50%;" />
+            <tbody>
+                <tr>
+                    <td>
+                        <p><span class="bold">Feature</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">Release dates</span>
+                        </p>
+                    </td>
+                 </tr>
+                 <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-administrator-enhancements.md">Multi-select dropdown field type available on the form designer</a></p>
+                        [!BADGE New in Preview ]{type=Negative}
+                        <p>To help you define dropdown fields more easily, we have added the Multi-Select Dropdown field to the custom form designer. This field type allows users to choose more than one option from a dropdown list.</p>
+                    </td>
+                    <td><p><b>Available on these dates:</b></p>
+                        <ul>
+                            <li>
+                                <p>Preview release: April 18, 2024</p>
+                            </li>
+                            <li>
+                                <p>Production for fast release: With the 24.5 release (May 2024)</p>
+                            </li>
+                            <li>
+                                <p>Production for quarterly release: With the 24.7 release (July 2024)</p>
+                            </li>
+                        </ul>
+                    </td>
+                 </tr>
+           </tbody>
+        </table>
+-->
 
 ### 專案增強功能
 
