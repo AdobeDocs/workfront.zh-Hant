@@ -12,9 +12,9 @@ hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: fe213fe7-5bb8-479c-926b-761cbdd7ba4e
-source-git-commit: f65fbe7ceab19cee75aa0346c389907707c47c8b
+source-git-commit: 92a7a2df142d7736417b903949a5a667cff53913
 workflow-type: tm+mt
-source-wordcount: '401'
+source-wordcount: '557'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->若要安裝套件，您必須登入要安裝套件的環境。 這是您要複製物件的環境 **至**.
+>若要安裝套件，您必須登入要安裝套件的環境。 這是您複製物件的環境 **至**.
 
 1. 前往您要安裝套件的環境。
 1. 按一下 **[!UICONTROL 主要功能表]** 圖示 ![主要功能表](/help/_includes/assets/main-menu-icon.png) 在Adobe Workfront的右上角，或（如果有的話）按一下 **[!UICONTROL 主要功能表]** 圖示 ![主要功能表](/help/_includes/assets/main-menu-icon-left-nav.png) 然後按一下「 」 **[!UICONTROL 設定]** ![「設定」圖示](/help/_includes/assets/gear-icon-setup.png).
@@ -38,7 +38,7 @@ ht-degree: 0%
 
 ## 衝突
 
-當屬於安裝套裝軟體的物件已經存在於目標環境中時，就會發生衝突。 發生此情況時，您可以選取如何解決衝突。 衝突會在物件層級上解決。
+當屬於安裝套裝軟體一部分的物件與目標環境中已存在的物件同名時，就會發生衝突。 發生此情況時，您可以選取如何解決衝突。 衝突會在物件層級上解決。
 
 您可以按一下每個物件型別旁的下拉式清單來檢視衝突。 衝突會顯示在「衝突」欄中。
 
@@ -47,23 +47,31 @@ ht-degree: 0%
 * **以新名稱建立**：在目標環境中建立新物件。 如果物件存在於目標環境中，您可以建立具有新名稱的新物件。 如果目標環境中不存在該物件，您可以用新名稱或物件在封裝中的名稱來建立物件。
 * **使用現有**：未安裝套件中的物件，且目標環境中已存在的物件未變更。
 * **覆寫**：套件中的物件會取代目標環境中的現有物件。
+
+  即使未偵測到衝突，您也可以選擇要覆寫的物件。
+
+  有關覆寫如何影響父物件和子物件的詳細資訊，請參閱
 <!--
 * Do not use: The object in the package is not installed in the target environment. If you select Do not use, an error message will appear detailing how this choice will affect other objects or fields.
 -->
 
 預設值為 `Create new` 如果物件不存在於目標環境中，且 `Use existing` 如果物件確實存在於目標環境中。 您可以按一下「 」，還原為預設的對應 **重設為預設對應**.
 
+## 覆寫父物件和子物件
 
+推進封裝中的某些物件可能有子物件。 例如，專案（父項）具有任務（子項）。 覆寫父物件時，子物件的處理方式如下：
 
-<!--
-## Collisions
+* 同時存在於封裝和目標中的子物件將會在目標中更新以符合封裝。
+* 將會建立存在於封裝中但不存在於目標的子物件。
+* 存在於目標中但不存在於封裝中的子物件將維持不變。
 
-A collision occurs when <!--???--.
+此功能會影響下列父物件和子物件：
 
-In Workfront, a potential collision is marked with a blue dot. You can select 
+| 父物件 | 子物件 |
+|---|---|
+| 專案 | 任務<br>QueueDef （佇列定義）<br>路由規則 |
+| 範本 | 範本任務<br>QueueDef （佇列定義）<br>路由規則 |
+| 引數（自訂表單欄位） | ParameterOption （自訂表單欄位選項） |
+| 行事曆資訊 | 行事曆區段 |
+| QueueDef （佇列定義） | QueueTopicGroup<br>佇列主題 |
 
-You can select whether to show all package contents, or collisions only.
-
-## Comparison tool
-
--->

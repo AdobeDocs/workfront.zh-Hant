@@ -12,9 +12,9 @@ hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: 8b4c04f5-f519-44e9-8429-0ce80c2d7c5b
-source-git-commit: 7f6f569f5380f51494e5051443570b186b443948
+source-git-commit: 0f760710ec7ec2029c37377fc9e732870d2ca575
 workflow-type: tm+mt
-source-wordcount: '915'
+source-wordcount: '942'
 ht-degree: 1%
 
 ---
@@ -122,6 +122,10 @@ ht-degree: 1%
  <col> 
  <col> 
  <tbody> 
+  <tr> 
+   <td>未組裝</td> 
+   <td><p>此狀態會自動指派，代表已儲存但尚未組裝的封裝。 </p><p>客戶無法直接設定此狀態。</p></td> 
+  </tr> 
   <tr> 
    <td>組裝</td> 
    <td><p>組裝物件時，會自動指定此狀態。 </p><p>組合是指識別要包含在封裝中的物件和子物件，並將這些物件及其資料加入封裝的自動化程式。</p><p>客戶無法直接設定此狀態。</p></td> 
