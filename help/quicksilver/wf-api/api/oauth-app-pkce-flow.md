@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 61fe77b6-c6d7-4f23-bfb6-617bccaa1989
-source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
+source-git-commit: 6f041459caf040846ffdec5bc75e9d74c99e318b
 workflow-type: tm+mt
-source-wordcount: '792'
+source-wordcount: '811'
 ht-degree: 0%
 
 ---
@@ -49,6 +49,10 @@ PKCE流程包含下列步驟。 本節中的步驟僅供參考。 若要執行�
 
 如需建立OAuth2應用程式的指示，請參閱 [使用PKCE建立OAuth2單頁網頁應用程式](../../administration-and-setup/configure-integrations/create-oauth-application.md#create-an-oauth2-single-page-web-application-using-pkce) 在 [為Workfront整合建立OAuth2應用程式](../../administration-and-setup/configure-integrations/create-oauth-application.md)
 
+>[!NOTE]
+>
+>您一次最多可以有十個OAuth2應用程式。
+
 
 ## 建立程式碼交換的校訂金鑰
 
@@ -82,7 +86,7 @@ PKCE產生器程式碼會建立類似下列的輸出：
 
 >[!INFO]
 >
->**範例:**
+>**範例：**
 >
 >```
 >{
@@ -99,7 +103,7 @@ PKCE產生器程式碼會建立類似下列的輸出：
 
 >[!INFO]
 >
->**範例:**
+>**範例：**
 >
 >
 >```
@@ -128,7 +132,7 @@ PKCE產生器程式碼會建立類似下列的輸出：
 
 >[!INFO]
 >
->**範例:**
+>**範例：**
 >
 >```
 >/token \\
@@ -159,7 +163,7 @@ PKCE產生器程式碼會建立類似下列的輸出：
 
 >[!INFO]
 >
->**範例:**
+>**範例：**
 >
 >```
 >{
@@ -177,7 +181,7 @@ PKCE產生器程式碼會建立類似下列的輸出：
 
 >[!INFO]
 >
->**範例:**
+>**範例：**
 >
 >```
 >/attask/api/<api version>/proj/search \\
@@ -190,7 +194,7 @@ PKCE產生器程式碼會建立類似下列的輸出：
 
 >[!INFO]
 >
->**範例:**
+>**範例：**
 >
 >```
 >/token \\

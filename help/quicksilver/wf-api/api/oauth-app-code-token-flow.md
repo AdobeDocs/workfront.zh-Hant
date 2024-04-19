@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: a1ab60c4-4255-4d80-87f1-f36d325254c2
-source-git-commit: 293b7354e4549e51d78ad1aa75927a21d9044c43
+source-git-commit: 6f041459caf040846ffdec5bc75e9d74c99e318b
 workflow-type: tm+mt
-source-wordcount: '695'
+source-wordcount: '709'
 ht-degree: 0%
 
 ---
@@ -28,6 +28,10 @@ ht-degree: 0%
 ## 建立Oauth2應用程式
 
 如需建立OAuth2應用程式的指示，請參閱 [使用使用者認證建立OAuth2應用程式（授權代碼流程）](../../administration-and-setup/configure-integrations/create-oauth-application.md#create3) 在 [為Workfront整合建立OAuth2應用程式](../../administration-and-setup/configure-integrations/create-oauth-application.md)
+
+>[!NOTE]
+>
+>您一次最多可以有十個OAuth2應用程式。
 
 ## 連結至授權使用者頁面
 

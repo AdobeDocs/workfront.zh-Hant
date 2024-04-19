@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 4bd56fe6-1f36-4c36-82cd-96de748ad680
-source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
+source-git-commit: 6f041459caf040846ffdec5bc75e9d74c99e318b
 workflow-type: tm+mt
-source-wordcount: '477'
+source-wordcount: '497'
 ht-degree: 0%
 
 ---
@@ -25,6 +25,10 @@ ht-degree: 0%
 ## 建立Oauth2應用程式
 
 如需建立OAuth2應用程式的指示，請參閱 [使用伺服器驗證（JWT流程）建立OAuth2應用程式](../../administration-and-setup/configure-integrations/create-oauth-application.md#create2) 在 [為Workfront整合建立OAuth2應用程式](../../administration-and-setup/configure-integrations/create-oauth-application.md)
+
+>[!NOTE]
+>
+>您一次最多可以有十個OAuth2應用程式。
 
 ## 建立公開金鑰憑證
 
@@ -55,15 +59,15 @@ JWT必須經過簽署並以base-64編碼，才能納入存取請求中。 JWT程
  <tbody> 
   <tr> 
    <td role="rowheader">費用</td> 
-   <td> <p>必要. 有效期引數是測量01/01/1970 GMT以來絕對時間的必要引數。 您必須確保到期時間晚於問題時間。 在此時間之後，JWT就不再有效。 </p> <p>注意：建議您使用時間非常短的權杖（幾分鐘），以便在交換存取權杖後不久過期。 每次需要新的存取權杖時，都會簽署和交換一個JWT。 這是更安全的方法。 我們不建議視需要重複使用可取得存取權杖的較長存留期權杖。</p> </td> 
+   <td> <p>必填。 有效期引數是測量01/01/1970 GMT以來絕對時間的必要引數。 您必須確保到期時間晚於問題時間。 在此時間之後，JWT就不再有效。 </p> <p>注意：建議您使用時間非常短的權杖（幾分鐘），以便在交換存取權杖後不久過期。 每次需要新的存取權杖時，都會簽署和交換一個JWT。 這是更安全的方法。 我們不建議視需要重複使用可取得存取權杖的較長存留期權杖。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">iss</td> 
-   <td>必要. 簽發者是您來自OAuth2應用程式詳細資料的客戶ID。</td> 
+   <td>必填。 簽發者是您來自OAuth2應用程式詳細資料的客戶ID。</td> 
   </tr> 
   <tr> 
    <td role="rowheader">sub</td> 
-   <td>必要. 主旨是在設定中建立公開金鑰的使用者ID。</td> 
+   <td>必填。 主旨是在設定中建立公開金鑰的使用者ID。</td> 
   </tr> 
  </tbody> 
 </table>
