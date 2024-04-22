@@ -6,9 +6,9 @@ description: 依預設，新展示板包含三欄。 您可以新增更多欄、
 author: Lisa
 feature: Agile
 exl-id: a736cdfe-5ddc-4bf4-82a1-a78d16c0d70b
-source-git-commit: ade2551a82f28a41816dbf956f3a216cca07034e
+source-git-commit: 99eaafe4b2143f0e29bf677904c1caa8a19d5192
 workflow-type: tm+mt
-source-wordcount: '1000'
+source-wordcount: '1149'
 ht-degree: 0%
 
 ---
@@ -102,6 +102,15 @@ ht-degree: 0%
 1. 按一下 **[!UICONTROL 隱藏設定]** 以關閉 [!UICONTROL 設定] 面板。
 
 ## 定義欄設定和原則
+
+欄原則包括自動更新欄位值，以及設定進行中的工作限制。
+
+更新狀態的原則會自動對卡片和欄生效：
+
+* 當卡片移至具有原則的欄時，卡片狀態會更新為原則中定義的狀態。 這同時適用於ad hoc和連線的卡片。
+* 當卡片上的臨機操作或已連線卡片狀態更新以符合原則中的欄狀態時，或連線卡片狀態更新到Workfront中的其他位置時，卡片會自動移動到該欄。 此外，如果卡片上的自訂狀態符合指派給欄的系統狀態，則卡片會移至該欄。
+
+如果卡片狀態不符合任何現有欄原則中設定的任何狀態，則卡片將保留在放置它的欄中。
 
 >[!NOTE]
 >
