@@ -10,10 +10,10 @@ author: Becky
 feature: Workfront Fusion
 recommendations: noDisplay, noCatalog
 exl-id: 7075a649-ab0c-4dfc-b726-c5702c90b457
-source-git-commit: 33f2a721aa6bc246b27e5f45107619346512318f
+source-git-commit: ec23659dc85b77c61ef5575e3605d0cf396c4e1a
 workflow-type: tm+mt
-source-wordcount: '224'
-ht-degree: 20%
+source-wordcount: '223'
+ht-degree: 19%
 
 ---
 
@@ -41,7 +41,6 @@ ht-degree: 20%
 * [[!DNL Adobe Campaign Classic] 模組](../../workfront-fusion/apps-and-their-modules/adobe-campaign-classic-connector.md)
 * [[!DNL Adobe Creative Cloud Libraries] 模組](../../workfront-fusion/apps-and-their-modules/creative-cloud-libraries-modules.md)
 * [[!DNL Adobe Experience Manager Assets] 模組](../../workfront-fusion/apps-and-their-modules/aem-assets-modules.md)
-* [[!DNL Adobe Journey Optimizer] 模組](../../workfront-fusion/apps-and-their-modules/adobe-journey-optimizer-modules.md)
 * [Adobe Lightroom模組](/help/quicksilver/workfront-fusion/apps-and-their-modules/adobe-lightroom-modules.md)
 * [Adobe規劃模組](/help/quicksilver/workfront-fusion/apps-and-their-modules/workfront-planning-modules.md)
 * [[!DNL Adobe PDF Services] 模組](../../workfront-fusion/apps-and-their-modules/pdf-modules.md)

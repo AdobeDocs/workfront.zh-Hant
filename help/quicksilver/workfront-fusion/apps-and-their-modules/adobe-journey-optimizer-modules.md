@@ -9,83 +9,87 @@ description: 在 [!DNL Adobe Workfront Fusion] 情境中，您可以使用自動
 author: Becky
 feature: Workfront Fusion
 exl-id: 2c1aea46-edbf-42a3-a6e9-f8aea042a48d
-source-git-commit: 50078aec71a4173a67c386ae5a8a4b5ba6cf3ade
+hide: true
+hidefromtoc: true
+source-git-commit: ec23659dc85b77c61ef5575e3605d0cf396c4e1a
 workflow-type: tm+mt
-source-wordcount: '1602'
+source-wordcount: '30'
 ht-degree: 0%
 
 ---
 
 # [!DNL Adobe Journey Optimizer] 模組
 
+>[!IMPORTANT]
+>
+>此聯結器已棄用。
+
 <!--
-Becky: pull from main, add to TOCs, then push to merge.
--->
 
-在 [!DNL Adobe Workfront Fusion] 情境中，您可以使用自動化工作流程 [!DNL Adobe Journey Optimizer]，並連結至多個協力廠商應用程式和服務。 [!DNL Adobe Journey Optimizer] 模組可讓您建立、讀取、更新或刪除記錄，或執行自訂API呼叫至 [!DNL Adobe Journey Optimizer] API。
+In an [!DNL Adobe Workfront Fusion] scenario, you can automate workflows that use [!DNL Adobe Journey Optimizer], as well as connect it to multiple third-party applications and services. [!DNL Adobe Journey Optimizer] modules allow you to create, read, update, or delete records, or perform a custom API call to the [!DNL Adobe Journey Optimizer] API.
 
 
-如果您需要有關建立情境的指示，請參閱 [建立情境](../../workfront-fusion/scenarios/create-a-scenario.md).
+If you need instructions on creating a scenario, see [Create a scenario](../../workfront-fusion/scenarios/create-a-scenario.md).
 
-如需模組的相關資訊，請參閱 [中的模組 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/modules.md).
+For information about modules, see [Modules in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/modules.md).
 
-## 存取需求
+## Access requirements
 
-您必須具有下列存取權才能使用本文中的功能：
+You must have the following access to use the functionality in this article:
 
 <table>
   <col/>
   <col/>
   <tbody>
     <tr>
-      <td role="rowheader">[!DNL Adobe Workfront] 計畫*</td>
+      <td role="rowheader">[!DNL Adobe Workfront] plan*</td>
       <td>
-        <p>[！UICONTROL Pro]或更高版本</p>
+        <p>[!UICONTROL Pro] or higher</p>
       </td>
     </tr>
     <tr>
-      <td role="rowheader">[!DNL Adobe Workfront] 授權*</td>
+      <td role="rowheader">[!DNL Adobe Workfront] license*</td>
       <td>
-        <p>[！UICONTROL計畫]，[！UICONTROL工作]</p>
+        <p>[!UICONTROL Plan], [!UICONTROL Work]</p>
       </td>
     </tr>
     <tr>
-      <td role="rowheader">[!DNL Adobe Workfront Fusion] 授權**</td>
+      <td role="rowheader">[!DNL Adobe Workfront Fusion] license**</td>
       <td>
-   <p>目前授權需求：否 [!DNL Workfront Fusion] 授權需求。</p>
-   <p>或</p>
-   <p>舊版授權需求： [！UICONTROL [!DNL Workfront Fusion] 適用於工作自動化與整合] </p>
+   <p>Current license requirement: No [!DNL Workfront Fusion] license requirement.</p>
+   <p>Or</p>
+   <p>Legacy license requirement: [!UICONTROL [!DNL Workfront Fusion] for Work Automation and Integration] </p>
    </td>
     </tr>
     <tr>
-      <td role="rowheader">產品</td>
+      <td role="rowheader">Product</td>
       <td>
-   <p>目前產品需求：如果您有[！UICONTROL Select]或[！UICONTROL Prime] [!DNL Adobe Workfront] 計畫，您的組織必須購買 [!DNL Adobe Workfront Fusion] 以及 [!DNL Adobe Workfront] 以使用本文所述的功能。 [!DNL Workfront Fusion] 包含在[！UICONTROL Ultimate]中 [!DNL Workfront] 計畫。</p>
-   <p>或</p>
-   <p>舊版產品需求：貴組織必須購買 [!DNL Adobe Workfront Fusion] 以及 [!DNL Adobe Workfront] 以使用本文所述的功能。</p>
+   <p>Current product requirement: If you have the [!UICONTROL Select] or [!UICONTROL Prime] [!DNL Adobe Workfront] Plan, your organization must purchase [!DNL Adobe Workfront Fusion] as well as [!DNL Adobe Workfront] to use functionality described in this article. [!DNL Workfront Fusion] is included in the [!UICONTROL Ultimate] [!DNL Workfront] plan.</p>
+   <p>Or</p>
+   <p>Legacy product requirement: Your organization must purchase [!DNL Adobe Workfront Fusion] as well as [!DNL Adobe Workfront] to use functionality described in this article.</p>
    </td>
     </tr>
   </tbody>
 </table>
 
 
-若要瞭解您擁有的計畫、授權型別或存取權，請聯絡您的 [!DNL Workfront] 管理員。
+To find out what plan, license type, or access you have, contact your [!DNL Workfront] administrator.
 
-有關的資訊 [!DNL Adobe Workfront Fusion] 授權，請參閱 [[!DNL Adobe Workfront Fusion] 授權](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+For information on [!DNL Adobe Workfront Fusion] licenses, see [[!DNL Adobe Workfront Fusion] licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
-## 先決條件
+## Prerequisites
 
-開始使用 [!DNL Adobe Journey Optimizer] 聯結器時，您必須確定符合下列先決條件：
+Before you can use the [!DNL Adobe Journey Optimizer] connector, you must ensure that the following prerequisites are met:
 
-* 您必須擁有使用中 [!DNL Adobe Journey Optimizer] 帳戶。
+* You must have an active [!DNL Adobe Journey Optimizer] account.
 
-## 建立與的連線 [!DNL Adobe Journey Optimizer]
+## Create a connection to [!DNL Adobe Journey Optimizer]
 
-若要為建立連線，請執行下列步驟： [!DNL Adobe Journey Optimizer] 模組：
+To create a connection for your [!DNL Adobe Journey Optimizer] modules:
 
-1. 在任何 [!DNL Adobe Journey Optimizer] 模組，按一下 **[!UICONTROL 新增]** ，位於「連線」方塊旁。
+1. In any [!DNL Adobe Journey Optimizer] module, click **[!UICONTROL Add]** next to the Connection box.
 
-1. 填寫下列欄位：
+1. Fill in the following fields:
 
    <table style="table-layout:auto"> 
       <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column1">
@@ -94,499 +98,499 @@ Becky: pull from main, add to TOCs, then push to merge.
       </col>
       <tbody>
         <tr>
-          <td role="rowheader">[！UICONTROL連線名稱]</td>
+          <td role="rowheader">[!UICONTROL Connection name]</td>
           <td>
-            <p>輸入此連線的名稱。</p>
+            <p>Enter a name for this connection.</p>
           </td>
         </tr>
         <tr>
-          <td role="rowheader">[！UICONTROL使用者端ID]</td>
-          <td>輸入您的 [!DNL Adobe] [！UICONTROL使用者端識別碼]。 您可在的[！UICONTROL憑證詳細資料]區段中找到 [!DNL Adobe Developer Console].</td>
+          <td role="rowheader">[!UICONTROL Client ID]</td>
+          <td>Enter your [!DNL Adobe] [!UICONTROL Client ID]. This can be found in the [!UICONTROL Credentials details] section of the [!DNL Adobe Developer Console].</td>
         </tr>
         <tr>
-          <td role="rowheader">[！UICONTROL使用者端密碼]</td>
-          <td>輸入您的 [!DNL Adobe] [！UICONTROL使用者端密碼]。 您可在的[！UICONTROL憑證詳細資料]區段中找到 [!DNL Adobe Developer Console].
+          <td role="rowheader">[!UICONTROL Client Secret]</td>
+          <td>Enter your [!DNL Adobe] [!UICONTROL Client Secret]. This can be found in the [!UICONTROL Credentials details] section of the [!DNL Adobe Developer Console].
         </tr>
         <tr>
-          <td role="rowheader">[！UICONTROL技術帳戶ID]</td>
-          <td>輸入您的 [!DNL Adobe] [！UICONTROL技術帳戶ID]。 您可在的[！UICONTROL憑證詳細資料]區段中找到 [!DNL Adobe Developer Console].
+          <td role="rowheader">[!UICONTROL Technical account ID]</td>
+          <td>Enter your [!DNL Adobe] [!UICONTROL Technical account ID]. This can be found in the [!UICONTROL Credentials details] section of the [!DNL Adobe Developer Console].
         </tr>
         <tr>
-          <td role="rowheader">[！UICONTROL組織ID]</td>
-          <td>輸入您的 [!DNL Adobe] [！UICONTROL組織識別碼]。 您可在的[！UICONTROL憑證詳細資料]區段中找到 [!DNL Adobe Developer Console].
+          <td role="rowheader">[!UICONTROL Organization ID]</td>
+          <td>Enter your [!DNL Adobe] [!UICONTROL Organization ID]. This can be found in the [!UICONTROL Credentials details] section of the [!DNL Adobe Developer Console].
         </tr>
         <tr>
-          <td role="rowheader">[！UICONTROL中繼範圍]</td>
+          <td role="rowheader">[!UICONTROL Meta scopes]</td>
           <td>
-            輸入連線所需的任何中繼範圍。
+            Enter any meta scopes needed for the connection.
           </td>
         </tr>
         <tr>
-          <td role="rowheader">[！UICONTROL私密金鑰]</td>
+          <td role="rowheader">[!UICONTROL Private key]</td>
           <td>
-            <p>輸入在中建立您的認證時產生的私密金鑰 [!DNL Adobe Developer Console]. </p>
-            <p>若要擷取您的私密金鑰或憑證：</p>
+            <p>Enter the private key that was generated when your credentials were created in the [!DNL Adobe Developer Console]. </p>
+            <p>To extract your private key or certificate:</p>
             <ol>
               <li value="1">
-                <p>按一下 <b>[！UICONTROL Extract]</b>.</p>
+                <p>Click <b>[!UICONTROL Extract]</b>.</p>
               </li>
               <li value="2">
-                <p>選取要解壓縮的檔案型別。</p>
+                <p>Select the type of file you are extracting.</p>
               </li>
               <li value="3">
-                <p>選取包含私密金鑰或憑證的檔案。</p>
+                <p>Select the file that contains the private key or certificate.</p>
               </li>
               <li value="4">
-                <p>輸入檔案的密碼。</p>
+                <p>Enter the password for the file.</p>
               </li>
               <li value="5">
-                <p>按一下 <b>[！UICONTROL儲存]</b> 以擷取檔案並返回連線設定。</p>
+                <p>Click <b>[!UICONTROL Save]</b> to extract the file and return to the connection setup.</p>
               </li>
             </ol>
           </td>
         </tr>
       </tbody>
     </table>
-1. 按一下 **[!UICONTROL 繼續]** 以儲存連線並返回模組。
+1. Click **[!UICONTROL Continue]** to save the connection and return to the module.
 
-## [!DNL Adobe Journey Optimizer] 模組及其欄位
+## [!DNL Adobe Journey Optimizer] modules and their fields
 
-當您設定 [!DNL Adobe Journey Optimizer] 模組， [!DNL Workfront Fusion] 顯示下列欄位。 除了這些以外， [!DNL Adobe Journey Optimizer] 欄位可能會顯示，端視您應用程式或服務中的存取層級等因素而定。 模組中的粗體標題表示必填欄位。
+When you configure [!DNL Adobe Journey Optimizer] modules, [!DNL Workfront Fusion] displays the fields listed below. Along with these, additional [!DNL Adobe Journey Optimizer] fields might display, depending on factors such as your access level in the app or service. A bolded title in a module indicates a required field.
 
-如果您在欄位或函式上方看到對應按鈕，則可以使用它來設定該欄位的變數和函式。 如需詳細資訊，請參閱 [在中將資訊從一個模組對應到另一個模組 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
+If you see the map button above a field or function, you can use it to set variables and functions for that field. For more information, see [Map information from one module to another in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
 
 ![](assets/map-toggle-350x74.png)
 
-* [動作](#actions)
-* [搜尋](#searches)
+* [Actions](#actions)
+* [Searches](#searches)
 
-### 動作
+### Actions
 
-* [[!UICONTROL 建立記錄]](#create-a-record)
-* [[!UICONTROL 進行自訂API呼叫]](#make-a-custom-api-call)
-* [[!UICONTROL 刪除記錄]](#delete-a-record)
-* [[!UICONTROL 更新記錄]](#update-a-record)
+* [[!UICONTROL Create a record]](#create-a-record)
+* [[!UICONTROL Make a custom API call]](#make-a-custom-api-call)
+* [[!UICONTROL Delete a record]](#delete-a-record)
+* [[!UICONTROL Update a record]](#update-a-record)
 
-#### [!UICONTROL 建立記錄]
+#### [!UICONTROL Create a record]
 
-此動作模組會建立位置、決定規則、標籤、個人化優惠、系列或遞補優惠。
+This action module creates a placement, decision rule, tag, personalized offer, collection, or fallback offer.
 
 <table>
   <col/>
   <col/>
   <tbody>
     <tr>
-      <td role="rowheader">[！UICONTROL Connection]</td>
-     <td>有關建立與的連線的指示 [!DNL Adobe Journey Optimizer]，請參閱 <a href="#create-a-connection-to-adobe-journey-optimizer" class="MCXref xref" >建立與的連線 [!DNL Adobe Journey Optimizer]</a> 本文章內容。</td>
+      <td role="rowheader">[!UICONTROL Connection]</td>
+     <td>For instructions on creating a connection to [!DNL Adobe Journey Optimizer], see <a href="#create-a-connection-to-adobe-journey-optimizer" class="MCXref xref" >Create a connection to [!DNL Adobe Journey Optimizer]</a> in this article.</td>
     </tr>
     <tr>
       <td role="rowheader">
-        [！UICONTROL記錄型別]
+        [!UICONTROL Record type]
       </td>
       <td>
-        選取您要建立的記錄型別
+        Select the type of record that you want to create
         <ul>
-        <li><b>[！UICONTROL位置]</b>：繼續至 <a href="#placement-fields" >[！UICONTROL位置]欄位</a>.</li>
-        <li><b>[！UICONTROL決定規則]</b>：繼續至 <a href="#decision-rule-fields" >[！UICONTROL決定規則]欄位</a>.</li>
-        <li><b>[！UICONTROL決定]</b>：繼續至 <a href="#decision-fields" >[！UICONTROL決定]欄位</a>.</li>
-        <li><b>[！UICONTROL標籤]</b>：繼續至 <a href="#tag-fields" >[！UICONTROL標籤]欄位</a>.</li>
-        <li><b>[！UICONTROL集合]</b>：繼續至 <a href="#collection-fields" >[！UICONTROL集合]欄位</a>.</li>
-        <li><b>[！UICONTROL遞補優惠]</b>：繼續至 <a href="#fallback-offer-fields" >[！UICONTROL遞補優惠]欄位</a>.</li>
-        <li><b>[！UICONTROL個人化優惠]</b>：繼續至 <a href="#personalized-offer-fields" >[！UICONTROL個人化優惠]欄位</a>.</li>
+        <li><b>[!UICONTROL Placement]</b>: Continue to <a href="#placement-fields" >[!UICONTROL Placement] fields</a>.</li>
+        <li><b>[!UICONTROL Decision rule]</b>: Continue to <a href="#decision-rule-fields" >[!UICONTROL Decision rule] fields</a>.</li>
+        <li><b>[!UICONTROL Decision]</b>: Continue to <a href="#decision-fields" >[!UICONTROL Decision] fields</a>.</li>
+        <li><b>[!UICONTROL Tag]</b>: Continue to <a href="#tag-fields" >[!UICONTROL Tag] fields</a>.</li>
+        <li><b>[!UICONTROL Collection]</b>: Continue to <a href="#collection-fields" >[!UICONTROL Collection] fields</a>.</li>
+        <li><b>[!UICONTROL Fallback offer]</b>: Continue to <a href="#fallback-offer-fields" >[!UICONTROL Fallback offer] fields</a>.</li>
+        <li><b>[!UICONTROL Personalized offer]</b>: Continue to <a href="#personalized-offer-fields" >[!UICONTROL Personalized offer] fields</a>.</li>
         </ul>
       </td>
     </tr>
   </tbody>
 </table>
 
-##### [!UICONTROL 刊登] 欄位
+##### [!UICONTROL Placement] fields
 
 <table>
   <col/>
   <col/>
   <tbody>
     <tr>
-      <td role="rowheader">[！UICONTROL名稱]</td>
-     <td>輸入或對映位置的名稱。</td>
+      <td role="rowheader">[!UICONTROL Name]</td>
+     <td>Enter or map a name for the placement.</td>
     </tr>
     <tr>
       <td role="rowheader">
-        [！UICONTROL說明]
+        [!UICONTROL Description]
       </td>
-      <td>輸入或對映位置的說明。
+      <td>Enter or map a description for the placement.
       </td>
     </tr>
   </tbody>
 </table>
 
 
-##### [!UICONTROL 決定規則] 欄位
+##### [!UICONTROL Decision rule] fields
 
 <table>
   <col/>
   <col/>
   <tbody>
     <tr>
-      <td role="rowheader">[！UICONTROL名稱]</td>
-     <td>輸入或對應說明規則的名稱。</td>
+      <td role="rowheader">[!UICONTROL Name]</td>
+     <td>Enter or map a name for the description rule.</td>
     </tr>
     <tr>
       <td role="rowheader">
-        [！UICONTROL說明]
+        [!UICONTROL Description]
       </td>
-      <td>輸入或對應決定規則的說明。
+      <td>Enter or map a description for the decision rule.
       </td>
     </tr>
     <tr>
       <td role="rowheader">
-        [！UICONTROL條件]
+        [!UICONTROL Condition]
       </td>
-      <td>輸入或對映決策規則的條件。
+      <td>Enter or map the condition the decision rule.
       </td>
     </tr>
   </tbody>
 </table>
 
-##### [!UICONTROL 決定] 欄位
+##### [!UICONTROL Decision] fields
 
 <table>
   <col/>
   <col/>
   <tbody>
     <tr>
-      <td role="rowheader">[！UICONTROL名稱]</td>
-     <td>輸入或對應說明規則的名稱。</td>
+      <td role="rowheader">[!UICONTROL Name]</td>
+     <td>Enter or map a name for the description rule.</td>
     </tr>
     <tr>
-      <td role="rowheader">[！UICONTROL狀態]</td>
-      <td>選取決定的狀態。
+      <td role="rowheader">[!UICONTROL Status]</td>
+      <td>Select the status for the decision.
       </td>
     </tr>
     <tr>
-      <td role="rowheader">[！UICONTROL開始日期]</td>
-      <td><p>輸入或對應決定的開始日期。</p><p>如需支援的日期格式清單，請參閱 <a href="../../workfront-fusion/mapping/type-coercion.md" class="MCXref xref">輸入強制 [!DNL Adobe Workfront Fusion]</a>.</p>
+      <td role="rowheader">[!UICONTROL Start date]</td>
+      <td><p>Enter or map the start date for the decision.</p><p>For a list of supported date formats, see <a href="../../workfront-fusion/mapping/type-coercion.md" class="MCXref xref">Type coercion in [!DNL Adobe Workfront Fusion]</a>.</p>
       </td>
     </tr>
    <tr>
-      <td role="rowheader">[！UICONTROL結束日期]</td>
-      <td><p>輸入或對應決定的結束日期。</p><p>如需支援的日期格式清單，請參閱 <a href="../../workfront-fusion/mapping/type-coercion.md" class="MCXref xref">輸入強制 [!DNL Adobe Workfront Fusion]</a>.</p>
+      <td role="rowheader">[!UICONTROL End date]</td>
+      <td><p>Enter or map the end date for the decision.</p><p>For a list of supported date formats, see <a href="../../workfront-fusion/mapping/type-coercion.md" class="MCXref xref">Type coercion in [!DNL Adobe Workfront Fusion]</a>.</p>
       </td>
     </tr>
    <tr>
-      <td role="rowheader">[！UICONTROL Placements]</td>
-      <td>選取要新增至此決定的刊登版位
+      <td role="rowheader">[!UICONTROL Placements]</td>
+      <td>Select the placements to add to this decision
       </td>
     </tr>
    <tr>
-      <td role="rowheader">[！UICONTROL集合]</td>
-      <td>選取包含此決定會考慮之優惠的優惠方案集合。
+      <td role="rowheader">[!UICONTROL Collection]</td>
+      <td>Select the offer collection that contains the offers that this decision will consider.
       </td>
     </tr>
    <tr>
-      <td role="rowheader">[！UICONTROL遞補優惠]</td>
-      <td>選取將向不符合此決定規則的客戶呈現的遞補優惠。
+      <td role="rowheader">[!UICONTROL Fallback offer]</td>
+      <td>Select the fallback offer that will be presented to customers that do not match the rules for this decision.
       </td>
     </tr>
   </tbody>
 </table>
 
-##### [!UICONTROL 標籤] 欄位
+##### [!UICONTROL Tag] fields
 
 <table>
   <col/>
   <col/>
   <tbody>
     <tr>
-      <td role="rowheader">[！UICONTROL名稱]</td>
-     <td>輸入或對應標籤的名稱。</td>
+      <td role="rowheader">[!UICONTROL Name]</td>
+     <td>Enter or map a name for the tag.</td>
     </tr>
   </tbody>
 </table>
 
-##### [!UICONTROL 集合] 欄位
+##### [!UICONTROL Collection] fields
 
 <table>
   <col/>
   <col/>
   <tbody>
     <tr>
-      <td role="rowheader">[！UICONTROL名稱]</td>
-     <td>輸入或對映集合的名稱。</td>
+      <td role="rowheader">[!UICONTROL Name]</td>
+     <td>Enter or map a name for the collection.</td>
     </tr>
     <tr>
       <td role="rowheader">
-        [！UICONTROL篩選器型別]
+        [!UICONTROL Filter Type]
       </td>
       <td>
       </td>
     </tr>
     <tr>
       <td role="rowheader">
-        [！UICONTROL Elements]
+        [!UICONTROL Elements]
       </td>
-      <td>選取要包含在集合中的標籤。
+      <td>Select the tags to include in the colelction.
       </td>
     </tr>
   </tbody>
 </table>
 
-##### [!UICONTROL 遞補優惠] 欄位
+##### [!UICONTROL Fallback offer] fields
 
 <table>
   <col/>
   <col/>
   <tbody>
     <tr>
-      <td role="rowheader">[！UICONTROL名稱]</td>
-     <td>輸入或對應遞補優惠的名稱。</td>
+      <td role="rowheader">[!UICONTROL Name]</td>
+     <td>Enter or map a name for the fallback offer.</td>
     </tr>
     <tr>
       <td role="rowheader">
-        [！UICONTROL狀態]
+        [!UICONTROL Status]
       </td>
-      <td> 選取遞補優惠的狀態。
+      <td> Select the status of the fallback offer.
       </td>
     </tr>
     <tr>
       <td role="rowheader">
-        [！UICONTROL位置]
+        [!UICONTROL Placement]
       </td>
-      <td>輸入或對應遞補優惠的位置。
+      <td>Enter or map the placement for the fallback offer.
       </td>
     </tr>
   </tbody>
 </table>
 
-##### [!UICONTROL 個人化優惠] 欄位
+##### [!UICONTROL Personalized offer] fields
 
 <table>
   <col/>
   <col/>
   <tbody>
     <tr>
-      <td role="rowheader">[！UICONTROL名稱]</td>
-     <td>輸入或對應說明規則的名稱。</td>
+      <td role="rowheader">[!UICONTROL Name]</td>
+     <td>Enter or map a name for the description rule.</td>
     </tr>
     <tr>
-      <td role="rowheader">[！UICONTROL狀態]</td>
-      <td>選取決定的狀態。
-      </td>
-    </tr>
-    <tr>
-      <td role="rowheader">位置</td>
-      <td>選取個人化優惠的位置。
+      <td role="rowheader">[!UICONTROL Status]</td>
+      <td>Select the status for the decision.
       </td>
     </tr>
     <tr>
-      <td role="rowheader">[！UICONTROL開始日期]</td>
-      <td><p>輸入或對應個人化優惠方案的開始日期。</p><p>如需支援的日期格式清單，請參閱 <a href="../../workfront-fusion/mapping/type-coercion.md" class="MCXref xref">輸入強制 [!DNL Adobe Workfront Fusion]</a>.</p>
+      <td role="rowheader">Placement</td>
+      <td>Select the placement for the personalized offer.
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL Start date]</td>
+      <td><p>Enter or map the start date for the personalized offer.</p><p>For a list of supported date formats, see <a href="../../workfront-fusion/mapping/type-coercion.md" class="MCXref xref">Type coercion in [!DNL Adobe Workfront Fusion]</a>.</p>
       </td>
     </tr>
    <tr>
-      <td role="rowheader">[！UICONTROL結束日期]</td>
-      <td><p>輸入或對應個人化優惠方案的結束日期。</p><p>如需支援的日期格式清單，請參閱 <a href="../../workfront-fusion/mapping/type-coercion.md" class="MCXref xref">輸入強制 [!DNL Adobe Workfront Fusion]</a>.</p>
+      <td role="rowheader">[!UICONTROL End date]</td>
+      <td><p>Enter or map the end date for the personalized offer.</p><p>For a list of supported date formats, see <a href="../../workfront-fusion/mapping/type-coercion.md" class="MCXref xref">Type coercion in [!DNL Adobe Workfront Fusion]</a>.</p>
       </td>
     </tr>
    <tr>
-      <td role="rowheader">[！UICONTROL決定規則]</td>
-      <td>選取要新增至此個人化優惠的決定規則。
+      <td role="rowheader">[!UICONTROL Decision rules]</td>
+      <td>Select the decision rules to add to this personalized offer.
       </td>
     </tr>
    <tr>
-      <td role="rowheader">[！UICONTROL優先順序]</td>
-      <td>選取此優惠方案的優先順序。 優先順序會影響此選件是否會出現，而非其他選件。
+      <td role="rowheader">[!UICONTROL Priority]</td>
+      <td>Select the priority of this offer. Priority affects whether this offer will be presented rather than another offer.
       </td>
     </tr>
    <tr>
-      <td role="rowheader">[！UICONTROL上限條件約束]</td>
-      <td>輸入或對應此選件出現的次數。
+      <td role="rowheader">[!UICONTROL Capping constraint]</td>
+      <td>Enter or map the number of times this offer will be presented.
       </td>
     </tr>
   </tbody>
 </table>
 
-#### [!UICONTROL 刪除記錄]
+#### [!UICONTROL Delete a record]
 
-此動作模組會刪除中的單一記錄 [!DNL Adobe Journey Optimizer].
+This action module deletes a single record in [!DNL Adobe Journey Optimizer].
 
 <table>
   <col/>
   <col/>
   <tbody>
     <tr>
-      <td role="rowheader">[！UICONTROL Connection]</td>
-     <td>有關建立與的連線的指示 [!DNL Adobe Journey Optimizer]，請參閱 <a href="#create-a-connection-to-adobe-journey-optimizer" class="MCXref xref" >建立與的連線 [!DNL Adobe Journey Optimizer]</a> 本文章內容。</td>
+      <td role="rowheader">[!UICONTROL Connection]</td>
+     <td>For instructions on creating a connection to [!DNL Adobe Journey Optimizer], see <a href="#create-a-connection-to-adobe-journey-optimizer" class="MCXref xref" >Create a connection to [!DNL Adobe Journey Optimizer]</a> in this article.</td>
     </tr>
     <tr>
       <td role="rowheader">
-        [！UICONTROL記錄型別]
+        [!UICONTROL Record type]
       </td>
       <td>
-        選取您要刪除的記錄型別
+        Select the type of record that you want to delete
         <ul>
-        <li>[！UICONTROL位置]</li>
-        <li>[！UICONTROL決定規則]</li>
-        <li>[！UICONTROL決定]</li>
-        <li>[！UICONTROL標籤]</li>
-        <li>[！UICONTROL集合]</li>
-        <li>[！UICONTROL遞補優惠]</li>
-        <li>[！UICONTROL個人化優惠]</li>
+        <li>[!UICONTROL Placement]</li>
+        <li>[!UICONTROL Decision rule]</li>
+        <li>[!UICONTROL Decision]</li>
+        <li>[!UICONTROL Tag]</li>
+        <li>[!UICONTROL Collection]</li>
+        <li>[!UICONTROL Fallback offer]</li>
+        <li>[!UICONTROL Personalized offer]</li>
         </ul>
       </td>
     </tr>
     <tr>
-      <td role="rowheader">[！UICONTROL Placement]/[！UICONTROL Decision rule]/[！UICONTROL Decision]/[！UICONTROL Tag]/[！UICONTROL Collection]/[！UICONTROL遞補優惠]/[！UICONTROL個人化優惠]
+      <td role="rowheader">[!UICONTROL Placement]/[!UICONTROL Decision rule]/[!UICONTROL Decision]/[!UICONTROL Tag]/[!UICONTROL Collection]/[!UICONTROL Fallback offer]/[!UICONTROL Personalized offer]
       </td>
       <td>
-        選取您要刪除的記錄。
+        Select the record that you want to delete.
       </td>
     </tr>
 
 </tbody>
 </table>
 
-#### [!UICONTROL 進行自訂API呼叫]
+#### [!UICONTROL Make a custom API call]
 
-此模組會對 [!DNL Adobe Journey Optimizer] API
+This module makes a custom API call to the [!DNL Adobe Journey Optimizer] API
 
 <table>
   <col/>
   <col/>
   <tbody>
     <tr>
-     <td role="rowheader">[！UICONTROL Connection]</td>
-     <td>有關建立與的連線的指示 [!DNL Adobe Journey Optimizer]，請參閱 <a href="#create-a-connection-to-adobe-journey-optimizer" class="MCXref xref" >建立與的連線 [!DNL Adobe Journey Optimizer]</a> 本文章內容。</td>
+     <td role="rowheader">[!UICONTROL Connection]</td>
+     <td>For instructions on creating a connection to [!DNL Adobe Journey Optimizer], see <a href="#create-a-connection-to-adobe-journey-optimizer" class="MCXref xref" >Create a connection to [!DNL Adobe Journey Optimizer]</a> in this article.</td>
     </tr>
     <tr>
       <td role="rowheader">
-        <p>[！UICONTROL路徑]</p>
+        <p>[!UICONTROL Path]</p>
       </td>
       <td>
-        <p>輸入相對於 {baseURL} 開始使用<code>/</code></p>
+        <p>Enter a path relative to {baseURL} starting with<code>/</code></p>
       </td>
     </tr>
     <tr>
       <td role="rowheader">
-        <p>[！UICONTROL方法]</p>
+        <p>[!UICONTROL Method]</p>
       </td>
-   <td> <p>選取設定API呼叫所需的HTTP要求方法。 如需詳細資訊，請參閱 <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">中的HTTP要求方法 [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td> <p>Select the HTTP request method you need to configure the API call. For more information, see <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">HTTP request methods in [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
       </td>
     </tr>
     <tr>
-      <td role="rowheader">[！UICONTROL Headers]</td>
+      <td role="rowheader">[!UICONTROL Headers]</td>
       <td>
-        <p>以標準JSON物件的形式新增請求的標頭。</p>
-        <p>例如， <code>{"Content-type":"application/json"}</code></p>
-        <p>Workfront Fusion會自動新增授權標題和x-api-key標題。</p>
+        <p>Add the headers of the request in the form of a standard JSON object.</p>
+        <p>For example, <code>{"Content-type":"application/json"}</code></p>
+        <p>Workfront Fusion adds authorization headers and x-api-key headers automatically.</p>
       </td>
     </tr>
     <tr>
-      <td role="rowheader">[！UICONTROL查詢字串]  </td>
+      <td role="rowheader">[!UICONTROL Query String]  </td>
       <td>
-        <p>輸入請求查詢字串。</p>
+        <p>Enter the request query string.</p>
       </td>
     </tr>
     <tr>
-      <td role="rowheader">[！UICONTROL Body]</td>
-   <td> <p>以標準JSON物件的形式新增API呼叫的內文內容。</p> <p>注意：  <p>使用條件陳述式時，例如 <code>if</code> 在JSON中，將引號放在條件陳述式之外。</p> 
+      <td role="rowheader">[!UICONTROL Body]</td>
+   <td> <p>Add the body content for the API call in the form of a standard JSON object.</p> <p>Note:  <p>When using conditional statements such as <code>if</code> in your JSON, put the quotation marks outside of the conditional statement.</p> 
      <div class="example" data-mc-autonum="<b>Example: </b>"> 
       <p> <img src="assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
      </div> </p> </td>     </tr>
      <tr>
-      <td role="rowheader">[！UICONTROL限制]  </td>
+      <td role="rowheader">[!UICONTROL Limit]  </td>
       <td>
-        <p>輸入您希望模組在一個執行週期內傳回的結果數目上限。</p>
+        <p>Enter the maximum number of results that you want the module to return in one execution cycle.</p>
       </td>
     </tr>
   </tbody>
 </table>
 
-#### [!UICONTROL 刪除記錄]
+#### [!UICONTROL Delete a Record]
 
-此動作模組會刪除中的單一記錄 [!DNL Adobe Journey Optimizer].
+This action module deletes a single record in [!DNL Adobe Journey Optimizer].
 
 <table>
   <col/>
   <col/>
   <tbody>
     <tr>
-     <td role="rowheader">[！UICONTROL Connection]</td>
-     <td>有關建立與的連線的指示 [!DNL Adobe Journey Optimizer]，請參閱 <a href="#create-a-connection-to-adobe-journey-optimizer" class="MCXref xref" >建立與的連線 [!DNL Adobe Journey Optimizer]</a> 本文章內容。</td>
+     <td role="rowheader">[!UICONTROL Connection]</td>
+     <td>For instructions on creating a connection to [!DNL Adobe Journey Optimizer], see <a href="#create-a-connection-to-adobe-journey-optimizer" class="MCXref xref" >Create a connection to [!DNL Adobe Journey Optimizer]</a> in this article.</td>
     </tr>
     <tr>
       <td role="rowheader">
-        [！UICONTROL記錄型別]
+        [!UICONTROL Record Type]
       </td>
       <td>
-        選取您要刪除的記錄型別
+        Select the type of record that you want to delete
         <ul>
-        <li>[！UICONTROL位置]</li>
-        <li>[！UICONTROL決定規則]</li>
-        <li>[！UICONTROL決定]</li>
-        <li>[！UICONTROL標籤]</li>
-        <li>[！UICONTROL集合]</li>
-        <li>[！UICONTROL遞補優惠]</li>
-        <li>[！UICONTROL個人化優惠]</li>
+        <li>[!UICONTROL Placement]</li>
+        <li>[!UICONTROL Decision rule]</li>
+        <li>[!UICONTROL Decision]</li>
+        <li>[!UICONTROL Tag]</li>
+        <li>[!UICONTROL Collection]</li>
+        <li>[!UICONTROL Fallback offer]</li>
+        <li>[!UICONTROL Personalized offer]</li>
         </ul>
       </td>
     </tr>
     <tr>
-      <td role="rowheader">[！UICONTROL Placement]/[！UICONTROL Decision rule]/[！UICONTROL Decision]/[！UICONTROL Tag]/[！UICONTROL Collection]/[！UICONTROL遞補優惠]/[！UICONTROL個人化優惠]
+      <td role="rowheader">[!UICONTROL Placement]/[!UICONTROL Decision rule]/[!UICONTROL Decision]/[!UICONTROL Tag]/[!UICONTROL Collection]/[!UICONTROL Fallback offer]/[!UICONTROL Personalized offer]
       </td>
       <td>
-        選取您要刪除的記錄。
+        Select the record that you want to delete.
       </td>
     </tr>
 
 </tbody>
 </table>
 
-#### [!UICONTROL 更新記錄]
+#### [!UICONTROL Update a record]
 
-此動作模組會建立位置、決定、決定規則、標籤、個人化優惠、系列或遞補優惠。
+This action module creates a placement, decision, decision rule, tag, personalized offer, collection, or fallback offer.
 
 <table>
   <col/>
   <col/>
   <tbody>
     <tr>
-     <td role="rowheader">[！UICONTROL Connection]</td>
-     <td>有關建立與的連線的指示 [!DNL Adobe Journey Optimizer]，請參閱 <a href="#create-a-connection-to-adobe-journey-optimizer" class="MCXref xref" >建立與的連線 [!DNL Adobe Journey Optimizer]</a> 本文章內容。</td>
+     <td role="rowheader">[!UICONTROL Connection]</td>
+     <td>For instructions on creating a connection to [!DNL Adobe Journey Optimizer], see <a href="#create-a-connection-to-adobe-journey-optimizer" class="MCXref xref" >Create a connection to [!DNL Adobe Journey Optimizer]</a> in this article.</td>
     </tr>
     <tr>
       <td role="rowheader">
-        [！UICONTROL記錄型別]
+        [!UICONTROL Record type]
       </td>
       <td>
-        選取您要更新的記錄型別
+        Select the type of record that you want to update
         <ul>
-        <li>[！UICONTROL位置]</li>
-        <li>[！UICONTROL決定規則]</li>
-        <li>[！UICONTROL決定]</li>
-        <li>[！UICONTROL標籤]</li>
-        <li>[！UICONTROL集合]</li>
-        <li>[！UICONTROL遞補優惠]</li>
-        <li>[！UICONTROL個人化優惠]</li>
+        <li>[!UICONTROL Placement]</li>
+        <li>[!UICONTROL Decision rule]</li>
+        <li>[!UICONTROL Decision]</li>
+        <li>[!UICONTROL Tag]</li>
+        <li>[!UICONTROL Collection]</li>
+        <li>[!UICONTROL Fallback offer]</li>
+        <li>[!UICONTROL Personalized offer]</li>
         </ul>
       </td>
     </tr>
     <tr>
-      <td role="rowheader">[！UICONTROL Placement]/[！UICONTROL Decision rule]/[！UICONTROL Decision]/[！UICONTROL Tag]/[！UICONTROL Collection]/[！UICONTROL遞補優惠]/[！UICONTROL個人化優惠]
+      <td role="rowheader">[!UICONTROL Placement]/[!UICONTROL Decision rule]/[!UICONTROL Decision]/[!UICONTROL Tag]/[!UICONTROL Collection]/[!UICONTROL Fallback offer]/[!UICONTROL Personalized offer]
       </td>
       <td>
-        選取要更新的記錄。
+        Select the record that you want to update.
       </td>
     </tr>
     <tr>
       <td role="rowheader">
-        [！UICONTROL欄位]
+        [!UICONTROL Fields]
       </td>
-      <td>針對您要更新的每個欄位：
+      <td>For each field that you want to update:
       <ol>
-      <li>按一下 <b>[！UICONTROL新增]</b>.</li>
-      <li>選取您要新增、取代還是移除值。</li>
-      <li>輸入要更新的欄位。</li>
-      <li>輸入欄位的新值。</li>
+      <li>Click <b>[!UICONTROL Add]</b>.</li>
+      <li>Select whether you want to add, replace, or remove values.</li>
+      <li>Enter the field that you want to update.</li>
+      <li>Enter the new value for the field.</li>
       </td>
     </tr>
 
@@ -594,59 +598,61 @@ Becky: pull from main, add to TOCs, then push to merge.
 </table>
 
 
-### 搜尋
+### Searches
 
-#### [!UICONTROL 清單記錄]
+#### [!UICONTROL List records]
 
-此搜尋模組會列出所選型別的記錄，並根據您指定的條件傳回結果。
+This search module lists records of the selected type, returning results based on criteria you specify.
 
 <table>
   <col/>
   <col/>
   <tbody>
     <tr>
-     <td role="rowheader">[！UICONTROL Connection]</td>
-     <td>有關建立與的連線的指示 [!DNL Adobe Journey Optimizer]，請參閱 <a href="#create-a-connection-to-adobe-journey-optimizer" class="MCXref xref" >建立與的連線 [!DNL Adobe Journey Optimizer]</a> 本文章內容。</td>
+     <td role="rowheader">[!UICONTROL Connection]</td>
+     <td>For instructions on creating a connection to [!DNL Adobe Journey Optimizer], see <a href="#create-a-connection-to-adobe-journey-optimizer" class="MCXref xref" >Create a connection to [!DNL Adobe Journey Optimizer]</a> in this article.</td>
     </tr>
     <tr>
       <td role="rowheader">
-        <p>[！UICONTROL記錄型別]</p>
+        <p>[!UICONTROL Record type]</p>
       </td>
       <td>
-        <p>選取您要列出的記錄型別。</p>
+        <p>Select the type of record that you want to list.</p>
         <ul>
-        <li>[！UICONTROL位置]</li>
-        <li>[！UICONTROL決定規則]</li>
-        <li>[！UICONTROL決定]</li>
-        <li>[！UICONTROL標籤]</li>
-        <li>[！UICONTROL集合]</li>
-        <li>[！UICONTROL遞補優惠]</li>
-        <li>[！UICONTROL個人化優惠]</li>
+        <li>[!UICONTROL Placement]</li>
+        <li>[!UICONTROL Decision rule]</li>
+        <li>[!UICONTROL Decision]</li>
+        <li>[!UICONTROL Tag]</li>
+        <li>[!UICONTROL Collection]</li>
+        <li>[!UICONTROL Fallback offer]</li>
+        <li>[!UICONTROL Personalized offer]</li>
        </ul>
       </td>
     </tr>
     <tr>
       <td role="rowheader">
-        <p>[！UICONTROL查詢運運算元]</p>
+        <p>[!UICONTROL Query operator]</p>
       </td>
       <td>
-        <p>選取要套用至查詢中引數的運運算元</p>
+        <p>Select an operator to apply to parameters in the query</p>
       </td>
     </tr>
     <tr>
-      <td role="rowheader">[！UICONTROL欄位]</td>
-      <td><p>如果要將搜尋限制在特定欄位，請輸入欄位。 針對您想要限制搜尋的每個欄位，按一下[！UICONTROL新增專案]並輸入欄位名稱。</p><p>路徑運算式採用點分隔路徑的形式，例如 <code>_instance.xdm:name</code>.</p>
+      <td role="rowheader">[!UICONTROL Fields]</td>
+      <td><p>If you want to limit the search to specific fields, enter the fields. For each field that you want to limit the search to, click [!UICONTROL Add item] and enter the name of the field.</p><p>Path expressions are in the form of dot separated paths such as <code>_instance.xdm:name</code>.</p>
       </td>
     </tr>
     <tr>
-      <td role="rowheader">[！UICONTROL Order by] </td>
-      <td>輸入或對應您要排序結果的屬性。
+      <td role="rowheader">[!UICONTROL Order by] </td>
+      <td>Enter or map the property by which you want to order results.
       </td>
     </tr>
     <tr>
-      <td role="rowheader">[！UICONTROL順序方向]</td>
-   <td>選取您要依遞增或遞減方向排序結果。
+      <td role="rowheader">[!UICONTROL Order direction]</td>
+   <td>Select whether you want to order results by ascending or descending direction.
     </td>
      </tr>
   </tbody>
 </table>
+
+-->
