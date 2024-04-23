@@ -9,9 +9,9 @@ description: 您可以在Adobe Workfront Fusion HTTP模組中使用Mutual TLS，
 author: Becky
 feature: Workfront Fusion
 exl-id: ace9c404-34de-4bc5-bc77-2e53df36dbd9
-source-git-commit: 355d060d67685a98bfc9e7c37073024f3a82c5c9
+source-git-commit: a340a082e1490c46d3ab5c9591e2e30eee266fcf
 workflow-type: tm+mt
-source-wordcount: '663'
+source-wordcount: '665'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ ht-degree: 0%
 
 >[!INFO]
 >
->**範例:**
+>**範例：**
 >
 >* **TLS**：當使用者在瀏覽器中輸入「MyGreatBank.com」時，他們想要確保自己會前往My Great Bank，而不是可能會濫用或銷售其銀行資訊的網站。 他們還想確認自己的銀行帳戶資訊已加密。
 >
@@ -47,7 +47,7 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 計劃*</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] 計畫*</td> 
    <td> <p>[！UICONTROL Pro]或更高版本</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -94,7 +94,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->* 這些 [!DNL Workfront Fusion] 公開憑證將於2024年6月9日到期。 您的憑證過期後，您需要將新的憑證上傳到Web服務。 建議您：
+>* 這些 [!DNL Workfront Fusion] 公開憑證將於2025年5月7日到期。 您的憑證過期後，您需要將新的憑證上傳到Web服務。 建議您：
 >
 >   * 記下到期日，並設定提醒給自己，以便上傳憑證至您的Web服務。
 >   * 將此頁面加入書籤，即可輕鬆尋找新憑證。
