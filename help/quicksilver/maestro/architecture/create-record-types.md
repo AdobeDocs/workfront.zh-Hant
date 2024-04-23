@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: ed1c4954-b338-4865-a7a9-5ba0192e7b37
-source-git-commit: eaf1cd4142b83a42d068e2d02fe673fa4dd25769
+source-git-commit: 6bea34403e45c2b50986f79272f7a46959d67c6d
 workflow-type: tm+mt
-source-wordcount: '1264'
-ht-degree: 0%
+source-wordcount: '1296'
+ht-degree: 1%
 
 ---
 
@@ -147,15 +147,17 @@ ht-degree: 0%
 
 1. 更新下列資訊：
 
-   * **記錄型別名稱**：將「未命名的作業記錄型別」取代為您未來記錄型別的名稱。
-   * **外觀**：定義與記錄型別相關之圖示的顏色和形狀。 執行下列動作：
+   * 將「未命名的作業記錄型別」取代為您未來記錄型別的名稱。 <!--did they bring back the field label here and did they rename it to "Name"-->
+   * **說明**：新增更多有關記錄型別的資訊。
+   * 為與記錄型別關聯的圖示選取顏色和形狀。 執行下列動作：
       * 選取顏色以識別您的新記錄型別。 這是記錄型別圖示的顏色。 預設會選取「灰色」。
       * 從清單中選取圖示，或開始輸入圖示名稱以說明其代表內容，然後在顯示時選取它。 這是記錄型別的圖示。 依預設，會選取檔案圖示。
 
-1. 按一下 **新增記錄型別** 方塊以儲存記錄型別。
+1. 按一下「**建立**」。
 
    記錄型別卡片會新增至區段以及您選取的工作區。
 記錄型別包含的欄位數顯示在卡片上。
+1. （可選）將游標停留在記錄型別卡片上，按一下 **更多** 圖示 ![](assets/more-menu.png) 按一下「 」 **編輯** 以編輯有關記錄型別的資訊。
 1. （選擇性）按一下記錄型別卡片以開啟記錄型別頁面。
 
    ![](assets/operational-record-type-blank.png)
@@ -178,7 +180,7 @@ ht-degree: 0%
 
    或
 
-   按一下 **更多** 圖示 ![](assets/more-menu.png) 在記錄型別名稱的右側，然後按一下 **重新命名** 以重新命名。
+   按一下 **更多** 圖示 ![](assets/more-menu.png) 在記錄型別名稱的右側，然後按一下 **編輯** 以重新命名或變更其相關資訊。 如需詳細資訊，請參閱 [編輯記錄型別](/help/quicksilver/maestro/architecture/edit-record-types.md).
 
 1. （選用）按一下 **+新增記錄** 以新增所選記錄型別的記錄。 如需詳細資訊，請參閱 [建立記錄](../records/create-records.md).
 1. （可選）按一下 **+** 圖示來新增更多欄位至記錄型別。

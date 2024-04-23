@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: b11ab1dd0fdcc22cf2a99751d0aa4979556ec3fc
+source-git-commit: 6bea34403e45c2b50986f79272f7a46959d67c6d
 workflow-type: tm+mt
-source-wordcount: '5562'
+source-wordcount: '5636'
 ht-degree: 0%
 
 ---
@@ -46,6 +46,24 @@ A record type can have only 100 views. Prior to this change, there was no limit 
 For more information, see [Manage record views](/help/quicksilver/maestro/views/manage-record-views.md). 
 
 -->
+
+## 2024年4月22日當週
+
+### 更新編輯工作區或記錄型別時的工作流程
+
+生產： 2024年4月23日
+
+預覽：待定
+
+我們已更新「編輯工作區」和「編輯記錄型別」方塊的外觀。
+
+編輯工作區或記錄型別時，您現在可以定義名稱、說明，並為它們指派顏色和圖示。
+
+如需詳細資訊，請參閱下列文章：
+
+* [編輯工作區](/help/quicksilver/maestro/architecture/edit-workspaces.md)
+
+* [編輯記錄型別](/help/quicksilver/maestro/architecture/edit-record-types.md).
 
 ## 2024年4月8日當週
 

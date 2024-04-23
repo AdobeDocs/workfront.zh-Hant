@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 374b6d9c-69a9-4a73-8708-51c14a78c7c9
-source-git-commit: e54142e189cd4f407161401203a7f13c752ad404
+source-git-commit: 6bea34403e45c2b50986f79272f7a46959d67c6d
 workflow-type: tm+mt
-source-wordcount: '275'
+source-wordcount: '561'
 ht-degree: 0%
 
 ---
@@ -23,6 +23,8 @@ ht-degree: 0%
 工作區是團隊使用的記錄型別集合，代表團隊的工作生命週期。 您可以在Adobe Workfront Planning中完全自訂工作區。
 
 如需有關建立工作區的資訊，請參閱 [建立工作區](/help/quicksilver/maestro/architecture/create-workspaces.md).
+
+您對工作區所做的所有變更，對至少擁有工作區檢視許可權的所有使用者都是可見的。
 
 ## 存取需求
 
@@ -90,20 +92,52 @@ ht-degree: 0%
 
 這會開啟Workfront Planning的「工作區」區域。
 
-1. 在新工作區標題的工作區名稱內按一下以重新命名，然後按下 **輸入**
+1. 在新工作區標題的工作區名稱內按一下以重新命名，然後按下 **輸入**.
+1. 按一下 **更多** 功能表 ![](assets/more-menu.png)工作區名稱右側，然後按一下 **編輯**.
 
-   或
+   ![](assets/edit-workspace-box.png)
 
-   按一下 **更多** 功能表 ![](assets/more-menu.png)工作區名稱右側，然後按一下 **重新命名**.
+   更新以下資訊於 **編輯工作區** 方塊：
+
+   * 新增工作區的名稱。 <!--did they add a label for this field?-->
+   * **說明**：新增工作區的相關資訊。
+   * 選取要與工作區關聯的圖示。
+
+1. 按一下 **儲存** 以關閉「編輯工作區」方塊並套用您的變更。
+
+1. （可選）若要新增工作區區段，請執行下列任一項作業：
+
+   * 按一下 **新增區段** 位於工作區底部。
+   * 將游標停留在區段名稱上，然後按一下 **更多** 功能表 ![](assets/more-menu.png)，然後按一下 **新增上述區段** 或 **在底下新增區段**.
+
+1. （可選）若要變更區段位置，請執行下列任一項作業：
+
+   * 將游標停留在區段名稱上，然後按一下 **抓取** 圖示 ![](assets/grab-icon.png)，然後將其拖放至正確的位置。
+   * 將游標停留在區段名稱上，然後按一下 **更多** 功能表 ![](assets/more-menu.png)，然後按一下 **上移** 或 **下移**. 區段在工作區中向上或向下移動。
+
+1. （可選）若要刪除工作區區段，請執行下列動作：
+
+   1. 暫留在區段名稱上，然後按一下 **更多** 功能表 ![](assets/more-menu.png)，然後按一下 **刪除**. <!--add screen shot when UI is final?-->
+   1. 選取新區段以將所有記錄型別移動至該區段，然後按一下 **刪除**. <!--check the button name; logged a bug to change it to "Delete" from "Delete section".-->
+
+      所有記錄型別都會移至選取區段，而區段會被刪除。
 
 1. （選用）按一下 **新增記錄型別** 以新增記錄型別至工作區。
 
    如需詳細資訊，請參閱 [建立記錄型別](../architecture/create-record-types.md).
 
-1. （選擇性）按一下檢視標籤中的檢視名稱，編輯現有檢視或按一下 **+檢視** 以建立檢視。
+1. （可選）將滑鼠游標停留在記錄型別卡片上，按一下 **更多** 功能表 ![](assets/more-menu.png) 按一下「 」 **編輯** 修改記錄型別的外觀。
+
+   如需詳細資訊，請參閱 [編輯記錄型別](/help/quicksilver/maestro/architecture/edit-record-types.md).
+
+1. （可選）將滑鼠游標停留在記錄型別卡片上，按一下 **更多** 功能表 ![](assets/more-menu.png) 按一下「 」 **刪除** 刪除記錄型別。
+
+   如需詳細資訊，請參閱 [刪除記錄型別](/help/quicksilver/maestro/architecture/delete-record-types.md).
+
+1. （選擇性）按一下檢視標籤中的檢視名稱以編輯現有檢視，或按一下 **+檢視** 以建立檢視。
 
    如需詳細資訊，請參閱 [管理記錄檢視](/help/quicksilver/maestro/views/manage-record-views.md).
 
-1. （選用）按一下 **共用** 與其他人共用工作區。
+1. （選用）按一下 **共用** 工作區右上角的「 」，與其他人共用工作區。
 
    如需詳細資訊，請參閱 [共用工作區](/help/quicksilver/maestro/access/share-workspaces.md).

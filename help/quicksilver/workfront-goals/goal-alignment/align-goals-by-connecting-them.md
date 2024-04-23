@@ -1,42 +1,40 @@
 ---
 product-previous: workfront-goals
 navigation-topic: goal-alignment
-title: 在Adobe Workfront目標中將目標連結起來，以協調目標
-description: 如果您是具有個人目標的個別貢獻者，您可能會想要將其與團隊的目標一致，以便在組織策略的更大情境中有效顯示您自己目標的進度。
+title: 透過在Adobe Workfront目標中連線目標來對齊目標
+description: 如果您是有個人目標的個人投稿人，您可能希望將其與團隊的目標一致，以便在組織策略的大背景中有效顯示您自己目標的進度。
 author: Alina
 feature: Workfront Goals
 exl-id: 4276f1c9-2ee9-4f74-b011-ae1e19fefe35
-source-git-commit: 1d221d10e5845e477dff825f853330b9b4df0adf
+source-git-commit: c24adf93172d002ea636904d62f531a8e69aace4
 workflow-type: tm+mt
-source-wordcount: '770'
-ht-degree: 0%
+source-wordcount: '797'
+ht-degree: 1%
 
 ---
 
-# 在Adobe Workfront目標中將目標連結起來，以協調目標
+# 透過在Adobe Workfront目標中連線目標來對齊目標
 
 
-如果您是具有個人目標的個別貢獻者，您可能會想要將其與團隊的目標一致，以便在組織策略的更大情境中有效顯示您自己目標的進度。
+如果您是有個人目標的個人投稿人，您可能希望將其與團隊的目標一致，以便在組織策略的大背景中有效顯示您自己目標的進度。
 
-當組織中的每個人的目標都與組織的目標一致時，他們就能清楚了解他們的個人貢獻和團隊努力如何協助推進更大、公司層級的優先事項。 如需協調目標的最佳實務的詳細資訊，請參閱 [Adobe Workfront目標中的目標對齊概觀](../../workfront-goals/goal-alignment/goal-alignment-overview.md).
+當貴組織中的每個人都將目標與貴組織的目標一致時，他們可以清楚瞭解其個人貢獻和團隊努力如何有助於推動大型公司層級優先順序的進展。 如需調整目標之最佳實務的詳細資訊，請參閱 [Adobe Workfront目標中的目標對齊方式概觀](../../workfront-goals/goal-alignment/goal-alignment-overview.md).
 
-將Adobe Workfront目標中的目標聯繫起來有兩種方法：
+在Adobe Workfront目標中連結目標的方法有兩種：
 
-* 您可以將目標彼此連結，以建立目標之間的協調。
+* 您可以藉由將目標相互連線來建立目標之間的對齊方式。
 
-* 您可以手動協調兩個目標，或者可以將現有目標的結果和活動轉換為另一個目標。 轉換的結果或活動會成為原始目標的子目標。
+* 您可以手動對齊兩個目標，也可以將現有目標的結果和活動轉換為另一個目標。 轉換的結果或活動會成為原始目標的子目標。
 
 >[!IMPORTANT]
 >
->一個目標可以有1 000個進度指標。
+>一個目標總共可以有1000個進度指示器。
 
-本文說明如何將目標彼此連結，以協調目標。 如需將結果和活動轉換為目標以協調目標的相關資訊，請參閱 [通過將結果和活動轉換為目標來協調目標](../../workfront-goals/goal-alignment/align-goals-by-converting-results-activities.md).
+本文說明如何藉由將目標相互連線來對齊目標。 如需有關透過將結果和活動轉換為目標來調整目標的資訊，請參閱 [透過將結果和活動轉換為目標來校準目標](../../workfront-goals/goal-alignment/align-goals-by-converting-results-activities.md).
 
 ## 存取需求
 
-<!--drfated for the P&P release: 
-
-You must have the following:
+您必須具備下列條件：
 
 <table style="table-layout:auto">
  <col>
@@ -45,98 +43,61 @@ You must have the following:
  </col>
  <tbody>
   <tr>
-   <td role="rowheader">Adobe Workfront plan*</td>
+   <td role="rowheader">Adobe Workfront計畫*</td>
    <td>
-   <p>Current plan: Select or higher</p>
-   Or
-   <p>Legacy plan: Pro or higher</p>
+   <p>新計畫：選取或更高</p>
+   或
+   <p>目前計畫：專業或以上版本</p>
    
    </td>
   </tr>
   <tr>
-   <td role="rowheader">Adobe Workfront license*</td>
+   <td role="rowheader">Adobe Workfront授權*</td>
    <td>
-   <p>Current license: Contributor or higher</p>
-   Or
-   <p>Legacy license: Request or higher</p> <p>For more information, see <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront licenses overview</a>.</p> </td>
+   <p>目前授權：投稿人或以上版本</p>
+   或
+   <p>舊版授權：要求或更高版本</p> </td>
   </tr>
   <tr>
-   <td role="rowheader">Product</td>
+   <td role="rowheader">產品*</td>
    <td>
-   <p> Current product requirement: If you have the Select or Prime Adobe Workfront plan, you must also buy an additional Adobe Workfront Goals license.  Workfront Goals are included in the Ultimate Workfront Plan.</p>
-   Or
-   <p>Legacy product requirement: You must purchase an additional license for the Adobe Workfront Goals to access functionality described in this article. </p> <p>For information, see <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requirements to use Workfront Goals</a>. </p> </td>
+   <p> 新產品需求，下列其中一項： </p>
+<ul>
+<li>Select或Prime Adobe Workfront計畫以及額外的Adobe Workfront目標授權。</li>
+<li>預設包含Workfront目標的Ultimate Workfront計畫。 </li></ul>
+   <p>或</p>
+   <p>目前產品需求： Adobe Workfront Goals的Workfront計畫和額外授權。 </p> <p>如需詳細資訊，請參閱 <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">使用Workfront目標的需求</a>. </p> </td>
   </tr>
   <tr>
-   <td role="rowheader">Access level*</td>
-   <td> <p>Edit access to Goals</p> <p><b>NOTE</b><p>If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see:</p>
-     <ul>
-      <li> <p><a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a> </p> </li>
-      <li> <p><span href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md"><a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md" class="MCXref xref">Grant access to Adobe Workfront Goals</a></span> </p> </li>
-     </ul> </p> </td>
+   <td role="rowheader">存取層級</td>
+   <td> <p>編輯目標的存取權</p> </td>
   </tr>
-  <tr data-mc-conditions="">
-   <td role="rowheader">Object permissions</td>
+  <tr>
+   <td role="rowheader">物件許可權</td>
    <td>
-    <div>
-     <p>View or higher permissions to the goal to view it</p>
-     <p>Manage permissions to the goal to edit it</p>
-     <p>For information about sharing goals, see <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Share a goal in Workfront Goals</a>. </p>
-    </div> </td>
+    
+     <p>檢視目標或更高許可權以檢視它</p>
+     <p>管理目標的許可權以編輯它</p>
+     <p>如需關於共用目標的資訊，請參閱 <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">在Workfront目標中共用目標</a>. </p>
+     </td>
   </tr>
+<tr>
+   <td role="rowheader"><p>版面配置範本</p></td>
+   <td> <p>必須為所有使用者(包括Workfront管理員)指派一個版面配置範本，該範本包含主功能表中的「目標」區域。 </p>  
+</td>
+  </tr>
  </tbody>
 </table>
 
--->
+*如需詳細資訊，請參閱 [Workfront檔案中的存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-您必須具備下列條件：
+## 先決條件
 
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront計畫*</td> 
-   <td> <p>Pro或更高版本</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront授權*</td> 
-   <td> <p>要求或更高版本</p> <p>如需詳細資訊，請參閱 <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront授權概觀</a>.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">產品</td> 
-   <td> <p>您必須購買額外的Adobe Workfront目標授權才能存取本文所述的功能。 </p> <p>如需詳細資訊，請參閱 <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">使用Workfront目標的需求</a>. </p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">訪問級別配置*</td> 
-   <td> <p>編輯目標的存取權</p> <p><b>附註</b>
+開始之前，您必須具備下列條件：
 
-<p>如果您仍無權存取，請洽詢您的Workfront管理員，他們是否在您的存取層級設定其他限制。 如需Workfront管理員如何變更您的存取層級的詳細資訊，請參閱：</p> 
-     <ul> 
-      <li> <p><a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a> </p> </li> 
-      <li> <p><span href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md"><a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md" class="MCXref xref">授予Adobe Workfront目標的存取權</a></span> </p> </li> 
-     </ul> </p> </td> 
-  </tr> 
-  <tr data-mc-conditions=""> 
-   <td role="rowheader">物件權限</td> 
-   <td> 
-    <div> 
-     <p>管理目標的權限</p> 
-     <p>如需共用目標的相關資訊，請參閱 <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">在Workfront目標中共用目標</a>. </p> 
-    </div> </td> 
-  </tr> 
- </tbody> 
-</table>
+* 包含主功能表中目標區域的版面配置範本。
 
-*若要了解您擁有的計畫、授權類型或存取權，請聯絡您的Workfront管理員。
-
-## 必要條件
-
-您必須具備下列條件，才能開始：
-
-* 一種佈局模板，在主菜單中包括目標區域。
-
-## 通過將目標彼此連接來協調目標
+## 藉由將目標相互連線來對齊目標
 
 <!--
 Aligning goals by connecting them differs depending on what environment you use. 
@@ -176,38 +137,38 @@ Aligning goals by connecting them differs depending on what environment you use.
 1. (Optional) Remove the alignment between two goals, when you consider that no longer is relevant to your organization's overall strategy For information about removing alignment between goals, see [Remove goal alignment in Adobe Workfront Goals](../../workfront-goals/goal-alignment/remove-goal-alignment.md).
 
 -->
-1. 建立您要協調的兩個目標。 如需建立目標的相關資訊，請參閱 [在Adobe Workfront目標中建立目標](../../workfront-goals/goal-management/create-goals.md).
-1. （選用）啟用您要協調的目標。 您可以協調具有「草稿」、「作用中」或「非作用中」狀態的目標。 如需啟用目標的相關資訊，請參閱 [啟用Adobe Workfront目標中的目標](../../workfront-goals/goal-management/activate-goals.md).
-1. 前往您要與其他目標（父目標）對齊的目標，然後按一下其名稱以開啟目標頁面。
+1. 建立您要對齊的兩個目標。 如需建立目標的相關資訊，請參閱 [在Adobe Workfront目標中建立目標](../../workfront-goals/goal-management/create-goals.md).
+1. （可選）啟動您要對齊的目標。 您可以對齊狀態為「草稿」、「作用中」或「非作用中」的目標。 如需啟用目標的詳細資訊，請參閱 [在Adobe Workfront目標中啟用目標](../../workfront-goals/goal-management/activate-goals.md).
+1. 移至您要對齊（子系目標）至其他目標（父系目標）的目標，然後按一下其名稱以開啟目標頁面。
 
    >[!INFO]
    >
-   >例如，如果希望目標2影響目標1的進度，則必須轉到目標2。
+   >例如，如果您希望目標2影響目標1的進度，則必須前往目標2。
 
-1. 按一下 **目標詳細資訊** 中。
+1. 按一下 **目標詳細資料** 在左側面板中。
 
-1. 在 **上層目標資訊** 按一下 **新增** 在 **上層目標** 欄位，
+1. 在 **上層目標資訊** 區域，按一下 **新增** 在 **上層目標** 欄位若沒有上層目標，
 
    或
 
-   按一下父目標的名稱以選擇另一個目標。
+   按一下上層目標的名稱以選擇其他目標。
 
-1. 開始在 **上層目標** 欄位，然後在清單中出現時選取它。 清單中只會顯示來自相同或未來期間的目標。
+1. 開始在「 」中輸入現有目標的名稱 **上層目標** 欄位，然後在其出現在清單中時選取它。 清單中只會顯示相同或未來期間的目標。
 
-1. 按一下 **儲存變更**.
+1. 按一下「**儲存變更**」。
 
-   您開始的目標（目標2）現在是您與其對齊的父目標的子目標（目標1）。\
-   對齊的目標顯示在「目標對齊」區段中，與目標2連結，作為目標1的次要項目。
-子目標的進度會隨著其進度更新父目標的進度，而顯示在父目標的「進度指標」區段中。
+   您一開始的目標（目標2）現在是將它與（目標1）對齊之父目標的子目標。\
+   校準的目標會顯示在「目標校準」區段中，以目標2作為目標1的次要。
+當子目標的進度更新父目標的進度時，其進度會顯示在父目標的進度指示器區段中。
 
    ![](assets/goal-1-and-2-aligned-cards-350x427.png)
 
-1. （可選）若要在「目標對齊」區段中檢視目標，請前往Workfront的「目標」區域，然後按一下 **目標對齊** 區段。 如需「目標對齊」區段的相關資訊，請參閱 [導覽Adobe Workfront目標中的「目標對齊」區段](../../workfront-goals/goal-alignment/navigate-goal-alignment-chart.md).
+1. （可選）若要檢視「目標校準」區段中的目標，請前往Workfront的目標區域，然後按一下 **目標校準** 區段。 如需「目標校準」區段的詳細資訊，請參閱 [導覽Adobe Workfront目標中的「目標校準」區段](../../workfront-goals/goal-alignment/navigate-goal-alignment-chart.md).
 
-1. （選用）將活動和結果新增至任一目標，以指出其進度。 如需新增活動和結果的相關資訊，請參閱下列文章：
+1. （選用）將活動和結果新增至任一目標以指出其進度。 如需新增活動和結果的資訊，請參閱下列文章：
 
    * [將活動新增至Adobe Workfront目標中的目標](../../workfront-goals/results-and-activities/add-activities-to-goals.md)
-   * [將結果新增至Adobe Workfront目標中的目標](../../workfront-goals/results-and-activities/add-results-to-goals.md)
+   * [在Adobe Workfront目標中新增結果](../../workfront-goals/results-and-activities/add-results-to-goals.md)
 
-1. （選用）當您認為與貴組織的整體策略不再相關時，請移除兩個目標之間的協調。 如需移除目標之間對齊方式的相關資訊，請參閱 [移除Adobe Workfront目標中的目標對齊](../../workfront-goals/goal-alignment/remove-goal-alignment.md).
+1. （可選）當您認為與您組織的整體策略不再相關時，請移除兩個目標之間的對齊方式。 如需有關移除目標間對齊方式的資訊，請參閱 [移除Adobe Workfront目標中的目標校準](../../workfront-goals/goal-alignment/remove-goal-alignment.md).
 

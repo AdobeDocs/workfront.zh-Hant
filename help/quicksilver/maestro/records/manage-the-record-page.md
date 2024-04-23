@@ -4,9 +4,10 @@ description: 您可以在Adobe Workfront Planning中編輯管理記錄方塊和�
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 7d3778d52f9a3afa12a7bdf348f7400693f8f7ab
+exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
+source-git-commit: 6bea34403e45c2b50986f79272f7a46959d67c6d
 workflow-type: tm+mt
-source-wordcount: '800'
+source-wordcount: '520'
 ht-degree: 0%
 
 ---
@@ -93,7 +94,7 @@ ht-degree: 0%
 ## 編輯記錄頁面的考量事項
 
 * 重新排列記錄方塊或頁面中的欄位會重新排列該型別所有記錄的欄位以及存取這些記錄的所有使用者。
-* 新增封面影像到記錄不是記錄方塊或頁面的整體配置的一部分。 您可以將唯一的封面影像新增到每張記錄中。
+* 新增封面影像到記錄不是記錄方塊或頁面的整體配置的一部分。 您可以將唯一的封面影像新增到每張記錄中。 如需詳細資訊，請參閱 [新增封面影像至記錄](/help/quicksilver/maestro/records/add-a-cover-image-to-a-record.md).
 
 ## 重新排列記錄方塊或頁面中的欄位
 
@@ -131,56 +132,4 @@ ht-degree: 0%
    對於檢視記錄的所有使用者，相同型別的所有記錄之方塊和頁面中的欄位新位置都會更新。
 
    記錄方塊或頁面配置的所有變更都會自動儲存。
-
-
-## 新增封面影像至記錄方塊或頁面
-
-您可以在記錄方塊或頁面頂端新增封面影像，以個人化記錄。
-
-{{step1-to-maestro}}
-
-您上次存取的工作區會開啟。
-
-1. （可選）按一下工作區名稱右側的向下箭頭，以選取您要更新其記錄的工作區。
-
-1. 按一下記錄型別卡。
-
-   記錄型別頁面隨即開啟。
-
-1. 從任何型別的檢視中，按一下記錄的名稱
-
-   或
-
-   從表格檢視中，按一下 **開啟詳細資料** 圖示 ![](assets/open-details-icon-in-table-name-field.png) 記錄名稱的左側。
-
-   記錄的方塊會在檢視中開啟。
-
-   ![](assets/details-box.png)
-
-   >[!TIP]
-   >
-   >您可以檢視 **開啟詳細資料** 圖示至表格檢視中記錄之「名稱」欄位左邊的圖示（僅當「名稱」欄位為主要欄位時）。
-
-1. （可選）按一下 **在新標籤中開啟** 圖示 ![](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> 在記錄方塊的右上角，以在新索引標籤中開啟記錄頁面。
-
-   記錄頁面隨即開啟。
-
-   ![](assets/details-page.png)
-
-1. 在記錄方塊或頁面中，按一下 **新增封面**. <!--check the casing here; I logged a bug for this-->
-此 **紀錄封面** 方塊開啟。
-
-1. 按一下 **選取以上傳** 並瀏覽電腦上的圖片，以選取、新增圖片，然後按一下 **使用影像**.
-
-   影像會上傳至記錄方塊或頁面頂端，且變更會自動儲存。
-
-   ![](assets/record-page-with-cover-image.png)
-
-1. （選用）將游標停留在影像上，然後按一下 **更多** 功能表 ![](assets/more-menu.png) 在封面影像的右下角，執行下列任一項作業：
-
-   * 按一下 **上傳** 如果要取代封面影像，並重複步驟6以上傳和儲存新影像。
-   * 按一下 **重新定位**，並使用 **重新定位** 工具 ![](assets/reposition-tool-icon.png) 將封面影像置中，然後按一下 **儲存** 完成時。
-   * 按一下 **移除** 以移除封面影像。
-
-   所有變更會立即生效。
 

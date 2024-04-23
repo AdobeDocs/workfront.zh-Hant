@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7d6de742-9657-4286-968c-1fc78ebbb94e
-source-git-commit: e54142e189cd4f407161401203a7f13c752ad404
+source-git-commit: 6bea34403e45c2b50986f79272f7a46959d67c6d
 workflow-type: tm+mt
-source-wordcount: '455'
+source-wordcount: '445'
 ht-degree: 0%
 
 ---
@@ -100,28 +100,30 @@ hide: yes
 根據預設，上次存取的工作區應該會開啟。
 
 1. （可選）展開現有工作區名稱右側的向下箭頭，並選取您要編輯其記錄型別的工作區。
-1. 將滑鼠停留在記錄型別的卡片上，然後按一下 **更多** 功能表 ![](assets/more-menu.png) 在記錄型別卡片的右上角，然後按一下 **更新外觀**.
+1. 將滑鼠停留在記錄型別的卡片上，然後按一下 **更多** 功能表 ![](assets/more-menu.png) 在記錄型別卡片的右上角，然後按一下 **編輯**.
 
-   ![](assets/update-appearance-link-from-more-menu-on-record-type-card.png)
+   ![](assets/more-menu-options-from-record-type-card.png)
 
-1. 在 **更新記錄型別** 方塊中，更新下列資訊：
+1. 在 **編輯記錄型別** 方塊中，更新下列資訊：
 
-   * **記錄名稱**：視需要編輯記錄型別名稱。 <!--correct this - I asked Garik to change this field to "Record type name"-->
-   * **外觀**：編輯與記錄型別相關圖示的顏色和形狀。 執行下列動作：
+   * 視需要編輯記錄型別名稱。 <!--did they add a field label for this? -->
+   * **說明**：編輯或新增記錄型別的說明，並提供更多相關資訊。
+   * 編輯與記錄型別關聯的圖示的顏色和形狀。 執行下列動作：
       * 選取顏色以識別記錄型別。 這是記錄型別圖示的顏色。 預設會選取「灰色」。
       * 從清單中選取圖示，或開始輸入圖示名稱以說明其代表內容，然後在顯示時選取它。 這是記錄型別的圖示。 依預設，會選取檔案圖示。
 
      ![](assets/update-record-type-box.png)
 
-1. 按一下 **更新記錄型別** 方塊以儲存您的變更。
+1. 按一下「**儲存**」。
 1. （可選）從工作區區域按一下記錄型別卡以開啟記錄型別的頁面。
-1. 按一下 **更多** 記錄型別名稱右邊的功能表，然後按一下 **重新命名** 重新命名記錄型別
+1. 按一下 **更多** 記錄型別名稱右邊的功能表，然後按一下 **編輯** 更新記錄型別的相關資訊。
 
-   或
+   >[!TIP]
+   >
+   >   您可以重新命名標頭中的記錄型別。
 
-   重新命名標頭中的記錄型別。  <!--check to see if they renamed this to "Rename" - it kept going back and forth between Rename and Edit-->
+   ![](assets/more-menu-options-from-record-details-page.png)
 
-   ![](assets/more-menu-options-from-record-details-page.png) <!--check this screen shot - not sure this is valid ???-->
+   <!--check this screen shot - not sure this is valid ???-->
 
-   您也可以重新命名記錄型別頁面標頭中的記錄型別。
 1. （可選）展開記錄型別名稱右側的向下箭頭，並選取要編輯的其他記錄型別。

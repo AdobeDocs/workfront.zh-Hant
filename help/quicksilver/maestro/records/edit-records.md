@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: b11ab1dd0fdcc22cf2a99751d0aa4979556ec3fc
+source-git-commit: 6bea34403e45c2b50986f79272f7a46959d67c6d
 workflow-type: tm+mt
-source-wordcount: '1336'
+source-wordcount: '1495'
 ht-degree: 0%
 
 ---
@@ -103,6 +103,7 @@ ht-degree: 0%
 * 如果顯示的記錄連結到其他記錄，則您正在編輯的記錄的新資訊會反映在連結的記錄上。
 * 您無法大量編輯記錄。 <!--this will probably change-->
 * URL只有以下列專案開頭時，才會被識別為單行文字欄位型別中的連結： http://、https://、ftp://或www。.
+* 您可以將封面影像新增到每張記錄中。 每個記錄的影像都是唯一的，不會套用至同一時間的所有記錄。
 * 您可以編輯記錄頁面中的欄位順序，並為記錄新增封面影像。 如需詳細資訊，請參閱 [管理記錄頁面](/help/quicksilver/maestro/records/manage-the-record-page.md).
 
 ## 編輯記錄
@@ -130,7 +131,7 @@ ht-degree: 0%
 
    ![](assets/edit-record-paragraph-field-with-formatting-table-view.png)
 
-   >[!NOTE]
+   >[!TIP]
    >
    >  您無法編輯下列欄位的資訊，因為這些欄位是唯讀欄位，且Workfront會自動更新它們：
    >  
@@ -209,7 +210,18 @@ ht-degree: 0%
    >
    >您可以檢視 **開啟詳細資料** 圖示至表格檢視中記錄之「名稱」欄位左邊的圖示（僅當「名稱」欄位為主要欄位時）。
 
-1. 開始編輯記錄方塊中的欄位資訊。 Workfront會自動儲存您的變更。
+1. 開始編輯記錄方塊中的欄位資訊。
+
+   >[!TIP]
+   >
+   >  您無法編輯下列欄位的資訊，因為這些欄位是唯讀欄位，且Workfront會自動更新它們：
+   >  
+   >  * 透過連線記錄型別建立的連結欄位。 如需詳細資訊，請參閱 [連線記錄型別](../architecture/connect-record-types.md).
+   >  * 下列型別的欄位：「建立者」、「建立日期」、「上次修改者」、「上次修改日期」、「公式」欄位。
+
+1. （選用）按一下 **新增封面** 以新增封面影像到記錄中。 如需詳細資訊，請參閱 [新增封面影像至記錄](/help/quicksilver/maestro/records/add-a-cover-image-to-a-record.md).
+
+   Workfront會自動儲存您的變更。
 
 1. （可選）按一下 **在新標籤中開啟** 圖示 ![](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> 在記錄方塊的右上角，在新索引標籤中開啟記錄頁面。 繼續編輯記錄，如所述 [從記錄的頁面編輯記錄](#edit-a-record-from-the-records-page) 一節。
 
@@ -227,7 +239,7 @@ ht-degree: 0%
 
 1. 執行下列其中一項：
 
-   * 從任何檢視中存取記錄的方塊，如 [在檢視中編輯記錄方塊中的記錄](#edit-a-record-from-the-records-box-in-a-view) 一節。 然後，按一下 **在新標籤中開啟** 圖示 ![](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> 在記錄方塊的右上角，以在新索引標籤中開啟記錄頁面。
+   * 從任何檢視中存取記錄的方塊，如 [在檢視中編輯記錄方塊中的記錄](#edit-a-record-from-the-records-box-in-a-view) 區段，然後按一下 **在新標籤中開啟** 圖示 ![](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> 在記錄方塊的右上角，以在新索引標籤中開啟記錄頁面。
 
    * 從 **表格** 檢視，將游標停留在記錄名稱上，然後按一下 **更多** 功能表 ![](assets/more-menu.png)，然後按一下 **檢視**
 
@@ -237,12 +249,16 @@ ht-degree: 0%
 
      ![](assets/details-page.png)
 
-1. 按一下 **更多** 功能表 ![](assets/more-menu.png) 在記錄名稱的右側，然後按一下 **編輯**
+1. 按一下記錄頁面上的任何可編輯欄位以進行編輯。
 
-   或
+   >[!TIP]
+   >
+   >  您無法編輯下列欄位的資訊，因為這些欄位是唯讀欄位，且Workfront會自動更新它們：
+   >  
+   >  * 透過連線記錄型別建立的連結欄位。 如需詳細資訊，請參閱 [連線記錄型別](../architecture/connect-record-types.md).
+   >  * 下列型別的欄位：「建立者」、「建立日期」、「上次修改者」、「上次修改日期」、「公式」欄位。
 
-   在記錄頁面上的任何可編輯欄位中按一下以編輯資訊。
+1. （選用）按一下 **新增封面** 以新增封面影像到記錄中。 如需詳細資訊，請參閱 [新增封面影像至記錄](/help/quicksilver/maestro/records/add-a-cover-image-to-a-record.md).
 
-   ![](assets/more-menu-options-from-record-details-page.png) <!--ensure the options have not changed or been renamed-->
+   Workfront會自動儲存您的變更。
 
-1. 按一下 **儲存變更**.

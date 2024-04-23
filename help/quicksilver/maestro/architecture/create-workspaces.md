@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 604b84c1-4ec6-4d4a-b9f4-4223641ff2ea
-source-git-commit: eaf1cd4142b83a42d068e2d02fe673fa4dd25769
+source-git-commit: 6bea34403e45c2b50986f79272f7a46959d67c6d
 workflow-type: tm+mt
-source-wordcount: '754'
+source-wordcount: '649'
 ht-degree: 0%
 
 ---
@@ -107,15 +107,19 @@ ht-degree: 0%
 
 ## 建立工作區
 
+您可以建立工作區並在其中新增記錄型別，以在Workfront Planning中組織您的物件。 如需有關編輯工作區的詳細資訊，請參閱 [編輯工作區](/help/quicksilver/maestro/architecture/edit-workspaces.md).
+
 {{step1-to-maestro}}
+
+這會開啟Workfront Planning的「工作區」區域。
 
 1. （視條件而定）如果您的環境中沒有任何工作區，請按一下 **建立工作區**
 
-   或者，從現有工作區中，按一下工作區名稱右側的向下指向，然後按一下 **建立工作區**.
+   或者，從現有工作區，按一下工作區名稱右側的向下箭頭，然後按一下 **建立工作區**.
 
    ![](assets/workspace-drop-down-right-menu.png)
 
-   這會開啟Workfront Planning的「工作區」區域。
+
 1. （選擇性和條件性）按一下 **預覽** 在下列任何預先定義的工作區範本內：
 
    * 行銷管理
@@ -136,14 +140,10 @@ ht-degree: 0%
 
    會建立下列其中一種工作區型別：
 
-   * 空白的工作區，當您從頭開始建立工作區時，可以在此處開始手動新增記錄型別。
-   * 使用其中一個範本時，會填入範例記錄型別的工作區，供您進一步自訂。
+   * 名為的空白工作區 **未命名的工作區** 當您從頭開始建立工作區時，可以開始手動新增記錄型別。
+   * 以您選取的範本命名並填入範例記錄型別的工作區。 您可以進一步自訂記錄型別和工作區。
 
-1. 在新工作區標題的工作區名稱內按一下以重新命名，然後按Enter鍵
-
-   或
-
-   按一下 **更多** 功能表 ![](assets/more-menu.png)工作區名稱右側，然後按一下 **重新命名**.
+1. 在新工作區標題的工作區名稱內按一下以重新命名，然後按Enter鍵。
 
 1. （選擇性和條件性）如果您是從範本建立工作區，請按一下 **作業記錄型別** 或 **分類** 區段
 
@@ -153,25 +153,14 @@ ht-degree: 0%
 
    >[!TIP]
    >
-   >您可以從任何工作區重新命名任何區段，即使您建立了該區段亦然。
+   >您可以從任何工作區重新命名任何區段，即使您沒有建立該區段亦然。
 
-1. （可選）若要變更區段位置，請執行下列任一項作業：
-
-   * 將游標停留在區段名稱上，然後按一下 **抓取** 圖示 ![](assets/grab-icon.png)，然後將其拖放至正確的位置。
-   * 將游標停留在區段名稱上，然後按一下 **更多** 功能表 ![](assets/more-menu.png)，然後按一下 **上移** 或 **下移**. 區段在工作區中向上或向下移動。
-
-1. （可選）若要新增區段，請執行下列任一項作業：
-
-   * 按一下 **新增區段** 位於工作區底部。
-   * 將游標停留在區段名稱上，然後按一下 **更多** 功能表 ![](assets/more-menu.png)，然後按一下 **新增上述區段** 或 **在底下新增區段**.
+   如需有關編輯工作區的詳細資訊，包括編輯工作區區段，請參閱 [編輯工作區](/help/quicksilver/maestro/architecture/edit-workspaces.md).
 
 1. （選用）按一下 **新增記錄型別** 將記錄型別新增至任何區段中的工作區。
 
    如需詳細資訊，請參閱 [建立記錄型別](../architecture/create-record-types.md).
 
-1. （可選）若要刪除區段，請執行下列動作：
+   如需在工作區中編輯和刪除記錄型別的詳細資訊，請參閱 [編輯工作區](/help/quicksilver/maestro/architecture/edit-workspaces.md).
 
-   1. 暫留在區段名稱上，然後按一下 **更多** 功能表 ![](assets/more-menu.png)，然後按一下 **刪除**. <!--add screen shot when UI is final?-->
-   1. 選取新區段以將所有記錄型別移動至該區段，然後按一下 **刪除**. <!--check the button name; logged a bug to change it to "Delete" from "Delete section".-->
 
-      所有記錄型別都會移至選取區段，而區段會被刪除。
