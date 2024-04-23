@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 08de894a-82f0-4440-a350-680d6648f01e
-source-git-commit: f79d3243058e4b71d9825c2b219730e9bc44944e
+source-git-commit: 3e97df265df83965d094d8723fe76043ff4af80e
 workflow-type: tm+mt
-source-wordcount: '1124'
+source-wordcount: '1220'
 ht-degree: 0%
 
 ---
@@ -110,6 +110,10 @@ ht-degree: 0%
        <li> <p>沒有您在此指定許可權的使用者無法看到區段中的自訂欄位和Widget。 </p> <p>如果您在報表中顯示欄位值，或在文字模式報表的計算欄位中使用這些值，也會發生這種情況。</p> </li> 
        <li> <p>將多個物件型別與您的表單建立關聯，可以變更這些步驟中可用的檢視和編輯許可權。 如需詳細資訊，請參閱 <a href="#how-multiple-object-types-can-affect-section-break-permissions-in-a-custom-form" class="MCXref xref">多個物件型別如何影響自訂表單中的分割槽符號許可權</a> 本文章內容。</p> </li> 
         </ul> </p> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader"><p>新增邏輯</p></td> 
+      <td><p>根據使用者在填寫表單時於多選自訂欄位中所做的選擇，使用顯示邏輯來指定區段是否應顯示在表單上。</p><p><strong>注意：</strong> 如果分割槽符號下的所有個別欄位已套用顯示邏輯，並且它們都因該邏輯而隱藏，則整個分割槽將在自訂表單上隱藏。 即使顯示邏輯未套用至分割槽符號，也會發生這種情況。</p><p>如需詳細資訊，請參閱 <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/display-skip-logic-form-designer.md" class="MCXref xref">使用表單設計工具新增顯示邏輯和略過邏輯</a>.</p></td> 
      </tr> 
     </tbody> 
    </table>

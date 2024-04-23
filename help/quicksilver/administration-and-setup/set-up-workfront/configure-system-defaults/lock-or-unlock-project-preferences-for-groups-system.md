@@ -2,28 +2,28 @@
 user-type: administrator
 product-area: system-administration;projects
 navigation-topic: configure-system-defaults
-title: 鎖定或解鎖系統中所有組的項目首選項
-description: 組織中的群組可能需要針對其唯一工作流程以不同方式設定專案偏好設定。 您可以解除鎖定組織中所有群組的偏好設定，讓他們能夠自行設定。
-author: Caroline
+title: 鎖定或解除鎖定系統中所有群組的專案偏好設定
+description: 您組織中的群組可能需要針對其獨特工作流程以不同方式設定的專案偏好設定。 您可以解鎖整個組織中所有群組的偏好設定，以便他們自行設定。
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: f5a94eaf-ebb8-424b-80ff-ba40cc985a6e
-source-git-commit: 2fd772ffc667c4f32c6a7b0de9c87676ee6dd65b
+source-git-commit: 3e97df265df83965d094d8723fe76043ff4af80e
 workflow-type: tm+mt
-source-wordcount: '518'
+source-wordcount: '551'
 ht-degree: 0%
 
 ---
 
-# 鎖定或解鎖系統中所有組的項目首選項
+# 鎖定或解除鎖定系統中所有群組的專案偏好設定
 
-組織中的群組可能需要針對其唯一工作流程以不同方式設定專案偏好設定。 您可以解除鎖定組織中所有群組的偏好設定，讓他們能夠自行設定。
+您組織中的群組可能需要針對其獨特工作流程以不同方式設定的專案偏好設定。 您可以解鎖整個組織中所有群組的偏好設定，以便他們自行設定。
 
-當首選項被解除鎖定，並且組管理員修改它時，與組相關聯的項目從組級別設定而不是從系統級別設定獲取該首選項的配置。
+當偏好設定已解除鎖定且群組管理員修改時，與群組關聯的專案會從群組層級設定（而非系統層級設定）取得該偏好設定的組態。
 
 ## 存取需求
 
-您必須具備下列存取權，才能執行本文中的步驟：
+您必須具有下列存取權才能執行本文中的步驟：
 
 <table style="table-layout:auto"> 
  <col> 
@@ -35,40 +35,42 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 授權</td> 
-   <td>[!UICONTROL計畫]</td> 
+   <td>[！UICONTROL計畫]</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">訪問級別配置</td> 
-   <td> <p>您必須是 [!DNL Workfront] 管理員。</p> <p><b>注意</b>:如果您仍無法存取，請詢問您的 [!DNL Workfront] 管理員。 若要了解 [!DNL Workfront] 管理員可修改您的存取層級，請參閱 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>.</p> </td> 
+   <td role="rowheader">存取層級設定</td> 
+   <td> <p>您必須是 [!DNL Workfront] 管理員。</p> <p><b>注意</b>：如果您還是沒有存取權，請詢問您的 [!DNL Workfront] 管理員是否對您的存取層級設定其他限制。 如需瞭解如何 [!DNL Workfront] 管理員可以修改您的存取層級，請參閱 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## 關於鎖定和解除鎖定的偏好設定
+## 關於鎖定和未鎖定的偏好設定
 
-鎖定您在系統級別配置的項目、任務或問題首選項可確保每個人使用該首選項的相同設定。 雖然您仍可以重新設定您鎖定的偏好設定，但群組管理員無法為其群組重新設定該偏好設定。
+鎖定已在系統層級設定的專案、任務或問題偏好設定，可確保每個人都使用該偏好設定的相同設定。 雖然您仍然可以重新設定您鎖定的喜好設定，但群組管理員無法為其群組重新設定它。
 
-反之，解鎖項目、任務或問題首選項使組管理員能夠更靈活地管理其組處理這些項目的方式。 當首選項解除鎖定時，組管理員可以為其組重新配置它。
+反之，解鎖專案、任務或問題偏好設定可讓群組管理員擁有更大的彈性，可管理其群組處理這些專案的方式。 解鎖偏好設定時，群組管理員可以為其群組重新設定該偏好設定。
 
-有關鎖定或解鎖系統級項目、任務或問題首選項的說明，請參閱 [配置全系統任務和問題首選項](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
+如果欄位沒有鎖定/解鎖切換，則群組管理員無法解鎖該欄位，無法在群組層級進行設定。 組態僅可在系統層級使用。
+
+有關鎖定或解除鎖定系統層級專案、任務或問題偏好設定的指示，請參閱 [設定系統範圍的任務和問題偏好設定](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
 
 >[!NOTE]
 >
->之後 [!DNL Workfront] 管理員在系統級別解除對首選項的鎖定，任何組管理員都可以對其進行配置，然後將其鎖定，以確保組中的每個人以及下面的子組都使用相同的配置。 這與 [!DNL Workfront] 管理員必須配置並鎖定系統中每個人的首選項。 如需詳細資訊，請參閱 [配置組的項目首選項](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-project-preferences-group.md) 和 [鎖定或解除鎖定子組的項目、任務或問題首選項](../../../administration-and-setup/manage-groups/create-and-manage-groups/lock-or-unlock-a-group-preference.md).
+>之後 [!DNL Workfront] 管理員在系統層級解除鎖定偏好設定，任何群組管理員都可以對其進行設定，然後將其鎖定，以確保其群組中的所有人和下面的子群組都使用相同的設定。 此功能與 [!DNL Workfront] 管理員必須設定並鎖定系統中每個人的偏好設定。 如需詳細資訊，請參閱 [設定群組的專案偏好設定](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-project-preferences-group.md) 和 [鎖定或解除鎖定子群組的專案、任務或問題偏好設定](../../../administration-and-setup/manage-groups/create-and-manage-groups/lock-or-unlock-a-group-preference.md).
 
-## 解除鎖定專案偏好設定，讓群組可加以設定
+## 解鎖專案偏好設定，讓群組可以設定它
 
-1. 按一下 **[!UICONTROL 主菜單]** 圖示 ![](assets/main-menu-icon.png) 在 [!DNL Adobe Workfront]，然後按一下 **[!UICONTROL 設定]** ![](assets/gear-icon-settings.png).
+1. 按一下 **[!UICONTROL 主要功能表]** 圖示 ![](assets/main-menu-icon.png) 位於的右上角 [!DNL Adobe Workfront]，然後按一下 **[!UICONTROL 設定]** ![](assets/gear-icon-settings.png).
 
 1. 按一下 **[!UICONTROL 專案偏好設定]**，然後按一下 **[!UICONTROL 專案]**.
 
-1. 執行下列任一操作：
+1. 執行下列任一項作業：
 
-   * 如果希望組管理員能夠為其組配置首選項，請解除鎖定 ![](assets/unlock-toggle-button.png).
-   * 如果希望所有組都使用您的配置來獲取首選項，請確保它已鎖定（這是預設值）。
+   * 如果您希望群組管理員能夠設定其群組的偏好設定，請將其解鎖 ![](assets/unlock-toggle-button.png).
+   * 如果您希望所有群組都使用您的偏好設定設定，請確定它已被鎖定（這是預設值）。
 
-      >[!IMPORTANT]
-      >
-      >建議您與整個系統中群組的管理員和使用者通訊，以確保以您設定鎖定偏好設定的方式滿足所有需求。 當您鎖定它時，系統中的所有群組都會繼承您的設定。 如果首選項已在任意時間段內解除鎖定，則您的配置將替換組管理員可能所做的配置。
+     >[!IMPORTANT]
+     >
+     >我們建議您與整個系統群組內的管理員和使用者溝通，以確保以您設定鎖定偏好設定的方式考慮所有需求。 當您鎖定時，系統中的所有群組都會繼承您的設定。 如果偏好設定已解除鎖定任何時間段，您的設定會取代群組管理員可能已進行的設定。
 
-1. 按一下&#x200B;**[!UICONTROL 儲存]**。
+1. 按一下「**[!UICONTROL 儲存]**」。

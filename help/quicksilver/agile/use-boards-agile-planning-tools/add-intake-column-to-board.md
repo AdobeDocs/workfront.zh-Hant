@@ -7,10 +7,10 @@ description: 您可以選擇將輸入欄新增到您的展示板，在任務與�
 author: Lisa
 feature: Agile
 exl-id: 4991f4f7-6f3d-4e15-ae8d-96433ed46557
-source-git-commit: b816f41796e33fed81b76e80823c83fcb45d2b6b
+source-git-commit: 3e97df265df83965d094d8723fe76043ff4af80e
 workflow-type: tm+mt
-source-wordcount: '995'
-ht-degree: 2%
+source-wordcount: '1048'
+ht-degree: 1%
 
 ---
 
@@ -34,6 +34,10 @@ ht-degree: 2%
 * 主要順序：專案名稱
 * 次要順序：參考編號
 
+>[!IMPORTANT]
+>
+>如果有多位使用者同時使用主機板，建議經常重新整理主機板。 重新整理頁面有助於將展示板上的視覺變更保持最新，並防止重複卡片從引入欄移至展示板之類的問題。
+
 如需欄的詳細資訊，請參閱 [管理展示板欄](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md). 如需有關已連線卡片的資訊，請參閱 [在展示板上使用連線的卡片](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
 
 ## 存取需求
@@ -47,7 +51,7 @@ ht-degree: 2%
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] 計劃*</strong></td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] 計畫*</strong></td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
