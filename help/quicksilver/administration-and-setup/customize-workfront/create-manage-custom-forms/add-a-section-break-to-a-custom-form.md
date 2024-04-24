@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 44a52767-60a7-4aaa-b3b8-6b8fb7da7e72
-source-git-commit: 1bad65ff741cdd4273c07893044d42d6b8c826e0
+source-git-commit: 28961cda48ce4eec84ed272e660be6ba938be370
 workflow-type: tm+mt
 source-wordcount: '1238'
 ht-degree: 0%
@@ -223,3 +223,4 @@ You can click
 >您將Portfolio物件型別新增至表單，這表示限制編輯許可權選項不再可用於表單中的分割槽符號。
 >
 >熒幕上的訊息會提示您切換到「編輯」許可權，這是與「有限編輯」最相似的選項，並與「專案」物件型別和「Portfolio」物件型別相容。
+
