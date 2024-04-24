@@ -11,9 +11,10 @@ role: Admin
 hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
-source-git-commit: c0a841d8f6a4431ff95c1b1d5904c8f41a7c82ca
+exl-id: 0ac8c7df-2d38-4291-861e-52fb5e748537
+source-git-commit: 856b3422ef1e91a55a61acaee0bd4068a4508856
 workflow-type: tm+mt
-source-wordcount: '535'
+source-wordcount: '538'
 ht-degree: 0%
 
 ---
@@ -59,11 +60,9 @@ ht-degree: 0%
 1. 選取 **系統** 在左側導覽中，然後選取 **環境升級**.
 1. 從顯示的清單中選取封裝。
 1. （視條件而定）若要檢視封存（已停用）的套件，請啟用 **顯示已淘汰的封裝** 選項。
-1. 若要檢視內容（包括所有物件及其子物件），請按一下 **內容** 區段。
-1. 若要檢視此套件的先前安裝與安裝嘗試，請按一下 **部署**.
-1. 若要編輯封裝，請按一下 **編輯套裝** 在畫面的右上角。
+1. （選擇性）若要檢視內容（包括所有物件及其子物件），請按一下 **內容** 區段。
+1. （選擇性）若要檢視此套件的先前安裝與安裝嘗試，請按一下 **部署**.
+1. （選擇性）若要編輯套件，請按一下 **編輯套裝** 在畫面的右上角。
 1. 若要安裝套件，請按一下 **安裝** 在畫面的右上角。
 
    如需安裝套件的說明，請參閱 [安裝環境升級套件](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-install-package.md).
-
-

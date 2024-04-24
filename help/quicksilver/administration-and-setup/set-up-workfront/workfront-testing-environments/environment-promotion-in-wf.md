@@ -12,9 +12,9 @@ hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: 8b4c04f5-f519-44e9-8429-0ce80c2d7c5b
-source-git-commit: 0f760710ec7ec2029c37377fc9e732870d2ca575
+source-git-commit: ff225e6ed17c06c333806d25ed00e7f744da6f93
 workflow-type: tm+mt
-source-wordcount: '942'
+source-wordcount: '941'
 ht-degree: 1%
 
 ---
@@ -144,7 +144,7 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td>已停用</td> 
-   <td><p>此狀態將用於隱藏先前使用的促銷活動套件，這些套件日後不會安裝至任何環境。</p><p>當套件處於此狀態時，無法將其安裝在任何環境中。</p><p>當封裝狀態設定為DISABLED時， <code>retiredAt</code> 日期會自動設定為請求目前的時間戳記。</p><p>建議您使用此狀態，而不要使用<code>DELETE /package</code> 端點，因為它是可擷取的，而且會保留使用此套件進行的任何部署的安裝歷史記錄。</p></td> 
+   <td><p>此狀態用於隱藏先前使用的促銷活動套件，這些套件未來不會安裝至任何環境。</p><p>當套件處於此狀態時，無法將其安裝在任何環境中。</p><p>當封裝狀態設定為DISABLED時， <code>retiredAt</code> 日期會自動設定為請求目前的時間戳記。</p><p>建議您使用此狀態，而不要使用<code>DELETE /package</code> 端點因為它是可擷取的，而且會保留使用此封裝進行之任何部署的安裝歷史記錄。</p></td> 
   </tr> 
   <tr> 
    <td>ASSEMBLY_FAILED</td> 

@@ -12,9 +12,9 @@ hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: fe213fe7-5bb8-479c-926b-761cbdd7ba4e
-source-git-commit: 92a7a2df142d7736417b903949a5a667cff53913
+source-git-commit: bd27f98191637a3efd11c732890be0091feca89c
 workflow-type: tm+mt
-source-wordcount: '557'
+source-wordcount: '565'
 ht-degree: 0%
 
 ---
@@ -50,7 +50,7 @@ ht-degree: 0%
 
   即使未偵測到衝突，您也可以選擇要覆寫的物件。
 
-  有關覆寫如何影響父物件和子物件的詳細資訊，請參閱
+  如需有關覆寫如何影響父物件和子物件的詳細資訊，請參閱 [覆寫父物件和子物件](#overwriting-parent-and-child-objects) 本文章內容。
 <!--
 * Do not use: The object in the package is not installed in the target environment. If you select Do not use, an error message will appear detailing how this choice will affect other objects or fields.
 -->
