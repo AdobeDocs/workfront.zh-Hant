@@ -9,9 +9,9 @@ description: 您可以使用Adobe Workfront面板聯結器在Workfront面板中�
 author: Becky
 feature: Workfront Fusion, Workfront Integrations and Apps
 exl-id: 0b4a25f7-a8f1-47f4-8929-7eff82f1dfdc
-source-git-commit: 9b4e1b4227b15a6998966838552a5058675fa9a0
+source-git-commit: 7003ea4b6daba68957ef0ec501ecfd4a8d750d4c
 workflow-type: tm+mt
-source-wordcount: '2325'
+source-wordcount: '2591'
 ht-degree: 1%
 
 ---
@@ -261,7 +261,7 @@ After the webhook is created, you can view the address of the endpoint that even
   </tr> 
   <tr> 
    <td>[！UICONTROL資料行ID]</td> 
-   <td>輸入或對應您要新增子工作的資料行ID。<p>您可以從讀取展示板模組傳回的資訊中找到標籤ID。</p></td> 
+   <td>輸入或對應您要新增子工作的資料行ID。<p>您可以從讀取展示板模組傳回的資訊中找到欄ID。</p></td> 
   </tr> 
   <tr> 
    <td>[！UICONTROL名稱]</td> 
@@ -292,7 +292,7 @@ After the webhook is created, you can view the address of the endpoint that even
   </tr> 
   <tr> 
    <td>[！UICONTROL目的地資料行ID]</td> 
-   <td>輸入或對應您要移動卡片的目標欄ID。<p>您可以從讀取展示板模組傳回的資訊中找到標籤ID。</p></td> 
+   <td>輸入或對應您要移動卡片的目標欄ID。<p>您可以從讀取展示板模組傳回的資訊中找到欄ID。</p></td> 
   </tr> 
   <tr> 
    <td>[！UICONTROL至索引]</td> 
@@ -346,7 +346,7 @@ After the webhook is created, you can view the address of the endpoint that even
   </tr> 
   <tr> 
    <td>[！UICONTROL卡片ID]</td> 
-   <td>輸入或對應卡片/\的新說明。</p></td> 
+   <td>輸入或對映卡片的新說明。</p></td> 
   </tr> 
  </tbody> 
 </table>
@@ -400,6 +400,10 @@ After the webhook is created, you can view the address of the endpoint that even
 
 ### 欄
 
+* [建立欄](#create-a-column)
+* [搜尋欄](#search-for-a-column)
+* [更新欄](#update-a-column)
+
 #### 建立欄
 
 此動作模組會在指定的展示板上建立新欄。
@@ -417,8 +421,62 @@ After the webhook is created, you can view the address of the endpoint that even
    <td>輸入或對應您要新增欄的展示板ID。<p>在Workfront中檢視展示板時，您可以在URL中找到展示板ID。</p></td> 
   </tr> 
   <tr> 
+   <td>[！UICONTROL資料行ID]</td> 
+   <td>輸入或對應您要更新之欄的ID。<p>您可以從讀取展示板模組傳回的資訊中找到欄ID。</p></td> 
+  </tr> 
+  <tr> 
    <td>[！UICONTROL欄名稱]</td> 
-   <td>輸入或對應新欄的名稱。</td> 
+   <td>輸入或對映欄的新名稱。</td> 
+  </tr> 
+  <tr> 
+   <td>[！UICONTROL WIP限制]</td> 
+   <td>輸入或對應欄位的新在製品限制。</td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### 搜尋欄
+
+此搜尋模組會傳回指定名稱之資料行的相關資訊。
+
+<table style="table-layout:auto">
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td>[！UICONTROL Connection]</td> 
+      <td> <p>您可以使用現有的Workfront連線來連線至Workfront面板，或使用特定的Workfront面板連線。 </p><p>如需有關連線您的電腦的指示 [!DNL Workfront] 應用程式至 [!DNL Workfront Fusion]，請參閱 <a href="#create-a-connection-to-workfront-boards" class="MCXref xref">建立與Workfront展示板的連線</a> 本文章內容。</p> </td> 
+  </tr> 
+  <tr> 
+   <td>[！UICONTROL展示板ID]</td> 
+   <td>輸入或對應包含您要擷取之欄的展示板ID。<p>在Workfront中檢視展示板時，您可以在URL中找到展示板ID。</p></td> 
+  </tr> 
+  <tr> 
+   <td>[！UICONTROL欄名稱]</td> 
+   <td>輸入或對應您要擷取的資料行名稱。</td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### 更新欄
+
+此動作模組會更新指定欄的名稱或WIP限制。
+
+<table style="table-layout:auto">
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td>[！UICONTROL Connection]</td> 
+      <td> <p>您可以使用現有的Workfront連線來連線至Workfront面板，或使用特定的Workfront面板連線。 </p><p>如需有關連線您的電腦的指示 [!DNL Workfront] 應用程式至 [!DNL Workfront Fusion]，請參閱 <a href="#create-a-connection-to-workfront-boards" class="MCXref xref">建立與Workfront展示板的連線</a> 本文章內容。</p> </td> 
+  </tr> 
+  <tr> 
+   <td>[！UICONTROL展示板ID]</td> 
+   <td>輸入或對應包含您要擷取之欄的展示板ID。<p>在Workfront中檢視展示板時，您可以在URL中找到展示板ID。</p></td> 
+  </tr> 
+  <tr> 
+   <td>[！UICONTROL欄名稱]</td> 
+   <td>輸入或對應您要擷取的資料行名稱。</td> 
   </tr> 
  </tbody> 
 </table>
