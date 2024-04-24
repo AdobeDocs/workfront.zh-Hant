@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 08de894a-82f0-4440-a350-680d6648f01e
-source-git-commit: 3e97df265df83965d094d8723fe76043ff4af80e
+source-git-commit: 1bad65ff741cdd4273c07893044d42d6b8c826e0
 workflow-type: tm+mt
-source-wordcount: '1220'
+source-wordcount: '1285'
 ht-degree: 0%
 
 ---
@@ -108,6 +108,7 @@ ht-degree: 0%
        <p><b>注意</b>：  
        <ul> 
        <li> <p>沒有您在此指定許可權的使用者無法看到區段中的自訂欄位和Widget。 </p> <p>如果您在報表中顯示欄位值，或在文字模式報表的計算欄位中使用這些值，也會發生這種情況。</p> </li> 
+       <li><p>針對請求/問題自訂表單：如果需要檢視存取權才能檢視分割槽符號中的欄位，但需要管理員存取權才能編輯欄位，則非管理員在填寫表單時將看不到分割槽及其所有欄位。 建立請求後，擁有檢視存取許可權的使用者即可檢視區段中的欄位。</p></li>
        <li> <p>將多個物件型別與您的表單建立關聯，可以變更這些步驟中可用的檢視和編輯許可權。 如需詳細資訊，請參閱 <a href="#how-multiple-object-types-can-affect-section-break-permissions-in-a-custom-form" class="MCXref xref">多個物件型別如何影響自訂表單中的分割槽符號許可權</a> 本文章內容。</p> </li> 
         </ul> </p> </td> 
      </tr> 
