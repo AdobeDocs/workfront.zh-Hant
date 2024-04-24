@@ -12,9 +12,9 @@ hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: 8b4c04f5-f519-44e9-8429-0ce80c2d7c5b
-source-git-commit: ff225e6ed17c06c333806d25ed00e7f744da6f93
+source-git-commit: 4c40920028ca0b8ac797ad0854291e2ae82a07b2
 workflow-type: tm+mt
-source-wordcount: '941'
+source-wordcount: '995'
 ht-degree: 1%
 
 ---
@@ -36,7 +36,9 @@ ht-degree: 1%
 
 ## 環境推進的支援物件
 
-「環境升級」功能的目的是提供與組態相關的物件從一個環境移動到另一個環境的功能。 不支援移動異動物件的功能（只有少數例外）。
+環境推進功能的用意是提供與組態相關的物件從一個環境移動到另一個環境的功能。 這些是可設定的物件，例如專案、團隊或自訂表單。
+
+環境升級不支援移動異動物件的功能（但有少數例外）。 無法設定異動物件。 範例包括系統活動更新和校訂決定。
 
 * [工作物件](#work-objects)
 * [報表物件](#reporting-objects)
@@ -124,15 +126,15 @@ ht-degree: 1%
  <tbody> 
   <tr> 
    <td>未組裝</td> 
-   <td><p>此狀態會自動指派，代表已儲存但尚未組裝的封裝。 </p><p>客戶無法直接設定此狀態。</p></td> 
+   <td><p>此狀態會自動指派，代表已儲存但尚未組裝的封裝。 </p><p>使用者無法直接設定此狀態。</p></td> 
   </tr> 
   <tr> 
    <td>組裝</td> 
-   <td><p>組裝物件時，會自動指定此狀態。 </p><p>組合是指識別要包含在封裝中的物件和子物件，並將這些物件及其資料加入封裝的自動化程式。</p><p>客戶無法直接設定此狀態。</p></td> 
+   <td><p>組裝物件時，會自動指定此狀態。 </p><p>組合是指識別要包含在封裝中的物件和子物件，並將這些物件及其資料加入封裝的自動化程式。</p><p>使用者無法直接設定此狀態。</p></td> 
   </tr> 
   <tr> 
    <td>草稿</td> 
-   <td><p>此狀態會在元件流程結束時或建立空推進封裝時指派。</p><p>客戶可以將促銷套件移回此狀態。</p><p>處於此狀態時，升級套件無法安裝在任何環境中。</p></td> 
+   <td><p>此狀態會在元件流程結束時或建立空推進封裝時指派。</p><p>使用者可以將促銷活動套件移回此狀態。</p><p>處於此狀態時，升級套件無法安裝在任何環境中。</p></td> 
   </tr> 
   <tr> 
    <td>測試</td> 
@@ -144,11 +146,11 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td>已停用</td> 
-   <td><p>此狀態用於隱藏先前使用的促銷活動套件，這些套件未來不會安裝至任何環境。</p><p>當套件處於此狀態時，無法將其安裝在任何環境中。</p><p>當封裝狀態設定為DISABLED時， <code>retiredAt</code> 日期會自動設定為請求目前的時間戳記。</p><p>建議您使用此狀態，而不要使用<code>DELETE /package</code> 端點因為它是可擷取的，而且會保留使用此封裝進行之任何部署的安裝歷史記錄。</p></td> 
+   <td><p>此狀態用於隱藏先前使用的促銷活動套件，這些套件未來不會安裝至任何環境。</p><p>當套件處於此狀態時，無法將其安裝在任何環境中。</p><p>當封裝狀態設定為DISABLED時， <code>retiredAt</code> 日期會自動設定為請求目前的時間戳記。</p><p>建議您使用此狀態，而不要使用 <code>DELETE /package</code> 端點因為它是可擷取的，而且會保留使用此封裝進行之任何部署的安裝歷史記錄。</p></td> 
   </tr> 
   <tr> 
    <td>ASSEMBLY_FAILED</td> 
-   <td><p>如果ASSEMBLY階段失敗，則推進封裝會自動處於此狀態。</p><p>若要將封裝返回ASSEMBLING階段，您必須再次觸發提取程式。</p></td> 
+   <td><p>如果ASSEMBLY階段失敗，則推進封裝會自動處於此狀態。</p><p>若要將封裝返回ASSEMBLING階段，您必須再次觸發組裝過程。</p><p>如需組裝套件的詳細資訊，請參閱區段 <a href="https://experienceleague.adobe.com/en/docs/workfront/using/administration-and-setup/set-up-wf/testing-environments/environment-promotion-create-package#edit-or-assemble-an-existing-package">編輯或組合現有套件</a> 在建立或編輯環境促銷活動套件一文中。</td> 
   </tr> 
   </tbody> 
 </table>
