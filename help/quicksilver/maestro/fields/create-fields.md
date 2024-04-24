@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: 6b746b3cdd0fa38607ba3230d44e1b9f3f12b6d6
+source-git-commit: 2f8a5b2d2183090029966a13c7af37f20eb44fd0
 workflow-type: tm+mt
-source-wordcount: '3277'
+source-wordcount: '3283'
 ht-degree: 2%
 
 ---
@@ -43,11 +43,11 @@ recommendations: noDisplay, noCatalog
 
 * 從頭開始
 * 透過連線記錄型別
-* 使用Excel和CSV檔案匯入記錄型別
+* 使用Excel或CSV檔案匯入記錄型別
 * 藉由建立記錄型別
 * 從範本建立工作區
 
-如需有關Maestro欄位的詳細資訊，請參閱 [欄位概述](../fields/fields-overview.md)
+如需有關Maestro欄位的詳細資訊，請參閱 [欄位概述](/help/quicksilver/maestro/fields/fields-overview.md).
 
 ## 存取需求
 
@@ -93,7 +93,7 @@ recommendations: noDisplay, noCatalog
 <tr>
    <td role="rowheader"><p>權限</p></td>
    <td> <p>管理工作區的許可權</a> </p>  
-   <p>系統管理員擁有所有工作區的許可權，包括他們未建立的工作區</p>
+   <p>系統管理員擁有所有工作區的許可權，包括他們未建立的工作區。</p>
 </td>
   </tr>
 <tr>
@@ -168,7 +168,7 @@ recommendations: noDisplay, noCatalog
    * **說明**：欄位的其他相關資訊。 當您將滑鼠懸停在表格中的欄位欄標題上時，會顯示欄位說明。
 1. 按一下「**建立**」。
 
-   新的單行欄位會新增為記錄型別的欄，其值可與記錄相關聯。
+   新的單行欄位會新增為記錄型別的欄，其值可以與記錄相關聯。
 
 
 ### 段落 {#paragraph}
@@ -210,7 +210,7 @@ recommendations: noDisplay, noCatalog
 1. 按一下 **新增選擇** 以視需要新增更多選擇。 您可以在多重選取欄位中新增多少選擇，沒有限制。
 1. （選用）以所需順序手動拖放每個選項，或選取
    **將選項按A-Z排序** 選項。 <!--Add this if they added this functionality: You cannot edit this option after you save the field.-->
-1. 按一下 **x** 圖示加以移除。
+1. （選擇性）若要移除選擇，請按一下 **x** 圖示加以顯示。
 1. 按一下選項左側的色票，即可展開顏色選取器並自訂每個選項的顏色。
 1. 按一下「**建立**」。
 
@@ -232,7 +232,7 @@ recommendations: noDisplay, noCatalog
 
 1. 按一下 **新增選擇** 以視需要新增更多選擇。 您可以新增多少選項至單一選取欄位，沒有限制。
 1. （選用）以所需順序手動拖放每個選項，或選取 **將選項按A-Z排序** 選項。 <!--Add this if they added this functionality: You cannot edit this option after you save the field.-->
-1. 按一下 **x** 圖示加以移除。
+1. （選擇性）若要移除選擇，請按一下 **x** 圖示加以顯示。
 1. 按一下選項左側的色票，即可展開顏色選取器並自訂每個選項的顏色。
 1. 按一下「**建立**」。
 
@@ -267,7 +267,7 @@ recommendations: noDisplay, noCatalog
 
 1. 按一下「**建立**」。
 
-   新的日期欄位會新增為記錄型別的欄，其值可與記錄相關聯。
+   新的日期欄位會新增為記錄型別的欄，其值可以與記錄相關聯。
 
 ### 數字 {#number}
 
@@ -334,7 +334,7 @@ recommendations: noDisplay, noCatalog
 
 1. 按一下「**建立**」。
 
-   新貨幣欄位會新增為記錄型別的欄，其值可與記錄相關聯。
+   新的貨幣欄位會新增為記錄型別的欄，其值可以與記錄相關聯。
 
 ### 核取方塊
 
@@ -349,7 +349,7 @@ recommendations: noDisplay, noCatalog
    * **說明**：欄位的其他相關資訊。 當您將滑鼠游標停留在表格中的欄位欄位上時，會顯示欄位說明。
 1. 按一下「**建立**」。
 
-   新的核取方塊欄位會新增為記錄型別的欄，其值可與記錄相關聯。
+   新的核取方塊欄位會新增為記錄型別的欄，其值可以與記錄相關聯。
 
 ### 公式
 
@@ -373,7 +373,7 @@ recommendations: noDisplay, noCatalog
 
    如需支援哪些運算式的詳細資訊，請參閱 [公式欄位概觀](/help/quicksilver/maestro/fields/formula-fields.md)
 
-1. 新增在Workfront Planning介面中顯示的欄位名稱，以在公式中參照它們。
+1. 新增在Workfront Planning中顯示的欄位名稱，以在公式中參照它們。
 
    >[!NOTE]
    >
@@ -383,12 +383,12 @@ recommendations: noDisplay, noCatalog
 
 1. 按一下「**建立**」。
 
-   新的公式欄位會新增為記錄型別的欄，其值可與記錄相關聯。
+   新的公式欄位會新增為記錄型別的欄，其值可以與記錄相關聯。
 
 
 ### 人員
 
-您可以使用「人員」欄位型別來新增使用者 <!--, job role, or team--> 至記錄。 這是預先輸入欄位，您只能新增使用者<!--, roles, or teams--> 已存在於Workfront中的屬性。
+您可以使用「人員」欄位型別來新增使用者 <!--, job role, or team--> 至記錄。 這是預先輸入欄位，您只能新增使用者<!--, roles, or teams--> 已存在於您的Workfront例項中。
 
 1. 依照一節所述開始建立欄位 [從頭開始建立欄位](#create-fields-from-scratch) 在本文章中，然後選取 **人員** 欄位型別。
 
@@ -514,7 +514,7 @@ recommendations: noDisplay, noCatalog
 
 如需有關連線Workfront Planning記錄型別的資訊，請參閱 [連線記錄型別](../architecture/connect-record-types.md)
 
-## 使用Excel和CSV檔案匯入記錄型別來建立欄位
+## 使用Excel或CSV檔案匯入記錄型別來建立欄位
 
 如需詳細資訊，請參閱 [建立記錄型別](../architecture/create-record-types.md).
 

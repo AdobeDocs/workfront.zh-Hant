@@ -6,9 +6,9 @@ description: 您可以手動對齊兩個目標，也可以將現有目標的結�
 author: Alina
 feature: Workfront Goals
 exl-id: 48371389-952c-4732-b519-9774cd4d1b93
-source-git-commit: c24adf93172d002ea636904d62f531a8e69aace4
+source-git-commit: 2f8a5b2d2183090029966a13c7af37f20eb44fd0
 workflow-type: tm+mt
-source-wordcount: '664'
+source-wordcount: '652'
 ht-degree: 15%
 
 ---
@@ -80,7 +80,6 @@ ht-degree: 15%
 
 開始之前，您必須具備下列條件：
 
-* 包含主功能表中目標區域的版面配置範本。
 * 具有現有結果和活動的現有目標。
 
   如需建立目標的相關資訊，請參閱 [在Adobe Workfront目標中建立目標](../../workfront-goals/goal-management/create-goals.md).

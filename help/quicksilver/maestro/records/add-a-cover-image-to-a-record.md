@@ -1,15 +1,17 @@
 ---
 title: 新增封面影像至記錄
-description: 您可以在Adobe Workfront Planning中編輯記錄資訊，並將每個記錄與封面影像建立關聯，以個人化記錄的頁面。
+description: 編輯記錄時，您可以在Adobe Workfront Planning中將封面影像新增至記錄頁面，以個人化記錄。
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 6bea34403e45c2b50986f79272f7a46959d67c6d
+exl-id: 93c6bc15-d945-4cfc-8e87-f5b4e6fac2f4
+source-git-commit: 2f8a5b2d2183090029966a13c7af37f20eb44fd0
 workflow-type: tm+mt
-source-wordcount: '556'
+source-wordcount: '563'
 ht-degree: 0%
 
 ---
+
 
 <!--update the metadata with real information-->
 
@@ -17,9 +19,12 @@ ht-degree: 0%
 
 {{maestro-important-intro}}
 
-您可以在Adobe Workfront Planning中編輯記錄資訊，並將每個記錄與封面影像建立關聯，以個人化記錄的頁面。
+編輯記錄時，您可以在Adobe Workfront Planning中將封面影像新增至記錄頁面，以個人化記錄。
+
+如需有關編輯記錄的資訊，請參閱 [編輯記錄](/help/quicksilver/maestro/records/edit-records.md).
 
 您必須先建立記錄型別，才能開始建立和編輯記錄。
+
 如需詳細資訊，請參閱 [建立記錄型別](../architecture/create-record-types.md).
 
 ## 存取需求
@@ -81,14 +86,15 @@ ht-degree: 0%
 
 ## 關於紀錄頁封面影像的考量事項
 
-您可以新增封面影像以個人化記錄頁面。 影像對每個記錄都是獨一無二的，不會套用至相同型別的所有記錄。
+您可以新增封面影像以個人化記錄頁面。
 
 請考量下列事項：
 
+* 封面影像隻適用於一筆記錄，不適用於相同型別的所有記錄。
 * 您只能將影像檔案新增為封面影像。
   <!--above: when you know exactly what type of files are allowed, add the exact extensions above-->
 * 您可以從任何檢視的記錄方塊或記錄頁面，將封面影像新增至個別記錄。
-* 您無法從表格檢視內嵌加入封面影像。
+* 您無法從任何記錄檢視中內嵌新增封面影像。
 
 ## 新增封面影像至記錄
 

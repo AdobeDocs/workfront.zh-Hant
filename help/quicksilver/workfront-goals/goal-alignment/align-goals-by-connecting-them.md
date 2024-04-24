@@ -6,10 +6,10 @@ description: 如果您是有個人目標的個人投稿人，您可能希望將�
 author: Alina
 feature: Workfront Goals
 exl-id: 4276f1c9-2ee9-4f74-b011-ae1e19fefe35
-source-git-commit: c24adf93172d002ea636904d62f531a8e69aace4
+source-git-commit: 2f8a5b2d2183090029966a13c7af37f20eb44fd0
 workflow-type: tm+mt
-source-wordcount: '797'
-ht-degree: 1%
+source-wordcount: '775'
+ht-degree: 0%
 
 ---
 
@@ -90,12 +90,6 @@ ht-degree: 1%
 </table>
 
 *如需詳細資訊，請參閱 [Workfront檔案中的存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
-
-## 先決條件
-
-開始之前，您必須具備下列條件：
-
-* 包含主功能表中目標區域的版面配置範本。
 
 ## 藉由將目標相互連線來對齊目標
 

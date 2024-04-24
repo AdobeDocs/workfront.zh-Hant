@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 10dee6f9-06ff-435a-81a4-2125642fab59
-source-git-commit: 6bea34403e45c2b50986f79272f7a46959d67c6d
+source-git-commit: 2f8a5b2d2183090029966a13c7af37f20eb44fd0
 workflow-type: tm+mt
-source-wordcount: '355'
+source-wordcount: '364'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,9 @@ ht-degree: 0%
 
 >[!INFO]
 >
->**範例：** 請求者（或根據新授權模型的共同作業人員）無法貢獻或管理工作區及其物件。
+>**範例：**
+>
+>請求者（或根據新授權模型的共同作業人員）無法貢獻或管理工作區及其物件。
 >
 >共用方塊中會顯示當使用者擁有較低層級的授權時，無法授予他們貢獻或管理工作區的許可權。
 >
@@ -45,8 +47,10 @@ ht-degree: 0%
 將使用者許可權授予工作區也會授予他們記錄型別、記錄和欄位的許可權。
 
 
-| Adobe Workfront授權型別 | Adobe Workfront Planning中允許的許可權 |
+| Adobe Workfront授權型別* | Adobe Workfront Planning中允許的許可權 |
 |------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 新增：標準 <br> 或 <br>目前：計畫 | 使用者可以建立和管理工作區、記錄型別和記錄。<br> 系統管理員擁有所有工作區的管理許可權，包括他們未建立的工作區。 |
 | 新增：淺色 <br> 或 <br>目前：工作 | 使用者可以貢獻並檢視與他們共用的工作區，以及該工作區的記錄型別和記錄。 <br> 使用者擁有貢獻許可權，可在工作區中建立、編輯、刪除記錄。 |
 | 新增：投稿人 <br> 或 <br>目前：檢閱者或要求者 | 使用者可以檢視與其共用的工作區，以及這些工作區的記錄型別和記錄。 <br> 使用者無法建立、編輯或刪除記錄型別或記錄。 |
+
+*如需詳細資訊，請參閱 [Workfront檔案中的存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
