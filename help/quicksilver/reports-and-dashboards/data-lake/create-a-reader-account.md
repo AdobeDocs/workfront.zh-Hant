@@ -8,16 +8,18 @@ author: Nolan
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: 70d83a10-f926-4229-ac10-7659f2ca5e7a
-source-git-commit: 912f46c87170d6b678d885ccc1fb0170526578df
+source-git-commit: e5bd25315062ad15ccd3448e008dfe94f1b616da
 workflow-type: tm+mt
-source-wordcount: '564'
+source-wordcount: '469'
 ht-degree: 0%
 
 ---
 
 # 建立用於Snowflake的讀取器（服務）帳戶
 
-若要存取Workfront Data Lake資料，您必須先建立讀取器帳戶以進行Snowflake。 此外，您必須將IP新增至您打算連線至資料的任何外部工具的允許清單。
+若要存取Workfront Data Lake資料，您必須先為每個新連線建立Snowflake讀取器（或服務）帳戶。 建立連線後，按一下 **資料存取** 頁面(**主功能表** > **設定** > **系統** > **資料存取**)下 **現有連線** 標籤。
+
+如需將新建立的連線與外部產品搭配使用的詳細資訊，請參閱 [建立與Workfront資料湖的連線](/help/quicksilver/reports-and-dashboards/data-lake/share-data-externally.md).
 
 ## 存取需求
 
@@ -68,28 +70,12 @@ ht-degree: 0%
 
 1. 您現在可以使用使用者名稱和新密碼，在Snowflake或您選擇的業務視覺化工具中存取您的Workfront Data Lake。
 
-## 將IP新增至允許清單
-
-1. 按一下 **[!UICONTROL 主要功能表]** 圖示 ![主要功能表](/help/_includes/assets/main-menu-icon.png) 在Adobe Workfront的右上角，或（如果有的話）按一下 **[!UICONTROL 主要功能表]** 圖示 ![主要功能表](/help/_includes/assets/main-menu-icon-left-nav.png) 然後按一下「 」 **設定**.
-
-1. 在左側面板中，按一下 **系統** > **資料存取**.
-
-1. 按一下 **允許的IP** 標籤，然後按一下 **新增IP位址到您的允許清單** 按鈕。
-
-1. 在中輸入IP位址的名稱 **IP位址說明** 並輸入您要用於工具的網址 **IP位址**，然後按一下 **新增IP至允許清單**.
-
-   ![新增IP位址](/help/quicksilver/reports-and-dashboards/data-lake/assets/add-IP-allowlist.png) {width="500"}
-
-## 撤銷Reader帳戶或從允許清單中移除IP位址
+## 撤銷Reader帳戶
 
 1. 按一下 **[!UICONTROL 主要功能表]** 圖示 ![主要功能表](/help/_includes/assets/main-menu-icon.png) 在Adobe Workfront的右上角，或（如果有的話）按一下 **[!UICONTROL 主要功能表]** 圖示 ![主要功能表](/help/_includes/assets/main-menu-icon-left-nav.png) 然後按一下「 」 **設定**.
 
 1. 在左側面板中，按一下 **系統** > **資料存取**.
 
 1. 按一下垃圾桶圖示 ![「刪除」圖示](/help/quicksilver/reports-and-dashboards/data-lake/assets/delete.png) 位於您要撤銷之帳戶的右側。
-
-   或
-
-   按一下 **允許的IP** 標籤，然後按一下垃圾桶圖示 ![「刪除」圖示](/help/quicksilver/reports-and-dashboards/data-lake/assets/delete.png) 右邊的IP位址。
 
 1. 在出現的視窗中，核取方塊以確認，然後按一下 **刪除**.

@@ -6,10 +6,10 @@ description: 新首頁是管理您工作的強大新功能。 您可以自訂此
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 40bb32f0-acc7-4a22-92b9-bab9dc7c987b
-source-git-commit: 4c17466705873b06e7ea7bb08bb78a7e68078f8b
+source-git-commit: e5bd25315062ad15ccd3448e008dfe94f1b616da
 workflow-type: tm+mt
-source-wordcount: '1119'
-ht-degree: 6%
+source-wordcount: '1135'
+ht-degree: 5%
 
 ---
 
@@ -67,7 +67,7 @@ Widget是新首頁的基礎。 將Widget新增至首頁後，您就可以選擇�
 
   >[!NOTE]
   >
-  >您必須有建立任務的許可權，才能在待辦事項Widget中建立待辦事項。
+  >您必須有建立任務的許可權，才能在待辦事項Widget中建立待辦事項，而且只有由目前使用者輸入的個人任務才會顯示在Widget中。
 
 依預設，首頁會根據您的授權型別，填入幾個特定的Widget。 下表概述各授權型別使用者第一次導覽至「新首頁」時所看到的Widget。
 

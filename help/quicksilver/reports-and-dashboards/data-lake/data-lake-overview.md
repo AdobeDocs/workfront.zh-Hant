@@ -8,9 +8,9 @@ author: Nolan
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: 5224c12a-7879-491b-87ec-6173bcf9525c
-source-git-commit: 912f46c87170d6b678d885ccc1fb0170526578df
+source-git-commit: e5bd25315062ad15ccd3448e008dfe94f1b616da
 workflow-type: tm+mt
-source-wordcount: '163'
+source-wordcount: '161'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ Workfront Data Lake可讓您使用Snowflake技術前所未有地存取Workfront�
 如需Workfront Data Lake的詳細資訊，請參閱下列文章：
 
 * [Workfront data lake beta版資訊](/help/quicksilver/product-announcements/betas/data-lake-beta/data-lake-beta-information.md)
-* [建立讀者帳戶](/help/quicksilver/reports-and-dashboards/data-lake/create-a-reader-account.md)
+* [建立用於Snowflake的讀取器（服務）帳戶](/help/quicksilver/reports-and-dashboards/data-lake/create-a-reader-account.md)
+* [建立與Workfront資料湖的連線](/help/quicksilver/reports-and-dashboards/data-lake/share-data-externally.md)
 * [Workfront data lake資料字典](/help/quicksilver/reports-and-dashboards/data-lake/data-dictionary.md)
-* [與商業智慧工具和外部資料倉儲共用資料湖資料](/help/quicksilver/reports-and-dashboards/data-lake/share-data-externally.md)
 <!-- * [Basic Workfront data lake query examples](/help/quicksilver/reports-and-dashboards/data-lake/basic-query-examples.md) -->
