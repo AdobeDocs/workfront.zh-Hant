@@ -5,7 +5,7 @@ title: 使用Workfront Fusion建立具有Adobe Experience Manager工作流程的
 description: 如果您透過Workfront Fusion建立專案，並想在專案中加入Adobe Experience Manager工作流程，您必須使用特定的Fusion模組設定，如本文所述。
 author: Becky
 feature: Digital Content and Documents, Workfront Integrations and Apps, Workfront Fusion
-source-git-commit: df8f99da107f50eb1302188aa544f45b7b451966
+source-git-commit: 308118e94f76ac1fb070282d31fbba5cac5312fe
 workflow-type: tm+mt
 source-wordcount: '876'
 ht-degree: 0%
@@ -156,4 +156,7 @@ ht-degree: 0%
 在Fusion中設定模組的連線時，您將使用此使用者端ID和使用者端密碼。
 
 如需建立連線的指示，請參閱 [連線 [!DNL Workfront] 至 [!DNL Workfront Fusion]](/help/quicksilver/workfront-fusion/apps-and-their-modules/workfront-modules.md#connect-workfront-to-workfront-fusion) 在Workfront模組文章中。
+
+
+
 
