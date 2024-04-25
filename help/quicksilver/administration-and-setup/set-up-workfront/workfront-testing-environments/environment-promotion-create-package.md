@@ -12,9 +12,9 @@ hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: 0ac8c7df-2d38-4291-861e-52fb5e748537
-source-git-commit: 856b3422ef1e91a55a61acaee0bd4068a4508856
+source-git-commit: 6497bfa1bf8236baaf4beee38078426b754e1241
 workflow-type: tm+mt
-source-wordcount: '538'
+source-wordcount: '536'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,11 @@ ht-degree: 0%
 1. 從清單中選取一或多個物件，或在搜尋列中鍵入名稱，並在物件出現在清單中時選取物件。 您可以在清單中選取多個物件。
 1. 按一下 **新增（X個物件）** 將選取的物件加入封裝。
 
-   例如，如果您已選取三個專案以新增至專案，按鈕會顯示 **新增3個專案**.
+   >[!INFO]
+   >
+   >**範例**
+   >
+   >如果您選取了三個專案以新增至專案，按鈕會顯示 **新增3個專案**.
 
    您新增的物件會顯示在頁面右側的「封裝內容」區域中。
 
@@ -59,7 +63,7 @@ ht-degree: 0%
 1. 按一下 **[!UICONTROL 主要功能表]** 圖示 ![主要功能表](/help/_includes/assets/main-menu-icon.png) 在Adobe Workfront的右上角，或（如果有的話）按一下 **[!UICONTROL 主要功能表]** 圖示 ![主要功能表](/help/_includes/assets/main-menu-icon-left-nav.png) 然後按一下「 」 **[!UICONTROL 設定]** ![「設定」圖示](/help/_includes/assets/gear-icon-setup.png).
 1. 選取 **系統** 在左側導覽中，然後選取 **環境升級**.
 1. 從顯示的清單中選取封裝。
-1. （視條件而定）若要檢視封存（已停用）的套件，請啟用 **顯示已淘汰的封裝** 選項。
+1. （視條件而定）若要檢視停用的套件，請啟用 **顯示已淘汰的封裝** 選項。
 1. （選擇性）若要檢視內容（包括所有物件及其子物件），請按一下 **內容** 區段。
 1. （選擇性）若要檢視此套件的先前安裝與安裝嘗試，請按一下 **部署**.
 1. （選擇性）若要編輯套件，請按一下 **編輯套裝** 在畫面的右上角。

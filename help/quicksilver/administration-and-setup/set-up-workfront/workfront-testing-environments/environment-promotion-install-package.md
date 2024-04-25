@@ -12,14 +12,22 @@ hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: fe213fe7-5bb8-479c-926b-761cbdd7ba4e
-source-git-commit: bd27f98191637a3efd11c732890be0091feca89c
+source-git-commit: 6497bfa1bf8236baaf4beee38078426b754e1241
 workflow-type: tm+mt
-source-wordcount: '565'
+source-wordcount: '601'
 ht-degree: 0%
 
 ---
 
 # 安裝環境升級套件
+
+建立套件後，您可以在不同的環境中安裝它。
+
+## 先決條件
+
+您必須先建立封裝，才能進行安裝。
+
+如需指示，請參閱 [建立或編輯環境升級套件](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-create-package.md).
 
 >[!NOTE]
 >
@@ -31,7 +39,7 @@ ht-degree: 0%
 1. 從顯示的清單中選取封裝。
 1. 對於每個有衝突的物件，請選取如何解決衝突。
 
-   若要解決衝突，請按一下物件型別旁邊的下拉箭頭，然後選取您要採取的動作。
+   若要解決衝突，請按一下物件型別旁邊的下拉箭頭，然後選取您要執行的動作。
 
    如需詳細資訊，請參閱 [衝突](#collisions) 本文章
 1. 若要將套件部署至新環境，請按一下 **部署** 在畫面的右上角。
