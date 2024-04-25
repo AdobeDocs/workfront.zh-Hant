@@ -6,10 +6,10 @@ description: 從 [!UICONTROL 展示板] 圖示板，您可以建立新電路板�
 author: Lisa
 feature: Agile
 exl-id: 5f755177-c8ea-4509-a34f-57ffcfd8ba7f
-source-git-commit: 0564fbf37b98d7c96ed9fccd832e96027562a85f
+source-git-commit: d593d288546abb4a674646519c6245563673b938
 workflow-type: tm+mt
-source-wordcount: '772'
-ht-degree: 1%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -81,6 +81,8 @@ ht-degree: 1%
    1. （選用）按一下 [!UICONTROL **使用進階篩選**] 以顯示其他篩選選項。
 
       此程式與在輸入欄上建立篩選器的程式相同。 如需詳細資訊，請參閱 [將輸入欄新增到展示板](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md).
+
+      如果您在建立動態展示板後更新其上的篩選器，則未納入Workfront任務或問題的卡片設定（例如標籤）會重設。
 
    1. 新增篩選器後，按一下 [!UICONTROL **建立展示板**].
 
