@@ -1,138 +1,93 @@
 ---
 product-previous: workfront-goals
 navigation-topic: goal-management
-title: 編輯Adobe Workfront目標
+title: 在Adobe Workfront目標中編輯目標
 description: 您可以從任何時段和任何狀態編輯現有目標。
 author: Alina
 feature: Workfront Goals
 exl-id: 74db534c-6897-40c2-bea9-a9d30a40f61c
-source-git-commit: 1d221d10e5845e477dff825f853330b9b4df0adf
+source-git-commit: 09e34ecdfeec531ebbaaba4fb8682496c53d86bf
 workflow-type: tm+mt
-source-wordcount: '622'
+source-wordcount: '600'
 ht-degree: 1%
 
 ---
 
-# 編輯Adobe Workfront目標
+# 在Adobe Workfront目標中編輯目標
 
 您可以從任何時段和任何狀態編輯現有目標。
 
 ## 存取需求
 
-<!--drafted - for P&P releases: 
-
-<table style="table-layout:auto">
- <col>
- </col>
- <col>
- </col>
- <tbody>
-  <tr>
-   <td role="rowheader">Adobe Workfront plan*</td>
-   <td>
-   <p>Current plan: Select or higher</p>
-   Or
-   <p>Legacy plan: Pro or higher</p>
-   
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader">Adobe Workfront license*</td>
-   <td>
-   <p>Current license: Contributor or higher</p>
-   Or
-   <p>Legacy license: Request or higher</p> <p>For more information, see <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront licenses overview</a>.</p> </td>
-  </tr>
-  <tr>
-   <td role="rowheader">Product</td>
-   <td>
-   <p> Current product requirement: If you have the Select or Prime Adobe Workfront plan, you must also buy an additional Adobe Workfront Goals license.  Workfront Goals are included in the Ultimate Workfront Plan.</p>
-   Or
-   <p>Legacy product requirement: You must purchase an additional license for the Adobe Workfront Goals to access functionality described in this article. </p> <p>For information, see <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requirements to use Workfront Goals</a>. </p> </td>
-  </tr>
-  <tr>
-   <td role="rowheader">Access level*</td>
-   <td> <p>Edit access to Goals</p> <p><b>NOTE</b><p>If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see:</p>
-     <ul>
-      <li> <p><a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a> </p> </li>
-      <li> <p><span href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md"><a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md" class="MCXref xref">Grant access to Adobe Workfront Goals</a></span> </p> </li>
-     </ul> </p> </td>
-  </tr>
-  <tr data-mc-conditions="">
-   <td role="rowheader">Object permissions</td>
-   <td>
-    <div>
-     <p>View or higher permissions to the goal to view it</p>
-     <p>Manage permissions to the goal to edit it</p>
-     <p>For information about sharing goals, see <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Share a goal in Workfront Goals</a>. </p>
-    </div> </td>
-  </tr>
- </tbody>
-</table>
--->
-
 您必須具備下列條件：
 
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront計畫*</td> 
-   <td> <p>Pro或更高版本</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront授權*</td> 
-   <td> <p>要求或更高版本</p> <p>如需詳細資訊，請參閱 <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront授權概觀</a>.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">產品</td> 
-   <td> <p>您必須購買額外的Adobe Workfront目標授權才能存取本文所述的功能。 </p> <p>如需詳細資訊，請參閱 <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">使用Workfront目標的需求</a>. </p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">訪問級別配置*</td> 
-   <td> <p>編輯目標或更高版本的存取權</p> <p><b>附註</b>
+<table style="table-layout:auto">
+<col>
+</col>
+<col>
+</col>
+<tbody>
+ <tr>
+ <td role="rowheader">Adobe Workfront計畫</td>
+ <td>
+ <p>任何</p>
 
-<p>如果您仍無權存取，請洽詢您的Workfront管理員，他們是否在您的存取層級設定其他限制。 如需Workfront管理員如何變更您的存取層級的詳細資訊，請參閱：</p> 
-     <ul> 
-      <li> <p><a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a> </p> </li> 
-      <li> <p><span href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md"><a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md" class="MCXref xref">授予Adobe Workfront目標的存取權</a></span> </p> </li> 
-     </ul> </p> </td> 
-  </tr> 
-  <tr data-mc-conditions=""> 
-   <td role="rowheader">物件權限</td> 
-   <td> 
-    <div> 
-     <p>管理目標的權限</p> 
-     <p>如需共用目標的相關資訊，請參閱 <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">在Workfront目標中共用目標</a>. </p> 
-    </div> </td> 
-  </tr> 
- </tbody> 
+</td>
+ </tr>
+ <tr>
+ <td role="rowheader">Adobe Workfront授權*</td>
+ <td>
+ <p>新授權：投稿人或以上版本</p>
+ 或
+ <p>目前授權：要求或以上</p> <p>如需詳細資訊，請參閱 <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront授權總覽</a>.</p> </td>
+ </tr>
+ <tr>
+ <td role="rowheader">產品*</td>
+ <td>
+ <p> 新產品需求，下列其中一項： </p>
+<ul>
+<li>Select或Prime Adobe Workfront計畫以及額外的Adobe Workfront目標授權。</li>
+<li>預設包含Workfront目標的Ultimate Workfront計畫。 </li></ul>
+ <p>或</p>
+ <p>目前產品需求： Adobe Workfront Goals的Workfront計畫和額外授權。 </p> <p>如需詳細資訊，請參閱 <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">使用Workfront目標的需求</a>. </p> </td>
+ </tr>
+ <tr>
+ <td role="rowheader">存取層級</td>
+ <td> <p>編輯目標的存取權</p> </td>
+ </tr>
+ <tr data-mc-conditions="">
+ <td role="rowheader">物件許可權</td>
+ <td>
+  <div>
+  <p>檢視目標或更高許可權以檢視它</p>
+  <p>管理目標的許可權以編輯它</p>
+  <p>如需關於共用目標的資訊，請參閱 <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">在Workfront目標中共用目標</a>. </p>
+  </div> </td>
+ </tr>
+ <tr>
+   <td role="rowheader"><p>版面配置範本</p></td>
+   <td> <p>必須為所有使用者(包括Workfront管理員)指派一個版面配置範本，該範本包含主功能表中的「目標」區域。 </p>  
+</td>
+  </tr>
+</tbody>
 </table>
 
-*若要了解您擁有的計畫、授權類型或存取權，請聯絡您的Workfront管理員。
+*如需詳細資訊，請參閱 [Workfront檔案中的存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-## 必要條件
-
-您必須具備下列條件，才能開始：
-
-* 一種佈局模板，在主菜單中包括目標區域。
-* 您已建立要編輯的目標，或擁有這些目標的「管理」權限。
-
-## 編輯目標的考量事項
+## 編輯目標的相關考量事項
 
 * 您無法編輯狀態為「已關閉」的目標。
 * 您可以從任何時段編輯目標。
 
-   您可以編輯過去目標的下列資訊：
+  您可以編輯過去目標的下列資訊：
 
-   * 名稱
+   * 姓名
    * 時段
    * 狀態
 
-      >[!TIP]
-      >
-      >如果目標為「關閉」，則重新開啟會重新計算「進度完成」百分比。 您無法編輯已關閉的目標。
+     >[!TIP]
+     >
+     >如果目標為「已關閉」，重新開啟它將會重新計算進度完成百分比。 您無法編輯已關閉的目標。
 
    * 說明
    * 結果和活動
@@ -185,47 +140,47 @@ Editing goals differs depending on what environment you use.
 
 -->
 
-1. 按一下 **主菜單** 圖示 ![](assets/main-menu-icon.png)，然後按一下 **目標**.\
-   目標清單隨即顯示。
+1. 按一下 **主要功能表** 圖示 ![](assets/main-menu-icon.png)，然後按一下 **目標**.\
+   隨即顯示目標清單。
 1. 按一下目標。\
    目標頁面隨即顯示。
 
    ![](assets/goal-page-unshimmed.png)
 
-1. 執行下列任一操作以編輯目標的資訊：
-   * 按一下目標標題中顯示的欄位以更新。 標題中並非所有欄位都可編輯。
-   * 按一下 **更多圖示** ![](assets/more-icon.png) 在目標名稱的右側，然後按一下 **編輯**.
-   * 按一下 **目標詳細資訊** 在左側面板中，按一下 **編輯圖示** ![](assets/edit-icon.png) 在右上角，按一下 **全部編輯**. 開始更新「目標詳細資訊」區段中的欄位。
+1. 執行下列任一項作業來編輯目標的資訊：
+   * 按一下目標標題中顯示的欄位以進行更新。 並非標題中的所有欄位都可以編輯。
+   * 按一下 **「更多」圖示** ![](assets/more-icon.png) 在目標名稱的右側，然後按一下 **編輯**.
+   * 按一下 **目標詳細資料** 在左側面板中按一下 **編輯圖示** ![](assets/edit-icon.png) 按一下「 」 **編輯全部**. 開始更新「目標詳細資料」區段中的欄位。
 
-      >[!IMPORTANT]
-      >
-      >並非上述區域中顯示的所有欄位都可以編輯。 Workfront會計算某些欄位，且為唯讀欄位。
+     >[!IMPORTANT]
+     >
+     >並非以上區域顯示的所有欄位都可以編輯。 Workfront會計算某些欄位，且這些欄位為唯讀。
 
-1. （條件性）視您在上一個步驟中選取的項目而定，更新下列目標相關資訊：
+1. （視條件而定）根據您在上一步驟中所選取的專案，更新以下有關目標的資訊：
 
-   * 在目標標題中更新下列資訊，然後按Enter以儲存變更：
-      * **目標名稱**:按一下目標名稱，然後開始輸入新名稱。
-      * **擁有者**:按一下擁有者的名稱，然後開始鍵入用戶、團隊、組或您公司的名稱，然後在清單中顯示時選擇它。 目標只能有一個擁有者。
-   * 在「編輯目標」方塊中更新下列資訊，然後按一下 **儲存**:
+   * 更新目標標題中的下列資訊，然後按Enter儲存變更：
+      * **目標名稱**：按一下目標的名稱並開始輸入新名稱。
+      * **所有者**：按一下擁有者的名稱，然後開始輸入使用者、團隊、群組或您的公司的名稱，然後在其顯示在清單中時選取它。 一個目標只能有一個擁有者。
+   * 在「編輯目標」方塊中更新下列資訊，然後按一下 **儲存**：
       * **目標名稱**
-      * **時段**:按一下以更新目標的時段\
-         或\
-         選擇 **啟用自訂日期** 指定目標的日期 **開始** 和 **結束日期**.
+      * **期間**：按一下以更新目標的時段\
+        或\
+        選取 **啟用自訂日期** 若要指定目標的日期 **開始** 和 **結束日期**.
 
-         >[!TIP]
-         >
-         >取消選擇 **啟用自訂日期** 返回目標的原始時段。
+        >[!TIP]
+        >
+        >取消選取 **啟用自訂日期** 以返回目標的原始時段。
 
       * **目標所有者**
-      * **說明**:新增或更新目標的相關資訊。
-   * 更新或檢閱目標詳細資訊區段中的資訊。 如需詳細資訊，請參閱 [更新Adobe Workfront目標中「目標詳細資訊」區段中的目標](../goal-management/update-goals-in-goal-details-panel.md).
+      * **說明**：新增或更新目標的相關資訊。
+   * 更新或檢閱「目標詳細資料」區段中的資訊。 如需詳細資訊，請參閱 [更新「Adobe Workfront目標」中「目標詳細資料」區段中的目標](../goal-management/update-goals-in-goal-details-panel.md).
 
    <!-- (should you update the title here after changing it at production??? - change it to Update goals in the goal Details section)-->
 
-1. （選用）按一下 **進度指標** ，將結果、活動或專案新增至目標。 借由新增進度指標，您可確保追蹤目標的進度。
+1. （選用）按一下 **進度指示器** 以新增結果、活動或專案至目標。 新增進度指示器可確保您可以追蹤目標的進度。
 如需詳細資訊，請參閱下列文章：
    * [將活動新增至Adobe Workfront目標中的目標](../results-and-activities/add-activities-to-goals.md)
-   * [將結果新增至Adobe Workfront目標中的目標](../results-and-activities/add-results-to-goals.md).
-   * [將專案新增至Adobe Workfront目標中的目標](../results-and-activities/connect-projects-to-goals-overview.md).
+   * [在Adobe Workfront目標中新增結果](../results-and-activities/add-results-to-goals.md).
+   * [在Adobe Workfront目標中新增專案](../results-and-activities/connect-projects-to-goals-overview.md).
 
 </div>

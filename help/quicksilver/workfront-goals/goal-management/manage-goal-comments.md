@@ -6,9 +6,9 @@ description: 您可以將註解新增至可在Adobe Workfront目標中檢視的�
 author: Alina
 feature: Workfront Goals
 exl-id: 6cf2d2d2-5ba5-40f2-a803-01359c338541
-source-git-commit: ee957e319941fe5eabb9144eed184372e5402197
+source-git-commit: 09e34ecdfeec531ebbaaba4fb8682496c53d86bf
 workflow-type: tm+mt
-source-wordcount: '1095'
+source-wordcount: '1063'
 ht-degree: 0%
 
 ---
@@ -50,11 +50,9 @@ After the monthly releases to Production, the same features are also available i
 </td>
  </tr>
  <tr>
- <td role="rowheader">Adobe Workfront授權*</td>
+ <td role="rowheader">Adobe Workfront授權</td>
  <td>
- <p>新授權：投稿人或以上版本</p>
- 或
- <p>目前授權：要求或以上</p> </td>
+ <p>任何</td>
  </tr>
  <tr>
  <td role="rowheader">產品*</td>
@@ -65,7 +63,7 @@ After the monthly releases to Production, the same features are also available i
  </tr>
  <tr>
  <td role="rowheader">存取層級設定</td>
- <td> <p>檢視或更高的目標存取權</p> <p><b>附註</b><p>如果您沒有存取權，請洽詢Workfront管理員，瞭解他們是否在您的存取層級設定其他限制。 如需詳細資訊，請參閱 <span href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md"><a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md" class="MCXref xref">授予Adobe Workfront目標的存取權</a></span></td>
+ <td> <p>檢視或更高的目標存取權</p> </td>
  </tr>
  <tr data-mc-conditions="">
  <td role="rowheader">物件許可權</td>
@@ -76,10 +74,15 @@ After the monthly releases to Production, the same features are also available i
  <p>如需關於共用目標的資訊，請參閱 <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">在Workfront目標中共用目標</a>. </p>
   </div> </td>
  </tr>
+ <tr>
+   <td role="rowheader"><p>版面配置範本</p></td>
+   <td> <p>必須為所有使用者(包括Workfront管理員)指派一個版面配置範本，該範本包含主功能表中的「目標」區域。 </p>  
+</td>
+  </tr>
 </tbody>
 </table>
 
-*若要瞭解您擁有的計畫、授權型別或存取權，請聯絡您的Workfront管理員。 如需詳細資訊，請參閱 [Workfront檔案中的存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*如需詳細資訊，請參閱 [Workfront檔案中的存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## 先決條件
 
