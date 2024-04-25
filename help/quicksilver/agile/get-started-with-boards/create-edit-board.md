@@ -6,10 +6,10 @@ description: 從 [!UICONTROL 展示板] 圖示板，您可以建立新電路板�
 author: Lisa
 feature: Agile
 exl-id: 5f755177-c8ea-4509-a34f-57ffcfd8ba7f
-source-git-commit: d593d288546abb4a674646519c6245563673b938
+source-git-commit: 1b91cac202151cd60f16b4ef034b60f840088aea
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '802'
+ht-degree: 1%
 
 ---
 
@@ -109,3 +109,4 @@ ht-degree: 0%
 1. 按一下 **[!UICONTROL 所有展示板]** 以返回面板儀表板。
 
    您也可以找到標示為目前主機板名稱的下拉式功能表，然後按一下該功能表以切換至另一個主機板。
+
