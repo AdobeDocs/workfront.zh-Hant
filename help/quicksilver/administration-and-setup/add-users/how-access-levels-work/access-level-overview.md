@@ -10,9 +10,9 @@ author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: d297d8a4-5a4e-418f-983a-19545aeb0668
-source-git-commit: 91d757513792604677d6285baafa795629b4506d
+source-git-commit: 416ec4f50a03e0911053fe580ff7e6ca2e648a96
 workflow-type: tm+mt
-source-wordcount: '1696'
+source-wordcount: '1702'
 ht-degree: 5%
 
 ---
@@ -263,6 +263,7 @@ Workfront有5個新的內建存取層級：
 
 * 可以提出要求並更新這些要求
 * 可以上傳和核准檔案
+* 可以核准專案、任務和問題
 * 可以檢閱他們已提交問題的狀態
 * 可指派給工作專案，但無法完成它們
 * 只能從主功能表存取請求。 如需請求佇列的詳細資訊，請參閱 [建立請求佇列](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
