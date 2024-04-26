@@ -6,7 +6,7 @@ description: 如果您透過Workfront Fusion建立專案，並想在專案中加
 author: Becky
 feature: Digital Content and Documents, Workfront Integrations and Apps, Workfront Fusion
 exl-id: b8132d5e-234d-47f6-a09c-ca46018a2d77
-source-git-commit: 1677ed676a5ccb4f519cc81bf3b31cc90b8326b4
+source-git-commit: 605065896263ebbb761883689668be181b5012e3
 workflow-type: tm+mt
 source-wordcount: '883'
 ht-degree: 0%
@@ -51,7 +51,7 @@ ht-degree: 0%
    <p>您必須擁有Adobe Experience Manager存放庫的寫入許可權。</p>
    </li>
    </ul>
-  <b>Workfront Fusion</b>：<p>新增：</p>
+   <b>Workfront Fusion</b>：<p>新增：</p>
    <ul>
    <li>
    <p>選取或Prime Workfront計畫：您的組織必須購買Adobe Workfront Fusion。</p>
@@ -68,8 +68,8 @@ ht-degree: 0%
    <td><strong>存取層級設定*</strong>
    </td>
    <td>編輯檔案的存取權
-<p>
-<strong>注意： </strong>如果您還是沒有存取權，請詢問您的Workfront管理員，他們是否在您的存取層級中設定其他限制。 如需有關Workfront管理員如何修改您的存取層級的資訊，請參閱 <strong>建立或修改自訂存取層級</strong>.
+   <p>
+   <strong>注意： </strong>如果您還是沒有存取權，請詢問您的Workfront管理員，他們是否在您的存取層級中設定其他限制。 如需有關Workfront管理員如何修改您的存取層級的資訊，請參閱 <strong>建立或修改自訂存取層級</strong>.
    </td>
   </tr>
 </table>
@@ -174,4 +174,3 @@ ht-degree: 0%
 在Fusion中設定模組的連線時，您將使用此使用者端ID和使用者端密碼。
 
 如需建立連線的指示，請參閱 [連線 [!DNL Workfront] 至 [!DNL Workfront Fusion]](/help/quicksilver/workfront-fusion/apps-and-their-modules/workfront-modules.md#connect-workfront-to-workfront-fusion) 在Workfront模組文章中。
-
