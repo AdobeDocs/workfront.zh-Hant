@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 5027d611-916e-492d-9a44-841bdde11c94
-source-git-commit: c24adf93172d002ea636904d62f531a8e69aace4
+source-git-commit: 948cd81908df3174eb985d1c65533077d3ef5d49
 workflow-type: tm+mt
-source-wordcount: '442'
-ht-degree: 0%
+source-wordcount: '433'
+ht-degree: 8%
 
 ---
 
@@ -31,7 +31,7 @@ recommendations: noDisplay, noCatalog
 
 {{maestro-important-intro}}
 
-您可以在Adobe Workfront Planning中建立自訂欄位，方法是參照現有欄位並使用公式將其連線。 您可以建立自訂公式型別欄位來完成此操作。
+您可以在Adobe Workfront Planning中建立自訂欄位，方法是參照現有欄位並在公式型別欄位中連線它們。
 
 公式欄位會使用記錄型別中其他欄位的現有值，以及指示應如何計算現有值的函式，來產生新值。
 
@@ -154,7 +154,7 @@ Adobe Workfront Planning公式欄位支援Workfront計算欄位的所有運算�
 
 <tr> 
    <td><strong>WEEKOFYEAR</strong> </td> 
-   <td> <p>傳回一年中的周數。您可以選擇是否指定一週從哪一天開始（使用1代表星期日，或2代表星期一）。 如果省略，周從星期日開始（預設）。</p> <p>運算式的格式如下：
+   <td> <p>傳回一年中的週數。或者，您可以指定一週從星期幾開始 (使用 1 表示星期日，或使用 2 表示星期一)。如果省略，則會依預設從星期日開始。</p> <p>運算式的格式如下：
 
 <code>WEEKOFYEAR（日期，2）</code>
 或
