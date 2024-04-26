@@ -6,9 +6,9 @@ description: 如果您透過Workfront Fusion建立專案，並想在專案中加
 author: Becky
 feature: Digital Content and Documents, Workfront Integrations and Apps, Workfront Fusion
 exl-id: b8132d5e-234d-47f6-a09c-ca46018a2d77
-source-git-commit: 13f689c4ee404c07be6b9cf9c526bef8dca878ff
+source-git-commit: 1677ed676a5ccb4f519cc81bf3b31cc90b8326b4
 workflow-type: tm+mt
-source-wordcount: '876'
+source-wordcount: '883'
 ht-degree: 0%
 
 ---
@@ -54,14 +54,14 @@ ht-degree: 0%
   <b>Workfront Fusion</b>：<p>新增：</p>
    <ul>
    <li>
-   <p>[！UICONTROL Select]或[！UICONTROL Prime] [!DNL Workfront] 計畫：您的組織必須購買 [!DNL Adobe Workfront Fusion].</p>
+   <p>選取或Prime Workfront計畫：您的組織必須購買Adobe Workfront Fusion。</p>
    </li>
    <li> 
-   <p>[！UICONTROL Ultimate] [!DNL Workfront] 計畫： [!DNL Workfront Fusion] 已包括在內。</p>
+   <p>Ultimate Workfront計畫：包含Workfront Fusion。</p>
    </li>
    </ul>
    <p>或</p>
-   <p>目前：您的組織必須購買 [!DNL Adobe Workfront Fusion].</p>
+   <p>目前：您的組織必須購買Adobe Workfront Fusion。</p>
    </td>
   </tr>
   <tr>
