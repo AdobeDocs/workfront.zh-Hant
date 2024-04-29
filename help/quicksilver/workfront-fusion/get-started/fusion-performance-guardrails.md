@@ -8,9 +8,9 @@ description: 除了Adobe Workfront授權，Adobe Workfront Fusion還需要Adobe 
 author: Becky
 feature: Workfront Fusion
 exl-id: cdf46eb1-46ba-4707-9063-b76899195a2c
-source-git-commit: 00ef33666bebe434739056cb38c3dff24285d682
+source-git-commit: c35b1bc54719a6c9a056d2ddd08c953c0bae03b7
 workflow-type: tm+mt
-source-wordcount: '545'
+source-wordcount: '570'
 ht-degree: 1%
 
 ---
@@ -72,6 +72,10 @@ Workfront Fusion僅支援Chrome瀏覽器。
 ## 執行歷史記錄
 
 * 執行記錄檔的大小限製為 **100 MB**. 如果執行歷程記錄超過此大小，則只會顯示前100 MB。
+
+## 未完成的執行
+
+未完成的執行僅限於的總大小 **500 MB**. 如果達到500 MB限制，則不會再儲存不完整的執行。
 
 ## 重試次數
 
