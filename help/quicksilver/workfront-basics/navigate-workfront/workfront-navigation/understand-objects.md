@@ -6,14 +6,16 @@ description: 「您在中顯示的資訊 [!DNL Adobe Workfront] 由儲存在 [!D
 feature: Get Started with Workfront
 author: Alina
 exl-id: f324f198-5472-4cf2-a46e-7fc24605ca90
-source-git-commit: 420a9c24695f950ad191431ca6c6848b7649f3b1
+source-git-commit: d55432667aa86db3216d10d8475962d9e441648b
 workflow-type: tm+mt
-source-wordcount: '2307'
+source-wordcount: '2400'
 ht-degree: 1%
 
 ---
 
 # [!DNL Adobe Workfront] 物件概觀
+
+<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它僅在預覽Sandbox環境中可用。</span>
 
 <!--Audited: 12/2023-->
 
@@ -205,6 +207,18 @@ ht-degree: 1%
 | [!UICONTROL 附註] (或 [!UICONTROL 更新]) | ✓ (A) |  |
 
 有關執行基本和進階搜尋的詳細資訊，請參閱 [!DNL Workfront]，請參閱 [搜尋 [!DNL Adobe Workfront]](../../../workfront-basics/navigate-workfront/search/search-workfront.md).
+
+
+## 物件的存取受限
+
+<span class="preview">
+當使用者無權存取物件時，使用者看到物件名稱顯示在Workfront中的任何位置均顯示「無權存取」。
+
+存取物件時，可以在存取層級或特定物件的許可權中加以限制。
+
+這會套用至 [物件的相依性和階層](#interdependency-and-hierarchy-of-objects) 一節。 這不適用於團隊和使用者物件。
+
+</span>
 
 ## 物件報表
 
