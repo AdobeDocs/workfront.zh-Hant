@@ -6,9 +6,9 @@ description: 存在問題中進度的Oals有無法實現的危險，在Adobe Wor
 author: Alina
 feature: Workfront Goals
 exl-id: df2cdc12-9102-4759-9daa-1f8ae68f110b
-source-git-commit: 09e34ecdfeec531ebbaaba4fb8682496c53d86bf
+source-git-commit: 024c612d46848c55529e902a00d481588d261584
 workflow-type: tm+mt
-source-wordcount: '787'
+source-wordcount: '834'
 ht-degree: 0%
 
 ---
@@ -31,13 +31,18 @@ ht-degree: 0%
 <col>
 </col>
 <tbody>
- <tr>
- <td role="rowheader">Adobe Workfront計畫</td>
- <td>
- <p>任何</p>
-
-</td>
- </tr>
+ <tr> 
+   <td role="rowheader">Adobe Workfront計畫*</td> 
+   <td> 
+   <p>對於新計畫和授權結構：
+  <ul><li>終極計畫 </li>
+  或
+  <li>適用於Prime或選取Adobe Workfront計畫的Adobe Workfront目標的其他授權。 </li></ul> </p>
+<p>對於目前的計畫與授權結構： 
+<ul><li> A Pro或更高版本 </li>
+  <li>除了Adobe Workfront授權之外，還有Workfront目標授權。</li></ul></p>
+   </td> 
+  </tr>
  <tr>
  <td role="rowheader">Adobe Workfront授權*</td>
  <td>

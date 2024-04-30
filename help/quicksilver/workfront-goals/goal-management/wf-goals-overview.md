@@ -7,51 +7,31 @@ description: Workfront目標可協助您透過將策略與工作執行和交付�
 author: Alina
 feature: Workfront Goals
 exl-id: bc0451ba-d729-4e8a-bde3-a2609c667d50
-source-git-commit: 2fd9b380ea3f10195bea9ce3fd76359f97b00505
+source-git-commit: 024c612d46848c55529e902a00d481588d261584
 workflow-type: tm+mt
-source-wordcount: '508'
+source-wordcount: '521'
 ht-degree: 0%
 
 ---
 
 # Adobe Workfront目標總覽
 
-<!-- Audited: 1/2024 -->
+您的組織必須具備下列專案，才能使用本文所述的功能：
 
-<!--drafted for P&P new model: the note at the top will need to be replaced with this:
+* 對於新計畫和授權結構：
 
-Your organization must have the following to use the functionality described in this article:
+   * 終極計畫
 
-* For the legacy plan and license structure: 
+     或
 
-  * A Pro or higher [Adobe Workfront plan](https://www.workfront.com/plans). 
-  * An Adobe Workfront Goals license in addition to a Workfront license.
+     適用於Prime或選取Adobe Workfront計畫的Adobe Workfront目標的其他授權。 如需詳細資訊，請參閱 [Adobe Workfront計畫](https://www.workfront.com/plans).
 
-* For the current plan and license structure:
+* 對於目前的計畫與授權結構：
 
-  * An Ultimate plan 
-    
-    Or
-    
-    An additional license for Adobe Workfront Goals for the Prime or Select Adobe Workfront plans. <is there a link we can add here for the plans and what they contain?!>
+   * A Pro或更高版本
+   * 除了Adobe Workfront授權之外，還有Workfront目標授權。
 
-Contact your Workfront account manager to learn about a Workfront Goals license.
-
-For additional information about access to Workfront Goals, see [Requirements to use Workfront Goals](../workfront-goals/goal-management/access-needed-for-wf-goals.md).
--->
-
->[!NOTE]
->
->您的組織必須具備下列專案，才能使用本文所述的功能：
->
->* 新增：
->   * Ultimate，或
->   * Select或Prime，以及Adobe目標授權以及Workfront授權
->* 目前：除了Workfront授權外，還有Adobe目標授權
->
->請連絡您的Workfront客戶經理，以瞭解Workfront Goals授權。
->
->如需存取Workfront目標的其他資訊，請參閱 [使用Workfront目標的需求](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+請連絡您的Workfront客戶經理，以瞭解Workfront Goals授權。
 
 
 Workfront目標可協助您透過將策略與工作執行和交付連線起來，來定義、溝通和實現策略結果。 您可以將每個人的努力集中在真正重要的事情上，將進展變得可衡量，並讓團隊取得令人驚歎的結果。 人們可以盡最大努力工作，因為他們知道自己的貢獻會產生有意義的影響。

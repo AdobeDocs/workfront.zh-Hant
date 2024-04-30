@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 6bea34403e45c2b50986f79272f7a46959d67c6d
+source-git-commit: 024c612d46848c55529e902a00d481588d261584
 workflow-type: tm+mt
 source-wordcount: '5636'
 ht-degree: 0%
@@ -44,6 +44,63 @@ Preview: To be determined
 A record type can have only 100 views. Prior to this change, there was no limit for how many views a record type could have.  
 
 For more information, see [Manage record views](/help/quicksilver/maestro/views/manage-record-views.md). 
+
+-->
+
+<!--
+## Week of April 29, 2029
+
+### Add sections to the record's page 
+
+Production: <date> 
+
+Preview: To be determined 
+
+To better organize information on the record's page for more efficient readability and navigation we have introduced sections to the record's page. The section titles serve as headers that organize the content into distinct categories. The sections can be expanded or collapsed, if needed.  
+
+For information, see [Manage the record page](/help/quicksilver/maestro/records/manage-the-record-page.md). 
+
+### Real-time updates for field configuration changes 
+
+Production: <date> 
+
+Preview: To be determined 
+
+If any user changes any field configuration (name, description, list of options etc) in a record type, other users view those changes in real-time. This ensures that everyone views the correct fields and their information at the same time.  
+
+>[!WARNING]
+>
+>When formula expressions change, or options are added or removed from a select-type field, there will be loss of data for the records that already have information stored in the fields whose configuration is modified. 
+>
+>There is no warning or indication that this data loss could happen when you change the configuration of fields. 
+>
+>There is no notification to other users that the field configuration has changed.  
+
+For more information, see [Edit fields](/help/quicksilver/maestro/fields/edit-fields.md).  
+
+### Real-time updates on the record details box and page after editing records in the table view
+
+Production: <date> 
+
+Preview: To be determined.  
+
+When a user updates the information on a record in the table view, other users can view the updated information in the record's details box (inside of a view) or page in real time. This ensures that all users view the updated information at the same time, in sync with when the changes happen.  
+
+For information, see [Edit records](/help/quicksilver/maestro/records/edit-records.md). 
+
+### Enable Workfront Planning notifications  
+
+Production: <date>  
+
+Preview: TBD  
+
+Now, when someone adds you to a comment in the record page, you receive an in-app as well as an email notification about the comment. The following scenario exists:   
+
+* Adobe Unified Experience customers receive both an in-app notification and an email notification. They can manage their notification preferences in the Preferences area of their Adobe Experience Cloud profile. For more information, see [Account preferences and notifications](https://experienceleague.adobe.com/en/docs/core-services/interface/features/account-preferences).   
+
+* Customers who are not using the Adobe Unified Experience receive only an email notification. They cannot manage their email notifications preferences and will always receive an email when someone adds them to a comment on a record in Workfront Planning.
+
+For information, see [Adobe Workfront Planning notifications: Article index](/help/quicksilver/maestro/notifications/notifications-information.md). 
 
 -->
 

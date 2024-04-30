@@ -6,9 +6,9 @@ description: 您可以將註解新增至可在Adobe Workfront目標中檢視的�
 author: Alina
 feature: Workfront Goals
 exl-id: 6cf2d2d2-5ba5-40f2-a803-01359c338541
-source-git-commit: 09e34ecdfeec531ebbaaba4fb8682496c53d86bf
+source-git-commit: 024c612d46848c55529e902a00d481588d261584
 workflow-type: tm+mt
-source-wordcount: '1063'
+source-wordcount: '1110'
 ht-degree: 0%
 
 ---
@@ -42,13 +42,18 @@ After the monthly releases to Production, the same features are also available i
 <col>
 </col>
 <tbody>
- <tr>
- <td role="rowheader">Adobe Workfront計畫</td>
- <td>
- <p>任何</p>
-
-</td>
- </tr>
+ <tr> 
+   <td role="rowheader">Adobe Workfront計畫*</td> 
+   <td> 
+   <p>對於新計畫和授權結構：
+  <ul><li>終極計畫 </li>
+  或
+  <li>適用於Prime或選取Adobe Workfront計畫的Adobe Workfront目標的其他授權。 </li></ul> </p>
+<p>對於目前的計畫與授權結構： 
+<ul><li> A Pro或更高版本 </li>
+  <li>除了Adobe Workfront授權之外，還有Workfront目標授權。</li></ul></p>
+   </td> 
+  </tr>
  <tr>
  <td role="rowheader">Adobe Workfront授權</td>
  <td>

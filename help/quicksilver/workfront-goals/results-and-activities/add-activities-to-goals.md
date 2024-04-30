@@ -7,9 +7,9 @@ description: 活動會測量目標的進度。 若無關聯的結果、活動或
 author: Alina
 feature: Workfront Goals
 exl-id: 4d6ef324-4b5c-402b-b64d-b1a2a7d2ab57
-source-git-commit: 948cd81908df3174eb985d1c65533077d3ef5d49
+source-git-commit: 024c612d46848c55529e902a00d481588d261584
 workflow-type: tm+mt
-source-wordcount: '418'
+source-wordcount: '465'
 ht-degree: 1%
 
 ---
@@ -28,13 +28,18 @@ ht-degree: 1%
 <col>
 </col>
 <tbody>
- <tr>
- <td role="rowheader">Adobe Workfront計畫</td>
- <td>
- <p>任何</p>
-
-</td>
- </tr>
+ <tr> 
+   <td role="rowheader">Adobe Workfront計畫*</td> 
+   <td> 
+   <p>對於新計畫和授權結構：
+  <ul><li>終極計畫 </li>
+  或
+  <li>適用於Prime或選取Adobe Workfront計畫的Adobe Workfront目標的其他授權。 </li></ul> </p>
+<p>對於目前的計畫與授權結構： 
+<ul><li> A Pro或更高版本 </li>
+  <li>除了Adobe Workfront授權之外，還有Workfront目標授權。</li></ul></p>
+   </td> 
+  </tr>
  <tr>
  <td role="rowheader">Adobe Workfront授權*</td>
  <td>

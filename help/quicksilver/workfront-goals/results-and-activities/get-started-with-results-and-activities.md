@@ -2,98 +2,81 @@
 product-previous: workfront-goals
 product-area: projects
 navigation-topic: results-and-activities
-title: 開始使用Adobe Workfront Target中的結果和活動
-description: 您必須將結果、活動或對齊目標新增至目標，才能啟用它。 這會將目標狀態從草稿更新為作用中，並開始記錄目標的進度。
+title: 開始使用Adobe Workfront目標中的結果和活動
+description: 您必須將結果、活動或校準的目標新增至目標，才能啟用它。 這會將目標狀態從草稿更新為作用中，並開始記錄目標的進度。
 author: Alina
 feature: Workfront Goals
 exl-id: 64fa0aef-cb92-465a-9b74-d863fc232fd1
-source-git-commit: afc2124a7fd0d9d52c04be1c174fdba314beec7a
+source-git-commit: 024c612d46848c55529e902a00d481588d261584
 workflow-type: tm+mt
-source-wordcount: '812'
+source-wordcount: '859'
 ht-degree: 0%
 
 ---
 
-# 開始使用Adobe Workfront Target中的結果和活動
+# 開始使用Adobe Workfront目標中的結果和活動
 
-<!--drafted for P&P new model: the note at the top will need to be replaced with this:    
-    
-Your organization must have the following to use the functionality described in this article:    
-    
-* For the legacy plan and license structure:     
-    
-  * A Pro or higher [Adobe Workfront plan](https://www.workfront.com/plans).     
-  * An Adobe Workfront Goals license in addition to a Workfront license.    
-    
-* For the current plan and license structure:    
-    
-  * An Ultimate plan     
-        
-    Or    
-        
-    An additional license for Adobe Workfront Goals for the Prime or Select Adobe Workfront plans. <is there a link we can add here for the plans and what they contain?!>    
-    
-Contact your Workfront account manager to learn about a Workfront Goals license.    
-    
-For additional information about access to Workfront Goals, see [Requirements to use Workfront Goals](../workfront-goals/goal-management/access-needed-for-wf-goals.md).    
--->
+您的組織必須具備下列專案，才能使用本文所述的功能：
 
->[!NOTE]
->
->貴組織必須具備下列條件才能使用本文所述的功能：
->
->* Pro或更高版本 [Adobe Workfront計畫](https://www.workfront.com/plans).
->* 除了Adobe Workfront授權，還有Workfront授權。
->
->  請連絡您的Workfront客戶經理，以了解Workfront Target授權。
->
->如需存取Workfront目標的詳細資訊，請參閱 [使用Workfront目標的需求](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+* 對於新計畫和授權結構：
 
+   * 終極計畫
 
-建立目標時，目標的狀態為「草稿」。 如需建立目標的相關資訊，請參閱 [在Adobe Workfront目標中建立目標](../../workfront-goals/goal-management/create-goals.md).
+     或
 
-若要開始記錄目標的進度，您必須啟動該目標。 若要啟動目標並將其狀態變更為「啟用」，您必須先新增下列項目：
+     適用於Prime或選取Adobe Workfront計畫的Adobe Workfront目標的其他授權。 如需詳細資訊，請參閱 [Adobe Workfront計畫](https://www.workfront.com/plans).
+
+* 對於目前的計畫與授權結構：
+
+   * A Pro或更高版本
+   * 除了Adobe Workfront授權之外，還有Workfront目標授權。
+
+請連絡您的Workfront客戶經理，以瞭解Workfront Goals授權。
+
+當您建立目標時，目標的狀態為「草稿」。 如需建立目標的相關資訊，請參閱 [在Adobe Workfront目標中建立目標](../../workfront-goals/goal-management/create-goals.md).
+
+若要開始記錄目標的進度，您必須啟動目標。 若要啟用目標並將其狀態變更為「作用中」，您必須先將下列專案新增至目標：
 
 * 結果
 * 活動
 * 專案
-* 目標一致
+* 校準的目標
 
-新增至少其中一個項目後，您就可以啟動目標。 您必須更新目標的結果和活動，以指出目標的進度。
+新增其中至少一個專案後，您就可以啟動目標。 您必須更新目標的結果和活動以指示目標的進度。
 
 
 >[!IMPORTANT]
 >
-> 目標的活動、結果、項目或目標之間不能超過1000個。</span>
+> 一個目標不能有超過1000個活動、結果、專案或校準的目標。</span>
 
-本文概述活動和結果。 如需協調目標的相關資訊，請參閱 [Adobe Workfront目標中的目標一致性](../../workfront-goals/goal-alignment/goal-alignment.md). 如需將專案連結至目標的相關資訊，請參閱 [將專案新增至Adobe Workfront目標中的目標](../results-and-activities/connect-projects-to-goals-overview.md).
+本文提供活動和結果的概觀。 如需對齊目標的資訊，請參閱 [Adobe Workfront目標中的目標校準](../../workfront-goals/goal-alignment/goal-alignment.md). 如需有關將專案連線至目標的資訊，請參閱 [在Adobe Workfront目標中新增專案](../results-and-activities/connect-projects-to-goals-overview.md).
 
-## 結果概述
+## 結果概觀
 
 <!--
 <p> This will have additional types in the future - add another section for types?)</p>
 -->
 
-結果會衡量目標的進度，或您接近達成目標的程度。 作為目標擁有者，您也可以擁有結果。 目標的結果也可能指派給不同的使用者。
+結果會衡量目標的進度或接近達成目標的程度。 作為目標擁有者，您還可以擁有結果。 目標的結果也可能指派給不同的使用者。
 
-如需將結果新增至目標的相關資訊，請參閱 [將結果新增至Adobe Workfront目標中的目標](../../workfront-goals/results-and-activities/add-results-to-goals.md).
+如需將結果新增至目標的詳細資訊，請參閱 [在Adobe Workfront目標中新增結果](../../workfront-goals/results-and-activities/add-results-to-goals.md).
 
-您可以將結果新增至屬於組織中其他實體的您自己的目標或目標。
+您可以將結果新增至您自己的目標或屬於組織中其他實體的目標。
 
-處理結果時，請考量下列事項：
+使用結果時，請考慮下列事項：
 
-* 他們回答的問題是：「我如何知道我的目標何時完成？」
-* 它們是量度指標。 您可以從下列選項中選取，以指出結果的進度：
+* 他們回答以下問題：「我如何知道我的目標何時完成？」
+* 它們是量度指標。 您可以從下列選項中選取，以指示結果的進度：
 
-   <!--
+  <!--
   this might change (jira, Salesforce, etc))
   -->
 
    * 貨幣
-   * 數量
+   * 數字
    * 百分比
 
-如需結果的詳細資訊，請參閱區段中的結果和活動之間的相似度清單 [結果、活動和專案之間的相似性](#similarities-between-results-activities-and-projects) 這篇文章。
+有關結果的詳細資訊，請參閱結果和活動之間的相似性清單，一節 [結果、活動和專案之間的相似性](#similarities-between-results-activities-and-projects) 本文章內容。
 
 ## 活動概覽
 
@@ -101,14 +84,14 @@ For additional information about access to Workfront Goals, see [Requirements to
 This will have additional types in the future - add another section for types?
 -->
 
-活動（如結果）是特定和可衡量的，通常包括百分比完成指標。 作為目標擁有者，您也可以擁有與目標相關聯的活動。 目標上的活動也可能指派給不同的使用者。
+活動（例如結果）是特定且可測量的，通常包含完成百分比指標。 身為目標擁有者，您也可以擁有與目標相關聯的活動。 目標上的活動也可能指派給不同使用者。
 
-如需將活動新增至目標的相關資訊，請參閱 [將活動新增至Adobe Workfront目標中的目標](../../workfront-goals/results-and-activities/add-activities-to-goals.md).
+如需將活動新增至目標的詳細資訊，請參閱 [將活動新增至Adobe Workfront目標中的目標](../../workfront-goals/results-and-activities/add-activities-to-goals.md).
 
-將活動與您的目標關聯時，請考慮下列事項：
+將活動與您的目標建立關聯時，請考量下列事項：
 
-* 他們回答了「當目標完成時，我將實現什麼？」
-* 活動是自訂項目，在完整或不完整方面可想而知。 必須手動更新，以指出目前已完成的活動百分比。
+* 他們回答以下問題：「目標完成時我將會達成什麼？」
+* 活動是自訂專案，可被視為完整或不完整的更多專案。 必須手動更新，以指出目前已完成活動的百分比。
 
 <!--
 * You can associate the following activities with goals:
@@ -132,17 +115,17 @@ This will have additional types in the future - add another section for types?
 -->
 <!--drafted for goal redesign: For THE PRODUCTION RELEASE: remove the projects in this article altogether.-->
 
-如需結果和活動的詳細資訊，請參閱區段中的結果和活動之間的相似度清單 [結果、活動和專案之間的相似性](#similarities-between-results-activities-and-projects) 這篇文章。
+如需有關結果和活動的詳細資訊，請參閱小節中的結果和活動之間的相似性清單 [結果、活動和專案之間的相似性](#similarities-between-results-activities-and-projects) 本文章內容。
 
 ## 結果、活動和專案之間的相似性 {#similarities-between-results-activities-and-projects}
 
-成果、活動和項目是目標進展指標。
+結果、活動和專案是目標進度指標。
 
-管理專案的方式與管理結果和活動的方式有一些差異。 如需將專案新增至目標的相關資訊，請參閱 [將活動新增至Adobe Workfront目標中的目標](../../workfront-goals/results-and-activities/add-activities-to-goals.md). 如需與目標連結之專案的相關資訊，請參閱 [將專案新增至Adobe Workfront目標中的目標](../../workfront-goals/results-and-activities/connect-projects-to-goals-overview.md).
+您管理專案的方式與管理結果和活動的方式有一些差異。 如需將專案新增至目標的詳細資訊，請參閱 [將活動新增至Adobe Workfront目標中的目標](../../workfront-goals/results-and-activities/add-activities-to-goals.md). 如需有關連線至目標的專案資訊，請參閱 [在Adobe Workfront目標中新增專案](../../workfront-goals/results-and-activities/connect-projects-to-goals-overview.md).
 
-除了結果、活動和項目之外，您還可以將子目標與目標關聯。 兒童目標也是目標的一種進展指標。 如需詳細資訊，請參閱 [在Adobe Workfront目標中將目標連結起來，以協調目標](../goal-alignment/align-goals-by-connecting-them.md). 兒童目標進度指標的進展也推動父項目標的進展。
+除了結果、活動和專案之外，您也可以將子系目標與目標建立關聯。 子目標也是目標的進度指示器型別。 如需詳細資訊，請參閱 [透過在Adobe Workfront目標中連線目標來對齊目標](../goal-alignment/align-goals-by-connecting-them.md). 子目標的進度指示器也會推動父目標的進度。
 
-下表顯示結果、活動和項目之間的相似性和差異，作為目標指標：
+下表顯示結果、活動和專案之間的異同，以作為目標指標：
 
 <table style="table-layout:auto"> 
  <col> 
@@ -175,43 +158,43 @@ This will have additional types in the future - add another section for types?
    <td>✔</td> 
   </tr> 
   <tr> 
-   <td>您可以將其中一個目標與多個目標建立關聯。</td> 
+   <td>您可以將其中一個與多個目標建立關聯。</td> 
    <td> </td> 
    <td> </td> 
    <td>✔</td> 
   </tr> 
   <tr> 
-   <td>在計算目標進度時，會考慮其進度。 </td> 
+   <td>計算目標進度時，會考慮其進度。 </td> 
    <td>✔</td> 
    <td>✔</td> 
    <td>✔</td> 
   </tr> 
   <tr> 
-   <td>必須在Workfront Target中手動更新</td> 
+   <td>必須在Workfront目標中手動更新</td> 
    <td>✔</td> 
    <td>✔</td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td>它們將於目標的結束日期完成</td> 
+   <td>他們應在目標的結束日期完成</td> 
    <td>✔</td> 
    <td>✔</td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td>它們只能指派給使用者，而不能指派給團隊、群組或公司。 </td> 
+   <td>只能將其指派給使用者，而不能指派給團隊、群組或公司。 </td> 
    <td>✔</td> 
    <td>✔</td> 
    <td>✔</td> 
   </tr> 
   <tr> 
-   <td>它們是特定的、可衡量的，並且通常包括指示其進展的設定數。 </td> 
+   <td>它們是明確且可測量的，且通常包括指示其進度的設定數字。 </td> 
    <td>✔</td> 
    <td>✔</td> 
    <td>✔</td> 
   </tr> 
   <tr> 
-   <td>它們提供介於開始值和結束值之間的值範圍，說明您接近這些值的程度。 與結束值的接近度會計算目標的進度值。 </td> 
+   <td>它們提供介於開始值和結束值之間的值範圍，以說明您距離達到這些值的距離有多近。 接近結束值會計算目標的進度值。 </td> 
    <td>✔</td> 
    <td>✔</td> 
    <td>✔</td> 

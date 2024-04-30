@@ -2,57 +2,40 @@
 content-type: reference
 product-previous: workfront-goals
 navigation-topic: workfront-goals-navigation-topic
-title: 目標審查和Adobe Workfront目標章節
-description: 了解如何檢閱目標，並了解您可在Adobe Workfront中管理目標的章節，請參閱下列文章。
+title: 目標檢閱和Adobe Workfront目標區段
+description: 瞭解如何檢閱目標，並瞭解您可在下列文章中管理Adobe Workfront中目標的區段。
 author: Alina
 feature: Workfront Goals
 exl-id: 81f531f7-3390-4f85-9a96-480f4e84295e
-source-git-commit: 1d221d10e5845e477dff825f853330b9b4df0adf
+source-git-commit: 024c612d46848c55529e902a00d481588d261584
 workflow-type: tm+mt
-source-wordcount: '138'
+source-wordcount: '158'
 ht-degree: 0%
 
 ---
 
-# 目標審查和Adobe Workfront目標章節
+# 目標檢閱和Adobe Workfront目標區段
 
-<!--drafted for P&P new model: the note at the top will need to be replaced with this:
+您的組織必須具備下列專案，才能使用本文所述的功能：
 
-Your organization must have the following to use the functionality described in this article:
+* 對於新計畫和授權結構：
 
-* For the legacy plan and license structure: 
+   * 終極計畫
 
-  * A Pro or higher [Adobe Workfront plan](https://www.workfront.com/plans). 
-  * An Adobe Workfront Goals license in addition to a Workfront license.
+     或
 
-* For the current plan and license structure:
+     適用於Prime或選取Adobe Workfront計畫的Adobe Workfront目標的其他授權。 如需詳細資訊，請參閱 [Adobe Workfront計畫](https://www.workfront.com/plans).
 
-  * An Ultimate plan 
-    
-    Or
-    
-    An additional license for Adobe Workfront Goals for the Prime or Select Adobe Workfront plans. <is there a link we can add here for the plans and what they contain?!>
+* 對於目前的計畫與授權結構：
 
-Contact your Workfront account manager to learn about a Workfront Goals license.
+   * A Pro或更高版本
+   * 除了Adobe Workfront授權之外，還有Workfront目標授權。
 
-For additional information about access to Workfront Goals, see [Requirements to use Workfront Goals](../workfront-goals/goal-management/access-needed-for-wf-goals.md).
--->
-
->[!NOTE]
->
->貴組織必須具備下列條件才能使用本文所述的功能：
->
->* Pro或更高版本 [Adobe Workfront計畫](https://www.workfront.com/plans).
->* 除了Adobe Workfront授權，還有Workfront授權。
->
->請連絡您的Workfront客戶經理，以了解Workfront Target授權。
->
->如需存取Workfront目標的詳細資訊，請參閱 [使用Workfront目標的需求](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
-
+請連絡您的Workfront客戶經理，以瞭解Workfront Goals授權。
 
 本節包含下列文章：
 
-* [Adobe Workfront目標章節概覽](../../workfront-goals/goal-review-and-workfront-goals-sections/overview-of-wf-goals-sections.md)
-* [管理Adobe Workfront目標目標清單中的目標](../../workfront-goals/goal-review-and-workfront-goals-sections/manage-goals-in-goal-list.md)
-* [更新Adobe Workfront目標中的目標進度](../../workfront-goals/goal-review-and-workfront-goals-sections/check-in-goals.md)
-* [檢閱圖表以了解Adobe Workfront目標中的目標進度趨勢](../../workfront-goals/goal-review-and-workfront-goals-sections/review-goal-graphs.md)
+* [Adobe Workfront目標區段概觀](../../workfront-goals/goal-review-and-workfront-goals-sections/overview-of-wf-goals-sections.md)
+* [管理Adobe Workfront目標之目標清單中的目標](../../workfront-goals/goal-review-and-workfront-goals-sections/manage-goals-in-goal-list.md)
+* [在Adobe Workfront目標中更新目標進度](../../workfront-goals/goal-review-and-workfront-goals-sections/check-in-goals.md)
+* [檢閱圖表以瞭解Adobe Workfront目標中的目標進度趨勢](../../workfront-goals/goal-review-and-workfront-goals-sections/review-goal-graphs.md)

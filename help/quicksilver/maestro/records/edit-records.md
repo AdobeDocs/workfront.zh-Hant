@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: 6bea34403e45c2b50986f79272f7a46959d67c6d
+source-git-commit: 024c612d46848c55529e902a00d481588d261584
 workflow-type: tm+mt
 source-wordcount: '1495'
 ht-degree: 0%
@@ -95,6 +95,8 @@ ht-degree: 0%
    * 記錄檢視中的記錄方塊
    * 紀錄的頁面
    * 內嵌，在表格檢視中。
+
+<!--* When a user edits a record in a view, the changes are visible immediately in all views and the record pages to all other users. -->
 
 * 下列型別的欄位會自動更新，您無法手動編輯其值：
    * 從其他記錄連結的欄位

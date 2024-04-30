@@ -2,102 +2,107 @@
 content-type: overview
 product-previous: workfront-goals
 navigation-topic: goal-review-and-sections
-title: Adobe Workfront目標章節概覽
-description: 您可以存取目標或個別目標的清單，並從Adobe Workfront目標的數個區段加以管理。 您使用哪個區段取決於處理目標時所要達到的目的。
+title: Adobe Workfront目標區段概觀
+description: 您可以存取目標或個別目標的清單，並從Adobe Workfront目標的數個區段管理它們。 使用哪個區段取決於您使用目標時想要達到的目的。
 author: Alina
 feature: Workfront Goals
 exl-id: 915f8c62-e35a-41a0-8a63-40c28468c55a
-source-git-commit: 1d221d10e5845e477dff825f853330b9b4df0adf
+source-git-commit: 024c612d46848c55529e902a00d481588d261584
 workflow-type: tm+mt
-source-wordcount: '678'
-ht-degree: 0%
+source-wordcount: '698'
+ht-degree: 2%
 
 ---
 
-# Adobe Workfront目標章節概覽
+# Adobe Workfront目標區段概觀
 
+您的組織必須具備下列專案，才能使用本文所述的功能：
 
->[!NOTE]
->
->貴組織必須具備下列條件才能使用本文所述的功能：
->
->* Pro或更高版本 [Adobe Workfront計畫](https://www.workfront.com/plans).
->* 除了Adobe Workfront授權，還有Workfront授權。
->
->  請連絡您的Workfront客戶經理，以了解Workfront Target授權。
->
->如需存取Workfront目標的詳細資訊，請參閱 [使用Workfront目標的需求](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+* 對於新計畫和授權結構：
 
-在您的Workfront管理員授予您Workfront目標的存取權後，您就可以檢視您在Workfront目標區域中建立的目標，或組織中的其他任何人。
+   * 終極計畫
 
-您可以存取目標或個別目標的清單，並從Workfront目標的數個區段加以管理。 您使用哪個區段取決於您處理目標時所要達到的目的。
+     或
 
-您可以套用篩選條件，只顯示每個區段中對您而言重要的目標。
+     適用於Prime或選取Adobe Workfront計畫的Adobe Workfront目標的其他授權。 如需詳細資訊，請參閱 [Adobe Workfront計畫](https://www.workfront.com/plans).
+
+* 對於目前的計畫與授權結構：
+
+   * A Pro或更高版本
+   * 除了Adobe Workfront授權之外，還有Workfront目標授權。
+
+請連絡您的Workfront客戶經理，以瞭解Workfront Goals授權。
+
+Workfront管理員授與您存取Workfront目標的許可權後，您就可以檢視您或貴組織中其他在Workfront目標區域中建立的目標。
+
+您可以存取目標或個別目標的清單，並從Workfront目標的數個區段管理它們。 您使用哪個區段取決於您在使用目標時想要達到的目的。
+
+您可以套用篩選條件，以在每個區段中僅顯示對您重要的目標。
 
 >[!TIP]
 >
->一個區段中更新的篩選器會自動套用至「目標清單」、「圖形」和「目標對齊」區段。 如此，您只能更新一次。 如需詳細資訊，請參閱 [篩選Adobe Workfront目標中的資訊](../../workfront-goals/goal-management/filter-information-wf-goals.md).
+>在一個區段中更新的篩選器會自動套用到「目標清單」、「圖表」和「目標校準」區段。 如此一來，您只能更新一次。 如需詳細資訊，請參閱 [在Adobe Workfront目標中篩選資訊](../../workfront-goals/goal-management/filter-information-wf-goals.md).
 
-以下是Workfront目標各節的簡要概述，以及管理目標可用的選項。 如需您可在Workfront目標每個區段內執行之其他動作的詳細資訊，我們也建議下列文章：
+以下簡要概述Workfront目標的各個區段以及可用於管理目標的選項。 如需您可以在Workfront目標的每個區段內執行之其他動作的詳細資訊，我們也建議閱讀下列文章：
 
 * [在Adobe Workfront目標中建立目標](../../workfront-goals/goal-management/create-goals.md)
-* [更新Adobe Workfront目標中的目標進度](../../workfront-goals/goal-review-and-workfront-goals-sections/check-in-goals.md)
-* [篩選Adobe Workfront目標中的資訊](../../workfront-goals/goal-management/filter-information-wf-goals.md)
+* [在Adobe Workfront目標中更新目標進度](../../workfront-goals/goal-review-and-workfront-goals-sections/check-in-goals.md)
+* [在Adobe Workfront目標中篩選資訊](../../workfront-goals/goal-management/filter-information-wf-goals.md)
 
 
 ## 目標清單
 
-您可以使用「目標清單」來檢閱屬於您、您的團隊、群組或組織的目標。 您可以檢視任何狀態和任何時段的目標。
+您可以使用「目標清單」來檢閱屬於您、您的團隊、群組或您的組織的目標。 您可以檢視任何狀態和任何時段中的目標。
 
-如需導覽目標清單和管理目標的相關資訊，請參閱 [管理Adobe Workfront目標目標清單中的目標](../../workfront-goals/goal-review-and-workfront-goals-sections/manage-goals-in-goal-list.md).
+如需有關導覽目標清單和管理目標的資訊，請參閱 [管理Adobe Workfront目標之目標清單中的目標](../../workfront-goals/goal-review-and-workfront-goals-sections/manage-goals-in-goal-list.md).
 
 ![](assets/goal-list-unshimmed.png)
 
-使用目標清單執行下列操作：
+使用「目標清單」來執行下列作業：
 
 * 檢視屬於您、您的團隊、群組或組織的目標。
-* 檢閱目標及其資訊（例如名稱、擁有者、進度或條件）。
+* 檢閱目標及其資訊（例如，名稱、擁有者、進度或條件）。
 * 新增目標。
 
-   如需詳細資訊，請參閱 [在Adobe Workfront目標中建立目標](../../workfront-goals/goal-management/create-goals.md).
+  如需詳細資訊，請參閱 [在Adobe Workfront目標中建立目標](../../workfront-goals/goal-management/create-goals.md).
 
-* 存取目標的頁面，並編輯和更新目標、其結果或活動
+* 存取目標的頁面並編輯與更新目標、其結果或活動
 
-   如需詳細資訊，請參閱 [編輯Adobe Workfront目標](../../workfront-goals/goal-management/edit-goals.md).
+  如需詳細資訊，請參閱 [在Adobe Workfront目標中編輯目標](../../workfront-goals/goal-management/edit-goals.md).
 
 * 編輯目標。
 
 ## 圖表
 
-您可以使用「圖表」區段來全面檢視屬於您或您組織之目標的健全狀態。 您可以在此區段的任何時段檢視任何狀態之目標的進度資訊。
+您可以使用圖表區段來取得屬於您或您的組織的目標健康狀況的整體檢視。 您可以在此段落中檢視任何狀態中任何時段的目標進度資訊。
 
-如需使用「圖形」區段的相關資訊，請參閱 [檢閱圖表以了解Adobe Workfront目標中的目標進度趨勢](../../workfront-goals/goal-review-and-workfront-goals-sections/review-goal-graphs.md).
+如需有關使用圖形區段的資訊，請參閱 [檢閱圖表以瞭解Adobe Workfront目標中的目標進度趨勢](../../workfront-goals/goal-review-and-workfront-goals-sections/review-goal-graphs.md).
 
 ![](assets/graphs-section-unshimmed.png)
 
-使用「圖形」部分執行以下操作：
+使用「圖形」區段來執行下列動作：
 
 * 檢視屬於您、您的團隊、群組或組織的目標績效。
-* 查看具有給定進度狀態的目標數。
-* 每週了解目標的執行方式。
+* 檢視具有指定進度狀態的目標數目。
+* 瞭解您的目標每週的執行方式。
 
 ## 目標校準
 
-如果目標彼此對齊，您可以使用「目標對齊」區段來顯示和檢閱組織中的所有目標及其彼此的對齊。 對齊的目標會顯示在連接的卡上，以說明彼此的對齊方式。 父項目標會先顯示，而子項目標會堆疊在其後。 您可以在此區段中查看任何狀態和任何時段的目標。
+如果您的目標彼此對齊，您可以使用「目標對齊」區段來顯示和檢閱組織中的所有目標及其彼此的對齊。 對齊的目標會顯示在連線的卡片上，以說明彼此的對齊。 父目標會最先顯示，而子目標會棧疊在它們後面。 您可以在此段落中檢視任何狀態和任何時段中的目標。
 
-如需如何導覽「目標對齊」區段以管理目標的資訊，請參閱 [導覽Adobe Workfront目標中的「目標對齊」區段](../../workfront-goals/goal-alignment/navigate-goal-alignment-chart.md).
+如需有關導覽「目標校準」區段以管理目標的資訊，請參閱 [導覽Adobe Workfront目標中的「目標校準」區段](../../workfront-goals/goal-alignment/navigate-goal-alignment-chart.md).
 
-如需協調目標的相關資訊，請參閱下列文章：
+如需對齊目標的資訊，請參閱下列文章：
 
-* [在Adobe Workfront目標中將目標連結起來，以協調目標](../../workfront-goals/goal-alignment/align-goals-by-connecting-them.md)
-* [通過將結果和活動轉換為目標來協調目標](../../workfront-goals/goal-alignment/align-goals-by-converting-results-activities.md)
+* [透過在Adobe Workfront目標中連線目標來對齊目標](../../workfront-goals/goal-alignment/align-goals-by-connecting-them.md)
+* [透過將結果和活動轉換為目標來校準目標](../../workfront-goals/goal-alignment/align-goals-by-converting-results-activities.md)
 
 ![](assets/goal-alignment-section-unshimmed.png)
 
-使用「目標對齊」部分執行以下操作：
+使用「目標校準」區段來執行下列作業：
 
-* 以卡片格式檢視屬於您或您組織的目標。
-* 顯示目標層次結構並查看對齊的子目標。
+* 以卡片格式檢視屬於您或您的組織的目標。
+* 顯示目標階層並檢視已調整一致的子目標。
 * 存取目標頁面並更新目標、其結果或活動。
 
 <!--

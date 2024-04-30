@@ -8,9 +8,9 @@ author: Alina
 feature: Workfront Goals
 recommendations: noDisplay, noCatalog
 exl-id: d166674a-a158-4467-bedf-fa5c997c18ec
-source-git-commit: c4e5aea70a8013643d3d9ce1c588ff560d2c3afd
+source-git-commit: 024c612d46848c55529e902a00d481588d261584
 workflow-type: tm+mt
-source-wordcount: '191'
+source-wordcount: '211'
 ht-degree: 0%
 
 ---
@@ -18,38 +18,22 @@ ht-degree: 0%
 
 # Adobe Workfront目標中的結果和活動
 
-<!--drafted for P&P new model: the note at the top will need to be replaced with this:
+您的組織必須具備下列專案，才能使用本文所述的功能：
 
-Your organization must have the following to use the functionality described in this article:
+* 對於新計畫和授權結構：
 
-* For the legacy plan and license structure: 
+   * 終極計畫
 
-  * A Pro or higher [Adobe Workfront plan](https://www.workfront.com/plans). 
-  * An Adobe Workfront Goals license in addition to a Workfront license.
+     或
 
-* For the current plan and license structure:
+     適用於Prime或選取Adobe Workfront計畫的Adobe Workfront目標的其他授權。 如需詳細資訊，請參閱 [Adobe Workfront計畫](https://www.workfront.com/plans).
 
-  * An Ultimate plan 
-    
-    Or
-    
-    An additional license for Adobe Workfront Goals for the Prime or Select Adobe Workfront plans. <is there a link we can add here for the plans and what they contain?!>
+* 對於目前的計畫與授權結構：
 
-Contact your Workfront account manager to learn about a Workfront Goals license.
+   * A Pro或更高版本
+   * 除了Adobe Workfront授權之外，還有Workfront目標授權。
 
-For additional information about access to Workfront Goals, see [Requirements to use Workfront Goals](../workfront-goals/goal-management/access-needed-for-wf-goals.md).
--->
-
->[!NOTE]
->
->您的組織必須具備下列專案，才能使用本文所述的功能：
->
->* A Pro或更高版本 [Adobe Workfront計畫](https://www.workfront.com/plans).
->* 除了Adobe Workfront授權之外，還有Workfront目標授權。
->
->  請連絡您的Workfront客戶經理，以瞭解Workfront Goals授權。
->
->如需存取Workfront目標的其他資訊，請參閱 [使用Workfront目標的需求](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+請連絡您的Workfront客戶經理，以瞭解Workfront Goals授權。
 
 若要記錄Workfront目標上的進度，您必須將進度指標與目標建立關聯。 除了結果和活動之外，您也可以將專案或子系目標與目標建立關聯，以記錄進度。
 

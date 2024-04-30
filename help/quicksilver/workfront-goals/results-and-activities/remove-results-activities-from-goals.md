@@ -7,9 +7,9 @@ description: 當結果、活動和專案不再相關時，您可以從Adobe Work
 author: Alina
 feature: Workfront Goals
 exl-id: 0e064dbd-6168-47b4-98ab-b5c0481e839e
-source-git-commit: 948cd81908df3174eb985d1c65533077d3ef5d49
+source-git-commit: 024c612d46848c55529e902a00d481588d261584
 workflow-type: tm+mt
-source-wordcount: '701'
+source-wordcount: '748'
 ht-degree: 0%
 
 ---
@@ -42,13 +42,18 @@ ht-degree: 0%
 <col>
 </col>
 <tbody>
- <tr>
- <td role="rowheader">Adobe Workfront計畫</td>
- <td>
- <p>任何</p>
-
-</td>
- </tr>
+ <tr> 
+   <td role="rowheader">Adobe Workfront計畫*</td> 
+   <td> 
+   <p>對於新計畫和授權結構：
+  <ul><li>終極計畫 </li>
+  或
+  <li>適用於Prime或選取Adobe Workfront計畫的Adobe Workfront目標的其他授權。 </li></ul> </p>
+<p>對於目前的計畫與授權結構： 
+<ul><li> A Pro或更高版本 </li>
+  <li>除了Adobe Workfront授權之外，還有Workfront目標授權。</li></ul></p>
+   </td> 
+  </tr>
  <tr>
  <td role="rowheader">Adobe Workfront授權*</td>
  <td>
