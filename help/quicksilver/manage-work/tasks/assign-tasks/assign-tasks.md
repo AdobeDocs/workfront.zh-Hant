@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management, Tasks
 role: User
 exl-id: 611b136e-2c3f-4eac-9d75-e8c12e06148d
-source-git-commit: 13a1d9ebee75c468ce55794db130f01ba658f125
+source-git-commit: ad5d6bfda24119076df8336ed291c0ba63e2c88a
 workflow-type: tm+mt
-source-wordcount: '1953'
+source-wordcount: '1966'
 ht-degree: 1%
 
 ---
@@ -134,7 +134,7 @@ You cannot make a team be a Primary on a task/ issue. (Alina) -->
    <td>如果您將任務指派給專案團隊且也指派了使用者，則即使使用者不是專案團隊的成員，任務仍會指派給專案團隊和使用者。</td>
   </tr>
   <tr>
-   <td>工作角色</td>
+   <td>職務角色</td>
    <td><p>如果您將任務或問題指派給一或多個角色，然後又指派使用者，則系統會根據下列規則決定要與其他使用者（如果有）產生關聯的工作角色：</p>
      <ul>
       <li>如果僅指派了一個工作角色，並且該工作角色符合使用者的主要角色（在其設定檔中設定），則任務或問題僅指派給該使用者。</li>
@@ -170,9 +170,13 @@ You cannot make a team be a Primary on a task/ issue. (Alina) -->
 
    如果任務或問題已指派，則按一下指派的名稱。
 
+   生產環境中的影像範例：
    ![](../assign-tasks/assets/advanced-assignments-link-from-task-header-nwe-350x267.png)
 
-1. 執行下列任一項作業：
+   <span class="preview">預覽環境中的範例影像：</span>
+   ![指派](assets/assignments-box-in-task-header.png)
+
+1. 執行下列其中一項：
 
    * 開始輸入您要指派的使用者、角色或團隊名稱，然後當名稱出現在清單中時按一下它。
 
@@ -192,7 +196,7 @@ You cannot make a team be a Primary on a task/ issue. (Alina) -->
 
      有關如何進行進階指派的資訊，請參閱 [建立進階任務指派](../../../manage-work/tasks/assign-tasks/create-advanced-assignments.md).
 
-1. 按一下&#x200B;**儲存**。
+1. 按一下「**儲存**」。
 1. （選擇性和條件性）按一下 **X圖示** 在任務右側面板中的工作分派名稱旁，移除工作分派（如果按一下） **進階**.
 
 ## 指派清單中的任務
@@ -288,7 +292,7 @@ You cannot make a team be a Primary on a task/ issue. (Alina) -->
    1. 開始輸入要從任務中移除的使用者、角色或團隊名稱，然後當它出現在清單中時選取它，然後按一下 **移除被指定者** 以移除更多受指派人。
    1. 按一下 **移除所有現有的被指定者** 以從所有選取的工作中移除所有受指派人。
 
-1. 按一下 **儲存變更**.
+1. 按一下「**儲存變更**」。
 1. （選擇性和條件性）當指派至或工作分派欄位顯示在您的任務清單中時，按一下這些欄位之一的任務，然後按一下 **X圖示** 位於受指派人名稱旁，以將其從任務中移除。
 
 <!--

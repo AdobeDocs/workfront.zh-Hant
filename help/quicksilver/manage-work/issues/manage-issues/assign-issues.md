@@ -7,14 +7,16 @@ author: Alina
 feature: Work Management
 role: User
 exl-id: e2dce29e-7370-4580-8326-99c4437998bf
-source-git-commit: daba001c28df268721c87df7d2516ffb76e535d9
+source-git-commit: abe6d1dbd256506fd733fa626ac5907fb9c24d65
 workflow-type: tm+mt
-source-wordcount: '1459'
+source-wordcount: '1490'
 ht-degree: 0%
 
 ---
 
 # 指派問題
+
+{{highlighted-preview}}
 
 您可以將問題指派給使用者、角色和團隊，以指出誰負責完成問題。 如需指派問題的一般資訊，請參閱 [修改問題指派的概觀](../../../manage-work/issues/manage-issues/modify-issue-assignments-overview.md).
 
@@ -112,13 +114,17 @@ ht-degree: 0%
 
    如果問題已指派，按一下目前指派的名稱。
 
-   ![](assets/nwe-assign-to-button-in-header-350x77.png)
+   ![指派給按鈕](assets/assign-to-button-in-header.png)
 
 1. 執行下列其中一項：
 
    * 開始輸入您要指派的使用者、角色或團隊名稱，然後當名稱出現在清單中時按一下它。
 
+     生產環境中的影像範例：
      ![](assets/nwe-assignments-expanded-in-task-header-350x259.png)
+
+     <span class="preview">預覽環境中的範例影像：</span>
+     ![指派搜尋](assets/assignments-expanded-in-task-issue-header.png)
 
    * （視條件而定）按一下 **建議的指派** 清單
    * 按一下 **指派給我** 以將其指派給您自己
@@ -161,7 +167,11 @@ ht-degree: 0%
 
    * 按一下 **指定任務** 欄位並開始輸入您想要指派給問題的活躍使用者、工作角色或活躍團隊的名稱，然後當它顯示在清單中時按一下它。
 
+     生產環境中的影像範例：
      ![](assets/assignments-field-task-list-nwe.png)
+
+     <span class="preview">預覽環境中的範例影像：</span>
+     ![指派欄位](assets/assignments-field-task-list-0424.png)
 
    >[!TIP]
    >

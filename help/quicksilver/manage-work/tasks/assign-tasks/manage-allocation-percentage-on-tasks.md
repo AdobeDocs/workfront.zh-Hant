@@ -1,29 +1,31 @@
 ---
 product-area: projects;user-management
 navigation-topic: assign-tasks
-title: 管理任務上的用戶或角色分配百分比
-description: 分配百分比表示分配的資源計畫在一天內處理任務的時間量。 它是在整個任務期間分配資源的工作日百分比（根據用戶或項目計畫）。
+title: 管理任務的使用者或角色配置百分比
+description: 配置百分比代表指定資源計畫在一天內處理一項任務的時間量。 這是在任務持續期間中配置資源的當日百分比（根據使用者或專案排程）。
 author: Alina
 feature: Work Management
 exl-id: 82238dff-b95e-42e4-8e72-6247934b504d
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: ad5d6bfda24119076df8336ed291c0ba63e2c88a
 workflow-type: tm+mt
-source-wordcount: '484'
+source-wordcount: '499'
 ht-degree: 1%
 
 ---
 
-# 管理任務上的用戶或角色分配百分比
+# 管理任務的使用者或角色配置百分比
 
-分配百分比表示分配的資源計畫在一天內處理任務的時間量。 它是在整個任務期間分配資源的工作日百分比（根據用戶或項目計畫）。
+{{highlighted-preview}}
+
+配置百分比代表指定資源計畫在一天內處理一項任務的時間量。 這是在任務持續期間中配置資源的當日百分比（根據使用者或專案排程）。
 
 >[!NOTE]
 >
->在將用戶分配到工作時，根據其計畫提供的可用性會影響任務和問題的計畫日期和預計日期。 如需排程的相關資訊，請參閱 [建立排程](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
+>指派使用者工作時，其根據排程的可用性會影響任務和問題的計畫和預計日期。 如需排程的相關資訊，請參閱 [建立排程](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
 
 ## 存取需求
 
-您必須具備下列存取權，才能執行本文中的步驟：
+您必須具有下列存取權才能執行本文中的步驟：
 
 <table style="table-layout:auto"> 
  <col> 
@@ -38,54 +40,57 @@ ht-degree: 1%
    <td> <p>工作或更高</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">訪問級別配置*</td> 
-   <td> <p>編輯對任務的訪問</p> <p>注意：如果您仍無權存取，請洽詢您的Workfront管理員，他們是否在您的存取層級設定其他限制。 如需Workfront管理員如何修改您的存取層級的詳細資訊，請參閱 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>.</p> </td> 
+   <td role="rowheader">存取層級設定*</td> 
+   <td> <p>編輯任務的存取權</p> <p>注意：如果您還是沒有存取權，請詢問您的Workfront管理員，他們是否在您的存取層級中設定其他限制。 如需有關Workfront管理員如何修改您的存取層級的資訊，請參閱 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">物件權限</td> 
-   <td> <p>為任務貢獻或更高權限</p> <p>編輯權限以在「編輯任務」框中更新分配百分比</p> <p>有關請求其他訪問的資訊，請參閱 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">請求對對象的訪問 </a>.</p> </td> 
+   <td role="rowheader">物件許可權</td> 
+   <td> <p>貢獻或更高的任務許可權</p> <p>編輯許可權以更新在編輯任務方塊中的分配百分比</p> <p>如需請求其他存取許可權的詳細資訊，請參閱 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">要求物件的存取權 </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;若要了解您擁有的計畫、授權類型或存取權，請聯絡您的Workfront管理員。
+&#42;若要瞭解您擁有的計畫、授權型別或存取權，請聯絡您的Workfront管理員。
 
-## 有關修改任務百分比分配的考量
+## 修改任務百分比分配的考量事項
 
-* 依預設，系統會為指派給使用者的任務分配相同的時間百分比。
-* 只有當任務的「持續時間類型」為「計算工作」或「工作驅動」時，您才能手動修改分配給任務的用戶和任務角色的分配百分比。
+* 依預設，使用者會獲得相等百分比的時間分配給指派給他們的任務。
+* 只有在任務的「期間型別」是已計算的工作或投入比導向時，您才能手動修改指派給任務的使用者與工作角色的分配百分比。
 
-   如需詳細資訊，請參閱 [任務持續時間和持續時間類型概覽](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
+  如需詳細資訊，請參閱 [任務期間與期間型別概觀](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
 
-* 不能修改分配給任務的團隊的百分比分配。
-* 無法修改分配給問題的用戶和作業角色的百分比分配。
+* 您無法修改指派給任務的團隊的百分比配置。
+* 您無法修改指派給問題的使用者和職位角色的百分比分配。
 
-## 修改任務的用戶或角色百分比分配
+## 修改任務的使用者或角色百分比分配
 
-1. 轉到要更改百分比分配的資源的任務。
-1. 按一下 **更多** 功能表 ![](assets/qs-more-icon-on-an-object.png) 在任務名稱旁，按一下 **編輯**.
+1. 移至您要變更其資源配置百分比的任務。
+1. 按一下 **更多** 功能表 ![](assets/qs-more-icon-on-an-object.png) 在任務名稱旁，然後按一下 **編輯**.
 
    或
 
-   按一下 **分配** 區域，然後按一下 **進階**.
+   按一下 **指定任務** 區域，然後按一下 **進階**.
 
-1. 確保 **持續時間類型** 任務的以下內容之一：
+1. 確保 **期間型別** 任務為下列其中一項：
 
    * 已計算的工作
    * 投入比導向
 
    >[!TIP]
    >
-   >* 對於「計算的分配持續期間類型」，Workfront使用以下公式計算每個受託人的分配百分比： `Allocation Percentage = (Work Required / Number of days in the Duration) / Number of hours per work day / Number of assignees`.
-   >* 對於「簡單持續時間類型」，您可以估計分配給每個資源的小時數，而不是分配百分比。
+   >* 對於已計算的指定期間型別，Workfront會使用下列公式來計算每個受指派人的分攤百分比： `Allocation Percentage = (Work Required / Number of days in the Duration) / Number of hours per work day / Number of assignees`.
+   >* 對於「簡單期間型態」，您可以估計指派給每項資源的時數，而非配置百分比。
 
+1. 按一下 **指定任務**，然後修改 **配置** 適用於每個任務受指派人。
 
-1. 按一下 **分配**，然後修改 **分配** 每個任務受託人。
+   您只能修改使用者與職務角色指派的配置百分比。
 
-   您只能修改用戶和職務角色分配的分配百分比。
+   您無法修改指派給任務的團隊配置百分比。
 
-   不能修改分配給任務的組的分配百分比。
-
+   生產環境中的影像範例：
    ![](assets/qs-advanced-assignments-box-with-duration-type-and-duration-350x251.png)
 
-1. 按一下&#x200B;**儲存**。
+   <span class="preview">預覽環境中的範例影像：</span>
+   ![修改配置百分比](assets/advanced-assignments-allocation-percentage.png)
+
+1. 按一下「**儲存**」。
