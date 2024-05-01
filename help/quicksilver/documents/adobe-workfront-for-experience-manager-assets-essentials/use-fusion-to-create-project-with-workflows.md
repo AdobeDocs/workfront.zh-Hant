@@ -6,7 +6,7 @@ description: 如果您透過Workfront Fusion建立專案，並想在專案中加
 author: Becky
 feature: Digital Content and Documents, Workfront Integrations and Apps, Workfront Fusion
 exl-id: b8132d5e-234d-47f6-a09c-ca46018a2d77
-source-git-commit: 605065896263ebbb761883689668be181b5012e3
+source-git-commit: 012aa4c15bcdb26a3e30f8c143599a7e90c9a0f3
 workflow-type: tm+mt
 source-wordcount: '883'
 ht-degree: 0%
@@ -28,48 +28,46 @@ ht-degree: 0%
 
 <table>
   <tr>
-   <td><strong>Adobe Workfront計畫*</strong>
-   </td>
-   <td>任何
-   </td>
+    <td><strong>Adobe Workfront計畫*</strong></td>
+    <td>任何</td>
   </tr>
   <tr>
-   <td><strong>Adobe Workfront授權*</strong>
-   </td>
-   <td>要求或更高版本
-   </td>
+   <td><strong>Adobe Workfront授權*</strong></td>
+   <td>要求或更高版本</td>
   </tr>
   <tr>
-   <td><strong>產品</strong>
-   </td>
-   <td><b>Adobe Experience Manager<b>：
-   <ul>
-   <li>
-   <p>您必須擁有Experience Manager Assetsas a Cloud Service或Assets Essentials，並且您必須在Admin Console中作為使用者新增到產品中。</p>
-   </li
-   ><li>
-   <p>您必須擁有Adobe Experience Manager存放庫的寫入許可權。</p>
-   </li>
-   </ul>
-   <b>Workfront Fusion</b>：<p>新增：</p>
-   <ul>
-   <li>
-   <p>選取或Prime Workfront計畫：您的組織必須購買Adobe Workfront Fusion。</p>
-   </li>
-   <li> 
-   <p>Ultimate Workfront計畫：包含Workfront Fusion。</p>
-   </li>
-   </ul>
-   <p>或</p>
-   <p>目前：您的組織必須購買Adobe Workfront Fusion。</p>
+   <td><strong>產品</strong></td>
+   <td>
+     <p><b>Adobe Experience Manager：</b></p>
+     <ul>
+       <li>
+         <p>您必須擁有Experience Manager Assetsas a Cloud Service或Assets Essentials，並且您必須在Admin Console中作為使用者新增到產品中。</p>
+       </li>
+       <li>
+        <p>您必須擁有Adobe Experience Manager存放庫的寫入許可權。</p>
+       </li>
+     </ul>
+     <p><b>Workfront Fusion：</b></p>
+     <p>新增：</p>
+     <ul>
+       <li>
+         <p>選取或Prime Workfront計畫：您的組織必須購買Adobe Workfront Fusion。</p>
+       </li>
+       <li> 
+         <p>Ultimate Workfront計畫：包含Workfront Fusion。</p>
+       </li>
+     </ul>
+     <p>或</p>
+     <p>目前：您的組織必須購買Adobe Workfront Fusion。</p>
    </td>
   </tr>
   <tr>
    <td><strong>存取層級設定*</strong>
    </td>
    <td>編輯檔案的存取權
-   <p>
-   <strong>注意： </strong>如果您還是沒有存取權，請詢問您的Workfront管理員，他們是否在您的存取層級中設定其他限制。 如需有關Workfront管理員如何修改您的存取層級的資訊，請參閱 <strong>建立或修改自訂存取層級</strong>.
+     <p>
+       <strong>注意： </strong>如果您還是沒有存取權，請詢問您的Workfront管理員，他們是否在您的存取層級中設定其他限制。 如需有關Workfront管理員如何修改您的存取層級的資訊，請參閱 <strong>建立或修改自訂存取層級</strong>.
+     </p>
    </td>
   </tr>
 </table>
