@@ -9,9 +9,9 @@ author: Becky
 feature: Workfront Fusion
 recommendations: noDisplay, noCatalog
 exl-id: 6e181c07-4419-486f-bde1-ace3db349a72
-source-git-commit: 27833c61ce7ff0ba14cf6edb535057f56e98516e
+source-git-commit: d2baef04d0a02a2a73dbe1dd4c46cb49a75a0d5e
 workflow-type: tm+mt
-source-wordcount: '134'
+source-wordcount: '144'
 ht-degree: 0%
 
 ---
@@ -44,4 +44,5 @@ ht-degree: 0%
 * [[!DNL Adobe Workfront Fusion] 案例範例：連線電子郵件， [!UICONTROL 文字剖析器]、和 [!DNL Google Sheets]](../../workfront-fusion/scenarios/example-connect-email-text-parser-gsheets.md)
 * [在中還原案例版本 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/restore-a-scenario-version.md)
 * [複製模組或情境 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/copy-modules-or-scenarios.md)
+* [將模組更新至中的新版本 [!DNL Adobe Workfront Fusion] 情境](../../workfront-fusion/scenarios/update-module-to-new-version.md)
 * [在中檢視及管理鎖定的案例 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/view-and-manage-locked-scenarios.md)
