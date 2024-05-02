@@ -8,9 +8,9 @@ description: 本文包含中角色之存取權和許可權的資訊。 [!DNL Ado
 author: Becky
 feature: Workfront Fusion
 exl-id: 0370fa9d-6680-4724-a431-8df884ce4f9a
-source-git-commit: 2169ce1dd7fe48c26b4a80a28b5cd7b0bf4e2617
+source-git-commit: cb093fcecd5defd9dbdbb955ad5158d4a794f005
 workflow-type: tm+mt
-source-wordcount: '568'
+source-wordcount: '533'
 ht-degree: 1%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 1%
  <col> 
  <tbody> 
   <tr> 
-    <td role="rowheader">[!DNL Adobe Workfront] 計劃*</td> 
+    <td role="rowheader">[!DNL Adobe Workfront] 計畫*</td> 
    <td> <p>[!DNL Pro] 或更高</p> </td> 
   </tr> 
    <tr> 
@@ -89,66 +89,52 @@ ht-degree: 1%
  <tbody> 
   <tr> 
    <td> <p>存取所有團隊</p> </td> 
-   <td><span style="font-family: 'Wingdings'">u</span> </td> 
-   <td> </td> 
-   <td> </td> 
-   <td> </td> 
-  </tr> 
-  <tr> 
-   <td> <p>安裝適用於組織的應用程式</p> </td> 
-   <td><span style="font-family: 'Wingdings'">u</span> </td> 
-   <td><span style="font-family: 'Wingdings'">u</span> </td> 
-   <td> </td> 
-   <td> </td> 
-  </tr> 
-  <tr> 
-   <td> <p>刪除組織</p> </td> 
-   <td><span style="font-family: 'Wingdings'">u</span> </td> 
+   <td>✓ (A) </td> 
    <td> </td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td> <p>編輯組織</p> </td> 
-   <td><span style="font-family: 'Wingdings'">u</span> </td> 
-   <td><span style="font-family: 'Wingdings'">u</span> </td> 
+   <td>✓ (A) </td> 
+   <td>✓ (A) </td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td> <p>管理組織使用者</p> </td> 
-   <td><span style="font-family: 'Wingdings'">u</span> </td> 
-   <td><span style="font-family: 'Wingdings'">u</span></td> 
+   <td>✓ (A) </td> 
+   <td>✓ (A)</td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td> <p>檢視組織</p> </td> 
-   <td><span style="font-family: 'Wingdings'">u</span> </td> 
-   <td><span style="font-family: 'Wingdings'">u</span> </td> 
-   <td><span style="font-family: 'Wingdings'">u</span> </td> 
-   <td><span style="font-family: 'Wingdings'">u</span> </td> 
+   <td>✓ (A) </td> 
+   <td>✓ (A) </td> 
+   <td>✓ (A) </td> 
+   <td>✓ (A) </td> 
   </tr> <!--
    <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
     <td> <p>Process payments</p> </td> 
-    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
+    <td>✓ </td> 
+    <td>✓ </td> 
     <td> </td> 
     <td> </td> 
    </tr>
   --> <!--
    <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
     <td> <p>List payments</p> </td> 
-    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
+    <td>✓ </td> 
+    <td>✓ </td> 
     <td> </td> 
     <td> </td> 
    </tr>
   --> 
   <tr> 
    <td> <p>新增團隊</p> </td> 
-   <td><span style="font-family: 'Wingdings'">u</span> </td> 
-   <td><span style="font-family: 'Wingdings'">u</span> </td> 
+   <td>✓ (A) </td> 
+   <td>✓ (A) </td> 
    <td> </td> 
    <td> </td> 
   </tr>
@@ -159,7 +145,7 @@ ht-degree: 1%
 
 ## 團隊角色
 
-### 情景
+### 情境
 
 <table style="table-layout:auto"> 
  <col> 
@@ -179,101 +165,101 @@ ht-degree: 1%
  <tbody> 
   <tr> 
    <td> <p style="text-align: left;">管理未完成的執行</p> </td> 
-   <td><span style="font-family: 'Wingdings'">u</span> </td> 
-   <td><span style="font-family: 'Wingdings'">u</span> </td> 
+   <td>✓ (A) </td> 
+   <td>✓ (A) </td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td> <p style="text-align: left;">列出未完成的執行</p> </td> 
-   <td><span style="font-family: 'Wingdings'">u</span> </td> 
-   <td><span style="font-family: 'Wingdings'">u</span> </td> 
-   <td><span style="font-family: 'Wingdings'">u</span> </td> 
-   <td><span style="font-family: 'Wingdings'">u</span> </td> 
+   <td>✓ (A) </td> 
+   <td>✓ (A) </td> 
+   <td>✓ (A) </td> 
+   <td>✓ (A) </td> 
   </tr> 
   <tr> 
    <td> <p style="text-align: left;">新增案例</p> </td> 
-   <td><span style="font-family: 'Wingdings'">u</span> </td> 
-   <td><span style="font-family: 'Wingdings'">u</span> </td> 
+   <td>✓ (A) </td> 
+   <td>✓ (A) </td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td> <p style="text-align: left;">刪除情境</p> </td> 
-   <td><span style="font-family: 'Wingdings'">u</span> </td> 
-   <td><span style="font-family: 'Wingdings'">u</span> </td> 
+   <td>✓ (A) </td> 
+   <td>✓ (A) </td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td> <p style="text-align: left;">編輯案例</p> </td> 
-   <td><span style="font-family: 'Wingdings'">u</span> </td> 
-   <td><span style="font-family: 'Wingdings'">u</span> </td> 
-   <td><span style="font-family: 'Wingdings'">u</span> </td> 
+   <td>✓ (A) </td> 
+   <td>✓ (A) </td> 
+   <td>✓ (A) </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td> <p style="text-align: left;">瀏覽案例執行歷史記錄</p> </td> 
-   <td><span style="font-family: 'Wingdings'">u</span> </td> 
-   <td><span style="font-family: 'Wingdings'">u</span> </td> 
-   <td><span style="font-family: 'Wingdings'">u</span> </td> 
-   <td><span style="font-family: 'Wingdings'">u</span> </td> 
+   <td>✓ (A) </td> 
+   <td>✓ (A) </td> 
+   <td>✓ (A) </td> 
+   <td>✓ (A) </td> 
   </tr> 
   <tr> 
    <td> <p style="text-align: left;">接收案例通知</p> </td> 
-   <td><span style="font-family: 'Wingdings'">u</span> </td> 
-   <td><span style="font-family: 'Wingdings'">u</span> </td> 
-   <td><span style="font-family: 'Wingdings'">u</span> </td> 
-   <td><span style="font-family: 'Wingdings'">u</span> </td> 
+   <td>✓ (A) </td> 
+   <td>✓ (A) </td> 
+   <td>✓ (A) </td> 
+   <td>✓ (A) </td> 
   </tr> 
   <tr> 
    <td> <p style="text-align: left;">重設統計資料</p> </td> 
-   <td><span style="font-family: 'Wingdings'">u</span> </td> 
-   <td><span style="font-family: 'Wingdings'">u</span> </td> 
-   <td><span style="font-family: 'Wingdings'">u</span> </td> 
-   <td><span style="font-family: 'Wingdings'">u</span> </td> 
+   <td>✓ (A) </td> 
+   <td>✓ (A) </td> 
+   <td>✓ (A) </td> 
+   <td>✓ (A) </td> 
   </tr> 
   <tr> 
    <td> <p style="text-align: left;">列出案例</p> </td> 
-   <td><span style="font-family: 'Wingdings'">u</span> </td> 
-   <td><span style="font-family: 'Wingdings'">u</span> </td> 
-   <td><span style="font-family: 'Wingdings'">u</span> </td> 
-   <td><span style="font-family: 'Wingdings'">u</span> </td> 
+   <td>✓ (A) </td> 
+   <td>✓ (A) </td> 
+   <td>✓ (A) </td> 
+   <td>✓ (A) </td> 
   </tr> 
   <tr> 
    <td> <p style="text-align: left;">編輯案例排程器</p> </td> 
-   <td><span style="font-family: 'Wingdings'">u</span> </td> 
-   <td><span style="font-family: 'Wingdings'">u</span> </td> 
+   <td>✓ (A) </td> 
+   <td>✓ (A) </td> 
    <td> </td> 
-   <td><span style="font-family: 'Wingdings'">u</span> </td> 
+   <td>✓ (A) </td> 
   </tr> 
   <tr> 
    <td> <p style="text-align: left;">開始案例</p> </td> 
-   <td><span style="font-family: 'Wingdings'">u</span> </td> 
-   <td><span style="font-family: 'Wingdings'">u</span> </td> 
+   <td>✓ (A) </td> 
+   <td>✓ (A) </td> 
    <td> </td> 
-   <td><span style="font-family: 'Wingdings'">u</span> </td> 
+   <td>✓ (A) </td> 
   </tr> 
   <tr> 
    <td> <p style="text-align: left;">停止情境</p> </td> 
-   <td><span style="font-family: 'Wingdings'">u</span> </td> 
-   <td><span style="font-family: 'Wingdings'">u</span> </td> 
+   <td>✓ (A) </td> 
+   <td>✓ (A) </td> 
    <td> </td> 
-   <td><span style="font-family: 'Wingdings'">u</span> </td> 
+   <td>✓ (A) </td> 
   </tr> 
   <tr> 
    <td> <p style="text-align: left;">手動執行案例</p> </td> 
-   <td><span style="font-family: 'Wingdings'">u</span> </td> 
-   <td><span style="font-family: 'Wingdings'">u</span> </td> 
+   <td>✓ (A) </td> 
+   <td>✓ (A) </td> 
    <td> </td> 
-   <td><span style="font-family: 'Wingdings'">u</span> </td> 
+   <td>✓ (A) </td> 
   </tr> 
   <tr> 
    <td> <p style="text-align: left;">檢視案例</p> </td> 
-   <td><span style="font-family: 'Wingdings'">u</span> </td> 
-   <td><span style="font-family: 'Wingdings'">u</span> </td> 
-   <td><span style="font-family: 'Wingdings'">u</span> </td> 
-   <td><span style="font-family: 'Wingdings'">u</span> </td> 
+   <td>✓ (A) </td> 
+   <td>✓ (A) </td> 
+   <td>✓ (A) </td> 
+   <td>✓ (A) </td> 
    </tr> 
  </tbody> 
 </table>
@@ -298,36 +284,36 @@ ht-degree: 1%
  <tbody> 
   <tr> 
    <td> <p style="text-align: left;">新增連線</p> </td> 
-   <td><span style="font-family: 'Wingdings'">u</span> </td> 
-   <td><span style="font-family: 'Wingdings'">u</span> </td> 
+   <td>✓ (A) </td> 
+   <td>✓ (A) </td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td> <p style="text-align: left;">刪除連線</p> </td> 
-   <td><span style="font-family: 'Wingdings'">u</span> </td> 
-   <td><span style="font-family: 'Wingdings'">u</span> </td> 
+   <td>✓ (A) </td> 
+   <td>✓ (A) </td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td> <p style="text-align: left;">編輯連線</p> </td> 
-   <td><span style="font-family: 'Wingdings'">u</span> </td> 
-   <td><span style="font-family: 'Wingdings'">u</span> </td> 
+   <td>✓ (A) </td> 
+   <td>✓ (A) </td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td> <p style="text-align: left;">列出連線</p> </td> 
-   <td><span style="font-family: 'Wingdings'">u</span> </td> 
-   <td><span style="font-family: 'Wingdings'">u</span> </td> 
-   <td><span style="font-family: 'Wingdings'">u</span> </td> 
-   <td><span style="font-family: 'Wingdings'">u</span> </td> 
+   <td>✓ (A) </td> 
+   <td>✓ (A) </td> 
+   <td>✓ (A) </td> 
+   <td>✓ (A) </td> 
   </tr> 
  </tbody> 
 </table>
 
-### Webhooks
+### Webhook
 
 <table style="table-layout:auto"> 
  <col> 
@@ -347,36 +333,36 @@ ht-degree: 1%
  <tbody> 
   <tr> 
    <td> <p style="text-align: left;">新增Webhook</p> </td> 
-   <td><span style="font-family: 'Wingdings'">u</span> </td> 
-   <td><span style="font-family: 'Wingdings'">u</span> </td> 
+   <td>✓ (A) </td> 
+   <td>✓ (A) </td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td> <p style="text-align: left;">刪除Webhook</p> </td> 
-   <td><span style="font-family: 'Wingdings'">u</span> </td> 
-   <td><span style="font-family: 'Wingdings'">u</span> </td> 
+   <td>✓ (A) </td> 
+   <td>✓ (A) </td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td> <p style="text-align: left;">編輯Webhook</p> </td> 
-   <td><span style="font-family: 'Wingdings'">u</span> </td> 
-   <td><span style="font-family: 'Wingdings'">u</span> </td> 
+   <td>✓ (A) </td> 
+   <td>✓ (A) </td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td> <p style="text-align: left;">列出Webhook</p> </td> 
-   <td><span style="font-family: 'Wingdings'">u</span> </td> 
-   <td><span style="font-family: 'Wingdings'">u</span> </td> 
-   <td><span style="font-family: 'Wingdings'">u</span> </td> 
-   <td><span style="font-family: 'Wingdings'">u</span> </td> 
+   <td>✓ (A) </td> 
+   <td>✓ (A) </td> 
+   <td>✓ (A) </td> 
+   <td>✓ (A) </td> 
   </tr> 
  </tbody> 
 </table>
 
-### 資料存放區
+### 資料儲存區
 
 <table style="table-layout:auto"> 
  <col> 
@@ -396,38 +382,38 @@ ht-degree: 1%
  <tbody> 
   <tr> 
    <td> <p style="text-align: left;">新增資料存放區</p> </td> 
-   <td><span style="font-family: 'Wingdings'">u</span> </td> 
-   <td><span style="font-family: 'Wingdings'">u</span> </td> 
+   <td>✓ (A) </td> 
+   <td>✓ (A) </td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td> <p style="text-align: left;">刪除資料存放區</p> </td> 
-   <td><span style="font-family: 'Wingdings'">u</span> </td> 
-   <td><span style="font-family: 'Wingdings'">u</span> </td> 
+   <td>✓ (A) </td> 
+   <td>✓ (A) </td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td> <p style="text-align: left;">編輯資料存放區</p> </td> 
-   <td><span style="font-family: 'Wingdings'">u</span> </td> 
-   <td><span style="font-family: 'Wingdings'">u</span> </td> 
+   <td>✓ (A) </td> 
+   <td>✓ (A) </td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td> <p style="text-align: left;">列出資料存放區</p> </td> 
-   <td><span style="font-family: 'Wingdings'">u</span> </td> 
-   <td><span style="font-family: 'Wingdings'">u</span> </td> 
-   <td><span style="font-family: 'Wingdings'">u</span> </td> 
-   <td><span style="font-family: 'Wingdings'">u</span> </td> 
+   <td>✓ (A) </td> 
+   <td>✓ (A) </td> 
+   <td>✓ (A) </td> 
+   <td>✓ (A) </td> 
   </tr> 
   <tr> 
    <td> <p style="text-align: left;">瀏覽資料存放區</p> </td> 
-   <td><span style="font-family: 'Wingdings'">u</span> </td> 
-   <td><span style="font-family: 'Wingdings'">u</span> </td> 
-   <td><span style="font-family: 'Wingdings'">u</span> </td> 
-   <td><span style="font-family: 'Wingdings'">u</span> </td> 
+   <td>✓ (A) </td> 
+   <td>✓ (A) </td> 
+   <td>✓ (A) </td> 
+   <td>✓ (A) </td> 
   </tr> 
  </tbody> 
 </table>
@@ -452,80 +438,31 @@ ht-degree: 1%
  <tbody> 
   <tr> 
    <td> <p style="text-align: left;">新增資料結構</p> </td> 
-   <td><span style="font-family: 'Wingdings'">u</span> </td> 
-   <td><span style="font-family: 'Wingdings'">u</span> </td> 
+   <td>✓ (A) </td> 
+   <td>✓ (A) </td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td> <p style="text-align: left;">刪除資料結構</p> </td> 
-   <td><span style="font-family: 'Wingdings'">u</span> </td> 
-   <td><span style="font-family: 'Wingdings'">u</span> </td> 
+   <td>✓ (A) </td> 
+   <td>✓ (A) </td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td> <p style="text-align: left;">編輯資料結構</p> </td> 
-   <td><span style="font-family: 'Wingdings'">u</span> </td> 
-   <td><span style="font-family: 'Wingdings'">u</span> </td> 
+   <td>✓ (A) </td> 
+   <td>✓ (A) </td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td> <p style="text-align: left;">列出資料結構</p> </td> 
-   <td><span style="font-family: 'Wingdings'">u</span> </td> 
-   <td><span style="font-family: 'Wingdings'">u</span> </td> 
+   <td>✓ (A) </td> 
+   <td>✓ (A) </td> 
    <td> </td> 
-   <td><span style="font-family: 'Wingdings'">u</span> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-### 裝置
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <col> 
- <col> 
- <col> 
- <thead> 
-  <tr> 
-   <th> </th> 
-   <th> <p style="text-align: left;">[！UICONTROL管理員]</p> </th> 
-   <th> <p style="text-align: left;">[！UICONTROL成員]</p> </th> 
-   <th> <p style="text-align: left;">[！UICONTROL監視]</p> </th> 
-   <th> <p style="text-align: left;">[！UICONTROL Operator]</p> </th> 
-  </tr> 
- </thead> 
- <tbody> 
-  <tr> 
-   <td> <p style="text-align: left;">新增裝置</p> </td> 
-   <td><span style="font-family: 'Wingdings'">u</span> </td> 
-   <td><span style="font-family: 'Wingdings'">u</span> </td> 
-   <td> </td> 
-   <td> </td> 
-  </tr> 
-  <tr> 
-   <td> <p style="text-align: left;">刪除裝置</p> </td> 
-   <td><span style="font-family: 'Wingdings'">u</span> </td> 
-   <td><span style="font-family: 'Wingdings'">u</span> </td> 
-   <td> </td> 
-   <td> </td> 
-  </tr> 
-  <tr> 
-   <td> <p style="text-align: left;">編輯裝置</p> </td> 
-   <td><span style="font-family: 'Wingdings'">u</span> </td> 
-   <td><span style="font-family: 'Wingdings'">u</span> </td> 
-   <td> </td> 
-   <td> </td> 
-  </tr> 
-  <tr> 
-   <td> <p style="text-align: left;">列出裝置</p> </td> 
-   <td><span style="font-family: 'Wingdings'">u</span> </td> 
-   <td><span style="font-family: 'Wingdings'">u</span> </td> 
-   <td> </td> 
-   <td><span style="font-family: 'Wingdings'">u</span> </td> 
+   <td>✓ (A) </td> 
   </tr> 
  </tbody> 
 </table>
@@ -550,31 +487,31 @@ ht-degree: 1%
  <tbody> 
   <tr> 
    <td> <p style="text-align: left;">新增金鑰</p> </td> 
-   <td><span style="font-family: 'Wingdings'">u</span> </td> 
-   <td><span style="font-family: 'Wingdings'">u</span> </td> 
+   <td>✓ (A) </td> 
+   <td>✓ (A) </td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td> <p style="text-align: left;">刪除金鑰</p> </td> 
-   <td><span style="font-family: 'Wingdings'">u</span> </td> 
-   <td><span style="font-family: 'Wingdings'">u</span> </td> 
+   <td>✓ (A) </td> 
+   <td>✓ (A) </td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td> <p style="text-align: left;">編輯索引鍵</p> </td> 
-   <td><span style="font-family: 'Wingdings'">u</span> </td> 
-   <td><span style="font-family: 'Wingdings'">u</span> </td> 
+   <td>✓ (A) </td> 
+   <td>✓ (A) </td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td> <p style="text-align: left;">清單索引鍵</p> </td> 
-   <td><span style="font-family: 'Wingdings'">u</span> </td> 
-   <td><span style="font-family: 'Wingdings'">u</span> </td> 
+   <td>✓ (A) </td> 
+   <td>✓ (A) </td> 
    <td> </td> 
-   <td><span style="font-family: 'Wingdings'">u</span> </td> 
+   <td>✓ (A) </td> 
   </tr> 
  </tbody> 
 </table>
@@ -599,38 +536,38 @@ ht-degree: 1%
  <tbody> 
   <tr> 
    <td> <p style="text-align: left;">新增範本</p> </td> 
-   <td><span style="font-family: 'Wingdings'">u</span> </td> 
-   <td><span style="font-family: 'Wingdings'">u</span> </td> 
+   <td>✓ (A) </td> 
+   <td>✓ (A) </td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td> <p style="text-align: left;">刪除範本</p> </td> 
-   <td><span style="font-family: 'Wingdings'">u</span> </td> 
-   <td><span style="font-family: 'Wingdings'">u</span> </td> 
+   <td>✓ (A) </td> 
+   <td>✓ (A) </td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td> <p style="text-align: left;">編輯範本</p> </td> 
-   <td><span style="font-family: 'Wingdings'">u</span> </td> 
-   <td><span style="font-family: 'Wingdings'">u</span> </td> 
+   <td>✓ (A) </td> 
+   <td>✓ (A) </td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td> <p style="text-align: left;">清單範本</p> </td> 
-   <td><span style="font-family: 'Wingdings'">u</span> </td> 
-   <td><span style="font-family: 'Wingdings'">u</span> </td> 
-   <td><span style="font-family: 'Wingdings'">u</span> </td> 
-   <td><span style="font-family: 'Wingdings'">u</span> </td> 
+   <td>✓ (A) </td> 
+   <td>✓ (A) </td> 
+   <td>✓ (A) </td> 
+   <td>✓ (A) </td> 
   </tr> 
   <tr> 
    <td> <p style="text-align: left;">檢視範本</p> </td> 
-   <td><span style="font-family: 'Wingdings'">u</span> </td> 
-   <td><span style="font-family: 'Wingdings'">u</span> </td> 
-   <td><span style="font-family: 'Wingdings'">u</span> </td> 
-   <td><span style="font-family: 'Wingdings'">u</span> </td> 
+   <td>✓ (A) </td> 
+   <td>✓ (A) </td> 
+   <td>✓ (A) </td> 
+   <td>✓ (A) </td> 
   </tr> 
  </tbody> 
 </table>
@@ -655,31 +592,31 @@ ht-degree: 1%
  <tbody> 
   <tr> 
    <td> <p style="text-align: left;">新增團隊</p> </td> 
-   <td><span style="font-family: 'Wingdings'">u</span> </td> 
+   <td>✓ (A) </td> 
    <td> </td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td> <p style="text-align: left;">刪除團隊</p> </td> 
-   <td><span style="font-family: 'Wingdings'">u</span> </td> 
+   <td>✓ (A) </td> 
    <td> </td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td> <p style="text-align: left;">新增及編輯團隊使用者</p> </td> 
-   <td><span style="font-family: 'Wingdings'">u</span> </td> 
+   <td>✓ (A) </td> 
    <td> </td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td> <p style="text-align: left;">檢視團隊</p> </td> 
-   <td><span style="font-family: 'Wingdings'">u</span> </td> 
-   <td><span style="font-family: 'Wingdings'">u</span> </td> 
-   <td><span style="font-family: 'Wingdings'">u</span> </td> 
-   <td><span style="font-family: 'Wingdings'">u</span> </td> 
+   <td>✓ (A) </td> 
+   <td>✓ (A) </td> 
+   <td>✓ (A) </td> 
+   <td>✓ (A) </td> 
   </tr> 
  </tbody> 
 </table>
