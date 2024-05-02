@@ -1,13 +1,13 @@
 ---
 title: 管理記錄頁面
-description: 您可以在Adobe Workfront Planning中編輯管理記錄方塊和頁面的配置。
+description: 您可以在Adobe Workfront Planning中編輯記錄預覽和頁面的版面。
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
-source-git-commit: 6bea34403e45c2b50986f79272f7a46959d67c6d
+source-git-commit: 6ec985d10a5fd7a4a9307b705f48734d76aec181
 workflow-type: tm+mt
-source-wordcount: '520'
+source-wordcount: '541'
 ht-degree: 0%
 
 ---
@@ -18,11 +18,11 @@ ht-degree: 0%
 
 {{maestro-important-intro}}
 
-您可以在Adobe Workfront Planning中編輯管理記錄方塊和頁面的配置。 您可以在記錄檢視中顯示記錄方塊。
+您可以在Adobe Workfront Planning中編輯記錄預覽和頁面的版面。
 
-記錄方塊是顯示在記錄型別檢視中的記錄頁面的較小檢視。
+記錄預覽是顯示在記錄型別檢視中的記錄頁面的較小檢視。
 
-當您變更記錄方塊和頁面的版面配置時，方塊和頁面會針對相同型別的所有記錄而變更。
+當您變更記錄預覽和頁面的版面配置時，變更會影響相同型別的所有記錄的方塊和頁面。
 
 您必須先建立記錄型別和記錄，才能開始編輯記錄頁面。
 
@@ -93,10 +93,100 @@ ht-degree: 0%
 
 ## 編輯記錄頁面的考量事項
 
-* 重新排列記錄方塊或頁面中的欄位會重新排列該型別所有記錄的欄位以及存取這些記錄的所有使用者。
-* 新增封面影像到記錄不是記錄方塊或頁面的整體配置的一部分。 您可以將唯一的封面影像新增到每張記錄中。 如需詳細資訊，請參閱 [新增封面影像至記錄](/help/quicksilver/maestro/records/add-a-cover-image-to-a-record.md).
+* 重新排列記錄預覽或頁面中的欄位會重新排列該型別所有記錄的欄位以及存取這些記錄的所有使用者。
 
-## 重新排列記錄方塊或頁面中的欄位
+* 顯示在記錄預覽中所做的變更會立即顯示在記錄詳細資訊頁面中。 在記錄頁面中所做的變更也會顯示在記錄預覽方塊中。
+
+<!--Replace the first bullet with this when we add sections:
+
+* The following changes affect all the records of the same type and are visible to all users accessing those records: 
+
+   * Rearranging fields
+   * Adding or removing sections
+-->
+
+* 新增封面影像到記錄不是記錄預覽或頁面的整體配置的一部分。 您可以將唯一的封面影像新增到每張記錄中。 如需詳細資訊，請參閱 [新增封面影像至記錄](/help/quicksilver/maestro/records/add-a-cover-image-to-a-record.md).
+
+<!--
+
+## Add sections to a record preview or page
+
+You can add sections to a record preview or page, to organize the information by common criteria and make it easier to find. 
+
+Consider the following when adding sections to a record page:
+
+* There is no limit to how many sections you can have on a page (***************IS THIS TRUE???***********)
+* You cannot have an empty section. You must have at least one field in a section. 
+* You can drag and drop fields from one section to another. 
+* When you remove all the fields from a section, the section is automatically deleted and cannot be recovered. 
+
+To add a section to a record preview or page: 
+
+{{step1-to-maestro}}
+
+The workspace that you access last opens. 
+
+1. (Optional) Click the downward-pointing arrow to the right of the workspace name to select the workspace whose records you want to update. 
+1. Click a record type card. 
+
+    The record type page opens. 
+
+1. From a view of any type, click the name of a record 
+
+    Or 
+    
+    From the table table view, click the **Open details** icon ![](assets/open-details-icon-in-table-name-field.png) to the left of a record name. 
+    
+    The record's preview opens in the view.
+
+    ![](assets/details-box.png) 
+
+    >[!TIP]
+    >
+    >You can view the **Open details** icon to the left of the Name field of a record in a table view only when the Name field is a primary field. 
+
+1. (Optional) Click the **Open in new tab** icon ![](assets/open-details-in-a-new-tab-icon.png) (****************check the icon; they are changing it**********)  in the upper-right corner of the record preview  to open the record's page in a new tab. 
+
+    The record page opens. 
+
+    ![](assets/details-page.png)
+
+1. In the record preview or page, hover over the white space to the left of the fields, then click the **Add section** icon ![](assets/add-section-icon.png) to add a section. 
+1. Click inside the section's name and replace **Untitled** with a name, then click Enter. (************has this changed to Untitled section???**********)
+1. Start dragging and dropping fields to the new section, as described in the section [Rearrange fields in the record preview or page](#rearrange-fields-in-the-record-preview-or-page) in this article. 
+
+1. (Optional) Hover over the name of a section and click the **More** menu ![](assets/more-menu.png). 
+
+   ![](assets/more-menu-options-for-section-on-record-page.png)
+1. (Optional) Do one of the following to edit the section: 
+
+   * Click **Rename** to rename the section
+
+      >[!TIP]
+      >
+      > You can rename a section inline, by clicking the name.
+   
+   * Click **Move up** to move the section up one position 
+
+      Or 
+      
+      Click **Move down** to move the section down one position.
+      All fields in the section move with the section. 
+
+   * Click **Delete** to delete the section. The section is deleted and it cannot be recovered. All users accessing the records of this type will no longer view the deleted section. 
+
+1. Click the downward-pointing arrow to the left of a section name to collapse it, or the right-pointing arrow  to expand it. 
+   All sections are expanded by default. 
+
+1. (Optional) Click the **grab** icon ![](assets/grab-icon.png) to the left of a section name, then drag and drop it in a desired spot. 
+
+    The new position of the section updates in both the preview and the page of all records of the same type for all users viewing the records. 
+
+    All changes to sections and field order are saved automatically. 
+
+-->
+
+## 重新排列記錄預覽或頁面中的欄位
 
 {{step1-to-maestro}}
 
@@ -113,7 +203,7 @@ ht-degree: 0%
 
    從表格檢視中，按一下 **開啟詳細資料** 圖示 ![](assets/open-details-icon-in-table-name-field.png) 記錄名稱的左側。
 
-   記錄的方塊會在檢視中開啟。
+   記錄的預覽會在檢視中開啟。
 
    ![](assets/details-box.png)
 
@@ -121,15 +211,15 @@ ht-degree: 0%
    >
    >您可以檢視 **開啟詳細資料** 圖示至表格檢視中記錄之「名稱」欄位左邊的圖示（僅當「名稱」欄位為主要欄位時）。
 
-1. （可選）按一下 **在新標籤中開啟** 圖示 ![](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> 在記錄方塊的右上角，以在新索引標籤中開啟記錄頁面。
+1. （可選）按一下 **在新標籤中開啟** 圖示 ![](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> 在記錄預覽的右上角，以在新索引標籤中開啟記錄頁面。
 
    記錄頁面隨即開啟。
 
    ![](assets/details-page.png)
 
-1. 在記錄方塊或頁面中，按一下抓取圖示 ![](assets/grab-icon.png) 至欄位名稱的左側，然後將其拖放到所需的位置。
+1. 在記錄預覽或頁面中，按一下 **抓取** 圖示 ![](assets/grab-icon.png) 至欄位名稱的左側，然後將其拖放到所需的位置。 <!--You can drag and drop fields to another section. You must have at least one field in a section.-->
 
-   對於檢視記錄的所有使用者，相同型別的所有記錄之方塊和頁面中的欄位新位置都會更新。
+   對於檢視記錄的所有使用者，相同型別的所有記錄預覽和頁面中的欄位新位置都會更新。
 
-   記錄方塊或頁面配置的所有變更都會自動儲存。
+   對記錄預覽或頁面儲存的版面配置所做的所有變更都會自動完成。
 

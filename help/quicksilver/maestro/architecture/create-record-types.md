@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: ed1c4954-b338-4865-a7a9-5ba0192e7b37
-source-git-commit: 6bea34403e45c2b50986f79272f7a46959d67c6d
+source-git-commit: d780e7729d7a2fce121f3fe101f4ab0ccb6b4cd1
 workflow-type: tm+mt
-source-wordcount: '1296'
+source-wordcount: '1288'
 ht-degree: 1%
 
 ---
@@ -20,7 +20,6 @@ ht-degree: 1%
 {{maestro-important-intro}}
 
 記錄型別是Adobe Workfront Planning的物件型別。 在Workfront Planning中，您可以建立自訂記錄型別，以說明組織生命週期中所需的工作相關專案。
-記錄型別可以是下列其中一項：
 
 如需有關記錄型別的詳細資訊，請參閱 [記錄型別概觀](../architecture/overview-of-record-types-and-taxonomies.md).
 

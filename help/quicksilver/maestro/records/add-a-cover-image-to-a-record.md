@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 93c6bc15-d945-4cfc-8e87-f5b4e6fac2f4
-source-git-commit: 2f8a5b2d2183090029966a13c7af37f20eb44fd0
+source-git-commit: 6ec985d10a5fd7a4a9307b705f48734d76aec181
 workflow-type: tm+mt
 source-wordcount: '563'
 ht-degree: 0%
@@ -93,12 +93,12 @@ ht-degree: 0%
 * 封面影像隻適用於一筆記錄，不適用於相同型別的所有記錄。
 * 您只能將影像檔案新增為封面影像。
   <!--above: when you know exactly what type of files are allowed, add the exact extensions above-->
-* 您可以從任何檢視的記錄方塊或記錄頁面，將封面影像新增至個別記錄。
+* 您可以從任何檢視的記錄預覽或記錄頁面，將封面影像新增至個別記錄。
 * 您無法從任何記錄檢視中內嵌新增封面影像。
 
 ## 新增封面影像至記錄
 
-您可以在記錄方塊或頁面頂端新增封面影像，以個人化記錄。
+您可以在記錄預覽或頁面頂端新增封面影像，以個人化記錄。
 
 {{step1-to-maestro}}
 
@@ -116,7 +116,7 @@ ht-degree: 0%
 
    從表格檢視中，按一下 **開啟詳細資料** 圖示 ![](assets/open-details-icon-in-table-name-field.png) 記錄名稱的左側。
 
-   記錄的方塊會在檢視中開啟。
+   記錄的預覽會在檢視中開啟。
 
    ![](assets/details-box.png)
 
@@ -124,18 +124,18 @@ ht-degree: 0%
    >
    >您可以檢視 **開啟詳細資料** 圖示至表格檢視中記錄之「名稱」欄位左邊的圖示（僅當「名稱」欄位為主要欄位時）。
 
-1. （可選）按一下 **在新標籤中開啟** 圖示 ![](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> 在記錄方塊的右上角，以在新索引標籤中開啟記錄頁面。
+1. （可選）按一下 **在新標籤中開啟** 圖示 ![](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> 在記錄預覽的右上角，以在新索引標籤中開啟記錄頁面。
 
    記錄頁面隨即開啟。
 
    ![](assets/details-page.png)
 
-1. 在記錄方塊或頁面中，按一下 **新增封面**. <!--check the casing here; I logged a bug for this-->
+1. 在記錄預覽或頁面中，按一下 **新增封面**. <!--check the casing here; I logged a bug for this-->
 此 **紀錄封面** 方塊開啟。
 
 1. 按一下 **選取以上傳** 並瀏覽電腦上的圖片，以選取、新增圖片，然後按一下 **使用影像**.
 
-   影像會上傳至記錄方塊或頁面頂端，且變更會自動儲存。
+   影像會上傳到記錄預覽或頁面頂端，而變更會自動儲存。
 
    ![](assets/record-page-with-cover-image.png)
 

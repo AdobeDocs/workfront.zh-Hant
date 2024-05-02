@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: e54142e189cd4f407161401203a7f13c752ad404
+source-git-commit: 6ec985d10a5fd7a4a9307b705f48734d76aec181
 workflow-type: tm+mt
-source-wordcount: '799'
+source-wordcount: '800'
 ht-degree: 0%
 
 ---
@@ -127,14 +127,14 @@ ht-degree: 0%
 
    或
 
-   按一下新記錄的名稱或 **開啟詳細資料** 圖示 ![](assets/open-details-icon-in-table-name-field.png) 記錄名稱的左側。 包含記錄詳細資訊的方塊會在表格中開啟。
+   按一下新記錄的名稱或 **開啟詳細資料** 圖示 ![](assets/open-details-icon-in-table-name-field.png) 記錄名稱的左側。 含有記錄詳細資訊的預覽會在表格中開啟。
 
    >[!TIP]
    >
-   >當「名稱」欄位是主要欄位時，您只能從記錄的名稱欄位存取「詳細資訊」方塊。
+   >您可以存取 **開啟詳細資料** 圖示僅來自記錄的名稱欄位，當「名稱」欄位是主要欄位時。
 
-1. 開始編輯記錄方塊中的記錄資訊。 Workfront會自動儲存您的變更。
-1. （可選）按一下 **在新標籤中開啟** 圖示 ![](assets/open-details-in-a-new-tab-icon.png) 在記錄方塊的右上角，在新索引標籤中開啟記錄頁面。 繼續編輯記錄頁面上的記錄。
+1. 開始編輯記錄預覽中的記錄資訊。 Workfront會自動儲存您的變更。
+1. （可選）按一下 **在新標籤中開啟** 圖示 ![](assets/open-details-in-a-new-tab-icon.png) 在記錄預覽的右上角，以在新索引標籤中開啟記錄頁面。 繼續編輯記錄頁面上的記錄。
 
 
 1. （可選）使用下列鍵盤快速鍵來復原或重做新增記錄：

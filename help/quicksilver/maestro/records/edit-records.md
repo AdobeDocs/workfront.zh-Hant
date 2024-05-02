@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: 024c612d46848c55529e902a00d481588d261584
+source-git-commit: d780e7729d7a2fce121f3fe101f4ab0ccb6b4cd1
 workflow-type: tm+mt
-source-wordcount: '1495'
+source-wordcount: '1520'
 ht-degree: 0%
 
 ---
@@ -92,11 +92,11 @@ ht-degree: 0%
 * 如果您擁有工作區的許可權，您可以編輯您建立的記錄或其他人建立的記錄。
 * 您可以從下列區域編輯記錄欄位：
 
-   * 記錄檢視中的記錄方塊
+   * 記錄檢視中的記錄預覽
    * 紀錄的頁面
    * 內嵌，在表格檢視中。
 
-<!--* When a user edits a record in a view, the changes are visible immediately in all views and the record pages to all other users. -->
+* 當使用者在檢視中編輯記錄時，變更會立即在所有檢視中可見，並且記錄頁面會向所有其他使用者顯示。
 
 * 下列型別的欄位會自動更新，您無法手動編輯其值：
    * 從其他記錄連結的欄位
@@ -113,7 +113,7 @@ ht-degree: 0%
 您可以從下列區域編輯記錄：
 
 * [從記錄型別的表格檢視](#edit-a-record-from-the-table-view-of-a-record-type)
-* [從檢視中的記錄方塊](#edit-a-record-from-the-records-box-in-a-view)
+* [從檢視中的記錄預覽](#edit-a-record-from-the-records-box-in-a-view)
 * [從紀錄的頁面](#edit-a-record-from-the-records-page)
 
 ### 在記錄型別的表格檢視中編輯內嵌記錄
@@ -188,7 +188,7 @@ ht-degree: 0%
 
 1. （選用）新增縮圖至記錄。 如需詳細資訊，請參閱 [新增縮圖至記錄](/help/quicksilver/maestro/records/add-thumbnails-to-records.md).
 
-### 在檢視中編輯記錄方塊中的記錄
+### 在檢視中從記錄預覽編輯記錄
 
 {{step1-to-maestro}}
 
@@ -204,7 +204,7 @@ ht-degree: 0%
 
    或
 
-   從表格檢視中，按一下 **開啟詳細資料** 圖示 ![](assets/open-details-icon-in-table-name-field.png) 記錄名稱的左側。 記錄的方塊會在檢視中開啟。
+   從表格檢視中，按一下 **開啟詳細資料** 圖示 ![](assets/open-details-icon-in-table-name-field.png) 記錄名稱的左側。 記錄的預覽會在檢視中開啟。
 
    ![](assets/details-box.png)
 
@@ -212,7 +212,7 @@ ht-degree: 0%
    >
    >您可以檢視 **開啟詳細資料** 圖示至表格檢視中記錄之「名稱」欄位左邊的圖示（僅當「名稱」欄位為主要欄位時）。
 
-1. 開始編輯記錄方塊中的欄位資訊。
+1. 開始編輯記錄預覽中的欄位資訊。
 
    >[!TIP]
    >
@@ -225,7 +225,7 @@ ht-degree: 0%
 
    Workfront會自動儲存您的變更。
 
-1. （可選）按一下 **在新標籤中開啟** 圖示 ![](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> 在記錄方塊的右上角，在新索引標籤中開啟記錄頁面。 繼續編輯記錄，如所述 [從記錄的頁面編輯記錄](#edit-a-record-from-the-records-page) 一節。
+1. （可選）按一下 **在新標籤中開啟** 圖示 ![](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> 在記錄預覽的右上角，以在新索引標籤中開啟記錄頁面。 繼續編輯記錄，如所述 [從記錄的頁面編輯記錄](#edit-a-record-from-the-records-page) 一節。
 
 ### 從記錄的頁面編輯記錄
 
@@ -241,7 +241,7 @@ ht-degree: 0%
 
 1. 執行下列其中一項：
 
-   * 從任何檢視中存取記錄的方塊，如 [在檢視中編輯記錄方塊中的記錄](#edit-a-record-from-the-records-box-in-a-view) 區段，然後按一下 **在新標籤中開啟** 圖示 ![](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> 在記錄方塊的右上角，以在新索引標籤中開啟記錄頁面。
+   * 從任何檢視中，存取記錄的預覽，如 [在檢視中從記錄預覽編輯記錄](#edit-a-record-from-the-records-preview-in-a-view) 區段，然後按一下 **在新標籤中開啟** 圖示 ![](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> 在記錄預覽的右上角，以在新索引標籤中開啟記錄頁面。
 
    * 從 **表格** 檢視，將游標停留在記錄名稱上，然後按一下 **更多** 功能表 ![](assets/more-menu.png)，然後按一下 **檢視**
 

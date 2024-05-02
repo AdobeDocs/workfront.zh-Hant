@@ -1,18 +1,18 @@
 ---
 title: 編輯欄位
-description: 在Adobe Workfront Planning中，您可以編輯已建立欄位的欄位設定。
+description: 在Adobe Workfront Planning中，您可以編輯已建立欄位的欄位設定。 本文說明如何編輯Workfront Planning欄位的設定。
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 6c35c313-d6ed-428b-b70d-2ea242da4e8f
-source-git-commit: e54142e189cd4f407161401203a7f13c752ad404
+source-git-commit: 6ec985d10a5fd7a4a9307b705f48734d76aec181
 workflow-type: tm+mt
-source-wordcount: '437'
+source-wordcount: '469'
 ht-degree: 0%
 
 ---
 
-<!--udpate the metadata with real information when making this avilable in TOC and in the left nav-->
+<!--update the metadata with real information when making this available in TOC and in the left nav-->
 
 <!---
 title: Edit foelds
@@ -35,18 +35,26 @@ recommendations: noDisplay, noCatalog
 
 本文說明如何編輯Workfront Planning欄位的設定。 如需有關編輯記錄欄位值的資訊，請參閱 [編輯記錄](/help/quicksilver/maestro/records/edit-records.md).
 
-## 編輯欄位資訊的考量事項
+## 編輯欄位設定的相關考量事項
+
+在變更欄位的設定之前，您必須考慮以下事項：
 
 * 如果您擁有該欄位所屬工作區的管理許可權，您可以編輯您建立的欄位或其他使用者建立的欄位。
 * 您可以在記錄型別表格中編輯欄位。
-* 您無法在記錄頁面或時間軸檢視中編輯欄位。
+* 您無法在記錄頁面或表格檢視之外的任何其他檢視中編輯欄位。
 * 儲存欄位後，您無法編輯欄位型別。
 * 如果先前選取的「數字」、「百分比」或「幣別」欄位在其附加的記錄中已有負值，則無法取消選取該欄位的「允許負數」設定。
-<!--this is not true yet; one piece of it is true and I added it as the bullet above: 
-* You cannot edit the options, or the special format of the following fields, after they are saved:
 
-    * Allow negative numbers option from a Number, Percentage, or Currency field. 
+<!--this is not true yet, but will be with the release of RTBE for field configuration changes: 
+
+* You can edit the configuration of the following fields, after they are saved:
+
+    * The Name or the Description of any field
     * The Options of a Single-select or a Multi-select field.
+    * The expression of a Formula field.-->
+
+<!--this is not yet true, but it might come later:
+* You can deselect Allow negative numbers option from a Number, Percentage, or Currency field after you save the field. 
 -->
 
 ## 存取需求
@@ -110,7 +118,7 @@ recommendations: noDisplay, noCatalog
 >
 >If you don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see [Create or modify custom access levels](../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md). -->
 
-## 編輯欄位
+## 編輯欄位設定
 
 {{step1-to-maestro}}
 
@@ -122,7 +130,7 @@ recommendations: noDisplay, noCatalog
 1. 按一下您要編輯其欄位的記錄型別的卡片。
 
    這會開啟記錄型別的頁面。
-1. （視條件而定）選取 **表格檢視** 從 **檢視** 記錄型別頁面右上角的下拉式功能表。
+1. （視條件而定）按一下 **表格檢視**.
 1. 將游標停留在您要編輯的欄位標題上，然後按一下欄位名稱后的向下箭頭，然後按一下 **編輯欄位**
 
    或
@@ -138,6 +146,17 @@ recommendations: noDisplay, noCatalog
    >[!TIP]
    >
    >儲存欄位後，您無法更新欄位型別。
+
+   欄位資訊會針對所有有權檢視工作區的人員而更新。
+
+   <!--After the release of the RTBE for field configurations, replace the tip with this:
+
+    >[!TIP]
+    >
+    >* You cannot update the field type after the field is saved.
+    >
+    >* When you modify field configurations (field options or formula expressions), records that already contain information in the modified fields will update their values in real-time. There is no warning and no audit log for the value changes triggered by field configuration changes. All users who view the fields will immediately see the new values with the modifications. 
+    -->
 
 
 1. （視條件而定）對於連結的記錄欄位，按一下 **編輯查閱欄位** 和從連結的記錄型別新增或移除任何欄位。

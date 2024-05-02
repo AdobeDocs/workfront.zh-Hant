@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: b11ab1dd0fdcc22cf2a99751d0aa4979556ec3fc
+source-git-commit: d780e7729d7a2fce121f3fe101f4ab0ccb6b4cd1
 workflow-type: tm+mt
 source-wordcount: '1799'
 ht-degree: 2%
@@ -78,7 +78,7 @@ Adobe Workfront規劃是Adobe Workfront的新產品。 Workfront Planning的目�
 | 將Workfront Planning記錄連線至Workfront專案、方案、投資組合、公司、群組 | ✓ (A) |                                 |                  |
 | 將Workfront Planning記錄連線至Adobe Experience Manager資產 | ✓ (A) |                                  |                 |
 | 包含詳細資訊的記錄頁面 | ✓ (A) |                                  |                  |
-| 更新記錄頁面的版面 |                               | ✓ (A) |                  |
+| 更新記錄頁面的版面 | ✓ (A) |                                 |                  |
 | 共用工作區 | ✓ (A) | |  |
 | 共用檢視 | ✓ (A) | |  |
 | 重複檢視 | ✓ (A) | |  |

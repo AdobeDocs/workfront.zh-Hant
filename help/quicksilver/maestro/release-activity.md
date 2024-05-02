@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 024c612d46848c55529e902a00d481588d261584
+source-git-commit: d780e7729d7a2fce121f3fe101f4ab0ccb6b4cd1
 workflow-type: tm+mt
-source-wordcount: '5636'
+source-wordcount: '5725'
 ht-degree: 0%
 
 ---
@@ -47,8 +47,19 @@ For more information, see [Manage record views](/help/quicksilver/maestro/views/
 
 -->
 
+## 2029年4月29日起一週
+
+### 在表格檢視中編輯記錄後，即時更新記錄詳細資料方塊和頁面
+
+生產： 2024年5月2日
+
+預覽：待定
+
+當使用者更新表格檢視中記錄的資訊時，其他使用者可以在記錄的詳細資訊方塊（檢視內）或頁面中即時檢視更新的資訊。 這可確保所有使用者同時檢視更新資訊，並在變更時同步。
+
+如需有關編輯記錄的資訊，請參閱 [編輯記錄](/help/quicksilver/maestro/records/edit-records.md).
+
 <!--
-## Week of April 29, 2029
 
 ### Add sections to the record's page 
 
@@ -77,16 +88,6 @@ If any user changes any field configuration (name, description, list of options 
 >There is no notification to other users that the field configuration has changed.  
 
 For more information, see [Edit fields](/help/quicksilver/maestro/fields/edit-fields.md).  
-
-### Real-time updates on the record details box and page after editing records in the table view
-
-Production: <date> 
-
-Preview: To be determined.  
-
-When a user updates the information on a record in the table view, other users can view the updated information in the record's details box (inside of a view) or page in real time. This ensures that all users view the updated information at the same time, in sync with when the changes happen.  
-
-For information, see [Edit records](/help/quicksilver/maestro/records/edit-records.md). 
 
 ### Enable Workfront Planning notifications  
 
@@ -144,7 +145,7 @@ For information, see [Adobe Workfront Planning notifications: Article index](/he
 
 預覽：待定
 
-身為工作區管理員，您現在可以重新排序記錄頁面或方塊中列出的欄位。 更新欄位順序會變更所有相同型別記錄的欄位順序，適用於所有檢視記錄頁面或記錄方塊的人。
+身為工作區管理員，您現在可以重新排序記錄頁面或預覽中列出的欄位。 更新欄位順序會變更所有相同型別記錄上的欄位順序，適用於所有檢視記錄頁面或記錄預覽的人。
 
 如需詳細資訊，請參閱 [管理記錄頁面](/help/quicksilver/maestro/records/manage-the-record-page.md).
 
@@ -155,7 +156,7 @@ For information, see [Adobe Workfront Planning notifications: Article index](/he
 
 預覽：待定
 
-當您管理記錄頁面時，您現在可以在記錄頁面或方塊上新增、重新定位和取代封面影像，以豐富記錄的展示和利害關係人的參與。 檢視記錄的所有使用者都可以看到封面影像。
+當您管理記錄頁面時，您現在可以在記錄頁面或預覽上新增、重新定位和取代封面影像，以豐富記錄的展示和利害關係人的參與。 檢視記錄的所有使用者都可以看到封面影像。
 
 如需詳細資訊，請參閱 [管理記錄頁面](/help/quicksilver/maestro/records/manage-the-record-page.md).
 
@@ -219,15 +220,15 @@ For information, see [Adobe Workfront Planning notifications: Article index](/he
 
 您現在可以在行事曆檢視中篩選資訊。 如需詳細資訊，請參閱 [管理行事曆檢視](/help/quicksilver/maestro/views/manage-the-calendar-view.md).
 
-### 包含已新增至時間軸和行事曆檢視的記錄詳細資訊的方塊
+### 使用新增到時間軸和行事曆檢視的記錄詳細資料進行預覽
 
 生產： 2024年3月19日
 
 預覽：待定
 
-您現在可以從時間軸和行事曆檢視存取包含記錄詳細資訊的方塊。 您可以在時間軸和行事曆檢視內的記錄方塊中編輯記錄。
+您現在可以從時間軸和行事曆檢視存取包含記錄詳細資料的預覽。 您可以在時間軸和行事曆檢視內的記錄預覽方塊中編輯記錄。
 
-在紀錄的方塊中，您可以在新的瀏覽器標籤中開啟紀錄頁面。
+從紀錄的預覽中，您可以在新的瀏覽器標籤中開啟紀錄頁面。
 
 如需詳細資訊，請參閱 [編輯記錄](/help/quicksilver/maestro/records/edit-records.md).
 
@@ -247,7 +248,7 @@ For information, see [Adobe Workfront Planning notifications: Article index](/he
 
 預覽：待定
 
-為了更方便在使用表格檢視時檢視關於記錄的其他資訊，我們引進了一個新的「詳細資訊」方塊，可顯示記錄詳細資訊的快速檢視。 以下是此方塊中包含的部分資訊：
+為了更方便在使用表格檢視時檢視關於記錄的其他資訊，我們引進了新的「詳細資訊」預覽，可顯示記錄詳細資訊的快速檢視。 以下是記錄預覽中包含的部分資訊：
 
 * 相關記錄詳細資訊總覽
 
