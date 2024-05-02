@@ -6,7 +6,7 @@ title: 將模組更新至中的新版本 [!DNL Adobe Workfront Fusion] 情境
 description: 由於Workfront Fusion連線到的應用程式可能會更新或發行新版本，因此Fusion偶爾需要為這些應用程式發行更新的模組。
 author: Becky
 feature: Workfront Fusion
-source-git-commit: 342f6993e6992ce0f92a706c75e9de6e3e835509
+source-git-commit: 787329beb0e3a44bc25d59184d35fa82841ebc4c
 workflow-type: tm+mt
 source-wordcount: '172'
 ht-degree: 0%
@@ -29,6 +29,9 @@ ht-degree: 0%
 1. 以與現有模組相同的設定來設定模組。
 1. 將新模組連線到與現有模組相同的情境。
 1. 刪除舊模組。
+
+
+
 
 
 
