@@ -6,7 +6,7 @@ author: Nolan
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: 2daf7617-5b3e-49f7-b93b-4210b1b2ea49
-source-git-commit: 6a7af60a5f66b37abcaeb594290503febc179d25
+source-git-commit: 535e9c8481ce0781ee0d35636bb6d56de4d1e102
 workflow-type: tm+mt
 source-wordcount: '385'
 ht-degree: 12%
@@ -22,7 +22,7 @@ Workfront data lake是目前正在開發中的新工具，提供專用的介面�
 **測試版排程：**
 
 * Beta版開始日期 — 2024年4月15日
-* 預計GA版本 — TBA
+* 預計發行日期 — TBA
 
 ## 參與測試版
 

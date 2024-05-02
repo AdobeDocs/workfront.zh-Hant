@@ -8,10 +8,10 @@ author: Nolan
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: 618c9dda-ad7d-4a05-960b-3ad14c14d605
-source-git-commit: 0da724e975cfb1f0f7e36cffdc545c6223a14a76
+source-git-commit: 535e9c8481ce0781ee0d35636bb6d56de4d1e102
 workflow-type: tm+mt
 source-wordcount: '88'
-ht-degree: 2%
+ht-degree: 4%
 
 ---
 
@@ -27,4 +27,4 @@ ht-degree: 2%
 * [報告](../reports-and-dashboards/reports/reports-overview.md)
 * [儀表板](../reports-and-dashboards/dashboards/dashboards-overview.md)
 * [增強型分析](../enhanced-analytics/enhanced-analytics.md)
-* [報告畫布](../reports-and-dashboards/reporting-canvas/reporting-canvas.md)
+* [畫布儀表板](../reports-and-dashboards/canvas-dashboards/canvas-dashboards-overview.md)

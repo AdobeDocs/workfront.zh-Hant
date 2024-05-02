@@ -3,9 +3,9 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文件、教學課程和其他資源，了解如何在您的組織中實施並有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: d337bb199db13c17e70be7b40654be8f1a87c2db
+source-git-commit: c3c3c2b7f7cf867ed98c2bbbb54d5a50980a78a0
 workflow-type: tm+mt
-source-wordcount: '14191'
+source-wordcount: '14154'
 ht-degree: 1%
 
 ---
@@ -1512,29 +1512,20 @@ ht-degree: 1%
       * [使用者名稱已經有人使用](people-teams-and-groups/tips-tricks-and-troubleshooting/username-already-in-use.md)
 * 報告 {#reporting}
    * [報表和控制面板：文章索引](reports-and-dashboards/reports-and-dashboards-overview.md)
-   * 報告畫布 {#reporting-canvas}
-      * [報告畫布](reports-and-dashboards/reporting-canvas/reporting-canvas.md)
-      * 管理報表 {#manage-reports}
-         * [管理報表概觀](reports-and-dashboards/reporting-canvas/manage-reports/manage-reports.md)
-         * [在報告畫布中建立報告](reports-and-dashboards/reporting-canvas/manage-reports/build-report.md)
-         * [匯出報告畫布中的報告](reports-and-dashboards/reporting-canvas/manage-reports/export-report.md)
-      * 表格區塊 {#table-blocks}
-         * [表格區塊](reports-and-dashboards/reporting-canvas/table-blocks/table-blocks.md)
-         * [在報告畫布中新增或編輯表格區塊](reports-and-dashboards/reporting-canvas/table-blocks/add-or-edit-report-table.md)
-         * [在報告畫布中設定表格欄](reports-and-dashboards/reporting-canvas/table-blocks/modify-columns-table.md)
-         * [在報告畫布中建立公式欄位](reports-and-dashboards/reporting-canvas/table-blocks/create-formula-field.md)
-         * [在報告畫布中將表格列分組](reports-and-dashboards/reporting-canvas/table-blocks/group-rows-in-table.md)
-         * [在報告畫布中篩選表格](reports-and-dashboards/reporting-canvas/table-blocks/configure-filter-rules-for-table.md)
-      * 視覺效果區塊 {#visualization-blocks}
-         * [視覺效果區塊](reports-and-dashboards/reporting-canvas/visualization-blocks/visualization-blocks.md)
-         * [在報告畫布中新增或編輯視覺效果區塊](reports-and-dashboards/reporting-canvas/visualization-blocks/add-or-edit-report-visualization.md)
-         * [在報告畫布中設定橫條圖視覺效果](reports-and-dashboards/reporting-canvas/visualization-blocks/configure-bar-visualization.md)
-         * [在報告畫布中設定欄視覺效果](reports-and-dashboards/reporting-canvas/visualization-blocks/configure-column-visualization.md)
-         * [在報告畫布中設定圓形圖視覺效果](reports-and-dashboards/reporting-canvas/visualization-blocks/configure-pie-visualization.md)
-         * [在報告畫布中設定KPI視覺效果](reports-and-dashboards/reporting-canvas/visualization-blocks/configure-kpi-visualization.md)
-      * 其他區塊 {#other-blocks}
-         * [其他區塊](reports-and-dashboards/reporting-canvas/other-blocks/other-blocks.md)
-         * [在報告畫布中新增或編輯網頁內容區塊](reports-and-dashboards/reporting-canvas/other-blocks/add-or-edt-web-content-block.md)
+   * 畫布控制面板 {#canvas-dashboards}
+      * [畫布儀表板](reports-and-dashboards/canvas-dashboards/canvas-dashboards-overview.md)
+      * 管理畫布控制面板 {#manage-canvas-dashboards}
+         * [管理畫布控制面板](reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/manage-canvas-dashboards.md)
+         * [開始使用畫布儀表板](reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/get-started-canvas-dashboards.md)
+         * [在畫布控制面板中新增、移除或排列報表](reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/add-remove-arrange-reports.md)
+         * [共用畫布控制面板](reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/share-canvas-dashboard.md)
+      * 畫布控制面板報表型別 {#report-types}
+         * [畫布控制面板報表型別概觀](reports-and-dashboards/canvas-dashboards/report-types/report-types-overview.md)
+         * [新增現有報表至畫布控制面板](reports-and-dashboards/canvas-dashboards/report-types/add-existing-report.md)
+         * [在畫布控制面板中建立KPI報告](reports-and-dashboards/canvas-dashboards/report-types/build-kpi-report.md)
+         * [在畫布儀表板中建立圖表報告](reports-and-dashboards/canvas-dashboards/report-types/build-chart-report.md)
+         * [在畫布儀表板中建立表格報告](reports-and-dashboards/canvas-dashboards/report-types/build-table-report.md)
+         * [將擱置核准報告新增至畫布控制面板](reports-and-dashboards/canvas-dashboards/report-types/add-pending-approvals-report.md)
    * 報表 {#reports}
       * [報告](reports-and-dashboards/reports/reports-overview.md)
       * 報表基本需知 {#report-basics}

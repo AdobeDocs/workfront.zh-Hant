@@ -5,10 +5,12 @@ title: 「Canvas Dashboards測試版：發行活動」
 description: Adobe Workfront Canvas控制面板Beta版的每週發行活動
 author: Nolan
 feature: Product Announcements
-exl-id: e3dc4e29-011b-46ae-95c5-c5c7f74eb94f
-source-git-commit: 1950effcb3bb0b36784159a214ed7e3db9d161d2
+hidefromtoc: true
+hide: true
+exl-id: f52e23c3-9a9a-458f-bb74-bb21b4b7656a
+source-git-commit: 535e9c8481ce0781ee0d35636bb6d56de4d1e102
 workflow-type: tm+mt
-source-wordcount: '114'
+source-wordcount: '115'
 ht-degree: 0%
 
 ---
