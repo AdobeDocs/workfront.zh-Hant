@@ -5,11 +5,11 @@ keywords: kickstart，kick-start，kickstart，kick-start
 navigation-topic: use-kick-starts
 title: Kick-Starts情境 — 簡單的專案和任務匯入準備
 description: 詳細說明使用Kick Start方法匯入基本專案和任務的可用設定和控制項。
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: c095ce9d-b189-449b-bd13-2633837697ed
-source-git-commit: b872ae1f712aa1b5af9ef73b87c5fbd51697626e
+source-git-commit: 101a5a80d00a8113ce31222b92f77300a5b0ce8a
 workflow-type: tm+mt
 source-wordcount: '1476'
 ht-degree: 9%
@@ -277,10 +277,10 @@ ht-degree: 9%
 
 開啟您剛下載的Workfront.xlsx檔案。 移至「專案專案」工作表。
 
-![](assets/im2-350x14.png)\
+![](assets/im2.png)
 除非您已經在Workfront中建立專案，否則檔案應該是空的。
 
-![](assets/im10-350x42.png)
+![](assets/im10.png)
 
 設定下列專案欄位的值：
 
@@ -305,7 +305,7 @@ ht-degree: 9%
 * **設定其他需要的詳細資料。**
 視需要填寫其他詳細資訊，例如說明或目前狀態。 在「群組群組」工作表中查詢每個專案的群組ID，並將其輸入至個別專案的setGroupID欄。 在COMPANY公司表上查詢專案的公司識別碼，並將其輸入到setCompanyID欄中。 在「使用者」工作表中查詢每個專案所有者的使用者ID，並將其輸入到setOwnerID欄中。 在使用者使用者工作表上查詢每個專案贊助者的使用者ID，並將其輸入到setSponnerID欄中。
 
-![](assets/im9-350x24.png)
+![](assets/im9.png)
 
 >[!NOTE]
 >
@@ -319,11 +319,11 @@ ht-degree: 9%
 
 除非您已在Workfront中建立任務，否則此工作表應為空白。
 
-![](assets/im8-350x14.png)
+![](assets/im8.png)
 
-![](assets/im7-350x43.png)
+![](assets/im7.png)
 
-![](assets/im6-350x16.png)
+![](assets/im6.png)
 
 對應任務最簡單的方式是一次對應一個專案（尤其是當每個專案上的任務相同時）。 然後，您可以複製第一個專案的作業計畫，並對後續專案的作業計畫進行小幅調整。 其餘步驟將假設您僅針對實作Workfront專案建立任務。 根據此情境，您將會為每個專案匯入9個任務，因此請將TRUE輸入到isNew欄的列3到11中。
 
@@ -364,7 +364,7 @@ ht-degree: 9%
 * 在每個任務的setPercentComplete欄位中輸入完成百分比的整數表示法。 此值不應包含百分比符號(%)。
 * 視需要為您正在建立的每個「任務」加入說明和其他詳細資訊。
 
-  ![](assets/im5-350x35.png)
+  ![](assets/im5.png)
 
 * setPlannedStartDate和setTaskConstraint欄不用於建置此專案的時間表，因為我們依賴前置任務關係。 您可以改為輸入每個任務的日期。 如果這樣做，請務必在setTaskConstraint欄中提供有效的任務限制。 如需此欄位有效值的詳細資訊，請檢閱任務限制和相關文章。
 

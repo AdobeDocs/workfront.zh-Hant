@@ -7,9 +7,10 @@ description: 自訂表單中的外部查詢欄位會呼叫外部API，並在下�
 author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
-source-git-commit: a082f010dbd78235aaad41a80d87d772ca77ff89
+exl-id: 13880fcb-8523-45d2-9ac6-38453e8e2391
+source-git-commit: 101a5a80d00a8113ce31222b92f77300a5b0ce8a
 workflow-type: tm+mt
-source-wordcount: '825'
+source-wordcount: '841'
 ht-degree: 0%
 
 ---
@@ -20,7 +21,7 @@ ht-degree: 0%
 
 本文提供使用外部查詢欄位來呼叫Workfront或公用API的相同例項的範例。 您也可以使用外部查詢與外部系統（例如Jira、Salesforce或ServiceNow）通訊。
 
-如需將外部查詢欄位新增至自訂表單的詳細資訊，以及外部查詢元件的其他定義，請參閱 [使用表單設計工具設計表單](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+外部查詢欄位僅在新的表單設計工具中可用，不能在舊版表單產生器中使用。 如需將外部查詢欄位新增至自訂表單的詳細資訊，以及外部查詢元件的其他定義，請參閱 [使用表單設計工具設計表單](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 ## 為相同的Workfront執行個體設定外部查詢欄位
 
@@ -127,4 +128,3 @@ ht-degree: 0%
    ![具有外部查詢欄位的自訂表單](assets/external-lookup-countries-example1.png)
 
    ![根據地區的國家/地區的外部查閱選項](assets/external-lookup-countries-example2.png)
-
