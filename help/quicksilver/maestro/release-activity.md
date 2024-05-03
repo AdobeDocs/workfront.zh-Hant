@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: d780e7729d7a2fce121f3fe101f4ab0ccb6b4cd1
+source-git-commit: b9e8669c81891eeaa4c97bf8ab3ce72c02b2f62a
 workflow-type: tm+mt
-source-wordcount: '5725'
+source-wordcount: '5784'
 ht-degree: 0%
 
 ---
@@ -58,6 +58,14 @@ For more information, see [Manage record views](/help/quicksilver/maestro/views/
 當使用者更新表格檢視中記錄的資訊時，其他使用者可以在記錄的詳細資訊方塊（檢視內）或頁面中即時檢視更新的資訊。 這可確保所有使用者同時檢視更新資訊，並在變更時同步。
 
 如需有關編輯記錄的資訊，請參閱 [編輯記錄](/help/quicksilver/maestro/records/edit-records.md).
+
+### 編輯記錄後，在行事曆檢視中進行即時更新
+
+生產： 2024年5月3日
+
+預覽：待定。
+
+當使用者更新記錄上的資訊時，其他使用者可以即時在記錄的行事曆檢視中檢視更新的資訊。 這可確保所有使用者同時檢視更新資訊，並在變更時同步。
 
 <!--
 
