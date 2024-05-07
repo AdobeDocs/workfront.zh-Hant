@@ -12,9 +12,9 @@ hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: fe213fe7-5bb8-479c-926b-761cbdd7ba4e
-source-git-commit: 6497bfa1bf8236baaf4beee38078426b754e1241
+source-git-commit: 66b9fc84c18bce2d0cecee9368a125570c822a54
 workflow-type: tm+mt
-source-wordcount: '601'
+source-wordcount: '717'
 ht-degree: 0%
 
 ---
@@ -29,9 +29,26 @@ ht-degree: 0%
 
 如需指示，請參閱 [建立或編輯環境升級套件](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-create-package.md).
 
+## 安裝的封裝狀態
+
+套件必須處於「作用中」狀態才能安裝在生產環境中。
+
+我們建議將套件移至TESTING狀態，並安裝在另一個沙箱中測試套件。  如果此測試成功，且沒有錯誤，請將套件移至「作用中」以將其安裝在生產環境中。
+
+若要編輯套裝程式的狀態：
+
+1. 選取套裝，如所述  [編輯或組合現有套件](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-create-package.md#create-or-edit-an-environment-promotion-package) 在建立並編輯環境升級套件一文中。
+1. 按一下 **編輯套裝**.
+1. 按一下 **狀態**.
+1. 從下拉式選單中選取所需的狀態。
+
+如需狀態的詳細資訊，請參閱 [環境升級狀態](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-in-wf.md#environment-promotion-statuses) 在文章中，概述如何在Workfront環境之間移動物件。
+
+## 安裝套件
+
 >[!NOTE]
 >
->若要安裝套件，您必須登入要安裝套件的環境。 這是您複製物件的環境 **至**.
+>* 若要安裝套件，您必須登入要安裝套件的環境。 這是您複製物件的環境 **至**.
 
 1. 前往您要安裝套件的環境。
 1. 按一下 **[!UICONTROL 主要功能表]** 圖示 ![主要功能表](/help/_includes/assets/main-menu-icon.png) 在Adobe Workfront的右上角，或（如果有的話）按一下 **[!UICONTROL 主要功能表]** 圖示 ![主要功能表](/help/_includes/assets/main-menu-icon-left-nav.png) 然後按一下「 」 **[!UICONTROL 設定]** ![「設定」圖示](/help/_includes/assets/gear-icon-setup.png).
