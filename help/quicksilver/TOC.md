@@ -3,9 +3,9 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文件、教學課程和其他資源，了解如何在您的組織中實施並有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: 14d9c862bee9f367d20b851254c8e55a8d08907f
+source-git-commit: 4564bc136576a92ddacec7116ca18ef9fb15a5bc
 workflow-type: tm+mt
-source-wordcount: '14239'
+source-wordcount: '14226'
 ht-degree: 1%
 
 ---
@@ -413,9 +413,8 @@ ht-degree: 1%
          * [新的評論體驗](product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md)
          * [新的評論體驗發行活動](product-announcements/betas/new-commenting-experience-beta/new-commenting-beta-experience-release-activity.md)
          * [新的評論體驗常見問題集](product-announcements/betas/new-commenting-experience-beta/new-commenting-faq.md)
-      * Workfront與Frame.io整合alpha {#frame-io-wf-integration-alpha}
-         * [Adobe Workfront與Frame.io原生整合alpha：概觀](product-announcements/betas/frame-io-wf-integration-alpha/frame-io-wf-integration-alpha-overview.md)
-         * [Adobe Workfront與Frame.io原生整合alpha：功能](product-announcements/betas/frame-io-wf-integration-alpha/frame-io-wf-integration-alpha-features.md)
+      * Workfront和Frame.io整合beta版 {#frame-io-wf-integration-beta}
+         * [Adobe Workfront和Frame.io原生整合Beta版](review-and-approve-work/Documents/wf-frame-alpha.md)
       * Workfront data lake beta {#data-lake-beta}
          * [Workfront data lake beta版資訊](/help/quicksilver/product-announcements/betas/data-lake-beta/data-lake-beta-information.md)
 * 管理和設定 {#administration-and-setup}
@@ -1792,7 +1791,6 @@ ht-degree: 1%
 * 檢閱與核准工作 {#review-and-approve-work}
    * [檢閱和核准工作](review-and-approve-work/review-and-approve-work.md)
    * [Alpha計畫 — 檔案核准](review-and-approve-work/Documents/doc-approvals-alpha.md)
-   * [Beta版計畫 — Workfront + Frame.io](review-and-approve-work/Documents/wf-frame-alpha.md)
    * [非付費使用者的有限檔案和校訂決定概覽](review-and-approve-work/proof-doc-decision-limits.md)
    * 工作核准 {#work-approvals}
       * [工作核准](review-and-approve-work/manage-approvals/manage-approvals.md)

@@ -5,13 +5,13 @@ title: 連線Workfront和Frame.io
 description: Workfront在稽核和核准流程中使用Frame.io來會見他們想要工作的人。 專案管理和核准程式在Workfront中進行管理，而稽核程式在Frame.io中完成。
 author: Courtney
 feature: Work Management, Digital Content and Documents
-source-git-commit: 2c1945cdc9f923ea7fdc750f69eeba2a026571ac
+exl-id: 8529b4d5-9732-4dd6-bf81-191aea1ed68c
+source-git-commit: a8a5205616a0bf30c5ba4b27a2ffb9fae4d52ac4
 workflow-type: tm+mt
-source-wordcount: '632'
+source-wordcount: '633'
 ht-degree: 0%
 
 ---
-
 
 # 連線Workfront和Frame.io
 
@@ -28,7 +28,7 @@ Workfront在稽核和核准流程中使用Frame.io來會見他們想要工作的
 
 ## 存取需求
 
-* 您的組織必須手動上線，才能使用本文所述的功能。 如需詳細資訊，請參閱 [Adobe Workfront與Frame.io原生整合alpha：概觀](/help/quicksilver/product-announcements/betas/frame-io-wf-integration-alpha/frame-io-wf-integration-alpha-overview.md).
+* 您的組織必須手動上線到測試版，請使用本文所述的功能。 如需詳細資訊，請參閱 [Adobe Workfront和Frame.io原生整合Beta版](/help/quicksilver/review-and-approve-work/Documents/wf-frame-alpha.md).
 
 
 ## 將Workfront群組連線到Frame.io群組
@@ -121,5 +121,3 @@ Workfront在稽核和核准流程中使用Frame.io來會見他們想要工作的
 >[!IMPORTANT]
 >
 >為Frame.io連線專案後，對專案群組所做的變更不會反映在Frame.io中。
-
-
