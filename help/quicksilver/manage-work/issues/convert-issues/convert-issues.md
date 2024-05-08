@@ -8,9 +8,9 @@ feature: Work Management
 topic: Collaboration
 role: User
 exl-id: 97c83b65-208b-4e3f-b4cc-681237d82aa3
-source-git-commit: 31ee3259167532e1e1efa75d635786762f6e476e
+source-git-commit: 36bdacb5f6d04245552aeeb4ab82d210597645a2
 workflow-type: tm+mt
-source-wordcount: '1383'
+source-wordcount: '1441'
 ht-degree: 2%
 
 ---
@@ -25,6 +25,7 @@ ht-degree: 2%
 
 ## 轉換問題時的注意事項
 
+* 將問題轉換為任務或專案時，除非本文另有指定，否則問題中的大部分資訊都會傳輸到任務或專案。
 * 您的Workfront管理員或群組管理員已設定問題、其解決方法發生之情形的偏好設定，以及主要連絡人在將其轉換為專案或任務時的存取權，如中所述 [設定系統範圍的任務和問題偏好設定](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
 * Workfront會移除轉換期間與問題相關聯的任何核准。
 * 當您將其轉換為任務或專案時，Workfront會覆寫問題的解決物件。 新任務或問題在轉換後會成為問題的新解決物件。
@@ -76,7 +77,9 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td>優先順序</td> 
-   <td>從範本傳輸。 </td> 
+   <td><p>從問題中轉移。</p>
+   <p>當您針對轉換的專案使用範本時，您可以選擇手動變更「優先順序」。 如果您選擇不變更，則問題的優先順序會轉移至專案。 
+    </td> 
   </tr> 
   <tr> 
    <td>URL</td> 
@@ -87,7 +90,7 @@ ht-degree: 2%
    <td>從範本傳輸。</td> 
   </tr> 
   <tr> 
-   <td>專案狀態</td> 
+   <td>專案狀況</td> 
    <td>符合由Workfront管理員在設定區域中決定的系統層級預設偏好設定。 如需詳細資訊，請參閱 <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/set-custom-condition-default-projects.md" class="MCXref xref">將自訂條件設定為專案的預設值</a></td> 
   </tr> 
   <tr> 
@@ -104,11 +107,11 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td>專案組合</td> 
-   <td>從範本傳輸。 否則，此欄位為空白。</td> 
+   <td>從範本傳輸。 否則，此欄位為空白。</td> 
   </tr> 
   <tr> 
    <td>方案</td> 
-   <td>從範本傳輸。 否則，此欄位為空白。</td> 
+   <td>從範本傳輸。 否則，此欄位為空白。</td> 
   </tr> 
   <tr> 
    <td>群組</td> 
@@ -157,7 +160,7 @@ ht-degree: 2%
 <!--WRITER
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
 <h2>Convert an issue to a project</h2> 
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE:&nbsp;moved to its own article)</p>
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: moved to its own article)</p>
 -->
 <!--
 <ol>
@@ -239,8 +242,8 @@ ht-degree: 2%
 | 問題欄位 | 專案或工作列位 | 專案清單或報告 | 專案詳細資訊區域 | 任務清單或報告 | 任務詳細資訊區域 |
 |---|---|---|---|---|---|
 | 問題名稱 | 已轉換問題的名稱 | ✔ | ✔ | ✔ | ✔ |
-| 主要連絡人 | 轉換的問題建立者名稱 | ✔ | `✔` | ✔ |   |
-| 輸入日期 | 轉換的問題輸入日期 | ✔ |   | ✔ |   |
+| 主要連絡人 | 轉換的問題建立者名稱 | ✔ | `✔` | ✔ |  |
+| 輸入日期 | 已轉換問題的輸入日期 | ✔ |  | ✔ |  |
 
 
 >[!CAUTION]

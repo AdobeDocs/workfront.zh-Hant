@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 374b6d9c-69a9-4a73-8708-51c14a78c7c9
-source-git-commit: 6bea34403e45c2b50986f79272f7a46959d67c6d
+source-git-commit: 36bdacb5f6d04245552aeeb4ab82d210597645a2
 workflow-type: tm+mt
 source-wordcount: '561'
 ht-degree: 0%
@@ -134,9 +134,9 @@ ht-degree: 0%
 
    如需詳細資訊，請參閱 [刪除記錄型別](/help/quicksilver/maestro/architecture/delete-record-types.md).
 
-1. （選擇性）按一下檢視標籤中的檢視名稱以編輯現有檢視，或按一下 **+檢視** 以建立檢視。
+1. （可選）按一下記錄型別卡片以將其拖放到新位置。 您可以將記錄型別從一個工作區區段拖放至另一個工作區區段。
 
-   如需詳細資訊，請參閱 [管理記錄檢視](/help/quicksilver/maestro/views/manage-record-views.md).
+   ![](assets/drag-and-drop-record-types-in-a-workspace.png)
 
 1. （選用）按一下 **共用** 工作區右上角的「 」，與其他人共用工作區。
 

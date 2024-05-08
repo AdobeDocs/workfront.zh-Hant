@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: ed1c4954-b338-4865-a7a9-5ba0192e7b37
-source-git-commit: d780e7729d7a2fce121f3fe101f4ab0ccb6b4cd1
+source-git-commit: 36bdacb5f6d04245552aeeb4ab82d210597645a2
 workflow-type: tm+mt
-source-wordcount: '1288'
+source-wordcount: '1269'
 ht-degree: 1%
 
 ---
@@ -146,7 +146,7 @@ ht-degree: 1%
 
 1. 更新下列資訊：
 
-   * 將「未命名的作業記錄型別」取代為您未來記錄型別的名稱。 <!--did they bring back the field label here and did they rename it to "Name"-->
+   * 將「未命名的記錄型別」取代為您未來記錄型別的名稱。 <!--did they bring back the field label here and did they rename it to "Name"-->
    * **說明**：新增更多有關記錄型別的資訊。
    * 為與記錄型別關聯的圖示選取顏色和形狀。 執行下列動作：
       * 選取顏色以識別您的新記錄型別。 這是記錄型別圖示的顏色。 預設會選取「灰色」。
@@ -155,8 +155,11 @@ ht-degree: 1%
 1. 按一下「**建立**」。
 
    記錄型別卡片會新增至區段以及您選取的工作區。
-記錄型別包含的欄位數顯示在卡片上。
-1. （可選）將游標停留在記錄型別卡片上，按一下 **更多** 圖示 ![](assets/more-menu.png) 按一下「 」 **編輯** 以編輯有關記錄型別的資訊。
+記錄型別的「說明」會顯示在卡片上。
+
+   ![](assets/record-type-card-with-description.png)
+
+1. （可選）將游標停留在記錄型別卡片上，按一下 **更多** 圖示 ![](assets/more-menu.png) 按一下「 」 **編輯** 以修改有關記錄型別的資訊。
 1. （選擇性）按一下記錄型別卡片以開啟記錄型別頁面。
 
    ![](assets/operational-record-type-blank.png)
@@ -188,9 +191,9 @@ ht-degree: 1%
 
 1. （可選）在標題中，按一下記錄型別名稱左側的向左箭頭，返回選取的工作區。
 
-   記錄型別卡片會顯示記錄型別包含的欄位數和連線數。
+1. （選擇性）在工作區中，按一下並按住記錄型別卡片，以將記錄型別拖放到所需位置，或將其移動到其他區段。
 
-   ![](assets/campaign-card-with-fields-and-connections-highlighted.png)
+   變更會自動儲存。
 
    如需有關在記錄型別頁面中新增記錄、刪除或編輯記錄型別或更新檢視的其他資訊，請參閱下列文章：
 
@@ -198,10 +201,6 @@ ht-degree: 1%
    * [刪除記錄型別](../architecture/delete-record-types.md)
    * [編輯記錄型別](../architecture/edit-record-types.md)
    * [管理記錄檢視](../views/manage-record-views.md)
-
-1. （選擇性）在工作區中，按一下並按住記錄型別卡片，以將記錄型別拖放到所需位置，或將其移動到其他區段。
-
-   變更會自動儲存。
 
 ## 匯入Excel或CSV檔案來建立記錄型別
 

@@ -4,9 +4,9 @@ description: 當有人在記錄評論中標籤您時，您會收到該標籤的�
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 024c612d46848c55529e902a00d481588d261584
+source-git-commit: 36bdacb5f6d04245552aeeb4ab82d210597645a2
 workflow-type: tm+mt
-source-wordcount: '233'
+source-wordcount: '301'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,12 @@ ht-degree: 0%
 {{maestro-important-intro}}
 
 當有人在記錄評論中標籤您時，您會收到該標籤的電子郵件通知。
+
+>[!IMPORTANT]
+>
+>貴公司必須是Adobe統一體驗客戶，才能接收來自Workfront Planning的通知。
+>
+>如需詳細資訊，請參閱 [Workfront的AdobeUnified Experience](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
 
 如需有關在記錄註解中標籤其他人的資訊，請參閱 [管理記錄註解](/help/quicksilver/maestro/records/manage-record-comments.md).
 
@@ -35,7 +41,8 @@ ht-degree: 0%
 <td>
    <p> 產品</p> </td>
    <td>
-   <p> Adobe Workfront</p> </td>
+   <p> Adobe Workfront</p> 
+   <p>為了接收來自Workfront Planning的通知並管理通知偏好設定，貴組織的Workfront執行個體必須上線到Adobe統一體驗。 如需詳細資訊，請參閱 <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Workfront的AdobeUnified Experience</a>.</p></td>
   </tr>  
  <td role="rowheader"><p>Adobe Workfront合約</p></td>
    <td>
@@ -78,7 +85,7 @@ ht-degree: 0%
 
 ## 管理電子郵件通知
 
-1. （視條件而定）有人在記錄上的評論中標籤您後，請移至通知您標籤和評論的電子郵件通知。
+1. （視條件而定）有人在記錄上的評論中標籤您後，請移至通知您標籤和評論的電子郵件通知。 電子郵件的寄件者為Adobe Experience Cloud。
 
    ![](assets/email-notification-example.png)
 
@@ -87,4 +94,4 @@ ht-degree: 0%
    記錄詳細資訊頁面會在Workfront中開啟。 您可以更新記錄或回覆註解。
 
 1. （視條件而定）如果可用，請按一下 **檢視所有通知**. <!--check with Lilit - do non-IMS users have this button??-->
-「通知」頁面會在Adobe Experience Cloud中開啟。
+此 **通知** 頁面會在Adobe Experience Cloud中開啟。

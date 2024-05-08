@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: d780e7729d7a2fce121f3fe101f4ab0ccb6b4cd1
+source-git-commit: 36bdacb5f6d04245552aeeb4ab82d210597645a2
 workflow-type: tm+mt
-source-wordcount: '1799'
-ht-degree: 2%
+source-wordcount: '1807'
+ht-degree: 1%
 
 ---
 
@@ -86,6 +86,8 @@ Adobe Workfront規劃是Adobe Workfront的新產品。 Workfront Planning的目�
 | 創意簡報 |                               |                                  | ✓ (A) |
 | 自訂記錄的顏色和圖示 | ✓ (A) |                                  |                 |
 | 新增註解至記錄 | ✓ (A) |                                  |                 |
+| 接收應用程式內通知 | ✓ (A) |                                  |                 |
+| 接收電子郵件通知 | ✓ (A) |                                  |                 |
 | 新增縮圖至記錄 | ✓ (A) |                                  |                 |
 | 檢視記錄變更的歷史記錄 | ✓ (A) |                                  |                 |
 | 段落欄位的RTF格式 | ✓ (A) |                                  |                 |
