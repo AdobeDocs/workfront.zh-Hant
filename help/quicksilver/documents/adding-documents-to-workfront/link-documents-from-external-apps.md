@@ -6,9 +6,9 @@ description: 您可以從外部來源將檔案和資料夾連結到Adobe Workfro
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 97823f70-6544-445a-9a81-abe1e2f3de55
-source-git-commit: 9e57fa6d70e5cfe3de90a24564e76e22b82f63ff
+source-git-commit: 8aeb8c23f6eb6cf696512aaf7c6bd92b138f00cb
 workflow-type: tm+mt
-source-wordcount: '2578'
+source-wordcount: '2596'
 ht-degree: 0%
 
 ---
@@ -38,7 +38,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">Workfront Proof </td> 
-   <td>您可以將原本在Workfront Proof中建立的校訂設為可在Workfront中使用。 若為目前的授權，需要Pro Workfront Plan或更新版本才能使用此功能。 對於新授權，所有計畫都包含此功能。 如需各種可用計畫的詳細資訊，請參閱 <a href="https://www.workfront.com/plans">Workfront計畫</a>.</td> 
+   <td>您可以在Workfront中提供原本在Workfront Proof中建立的校樣。 若為目前的授權，需要Pro Workfront Plan或更新版本才能使用此功能。 對於新授權，所有計畫都包含此功能。 如需各種可用計畫的詳細資訊，請參閱 <a href="https://www.workfront.com/plans">Workfront計畫</a>.</td> 
   </tr> 
   <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
    <td role="rowheader">Experience Manager Assets Essentials </td> 
@@ -143,7 +143,8 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >對於連結到Box的檔案，在您重新整理頁面之前，不會顯示Box中檔案的連結。
+   >* 如果用來連結檔案的下載URL超過2048個字元，則檔案無法連結。
+   >* 對於連結到Box的檔案，在您重新整理頁面之前，不會顯示Box中檔案的連結。
 
 ### 新增連結檔案的新版本 {#add-a-new-version-of-a-linked-document}
 
@@ -190,11 +191,11 @@ ht-degree: 0%
 
 如需有關新增檔案新版本的資訊，請參閱從檔案系統上傳到Workfront的檔案 [新增檔案至Adobe Workfront](../../documents/adding-documents-to-workfront/add-documents-from-file-system.md#add-documents-to-workfront) 在 [從您的檔案系統新增檔案至Adobe Workfront](../../documents/adding-documents-to-workfront/add-documents-from-file-system.md).
 
-### 連結Workfront校訂檔案 {#link-workfront-proof-documents}
+### 連結Workfront Proof檔案 {#link-workfront-proof-documents}
 
 您可以將校訂連結至原本存在於Workfront Proof中的Workfront。 當您從Workfront Proof連結校訂時，所有與校訂相關的評論和其他中繼資料都可在Workfront中使用。
 
-您只能連結那些您在Workfront Proof中有檢視存取權的校訂。
+您只能連結在Workfront Proof中您擁有檢視存取權的校訂。
 
 1. 前往 **檔案** Workfront中您想要檔案的區域。
 1. 按一下 **新增**，然後按一下 **從Workfront Proof**.
@@ -203,7 +204,7 @@ ht-degree: 0%
    >
    >此功能表中的選項可能會因環境中設定的協力廠商提供者而異。
 
-1. 在 **來自Workfront校訂的連結校訂** 方塊中，開始輸入您要在Workfront中提供的校訂名稱。
+1. 在 **來自Workfront Proof的連結校樣** 方塊中，開始輸入您要在Workfront中提供的校訂名稱。
 
    當您輸入時，清單會經過篩選。
 
