@@ -7,7 +7,7 @@ author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 23d1e241-ea5b-43f5-b097-8d96e13cb267
-source-git-commit: 2ea9316e8cbe4474f22028f85204f9351182ba06
+source-git-commit: 2c9d52ad5e3d330d0a183d9cef545ff6b6aed6b2
 workflow-type: tm+mt
 source-wordcount: '1135'
 ht-degree: 0%
@@ -89,7 +89,7 @@ ht-degree: 0%
 
 為了讓您輕鬆測試測試版計畫的新功能，我們已建立新的測試Frame.io帳戶，並將其連線至名為的新群組 `Frame.io testing` 在現有的Workfront預覽或沙箱環境中。
 
-+++展開以檢視虛擬測試指示
++++展開以檢視基本測試指示
 
 若要測試功能，請登入您的Workfront預覽或沙箱執行個體，然後執行下列步驟：
 
