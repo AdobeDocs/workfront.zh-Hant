@@ -2,16 +2,16 @@
 user-type: administrator
 product-area: system-administration;user-management;setup
 navigation-topic: security
-title: 設定系統安全性偏好設定
-description: 身為Adobe Workfront管理員，您可以設定Workfront系統的安全性偏好設定。
-author: Caroline
+title: 設定系統偏好設定
+description: 身為Adobe Workfront管理員，您可以設定Workfront系統的偏好設定，包括安全性偏好設定。
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: f92ceed7-b191-425b-9fff-1b0947f32db8
-source-git-commit: 57ea12e1da0ad326910021b2d2349c6d1eba4b69
+source-git-commit: 5cc1acffff12d78e48228f3ae223514c0ff379ef
 workflow-type: tm+mt
-source-wordcount: '848'
-ht-degree: 4%
+source-wordcount: '866'
+ht-degree: 5%
 
 ---
 
@@ -21,9 +21,11 @@ ht-degree: 4%
 DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.</p>
 -->
 
+<!--Audited: 05/2024-->
+
 {{important-admin-console-onboard}}
 
-身為Adobe Workfront管理員，您可以設定Workfront系統的偏好設定：
+身為Adobe Workfront管理員，您可以設定Workfront系統的偏好設定，包括：
 
 * 從行動應用程式和其他整合式應用程式存取Workfront
 * 將Workfront內嵌至iframe的規則
@@ -46,18 +48,22 @@ DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH T
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront授權</td> 
-   <td>計劃</td> 
+   <td><p>新增：標準</p>
+   <p>或</p>
+   <p>目前：計畫</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定</td> 
-   <td> <p>您必須是Workfront管理員。</p> <p><b>注意</b>：如果您還是沒有存取權，請詢問Workfront管理員是否對您的存取層級設定了其他限制。 如需有關Workfront管理員如何修改您的存取層級的資訊，請參閱 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>.</p> </td> 
+   <td> <p>您必須是Workfront管理員。</p></td> 
   </tr> 
  </tbody> 
 </table>
 
+如需有關此表格的詳細資訊，請參閱 [Workfront檔案中的存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
 ## 設定您的系統偏好設定
 
-1. 按一下 **主要功能表** 圖示 ![](assets/main-menu-icon.png) (位於Adobe Workfront的右上角)，然後按一下 **設定** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. 在左側面板中，按一下 **系統** > **偏好設定**.
 
@@ -68,11 +74,11 @@ DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH T
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader"> <p>啟用快速複查程式</p> </td> 
+      <td role="rowheader"> <p>啟用快速發佈程序</p> </td> 
       <td>可讓您為貴組織啟用每月Workfront發行，而非每季發行。</p><p>如需快速發行程式的詳細資訊，請參閱 <a href="/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md" class="MCXref xref">啟用或停用組織的快速發行</a>.</p></td> 
      </tr> 
      <tr> 
-      <td role="rowheader"> <p>允許內嵌 <strong>Workfront</strong> 在iframe中</p> </td> 
+      <td role="rowheader"> <p>允許在iframe中內嵌Workfront</p> </td> 
       <td>可讓您將Workfront內嵌於iframe中。<p>此選項預設為停用。</p><p><b>重要</b>：在iframe中顯示Web型應用程式，會使應用程式容易受到點選劫持安全性漏洞的影響。</p></td> 
      </tr> 
      <tr> 
@@ -84,8 +90,8 @@ DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH T
       <td> <p>允許使用者在將外部頁面新增到儀表板時使用網站的工作階段ID資訊。</p> <p>此選項不安全，預設為關閉。 建議改用OAuth進行整合。</p> <p>如需新增外部頁面至控制面板的詳細資訊，請參閱 <a href="../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-external-web-page-dashboard.md" class="MCXref xref">將外部網頁內嵌在控制面板中</a>.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">讓人們使用Workfront的行動應用程式和 <strong>Workfront</strong> Outlook增益集</td> 
-      <td> <p>允許使用者存取行動應用程式(適用於iPad和行動電話應用程式的Workfront View)和Workfront Outlook應用程式。</p> <p>此選項預設為啟用。 </p> <p>如需Workfront檢視的相關資訊，請參閱 <a href="../../../workfront-basics/mobile-apps/using-workfront-view/use-workfront-view.md" class="MCXref xref">使用Adobe Workfront檢視</a>. 如需行動應用程式的詳細資訊，請參閱 <a href="../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/use-the-mobile-app.md" class="MCXref xref">使用Adobe Workfront行動應用程式</a>.</p> <p>如需有關Outlook外掛程式的詳細資訊，請參閱 <a href="../../../workfront-integrations-and-apps/using-workfront-with-outlook/set-up-workfront-for-outlook.md" class="MCXref xref">設定適用於Outlook的Adobe Workfront</a>.</p> </td> 
+      <td role="rowheader">讓人們使用Workfront的行動應用程式和Workfront Outlook增益集</td> 
+      <td> <p>允許使用者存取行動應用程式(適用於iPad和行動電話應用程式的Workfront View)和Workfront Outlook應用程式。</p> <p>此選項預設為啟用。 </p> <p>如需Workfront檢視的相關資訊，請參閱 <a href="../../../workfront-basics/mobile-apps/using-workfront-view/use-workfront-view.md" class="MCXref xref">使用Adobe Workfront檢視</a>. 如需行動應用程式的詳細資訊，請參閱 <a href="../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/use-the-mobile-app.md" class="MCXref xref">使用Adobe Workfront行動應用程式：文章索引</a>.</p> <p>如需有關Outlook外掛程式的詳細資訊，請參閱 <a href="../../../workfront-integrations-and-apps/using-workfront-with-outlook/set-up-workfront-for-outlook.md" class="MCXref xref">設定適用於Outlook的Adobe Workfront</a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"> <p>透過使用電子郵件地址與沒有Workfront帳戶的人共同作業</p> </td> 
@@ -110,12 +116,19 @@ DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH T
       <td>可讓您指定使用者在一段閒置時間後何時登出Workfront應用程式。 根據預設，使用者會在閒置7天後登出。 <p>此選項也會影響使用單一登入解決方案的Workfront客戶。</p></td> 
      </tr> 
      <tr> 
+      <td role="rowheader">說明 URL</td> 
+      <td>可讓您定義主要功能表說明圖示要前往的內部自訂說明網站。 如需詳細資訊，請參閱 <a href="/help/quicksilver/administration-and-setup/customize-workfront/brand-workfront/configure-custom-help-url.md">設定自訂說明URL</a>.</p></td> 
+     </tr>
+     <tr> 
       <td role="rowheader">系統中的使用者預設會看到新首頁體驗 </td> 
       <td>可讓您指定使用者是否預設會看到新首頁體驗。 啟用後，使用者預設將會看到新首頁體驗，但仍可依個人情況選擇啟用或停用新首頁。 停用時，使用者將不會看到可讓他們切換至新首頁的橫幅，但是，他們仍然可以手動輸入以導覽至他們的新首頁 <code>/home/workspaces</code> 執行個體URL結尾處。 此設定預設為啟用。</td> 
-     </tr> 
+     </tr>
+     <tr> 
+      <td role="rowheader">測試環境</td> 
+      <td>可讓您存取Workfront測試環境。 如需詳細資訊，請參閱 <a href="/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md">Adobe Workfront預覽沙箱環境</a>.</p></td> 
     </tbody> 
    </table>
 
 1. 按一下「**儲存**」。
 
-   您在此處儲存的變更會影響Workfront中所有使用者的體驗，以及以外部使用者身分與他們互動的任何人的體驗。
+   您在此處儲存的變更會影響Workfront中所有使用者的體驗，以及任何以外部使用者身分與系統互動的使用者體驗。
