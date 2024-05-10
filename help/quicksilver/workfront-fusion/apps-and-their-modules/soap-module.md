@@ -4,15 +4,15 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 keywords: 聯結器
 navigation-topic: apps-and-their-modules
-title: soap模組
+title: SOAP 模組
 description: 您可以使用SOAP模組來連線到Adobe Workfront Fusion中的SOAP API。
 author: Becky
 feature: Workfront Fusion
 exl-id: 752e0766-25f2-4d22-bed5-7c931284258d
-source-git-commit: 5d7ff744ed0721ffa6d793a224226f28a76c57a0
+source-git-commit: b820fb8d597205da9f2d0e5e6f5aec1056ec9a45
 workflow-type: tm+mt
-source-wordcount: '466'
-ht-degree: 1%
+source-wordcount: '490'
+ht-degree: 0%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 1%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 計劃*</td>
+   <td role="rowheader">[!DNL Adobe Workfront] 計畫*</td>
   <td> <p>[！UICONTROL Pro]或更高版本</p> </td>
   </tr> 
   <tr data-mc-conditions=""> 
@@ -59,7 +59,11 @@ ht-degree: 1%
 
 有關的資訊 [!DNL Adobe Workfront Fusion] 授權，請參閱 [[!DNL Adobe Workfront Fusion] 授權](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
-## 使用 [!UICONTROL SOAP] 模組
+## 的限制 [!UICONTROL SOAP] 模組
+
+>[!NOTE]
+>
+>在WDSL載入期間會停用重新導向。 這是安全性功能，但可能表示執行模組時會封鎖未驗證的重新導向。
 
 此 [!UICONTROL SOAP] 模組目前為測試版，不支援：
 
@@ -72,7 +76,7 @@ ht-degree: 1%
 
 >[!INFO]
 >
->**範例:**
+>**範例：**
 >  
 >無法正確辨識下列專案 [!UICONTROL Workfront Fusion]：
 >
@@ -86,10 +90,10 @@ ht-degree: 1%
 >     </complexContent>
 ></complexType>
 >```
+>
+>此範例包括 `soapenc:Array`， `soapenc:arrayType` 和 `wsdl:arrayType` 尚未支援的參考 [!UICONTROL Workfront Fusion].
 
-其中包括 `soapenc:Array`， `soapenc:arrayType` 和 `wsdl:arrayType` 尚未支援的參考 [!UICONTROL Workfront Fusion].
-
-## 解決方法
+## 因應措施
 
 如果 [!UICONTROL SOAP] 模組拒絕處理WSDL檔案，或在模組設定中擲回各種錯誤，您可以嘗試使用universal **[!UICONTROL HTTP] > [!UICONTROL 提出要求]** 取而代之的模組：
 
