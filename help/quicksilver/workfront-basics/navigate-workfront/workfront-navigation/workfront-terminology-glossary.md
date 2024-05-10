@@ -6,9 +6,9 @@ description: 此 [!DNL Adobe Workfront] 字彙表列出以下專案中的常用�
 author: Alina
 feature: Get Started with Workfront
 exl-id: 758072b3-775e-4771-9ae9-da0b38580c93
-source-git-commit: d5f4e83badd4d011816551f06b056ffe886d3b17
+source-git-commit: b57f5038746094dde4b98bd28361e730c28ba412
 workflow-type: tm+mt
-source-wordcount: '19889'
+source-wordcount: '20060'
 ht-degree: 0%
 
 ---
@@ -252,6 +252,19 @@ ht-degree: 0%
   <tr data-mc-conditions=""> 
    <td>[！UICONTROL基準線]</td> 
    <td>要在敏捷環境中測量反複專案的資料來源。</td> 
+  </tr>
+
+<tr data-mc-conditions=""> 
+   <td>[！UICONTROL可記帳費用]</td> 
+   <td> <p>標示為對客戶可記帳的費用。 這可以是計畫費用或實際費用。</p> <p>計畫可開立帳單費用成本與實際可開立帳單費用成本欄位可供您新增至檢視表與報表。 它們不會出現在專案或任務詳細資訊頁面上。</p>
+   <p>您可以在下列報表型別中找到這些欄位：</p>
+   <ul>
+   <li>基準線</li>
+   <li>範本</li>
+   <li>專案 (財務資料)</li>
+   </ul>
+   <p>如需將費用標示為可記帳的詳細資訊，請參閱 <a href="/help/quicksilver/manage-work/projects/project-finances/manage-project-expenses.md">管理專案費用</a>.</p>
+   </td> 
   </tr>
 
 <tr data-mc-conditions=""> 
@@ -1305,7 +1318,21 @@ The designated full time equivalency for users. A full-time user should have 100
    <td>在[！UICONTROL Journal Entry]報表中，這會顯示取代[！UICONTROL舊數字值]之欄位的更新值。
    如需詳細資訊，請參閱本文中的「[！UICONTROL舊數值]」。</td> 
   </tr>
-  <tr> 
+
+<tr data-mc-conditions=""> 
+   <td>[！UICONTROL不可記帳費用]</td> 
+   <td> <p>客戶未標籤為可記帳的費用。 這可以是計畫費用或實際費用。</p> <p>計畫不可開立帳單費用成本與實際不可開立帳單費用成本欄位可供您新增至檢視表與報表。 它們不會出現在專案或任務詳細資訊頁面上。</p>
+   <p>您可以在下列報表型別中找到這些欄位：</p>
+   <ul>
+   <li>基準線</li>
+   <li>範本</li>
+   <li>專案 (財務資料)</li>
+   </ul>
+   <p>如需將費用標示為可記帳的詳細資訊，請參閱 <a href="/help/quicksilver/manage-work/projects/project-finances/manage-project-expenses.md">管理專案費用</a>.</p>
+   </td> 
+  </tr>
+
+<tr> 
    <td>[！UICONTROL非工作日]</td> 
    <td>未配置完成任何指派的日期。 這通常是假日、假期或週末。 辭彙會顯示在API總管中。 </td> 
   </tr> 
