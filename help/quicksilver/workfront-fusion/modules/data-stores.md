@@ -8,9 +8,9 @@ description: 資料存放區（類似於資料庫或簡單表格）可以儲存�
 author: Becky
 feature: Workfront Fusion
 exl-id: 2a665a71-b819-4861-b119-f5c28b87e9c5
-source-git-commit: b7980d03791fe4a90bf66cebe042ed5890aaa802
+source-git-commit: 00a969175626d27b70d516921097725fdf818799
 workflow-type: tm+mt
-source-wordcount: '1299'
+source-wordcount: '1336'
 ht-degree: 1%
 
 ---
@@ -76,20 +76,20 @@ ht-degree: 1%
 
 ## 可用的資料空間
 
-如果您的組織使用新的Workfront計畫模式（Select、Prime和Ultimate套件），您的資料存放區總大小為：
+<!--If your organization is on the new Workfront plan model (Select, Prime, and Ultimate packages), your total data store size is:-->
 
-<!--If your organization is on the new Workfront plan model (Select, Prime, and Ultimate packages), your organization's plan affects the size and number of data stores available your Fusion instance.
+如果您的組織使用新的Workfront計畫模型（Select、Prime和Ultimate套件），則組織的計畫會影響您的Fusion執行個體可用的資料儲存大小和數量。
 
-### Ultimate plan
+### Ultimate計畫
 
-Fusion instances on the Ultimate package receive:
+Ultimate套件上的Fusion執行個體會收到：
 
-* 500 MB of space
-* 50 data stores 
+* 100 MB的空間
+* 50個資料存放區
 
-### Select and Prime plans
+### 選取和主要計畫
 
-Fusion instances on the Select or Prime packages receive:-->
+Select或Prime套件上的Fusion執行個體會收到：—>
 
 * 第一個500K作業為100 MB。
 
