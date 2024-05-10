@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
-source-git-commit: 6ec985d10a5fd7a4a9307b705f48734d76aec181
+source-git-commit: ace194b584601f9edd7862dbd74f639538891370
 workflow-type: tm+mt
-source-wordcount: '541'
+source-wordcount: '571'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,9 @@ ht-degree: 0%
 
 記錄預覽是顯示在記錄型別檢視中的記錄頁面的較小檢視。
 
-當您變更記錄預覽和頁面的版面配置時，變更會影響相同型別的所有記錄的方塊和頁面。
+當您變更記錄預覽和頁面的版面時，變更會影響相同型別的所有記錄的預覽方塊和詳細資訊頁面。
+
+本文說明如何變更記錄預覽方塊或記錄頁面的版面配置和外觀。 如需有關編輯記錄的資訊，請參閱 [編輯記錄](/help/quicksilver/maestro/records/edit-records.md).
 
 您必須先建立記錄型別和記錄，才能開始編輯記錄頁面。
 

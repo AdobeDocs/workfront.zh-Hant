@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7a65d66e-a578-4016-805e-0cb04caaa18a
-source-git-commit: 32ed7c1adee51ed134e44bb4f8114c41d14cd2df
+source-git-commit: ace194b584601f9edd7862dbd74f639538891370
 workflow-type: tm+mt
-source-wordcount: '343'
+source-wordcount: '339'
 ht-degree: 0%
 
 ---
@@ -56,10 +56,10 @@ hide: yes
 
 以下章節包含詳細說明Workfront Planning目前可用功能的文章：
 
-* [Adobe Workfront Planning存取資訊：文章索引](/help/quicksilver/maestro/access/access-information.md)：使用Workfront Planning所需存取權和許可權的相關資訊。
+* [存取和許可權資訊：文章索引](/help/quicksilver/maestro/access/access-information.md)：使用Workfront Planning所需存取權和許可權的相關資訊。
 * [架構：文章索引](/help/quicksilver/maestro/architecture/architecture-information.md)：有關Workfront Planning架構的深入資訊，包含如何建立和管理工作區與記錄型別的逐步指示。
 * [欄位：文章索引](/help/quicksilver/maestro/fields/fields-information.md)：建立記錄型別的自訂欄位的相關深入資訊和逐步指示。
 * [記錄：文章索引](/help/quicksilver/maestro/records/records-information.md)：有關如何建立和管理記錄的深入資訊和逐步指示。
 * [檢視：文章索引](/help/quicksilver/maestro/views/views-information.md)：有關記錄檢視的深入資訊，以及如何在檢視記錄型別頁面時管理記錄檢視。
-* [Adobe Workfront規劃通知：文章索引](/help/quicksilver/maestro/notifications/notifications-information.md)：Workfront Planning中事件所產生之電子郵件和應用程式內通知的相關資訊。
+* [通知：文章索引](/help/quicksilver/maestro/notifications/notifications-information.md)：Workfront Planning中事件所產生之電子郵件和應用程式內通知的相關資訊。
 
