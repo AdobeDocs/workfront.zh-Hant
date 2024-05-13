@@ -8,13 +8,13 @@ feature: Work Management, Digital Content and Documents
 hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 0d9212f0719535f191e61d27a73b8f5b2ef5fb30
+exl-id: 74e0a85b-a8aa-4e39-9c2e-0f09957ebafa
+source-git-commit: 21ef9365561fca2301223ae79f6371f3c94c7313
 workflow-type: tm+mt
-source-wordcount: '1186'
+source-wordcount: '1334'
 ht-degree: 0%
 
 ---
-
 
 # Workfront中的AppBuilder檔案詳細資訊
 
@@ -358,3 +358,12 @@ Adobe提供絕佳檔案，說明如何開始建立AppBuilder應用程式及進�
 
 * [https://developer.adobe.com/uix/docs/services/aem-cf-console-admin/extension-development/](https://developer.adobe.com/uix/docs/services/aem-cf-console-admin/extension-development/)
 
+## 本機開發
+
+在針對Workfront開發App Builder應用程式時，您可能會發現需要在Workfront中測試應用程式而不需發佈。 幸運的是，我們有解決之道。
+
+在App Builder應用程式內，您可以啟動 `aio app run` 供本機開發使用。 這會為您提供URL，通常類似於 `https://localhost:9080`. 或者，您可以執行 `aio app deploy` 以取得靜態Adobe網域。 請務必記下這些URL以供日後使用。
+
+接下來，導覽至您要在瀏覽器中針對其開發的特定檔案詳細資訊頁面。 開啟開發人員工具，並存取workfront.com或workfront.adobe.com的本機儲存空間。 您必須在此新增專案。 使用 `appBuilderDocDetailsOverride` ，且先前註明的app builder URL為值。
+
+重新載入頁面時，您會注意到App Builder應用程式中的按鈕出現。 按一下這些按鈕可讓您檢視您的應用程式運作中。
