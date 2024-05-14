@@ -7,9 +7,9 @@ author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 23d1e241-ea5b-43f5-b097-8d96e13cb267
-source-git-commit: 2c9d52ad5e3d330d0a183d9cef545ff6b6aed6b2
+source-git-commit: cb29d7ff4854faf50195af6916dfaa6eae588764
 workflow-type: tm+mt
-source-wordcount: '1135'
+source-wordcount: '1343'
 ht-degree: 0%
 
 ---
@@ -24,10 +24,32 @@ ht-degree: 0%
 >
 >若要參與此Beta版，您必須由產品團隊啟用。 請聯絡您的客戶成功案例或客戶經理，要求新增專案。
 
+## 2024年5月： Workfront中的Beta版更新
 
-## Frame.io中的Beta版更新 — 2024年3月
+此5月發行包含下列功能：  
 
-在此測試版中，我們有：
+>[!VIDEO](https://video.tv.adobe.com/v/3429129/)
+
+### Workfront專案會自動同步至Frame.io
+
+根據您的意見反應，我們已改善體驗，並減少觸發建立連線Frame.io所需的步驟。  現在，當您在Workfront中建立專案時，對應的專案會自動在Frame.io中建立。 
+
+### 改善對Frame.io專案的創意任務指派
+
+您現在可以輕鬆管理應該擁有已連線Frame.io專案存取權的使用者。 您的創意使用者可標籤為「已啟用Frame.io」，這會在指派給Workfront專案時自動授予他們已連線Frame.io專案的存取權。   
+
+### Workfront專案名稱變更時，Frame.io專案名稱會更新
+
+為了改善Workfront與Frame.io之間的專案同步化，Workfront專案名稱更新現在也會反映在Frame.io中。 
+
+### 檔案清單中的核准狀態
+
+直接從檔案清單輕鬆追蹤任何檔案的核准狀態。 只要按一下整體狀態，即可存取核准流程中所有參與者的詳細細目，以及其個別狀態。 此外，只要按一下即可提醒任何未完成的核准者，進而簡化您的工作流程，確保及時回應並有效管理檔案。 
+
+
+## 2024年3月： Frame.io中的測試版更新
+
++++ 展開以檢視2024年3月發行的功能
 
 ### 從Frame.io新增多個資產至Workfront
 
@@ -39,7 +61,7 @@ ht-degree: 0%
 
 >[!VIDEO](https://video.tv.adobe.com/v/3428213/)
 
-## Workfront中的Beta版更新 — 2024年3月
+## 2024年3月： Workfront中的Beta版更新
 
 在此測試版中，我們有：
 
@@ -82,6 +104,8 @@ ht-degree: 0%
 上傳新檔案版本時，可以啟動下一輪修訂，同時保持鎖定先前的修訂。
 
 >[!VIDEO](https://video.tv.adobe.com/v/3428179/)
+
++++
 
 ## 功能測試
 
@@ -128,14 +152,12 @@ ht-degree: 0%
 
 +++ 展開以檢視詳細的測試指示
 
-對於想要測試其他功能的參與者，我們已建立更複雜的測試情境。 您可以在此處下載此詳細測試案例的指南： [WF + Frame.io詳細測試案例逐步說明](/help/quicksilver/review-and-approve-work/Documents/assets/wf-frame-detailed-walk-through-may-release.pdf).
+對於想要測試其他功能的參與者，我們已建立更複雜的測試情境。 您可以在此處下載此詳細測試案例的指南： [WF + Frame.io詳細測試案例逐步說明](/help/quicksilver/review-and-approve-work/Documents/assets/WF-Frame-Detailed-Walk-Through-May-Release.pdf).
 +++
 
-<!-- 
-## Demo Video
+## 示範影片
 
->[!VIDEO](https://video.tv.adobe.com/v/3426406/)
--->
+>[!VIDEO](https://video.tv.adobe.com/v/3429092/)
 
 ## 傳送意見
 

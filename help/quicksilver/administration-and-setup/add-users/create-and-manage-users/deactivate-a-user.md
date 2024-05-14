@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: aba243ba-46c2-4eb7-b704-4368bf0ae3cc
-source-git-commit: 198129edd8690393e3214f5041b183b5516617a7
+source-git-commit: a907cd9d07a2912d42ae26d69815a05a1006a633
 workflow-type: tm+mt
-source-wordcount: '1129'
+source-wordcount: '1261'
 ht-degree: 0%
 
 ---
@@ -80,6 +80,16 @@ ht-degree: 0%
 
 ## 停用使用者
 
+停用使用者時，請注意下列事項：
+
+* 使用者將無法存取系統。
+* 使用者將從Frame.io檢閱連結、資產、專案和帳戶中移除。
+   * 重新啟用使用者並不會自動將它們新增回Frame.io專案。 您必須手動將使用者重新指派給需要Frame.io共同作業的Workfront專案、任務和資產。
+* 將會保留與使用者相關聯的所有資料。
+* 您可以將已停用使用者的授權指派給其他使用者。
+
+若要停用使用者：
+
 1. 按一下 **[!UICONTROL 主要功能表]** 圖示 ![主要功能表](/help/_includes/assets/main-menu-icon.png) 在Adobe Workfront的右上角，或（如果有的話）按一下 **[!UICONTROL 主要功能表]** 圖示 ![主要功能表](/help/_includes/assets/main-menu-icon-left-nav.png) 然後按一下「 」 **使用者** ![](assets/users-icon-in-main-menu.png).
 
 1. 選取使用者，按一下 **更多** 圖示 ![](assets/more-icon.png)，然後按一下 **停用**.
@@ -126,6 +136,10 @@ Workfront管理員和計畫授權使用者可在他們的使用者設定檔中�
 1. 選取使用者，按一下更多圖示 ![](assets/more-icon.png)，然後按一下 **啟動**.
 
 1. 指派新的 **存取層級**，然後按一下「 」 **重新啟用**.
+
+### 重新啟用使用者時的資產檢閱和核准影響
+
+已停用的使用者會失去對其已指派Frame.io帳戶以及已指派專案、資產和檢閱連結的存取權。 如果您選擇重新啟用使用者，則必須手動將它們重新指派給需要Frame.io共同作業的專案、任務和資產。
 
 ### 重新啟用使用者時的校訂影響
 

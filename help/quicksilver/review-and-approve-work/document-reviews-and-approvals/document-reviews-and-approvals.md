@@ -8,9 +8,9 @@ author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: b4577935-ee03-47b7-a629-2c03e8f42592
-source-git-commit: 1a03d829bc4cddfd568c6d0e8850e847004c83b4
+source-git-commit: c1acfe1e6abd621c21404b738d355e1c9ee0c583
 workflow-type: tm+mt
-source-wordcount: '66'
+source-wordcount: '75'
 ht-degree: 0%
 
 ---
@@ -26,3 +26,4 @@ ht-degree: 0%
 * [檔案核准概觀](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md)
 * [檢閱檔案：文章索引](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-documents-toc.md)
 * [核准檔案：文章索引](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/approve-documents-toc.md)
+* [開始使用Frame.io進行資產檢閱和核准](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/frame-wf-get-started.md)

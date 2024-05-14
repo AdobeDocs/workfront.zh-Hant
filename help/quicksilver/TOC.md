@@ -3,9 +3,9 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文件、教學課程和其他資源，了解如何在您的組織中實施並有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: b562383febd3865bc318dfaaceef88a003d9239e
+source-git-commit: 6caa46150eed42c792a01891018aaa16f8700cb9
 workflow-type: tm+mt
-source-wordcount: '14236'
+source-wordcount: '14250'
 ht-degree: 1%
 
 ---
@@ -781,9 +781,10 @@ ht-degree: 1%
    * 設定整合 {#configure-integrations}
       * [設定整合](administration-and-setup/configure-integrations/workfront-integrations.md)
       * [Adobe Workfront整合](administration-and-setup/configure-integrations/workfront-integrations-1.md)
-      * [使用Adobe Experience Manager舊版聯結器設定Workfront](administration-and-setup/configure-integrations/configure-workfront-aem.md)
+      * [設定 [!DNL Workfront] 和 [!DNL Frame.io] 整合](administration-and-setup/configure-integrations/configure-wf-and-frame.md)
       * [設定Experience Manager Assetsas a Cloud Service整合](administration-and-setup/configure-integrations/configure-aacs-integration.md)
       * [設定Experience Manager Assets Essentials整合](documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md)
+      * [使用Adobe Experience Manager舊版聯結器設定Workfront](administration-and-setup/configure-integrations/configure-workfront-aem.md)
       * [讓使用者能夠存取行動應用程式](administration-and-setup/configure-integrations/enable-users-access-mobile-app.md)
       * [啟用適用於Outlook的Adobe Workfront](administration-and-setup/configure-integrations/enable-workfront-for-outlook.md)
       * [設定檔案整合](administration-and-setup/configure-integrations/configure-document-integrations.md)
@@ -1197,6 +1198,7 @@ ht-degree: 1%
          * [使用範本建立專案](manage-work/projects/create-projects/create-project-from-template.md)
          * [從Microsoft專案匯入專案](manage-work/projects/create-projects/import-project-from-ms-project.md)
          * [建立專案基準線](manage-work/projects/create-projects/create-baselines.md)
+         * [建立與Frame.io連線的專案](manage-work/projects/create-projects/create-frame-connected-project.md)
       * 更新專案上的工作 {#update-work-on-a-project}
          * [更新專案上的工作：文章索引](manage-work/projects/updating-work-in-a-project/update-work-on-project.md)
          * [將狀態套用至與群組相關聯的工作](manage-work/projects/updating-work-in-a-project/apply-custom-status-work-assigned-to-group.md)
@@ -1808,7 +1810,7 @@ ht-degree: 1%
    * 檔案檢閱和核准 {#document-reviews-and-approvals}
       * [檔案檢閱和核准](review-and-approve-work/document-reviews-and-approvals/document-reviews-and-approvals.md)
       * [檔案核准概觀](review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md)
-      * [資產檢閱和核准概觀](review-and-approve-work/document-reviews-and-approvals/review-and-approval-overview.md)
+      * [開始使用Frame.io進行資產檢閱和核准](review-and-approve-work/document-reviews-and-approvals/frame-wf-get-started.md)
       * 檢閱檔案 {#review-and-approve-documents}
          * [檢閱檔案：文章索引](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-documents-toc.md)
          * [檢閱檔案](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-a-document.md)
@@ -1820,7 +1822,7 @@ ht-degree: 1%
          * [新增其他檢閱者或核准者至檔案](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/add-additional-reviewers-or-approvers.md)
          * [從檔案中移除核准者或稽核者](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/remove-approvers-or-reviewers.md)
          * [建立核准範本](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md)
-         * [檔案核准狀態](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/document-approval-status.md)
+         * [檔案決定狀態](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/document-approval-status.md)
          * [核准檔案](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/approve-a-document.md)
    * 校訂 {#proofing}
       * [校訂：文章索引](review-and-approve-work/proofing/proofing.md)

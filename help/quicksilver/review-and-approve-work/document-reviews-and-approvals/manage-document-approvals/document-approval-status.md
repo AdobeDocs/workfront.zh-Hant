@@ -1,21 +1,23 @@
 ---
 product-area: documents
 navigation-topic: approvals
-title: 檔案核准狀態
-description: 列出並解釋檔案核准狀態
+title: 檔案決定狀態
+description: 列出並解釋檔案決策狀態
 author: Becky
 feature: Work Management, Digital Content and Documents
 exl-id: 30a10ed9-ae11-4ff1-a66c-58ea94fe9959
-source-git-commit: 58dffc8a84c2bcaaf09dfc65c6555d57f0b2eeb4
+source-git-commit: ac3200b478c706194a8c8246d1754b16601d5f56
 workflow-type: tm+mt
-source-wordcount: '163'
+source-wordcount: '161'
 ht-degree: 5%
 
 ---
 
-# 檔案核准狀態
+# 檔案決定狀態
 
-您可以在檔案的標題中找到檔案的核准狀態。
+您可以直接在檔案清單中檢視檔案的狀態：
+
+![](assets/status-in-doc-list.png)
 
 可使用下列狀態：
 
