@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: 8b5bcc1270beb9c5295342eec07636e96fd426f6
+source-git-commit: 2f7e1bb69ad1731a626306df38e97443f75257f9
 workflow-type: tm+mt
-source-wordcount: '6042'
+source-wordcount: '6040'
 ht-degree: 4%
 
 ---
@@ -642,9 +642,9 @@ The Workfront Mobile app -->
 
 +++ **展開以檢視可用欄位的說明**
 
-* **影像**：允許使用者新增_____影像檔案。
+* **影像**：可讓使用者新增影像檔案。
 * **PDF**：允許使用者新增PDF
-* **影片**：允許使用者新增____視訊檔案。
+* **影片**：可讓使用者新增視訊檔案。
 
 +++
 
