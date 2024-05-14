@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 36bdacb5f6d04245552aeeb4ab82d210597645a2
+source-git-commit: b2ec979cf9aa2431c8c908440c227758d9dab521
 workflow-type: tm+mt
-source-wordcount: '5929'
+source-wordcount: '6045'
 ht-degree: 0%
 
 ---
@@ -84,7 +84,39 @@ If your organization is not in the Adobe Unified Experience, you receive an emai
 
 For more information, see [Adobe Workfront Planning notifications: Article index](/help/quicksilver/maestro/notifications/notifications-information.md). 
 
+### New warning about object visibility when connecting records 
+
+Production: <date>
+
+Preview: To be determined
+
+When you create connections to object types outside of Workfront Planning, you are now notified that anyone working in the current workspace will have visibility to all the linked objects and their lookup fields, regardless of their permissions and access levels in the other application. 
+
+For example, if you link projects to Workfront Planning campaigns, everyone with access to View the campaign will also have access to view the linked projects and the information from their lookup fields, even when they don't have any permissions to the linked projects, or access to projects, in general. 
+
+For more information, see [Connect record types](/help/quicksilver/maestro/architecture/connect-record-types.md).  
+
 -->
+
+## 2024年5月13日起一週
+
+### 編輯記錄後即時更新時間軸檢視
+
+生產： 2024年5月14日
+
+預覽：待定。
+
+當使用者更新記錄上的資訊時，其他使用者可以即時在記錄的時間軸檢視中檢視更新的資訊。 這可確保所有使用者同時檢視更新資訊，並在變更時同步。
+
+### 從檢視標題新增記錄
+
+生產： 2024年5月14日
+
+預覽：待定
+
+我們在記錄型別頁面的標題上新增了「新記錄」按鈕。 您現在可以從任何檢視建立記錄。 在此增強功能之前，您只能從表格檢視建立記錄。
+
+如需詳細資訊，請參閱 [建立記錄](/help/quicksilver/maestro/records/create-records.md).
 
 ## 2024年5月6日起一週
 

@@ -4,13 +4,13 @@ description: 您或許可以管理Adobe Workfront Planning的通知偏好設定�
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 36bdacb5f6d04245552aeeb4ab82d210597645a2
+exl-id: ec549a61-095c-433f-80e2-1be5c0a05180
+source-git-commit: 0c3192599130d110572a6c1a5e93ffa47d437ac3
 workflow-type: tm+mt
 source-wordcount: '333'
 ht-degree: 0%
 
 ---
-
 
 # 管理Adobe Workfront Planning通知偏好設定
 

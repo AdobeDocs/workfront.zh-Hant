@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 1de095b3-78d9-44df-a678-51f4238deb91
-source-git-commit: e54142e189cd4f407161401203a7f13c752ad404
+source-git-commit: b2ec979cf9aa2431c8c908440c227758d9dab521
 workflow-type: tm+mt
 source-wordcount: '270'
 ht-degree: 0%
@@ -43,15 +43,14 @@ Workfront Planning物件型別稱為「記錄型別」，您可以建立並自�
 
 An operational record type is a Maestro record type that represents work-related objects.  
 
-![](assets/operational-record-type-blank.png)
-
+(***********insert screen shot**************)
 For more information about operational record types including how to create them, see [Create record types](../architecture/create-record-types.md). 
 
 ### Taxonomy{#taxonomy}
 
 A taxonomy is a record type that captures attributes about an operational record type. 
 
-![](assets/taxonomy-record-type-blank.png)
+(**********add screen shot**********)
 
 For more information about taxonomy record types, see [Create a taxonomy](../architecture/create-a-taxonomy.md). 
 

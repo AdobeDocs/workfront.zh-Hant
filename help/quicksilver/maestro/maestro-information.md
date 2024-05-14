@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7a65d66e-a578-4016-805e-0cb04caaa18a
-source-git-commit: ace194b584601f9edd7862dbd74f639538891370
+source-git-commit: b2ec979cf9aa2431c8c908440c227758d9dab521
 workflow-type: tm+mt
-source-wordcount: '339'
+source-wordcount: '340'
 ht-degree: 0%
 
 ---
@@ -50,7 +50,7 @@ hide: yes
 
 * [Adobe Workfront規劃概觀](maestro-overview.md)：Adobe Workfront規劃整體概觀，包括本解決方案特有的術語和概念。 建議您在這裡透過Workfront規劃開始您的歷程。
 * [Adobe Workfront Planning發行活動](/help/quicksilver/maestro/release-activity.md)：列出自2023年5月22日Adobe Workfront Planning封閉Beta版計畫推出以來已發行的所有功能，包含確切發行日期及每個功能的簡短概觀。
-* [Workfront Fusion的Adobe大師模組](/help/quicksilver/workfront-fusion/apps-and-their-modules/workfront-planning-modules.md).
+* [Workfront Fusion的Adobe Workfront規劃模組](/help/quicksilver/workfront-fusion/apps-and-their-modules/workfront-planning-modules.md).
 
 ## Workfront規劃架構和功能
 
