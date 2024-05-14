@@ -6,9 +6,9 @@ description: 存取 [!DNL Workfront] 透過Adobe Experience Cloud，您可以透
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 458631a2-d77d-46d6-8d6b-7008237e5154
-source-git-commit: 024c612d46848c55529e902a00d481588d261584
+source-git-commit: ca74ef02b83a76fad92d2bc8b1a9afc3927693ec
 workflow-type: tm+mt
-source-wordcount: '535'
+source-wordcount: '539'
 ht-degree: 0%
 
 ---
@@ -83,7 +83,7 @@ ht-degree: 0%
 
 ## 存取您的設定檔和偏好設定
 
-您可以按一下頂端導覽區域中的個人資料圖片，存取個人資料和偏好設定選項。
+您可以按一下頂端導覽區域中的Adobe帳戶選單（您的設定檔圖片），存取您的設定檔和偏好設定選項。
 
 ![設定檔功能表](assets/aec-profile-picture-menu.png)
 
