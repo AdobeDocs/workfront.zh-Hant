@@ -8,9 +8,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 264eed40-6d90-498b-83cc-2500c8b19c84
-source-git-commit: 32d3cd97fc21b9679e0a615c3c07c3d69cd81225
+source-git-commit: d85898a74991b2c634d8bd33c81c127321617cf9
 workflow-type: tm+mt
-source-wordcount: '1633'
+source-wordcount: '1635'
 ht-degree: 0%
 
 ---
@@ -533,6 +533,7 @@ jira.workfront.com網域也必須可從您的公司伺服器存取。 此網域�
    <td role="rowheader">Prod-US （叢集1、2、3、5和7）</td> 
    <td> 
     <ul> 
+    <li>35.84.172.250</li>
      <li>34.213.36.118</li> 
      <li>35.160.0.242</li> 
      <li>3.209.27.146</li> 
@@ -558,6 +559,7 @@ jira.workfront.com網域也必須可從您的公司伺服器存取。 此網域�
    <td role="rowheader">Prod-EU （叢集4）</td> 
    <td> 
     <ul> 
+    <li>34.255.252.190</li>
      <li>34.246.27.40</li> 
      <li>52.208.123.166</li> 
      <li>3.121.91.129</li> 
