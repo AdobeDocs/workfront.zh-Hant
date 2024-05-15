@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
-source-git-commit: ace194b584601f9edd7862dbd74f639538891370
+source-git-commit: 9b1b8d8661917946230033b661ca652f5edef734
 workflow-type: tm+mt
-source-wordcount: '571'
+source-wordcount: '1153'
 ht-degree: 0%
 
 ---
@@ -95,100 +95,95 @@ ht-degree: 0%
 
 ## 編輯記錄頁面的考量事項
 
-* 重新排列記錄預覽或頁面中的欄位會重新排列該型別所有記錄的欄位以及存取這些記錄的所有使用者。
+* 依預設，記錄的詳細資訊和預覽頁面會顯示與記錄關聯的所有欄位。
+
+* 您無法在預覽或詳細資訊頁面中為記錄新增欄位。 您必須在表格檢視中新增欄位，才能在預覽和詳細資訊頁面中顯示它們。
+
+* 您可以將區段新增到記錄預覽或詳細資訊頁面，以根據通用條件組織資訊並使其更容易找到。
+
+* 下列變更會影響相同型別的所有記錄，而且存取這些記錄的所有使用者都可以看到這些變更：
+
+   * 重新排列欄位
+   * 新增或移除截面
 
 * 顯示在記錄預覽中所做的變更會立即顯示在記錄詳細資訊頁面中。 在記錄頁面中所做的變更也會顯示在記錄預覽方塊中。
 
-<!--Replace the first bullet with this when we add sections:
-
-* The following changes affect all the records of the same type and are visible to all users accessing those records: 
-
-   * Rearranging fields
-   * Adding or removing sections
--->
-
 * 新增封面影像到記錄不是記錄預覽或頁面的整體配置的一部分。 您可以將唯一的封面影像新增到每張記錄中。 如需詳細資訊，請參閱 [新增封面影像至記錄](/help/quicksilver/maestro/records/add-a-cover-image-to-a-record.md).
 
-<!--
+## 新增區段到記錄預覽或頁面
 
-## Add sections to a record preview or page
+將區段新增至記錄頁面時，請考量下列事項：
 
-You can add sections to a record preview or page, to organize the information by common criteria and make it easier to find. 
+* 一個頁面上可以擁有的區段數沒有限制。
+* 不能有空白區段。 區段中必須至少有一個欄位。
+* 您可以將欄位從一個區段拖放至另一個區段。 如需詳細資訊，請參閱區段 [重新排列記錄預覽或詳細資訊頁面中的欄位](#rearrange-fields-in-the-record-preview-or-details-page) 本文章內容。
+* 當您從區段移除所有欄位時，該區段會自動刪除且無法復原。
 
-Consider the following when adding sections to a record page:
-
-* There is no limit to how many sections you can have on a page (***************IS THIS TRUE???***********)
-* You cannot have an empty section. You must have at least one field in a section. 
-* You can drag and drop fields from one section to another. 
-* When you remove all the fields from a section, the section is automatically deleted and cannot be recovered. 
-
-To add a section to a record preview or page: 
+若要將區段新增至記錄預覽或頁面：
 
 {{step1-to-maestro}}
 
-The workspace that you access last opens. 
+您上次存取的工作區會開啟。
 
-1. (Optional) Click the downward-pointing arrow to the right of the workspace name to select the workspace whose records you want to update. 
-1. Click a record type card. 
+1. （可選）按一下工作區名稱右側的向下箭頭，以選取您要更新其記錄的工作區。
+1. 按一下記錄型別卡。
 
-    The record type page opens. 
+   記錄型別頁面隨即開啟。
 
-1. From a view of any type, click the name of a record 
+1. 從任何型別的檢視中，按一下記錄的名稱
 
-    Or 
-    
-    From the table table view, click the **Open details** icon ![](assets/open-details-icon-in-table-name-field.png) to the left of a record name. 
-    
-    The record's preview opens in the view.
+   或
 
-    ![](assets/details-box.png) 
+   從表格檢視中，按一下 **開啟詳細資料** 圖示 ![](assets/open-details-icon-in-table-name-field.png) 記錄名稱的左側。
 
-    >[!TIP]
-    >
-    >You can view the **Open details** icon to the left of the Name field of a record in a table view only when the Name field is a primary field. 
+   記錄的預覽會在檢視中開啟。
 
-1. (Optional) Click the **Open in new tab** icon ![](assets/open-details-in-a-new-tab-icon.png) (****************check the icon; they are changing it**********)  in the upper-right corner of the record preview  to open the record's page in a new tab. 
+   ![](assets/details-box.png)
 
-    The record page opens. 
+   >[!TIP]
+   >
+   >您可以檢視 **開啟詳細資料** 圖示至表格檢視中記錄之「名稱」欄位左邊的圖示（僅當「名稱」欄位為主要欄位時）。
 
-    ![](assets/details-page.png)
+1. （可選）按一下 **在新標籤中開啟** 圖示 ![](assets/open-details-in-a-new-tab-icon.png) 在記錄預覽的右上角，以在新索引標籤中開啟記錄頁面。
 
-1. In the record preview or page, hover over the white space to the left of the fields, then click the **Add section** icon ![](assets/add-section-icon.png) to add a section. 
-1. Click inside the section's name and replace **Untitled** with a name, then click Enter. (************has this changed to Untitled section???**********)
-1. Start dragging and dropping fields to the new section, as described in the section [Rearrange fields in the record preview or page](#rearrange-fields-in-the-record-preview-or-page) in this article. 
+   記錄頁面隨即開啟。
 
-1. (Optional) Hover over the name of a section and click the **More** menu ![](assets/more-menu.png). 
+   ![](assets/details-page.png)
+
+1. 在記錄預覽或頁面中，暫留在欄位左側的空白區域上，然後按一下 **新增區段** 圖示 ![](assets/add-section-icon.png) 以新增區段。
+1. 在區段名稱內按一下並取代 **未命名的區段** 名稱，然後按一下Enter。 在區段下顯示的欄位會自動成為新區段的一部分。
+1. 開始將欄位拖放至新區段，如區段所述 [重新排列記錄預覽或詳細資訊頁面中的欄位](#rearrange-fields-in-the-record-preview-or-details-page) 本文章內容。
+
+1. （可選）將游標停留在區段名稱上，然後按一下 **更多** 功能表 ![](assets/more-menu.png).
 
    ![](assets/more-menu-options-for-section-on-record-page.png)
-1. (Optional) Do one of the following to edit the section: 
+1. （可選）執行下列任一項作業來編輯區段：
 
-   * Click **Rename** to rename the section
+   * 按一下 **重新命名** 重新命名截面
 
-      >[!TIP]
-      >
-      > You can rename a section inline, by clicking the name.
-   
-   * Click **Move up** to move the section up one position 
+     >[!TIP]
+     >
+     > 您可以按一下名稱，以內嵌方式重新命名截面。
 
-      Or 
-      
-      Click **Move down** to move the section down one position.
-      All fields in the section move with the section. 
+   * 按一下 **上移** 將區段向上移動一個位置
 
-   * Click **Delete** to delete the section. The section is deleted and it cannot be recovered. All users accessing the records of this type will no longer view the deleted section. 
+     或
 
-1. Click the downward-pointing arrow to the left of a section name to collapse it, or the right-pointing arrow  to expand it. 
-   All sections are expanded by default. 
+     按一下 **下移** 將區段下移一個位置。
+區段中的所有欄位會隨著區段移動。
 
-1. (Optional) Click the **grab** icon ![](assets/grab-icon.png) to the left of a section name, then drag and drop it in a desired spot. 
+   * 按一下 **刪除** 以刪除區段。 該區段已刪除且無法復原。 所有存取此型別記錄的使用者將不再檢視已刪除的區段。
 
-    The new position of the section updates in both the preview and the page of all records of the same type for all users viewing the records. 
+1. 按一下區段名稱左側的向下箭頭可將其摺疊，按一下向右箭頭可將其展開。
+依預設，所有截面都會展開。
 
-    All changes to sections and field order are saved automatically. 
+1. （可選）按一下 **抓取** 圖示 ![](assets/grab-icon.png) 將區段名稱左側，然後將其拖放到所需位置。
 
--->
+   對於檢視記錄的所有使用者，區段的新位置會在相同型別的所有記錄預覽和頁面中更新。
 
-## 重新排列記錄預覽或頁面中的欄位
+   對區段和欄位順序的所有變更會自動儲存。
+
+## 重新排列記錄預覽或詳細資訊頁面中的欄位
 
 {{step1-to-maestro}}
 

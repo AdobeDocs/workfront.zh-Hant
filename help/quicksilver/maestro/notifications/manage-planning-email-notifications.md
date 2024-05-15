@@ -4,13 +4,13 @@ description: 當有人在記錄評論中標籤您時，您會收到該標籤的�
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 36bdacb5f6d04245552aeeb4ab82d210597645a2
+exl-id: 3c505b3a-cda7-4e7b-b497-28b820e9bb8f
+source-git-commit: 9b1b8d8661917946230033b661ca652f5edef734
 workflow-type: tm+mt
-source-wordcount: '301'
+source-wordcount: '310'
 ht-degree: 0%
 
 ---
-
 
 # 管理Adobe Workfront Planning電子郵件通知
 
@@ -94,4 +94,4 @@ ht-degree: 0%
    記錄詳細資訊頁面會在Workfront中開啟。 您可以更新記錄或回覆註解。
 
 1. （視條件而定）如果可用，請按一下 **檢視所有通知**. <!--check with Lilit - do non-IMS users have this button??-->
-此 **通知** 頁面會在Adobe Experience Cloud中開啟。
+此 **通知** 頁面會在Adobe Experience Cloud中開啟。 會顯示所有Adobe Experience Cloud應用程式的所有通知。

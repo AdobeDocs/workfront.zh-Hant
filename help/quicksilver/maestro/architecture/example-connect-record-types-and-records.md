@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 38509572-72a4-4fce-b3ec-2cb31bb4669a
-source-git-commit: e54142e189cd4f407161401203a7f13c752ad404
+source-git-commit: 9b1b8d8661917946230033b661ca652f5edef734
 workflow-type: tm+mt
-source-wordcount: '1771'
+source-wordcount: '1797'
 ht-degree: 0%
 
 ---
@@ -116,6 +116,10 @@ ht-degree: 0%
 
 
 ## 將Workfront Planning記錄型別與Workfront專案物件型別連線，並將記錄與個別專案連線
+
+>[!IMPORTANT]
+>
+>    每個具有工作區檢視或更高許可權的人都可以檢視連結欄位中的資訊，無論他們在Workfront中的許可權或存取層級為何。
 
 例如，您有一個名為Campaign的記錄型別作為原始記錄型別。
 
