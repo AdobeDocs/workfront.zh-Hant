@@ -7,9 +7,9 @@ author: Nolan
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 10419dc8-8e7b-40fb-91fe-0ddbd0a493c9
-source-git-commit: 7a9232f59e4c6f2eac2995be7d7862295b6bab2c
+source-git-commit: 32d3cd97fc21b9679e0a615c3c07c3d69cd81225
 workflow-type: tm+mt
-source-wordcount: '262'
+source-wordcount: '274'
 ht-degree: 0%
 
 ---
@@ -38,9 +38,13 @@ ht-degree: 0%
 * 建立及處理Workfront請求
 * 在時程表上記錄時間
 
->[!NOTE]
+>[!IMPORTANT]
 >
 >此 [!DNL Adobe Workfront] 行動應用程式已取代 [!DNL Workfront Proof] 應用程式。 [!DNL Workfront] 客戶現在應該使用 [!DNL Adobe Workfront] 用於進行校訂檢閱和核准的行動應用程式。
+
+>[!NOTE]
+>
+>Workfront行動應用程式不支援文字欄位中的超連結。
 
 如需詳細資訊，請參閱 [!DNL Adobe Workfront] 檢閱下列文章：
 

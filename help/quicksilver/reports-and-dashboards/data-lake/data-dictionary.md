@@ -8,10 +8,10 @@ author: Nolan
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: 57985404-554e-4289-b871-b02d3427aa5c
-source-git-commit: 912f46c87170d6b678d885ccc1fb0170526578df
+source-git-commit: 32d3cd97fc21b9679e0a615c3c07c3d69cd81225
 workflow-type: tm+mt
-source-wordcount: '455'
-ht-degree: 9%
+source-wordcount: '536'
+ht-degree: 7%
 
 ---
 
@@ -27,19 +27,29 @@ ht-degree: 9%
 
 您可以透過多種表格型別，提供最深入的分析來檢視Workfront資料。
 
-### 目前表格
+* **目前表格**
 
-「目前」表格所反映的資料與Workfront中的資料、每個物件及其目前狀態類似。 不過，它比Workfront內的延遲要低很多。
+  「目前」表格所反映的資料與Workfront中的資料、每個物件及其目前狀態類似。 不過，它比Workfront內的延遲要低很多。
 
-### 事件表格
+* **事件表格**
 
-「事件」表格會追蹤Workfront中的每筆變更記錄：亦即，每次物件變更狀態時，系統都會建立記錄以顯示變更發生時間、變更人員及變更內容。 因此，此表格對時間點比較很有用。 此表格僅包含過去三年的記錄。
+  「事件」表格會追蹤Workfront中的每筆變更記錄：亦即，每次物件變更狀態時，系統都會建立記錄以顯示變更發生時間、變更人員及變更內容。 因此，此表格對時間點比較很有用。 此表格僅包含過去三年的記錄。
 
-### 每日歷史記錄表格
+* **每日歷史記錄表格**
 
-「每日歷史記錄」表格提供「事件」表格的縮寫版本，顯示每個物件的每日狀態，而非每個個別事件發生時的狀態。 因此，此表可用於趨勢分析。
+  「每日歷史記錄」表格提供「事件」表格的縮寫版本，顯示每個物件的每日狀態，而非每個個別事件發生時的狀態。 因此，此表可用於趨勢分析。
 
 <!-- Custom table -->
+
+## 實體關係圖
+
+Workfront中的物件（以及您資料湖中的物件）不僅是由其個別值所定義，也是由其與其他物件的關係所定義。 下列實體關係圖表提供Workfront資料湖中物件關係的高層級對應。 您可以使用下列連結來檢視和下載圖表：
+
+[Workfront data lake實體關係圖](/help/quicksilver/reports-and-dashboards/data-lake/assets/Workfront-data-lake_entity-relationship-diagram.pdf)
+
+>[!IMPORTANT]
+>
+>實體關係圖表是進行中的工作，因此僅供參考，且可能會變更。
 
 ## 術語表
 

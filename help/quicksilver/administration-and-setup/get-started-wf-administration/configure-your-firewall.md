@@ -8,9 +8,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 264eed40-6d90-498b-83cc-2500c8b19c84
-source-git-commit: c5100faf3d29182ecf62169708d39d41542a9398
+source-git-commit: 32d3cd97fc21b9679e0a615c3c07c3d69cd81225
 workflow-type: tm+mt
-source-wordcount: '1625'
+source-wordcount: '1633'
 ht-degree: 0%
 
 ---
@@ -191,7 +191,7 @@ ht-degree: 0%
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">使用AWS電子郵件服務的方式</td> 
+   <td role="rowheader">使用電子郵件服務的方式</td> 
    <td> 
     <ul> 
      <li>54.240.60.174</li> 
@@ -202,6 +202,15 @@ ht-degree: 0%
      <li>52.14.70.114</li> 
      <li>52.15.230.220</li> 
      <li>54.71.252.65 </li> 
+    </ul> </td> 
+  </tr> 
+    <tr> 
+   <td role="rowheader">使用Mailgun電子郵件服務的方式</td> 
+   <td> 
+    <ul> 
+     <li>143.55.228.56 </li> 
+     <li>209.61.151.229</li> 
+     <li>69.72.43.7</li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -496,13 +505,13 @@ jira.workfront.com網域也必須可從您的公司伺服器存取。 此網域�
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">若要允許Workfront校訂存取任何叢集上的Workfront，請將這些專案新增至所有環境</td> 
+   <td role="rowheader">若要允許Workfront Proof存取任何叢集上的Workfront，請新增這些至所有環境</td> 
    <td> 
     <ul> 
      <li>*.workfront.com — 需在Workfront中檢視校樣</li> 
-     <li>*.proofhq.com — 需要在Workfront Proof中檢視校樣</li> 
+     <li>*.proofhq.com — 需在Workfront Proof中檢視校樣</li> 
      <li>*.proofhq.eu — 需要在Workfront Proof中檢視校樣</li> 
-    </ul> <p><b>注意</b>：  <p>我們不支援將IP位址新增至您的Workfront Proof允許清單。 Workfront移至AWS後，這些量度為動態變化。 反之，我們建議您僅允許Workfront Proof網域。</p> <p>如果將這些網域新增至您的允許清單時發生問題，而您需要IP位址，請聯絡Workfront客戶支援。</p> </p> </td> 
+    </ul> <p><b>注意</b>：  <p>我們不支援將IP位址新增至您的Workfront Proof允許清單。 Workfront移至AWS後，這些量度為動態變化。 建議您只允許Workfront Proof網域。</p> <p>如果將這些網域新增至您的允許清單時發生問題，而您需要IP位址，請聯絡Workfront客戶支援。</p> </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -596,9 +605,9 @@ jira.workfront.com網域也必須可從您的公司伺服器存取。 此網域�
  </tbody> 
 </table>
 
-## 開啟連線埠以獲得最佳的Workfront校訂效能
+## 可開啟的連線埠，以提供最佳的Workfront Proof效能
 
-如果您在載入校訂或無法在Workfront Proof中運作時遇到問題，請開啟以下連線埠：
+如果您在載入校樣或無法在Workfront Proof中運作時遇到問題，請開啟以下連線埠：
 
 * 5671
 * 5672
