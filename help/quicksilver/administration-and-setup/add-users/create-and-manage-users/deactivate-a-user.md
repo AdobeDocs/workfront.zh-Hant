@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: aba243ba-46c2-4eb7-b704-4368bf0ae3cc
-source-git-commit: a907cd9d07a2912d42ae26d69815a05a1006a633
+source-git-commit: ece0275518169fd67708dce903b8bf46a9ee7b1b
 workflow-type: tm+mt
-source-wordcount: '1261'
+source-wordcount: '1170'
 ht-degree: 0%
 
 ---
@@ -83,8 +83,8 @@ ht-degree: 0%
 停用使用者時，請注意下列事項：
 
 * 使用者將無法存取系統。
-* 使用者將從Frame.io檢閱連結、資產、專案和帳戶中移除。
-   * 重新啟用使用者並不會自動將它們新增回Frame.io專案。 您必須手動將使用者重新指派給需要Frame.io共同作業的Workfront專案、任務和資產。
+<!--* The user will be removed from Frame.io review links, assets, projects, and accounts.
+   * Reactivating the user does not automatically add them back to the Frame.io items. You must reassign the user manually to Workfront projects, tasks, and assets that require Frame.io collaboration.-->
 * 將會保留與使用者相關聯的所有資料。
 * 您可以將已停用使用者的授權指派給其他使用者。
 
@@ -136,10 +136,10 @@ Workfront管理員和計畫授權使用者可在他們的使用者設定檔中�
 1. 選取使用者，按一下更多圖示 ![](assets/more-icon.png)，然後按一下 **啟動**.
 
 1. 指派新的 **存取層級**，然後按一下「 」 **重新啟用**.
+<!--
+### Asset review and approval impact when you reactivate a user
 
-### 重新啟用使用者時的資產檢閱和核准影響
-
-已停用的使用者會失去對其已指派Frame.io帳戶以及已指派專案、資產和檢閱連結的存取權。 如果您選擇重新啟用使用者，則必須手動將它們重新指派給需要Frame.io共同作業的專案、任務和資產。
+Deactivated users lose access to their assigned Frame.io accounts as well as assigned projects, assets, and review links. If you choose to reactivate the user, you must manually reassign them to projects, tasks, and assets that require Frame.io collaboration. -->
 
 ### 重新啟用使用者時的校訂影響
 
