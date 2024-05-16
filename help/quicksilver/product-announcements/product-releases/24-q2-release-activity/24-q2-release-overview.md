@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: bdcfed70-1999-4c40-a38f-12c762c8c1c4
-source-git-commit: 32d3cd97fc21b9679e0a615c3c07c3d69cd81225
+source-git-commit: 44ca7103afe0a44012063f14318968183a6442f9
 workflow-type: tm+mt
-source-wordcount: '2218'
+source-wordcount: '2212'
 ht-degree: 0%
 
 ---
@@ -369,10 +369,7 @@ ht-degree: 0%
                                 <p>預覽版本： 2024年2月13日</p>
                             </li>
                             <li>
-                                <p>快速發行生產：第24.5發行版本（2024年5月16日）</p>
-                            </li>
-                            <li>
-                                <p>每季發行的生產：待定</p>
+                                <p>適用於所有客戶的生產版本：搭配24.7版（2024年7月）</p>
                             </li>
                         </ul>
                     </td>
@@ -389,10 +386,7 @@ ht-degree: 0%
                                 <p>預覽版本： 2023年12月21日</p>
                             </li>
                             <li>
-                                <p>快速發行生產：第24.5發行版本（2024年5月16日）</p>
-                            </li>
-                            <li>
-                                <p>每季發行的生產：待定</p>
+                                <p>適用於所有客戶的生產版本：搭配24.7版（2024年7月）</p>
                             </li>
                         </ul>
                     </td>

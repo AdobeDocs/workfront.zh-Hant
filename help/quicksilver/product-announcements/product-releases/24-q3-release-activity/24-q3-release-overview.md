@@ -5,10 +5,10 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 372aa2c2-5deb-49da-aadc-6e870bbd083a
-source-git-commit: 32d3cd97fc21b9679e0a615c3c07c3d69cd81225
+source-git-commit: 44ca7103afe0a44012063f14318968183a6442f9
 workflow-type: tm+mt
-source-wordcount: '697'
-ht-degree: 0%
+source-wordcount: '788'
+ht-degree: 1%
 
 ---
 
@@ -35,6 +35,7 @@ ht-degree: 0%
 ## Adobe Workfront增強功能
 
 <!--* [Administrator enhancements](#administrator-enhancements)-->
+* [Financial Management增強功能](#financial-management-enhancements)
 * [專案增強功能](#project-enhancements)
 * [其他增強功能](#other-enhancements)
 
@@ -79,13 +80,65 @@ ht-degree: 0%
         </table>
 -->
 
+### Financial Management增強功能
+
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 50%;" />
+            <tbody>
+                <tr>
+                    <td>
+                        <p><span class="bold">功能</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">發行日期</span>
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-financial-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">專案與任務可用的可記帳與不可記帳費用欄位</a></p>
+                        <p>[！BADGE In Production ]{type=Informative}</p>
+                        <p>為了幫助您更輕鬆地檢視費用型別，在專案和工作中，費用被分成可記帳和不可記帳費用。 下列欄位可供您新增至檢視和報表：</p>
+                        <ul>
+                            <li><p>規劃可計費費用成本</p></li>
+                            <li><p>計畫非可開立帳單費用成本</p></li>
+                            <li><p>實際不可開立帳單的費用成本</p></li>
+                            <li><p>實際不可開立帳單的費用成本</p></li>
+                        </ul>
+                    </td>
+                    <td><p><b>將於下列日期提供：</b></p>
+                        <ul>
+                            <li>
+                                <p>預覽版本： 2024年5月10日</p>
+                            </li>
+                            <li>
+                                <p><span class="preview">適用於所有客戶的生產： 2024年5月10日</span></p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>             
+           </tbody>
+        </table>
+
 ### 專案增強功能
 
 <table>
             <col style="width: 50%;" />
             <col style="width: 50%;" />
             <tbody>
-                 <tr>
+                <tr>
+                    <td>
+                        <p><span class="bold">功能</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">發行日期</span>
+                        </p>
+                    </td>
+                </tr>
+                <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-project-enhancements.md" class="MCXref xref" xrefformat="{para}">已將更相關的指派新增至「新任務」工作流程</a></p>
                         <!-- <p>[!BADGE In production for Fast Release ]{type=Positive}</p> -->
@@ -97,10 +150,7 @@ ht-degree: 0%
                                 <p>預覽版本： 2024年2月13日</p>
                             </li>
                             <li>
-                                <p>快速發行生產：第24.5發行版本（2024年5月16日）</p>
-                            </li>
-                            <li>
-                                <p>每季發行的生產：待定</p>
+                                <p>適用於所有客戶的生產版本：搭配24.7版（2024年7月）</p>
                             </li>
                         </ul>
                     </td>
@@ -117,10 +167,7 @@ ht-degree: 0%
                                 <p>預覽版本： 2023年12月21日</p>
                             </li>
                             <li>
-                                <p>快速發行生產：第24.5發行版本（2024年5月16日）</p>
-                            </li>
-                            <li>
-                                <p>每季發行的生產：待定</p>
+                                <p>適用於所有客戶的生產版本：搭配24.7版（2024年7月）</p>
                             </li>
                         </ul>
                     </td>
@@ -147,7 +194,7 @@ ht-degree: 0%
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-other-enhancements.md" class="MCXref xref" xrefformat="{para}">改善物件存取權受限使用者的UI體驗</a></p>
-                        <!-- <p>[!BADGE In production for Fast Release ]{type=Positive}</p> -->
+                        <p>[！BADGE In Production for Fast Release ]{type=Positive}</p>
                         <p>當使用者無權存取物件時，使用者將在Workfront中顯示物件名稱的任何位置看到「無權存取」。 此改善的體驗也適用於Workfront API。</p>
                     </td>
                     <td><p><b>將於下列日期提供：</b></p>
@@ -181,11 +228,7 @@ ht-degree: 0%
                     </td>
                 </tr>                
            </tbody>
-        </table>   
-           </tbody>
         </table>
-
-
 
 ## 公告
 

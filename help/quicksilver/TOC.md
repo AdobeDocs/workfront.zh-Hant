@@ -3,9 +3,9 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文件、教學課程和其他資源，了解如何在您的組織中實施並有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: 6caa46150eed42c792a01891018aaa16f8700cb9
+source-git-commit: 44ca7103afe0a44012063f14318968183a6442f9
 workflow-type: tm+mt
-source-wordcount: '14250'
+source-wordcount: '14262'
 ht-degree: 1%
 
 ---
@@ -22,6 +22,7 @@ ht-degree: 1%
       * 2024年第3季發行 {#release-24-q3}
          * [2024年第3季版本總覽](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md)
          * [2024年第3季管理員增強功能](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-administrator-enhancements.md)
+         * [2024年第3季Financial Management增強功能](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-financial-mgmt-enhancements.md)
          * [2024年第3季專案增強功能](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-project-enhancements.md)
          * [2024年第3季發行時間範圍內的其他增強功能](product-announcements/product-releases/24-q3-release-activity/24-q3-other-enhancements.md)
          * [2024年第3季度發佈時間範圍內的外觀與感覺更新](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-look-and-feel-updates.md)
@@ -159,14 +160,15 @@ ht-degree: 1%
          * [21.1行動裝置增強功能](product-announcements/product-releases/21.1-release-activity/21-1-mobile-enhancements.md)
          * [21.1其他增強功能](product-announcements/product-releases/21.1-release-activity/21-1-other-enhancements.md)
       * Adobe Workfront Fusion發行活動 {#fusion-release}
+         * [Adobe Workfront Fusion發行活動](product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md)
+         * [Workfront Fusion發行活動： 2024年5月13日起一週](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-5-13.md)
          * [Workfront Fusion發行活動： 2024年5月6日當週](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-5-6.md)
          * [Workfront Fusion發行活動： 2024年4月8日當週](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-4-8.md)
          * [Workfront Fusion發行活動： 2024年3月11日起一週](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-3-14.md)
          * [Workfront Fusion發行活動： 2024年2月26日當週](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-2-26.md)
          * [Workfront Fusion發行活動： 2024年2月5日當週](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-2-5.md)
+         * [Workfront Fusion發行活動： 2024年1月1日起一週](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-1-4.md)
          * [Workfront Fusion發行活動： 2023年11月27日當週](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2023-11-30.md)
-         * [Adobe Workfront Fusion發行活動](product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md)
-           [Workfront Fusion發行活動： 2024年1月1日起一週](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-1-4.md)
          * [Workfront Fusion發行活動： 2023年11月13日當週](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2023-11-14.md)
          * [Workfront Fusion發行活動： 2023年10月30日當週](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2023-10-26.md)
          * [Workfront Fusion發行活動： 2023年9月1日起一週](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2023-9-1.md)
