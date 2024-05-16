@@ -6,20 +6,20 @@ description: 您可以使用智慧指派來識別最佳使用者是何人來完�
 author: Alina
 feature: Work Management
 exl-id: 073a3234-3156-4b4f-a3e1-dbb32d61068a
-source-git-commit: c4b7ef023d4b45deade0f56f422b0ba6b6662ee4
+source-git-commit: 4d76ef1b34d484e3da2af94543a5fd660ad0a4ef
 workflow-type: tm+mt
-source-wordcount: '514'
+source-wordcount: '582'
 ht-degree: 0%
 
 ---
 
 # 進行智慧型指派
 
-<!--Audited: 02/2024-->
+<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它僅適用於所有客戶的預覽環境，或適用於啟用快速發行的客戶的生產環境。</span>
 
-<!-- {{preview-and-fast-release}} -->
+<span class="preview">如需快速發行版本的相關資訊，請參閱 [啟用或停用組織的快速發行](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
 
-{{highlighted-preview}}
+<span class="preview">如需目前版本的相關資訊，請參閱 [2024年第三季度版本總覽](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).</span>
 
 您可以使用智慧指派來識別最佳使用者是何人來完成工作。
 
@@ -87,8 +87,8 @@ ht-degree: 0%
 
    對於任務，智慧型指派會根據演演算法計算識別指派的階段，顯示在下列區段中：
 
-   * **建議的指派**：在任務智慧指派的演演算法計算的第一階段中識別的指派。
-   * <span class="preview">**其他指派**：在任務智慧指派的演演算法計算的第二階段中識別的指派。 此區段不適用於問題。 </span> <!--replace this with the new UI: "Other assignments"-->
+   * **建議的指派**：在任務智慧指派的演演算法計算的第一階段中識別的指派。 <span class="preview">此區段不適用於問題。</span>
+   * <span class="preview">**其他指派** (或 **使用者和團隊**，或 **職位角色**)：在任務智慧指派的演演算法計算的第二階段中識別的指派。 <!--no longer valid: This section is not available for issues. --></span> <!--replace this with the new UI: "Other assignments"-->
 
    ![](assets/smart-assignments-task-list.png)
 

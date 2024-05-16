@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 9b1b8d8661917946230033b661ca652f5edef734
+source-git-commit: 4d76ef1b34d484e3da2af94543a5fd660ad0a4ef
 workflow-type: tm+mt
-source-wordcount: '6243'
+source-wordcount: '6367'
 ht-degree: 0%
 
 ---
@@ -55,24 +55,6 @@ Preview: To be determined
 To better organize information on the record's page for more efficient readability and navigation we have introduced sections to the record's page. The section titles serve as headers that organize the content into distinct categories. The sections can be expanded or collapsed, if needed.  
 
 For information, see [Manage the record page](/help/quicksilver/maestro/records/manage-the-record-page.md). 
-
-### Real-time updates for field configuration changes 
-
-Production: <date> 
-
-Preview: To be determined 
-
-If any user changes any field configuration (name, description, list of options etc) in a record type, other users view those changes in real-time. This ensures that everyone views the correct fields and their information at the same time.  
-
->[!WARNING]
->
->When formula expressions change, or options are added or removed from a select-type field, there will be loss of data for the records that already have information stored in the fields whose configuration is modified. 
->
->There is no warning or indication that this data loss could happen when you change the configuration of fields. 
->
->There is no notification to other users that the field configuration has changed.  
-
-For more information, see [Edit fields](/help/quicksilver/maestro/fields/edit-fields.md).  
 
 ### Enable Workfront Planning notifications for customers that are not in the Adobe Unified Experience
 
@@ -141,7 +123,7 @@ For information, see [Manage records in the Planning section of Adobe Workfront 
 
 如需詳細資訊，請參閱 [連線記錄型別](/help/quicksilver/maestro/architecture/connect-record-types.md).
 
-## 新增區段到記錄的預覽和詳細資訊頁面
+### 新增區段到記錄的預覽和詳細資訊頁面
 
 生產： 2024年5月15日
 
@@ -150,6 +132,24 @@ For information, see [Manage records in the Planning section of Adobe Workfront 
 為了更妥善地組織紀錄頁面上的資訊，以更有效率地閱讀和導覽，我們在紀錄頁面中引進了章節。 區段標題可作為標題，將欄位組織成不同的類別。 這些區段是完全可自訂的，如果需要，可以展開或摺疊。
 
 如需詳細資訊，請參閱 [管理記錄頁面](/help/quicksilver/maestro/records/manage-the-record-page.md).
+
+### 欄位設定變更的即時更新
+
+生產： 2024年5月16日
+
+預覽：待定
+
+當使用者變更記錄型別中的任何欄位設定（名稱、說明、選項清單等）時，其他使用者會即時檢視這些變更。 這可確保每個人都同時檢視正確的欄位及其資訊。
+
+>[!WARNING]
+>
+>當公式運算式變更，或從select-type欄位新增或移除選項時，已儲存資訊的記錄將遺失資料，資訊會儲存在已修改其設定的欄位中。
+>
+>當您變更欄位設定時，沒有警告或指示可能發生此資料遺失。
+>
+>不會通知其他使用者欄位設定已變更。
+
+如需詳細資訊，請參閱 [編輯欄位](/help/quicksilver/maestro/fields/edit-fields.md).
 
 ## 2024年5月6日起一週
 

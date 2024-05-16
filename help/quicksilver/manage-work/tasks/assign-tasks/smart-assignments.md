@@ -7,19 +7,20 @@ description: 在管理任務和問題指派時，您可以使用智慧指派來�
 author: Alina
 feature: Work Management
 exl-id: 8d17eff6-5ff0-4985-b575-4934a3bb7c0b
-source-git-commit: c4b7ef023d4b45deade0f56f422b0ba6b6662ee4
+source-git-commit: 4d76ef1b34d484e3da2af94543a5fd660ad0a4ef
 workflow-type: tm+mt
-source-wordcount: '1208'
+source-wordcount: '1278'
 ht-degree: 0%
 
 ---
 
 # 智慧指派總覽
 
+<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它僅適用於所有客戶的預覽環境，或適用於啟用快速發行的客戶的生產環境。</span>
 
-<!-- {{preview-and-fast-release}} -->
+<span class="preview">如需快速發行版本的相關資訊，請參閱 [啟用或停用組織的快速發行](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
 
-{{highlighted-preview}}
+<span class="preview">如需目前版本的相關資訊，請參閱 [2024年第三季度版本總覽](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).</span>
 
 在管理任務和問題指派時，您可以使用智慧指派來識別誰是完成工作的最佳資源。 智慧型指派是Adobe Workfront在您根據演演算法將工作專案指派給資源時所顯示的建議，該演演算法會決定最適合工作的資源。 智慧指派可以是使用者、工作角色或團隊。
 
@@ -121,7 +122,7 @@ ht-degree: 0%
 
   例如，如果Rick今天早些時候被指派到類似任務，而Jennifer兩天前被指派到類似任務，則Rick會先顯示。
 
-* 此階段中識別的指派會列在 **建議的指派** 區段。
+* 此階段中識別的指派會列在    **建議的指派**  區段。
 
 * 如果沒有符合使用此計算的專案，則智慧型指派的第二階段會使用不同的演演算法來開始計算。
 
@@ -131,7 +132,7 @@ ht-degree: 0%
 
 如需詳細資訊，請參閱區段 [任務和問題的智慧指派條件](#smart-assignments-criteria-for-tasks-and-issues) 本文章內容。
 
-此階段中識別的指派會列在 **其他指派** 任務指派欄位的區段。 <!--update this to "Other assignments"-->
+此階段中識別的指派會列在   **其他指派** (或任務之「工作總攬」(Assignments)欄位的「使用者與團隊」(Users and teams)或「工作角色指派」(Job role assignments))區段。
 
 ### 任務和問題的智慧指派條件
 

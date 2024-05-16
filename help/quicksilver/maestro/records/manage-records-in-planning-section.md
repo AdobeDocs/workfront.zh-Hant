@@ -4,7 +4,7 @@ description: 您可以在左側面板的Adobe Workfront物件的Planning區段�
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 9b1b8d8661917946230033b661ca652f5edef734
+source-git-commit: 4d76ef1b34d484e3da2af94543a5fd660ad0a4ef
 workflow-type: tm+mt
 source-wordcount: '652'
 ht-degree: 1%
@@ -142,11 +142,11 @@ ht-degree: 1%
    * 連線至Planning記錄的Workfront欄位值也會一併刪除。
 1. 按一下 **連線** 以連線更多記錄。
 
-   <!--checking with the team on the below note - not sure if if should stay Manage or be changed to Contribute??-->
+   <!--checking with the team on the below note - not sure if if should stay Manage or Contribute - Lilit said Contribute??-->
 
    >[!NOTE]
    >
-   >   只有您擁有管理許可權的工作區才會顯示「連線」按鈕。
+   >   「連線」按鈕只會在您擁有Contribute許可權的工作區顯示。
 
 1. 按一下您要連線的記錄。 會發生下列情況：
 
