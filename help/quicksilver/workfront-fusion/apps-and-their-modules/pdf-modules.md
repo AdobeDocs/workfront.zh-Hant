@@ -5,9 +5,9 @@ author: Becky
 draft: Probably
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: e0a5736b-dbdb-43c6-83ff-e88a5625a5bf
-source-git-commit: b43ea012d7c649c94011f72f010ae24895e6ef4b
+source-git-commit: ba161761acfc57e271f8593f534a5f7510187559
 workflow-type: tm+mt
-source-wordcount: '3590'
+source-wordcount: '3719'
 ht-degree: 0%
 
 ---
@@ -53,7 +53,7 @@ Although [!DNL Workfront Fusion] does not require an [!DNL Adobe] account to use
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 計劃*</td>
+   <td role="rowheader">[!DNL Adobe Workfront] 計畫*</td>
   <td> <p>[！UICONTROL Pro]或更高版本</p> </td>
   </tr> 
   <tr data-mc-conditions=""> 
@@ -83,7 +83,7 @@ Although [!DNL Workfront Fusion] does not require an [!DNL Adobe] account to use
 
 有關的資訊 [!DNL Adobe Workfront Fusion] 授權，請參閱 [[!DNL Adobe Workfront Fusion] 授權](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
-## 必要條件
+## 先決條件
 
 若要建立OAuth伺服器對伺服器，您必須在Adobe開發人員控制檯中新增Adobe PDF Services API 。 新增API時，請選取OAuth伺服器對伺服器選項。
 
@@ -434,7 +434,7 @@ Although [!DNL Workfront Fusion] does not require an [!DNL Adobe] account to use
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL JSON]</td> 
-   <td> <p>如果您的HTML參照JavaScript變數，您可以在此處包含這些變數。 </p> <p>對於每個變數，按一下 <strong>[！UICONTROL新增專案]</strong> 並包含變數的索引鍵和值。</p> <p>備註:   
+   <td> <p>如果您的HTML參照JavaScript變數，您可以在此處包含這些變數。 </p> <p>對於每個變數，按一下 <strong>[！UICONTROL新增專案]</strong> 並包含變數的索引鍵和值。</p> <p>注意：   
      <ul> 
       <li> <p>從ZIP檔案建立PDF時，來源附屬資料必須包含指令碼元素，例如： <code> &lt;script src='./json.js' type='text/javascript'&gt;&lt;/script&gt;</code> </p> </li> 
       <li> <p>從URL建立PDF時，此JSON物件的內容會在轉譯頁面之前插入瀏覽器VM。 </p> </li> 
@@ -631,7 +631,7 @@ Although [!DNL Workfront Fusion] does not require an [!DNL Adobe] account to use
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL Pages]</td> 
-   <td> <p>針對您要刪除的每個頁面範圍，按一下 <strong>[！UICONTROL新增]</strong> 然後輸入頁面範圍的首頁和最後一頁。 </p> <p>備註:   
+   <td> <p>針對您要刪除的每個頁面範圍，按一下 <strong>[！UICONTROL新增]</strong> 然後輸入頁面範圍的首頁和最後一頁。 </p> <p>注意：   
      <ul> 
       <li> <p>您可以使用負數從檔案結尾往回計數。 檔案的最後一頁為–1，最後一頁的第二頁為–2，依此類推。</p> </li> 
       <li> <p>若要刪除單一頁面，請將相同的頁碼設定為範圍的開始和結束。</p> </li> 
@@ -801,6 +801,44 @@ Although [!DNL Workfront Fusion] does not require an [!DNL Adobe] account to use
    <li><p><b>檔案數</b></p><p>輸入要分割檔案的平均大小檔案數目。</p></li>
    </ul>
    </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+## 進行自訂API呼叫
+
+此動作模組會向PDF服務API傳送自訂HTTP請求。
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[！UICONTROL Connection]</td> 
+   <td> <p>選取要用於此模組的連線。</p> 有關建立與的連線的指示 [!DNL Adobe PDF Services]，請參閱 <a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >建立與的連線 [!DNL Adobe PDF Services]</a> 本文章內容。 </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[！UICONTROL URL]</td> 
+   <td> 輸入相對路徑或URL。 </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[！UICONTROL方法]</td> 
+   <td> <p>選取設定API呼叫所需的HTTP要求方法。 如需詳細資訊，請參閱 <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">中的HTTP要求方法 [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[！UICONTROL Headers]</td> 
+   <td> <p>以標準JSON物件的形式新增請求的標頭。</p> <p>例如， <code>{"Content-type":"application/json"}</code></p> <p>Workfront Fusion會自動新增授權標頭。</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[！UICONTROL查詢字串]</td> 
+   <td> <p>以標準JSON物件的形式新增API呼叫的查詢。</p> <p>例如： <code>{"name":"something-urgent"}</code></p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[！UICONTROL欄位]</td> 
+   <td> <p>針對您想要新增至API呼叫的每個欄位，按一下 <b>新增專案</b> 並輸入欄位的索引鍵和選擇性值。</p> <p>注意：  <p>使用條件陳述式時，例如 <code>if</code> 在JSON中，將引號放在條件陳述式之外。</p> 
+     <div class="example" data-mc-autonum="<b>Example: </b>"> 
+      <p> <img src="assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
+     </div> </p> </td> 
   </tr> 
  </tbody> 
 </table>
