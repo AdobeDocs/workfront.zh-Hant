@@ -7,10 +7,10 @@ author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 23d1e241-ea5b-43f5-b097-8d96e13cb267
-source-git-commit: cb29d7ff4854faf50195af6916dfaa6eae588764
+source-git-commit: f8cf09b085ad319955afd2b4f8b35b59bcd7d277
 workflow-type: tm+mt
-source-wordcount: '1343'
-ht-degree: 0%
+source-wordcount: '992'
+ht-degree: 1%
 
 ---
 
@@ -113,47 +113,10 @@ ht-degree: 0%
 
 為了讓您輕鬆測試測試版計畫的新功能，我們已建立新的測試Frame.io帳戶，並將其連線至名為的新群組 `Frame.io testing` 在現有的Workfront預覽或沙箱環境中。
 
-+++展開以檢視基本測試指示
-
-若要測試功能，請登入您的Workfront預覽或沙箱執行個體，然後執行下列步驟：
-
-1. **協調員：** 在Workfront中，建立專案，使用 `Frame.io testing` 群組已指派為專案群組。
-
-1. **協調員：** 在Workfront中，將需要創意工作的任務標示為已啟用框架（在任務詳細資料中），並將您的創意指派給它（如果您想要測試整個工作流程，也請指派您自己）。
-
->[!NOTE]
->
->子工作無法標籤為框架已啟用。
->
-
-1. **協調員：** 上傳您的創意簡報並將專案狀態變更為「目前」。
-
-1. **創意內容：** 檢查您的電子郵件，以取得新建立Frame.io專案的邀請
-
-1. **創意內容：** 按一下邀請電子郵件中的「加入專案」按鈕，加入Frame.io專案、檢閱專案內的創意簡報，並在您選擇的Creative Cloud工具中開始建立內容。
-
-1. **創意內容：** 將您建立的資產上傳到Frame.io，並選取其中一個指派的啟用Frame任務，將其新增到連結的Workfront專案。 選取選項以將工作標示為完成。
-
-1. **協調員：** 在Workfront中，於啟用框架的任務中找到連結的Frame.io資產，並檢查任務的狀態是否變更為「完成」。
-
-1. **協調員：** 將稽核者/核准者指派給連結的Frame.io資產。 如果您想要測試整個工作流程，請將自己指派為核准者。 (如需指派檢閱/核准者的詳細資訊，請參閱 [新增其他核准者或稽核者至檔案](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/add-additional-reviewers-or-approvers.md))。
-
-1. **利害關係人：** 在Workfront中，在首頁、檔案詳細資料或收到的電子郵件通知中檢視您的核准請求。 在Frame.io Viewer中開啟資產、留下包含意見回饋的評論，然後做出決定。
-
-1. **協調員：** 在Workfront中，檢視Frame.io連線檔案的「更新」區段內利害關係人建立的評論，以及「核准」區段或檔案摘要窗格內的決定。
-
-1. **創意內容：** 在Frame.io中，請注意針對您的資產所作出的整體核准決定。
-
-1. **創意內容：** 在Frame.io中，將更新版本新增至連線資產的版本棧疊中，以套用要求的變更。
-
-1. **協調員：** 在Workfront中，將核准者/稽核者指派給新上傳的版本，並監控進度，直到該版本達到登出為止。
-
-+++
-
-+++ 展開以檢視詳細的測試指示
+### 詳細的測試指示
 
 對於想要測試其他功能的參與者，我們已建立更複雜的測試情境。 您可以在此處下載此詳細測試案例的指南： [WF + Frame.io詳細測試案例逐步說明](/help/quicksilver/review-and-approve-work/Documents/assets/WF-Frame-Detailed-Walk-Through-May-Release.pdf).
-+++
+
 
 ## 示範影片
 
