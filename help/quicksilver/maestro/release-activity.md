@@ -5,14 +5,17 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 4d76ef1b34d484e3da2af94543a5fd660ad0a4ef
+source-git-commit: 34b1bf4e776a1f5b4a413ab9f78bed63c4b64f45
 workflow-type: tm+mt
 source-wordcount: '6367'
 ht-degree: 0%
 
 ---
 
+
 # Adobe Workfront Planning發行活動
+
+<!--this article is linked to the WF Planning landing page - do not change URL or move it-->
 
 {{maestro-important-intro}}
 

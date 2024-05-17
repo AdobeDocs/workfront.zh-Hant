@@ -5,16 +5,18 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: 9b1b8d8661917946230033b661ca652f5edef734
+source-git-commit: 34b1bf4e776a1f5b4a413ab9f78bed63c4b64f45
 workflow-type: tm+mt
-source-wordcount: '1826'
-ht-degree: 1%
+source-wordcount: '1838'
+ht-degree: 2%
 
 ---
 
 # Adobe Workfront規劃概觀
 
-<!--udpate the metadata with real information when making this avilable in TOC and in the left nav-->
+<!--this article is linked to the WF Planning landing page - do not change URL or move it-->
+
+<!--update the metadata with real information when making this available in TOC and in the left nav-->
 
 <!-- remove the references to closed beta from the entire article-->
 
@@ -255,6 +257,7 @@ Workfront Planning的架構可完全自訂。 您可以建立所有記錄型別�
 | 您可以透過記錄型別表格的API匯入的檔案大小 | 1.5毫巴 |
 | 提出API要求的速率 | 每分鐘200個請求 |
 | 您可以匯入的Excel檔案CSV大小* | 5MB |
+| 單一使用者可為一個記錄型別建立的檢視次數 | 100 |
 
 <!--add to the table above: Maximum number of views created by one use 100 -->
 

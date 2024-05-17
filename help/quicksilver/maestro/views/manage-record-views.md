@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: 6ec985d10a5fd7a4a9307b705f48734d76aec181
+source-git-commit: 34b1bf4e776a1f5b4a413ab9f78bed63c4b64f45
 workflow-type: tm+mt
-source-wordcount: '1091'
+source-wordcount: '1118'
 ht-degree: 1%
 
 ---
@@ -31,6 +31,14 @@ ht-degree: 1%
 * 行事曆
 
   如需詳細資訊，請參閱 [管理行事曆檢視](/help/quicksilver/maestro/views/manage-the-calendar-view.md).
+
+本文說明有關記錄檢視的下列資訊：
+
+* [建立及編輯檢視](#create-or-edit-record-views)
+* [刪除檢視](#delete-views)
+* [複製檢視](#duplicate-views)
+  <!--* [Add a view as a favorite](#add-a-view-as-a-favorite) - not possible yet-->
+
 
 ## 存取需求
 
@@ -93,7 +101,8 @@ ht-degree: 1%
 * Workfront Planning中的檢視是記錄型別專屬檢視。 您不能將相同的檢視套用至兩種不同的記錄型別。
 * 您建立的檢視只對您和共用檢視的使用者可見。
 * 當您修改或刪除檢視時，該檢視會被修改並刪除，以供擁有該檢視許可權的所有使用者使用。
-<!--* Each user can create a maximum of 100 views. -->
+* 每位使用者最多可建立100個檢視。 您可以為記錄型別顯示100個以上的檢視，但一個使用者只能建立100個檢視。
+* 您可以與其他人共用您建立的檢視。 如需詳細資訊，請參閱 [共用檢視](/help/quicksilver/maestro/access/share-views.md).
 * 以下元素是每個記錄檢視所獨有的：
 
    * 篩選器
@@ -108,14 +117,6 @@ ht-degree: 1%
   >[!NOTE]
   >
   > 由於Adobe Workfront Planning目前處於測試版狀態，因此某些檢視元素可能無法用於所有檢視。
-
-本文說明有關記錄檢視的下列資訊：
-
-* [建立及編輯檢視](#create-or-edit-record-views)
-* [刪除檢視](#delete-views)
-* [複製檢視](#duplicate-views)
-* [共用檢視](#share-a-view)
-  <!--* [Add a view as a favorite](#add-a-view-as-a-favorite) - not possible yet-->
 
 ## 記錄檢視之間的相似之處和差異
 
@@ -228,10 +229,6 @@ ht-degree: 1%
 1. 按一下 **刪除** 以確認。 <!--ensure there is not another saving step here?!-->
 
    所有可存取記錄區域的使用者檢視都會刪除，且無法復原。
-
-## 共用檢視
-
-如需關於共用檢視的資訊，請參閱 [共用檢視](/help/quicksilver/maestro/access/share-views.md).
 
 <!--## Add a view as a favorite - this is not possible yet-->
 
