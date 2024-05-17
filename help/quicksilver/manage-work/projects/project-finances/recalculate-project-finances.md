@@ -6,9 +6,9 @@ description: 當專案記錄的時數或用於計算成本和收入的費率發�
 author: Alina
 feature: Work Management
 exl-id: 5a90c5a1-8b26-4b6f-b9ec-f446a2e94ff0
-source-git-commit: bfe77796863bb2d7d324901721fda7fa045c2c0b
+source-git-commit: 530c4451f4720a1710350f8e822e343794b63e87
 workflow-type: tm+mt
-source-wordcount: '1620'
+source-wordcount: '1647'
 ht-degree: 0%
 
 ---
@@ -61,6 +61,8 @@ ht-degree: 0%
 >[!CAUTION]
 >
 >手動重新計算指定專案的財務之前，您可能想要保留已使用先前費率計算的任何財務資料。 建議您僅在確定未變更現有資訊或需要變更時，才使用重新計算財務選項。
+>
+>請注意，執行專案（財務資料）報表會執行財務資料的重新計算，因此在執行報表之前，您應該考慮相同的因素。
 
 ## 保留具有現有時數的任務的財務資料 {#preserve-financial-data-for-tasks-with-existing-hours}
 

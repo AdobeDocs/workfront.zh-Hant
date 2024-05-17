@@ -6,9 +6,9 @@ description: 「您在中顯示的資訊 [!DNL Adobe Workfront] 由儲存在 [!D
 feature: Get Started with Workfront
 author: Alina
 exl-id: f324f198-5472-4cf2-a46e-7fc24605ca90
-source-git-commit: d55432667aa86db3216d10d8475962d9e441648b
+source-git-commit: ae2e8f0914e5090b9ea2605f593fcef271469c61
 workflow-type: tm+mt
-source-wordcount: '2400'
+source-wordcount: '2441'
 ht-degree: 1%
 
 ---
@@ -300,11 +300,12 @@ ht-degree: 1%
 * [!UICONTROL 引數群組] (或 [!UICONTROL 分割槽符號])
 * [!UICONTROL Portfolio]
 * [!UICONTROL 計畫]
-* [!UICONTROL 專案] ([!UICONTROL 財務資料])
+* [!UICONTROL 專案（財務資料）]
+   * 財務資訊填入 [!UICONTROL 專案（財務資料）] 只有當與其關聯的資料存在時間少於5年時才報告。 例如，如果某個工作角色在2015年1月被分配給某個任務，而今天是2021年9月，則財務歸檔如下 [!UICONTROL 分配日期] （表示工作角色未填入） [!UICONTROL 專案（財務資料）] 報告。
 
-  >[!NOTE]
+  >[!CAUTION]
   >
-  >財務資訊填入 [!UICONTROL 專案] ([!UICONTROL 財務資料])僅會在與其關聯的資料存在時間少於5年時報告。 例如，如果某個工作角色在2015年1月被分配給某個任務，而今天是2021年9月，則財務歸檔如下 [!UICONTROL 分配日期] （表示工作角色未填入） [!UICONTROL 專案（財務資料）] 報告。
+  >執行專案（財務資料）報表會執行財務資料的重新計算，這會覆寫先前的財務資料，而且可能需要相當長的時間。 如需有關財務資料重新計算之結果的詳細資訊，請參閱 [重新計算專案財務](/help/quicksilver/manage-work/projects/project-finances/recalculate-project-finances.md).
 
 * [!UICONTROL 校訂核准]
    * 可讓您檢視關於校訂核准的各種資訊，包括：已提交核准的校訂、關於核准的資訊 [!UICONTROL 核准者]，要求者的相關資訊（如果要求者已獲授權） [!DNL Workfront] 使用者)、版本資訊、校訂ID和校訂建立日期。\

@@ -3,9 +3,9 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文件、教學課程和其他資源，了解如何在您的組織中實施並有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: 44ca7103afe0a44012063f14318968183a6442f9
+source-git-commit: 530c4451f4720a1710350f8e822e343794b63e87
 workflow-type: tm+mt
-source-wordcount: '14262'
+source-wordcount: '14246'
 ht-degree: 1%
 
 ---
@@ -1735,8 +1735,6 @@ ht-degree: 1%
       * [在增強型分析中檢視專案活動視覺效果](enhanced-analytics/project-activity-overview.md)
       * [在增強型分析中檢視專案樹狀圖視覺效果](enhanced-analytics/project-treemap-overview.md)
       * [在Enhanced Analytics中檢視依團隊的活動視覺效果](enhanced-analytics/activity-by-team-overview.md)
-      * [在增強型分析中檢視資源容量視覺效果](enhanced-analytics/resource-capacity-overview.md)
-      * [在Enhanced Analytics中檢視團隊容量視覺效果](enhanced-analytics/team-capacity-overview.md)
    * Workfront data lake {#data-lake}
       * [Workfront data lake概觀](reports-and-dashboards/data-lake/data-lake-overview.md)
       * [建立讀者帳戶](reports-and-dashboards/data-lake/create-a-reader-account.md)

@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: bdcfed70-1999-4c40-a38f-12c762c8c1c4
-source-git-commit: 44ca7103afe0a44012063f14318968183a6442f9
+source-git-commit: 530c4451f4720a1710350f8e822e343794b63e87
 workflow-type: tm+mt
-source-wordcount: '2212'
+source-wordcount: '2246'
 ht-degree: 0%
 
 ---
@@ -360,13 +360,16 @@ ht-degree: 0%
                  <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-project-enhancements.md" class="MCXref xref" xrefformat="{para}">已將更相關的指派新增至「新任務」工作流程</a></p>
-                        <!-- <p>[!BADGE In production for Fast Release ]{type=Positive}</p> -->
+                        <p>[！BADGE In Production for Fast Release ]{type=Positive}</p>
                         <p>將任務新增至專案和專案任務清單時，我們已將相同功能新增至「新增任務」方塊的「工作總攬」欄位，以提供更相關的智慧指派。</p>
                     </td>
                     <td><p><b>將於下列日期提供：</b></p>
                         <ul>
                             <li>
                                 <p>預覽版本： 2024年2月13日</p>
+                            </li>
+                            <li>
+                                <p>快速發行生產：第24.5發行版本（2024年5月16日）</p>
                             </li>
                             <li>
                                 <p>適用於所有客戶的生產版本：搭配24.7版（2024年7月）</p>
@@ -377,13 +380,16 @@ ht-degree: 0%
                  <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-project-enhancements.md" class="MCXref xref" xrefformat="{para}">更相關的智慧指派</a></p>
-                        <!-- <p>[!BADGE In production for Fast Release ]{type=Positive}</p> -->
+                        <p>[！BADGE In Production for Fast Release ]{type=Positive}</p>
                         <p>我們已變更Workfront用來計算及建議智慧型任務指派的演演算法。 新演演算法適用於Workfront中指派任務的以下區域：任務清單、任務標題中的「工作」區域、「首頁」和「摘要」面板。</p>
                     </td>
                     <td><p><b>將於下列日期提供：</b></p>
                         <ul>
                             <li>
                                 <p>預覽版本： 2023年12月21日</p>
+                            </li>
+                            <li>
+                                <p>快速發行生產：第24.5發行版本（2024年5月16日）</p>
                             </li>
                             <li>
                                 <p>適用於所有客戶的生產版本：搭配24.7版（2024年7月）</p>
