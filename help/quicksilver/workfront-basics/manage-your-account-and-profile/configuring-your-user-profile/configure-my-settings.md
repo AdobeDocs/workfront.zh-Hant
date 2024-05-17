@@ -6,9 +6,9 @@ description: 您的 [!DNL Adobe Workfront] 設定檔包含自己的相關資訊�
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 0199bf74-0611-48f0-9c05-da6afac85033
-source-git-commit: 18dfb67626982d73ad33871b8afce4a3f0d4cdb3
+source-git-commit: 157ab840d63388b342db624824db9538d43b70b1
 workflow-type: tm+mt
-source-wordcount: '3273'
+source-wordcount: '3275'
 ht-degree: 1%
 
 ---
@@ -255,7 +255,7 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td role="rowheader"><strong>（條件式） [！UICONTROL僅允許 &lt;sso configuration=""&gt; 驗證]</strong></td> 
-   <td> <p> 若您的 [!DNL Workfront] 管理員已啟用SSO整合，與 [!DNL Workfront] 且已更新SSO的使用者，此欄位預設為選取。 已為您的啟用的SSO組態型別 [!DNL Workfront] 執行個體會顯示在此欄位中。</p> <p>選取此欄位時，您必須登入 [!DNL Workfront] 使用您的SSO憑證。 取消核取它將允許您登入 [!DNL Workfront] 與您的 [!DNL Workfront] 認證。</p> <p>如需關於設定的詳細資訊 [!DNL Workfront] 若使用SSO解決方案，請參閱 <a href="../../../administration-and-setup/add-users/single-sign-on/single-sign-on.md" class="MCXref xref">單一登入 [!DNL Adobe Workfront]</a>. 如需更新SSO使用者的詳細資訊，請參閱 <a href="../../../administration-and-setup/add-users/single-sign-on/update-users-sso.md" class="MCXref xref">更新單一登入的使用者</a>.</p> </td> 
+   <td> <p> 若您的 [!DNL Workfront] 管理員已啟用SSO整合，與 [!DNL Workfront] 且已更新SSO的使用者，此欄位預設為選取。 已為您的啟用的SSO組態型別 [!DNL Workfront] 執行個體會顯示在此欄位中。</p> <p>選取此欄位時，您必須登入 [!DNL Workfront] 使用您的SSO憑證。 取消核取它將允許您登入 [!DNL Workfront] 與您的 [!DNL Workfront] 認證。</p> <p>如需關於設定的詳細資訊 [!DNL Workfront] 若使用SSO解決方案，請參閱 <a href="../../../administration-and-setup/add-users/single-sign-on/single-sign-on.md" class="MCXref xref">單一登入 [!DNL Workfront]：文章索引</a>. 如需更新SSO使用者的詳細資訊，請參閱 <a href="../../../administration-and-setup/add-users/single-sign-on/update-users-sso.md" class="MCXref xref">更新單一登入的使用者</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -348,7 +348,7 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td role="rowheader"><strong>（視條件而定）上傳檔案時自動產生校樣</strong></td> 
-   <td>選取此欄位可在檔案載入到之後立即開始產生校訂 [!DNL Workfront]. 此欄位預設為停用，僅可由Workfront管理員更新。<br>此欄位僅在貴公司已購買Workfront的Workfront Proof元件，且您已啟用為校訂使用者身分時可用。 如需Workfront Proof的詳細資訊，請參閱 <a href="../../../review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proofs-in-wf.md" class="MCXref xref">在Adobe Workfront中管理校樣</a>.
+   <td>選取此欄位可在檔案載入到之後立即開始產生校訂 [!DNL Workfront]. 此欄位預設為停用，僅可由Workfront管理員更新。<br>此欄位僅在貴公司已針對Workfront購買Workfront Proof元件，且您已啟用為校訂使用者身分時可用。 如需Workfront Proof的詳細資訊，請參閱 <a href="../../../review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proofs-in-wf.md" class="MCXref xref">在Adobe Workfront中管理校樣</a>.
    <p><b>注意：</b> 上傳到請求的檔案不會自動產生校訂。 </p></td> 
   </tr> 
  </tbody> 

@@ -1,18 +1,21 @@
 ---
 content-type: reference
 navigation-topic: workfront-navigation
-title: 中的專案、任務和問題日期概觀 [!DNL Adobe Workfront]
-description: 中的專案、任務和問題日期概觀 [!DNL Adobe Workfront]
+title: 中的專案、任務和問題日期概觀 [!DNL Workfront]
+description: 本文提供中與專案、任務和問題相關的最常見日期的定義。 [!DNL Adobe Workfront].
 feature: Get Started with Workfront
+author: Alina
 exl-id: 3808200f-a573-4c39-8965-b254f69c893c
-source-git-commit: db9193c7593ec6ce361c020b70ed02e79742eb9b
+source-git-commit: 040dd446ff2b347dabf8a139feb17fd1a7d50e4e
 workflow-type: tm+mt
-source-wordcount: '1249'
+source-wordcount: '1258'
 ht-degree: 0%
 
 ---
 
-# 中的專案、任務和問題日期概觀 [!DNL Adobe Workfront]
+# 中的專案、任務和問題日期概觀 [!DNL Workfront]
+
+<!-- Audited: 05/2024 -->
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: consider expanding on this article with ALL dates for PTIs - Hand off dates, Approval Dates, etc) </p>
@@ -35,7 +38,7 @@ ht-degree: 0%
 
 如需詳細資訊，請參閱 [專案概述 [!UICONTROL 計劃開始日期]](../../../manage-work/projects/planning-a-project/project-planned-start-date.md).
 
-![](assets/planned-start-date-on-edit-task-highlighted-nwe-350x249.png)
+![](assets/planned-start-date-on-edit-task-highlighted-nwe.png)
 
 ![](assets/planned-start-date-in-task-list-highlighted-nwe-350x167.png)
 
@@ -63,7 +66,7 @@ ht-degree: 0%
 
 此 [!UICONTROL 輸入日期] 不影響專案、任務或問題的時間表，但用於追蹤和報告用途很重要。 [!DNL Workfront] 自動產生 [!UICONTROL 輸入日期] 物件建立後，您無法手動編輯它。
 
-![](assets/entry-date-in-task-details-highlighted-nwe-350x105.png)
+![](assets/entry-date-in-task-details-highlighted-nwe.png)
 
 ## [!UICONTROL 實際開始日期]
 
@@ -106,7 +109,7 @@ ht-degree: 0%
 
 ## [!UICONTROL 認可日期]
 
-此 [!UICONTROL 認可日期] 是使用者指派到任務或問題認可完成任務或問題的日期。 這與 [!UICONTROL 計畫完成日期]，因為這是僅由負責工作的使用者提供的對完成日期的更實際估計。 如需詳細資訊，請參閱 [[!UICONTROL 認可日期] 概述](../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md).
+此 [!UICONTROL 認可日期] 是使用者指派至任務或問題承諾完成任務或問題的日期。 這與 [!UICONTROL 計畫完成日期]，因為這是僅由負責工作的使用者提供的對完成日期的更實際估計。 如需詳細資訊，請參閱 [[!UICONTROL 認可日期] 概述](../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md).
 
 >[!NOTE]
 >
@@ -114,7 +117,7 @@ ht-degree: 0%
 
 ## [!UICONTROL 預計開始日期]
 
-此 [!UICONTROL 預計開始日期] 是專案、任務或問題的即時日期，會考慮所有延遲。 此專案、任務或問題的開始日期比 [!UICONTROL 計劃開始日期]. 此 [!UICONTROL 計劃開始日期] 未將延遲或過去的日期納入考量。
+此 [!UICONTROL 預計開始日期] 是專案、任務或問題開始的即時日期，會考慮所有延遲。 此專案、任務或問題的開始日期比 [!UICONTROL 計劃開始日期]. 此 [!UICONTROL 計劃開始日期] 未將延遲或過去的日期納入考量。
 
 當您第一次計畫專案時， [!UICONTROL 計劃開始日期] 和 [!UICONTROL 預計開始日期] 的相同專案。 由於可能會發生延遲或工作可能會提前完成，因此 [!UICONTROL 預計開始日期] 可能會變得與 [!UICONTROL 計劃開始日期].
 
@@ -132,7 +135,7 @@ ht-degree: 0%
 
 此 [!UICONTROL 預計完成日期] 是專案、任務或問題將完成的即時計算量度指標。 將專案、任務或問題標示為「已完成」時， [!UICONTROL 預計完成日期] 對日期所做的變更 [!UICONTROL 實際完成日期].
 
-如果一切順利，並如計畫進行 [!UICONTROL 預計完成日期] 應該符合 [!UICONTROL 計畫完成日期]. 否則，由於前置任務上的延遲， [!UICONTROL 預計完成日期] 可能會與 [!UICONTROL 計畫完成日期].
+如果一切順利，如期進行， [!UICONTROL 預計完成日期] 應該符合 [!UICONTROL 計畫完成日期]. 否則，由於前置任務延遲， [!UICONTROL 預計完成日期] 可能會與 [!UICONTROL 計畫完成日期].
 
 如需詳細資訊，請參閱 [概述 [!UICONTROL 預計完成日期] 針對專案、任務和問題](../../../manage-work/projects/planning-a-project/project-projected-completion-date.md).
 
@@ -146,7 +149,7 @@ ht-degree: 0%
 
 >[!TIP]
 >
->此 [!UICONTROL 小時輸入日期] 不同於 [!UICONTROL 輸入日期] 因為這不是建立時數記錄的日期，而是您希望與時數產生關聯的日期。
+>此 [!UICONTROL 小時輸入日期] 不同於 [!UICONTROL 輸入日期] 因為這不是建立時數記錄的日期，而是您希望與時數相關聯的日期。
 
 您可以在Workfront的下列區域中記錄並檢視時間：
 

@@ -7,9 +7,9 @@ description: 有數種日期型別會顯示任務開始時間和完成時間之�
 author: Alina
 feature: Work Management
 exl-id: 7cc68fc4-5f79-4ce6-a404-737ea8959ec3
-source-git-commit: 8764de907f49260908911ca393c1173b66dbb065
+source-git-commit: 040dd446ff2b347dabf8a139feb17fd1a7d50e4e
 workflow-type: tm+mt
-source-wordcount: '991'
+source-wordcount: '990'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 0%
 
 首次建立任務時，計畫、預計和估計日期通常應該相符。 有些例外情況存在。 
 
-如需Adobe Workfront中專案、任務和問題日期的詳細資訊，請參閱 [Adobe Workfront中的專案、任務和問題日期概觀](../../../workfront-basics/navigate-workfront/workfront-navigation/definitions-pti-dates.md).
+如需Adobe Workfront中專案、任務和問題日期的詳細資訊，請參閱 [Workfront中的專案、任務和問題日期概觀](../../../workfront-basics/navigate-workfront/workfront-navigation/definitions-pti-dates.md).
 
 ## 計畫日期總覽
 
