@@ -4,13 +4,13 @@ product-previous: workfront-proof
 product-area: documents
 navigation-topic: workflow-examples
 title: 內部檢閱，然後再外部檢閱 [!DNL Workfront Proof]
-description: 瞭解如何使用Workfront Proof在組織外部進行評論。
+description: 瞭解如何使用Workfront Proof在組織外部進行檢閱。
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: c54246e9-edb8-4d98-81e1-faf7ee75f81e
-source-git-commit: 692d0e903c1b92ad539eacf6d26e18e81530a8b0
+source-git-commit: 153951e3bba91d67bcfe5fbf22c0970743f0dc6e
 workflow-type: tm+mt
-source-wordcount: '613'
+source-wordcount: '597'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 0%
 
 設計人員會先與專案管理員（以及任何其他同事）共用校訂。 同事會檢閱校訂，如果核准，您可以使用共用功能與客戶共用校訂。 如需詳細資訊，請參閱 [在中共用校訂 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-proof.md).
 
-![internal_external_-_option_A.png](assets/internal-external---option-a-350x86.png)
+![internal_external_-_option_A.png](assets/internal_external_-_option_A.png)
 
 1. **建立新校訂**  — 設計人員在中建立新校樣 [!DNL Workfront Proof] 並共用給內部稽核者。 設計人員會讓專案經理成為校訂的所有者。
 1. **內部檢閱**  — 專案經理和其他同事檢閱證明。
@@ -49,7 +49,7 @@ ht-degree: 0%
 
 此選項會說明一個工作流程，其中校樣程式由專案經理管理，該經理會建立任何新版本（視需要）並與使用者端共用校樣。 設計師不需要參與稽核程式。)
 
-![internal_external_-_option_B.png](assets/internal-external---option-b-350x86.png)
+![internal_external_-_option_B.png](assets/internal_external_-_option_B.png)
 
 1. **建立新校訂**  — 設計人員在中建立新校樣 [!DNL Workfront Proof] 並與內部稽核者共用。 設計師讓專案經理成為校訂的擁有者，或者給予他角色 [!UICONTROL 作者] 在校訂上(請參閱 [管理校訂角色於 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md))。
 
