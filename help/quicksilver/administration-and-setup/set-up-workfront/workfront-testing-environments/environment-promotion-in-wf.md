@@ -12,7 +12,7 @@ hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: 8b4c04f5-f519-44e9-8429-0ce80c2d7c5b
-source-git-commit: b3d356f514675688f8ef77343c53fef8601398ad
+source-git-commit: 087e173d12e57071e77747d2150285bffb1bacae
 workflow-type: tm+mt
 source-wordcount: '995'
 ht-degree: 1%
@@ -58,10 +58,10 @@ ht-degree: 1%
 
 | 可升級的物件 | 包含的可升級連結物件 |
 | --- | --- |
-| 版面配置範本(UITMPL) | 版面配置範本<br>儀表板<br>行事曆*<br>行事曆區段*<br>外部頁面*<br>報告<br>篩選<br>分組<br>檢視<br>引數 |
-| 控制面板(PTLTAB) | 儀表板<br>行事曆*<br>行事曆區段*<br>外部頁面*<br>報告<br>篩選<br>分組<br>檢視<br>引數 |
-| 行事曆* (CALEND) | 行事曆*<br>行事曆區段* |
-| 外部頁面* (EXTSEC) | 外部頁面* |
+| 版面配置範本(UITMPL) | 版面配置範本<br>儀表板<br>行事曆<br>行事曆區段<br>外部頁面<br>報告<br>篩選<br>分組<br>檢視<br>引數 |
+| 控制面板(PTLTAB) | 儀表板<br>行事曆<br>行事曆區段<br>外部頁面<br>報告<br>篩選<br>分組<br>檢視<br>引數 |
+| 行事曆(CALEND) | 行事曆<br>行事曆區段 |
+| 外部頁面(EXTSEC) | 外部頁面 |
 | 報告(PTLSEC) | 報告<br>篩選<br>分組<br>檢視<br>引數 |
 | 篩選器(UIFT) | 篩選<br>引數 |
 | 分組(UIGB) | 分組<br>引數 |
