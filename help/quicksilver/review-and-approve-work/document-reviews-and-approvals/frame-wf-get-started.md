@@ -5,11 +5,9 @@ title: 開始使用Frame.io進行資產檢閱和核准
 description: 進一步瞭解使用Workfront和Frame.io時的正式稽核和核准流程。
 author: Courtney
 feature: Work Management, Digital Content and Documents
-hide: true
-hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: 68b91aad-af76-473f-861d-da846fdfb84c
-source-git-commit: bbd8d500fbca5bb80bfce4a1897ab53110f60e64
+source-git-commit: a1ffd3ff488e06a10c9b418360906146c9cb3c99
 workflow-type: tm+mt
 source-wordcount: '1149'
 ht-degree: 0%
