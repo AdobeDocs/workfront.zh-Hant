@@ -9,9 +9,9 @@ description: 您可以使用Adobe Workfront Fusion Adobe Workfront聯結器在Wo
 author: Becky
 feature: Workfront Fusion, Workfront Integrations and Apps
 exl-id: b84d2d41-a983-4ea3-b331-0302bfcf8a2b
-source-git-commit: ceec745097d14d30a06ec347d836b701766a4f08
+source-git-commit: 5803d21b0f606ad5beb138869a50d355d3273d4a
 workflow-type: tm+mt
-source-wordcount: '6207'
+source-wordcount: '6260'
 ht-degree: 2%
 
 ---
@@ -353,6 +353,14 @@ ht-degree: 2%
   <tr data-mc-conditions=""> 
    <td>[！UICONTROL Options]</td> 
    <td> <p>啟用轉換物件時所需的任何選項。 選項是否可用取決於您轉換至哪個物件或轉換自哪個物件。</p> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td>[！UICONTROL複製原生欄位]</td> 
+   <td> <p>啟用此選項可將任何原生欄位從原始物件複製到新物件。</p> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td>[！UICONTROL複製自訂表單]</td> 
+   <td> <p>啟用此選項可將任何原生欄位從原始物件複製到新物件。</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -1107,7 +1115,7 @@ ht-degree: 2%
    <td> </td> 
   </tr> 
   <tr> 
-   <td>校訂核准</td> 
+   <td>校樣核准</td> 
    <td> </td> 
    <td> </td> 
    <td>✓ (A)</td> 
@@ -1238,6 +1246,16 @@ ht-degree: 2%
    <td>✓ (A)</td> 
   </tr> 
   <tr> 
+   <td>基準線</td> 
+   <td>✓ (A)</td> 
+   <td>✓ (A)</td> 
+   <td>✓ (A)</td> 
+   <td> </td> 
+   <td>✓ (A)</td> 
+   <td> </td> 
+   <td> </td> 
+  </tr> 
+   <tr> 
    <td>付費記錄</td> 
    <td>✓ (A)</td> 
    <td>✓ (A)</td> 
@@ -1298,6 +1316,16 @@ ht-degree: 2%
    <td>✓ (A)</td> 
   </tr> 
   <tr> 
+   <td>匯率</td> 
+   <td>✓ (A)</td> 
+   <td>✓ (A)</td> 
+   <td>✓ (A)</td> 
+   <td> </td> 
+   <td>✓ (A)</td> 
+   <td> </td> 
+   <td> </td> 
+  </tr> 
+  <tr> 
    <td>費用</td> 
    <td>✓ (A)</td> 
    <td>✓ (A)</td> 
@@ -1316,6 +1344,16 @@ ht-degree: 2%
    <td>✓ (A)</td> 
    <td> </td> 
    <td> </td> 
+  </tr> 
+  <tr> 
+   <td>外部檔案</td> 
+   <td> </td> 
+   <td> </td> 
+   <td> </td> 
+   <td> </td> 
+   <td> </td> 
+   <td> </td> 
+   <td>✓ (A)</td> 
   </tr> 
   <tr> 
    <td>群組</td> 
@@ -1522,7 +1560,7 @@ ht-degree: 2%
    <td>✓ (A)</td> 
    <td>✓ (A)</td> 
    <td>✓ (A)</td> 
-   <td>✓ (A)</td> 
+   <td> </td> 
    <td>✓ (A)</td> 
    <td> </td> 
    <td> </td> 

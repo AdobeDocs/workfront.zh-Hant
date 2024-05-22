@@ -9,9 +9,9 @@ author: Luke
 feature: Product Announcements, Workfront Fusion
 recommendations: noDisplay, noCatalog
 exl-id: 17dd5211-4531-47e9-a13a-b3698d8738d1
-source-git-commit: 44ca7103afe0a44012063f14318968183a6442f9
+source-git-commit: e4a265400b2ce4e6338d09477463a6a6c7cded84
 workflow-type: tm+mt
-source-wordcount: '687'
+source-wordcount: '694'
 ht-degree: 0%
 
 ---
@@ -26,6 +26,7 @@ Adobe Workfront Fusion可順暢地連線您的應用程式和Web服務，因此�
 
 ### 2024年5月
 
+* [Workfront Fusion發行活動： 2024年5月20日起一週](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-5-20.md)
 * [Workfront Fusion發行活動： 2024年5月13日起一週](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-5-13.md)
 * [Workfront Fusion發行活動： 2024年5月6日當週](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-5-6.md)
 
