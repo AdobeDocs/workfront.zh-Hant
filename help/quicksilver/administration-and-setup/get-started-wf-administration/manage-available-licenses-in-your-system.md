@@ -8,9 +8,9 @@ author: Lisa, Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: ea580dd0-efb7-4f56-beb3-07ad044efc8a
-source-git-commit: bba5992184c50a159be21d78f1a9c61aa2d861d8
+source-git-commit: 362c538d7680f8d8b85fbd8735e79ec5032d2919
 workflow-type: tm+mt
-source-wordcount: '1069'
+source-wordcount: '1187'
 ht-degree: 0%
 
 ---
@@ -49,6 +49,22 @@ ht-degree: 0%
 
 如需有關此表格的詳細資訊，請參閱 [Workfront檔案中的存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
+>[!NOTE]
+>
+>下列陳述式僅適用於新計畫。
+>
+>對於Select計畫：
+>
+>1. 系統管理員無法設定主群組的限制。
+>2. 系統管理員只能看到所有主群組使用的授權總數。
+>3. 群組管理員完全無法存取授權頁面。
+>
+>對於Prime與Ultimate計畫：
+>
+>1. 系統管理員可以將[主群組]新增到[授權]頁面，以檢視這些群組中的授權使用情況，也可以設定授許可權制。
+>2. 群組管理員可以存取「授權」頁面，並檢視系統管理員已新增至「授權」頁面之他們管理的群組中的授權使用情況。
+>3. 群組管理員無法檢視其他主群組的資訊或新增最大值。
+
 ## 檢視您組織的授權
 
 當您為新增至Workfront的使用者指派存取層級時，會自動更新使用中的授權數量。 如需詳細資訊，請參閱 [新增使用者](../../administration-and-setup/add-users/create-and-manage-users/add-users.md).
@@ -63,7 +79,7 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >校訂授權僅適用於已購買付費的Workfront Proof附加元件以及其Workfront授權的客戶。 如需關於此附加元件的資訊，請參閱 [Workfront Proof：文章索引](../../workfront-proof/workfront-proof.md).
+   >校訂授權僅適用於已購買付費Workfront Proof附加元件以及其Workfront授權的客戶。 如需關於此附加元件的資訊，請參閱 [Workfront Proof：文章索引](../../workfront-proof/workfront-proof.md).
 
 1. （視條件而定）如果您看到訊息 **若要設定上限，您必須新增主群組**，依照一節中的說明在您的系統中新增主群組 [在[授權]頁面新增或移除主群組](#add-or-remove-a-home-group-to-the-licenses-page) 本文章內容。
 
@@ -73,7 +89,7 @@ ht-degree: 0%
 
 ## 檢視Workfront附加元件授權的相關資訊
 
-如果您的組織有付費的Workfront校訂附加元件，則會顯示使用的授權數量和可用的授權數量。 例如， **10個校訂授權中的5個** 表示組織目前正在使用他們購買的10個Workfront校訂授權中的5個。
+如果您的組織有付費的Workfront Proof附加元件，則會顯示已使用的授權數量和可用的授權數量。 例如， **10個校訂授權中的5個** 表示組織目前正在使用所購買10個Workfront Proof授權中的5個。
 
 ![Workfront附加元件的授權](assets/updated-licenses-page.png)
 
