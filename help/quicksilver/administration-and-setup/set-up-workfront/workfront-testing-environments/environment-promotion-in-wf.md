@@ -12,9 +12,9 @@ hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: 8b4c04f5-f519-44e9-8429-0ce80c2d7c5b
-source-git-commit: 087e173d12e57071e77747d2150285bffb1bacae
+source-git-commit: 29e2e89d15804d6d4a5e7b0080ab91b98cf7ea2d
 workflow-type: tm+mt
-source-wordcount: '995'
+source-wordcount: '1005'
 ht-degree: 1%
 
 ---
@@ -38,7 +38,7 @@ ht-degree: 1%
 
 環境推進功能的用意是提供與組態相關的物件從一個環境移動到另一個環境的功能。 這些是可設定的物件，例如專案、團隊或自訂表單。
 
-環境升級不支援移動異動物件的功能（但有少數例外）。 無法設定異動物件。 範例包括系統活動更新和校訂決定。
+由於環境推進會處理物件組態，因此不會包含異動物件（經常變更或高度依賴使用案例的物件）。 異動物件的範例包括檔案、問題、請求、更新和校訂決定。
 
 * [工作物件](#work-objects)
 * [報表物件](#reporting-objects)
