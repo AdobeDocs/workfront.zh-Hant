@@ -9,9 +9,9 @@ description: 在 [!DNL Adobe Workfront Fusion] 情境中，您可以使用自動
 author: Becky
 feature: Workfront Fusion
 exl-id: 9597806b-d4bf-4627-b27d-30e24a1e6776
-source-git-commit: b20f08a3c039ac2f1ece9fc4cef7ad5f58421482
+source-git-commit: 43bd30c2db6219cd4e68380c1d9c0d1421f51592
 workflow-type: tm+mt
-source-wordcount: '2119'
+source-wordcount: '2235'
 ht-degree: 0%
 
 ---
@@ -78,6 +78,13 @@ ht-degree: 0%
 
 ## 建立與的連線 [!DNL Adobe Target]
 
+>[!IMPORTANT]
+>
+>2024年6月3日之後建立的連線需要Adobe Target伺服器對伺服器連線。
+>
+>* 現有的服務帳戶連線將持續運作到2025年1月。 您必須在2024年1月前，將服務帳戶連線取代為Adobe Target伺服器對伺服器連線。
+>* 您必須是組織的開發人員才能建立Adobe Target伺服器對伺服器連線。 開發人員角色是在Adobe Admin Console中設定。
+
 若要為建立連線，請執行下列步驟： [!DNL Adobe Target] 模組：
 
 1. 按一下 **[!UICONTROL 新增]** ，位於「連線」方塊旁。
@@ -94,6 +101,11 @@ ht-degree: 0%
         <td role="rowheader">[！UICONTROL連線名稱]</td>
         <td>
           <p>輸入此連線的名稱。</p>
+        </td>
+      </tr>
+      <tr>
+        <td role="rowheader">[！UICONTROL連線型別]</td>
+        <td>選擇您要建立服務帳戶連線還是Adobe Target伺服器對伺服器連線。<p><b>重要</b>：2024年6月3日之後建立的連線需要Adobe Target伺服器對伺服器連線。 現有的服務帳戶連線將持續運作到2025年1月。 您必須在2024年1月前，將服務帳戶連線取代為Adobe Target伺服器對伺服器連線。
         </td>
       </tr>
       <tr>
