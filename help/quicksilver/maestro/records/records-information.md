@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7f32ebab-b8dd-496d-b510-99055924b0c7
-source-git-commit: 6bea34403e45c2b50986f79272f7a46959d67c6d
+source-git-commit: f042cd0466f65a7b1179026927b167ae6b208c86
 workflow-type: tm+mt
-source-wordcount: '109'
+source-wordcount: '119'
 ht-degree: 1%
 
 ---
@@ -42,3 +42,4 @@ hide: yes
 * [新增縮圖至記錄](/help/quicksilver/maestro/records/add-thumbnails-to-records.md)
 * [新增封面影像至記錄](/help/quicksilver/maestro/records/add-a-cover-image-to-a-record.md)
 * [管理記錄頁面](/help/quicksilver/maestro/records/manage-the-record-page.md)
+* [在Adobe Workfront物件的Planning區段中管理記錄](/help/quicksilver/maestro/records/manage-records-in-planning-section.md)

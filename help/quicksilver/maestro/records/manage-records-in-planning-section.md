@@ -4,18 +4,19 @@ description: 您可以在左側面板的Adobe Workfront物件的Planning區段�
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 4d76ef1b34d484e3da2af94543a5fd660ad0a4ef
+source-git-commit: f042cd0466f65a7b1179026927b167ae6b208c86
 workflow-type: tm+mt
-source-wordcount: '652'
+source-wordcount: '630'
 ht-degree: 1%
 
 ---
 
-<!--add this to the main TOC and the mini TOC-->
 
 <!--update the metadata with real information when making this available in TOC and in the left nav-->
 
 <!--add also Group and Company when they are available-->
+
+<!-- opening the Details preview and page is not possible yet - hid those steps, but add them when released-->
 
 
 # 在Adobe Workfront物件的Planning區段中管理記錄
@@ -101,7 +102,8 @@ ht-degree: 1%
    * [連線記錄型別](/help/quicksilver/maestro/architecture/connect-record-types.md)
    * [連接記錄](/help/quicksilver/maestro/records/connect-records.md)
 * 即使沒有與Workfront物件相關聯的記錄，您仍可以在Workfront物件中檢視Planning區段。
-* 您可以在Planning區段中，將Planning記錄與Workfront的Workfront物件連線。
+* 當至少有一筆記錄連線至Workfront物件時，您可以在Planning區段中，將Planning記錄與Workfront的Workfront物件連線。
+* 您必須對工作區具有Contribute或更高的許可權，才能從Workfront物件連線記錄。
 
 ## 管理Planning區段中的記錄
 
@@ -132,17 +134,15 @@ ht-degree: 1%
 
    ![](assets/planning-section-on-project.png)
 
-1. 按一下記錄卡以顯示有關記錄的更多資訊。 記錄預覽方塊隨即顯示。
-1. （選用）開始修改記錄預覽方塊中的欄位。 您的變更會自動儲存。
-1. （可選）按一下 **在新標籤中開啟** 圖示 ![](assets/open-details-in-a-new-tab-icon.png) 在預覽方塊的右上角，開啟記錄的詳細資訊頁面。
+<!--1. Click a record card to display more information about the record. The record preview box displays.
+1. (Optional) Start modifying fields in the record's preview box. Your changes are saved automatically.
+1. (Optional) Click the **Open in a new tab** icon ![](assets/open-details-in-a-new-tab-icon.png) in the upper-right corner of the preview box to open the record's details page.-->
 1. 暫留在記錄卡上，然後按一下中斷連線記錄圖示 **-**，然後按一下 **中斷連線**.
 會發生下列情況：
    * 記錄不再連線至Workfront物件。
    * Workfront物件也會從Workfront Planning的記錄連線欄位中移除。
-   * 連線至Planning記錄的Workfront欄位值也會一併刪除。
+   * 連線至Planning記錄的Workfront查閱欄位值也會一併刪除。
 1. 按一下 **連線** 以連線更多記錄。
-
-   <!--checking with the team on the below note - not sure if if should stay Manage or Contribute - Lilit said Contribute??-->
 
    >[!NOTE]
    >
@@ -152,7 +152,7 @@ ht-degree: 1%
 
    * 記錄會立即連線至Workfront物件，並顯示在Planning區段中。
    * Workfront物件會新增至Workfront Planning記錄的已連線欄位。
-   * 與Planning記錄連線之Workfront欄位的值會在Workfront Planning中填入。
+   * 與Planning記錄連線之Workfront查詢欄位的值會填入Workfront Planning中。
 
 <!--add more steps here for what happens after clicking Connect-->
 

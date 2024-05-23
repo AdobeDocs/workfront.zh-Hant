@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
-source-git-commit: 9b1b8d8661917946230033b661ca652f5edef734
+source-git-commit: f042cd0466f65a7b1179026927b167ae6b208c86
 workflow-type: tm+mt
-source-wordcount: '2358'
+source-wordcount: '2463'
 ht-degree: 1%
 
 ---
@@ -125,9 +125,7 @@ hide: yes
 >
 >If you don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see [Create or modify custom access levels](../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md). -->
 
-## 連接記錄
-
-### 有關連線記錄的考量事項
+## 有關連線記錄的考量事項
 
 * 在您連線記錄型別之後，連線的記錄型別會在它們所連結的記錄型別表格中，以及在記錄的頁面上，顯示為連結的記錄欄位。
 * 您可以從連結記錄欄位中瀏覽並新增連結記錄的記錄和物件以及物件型別。
@@ -150,6 +148,11 @@ hide: yes
       * [建立記錄](../records/create-records.md)
 
    * 記錄型別之間的連線，或記錄型別與其他應用程式物件之間的連線。 如需詳細資訊，請參閱 [連線記錄型別](../architecture/connect-record-types.md)
+* 您可以在下列區域將物件從Workfront連結至Workfront Planning記錄：
+   * 從Workfront Planning中的Planning記錄。
+   * 從Workfront物件的Planning區段。
+
+## 從Workfront Planning連線記錄
 
 ### 連線Adobe Workfront Planning記錄
 
@@ -379,3 +382,13 @@ hide: yes
    從移除Workfront物件欄位 **選取的欄位** 區域。
 
    這會新增或移除記錄中的連結欄位。 與已移除欄位相關的資訊仍保留在Adobe Experience Assets中。
+
+## 從Workfront物件連線記錄
+
+您必須具備下列專案，才能從Workfront物件連線Workfront Planning記錄：
+
+* 記錄型別與Workfort物件型別之間的連線。
+* 記錄和Workfront物件之間至少有一個連線。
+* 您的Workfront或群組管理員必須將Planning區段新增至可以連線至Planning記錄型別的Workfront物件型別。
+
+如需詳細資訊，請參閱 [在Adobe Workfront物件的Planning區段中管理記錄](/help/quicksilver/maestro/records/manage-records-in-planning-section.md).
