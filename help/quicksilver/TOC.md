@@ -3,9 +3,9 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文件、教學課程和其他資源，了解如何在您的組織中實施並有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: 922e5e1924416955e8b154f226c503526d22129f
+source-git-commit: 7c205d13ec12614ddae19f3a1a286fe88d80ebac
 workflow-type: tm+mt
-source-wordcount: '14263'
+source-wordcount: '14265'
 ht-degree: 1%
 
 ---
@@ -2203,6 +2203,7 @@ ht-degree: 1%
       * [使用AI產生模組](/help/quicksilver/workfront-fusion/scenarios/add-a-module-with-ai.md)
       * Adobe Workfront Fusion案例範本 {#fusion-scenario-templates}
          * [案例範本](workfront-fusion/scenarios/templates/fusion-templates.md)
+         * [[!DNL Fusion] 範本概觀](/help/quicksilver/workfront-fusion/scenarios/templates/fusion-templates-overview.md)
          * [在Adobe Workfront Fusion中建立新範本](workfront-fusion/scenarios/templates/create-new-fusion-templates.md)
          * [發佈和共用Adobe Workfront Fusion範本](workfront-fusion/scenarios/templates/publish-and-share-fusion-templates.md)
          * [使用Adobe Workfront Fusion範本建立案例](workfront-fusion/scenarios/templates/create-scenarios-with-fusion-templates.md)
