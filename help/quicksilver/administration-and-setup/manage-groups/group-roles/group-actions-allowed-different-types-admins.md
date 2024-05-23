@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: f556aa0b-71c5-48a9-8a84-72f1fbb2c86e
-source-git-commit: 362c538d7680f8d8b85fbd8735e79ec5032d2919
+source-git-commit: 9dcd8dbe0474bdbb1fd50bb1f2525e03cd350559
 workflow-type: tm+mt
 source-wordcount: '539'
 ht-degree: 2%
@@ -46,37 +46,37 @@ ht-degree: 2%
   <tr> 
    <td>建立和編輯使用者設定檔</td> 
    <td>✓ (A)</td> 
-   <td> <p>✓ (R)*</p> </td> 
-   <td> <p>✓ (R)*</p> </td> 
+   <td>✓ (R)*</td> 
+   <td>✓ (R)*</td> 
   </tr> 
   <tr> 
-   <td> <p>建立和管理子群組</p> </td> 
+   <td>建立和管理子群組</td>
    <td>✓ (A) </td> 
-   <td> <p>✓ ***</p> </td> 
+   <td>✓ ***</td> 
    <td>✓ ***</td> 
   </tr> 
   <tr> 
-   <td> <p>在系統層級設定專案、任務和問題偏好設定</p> </td> 
+   <td>在系統層級設定專案、任務和問題偏好設定</td> 
    <td>✓ (A)</td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> <p>啟用和停用群組和子群組的專案、任務和問題偏好設定</p> </td> 
+   <td>啟用和停用群組和子群組的專案、任務和問題偏好設定</td> 
    <td>✓ ***</td> 
-   <td> <p>✓ ***</p> </td> 
+   <td>✓ ***</td> 
    <td>✓ ***</td> 
   </tr> 
   <tr> 
-   <td> <p>在系統層級設定時程表和小時偏好設定</p> </td> 
+   <td>在系統層級設定時程表和小時偏好設定</td> 
    <td>✓ (A) </td> 
-   <td> <p> </p> </td> 
+   <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> <p>啟用和停用群組和子群組的時程表和小時偏好設定</p> </td> 
+   <td>啟用和停用群組和子群組的時程表和小時偏好設定 </td> 
    <td>✓ ***</td> 
-   <td> <p>✓ ***</p> </td> 
+   <td>✓ ***</td> 
    <td>✓ ***</td> 
   </tr> 
   <tr> 
@@ -92,63 +92,63 @@ ht-degree: 2%
    <td> </td> 
   </tr> 
   <tr> 
-   <td> <p>建立和管理自訂表單</p> </td> 
+   <td>建立和管理自訂表單</td> 
    <td>✓ (A) </td> 
    <td>✓ **</td> 
    <td>✓ **</td> 
   </tr> 
   <tr> 
-   <td> <p>建立及管理版面範本</p> </td> 
+   <td>建立及管理版面範本</td> 
    <td>✓ (A) </td> 
-   <td> <p>✓ (A)</p> </td> 
+   <td>✓ (A)</td> 
    <td>✓ (A)</td> 
   </tr> 
   <tr> 
-   <td> <p>建立和管理群組的核准流程</p> </td> 
+   <td>建立和管理群組的核准流程</td> 
    <td>✓ *** </td> 
-   <td> <p>✓ ***</p> </td> 
+   <td>✓ ***</td> 
    <td>✓ ***</td> 
   </tr> 
   <tr> 
-   <td> <p>建立及管理團隊</p> </td> 
+   <td>建立及管理團隊</td> 
    <td>✓ (A) </td> 
-   <td> <p>✓ (A)</p> </td> 
+   <td>✓ (A)</td> 
    <td>✓ (A)</td> 
   </tr> 
   <tr> 
-   <td> <p>建立和管理匯率</p> </td> 
+   <td>建立和管理匯率</td> 
    <td>✓ (A) </td> 
    <td>✓ **</td> 
    <td>✓ **</td> 
   </tr> 
   <tr> 
-   <td> <p>建立和管理小時型別</p> </td> 
+   <td>建立和管理小時型別</td> 
    <td>✓ (A) </td> 
    <td>✓ **</td> 
    <td>✓ **</td> 
   </tr> 
   <tr> 
-   <td> <p>建立和管理里程碑路徑</p> </td> 
+   <td>建立和管理里程碑路徑</td> 
    <td>✓ (A) </td> 
    <td>✓ **</td> 
    <td>✓ **</td> 
   </tr> 
   <tr> 
-   <td> <p>建立和管理排程</p> </td> 
+   <td>建立和管理排程</td> 
    <td>✓ (A) </td> 
-   <td> <p>✓ (A)</p> </td> 
+   <td>✓ (A)</td> 
    <td>✓ (A)</td> 
   </tr> 
   <tr> 
-   <td> <p>建立和管理公司</p> </td> 
+   <td>建立和管理公司</td> 
    <td>✓ (A) </td> 
-   <td> <p>✓ (A)</p> </td> 
+   <td>✓ (A)</td> 
    <td>✓ (A)</td> 
   </tr> 
   <tr> 
-   <td> <p>建立和管理週期性時程表</p> </td> 
+   <td>建立和管理週期性時程表</td> 
    <td>✓ (A) </td> 
-   <td> <p>✓ (A)</p> </td> 
+   <td>✓ (A)</td> 
    <td>✓ (A)</td> 
   </tr> 
   <tr> 
@@ -164,13 +164,13 @@ ht-degree: 2%
    <td> </td> 
   </tr> 
   <tr> 
-   <td> <p> 建立並管理優先順序、嚴重性和條件</p> </td> 
+   <td>建立並管理優先順序、嚴重性和條件</td> 
    <td>✓ (A)</td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> <p>建立及管理風險型別</p> </td> 
+   <td>建立及管理風險型別</td> 
    <td>✓ (A) </td> 
    <td> </td> 
    <td> </td> 
