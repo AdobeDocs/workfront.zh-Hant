@@ -4,9 +4,9 @@ description: 您可以在左側面板的Adobe Workfront物件的Planning區段�
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: f042cd0466f65a7b1179026927b167ae6b208c86
+source-git-commit: c2659e0b3f571053c1c014703103bfcc7935ff3c
 workflow-type: tm+mt
-source-wordcount: '630'
+source-wordcount: '683'
 ht-degree: 1%
 
 ---
@@ -134,9 +134,9 @@ ht-degree: 1%
 
    ![](assets/planning-section-on-project.png)
 
-<!--1. Click a record card to display more information about the record. The record preview box displays.
-1. (Optional) Start modifying fields in the record's preview box. Your changes are saved automatically.
-1. (Optional) Click the **Open in a new tab** icon ![](assets/open-details-in-a-new-tab-icon.png) in the upper-right corner of the preview box to open the record's details page.-->
+1. 按一下記錄卡以顯示有關記錄的更多資訊。 記錄預覽方塊隨即顯示。
+1. （選用）開始修改記錄預覽方塊中的欄位。 您的變更會自動儲存。
+1. （可選）按一下 **在新標籤中開啟** 圖示 ![](assets/open-details-in-a-new-tab-icon.png) 在預覽方塊的右上角，開啟記錄的詳細資訊頁面。
 1. 暫留在記錄卡上，然後按一下中斷連線記錄圖示 **-**，然後按一下 **中斷連線**.
 會發生下列情況：
    * 記錄不再連線至Workfront物件。
