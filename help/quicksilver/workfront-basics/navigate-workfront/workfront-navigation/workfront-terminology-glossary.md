@@ -6,7 +6,7 @@ description: 此 [!DNL Adobe Workfront] 字彙表列出以下專案中的常用�
 author: Alina
 feature: Get Started with Workfront
 exl-id: 758072b3-775e-4771-9ae9-da0b38580c93
-source-git-commit: b57f5038746094dde4b98bd28361e730c28ba412
+source-git-commit: 6371f6d19bfbad31c4564f9726f52e3ce394e516
 workflow-type: tm+mt
 source-wordcount: '20060'
 ht-degree: 0%
@@ -96,7 +96,7 @@ ht-degree: 0%
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[！UICONTROL敏捷團隊]</td> 
-   <td>與傳統團隊不同，因為他們從待處理專案取得潛在工作，並在稱為[！UICONTROL反複專案]的設定期間內處理。</td> 
+   <td>與傳統團隊不同，因為新團隊從待處理專案取得潛在工作，並在稱為[！UICONTROL反複專案]的設定時間內處理。</td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[！UICONTROL All My Teams]</td> 

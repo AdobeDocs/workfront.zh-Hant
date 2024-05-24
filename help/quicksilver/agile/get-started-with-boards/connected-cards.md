@@ -6,9 +6,9 @@ description: 您可以在展示板上新增卡片，該卡片會連線至Workfro
 author: Lisa
 feature: Agile
 exl-id: c6d979dd-e4a4-48a5-a91b-b31d7ef848d1
-source-git-commit: 246750d2a7a053d74df2ceb150f14fdb50f32ade
+source-git-commit: 6371f6d19bfbad31c4564f9726f52e3ce394e516
 workflow-type: tm+mt
-source-wordcount: '1447'
+source-wordcount: '1507'
 ht-degree: 0%
 
 ---
@@ -41,11 +41,11 @@ ht-degree: 0%
 <table style="table-layout:auto"> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] 計劃</strong></td> 
+   <td role="rowheader">[!DNL Adobe Workfront] 計劃</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] 授權</strong></td> 
+   <td role="rowheader">[!DNL Adobe Workfront] 授權</td> 
    <td>
    <p>新增：投稿人或更高版本</p>
    <p>或</p>
@@ -53,12 +53,13 @@ ht-degree: 0%
  </td> 
   </tr> 
   <tr>
-   <td role="rowheader"><strong>存取層級設定</strong></td>
+   <td role="rowheader">存取層級設定</td>
    <td><p>檢視或更高的任務和問題存取權</p></td>
   </tr>
   <tr>
-   <td role="rowheader"><strong>物件許可權</strong></td>
-   <td><p>檢視Workfront任務或問題的或更高許可權</p></td>
+   <td role="rowheader">物件許可權</td>
+   <td><p>檢視Workfront任務或問題的或更高許可權</p>
+   <p><strong>注意：</strong> 擁有任務或問題檢視許可權的使用者無法在與其連線的卡片上進行任何操作，包括將卡片移動到展示板上的另一欄。 檢視使用者只能開啟卡片以檢視其屬性，並開啟連線的工作或問題。 若要請求其他存取權，請開啟任務或問題並在那裡請求存取權。</td>
   </tr>
  </tbody> 
 </table>
