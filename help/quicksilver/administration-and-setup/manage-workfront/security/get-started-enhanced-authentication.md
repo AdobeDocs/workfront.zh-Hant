@@ -6,10 +6,10 @@ hide: true
 feature: System Setup and Administration
 role: Admin
 exl-id: bf3c6c6f-ddd5-42d0-9efe-b5eb94549f85
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+source-git-commit: bf8e6c2b8a45cf65840a2ac8b3c25d11266d49f9
 workflow-type: tm+mt
-source-wordcount: '580'
-ht-degree: 3%
+source-wordcount: '537'
+ht-degree: 0%
 
 ---
 
@@ -22,16 +22,6 @@ ht-degree: 3%
 Adobe Workfront正在變更使用者和密碼的系統管理。 這些變更將會在名為的分階段發行中推出 **增強型驗證** 體驗。 增強型驗證可在所有Workfront產品和服務中，為使用者提供更一致且安全的登入體驗。
 
 下表提供有關目前和未來功能的詳細資訊：
-
->[!IMPORTANT]
->
->大部分客戶目前正在使用舊版驗證，有些客戶則使用增強型驗證1.0。
-> 
->若要確認您目前使用的驗證型別，請前往 *your_domain*.my.workfront.com/login. 如果您被重新導向到/auth/login，則表示您使用的是增強型驗證1.0。
-> 
->如果您被重新導向至https://login-a-xx.workfront.com/，其中&#39;xx&#39;可能為美國（美國）、歐洲（歐洲）或GCP (Google Cloud Platform)，視您的位置/平台而定，則表示您使用增強式驗證2.0。
->
->所有客戶將於2021年底改用增強式驗證2.0。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -59,15 +49,15 @@ Adobe Workfront正在變更使用者和密碼的系統管理。 這些變更將�
   </tr> 
   <tr> 
    <td> <p>允許在Workfront執行個體中使用相同的電子郵件地址</p> </td> 
-   <td> <p>✓</p> <p>自2019.3版起提供</p> </td> 
-   <td> <p>✓</p> <p>自2019.3版起提供</p> </td> 
-   <td> <p>✓</p> <p>自2019.3版起提供</p> </td> 
+   <td> <p>✓ (A)</p> <p>自2019.3版起提供</p> </td> 
+   <td> <p>✓ (A)</p> <p>自2019.3版起提供</p> </td> 
+   <td> <p>✓ (A)</p> <p>自2019.3版起提供</p> </td> 
   </tr> 
   <tr> 
    <td> <p>電子郵件地址區分大小寫</p> </td> 
-   <td> <p>✓</p> <p>自2019.3版起提供</p> </td> 
-   <td> <p>✓</p> <p>如果地址僅依大小寫不同，則多位使用者不能擁有相同的電子郵件地址。 </p> </td> 
-   <td> <p>✓</p> <p>如果地址僅依大小寫不同，則多位使用者不能擁有相同的電子郵件地址。 </p> <p>Workfront管理員將會在2019年底收到通知，開始修正重複的電子郵件地址。</p> </td> 
+   <td> <p>✓ (A)</p> <p>自2019.3版起提供</p> </td> 
+   <td> <p>✓ (A)</p> <p>如果地址僅依大小寫不同，則多位使用者不能擁有相同的電子郵件地址。 </p> </td> 
+   <td> <p>✓ (A)</p> <p>如果地址僅依大小寫不同，則多位使用者不能擁有相同的電子郵件地址。 </p> <p>Workfront管理員將會在2019年底收到通知，開始修正重複的電子郵件地址。</p> </td> 
   </tr> 
   <tr> 
    <td colspan="3"> <p><strong>密碼管理選項</strong> </p> </td> 
@@ -76,12 +66,12 @@ Adobe Workfront正在變更使用者和密碼的系統管理。 這些變更將�
   <tr> 
    <td> <p>為身為Workfront管理員的使用者啟動密碼重設電子郵件</p> </td> 
    <td> <p>不可用 </p> </td> 
-   <td> <p>✓</p> </td> 
-   <td> <p>✓</p> </td> 
+   <td> <p>✓ (A)</p> </td> 
+   <td> <p>✓ (A)</p> </td> 
   </tr> 
   <tr> 
    <td> <p>為身為Workfront管理員的使用者設定暫時密碼</p> </td> 
-   <td> <p>✓</p> </td> 
+   <td> <p>✓ (A)</p> </td> 
    <td> <p>未計畫</p> <p>此功能不是安全性最佳實務</p> </td> 
    <td> <p>未計畫</p> <p>此功能不是安全性最佳實務</p> </td> 
   </tr> 
@@ -91,34 +81,34 @@ Adobe Workfront正在變更使用者和密碼的系統管理。 這些變更將�
   </tr> 
   <tr> 
    <td> <p>要求使用者在特定時間範圍後重設密碼</p> </td> 
-   <td>✓</td> 
+   <td>✓ (A)</td> 
    <td> <p>未計畫</p> </td> 
-   <td> <p>✓</p> </td> 
+   <td> <p>✓ (A)</p> </td> 
   </tr> 
   <tr> 
    <td> <p>限制使用者使用先前的密碼 </p> </td> 
-   <td>✓</td> 
+   <td>✓ (A)</td> 
    <td>未計畫 </td> 
-   <td> <p>✓</p> </td> 
+   <td> <p>✓ (A)</p> </td> 
   </tr> 
   <tr> 
    <td> <p>防止錯誤密碼輸入嘗試 </p> </td> 
-   <td> <p>✓ </p> <p>在5次密碼輸入嘗試不正確後鎖定帳戶。 Workfront管理員設定鎖定後所需的等待時間</p> </td> 
-   <td> <p>✓</p> <p>根據業界最佳實務，在每次出現連續錯誤密碼後，等待時間都會以指數方式增加；Workfront管理員無法設定所需的時間</p> </td> 
-   <td> <p>✓</p> <p>使用鎖定演演算法，主動封鎖各種可疑行為。</p> </td> 
+   <td> <p>✓ (A) </p> <p>在5次密碼輸入嘗試不正確後鎖定帳戶。 Workfront管理員設定鎖定後所需的等待時間</p> </td> 
+   <td> <p>✓ (A)</p> <p>根據業界最佳實務，在每次出現連續錯誤密碼後，等待時間都會以指數方式增加；Workfront管理員無法設定所需的時間</p> </td> 
+   <td> <p>✓ (A)</p> <p>使用鎖定演演算法，主動封鎖各種可疑行為。</p> </td> 
   </tr> 
   <tr> 
    <td> <p>需要混合小寫、大寫、數字和特殊字元</p> </td> 
-   <td>✓</td> 
-   <td> <p>✓ </p> <p>更靈活地選擇特定需求</p> </td> 
-   <td> <p>✓</p> <p> 
+   <td>✓ (A)</td> 
+   <td> <p>✓ (A) </p> <p>更靈活地選擇特定需求</p> </td> 
+   <td> <p>✓ (A)</p> <p> 
      </p> </td> 
   </tr> 
   <tr> 
    <td> <p>設定密碼長度下限 </p> </td> 
    <td> 不可用 </td> 
-   <td> ✓ </td> 
-   <td> <p>✓</p> </td> 
+   <td> ✓ (A) </td> 
+   <td> <p>✓ (A)</p> </td> 
   </tr> 
   <!--
    <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
@@ -134,33 +124,33 @@ Adobe Workfront正在變更使用者和密碼的系統管理。 這些變更將�
   </tr> 
   <tr> 
    <td> <p>支援與Active Directory和LDAP通訊協定相容的SSO整合</p> </td> 
-   <td> ✓ </td> 
+   <td> ✓ (A) </td> 
    <td> <p> 已棄用</p> <p>Active Directory、Azure和LDAP系統應該使用SAML 2.0</p> </td> 
    <td> <p>已棄用</p> <p>Active Directory、Azure和LDAP系統可設定為加密的SAML 2.0或OpenID Connect。</p> </td> 
   </tr> 
   <tr> 
    <td> <p>支援符合SAML 2.0的SSO通訊協定 </p> </td> 
-   <td>✓</td> 
-   <td> ✓ </td> 
-   <td> <p>✓</p> </td> 
+   <td>✓ (A)</td> 
+   <td> ✓ (A) </td> 
+   <td> <p>✓ (A)</p> </td> 
   </tr> 
   <tr> 
    <td> <p>支援Open ID連線通訊協定</p> </td> 
    <td> <p>不可用</p> </td> 
    <td> <p>不可用</p> </td> 
-   <td> <p>✓</p> </td> 
+   <td> <p>✓ (A)</p> </td> 
   </tr> 
   <tr> 
    <td> <p> 設定Workfront登入頁面，一律重新導向至身分提供者登入頁面 </p> </td> 
    <td> 預設為啟用，無法停用</td> 
-   <td> <p>✓</p> <p>Workfront管理員可以設定登入頁面，以重新導向至身份提供者登入頁面，也可以設定登入按鈕。</p> </td> 
-   <td> <p>✓</p> <p> Workfront管理員可以設定登入頁面，以重新導向至身份提供者登入頁面，也可以設定登入按鈕。</p> </td> 
+   <td> <p>✓ (A)</p> <p>Workfront管理員可以設定登入頁面，以重新導向至身份提供者登入頁面，也可以設定登入按鈕。</p> </td> 
+   <td> <p>✓ (A)</p> <p> Workfront管理員可以設定登入頁面，以重新導向至身份提供者登入頁面，也可以設定登入按鈕。</p> </td> 
   </tr> 
   <tr> 
    <td> <p>允許每個執行個體啟用多個SSO提供者</p> </td> 
    <td> <p>不適用</p> </td> 
    <td> <p>未計畫</p> </td> 
-   <td> <p>✓</p> </td> 
+   <td> <p>✓ (A)</p> </td> 
   </tr> 
   <tr> 
    <td colspan="3"> <p><strong>環境支援</strong> </p> </td> 
@@ -170,13 +160,13 @@ Adobe Workfront正在變更使用者和密碼的系統管理。 這些變更將�
    <td> <p>預覽環境的單一使用者名稱和密碼</p> </td> 
    <td> <p>不可用</p> </td> 
    <td> <p>不可用</p> </td> 
-   <td> <p>✓</p> </td> 
+   <td> <p>✓ (A)</p> </td> 
   </tr> 
   <tr> 
    <td> <p>沙箱環境的單一使用者名稱和密碼</p> </td> 
    <td> <p>不可用</p> </td> 
    <td> <p>不可用</p> </td> 
-   <td> <p>✓</p> </td> 
+   <td> <p>✓ (A)</p> </td> 
   </tr> 
   <!--
    <tr> 
