@@ -7,9 +7,9 @@ author: Nolan
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: 5fbcd807-e152-4e93-a895-2028ed089f72
-source-git-commit: 535e9c8481ce0781ee0d35636bb6d56de4d1e102
+source-git-commit: eed1f0e5b8dfaebbfc312ba5a592a49487838b39
 workflow-type: tm+mt
-source-wordcount: '394'
+source-wordcount: '426'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 0%
 
 **測試版排程：**
 
-* 封閉式測試版開始日期 — 2024年5月2日
+* 封閉式測試版開始日期 — TBA
 * 開啟測試版開始日期 — TBA
 * 預計發行日期 — TBA
 
@@ -36,6 +36,10 @@ ht-degree: 0%
 1. 按一下 **[!UICONTROL 主要功能表]** 圖示 ![主要功能表](/help/_includes/assets/main-menu-icon.png) 在Adobe Workfront的右上角，或（如果有的話）按一下 **[!UICONTROL 主要功能表]** 圖示 ![主要功能表](/help/_includes/assets/main-menu-icon-left-nav.png) 然後按一下「 」 **儀表板**.
 
 1. 按一下 **加入Canvas儀表板Beta版** 頁面右上角的beta按鈕。
+
+   >[!NOTE]
+   >
+   >您的組織已接受封閉式測試版後，才能使用此按鈕。 當開放Beta版開始時，所有組織都可使用此功能。
 
 1. 閱讀條款，然後按一下 **Accept**. 您現在已註冊Beta版；但請注意，您的Workfront資料需要幾分鐘才能在Canvas儀表板中完全存取。
 
@@ -63,12 +67,13 @@ ht-degree: 0%
 
 ### 開發中的功能
 
-* 矩陣表格報告
+* 篩選的日期和使用者型萬用字元
+* Workfront規劃報表
+* 其他Workfront物件型別
+* 面板報表
+* 其他可用性增強功能
 * 工作表
 * 內嵌式網頁內容
-* 面板報表
-* 控制面板篩選器
-* 篩選的日期和使用者型萬用字元
 
 ### 未來的藍圖功能
 
