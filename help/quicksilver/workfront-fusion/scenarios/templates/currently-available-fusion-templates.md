@@ -7,9 +7,9 @@ description: Adobe Workfront Fusion目前提供下列公用範本。
 author: Becky
 feature: Workfront Fusion
 exl-id: 29d95b93-ab54-416d-b0d5-ff12634951b2
-source-git-commit: 2b2424a26ba903cda8f03c468da733732bf6d434
+source-git-commit: e569469c2b5e0ba40569ef86043294acae7a6aa8
 workflow-type: tm+mt
-source-wordcount: '1162'
+source-wordcount: '1186'
 ht-degree: 0%
 
 ---
@@ -25,6 +25,10 @@ Adobe Workfront Fusion目前提供下列公用範本。
 ## Workfront範本
 
 這些範本會自動化Workfront流程和工作流程。
+
+### [!BADGE 最新！]{type=Informative}
+
+此Fusion範本會針對在計時基礎上輸入特定欄位的所有卡片建立標準檢查清單。
 
 ### Workfront — 從CSV建立專案
 
@@ -86,15 +90,15 @@ Adobe Workfront Fusion目前提供下列公用範本。
 
 每月使用您自己的原則來檢閱一次專案範本，這個容易管理的範本會通知違反您原則之範本上的適當使用者。
 
-## Workfront - Workfront校訂範本
+## Workfront - Workfront Proof範本
 
-這些範本將結合Workfront與Workfront Proof的工作流程自動化。
+這些範本可自動化結合Workfront與Workfront Proof的工作流程。
 
-### Workfront校訂> Workfront — 校訂決定上的專案更新
+### Workfront Proof > Workfront — 校訂決定時的專案更新
 
 當對直接新增到專案的校訂做出決定時，此自動化會收集關於校訂決定的資訊（例如誰做出了決定），然後將這個進度反映在對應Workfront專案作為更新。
 
-### Workfront校訂> Workfront — 任務更新和完成（如果核准）校訂決定
+### Workfront Proof > Workfront — 在校訂決定上任務更新和完成（如果核准）
 
 當個別校訂繫結至個別任務時，此情境會在對校訂做出核准決定時關閉相關任務。 如果核准，它將會完成任務並更新專案。
 
