@@ -12,9 +12,9 @@ hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: dd3c29df-4583-463a-b27a-bbfc4dda8184
-source-git-commit: 8d0cfe9bdf32b3be8f44fde0c921abdd1ba9920b
+source-git-commit: 96ff148ff9a05242d9ce900047d5e7d1de3f0388
 workflow-type: tm+mt
-source-wordcount: '1894'
+source-wordcount: '1829'
 ht-degree: 2%
 
 ---
@@ -28,32 +28,8 @@ ht-degree: 2%
 * [建立或編輯環境升級套件](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-create-package.md)
 * [安裝環境升級套件](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-install-package.md)
 
-## 存取需求
 
-您必須具備下列條件：
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">[!DNL Workfront] 計劃</td> 
-   <td> <p>Enterprise、Prime或Ultimate</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"> <p role="rowheader">[!DNL Workfront] 授權</p> </td> 
-   <td> <p>[！UICONTROL計畫] </p> <p>您必須是 [!DNL Workfront] 管理員。 有關的資訊 [!DNL Workfront] 管理員，請參閱 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">授予使用者完整管理存取權</a>.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"> <p role="rowheader">物件許可權</p> </td> 
-   <td> <p>全部</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">支援套件</td> 
-   <td> <p>[！UICONTROL Plus]、[！UICONTROL Preferred]或[！UICONTROL Enterprise]</p> <p>標準支援套件無法存取「自訂重新整理沙箱」，但可存取「預覽沙箱」。</p> </td> 
-  </tr> 
- </tbody> 
-</table>
+<!-- add access req for GA-->
 
 ## 先決條件
 
