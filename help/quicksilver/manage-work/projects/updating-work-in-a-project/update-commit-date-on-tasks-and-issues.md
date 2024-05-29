@@ -6,15 +6,17 @@ description: 您可以手動更新指派給您的任務或問題的認可日期�
 author: Alina
 feature: Work Management
 exl-id: 003c52c7-baf3-4316-bb4b-83b600172d48
-source-git-commit: 18dfb67626982d73ad33871b8afce4a3f0d4cdb3
+source-git-commit: 44073ea242803e28ca00c82811ae2865747d11c3
 workflow-type: tm+mt
-source-wordcount: '409'
+source-wordcount: '442'
 ht-degree: 0%
 
 ---
 
 
 # 更新任務和問題的認可日期
+
+{{highlighted-preview}}
 
 您可以手動更新指派給您的任務或問題的認可日期。 如需Adobe Workfront中認可日期的詳細資訊，請參閱 [認可日期總覽](../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md).
 
@@ -29,7 +31,7 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront計畫*</td> 
+   <td role="rowheader">Adobe Workfront計畫</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
@@ -63,9 +65,18 @@ ht-degree: 0%
 
 ## 先決條件
 
-開始之前，您必須被指派給需要更新認可日期的任務或問題。
+您必須被指派給需要更新其認可日期的任務或問題，才能編輯任務或問題的認可日期。
 
 ## 更新任務和問題的認可日期
+
+
+您可以在Workfront的下列區域中更新任務或問題的認可日期：
+
+* 任務或問題的詳細資訊區段
+<!--
+* <span class="preview">The task or issue header
+   Your Workfront or group administrator must add the Commit Date to the task or issue header of your layout template to view it from the task or issue page. </span>
+   For information, see [Customize object headers using a layout template](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md). -->
 
 更新認可日期對於任務和問題而言是相同的。
 
@@ -82,6 +93,10 @@ ht-degree: 0%
 1. 前往指派給您的任務或問題 **所有者**.
 
    如需尋找問題或任務之任務負責人的詳細資訊，請參閱區段 [編輯任務](../../../manage-work/tasks/manage-tasks/edit-tasks.md#assignments) 在文章中 [編輯任務](../../../manage-work/tasks/manage-tasks/edit-tasks.md).
+
+<!--1. <span class="preview">(Conditional and optional) If your Workfront or group administrator added the Commit Date to your task or issue header, click the **Commit Date** field in the header, then select a date from the calendar. If the Commit Date is not in the header, proceed with the following steps. </span>
+
+   <span class="preview">![](assets/commit-date-task-header.png)</span>-->
 
 1. 按一下 **任務詳細資訊** 或 **問題詳細資訊** 在左側面板中。
 1. 按一下 **概觀** 以展開它。

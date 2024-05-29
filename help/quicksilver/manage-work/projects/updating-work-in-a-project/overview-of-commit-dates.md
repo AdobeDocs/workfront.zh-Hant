@@ -7,14 +7,16 @@ description: 認可日期是指指派給任務或問題的使用者認可完成�
 author: Alina
 feature: Work Management
 exl-id: 47072433-bb8e-4210-947a-8bfa41ec47a9
-source-git-commit: 4c17466705873b06e7ea7bb08bb78a7e68078f8b
+source-git-commit: 44073ea242803e28ca00c82811ae2865747d11c3
 workflow-type: tm+mt
-source-wordcount: '815'
+source-wordcount: '868'
 ht-degree: 0%
 
 ---
 
 # 認可日期總覽
+
+<!--{{highlighted-preview}}-->
 
 認可日期是指指派給任務或問題的使用者認可完成任務或問題的日期。
 
@@ -47,6 +49,15 @@ ht-degree: 0%
 >* 擁有任務許可權的任何其他使用者。
 >
 >如需有關工作擁有者的詳細資訊，請參閱 [編輯任務](../../../manage-work/tasks/manage-tasks/edit-tasks.md).
+
+## 找出任務和問題的認可日期
+
+您可以在Workfront的下列區域中找到任務和問題的認可日期：
+
+* 詳細資訊頁面
+* 在Workfront或群組管理員將其新增到您的版面配置範本後，顯示「摘要」面板。 如需詳細資訊，請參閱 [使用版面配置範本自訂首頁和摘要](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md).
+<!--
+* <span class="preview">The header of a task or issue, after a Workfront or group administrator adds it to your layout template. For information, see [Customize object headers using a layout template](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md). </span> -->
 
 ## 變更認可日期所觸發的通知和更新 {#notifications-and-updates-triggered-by-changing-the-commit-date}
 

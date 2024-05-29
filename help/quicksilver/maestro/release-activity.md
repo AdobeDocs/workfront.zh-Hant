@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: c2659e0b3f571053c1c014703103bfcc7935ff3c
+source-git-commit: 44073ea242803e28ca00c82811ae2865747d11c3
 workflow-type: tm+mt
-source-wordcount: '6471'
+source-wordcount: '6571'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 # Adobe Workfront Planning發行活動
 
-<!--this article is linked to the WF Planning landing page - do not change URL or move it-->
+<!--this article is linked to the WF Planning landing page - do not change URL or move it; send the team a new URL after we add the redirects for this page-->
 
 {{maestro-important-intro}}
 
@@ -49,7 +49,45 @@ If your organization is not in the Adobe Unified Experience, you receive an emai
 
 For more information, see [Adobe Workfront Planning notifications: Article index](/help/quicksilver/maestro/notifications/notifications-information.md). 
 
+### New process for deleting a workspace 
+
+Production: May 30, 2024 
+
+Preview: To be determined 
+
+Because the impact for deleting a workspace can be significant, we are adding an extra step in confirming the deletion. Users are required to type "delete" before they can complete the deletion of a workspace. For more information, see [Delete workspaces](/help/quicksilver/maestro/architecture/delete-workspaces.md).  
+
+### Share views with all members of a workspace by default
+
+Production: <date> 
+
+Preview: To be determined 
+
+We have now introduced an option where you can quickly give View permissions to a view to all members of a workspace. Prior to this enhancement, only users you specifically shared a view with could access the view. This option is not enabled by default.  
+
+For information, see [Share views](/help/quicksilver/maestro/access/share-views.md).  
+
 -->
+
+## 2024年5月27日起一週
+
+### 介紹查閱欄位的UNIQUE彙總運運算元
+
+生產： 2024年5月27日
+
+預覽：待定
+
+我們在彙總查閱欄位值時新增了UNIQUE運運算元。
+
+UNIQUE運運算元會從查閱欄位值中移除重複專案，並只顯示唯一值。 例如，如果您新增多個連線的記錄，而查閱欄位的值在多個記錄之間相同，Workfront只會在原始記錄的查閱欄位中顯示其中一個值。
+
+UNIQUE運運算元適用於下列欄位型別以外的所有欄位型別：
+
+* 段落
+* 人員
+* 核取方塊欄位
+
+如需詳細資訊，請參閱 [連線記錄型別](/help/quicksilver/maestro/architecture/connect-record-types.md).
 
 ## 2024年5月20日起一週
 

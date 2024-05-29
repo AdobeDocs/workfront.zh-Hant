@@ -6,7 +6,7 @@ hide: true
 recommendations: noDisplay, noCatalog
 el-id: 698036a6-b3b4-44a9-91ee-63fdb6a646a1
 exl-id: 698036a6-b3b4-44a9-91ee-63fdb6a646a1
-source-git-commit: ace194b584601f9edd7862dbd74f639538891370
+source-git-commit: 44073ea242803e28ca00c82811ae2865747d11c3
 workflow-type: tm+mt
 source-wordcount: '623'
 ht-degree: 7%
@@ -75,6 +75,9 @@ ht-degree: 7%
 * 記錄類型
 * 記錄
 * 欄位
+<!--* Views*
+    
+    *You can allow all users with View or higher permissions to a workspace to also access a view. This is an additional permission that you must enable when sharing a view. For information, see [Share views](/help/quicksilver/maestro/access/share-views.md). -->
 
 以下是工作區的許可權層級：
 
@@ -151,6 +154,18 @@ ht-degree: 7%
 | 共用 | ✓ (A) |       |
 | 檢視 | ✓ (A) | ✓ (A) |
 | 套用 | ✓ (A) | ✓ (A) |
+
+<!--Replace the above with this when global sharing is released: 
+
+|        | Manage | View  |View permissions to a workspace*|
+|--------|--------|-------|------------------------------|
+| Edit   | ✓      |       |                            |
+| Delete | ✓      |       |                            |
+| Share  | ✓       |       |                           |
+| View   | ✓      | ✓     | ✓                         |
+| Apply  | ✓      | ✓     | ✓                          |
+
+*Users must have View or higher permissions on a workspace to gain this view access.-->
 
 <!--Replace the table above with the following when public sharing releases: 
 
