@@ -3,9 +3,9 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文件、教學課程和其他資源，了解如何在您的組織中實施並有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: 3d9f6da7f4790015d4423bd8c83d751ec44249be
+source-git-commit: 6f97b6c5853bd5403c27276fbdab80ae51543bf2
 workflow-type: tm+mt
-source-wordcount: '14275'
+source-wordcount: '14300'
 ht-degree: 1%
 
 ---
@@ -897,6 +897,12 @@ ht-degree: 1%
          * [使用首頁行事曆檢視](workfront-basics/using-home/using-the-home-area/use-home-calendar-view.md)
          * [檢視首頁行事曆](workfront-basics/using-home/using-the-home-area/view-home-calendar.md)
          * [使用我的更新區域](workfront-basics/using-home/using-the-home-area/my-updates-area.md)
+   * AI助理 {#ai-assistant}
+      * [AI 助理](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant.md)
+      * [使用AI助理摘要](/help/quicksilver/workfront-basics/ai-assistant/summarize-this.md)
+      * [取得AI助理的協助](/help/quicksilver/workfront-basics/ai-assistant/use-ai-to-retrieve-instructions.md)
+      * [使用AI助理修訂計算欄位公式](/help/quicksilver/workfront-basics/ai-assistant/use-ai-assistant-to-check-formulas.md)
+      * [啟用或停用AI助理](/help/quicksilver/workfront-basics/ai-assistant/enable-or-disable-assistant.md)
    * 更新工作專案並檢視更新 {#update-work-items-view-updates}
       * [更新工作專案和檢視更新：文章索引](workfront-basics/updating-work-items-and-viewing-updates/update-work-items-and-view-updates.md)
       * [更新區段概觀](workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md)
