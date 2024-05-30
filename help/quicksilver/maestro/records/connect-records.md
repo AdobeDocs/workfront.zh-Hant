@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
-source-git-commit: f042cd0466f65a7b1179026927b167ae6b208c86
+source-git-commit: 49335ec86057e4985477034558a271bf4efcab5e
 workflow-type: tm+mt
 source-wordcount: '2463'
 ht-degree: 1%
@@ -28,7 +28,7 @@ hide: yes
 
 # 連接記錄
 
-{{maestro-important-intro}}
+{{planning-important-intro}}
 
 您可以將Adobe Workfront Planning記錄彼此連線，或從其他應用程式連線至物件。
 

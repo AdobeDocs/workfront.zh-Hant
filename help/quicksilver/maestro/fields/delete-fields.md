@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: ec48db42-2395-4439-97ae-e4f5242170b7
-source-git-commit: e54142e189cd4f407161401203a7f13c752ad404
+source-git-commit: 49335ec86057e4985477034558a271bf4efcab5e
 workflow-type: tm+mt
 source-wordcount: '332'
 ht-degree: 0%
@@ -27,7 +27,7 @@ recommendations: noDisplay, noCatalog
 
 # 刪除欄位
 
-{{maestro-important-intro}}
+{{planning-important-intro}}
 
 在Adobe Workfront Planning中，您可以建立自訂欄位來儲存有關記錄的資訊。
 

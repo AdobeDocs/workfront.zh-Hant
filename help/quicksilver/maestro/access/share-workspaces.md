@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 475a519d-d3bd-4461-8099-0e296d556d34
-source-git-commit: e54142e189cd4f407161401203a7f13c752ad404
+source-git-commit: 49335ec86057e4985477034558a271bf4efcab5e
 workflow-type: tm+mt
 source-wordcount: '414'
 ht-degree: 2%
@@ -17,7 +17,7 @@ ht-degree: 2%
 
 # 共用工作區
 
-{{maestro-important-intro}}
+{{planning-important-intro}}
 
 您可以與其他人共用工作區，以確保在Adobe Workfront Planning中工作時，進行共同作業。
 

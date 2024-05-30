@@ -6,9 +6,9 @@ description: 您可以手動更新指派給您的任務或問題的認可日期�
 author: Alina
 feature: Work Management
 exl-id: 003c52c7-baf3-4316-bb4b-83b600172d48
-source-git-commit: 44073ea242803e28ca00c82811ae2865747d11c3
+source-git-commit: 49335ec86057e4985477034558a271bf4efcab5e
 workflow-type: tm+mt
-source-wordcount: '442'
+source-wordcount: '574'
 ht-degree: 0%
 
 ---
@@ -73,10 +73,10 @@ ht-degree: 0%
 您可以在Workfront的下列區域中更新任務或問題的認可日期：
 
 * 任務或問題的詳細資訊區段
-<!--
-* <span class="preview">The task or issue header
-   Your Workfront or group administrator must add the Commit Date to the task or issue header of your layout template to view it from the task or issue page. </span>
-   For information, see [Customize object headers using a layout template](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md). -->
+* <span class="preview">任務或問題標題</span>
+
+  <span class="preview">您的Workfront或群組管理員必須將認可日期新增到版面配置範本的任務或問題標題，以從任務或問題頁面檢視它。
+如需詳細資訊，請參閱 [使用版面配置範本自訂物件標頭](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md).</span>
 
 更新認可日期對於任務和問題而言是相同的。
 
@@ -94,9 +94,9 @@ ht-degree: 0%
 
    如需尋找問題或任務之任務負責人的詳細資訊，請參閱區段 [編輯任務](../../../manage-work/tasks/manage-tasks/edit-tasks.md#assignments) 在文章中 [編輯任務](../../../manage-work/tasks/manage-tasks/edit-tasks.md).
 
-<!--1. <span class="preview">(Conditional and optional) If your Workfront or group administrator added the Commit Date to your task or issue header, click the **Commit Date** field in the header, then select a date from the calendar. If the Commit Date is not in the header, proceed with the following steps. </span>
+1. <span class="preview">（有條件且選用）如果您的Workfront或群組管理員將認可日期新增到您的任務或問題標題，請按一下 **認可日期** 欄位，然後從日曆中選取日期。 如果「認可日期」不在標題中，請繼續下列步驟。 </span>
 
-   <span class="preview">![](assets/commit-date-task-header.png)</span>-->
+   <span class="preview">![](assets/commit-date-task-header.png)</span>
 
 1. 按一下 **任務詳細資訊** 或 **問題詳細資訊** 在左側面板中。
 1. 按一下 **概觀** 以展開它。
@@ -106,7 +106,7 @@ ht-degree: 0%
 
 1. 按一下「**儲存變更**」。
 
-   進行此變更後，會發生下列情況： 
+   進行此變更後，會發生下列情況：
 
    * 任務或問題的認可日期和計畫完成日期不再相同。
 
@@ -115,10 +115,13 @@ ht-degree: 0%
      ![](assets/task-projected-completion-date-in-details-highlighted-nwe-350x230.png)
 
    * Workfront應用程式內通知會通知專案所有者，您已建議任務或問題的新認可日期。
-   <!--* The Project Owner is notified in the Updates section that you have suggested a new Commit Date and they can, at this time, update the Planned Completion Date of the task or issue to match the Commit Date you suggested. This functionality is not supported in the new commenting experience. For information, see [The new commenting experience](/help/quicksilver/product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md). -->
+   * 更新區段會通知專案所有者，您已建議新的認可日期，他們現在可以更新任務或問題的規劃完成日期，以符合您建議的認可日期。
 
-   <!--![](assets/project-owner-notification-update-stream-that-commit-date-affects-project-timeline-highlighted-nwe-350x139.png)-->
+     ![](assets/project-owner-notification-update-stream-that-commit-date-affects-project-timeline.png)
 
-   如需關於此變更所觸發的通知和更新的資訊，請參閱文章中的「變更認可日期所觸發的通知和更新」一節 [認可日期總覽](/help/quicksilver/manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md).
+
+     <!--![](assets/project-owner-notification-update-stream-that-commit-date-affects-project-timeline-highlighted-nwe-350x139.png)-->
+
+     如需關於此變更所觸發的通知和更新的資訊，請參閱文章中的「變更認可日期所觸發的通知和更新」一節 [認可日期總覽](/help/quicksilver/manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md).
 
 <!--at the Production update stream when removing legacy - replace the last bullet with: The Project Owner is notified in the Systems Activity and the All tabs of the Updates section that you have suggested a new Commit Date. They can then update the Planned Completion Date accordingly by editing the task or the issue.-->

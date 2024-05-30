@@ -6,10 +6,10 @@ hide: true
 recommendations: noDisplay, noCatalog
 el-id: 698036a6-b3b4-44a9-91ee-63fdb6a646a1
 exl-id: 698036a6-b3b4-44a9-91ee-63fdb6a646a1
-source-git-commit: 44073ea242803e28ca00c82811ae2865747d11c3
+source-git-commit: 5d7a7157c7ffb9634ec44de0b55b3bcf08d88786
 workflow-type: tm+mt
-source-wordcount: '623'
-ht-degree: 7%
+source-wordcount: '696'
+ht-degree: 6%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 7%
 
 # 在Adobe Workfront Planning中共用許可權的概觀
 
-{{maestro-important-intro}}
+{{planning-important-intro}}
 
 您可以在Adobe Workfront Planning中共用或移除工作區或檢視的許可權。
 
@@ -75,9 +75,9 @@ ht-degree: 7%
 * 記錄類型
 * 記錄
 * 欄位
-<!--* Views*
-    
-    *You can allow all users with View or higher permissions to a workspace to also access a view. This is an additional permission that you must enable when sharing a view. For information, see [Share views](/help/quicksilver/maestro/access/share-views.md). -->
+* 檢視*
+
+  *您可以允許對工作區具有「檢視」或更高許可權的所有使用者也存取工作區中的檢視。 這是您共用檢視時必須啟用的額外許可權。 如需詳細資訊，請參閱 [共用檢視](/help/quicksilver/maestro/access/share-views.md).
 
 以下是工作區的許可權層級：
 
@@ -147,17 +147,19 @@ ht-degree: 7%
 
 以下是檢視和檢視元素的許可權層級：
 
-|        | 管理 | 檢視 |
-|--------|--------|-------|
-| 編輯 | ✓ (A) |       |
-| 刪除 | ✓ (A) |       |
-| 共用 | ✓ (A) |       |
-| 檢視 | ✓ (A) | ✓ (A) |
-| 套用 | ✓ (A) | ✓ (A) |
+|        | 管理（只有受邀者才能存取） | 檢視（只有受邀者才能存取） | 工作區中的所有人都可以檢視* |
+|--------|--------|-------|------------------------------|
+| 編輯 | ✓ (A) |       |                            |
+| 刪除 | ✓ (A) |       |                            |
+| 共用 | ✓ (A) |       |                           |
+| 檢視 | ✓ (A) | ✓ (A) | ✓ (A) |
+| 套用 | ✓ (A) | ✓ (A) | ✓ (A) |
 
-<!--Replace the above with this when global sharing is released: 
+*使用者必須擁有工作區的檢視或更高許可權才能取得此檢視存取權。
 
-|        | Manage | View  |View permissions to a workspace*|
+<!--Replace the table above with the following when public sharing releases: 
+
+|   Internal sharing     | Manage (Only invited people can access) | View (Only invited people can access)  |Everyone in the workspace can view*|
 |--------|--------|-------|------------------------------|
 | Edit   | ✓      |       |                            |
 | Delete | ✓      |       |                            |
@@ -165,20 +167,19 @@ ht-degree: 7%
 | View   | ✓      | ✓     | ✓                         |
 | Apply  | ✓      | ✓     | ✓                          |
 
-*Users must have View or higher permissions on a workspace to gain this view access.-->
-
-<!--Replace the table above with the following when public sharing releases: 
-
-|   Internal sharing     | Manage | View  |
-|--------|--------|-------|
-| Edit   | ✓      |       |
-| Delete | ✓      |       |
-| Share  | ✓       |       |
-| View   | ✓      | ✓     |
-| Apply  | ✓      | ✓     |
-
 |   Public sharing      | View  |
 |--------|-------|
 | View   | ✓     |
 | Apply  | ✓     |
+-->
+
+
+<!--old view permissions, before sharing View permissions to a view through a workspace:
+|        | Manage | View  |
+|--------|--------|-------|
+| Edit   | ✓      |       |                            
+| Delete | ✓      |       |                            
+| Share  | ✓       |       |                           
+| View   | ✓      | ✓     |                         
+| Apply  | ✓      | ✓     |    
 -->

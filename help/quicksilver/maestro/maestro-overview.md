@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: 44073ea242803e28ca00c82811ae2865747d11c3
+source-git-commit: 49335ec86057e4985477034558a271bf4efcab5e
 workflow-type: tm+mt
 source-wordcount: '1845'
 ht-degree: 2%
@@ -26,9 +26,11 @@ ht-degree: 2%
 >
 >本文資訊旨在說明Adobe Workfront的新產品Adobe Workfront Planning。
 >
->目前，Adobe Workfront Planning是測試版計畫的一部分，向有限數量的客戶開放。 您必須是Workfront客戶才能使用這些功能。
+>目前Workfront Planning處於搶先使用階段，僅開放給有限數量的客戶使用。
 >
->請聯絡您的客戶代表，以取得有關加入Workfront Planning測試版計畫的詳細資訊。
+>您必須是Workfront客戶才能使用這些功能。
+>
+>若您在此階段，您的客戶代表會通知您。
 >
 >如需記錄Workfront Planning的所有章節和文章的完整清單，請參閱 [Adobe Workfront規劃：文章索引](/help/quicksilver/maestro/maestro-information.md).
 
@@ -101,7 +103,7 @@ Adobe Workfront規劃是Adobe Workfront的新產品。 Workfront Planning的目�
 
 ## 為您的Workfront例項中的使用者啟用Adobe Workfront Planning
 
-貴組織必須註冊Adobe Workfront計畫封閉測試版計畫，您才能存取計畫功能。 如需註冊Beta版計畫的相關資訊，請聯絡客戶代表。
+貴組織必須先註冊Adobe Workfront計畫程式，才能存取計畫功能。 如果您符合資格，您的客戶代表應該提供您註冊此方案的相關資訊。
 
 如需有關授予存取權以及讓其他人使用Workfront Planning的詳細資訊，請參閱 [存取權總覽](/help/quicksilver/maestro/access/access-overview.md).
 
@@ -277,7 +279,7 @@ Workfront Planning的架構可完全自訂。 您可以建立所有記錄型別�
 
 1. 按一下 **主要功能表** ![](assets/main-menu-workfront.png) 或按一下 **主要功能表** ![](assets/main-menu-shell.png) 左上角（如果有的話）。
 
-1. 按一下 **規劃** ![](assets/maestro-icon.png).
+1. 按一下 **規劃** ![](assets/planning-icon.png).
 
    「工作區」區域隨即開啟。
 

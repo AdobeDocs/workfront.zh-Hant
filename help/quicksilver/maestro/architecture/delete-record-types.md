@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 70fd3887-3871-45b5-9c21-f57da63662aa
-source-git-commit: f4fb9d5c22ec6216a05e31cbcf80f1cf9add125f
+source-git-commit: 49335ec86057e4985477034558a271bf4efcab5e
 workflow-type: tm+mt
 source-wordcount: '386'
 ht-degree: 0%
@@ -27,7 +27,7 @@ hide: yes
 
 # 刪除記錄型別
 
-{{maestro-important-intro}}
+{{planning-important-intro}}
 
 當記錄型別不再相關時，您可以將其刪除。
 

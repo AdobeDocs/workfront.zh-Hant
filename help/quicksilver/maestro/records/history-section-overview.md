@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 8258589f-a7c3-4d77-9abe-c99e9184bd21
-source-git-commit: e54142e189cd4f407161401203a7f13c752ad404
+source-git-commit: 49335ec86057e4985477034558a271bf4efcab5e
 workflow-type: tm+mt
 source-wordcount: '446'
 ht-degree: 4%
@@ -14,7 +14,7 @@ ht-degree: 4%
 
 # 歷史記錄區段總覽
 
-{{maestro-important-intro}}
+{{planning-important-intro}}
 
 <!--update the metadata with real information when making this available in TOC and in the left nav-->
 

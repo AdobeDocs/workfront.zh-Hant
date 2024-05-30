@@ -7,16 +7,16 @@ description: 認可日期是指指派給任務或問題的使用者認可完成�
 author: Alina
 feature: Work Management
 exl-id: 47072433-bb8e-4210-947a-8bfa41ec47a9
-source-git-commit: 44073ea242803e28ca00c82811ae2865747d11c3
+source-git-commit: 49335ec86057e4985477034558a271bf4efcab5e
 workflow-type: tm+mt
-source-wordcount: '868'
+source-wordcount: '895'
 ht-degree: 0%
 
 ---
 
 # 認可日期總覽
 
-<!--{{highlighted-preview}}-->
+{{highlighted-preview}}
 
 認可日期是指指派給任務或問題的使用者認可完成任務或問題的日期。
 
@@ -56,8 +56,7 @@ ht-degree: 0%
 
 * 詳細資訊頁面
 * 在Workfront或群組管理員將其新增到您的版面配置範本後，顯示「摘要」面板。 如需詳細資訊，請參閱 [使用版面配置範本自訂首頁和摘要](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md).
-<!--
-* <span class="preview">The header of a task or issue, after a Workfront or group administrator adds it to your layout template. For information, see [Customize object headers using a layout template](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md). </span> -->
+* <span class="preview">Workfront或群組管理員將任務或問題的標題新增到您的版面配置範本後。 如需詳細資訊，請參閱 [使用版面配置範本自訂物件標頭](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md). </span>
 
 ## 變更認可日期所觸發的通知和更新 {#notifications-and-updates-triggered-by-changing-the-commit-date}
 
@@ -71,7 +70,7 @@ ht-degree: 0%
 
 * 認可日期變更會填入任務或問題的「系統活動」和「更新」區段的「所有」標籤中。
 
-  ![](assets/update-stream-confirmation-that-commit-date-changed-nwe-350x73.png)
+  ![](assets/project-owner-notification-update-stream-that-commit-date-affects-project-timeline.png)
 
   當Workfront管理員在設定的更新摘要區域中啟用此更新時，認可日期的變更會顯示在任務或問題的更新區域中。 如需詳細資訊，請參閱 [系統追蹤更新](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md).
 
@@ -83,12 +82,13 @@ ht-degree: 0%
 
   >[!TIP]
   >
-  >您可以要求系統或群組管理員將認可日期欄位新增到摘要面板，以便在Workfront中顯示「摘要」面板的各個區域更輕鬆地更新它。
+  >您可以要求系統或群組管理員將「認可日期」欄位新增到「摘要」面板或標題，以便於更新。
   >
   >如需詳細資訊，請參閱下列文章：
   >
   >* [摘要概觀](/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md)
-  >* [使用版面配置範本自訂首頁和摘要](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md).
+  >* [使用版面配置範本自訂首頁和摘要](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md)
+  >* [使用版面配置範本自訂物件標頭](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md).
 
 <!--this is no longer possible: 
 >[!NOTE]

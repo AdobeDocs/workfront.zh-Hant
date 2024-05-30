@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7d6de742-9657-4286-968c-1fc78ebbb94e
-source-git-commit: 6bea34403e45c2b50986f79272f7a46959d67c6d
+source-git-commit: 49335ec86057e4985477034558a271bf4efcab5e
 workflow-type: tm+mt
 source-wordcount: '445'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -28,7 +28,7 @@ hide: yes
 
 # 編輯記錄型別
 
-{{maestro-important-intro}}
+{{planning-important-intro}}
 
 記錄型別是Adobe Workfront Planning的物件型別。 您可以編輯您或其他人建立的記錄型別外觀。 如需有關建立Workfront Planning記錄型別的資訊，請參閱 [建立記錄型別](../architecture/create-record-types.md).
 

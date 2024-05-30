@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 3f7a3667-8a9f-462a-b706-cf15850a0d1c
-source-git-commit: e54142e189cd4f407161401203a7f13c752ad404
+source-git-commit: 49335ec86057e4985477034558a271bf4efcab5e
 workflow-type: tm+mt
 source-wordcount: '487'
 ht-degree: 2%
@@ -16,7 +16,7 @@ ht-degree: 2%
 
 # 刪除記錄
 
-{{maestro-important-intro}}
+{{planning-important-intro}}
 
 您可以刪除Adobe Workfront Planning中不再相關的記錄。
 

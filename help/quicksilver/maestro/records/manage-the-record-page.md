@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
-source-git-commit: 9b1b8d8661917946230033b661ca652f5edef734
+source-git-commit: 49335ec86057e4985477034558a271bf4efcab5e
 workflow-type: tm+mt
 source-wordcount: '1153'
 ht-degree: 0%
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 # 管理記錄頁面
 
-{{maestro-important-intro}}
+{{planning-important-intro}}
 
 您可以在Adobe Workfront Planning中編輯記錄預覽和頁面的版面。
 

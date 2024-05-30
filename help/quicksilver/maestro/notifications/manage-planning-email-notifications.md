@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 3c505b3a-cda7-4e7b-b497-28b820e9bb8f
-source-git-commit: 9b1b8d8661917946230033b661ca652f5edef734
+source-git-commit: 49335ec86057e4985477034558a271bf4efcab5e
 workflow-type: tm+mt
 source-wordcount: '310'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # 管理Adobe Workfront Planning電子郵件通知
 
-{{maestro-important-intro}}
+{{planning-important-intro}}
 
 當有人在記錄評論中標籤您時，您會收到該標籤的電子郵件通知。
 

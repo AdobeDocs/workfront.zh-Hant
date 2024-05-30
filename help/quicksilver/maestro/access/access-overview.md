@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 99fac041-a235-4991-b826-d19944164bc9
-source-git-commit: f042cd0466f65a7b1179026927b167ae6b208c86
+source-git-commit: 49335ec86057e4985477034558a271bf4efcab5e
 workflow-type: tm+mt
 source-wordcount: '450'
 ht-degree: 0%
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 # 存取權總覽
 
-{{maestro-important-intro}}
+{{planning-important-intro}}
 
 使用Adobe Workfront Planning時，有授權和共用許可權限制。
 
@@ -98,7 +98,7 @@ ht-degree: 0%
 
 1. 登入 **Workfront** Workfront管理員。
 
-1. 新增 **規劃** 圖示 ![](assets/maestro-icon.png) 至 **主要功能表** 使用 **版面配置範本**.
+1. 新增 **規劃** 圖示 ![](assets/planning-icon.png) 至 **主要功能表** 使用 **版面配置範本**.
 
    如需詳細資訊，請參閱 [使用版面配置範本自訂主功能表](../../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).
 

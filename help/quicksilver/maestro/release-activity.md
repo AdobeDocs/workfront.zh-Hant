@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 44073ea242803e28ca00c82811ae2865747d11c3
+source-git-commit: 49335ec86057e4985477034558a271bf4efcab5e
 workflow-type: tm+mt
-source-wordcount: '6571'
+source-wordcount: '6602'
 ht-degree: 0%
 
 ---
@@ -17,19 +17,15 @@ ht-degree: 0%
 
 <!--this article is linked to the WF Planning landing page - do not change URL or move it; send the team a new URL after we add the redirects for this page-->
 
-{{maestro-important-intro}}
+{{planning-important-intro}}
 
-本文列出2023年5月22日Adobe Workfront規劃功能封閉測試版計畫推出後所發行的功能。
+本文列有在2023年5月22日Adobe Workfront計畫啟動後所發行的功能。
 
-已發行的功能會依其發行順序列出，最新的排在前。 參與計畫功能封閉測試計畫的客戶可以存取其生產環境中的所有功能。
-
->[!IMPORTANT]
+>[!NOTE]
 >
->在2023年5月至2023年12月期間，本文中的所有功能均已發佈到「預覽」和「生產」環境。 自2024年1月起，規劃功能已暫時從預覽和沙箱環境中移除。 在此日期之後發行的所有功能目前可在生產環境中使用。
+>在2023年5月至2023年12月期間，本文中的所有功能均已發佈到「預覽」和「生產」環境。 自2024年1月起，Workfront計畫已暫時從預覽和沙箱環境中移除。 在此日期之後發行的所有功能目前可在生產環境中使用。
 
-本文列出2023年5月22日Adobe Workfront計畫功能封閉測試版計畫推出後所發行的功能和修補程式。
-
-功能每週都會發行，並依發行順序列出，最新的則排在前。 參與計畫功能封閉測試計畫的客戶可以存取其預覽和生產環境中的所有功能。
+已發行的功能會依其發行順序列出，最新的排在前。 參與Workfront Planning計畫的客戶可存取其生產環境中的所有功能。
 
 >[!IMPORTANT]
 >
@@ -57,16 +53,6 @@ Preview: To be determined
 
 Because the impact for deleting a workspace can be significant, we are adding an extra step in confirming the deletion. Users are required to type "delete" before they can complete the deletion of a workspace. For more information, see [Delete workspaces](/help/quicksilver/maestro/architecture/delete-workspaces.md).  
 
-### Share views with all members of a workspace by default
-
-Production: <date> 
-
-Preview: To be determined 
-
-We have now introduced an option where you can quickly give View permissions to a view to all members of a workspace. Prior to this enhancement, only users you specifically shared a view with could access the view. This option is not enabled by default.  
-
-For information, see [Share views](/help/quicksilver/maestro/access/share-views.md).  
-
 -->
 
 ## 2024年5月27日起一週
@@ -88,6 +74,24 @@ UNIQUE運運算元適用於下列欄位型別以外的所有欄位型別：
 * 核取方塊欄位
 
 如需詳細資訊，請參閱 [連線記錄型別](/help/quicksilver/maestro/architecture/connect-record-types.md).
+
+### 依預設與工作區的所有成員共用檢視
+
+生產： 2024年5月30日
+
+預覽：待定
+
+我們現在匯入了一個選項，您可以在其中快速將檢視許可權授予工作區的所有成員。 在此增強功能之前，只有您特別共用檢視的使用者才能存取檢視。 預設不會啟用此選項。
+
+如需詳細資訊，請參閱 [共用檢視](/help/quicksilver/maestro/access/share-views.md).
+
+### 更新主要功能表中Planning圖示的外觀
+
+生產： 2024年5月30日
+
+預覽：待定
+
+我們已更新主要功能表區域中Planning圖示的外觀。 如需詳細資訊，請參閱 [Adobe Workfront規劃概觀](/help/quicksilver/maestro/maestro-overview.md).
 
 ## 2024年5月20日起一週
 
@@ -713,7 +717,7 @@ Adobe Workfront規劃功能已暫時從預覽和沙箱環境中移除。 它們�
 
 如需詳細資訊，請參閱 [管理記錄註解](/help/quicksilver/maestro/records/manage-record-comments.md).
 
-### Adobe Workfront Fusion的規劃功能聯結器(Beta)
+### Adobe Workfront Fusion的Workfront Planning聯結器
 
 生產： 2023年12月21日
 

@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
-source-git-commit: 44073ea242803e28ca00c82811ae2865747d11c3
+source-git-commit: 49335ec86057e4985477034558a271bf4efcab5e
 workflow-type: tm+mt
 source-wordcount: '2253'
 ht-degree: 0%
@@ -28,7 +28,7 @@ author: Alina
 
 # 連線記錄型別
 
-{{maestro-important-intro}}
+{{planning-important-intro}}
 
 您可以使用Adobe Workfront Planning來設計包含組織所需記錄型別的完全可自訂工作區。 指示個別記錄型別如何彼此關聯的一種方法是連線它們。 此外，您可以將Workfront Planning記錄型別與其他應用程式的物件型別連線起來，以增強您的使用者體驗，並將他們的焦點放在一個應用程式中。
 

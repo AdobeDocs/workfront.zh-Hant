@@ -4,17 +4,19 @@ description: 當有人在記錄評論中標籤您時，您可能會收到該標�
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 024c612d46848c55529e902a00d481588d261584
+exl-id: 9c2f5b14-77c5-42fd-83ad-acbe7da801bd
+source-git-commit: 49335ec86057e4985477034558a271bf4efcab5e
 workflow-type: tm+mt
 source-wordcount: '146'
 ht-degree: 0%
 
 ---
 
-
 # Adobe Workfront規劃通知：文章索引
 
 <!--add this to major TOC and Planning article index-->
+
+{{planning-important-intro}}
 
 當有人在記錄評論中標籤您時，您可能會收到該標籤的電子郵件或應用程式內通知。
 

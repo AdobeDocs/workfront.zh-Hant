@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 673dd888-3135-48b0-8198-c8d6d6706ddf
-source-git-commit: 44073ea242803e28ca00c82811ae2865747d11c3
+source-git-commit: 49335ec86057e4985477034558a271bf4efcab5e
 workflow-type: tm+mt
-source-wordcount: '550'
-ht-degree: 1%
+source-wordcount: '617'
+ht-degree: 0%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 1%
 
 # 共用檢視
 
-{{maestro-important-intro}}
+{{planning-important-intro}}
 
 您可以在Adobe Workfront Planning中處理記錄時，與其他人共用檢視以確保共同作業。
 
@@ -24,12 +24,12 @@ ht-degree: 1%
 
 當您共用檢視時，您會授予其他人存取檢視所有元素的許可權。 例如，當您將檢視的管理許可權授予他們時，他們可以修改分組、篩選、排序或長條圖外觀。
 
-<!--
-You can share a view with the following entities: 
 
-* Workfront users
-* Workfront groups
-* Publicly, with users outside Workfront
+您可以與下列實體共用檢視：
+
+* Workfront使用者
+* Workfront群組
+<!--* Publicly, with users outside Workfront
 -->
 
 ## 存取需求
@@ -110,14 +110,12 @@ You can share a view with the following entities:
 
    <!--The Internal sharing tab should be selected by default.-->
 
-<!--   
-1. (Optional) Select from the following options to share the view: 
+1. （可選）從下列選項中選取以共用檢視：
 
-* **Only invited people can access**: You must specify users or groups that you want to share the view with. This is the default option.
-* **Everyone in the workspace can view**: All users that have View or higher permissions to workspaces can access the view. -->
+   * **只有受邀者才能存取**：您必須指定想要與其共用檢視的使用者或群組。 這是預設選項。
+   * **工作區中的所有人都可以檢視**：所有對Workspace具有「檢視」或更高許可權的使用者都可以存取檢視。
 
-
-1. 在 **授予檢視存取許可權至** 欄位，開始輸入使用者或群組的名稱，然後在其顯示在清單中時按一下它。  <!--***********replace screen shot below when global sharing is released***********-->
+1. 在 **授予檢視存取許可權至** 欄位，開始輸入使用者或群組的名稱，然後在其顯示在清單中時按一下它。  <!--***********replace screen shot below when public sharing is released***********-->
 
    ![](assets/sharing-a-view-ui-with-groups.png)
 

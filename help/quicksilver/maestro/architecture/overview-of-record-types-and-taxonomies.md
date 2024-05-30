@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 1de095b3-78d9-44df-a678-51f4238deb91
-source-git-commit: b2ec979cf9aa2431c8c908440c227758d9dab521
+source-git-commit: 49335ec86057e4985477034558a271bf4efcab5e
 workflow-type: tm+mt
 source-wordcount: '270'
 ht-degree: 0%
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 # 記錄型別概觀
 
-{{maestro-important-intro}}
+{{planning-important-intro}}
 
 與Workfront預先定義物件型別不同，在Adobe Workfront Planning中，您可以建立自己的物件型別。 例如，在Workfront中，已建立方案、Portfolio、專案、任務或問題的物件型別。
 
