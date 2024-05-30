@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 99fac041-a235-4991-b826-d19944164bc9
-source-git-commit: 49335ec86057e4985477034558a271bf4efcab5e
+source-git-commit: 1369269bcb64bd32f26603608782dc996b079cb9
 workflow-type: tm+mt
 source-wordcount: '450'
 ht-degree: 0%
@@ -40,7 +40,7 @@ ht-degree: 0%
   </tr>  
  <td role="rowheader"><p>Adobe Workfront合約</p></td>
    <td>
-<p>貴組織必須註冊Adobe Workfront Planning測試版計畫。 </p>
+<p>您的組織必須處於Workfront Planning的早期存取階段中註冊 </p>
    </td>
   </tr>
   <tr>
@@ -94,7 +94,7 @@ ht-degree: 0%
 
 <!--First, contact your account manager to obtain access to the current Workfront Planning closed beta program.-->
 
-貴組織在註冊Workfront Planning測試版計畫後，可使用版面配置範本將「計畫」區域新增至所有使用者的主功能表。
+您的組織註冊Workfront Planning方案後，您可以使用版面配置範本，將「計畫」區域新增至所有使用者的主功能表。
 
 1. 登入 **Workfront** Workfront管理員。
 

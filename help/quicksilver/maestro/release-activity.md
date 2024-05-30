@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 49335ec86057e4985477034558a271bf4efcab5e
+source-git-commit: 1369269bcb64bd32f26603608782dc996b079cb9
 workflow-type: tm+mt
-source-wordcount: '6602'
+source-wordcount: '6669'
 ht-degree: 0%
 
 ---
@@ -91,7 +91,15 @@ UNIQUE運運算元適用於下列欄位型別以外的所有欄位型別：
 
 預覽：待定
 
-我們已更新主要功能表區域中Planning圖示的外觀。 如需詳細資訊，請參閱 [Adobe Workfront規劃概觀](/help/quicksilver/maestro/maestro-overview.md).
+我們已更新主要功能表中Planning區域圖示的外觀。 如需詳細資訊，請參閱 [Adobe Workfront規劃概觀](/help/quicksilver/maestro/maestro-overview.md).
+
+### 重新命名Workfront規劃程式
+
+從2024年5月30日開始，Adobe Workfront計畫會從Beta版階段轉換至搶先使用階段。 您將在我們檔案的術語中看到這項變更。
+
+早期存取階段也僅限於少數Workfront客戶。
+
+若您符合參與早期存取階段的資格，您的客戶代表將會通知您。
 
 ## 2024年5月20日起一週
 
