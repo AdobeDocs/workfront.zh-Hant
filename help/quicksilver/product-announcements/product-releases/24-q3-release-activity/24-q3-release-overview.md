@@ -5,10 +5,10 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 372aa2c2-5deb-49da-aadc-6e870bbd083a
-source-git-commit: 530c4451f4720a1710350f8e822e343794b63e87
+source-git-commit: 39f5526a7a816da60cb80ea4fe9313a2773e6398
 workflow-type: tm+mt
-source-wordcount: '822'
-ht-degree: 1%
+source-wordcount: '930'
+ht-degree: 0%
 
 ---
 
@@ -139,6 +139,26 @@ ht-degree: 1%
                     </td>
                 </tr>
                 <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-project-enhancements.md" class="MCXref xref" xrefformat="{para}">從標題或詳細資訊區段編輯任務和問題認可日期和條件</a></p>
+                        <p><span style="color: #ff0000;"> 預覽中的新增專案！</span></p>
+                        <p>為了讓您更輕鬆地更新任務和問題，我們現在新增了提交日期和條件欄位，作為選項以新增到任務和問題標題和版面配置範本中的詳細資訊區段。 當使用者被指派給修改的版面配置範本時，他們現在可以從頁面的標題或詳細資訊區段更新這些欄位。   </p>
+                    </td>
+                    <td><p><b>將於下列日期提供：</b></p>
+                        <ul>
+                            <li>
+                                <p>預覽版本： 2024年5月30日</p>
+                            </li>
+                            <li>
+                                <p>快速發行生產：24.6版（2024年6月13日）</p>
+                            </li>
+                            <li>
+                                <p>適用於所有客戶的生產版本：搭配24.7版（2024年7月）</p>
+                            </li>
+                        </ul>
+                    </td>
+                 </tr>
+                   <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-project-enhancements.md" class="MCXref xref" xrefformat="{para}">已將更相關的指派新增至「新任務」工作流程</a></p>
                         <p>[！BADGE In Production for Fast Release ]{type=Positive}</p>

@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 27d479d1-338a-429c-9703-8e72ed8d5c95
-source-git-commit: 530c4451f4720a1710350f8e822e343794b63e87
+source-git-commit: 39f5526a7a816da60cb80ea4fe9313a2773e6398
 workflow-type: tm+mt
-source-wordcount: '329'
+source-wordcount: '410'
 ht-degree: 0%
 
 ---
@@ -19,19 +19,20 @@ ht-degree: 0%
 如需2024年第三季度發行週期中目前可用的所有變更清單，請參閱 [2024年第三季度版本總覽](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).
 
 
-## 已將更相關的指派新增至「新任務」工作流程
+## 從標題或詳細資訊區段編輯任務和問題認可日期和條件
 
 >[!NOTE]
 >
->預覽版本： 2024年2月13日；快速版本的生產版：使用24.5版（2024年5月16日）；所有客戶的生產版：使用24.7版（2024年7月）。
+>預覽版本： 2024年5月30日；生產版本快速版：使用24.6版（2024年6月13日）；生產版本適用於所有客戶：使用24.7版（2024年7月）。
 
-我們在下列區域的「工作總攬」欄位中，為更相關的智慧指派新增了相同的功能：
+為了讓您更輕鬆地更新任務和問題，我們現在新增了提交日期和條件欄位，作為選項以新增到任務和問題標題和版面配置範本中的詳細資訊區段。 當使用者被指派給修改的版面配置範本時，他們現在可以從頁面的標題或詳細資訊區段更新這些欄位。 在此增強功能之前，當您自訂標題時，無法新增任務和問題的條件和認可日期。
 
-* 將任務新增至專案時的「新增任務」方塊
+如需有關更新「認可日期」和sCondition的資訊，請參閱下列文章：
 
-* 在專案任務清單中
+* [更新任務和問題的條件](/help/quicksilver/manage-work/projects/updating-work-in-a-project/update-condition-for-tasks-and-issues.md).
+* [更新任務和問題的認可日期](/help/quicksilver/manage-work/projects/updating-work-in-a-project/update-commit-date-on-tasks-and-issues.md).
 
-如需詳細資訊，請參閱 [智慧指派總覽](/help/quicksilver/manage-work/tasks/assign-tasks/smart-assignments.md).
+[觀看此功能的示範影片。](https://video.tv.adobe.com/v/3429471/){target=_blank}
 
 ## 更相關的智慧指派
 
