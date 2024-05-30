@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 1369269bcb64bd32f26603608782dc996b079cb9
+source-git-commit: 706495396b4cf733659e05e28e57c4626c104ef5
 workflow-type: tm+mt
-source-wordcount: '6669'
+source-wordcount: '6732'
 ht-degree: 0%
 
 ---
@@ -100,6 +100,18 @@ UNIQUE運運算元適用於下列欄位型別以外的所有欄位型別：
 早期存取階段也僅限於少數Workfront客戶。
 
 若您符合參與早期存取階段的資格，您的客戶代表將會通知您。
+
+### 刪除工作區的新程式
+
+生產： 2024年5月30日
+
+預覽：待定
+
+由於刪除工作區可能會產生重大影響，因此我們在確認刪除時新增了額外步驟。 使用者現在必須先輸入「刪除」，才能完成工作區的永久刪除。
+
+已刪除的工作區及其資訊無法復原。
+
+如需詳細資訊，請參閱 [刪除工作區](/help/quicksilver/maestro/architecture/delete-workspaces.md).
 
 ## 2024年5月20日起一週
 

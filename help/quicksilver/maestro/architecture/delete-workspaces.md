@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: adec4b8e-2964-479b-8cf0-79d3afa27b2a
-source-git-commit: 1369269bcb64bd32f26603608782dc996b079cb9
+source-git-commit: 706495396b4cf733659e05e28e57c4626c104ef5
 workflow-type: tm+mt
-source-wordcount: '281'
+source-wordcount: '287'
 ht-degree: 1%
 
 ---
@@ -102,8 +102,9 @@ ht-degree: 1%
 
 1. （可選）展開現有工作區名稱右側的向下箭頭，並選取您要刪除的工作區。
 1. 按一下 **更多** 功能表 ![](assets/more-menu.png) 按一下工作區名稱旁的「 」 **刪除**.
-   <!--1. Type "**delete**" in the space provided, then click **Permanently delete**. **********AND DELETE THE STEP BELPW EXCEPT FOR THE LAST SENTENCE***********-->
 
-1. 按一下 **刪除** 以確認。
+   ![](assets/permanently-delete-workspace-confirmation.png)
+
+1. Type &quot;**刪除**&quot;，然後按一下 **永久刪除**.
 
    工作區已刪除且無法復原。 任何與其關聯的記錄型別、記錄、欄位和檢視也會被刪除。 <!--ensure this is right after closed beta-->
