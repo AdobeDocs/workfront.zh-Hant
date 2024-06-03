@@ -7,9 +7,9 @@ description: Scenario Planner需要Adobe Workfront的單獨授權和額外存取
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: d7f3c7fa-81aa-40c9-b506-fe1fe346e9ea
-source-git-commit: 5d7ff744ed0721ffa6d793a224226f28a76c57a0
+source-git-commit: 330ee20ad14ea7409db1c6f627ed6aa0e0c5c014
 workflow-type: tm+mt
-source-wordcount: '818'
+source-wordcount: '952'
 ht-degree: 0%
 
 ---
@@ -39,64 +39,55 @@ might need to add information about the permissions to plans/ initiatives if tho
 
 您必須確定符合下列所有條件，才能存取 [!DNL Workfront Scenario Planner]：
 
-<!--drafted for P&P:
+1. 您的組織必須擁有下列其中一個Workfront計畫。
 
-* Depending on whether you use the current or the legacy Workfront plans, your organization must have the following:
+   視您使用新計畫或目前Workfront計畫而定，您的組織必須具備下列其中一項：
 
-  * For the current plans:  
+   * 對於目前的計畫，您的組織必須具備下列其中一項：
 
-    * The [!UICONTROL Ultimate] [!DNL Workfront] plan.
+      * 此 [!UICONTROL Ultimate] [!DNL Workfront] 計畫。 「情境規劃工具」包含在「最終計畫」中。
 
-      Or
-  
-    * The [!UICONTROL Select] or [!UICONTROL Prime] [!DNL Workfront] plan, in addition to purchasing a separate [!DNL Scenario Planner] license.
+        或
 
-  * For the legacy plans: (indent the bullets below, before the NOTE)
+      * 此 [!UICONTROL 選取] 或 [!UICONTROL Prime] [!DNL Workfront] 計畫，除了另外購買 [!DNL Scenario Planner] 授權。
 
--->
+   * 針對目前的Workfront計畫，您的組織必須具備下列兩個條件：
 
-* 貴組織必須購買 [!DNL Workfront] [!UICONTROL 企業] 或更高 [!DNL Workfront] 計畫。 如需關於的資訊， [!DNL Workfront] 計畫，請參閱 [Workfront計畫](https://workfront.com/plans).
-* 貴組織必須購買 [!DNL Workfront Scenario Planner] 除了授權之外， [!DNL Workfront] 授權。 連絡您的 [!DNL Workfront] 要瞭解的帳戶代表 [!DNL Workfront Scenario Planner] 授權。
+      * 貴組織必須購買 [!DNL Workfront] [!UICONTROL 企業] 或更高 [!DNL Workfront] 計畫。 如需關於的資訊， [!DNL Workfront] 計畫，請參閱 [Workfront計畫](https://workfront.com/plans).
 
-<!--drafted for P&P: 
+      * 貴組織必須購買 [!DNL Workfront Scenario Planner] 除了授權之外， [!DNL Workfront] 授權。 連絡您的 [!DNL Workfront] 要瞭解的帳戶代表 [!DNL Workfront Scenario Planner] 授權。
 
-* Depending on whether you use the current or legacy licenses, your [!DNL Workfront] administrator must assign you a license of any of the following types: 
+1. 您必須擁有下列其中一個Workfront授權。
 
-  * For the current licenses: 
-    * [!UICONTROL Standard]
-    * [!UICONTROL Light]
+   視您使用新授權或目前授權而定，您的 [!DNL Workfront] 管理員必須指派下列任何型別的授權給您：
 
-  * For the legacy licenses: (re-indent the licenses below and reword the sentence)
+   * 對於新授權：
+      * [!UICONTROL 標準]
+      * [!UICONTROL 淺色]
 
--->
+   * 對於目前的授權：
 
+      * [!UICONTROL 計畫]
+      * [!UICONTROL 工作]
+      * [!UICONTROL 檢閱]
 
+   >[!NOTE]
+   > 
+   >* 使用新授權時，使用者具有 [!UICONTROL 投稿人] 或 [!UICONTROL 外部] 授權型別無法存取 [!DNL Scenario Planner].
+   >
+   >* 使用目前的授權時，具有「請求」或「外部」授權型別的使用者無法存取Scenario Planner。
 
-* 您的 [!DNL Workfront] 管理員必須指派下列任一專案的授權給您 [!DNL Workfront] 型別：
+1. 您的 [!DNL Workfront] 管理員必須提供您 [!UICONTROL 檢視] 或 [!UICONTROL 編輯] 存取目標 [!DNL Scenario Planner] 在存取層級中。
 
-   * [!UICONTROL 計劃]
-   * [!UICONTROL 工作]
-   * [!UICONTROL 檢閱]
+   如需有關授與存取權的資訊， [!DNL Workfront Scenario Planner]，請參閱 [授予存取許可權 [!DNL Scenario Planner]](../administration-and-setup/add-users/configure-and-grant-access/grant-access-sp.md).
 
-  >[!NOTE]
-  >
-  >使用者具有 [!UICONTROL 請求] 或 [!UICONTROL 外部] 授權型別無法存取 [!DNL Workfront Scenario Planner].
+1. （選用且建議使用）若要檢視或更新計畫與方案的財務資訊，請 [!DNL Workfront] 管理員也必須授予您存取許可權 [!UICONTROL 財務資料] 在存取層級中。 如需在存取層級中授與財務資料的相關資訊，請參閱 [授予財務資料的存取權](../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).
 
-<!--drafted - replace the note above with this at P&P release: 
-  * When using the current licenses, users with a [!UICONTROL Contributor] or [!UICONTROL External] license type cannot access the [!DNL Scenario Planner].
-  * When using the legacy licenses, users with a Request or External license type cannot access the Scenario Planner. -->
+1. （選擇性）如果您需要存取您未建立的計畫，計畫建立者必須授予您計畫正確的許可權，您才能存取計畫。 如需有關存取您未建立之計畫和方案所需的許可權資訊，請參閱 [存取計畫和方案所需的許可權](#permissions-needed-to-access-plans-and-initiatives) 一節。
 
-* 您的 [!DNL Workfront] 管理員必須提供您 [!UICONTROL 檢視] 或 [!UICONTROL 編輯] 存取目標 [!DNL Scenario Planner] 在存取層級中。
-
-  如需有關授與存取權的資訊， [!DNL Workfront Scenario Planner]，請參閱 [授予存取許可權 [!DNL Scenario Planner]](../administration-and-setup/add-users/configure-and-grant-access/grant-access-sp.md).
-
-* （選用且建議使用）若要檢視或更新計畫與方案的財務資訊，請 [!DNL Workfront] 管理員也必須授予您存取許可權 [!UICONTROL 財務資料] 在存取層級中。 如需在存取層級中授與財務資料的相關資訊，請參閱 [授予財務資料的存取權](../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).
-
-  <!--this used to be true but not anymore:
+<!--this used to be true but not anymore:
   <li data-mc-conditions="QuicksilverOrClassic.Draft mode"> <p>(NOTE: this is no longer needed) </p> <p>Your Workfront administrator must assign you a layout template that includes the Scenarios area in the Main Menu. </p> <p>For information about customizing the Main Menu in a layout template, see <a href="../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md" class="MCXref xref" xrefformat="{para}">Customize the Main Menu using a layout template</a>. </p> <p>For information about assigning users to a Layout Template, see <a href="../administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md" class="MCXref xref" xrefformat="{para}">Assign users to a layout template</a>.</p> </li>
   -->
-
-* 如果您需要存取您未建立的計畫，計畫建立者必須提供您對其計畫的正確許可權，您才能存取計畫。 如需有關存取您未建立之計畫和方案所需的許可權資訊，請參閱 [存取計畫和方案所需的許可權](#permissions-needed-to-access-plans-and-initiatives) 一節。
 
 ## 檢視計畫和方案所需的存取權
 

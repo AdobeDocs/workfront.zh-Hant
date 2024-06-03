@@ -6,7 +6,7 @@ description: 如果您是有個人目標的個人投稿人，您可能希望將�
 author: Alina
 feature: Workfront Goals
 exl-id: 4276f1c9-2ee9-4f74-b011-ae1e19fefe35
-source-git-commit: 09e34ecdfeec531ebbaaba4fb8682496c53d86bf
+source-git-commit: 330ee20ad14ea7409db1c6f627ed6aa0e0c5c014
 workflow-type: tm+mt
 source-wordcount: '765'
 ht-degree: 1%
@@ -51,9 +51,9 @@ ht-degree: 1%
  <tr>
  <td role="rowheader">Adobe Workfront授權*</td>
  <td>
- <p>目前授權：投稿人或以上版本</p>
+ <p>新授權：投稿人或以上版本</p>
  或
- <p>舊版授權：要求或更高版本</p> </td>
+ <p>目前授權：要求或以上</p> </td>
  </tr>
  <tr>
  <td role="rowheader">產品*</td>

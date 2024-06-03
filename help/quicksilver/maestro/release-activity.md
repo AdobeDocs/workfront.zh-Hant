@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 706495396b4cf733659e05e28e57c4626c104ef5
+source-git-commit: 330ee20ad14ea7409db1c6f627ed6aa0e0c5c014
 workflow-type: tm+mt
-source-wordcount: '6732'
+source-wordcount: '6799'
 ht-degree: 0%
 
 ---
@@ -17,19 +17,30 @@ ht-degree: 0%
 
 <!--this article is linked to the WF Planning landing page - do not change URL or move it; send the team a new URL after we add the redirects for this page-->
 
-{{planning-important-intro}}
+>[!IMPORTANT]
+>
+>本文資訊旨在說明Adobe Workfront的新產品Adobe Workfront Planning。
+>
+>目前Workfront Planning處於搶先使用階段，僅開放給有限數量的客戶使用。
+>
+>您必須是Workfront客戶才能使用這些功能。
+>
+>如果您屬於此階段，您的客戶代表將會通知您。
+>
+>如需詳細資訊，請參閱 [Adobe Workfront規劃概觀](/help/quicksilver/maestro/maestro-overview.md).
+>
+>在某些情況下，將記錄的功能發佈到生產環境後，可能會提供以下章節中參考的檔案。
 
 本文列有在2023年5月22日Adobe Workfront計畫啟動後所發行的功能。
 
->[!NOTE]
->
->在2023年5月至2023年12月期間，本文中的所有功能均已發佈到「預覽」和「生產」環境。 自2024年1月起，Workfront計畫已暫時從預覽和沙箱環境中移除。 在此日期之後發行的所有功能目前可在生產環境中使用。
-
 已發行的功能會依其發行順序列出，最新的排在前。 參與Workfront Planning計畫的客戶可存取其生產環境中的所有功能。
 
->[!IMPORTANT]
->
->在功能發行至生產環境後的某個時間，將可使用以下各節中參考的檔案。
+在2023年5月至2023年12月期間，本文中的所有功能均已發佈到「預覽」和「生產」環境。
+
+自2024年1月起，Workfront計畫已暫時從預覽和沙箱環境中移除。 在此日期之後發行的所有功能目前可在生產環境中使用。
+
+
+
 
 <!--
 

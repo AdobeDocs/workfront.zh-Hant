@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 5027d611-916e-492d-9a44-841bdde11c94
-source-git-commit: 1369269bcb64bd32f26603608782dc996b079cb9
+source-git-commit: 330ee20ad14ea7409db1c6f627ed6aa0e0c5c014
 workflow-type: tm+mt
 source-wordcount: '424'
 ht-degree: 8%
@@ -15,6 +15,8 @@ ht-degree: 8%
 # 公式欄位概觀
 
 <!--update the metadata with real information when making this available in TOC and in the left nav - below-->
+
+<!--this article is linked to the UI in the formula box, "Learn more..."-->
 
 <!---
 title: Formula fields overview

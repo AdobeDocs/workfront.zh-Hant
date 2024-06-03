@@ -7,9 +7,9 @@ description: 在存取Adobe Workfront目標之前，您的Adobe Workfront管理�
 author: Alina
 feature: Workfront Goals
 exl-id: 3c7c832b-3e00-4ced-8829-8b1c23fa3871
-source-git-commit: 86f9a88518c8a03643061b3328719d2da4016f2b
+source-git-commit: 330ee20ad14ea7409db1c6f627ed6aa0e0c5c014
 workflow-type: tm+mt
-source-wordcount: '616'
+source-wordcount: '740'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 0%
 <!--drafted for P&P - replace the first bullet with this one when licensing changes: 
 * Your company must purchase the correct Adobe Worfront plan or Adobe Workfront Goal license. For information, see the section [Obtain Workfront Goals organization access](#obtain-workfront-goals-organization-access)in this article.-->
 
-* 您的組織必須購買正確的Workfront目標授權。 如需詳細資訊，請參閱區段 [取得Workfront目標組織存取權](#obtain-workfront-goals-organization-access)本文章內容。
+* 您的組織必須購買正確的Workfront目標授權。 如需詳細資訊，請參閱區段 [取得Workfront目標組織存取權](#obtain-workfront-goals-organization-access) 本文章內容。
 
 * 指派正確的Workfront授權型別。 有關指派許可證型別和存取層級的資訊，請參閱區段 [更新授權型別和存取層級設定](#update-license-types-and-access-level-settings) 本文章內容。
 
@@ -45,37 +45,36 @@ ht-degree: 0%
 
 ## 取得Workfront目標組織存取權 {#obtain-workfront-goals-organization-access}
 
-<!--drafted for P&P release: 
 
-If your company has a current Workfront plan, you must have one of the following:
+視貴公司目前的Workfront計畫而定，會有以下情況：
 
-* An Ultimate Workfront plan. Workfront Goals are included in this plan. 
-* A Select or higher Workfront plan and a separate Workfront Goals license. -->
+* 如果貴公司有新的Workfront計畫，您必須具備下列其中一項：
 
-<!-- drafted for P&P - add this to the sentence below at release: 
+   * 終極的Workfront計畫。 Workfront目標包含在此計畫中。
+   * 選取或更高版本Workfront計畫和單獨的Workfront目標授權。
 
-If your company has a legacy Workfront plan, -->
+* 如果您的公司有目前的Workfront計畫，則貴組織除了Workfront授權外，還必須購買額外的授權，讓您的使用者能夠存取Workfront目標。
 
-除了Workfront授權外，您的組織還必須購買額外授權，使用者才能存取Workfront目標。 貴組織購買額外授權後，Workfront會為您的帳戶啟用Workfront目標。 如需購買Workfront目標授權的相關資訊，請聯絡您的Workfront客戶經理。
+  貴組織購買額外授權後，Workfront會為您的帳戶啟用Workfront目標。 如需購買Workfront目標授權的相關資訊，請聯絡您的Workfront客戶經理。
+
+如需Workfront存取需求的相關資訊，請參閱 [Workfront檔案中的存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## 更新授權型別和存取層級設定  {#update-license-types-and-access-level-settings}
 
-<!--drafted for P&P release: 
-If your company has the current access level model, your Workfront administrator must grant you one of the following Workfront license types to access Workfront Goals: 
+視貴公司目前的Workfront計畫而定，會有以下情況：
 
-* Contributor
-* Light
-* Standard-->
+* 如果貴公司有新的存取層級模型，您的Workfront管理員必須授予您下列其中一種Workfront授權型別，才能存取Workfront目標：
 
-<!--drafted for P&P release: add this to the first sentence: 
-If your company has the legacy access level model, -->
+   * 貢獻者
+   * 精簡
+   * 標準
 
-您的Workfront管理員必須授予您下列其中一種Workfront授權型別，才能存取Workfront目標：
+* 如果貴公司擁有目前的存取層級模型，您的Workfront管理員必須授予您下列其中一種Workfront授權型別，才能存取Workfront目標：
 
-* 計劃
-* 工作
-* 檢閱
-* 請求
+   * 計劃
+   * 工作
+   * 檢閱
+   * 請求
 
 在您的Workfront管理員授予您其中一種授權型別後，他們還必須授予您存取層級中目標的存取權。 如需有關存取目標的資訊，請參閱 [授予Adobe Workfront目標的存取權](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md).
 

@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: 1369269bcb64bd32f26603608782dc996b079cb9
+source-git-commit: 330ee20ad14ea7409db1c6f627ed6aa0e0c5c014
 workflow-type: tm+mt
 source-wordcount: '3274'
 ht-degree: 2%
@@ -16,7 +16,7 @@ ht-degree: 2%
 
 <!---
 title: Create fields
-description: In Adobe Maestro, you can create custom fields for each kind of operational record type or taxonomy. You can then associate the field with Maestro records.
+description: In Adobe Workfront Planning, you can create custom fields for each kind of operational record type or taxonomy. You can then associate the field with records.
 hidefromtoc: yes
 hide: yes
 author: Alina
@@ -39,7 +39,7 @@ recommendations: noDisplay, noCatalog
 
 您必須先建立記錄型別，然後才能建立欄位以與之關聯。 如需詳細資訊，請參閱 [建立記錄型別](../architecture/create-record-types.md).
 
-您可以在Maestro中以下列方式建立欄位：
+您可以在Workfront Planning中以下列方式建立欄位：
 
 * 從頭開始
 * 透過連線記錄型別
@@ -47,7 +47,7 @@ recommendations: noDisplay, noCatalog
 * 藉由建立記錄型別
 * 從範本建立工作區
 
-如需有關Maestro欄位的詳細資訊，請參閱 [欄位概述](/help/quicksilver/maestro/fields/fields-overview.md).
+如需有關記錄欄位的詳細資訊，請參閱 [欄位概述](/help/quicksilver/maestro/fields/fields-overview.md).
 
 ## 存取需求
 
@@ -106,7 +106,7 @@ recommendations: noDisplay, noCatalog
 </table>
 
 
-<!--Maybe enable this at GA - but Maestro is not supposed to have Access controls in the Workfront Access Level: 
+<!--Maybe enable this at GA - but Planning is not supposed to have Access controls in the Workfront Access Level: 
 >[!NOTE]
 >
 >If you don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see [Create or modify custom access levels](../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md). -->
@@ -510,7 +510,7 @@ recommendations: noDisplay, noCatalog
 
 ## 透過連線記錄型別建立欄位
 
-當您在兩個Maestro記錄型別，或記錄型別與其他應用程式的物件型別之間新增連線時，可以建立連結的記錄欄位。
+當您在兩個記錄型別之間新增連線，或記錄型別和其他應用程式的物件型別之間新增連線時，可以建立連結的記錄欄位。
 
 如需有關連線Workfront Planning記錄型別的資訊，請參閱 [連線記錄型別](../architecture/connect-record-types.md)
 

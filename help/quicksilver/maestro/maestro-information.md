@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7a65d66e-a578-4016-805e-0cb04caaa18a
-source-git-commit: 49335ec86057e4985477034558a271bf4efcab5e
+source-git-commit: 330ee20ad14ea7409db1c6f627ed6aa0e0c5c014
 workflow-type: tm+mt
-source-wordcount: '338'
+source-wordcount: '405'
 ht-degree: 0%
 
 ---
@@ -30,15 +30,24 @@ hide: yes
 
 <!--remove the video at open beta or before-->
 
-{{planning-important-intro}}
+>[!IMPORTANT]
+>
+>本文資訊旨在說明Adobe Workfront的新產品Adobe Workfront Planning。
+>
+>目前Workfront Planning處於搶先使用階段，僅開放給有限數量的客戶使用。
+>
+>您必須是Workfront客戶才能使用這些功能。
+>
+>如果您屬於此階段，您的客戶代表將會通知您。
+>
+>如需詳細資訊，請參閱 [Adobe Workfront規劃概觀](/help/quicksilver/maestro/maestro-overview.md).
+>
+>在某些情況下，將記錄的功能發佈到生產環境後，可能會提供以下章節中參考的檔案。
 
 您可以使用此頁面作為與Adobe Workfront Planning相關的所有檔案的起點。
 
 以下各節中的文章說明如何設定Workfront Planning並開始使用。
 
->[!IMPORTANT]
->
->在功能發行至生產環境後的某個時間，將可使用以下各節中參考的檔案。
 
 ## Adobe Workfront Planning概述
 
