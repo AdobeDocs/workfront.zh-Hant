@@ -24,9 +24,9 @@ You can move goals from one time period to another by editing their Period field
   <tr>
    <td role="rowheader">Adobe Workfront plan*</td>
    <td>
-   <p>Current plan: Select or higher</p>
+   <p>New plan: Select or higher</p>
    Or
-   <p>Legacy plan: Pro or higher</p>
+   <p>Current plan: Pro or higher</p>
    
    </td>
   </tr>
