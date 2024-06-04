@@ -7,7 +7,7 @@ description: Scenario Planner需要Adobe Workfront的單獨授權和額外存取
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: d7f3c7fa-81aa-40c9-b506-fe1fe346e9ea
-source-git-commit: 330ee20ad14ea7409db1c6f627ed6aa0e0c5c014
+source-git-commit: f0f6c2bee98c6cebf8ea9e18bf34262f3c1d6e3a
 workflow-type: tm+mt
 source-wordcount: '952'
 ht-degree: 0%
@@ -43,7 +43,7 @@ might need to add information about the permissions to plans/ initiatives if tho
 
    視您使用新計畫或目前Workfront計畫而定，您的組織必須具備下列其中一項：
 
-   * 對於目前的計畫，您的組織必須具備下列其中一項：
+   * 對於新計畫，您的組織必須具備下列其中一項：
 
       * 此 [!UICONTROL Ultimate] [!DNL Workfront] 計畫。 「情境規劃工具」包含在「最終計畫」中。
 

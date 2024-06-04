@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: 1369269bcb64bd32f26603608782dc996b079cb9
+source-git-commit: f0f6c2bee98c6cebf8ea9e18bf34262f3c1d6e3a
 workflow-type: tm+mt
-source-wordcount: '1108'
+source-wordcount: '1124'
 ht-degree: 1%
 
 ---
@@ -192,6 +192,11 @@ ht-degree: 1%
    數字是自動產生的增量。
 
 1. （視條件而定）選取 **開始** 和 **結束日期** 適用於將在時間軸或行事曆檢視中顯示的記錄。
+
+   >[!TIP]
+   >
+   >    您可以從記錄日期欄位中選取，或從連線的記錄或物件中查詢日期欄位。
+
 1. 按一下「**建立**」。
 
    檢視會顯示為新標籤。 檢視會以建立或與您共用的時間順序顯示。

@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 330ee20ad14ea7409db1c6f627ed6aa0e0c5c014
+source-git-commit: f0f6c2bee98c6cebf8ea9e18bf34262f3c1d6e3a
 workflow-type: tm+mt
-source-wordcount: '6799'
+source-wordcount: '6843'
 ht-degree: 0%
 
 ---
@@ -123,6 +123,12 @@ UNIQUE運運算元適用於下列欄位型別以外的所有欄位型別：
 已刪除的工作區及其資訊無法復原。
 
 如需詳細資訊，請參閱 [刪除工作區](/help/quicksilver/maestro/architecture/delete-workspaces.md).
+
+### 時間軸檢視中現在提供查詢日期欄位
+
+您現在可以從連線的記錄或物件型別將時間表檢視的「開始日期」和「結束日期」設定為查詢欄位。
+
+如需有關建立檢視的詳細資訊，請參閱 [管理記錄檢視](/help/quicksilver/maestro/views/manage-record-views.md).
 
 ## 2024年5月20日起一週
 
