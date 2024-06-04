@@ -1,0 +1,118 @@
+---
+title: Create taxonomy record types
+description: When you use a template to create a workspace, record types are created in Operational Record Types and the Taxonomies sections. 
+hidefromtoc: yes
+hide: yes
+recommendations: noDisplay, noCatalog
+exl-id: e90a3ebe-fc02-4cce-8472-1ca5004ddde8
+---
+<!--udpate the metadata with real information when making this avilable in TOC and in the left nav-->
+
+# Create taxonomy record types
+
+{{planning-important-intro}}
+
+When you use a template to create a workspace, record types are created in the following sections: 
+
+* Operational Record Types
+* Taxonomies
+
+The record types in the Taxonomies section of a workspace capture attributes about record types in the Operational Record Types section of the same workspace.
+
+For example, Campaign can be an operational record type. The following are taxonomies which capture attributes about the Campaign record type: Region, Audience, Country. 
+
+For more information about record types, see [Record types overview](/help/quicksilver/planning/architecture/overview-of-record-types.md). 
+
+## Access requirements
+
+You must have the following access to perform the steps in this article: 
+
+<table style="table-layout:auto">
+ <col>
+ </col>
+ <col>
+ </col>
+ <tbody>
+    <tr>
+<tr>
+<td>
+   <p> Product</p> </td>
+   <td>
+   <p> Adobe Workfront</p> <p>To connect record types with Experience Manager Assets, you must have an Adobe Experience Manager Assets license and your organization's instance of Workfront must be onboarded to the Adobe Business Platform or the Adobe Admin Console.</p> </td>
+  </tr>  
+ <td role="rowheader"><p>Adobe Workfront agreement</p></td>
+   <td>
+<p>Your organization must be enrolled in the early access stage for Workfront Planning </p>
+   </td>
+  </tr>
+  <tr>
+   <td role="rowheader"><p>Adobe Workfront plan</p></td>
+   <td>
+<p>Any</p>
+   </td>
+  </tr>
+  <tr>
+   <td role="rowheader"><p>Adobe Workfront license</p></td>
+   <td>
+   <p>Any</p> 
+  </td>
+  </tr>
+  
+  <tr>
+   <td role="rowheader"><p>Access level configurations</p></td>
+   <td> <p>There are no access level controls for Adobe Workfront Planning</p>  
+</td>
+  </tr>
+<tr>
+   <td role="rowheader"><p>Layout template</p></td>
+   <td> <p>Your Workfront or group administrator must add the Planning area in your layout template. For information, see <a href="/help/quicksilver/planning/access/access-overview.md">Access overview</a>. </p>  
+</td>
+  </tr>
+<tr>
+   <td role="rowheader"><p>Permissions</p></td>
+   <td> <p>Manage permissions to a workspace</a> </p>  
+   <p>System Administrators have permissions to all workspaces, including the ones they did not create
+</td>
+  </tr>
+ </tbody>
+</table>
+
+<!--Maybe enable this at GA - but Planning is not supposed to have Access controls in the Workfront Access Level: 
+>[!NOTE]
+>
+>If you don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see [Create or modify custom access levels](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md). -->
+
+<!-- Notes to add for the table: for the "Workfront plans" row: the above is only for closed beta; when going to GA - activate the following plans:    
+<p>Current plan: Prime and Ultimate</p>
+<p>Legacy plan: Enterprise</p>-->
+
+<!-- Notes for the table: for the "Workfront access" row: <p>For more information, see <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront licenses overview</a>.</p>--> 
+
+## Considerations about creating taxonomies
+
+* You must create a workspace using a template before you can create record types in the  Taxonomies section of the workspace. 
+
+  For information about workspaces, see [Create workspaces](/help/quicksilver/planning/architecture/create-workspaces.md).  
+* You can create a record type in the Taxonomies section of a workspace by doing one of the following:
+   * Create them automatically when you create a workspace using a template. For information, see [Create workspaces](/help/quicksilver/planning/architecture/create-workspaces.md).
+   * Create them manually, from scratch, in the Taxonomies section of a workspace.   
+
+* All newly created taxonomies have the following fields, by default: 
+
+    * Name
+    * Description
+    * Start Date
+    * End Date
+    * Status
+
+    Additionally, you can add custom fields to taxonomies. For more information, see [Create fields](/help/quicksilver/planning/fields/create-fields.md).
+
+  >[!NOTE]
+  >
+  >    Taxonomy record types created when using a workspace template have additional fields. 
+
+## Create a taxonomy record type
+
+Creating taxonomy record types is similar to creating record types. 
+
+For information, see [Create record types](/help/quicksilver/planning/architecture/create-record-types.md). 
