@@ -1,5 +1,5 @@
 ---
-source-git-commit: 49335ec86057e4985477034558a271bf4efcab5e
+source-git-commit: 6c50746c4c230d7f9fa2c73b66d13c8b02153b89
 workflow-type: tm+mt
 source-wordcount: '2354'
 ht-degree: 1%
@@ -243,9 +243,9 @@ ht-degree: 1%
       </tr>
       </table>
 
-<!-- Maestro -->
+<!-- Workfront Planning -->
 
-## 步驟1 — 前往Maestro - {#step1-to-maestro}
+## 步驟1 — 前往Maestro - {#step1-to-planning}
 
 1. 按一下 **[!UICONTROL 主要功能表]** 圖示 ![主要功能表](/help/_includes/assets/main-menu-icon.png) 在Adobe Workfront的右上角，或（如果有的話）按一下 **[!UICONTROL 主要功能表]** 圖示 ![主要功能表](/help/_includes/assets/main-menu-icon-left-nav.png) 然後按一下「 」 **[!UICONTROL 規劃]**.
 
@@ -261,7 +261,7 @@ ht-degree: 1%
 >
 >如果您屬於此階段，您的客戶代表將會通知您。
 >
->如需詳細資訊，請參閱 [Adobe Workfront規劃概觀](/help/quicksilver/maestro/maestro-overview.md).
+>如需詳細資訊，請參閱 [Adobe Workfront規劃概觀](/help/quicksilver/planning/general/planning-overview.md).
 
 <!-- Manage Work -->
 
