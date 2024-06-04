@@ -7,9 +7,9 @@ description: Adobe Workfront Fusion Devtool可讓您瞭解情境並疑難排解�
 author: Becky
 feature: Workfront Fusion
 exl-id: f7557214-3615-4797-b4cb-4af70e4797ac
-source-git-commit: 7fe35f70cfc7ef346584e3cf525c2553f867ed1f
+source-git-commit: 6edcb5b826bdcf37b62396a926c923875a3a1436
 workflow-type: tm+mt
-source-wordcount: '1831'
+source-wordcount: '1858'
 ht-degree: 1%
 
 ---
@@ -73,9 +73,13 @@ ht-degree: 1%
 * [存取中的Devtool [!DNL Adobe Unified Experience]](#access-the-devtool-in-the-adobe-unified-experience)
 * [存取Classic中的Devtool [!DNL Fusion] 體驗](#access-the-devtool-in-the-classic-fusion-experience)
 
-### 存取中的Devtool [!DNL Adobe Unified Experience]
+### 存取中的Devtool [!DNL Adobe Unified Experience] 或新的Fusion體驗
 
-如果您在AdobeUnified Shell中使用Fusion，則可以從案例編輯器存取開發工具。
+如果您在AdobeUnified Shell中使用Fusion，或已更新至新的Fusion體驗，則可以從案例編輯器存取開發工具。
+
+1. 按一下 **協助程式工具** ![協助程式工具](assets/debugger-icon.png) 圖示靠近熒幕底部。
+
+或：
 
 1. 前往您要偵錯之情境的「情境編輯器」。
 

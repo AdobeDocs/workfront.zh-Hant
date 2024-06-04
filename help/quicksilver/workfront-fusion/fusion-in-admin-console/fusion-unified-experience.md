@@ -7,20 +7,20 @@ description: 透過Adobe Experience Cloud存取Workfront Fusion，可為您提�
 author: Becky
 feature: Workfront Fusion
 exl-id: ea89cf36-f08d-4f4c-b89f-4895b5947e7a
-source-git-commit: 0cb3a77c1b9b00fa886a3321c6a8d4119f58f84d
+source-git-commit: 1e8ea4b1f53a19a5872e39f7671b1b4e047f31d1
 workflow-type: tm+mt
-source-wordcount: '605'
-ht-degree: 1%
+source-wordcount: '572'
+ht-degree: 0%
 
 ---
 
-# [!DNL Adobe Unified Experience] 針對 [!DNL Workfront Fusion]
+# [!DNL Adobe Unified Experience] 的 [!DNL Workfront Fusion]
 
 存取 [!DNL Workfront Fusion] 到 [!DNL Adobe Experience Cloud] 提供順暢、統一的體驗，協助您管理所有 [!DNL Adobe] 應用程式。 單一身分管理可為您提供一個登入位置，不需要多個URL或登入ID。
 
 有關說明中導覽的影片 [!DNL Fusion] 在 [!DNL Adobe Experience Cloud]，請參閱：
 
-[[!DNL Fusion] 於之上 [!DNL Unified Shell]](https://video.tv.adobe.com/v/3412392/){target=_blank}
+[[!DNL Fusion] 於 [!DNL Unified Shell]](https://video.tv.adobe.com/v/3412392/){target=_blank}
 
 ## 存取需求
 
@@ -31,7 +31,7 @@ ht-degree: 1%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 計劃*</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] 計畫*</td> 
    <td> <p>[！UICONTROL Pro]或更高版本</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -41,9 +41,7 @@ ht-degree: 1%
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] 授權**</td> 
    <td>
-   <p>目前授權需求：否 [!DNL Workfront Fusion] 授權需求。</p>
-   <p>或</p>
-   <p>舊版授權需求： [！UICONTROL [!DNL Workfront Fusion] 適用於工作自動化與整合] </p> 
+   <p>任何</p> 
   </tr> 
   <tr> 
    <td role="rowheader">產品</td> 
@@ -57,7 +55,7 @@ ht-degree: 1%
 </table>
 *若要瞭解您擁有的計畫、授權型別或存取權，請連絡 [!DNL Workfront Fusion] 管理員。
 
-## 必要條件
+## 先決條件
 
 貴組織的Workfront Fusion例項必須上架至 [!DNL Adobe Business Platform] / [!DNL Adobe Admin Console].
 
@@ -86,7 +84,7 @@ ht-degree: 1%
 
 使用 [!UICONTROL 主要功能表] 圖示 ![](assets/main-menu-icon-left-nav.png) 左側的 [!DNL Adobe] 導覽列以開啟 [!UICONTROL 組織] 和 [!UICONTROL 團隊] 功能表。 如果您是 [!DNL Workfront Fusion] 管理員，您的 [!UICONTROL 管理] 功能表也會顯示在這裡。
 
-若要切換團隊，請按一下頁面頂端的團隊名稱，然後選取團隊。 這僅會顯示在團隊的特定頁面上，例如案例產生器或 [!UICONTROL 連線] 頁面。
+若要切換團隊，請按一下頁面頂端的團隊名稱，然後選取團隊。 專案團隊選擇器只會出現在專屬於專案團隊的頁面上，例如案例產生器或 [!UICONTROL 連線] 頁面。
 
 若要切換組織，請按一下畫面右上方的組織名稱，然後選取組織。
 
