@@ -12,9 +12,9 @@ hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: fe213fe7-5bb8-479c-926b-761cbdd7ba4e
-source-git-commit: 66b9fc84c18bce2d0cecee9368a125570c822a54
+source-git-commit: e03573640fd8af9c811cef4cf176cc4f37d757fc
 workflow-type: tm+mt
-source-wordcount: '717'
+source-wordcount: '808'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,12 @@ ht-degree: 0%
 # 安裝環境升級套件
 
 建立套件後，您可以在不同的環境中安裝它。
+
+您必須在要複製物件的環境中安裝套件 **至**. 例如，如果您在自訂重新整理沙箱環境中設定專案並將其升級至生產環境，則必須在生產環境中安裝套件。
+
+>[!IMPORTANT]
+>
+>如果您在設定環境升級的物件時重新整理自訂重新整理沙箱，則重新整理時將會遺失該設定。 我們建議您不要重新整理「自訂重新整理沙箱」，除非所有未完成的環境升級物件和套件都已成功升級。
 
 ## 先決條件
 
