@@ -6,16 +6,17 @@ title: 在Workfront Fusion中瀏覽新的使用者介面
 description: 對於未透過Adobe Experience Cloud存取Fusion的使用者，Workfront Fusion已更新其UI。 現在，他們的體驗更符合Adobe Experience Cloud上的Fusion。
 author: Becky
 feature: Workfront Fusion
-source-git-commit: 1e8ea4b1f53a19a5872e39f7671b1b4e047f31d1
+exl-id: 2887a0e2-039e-4e29-823d-82809f217045
+source-git-commit: 2a33e997113e098d0e019c2437795ac481748fc9
 workflow-type: tm+mt
-source-wordcount: '371'
+source-wordcount: '384'
 ht-degree: 0%
 
 ---
 
 # 在Workfront Fusion中導覽新體驗
 
-已針對未透過Adobe Experience Cloud存取Fusion的使用者更新Workfront Fusion。 全新的Fusion UI可為其他Adobe產品提供更順暢的體驗。
+已針對未透過Adobe Experience Cloud存取Fusion的使用者更新Workfront Fusion。 新的Fusion UI可為其他Adobe產品提供更順暢的體驗，並順利將使用者轉移至Adobe Experience Cloud。
 
 >[!IMPORTANT]
 >
