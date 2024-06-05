@@ -8,9 +8,9 @@ author: Nolan
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: 8348f5ff-c1f8-4608-b683-15f6407c6128
-source-git-commit: 508e3c786bc6cfe676fb2cb33080c99b76c3d6a0
+source-git-commit: 91371c862be6f3b99f0450ff359f601dc913dc0c
 workflow-type: tm+mt
-source-wordcount: '502'
+source-wordcount: '532'
 ht-degree: 1%
 
 ---
@@ -37,6 +37,9 @@ Workfront data lake可讓您透過商業智慧工具使用組織的Workfront資�
 >[!IMPORTANT]
 >
 >將一個專案新增到IP允許清單後，將不再允許所有其他IP位址。 在嘗試使用視覺化工具之前，請確定您已輸入所有必要的IP位址（包括建置和讀取視覺化工具的體驗）。 否則，您可能會遇到有關無效認證的錯誤。
+>
+>如果您的允許清單中未包含任何IP位址，但連線至BI工具時仍有問題，請檢查BI工具的Proxy伺服器設定。
+
 
 ## 將IP新增至允許清單
 
