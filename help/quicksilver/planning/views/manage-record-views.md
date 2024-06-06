@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: cbba9d21046d2bf05675cadea9ce706fbde6adc1
+source-git-commit: a923d86f78e6dab4705289a8165c4b31ff68b5a2
 workflow-type: tm+mt
-source-wordcount: '1114'
+source-wordcount: '1083'
 ht-degree: 1%
 
 ---
@@ -172,14 +172,12 @@ ht-degree: 1%
 >
 >建立記錄型別時，預設也會建立表格檢視。
 >
->若要建立時間表或行事曆檢視，您為其建立檢視的記錄型別必須至少有兩個日期欄位。 否則，「時間軸」和「行事曆」選項會變暗。
+>若要建立時間表或行事曆檢視，您為其建立檢視的記錄型別必須至少有兩個日期欄位。
+>
+>否則，「時間軸」和「行事曆」選項會變暗。
 >
 
 ![](assets/view-types-drop-down-from-record-type-list.png)
-
->[!NOTE]
->
->    若要建立時間表或行事曆檢視，您為其建立檢視的記錄型別必須至少有兩個日期欄位。 否則，「時間軸」或「行事曆」選項會變暗。
 
 1. （視條件而定）按一下 **下一個**，在建立時間表或行事曆檢視時。
 
@@ -195,7 +193,7 @@ ht-degree: 1%
 
    >[!TIP]
    >
-   >    您可以從記錄日期欄位中選取，或從連線的記錄或物件中查詢日期欄位。
+   >    您可以從記錄日期欄位中選取，或從連線的記錄或物件型別中查詢日期欄位。
 
 1. 按一下「**建立**」。
 

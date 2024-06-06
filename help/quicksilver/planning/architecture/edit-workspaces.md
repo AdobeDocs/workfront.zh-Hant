@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 374b6d9c-69a9-4a73-8708-51c14a78c7c9
-source-git-commit: 3856e56036a9845387d7dc6498a6f20728c8234a
+source-git-commit: 3a819fc18e0b5f438a55265ea0c5c9679ef0fdd6
 workflow-type: tm+mt
-source-wordcount: '551'
+source-wordcount: '543'
 ht-degree: 0%
 
 ---
@@ -89,8 +89,6 @@ ht-degree: 0%
 ## 編輯工作區
 
 {{step1-to-planning}}
-
-這會開啟Workfront Planning的「工作區」區域。
 
 1. 在新工作區標題的工作區名稱內按一下以重新命名，然後按下 **輸入**.
 1. 按一下 **更多** 功能表 ![](assets/more-menu.png)工作區名稱右側，然後按一下 **編輯**.

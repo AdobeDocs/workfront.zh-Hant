@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
-source-git-commit: 160bcc8796666c9615ebe8ead18813b96be26a71
+source-git-commit: 3a819fc18e0b5f438a55265ea0c5c9679ef0fdd6
 workflow-type: tm+mt
-source-wordcount: '2453'
+source-wordcount: '2432'
 ht-degree: 1%
 
 ---
@@ -158,8 +158,6 @@ hide: yes
 
 {{step1-to-planning}}
 
-根據預設，上次存取的工作區應該會開啟。
-
 1. （可選）展開現有工作區名稱右側的向下箭頭，並選取您要連線記錄的工作區。
 1. 按一下記錄型別的卡片以開啟記錄型別頁面。
 1. 選取 **表格** 從檢視 **檢視** 記錄型別頁面右上角的下拉式功能表。
@@ -224,8 +222,6 @@ hide: yes
 
 
 {{step1-to-planning}}
-
-根據預設，上次存取的工作區應該會開啟。
 
 1. （可選）展開現有工作區名稱右側的向下箭頭，並選取您要連線記錄的工作區。
 1. 按一下記錄型別的卡片以開啟記錄型別頁面。
@@ -309,8 +305,6 @@ hide: yes
 在記錄型別和Adobe Experience Manager Assets之間建立連線後，您可以將個別記錄連線到Experience Manager資產。 當您建立連線時，您從Experience Manager Assets連線的資產欄位會自動填入您連結的記錄型別中。
 
 {{step1-to-planning}}
-
-根據預設，上次存取的工作區應該會開啟。
 
 1. （可選）展開現有工作區名稱右側的向下箭頭，並選取您要連線記錄的工作區。
 1. 按一下記錄型別的卡片以開啟記錄型別頁面。

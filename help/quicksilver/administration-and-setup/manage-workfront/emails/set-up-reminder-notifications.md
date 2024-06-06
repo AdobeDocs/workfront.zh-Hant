@@ -1,13 +1,13 @@
 ---
 title: 設定提醒通知
-description: 設定提醒通知
+description: 提醒通知會根據指定條件產生傳送給使用者的電子郵件。 提醒通知會提醒使用者針對任務、問題、專案或時程表所需採取的動作。
 author: Alina, Nolan
 feature: System Setup and Administration
 role: Admin
 exl-id: 6c0fa8af-cd89-4941-a6f6-aa4e84a7dc67
-source-git-commit: 1c0a656f2603c5decabd2bb4e88da1b9530f9e1c
+source-git-commit: 3a819fc18e0b5f438a55265ea0c5c9679ef0fdd6
 workflow-type: tm+mt
-source-wordcount: '1077'
+source-wordcount: '1215'
 ht-degree: 2%
 
 ---
@@ -16,7 +16,11 @@ ht-degree: 2%
 
 <!-- Audited: 1/2024 -->
 
-提醒通知會根據指定條件傳送電子郵件給收件者。 您可以手動將提醒通知與您的工作專案建立關聯，例如專案、任務、問題和時程表。
+身為Workfront管理員，您可以為使用者建立提醒通知，並將其與您希望使用者特別注意的物件建立關聯。
+
+提醒通知會根據指定條件產生傳送給使用者的電子郵件。 提醒通知會提醒使用者針對任務、問題、專案或時程表所需採取的動作。
+
+建立提醒通知後，使用者可以手動將其與工作專案建立關聯，例如專案、任務、問題和時程表。 如需詳細資訊，請參閱 [將提醒通知附加至物件](/help/quicksilver/workfront-basics/using-notifications/attach-reminder-notification-object.md).
 
 <!--
 DRAFTED IN FLARE:
@@ -36,7 +40,7 @@ An example of how this can be used would be helpful here and/or in the section <
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront計畫</td> 
+   <td role="rowheader">Adobe Workfront計畫*</td> 
    <td>任何</td> 
   </tr> 
   <tr> 
@@ -53,7 +57,7 @@ An example of how this can be used would be helpful here and/or in the section <
  </tbody> 
 </table>
 
-如需有關此表格的詳細資訊，請參閱 [Workfront檔案中的存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*如需有關本表格資訊的詳細資訊，請參閱 [Workfront檔案中的存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## 自訂提醒電子郵件
 
@@ -126,7 +130,18 @@ An example of how this can be used would be helpful here and/or in the section <
      </tr> 
      <tr> 
       <td role="rowheader">收件者</td> 
-      <td>選取您要接收通知的使用者型別。 從各種物件關係人中選取，例如擁有者、核准者或受指派人。</td> 
+      <td><p>根據提醒通知的物件，從下列您要接收通知的使用者型別中選取：</p>
+      <ul>
+      <li>指派至</li>
+      <li>輸入者</li>
+      <li>專案團隊（專案團隊中的所有使用者都會收到提醒）</li>
+      <li>依存性任務受指派人（受指派給依存性任務的使用者會收到提醒）</li>
+      <li>專案所有者</li>
+      <li>指派給（指派給任務或問題的使用者會收到提醒）</li>
+      <li>時程表所有人</li>
+      <li>時程表核准者</li>
+      <li>時程表所有人的經理</li></ul>
+      </td> 
      </tr> 
     </tbody> 
    </table>

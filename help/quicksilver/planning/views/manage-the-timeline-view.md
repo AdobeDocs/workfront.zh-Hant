@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: b3e4b056961543ea95c67c00f93d1fe13b280985
+source-git-commit: a923d86f78e6dab4705289a8165c4b31ff68b5a2
 workflow-type: tm+mt
-source-wordcount: '1707'
+source-wordcount: '1724'
 ht-degree: 0%
 
 ---
@@ -98,6 +98,8 @@ role: User
 請考量下列事項：
 
 * 您至少有兩個日期欄位與記錄型別相關聯時，才能建立時間表檢視。 當您有一個或沒有與記錄型別相關聯的日期欄位時，時間軸檢視選項會變暗。
+
+  您可以從記錄日期欄位中選取，或從連線的記錄或物件型別中查詢日期欄位。
 * 根據與記錄關聯的日期，在下列情況下，某些記錄可能不會顯示在時間軸檢視中：
 
    * 當開始和結束日期沒有值時

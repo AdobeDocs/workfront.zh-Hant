@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: 6c50746c4c230d7f9fa2c73b66d13c8b02153b89
+source-git-commit: 3a819fc18e0b5f438a55265ea0c5c9679ef0fdd6
 workflow-type: tm+mt
-source-wordcount: '1843'
-ht-degree: 2%
+source-wordcount: '1875'
+ht-degree: 1%
 
 ---
 
@@ -283,23 +283,35 @@ Workfront Planning的架構可完全自訂。 您可以建立所有記錄型別�
 
    「工作區」區域隨即開啟。
 
+   <!--replace above with: The Workfront Planning landing page opens. 
+    ![](assets/planning-landing-page-admin.png)
+    1. (Conditional and optional) If you are a Workfront administrator, click one of the following tabs:
+    * **My workspaces**: Displays workspaces you created or workspaces that are shared with you.
+    * **Other workspaces**: Displays all workspaces in the system.
+    Otherwise, all workspaces display in the **Workspaces** area.-->
+
 1. （選用且建議使用）繼續下列部分動作，以建置您的工作結構：
 
-   1. 從頭開始或使用範本建立工作區。
+   1. 從頭開始或使用範本建立工作區。 如需詳細資訊，請參閱 [建立工作區](/help/quicksilver/planning/architecture/create-workspaces.md).
 
-   1. 新增區段至新工作區。
+   1. 新增區段至新工作區。 如需詳細資訊，請參閱 [編輯工作區](/help/quicksilver/planning/architecture/edit-workspaces.md).
    1. 重新命名新工作區中的現有區段。
-   1. 將記錄型別新增至新工作區。
+   1. 將記錄型別新增至新工作區。 如需詳細資訊，請參閱 [建立記錄型別](/help/quicksilver/planning/architecture/create-record-types.md).
 
    1. 按一下記錄型別的名稱以開啟記錄型別的頁面。 記錄型別頁面預設會在「表格」檢視中開啟。
 
-      您也可以建立時間表或行事曆檢視。
+      您也可以建立時間表或行事曆檢視。 如需詳細資訊，請參閱 [管理記錄檢視](/help/quicksilver/planning/views/manage-record-views.md).
 
    1. 在表格檢視中，新增列以開始新增記錄
 
       或
 
       透過新增欄開始新增記錄欄位。
+
+      如需詳細資訊，請參閱下列文章：
+
+      * [建立記錄](/help/quicksilver/planning/records/create-records.md)
+      * [建立欄位](/help/quicksilver/planning/fields/create-fields.md).
 
 ## Adobe Workfront Planning發行活動
 

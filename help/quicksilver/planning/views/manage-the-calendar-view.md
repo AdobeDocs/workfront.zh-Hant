@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 45b5be81-703c-45d5-a08c-60cb8ec5b103
-source-git-commit: 278d740303b0fa2f1d1b10801634ce76ce0f5739
+source-git-commit: a923d86f78e6dab4705289a8165c4b31ff68b5a2
 workflow-type: tm+mt
-source-wordcount: '550'
+source-wordcount: '567'
 ht-degree: 0%
 
 ---
@@ -96,6 +96,8 @@ hide: yes
 請考量下列事項：
 
 * 只有當您至少有兩個日期欄位與記錄型別相關聯時，才能建立「行事曆」檢視。 當您有一個或沒有與記錄型別相關聯的日期欄位時，「行事曆」檢視選項會變暗。
+
+  您可以從記錄日期欄位中選取，或從連線的記錄或物件型別中查詢日期欄位。
 * 存在下列情況：
 
    * 當「開始」與「結束」日期都沒有值時，記錄不會顯示在行事曆上

@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: f0436d0712a34ca0c92e648e6943c310edf8b7b8
+source-git-commit: 3a819fc18e0b5f438a55265ea0c5c9679ef0fdd6
 workflow-type: tm+mt
-source-wordcount: '6847'
+source-wordcount: '6853'
 ht-degree: 0%
 
 ---
@@ -39,9 +39,6 @@ ht-degree: 0%
 
 自2024年1月起，Workfront計畫已暫時從預覽和沙箱環境中移除。 在此日期之後發行的所有功能目前可在生產環境中使用。
 
-
-
-
 <!--
 
 ## Week of <date>
@@ -56,14 +53,37 @@ If your organization is not in the Adobe Unified Experience, you receive an emai
 
 For more information, see [Adobe Workfront Planning notifications: Article index](/help/quicksilver/planning/notifications/notifications-information.md). 
 
-### New process for deleting a workspace 
+## Week of June 3, 2024
 
-Production: May 30, 2024 
+### New landing page for Workfront Planning
+
+Production: <date> 
 
 Preview: To be determined 
 
-Because the impact for deleting a workspace can be significant, we are adding an extra step in confirming the deletion. Users are required to type "delete" before they can complete the deletion of a workspace. For more information, see [Delete workspaces](/help/quicksilver/planning/architecture/delete-workspaces.md).  
+We are introducing a new landing page for Workfront Planning. The page opens after you click Planning in the Main Menu.  
 
+Some of the information on the landing page includes the following: 
+
+* An area that displays your workspaces and workspaces that are shared with you. The workspace owner is listed on each workspace card.  
+
+* If you are a Workfront administrator, the Other workspaces additional tab displays all workspaces in the system 
+
+* Links to documentation about Workfront Planning 
+
+* A get-started tutorial for Workfront Planning.  
+
+For more information, see Adobe Workfront Planning overview (help/quicksilver/maestro/maestro-overview.md). 
+
+### New onboarding experience for Workfront Planning
+
+Production: <date> 
+
+Preview: To be determined 
+
+When new users access Workfront Planning for the first time, they are now welcomed by a self-prompted onboarding tutorial that guides them through simple tasks and define the main concepts of the solution.  
+
+You can walk through the onboarding process or minimize it and revisit it at a later time.  
 -->
 
 ## 2024年5月27日起一週
@@ -125,6 +145,10 @@ UNIQUE運運算元適用於下列欄位型別以外的所有欄位型別：
 如需詳細資訊，請參閱 [刪除工作區](/help/quicksilver/planning/architecture/delete-workspaces.md).
 
 ### 時間軸檢視中現在提供查詢日期欄位
+
+生產： 2024年5月31日
+
+預覽：待定
 
 您現在可以從連線的記錄或物件型別將時間表檢視的「開始日期」和「結束日期」設定為查詢欄位。
 

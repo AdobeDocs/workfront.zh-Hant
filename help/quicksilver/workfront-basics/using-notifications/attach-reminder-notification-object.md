@@ -2,29 +2,29 @@
 user-type: administrator
 product-area: system-administration
 navigation-topic: emails-administration
-title: 將提醒通知附加到對象
-description: 提醒通知可以與對象類型「項目」、「任務」、「問題」、「時間表」、「模板」、「模板任務」和「循環工時單配置檔案」相關聯。
+title: 將提醒通知附加至物件
+description: 「您可以將提醒通知與數個不同物件型別建立關聯：專案、任務、問題、時程表、範本、範本任務和週期性時程表設定檔。」
 author: Lisa
 feature: Get Started with Workfront
 exl-id: ea04d807-1a9f-4a23-96de-cd83f0821ba0
-source-git-commit: f3ba39e02d690dd3a0d50ecdb22af0c12a3d4ffb
+source-git-commit: 3a819fc18e0b5f438a55265ea0c5c9679ef0fdd6
 workflow-type: tm+mt
-source-wordcount: '285'
-ht-degree: 0%
+source-wordcount: '286'
+ht-degree: 1%
 
 ---
 
-# 將提醒通知附加到對象
+# 將提醒通知附加至物件
 
-提醒通知可以與幾種不同的對象類型關聯：項目、任務、問題、時間表、模板、模板任務和循環工時單配置檔案。
+您可以將提醒通知與數個不同物件型別建立關聯：專案、任務、問題、時程表、範本、範本任務和週期性時程表設定檔。
 
-在將提醒通知附加到對象之前，請 [!DNL Adobe Workfront] 管理員必須建立通知，如 [設定提醒通知](../../administration-and-setup/manage-workfront/emails/set-up-reminder-notifications.md).
+將提醒通知附加至物件之前，請先 [!DNL Adobe Workfront] 管理員必須建立通知，如所述 [設定提醒通知](../../administration-and-setup/manage-workfront/emails/set-up-reminder-notifications.md).
 
-附加提醒通知的步驟相同，無論您要附加提醒通知的對象類型如何。
+無論您要附加提醒通知的物件型別為何，附加提醒通知的步驟都是相同的。
 
 ## 存取需求
 
-您必須具備下列存取權，才能執行本文中的步驟：
+您必須具有下列存取權才能執行本文中的步驟：
 
 <table style="table-layout:auto"> 
  <col> 
@@ -38,35 +38,35 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] 授權*</strong></td> 
-   <td> <p>[!UICONTROL工作] </p> </td> 
+   <td> <p>[！UICONTROL作品] </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>訪問級別配置*</strong></td> 
-   <td> <p>[!UICONTROL Worker]或更高版本</p> <p>注意：如果您仍無法存取，請詢問您的 [!DNL Workfront] 管理員。 若要了解 [!DNL Workfront] 管理員可修改您的存取層級，請參閱 <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>.</p> </td> 
+   <td role="rowheader"><strong>存取層級設定*</strong></td> 
+   <td> <p>[！UICONTROL Worker]或更高版本</p> <p>注意：如果您還是沒有存取權，請詢問您的 [!DNL Workfront] 管理員是否對您的存取層級設定其他限制。 如需瞭解如何 [!DNL Workfront] 管理員可以修改您的存取層級，請參閱 <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>物件權限</strong></td> 
-   <td> <p>管理對對象的訪問</p> <p>有關請求其他訪問的資訊，請參閱 <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">請求對對象的訪問 </a>.</p> </td> 
+   <td role="rowheader"><strong>物件許可權</strong></td> 
+   <td> <p>管理物件的存取權</p> <p>如需請求其他存取許可權的詳細資訊，請參閱 <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">要求物件的存取權 </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;若要了解您擁有的計畫、授權類型或存取權，請聯絡您的 [!DNL Workfront] 管理員。
+&#42;若要瞭解您擁有的計畫、授權型別或存取權，請聯絡您的 [!DNL Workfront] 管理員。
 
-## 將提醒通知附加到對象
+## 將提醒通知附加至物件
 
-1. 轉到要附加提醒通知的對象。
-1. 按一下「編輯」圖示 ![](assets/edit-icon.png).
-1. 在 **[!UICONTROL 編輯]** 框，按一下 **[!UICONTROL 設定]**.
+1. 移至您要附加提醒通知的物件。
+1. 按一下編輯圖示 ![](assets/edit-icon.png).
+1. 在的左側面板 **[!UICONTROL 編輯]** 方塊中，按一下 **[!UICONTROL 設定]**.
 
-1. 在 **[!UICONTROL 提醒通知]**，選擇要附加到對象的通知。
+1. 在 **[!UICONTROL 提醒通知]**，選取您要附加至物件的通知。
 
-   在此範例中，要編輯的物件是任務：
+   在此範例中，正在編輯的物件是工作：
 
    ![](assets/reminder-notification-select-one-350x213.png)
 
-   若 [!DNL Workfront] 管理員已建立多個提醒通知，您可以將多個通知附加到單個對象。
+   如果 [!DNL Workfront] 管理員已建立多個提醒通知，您可以將多個通知附加至單一物件。
 
-1. 按一下 **[!UICONTROL 儲存變更]**.
+1. 按一下「**[!UICONTROL 儲存變更]**」。
 
-   如果您需要測試提醒通知傳送的協助，請參閱 [!DNL Workfront] 管理員。
+   如果您需要測試提醒通知傳送的協助，請參閱您的 [!DNL Workfront] 管理員。
