@@ -5,26 +5,26 @@ product-area: workfront-integrations
 keywords: 聯結器
 navigation-topic: apps-and-their-modules
 title: Microsoft Office 365電子郵件
-description: 在 [!DNL Adobe Workfront Fusion] 案例中，您可以自動化使用Microsoft Office 365電子郵件的工作流程，並將其連線到多個第三方應用程式和服務。
+description: 在 [!DNL Adobe Workfront Fusion] 案例中，您可以自動化使用Microsoft Office 365電子郵件的工作流程，並將其連線到多個協力廠商應用程式和服務。
 author: Becky
 feature: Workfront Fusion
 exl-id: 29b69e8c-a889-441e-a052-287f1db2052d
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 7d5f7c21fe38d43fb5601c81b8a31cc80587848f
 workflow-type: tm+mt
-source-wordcount: '1886'
+source-wordcount: '1974'
 ht-degree: 0%
 
 ---
 
 # [!DNL Microsoft Office 365 Email]
 
-在 [!DNL Adobe Workfront Fusion] 情境下，您可以自動化使用下列專案的工作流程： [!UICONTROL Microsoft Office 365電子郵件]，以及將其連線到多個協力廠商應用程式和服務。
+在 [!DNL Adobe Workfront Fusion] 情境中，您可以使用自動化工作流程 [!UICONTROL Microsoft Office 365電子郵件]，並連結至多個協力廠商應用程式和服務。
 
 為了使用 [!UICONTROL Office 365電子郵件] 替換為 [!DNL Adobe Workfront Fusion]，您必須擁有 [!UICONTROL Office 365帳戶]. 您可以在www.office.com建立一個。
 
-如需有關連線您的電腦的指示， [!UICONTROL Office 365] 帳戶至 [!DNL Workfront Fusion]，請參閱 [建立與的連線 [!DNL Adobe Workfront Fusion]  — 基本指示](../../workfront-fusion/connections/connect-to-fusion-general.md)
+如需有關連線您的電腦的指示 [!UICONTROL Office 365] 帳戶至 [!DNL Workfront Fusion]，請參閱 [建立與的連線 [!DNL Adobe Workfront Fusion]  — 基本指示](../../workfront-fusion/connections/connect-to-fusion-general.md)
 
-在您授與同意後，系統會將您重新導向回 [!UICONTROL Workfront Fusion] 管理頁面，您可以在此繼續建立情境。
+在您同意後，系統會將您重新導向回 [!UICONTROL Workfront Fusion] 「管理」頁面，您可以在此頁面繼續建立情境。
 
 ## 存取需求
 
@@ -35,7 +35,7 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 計劃*</td>
+   <td role="rowheader">[!DNL Adobe Workfront] 計畫*</td>
   <td> <p>[！UICONTROL Pro]或更高版本</p> </td>
   </tr> 
   <tr data-mc-conditions=""> 
@@ -53,27 +53,39 @@ ht-degree: 0%
   <tr> 
    <td role="rowheader">產品</td> 
    <td>
-   <p>目前產品需求：如果您有[！UICONTROL Select]或[！UICONTROL Prime] [!DNL Adobe Workfront] 計畫，您的組織必須購買 [!DNL Adobe Workfront Fusion] 以及 [!DNL Adobe Workfront] 以使用本文所述功能。 [!DNL Workfront Fusion] 包含在[！UICONTROL Ultimate]中 [!DNL Workfront] 計畫。</p>
+   <p>目前產品需求：如果您有[！UICONTROL Select]或[！UICONTROL Prime] [!DNL Adobe Workfront] 計畫，您的組織必須購買 [!DNL Adobe Workfront Fusion] 以及 [!DNL Adobe Workfront] 以使用本文所述的功能。 [!DNL Workfront Fusion] 包含在[！UICONTROL Ultimate]中 [!DNL Workfront] 計畫。</p>
    <p>或</p>
-   <p>舊版產品需求：貴組織必須購買 [!DNL Adobe Workfront Fusion] 以及 [!DNL Adobe Workfront] 以使用本文所述功能。</p>
+   <p>舊版產品需求：貴組織必須購買 [!DNL Adobe Workfront Fusion] 以及 [!DNL Adobe Workfront] 以使用本文所述的功能。</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-若要瞭解您擁有哪些計畫、授權型別或存取權，請聯絡您的 [!DNL Workfront] 管理員。
+若要瞭解您擁有的計畫、授權型別或存取權，請聯絡您的 [!DNL Workfront] 管理員。
 
-有關以下專案的資訊： [!DNL Adobe Workfront Fusion] 授權，請參閱 [[!DNL Adobe Workfront Fusion] 授權](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+有關的資訊 [!DNL Adobe Workfront Fusion] 授權，請參閱 [[!DNL Adobe Workfront Fusion] 授權](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
-## 必要條件
+## 先決條件
 
 使用 [!DNL Microsoft Office 365 Email] 模組，您必須擁有 [!DNL Microsoft Office 365 Email] 帳戶。
 
+
+
+## 連線 [!DNL Office 365 Email] 服務對象 [!DNL Workfront Fusion]
+
+如需有關連線您的電腦的指示 [!DNL Office 365 Email] 帳戶至 [!UICONTROL Workfront Fusion]，請參閱 [建立與的連線 [!UICONTROL Adobe Workfront Fusion]  — 基本指示](../../workfront-fusion/connections/connect-to-fusion-general.md)
+
+>[!NOTE]
+>
+>部分Microsoft應用程式使用相同的連線，而此連線會繫結至個別使用者許可權。 因此，在建立連線時，許可權同意畫面會顯示先前授與此使用者連線的所有許可權，以及目前應用程式所需的任何新許可權。
+>
+>例如，如果使用者擁有透過Excel聯結器授予的「讀取表格」許可權，然後在Outlook聯結器中建立連線以讀取電子郵件，則許可權同意畫面會顯示已授予的「讀取表格」許可權和新要求的「寫入電子郵件」許可權。
+
 ## [!DNL Microsoft Office 365 Email] 模組及其欄位
 
-當您設定 [!DNL Microsoft Office 365 Email] 模組， [!DNL Workfront Fusion] 顯示下列欄位。 除了這些以外， [!DNL Microsoft Office 365 Email] 視您在應用程式或服務中的存取層級等因素而定，可能會顯示欄位。 模組中的粗體標題表示必填欄位。
+當您設定 [!DNL Microsoft Office 365 Email] 模組， [!DNL Workfront Fusion] 顯示下列欄位。 除了這些以外， [!DNL Microsoft Office 365 Email] 欄位可能會顯示，端視您應用程式或服務中的存取層級等因素而定。 模組中的粗體標題表示必填欄位。
 
-如果您在欄位或函式上方看到對應按鈕，則可以使用它來設定該欄位的變數和函式。 如需詳細資訊，請參閱 [將資訊從一個模組對應至中的另一個模組 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
+如果您在欄位或函式上方看到對應按鈕，則可以使用它來設定該欄位的變數和函式。 如需詳細資訊，請參閱 [在中將資訊從一個模組對應到另一個模組 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
 
 ![](assets/map-toggle-350x74.png)
 
@@ -87,24 +99,24 @@ ht-degree: 0%
 * [[!UICONTROL 觀看訊息]](#watch-messages)
 * [[!UICONTROL 搜尋訊息]](#search-messages)
 * [[!UICONTROL 取得訊息]](#get-a-message)
-* [[!UICONTROL 建立並傳送訊息]](#create-and-send-a-message)
+* [[!UICONTROL 建立及傳送訊息]](#create-and-send-a-message)
 * [[!UICONTROL 移動訊息]](#move-a-message)
 * [[!UICONTROL 刪除訊息]](#delete-a-message)
 
 #### [!UICONTROL 觀看訊息]
 
-傳送或接收新電子郵件時觸發。
+在傳送或接收新電子郵件時觸發。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[！UICONTROL連線] </td> 
-   <td> <p>如需有關連線您的電腦的指示， [!DNL Office 365] 帳戶至 [!DNL Workfront Fusion]，請參閱 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與的連線 [!DNL Adobe Workfront Fusion]  — 基本指示</a></p> </td> 
+   <td role="rowheader">[！UICONTROL Connection] </td> 
+   <td> <p>如需有關連線您的電腦的指示 [!DNL Office 365] 帳戶至 [!DNL Workfront Fusion]，請參閱 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與的連線 [!DNL Adobe Workfront Fusion]  — 基本指示</a></p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[！UICONTROL觀看訊息]</p> </td> 
+   <td role="rowheader"> <p>[！UICONTROL監視訊息]</p> </td> 
    <td> <p>選取您要觀看的訊息：</p> 
     <ul> 
      <li>[！UICONTROL Only Unread]</li> 
@@ -114,11 +126,11 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL郵件資料夾]</td> 
-   <td> <p>選取包含您要觀看之訊息的資料夾。</p> </td> 
+   <td> <p>選取包含您要觀看之郵件的資料夾。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL搜尋]</td> 
-   <td>輸入您的搜尋查詢。 如需如何撰寫搜尋查詢的詳細資訊，請參閱 [!DNL Microsoft] 支援文章 <a href="https://support.microsoft.com/en-us/office/search-mail-and-people-in-outlook-com-88108edf-028e-4306-b87e-7400bbb40aa7?ui=en-us&amp;rs=en-us&amp;ad=us">搜尋郵件和人員於 [!DNL Outlook.com]</a>.</td> 
+   <td>輸入您的搜尋查詢。 如需如何撰寫搜尋查詢的詳細資訊，請參閱 [!DNL Microsoft] 支援文章 <a href="https://support.microsoft.com/en-us/office/search-mail-and-people-in-outlook-com-88108edf-028e-4306-b87e-7400bbb40aa7?ui=en-us&amp;rs=en-us&amp;ad=us">搜尋郵件和人員 [!DNL Outlook.com]</a>.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL限制] </td> 
@@ -136,8 +148,8 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[！UICONTROL連線] </td> 
-   <td> <p>如需有關連線您的電腦的指示， [!DNL Office 365] 帳戶至 [!DNL Workfront Fusion]，請參閱 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與的連線 [!DNL Adobe Workfront Fusion]  — 基本指示</a></p> </td> 
+   <td role="rowheader">[！UICONTROL Connection] </td> 
+   <td> <p>如需有關連線您的電腦的指示 [!DNL Office 365] 帳戶至 [!DNL Workfront Fusion]，請參閱 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與的連線 [!DNL Adobe Workfront Fusion]  — 基本指示</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL郵件資料夾]</td> 
@@ -145,7 +157,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL搜尋]</td> 
-   <td>輸入您的搜尋查詢。 如需如何撰寫搜尋查詢的詳細資訊，請參閱 [!DNL Microsoft] 支援文章 <a href="https://support.microsoft.com/en-us/office/search-mail-and-people-in-outlook-com-88108edf-028e-4306-b87e-7400bbb40aa7?ui=en-us&amp;rs=en-us&amp;ad=us">搜尋郵件和人員於 [!DNL Outlook.com]</a>.</td> 
+   <td>輸入您的搜尋查詢。 如需如何撰寫搜尋查詢的詳細資訊，請參閱 [!DNL Microsoft] 支援文章 <a href="https://support.microsoft.com/en-us/office/search-mail-and-people-in-outlook-com-88108edf-028e-4306-b87e-7400bbb40aa7?ui=en-us&amp;rs=en-us&amp;ad=us">搜尋郵件和人員 [!DNL Outlook.com]</a>.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL Order by]</td> 
@@ -153,7 +165,7 @@ ht-degree: 0%
     <ul> 
      <li>[！UICONTROL主旨（遞增或遞減）]</li> 
      <li>[！UICONTROL建立的日期時間（升序或降序）]</li> 
-     <li>[！UICONTROL上次修改日期時間（升序或降序）]</li> 
+     <li>[！UICONTROL上次修改的日期時間（升序或降序）]</li> 
      <li>[！UICONTROL收到日期時間（升序或降序）]</li> 
     </ul> </td> 
   </tr> 
@@ -173,8 +185,8 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[！UICONTROL連線] </td> 
-   <td> <p>如需有關連線您的電腦的指示， [!DNL Office 365] 帳戶至 [!DNL Workfront Fusion]，請參閱 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與的連線 [!DNL Adobe Workfront Fusion]  — 基本指示</a></p> </td> 
+   <td role="rowheader">[！UICONTROL Connection] </td> 
+   <td> <p>如需有關連線您的電腦的指示 [!DNL Office 365] 帳戶至 [!DNL Workfront Fusion]，請參閱 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與的連線 [!DNL Adobe Workfront Fusion]  — 基本指示</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL訊息ID]</td> 
@@ -187,7 +199,7 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-#### [!UICONTROL 建立並傳送訊息]
+#### [!UICONTROL 建立及傳送訊息]
 
 建立並傳送電子郵件訊息。
 
@@ -196,8 +208,8 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[！UICONTROL連線] </td> 
-   <td> <p>如需有關連線您的電腦的指示， [!DNL Office 365] 帳戶至 [!DNL Workfront Fusion]，請參閱 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與的連線 [!DNL Adobe Workfront Fusion]  — 基本指示</a></p> </td> 
+   <td role="rowheader">[！UICONTROL Connection] </td> 
+   <td> <p>如需有關連線您的電腦的指示 [!DNL Office 365] 帳戶至 [!DNL Workfront Fusion]，請參閱 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與的連線 [!DNL Adobe Workfront Fusion]  — 基本指示</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL主旨]</td> 
@@ -209,14 +221,14 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL內文內容]</td> 
-   <td> <p>輸入或對映電子郵件的訊息內文。</p> </td> 
+   <td> <p>輸入或對應電子郵件的郵件內文。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL重要性]</td> 
    <td> <p>選取電子郵件的重要性</p> 
     <ul> 
      <li>[！UICONTROL低]</li> 
-     <li>[！UICONTROL標準]</li> 
+     <li>[！UICONTROL Normal]</li> 
      <li>[！UICONTROL高]</li> 
     </ul> </td> 
   </tr> 
@@ -230,7 +242,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[！UICONTROL CC收件者]</p> </td> 
-   <td> <p>新增您要接收訊息復本的收件者：</p> 
+   <td> <p>新增您要接收郵件復本的收件者：</p> 
     <ul> 
      <li> <p><strong>[！UICONTROL名稱]</strong> </p> <p>輸入連絡人姓名</p> </li> 
      <li> <p><strong>[！UICONTROL電子郵件地址]</strong> </p> <p>輸入連絡人的電子郵件地址。</p> </li> 
@@ -248,13 +260,13 @@ ht-degree: 0%
    <td role="rowheader"> <p>[！UICONTROL附件]</p> </td> 
    <td> <p>將附件新增至電子郵件：</p> 
     <ul> 
-     <li> <p><strong>[！UICONTROL檔案名稱]</strong> </p> <p>輸入檔案名稱。 範例: <code>sample.doc</code></p> </li> 
+     <li> <p><strong>[！UICONTROL檔案名稱]</strong> </p> <p>輸入檔案名稱。 範例： <code>sample.doc</code></p> </li> 
      <li> <p><strong>[！UICONTROL資料]</strong> </p> <p>在欄位中輸入檔案資料，或對映檔案的來源。</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL Internet郵件標頭]</td> 
-   <td> <p>新增電子郵件的郵件標頭。</p> 
+   <td> <p>新增電子郵件的郵件標題。</p> 
     <ul> 
      <li> <p><strong>[！UICONTROL名稱]</strong> </p> <p>輸入頁首的名稱</p> </li> 
      <li> <p><strong>[！UICONTROL電子郵件地址]</strong> </p> <p>輸入頁首的值。</p> </li> 
@@ -272,16 +284,16 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[！UICONTROL連線] </td> 
-   <td> <p>如需有關連線您的電腦的指示， [!DNL Office 365] 帳戶至 [!DNL Workfront Fusion]，請參閱 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與的連線 [!DNL Adobe Workfront Fusion]  — 基本指示</a></p> </td> 
+   <td role="rowheader">[！UICONTROL Connection] </td> 
+   <td> <p>如需有關連線您的電腦的指示 [!DNL Office 365] 帳戶至 [!DNL Workfront Fusion]，請參閱 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與的連線 [!DNL Adobe Workfront Fusion]  — 基本指示</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL訊息ID]</td> 
-   <td> <p> 選取或對應您要移至其他資料夾之郵件的ID。</p> </td> 
+   <td> <p> 選取或對應您要移至其他資料夾的郵件ID。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL郵件資料夾] </td> 
-   <td> <p>選取或對應您要移動郵件的資料夾ID。</p> </td> 
+   <td> <p>選取或對應您要移動郵件的資料夾識別碼。</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -295,8 +307,8 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[！UICONTROL連線] </td> 
-   <td> <p>如需有關連線您的電腦的指示， [!DNL Office 365] 帳戶至 [!DNL Workfront Fusion]，請參閱 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與的連線 [!DNL Adobe Workfront Fusion]  — 基本指示</a></p> </td> 
+   <td role="rowheader">[！UICONTROL Connection] </td> 
+   <td> <p>如需有關連線您的電腦的指示 [!DNL Office 365] 帳戶至 [!DNL Workfront Fusion]，請參閱 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與的連線 [!DNL Adobe Workfront Fusion]  — 基本指示</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL訊息ID]</td> 
@@ -320,8 +332,8 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[！UICONTROL連線] </td> 
-   <td> <p>如需有關連線您的電腦的指示， [!DNL Office 365] 帳戶至 [!DNL Workfront Fusion]，請參閱 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與的連線 [!DNL Adobe Workfront Fusion]  — 基本指示</a></p> </td> 
+   <td role="rowheader">[！UICONTROL Connection] </td> 
+   <td> <p>如需有關連線您的電腦的指示 [!DNL Office 365] 帳戶至 [!DNL Workfront Fusion]，請參閱 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與的連線 [!DNL Adobe Workfront Fusion]  — 基本指示</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL主旨]</td> 
@@ -333,14 +345,14 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL內文內容]</td> 
-   <td> <p>輸入電子郵件的訊息內文。</p> </td> 
+   <td> <p>輸入電子郵件的郵件內文。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL重要性]</td> 
    <td> <p>選取電子郵件的重要性</p> 
     <ul> 
      <li>[！UICONTROL低]</li> 
-     <li>[！UICONTROL標準]</li> 
+     <li>[！UICONTROL Normal]</li> 
      <li>[！UICONTROL高]</li> 
     </ul> </td> 
   </tr> 
@@ -354,10 +366,10 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[！UICONTROL CC收件者]</p> </td> 
-   <td> <p>新增收件者您想要接收訊息復本的：</p> 
+   <td> <p>新增收件者您想要收到訊息復本的：</p> 
     <ul> 
      <li> <p><strong>名稱</strong> </p> <p>輸入連絡人姓名</p> </li> 
-     <li> <p><strong>電子郵件位址</strong> </p> <p>輸入連絡人的電子郵件地址。</p> </li> 
+     <li> <p><strong>電子郵件地址</strong> </p> <p>輸入連絡人的電子郵件地址。</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -372,7 +384,7 @@ ht-degree: 0%
    <td role="rowheader"> <p>[！UICONTROL附件]</p> </td> 
    <td> <p>將附件新增至電子郵件：</p> 
     <ul> 
-     <li> <p><strong>[！UICONTROL檔案名稱]</strong> </p> <p>輸入檔案名稱。 範例: <code>sample.doc</code></p> </li> 
+     <li> <p><strong>[！UICONTROL檔案名稱]</strong> </p> <p>輸入檔案名稱。 範例： <code>sample.doc</code></p> </li> 
      <li> <p><strong>[！UICONTROL資料]</strong> </p> <p>在欄位中輸入檔案資料，或對映檔案的來源。</p> </li> 
     </ul> </td> 
   </tr> 
@@ -388,8 +400,8 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[！UICONTROL連線] </td> 
-   <td> <p>如需有關連線您的電腦的指示， [!DNL Office 365] 帳戶至 [!DNL Workfront Fusion]，請參閱 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與的連線 [!DNL Adobe Workfront Fusion]  — 基本指示</a></p> </td> 
+   <td role="rowheader">[！UICONTROL Connection] </td> 
+   <td> <p>如需有關連線您的電腦的指示 [!DNL Office 365] 帳戶至 [!DNL Workfront Fusion]，請參閱 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與的連線 [!DNL Adobe Workfront Fusion]  — 基本指示</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL草稿訊息ID]</td> 
@@ -400,22 +412,22 @@ ht-degree: 0%
 
 #### [!UICONTROL 更新訊息]
 
-更新現有訊息。
+更新現有的訊息。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[！UICONTROL連線] </td> 
-   <td> <p>如需有關連線您的電腦的指示， [!DNL Office 365] 帳戶至 [!DNL Workfront Fusion]，請參閱 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與的連線 [!DNL Adobe Workfront Fusion]  — 基本指示</a></p> </td> 
+   <td role="rowheader">[！UICONTROL Connection] </td> 
+   <td> <p>如需有關連線您的電腦的指示 [!DNL Office 365] 帳戶至 [!DNL Workfront Fusion]，請參閱 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與的連線 [!DNL Adobe Workfront Fusion]  — 基本指示</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL輸入訊息ID]</td> 
    <td> <p>選取您要如何識別要更新的訊息：</p> 
     <ul> 
-     <li> <p><strong>[！UICONTROL手動輸入]</strong> </p> <p>輸入或對應訊息ID。</p> </li> 
-     <li> <p><strong>[！UICONTROL從清單中選取]</strong> </p> <p>選取包含要更新之郵件的資料夾，然後選取郵件</p> </li> 
+     <li> <p><strong>[！UICONTROL手動輸入]</strong> </p> <p>輸入或對映訊息ID。</p> </li> 
+     <li> <p><strong>[！UICONTROL從清單中選擇]</strong> </p> <p>選取包含要更新之郵件的資料夾，然後選取郵件</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -424,14 +436,14 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL內文內容]</td> 
-   <td> <p>輸入電子郵件的訊息內文。</p> </td> 
+   <td> <p>輸入電子郵件的郵件內文。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL重要性]</td> 
    <td> <p>選取電子郵件的重要性</p> 
     <ul> 
      <li>[！UICONTROL低]</li> 
-     <li>[！UICONTROL標準]</li> 
+     <li>[！UICONTROL Normal]</li> 
      <li>[！UICONTROL高]</li> 
     </ul> </td> 
   </tr> 
@@ -445,7 +457,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[！UICONTROL CC收件者]</p> </td> 
-   <td> <p>新增收件者您想要接收訊息復本的：</p> 
+   <td> <p>新增收件者您想要收到訊息復本的：</p> 
     <ul> 
      <li> <p><strong>[！UICONTROL名稱]</strong> </p> <p>輸入連絡人姓名</p> </li> 
      <li> <p><strong>[！UICONTROL電子郵件地址]</strong> </p> <p>輸入連絡人的電子郵件地址。</p> </li> 
@@ -463,7 +475,7 @@ ht-degree: 0%
    <td role="rowheader"> <p>[！UICONTROL附件]</p> </td> 
    <td> <p>將附件新增至電子郵件：</p> 
     <ul> 
-     <li> <p><strong>[！UICONTROL檔案名稱]</strong> </p> <p>輸入檔案名稱。 範例: <code>sample.doc</code></p> </li> 
+     <li> <p><strong>[！UICONTROL檔案名稱]</strong> </p> <p>輸入檔案名稱。 範例： <code>sample.doc</code></p> </li> 
      <li> <p><strong>[！UICONTROL資料]</strong> </p> <p>在欄位中輸入檔案資料，或對映檔案的來源。</p> </li> 
     </ul> </td> 
   </tr> 
@@ -476,10 +488,10 @@ ht-degree: 0%
 
 ### 附件
 
-* [[!UICONTROL 清單附件]](#list-attachments)
+* [[!UICONTROL 列出附件]](#list-attachments)
 * [[!UICONTROL 下載附件]](#download-an-attachment)
 
-#### [!UICONTROL 清單附件]
+#### [!UICONTROL 列出附件]
 
 此模組會擷取屬於指定郵件的附件清單。
 
@@ -488,16 +500,16 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[！UICONTROL連線] </td> 
-   <td> <p>如需有關連線您的電腦的指示， [!DNL Office 365] 帳戶至 [!DNL Workfront Fusion]，請參閱 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與的連線 [!DNL Adobe Workfront Fusion]  — 基本指示</a></p> </td> 
+   <td role="rowheader">[！UICONTROL Connection] </td> 
+   <td> <p>如需有關連線您的電腦的指示 [!DNL Office 365] 帳戶至 [!DNL Workfront Fusion]，請參閱 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與的連線 [!DNL Adobe Workfront Fusion]  — 基本指示</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL訊息ID]</td> 
-   <td> <p> 選取或對應您要從中擷取附件的郵件ID。</p> </td> 
+   <td> <p> 選取或對應您要擷取附件的郵件ID。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL限制]</td> 
-   <td> <p>輸入或對應每個案例執行週期中您希望模組傳回的最大附件數量。</p> </td> 
+   <td> <p>輸入或對應您希望模組在每個案例執行週期中傳回的最大附件數量。</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -511,12 +523,12 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[！UICONTROL連線] </td> 
-   <td> <p>如需有關連線您的電腦的指示， [!DNL Office 365] 帳戶至 [!DNL Workfront Fusion]，請參閱 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與的連線 [!DNL Adobe Workfront Fusion]  — 基本指示</a></p> </td> 
+   <td role="rowheader">[！UICONTROL Connection] </td> 
+   <td> <p>如需有關連線您的電腦的指示 [!DNL Office 365] 帳戶至 [!DNL Workfront Fusion]，請參閱 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與的連線 [!DNL Adobe Workfront Fusion]  — 基本指示</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL訊息ID]</td> 
-   <td> <p> 選取或對應包含您要下載之附件的郵件ID。</p> </td> 
+   <td> <p> 選取或對應包含要下載之附件的郵件ID。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL附件ID]</td> 
@@ -539,19 +551,19 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[！UICONTROL連線] </td> 
-   <td> <p>如需有關連線您的電腦的指示， [!DNL Office 365] 帳戶至 [!DNL Workfront Fusion]，請參閱 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與的連線 [!DNL Adobe Workfront Fusion]  — 基本指示</a></p> </td> 
+   <td role="rowheader">[！UICONTROL Connection] </td> 
+   <td> <p>如需有關連線您的電腦的指示 [!DNL Office 365] 帳戶至 [!DNL Workfront Fusion]，請參閱 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與的連線 [!DNL Adobe Workfront Fusion]  — 基本指示</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[！UICONTROL URL]</p> </td> 
-   <td> <p>輸入相對於 <code>https://graph.microsoft.com</code>. 範例:<code> /v1.0/me/messages</code></p> </td> 
+   <td> <p>輸入相對於 <code>https://graph.microsoft.com</code>. 範例：<code> /v1.0/me/messages</code></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[！UICONTROL方法]</p> </td> 
    td&gt; <p>選取設定API呼叫所需的HTTP要求方法。 如需詳細資訊，請參閱 <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">中的HTTP要求方法 [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL標頭]</td> 
+   <td role="rowheader">[！UICONTROL Headers]</td> 
    <td> <p>以標準JSON物件的形式新增請求的標頭。例如， <code>{"Content-type":"application/json"}</code>. [!DNL Workfront Fusion] 為您新增授權標頭。</p> </td> 
   </tr> 
   <tr> 
@@ -559,8 +571,8 @@ ht-degree: 0%
    <td> <p> 以標準JSON物件的形式新增API呼叫的查詢。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL內文]</td> 
-   <td> <p>以標準JSON物件的形式新增API呼叫的正文內容。</p> <p>備註:  <p>使用條件陳述式時，例如 <code>if</code> 在JSON中，將引號放在條件陳述式之外。</p> 
+   <td role="rowheader">[！UICONTROL Body]</td> 
+   <td> <p>以標準JSON物件的形式新增API呼叫的內文內容。</p> <p>注意：  <p>使用條件陳述式時，例如 <code>if</code> 在JSON中，將引號放在條件陳述式之外。</p> 
      <div class="example" data-mc-autonum="<b>Example: </b>"> 
       <p> <img src="assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
      </div> </p> </td> 
@@ -577,12 +589,12 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[！UICONTROL連線] </td> 
-   <td> <p>如需有關連線您的電腦的指示， [!DNL Office 365] 帳戶至 [!DNL Workfront Fusion]，請參閱 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與的連線 [!DNL Adobe Workfront Fusion]  — 基本指示</a></p> </td> 
+   <td role="rowheader">[！UICONTROL Connection] </td> 
+   <td> <p>如需有關連線您的電腦的指示 [!DNL Office 365] 帳戶至 [!DNL Workfront Fusion]，請參閱 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與的連線 [!DNL Adobe Workfront Fusion]  — 基本指示</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL訊息ID]</td> 
-   <td> <p> 選取或對應您要新增附件的郵件ID。</p> </td> 
+   <td> <p> 選取或對應您要新增附件的郵件識別碼。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL來源檔案]</td> 

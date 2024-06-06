@@ -10,9 +10,9 @@ description: 在Adobe Workfront Fusion案例中，您可以自動化使用Micros
 author: Becky
 feature: Workfront Fusion
 exl-id: 889b417c-04a9-4dbf-9a34-0dab65f11f03
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+source-git-commit: 7d5f7c21fe38d43fb5601c81b8a31cc80587848f
 workflow-type: tm+mt
-source-wordcount: '1286'
+source-wordcount: '1401'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 計劃*</td>
+   <td role="rowheader">[!DNL Adobe Workfront] 計畫*</td>
   <td> <p>[！UICONTROL Pro]或更高版本</p> </td>
   </tr> 
   <tr data-mc-conditions=""> 
@@ -64,9 +64,21 @@ ht-degree: 0%
 
 有關的資訊 [!DNL Adobe Workfront Fusion] 授權，請參閱 [[!DNL Adobe Workfront Fusion] 授權](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
-## 必要條件
+## 先決條件
 
 為了使用 [!DNL Miscrosoft Word Templates] 替換為 [!DNL Adobe Workfront Fusion]，您必須擁有 [!DNL Office 365] 帳戶。 您可以在www.office.com建立一個。
+
+
+
+## 連線 [!DNL Office] 服務對象 [!DNL Workfront Fusion]
+
+如需有關連線您的電腦的指示 [!DNL Office] 帳戶至 [!UICONTROL Workfront Fusion]，請參閱 [建立與的連線 [!UICONTROL Adobe Workfront Fusion]  — 基本指示](../../workfront-fusion/connections/connect-to-fusion-general.md)
+
+>[!NOTE]
+>
+>部分Microsoft應用程式使用相同的連線，而此連線會繫結至個別使用者許可權。 因此，在建立連線時，許可權同意畫面會顯示先前授與此使用者連線的所有許可權，以及目前應用程式所需的任何新許可權。
+>
+>例如，如果使用者擁有透過Excel聯結器授予的「讀取表格」許可權，然後在Outlook聯結器中建立連線以讀取電子郵件，則許可權同意畫面會顯示已授予的「讀取表格」許可權和新要求的「寫入電子郵件」許可權。
 
 ## 使用 [!DNL Microsoft Word Templates] 模組
 
@@ -93,14 +105,14 @@ A [!DNL Microsoft Word] 範本為一般 [!DNL Microsoft Word] 檔案（.docx檔�
 簡單值標籤只會被對應的值取代。 標籤的名稱會對應至 [!UICONTROL 索引鍵] 欄位的值，放置在雙大括弧內；例如，
 
 
-<pre>&#123;&#123;名稱&#125;&#125;</pre>
+<pre>{{name}}</pre>
 
 
 。
 
 **範例：** 若要建立顯示「嗨，Petr！」的檔案，您可以使用 [!DNL Microsoft Word Template] 模組，以建立下列範本：
 
-<pre>&gt;嗨 &#123;&#123;name&#125;&#125;！</pre>
+<pre>&gt;嗨 {{name}}！</pre>
 
 若要這麼做，您需設定模組，如下所示：
 
@@ -111,7 +123,7 @@ A [!DNL Microsoft Word] 範本為一般 [!DNL Microsoft Word] 檔案（.docx檔�
 您可以使用條件標籤來繞排文字，這些文字只有在符合某些條件時才應呈現。 若要繞排文字，請將其置於開始和結束條件標籤之間，例如「hasPhone」（如果條件為資料是否包含電話號碼）。 開始標簽名稱會加上雜湊符號#，而結束標簽名稱會加上斜線/ ，如下列範例所示。
 
 **範例：** 如果輸入資料包含電話號碼但沒有電子郵件地址，若要產生包含客戶電話號碼的檔案，您可以使用 [!DNL Microsoft Word Template] 模組，並建立下列範本：
-<pre>&gt; &#123;&#123;#hasPhone&#125;&#125;電話： &#123;&#123;phone&#125;&#125; &#123;&#123;/hasPhone&#125;&#125;</pre><pre>&gt; &#123;&#123;#hasEmail&#125;&#125;電子郵件： &#123;&#123;email&#125;&#125; &#123;&#123;/hasEmail&#125;&#125;</pre>若要這麼做，您需設定模組，如下所示：
+<pre>&gt; {{#hasPhone}}電話： {{phone}} {{/hasPhone}}</pre><pre>&gt; {{#hasEmail}}電子郵件： {{email}} {{/hasEmail}}</pre>若要這麼做，您需設定模組，如下所示：
 
 ![](assets/word-template-conditional-350x501.png)
 
@@ -129,7 +141,7 @@ A [!DNL Microsoft Word] 範本為一般 [!DNL Microsoft Word] 檔案（.docx檔�
 
 **範例：** 若要產生列出客戶清單中每個連絡人的姓名和電話號碼的檔案，您可以使用 [!DNL Microsoft Word Template] 模組，並建立下列範本：
 
-<pre>&gt; &#123;&#123;#contact&#125;&#125;</pre><pre>&gt;     &#123;&#123;name&#125;&#125;， &#123;&#123;phone&#125;&#125;</pre><pre>&gt; &#123;&#123;/contact&#125;&#125;</pre>
+<pre>&gt; {{#contact}}</pre><pre>&gt;     {{name}}， {{phone}}</pre><pre>&gt; {{/contact}}</pre>
 
 若要這麼做，您需設定模組，如下所示：
 

@@ -9,9 +9,9 @@ description: 在 [!DNL Adobe Workfront Fusion] 案例中，您可以自動化使
 author: Becky
 feature: Workfront Fusion
 exl-id: 116df088-20a7-40a8-8880-9f422dc37632
-source-git-commit: 46c282062ed737be860aeb4af96ac5f5efe9360d
+source-git-commit: 7d5f7c21fe38d43fb5601c81b8a31cc80587848f
 workflow-type: tm+mt
-source-wordcount: '1633'
+source-wordcount: '1724'
 ht-degree: 0%
 
 ---
@@ -74,6 +74,12 @@ ht-degree: 0%
 ## 將Microsoft Dynamics 365連線至Workfront Fusion
 
 您可以建立與您的電腦的連線， [!DNL Microsoft Dynamics 365] 直接從 [!DNL Microsoft Dynamics 365] 模組。
+
+>[!NOTE]
+>
+>部分Microsoft應用程式使用相同的連線，而此連線會繫結至個別使用者許可權。 因此，在建立連線時，許可權同意畫面會顯示先前授與此使用者連線的所有許可權，以及目前應用程式所需的任何新許可權。
+>
+>例如，如果使用者擁有透過Excel聯結器授予的「讀取表格」許可權，然後在Outlook聯結器中建立連線以讀取電子郵件，則許可權同意畫面會顯示已授予的「讀取表格」許可權和新要求的「寫入電子郵件」許可權。
 
 1. 在任何 [!DNL Microsoft Dynamics 365] 模組，按一下 **[!UICONTROL 新增]** 在 [!UICONTROL 連線] 欄位。
 1. 輸入連線的名稱。
