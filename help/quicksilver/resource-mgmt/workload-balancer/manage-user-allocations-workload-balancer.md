@@ -6,9 +6,9 @@ description: 身為資源管理員，您可以指派工作給使用者，並從�
 author: Lisa
 feature: Resource Management
 exl-id: 9649e482-af24-4516-9a69-ef12b2f1d579
-source-git-commit: df6b1e4b362807025f3edb5298e8445c0d44ec69
+source-git-commit: 1ce89f7e680f11a11c8646853652f9f24ee89b14
 workflow-type: tm+mt
-source-wordcount: '2798'
+source-wordcount: '2887'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,8 @@ ht-degree: 0%
 # 在工作負載平衡器中管理使用者配置
 
 <!-- Audited: 01/2024 -->
+
+{{highlighted-preview}}
 
 身為資源管理員，您可以指派工作給使用者，並從工作負載平衡器管理他們的每日、每週或每月配置，以確保他們被配置符合其可用排程的時數量。
 
@@ -111,11 +113,14 @@ ht-degree: 0%
 
 * 位於不同時區的兩個使用者或位於不同時區的排程，與指派使用者的使用者不同，這會造成檢視相同工作專案的兩個使用者看見分配金額的方式不同。
 
-* 當使用者已排程休假時，一天或一天的一部分會以灰色背景顯示。 如果Workfront管理員在設定區域中啟用了使用者休息時間設定，以將使用者的休息時間列入考量，則分配的時數會移至時間軸中的下一個可用日。 如果停用此設定，則配置的時數仍會保留在標示為休假的當天，且使用者會顯示為過度配置。 如需詳細資訊，請參閱 [設定全系統專案偏好設定](../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+* 當使用者已排程休假時，一天或一天中的部分將以灰色背景顯示， <span class="preview">而飛機圖示則表示休假</span>. 如果Workfront管理員在設定區域中啟用了使用者休息時間設定，以將使用者的休息時間列入考量，則分配的時數會移至時間軸中的下一個可用日。 如果停用此設定，則配置的時數仍會保留在標示為休假的當天，且使用者會顯示為過度配置。 如需詳細資訊，請參閱 [設定全系統專案偏好設定](../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
   >[!TIP]
   >
   >如果在將使用者指派給工作專案後標籤休假，您必須重新計算專案的時間表以顯示移動的分配。 如需詳細資訊，請參閱 [重新計算專案時間表](../../manage-work/projects/manage-projects/recalculate-project-timeline.md).
+
+   * <span class="preview">當多個使用者被指派到一個任務且主要受指派人已排程休假時，時間軸會移動（如果日期未固定），並且所有受指派人的計畫時數會重新分配到任務的新期間中。 如果任務有固定日期，則時間表不會因休假而變更，並且小時數會在剩餘天數之間重新分配。</span>
+   * <span class="preview">如果手動進行分配，則在休假後不會重新分配計畫時數。</span>
 
 * 如果有多個使用者被指派到任務，則計畫時數的數量會先平均分配給每個使用者，然後平均分配給任務期間內的每一天。 此分配會成為每個使用者對任務的配置。
 
