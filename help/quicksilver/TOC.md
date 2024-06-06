@@ -3,7 +3,7 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文件、教學課程和其他資源，了解如何在您的組織中實施並有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: cbba9d21046d2bf05675cadea9ce706fbde6adc1
+source-git-commit: bfc4586d8e277e8fc7855edf3c04631ec8d09436
 workflow-type: tm+mt
 source-wordcount: '14329'
 ht-degree: 1%
@@ -624,7 +624,7 @@ ht-degree: 1%
             * [檢視使用自訂欄位或Widget的報告](administration-and-setup/customize-workfront/create-manage-custom-forms/view-all-reports-that-use-a-particular-custom-field.md)
             * [檢視使用自訂欄位或Widget的自訂表單](administration-and-setup/customize-workfront/create-manage-custom-forms/view-all-custom-forms-that-use-a-particular-custom-field.md)
             * [轉換物件時傳輸自訂表單資料](administration-and-setup/customize-workfront/create-manage-custom-forms/transfer-custom-form-data-larger-item.md)
-            * [編輯自訂欄位、分割槽符號或Widget的屬性](administration-and-setup/customize-workfront/create-manage-custom-forms/edit-a-custom-field.md)
+            * [新增或編輯自訂欄位、分割槽符號或Widget](administration-and-setup/customize-workfront/create-manage-custom-forms/edit-a-custom-field.md)
             * [從系統中刪除自訂欄位或Widget](administration-and-setup/customize-workfront/create-manage-custom-forms/delete-a-custom-field.md)
             * [刪除自訂表單](administration-and-setup/customize-workfront/create-manage-custom-forms/delete-or-deactivate-a-custom-form.md)
             * [API中的RTF文字欄位儲存](administration-and-setup/customize-workfront/create-manage-custom-forms/rich-text-field-storage-in-the-api.md)

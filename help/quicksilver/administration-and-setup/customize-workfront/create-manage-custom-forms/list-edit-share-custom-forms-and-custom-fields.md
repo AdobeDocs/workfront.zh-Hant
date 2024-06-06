@@ -4,9 +4,9 @@ description: 當您檢視組織的自訂表單清單以及已新增至的自訂�
 author: Caroline
 feature: System Setup and Administration, Custom Forms
 role: Admin
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+source-git-commit: 55b659dc4d24856d835f901b22b937e5bcbfe657
 workflow-type: tm+mt
-source-wordcount: '560'
+source-wordcount: '556'
 ht-degree: 0%
 
 ---
@@ -75,7 +75,7 @@ ht-degree: 0%
 
    如需當您在清單中選取專案時可做些什麼的詳細資訊，請參閱下列文章：
 
-   * [編輯自訂表單中自訂欄位、分割槽符號或Widget的屬性](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/edit-a-custom-field.md)
+   * [新增或編輯自訂欄位、分割槽符號或Widget](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/edit-a-custom-field.md)
    * [設定自訂欄位和Widget共用](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/configure-sharing-for-a-custom-field.md)
    * [從系統中刪除自訂欄位或Widget](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/delete-a-custom-field.md)
 
