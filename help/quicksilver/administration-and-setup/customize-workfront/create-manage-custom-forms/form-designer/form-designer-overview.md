@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: c2e2901b-0558-4a63-ae3c-4c3a6edf0ff0
-source-git-commit: 215f72a1619a46f28e0b3a2afb73bcb91586b15e
+source-git-commit: 2a2f6d93c916863177d7a9d2f46f8124d1430354
 workflow-type: tm+mt
-source-wordcount: '366'
+source-wordcount: '345'
 ht-degree: 1%
 
 ---
@@ -23,9 +23,9 @@ ht-degree: 1%
 
 ![範例表單設計工具](assets/form-designer-example.png)
 
-## 如何存取新的表單設計工具
+## 如何存取表單設計工具
 
-新表單設計工具與舊版表單產生器頂端都會有一個新按鈕。 您可以使用此按鈕，在舊版產生器和新設計工具之間切換。
+新表單設計工具與舊版表單產生器頂端的按鈕可讓您切換版本。
 
 ![切換到新的表單設計工具](assets/switch-views.png)
 
@@ -43,23 +43,17 @@ ht-degree: 1%
   >
   >將表單附加至物件後，物件中即不會顯示「預設」區段。
 
+* **使用外部查詢欄位**：此欄位型別呼叫外部API，並在下拉欄位中傳回值作為選項。
+
 ## 從表單設計工具中移除的功能
 
 我們已從表單設計器內移除下列功能：
 
-* 表單設定，表單共用，欄位共用索引標籤
-
-   * 表單設定現在可在畫布頂端使用
-
-   * 「表單共用」主要標籤和「欄位共用」子標籤
-
-  >[!NOTE]
-  >
-  >您可以從「設定>自訂Forms > Forms」或「欄位」區域控制表單和欄位共用。
+* 表單設定現在可在畫布頂端使用
 
 * 追蹤更新摘要中的欄位變更
 
   >[!NOTE]
   >
-  >您可以在「設定>介面>更新摘要」中找到此專案
+  >您可以在「設定>介面>更新摘要」中找到此選項
 
