@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 372aa2c2-5deb-49da-aadc-6e870bbd083a
-source-git-commit: 39f5526a7a816da60cb80ea4fe9313a2773e6398
+source-git-commit: 81f8477dd26b828c4255c678b36d98789cd81ff8
 workflow-type: tm+mt
-source-wordcount: '930'
+source-wordcount: '1378'
 ht-degree: 0%
 
 ---
@@ -28,19 +28,19 @@ ht-degree: 0%
 >
 >| 每月發行 | 每季發行 |
 >|----|----|
->| <ul><li>24.5 （2024年5月16日）</li><li>24.6 （2024年6月）</li><li>24.7 （2024年7月）</li></ul> | <ul><li>24.7 （2024年7月）</li></ul> |
+>| <ul><li>24.5 （2024年5月16日）</li><li>24.6 （2024年6月20日）</li><li>24.7 （2024年7月）</li></ul> | <ul><li>24.7 （2024年7月）</li></ul> |
 >
 >如需快速發行流程的詳細資訊，請參閱 [啟用或停用快速發行程式](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).
 
 ## Adobe Workfront增強功能
 
-<!--* [Administrator enhancements](#administrator-enhancements)-->
+* [管理員增強功能](#administrator-enhancements)
 * [Financial Management增強功能](#financial-management-enhancements)
 * [專案增強功能](#project-enhancements)
+* [資源管理增強功能](#resource-management-enhancements)
 * [其他增強功能](#other-enhancements)
 
-<!--
-### Administrator enhancements
+### 管理員增強功能
 
 <table>
             <col style="width: 50%;" />
@@ -48,37 +48,83 @@ ht-degree: 0%
             <tbody>
                 <tr>
                     <td>
-                        <p><span class="bold">Feature</span>
+                        <p><span class="bold">功能</span>
                         </p>
                     </td>
                     <td>
-                        <p><span class="bold">Release dates</span>
+                        <p><span class="bold">發行日期</span>
                         </p>
                     </td>
-                 </tr>
-                 <tr>
+                </tr>
+                <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-administrator-enhancements.md">Multi-select dropdown field type available on the form designer</a></p>
-                        [!BADGE New in Preview ]{type=Negative}
-                        <p>To help you define dropdown fields more easily, we have added the Multi-Select Dropdown field to the custom form designer. This field type allows users to choose more than one option from a dropdown list.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-administrator-enhancements.md">透過環境升級在Workfront環境之間移動物件</a></p>
+                        <p>環境升級可讓您將物件從一個Workfront環境移動到另一個環境，例如從沙箱環境移動到生產環境。 您可以設定及測試物件，而不會對貴組織的資料和記錄造成任何風險。 然後，您就可以將這些物件移至生產環境，而無需重新設定，從而節省時間和精力。</p>
                     </td>
-                    <td><p><b>Available on these dates:</b></p>
+                    <td><p><b>將於下列日期提供：</b></p>
                         <ul>
                             <li>
-                                <p>Preview release: April 18, 2024</p>
-                            </li>
-                            <li>
-                                <p>Production for fast release: With the 24.5 release (May 2024)</p>
-                            </li>
-                            <li>
-                                <p>Production for quarterly release: With the 24.7 release (July 2024)</p>
+                                <p>適用於所有客戶的生產版本：搭配24.6版（2024年6月20日）</p>
                             </li>
                         </ul>
                     </td>
-                 </tr>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-administrator-enhancements.md">在自訂表單設計工具中共用自訂表單和自訂欄位</a></p>
+                        [！BADGE New in Preview ]{type=Negative}
+                        <p>您現在可以在新的表單設計工具中共用自訂表單和自訂欄位。 這可讓自訂表單的使用者之間有更多共同作業。</p>
+                    </td>
+                    <td><p><b>將於下列日期提供：</b></p>
+                        <ul>
+                            <li>
+                                <p>預覽版本： 2024年6月6日</p>
+                            </li>
+                            <li>
+                                <p>適用於所有客戶的生產版本：待定</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-administrator-enhancements.md">從欄位區域新增自訂欄位</a></p>
+                        [！BADGE New in Preview ]{type=Negative}
+                        <p>您現在可以直接從Workfront中的欄位區域新增自訂欄位或Widget，而無需開啟自訂表單來建立欄位。 這可讓您快速建立可重複使用的自訂欄位。</p>
+                    </td>
+                    <td><p><b>將於下列日期提供：</b></p>
+                        <ul>
+                            <li>
+                                <p>預覽版本： 2024年6月6日</p>
+                            </li>
+                            <li>
+                                <p>快速發行生產：第24.6發行版本（2024年6月20日）</p>
+                            </li>
+                            <li>
+                                <p>每季發行生產：24.7版（2024年7月）</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-administrator-enhancements.md">表單設計器上可用的多選下拉式欄位型別</a></p>
+                        [！BADGE In Production ]{type=Informative}
+                        <p>為協助您更輕鬆地定義下拉式欄位，我們已將多選下拉式欄位新增到自訂表單設計工具。 此欄位型別可讓使用者從下拉式清單中選擇多個選項。</p>
+                    </td>
+                    <td><p><b>將於下列日期提供：</b></p>
+                        <ul>
+                            <li>
+                                <p>預覽版本： 2024年6月4日</p>
+                            </li>
+                            <li>
+                                <p><span class="preview">適用於所有客戶的生產： 2024年6月4日</span></p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
            </tbody>
         </table>
--->
 
 ### Financial Management增強功能
 
@@ -141,7 +187,6 @@ ht-degree: 0%
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-project-enhancements.md" class="MCXref xref" xrefformat="{para}">從標題或詳細資訊區段編輯任務和問題認可日期和條件</a></p>
-                        <p><span style="color: #ff0000;"> 預覽中的新增專案！</span></p>
                         <p>為了讓您更輕鬆地更新任務和問題，我們現在新增了提交日期和條件欄位，作為選項以新增到任務和問題標題和版面配置範本中的詳細資訊區段。 當使用者被指派給修改的版面配置範本時，他們現在可以從頁面的標題或詳細資訊區段更新這些欄位。   </p>
                     </td>
                     <td><p><b>將於下列日期提供：</b></p>
@@ -201,6 +246,45 @@ ht-degree: 0%
            </tbody>
         </table>
 
+### 資源管理增強功能
+
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 50%;" />
+            <tbody>
+                <tr>
+                    <td>
+                        <p><span class="bold">功能</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">發行日期</span>
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-administrator-enhancements.md">休假現在反映在工作負載平衡器</a></p>
+                        [！BADGE New in Preview ]{type=Negative}
+                        <p>為了在任務的主要受指派人排程休假時順暢地調整工作，現在重新計算專案時間表時，工作負載平衡器會重新分配時數給主要和次要使用者。</p>
+                    </td>
+                    <td><p><b>將於下列日期提供：</b></p>
+                        <ul>
+                            <li>
+                                <p>預覽版本： 2024年6月6日</p>
+                            </li>
+                            <li>
+                                <p>快速發行生產：第24.6發行版本（2024年6月20日）</p>
+                            </li>
+                            <li>
+                                <p>每季發行生產：24.7版（2024年7月）</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+           </tbody>
+        </table>
+
 ### 其他增強功能
 
 <table>
@@ -215,6 +299,26 @@ ht-degree: 0%
                     <td>
                         <p><span class="bold">發行日期</span>
                         </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-other-enhancements.md" class="MCXref xref" xrefformat="{para}">說明按鈕已從主導覽列移除</a></p>
+                        [！BADGE New in Preview ]{type=Negative}
+                        <p>為了統一不在Unified Shell上的使用者體驗，已移除主要導覽列上的「說明」按鈕。 此按鈕未提供給Unified Shell的使用者，已連結至Workfront檔案，並且備有提供給主功能表中所有使用者使用的類似「說明」按鈕。</p>
+                    </td>
+                    <td><p><b>將於下列日期提供：</b></p>
+                        <ul>
+                            <li>
+                                <p>預覽版本： 2024年6月6日</p>
+                            </li>
+                            <li>
+                                <p>快速發行生產：第24.6發行版本（2024年6月20日）</p>
+                            </li>
+                            <li>
+                                <p>每季發行生產：24.7版（2024年7月）</p>
+                            </li>
+                        </ul>
                     </td>
                 </tr>
                 <tr>

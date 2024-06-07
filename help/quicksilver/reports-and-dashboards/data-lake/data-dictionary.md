@@ -8,10 +8,10 @@ author: Nolan
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: 57985404-554e-4289-b871-b02d3427aa5c
-source-git-commit: 91371c862be6f3b99f0450ff359f601dc913dc0c
+source-git-commit: 81f8477dd26b828c4255c678b36d98789cd81ff8
 workflow-type: tm+mt
-source-wordcount: '536'
-ht-degree: 7%
+source-wordcount: '725'
+ht-degree: 5%
 
 ---
 
@@ -50,6 +50,15 @@ Workfront中的物件（以及您資料湖中的物件）不僅是由其個別�
 >[!IMPORTANT]
 >
 >實體關係圖表是進行中的工作，因此僅供參考，且可能會變更。
+
+## 日期型別
+
+有許多日期物件可提供特定事件發生時間的相關資訊。
+
+* `DL_LOAD_TIMESTAMP`：此日期用於內部參考，並反映資料載入目前、事件或每日歷史記錄表格的時間。 此日期不應用於資料分析，且計畫在Workfront資料湖的測試階段期間移除。
+* `CALENDAR_DATE`：此日期僅顯示在「每日歷史記錄」表格中。 此表格記錄中指定之每個日期在11:59 UTC時的資料外觀 `CALENDAR_DATE`.
+* `BEGIN_EFFECTIVE_TIMESTAMP`：此日期會顯示在「事件」和「每日歷史記錄」表格中，並記錄記錄的變更時間 _至_ 它在目前列中的值。
+* `END_EFFECTIVE_TIMESTAMP`：此日期會顯示在「事件」和「每日歷史記錄」表格中，並記錄記錄的變更時間 _從_ 目前列中的值與不同列中的值。 允許查詢之間 `BEGIN_EFFECTIVE_TIMESTAMP` 和 `END_EFFECTIVE_TIMESTAMP` 即使沒有新值，此值也不會為空。 如果記錄仍然有效（即值未變更）， `END_EFFECTIVE_TIMESTAMP` 的值將為2300-01-01。
 
 ## 術語表
 
