@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 3f7a3667-8a9f-462a-b706-cf15850a0d1c
-source-git-commit: 160bcc8796666c9615ebe8ead18813b96be26a71
+source-git-commit: c593eab154a0942995b1f913e7189450913faac0
 workflow-type: tm+mt
-source-wordcount: '478'
+source-wordcount: '504'
 ht-degree: 2%
 
 ---
@@ -102,9 +102,11 @@ ht-degree: 2%
 
 {{step1-to-planning}}
 
-您上次存取的工作區會開啟。
+1. 按一下要刪除其記錄的工作區。
 
-1. 按一下記錄型別。
+   工作區隨即開啟，且記錄型別會顯示為卡片。
+
+1. 按一下記錄型別卡。
 
    記錄型別頁面隨即開啟。
 1. 執行下列其中一項：
@@ -126,9 +128,11 @@ ht-degree: 2%
 
 {{step1-to-planning}}
 
-您上次存取的工作區會開啟。
+1. 按一下要刪除其記錄的工作區。
 
-1. 按一下記錄型別。
+   工作區隨即開啟，且記錄型別會顯示為卡片。
+
+1. 按一下記錄型別卡。
 
    記錄型別頁面隨即開啟。
 1. （視條件而定）從 **檢視** 在表格左上角的下拉式功能表中，選取「表格」檢視。 這應為預設檢視，除非您上次存取時間軸檢視時已檢視該記錄型別。

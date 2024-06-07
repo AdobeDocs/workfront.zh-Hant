@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: d86cf3f9-cacc-4457-acb3-a5122ae91be8
-source-git-commit: 7580c7638c9e4d0f9aa53d208d9773fa1524ab54
+source-git-commit: c593eab154a0942995b1f913e7189450913faac0
 workflow-type: tm+mt
-source-wordcount: '674'
+source-wordcount: '683'
 ht-degree: 1%
 
 ---
@@ -109,7 +109,9 @@ ht-degree: 1%
 
 {{step1-to-planning}}
 
-預設會開啟上次存取的工作區。
+1. 按一下工作區的卡片。
+
+   工作區隨即開啟，且記錄型別會顯示為卡片。
 
 1. 按一下連線到Workfront專案、投資組合或方案的記錄型別的卡片。
 1. 從中選擇表格檢視 **檢視** 下拉式功能表。

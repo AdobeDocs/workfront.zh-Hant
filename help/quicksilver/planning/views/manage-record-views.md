@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: a923d86f78e6dab4705289a8165c4b31ff68b5a2
+source-git-commit: c593eab154a0942995b1f913e7189450913faac0
 workflow-type: tm+mt
-source-wordcount: '1083'
+source-wordcount: '1065'
 ht-degree: 1%
 
 ---
@@ -150,9 +150,13 @@ ht-degree: 1%
 {{step1-to-planning}}
 
 
-您上次存取的工作區預設會開啟。 如需有關建立工作區的資訊，請參閱 [建立工作區](/help/quicksilver/planning/architecture/create-workspaces.md).
+1. 按一下工作區的卡片。
 
-1. 按一下記錄型別卡。 如需有關建立記錄型別的資訊，請參閱 [建立記錄型別](/help/quicksilver/planning/architecture/create-record-types.md).
+   工作區隨即開啟，且記錄型別會顯示為卡片。
+
+1. 按一下記錄型別卡。
+
+   記錄型別頁面隨即開啟。
 
    依預設，選取型別的所有記錄都會顯示在表格檢視中。
 
@@ -218,11 +222,13 @@ ht-degree: 1%
 
 {{step1-to-planning}}
 
-您上次存取的工作區預設會開啟。 如需有關建立工作區的資訊，請參閱 [建立工作區](/help/quicksilver/planning/architecture/create-workspaces.md).
+1. 按一下工作區的卡片。
+
+   工作區隨即開啟，且記錄型別會顯示為卡片。
 
 1. 按一下記錄型別卡。
 
-   如需有關建立記錄型別的資訊，請參閱 [建立記錄型別](/help/quicksilver/planning/architecture/create-record-types.md).
+   記錄型別頁面隨即開啟。
 
    依預設，選取型別的所有記錄都會顯示在表格檢視中。
 
@@ -247,13 +253,14 @@ ht-degree: 1%
 
 {{step1-to-planning}}
 
-您上次存取的工作區預設會開啟。
+1. 按一下工作區的卡片。
 
-如需有關建立工作區的資訊，請參閱 [建立工作區](/help/quicksilver/planning/architecture/create-workspaces.md).
+   工作區隨即開啟，且記錄型別會顯示為卡片。
 
-1. 按一下記錄型別卡。 如需有關建立記錄型別的資訊，請參閱 [建立記錄型別](/help/quicksilver/planning/architecture/create-record-types.md).
+1. 按一下記錄型別卡。
 
-   依預設，所選型別的所有記錄都會顯示在表格檢視中。
+   記錄型別頁面隨即開啟。
+依預設，所選型別的所有記錄都會顯示在表格檢視中。
 
 1. 將游標停留在要複製之檢視的標籤上，然後按一下 **更多** 功能表 ![](assets/more-menu.png) 檢視名稱右側，然後按一下 **複製**.
 

@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 215883a4-e882-438e-9c21-954c0b1d741b
-source-git-commit: 160bcc8796666c9615ebe8ead18813b96be26a71
+source-git-commit: c593eab154a0942995b1f913e7189450913faac0
 workflow-type: tm+mt
-source-wordcount: '1144'
+source-wordcount: '1170'
 ht-degree: 0%
 
 ---
@@ -122,7 +122,13 @@ ht-degree: 0%
 
 {{step1-to-planning}}
 
-預設會開啟上次存取的工作區。
+1. 按一下工作區的卡片。
+
+   工作區隨即開啟，且記錄型別會顯示在卡片上。
+
+1. 按一下記錄型別卡。
+記錄型別頁面隨即開啟，並顯示該型別的所有記錄。
+
 1. 從中選擇表格檢視 **檢視** 下拉式功能表。
 1. 按一下表格檢視中的記錄名稱。
 

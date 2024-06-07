@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 604b84c1-4ec6-4d4a-b9f4-4223641ff2ea
-source-git-commit: 3a819fc18e0b5f438a55265ea0c5c9679ef0fdd6
+source-git-commit: c593eab154a0942995b1f913e7189450913faac0
 workflow-type: tm+mt
-source-wordcount: '631'
+source-wordcount: '635'
 ht-degree: 1%
 
 ---
@@ -111,19 +111,9 @@ ht-degree: 1%
 
 {{step1-to-planning}}
 
-<!--replace the snippet with the new snippet with the landing page The Workfront Planning landing page opens. 
-    ![](assets/planning-landing-page-admin.png)
-    1. (Optional) Click the **My workspaces** tab to view workspaces you created
-    Or
-    Click the **Other workspaces** tab to view workspaces shared with you. 
-    -->
+1. 按一下 **建立工作區**
 
-1. （視條件而定）如果您的環境中沒有任何工作區，請按一下 **建立工作區**
-
-   或者，從現有工作區，按一下工作區名稱右側的向下箭頭，然後按一下 **建立工作區**.
-
-   ![](assets/workspace-drop-down-right-menu.png)
-
+   「建立工作區」方塊隨即顯示。 您可以從頭開始建立工作區，或使用其中一個可用的範本建立工作區。
 
 1. （選擇性和條件性）按一下 **預覽** 在下列任何預先定義的工作區範本內：
 
@@ -131,17 +121,19 @@ ht-degree: 1%
    * 銷售管理
    * 產品管理
 
+   範本預覽方塊開啟。
+
    系統會指出哪些作業記錄型別、分類法以及與每個範本相關聯的欄位數。
 
    ![](assets/previewing-a-workspace-template.png)
 
    如需Workfront Planning工作區範本的相關資訊，請參閱 [工作區範本清單](/help/quicksilver/planning/architecture/workspace-templates.md).
 
-1. 按一下 **使用範本** 以從選取的範本開始建立工作區
+1. 在範本預覽方塊中，按一下 **使用範本** 以從選取的範本開始建立工作區
 
    或
 
-   按一下 **建立工作區** 從頭開始建立工作區。
+   按一下 **返回**，然後按一下 **建立工作區** 從頭開始建立工作區。
 
    會建立下列其中一種工作區型別：
 

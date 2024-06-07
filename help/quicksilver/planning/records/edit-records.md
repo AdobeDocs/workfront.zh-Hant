@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: 160bcc8796666c9615ebe8ead18813b96be26a71
+source-git-commit: c593eab154a0942995b1f913e7189450913faac0
 workflow-type: tm+mt
-source-wordcount: '1511'
+source-wordcount: '1481'
 ht-degree: 0%
 
 ---
@@ -120,9 +120,9 @@ ht-degree: 0%
 
 {{step1-to-planning}}
 
-您上次存取的工作區會開啟。
+1. 按一下您要編輯其記錄的工作區
 
-1. （可選）按一下工作區名稱右側的向下箭頭，以選取您要更新其記錄的工作區。
+   工作區隨即開啟，且記錄型別會顯示為卡片。
 1. 按一下記錄型別卡。
 
    記錄型別頁面隨即開啟。
@@ -192,9 +192,9 @@ ht-degree: 0%
 
 {{step1-to-planning}}
 
-您上次存取的工作區會開啟。
+1. 按一下您要編輯其記錄的工作區
 
-1. （可選）按一下工作區名稱右側的向下箭頭，以選取您要更新其記錄的工作區。
+   工作區隨即開啟，且記錄型別會顯示為卡片。
 
 1. 按一下記錄型別卡。
 
@@ -231,9 +231,9 @@ ht-degree: 0%
 
 {{step1-to-planning}}
 
-您上次存取的工作區會開啟。
+1. 按一下您要編輯其記錄的工作區
 
-1. （可選）按一下工作區名稱右側的向下箭頭，以選取您要更新其記錄的工作區。
+   工作區隨即開啟，且記錄型別會顯示為卡片。
 
 1. 按一下記錄型別卡。
 

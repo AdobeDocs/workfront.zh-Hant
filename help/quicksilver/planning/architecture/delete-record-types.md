@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 70fd3887-3871-45b5-9c21-f57da63662aa
-source-git-commit: 3a819fc18e0b5f438a55265ea0c5c9679ef0fdd6
+source-git-commit: c593eab154a0942995b1f913e7189450913faac0
 workflow-type: tm+mt
-source-wordcount: '369'
-ht-degree: 0%
+source-wordcount: '404'
+ht-degree: 2%
 
 ---
 
@@ -122,13 +122,20 @@ hide: yes
 
 {{step1-to-planning}}
 
-1. （可選）展開現有工作區名稱右側的向下箭頭，並選取您要刪除記錄型別的工作區。
+1. 按一下要刪除其記錄型別的工作區，
+
+   或
+
+   從工作區中，展開現有工作區名稱右側的向下箭頭，並選取您要從中刪除記錄型別的工作區。
 
    工作區隨即開啟，且記錄型別隨即顯示。
-1. 按一下要刪除的記錄型別的卡片。
+1. 執行下列其中一項：
 
-   這會開啟記錄型別的頁面。
-1. 按一下 **更多** 功能表 ![](assets/more-menu.png) 在記錄型別名稱的右側，然後按一下 **刪除**. <!--add screen shot when they finalize the UI-->
-1. 型別 **刪除** ，然後按一下「 」 **永久刪除**.
+   * 將游標停留在記錄型別卡片上，按一下「更多」功能表，然後 **刪除**.
+   * 按一下要刪除之記錄型別的卡片，然後在記錄型別頁面中按一下 **更多** 功能表 ![](assets/more-menu.png) 在記錄型別名稱的右側，然後按一下 **刪除**.
+
+   ![](assets/permanently-delete-record-type-confirmation.png)
+
+1. 型別 **刪除** ，然後按一下「 」 **永久刪除**. 不區分大小寫。
 
    所選的記錄型別及其欄位、關聯的記錄和檢視都會被刪除。

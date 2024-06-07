@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
-source-git-commit: 3a819fc18e0b5f438a55265ea0c5c9679ef0fdd6
+source-git-commit: c593eab154a0942995b1f913e7189450913faac0
 workflow-type: tm+mt
-source-wordcount: '2432'
+source-wordcount: '2415'
 ht-degree: 1%
 
 ---
@@ -158,7 +158,9 @@ hide: yes
 
 {{step1-to-planning}}
 
-1. （可選）展開現有工作區名稱右側的向下箭頭，並選取您要連線記錄的工作區。
+1. 按一下您要連線其記錄的工作區
+
+   工作區隨即開啟，且記錄型別會顯示為卡片。
 1. 按一下記錄型別的卡片以開啟記錄型別頁面。
 1. 選取 **表格** 從檢視 **檢視** 記錄型別頁面右上角的下拉式功能表。
 1. （選擇性）將記錄新增至表格的新列，以將記錄新增至您選取的記錄型別。 如需詳細資訊，請參閱 [建立記錄](/help/quicksilver/planning/records/create-records.md).
@@ -223,7 +225,9 @@ hide: yes
 
 {{step1-to-planning}}
 
-1. （可選）展開現有工作區名稱右側的向下箭頭，並選取您要連線記錄的工作區。
+1. 按一下您要連線其記錄的工作區。
+
+   工作區隨即開啟，且記錄型別會顯示為卡片。
 1. 按一下記錄型別的卡片以開啟記錄型別頁面。
 1. 選取 **表格** 從檢視 **檢視** 下拉式功能表。
 
@@ -306,7 +310,9 @@ hide: yes
 
 {{step1-to-planning}}
 
-1. （可選）展開現有工作區名稱右側的向下箭頭，並選取您要連線記錄的工作區。
+1. 按一下您要連線其記錄的工作區。
+
+   工作區隨即開啟，且記錄型別隨即顯示。
 1. 按一下記錄型別的卡片以開啟記錄型別頁面。
 1. 選取 **表格** 從檢視 **檢視** 記錄型別頁面右上角的下拉式功能表。
 

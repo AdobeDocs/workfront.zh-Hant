@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
-source-git-commit: 3a819fc18e0b5f438a55265ea0c5c9679ef0fdd6
+source-git-commit: c593eab154a0942995b1f913e7189450913faac0
 workflow-type: tm+mt
-source-wordcount: '2236'
+source-wordcount: '2249'
 ht-degree: 0%
 
 ---
@@ -175,7 +175,11 @@ author: Alina
 
 {{step1-to-planning}}
 
-1. （可選）展開現有工作區名稱右側的向下箭頭，並選取您要連線記錄型別的工作區。
+1. 按一下您要連線其記錄型別的工作區，
+
+   或
+
+   從工作區中，展開現有工作區名稱右側的向下箭頭，並選取您想從其中連線記錄型別的工作區。
 1. 按一下記錄型別的卡片以開啟記錄型別頁面。
 1. 按一下 **+** 圖示並按一下 **新連線** 標籤。
 

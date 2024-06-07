@@ -7,7 +7,7 @@ author: Alina
 feature: Work Management, Tasks
 role: User
 exl-id: 96f80e7b-6ad5-40ae-861d-8d97c570f2ac
-source-git-commit: 8382b69e6a55af69397dd8f566395143f3c1dcd3
+source-git-commit: c593eab154a0942995b1f913e7189450913faac0
 workflow-type: tm+mt
 source-wordcount: '736'
 ht-degree: 1%
@@ -120,7 +120,7 @@ ht-degree: 1%
 
    我們建議使用此選項，尤其是在將多個任務新增至清單時。
 
-   ![](assets/ctp4-350x26.png)
+   ![](assets/add-more-tasks-inline.png)
 
 1. （視條件而定）執行下列任一項作業：
 
@@ -141,7 +141,7 @@ ht-degree: 1%
 
          這會使新任務成為先前任務的子任務或子任務。
 
-         如需有關子項工作的詳細資訊，請參閱 [任務總覽](../../../manage-work/tasks/task-information/tasks-overview.md).
+         如需有關子項工作的詳細資訊，請參閱 [建立子任務](/help/quicksilver/manage-work/tasks/create-tasks/create-subtasks.md).
 
       1. （視條件而定）如果您已停用 **自動儲存** 選項於按下之後 **新增更多工**，您可以進行以下操作：
 

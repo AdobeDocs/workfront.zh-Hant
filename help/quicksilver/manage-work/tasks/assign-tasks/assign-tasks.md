@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management, Tasks
 role: User
 exl-id: 611b136e-2c3f-4eac-9d75-e8c12e06148d
-source-git-commit: 0d525df9beacc989ec3c1c695a7757dff0ad77b3
+source-git-commit: c593eab154a0942995b1f913e7189450913faac0
 workflow-type: tm+mt
-source-wordcount: '2027'
+source-wordcount: '2021'
 ht-degree: 1%
 
 ---
@@ -168,16 +168,16 @@ You cannot make a team be a Primary on a task/ issue. (Alina) -->
 ## 指派單一任務
 
 1. 移至您要指派的工作。
-1. 按一下 **指派給** 在 **指定任務** 任務或問題標題中的欄位。
+1. 按一下 **指派給** 在 **指定任務** 任務標題中的欄位
 
    或
 
    如果任務或問題已指派，則按一下指派的名稱。
 
-   生產環境中的影像範例：
+   在生產環境中：
    ![](../assign-tasks/assets/advanced-assignments-link-from-task-header-nwe-350x267.png)
 
-   <span class="preview">預覽環境中的範例影像：</span>
+   <span class="preview">在預覽環境中：</span>
    ![指派](assets/assignments-box-in-task-header.png)
 
 1. 執行下列其中一項：

@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: adec4b8e-2964-479b-8cf0-79d3afa27b2a
-source-git-commit: 160bcc8796666c9615ebe8ead18813b96be26a71
+source-git-commit: c593eab154a0942995b1f913e7189450913faac0
 workflow-type: tm+mt
-source-wordcount: '287'
+source-wordcount: '274'
 ht-degree: 1%
 
 ---
@@ -98,13 +98,14 @@ ht-degree: 1%
 
 {{step1-to-planning}}
 
-這會開啟您上次存取的工作區。
+1. 按一下您要刪除的工作區。
 
-1. （可選）展開現有工作區名稱右側的向下箭頭，並選取您要刪除的工作區。
+   工作區頁面隨即顯示。
+
 1. 按一下 **更多** 功能表 ![](assets/more-menu.png) 按一下工作區名稱旁的「 」 **刪除**.
 
    ![](assets/permanently-delete-workspace-confirmation.png)
 
-1. Type &quot;**刪除**&quot;，然後按一下 **永久刪除**.
+1. Type &quot;**刪除**&quot;，然後按一下 **永久刪除**. 不區分大小寫。
 
    工作區已刪除且無法復原。 任何與其關聯的記錄型別、記錄、欄位和檢視也會被刪除。 <!--ensure this is right at or before GA-->

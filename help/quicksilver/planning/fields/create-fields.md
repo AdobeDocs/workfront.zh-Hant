@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: 160bcc8796666c9615ebe8ead18813b96be26a71
+source-git-commit: c593eab154a0942995b1f913e7189450913faac0
 workflow-type: tm+mt
-source-wordcount: '3275'
+source-wordcount: '3287'
 ht-degree: 2%
 
 ---
@@ -117,9 +117,11 @@ recommendations: noDisplay, noCatalog
 
 {{step1-to-planning}}
 
-根據預設，上次存取的工作區應該會開啟。
+1. 按一下您要為其建立欄位記錄的工作區。
 
-1. （可選）展開現有工作區名稱右側的向下箭頭，並選取您要為其建立欄位之記錄型別的工作區，然後按一下記錄型別。
+   工作區隨即開啟，且記錄型別隨即顯示。
+
+1. 按一下記錄型別的卡片。
 
    與記錄型別關聯的所有現有記錄都會顯示在表格檢視的列中。
 
@@ -127,8 +129,11 @@ recommendations: noDisplay, noCatalog
    >
    >    如果沒有顯示記錄，表示您可能還沒有任何記錄，或者您可能套用了篩選器，以限制您在畫面上看到的內容。
 
-   與記錄型別關聯的所有現有欄位都會顯示在表格檢視的欄中。 <!--caveat this for when we can hide the fields; mention that they can be hidden if they are not visible by default-->
+   與記錄型別關聯的所有現有欄位都會顯示在表格檢視的欄中。
 
+   >[!TIP]
+   >
+   >    某些欄位可能已隱藏。 按一下「欄位」並啟用切換您要以表格檢視中的欄位檢視。
 
 1. 按一下 **+** 圖示以新增欄位。
 1. 在 **新欄位** 標籤，搜尋中的欄位型別 **欄位型別** 方塊，或從下列欄位型別中選取：

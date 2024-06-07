@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: ec48db42-2395-4439-97ae-e4f5242170b7
-source-git-commit: 160bcc8796666c9615ebe8ead18813b96be26a71
+source-git-commit: c593eab154a0942995b1f913e7189450913faac0
 workflow-type: tm+mt
-source-wordcount: '323'
+source-wordcount: '341'
 ht-degree: 0%
 
 ---
@@ -113,9 +113,16 @@ recommendations: noDisplay, noCatalog
 
 {{step1-to-planning}}
 
-這會開啟上次在Workfront Planning中存取的工作區。
-1. 按一下要刪除其欄位的記錄型別的卡片。
-1. （視條件而定）選取 **表格檢視** 從 **檢視** 記錄型別頁面右上角的下拉式功能表。
+1. 按一下要刪除其記錄欄位的工作區。
+
+   工作區隨即開啟，且記錄型別隨即顯示。
+
+1. 按一下記錄型別的卡片。
+
+1. （視條件而定）如果尚未選取，請按一下的 **表格檢視** 在記錄型別頁面上。
+
+   與記錄型別關聯的所有現有記錄都會顯示在表格檢視的列中。
+
 1. 在欄標題中尋找要刪除的欄位，並將滑鼠游標停留在欄標題上，然後按一下欄位名稱后面的向下箭頭。
 
    ![](assets/arrow-menu-after-name-of-field-in-table-header-highlighted.png)

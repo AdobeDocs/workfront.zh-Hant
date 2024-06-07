@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 6c35c313-d6ed-428b-b70d-2ea242da4e8f
-source-git-commit: 3a819fc18e0b5f438a55265ea0c5c9679ef0fdd6
+source-git-commit: c593eab154a0942995b1f913e7189450913faac0
 workflow-type: tm+mt
-source-wordcount: '558'
+source-wordcount: '613'
 ht-degree: 0%
 
 ---
@@ -127,13 +127,17 @@ recommendations: noDisplay, noCatalog
 
 {{step1-to-planning}}
 
-1. （可選）展開現有工作區名稱右側的向下箭頭，並選取您要刪除記錄型別的工作區。
+1. 按一下您要編輯其記錄欄位的工作區。
 
-   工作區隨即開啟，並顯示與其關聯的記錄型別。
-1. 按一下您要編輯其欄位的記錄型別的卡片。
+   工作區隨即開啟，且工作區中的所有記錄型別都會顯示在卡片上。
+
+1. 按一下記錄型別的卡片。
 
    這會開啟記錄型別的頁面。
+
 1. （視條件而定）按一下 **表格檢視**.
+
+   與記錄型別關聯的所有現有記錄都會顯示在表格檢視的列中。
 1. 將游標停留在您要編輯的欄位標題上，然後按一下欄位名稱后的向下箭頭，然後按一下 **編輯欄位**
 
    或
@@ -146,7 +150,9 @@ recommendations: noDisplay, noCatalog
 
    >[!TIP]
    >
-   >儲存欄位後，您無法更新欄位型別。
+   >* 儲存欄位後，您無法更新欄位型別。
+   >
+   >* 當您修改欄位設定（欄位選項或公式運算式）時，已包含修改欄位中資訊的記錄將即時更新其值。 欄位設定變更所觸發的值變更沒有警告或稽核記錄。 所有檢視欄位的使用者都會立即看到經過修改的新值。
 
    欄位資訊會針對所有有權檢視工作區的人員而更新。
 
@@ -154,9 +160,3 @@ recommendations: noDisplay, noCatalog
 
    如需詳細資訊，請參閱 [連線記錄型別](/help/quicksilver/planning/architecture/connect-record-types.md).
 
-<!--After the release of the RTBE for field configurations, replace the tip with this:
->[!TIP]
->
->* You cannot update the field type after the field is saved.
->
->* When you modify field configurations (field options or formula expressions), records that already contain information in the modified fields will update their values in real-time. There is no warning and no audit log for the value changes triggered by field configuration changes. All users who view the fields will immediately see the new values with the modifications. -->

@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 93c6bc15-d945-4cfc-8e87-f5b4e6fac2f4
-source-git-commit: 3856e56036a9845387d7dc6498a6f20728c8234a
+source-git-commit: c593eab154a0942995b1f913e7189450913faac0
 workflow-type: tm+mt
-source-wordcount: '554'
+source-wordcount: '568'
 ht-degree: 0%
 
 ---
@@ -102,9 +102,13 @@ ht-degree: 0%
 
 {{step1-to-planning}}
 
-您上次存取的工作區會開啟。
+1. 按一下要個人化其記錄的工作區，
 
-1. （可選）按一下工作區名稱右側的向下箭頭，以選取您要更新其記錄的工作區。
+   或
+
+   從工作區中，展開現有工作區名稱右側的向下箭頭，並選取您要個人化其記錄的工作區。
+
+   工作區隨即開啟，且記錄型別隨即顯示。
 
 1. 按一下記錄型別卡。
 

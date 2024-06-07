@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: 160bcc8796666c9615ebe8ead18813b96be26a71
+source-git-commit: c593eab154a0942995b1f913e7189450913faac0
 workflow-type: tm+mt
-source-wordcount: '821'
+source-wordcount: '824'
 ht-degree: 0%
 
 ---
@@ -98,7 +98,9 @@ ht-degree: 0%
 
 {{step1-to-planning}}
 
-您上次存取的工作區預設會開啟。 如需有關建立工作區的資訊，請參閱 [建立工作區](/help/quicksilver/planning/architecture/create-workspaces.md).
+1. 按一下您要新增記錄的工作區。
+
+   工作區隨即開啟，且記錄型別會顯示為卡片。
 
 1. 按一下記錄型別卡。 如需有關建立記錄型別的資訊，請參閱 [建立記錄型別](/help/quicksilver/planning/architecture/create-record-types.md).
 

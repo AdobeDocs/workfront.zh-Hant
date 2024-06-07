@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 374b6d9c-69a9-4a73-8708-51c14a78c7c9
-source-git-commit: 3a819fc18e0b5f438a55265ea0c5c9679ef0fdd6
+source-git-commit: c593eab154a0942995b1f913e7189450913faac0
 workflow-type: tm+mt
-source-wordcount: '543'
+source-wordcount: '551'
 ht-degree: 0%
 
 ---
@@ -90,6 +90,7 @@ ht-degree: 0%
 
 {{step1-to-planning}}
 
+1. 按一下工作區卡以開啟工作區。
 1. 在新工作區標題的工作區名稱內按一下以重新命名，然後按下 **輸入**.
 1. 按一下 **更多** 功能表 ![](assets/more-menu.png)工作區名稱右側，然後按一下 **編輯**.
 
@@ -130,7 +131,7 @@ ht-degree: 0%
 
 1. （可選）將滑鼠游標停留在記錄型別卡片上，按一下 **更多** 功能表 ![](assets/more-menu.png) 按一下「 」 **刪除** 刪除記錄型別。
 
-   如需詳細資訊，請參閱 [刪除記錄型別](/help/quicksilver/planning/architecture/delete-record-types.md))。
+   如需詳細資訊，請參閱 [刪除記錄型別](/help/quicksilver/planning/architecture/delete-record-types.md).
 
 1. （可選）按一下記錄型別卡片以將其拖放到新位置。 您可以將記錄型別從一個工作區區段拖放至另一個工作區區段。
 
