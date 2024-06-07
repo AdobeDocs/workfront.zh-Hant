@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: b04ed2e8-c60e-4978-8a9d-b9e087987ef4
-source-git-commit: 6f026590f0030b564f0d110afead9ade1acd7896
+source-git-commit: 5b167c2d7ca388d0f5298edb301174ff23d85c4d
 workflow-type: tm+mt
-source-wordcount: '334'
+source-wordcount: '357'
 ht-degree: 7%
 
 ---
@@ -74,8 +74,10 @@ Workfront為每種物件型別提供許多內建欄位。
 * 費用
 * 群組
 * 反覆項目
-* 付費記錄
+* 計費記錄
 
 如需將自訂表單附加到物件的詳細資訊，請參閱 [新增自訂表單至物件](../../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md).
+
+如需將問題轉換為專案時自訂表單會發生什麼情況的資訊，請參閱 [將問題轉換為專案](/help/quicksilver/manage-work/issues/convert-issues/convert-issue-to-project.md).
 
 
