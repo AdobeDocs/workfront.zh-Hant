@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 372aa2c2-5deb-49da-aadc-6e870bbd083a
-source-git-commit: 81f8477dd26b828c4255c678b36d98789cd81ff8
+source-git-commit: 1881803a78d1003636da558504e978316e80d064
 workflow-type: tm+mt
-source-wordcount: '1378'
+source-wordcount: '1362'
 ht-degree: 0%
 
 ---
@@ -98,10 +98,7 @@ ht-degree: 0%
                                 <p>預覽版本： 2024年6月6日</p>
                             </li>
                             <li>
-                                <p>快速發行生產：第24.6發行版本（2024年6月20日）</p>
-                            </li>
-                            <li>
-                                <p>每季發行生產：24.7版（2024年7月）</p>
+                                <p>適用於所有客戶的生產版本：搭配24.7版（2024年7月）</p>
                             </li>
                         </ul>
                     </td>
@@ -264,7 +261,7 @@ ht-degree: 0%
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-administrator-enhancements.md">休假現在反映在工作負載平衡器</a></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-resource-mgmt-enhancements.md">休假現在反映在工作負載平衡器</a></p>
                         [！BADGE New in Preview ]{type=Negative}
                         <p>為了在任務的主要受指派人排程休假時順暢地調整工作，現在重新計算專案時間表時，工作負載平衡器會重新分配時數給主要和次要使用者。</p>
                     </td>
@@ -274,10 +271,7 @@ ht-degree: 0%
                                 <p>預覽版本： 2024年6月6日</p>
                             </li>
                             <li>
-                                <p>快速發行生產：第24.6發行版本（2024年6月20日）</p>
-                            </li>
-                            <li>
-                                <p>每季發行生產：24.7版（2024年7月）</p>
+                                <p>適用於所有客戶的生產版本：搭配24.7版（2024年7月）</p>
                             </li>
                         </ul>
                     </td>

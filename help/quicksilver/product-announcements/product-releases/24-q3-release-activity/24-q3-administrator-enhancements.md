@@ -7,9 +7,9 @@ recommendations: noDisplay, noCatalog
 hide: true
 hidefromtoc: true
 exl-id: 56238597-f56b-43ba-8800-b80a150c6abc
-source-git-commit: 81f8477dd26b828c4255c678b36d98789cd81ff8
+source-git-commit: 1881803a78d1003636da558504e978316e80d064
 workflow-type: tm+mt
-source-wordcount: '433'
+source-wordcount: '425'
 ht-degree: 0%
 
 ---
@@ -46,7 +46,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->預覽版本： 2024年6月6日；快速發行生產：24.6版（2024年6月20日）；每季發行生產：24.7版（2024年7月）
+>預覽版本： 2024年6月6日；適用於所有客戶的生產版本：搭配24.7版（2024年7月）
 
 您現在可以直接從Workfront中的欄位區域新增自訂欄位或Widget，而無需開啟自訂表單來建立欄位。 這可讓您快速建立可重複使用的自訂欄位。
 
