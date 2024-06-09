@@ -105,14 +105,14 @@ A [!DNL Microsoft Word] 範本為一般 [!DNL Microsoft Word] 檔案（.docx檔�
 簡單值標籤只會被對應的值取代。 標籤的名稱會對應至 [!UICONTROL 索引鍵] 欄位的值，放置在雙大括弧內；例如，
 
 
-<pre>{{name}}</pre>
+<pre>&lbrace;&lbrace;name&rbrace;&rbrace;</pre>
 
 
 。
 
 **範例：** 若要建立顯示「嗨，Petr！」的檔案，您可以使用 [!DNL Microsoft Word Template] 模組，以建立下列範本：
 
-<pre>&gt;嗨 {{name}}！</pre>
+<pre>&gt;嗨 &lbrace;&lbrace;name&rbrace;&rbrace;！</pre>
 
 若要這麼做，您需設定模組，如下所示：
 
@@ -123,7 +123,7 @@ A [!DNL Microsoft Word] 範本為一般 [!DNL Microsoft Word] 檔案（.docx檔�
 您可以使用條件標籤來繞排文字，這些文字只有在符合某些條件時才應呈現。 若要繞排文字，請將其置於開始和結束條件標籤之間，例如「hasPhone」（如果條件為資料是否包含電話號碼）。 開始標簽名稱會加上雜湊符號#，而結束標簽名稱會加上斜線/ ，如下列範例所示。
 
 **範例：** 如果輸入資料包含電話號碼但沒有電子郵件地址，若要產生包含客戶電話號碼的檔案，您可以使用 [!DNL Microsoft Word Template] 模組，並建立下列範本：
-<pre>&gt; {{#hasPhone}}電話： {{phone}} {{/hasPhone}}</pre><pre>&gt; {{#hasEmail}}電子郵件： {{email}} {{/hasEmail}}</pre>若要這麼做，您需設定模組，如下所示：
+<pre>&gt; &lbrace;&lbrace;#hasPhone&rbrace;&rbrace;電話： &lbrace;&lbrace;phone&rbrace;&rbrace; &lbrace;&lbrace;/hasPhone&rbrace;&rbrace;</pre><pre>&gt; &lbrace;&lbrace;#hasEmail&rbrace;&rbrace;電子郵件： &lbrace;&lbrace;email&rbrace;&rbrace; &lbrace;&lbrace;/hasEmail&rbrace;&rbrace;</pre>若要這麼做，您需設定模組，如下所示：
 
 ![](assets/word-template-conditional-350x501.png)
 
@@ -141,7 +141,7 @@ A [!DNL Microsoft Word] 範本為一般 [!DNL Microsoft Word] 檔案（.docx檔�
 
 **範例：** 若要產生列出客戶清單中每個連絡人的姓名和電話號碼的檔案，您可以使用 [!DNL Microsoft Word Template] 模組，並建立下列範本：
 
-<pre>&gt; {{#contact}}</pre><pre>&gt;     {{name}}， {{phone}}</pre><pre>&gt; {{/contact}}</pre>
+<pre>&gt; &lbrace;&lbrace;#contact&rbrace;&rbrace;</pre><pre>&gt;     &lbrace;&lbrace;name&rbrace;&rbrace;， &lbrace;&lbrace;phone&rbrace;&rbrace;</pre><pre>&gt; &lbrace;&lbrace;/contact&rbrace;&rbrace;</pre>
 
 若要這麼做，您需設定模組，如下所示：
 
