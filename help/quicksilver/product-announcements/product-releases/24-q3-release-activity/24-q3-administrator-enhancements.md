@@ -7,9 +7,9 @@ recommendations: noDisplay, noCatalog
 hide: true
 hidefromtoc: true
 exl-id: 56238597-f56b-43ba-8800-b80a150c6abc
-source-git-commit: 1881803a78d1003636da558504e978316e80d064
+source-git-commit: 4e6f4523cd0b52458f8dc445d2b7784126f32a23
 workflow-type: tm+mt
-source-wordcount: '425'
+source-wordcount: '432'
 ht-degree: 0%
 
 ---
@@ -31,6 +31,8 @@ ht-degree: 0%
 以前，物件需要在生產環境中與沙箱或預覽環境分開設定。
 
 24.6版開始進行環境升級時，將可提供更多環境升級的資訊和指示。
+
+[觀看此功能的影片示範](https://video.tv.adobe.com/v/3429735/){target=_blank}
 
 ## 在自訂表單設計工具中共用自訂表單和自訂欄位
 
