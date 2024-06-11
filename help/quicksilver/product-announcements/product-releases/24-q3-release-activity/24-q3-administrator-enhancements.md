@@ -7,7 +7,7 @@ recommendations: noDisplay, noCatalog
 hide: true
 hidefromtoc: true
 exl-id: 56238597-f56b-43ba-8800-b80a150c6abc
-source-git-commit: 4e6f4523cd0b52458f8dc445d2b7784126f32a23
+source-git-commit: c219fb78fec086cdf5cad70da3f86873c5e6fe31
 workflow-type: tm+mt
 source-wordcount: '432'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->24.6版（2024年6月20日）將在沙箱、預覽和生產環境中提供環境升級。
+>24.6版（2024年6月13日）將在沙箱、預覽和生產環境中提供環境升級。
 
 環境升級可讓您將物件從一個Workfront環境移動到另一個環境，例如從沙箱環境移動到生產環境。 您可以設定及測試物件，而不會對貴組織的資料和記錄造成任何風險。 然後，您就可以將這些物件移至生產環境，而無需重新設定，從而節省時間和精力。
 
