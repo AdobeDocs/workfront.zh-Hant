@@ -8,13 +8,11 @@ description: 環境推進功能旨在提供與組態相關的物件從一個環�
 author: Becky
 feature: System Setup and Administration
 role: Admin
-hide: true
-hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: 0ac8c7df-2d38-4291-861e-52fb5e748537
-source-git-commit: e03573640fd8af9c811cef4cf176cc4f37d757fc
+source-git-commit: d249751b78e9d40fe7a351db14cbf0f3b7c79889
 workflow-type: tm+mt
-source-wordcount: '629'
+source-wordcount: '679'
 ht-degree: 0%
 
 ---
@@ -26,6 +24,33 @@ ht-degree: 0%
 >[!IMPORTANT]
 >
 >如果您在設定環境升級的物件時重新整理自訂重新整理沙箱，則重新整理時將會遺失該設定。 我們建議您不要重新整理「自訂重新整理沙箱」，除非所有未完成的環境升級物件和套件都已成功升級。
+
+## 存取需求
+
+您必須具備下列條件：
+
+<table>
+  <tr>
+   <td><strong>[!DNL Adobe Workfront] 計畫</strong>
+   </td>
+   <td> 貴組織必須採用新的定價模式，並擁有Prime或Ultimate計畫。
+   </td>
+  </tr>
+  <tr>
+   <td><strong>[!DNL Adobe Workfront] 授權</strong>
+   </td>
+   <td> [！UICONTROL標準]
+   </td>
+  </tr>
+   <tr>
+   <td>存取層級設定
+   </td>
+   <td>您必須是 [!DNL Workfront] 管理員。
+   </td>
+  </tr>
+</table>
+
+如需有關此表格的詳細資訊，請參閱 [Workfront檔案中的存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## 建立套件
 

@@ -8,20 +8,18 @@ description: 「環境升級」功能的目的是提供與組態相關的物件�
 author: Becky
 feature: System Setup and Administration
 role: Admin
-hide: true
-hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: 8b4c04f5-f519-44e9-8429-0ce80c2d7c5b
-source-git-commit: 29e2e89d15804d6d4a5e7b0080ab91b98cf7ea2d
+source-git-commit: d249751b78e9d40fe7a351db14cbf0f3b7c79889
 workflow-type: tm+mt
-source-wordcount: '1005'
+source-wordcount: '1001'
 ht-degree: 1%
 
 ---
 
 # 在Workfront環境之間移動物件的概觀（環境升級）
 
-環境推進功能的用意是提供將物件從一個Workfront環境移動到另一個環境的功能。 例如，您可以建立範本並在沙箱環境中進行設定，因為您知道進行的任何測試都不會影響組織的實際資料。 設定並測試範本後，您可以將其移至生產環境以準備使用。
+環境推進功能可讓您將物件從一個Workfront環境移動到另一個環境。 例如，您可以建立範本並在沙箱環境中進行設定，因為您知道進行的任何測試都不會影響組織的實際資料。 設定並測試範本後，您可以將其移至生產環境以準備使用。
 
 此程式稱為「環境升級」。
 

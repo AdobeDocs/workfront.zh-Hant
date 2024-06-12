@@ -8,20 +8,18 @@ description: 「環境升級」功能的目的是提供與組態相關的物件�
 author: Becky
 feature: System Setup and Administration
 role: Admin
-hide: true
-hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: dd3c29df-4583-463a-b27a-bbfc4dda8184
-source-git-commit: b010a5126a9c7f49128c11b57e5d7b15260e691c
+source-git-commit: d249751b78e9d40fe7a351db14cbf0f3b7c79889
 workflow-type: tm+mt
-source-wordcount: '2059'
+source-wordcount: '2105'
 ht-degree: 2%
 
 ---
 
 # 移動物件 [!DNL Workfront] 使用環境 [!DNL Workfront] 環境升級API
 
-「環境升級」功能的目的是提供與組態相關的物件從一個環境移動到另一個環境的功能。 您可以使用本文所述的Workfront API來移動這些物件。
+「環境升級」功能可讓您將組態相關的物件從一個環境移動到另一個環境。 您可以使用本文所述的Workfront API來移動這些物件。
 
 如需使用Workfront應用程式在環境之間移動物件的相關指示，請參閱：
 
@@ -29,7 +27,32 @@ ht-degree: 2%
 * [安裝環境升級套件](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-install-package.md)
 
 
-<!-- add access req for GA-->
+## 存取需求
+
+您必須具備下列條件：
+
+<table>
+  <tr>
+   <td><strong>[!DNL Adobe Workfront] 計畫</strong>
+   </td>
+   <td> 貴組織必須採用新的定價模式，並擁有Prime或Ultimate計畫。
+   </td>
+  </tr>
+  <tr>
+   <td><strong>[!DNL Adobe Workfront] 授權</strong>
+   </td>
+   <td> [！UICONTROL標準]
+   </td>
+  </tr>
+   <tr>
+   <td>存取層級設定
+   </td>
+   <td>您必須是 [!DNL Workfront] 管理員。
+   </td>
+  </tr>
+</table>
+
+如需有關此表格的詳細資訊，請參閱 [Workfront檔案中的存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## 先決條件
 
