@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: c593eab154a0942995b1f913e7189450913faac0
+source-git-commit: d0880e0b58a3fb853569e2c09efc495cbd9c38ec
 workflow-type: tm+mt
-source-wordcount: '3287'
+source-wordcount: '3360'
 ht-degree: 2%
 
 ---
@@ -382,9 +382,9 @@ recommendations: noDisplay, noCatalog
 
    >[!NOTE]
    >
-   > 您無法在公式中新增多重選取型別欄位。
-
-
+   >* 您無法在公式中新增多重選取型別欄位。
+   >
+   >* 您可以參考與目前記錄型別相距最多4個層級的欄位。 例如，如果您正在建立「活動」記錄型別的公式欄位，且「活動」已連線至「產品」記錄型別，而該記錄型別已連線至「行銷活動」記錄型別，而該記錄型別已連線至「Workfront專案」，則您可以在針對「活動」記錄型別建立的公式中參考「專案擁有者」。
 
 1. 按一下「**建立**」。
 

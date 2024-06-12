@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: c593eab154a0942995b1f913e7189450913faac0
+source-git-commit: d0880e0b58a3fb853569e2c09efc495cbd9c38ec
 workflow-type: tm+mt
 source-wordcount: '1065'
 ht-degree: 1%
@@ -117,6 +117,7 @@ ht-degree: 1%
   >[!NOTE]
   >
   > 某些檢視元素可能不適用於所有檢視。
+
 
 ## 記錄檢視之間的相似之處和差異
 

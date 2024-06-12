@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: c593eab154a0942995b1f913e7189450913faac0
+source-git-commit: d0880e0b58a3fb853569e2c09efc495cbd9c38ec
 workflow-type: tm+mt
-source-wordcount: '2403'
+source-wordcount: '2619'
 ht-degree: 3%
 
 ---
@@ -264,6 +264,8 @@ hide: yes
 
 * 您可以依已連線的記錄欄位或查詢欄位進行篩選，但不能針對允許連結至多個記錄的欄位進行篩選。
 
+* 您可以參考與目前記錄型別相距最多4個層級的欄位。 例如，如果您正在建立活動記錄型別的篩選器，且活動已連線到產品記錄型別(已連線到連線到Workfront專案的促銷活動記錄型別)，則可以在您為活動記錄型別建立的篩選器中參考專案所有者。
+
 若要將篩選器新增至表格檢視：
 
 1. 建立記錄型別頁面的表格檢視，如文章所述 [管理記錄檢視](/help/quicksilver/planning/views/manage-record-views.md).
@@ -373,6 +375,7 @@ hide: yes
 * 移除群組會將群組從存取與您相同記錄型別以及顯示與您相同檢視的任何人中移除。
 * 您可以編輯列在群組下的記錄。
 * 您可以依已連線的記錄欄位或查詢欄位來分組，但不能針對允許連結至多個記錄的欄位進行分組。
+* 您可以參考與目前記錄型別相距最多4個層級的欄位。 例如，如果您正在建立「活動」記錄型別的群組，且「活動」已連線至「產品」記錄型別，而該記錄型別已連線至「促銷活動」記錄型別，而該記錄型別已連線至「Workfront專案」，則您可在您為該「活動」記錄型別所建立的分組中參考「專案所有者」。
 <!--checking into this: * You can apply up to 4 levels of grouping when using the API. -->
 <!-- checking also into this: * You cannot group by a Paragraph-type field.-->
 
@@ -428,6 +431,8 @@ hide: yes
 * 移除排序標準會將它們從存取與您相同記錄型別的任何人中移除，並使用與您使用的相同檢視。
 
 * 您可以依已連線的記錄欄位或查詢欄位排序，但不能針對允許連結至多個記錄的欄位進行排序。
+
+* 您可以參考與目前記錄型別相距最多4個層級的欄位。 例如，如果您正在建立「活動」記錄型別的排序，且「活動」已連線至「產品」記錄型別，而該記錄型別已連線至「促銷活動」記錄型別，而該記錄型別已連線至「Workfront專案」，則您可以在針對「活動」記錄型別建立的排序中參考「專案所有者」。
 
 排序 <!--ungrouped (add this when sorting for groupings will be available--> 記錄，請執行下列動作：
 
