@@ -10,9 +10,9 @@ feature: System Setup and Administration
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: fe213fe7-5bb8-479c-926b-761cbdd7ba4e
-source-git-commit: 6f5da5ede6bb8c98b26d7d37366670c89ded6c49
+source-git-commit: b26f20b13a18c6e727fcf9e267ba9c53e5b566dc
 workflow-type: tm+mt
-source-wordcount: '849'
+source-wordcount: '912'
 ht-degree: 0%
 
 ---
@@ -94,9 +94,15 @@ ht-degree: 0%
 
 ## 衝突
 
-當屬於安裝套裝軟體一部分的物件與目標環境中已存在的物件同名時，就會發生衝突。 發生此情況時，您可以選取如何解決衝突。 衝突會在物件層級上解決。
+衝突是在安裝的目標環境中找到的物件，與從來源環境安裝的其中一個物件相符。 將來源物件的名稱和ID與目標環境中的物件做比較，即可偵測衝突。 將來源物件與先前安裝的物件記錄進行比較，即可偵測衝突。
+
+發生碰撞時，您可以選取如何解決碰撞。 衝突會在物件層級上解決。
 
 您可以按一下每個物件型別旁的下拉式清單來檢視衝突。 衝突會顯示在「衝突」欄中。
+
+>[!NOTE]
+>
+>偵測到的衝突可能不是您要在安裝中覆寫或使用的物件。 我們建議您驗證偵測到的衝突，以確保安裝目標正確無誤。
 
 若要解決衝突，請在「建置動作」欄中選取動作，或使用已顯示的預設動作。
 
