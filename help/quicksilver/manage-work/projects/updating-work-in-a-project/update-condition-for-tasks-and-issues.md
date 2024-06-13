@@ -6,16 +6,20 @@ description: 任務或問題的條件是在其上放置標誌以指示進展情�
 author: Alina
 feature: Work Management
 exl-id: 5d970af6-5996-4781-9b97-de02063dc32c
-source-git-commit: 330ee20ad14ea7409db1c6f627ed6aa0e0c5c014
+source-git-commit: ac5e56a2881d589c9a737d5e7115d82ee5c11ea6
 workflow-type: tm+mt
-source-wordcount: '1032'
+source-wordcount: '1095'
 ht-degree: 1%
 
 ---
 
 # 更新任務和問題的條件
 
-{{highlighted-preview}}
+<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它僅適用於所有客戶的預覽環境，或適用於啟用快速發行的客戶的生產環境。</span>
+
+<span class="preview">如需快速發行版本的相關資訊，請參閱 [啟用或停用組織的快速發行](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
+
+<span class="preview">如需目前版本的相關資訊，請參閱 [2024年第三季度版本總覽](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).</span>
 
 任務或問題的條件是在其上放置標誌以指示進展情況。 這與工作專案的「狀態」不同，後者指示專案開發的目前階段。
 
@@ -136,7 +140,7 @@ Updating the Condition of a task or issue differs depending on whether you are a
 
 1. 若要更新任務或問題詳細資訊區段中任務或問題的狀態：
 
-   1. （視條件而定）如果您的Workfront或群組管理員將「條件」欄位新增到版面配置範本中任務或問題的詳細資訊區段，請按一下 **詳細資料** 然後按一下「 」 **條件** 欄位並從下列選項中選取：
+   1. （視條件而定）如果您的Workfront或群組管理員將「條件」欄位新增到版面配置範本中任務或問題的詳細資訊區段，請按一下 **詳細資料** 然後按一下「 」 **任務狀態** 或 **問題狀態** 並從下列選項中選取：
       * 進展順利
       * 部分關注事項
       * 主要障礙

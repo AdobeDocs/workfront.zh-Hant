@@ -6,9 +6,9 @@ description: 您可以使用智慧指派來識別最佳使用者是何人來完�
 author: Alina
 feature: Work Management
 exl-id: 073a3234-3156-4b4f-a3e1-dbb32d61068a
-source-git-commit: 4d76ef1b34d484e3da2af94543a5fd660ad0a4ef
+source-git-commit: ac5e56a2881d589c9a737d5e7115d82ee5c11ea6
 workflow-type: tm+mt
-source-wordcount: '582'
+source-wordcount: '603'
 ht-degree: 0%
 
 ---
@@ -75,22 +75,29 @@ ht-degree: 0%
 
 1. 將游標置於指派欄位中，並等候兩秒。
 
-   <span class="preview">此 **建議的指派** 清單隨即顯示。</span> <!--check the casing for "assignments" should be lower case in task lists??-->
+   <div class="preview">
+   下列一或多個含有智慧指派建議的區段隨即顯示：
 
-   >[!TIP]
-   >
-   >   清單標題隨即顯示 **以下是一些建議** 而非 **建議的指派** 在問題清單中。
+   * **建議的指派**：針對任務顯示。
 
-   ![](assets/smart-assignments-task-header-nwe-350x302.png)
+     >[!TIP]
+     >
+     >   清單標題隨即顯示 **以下是一些建議** 而非 **建議的指派** 在生產環境中。
+     >
+   * **其他指派**：顯示任務和問題。
+   * **使用者和團隊**：顯示任務和問題。
+   * **職位角色**：顯示任務和問題。
+   </div>
 
-   如果發生問題，智慧指派建議會顯示在 **建議的指派** 區域。
+   <span class="preview">![](assets/smart-assignments-task-header-nwe-350x302.png)</span>
+
 
    對於任務，智慧型指派會根據演演算法計算識別指派的階段，顯示在下列區段中：
 
    * **建議的指派**：在任務智慧指派的演演算法計算的第一階段中識別的指派。 <span class="preview">此區段不適用於問題。</span>
-   * <span class="preview">**其他指派** (或 **使用者和團隊**，或 **職位角色**)：在任務智慧指派的演演算法計算的第二階段中識別的指派。 <!--no longer valid: This section is not available for issues. --></span> <!--replace this with the new UI: "Other assignments"-->
+   * <span class="preview">**其他指派**， **使用者和團隊**，或 **職位角色**：在任務智慧指派的演演算法計算的第二階段中識別的指派。 <!--no longer valid: This section is not available for issues. --></span> <!--replace this with the new UI: "Other assignments"-->
 
-   ![](assets/smart-assignments-task-list.png)
+   <span class="preview">![](assets/smart-assignments-task-list.png)</span>
 
    如需詳細資訊，請參閱 [智慧指派總覽](../../../manage-work/tasks/assign-tasks/smart-assignments.md).
 
