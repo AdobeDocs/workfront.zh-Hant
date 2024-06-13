@@ -6,10 +6,12 @@ description: 本文包含有關新評論體驗最常見問題的清單。
 author: Alina
 feature: Product Announcements
 role: User, Admin
+hide: true
+hidefromtoc: true
 exl-id: 5ce15530-0858-44a4-b928-779654310dee
-source-git-commit: f4ef463ebdc9a4a7a0802e5394d7820ebc447aa9
+source-git-commit: 3bb0baa2e8831827f32156b1772fa9ee33694950
 workflow-type: tm+mt
-source-wordcount: '458'
+source-wordcount: '459'
 ht-degree: 0%
 
 ---
@@ -46,7 +48,7 @@ ht-degree: 0%
 
 ## 是否可以搜尋或篩選註解？
 
-是. 我們計畫推出未來搜尋評論的功能。
+是。我們計畫推出未來搜尋評論的功能。
 
 ## 是否可以排序註解？
 

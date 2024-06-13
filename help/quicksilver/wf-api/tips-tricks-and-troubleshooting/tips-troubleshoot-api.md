@@ -9,9 +9,9 @@ feature: Workfront API
 role: Developer
 recommendations: noDisplay, noCatalog
 exl-id: 644b9323-c6c3-49bd-8295-b51352992316
-source-git-commit: fffe92bc21104e297bc9dfcbc399c34b011e3927
+source-git-commit: 86c0517443537ec5af640036c290b3a495825fdc
 workflow-type: tm+mt
-source-wordcount: '110'
+source-wordcount: '116'
 ht-degree: 0%
 
 ---
@@ -29,4 +29,5 @@ ht-degree: 0%
 * [OPTASK copyIssue的選項設定](../../wf-api/tips-tricks-and-troubleshooting/copyissue-options.md)
 * [當貨幣為空值（未指派）時，擷取專案的貨幣資訊](../../wf-api/tips-tricks-and-troubleshooting/retrieve-currency-when-null.md)
 * [不支援使用API新增連結的資料夾](../../wf-api/tips-tricks-and-troubleshooting/linked-folders-for-docu-not-supported.md)
+* [檔案moveToFolder動作無效](/help/quicksilver/wf-api/tips-tricks-and-troubleshooting/error-using-movetofolder.md)
 
