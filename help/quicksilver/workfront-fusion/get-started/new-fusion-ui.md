@@ -7,9 +7,9 @@ description: 對於未透過Adobe Experience Cloud存取Fusion的使用者，Wor
 author: Becky
 feature: Workfront Fusion
 exl-id: 2887a0e2-039e-4e29-823d-82809f217045
-source-git-commit: 2a33e997113e098d0e019c2437795ac481748fc9
+source-git-commit: 5e1508e8e49a5ceb95b1524dbb23a258ab5c4e20
 workflow-type: tm+mt
-source-wordcount: '384'
+source-wordcount: '409'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,8 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->舊版Fusion體驗將於2024年8月15日淘汰。
+>* 舊版Fusion體驗將於2024年8月15日淘汰。
+>* 首次載入時，新的Fusion體驗載入速度可能會很慢（30-60秒）。 首次載入後，Fusion的載入速度將會更快。
 
 ## 存取需求
 
