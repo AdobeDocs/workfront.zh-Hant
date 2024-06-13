@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: a264512f-54ab-426e-8dd7-5602ece81c57
-source-git-commit: 6ddbe56dd187d62489c41ff721d0f071202e54e4
+source-git-commit: 6c43d836c24f893d1b7d7d01c1dd0b1cc3fba357
 workflow-type: tm+mt
 source-wordcount: '1408'
 ht-degree: 1%
@@ -16,8 +16,6 @@ ht-degree: 1%
 ---
 
 # 共用自訂表格
-
-{{highlighted-preview}}
 
 您可以設定自訂表單的存取權，以控制誰（人員、角色、群組、團隊、公司）可以檢視、共用及編輯該表單。
 
@@ -109,8 +107,6 @@ ht-degree: 1%
 
 1. 按一下「**儲存**」。
 
-<div class="preview">
-
 ## 從表單設計工具共用自訂表單
 
 {{step-1-to-setup}}
@@ -160,8 +156,6 @@ ht-degree: 1%
    >如果您擔心自訂表單，當使用者將敏感資料附加至特定物件時，可能會在該表單中輸入資料，因此限制這些物件的共用 *物件* 比起限制表單本身的存取權，可能會更好。
 
 1. 按一下「**儲存**」。
-
-</div>
 
 ## 從表單清單中移除對自訂表單的存取權
 
