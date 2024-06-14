@@ -8,9 +8,9 @@ author: Courtney
 feature: System Setup and Administration, Digital Content and Documents
 role: Admin
 exl-id: a9f182c0-11cb-4e94-be86-b19ba5102faa
-source-git-commit: ccfea4cdf7280f992068bc64bab27e63aaab8b74
+source-git-commit: 84c5772d130be78d9f9b9aef342c57183d5ec985
 workflow-type: tm+mt
-source-wordcount: '2056'
+source-wordcount: '2075'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,9 @@ ht-degree: 0%
 
 ## 存取需求
 
-您必須具備下列條件：
++++ 展開以檢視本文中功能的存取需求。
+
+您必須具有下列存取權才能執行本文中的步驟：
 
 <table style="table-layout:auto"> 
  <col> 
@@ -58,6 +60,8 @@ ht-degree: 0%
 
 如需有關此表格的詳細資訊，請參閱 [Workfront檔案中的存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
++++
+
 ## 建立自動化工作流程範本
 
 {{step1-to-proofing}}
@@ -77,7 +81,7 @@ ht-degree: 0%
      </tr> 
      <tr> 
       <td role="rowheader">範本所有者</td> 
-      <td>您可以選取將管理範本的Workfront管理員或Workfront校訂管理員。</td> 
+      <td>您可以選取將管理範本的Workfront管理員或Workfront Proof管理員。</td> 
      </tr> 
      <tr> 
       <td role="rowheader">範本群組</td> 
@@ -170,7 +174,7 @@ ht-degree: 0%
 
 ## 修改自動化工作流程範本
 
-身為Workfront校訂管理員，您可以修改自動化工作流程範本。 您的變更會在您進行時自動儲存。
+身為Workfront Proof管理員，您可以修改自動工作流程範本。 您的變更會在您進行時自動儲存。
 
 {{step1-to-proofing}}
 
@@ -188,7 +192,7 @@ ht-degree: 0%
      </tr> 
      <tr> 
       <td role="rowheader">範本所有者</td> 
-      <td>您可以選取將管理範本的Workfront管理員或Workfront校訂管理員。</td> 
+      <td>您可以選取將管理範本的Workfront管理員或Workfront Proof管理員。</td> 
      </tr> 
      <tr> 
       <td role="rowheader">範本群組</td> 
@@ -272,7 +276,7 @@ ht-degree: 0%
 
 {{step1-to-proofing}}
 
-1. 在Workfront校訂的左側面板中，按一下 **工作流程**.
+1. 在Workfront Proof的左側面板中，按一下 **工作流程**.
 1. 在 **工作流程** 在出現的頁面中，執行下列任一項作業：
 
    * 新增範本

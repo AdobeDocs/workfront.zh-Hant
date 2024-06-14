@@ -6,9 +6,9 @@ description: 您可以在檔案上傳至Workfront時為其產生校訂。 您也
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 609e95fa-1fb3-4cc4-9ee8-403fd2f30e10
-source-git-commit: d71ee30378c39975366f4f257e3f7b17aba0c0ae
+source-git-commit: 4572ea9bb0679c599a55d5a87c1397c7b819c963
 workflow-type: tm+mt
-source-wordcount: '656'
+source-wordcount: '667'
 ht-degree: 0%
 
 ---
@@ -26,6 +26,8 @@ If a proof fails to generate after following the steps described in the followin
 -->
 
 ## 存取需求
+
++++ 展開以檢視本文中功能的存取需求。
 
 您必須具有下列存取權才能執行本文中的步驟：
 
@@ -46,7 +48,7 @@ If a proof fails to generate after following the steps described in the followin
    <p>目前：工作或計畫</p> <p>舊版計畫：任何（您必須為使用者啟用校訂）</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">校訂權限設定檔 </td> 
+   <td role="rowheader">校樣權限設定檔 </td> 
    <td>經理或以上</td> 
   </tr> 
   <tr> 
@@ -57,6 +59,8 @@ If a proof fails to generate after following the steps described in the followin
 </table>
 
 如需有關此表格的詳細資訊，請參閱 [Workfront檔案中的存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## 上傳檔案並建立校訂
 

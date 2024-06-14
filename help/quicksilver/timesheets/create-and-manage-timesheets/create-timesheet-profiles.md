@@ -6,9 +6,9 @@ description: 您可以建立、編輯和指派為使用者產生週期性時程�
 author: Alina
 feature: Timesheets
 exl-id: 8f4826bd-82b4-4157-a7d4-a7c94b8fc879
-source-git-commit: 8382b69e6a55af69397dd8f566395143f3c1dcd3
+source-git-commit: e896d156854c6729e5ea0a82dcbc641fbfa9415e
 workflow-type: tm+mt
-source-wordcount: '1461'
+source-wordcount: '1472'
 ht-degree: 0%
 
 ---
@@ -24,6 +24,8 @@ ht-degree: 0%
 如需手動建立時程表的詳細資訊，請參閱 [建立單次使用時程表](../../timesheets/create-and-manage-timesheets/create-tmshts.md).
 
 ## 存取需求
+
++++ 展開以檢視本文中功能的存取需求。
 
 您必須具備下列專案才能執行本文所述的步驟：
 
@@ -50,6 +52,8 @@ ht-degree: 0%
 </table>
 
 如需有關此表格的詳細資訊，請參閱 [Workfront檔案中的存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## 建立或編輯週期性時程表
 

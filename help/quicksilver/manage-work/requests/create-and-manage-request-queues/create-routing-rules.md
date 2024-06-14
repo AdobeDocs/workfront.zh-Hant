@@ -8,9 +8,9 @@ feature: Work Management, Requests
 topic: Collaboration
 role: User, Admin
 exl-id: 640f9054-f2f8-4594-9311-e93518f58453
-source-git-commit: 16a34e4315d508e31859e962edd01026d01ee193
+source-git-commit: 43afa8136e51332a0970b01fff36113d5bf42294
 workflow-type: tm+mt
-source-wordcount: '511'
+source-wordcount: '522'
 ht-degree: 1%
 
 ---
@@ -24,6 +24,8 @@ ht-degree: 1%
 路由規則會將問題傳送給最能解決已提交問題或請求的特定使用者或工作角色。 路由規則通常與佇列主題相關聯，這些主題可用於控制將套用至問題或請求的路由規則。
 
 ## 存取需求
+
++++ 展開以檢視本文中功能的存取需求。
 
 <!--drafted - replace the table at P&P:
 
@@ -84,6 +86,8 @@ ht-degree: 1%
 </table>
 
 如需有關此表格的詳細資訊，請參閱 [Workfront檔案中的存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## 建立路由規則
 

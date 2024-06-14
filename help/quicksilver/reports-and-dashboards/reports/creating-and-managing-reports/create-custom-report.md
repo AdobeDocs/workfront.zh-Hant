@@ -6,9 +6,9 @@ description: 您可以透過建立報告，提供貴組織在Adobe Workfront中�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 10c4df37-f09f-4b91-9cfd-3d0c3835bc7b
-source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
+source-git-commit: 4cab7bed6cb4c25d96e70ccce2ece7f6d156f435
 workflow-type: tm+mt
-source-wordcount: '1817'
+source-wordcount: '1828'
 ht-degree: 1%
 
 ---
@@ -27,6 +27,8 @@ ht-degree: 1%
 如需建立及管理報表（包括課程、影片和教學課程）的詳細資訊，請參閱Adobe Experience League網站上的「學習」一節。
 
 ## 存取需求
+
++++ 展開以檢視本文中功能的存取需求。
 
 您必須具有下列存取權才能執行本文中的步驟：
 
@@ -57,6 +59,8 @@ ht-degree: 1%
 </table>
 
 &#42;若要瞭解您擁有的計畫、授權型別或存取權，請聯絡您的Workfront管理員。
+
++++
 
 ## 建立報告 {#create-a-report}
 

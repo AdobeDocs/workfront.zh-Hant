@@ -6,9 +6,9 @@ description: Portfolio是Adobe Workfront中的專案或方案的集合。 如果
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: f88669d2-e8e9-4905-a771-1427b1fd32b2
-source-git-commit: 7a9232f59e4c6f2eac2995be7d7862295b6bab2c
+source-git-commit: 5cb07cb42c3264c6629bc0a038c0e70ffc2cb509
 workflow-type: tm+mt
-source-wordcount: '408'
+source-wordcount: '419'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,8 @@ Portfolio是中專案或方案的集合 [!DNL Adobe Workfront]. 如果您發現�
 我們建議停用不再需要與未來專案關聯的專案組合，而不是刪除它，以保留目前與專案組合及其方案關聯的專案上的歷史資訊。
 
 ## 存取需求
+
++++ 展開以檢視本文中功能的存取需求。
 
 您必須具有下列存取權才能執行本文中的步驟：
 
@@ -50,6 +52,8 @@ Portfolio是中專案或方案的集合 [!DNL Adobe Workfront]. 如果您發現�
 </table>
 
 如需有關此表格的詳細資訊，請參閱 [Workfront檔案中的存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## 刪除和停用投資組合的概觀
 

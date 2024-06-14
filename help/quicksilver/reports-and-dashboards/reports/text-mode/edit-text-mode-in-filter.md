@@ -6,9 +6,9 @@ description: 您可以使用文字模式在清單或報告中編輯篩選器，�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: bfd1d49f-72cd-466d-8b35-8ae9848646be
-source-git-commit: bec625b70b39fec9f9a6d4f7b48023702de43675
+source-git-commit: 4572ea9bb0679c599a55d5a87c1397c7b819c963
 workflow-type: tm+mt
-source-wordcount: '997'
+source-wordcount: '1008'
 ht-degree: 0%
 
 ---
@@ -26,6 +26,8 @@ ht-degree: 0%
 如需建立篩選時更多文字模式的範例，另請參閱區段 [自訂篩選器範例](../custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md#samples-of-custom-filters) 在文章中 [自訂檢視、篩選和分組範例：文章索引](../custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md).
 
 ## 存取需求
+
++++ 展開以檢視本文中功能的存取需求。
 
 您必須具有下列存取權才能執行本文中的步驟：
 
@@ -55,6 +57,8 @@ ht-degree: 0%
 </table>
 
 如需有關此表格的詳細資訊，請參閱 [Workfront檔案中的存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## 先決條件
 

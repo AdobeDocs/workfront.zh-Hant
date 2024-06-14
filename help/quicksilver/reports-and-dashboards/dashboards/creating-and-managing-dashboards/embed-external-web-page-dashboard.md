@@ -6,9 +6,9 @@ description: 您可以將外部網頁內嵌在控制面板中，藉此存取Adob
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 04b623b5-38b0-4c32-b54e-204f1d422e45
-source-git-commit: 332c744ab9b760268620461ed2cb2551caf383cf
+source-git-commit: 4572ea9bb0679c599a55d5a87c1397c7b819c963
 workflow-type: tm+mt
-source-wordcount: '1014'
+source-wordcount: '1025'
 ht-degree: 0%
 
 ---
@@ -51,6 +51,8 @@ ht-degree: 0%
 
 ## 存取需求
 
++++ 展開以檢視本文中功能的存取需求。
+
 您必須具備下列條件：
 
 <table style="table-layout:auto"> 
@@ -79,6 +81,8 @@ ht-degree: 0%
 </table>
 
 *若要瞭解您擁有的計畫、授權型別或存取權，請聯絡您的Workfront管理員。 如需詳細資訊，請參閱 [Workfront檔案中的存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## 先決條件
 

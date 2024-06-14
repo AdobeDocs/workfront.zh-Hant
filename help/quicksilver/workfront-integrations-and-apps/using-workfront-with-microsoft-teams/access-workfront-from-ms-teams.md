@@ -6,9 +6,9 @@ description: 您可以存取 [!DNL Adobe Workfront] 從 [!DNL Microsoft Teams] �
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: a12277e8-2c2e-4b53-990f-6ee9a6541492
-source-git-commit: 4e3449e7c31d29e1a289a7866ba98f873e62922c
+source-git-commit: 4572ea9bb0679c599a55d5a87c1397c7b819c963
 workflow-type: tm+mt
-source-wordcount: '455'
+source-wordcount: '466'
 ht-degree: 1%
 
 ---
@@ -38,6 +38,8 @@ ht-degree: 1%
 
 ## 存取需求
 
++++ 展開以檢視本文中功能的存取需求。
+
 您必須具有下列存取權才能執行本文中的步驟：
 
 <table style="table-layout:auto"> 
@@ -59,6 +61,8 @@ ht-degree: 1%
 *若要瞭解您擁有的計畫、授權型別或存取權，請連絡 [!DNL Workfront] 管理員。
 
 *如需有關Workfront存取需求的詳細資訊，請參閱 [Workfront檔案中的存取要求概觀](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## 先決條件
 

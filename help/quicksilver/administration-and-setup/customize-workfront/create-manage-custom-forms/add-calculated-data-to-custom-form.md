@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 9174c4ef-3beb-4d47-9c5c-363f52105a2c
-source-git-commit: 4f63bca8634663c4106be0175851af0b982d3408
+source-git-commit: 84c5772d130be78d9f9b9aef342c57183d5ec985
 workflow-type: tm+mt
-source-wordcount: '2900'
+source-wordcount: '2911'
 ht-degree: 0%
 
 ---
@@ -47,6 +47,8 @@ ht-degree: 0%
 
 ## 存取需求
 
++++ 展開以檢視本文中功能的存取需求。
+
 您必須具備下列專案才能執行本文所述的步驟：
 
 <table style="table-layout:auto"> 
@@ -72,6 +74,8 @@ ht-degree: 0%
 </table>
 
 *若要瞭解您擁有的計畫、授權型別或存取層級設定，請聯絡Workfront管理員。 如需存取需求的詳細資訊，請參閱 [Workfront檔案中的存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 
 ## 新增計算欄位至自訂表單 {#add-a-calculated-field-to-a-custom-form}

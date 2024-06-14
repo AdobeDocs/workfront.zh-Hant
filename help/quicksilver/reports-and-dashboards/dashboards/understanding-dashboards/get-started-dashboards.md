@@ -7,9 +7,9 @@ description: 控制面板的目的是提供資訊的快速存取。 您可以在
 author: Nolan
 feature: Reports and Dashboards
 exl-id: b0e73f2d-bb50-4476-bb24-f0378807b2fe
-source-git-commit: 644e2487dae0d3b2f7931660fb8e6ed68e6b8b93
+source-git-commit: 4572ea9bb0679c599a55d5a87c1397c7b819c963
 workflow-type: tm+mt
-source-wordcount: '682'
+source-wordcount: '693'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,8 @@ ht-degree: 0%
 控制面板的用途是提供對來自多個報表之資訊的快速存取。 首先，您可以收集報表中的資訊，然後將多個報表放在控制面板上，以便更輕鬆存取資訊。
 
 ## 存取需求
+
++++ 展開以檢視本文中功能的存取需求。
 
 您必須具備下列條件：
 
@@ -50,6 +52,8 @@ ht-degree: 0%
 </table>
 
 如需有關此表格的詳細資訊，請參閱 [Workfront檔案中的存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## 您可以新增到儀表板中的物件
 

@@ -6,9 +6,9 @@ description: 在Adobe Workfront中將問題轉換為專案
 author: Alina
 feature: Work Management
 exl-id: e3ba15a3-6169-466c-9912-32a8afdcc68d
-source-git-commit: b091b62d3afe822c92f96641332077b5a211ee58
+source-git-commit: 8769637342ab65f1e627107f7bfb41f9a3f61cca
 workflow-type: tm+mt
-source-wordcount: '1969'
+source-wordcount: '1980'
 ht-degree: 1%
 
 ---
@@ -28,6 +28,8 @@ ht-degree: 1%
 從問題建立專案時，專案上的一些欄位會從其他物件填入。 如需詳細資訊，請參閱文章中的「新專案預設設定」一節 [建立專案](../../../manage-work/projects/create-projects/create-project.md).
 
 ## 存取需求
+
++++ 展開以檢視本文中功能的存取需求。
 
 您必須具有下列存取權才能執行本文中的步驟：
 
@@ -57,6 +59,8 @@ ht-degree: 1%
 </table>
 
 如需有關此表格的詳細資訊，請參閱 [Workfront檔案中的存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## 將問題轉換為專案
 

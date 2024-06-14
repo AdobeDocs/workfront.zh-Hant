@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 664fb2fe-ff7e-4807-9a43-b37e7d5d57eb
-source-git-commit: 32441df90b915077f57ead791116dcbd32c9557a
+source-git-commit: 4572ea9bb0679c599a55d5a87c1397c7b819c963
 workflow-type: tm+mt
-source-wordcount: '1140'
+source-wordcount: '1151'
 ht-degree: 0%
 
 ---
@@ -24,6 +24,8 @@ ht-degree: 0%
 作為 [!DNL Adobe Workfront] 管理員或具有職位角色管理存取權的使用者，您可以建立可指派給使用者的職位角色，並刪除與您的組織無關的預設職位角色。 有關中管理存取許可權的資訊 [!DNL Workfront]，請參閱 [授予使用者管理特定區域的存取權](../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
 
 ## 存取需求
+
++++ 展開以檢視本文中功能的存取需求。
 
 您必須具備下列條件：
 
@@ -49,6 +51,8 @@ ht-degree: 0%
 </table>
 
 &#42;若要瞭解您擁有的計畫、授權型別或存取權，請聯絡您的 [!DNL Workfront] 管理員。
+
++++
 
 ## 建立職位角色
 

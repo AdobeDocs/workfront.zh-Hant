@@ -8,9 +8,9 @@ feature: System Setup and Administration
 author: Lisa
 role: Admin
 exl-id: e5b63652-ce16-44a9-a806-a41f19970ee1
-source-git-commit: 6f026590f0030b564f0d110afead9ade1acd7896
+source-git-commit: 43afa8136e51332a0970b01fff36113d5bf42294
 workflow-type: tm+mt
-source-wordcount: '1071'
+source-wordcount: '1082'
 ht-degree: 1%
 
 ---
@@ -38,6 +38,8 @@ DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH T
 
 ## 存取需求
 
++++ 展開以檢視本文中功能的存取需求。
+
 您必須具備下列專案才能執行本文所述的步驟：
 
 <table style="table-layout:auto"> 
@@ -58,6 +60,8 @@ DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH T
 </table>
 
 &#42;若要瞭解您擁有的計畫或授權型別，請連絡您的Workfront管理員。
+
++++
 
 ## 當您還原專案、任務或問題時復原的資訊
 

@@ -6,9 +6,9 @@ description: 使用基本工作流程，您可以讓多個稽核者檢閱校樣�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 4f5d0c0e-e070-4f32-89c4-3b511a3b7fdc
-source-git-commit: d71ee30378c39975366f4f257e3f7b17aba0c0ae
+source-git-commit: 4572ea9bb0679c599a55d5a87c1397c7b819c963
 workflow-type: tm+mt
-source-wordcount: '1842'
+source-wordcount: '1853'
 ht-degree: 1%
 
 ---
@@ -20,6 +20,8 @@ ht-degree: 1%
 使用基本工作流程，您可以讓多個稽核者檢閱校樣，但他們不會整理到不同階段。 您新增的所有檢閱者都可以在您建立校訂後立即存取校訂。
 
 ## 存取需求
+
++++ 展開以檢視本文中功能的存取需求。
 
 您必須具有下列存取權才能執行本文中的步驟：
 
@@ -41,7 +43,7 @@ ht-degree: 1%
     <p>目前：工作或計畫</p> <p>舊版計畫：任何（您必須為使用者啟用校訂）</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">校訂權限設定檔 </td> 
+   <td role="rowheader">校樣權限設定檔 </td> 
    <td>經理或以上</td> 
   </tr> 
   <tr> 
@@ -51,7 +53,9 @@ ht-degree: 1%
  </tbody> 
 </table>
 
-&#42;若要瞭解您擁有的計畫、角色或校訂許可權設定檔，請聯絡您的Workfront或Workfront校訂管理員。
+&#42;若要瞭解您擁有的計畫、角色或校訂許可權設定檔，請聯絡您的Workfront或Workfront Proof管理員。
+
++++
 
 ## 使用基本工作流程建立進階校訂
 
@@ -220,7 +224,7 @@ ht-degree: 1%
        </ul> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">透過標籤共用校訂</td> 
+      <td role="rowheader">透過標記共用校訂</td> 
       <td> <p>允許檢閱者將任何Workfront使用者新增到校訂中，如中所述 <a href="../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/tag-users-to-share-proof.md" class="MCXref xref">標籤要共用校訂的使用者</a>.</p> <p>注意：  <p>如果這兩個選項無法使用（變暗），則使用者已有許可權設定檔，可允許解析評論、將動作套用至評論和標籤任何使用者。 </p> <p>如果選項未顯示，則表示您新增的人員並非Workfront授權持有者。</p> </p> </td> 
      </tr> 
     </tbody> 
@@ -298,7 +302,7 @@ ht-degree: 1%
       <td role="rowheader">需要登入 — 校訂只能與其他使用者共用</td> 
       <td>停用此選項（預設）時，具有URL的任何人都能夠檢視校訂。 <br>選取此選項時：
        <ul>
-        <li>只有Workfront校訂使用者能夠檢視校訂。</li>
+        <li>只有Workfront Proof使用者能檢視校訂。</li>
         <li>使用者無法登入校訂，除非他們已新增到校訂中。</li>
         <li>無法啟用訂閱。</li>
        </ul></td> 

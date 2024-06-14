@@ -6,9 +6,9 @@ description: 您可以透過篩選條件限制在專案清單中熒幕顯示的�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 2e912e32-7924-418d-9d55-ce3c09f67d3e
-source-git-commit: 09492b2657aaf599bb31a19329d5de23791b66ec
+source-git-commit: e896d156854c6729e5ea0a82dcbc641fbfa9415e
 workflow-type: tm+mt
-source-wordcount: '2450'
+source-wordcount: '2461'
 ht-degree: 1%
 
 ---
@@ -32,6 +32,8 @@ ht-degree: 1%
   如需Workfront中所有篩選器的清單，以及可套用篩選器的區域，請參閱 [篩選器概觀](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
 ## 存取需求
+
++++ 展開以檢視本文中功能的存取需求。
 
 您必須具有下列存取權才能執行本文中的步驟：
 
@@ -80,7 +82,9 @@ ht-degree: 1%
  </tbody> 
 </table>
 
-&#42;若要瞭解您擁有的計畫、授權型別或存取權，請聯絡您的Workfront管理員。
+若要瞭解您擁有的計畫、授權型別或存取權，請聯絡您的Workfront管理員。
+
++++
 
 ## 篩選建置介面的型別
 

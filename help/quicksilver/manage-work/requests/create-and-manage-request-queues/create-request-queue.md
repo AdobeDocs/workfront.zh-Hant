@@ -8,9 +8,9 @@ feature: Work Management, Requests
 topic: Collaboration
 role: User, Admin
 exl-id: 385420aa-0962-4b67-9d0d-b153dcf302cf
-source-git-commit: 6f026590f0030b564f0d110afead9ade1acd7896
+source-git-commit: 4cab7bed6cb4c25d96e70ccce2ece7f6d156f435
 workflow-type: tm+mt
-source-wordcount: '2679'
+source-wordcount: '2690'
 ht-degree: 2%
 
 ---
@@ -29,6 +29,8 @@ ht-degree: 2%
 本文說明如何建立請求佇列，讓使用者可以在其中提交請求。 如需有關如何將新請求提交至請求佇列的資訊，請參閱 [複製並提交請求](../create-requests/copy-and-submit-requests.md).
 
 ## 存取需求
+
++++ 展開以檢視本文中功能的存取需求。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -58,7 +60,9 @@ ht-degree: 2%
  </tbody> 
 </table>
 
-&#42;若要瞭解您擁有的計畫、授權型別或存取權，請聯絡您的Workfront管理員
+&#42;若要瞭解您擁有的計畫、授權型別或存取權，請聯絡您的Workfront管理員。
+
++++
 
 
 <!--old access levels: 

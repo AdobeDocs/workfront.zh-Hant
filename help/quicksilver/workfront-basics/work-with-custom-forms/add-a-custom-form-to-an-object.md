@@ -7,9 +7,9 @@ description: 您可以將現有的自訂表單新增至下列任何物件。 自
 author: Alina
 feature: Get Started with Workfront
 exl-id: c06666a7-ab78-4311-8fcb-1d1a68034133
-source-git-commit: aec61210cf2c17775738db4975ae8d19223153cc
+source-git-commit: 43afa8136e51332a0970b01fff36113d5bf42294
 workflow-type: tm+mt
-source-wordcount: '811'
+source-wordcount: '822'
 ht-degree: 2%
 
 ---
@@ -37,6 +37,8 @@ ht-degree: 2%
 您只能將自訂表單新增至已建立表單的物件型別。
 
 ## 存取需求
+
++++ 展開以檢視本文中功能的存取需求。
 
 您必須具有下列存取權才能執行本文所述的動作：
 
@@ -68,6 +70,8 @@ ht-degree: 2%
 </table>
 
 如需有關此表格的詳細資訊，請參閱 [Workfront檔案中的存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## 先決條件
 

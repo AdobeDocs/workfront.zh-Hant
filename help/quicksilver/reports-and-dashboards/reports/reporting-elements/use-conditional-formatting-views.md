@@ -6,9 +6,9 @@ description: 當您在Adobe Workfront中與其他使用者共用報表時，請�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 0ea65b3f-fbcf-40f4-a4d1-4dd91619c349
-source-git-commit: 532ec7f7a33e1e1111a31422c5c3c442b2e176b5
+source-git-commit: 4572ea9bb0679c599a55d5a87c1397c7b819c963
 workflow-type: tm+mt
-source-wordcount: '1209'
+source-wordcount: '1220'
 ht-degree: 3%
 
 ---
@@ -36,6 +36,8 @@ ht-degree: 3%
 您在報表檢視中所做的變更只有在報表的詳細資訊標籤中才會生效。 這些變更不會影響報告的「摘要」、「矩陣」或「圖表」標籤。
 
 ## 存取需求
+
++++ 展開以檢視本文中功能的存取需求。
 
 您必須具有下列存取權才能執行本文中的步驟：
 
@@ -70,6 +72,8 @@ ht-degree: 3%
 </table>
 
 &#42;若要瞭解您擁有的計畫、授權型別或存取權，請聯絡您的Workfront管理員。
+
++++
 
 ## 先決條件
 

@@ -7,10 +7,10 @@ description: 工作流程是一組可設定的展示板和卡片，用於共同�
 author: Lisa
 feature: Agile
 exl-id: c46c42e8-e14d-414d-b883-c4d885338e42
-source-git-commit: 4e5bff5ad62dce8766072e04e3a2b89371a90f03
+source-git-commit: 4572ea9bb0679c599a55d5a87c1397c7b819c963
 workflow-type: tm+mt
-source-wordcount: '915'
-ht-degree: 2%
+source-wordcount: '926'
+ht-degree: 1%
 
 ---
 
@@ -28,6 +28,8 @@ ht-degree: 2%
 
 ## 存取需求
 
++++ 展開以檢視本文中功能的存取需求。
+
 您必須具有下列存取權才能執行本文中的步驟：
 
 <table style="table-layout:auto"> 
@@ -37,7 +39,7 @@ ht-degree: 2%
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] 計劃*</strong></td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] 計畫*</strong></td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
@@ -46,6 +48,8 @@ ht-degree: 2%
   </tr> 
  </tbody> 
 </table>
+
++++
 
 ## 建立工作流程
 
@@ -66,7 +70,7 @@ ht-degree: 2%
 |---------|----------|
 | 基本展示板 | 展示板上提供三個預設欄。 您可以新增欄，以及重新命名或刪除預設欄。 <p>不會套用任何欄原則。 |
 | Kanban 展示板 | 展示板上提供下列欄：「待處理專案」、「新增」、「進行中」、「完成」和「保留」。 您可以新增欄，以及重新命名或刪除預設欄。<p>若要使用待處理專案，您必須為輸入欄設定篩選器。 如需詳細資訊，請參閱 [將輸入欄新增到展示板](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md). <p>若要複查每一欄的預設原則，請按一下 [!UICONTROL **更多** 功能表] 在欄上並選取 [!UICONTROL **編輯**]. 您可以變更這些預先設定原則中的任何一項。 如需詳細資訊，請參閱 [管理展示板欄](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md). |
-| 追溯展示板 | 展示板上提供下列欄：哪些方面進展順利？ 有哪些可以改進的地方? 我們應該為誰慶祝? 我們可以做些什麼來加快進度? 您可以新增欄，以及重新命名或刪除預設欄。 <p>不會套用任何欄原則。 |
+| 追溯展示板 | 展示板上提供下列欄：哪些方面進展順利？ 有哪些可改善？ 我們應該為誰慶祝？ 我們可以做些什麼來加快進度？ 您可以新增欄，以及重新命名或刪除預設欄。 <p>不會套用任何欄原則。 |
 | 疊代程序 | 這是用來定義和執行反複專案的展示板。 <p>展示板上提供下列欄：「待處理專案」、「新增」、「進行中」、「完成」和「保留」。 您無法新增任何欄到展示板。 <p>若要複查每一欄的預設原則，請按一下 [!UICONTROL **更多**] 欄上的功能表並選取 [!UICONTROL **編輯**]. 您可以變更這些預先設定原則中的任何一項。 如需詳細資訊，請參閱 [管理展示板欄](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md). |
 
 如需設定主機板的詳細資訊，請參閱 [建立或編輯展示板](/help/quicksilver/agile/get-started-with-boards/create-edit-board.md).

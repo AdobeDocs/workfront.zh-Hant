@@ -3,13 +3,13 @@ product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: email-alerts-workfront-proof
 title: 在中設定電子郵件通知設定 [!DNL Workfront Proof]
-description: 從Workfront校訂產生的電子郵件通知會通知共同作業人員有關校訂的最近活動，例如評論、回覆或決定。
+description: 從Workfront Proof產生的電子郵件通知會通知共同作業人員有關校訂的最近活動，例如評論、回覆或決定。
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: eb82c075-e275-46b7-ac2c-ed50367f53a7
-source-git-commit: e80a3ede9ccf6ccf9ea7777aab35cc859f13a6ac
+source-git-commit: e896d156854c6729e5ea0a82dcbc641fbfa9415e
 workflow-type: tm+mt
-source-wordcount: '2058'
+source-wordcount: '2049'
 ht-degree: 0%
 
 ---
@@ -25,17 +25,6 @@ ht-degree: 0%
 電子郵件通知會通知共同作業人員有關校訂的最近活動，例如評論、回覆或決定。
 
 您可以在下列區域為檢閱者設定電子郵件通知：
-
-## 存取需求
-
-您必須具有下列存取權才能執行本文中的步驟：
-
-<table style="table-layout:auto"> 
-<tr> 
-   <td role="rowheader">產品</td> 
-   <td>Workfront Proof Standalone</td> 
-  </tr> 
-</table>
 
 可在新校訂頁面上設定檢閱者的電子郵件通知， [!UICONTROL 新版本] 頁面，並在中管理 [!UICONTROL 工作流程] 的區段 [!UICONTROL 校訂詳細資訊] 頁面。 如需詳細資訊，請參閱 [產生校訂於 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md)
 
@@ -63,9 +52,20 @@ ht-degree: 0%
 
 如需設定檔的相關資訊，請參閱 [中的校訂許可權設定檔 [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md).
 
-* [在個人設定中設定校訂預設值([!DNL Workfront Proof] 僅限使用者)](#configure-proof-defaults-in-personal-settings-workfront-proof-users-only)
-* [變更收件者的電子郵件警示](#change-email-alerts-for-a-recipient)
-* [設定使用者的校訂預設值](#configure-proof-defaults-for-a-user)
+## 存取需求
+
++++ 展開以檢視本文中功能的存取需求。
+
+您必須具有下列存取權才能執行本文中的步驟：
+
+<table style="table-layout:auto"> 
+<tr> 
+   <td role="rowheader">產品</td> 
+   <td>Workfront Proof獨立</td> 
+  </tr> 
+</table>
+
++++
 
 ## 在個人設定中設定校訂預設值([!DNL Workfront Proof] 僅限使用者)
 

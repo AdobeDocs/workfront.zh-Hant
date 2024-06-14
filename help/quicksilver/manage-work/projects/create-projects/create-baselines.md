@@ -6,9 +6,9 @@ description: 基準線是專案快照，代表初始專案計畫或專案生命�
 author: Alina
 feature: Work Management
 exl-id: 422bd7a5-d7a0-4c24-8624-bd0fe6e79d7b
-source-git-commit: bec625b70b39fec9f9a6d4f7b48023702de43675
+source-git-commit: e896d156854c6729e5ea0a82dcbc641fbfa9415e
 workflow-type: tm+mt
-source-wordcount: '759'
+source-wordcount: '770'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,8 @@ ht-degree: 0%
 您可以使用基準線來比較目前計畫與原始計畫或任何其他時間點的那些資訊片段，以識別問題作業、範圍潛移和其他隨時間變化的趨勢。
 
 ## 存取需求
+
++++ 展開以檢視本文中功能的存取需求。
 
 <!--
 drafted for P&P:
@@ -83,6 +85,8 @@ drafted for P&P:
 </table>
 
 如需有關此表格的詳細資訊，請參閱 [Workfront檔案中的存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## 使用基準線的注意事項
 

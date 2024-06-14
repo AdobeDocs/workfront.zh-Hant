@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 8b99f939-12fe-4470-9dc8-f8a92c6db334
-source-git-commit: 128082d2af40f1dcbbc058f8bc2fd25deae00809
+source-git-commit: 84c5772d130be78d9f9b9aef342c57183d5ec985
 workflow-type: tm+mt
-source-wordcount: '2063'
+source-wordcount: '2074'
 ht-degree: 0%
 
 ---
@@ -28,6 +28,8 @@ Linked to Converting Issues.-->
 
 
 ## 存取需求
+
++++ 展開以檢視本文中功能的存取需求。
 
 您必須具有下列存取權才能執行本文中的步驟：
 
@@ -54,6 +56,8 @@ Linked to Converting Issues.-->
 
 如需有關此表格的詳細資訊，請參閱 [Workfront檔案中的存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
++++
+
 ## 設定每個人的任務和問題偏好設定 [!DNL Workfront]
 
 {{step-1-to-setup}}
@@ -70,7 +74,7 @@ Linked to Converting Issues.-->
 
    <!--
 <li class="preview" data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="#work-on-it" class="MCXref xref">處理它</a> </li>
-  -->
+  —&gt;
 
 * [[!UICONTROL 存取]](#access)
 
@@ -114,7 +118,7 @@ Linked to Converting Issues.-->
       </ul> </td> 
     </tr> 
     <tr> 
-    <td role="rowheader">[!UICONTROL 將問題轉換為任務時]</td> 
+    <td role="rowheader" [!UICONTROL>將問題轉換為任務時]</td> 
     <td> <p>本節中的設定會決定從問題轉換為任務期間會發生什麼情況：</p> 
       <ul> 
       <li> <p><strong>[！UICONTROL保留原始問題並將其解決方案連結至任務]</strong>：轉換問題時，在任務完成之前，問題仍會顯示為問題。 任務完成後，問題的狀態會自動變更為[！UICONTROL已關閉]。 取消選取時，問題即被刪除。</p> <p><b>注意</b>：  <p>無論此設定的狀態為何，沒有存取許可權或刪除問題的使用者在轉換問題時都將無法刪除問題。 如需問題的存取和許可權資訊，請參閱：</p> 

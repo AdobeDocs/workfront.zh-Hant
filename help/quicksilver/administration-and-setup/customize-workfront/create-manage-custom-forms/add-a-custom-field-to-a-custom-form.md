@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 3579ae0f-1d2e-4ff5-bbdf-58fdd20d01d7
-source-git-commit: d2268e50080ddbe306731d034d88fd29b712b86d
+source-git-commit: 84c5772d130be78d9f9b9aef342c57183d5ec985
 workflow-type: tm+mt
-source-wordcount: '2327'
+source-wordcount: '2338'
 ht-degree: 2%
 
 ---
@@ -30,6 +30,8 @@ ht-degree: 2%
 >在包含許多自訂欄位或在自訂欄位中有許多多選選項的自訂表單中，使用者在這些欄位中新增或變更值時可能會遇到效能變慢的情況。 例如，包含100個自訂欄位的表單，或包含超過200個選項的多選自訂欄位，在使用者與其互動時可能會較慢。
 
 ## 存取需求
+
++++ 展開以檢視本文中功能的存取需求。
 
 您必須具備下列專案才能執行本文所述的步驟：
 
@@ -56,6 +58,8 @@ ht-degree: 2%
 </table>
 
 如需有關此表格的詳細資訊，請參閱 [Workfront檔案中的存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## 新增自訂欄位至自訂表單 {#add-custom-field-to-custom-form}
 

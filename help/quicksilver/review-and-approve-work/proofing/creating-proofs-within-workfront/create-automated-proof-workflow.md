@@ -6,9 +6,9 @@ description: 如果您的程式複雜，或您定期傳送內容給相同的人�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 977fe1bc-458f-4301-8056-dc51c61edb6c
-source-git-commit: ccfea4cdf7280f992068bc64bab27e63aaab8b74
+source-git-commit: 84c5772d130be78d9f9b9aef342c57183d5ec985
 workflow-type: tm+mt
-source-wordcount: '1820'
+source-wordcount: '1831'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,8 @@ ht-degree: 0%
 如果您的程式複雜，或您定期傳送內容給相同的人員審查，自動化工作流程可讓您更輕鬆地管理審查程式。 校訂從一個階段移動到另一個階段，當輪到每個使用者檢閱時，Adobe Workfront會通知他們。 如需自動化工作流程的詳細資訊，請參閱 [自動化工作流程總覽](../../../review-and-approve-work/proofing/proofing-overview/automated-workflow.md).
 
 ## 存取需求
+
++++ 展開以檢視本文中功能的存取需求。
 
 您必須具有下列存取權才能執行本文中的步驟：
 
@@ -36,7 +38,7 @@ ht-degree: 0%
    <td> <p>新增：標準</p><p>目前計畫：工作或計畫</p> <p>舊版計畫：任何（您必須為使用者啟用校訂）</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">校訂權限設定檔 </td> 
+   <td role="rowheader">校樣權限設定檔 </td> 
    <td>經理或以上</td> 
   </tr> 
   <tr> 
@@ -47,6 +49,8 @@ ht-degree: 0%
 </table>
 
 如需有關此表格的詳細資訊，請參閱 [Workfront檔案中的存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## 使用自動化工作流程建立進階校訂
 
@@ -121,7 +125,7 @@ ht-degree: 0%
         </tr>
         <tr>
          <td role="rowheader">將此階段設為私人</td>
-         <td>僅允許下列人員檢視在此階段中作出的評論和決定：主管、Workfront管理員和Workfront校訂管理員</td>
+         <td>僅允許下列人員檢視在此階段中作出的評論和決定：主管、Workfront管理員和Workfront Proof管理員</td>
         </tr>
        </tbody>
       </table>
@@ -181,7 +185,7 @@ ht-degree: 0%
       <td role="rowheader">需要登入 — 校訂只能與其他使用者共用</td> 
       <td>停用此選項（預設）時，具有URL的任何人都能夠檢視校訂。 <br>選取此選項時：
        <ul>
-        <li>只有Workfront校訂使用者能夠檢視校訂。</li>
+        <li>只有Workfront Proof使用者能檢視校訂。</li>
         <li>使用者無法登入校訂，除非他們已新增到校訂中。</li>
         <li>無法啟用訂閱。</li>
        </ul></td> 

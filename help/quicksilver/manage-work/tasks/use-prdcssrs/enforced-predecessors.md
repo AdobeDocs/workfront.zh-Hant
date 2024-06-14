@@ -6,9 +6,9 @@ description: 前置任務是指其他任務需依賴完成的任務。 前置任
 author: Alina
 feature: Work Management
 exl-id: c3242b92-9036-4770-a073-2a9c393b97fd
-source-git-commit: 7a9232f59e4c6f2eac2995be7d7862295b6bab2c
+source-git-commit: 5cb07cb42c3264c6629bc0a038c0e70ffc2cb509
 workflow-type: tm+mt
-source-wordcount: '483'
+source-wordcount: '494'
 ht-degree: 0%
 
 ---
@@ -36,6 +36,8 @@ ht-degree: 0%
 如果前置任務已強制執行，則前置任務完成之前無法開始後續任務。 例如，強製作業A與作業B之間的「完成 — 開始」關係表示，在作業A標籤為完成之前，作業B無法開始（「狀態」必須保持為「新」，而「完成百分比」必須保持為0%）。 強制關係適用於所有前置任務型別。
 
 ## 存取需求
+
++++ 展開以檢視本文中功能的存取需求。
 
 您必須具有下列存取權才能執行本文中的步驟：
 
@@ -67,6 +69,8 @@ ht-degree: 0%
 </table>
 
 如需有關此表格的詳細資訊，請參閱 [Workfront檔案中的存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## 在任務層級強制執行前置任務
 

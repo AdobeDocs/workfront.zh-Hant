@@ -6,14 +6,16 @@ description: 您在中建立Kanban或Scrum敏捷團隊 [!DNL Adobe Workfront].
 author: Lisa
 feature: Agile
 exl-id: b4c417a6-64c8-43e0-bace-b73572247b3e
-source-git-commit: 6f026590f0030b564f0d110afead9ade1acd7896
+source-git-commit: 43afa8136e51332a0970b01fff36113d5bf42294
 workflow-type: tm+mt
-source-wordcount: '1476'
+source-wordcount: '1487'
 ht-degree: 1%
 
 ---
 
 # 設定 [!UICONTROL Kanban]
+
+<!--Audited: 12/2023-->
 
 您可以在中建立敏捷團隊 [!DNL Adobe Workfront] 如所述 [建立敏捷團隊](../../agile/get-started-with-agile-in-workfront/create-an-agile-team.md). 建立敏捷團隊時，您可以選擇團隊用來完成其工作的方法。 您可以從下列選項中選擇：
 
@@ -33,7 +35,7 @@ ht-degree: 1%
 
 ## 存取需求
 
-<!--Audited: 12/2023-->
++++ 展開以檢視本文中功能的存取需求。
 
 您必須具有下列存取權才能執行本文中的步驟：
 
@@ -64,6 +66,8 @@ ht-degree: 1%
 </table>
 
 *若要瞭解您擁有的計畫或授權型別，請連絡 [!DNL Workfront] 管理員。
+
++++
 
 ## 設定是否要以點或小時為單位估計劇本
 

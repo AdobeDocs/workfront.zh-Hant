@@ -6,9 +6,9 @@ description: 您可以安裝 [!DNL Adobe Workfront for design and video] Adobe�
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: f4fbae93-b54b-4d08-82c3-72a9a760c317
-source-git-commit: 78a6cee213887c72aedc14bbb4552f28fc27625d
+source-git-commit: 43afa8136e51332a0970b01fff36113d5bf42294
 workflow-type: tm+mt
-source-wordcount: '547'
+source-wordcount: '536'
 ht-degree: 1%
 
 ---
@@ -39,6 +39,8 @@ ht-degree: 1%
 
 ## 存取需求
 
++++ 展開以檢視本文中功能的存取需求。
+
 您必須具有下列存取權才能執行本文中的步驟：
 
 <table style="table-layout:auto"> 
@@ -60,9 +62,11 @@ ht-degree: 1%
  </tbody> 
 </table>
 
-&#42;若要瞭解您擁有的計畫、授權型別或存取權，請聯絡您的 [!DNL Workfront] 管理員。
+若要瞭解您擁有的計畫、授權型別或存取權，請聯絡您的 [!DNL Workfront] 管理員。
 
-## 必要條件
++++
+
+## 先決條件
 
 * 您必須安裝 [!DNL Creative Cloud] 您想要在該應用程式中安裝Workfront外掛程式之前使用的應用程式。
 
@@ -78,7 +82,7 @@ ht-degree: 1%
 
 您可以安裝 [!DNL Adobe Workfront for design and video] 您自己從 [!DNL Adobe Exchange].
 
-1. 前往 [Adobe Workfront for Design and Video安裝頁面](https://adobe.com/go/cc_plugins_discover_plugin?pluginId=108938&amp;workflow=share) 在Adobe交換上。
+1. 前往 [Adobe Workfront for Design and Video安裝頁面](https://adobe.com/go/cc_plugins_discover_plugin?pluginId=108938&amp;workflow=share) 在Adobe Exchange上。
 1. 在出現的對話方塊中，按一下 **開啟 [!DNL Adobe Creative Cloud] 案頭應用程式**.
 1. 一次 [!DNL Adobe Creative Cloud] 外掛程式管理員開啟，按一下 **[!UICONTROL 安裝]**.
 1. 閱讀對話方塊中的資訊，然後按一下 **[!UICONTROL 確定]**.

@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management, Requests
 role: User, Admin
 exl-id: 65a74698-011f-4caa-9739-d7510faeb66f
-source-git-commit: 16a34e4315d508e31859e962edd01026d01ee193
+source-git-commit: 43afa8136e51332a0970b01fff36113d5bf42294
 workflow-type: tm+mt
-source-wordcount: '835'
+source-wordcount: '846'
 ht-degree: 2%
 
 ---
@@ -23,6 +23,8 @@ ht-degree: 2%
 可指派給主題群組或專案的佇列主題數量沒有限制。 佇列主題是可報告的物件型別。
 
 ## 存取需求
+
++++ 展開以檢視本文中功能的存取需求。
 
 <!--drafted - replace table with P&P:
 
@@ -81,6 +83,8 @@ ht-degree: 2%
 </table>
 
 如需有關此表格的詳細資訊，請參閱 [Workfront檔案中的存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## 建立佇列主題
 

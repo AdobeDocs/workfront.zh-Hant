@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: cf09859c-7d6f-4bf0-9b7f-c57096233c94
-source-git-commit: 16a34e4315d508e31859e962edd01026d01ee193
+source-git-commit: 4cab7bed6cb4c25d96e70ccce2ece7f6d156f435
 workflow-type: tm+mt
-source-wordcount: '1000'
+source-wordcount: '1011'
 ht-degree: 7%
 
 ---
@@ -30,6 +30,8 @@ ht-degree: 7%
 在Workfront中設定SAML 2.0後（如以下區段所述），您可以維持設定（如所述） [更新身分提供者中的SAML 2.0中繼資料](../../../administration-and-setup/add-users/single-sign-on/update-saml-2-metadata-ip.md).
 
 ## 存取需求
+
++++ 展開以檢視本文中功能的存取需求。
 
 您必須具有下列存取權才能執行本文中的步驟：
 
@@ -56,6 +58,8 @@ ht-degree: 7%
 </table>
 
 如需有關此表格的詳細資訊，請參閱 [Workfront檔案中的存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## 啟用使用SAML 2.0對Workfront的驗證
 
@@ -129,12 +133,12 @@ ht-degree: 7%
        <p>您可以對應下列Workfront屬性：</p> 
       <ul> 
       <li> <p>存取層級</p> </li> 
-      <li> <p>位址</p> </li> 
+      <li> <p>地址</p> </li> 
       <li> <p>地址 2</p> </li> 
-      <li> <p>計費/小時</p> </li> 
+      <li> <p>每小時計費</p> </li> 
       <li> <p>城市</p> </li> 
       <li> <p>公司</p> </li> 
-      <li> <p>成本/小時</p> </li> 
+      <li> <p>每小時成本</p> </li> 
       <li> <p>電子郵件地址</p> </li> 
       <li> <p>分機</p> </li> 
       <li> <p>名字</p> </li> 
@@ -149,7 +153,7 @@ ht-degree: 7%
       <li> <p>郵遞區號</p> </li> 
       <li> <p>排程</p> </li> 
       <li> <p>州/省</p> </li> 
-      <li> <p>時間表設定檔</p> </li> 
+      <li> <p>時程表設定檔</p> </li> 
       <li> <p>標題</p> </li> 
       </ul>
       <p>按一下 <strong>儲存</strong> 完成對應使用者屬性時。</p> </td> 

@@ -6,9 +6,9 @@ description: 報表中的參考集合
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 18ba3f4b-ae03-4694-a2fe-fdbeeb576ea9
-source-git-commit: 32966d4732221d73aa3397771e157b630f7d5760
+source-git-commit: 4572ea9bb0679c599a55d5a87c1397c7b819c963
 workflow-type: tm+mt
-source-wordcount: '2587'
+source-wordcount: '2598'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,8 @@ ht-degree: 0%
 如需在Workfront中建立報表的詳細資訊，請參閱 [建立自訂報表](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
 ## 存取需求
+
++++ 展開以檢視本文中功能的存取需求。
 
 您必須具有下列存取權才能執行本文中的步驟：
 
@@ -47,6 +49,8 @@ ht-degree: 0%
 </table>
 
 若要瞭解您擁有的計畫、授權型別或存取權，請聯絡您的Workfront管理員。
+
++++
 
 ## 瞭解集合
 
@@ -175,7 +179,7 @@ Workfront中的物件之間有下列兩種關係：
 
    例如，如果您想在專案報告中顯示任務清單。 此集合使用 `valuefield` 用於引用任務名稱的行。
 
-   執行下列任一項作業：
+   執行下列其中一項：
 
    * 使用以下程式碼來建置欄：
 
@@ -221,7 +225,7 @@ Workfront中的物件之間有下列兩種關係：
 
    ![](assets/project-report-with-task-and-assignee-collection-view-nwe-350x222.png)
 
-1. 按一下&#x200B;**儲存**。
+1. 按一下「**儲存**」。
 1. （選用）繼續編輯報表。
 
    或
@@ -419,7 +423,7 @@ Workfront中的物件之間有下列兩種關係：
 
    >[!NOTE]
    >
-   請注意，您必須使用 **問題** 集合物件名稱的。 API總管目前未針對問題提供集合物件名稱。
+   >請注意，您必須使用 **問題** 集合物件名稱的。 API總管目前未針對問題提供集合物件名稱。
 
 1. 按一下 **完成**.
 1. （選用）繼續編輯報表。

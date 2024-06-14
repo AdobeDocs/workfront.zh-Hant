@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 exl-id: e13c7dda-8945-47ad-b6d3-4d6a62b368f5
-source-git-commit: ff24fcc65791b6c18668a0dd3c58e033772a2def
+source-git-commit: 43afa8136e51332a0970b01fff36113d5bf42294
 workflow-type: tm+mt
-source-wordcount: '1945'
+source-wordcount: '1956'
 ht-degree: 6%
 
 ---
@@ -30,6 +30,8 @@ ht-degree: 6%
 * 如需使用PKCE設定和使用OAuth2應用程式的指示，請參閱 [使用PKCE流程設定並使用您組織的自訂OAuth 2應用程式](../../wf-api/api/oauth-app-pkce-flow.md).
 
 ## 存取需求
+
++++ 展開以檢視本文中功能的存取需求。
 
 您必須具有下列存取權才能執行本文中的步驟：
 
@@ -55,6 +57,8 @@ ht-degree: 6%
 </table>
 
 &#42;若要瞭解您擁有的計畫、授權型別或存取權，請聯絡您的 [!DNL Workfront] 管理員。
+
++++
 
 ## OAuth2總覽
 

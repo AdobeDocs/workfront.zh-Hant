@@ -6,9 +6,9 @@ description: 您可以針對專案利用敏捷功能，而不會遇到敏捷實�
 author: Alina and Lisa
 feature: Work Management
 exl-id: fc633fd6-35b4-4949-8045-22c775002436
-source-git-commit: 857c4e96b17b3b520d63ba02c196cae1cdc7f4ac
+source-git-commit: 84c5772d130be78d9f9b9aef342c57183d5ec985
 workflow-type: tm+mt
-source-wordcount: '1412'
+source-wordcount: '1423'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,8 @@ ht-degree: 0%
 如果您想在使用團隊待辦專案的敏捷環境中工作，並允許您從待辦專案上的任務建立反複專案，請遵循中的指示 [在敏捷環境中工作](../../../agile/work-in-an-agile-environment/work-in-an-agile-environment.md).
 
 ## 存取需求
+
++++ 展開以檢視本文中功能的存取需求。
 
 您必須具有下列存取權才能執行本文中的步驟：
 
@@ -55,6 +57,8 @@ ht-degree: 0%
 </table>
 
 如需有關此表格的詳細資訊，請參閱 [Workfront檔案中的存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## 瞭解敏捷專案
 

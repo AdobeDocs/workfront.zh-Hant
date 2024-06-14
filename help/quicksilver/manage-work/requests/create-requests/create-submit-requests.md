@@ -6,9 +6,9 @@ description: 計畫工作在Adobe Workfront中以專案和任務表示。 不過
 author: Alina
 feature: Work Management
 exl-id: 8b023a3d-326d-4d63-9e1e-8171553a9e23
-source-git-commit: aec61210cf2c17775738db4975ae8d19223153cc
+source-git-commit: 43afa8136e51332a0970b01fff36113d5bf42294
 workflow-type: tm+mt
-source-wordcount: '2327'
+source-wordcount: '2338'
 ht-degree: 1%
 
 ---
@@ -38,6 +38,8 @@ ht-degree: 1%
 
 ## 存取需求
 
++++ 展開以檢視本文中功能的存取需求。
+
 您必須具有下列存取權才能執行本文中的步驟：
 
 <table style="table-layout:auto"> 
@@ -64,6 +66,7 @@ ht-degree: 1%
 
 如需有關此表格的詳細資訊，請參閱 [Workfront檔案中的存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
++++
 
 ## 使用請求佇列的先決條件
 
@@ -262,7 +265,7 @@ Workfront管理員必須建立「請求佇列」的下列元件：
      </tr>
 
    <tr> 
-      <td role="rowheader"><strong>計畫時數</strong> </td> 
+      <td role="rowheader"><strong>規劃時數</strong> </td> 
       <td> <p>預估完成此請求所需的時間。</p> </td> 
      </tr> 
      <tr> 

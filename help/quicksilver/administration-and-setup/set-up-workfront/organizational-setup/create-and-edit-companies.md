@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: bb597032-3395-4c9a-b622-5c920ba55131
-source-git-commit: df6b1e4b362807025f3edb5298e8445c0d44ec69
+source-git-commit: 84c5772d130be78d9f9b9aef342c57183d5ec985
 workflow-type: tm+mt
-source-wordcount: '1461'
+source-wordcount: '1472'
 ht-degree: 0%
 
 ---
@@ -24,6 +24,8 @@ ht-degree: 0%
 公司是中的組織單位 [!DNL Adobe Workfront] 可以代表您的組織、組織內的部門或您合作的客戶。 您可以將公司新增至 [!DNL Workfront] 並將它們用於財務規劃、報表、定義物件相關許可權以及保密資訊。
 
 ## 存取需求
+
++++ 展開以檢視本文中功能的存取需求。
 
 若要管理中的公司，您必須具備下列條件 [!DNL Workfront]：
 
@@ -62,6 +64,8 @@ ht-degree: 0%
 </table>
 
 &#42;若要瞭解您擁有的計畫、授權型別或存取層級設定，請聯絡您的 [!DNL Workfront] 管理員。 如需詳細資訊，請參閱 [Workfront檔案中的存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## 將使用者新增至公司的好處 {#benefits-of-adding-users-to-a-company}
 

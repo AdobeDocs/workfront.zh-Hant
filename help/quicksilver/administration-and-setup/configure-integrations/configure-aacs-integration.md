@@ -6,9 +6,9 @@ description: 您可以在下列位置將您的工作與內容連結： [!DNL Exp
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: bc58cc77-a177-417f-a5a4-eec51e305219
-source-git-commit: 821e31b8c6023a9ec4e017cc5548bb9fd930983c
+source-git-commit: e896d156854c6729e5ea0a82dcbc641fbfa9415e
 workflow-type: tm+mt
-source-wordcount: '1667'
+source-wordcount: '1678'
 ht-degree: 0%
 
 ---
@@ -36,6 +36,8 @@ ht-degree: 0%
 >您也可以連線數個 [!DNL Experience Manager Assets] 將存放庫合併為一個 [!UICONTROL Workfront] 環境或數個 [!DNL Workfront] 環境至一 [!DNL Experience Manager Assets] 跨組織ID的存放庫。 針對您要設定的每項整合，請依照本文的設定指示操作。
 
 ## 存取需求
+
++++ 展開以檢視本文中功能的存取需求。
 
 您必須具備下列條件：
 
@@ -74,6 +76,8 @@ ht-degree: 0%
 </table>
 
 如需有關此表格的詳細資訊，請參閱 [Workfront檔案中的存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 
 ## 先決條件

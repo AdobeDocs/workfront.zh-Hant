@@ -6,9 +6,9 @@ description: 跨專案前置任務是指另一個專案中另一個任務（稱�
 author: Alina
 feature: Work Management
 exl-id: 7e29e589-e0a5-437e-935d-d5bc1b268594
-source-git-commit: 0483230c5d8b7d33f420c6c5f09c4a5aafe37f37
+source-git-commit: 43afa8136e51332a0970b01fff36113d5bf42294
 workflow-type: tm+mt
-source-wordcount: '715'
+source-wordcount: '726'
 ht-degree: 0%
 
 ---
@@ -34,6 +34,8 @@ Adobe Workfront允許任務相依於其他專案中的任務，就像它允許�
 如需前置任務關係的詳細資訊，請參閱 [前置任務概觀](../../../manage-work/tasks/use-prdcssrs/predecessors-overview.md).
 
 ## 存取需求
+
++++ 展開以檢視本文中功能的存取需求。
 
 您必須具有下列存取權才能執行本文中的步驟：
 
@@ -64,6 +66,8 @@ Adobe Workfront允許任務相依於其他專案中的任務，就像它允許�
 </table>
 
 如需有關此表格的詳細資訊，請參閱 [Workfront檔案中的存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 
 ## 建立跨專案前置任務

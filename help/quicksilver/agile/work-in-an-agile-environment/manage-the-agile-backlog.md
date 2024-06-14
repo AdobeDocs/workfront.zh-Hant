@@ -6,9 +6,9 @@ description: 任務和問題可以指派給敏捷團隊，並根據團隊使用�
 author: Lisa
 feature: Agile
 exl-id: 59660840-7ab8-482e-8b43-96b4a1ecc538
-source-git-commit: 3c7bdcc1dc2a3a0db62a175ec11d4d6701acbb53
+source-git-commit: 8769637342ab65f1e627107f7bfb41f9a3f61cca
 workflow-type: tm+mt
-source-wordcount: '1360'
+source-wordcount: '1371'
 ht-degree: 0%
 
 ---
@@ -27,6 +27,8 @@ ht-degree: 0%
 >如果您將多個團隊新增至待處理專案，則任務或問題僅會顯示在主要團隊的待處理專案中。 主要團隊是先指派的團隊。
 
 ## 存取需求
+
++++ 展開以檢視本文中功能的存取需求。
 
 您必須具有下列存取權才能執行本文中的步驟：
 
@@ -56,6 +58,8 @@ ht-degree: 0%
 </table>
 
 如需有關此表格的詳細資訊，請參閱 [Workfront檔案中的存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## 建立和管理待處理專案上的劇本
 

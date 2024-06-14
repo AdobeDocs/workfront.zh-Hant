@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: d2a73d24-51d3-42e2-9c09-7f4bc30b2caa
-source-git-commit: f84611ef1c6ba1e5b2ec55375c4eb222bcf1cf5e
+source-git-commit: 4cab7bed6cb4c25d96e70ccce2ece7f6d156f435
 workflow-type: tm+mt
-source-wordcount: '1452'
+source-wordcount: '1463'
 ht-degree: 6%
 
 ---
@@ -31,6 +31,8 @@ ht-degree: 6%
 >我們強烈建議您維持內建的存取層級不變，以便在設定使用者後參考。 若要自訂存取層級，請複製預設存取層級並修改副本。 您可以對每個存取層級（系統管理員和外部使用者除外）執行此操作。
 
 ## 存取需求
+
++++ 展開以檢視本文中功能的存取需求。
 
 您必須具有下列存取權才能執行本文中的步驟：
 
@@ -56,6 +58,8 @@ ht-degree: 6%
 </table>
 
 如需有關此表格的詳細資訊，請參閱 [Workfront檔案中的存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## 建立或編輯自訂存取層級
 
@@ -121,7 +125,7 @@ ht-degree: 6%
        </ul><p><b>注意</b>：不允許使用者建立新的費用型別。</p></td> 
      </tr> 
      <tr> 
-      <td role="rowheader">工作角色</td> 
+      <td role="rowheader">職務角色</td> 
       <td> 透過此存取權，使用者可以執行下列動作： 
        <ul> 
         <li>檢視和編輯現有職位角色</li> 

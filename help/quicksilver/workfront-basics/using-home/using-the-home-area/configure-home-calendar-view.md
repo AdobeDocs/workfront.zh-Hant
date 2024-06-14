@@ -6,9 +6,9 @@ description: 您可以設定[首頁行事曆]設定，以與Outlook網頁版整�
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 2acd930b-5923-452e-9d8d-a6121d8d37ac
-source-git-commit: 3b3ba7cc6a975af71205f7f524e1a9a91a9d3810
+source-git-commit: 8769637342ab65f1e627107f7bfb41f9a3f61cca
 workflow-type: tm+mt
-source-wordcount: '843'
+source-wordcount: '854'
 ht-degree: 1%
 
 ---
@@ -27,6 +27,8 @@ ht-degree: 1%
 本文說明如何設定首頁行事曆設定，以及如何將首頁行事曆與外部Outlook行事曆整合。
 
 ## 存取需求
+
++++ 展開以檢視本文中功能的存取需求。
 
 您必須具有下列存取權才能執行本文中的步驟：
 
@@ -51,6 +53,8 @@ ht-degree: 1%
 </table>
 
 *若要瞭解您擁有的計畫或授權型別，請連絡 [!DNL Workfront] 管理員。 如需詳細資訊，請參閱 [Workfront檔案中的存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## 關於整合 [!DNL Microsoft Outlook] 行事曆
 

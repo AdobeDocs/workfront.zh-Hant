@@ -9,9 +9,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: e18c005b-e6ff-4a1e-a589-63132f3a8ad2
-source-git-commit: 8ceb370df6ff6f3a7a4376d6086fbabe99609e29
+source-git-commit: 84c5772d130be78d9f9b9aef342c57183d5ec985
 workflow-type: tm+mt
-source-wordcount: '1605'
+source-wordcount: '1623'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,9 @@ ht-degree: 0%
 
 ## 存取需求
 
-您必須具備下列條件：
++++ 展開以檢視本文中功能的存取需求。
+
+您必須具備下列專案才能執行本文所述的步驟：
 
 <table style="table-layout:auto"> 
  <col> 
@@ -54,6 +56,8 @@ ht-degree: 0%
   </tr> 
  </tbody> 
 </table>
+
++++
 
 ## 重新整理自訂重新整理沙箱
 

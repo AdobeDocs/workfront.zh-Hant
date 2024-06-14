@@ -6,9 +6,9 @@ description: 您可以在「使用率」報表中檢視資源的使用率。
 author: Alina, Lisa
 feature: Resource Management
 exl-id: 785ee3e9-1b2d-4180-bc78-c41e71c5244d
-source-git-commit: 6a6906419058c398ee7b780b2f05f45b90975df9
+source-git-commit: 4572ea9bb0679c599a55d5a87c1397c7b819c963
 workflow-type: tm+mt
-source-wordcount: '7243'
+source-wordcount: '7254'
 ht-degree: 0%
 
 ---
@@ -38,6 +38,8 @@ ht-degree: 0%
 -->
 
 ## 存取需求
+
++++ 展開以檢視本文中功能的存取需求。
 
 您必須具備下列專案才能存取「使用率」報表：
 
@@ -76,6 +78,8 @@ ht-degree: 0%
 </table>
 
 如需有關此表格的詳細資訊，請參閱 [Workfront檔案中的存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must have View access to the projects you want to view utilization information for as described in this section. If you are still unable to access this information, contact your Workfront administrator. (NOTE:&nbsp;replaced with above table)</p>
@@ -145,7 +149,7 @@ ht-degree: 0%
     </ul> <p>如需預算時數的詳細資訊，請參閱 <a href="/help/quicksilver/manage-work/projects/project-finances/budgeted-labor-cost.md#locate-the-budgeted-hours-of-a-project">找出專案的預算時數</a> 在 <a href="/help/quicksilver/manage-work/projects/project-finances/budgeted-labor-cost.md">瞭解專案的預算勞力成本和預算時數</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td scope="col"><strong>計畫時數</strong> </td> 
+   <td scope="col"><strong>規劃時數</strong> </td> 
    <td scope="col">
 <p>
 與每個任務和問題的工作分派相關聯的包含專案上的計畫時數。 您可以檢視所包含專案之整個生命週期中專案上所有工作分派的總計畫時數，或僅檢視指定日期範圍內的總計畫時數（您可以指定個別周或月）。
@@ -264,7 +268,7 @@ ht-degree: 0%
    <td scope="col"> <p>包含的專案上的預算成本。 您可以檢視包含專案之整個生命週期的總預算成本，或僅檢視指定日期範圍內的總預算成本（您可以指定個別周或月）。</p> <p>由於使用率報表中的預算成本是依角色著重於成本，因此計算方式與Workfront其他區域中的預算勞力成本相同。 如需有關預算勞力成本計算方式的資訊，請參閱 <a href="../../manage-work/projects/project-finances/budgeted-labor-cost.md" class="MCXref xref">瞭解專案的預算勞力成本和預算時數</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td scope="col"><strong>計畫成本</strong> </td> 
+   <td scope="col"><strong>規劃成本</strong> </td> 
    <td scope="col"> <p>包含的專案上的總計畫成本。 您可以檢視包含專案之整個生命週期的計畫成本總計，或僅檢視指定日期範圍的計畫成本總計（您可以指定個別周或月）。</p> <p>請注意，對於周、月和每季檢視，當工作角色或使用者的成本費率生效時，計畫成本會計算為所選期間的平均值。</p><p>如需有關如何計算專案計畫成本的資訊，請參閱 <a href="/help/quicksilver/manage-work/projects/project-finances/track-costs.md#how-workfront-calculates-planned-budgeted-and-actual-costs">Workfront如何計算計畫、預算與實際成本</a> 在 <a href="/help/quicksilver/manage-work/projects/project-finances/track-costs.md">追蹤成本</a>.</p> </td>
   </tr> 
   <tr> 
@@ -394,7 +398,7 @@ ht-degree: 0%
  </thead> 
  <tbody> 
   <tr> 
-   <td scope="col"><strong>計畫成本</strong> </td> 
+   <td scope="col"><strong>規劃成本</strong> </td> 
    <td scope="col"> 包含的專案上的總計畫成本。 您可以檢視包含專案之整個生命週期的計畫成本總計，或僅檢視指定日期範圍的計畫成本總計（您可以指定個別周或月）。 </td> 
   </tr> 
   <tr> 

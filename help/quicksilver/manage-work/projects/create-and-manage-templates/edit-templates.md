@@ -6,9 +6,9 @@ description: 您可以編輯專案範本以反映專案流程和設定的變更�
 author: Alina
 feature: Work Management
 exl-id: da0fca31-6a50-4862-ad9a-a453ef968773
-source-git-commit: a243094dc6bbbe71a6efdb4fe99f7365daae514d
+source-git-commit: 5cb07cb42c3264c6629bc0a038c0e70ffc2cb509
 workflow-type: tm+mt
-source-wordcount: '4710'
+source-wordcount: '4721'
 ht-degree: 2%
 
 ---
@@ -22,6 +22,8 @@ ht-degree: 2%
 您可以編輯專案範本以反映專案流程和設定的變更。 更新並儲存範本上的變更後，當使用範本建立專案時，新變更會顯示在新專案中。 您在範本上進行的變更不會反映在目前使用該範本的專案上。
 
 ## 存取需求
+
++++ 展開以檢視本文中功能的存取需求。
 
 您必須具有下列存取權才能執行本文中的步驟：
 
@@ -57,6 +59,8 @@ ht-degree: 2%
 </table>
 
 如需有關此表格的詳細資訊，請參閱 [Workfront檔案中的存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## 編輯範本 {#edit-a-template}
 
@@ -732,7 +736,7 @@ By editing issue settings, you can prevent users from adding issues inline in th
    如需有關績效指數方法的詳細資訊，請參閱 <a href="../../../manage-work/projects/project-finances/set-pim.md" class="MCXref xref">設定績效指數方法(PIM)</a>. </p></td>
    </tr> 
          <tr> 
-         <td role="rowheader"><strong>計畫收益</strong></td> 
+         <td role="rowheader"><strong>規劃收益</strong></td> 
          <td><p>指定從此範本建立之專案的計畫收益。 計畫收益用於專案的業務案例以及Portfolio最佳化工具。 </p><p>如需有關專案計畫收益的詳細資訊，請參閱 <a href="../../../manage-work/projects/project-finances/project-planned-benefit.md" class="MCXref xref">專案計畫收益總覽</a>. 計算專案淨值時，會考慮專案的計畫收益。 </p><p>如需有關使用Portfolio最佳化程式的詳細資訊，請參閱 <a href="../../../manage-work/portfolios/portfolio-optimizer/manage-projects-in-portfolio-optimizer.md" class="MCXref xref">在Portfolio最佳化工具中管理專案</a> </p></td> 
        </tr> 
        <tr> 

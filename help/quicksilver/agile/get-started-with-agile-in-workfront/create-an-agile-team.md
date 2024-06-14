@@ -6,9 +6,9 @@ description: Adobe Workfront可讓敏捷團隊以漸進式、有條理的方式�
 author: Lisa
 feature: Agile
 exl-id: 3afd16db-7829-4c9c-a981-461990c9dbc8
-source-git-commit: cf044c8cff6b1172ec460ae232cd07c9b7c808b7
+source-git-commit: e896d156854c6729e5ea0a82dcbc641fbfa9415e
 workflow-type: tm+mt
-source-wordcount: '1001'
+source-wordcount: '1012'
 ht-degree: 1%
 
 ---
@@ -28,6 +28,8 @@ ht-degree: 1%
 * **[!UICONTROL Kanban]：** 團隊在Kanban檢視中跨預定狀態移動工作。 預設狀態為：待處理專案、處理中及完成。 如需有關管理Kanban團隊的詳細資訊，請參閱 [敏捷團隊中的Kanban](../../agile/use-kanban-in-an-agile-team/using-kanban-in-an-agile-team.md).
 
 ## 存取需求
+
++++ 展開以檢視本文中功能的存取需求。
 
 您必須具有下列存取權才能執行本文中的步驟：
 
@@ -51,7 +53,9 @@ ht-degree: 1%
  </tbody> 
 </table>
 
-&#42;若要瞭解您擁有的計畫或授權型別，請連絡您的 [!DNL Workfront] 管理員。
+若要瞭解您擁有的計畫或授權型別，請連絡您的 [!DNL Workfront] 管理員。
+
++++
 
 ## 決定敏捷方法
 

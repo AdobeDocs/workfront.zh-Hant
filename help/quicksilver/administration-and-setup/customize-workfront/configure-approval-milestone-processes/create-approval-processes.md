@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration, Approvals
 role: Admin
 exl-id: 1709e285-51a5-49a1-a03a-743a334fbe4d
-source-git-commit: 8382b69e6a55af69397dd8f566395143f3c1dcd3
+source-git-commit: 4cab7bed6cb4c25d96e70ccce2ece7f6d156f435
 workflow-type: tm+mt
-source-wordcount: '2163'
+source-wordcount: '2174'
 ht-degree: 1%
 
 ---
@@ -42,6 +42,8 @@ ht-degree: 1%
 
 ## 存取需求
 
++++ 展開以檢視本文中功能的存取需求。
+
 您必須具備下列條件：
 
 <table style="table-layout:auto"> 
@@ -68,6 +70,8 @@ ht-degree: 1%
 </table>
 
 如需有關此表格的詳細資訊，請參閱 [Workfront檔案中的存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## 建立工作專案的系統層次或群組層次全域核准程式
 
@@ -101,7 +105,7 @@ ht-degree: 1%
       <td><p>輸入核准流程的說明。 這會顯示在 <b>核准</b> 中的區段 <b>設定</b> 核准流程名稱旁的區域。</p></td> 
      </tr> 
      <tr> 
-      <td role="rowheader">已啟用</td> 
+      <td role="rowheader">為作用中</td> 
       <td> <p>如果您希望其他使用者能夠將核准流程附加到他們建立的專案、任務和問題，請將此選項保持啟用。 </p> <p>此選項預設為啟用。</p> <p> 提示：當您的組織不再需要使用核准流程，但您想要保留其使用的相關歷史資訊時，將核准流程標籤為非使用中會很有用。</p> </td> 
      </tr> 
      <tr data-mc-conditions=""> 

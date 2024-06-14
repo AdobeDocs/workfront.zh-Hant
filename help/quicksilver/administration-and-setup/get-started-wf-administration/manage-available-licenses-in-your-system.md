@@ -8,9 +8,9 @@ author: Lisa, Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: ea580dd0-efb7-4f56-beb3-07ad044efc8a
-source-git-commit: 362c538d7680f8d8b85fbd8735e79ec5032d2919
+source-git-commit: 43afa8136e51332a0970b01fff36113d5bf42294
 workflow-type: tm+mt
-source-wordcount: '1187'
+source-wordcount: '1198'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,8 @@ ht-degree: 0%
 身為Adobe Workfront管理員，您可以存取有關Workfront帳戶的資訊，包括已為您的組織購買的授權數量，以及目前使用的授權數量。
 
 ## 存取需求
+
++++ 展開以檢視本文中功能的存取需求。
 
 您必須具有下列存取權才能執行本文中的步驟：
 
@@ -64,6 +66,8 @@ ht-degree: 0%
 >1. 系統管理員可以將[主群組]新增到[授權]頁面，以檢視這些群組中的授權使用情況，也可以設定授許可權制。
 >2. 群組管理員可以存取「授權」頁面，並檢視系統管理員已新增至「授權」頁面之他們管理的群組中的授權使用情況。
 >3. 群組管理員無法檢視其他主群組的資訊或新增最大值。
+
++++
 
 ## 檢視您組織的授權
 

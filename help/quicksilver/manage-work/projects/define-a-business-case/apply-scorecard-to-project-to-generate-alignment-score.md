@@ -5,9 +5,9 @@ description: 您可以使用計分卡來測量專案與先前建立的專案組�
 author: Alina
 feature: Work Management
 exl-id: 21cf5493-147d-4b8d-8b16-2891eb7e0491
-source-git-commit: db362bd73e51b30090708822876ad02f7804d064
+source-git-commit: 84c5772d130be78d9f9b9aef342c57183d5ec985
 workflow-type: tm+mt
-source-wordcount: '1229'
+source-wordcount: '1240'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,8 @@ ht-degree: 0%
 如需計分卡及其建立方式的詳細資訊，請參閱 [建立計分卡](../../../administration-and-setup/set-up-workfront/configure-system-defaults/create-scorecard.md).
 
 ## 存取需求
+
++++ 展開以檢視本文中功能的存取需求。
 
 您必須具有下列存取權才能執行本文中的步驟：
 
@@ -54,6 +56,8 @@ ht-degree: 0%
 </table>
 
 如需有關此表格的詳細資訊，請參閱 [Workfront檔案中的存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## 專案計分卡 {#project-scorecards}
 

@@ -6,9 +6,9 @@ description: 身為資源管理員，您可以指派工作給使用者，並從�
 author: Lisa
 feature: Resource Management
 exl-id: 9649e482-af24-4516-9a69-ef12b2f1d579
-source-git-commit: 1ce89f7e680f11a11c8646853652f9f24ee89b14
+source-git-commit: 4572ea9bb0679c599a55d5a87c1397c7b819c963
 workflow-type: tm+mt
-source-wordcount: '2887'
+source-wordcount: '2898'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,8 @@ ht-degree: 0%
 身為資源管理員，您可以指派工作給使用者，並從工作負載平衡器管理他們的每日、每週或每月配置，以確保他們被配置符合其可用排程的時數量。
 
 ## 存取需求 {#access-requirements}
+
++++ 展開以檢視本文中功能的存取需求。
 
 您必須具備下列條件：
 
@@ -64,6 +66,8 @@ ht-degree: 0%
 </table>
 
 如需有關此表格的詳細資訊，請參閱 [Workfront檔案中的存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## 瞭解使用者配置
 

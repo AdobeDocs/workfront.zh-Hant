@@ -5,9 +5,9 @@ author: Nolan
 draft: Probably
 feature: Reports and Dashboards
 exl-id: ecf947ce-54d8-4103-8903-f455b1d86c39
-source-git-commit: 94c2930d155f38a56fe36e5a09bd29f27d1593f0
+source-git-commit: 4572ea9bb0679c599a55d5a87c1397c7b819c963
 workflow-type: tm+mt
-source-wordcount: '2765'
+source-wordcount: '2776'
 ht-degree: 4%
 
 ---
@@ -30,6 +30,8 @@ ht-degree: 4%
 * 如果專案所有者已變更
 
 ## 存取需求
+
++++ 展開以檢視本文中功能的存取需求。
 
 您必須具有下列存取權才能執行本文中的步驟：
 
@@ -57,6 +59,8 @@ ht-degree: 4%
 </table>
 
 如需有關此表格的詳細資訊，請參閱 [Workfront檔案中的存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## 先決條件
 
@@ -222,7 +226,7 @@ ht-degree: 4%
       <td> <p>更新狀態的索引鍵。</p> </td> 
      </tr> 
      <tr> 
-      <td> <p style="font-weight: bold;">主要物件代碼</p> </td> 
+      <td> <p style="font-weight: bold;">主要物件程式碼</p> </td> 
       <td> <p>狀態已變更之欄位的最高父物件。</p> </td> 
      </tr> 
      <tr> 
@@ -503,7 +507,7 @@ ht-degree: 4%
       <td> <p>變更專案計畫完成日期的日期。</p> <p>您應該依此欄位遞減排序。</p> </td> 
      </tr> 
      <tr> 
-      <td> <p style="font-weight: bold;">主要物件代碼</p> </td> 
+      <td> <p style="font-weight: bold;">主要物件程式碼</p> </td> 
       <td> <p>計畫完成日期變更的欄位的最高父級物件。</p> </td> 
      </tr> 
      <tr> 
@@ -596,7 +600,7 @@ ht-degree: 4%
       <td> <p>發生的變更型別，例如 <strong>新增</strong>， <strong>刪除</strong>，或 <strong>編輯</strong>.</p> </td> 
      </tr> 
      <tr> 
-      <td> <p style="font-weight: bold;">主要物件代碼</p> </td> 
+      <td> <p style="font-weight: bold;">主要物件程式碼</p> </td> 
       <td> <p>已更新專案所有者的專案之最高父物件。</p> </td> 
      </tr> 
      <tr> 

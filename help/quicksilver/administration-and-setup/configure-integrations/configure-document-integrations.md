@@ -8,9 +8,9 @@ author: Courtney, Becky
 feature: System Setup and Administration, Workfront Integrations and Apps, Digital Content and Documents
 role: Admin
 exl-id: cf5c4e3d-b45f-46cd-a938-22e412d1c491
-source-git-commit: a243094dc6bbbe71a6efdb4fe99f7365daae514d
+source-git-commit: e896d156854c6729e5ea0a82dcbc641fbfa9415e
 workflow-type: tm+mt
-source-wordcount: '1106'
+source-wordcount: '1117'
 ht-degree: 1%
 
 ---
@@ -30,6 +30,8 @@ ht-degree: 1%
 >若要允許開啟以下專案之間的通訊： [!DNL Workfront Proof] 和 [!DNL Workfront] 伺服器，您可能需要將特定IP位址新增至允許清單。 如需詳細資訊，請參閱 [設定防火牆的允許清單](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).
 
 ## 存取需求
+
++++ 展開以檢視本文中功能的存取需求。
 
 您必須具備下列專案才能執行本文所述的步驟：
 
@@ -55,6 +57,8 @@ ht-degree: 1%
 </table>
 
 如需有關此表格的詳細資訊，請參閱 [Workfront檔案中的存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## 支援的整合
 

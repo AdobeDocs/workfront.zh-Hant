@@ -9,9 +9,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 25813946-e338-4dd9-b02c-d20fa18c539c
-source-git-commit: 22c8f41f725784e348c44b209b9bc1537b26c952
+source-git-commit: 4cab7bed6cb4c25d96e70ccce2ece7f6d156f435
 workflow-type: tm+mt
-source-wordcount: '2725'
+source-wordcount: '2736'
 ht-degree: 6%
 
 ---
@@ -31,6 +31,8 @@ Kick-Start是特別格式化的Excel活頁簿，可填入您要匯入Workfront�
 本文會以適當的順序概述其中的每個程式。
 
 ## 存取需求
+
++++ 展開以檢視本文中功能的存取需求。
 
 您必須具有下列存取權才能執行本文中的步驟：
 
@@ -57,6 +59,8 @@ Kick-Start是特別格式化的Excel活頁簿，可填入您要匯入Workfront�
 </table>
 
 如需有關此表格的詳細資訊，請參閱 [Workfront檔案中的存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## 限制
 
@@ -212,9 +216,9 @@ Kick-Start是特別格式化的Excel活頁簿，可填入您要匯入Workfront�
       <td> <p> 備註</p> <p>偏好設定 </p> </td> 
      </tr> 
      <tr> 
-      <td>Portfolio</td> 
+      <td>專案組合</td> 
       <td>匯出為Excel檔案</td> 
-      <td> <p> Portfolio</p> <p>偏好設定 </p> </td> 
+      <td> <p> 專案組合</p> <p>偏好設定 </p> </td> 
      </tr> 
      <tr> 
       <td>專案</td> 
@@ -264,7 +268,7 @@ Kick-Start是特別格式化的Excel活頁簿，可填入您要匯入Workfront�
      <tr> 
       <td>時程表</td> 
       <td> 匯出為Excel檔案</td> 
-      <td> <p> 時間表設定檔</p> <p>時程表</p> <p>偏好設定 </p> </td> 
+      <td> <p> 時程表設定檔</p> <p>時程表</p> <p>偏好設定 </p> </td> 
      </tr> 
      <tr> 
       <td>檢視 </td> 

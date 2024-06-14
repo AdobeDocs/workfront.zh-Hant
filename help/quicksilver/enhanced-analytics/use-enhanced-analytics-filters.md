@@ -6,9 +6,9 @@ description: Adobe Workfront增強型分析區域中的篩選器可幫助您專�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 25854c04-d914-4302-a36b-e8134637efe1
-source-git-commit: 16a34e4315d508e31859e962edd01026d01ee193
+source-git-commit: 4cab7bed6cb4c25d96e70ccce2ece7f6d156f435
 workflow-type: tm+mt
-source-wordcount: '1475'
+source-wordcount: '1486'
 ht-degree: 0%
 
 ---
@@ -26,6 +26,8 @@ Adobe Workfront增強型分析區域中的篩選器可幫助您專注於特定�
 您可以視需要新增和移除篩選器，即使您登出，Workfront仍會保留您套用的篩選器。
 
 ## 存取需求
+
++++ 展開以檢視本文中功能的存取需求。
 
 您必須具有下列存取權才能執行本文中的步驟：
 
@@ -60,6 +62,8 @@ Adobe Workfront增強型分析區域中的篩選器可幫助您專注於特定�
 </table>
 
 如需有關此表格的詳細資訊，請參閱 [Workfront檔案中的存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## 先決條件
 

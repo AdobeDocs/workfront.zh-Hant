@@ -6,9 +6,9 @@ description: 您可以使用檢視來自訂顯示在熒幕上的資訊型別。 
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 8fcd6320-c939-4195-8972-5c31575f78cb
-source-git-commit: dda00a43c5122a233ce2849d828d2e5e4555d2d9
+source-git-commit: 43afa8136e51332a0970b01fff36113d5bf42294
 workflow-type: tm+mt
-source-wordcount: '1777'
+source-wordcount: '1788'
 ht-degree: 1%
 
 ---
@@ -20,6 +20,8 @@ ht-degree: 1%
 本文說明如何建立及編輯清單與報告的標準檢視，以及如何建立敏捷檢視。 如需詳細資訊，請參閱 [Adobe Workfront中的檢視概觀](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
 
 ## 存取需求
+
++++ 展開以檢視本文中功能的存取需求。
 
 您必須具有下列存取權才能執行本文中的步驟：
 
@@ -47,6 +49,8 @@ ht-degree: 1%
 </table>
 
 &#42;若要瞭解您擁有的計畫、授權型別或存取權，請聯絡您的Workfront管理員。
+
++++
 
 ## 建立或自訂檢視
 
@@ -80,7 +84,7 @@ ht-degree: 1%
         針對數字與幣別欄位，您可以透過下列選項彙總值：
 
          * 計數
-         * Sum
+         * 總和
          * 平均
          * 最大值
          * 最小值

@@ -6,9 +6,9 @@ description: 您可以使用範本作為框架，在Adobe Workfront中建立專�
 author: Alina
 feature: Work Management
 exl-id: 622cbfe0-b8c0-4045-bef2-9e21d45bfda0
-source-git-commit: 02d20209b8bf53c84308707a89a5abf399494b64
+source-git-commit: 5cb07cb42c3264c6629bc0a038c0e70ffc2cb509
 workflow-type: tm+mt
-source-wordcount: '1124'
+source-wordcount: '1135'
 ht-degree: 0%
 
 ---
@@ -42,6 +42,8 @@ ht-degree: 0%
 * 從群組區域中的範本建立專案
 
 ## 存取需求
+
++++ 展開以檢視本文中功能的存取需求。
 
 <!--drafted for P&P:
 
@@ -102,6 +104,8 @@ ht-degree: 0%
 </table>
 
 如需有關此表格的詳細資訊，請參閱 [Workfront檔案中的存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## 從專案區域中的範本建立專案
 
