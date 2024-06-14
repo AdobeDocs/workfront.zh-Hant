@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 56238597-f56b-43ba-8800-b80a150c6abc
-source-git-commit: f71460bc3a0f3f93c3922b18d637435f77ca9594
+source-git-commit: d75b99987bec596c44454d77073e332441f4ed29
 workflow-type: tm+mt
-source-wordcount: '432'
+source-wordcount: '444'
 ht-degree: 0%
 
 ---
@@ -28,15 +28,20 @@ ht-degree: 0%
 
 以前，物件需要在生產環境中與沙箱或預覽環境分開設定。
 
-24.6版開始進行環境升級時，將可提供更多環境升級的資訊和指示。
+如需有關環境升級的詳細資訊，請參閱 [在Workfront環境之間移動物件的概觀（環境升級）](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-in-wf.md)
 
 [觀看此功能的影片示範](https://video.tv.adobe.com/v/3429735/){target=_blank}
+
+>[!IMPORTANT]
+>
+>環境升級僅適用於使用新Prime或Ultimate計畫的組織。
+>
 
 ## 在自訂表單設計工具中共用自訂表單和自訂欄位
 
 >[!NOTE]
 >
->預覽版本： 2024年6月6日；適用於所有客戶的生產版本：待定
+>預覽版本： 2024年6月6日；所有客戶的生產版本： 6月13日
 
 您現在可以在新的表單設計工具中共用自訂表單和自訂欄位。 這可讓自訂表單的使用者之間有更多共同作業。
 
