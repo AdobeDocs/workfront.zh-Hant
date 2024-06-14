@@ -7,14 +7,16 @@ author: Alina
 feature: Work Management, Tasks
 role: User
 exl-id: 611b136e-2c3f-4eac-9d75-e8c12e06148d
-source-git-commit: c593eab154a0942995b1f913e7189450913faac0
+source-git-commit: 50e52f27f1f3f6f5b601b50303aba409559d8ca8
 workflow-type: tm+mt
-source-wordcount: '2021'
+source-wordcount: '2070'
 ht-degree: 1%
 
 ---
 
 # 指派任務
+
+<!--remove the span class preview from everywhere but the Rate Card roles referencs must stay in yellow; replace the intro with preview and fast track only but not sure if with the link to third quarter release?!-->
 
 <span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它僅適用於所有客戶的預覽環境，或適用於啟用快速發行的客戶的生產環境。</span>
 
@@ -51,6 +53,8 @@ ht-degree: 1%
 * [在工作負載平衡器中指派工作的總覽](../../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md)
 
 ## 存取需求
+
++++ 展開以檢視本文中功能的存取需求。
 
 <!--drafted for P&P - replace table below with this:
 
@@ -112,6 +116,8 @@ ht-degree: 1%
 </table>
 
 *若要瞭解您擁有的計畫、授權型別或存取權，請聯絡您的Workfront管理員。
+
++++
 
 ## 對工作角色、團隊和使用者的多個指派的考量事項
 
@@ -191,10 +197,12 @@ You cannot make a team be a Primary on a task/ issue. (Alina) -->
      >
      >您必須在存取層級中啟用檢視聯絡資訊設定，使用者才能檢視使用者的電子郵件。 如需詳細資訊，請參閱 [授予使用者存取許可權](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
      >
-     ><span class="preview">新增工作角色指派時，您可以搜尋工作角色或地點。 選取「系統/預設工作角色」以使用指定之預設收費率，或選取「費率卡工作角色」以使用費率卡的收費率。 如需費率卡的詳細資訊，請參閱 [管理費率卡](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md).</span>
+     ><span class="preview">新增工作角色指派時，您可以搜尋工作角色或地點。 從「工作角色」清單中選取角色，以使用指定之預設收費率，或從費率卡選取要使用收費率的「費率卡」工作角色。 如需費率卡的詳細資訊，請參閱 [管理費率卡](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md).</span>
 
 
-   * （視條件而定）按一下 **建議的指派** 清單（若顯示此清單）。 如需詳細資訊，請參閱 [智慧指派總覽](../../../manage-work/tasks/assign-tasks/smart-assignments.md).
+   * （視條件而定）按一下 <span class="preview">**建議的指派**， **使用者和團隊**，或 **職位角色**，或 **評等卡片角色**</span> 清單的顯示時間。 如需詳細資訊，請參閱 [智慧指派總覽](../../../manage-work/tasks/assign-tasks/smart-assignments.md).
+
+     您可以開始鍵入要指派給任務的任何使用者、團隊或工作角色的名稱，然後當它顯示在清單中時選取它。
 
    * 按一下 **進階**
 

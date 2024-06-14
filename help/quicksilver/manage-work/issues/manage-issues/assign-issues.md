@@ -7,14 +7,16 @@ author: Alina
 feature: Work Management
 role: User
 exl-id: e2dce29e-7370-4580-8326-99c4437998bf
-source-git-commit: ac5e56a2881d589c9a737d5e7115d82ee5c11ea6
+source-git-commit: 02a47566acd0fff151656fe2c5b59a6679748b15
 workflow-type: tm+mt
-source-wordcount: '1551'
+source-wordcount: '1553'
 ht-degree: 0%
 
 ---
 
 # 指派問題
+
+<!--keep the rate card job role information always in yellow till it releases to production - check with Lisa - this might not apply to issues?! -->
 
 <span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它僅適用於所有客戶的預覽環境，或適用於啟用快速發行的客戶的生產環境。</span>
 
@@ -130,7 +132,7 @@ ht-degree: 0%
      <span class="preview">預覽環境中的範例影像：</span>
      <span class="preview">![指派搜尋](assets/smart-assignments-issue-header.png)</span>
 
-   * （視條件而定）按一下 **建議的指派** 清單
+   * （視條件而定）按一下可用清單中的名稱、角色或專案團隊之一
    * 按一下 **指派給我** 以將其指派給您自己
    * 按一下 **進階**.
 
@@ -143,6 +145,10 @@ ht-degree: 0%
      >使用者必須至少與一個工作角色相關聯，才能在您新增時檢視該角色。
      >
      >您必須在存取層級中啟用檢視聯絡資訊設定，使用者才能檢視使用者的電子郵件。 如需詳細資訊，請參閱 [授予使用者存取許可權](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md)
+     >
+
+     <!-- not sure if this applies to issues; if it does, add this to the TIP above: 
+      ><span class="preview">When adding a job role assignment, you can search for the job role or location. Select a role from the Job roles list to use the default billing rate for the assignment, or select a Rate card job role to use the billing rate from the rate card. For more information on rate cards, see [Manage rate cards](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md).</span>-->
 
 
 1. 按一下 **儲存** 以完成指派問題。

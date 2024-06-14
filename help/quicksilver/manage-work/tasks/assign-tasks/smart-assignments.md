@@ -7,14 +7,16 @@ description: 在管理任務和問題指派時，您可以使用智慧指派來�
 author: Alina
 feature: Work Management
 exl-id: 8d17eff6-5ff0-4985-b575-4934a3bb7c0b
-source-git-commit: ac5e56a2881d589c9a737d5e7115d82ee5c11ea6
+source-git-commit: 02a47566acd0fff151656fe2c5b59a6679748b15
 workflow-type: tm+mt
-source-wordcount: '1278'
+source-wordcount: '1287'
 ht-degree: 0%
 
 ---
 
 # 智慧指派總覽
+
+<!--keep the yellow around the Rate card job roles and the Preview intro for those-->
 
 <span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它僅適用於所有客戶的預覽環境，或適用於啟用快速發行的客戶的生產環境。</span>
 
@@ -132,7 +134,7 @@ ht-degree: 0%
 
 如需詳細資訊，請參閱區段 [任務和問題的智慧指派條件](#smart-assignments-criteria-for-tasks-and-issues) 本文章內容。
 
-此階段中識別的指派會列在   **其他指派**， **使用者和團隊**，或 **工作角色指派**  任務指派欄位的區段。
+此階段中識別的指派會列在 **使用者和團隊**， **工作角色指派**、和 **評等卡片角色**  區段。 如需費率卡的詳細資訊，請參閱 [管理費率卡](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md). <!--keep the rate cards roles in yellow after the release of assignments to Prod-->
 
 ### 任務和問題的智慧指派條件
 

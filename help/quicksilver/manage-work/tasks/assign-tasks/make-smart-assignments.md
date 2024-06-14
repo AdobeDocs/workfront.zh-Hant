@@ -6,14 +6,16 @@ description: 您可以使用智慧指派來識別最佳使用者是何人來完�
 author: Alina
 feature: Work Management
 exl-id: 073a3234-3156-4b4f-a3e1-dbb32d61068a
-source-git-commit: ac5e56a2881d589c9a737d5e7115d82ee5c11ea6
+source-git-commit: 02a47566acd0fff151656fe2c5b59a6679748b15
 workflow-type: tm+mt
-source-wordcount: '603'
+source-wordcount: '620'
 ht-degree: 0%
 
 ---
 
 # 進行智慧型指派
+
+<!--keep the yellow around the Rate card job roles and the Preview intro for those-->
 
 <span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它僅適用於所有客戶的預覽環境，或適用於啟用快速發行的客戶的生產環境。</span>
 
@@ -25,7 +27,7 @@ ht-degree: 0%
 
 智慧型指派是Adobe Workfront將工作專案指派給資源時，為您呈現的使用者、角色或團隊建議。 Workfront的建議以演演算法為基礎，而演演算法會決定最適合這項工作的資源。
 
-<span class="preview">Workfront中有兩個用於任務和問題的獨立演演算法。 </span>
+<span class="preview">Workfront中有兩種不同的演演算法，可計算對任務和問題有不同處理方式的智慧型指派。 </span>
 
 如需有關用於決定智慧指派的條件的詳細資訊，請參閱 [智慧指派總覽](../../../manage-work/tasks/assign-tasks/smart-assignments.md).
 
@@ -73,20 +75,20 @@ ht-degree: 0%
    * 「首頁」區域中列出之專案的「工作總攬」欄位
    * 工作負載平衡器中的任務或問題
 
-1. 將游標置於指派欄位中，並等候兩秒。
+1. 將游標置於「工作總攬」欄位中，並等候兩秒。
 
    <div class="preview">
    下列一或多個含有智慧指派建議的區段隨即顯示：
 
-   * **建議的指派**：針對任務顯示。
+   * **建議的指派**：針對任務顯示。 <!--remove the note when we go to production with smarter assignments-->
 
      >[!TIP]
      >
      >   清單標題隨即顯示 **以下是一些建議** 而非 **建議的指派** 在生產環境中。
      >
-   * **其他指派**：顯示任務和問題。
    * **使用者和團隊**：顯示任務和問題。
    * **職位角色**：顯示任務和問題。
+   * **評等卡片工作角色**：針對任務顯示。 如需詳細資訊，請參閱 [管理費率卡](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md).<!--check later with Lisa to see if this also came to issues?! - and always keep this in yellow-->
    </div>
 
    <span class="preview">![](assets/smart-assignments-task-header-nwe-350x302.png)</span>
@@ -95,7 +97,7 @@ ht-degree: 0%
    對於任務，智慧型指派會根據演演算法計算識別指派的階段，顯示在下列區段中：
 
    * **建議的指派**：在任務智慧指派的演演算法計算的第一階段中識別的指派。 <span class="preview">此區段不適用於問題。</span>
-   * <span class="preview">**其他指派**， **使用者和團隊**，或 **職位角色**：在任務智慧指派的演演算法計算的第二階段中識別的指派。 <!--no longer valid: This section is not available for issues. --></span> <!--replace this with the new UI: "Other assignments"-->
+   * <span class="preview">**使用者和團隊**， **職位角色**，或 **評等卡片工作角色**：在任務智慧指派的演演算法計算的第二階段中識別的指派。 <!--no longer valid: This section is not available for issues. --></span> <!--replace this with the new UI: "Other assignments"-->
 
    <span class="preview">![](assets/smart-assignments-task-list.png)</span>
 
