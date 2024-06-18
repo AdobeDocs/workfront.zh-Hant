@@ -9,10 +9,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 7f56b63e-a674-43e4-bef6-d276898e2074
-source-git-commit: 84c5772d130be78d9f9b9aef342c57183d5ec985
+source-git-commit: 8e076e9c89ad208aa94ddefead4b8c6105992542
 workflow-type: tm+mt
-source-wordcount: '994'
-ht-degree: 8%
+source-wordcount: '1013'
+ht-degree: 7%
 
 ---
 
@@ -330,17 +330,17 @@ ht-degree: 8%
 
    匯出的Kick-start檔案會以Excel檔案或的格式下載至您的電腦。 包含多個Excel和屬性檔案的zip檔案。 每個Excel檔案都是工作表的集合，其中每個工作表代表與所選物件相關聯的欄位。 有一個 **屬性** 與每次匯出相關聯的頁面。
 
-   此 **儀表板** 和 **報告** 選項可讓您選取要包含在下載中的特定控制面板和報表。 您只能匯出在整個系統內共用的儀表板。
+   此 **儀表板** 和 **報告** 選項可讓您選取要包含在下載中的特定控制面板和報表。 您只能匯出在整個系統內共用的控制面板。
 
    您無法匯出矩陣報表。 如需矩陣報表的詳細資訊，請參閱 [建立矩陣報表](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-matrix-report.md).
+
+   Kick-Starts不支援文字模式篩選器。 若要成功匯出，報表篩選器必須切換至「標準模式」。
 
    您單次匯出最多可以選取100個控制面板和100個報表。
 
    ![](assets/kickstart-export-350x381.png)
 
    您可以一次匯出多個物件。
-
-
 
 1. （建議）分析匯出的資料，以確保已匯出您預期看到的所有資訊。
 

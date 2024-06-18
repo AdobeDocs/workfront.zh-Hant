@@ -9,9 +9,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 25813946-e338-4dd9-b02c-d20fa18c539c
-source-git-commit: 4cab7bed6cb4c25d96e70ccce2ece7f6d156f435
+source-git-commit: 8e076e9c89ad208aa94ddefead4b8c6105992542
 workflow-type: tm+mt
-source-wordcount: '2736'
+source-wordcount: '2755'
 ht-degree: 6%
 
 ---
@@ -109,7 +109,7 @@ Kick-Start是特別格式化的Excel活頁簿，可填入您要匯入Workfront�
       <td scope="col"> <p>參數</p> <p>描述文字</p><p>參數選項</p> <p>參數群組</p> <p>類別參數</p> <p>類別</p> <p>報告</p> <p>入口網站頁籤區段</p> <p>儀表板</p> <p>偏好設定</p> </td> 
      </tr> 
      <tr> 
-      <td scope="col"> <p>報告</p> <p>系統中的所有報表都可以匯出。 您在一次匯出中最多可以選取100個特定報告。</p> </td> 
+      <td scope="col"> <p>報告</p> <p>系統中的所有報表都可以匯出。 您在一次匯出中最多可以選取100個特定報告。</p> <p>Kick-Starts不支援文字模式篩選器。 若要成功匯出，報表篩選器必須切換至「標準模式」。</p> </td> 
       <td scope="col">匯出為ZIP檔案 </td> 
       <td scope="col"> <p scope="col">參數</p> <p scope="col">描述文字</p> <p scope="col">參數選項</p> <p scope="col">參數群組</p> <p scope="col">類別參數</p> <p scope="col">類別</p> <p scope="col">報告</p> <p scope="col">偏好設定</p> </td> 
      </tr> 
