@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
-source-git-commit: 02a47566acd0fff151656fe2c5b59a6679748b15
+source-git-commit: 8bfada77ac7b1b2a8d8fb2feec8a8167a1397cdc
 workflow-type: tm+mt
-source-wordcount: '2268'
+source-wordcount: '2404'
 ht-degree: 0%
 
 ---
@@ -151,11 +151,16 @@ author: Alina
 
      例如，如果您將「促銷活動」記錄型別與「產品」記錄型別連結，您會為「促銷活動」記錄型別建立名為「連結的產品」的連結記錄欄位，並為「產品」記錄型別建立自動名為「促銷活動」的連結記錄型別。
 
-   * **當您從另一個應用程式將記錄型別與物件型別連線時**：連結的記錄欄位會在您連線的記錄型別上建立。 不會在其他應用程式的物件型別上自動建立任何連結的記錄欄位。
+   * **當您從另一個應用程式將記錄型別與物件型別連線時**：
 
-     只有當實際物件連線至Workfront Planning記錄時，才會為其他應用程式的物件建立新的Workfront Planning唯讀記錄型別。
+      * 連結的記錄欄位會在您連線的記錄型別上建立。 不會在其他應用程式的物件型別上自動建立任何連結的記錄欄位。
 
-     如需詳細資訊，請參閱 [連線記錄](/help/quicksilver/planning/records/connect-records.md).
+      * 只有當實際物件連線至Workfront Planning記錄時，才會為其他應用程式的物件建立新的Workfront Planning唯讀記錄型別。
+
+        如需詳細資訊，請參閱 [連線記錄](/help/quicksilver/planning/records/connect-records.md).
+
+      * 無法從Workfront存取Planning記錄或其欄位。
+      * 當您的Experience Manager Assets管理員透過Workfront與Workfront之間的整合設定中繼資料對應時，可從Adobe Experience Manager Assets存取Planning記錄及其欄位。 如需詳細資訊，請參閱 [設定Adobe Workfront和Experience Manager Assets之間的資產中繼資料對應](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping.html?lang=en).
 
    * **當您新增您所連線之記錄或物件的查閱欄位時**：您可以將其他應用程式物件的欄位連線至Workfront Planning記錄型別。 這些是連結或查詢欄位。 連結的欄位會在您連線記錄或物件時，自動顯示已連線記錄或物件的資訊。 連結的查閱欄位永遠是唯讀的，而且會自動填入連線記錄或物件的值。
 
@@ -167,7 +172,8 @@ author: Alina
 
 * 連結的記錄欄位前面有關係圖示 ![](assets/relationship-field-icon.png).
 
-  連結的欄位前面有識別欄位型別的圖示。 例如，指示欄位是數字、段落或日期的圖示。
+  連結的欄位前面有識別欄位型別的圖示。 例如，連結（或查詢）欄位前面有圖示，表示欄位是數字、段落或日期。
+
 
 ## 連線記錄型別
 
@@ -220,7 +226,7 @@ author: Alina
      >    * 人員
      >    * 建立者
      >    * 上次修改者
-     >    * Workfront自動提示欄位
+     >    * Workfront預先輸入欄位（包括專案所有者或專案贊助者等欄位）
 
 1. （條件式與選擇性）如果您已選取連線Workfront物件，請選取 **自訂表格** 從 **僅連結符合這些條件的物件** 區段。 只有已附加所選自訂表單的物件才能連結至所選記錄型別。 您可以選取多個表單。
 
@@ -235,6 +241,21 @@ author: Alina
    <!--replace the screen shot below when they fix the permissions info icon bug-->
 
    ![](assets/aem-assets-connection-selection.png)
+
+   >[!NOTE]
+   >
+   >您的Workfront管理員可以透過Workfront中的中繼資料對應，將Workfront Planning欄位對應至Experience Manager Assets欄位。 如需詳細資訊，請參閱 [設定Adobe Workfront和Experience Manager Assets之間的資產中繼資料對應](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping.html?lang=en).
+
+<!-- for when Title is released - ensure that this is valid for linking Planning records and not just AEM assets: 
+
+1. (Conditional) If you selected to connect to Experience Manager Assets or to a Workfront Planning record type, disable the **Title** toggle, if you don't want the title of connected records or assets to display in the linked field. When disabled, only records' thumbnail displays in  the linked fields. The toggle is enabled by default. 
+
+    >[!TIP]
+    >
+    >    When you allow multiple records to be linked, displaying only the thumbnail might save space in smaller areas, like the record views.
+    >
+    >The Title of a record is the primary field of the record. For more information, see [Manage the table view](/help/quicksilver/planning/views/manage-the-table-view.md). 
+-->
 
 1. 按一下「**建立**」。
 
@@ -258,6 +279,11 @@ author: Alina
 1. （選用）按一下 **略過** 並且不要從連結的記錄或物件新增任何欄位。 此 **名稱** 是原始記錄表格檢視中唯一可見的欄位。
 
 1. （選擇性和條件性）如果您選取連結數字、貨幣、百分比或日期型別欄位，請同時選取彙總值。 當使用者在連結的記錄欄位中選取多個連結的記錄時，連結欄位的值會根據您選擇的彙總器，以逗號分隔或顯示為彙總值。
+
+   >[!IMPORTANT]
+   >
+   >    如果您希望欄位能新增為時間軸和行事曆檢視的開始和結束日期，新增日期欄位時必須選取彙總值。
+
 
    ![](assets/aggregator-drop-down-for-number-linked-field.png)
 

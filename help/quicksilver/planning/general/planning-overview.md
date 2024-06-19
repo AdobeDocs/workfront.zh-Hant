@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: c593eab154a0942995b1f913e7189450913faac0
+source-git-commit: 8bfada77ac7b1b2a8d8fb2feec8a8167a1397cdc
 workflow-type: tm+mt
-source-wordcount: '1932'
-ht-degree: 1%
+source-wordcount: '1965'
+ht-degree: 2%
 
 ---
 
@@ -100,6 +100,7 @@ Adobe Workfront規劃是Adobe Workfront的新產品。 Workfront Planning的目�
 | Adobe Workfront Fusion的Adobe Workfront規劃模組 | ✓ (A) |                                  |                 |
 | 從一個欄位複製資訊並貼上到另一個欄位 | ✓ (A) |                                  |                 |
 | 從Workfront物件存取Planning記錄 | ✓ (A) |                                  |                 |
+| 從Workfront物件連線Planning記錄 | ✓ (A) |                                  |                 |
 
 ## 為您的Workfront例項中的使用者啟用Adobe Workfront Planning
 
@@ -208,9 +209,18 @@ Workfront Planning的架構可完全自訂。 您可以建立所有記錄型別�
 
 * **連結的欄位** （或查詢欄位）：建立兩個記錄型別之間的連線，並將個別記錄連結在一起後，您可以參考連結記錄上您連結的記錄欄位。
 
-  例如，如果您將促銷活動記錄型別與Workfront專案物件型別連線，則可以在促銷活動記錄上顯示已連線專案的「專案所有者」欄位。
+  例如，如果您將Campaign記錄型別與Workfront專案物件型別連線，則可以在行銷活動記錄上顯示已連線專案的「預算」欄位。
 
   ![](assets/add-lookup-fields-modal.png)
+
+  >[!TIP]
+  >
+  > 您無法新增下列欄位型別做為查閱欄位：
+  >
+  >* 人員
+  >* 建立者
+  >* 上次修改者
+  >* Workfront預先輸入欄位（包括專案所有者或專案贊助者等欄位）
 
   如需連結記錄型別、記錄和建立連結欄位的相關資訊，請參閱下列文章：
 
@@ -285,7 +295,7 @@ Workfront Planning的架構可完全自訂。 您可以建立所有記錄型別�
 
    ![](assets/planning-landing-page-admin.png)
 
-   1. （條件式與選用式）如果您是Workfront管理員，請按一下下列其中一個標籤：
+1. （條件式與選用式）如果您是Workfront管理員，請按一下下列其中一個標籤：
    * **我的工作區**：顯示您建立的工作區。
    * **其他工作區**：顯示系統中的所有其他工作區，包括與您共用的工作區。
 

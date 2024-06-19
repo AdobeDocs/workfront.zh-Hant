@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 673dd888-3135-48b0-8198-c8d6d6706ddf
-source-git-commit: 3856e56036a9845387d7dc6498a6f20728c8234a
+source-git-commit: 8bfada77ac7b1b2a8d8fb2feec8a8167a1397cdc
 workflow-type: tm+mt
-source-wordcount: '607'
+source-wordcount: '629'
 ht-degree: 0%
 
 ---
@@ -130,6 +130,12 @@ ht-degree: 0%
 1. 按一下 **複製連結** 將檢視的連結複製到剪貼簿。
 1. 與他人共用複製的連結。 收到連結的使用者必須是作用中使用者，並登入Workfront，才能存取記錄型別頁面並在選取的檢視中顯示該頁面。
 1. 按一下「**儲存**」。
+
+   >[!TIP]
+   >
+   >   與您共用的檢視有人員指標 ![](assets/view-shared-with-others-people-icon.png) ，位於檢檢視示旁。 不含People指示器的檢視是您建立的檢視。
+
+
 
 <!--
 ## Share permissions to a view publicly

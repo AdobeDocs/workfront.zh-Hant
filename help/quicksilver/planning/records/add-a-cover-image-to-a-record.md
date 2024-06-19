@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 93c6bc15-d945-4cfc-8e87-f5b4e6fac2f4
-source-git-commit: c593eab154a0942995b1f913e7189450913faac0
+source-git-commit: 8bfada77ac7b1b2a8d8fb2feec8a8167a1397cdc
 workflow-type: tm+mt
-source-wordcount: '568'
+source-wordcount: '619'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 0%
 
 ## 存取需求
 
-<!--************double-check permissions here - asking Isk and Lilit what permissions users need for adding thumbnails-->
+<!--************double-check permissions here - asking Isk and Lilit what permissions users need for adding cover images-->
 
 您必須具有下列存取權才能執行本文中的步驟：
 
@@ -58,9 +58,10 @@ ht-degree: 0%
    </td>
   </tr>
   <tr>
-   <td role="rowheader"><p>Adobe Workfront授權</p></td>
+   <td role="rowheader"><p>Adobe Workfront授權*</p></td>
    <td>
-   <p>任何</p> 
+   <p>目前：工作或以上</p>
+   <p>新增：標準</p>  
   </td>
   </tr>
 
@@ -71,7 +72,7 @@ ht-degree: 0%
   </tr>
 <tr>
    <td role="rowheader"><p>權限</p></td>
-   <td> <p>貢獻或更高的工作區許可權 </p>  
+   <td> <p>管理工作區的許可權 </p>  
    <p>系統管理員擁有所有工作區的許可權，包括他們未建立的工作區</p>
 </td>
   </tr>
@@ -84,6 +85,8 @@ ht-degree: 0%
 </tbody>
 </table>
 
+*如需詳細資訊，請參閱 [Workfront檔案中的存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
 ## 關於紀錄頁封面影像的考量事項
 
 您可以新增封面影像以個人化記錄頁面。
@@ -94,7 +97,8 @@ ht-degree: 0%
 * 您只能將影像檔案新增為封面影像。
   <!--above: when you know exactly what type of files are allowed, add the exact extensions above-->
 * 您可以從任何檢視的記錄預覽或記錄頁面，將封面影像新增至個別記錄。
-* 您無法從任何記錄檢視中內嵌新增封面影像。
+* 您無法從記錄檢視中新增封面影像。
+* 每次建立記錄時，Workfront都會自動上傳封面影像。 您稍後可以修改此影像。
 
 ## 新增封面影像至記錄
 
@@ -114,19 +118,15 @@ ht-degree: 0%
 
    記錄型別頁面隨即開啟。
 
-1. 從任何型別的檢視中，按一下記錄的名稱
+1. 從任何型別的檢視中，按一下記錄
 
    或
 
-   從表格檢視中，按一下 **開啟詳細資料** 圖示 ![](assets/open-details-icon-in-table-name-field.png) 記錄名稱的左側。
+   從表格檢視中，按一下 **開啟詳細資料** 圖示 ![](assets/open-details-icon-in-table-name-field.png) 在第一欄中。
 
    記錄的預覽會在檢視中開啟。
 
    ![](assets/details-box.png)
-
-   >[!TIP]
-   >
-   >您可以檢視 **開啟詳細資料** 圖示至表格檢視中記錄之「名稱」欄位左邊的圖示（僅當「名稱」欄位為主要欄位時）。
 
 1. （可選）按一下 **在新標籤中開啟** 圖示 ![](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> 在記錄預覽的右上角，以在新索引標籤中開啟記錄頁面。
 
@@ -134,10 +134,25 @@ ht-degree: 0%
 
    ![](assets/details-page.png)
 
-1. 在記錄預覽或頁面中，按一下 **新增封面**. <!--check the casing here; I logged a bug for this-->
-此 **紀錄封面** 方塊開啟。
+1. 在記錄預覽或頁面中，按一下 **新增封面**
 
-1. 按一下 **選取以上傳** 並瀏覽電腦上的圖片，以選取、新增圖片，然後按一下 **使用影像**.
+
+   或
+
+   將滑鼠停留在現有的封面影像上，按一下 **更多** 功能表 ![](assets/more-menu.png) ，然後按一下 **上傳**. <!--check the casing here; I logged a bug for this-->
+此 **紀錄封面** 方塊在 **上傳** 標籤。
+
+   ![](assets/record-cover-box-for-upload.png)
+
+1. 按一下 **瀏覽影像** 並瀏覽電腦上的圖片，以選取並新增圖片。
+
+1. （選擇性）若要在儲存影像之前移除影像，請按一下 **上傳新影像** 圖示 ![](assets/upload-new-image-icon.png) ，並上傳新影像。
+
+1. （可選）按一下 **相簿** 標籤，然後按一下影像庫中的影像。 無法修改影像庫。
+
+   ![](assets/record-cover-box-for-gallery.png)
+
+1. 按一下 **使用影像**.
 
    影像會上傳到記錄預覽或頁面頂端，而變更會自動儲存。
 

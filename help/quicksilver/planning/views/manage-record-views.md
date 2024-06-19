@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: d0880e0b58a3fb853569e2c09efc495cbd9c38ec
+source-git-commit: 8bfada77ac7b1b2a8d8fb2feec8a8167a1397cdc
 workflow-type: tm+mt
-source-wordcount: '1065'
+source-wordcount: '1097'
 ht-degree: 1%
 
 ---
@@ -198,7 +198,7 @@ ht-degree: 1%
 
    >[!TIP]
    >
-   >    您可以從記錄日期欄位中選取，或從連線的記錄或物件型別中查詢日期欄位。
+   >    您可以從記錄日期欄位中選取，或從連線的記錄或物件型別中查詢日期欄位。 當您選取查閱欄位作為時間軸和行事曆檢視的開始和結束日期時，您必須使用日期欄位的彙總(MAX或MIN)。 如需詳細資訊，請參閱 [連線記錄型別](/help/quicksilver/planning/architecture/connect-record-types.md).
 
 1. 按一下「**建立**」。
 
