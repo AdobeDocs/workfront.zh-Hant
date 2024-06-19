@@ -9,9 +9,9 @@ hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: 74e0a85b-a8aa-4e39-9c2e-0f09957ebafa
-source-git-commit: 21ef9365561fca2301223ae79f6371f3c94c7313
+source-git-commit: 04259d63523050d5bd43e5e776c21237e5a5cfe4
 workflow-type: tm+mt
-source-wordcount: '1334'
+source-wordcount: '1325'
 ht-degree: 0%
 
 ---
@@ -83,7 +83,7 @@ ht-degree: 0%
    >您可以選擇在此步驟中新增其他工作區。 我們建議您為每個開發人員建立一個工作區。 如此一來，當開發人員工作時，秘密和部署彼此分開。 您應該使用使用使用工作區的開發人員名稱來命名工作區。 AIO cli有切換工作區的選項，稍後我們將介紹。
 
 
-1. 離開 **包含執行階段** 已選取。 我真的不知道為什麼，但不要改變它！
+1. 離開 **包含執行階段** 已選取。
 
 1. 按一下「**儲存**」。
 
