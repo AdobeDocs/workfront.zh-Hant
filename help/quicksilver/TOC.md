@@ -3,9 +3,9 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文件、教學課程和其他資源，了解如何在您的組織中實施並有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: 869a1f9e4fd7e3b65591050530b96d6dae9e230c
+source-git-commit: 3b3dd815b5618853bdf8fc29304ed60d686195c3
 workflow-type: tm+mt
-source-wordcount: '14352'
+source-wordcount: '14364'
 ht-degree: 1%
 
 ---
@@ -162,6 +162,7 @@ ht-degree: 1%
          * [21.1其他增強功能](product-announcements/product-releases/21.1-release-activity/21-1-other-enhancements.md)
       * Adobe Workfront Fusion發行活動 {#fusion-release}
          * [Adobe Workfront Fusion發行活動](product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md)
+         * [Workfront Fusion發行活動： 2024年6月17日起一週](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-6-17.md)
          * [Workfront Fusion發行活動： 2024年6月3日當週](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-6-3.md)
          * [Workfront Fusion發行活動： 2024年5月20日起一週](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-5-20.md)
          * [Workfront Fusion發行活動： 2024年5月13日起一週](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-5-13.md)
@@ -2237,6 +2238,7 @@ ht-degree: 1%
       * [Adobe Creative Cloud程式庫模組](workfront-fusion/apps-and-their-modules/creative-cloud-libraries-modules.md)
       * [Adobe Campaign Classic模組](workfront-fusion/apps-and-their-modules/adobe-campaign-classic-connector.md)
       * [Adobe Experience Manager Assets模組](workfront-fusion/apps-and-their-modules/aem-assets-modules.md)
+      * [Adobe I/O事件模組](workfront-fusion/apps-and-their-modules/adobe-io-events-modules.md)
       * [Adobe Experience Manager Forms模組](workfront-fusion/apps-and-their-modules/aem-forms-modules.md)
       * [Adobe Firefly模組](workfront-fusion/apps-and-their-modules/adobe-firefly-modules.md)
       * [Adobe Journey Optimizer模組](workfront-fusion/apps-and-their-modules/adobe-journey-optimizer-modules.md)
