@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: a923d86f78e6dab4705289a8165c4b31ff68b5a2
+source-git-commit: 869a1f9e4fd7e3b65591050530b96d6dae9e230c
 workflow-type: tm+mt
-source-wordcount: '1724'
+source-wordcount: '1752'
 ht-degree: 0%
 
 ---
@@ -280,7 +280,13 @@ this is not possible right now; if this is the same functionality as the table v
 
    * **預設（灰色）**：群組的顏色會設定為灰色。 這是預設值。
    * **欄位值**：分組的顏色符合您分組依據的欄位顏色。
-您只能將群組的顏色與具有顏色編碼選項的欄位配對。
+
+     >[!NOTE]
+     >
+     >    * 您只能將顏色與具有顏色編碼選項的欄位比對。 例如，您可以將顏色與「狀態」欄位配對，或與顏色關聯的選項欄位。
+     >    
+     >    * 您無法從連結的記錄或物件型別中尋找符合顏色的欄位。
+
 
    例如，多選或單選欄位可以有顏色編碼的選項。
 

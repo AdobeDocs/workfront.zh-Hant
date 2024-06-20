@@ -1,20 +1,20 @@
 ---
-title: 管理記錄頁面
+title: 管理記錄頁面配置
 description: 您可以在Adobe Workfront Planning中編輯記錄預覽和頁面的版面。
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
-source-git-commit: c593eab154a0942995b1f913e7189450913faac0
+source-git-commit: 869a1f9e4fd7e3b65591050530b96d6dae9e230c
 workflow-type: tm+mt
-source-wordcount: '1118'
+source-wordcount: '1066'
 ht-degree: 0%
 
 ---
 
 <!--update the metadata with real information when making this avilable in TOC and in the left nav-->
 
-# 管理記錄頁面
+# 管理記錄頁面配置
 
 {{planning-important-intro}}
 
@@ -108,7 +108,7 @@ ht-degree: 0%
 
 * 顯示在記錄預覽中所做的變更會立即顯示在記錄詳細資訊頁面中。 在記錄頁面中所做的變更也會顯示在記錄預覽方塊中。
 
-* 新增封面影像到記錄不是記錄預覽或頁面的整體配置的一部分。 您可以將唯一的封面影像新增到每張記錄中。 如需詳細資訊，請參閱 [新增封面影像至記錄](/help/quicksilver/planning/records/add-a-cover-image-to-a-record.md).
+* 將封面影像或縮圖新增至記錄，不屬於記錄預覽或頁面的整體配置。 您可以新增唯一的封面影像或縮圖到每筆記錄。 如需詳細資訊，請參閱 [新增封面影像至記錄](/help/quicksilver/planning/records/add-a-cover-image-to-a-record.md) 和 [新增縮圖至記錄](/help/quicksilver/planning/records/add-thumbnails-to-records.md).
 
 ## 新增區段到記錄預覽或頁面
 
@@ -135,15 +135,11 @@ ht-degree: 0%
 
    或
 
-   從表格檢視中，按一下 **開啟詳細資料** 圖示 ![](assets/open-details-icon-in-table-name-field.png) 記錄名稱的左側。
+   從表格檢視中，按一下 **開啟詳細資料** 圖示 ![](assets/open-details-icon-in-table-name-field.png) 在第一欄中。
 
    記錄的預覽會在檢視中開啟。
 
    ![](assets/details-box.png)
-
-   >[!TIP]
-   >
-   >您可以檢視 **開啟詳細資料** 圖示至表格檢視中記錄之「名稱」欄位左邊的圖示（僅當「名稱」欄位為主要欄位時）。
 
 1. （可選）按一下 **在新標籤中開啟** 圖示 ![](assets/open-details-in-a-new-tab-icon.png) 在記錄預覽的右上角，以在新索引標籤中開啟記錄頁面。
 
@@ -200,15 +196,11 @@ ht-degree: 0%
 
    或
 
-   從表格檢視中，按一下 **開啟詳細資料** 圖示 ![](assets/open-details-icon-in-table-name-field.png) 記錄名稱的左側。
+   從表格檢視中，按一下 **開啟詳細資料** 圖示 ![](assets/open-details-icon-in-table-name-field.png) 在第一欄中。
 
    記錄的預覽會在檢視中開啟。
 
    ![](assets/details-box.png)
-
-   >[!TIP]
-   >
-   >您可以檢視 **開啟詳細資料** 圖示至表格檢視中記錄之「名稱」欄位左邊的圖示（僅當「名稱」欄位為主要欄位時）。
 
 1. （可選）按一下 **在新標籤中開啟** 圖示 ![](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> 在記錄預覽的右上角，以在新索引標籤中開啟記錄頁面。
 

@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 604b84c1-4ec6-4d4a-b9f4-4223641ff2ea
-source-git-commit: c593eab154a0942995b1f913e7189450913faac0
+source-git-commit: 869a1f9e4fd7e3b65591050530b96d6dae9e230c
 workflow-type: tm+mt
-source-wordcount: '635'
+source-wordcount: '642'
 ht-degree: 1%
 
 ---
@@ -117,7 +117,9 @@ ht-degree: 1%
 
 1. （選擇性和條件性）按一下 **預覽** 在下列任何預先定義的工作區範本內：
 
-   * 行銷管理
+   * 基本：行銷管理
+   * 進階：行銷管理
+   * 企業：行銷管理
    * 銷售管理
    * 產品管理
 
@@ -133,7 +135,7 @@ ht-degree: 1%
 
    或
 
-   按一下 **返回**，然後按一下 **建立工作區** 從頭開始建立工作區。
+   按一下 **返回**，然後按一下 **新工作區** 從頭開始建立工作區。
 
    會建立下列其中一種工作區型別：
 

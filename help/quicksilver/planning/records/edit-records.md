@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: c593eab154a0942995b1f913e7189450913faac0
+source-git-commit: 869a1f9e4fd7e3b65591050530b96d6dae9e230c
 workflow-type: tm+mt
-source-wordcount: '1481'
+source-wordcount: '1626'
 ht-degree: 0%
 
 ---
@@ -106,14 +106,14 @@ ht-degree: 0%
 * 您無法大量編輯記錄。 <!--this will probably change-->
 * URL只有以下列專案開頭時，才會被識別為單行文字欄位型別中的連結： http://、https://、ftp://或www。.
 * 您可以將封面影像新增到每張記錄中。 每個記錄的影像都是唯一的，不會套用至同一時間的所有記錄。
-* 您可以編輯記錄頁面中的欄位順序，並為記錄新增封面影像。 如需詳細資訊，請參閱 [管理記錄頁面](/help/quicksilver/planning/records/manage-the-record-page.md).
+* 您可以編輯記錄頁面中的欄位順序，並為記錄新增封面影像。 如需詳細資訊，請參閱 [管理記錄頁面配置](/help/quicksilver/planning/records/manage-the-record-page.md).
 
 ## 編輯記錄
 
 您可以從下列區域編輯記錄：
 
-* [從記錄型別的表格檢視](#edit-a-record-from-the-table-view-of-a-record-type)
-* [從檢視中的記錄預覽](#edit-a-record-from-the-records-box-in-a-view)
+* [從記錄型別的表格檢視](#edit-a-record-inline-in-the-table-view-of-a-record-type)
+* [從檢視中的記錄預覽](#edit-a-record-from-the-records-preview-in-a-view)
 * [從紀錄的頁面](#edit-a-record-from-the-records-page)
 
 ### 在記錄型別的表格檢視中編輯內嵌記錄
@@ -200,17 +200,17 @@ ht-degree: 0%
 
    記錄型別頁面隨即開啟。
 
-1. 從任何型別的檢視中，按一下記錄的名稱
+1. 從任何型別的檢視中，按一下記錄
 
    或
 
-   從表格檢視中，按一下 **開啟詳細資料** 圖示 ![](assets/open-details-icon-in-table-name-field.png) 記錄名稱的左側。 記錄的預覽會在檢視中開啟。
+   從表格檢視中，按一下 **開啟詳細資料** 圖示 ![](assets/open-details-icon-in-table-name-field.png) 在第一欄中。 記錄的預覽會在檢視中開啟。
 
    ![](assets/details-box.png)
 
-   >[!TIP]
-   >
-   >您可以檢視 **開啟詳細資料** 圖示至表格檢視中記錄之「名稱」欄位左邊的圖示（僅當「名稱」欄位為主要欄位時）。
+1. （可選）按一下 **更多** 功能表右側，然後按一下 **重新命名**. 這會更新顯示為記錄標題的欄位。
+
+   記錄的標題是在表格檢視中檢視時，記錄的主要欄位。 如需詳細資訊，請參閱 [管理表格檢視](/help/quicksilver/planning/views/manage-the-table-view.md).
 
 1. 開始編輯記錄預覽中的欄位資訊。
 
@@ -218,10 +218,12 @@ ht-degree: 0%
    >
    >  您無法編輯下列欄位的資訊，因為這些欄位是唯讀欄位，且Workfront會自動更新它們：
    >  
-   >  * 透過連線記錄型別建立的連結欄位。 如需詳細資訊，請參閱 [連線記錄型別](/help/quicksilver/planning/architecture/connect-record-types.md).
+   >  * 透過連線記錄型別建立的其他記錄中的查閱欄位。 如需詳細資訊，請參閱 [連線記錄型別](/help/quicksilver/planning/architecture/connect-record-types.md).
    >  * 下列型別的欄位：「建立者」、「建立日期」、「上次修改者」、「上次修改日期」、「公式」欄位。
 
 1. （選用）按一下 **新增封面** 以新增封面影像到記錄中。 如需詳細資訊，請參閱 [新增封面影像至記錄](/help/quicksilver/planning/records/add-a-cover-image-to-a-record.md).
+
+1. （選用）將滑鼠指標暫留在縮圖圖示上，然後按一下 **更多** ![](assets/more-menu.png) > **編輯縮圖** 以新增縮圖影像。 如需詳細資訊，請參閱 [新增縮圖至記錄](/help/quicksilver/planning/records/add-thumbnails-to-records.md).
 
    Workfront會自動儲存您的變更。
 
@@ -251,6 +253,10 @@ ht-degree: 0%
 
      ![](assets/details-page.png)
 
+1. （可選）按一下 **更多** 功能表右側，然後按一下 **重新命名**. 這會更新顯示為記錄標題的欄位。
+
+   記錄的標題是在表格檢視中檢視時，記錄的主要欄位。 如需詳細資訊，請參閱 [管理表格檢視](/help/quicksilver/planning/views/manage-the-table-view.md).
+
 1. 按一下記錄頁面上的任何可編輯欄位以進行編輯。
 
    >[!TIP]
@@ -260,7 +266,17 @@ ht-degree: 0%
    >  * 透過連線記錄型別建立的連結欄位。 如需詳細資訊，請參閱 [連線記錄型別](/help/quicksilver/planning/architecture/connect-record-types.md).
    >  * 下列型別的欄位：「建立者」、「建立日期」、「上次修改者」、「上次修改日期」、「公式」欄位。
 
-1. （選用）按一下 **新增封面** 以新增封面影像到記錄中。 如需詳細資訊，請參閱 [新增封面影像至記錄](/help/quicksilver/planning/records/add-a-cover-image-to-a-record.md).
+1. （選用）按一下 **新增封面** 若要新增封面影像到記錄中
+
+   或
+
+   將滑鼠停留在現有的封面影像上，然後按一下 **更多** 功能表 ![](assets/more-menu.png) > **上傳** 以新增記錄的封面影像。
+
+   如需詳細資訊，請參閱 [新增封面影像至記錄](/help/quicksilver/planning/records/add-a-cover-image-to-a-record.md).
+
+1. （可選）將滑鼠停留在現有的縮圖上，或 **縮圖圖示** ![](assets/record-thumbnail-icon-on-details-page.png)，然後按一下 **更多** 功能表 ![](assets/more-menu.png) > **編輯縮圖** 新增記錄的縮圖。
+
+   如需詳細資訊，請參閱 [新增縮圖至記錄](/help/quicksilver/planning/records/add-thumbnails-to-records.md).
 
    Workfront會自動儲存您的變更。
 

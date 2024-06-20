@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: c593eab154a0942995b1f913e7189450913faac0
+source-git-commit: 869a1f9e4fd7e3b65591050530b96d6dae9e230c
 workflow-type: tm+mt
-source-wordcount: '824'
+source-wordcount: '873'
 ht-degree: 0%
 
 ---
@@ -121,11 +121,16 @@ ht-degree: 0%
 
       * 按一下 **新記錄** 在頁面的右上角。 記錄預覽方塊開啟。
 
-1. 開始在新列中鍵入有關新記錄的資訊，或在您在預覽方塊中看到的欄位中輸入資訊。
+     Workfront會自動上傳縮圖和封面影像至每張新記錄。 您稍後可以修改這些影像。 如需詳細資訊，請參閱下列文章：
+
+      * [新增封面影像至記錄](/help/quicksilver/planning/records/add-a-cover-image-to-a-record.md)
+      * [新增縮圖至記錄](/help/quicksilver/planning/records/add-thumbnails-to-records.md)
+
+1. 開始在您在預覽方塊中看到的欄位中輸入有關新記錄的資訊。
 
    >[!NOTE]
    >
-   >  * 記錄沒有必填欄位。 不過，我們建議您為記錄新增「名稱」，因為將記錄連結至彼此時，依記錄名稱識別記錄會很有幫助。
+   >  * 記錄沒有必填欄位。 不過，我們建議您為記錄的主要欄位新增資訊，因為將記錄連結至彼此時，識別記錄會很有幫助。 如需主要欄位的詳細資訊，請參閱 [管理表格檢視](/help/quicksilver/planning/views/manage-the-table-view.md).
    >
    >  * 參考其他記錄型別或計算欄位的欄位為唯讀欄位。
 
@@ -140,7 +145,7 @@ ht-degree: 0%
    >您可以存取 **開啟詳細資料** 圖示僅來自記錄的名稱欄位，當「名稱」欄位是主要欄位時。
 
 1. 開始編輯記錄預覽中的記錄資訊。 Workfront會自動儲存您的變更。
-1. （可選）按一下 **在新標籤中開啟** 圖示 ![](assets/open-details-in-a-new-tab-icon.png) 在記錄預覽的右上角，以在新索引標籤中開啟記錄頁面。 繼續編輯記錄頁面上的記錄。
+1. （可選）按一下 **在新標籤中開啟** 圖示 ![](assets/open-details-in-a-new-tab-icon.png) 在記錄預覽的右上角，以在新索引標籤中開啟記錄頁面。 繼續編輯記錄頁面上的記錄。 如需詳細資訊，請參閱 [編輯記錄](/help/quicksilver/planning/records/edit-records.md).
 
 1. （可選）在表格檢視中新增記錄或其資訊時，請使用下列鍵盤快速鍵來復原或重做新增記錄或其資訊：
 
