@@ -1,13 +1,13 @@
 ---
 title: 連線記錄型別和記錄的範例
-description: 本文說明如何在AdobeWorkfront Planning記錄型別與Workfront專案物件型別之間建立連線的範例。 本檔案也說明如何將Workfront Planning記錄與連結至個別專案。
+description: 本文說明如何在Adobe Workfront Planning記錄型別與Workfront專案物件型別之間建立連線的範例。 本檔案也說明如何將Workfront Planning記錄與連結至個別專案。
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 38509572-72a4-4fce-b3ec-2cb31bb4669a
-source-git-commit: 502ab27759749ed428f8adbf486e39165d61fcf0
+source-git-commit: 7882b67578cd5b8792ce582ebab118c8993c9214
 workflow-type: tm+mt
-source-wordcount: '1797'
+source-wordcount: '1834'
 ht-degree: 0%
 
 ---
@@ -49,7 +49,8 @@ ht-degree: 0%
 
    ![](assets/new-connection-with-product-record-type.png)
 
-1. （視條件而定）如果您已選取 **選取查閱欄位選項** 在上一步中，從與 **產品** 記錄型別，按一下 **+** 圖示 **預算** 欄位，然後按一下 **新增欄位**. 這會建立一個名為的欄位 **預算（來自產品資訊）**，即連結欄位的名稱。 產品預算的任何資訊都會在此欄位中顯示促銷活動記錄。
+1. （可選）取消選取 **標題** 切換至 **錄製外觀** 區段，在連線的欄位中僅顯示記錄的縮圖影像。 如果啟用，記錄會顯示縮圖和標題。 切換預設為啟用。
+1. （視條件而定）如果您已選取 **選取查閱欄位選項** 在上一步中，從與 **產品** 記錄型別，按一下 **+** 圖示 **預算** 欄位，然後按一下 **新增欄位**. 這會建立一個名為的欄位 **預算（來自產品資訊）**，即連結欄位的名稱。 「產品預算」的任何資訊都會顯示在此欄位中的促銷活動記錄。
 
    ![](assets/add-fields-for-budget-field-for-connector-with-record-type.png)
 
@@ -78,7 +79,7 @@ ht-degree: 0%
 
 1. 從 **Campaign** 記錄型別表格檢視，請在「行銷活動」記錄型別頁面的表格中新增列，以建立行銷活動。
 
-1. 在內按兩下  **產品資訊** 欄中新增行銷活動。
+1. 在內按兩下 **產品資訊** 欄中新增行銷活動。
 
    ![](assets/connect-other-records-smaller-box-in-table-view.png)
 
@@ -166,7 +167,7 @@ ht-degree: 0%
 
 1. 從 **Campaign** 記錄型別表格檢視，在表格中新增一列以建立行銷活動。
 
-1. 在內按兩下  **專案資訊** 欄中新增行銷活動。
+1. 在新行銷活動的「專案資訊**」欄內按兩下。
 
    ![](assets/connect-projects-smaller-box-in-table.png)
 
@@ -184,7 +185,7 @@ ht-degree: 0%
 
    或
 
-   選取您要連線至Campaign記錄的Project記錄，然後按一下 **連線物件**.
+   選取您要連線至Campaign記錄的專案記錄，然後按一下 **連線物件**.
 
    >[!TIP]
    >
@@ -204,7 +205,7 @@ ht-degree: 0%
 
 1. 在連線的記錄欄位中按一下專案名稱。
 
-   如此將可開啟唯讀的Woekfront Planning專案頁面。
+   如此將可開啟唯讀的Workfront Planning專案頁面。
 檢閱專案的相關資訊。 只有選取的專案欄位會顯示在記錄的頁面中。
 
 1. 按一下 **移至來源** 如果您至少有專案的檢視許可權，可在畫面的右上角開啟Workfront中的專案。
@@ -212,7 +213,7 @@ ht-degree: 0%
 
 1. （選用）從Campaign表格檢視中，將游標暫留在 **專案資訊** 欄位標題，並按一下向下箭頭，然後按一下 **編輯查閱欄位。**
 1. 按一下 **+** 圖示中新增至專案Workfront規劃記錄的任何專案欄位 **未選取的欄位** 區段。
-1. 按一下 **-** 圖示以取得您要從Workfront專案計畫記錄中移除的任何專案欄位。 **選取的欄位** 區段。
+1. 按一下 **-** 圖示中從Workfront專案計畫記錄中移除的任何專案欄位 **選取的欄位** 區段。
 1. 按一下「**儲存**」。
 
    其他連結欄位會新增至行銷活動記錄型別。

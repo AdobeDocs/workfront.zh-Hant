@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 8bfada77ac7b1b2a8d8fb2feec8a8167a1397cdc
+source-git-commit: 7882b67578cd5b8792ce582ebab118c8993c9214
 workflow-type: tm+mt
-source-wordcount: '7510'
+source-wordcount: '7684'
 ht-degree: 0%
 
 ---
@@ -132,6 +132,30 @@ For more information, see [Adobe Workfront Planning notifications: Article index
 我們在已連線的記錄欄位中新增了「顯示更多/顯示更少」連結，當有記錄會顯示在記錄的「詳細資料」頁面中超過兩列時。
 
 如需詳細資訊，請參閱 [連線記錄](/help/quicksilver/planning/records/connect-records.md).
+
+### 在連線記錄型別時，使用記錄名稱自動填入名稱欄位
+
+生產： 2024年6月20日
+
+預覽：待定
+
+當您在兩個記錄之間或在記錄與來自另一個應用程式的物件之間建立連線時，連線的「名稱」欄位會自動填入連線的記錄名稱。 在此增強功能之前，您必須手動新增連線欄位的「名稱」。
+
+如需詳細資訊，請參閱 [連線記錄型別](/help/quicksilver/planning/architecture/connect-record-types.md).
+
+### 定義連線記錄在連線欄位中的顯示方式
+
+生產： 2024年6月20日
+
+預覽：待定
+
+您現在可以決定連線記錄在連線欄位中的顯示方式。 新增連線至記錄型別時，您現在可以選擇顯示連線記錄的標題及其縮圖，或僅顯示縮圖。
+
+記錄的標題是記錄的名稱或記錄型別表格檢視中設定為主要欄位的任何欄位。
+
+此增強功能適用於從Workfront Planning連線的記錄以及從Adobe Experience Manager連線的資產。
+
+如需詳細資訊，請參閱 [連線記錄型別](/help/quicksilver/planning/architecture/connect-record-types.md).
 
 ## 2024年6月10日起一週
 
@@ -563,6 +587,7 @@ UNIQUE運運算元適用於下列欄位型別以外的所有欄位型別：
 我們已更新記錄型別頁面中檢視的外觀和風格。 新檢視會動態回應，並快速調整至熒幕大小。 工具列選項標籤會隱藏在較小的熒幕上，讓工具列更易於使用。
 
 如需詳細資訊，請參閱下列文章：
+
 * [管理表格檢視](/help/quicksilver/planning/views/manage-the-table-view.md)
 * [管理時間表檢視](/help/quicksilver/planning/views/manage-the-timeline-view.md).
 

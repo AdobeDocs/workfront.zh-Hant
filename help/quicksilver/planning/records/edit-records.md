@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: 869a1f9e4fd7e3b65591050530b96d6dae9e230c
+source-git-commit: 7882b67578cd5b8792ce582ebab118c8993c9214
 workflow-type: tm+mt
-source-wordcount: '1626'
+source-wordcount: '1678'
 ht-degree: 0%
 
 ---
@@ -115,6 +115,7 @@ ht-degree: 0%
 * [從記錄型別的表格檢視](#edit-a-record-inline-in-the-table-view-of-a-record-type)
 * [從檢視中的記錄預覽](#edit-a-record-from-the-records-preview-in-a-view)
 * [從紀錄的頁面](#edit-a-record-from-the-records-page)
+* [從Planning區段中的Workfront物件](#edit-a-record-from-a-workfront-object-in-the-planning-section)
 
 ### 在記錄型別的表格檢視中編輯內嵌記錄
 
@@ -210,7 +211,7 @@ ht-degree: 0%
 
 1. （可選）按一下 **更多** 功能表右側，然後按一下 **重新命名**. 這會更新顯示為記錄標題的欄位。
 
-   記錄的標題是在表格檢視中檢視時，記錄的主要欄位。 如需詳細資訊，請參閱 [管理表格檢視](/help/quicksilver/planning/views/manage-the-table-view.md).
+   記錄的標題是在表格檢視中檢視時，記錄的主要欄位。 如需詳細資訊，請參閱 [主要欄位概述](/help/quicksilver/planning/fields/primary-field-overview.md).
 
 1. 開始編輯記錄預覽中的欄位資訊。
 
@@ -280,3 +281,8 @@ ht-degree: 0%
 
    Workfront會自動儲存您的變更。
 
+## 在Planning區段中編輯Workfront物件的記錄
+
+將記錄與Workfront物件連線後，您可以在Workfront中編輯物件的Planning區段中的Workfront Planning記錄。
+
+如需詳細資訊，請參閱 [在Adobe Workfront物件的Planning區段中管理記錄](/help/quicksilver/planning/records/manage-records-in-planning-section.md).

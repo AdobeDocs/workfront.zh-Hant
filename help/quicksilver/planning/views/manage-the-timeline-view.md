@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: 869a1f9e4fd7e3b65591050530b96d6dae9e230c
+source-git-commit: 7882b67578cd5b8792ce582ebab118c8993c9214
 workflow-type: tm+mt
-source-wordcount: '1752'
+source-wordcount: '1764'
 ht-degree: 0%
 
 ---
@@ -251,7 +251,7 @@ this is not possible right now; if this is the same functionality as the table v
 
 1. 按一下 **橫條樣式** 在左側面板中，指定您要在記錄列上顯示的欄位。
 
-   依預設，會選取「名稱」欄位。 <!--adjust this when the primary field is released??-->
+   預設會選取記錄的主要欄位（或標題），如記錄的表格檢視中所定義。 <!--adjust this when the primary field is released??-->
 
 1. （選擇性和條件性）如果您將縮圖新增至記錄，請選取「縮圖」選項，以顯示與其記錄列中的記錄相關聯的影像。
 

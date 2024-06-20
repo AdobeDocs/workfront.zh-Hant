@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: d86cf3f9-cacc-4457-acb3-a5122ae91be8
-source-git-commit: c593eab154a0942995b1f913e7189450913faac0
+source-git-commit: 7882b67578cd5b8792ce582ebab118c8993c9214
 workflow-type: tm+mt
-source-wordcount: '683'
+source-wordcount: '689'
 ht-degree: 1%
 
 ---
@@ -103,7 +103,7 @@ ht-degree: 1%
    * [連接記錄](/help/quicksilver/planning/records/connect-records.md)
 * 即使沒有與Workfront物件相關聯的記錄，您仍可以在Workfront物件中檢視Planning區段。
 * 當至少有一筆記錄連線至Workfront物件時，您可以在Planning區段中，將Planning記錄與Workfront的Workfront物件連線。
-* 您必須對工作區具有Contribute或更高的許可權，才能從Workfront物件連線記錄。
+* 您必須擁有工作區的管理許可權，才能從Workfront物件連線記錄。
 
 ## 管理Planning區段中的記錄
 
@@ -138,7 +138,7 @@ ht-degree: 1%
 
 1. 按一下記錄卡以顯示有關記錄的更多資訊。 記錄預覽方塊隨即顯示。
 1. （選用）開始修改記錄預覽方塊中的欄位。 您的變更會自動儲存。
-1. （可選）按一下 **在新標籤中開啟** 圖示 ![](assets/open-details-in-a-new-tab-icon.png) 在預覽方塊的右上角，開啟記錄的詳細資訊頁面。
+1. （可選）按一下 **在新標籤中開啟** 圖示 ![](assets/open-details-in-a-new-tab-icon.png) 在預覽方塊的右上角，開啟記錄的詳細資訊頁面。 記錄的詳細資訊頁面會在Workfront Planning中開啟。
 1. 暫留在記錄卡上，然後按一下中斷連線記錄圖示 **-**，然後按一下 **中斷連線**.
 會發生下列情況：
    * 記錄不再連線至Workfront物件。
@@ -148,7 +148,7 @@ ht-degree: 1%
 
    >[!NOTE]
    >
-   >   「連線」按鈕只會在您擁有Contribute許可權的工作區顯示。
+   >   「連線」按鈕只會在您擁有Contribute許可權的工作區顯示。 <!--they might replace this with one button at the top of the page. Rephrase-->
 
 1. 按一下您要連線的記錄。 會發生下列情況：
 
