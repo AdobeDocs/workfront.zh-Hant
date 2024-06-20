@@ -10,9 +10,9 @@ author: Becky
 feature: Workfront Fusion
 recommendations: noDisplay, noCatalog
 exl-id: 7075a649-ab0c-4dfc-b726-c5702c90b457
-source-git-commit: ec23659dc85b77c61ef5575e3605d0cf396c4e1a
+source-git-commit: a2c297c8803c3b6fc8fc4b2f29987772709c6492
 workflow-type: tm+mt
-source-wordcount: '223'
+source-wordcount: '229'
 ht-degree: 19%
 
 ---
@@ -32,6 +32,7 @@ ht-degree: 19%
 
 本節包含下列文章：
 
+
 * [[!DNL Adobe Workfront] 模組](../../workfront-fusion/apps-and-their-modules/workfront-modules.md)
 * [Adobe Workfront規劃模組](/help/quicksilver/workfront-fusion/apps-and-their-modules/workfront-planning-modules.md)
 * [[!DNL Workfront Proof] 模組](../../workfront-fusion/apps-and-their-modules/workfront-proof-modules.md)
@@ -41,6 +42,8 @@ ht-degree: 19%
 * [[!DNL Adobe Campaign Classic] 模組](../../workfront-fusion/apps-and-their-modules/adobe-campaign-classic-connector.md)
 * [[!DNL Adobe Creative Cloud Libraries] 模組](../../workfront-fusion/apps-and-their-modules/creative-cloud-libraries-modules.md)
 * [[!DNL Adobe Experience Manager Assets] 模組](../../workfront-fusion/apps-and-their-modules/aem-assets-modules.md)
+* [Adobe I/O事件模組](../../workfront-fusion/apps-and-their-modules/adobe-io-events-modules.md)
+* [[!DNL Adobe Journey Optimizer] 模組](../../workfront-fusion/apps-and-their-modules/adobe-journey-optimizer-modules.md)
 * [Adobe Lightroom模組](/help/quicksilver/workfront-fusion/apps-and-their-modules/adobe-lightroom-modules.md)
 * [Adobe規劃模組](/help/quicksilver/workfront-fusion/apps-and-their-modules/workfront-planning-modules.md)
 * [[!DNL Adobe PDF Services] 模組](../../workfront-fusion/apps-and-their-modules/pdf-modules.md)
