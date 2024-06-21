@@ -9,9 +9,9 @@ description: 在 [!DNL Adobe Workfront Fusion] 情境中，您可以使用自動
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: 1e131c27-571d-4099-9243-69572bdb3f5a
-source-git-commit: f1821568ea69d370dc5b2e4cbaaf6b0a72f9fe7f
+source-git-commit: 7013302a6ba903b410ed1fa8948a195083004eb9
 workflow-type: tm+mt
-source-wordcount: '1274'
+source-wordcount: '1301'
 ht-degree: 0%
 
 ---
@@ -242,7 +242,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL種子]</td> 
-   <td>輸入或對應整數。 您可以在其他展開影像模組中使用相同的種子，以產生具有不同樣式的類似影像。 </td> 
+   <td>針對模組將產生的每個影像，按一下 <b>新增專案<b> 並輸入或對應整數。 您可以在其他展開影像模組中使用相同的種子，以產生具有不同樣式的類似影像。 您新增的種子數必須等於「變化數」欄位。</td> 
   </tr> 
  </tbody> 
 </table>
