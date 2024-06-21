@@ -6,10 +6,10 @@ hide: true
 recommendations: noDisplay, noCatalog
 el-id: 698036a6-b3b4-44a9-91ee-63fdb6a646a1
 exl-id: 698036a6-b3b4-44a9-91ee-63fdb6a646a1
-source-git-commit: 3856e56036a9845387d7dc6498a6f20728c8234a
+source-git-commit: dc8e6f730ec88fc66c3486987e064b5f0760fb80
 workflow-type: tm+mt
-source-wordcount: '696'
-ht-degree: 6%
+source-wordcount: '663'
+ht-degree: 7%
 
 ---
 
@@ -41,20 +41,25 @@ ht-degree: 6%
 
 * 檢視
 
+  您必須授予使用者（包括系統管理員）存取檢視的許可權，而不授予其存取工作區的許可權。 如需詳細資訊，請參閱 [共用檢視](/help/quicksilver/planning/access/share-views.md).
+
+您可以與下列實體共用工作區或檢視：
+
+* 使用者
+* 群組
+
+<!--* You can share a view publicly, with people outside your organization when you generate a public link for a view.People accessing the record page from a public link can view all records and their fields, including connected records and fields.-->
+
 ## 在Adobe Workfront Planning中共用物件的相關考量事項
 
-* 您的Adobe Workfront授權型別可與Workfront Planning許可權搭配使用，讓您在使用Workfront Planning時能夠檢視、貢獻或管理物件。
+* 您的Adobe Workfront授權型別與Workfront Planning許可權搭配使用，可讓您檢視、貢獻或管理工作區及其物件。
 
   如需有關授權型別如何影響Workfront Planning許可權等級的資訊，請參閱 [使用Adobe Workfront Planning時的授權型別概觀](/help/quicksilver/planning/access/license-type-overview.md).
-* 系統管理員可以管理和共用其他使用者建立的工作區。
-* 如果您不是系統管理員，且其他人建立的工作區已共用給您，您就可以為其貢獻內容。
-* 您無法大量共用工作區或檢視。
-* 您可以與下列實體共用工作區或檢視：
-   * 使用者
-   * 群組
-     <!--* You can share a view publicly, with people outside your organization when you generate a public link for a view.People accessing the record page from a public link can view all records and their fields, including connected records and fields.-->
+* 系統管理員可以管理系統中的所有工作區，包括他們未建立的工作區。
 * 其他使用者（包括系統管理員）只能存取他們已建立或已與他們共用的檢視。 系統管理員只能獲得管理檢視的許可權。
-* 您可以與其他人共用工作區連結或從記錄型別頁面檢視連結。 收到連結的使用者必須是作用中使用者，並登入Workfront，才能存取所選檢視中顯示的工作區或記錄型別頁面。
+* 您可以與他人共用工作區的連結或檢視。
+
+  收到連結的使用者必須是作用中使用者，並登入Workfront，才能存取所選檢視中顯示的工作區或記錄型別頁面。
 
 ## 共用Adobe Workfront Planning物件的許可權
 
@@ -63,6 +68,8 @@ ht-degree: 6%
 >[!IMPORTANT]
 >
 >並非所有使用者都可擁有下述許可權層級。 使用者的個別授權會決定他們可以針對Workfront Planning物件接收的許可權層級。
+>
+>只有Standard （或Plan）授權使用者可以擁有Contribute或工作區的「管理」許可權。
 >
 >如需詳細資訊，請參閱 [使用Adobe Workfront Planning時的授權型別概觀](/help/quicksilver/planning/access/license-type-overview.md).
 
@@ -75,9 +82,6 @@ ht-degree: 6%
 * 記錄類型
 * 記錄
 * 欄位
-* 檢視*
-
-  *您可以允許對工作區具有「檢視」或更高許可權的所有使用者也存取工作區中的檢視。 這是您共用檢視時必須啟用的額外許可權。 如需詳細資訊，請參閱 [共用檢視](/help/quicksilver/planning/access/share-views.md).
 
 以下是工作區的許可權層級：
 

@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 215883a4-e882-438e-9c21-954c0b1d741b
-source-git-commit: c593eab154a0942995b1f913e7189450913faac0
+source-git-commit: f5430d81f1914a3717130de3af54b4b84e0e2d06
 workflow-type: tm+mt
 source-wordcount: '1170'
 ht-degree: 0%
@@ -30,38 +30,6 @@ ht-degree: 0%
 
 * **註解**：顯示使用者新增至記錄的評論和回覆。
 * **歷史記錄**：顯示使用者對記錄欄位進行的系統記錄變更。 如需詳細資訊，請參閱 [歷史記錄區段總覽](/help/quicksilver/planning/records/history-section-overview.md).
-
-## 在記錄上加上註解的考量事項
-
-* 您可以在Workfront Planning中，於記錄的「註解」區段中，新增註解及回覆至記錄。
-
-* 新增至連結記錄的註解不會顯示在您連結的記錄上。 例如，如果您對連結至促銷活動記錄的Workfront Planning產品記錄加上註解，該註解只會顯示在Workfront Planning的產品記錄上，而不會顯示在您連結的促銷活動記錄上。
-
-* 您可以將註解新增至由於記錄與其他應用程式物件之間的連線而建立的Workfront Planning記錄。
-
-  例如，將Workfront專案與Workfront Planning記錄連線後，您就可以對Workfront Planning專案記錄加上註解。 如需詳細資訊，請參閱 [連線記錄](/help/quicksilver/planning/records/connect-records.md).
-
-* 新增至其他應用程式中連結物件的註解不會顯示在Workfront Planning中，而新增至Workfront Planning中連結物件的註解不會顯示在其他應用程式中。
-
-  例如，在Workfront中新增至專案的評論不會顯示在連結至Workfront Planning中行銷活動的相同專案上，而新增至專案Workfront Planning記錄的評論不會顯示在Workfront中。
-
-* 您可以標籤使用者，以提醒他們注意更新。 標籤的使用者不會收到應用程式內通知或有關您更新的電子郵件。 <!--this might change??-->
-
-<!--replace the bullet above with this: * You can tag users to bring their attention to an update. Tagged users receive an in-app notification or an email notification about your update. 
-   The following scenario exists:   
-
-   * Adobe Unified Experience users receive both an in-app notification and an email notification. 
-   * Users who are not in the Adobe Unified Experience receive only an email notification. 
-
-      For information, see [Adobe Workfront Planning notifications: article index](/help/quicksilver/planning/notifications/notifications-information.md)
-   
-      To determine whether your company is using the Adobe Unified Experience, see [Adobe Unified Experience for Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
-      -->
-
-* 您可以新增更新至記錄，並從Workfront Planning的下列區域複查變更歷史記錄：
-
-   * 從記錄詳細資訊頁面。
-   * 從檢視，在記錄詳細資訊方塊中。
 
 ## 存取需求
 
@@ -117,6 +85,39 @@ ht-degree: 0%
   </tr>
  </tbody>
 </table>
+
+
+## 在記錄上加上註解的考量事項
+
+* 您可以在Workfront Planning中，於記錄的「註解」區段中，新增註解及回覆至記錄。
+
+* 新增至連結記錄的註解不會顯示在您連結的記錄上。 例如，如果您對連結至促銷活動記錄的Workfront Planning產品記錄加上註解，該註解只會顯示在Workfront Planning的產品記錄上，而不會顯示在您連結的促銷活動記錄上。
+
+* 您可以將註解新增至由於記錄與其他應用程式物件之間的連線而建立的Workfront Planning記錄。
+
+  例如，將Workfront專案與Workfront Planning記錄連線後，您就可以對Workfront Planning專案記錄加上註解。 如需詳細資訊，請參閱 [連線記錄](/help/quicksilver/planning/records/connect-records.md).
+
+* 新增至其他應用程式中連結物件的註解不會顯示在Workfront Planning中，而新增至Workfront Planning中連結物件的註解不會顯示在其他應用程式中。
+
+  例如，在Workfront中新增至專案的評論不會顯示在連結至Workfront Planning中行銷活動的相同專案上，而新增至專案Workfront Planning記錄的評論不會顯示在Workfront中。
+
+* 您可以標籤使用者，以提醒他們注意更新。 標籤的使用者不會收到應用程式內通知或有關您更新的電子郵件。 <!--this might change??-->
+
+<!--replace the bullet above with this: * You can tag users to bring their attention to an update. Tagged users receive an in-app notification or an email notification about your update. 
+   The following scenario exists:   
+
+   * Adobe Unified Experience users receive both an in-app notification and an email notification. 
+   * Users who are not in the Adobe Unified Experience receive only an email notification. 
+
+      For information, see [Adobe Workfront Planning notifications: article index](/help/quicksilver/planning/notifications/notifications-information.md)
+   
+      To determine whether your company is using the Adobe Unified Experience, see [Adobe Unified Experience for Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
+      -->
+
+* 您可以新增更新至記錄，並從Workfront Planning的下列區域複查變更歷史記錄：
+
+   * 從記錄詳細資訊頁面。
+   * 從檢視，在記錄詳細資訊方塊中。
 
 ### 管理記錄的評論
 

@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 7882b67578cd5b8792ce582ebab118c8993c9214
+source-git-commit: f5430d81f1914a3717130de3af54b4b84e0e2d06
 workflow-type: tm+mt
-source-wordcount: '7684'
+source-wordcount: '7781'
 ht-degree: 0%
 
 ---
@@ -156,6 +156,16 @@ For more information, see [Adobe Workfront Planning notifications: Article index
 此增強功能適用於從Workfront Planning連線的記錄以及從Adobe Experience Manager連線的資產。
 
 如需詳細資訊，請參閱 [連線記錄型別](/help/quicksilver/planning/architecture/connect-record-types.md).
+
+### 只有「標準」或「計畫」授權使用者可以擁有工作區的「管理」許可權（標題）
+
+生產： 2024年6月21日
+
+預覽：待定
+
+我們已變更哪些型別的使用者可以完整存取工作區。 現在，只有「標準」或「計畫」授權使用者可以擁有工作區的「管理」許可權。 記錄型別、記錄和欄位的存取權繼承自工作區。 所有其他使用者對工作區及其物件型別具有僅限檢視的存取權。 在此更新之前，輕度使用者和工作者授權使用者可以接收工作區的Contribute許可權。
+
+如需詳細資訊，請參閱 [使用Adobe Workfront Planning時的授權型別概觀](/help/quicksilver/planning/access/license-type-overview.md).
 
 ## 2024年6月10日起一週
 
@@ -366,7 +376,7 @@ UNIQUE運運算元適用於下列欄位型別以外的所有欄位型別：
 >
 >不會通知其他使用者欄位設定已變更。
 
-如需詳細資訊，請參閱 [編輯欄位](/help/quicksilver/planning/fields/edit-fields.md).
+如需詳細資訊，請參閱 [編輯欄位設定](/help/quicksilver/planning/fields/edit-fields.md).
 
 ## 2024年5月6日起一週
 

@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 3f7a3667-8a9f-462a-b706-cf15850a0d1c
-source-git-commit: c593eab154a0942995b1f913e7189450913faac0
+source-git-commit: f5430d81f1914a3717130de3af54b4b84e0e2d06
 workflow-type: tm+mt
-source-wordcount: '504'
+source-wordcount: '507'
 ht-degree: 2%
 
 ---
@@ -49,10 +49,11 @@ ht-degree: 2%
    </td>
   </tr>
   <tr>
-   <td role="rowheader"><p>Adobe Workfront授權</p>
+   <td role="rowheader"><p>Adobe Workfront授權*</p>
    </td>
    <td>
-   <p>任何</p> 
+   <p>新增：標準</p>
+   <p>目前：計畫</p> 
   </td>
   </tr>
 
