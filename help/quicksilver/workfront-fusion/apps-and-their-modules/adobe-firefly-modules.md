@@ -8,9 +8,10 @@ title: Adobe Firefly模組
 description: 在 [!DNL Adobe Workfront Fusion] 情境中，您可以使用自動化工作流程 [!DNL Adobe Firefly]，並連結至多個協力廠商應用程式和服務。
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
-source-git-commit: c932f869de9ff842a7bbb809bc60ec1d53350b51
+exl-id: 1e131c27-571d-4099-9243-69572bdb3f5a
+source-git-commit: f1821568ea69d370dc5b2e4cbaaf6b0a72f9fe7f
 workflow-type: tm+mt
-source-wordcount: '1215'
+source-wordcount: '1274'
 ht-degree: 0%
 
 ---
@@ -177,6 +178,10 @@ ht-degree: 0%
    <td>針對您要展開影像的內容輸入或對應提示。 如果未提供提示，影像將會展開並包含符合原始影像的內容。</td> 
   </tr> 
   <tr> 
+   <td role="rowheader">[！UICONTROL變化數]</td> 
+   <td>輸入介於1-4之間的數字。 模組會產生此數量的展開影像變數。</td> 
+  </tr> 
+  <tr> 
    <td role="rowheader">[！UICONTROL展開影像格式]</td> 
    <td>選取將儲存展開影像的檔案格式。</td> 
   </tr> 
@@ -212,6 +217,10 @@ ht-degree: 0%
   <tr> 
    <td role="rowheader">[！UICONTROL提示]</td> 
    <td>針對您要填滿影像的內容，輸入或對應提示。 如果未提供提示，則會以符合原始影像的內容來填滿影像。</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[！UICONTROL變化數]</td> 
+   <td>輸入介於1-4之間的數字。 模組會產生此數量的填入影像變數。</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL填色影像格式]</td> 
@@ -253,6 +262,10 @@ ht-degree: 0%
   <tr> 
    <td role="rowheader">[！UICONTROL提示]</td> 
    <td>輸入或對應您要建立之影像的提示。 提示中更詳細的內容可讓您更能控制影像中顯示的內容。</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[！UICONTROL變化數]</td> 
+   <td>輸入介於1-4之間的數字。 模組會產生此數量的影像變數。</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL產生的影像格式]</td> 
@@ -297,5 +310,3 @@ ht-degree: 0%
   </tr> 
  </tbody> 
 </table>
-
-
