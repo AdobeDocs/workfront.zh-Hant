@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: d8c27915-8e1b-4804-9ef8-3a2efd57caac
-source-git-commit: fffe92bc21104e297bc9dfcbc399c34b011e3927
+source-git-commit: 0479d6e2e2781acf8bb1dfbb8b70768516769d3f
 workflow-type: tm+mt
-source-wordcount: '4386'
+source-wordcount: '4384'
 ht-degree: 0%
 
 ---
@@ -363,7 +363,7 @@ OR陳述式只會傳回API呼叫中符合OR陳述式篩選條件的記錄。 OR�
 #### 使用具名查詢
 
 某些物件型別已命名搜尋，通常會執行，而且可將查詢名稱附加至物件型別URI的結尾來使用。 例如，以下請求會擷取使用者目前被指派的工作專案（任務和問題）：
-<pre>/attask/api/v15.0/work/myWork</pre>具名查詢支援請求欄位引數以擷取其他欄位。 某些具名查詢也接受其他篩選器。 如需物件中允許的命名查詢清單，請參閱[API總管](../../wf-api/general/api-explorer.md)中物件的「動作」標籤。
+<pre>/attask/api/v15.0/work/myWork</pre>具名查詢支援請求欄位引數以擷取其他欄位。 某些具名查詢也接受其他篩選器。 如需物件中允許的命名查詢清單，請參閱[API總管](https://developer.adobe.com/workfront/api-explorer/)中物件的「動作」標籤。
 
 #### 使用 `Count`
 
@@ -373,7 +373,7 @@ OR陳述式只會傳回API呼叫中符合OR陳述式篩選條件的記錄。 OR�
 
 ### 請求報告
 
-您可以執行報表請求，其中一個或多個分組只需要某些欄位的彙總。 如以下範例所示，報表語法與SOAP API的語法相同：
+您可以執行報表請求，其中一個或多個分組只需要某些欄位的彙總。 如下列範例所示，報表語法與SOAP API的語法相同：
 <pre>GET/attask/api/v15.0/hour/report？project：name_1_GroupBy=true&amp;hours_AggFunc=sum</pre>會傳回下列結果
 <pre>{<br>    「第一個專案」： { <br>        "sum_hours"：15個 <br>    }， <br>     「第二個專案」： { <br>        "sum_hours"：30 <br>    } <br>}</pre>新增$$ROLLUP=true引數會在每個群組層級包含總計：
 <pre>{<br>    「第一個專案」： { <br>        "sum_hours"：15個 <br>    }， <br>    「第二個專案」： { <br>        "sum_hours"：30 <br>    }， <br>    "$$ROLLUP"： { <br>        "sum_hours"：45 <br>    } <br>}</pre>
