@@ -7,9 +7,9 @@ author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 23d1e241-ea5b-43f5-b097-8d96e13cb267
-source-git-commit: f8cf09b085ad319955afd2b4f8b35b59bcd7d277
+source-git-commit: 9768756ac444bfe5fc21f20c3431c9cb1235a5f4
 workflow-type: tm+mt
-source-wordcount: '992'
+source-wordcount: '978'
 ht-degree: 1%
 
 ---
@@ -20,9 +20,10 @@ ht-degree: 1%
 
 您將在這裡找到有關最新Beta版的資訊，以及入門的簡短影片逐步解說。
 
->[!NOTE]
+>[!IMPORTANT]
 >
->若要參與此Beta版，您必須由產品團隊啟用。 請聯絡您的客戶成功案例或客戶經理，要求新增專案。
+>此Beta版現已關閉，我們不會再接受新的參與者。
+
 
 ## 2024年5月： Workfront中的Beta版更新
 
