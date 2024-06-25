@@ -4,13 +4,14 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 keywords: 聯結器
 navigation-topic: apps-and-their-modules
-title: 「Adobe I/O事件模組」
-description: 「使用Adobe I/O事件模組，您可以根據Adobe應用程式中的事件啟動Adobe Workfront Fusion案例。」
+title: Adobe I/O事件模組
+description: 使用Adobe I/O事件模組，您可以根據Adobe應用程式中的事件啟動Adobe Workfront Fusion案例。
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
-source-git-commit: 508f21b6860f13a9cf2a5b19713ed70aaba638c3
+exl-id: 18ad8098-9742-44d2-97cd-b0c2b5591538
+source-git-commit: db322faeb53a0ae4a061076d457f3c10c31ec33c
 workflow-type: tm+mt
-source-wordcount: '897'
+source-wordcount: '912'
 ht-degree: 1%
 
 ---
@@ -113,7 +114,7 @@ ht-degree: 1%
       </tr>
       <tr>
         <td role="rowheader">工作區ID</td>
-        <td>輸入您的工作區ID。 </td>
+        <td>若要檢視您專案的工作區ID，請從Adobe Developer Console的專案概觀頁面下載專案詳細資訊。 </td>
       </tr>
     </tbody>
     </table>
@@ -341,4 +342,3 @@ This trigger module starts a scenario when an event occurs in the chosen Adobe p
 </table>
 
 -->
-
