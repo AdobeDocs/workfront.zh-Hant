@@ -4,14 +4,14 @@ content-type: reference
 product-area: system-administration;workfront-integrations
 navigation-topic: adobe-admin-console
 title: 瞭解Workfront移轉至Adobe Admin Console
-description: 瞭解Workfront產品和使用者移轉至Adobe Admin Console
+description: 本文會一般性地說明將組織移至Adobe Admin Console的程式，好讓身為Workfront管理員的您知道將會發生什麼事。
 author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 54d855e6-c387-458c-9cd3-f32318c8ae02
-source-git-commit: 0a638b143d2de4b8ff2948e701ee90acbd1ab857
+source-git-commit: 633c41eeb570402254125f92f3624cad7befd609
 workflow-type: tm+mt
-source-wordcount: '1067'
+source-wordcount: '1114'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,8 @@ ht-degree: 0%
 # 瞭解Workfront移轉至Adobe Admin Console
 
 Adobe正在改變您管理Adobe Workfront使用者的方式，為您和您的組織帶來更高的生產力。 作為此變更的一部分，Adobe正在將您的Workfront執行個體和使用者移轉至Adobe Admin Console。 這是必要的移轉，不會影響任何報告、核准路徑、內容或資產。 它會影響您管理使用者存取許可權的方式以及使用者登入的方式。
+
+本文會一般性地說明將組織移至Adobe Admin Console的程式，好讓身為Workfront管理員的您知道將會發生什麼事。
 
 若要瞭解如何使用Adobe Admin Console來管理整個組織的Adobe權益，請參閱 [在Adobe Admin Console中管理使用者](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/admin-console.md).
 

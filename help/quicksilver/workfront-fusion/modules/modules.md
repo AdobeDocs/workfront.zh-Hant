@@ -9,9 +9,9 @@ author: Becky
 feature: Workfront Fusion
 recommendations: noDisplay, noCatalog
 exl-id: b50b918c-7c74-442c-a91a-3f313d40d00b
-source-git-commit: c4e5aea70a8013643d3d9ce1c588ff560d2c3afd
+source-git-commit: 633c41eeb570402254125f92f3624cad7befd609
 workflow-type: tm+mt
-source-wordcount: '61'
+source-wordcount: '65'
 ht-degree: 0%
 
 ---
@@ -23,6 +23,7 @@ ht-degree: 0%
 * [模組型別](../../workfront-fusion/modules/module-types.md)
 * [在中設定模組的設定 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/configure-a-modules-settings.md)
 * [選擇觸發程式模組開始的位置 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/choose-where-trigger-module-starts.md)
+* [中的即時觸發器(webhook) [!DNL Adobe Workfront Fusion]](/help/quicksilver/workfront-fusion/webhooks/instant-triggers-webhooks.md)
 * [資料儲存位置 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/data-stores.md)
 * [中的資料結構 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/data-structures.md)
 * [中的彙總模組 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/aggregator-module.md)
