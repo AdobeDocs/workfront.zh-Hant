@@ -4,11 +4,11 @@ product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
 title: 在自訂表單中使用舊版表單產生器來定位自訂欄位和Widget
 description: 您可以在自訂表單中重新定位自訂欄位和Widget。
-author: Caroline
+author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: f96425e3-8e20-43ac-8340-915538ae5886
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+source-git-commit: d32f274390f6ffc5fdd01c2c9b4b2abd99d7cb10
 workflow-type: tm+mt
 source-wordcount: '449'
 ht-degree: 0%
@@ -16,6 +16,8 @@ ht-degree: 0%
 ---
 
 # 在自訂表單中使用舊版表單產生器來定位自訂欄位和Widget
+
+{{form-designer-default}}
 
 您可以在自訂表單中重新定位自訂欄位和Widget。
 

@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 44a52767-60a7-4aaa-b3b8-6b8fb7da7e72
-source-git-commit: 5cb07cb42c3264c6629bc0a038c0e70ffc2cb509
+source-git-commit: 6b2a2160b5daaa94374707bad4b026daa13edf06
 workflow-type: tm+mt
 source-wordcount: '1249'
 ht-degree: 0%
@@ -16,6 +16,8 @@ ht-degree: 0%
 ---
 
 # 使用舊版表單產生器將分割槽符號新增至自訂表單
+
+{{form-designer-default}}
 
 您可以將自訂表單中的自訂欄位和Widget分組到具有標題的區段中。 這對於向將填寫表單的使用者展示有組織體驗非常有用。 此外，如果您需要限制特定使用者對特定自訂欄位和Widget的存取權，您可以將它們放置在區段中，然後僅授予這些使用者對區段的存取權。
 

@@ -1,23 +1,25 @@
 ---
 title: 使用舊版表單產生器，在自訂表單中新增或編輯影像或其他資產Widget
 description: 您可以新增或編輯以下任何資產Widget的屬性，例如自訂表單中的影像、影片、PDF檔案和Adobe XD檔案。 若您需要納入品牌化影像、教學影片，或您設計之應用程式的互動式原型等視覺內容，這個選項相當實用。
-author: Caroline
+author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 62a2f9a1-80de-40e7-9d8b-46ed9df083c1
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+source-git-commit: d32f274390f6ffc5fdd01c2c9b4b2abd99d7cb10
 workflow-type: tm+mt
-source-wordcount: '1344'
+source-wordcount: '1345'
 ht-degree: 1%
 
 ---
 
 # 使用舊版表單產生器，在自訂表單中新增或編輯影像或其他資產Widget
 
+{{form-designer-default}}
+
 您可以在自訂表單中新增或編輯以下任何資產Widget的屬性：
 
 * 影像
-* 視訊
+* 影片
 * PDF檔案
 * Adobe XD檔案
 
@@ -86,7 +88,7 @@ ht-degree: 1%
       <td> <p>（必要）輸入要顯示在Widget上方的描述性標籤。 您可以隨時變更標籤。</p> <p><b>重要</b>：請避免在此標籤中使用特殊字元。 它們在報表中無法正確顯示。</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">名稱</td> 
+      <td role="rowheader">姓名</td> 
       <td> <p>（必要）此名稱是系統識別Widget的方式。</p> <p>當您第一次設定Widget且輸入標籤時，「名稱」欄位會自動填入以和相符。 但是「標籤」和「名稱」欄位不同步，這可讓您自由地變更使用者看到的標籤，而不必變更系統看到的名稱。</p> <p><b>重要</b>：雖然可以這樣做，但建議您不要在您或其他使用者開始在Widget中使用自訂表單後變更此名稱。 如果這樣做，系統將無法再辨識Widget，而此時它可能會在Workfront的其他區域中被參照。 </p> <p>每個Widget名稱在貴組織的Workfront例項中必須是唯一的。 如此一來，您便可重複使用已針對其他自訂表單建立的表單。 </p> </td> 
      </tr> 
      <tr> 
@@ -141,7 +143,7 @@ ht-degree: 1%
       <td> <p>（必要）輸入要顯示在Widget上方的描述性標籤。 您可以隨時變更標籤。</p> <p><b>重要</b>：請避免在此標籤中使用特殊字元。 它們在報表中無法正確顯示。</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">名稱</td> 
+      <td role="rowheader">姓名</td> 
       <td> <p>（必要）此名稱是系統識別Widget的方式。</p> <p>當您第一次設定Widget且輸入標籤時，「名稱」欄位會自動填入以和相符。 但是「標籤」和「名稱」欄位不同步，這可讓您自由地變更使用者看到的標籤，而不必變更系統看到的名稱。</p> <p><b>重要</b>：雖然可以這樣做，但建議您不要在您或其他使用者開始在Widget中使用自訂表單後變更此名稱。 如果這樣做，系統將無法再辨識Widget，而此時它可能會在Workfront的其他區域中被參照。 </p> <p>每個Widget名稱在貴組織的Workfront例項中必須是唯一的。 如此一來，您便可重複使用已針對其他自訂表單建立的表單。 </p> </td> 
      </tr> 
      <tr> 

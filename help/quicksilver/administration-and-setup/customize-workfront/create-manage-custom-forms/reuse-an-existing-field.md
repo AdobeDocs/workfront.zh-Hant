@@ -4,18 +4,20 @@ product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
 title: 透過舊版表單產生器，在自訂表單中重複使用自訂欄位或資產Widget
 description: 當您建立或編輯自訂表單時，可以新增已新增至其他自訂表單的自訂欄位或Widget。
-author: Caroline
+author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 2c617909-48cb-4ee1-b0e8-002f2e57b0f0
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+source-git-commit: d32f274390f6ffc5fdd01c2c9b4b2abd99d7cb10
 workflow-type: tm+mt
-source-wordcount: '436'
+source-wordcount: '438'
 ht-degree: 0%
 
 ---
 
 # 透過舊版表單產生器，在自訂表單中重複使用自訂欄位或資產Widget
+
+{{form-designer-default}}
 
 當您建立或編輯自訂表單時，可以新增已新增至其他自訂表單的自訂欄位或資產Widget。
 

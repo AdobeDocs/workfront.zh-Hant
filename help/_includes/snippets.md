@@ -1,7 +1,7 @@
 ---
-source-git-commit: 8bfada77ac7b1b2a8d8fb2feec8a8167a1397cdc
+source-git-commit: 400b10e2803e7a74e70ccd0a33e55ca7075fdfed
 workflow-type: tm+mt
-source-wordcount: '2411'
+source-wordcount: '2502'
 ht-degree: 1%
 
 ---
@@ -61,6 +61,15 @@ ht-degree: 1%
 
 1. 按一下 **[!UICONTROL 主要功能表]** 圖示 ![主要功能表](/help/_includes/assets/main-menu-icon.png) 在Adobe Workfront的右上角，或（如果有的話）按一下 **[!UICONTROL 主要功能表]** 圖示 ![主要功能表](/help/_includes/assets/main-menu-icon-left-nav.png) 然後按一下「 」 **[!UICONTROL 設定]** ![「設定」圖示](/help/_includes/assets/gear-icon-setup.png).
 
+## 表單設計工具轉換為GA {#form-designer-default}
+
+>[!IMPORTANT]
+>
+>在24.7版中，表單設計人員將可正式使用，並成為在Adobe Workfront中建立和編輯自訂表單的預設體驗。 舊版表單產生器將不再可用。 建議您立即切換為表單設計工具，並充分利用其功能。
+>
+>如需詳細資訊，請參閱 [使用表單設計工具設計表單](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+>
+>舊版表單產生器已於2024年6月19日從預覽環境中移除，並將於7月透過24.7版本從生產環境中移除。
 
 ## 將右側群組與團隊建立關聯 {#right-group-team}
 

@@ -4,11 +4,11 @@ product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
 title: 使用舊版表單產生器重複使用自訂表單中現有的計算自訂欄位
 description: 您可以在屬於不同物件的自訂表單上使用相同的計算自訂欄位。 例如，您可以使用您在任務自訂表單上為專案自訂表單建立的利潤計算欄位。
-author: Caroline
+author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 24482fca-94e4-406d-9d62-3db9f51481e6
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+source-git-commit: d32f274390f6ffc5fdd01c2c9b4b2abd99d7cb10
 workflow-type: tm+mt
 source-wordcount: '289'
 ht-degree: 0%
@@ -16,6 +16,8 @@ ht-degree: 0%
 ---
 
 # 使用舊版表單產生器重複使用自訂表單中現有的計算自訂欄位
+
+{{form-designer-default}}
 
 您可以在屬於不同物件的自訂表單上使用相同的計算自訂欄位。 例如，您可以使用您在任務自訂表單上為專案自訂表單建立的利潤計算欄位。
 

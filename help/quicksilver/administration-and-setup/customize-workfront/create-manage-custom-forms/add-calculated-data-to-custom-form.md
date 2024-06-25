@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 9174c4ef-3beb-4d47-9c5c-363f52105a2c
-source-git-commit: 84c5772d130be78d9f9b9aef342c57183d5ec985
+source-git-commit: 6b2a2160b5daaa94374707bad4b026daa13edf06
 workflow-type: tm+mt
 source-wordcount: '2911'
 ht-degree: 0%
@@ -18,6 +18,8 @@ ht-degree: 0%
 # 使用舊版表單產生器將計算資料新增至自訂表單
 
 <!--Audited: 01/2024-->
+
+{{form-designer-default}}
 
 在自訂表單中，您可以新增計算自訂欄位，以在自訂表單附加至物件時，使用現有資料產生新資料。
 
