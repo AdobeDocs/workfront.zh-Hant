@@ -6,16 +6,14 @@ description: 您可以在Adobe Workfront中請求其他使用者的檔案核准�
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: a02699e1-3557-47f0-89b7-dbecb507a174
-source-git-commit: e8116a6778d5952ba583cfdfb94b761757adc030
+source-git-commit: 6daf68aee442b3322d186e649e7797cc2e911145
 workflow-type: tm+mt
-source-wordcount: '500'
+source-wordcount: '478'
 ht-degree: 0%
 
 ---
 
 # 建立檔案稽核或核准請求
-
-<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它僅在預覽Sandbox環境中可用。</span>
 
 您可以在Adobe Workfront中請求其他使用者或團隊核准檔案，或請求他們稽核檔案而無需核准。
 
@@ -62,7 +60,7 @@ ht-degree: 0%
 
 1. 按一下 **核准** 在左窗格中。
 
-1. <span class="preview">（選用）設定核准的截止日期。 若在指定期限前72小時通知使用者和團隊。</span>
+1. （選用）設定核准的截止日期。 若在指定期限前72小時通知使用者和團隊。
 
 1. 若要新增核准者，請按一下 **核准者** 並開始輸入使用者或團隊名稱。
 
@@ -84,7 +82,7 @@ ht-degree: 0%
 
 ![](assets/doc-summary-add-approvers.png)
 
-1. <span class="preview">（選用）設定核准的截止日期。 若在指定期限前72小時通知使用者和團隊。</span>
+1. （選用）設定核准的截止日期。 若在指定期限前72小時通知使用者和團隊。
 
 1. 若要新增核准者，請按一下 **核准者** 並開始輸入使用者或團隊名稱。
 
