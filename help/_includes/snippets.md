@@ -1,7 +1,7 @@
 ---
-source-git-commit: 400b10e2803e7a74e70ccd0a33e55ca7075fdfed
+source-git-commit: 9960d5a100e710afefed3036958a3435528cafa3
 workflow-type: tm+mt
-source-wordcount: '2502'
+source-wordcount: '2510'
 ht-degree: 1%
 
 ---
@@ -65,7 +65,7 @@ ht-degree: 1%
 
 >[!IMPORTANT]
 >
->在24.7版中，表單設計人員將可正式使用，並成為在Adobe Workfront中建立和編輯自訂表單的預設體驗。 舊版表單產生器將不再可用。 建議您立即切換為表單設計工具，並充分利用其功能。
+>在即將推出的7月15日當週版本（24.7版）中，表單設計工具將可正式使用，並將成為在Adobe Workfront中建立和編輯自訂表單的預設體驗。 舊版表單產生器將不再可用。 建議您立即切換為表單設計工具，並充分利用其功能。
 >
 >如需詳細資訊，請參閱 [使用表單設計工具設計表單](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 >
