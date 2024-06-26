@@ -5,7 +5,7 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 372aa2c2-5deb-49da-aadc-6e870bbd083a
-source-git-commit: d75b99987bec596c44454d77073e332441f4ed29
+source-git-commit: 42db442966cff841774f894b6538f997de39adfb
 workflow-type: tm+mt
 source-wordcount: '1440'
 ht-degree: 0%
@@ -303,7 +303,7 @@ ht-degree: 0%
                     <td><p><b>將於下列日期提供：</b></p>
                         <ul>
                             <li>
-                                <p>預覽版本： 2024年6月11日</p>
+                                <p>預覽版本： 2024年6月20日</p>
                             </li>
                             <li>
                                 <p>特定客戶專用生產：24.7版（2024年7月）</p>
@@ -377,9 +377,9 @@ Workfront Fusion中的新功能可在2024年第三季度發行排程之外的步
 
 此版本中目前沒有Scenario Planner更新。 在有更新可用時，此區域將會更新。
 
-### Workfront校訂增強功能
+### Workfront Proof增強功能
 
-此版本目前沒有Workfront校訂更新。 在有更新可用時，此區域將會更新。
+此版本目前沒有Workfront Proof更新。 在有更新可用時，此區域將會更新。
 
 ### Workfront目標增強功能
 
