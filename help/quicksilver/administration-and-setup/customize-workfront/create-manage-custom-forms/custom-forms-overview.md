@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: b04ed2e8-c60e-4978-8a9d-b9e087987ef4
-source-git-commit: d32f274390f6ffc5fdd01c2c9b4b2abd99d7cb10
+source-git-commit: 286a5b40baced3bfd3e06a2b3f1c143839808018
 workflow-type: tm+mt
-source-wordcount: '357'
+source-wordcount: '355'
 ht-degree: 7%
 
 ---
@@ -80,6 +80,6 @@ Workfront為每種物件型別提供許多內建欄位。
 
 如需將自訂表單附加到物件的詳細資訊，請參閱 [新增自訂表單至物件](../../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md).
 
-如需將問題轉換為專案時自訂表單會發生什麼情況的資訊，請參閱 [將問題轉換為專案](/help/quicksilver/manage-work/issues/convert-issues/convert-issue-to-project.md).
+如需有關轉換物件時自訂表單所發生情況的資訊，請參閱 [轉換物件時傳輸自訂表單資料](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/transfer-custom-form-data-larger-item.md).
 
 
