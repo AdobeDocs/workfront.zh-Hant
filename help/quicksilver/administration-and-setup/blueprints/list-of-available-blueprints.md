@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: a5cdcb89-71c0-43f0-a5cf-dc99fac542ba
-source-git-commit: 2b2424a26ba903cda8f03c468da733732bf6d434
+source-git-commit: 93c50eb6ad2e9693cd9fd104efed2763e07cd418
 workflow-type: tm+mt
-source-wordcount: '1944'
+source-wordcount: '2019'
 ht-degree: 0%
 
 ---
@@ -83,7 +83,11 @@ ht-degree: 0%
 
 此Blueprint包含單一控制面板和13個報表，可協助您尋找、重新指派或管理與離開Workfront的使用者相關聯的物件與指派。 您也可以將這些報告用於移動至新角色或群組的使用者，以重新指派其工作。
 
-**[!UICONTROL 實施後：新使用案例推出]**
+[!BADGE 新增]{type=negative}**People Manager控制面板**
+
+此藍圖包含包含12個報表的單一控制面板，讓人員管理員可檢視其直接下屬的工作。
+
+**[!UICONTROL Post — 實作：新使用案例轉出]**
 此Blueprint包含單一範本，可組織 [!DNL Workfront] 客戶在初次實作後，需要完成以管理擴充至後續程式。
 
 **[!UICONTROL 列印資產生產] （整合）**
@@ -133,6 +137,10 @@ ht-degree: 0%
 **價值實現 | 提供使用者端服務控制面板**
 
 此藍圖包含單一儀表板和8份報表，可協助您實現Workfront的優點。 這些報告的設計目的，是要協助您將面向客戶的服務轉換為可衡量的價值，以便您隨著時間推移追蹤這些價值，進而創造更好的成果。
+
+[!BADGE 新增]{type=negative}**價值實現 | 控管合規性工作流程儀表板**
+
+此Blueprint包含單一控制面板和7個報表，可協助您實現Workfront的價值。 這些省時的報表可協助追蹤並控管工作流程和法規遵循需求，日常使用或高度受規管的行業可隨時間推移推動責任制並改善成果。
 
 **價值實現 | 檢閱和核准儀表板**
 
