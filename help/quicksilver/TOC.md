@@ -3,9 +3,9 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文件、教學課程和其他資源，了解如何在您的組織中實施並有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: 6ae31d24aaea1d5e94301ec5fd0f840ef45927ca
+source-git-commit: c4ee5b01750d28b2715c35594123ebe8619c2508
 workflow-type: tm+mt
-source-wordcount: '14373'
+source-wordcount: '14367'
 ht-degree: 1%
 
 ---
@@ -267,14 +267,14 @@ ht-degree: 1%
             * [Adobe Workfront Goals 21.1發行活動：2020年11月16日當週](product-announcements/product-releases/goals-release-activity/goals-21.1-release/goals-nov-16.md)
          * [第20.4發行版本中的Workfront目標](product-announcements/product-releases/goals-release-activity/goals-release-20-4.md)
          * [Workfront 20.3版本目標 — 2020年8月14日](product-announcements/product-releases/goals-release-activity/goals-release-20-3.md)
-      * Workfront校訂發行活動 {#proof-release}
+      * Workfront Proof發行活動 {#proof-release}
          * 第23.3發行版本校訂 {#proof-23-3-release}
             * [23.3版的Adobe Workfront校訂](/help/quicksilver/product-announcements/product-releases/workfront-proof-release-activity/proof-23-3-release/proof-23-3-overview.md)
             * [Adobe Workfront Proof 23.3發行活動： 2023年7月17日起一週](/help/quicksilver/product-announcements/product-releases/workfront-proof-release-activity/proof-23-3-release/proof-23-3-jul-17.md)
             * [Adobe Workfront Proof 23.3發行活動： 2023年6月5日當週](/help/quicksilver/product-announcements/product-releases/workfront-proof-release-activity/proof-23-3-release/proof-23-3-jun-5.md)
             * [Adobe Workfront Proof 23.3發行活動： 2023年5月8日當週](/help/quicksilver/product-announcements/product-releases/workfront-proof-release-activity/proof-23-3-release/proof-23-3-may-8.md)
-         * [Workfront校訂發行活動： 2021年5月17日當週](product-announcements/product-releases/workfront-proof-release-activity/wp-release-may-17.md)
-         * [Workfront校訂發行活動： 2021年11月29日當週](product-announcements/product-releases/workfront-proof-release-activity/wp-release-22-1.md)
+         * [Workfront Proof發行活動： 2021年5月17日起一週](product-announcements/product-releases/workfront-proof-release-activity/wp-release-may-17.md)
+         * [Workfront Proof發行活動： 2021年11月29日當週](product-announcements/product-releases/workfront-proof-release-activity/wp-release-22-1.md)
       * 每季發行封存 {#quarterly-release}
          * [每季發行封存](product-announcements/product-releases/quarterly-release-archive/quarterly-release-archive.md)
          * 第20.4發行版本 {#release-20-4}
@@ -346,7 +346,7 @@ ht-degree: 1%
             * [2018.3 Beta 3發行活動](product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-beta-3-release-activity.md)
             * [2018.3 Beta 4發行活動](product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-beta-4-release-activity.md)
             * [2018.3 Beta 5發行活動](product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-beta-5-release-activity.md)
-            * [2018.3 Beta最終版](product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-beta-final.md)
+            * [2018.3 Beta決賽](product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-beta-final.md)
          * 2018.2版本 {#release-18-2}
             * [2018.2版本活動](product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-release-activity.md)
             * [2018.2版本活動概覽](product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-release-activity-overview.md)
@@ -379,7 +379,7 @@ ht-degree: 1%
             * [2017.2 Beta 1發行活動](product-announcements/product-releases/quarterly-release-archive/2017.2-release-activity/2017-2-beta-1-release-activity.md)
             * [2017.2 Beta 2發行活動](product-announcements/product-releases/quarterly-release-archive/2017.2-release-activity/2017-2-beta-2-release-activity.md)
             * [2017.2 Beta 3發行活動](product-announcements/product-releases/quarterly-release-archive/2017.2-release-activity/2017-2-beta-3-release-activity.md)
-            * [2017.2 Beta最終版](product-announcements/product-releases/quarterly-release-archive/2017.2-release-activity/2017-2-beta-final.md)
+            * [2017.2 Beta決賽](product-announcements/product-releases/quarterly-release-archive/2017.2-release-activity/2017-2-beta-final.md)
             * [2017.2版本網路研討會](product-announcements/product-releases/quarterly-release-archive/2017.2-release-activity/2017-2-release-webinars.md)
          * Workfront R1版本 {#r1-release}
             * [Workfront R1版本](product-announcements/product-releases/quarterly-release-archive/r1-release-activity/workfront-r1-release.md)
@@ -409,8 +409,8 @@ ht-degree: 1%
          * [電子郵件詐騙和POP回覆移除](product-announcements/announcements/announcement-archive/email-spoofing-pop-reply-message.md)
          * [叢集1、2和3的客戶必須更新任何允許清單IP區塊，以防止封鎖Adobe Workfront服務](product-announcements/announcements/announcement-archive/clusters-1-3-update-whitelist.md)
          * [移除作為外寄電子郵件選項的自訂SMTP](product-announcements/announcements/announcement-archive/remove-custom-smtp.md)
-   * 測試版計畫 {#beta}
-      * [測試版計畫](product-announcements/betas/betas.md)
+   * Beta計畫 {#beta}
+      * [Beta計畫](product-announcements/betas/betas.md)
       * Canvas控制面板Beta版 {#canvas-dashboards-beta}
          * [Canvas控制面板Beta版資訊](product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md)
          * [報告畫布Beta版概覽](product-announcements/betas/canvas-dashboards-beta/reporting-canvas-beta-overview.md)
@@ -667,7 +667,7 @@ ht-degree: 1%
       * 設定校訂功能 {#configure-proofing}
          * [設定校樣](administration-and-setup/manage-workfront/configure-proofing/configuring-proofing-functionality.md)
          * [校樣設定](administration-and-setup/manage-workfront/configure-proofing/configure-proofing-organization.md)
-         * [Workfront和Workfront Proof之間的使用者同步](administration-and-setup/manage-workfront/configure-proofing/user-sync-proofing.md)
+         * [Workfront與Workfront Proof之間的使用者同步](administration-and-setup/manage-workfront/configure-proofing/user-sync-proofing.md)
          * [存取校訂](administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md)
          * [案頭校訂檢視器](administration-and-setup/manage-workfront/configure-proofing/install-desktop-proofing-viewer-org.md)
          * [校訂角色](administration-and-setup/manage-workfront/configure-proofing/configure-default-proofing-roles.md)
@@ -982,7 +982,7 @@ ht-degree: 1%
       * 使用Adobe Workfront行動應用程式 {#use-workfront-mobile-app}
          * [使用Adobe Workfront行動應用程式](workfront-basics/mobile-apps/using-the-workfront-mobile-app/use-the-mobile-app.md)
          * [適用於Android的Adobe Workfront](workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-android.md)
-         * [成為Android測試者](workfront-basics/mobile-apps/using-the-workfront-mobile-app/android-beta-tester.md)
+         * [成為Android Beta測試者](workfront-basics/mobile-apps/using-the-workfront-mobile-app/android-beta-tester.md)
          * [適用於iOS的Adobe Workfront](workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-ios.md)
          * [成為iOS Beta測試者](workfront-basics/mobile-apps/using-the-workfront-mobile-app/ios-beta-tester.md)
          * [首頁區域Widget](workfront-basics/mobile-apps/using-the-workfront-mobile-app/home-area-widgets-mobile.md)
@@ -990,11 +990,10 @@ ht-degree: 1%
          * [適用於行動裝置的Adobe Workfront展示板](/help/quicksilver/workfront-basics/mobile-apps/using-the-workfront-mobile-app/mobile-boards.md)
          * [在Adobe Workfront行動應用程式中檢閱校訂並作出決定](workfront-basics/mobile-apps/using-the-workfront-mobile-app/work-with-proofs-in-mobile-app.md)
          * [在Adobe Workfront行動應用程式中共用和下載校樣](workfront-basics/mobile-apps/using-the-workfront-mobile-app/share-proofs-mobile.md)
-         * [在Android中註解校訂](workfront-basics/mobile-apps/using-the-workfront-mobile-app/comment-on-proofs-android.md)
+         * [評論Android中的校樣](workfront-basics/mobile-apps/using-the-workfront-mobile-app/comment-on-proofs-android.md)
          * [評論iOS中的校樣](workfront-basics/mobile-apps/using-the-workfront-mobile-app/comment-on-proofs-ios.md)
          * [適用於行動裝置管理(MDM)的Adobe Workfront](workfront-basics/mobile-apps/using-the-workfront-mobile-app/wf-mdm.md)
          * [設定適用於MobileIron的Adobe Workfront](workfront-basics/mobile-apps/using-the-workfront-mobile-app/wf-mobileiron-configs.md)
-         * [Adobe Workfront行動應用程式虛擬助理](workfront-basics/mobile-apps/using-the-workfront-mobile-app/wf-mobile-virtual-assistant.md)
          * [Adobe Workfront行動應用程式中的核准](workfront-basics/mobile-apps/using-the-workfront-mobile-app/approvals-in-mobile-app.md)
       * 使用Adobe Workfront檢視 {#use-workfront-view}
          * [使用Adobe Workfront檢視](workfront-basics/mobile-apps/using-workfront-view/use-workfront-view.md)
@@ -1015,7 +1014,7 @@ ht-degree: 1%
       * [Adobe Workfront狀態網站](workfront-basics/tips-tricks-and-troubleshooting/understand-the-status-site.md)
       * [創新實驗室](workfront-basics/tips-tricks-and-troubleshooting/idea-exchange.md)
       * [跨時區工作](workfront-basics/tips-tricks-and-troubleshooting/working-across-timezones.md)
-      * [Workfront校訂管理員許可權疑難排解](workfront-basics/tips-tricks-and-troubleshooting/wp-manager-permissions-troubleshooting.md)
+      * [Workfront Proof Manager許可權疑難排解](workfront-basics/tips-tricks-and-troubleshooting/wp-manager-permissions-troubleshooting.md)
       * [首頁工作清單中顯示的重複核准流程](workfront-basics/tips-tricks-and-troubleshooting/duplicate-apprval-processes-home.md)
       * [篩選器按鈕未顯示在頁首中](workfront-basics/tips-tricks-and-troubleshooting/filter-buttons-do-not-display-in-page-headers.md)
       * [我參與的專案篩選器包含未預期的結果](workfront-basics/tips-tricks-and-troubleshooting/projects-im-on-filter-including-unexpected-results.md)
@@ -1871,7 +1870,7 @@ ht-degree: 1%
             * [還原已封存的校訂](review-and-approve-work/proofing/managing-proofs-within-workfront/restore-archived-proof.md)
             * [在Adobe Workfront中檢視校訂上的活動](review-and-approve-work/proofing/managing-proofs-within-workfront/view-activity-on-proof-in-wf.md)
             * [使用校訂核准報告](review-and-approve-work/proofing/managing-proofs-within-workfront/proof-approval-report.md)
-            * [從Adobe Workfront存取Workfront校訂](review-and-approve-work/proofing/managing-proofs-within-workfront/access-wf-proof-in-workfront.md)
+            * [從Adobe Workfront存取Workfront Proof](review-and-approve-work/proofing/managing-proofs-within-workfront/access-wf-proof-in-workfront.md)
          * 管理校訂版本 {#manage-proof-versions}
             * [管理校訂版本](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-versions/manage-proof-versions.md)
             * [建立新版本的校訂](review-and-approve-work/proofing/managing-proofs-within-workfront/create-new-proof-version.md)
@@ -2220,7 +2219,7 @@ ht-degree: 1%
          * [案例範本](workfront-fusion/scenarios/templates/fusion-templates.md)
          * [[!DNL Fusion] 範本概觀](/help/quicksilver/workfront-fusion/scenarios/templates/fusion-templates-overview.md)
          * [在Adobe Workfront Fusion中建立新範本](workfront-fusion/scenarios/templates/create-new-fusion-templates.md)
-         * [發佈和共用Adobe Workfront Fusion範本](workfront-fusion/scenarios/templates/publish-and-share-fusion-templates.md)
+         * [Publish和共用Adobe Workfront Fusion範本](workfront-fusion/scenarios/templates/publish-and-share-fusion-templates.md)
          * [使用Adobe Workfront Fusion範本建立案例](workfront-fusion/scenarios/templates/create-scenarios-with-fusion-templates.md)
          * [檢視、編輯和刪除Adobe Workfront Fusion範本](workfront-fusion/scenarios/templates/view-edit-and-delete-fusion-templates.md)
          * [Adobe Workfront Fusion範本管理](workfront-fusion/scenarios/templates/fusion-templates-adminstration.md)
@@ -2232,7 +2231,7 @@ ht-degree: 1%
    * Workfront Fusion應用程式及其模組 {#fusion-apps-and-modules}
       * [應用程式及其模組](workfront-fusion/apps-and-their-modules/apps-and-their-modules.md)
       * [Adobe Workfront模組](workfront-fusion/apps-and-their-modules/workfront-modules.md)
-      * [Workfront校訂模組](workfront-fusion/apps-and-their-modules/workfront-proof-modules.md)
+      * [Workfront Proof模組](workfront-fusion/apps-and-their-modules/workfront-proof-modules.md)
       * [Adobe Workfront規劃模組](/help/quicksilver/workfront-fusion/apps-and-their-modules/workfront-planning-modules.md)
       * [[!DNL Workfront Boards] 模組](/help/quicksilver/workfront-fusion/apps-and-their-modules/workfront-boards-modules.md)
       * [Adobe Authenticator模組](/help/quicksilver/workfront-fusion/apps-and-their-modules/adobe-authenticator-modules.md)
@@ -2421,7 +2420,7 @@ ht-degree: 1%
       * [從Slack搜尋Adobe Workfront專案](workfront-integrations-and-apps/using-workfront-with-slack/search-for-wf-items-from-slack.md)
       * [從Slack中的共用連結存取Adobe Workfront物件](workfront-integrations-and-apps/using-workfront-with-slack/access-wf-objects-from-shared-linked-in-slack.md)
       * [從Slack存取Adobe Workfront](workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md)
-      * [發佈Slack評論作為更新](workfront-integrations-and-apps/using-workfront-with-slack/post-a-slack-comment-as-an-update.md)
+      * [PostSlack註解作為更新](workfront-integrations-and-apps/using-workfront-with-slack/post-a-slack-comment-as-an-update.md)
       * [在Slack中接收Adobe Workfront通知](workfront-integrations-and-apps/using-workfront-with-slack/receive-workfront-notifications-in-slack.md)
    * Adobe Workfront與Anaplan {#workfront-with-anaplan}
       * [Adobe Workfront與Anaplan](workfront-integrations-and-apps/adobe-workfront-with-anaplan/anaplan-integration.md)
@@ -2439,10 +2438,10 @@ ht-degree: 1%
       * [Workfront Proof快速入門](workfront-proof/wp-getstarted/getting-started-with-workfront-proof.md)
       * 工作流程範例 {#workflow-examples}
          * [工作流程範例](workfront-proof/wp-getstarted/workflow-examples/workflow-examples.md)
-         * [Workfront Proof的基本校訂程式](workfront-proof/wp-getstarted/workflow-examples/basic-proof-process.md)
-         * [Workfront Proof中的內部檢閱然後外部檢閱](workfront-proof/wp-getstarted/workflow-examples/internal-external-review.md)
-         * [在Workfront Proof中與設計人員和專案經理合作](workfront-proof/wp-getstarted/workflow-examples/work-designers-project-managers.md)
-         * [在Workfront Proof中與自由譯者合作](workfront-proof/wp-getstarted/workflow-examples/work-freelancers.md)
+         * [Workfront Proof中的基本校訂程式](workfront-proof/wp-getstarted/workflow-examples/basic-proof-process.md)
+         * [Workfront Proof中的內部檢閱，然後外部檢閱](workfront-proof/wp-getstarted/workflow-examples/internal-external-review.md)
+         * [與Workfront Proof中的設計人員和專案經理合作](workfront-proof/wp-getstarted/workflow-examples/work-designers-project-managers.md)
+         * [與Workfront Proof中的自由譯者合作](workfront-proof/wp-getstarted/workflow-examples/work-freelancers.md)
       * Workfront Proof中的個人設定 {#personal-settings-in-wf-proof}
          * [Workfront Proof中的個人設定](workfront-proof/wp-getstarted/personal-settings/personal-settings.md)
          * [在Workfront Proof中指定臨時校訂所有者](workfront-proof/wp-getstarted/personal-settings/designate-temp-proof-owners.md)
@@ -2452,11 +2451,11 @@ ht-degree: 1%
          * [預覽Sandbox測試環境 — Workfront Proof](workfront-proof/wp-getstarted/system-information/preview-sandbox.md)
          * [Workfront Proof中的語言設定](workfront-proof/wp-getstarted/system-information/language-settings.md)
          * [Workfront Proof中的轉碼器](workfront-proof/wp-getstarted/system-information/codecs.md)
-      * Workfront校訂常見問題集 {#wf-proof-faq}
-         * [Workfront校訂 — 常見問題集](workfront-proof/wp-getstarted/faqs/faqs.md)
+      * Workfront Proof常見問題集 {#wf-proof-faq}
+         * [Workfront Proof — 常見問題集](workfront-proof/wp-getstarted/faqs/faqs.md)
          * [常見問題集 — 建立和共用校樣和檔案](workfront-proof/wp-getstarted/faqs/faq-create-share-proofs-files.md)
          * [常見問題集 — 檢閱校樣](workfront-proof/wp-getstarted/faqs/faq-review-proofs.md)
-         * [常見問題集 — Workfront校訂帳戶](workfront-proof/wp-getstarted/faqs/faq-wp-account.md)
+         * [常見問題集 — Workfront Proof帳戶](workfront-proof/wp-getstarted/faqs/faq-wp-account.md)
          * [登入並變更Workfront Proof的密碼和電子郵件](workfront-proof/wp-getstarted/faqs/log-in-change-password.md)
          * [在Workfront Proof中設定時區](workfront-proof/wp-getstarted/faqs/set-timezones-in-wp.md)
    * 在Workfront Proof中使用校訂和檔案 {#work-with-proofs-in-wf-proof}
@@ -2467,13 +2466,13 @@ ht-degree: 1%
          * [在Workfront Proof中管理使用自動化工作流程設定的校訂](workfront-proof/wp-work-proofsfiles/automated-workflow/manage-proof-configured-auto-workflow.md)
       * Workfront Proof的基本功能 {#basic-features-in-wf-proof}
          * [Workfront Proof的基本功能](workfront-proof/wp-work-proofsfiles/basic-features/basic-features.md)
-         * [Workfront Proof中的儀表板](workfront-proof/wp-work-proofsfiles/basic-features/dashboard.md)
+         * [Workfront Proof中的控制面板](workfront-proof/wp-work-proofsfiles/basic-features/dashboard.md)
          * [Workfront Proof中檢視索引標籤上的頁面配置](workfront-proof/wp-work-proofsfiles/basic-features/page-layout-view.md)
-         * [搜尋Workfront校訂](workfront-proof/wp-work-proofsfiles/basic-features/search.md)
-         * [瞭解Workfront校訂活動稽核軌跡](workfront-proof/wp-work-proofsfiles/basic-features/activity-audit-trail.md)
+         * [搜尋Workfront Proof](workfront-proof/wp-work-proofsfiles/basic-features/search.md)
+         * [瞭解Workfront Proof活動稽核軌跡](workfront-proof/wp-work-proofsfiles/basic-features/activity-audit-trail.md)
       * 建立校樣和檔案 {#create-proofs-and-files}
          * [建立校樣和檔案](workfront-proof/wp-work-proofsfiles/create-proofs-and-files/create-proofs-and-files.md)
-         * [將檔案和網頁內容上傳到Workfront Proof](workfront-proof/wp-work-proofsfiles/create-proofs-and-files/upload-files-web-content.md)
+         * [將檔案和網頁內容上傳至Workfront Proof](workfront-proof/wp-work-proofsfiles/create-proofs-and-files/upload-files-web-content.md)
          * [在Workfront Proof中產生校訂](workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md)
          * [在Workfront Proof中複製校訂](workfront-proof/wp-work-proofsfiles/create-proofs-and-files/copy-proofs.md)
          * [下拉區域](workfront-proof/wp-work-proofsfiles/create-proofs-and-files/dropzone.md)
@@ -2490,7 +2489,7 @@ ht-degree: 1%
          * [瞭解Workfront Proof中的校訂狀態](workfront-proof/wp-work-proofsfiles/manage-your-work/proof-state.md)
          * [刪除Workfront Proof中的校訂](workfront-proof/wp-work-proofsfiles/manage-your-work/delete-proof.md)
          * [在Workfront Proof中還原並清空垃圾桶](workfront-proof/wp-work-proofsfiles/manage-your-work/restore-and-empty-trash.md)
-         * [在Workfront Proof中執行報告](workfront-proof/wp-work-proofsfiles/manage-your-work/run-reports.md)
+         * [在Workfront Proof中執行報表](workfront-proof/wp-work-proofsfiles/manage-your-work/run-reports.md)
       * 組織您的工作 {#organize-your-work}
          * [組織您的工作](workfront-proof/wp-work-proofsfiles/organize-your-work/organize-your-work.md)
          * [Workfront Proof資料夾](workfront-proof/wp-work-proofsfiles/organize-your-work/folders.md)
@@ -2500,9 +2499,9 @@ ht-degree: 1%
          * [在Workfront Proof中共用資料夾](workfront-proof/wp-work-proofsfiles/organize-your-work/share-folders.md)
          * [瞭解Workfront Proof中的檔案夾許可權](workfront-proof/wp-work-proofsfiles/organize-your-work/folder-permissions.md)
          * [在Workfront Proof中建立和管理標籤](workfront-proof/wp-work-proofsfiles/organize-your-work/create-and-manage-tags.md)
-         * [在Workfront Proof中封存](workfront-proof/wp-work-proofsfiles/organize-your-work/archive.md)
-         * [備份您的Workfront校訂資料](workfront-proof/wp-work-proofsfiles/organize-your-work/back-up-data.md)
-         * [在Workfront校訂中列印和匯出評論](workfront-proof/wp-work-proofsfiles/organize-your-work/print-and-export-comments.md)
+         * [Workfront Proof中的封存](workfront-proof/wp-work-proofsfiles/organize-your-work/archive.md)
+         * [備份您的Workfront Proof資料](workfront-proof/wp-work-proofsfiles/organize-your-work/back-up-data.md)
+         * [在Workfront Proof中列印和匯出註解](workfront-proof/wp-work-proofsfiles/organize-your-work/print-and-export-comments.md)
       * 在案頭校訂檢視器中檢閱校訂 {#review-proofs-in-viewer}
          * [在案頭校訂檢視器中檢閱校訂](workfront-proof/wp-work-proofsfiles/review-proofs-dpv/review-proofs-in-desktop-proofing-viewer.md)
          * [瞭解案頭校訂檢視器](workfront-proof/wp-work-proofsfiles/review-proofs-dpv/destop-proofing-viewer.md)
@@ -2517,51 +2516,51 @@ ht-degree: 1%
          * [在校訂檢視器中比較校訂](workfront-proof/wp-work-proofsfiles/review-proofs-wpv/compare-proofs.md)
          * [在網路校訂檢視器中檢視先前的校訂版本](workfront-proof/wp-work-proofsfiles/review-proofs-wpv/view-previous-proof-versions.md)
          * [在校訂檢視器中下載校訂](workfront-proof/wp-work-proofsfiles/review-proofs-wpv/download-proof.md)
-         * [Workfront校訂檢視器中的鍵盤快速鍵](workfront-proof/wp-work-proofsfiles/review-proofs-wpv/keyboard-shortcuts.md)
+         * [Workfront Proof校訂檢視器中的鍵盤快速鍵](workfront-proof/wp-work-proofsfiles/review-proofs-wpv/keyboard-shortcuts.md)
          * [舊版校訂檢視器已移除](workfront-proof/wp-work-proofsfiles/review-proofs-wpv/lpv-removed.md)
       * 共用校訂和檔案 {#share-proofs-and-files}
          * [共用校訂和檔案](workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-proofs-and-files.md)
          * [在Workfront Proof中共用校訂](workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-proof.md)
          * [在Workfront Proof中共用校訂連結](workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-proof-links.md)
-         * [在Workfront校訂中共用公開URL](workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-public-url.md)
+         * [在Workfront Proof中共用公用URL](workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-public-url.md)
          * [在Workfront Proof中共用檔案](workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-files.md)
          * [存取與您共用的校訂](workfront-proof/wp-work-proofsfiles/share-proofs-and-files/access-proofs-shared-with-you.md)
          * [訂閱Workfront Proof中的校訂](workfront-proof/wp-work-proofsfiles/share-proofs-and-files/subscribe-to-proof.md)
-         * [在Workfront Proof中建立Mini Proof](workfront-proof/wp-work-proofsfiles/share-proofs-and-files/create-mini-proof.md)
+         * [在Workfront Proof中建立Mini校訂](workfront-proof/wp-work-proofsfiles/share-proofs-and-files/create-mini-proof.md)
          * [內嵌Mini校訂](workfront-proof/wp-work-proofsfiles/share-proofs-and-files/embed-mini-proof.md)
          * [在Workfront Proof中管理校訂角色](workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md)
-   * Workfront校訂帳戶管理 {#wf-proof-account-admin}
-      * [Workfront校訂帳戶管理](workfront-proof/wp-acct-admin/wp-account-admin.md)
+   * Workfront Proof帳戶管理 {#wf-proof-account-admin}
+      * [Workfront Proof帳戶管理](workfront-proof/wp-acct-admin/wp-account-admin.md)
       * Workfront Proof中的帳戶設定 {#account-settings-in-wf-proof}
          * [Workfront Proof中的帳戶設定](workfront-proof/wp-acct-admin/account-settings/account-settings.md)
-         * [管理Workfront校訂使用者](workfront-proof/wp-acct-admin/account-settings/manage-wp-users.md)
+         * [管理Workfront Proof使用者](workfront-proof/wp-acct-admin/account-settings/manage-wp-users.md)
          * [在Workfront Proof中設定使用者的校訂許可權設定檔](workfront-proof/wp-acct-admin/account-settings/config-user-pref-in-wp.md)
          * [在Workfront Proof中設定自訂設定檔](workfront-proof/wp-acct-admin/account-settings/configure-custom-profiles.md)
          * [為Workfront Proof使用者設定單一登入](workfront-proof/wp-acct-admin/account-settings/configure-sso-for-wp-users.md)
-         * [Workfront校訂中的單一登入：AD FS設定](workfront-proof/wp-acct-admin/account-settings/sso-in-wp-adfs-configuration.md)
+         * [Workfront Proof中的單一登入：AD FS設定](workfront-proof/wp-acct-admin/account-settings/sso-in-wp-adfs-configuration.md)
          * [Workfront Proof中的校訂許可權設定檔](workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)
-         * [在Workfront校訂中設定核准決定選項](workfront-proof/wp-acct-admin/account-settings/configure-approval-decision-in-wp.md)
-         * [在Workfront校訂中建立和管理自訂欄位](workfront-proof/wp-acct-admin/account-settings/create-and-manage-custom-fields.md)
+         * [在Workfront Proof中設定核准決定選項](workfront-proof/wp-acct-admin/account-settings/configure-approval-decision-in-wp.md)
+         * [在Workfront Proof中建立和管理自訂欄位](workfront-proof/wp-acct-admin/account-settings/create-and-manage-custom-fields.md)
          * [在Workfront Proof中設定拖放區域](workfront-proof/wp-acct-admin/account-settings/configure-dropzone-in-wp.md)
          * [Workfront Proof中整合的帳戶設定](workfront-proof/wp-acct-admin/account-settings/integrations-account-setup.md)
          * [在Workfront Proof中檢視驗證記錄](workfront-proof/wp-acct-admin/account-settings/view-auth-logs-in-wp.md)
-         * [檢視及編輯貴組織的Workfront校訂帳戶詳細資料](workfront-proof/wp-acct-admin/account-settings/view-edit-org-wp-acct-details.md)
-         * [檢視您組織的Workfront校訂管理員帳戶記錄](workfront-proof/wp-acct-admin/account-settings/view-org-wp-acct-history.md)
-         * [檢查您的Workfront校訂儲存空間](workfront-proof/wp-acct-admin/account-settings/check-workfront-proof-storage.md)
+         * [檢視及編輯貴組織的Workfront Proof帳戶詳細資料](workfront-proof/wp-acct-admin/account-settings/view-edit-org-wp-acct-details.md)
+         * [檢視您組織的Workfront Proof管理員帳戶歷史記錄](workfront-proof/wp-acct-admin/account-settings/view-org-wp-acct-history.md)
+         * [檢查您的Workfront Proof儲存空間](workfront-proof/wp-acct-admin/account-settings/check-workfront-proof-storage.md)
          * [在Workfront Proof中請求新的資料備份](workfront-proof/wp-acct-admin/account-settings/request-new-data-backup-in-wp.md)
       * 品牌化Workfront Proof {#branding-wf-proof}
          * [品牌化Workfront Proof](workfront-proof/wp-acct-admin/branding/branding.md)
          * [為Workfront Proof網站建立品牌](workfront-proof/wp-acct-admin/branding/brand-wp-site.md)
-         * [為Workfront Proof網站建立品牌 — 進階](workfront-proof/wp-acct-admin/branding/brand-wp-site-advanced.md)
+         * [品牌化Workfront Proof網站 — 進階](workfront-proof/wp-acct-admin/branding/brand-wp-site-advanced.md)
       * 管理安全性 {#manage-security}
          * [管理安全性](workfront-proof/wp-acct-admin/managing-security/manage-security.md)
-         * [Workfront Proof中的校訂安全性](workfront-proof/wp-acct-admin/managing-security/proof-security-in-workfront-proof.md)
+         * [Workfront Proof中的證明安全性](workfront-proof/wp-acct-admin/managing-security/proof-security-in-workfront-proof.md)
          * [Workfront Proof中的單一登入](workfront-proof/wp-acct-admin/managing-security/single-sign-on-overview.md)
          * [瞭解Workfront Proof中的電子簽章](workfront-proof/wp-acct-admin/managing-security/electronic-sigs-in-wp.md)
       * Workfront Proof中的合作夥伴帳戶 {#partner-accounts-in-wf-proof}
          * [Workfront Proof中的合作夥伴帳戶](workfront-proof/wp-acct-admin/partner-accounts/partner-accounts.md)
-         * [管理Workfront校訂帳戶之間的合作夥伴關係](workfront-proof/wp-acct-admin/partner-accounts/manage-partner-relationship-between-wp-accts.md)
-         * [在Workfront Proof中與合作夥伴共用專案](workfront-proof/wp-acct-admin/partner-accounts/share-items-partner-in-wp.md)
+         * [管理Workfront Proof帳戶之間的合作夥伴關係](workfront-proof/wp-acct-admin/partner-accounts/manage-partner-relationship-between-wp-accts.md)
+         * [與Workfront Proof中的合作夥伴共用專案](workfront-proof/wp-acct-admin/partner-accounts/share-items-partner-in-wp.md)
       * Workfront Proof中的附屬帳戶 {#satellite-accounts-in-wf-proof}
          * [Workfront Proof中的附屬帳戶](workfront-proof/wp-acct-admin/satellite-accounts/satellite-accounts.md)
          * [Workfront Proof中的附屬帳戶](workfront-proof/wp-acct-admin/satellite-accounts/sat-accts-in-wp.md)
@@ -2569,25 +2568,25 @@ ht-degree: 1%
          * [在Workfront Proof中管理附屬帳戶](workfront-proof/wp-acct-admin/satellite-accounts/manage-sat-acct-in-wp.md)
       * Workfront Proof帳戶管理的秘訣、技巧和疑難排解 {#ttt-wf-proof-account-admin}
          * [Workfront Proof帳戶管理的秘訣、技巧和疑難排解](workfront-proof/wp-acct-admin/tips-tricks-and-troubleshooting/tips-tricks-and-troubleshooting.md)
-         * [常見問題集： Workfront校訂 — 美國至EMEA移轉](workfront-proof/wp-acct-admin/tips-tricks-and-troubleshooting/faq-wp-us-to-emea-mig.md)
-   * Workfront校訂計費設定 {#wf-proof-billing-settings}
-      * [Workfront校訂計費設定](workfront-proof/wp-billingsettings/wp-billing-settings.md)
+         * [常見問題集： Workfront Proof — 美國移轉至EMEA](workfront-proof/wp-acct-admin/tips-tricks-and-troubleshooting/faq-wp-us-to-emea-mig.md)
+   * Workfront Proof計費設定 {#wf-proof-billing-settings}
+      * [Workfront Proof計費設定](workfront-proof/wp-billingsettings/wp-billing-settings.md)
       * 管理您的帳單 {#manage-billing}
          * [管理您的帳單](workfront-proof/wp-billingsettings/manage-your-billing/manage-your-billing.md)
-         * [Workfront校訂帳單頁面](workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md)
-         * [在Workfront Proof中選擇您的付款方法](workfront-proof/wp-billingsettings/manage-your-billing/choose-payment-method-in-wp.md)
-         * [正在下載您的Workfront證明發票](workfront-proof/wp-billingsettings/manage-your-billing/download-wp-invoice.md)
-         * [關閉您的Workfront校訂帳戶](workfront-proof/wp-billingsettings/manage-your-billing/close-wp-acct.md)
+         * [Workfront Proof帳單頁面](workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md)
+         * [在Workfront Proof中選擇付款方法](workfront-proof/wp-billingsettings/manage-your-billing/choose-payment-method-in-wp.md)
+         * [下載您的Workfront Proof發票](workfront-proof/wp-billingsettings/manage-your-billing/download-wp-invoice.md)
+         * [關閉您的Workfront Proof帳戶](workfront-proof/wp-billingsettings/manage-your-billing/close-wp-acct.md)
    * 校訂通知和提醒 {#proof-notifications-and-reminders}
       * [校訂通知和提醒](workfront-proof/wp-emailsntfctns/wp-emails-and-notifications.md)
       * 避免垃圾郵件篩選器 {#avoid-spam-filters}
          * [避免垃圾郵件篩選器](workfront-proof/wp-emailsntfctns/avoiding-spam-filters/avoid-spam-filters.md)
          * [設定常見電子郵件使用者端的垃圾郵件設定](workfront-proof/wp-emailsntfctns/avoiding-spam-filters/configure-spam-settings-clients.md)
          * [設定Workfront Proof電子郵件以避免垃圾郵件篩選器](workfront-proof/wp-emailsntfctns/avoiding-spam-filters/configure-wp-emails-avoid-spam-filters.md)
-         * [Workfront校訂SPF記錄](workfront-proof/wp-emailsntfctns/avoiding-spam-filters/wp-spf-records.md)
+         * [Workfront Proof SPF記錄](workfront-proof/wp-emailsntfctns/avoiding-spam-filters/wp-spf-records.md)
       * 傳送訊息給稽核者 {#send-messages-to-reviewers}
          * [傳送訊息給稽核者](workfront-proof/wp-emailsntfctns/messaging-reviewers/send-messages-to-reviewers.md)
-         * [提醒檢閱者有關Workfront校訂中的指派](workfront-proof/wp-emailsntfctns/messaging-reviewers/remind-reviewer-assignments-wp.md)
+         * [提醒稽核者有關Workfront Proof中的指派](workfront-proof/wp-emailsntfctns/messaging-reviewers/remind-reviewer-assignments-wp.md)
          * [傳送提醒訊息給校訂上的檢閱者](workfront-proof/wp-emailsntfctns/messaging-reviewers/send-reminder-to-proof-reviewers.md)
       * 校訂通知和提醒 {#proof-notifications-and-reminders}
          * [校訂通知和提醒](workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/proof-notifications-and-reminders.md)
@@ -2611,11 +2610,11 @@ ht-degree: 1%
          * [群組](workfront-proof/wp-mnguserscontacts/groups/groups.md)
          * [將群組新增至校訂](workfront-proof/wp-mnguserscontacts/groups/add-groups.md)
          * [使用Workfront Proof建立校訂群組](workfront-proof/wp-mnguserscontacts/groups/create-proofing-groups.md)
-         * [使用Workfront校訂將群組設為私人](workfront-proof/wp-mnguserscontacts/groups/make-groups-private.md)
-         * [使用Workfront校訂管理群組](workfront-proof/wp-mnguserscontacts/groups/manage-groups.md)
+         * [使用Workfront Proof將群組設為私人](workfront-proof/wp-mnguserscontacts/groups/make-groups-private.md)
+         * [使用Workfront Proof管理群組](workfront-proof/wp-mnguserscontacts/groups/manage-groups.md)
       * 連絡人 {#contacts}
          * [連絡人](workfront-proof/wp-mnguserscontacts/contacts/contacts.md)
-         * [將訪客新增至Workfront校訂](workfront-proof/wp-mnguserscontacts/contacts/add-guest.md)
+         * [將訪客新增至Workfront Proof](workfront-proof/wp-mnguserscontacts/contacts/add-guest.md)
          * [在Workfront Proof中管理您的連絡人](workfront-proof/wp-mnguserscontacts/contacts/manage-contacts.md)
          * [瞭解Workfront Proof中的使用者、成員和來賓](workfront-proof/wp-mnguserscontacts/contacts/use-members-guests.md)
       * Workfront Proof使用者和聯絡人的秘訣、技巧和疑難排解 {#ttt-wf-proof-users-and-contacts}
@@ -2625,32 +2624,32 @@ ht-degree: 1%
       * [Workfront Proof mobile](workfront-proof/wp-mobile/wp-mobile.md)
       * Workfront Proof行動應用程式 {#wf-proof-mobile-apps}
          * [Workfront Proof行動應用程式](workfront-proof/wp-mobile/wp-mobile-apps/wp-mobile-apps.md)
-         * [Workfront校訂行動應用程式](workfront-proof/wp-mobile/wp-mobile-apps/wp-mobile-app-phones.md)
+         * [Workfront Proof行動應用程式](workfront-proof/wp-mobile/wp-mobile-apps/wp-mobile-app-phones.md)
          * [適用於平板電腦的Workfront Proof行動應用程式](workfront-proof/wp-mobile/wp-mobile-apps/wp-mobile-app-tablet.md)
       * Workfront Proof行動應用程式的秘訣、技巧和疑難排解 {#ttt-wf-proof-mobile-apps}
          * [Workfront Proof行動應用程式的秘訣、技巧和疑難排解](workfront-proof/wp-mobile/tips-tricks-and-troubleshooting/tips-tricks-troubleshooting-wp-mobile.md)
          * [無法登入Workfront Proof行動應用程式](workfront-proof/wp-mobile/tips-tricks-and-troubleshooting/unable-to-log-in.md)
-   * Workfront校訂技術園地 {#wf-proof-tech-corner}
-      * [Workfront校訂技術園地](workfront-proof/wp-tech-corner/tech-corner.md)
+   * Workfront Proof技術園地 {#wf-proof-tech-corner}
+      * [Workfront Proof技術園地](workfront-proof/wp-tech-corner/tech-corner.md)
       * 校訂型別 {#proof-types}
          * [校訂型別](workfront-proof/wp-tech-corner/proof-types/proof-types.md)
          * [使用Workfront Proof建立靜態網站校訂](workfront-proof/wp-tech-corner/proof-types/create-status-web-proof.md)
       * Workfront Proof的疑難排解 {#troubleshooting-wf-proof}
          * [Workfront Proof的疑難排解](workfront-proof/wp-tech-corner/troubleshooting/troubleshooting.md)
          * [疑難排解 — Mac上校訂檢視器中的介面字型損毀](workfront-proof/wp-tech-corner/troubleshooting/corrupted-interface-font-pv-mac.md)
-         * [瞭解快取和Cookie如何影響Workfront校訂](workfront-proof/wp-tech-corner/troubleshooting/how-cache-cookies-affect-pv.md)
+         * [瞭解快取和Cookie如何影響Workfront Proof](workfront-proof/wp-tech-corner/troubleshooting/how-cache-cookies-affect-pv.md)
          * [Workfront Proof中的速度問題](workfront-proof/wp-tech-corner/troubleshooting/speed-issue.md)
-         * [疑難排解 — Workfront校訂檢視器](workfront-proof/wp-tech-corner/troubleshooting/proofing-viewer.md)
-   * Workfront校訂整合 {#wf-proof-integrations}
-      * [Workfront校訂整合](workfront-proof/wp-integrations/wp-integrations.md)
-      * Workfront校訂API {#wf-proof-api}
-         * [Workfront校訂API](workfront-proof/wp-integrations/api/wp-api.md)
-         * [Workfront校訂API](workfront-proof/wp-integrations/api/workfront-proof-api.md)
+         * [疑難排解 — Workfront Proof校訂檢視器](workfront-proof/wp-tech-corner/troubleshooting/proofing-viewer.md)
+   * Workfront Proof整合 {#wf-proof-integrations}
+      * [Workfront Proof整合](workfront-proof/wp-integrations/wp-integrations.md)
+      * WORKFRONT PROOF API {#wf-proof-api}
+         * [WORKFRONT PROOF API](workfront-proof/wp-integrations/api/wp-api.md)
+         * [WORKFRONT PROOF API](workfront-proof/wp-integrations/api/workfront-proof-api.md)
       * 方塊 {#box}
          * [方塊](workfront-proof/wp-integrations/box/box.md)
-         * [Workfront Proof and Box整合簡介](workfront-proof/wp-integrations/box/introduction-to-box.md)
+         * [Workfront Proof與Box整合簡介](workfront-proof/wp-integrations/box/introduction-to-box.md)
          * [透過您的Box帳戶建立證明](workfront-proof/wp-integrations/box/create-proof-box-account.md)
-         * [與Workfront Proof同步方塊資料夾](workfront-proof/wp-integrations/box/sycn-box-folder.md)
+         * [與Workfront Proof同步Box資料夾](workfront-proof/wp-integrations/box/sycn-box-folder.md)
          * [在方塊中檢視校訂的原始檔案](workfront-proof/wp-integrations/box/view-proof-original-file-box.md)
       * Basecamp {#basecamp}
          * [Basecamp](workfront-proof/wp-integrations/basecamp/basecamp.md)

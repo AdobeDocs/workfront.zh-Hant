@@ -6,9 +6,9 @@ draft: Probably
 feature: Product Announcements, Workfront Integrations and Apps
 recommendations: noDisplay, noCatalog
 exl-id: b7f986a6-a876-4e0d-84e5-237ec8fcf590
-source-git-commit: ccba3a3d7c0cac50dbd29cae677b076811904a91
+source-git-commit: 52ca3335f6c2dde0442f31fb4bd4ca0180c96b40
 workflow-type: tm+mt
-source-wordcount: '446'
+source-wordcount: '445'
 ht-degree: 0%
 
 ---
@@ -62,4 +62,4 @@ Workfront與行動裝置管理(MDM)平台MobileIron合作，為組織提供更�
 
 這些指令會顯示您可以向助理詢問的不同專案的清單。
 
-如需現有命令的清單，請參閱 [Adobe Workfront行動應用程式虛擬助理](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/wf-mobile-virtual-assistant.md).
+**注意：行動版虛擬助理已於2024年4月起淘汰。**

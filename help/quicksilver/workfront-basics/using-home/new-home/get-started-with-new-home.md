@@ -6,9 +6,9 @@ description: 新首頁是管理您工作的強大新功能。 您可以自訂此
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 40bb32f0-acc7-4a22-92b9-bab9dc7c987b
-source-git-commit: e5bd25315062ad15ccd3448e008dfe94f1b616da
+source-git-commit: 60ff39c7a8c4736e1a176dd22bd0be5ab804223f
 workflow-type: tm+mt
-source-wordcount: '1135'
+source-wordcount: '1140'
 ht-degree: 5%
 
 ---
@@ -45,7 +45,7 @@ Widget是新首頁的基礎。 將Widget新增至首頁後，您就可以選擇�
     在清單中顯示指派給您的任務。 您可以使用現有的篩選器、檢視或分組來自訂清單，也可以直接從Widget建立任務。 您也可以在外出時委派工作。
 
 * **我的問題**\
-    顯示清單中指派給您的問題。 您可以使用現有的篩選器、檢視或分組來自訂清單，或直接從Widget建立問題。 此Widget僅包含其相關專案設為「目前」的問題。 您也可以在外出時委派問題。
+    顯示清單中指派給您的問題。 您可以使用現有的篩選器、檢視或分組來自訂清單，或直接從Widget建立問題。 此Widget僅包含關聯專案設為「目前」的問題，不包含已完成的專案。 您也可以在外出時委派問題。
 
 * **我的請求**\
     顯示您已提交的所有請求、只顯示開啟中請求的篩選條件，以及開啟請求摘要窗格的按鈕。

@@ -7,9 +7,9 @@ author: Luke
 feature: Product Announcements, Workfront Integrations and Apps
 recommendations: noDisplay, noCatalog
 exl-id: 891be3ab-ba65-406e-a90c-d7a9db8310e3
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+source-git-commit: 52ca3335f6c2dde0442f31fb4bd4ca0180c96b40
 workflow-type: tm+mt
-source-wordcount: '312'
+source-wordcount: '309'
 ht-degree: 0%
 
 ---
@@ -38,7 +38,7 @@ Workfront與行動裝置管理(MDM)平台MobileIron合作，為組織提供更�
 
 ## 新增行動虛擬助理
 
-全新的Workfront行動應用程式虛擬助理現在可同時用於Android和iOS。
+新的Workfront行動應用程式虛擬助理現在可同時用於Android和iOS。
 
 語音指令
 
@@ -52,5 +52,5 @@ Workfront與行動裝置管理(MDM)平台MobileIron合作，為組織提供更�
 
 您可以使用釘選功能存取已儲存的虛擬助理指令以及網頁瀏覽器中的釘選。
 
-如需有關這兩項功能的詳細資訊，請參閱 [Adobe Workfront行動應用程式虛擬助理](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/wf-mobile-virtual-assistant.md).
+**注意：行動版虛擬助理已於2024年4月起淘汰。**
 
