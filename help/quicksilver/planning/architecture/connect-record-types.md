@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
-source-git-commit: 7882b67578cd5b8792ce582ebab118c8993c9214
+source-git-commit: 8a4da96562b18977f56567f0fc5f72b369078432
 workflow-type: tm+mt
-source-wordcount: '2486'
+source-wordcount: '2487'
 ht-degree: 0%
 
 ---
@@ -186,7 +186,7 @@ You can use Adobe Workfront Planning to design fully-customizable workspaces tha
 
    或
 
-   從工作區中，展開現有工作區名稱右側的向下箭頭，並選取您想從其中連線記錄型別的工作區。
+   從工作區中，展開現有工作區名稱右側的向下箭頭，搜尋工作區，然後在工作區顯示在清單中時選取該工作區。
 1. 按一下記錄型別的卡片以開啟記錄型別頁面。
 1. 按一下 **+** 圖示並按一下 **新連線** 標籤。
 

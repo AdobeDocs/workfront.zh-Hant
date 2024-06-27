@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: 869a1f9e4fd7e3b65591050530b96d6dae9e230c
+source-git-commit: 8a4da96562b18977f56567f0fc5f72b369078432
 workflow-type: tm+mt
-source-wordcount: '3360'
+source-wordcount: '3384'
 ht-degree: 2%
 
 ---
@@ -135,7 +135,11 @@ recommendations: noDisplay, noCatalog
    >
    >    某些欄位可能已隱藏。 按一下「欄位」並啟用切換您要以表格檢視中的欄位檢視。
 
-1. 按一下 **+** 圖示以新增欄位。
+1. 按一下 **+** 圖示於表格檢視的右上角
+
+   或
+
+   將游標停留在任何欄的標題上，按一下欄位名稱后的向下箭頭，然後按一下 **在左側插入** 或 **在右側插入** 以新增欄位。
 1. 在 **新欄位** 標籤，搜尋中的欄位型別 **欄位型別** 方塊，或從下列欄位型別中選取：
 
    * [單行文字](#single-line-text)

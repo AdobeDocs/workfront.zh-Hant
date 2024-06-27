@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7d6de742-9657-4286-968c-1fc78ebbb94e
-source-git-commit: c593eab154a0942995b1f913e7189450913faac0
+source-git-commit: 8a4da96562b18977f56567f0fc5f72b369078432
 workflow-type: tm+mt
-source-wordcount: '448'
+source-wordcount: '462'
 ht-degree: 1%
 
 ---
@@ -101,7 +101,7 @@ hide: yes
 
    或
 
-   從工作區中，展開現有工作區名稱右側的向下箭頭，並選取您要編輯其記錄型別的工作區。
+   從工作區中，展開現有工作區名稱右側的向下箭頭，搜尋工作區，然後在工作區顯示在清單中時選取該工作區。
 
    工作區隨即開啟，且記錄型別隨即顯示。
 1. 將滑鼠停留在記錄型別的卡片上，然後按一下 **更多** 功能表 ![](assets/more-menu.png) 在記錄型別卡片的右上角，然後按一下 **編輯**.
@@ -130,4 +130,4 @@ hide: yes
 
    <!--check this screen shot - not sure this is valid ???-->
 
-1. （可選）展開記錄型別名稱右側的向下箭頭，並選取要編輯的其他記錄型別。
+1. （選擇性）若要編輯其他記錄型別，請展開記錄型別名稱右側的向下箭頭，搜尋記錄型別，然後在它顯示在清單中時選取它。

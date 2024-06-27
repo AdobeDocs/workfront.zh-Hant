@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: ed1c4954-b338-4865-a7a9-5ba0192e7b37
-source-git-commit: c593eab154a0942995b1f913e7189450913faac0
+source-git-commit: 8a4da96562b18977f56567f0fc5f72b369078432
 workflow-type: tm+mt
-source-wordcount: '1269'
+source-wordcount: '1273'
 ht-degree: 1%
 
 ---
@@ -139,7 +139,7 @@ ht-degree: 1%
 
    或
 
-   從工作區中，展開現有工作區名稱右側的向下箭頭，並選取您要建立記錄型別的工作區。
+   從工作區中，展開現有工作區名稱右側的向下箭頭，搜尋工作區，然後在工作區顯示在清單中時選取該工作區。
 1. （選用）按一下 **新增區段** 以新增區段至工作區。
 1. 按一下 **新增記錄型別**.
 1. （視條件而定）啟用匯入Excel或CSV檔案來建立記錄型別時，請按一下 **從頭開始**. 否則， **新增記錄型別** 方塊開啟。
@@ -230,7 +230,7 @@ ht-degree: 1%
 
    或
 
-   從工作區中，展開現有工作區名稱右側的向下箭頭，並選取您要建立記錄型別的工作區。
+   從工作區中，展開現有工作區名稱右側的向下箭頭，搜尋工作區，然後在工作區顯示在清單中時選取該工作區。
 1. 按一下 **新增記錄型別**.
 1. 按一下 **Excel/CSV**.
 1. 拖放先前儲存在電腦上的Excel或CSV檔案，或按一下 **選取CSV或Excel檔案** 以瀏覽一個。

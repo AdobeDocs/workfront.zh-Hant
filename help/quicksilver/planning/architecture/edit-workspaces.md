@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 374b6d9c-69a9-4a73-8708-51c14a78c7c9
-source-git-commit: c593eab154a0942995b1f913e7189450913faac0
+source-git-commit: 8a4da96562b18977f56567f0fc5f72b369078432
 workflow-type: tm+mt
 source-wordcount: '551'
 ht-degree: 0%
@@ -92,7 +92,7 @@ ht-degree: 0%
 
 1. 按一下工作區卡以開啟工作區。
 1. 在新工作區標題的工作區名稱內按一下以重新命名，然後按下 **輸入**.
-1. 按一下 **更多** 功能表 ![](assets/more-menu.png)工作區名稱右側，然後按一下 **編輯**.
+1. 按一下 **更多** 功能表 ![](assets/more-menu.png) 工作區名稱右側，然後按一下 **編輯**.
 
    ![](assets/edit-workspace-box.png)
 

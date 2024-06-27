@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 70fd3887-3871-45b5-9c21-f57da63662aa
-source-git-commit: c593eab154a0942995b1f913e7189450913faac0
+source-git-commit: 8a4da96562b18977f56567f0fc5f72b369078432
 workflow-type: tm+mt
-source-wordcount: '404'
+source-wordcount: '405'
 ht-degree: 2%
 
 ---
@@ -126,7 +126,7 @@ hide: yes
 
    或
 
-   從工作區中，展開現有工作區名稱右側的向下箭頭，並選取您要從中刪除記錄型別的工作區。
+   從工作區中，展開現有工作區名稱右側的向下箭頭，搜尋工作區，然後在工作區顯示在清單中時選取該工作區。
 
    工作區隨即開啟，且記錄型別隨即顯示。
 1. 執行下列其中一項：
