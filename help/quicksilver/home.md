@@ -3,7 +3,7 @@ title: 『[!DNL Adobe Workfront] documentation`
 description: 的檔案 [!DNL Adobe Workfront].
 feature: Get Started with Workfront
 exl-id: 337efdc8-ee1e-4223-a211-2cb1dcecfafa
-source-git-commit: 618267f23e5d080a5c0072370eb31188f86a1700
+source-git-commit: 31c87d326cb34a153ba17e7b9769d79d0141c113
 workflow-type: tm+mt
 source-wordcount: '335'
 ht-degree: 1%
@@ -94,7 +94,7 @@ ht-degree: 1%
 
 ### 探索學習與訓練區段
 
-* **訓練教材**：導覽至 [Workfront培訓](https://experienceleague.adobe.com/en/browse/workfront) 此頁面包含訓練影片和文章，旨在協助您更瞭解Workfront功能和設定。 您也可以存取付費培訓資料，網址為 [learning.adobe.com](http://learning.adobe.com/).
+* **訓練教材**：導覽至 [Workfront培訓](https://experienceleague.adobe.com/en/browse/workfront) 此頁面包含訓練影片和文章，旨在協助您更瞭解Workfront功能和設定。 您也可以存取付費培訓資料，網址為 [learning.adobe.com](https://learning.adobe.com/).
 * **課程**：尋找 [結構化學習課程](https://experienceleague.adobe.com/home?Solution=Workfront#courses) 以邏輯順序引導您使用各種Workfront功能。
 
 ### 在社群論壇中尋找答案

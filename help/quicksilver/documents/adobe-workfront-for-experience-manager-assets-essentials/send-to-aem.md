@@ -2,22 +2,26 @@
 product-area: documents;workfront-integrations
 navigation-topic: adobe-workfront-for-experince-manager-asset-essentials
 title: 傳送檔案至Experience Manager Assets或Assets Essentials
-description: 您可以從Workfront傳送檔案至Experience Manager Assets或Assets Essentials。 從Workfront上傳並傳送至Assets Essentials的檔案仍會計入您的整體檔案儲存。 從Assets Essentials連結的資產不會計入整體儲存空間。
+description: 您可以從Workfront傳送檔案至Experience Manager Assets或Assets Essentials。 從Workfront上傳並傳送至Assets Essentials的檔案仍會計入您的整體檔案儲存。 從Assets Essentials連結的Assets不計入整體儲存空間。
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 7942e77b-9466-4dff-9737-97b17647ac48
-source-git-commit: 825e0a04b2a49d91f9c084fa42e876f9880b2d80
+source-git-commit: 7fa4493d269862c9cdece75f0bf216931c671ea6
 workflow-type: tm+mt
-source-wordcount: '878'
+source-wordcount: '918'
 ht-degree: 0%
 
 ---
 
 # 傳送檔案至Experience Manager Assets或Assets Essentials
 
-您可以從Workfront傳送檔案至Experience Manager Assets或Assets Essentials。 從Workfront上傳並傳送至Assets Essentials的檔案仍會計入您的整體檔案儲存。 從Assets Essentials連結的資產不會計入整體儲存空間。
+<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它僅在預覽Sandbox環境中可用。</span>
 
-透過此整合傳送至Experience Manager的資產大小限製為 **5 GB**.
+您可以從Workfront傳送檔案至Experience Manager Assets或Assets Essentials。 從Workfront上傳並傳送至Assets Essentials的檔案仍會計入您的整體檔案儲存。 從Assets Essentials連結的Assets不計入整體儲存空間。
+
+透過此整合傳送至Experience Manager的Assets大小限製為 **5 GB**.
+
+<span class="preview">在預覽環境中，透過此整合傳送至Experience Manager的Assets大小限製為 **30 GB**.</span>
 
 從Workfront傳送資產至Experience Manager Assets或Assets Essentials時，會先對應中繼資料欄位。 設定為對應父物件的任何中繼資料也會一併傳送。 如需設定中繼資料對應的詳細資訊，請參閱 [設定Experience Manager Assetsas a Cloud Service整合](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md) 或 [設定Experience Manager Assets Essentials整合](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md).
 
@@ -68,7 +72,7 @@ ht-degree: 0%
 
 ## 從Workfront傳送檔案
 
-當使用者將檔案從Workfront傳送到Experience Manager Assets或Assets Essentials時，對應的中繼資料會沿著檔案傳輸。 傳送檔案後，在Workfront中對檔案中繼資料所做的變更不會反映在資產或Assets Essentials中。 如果Workfront中的對應欄位已變更，您必須將包含更新後中繼資料的新版檔案傳送至「資產」或「Assets Essentials」。 若要設定或編輯中繼資料，請參閱 [設定Experience Manager Assetsas a Cloud Service整合](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md) 或 [設定Experience Manager Assets Essentials整合](../../documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md).
+當使用者將檔案從Workfront傳送到Experience Manager Assets或Assets Essentials時，對應的中繼資料會沿著檔案傳輸。 傳送檔案後，在Workfront中對檔案中繼資料所做的變更不會反映在Assets或Assets Essentials中。 如果Workfront中的對應欄位已變更，您必須將包含更新後中繼資料的新版檔案傳送至Assets或Assets Essentials。 若要設定或編輯中繼資料，請參閱 [設定Experience Manager Assetsas a Cloud Service整合](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md) 或 [設定Experience Manager Assets Essentials整合](../../documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md).
 
 若要傳送檔案：
 
@@ -77,7 +81,7 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >Workfront管理員可為這項整合選擇任何名稱，因此可能不會特別提及資產或Assets Essentials。
+   >Workfront管理員可為這項整合選擇任何名稱，因此可能不會特別提及Assets或Assets Essentials。
 
    ![](assets/copy-of-send-to-in-toolbar-350x149.png)
 
@@ -99,7 +103,7 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >Workfront管理員可為這項整合選擇任何名稱，因此可能沒有特別提及資產或Assets Essentials。
+   >Workfront管理員可為這項整合選擇任何名稱，因此可能沒有特別提及Assets或Assets Essentials。
 
    ![](assets/copy-of-send-to-in-toolbar-350x149.png)
 
