@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8fde6efe-dcf7-47f0-bf85-c66550191066
-source-git-commit: 42db442966cff841774f894b6538f997de39adfb
+source-git-commit: 3326173517762a62630d6b7285cc8a22873a6712
 workflow-type: tm+mt
-source-wordcount: '394'
+source-wordcount: '392'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 0%
 >[!NOTE]
 >
 >* AdobeUnified Shell正在分階段推出。 其他組織將加入AdobeUnified Shell 24.10和25.1版本。
->* 預覽版本： 2024年6月20日；指定客戶的生產版本：搭配24.7版（2024年7月）
+>* 預覽版本： 2024年6月20日；指定客戶的生產版本：搭配24.7版（2024年7月18日）
 
 為了讓組織能夠存取Adobe統一體驗的各項優點，我們已經開始為現有的Workfront客戶提供這項功能。
 
@@ -45,7 +45,7 @@ Adobe Unified Experience包括：
 
 >[!NOTE]
 >
->預覽版本： 2024年6月6日；適用於所有客戶的生產：搭配24.7版（2024年7月）
+>預覽版本： 2024年6月6日；適用於所有客戶的生產：搭配24.7版（2024年7月18日）
 
 為了統一不在Unified Shell上的使用者體驗，已移除主要導覽列上的「說明」按鈕。 此按鈕未提供給Unified Shell的使用者，已連結至Workfront檔案，並且備有提供給主功能表中所有使用者使用的類似「說明」按鈕。
 

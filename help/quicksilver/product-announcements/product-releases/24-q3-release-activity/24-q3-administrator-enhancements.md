@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 56238597-f56b-43ba-8800-b80a150c6abc
-source-git-commit: d75b99987bec596c44454d77073e332441f4ed29
+source-git-commit: 3326173517762a62630d6b7285cc8a22873a6712
 workflow-type: tm+mt
-source-wordcount: '444'
+source-wordcount: '594'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,20 @@ ht-degree: 0%
 本頁說明2024年第三季度版本對「預覽」環境所做的所有管理員增強功能。 如上所述，這些增強功能將於生產環境中提供。
 
 如需2024年第三季度發行週期中目前可用的所有變更清單，請參閱 [2024年第三季度版本總覽](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).
+
+## Adobe Workfront中一般提供的自訂表單設計工具
+
+>[!NOTE]
+>
+>預覽版本： 2024年6月19日；適用於所有客戶的生產版本：搭配24.7版（2024年7月18日）。
+
+自訂表單設計工具於2023年4月發佈至測試版（23.2版），自那以後新增了更多功能，例如外部查詢欄位和Workfront原生欄位。 2024年，表單設計人員與舊版表單產生器達到功能同等。
+
+在24.7版中，表單設計人員將可正式使用，並成為在Adobe Workfront中建立和編輯自訂表單的預設體驗。 當您建立新的自訂表單或開啟現有的表單時，您將會看到表單設計工具的畫布樣式工作區。
+
+此版本後，您將無法再選擇回覆至舊版表單產生器。
+
+如需有關表單設計工具與影片示範的詳細資訊，請參閱 [表單設計工具測試版發行說明](/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-admin-enhancements.md).
 
 ## 透過環境升級在Workfront環境之間移動物件
 
@@ -51,7 +65,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->預覽版本： 2024年6月6日；適用於所有客戶的生產版本：搭配24.7版（2024年7月）
+>預覽版本： 2024年6月6日；適用於所有客戶的生產版本：搭配24.7版（2024年7月18日）
 
 您現在可以直接從Workfront中的欄位區域新增自訂欄位或Widget，而無需開啟自訂表單來建立欄位。 這可讓您快速建立可重複使用的自訂欄位。
 

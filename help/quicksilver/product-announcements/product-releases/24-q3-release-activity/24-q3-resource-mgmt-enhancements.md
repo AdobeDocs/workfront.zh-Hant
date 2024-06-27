@@ -4,9 +4,10 @@ description: 2024年第三季資源管理增強功能
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 1881803a78d1003636da558504e978316e80d064
+exl-id: 40ca0460-5a01-4df9-b3dc-72055a272072
+source-git-commit: 3326173517762a62630d6b7285cc8a22873a6712
 workflow-type: tm+mt
-source-wordcount: '182'
+source-wordcount: '181'
 ht-degree: 0%
 
 ---
@@ -21,7 +22,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->預覽版本： 2024年6月6日；適用於所有客戶的生產版本：搭配24.7版（2024年7月）
+>預覽版本： 2024年6月6日；適用於所有客戶的生產版本：搭配24.7版（2024年7月18日）
 
 為了在任務的主要受指派人排程休假時順暢地調整工作，現在重新計算專案時間表時，工作負載平衡器會重新分配時數給主要和次要使用者。 (此功能僅在Workfront管理員已啟用「設定」區域中的「使用者休假」設定以考慮使用者的休假時可用。)
 

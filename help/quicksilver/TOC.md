@@ -3,9 +3,9 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文件、教學課程和其他資源，了解如何在您的組織中實施並有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: c4ee5b01750d28b2715c35594123ebe8619c2508
+source-git-commit: 3326173517762a62630d6b7285cc8a22873a6712
 workflow-type: tm+mt
-source-wordcount: '14367'
+source-wordcount: '14371'
 ht-degree: 1%
 
 ---
@@ -23,6 +23,7 @@ ht-degree: 1%
          * [2024年第3季版本總覽](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md)
          * [2024年第3季管理員增強功能](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-administrator-enhancements.md)
          * [2024年第3季Financial Management增強功能](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-financial-mgmt-enhancements.md)
+         * [2024年第3季整合增強功能](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-integration-enhancements.md)
          * [2024年第3季專案增強功能](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-project-enhancements.md)
          * [2024年第3季資源管理增強功能](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-resource-mgmt-enhancements.md)
          * [2024年第3季發行時間範圍內的其他增強功能](product-announcements/product-releases/24-q3-release-activity/24-q3-other-enhancements.md)

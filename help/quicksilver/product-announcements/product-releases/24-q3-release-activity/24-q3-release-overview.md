@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 372aa2c2-5deb-49da-aadc-6e870bbd083a
-source-git-commit: 42db442966cff841774f894b6538f997de39adfb
+source-git-commit: d53be1bfb102f4b7fb81bfc9b7dc4bb313dab421
 workflow-type: tm+mt
-source-wordcount: '1440'
+source-wordcount: '1616'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 本頁提供2024年第三季度版本中包含的功能相關資訊。 這些增強功能預計會在整個季度內於生產環境中提供。
 
-24.7版本網路研討會將於2024年6月27日舉行。 您可以 [在這裡報名參加網路講座](https://webinars.on24.com/adobe_workfront/whatsnewin247?partnerref=releaseoverview).
+即時24.7版本網路研討會已取消，但您仍可 [在這裡觀看24.7功能的影片示範](https://video.tv.adobe.com/v/3430532/%20).
 
 <span class="preview">非週期功能（在2024年第三季度發行日期之前發佈到生產環境的功能）會以黃色醒目提示。</span>
 
@@ -28,7 +28,7 @@ ht-degree: 0%
 >
 >| 每月發行 | 每季發行 |
 >|----|----|
->| <ul><li>24.5 （2024年5月16日）</li><li>24.6 （2024年6月13日）</li><li>24.7 （2024年7月）</li></ul> | <ul><li>24.7 （2024年7月）</li></ul> |
+>| <ul><li>24.5 （2024年5月16日）</li><li>24.6 （2024年6月13日）</li><li>24.7 （2024年7月18日）</li></ul> | <ul><li>24.7 （2024年7月18日）</li></ul> |
 >
 >如需快速發行流程的詳細資訊，請參閱 [啟用或停用快速發行程式](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).
 
@@ -36,6 +36,7 @@ ht-degree: 0%
 
 * [管理員增強功能](#administrator-enhancements)
 * [Financial Management增強功能](#financial-management-enhancements)
+* [整合增強功能](#integration-enhancements)
 * [專案增強功能](#project-enhancements)
 * [資源管理增強功能](#resource-management-enhancements)
 * [其他增強功能](#other-enhancements)
@@ -54,6 +55,23 @@ ht-degree: 0%
                     <td>
                         <p><span class="bold">發行日期</span>
                         </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-administrator-enhancements.md">Adobe Workfront中一般提供的自訂表單設計工具</a></p>
+                        <p>在24.7版中，表單設計人員將可正式使用，並成為在Adobe Workfront中建立和編輯自訂表單的預設體驗。 當您建立新的自訂表單或開啟現有的表單時，您將會看到表單設計工具的畫布樣式工作區。</p>
+                        <p>此版本後，您將無法再選擇回覆至舊版表單產生器。</p>
+                    </td>
+                    <td><p><b>將於下列日期提供：</b></p>
+                        <ul>
+                            <li>
+                                <p>預覽版本： 2024年6月19日</p>
+                            </li>
+                            <li>
+                                <p>適用於所有客戶的生產版本：搭配24.7版（2024年7月18日）</p>
+                            </li>
+                        </ul>
                     </td>
                 </tr>
                 <tr>
@@ -98,7 +116,7 @@ ht-degree: 0%
                                 <p>預覽版本： 2024年6月6日</p>
                             </li>
                             <li>
-                                <p>適用於所有客戶的生產版本：搭配24.7版（2024年7月）</p>
+                                <p>適用於所有客戶的生產版本：搭配24.7版（2024年7月18日）</p>
                             </li>
                         </ul>
                     </td>
@@ -165,6 +183,46 @@ ht-degree: 0%
            </tbody>
         </table>
 
+### 整合增強功能
+
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 50%;" />
+            <tbody>
+                <tr>
+                    <td>
+                        <p><span class="bold">功能</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">發行日期</span>
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">適用於Experience Manager Assets的Workfront及Assets Essentials改善</a></p>
+                        [！BADGE New in Preview ]{type=Negative}
+                        <p>我們已針對Experience Manager Assets與Assets Essentials整合的Workfront進行下列改善：</p>
+                        <ul>
+                            <li><p>整合現在支援GCP作為雲端服務提供者。 先前已支援AWS和Azure。</p></li>
+                            <li><p>透過整合傳送至Experience Manager的檔案大小限制已提高至30 GB。 先前的限製為5 GB。</p></li>
+                        </ul>
+                    </td>
+                    <td><p><b>將於下列日期提供：</b></p>
+                        <ul>
+                            <li>
+                                <p>預覽版本： 2024年6月27日</p>
+                            </li>
+                            <li>
+                                <p>適用於所有客戶的生產：24.7版（2024年7月18日）</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>             
+           </tbody>
+        </table>
+
 ### 專案增強功能
 
 <table>
@@ -196,7 +254,7 @@ ht-degree: 0%
                                 <p>快速發行生產：24.6版（2024年6月13日）</p>
                             </li>
                             <li>
-                                <p>適用於所有客戶的生產版本：搭配24.7版（2024年7月）</p>
+                                <p>適用於所有客戶的生產版本：搭配24.7版（2024年7月18日）</p>
                             </li>
                         </ul>
                     </td>
@@ -216,7 +274,7 @@ ht-degree: 0%
                                 <p>快速發行生產：第24.5發行版本（2024年5月16日）</p>
                             </li>
                             <li>
-                                <p>適用於所有客戶的生產版本：搭配24.7版（2024年7月）</p>
+                                <p>適用於所有客戶的生產版本：搭配24.7版（2024年7月18日）</p>
                             </li>
                         </ul>
                     </td>
@@ -236,7 +294,7 @@ ht-degree: 0%
                                 <p>快速發行生產：第24.5發行版本（2024年5月16日）</p>
                             </li>
                             <li>
-                                <p>適用於所有客戶的生產版本：搭配24.7版（2024年7月）</p>
+                                <p>適用於所有客戶的生產版本：搭配24.7版（2024年7月18日）</p>
                             </li>
                         </ul>
                     </td>
@@ -271,7 +329,7 @@ ht-degree: 0%
                                 <p>預覽版本： 2024年6月6日</p>
                             </li>
                             <li>
-                                <p>適用於所有客戶的生產版本：搭配24.7版（2024年7月）</p>
+                                <p>適用於所有客戶的生產版本：搭配24.7版（2024年7月18日）</p>
                             </li>
                         </ul>
                     </td>
@@ -306,7 +364,7 @@ ht-degree: 0%
                                 <p>預覽版本： 2024年6月20日</p>
                             </li>
                             <li>
-                                <p>特定客戶專用生產：24.7版（2024年7月）</p>
+                                <p>指定客戶的生產：搭配24.7版（2024年7月18日）</p>
                             </li>
                          </ul>
                          <span style="color: #ff0000;">AdobeUnified Shell正在分階段推出。 其他組織將加入AdobeUnified Shell 24.10和25.1版本。 </p>
@@ -323,7 +381,7 @@ ht-degree: 0%
                                 <p>預覽版本： 2024年6月6日</p>
                             </li>
                             <li>
-                                <p>適用於所有客戶的生產版本：搭配24.7版（2024年7月）</p>
+                                <p>適用於所有客戶的生產版本：搭配24.7版（2024年7月18日）</p>
                             </li>
                         </ul>
                     </td>
@@ -343,7 +401,7 @@ ht-degree: 0%
                                 <p>快速發行生產：第24.5發行版本（2024年5月16日）</p>
                             </li>
                             <li>
-                                <p>每季發行生產：24.7版 </p>
+                                <p>每季發行生產：24.7版（2024年7月18日）</p>
                             </li>
                         </ul>
                     </td>
