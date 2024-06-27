@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: d86cf3f9-cacc-4457-acb3-a5122ae91be8
-source-git-commit: 7882b67578cd5b8792ce582ebab118c8993c9214
+source-git-commit: 64f187ed78b69db9b9ac0259e96ef0bf47abf4f4
 workflow-type: tm+mt
-source-wordcount: '689'
+source-wordcount: '676'
 ht-degree: 1%
 
 ---
@@ -78,7 +78,7 @@ ht-degree: 1%
 <tr>
    <td role="rowheader"><p>權限</p></td>
    <td> <p>在Workfront中，檢視專案、專案組合或方案的或更高許可權</a> </p> 
-   <p>在Workfront Planning中，檢視或更高的工作區許可權</a> </p>  
+   <p>在Workfront Planning、Contribute或工作區的較高許可權中</a> </p>  
    <p>系統管理員擁有所有Workfront Planning工作區的許可權，包括他們未建立的工作區</p>
 </td>
   </tr>
@@ -103,7 +103,6 @@ ht-degree: 1%
    * [連接記錄](/help/quicksilver/planning/records/connect-records.md)
 * 即使沒有與Workfront物件相關聯的記錄，您仍可以在Workfront物件中檢視Planning區段。
 * 當至少有一筆記錄連線至Workfront物件時，您可以在Planning區段中，將Planning記錄與Workfront的Workfront物件連線。
-* 您必須擁有工作區的管理許可權，才能從Workfront物件連線記錄。
 
 ## 管理Planning區段中的記錄
 
@@ -114,8 +113,8 @@ ht-degree: 1%
    工作區隨即開啟，且記錄型別會顯示為卡片。
 
 1. 按一下連線到Workfront專案、投資組合或方案的記錄型別的卡片。
-1. 從中選擇表格檢視 **檢視** 下拉式功能表。
-1. （視條件而定）前往表格中的已連線記錄欄位並新增Workfront物件，然後按一下欄位中的Workfront物件名稱。 如需詳細資訊，請參閱 [連線記錄](/help/quicksilver/planning/records/connect-records.md).
+1. 在表格檢視或記錄的詳細資訊頁面中，移至與Workfront物件有連線的已連線記錄欄位。 如需詳細資訊，請參閱 [連線記錄](/help/quicksilver/planning/records/connect-records.md).
+1. 在連線的記錄欄位中按一下Workfront物件的名稱。
 物件的頁面會在Workfront Planning中開啟。
 1. 按一下 **移至來源**，位於畫面的右上角。
 
@@ -148,7 +147,7 @@ ht-degree: 1%
 
    >[!NOTE]
    >
-   >   「連線」按鈕只會在您擁有Contribute許可權的工作區顯示。 <!--they might replace this with one button at the top of the page. Rephrase-->
+   >   「連線」按鈕只會在您擁有Contribute許可權的工作區中顯示。 <!--they might replace this with one button at the top of the page. Rephrase-->
 
 1. 按一下您要連線的記錄。 會發生下列情況：
 
