@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 372aa2c2-5deb-49da-aadc-6e870bbd083a
-source-git-commit: d53be1bfb102f4b7fb81bfc9b7dc4bb313dab421
+source-git-commit: abc172f312d9b6695fa57598c2c0396d30ff2a95
 workflow-type: tm+mt
-source-wordcount: '1616'
+source-wordcount: '1666'
 ht-degree: 0%
 
 ---
@@ -38,6 +38,7 @@ ht-degree: 0%
 * [Financial Management增強功能](#financial-management-enhancements)
 * [整合增強功能](#integration-enhancements)
 * [專案增強功能](#project-enhancements)
+* [校訂增強功能](#proofing-enhancements)
 * [資源管理增強功能](#resource-management-enhancements)
 * [其他增強功能](#other-enhancements)
 
@@ -299,6 +300,41 @@ ht-degree: 0%
                         </ul>
                     </td>
                  </tr>
+           </tbody>
+        </table>
+
+### 校訂增強功能
+
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 50%;" />
+            <tbody>
+                <tr>
+                    <td>
+                        <p><span class="bold">功能</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">發行日期</span>
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-proofing-enhancements.md" class="MCXref xref" xrefformat="{para}">案頭校訂檢視器的安全性更新</a></p>
+                        <p>Workfront Proof Desktop Proofing Viewer 2.1.35安全性更新針對舊版中已發現的弱點提供安全性錯誤修正。</p>
+                    </td>
+                    <td><p><b>將於下列日期提供：</b></p>
+                        <ul>
+                            <li>
+                                <p>預覽版本： 2024年7月</p>
+                            </li>
+                            <li>
+                                <p><span class="preview">適用於所有客戶的生產： 2024年7月4日</span></p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>             
            </tbody>
         </table>
 
