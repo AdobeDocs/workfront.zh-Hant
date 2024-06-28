@@ -1,19 +1,19 @@
 ---
-title: Adobe Workfront Planning發行活動
+title: Adobe Workfront Planning目前發行活動
 description: Adobe Workfront規劃功能目前可供特定Workfront客戶使用。 請經常閱讀本文章，瞭解最近針對規劃功能發行的功能。
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 8a4da96562b18977f56567f0fc5f72b369078432
+source-git-commit: e1e3b8b9f5497af47e14c0f54dfae8f2134b5159
 workflow-type: tm+mt
-source-wordcount: '5143'
+source-wordcount: '5234'
 ht-degree: 0%
 
 ---
 
 
-# Adobe Workfront Planning發行活動
+# Adobe Workfront Planning目前發行活動
 
 <!--this article is linked to the WF Planning landing page - do not change URL or move it; send the team a new URL after we add the redirects for this page-->
 
@@ -33,7 +33,7 @@ ht-degree: 0%
 
 本文列出2024年發行給Workfront Planing的功能。
 
-Workfront規劃程式已於2023年5月22日開始執行。 如需2023年期間發行的所有功能清單，請參閱 [2023年Adobe Workfront計畫發行活動](/help/quicksilver/planning/general/release-activity-archives-2023.md).
+Workfront規劃程式已於2023年5月22日開始執行。 如需2023年期間發行的所有功能清單，請參閱 [2023年Adobe Workfront Planning發行活動封存](/help/quicksilver/planning/general/release-activity-archives-2023.md).
 
 已發行的功能會依其發行順序列出，最新的排在前。 參與Workfront Planning計畫的客戶可存取其生產環境中的所有功能。
 
@@ -54,6 +54,16 @@ If your organization is not in the Adobe Unified Experience, you receive an emai
 For more information, see [Adobe Workfront Planning notifications: Article index](/help/quicksilver/planning/notifications/notifications-information.md). -->
 
 ## 2024年6月24日起一週
+
+### Workfront AI Assistant （測試版）現在可供Workfront規劃使用
+
+AI Assistant （測試版）現在可供Workfront規劃使用。
+
+AI助理會在所選頁面的內容中運作，並使用您的存取和許可權層級來執行下列動作：產生、更新、移除或還原記錄。
+
+AI助理目前處於測試階段，可供特定客戶使用。 請聯絡您的客戶代表，瞭解您是否有資格參與此階段。
+
+如需詳細資訊，請參閱 [Adobe Workfront Planning AI Assistant概觀](/help/quicksilver/planning/general/planning-ai-assistant-overview.md).
 
 ### 選取工作區或記錄型別時新增搜尋方塊
 

@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: 8bfada77ac7b1b2a8d8fb2feec8a8167a1397cdc
+source-git-commit: e1e3b8b9f5497af47e14c0f54dfae8f2134b5159
 workflow-type: tm+mt
-source-wordcount: '1965'
+source-wordcount: '1967'
 ht-degree: 2%
 
 ---
@@ -59,7 +59,7 @@ Adobe Workfront規劃是Adobe Workfront的新產品。 Workfront Planning的目�
 
 下表說明Workfront Planning中可用的主要功能，及其可用性的時間表。 此清單並未包含所有功能。
 
-有關新功能及其發行時間的資訊，請參閱 [Adobe Workfront Planning發行活動](/help/quicksilver/planning/general/release-activity.md).
+有關新功能及其發行時間的資訊，請參閱 [Adobe Workfront Planning目前發行活動](/help/quicksilver/planning/general/release-activity.md).
 
 | 功能 | 現在可用 | 即將推出 | 研究中 |
 |----------------------------------------------------|:-----------------------------:|:--------------------------------:|:----------------:|
@@ -116,7 +116,7 @@ Workfront Planning的架構可完全自訂。 您可以建立所有記錄型別�
 
 以下是主要的Workfront Planning物件和概念：
 
-* **工作區**：定義特定組織作業生命週期的記錄型別集合。 工作區是組織單位的工作框架。
+* **Workspace**：定義特定組織作業生命週期的記錄型別集合。 工作區是組織單位的工作框架。
 
   一個Workfront例項最多可以有1,000個工作區。
 
@@ -144,7 +144,7 @@ Workfront Planning的架構可完全自訂。 您可以建立所有記錄型別�
 
   如需詳細資訊，請參閱 [建立記錄](/help/quicksilver/planning/records/create-records.md).
 
-* **工作區範本**：您可以使用預先定義的範本建立工作區。 您可以使用範本中預先定義的記錄型別和欄位，也可以新增您自己的記錄型別和欄位。
+* **Workspace範本**：您可以使用預先定義的範本建立工作區。 您可以使用範本中預先定義的記錄型別和欄位，也可以新增您自己的記錄型別和欄位。
 
   ![](assets/workspaces-page-with-templates-thumbnails.png)
 
@@ -328,5 +328,5 @@ Workfront Planning的架構可完全自訂。 您可以建立所有記錄型別�
 
 我們會定期為Workfront Planning發佈新功能。
 
-如需最新已發行功能清單，請參閱 [Adobe Workfront Planning發行活動](/help/quicksilver/planning/general/release-activity.md)
+如需最新已發行功能清單，請參閱 [Adobe Workfront Planning目前發行活動](/help/quicksilver/planning/general/release-activity.md)
 

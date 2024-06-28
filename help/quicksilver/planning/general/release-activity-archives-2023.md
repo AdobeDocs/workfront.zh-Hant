@@ -1,12 +1,12 @@
 ---
-title: 2023年Adobe Workfront計畫發行活動
+title: 2023年Adobe Workfront Planning發行活動封存
 description: Adobe Workfront規劃功能目前可供特定Workfront客戶使用。 請經常閱讀本文章，瞭解最近針對規劃功能發行的功能。
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 8a4da96562b18977f56567f0fc5f72b369078432
+source-git-commit: e1e3b8b9f5497af47e14c0f54dfae8f2134b5159
 workflow-type: tm+mt
-source-wordcount: '2987'
+source-wordcount: '2989'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ ht-degree: 0%
 
 本文列出2023年5月22日Adobe Workfront規劃方案（2023年）推出後所發行的功能。
 
-如需2024年期間發行的功能資訊，請參閱 [Adobe Workfront Planning發行活動](/help/quicksilver/planning/general/release-activity.md).
+如需2024年期間發行的功能資訊，請參閱 [Adobe Workfront Planning目前發行活動](/help/quicksilver/planning/general/release-activity.md).
 
 已發行的功能會依其發行順序列出，最新的排在前。 參與Workfront Planning計畫的客戶可存取其生產環境中的所有功能。
 
