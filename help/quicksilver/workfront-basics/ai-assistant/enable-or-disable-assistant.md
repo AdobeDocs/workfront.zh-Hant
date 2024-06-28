@@ -7,14 +7,23 @@ feature: Get Started with Workfront
 hide: true
 hidefromtoc: true
 exl-id: eec9f484-e29b-4256-b9ef-b45eb2e78eac
-source-git-commit: d698a0a4f262bb0b4008c18875473b63997de6ef
+source-git-commit: fdee3747716f22e291234a2e0ad626eb5a27feda
 workflow-type: tm+mt
-source-wordcount: '207'
+source-wordcount: '244'
 ht-degree: 1%
 
 ---
 
 # 啟用或停用AI助理
+
+>[!IMPORTANT]
+>
+>目前，AI助理僅供有限數量的Workfront和Workfront Planning客戶使用。
+>
+>* Workfront： AI Assistant測試版
+>* Workfront規劃：搶先使用
+>
+>若您屬於上述任一群組，您的客戶代表可通知您。
 
 身為Workfront管理員，您可以控制組織中哪些使用者已啟用AI助理。 這項作業可透過存取層級來管理。
 
