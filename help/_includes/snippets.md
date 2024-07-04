@@ -1,5 +1,5 @@
 ---
-source-git-commit: 9960d5a100e710afefed3036958a3435528cafa3
+source-git-commit: d0940962d0e64079dadc8c93f5503a01afd9fb8b
 workflow-type: tm+mt
 source-wordcount: '2510'
 ht-degree: 1%
@@ -327,7 +327,7 @@ ht-degree: 1%
 
 ## 最新DPV版本 {#latest-version}
 
-**最新版本**：截至2024年3月6日的2.1.34
+**最新版本**：截至2024年7月4日的2.1.35
 
 <!-- Release -->
 
