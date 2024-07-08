@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 56238597-f56b-43ba-8800-b80a150c6abc
-source-git-commit: 3326173517762a62630d6b7285cc8a22873a6712
+source-git-commit: ff192113a73e19bf21a3e459cd793f82179dff3d
 workflow-type: tm+mt
-source-wordcount: '594'
+source-wordcount: '685'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,22 @@ ht-degree: 0%
 本頁說明2024年第三季度版本對「預覽」環境所做的所有管理員增強功能。 如上所述，這些增強功能將於生產環境中提供。
 
 如需2024年第三季度發行週期中目前可用的所有變更清單，請參閱 [2024年第三季度版本總覽](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).
+
+## 商業規則現已可用
+
+>[!NOTE]
+>
+>預覽版本： 2024年7月4日；適用於所有客戶的生產版本：搭配24.7版（2024年7月18日）。
+
+管理員現在可以在Workfront的設定區域中新增商業規則。
+
+商業規則可讓您套用驗證至Workfront物件，並防止使用者在滿足某些條件時建立、編輯或刪除物件。 規則是使用與自訂表單中計算欄位類似的公式來建置。
+
+如需詳細資訊，請參閱 [建立和編輯商業規則](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/business-rules.md).
+
+>[!IMPORTANT]
+>
+>商業規則僅適用於使用新Ultimate計畫的組織。
 
 ## Adobe Workfront中一般提供的自訂表單設計工具
 

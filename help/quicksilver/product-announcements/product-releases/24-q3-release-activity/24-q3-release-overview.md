@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 372aa2c2-5deb-49da-aadc-6e870bbd083a
-source-git-commit: abc172f312d9b6695fa57598c2c0396d30ff2a95
+source-git-commit: 0965c9a02496127bbf9b562784ff06c295dc0cf1
 workflow-type: tm+mt
-source-wordcount: '1666'
+source-wordcount: '1740'
 ht-degree: 0%
 
 ---
@@ -56,6 +56,23 @@ ht-degree: 0%
                     <td>
                         <p><span class="bold">發行日期</span>
                         </p>
+                    </td>
+                </tr>
+                                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-administrator-enhancements.md">商業規則現已可用</a></p>
+                        <p>管理員現在可以在Workfront的設定區域中新增商業規則。</p>
+                        <p>商業規則可讓您套用驗證至Workfront物件，並防止使用者在滿足某些條件時建立、編輯或刪除物件。 規則是使用與自訂表單中計算欄位類似的公式來建置。</p>
+                    </td>
+                    <td><p><b>將於下列日期提供：</b></p>
+                        <ul>
+                            <li>
+                                <p>預覽版本： 2024年7月4日</p>
+                            </li>
+                            <li>
+                                <p>適用於所有客戶的生產版本：搭配24.7版（2024年7月18日）</p>
+                            </li>
+                        </ul>
                     </td>
                 </tr>
                 <tr>
