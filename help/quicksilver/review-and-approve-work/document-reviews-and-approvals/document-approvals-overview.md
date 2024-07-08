@@ -6,10 +6,10 @@ description: 您可以將其他核准者或稽核者新增至已有待核准的�
 author: Nolan
 feature: Work Management, Digital Content and Documents
 exl-id: 32cb95c2-8d12-492b-ad89-b38e2a337fc5
-source-git-commit: 04743d6915c938564dc349db4e438682ea220ebc
+source-git-commit: 6758b90636bf1c5b05934150b83f9350d040a38e
 workflow-type: tm+mt
-source-wordcount: '505'
-ht-degree: 1%
+source-wordcount: '478'
+ht-degree: 2%
 
 ---
 
@@ -41,13 +41,9 @@ ht-degree: 1%
 
 ## 發行計畫
 
-我們正在發行數個版本期間提供新檔案核准給使用者。 除了新增功能外，我們也會增加每個版本中新檔案核准可用的帳戶數量。 帳戶管理員在加入宣告中心前，會收到通知他們變更的電子郵件。
+我們正在發行數個版本期間提供新檔案核准給使用者。 除了新增功能外，我們也會增加每個版本中新檔案核准可用的帳戶數量。
 
 如果您想要在生產環境中啟用新檔案核准，請聯絡您的客戶成功案例或策略客戶經理。
-
-**版本1**\
-    預覽： 2023年5月31日\
-    生產： 2023年6月14日
 
 ## 使用新檔案核准
 

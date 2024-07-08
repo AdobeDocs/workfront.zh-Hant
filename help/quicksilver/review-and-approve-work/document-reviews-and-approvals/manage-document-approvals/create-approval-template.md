@@ -5,13 +5,13 @@ title: 建立核准範本
 description: 您可以建立核准範本以簡化核准流程。
 author: Courtney
 feature: Work Management, Digital Content and Documents
-source-git-commit: 8321138e6bc2c789a3f4f0fc97fb4fb01ad429ae
+exl-id: c18d6c6d-1a09-47c5-af4e-027f7cc48cd7
+source-git-commit: 0d828f8dd316c332b98066a9bb797c534eeace3d
 workflow-type: tm+mt
-source-wordcount: '224'
+source-wordcount: '228'
 ht-degree: 2%
 
 ---
-
 
 # 建立核准範本
 
@@ -37,7 +37,10 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront授權*</td> 
-   <td> <p>標準</p> </td> 
+   <td> <p>新增：標準</p> 
+   <p>或</p>
+   <p>目前：計畫</p>
+   </td> 
   </tr> 
  </tbody> 
 </table>
@@ -65,4 +68,3 @@ ht-degree: 2%
 
 <!-- Once a template is created, it can be applied to assets sent from Frame.io to begin the formal review and approval process in Workfront.
 ![](assets/assign-template.png)-->
-
