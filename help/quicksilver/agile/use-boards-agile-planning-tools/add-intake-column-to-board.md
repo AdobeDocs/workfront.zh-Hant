@@ -7,7 +7,7 @@ description: 您可以選擇將輸入欄新增到您的展示板，在任務與�
 author: Lisa
 feature: Agile
 exl-id: 4991f4f7-6f3d-4e15-ae8d-96433ed46557
-source-git-commit: d2d96baa060cb3306f1767d179d514b569b0156a
+source-git-commit: 14448432922ec1fa478b805dead2ba1e6c211e86
 workflow-type: tm+mt
 source-wordcount: '1108'
 ht-degree: 3%
@@ -166,5 +166,3 @@ ht-degree: 3%
    按一下 **[!UICONTROL 更多]** 功能表 ![更多選單圖示](assets/more-icon-spectrum.png) ，然後選取「 」 **[!UICONTROL 移動]**. 然後，在 **[!UICONTROL 移動專案]** 方塊，選擇另一欄，然後選取 **[!UICONTROL 移動]**.
 
 1. （選用）若要刪除輸入欄，請按一下 **[!UICONTROL 更多]** 功能表 ![更多選單圖示](assets/more-icon-spectrum.png) 並選取 **[!UICONTROL 刪除]**.
-
-
