@@ -7,10 +7,10 @@ description: 您可以選擇將輸入欄新增到您的展示板，在任務與�
 author: Lisa
 feature: Agile
 exl-id: 4991f4f7-6f3d-4e15-ae8d-96433ed46557
-source-git-commit: 1b91cac202151cd60f16b4ef034b60f840088aea
+source-git-commit: 4fd097395a3122caa5ba63765e572186c31c75ac
 workflow-type: tm+mt
-source-wordcount: '1090'
-ht-degree: 1%
+source-wordcount: '1108'
+ht-degree: 3%
 
 ---
 
@@ -21,6 +21,10 @@ ht-degree: 1%
 展示板上只允許有一個輸入欄，且一律顯示為最左側的欄。
 
 動態展示板上沒有輸入欄。 不過，您可以更新篩選器，以定義將哪些卡片帶入動態展示板。 在動態板上變更這些篩選器時，不會成為Workfront任務或問題一部分的卡片設定（例如標籤）會重設。
+
+>[!NOTE]
+>
+>基於安全考量，只有展示板的擁有者才能在「設定」面板變更展示板篩選器。
 
 輸入欄限製為300個任務和300個問題。 在輸入欄中的專案預設順序如下：
 
