@@ -6,9 +6,9 @@ description: 篩選和條件修飾元可讓您建立篩選器，並建立格式�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 13e9d926-8a89-490e-aa7a-e6e8baf2a36b
-source-git-commit: d2268e50080ddbe306731d034d88fd29b712b86d
+source-git-commit: c915c282c6258300b01600dd5b6247e96bf45185
 workflow-type: tm+mt
-source-wordcount: '1516'
+source-wordcount: '1566'
 ht-degree: 0%
 
 ---
@@ -127,16 +127,16 @@ ht-degree: 0%
    <td> <p><strong>不等於</strong> </p> </td> 
    <td> <p><strong>notin</strong> </p> </td> 
    <td> <p>這是 <i>區分大小寫</i> 反向 <strong>在</strong>. 它只傳回指定清單以外的結果。</p> <p>此修飾元只能用於文字模式篩選中。 如需有關篩選器中文字模式的詳細資訊，請參閱 <a href="../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md" class="MCXref xref">使用文字模式編輯篩選器</a>.</p> <p>注意： <span>如果您要篩選的欄位有多個選項，這會篩選出包含您指定之選擇、您指定之選擇以及任何其他選擇的結果。</span> </p> </td> 
-  </tr> 
+  </tr>
+  <tr valign="top"> 
+   <td> <p> </p> </td> 
+   <td> <p><strong>按讚</strong> </p> </td> 
+   <td> <p>此修飾元會搜尋 <i>區分大小寫</i> 文字字串與 <strong>包含</strong>. 不過， <strong>按讚</strong> 提供插入萬用字元來分隔文字的功能。</p> <p>例如，搜尋備註時，使用 <code>like %Current% %Dead%</code> 傳回任何包含片語「Current to Dead」的備註。 其中不包含任何包含「無效至目前」的備註。 每個值都會依照其列出的順序進行搜尋。 %代表萬用字元取代文字的字元或區段。 底線也可用於單一萬用字元，如 <code>like Project_</code> 會同時傳回「專案」和「專案」。 如果您打算使用 <strong>按讚</strong> 或 <strong>clike</strong> 修飾元在篩選中，我們建議避免在自訂資料欄位名稱、引數選項值或其他物件名稱中使用%或_字元。</p><p>此修飾元只能用於文字模式篩選中。 如需有關篩選器中文字模式的詳細資訊，請參閱 <a href="../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md" class="MCXref xref">使用文字模式編輯篩選器</a>.</p> </td> 
+  </tr>  
   <tr valign="top"> 
    <td> <p> </p> </td> 
    <td> <p><strong>cilike</strong> </p> </td> 
    <td> <p>這是 <i>區分大小寫</i> 版本 <strong>按讚</strong>. 例如： <code>cilike %Current% %Dead%</code> 傳回任何包含 <code>Current to Dead</code> 或 <code>current to dead</code>.</p> <p>此修飾元只能用於文字模式篩選中。 如需有關篩選器中文字模式的詳細資訊，請參閱 <a href="../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md" class="MCXref xref">使用文字模式編輯篩選器</a>.</p> </td> 
-  </tr> 
-  <tr valign="top"> 
-   <td> <p> </p> </td> 
-   <td> <p><strong>按讚</strong> </p> </td> 
-   <td> <p>此修飾元會搜尋 <i>區分大小寫</i> 文字字串與 <strong>包含</strong>. 不過， <strong>按讚</strong> 提供插入萬用字元來分隔文字的功能。</p> <p>例如，搜尋備註時，使用 <code>like %Current% %Dead%</code> 傳回任何包含片語「Current to Dead」的備註。 其中不包含任何包含「無效至目前」的備註。 每個值都會依照其列出的順序進行搜尋。 %代表萬用字元取代文字的字元或區段。</p> <p>此修飾元只能用於文字模式篩選中。 如需有關篩選器中文字模式的詳細資訊，請參閱 <a href="../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md" class="MCXref xref">使用文字模式編輯篩選器</a>.</p> </td> 
   </tr> 
   <tr valign="top"> 
    <td><strong>不存在</strong> </td> 

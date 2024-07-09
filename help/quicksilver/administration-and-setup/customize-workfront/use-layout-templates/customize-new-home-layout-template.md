@@ -8,9 +8,9 @@ author: Nolan
 feature: System Setup and Administration
 role: Admin
 exl-id: b9997e79-a893-49dd-8c90-290399b2d2f7
-source-git-commit: 9de4a3729abe0ea2ee89df0be2974b714e65332a
+source-git-commit: c915c282c6258300b01600dd5b6247e96bf45185
 workflow-type: tm+mt
-source-wordcount: '812'
+source-wordcount: '829'
 ht-degree: 1%
 
 ---
@@ -67,7 +67,7 @@ ht-degree: 1%
 
 1. 開始使用版面範本，如所述 [建立及管理版面範本](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
 
-1. 按一下向下箭頭 ![](assets/dropdown-arrow.png) 在 **自訂使用者看到的內容**，然後按一下 **首頁工作區**.
+1. 按一下向下箭頭 ![](assets/dropdown-arrow.png) 在 **自訂使用者看到的內容**，然後按一下 **首頁Workspace**.
 
 1. 在右側顯示的標籤中，按一下 **設計與配置** 選擇並排列Widget與背景，或 **Widget設定** 管理個別Widget的設定，例如可用的篩選器和群組。
 
@@ -132,3 +132,8 @@ ht-degree: 1%
    或
 
    如果您已完成自訂，請按一下 **儲存** 左下角。
+
+
+>[!NOTE]
+>
+>管理員自訂自己的版面配置範本，必須重新整理頁面才能看到變更。
