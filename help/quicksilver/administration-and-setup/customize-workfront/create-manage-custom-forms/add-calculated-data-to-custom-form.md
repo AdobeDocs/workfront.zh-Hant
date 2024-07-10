@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 9174c4ef-3beb-4d47-9c5c-363f52105a2c
-source-git-commit: 6b2a2160b5daaa94374707bad4b026daa13edf06
+source-git-commit: 02b025f228b6e2abc58dbc30f88c055c7850b803
 workflow-type: tm+mt
-source-wordcount: '2911'
+source-wordcount: '2895'
 ht-degree: 0%
 
 ---
@@ -300,7 +300,7 @@ ht-degree: 0%
 
 ## 多物件自訂表單中的已計算自訂欄位 {#calculated-custom-fields-in-multi-object-custom-forms}
 
-在多物件自訂表單中，選取的物件型別必須與表單的計算自訂欄位中參考的所有欄位相容。 如果發生不相容的情況，訊息會警告您進行調整。
+在多物件自訂表單中，選取的物件型別必須與表單的計算自訂欄位中參考的所有欄位相容。
 
 >[!INFO]
 >
@@ -310,11 +310,11 @@ ht-degree: 0%
 >
 >`{assignedTo}.{name}`
 >
->您稍後會將Project物件型別新增至自訂表單。 警告訊息會告訴您Project物件型別與計算的自訂欄位不相容。
+>您稍後會將Project物件型別新增至自訂表單，但Project物件型別與計算的自訂欄位不相容。
 
 發生此情況時，您可以執行下列任一項作業：
 
-* 從自訂表單中移除兩個不相容的專案之一：物件型別或參照的計算自訂欄位。
+* 從自訂表單中移除兩個不相容的專案之一 — 物件型別或參照的計算自訂欄位。
 * 保留這兩個專案並使用萬用字元篩選器變數 `$$OBJCODE` 作為IF運算式中的條件，以建立兩個不同版本的In Charge欄位。 這允許欄位成功運作，無論表單附加到的物件型別為何。
 
 >[!INFO]
@@ -325,7 +325,7 @@ ht-degree: 0%
 >
 >`IF($$OBJCODE="PROJ",{owner}.{name},{assignedTo}.{name})`
 
-如需變數的詳細資訊，例如 `$$OBJCODE,` 另請參閱 [萬用字元篩選器變數概觀](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
+如需變數的詳細資訊，例如 `$$OBJCODE,` 另請參閱 [萬用字元篩選器變數概觀](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
 
 ## 自動更新計算的自訂欄位
 
