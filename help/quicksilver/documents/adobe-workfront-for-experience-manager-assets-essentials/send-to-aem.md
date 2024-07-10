@@ -6,22 +6,20 @@ description: 您可以從Workfront傳送檔案至Experience Manager Assets或Ass
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 7942e77b-9466-4dff-9737-97b17647ac48
-source-git-commit: 7fa4493d269862c9cdece75f0bf216931c671ea6
+source-git-commit: 65805e2ca81a46cce75610ff13b77e3748a6a810
 workflow-type: tm+mt
-source-wordcount: '918'
+source-wordcount: '915'
 ht-degree: 0%
 
 ---
 
 # 傳送檔案至Experience Manager Assets或Assets Essentials
 
-<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它僅在預覽Sandbox環境中可用。</span>
-
 您可以從Workfront傳送檔案至Experience Manager Assets或Assets Essentials。 從Workfront上傳並傳送至Assets Essentials的檔案仍會計入您的整體檔案儲存。 從Assets Essentials連結的Assets不計入整體儲存空間。
 
 透過此整合傳送至Experience Manager的Assets大小限製為 **5 GB**.
 
-<span class="preview">在預覽環境中，透過此整合傳送至Experience Manager的Assets大小限製為 **30 GB**.</span>
+在預覽環境中，透過此整合傳送至Experience Manager的Assets大小限製為 **30 GB**.
 
 從Workfront傳送資產至Experience Manager Assets或Assets Essentials時，會先對應中繼資料欄位。 設定為對應父物件的任何中繼資料也會一併傳送。 如需設定中繼資料對應的詳細資訊，請參閱 [設定Experience Manager Assetsas a Cloud Service整合](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md) 或 [設定Experience Manager Assets Essentials整合](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md).
 
@@ -31,7 +29,9 @@ ht-degree: 0%
 
 ## 存取需求
 
-您必須具備下列條件：
++++ 展開以檢視本文中功能的存取需求。
+
+您必須具備下列存取權才能完成本文中的步驟：
 
 <table style="table-layout:auto"> 
  <col> 
@@ -62,6 +62,8 @@ ht-degree: 0%
 </table>
 
 &#42;若要瞭解您擁有的計畫、授權型別或存取權，請聯絡您的Workfront管理員。
+
++++
 
 ## 先決條件
 
