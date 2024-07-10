@@ -6,9 +6,9 @@ description: 您可以快速將臨機操作卡新增到展示板，並將其指�
 author: Lisa
 feature: Agile
 exl-id: 9bc1f92a-85b0-44fd-b5de-09a69af6def5
-source-git-commit: b25a165dd85b64a154233b64ae2fc9b676a5aaa2
+source-git-commit: 5c093edc97afdbd1d88824376ce4b019f71e099f
 workflow-type: tm+mt
-source-wordcount: '904'
+source-wordcount: '878'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 0%
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] 計劃*</strong></td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] 計畫*</strong></td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
@@ -106,9 +106,9 @@ ht-degree: 0%
      </tr>
      <tr>
       <td role="rowheader"><strong>[！UICONTROL註解]</strong></td>
-      <td><p>按一下 <strong>[！UICONTROL新增註解]</strong> 欄位並輸入您的註解。 使用格式化工具來格式化文字，然後按一下 <strong>新增附件</strong> 圖示 <img src="assets/attachment-icon.png" alt="附件圖示"> 將檔案附加至註解。 若要標籤人員或團隊，請使用註釋區域底部的搜尋方塊。 使用者不必是展示板的成員。</p><p><strong>注意：</strong> 目前，在臨時資訊卡上標籤為評論的使用者不會收到電子郵件通知。
+      <td><p>按一下 <strong>[！UICONTROL新增註解]</strong> 欄位並輸入您的註解。 使用格式化工具來格式化文字。 若要標籤人員或團隊，請使用註釋區域底部的搜尋方塊。 使用者不必是展示板的成員。</p><p><strong>注意：</strong> 目前，在臨時資訊卡上標籤為評論的使用者不會收到電子郵件通知。
       </p><p>按一下 <strong>[！UICONTROL提交]</strong> 將註解新增至卡片。</p>
-      <p><strong>注意：</strong> 卡片上的註解區域使用新的Adobe Workfront註解體驗。 如需詳細資訊，請參閱 <a href="/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md">更新工作</a>.</p></td>
+      <p>如需註解的詳細資訊，請參閱 <a href="/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md">更新工作</a>.</p></td>
      </tr>
     </tbody> 
    </table>

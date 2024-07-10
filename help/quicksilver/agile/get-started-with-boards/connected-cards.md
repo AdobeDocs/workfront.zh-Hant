@@ -6,9 +6,9 @@ description: 您可以在展示板上新增卡片，該卡片會連線至Workfro
 author: Lisa
 feature: Agile
 exl-id: c6d979dd-e4a4-48a5-a91b-b31d7ef848d1
-source-git-commit: 5cb07cb42c3264c6629bc0a038c0e70ffc2cb509
+source-git-commit: 5c093edc97afdbd1d88824376ce4b019f71e099f
 workflow-type: tm+mt
-source-wordcount: '1518'
+source-wordcount: '1492'
 ht-degree: 0%
 
 ---
@@ -166,8 +166,8 @@ ht-degree: 0%
      </tr>
      <tr>
       <td role="rowheader"><strong>[！UICONTROL註解]</strong></td>
-      <td><p>按一下 <strong>[！UICONTROL新增註解]</strong> 欄位並輸入您的註解。 使用格式化工具來格式化文字，然後按一下 <strong>新增附件</strong> 圖示 <img src="assets/attachment-icon.png" alt="附件圖示"> 將檔案附加至註解。 若要標籤人員或團隊，請使用註釋區域底部的搜尋方塊。 使用者不必是展示板的成員。 已連線卡片上的標籤使用者將收到電子郵件通知。</p><p>按一下 <strong>[！UICONTROL提交]</strong> 將註解新增至卡片。</p>
-      <p><strong>注意：</strong> 卡片上的註解區域使用新的Adobe Workfront註解體驗。 如需詳細資訊，請參閱 <a href="/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md">更新工作</a>.</p></td>
+      <td><p>按一下 <strong>[！UICONTROL新增註解]</strong> 欄位並輸入您的註解。 使用格式化工具來格式化文字。 若要標籤人員或團隊，請使用註釋區域底部的搜尋方塊。 使用者不必是展示板的成員。 已連線卡片上的標籤使用者將收到電子郵件通知。</p><p>按一下 <strong>[！UICONTROL提交]</strong> 將註解新增至卡片。</p>
+      <p>如需註解的詳細資訊，請參閱 <a href="/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md">更新工作</a>.</p></td>
      </tr>
      <tr> 
       <td role="rowheader"><strong>[！UICONTROL系統活動]</strong></td> 
