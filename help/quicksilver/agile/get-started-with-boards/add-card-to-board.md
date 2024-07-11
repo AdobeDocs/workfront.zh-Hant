@@ -6,9 +6,9 @@ description: 您可以快速將臨機操作卡新增到展示板，並將其指�
 author: Lisa
 feature: Agile
 exl-id: 9bc1f92a-85b0-44fd-b5de-09a69af6def5
-source-git-commit: 5c093edc97afdbd1d88824376ce4b019f71e099f
+source-git-commit: 61eb51d458caebbb144112ad697f98f019f54918
 workflow-type: tm+mt
-source-wordcount: '878'
+source-wordcount: '888'
 ht-degree: 0%
 
 ---
@@ -106,7 +106,7 @@ ht-degree: 0%
      </tr>
      <tr>
       <td role="rowheader"><strong>[！UICONTROL註解]</strong></td>
-      <td><p>按一下 <strong>[！UICONTROL新增註解]</strong> 欄位並輸入您的註解。 使用格式化工具來格式化文字。 若要標籤人員或團隊，請使用註釋區域底部的搜尋方塊。 使用者不必是展示板的成員。</p><p><strong>注意：</strong> 目前，在臨時資訊卡上標籤為評論的使用者不會收到電子郵件通知。
+      <td><p>按一下 <strong>[！UICONTROL新增註解]</strong> 欄位並輸入您的註解。 使用格式化工具來格式化文字。 （臨機操作卡片上的評論中無法取得影像。） 若要標籤人員或團隊，請使用註釋區域底部的搜尋方塊。 使用者不必是展示板的成員。</p><p><strong>注意：</strong> 目前，在臨時資訊卡上標籤為評論的使用者不會收到電子郵件通知。
       </p><p>按一下 <strong>[！UICONTROL提交]</strong> 將註解新增至卡片。</p>
       <p>如需註解的詳細資訊，請參閱 <a href="/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md">更新工作</a>.</p></td>
      </tr>
