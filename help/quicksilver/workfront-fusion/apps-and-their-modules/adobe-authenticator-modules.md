@@ -8,9 +8,10 @@ title: Adobe Authenticator模組
 description: 透過Adobe Authenticator模組，您可以使用單一連線透過API連線至任何Adobe產品。
 author: Becky
 feature: Workfront Fusion
-source-git-commit: 61a579c19228381d0aa06de3db5217614999731b
+exl-id: 74c943fb-37ad-4d91-8af7-9808ba69992e
+source-git-commit: 443bdb5caee4b8a7ba9df95b0befff27b7aaabc2
 workflow-type: tm+mt
-source-wordcount: '882'
+source-wordcount: '993'
 ht-degree: 1%
 
 ---
@@ -64,18 +65,18 @@ Adobe Authenticator模組可讓您使用單一連線來連線至任何AdobeAPI�
 
 * 您必須擁有您希望模組連線的Adobe產品的存取權。
 * 您必須擁有Adobe Developer Console的存取權。
-* 您必須在Adobe Developer主控台上有專案，其中包含您想要模組連線的API。 您可以：
+* 您在Adobe Developer Console上必須有專案，其中包含您想要模組連線至的API。 您可以：
 
    * 使用API建立新專案。
 
      或
    * 將API新增至現有專案。
 
-  如需在Adobe Developer主控台建立API或將API新增至專案的詳細資訊，請參閱 [建立專案](https://developer.adobe.com/dep/guides/dev-console/create-project/) 在Adobe檔案中。
+  如需在Adobe Developer Console上建立或新增API至專案的詳細資訊，請參閱 [建立專案](https://developer.adobe.com/dep/guides/dev-console/create-project/) 在Adobe檔案中。
 
 ## 建立連線
 
-Adobe Authenticator連線會連線至Adobe Developer主控台上的單一專案。 若要針對多個AdobeAPI使用相同的連線，請將API新增至相同的專案，並建立與該專案的連線。
+Adobe Authenticator連線會連線至Adobe Developer Console上的單一專案。 若要針對多個AdobeAPI使用相同的連線，請將API新增至相同的專案，並建立與該專案的連線。
 
 您可以建立不同專案的個別連線，但無法使用連線來存取該連線中所指定專案以外的API。
 
@@ -157,6 +158,14 @@ Adobe Authenticator連線會連線至Adobe Developer主控台上的單一專案�
         </td>
       </tr>
       <tr>
+        <td role="rowheader">[！UICONTROL基底URL]</td>
+        <td>您必須新增要此驗證器允許的基本URL。 稍後在情境中使用進行自訂API呼叫模組時，您將新增相對路徑至所選的URL。 在這裡輸入URL，您可以控制進行自訂API呼叫模組可以連線的專案，進而提高安全性。<p>針對您想要新增至驗證器的每個基底URL，按一下 <b>新增專案</b> 並輸入基底URL。</td>
+      </tr>
+      <tr>
+        <td role="rowheader">[！UICONTROL驗證URL]</td>
+        <td>將此項留空將使用標準Adobe IMS驗證URL <code>https://ims-na1.adobelogin.com</code>. 如果您沒有使用Adobe IMS進行驗證，請輸入用於驗證的URL。</td>
+      </tr>
+      <tr>
         <td role="rowheader">[！UICONTROL環境]</td>
         <td>選取您要連線到生產或非生產環境。</td>
       </tr>
@@ -229,4 +238,3 @@ Adobe Authenticator連線會連線至Adobe Developer主控台上的單一專案�
     </tr>
   </tbody>
 </table>
-
