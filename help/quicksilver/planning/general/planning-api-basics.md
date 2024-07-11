@@ -4,9 +4,9 @@ description: Adobe Workfront Planning API的目標是引入透過HTTP運作的RE
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: b50d2746fe6ab0155d0385b92227b203a9eb7fd6
+source-git-commit: ebdcb8ee2a6efe96c77f863e85f8911d20ab1dd4
 workflow-type: tm+mt
-source-wordcount: '945'
+source-wordcount: '939'
 ht-degree: 2%
 
 ---
@@ -28,7 +28,7 @@ Adobe Workfront Planning API的目標是引入透過HTTP運作的REST-ful架構�
 
 標準HTTP方法會對應至下列作業：
 
-* **GET**  — 依ID擷取物件、依查詢搜尋所有物件、執行報表或執行具名查詢
+* **GET**  — 依ID擷取物件，依查詢搜尋所有物件
 * **POST**  — 插入新物件
 * **PUT**  — 編輯現有物件
 * **DELETE**  — 刪除物件
