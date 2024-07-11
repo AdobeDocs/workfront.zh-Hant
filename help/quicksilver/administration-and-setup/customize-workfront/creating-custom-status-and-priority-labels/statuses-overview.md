@@ -9,9 +9,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 0fa2f445-be8e-405f-864a-dbc4726d096b
-source-git-commit: 81118e794dca746b482b8355c24fa997a9f0edc9
+source-git-commit: 402fb9d279fec258390535100e8f3d2c3c1b913b
 workflow-type: tm+mt
-source-wordcount: '239'
+source-wordcount: '321'
 ht-degree: 0%
 
 ---
@@ -25,6 +25,17 @@ ht-degree: 0%
 例如，在此專案中，「計畫」狀態表示專案經理目前正在計畫專案的各個方面，例如其時間表、任務指派及核准。
 
 ![範例專案狀態](assets/statuses-overview.png)
+
+您必須對專案、任務或問題具有下列存取權和許可權，才能檢視其狀態：
+
+* 檢視或更高存取許可權的專案、任務和問題
+* 檢視物件或更高的許可權
+
+您必須擁有專案、任務或問題的下列存取權和許可權，才能手動變更其狀態：
+
+* 編輯專案、任務和問題存取層級的存取權
+* Contribute或任務或問題的更高許可權
+* 管理專案的許可權。
 
 變更專案、任務或問題的狀態通常是手動過程。 不過，有時候問題的狀態會根據系統中發生的其他因素自動變更。
 

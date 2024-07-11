@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: 7882b67578cd5b8792ce582ebab118c8993c9214
+source-git-commit: 402fb9d279fec258390535100e8f3d2c3c1b913b
 workflow-type: tm+mt
-source-wordcount: '2543'
+source-wordcount: '2569'
 ht-degree: 3%
 
 ---
@@ -36,6 +36,8 @@ hide: yes
 
 您必須具有下列存取權才能執行本文中的步驟：
 
+<!--at GA the plan below will change to Prime, Select and Ultimate only-->
+
 <table style="table-layout:auto">
  <col>
  </col>
@@ -61,32 +63,36 @@ hide: yes
    </td>
   </tr>
   <tr>
-   <td role="rowheader"><p>Adobe Workfront授權</p></td>
+   <td role="rowheader"><p>Adobe Workfront授權*</p></td>
    <td>
-   <p>任何</p> 
-   <p>系統管理員只能存取他們建立或與他們共用的檢視。 </p>
+   <p>新增：標準</p>
+   或
+   <p>目前：計畫 </p> 
   </td>
   </tr>
 
 <tr>
-   <td role="rowheader">存取層級設定</td>
-   <td> <p>AdobeWorkfront計畫沒有存取層級控制項</p>  
+   <td role="rowheader"><p>存取層級設定</p></td>
+   <td> Adobe Workfront Planning沒有存取控制</p>  
 </td>
   </tr>
 
 <tr>
    <td role="rowheader"><p>權限</p></td>
    <td> <p>管理檢視的許可權</p>  
+   <p>檢視許可權以暫時變更檢視設定</p>
 </td>
   </tr>
 
 <tr>
-   <td role="rowheader">版面配置範本</td>
-   <td> <p>您的系統管理員必須在版面配置範本中新增Planning區域。 如需詳細資訊，請參閱 <a href="/help/quicksilver/planning/access/access-overview.md">存取權總覽</a>. </p>  
+   <td role="rowheader"><p>版面配置範本</p></td>
+   <td> <p>必須為所有使用者(包括Workfront管理員)指派一個版面配置範本，該範本包含主功能表中的Planning區域。 </p> <p>如需詳細資訊，請參閱 <a href="/help/quicksilver/planning/access/access-overview.md">存取權總覽</a>. </p> 
 </td>
   </tr>
  </tbody>
 </table>
+
+*如需詳細資訊，請參閱 [Workfront檔案中的存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## 管理表格檢視 {#manage-a-table-view}
 
@@ -244,7 +250,9 @@ hide: yes
 
 * 將濾鏡新增至表格檢視與將濾鏡新增至時間軸檢視相同。
 
-* 您可以依已連線的記錄欄位或查詢欄位進行篩選，但不能針對允許連結至多個記錄的欄位進行篩選。
+* 您可以依已連線的記錄欄位或查詢欄位進行篩選。
+
+* 您可以依顯示多個值的查閱欄位進行篩選。
 
 * 您可以參考與目前記錄型別相距最多4個層級的欄位。 例如，如果您正在建立「活動」記錄型別的篩選器，且「活動」已連線至「產品」記錄型別，而該記錄型別已連線至「行銷活動」記錄型別，而該記錄型別已連線至「Workfront專案」，則您可以在為「活動」記錄型別建立的篩選器中，參考專案的「預算」。
 
@@ -356,7 +364,8 @@ hide: yes
 * 您無法為表格檢視建立的分組命名。
 * 移除群組會將群組從存取與您相同記錄型別以及顯示與您相同檢視的任何人中移除。
 * 您可以編輯列在群組下的記錄。
-* 您可以依已連線的記錄欄位或查詢欄位來分組，但不能針對允許連結至多個記錄的欄位進行分組。
+* 您可以依連線的記錄欄位或查詢欄位來分組。
+* 當您依具有多個值（尚未由彙總器彙總）的查閱欄位來分組時，記錄會依每個唯一的欄位值組合來分組。
 * 您可以參考與目前記錄型別相距最多4個層級的欄位。 例如，如果您正在建立「活動」記錄型別的群組，且「活動」已連線至「產品」記錄型別，而該記錄型別已連線至「行銷活動」記錄型別，而該記錄型別已連線至「Workfront專案」，則您可在您為「活動」記錄型別所建立的分組中參考專案的「狀態」。
 <!--checking into this: * You can apply up to 4 levels of grouping when using the API. -->
 <!-- checking also into this: * You cannot group by a Paragraph-type field.-->
@@ -408,11 +417,11 @@ hide: yes
 
 * 您可以依顯示在記錄型別表格檢視中的欄位數量來排序。
 
-* 僅當連結欄位允許單一值，或允許選取了彙總選項（總和、平均、最大值、最小值）的多重選取值時，連結欄位才可排序。
+* 您無法依已連線的記錄欄位排序，但可以依已連線的記錄型別的查閱欄位排序。
+
+* 當您依據具有多個值（彙總器尚未彙總）的查閱欄位進行排序時，會使用第一個值排序。
 
 * 移除排序標準會將它們從存取與您相同記錄型別的任何人中移除，並使用與您使用的相同檢視。
-
-* 您可以依已連線的記錄欄位或查詢欄位排序，但不能針對允許連結至多個記錄的欄位進行排序。
 
 * 您可以參考與目前記錄型別相距最多4個層級的欄位。 例如，如果您正在建立「活動」記錄型別的排序，且「活動」已連線至「產品」記錄型別，而該記錄型別已連線至「行銷活動」記錄型別，而該記錄型別已連線至「Workfront專案」，則您可以在針對「活動」記錄型別建立的排序中參考專案的「狀態」。
 

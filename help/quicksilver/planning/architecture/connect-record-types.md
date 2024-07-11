@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
-source-git-commit: 8a4da96562b18977f56567f0fc5f72b369078432
+source-git-commit: 402fb9d279fec258390535100e8f3d2c3c1b913b
 workflow-type: tm+mt
-source-wordcount: '2487'
+source-wordcount: '2515'
 ht-degree: 0%
 
 ---
@@ -156,10 +156,6 @@ You can use Adobe Workfront Planning to design fully-customizable workspaces tha
 
       * 連結的記錄欄位會在您連線的記錄型別上建立。 不會在其他應用程式的物件型別上自動建立任何連結的記錄欄位。
 
-      * 只有當實際物件連線至Workfront Planning記錄時，才會為其他應用程式的物件建立新的Workfront Planning唯讀記錄型別。
-
-        如需詳細資訊，請參閱 [連線記錄](/help/quicksilver/planning/records/connect-records.md).
-
       * 無法從Workfront物件存取規劃記錄欄位。
       * 當您的Workfront管理員透過Workfront與Adobe Experience Manager Assets之間的整合設定中繼資料對應時，可從Experience Manager資產存取規劃記錄欄位。 如需詳細資訊，請參閱 [設定Adobe Workfront和Experience Manager Assets之間的資產中繼資料對應](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping.html?lang=en).
 
@@ -274,7 +270,15 @@ You can use Adobe Workfront Planning to design fully-customizable workspaces tha
 
 1. （選用）按一下 **略過** 跳過從連結的記錄或物件型別新增欄位。 此 **名稱** 或 **標題** 連結記錄的表格檢視中，唯一可見的欄位是您連線的記錄型別。
 
-1. （選擇性和條件性）如果您選取連結數字、貨幣、百分比或日期型別欄位，請同時選取彙總值。 當使用者在連結的記錄欄位中選取多個連結的記錄時，連結欄位的值會根據您選擇的彙總器，以逗號分隔或顯示為彙總值。
+1. （選擇性和條件性）如果您選取連結數字、貨幣、百分比或日期型別欄位，請同時選取彙總值以彙總多個值。 當使用者在連結的記錄欄位中選取多個連結的記錄時，連結欄位的值會根據您選擇的彙總器，以逗號分隔或顯示為摘要值。
+
+   如果查閱欄位包含多個未彙總的值，請在檢視中排序或分組時考慮以下事項：
+
+   * 排序由第一個值完成
+
+   * 記錄會依每個欄位值的唯一組合分組
+
+   * 時間表檢視是根據第一個日期值建置。
 
    >[!IMPORTANT]
    >

@@ -6,10 +6,10 @@ hide: true
 recommendations: noDisplay, noCatalog
 el-id: 698036a6-b3b4-44a9-91ee-63fdb6a646a1
 exl-id: 698036a6-b3b4-44a9-91ee-63fdb6a646a1
-source-git-commit: dc8e6f730ec88fc66c3486987e064b5f0760fb80
+source-git-commit: 402fb9d279fec258390535100e8f3d2c3c1b913b
 workflow-type: tm+mt
-source-wordcount: '663'
-ht-degree: 7%
+source-wordcount: '692'
+ht-degree: 6%
 
 ---
 
@@ -69,12 +69,14 @@ ht-degree: 7%
 >
 >並非所有使用者都可擁有下述許可權層級。 使用者的個別授權會決定他們可以針對Workfront Planning物件接收的許可權層級。
 >
->只有Standard （或Plan）授權使用者可以擁有Contribute或工作區的「管理」許可權。
+>只有Standard （或Plan）授權使用者可以擁有Contribute或工作區的「管理」許可權，以及檢視的「管理」許可權。
+> 
+>具有所有其他授權型別的使用者可以擁有對工作區和檢視的檢視許可權。
 >
 >如需詳細資訊，請參閱 [使用Adobe Workfront Planning時的授權型別概觀](/help/quicksilver/planning/access/license-type-overview.md).
 
 
-### 工作區許可權
+### Workspace許可權
 
 您必須授予使用者對工作區的許可權，才能允許他們存取下列實體：
 
@@ -157,7 +159,8 @@ ht-degree: 7%
 | 刪除 | ✓ (A) |       |                            |
 | 共用 | ✓ (A) |       |                           |
 | 檢視 | ✓ (A) | ✓ (A) | ✓ (A) |
-| 套用 | ✓ (A) | ✓ (A) | ✓ (A) |
+| 存取檢視 | ✓ (A) | ✓ (A) | ✓ (A) |
+| 套用臨時篩選器、群組、排序 | ✓ (A) | ✓ (A) | ✓ (A) |
 
 *使用者必須擁有工作區的檢視或更高許可權才能取得此檢視存取權。
 

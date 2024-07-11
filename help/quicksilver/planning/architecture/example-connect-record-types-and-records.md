@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 38509572-72a4-4fce-b3ec-2cb31bb4669a
-source-git-commit: 7882b67578cd5b8792ce582ebab118c8993c9214
+source-git-commit: 52e8ce6dd5146d72f698583b531b3db6bc5dbf25
 workflow-type: tm+mt
-source-wordcount: '1834'
+source-wordcount: '1801'
 ht-degree: 0%
 
 ---
@@ -130,7 +130,7 @@ ht-degree: 0%
 
 若要這麼做：
 
-1. 前往您要將Campaign記錄型別與Workfront專案連結的工作區。
+1. 前往Workspace，您想在其中將Campaign記錄型別與Workfront專案連線。
 1. 在選取的工作區中，開啟Campaign記錄型別的表格檢視。
 1. 按一下 **+** 圖示以新增欄位，然後按一下「 」 **新連線**，然後按一下 **專案** 在 **Workfront物件型別** 區段。
 1. 新增下列資訊，例如：
@@ -205,10 +205,7 @@ ht-degree: 0%
 
 1. 在連線的記錄欄位中按一下專案名稱。
 
-   如此將可開啟唯讀的Workfront Planning專案頁面。
-檢閱專案的相關資訊。 只有選取的專案欄位會顯示在記錄的頁面中。
-
-1. 按一下 **移至來源** 如果您至少有專案的檢視許可權，可在畫面的右上角開啟Workfront中的專案。
+   如果您至少有專案的檢視許可權，這將會在Workfront中開啟專案。
 1. （選用）如果您有許可權，可更新Workfront中專案的相關資訊。
 
 1. （選用）從Campaign表格檢視中，將游標暫留在 **專案資訊** 欄位標題，並按一下向下箭頭，然後按一下 **編輯查閱欄位。**

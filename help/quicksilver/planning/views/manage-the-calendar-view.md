@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 45b5be81-703c-45d5-a08c-60cb8ec5b103
-source-git-commit: a923d86f78e6dab4705289a8165c4b31ff68b5a2
+source-git-commit: 402fb9d279fec258390535100e8f3d2c3c1b913b
 workflow-type: tm+mt
-source-wordcount: '567'
-ht-degree: 0%
+source-wordcount: '565'
+ht-degree: 1%
 
 ---
 
@@ -30,11 +30,9 @@ hide: yes
 
 您可以從記錄型別頁面，在行事曆檢視中顯示記錄及其欄位。
 
-如需Adobe Workfront Planning功能檢視及管理檢視方式的詳細資訊，請參閱 [管理記錄檢視](/help/quicksilver/planning/views/manage-record-views.md).
+如需Adobe Workfront Planning檢視及其管理方式的詳細資訊，請參閱 [管理記錄檢視](/help/quicksilver/planning/views/manage-record-views.md).
 
-## 存取需求
-
-您必須具有下列存取權才能執行本文中的步驟：
+<!--at GA the plan below will change to Prime, Select and Ultimate only-->
 
 <table style="table-layout:auto">
  <col>
@@ -61,33 +59,36 @@ hide: yes
    </td>
   </tr>
   <tr>
-   <td role="rowheader"><p>Adobe Workfront授權</p></td>
+   <td role="rowheader"><p>Adobe Workfront授權*</p></td>
    <td>
-   <p>任何</p> 
-   <p>系統管理員只能存取他們建立或與他們共用的檢視。 </p>
+   <p>新增：標準</p>
+   或
+   <p>目前：計畫 </p> 
   </td>
   </tr>
 
 <tr>
-   <td role="rowheader">存取層級設定</td>
-   <td> <p>Adobe Workfront Planning沒有存取層級控制</p>  
+   <td role="rowheader"><p>存取層級設定</p></td>
+   <td> Adobe Workfront Planning沒有存取控制</p>  
 </td>
   </tr>
 
 <tr>
    <td role="rowheader"><p>權限</p></td>
    <td> <p>管理檢視的許可權</p>  
+   <p>檢視許可權以暫時變更檢視設定</p>
 </td>
   </tr>
 
 <tr>
-   <td role="rowheader">版面配置範本</td>
-   <td> <p>您的系統管理員必須在版面配置範本中新增Planning區域。 如需詳細資訊，請參閱 <a href="/help/quicksilver/planning/access/access-overview.md">存取權總覽</a>. </p>  
+   <td role="rowheader"><p>版面配置範本</p></td>
+   <td> <p>必須為所有使用者(包括Workfront管理員)指派一個版面配置範本，該範本包含主功能表中的Planning區域。 </p> <p>如需詳細資訊，請參閱 <a href="/help/quicksilver/planning/access/access-overview.md">存取權總覽</a>. </p> 
 </td>
   </tr>
  </tbody>
 </table>
 
+*如需詳細資訊，請參閱 [Workfront檔案中的存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## 管理行事曆檢視 {#manage-a-calendar-view}
 
@@ -148,4 +149,6 @@ hide: yes
 
   如需詳細資訊，請參閱文章中的「新增篩選器」一節 [管理表格檢視](/help/quicksilver/planning/views/manage-the-table-view.md).
 
-* 您可以依已連線的記錄欄位或查詢欄位進行篩選，但不能針對允許連結至多個記錄的欄位進行篩選。
+* 您可以依已連線的記錄欄位或查詢欄位進行篩選。
+
+* 您可以依顯示多個值的查閱欄位進行篩選。

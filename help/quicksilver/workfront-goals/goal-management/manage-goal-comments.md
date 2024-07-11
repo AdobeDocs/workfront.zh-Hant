@@ -6,9 +6,9 @@ description: 您可以將註解新增至可在Adobe Workfront目標中檢視的�
 author: Alina
 feature: Workfront Goals
 exl-id: 6cf2d2d2-5ba5-40f2-a803-01359c338541
-source-git-commit: 024c612d46848c55529e902a00d481588d261584
+source-git-commit: 52e8ce6dd5146d72f698583b531b3db6bc5dbf25
 workflow-type: tm+mt
-source-wordcount: '1110'
+source-wordcount: '1092'
 ht-degree: 0%
 
 ---
@@ -127,12 +127,12 @@ After the monthly releases to Production, the same features are also available i
 
    >[!TIP]
    >
-   >在您完成輸入並提交評論之前離開更新區段，即使您登出並重新登入，仍會將頁面上的評論保留在草稿模式中。 加入註解的任何影像也會儲存在草稿中。 草稿會儲存7天，之後便會捨棄且無法復原。 草擬的註解僅對輸入註解的使用者可見。
+   >在您完成輸入並提交評論之前離開更新區段，即使您登出並重新登入，仍會將頁面上的評論保留在草稿模式中。 草稿會儲存7天，之後便會捨棄且無法復原。 草擬的註解僅對輸入註解的使用者可見。
 
 1. （可選）若要復原或重做變更，請使用下列快速鍵：
    * CTRL + Z (Mac為⌘ + z)可復原變更
    * 按CTRL + Y (Mac則為⌘ + y)以重做變更
-1. （可選）若要新增RTF格式至您的更新、超連結或影像，請使用RTF工具列上的任何選項或旁邊的圖示。 如需詳細資訊，請參閱 [更新工作](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+1. （可選）若要新增RTF格式至您的更新、超連結或Emoji，請使用RTF工具列上的任何選項或旁邊的圖示。 如需詳細資訊，請參閱 [更新工作](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 1. （選用）在 **標籤人員或團隊** 區域，開始輸入使用者或要納入此註解中的團隊的名稱或電子郵件，然後在其顯示在清單中時選取它。
 1. 選取 **我的公司私有** 切換即可讓註解僅對您公司中的人員可見。
 
@@ -150,7 +150,7 @@ After the monthly releases to Production, the same features are also available i
    >![](assets/real-time-new-red-indicator-unified-commenting-copy.png)
 
 1. （可選）若要編輯註解，請按一下 **更多** 功能表 ![](assets/more-icon.png) 按一下「讚」圖示右側，然後按一下 **編輯**.
-1. 編輯註解中的資訊、新增或移除影像，或移除任何已標籤的使用者。
+1. 編輯註解中的資訊或移除任何已標籤的使用者。
 您可以在提交評論後15分鐘內編輯評論。 「已編輯」指標會新增至日期戳記的左側，該日期戳記會在更新註解時顯示。
 
    ![](assets/edited-tag-on-comment-unified-commenting.png)

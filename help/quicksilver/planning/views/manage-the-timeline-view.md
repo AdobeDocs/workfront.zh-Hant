@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: 7882b67578cd5b8792ce582ebab118c8993c9214
+source-git-commit: 402fb9d279fec258390535100e8f3d2c3c1b913b
 workflow-type: tm+mt
-source-wordcount: '1764'
+source-wordcount: '1880'
 ht-degree: 0%
 
 ---
@@ -36,6 +36,8 @@ role: User
 
 您必須具有下列存取權才能執行本文中的步驟：
 
+<!--at GA the plan below will change to Prime, Select and Ultimate only-->
+
 <table style="table-layout:auto">
  <col>
  </col>
@@ -61,32 +63,36 @@ role: User
    </td>
   </tr>
   <tr>
-   <td role="rowheader"><p>Adobe Workfront授權</p></td>
+   <td role="rowheader"><p>Adobe Workfront授權*</p></td>
    <td>
-   <p>任何</p> 
-   <p>系統管理員只能存取他們建立或與他們共用的檢視。 </p>
+   <p>新增：標準</p>
+   或
+   <p>目前：計畫 </p> 
   </td>
   </tr>
 
 <tr>
-   <td role="rowheader">存取層級設定</td>
-   <td> <p>Adobe Workfront Planning沒有存取層級控制 </p>  
+   <td role="rowheader"><p>存取層級設定</p></td>
+   <td> Adobe Workfront Planning沒有存取控制</p>  
 </td>
   </tr>
 
 <tr>
    <td role="rowheader"><p>權限</p></td>
    <td> <p>管理檢視的許可權</p>  
+   <p>檢視許可權以暫時變更檢視設定</p>
 </td>
   </tr>
 
 <tr>
-   <td role="rowheader">版面配置範本</td>
-   <td> <p>您的系統管理員必須在版面配置範本中新增Planning區域。 如需詳細資訊，請參閱 <a href="/help/quicksilver/planning/access/access-overview.md">存取權總覽</a>. </p>  
+   <td role="rowheader"><p>版面配置範本</p></td>
+   <td> <p>必須為所有使用者(包括Workfront管理員)指派一個版面配置範本，該範本包含主功能表中的Planning區域。 </p> <p>如需詳細資訊，請參閱 <a href="/help/quicksilver/planning/access/access-overview.md">存取權總覽</a>. </p> 
 </td>
   </tr>
  </tbody>
 </table>
+
+*如需詳細資訊，請參閱 [Workfront檔案中的存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 
 ## 管理時間表檢視 {#manage-a-timeline-view}
@@ -179,7 +185,9 @@ role: User
 
   如需詳細資訊，請參閱文章中的「新增篩選器」一節 [管理表格檢視](/help/quicksilver/planning/views/manage-the-table-view.md).
 
-* 您可以依已連線的記錄欄位或查詢欄位進行篩選，但不能針對允許連結至多個記錄的欄位進行篩選。
+* 您可以依已連線的記錄欄位或查詢欄位進行篩選。
+* 您可以依顯示多個值的查閱欄位進行篩選。
+
 
 ### 新增分組
 
@@ -193,11 +201,16 @@ role: User
 
 * 您可以在表格和時間軸檢視中套用群組。 表格檢視的分組與相同記錄型別之時間軸檢視中的群組是獨立的。
 * 您可以在檢視中套用3個群組層級。 記錄會依照您選取的群組順序進行分組。
-* 使用API時，您最多可以套用4個層級的群組。
-* 群組對於您選取的檢視而言是唯一的。 相同記錄型別的兩個時間軸檢視可套用不同的群組。 檢視相同時間表檢視的兩個使用者會看到目前套用的相同分組。
-* 您無法為時間表檢視建立的分組命名。
+&lt;!—*使用API時，您最多可以套用4個層級的群組。  — 現在正在檢查此專案 — >
+* 群組對於您選取的檢視而言是唯一的。 相同記錄型別的兩個表格檢視可以套用不同的群組。 檢視相同表格檢視的兩個使用者會看到目前套用的相同分組。
+* 您無法為表格檢視建立的分組命名。
 * 移除群組會將群組從存取與您相同記錄型別以及顯示與您相同檢視的任何人中移除。
-* 您可以依已連線的記錄欄位或查詢欄位來分組，但不能針對允許連結至多個記錄的欄位進行分組。
+* 您可以編輯列在群組下的記錄。
+* 您可以依連線的記錄欄位或查詢欄位來分組。
+* 當您依具有多個值（尚未由彙總器彙總）的查閱欄位來分組時，記錄會依每個唯一的欄位值組合來分組。
+* 您可以參考與目前記錄型別相距最多4個層級的欄位。 例如，如果您正在建立「活動」記錄型別的群組，且「活動」已連線至「產品」記錄型別，而該記錄型別已連線至「行銷活動」記錄型別，而該記錄型別已連線至「Workfront專案」，則您可在您為「活動」記錄型別所建立的分組中參考專案的「狀態」。
+<!--checking into this: * You can apply up to 4 levels of grouping when using the API. -->
+<!-- checking also into this: * You cannot group by a Paragraph-type field.-->
 
 若要在時間表檢視中新增群組：
 

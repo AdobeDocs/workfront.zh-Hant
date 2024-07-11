@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
-source-git-commit: b63b9bcd88eaf70c629dde264656d45567896f2e
+source-git-commit: 52e8ce6dd5146d72f698583b531b3db6bc5dbf25
 workflow-type: tm+mt
-source-wordcount: '2585'
+source-wordcount: '2512'
 ht-degree: 1%
 
 ---
@@ -288,19 +288,13 @@ hide: yes
 
 1. （選擇性）在表格檢視的連結欄位中，或從記錄頁面中的連結欄位中，按一下連線至Workfront Planning記錄的Workfront物件名稱。
 
-   這會開啟連結Workfront物件的唯讀Workfront Planning記錄頁面。 將記錄型別與Workfront物件連線時，您選取作為查閱欄位的欄位會顯示在Workfront Planning記錄頁面中。
+   如果您至少有物件的檢視許可權，這會在Workfront中開啟Workfront物件。
 
    >[!TIP]
    >
    >* 當您啟用「允許多筆記錄」設定時，查閱欄位的值會以逗號分隔顯示，或根據您選擇的彙總器進行彙總。
    >
    >* Workfront中的連結Workfront物件不會建立連結記錄欄位。
-
-1. （選用）若要在Workfront中開啟連結的Workfront物件，請按一下 **移至來源** 在Workfront物件的記錄頁面的右上角。
-
-   ![](assets/workfront-project-maestro-details-page-with-go-to-source-link.png)
-
-   如果您至少有檢視物件的檢視許可權，此動作會開啟Workfront物件頁面。 如果您有許可權，可以編輯Workfront物件的相關資訊。
 
 1. （可選）在記錄型別的表格檢視中，暫留在連結Workfront物件的欄標題上，然後按一下下拉式功能表，然後按一下 **編輯查閱欄位**.
 
@@ -345,7 +339,7 @@ hide: yes
    >
    >  您可以新增，按一下 **+** 圖示將資產連結至記錄。
 
-   此 **選取資產** 方塊隨即顯示。 <!--we might change this to Connect assets-->
+   此 **選取Assets** 方塊隨即顯示。 <!--we might change this to Connect assets-->
 
    ![](assets/select-assets-box-for-aem-record-connections.png)
 
@@ -391,7 +385,7 @@ hide: yes
    * 建立日期
    * 修改日期
 
-1. （可選）若要以Experience Manager開啟Experience Manager資產記錄頁面，請前往您要連結之記錄的記錄型別頁面，在連結的記錄欄位中按一下資產名稱以開啟快顯視窗，然後按一下 **開啟** 圖示 ![](assets/open-asset-icon.png) 以開啟資產。
+1. （可選）若要以Experience Manager開啟Experience Manager資產記錄頁面，請前往您要連結之記錄的記錄型別頁面，在連結的記錄欄位中按一下資產名稱以開啟快顯視窗，然後按一下 **在AEM中開啟** 圖示 ![](assets/open-asset-icon.png) 以開啟資產。
 
    如此即會在Adobe Experience Manager Assets中開啟Experience Manager資產。
 
@@ -403,7 +397,7 @@ hide: yes
 
    從移除Workfront物件欄位 **選取的欄位** 區域。
 
-   這會新增或移除記錄中的連結欄位。 與已移除欄位相關的資訊仍保留在Adobe Experience Assets中。
+   這會新增或移除記錄中的連結欄位。 與已移除欄位相關的資訊仍保留在Adobe體驗Assets中。
 
 ## 從Workfront物件連線記錄
 

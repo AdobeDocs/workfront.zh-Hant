@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: d86cf3f9-cacc-4457-acb3-a5122ae91be8
-source-git-commit: 64f187ed78b69db9b9ac0259e96ef0bf47abf4f4
+source-git-commit: 52e8ce6dd5146d72f698583b531b3db6bc5dbf25
 workflow-type: tm+mt
-source-wordcount: '676'
+source-wordcount: '658'
 ht-degree: 1%
 
 ---
@@ -115,10 +115,8 @@ ht-degree: 1%
 1. 按一下連線到Workfront專案、投資組合或方案的記錄型別的卡片。
 1. 在表格檢視或記錄的詳細資訊頁面中，移至與Workfront物件有連線的已連線記錄欄位。 如需詳細資訊，請參閱 [連線記錄](/help/quicksilver/planning/records/connect-records.md).
 1. 在連線的記錄欄位中按一下Workfront物件的名稱。
-物件的頁面會在Workfront Planning中開啟。
-1. 按一下 **移至來源**，位於畫面的右上角。
+物件的頁面會在Workfront中開啟。
 
-   物件的頁面會在Workfront中開啟。
 1. 按一下 **規劃** 在左側面板中。
 
    >[!NOTE]
