@@ -7,9 +7,9 @@ author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 68b91aad-af76-473f-861d-da846fdfb84c
-source-git-commit: a1ffd3ff488e06a10c9b418360906146c9cb3c99
+source-git-commit: d01a26eaa43b264d11faa88c750f48f0ef1272c4
 workflow-type: tm+mt
-source-wordcount: '1149'
+source-wordcount: '1152'
 ht-degree: 0%
 
 ---
@@ -103,7 +103,7 @@ Workfront管理員會在Workfront的「設定」區域中新增預設Frame.io帳
 
 * **單一使用核准**：在資產所在的專案或任務中，專案協調員可指派稽核者和核准者，並設定完成期限。 截止日期前72及24小時以及截止日期本身，會透過電子郵件提醒檢閱者和核准者。
 
-  如需詳細資訊，請參閱 [建立檔案稽核或核准請求](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md). <!--I think this needs to be renamed? -->
+  如需詳細資訊，請參閱* [建立Frame.io資產的檢閱或核准請求](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-request-for-frame-asset.md).
 
 * **核准範本**：在Workfront設定區域中，專案專員可以建立可繼續使用的核准範本。 在範本中，使用者可以新增稽核者和核准者，並指定完成時間範圍。 將核准範本套用至資產時，截止日期是從指定的時間範圍計算。
 

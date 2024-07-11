@@ -6,9 +6,9 @@ description: 創意人員可以將需要稽核的資產新增至Frame.io，並�
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: f196e56f-6e67-4d54-b36d-83bb4a3ae681
-source-git-commit: cf5e96fc1d0b2f17dcbc6f99dba2d11cc9161103
+source-git-commit: a343b8822523d48ca717c87f9ca4c51ca76abc57
 workflow-type: tm+mt
-source-wordcount: '323'
+source-wordcount: '298'
 ht-degree: 0%
 
 ---
@@ -55,11 +55,7 @@ ht-degree: 0%
 
 ## 先決條件
 
-* 您必須將Workfront群組連線至Frame.io群組。
-* 您必須將Workfront專案連線至Frame.io專案，並新增為啟用Frame.io的Workfront任務的使用者。
-
-如需詳細資訊，請參閱 [連線Workfront和Frame.io。](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/connect-frame-and-wf.md)
-
+* 您必須設定Workfront和Frame.io整合。 如需詳細資訊，請參閱 [設定Workfront和Frame.io整合](/help/quicksilver/administration-and-setup/configure-integrations/configure-wf-and-frame.md).
 
 ## 將Frame.io資產新增至已連線的Workfront專案
 

@@ -1,21 +1,21 @@
 ---
 product-area: documents
 navigation-topic: approvals
-title: 從檔案中移除核准者或稽核者
+title: 從資產或檔案中移除核准者或稽核者
 description: 您可以從檔案中移除個別核准者或稽核者。
-author: Nolan
+author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 6877ee90-9a70-4616-98f4-4b0ff932d79a
-source-git-commit: 95679dd71ef7e4991853e63573a387f26321159d
+source-git-commit: 50a38ad915b639bf742a4b1f18bcb4da88e07d63
 workflow-type: tm+mt
-source-wordcount: '495'
+source-wordcount: '501'
 ht-degree: 0%
 
 ---
 
-# 從檔案中移除核准者或稽核者
+# 從資產或檔案中移除核准者或稽核者
 
-在指派核准者或稽核者後，您可以從檔案中移除個別核准者或稽核者。
+在指派核准者或稽核者後，您可以從資產或檔案中移除個別核准者或稽核者。
 
 >[!IMPORTANT]
 >
@@ -50,7 +50,7 @@ ht-degree: 0%
 
 &#42;若要瞭解您擁有的計畫、授權型別或存取權，請聯絡您的Workfront管理員。
 
-## 從檔案頁面中移除核准者或稽核者
+## 從檔案詳細資訊頁面中移除核准者或稽核者
 
 1. 按一下檔名稱，移至檔案頁面，然後在版本下拉式清單中選取您要移除核准的檔案版本。 預設會選取最新版本。
 
@@ -64,7 +64,7 @@ ht-degree: 0%
 
 1. 重複上一步驟以移除任何其他核准者或稽核者。
 
-## 從[檔案摘要]窗格中移除核准者或稽核者
+## 從檔案摘要中移除核准者或稽核者
 
 1. 前往包含檔案的專案、任務或問題，然後選取「 」 **檔案**.
 

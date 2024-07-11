@@ -1,21 +1,21 @@
 ---
 product-area: documents
 navigation-topic: approvals
-title: 新增其他核准者或稽核者至檔案
+title: 將其他核准者或稽核者新增至資產或檔案
 description: 您可以將其他核准者或稽核者新增至已有待核准的檔案。
 author: Nolan
 feature: Work Management, Digital Content and Documents
 exl-id: f3d94dff-a855-44ae-9e85-1dcbc4d417a0
-source-git-commit: 95679dd71ef7e4991853e63573a387f26321159d
+source-git-commit: d01a26eaa43b264d11faa88c750f48f0ef1272c4
 workflow-type: tm+mt
-source-wordcount: '461'
+source-wordcount: '467'
 ht-degree: 0%
 
 ---
 
-# 新增其他核准者或稽核者至檔案
+# 將其他核准者或稽核者新增至資產或檔案
 
-您可以將其他核准者或稽核者新增至已有待核准的檔案。
+您可以將其他核准者或稽核者新增至已有待核准的資產或檔案。
 
 >[!IMPORTANT]
 >
@@ -50,7 +50,7 @@ ht-degree: 0%
 
 &#42;若要瞭解您擁有的計畫、授權型別或存取權，請聯絡您的Workfront管理員。
 
-## 從檔案頁面新增其他核准者或稽核者
+## 從「檔案詳細資訊」頁面新增其他核准者或稽核者
 
 1. 按一下檔名稱，移至檔案頁面，然後在版本下拉式清單中選取您要新增核准者或稽核者的檔案版本。 預設會選取最新版本。
 
@@ -60,7 +60,7 @@ ht-degree: 0%
 
 1. 重複上一步驟以新增其他核准者或稽核者。
 
-## 從「檔案摘要」窗格新增其他核准者或稽核者
+## 從檔案摘要新增其他核准者或稽核者
 
 1. 前往包含檔案的專案、任務或問題，然後選取「 」 **檔案**.
 

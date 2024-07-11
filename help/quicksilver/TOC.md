@@ -3,9 +3,9 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文件、教學課程和其他資源，了解如何在您的組織中實施並有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: 1c9deb747ee9e9598949bcd0b64513b222fa0bc1
+source-git-commit: 04e81c6f3b2e34c9951203b6a9b3c06ed1977f54
 workflow-type: tm+mt
-source-wordcount: '14395'
+source-wordcount: '14434'
 ht-degree: 1%
 
 ---
@@ -1820,22 +1820,22 @@ ht-degree: 1%
       * [委派核准請求](review-and-approve-work/manage-approvals/delegate-approval-requests.md)
       * [將新的或現有的核准流程與工作建立關聯](review-and-approve-work/manage-approvals/associate-approval-with-work.md)
       * [撤回已提交的核准](review-and-approve-work/manage-approvals/recall-submitted-approvals.md)
-   * 檔案檢閱和核准 {#document-reviews-and-approvals}
-      * [檔案檢閱和核准](review-and-approve-work/document-reviews-and-approvals/document-reviews-and-approvals.md)
+   * 資產和檔案檢閱與核准 {#document-reviews-and-approvals}
+      * [資產和檔案檢閱和核准：文章索引](review-and-approve-work/document-reviews-and-approvals/document-reviews-and-approvals.md)
       * [檔案核准概觀](review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md)
+      * [檔案決定狀態概觀](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/document-approval-status.md)
       * [開始使用Frame.io進行資產檢閱和核准](review-and-approve-work/document-reviews-and-approvals/frame-wf-get-started.md)
-      * 檢閱檔案 {#review-and-approve-documents}
-         * [檢閱檔案：文章索引](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-documents-toc.md)
-         * [檢閱檔案](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-a-document.md)
-         * [連線Workfront和Frame.io](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/connect-frame-and-wf.md)
-         * [將Frame.io資產新增至已連線的Workfront專案](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/add-frame-asset-to-connected-project.md)
-      * 核准檔案 {#approve-documents}
-         * [核准檔案：文章索引](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/approve-documents-toc.md)
+      * [設定及管理資產和檔案核准]{#manage-asset-review-and-approval}
+         * [設定及管理資產和檔案核准：文章索引](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/set-up-and-manage-doc-asset-approvals-toc.md)
          * [建立檔案稽核或核准請求](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)
-         * [新增其他檢閱者或核准者至檔案](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/add-additional-reviewers-or-approvers.md)
-         * [從檔案中移除核准者或稽核者](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/remove-approvers-or-reviewers.md)
-         * [建立核准範本](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md)
-         * [檔案決定狀態](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/document-approval-status.md)
+         * [建立Frame.io資產的檢閱或核准請求](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-request-for-frame-asset.md)
+         * [將其他檢閱者或核准者新增至資產或檔案](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/add-additional-reviewers-or-approvers.md)
+         * [從資產或檔案中移除核准者或稽核者](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/remove-approvers-or-reviewers.md)
+         * [建立資產和檔案的核准範本](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md)
+         * [將Frame.io資產新增至已連線的Workfront專案](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/add-frame-asset-to-connected-project.md)
+      * 核准和檢閱資產和檔案 {#review-and-approve-documents}
+         * [核准和檢閱檔案：文章索引](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-documents-toc.md)
+         * [檢閱檔案](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-a-document.md)
          * [核准檔案](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/approve-a-document.md)
    * 校訂 {#proofing}
       * [校訂：文章索引](review-and-approve-work/proofing/proofing.md)

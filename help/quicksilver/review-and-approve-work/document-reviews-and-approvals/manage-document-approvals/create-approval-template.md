@@ -1,19 +1,19 @@
 ---
 product-area: documents
 navigation-topic: approvals
-title: 建立核准範本
+title: 建立資產和檔案的核准範本
 description: 您可以建立核准範本以簡化核准流程。
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: c18d6c6d-1a09-47c5-af4e-027f7cc48cd7
-source-git-commit: 0d828f8dd316c332b98066a9bb797c534eeace3d
+source-git-commit: 04e81c6f3b2e34c9951203b6a9b3c06ed1977f54
 workflow-type: tm+mt
-source-wordcount: '228'
+source-wordcount: '236'
 ht-degree: 2%
 
 ---
 
-# 建立核准範本
+# 建立資產和檔案的核准範本
 
 <span class="preview">本頁資訊所提及的功能尚未普遍提供。 它僅在預覽Sandbox環境中可用。</span>
 

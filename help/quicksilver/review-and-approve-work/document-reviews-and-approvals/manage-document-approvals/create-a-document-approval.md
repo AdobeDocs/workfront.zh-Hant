@@ -6,7 +6,7 @@ description: 您可以在Adobe Workfront中請求其他使用者的檔案核准�
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: a02699e1-3557-47f0-89b7-dbecb507a174
-source-git-commit: 6daf68aee442b3322d186e649e7797cc2e911145
+source-git-commit: 66f3b53a06147d531e5e700857ca88219c2d4109
 workflow-type: tm+mt
 source-wordcount: '478'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 # 建立檔案稽核或核准請求
 
-您可以在Adobe Workfront中請求其他使用者或團隊核准檔案，或請求他們稽核檔案而無需核准。
+您可以請求其他使用者或團隊核准在Adobe Workfront中的檔案，或請求他們稽核檔案而無需核准。
 
 >[!IMPORTANT]
 >
@@ -34,7 +34,7 @@ ht-degree: 0%
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront授權*</td> 
+   <td role="rowheader">Adobe Workfront授權*</td>  
    <td> <p>評論或以上</p> </td> 
   </tr> 
   <tr> 

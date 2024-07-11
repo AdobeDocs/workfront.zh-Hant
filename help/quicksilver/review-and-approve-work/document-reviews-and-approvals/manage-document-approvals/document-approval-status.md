@@ -1,19 +1,19 @@
 ---
 product-area: documents
 navigation-topic: approvals
-title: 檔案決定狀態
+title: 檔案決定狀態概觀
 description: 列出並解釋檔案決策狀態
-author: Becky
+author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 30a10ed9-ae11-4ff1-a66c-58ea94fe9959
-source-git-commit: ac3200b478c706194a8c8246d1754b16601d5f56
+source-git-commit: d01a26eaa43b264d11faa88c750f48f0ef1272c4
 workflow-type: tm+mt
-source-wordcount: '161'
+source-wordcount: '163'
 ht-degree: 5%
 
 ---
 
-# 檔案決定狀態
+# 檔案決定狀態概觀
 
 您可以直接在檔案清單中檢視檔案的狀態：
 
