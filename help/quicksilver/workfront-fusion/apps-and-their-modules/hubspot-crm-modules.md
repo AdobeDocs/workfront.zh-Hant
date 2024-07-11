@@ -4,9 +4,9 @@ description: 此 [!DNL Adobe Workfront Fusion] HubSpot CRM模組可讓您監視�
 author: Becky
 feature: Workfront Fusion
 exl-id: d58e0c12-a798-495c-8f88-fbf2a532f8a4
-source-git-commit: 5bb394c2fffb4426d66a8b144802db8f7c97afe1
+source-git-commit: 1c56cf8aa9da7ec2644955d5533c71f60160d580
 workflow-type: tm+mt
-source-wordcount: '2582'
+source-wordcount: '2615'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 計劃*</td>
+   <td role="rowheader">[!DNL Adobe Workfront] 計畫*</td>
   <td> <p>[！UICONTROL Pro]或更高版本</p> </td>
   </tr> 
   <tr data-mc-conditions=""> 
@@ -54,13 +54,17 @@ ht-degree: 0%
 
 有關的資訊 [!DNL Adobe Workfront Fusion] 授權，請參閱 [[!DNL Adobe Workfront Fusion] 授權](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
-## 必要條件
+## 先決條件
 
 使用 [!DNL HubSpot CRM] 模組，您必須擁有 [!DNL HubSpot CRM] 帳戶。
 
 ## 連線 [!DNL Adobe Workfront Fusion] 至 [!DNL HubSpot CRM]
 
 如需有關連線您的電腦的指示 [!DNL HubSpot CRM] 帳戶至 [!DNL Workfront Fusion]，請參閱 [建立與的連線 [!DNL Adobe Workfront Fusion]  — 基本指示](../../workfront-fusion/connections/connect-to-fusion-general.md)
+
+>[!NOTE]
+>
+>設定連線時，選取 **HubSpot CRM** 連線型別。 HubSpot CRM （已淘汰）型別支援現有連線，但我們不建議使用它來建立新連線。
 
 ## [!DNL HubSpot CRM] 模組及其欄位
 
