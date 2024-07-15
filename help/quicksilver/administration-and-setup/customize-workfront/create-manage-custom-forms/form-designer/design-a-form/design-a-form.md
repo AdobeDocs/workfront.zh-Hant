@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: dc14f02afff58b4d6f3b48dc2da5cd706786cbb8
+source-git-commit: 6b9d3c2c87dd20da7dd357c108046311bbbb90a2
 workflow-type: tm+mt
-source-wordcount: '6078'
+source-wordcount: '6081'
 ht-degree: 4%
 
 ---
@@ -45,25 +45,25 @@ ht-degree: 4%
  </tbody> 
 </table>
 
-如需有關此表格的詳細資訊，請參閱 [Workfront檔案中的存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 ## 開始設計自訂表單
 
 {{step-1-to-setup}}
 
-1. 按一下 **自訂Forms** 在左側面板中。
+1. 按一下左側面板中的&#x200B;**自訂Forms**。
 
    <!-- >[!TIP]
     >
     >In the view that appears, you can review all custom forms and custom fields that have been created for your organization. You can also see who created each form and the fields that are associated with it. -->
 
-1. 按一下 **新增自訂表格。**
-1. 選取您要附加自訂表單的物件型別，然後按一下 **繼續**.
+1. 按一下&#x200B;**新增自訂表格。**
+1. 選取您要附加自訂表單的物件型別，然後按一下[繼續]。****
 
    ![](assets/choose-object-type.jpg)
 
-1. 在 **標題為必填** 區域，輸入自訂表單標題。
-1. （選擇性）如果要將更多物件型別加入表單，以便將其附加到更多物件，請按一下 **新增** 圖示 ![](assets/add-objects-icon.png) 晚於 **物件型別**，然後在顯示的功能表中選取您想要的型別。 您可以重複此步驟，新增任意數目的物件型別。
+1. 在&#x200B;**需要標題**&#x200B;區域中，輸入自訂表單標題。
+1. （選擇性）如果您想要新增更多物件型別至表單，以便附加至更多物件，請在&#x200B;**物件型別**&#x200B;後按一下&#x200B;**新增**&#x200B;圖示![](assets/add-objects-icon.png)，然後在顯示的功能表中選取您要的型別。 您可以重複此步驟，新增任意數目的物件型別。
 
    您也可以按一下物件型別上的X，將其從表單中刪除。
 
@@ -71,7 +71,7 @@ ht-degree: 4%
    >
    >刪除自訂表單也會刪除與表單關聯的物件上的所有自訂資料。 已刪除的資料無法復原。 請考慮改為停用自訂表單 — 當停用您不再使用的自訂表單時，您可保留所有關聯的歷史資料。
    >
-   >如需詳細資訊，請參閱 [刪除自訂表單上的物件型別](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/delete-object-type-on-a-custom-form.md).
+   >如需詳細資訊，請參閱[刪除自訂表單上的物件型別](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/delete-object-type-on-a-custom-form.md)。
 
 
 1. 接下來，您可以開始將欄位新增至自訂表單。 請參閱下列章節：
@@ -91,7 +91,7 @@ ht-degree: 4%
 
 ## 重複使用已在其他自訂表單中使用的現有欄位或Widget
 
-1. 在熒幕的左上角，按一下 **欄位程式庫**.
+1. 在熒幕左上方，按一下&#x200B;**欄位程式庫**。
 
 1. 將您想要的欄位或Widget拖曳至此以自訂表單顯示。
 1. （選用）重複上一步驟，新增任何其他欄位或Widget。
@@ -103,11 +103,11 @@ ht-degree: 4%
    >
    >複雜表單的範例包括含有階層式引數的表單、計算的自訂資料欄位，以及單一欄位中的多個值選項。
 
-1. 若要儲存變更，請按一下 **套用** 並移至另一個區段，以繼續建立您的表單。
+1. 若要儲存您的變更，請按一下[套用] ****，然後移至其他區段以繼續建立您的表單。
 
    或
 
-   按一下 **儲存並關閉**.
+   按一下&#x200B;**儲存並關閉**。
 
 ### 新增文字欄位
 
@@ -115,19 +115,19 @@ ht-degree: 4%
 
 +++ **展開以檢視可用文字欄位的說明**
 
-* **單行文字欄位**：可讓使用者在欄位中輸入單行文字。
-* **段落文字欄位**：可讓使用者在欄位中輸入多行文字。
-* **含格式的文字欄位**：可讓使用者在欄位中輸入多行文字，並以粗體、斜體、底線、專案符號、編號、超連結和區塊引號格式化文字。 15,000的字元限制可提供大量的文字和格式。
+* **單行文字欄位**：允許使用者在欄位中輸入單行文字。
+* **段落文字欄位**：允許使用者在欄位中輸入多行文字。
+* **含格式的文字欄位**：可讓使用者在欄位中輸入多行文字，並以粗體、斜體、底線、專案符號、編號、超連結和區塊引號來格式化文字。 15,000的字元限制可提供大量的文字和格式。
 
   清單和報告上的篩選器不支援此自訂欄位型別。
 
-  如需有關透過API存取此欄位的資訊，請參閱 [API中的RTF文字欄位儲存](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/rich-text-field-storage-in-the-api.md).
+  如需有關透過API存取此欄位的資訊，請參閱[ API中的RTF文字欄位儲存體](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/rich-text-field-storage-in-the-api.md)。
 
   >[!NOTE]
   >
   >含有格式的文字欄位不適用於Workfront行動應用程式（將於未來發行版本中提供）。
 
-* **描述文字**：可讓您加入指示，並連結至Workfront以外的頁面。
+* **描述性文字**：可讓您加入Workfront外部頁面的指示和連結。
 
 +++
 
@@ -200,7 +200,7 @@ ht-degree: 4%
     </tr>
     <tr>
     <td>格式</td>
-    <td><p>選取將在自訂欄位中擷取的資料型別。</p> <p><b>注意</b>：   
+    <td><p>選取將在自訂欄位中擷取的資料型別。</p> <p><b>附註</b>：   
     <ul> 
     <li>表單儲存後即無法編輯此欄位。 如果您要在數學計算中使用欄位，請務必選取「數字」或「貨幣」格式。</li> 
     <li>當您選取「數字」或「貨幣」時，系統會自動截斷以0開頭的數字。</li>
@@ -234,28 +234,28 @@ ht-degree: 4%
 
    ![復製圖示](assets/copy-field.png)
 
-1. 若要儲存變更，請按一下 **套用** 並移至另一個區段，以繼續建立您的表單。
+1. 若要儲存您的變更，請按一下[套用] ****，然後移至其他區段以繼續建立您的表單。
 
    或
 
-   按一下 **儲存並關閉**.
+   按一下&#x200B;**儲存並關閉**。
 
 ### 新增計算欄位
 
 在自訂表單中，您可以新增計算自訂欄位，以在自訂表單附加至物件時，使用現有資料產生新資料。
 
-若要新增計算欄位，請參閱 [使用表單設計工具新增計算欄位](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md).
+若要新增計算欄位，請參閱[使用表單設計工具新增計算欄位](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md)。
 
-### 新增選項按鈕、核取方塊和下拉式清單
+### 新增選項按鈕、核取方塊群組和下拉式清單
 
-您可以將選項按鈕、核取方塊、下拉式清單及多選下拉式清單新增至自訂表單。
+您可以新增選項按鈕、核取方塊群組、下拉式清單和多選下拉式清單至自訂表單。
 
 +++ **展開以檢視可用欄位的說明**
 
-* **選項按鈕**：要求使用者僅選取一個選項。
-* **核取方塊群組**：可讓使用者選取多個選項。
-* **下拉式清單**：提供下拉式清單選項的清單。
-* **多選下拉式清單**：可讓使用者從下拉式清單中選取多個選項。
+* **選項按鈕**：要求使用者只選取一個選項。
+* **核取方塊群組**：允許使用者選取多個選項。
+* **下拉式清單**：提供下拉式清單選項清單。
+* **多重選取下拉式清單**：可讓使用者從下拉式清單中選取多個選項。
 
 +++
 
@@ -263,7 +263,7 @@ ht-degree: 4%
 >
 >允許進行多重選取的欄位（例如「核取方塊群組」和「多重選取下拉式清單」）很難在報告中建立圖表和群組。 若要更輕鬆地在報表中進行圖表和分組，您可以為每個選擇建立個別欄位（例如，單行文字欄位）。
 
-若要新增選項按鈕、核取方塊和下拉式清單：
+若要新增選項按鈕、核取方塊群組和下拉式清單：
 
 1. 在畫面的左側，找到下列其中一個欄位，並將其拖曳至畫布上的區段。
 
@@ -301,7 +301,7 @@ ht-degree: 4%
     <li>雖然可以這樣做，但建議您不要在您或其他使用者開始使用Workfront中的自訂表單後變更此名稱。 如果這樣做，系統將不再識別現在可能在Workfront其他區域參考該欄位的自訂欄位。 <p>例如，如果您新增自訂欄位至報表，之後又變更其名稱，Workfront將無法辨識報表中的自訂欄位，且除非您使用新名稱將其重新新增至報表，否則將無法正常運作。</p> </li>
     <li> <p>建議您不要輸入已用於內建Workfront欄位的名稱。</p> </li>
      <li><p>建議您不要在自訂欄位名稱中使用句號/點字元，以防止在Workfront的不同區域使用欄位時發生錯誤。</p></li>
-     </ul> <p>每個自訂欄位名稱在貴組織的Workfront例項中必須是唯一的。 如此一來，您便可重複使用已針對其他自訂表單建立的表單。 如需詳細資訊，請參閱 <a href="#Add" class="MCXref xref">新增自訂欄位至自訂表單</a> 本文章內容。</p> </td>
+     </ul> <p>每個自訂欄位名稱在貴組織的Workfront例項中必須是唯一的。 如此一來，您便可重複使用已針對其他自訂表單建立的表單。 如需詳細資訊，請參閱本文中的<a href="#Add" class="MCXref xref">新增自訂欄位至自訂表單</a>。</p> </td>
      <td><ul>
     <li>單選按鈕</li>
     <li>核取方塊群組</li>
@@ -323,7 +323,7 @@ ht-degree: 4%
     </tr> 
     <tr> 
     <td role="rowheader">格式</td> 
-    <td> <p>選取將在自訂欄位中擷取的資料型別。</p> <p><b>注意</b>：   
+    <td> <p>選取將在自訂欄位中擷取的資料型別。</p> <p><b>附註</b>：   
      <ul> 
     <li>表單儲存後即無法編輯此欄位。 如果您要在數學計算中使用欄位，請務必選取「數字」或「貨幣」格式。<br></li> 
     <li>當您選取「數字」或「貨幣」時，系統會自動截斷以0開頭的數字。</li>
@@ -360,17 +360,17 @@ ht-degree: 4%
     <td role="rowheader">選擇 </td> 
     <td> 
     <ol> 
-    <li> <p>按一下 <b>選項</b>，然後啟用下列任一專案：</p> 
+    <li> <p>按一下<b>選項</b>，然後啟用下列任一專案：</p> 
     <ul> 
     <li><strong>顯示值</strong>：顯示欄位中每個選擇的值。 依預設，會顯示每個選擇的標籤。</li> 
-     <li><strong>將選擇按A-Z排序</strong>：依字母順序排序您在欄位中新增的選擇。</li> 
+     <li><strong>排序選擇A-Z</strong>：依字母順序排序您在欄位中新增的選擇。</li> 
     </ul> 
     </li> 
-    <li> <p>針對您為使用者新增的每個選擇，按一下齒輪圖示 <img src="assets/gear-icon-settings.png">，然後選取下列其中一個選項：</p> 
+    <li> <p>針對您為使用者新增的每個選擇，按一下齒輪圖示<img src="assets/gear-icon-settings.png">，然後選取下列其中一個選項：</p> 
     <ul> 
-    <li><strong>預設選取</strong>：在欄位中選取預設選項。</li> 
+    <li><strong>依預設選取</strong>：依預設在欄位中選取選項。</li> 
     <li> <p><strong>隱藏選擇</strong>：隱藏欄位中的選擇。 隱藏的選擇在報表中仍可存取。</p> </li> 
-    <li> <p><strong>移除選擇</strong>：從欄位中移除選擇。</p> <p><b>警告</b>：如果您有使用此選項的目前物件，請勿將其從欄位中移除。 移除它將會導致歷史資料遺失。 相反地，選取要隱藏它的選項，這會防止使用者在將來選取它。</p> </li> 
+    <li> <p><strong>移除選擇</strong>：從欄位移除選擇。</p> <p><b>警告</b>：如果您有使用此選擇的目前物件，請勿將其從欄位移除。 移除它將會導致歷史資料遺失。 相反地，選取要隱藏它的選項，這會防止使用者在將來選取它。</p> </li> 
     </ul> 
      </li> 
     </ol> </td> 
@@ -392,11 +392,11 @@ ht-degree: 4%
 
    ![復製圖示](assets/copy-field.png)
 
-1. 若要儲存變更，請按一下 **套用** 並移至另一個區段，以繼續建立您的表單。
+1. 若要儲存您的變更，請按一下[套用] ****，然後移至其他區段以繼續建立您的表單。
 
    或
 
-   按一下 **儲存並關閉**.
+   按一下&#x200B;**儲存並關閉**。
 
 ### 新增預先輸入和日期欄位
 
@@ -404,7 +404,7 @@ ht-degree: 4%
 
 +++ **展開以檢視可用欄位的說明**
 
-* **自動提示**：可讓使用者輸入Workfront中存在的物件名稱。 當使用者開始輸入時，建議清單隨即出現。 此欄位型別支援下列物件：
+* **自動提示**：允許使用者輸入Workfront中存在的物件名稱。 當使用者開始輸入時，建議清單隨即出現。 此欄位型別支援下列物件：
    * 使用者
    * 群組
    * 職務角色
@@ -414,7 +414,7 @@ ht-degree: 4%
    * 團隊
    * 範本
    * 公司
-* **日期欄位**：顯示行事曆，使用者可在其中選取日期和時間。
+* **日期欄位**：顯示一個行事曆，使用者可以在其中選取日期和時間。
 
 +++
 
@@ -452,7 +452,7 @@ ht-degree: 4%
       <li>雖然可以這樣做，但建議您不要在您或其他使用者開始使用Workfront中的自訂表單後變更此名稱。 如果這樣做，系統將不再識別現在可能在Workfront其他區域參考該欄位的自訂欄位。 <p>例如，如果您新增自訂欄位至報表，之後又變更其名稱，Workfront將無法辨識報表中的自訂欄位，且除非您使用新名稱將其重新新增至報表，否則將無法正常運作。</p> </li>
       <li> <p>建議您不要輸入已用於內建Workfront欄位的名稱。</p> </li>
       <li><p>建議您不要在自訂欄位名稱中使用句號/點字元，以防止在Workfront的不同區域使用欄位時發生錯誤。</p></li>
-      </ul> <p>每個自訂欄位名稱在貴組織的Workfront例項中必須是唯一的。 如此一來，您便可重複使用已針對其他自訂表單建立的表單。 如需詳細資訊，請參閱 <a href="#Add" class="MCXref xref">新增自訂欄位至自訂表單</a> 本文章內容。</p> </td>
+      </ul> <p>每個自訂欄位名稱在貴組織的Workfront例項中必須是唯一的。 如此一來，您便可重複使用已針對其他自訂表單建立的表單。 如需詳細資訊，請參閱本文中的<a href="#Add" class="MCXref xref">新增自訂欄位至自訂表單</a>。</p> </td>
          <td><ul>
     <li>自動提示</li>
     <li>日期欄位</li>
@@ -477,7 +477,7 @@ ht-degree: 4%
      </tr> 
      <tr> 
       <td role="rowheader">參考物件類型</td> 
-      <td> <p>選取您要與欄位關聯的物件型別。</p> <p>按一下「套用」或「儲存+關閉」後，就無法變更欄位的物件型別。</p> <p><b>注意</b>：   
+      <td> <p>選取您要與欄位關聯的物件型別。</p> <p>按一下「套用」或「儲存+關閉」後，就無法變更欄位的物件型別。</p> <p><b>附註</b>：   
         <ul> 
          <li>如果您的Workfront管理員在Workfront使用者介面中為「Portfolio」、「程式」或「專案」自訂名稱，此下拉式清單中會顯示物件的預設Workfront名稱，而非自訂名稱。 如果您需要這方面的協助，請洽詢Workfront管理員。<br></li> 
          <li>iOS和Android Workfront Mobile應用程式支援下列物件型別：使用者、公司、群組、工作角色、Portfolio、方案、專案和範本。</li> 
@@ -493,8 +493,8 @@ ht-degree: 4%
         <li>它們屬於您指定的群組</li> 
         <li>它們與您指定的角色或職稱相關聯</li> 
         <li>他們與使用欄位的人屬於同一群組</li> 
-       </ul> <p>您必須使用「文字模式」語法來定義所選物件型別的濾鏡。 如需有關使用文字模式建立篩選的資訊，請參閱 <a href="/help/quicksilver/reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md">使用文字模式編輯篩選器</a>.</p>
-       <p><b>注意</b>：
+       </ul> <p>您必須使用「文字模式」語法來定義所選物件型別的濾鏡。 如需有關使用文字模式建立篩選的資訊，請參閱<a href="/help/quicksilver/reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md">使用文字模式編輯篩選</a>。</p>
+       <p><b>附註</b>：
        <ul> 
         <li>如果您正在編輯現有的自訂表單，將篩選條件新增至預先輸入欄位時，不會移除使用者已使用該欄位新增的任何物件（在篩選條件範圍之外）。</li> 
         <li>此篩選器不適用於行動裝置。 如果您針對「預先輸入」欄位使用篩選器，則該欄位將會顯示在不受篩選器影響之使用者的行動裝置上。</li> 
@@ -524,17 +524,17 @@ ht-degree: 4%
 
    ![復製圖示](assets/copy-field.png)
 
-1. 若要儲存變更，請按一下 **套用** 並移至另一個區段，以繼續建立您的表單。
+1. 若要儲存您的變更，請按一下[套用] ****，然後移至其他區段以繼續建立您的表單。
 
    或
 
-   按一下 **儲存並關閉**.
+   按一下&#x200B;**儲存並關閉**。
 
 ### 新增外部查詢欄位
 
 外部查詢欄位會呼叫外部API，並在下拉式欄位中傳回值作為選項。 使用自訂表單附加至之物件的使用者可以從下拉式清單中選取一個或多個選項。 清單和報告中也提供外部查詢欄位。
 
-如需使用外部查詢欄位來呼叫相同Workfront執行個體或公用API的範例，請參閱 [自訂表單中的外部查詢欄位範例](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/external-lookup-examples.md).
+如需使用外部查詢欄位來呼叫相同Workfront執行個體或公用API的範例，請參閱自訂表單中的[外部查詢欄位範例](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/external-lookup-examples.md)。
 
 >[!NOTE]
 >
@@ -544,7 +544,7 @@ ht-degree: 4%
 
 若要新增外部查詢：
 
-1. 在畫面左側，尋找 **外部查詢** 並將其拖曳至畫布上的區段。
+1. 在熒幕左側，尋找&#x200B;**外部查詢**&#x200B;並將其拖曳至畫布上的區段。
 1. 在畫面右側，設定自訂欄位的選項：
 
    <table style="table-layout:auto"> 
@@ -563,7 +563,7 @@ ht-degree: 4%
       <li>雖然可以這樣做，但建議您不要在您或其他使用者開始使用Workfront中的自訂表單後變更此名稱。 如果這樣做，系統將不再識別現在可能在Workfront其他區域參考該欄位的自訂欄位。 <p>例如，如果您新增自訂欄位至報表，之後又變更其名稱，Workfront將無法辨識報表中的自訂欄位，且除非您使用新名稱將其重新新增至報表，否則將無法正常運作。</p> </li>
       <li> <p>建議您不要輸入已用於內建Workfront欄位的名稱。</p> </li>
       <li><p>建議您不要在自訂欄位名稱中使用句號/點字元，以防止在Workfront的不同區域使用欄位時發生錯誤。</p></li>
-      </ul> <p>每個自訂欄位名稱在貴組織的Workfront例項中必須是唯一的。 如此一來，您便可重複使用已針對其他自訂表單建立的表單。 如需詳細資訊，請參閱 <a href="#Add" class="MCXref xref">新增自訂欄位至自訂表單</a> 本文章內容。</p> </td>
+      </ul> <p>每個自訂欄位名稱在貴組織的Workfront例項中必須是唯一的。 如此一來，您便可重複使用已針對其他自訂表單建立的表單。 如需詳細資訊，請參閱本文中的<a href="#Add" class="MCXref xref">新增自訂欄位至自訂表單</a>。</p> </td>
      </tr> 
       <td role="rowheader">指示</td> 
       <td> <p>輸入自訂欄位的任何其他資訊。 當使用者填寫自訂表單時，可以將滑鼠指標暫留在問號圖示上，以檢視包含您在此處輸入資訊的工具提示。</p> </td> 
@@ -581,31 +581,36 @@ ht-degree: 4%
       <td role="rowheader">基底 API URL</td> 
       <td><p>輸入或貼上API的URL。</p><p>API URL必須傳回您要在下拉式清單中顯示的選項JSON內容。 您可以使用JSON路徑欄位，從傳回的JSON中選取特定值作為下拉式選項。</p><p>輸入API URL時，您可以選擇在URL中傳遞下列值：</p>
       <ul>
-      <li>$$HOST — 這代表目前的Workfront主機，可用來對Workfront API進行/search API呼叫。 使用此萬用字元時，會處理驗證，使用者不需要傳送驗證標題。 (例如，使用者可以使用基本URL來搜尋任務 <code>$$HOST/attask/api/task/search</code> 而且它允許搜尋任務並從傳回的任務清單中選取值。)</li>
+      <li>$$HOST — 這代表目前的Workfront主機，可用來對Workfront API進行/search API呼叫。 使用此萬用字元時，會處理驗證，使用者不需要傳送驗證標題。 （例如，使用者可以使用基本URL <code>$$HOST/attask/api/task/search</code>來搜尋工作，而且它允許搜尋工作並從傳回的工作清單中選取值。）</li>
       <li><p>$$QUERY — 這代表一般使用者在欄位中輸入的搜尋文字，可讓您為一般使用者實作查詢篩選。 （使用者會在下拉式清單中搜尋值。）</p>
-      <p>如果您參考的API允許，您也可以在搜尋查詢中包含修飾詞，以識別搜尋應該如何運作。 例如，您可以使用下列專案作為基礎API URL，讓人們搜尋包含特定文字的任何Workfront專案： <code>$$HOST/attask/api/v15.0/proj/search?name=$$QUERY&name_Mod=contains</code>.</p><p>進一步瞭解Workfront搜尋修飾詞於 <a href="/help/quicksilver/wf-api/general/api-basics.md">API基本需知</a>.</p>
-      <p><strong>注意：</strong> 如果您未使用$$QUERY，且使用者在搜尋方塊中輸入文字，將會縮小您已擁有的選擇範圍。 但是，如果您使用$$QUERY且使用者鍵入任何內容，則會對您的API執行新的網路呼叫。 因此，如果您的API中有超過2000個值，且API支援查詢，您便可以利用$$QUERY來不僅搜尋現有2000個值，而且搜尋具有縮小選項的原始API。</p></li>
-      <li><p>{fieldName}  — 其中fieldName是Workfront中的任何自訂或原生欄位。 這樣，當您將已選取欄位的值傳遞至外部查詢欄位以篩選下拉選項時，您就可以實作階層式下拉選項篩選器。 （例如，「地區」欄位已存在於表單上，而您正在將國家/地區清單從API縮小至特定地區。）</p>
-      <p>對於相依於其他欄位的外部查詢欄位(使用 {fieldName} 語法)，從API傳回的選項僅限於符合在其他欄位中輸入的任何字串或值的選項。 （清單和報告不支援此功能。）</p></li>
-      <li>{referenceObject}.{fieldName}  — 其中欄位是物件的一部分。 此語法類似於自訂運算式。 (例如，portfolioID={project}.{portfolioID})</li></ul>
-      <p><strong>注意：</strong> 檢閱您正在使用的API的檔案，以瞭解您可以定義的特定查詢。</p></td>
+      <p>如果您參考的API允許，您也可以在搜尋查詢中包含修飾詞，以識別搜尋應該如何運作。 例如，您可以使用下列作為基礎API URL，以允許人員搜尋包含特定文字的任何Workfront專案： <code>$$HOST/attask/api/v15.0/proj/search?name=$$QUERY&name_Mod=contains</code>。</p><p>進一步瞭解<a href="/help/quicksilver/wf-api/general/api-basics.md">API基本知識</a>中的Workfront搜尋修飾詞。</p>
+      <p><strong>注意：</strong>如果您未使用$$QUERY，而且使用者在搜尋方塊中輸入文字，將會縮小您現有的選擇。 但是，如果您使用$$QUERY且使用者鍵入任何內容，則會對您的API執行新的網路呼叫。 因此，如果您的API中有超過2000個值，且API支援查詢，您便可以利用$$QUERY來不僅搜尋現有2000個值，而且搜尋具有縮小選項的原始API。</p></li>
+      <li><p>{fieldName} — 其中fieldName是Workfront中的任何自訂或原生欄位。 這樣，當您將已選取欄位的值傳遞至外部查詢欄位以篩選下拉選項時，您就可以實作階層式下拉選項篩選器。 （例如，「地區」欄位已存在於表單上，而您正在將國家/地區清單從API縮小至特定地區。）</p>
+      <p>對於相依於其他欄位（使用{fieldName}語法）的外部查詢欄位，從API傳回的選項僅限於符合在其他欄位中輸入的任何字串或值的選項。 （清單和報告不支援此功能。）</p></li>
+      <li>{referenceObject}。{fieldName} — 其中欄位是物件的一部分。 此語法類似於自訂運算式。 (例如，portfolioID={project}。{portfolioID})</li></ul>
+      <p><strong>注意：</strong>檢閱您正在使用的API檔案，以瞭解您可以定義的特定查詢。</p></td>
      </tr>
      <tr> 
       <td role="rowheader">HTTP 方法</td> 
-      <td>選取 <strong>Get</strong>， <strong>Post</strong>，或 <strong>Put</strong> 用於方法。</td> 
+      <td>為方法選取<strong>Get</strong>、<strong>Post</strong>或<strong>Put</strong>。</td> 
      </tr>
      <tr> 
       <td role="rowheader">JSON 路徑</td>
-      <td><p>輸入或貼上API的JSON路徑。</p> <p>此選項允許從API URL傳回的JSON擷取資料。 這可當作選取要讓JSON內的哪些值出現在下拉選項中的方式。</p><p>例如，如果您的API URL傳回此格式的JSON：</br>
+      <td><p>輸入或貼上API的JSON路徑。</p> <p>此選項允許從API URL傳回的JSON擷取資料。 這可當作選取要讓JSON內的哪些值出現在下拉選項中的方式。</p><p>例如，若您的API URL傳回此格式的JSON： </br>
       <pre>
-      { data： { { name： "USA"}， { name： "Canada"} }
+      {
+       資料： {
+         { name： "USA"}，
+         { name： "Canada"}
+       }
+      }
       </pre>
       </p>
-      <p>然後您可以使用「$.data[*].name」選取美國和加拿大作為下拉式清單選項。</p> <p>如需JSON路徑的相關資訊，以及確保您撰寫正確的JSON路徑，請參閱 <a href="https://jsonpath.com/">https://jsonpath.com/</a>.</p></td>
+      <p>然後您可以使用「$.data[*].name」選取美國和加拿大作為下拉式清單選項。</p> <p>如需有關JSON路徑並確保您撰寫正確JSON路徑的詳細資訊，請參閱<a href="https://jsonpath.com/">https://jsonpath.com/</a>。</p></td>
      </tr>
      <tr> 
       <td role="rowheader">標頭</td>
-      <td><p>按一下 <strong>新增頁首</strong>，然後輸入或貼上使用API驗證所需的金鑰值組。</p><p><strong>注意：</strong> 標題欄位不是儲存認證的安全位置，您應該注意輸入和儲存的內容。</p></td>
+      <td><p>按一下<strong>新增標題</strong>，然後輸入或貼上使用API驗證所需的金鑰值組。</p><p><strong>注意：</strong>標頭欄位不是儲存認證的安全位置，您應該注意輸入和儲存的內容。</p></td>
      </tr>
      <tr> 
       <td role="rowheader">多選下拉清單</td>
@@ -619,11 +624,11 @@ ht-degree: 4%
     </tbody>
    </table>
 
-1. 若要儲存變更，請按一下 **套用** 並移至另一個區段，以繼續建立您的表單。
+1. 若要儲存您的變更，請按一下[套用] ****，然後移至其他區段以繼續建立您的表單。
 
    或
 
-   按一下 **儲存並關閉**.
+   按一下&#x200B;**儲存並關閉**。
 
 >[!NOTE]
 >
@@ -651,9 +656,9 @@ The Workfront Mobile app -->
 
 +++ **展開以檢視可用欄位的說明**
 
-* **影像**：可讓使用者新增影像檔案。
+* **影像**：允許使用者新增影像檔案。
 * **PDF**：允許使用者新增PDF
-* **影片**：可讓使用者新增視訊檔案。
+* **影片**：允許使用者新增影片檔案。
 
 +++
 
@@ -689,7 +694,7 @@ The Workfront Mobile app -->
       <li> <p>YouTube或Vimeo連結</p> </li> 
       <li> <p>Google Drive影片連結</p> </li> 
       <li> <p>使用MP4和MOV擴充功能的視訊連結</p> </li> 
-      <li> <p>視訊連結已上傳至Workfront執行個體中的檔案區域。 如需指示，請參閱 <a href="#add-a-video-widget-to-a-custom-form-from-the-documents-area" class="MCXref xref">從檔案區域新增視訊Widget至自訂表單</a> 本文章內容。</p> </li> 
+      <li> <p>視訊連結已上傳至Workfront執行個體中的檔案區域。 如需指示，請參閱本文中的<a href="#add-a-video-widget-to-a-custom-form-from-the-documents-area" class="MCXref xref">從檔案區域</a>新增視訊Widget至自訂表單。</p> </li> 
       </ul> 
        </td> 
      </tr> 
@@ -712,11 +717,11 @@ The Workfront Mobile app -->
 
    ![復製圖示](assets/copy-field.png)
 
-1. 若要儲存變更，請按一下 **套用** 並移至另一個區段，以繼續建立您的表單。
+1. 若要儲存您的變更，請按一下[套用] ****，然後移至其他區段以繼續建立您的表單。
 
    或
 
-   按一下 **儲存並關閉**.
+   按一下&#x200B;**儲存並關閉**。
 
 #### 從檔案區域新增視訊Widget至自訂表單{#add-a-video-widget-to-a-custom-form-from-the-documents-area}
 
@@ -724,15 +729,15 @@ The Workfront Mobile app -->
 >
 >以這種方式將視訊新增至自訂表單時，當使用者存取物件上的表單時，只有針對自訂表單設定的許可權會套用至視訊，而不是檔案區域中為視訊設定的許可權。
 
-1. 前往檔案區域中的影片，並為其產生校樣，如中所述 [為網站或其他網頁內容建立互動式校樣](/help/quicksilver/review-and-approve-work/proofing/creating-proofs-within-workfront/generate-interactive-proof-for-website-or-other-web-content.md).
+1. 移至[檔案]區域中的視訊並產生其校訂，如[為網站或其他網頁內容建立互動式校訂](/help/quicksilver/review-and-approve-work/proofing/creating-proofs-within-workfront/generate-interactive-proof-for-website-or-other-web-content.md)中所述。
 1. 開啟校訂。
-1. 以滑鼠右鍵按一下視訊上的任何位置，然後選取「 」 **複製視訊位址**.
-1. 在您新增視訊Widget的自訂表單中，將複製的地址貼到 **URL** 方塊。
-1. 若要儲存變更，請按一下 **套用** 並移至另一個區段，以繼續建立您的表單。
+1. 以滑鼠右鍵按一下視訊上的任何位置，然後選取&#x200B;**複製視訊位址**。
+1. 在您新增視訊Widget的自訂表單中，將複製的地址貼到&#x200B;**URL**&#x200B;方塊中。
+1. 若要儲存您的變更，請按一下[套用] ****，然後移至其他區段以繼續建立您的表單。
 
    或
 
-   按一下 **儲存並關閉**.
+   按一下&#x200B;**儲存並關閉**。
 
 ### 新增Workfront原生欄位
 
@@ -785,7 +790,7 @@ The Workfront Mobile app -->
 
 +++
 
-1. 在畫面左側，尋找 **原生欄位** 並將其拖曳至畫布上的區段。
+1. 在熒幕左側，尋找&#x200B;**原生欄位**&#x200B;並將其拖曳至畫布上的區段。
 1. 在畫面右側，設定自訂欄位的選項：
 
    <table style="table-layout:auto"> 
@@ -820,11 +825,11 @@ The Workfront Mobile app -->
     </tbody> 
    </table>
 
-1. 若要儲存變更，請按一下 **套用** 並移至另一個區段，以繼續建立您的表單。
+1. 若要儲存您的變更，請按一下[套用] ****，然後移至其他區段以繼續建立您的表單。
 
    或
 
-   按一下 **儲存並關閉**.
+   按一下&#x200B;**儲存並關閉**。
 
 ### 新增Adobe XD檔案
 
@@ -835,7 +840,7 @@ The Workfront Mobile app -->
 
 新增Adobe XD檔案：
 
-1. 在畫面左側，尋找 **Adobe XD** 並將其拖曳至畫布上的區段。
+1. 在熒幕左側，尋找&#x200B;**Adobe XD**&#x200B;並將其拖曳至畫布上的區段。
 1. 為Widget輸入或編輯下列任一屬性：
 
    <table style="table-layout:auto"> 
@@ -881,12 +886,12 @@ The Workfront Mobile app -->
 
    ![復製圖示](assets/copy-field.png)
 
-1. 若要儲存變更，請按一下 **套用** 並移至另一個區段，以繼續建立您的表單。
+1. 若要儲存您的變更，請按一下[套用] ****，然後移至其他區段以繼續建立您的表單。
 
    或
 
-   按一下 **儲存並關閉**.
+   按一下&#x200B;**儲存並關閉**。
 
 ## 使用表單設計工具來組織和預覽表單
 
-有關如何組織和檢視表單預覽的資訊，請參閱 [使用表單設計工具來組織和預覽表單](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/organize-a-form.md).
+如需如何整理及預覽表單的相關資訊，請參閱[使用表單設計工具整理及預覽表單](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/organize-a-form.md)。
