@@ -9,10 +9,10 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 172999e7-fb05-49a6-ad57-84b59e80a28e
-source-git-commit: 405460158b9a540e427b9f9e5de101823838b17b
+source-git-commit: 84444753db0e5c496f013e0245988e62fddad585
 workflow-type: tm+mt
 source-wordcount: '758'
-ht-degree: 1%
+ht-degree: 0%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 1%
 這是透過允許清單來完成，其實質為「允許」透過防火牆傳送或接收資料的網站「清單」。 您可以使用下列兩種方式之一來識別網站：
 
 * **IP位址**：一系列數字，例如52.31.132.175
-* **網域**：URL的一部分，例如www.thisdomain.com中的&quot;thisdomain&quot;
+* **網域**： URL的一部分，例如www.thisdomain.com中的「thisdomain」
 
 Workfront使用特定的IP位址和網域進行網頁通訊。 必須先將這些專案新增到貴組織的允許清單中，您才能在組織中使用Workfront。
 
@@ -49,19 +49,19 @@ Workfront使用特定的IP位址和網域進行網頁通訊。 必須先將這�
  <tbody> 
   <tr> 
    <td role="rowheader">允許的特定IP位址和網域</td> 
-   <td> <p>文章 <a href="../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md" class="MCXref xref">設定防火牆的允許清單</a> 包含貴組織必須新增至允許清單的IP位址和網域清單。 </p> <p>您的網路管理員可能沒有「設定防火牆的允許清單」文章的存取權。 在這種情況下，您必須將其提供給他們。 我們不建議列印硬式（紙張）的復本。 數位復本可讓您的網路管理員複製並貼上位址，這比從硬複製輸入更快速、更準確。</p> </td> 
+   <td> <p>文章<a href="../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md" class="MCXref xref">設定防火牆的允許清單</a>包含貴組織必須新增至允許清單的IP位址和網域清單。 </p> <p>您的網路管理員可能沒有「設定防火牆的允許清單」文章的存取權。 在這種情況下，您必須將其提供給他們。 我們不建議列印硬式（紙張）的復本。 數位復本可讓您的網路管理員複製並貼上位址，這比從硬複製輸入更快速、更準確。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">您的叢集</td> 
-   <td>若要找出組織的叢集，請參閱 <a href="#view-your-organization-s-cluster-and-workfront-plan" class="MCXref xref">檢視貴組織的叢集和Workfront計畫</a>.</td> 
+   <td>若要尋找組織的叢集，請參閱<a href="#view-your-organization-s-cluster-and-workfront-plan" class="MCXref xref">檢視組織的叢集和Workfront計畫</a>。</td> 
   </tr> 
   <tr> 
    <td role="rowheader">您的Workfront計畫</td> 
-   <td> <p>若要尋找貴組織的計畫，請參閱 <a href="#view-your-organization-s-cluster-and-workfront-plan" class="MCXref xref">檢視您組織的叢集和Workfront計畫。</a></p> </td> 
+   <td> <p>若要尋找您組織的計畫，請參閱<a href="#view-your-organization-s-cluster-and-workfront-plan" class="MCXref xref">檢視您組織的叢集和Workfront計畫。</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">您的網域</td> 
-   <td> <p>若要尋找您的網域，請檢視您用來連線至Workfront的網址。</p> <p>範例：在網址中 <code>greatcompany.my.workfront.com</code>，網域為「greatcompany」</p> </td> 
+   <td> <p>若要尋找您的網域，請檢視您用來連線至Workfront的網址。</p> <p>範例：在網址<code>greatcompany.my.workfront.com</code>中，網域為「greatcompany」</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">其他Adobe Workfront產品</td> 
@@ -76,7 +76,7 @@ Workfront使用特定的IP位址和網域進行網頁通訊。 必須先將這�
    <td>如果您使用下列任何一項，請通知您的網路管理員：
     <ul>
      <li><p>適用於 Jira 的 Workfront</p></li>
-     <li><p>適用於 G Suite 的 Workfront</p></li>
+     <li><p>適用於Google Workspace的Workfront</p></li>
      <li><p>適用於 Microsoft Teams 的 Workfront</p></li>
      <li><p>適用於Outlook的Workfront</p></li>
      <li><p>適用於Salesforce的Workfront</p></li>
@@ -98,16 +98,16 @@ Workfront使用特定的IP位址和網域進行網頁通訊。 必須先將這�
 
 ### 檢視貴組織的叢集和Workfront計畫 {#view-your-organization-s-cluster-and-workfront-plan}
 
-1. 按一下 **[!UICONTROL 主要功能表]** 圖示 ![主要功能表](/help/_includes/assets/main-menu-icon.png) 在Adobe Workfront的右上角，或（如果有的話）按一下 **[!UICONTROL 主要功能表]** 圖示 ![主要功能表](/help/_includes/assets/main-menu-icon-left-nav.png) 然後按一下「 」 **[!UICONTROL 設定]** ![「設定」圖示](/help/_includes/assets/gear-icon-setup.png).
+1. 按一下Adobe Workfront右上角的&#x200B;**[!UICONTROL 主功能表]**&#x200B;圖示![主功能表](/help/_includes/assets/main-menu-icon.png)，或（如果有的話）按一下左上角的&#x200B;**[!UICONTROL 主功能表]**&#x200B;圖示![主功能表](/help/_includes/assets/main-menu-icon-left-nav.png)，然後按一下&#x200B;**[!UICONTROL 設定]** ![設定圖示](/help/_includes/assets/gear-icon-setup.png)。
 
-1. 按一下 **系統** 在左側面板
-1. 若要檢視您的叢集，請選取 **客戶資訊**.
+1. 按一下左側面板中的&#x200B;**系統**
+1. 若要檢視您的叢集，請選取&#x200B;**客戶資訊**。
 
-   您的叢集會顯示在 **基本資訊** 區段。
+   您的叢集會顯示在&#x200B;**基本資訊**&#x200B;區段的右上角附近。
 
    ![](assets/locate-cluster.png)
 
-1. 若要檢視您的Workfront計畫，請選取 **授權**.
+1. 若要檢視您的Workfront計畫，請選取&#x200B;**授權**。
 
    您的計畫會顯示在頁面底部附近。
 

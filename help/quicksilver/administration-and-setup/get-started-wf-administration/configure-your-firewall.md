@@ -8,7 +8,7 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 264eed40-6d90-498b-83cc-2500c8b19c84
-source-git-commit: d85898a74991b2c634d8bd33c81c127321617cf9
+source-git-commit: 84444753db0e5c496f013e0245988e62fddad585
 workflow-type: tm+mt
 source-wordcount: '1635'
 ht-degree: 0%
@@ -23,9 +23,9 @@ ht-degree: 0%
 >
 >此頁面中說明的程式僅適用於尚未加入Admin Console的組織。 如果您的組織已加入Adobe Admin Console，您必須透過Adobe Admin Console執行此動作。
 >
->若要在貴組織已上線至Adobe Admin Console的情況下設定允許清單，請參閱 [Adobe應用程式和服務允許的網域](https://helpx.adobe.com/enterprise/kb/network-endpoints.html).
+>若要在貴組織已加入Adobe Admin Console的情況下設定允許清單，請參閱[允許Adobe應用程式和服務的網域](https://helpx.adobe.com/enterprise/kb/network-endpoints.html)。
 >
->如需根據貴組織是否已加入Adobe Admin Console而有所差異的程式清單，請參閱 [平台型管理差異(Adobe Workfront/Adobe Business Platform)](../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
+>如需根據貴組織是否已加入Adobe Admin Console而有所差異的程式清單，請參閱[以平台為基礎的管理差異(Adobe Workfront/Adobe Business Platform)](../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md)。
 
 >[!NOTE]
 >
@@ -42,7 +42,7 @@ ht-degree: 0%
 * 設定自訂檔案整合時使用檔案Webhook
 * 使用Workfront事件訂閱
 
-  如需詳細資訊，請參閱 [事件訂閱API](https://experience.workfront.com/s/article/Event-Subscription-API-2100945680).
+  如需詳細資訊，請參閱[事件訂閱API](https://experience.workfront.com/s/article/Event-Subscription-API-2100945680)。
 
 您也需要開啟某些連線埠，才能在傳送電子郵件訊息時進行加密。
 
@@ -50,8 +50,8 @@ ht-degree: 0%
 
 如果您的組織擁有企業計畫，您也可以設定兩個Workfront允許清單：
 
-* **電子郵件允許清單**：可讓您控制使用者可以用電子郵件傳送儲存在Workfront中之資料的位置。 如需詳細資訊，請參閱 [設定您的電子郵件允許清單](../../administration-and-setup/get-started-wf-administration/configure-your-email-allowlist.md).
-* **IP允許清單**：限制只有45個您指定的IP位址或IP位址範圍可以存取Workfront，為Workfront應用程式提供額外的安全層。 如需詳細資訊，請參閱 [依IP位址限制對Adobe Workfront的存取](../../administration-and-setup/manage-workfront/security/restrict-access-workfront-ip-address.md).
+* **電子郵件允許清單**：可讓您控制使用者可以用電子郵件傳送儲存在Workfront中的資料的位置。 如需詳細資訊，請參閱[設定您的電子郵件允許清單](../../administration-and-setup/get-started-wf-administration/configure-your-email-allowlist.md)。
+* **IP允許清單**：將Workfront的存取限製為您指定的45個IP位址或IP位址範圍，為Workfront應用程式提供額外的安全層。 如需詳細資訊，請參閱[依IP位址限制存取Adobe Workfront](../../administration-and-setup/manage-workfront/security/restrict-access-workfront-ip-address.md)。
 
 ## 找到Workfront叢集
 
@@ -59,13 +59,13 @@ ht-degree: 0%
 
 若要找出貴組織的叢集：
 
-1. 身為Workfront管理員，按一下 **主要功能表** 圖示 ![主要功能表](assets/main-menu-icon.png)，然後按一下 **設定**.
-1. 在左側導覽列中，按一下 **系統**，然後選取 **客戶資訊**.
-1. 找到 **叢集設定** 欄位。 此處列出您組織的叢集。
+1. 身為Workfront管理員，請按一下&#x200B;**主功能表**&#x200B;圖示![主功能表](assets/main-menu-icon.png)，然後按一下&#x200B;**設定**。
+1. 在左側導覽列中，按一下&#x200B;**系統**，然後選取&#x200B;**客戶資訊**。
+1. 在頁面的右上角找到&#x200B;**叢集設定**&#x200B;欄位。 此處列出您組織的叢集。
 
    CL01是指Cluster 1，CL02是Cluster 2，依此類推。
 
-如需詳細資訊，請參閱區段 [檢視貴組織的叢集和Workfront計畫](../../administration-and-setup/get-started-wf-administration/firewall-overview.md#view-your-organizations-cluster-and-workfront-plan) 在文章中 [防火牆概述](../../administration-and-setup/get-started-wf-administration/firewall-overview.md).
+如需詳細資訊，請參閱文章[防火牆概觀](../../administration-and-setup/get-started-wf-administration/firewall-overview.md)中的[檢視您組織的叢集和Workfront計畫](../../administration-and-setup/get-started-wf-administration/firewall-overview.md#view-your-organizations-cluster-and-workfront-plan)一節。
 
 ## 要新增至允許清單的IP位址
 
@@ -73,18 +73,18 @@ ht-degree: 0%
 >
 >部分Workfront整合在啟用允許清單時無法運作，因為它們無法設定靜態IP位址。 若要使用下列整合，您必須停用允許清單。
 >
->* 適用於 G Suite 的 Workfront
+>* 適用於Google Workspace的Workfront
 >* 適用於Outlook的Workfront
 >* 適用於Salesforce的Workfront
 
-* [允許叢集1、2、3、5、7、8和9使用的IP位址](#ip-addresses-to-allow-for-clusters-1-2-3-5-7-8-and-9)
-* [允許叢集4使用的IP位址](#ip-addresses-to-allow-for-cluster-4)
-* [允許叢集6使用的IP位址](#ip-addresses-to-allow-for-cluster-6)
-* [允許測試磁碟機使用的IP位址](#IP%20Addre2)
-* [實作事件訂閱時允許的IP位址](#ip-addresses-to-allow-when-implementing-event-subscriptions)
-* [允許增強型驗證的IP位址](#ip-addresses-to-allow-for-enhanced-authentication)
-* [要新增以存取Workfront Fusion的IP位址](#ip-addresses-to-add-for-accessing-workfront-fusion)
-* [要使用Workfront for Jira新增的IP位址](#ip-addresses-to-add-for-using-workfront-for-jira)
+* 允許叢集1、2、3、5、7、8和9](#ip-addresses-to-allow-for-clusters-1-2-3-5-7-8-and-9)的[IP位址
+* 允許叢集4](#ip-addresses-to-allow-for-cluster-4)的[IP位址
+* 允許叢集6](#ip-addresses-to-allow-for-cluster-6)的[IP位址
+* [允許測試磁碟機的IP位址](#IP%20Addre2)
+* 實作事件訂閱時允許的[IP位址](#ip-addresses-to-allow-when-implementing-event-subscriptions)
+* [允許增強式驗證的IP位址](#ip-addresses-to-allow-for-enhanced-authentication)
+* [要新增的IP位址以存取Workfront Fusion](#ip-addresses-to-add-for-accessing-workfront-fusion)
+* 使用Workfront for Jira](#ip-addresses-to-add-for-using-workfront-for-jira)要新增的[個IP位址
 * [Workfront要為所有叢集新增的URL](#urls-to-add-for-all-clusters-workfront)
 
 ### 允許叢集1、2、3、5、7、8和9使用的IP位址 {#ip-addresses-to-allow-for-clusters-1-2-3-5-7-8-and-9}
@@ -126,7 +126,7 @@ ht-degree: 0%
      <li>52.14.70.114</li> 
      <li>52.15.230.220</li> 
      <li>54.71.252.65</li> 
-    </ul> <p>如需有關下列IP位址的資訊，請參閱 <a href="../../product-announcements/announcements/announcement-archive/new-email-ip-21-1.md" class="MCXref xref">Adobe Workfront 21.1版本電子郵件的新IP位址</a></p> 
+    </ul> <p>如需有關下列IP位址的資訊，請參閱<a href="../../product-announcements/announcements/announcement-archive/new-email-ip-21-1.md" class="MCXref xref">21.1版的Adobe Workfront電子郵件新IP位址</a></p> 
     <ul> 
      <li>23.251.237.107</li> 
      <li>23.251.237.108</li> 
@@ -163,7 +163,7 @@ ht-degree: 0%
 * 46.51.194.192/32
 * 54.229.129.66/32
 
-如需有關下列IP位址的資訊，請參閱 [Adobe Workfront 21.1版本電子郵件的新IP位址](../../product-announcements/announcements/announcement-archive/new-email-ip-21-1.md)
+如需有關下列IP位址的資訊，請參閱[21.1版的Adobe Workfront電子郵件新IP位址](../../product-announcements/announcements/announcement-archive/new-email-ip-21-1.md)
 
 * 23.251.239.98
 * 23.251.239.99
@@ -510,13 +510,13 @@ jira.workfront.com網域也必須可從您的公司伺服器存取。 此網域�
     <ul> 
      <li>*.workfront.com — 需在Workfront中檢視校樣</li> 
      <li>*.proofhq.com — 需在Workfront Proof中檢視校樣</li> 
-     <li>*.proofhq.eu — 需要在Workfront Proof中檢視校樣</li> 
-    </ul> <p><b>注意</b>：  <p>我們不支援將IP位址新增至您的Workfront Proof允許清單。 Workfront移至AWS後，這些量度為動態變化。 建議您只允許Workfront Proof網域。</p> <p>如果將這些網域新增至您的允許清單時發生問題，而您需要IP位址，請聯絡Workfront客戶支援。</p> </p> </td> 
+     <li>*.proofhq.eu — 需在Workfront Proof中檢視校樣</li> 
+    </ul> <p><b>附註</b>：  <p>我們不支援將IP位址新增至您的Workfront Proof允許清單。 Workfront移至AWS後，這些量度為動態變化。 建議您只允許Workfront Proof網域。</p> <p>如果將這些網域新增至您的允許清單時發生問題，而您需要IP位址，請聯絡Workfront客戶支援。</p> </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## 要新增用於存取Workfront Proof的IP位址和URL
+## 要新增以存取Workfront Proof的IP位址和URL
 
 您必須將下列IP位址新增至允許清單，才能使用各種函式。
 

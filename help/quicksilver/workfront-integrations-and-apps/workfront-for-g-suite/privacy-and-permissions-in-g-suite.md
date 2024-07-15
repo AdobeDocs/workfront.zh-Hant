@@ -1,31 +1,31 @@
 ---
 product-area: workfront-integrations
-keywords: google,doc，文檔，工作表，幻燈片
+keywords: google，doc，檔案，工作表，幻燈片
 navigation-topic: workfront-for-g-suite
-title: Workfront for G套裝的隱私權和權限
-description: Workfront for G套裝的隱私權和權限
+title: 適用於Google Workspace的Workfront中的隱私權與許可權
+description: 適用於Google Workspace的Workfront中的隱私權與許可權
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: abb8ffa1-1da6-46dd-a929-18b17014839a
-source-git-commit: bd9fb14b99886f4a514c4d37ad9d93be7a051858
+source-git-commit: 84444753db0e5c496f013e0245988e62fddad585
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '364'
 ht-degree: 0%
 
 ---
 
-# Workfront for G套裝的隱私權和權限
+# 適用於Google Workspace的Workfront中的隱私權與許可權
 
-由於客戶隱私權很重要，Adobe Workfront不會儲存或收集因第三方授權Google外掛程式應用程式而產生的任何識別客戶資料。 Workfront for G Suite將從Google API收到的資訊傳輸至任何其他應用程式時，將遵循 [Google API服務使用者資料原則](https://developers.google.com/terms/api-services-user-data-policy)，包括有限使用需求。
+由於客戶隱私權很重要，Adobe Workfront不會儲存或收集任何因Google外掛程式應用程式的第三方授權而產生的識別客戶資料。 Google Workspace的Workfront使用從Google API收到的資訊並傳輸到任何其他應用程式時，將遵守[Google API服務使用者資料原則](https://developers.google.com/terms/api-services-user-data-policy)，包括有限使用要求。
 
-我們需要下列權限，Workfront for G Suite外掛程式才能提供其最大值：
+我們需要下列許可權，才能讓適用於Google Workspace的Workfront外掛程式提供最大價值：
 
-* **在載入項運行時查看您的電子郵件**:Workfront for G Suite外掛程式可將電子郵件轉換為Workfront中的新工作，並自動以電子郵件的主旨和內文填入工作的標題和說明，借此節省使用者數以萬計的重複工作時間。 外掛程式也可讓您將電子郵件以新留言形式發佈至Workfront。 外掛程式執行時需要檢視您的電子郵件訊息才能傳送此值。
-* **執行as a Gmail附加元件/不敏感**:需要Workfront for G Suite附加元件的權限，才能在Gmail環境中運作。 外掛程式需要Gmail環境才能運作，因此需要 `Run as a Gmail add-on / non-sensitive` 權限。
-* **執行附加元件時檢視您的電子郵件訊息中繼資料**:為了改善工作流程，Workfront for G Suite外掛程式會確認電子郵件是否為Workfront通知，並識別Workfront通知的類型（新工作請求、核准請求、新留言等）。 外掛程式需要 `View your email message metadata when the add-on is running` 傳遞此值的權限。
-* **外掛程式需要以日曆附加元件/非敏感狀態執行**:Workfront for G Suite外掛程式可連線至您的日曆，讓您將工作對排程的影響視覺化呈現。 外掛程式需要 `Run as a Calendar add-on / non-sensitive` 權限。
-* **連接到外部服務權限：** 最終，外掛程式需要連線至Workfront API，而API是外掛程式值的骨幹。 Workfront API是Google外部的服務，因此外掛程式需要 `Connect to an external service permission` 讓外掛程式正常運作。
+* **當附加元件執行時，檢視您的電子郵件訊息**： Google適用的Workfront Workspace外掛程式可將電子郵件轉換為Workfront中的新工作，並自動將電子郵件的主旨與內文填入工作的標題與說明，讓使用者省下無數小時的重複工作。 此外掛程式也可讓您將電子郵件作為新評論發佈至Workfront。 外掛程式必須在執行附加元件時檢視您的電子郵件訊息，才能傳遞此值。
+* **以Gmail附加元件執行/不敏感**： Workfront需要許可權，Google Workspace附加元件才能在Gmail環境中運作。 外掛程式需要Gmail環境才能運作，因此需要`Run as a Gmail add-on / non-sensitive`許可權。
+* **當附加元件執行時，檢視您的電子郵件訊息中繼資料**：為了改善工作流程，Google Workspace的Workfront外掛程式會確認電子郵件是否為Workfront通知，並識別Workfront通知的型別（新工作要求、核准要求、新註解等）。 外掛程式需要`View your email message metadata when the add-on is running`許可權才能傳遞此值。
+* **外掛程式必須以Calendar附加元件執行/不敏感**：適用於Google Workspace的Workfront外掛程式會連線至您的行事曆，以便您以視覺效果呈現工作對排程的影響。 外掛程式需要`Run as a Calendar add-on / non-sensitive`許可權才能執行此操作。
+* **連線到外部服務許可權：**&#x200B;外掛程式最終需要連線到Workfront API，這是外掛程式值的骨幹。 Workfront API是Google外部的服務，所以外掛程式需要`Connect to an external service permission`才能讓外掛程式運作。
 
-如需Adobe Workfront致力於保護客戶隱私的詳細資訊，請參閱 [Workfront的隱私聲明](https://www.adobe.com/content/dam/cc/en/legal/terms/enterprise/pdfs/Privacy-Notice-and-Privacy-Shield-Statement-Adobe-Workfront.pdf).
+如需有關Adobe Workfront致力於客戶隱私權的詳細資訊，請參閱[Workfront的隱私權通知](https://www.adobe.com/content/dam/cc/en/legal/terms/enterprise/pdfs/Privacy-Notice-and-Privacy-Shield-Statement-Adobe-Workfront.pdf)。
 
-如需詳細資訊，請參閱 [Google API服務使用者資料原則](https://developers.google.com/terms/api-services-user-data-policy).
+如需詳細資訊，請參閱[Google API服務使用者資料原則](https://developers.google.com/terms/api-services-user-data-policy)。

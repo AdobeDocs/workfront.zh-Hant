@@ -6,7 +6,7 @@ draft: Probably
 feature: Product Announcements, Workfront Integrations and Apps
 recommendations: noDisplay, noCatalog
 exl-id: 5e841349-7d76-4ab9-9625-a0c53111bf35
-source-git-commit: ccba3a3d7c0cac50dbd29cae677b076811904a91
+source-git-commit: 84444753db0e5c496f013e0245988e62fddad585
 workflow-type: tm+mt
 source-wordcount: '753'
 ht-degree: 0%
@@ -25,7 +25,7 @@ in January 2022
 
 2022年4月4日當週。
 
-如需22.2版所有可用變更的清單，請參閱 [22.2版本總覽](../../../product-announcements/product-releases/22.2-release-activity/22-2-release-overview.md).
+如需22.2版本可用的所有變更清單，請參閱[22.2版本概觀](../../../product-announcements/product-releases/22.2-release-activity/22-2-release-overview.md)。
 
 ## Adobe Workfront與Anaplan整合現已推出
 
@@ -39,7 +39,7 @@ in January 2022
 * 從新的Anaplan清單專案建立Workfront專案
 * 從Workfront專案起始Anaplan供應商請求
 
-如需詳細資訊，請參閱 [Adobe Workfront與Anaplan](../../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/anaplan-integration.md).
+如需詳細資訊，請參閱[具有Anaplan的Adobe Workfront](../../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/anaplan-integration.md)。
 
 ## Workfront的Experience Manager增強型聯結器更新
 
@@ -51,17 +51,17 @@ Workfront for Experience Manager增強型聯結器現在包含下列更新：
 * 新增對Proxy環境的支援
 * 根據合作夥伴和客戶的意見回應進行多項錯誤修正
 
-如需詳細資訊，請參閱 [適用於Experience Manager增強型聯結器的Workfront概述](../../../documents/workfront-and-experience-manager-integrations/workfront-for-experience-manager-enhanced-connector/workfront-aem-enhanced-connector-overview.md).
+如需詳細資訊，請參閱[Workfront的Experience Manager增強型聯結器總覽](../../../documents/workfront-and-experience-manager-integrations/workfront-for-experience-manager-enhanced-connector/workfront-aem-enhanced-connector-overview.md)。
 
 >[!NOTE]
 >
->此聯結器的部署和設定需要經過認證的合作夥伴。 另請參閱 [安裝適用於Experience Manager增強型聯結器的Workfront](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/integrations/workfront-connector-install.html?lang=en#) 以取得詳細資訊。
+>此聯結器的部署和設定需要經過認證的合作夥伴。 如需詳細資訊，請參閱[安裝Workfront for Experience Manager增強型聯結器](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/integrations/workfront-connector-install.html?lang=en#)。
 
 ## Adobe Creative Cloud整合現在使用OAuth2
 
 為了提高安全性，也為了在整合間提供更一致的體驗，我們已更新Adobe Creative Cloud整合，以使用OAuth2驗證（驗證使用者的業界標準方式）。 現在，當您的使用者登入時，他們可以檢視整合有權存取的特定動作和區域，並允許存取。 之後，他們不需要如此頻繁地登入。
 
-如需詳細資訊，請參閱 [使用適用於Illustrator和InDesign的Workfront擴充功能](../../../documents/workfront-for-adobe-creative-cloud/use-wf-adobe-cc.md).
+如需詳細資訊，請參閱[使用Illustrator的Workfront擴充功能和InDesign](../../../documents/workfront-for-adobe-creative-cloud/use-wf-adobe-cc.md)。
 
 ## 檢視自訂OAuth2或JWT整合的使用者端密碼詳細資訊
 
@@ -69,7 +69,7 @@ Workfront for Experience Manager增強型聯結器現在包含下列更新：
 
 以前這些詳細資料無法使用。
 
-如需OAuth2或JWT自訂整合中使用者端密碼的詳細資訊，請參閱 [為Workfront整合建立OAuth2應用程式](../../../administration-and-setup/configure-integrations/create-oauth-application.md).
+如需有關OAuth2或JWT自訂整合中的使用者端密碼的詳細資訊，請參閱[為Workfront整合建立OAuth2應用程式](../../../administration-and-setup/configure-integrations/create-oauth-application.md)。
 
 ## 檢視自訂OAuth2應用程式清單中的驗證型別
 
@@ -77,13 +77,13 @@ Workfront for Experience Manager增強型聯結器現在包含下列更新：
 
 之前，您只能前往每個應用程式上的編輯選項檢視此資訊。
 
-如需詳細資訊，請參閱 [為Workfront整合建立OAuth2應用程式](../../../administration-and-setup/configure-integrations/create-oauth-application.md).
+如需詳細資訊，請參閱[為Workfront整合建立OAuth2應用程式](../../../administration-and-setup/configure-integrations/create-oauth-application.md)。
 
 ## 設定自訂OAuth2整合中重新整理權杖的有效期
 
 為了更妥善地控制自訂OAuth2整合的存取和安全性，您現在可以自訂重新整理權杖的有效期限。 使用者的重新整理Token過期後，他們需要重新登入整合。
 
-如需詳細資訊，請參閱 [為Workfront整合建立OAuth2應用程式](../../../administration-and-setup/configure-integrations/create-oauth-application.md).
+如需詳細資訊，請參閱[為Workfront整合建立OAuth2應用程式](../../../administration-and-setup/configure-integrations/create-oauth-application.md)。
 
 ## 在伺服器對伺服器應用程式的自訂OAuth2整合中使用公開和私密金鑰
 
@@ -91,10 +91,10 @@ Workfront for Experience Manager增強型聯結器現在包含下列更新：
 
 以往，您的自訂OAuth2應用程式中的所有驗證都使用使用者的登入認證。
 
-如需詳細資訊，請參閱 [為Workfront整合建立OAuth2應用程式](../../../administration-and-setup/configure-integrations/create-oauth-application.md).
+如需詳細資訊，請參閱[為Workfront整合建立OAuth2應用程式](../../../administration-and-setup/configure-integrations/create-oauth-application.md)。
 
-## Google G Suite整合現在使用OAuth2
+## Google Google Workspace整合現在使用OAuth2
 
-為了提高安全性，也為了在整合間提供更一致的體驗，我們已更新Google G Suite整合，以使用OAuth2驗證（驗證使用者的業界標準方式）。 現在，當您的使用者登入時，他們可以檢視整合有權存取的特定動作和區域，並允許存取。 之後，他們不需要如此頻繁地登入。
+為了提高安全性，也為了在整合間提供更一致的體驗，我們已更新Google Google Workspace整合，以使用OAuth2驗證（驗證使用者的業界標準方式）。 現在，當您的使用者登入時，他們可以檢視整合有權存取的特定動作和區域，並允許存取。 之後，他們不需要如此頻繁地登入。
 
-如需詳細資訊，請參閱 [登入和登出Adobe Workfront for G Suite](../../../workfront-integrations-and-apps/workfront-for-g-suite/log-in-and-out-wf-for-gsuite.md).
+如需詳細資訊，請參閱[登入和登出Google Workspace的Adobe Workfront](../../../workfront-integrations-and-apps/workfront-for-g-suite/log-in-and-out-wf-for-gsuite.md)。

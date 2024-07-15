@@ -2,25 +2,25 @@
 product-area: workfront-integrations;projects
 keywords: google，doc，檔案，工作表，幻燈片
 navigation-topic: workfront-for-g-suite
-title: 檢視 [!DNL Adobe Workfront] 來自G Suite的物件更新
-description: 您無需離開G Suite，即可在上檢視更新及回覆更新 [!DNL Adobe Workfront] 物件。
+title: 從Google Workspace檢視 [!DNL Adobe Workfront] 物件更新
+description: 您無需離開Google Workspace，即可檢視 [!DNL Adobe Workfront] 物件上的更新及更新回覆。
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 13cd0478-4557-4d4c-915e-5b7b70aee8ce
-source-git-commit: 4b95828dc3e6a67c4dbefb46f173303c519643a9
+source-git-commit: 84444753db0e5c496f013e0245988e62fddad585
 workflow-type: tm+mt
-source-wordcount: '189'
-ht-degree: 1%
+source-wordcount: '182'
+ht-degree: 0%
 
 ---
 
-# 檢視 [!DNL Adobe Workfront] 物件更新來源 [!DNL G Suite]
+# 從[!DNL Google Workspace]檢視[!DNL Adobe Workfront]物件更新
 
 >[!NOTE]
 >
 >Google適用的Adobe Workfront外掛程式最新版本已於2023年6月26日發行。
 
-不離開 [!DNL G Suite]，您可在上檢視更新和對更新的回覆 [!DNL Adobe Workfront] 物件。
+您無需離開[!DNL Google Workspace]，即可檢視[!DNL Adobe Workfront]物件上的更新及更新回覆。
 
 ## 存取需求
 
@@ -31,32 +31,32 @@ ht-degree: 1%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 計劃*</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] 計畫*</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 授權*</td> 
-   <td> <p>[！UICONTROL工作]，[！UICONTROL計畫]</p> </td> 
+   <td> <p>[！UICONTROL Work]， [！UICONTROL計畫]</p> </td> 
   </tr> 
    </tbody> 
 </table>
 
-&#42;若要瞭解您擁有哪些計畫、授權型別或存取權，請聯絡您的 [!DNL Workfront] 管理員。
+&#42;若要瞭解您擁有的計畫、授權型別或存取權，請連絡您的[!DNL Workfront]管理員。
 
-## 必要條件
+## 先決條件
 
-檢視物件更新之前，請參閱： [!DNL G Suite]，您必須
+在[!DNL Google Workspace]中檢視物件更新之前，您必須
 
-* 安裝 [!DNL Workfront for G suite]\
-   如需指示，請參閱 [安裝 [!DNL Adobe Workfront for G Suite]](../../workfront-integrations-and-apps/workfront-for-g-suite/install-workfront-for-gsuite.md).
+* 安裝[!DNL Workfront for Google Workspace]\
+   如需指示，請參閱[安裝 [!DNL Adobe Workfront for Google Workspace]](../../workfront-integrations-and-apps/workfront-for-g-suite/install-workfront-for-gsuite.md)。
 
-## 檢視物件更新於 [!DNL G Suite]
+## 在[!DNL Google Workspace]中檢視物件更新
 
-1. 在中檢視物件 [!DNL G Suite] 如所述 [檢視和管理 [!DNL Adobe Workfront] 來自[！DNL G Suite]的物件詳細資料](../../workfront-integrations-and-apps/workfront-for-g-suite/view-manage-work-item-details-in-gsuite.md).
-1. 按一下 **[!UICONTROL 更新]** 標籤。
-1. 使用顯示的選項，此選項由已新增至物件的更新決定：
+1. 檢視[!DNL Google Workspace]中的物件，如[從 [!DNL Google Workspace]](../../workfront-integrations-and-apps/workfront-for-g-suite/view-manage-work-item-details-in-gsuite.md)檢視及管理 [!DNL Adobe Workfront] 物件詳細資料中所述。
+1. 按一下「**[!UICONTROL 更新]**」標籤。
+1. 使用顯示的選項，該選項由已新增至物件的更新決定：
 
-   * 如果更新有註解，請按一下 **[!UICONTROL 顯示評論]** 以檢視註解對話串。
-   * 如果您想要將第一個回覆新增至更新，請按一下 **[!UICONTROL 回覆]**，然後輸入您的註解。
+   * 如果更新有註解，請按一下&#x200B;**[!UICONTROL 顯示註解]**&#x200B;以檢視註解執行緒。
+   * 如果您想要將第一個回覆新增至更新，請按一下&#x200B;**[!UICONTROL 回覆]**，然後輸入您的註解。
 
-1. 若要返回 **[!UICONTROL 更新]** 標籤，按一下 **[!UICONTROL 檢視所有更新]**.
+1. 若要返回&#x200B;**[!UICONTROL 更新]**&#x200B;標籤，請按一下&#x200B;**[!UICONTROL 檢視所有更新]**。

@@ -3,13 +3,13 @@ product-area: workfront-integrations
 keywords: adobe，box，dropbox，gsuite，google，jira，microsoft，salesforce，sharepoint，slack，webdam，zoom
 navigation-topic: workfront-integrations-navigation-topic
 title: Adobe Workfront內建整合概述
-description: 您可以整合 [!DNL Adobe Workfront] 協力廠商應用程式。 這些整合可擴充下列專案的公用程式： [!DNL Workfront] 並根據貴組織的需求量身打造。 例如，如果您是行銷行業的創意工作者，可以使用Adobe Creative Cloud增益集將資產直接從Photoshop匯出至Workfront。
+description: 您可以將 [!DNL Adobe Workfront] 與協力廠商應用程式整合。 這些整合可擴充 [!DNL Workfront] 的公用程式，並根據貴組織的需求量身打造。 例如，如果您是行銷行業的創意工作者，可以使用Adobe Creative Cloud增益集將資產直接從Photoshop匯出至Workfront。
 feature: Workfront Integrations and Apps
 author: Becky
 exl-id: ca51cb23-9332-4ce5-aefb-f333455cfc7c
-source-git-commit: 5ea991185cbf2f925beccce9f46a16c3d8c8447d
+source-git-commit: 84444753db0e5c496f013e0245988e62fddad585
 workflow-type: tm+mt
-source-wordcount: '475'
+source-wordcount: '476'
 ht-degree: 3%
 
 ---
@@ -18,9 +18,9 @@ ht-degree: 3%
 
 <!-- Audited: 12/2023 -->
 
-您可以整合 [!DNL Adobe Workfront] 協力廠商應用程式及其他 [!DNL Adobe] 產品。 這些整合可擴充下列專案的公用程式： [!DNL Workfront] 並根據貴組織的需求量身打造。 例如，如果您是行銷行業的創意工作者，您可以使用 [!DNL Adobe Workfront] 外掛程式 [!DNL Creative Cloud] 應用程式直接從Photoshop匯出資產至Workfront。
+您可以將[!DNL Adobe Workfront]與協力廠商應用程式及其他[!DNL Adobe]產品整合。 這些整合可擴充[!DNL Workfront]的公用程式，並根據您組織的需求量身打造。 例如，如果您是行銷行業的創意工作者，您可以使用適用於[!DNL Creative Cloud]應用程式的[!DNL Adobe Workfront]外掛程式，將資產直接從Photoshop匯出至Workfront。
 
-您的 [!DNL Workfront] 管理員必須啟用並設定內建整合，您才能使用。 若要瞭解您的組織內使用哪些內建整合，請聯絡您的 [!DNL Workfront] 管理員。
+您的[!DNL Workfront]管理員必須啟用並設定內建整合，您才能使用。 若要瞭解您的組織內使用哪些內建整合，請連絡您的[!DNL Workfront]管理員。
 
 ## 可用的內建整合
 
@@ -34,7 +34,7 @@ Workfront目前提供下列內建整合。
    <td role="rowheader"> <p>Adobe Creative Cloud </p> <p> <img src="assets/creative-cloud-logo.png"> </p> </td> 
    <td> 
     <ul> 
-     <li>整合 [!DNL Workfront] 使用下列Adobe Creative Cloud應用程式進行註解與核准： 
+     <li>將[!DNL Workfront]個註解和核准與下列Adobe Creative Cloud應用程式整合： 
      <ul>
      <li>InDesign </li>
      <li>Illustrator </li>
@@ -43,8 +43,8 @@ Workfront目前提供下列內建整合。
      <li>Premiere Pro </li>
      <li>After Effects </li>
      </ul>
-     <li><p>下載/安裝 <a href="https://exchange.adobe.com/apps/browse/cc?page=1&amp;product=All&amp;q=workfront&amp;sort=RELEVANCE" class="MCXref xref">Adobe交換</a>.</p></li></ul>
-     <p>如需詳細資訊與指示，請參閱 <a href="https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-integrations/workfront-for-creative-cloud/install-wf-cc/wf-cc-install-toc.html" class="MCXref xref">安裝  [!DNL Adobe Workfront] 外掛程式 [!DNL Creative Cloud] 應用</a>.</p> </td> 
+     <li><p>從<a href="https://exchange.adobe.com/apps/browse/cc?page=1&amp;product=All&amp;q=workfront&amp;sort=RELEVANCE" class="MCXref xref">Adobe Exchange</a>下載/安裝。</p></li></ul>
+     <p>如需資訊與指示，請參閱<a href="https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-integrations/workfront-for-creative-cloud/install-wf-cc/wf-cc-install-toc.html" class="MCXref xref">安裝[!DNL Creative Cloud]應用程式的[!DNL Adobe Workfront]外掛程式</a>。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>方塊</p> <p> <img src="assets/box,-inc.-logo.png"> </p> </td> 
@@ -64,8 +64,8 @@ Workfront目前提供下列內建整合。
    <td role="rowheader"> <p>G Suite</p> <p> <img src="assets/gsuite.png" style="max-width: 80px;"> </p> </td> 
    <td> 
     <ul> 
-     <li>新增G-Suite電子郵件至專案或任務 </li> 
-     <li>檢視和管理 [!DNL Workfront] Gmail中的通知</li> 
+     <li>將Google Workspace電子郵件新增至專案或任務 </li> 
+     <li>在Gmail中檢視及管理[!DNL Workfront]個通知</li> 
      <li>透過Gmail提交請求 </li> 
     </ul> </td> 
   </tr> 
@@ -80,8 +80,8 @@ Workfront目前提供下列內建整合。
    <td role="rowheader"> <p>Jira</p> <p> <img src="assets/jiralogo.png" style="max-width: 80px;"> </p> </td> 
    <td> 
     <ul> 
-     <li>在中建立新票證 [!DNL Jira] 根據中的任務和問題 [!DNL Workfront]</li> 
-     <li>同步更新與連結任務的狀態，介於 [!DNL Workfront] 和 [!DNL Jira] </li> 
+     <li>根據中的任務和問題在[!DNL Jira]中建立新票證 [!DNL Workfront]</li> 
+     <li>同步處理[!DNL Workfront]與[!DNL Jira]之間連結工作的更新與狀態 </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -89,7 +89,7 @@ Workfront目前提供下列內建整合。
    <td> 
     <ul> 
      <li> <p>在雲端託管的Office 365或Outlook Live中，與Outlook的Web型版本整合。 </p> </li> 
-     <li> <p>顯示您的所有活動 [!DNL Outlook] 行事曆與您在首頁行事曆中選取的任何相關行事曆，例如生日與節假日行事曆。</p>  <p>注意： Outlook行事曆設定與Outlook增益集(Outlook整合或Outlook適用的Workfront)完全不同。 不需要安裝即可設定行事曆。</p></li> 
+     <li> <p>在首頁行事曆中顯示您[!DNL Outlook]行事曆的所有活動以及您選取的任何相關行事曆，例如生日行事曆與假日行事曆。</p>  <p>注意： Outlook行事曆設定與Outlook增益集(Outlook整合或Outlook適用的Workfront)完全不同。 不需要安裝即可設定行事曆。</p></li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -104,28 +104,28 @@ Workfront目前提供下列內建整合。
    <td> 
     <ul> 
      <li>使用電子郵件中的資訊更新現有的專案/任務/問題 </li> 
-     <li>將電子郵件轉換為 [!DNL Workfront] 收件匣中的專案 </li> 
+     <li>直接從您的收件匣將電子郵件轉換為[!DNL Workfront]個專案 </li> 
      <li>從電子郵件建立新任務 </li> 
-     <li>評論 [!DNL Workfront] 個專案 </li> 
+     <li>註解[!DNL Workfront]個專案 </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Microsoft Teams</p> <p> <img src="assets/msteamslogo.png" style="max-width: 80px;"> </p> </td> 
    <td> 
     <ul> 
-     <li>Get [!DNL Workfront] 中的通知 [!DNL Microsoft Teams] </li> 
+     <li>在[!DNL Microsoft Teams]中取得[!DNL Workfront]通知 </li> 
      <li>進行核准決定 </li> 
-     <li>搜尋 [!DNL Workfront] 專案、任務和問題 </li> 
-     <li>建立 [!DNL Workfront] 個人任務 </li> 
-     <li>提交 [!DNL Workfront] 請求 </li> 
+     <li>搜尋[!DNL Workfront]個專案、任務和問題 </li> 
+     <li>建立[!DNL Workfront]個人任務 </li> 
+     <li>提交[!DNL Workfront]個請求 </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Salesforce</p> <p> <img src="assets/salesforce-logo-web-2019.png" style="max-width: 80px;"> </p> </td> 
    <td> 
     <ul> 
-     <li>新建 [!DNL Workfront] 請求來源 [!DNL Salesforce] </li> 
-     <li>建立 [!DNL Workfront] 專案來源 [!DNL Salesforce]</li> 
+     <li>建立來自[!DNL Salesforce]的新[!DNL Workfront]請求 </li> 
+     <li>建立[!DNL Workfront]個專案，從 [!DNL Salesforce]</li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -139,10 +139,10 @@ Workfront目前提供下列內建整合。
    <td role="rowheader"> <p>Slack</p> <p> <img src="assets/slacklogo.png" style="max-width: 80px;"> </p> </td> 
    <td> 
     <ul> 
-     <li>接收 [!DNL Workfront] 中的通知 [!DNL Slack] </li> 
+     <li>在[!DNL Slack]中接收[!DNL Workfront]個通知 </li> 
      <li>在Slack中管理核准 </li> 
-     <li>建立 [!DNL Workfront] 來自的任務和問題 [!DNL Slack] </li> 
-     <li>從Slack將註解張貼至專案或任務</li> 
+     <li>從[!DNL Slack]建立[!DNL Workfront]個任務和問題 </li> 
+     <li>Post對Slack中的專案或任務加上註解</li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -166,6 +166,6 @@ Workfront目前提供下列內建整合。
 
 &#42;需額外付費。
 
-## 其他 [!DNL Workfront] 整合
+## 其他[!DNL Workfront]整合
 
-您想要的整合可能不是內建整合。 不過， [!DNL Workfront] 提供與您選擇的應用程式或Web服務整合的其他方式。 如需整合其他方法的詳細資訊，請參閱 [!DNL Workfront]，請參閱 [Adobe Workfront整合方法](../workfront-integrations-and-apps/built-in-vs-api-vs-fusion.md).
+您想要的整合可能不是內建整合。 但是，[!DNL Workfront]提供其他與您選擇的應用程式或Web服務整合的方式。 如需其他與[!DNL Workfront]整合方法的詳細資訊，請參閱[Adobe Workfront整合方法](../workfront-integrations-and-apps/built-in-vs-api-vs-fusion.md)。
