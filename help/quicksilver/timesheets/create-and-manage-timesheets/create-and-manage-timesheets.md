@@ -7,10 +7,10 @@ author: Alina
 feature: Timesheets
 recommendations: noDisplay, noCatalog
 exl-id: 605d47e4-fcb7-4635-a4c9-bbb34e1f73b1
-source-git-commit: 6d2494f1ccb2f9b222a953ed8bae922bd0f26389
+source-git-commit: bfaf566e556882078875649549c0dfadacd800b8
 workflow-type: tm+mt
-source-wordcount: '108'
-ht-degree: 0%
+source-wordcount: '106'
+ht-degree: 1%
 
 ---
 
@@ -19,15 +19,15 @@ ht-degree: 0%
 本節包含下列文章：
 
 * [建立、編輯和指派週期性時程表](../../timesheets/create-and-manage-timesheets/create-timesheet-profiles.md)
-* [定義時程表的小時型別和可用性](../../timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md)
+* [定義小時型別和可用性](../../timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md)
 * [建立單次使用時程表](../../timesheets/create-and-manage-timesheets/create-tmshts.md)
 * [編輯時程表資訊](../../timesheets/create-and-manage-timesheets/edit-timesheets.md)
 * [記錄時間](../../timesheets/create-and-manage-timesheets/log-time.md)
 * [提交時程表以供核准](../../timesheets/create-and-manage-timesheets/submit-timesheet-for-approval.md)
-* [核准時間表](../../timesheets/create-and-manage-timesheets/timesheet-approvals.md)
+* [核準時程表](../../timesheets/create-and-manage-timesheets/timesheet-approvals.md)
 * [在時程表上檢視總時數](../../timesheets/create-and-manage-timesheets/view-total-hours-timesheets.md)
 * [檢視和管理時程表上的註解](../../timesheets/create-and-manage-timesheets/view-and-manage-comments-timesheets.md)
 * [刪除週期性時程表](../../timesheets/create-and-manage-timesheets/delete-timesheet-profiles.md)
-* [刪除Adobe Workfront中的時間表](../../timesheets/create-and-manage-timesheets/delete-timesheets.md)
-* [手動產生時間表](../../timesheets/create-and-manage-timesheets/manually-generate-timesheets.md)
+* [刪除Adobe Workfront中的時程表](../../timesheets/create-and-manage-timesheets/delete-timesheets.md)
+* [手動產生時程表](../../timesheets/create-and-manage-timesheets/manually-generate-timesheets.md)
 * [匯出時程表清單](../../timesheets/create-and-manage-timesheets/export-timesheets.md)
