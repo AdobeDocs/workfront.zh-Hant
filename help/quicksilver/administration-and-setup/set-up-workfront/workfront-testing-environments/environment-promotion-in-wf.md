@@ -10,9 +10,9 @@ feature: System Setup and Administration
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 8b4c04f5-f519-44e9-8429-0ce80c2d7c5b
-source-git-commit: 4c5a9705cf90498b08b45d85e0b4f571dc2e30f2
+source-git-commit: 706c27e611b1bd1e1c06eb3fd2e59ad0f55a6157
 workflow-type: tm+mt
-source-wordcount: '1008'
+source-wordcount: '1009'
 ht-degree: 1%
 
 ---
@@ -30,7 +30,7 @@ ht-degree: 1%
    * [建立或編輯環境升級套件](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-create-package.md)
    * [安裝環境升級套件](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-install-package.md)
 
-* 如需透過Workfront API執行此程式的指示，請參閱 [移動物件 [!DNL Workfront] 使用環境 [!DNL Workfront] API](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion.md).
+* 如需透過Workfront API執行此程式的指示，請參閱[使用 [!DNL Workfront] API](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion.md)在 [!DNL Workfront] 環境之間移動物件。
 
 [觀看此功能的影片示範](https://video.tv.adobe.com/v/3429735/){target=_blank}
 
@@ -51,20 +51,20 @@ ht-degree: 1%
 
 | 可升級的物件 | 包含的可升級連結物件 |
 | --- | --- |
-| 專案（專案） | 專案<br>任務<br>指定任務<br>前置任務<br>公司<br>覆寫率<br>群組<br>角色<br>團隊<br>核准流程<br>核准路徑<br>核准步驟<br>步驟核准者<br>排程<br>非工作日<br>佇列定義<br>佇列主題群組<br>佇列主題<br>路由規則<br>里程碑路徑<br>里程碑<br>小時型別<br>資源集區<br>類別<br>類別引數<br>引數<br>引數群組<br>引數選項<br>類別顯示邏輯 |
-| 範本(TMPL) | 範本<br>範本任務<br>範本任務指派<br>範本任務前置任務<br>公司<br>覆寫率<br>群組<br>角色<br>團隊<br>核准流程<br>核准路徑<br>核准步驟<br>步驟核准者<br>排程<br>非工作日<br>佇列定義<br>佇列主題群組<br>佇列主題<br>路由規則<br>里程碑路徑<br>里程碑<br>小時型別<br>資源集區<br>類別<br>類別引數<br>引數<br>引數群組<br>引數選項<br>類別顯示邏輯 |
+| 專案（專案） | 專案<br>任務<br>指派<br>前置任務<br>公司<br>覆寫率<br>群組<br>角色<br>團隊<br>核准程式<br>核准路徑<br>核准步驟<br>步驟核准者<br>排程<br>非工作日<br>佇列定義<br>佇列主題群組<br>佇列主題<br>路由規則<br>里程碑路徑<br>里程碑<br>小時型別<br>資源池<br>類別<br>類別引數<br>引數<br>參陣列<br>引數選項<br>類別顯示邏輯 |
+| 範本(TMPL) | 範本<br>範本任務<br>範本任務指派<br>範本任務前置任務<br>公司<br>覆寫率<br>群組<br>角色<br>團隊<br>核准程式<br>核准路徑<br>核准步驟<br>步驟核准者<br>排程<br>非工作日<br>佇列定義<br>佇列主題群組<br>佇列主題<br>路由規則<br>里程碑路徑<br>里程碑<br>小時型別<br>資源池<br>類別<br>類別引數<br>引數<br>參陣列<br>引數選項<br>類別顯示邏輯 |
 
 ### 報表物件
 
 | 可升級的物件 | 包含的可升級連結物件 |
 | --- | --- |
-| 版面配置範本(UITMPL) | 版面配置範本<br>儀表板<br>行事曆<br>行事曆區段<br>外部頁面<br>報告<br>篩選<br>分組<br>檢視<br>引數 |
-| 控制面板(PTLTAB) | 儀表板<br>行事曆<br>行事曆區段<br>外部頁面<br>報告<br>篩選<br>分組<br>檢視<br>引數 |
+| 版面配置範本(UITMPL) | 配置範本<br>儀表板<br>行事曆<br>行事曆區段<br>外部頁面<br>報表<br>篩選器<br>群組<br>檢視<br>引數<br>群組 |
+| 控制面板(PTLTAB) | 儀表板<br>行事曆<br>行事曆區段<br>外部頁面<br>報表<br>篩選器<br>群組<br>檢視<br>引數 |
 | 行事曆(CALEND) | 行事曆<br>行事曆區段 |
 | 外部頁面(EXTSEC) | 外部頁面 |
-| 報告(PTLSEC) | 報告<br>篩選<br>分組<br>檢視<br>引數 |
-| 篩選器(UIFT) | 篩選<br>引數 |
-| 分組(UIGB) | 分組<br>引數 |
+| 報告(PTLSEC) | 報表<br>篩選器<br>群組<br>檢視<br>引數 |
+| 篩選器(UIFT) | 篩選器<br>引數 |
+| 分組(UIGB) | 群組<br>引數 |
 | 檢視(UIVW) | 檢視<br>引數 |
 
 ### 自訂資料物件
@@ -79,18 +79,18 @@ ht-degree: 1%
 
 | 可升級的物件 | 包含的可升級連結物件 |
 | --- | --- |
-| 群組（群組） | 群組 <br>子群組（最多5個層級） *<br>類別<br>類別引數<br>引數<br>引數群組<br>引數選項<br>類別顯示邏輯 |
+| 群組（群組） | 群組<br>子群組（最多5個層級） *<br>類別<br>類別引數<br>引數<br>引數群組<br>引數選項<br>類別顯示邏輯 |
 | 角色(ROLE) | 角色 |
 | 團隊（團隊） | 團隊<br>群組 |
-| 公司(CMPY) | 公司<br>覆寫率<br>類別<br>類別引數<br>引數<br>引數群組<br>引數 <br>類別顯示邏輯<br>群組 |
-| Portfolio（連線埠） | Portfolio<br>計畫<br>群組<br>類別<br>類別引數<br>引數<br>引數群組<br>引數選項<br>類別顯示邏輯 |
-| 方案(PRGM) | 計畫<br>Portfolio<br>群組<br>類別<br>類別引數<br>引數<br>引數群組<br>引數選項<br>類別顯示邏輯 |
+| 公司(CMPY) | 公司<br>覆寫率<br>類別<br>類別引數<br>引數<br>引數群組<br>引數<br>類別顯示邏輯<br>群組 |
+| Portfolio（連線埠） | Portfolio<br>程式<br>群組<br>類別<br>類別引數<br>引數<br>引數群組<br>引數選項<br>類別顯示邏輯 |
+| 方案(PRGM) | 程式<br>Portfolio<br>群組<br>類別<br>類別引數<br>引數<br>引數群組<br>引數選項<br>類別顯示邏輯 |
 
 ### 其他組態物件
 
 | 可升級的物件 | 包含的可升級連結物件 |
 | --- | --- |
-| 核准程式(ARVPRC) | 核准流程<br>核准路徑<br>核准步驟<br>步驟核准者<br>角色<br>團隊<br>群組 |
+| 核准程式(ARVPRC) | 核准程式<br>核准路徑<br>核准步驟<br>步驟核准者<br>角色<br>團隊<br>群組 |
 | 時程表(SCHED) | 排程<br>非工作日<br>群組 |
 | 里程碑路徑(MPATH) | 里程碑路徑<br>里程碑 |
 | 週期性時程表(TSPRO) | 週期性時程表<br>小時型別 |
@@ -142,15 +142,15 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td>作用中</td> 
-   <td><p>此狀態可讓促銷活動套件安裝在任何環境中，包括生產環境。</p><p>當封裝狀態設定為ACTIVE時， <code>publishedAt</code> 日期會自動設定為請求目前的時間戳記。</p></td> 
+   <td><p>此狀態可讓促銷活動套件安裝在任何環境中，包括生產環境。</p><p>當封裝狀態設定為ACTIVE時，<code>publishedAt</code>日期會自動設定為要求目前的時間戳記。</p></td> 
   </tr> 
   <tr> 
    <td>已停用</td> 
-   <td><p>此狀態用於隱藏先前使用的促銷活動套件，這些套件未來不會安裝至任何環境。</p><p>當套件處於此狀態時，無法將其安裝在任何環境中。</p><p>當封裝狀態設定為DISABLED時， <code>retiredAt</code> 日期會自動設定為請求目前的時間戳記。</p><p>建議您使用此狀態，而不要使用 <code>DELETE /package</code> 端點因為它是可擷取的，而且會保留使用此封裝進行之任何部署的安裝歷史記錄。</p></td> 
+   <td><p>此狀態用於隱藏先前使用的促銷活動套件，這些套件未來不會安裝至任何環境。</p><p>當套件處於此狀態時，無法將其安裝在任何環境中。</p><p>當封裝狀態設定為DISABLED時，<code>retiredAt</code>日期會自動設定為要求目前的時間戳記。</p><p>建議您不要使用<code>DELETE /package</code>端點來使用此狀態，因為此狀態是可擷取的，而且使用此封裝進行的任何部署都會保留安裝歷史記錄。</p></td> 
   </tr> 
   <tr> 
    <td>ASSEMBLY_FAILED</td> 
-   <td><p>如果ASSEMBLY階段失敗，則推進封裝會自動處於此狀態。</p><p>若要將封裝返回ASSEMBLING階段，您必須再次觸發組裝過程。</p><p>如需組裝套件的詳細資訊，請參閱區段 <a href="https://experienceleague.adobe.com/en/docs/workfront/using/administration-and-setup/set-up-wf/testing-environments/environment-promotion-create-package#edit-or-assemble-an-existing-package">編輯或組合現有套件</a> 在建立或編輯環境促銷活動套件一文中。</td> 
+   <td><p>如果ASSEMBLY階段失敗，則推進封裝會自動處於此狀態。</p><p>若要將封裝返回ASSEMBLING階段，您必須再次觸發組裝過程。</p><p>如需組裝套件的詳細資訊，請參閱文章建立或編輯環境升級套件中的<a href="https://experienceleague.adobe.com/en/docs/workfront/using/administration-and-setup/set-up-wf/testing-environments/environment-promotion-create-package#edit-or-assemble-an-existing-package">編輯或組裝現有套件</a>小節。</td> 
   </tr> 
   </tbody> 
 </table>
