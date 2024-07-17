@@ -3,9 +3,9 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文件、教學課程和其他資源，了解如何在您的組織中實施並有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: 65c7c11762ab82445e6f99a6ddb2c5e995b95380
+source-git-commit: dff543fcd657ba5208e1ef1110502175155d2040
 workflow-type: tm+mt
-source-wordcount: '14439'
+source-wordcount: '14438'
 ht-degree: 1%
 
 ---
@@ -490,6 +490,9 @@ ht-degree: 1%
          * [建立或編輯環境升級套件](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-create-package.md)
          * [安裝環境升級套件](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-install-package.md)
          * [使用API促進環境](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion.md)
+         * [環境提升常見問題集](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-faq.md)
+         * [環境提升疑難排解](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-troubleshooting.md)
+
    * 使用者管理{#add-users}
       * [使用者管理：文章索引](administration-and-setup/add-users/add-users.md)
       * 建立和管理使用者 {#create-manage-users}
@@ -1545,7 +1548,7 @@ ht-degree: 1%
          * [在畫布儀表板中建立表格報告](reports-and-dashboards/canvas-dashboards/report-types/build-table-report.md)
          * [將擱置核准報告新增至畫布控制面板](reports-and-dashboards/canvas-dashboards/report-types/add-pending-approvals-report.md)
    * 報表 {#reports}
-      * [報表](reports-and-dashboards/reports/reports-overview.md)
+      * [報告](reports-and-dashboards/reports/reports-overview.md)
       * 報告基本資訊{#report-basics}
          * [報表基本需知](reports-and-dashboards/reports/reporting/reporting-basics.md)
          * [開始使用報告](reports-and-dashboards/reports/reporting/get-started-reports-workfront.md)
@@ -2207,7 +2210,6 @@ ht-degree: 1%
       * [Adobe Workfront Fusion案例概觀](workfront-fusion/scenarios/scenario-overview.md)
       * [在Adobe Workfront Fusion中建立情境](workfront-fusion/scenarios/create-a-scenario.md)
       * [Adobe Workfront Fusion中的案例編輯器](workfront-fusion/scenarios/scenario-editor.md)
-      * [Adobe Workfront Fusion中的基本案例設定](workfront-fusion/scenarios/basic-scenario-settings.md)
       * [Adobe Workfront Fusion中的案例設定面板](workfront-fusion/scenarios/scenario-settings-panel.md)
       * [Adobe Workfront Fusion中的案例詳細資訊](workfront-fusion/scenarios/scenario-detail.md)
       * [Adobe Workfront Fusion中的案例執行流程](workfront-fusion/scenarios/scenario-execution-flow.md)

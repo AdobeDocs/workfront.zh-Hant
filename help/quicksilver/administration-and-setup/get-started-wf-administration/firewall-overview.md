@@ -9,9 +9,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 172999e7-fb05-49a6-ad57-84b59e80a28e
-source-git-commit: 84444753db0e5c496f013e0245988e62fddad585
+source-git-commit: 5f8df2cc919b2e2d8f2a4b9373a63ccf3cbec506
 workflow-type: tm+mt
-source-wordcount: '758'
+source-wordcount: '759'
 ht-degree: 0%
 
 ---
@@ -109,6 +109,6 @@ Workfront使用特定的IP位址和網域進行網頁通訊。 必須先將這�
 
 1. 若要檢視您的Workfront計畫，請選取&#x200B;**授權**。
 
-   您的計畫會顯示在頁面底部附近。
+   您的計畫會顯示在頁面右上角附近。
 
    ![](assets/locate-plan.png)
