@@ -6,9 +6,9 @@ description: 基準線是專案快照，代表初始專案計畫或專案生命�
 author: Alina
 feature: Work Management
 exl-id: 422bd7a5-d7a0-4c24-8624-bd0fe6e79d7b
-source-git-commit: e896d156854c6729e5ea0a82dcbc641fbfa9415e
+source-git-commit: 49bd393af77a67aa1e3a443c4189569178e99ada
 workflow-type: tm+mt
-source-wordcount: '770'
+source-wordcount: '757'
 ht-degree: 0%
 
 ---
@@ -57,8 +57,6 @@ drafted for P&P:
 </table>
 -->
 
-您必須具有下列存取權才能執行本文中的步驟：
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
@@ -68,7 +66,7 @@ drafted for P&P:
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront授權</td> 
+   <td role="rowheader">Adobe Workfront授權*</td> 
     <td><p>新增：標準</p>
         <p>或</p>
         <p>目前：計畫 </p> </td> 
@@ -84,7 +82,7 @@ drafted for P&P:
  </tbody> 
 </table>
 
-如需有關此表格的詳細資訊，請參閱 [Workfront檔案中的存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*如需此表格中資訊的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -97,7 +95,7 @@ drafted for P&P:
 
 >[!IMPORTANT]
 >
->基準線會擷取專案名稱、日期和財務資訊的快照。 基準線不包含專案上自訂欄位的值。 如需基準線中包含的財務資訊，請參閱 [專案基準線中包含的專案財務](../../../manage-work/projects/project-finances/project-finances-included-in-project-baselines.md).
+>基準線會擷取專案名稱、日期和財務資訊的快照。 基準線不包含專案上自訂欄位的值。 如需基準線中包含的財務資訊，請參閱[專案基準線中包含的專案財務](../../../manage-work/projects/project-finances/project-finances-included-in-project-baselines.md)。
 
 ## 建立基準線
 
@@ -105,7 +103,7 @@ drafted for P&P:
 
 * **自動**：您的Workfront管理員或群組管理員會設定Workfront的專案偏好設定，以在專案變為「目前」時自動建立基準。 啟用此設定時，會在專案狀態變成「目前」時建立基準線。 未啟用此設定時，您必須手動建立基準線。
 
-  如需有關設定專案偏好設定和設定自動建立基準線的詳細資訊，請參閱 [設定全系統專案偏好設定](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+  如需有關設定專案偏好設定和設定自動建立基準線的詳細資訊，請參閱[設定全系統專案偏好設定](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md)。
 
   >[!CAUTION]
   >
@@ -115,16 +113,16 @@ drafted for P&P:
 
 若要建立基準線：
 
-1. 導覽至專案。
-1. 在左側面板中，按一下 **基準線**.
+1. 前往專案。
+1. 在左側面板中，按一下&#x200B;**基準線**。
 
    或
 
-   按一下 **顯示更多**，然後按一下 **基準線**.
+   按一下&#x200B;**顯示更多**，然後按一下&#x200B;**基準線**。
 
-   ![專案的「基準線」區段](assets/baselines-section-on-project-with-header.png)
+   專案](assets/baselines-section-on-project-with-header.png)上的![基準線區段
 
-1. 按一下 **新增基準線。**
+1. 按一下&#x200B;**新增基準線。**
 1. 指定基準線的名稱。
 1. （選擇性）如果這是第一個基準線，您可以選取它作為預設值。
 1. 按一下「**儲存**」。
@@ -143,7 +141,7 @@ drafted for P&P:
      >
      >您無法在同一檢視或報表中同時檢視任何兩個基準的資訊。 您只能在同一個報表中檢視指定基準線與「預設」基準線的資訊。 您可以在專案存留期內隨時修改您認為是「預設」基準線的基準。
 
-1. （可選）按一下 **檢視** 按鈕，然後建立新檢視或編輯目前檢視，將欄位新增至檢視並比較基準之間的額外資訊。 如需詳細資訊，請參閱 [在Adobe Workfront中建立或編輯檢視](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md).
+1. （選擇性）按一下&#x200B;**檢視**&#x200B;按鈕，然後建立新檢視或編輯目前檢視，將欄位新增至檢視並比較基準之間的其他資訊。 如需詳細資訊，請參閱[在Adobe Workfront中建立或編輯檢視](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md)。
 
 ## 建立基準或基準任務報告
 
@@ -153,8 +151,8 @@ drafted for P&P:
 >
 >您必須先建立基準線，才能建立「基準線」或「基準線工作」報表。
 
-如需建立報表的相關資訊，請參閱 [建立自訂報表](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+如需建立報告的詳細資訊，請參閱[建立自訂報告](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md)。
 
 我們建議您將「專案名稱」分組新增至「基準線」或「基準線任務」報告，以便於閱讀。
 
-如需建立群組的詳細資訊，請參閱 [在Adobe Workfront中建立群組](../../../reports-and-dashboards/reports/reporting-elements/create-groupings.md).
+如需建立群組的相關資訊，請參閱[在Adobe Workfront中建立群組](../../../reports-and-dashboards/reports/reporting-elements/create-groupings.md)。

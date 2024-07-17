@@ -6,9 +6,9 @@ description: 您可以先請求核准專案，然後再開始處理。 我們建
 author: Alina
 feature: Work Management
 exl-id: 6557a7a5-3d5e-476d-b834-007c9e120397
-source-git-commit: 02d20209b8bf53c84308707a89a5abf399494b64
+source-git-commit: 49bd393af77a67aa1e3a443c4189569178e99ada
 workflow-type: tm+mt
-source-wordcount: '562'
+source-wordcount: '521'
 ht-degree: 2%
 
 ---
@@ -34,7 +34,7 @@ ht-degree: 2%
 
 ## 存取需求
 
-您必須具有下列存取權才能執行本文中的步驟：
++++ 展開以檢視本文中功能的存取需求。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -57,23 +57,25 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td role="rowheader">物件許可權</td> 
-   <td> <p>建立專案請求時，您會自動收到專案的管理許可權 </p> <p> 如需有關專案許可權的資訊，請參閱 <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md" class="MCXref xref">在Adobe Workfront中共用專案</a>.</p> <p>如需請求其他存取許可權的詳細資訊，請參閱 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">要求物件的存取權 </a>.</p> </td> 
+   <td> <p>建立專案請求時，您會自動收到專案的管理許可權 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*若要瞭解您擁有的計畫、授權型別或存取權，請聯絡您的Workfront管理員。 如需詳細資訊，請參閱 [Workfront檔案中的存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
++++
 
 ## 請求專案
 
 1. 執行下列其中一項：
 
-   * 按一下 **主要功能表** ![](assets/main-menu-icon.png) 位於右上角，或 **主要功能表** ![](assets/lines-main-menu.png) 在左上角，如果有的話，按一下 **專案**，然後展開 **新增專案**.
-   * 前往投資組合，然後展開 **新增專案**.
-   * 前往程式，然後展開 **新增專案**.
-   * 如果您是群組管理員，您也可以在您管理之群組的專案區段中建立專案。 如需詳細資訊，請參閱 [建立和修改群組的專案](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-projects.md).
+   * 按一下右上角的&#x200B;**主功能表** ![](assets/main-menu-icon.png)，或左上角的&#x200B;**主功能表** ![](assets/lines-main-menu.png)。如果可用，請按一下&#x200B;**專案**，然後展開&#x200B;**新增專案**。
+   * 移至投資組合，然後展開&#x200B;**新專案**。
+   * 前往方案，然後展開&#x200B;**新專案**。
+   * 如果您是群組管理員，您也可以在您管理之群組的專案區段中建立專案。 如需詳細資訊，請參閱[建立和修改群組的專案](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-projects.md)。
 
-1. 按一下 **請求專案**.
+1. 按一下&#x200B;**請求專案**。
 
    ![](assets/new-project-dropdown-nwe-350x358.png)
 
@@ -81,10 +83,10 @@ ht-degree: 2%
 
    * 遵循與定義業務案例時建立專案相同的步驟。 （建議）
 
-     有關定義業務案例和請求專案的資訊，請參閱 [為專案建立業務案例](../../../manage-work/projects/define-a-business-case/create-business-case.md).
+     如需定義業務案例和請求專案的資訊，請參閱[為專案建立業務案例](../../../manage-work/projects/define-a-business-case/create-business-case.md)。
 
-   * 從頭開始建立專案或使用範本，然後將狀態變更為 **已要求**.
+   * 從頭開始或使用範本建立專案，並將狀態變更為&#x200B;**已要求**。
 
-     如需有關建立專案的資訊，請參閱 [建立專案](../../../manage-work/projects/create-projects/create-project.md) 或 [使用範本建立專案](../../../manage-work/projects/create-projects/create-project-from-template.md).
+     如需建立專案的詳細資訊，請參閱[建立專案](../../../manage-work/projects/create-projects/create-project.md)或[使用範本建立專案](../../../manage-work/projects/create-projects/create-project-from-template.md)。
 
-   您請求的專案具有「 」狀態 **已要求** 而且它會顯示在 **請求的專案** 標籤內的任何專案(若您將其與Portfolio相關聯)，則Portfolio的標籤。 投資組合經理現在可以審查它，並核准或拒絕它，在這種情況下，專案狀態將變更為 **已核准** 或 **已拒絕**.
+   您請求的專案具有&#x200B;**已請求**&#x200B;狀態，且若您將其與Portfolio相關聯，該專案會顯示在Portfolio的&#x200B;**已請求專案**&#x200B;索引標籤上。 投資組合經理現在可以稽核它，並核准或拒絕它，在這種情況下，專案狀態將變更為&#x200B;**已核准**&#x200B;或&#x200B;**已拒絕**。

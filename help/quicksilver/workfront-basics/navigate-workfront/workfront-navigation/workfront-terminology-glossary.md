@@ -6,9 +6,9 @@ description: ' [!DNL Adobe Workfront] 字彙表列出 [!DNL Adobe Workfront]. Yo
 author: Alina
 feature: Get Started with Workfront
 exl-id: 758072b3-775e-4771-9ae9-da0b38580c93
-source-git-commit: bfaf566e556882078875649549c0dfadacd800b8
+source-git-commit: 49bd393af77a67aa1e3a443c4189569178e99ada
 workflow-type: tm+mt
-source-wordcount: '20304'
+source-wordcount: '20310'
 ht-degree: 0%
 
 ---
@@ -1531,7 +1531,7 @@ The designated full time equivalency for users. A full-time user should have 100
   </tr> 
   <tr> 
    <td>[！UICONTROL計畫完成日期]</td> 
-   <td> <p>您可以手動將[！UICONTROL規劃完成日期]設定為您選擇的日期。 如果您未設定[！UICONTROL計畫完成日期]，[!DNL Workfront]會自動設定。 自動設定時，[！UICONTROL規劃完成日期]為：[！UICONTROL規劃開始日期] + [！UICONTROL持續時間]</p> <p>如需詳細資訊，請參閱下列文章：</p> 
+   <td> <p>您可以手動將任務、專案或問題的[！UICONTROL規劃完成日期]設定為您選擇的日期。 如果您未設定[！UICONTROL計畫完成日期]，[!DNL Workfront]會自動設定。 自動設定時，[！UICONTROL規劃完成日期]為：[！UICONTROL規劃開始日期] + [！UICONTROL持續時間]</p> <p>如需詳細資訊，請參閱下列文章：</p> 
     <ul> 
      <li> <p><a href="../../../manage-work/tasks/task-information/task-planned-completion-date.md" class="MCXref xref">任務[！UICONTROL計畫完成日期]概觀</a> </p> </li> 
      <li> <p><a href="../../../manage-work/projects/planning-a-project/project-planned-completion-date.md" class="MCXref xref">設定專案[！UICONTROL計畫完成日期]</a> </p> </li> 

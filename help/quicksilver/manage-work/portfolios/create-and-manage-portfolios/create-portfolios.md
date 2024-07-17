@@ -1,105 +1,111 @@
 ---
 product-area: portfolios
 navigation-topic: create-and-manage-portfolios
-title: 建立產品組合
-description: Portfolio是爭奪相同資源、預算和排程的專案集合。 Portfolio中的專案類似程度，足以使用相同的資源池，並以相同的計分卡進行測量。
+title: 建立專案組合
+description: Portfolio是競爭相同資源、預算和排程的專案集合。 Portfolio中的專案非常類似，以至於會使用相同的資源集區，並根據相同的計分卡測量。
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: fdaed68d-d9cc-4514-8f80-b169cdd739bd
-source-git-commit: cf3466759a7263c446525b97dd2748ad17d0f7a6
+source-git-commit: 49bd393af77a67aa1e3a443c4189569178e99ada
 workflow-type: tm+mt
-source-wordcount: '594'
-ht-degree: 0%
+source-wordcount: '534'
+ht-degree: 2%
 
 ---
 
-# 建立產品組合
+# 建立專案組合
 
-Portfolio是爭奪相同資源、預算和排程的專案集合。 Portfolio中的專案類似程度，足以使用相同的資源池，並以相同的計分卡進行測量。
+<!--Audited: 7/2024-->
 
-您可以使用Portfolio將屬於相同產品行、部門、部門、公司或其他業務單位的項目分組。
+Portfolio是競爭相同資源、預算和排程的專案集合。 Portfolio中的專案非常類似，以至於會使用相同的資源集區，並根據相同的計分卡測量。
+
+您可以使用Portfolio將屬於相同產品線、部門、部門、公司或其他業務單位的專案分組。
 
 ## 存取需求
 
-您必須具備下列存取權，才能執行本文中的步驟：
++++ 展開以檢視本文中功能的存取需求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 計劃*</td> 
-   <td> <p>[!UICONTROL Business]或更高版本</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] 計畫*</td> 
+   <td> <p>新增：任何</p>
+   <p>目前：[！UICONTROL Business]或更高版本</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 授權*</td> 
-   <td> <p>[!UICONTROL計畫] </p> </td> 
+   <td> <p>新增：[！UICONTROL Standard]</p>
+   <p>目前：[！UICONTROL計畫] </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">訪問級別配置*</td> 
-   <td> <p>[!UICONTROL編輯]對Portfolio的訪問</p> <p>注意：如果您仍無法存取，請詢問您的 [!DNL Workfront] 管理員。 若要了解 [!DNL Workfront] 管理員可以更改您的訪問級別，請參閱 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>.</p> </td> 
+   <td role="rowheader">存取層級設定</td> 
+   <td> <p>[！UICONTROL Edit]對Portfolio的存取權</p>  </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">物件權限</td> 
-   <td> <p>建立產品組合後，依預設，您會擁有其「管理」權限</p> <p>有關請求其他訪問的資訊，請參閱 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">請求對對象的訪問 </a>.</p> </td> 
+   <td role="rowheader">物件許可權</td> 
+   <td> <p>建立專案組合後，您預設擁有專案組合的管理許可權</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;若要了解您擁有的計畫、授權類型或存取權，請聯絡您的 [!DNL Workfront] 管理員。
+*如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
-## 建立產品組合
++++
 
-1. 按一下 **[!UICONTROL 主菜單]** 圖示 ![](assets/main-menu-icon.png) 在Adobe Workfront的右上角。
+## 建立專案組合
 
-1. 按一下 **[!UICONTROL Portfolio]**.
-1. 按一下 **[!UICONTROL 新Portfolio]**.
-1. 取代 **[!UICONTROL 無標題Portfolio]** 以您想要的作品集名稱。
+{{step1-click-main-menu}}
+
+1. 按一下&#x200B;**[!UICONTROL Portfolio]**。
+1. 按一下&#x200B;**[!UICONTROL 新增Portfolio]**。
+1. 將&#x200B;**[!UICONTROL 未命名的Portfolio]**&#x200B;取代為您要為投資組合設定的名稱。
 
    名稱最多可包含255個字元。
 
-1. （選用）按一下 **[!UICONTROL Portfolio管理員]** 在頁面頂端的標題中，為產品組合指派不同的管理員。
+1. （選擇性）按一下頁面頂端標題中&#x200B;**[!UICONTROL Portfolio管理員]**&#x200B;底下的名稱，指派投資組合的其他管理員。
 
    ![](assets/portfolio-manager-name-350x51.jpg)
 
-   作為產品組合的建立者，預設會將您指派為產品組合管理員。
+   投資組合的建立者預設會指派您為投資組合經理。
 
-1. 按一下 **[!UICONTROL Portfolio詳細資料]** 中。
-1. 在 **[!UICONTROL 概述]** 區域中，更改以下任何資訊：
+1. 按一下左側面板中的&#x200B;**[!UICONTROL Portfolio詳細資料]**。
+1. 在&#x200B;**[!UICONTROL 概觀]**&#x200B;區域中，變更下列任何資訊：
 
    <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">[!UICONTROL描述]</td> 
-      <td> <p>輸入Portfolio的說明，以指出其獨特之處。 </p> </td> 
+      <td role="rowheader">[！UICONTROL說明]</td> 
+      <td> <p>輸入Portfolio的說明以指示其獨特性。 </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROLPortfolio管理器]</td> 
-      <td> <p>開始鍵入要指明為產品組合經理的用戶名稱，然後在清單中顯示時選擇該名稱。 這與[!UICONTROLPortfolio所有者]相同。 這是可以監督產品組合項目中定義的工作並批准業務案例的人員。</p> <p>重要：當您指定某人為[!UICONTROLPortfolio管理器]時，他們會自動獲得產品組合、方案和產品組合中專案的[!UICONTROL管理]權限。 </p> <p>提示：您也可以更新頁面頂端標題中的[!UICONTROLPortfolio管理器]。</p> </td> 
+      <td role="rowheader">[！UICONTROLPortfolio管理員]</td> 
+      <td> <p>開始輸入您要指定做為投資組合經理的使用者名稱，然後當它出現在清單中時選取它。 這與[！UICONTROLPortfolio所有者]相同。 此人員可監督投資組合中專案所定義的工作，並可核准業務案例。</p> <p>重要：當您指定某人為[！UICONTROLPortfolio管理員]時，他們會自動取得專案組合、方案及專案組合中的[！UICONTROL管理]許可權。 </p> <p>提示：您也可以更新頁面頂端標題中的[！UICONTROLPortfolio管理員]。</p> </td> 
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader">群組 </td> 
-      <td> <p>如果群組擁有組合或有責任完成組合，請新增單一群組的名稱。 </p> <p>您可以將游標移至群組上並按一下[!UICONTROL資訊]圖示，以確定您選取的是正確的群組 <img src="assets/info-icon.png"> 顯示於其旁。 此工具提示會列出群組的相關資訊，例如上方的群組階層及其管理員。</p> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <img src="assets/group-details-widget-portfolios-350x250.png" style="width: 350;height: 250;"> </p> </td> 
+      <td> <p>如果群組擁有投資組合或負責完成投資組合，請新增單一群組的名稱。 </p> <p>您可以暫留在群組上，並按一下旁邊顯示的[！UICONTROL資訊]圖示<img src="assets/info-icon.png">，確定您選取的群組正確。 這會顯示工具提示，列出群組的相關資訊，例如群組及其管理員上方的群組階層。</p> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <img src="assets/group-details-widget-portfolios-350x250.png" style="width: 350;height: 250;"> </p> </td> 
      </tr> 
     </tbody> 
    </table>
 
-1. （選用）按一下內部 **[!UICONTROL 新增自訂表單]** 框 [!UICONTROL Portfolio詳細資料] 頁面，為產品組合選取自訂表單並更新自訂欄位。
+1. （選擇性）在[!UICONTROL Portfolio詳細資料]頁面右上角的&#x200B;**[!UICONTROL 新增自訂表單]**&#x200B;方塊內按一下，以選取投資組合的自訂表單並更新自訂欄位。
 
    >[!TIP]
    >
-   >您必須先建立產品組合自訂表單，才能將其附加至產品組合。
+   >您必須先建立投資組合自訂表單，才能將其附加至投資組合。
 
-1. 按一下 **[!UICONTROL 儲存變更]**.
-1. （選用）按一下 **[!UICONTROL 方案]** 在左側面板中，然後 **[!UICONTROL 新增方案]** 將程式添加到產品組合中。
+1. 按一下「**[!UICONTROL 儲存變更]**」。
+1. （選擇性）按一下左側面板中的&#x200B;**[!UICONTROL 程式]**，然後按一下&#x200B;**[!UICONTROL 新增程式]**，將程式新增至投資組合。
 
-   如需建立方案的詳細資訊，請參閱 [建立方案](../../../manage-work/portfolios/create-and-manage-programs/create-program.md).
+   如需建立程式的詳細資訊，請參閱[建立程式](../../../manage-work/portfolios/create-and-manage-programs/create-program.md)。
 
-1. （選用）按一下 **[!UICONTROL 專案]** 在左側面板中，然後 **[!UICONTROL 新增專案]** 將專案新增至產品組合。
+1. （選擇性）按一下左側面板中的「**[!UICONTROL 專案]**」，然後按一下「**[!UICONTROL 新增專案]**」以將專案新增至投資組合。
 
-   如需新增專案至Portfolio的詳細資訊，請參閱 [將專案新增至產品組合](../../../manage-work/portfolios/create-and-manage-portfolios/add-projects-to-portfolios.md).
+   如需將專案新增至Portfolio的詳細資訊，請參閱[將專案新增至投資組合](../../../manage-work/portfolios/create-and-manage-portfolios/add-projects-to-portfolios.md)。
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

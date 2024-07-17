@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: e1e3b8b9f5497af47e14c0f54dfae8f2134b5159
+source-git-commit: 49bd393af77a67aa1e3a443c4189569178e99ada
 workflow-type: tm+mt
-source-wordcount: '1967'
+source-wordcount: '1989'
 ht-degree: 2%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 2%
 >
 >若您在此階段，您的客戶代表會通知您。
 >
->如需記錄Workfront Planning的所有章節和文章的完整清單，請參閱 [Adobe Workfront規劃：文章索引](/help/quicksilver/planning/planning-information.md).
+>如需檔案Workfront Planning之所有章節和文章的完整清單，請參閱[Adobe Workfront Planning：文章索引](/help/quicksilver/planning/planning-information.md)。
 
 <!--[View a video demonstration of Adobe Workfront Planning capabilities.](https://video.tv.adobe.com/v/3424253/){target=_blank}-->
 
@@ -59,7 +59,7 @@ Adobe Workfront規劃是Adobe Workfront的新產品。 Workfront Planning的目�
 
 下表說明Workfront Planning中可用的主要功能，及其可用性的時間表。 此清單並未包含所有功能。
 
-有關新功能及其發行時間的資訊，請參閱 [Adobe Workfront Planning目前發行活動](/help/quicksilver/planning/general/release-activity.md).
+如需新功能及其發行時間的詳細資訊，請參閱[Adobe Workfront Planning目前發行活動](/help/quicksilver/planning/general/release-activity.md)。
 
 | 功能 | 現在可用 | 即將推出 | 研究中 |
 |----------------------------------------------------|:-----------------------------:|:--------------------------------:|:----------------:|
@@ -106,7 +106,7 @@ Adobe Workfront規劃是Adobe Workfront的新產品。 Workfront Planning的目�
 
 貴組織必須先註冊Adobe Workfront計畫程式，才能存取其功能。 如果您符合資格，您的客戶代表應該提供您註冊此方案的相關資訊。
 
-如需有關授予存取權以及讓其他人使用Workfront Planning的詳細資訊，請參閱 [存取權總覽](/help/quicksilver/planning/access/access-overview.md).
+如需授與存取權給其他人以及允許其他人使用Workfront Planning的詳細資訊，請參閱[存取權概觀](/help/quicksilver/planning/access/access-overview.md)。
 
 ## Adobe Workfront規劃術語
 
@@ -122,9 +122,9 @@ Workfront Planning的架構可完全自訂。 您可以建立所有記錄型別�
 
   ![](assets/marketing-workspace-with-record-type-taxonomies-opening-page.png)
 
-  如需詳細資訊，請參閱 [建立工作區](/help/quicksilver/planning/architecture/create-workspaces.md).
+  如需詳細資訊，請參閱[建立工作區](/help/quicksilver/planning/architecture/create-workspaces.md)。
 
-* **記錄型別**：物件型別或Workfront Planning。
+* **記錄型別**：物件型別或Workfront規劃。
 
   與Workfront （預先定義物件型別）不同，您可以在Workfront Planning中建立自己的物件型別。
 
@@ -132,9 +132,9 @@ Workfront Planning的架構可完全自訂。 您可以建立所有記錄型別�
 
   在Workfront Planning中，您可以建立符合組織工作流程的任何記錄型別。 稍後，您可以定義記錄型別如何相互關聯或表單相依性。
 
-  如需詳細資訊，請參閱 [記錄型別概觀](/help/quicksilver/planning/architecture/overview-of-record-types.md).
+  如需詳細資訊，請參閱[記錄型別概觀](/help/quicksilver/planning/architecture/overview-of-record-types.md)。
 
-* **記錄**：記錄型別的例項。
+* **記錄**：記錄型別的執行個體。
 
   ![](assets/records-highlighted-in-campaign-record-type-list.png)
 
@@ -142,7 +142,7 @@ Workfront Planning的架構可完全自訂。 您可以建立所有記錄型別�
 
   例如，「Campaign」可以是記錄型別，「Summer Campaign for EMEA」是Campaign記錄型別的記錄
 
-  如需詳細資訊，請參閱 [建立記錄](/help/quicksilver/planning/records/create-records.md).
+  如需詳細資訊，請參閱[建立記錄](/help/quicksilver/planning/records/create-records.md)。
 
 * **Workspace範本**：您可以使用預先定義的範本建立工作區。 您可以使用範本中預先定義的記錄型別和欄位，也可以新增您自己的記錄型別和欄位。
 
@@ -150,9 +150,9 @@ Workfront Planning的架構可完全自訂。 您可以建立所有記錄型別�
 
   Adobe Workfront計畫隨附銷售、行銷和產品管理工作區範本。
 
-  如需詳細資訊，請參閱 [建立工作區](/help/quicksilver/planning/architecture/create-workspaces.md).
+  如需詳細資訊，請參閱[建立工作區](/help/quicksilver/planning/architecture/create-workspaces.md)。
 
-* **欄位**：欄位是您可以新增到記錄型別的屬性。 欄位包含有關記錄型別的資訊。 <!--check the shot below, "Connection" needs to be in lowercase-->
+* **欄位**：欄位是您可以新增到記錄型別的屬性。 欄位包含有關記錄型別的資訊。<!--check the shot below, "Connection" needs to be in lowercase-->
 
   ![](assets/drop-down-list-of-record-fields.png)
 
@@ -166,7 +166,7 @@ Workfront Planning的架構可完全自訂。 您可以建立所有記錄型別�
 
    * 欄位可完全自訂，僅可在Workfront Planning中存取。 您無法從Workfront存取Workfront規劃欄位。
 
-  如需詳細資訊，請參閱 [建立欄位](/help/quicksilver/planning/fields/create-fields.md).
+  如需詳細資訊，請參閱[建立欄位](/help/quicksilver/planning/fields/create-fields.md)。
 
   依預設，新的記錄型別與下列預先定義的欄位相關聯：
 
@@ -194,7 +194,7 @@ Workfront Planning的架構可完全自訂。 您可以建立所有記錄型別�
    * 上次修改者
    * 上次修改日期
 
-* **連結的記錄型別**， **連結的記錄**、和 **連結的記錄欄位** 或 **連線的記錄型別**， **連線的記錄**、和 **已連線的欄位**：您可以在Workfront Planning中建立下列實體之間的連線：
+* **連結的記錄型別**、**連結的記錄**&#x200B;和&#x200B;**連結的記錄欄位**&#x200B;或&#x200B;**連線的記錄型別**、**連線的記錄**&#x200B;和&#x200B;**連線的欄位**：您可以在Workfront Planning中的下列實體之間建立連線：
 
    * 兩種記錄型別。
    * 記錄型別和Workfront專案、方案、投資組合、公司或群組物件型別。
@@ -207,7 +207,7 @@ Workfront Planning的架構可完全自訂。 您可以建立所有記錄型別�
 
   在記錄型別之間建立連線之後，可以將這些型別的個別記錄彼此連線。 記錄之間的連線會顯示為連結的記錄欄位。
 
-* **連結的欄位** （或查詢欄位）：建立兩個記錄型別之間的連線，並將個別記錄連結在一起後，您可以參考連結記錄上您連結的記錄欄位。
+* **連結的欄位** （或查詢欄位）：當您建立兩個記錄型別之間的連線，並將個別記錄連結在一起之後，就可以參考連結的記錄上的連結記錄欄位。
 
   例如，如果您將Campaign記錄型別與Workfront專案物件型別連線，則可以在行銷活動記錄上顯示已連線專案的「預算」欄位。
 
@@ -249,7 +249,7 @@ Workfront Planning的架構可完全自訂。 您可以建立所有記錄型別�
      ![](assets/calendar-view-example.png)
 
 
-如需詳細資訊，請參閱 [管理記錄檢視](/help/quicksilver/planning/views/manage-record-views.md).
+如需詳細資訊，請參閱[管理記錄檢視](/help/quicksilver/planning/views/manage-record-views.md)。
 
 
 ## Adobe Workfront Planning物件限制
@@ -281,37 +281,42 @@ Workfront Planning的架構可完全自訂。 您可以建立所有記錄型別�
 
 ## 找到Adobe Workfront Planning
 
-確保您的組織已獲得Workfront Planning的存取權，且您的系統或群組管理員已將Planning區域新增至您的主功能表。 如需詳細資訊，請參閱 [存取權總覽](/help/quicksilver/planning/access/access-overview.md).
+確保您的組織已獲得Workfront Planning的存取權，且您的系統或群組管理員已將Planning區域新增至您的主功能表。 如需詳細資訊，請參閱[存取總覽](/help/quicksilver/planning/access/access-overview.md)。
 
 若要找到Workfront Planning：
 
 1. 登入Adobe Workfront。
 
-1. 按一下 **主要功能表** ![](assets/main-menu-workfront.png) 或按一下 **主要功能表** ![](assets/main-menu-shell.png) 左上角（如果有的話）。
+{{step1-click-main-menu}}
 
-1. 按一下 **規劃** ![](assets/planning-icon.png).
+1. 按一下&#x200B;**計畫** ![](assets/planning-icon.png)。
 
    Workfront Planning登陸頁面隨即開啟。
 
    ![](assets/planning-landing-page-admin.png)
 
+   >[!TIP]
+   >
+   >    您的Workfront管理員可以將「規劃」區域新增至版面配置範本中的「選取登陸頁面」選項，以便您登入Workfront後立即開啟「規劃」。 如需詳細資訊，請參閱[使用版面配置範本自訂登入頁面](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-landing-page.md)。
+
+
 1. （條件式與選用式）如果您是Workfront管理員，請按一下下列其中一個標籤：
    * **我的工作區**：顯示您建立的工作區。
-   * **其他工作區**：顯示系統中的所有其他工作區，包括與您共用的工作區。
+   * **其他工作區**：顯示系統中所有其他工作區，包括與您共用的工作區。
 
-   對於所有其他使用者，其建立或與他們共用的所有工作區都會顯示在 **工作區** 區域。
+   對於所有其他使用者，他們建立或與他們共用的所有工作區都會顯示在&#x200B;**工作區**&#x200B;區域中。
 
 1. （選用且建議使用）繼續下列部分動作，以建置您的工作結構：
 
-   1. 從頭開始或使用範本建立工作區。 如需詳細資訊，請參閱 [建立工作區](/help/quicksilver/planning/architecture/create-workspaces.md).
+   1. 從頭開始或使用範本建立工作區。 如需詳細資訊，請參閱[建立工作區](/help/quicksilver/planning/architecture/create-workspaces.md)。
 
-   1. 新增區段至新工作區。 如需詳細資訊，請參閱 [編輯工作區](/help/quicksilver/planning/architecture/edit-workspaces.md).
+   1. 新增區段至新工作區。 如需詳細資訊，請參閱[編輯工作區](/help/quicksilver/planning/architecture/edit-workspaces.md)。
    1. 重新命名新工作區中的現有區段。
-   1. 將記錄型別新增至新工作區。 如需詳細資訊，請參閱 [建立記錄型別](/help/quicksilver/planning/architecture/create-record-types.md).
+   1. 將記錄型別新增至新工作區。 如需詳細資訊，請參閱[建立記錄型別](/help/quicksilver/planning/architecture/create-record-types.md)。
 
    1. 按一下記錄型別的名稱以開啟記錄型別的頁面。 記錄型別頁面預設會在「表格」檢視中開啟。
 
-      您也可以建立時間表或行事曆檢視。 如需詳細資訊，請參閱 [管理記錄檢視](/help/quicksilver/planning/views/manage-record-views.md).
+      您也可以建立時間表或行事曆檢視。 如需詳細資訊，請參閱[管理記錄檢視](/help/quicksilver/planning/views/manage-record-views.md)。
 
    1. 在表格檢視中，新增列以開始新增記錄
 
@@ -322,11 +327,11 @@ Workfront Planning的架構可完全自訂。 您可以建立所有記錄型別�
       如需詳細資訊，請參閱下列文章：
 
       * [建立記錄](/help/quicksilver/planning/records/create-records.md)
-      * [建立欄位](/help/quicksilver/planning/fields/create-fields.md).
+      * [建立欄位](/help/quicksilver/planning/fields/create-fields.md)。
 
 ## Adobe Workfront Planning發行活動
 
 我們會定期為Workfront Planning發佈新功能。
 
-如需最新已發行功能清單，請參閱 [Adobe Workfront Planning目前發行活動](/help/quicksilver/planning/general/release-activity.md)
+如需已發行功能的最新清單，請參閱[Adobe Workfront Planning目前的發行活動](/help/quicksilver/planning/general/release-activity.md)
 

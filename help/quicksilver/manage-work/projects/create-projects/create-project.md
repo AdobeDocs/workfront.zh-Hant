@@ -6,7 +6,7 @@ description: 專案是Adobe Workfront中的大型工作單位。 您可以從頭
 author: Alina
 feature: Work Management
 exl-id: d4e28fa6-25f9-4765-b051-8960c8873d5a
-source-git-commit: f9afe7c8f04777dd547ea1e202e7844bdfd3518e
+source-git-commit: 49bd393af77a67aa1e3a443c4189569178e99ada
 workflow-type: tm+mt
 source-wordcount: '1207'
 ht-degree: 1%
@@ -69,7 +69,7 @@ ht-degree: 1%
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront授權</td> 
+   <td role="rowheader">Adobe Workfront授權*</td> 
    <td> <p>新增：標準</p>
         <p>或</p>
         <p>目前：計畫 </p> </td> 
@@ -85,7 +85,7 @@ ht-degree: 1%
  </tbody> 
 </table>
 
-如需有關此表格的詳細資訊，請參閱 [Workfront檔案中的存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*如需此表格中資訊的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -96,23 +96,23 @@ ht-degree: 1%
 * 從頭開始建立專案，而不使用範本。 本文會介紹如何從頭開始建立專案。
 
 * 複製現有專案。\
-  如需有關複製專案的詳細資訊，請參閱 [複製專案](../../../manage-work/projects/manage-projects/copy-project.md).
+  如需有關複製專案的詳細資訊，請參閱[複製專案](../../../manage-work/projects/manage-projects/copy-project.md)。
 
 * 使用範本。\
-  如需使用範本建立新專案的詳細資訊，請參閱 [使用範本建立專案](../../../manage-work/projects/create-projects/create-project-from-template.md).
+  如需使用範本建立新專案的詳細資訊，請參閱[使用範本建立專案](../../../manage-work/projects/create-projects/create-project-from-template.md)。
 
 * 從Microsoft專案匯入專案。\
-  如需有關從MS Project匯入專案的詳細資訊，請參閱 [從Microsoft專案匯入專案](../../../manage-work/projects/create-projects/import-project-from-ms-project.md).
+  如需有關從MS Project匯入專案的詳細資訊，請參閱[從Microsoft專案匯入專案](../../../manage-work/projects/create-projects/import-project-from-ms-project.md)。
 
 * 使用kick-start匯入專案。
 
   身為Workfront管理員，您可以使用kick-start匯入專案。
 
-  如需有關在Workfront中使用Kick-Start匯入資料的資訊，請參閱 [使用Kick-Start範本將資料匯入Adobe Workfront](../../../administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md).
+  如需有關在Workfront中使用Kick-Start匯入資料的資訊，請參閱[使用Kick-Start範本將資料匯入Adobe Workfront](../../../administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md)。
 
-  如需有關使用Kick-Start匯入專案的資訊，請參閱 [Kick-Starts情境：簡單的專案和任務匯入準備](../../../administration-and-setup/manage-workfront/using-kick-starts/kick-starts-scenario-simple-project-task-import-prep.md).
+  如需有關使用Kick-Start匯入專案的資訊，請參閱[Kick-Start情境：簡單專案和任務匯入準備](../../../administration-and-setup/manage-workfront/using-kick-starts/kick-starts-scenario-simple-project-task-import-prep.md)。
 
-* 從Adobe Workfront情境規劃工具中的情境發佈方案。 Scenario Planner需要額外的授權。 如需Workfront Scenario Planner的相關資訊，請參閱 [情境規劃工具概觀](../../../scenario-planner/scenario-planner-overview.md). 如需有關從發佈方案建立專案的資訊，請參閱  [透過在情境規劃工具中發佈行動方案來更新或建立專案](../../../scenario-planner/publish-scenarios-update-projects.md).
+* 從「Adobe Workfront情境規劃工具」中的情境Publish方案。 Scenario Planner需要額外的授權。 如需Workfront Scenario Planner的相關資訊，請參閱[Scenario Planner概觀](../../../scenario-planner/scenario-planner-overview.md)。 如需有關透過發佈行動方案建立專案的資訊，請參閱[在Scenario Planner](../../../scenario-planner/publish-scenarios-update-projects.md)中發佈行動方案以更新或建立專案。
 
 ## 先決條件
 
@@ -120,7 +120,7 @@ ht-degree: 1%
 
 * 您的系統或群組管理員在設定區域中啟用了「允許使用者在不使用範本的情況下建立專案」偏好設定。
 
-  如需詳細資訊，請參閱 [設定全系統專案偏好設定](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+  如需詳細資訊，請參閱[設定全系統的專案偏好設定](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md)。
 
 ## 新專案預設設定
 
@@ -136,7 +136,7 @@ ht-degree: 1%
   >
   >我們建議新專案的預設狀態為「計畫」。 當您變更新專案時，這可以確保不會將通知傳送給指派給專案的使用者。
   >
-  >如需有關為新專案設定預設狀態和其他預設設定的詳細資訊，請參閱 [設定全系統專案偏好設定](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md) 或 [設定群組的專案偏好設定](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-project-preferences-group.md).
+  >如需有關設定新專案的預設狀態和其他預設設定的詳細資訊，請參閱[設定全系統的專案偏好設定](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md)或[設定群組的專案偏好設定](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-project-preferences-group.md)。
 
 * 以下是Workfront定義新專案之群組和狀態的方式案例：
 
@@ -160,41 +160,41 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->如果您使用範本建立專案，建議您也看到本文 [使用範本建立專案](/help/quicksilver/manage-work/projects/create-projects/create-project-from-template.md).
+>如果您使用範本建立專案，建議您也看到文章[使用範本建立專案](/help/quicksilver/manage-work/projects/create-projects/create-project-from-template.md)。
 
 
 1. 執行下列其中一項：
 
-   * 按一下 **[!UICONTROL 主要功能表]** 圖示 ![主要功能表](/help/_includes/assets/main-menu-icon.png) 在Adobe Workfront的右上角，或（如果有的話）按一下 **[!UICONTROL 主要功能表]** 圖示 ![主要功能表](/help/_includes/assets/main-menu-icon-left-nav.png) 左上角。 按一下 **專案**，然後展開 **新增專案**.
-   * 前往投資組合，然後展開 **新增專案**.
-   * 前往程式，然後展開 **新增專案**.
-   * 如果您是群組管理員，您也可以在您管理之群組的專案區段中建立專案。 如需詳細資訊，請參閱 [建立和修改群組的專案](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-projects.md).
+   * 按一下Adobe Workfront右上角的&#x200B;**[!UICONTROL 主功能表]**&#x200B;圖示![主功能表](/help/_includes/assets/main-menu-icon.png)，或（如果可用）按一下左上角的&#x200B;**[!UICONTROL 主功能表]**&#x200B;圖示![主功能表](/help/_includes/assets/main-menu-icon-left-nav.png)。 按一下&#x200B;**專案**，然後展開&#x200B;**新增專案**。
+   * 移至投資組合，然後展開&#x200B;**新專案**。
+   * 前往方案，然後展開&#x200B;**新專案**。
+   * 如果您是群組管理員，您也可以在您管理之群組的專案區段中建立專案。 如需詳細資訊，請參閱[建立和修改群組的專案](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-projects.md)。
 
-   ![新增專案功能表](assets/new-project-dropdown-nwe-350x358.png)
+   ![新專案功能表](assets/new-project-dropdown-nwe-350x358.png)
 
-1. 按一下 **新增專案** 在功能表中從頭開始建立專案。
+1. 按一下功能表中的[新增專案]****，從頭開始建立專案。
 1. 輸入專案名稱。 按下Enter以儲存名稱。
 
    ![輸入專案名稱](assets/rename-untitled-project.png)
 
    專案頁面的標題會顯示專案目前健康狀況和進度的快速概覽。 專案資訊更新時，專案標題中的資訊會變更。
 
-1. 按一下 **開始新增任務**.
+1. 按一下&#x200B;**開始新增工作**。
 
    或
 
-   按一下 **建立任務** 將任務新增至專案並指派資源給它們。
+   按一下&#x200B;**新增任務**，將任務新增至專案並指派資源給它們。
 
-   如需有關將任務新增至專案的詳細資訊，請參閱 [在專案中建立任務](../../../manage-work/tasks/create-tasks/create-tasks-in-project.md).
+   如需將任務新增至專案的詳細資訊，請參閱[在專案中建立任務](../../../manage-work/tasks/create-tasks/create-tasks-in-project.md)。
 
-1. 按一下「 」以編輯專案詳細資料 **更多** 功能表，然後 **編輯** ![](assets/qs-edit-icon.png) 專案名稱旁。
+1. 按一下專案名稱旁的&#x200B;**更多**&#x200B;功能表，然後按一下&#x200B;**編輯** ![](assets/qs-edit-icon.png)，即可編輯專案詳細資料。
 
-   此 **編輯專案** 對話方塊開啟。
+   **編輯專案**&#x200B;對話方塊開啟。
 
-   如需有關編輯專案的詳細資訊，請參閱 [編輯專案](../../../manage-work/projects/manage-projects/edit-projects.md).
+   如需有關編輯專案的詳細資訊，請參閱[編輯專案](../../../manage-work/projects/manage-projects/edit-projects.md)。
 
-1. （可選）在設定專案設定並新增任務後，您可以將專案狀態變更為 **目前**.
+1. （選擇性）在設定專案設定並新增任務後，您可以將專案狀態變更為&#x200B;**目前**。
 
    這表示專案現在已準備好開始，並且指派給任務的使用者現在可以開始處理它們。
 
-   如需有關專案狀態的詳細資訊，請參閱 [存取系統專案狀態清單](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/project-statuses.md).
+   如需有關專案狀態的詳細資訊，請參閱[存取系統專案狀態清單](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/project-statuses.md)。

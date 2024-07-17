@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7a65d66e-a578-4016-805e-0cb04caaa18a
-source-git-commit: e1e3b8b9f5497af47e14c0f54dfae8f2134b5159
+source-git-commit: 49bd393af77a67aa1e3a443c4189569178e99ada
 workflow-type: tm+mt
-source-wordcount: '445'
+source-wordcount: '485'
 ht-degree: 0%
 
 ---
@@ -48,22 +48,58 @@ hide: yes
 
 <!--* [View a video demonstration of Adobe Workfront Planning](https://video.tv.adobe.com/v/3424253/){target=_blank}-->
 
-* [Adobe Workfront規劃概觀](/help/quicksilver/planning/general/planning-overview.md)：Adobe Workfront規劃整體概觀，包括本解決方案特有的術語和概念。 建議您在這裡透過Workfront規劃開始您的歷程。
-* [Adobe Workfront Planning目前發行活動](/help/quicksilver/planning/general/release-activity.md)：列出自2023年5月22日Adobe Workfront Planning程式啟動後已發行的所有功能，其中包含確切發行日期及每個功能的簡短概觀。
-* [Adobe Workfront Planning AI Assistant概觀](/help/quicksilver/planning/general/planning-ai-assistant-overview.md)：您可以使用適用於Planning的Workfront AI助理來搜尋記錄，或使用命令來建立、更新及刪除記錄，並讓助理為您工作。
+* [Adobe Workfront計畫總覽](/help/quicksilver/planning/general/planning-overview.md)： Adobe Workfront計畫的高層級總覽，包括此解決方案特有的術語和概念。 建議您在這裡透過Workfront規劃開始您的歷程。
+* [Adobe Workfront Planning目前發行活動](/help/quicksilver/planning/general/release-activity.md)：自2023年5月22日Adobe Workfront Planning方案啟動後已發行之所有功能的清單，包含確切發行日期及每項功能的簡短概觀。
+* [Adobe Workfront Planning AI Assistant總覽](/help/quicksilver/planning/general/planning-ai-assistant-overview.md)：使用Workfront AI Assistant for Planning，您可以使用命令來搜尋記錄，或建立、更新和刪除記錄，並讓助理為您工作。
 
-  Workfront AI Assistant目前可供處於Beta階段的選定客戶使用。 請聯絡您的客戶代表，瞭解您是否有資格參與試用此新產品。
+  >[!NOTE]
+  >
+  >    Workfront AI Assistant目前可供處於Beta階段的選定客戶使用。 請聯絡您的客戶代表，瞭解您是否有資格參與試用此新產品。
 
-* [Workfront Fusion的Adobe Workfront規劃模組](/help/quicksilver/workfront-fusion/apps-and-their-modules/workfront-planning-modules.md)：您可以使用Adobe Workfront規劃模組，在Workfront規劃中發生事件時觸發情境。 您也可以建立、讀取、更新及刪除記錄，或對Adobe Workfront Planning帳戶執行自訂API呼叫。
+* [適用於Workfront Fusion的Adobe Workfront規劃模組](/help/quicksilver/workfront-fusion/apps-and-their-modules/workfront-planning-modules.md)：透過Adobe Workfront規劃模組，您可以在Workfront規劃中發生事件時觸發情境。 您也可以建立、讀取、更新及刪除記錄，或對Adobe Workfront Planning帳戶執行自訂API呼叫。
 
 ## Workfront規劃架構和功能
 
 以下章節包含詳細說明Workfront Planning目前可用功能的文章：
 
-* [存取和許可權資訊：文章索引](/help/quicksilver/planning/access/access-information.md)：使用Workfront Planning所需存取權和許可權的相關資訊。
-* [架構：文章索引](/help/quicksilver/planning/architecture/architecture-information.md)：有關Workfront Planning架構的深入資訊，包含如何建立和管理工作區與記錄型別的逐步指示。
-* [欄位：文章索引](/help/quicksilver/planning/fields/fields-information.md)：建立記錄型別的自訂欄位的相關深入資訊和逐步指示。
-* [記錄：文章索引](/help/quicksilver/planning/records/records-information.md)：有關如何建立和管理記錄的深入資訊和逐步指示。
-* [檢視：文章索引](/help/quicksilver/planning/views/views-information.md)：有關記錄檢視的深入資訊，以及如何在檢視記錄型別頁面時管理記錄檢視。
-* [通知：文章索引](/help/quicksilver/planning/notifications/notifications-information.md)：Workfront Planning中事件所產生之電子郵件和應用程式內通知的相關資訊。
+* [存取和許可權資訊：文章索引](/help/quicksilver/planning/access/access-information.md)包含下列資訊：
+
+   * Workfront授權和Planning許可權
+   * Planning共用許可權
+   * 共用檢視
+   * 共用工作區（記錄型別、記錄和欄位）
+
+* [架構：文章索引](/help/quicksilver/planning/architecture/architecture-information.md)包含下列資訊：
+
+   * 建立、編輯、刪除工作區
+   * 建立、編輯、刪除記錄型別
+   * 連線記錄型別和連線記錄型別的範例
+   * Workspace範本
+
+* [欄位：文章索引](/help/quicksilver/planning/fields/fields-information.md)包含下列資訊：
+
+   * 建立、編輯和刪除欄位
+   * 公式欄位
+   * 主要欄位
+
+* [記錄：文章索引](/help/quicksilver/planning/records/records-information.md)包含下列資訊：
+
+   * 建立、編輯和刪除記錄
+   * 連接記錄
+   * 新增封面影像或縮圖至記錄
+   * 管理記錄頁面的配置
+   * 「記錄註釋和歷史記錄」區段
+   * 共用記錄
+   * Workfront物件的Workfront規劃區段
+
+* [檢視：文章索引](/help/quicksilver/planning/views/views-information.md)包含下列資訊：
+
+   * 建立記錄檢視
+   * 管理表格、時間軸和行事曆檢視
+
+* [通知：文章索引](/help/quicksilver/planning/notifications/notifications-information.md)包含下列資訊：
+
+   * 管理通知偏好設定
+   * 規劃應用程式內通知
+   * 規劃電子郵件通知
 
