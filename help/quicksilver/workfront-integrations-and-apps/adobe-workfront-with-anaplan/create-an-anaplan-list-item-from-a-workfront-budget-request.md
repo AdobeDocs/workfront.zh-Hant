@@ -6,9 +6,9 @@ description: 此整合情境會連結 [!DNL Adobe Workfront] 專案（行銷活�
 author: Becky
 feature: Workfront Integrations and Apps, Workfront Fusion
 exl-id: e6505ece-21aa-4397-8d68-543bf89d2f00
-source-git-commit: 4ab731b14dc5435386fd0d887501788fa37223a2
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
-source-wordcount: '808'
+source-wordcount: '810'
 ht-degree: 0%
 
 ---
@@ -99,7 +99,7 @@ ht-degree: 0%
    </tbody> 
   </table>
 
-  如需建立自訂表單的相關資訊，請參閱[建立或編輯自訂表單](../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)
+  如需建立自訂表單的相關資訊，請參閱[使用表單設計工具設計表單](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。
 
 * 代表行銷活動和其他需要資金的專案的專案範本，已設定一個[!UICONTROL 預算請求]佇列主題。 已指派[!UICONTROL 預算請求]佇列主題來使用[!UICONTROL 預算請求]自訂表單。
 * 專案物件的&#x200B;**[!UICONTROL 行銷活動簡報]**&#x200B;表單。
@@ -141,7 +141,7 @@ ht-degree: 0%
    </tbody> 
   </table>
 
-  如需建立自訂表單的相關資訊，請參閱[建立或編輯自訂表單](../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)
+  如需建立自訂表單的相關資訊，請參閱[使用表單設計工具設計表單](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。
 
 ## 預期的[!DNL Anaplan]組態
 

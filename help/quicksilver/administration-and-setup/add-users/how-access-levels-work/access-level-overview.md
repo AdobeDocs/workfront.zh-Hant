@@ -10,9 +10,9 @@ author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: d297d8a4-5a4e-418f-983a-19545aeb0668
-source-git-commit: 2da3c687b33d808ec4bf19d380bc82759d19bf99
+source-git-commit: 528c264f613c0deb88c1cf52adb885ad4ead098b
 workflow-type: tm+mt
-source-wordcount: '1702'
+source-wordcount: '1745'
 ht-degree: 5%
 
 ---
@@ -281,8 +281,8 @@ Workfront有5個新的內建存取層級：
 | 專案 |   | ✓ (A) |   |
 | 任務 |   | ✓ (A) |   |
 | 問題 |   |   | ✓ (A) |
-| 專案組合 | ✓ (A) |   |   |
-| 計劃 | ✓ (A) |   |   |
+| 專案組合 |   | ✓ (A) |   |
+| 計劃 |   | ✓ (A) |   |
 | 報告（包括儀表板和行事曆報告） |   | ✓ （僅限詳細資訊標籤） |   |
 | 篩選器、視圖和分組 |   |   | ✓ (A) |
 | 文件 |   |   | ✓ (A) |
@@ -297,6 +297,13 @@ Workfront有5個新的內建存取層級：
 | 目標 |   |   | ✓ (A) |
 
 {style="table-layout:auto"}
+
+>[!IMPORTANT]
+>
+>從24.7版開始，貢獻者預設擁有方案和Portfolio的檢視存取權。
+>
+> 
+>在24.7版之前上線的貢獻者依預設將繼續無權存取方案和Portfolio。 您可以視需要更新其存取權以手動檢視。
 
 ### 外部使用者存取層級
 

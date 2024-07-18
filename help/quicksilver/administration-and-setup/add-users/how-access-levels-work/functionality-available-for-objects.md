@@ -10,9 +10,9 @@ author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: a419e4fe-7781-48ac-8765-bd605fa44bc9
-source-git-commit: 1b4c914108e8c9e04d026520d20675d2a88dd485
+source-git-commit: ad74648a70bbb44e8093e30e111f75859d6baa68
 workflow-type: tm+mt
-source-wordcount: '1599'
+source-wordcount: '1601'
 ht-degree: 11%
 
 ---
@@ -133,7 +133,7 @@ ht-degree: 11%
 | 刪除 | ✓ &#42; |   |   |   |
 | 共用 | ✓ &#42; |   |   |   |
 | 共用系統範圍 | ✓ &#42; |   |   |   |
-| 檢視 | ✓ &#42; | ✓ &#42; |   |   |
+| 檢視 | ✓ &#42; | ✓ &#42; | ✓ &#42; |   |
 | 編輯詳細資料 | ✓ (A) |   |   |   |
 | 附加自訂表單 | ✓ (A) |   |   |   |
 | 編輯自訂欄位 | ✓ (A) |   |   |   |
@@ -157,7 +157,7 @@ ht-degree: 11%
 | 刪除 | ✓ &#42; |   |   |   |
 | 共用 | ✓ &#42; |   |   |   |
 | 共用系統範圍 | ✓ &#42; |   |   |   |
-| 檢視 | ✓ &#42; | ✓ &#42; |   |   |
+| 檢視 | ✓ &#42; | ✓ &#42; | ✓ &#42; |   |
 | 編輯詳細資料 | ✓ (A) |   |   |   |
 | 附加自訂表單 | ✓ (A) |   |   |   |
 | 編輯自訂欄位 | ✓ (A) |   |   |   |
