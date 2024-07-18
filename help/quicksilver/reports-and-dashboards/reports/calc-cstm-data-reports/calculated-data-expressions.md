@@ -7,9 +7,9 @@ description: 您可以使用資料運算式，在Adobe Workfront中定義計算�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: cfb3ace9-76c3-4006-878f-e2ad25ffa03b
-source-git-commit: 6f026590f0030b564f0d110afead9ade1acd7896
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
-source-wordcount: '2166'
+source-wordcount: '2165'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 * 自訂表單上的計算自訂欄位
 
-  如需在Workfront中的自訂表單上建立計算自訂欄位的詳細資訊，請參閱[將計算資料新增至自訂表單](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md)。
+  如需在Workfront中的自訂表單上建立計算自訂欄位的詳細資訊，請參閱[將計算欄位新增至表單](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md)。
 
 * 使用文字模式時，報表或清單中的計算自訂欄
 

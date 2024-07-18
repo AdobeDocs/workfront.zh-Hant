@@ -3,9 +3,9 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文件、教學課程和其他資源，了解如何在您的組織中實施並有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: dff543fcd657ba5208e1ef1110502175155d2040
+source-git-commit: e52881a03f69d7c4d6a62dcdc9c6044f6f5dd016
 workflow-type: tm+mt
-source-wordcount: '14438'
+source-wordcount: '14266'
 ht-degree: 1%
 
 ---
@@ -593,42 +593,21 @@ ht-degree: 1%
       * 自訂表單{#custom-forms}
          * [自訂表單：文章索引](administration-and-setup/customize-workfront/create-manage-custom-forms/create-and-manage-custom-forms.md)
          * [自訂表單概述](administration-and-setup/customize-workfront/create-manage-custom-forms/custom-forms-overview.md)
-         * 舊版自訂表單產生器{#custom-form-builder}
-            * 使用自訂表單產生器{#use-the-custom-form-builder}
-               * [使用舊版自訂表單產生器](administration-and-setup/customize-workfront/create-manage-custom-forms/use-the-custom-form-builder.md)
-               * [使用舊版產生器建立或編輯自訂表單](administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)
-               * [複製自訂表單，使用舊版產生器建立新表單](administration-and-setup/customize-workfront/create-manage-custom-forms/copy-custom-form-to-create-a-new-one.md)
-               * [使用舊版產生器新增自訂欄位](administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md)
-               * [使用舊版產生器將影像或其他資產Widget新增至自訂表單](administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md)
-               * [使用舊版產生器新增分割槽符號](administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-section-break-to-a-custom-form.md)
-               * [使用舊版產生器新增計算資料](administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md)
-               * [使用舊版產生器重複使用現有的計算自訂欄位](administration-and-setup/customize-workfront/create-manage-custom-forms/use-existing-calc-field-new-custom-form.md)
-               * [使用舊版產生器定位自訂欄位和Widget](administration-and-setup/customize-workfront/create-manage-custom-forms/position-fields-in-a-custom-form.md)
-               * [與舊版產生器共用自訂欄位和Widget](administration-and-setup/customize-workfront/create-manage-custom-forms/configure-sharing-for-a-custom-field.md)
-               * [透過舊版產生器重複使用自訂欄位或Widget](administration-and-setup/customize-workfront/create-manage-custom-forms/reuse-an-existing-field.md)
-               * [使用舊版產生器新增顯示邏輯和略過邏輯](administration-and-setup/customize-workfront/create-manage-custom-forms/display-or-skip-logic-custom-form.md)
-               * [使用舊版產生器預覽並完成自訂表單](administration-and-setup/customize-workfront/create-manage-custom-forms/preview-and-complete-a-custom-form.md)
-               * [使用舊版產生器刪除自訂表單上的物件型別](administration-and-setup/customize-workfront/create-manage-custom-forms/delete-object-type-on-a-custom-form.md)
-         * 表單設計工具{#form-designer}
-            * [表單設計工具](administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/form-designer-toc.md)
-            * [表單設計工具概觀](administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/form-designer-overview.md)
-            * 設計自訂表單{#design-a-form}
-               * [設計表單](administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form-toc.md)
-               * [使用表單設計工具設計表單](administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)
-               * [使用表單設計工具從副本設計表單](administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-from-copy.md)
-               * [使用表單設計工具新增計算欄位](administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md)
-               * [使用表單設計工具新增顯示邏輯和略過邏輯](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/display-skip-logic-form-designer.md)
-               * [自訂表單中的外部查詢欄位範例](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/external-lookup-examples.md)
-               * [使用表單設計工具來組織和預覽表單](administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/organize-a-form.md)
-            * 管理表單{#manage-a-form}
-               * [管理表單](administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/manage-a-form/manage-a-form-toc.md)
-               * [使用表單設計工具從現有自訂表單新增或刪除物件型別](administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/manage-a-form/add-or-remove-objects-from-a-form.md)
-               * [使用表單設計工具重新命名自訂表單](administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/manage-a-form/rename-a-custom-form.md)
-               * [使用表單設計器設定自訂欄位和Widget的共用](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/manage-a-form/share-custom-fields.md)
+         * 設計自訂表單{#design-a-form}
+            * [設計表單：文章索引](administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form-toc.md)
+            * [使用表單設計工具設計表單](administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)
+            * [從復本設計表單](administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-from-copy.md)
+            * [新增計算欄位至表單](administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md)
+            * [新增顯示邏輯和略過邏輯至表單](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/display-skip-logic-form-designer.md)
+            * [自訂表單中的外部查詢欄位範例](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/external-lookup-examples.md)
+            * [組織和預覽表單](administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/organize-a-form.md)
          * 管理自訂表單{#manage-custom-forms}
-            * [管理自訂表單和欄位](administration-and-setup/customize-workfront/create-manage-custom-forms/manage-custom-forms-toc.md)
+            * [管理自訂表單和欄位：文章索引](administration-and-setup/customize-workfront/create-manage-custom-forms/manage-custom-forms-toc.md)
+            * [從現有自訂表單新增或刪除物件型別](administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/manage-a-form/add-or-remove-objects-from-a-form.md)
+            * [重新命名自訂表單](administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/manage-a-form/rename-a-custom-form.md)
+            * [設定表單中自訂欄位和Widget的共用](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/manage-a-form/share-custom-fields.md)
             * [共用自訂表格](administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md)
-            * [存取自訂欄位](administration-and-setup/customize-workfront/create-manage-custom-forms/access-for-a-shared-custom-form-you-want-to-use.md)
+            * [存取共用的自訂欄位](administration-and-setup/customize-workfront/create-manage-custom-forms/access-for-a-shared-custom-form-you-want-to-use.md)
             * [停用或重新啟用自訂表單](administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/manage-a-form/activate-deactivate-form.md)
             * [在報表中參考自訂表單](administration-and-setup/customize-workfront/create-manage-custom-forms/reference-custom-forms-in-report.md)
             * [檢視使用自訂欄位或Widget的報告](administration-and-setup/customize-workfront/create-manage-custom-forms/view-all-reports-that-use-a-particular-custom-field.md)

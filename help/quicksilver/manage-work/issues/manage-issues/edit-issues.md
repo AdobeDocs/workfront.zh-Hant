@@ -8,9 +8,9 @@ feature: Work Management
 topic: Collaboration
 role: User
 exl-id: 1449374a-ab0d-4c98-83cd-4e511467633a
-source-git-commit: 31ee3259167532e1e1efa75d635786762f6e476e
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
-source-wordcount: '2506'
+source-wordcount: '2508'
 ht-degree: 2%
 
 ---
@@ -324,13 +324,13 @@ ht-degree: 2%
 
    ![](assets/custom-forms-section-edit-issue-box-nwe-350x132.png)
 
-1. 在&#x200B;**新增自訂表單**&#x200B;欄位中，選取您要與問題相關聯的一或多個自訂表單。 您必須先建置自訂表單，才能在此欄位中選取它們。 清單中只會顯示作用中的自訂表單。 如需建立自訂表單的詳細資訊，請參閱[建立或編輯自訂表單](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)。 您可以新增最多10個自訂表單至問題。
+1. 在&#x200B;**新增自訂表單**&#x200B;欄位中，選取您要與問題相關聯的一或多個自訂表單。 您必須先建置自訂表單，才能在此欄位中選取它們。 清單中只會顯示作用中的自訂表單。 如需建立自訂表單的詳細資訊，請參閱[使用表單設計工具設計表單](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。 您可以新增最多10個自訂表單至問題。
 
 1. （視條件而定）如果您將自訂表單附加到問題，請編輯表單上的任何欄位。 您必須指定所有必填欄位，然後才能儲存問題。
 
    >[!NOTE]
    >
-   >根據您的Workfront管理員如何設定自訂表單中區段的許可權，不是每個人都可以檢視或編輯給定自訂表單上的相同欄位。 編輯自訂表單區段內欄位的許可權取決於您對問題本身的許可權。 如需設定自訂表單區段許可權的相關資訊，請參閱[建立或編輯自訂表單](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)。 如需關於設定問題許可權的資訊，請參閱[共用問題](../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md)。
+   >根據您的Workfront管理員如何設定自訂表單中區段的許可權，不是每個人都可以檢視或編輯給定自訂表單上的相同欄位。 編輯自訂表單區段內欄位的許可權取決於您對問題本身的許可權。 如需設定自訂表單區段許可權的相關資訊，請參閱[使用表單設計工具設計表單](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。 如需關於設定問題許可權的資訊，請參閱[共用問題](../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md)。
 
 1. 按一下&#x200B;**儲存**&#x200B;或繼續編輯下列區段。
 

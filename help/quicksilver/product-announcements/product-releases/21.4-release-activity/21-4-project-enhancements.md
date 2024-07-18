@@ -6,9 +6,9 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 6bcd332e-bd4e-4a74-bae9-9ba507299a51
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
 workflow-type: tm+mt
-source-wordcount: '950'
+source-wordcount: '911'
 ht-degree: 0%
 
 ---
@@ -96,6 +96,4 @@ ht-degree: 0%
 這取決於您在自訂表單中放置欄位的方式 — 如果您將另一個欄位與核取方塊或選項按鈕欄位放在同一列，則選項可能只有足夠的水準空間可顯示在單一欄中。
 
 如需填寫自訂表單的相關資訊，請參閱[編輯自訂表單欄位中的資訊](../../../workfront-basics/work-with-custom-forms/edit-custom-forms.md)。
-
-如需有關在自訂表單中建立核取方塊或選項按鈕欄位的資訊，請參閱文章[建立或編輯自訂表單](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)中的[建立或編輯自訂表單](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#create)和[建立或編輯自訂表單](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#configur)小節。
 

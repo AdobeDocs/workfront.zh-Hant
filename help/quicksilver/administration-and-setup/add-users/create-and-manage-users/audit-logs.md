@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 6adb4146-42fd-4eda-b46f-c61d7ff71df6
-source-git-commit: d9a8af627c8d3da4a7625cd5180bfca69da43b3d
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
-source-wordcount: '1464'
+source-wordcount: '1465'
 ht-degree: 3%
 
 ---
@@ -192,7 +192,7 @@ ht-degree: 3%
 * 變更自訂區段的名稱或說明
 * 刪除自訂部分
 
-如需自訂表單中自訂區段的資訊，請參閱[建立或編輯自訂表單](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)。
+如需自訂表單中自訂區段的資訊，請參閱[使用表單設計工具設計表單](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。
 
 ### 匯率 {#exchange-rate}
 

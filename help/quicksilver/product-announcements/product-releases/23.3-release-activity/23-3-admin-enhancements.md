@@ -5,7 +5,7 @@ author: Lisa
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 5d8a0858-aa4a-4b5f-bbc4-7215e145b59a
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
 source-wordcount: '378'
 ht-degree: 0%
@@ -44,4 +44,4 @@ ht-degree: 0%
 
 表單設計工具Beta版尚未提供編輯現有邏輯以及向自訂表單新增邏輯的功能，但日後打算提供。
 
-如需詳細資訊，請參閱[表單設計工具總覽](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/form-designer-overview.md)。
+如需詳細資訊，請參閱[自訂表格概觀](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/custom-forms-overview.md)。

@@ -7,9 +7,9 @@ description: 建立範本後，您可以編輯有關範本任務的資訊。 使
 author: Alina
 feature: Work Management
 exl-id: 2df8522e-7eee-4440-be0f-f7483c5acdb0
-source-git-commit: 420a9c24695f950ad191431ca6c6848b7649f3b1
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
-source-wordcount: '2384'
+source-wordcount: '2385'
 ht-degree: 4%
 
 ---
@@ -350,7 +350,7 @@ ht-degree: 4%
 
    ![custom_forms_edit_task.png](assets/custom-forms-edit-task-350x136.png)
 
-1. 選取您想要與範本任務建立關聯的一或多個自訂表單。 您必須先建置自訂表單，才能在此欄位中選取它們。 清單中只會顯示作用中的自訂表單。 如需建立自訂表單的詳細資訊，請參閱[建立或編輯自訂表單](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)。 您最多可以將十個自訂表單新增到範本任務中。 表單會自動新增至從範本建立的任務。
+1. 選取您想要與範本任務建立關聯的一或多個自訂表單。 您必須先建置自訂表單，才能在此欄位中選取它們。 清單中只會顯示作用中的自訂表單。 如需建立自訂表單的詳細資訊，請參閱[使用表單設計工具設計表單](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。 您最多可以將十個自訂表單新增到範本任務中。 表單會自動新增至從範本建立的任務。
 1. （條件式與選擇性）如果您將自訂表單附加到範本任務，請編輯表單上的任何欄位。 您必須指定所有必填欄位，然後才能儲存範本任務。
 
    >[!NOTE]

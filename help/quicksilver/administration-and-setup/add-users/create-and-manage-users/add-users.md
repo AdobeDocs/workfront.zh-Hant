@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: e95dbc32-915b-4ea7-a5ad-e1da99edfbe3
-source-git-commit: 198129edd8690393e3214f5041b183b5516617a7
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
-source-wordcount: '1207'
+source-wordcount: '1208'
 ht-degree: 1%
 
 ---
@@ -89,7 +89,7 @@ As an Adobe administrator, you can add users in Adobe Workfront by adding them t
 * 此使用者應該屬於哪個主團隊？ 此人是否應該隸屬於多個團隊？ 如需有關團隊的資訊，請參閱[團隊概觀](../../../people-teams-and-groups/create-and-manage-teams/teams-overview.md)。
 * 您需要將哪些自訂資訊與此使用者建立關聯？
 
-  如果在您建立的自訂欄位中擷取有關使用者的資訊，則建立使用者時必須準備好自訂表單。 如需自訂表單的相關資訊，請參閱[建立或編輯自訂表單](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)。
+  如果在您建立的自訂欄位中擷取有關使用者的資訊，則建立使用者時必須準備好自訂表單。 如需自訂表單的相關資訊，請參閱[使用表單設計工具設計表單](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。
 
 ## 從頭開始建立使用者
 

@@ -1,5 +1,5 @@
 ---
-title: 使用表單設計工具從副本設計表單
+title: 從復本設計表單
 user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
@@ -8,14 +8,14 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 578a8bd5-d93f-4327-bb4f-2c17b91b170a
-source-git-commit: df6b1e4b362807025f3edb5298e8445c0d44ec69
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
-source-wordcount: '386'
+source-wordcount: '378'
 ht-degree: 0%
 
 ---
 
-# 使用表單設計工具從副本設計表單
+# 從復本設計表單
 
 您可以根據現有表格設計新的自訂表格。 您可以將自訂表單附加至不同的Workfront物件，以擷取這些物件的相關資料。
 

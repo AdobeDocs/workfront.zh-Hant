@@ -5,9 +5,9 @@ description: 自訂Forms用於收集未顯示在現有Adobe Workfront欄位中�
 author: Alina
 feature: Work Management
 exl-id: f781fd00-968c-4e5d-b82c-a74acedb2734
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
-source-wordcount: '380'
+source-wordcount: '381'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 自訂Forms用於收集未顯示在現有Adobe Workfront欄位中的資訊。 
 
-如需有關建立自訂Forms的詳細資訊，請參閱文章[建立或編輯自訂表單](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)。
+如需有關建立自訂Forms的詳細資訊，請參閱文章[使用表單設計工具設計表單](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。
 
 ## 存取需求
 

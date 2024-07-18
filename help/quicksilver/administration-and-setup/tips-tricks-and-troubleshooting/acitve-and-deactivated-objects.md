@@ -9,9 +9,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: a0617270-e233-4ebe-a5ee-8df7a8a85823
-source-git-commit: c2bf6441e4ac8520a56d4005b3e87c48370dc065
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
-source-wordcount: '749'
+source-wordcount: '750'
 ht-degree: 2%
 
 ---
@@ -82,7 +82,7 @@ ht-degree: 2%
 
 您可以在編輯自訂表單時啟用自訂表單。
 
-如需有關編輯自訂表單的資訊，以及可與其建立關聯的物件清單，請參閱[建立或編輯自訂表單](../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)。
+如需有關編輯自訂表單的資訊，以及可與其產生關聯的物件清單，請參閱[使用表單設計工具設計表單](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。
 
 ## 公司
 

@@ -1,5 +1,5 @@
 ---
-title: 設計表單
+title: 「設計表單：文章索引」
 user-type: administrator
 content-type: reference
 product-area: system-administration
@@ -10,17 +10,20 @@ feature: System Setup and Administration, Custom Forms
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 091edfd8-8b69-4a56-9dae-ec73828a3f64
-source-git-commit: b28e4515f2c391cc315eec4740a91919ae9218d9
+source-git-commit: 78b24eef63dabcd5f5dcb53e217ced00da915eff
 workflow-type: tm+mt
-source-wordcount: '81'
+source-wordcount: '91'
 ht-degree: 0%
 
 ---
 
-# 設計表單
+# 設計表單：文章索引
+
+本節包含下列文章：
 
 * [使用表單設計工具設計表單](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)
-* [使用表單設計工具從副本設計表單](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-from-copy.md)
-* [使用表單設計工具新增計算欄位](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md)
-* [使用表單設計工具新增顯示邏輯和略過邏輯](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/display-skip-logic-form-designer.md)
-* [使用表單設計工具來組織和預覽表單](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/organize-a-form.md)
+* [從復本設計表單](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-from-copy.md)
+* [新增計算欄位至表單](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md)
+* [新增顯示邏輯和略過邏輯至表單](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/display-skip-logic-form-designer.md)
+* [自訂表單中的外部查詢欄位範例](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/external-lookup-examples.md)
+* [組織和預覽表單](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/organize-a-form.md)

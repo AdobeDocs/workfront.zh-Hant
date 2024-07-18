@@ -6,9 +6,9 @@ description: 此整合情境會共用具有 [!DNL Anaplan] 預算清單專案之
 author: Becky
 feature: Workfront Integrations and Apps, Workfront Fusion
 exl-id: f9198017-9bbb-4776-86aa-3f78705dbb22
-source-git-commit: 4ab731b14dc5435386fd0d887501788fa37223a2
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
-source-wordcount: '921'
+source-wordcount: '922'
 ht-degree: 0%
 
 ---
@@ -73,7 +73,7 @@ ht-degree: 0%
   | [!UICONTROL 上次傳輸日期] | 日期 |
   | [!UICONTROL 整合注意事項] | 段落文字欄位 |
 
-  如需建立自訂表單的相關資訊，請參閱[建立或編輯自訂表單](../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)
+  如需建立自訂表單的相關資訊，請參閱[使用表單設計工具設計表單](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。
 
 ## 預期的[!DNL Anaplan]組態
 

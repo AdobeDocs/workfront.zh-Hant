@@ -8,9 +8,9 @@ author: Caroline
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 407f6631-ecc1-4ed8-bfec-6d726ae87a3d
-source-git-commit: ab7877c048ea87180dd518c978b258d266e0f95c
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
-source-wordcount: '755'
+source-wordcount: '756'
 ht-degree: 0%
 
 ---
@@ -73,7 +73,7 @@ ht-degree: 0%
      </tr>
      <tr> 
       <td role="rowheader">自訂Forms區段</td> 
-      <td> <p>如果您想要將某些欄位新增至Workfront中不提供的公司，您可以建立自訂表格並將其與公司建立關聯。 您可以從下拉式選單中選取此表單，以將其附加至您的公司。 下拉式功能表中只會列出作用中的公司。 如需建立自訂Forms的相關資訊，請參閱<a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref" data-mc-variable-override="">建立或編輯自訂表單</a>。 </p> </td> 
+      <td> <p>如果有任何您想要新增至公司的欄位無法在Workfront中使用，您可以建置自訂表單並將其與公司建立關聯。 您可以從下拉式選單中選取此表單，以將其附加至您的公司。 下拉式功能表中只會列出作用中的公司。 如需建立自訂表單的相關資訊，請參閱<a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md">使用表單設計工具設計表單</a>。 </p> </td> 
      </tr> 
     </tbody> 
    </table>

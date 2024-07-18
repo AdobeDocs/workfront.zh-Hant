@@ -7,20 +7,14 @@ author: Alina
 feature: Work Management, Resource Management
 role: User
 exl-id: 09780f78-4eb8-404d-859b-d066d462776d
-source-git-commit: 0d525df9beacc989ec3c1c695a7757dff0ad77b3
+source-git-commit: dd015fc356f65cc3d00a1c88ca0a8f2268283606
 workflow-type: tm+mt
-source-wordcount: '1265'
+source-wordcount: '1168'
 ht-degree: 0%
 
 ---
 
 # 建立進階任務指派
-
-<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它只能在「預覽」環境中供所有客戶使用，或在「生產」環境中供啟用快速發行的客戶使用。</span>
-
-<span class="preview">如需快速發行資訊，請參閱[為您的組織啟用或停用快速發行](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
-
-<span class="preview">如需目前版本的相關資訊，請參閱[2024年第三季版本總覽](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md)。</span>
 
 您可以使用「進階指派」來管理任務或問題指派。
 
@@ -97,10 +91,6 @@ ht-degree: 0%
 
 1. 按一下&#x200B;**進階**。
 
-   生產環境中的影像範例：
-   ![](assets/advanced-assignments-link-from-task-header-nwe-350x267.png)
-
-   <span class="preview">預覽環境中的範例影像：</span>
    ![按一下[進階]](assets/assignments-box-in-task-header.png)
 
 1. 在&#x200B;**搜尋人員、角色和團隊**&#x200B;欄位中，開始輸入使用者、角色或團隊的名稱，然後在其出現在下拉式清單中時按一下該名稱。
@@ -159,10 +149,6 @@ ht-degree: 0%
 
    * **受指派人角色：**&#x200B;選取使用者完成此指派時應使用的角色。  預設會顯示使用者的主要角色。 按一下「受指派人的角色」方塊以選取其他角色。  當您先將任務或問題指派給角色，然後新增可以履行該角色的使用者作為第二個指派時，將會篩選建議使用者的清單，以顯示可以履行已指派給任務和問題的角色的使用者。
 
-     生產環境中的影像範例：
-     ![](assets/advanced-assignments-box-select-a-role-350x243.png)
-
-     <span class="preview">預覽環境中的範例影像：</span>
      ![受指派人的角色](assets/advanced-assignments-select-role.png)
 
    <!--<div class="preview">
@@ -181,14 +167,6 @@ ht-degree: 0%
 
    * **計畫時數**：當期間型別為計算指派或簡單時，更新計畫時數。 因此，每個資源的配置百分比或時數會平均分配。 當期間型別為已計算的工作或投入比導向時，Workfront會計算計畫時數。 如需詳細資訊，請參閱[任務期間與期間型別概觀](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md)。
 
-     生產環境中的影像範例：
-     ![](assets/qs-advanced-assignments-box-with-duration-type-and-duration-350x251.png)
-
-     <div class="preview">
-
-     預覽環境中的範例影像：
      ![進階工作分派](assets/advanced-assignments-duration-type-allocations.png)
-
-     </div>
 
 1. 按一下「**儲存**」。

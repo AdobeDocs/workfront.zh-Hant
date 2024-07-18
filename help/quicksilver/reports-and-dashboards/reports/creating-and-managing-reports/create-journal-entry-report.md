@@ -5,9 +5,9 @@ author: Nolan
 draft: Probably
 feature: Reports and Dashboards
 exl-id: ecf947ce-54d8-4103-8903-f455b1d86c39
-source-git-commit: 4572ea9bb0679c599a55d5a87c1397c7b819c963
+source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
 workflow-type: tm+mt
-source-wordcount: '2776'
+source-wordcount: '2758'
 ht-degree: 4%
 
 ---
@@ -71,8 +71,6 @@ ht-degree: 4%
   若要瞭解如何新增您希望Workfront追蹤的欄位，請參閱[設定系統更新](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md)。
 
 * 您要報告的任何自訂欄位，其設定&#x200B;**在更新摘要中顯示欄位變更**&#x200B;已啟用。
-
-  若要瞭解如何為自訂欄位啟用此設定，請參閱[建立或編輯自訂表單](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#)。
 
 ## 分錄報表概觀
 

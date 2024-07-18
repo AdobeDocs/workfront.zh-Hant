@@ -6,9 +6,9 @@ description: 計畫工作在Adobe Workfront中以專案和任務表示。 不過
 author: Alina
 feature: Work Management
 exl-id: 8b023a3d-326d-4d63-9e1e-8171553a9e23
-source-git-commit: 43afa8136e51332a0970b01fff36113d5bf42294
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
-source-wordcount: '2338'
+source-wordcount: '2339'
 ht-degree: 1%
 
 ---
@@ -87,7 +87,7 @@ Workfront管理員必須建立「請求佇列」的下列元件：
   如需詳細資訊，請參閱文章[建立主題群組](../../../manage-work/requests/create-and-manage-request-queues/create-topic-groups.md)。
 
 * （選用）要求自訂表格。\
-  如需詳細資訊，請參閱文章[建立或編輯自訂表格](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)。
+  如需詳細資訊，請參閱文章[使用表單設計工具](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)設計表單。
 
 * （選用）要求核准流程。\
   如需詳細資訊，請參閱文章[建立工作專案的核准程式](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md)。

@@ -5,9 +5,9 @@ description: 您可以檢視 [!DNL Adobe Workfront] 中的物件清單，以取�
 feature: Get Started with Workfront
 author: Lisa
 exl-id: d4262b8e-bbe0-4ac2-8f1f-5d32541311c8
-source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
-source-wordcount: '2397'
+source-wordcount: '2398'
 ht-degree: 0%
 
 ---
@@ -628,7 +628,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td>您無法內嵌編輯具有RTF格式的自訂欄位。</td> 
-   <td> <p>自訂欄位中含格式的文字可設定為允許粗體、斜體、底線、專案符號、編號、超連結和區塊引號。</p> <p>如需詳細資訊，請參閱<a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref">建立或編輯自訂表格</a>。</p> </td> 
+   <td> <p>自訂欄位中含格式的文字可設定為允許粗體、斜體、底線、專案符號、編號、超連結和區塊引號。</p> <p>如需詳細資訊，請參閱<a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md">使用表單設計工具</a>設計表單。</p> </td> 
   </tr> 
   <tr> 
    <td>條件式格式可以變更清單中連結的文字顏色</td> 

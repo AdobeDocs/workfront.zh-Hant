@@ -6,9 +6,9 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: f21f33b3-5e49-4bb0-9eda-7cf4c016361c
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
 workflow-type: tm+mt
-source-wordcount: '1485'
+source-wordcount: '1474'
 ht-degree: 0%
 
 ---
@@ -26,8 +26,6 @@ ht-degree: 0%
 到目前為止，當您建立自訂欄位時，系統中的每個人都可以編輯該欄位。 這仍然是自訂欄位的預設狀態，但現在您可以將自訂欄位的共用限製為特定使用者、角色、團隊、群組和公司。 而且您可以決定收件者是否可以管理或僅檢視自訂欄位。
 
 此外，為了讓您熟悉此體驗，我們設計了此功能的使用者介面，以便與在Workfront中共用的其他物件區域類似。
-
-如需詳細資訊，請參閱[設定自訂欄位和Widget的共用](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/configure-sharing-for-a-custom-field.md)。
 
 ## 管理員的新增功能：標準化的自訂表單共用
 

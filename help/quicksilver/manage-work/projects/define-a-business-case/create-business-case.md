@@ -5,9 +5,9 @@ description: 您可以使用業務案例來請求專案，並定義專案的目�
 author: Alina
 feature: Work Management
 exl-id: db69b3bf-04e3-49b4-ae0d-ab6145389db5
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
-source-wordcount: '830'
+source-wordcount: '831'
 ht-degree: 0%
 
 ---
@@ -106,7 +106,7 @@ ht-degree: 0%
 
    必須先建立自訂Forms，才能將其附加到專案。
 
-   如需有關自訂Forms的詳細資訊，請參閱文章[建立或編輯自訂表單](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)。
+   如需有關自訂Forms的詳細資訊，請參閱文章[使用表單設計工具設計表單](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。
 
 1. 按一下&#x200B;**提交**。
 

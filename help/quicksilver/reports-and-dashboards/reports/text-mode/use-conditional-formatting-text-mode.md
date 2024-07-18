@@ -6,9 +6,9 @@ description: 在文字模式中使用條件式格式
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 48fc8450-35c6-4d59-89d3-0feffe662b25
-source-git-commit: e896d156854c6729e5ea0a82dcbc641fbfa9415e
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
-source-wordcount: '1699'
+source-wordcount: '1698'
 ht-degree: 1%
 
 ---
@@ -510,7 +510,7 @@ image.case.0.comparison.truetext=/interface/images/v4_redux/icons/casebuilder/em
 
 您無法有條件地格式化包含`valueexpression`行程式碼的資料行。 反之，您可以將計算的自訂欄位新增到自訂表單，並將其與報表中顯示的物件相關聯。 然後，您可以有條件地格式化顯示此欄位的欄。
 
-如需有關計算自訂欄位的詳細資訊，請參閱[將計算資料新增至自訂表單](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md)。
+如需有關計算自訂欄位的詳細資訊，請參閱[將計算欄位新增至表單](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md)。
 
 ## 在文字模式欄中新增彙總值
 

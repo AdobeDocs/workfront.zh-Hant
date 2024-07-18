@@ -5,9 +5,9 @@ title: 跨時區工作
 description: 瞭解 [!DNL Adobe Workfront] 如何使用時區來計算物件的時間欄位，以及在其他區域（例如電子郵件）中的時間會很有幫助。
 feature: Get Started with Workfront
 exl-id: b6574165-a6dc-4694-a367-d98927abf1e3
-source-git-commit: 0483230c5d8b7d33f420c6c5f09c4a5aafe37f37
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
-source-wordcount: '1152'
+source-wordcount: '1150'
 ht-degree: 0%
 
 ---
@@ -111,10 +111,10 @@ ht-degree: 0%
 
 您可以在自訂表單中使用一系列計算出的自訂欄位來顯示組織中使用者的目前時間，例如顯示多個城市中的時間的一列機場時鐘。 您可以為使用者工作的每個時區建立一個欄位，每個時區都會計算其時區的時間。
 
-如需詳細資訊，請參閱[將計算資料新增至自訂表單](../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md)，以及文章[計算資料運算式概觀](../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md)中的[日期與時間計算自訂欄位](../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md#date)一節。
+如需詳細資訊，請參閱[將計算欄位新增至表單](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md)，以及文章[計算資料運算式概觀](../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md)中的[日期與時間計算自訂欄位](../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md#date)一節。
 
 ### 在自訂表單中使用文字欄位而非日期欄位 {#use-text-fields-instead-of-date-fields-in-a-custom-form}
 
 若您不希望[!DNL Workfront]轉換您在物件中為不同時區的使用者設定的時間，您可以使用附加到物件的自訂表單中的文字欄位，而不是日期欄位。 如此一來，時間就會顯示您為專案中的每個人輸入的時間。
 
-若您這麼做，建議您提醒表單的使用者計算其時區與您的時區之間的差異，以便他們決定工作應該開始與結束的時間。 您可以在自訂表單的指示或該欄位的工具提示中鍵入此資訊。 如需詳細資訊，請參閱[新增自訂欄位至自訂表單](../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md)。
+若您這麼做，建議您提醒表單的使用者計算其時區與您的時區之間的差異，以便他們決定工作應該開始與結束的時間。 您可以在自訂表單的指示或該欄位的工具提示中鍵入此資訊。 如需詳細資訊，請參閱[使用表單設計工具](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)設計表單。

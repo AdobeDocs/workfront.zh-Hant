@@ -7,9 +7,9 @@ description: 若要彙總Adobe Workfront中的多個欄位並在新欄位中顯�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 17ac554d-0c90-4592-946e-a89f1784571d
-source-git-commit: c49b545938a78716084296ef1b4e7c0fc075ef95
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
-source-wordcount: '829'
+source-wordcount: '815'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 0%
 若要在Adobe Workfront中彙總數個欄位，並在新欄位中顯示該彙總值，您可以建立下列專案：
 
 * 自訂表單中的計算自訂欄位\
-  如需將計算自訂欄位新增至自訂表單的詳細資訊，請參閱文章[將計算資料新增至自訂表單](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md)中的[將計算欄位新增至自訂表單](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md#add-a-calculated-field-to-a-custom-form)小節。
+  如需新增計算自訂欄位至自訂表單的詳細資訊，請參閱[新增計算欄位至表單](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md)。
 
 * 檢視中的計算欄\
   如需有關在檢視中使用計算的詳細資訊，請參閱文章[文字模式常見用途概觀](../../../reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md)中的[在檢視中使用文字模式](../../../reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md#use-text-mode-in-views)一節。

@@ -7,9 +7,9 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 497214d1-fc31-498c-93f6-ac56d8742c1f
-source-git-commit: e1bf5fbc7dc25bf8ce472b21b9a0906530f82cf0
+source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
 workflow-type: tm+mt
-source-wordcount: '373'
+source-wordcount: '354'
 ht-degree: 3%
 
 ---
@@ -45,7 +45,6 @@ ht-degree: 3%
      <p>例如，如果您已建立「核取方塊」欄位，則可將其變更為「下拉式清單」欄位或「選項按鈕」欄位。 這三種欄位顯示型別可以互換。</p> 
      <p>或者，如果您已建立「單行文字欄位」，您可以將其變更為「段落文字欄位」。 這兩種欄位顯示型別可以互換。</p> 
      <p>之前，若要變更自訂欄位的顯示型別，您必須建立新欄位並刪除舊欄位。 這需要傳輸資料，而這通常很耗時。</p> 
-     <p>如需詳細資訊，請參閱文章<a href="../../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref" xrefformat="{para}">建立或編輯自訂表單</a>中的<a href="../../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#create" class="MCXref xref" xrefformat="{para}">建立或編輯自訂表單</a></p> 
      <div class="workfront_plans"> 
       <p><strong>在以下環境中可用：</strong> </p> 
       <ul> 

@@ -1,5 +1,5 @@
 ---
-title: 使用表單設計工具從現有自訂表單新增或刪除物件型別
+title: 從現有自訂表單新增或刪除物件型別
 user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
@@ -8,14 +8,14 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: c43ea6b2-7d5b-46f0-a092-f57128de60f0
-source-git-commit: df6b1e4b362807025f3edb5298e8445c0d44ec69
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
-source-wordcount: '474'
+source-wordcount: '466'
 ht-degree: 0%
 
 ---
 
-# 使用表單設計工具從現有自訂表單新增或刪除物件型別
+# 從現有自訂表單新增或刪除物件型別
 
 您可以使用表單設計工具，在現有自訂表單中新增或刪除物件型別。
 

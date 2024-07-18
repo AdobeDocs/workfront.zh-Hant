@@ -6,9 +6,9 @@ description: 建立構成報告或清單的元素時，您可以使用標準或�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 8be8cbd0-da1b-4e90-a52e-dc352f646d18
-source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
+source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
 workflow-type: tm+mt
-source-wordcount: '799'
+source-wordcount: '798'
 ht-degree: 0%
 
 ---
@@ -41,7 +41,7 @@ ht-degree: 0%
 
 >[!TIP]
 >
->您也可以使用自訂欄位的文字模式版本，以擴充計算自訂欄位的功能。 用於建立計算自訂欄位的語法和規則與您用於報表和清單中的語法和規則不同。 如需新增計算自訂欄位的資訊，請參閱[新增計算資料至自訂表單](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md)。
+>您也可以使用自訂欄位的文字模式版本，以擴充計算自訂欄位的功能。 用於建立計算自訂欄位的語法和規則與您用於報表和清單中的語法和規則不同。 如需新增計算自訂欄位的資訊，請參閱[新增計算欄位至表單](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md)。
 
 * 在報表中開始使用文字模式之前，強烈建議您先參加進階報表課程，以更深入地瞭解我們的文字模式語言。<!--outdated: For training materials on reporting see [Workfront Reports and Dashboards Learning Paths](https://one.workfront.com/s/learningpath2/workfront-reporting-20Y0z000000blhLEAQ).-->
 * 建議您使用標準模式，以確保在Workfront軟體更新時，您建立的報表保持不變。 雖然文字模式可讓您建立更複雜的檢視、篩選器和群組，但維護起來也更為複雜，且不保證會在Workfront軟體更新時進行。
@@ -254,7 +254,6 @@ ht-degree: 0%
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">If you want to use a custom field in a <code>valueexpression</code> line you must precede the name of the field by <code>DE:</code> to indicate that it is a custom field. The name of the field is spelled as it appears in the interface. </p>
    <note type="important">
    <span>When you use a custom field that is placed in a custom form section that has restricted permissions for some users, the calculation of the valueexpression is blank when those users view this calculation in a report. For information about adjusting permissions on custom form sections, see</span>
-   <span href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md"><a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref">Create or edit a custom form</a></span>.
    </note>
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">For example, if you have a custom field labeled "Developer Name" and you want to display this field in upper case in a column, you can use the following <code>valueexpression</code> to indicate this:</p>
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode"><code>valueexpression=UPPER({DE:Developer Name}</code>) </p>

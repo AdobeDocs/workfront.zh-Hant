@@ -6,20 +6,14 @@ description: 配置百分比代表指定資源計畫在一天內處理一項任�
 author: Alina
 feature: Work Management
 exl-id: 82238dff-b95e-42e4-8e72-6247934b504d
-source-git-commit: 0d525df9beacc989ec3c1c695a7757dff0ad77b3
+source-git-commit: dd015fc356f65cc3d00a1c88ca0a8f2268283606
 workflow-type: tm+mt
-source-wordcount: '560'
+source-wordcount: '487'
 ht-degree: 1%
 
 ---
 
 # 管理任務的使用者或角色配置百分比
-
-<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它只能在「預覽」環境中供所有客戶使用，或在「生產」環境中供啟用快速發行的客戶使用。</span>
-
-<span class="preview">如需快速發行資訊，請參閱[為您的組織啟用或停用快速發行](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
-
-<span class="preview">如需目前版本的相關資訊，請參閱[2024年第三季版本總覽](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md)。</span>
 
 配置百分比代表指定資源計畫在一天內處理一項任務的時間量。 這是在任務持續期間中配置資源的當日百分比（根據使用者或專案排程）。
 
@@ -91,10 +85,6 @@ ht-degree: 1%
 
    您無法修改指派給任務的團隊配置百分比。
 
-   生產環境中的影像範例：
-   ![](assets/qs-advanced-assignments-box-with-duration-type-and-duration-350x251.png)
-
-   <span class="preview">預覽環境中的範例影像：</span>
    ![修改配置百分比](assets/advanced-assignments-allocation-percentage.png)
 
 1. 按一下「**儲存**」。

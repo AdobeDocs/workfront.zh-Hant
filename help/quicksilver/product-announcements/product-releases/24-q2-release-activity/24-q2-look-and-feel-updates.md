@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: be398d7f-7bc3-4a27-bc17-ffa4054d81ac
-source-git-commit: c2513beb50867fe1e1d065037a068a846f96d50b
+source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
 workflow-type: tm+mt
-source-wordcount: '250'
+source-wordcount: '238'
 ht-degree: 0%
 
 ---
@@ -34,4 +34,4 @@ ht-degree: 0%
 
 我們已更新「設定>自訂Forms」區域中Forms、欄位和區段的標籤，使其成為與Workfront其他區域一致的更現代化設計。 您現在可從左側導覽功能表存取三個區域。 清單仍可使用篩選器、檢視和群組。 更新的設計適用於新表單設計人員和舊版表單產生器中建立的自訂表單、欄位和區段。
 
-如需詳細資訊，請參閱[使用表單設計工具設計表單](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)和[使用舊版表單產生器建立或編輯自訂表單](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)。
+如需詳細資訊，請參閱[使用表單設計工具](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)設計表單。

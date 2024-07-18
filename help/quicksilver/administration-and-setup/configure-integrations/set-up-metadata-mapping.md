@@ -8,9 +8,9 @@ author: Caroline
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 exl-id: 7cf4787d-7cff-489e-bd5b-69db3ff09f6e
-source-git-commit: ceda437684f565b91dbb8b02f6b03cbe8d27a70a
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
-source-wordcount: '616'
+source-wordcount: '615'
 ht-degree: 1%
 
 ---
@@ -58,7 +58,7 @@ ht-degree: 1%
 
 您可以將相同的[!DNL Workfront]欄位對應到[!DNL Workfront DAM]中的各種中繼資料欄位，但您無法在其中任一應用程式中使用中繼資料欄位來對應多個[!DNL Workfront]中繼資料欄位。
 
-若要設定多個[!DNL Workfront]欄位以匯出至[!DNL Workfront]應用程式中的一個中繼資料欄位，請先在[!DNL Workfront]中建立計算自訂欄位，以顯示物件的所有個別自訂欄位。 然後，將計算的[!DNL Workfront]欄位對應到[!DNL Workfront]應用程式中的中繼資料欄位。 如需有關計算自訂欄位的詳細資訊，請參閱[將計算資料新增至自訂表單](../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md)。
+若要設定多個[!DNL Workfront]欄位以匯出至[!DNL Workfront]應用程式中的一個中繼資料欄位，請先在[!DNL Workfront]中建立計算自訂欄位，以顯示物件的所有個別自訂欄位。 然後，將計算的[!DNL Workfront]欄位對應到[!DNL Workfront]應用程式中的中繼資料欄位。 如需有關計算自訂欄位的詳細資訊，請參閱[將計算欄位新增至表單](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md)。
 
 您必須先在[!DNL Workfront]中啟用應用程式，才能對應中繼資料對應程式的欄位。 如需詳細資訊，請參閱[設定檔案整合](../../administration-and-setup/configure-integrations/configure-document-integrations.md)。
 

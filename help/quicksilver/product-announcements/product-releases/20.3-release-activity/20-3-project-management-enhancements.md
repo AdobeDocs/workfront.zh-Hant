@@ -7,9 +7,9 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: acde4cf2-a755-4e77-9469-f5152991dd34
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
 workflow-type: tm+mt
-source-wordcount: '953'
+source-wordcount: '924'
 ht-degree: 0%
 
 ---
@@ -29,8 +29,6 @@ ht-degree: 0%
 現在，當系統管理員建立設定格式的自訂表單欄位時，您可以在您最常使用的欄位中設定文字格式：在整個Workfront的清單中。 您可以按一下清單中的欄位並在該處套用粗體、斜體和底線文字，而不是進入「詳細資訊」區域以自訂表單格式化文字。
 
 請注意，此功能僅在更新的清單中可用。 如需更新的清單詳細資訊，請參閱[開始使用Adobe Workfront中的清單](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md)。
-
-如需Workfront管理員如何建立含格式文字欄位的詳細資訊，請參閱[建立或編輯自訂表單](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)。
 
 ## 更新數個全域標頭的外觀
 
@@ -113,5 +111,4 @@ ht-degree: 0%
 
 過去，標籤會顯示在欄位上方以供使用者使用，且系統會用來識別欄位。 因此變更使用者的標籤會導致該欄位在使用的任何地方都發生故障，因為系統無法再識別它。
 
-如需詳細資訊，請參閱[建立或編輯自訂表格](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)。
 

@@ -4,9 +4,11 @@ description: 當您檢視組織的自訂表單清單以及已新增至的自訂�
 author: Caroline
 feature: System Setup and Administration, Custom Forms
 role: Admin
-source-git-commit: 55b659dc4d24856d835f901b22b937e5bcbfe657
+hidefromtoc: true
+hide: true
+source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
 workflow-type: tm+mt
-source-wordcount: '556'
+source-wordcount: '545'
 ht-degree: 0%
 
 ---
@@ -16,7 +18,7 @@ ht-degree: 0%
 
 當您檢視組織的自訂表單清單以及已新增至的自訂欄位和Widget時，您可以使用工具列中的選項來編輯其屬性、限制共用對象、複製和刪除屬性。 您也可以在顯示的欄中檢視其他資訊，例如每個自訂表單關聯的物件型別。
 
-如需自訂表單中自訂欄位和Widget的相關資訊，請參閱[新增自訂欄位至自訂表單](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md)和[新增或編輯自訂表單中的資產Widget](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md)。
+如需自訂表單中自訂欄位和Widget的相關資訊，請參閱[使用表單設計工具設計表單](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。
 
 ## 存取需求
 
@@ -53,9 +55,9 @@ ht-degree: 0%
 
    如需當您在清單中選取自訂表單時可做些什麼的詳細資訊，請參閱下列文章：
 
-   * [建立或編輯自訂表格](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)
+   * [使用表單設計工具設計表單](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)
    * [共用自訂表格](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md)
-   * [複製自訂表單以建立新表單](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/copy-custom-form-to-create-a-new-one.md)
+   * [複製自訂表單以建立新表單](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/list-edit-share-custom-forms-and-custom-fields.md)
    * [刪除或停用自訂表單](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/delete-or-deactivate-a-custom-form.md)
 
 1. 按一下「**欄位**」標籤。
@@ -76,12 +78,12 @@ ht-degree: 0%
    如需當您在清單中選取專案時可做些什麼的詳細資訊，請參閱下列文章：
 
    * [新增或編輯自訂欄位、分割槽符號或Widget](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/edit-a-custom-field.md)
-   * [設定自訂欄位和Widget的共用](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/configure-sharing-for-a-custom-field.md)
+   * [設定表單中自訂欄位和Widget的共用](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/manage-a-form/share-custom-fields.md)
    * [從系統中刪除自訂欄位或Widget](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/delete-a-custom-field.md)
 
 1. 選取&#x200B;**區段**&#x200B;標籤，然後確定已選取&#x200B;**引數群組**&#x200B;作為清單的&#x200B;**檢視**。
 
    此檢視中會顯示所有分割槽符號，以及包含每個分割槽符號的自訂表單清單。
 
-   如需有關編輯您在清單中選取的自訂分節的資訊，請參閱[新增分節符號至自訂表單](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-section-break-to-a-custom-form.md)。
+   如需有關編輯您在清單中選取的自訂區段的資訊，請參閱[整理並預覽表單](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/organize-a-form.md)。
 

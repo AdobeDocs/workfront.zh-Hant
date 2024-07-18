@@ -7,7 +7,7 @@ description: 您可以選取想要每月或每季接收新的Workfront功能。
 author: Lisa
 feature: System Setup and Administration
 role: Admin
-source-git-commit: ff192113a73e19bf21a3e459cd793f82179dff3d
+source-git-commit: dd015fc356f65cc3d00a1c88ca0a8f2268283606
 workflow-type: tm+mt
 source-wordcount: '1051'
 ht-degree: 0%
@@ -15,8 +15,6 @@ ht-degree: 0%
 ---
 
 # 建立和編輯商業規則
-
-{{highlighted-preview-article-level}}
 
 商業規則可讓您套用驗證至Workfront物件，並防止使用者在滿足某些條件時建立、編輯或刪除物件。 商業規則可防止可能影響資料完整性的動作，有助於改善資料品質和營運效率。
 

@@ -4,9 +4,9 @@ description: 在22.2版本中，為管理自訂表單進行了以下重要增強
 author: Luke
 feature: Product Announcements, Custom Forms
 exl-id: 81568eab-8a65-4767-b8ab-fb9353a90bb6
-source-git-commit: d8e3c2da7f8fcd062e1bf2bb5de43a6238f5eadd
+source-git-commit: e15b2866d8dd93d9d8cbc37b204da51d748523c8
 workflow-type: tm+mt
-source-wordcount: '1186'
+source-wordcount: '1106'
 ht-degree: 0%
 
 ---
@@ -38,8 +38,6 @@ ht-degree: 0%
 * 物件的「編輯」方塊(如果它沒有新的Adobe Workfront體驗外觀) （例如「編輯費用」方塊）
 * Workfront&#x200B;行動應用程式
 
-如需有關將Widget新增至自訂表單的詳細資訊，請參閱[在自訂表單中新增或編輯影像或其他資產Widget](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md)。
-
 ## 將自訂表單與多個物件型別建立關聯
 
 您可以將多個物件型別與任何新的自訂表單建立關聯：
@@ -68,8 +66,6 @@ ht-degree: 0%
 >
 >轉換發生時，自訂表單必須與您要轉換的物件型別相關聯。
 
-如需將資產Widget新增至自訂表單的指示，請參閱[在自訂表單中新增或編輯影像或其他資產Widget](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md)。
-
 當您建立或編輯多物件自訂表單時，請考量下列事項：
 
 * [分割槽符號的許可權選項](#permission-options-for-section-breaks)
@@ -89,8 +85,6 @@ ht-degree: 0%
 在與來自這兩個群組的物件型別相關聯的自訂表單中，系統會使用一組適用於所有物件型別的通用分割槽符號許可權。 特別是，此通用集不會使用有限編輯許可權選項，而會取代有限編輯許可權選項的編輯許可權選項。 「編輯」選項與所有物件型別相容。
 
 當您關聯使用與自訂表單上其他物件型別不同許可權選項的物件型別時，將會顯示一則訊息，允許您切換至用於表單的通用許可權選項集。 此變更將套用至所有欄位，即使它們不在分割槽符號下亦然。
-
-如需詳細資訊，請參閱[新增分割槽符號至自訂表單](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-section-break-to-a-custom-form.md)。
 
 ### 計算的自訂欄位相容性
 
@@ -125,7 +119,6 @@ ht-degree: 0%
 >
 >  如果您在欄位名稱前面新增物件型別，它會參考物件的父物件，因此您無法將`{project}.{name}`用於專案，但您可以將其用於任務。
 
-如需將計算自訂欄位新增至自訂表單的指示，請參閱[將計算資料新增至自訂表單](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md)。
 
 如需`$$OBJCODE`等變數的詳細資訊，請參閱[萬用字元篩選變數概觀](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md)。
 

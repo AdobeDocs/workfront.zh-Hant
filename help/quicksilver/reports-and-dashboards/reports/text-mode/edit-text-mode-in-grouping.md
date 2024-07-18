@@ -6,9 +6,9 @@ description: '注意：讓所有FVG文章在文字模式下編輯時都相同)'
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 2eeecc16-ea6d-4a56-8ea3-e213706e89bf
-source-git-commit: dad054fe52bd7c5ca97144567c80e6d340541a50
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
-source-wordcount: '1569'
+source-wordcount: '1570'
 ht-degree: 0%
 
 ---
@@ -195,7 +195,7 @@ ht-degree: 0%
       <td> <p>如果您要依數個欄位之間的計算來群組清單，可以新增此行來取代<code>valuefield</code>。</p> <p>每次在<code>valueexpression</code>中使用物件時，都必須用大括弧括住物件的<code>valuefield</code>。</p> <p>存在下列情況：</p> 
        <ol> 
         <li value="1"> <p>如果要以大寫顯示群組的名稱，請使用：</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>範例： </b></span></span><code>group.0.valueexpression=UPPER({valuefield})</code> </p> <p>物件的<code>valuefield</code>在API Explorer中的顯示方式是拼字的。</p> </li> 
-        <li value="2">如果您想要將多個<code>valuefields</code>串連在<code>valueexpression </code>行中，以將其加入，則必須以句點分隔它們。<p>例如，如果您要在工作清單中以大寫顯示投資組合名稱，可在<code>valueexpression</code>行中使用下列程式碼：</p><p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>範例： </b></span></span><code>group.0.valueexpression=UPPER({project}.{portfolio}.{name})</code></p><p>如果您要在<code>valueexpression</code>行中使用自訂欄位，則必須在欄位名稱前面加上<code>DE:</code>，以表示它是自訂欄位。 欄位名稱在介面中顯示時拼寫。</p><p>重要： <span>當您使用自訂欄位時，若該欄位放置在自訂表格區段中，而該區段對某些使用者具有限制的許可權，則當這些使用者在報表中檢視此計算時，<code>valueexpression </code>的計算為空白。 如需有關調整自訂表格區段許可權的資訊，請參閱</span> <span href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md"><a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref">建立或編輯自訂表格</a></span>。</p><p>例如，如果您有標示為「開發人員名稱」的自訂欄位，而且您想依此欄位分組並以大寫顯示，您可以使用下列<code>valueexpression</code>來表示這點：</p><p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>範例： </b></span></span><code>group.0.valueexpression=UPPER({DE:Developer Name}</code>)</p><p>參照「預先輸入」型別自訂欄位時，請使用下列運算式來參照在標示為「開發人員名稱」的欄位中選取的物件名稱：</p><p><code>valueexpression=UPPER({DE:Developer Name:name})</code></p></li> 
+        <li value="2">如果您想要將多個<code>valuefields</code>串連在<code>valueexpression </code>行中，以將其加入，則必須以句點分隔它們。<p>例如，如果您要在工作清單中以大寫顯示投資組合名稱，可在<code>valueexpression</code>行中使用下列程式碼：</p><p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>範例： </b></span></span><code>group.0.valueexpression=UPPER({project}.{portfolio}.{name})</code></p><p>如果您要在<code>valueexpression</code>行中使用自訂欄位，則必須在欄位名稱前面加上<code>DE:</code>，以表示它是自訂欄位。 欄位名稱在介面中顯示時拼寫。</p><p>重要： <span>當您使用自訂欄位時，若該欄位放置在自訂表格區段中，而該區段對某些使用者具有限制的許可權，則當這些使用者在報表中檢視此計算時，<code>valueexpression </code>的計算為空白。 如需有關調整自訂表格區段許可權的資訊，請參閱</span> <span href="help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md"><a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md">使用表格設計工具</a></span>設計表格。</p><p>例如，如果您有標示為「開發人員名稱」的自訂欄位，而且您想依此欄位分組並以大寫顯示，您可以使用下列<code>valueexpression</code>來表示這點：</p><p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>範例： </b></span></span><code>group.0.valueexpression=UPPER({DE:Developer Name}</code>)</p><p>參照「預先輸入」型別自訂欄位時，請使用下列運算式來參照在標示為「開發人員名稱」的欄位中選取的物件名稱：</p><p><code>valueexpression=UPPER({DE:Developer Name:name})</code></p></li> 
        </ol> </td> 
      </tr> 
      <tr> 

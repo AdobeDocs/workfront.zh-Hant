@@ -6,9 +6,9 @@ draft: Probably
 feature: Product Announcements, System Setup and Administration
 recommendations: noDisplay, noCatalog
 exl-id: 55fb0b85-937d-4903-8a64-6f627dd4291f
-source-git-commit: ccba3a3d7c0cac50dbd29cae677b076811904a91
+source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
 workflow-type: tm+mt
-source-wordcount: '1020'
+source-wordcount: '927'
 ht-degree: 0%
 
 ---
@@ -33,13 +33,11 @@ in January 2022
 
 此功能適用於先前在Workfront系統中建立的所有自訂表單。 例如，如果您已經有為Task物件型別建立的自訂表單，您現在可以設定表單以搭配其他物件型別使用，例如「專案」和「問題」。
 
-如需詳細資訊，請參閱文章[建立或編輯自訂表單](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)中的[開始建立自訂表單](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#start)一節。
-
 >[!NOTE]
 >
->* 我們初次發行預覽功能時，已暫時停用複製多物件自訂表單的功能。 此功能已於3月24日啟用。 如需複製自訂表單的相關資訊，請參閱[複製自訂表單以建立新表單](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/copy-custom-form-to-create-a-new-one.md)。
->* 在計算自訂欄位中，您參考的某些欄位可能與為表單設定的物件型別不相容。 我們的解決方案是萬用字元，允許計算根據表單附加到的物件輸出不同的值。 我們在3月24日新增了萬用字元。 如需有關如何使用的資訊，請參閱文章[將計算資料新增至自訂表單](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md)中的[多物件自訂表單中的計算自訂欄位](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md#calculat)小節。
->* 針對自訂表單中的分割槽符號，我們已建立一組通用檢視和編輯許可權，這些許可權適用於您可以為表單設定的所有物件型別。 在其中一個案例中，我們發現其中一個「有限編輯」許可權可能會造成表單錯誤。 此問題已在3月24日修正。 如需分節符號的詳細資訊，請參閱[新增分節符號至自訂表單](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-section-break-to-a-custom-form.md)。
+>* 我們初次發行預覽功能時，已暫時停用複製多物件自訂表單的功能。 此功能已於3月24日啟用。
+>* 在計算自訂欄位中，您參考的某些欄位可能與為表單設定的物件型別不相容。 我們的解決方案是萬用字元，允許計算根據表單附加到的物件輸出不同的值。 我們在3月24日新增了萬用字元。
+>* 針對自訂表單中的分割槽符號，我們已建立一組通用檢視和編輯許可權，這些許可權適用於您可以為表單設定的所有物件型別。 在其中一個案例中，我們發現其中一個「有限編輯」許可權可能會造成表單錯誤。 此問題已在3月24日修正。
 >
 
 ## 藍圖目錄可供所有使用者使用，管理員可以允許請求
@@ -60,7 +58,6 @@ in January 2022
 >
 >在新的Adobe Workfront體驗區域（尚未現代化，例如當您大量編輯專案時顯示的方塊）中，不顯示自訂表單影像。 這些區域會在我們持續更新時顯示。
 
-如需詳細資訊，請參閱[在自訂表單中新增或編輯資產Widget](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md)。
 
 ## 新的預設存取層級設定
 

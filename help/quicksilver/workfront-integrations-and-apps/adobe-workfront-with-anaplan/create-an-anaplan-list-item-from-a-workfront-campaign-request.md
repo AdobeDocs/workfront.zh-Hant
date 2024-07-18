@@ -6,9 +6,9 @@ description: 此整合案例連結具有 [!DNL Anaplan] 預算清單專案的 [!
 author: Becky
 feature: Workfront Integrations and Apps, Workfront Fusion
 exl-id: daf6a18d-a3df-497d-a612-8a4645b1a8c9
-source-git-commit: 4ab731b14dc5435386fd0d887501788fa37223a2
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
-source-wordcount: '731'
+source-wordcount: '732'
 ht-degree: 1%
 
 ---
@@ -112,7 +112,7 @@ ht-degree: 1%
    </tbody> 
   </table>
 
-  如需建立自訂表單的相關資訊，請參閱[建立或編輯自訂表單](../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)
+  如需建立自訂表單的相關資訊，請參閱[使用表單設計工具設計表單](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。
 
 * 設定為要求佇列的專案，用來擷取新的行銷活動要求。 [!UICONTROL 行銷活動簡報]表單必須附加至這些要求。
 

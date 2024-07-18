@@ -6,9 +6,9 @@ description: 在Adobe Workfront中將問題轉換為專案
 author: Alina
 feature: Work Management
 exl-id: e3ba15a3-6169-466c-9912-32a8afdcc68d
-source-git-commit: 8769637342ab65f1e627107f7bfb41f9a3f61cca
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
-source-wordcount: '1980'
+source-wordcount: '1957'
 ht-degree: 1%
 
 ---
@@ -129,7 +129,7 @@ ht-degree: 1%
      >[!TIP]
      >
      >* 如果附加到問題的多物件自訂表單已設定為同時用於問題和專案，則當您進行轉換時，如果問題和專案的自訂表單上同時存在欄位，則保留表單中儲存的所有資訊。
-     >* 如果將具有計算欄位的多物件自訂表單附加到問題和專案，問題和專案必須與表單的計算自訂欄位中參照的所有欄位相容。 如果發生不相容的情況，訊息會警告您進行調整。 如需詳細資訊，請參閱[使用舊版表單產生器將計算資料新增至自訂表單](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md)中的「多物件自訂表單中的計算自訂欄位」一節。
+     >* 如果將具有計算欄位的多物件自訂表單附加到問題和專案，問題和專案必須與表單的計算自訂欄位中參照的所有欄位相容。 如果發生不相容的情況，訊息會警告您進行調整。 如需詳細資訊，請參閱[將計算欄位新增至表單](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md)中的「多物件自訂表單中的計算自訂欄位」一節。
 
 1. 按一下「[!UICONTROL **轉換成專案**]」。
 
@@ -237,7 +237,7 @@ ht-degree: 1%
         >[!TIP]
         >
         >* 如果附加到問題的多物件自訂表單已設定為同時用於問題和專案，則當您進行轉換時，如果問題和專案的自訂表單上同時存在欄位，則保留表單中儲存的所有資訊。
-        >* 如果將具有計算欄位的多物件自訂表單附加到問題和專案，問題和專案必須與表單的計算自訂欄位中參照的所有欄位相容。 如果發生不相容的情況，訊息會警告您進行調整。 如需詳細資訊，請參閱[使用舊版表單產生器將計算資料新增至自訂表單](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md)中的「多物件自訂表單中的計算自訂欄位」一節。
+        >* 如果將具有計算欄位的多物件自訂表單附加到問題和專案，問題和專案必須與表單的計算自訂欄位中參照的所有欄位相容。 如果發生不相容的情況，訊息會警告您進行調整。 如需詳細資訊，請參閱[將計算欄位新增至表單](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md)。
         >* 如果附加到範本的自訂表單包含自訂欄位，也在附加到問題的自訂表單中找到，則問題的欄位值將用於新專案。 但是，如果問題的自訂欄位為空白，則會使用範本的值。
 
 1. （選擇性）視需要設定任何其他專案詳細資訊&#x200B;（專案所有者、專案日期）和任務。

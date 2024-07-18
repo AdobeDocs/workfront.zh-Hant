@@ -6,20 +6,14 @@ description: 將使用者或角色指派給任務時，會為其分配特定時�
 author: Alina
 feature: Work Management
 exl-id: 2c0cd6ef-8719-4680-aa63-5e229de0f819
-source-git-commit: 0d525df9beacc989ec3c1c695a7757dff0ad77b3
+source-git-commit: dd015fc356f65cc3d00a1c88ca0a8f2268283606
 workflow-type: tm+mt
-source-wordcount: '655'
+source-wordcount: '582'
 ht-degree: 0%
 
 ---
 
 # 管理任務的使用者和角色分配時數
-
-<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它只能在「預覽」環境中供所有客戶使用，或在「生產」環境中供啟用快速發行的客戶使用。</span>
-
-<span class="preview">如需快速發行資訊，請參閱[為您的組織啟用或停用快速發行](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
-
-<span class="preview">如需目前版本的相關資訊，請參閱[2024年第三季版本總覽](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md)。</span>
 
 將使用者或角色指派給任務時，會為其分配特定時數的工作以完成任務。 當任務「期間型別」為「簡單」時，您可以手動修改指派給任務的每個使用者或工作角色的時數。
 
@@ -82,10 +76,6 @@ ht-degree: 0%
 1. 確定任務的&#x200B;**期間型別**&#x200B;是&#x200B;**簡單**。
 1. 修改每個任務受指派人的&#x200B;**配置**。 這些是整個任務期間此任務的每個工作分派的整體配置。 這也可能更新任務的整體計畫時數。
 
-   生產環境中的影像範例：
-   ![](assets/advanced-assignments-simple-duration-multiple-resources-nwe-350x198.png)
-
-   <span class="preview">預覽環境中的範例影像：</span>
    ![修改配置](assets/advanced-assignments-duration-type-allocations.png)
 
 1. 按一下「**儲存**」。

@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: c22a7ced-da81-40b5-bb4d-69d59b855add
-source-git-commit: 35de4535970d5cd15fcd68f79bf849803f94a77e
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
-source-wordcount: '566'
+source-wordcount: '552'
 ht-degree: 0%
 
 ---
@@ -75,8 +75,7 @@ ht-degree: 0%
 
    1. 新增自訂欄位至您要從原始自訂表單中移除的新表單。
 
-      * 如果您使用自訂表單產生器，請參閱[在自訂表單中重複使用自訂欄位或Widget](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/reuse-an-existing-field.md)。
-      * 如果您使用表單設計工具，請參閱[新增或現有的欄位至您的自訂表單](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md#add-new-or-existing-fields-to-your-custom-form)。
+      如需詳細資訊，請參閱[使用表單設計工具](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)設計表單中[新增或現有欄位至自訂表單](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md#add-new-or-existing-fields-to-your-custom-form)一節。
 
    1. 儲存新的自訂表格。
 

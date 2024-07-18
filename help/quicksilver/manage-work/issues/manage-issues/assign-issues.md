@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management
 role: User
 exl-id: e2dce29e-7370-4580-8326-99c4437998bf
-source-git-commit: 02a47566acd0fff151656fe2c5b59a6679748b15
+source-git-commit: dd015fc356f65cc3d00a1c88ca0a8f2268283606
 workflow-type: tm+mt
-source-wordcount: '1553'
+source-wordcount: '1468'
 ht-degree: 0%
 
 ---
@@ -17,12 +17,6 @@ ht-degree: 0%
 # 指派問題
 
 <!--keep the rate card job role information always in yellow till it releases to production - check with Lisa - this might not apply to issues?! -->
-
-<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它只能在「預覽」環境中供所有客戶使用，或在「生產」環境中供啟用快速發行的客戶使用。</span>
-
-<span class="preview">如需快速發行資訊，請參閱[為您的組織啟用或停用快速發行](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
-
-<span class="preview">如需目前版本的相關資訊，請參閱[2024年第三季版本總覽](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md)。</span>
 
 您可以將問題指派給使用者、角色和團隊，以指出誰負責完成問題。 如需指派問題的一般資訊，請參閱[修改問題指派的概觀](../../../manage-work/issues/manage-issues/modify-issue-assignments-overview.md)。
 
@@ -126,11 +120,7 @@ ht-degree: 0%
 
    * 開始輸入您要指派的使用者、角色或團隊名稱，然後當名稱出現在清單中時按一下它。
 
-     生產環境中的影像範例：
-     ![](assets/nwe-assignments-expanded-in-task-header-350x259.png)
-
-     <span class="preview">預覽環境中的範例影像：</span>
-     <span class="preview">![工作分派搜尋](assets/smart-assignments-issue-header.png)</span>
+     ![工作分派搜尋](assets/smart-assignments-issue-header.png)
 
    * （視條件而定）按一下可用清單中的名稱、角色或專案團隊之一
    * 按一下&#x200B;**指派給我**&#x200B;以指派給您自己
@@ -177,10 +167,6 @@ ht-degree: 0%
 
    * 按一下&#x200B;**指派**&#x200B;欄位並開始輸入您想要指派給問題的作用中使用者、工作角色或作用中團隊的名稱，然後當它顯示在清單中時按一下它。
 
-     生產環境中的影像範例：
-     ![](assets/assignments-field-task-list-nwe.png)
-
-     <span class="preview">預覽環境中的範例影像：</span>
      ![指派欄位](assets/assignments-field-task-list-0424.png)
 
    >[!TIP]

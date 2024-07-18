@@ -6,9 +6,9 @@ description: 如果在提交問題後必須完成更多工作，您可以將問�
 author: Alina
 feature: Work Management
 exl-id: 9d8e50ab-9fed-4ded-83e1-29dc92c37171
-source-git-commit: 44f01128ef4e6581dc8eaca318a999f2e7274f2a
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
-source-wordcount: '1058'
+source-wordcount: '1041'
 ht-degree: 0%
 
 ---
@@ -109,7 +109,7 @@ ht-degree: 0%
    >[!TIP]
    >
    >* 如果附加到問題的多物件自訂表單已設定為同時用於問題和任務，則當您進行轉換時，如果問題和任務的自訂表單上同時存在欄位，則保留表單中儲存的所有資訊。
-   >* 如果將具有計算欄位的多物件自訂表單附加到問題和任務，問題和任務必須與表單的計算自訂欄位中參照的所有欄位相容。 如果發生不相容的情況，訊息會警告您進行調整。 如需詳細資訊，請參閱[使用舊版表單產生器將計算資料新增至自訂表單](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md)中的「多物件自訂表單中的計算自訂欄位」一節。
+   >* 如果將具有計算欄位的多物件自訂表單附加到問題和任務，問題和任務必須與表單的計算自訂欄位中參照的所有欄位相容。 如果發生不相容的情況，訊息會警告您進行調整。 如需詳細資訊，請參閱[將計算欄位新增至表單](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md)。
    >* 如果目標專案在編輯專案時有任何在任務預設自訂Forms欄位中定義的預設表單，這些任務表單也會新增到新任務中。 原始問題和預設任務表單上的欄位之間的任何共同自訂欄位都會預先填入問題欄位的資訊。
 
 

@@ -1,5 +1,5 @@
 ---
-title: 使用表單Designer組織和預覽表單
+title: 組織和預覽表單
 user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
@@ -8,14 +8,14 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 08de894a-82f0-4440-a350-680d6648f01e
-source-git-commit: 28961cda48ce4eec84ed272e660be6ba938be370
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
-source-wordcount: '1285'
+source-wordcount: '1277'
 ht-degree: 0%
 
 ---
 
-# 使用表單設計工具來組織和預覽表單
+# 組織和預覽表單
 
 您可以使用表單設計工具來組織自訂表單，並預覽以確認其設定正確。
 
@@ -79,10 +79,6 @@ ht-degree: 0%
       <td role="rowheader">說明</td> 
       <td>如果要向使用者說明此區段的用途，請鍵入文字。 這會顯示在自訂表單上區段的標籤下方。</td> 
      </tr> 
-     <!--<tr> 
-      <td role="rowheader">Add Logic</td> 
-      <td>Use display logic to specify whether the section should display on the form, based on selections users make in multi-choice custom fields when they fill out the form. For more information, see <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/display-or-skip-logic-custom-form.md" class="MCXref xref">Add display logic and skip logic to a custom form</a>.</td> 
-     </tr> -->
      <tr> 
       <td role="rowheader"> <p>授予存取權</p> </td> 
       <td> <p> 選取使用者在已附加自訂表單的物件上所需的許可權，以便檢視此區段並編輯其欄位值。 
@@ -149,19 +145,10 @@ ht-degree: 0%
 
 1. 若要將自訂欄位和Widget放置在同一列，請將其中一個拖曳到另一個旁邊，直到它們之間出現線條為止。
 
-<!--
-Courtney, this is a story that got postponed after I did the work. Slated for some time in 22.4 (https://hub.workfront.adobe.com/task/6220d425000140d7f7d3ea68cc9529c8/documents)
-   You can drag multiple items. Press the following keys while you select the items, then drag the items together to the new row:
-   * Mac: Command+Shift [Courtney, double-check these commands]
-   * Windows: Ctrl+Shift
-
-   When you drop the custom field or widget, a gray box displays around the two items to indicate that they share a row.
--->
-
->[!NOTE]
->
->* 您可以使用右上角的&#x200B;**預覽**&#x200B;按鈕，瞭解自訂欄位和Widget在表單中的顯示方式。
->* 自訂欄位和Widget不一定會在表單中以相同的方式顯示，取決於使用者檢視時可用的熒幕空間。 例如，如果水準間距受限，欄位列中的第三個欄位可能會換成下一列欄位。
+   >[!NOTE]
+   >
+   >* 您可以使用右上角的&#x200B;**預覽**&#x200B;按鈕，瞭解自訂欄位和Widget在表單中的顯示方式。
+   >* 自訂欄位和Widget不一定會在表單中以相同的方式顯示，取決於使用者檢視時可用的熒幕空間。 例如，如果水準間距受限，欄位列中的第三個欄位可能會換成下一列欄位。
 
 1. （可選）若要將自訂欄位或Widget置於另一個欄位之上或之下，請將其拖曳至另一個欄位之上或之下，直到專案之間出現水準藍色線為止。
 

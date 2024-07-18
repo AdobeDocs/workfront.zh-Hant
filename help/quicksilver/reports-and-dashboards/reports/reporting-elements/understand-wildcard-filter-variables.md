@@ -7,9 +7,9 @@ description: 若在篩選中使用萬用字元，您可以參照一般使用者�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: f99cd99e-c4c1-471d-8428-c680f0e73336
-source-git-commit: d6094d944b7955db8a97b5e1ce0af8cb85f82a9e
+source-git-commit: 0876d4d47aad701d5ffadc88868217ebae7e4790
 workflow-type: tm+mt
-source-wordcount: '1466'
+source-wordcount: '1440'
 ht-degree: 1%
 
 ---
@@ -222,7 +222,6 @@ ht-degree: 1%
      <p>$$OBJCODE變數是指物件的型別。 </p> 
      <p>在自訂表單中，當表單的選定物件型別與計算自訂欄位中參照的欄位不相容時，您可以使用此萬用字元來避免為這些物件型別建立重複表單的因應措施。</p> 
      <p>在計算自訂欄位中，做法是在IF運算式中加入萬用字元，讓計算可以為表單的每個物件型別輸出不同的值。 </p> 
-     <p>如需詳細資訊和範例，請參閱文章<a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md" class="MCXref xref">將計算資料新增至自訂表單</a>中的<a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md#calculat" class="MCXref xref">多物件自訂表單中的計算自訂欄位</a>一節。</p> 
     </div> </td> 
   </tr> 
  </tbody> 

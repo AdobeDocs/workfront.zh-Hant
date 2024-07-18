@@ -6,9 +6,9 @@ description: 行事曆報告是一種動態報告，可提供工作的視覺化�
 author: Lisa
 feature: Reports and Dashboards
 exl-id: 40cc8628-7641-41ce-b8e5-7f5ed5ad36c7
-source-git-commit: 880e82546ac0ca80be60f03db31b99ad1778c35a
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
-source-wordcount: '699'
+source-wordcount: '695'
 ht-degree: 1%
 
 ---
@@ -54,7 +54,7 @@ ht-degree: 1%
 
 ## 先決條件
 
-1. [!DNL Workfront]執行個體中必須有自訂日期欄位和可用欄位中的值。 如果您沒有設定自訂日期的自訂表單，請依照[建立或編輯自訂表單](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)的前兩個區段中的指示操作。
+1. [!DNL Workfront]執行個體中必須有自訂日期欄位和可用欄位中的值。 如果您沒有設定自訂日期的自訂表單，請依照[使用表單設計工具](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)設計表單中的指示操作。
 1. 將自訂表單附加至您計畫新增至行事曆的專案、任務或問題，並指定日期。 如需詳細資訊，請參閱[新增自訂表單至物件](../../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md)。
 
 ## 設定專案群組
