@@ -7,9 +7,9 @@ description: 在管理任務和問題指派時，您可以使用智慧指派來�
 author: Alina
 feature: Work Management
 exl-id: 8d17eff6-5ff0-4985-b575-4934a3bb7c0b
-source-git-commit: 02a47566acd0fff151656fe2c5b59a6679748b15
+source-git-commit: 070b0525f0cb2880d3c7daf88777ba48968ce759
 workflow-type: tm+mt
-source-wordcount: '1287'
+source-wordcount: '1269'
 ht-degree: 0%
 
 ---
@@ -49,13 +49,13 @@ ht-degree: 0%
 
   ![](assets/smart-assignments-issue-list.png)
 
-* <span class="preview">「工作總攬」欄</span>中的任務清單或報告
+* 「工作總攬」欄中的任務清單或報告
 
-  <span class="preview">![](assets/smart-assignments-task-list.png)</span>
+  ![](assets/smart-assignments-task-list.png)
 
-* <span class="preview">工作分派欄位中的任務標題</span>
+* 工作列位中的任務標題
 
-  <span class="preview">![](assets/smart-assignments-task-header-nwe-350x302.png)</span>
+  ![](assets/smart-assignments-task-header-nwe-350x302.png)
 
 * 工作列位中的問題標題
 
@@ -63,24 +63,24 @@ ht-degree: 0%
 
 * 任務或問題任務區域中的摘要面板
 
-  ![](assets/smart-assignments-summary-panel-nwe-350x332.png)
+  ![](assets/issue-assignments-summary-panel.png)
 
-* <span class="preview">將任務新增至專案時，[新增任務]方塊中的[工作總攬]欄位</span>
+* 將任務新增至專案時，在「新增任務」方塊中的「工作總攬」欄位
 
-  <span class="preview">![](assets/smart-assignments-new-task-modal.png)</span>
+  ![](assets/smart-assignments-new-task-modal.png)
 
-* 當您開啟任務或問題時，針對「首頁」區域中列出的專案，顯示「工作總攬」欄位
+<!--this is not possible in the new home  - we have Summary there: 
+* The Assignments field for an item listed in the Home area, when you open a task or issue
 
-  <span class="preview">![](assets/smart-assignments-in-home-nwe-350x216.png)</span>
+  ![](assets/smart-assignments-in-home-nwe-350x216.png)
+-->
 
 * 當您指派任務或問題時，在「指派此給」區域的工作負載平衡器
 
-  <span class="preview">![](assets/smart-assignments-workload-balancer-bulk-assignments.png)</span>
+  ![](assets/smart-assignments-workload-balancer-bulk-assignments.png)
 
 
 ## 智慧指派條件
-
-<div class="preview">
 
 智慧型指派對任務的運作方式與對問題的運作方式不同。
 
@@ -134,17 +134,16 @@ ht-degree: 0%
 
 如需詳細資訊，請參閱本文章的[任務和問題的智慧指派條件](#smart-assignments-criteria-for-tasks-and-issues)一節。
 
-此階段中識別的指派列在指派欄位的&#x200B;**使用者和團隊**、**工作角色指派**&#x200B;和&#x200B;**評等卡片角色**&#x200B;區段中。 如需費率卡的詳細資訊，請參閱[管理費率卡](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md)。<!--keep the rate cards roles in yellow after the release of assignments to Prod-->
+此階段中識別的指派列在指派欄位的&#x200B;**使用者和團隊**、**工作角色指派**&#x200B;和&#x200B;<span class="preview">**評等卡片角色**</span>&#x200B;區段中。 <span class="preview">如需費率卡的詳細資訊，請參閱[管理費率卡](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md)</span>。<!--keep the rate cards roles in yellow after the release of assignments to Prod-->
 
 ### 任務和問題的智慧指派條件
 
-</div>
 
 >[!NOTE]
 >
-><span class="preview">只有當任務智慧指派計算的第一階段找不到任何相符專案時，下列條件才適用於任務。 如需相關資訊，請參閱本文中[工作](#first-phase-of-smart-assignment-calculation-for-tasks)智慧型指派計算的第一階段一節。 依預設，下列條件一律適用於問題。</span>
+>只有當任務智慧指派計算的第一個階段找不到任何相符專案時，以下條件才適用於任務。 如需相關資訊，請參閱本文中[工作](#first-phase-of-smart-assignment-calculation-for-tasks)智慧型指派計算的第一階段一節。 依預設，下列條件一律適用於問題。
 
-<span class="preview">![](assets/smart-assignments-issue-header.png)</span>
+![](assets/smart-assignments-issue-header.png)
 
 根據以下條件的組合，建議在智慧指派下拉式清單中使用者（按照從最重要到最不重要的順序列出）：
 

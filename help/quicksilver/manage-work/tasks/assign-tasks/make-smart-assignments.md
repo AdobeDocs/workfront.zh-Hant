@@ -6,14 +6,16 @@ description: 您可以使用智慧指派來識別最佳使用者是何人來完�
 author: Alina
 feature: Work Management
 exl-id: 073a3234-3156-4b4f-a3e1-dbb32d61068a
-source-git-commit: 02a47566acd0fff151656fe2c5b59a6679748b15
+source-git-commit: 070b0525f0cb2880d3c7daf88777ba48968ce759
 workflow-type: tm+mt
-source-wordcount: '620'
+source-wordcount: '547'
 ht-degree: 0%
 
 ---
 
 # 進行智慧型指派
+
+<!--Audited: 07/2024-->
 
 <!--keep the yellow around the Rate card job roles and the Preview intro for those-->
 
@@ -27,13 +29,13 @@ ht-degree: 0%
 
 智慧型指派是Adobe Workfront將工作專案指派給資源時，為您呈現的使用者、角色或團隊建議。 Workfront的建議以演演算法為基礎，而演演算法會決定最適合這項工作的資源。
 
-<span class="preview">Workfront中有兩種不同的演演算法，可計算對任務和問題有不同運作的智慧指派。</span>
+Workfront中有兩種不同的演演算法，可計算對任務和問題有不同處理方式的智慧型指派。
 
 如需有關決定智慧指派所使用的條件的詳細資訊，請參閱[智慧指派總覽](../../../manage-work/tasks/assign-tasks/smart-assignments.md)。
 
 ## 存取需求
 
-您必須具有下列存取權才能執行本文中的步驟：
++++ 展開以檢視本文中功能的存取需求。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -60,7 +62,9 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-*若要瞭解您擁有的計畫、授權型別或存取權，請聯絡您的Workfront管理員。 如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+*如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
++++
 
 ## 進行智慧型指派
 
@@ -71,35 +75,25 @@ ht-degree: 0%
    * 任務、問題清單或報告
    * 任務或問題標題
    * 任務或問題摘要面板
-   * <span class="preview">當您新增任務或問題至專案時</span>新任務或新問題方塊
+   * 新增任務或問題至專案時，顯示新任務或新問題方塊
    * 「首頁」區域中列出之專案的「工作總攬」欄位
    * 工作負載平衡器中的任務或問題
 
 1. 將游標置於「工作總攬」欄位中，並等候兩秒。
 
-   <div class="preview">
-   下列一或多個含有智慧指派建議的區段隨即顯示：
+   對於問題，智慧指派會顯示在下列區段中：
 
-   * **建議的指派**：顯示任務。<!--remove the note when we go to production with smarter assignments-->
+   * **使用者和團隊**
+   * **職位角色**
 
-     >[!TIP]
-     >
-     >   清單標題顯示&#x200B;**這裡是一些建議**，而不是生產環境中的&#x200B;**建議的指派**。
-     >
-   * **使用者和團隊**：顯示任務和問題。
-   * **工作角色**：顯示任務和問題。
-   * **評等卡片工作角色**：顯示工作。 如需詳細資訊，請參閱[管理費率卡](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md)。<!--check later with Lisa to see if this also came to issues?! - and always keep this in yellow-->
-   </div>
-
-   <span class="preview">![](assets/smart-assignments-task-header-nwe-350x302.png)</span>
-
+   ![](assets/smart-assignments-issue-header.png)
 
    對於任務，智慧型指派會根據演演算法計算識別指派的階段，顯示在下列區段中：
 
-   * **建議的指派**：在任務智慧指派演演算法計算的第一個階段中識別的指派。 <span class="preview">此節不適用於問題。</span>
-   * <span class="preview">**使用者和團隊**、**工作角色**，或&#x200B;**評等卡片工作角色**：在任務智慧指派演演算法計算的第二階段中識別的指派。<!--no longer valid: This section is not available for issues. --></span> <!--replace this with the new UI: "Other assignments"-->
+   * **建議的指派**：顯示任務智慧指派演演算法第一個階段中識別的指派。
+   * **使用者和團隊**、**工作角色**，或&#x200B;<span class="preview">**評等卡片工作角色**</span>：在任務智慧指派演演算法計算的第二階段中識別的指派。
 
-   <span class="preview">![](assets/smart-assignments-task-list.png)</span>
+   ![](assets/smart-assignments-task-list.png)
 
    如需詳細資訊，請參閱[智慧指派總覽](../../../manage-work/tasks/assign-tasks/smart-assignments.md)。
 

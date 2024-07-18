@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management, Tasks
 role: User
 exl-id: 611b136e-2c3f-4eac-9d75-e8c12e06148d
-source-git-commit: 49bd393af77a67aa1e3a443c4189569178e99ada
+source-git-commit: 070b0525f0cb2880d3c7daf88777ba48968ce759
 workflow-type: tm+mt
-source-wordcount: '1997'
+source-wordcount: '1985'
 ht-degree: 1%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 1%
 
 <!--Audited: 07/2024-->
 
-<!--remove the span class preview from everywhere but the Rate Card roles referencs must stay in yellow; replace the intro with preview and fast track only but not sure if with the link to third quarter release?!-->
+<!--remove the span class preview from everywhere but the Rate Card roles references must stay in yellow; replace the intro with preview and fast track only but not sure if with the link to third quarter release?!-->
 
 <span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它只能在「預覽」環境中供所有客戶使用，或在「生產」環境中供啟用快速發行的客戶使用。</span>
 
@@ -146,12 +146,8 @@ You cannot make a team be a Primary on a task/ issue. (Alina) -->
 
    或
 
-   如果任務或問題已指派，則按一下指派的名稱。
+   如果任務已經指派，請按一下指派的名稱。
 
-   在生產環境中：
-   ![](../assign-tasks/assets/advanced-assignments-link-from-task-header-nwe-350x267.png)
-
-   在預覽環境中： <span class="preview"></span>
    ![指派](assets/assignments-box-in-task-header.png)
 
 1. 執行下列其中一項：
@@ -168,7 +164,7 @@ You cannot make a team be a Primary on a task/ issue. (Alina) -->
      ><span class="preview">新增工作角色指派時，您可以搜尋工作角色或位置。 從「工作角色」清單中選取角色，以使用指定之預設收費率，或從費率卡選取要使用收費率的「費率卡」工作角色。 如需費率卡的詳細資訊，請參閱[管理費率卡](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md)。</span>
 
 
-   * （視條件而定）顯示時，按一下&#x200B;<span class="preview">**建議的指派**、**使用者和團隊**、**工作角色**&#x200B;或&#x200B;**評等卡片角色**</span>&#x200B;清單中的其中一個名稱。 如需詳細資訊，請參閱[智慧指派總覽](../../../manage-work/tasks/assign-tasks/smart-assignments.md)。
+   * （視條件而定）顯示時，按一下&#x200B;**建議的指派**、**使用者和團隊**、**工作角色**&#x200B;或&#x200B;<span class="preview">**評等卡片角色**</span>&#x200B;清單中的其中一個名稱。 如需詳細資訊，請參閱[智慧指派總覽](../../../manage-work/tasks/assign-tasks/smart-assignments.md)。
 
      您可以開始鍵入要指派給任務的任何使用者、團隊或工作角色的名稱，然後當它顯示在清單中時選取它。
 
@@ -215,7 +211,7 @@ You cannot make a team be a Primary on a task/ issue. (Alina) -->
      >
      >您必須在存取層級中啟用檢視聯絡資訊設定，使用者才能檢視使用者的電子郵件。 如需詳細資訊，請參閱[授予使用者存取權](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md)
      >
-     ><span class="preview">新增工作角色指派時，您可以搜尋工作角色或位置。 選取「系統/預設工作角色」以使用指定之預設收費率，或選取「費率卡工作角色」以使用費率卡的收費率。 如需費率卡的詳細資訊，請參閱[管理費率卡](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md)。</span>
+     ><span class="preview">新增工作角色指派時，您可以搜尋工作角色或位置。 選取工作角色，以使用指定之預設收費率，或選取費率卡工作角色，以使用費率卡中的收費率。 如需費率卡的詳細資訊，請參閱[管理費率卡](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md)。</span>
 
 
 1. （視條件而定）顯示在&#x200B;**工作總攬**&#x200B;欄位中時，按一下工作總攬方塊右上角的&#x200B;**人員**&#x200B;圖示以開啟&#x200B;**進階工作總攬**&#x200B;方塊並建立進階工作總攬。
