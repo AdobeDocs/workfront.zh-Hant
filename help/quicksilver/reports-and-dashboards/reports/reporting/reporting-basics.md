@@ -20,5 +20,5 @@ ht-degree: 0%
 本節包含下列文章：
 
 * [開始使用報告](../../../reports-and-dashboards/reports/reporting/get-started-reports-workfront.md)
-* [將預設報表另存為新報表](../../../reports-and-dashboards/reports/reporting/save-default-reports-new-reports.md)
+* [將預設報告儲存為新報告](../../../reports-and-dashboards/reports/reporting/save-default-reports-new-reports.md)
   <!--outdated: * [Basic Report Creation Program for the new Workfront experience](https://one.workfront.com/s/basic-report-creation-program)-->

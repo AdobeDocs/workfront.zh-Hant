@@ -33,19 +33,19 @@ ht-degree: 0%
 
   >[!INFO]
   >
-  > **範例：** 若要計算專案與任務產生的收入，您可以建立包含內建欄位「實際收入」的計算自訂欄位。 當有人將自訂表單附加到專案或任務時，專案或任務的收入會顯示在欄位中。
+  > **範例：**&#x200B;若要計算專案和工作產生的收入，您可以建立包含內建欄位「實際收入」的計算自訂欄位。 當有人將自訂表單附加到專案或任務時，專案或任務的收入會顯示在欄位中。
 
 * 參考一或多個欄位的運算式。 這些可以是自訂欄位、其他計算自訂欄位和內建欄位。
 
   >[!INFO]
   >
-  >**範例：** 若要計算專案與任務產生的利潤，您可以建立名為「利潤」的計算自訂欄位，其中包含從收入中減去成本的數學運算式。
+  >**範例：**&#x200B;若要計算專案和工作所產生的利潤，您可以建立名為Profit的計算自訂欄位，其中包含從收入中扣除成本的數學運算式。
   >
   >若要這麼做，您可以使用數學運算式SUB （減）搭配內建的Workfront欄位「實際成本」和「實際收入」。
   >
   >在下列步驟中，您可以看到如何執行此範例。
 
-如需為貴組織建立自訂表單的相關資訊，以及瞭解可與其建立關聯的欄位型別，請參閱 [建立或編輯自訂表單](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
+如需為貴組織建立自訂表格，以及瞭解可與其建立關聯的欄位型別的相關資訊，請參閱[建立或編輯自訂表格](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)。
 
 ## 存取需求
 
@@ -75,7 +75,7 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-*若要瞭解您擁有的計畫、授權型別或存取層級設定，請聯絡Workfront管理員。 如需存取需求的詳細資訊，請參閱 [Workfront檔案中的存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*若要瞭解您擁有的計畫、授權型別或存取層級設定，請聯絡Workfront管理員。 如需存取需求的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -88,9 +88,9 @@ ht-degree: 0%
 >
 >在建立計算自訂欄位之前，請先識別要納入的現有欄位，以確定Workfront中存在計算所需的資料。
 
-1. 開始建立或編輯自訂表單，如所述 [建立或編輯自訂表單](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
+1. 開始建立或編輯自訂表單，如[建立或編輯自訂表單](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)中所述。
 
-1. 在 **新增欄位** 標籤，按一下 **已計算**.
+1. 在&#x200B;**新增欄位**&#x200B;索引標籤上，按一下&#x200B;**已計算**。
 
    在右側的顯示區域中，欄位顯示填入值12345。 這是一個指示器，提醒您在建立或編輯自訂表單時，該欄位是一個計算的自訂欄位。 當表單附加至物件且使用者填寫時，他們會在欄位中看到計算結果，而不是12345值。
 
@@ -104,12 +104,12 @@ ht-degree: 0%
     <tbody> 
      <tr> 
       <td role="rowheader">標籤</td> 
-      <td>輸入欄位的標籤。 這是使用者使用自訂表單時看到的內容。 欄位 <b>名稱</b>，會自動填入並符合標籤，因此Workfront在報表中會參照。 這是必填欄位。</td> 
+      <td>輸入欄位的標籤。 這是使用者使用自訂表單時看到的內容。 Workfront在報表中參考了自動填入並符合標籤的欄位<b>Name</b>。 這是必填欄位。</td> 
      </tr>
 
    <tr> 
    <td role="rowheader">姓名</td> 
-   <td>依預設，欄位的「名稱」與「標籤」相同。 不過，您可以修改欄位的「名稱」，使其與欄位的「標籤」不同。 欄位 <b>名稱</b> 在報表中由Workfront參照。 這是必填欄位。</td> 
+   <td>依預設，欄位的「名稱」與「標籤」相同。 不過，您可以修改欄位的「名稱」，使其與欄位的「標籤」不同。 Workfront在報表中參考欄位<b>Name</b>。 這是必填欄位。</td> 
    </tr>
 
    <tr> 
@@ -123,40 +123,40 @@ ht-degree: 0%
       <li> <p>提醒您公式是什麼及其運作方式。 如果您打算在多個表單上使用此計算自訂欄位，這會特別實用。</p> </li> 
        <li> <p>當使用者將游標停留在欄位上時，即可看到工具提示。 您可以在此處新增任何您希望他們在工具提示中看到的文字。</p> </li> 
        </ul>
-       <p>如果您不希望使用者在工具提示中看到公式，這會讓他們感到困惑，請勿將其新增到指示欄位。 請改用「在指示中顯示公式」設定來顯示或隱藏公式，如本文進一步所述 <a href="#build-the-calculation-for-your-calculated-custom-field">為您的計算自訂欄位建立計算</a> 本文章內容。</p>
+       <p>如果您不希望使用者在工具提示中看到公式，這會讓他們感到困惑，請勿將其新增到指示欄位。 請改用[在指示中顯示公式]設定來顯示或隱藏公式，如本文中進一步說明的<a href="#build-the-calculation-for-your-calculated-custom-field">為本文中計算的自訂欄位</a>建立計算。</p>
 
-   <p>如需有關在新表單上使用相同計算自訂欄位的資訊，請參閱 <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/use-existing-calc-field-new-custom-form.md#using-an-existing-calculated-custom-field-on-a-new-form" class="MCXref xref">在自訂表單中重複使用現有的計算自訂欄位</a>.</p>
+   <p>如需有關在新表單上使用相同計算自訂欄位的資訊，請參閱<a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/use-existing-calc-field-new-custom-form.md#using-an-existing-calculated-custom-field-on-a-new-form" class="MCXref xref">在自訂表單中重複使用現有的計算自訂欄位</a>。</p>
 
    </td> 
      </tr> 
      <tr> 
       <td role="rowheader">格式</td> 
-      <td> <p>您希望儲存並顯示欄位結果的格式。</p> <p>如果您打算在數學計算中使用欄位，請一律使用 <strong>數字</strong> 或 <strong>貨幣</strong> 格式。 當您選取「數字」或「貨幣」時，系統會自動截斷以0開頭的數字。</p> 
+      <td> <p>您希望儲存並顯示欄位結果的格式。</p> <p>如果您打算在數學計算中使用欄位，請一律使用<strong>數字</strong>或<strong>貨幣</strong>格式。 當您選取「數字」或「貨幣」時，系統會自動截斷以0開頭的數字。</p> 
       <p><b>重要</b>： <p>在選擇格式之前，請考慮新欄位的正確格式。 儲存自訂表單後無法編輯格式欄位。 選擇錯誤的格式可能會影響未來的計算，以及報告和清單分組中的彙總值。</p>
-      <p><strong>注意：</strong> 使用貨幣格式的計算欄位不應包含引號。 （例如，使用800.00而非「800.00」。） 使用引號可能會由於貨幣型別的語言格式細微差別而造成非預期的後果。</p></td> 
+      <p><strong>注意：</strong>使用貨幣格式的計算欄位不應該包含引號。 （例如，使用800.00而非「800.00」。） 使用引號可能會由於貨幣型別的語言格式細微差別而造成非預期的後果。</p></td> 
      </tr> 
     </tbody> 
    </table>
 
-1. 如區段所述，繼續更新自訂欄位資訊 [為您的計算自訂欄位建立計算](#build-the-calculation-for-your-calculated-custom-field) 本文章內容。
+1. 繼續更新自訂欄位資訊，如本文中[為您計算的自訂欄位建立計算](#build-the-calculation-for-your-calculated-custom-field)一節中所述。
 
 ## 為您的計算自訂欄位建立計算 {#build-the-calculation-for-your-calculated-custom-field}
 
-1. 開始建立計算自訂欄位，如區段中所述 [新增計算欄位至自訂表單](#add-a-calculated-field-to-a-custom-form) 本文章內容。
+1. 開始建立計算自訂欄位，如本文中[新增計算欄位至自訂表單](#add-a-calculated-field-to-a-custom-form)一節所述。
 
-1. 按一下 **最大化** 以開啟 **計算編輯器** 並建置您的計算。
+1. 按一下&#x200B;**最大化**&#x200B;以開啟&#x200B;**計算編輯器**&#x200B;並建置您的計算。
 
    >[!INFO]
    >
-   >**範例：** 使用本文簡介中的範例，您可以為專案和任務在自訂表單中建立名為「利潤」的計算自訂欄位。 此欄位可能包含顯示「實際收入」與「實際成本」之間差異的計算：
+   >**範例：**&#x200B;使用本文簡介中的範例，您可以在自訂表單中為專案和工作建立名為「利潤」的計算自訂欄位。 此欄位可能包含顯示「實際收入」與「實際成本」之間差異的計算：
    >
    >`SUB({actualRevenue},{actualCost})`
    >
-   >在此範例中， `SUB` 是運算式，而參考欄位為 `actualRevenue` 和 `actualCost`.
+   >在此範例中，`SUB`是運算式，參考欄位是`actualRevenue`和`actualCost`。
 
-   計算通常以運算式開始，後面接著括弧，其中包含當自訂表單附加至物件時要參考的欄位。 如需可用運算式的詳細資訊，請參閱 [計算資料運算式的概觀](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
+   計算通常以運算式開始，後面接著括弧，其中包含當自訂表單附加至物件時要參考的欄位。 如需有關可用運算式的資訊，請參閱[計算資料運算式概觀](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md)。
 
-   每個欄位都必須以大括弧括住，如區段中所述 [計算自訂欄位中所需的語法](#syntax-required-in-calculated-custom-fields) 本文章內容。 當您開始輸入欄位名稱時，系統會提供建議，您可以選取一個來將其插入計算。
+   每個欄位都必須以大括弧括住，如本文中計算自訂欄位](#syntax-required-in-calculated-custom-fields)所需的[語法一節所述。 當您開始輸入欄位名稱時，系統會提供建議，您可以選取一個來將其插入計算。
 
    >[!NOTE]
    >
@@ -165,9 +165,9 @@ ht-degree: 0%
    >   * 含格式的文字欄位
    >   * 說明文字。
    >   
-   >   如需自訂欄位型別的相關資訊，請參閱 [新增自訂欄位至自訂表單](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md).
+   >   如需自訂欄位型別的相關資訊，請參閱[新增自訂欄位至自訂表單](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md)。
 
-1. 按一下「計算編輯器」方塊中的大型文字方塊，然後按一下「搜尋」或「展開」，再按一下 **運算式** 和 **欄位** 文字方塊右側的區段。 這會將它們新增至計算中。
+1. 在「計算編輯器」方塊中按一下大型文字方塊，然後按一下搜尋或展開，再按一下文字方塊右側&#x200B;**運算式**&#x200B;和&#x200B;**欄位**&#x200B;區段中的選項。 這會將它們新增至計算中。
 
    您也可以開始在大型文字方塊中輸入運算式或欄位，然後在顯示時選取該運算式或欄位。 每個專案在欄位中顯示為「F」，在運算式中顯示為「E」。
 
@@ -177,18 +177,18 @@ ht-degree: 0%
    >
    >您可以執行下列任一項作業，以取得計算的協助：
    > 
-   >* 將滑鼠指標暫留在計算中的運算式上可檢視說明、示範其使用方式的範例，以及文章中其他資訊的「瞭解更多」連結 [計算資料運算式的概觀](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
+   >* 將滑鼠停留在計算中的運算式上可檢視說明、如何使用的範例，以及文章[計算資料運算式概觀](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md)中其他資訊的「瞭解更多」連結。
    >  ![](assets/hover-expression-help-text.jpg)
    >* 使用顏色編碼來識別您新增的元件。 運算式會以藍色顯示，而欄位則會以綠色顯示。
    >  ![](assets/colors-fields-expressions.jpg)
    >* 立即尋找以粉紅色反白顯示的計算錯誤。 您可以將滑鼠停留在醒目提示的錯誤上，以顯示其原因的簡短說明。
    >  ![](assets/error-help.png)
-   >* 在 **在現有物件上預覽** ，開始輸入Workfront物件的名稱，然後在其顯示在清單中時選取它。 這可讓您預覽將表單附加至物件時欄位的外觀。
+   >* 在計算下方現有物件&#x200B;**區域的**預覽中，開始輸入Workfront物件的名稱，並在物件顯示在清單中時選取它。 這可讓您預覽將表單附加至物件時欄位的外觀。
    ><!--or by providing test values (NOT READY YET; CHANGE THIS SCREENSHOT WHEN IT IS)-->
    >  ![](assets/preview-calc.jpg)
    >* 使用左邊顯示的行號在長計算中參考運算式。
 
-1. 按一下 **最小化** 當您完成計算自訂欄位的計算時。
+1. 當您完成計算自訂欄位的計算時，請按一下&#x200B;**最小化**。
 
    >[!NOTE]
    >
@@ -202,7 +202,7 @@ ht-degree: 0%
     <tbody> 
      <tr> 
       <td role="rowheader">新增邏輯</td> 
-      <td>您可以新增顯示邏輯，以根據使用者在填寫表單時於前置的多重選擇欄位（下拉式清單、核取方塊或選項按鈕）中進行的至少一個選擇，決定是否要顯示計算欄位。 如需詳細資訊，請參閱 <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/display-or-skip-logic-custom-form.md" class="MCXref xref">新增顯示邏輯和略過邏輯至自訂表單</a>. <p>唯有在表單的計算自訂欄位前面至少有一個核取方塊、選項按鈕或下拉欄位時，才能使用此選項。 </p> <p>略過邏輯不適用於已計算的自訂欄位。</p> </td> 
+      <td>您可以新增顯示邏輯，以根據使用者在填寫表單時於前置的多重選擇欄位（下拉式清單、核取方塊或選項按鈕）中進行的至少一個選擇，決定是否要顯示計算欄位。 如需詳細資訊，請參閱<a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/display-or-skip-logic-custom-form.md" class="MCXref xref">新增顯示邏輯並略過邏輯至自訂表單</a>。 <p>唯有在表單的計算自訂欄位前面至少有一個核取方塊、選項按鈕或下拉欄位時，才能使用此選項。 </p> <p>略過邏輯不適用於已計算的自訂欄位。</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">更新先前的計算</td> 
@@ -210,27 +210,27 @@ ht-degree: 0%
      </tr> 
      <tr> 
       <td role="rowheader">在指示中顯示公式</td> 
-      <td>如果您希望填寫自訂表單的使用者將游標停留在欄位上時檢視欄位公式，請將此選項保持啟用。 如需詳細資訊，請參閱以下資訊 <a href="#instructions" class="MCXref xref">指示</a> 此表格的舊版。</td> 
+      <td>如果您希望填寫自訂表單的使用者將游標停留在欄位上時檢視欄位公式，請將此選項保持啟用。 如需詳細資訊，請參閱此表格前面關於<a href="#instructions" class="MCXref xref">指示</a>的資訊。</td> 
      </tr> 
     </tbody> 
    </table>
 
-1. 按一下 **完成** 在計算自訂欄位上完成所有變更時。
+1. 完成計算自訂欄位的所有變更後，按一下&#x200B;**完成**。
 
-   或者，按一下 **套用** 如果您想要繼續將自訂欄位新增至表單，請到目前為止將變更套用至表單。
+   或者，如果您想要繼續新增自訂欄位至表單，請按一下[套用]****，將變更套用至表單。
 
-   或者，按一下 **儲存+關閉** 完成自訂表單上的所有變更時。
+   或者，當自訂表單上完成所有變更時，按一下&#x200B;**儲存+關閉**。
 1. 若要驗證您的計算自訂欄位是否正常運作，請將自訂表單附加至物件，然後在計算自訂欄位中檢閱結果。
 
-   有關附加自訂表單的說明，請參閱 [新增自訂表單至物件](../../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md).
+   如需附加自訂表單的指示，請參閱[將自訂表單新增至物件](../../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md)。
 
    如果您想以其他方式繼續建置自訂表單，您可以繼續檢視下列其中一篇文章：
 
    * [新增自訂欄位至自訂表單](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md)
-   * [在自訂表單中定位自訂欄位和Widget](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/position-fields-in-a-custom-form.md)
+   * [在自訂表單中放置自訂欄位和Widget](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/position-fields-in-a-custom-form.md)
    * [在自訂表單中新增或編輯資產Widget](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md)
    * [在自訂表單中重複使用現有的計算自訂欄位](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/use-existing-calc-field-new-custom-form.md)
-   * [新增顯示邏輯和略過邏輯至自訂表單](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/display-or-skip-logic-custom-form.md)
+   * [新增顯示邏輯並略過邏輯至自訂表單](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/display-or-skip-logic-custom-form.md)
    * [預覽並完成自訂表格](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/preview-and-complete-a-custom-form.md)
 
 ## 計算自訂欄位中所需的語法
@@ -249,15 +249,15 @@ ht-degree: 0%
 
 欄位名稱會區分大小寫，且必須以駝峰式大小寫格式顯示，如同它們在Workfront系統中顯示一樣。
 
-* 如果您希望計算參照自訂欄位，欄位名稱必須用大括弧括住，並在前面加上 `DE:` 括弧內。 自訂欄位區分大小寫，且必須如Workfront介面中所顯示的那樣格式化。
+* 如果您希望計算參照自訂欄位，欄位名稱必須用大括弧括住，並在括弧內以`DE:`括住。 自訂欄位區分大小寫，且必須如Workfront介面中所顯示的那樣格式化。
 
 例如： `{DE:Profit}`
 
-系統列出您在輸入時可以選擇的所有自訂欄位 `DE:`.
+系統列出您在輸入`DE:`時可以選擇的所有自訂欄位。
 
 * 如果您希望計算參照在自訂表單附加至物件時，會從父物件提取資料的欄位，則必須在欄位名稱前面加上父物件的物件型別，同樣位於大括弧中。
 
-  例如，如果自訂表單設定為與任務搭配使用，而您希望欄位在表單附加到任務時計算父級物件的實際收入，則您需要指示 `project` 做為欄位的物件型別：
+  例如，如果自訂表單設定為與任務搭配使用，而您想要欄位在表單附加至任務時計算父系物件的實際收入，則您需要將`project`表示為該欄位的物件型別：
 
   `{project}.{actualRevenue}`
 
@@ -265,7 +265,7 @@ ht-degree: 0%
 
   `{project}.{DE:profit}`
 
-  如果您不確定由於自訂表單是針對多個物件型別而設定了父物件的物件型別，則可以使用萬用字元篩選變數 `$$OBJCODE` 讓計算適用於每種可能的型別。 如需詳細資訊，請參閱 [多物件自訂表單中的已計算自訂欄位](#calculated-custom-fields-in-multi-object-custom-forms) 本文章內容。
+  如果您不確定父物件的物件型別會是什麼，因為自訂表單是針對多個物件型別所設定，您可以使用萬用字元篩選變數`$$OBJCODE`讓計算適用於每個可能的型別。 如需詳細資訊，請參閱本文中的[多物件自訂表單中的計算自訂欄位](#calculated-custom-fields-in-multi-object-custom-forms)。
 
 ### 使用句點分隔專案
 
@@ -292,7 +292,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->自動提示欄位的語法與其他型別的欄位不同，因為您需要新增 `:name` 在結尾處。
+>自動提示欄位的語法與其他型別的欄位不同，因為您需要在結尾新增`:name`。
 >
 >例如，若要參照在名為「高階主管支援人」的自訂預先輸入欄位中選取的選項，您可以輸入：
 >
@@ -315,17 +315,17 @@ ht-degree: 0%
 發生此情況時，您可以執行下列任一項作業：
 
 * 從自訂表單中移除兩個不相容的專案之一 — 物件型別或參照的計算自訂欄位。
-* 保留這兩個專案並使用萬用字元篩選器變數 `$$OBJCODE` 作為IF運算式中的條件，以建立兩個不同版本的In Charge欄位。 這允許欄位成功運作，無論表單附加到的物件型別為何。
+* 保留這兩個專案，並使用萬用字元篩選器變數`$$OBJCODE`作為IF運算式中的條件，以建立兩個不同版本的In Charge欄位。 這允許欄位成功運作，無論表單附加到的物件型別為何。
 
 >[!INFO]
 >
->**範例：** 雖然專案中沒有「指派至：名稱」欄位，但有一個內建的「擁有者」欄位（除非有人手動變更此欄位，否則會自動填入建立專案者的名稱）。
+>**範例：**&#x200B;雖然專案中沒有「指派至：名稱」欄位，但有一個內建的「擁有者」欄位（除非有人手動變更此欄位，否則會自動填入建立專案者的名稱）。
 >
->因此，在您的自訂負責欄位中，您可以使用 `$$OBJCODE` 如下所示，當自訂表單附加到專案時，這是參考「所有者」欄位，而當表單附加到任務時，這是參考「指派給：名稱」欄位：
+>因此，在自訂負責欄位中，當自訂表單附加到專案時，您可以使用如下所示`$$OBJCODE`來參考「所有者」欄位，而當表單附加到任務時，使用「指派至：名稱」欄位：
 >
 >`IF($$OBJCODE="PROJ",{owner}.{name},{assignedTo}.{name})`
 
-如需變數的詳細資訊，例如 `$$OBJCODE,` 另請參閱 [萬用字元篩選器變數概觀](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
+如需`$$OBJCODE,`等變數的詳細資訊，請參閱[萬用字元篩選變數概觀](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md)。
 
 ## 自動更新計算的自訂欄位
 

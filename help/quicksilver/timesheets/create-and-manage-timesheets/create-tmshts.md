@@ -1,38 +1,38 @@
 ---
 product-area: timesheets
 navigation-topic: create-and-manage-timesheets
-title: 建立單次使用的工時單
-description: 如果希望時間表不是循環的，可以手動建立單次使用的時間表。 當到達工時單的結束日期，並且需要更多工時單時，必須建立新工時單。
+title: 建立單次使用時程表
+description: 如果您想要非週期性時程表，可以手動建立單次使用的時程表。 達到時程表的結束日期而您需要更多時程表時，您必須建立新時程表。
 author: Alina
 feature: Timesheets
 exl-id: b293dd50-a9b8-448b-afc1-8c7c7c79183b
 source-git-commit: 210ca2e82286ff904bc7defb7b8c9c2559489d66
 workflow-type: tm+mt
 source-wordcount: '1090'
-ht-degree: 1%
+ht-degree: 0%
 
 ---
 
-# 建立單次使用的工時單
+# 建立單次使用時程表
 
-如果希望時間表不是循環的，可以手動建立單次使用的時間表。 當到達工時單的結束日期，並且需要更多工時單時，必須建立新工時單。
+如果您想要非週期性時程表，可以手動建立單次使用的時程表。 達到時程表的結束日期而您需要更多時程表時，您必須建立新時程表。
 
-有關建立工時單配置檔案以為用戶生成循環工時單而不需要您進一步干預（建議）的資訊，請參閱 [建立、編輯和分配工時單配置檔案](../../timesheets/create-and-manage-timesheets/create-timesheet-profiles.md).
+如需建立時程表設定檔的相關資訊，該設定檔可為您的使用者產生週期性時程表，而不需要您的任何進一步干預（建議），請參閱[建立、編輯和指派時程表設定檔](../../timesheets/create-and-manage-timesheets/create-timesheet-profiles.md)。
 
 >[!NOTE]
 >
->* 不能為組建立一次性工時單。
-
+>* 無法為群組建立單次使用的時程表。
 >  <!--
 >  <span>Making sure with Lilit that this is correct</span>>
 >  -->
->* 建立單次使用的工時單時，無法選擇要包含在工時單中的特定一般小時類型。 在系統中激活的所有常規小時類型都顯示在手動建立的工時表中。
+>* 建立一次性使用時程表時，您無法選取要納入時程表的特定一般時數型別。 在您系統中啟動的所有一般小時型別都會顯示在手動建立的時程表中。
 >
->  如果您只想選擇某些一般小時類型以在工時單中顯示，請使用工時單配置檔案。 有關時間表配置檔案的詳細資訊，請參閱 [建立、編輯和分配工時單配置檔案](../../timesheets/create-and-manage-timesheets/create-timesheet-profiles.md).
+>  如果您只想選擇某些一般小時型別顯示在您的時程表中，請使用時程表設定檔。 如需週期性時程表的詳細資訊，請參閱[建立、編輯和指派週期性時程表](../../timesheets/create-and-manage-timesheets/create-timesheet-profiles.md)。
+>
 
 ## 存取需求
 
-您必須具備下列條件才能執行本文所述步驟：
+您必須具備下列專案才能執行本文所述的步驟：
 
 <table style="table-layout:auto"> 
  <col> 
@@ -47,56 +47,56 @@ ht-degree: 1%
    <td> <p>計劃 </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">訪問級別配置*</td> 
-   <td> <p>必須具有對工時單的管理訪問權限。 </p> <p>如需詳細資訊，請參閱 <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">授予用戶對特定區域的管理訪問權限</a>.</p> <p><b> 附註</b>
+   <td role="rowheader">存取層級設定*</td> 
+   <td> <p>您必須擁有時程表的管理存取權。 </p> <p>如需詳細資訊，請參閱<a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">授予使用者對特定區域的管理存取權</a>。</p> <p><b> 附註</b>
 
-如果您仍無權存取，請洽詢您的Workfront管理員，他們是否在您的存取層級設定其他限制。 如需Workfront管理員如何修改您的存取層級的詳細資訊，請參閱 <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>.</p> </td>
+如果您還是沒有存取權，請詢問您的Workfront管理員，他們是否在您的存取層級中設定其他限制。 如需Workfront管理員如何修改存取層級的詳細資訊，請參閱<a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>。</p> </td>
 </tr> 
  </tbody> 
 </table>
 
-*若要了解您擁有的計畫、授權類型或存取權，請聯絡您的Workfront管理員。
+*若要瞭解您擁有的計畫、授權型別或存取權，請聯絡您的Workfront管理員。
 
-## 建立單次使用的工時單
+## 建立單次使用時程表
 
-1. 按一下 **主菜單** 圖示 ![](assets/main-menu-icon.png) 在Adobe Workfront的右上角。
+1. 按一下Adobe Workfront右上角的&#x200B;**主要功能表**&#x200B;圖示![](assets/main-menu-icon.png)。
 
-1. 按一下 **工時單**. 此 **全部** 依預設會選取篩選。 這將顯示您有權查看的所有工時單。
+1. 按一下&#x200B;**時程表**。 依預設會選取&#x200B;**全部**&#x200B;篩選器。 這會顯示您有權檢視的所有時間表。
 
    ![](assets/timesheet-list-one-timesheet-selected-nwe-350x70.png)
 
-1. （可選）執行下列操作之一以更新工時單清單中的篩選器：
+1. （選用）執行下列任一項作業，更新時程表清單中的篩選器：
 
-   * 選擇 **我的時間表批准** 位於頁面的右上角，僅查看您批准的工時單
+   * 選取頁面右上角的&#x200B;**我的時程表核准**，僅檢視您核准的時程表
 
-      或
+     或
 
-      選擇 **我的工時單** 僅查看工時單。
+     選取&#x200B;**我的時程表**&#x200B;以僅檢視您的時程表。
 
-      這會將「我的時間表批准」或「我的時間表」篩選器應用到時間表清單。
+     這會套用我的時程表核准或我的時程表篩選器到時程表清單。
 
-      ![](assets/my-timesheet-approvals-my-timesheets-pills-on-timesheets-list-nwe-350x58.png)
+     ![](assets/my-timesheet-approvals-my-timesheets-pills-on-timesheets-list-nwe-350x58.png)
 
-   * 按一下篩選圖示 ![](assets/filter-nwepng.png) 來套用不同的篩選，或建立新的篩選。 如需建立或更新篩選器的相關資訊，請參閱 [在Adobe Workfront中建立或編輯篩選器](../../reports-and-dashboards/reports/reporting-elements/create-filters.md).
+   * 按一下「篩選」圖示![](assets/filter-nwepng.png)以套用不同的篩選，或建立新的篩選。 如需建立或更新篩選的資訊，請參閱[在Adobe Workfront中建立或編輯篩選器](../../reports-and-dashboards/reports/reporting-elements/create-filters.md)。
+
    >[!NOTE]
    >
-   >如果您的Workfront管理員或組管理員從「設定」區域的「清單控制項」或「佈局模板」中刪除了「我的時間表批准」和「我的時間表」篩選器，則「我的時間表批准」和「我的時間表」選項不會顯示在時間表清單的頂部或篩選器清單中。 如需詳細資訊，請參閱下列文章：
+   >如果您的Workfront管理員或群組管理員從「設定」區域的「清單控制項」或您的「版面配置範本」中移除了「我的時程表核准」和「我的時程表」，則「我的時程表核准」和「我的時程表」選項不會顯示在時程表清單頂端或篩選器清單中。 如需詳細資訊，請參閱下列文章：
    > 
-   >   * [使用版面範本自訂篩選器、檢視和群組](../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)
+   >   * [使用配置範本自訂篩選器、檢視和群組](../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)
 
 
+1. （選擇性）按一下&#x200B;**搜尋**&#x200B;圖示![](assets/search-icon.png)以輸入關鍵字並搜尋特定時間表。 例如，您可以搜尋擁有者名稱的時程表時間範圍。
 
-1. （選用）按一下 **搜尋** 圖示 ![](assets/search-icon.png) 鍵入關鍵字並搜索特定時間表。 例如，您可以搜索所有者名稱的時間表時間範圍。
+1. （選擇性）按一下&#x200B;**檢視** ![](assets/view-icon.png)或&#x200B;**群組** ![](assets/grouping.png)圖示以套用不同的檢視或群組或建立新的檢視或群組。
 
-1. （選用）按一下 **檢視** ![](assets/view-icon.png) 或 **分組** ![](assets/grouping.png) 表徵圖，以應用不同的視圖或分組或建立新視圖。
-
-   如需建立篩選器、檢視或群組的相關資訊，請參閱下列文章：
+   如需有關建立篩選器、檢視或群組的資訊，請參閱下列文章：
 
    * [在Adobe Workfront中建立或編輯篩選器](../../reports-and-dashboards/reports/reporting-elements/create-filters.md)
    * [在Adobe Workfront中建立或編輯檢視](../../reports-and-dashboards/reports/reporting-elements/create-edit-views.md)
    * [在Adobe Workfront中建立群組](../../reports-and-dashboards/reports/reporting-elements/create-groupings.md)
 
-1. 按一下 **新時間表** 時間表清單的頂部。
+1. 按一下時程表清單頂端的&#x200B;**新時程表**。
 
    指定下列資訊：
 
@@ -105,43 +105,43 @@ ht-degree: 1%
       <col> 
       <tbody> 
       <tr> 
-      <td role="rowheader"><strong>建立以下項目的時程表：</strong> </td> 
-      <td>開始輸入用戶、作業角色或要為其建立時間表的團隊的名稱，然後在清單中顯示時按一下它們。</td> 
+      <td role="rowheader"><strong>建立</strong>的時程表 </td> 
+      <td>開始輸入您為其建立時程表的使用者名稱、工作角色或團隊，然後在清單中顯示時按一下這些專案。</td> 
       </tr> 
       <tr> 
-      <td role="rowheader"><strong>從開始日期安排</strong> </td> 
-      <td>這是時間表的開始日期。</td> 
+      <td role="rowheader"><strong>開始日期</strong> </td> 
+      <td>這是時程表的開始日期。</td> 
       </tr> 
       <tr> 
       <td role="rowheader"><strong>結束日期</strong> </td> 
-      <td> 這是工時單的結束日期。</td> 
+      <td> 這是時程表的結束日期。</td> 
       </tr> 
       <tr> 
       <td role="rowheader"><strong>核准者</strong> </td> 
-      <td>批准者是批准與時間表關聯的用戶的時間表的用戶。 只能將具有時間表管理權限的用戶設定為批准者。 有關時間表管理權限的詳細資訊，請參閱 <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">授予用戶對特定區域的管理訪問權限</a>.<br>開始輸入時間表批准者的名稱，並在清單中顯示時按一下它們。<br>時間表上可以有多個批准者。 在這種情況下，在某個批准者批准工時單後，工時單被標籤為 <strong>已關閉</strong> 它會從所有剩餘批准者的時間表批准清單中消失。</td> 
+      <td>核准者指核准與時程表相關聯之使用者之時程表的使用者。 只有具有時程表管理許可權的使用者才能設定為核准者。 如需時程表管理許可權的詳細資訊，請參閱<a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">授予使用者對特定區域的管理存取權</a>。<br>開始輸入時程表核准者的名稱，並在他們出現在清單中時按一下這些名稱。<br>您可在時程表上擁有多個核准者。 在這種情況下，在核准者核準時程表後，該時程表會被標籤為<strong>已關閉</strong>，並且會從所有剩餘核准者的時程表核准清單中消失。</td> 
       </tr> 
       <tr> 
-      <td role="rowheader"><strong>可編輯時間</strong> </td>
+      <td role="rowheader"><strong>可以編輯時間</strong> </td>
 
-   <td> <p>如果要允許批准者編輯工時單上的工時，請選擇此選項。</p>
+   <td> <p>如果您希望允許核准者編輯時程表上的小時，請選取此選項。</p>
 
-   此選項可與 **將時間表編輯限制給所有者和管理員** 在「設定」>「工時表和小時」>「首選項」區域中進行設定。 如需詳細資訊，請參閱 <a href="../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md">配置工時單和小時首選項</a>.
+   此選項可與「設定>時程表和時數>偏好設定」區域中的&#x200B;**限制所有者和管理員編輯時程表**&#x200B;設定搭配使用。 如需詳細資訊，請參閱<a href="../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md">設定時程表和小時喜好設定</a>。
 
    存在下列情況：
 
    <ul>
-      <li>當 <b>將時間表編輯限制給所有者和管理員</b> 選項：</li>
-   <ul><li>批准者只能批准和拒絕時間表，無論 <b>可編輯時間</b> 是否啟用。 </li>
-   <li>工時單所有者的經理只能查看其直接報表的工時單。</li></ul>
-   <li>當 <b>將時間表編輯限制給所有者和管理員</b> 選項已停用：</li>
-   <ul><li>當 <b>可編輯時間</b> 啟用後，批准者可以提交、重新開啟或關閉時間表，並可以編輯時間。</li>
-   <li>當 <b>可編輯時間</b> 禁用時，批准者無法提交、重新開啟或關閉時間表，也無法編輯時間。 批准者只能批准或拒絕工時單。 </li>
-   <li>工時單所有者的經理可以提交、重新調用、重新開啟和編輯其直接報告的工時單。</li></ul>
+      <li>啟用<b>限制所有者和管理員編輯時程表</b>選項時：</li>
+   <ul><li>核准者只能核准和拒絕時程表，無論<b>可以編輯時間</b>是否已啟用。 </li>
+   <li>時程表所有者的管理員只能檢視其直接報告的時程表。</li></ul>
+   <li>當<b>限制所有者和管理員編輯時程表</b>選項停用時：</li>
+   <ul><li>當<b>可以編輯時間</b>啟用時，核准者可以提交、重新開啟或關閉時程表，並且可以編輯時間。</li>
+   <li>當<b>可以編輯時間</b>停用時，核准者無法提交、重新開啟或關閉時程表，也無法編輯時間。 核准者只能核准或拒絕時程表。 </li>
+   <li>時程表所有者的管理員可以提交、撤銷、重新開啟及編輯其直接下屬的時程表。</li></ul>
    </ul>
 
    <p><b>附註</b>
 
-   一旦您提交工時單以進行審批，您就無法再編輯工時。 要將提交的時間表返回到可編輯狀態，請撤回時間表或讓審批人拒絕時間表。 如需詳細資訊，請參閱 <a href="../../timesheets/create-and-manage-timesheets/submit-timesheet-for-approval.md">提交時間表以進行批准</a> 和 <a href="../../timesheets/create-and-manage-timesheets/timesheet-approvals.md">批准工時單</a>.</p> </p>
+   一旦您提交時程表進行核准，您就無法再編輯小時。 若要將已提交的時程表傳回至可編輯狀態，請撤回該時程表或讓核准者拒絕該時程表。 如需詳細資訊，請參閱<a href="../../timesheets/create-and-manage-timesheets/submit-timesheet-for-approval.md">提交時程表以供核准</a>和<a href="../../timesheets/create-and-manage-timesheets/timesheet-approvals.md">核準時程表</a>。</p> </p>
 
    </td> 
       </tr>
@@ -149,23 +149,23 @@ ht-degree: 1%
    <tr>
 
    <td role="rowheader"><span style="font-weight: bold;">加班</span> </td> 
-      <td>您可以選擇隱藏工時單上的「加班」框。 預設會停用此選項。</td> 
+      <td>您可以選擇隱藏時程表上的「加班」方塊。 此選項預設為停用。</td> 
       </tr> 
       </tbody> 
    </table>
 
-1. 按一下 **建立工時單**.
+1. 按一下&#x200B;**建立時間表**。
 
 <!--the content in the table above will need to match the content in the Create timesheet profiles article-->
 
-## 當任務和問題出現在用戶的工時單上時
+## 當任務和問題出現在使用者的時程表上時
 
-如果任務或問題滿足以下任何條件，則分配給用戶的任務或問題將自動出現在用戶的時間表上：
+如果任務或問題符合以下任何條件，則指派給使用者的任務或問題會自動出現在使用者的時程表中：
 
-* 用戶已登錄任務或問題的時數
-* 任務或問題的計畫日期在時間表日期內
-* 任務或問題具有實際起始日期（任務或問題狀態為「正在進行」）
-* 任務或問題已固定到時間表
-* 計畫完成日期在時間表的日期範圍內，且狀態為「正在進行」
+* 使用者已將時數記錄於任務或問題
+* 任務或問題的計畫日期在時程表的日期內
+* 任務或問題具有實際開始日期（任務或問題狀態為「進行中」）
+* 任務或問題已釘選到時程表
+* 計畫完成日期在時程表的日期範圍內，且狀態為進行中
 
-若 **用預填時間表……** 首選項（位於「工時單」和「小時」首選項中）被取消選中，時間表將顯示狀態為「正在進行」的問題和任務。 有關「工時單和小時首選項」的詳細資訊，請參閱 [配置工時單和小時首選項](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
+如果取消選取&#x200B;**預先填入具有……**&#x200B;偏好設定的時程表（位於時程表和小時偏好設定中），時程表會顯示狀態為「進行中」的問題和任務。 如需時程表和小時喜好設定的詳細資訊，請參閱[設定時程表和小時喜好設定](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md)。

@@ -26,12 +26,12 @@ ht-degree: 0%
 >
 >如果您屬於此階段，您的客戶代表將會通知您。
 >
->如需詳細資訊，請參閱 [Adobe Workfront規劃概觀](/help/quicksilver/planning/general/planning-overview.md).
+>如需詳細資訊，請參閱[Adobe Workfront規劃總覽](/help/quicksilver/planning/general/planning-overview.md)。
 >
 
 本文列出2023年5月22日Adobe Workfront規劃方案（2023年）推出後所發行的功能。
 
-如需2024年期間發行的功能資訊，請參閱 [Adobe Workfront Planning目前發行活動](/help/quicksilver/planning/general/release-activity.md).
+如需2024年期間發行的功能相關資訊，請參閱[Adobe Workfront Planning目前的發行活動](/help/quicksilver/planning/general/release-activity.md)。
 
 已發行的功能會依其發行順序列出，最新的排在前。 參與Workfront Planning計畫的客戶可存取其生產環境中的所有功能。
 
@@ -45,7 +45,7 @@ ht-degree: 0%
 
 預覽和生產： 2023年12月27日
 
-您現在可以搜尋關鍵字，以便在時間軸檢視中快速尋找記錄。 您可以使用熒幕上可見的任何欄位中的關鍵字和特殊字元來尋找記錄。 如需詳細資訊，請參閱 [管理時間表檢視](/help/quicksilver/planning/views/manage-the-timeline-view.md).
+您現在可以搜尋關鍵字，以便在時間軸檢視中快速尋找記錄。 您可以使用熒幕上可見的任何欄位中的關鍵字和特殊字元來尋找記錄。 如需詳細資訊，請參閱[管理時間表檢視](/help/quicksilver/planning/views/manage-the-timeline-view.md)。
 
 ## 2023年12月18日當週
 
@@ -63,13 +63,13 @@ ht-degree: 0%
 >
 >* 拖放影像
 >
->如需詳細資訊，請參閱 [2024年第一季版本總覽](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).
+>如需詳細資訊，請參閱[2024年第一季版本總覽](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md)。
 
 您現在可以新增註解或在檢視記錄頁面時回覆其他人，以在個別記錄上與其他人共同作業。
 
 規劃功能記錄的註解體驗符合Workfront物件的新註解體驗。
 
-如需詳細資訊，請參閱 [管理記錄註解](/help/quicksilver/planning/records/manage-record-comments.md).
+如需詳細資訊，請參閱[管理記錄註解](/help/quicksilver/planning/records/manage-record-comments.md)。
 
 ### Adobe Workfront Fusion的Workfront Planning聯結器
 
@@ -79,7 +79,7 @@ ht-degree: 0%
 >
 >貴組織必須購買Adobe Workfront Fusion，才能與Adobe Workfront Planning功能建立連線。
 >
->如需詳細資訊，請參閱 [Adobe Workfront Fusion概觀](/help/quicksilver/workfront-fusion/get-started/workfront-fusion-overview.md).
+>如需詳細資訊，請參閱[Adobe Workfront Fusion概觀](/help/quicksilver/workfront-fusion/get-started/workfront-fusion-overview.md)。
 
 現在，您可以使用Adobe Workfront Fusion連線至規劃功能。 透過新的Fusion連線，您可以：
 
@@ -95,7 +95,7 @@ ht-degree: 0%
 
 * 在規劃功能中變更時觸發案例
 
-如需詳細資訊，請參閱 [Adobe Workfront規劃模組](/help/quicksilver/workfront-fusion/apps-and-their-modules/workfront-planning-modules.md).
+如需詳細資訊，請參閱[Adobe Workfront規劃模組](/help/quicksilver/workfront-fusion/apps-and-their-modules/workfront-planning-modules.md)。
 
 ## 2023年12月11日當週
 
@@ -125,7 +125,7 @@ ht-degree: 0%
 
 * 記錄型別的所有表格檢視都具有您選取的相同主要欄位。
 
-如需詳細資訊，請參閱 [管理表格檢視](/help/quicksilver/planning/views/manage-the-table-view.md).
+如需詳細資訊，請參閱[管理資料表檢視](/help/quicksilver/planning/views/manage-the-table-view.md)。
 
 ### 將規劃功能記錄與Adobe Experience Manager Assets連結
 
@@ -137,7 +137,7 @@ ht-degree: 0%
 >
 >貴組織的Workfront例項必須上線至Adobe業務平台或Adobe Admin Console，才能將Adobe Workfront Planning功能記錄連線至Adobe Experience Manager Assets。
 >
->如果您對上線Adobe Admin Console有任何疑問，請參閱 [Adobe Unified Experience常見問題集](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/unified-experience-faq.md).
+>如果您對加入Adobe Admin Console有任何疑問，請參閱[Adobe統一體驗常見問題集](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/unified-experience-faq.md)。
 
 您現在可以在Adobe Workfront Planning功能記錄型別與Adobe Experience Manager Assets之間建立連線。
 
@@ -153,7 +153,7 @@ ht-degree: 0%
 
 * 您可以從連線的記錄欄位按一下規劃功能記錄之表格檢視中的資產名稱，並檢視包含資產縮圖和數個關鍵欄位的快顯視窗。 從快顯視窗中，您可以導覽至Experience Manager中的資產檢視器，並檢視有關該檢視器的所有詳細資訊。
 
-如需詳細資訊，請參閱 [連線記錄型別](/help/quicksilver/planning/architecture/connect-record-types.md).
+如需詳細資訊，請參閱[連線記錄型別](/help/quicksilver/planning/architecture/connect-record-types.md)。
 
 ## 2023年12月4日當週
 
@@ -174,9 +174,9 @@ ht-degree: 0%
 
 * 您無法複製和貼上顯示在記錄之詳細資訊區域中的欄位值。
 
-如需詳細資訊，請參閱 [編輯記錄](/help/quicksilver/planning/records/edit-records.md).
+如需詳細資訊，請參閱[編輯記錄](/help/quicksilver/planning/records/edit-records.md)。
 
-如需連結欄位的詳細資訊，請參閱 [連線記錄型別](/help/quicksilver/planning/architecture/connect-record-types.md).
+如需連結欄位的相關資訊，請參閱[連線記錄型別](/help/quicksilver/planning/architecture/connect-record-types.md)。
 
 ## 2023年11月27日當週
 
@@ -200,7 +200,7 @@ ht-degree: 0%
 
    * 在連線記錄之後建立的連結欄位
 
-如需詳細資訊，請參閱 [編輯記錄](/help/quicksilver/planning/records/edit-records.md).
+如需詳細資訊，請參閱[編輯記錄](/help/quicksilver/planning/records/edit-records.md)。
 
 ## 2023年11月6日當週
 
@@ -208,9 +208,9 @@ ht-degree: 0%
 
 預覽和生產： 2023年11月7日
 
-您現在可以在記錄型別頁面的表格檢視中將記錄分組。 您可以在計畫功能介面中依三個唯一欄位分組<!--checking into this for now: and by four fields when using the API-->.
+您現在可以在記錄型別頁面的表格檢視中將記錄分組。 您可以在計畫功能介面<!--checking into this for now: and by four fields when using the API-->中依三個唯一欄位分組。
 
-如需詳細資訊，請參閱 [管理表格檢視](/help/quicksilver/planning/views/manage-the-table-view.md).
+如需詳細資訊，請參閱[管理資料表檢視](/help/quicksilver/planning/views/manage-the-table-view.md)。
 
 ## 2023年10月30日當週
 
@@ -230,7 +230,7 @@ ht-degree: 0%
 
 從這些欄位型別建立的欄位值是唯讀的，並擷取建立或上次修改記錄的使用者名稱，或記錄建立或上次修改的日期。
 
-如需詳細資訊，請參閱 [建立欄位](/help/quicksilver/planning/fields/create-fields.md).
+如需詳細資訊，請參閱[建立欄位](/help/quicksilver/planning/fields/create-fields.md)。
 
 ### 從規劃權能記錄導覽至Workfront物件
 
@@ -242,7 +242,7 @@ ht-degree: 0%
 
 * 唯讀的Workfront物件記錄頁面
 
-如需詳細資訊，請參閱 [連線記錄](/help/quicksilver/planning/records/connect-records.md).
+如需詳細資訊，請參閱[連線記錄](/help/quicksilver/planning/records/connect-records.md)。
 
 ### 改善表格檢視中的導覽
 
@@ -258,7 +258,7 @@ ht-degree: 0%
 
 * 使用Shift + Enter鍵盤組合在表格中新增記錄（或列）。
 
-如需詳細資訊，請參閱 [連線記錄](/help/quicksilver/planning/records/connect-records.md).
+如需詳細資訊，請參閱[連線記錄](/help/quicksilver/planning/records/connect-records.md)。
 
 ## 2023年10月16日起一週
 
@@ -266,13 +266,13 @@ ht-degree: 0%
 
 預覽和生產： 2023年10月16日
 
-您現在可以將「人員」型別欄位新增至規劃權能記錄型別。 您可以使用「人員」型別欄位，將現有使用者與記錄建立關聯。 如需詳細資訊，請參閱 [建立欄位](/help/quicksilver/planning/fields/create-fields.md).
+您現在可以將「人員」型別欄位新增至規劃權能記錄型別。 您可以使用「人員」型別欄位，將現有使用者與記錄建立關聯。 如需詳細資訊，請參閱[建立欄位](/help/quicksilver/planning/fields/create-fields.md)。
 
 ### RTF格式 — 段落欄位格式
 
 預覽和生產： 2023年10月16日
 
-我們已為段落型別欄位新增RTF格式控制項。 您可以在記錄型別的表格檢視或記錄頁面中使用RTF格式化段落欄位。 如需詳細資訊，請參閱 [編輯記錄](/help/quicksilver/planning/records/edit-records.md).
+我們已為段落型別欄位新增RTF格式控制項。 您可以在記錄型別的表格檢視或記錄頁面中使用RTF格式化段落欄位。 如需詳細資訊，請參閱[編輯記錄](/help/quicksilver/planning/records/edit-records.md)。
 
 
 ### 時間軸檢視的記錄與群組色彩編碼
@@ -301,7 +301,7 @@ ht-degree: 0%
 
 將顏色與特定欄位比對時，您只能選取具有顏色編碼選項的欄位。
 
-如需詳細資訊，請參閱 [管理時間表檢視](/help/quicksilver/planning/views/manage-the-timeline-view.md).
+如需詳細資訊，請參閱[管理時間表檢視](/help/quicksilver/planning/views/manage-the-timeline-view.md)。
 
 ## 2023年10月9日當週
 
@@ -309,7 +309,7 @@ ht-degree: 0%
 
 預覽和生產： 2023年10月9日
 
-您現在可以搜尋關鍵字，以便在表格檢視中快速尋找記錄。 您可以使用熒幕上可見的任何欄位中的關鍵字和特殊字元來尋找記錄。 如需詳細資訊，請參閱 [管理表格檢視](/help/quicksilver/planning/views/manage-the-table-view.md).
+您現在可以搜尋關鍵字，以便在表格檢視中快速尋找記錄。 您可以使用熒幕上可見的任何欄位中的關鍵字和特殊字元來尋找記錄。 如需詳細資訊，請參閱[管理資料表檢視](/help/quicksilver/planning/views/manage-the-table-view.md)。
 
 ## 2023年9月18日當週
 
@@ -317,7 +317,7 @@ ht-degree: 0%
 
 預覽和生產： 2023年9月20日
 
-您現在可以在記錄型別頁面的「表格」檢視中，重新排序一或多個列（或記錄）。 如需詳細資訊，請參閱 [管理表格檢視](/help/quicksilver/planning/views/manage-the-table-view.md).
+您現在可以在記錄型別頁面的「表格」檢視中，重新排序一或多個列（或記錄）。 如需詳細資訊，請參閱[管理資料表檢視](/help/quicksilver/planning/views/manage-the-table-view.md)。
 
 ## 2023年9月4日當週
 
@@ -358,7 +358,7 @@ ht-degree: 0%
 
 您可以從欄位欄的每個標題隱藏或顯示個別欄位，也可以從表格檢視工具列的設定管理記錄型別的所有欄位。
 
-如需詳細資訊，請參閱 [管理表格檢視](/help/quicksilver/planning/views/manage-the-table-view.md).
+如需詳細資訊，請參閱[管理資料表檢視](/help/quicksilver/planning/views/manage-the-table-view.md)。
 
 ## 2023年8月21日起一週
 

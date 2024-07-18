@@ -2,7 +2,7 @@
 content-type: overview
 navigation-topic: the-new-workfront-experience
 title: 物件標題概觀
-description: 您可以檢視中物件的相關一目瞭然資訊 [!DNL Adobe Workfront] 當您檢視其標題時。 標題中的資訊可包含物件的擁有者、狀態或完成百分比。
+description: 檢閱 [!DNL Adobe Workfront] 中物件的標頭時，您可以一眼檢視物件的資訊。 標題中的資訊可包含物件的擁有者、狀態或完成百分比。
 feature: Get Started with Workfront
 exl-id: 76e21df0-9272-4bfb-8a97-c16ae5f4b5dc
 source-git-commit: 58dffc8a84c2bcaaf09dfc65c6555d57f0b2eeb4
@@ -14,15 +14,15 @@ ht-degree: 0%
 
 # 物件標題概觀
 
-您可以檢視中物件的相關一目瞭然資訊 [!DNL Adobe Workfront] 當您檢視其標題時。
+檢視[!DNL Adobe Workfront]中物件的標頭時，您可以一眼檢視物件的相關資訊。
 
 除了物件名稱之外，標題還可以包含物件的擁有者、狀態或完成百分比。
 
-[!DNL Workfront] 會優先指定物件的名稱，在標題中為其分配儘可能多的空間。 物件名稱太長時會遭到截斷。 若要顯示物件的全名，您可以將滑鼠游標停留在物件上。
+[!DNL Workfront]指定物件名稱的優先順序，在標題中為其分配儘可能多的空間。 物件名稱太長時會遭到截斷。 若要顯示物件的全名，您可以將滑鼠游標停留在物件上。
 
 ## 存取物件的標頭
 
-存取中物件的標頭 [!DNL Workfront] 對於所有擁有它的物件而言，都是相同的。
+存取[!DNL Workfront]中物件的標頭與擁有該標頭的所有物件相同。
 
 例如，若要存取專案的標頭：
 
@@ -31,20 +31,20 @@ ht-degree: 0%
 
    ![](assets/project-header-350x18.png)
 
-## [!UICONTROL 首頁] 頁首概述
+## [!UICONTROL Home]標題概述
 
 首頁中有以下標頭：
 
-* 作業：如需如何使用此標題的詳細資訊，請參閱 [任務標題概觀](#task-header-overview) 本文章內容。
-* 問題：如需如何使用此標題的詳細資訊，請參閱 [問題標題概觀](#issue-header-overview) 本文章內容。
+* 任務：如需有關如何使用此標題的詳細資訊，請參閱本文中的[任務標題概觀](#task-header-overview)。
+* 問題：如需如何使用此標題的詳細資訊，請參閱本文中的[問題標題概觀](#issue-header-overview)。
 
 ## 可自訂的標頭
 
-您的 [!DNL Workfront]  或群組管理員可以使用版面配置範本來自訂專案、任務和問題的標題。
+您的[!DNL Workfront]或群組管理員可以使用版面配置範本來自訂專案、任務和問題的標題。
 
 本文會說明所有物件的預設標頭，包括專案及任務和問題。
 
-如需有關自訂物件標頭資訊的資訊，請參閱 [使用版面配置範本自訂物件標頭](../../administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md).
+如需有關自訂物件標頭資訊的資訊，請參閱[使用版面配置範本自訂物件標頭](../../administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md)。
 
 
 ## 專案標題概觀
@@ -69,7 +69,7 @@ ht-degree: 0%
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">物件圖示 </td> 
-   <td> <p>紫色的[！UICONTROL專案]圖示 <img src="assets/nwe-projects-icon.png"> 會顯示在專案名稱的左側。</p> </td> 
+   <td> <p>紫色的[！UICONTROL專案]圖示<img src="assets/nwe-projects-icon.png">會顯示在專案名稱的左側。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">專案名稱</td> 
@@ -105,7 +105,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL核准]區域</td> 
-   <td> <p>如果您是核准者之一，請使用下列圖示來管理專案的核准：</p> <p> <img src="assets/nwe-approvals-approve-16x18.png" style="width: 16;height: 18;"> </img> [！UICONTROL核准]</p> <p> <img src="assets/nwe-approvals-reject-16x19.png" style="width: 16;height: 19;"> </img> [！UICONTROL拒絕]</p> <p> <img src="assets/nwe-approvals-recall-16x16.png" style="width: 16;height: 16;"> </img> [！UICONTROL Recall]</p> <p>如果您不是核准者，請按一下[！UICONTROL更多]圖示 <img src="assets/more-icon-for-approvals-area.png"> 以檢視目前核准步驟的相關資訊。</p> <p>若要進一步瞭解核准，請參閱 <a href="../../review-and-approve-work/manage-approvals/approval-process-in-workfront.md" class="MCXref xref">核准流程總覽</a>.</p> </td> 
+   <td> <p>如果您是核准者之一，請使用下列圖示來管理專案的核准：</p> <p> <img src="assets/nwe-approvals-approve-16x18.png" style="width: 16;height: 18;"> </img> [！UICONTROL核准]</p> <p> <img src="assets/nwe-approvals-reject-16x19.png" style="width: 16;height: 19;"> </img> [！UICONTROL拒絕]</p> <p> <img src="assets/nwe-approvals-recall-16x16.png" style="width: 16;height: 16;"> </img> [！UICONTROL召回]</p> <p>如果您不是核准者，請按一下[！UICONTROL更多]圖示<img src="assets/more-icon-for-approvals-area.png">以檢視目前核准步驟的相關資訊。</p> <p>若要進一步瞭解核准，請參閱<a href="../../review-and-approve-work/manage-approvals/approval-process-in-workfront.md" class="MCXref xref">核准程式總覽</a>。</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -128,11 +128,11 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">上層物件的階層連結</td> 
-   <td> <p>任務的父物件會顯示在階層連結中。 按一下父物件的名稱會開啟該父物件。</p> <p>如需詳細資訊，請參閱 <a href="../../workfront-basics/the-new-workfront-experience/breadcrumb-overview.md" class="MCXref xref">階層連結概觀</a>.</p> </td> 
+   <td> <p>任務的父物件會顯示在階層連結中。 按一下父物件的名稱會開啟該父物件。</p> <p>如需詳細資訊，請參閱<a href="../../workfront-basics/the-new-workfront-experience/breadcrumb-overview.md" class="MCXref xref">階層連結總覽</a>。</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">物件圖示 </td> 
-   <td> <p>綠色的[！UICONTROL任務]圖示 <img src="assets/nwe-tasks-icon.png"> 會顯示在工作名稱的左側。</p> </td> 
+   <td> <p>工作名稱左側會顯示綠色的[！UICONTROL工作]圖示<img src="assets/nwe-tasks-icon.png">。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">任務名稱</td> 
@@ -156,11 +156,11 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[！UICONTROL Work on It]、[！UICONTROL Done]或[！UICONTROL Start Task]按鈕</p> </td> 
-   <td> <p>如果任務指派給您，您可以按一下[！UICONTROL處理它] <span>或[！UICONTROL開始工作]</span> 按鈕表示您正在處理任務，或[！UICONTROL完成]按鈕表示您已完成任務。</p> <p><span>有關將[！UICONTROL處理它]按鈕替換為[！UICONTROL開始任務]按鈕的資訊，請參閱 <a href="../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md" class="MCXref xref">將[！UICONTROL處理它]按鈕替換為[！UICONTROL開始]按鈕</a></span>.</p> </td> 
+   <td> <p>如果任務已指派給您，您可以按一下[！UICONTROL處理該任務] <span>或[！UICONTROL開始任務]</span>按鈕，指示您正在處理該任務，或按一下[！UICONTROL完成]按鈕，指示您已完成該任務。</p> <p><span>如需有關將[！UICONTROL處理它]按鈕取代為[！UICONTROL開始工作]按鈕的資訊，請參閱<a href="../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md" class="MCXref xref">將[！UICONTROL處理它]按鈕取代為[！UICONTROL開始]按鈕</a></span>。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL計畫完成日期]</td> 
-   <td> <p>您可以編輯任務[！UICONTROL規劃完成日期] <span>和時間</span> 在標題中。</p> <p>提示：請注意[！UICONTROL認可日期]在標題中不可見。 您可以在[！UICONTROL詳細資訊]頁面上檢視它。</p> </td> 
+   <td> <p>您可以在標題中編輯任務[！UICONTROL規劃完成日期] <span>和時間</span>。</p> <p>提示：請注意[！UICONTROL認可日期]在標題中不可見。 您可以在[！UICONTROL詳細資訊]頁面上檢視它。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL狀態]</td> 
@@ -168,7 +168,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL核准]區域</td> 
-   <td> <p>當您是核准者之一時，請使用下列圖示來管理任務的核准：</p> <p> <img src="assets/nwe-approvals-approve-16x18.png" style="width: 16;height: 18;"> </img> [！UICONTROL核准]</p> <p> <img src="assets/nwe-approvals-reject-16x19.png" style="width: 16;height: 19;"> </img> [！UICONTROL拒絕]</p> <p> <img src="assets/nwe-approvals-recall-16x16.png" style="width: 16;height: 16;"> </img> [！UICONTROL Recall]</p> <p>如果您不是核准者，請按一下[！UICONTROL更多]圖示 <img src="assets/more-icon-for-approvals-area.png"> 以檢視目前核准步驟的相關資訊。</p> <p>若要進一步瞭解核准，請參閱 <a href="../../review-and-approve-work/manage-approvals/approval-process-in-workfront.md" class="MCXref xref">核准流程總覽</a>.</p> </td> 
+   <td> <p>當您是核准者之一時，請使用下列圖示來管理任務的核准：</p> <p> <img src="assets/nwe-approvals-approve-16x18.png" style="width: 16;height: 18;"> </img> [！UICONTROL核准]</p> <p> <img src="assets/nwe-approvals-reject-16x19.png" style="width: 16;height: 19;"> </img> [！UICONTROL拒絕]</p> <p> <img src="assets/nwe-approvals-recall-16x16.png" style="width: 16;height: 16;"> </img> [！UICONTROL召回]</p> <p>如果您不是核准者，請按一下[！UICONTROL更多]圖示<img src="assets/more-icon-for-approvals-area.png">以檢視目前核准步驟的相關資訊。</p> <p>若要進一步瞭解核准，請參閱<a href="../../review-and-approve-work/manage-approvals/approval-process-in-workfront.md" class="MCXref xref">核准程式總覽</a>。</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -191,11 +191,11 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">上層物件的階層連結</td> 
-   <td> <p>問題的父物件會顯示在階層連結中。 按一下父物件的名稱會開啟該父物件。</p> <p>如需詳細資訊，請參閱 <a href="../../workfront-basics/the-new-workfront-experience/breadcrumb-overview.md" class="MCXref xref">階層連結概觀</a>.</p> </td> 
+   <td> <p>問題的父物件會顯示在階層連結中。 按一下父物件的名稱會開啟該父物件。</p> <p>如需詳細資訊，請參閱<a href="../../workfront-basics/the-new-workfront-experience/breadcrumb-overview.md" class="MCXref xref">階層連結總覽</a>。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">物件圖示 </td> 
-   <td> <p>粉紅色[！UICONTROL Issue]圖示 <img src="assets/nwe-issues-icon.png"> 會在問題名稱的左側顯示。</p> </td> 
+   <td> <p>問題名稱的左側會顯示粉紅色[！UICONTROL Issue]圖示<img src="assets/nwe-issues-icon.png">。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">問題名稱</td> 
@@ -218,12 +218,12 @@ ht-degree: 0%
    <td>您可以從標題編輯問題的受指派人。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL處理它]，[！UICONTROL完成]， <span>或[！UICONTROL開始問題]按鈕</span></td> 
-   <td>如果問題指派給您，您可以按一下[！UICONTROL處理它] <span>或[！UICONTROL開始問題]</span> 按鈕表示您正在處理問題，或[！UICONTROL完成]按鈕表示您已完成問題。<span>有關將[！UICONTROL處理它]按鈕替換為[！UICONTROL開始任務]按鈕的資訊，請參閱</span> <span href="../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md"><a href="../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md" class="MCXref xref">將[！UICONTROL處理它]按鈕替換為[！UICONTROL開始]按鈕</a></span><span>.</span></td> 
+   <td role="rowheader">[！UICONTROL處理它]、[！UICONTROL完成]、<span>或[！UICONTROL開始問題]按鈕</span></td> 
+   <td>如果問題指派給您，您可以按一下[！UICONTROL處理問題] <span>或[！UICONTROL開始問題]</span>按鈕來指示您正在處理問題，或按一下[！UICONTROL完成]按鈕來指示您已完成問題。<span>如需有關將[！UICONTROL處理它]按鈕取代為[！UICONTROL開始工作]按鈕的資訊，請參閱</span> <span href="../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md"><a href="../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md" class="MCXref xref">將[！UICONTROL處理它]按鈕取代為[！UICONTROL開始]按鈕</a></span><span>。</span></td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL計畫完成日期]</td> 
-   <td> <p>您可以編輯問題[！UICONTROL規劃完成日期] <span>和時間</span> 在標題中。</p> <p>提示：請注意[！UICONTROL認可日期]在標題中不可見。 您可以在[！UICONTROL詳細資訊]頁面上檢視它。</p> </td> 
+   <td> <p>您可以在標題中編輯問題[！UICONTROL規劃完成日期] <span>和時間</span>。</p> <p>提示：請注意[！UICONTROL認可日期]在標題中不可見。 您可以在[！UICONTROL詳細資訊]頁面上檢視它。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL狀態]</td> 
@@ -231,7 +231,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL核准]區域</td> 
-   <td> <p>如果您是核准者之一，請使用下列圖示來管理問題的核准：</p> <p> <img src="assets/nwe-approvals-approve-16x18.png" style="width: 16;height: 18;"> [！UICONTROL核准]</p> <p> <img src="assets/nwe-approvals-reject-16x19.png" style="width: 16;height: 19;"> [！UICONTROL拒絕]</p> <p> <img src="assets/nwe-approvals-recall-16x16.png" style="width: 16;height: 16;"> [！UICONTROL Recall]</p> <p>如果您不是核准者，請按一下[！UICONTROL更多]圖示 <img src="assets/more-icon-for-approvals-area.png"> 以檢視目前核准步驟的相關資訊。</p> <p>若要進一步瞭解核准，請參閱 <a href="../../review-and-approve-work/manage-approvals/approval-process-in-workfront.md" class="MCXref xref">核准流程總覽</a>.</p> </td> 
+   <td> <p>如果您是核准者之一，請使用下列圖示來管理問題的核准：</p> <p> <img src="assets/nwe-approvals-approve-16x18.png" style="width: 16;height: 18;"> [！UICONTROL核准]</p> <p> <img src="assets/nwe-approvals-reject-16x19.png" style="width: 16;height: 19;"> [！UICONTROL拒絕]</p> <p> <img src="assets/nwe-approvals-recall-16x16.png" style="width: 16;height: 16;"> [！UICONTROL召回]</p> <p>如果您不是核准者，請按一下[！UICONTROL更多]圖示<img src="assets/more-icon-for-approvals-area.png">以檢視目前核准步驟的相關資訊。</p> <p>若要進一步瞭解核准，請參閱<a href="../../review-and-approve-work/manage-approvals/approval-process-in-workfront.md" class="MCXref xref">核准程式總覽</a>。</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -254,11 +254,11 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">具有Portfolio名稱的階層連結</td> 
-   <td> <p>您可以從[！UICONTROL Program]標題存取[！UICONTROLPortfolio]。 按一下父物件的名稱會開啟該父物件。</p> <p>如需詳細資訊，請參閱 <a href="../../workfront-basics/the-new-workfront-experience/breadcrumb-overview.md" class="MCXref xref">階層連結概觀</a>.</p> </td> 
+   <td> <p>您可以從[！UICONTROL Program]標題存取[！UICONTROLPortfolio]。 按一下父物件的名稱會開啟該父物件。</p> <p>如需詳細資訊，請參閱<a href="../../workfront-basics/the-new-workfront-experience/breadcrumb-overview.md" class="MCXref xref">階層連結總覽</a>。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">物件圖示 </td> 
-   <td> <p>橘色[！UICONTROL Program]圖示 <img src="assets/nwe-programs-icon.png"> 會在計畫名稱的左側顯示。</p> </td> 
+   <td> <p>橘色[！UICONTROL方案]圖示<img src="assets/nwe-programs-icon.png">會顯示在方案名稱的左側。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">方案名稱</td> 
@@ -313,7 +313,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">物件圖示 </td> 
-   <td> <p>藍色的[！UICONTROLPortfolio]圖示 <img src="assets/nwe-portfolios-icon.png">會顯示在投資組合名稱的左側。</p> </td> 
+   <td> <p>投資組合名稱左側會顯示藍色的[！UICONTROLPortfolio]圖示<img src="assets/nwe-portfolios-icon.png">。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">投資組合名稱</td> 
@@ -376,7 +376,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">物件圖示 </td> 
-   <td> <p>綠色的[！UICONTROL範本]圖示 <img src="assets/nwe-templates-icon.png">會顯示在範本名稱的左側。</p> </td> 
+   <td> <p>綠色的[！UICONTROL範本]圖示<img src="assets/nwe-templates-icon.png">會顯示在範本名稱的左側。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">範本的名稱</td> 
@@ -423,11 +423,11 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">上層物件的階層連結</td> 
-   <td> <p>範本任務的父物件會顯示在階層連結中。 按一下父物件的名稱會開啟該父物件。</p> <p>如需詳細資訊，請參閱 <a href="../../workfront-basics/the-new-workfront-experience/breadcrumb-overview.md" class="MCXref xref">階層連結概觀</a>.</p> </td> 
+   <td> <p>範本任務的父物件會顯示在階層連結中。 按一下父物件的名稱會開啟該父物件。</p> <p>如需詳細資訊，請參閱<a href="../../workfront-basics/the-new-workfront-experience/breadcrumb-overview.md" class="MCXref xref">階層連結總覽</a>。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">物件圖示 </td> 
-   <td> <p>綠色的[！UICONTROL任務]圖示 <img src="assets/nwe-tasks-icon.png">會顯示在範本任務名稱的左側。</p> </td> 
+   <td> <p>綠色的[！UICONTROL工作]圖示<img src="assets/nwe-tasks-icon.png">會顯示在範本工作名稱的左側。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">範本任務的名稱</td> 
@@ -470,11 +470,11 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">上層物件的階層連結</td> 
-   <td> <p>計費記錄的父物件會顯示在階層連結中。 按一下父物件的名稱會開啟該父物件。</p> <p>如需詳細資訊，請參閱 <a href="../../workfront-basics/the-new-workfront-experience/breadcrumb-overview.md" class="MCXref xref">階層連結概觀</a>.</p> </td> 
+   <td> <p>計費記錄的父物件會顯示在階層連結中。 按一下父物件的名稱會開啟該父物件。</p> <p>如需詳細資訊，請參閱<a href="../../workfront-basics/the-new-workfront-experience/breadcrumb-overview.md" class="MCXref xref">階層連結總覽</a>。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">物件圖示 </td> 
-   <td> <p>藍色的[！UICONTROL計費記錄]圖示 <img src="assets/nwe-billing-record-icon-57x55.png" style="width: 57;height: 55;"> 會在計費記錄名稱的左側顯示。</p> </td> 
+   <td> <p>計費記錄名稱左側會顯示藍色的[！UICONTROL計費記錄]圖示<img src="assets/nwe-billing-record-icon-57x55.png" style="width: 57;height: 55;">。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">付費記錄的名稱</td> 
@@ -486,7 +486,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">計費記錄的動作區域</td> 
-   <td> <p>在計費記錄名稱旁邊，[！UICONTROL更多]功能表 <img src="assets/more-menu.png"> 顯示，可讓您選取下列選項：</p> 
+   <td> <p>在計費記錄名稱旁邊，會顯示[！UICONTROL更多]功能表<img src="assets/more-menu.png">，可讓您選取下列選項：</p> 
     <ul> 
      <li> <p>[！UICONTROL編輯]</p> </li> 
      <li> <p> </p> </li> 
@@ -577,7 +577,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">物件圖示 </td> 
-   <td> <p>紫色[！UICONTROL Team]圖示 <img src="assets/nwe-teams-icon.png"> 會顯示在專案團隊名稱的左側。</p> </td> 
+   <td> <p>紫色的[！UICONTROL團隊]圖示<img src="assets/nwe-teams-icon.png">會顯示在團隊名稱的左側。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">團隊名稱</td> 
@@ -620,7 +620,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">物件圖示 </td> 
-   <td> <p>橘色[！UICONTROL Iteration]圖示 <img src="assets/nwe-iteration-icon-58x58.png" style="width: 58;height: 58;"> 會顯示在反複專案名稱的左側。</p> </td> 
+   <td> <p>橘色[！UICONTROL反複專案]圖示<img src="assets/nwe-iteration-icon-58x58.png" style="width: 58;height: 58;">會顯示在反複專案名稱的左側。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">反複專案的名稱</td> 
@@ -667,7 +667,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">物件圖示 </td> 
-   <td> <p>橘色[！UICONTROL Group]圖示 <img src="assets/nwe-group-icon.png"> 會顯示在群組名稱的左側。</p> </td> 
+   <td> <p>橘色[！UICONTROL Group]圖示<img src="assets/nwe-group-icon.png">會顯示在群組名稱的左側。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">群組名稱</td> 
@@ -679,7 +679,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">群組的[！UICONTROL actions]區域</td> 
-   <td> <p>在群組名稱旁邊，[！UICONTROL更多]功能表 <img src="assets/more-menu.png"> 顯示，可讓您選取下列選項：</p> 
+   <td> <p>在群組名稱旁邊，會顯示[！UICONTROL More]功能表<img src="assets/more-menu.png">，可讓您選取下列選項：</p> 
     <ul> 
      <li> <p>[！UICONTROL編輯]</p> </li> 
      <li> <p>[！UICONTROL副本]</p> </li> 
@@ -692,7 +692,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL授權使用中] </td> 
-   <td> <p>[！UICONTROL使用中授權]方塊顯示群組及其子群組中[！UICONTROL計畫]和[！UICONTROL工作]授權使用者的數目。 您可以按一下編號來檢視所有5種授權型別的資訊。</p> <p>如需詳細資訊，請參閱 <a href="../../administration-and-setup/manage-groups/create-and-manage-groups/view-number-licenses-allocated-used-group.md" class="MCXref xref">檢視新中群組內配置及使用的授權數目 [!DNL Adobe Workfront] 體驗</a>.</p> </td> 
+   <td> <p>[！UICONTROL使用中授權]方塊顯示群組及其子群組中[！UICONTROL計畫]和[！UICONTROL工作]授權使用者的數目。 您可以按一下編號來檢視所有5種授權型別的資訊。</p> <p>如需詳細資訊，請參閱<a href="../../administration-and-setup/manage-groups/create-and-manage-groups/view-number-licenses-allocated-used-group.md" class="MCXref xref">檢視新[!DNL Adobe Workfront]體驗</a>中群組所配置及使用的授權數目。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL群組管理員]</td> 
@@ -719,11 +719,11 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">上層物件的階層連結</td> 
-   <td> <p>檔案的父物件會顯示在階層連結中。 按一下父物件的名稱會開啟該父物件。</p> <p>如需詳細資訊，請參閱 <a href="../../workfront-basics/the-new-workfront-experience/breadcrumb-overview.md" class="MCXref xref">階層連結概觀</a>.</p> </td> 
+   <td> <p>檔案的父物件會顯示在階層連結中。 按一下父物件的名稱會開啟該父物件。</p> <p>如需詳細資訊，請參閱<a href="../../workfront-basics/the-new-workfront-experience/breadcrumb-overview.md" class="MCXref xref">階層連結總覽</a>。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">物件圖示 </td> 
-   <td> <p>藍色的[！UICONTROL Document]圖示 <img src="assets/nwe-documents-icon-53x50.png" style="width: 53;height: 50;"> 會顯示在檔名稱的左側。</p> </td> 
+   <td> <p>藍色的[！UICONTROL Document]圖示<img src="assets/nwe-documents-icon-53x50.png" style="width: 53;height: 50;">會顯示在檔名稱的左側。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">檔名稱</td> 
@@ -739,7 +739,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">核准[！UICONTROL決定]區域</td> 
-   <td> [！UICONTROL決策]區域會顯示在檔案標題的右上角。此區域會根據核准階段以及您是核准者、稽核者或兩者皆不而有所不同。 <ul><li> <p>如果您是核准者，則可以使用下列圖示來管理檔案的核准：</p> <p> <img src="assets/nwe-approvals-approve-16x18.png" style="width: 16;height: 18;"> [！UICONTROL核准]</p> <p> <img src="assets/nwe-approvals-recall-16x16.png" style="width: 16;height: 16;"> [！UICONTROL Recall]</p> <p> <img src="assets/nwe-approvals-reject-16x19.png" style="width: 16;height: 19;"> [！UICONTROL拒絕]</p> <p>如需核准決定的詳細資訊，請參閱 <a href="../../review-and-approve-work/manage-approvals/approving-work.md" class="MCXref xref">核准工作</a>.</li><li><p>如果您是檢閱者，可以按一下「完成我的檢閱」按鈕，表示您已檢閱檔案。</p><p>如需有關檢閱檔案的詳細資訊，請參閱 <a href="../../review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-a-document.md" class="MCXref xref">檢閱檔案</a>.</p></li><li>否則，此區域會顯示檔案的目前檢閱和核准狀態。</li><ul></p> </td> 
+   <td> [！UICONTROL決策]區域會顯示在檔案標題的右上角。此區域會根據核准階段以及您是核准者、稽核者或兩者皆不而有所不同。 <ul><li> <p>如果您是核准者，則可以使用下列圖示來管理檔案的核准：</p> <p> <img src="assets/nwe-approvals-approve-16x18.png" style="width: 16;height: 18;"> [！UICONTROL核准]</p> <p> <img src="assets/nwe-approvals-recall-16x16.png" style="width: 16;height: 16;"> [！UICONTROL召回]</p> <p> <img src="assets/nwe-approvals-reject-16x19.png" style="width: 16;height: 19;"> [！UICONTROL拒絕]</p> <p>如需核准決定的詳細資訊，請參閱<a href="../../review-and-approve-work/manage-approvals/approving-work.md" class="MCXref xref">核准工作</a>。</li><li><p>如果您是檢閱者，可以按一下「完成我的檢閱」按鈕，表示您已檢閱檔案。</p><p>如需有關檢閱檔案的詳細資訊，請參閱<a href="../../review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-a-document.md" class="MCXref xref">檢閱檔案</a>。</p></li><li>否則，此區域會顯示檔案的目前檢閱和核准狀態。</li><ul></p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -762,7 +762,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">物件圖示 </td> 
-   <td> <p>藍色[！UICONTROL Company]圖示 <img src="assets/nwe-company-icon.png"> 會顯示在公司名稱的左側。</p> </td> 
+   <td> <p>藍色的[！UICONTROL公司]圖示<img src="assets/nwe-company-icon.png">會顯示在公司名稱的左側。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">公司名稱</td> 
@@ -774,7 +774,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">公司的動作區域</td> 
-   <td> <p>在公司名稱旁邊，[！UICONTROL更多]功能表 <img src="assets/more-menu.png"> 顯示，可讓您選取下列選項：</p> 
+   <td> <p>在公司名稱旁邊，會顯示[！UICONTROL More]功能表<img src="assets/more-menu.png">，可讓您選取下列選項：</p> 
     <ul> 
      <li> <p>[！UICONTROL編輯]</p> </li> 
      <li> <p>[！UICONTROL刪除公司]</p> </li> 
@@ -787,7 +787,7 @@ ht-degree: 0%
 
 ![](assets/nwe-plan-header-350x34.png)
 
-計畫是 [!DNL Workfront Scenario Planner]. 如需關於的資訊， [!DNL Scenario Planner]，請參閱 [此 [!DNL Scenario Planner] 概述](../../scenario-planner/scenario-planner-overview.md).
+計畫是[!DNL Workfront Scenario Planner]的物件。 如需[!DNL Scenario Planner]的相關資訊，請參閱[ [!DNL Scenario Planner] 概觀](../../scenario-planner/scenario-planner-overview.md)。
 
 計畫表頭會顯示下列資訊：
 
@@ -807,7 +807,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">物件圖示 </td> 
-   <td> <p>藍色的[！UICONTROL Plan]圖示 <img src="assets/nwe-plan-icon-65x62.png" style="width: 65;height: 62;">會顯示在計畫名稱的左側。</p> </td> 
+   <td> <p>藍色[！UICONTROL計畫]圖示<img src="assets/nwe-plan-icon-65x62.png" style="width: 65;height: 62;">會顯示在計畫名稱的左側。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">計畫名稱</td> 
@@ -826,8 +826,8 @@ ht-degree: 0%
    <td> <p>在計畫名稱和動作區域下方，您可以完成下列動作：</p> 
     <ul> 
      <li> <p><strong>[！UICONTROL顯示衝突]</strong>：按一下此切換可顯示或隱藏方案中的衝突。</p> </li> 
-     <li> <p><strong>[！UICONTROL比較案例]</strong>：按一下此連結可顯示您已建立之情境的並排比較。</p> </li> 
-     <li> <p><strong>[！UICONTROL案例選擇]</strong>：在此下拉式功能表中，您可以複製案例或選取以檢視不同案例。</p> </li> 
+     <li> <p><strong>[！UICONTROL比較案例]</strong>：按一下此連結可顯示您已建立之案例的並排比較。</p> </li> 
+     <li> <p><strong>[！UICONTROL案例選擇]</strong>：在此下拉式功能表中，您可以複製案例或選取以檢視不同的案例。</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -847,8 +847,8 @@ ht-degree: 0%
    <td>有權檢視或管理計畫的使用者會顯示在標題的右上角。 將滑鼠游標停留在設定檔圖片上，會顯示其名稱。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL前往發佈]</td> 
-   <td>當您按一下[！UICONTROL前往發佈]時，可以在您檢視的情境中建立或更新連結至方案的專案。</td> 
+   <td role="rowheader">[！UICONTROL前往Publish]</td> 
+   <td>當您按一下[！UICONTROL移至Publish]時，可以在您檢視的情境中建立或更新連結至方案的專案。</td> 
   </tr> 
  </tbody> 
 </table>
@@ -858,7 +858,7 @@ ht-degree: 0%
 
 ![](assets/goal-header.png)
 
-當您的公司有權存取Workfront目標時，您可以建立策略目標。 有關詳細資訊 [!DNL Workfront Goals]，請參閱 [開始使用 [!DNL Adobe Workfront Goals]](../../workfront-goals/goal-management/getting-started-with-wf-goals.md).
+當您的公司有權存取Workfront目標時，您可以建立策略目標。 如需[!DNL Workfront Goals]的詳細資訊，請參閱[開始使用 [!DNL Adobe Workfront Goals]](../../workfront-goals/goal-management/getting-started-with-wf-goals.md)。
 
 目標標題會顯示下列資訊：
 
@@ -874,7 +874,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">物件圖示 </td> 
-   <td> <p>紫色[！UICONTROL目標]圖示 <img src="assets/goal-icon.png" > 會顯示在目標名稱的左側。</p> </td> 
+   <td> <p>紫色[！UICONTROL目標]圖示<img src="assets/goal-icon.png" >會顯示在目標名稱的左側。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">目標的名稱</td> 
@@ -914,7 +914,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL狀態]</td> 
-   <td>指出目標為作用中、新或已關閉。 您無法手動更新目標狀態。 如需詳細資訊，請參閱 <a href="../../workfront-goals/goal-management/goal-status-overview.md" class="MCXref xref">中的目標狀態概觀 [!DNL Adobe Workfront Goals]</a></td> 
+   <td>指出目標為作用中、新或已關閉。 您無法手動更新目標狀態。 如需詳細資訊，請參閱[!DNL Adobe Workfront Goals]</a>中的<a href="../../workfront-goals/goal-management/goal-status-overview.md" class="MCXref xref">目標狀態總覽</td> 
   </tr> 
  </tbody> 
 </table>

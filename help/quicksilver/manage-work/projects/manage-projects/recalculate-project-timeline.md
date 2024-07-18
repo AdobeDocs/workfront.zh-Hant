@@ -1,25 +1,25 @@
 ---
 product-area: projects
 navigation-topic: manage-projects
-title: 重新計算項目時間表
-description: 重新計算時間表可讓管理員查看與項目相關的不同因素如何影響項目時間表。 項目時間表是指計畫日期和預計日期。
+title: 重新計算專案時間表
+description: 重新計算時間表可讓經理檢視與專案相關的不同因素如何影響專案的時間表。 專案的時間表是指計畫和預計日期。
 author: Alina
 feature: Work Management
 exl-id: ec5d9a07-e45a-4aa2-9f41-9421ca5d5920
 source-git-commit: dc3461803e23f61877c31efa2c52fffdc7bd79bf
 workflow-type: tm+mt
-source-wordcount: '1017'
+source-wordcount: '1021'
 ht-degree: 0%
 
 ---
 
-# 重新計算項目時間表
+# 重新計算專案時間表
 
-重新計算時間表可讓管理員查看與項目相關的不同因素如何影響項目時間表。 項目時間表是指計畫日期和預計日期。
+重新計算時間表可讓經理檢視與專案相關的不同因素如何影響專案的時間表。 專案的時間表是指計畫和預計日期。
 
-對計畫、人員休假和項目範圍之外的其他項目進行更改不會立即影響項目時間表。 重新計算時間軸時，專案時間軸會受到影響。 在重新計算發生之前，外部影響不會對您的專案生效。
+變更排程、人員休假和專案範圍以外的其他專案不會立即影響專案時間表。 重新計算時間表時，專案時間表會受到影響。 在重新計算發生之前，外部影響不會對您的專案生效。
 
-本文說明重新計算時間軸的方式。
+本文會說明時間表重新計算的方式。
 
 ## 存取需求
 
@@ -53,9 +53,9 @@ ht-degree: 0%
  </tbody> 
 </table>
 -->
-自動時間軸重新計算會針對參與專案工作的任何使用者進行，且無特殊存取權。
+自動重新計算時間表會在沒有參與專案工作之任何使用者特殊存取權的情況下進行。
 
-但是，您必須具有以下訪問權限才能手動重新計算項目時間軸：
+但是，您必須具有下列存取權才能手動重新計算專案的時間表：
 
 <table style="table-layout:auto"> 
  <col> 
@@ -70,46 +70,46 @@ ht-degree: 0%
    <td> <p>計劃 </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">訪問級別配置*</td> 
-   <td> <p>編輯專案的存取權</p> <p>系統管理員重新計算系統中所有項目的時間表</p> <p><b>附註</b>
+   <td role="rowheader">存取層級設定*</td> 
+   <td> <p>編輯專案的存取權</p> <p>系統管理員重新計算系統中所有專案的時間表</p> <p><b>附註</b>
 
-如果您仍無權存取，請洽詢您的Workfront管理員，他們是否在您的存取層級設定其他限制。 如需Workfront管理員如何修改您的存取層級的詳細資訊，請參閱 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>.</p> </td>
+如果您還是沒有存取權，請詢問您的Workfront管理員，他們是否在您的存取層級中設定其他限制。 如需Workfront管理員如何修改存取層級的詳細資訊，請參閱<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>。</p> </td>
 </tr> 
   <tr> 
-   <td role="rowheader">物件權限</td> 
-   <td> <p>管理專案的權限</p> <p>有關請求其他訪問的資訊，請參閱 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">請求對對象的訪問 </a>.</p> </td> 
+   <td role="rowheader">物件許可權</td> 
+   <td> <p>管理專案的許可權</p> <p>如需請求其他存取權的資訊，請參閱<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">請求物件</a>的存取權。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;若要了解您擁有的計畫、授權類型或存取權，請聯絡您的Workfront管理員。
+&#42;若要瞭解您擁有的計畫、授權型別或存取權，請連絡您的Workfront管理員。
 
 ## 自動重新計算
 
-預設情況下，當項目範圍改變或每晚更改時，每天自動重新計算項目時間軸。 Workfront管理員通過管理「設定」的「項目首選項」區域中的「時間軸」設定，確定是否每晚自動計算時間軸，還是每次更改範圍。 如需詳細資訊，請參閱 [設定專案的時間軸重新計算](../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-timeline-recalculations-projects.md).
+根據預設，專案時間表會在每天或每晚變更專案範圍時自動重新計算。 Workfront管理員藉由管理「設定」中「專案偏好設定」區域的「時間表」設定，決定是每晚自動計算時間表，還是隨著每次範圍變更自動計算時間表。 如需詳細資訊，請參閱[設定專案的時間表重新計算](../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-timeline-recalculations-projects.md)。
 
 >[!NOTE]
 >
->如果專案的時間軸超過15年，該專案會自動重新計算。 對於超過15年的項目，只能選擇「更新類型手動」。 如果將項目日期更改為少於15年，則必須在自動計算時間軸之前手動重新計算時間軸一次。
+>如果專案的時間表超過15年，則會停用該專案的自動重新計算。 您只能為超過15年的專案選取「手動更新型別」。 如果您將專案日期變更為少於15年，則必須在自動計算時間表之前手動重新計算一次。
 
-* [自動重新計算項目時間表](#automatic-recalculation-of-project-timelines)
-* [觸發自動重新計算項目時間表的操作](#actions-that-trigger-an-automatic-recalculation-of-project-timelines)
+* [自動重新計算專案時間表](#automatic-recalculation-of-project-timelines)
+* [觸發自動重新計算專案時程表的動作](#actions-that-trigger-an-automatic-recalculation-of-project-timelines)
 
-### 自動重新計算項目時間表 {#automatic-recalculation-of-project-timelines}
+### 自動重新計算專案時間表 {#automatic-recalculation-of-project-timelines}
 
-Adobe Workfront僅在滿足下列所有條件的專案中每日重新計算時間表：
+Adobe Workfront只會在符合下列所有條件的專案中，每天重新計算時間表：
 
-* 狀態為「當前」
-* 項目的更新類型設定為「自動」或「自動」並且更改時
+* 具有目前狀態
+* 專案的更新型別設定為「自動」或「自動」及「變更時」
 
-   有關項目更新類型類型的資訊，請參閱 [專案更新類型概觀](../../../manage-work/projects/planning-a-project/project-update-type-overview.md).
+  如需有關專案更新型別的資訊，請參閱[專案更新型別總覽](../../../manage-work/projects/planning-a-project/project-update-type-overview.md)。
 
-* 在過去三個月內有上次更新日期\
-   Workfront管理員可依 [設定專案的時間軸重新計算](../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-timeline-recalculations-projects.md).
+* 具有過去三個月內的上次更新日期\
+  Workfront管理員可以變更此預設功能，如[設定專案的時間表重新計算](../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-timeline-recalculations-projects.md)中所述。
 
-* 項目時間表的最後計算日期不在當前日曆日內。 這表示專案時間軸的最後計算日期是當天00:00之前。
+* 專案時間表的最後計算日期不在目前行事曆日期內。 這表示專案時間表的最後計算日期在當天的00:00之前。
 
-您可以設定專案時間軸的更新頻率。 更新專案時間軸時，會根據對專案所做的變更重新計算。
+您可以設定專案時間表的更新頻率。 更新專案時間表時，會根據對專案所做的變更重新計算。
 
 <!--
 <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -122,7 +122,7 @@ or changes made to another project that the timeline is dependent on
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: above, the last part is drafted because of this: I don't think this is right because we told people that in the case of cross-project predecessors, the timeline must be calculated manually for the successor to see the updates in the predecessor's project. Drafting for now.)</p>
 -->
 
-如需詳細資訊，請參閱 [選擇項目更新類型](../../../manage-work/projects/manage-projects/select-project-update-type.md).
+如需詳細資訊，請參閱[選取專案更新型別](../../../manage-work/projects/manage-projects/select-project-update-type.md)。
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -145,71 +145,71 @@ If the timeline of a project is longer than 15 years, the automatic recalculatio
 </div>
 -->
 
-### 觸發自動重新計算項目時間表的操作 {#actions-that-trigger-an-automatic-recalculation-of-project-timelines}
+### 觸發自動重新計算專案時程表的動作 {#actions-that-trigger-an-automatic-recalculation-of-project-timelines}
 
-項目生命週期中的各種範圍更改會自動重新計算項目時間表，包括以下操作：
+專案生命週期中的各種範圍變更會自動重新計算專案時間表，包括下列動作：
 
 * 正在更新任務狀態。
-* 將任務移動到不同的項目。
+* 將任務移至其他專案。
 * 更新任務的計畫日期或計畫完成日期。
-* 更新任務的「持續時間類型」、「任務約束」或受分配人數。
-* 更新任務前置關係。
-* 將批准添加到任務，該任務還會將時間添加到任務的計畫完成日期。\
-   如需核准設定的詳細資訊，請參閱 [配置全局批准設定](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/establish-approval-settings.md).
+* 更新工期型別、作業限制或作業上的受指派人數目。
+* 更新任務前置任務關係。
+* 將核准新增至任務，該任務也會將時間新增至任務的規劃完成日期。\
+  如需核准設定的詳細資訊，請參閱[設定全域核准設定](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/establish-approval-settings.md)。
 
 ## 手動重新計算 {#manual-recalculation}
 
-作為項目責任人，您可以人工重新計算各個項目的時間表。 Workfront管理員可以手動重新計算Workfront中的所有時間軸。
+身為專案所有者，您可以手動重新計算個別專案的時間表。 Workfront管理員可以在Workfront中手動重新計算所有時間表。
 
-* [重新計算單個項目或批量項目的時間表](#recalculate-timelines-for-individual-projects-or-in-bulk)
-* [在「編輯項目」框中手動重新計算時間軸](#manually-recalculate-timelines-in-bulk-in-the-edit-projects-box)
-* [重新計算系統中所有項目的時間表(僅限Workfront管理員)](#recalculate-timelines-for-all-projects-in-the-system-workfront-administrators-only)
+* [重新計算個別專案或大量專案的時間表](#recalculate-timelines-for-individual-projects-or-in-bulk)
+* [在編輯專案方塊中大量手動重新計算時間表](#manually-recalculate-timelines-in-bulk-in-the-edit-projects-box)
+* [重新計算系統中所有專案的時間表(僅限Workfront管理員)](#recalculate-timelines-for-all-projects-in-the-system-workfront-administrators-only)
 
-### 重新計算單個項目或批量項目的時間表 {#recalculate-timelines-for-individual-projects-or-in-bulk}
+### 重新計算個別專案或大量專案的時間表 {#recalculate-timelines-for-individual-projects-or-in-bulk}
 
-您可以從專案頁面或專案清單或報表重新計算Workfront中專案的時間軸。
+您可以從專案頁面或專案清單或報告，在Workfront中重新計算專案的時間表。
 
-1. 轉到要重新計算時間軸的項目，然後按一下 **更多** 圖示 ![](assets/qs-more-menu.png) 項目名稱左側
+1. 前往您要重新計算時間表之專案，然後按一下專案名稱左邊的&#x200B;**更多**&#x200B;圖示![](assets/qs-more-menu.png)
 
    ![](assets/project-level-more-drop-down-expanded-nwe-350x516.png)
 
    或
 
-   前往專案清單或報表，選取一或多個專案，然後按一下 **更多** 圖示 ![](assets/qs-more-menu.png) 清單頂端。
+   前往專案清單或報告，選取一或多個專案，然後按一下清單頂端的&#x200B;**更多**&#x200B;圖示![](assets/qs-more-menu.png)。
 
    ![](assets/recalculate-expressions-timeline-finances-drop-down-in-project-list-nwe.png)
 
    >[!TIP]
    >
-   >根據您專案的複雜性，我們建議在大量重新計算時間軸時不要選取大量專案，以確保最佳效能。 有些項目可能太複雜，可能是多個相依性或指派，或是大量自訂欄位。
+   >根據您專案的複雜性，我們建議不要在大量重新計算專案的時間表時選取大量專案，以確保最佳效能。 某些因素會導致專案過於複雜，例如依賴關係或指派過多，或是自訂欄位過多。
 
-1. 按一下 **重新計算時間表**.
+1. 按一下&#x200B;**重新計算時間表**。
 
-   重新計算時間軸後，您會看到訊息，指出重新計算成功。
+   重新計算時間表後，您會看到一則訊息，指出重新計算成功。
 
    >[!TIP]
    >
-   >在時間軸重新計算完成之前，某些計畫日期或預計日期可能會顯示為灰色。 這表示重新計算尚未完成，且日期可能會變更。
+   >在時間表重新計算完成之前，某些計畫或預計日期可能會顯示為灰色。 這表示重新計算尚未完成，日期可能會變更。
 
-### 在「編輯項目」框中手動重新計算時間軸 {#manually-recalculate-timelines-in-bulk-in-the-edit-projects-box}
+### 在「編輯專案」方塊中大量手動重新計算時間表 {#manually-recalculate-timelines-in-bulk-in-the-edit-projects-box}
 
-您可以通過批量編輯多個項目來手動重新計算這些項目的時間軸。
+您可以手動重新計算數個專案的時間表，方法是大量編輯專案。
 
 >[!TIP]
 >
->根據專案的複雜度，我們建議在大量編輯專案時不要選取大量專案，以確保提供最佳效能。 有些項目可能太複雜，可能是多個相依性或指派，或是大量自訂欄位。
+>根據您專案的複雜性，我們建議不要在大量編輯專案時選取大量專案，以確保最佳效能。 有些因素會導致專案過於複雜，包括多重相依性或指派，或大量自訂欄位。
 
 1. 前往專案清單。
-1. 在清單中選取數個專案，然後按一下 **編輯**.
-1. 按一下 **設定**，然後選取 **重新計算時間表**.
+1. 選取清單中的多個專案，然後按一下[編輯]。****
+1. 按一下&#x200B;**設定**，然後選取&#x200B;**重新計算時間表**。
 
-1. 按一下 **儲存變更**.
+1. 按一下「**儲存變更**」。
 
-### 重新計算系統中所有項目的時間表(僅限Workfront管理員) {#recalculate-timelines-for-all-projects-in-the-system-workfront-administrators-only}
+### 重新計算系統中所有專案的時間表(僅限Workfront管理員) {#recalculate-timelines-for-all-projects-in-the-system-workfront-administrators-only}
 
-Workfront管理員可以運行「重新計算時間軸」診斷程式，以立即重新計算Workfront系統中的所有時間軸。 這可讓所有項目經理立即查看外部更改對計畫日期和預計日期的影響。
+Workfront管理員可以執行重新計算時間表診斷，以立即重新計算Workfront系統中的所有時間表。 這可讓所有專案經理立即檢視外部變更對計畫和預計日期的影響。
 
-如需重新計算整個Workfront網站時間軸的詳細資訊，請參閱 [設定專案的時間軸重新計算](../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-timeline-recalculations-projects.md).
+如需重新計算整個Workfront網站時間表的相關資訊，請參閱[設定專案時間表重新計算](../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-timeline-recalculations-projects.md)中的「重新計算整個Workfront執行個體的時間表」一節。
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

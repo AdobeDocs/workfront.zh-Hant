@@ -25,7 +25,7 @@ in January 2022
 
 2022年4月4日當週。
 
-如需22.2版所有可用變更的清單，請參閱 [22.2版本總覽](../../../product-announcements/product-releases/22.2-release-activity/22-2-release-overview.md).
+如需22.2版本可用的所有變更清單，請參閱[22.2版本概觀](../../../product-announcements/product-releases/22.2-release-activity/22-2-release-overview.md)。
 
 ## 改進首頁工作清單中的篩選器
 
@@ -33,5 +33,5 @@ in January 2022
 
 在此體驗之前，當您選取一個或多個篩選器時，首頁區域中的篩選器未提供清單中工作專案數量的準確計數，並且這些篩選器造成工作專案狀態的混亂。
 
-如需詳細資訊，請參閱 [在首頁區域的工作清單中顯示專案](../../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md).
+如需詳細資訊，請參閱[首頁區域的工作清單顯示專案](../../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md)。
 

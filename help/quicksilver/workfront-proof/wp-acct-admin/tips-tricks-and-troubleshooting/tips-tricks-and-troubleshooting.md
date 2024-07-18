@@ -3,7 +3,7 @@ content-type: tips-tricks-troubleshooting;reference
 product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: account-administration
-title: 秘訣、技巧和疑難排解 [!DNL Workfront] 證明帳戶管理
+title: ' [!DNL Workfront] 校訂帳戶管理的秘訣、技巧和疑難排解'
 description: 瞭解如何疑難排解Workfront Proof帳戶。
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
@@ -16,11 +16,11 @@ ht-degree: 0%
 
 ---
 
-# 秘訣、技巧和疑難排解 [!DNL Workfront Proof] 帳戶管理
+# [!DNL Workfront Proof]帳戶管理的秘訣、技巧和疑難排解
 
 >[!IMPORTANT]
 >
->本文提及獨立版產品中的功能 [!DNL Workfront Proof]. 有關內部校訂的資訊 [!DNL Adobe Workfront]，請參閱 [校訂](../../../review-and-approve-work/proofing/proofing.md).
+>本文提及獨立產品[!DNL Workfront Proof]中的功能。 有關[!DNL Adobe Workfront]內部校訂的資訊，請參閱[校訂](../../../review-and-approve-work/proofing/proofing.md)。
 
 本節包含下列文章：
 

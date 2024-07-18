@@ -17,11 +17,11 @@ ht-degree: 12%
 
 Workfront data lake是目前正在開發中的新工具，提供專用的介面，方便組織提取資料，以用於常見的業務分析工具或儲存在外部資料倉儲中，而不需要複雜的API或Fusion解決方案。 本頁包含有關您如何能在進行中的測試版期間測試此工具並提供意見反應，以協助我們的資訊。
 
-如需有關使用Workfront資料湖的資訊，請參閱 [Workfront data lake概觀](/help/quicksilver/reports-and-dashboards/data-lake/data-lake-overview.md).
+如需使用Workfront資料湖的詳細資訊，請參閱[Workfront資料湖概觀](/help/quicksilver/reports-and-dashboards/data-lake/data-lake-overview.md)。
 
-**測試版排程：**
+**Beta排程：**
 
-* Beta版開始日期 — 2024年4月15日
+* Beta開始日期 — 2024年4月15日
 * 預計發行日期 — TBA
 
 ## 參與測試版
@@ -34,17 +34,17 @@ Workfront data lake是目前正在開發中的新工具，提供專用的介面�
 
 若要讓貴組織註冊Beta版，請透過下列連結填寫並提交表單：
 
-[Workfront data lake測試版註冊](https://adobe.ly/workfrontdatalake)
+[Workfront data lake beta版註冊](https://adobe.ly/workfrontdatalake)
 
 ### 提供意見回饋
 
 我們在Beta版過程中開發此工具時，會感謝您的意見反應。 請依照下列指示，與我們分享您的體驗。
 
-1. 按一下 **[!UICONTROL 主要功能表]** 圖示 ![主要功能表](/help/_includes/assets/main-menu-icon.png) 在Adobe Workfront的右上角，或（如果有的話）按一下 **[!UICONTROL 主要功能表]** 圖示 ![主要功能表](/help/_includes/assets/main-menu-icon-left-nav.png) 然後按一下「 」 **設定**.
+1. 按一下Adobe Workfront右上角的&#x200B;**[!UICONTROL 主功能表]**&#x200B;圖示![主功能表](/help/_includes/assets/main-menu-icon.png)，或（如果有的話）按一下左上角的&#x200B;**[!UICONTROL 主功能表]**&#x200B;圖示![主功能表](/help/_includes/assets/main-menu-icon-left-nav.png)，然後按一下&#x200B;**設定**。
 
-1. 在左側面板中，按一下 **系統** > **資料存取**.
+1. 在左側面板中，按一下&#x200B;**系統** > **資料存取**。
 
-1. 按一下 **傳送意見** 按鈕填入表格，並在表格中輸入您的意見。
+1. 按一下頁面底部的&#x200B;**傳送意見反應**&#x200B;按鈕，然後填寫您的意見反應表單。
 
 ## 計畫功能
 
@@ -76,7 +76,7 @@ Workfront data lake是目前正在開發中的新工具，提供專用的介面�
 ### 開發中的物件
 
 * 存取層級
-* 存取權限規則
+* 存取規則
 * 展示板
 * 展示板卡片
 * 類別（表單）
@@ -89,7 +89,7 @@ Workfront data lake是目前正在開發中的新工具，提供專用的介面�
 * 物件類別
 * 引數（欄位）
 * 參數選項
-* 匯率
+* 費率
 * 保留時間(PTO)
 * 免除時程表
 * 範本

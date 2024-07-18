@@ -22,20 +22,20 @@ Workfront每年向所有產品線發佈新產品功能三次（第1版、第2版
 
 ## 最新版本的新增功能？
 
-* [Workfront增強功能](#workfront-enhancements)
+* [WORKFRONT增強功能](#workfront-enhancements)
 * [PROOFHQ增強功能](#proofhq-enhancements)
 * [Workfront DAM增強功能](#workfront-dam-enhancements)
 
 ## Workfront增強功能 {#workfront-enhancements}
 
 ![Outlook_365_Integration_1.png](assets/outlook-365-integration-1-350x212.png)\
-**直接從您的電子郵件管理工作**
+**從您的電子郵件管理工作**
 直接整合至Outlook 365可讓您直接從Outlook 365更新Workfront時，消除重複工作。 將電子郵件轉換為工作、以更新形式傳送電子郵件交談和附件，以及回應註解，而不需離開Outlook。
 
-如需詳細資訊，請參閱：  [2016年預覽版中提供的功能](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/available-in-preview-in-2016.md)
+如需詳細資訊，請參閱：  [功能於2016年在「預覽」中提供](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/available-in-preview-in-2016.md)
 
 ![](assets/mceclip0-350x218.png)\
-**讓專案按計畫進行並維持預算**
+**讓專案按計畫進行，並編列預算**
 使用新的「使用率報表」，管理您的資源及其使用率，讓專案維持在正確的軌道上，並符合預算。 檢視每個專案和角色的計畫與實際時數，並定期比較資源與部門。
 
 如需詳細資訊，請參閱：  [R1預覽3](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-preview-3.md)
@@ -84,7 +84,7 @@ ProofHQ現在可讓您在發行給所有使用者之前，先在預覽環境中�
 **DAM必要中繼資料欄位**
 使用必要中繼資料欄位來改善數位資產分類，進而增加對資產共用的控制。
 
-**透過Workfront讓每個人都參與並有效率。**
+**使用Workfront讓每個人都參與並有效率。**
 Workfront是企業工作管理解決方案，可讓現代知識工人和高階主管執行以下作業：
 
 * 量身打造符合個人與組織偏好的工作，並提升採用率
@@ -94,6 +94,6 @@ Workfront是企業工作管理解決方案，可讓現代知識工人和高階�
 
 **瞭解更多**
 
-* 如需R1中可用的改善專案完整清單： [R1發行活動概覽](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-release-activity-overview.md)
+* 如需R1中可用的改善完整清單： [R1發行活動概覽](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-release-activity-overview.md)
 
 Workfront。 因為工作很重要。

@@ -47,16 +47,16 @@ ht-degree: 1%
      <li> <p>專案</p> </li> 
      <li> <p>任務</p> </li> 
      <li> <p>問題</p> </li> 
-    </ul> <p>如果您還是沒有存取權，請詢問您的Workfront管理員，他們是否在您的存取層級中設定其他限制。 如需有關Workfront管理員如何變更您的存取層級的資訊，請參閱 <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>.</p> </td> 
+    </ul> <p>如果您還是沒有存取權，請詢問您的Workfront管理員，他們是否在您的存取層級中設定其他限制。 如需Workfront管理員如何變更存取層級的詳細資訊，請參閱<a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">物件許可權</td> 
-   <td> <p>貢獻專案、任務和問題的許可權或更高 </p> <p>如需請求其他存取許可權的詳細資訊，請參閱 <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">要求物件的存取權 </a>.</p> </td> 
+   <td> <p>專案、任務和問題的Contribute許可權或更高版本 </p> <p>如需請求其他存取權的資訊，請參閱<a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">請求物件</a>的存取權。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;若要瞭解您擁有的計畫、授權型別或存取權，請聯絡您的Workfront管理員。
+&#42;若要瞭解您擁有的計畫、授權型別或存取權，請連絡您的Workfront管理員。
 
 ## 更新工作負載平衡器摘要面板中的任務和問題
 
@@ -64,21 +64,21 @@ ht-degree: 1%
 
    工作負載平衡器顯示從本週開始的工作指派資訊。
 
-1. 前往 **未指派的工作** 區域並尋找工作專案。
+1. 前往&#x200B;**未指派的工作**&#x200B;區域並尋找工作專案。
 
    或
 
-   前往 **已指派的工作** 區域，展開使用者，然後尋找工作專案。
+   前往&#x200B;**指派的工作**&#x200B;區域，展開使用者，然後尋找工作專案。
 
 1. 按一下任務或問題列以開啟右側的「摘要」面板。
 
    或
 
-   按一下 **開啟摘要** 圖示 ![](assets/summary-panel-icon.png)，然後按一下任務或問題列以開啟「摘要」面板。
+   按一下&#x200B;**開啟摘要**&#x200B;圖示![](assets/summary-panel-icon.png)，然後按一下任務或問題列以開啟摘要面板。
 
    或
 
-   按一下 **更多** 功能表 ![](assets/more-icon.png) 任務或問題的右側，然後按一下 **開啟摘要**.
+   按一下任務或問題右側的&#x200B;**更多**&#x200B;功能表![](assets/more-icon.png)，然後按一下&#x200B;**開啟摘要**。
 
    「摘要」面板會在右側開啟。
 
@@ -98,7 +98,7 @@ ht-degree: 1%
    >
    >從「摘要」瀏覽至「子任務」區段來新增子任務會移除原始任務，因為父任務不會顯示在「工作負載平衡器」中。
 
-   如需使用「摘要」更新資訊的詳細資訊，請參閱 [摘要概觀](../../workfront-basics/the-new-workfront-experience/summary-overview.md).
+   如需使用[摘要]更新資訊的詳細資訊，請參閱[摘要概述](../../workfront-basics/the-new-workfront-experience/summary-overview.md)。
 
-1. （視條件而定）如果您開啟工作專案的任何區段，請按一下瀏覽器的 **返回按鈕** 以返回工作負載平衡器。
-1. 按一下 **關閉圖示** ![](assets/close-icon.png) 在「摘要」的右上角，將其關閉。
+1. （視條件而定）如果您開啟工作專案的任何區段，請按一下瀏覽器的&#x200B;**「上一步」按鈕**&#x200B;以返回工作負載平衡器。
+1. 按一下摘要右上角的&#x200B;**關閉圖示** ![](assets/close-icon.png)以關閉摘要。

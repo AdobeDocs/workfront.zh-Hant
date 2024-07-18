@@ -1,8 +1,8 @@
 ---
 product-area: projects
 navigation-topic: convert-issues
-title: 將問題與其解決對象取消連結
-description: 將問題轉換為項目或任務以建立項目或任務時，您可以選擇保留原始問題。 您的Adobe Workfront管理員必須啟用此偏好設定，才能在問題轉換期間使用此選項。 如需將問題轉換為專案和工作的詳細資訊，請參閱在Adobe Workfront中轉換問題的概觀。
+title: 將問題與其解析物件取消連結
+description: 當您透過將問題轉換為專案或任務來建立專案或任務時，您有選項可保留原始問題。 您的Adobe Workfront管理員必須啟用此偏好設定，您才能在轉換問題期間擁有此選項。 如需將問題轉換為專案和任務的詳細資訊，請參閱在Adobe Workfront中轉換問題的總覽。
 author: Alina
 feature: Work Management
 exl-id: c18160e5-9f95-4575-a1b3-b4f7e5334844
@@ -13,25 +13,25 @@ ht-degree: 0%
 
 ---
 
-# 將問題與其解決對象取消連結
+# 將問題與其解析物件取消連結
 
-將問題轉換為項目或任務以建立項目或任務時，您可以選擇保留原始問題。 您的Adobe Workfront管理員必須啟用此偏好設定，才能在問題轉換期間使用此選項。\
-如需將問題轉換為專案和工作的詳細資訊，請參閱 [轉換Adobe Workfront問題概觀](../../../manage-work/issues/convert-issues/convert-issues.md).
+當您透過將問題轉換為專案或任務來建立專案或任務時，您有選項可保留原始問題。 您的Adobe Workfront管理員必須啟用此偏好設定，您才能在轉換問題期間擁有此選項。\
+如需將問題轉換為專案和任務的詳細資訊，請參閱[在Adobe Workfront中轉換問題的總覽](../../../manage-work/issues/convert-issues/convert-issues.md)。
 
-當您決定保留已轉換為專案或任務的問題時，問題的解決會系結至專案或任務。 此問題成為項目或任務的可解析對象。 項目或任務是問題的解決對象。
+當您決定保留已轉換為專案或任務的問題時，問題的解決方案會與專案或任務繫結。 問題會成為專案或任務的可解析物件。 專案或任務是問題的解決物件。
 
-您也可以手動將問題連結至其他問題。 第二個問題會成為第一個問題的「解決物件」(Resoling Object)，在本例中為。\
-有關解析對象的詳細資訊，請參閱 [解析和可解析對象概述](../../../manage-work/issues/convert-issues/resolving-and-resolvable-objects.md).
+您也可以手動將問題連結至另一個問題。 在這種情況下，第二個問題會成為第一個問題的解決物件。\
+如需有關解析物件的詳細資訊，請參閱[解析和可解析物件的概述](../../../manage-work/issues/convert-issues/resolving-and-resolvable-objects.md)。
 
 >[!TIP]
 >
->無法更改問題狀態，因為問題狀態會隨「解決對象」的狀態自動更改。
+>問題狀態無法變更，因為它會自動變更解析物件的狀態。
 
-通過從問題中刪除項目、任務或問題，可以將問題的解決與項目、任務或問題的解決取消連結。
+您可以從問題中移除專案、任務或問題，藉此取消問題解決方案與專案、任務或問題解決方案的連結。
 
 ## 存取需求
 
-您必須具備下列存取權，才能執行本文中的步驟：
+您必須具有下列存取權才能執行本文中的步驟：
 
 <table style="table-layout:auto"> 
  <col> 
@@ -47,26 +47,26 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">存取層級*</td> 
-   <td> <p>編輯問題的存取權</p> <p>查看對任務和項目的訪問</p> <p>注意：如果您仍無權存取，請洽詢您的Workfront管理員，他們是否在您的存取層級設定其他限制。 如需Workfront管理員如何變更您的存取層級的詳細資訊，請參閱 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>.</p> </td> 
+   <td> <p>編輯問題的存取權</p> <p>檢視任務與專案的存取權</p> <p>注意：如果您還是沒有存取權，請詢問您的Workfront管理員，他們是否在您的存取層級中設定其他限制。 如需Workfront管理員如何變更存取層級的詳細資訊，請參閱<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">物件權限</td> 
-   <td> <p>管理問題的權限</p> <p>查看任務或項目的權限</p> <p>有關請求其他訪問的資訊，請參閱 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">請求對對象的訪問 </a>.</p> </td> 
+   <td role="rowheader">物件許可權</td> 
+   <td> <p>管理問題的許可權</p> <p>檢視任務或專案的許可權</p> <p>如需請求其他存取權的資訊，請參閱<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">請求物件</a>的存取權。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;若要了解您擁有的計畫、授權類型或存取權，請聯絡您的Workfront管理員。
+&#42;若要瞭解您擁有的計畫、授權型別或存取權，請連絡您的Workfront管理員。
 
-## 將問題與項目、任務或問題取消連結
+## 從專案、任務或問題中取消問題連結
 
-1. 轉到連結到項目、任務或問題的問題。
-1. 按一下 **問題詳細資訊** 區段。
-1. 前往 **概述** 區域 **問題詳細資訊** 區段。
-1. 在 **解析者** 欄位，移除可解析的對象類型。\
+1. 移至連結至專案、任務或問題的問題。
+1. 按一下&#x200B;**問題詳細資料**&#x200B;區段。
+1. 移至&#x200B;**問題詳細資訊**&#x200B;區段的&#x200B;**總覽**&#x200B;區域。
+1. 在&#x200B;**解析者**&#x200B;欄位中，移除可解析物件型別。\
    問題可由專案、任務或問題解決。
 
-   這會從問題中移除解決物件。
+   這會將解析物件從問題中移除。
 
-1. 按一下 **儲存** **變更**.\
+1. 按一下&#x200B;**儲存** **變更**。\
    問題不再連結至專案、任務或問題，您現在可以獨立解決問題。

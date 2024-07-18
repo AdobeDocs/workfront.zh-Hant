@@ -15,7 +15,7 @@ ht-degree: 2%
 
 # 編輯清單中的任務 {#edit-tasks-in-a-list}
 
-您可以編輯工作清單中顯示的欄位，以編輯工作清單中的工作資訊。 如需有關編輯任務的其他方法的資訊，請參閱 [編輯任務](../../../manage-work/tasks/manage-tasks/edit-tasks.md).
+您可以編輯工作清單中顯示的欄位，以編輯工作清單中的工作資訊。 如需有關編輯工作的其他方式的資訊，請參閱[編輯工作](../../../manage-work/tasks/manage-tasks/edit-tasks.md)。
 
 ## 存取需求
 
@@ -35,16 +35,16 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定*</td> 
-   <td> <p>編輯任務與專案的存取權</p> <p>注意：如果您還是沒有存取權，請詢問您的Workfront管理員，他們是否在您的存取層級中設定其他限制。 如需有關Workfront管理員如何變更您的存取層級的資訊，請參閱 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>.</p> </td> 
+   <td> <p>編輯任務與專案的存取權</p> <p>注意：如果您還是沒有存取權，請詢問您的Workfront管理員，他們是否在您的存取層級中設定其他限制。 如需Workfront管理員如何變更存取層級的詳細資訊，請參閱<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">物件許可權</td> 
-   <td> <p>貢獻或更高許可權給任務和專案</p> <p>如需請求其他存取許可權的詳細資訊，請參閱 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">要求物件的存取權 </a>.</p> </td> 
+   <td> <p>Contribute或更高的任務和專案許可權</p> <p>如需請求其他存取權的資訊，請參閱<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">請求物件</a>的存取權。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;若要瞭解您擁有的計畫、授權型別或存取權，請聯絡您的Workfront管理員。
+&#42;若要瞭解您擁有的計畫、授權型別或存取權，請連絡您的Workfront管理員。
 
 ## 編輯清單中任務的相關考量事項 {#considerations-about-editing-tasks-in-a-list}
 
@@ -52,7 +52,7 @@ ht-degree: 2%
 
 編輯清單中的任務時，請考量下列事項：
 
-* 與在「編輯」方塊中編輯任務時需要「管理任務許可權」不同，您只能在具有「貢獻任務」許可權的清單中編輯任務。 這可讓您編輯任務的下列有限資訊：
+* 不像在編輯方塊中編輯任務時需要「管理任務許可權」，您只能編輯清單中具有Contribute任務許可權的任務。 這可讓您編輯任務的下列有限資訊：
 
    * 說明
    * 狀態
@@ -80,7 +80,7 @@ ht-degree: 2%
 
 * 您可以控制Workfront何時儲存您對清單中任務所做的變更。 您的變更可以自動儲存，也可以手動儲存。
 
-  如需有關在Workfront儲存您對清單中的任務進行變更時進行設定的資訊，請參閱 [在清單中編輯任務時選取儲存選項](#select-a-save-option-when-editing-tasks-in-a-list) 一節。
+  如需有關在Workfront儲存您對清單中工作所做的變更時進行設定的資訊，請參閱本文中在清單中編輯工作時的[選取儲存選項](#select-a-save-option-when-editing-tasks-in-a-list)一節。
 
 * 其他使用者必須先重新整理頁面，才能檢視您對任務所做的更新。
 
@@ -90,7 +90,7 @@ ht-degree: 2%
 
 >[!IMPORTANT]
 >
->根據您是自動或手動儲存任務，當您編輯清單中的任務時，可能會覆寫其他人的資訊。 如需Workfront如何儲存您與其他使用者同時進行之工作變更的相關資訊，請參閱 [在作業清單中儲存並行變更的概要](../../../manage-work/tasks/manage-tasks/save-concurrent-changes-in-a-task-list.md).
+>根據您是自動或手動儲存任務，當您編輯清單中的任務時，可能會覆寫其他人的資訊。 如需Workfront如何儲存您與其他使用者同時進行之工作的變更的相關資訊，請參閱[在工作清單中儲存同時變更的總覽](../../../manage-work/tasks/manage-tasks/save-concurrent-changes-in-a-task-list.md)。
 
 針對已選取「自動」或「自動」及「變更時」作為「更新型別」的專案，當您在清單中儲存變更時，Workfront會更新專案時間表，以及所有專案內和跨專案相依性。 如果專案較大或有許多相依性，則時間表計算可能需要很長的時間。 根據您選取來儲存變更的方法，某些編輯任務清單的方法可能比其他方法更快。
 
@@ -98,11 +98,11 @@ ht-degree: 2%
 
 * 您可以讓Workfront在每次更新後自動儲存變更。
 
-  如需詳細資訊，請參閱區段 [編輯清單中的任務並自動儲存變更](#edit-tasks-in-a-list-and-automatically-save-changes) 本文章內容。
+  如需詳細資訊，請參閱本文中的[編輯清單中的工作並自動儲存變更](#edit-tasks-in-a-list-and-automatically-save-changes)一節。
 
 * 您可使用「儲存」按鈕手動控制一次套用多個變更的時間。
 
-  如需詳細資訊，請參閱區段 [編輯清單中的任務並手動儲存變更](#edit-tasks-in-a-list-and-manually-save-changes) 本文章內容。
+  如需詳細資訊，請參閱本文中的[編輯清單中的工作並手動儲存變更](#edit-tasks-in-a-list-and-manually-save-changes)一節。
 
 ### 編輯清單中的任務並自動儲存變更 {#edit-tasks-in-a-list-and-automatically-save-changes}
 
@@ -114,12 +114,12 @@ ht-degree: 2%
 
 * 您可以將自訂檢視套用至任務清單，並編輯您有權更新的任何任務相關欄位。
 * 您無法回覆自動儲存的變更。 這是預設設定。
-* 當專案「更新型別」為「自動」或「自動」且「變更時」時，Workfront會在每次變更後自動重新計算專案的時間表以及所有專案內和跨專案相依性。 如需有關專案更新型別的資訊，請參閱 [選取專案更新型別](../../../manage-work/projects/manage-projects/select-project-update-type.md).
+* 當專案「更新型別」為「自動」或「自動」且「變更時」時，Workfront會在每次變更後自動重新計算專案的時間表以及所有專案內和跨專案相依性。 如需有關專案更新型別的資訊，請參閱[選取專案更新型別](../../../manage-work/projects/manage-projects/select-project-update-type.md)。
 
 若要編輯清單中的工作並自動儲存變更，請執行下列動作：
 
-1. 前往專案，然後按一下 **任務** 區段。
-1. 按一下 **計畫模式功能表** ![](assets/qs-list-mode-or-save-mode-icon-small.png) 在清單頂端，並確定 **自動儲存** 已選取選項。
+1. 前往專案，然後按一下&#x200B;**任務**&#x200B;區段。
+1. 按一下清單頂端的&#x200B;**計畫模式功能表** ![](assets/qs-list-mode-or-save-mode-icon-small.png)，並確認已選取&#x200B;**自動儲存**&#x200B;選項。
 
    ![](assets/autosave-setting-enabled-quicksilver-task-list-350x308.png)
 
@@ -127,13 +127,13 @@ ht-degree: 2%
 
    ![](assets/inline-editing-a-task-350x26.png)
 
-1. （可選）按下 **逸出** 以取消您的變更。
+1. （選擇性）按下&#x200B;**Escape**&#x200B;以取消變更。
 1. 按下Enter以儲存您對任務和專案時間表所做的變更。
 1. （選擇性）用滑鼠右鍵按一下要修改的工作。
 
    或
 
-   按一下 **更多** 功能表 ![](assets/more-icon-task-list.png) 在任務名稱的右側。
+   按一下工作名稱右側的&#x200B;**更多**&#x200B;功能表![](assets/more-icon-task-list.png)。
 
 1. （選擇性）從下列選項中選取：
 
@@ -147,11 +147,11 @@ ht-degree: 2%
      </tr> 
      <tr> 
       <td role="rowheader"><strong>編輯</strong></td> 
-      <td><p>開啟 <strong>編輯任務</strong> 方塊，您可在其中編輯工作。</p><p>如需有關編輯任務的資訊，請參閱 <a href="#edit-tasks-in-a-list" class="MCXref xref">編輯清單中的任務</a>.</p></td> 
+      <td><p>開啟<strong>編輯任務</strong>方塊，您可在其中編輯任務。</p><p>如需有關編輯任務的資訊，請參閱<a href="#edit-tasks-in-a-list" class="MCXref xref">在清單中編輯任務</a>。</p></td> 
      </tr> 
      <tr> 
       <td role="rowheader">刪除</td> 
-      <td><p>刪除工作。</p><p>有關刪除任務的資訊，請參閱 <a href="../../../manage-work/tasks/manage-tasks/delete-tasks.md" class="MCXref xref">刪除任務</a>.</p></td> 
+      <td><p>刪除工作。</p><p>如需有關刪除工作的資訊，請參閱<a href="../../../manage-work/tasks/manage-tasks/delete-tasks.md" class="MCXref xref">刪除工作</a>。</p></td> 
      </tr> 
      <tr> 
       <td role="rowheader">縮排</td> 
@@ -175,11 +175,11 @@ ht-degree: 2%
      </tr> 
      <tr> 
       <td role="rowheader">複製到</td> 
-      <td><p>將任務複製到另一個專案。</p><p>如需有關複製和複製任務的資訊，請參閱 <a href="../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md" class="MCXref xref">複製和複製任務</a>.</p></td> 
+      <td><p>將任務複製到另一個專案。</p><p>如需有關複製和複製任務的資訊，請參閱<a href="../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md" class="MCXref xref">複製和複製任務</a>。</p></td> 
      </tr> 
      <tr> 
       <td role="rowheader">移至</td> 
-      <td><p>將任務移至另一個專案。</p><p>如需關於移動任務的資訊，請參閱 <a href="../../../manage-work/tasks/manage-tasks/move-tasks.md" class="MCXref xref">移動任務</a>.</p></td> 
+      <td><p>將任務移至另一個專案。</p><p>如需關於移動任務的資訊，請參閱<a href="../../../manage-work/tasks/manage-tasks/move-tasks.md" class="MCXref xref">移動任務</a>。</p></td> 
      </tr> 
     </tbody> 
    </table>
@@ -211,7 +211,7 @@ ht-degree: 2%
 
 有兩種方式可手動儲存清單中任務的變更。 以下說明這兩種方式。
 
-* [選取「手動儲存標準」選項時，手動儲存工作清單中的變更](#save-changes-in-a-task-list-manually-when-you-select-the-manual-save-standard-option)
+* [當您選取[手動儲存標準]選項時，手動儲存工作清單中的變更](#save-changes-in-a-task-list-manually-when-you-select-the-manual-save-standard-option)
 * [當您選取「手動儲存時程表計畫」選項時，手動儲存工作清單中的變更](#save-changes-in-a-task-list-manually-when-you-select-the-manual-save-timeline-planning-option)
 
 #### 選取「手動儲存標準」選項時，手動儲存工作清單中的變更 {#save-changes-in-a-task-list-manually-when-you-select-the-manual-save-standard-option}
@@ -223,12 +223,12 @@ ht-degree: 2%
 選取「手動儲存標準」選項後，更新清單中的任務時，請考量下列事項：
 
 * 您可以將自訂檢視套用至任務清單，並編輯您有權在該檢視中管理的任何任務相關欄位。
-* 當專案的「更新型別」為「自動」或「自動」且「變更時」時，Workfront會在您按一下「儲存」後計算專案的時間表以及所有專案內和跨專案的相依性。 如需有關專案更新型別的資訊，請參閱 [選取專案更新型別](../../../manage-work/projects/manage-projects/select-project-update-type.md).
+* 當專案的「更新型別」為「自動」或「自動」且「變更時」時，Workfront會在您按一下「儲存」後計算專案的時間表以及所有專案內和跨專案的相依性。 如需有關專案更新型別的資訊，請參閱[選取專案更新型別](../../../manage-work/projects/manage-projects/select-project-update-type.md)。
 
 若要在選取「手動儲存標準」選項時編輯清單中的工作：
 
-1. 前往專案，然後按一下 **任務** 區段。
-1. 按一下 **計畫模式** 功能表 ![](assets/qs-list-mode-or-save-mode-icon-small.png) 在清單頂端並選取 **手動儲存**，然後按一下 **標準** > **套用**.
+1. 前往專案，然後按一下&#x200B;**任務**&#x200B;區段。
+1. 按一下清單頂端的&#x200B;**計畫模式**&#x200B;功能表![](assets/qs-list-mode-or-save-mode-icon-small.png)，並選取&#x200B;**手動儲存**，然後按一下&#x200B;**標準** > **套用**。
 
    ![](assets/manual-standard-setting-enabled-quicksilver-task-list-350x493.png)
 
@@ -241,14 +241,14 @@ ht-degree: 2%
    ![](assets/inline-editing-a-task-350x26.png)
 
 1. 按Enter鍵以暫時儲存您所做的變更。
-1. （可選）按一下 **「還原」圖示** ![](assets/undo-icon-on-task-list.png) 反轉變更並將欄位恢復為原始狀態。
-1. （選擇性和條件性）按一下 **「重做」圖示** ![](assets/redo-icon-on-task-list.png) 還原您回覆的變更。
+1. （選擇性）按一下&#x200B;**復原圖示** ![](assets/undo-icon-on-task-list.png)以復原變更，並將欄位恢復為原始狀態。
+1. （選擇性和條件性）按一下&#x200B;**重做圖示** ![](assets/redo-icon-on-task-list.png)以還原您回覆的變更。
 
 1. （選擇性）用滑鼠右鍵按一下要修改的工作。
 
    或
 
-   按一下 **更多** 功能表 ![](assets/more-icon-task-list.png).
+   按一下&#x200B;**更多**&#x200B;功能表![](assets/more-icon-task-list.png)。
 
 1. （選擇性）從下列選項中選取：
 
@@ -257,12 +257,12 @@ ht-degree: 2%
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader"><strong>在新標籤中開啟</strong> </td> 
+      <td role="rowheader"><strong>在新索引標籤中開啟</strong> </td> 
       <td>在新的瀏覽器標籤中開啟工作。 </td> 
      </tr> 
      <tr> 
       <td role="rowheader">刪除</td> 
-      <td>有關刪除任務的資訊，請參閱 <a href="../../../manage-work/tasks/manage-tasks/delete-tasks.md" class="MCXref xref">刪除任務</a>.</td> 
+      <td>如需有關刪除工作的資訊，請參閱<a href="../../../manage-work/tasks/manage-tasks/delete-tasks.md" class="MCXref xref">刪除工作</a>。</td> 
      </tr> 
      <tr> 
       <td role="rowheader">縮排</td> 
@@ -282,13 +282,13 @@ ht-degree: 2%
      </tr> 
      <tr> 
       <td role="rowheader">複製</td> 
-      <td> <p>在相同專案中建立任務的重複版本。 </p> <p>如需有關複製和複製任務的資訊，請參閱 <a href="../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md" class="MCXref xref">複製和複製任務</a>.</p> </td> 
+      <td> <p>在相同專案中建立任務的重複版本。 </p> <p>如需有關複製和複製任務的資訊，請參閱<a href="../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md" class="MCXref xref">複製和複製任務</a>。</p> </td> 
      </tr> 
     </tbody> 
    </table>
 
 1. 當您變更任務的時間表時，Workfront會更新所有專案內和跨專案相依性。
-1. 按一下 **儲存** 當您想要永久保留任務變更並儲存專案的時間表時。
+1. 當您想要永久保留工作變更並儲存專案的時間表時，請按一下[儲存]。****
 
 #### 當您選取「手動儲存時程表計畫」選項時，手動儲存工作清單中的變更 {#save-changes-in-a-task-list-manually-when-you-select-the-manual-save-timeline-planning-option}
 
@@ -303,12 +303,12 @@ ht-degree: 2%
 * 您無法將「手動儲存時間表計畫」選項套用至具有超過2000個任務的專案。
 * 您無法將自訂檢視、篩選或分組套用至工作清單。 「檢視」、「篩選」和「群組」下拉式功能表，以及「敏捷檢視」圖示都會停用。 依預設套用的檢視包含有限數目的欄位。
 * 當專案的「更新型別」為「自動」或「自動」且「變更時」時，每次變更後會自動計算專案的時間表和所有專案內的相依性。
-* 當您按一下「儲存」後，當專案「更新型別」為「自動」或「自動」及「變更時」時，會計算跨專案相依性。 如需有關專案更新型別的資訊，請參閱 [選取專案更新型別](../../../manage-work/projects/manage-projects/select-project-update-type.md).
+* 當您按一下「儲存」後，當專案「更新型別」為「自動」或「自動」及「變更時」時，會計算跨專案相依性。 如需有關專案更新型別的資訊，請參閱[選取專案更新型別](../../../manage-work/projects/manage-projects/select-project-update-type.md)。
 
 若要在使用「手動儲存時間表規劃」選項時編輯清單中的工作：
 
-1. 前往專案，然後按一下 **任務** 區段。
-1. 按一下 **計畫模式** 功能表 ![](assets/qs-list-mode-or-save-mode-icon-small.png) 在清單頂端並選取 **手動儲存**，然後按一下 **時間表規劃**> **套用**.
+1. 前往專案，然後按一下&#x200B;**任務**&#x200B;區段。
+1. 按一下清單頂端的&#x200B;**計畫模式**&#x200B;功能表![](assets/qs-list-mode-or-save-mode-icon-small.png)，並選取&#x200B;**手動儲存**，然後按一下&#x200B;**時間表計畫**>**套用**。
 
    對於具有超過2000個任務的專案，此選項會變暗。
 
@@ -343,14 +343,14 @@ ht-degree: 2%
    ![](assets/inline-editing-a-task-350x26.png)
 
 1. 按Enter鍵以暫時儲存您所做的變更。
-1. （可選）按一下 **「還原」圖示** ![](assets/undo-icon-on-task-list.png) 反轉變更並將欄位恢復為原始狀態。
-1. （選擇性和條件性）按一下 **「重做」圖示** ![](assets/redo-icon-on-task-list.png) 以恢復您回覆的變更。
+1. （選擇性）按一下&#x200B;**復原圖示** ![](assets/undo-icon-on-task-list.png)以復原變更，並將欄位恢復為原始狀態。
+1. （選擇性和條件性）按一下&#x200B;**重做圖示** ![](assets/redo-icon-on-task-list.png)以復原您回覆的變更。
 
 1. （選擇性）用滑鼠右鍵按一下要修改的工作
 
    或
 
-   按一下 **更多** 功能表 ![](assets/more-icon-task-list.png).
+   按一下&#x200B;**更多**&#x200B;功能表![](assets/more-icon-task-list.png)。
 
 1. 從下列選項中選取：
 
@@ -359,12 +359,12 @@ ht-degree: 2%
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader"><strong>在新標籤中開啟</strong> </td> 
+      <td role="rowheader"><strong>在新索引標籤中開啟</strong> </td> 
       <td>在新的瀏覽器標籤中開啟工作。 </td> 
      </tr> 
      <tr> 
       <td role="rowheader">刪除</td> 
-      <td>有關刪除任務的資訊，請參閱 <a href="../../../manage-work/tasks/manage-tasks/delete-tasks.md" class="MCXref xref">刪除任務</a>.</td> 
+      <td>如需有關刪除工作的資訊，請參閱<a href="../../../manage-work/tasks/manage-tasks/delete-tasks.md" class="MCXref xref">刪除工作</a>。</td> 
      </tr> 
      <tr> 
       <td role="rowheader">縮排</td> 
@@ -384,37 +384,37 @@ ht-degree: 2%
      </tr> 
      <tr> 
       <td role="rowheader">複製</td> 
-      <td> <p>在相同專案中建立任務的重複版本。 </p> <p>如需有關複製和複製任務的資訊，請參閱 <a href="../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md" class="MCXref xref">複製和複製任務</a>.</p> </td> 
+      <td> <p>在相同專案中建立任務的重複版本。 </p> <p>如需有關複製和複製任務的資訊，請參閱<a href="../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md" class="MCXref xref">複製和複製任務</a>。</p> </td> 
      </tr> 
     </tbody> 
    </table>
 
 1. 當您變更任務的時間表時，Workfront會更新所有專案內和跨專案相依性。
-1. 按一下 **儲存** 當您想要永久保留任務變更並儲存專案的時間表時。
+1. 當您想要永久保留工作變更並儲存專案的時間表時，請按一下[儲存]。****
 
 ## 使用「摘要」編輯清單中的任務
 
 1. 移至包含您要編輯之任務的專案。
-1. 按一下&#x200B;**任務** 在左側面板中。
+1. 按一下左側面板中的&#x200B;**工作**。
 
    專案上的任務清單隨即顯示。
 
-1. 按一下「更多」功能表 ![](assets/more-icon-task-list.png) 在任務名稱之後，按一下 **開啟摘要**. 選取要編輯的工作，然後按一下 **開啟摘要圖示** ![](assets/qs-open-summary-icon-in-new-toolbar-small.png) 在清單的右上角。
+1. 按一下工作名稱后面的[更多]功能表![](assets/more-icon-task-list.png)，然後按一下[開啟摘要]****。 選取您要編輯的工作，然後按一下清單右上角的&#x200B;**開啟摘要圖示** ![](assets/qs-open-summary-icon-in-new-toolbar-small.png)。
 
-   此 **摘要** 隨即開啟。
+   **摘要**&#x200B;隨即開啟。
 
    ![](assets/qs-task-right-panel-in-a-task-list-350x328.png)
 
-1. （可選）按一下 **X圖示** 在「摘要」的右上角，關閉面板並編輯內嵌任務。
+1. （選擇性）按一下「摘要」右上角的&#x200B;**X圖示**&#x200B;以關閉面板並編輯內嵌工作。
 
    依照編輯清單中任務的步驟來內聯編輯任務。
 
-   如需有關編輯清單中工作的資訊，請參閱 [編輯清單中任務的相關考量事項](#considerations-about-editing-tasks-in-a-list) 本文章內容。
+   如需有關編輯清單中工作的資訊，請參閱本文中有關編輯清單中工作的考量[](#considerations-about-editing-tasks-in-a-list)。
 
-1. （選擇性）在「 」中輸入任務的更新 **更新** 區域。
+1. （選擇性）在&#x200B;**更新**&#x200B;區域輸入工作的更新。
 1. 按一下下列任一圖示或區域，移至工作並編輯工作層次的資訊：
 
-   | 文件 | 按一下 **按一下這裡以新增** 以將檔案新增至任務。 |
+   | 文件 | 按一下&#x200B;**按一下這裡以新增**&#x200B;以新增檔案至工作。 |
    |---|---|
    | 詳细資料 | 按一下以更新工作的相關資訊。 |
    | 自訂表單 | 按一下以新增或移除自訂Forms，或更新表單上的資訊。 |
@@ -430,39 +430,39 @@ ht-degree: 2%
 您可以一次編輯多個任務。 確保您擁有工作的管理許可權以便編輯。
 
 1. 移至包含您要大量編輯之任務的專案。
-1. 按一下 **任務** 在左側面板中。
-1. 確保 **自動儲存** 已選取選項。
+1. 按一下左側面板中的&#x200B;**工作**。
+1. 請確定已選取&#x200B;**自動儲存**&#x200B;選項。
 
    >[!IMPORTANT]
    >
    >手動儲存任務時，您無法大量編輯任務。
 
-   如需有關將變更儲存至清單中工作的方式的詳細資訊，請參閱區段 [編輯清單中任務的相關考量事項](#considerations-about-editing-tasks-in-a-list) 本文章內容。
+   如需有關將變更儲存至清單中任務的詳細資訊，請參閱本文的[編輯清單中任務的考量事項](#considerations-about-editing-tasks-in-a-list)小節。
 
 1. 在任務清單中選取數個任務。
-1. 按一下 **編輯圖示** ![](assets/qs-edit-icon.png).
+1. 按一下&#x200B;**編輯圖示** ![](assets/qs-edit-icon.png)。
 
-   此 **編輯任務** 對話方塊開啟。
+   **編輯工作**&#x200B;對話方塊開啟。
 
 1. 指定您要變更所有所選工作的資訊。
 
-   編輯所有任務的資訊與編輯一個任務的資訊相同。 如果您想要編輯任務「工期」，則選取的任務必須具有相同的任務限制；否則， **持續時間** 欄位未填入。
+   編輯所有任務的資訊與編輯一個任務的資訊相同。 如果您想要編輯任務「工期」，選取的任務必須具有相同的任務限制；否則，**工期**&#x200B;欄位不會填入。
 
-   如需有關編輯任務的詳細資訊，請參閱 [編輯任務](../../../manage-work/tasks/manage-tasks/edit-tasks.md).
+   如需編輯工作的詳細資訊，請參閱[編輯工作](../../../manage-work/tasks/manage-tasks/edit-tasks.md)。
 
    >[!NOTE]
    >
-   >您正在變更所有選定任務的資訊將會覆寫個別任務的現有資訊，但 **指定任務** 欄位。 在大量編輯中新增受指派人，會將該受指派人新增至所有選取的任務。 如果將其他受指派人指派給所選任務，則除了透過大量編輯新增的受指派人外，受指派人將維持受指派狀態。
+   >您正在所有選取的任務上變更的資訊將會覆寫個別任務（**工作總攬**&#x200B;欄位除外）的現有資訊。 在大量編輯中新增受指派人，會將該受指派人新增至所有選取的任務。 如果將其他受指派人指派給所選任務，則除了透過大量編輯新增的受指派人外，受指派人將維持受指派狀態。
 
-1. 按一下 **自訂Forms** 編輯附加到所有選定任務的自訂表單。 清單中只會顯示作用中的自訂表單。
+1. 按一下&#x200B;**自訂Forms**，編輯附加到所有選定任務的自訂表單。 清單中只會顯示作用中的自訂表單。
 
    如果所選的任務沒有任何常見的自訂表格，則本節不會列出任何表格。
 
    您只能在表單上編輯附加到所有選定任務且您有權編輯的欄位。
 
-1. （選用）在自訂Forms區段中，選取 **重新計算自訂運算式** 用於確保附加到所選任務的自訂表單上的所有計算自訂欄位都是最新的選項。
+1. （選擇性）在自訂Forms區段中，選取&#x200B;**重新計算自訂運算式**&#x200B;選項，以確保附加到所選任務的自訂表單上的所有計算自訂欄位都是最新狀態。
 1. 按一下「**儲存變更**」。
 
    您所做的所有變更現在會顯示在所有選取的任務中。
 
-如需大量編輯自訂表單的相關資訊，請參閱以下主題中的「當大量編輯物件時編輯多個自訂Forms」一節： [管理附加到物件的自訂表單](../../../workfront-basics/work-with-custom-forms/manage-custom-forms-attached-to-objects.md).
+如需大量編輯自訂表單的相關資訊，請參閱[管理附加到物件的自訂表單](../../../workfront-basics/work-with-custom-forms/manage-custom-forms-attached-to-objects.md)中的「當大量編輯物件時編輯多個自訂Forms」一節。

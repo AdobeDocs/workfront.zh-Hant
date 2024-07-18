@@ -20,7 +20,7 @@ ht-degree: 0%
 
 您可以將群組重新命名為使用者更熟悉的名稱。
 
-例如，當您套用標準Portfolio名稱分組至專案清單時，分組的名稱會顯示為 *Portfolio：名稱：`<name of portfolio>`*.
+例如，當您套用標準Portfolio名稱群組至專案清單時，群組的名稱會顯示為&#x200B;*Portfolio：名稱：`<name of portfolio>`*。
 
 ![](assets/grouping-unedited-name-350x167.png)
 
@@ -58,30 +58,30 @@ ht-degree: 0%
    <td role="rowheader">存取層級設定*</td> 
    <td> <p>編輯報告、儀表板、行事曆的存取權以修改報告</p> <p>編輯對篩選器、檢視、群組的存取權以修改群組</p> <p><b>附註</b>
 
-如果您還是沒有存取權，請詢問您的Workfront管理員，他們是否在您的存取層級中設定其他限制。 如需有關Workfront管理員如何修改您的存取層級的資訊，請參閱 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>.</p> </td>
+如果您還是沒有存取權，請詢問您的Workfront管理員，他們是否在您的存取層級中設定其他限制。 如需Workfront管理員如何修改存取層級的詳細資訊，請參閱<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>。</p> </td>
 </tr>  
   <tr> 
    <td role="rowheader">物件許可權</td> 
-   <td> <p>管理報表的許可權</p> <p>如需請求其他存取許可權的詳細資訊，請參閱 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">要求物件的存取權 </a>.</p> </td> 
+   <td> <p>管理報表的許可權</p> <p>如需請求其他存取權的資訊，請參閱<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">請求物件</a>的存取權。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;若要瞭解您擁有的計畫、授權型別或存取權，請聯絡您的Workfront管理員。
+&#42;若要瞭解您擁有的計畫、授權型別或存取權，請連絡您的Workfront管理員。
 
 ## 編輯群組中的顯示名稱
 
 若要變更專案群組中的顯示名稱：
 
 1. 前往專案清單。
-1. 從 **分組** 下拉式功能表，選取 **新群組**.
+1. 從&#x200B;**群組**&#x200B;下拉式功能表中，選取&#x200B;**新群組**。
 
-1. 按一下 **新增群組**，並開始在「 」中輸入「Portfolio名稱」 **首先由：** 欄位，然後在其顯示在清單中時選取它。
+1. 按一下&#x200B;**新增群組**，然後開始在&#x200B;**第一者：**&#x200B;欄位中輸入「Portfolio名稱」，然後當它顯示在清單中時選取它。
 
-1. 按一下 **切換到文字模式**.
+1. 按一下&#x200B;**切換到文字模式**。
 1. 執行下列任一項作業：
 
-   * 將下列程式碼新增至 **將報告分組** 方塊：
+   * 將下列程式碼新增至&#x200B;**將您的報告分組**&#x200B;方塊中可用的現有文字：
 
 
      `group.0.displayname=Your Value`
@@ -101,11 +101,11 @@ ht-degree: 0%
 
      >[!TIP]
      >
-     >您也可以離開 `group.0.name=` 和 `group.0.displayname=` 行空白，在此情況下，分組會顯示您分組依據的值。
+     >您也可以將`group.0.name=`與`group.0.displayname=`行保留為空白，在這種情況下，分組會顯示您正在依據的值。
 
 
      ![](assets/grouping-edited-name-no-name-350x162.png)
 
-1. 按一下 **完成**，然後 **儲存群組**.
+1. 按一下&#x200B;**完成**，然後按一下&#x200B;**儲存群組**。
 
    根據您的文字模式資訊修改分組的預設名稱。

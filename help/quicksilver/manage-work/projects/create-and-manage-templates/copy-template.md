@@ -35,16 +35,16 @@ ht-degree: 3%
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定*</td> 
-   <td> <p>編輯範本的存取權</p> <p>注意：如果您還是沒有存取權，請詢問您的Workfront管理員，他們是否在您的存取層級中設定其他限制。 如需有關Workfront管理員如何修改您的存取層級的資訊，請參閱 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>.</p> </td> 
+   <td> <p>編輯範本的存取權</p> <p>注意：如果您還是沒有存取權，請詢問您的Workfront管理員，他們是否在您的存取層級中設定其他限制。 如需Workfront管理員如何修改存取層級的詳細資訊，請參閱<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">物件許可權</td> 
-   <td> <p>檢視或更高的範本許可權</p> <p>如需請求其他存取許可權的詳細資訊，請參閱 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">要求物件的存取權 </a>.</p> </td> 
+   <td> <p>檢視或更高的範本許可權</p> <p>如需請求其他存取權的資訊，請參閱<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">請求物件</a>的存取權。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;若要瞭解您擁有的計畫、授權型別或存取權，請聯絡您的Workfront管理員。
+&#42;若要瞭解您擁有的計畫、授權型別或存取權，請連絡您的Workfront管理員。
 
 
 ## 複製範本的考量事項
@@ -69,10 +69,10 @@ ht-degree: 3%
 ## 複製範本
 
 1. 前往您要複製的範本。
-1. 按一下 **更多** 功能表 ![](assets/qs-more-icon-on-an-object.png)，然後按一下 **複製**.
-1. 在中指定範本的名稱 **新範本名稱** 欄位。
+1. 按一下&#x200B;**更多**&#x200B;功能表![](assets/qs-more-icon-on-an-object.png)，然後按一下&#x200B;**複製**。
+1. 在&#x200B;**新範本名稱**&#x200B;欄位中指定範本的名稱。
 
-   依預設，新名稱為 **副本 `<original template name>`.**
+   依預設，新名稱是&#x200B;**`<original template name>`的復本。**
 
-1. 選取您是否要 **保留使用者在任務或範本中的指派**：選取此選項可將所有任務和範本指派從原始範本傳送到新範本。
-1. 按一下 **儲存** 以建立範本的復本。
+1. 選取是否要&#x200B;**保留使用者在任務與範本上的指派**：選取此選項可將原始範本中的所有任務與範本指派傳送到新範本。
+1. 按一下[儲存]**以建立範本的復本。**

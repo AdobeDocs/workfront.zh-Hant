@@ -21,9 +21,9 @@ ht-degree: 0%
 
 本頁說明2020年11月2日當週在Adobe Workfront Fusion中所做的所有增強功能。
 
-如需所有最近變更的清單，請參閱 [Adobe Workfront Fusion發行活動](../../../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
+如需所有最近變更的清單，請參閱[Adobe Workfront Fusion發行活動](../../../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md)。
 
-如需Workfront Fusion中近期的錯誤修正清單，請參閱 [Workfront維護更新](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) 頁面，並檢查是否有任何標示為Workfront Fusion維護更新的更新。
+如需Workfront Fusion中最近的錯誤修正清單，請參閱[Workfront維護更新](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html)頁面，並檢查任何標示為Workfront Fusion維護更新的更新。
 
 ## Allocadia聯結器和模組現已推出
 
@@ -35,7 +35,7 @@ ht-degree: 0%
 * 建立、讀取、更新或刪除Allocadia記錄
 * 執行自訂API呼叫
 
-如需有關可用配置模組的資訊，請參閱 [配置模組](../../../../../workfront-fusion/apps-and-their-modules/allocadia-modules.md).
+如需有關可用的Allocadia模組的資訊，請參閱[Allocadia模組](../../../../../workfront-fusion/apps-and-their-modules/allocadia-modules.md)。
 
 ## DocuSign聯結器和模組現已推出（即將推出）
 
@@ -49,4 +49,4 @@ ht-degree: 0%
 * 將檔案上傳到信封
 * 執行自訂API呼叫
 
-如需詳細資訊，請參閱 [docussign模組](../../../../../workfront-fusion/apps-and-their-modules/docusign-modules.md).
+如需詳細資訊，請參閱[DocuSign模組](../../../../../workfront-fusion/apps-and-their-modules/docusign-modules.md)。

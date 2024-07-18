@@ -16,7 +16,7 @@ ht-degree: 0%
 
 此頁面說明2024年第二季度版本對「預覽」環境所做的所有管理員增強功能。 如上所述，這些增強功能將於生產環境中提供。
 
-如需2024年第二季發行週期目前可用的所有變更清單，請參閱 [2024年第二季版本總覽](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).
+如需2024年第二季發行週期目前可用的所有變更清單，請參閱[2024年第二季發行概觀](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md)。
 
 ## 顯示邏輯和略過邏輯現在可在表單設計工具預覽模式中使用
 
@@ -26,7 +26,7 @@ ht-degree: 0%
 
 Beta版自訂表單設計工具現在可讓您在預覽模式下測試顯示邏輯及略過邏輯。 以前，即使套用了邏輯，預覽中仍會顯示所有欄位。
 
-如需在表單設計工具中預覽自訂表單的詳細資訊，請參閱 [使用表單設計工具來組織和預覽表單](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/organize-a-form.md).
+如需在表單設計工具中預覽自訂表單的詳細資訊，請參閱[使用表單設計工具整理並預覽表單](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/organize-a-form.md)。
 
 ## 公司和使用者現在支援進階自訂表單欄位
 
@@ -36,7 +36,7 @@ Beta版自訂表單設計工具現在可讓您在預覽模式下測試顯示邏�
 
 當您將自訂表單附加至公司或使用者時，現在可以使用進階自訂表單功能，例如外部查詢欄位和Workfront原生欄位。 進階功能可在「公司詳細資訊」和「使用者詳細資訊」頁面上使用，而非「編輯公司」和「編輯使用者」對話方塊。 必須在新的表單設計工具中建立自訂表單，才能利用這些欄位型別。
 
-如需自訂表單欄位的詳細資訊，請參閱 [使用表單設計工具設計表單](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+如需自訂表單欄位的詳細資訊，請參閱[使用表單設計工具設計表單](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。
 
 ## JumpSeat整合現在可用於新封裝型別
 
@@ -46,7 +46,7 @@ Beta版自訂表單設計工具現在可讓您在預覽模式下測試顯示邏�
 
 使用其中一個新套件型別（即Select、Prime或Ultimate）的帳戶現在可以使用現有的JumpSeat整合。 您必須擁有使用中的JumpSeat訂閱才能啟用整合。
 
-如需JumpSeat整合的詳細資訊，請參閱 [設定JumpSeat整合](/help/quicksilver/administration-and-setup/configure-integrations/configure-jumpseat.md).
+如需JumpSeat整合的詳細資訊，請參閱[設定JumpSeat整合](/help/quicksilver/administration-and-setup/configure-integrations/configure-jumpseat.md)。
 
 ## 表單設計工具Beta版提供Workfront原生欄位
 
@@ -64,9 +64,9 @@ Workfront原生欄位現在可讓您新增至自訂表單。 此新欄位型別�
 
 此功能僅在表單設計工具（測試版）中可用，不在舊版表單產生器中可用。
 
-如需詳細資訊，請參閱 [使用表單設計工具設計表單](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+如需詳細資訊，請參閱[使用表單設計工具](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)設計表單。
 
-[觀看此功能的示範影片。](https://video.tv.adobe.com/v/3427702/){target=_blank}
+[觀看此功能的影片示範。](https://video.tv.adobe.com/v/3427702/){target=_blank}
 
 ## 屬性對應現在可供已移轉至Adobe IMS的組織使用
 
@@ -78,7 +78,7 @@ Workfront系統管理員現在可以為已移轉至Adobe IMS的組織設定使�
 
 以前，此功能僅適用於尚未上線Adobe IMS的組織。
 
-如需設定屬性對應的說明，請參閱 [在Adobe統一體驗中對應使用者屬性](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/map-user-attributes.md#map-user-attributes-in-the-adobe-unified-experience) 在文章中 **對應使用者屬性並自動布建新使用者**.
+如需設定屬性對應的說明，請參閱&#x200B;**對應使用者屬性及自動布建新使用者**&#x200B;一文中的[在Adobe中對應統一體驗的使用者屬性](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/map-user-attributes.md#map-user-attributes-in-the-adobe-unified-experience)。
 
 ## 表單設計工具Beta版現在提供略過邏輯和顯示邏輯
 
@@ -90,4 +90,4 @@ Workfront系統管理員現在可以為已移轉至Adobe IMS的組織設定使�
 
 表單設計器畫布中欄位上的圖示表示已在該欄位上設定邏輯，或該欄位用於其他欄位上設定的邏輯規則。
 
-如需詳細資訊，請參閱 [使用表單設計工具新增顯示邏輯和略過邏輯](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/display-skip-logic-form-designer.md).
+如需詳細資訊，請參閱[使用表單設計工具新增顯示邏輯和略過邏輯](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/display-skip-logic-form-designer.md)。

@@ -45,7 +45,7 @@ ht-degree: 1%
    <td> 
    <p>新授權：投稿人或以上版本</p>
    或
-   <p>目前授權：要求或以上</p> <p>如需詳細資訊，請參閱 <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront授權總覽</a>.</p> </td> 
+   <p>目前授權：要求或以上</p> <p>如需詳細資訊，請參閱<a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront授權總覽</a>。</p> </td> 
   </tr> 
   <tr>
  <td role="rowheader">產品*</td>
@@ -55,7 +55,7 @@ ht-degree: 1%
 <li>Select或Prime Adobe Workfront計畫以及額外的Adobe Workfront目標授權。</li>
 <li>預設包含Workfront目標的Ultimate Workfront計畫。 </li></ul>
  <p>或</p>
- <p>目前產品需求： Adobe Workfront Goals的Workfront計畫和額外授權。 </p> <p>如需詳細資訊，請參閱 <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">使用Workfront目標的需求</a>. </p> </td>
+ <p>目前產品需求： Adobe Workfront Goals的Workfront計畫和額外授權。 </p> <p>如需詳細資訊，請參閱<a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">使用Workfront目標的需求</a>。 </p> </td>
  </tr>
  <tr>
  <td role="rowheader">存取層級</td>
@@ -71,7 +71,7 @@ ht-degree: 1%
     <div> 
      <p>檢視目標或更高許可權以檢視它</p> 
      <p>管理目標的許可權以編輯它</p> 
-     <p>如需關於共用目標的資訊，請參閱 <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">在Workfront目標中共用目標</a>. </p> 
+     <p>如需共用目標的相關資訊，請參閱<a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">在Workfront目標中共用目標</a>。 </p> 
     </div> </td> 
   </tr> 
   <tr>
@@ -82,11 +82,11 @@ ht-degree: 1%
  </tbody> 
 </table>
 
-*如需詳細資訊，請參閱 [Workfront檔案中的存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 ## 存取Workfront目標
 
-1. 按一下 **主要功能表** 圖示 ![](assets/main-menu-icon.png) 按一下「 」 **目標**.
+1. 按一下右上角的&#x200B;**主要功能表**&#x200B;圖示![](assets/main-menu-icon.png)，然後按一下&#x200B;**目標**。
 
    <!-- drafted for Shell release: Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-management/assets/three-line-main-menu-icon.png) in the upper-left corner)
    -->
@@ -106,9 +106,9 @@ ht-degree: 1%
 
    或
 
-   按一下 **新目標** 以新增目標。
+   按一下&#x200B;**新目標**&#x200B;以新增目標。
 
-   如需建立目標的相關資訊，請參閱 [在Adobe Workfront目標中建立目標](../../workfront-goals/goal-management/create-goals.md).
+   如需建立目標的相關資訊，請參閱[在Adobe Workfront目標中建立目標](../../workfront-goals/goal-management/create-goals.md)。
 
 ## 開啟和管理個別目標
 
@@ -154,13 +154,13 @@ To access an individual goal in the Production environment:
 
 若要存取個別目標：
 
-1. 按一下 **主要功能表** Workfront圖示並按一下「 」，接著再按一下「 」。 **目標** .
+1. 按一下Workfront右上角的&#x200B;**主要功能表**&#x200B;圖示，然後按一下&#x200B;**目標** 。
 預設會顯示「目標清單」。
    ![](assets/goal-list-unshimmed.png)
 1. 按一下清單中目標的名稱。
 目標的頁面隨即顯示。
    ![](assets/goal-page-unshimmed.png)
-1. 按一下 **更多** 功能表 ![](assets/more-icon.png) 位於目標名稱的右側，以進一步編輯或共用目標。
-1. 按一下 **目標詳細資料** 編輯目標的相關資訊。 如需詳細資訊，請參閱 [更新「Adobe Workfront目標」中「目標詳細資料」區段中的目標](../goal-management/update-goals-in-goal-details-panel.md).
+1. 按一下目標名稱右側的&#x200B;**更多**&#x200B;功能表![](assets/more-icon.png)，以進一步編輯或共用目標。
+1. 按一下左側面板中的&#x200B;**目標詳細資料**&#x200B;以編輯目標的相關資訊。 如需詳細資訊，請參閱Adobe Workfront目標](../goal-management/update-goals-in-goal-details-panel.md)中「目標詳細資料」一節的[更新目標。
 
 

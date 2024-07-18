@@ -14,12 +14,12 @@ ht-degree: 0%
 
 ---
 
-# 在中建立實務案例 [!DNL Adobe Workfront Fusion]
+# 在[!DNL Adobe Workfront Fusion]中建立實務案例
 
 本節包含下列文章：
 
-* [在中建立基本情境 [!DNL Adobe Workfront Fusion]](/help/quicksilver/workfront-fusion/get-started/build-practice-scenarios/create-simple-scenario.md)
-* [將觸發程式模組新增至中的基本案例 [!DNL Adobe Workfront Fusion]](/help/quicksilver/workfront-fusion/get-started/build-practice-scenarios/add-trigger-to-simple-scenario.md)
-* [使用函式更新中簡單案例中的專案 [!DNL Adobe Workfront Fusion]](/help/quicksilver/workfront-fusion/get-started/build-practice-scenarios/update-a-project-simple-scenario.md)
-* [將篩選器新增至中的基本案例 [!DNL Adobe Workfront Fusion]](/help/quicksilver/workfront-fusion/get-started/build-practice-scenarios/add-filter-simple-scenario.md)
-* [將webhook新增至中的基本情境 [!DNL Adobe Workfront Fusion]](/help/quicksilver/workfront-fusion/get-started/build-practice-scenarios/add-a-webhook.md)
+* [在 [!DNL Adobe Workfront Fusion]中建立基本案例](/help/quicksilver/workfront-fusion/get-started/build-practice-scenarios/create-simple-scenario.md)
+* [在 [!DNL Adobe Workfront Fusion]中將觸發程式模組新增至基本案例](/help/quicksilver/workfront-fusion/get-started/build-practice-scenarios/add-trigger-to-simple-scenario.md)
+* [使用函式更新 [!DNL Adobe Workfront Fusion]中簡單案例中的專案](/help/quicksilver/workfront-fusion/get-started/build-practice-scenarios/update-a-project-simple-scenario.md)
+* [在 [!DNL Adobe Workfront Fusion]中新增篩選器至基本案例](/help/quicksilver/workfront-fusion/get-started/build-practice-scenarios/add-filter-simple-scenario.md)
+* [將webhook新增至 [!DNL Adobe Workfront Fusion]中的基本案例](/help/quicksilver/workfront-fusion/get-started/build-practice-scenarios/add-a-webhook.md)

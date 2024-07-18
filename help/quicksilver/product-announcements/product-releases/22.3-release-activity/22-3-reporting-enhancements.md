@@ -15,7 +15,7 @@ ht-degree: 3%
 
 # 22.3報表增強功能
 
-本頁說明22.3版本對預覽環境所做的所有報告增強功能。 這些增強功能已在2022年7月11日當週的生產環境中推出。 如需22.3版所有可用變更的清單，請參閱 [22.3版本總覽](../../../product-announcements/product-releases/22.3-release-activity/22-3-release-overview.md).
+本頁說明22.3版本對預覽環境所做的所有報告增強功能。 這些增強功能已在2022年7月11日當週的生產環境中推出。 如需22.3版本可用的所有變更清單，請參閱[22.3版本總覽](../../../product-announcements/product-releases/22.3-release-activity/22-3-release-overview.md)。
 
 ## 移除並新增清單和報告中的資源預算欄位
 
@@ -35,5 +35,5 @@ ht-degree: 3%
 * 預算成本
 
 
-如需詳細資訊，請參閱 [瞭解專案的預算勞力成本和預算時數](/help/quicksilver/manage-work/projects/project-finances/budgeted-labor-cost.md).
+如需詳細資訊，請參閱[瞭解專案的預算勞力成本和預算時數](/help/quicksilver/manage-work/projects/project-finances/budgeted-labor-cost.md)。
 

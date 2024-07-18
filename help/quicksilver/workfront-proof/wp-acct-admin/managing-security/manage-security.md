@@ -4,7 +4,7 @@ product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: account-administration
 title: 管理安全性
-description: 本節包含管理中安全性的相關文章 [!DNL Workfront Proof].
+description: 本節包含有關在 [!DNL Workfront Proof]中管理安全性的文章。
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 recommendations: noDisplay, noCatalog
@@ -20,10 +20,10 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->本文提及獨立版產品中的功能 [!DNL Workfront Proof]. 有關內部校訂的資訊 [!DNL Adobe Workfront]，請參閱 [校訂](../../../review-and-approve-work/proofing/proofing.md).
+>本文提及獨立產品[!DNL Workfront Proof]中的功能。 有關[!DNL Adobe Workfront]內部校訂的資訊，請參閱[校訂](../../../review-and-approve-work/proofing/proofing.md)。
 
 本節包含下列文章：
 
-* [中的證明安全性 [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/managing-security/proof-security-in-workfront-proof.md)
-* [單一登入 [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/managing-security/single-sign-on-overview.md)
-* [瞭解中的電子簽章 [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/managing-security/electronic-sigs-in-wp.md)
+* [ [!DNL Workfront Proof]中的校訂安全性](../../../workfront-proof/wp-acct-admin/managing-security/proof-security-in-workfront-proof.md)
+* [ [!DNL Workfront Proof]中的單一登入](../../../workfront-proof/wp-acct-admin/managing-security/single-sign-on-overview.md)
+* [瞭解 [!DNL Workfront Proof]中的電子簽章](../../../workfront-proof/wp-acct-admin/managing-security/electronic-sigs-in-wp.md)

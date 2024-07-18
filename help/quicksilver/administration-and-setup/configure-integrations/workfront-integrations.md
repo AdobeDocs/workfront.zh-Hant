@@ -21,17 +21,17 @@ ht-degree: 4%
 本節包含下列文章：
 
 * [[!DNL Adobe Workfront] 整合](../../administration-and-setup/configure-integrations/workfront-integrations-1.md)
-* [設定 [!DNL Workfront] 和 [!DNL Frame.io] 整合](/help/quicksilver/administration-and-setup/configure-integrations/configure-wf-and-frame.md)
+* [設定 [!DNL Workfront] 與 [!DNL Frame.io] 整合](/help/quicksilver/administration-and-setup/configure-integrations/configure-wf-and-frame.md)
 * [設定 [!DNL Experience Manager Assets as a Cloud Service] 整合](../../administration-and-setup/configure-integrations/configure-aacs-integration.md)
 * [設定 [!DNL Experience Manager Assets Essentials] 整合](../../documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md)
-* [[!DNL Workfront] 和 [!DNL Experience Manager Assets] 整合](../../documents/workfront-and-experience-manager-integrations/wf-experience-manager-integrations.md)
-* [設定 [!DNL Workfront] 替換為 [!DNL Adobe Experience Manager] 舊版聯結器](../../administration-and-setup/configure-integrations/configure-workfront-aem.md)
-* [啟用 [!UICONTROL 適用於Outlook的Adobe Workfront]](../../administration-and-setup/configure-integrations/enable-workfront-for-outlook.md)
+* [[!DNL Workfront] 與 [!DNL Experience Manager Assets] 整合](../../documents/workfront-and-experience-manager-integrations/wf-experience-manager-integrations.md)
+* [使用 [!DNL Adobe Experience Manager] 舊聯結器](../../administration-and-setup/configure-integrations/configure-workfront-aem.md)設定 [!DNL Workfront] 
+* [啟用Outlook的[!UICONTROL Adobe Workfront]](../../administration-and-setup/configure-integrations/enable-workfront-for-outlook.md)
 * [設定檔案整合](../../administration-and-setup/configure-integrations/configure-document-integrations.md)
 * [停用檔案整合](../../administration-and-setup/configure-integrations/disable-document-integrations.md)
 * [設定 [!DNL SharePoint] 整合](../../administration-and-setup/configure-integrations/configure-sharepoint-integration.md)
 * [設定中繼資料對應](../../administration-and-setup/configure-integrations/set-up-metadata-mapping.md)
-* [建立[！UICONTROL [!DNL Adobe Workfront] 的 [!DNL Creative Cloud]] 中的使用者套件 [!DNL Adobe Admin Console]](/help/quicksilver/administration-and-setup/configure-integrations/create-plugin-only-packages.md)
+* [在 [!DNL Adobe Admin Console]為您的使用者建立 [!DNL Creative Cloud]] 封裝的[！UICONTROL [!DNL Adobe Workfront] ](/help/quicksilver/administration-and-setup/configure-integrations/create-plugin-only-packages.md)
 
   <!--
   <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="../../administration-and-setup/configure-integrations/create-oauth-application.md" class="MCXref xref" xrefformat="{para}">Create OAuth2 applications for Workfront integrations</a> </li>

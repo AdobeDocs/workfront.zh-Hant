@@ -51,7 +51,7 @@ ht-degree: 2%
  </tbody> 
 </table>
 
-*如需存取需求的詳細資訊，請參閱 [Workfront檔案中的存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*如需存取需求的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -59,13 +59,13 @@ ht-degree: 2%
 
 {{step-1-to-setup}}
 
-1. 在左側面板中，按一下 **電子郵件** > **通知**> **電子郵件範本**.
+1. 在左側面板中，按一下&#x200B;**電子郵件** > **通知**> **電子郵件範本**。
 
    ![](assets/email-templates-tab-under-setup-email-notifications-area.png)
 
-1. 按一下 **新增電子郵件範本**.
+1. 按一下&#x200B;**新增電子郵件範本**。
 
-1. 在 **新增電子郵件範本** 方塊中，指定下列資訊：
+1. 在&#x200B;**新電子郵件範本**&#x200B;方塊中，指定下列資訊：
 
    <table style="table-layout:auto"> 
     <col> 
@@ -97,7 +97,7 @@ ht-degree: 2%
      </tr> 
      <tr> 
       <td role="rowheader">內文 </td> 
-      <td> <p>新增電子郵件訊息內容的文字。</p> <p>您可以對電子郵件內容使用HTML格式，如區段中所述 <a href="#add-html-formatting-to-an-email-template" class="MCXref xref">新增HTML格式至電子郵件範本</a> 本文章內容。</p> </td> 
+      <td> <p>新增電子郵件訊息內容的文字。</p> <p>您可以對電子郵件內容使用HTML格式，如本文中<a href="#add-html-formatting-to-an-email-template" class="MCXref xref">新增HTML格式至電子郵件範本</a>一節所述。</p> </td> 
      </tr> 
     </tbody> 
    </table>
@@ -107,17 +107,17 @@ ht-degree: 2%
 ## 新增HTML格式至電子郵件範本 {#add-html-formatting-to-an-email-template}
 
 您可以將HTML標籤新增至電子郵件範本，以產生自訂通知。\
-開始建立電子郵件範本，如所述 [建立新的電子郵件範本](#create-a-new-email-template).
+開始建立電子郵件範本，如[建立新的電子郵件範本](#create-a-new-email-template)中所述。
 
 HTML格式設定可豐富您的電子郵件範本，如下列章節所示。
 
 * [連結至Workfront物件](#link-to-workfront-objects)
-* [具有HTML的自訂欄位連結](#link-to-custom-fields-with-html)
+* [連結到具有HTML](#link-to-custom-fields-with-html)的自訂欄位
 * [HTML電子郵件範例](#html-email-examples)
 
 ### 連結至Workfront物件 {#link-to-workfront-objects}
 
-Workfront您可以使用 `$$` 萬用字元，告訴電子郵件產生器從與特定物件關聯的資料庫中尋找值。
+您可以使用`$$`萬用字元加入Workfront欄位的連結，以告知電子郵件產生器從與特定物件關聯的資料庫中尋找值。
 
 例如，通知的電子郵件內文會提醒工作受指派人工作即將開始，其結構如下所示：
 
@@ -143,15 +143,15 @@ Workfront您可以使用 `$$` 萬用字元，告訴電子郵件產生器從與�
 
 若要取得物件的「萬用字元」值，請執行下列任一項作業：
 
-* 參考API Explorer，並從任何物件的「欄位」標籤中選取物件名稱。 如需API Explorer的詳細資訊，請參閱 [API總管](/help/quicksilver/wf-api/general/api-explorer.md).
+* 參考API Explorer，並從任何物件的「欄位」標籤中選取物件名稱。 如需API總管的詳細資訊，請參閱[API總管](/help/quicksilver/wf-api/general/api-explorer.md)。
 
-* 使用 `valuefield` 您在報表的文字模式檢視中找到的值。 如需文字模式值的詳細資訊，請參閱 [文字模式概觀](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).
+* 使用您在報告的文字模式檢視中找到的`valuefield`值。 如需文字模式值的詳細資訊，請參閱[文字模式概觀](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md)。
 
-此 `heading` value可以是物件的名稱，如同您想要其顯示在電子郵件內文中的名稱。
+`heading`值可以是物件的名稱，如同您想要其顯示在電子郵件內文中的名稱。
 
 ### 具有HTML的自訂欄位連結 {#link-to-custom-fields-with-html}
 
-您可以使用來包含使用者連結和自訂欄位 `$$` 萬用字元，告訴電子郵件產生器從與物件關聯的資料庫中尋找值。 它們必須出現在資料庫屬性參考的兩側。
+您可以使用`$$`萬用字元來指示電子郵件產生器從與物件關聯的資料庫中尋找值，以包含使用者連結和自訂欄位。 它們必須出現在資料庫屬性參考的兩側。
 
 例如，將以下文字新增為HTML會將指派使用者的名字新增至與任務關聯的提醒通知：
 
@@ -163,7 +163,7 @@ Workfront您可以使用 `$$` 萬用字元，告訴電子郵件產生器從與�
 
 例如，這是電子郵件範本，其中包含對名為「傳送日期」的自訂欄位的參考，並假設欄位「傳送日期」屬於任務。
 
-取代 `<your domain>` 不含方括弧的Workfront網域：
+將`<your domain>`取代為您公司的Workfront網域（不含括弧）：
 
 ```html
 <html>
@@ -206,7 +206,7 @@ Workfront您可以使用 `$$` 萬用字元，告訴電子郵件產生器從與�
 
 若要編輯延遲專案提醒的電子郵件範本，請考慮主旨與內容欄位的這項資訊。
 
-取代 `<your domain>` 括弧)的Workfront網域中輸入URL。
+將`<your domain>`取代為您公司的Workfront網域，不含括弧。
 
 **主旨：**
 
@@ -242,9 +242,9 @@ Workfront您可以使用 `$$` 萬用字元，告訴電子郵件產生器從與�
 
 以下代碼可以包含在電子郵件範本中，以用於在任務或問題的計劃開始日期之前任何天數傳送的任務和問題提醒通知。
 
-取代 `<your domain>` 括弧)的Workfront網域中輸入URL。
+將`<your domain>`取代為您公司的Workfront網域，不含括弧。
 
-若要將此用於問題電子郵件，請變更 `/task/view.` 工作專案連結中的值 `/issue/view`.
+若要將此用於問題電子郵件，請將工作專案連結中的`/task/view.`值變更為`/issue/view`。
 
 **主旨：**
 
@@ -289,4 +289,4 @@ Workfront您可以使用 `$$` 萬用字元，告訴電子郵件產生器從與�
 
 ![email_template_delivered.png](assets/email-template-delivered.png)
 
-建立電子郵件範本後，使用者可以將其與提醒通知建立關聯，如所述 [設定提醒通知](../../../administration-and-setup/manage-workfront/emails/set-up-reminder-notifications.md).
+建立電子郵件範本後，使用者可以將其與提醒通知建立關聯，如[設定提醒通知](../../../administration-and-setup/manage-workfront/emails/set-up-reminder-notifications.md)中所述。

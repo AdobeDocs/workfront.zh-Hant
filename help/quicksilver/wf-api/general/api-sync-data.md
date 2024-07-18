@@ -10,7 +10,7 @@ role: Developer
 exl-id: 1d0583fc-1573-4279-a3fa-a912d9a4213c
 source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
 workflow-type: tm+mt
-source-wordcount: '472'
+source-wordcount: '471'
 ht-degree: 0%
 
 ---
@@ -22,11 +22,11 @@ ht-degree: 0%
 
 ## 近乎即時的更新
 
-Adobe Workfront使用「事件訂閱」（通常稱為Webhook），透過API將支援物件和動作的近乎即時更新傳送至您所需的端點。 您可能會在5秒內收到有關新物件和動作的更新，但平均而言，更新大約會在1秒後送達。 如需關於支援的物件型別、支援的動作型別、技術詳細資訊，以及如何設定事件訂閱的範例，請參閱 [事件訂閱API](../../wf-api/general/event-subs-api.md) 和 [事件訂閱傳送需求](../../wf-api/general/setup-event-sub-endpoint.md).
+Adobe Workfront使用「事件訂閱」（通常稱為Webhook），透過API將支援物件和動作的近乎即時更新傳送至您所需的端點。 您可能會在5秒內收到有關新物件和動作的更新，但平均而言，更新大約會在1秒後送達。 如需有關支援的物件型別、支援的動作型別、技術細節以及如何設定事件訂閱的範例，請參閱[事件訂閱API](../../wf-api/general/event-subs-api.md)和[事件訂閱傳遞需求](../../wf-api/general/setup-event-sub-endpoint.md)。
 
 ## 批次更新
 
-批次更新是透過定期向Workfront伺服器提出請求來設定系統以進行更新的一種方式。 有很多方法可以做到，但一般而言，程式包含讓您的服務向Workfront API伺服器提出要求，以及搜尋自上次要求呼叫以來已建立或修改的物件。 如需有關潛在請求呼叫和實用引數的資訊，請參閱 [GET行為](../../wf-api/general/api-basics.md#get-behavior) 區段來自 [API基本概念](../../wf-api/general/api-basics.md) 文章。
+批次更新是透過定期向Workfront伺服器提出請求來設定系統以進行更新的一種方式。 有很多方法可以做到，但一般而言，程式包含讓您的服務向Workfront API伺服器提出要求，以及搜尋自上次要求呼叫以來已建立或修改的物件。 如需有關潛在要求呼叫和實用引數的資訊，請參閱[API基本知識](../../wf-api/general/api-basics.md)文章中的[GET行為](../../wf-api/general/api-basics.md#get-behavior)區段。
 
 當您設定批次更新的服務時，請謹記以下一些重要事項：
 
@@ -40,9 +40,9 @@ Adobe Workfront使用「事件訂閱」（通常稱為Webhook），透過API將�
  
 <pre><code>2020-05-18T17:00:00:000-0600</code></pre> 
 
-建立物件的日期和上次修改物件的日期分別儲存為「entryDate」和「lastUpdateDate」。 如需Workfront物件、其關聯欄位和欄位名稱的深入資訊，請參閱 [API總管](../../wf-api/general/api-explorer.md). 請注意，任何指定Workfront物件的entryDate都不會變更，因為每次修改物件時，lastUpdatedDate都會變更。
+建立物件的日期和上次修改物件的日期分別儲存為「entryDate」和「lastUpdateDate」。 如需Workfront物件、其關聯欄位和欄位名稱的深入資訊，請參閱[API總管](../../wf-api/general/api-explorer.md)。 請注意，任何指定Workfront物件的entryDate都不會變更，因為每次修改物件時，lastUpdatedDate都會變更。
 
-**範例：** 問題物件的GET請求，利用 **lastUpdateDate** 欄位。 此請求將傳回自指定日期以來更新的所有問題。
+**範例：**&#x200B;使用&#x200B;**lastUpdateDate**&#x200B;欄位來要求問題物件的GET。 此請求將傳回自指定日期以來更新的所有問題。
 
 <!-- [Copy](javascript:void(0);) -->
  
@@ -54,7 +54,7 @@ https://<domain>.my.workfront.com/attask/api/v15.0/OPTASK/search?fields=ID,name,
 
 ### 日誌專案物件
 
-如果您想要取得有關物件上特定欄位的變更，則可以查詢「Journal Entry」物件。 Workfront Journal Entry物件可設定為每次修改特定物件欄位時，都記錄有關這些欄位的資訊，請參閱 [設定系統更新](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md) 以取得其他詳細資訊。
+如果您想要取得有關物件上特定欄位的變更，則可以查詢「Journal Entry」物件。 Workfront Journal Entry物件可設定為每次修改特定物件欄位時，記錄這些欄位的相關資訊，請參閱[設定系統更新](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md)以取得更多詳細資料。
 
 將欄位設定為記錄為日誌專案物件的一部分時，每次修改該欄位時都會建立對應的日誌專案。 然後，您可以使用類似以下的API呼叫來查詢Journal Entry物件：
 

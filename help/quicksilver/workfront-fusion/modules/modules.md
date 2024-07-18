@@ -3,8 +3,8 @@ content-type: reference
 product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: workfront-fusion-2-0
-title: 中的模組 [!DNL Adobe] Workfront Fusion
-description: 此處列出的文章說明中的特定模組及其功能 [!DNL Adobe Workfront Fusion].
+title: ' [!DNL Adobe] Workfront Fusion中的模組'
+description: 此處列出的文章說明 [!DNL Adobe Workfront Fusion]中的特定模組及其功能。
 author: Becky
 feature: Workfront Fusion
 recommendations: noDisplay, noCatalog
@@ -16,18 +16,18 @@ ht-degree: 0%
 
 ---
 
-# 中的模組 [!DNL Adobe Workfront Fusion]
+# [!DNL Adobe Workfront Fusion]中的模組
 
 本節包含下列文章：
 
 * [模組型別](../../workfront-fusion/modules/module-types.md)
-* [在中設定模組的設定 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/configure-a-modules-settings.md)
-* [選擇觸發程式模組開始的位置 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/choose-where-trigger-module-starts.md)
-* [中的即時觸發器(webhook) [!DNL Adobe Workfront Fusion]](/help/quicksilver/workfront-fusion/webhooks/instant-triggers-webhooks.md)
-* [資料儲存位置 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/data-stores.md)
-* [中的資料結構 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/data-structures.md)
-* [中的彙總模組 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/aggregator-module.md)
-* [中的路由器模組 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/router-module.md)
-* [中的疊代器模組 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/iterator-module.md)
-* [中的HTTP要求方法 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/http-request-methods.md)
-* [中的文字剖析器疑難排解 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/text-parser-troubleshooting.md)
+* [在 [!DNL Adobe Workfront Fusion]中設定模組的設定](../../workfront-fusion/modules/configure-a-modules-settings.md)
+* [選擇觸發程式模組在 [!DNL Adobe Workfront Fusion]中的開始位置](../../workfront-fusion/modules/choose-where-trigger-module-starts.md)
+* [ [!DNL Adobe Workfront Fusion]中的即時觸發程式(webhook)](/help/quicksilver/workfront-fusion/webhooks/instant-triggers-webhooks.md)
+* [ [!DNL Adobe Workfront Fusion]中的資料存放區](../../workfront-fusion/modules/data-stores.md)
+* [ [!DNL Adobe Workfront Fusion]中的資料結構](../../workfront-fusion/modules/data-structures.md)
+* [ [!DNL Adobe Workfront Fusion]中的彙總模組](../../workfront-fusion/modules/aggregator-module.md)
+* [ [!DNL Adobe Workfront Fusion]中的路由器模組](../../workfront-fusion/modules/router-module.md)
+* [ [!DNL Adobe Workfront Fusion]中的疊代器模組](../../workfront-fusion/modules/iterator-module.md)
+* [ [!DNL Adobe Workfront Fusion]中的HTTP要求方法](../../workfront-fusion/modules/http-request-methods.md)
+* [ [!DNL Adobe Workfront Fusion]中的文字剖析器疑難排解](../../workfront-fusion/modules/text-parser-troubleshooting.md)

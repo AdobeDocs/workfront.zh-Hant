@@ -17,7 +17,7 @@ ht-degree: 3%
 
 本頁說明在23.1版發行時間範圍內對Adobe Workfront應用程式的各個區域外觀和感覺所做的小幅更新。 這些增強功能將在發佈到「預覽」後至少2週內可在「生產」環境中使用。
 
-如需23.1版所有可用變更的清單，請參閱 [23.1版本總覽](/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-release-overview.md).
+如需23.1版本可用的所有變更清單，請參閱[23.1版本總覽](/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-release-overview.md)。
 
 ## 更新「設定>介面」區域中的清單
 
@@ -43,7 +43,7 @@ ht-degree: 3%
 * 我們移除了「作用中」核取方塊，以消除範本頁面上的「更多」功能表選項的備援。
 * 我們已移除「註解」區段，以消除「更新」區段的備援。
 
-如需詳細資訊，請參閱 [編輯專案範本](/help/quicksilver/manage-work/projects/create-and-manage-templates/edit-templates.md).
+如需詳細資訊，請參閱[編輯專案範本](/help/quicksilver/manage-work/projects/create-and-manage-templates/edit-templates.md)。
 
 ## Workfront for Jira整合的新外觀
 
@@ -55,7 +55,7 @@ ht-degree: 3%
 
 適用於Jira整合的Workfront功能未變更。
 
-如需用於Jira整合的Workfront的詳細資訊，請參閱 [適用於Jira的Adobe Workfront](/help/quicksilver/workfront-integrations-and-apps/use-workfront-with-jira/workfront-for-jira.md).
+如需更多有關Jira整合的Workfront的資訊，請參閱[Jira適用的Adobe Workfront](/help/quicksilver/workfront-integrations-and-apps/use-workfront-with-jira/workfront-for-jira.md)。
 
 ## 更新使用者欄位時智慧型使用者選擇
 
@@ -83,13 +83,13 @@ ht-degree: 3%
 
 現在，當您在上面列出的使用者欄位中新增使用者時，除了使用者名稱和顯示圖片之外，也會顯示其主要角色和電子郵件。 這有助於區分具有類似或相同名稱的多位使用者。
 
-如需詳細資訊以及觀看類似功能的影片示範，請參閱中的「編輯和詳細資訊區域中專案角色的智慧使用者選擇」。 [22.4專案增強功能](/help/quicksilver/product-announcements/product-releases/22.4-release-activity/22-4-project-enhancements.md).
+如需詳細資訊以及觀看類似功能的影片示範，請參閱[22.4專案增強功能](/help/quicksilver/product-announcements/product-releases/22.4-release-activity/22-4-project-enhancements.md)中的「編輯和詳細資訊區域中專案角色的智慧使用者選擇」。
 
 ## 通知頁面的外觀和感覺更新
 
 >[!NOTE]
 >
->預覽版本： 2022年10月20日；預計生產版本：待定 <!-- Phased rollout beginning on November 3, with availability for all customers by November 17, 2022. -->
+>預覽版本： 2022年10月20日；預計生產版本：待定<!-- Phased rollout beginning on November 3, with availability for all customers by November 17, 2022. -->
 
 「通知」頁面現在呈現現代外觀，與Workfront其他區域一致。
 
@@ -99,7 +99,7 @@ ht-degree: 3%
 
 此頁面會記錄新篩選器在23.1版發行時間範圍內新增到Adobe Workfront應用程式的其他區域時。
 
-如需有關如何使用新篩選器的資訊，請參閱 [在Adobe Workfront中建立或編輯篩選器](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-filters.md).
+如需有關如何使用新篩選器的資訊，請參閱[在Adobe Workfront中建立或編輯篩選器](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-filters.md)。
 
 ### 使用新篩選器更新的清單
 

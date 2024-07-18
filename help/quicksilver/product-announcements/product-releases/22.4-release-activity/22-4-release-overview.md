@@ -54,14 +54,14 @@ ht-degree: 0%
 </a></p> <p>此功能已從22.3生產版本中移除。 此功能計畫在未來時間發佈到生產環境。</p> 
 <p>為了讓您更能掌控系統中的核准程式和狀態，我們讓您能夠根據解鎖的系統狀態來建立核准程式。 此外，您現在可以解除鎖定核准程式中已使用的任何狀態。 以前，必須鎖定核准流程中使用的系統狀態。 這使得它可供所有群組使用 — 無法將其移除或重新命名 — 因此群組管理員無法簡化其群組狀態清單以符合其特定需求。</p>   
    </td> 
-    <td> <p><b>將於下列日期提供：</b> </p> 
+    <td> <p><b>在以下日期可用：</b> </p> 
     <ul> 
      <li> <p>預覽版本： 2022年6月2日<br></p> </li> 
      <li> <p>生產版本： 2022年9月15日</p> </li> 
     </ul>  </td>
                 <tr>
                     <td>
-                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">移轉至Adobe Unified Experience</a> </p>
+                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">移轉至Adobe整合式體驗</a> </p>
                         <p>如果您的組織已上線Adobe Admin Console，您的Workfront執行個體將會移轉至Adobe Unified Experience 22.4版。</p>
                     </td>
                     <td><p><b>將於下列日期提供：</b></p>
@@ -72,14 +72,14 @@ ht-degree: 0%
                                 <p>預覽版本：不適用<br /></p>
                             </li>
                             <li>
-                                <p>生產版本：第22.4發行版本 <span style="color: #ff0000;">此移轉已延遲到2023年第1季至第2季。 </span></p>
+                                <p>生產版本：隨著22.4版本<span style="color: #ff0000;">此移轉已延遲到2023年第1 — 第2季。</span></p>
                             </li>
                         </ul>
                     </td>
                 </tr>
                 <tr>
                     <td>
-                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">主選單上的藍圖圖示現在透過版面配置範本控制</a></p>
+                        主功能表上的<a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">藍圖圖示現在透過版面配置範本控制</a></p>
                         <p>系統管理員現在可以透過版面配置範本設定，新增或移除主選單上的藍圖圖示。 這可讓您更能掌控誰可以瀏覽Blueprint目錄。</p>
                     </td>
                     <td><p><b>將於下列日期提供：</b></p>
@@ -97,7 +97,7 @@ ht-degree: 0%
                 </tr>
                 <tr>
                     <td>
-                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">問題標題自訂</a></p>
+                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">問題標頭自訂</a></p>
                         <p>作為Workfront或群組管理員，您現在可以自訂當您使用版面配置範本時問題標題中顯示的欄位。 此更新包含數個增強功能，包括從問題標題中移除或重新排列現有欄位以及新增新的、不可編輯的問題概述欄位的能力。</p>
                     </td>
                     <td><p><b>將於下列日期提供：</b></p>
@@ -115,7 +115,7 @@ ht-degree: 0%
                 </tr>
                 <tr>
                     <td>
-                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">任務標題自訂</a></p>
+                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">工作標題自訂</a></p>
                         <p>作為Workfront或群組管理員，您現在可以自訂當您使用版面配置範本時顯示在任務標題中的欄位。 此更新包含數個增強功能，包括從任務標題中移除或重新排列現有欄位以及新增新的、不可編輯的任務概述欄位的能力。</p>
                     </td>
                     <td><p><b>將於下列日期提供：</b></p>
@@ -137,7 +137,7 @@ ht-degree: 0%
                         <p>我們很高興能開啟新的主機板功能，供您及早選擇加入功能。 此選用工具適用於所有組織。</p>
                         <p>只有Workfront管理員可以選擇加入早期功能。 當管理員選擇加入早期功能時，組織中的所有使用者都會選擇加入，而額外功能會在您的生產Workfront環境中啟用。</p>
                     </td>
-                    <td><b>將於下列日期提供：</b>
+                    <td><b>在以下日期可用：</b>
                         <ul>
                             <li>
                                 <p>預覽版本： 2022年7月22日 <br /></p>
@@ -152,7 +152,7 @@ ht-degree: 0%
    <td> <p><a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">自訂表單欄位計算編輯器顯示錯誤資訊
 </a></p></p> <p>編輯自訂欄位的計算現在更容易，並在計算中直接指示有用的錯誤資訊。 當您在自訂表單中建立計算欄位時，錯誤會以粉紅色反白顯示。 當您將滑鼠停留在醒目提示的部分上時，會顯示工具提示來說明問題所在。</p>
 </td>
-    <td><b>將於下列日期提供：</b>
+    <td><b>在以下日期可用：</b>
                         <ul>
                             <li>
                                 <p>預覽發行：在22.3發行時間範圍內 <br /></p>
@@ -187,7 +187,7 @@ ht-degree: 0%
 </a></p> 
 <p>若要檢視任務前置任務的詳細資訊，您現在可以將滑鼠游標停留在「前置任務」欄中的前置任務編號上。 詳細資訊方塊會顯示被參考的前置任務與專案、前置任務的計劃開始與結束日期，以及前置任務的前置任務與後置任務的數目。 您可以展開專案詳細資料以檢視有關專案的更多資訊。 其他資訊包含在跨專案前置任務中。</p>   
    </td> 
-    <td> <p><b>將於下列日期提供：</b> </p> 
+    <td> <p><b>在以下日期可用：</b> </p> 
     <ul> 
      <li> <p>預覽版本： 2022年9月9日 <br></p> </li> 
      <li> <p>生產版本：第22.4發行版本</p> </li> 
@@ -200,7 +200,7 @@ ht-degree: 0%
 
 注意：此功能目前在「團隊」區域的工作負載平衡器中無法使用。</p>
 </td> 
-    <td> <p><b>將於下列日期提供：</b> </p> 
+    <td> <p><b>在以下日期可用：</b> </p> 
     <ul> 
      <li> <p>預覽版本： 2022年9月2日<br></p> </li> 
      <li> <p>生產版本：第22.4發行版本</p> </li> 
@@ -209,12 +209,12 @@ ht-degree: 0%
   </tr>
                 <tr>
                     <td>
-                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-project-enhancements.md" class="MCXref xref" xrefformat="{para}">在「編輯」和「詳細資訊」區域中，為專案角色選取智慧使用者</a> </p>
+                        在[編輯]和[詳細資料]區域中<a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-project-enhancements.md" class="MCXref xref" xrefformat="{para}">專案角色的智慧使用者選擇</a> </p>
                         <p>當您將使用者從專案的編輯方塊和詳細資訊區段新增到專案所有者、專案贊助者和資源管理員專案欄位時，我們改進了使用者的顯示方式。</p>
                         <p>現在，當您在「編輯」或「詳細資訊」區域中新增使用者至這些欄位時，除了他們的名稱和顯示圖片之外，也會顯示其主要角色和電子郵件。 這有助於區分具有類似或相同名稱的多位使用者。</p>
-                        <p><b>注意：</b> 專案、任務和問題的其他使用者欄位將在未來版本中使用此功能進行更新。</p>
+                        <p><b>注意：</b>專案、任務和問題的其他使用者欄位將在未來版本中使用此功能進行更新。</p>
                     </td>
-                    <td><b>將於下列日期提供：</b>
+                    <td><b>在以下日期可用：</b>
                         <ul>
                             <li>
                                 <p>預覽版本： 2022年8月25日</p>
@@ -239,9 +239,9 @@ ht-degree: 0%
                                 <p>如果有人編輯了物件且導致計算欄位運算式重新計算，則日期函式結果由使用者的當地時區決定。 此情境中的計算日期欄位結果也將根據UTC進行計算。</p>
                             </li>
                         </ul>
-                        <p>如需詳細資訊，請參閱 <a href="../../../workfront-basics/tips-tricks-and-troubleshooting/working-across-timezones.md" class="MCXref xref" xrefformat="{para}">跨時區工作</a>.</p>
+                        <p>如需詳細資訊，請參閱<a href="../../../workfront-basics/tips-tricks-and-troubleshooting/working-across-timezones.md" class="MCXref xref" xrefformat="{para}">跨時區工作</a>。</p>
                     </td>
-                    <td><b>將於下列日期提供：</b>
+                    <td><b>在以下日期可用：</b>
                         <ul>
                             <li>
                                 <p>預覽版本： 2022年8月18日</p>
@@ -279,7 +279,7 @@ ht-degree: 0%
                         <p>新篩選器體驗也可在時程表清單和「情境規劃工具」中取得。</p>
                         <p>文字模式仍可用於進階篩選器編輯，系統管理員仍可透過版面配置範本為所有使用者指派預設篩選器。</p>
                     </td>
-                    <td><b>將於下列日期提供：</b>
+                    <td><b>在以下日期可用：</b>
                         <ul>
                             <li>
                                 <p>預覽版本： 2022年7月21日<br /></p>
@@ -292,7 +292,7 @@ ht-degree: 0%
                 </tr>
                 <tr>
                     <td>
-                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-project-enhancements.md" class="MCXref xref" xrefformat="{para}">自訂表單增強功能：Adobe XD和快速篩選</a>
+                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-project-enhancements.md" class="MCXref xref" xrefformat="{para}">自訂表單增強功能： Adobe XD與快速篩選器</a>
                         </p>
                         <p>根據您的意見反應，我們已推出下列增強功能，以改善您管理自訂表單的體驗：
 
@@ -305,7 +305,7 @@ ht-degree: 0%
 </ol>
                     </td>
                     <td>
-                        <p><b>將於下列日期提供：</b>
+                        <p><b>在以下日期可用：</b>
                         </p>
                         <ul>
                             <li>
@@ -338,7 +338,7 @@ ht-degree: 0%
                 </tr>
                 <tr>
                     <td>
-                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">展示板上可用的輸入欄</a></p>
+                        看板</a>上可用的<a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">輸入資料行</p>
                         <p>您現在可以將輸入欄新增到展示板。 此欄會根據您定義的篩選器，自動將新增至Workfront中的任務和問題提取至展示板。</p>
                         <p>輸入欄可做為Kanban團隊的待處理欄、支援團隊檢視新增至請求佇列之問題的輸入位置，或您所需的任何其他目的。</p>
                         <p>展示板上只允許一個輸入欄。</p>
@@ -359,7 +359,7 @@ ht-degree: 0%
                 </tr>
                 <tr>
                     <td>
-                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">已更新面板中的篩選器面板</a></p>
+                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">已更新展示板中的篩選器面板</a></p>
                         <p>展示板上的篩選和搜尋圖示已移至畫面左側。 當您按一下篩選器圖示時，左側會開啟一個面板，以顯示所有篩選器選項。</p>
                         <p>之前，篩選器會顯示在展示板右側的下拉式清單中。</p>
                     </td>
@@ -379,7 +379,7 @@ ht-degree: 0%
                 </tr>
                 <tr>
                     <td>
-                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">使用展示板上的群組來建立泳道</a></p>
+                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">在展示板上使用群組來建立泳道</a></p>
                         <p>您現在可以依受指派人或標籤將卡片在展示板上分組。 當您選取群組依據的選項時，卡片會以泳道格式顯示。 未指派的卡片或沒有標籤的卡片會出現在自己的泳道中。</p>
                         <p>您也可以定義將卡片從一個群組移動到另一個群組時會發生什麼情況。 將卡片移動至的群組中的受指派人或標籤可新增至現有的受指派人/標籤，或覆寫卡片上的其他受指派人/標籤。</p>
                         <p>攝入欄中的任何卡片都不會包含在群組中。</p>
@@ -437,10 +437,10 @@ ht-degree: 0%
                 </tr>
                 <tr>
                     <td>
-                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">在製品限制現在可在展示板欄上使用</a> </p>
+                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">在面板資料行上現在可以使用</a>進行中的工作限制 </p>
                         <p>您現在可以為展示板上任何欄設定進行中工作(WIP)限制。 當您啟用WIP限制時，欄中會顯示計數器，其中包含目前的卡片數量與限制。 如果欄包含超過限制的卡片，計數器會變成紅色。 這只是視覺上的警告，不會阻止您新增超過限制的卡片。</p>
                     </td>
-                    <td><b>將於下列日期提供：</b>
+                    <td><b>在以下日期可用：</b>
                         <p>
                         </p>
                         <ul>
@@ -456,11 +456,11 @@ ht-degree: 0%
                 </tr>
                 <tr>
                     <td>
-                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">新增到卡片的預估欄位</a> </p>
+                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">預估欄位已新增至卡片</a> </p>
                         <p>臨機操作卡和已連線卡片上的新預估欄位可讓您輸入要完成的卡片的預估時數。 這是手動輸入，而非計算值，且值不能超過99。 預估會顯示在展示板的卡片及卡片詳細資料中。</p>
                     </td>
                     <td>
-                        <p><b>將於下列日期提供：</b>
+                        <p><b>在以下日期可用：</b>
                         <p>
   </p>
                         </p>
@@ -514,7 +514,7 @@ ht-degree: 0%
                 </tr>
                 <tr>
                     <td>
-                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-resource-management-enhancements.md" class="MCXref xref" xrefformat="{para}">當大量指派工作時，顯示在工作負載平衡器中有選定工作角色的所有使用者</a></p>
+                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-resource-management-enhancements.md" class="MCXref xref" xrefformat="{para}">當大量指派工作時，顯示工作負載平衡器中具有所選工作角色的所有使用者</a></p>
                         <p>為了更方便在工作負載平衡器中使用者取代工作角色時找到合適的人員，我們改進了可用使用者清單填入的方式。 現在，您可以在同一個使用者清單的兩個獨立區域中檢視系統中可履行所選角色的所有使用者：</p>
                         <ul>
                             <li>
@@ -541,7 +541,7 @@ ht-degree: 0%
                 </tr>
                  <tr>
                     <td>
-                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-resource-management-enhancements.md" class="MCXref xref" xrefformat="{para}">工作授權使用者和問題設定的工作負載平衡器增強功能</a></p>
+                        針對工作授權使用者和問題設定的<a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-resource-management-enhancements.md" class="MCXref xref" xrefformat="{para}">工作負載平衡器增強功能</a></p>
                         <p>工作負載平衡器新增了以下增強功能，為棄用排程工具做準備：</p>
                         <ul>
                             <li>
@@ -587,7 +587,7 @@ ht-degree: 0%
                 </tr>
                 <tr>
                     <td>
-                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-look-and-feel-updates.md" class="MCXref xref" xrefformat="{para}">22.4版本時間範圍內的外觀和感覺更新</a> </p>
+                        在22.4發行時間範圍內<a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-look-and-feel-updates.md" class="MCXref xref" xrefformat="{para}">外觀更新</a> </p>
                         <p>在22.4發行時間範圍內，對Adobe Workfront應用程式的各個區域外觀和感覺進行了小幅更新。 這些增強功能將在發佈到「預覽」後至少2週內可在「生產」環境中使用。 </p>
                     </td>
                     <td><p><b>將於下列日期提供：</b></p>
@@ -604,7 +604,7 @@ ht-degree: 0%
                 </tr>
                 <tr>
                     <td>
-                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-other-enhancements.md" class="MCXref xref" xrefformat="{para}">適用於InDesign的Adobe Workfront</a> <span style="color: #ff0000;"> 生產的新增功能！</span> </p>
+                        InDesign</a>的<a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Adobe Workfront <span style="color: #ff0000;">生產中的新功能！</span> </p>
                         <p>此外掛程式現在可在InDesign中安裝。 它可讓您存取工作專案詳細資料、與更新區域中的同事共同作業，以及提交校樣以供全部檢閱，而不需離開XD。 立即前往Adobe Creative Cloud Marketplace下載外掛程式。 </p>
                     </td>
                     <td><p><b>將於下列日期提供：</b></p>
@@ -639,7 +639,7 @@ ht-degree: 0%
                 </tr>
                 <tr>
                     <td>
-                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-other-enhancements.md" class="MCXref xref" xrefformat="{para}">計畫和投資組合父物件的中繼資料推送</a></p>
+                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-other-enhancements.md" class="MCXref xref" xrefformat="{para}">程式和投資組合父物件的中繼資料推送</a></p>
                         <p>現在，當資產首次傳送到Experience Manager Assets或Assets Essentials時，也會傳送為計畫和投資組合父物件設定的任何中繼資料。</p>
                         <p>以前，只傳送父級專案資料。</p>
                     </td>
@@ -656,28 +656,28 @@ ht-degree: 0%
                 </tr>
                 <tr>
                     <td>
-                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Workfront Campaigns (Beta)</a> </p>
+                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Workfront行銷活動(Beta)</a> </p>
                         <p>我們為Adobe Workfront引入全新物件，此物件有可能改變您管理工作方式。 </p>
                         <p>Workfront行銷活動可讓您在新的工作容器中組織來自不同投資組合和方案的專案。
 行銷活動在2022年7月透過22.3版發行預覽測試版。</p>
 <p>此新容器將在未來版本中改進，以連線目前在不同獨立單位中管理的工作物件。</p>
 
     &lt;/td>
-    &lt;td>&lt;p>&lt;b>將於下列日期提供：&lt;/b>&lt;/p>
+    &lt;td>&lt;p>&lt;b>在以下日期提供：&lt;/b>&lt;/p>
     &lt;ul>
     &lt;li>
-    &lt;p>預覽版本：在整個22.4版本時間範圍內&lt;br />&lt;/p>
+    &lt;p>預覽版本：&amp;#160；整個22.4發行時間範圍&lt;br />&lt;/p>
     &lt;/li>
     &lt;li>
-    &lt;p>生產版本：待定&lt;/p>
+    &lt;p>生產版本：&amp;#160；TBD&lt;/p>
     &lt;/li>
     &lt;/ul>
     &lt;/td>
     &lt;/tr>
     &lt;tr>
-    &lt;td>
-    &lt;a href=&quot;../../../product-announcements/product-releases/22.4-release-activity/22-4-other-enhancements.md&quot; class=&quot;MCXref xref&quot; xrefformat=&quot;&lt;span id=&quot; translate=&quot;no&quot; />「>展開的團隊說明&lt;/a>&lt;/p>
-    &lt;p>在專案團隊區域中，您現在可以按一下說明以在快顯視窗中顯示完整專案團隊說明。 {para}說明中的任何URL都可以在快顯視窗中點選，而且您可以按一下說明文字來進行編輯（如果您有權編輯專案團隊設定）。&lt;/p>
+    &lt;td> 
+    &lt;a href=&quot;../../../product-announcements/product-releases/22.4-release-activity/22-4-other-enhancements.md&quot; class=&quot;MCXref xref&quot; xrefformat=&quot;{para}&quot;>擴展的團隊說明&lt;/a>&lt;/p>
+    &lt;p>在團隊區域，您現在可以通過按一下說明在彈出視窗中顯示來檢視完整的團隊說明。 說明中的任何URL都可以在快顯視窗中點選，而且您可以按一下說明文字來進行編輯（如果您有權編輯專案團隊設定）。&lt;/p>
     &lt;p>之前，在狹窄區域中捲動說明是檢視所有內容的唯一方法。&lt;/p>
 <p>說明的這一增強功能適用於敏捷和非敏捷團隊。</p>
                     </td>
@@ -706,19 +706,19 @@ ht-degree: 0%
 * 7月25日前啟動案頭校訂檢視器時，Windows使用者會自動升級至最新版本。 如果Windows使用者在25日前無法開啟案頭校訂檢視器，則必須手動重新安裝檢視器才能進行升級。
 
 
-透過此升級，Desktop Proofing Viewer將支援Chrome 98版，以與互動式校訂更相容。
+透過此升級，案頭校訂檢視器將支援Chrome版本98，以與互動校訂更相容。
 
 ### Workfront Fusion增強功能
 
-Workfront Fusion中的新功能可在22.4版發行排程之外的步調內用於生產環境。 如需最新功能的詳細資訊，請參閱 [Adobe Workfront Fusion發行活動](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
+Workfront Fusion中的新功能可在22.4版發行排程之外的步調內用於生產環境。 如需最新功能的詳細資訊，請參閱[Adobe Workfront Fusion發行活動](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md)。
 
 ### WorkfrontScenario Planner增強功能
 
 此版本中目前沒有Scenario Planner更新。 在有更新可用時，此區域將會更新。
 
-### Workfront校訂增強功能
+### Workfront Proof增強功能
 
-此版本目前沒有Workfront校訂更新。 在有更新可用時，此區域將會更新。
+此版本目前沒有Workfront Proof更新。 在有更新可用時，此區域將會更新。
 
 ### Workfront目標增強功能
 
@@ -728,21 +728,21 @@ Workfront Fusion中的新功能可在22.4版發行排程之外的步調內用於
 
 針對API版本14，我們已修改一些資源和端點。 有些變更支援新功能，有些則讓您更輕鬆地透過API使用可用資訊。
 
-如需新增功能和更新的詳細資訊，請參閱 [API 14版的新增功能](/help/quicksilver/wf-api/api/new-api-version-14.md).
+如需新增和更新的詳細資訊，請參閱[ API 14](/help/quicksilver/wf-api/api/new-api-version-14.md)版的新增功能。
 
-如需API版本的詳細資訊，請參閱 [API版本設定和支援排程](/help/quicksilver/wf-api/api/api-version-support-schedule.md).
+如需API版本的資訊，請參閱[API版本設定與支援排程](/help/quicksilver/wf-api/api/api-version-support-schedule.md)。
 
 ### Workfront 維護更新
 
-如需22.3版本期間所進行維護更新的相關資訊，請參閱 [Workfront維護更新](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
+如需22.3版期間維護更新的相關資訊，請參閱[Workfront維護更新](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html)。
 
 ### 22.4版本網路研討會
 
-22.4版本網路研討會將於2022年9月22日星期四上午9:00 （太平洋夏令時間）舉行。 您可以 [在這裡報名參加網路講座](https://event.on24.com/wcc/r/3915365/9E496D02A98ECB8C86B1D2D09DDAA443?partnerref=prodmgt).
+22.4版本網路研討會將於2022年9月22日星期四上午9:00 （太平洋夏令時間）舉行。 您可以[在此報名網路研討會](https://event.on24.com/wcc/r/3915365/9E496D02A98ECB8C86B1D2D09DDAA443?partnerref=prodmgt)。
 
 ### 訓練更新
 
-探索每個Adobe Workfront產品版本的學習計畫、學習路徑、影片和指南的最新更新。 如需詳細資訊，請參閱 [訓練版本更新頁面](https://one.workfront.com/s/training-release-updates).
+探索每個Adobe Workfront產品版本的學習計畫、學習路徑、影片和指南的最新更新。 如需詳細資訊，請參閱[訓練版本更新頁面](https://one.workfront.com/s/training-release-updates)。
 
 ### 22.4版本中移除的功能
 
@@ -773,4 +773,4 @@ Workfront Fusion中的新功能可在22.4版發行排程之外的步調內用於
 
   此事件型別可讓客戶觀看物件的許可權何時更新。
 
-  如需事件訂閱的詳細資訊，以及會繼續支援的其他事件型別，請參閱 [事件訂閱API](/help/quicksilver/wf-api/general/event-subs-api.md)
+  如需有關事件訂閱的詳細資訊，以及將繼續支援的其他事件型別，請參閱[事件訂閱API](/help/quicksilver/wf-api/general/event-subs-api.md)

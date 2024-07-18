@@ -22,7 +22,7 @@ ht-degree: 0%
 本節包含下列文章：
 
 * [建立請求佇列](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md)
-* [定義專案的請求型別](../../../manage-work/requests/create-and-manage-request-queues/define-request-types-for-project.md)
+* [定義專案的要求型別](../../../manage-work/requests/create-and-manage-request-queues/define-request-types-for-project.md)
 * [提供請求佇列的存取權](../../../manage-work/requests/create-and-manage-request-queues/provide-access-to-request-queues.md)
 * [建立主題群組](../../../manage-work/requests/create-and-manage-request-queues/create-topic-groups.md)
 * [建立佇列主題](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md)

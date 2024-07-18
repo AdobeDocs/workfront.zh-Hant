@@ -19,7 +19,7 @@ ht-degree: 0%
 
 篩選器和提示很類似，因為它們都會限制您在報表中顯示的資訊量。
 
-當您希望每次執行報告時，都以相同的條件篩選報告中顯示的資訊時，可以建立篩選器。 篩選器只建立一次，並在報表中進行硬式編碼。 如需建立篩選器的詳細資訊，請參閱文章 [篩選器概觀](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+當您希望每次執行報告時，都以相同的條件篩選報告中顯示的資訊時，可以建立篩選器。 篩選器只建立一次，並在報表中進行硬式編碼。 如需建立篩選的詳細資訊，請參閱文章[篩選概觀](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md)。
 
 提示是開啟的篩選器，每次執行報表時都可以以不同方式自訂和套用。
 
@@ -53,37 +53,37 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定*</td> 
-   <td> <p>編輯報告、儀表板、行事曆的存取權</p> <p>編輯對篩選器、檢視、群組的存取權</p> <p>注意：如果您還是沒有存取權，請詢問您的Workfront管理員，他們是否在您的存取層級中設定其他限制。 如需有關Workfront管理員如何修改您的存取層級的資訊，請參閱 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>.</p> </td> 
+   <td> <p>編輯報告、儀表板、行事曆的存取權</p> <p>編輯對篩選器、檢視、群組的存取權</p> <p>注意：如果您還是沒有存取權，請詢問您的Workfront管理員，他們是否在您的存取層級中設定其他限制。 如需Workfront管理員如何修改存取層級的詳細資訊，請參閱<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">物件許可權</td> 
-   <td> <p>管理報表的許可權</p> <p>如需請求其他存取許可權的詳細資訊，請參閱 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">要求物件的存取權 </a>.</p> </td> 
+   <td> <p>管理報表的許可權</p> <p>如需請求其他存取權的資訊，請參閱<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">請求物件</a>的存取權。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;若要瞭解您擁有的計畫、授權型別或存取權，請聯絡您的Workfront管理員。
+&#42;若要瞭解您擁有的計畫、授權型別或存取權，請連絡您的Workfront管理員。
 
 ## 先決條件
 
 您必須先建立報表，才能在其中新增提示。
 
-如需建立報表的指示，請參閱 [建立報告](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-report.md)
+如需建立報告的指示，請參閱[建立報告](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-report.md)
 
 ## 建立提示
 
 1. 前往您要新增提示的報表。
-1. 展開 **報表動作**，然後按一下 **編輯**.
+1. 展開&#x200B;**報告動作**，然後按一下&#x200B;**編輯**。
 
-1. 按一下 **報表設定**.
-1. 在 **報告提示** 區域，按一下 **新增提示**.\
+1. 按一下&#x200B;**報表設定**。
+1. 在&#x200B;**報告提示**&#x200B;區域中，按一下&#x200B;**新增提示**。\
    ![](assets/qs-add-a-prompt-350x216.png)
 
 1. （視條件而定）選取提示所依據的欄位。 開始輸入欄位名稱，然後按一下以在清單中出現時選取它。\
    使用者可執行報告的選項會因您選取的欄位而異。\
-   例如，如果您在任務報告上選取了日期欄位（如實際完成日期），「實際完成日期」是提示的名稱。 當您在執行此報表時編輯此提示時，可以從一組修飾元中選擇，以建立您的篩選陳述式。 此程式等同於建立篩選器。 如需修飾元的詳細資訊，請參閱 [篩選和條件修飾元](../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md).
+   例如，如果您在任務報告上選取了日期欄位（如實際完成日期），「實際完成日期」是提示的名稱。 當您在執行此報表時編輯此提示時，可以從一組修飾元中選擇，以建立您的篩選陳述式。 此程式等同於建立篩選器。 如需修飾元的詳細資訊，請參閱[篩選和條件修飾元](../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md)。
 
-1. （視條件而定）按一下 **自訂提示** 以建立自訂提示。
+1. （視條件而定）按一下&#x200B;**自訂提示**&#x200B;以建立自訂提示。
 
    自訂提示是預先定義的提示，可在執行報表之前先對篩選條件進行硬式編碼。 從這個角度來看，自訂提示比提示更接近篩選器。
 
@@ -91,13 +91,13 @@ ht-degree: 0%
 
    為自訂提示指定下列資訊：自訂提示的條件只能使用文字模式編輯。 這可在單一欄位中套用多個條件。
 
-   * **欄位名稱：** 這是提示的名稱，您會在執行報表前看到它。
-   * **標籤：** 這是在執行報表之前，您看到的提示內的其中一個選項名稱。
-   * **條件：** 輸入定義提示的條件。
+   * **欄位名稱：**&#x200B;這是提示的名稱，您在執行報表之前看到它。
+   * **標籤：**&#x200B;這是您執行報表前所看到的提示中其中一個選項的名稱。
+   * **條件：**&#x200B;輸入定義提示的條件。
 
-   使用與輸入文字模式篩選時相同的語法，並透過「&amp;」加入您的陳述式。 如需有關在文字模式中編輯篩選器的詳細資訊，請參閱 [使用文字模式編輯篩選器](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md).
+   使用與輸入文字模式篩選時相同的語法，並透過「&amp;」加入您的陳述式。 如需以文字模式編輯篩選的詳細資訊，請參閱[使用文字模式編輯篩選](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md)。
 
-   例如， **條件** 自訂提示欄位中的下列情況可能如下所示：
+   例如，下列案例的自訂提示的&#x200B;**條件**&#x200B;欄位可能如下所示：
 
    * 專案狀態為「構想」、「已請求」、「已計畫」和「目前」的未來專案上的所有任務：
 
@@ -111,14 +111,14 @@ ht-degree: 0%
      project:actualCompletionDate=$$TODAY&project:actualCompletionDate_Mod=lte&project:status=CPL,DED&project:status_Mod=in
      ```
 
-   如需文字模式修飾元的詳細資訊，請參閱 [篩選和條件修飾元](../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md).
+   如需文字模式修飾元的詳細資訊，請參閱[篩選和條件修飾元](../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md)。
 
    >[!NOTE]
    >
    >當您執行報表時，無法變更自訂提示的條件，就像變更標準提示一樣。 您可以視需要為自訂提示設定多個預先定義的條件。
 
 1. （可選）重複步驟4或步驟5，視需要建立任意數目的提示。
-1. 按一下 **完成**，然後按一下 **儲存+關閉** 以儲存報表。
+1. 按一下&#x200B;**完成**，然後按一下&#x200B;**儲存+關閉**&#x200B;以儲存報告。
 
 ## 在報表上套用提示
 
@@ -130,7 +130,7 @@ ht-degree: 0%
 
    ![](assets/qs-prompt-drop-downs-350x229.png)
 
-1. 為顯示在「 」上的一個或所有提示選擇條件 **提示** 標籤。\
+1. 為&#x200B;**提示**&#x200B;索引標籤上顯示的一個或所有提示選擇條件。\
    （選擇性）您可以讓提示保持空白，而不根據提示條件篩選報告。
 
 1. 按一下&#x200B;**「執行報表」**。\
@@ -151,7 +151,7 @@ ht-degree: 0%
 
 * 當您公開共用報告時，使用者無法透過套用提示來執行報告，除非他們具有Workfront憑證並先登入以在Workfront中檢視報告。
 
-  如需共用報表的詳細資訊，請參閱文章 [在Adobe Workfront中共用報表](../../../reports-and-dashboards/reports/creating-and-managing-reports/share-report.md).
+  如需共用報表的詳細資訊，請參閱文章[在Adobe Workfront中共用報表](../../../reports-and-dashboards/reports/creating-and-managing-reports/share-report.md)。
 * 當您排程要傳送的提示報表時，電子郵件附件中的報表會包含提示報表的資料。 當使用者按一下電子郵件中的連結存取報告時，他們必須先登入才能檢視報告並自行執行提示。
 
-  如需排程傳送報表的詳細資訊，請參閱 [排程自動報告傳送](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-automatic-report-delivery.md).
+  如需排程傳送報表的詳細資訊，請參閱[排程自動報表傳送](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-automatic-report-delivery.md)。

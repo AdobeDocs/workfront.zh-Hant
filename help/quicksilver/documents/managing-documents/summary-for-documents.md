@@ -51,12 +51,12 @@ ht-degree: 3%
  </tbody> 
 </table>
 
-*若要瞭解您擁有的計畫、授權型別或存取權，請聯絡您的Workfront管理員。 如需詳細資訊，請參閱 [Workfront檔案中的存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*若要瞭解您擁有的計畫、授權型別或存取權，請聯絡您的Workfront管理員。 如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 ## 開啟摘要檢視
 
-1. 前往 **檔案** 區域並選取清單中的專案。
-1. 按一下 **開啟摘要圖示** ![](assets/qs-summary-in-new-toolbar-small.png).
+1. 移至&#x200B;**檔案**&#x200B;區域並選取清單中的專案。
+1. 按一下&#x200B;**開啟摘要圖示** ![](assets/qs-summary-in-new-toolbar-small.png)。
 
    開啟「摘要」後，當您按一下其他檔案時，摘要會保持開啟狀態，直到您手動關閉摘要為止。
 
@@ -64,9 +64,9 @@ ht-degree: 3%
 
 ## 詳细資料
 
-使用詳細資訊區段檢視高階總覽資訊並與自訂表單互動。 按一下 **詳細資料** 前往完整檔案詳細資訊頁面。
+使用詳細資訊區段檢視高階總覽資訊並與自訂表單互動。 按一下區段頂端的&#x200B;**詳細資料**，即可移至完整的「檔案詳細資料」頁面。
 
-* [概觀](#overview)
+* [總覽](#overview)
 * [自訂表單](#custom-forms)
 
 ![](assets/copy-of-doc-summary-details-section-350x404.png)
@@ -79,15 +79,15 @@ ht-degree: 3%
 
 ### 自訂表單 {#custom-forms}
 
-使用自訂Forms區段來新增、編輯或檢視與檔案相關聯的任何自訂表單。 開始輸入自訂表單的名稱，以將其新增到檔案。 如需詳細資訊，請參閱 [新增或編輯自訂表單至檔案](../../documents/managing-documents/add-custom-form-documents.md).
+使用自訂Forms區段來新增、編輯或檢視與檔案相關聯的任何自訂表單。 開始輸入自訂表單的名稱，以將其新增到檔案。 如需詳細資訊，請參閱[新增或編輯檔案的自訂表單](../../documents/managing-documents/add-custom-form-documents.md)。
 
 ![](assets/add-custom-form-doc-summary-350x265.png)
 
 ## 更新
 
-使用更新區段來讀取某人對該檔案或校訂進行的更新。 摘要會顯示前2個註解。 如需更新的詳細資訊，請參閱 [對校訂進行評論](../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/comment-on-proof.md).
+使用更新區段來讀取某人對該檔案或校訂進行的更新。 摘要會顯示前2個註解。 如需更新的詳細資訊，請參閱[對校訂的註解](../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/comment-on-proof.md)。
 
-![摘要面板中的更新區段](assets/summary-updates-section-new-comments.png)
+摘要面板中的![更新區段](assets/summary-updates-section-new-comments.png)
 
 ## 核准
 
@@ -102,7 +102,7 @@ ht-degree: 3%
 
 ## 版本
 
-使用「版本」區段可檢視針對特定檔案建立的版本數目。 按一下 **更多選單** 至
+使用「版本」區段可檢視針對特定檔案建立的版本數目。 按一下&#x200B;**其他功能表**&#x200B;以
 
 * 開啟校訂
 * 下載校訂或檔案

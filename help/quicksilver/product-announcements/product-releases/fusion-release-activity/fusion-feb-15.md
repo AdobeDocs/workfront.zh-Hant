@@ -1,6 +1,6 @@
 ---
-title: Workfront Fusion發行活動：&nbsp；2021年2月15日起一週
-description: Workfront Fusion發行活動：&nbsp；2021年2月15日起一週
+title: Workfront Fusion發行活動：&amp；nbsp；2021年2月15日當週
+description: Workfront Fusion發行活動：&amp；nbsp；2021年2月15日當週
 author: Luke
 draft: Probably
 feature: Product Announcements, Workfront Fusion
@@ -18,11 +18,11 @@ ht-degree: 0%
 
 本頁說明2021年2月15日當週在Adobe Workfront Fusion中所做的所有增強功能。
 
-如需所有最近變更的清單，請參閱 [Adobe Workfront Fusion發行活動](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
+如需所有最近變更的清單，請參閱[Adobe Workfront Fusion發行活動](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md)。
 
-如需Workfront Fusion中近期的錯誤修正清單，請參閱 [Workfront維護更新](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) 頁面，並檢查是否有任何標示為Workfront Fusion維護更新的更新。
+如需Workfront Fusion中最近的錯誤修正清單，請參閱[Workfront維護更新](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html)頁面，並檢查任何標示為Workfront Fusion維護更新的更新。
 
-此版本也包含一或多個維護更新。 如需Workfront Fusion 2.0維護更新的詳細資訊，請參閱 [Workfront維護更新](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
+此版本也包含一或多個維護更新。 如需Workfront Fusion 2.0維護更新的相關資訊，請參閱[Workfront維護更新](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html)。
 
 ## 團隊現在共用電子郵件通知設定
 
@@ -34,7 +34,7 @@ ht-degree: 0%
 >
 >Fusion會將組織通知設定套用至組織中每個專案團隊的專案團隊層級。 為確保您的團隊能利用新的通知功能，請更新團隊層級的電子郵件通知設定。
 
-如需詳細資訊，請參閱 [Adobe Workfront Fusion組織和團隊](../../../workfront-fusion/organizations/organizations-and-teams.md).
+如需詳細資訊，請參閱[Adobe Workfront Fusion組織和團隊](../../../workfront-fusion/organizations/organizations-and-teams.md)。
 
 ## 在Workfront >自訂API呼叫模組中選取API版本
 
@@ -42,4 +42,4 @@ ht-degree: 0%
 
 之前，您無法選取此模組的Workfront API版本。
 
-如需詳細資訊，請參閱 [Adobe Workfront模組](../../../workfront-fusion/apps-and-their-modules/workfront-modules.md).
+如需詳細資訊，請參閱[Adobe Workfront模組](../../../workfront-fusion/apps-and-their-modules/workfront-modules.md)。

@@ -9,7 +9,7 @@ role: Developer
 exl-id: a3d8534b-fe6e-4782-baab-7c94555ea40c
 source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
-source-wordcount: '1180'
+source-wordcount: '1160'
 ht-degree: 0%
 
 ---
@@ -95,7 +95,7 @@ An AccessLevel object is associated with users, and describes the set of AccessL
           <li>
             <p><b>workPerDate</b>
             </p>
-            <p>此欄位已新增，並顯示您每天需要執行的工作分鐘數。 其格式為 <code>YYYY-MM-DD: (number of minutes)</code>、和會考量時區。</p>
+            <p>此欄位已新增，並顯示您每天需要執行的工作分鐘數。 其格式為<code>YYYY-MM-DD: (number of minutes)</code>，並考慮到時區。</p>
           </li>
         </ul>
       </td>
@@ -118,7 +118,7 @@ An AccessLevel object is associated with users, and describes the set of AccessL
           <li>
             <p><b>workPerDate</b>
             </p>
-            <p>此欄位已新增，並顯示您每天需要執行的工作分鐘數。 其格式為 <code>YYYY-MM-DD: (number of minutes)</code>、和會考量時區。</p>
+            <p>此欄位已新增，並顯示您每天需要執行的工作分鐘數。 其格式為<code>YYYY-MM-DD: (number of minutes)</code>，並考慮到時區。</p>
           </li>
           <li>
             <p><b>isContoured</b>
@@ -235,9 +235,9 @@ Hour物件代表使用者在時程表上記錄的一小時。
       <td>
         <ul>
           <li>
-            <p><b>timesheethouridentifier</b>
+            <p><b>時程表小時識別碼</b>
             </p>
-            <p>已新增. 此引數用於識別與建立的小時 <code>batchSave</code>. </p>
+            <p>已新增。 此引數用於識別使用<code>batchSave</code>建立的小時。 </p>
            </li>
         </ul>
       </td>
@@ -289,7 +289,7 @@ Note物件是在Workfront物件上所做的註解或更新。
       <td>
         <ul>
           <li>
-            <p><b>attacheddocuments</b>
+            <p><b>attachedDocuments</b>
             </p>
             <p>此欄位已新增，並代表附加至評論的檔案清單。</p>
           </li>
@@ -314,7 +314,7 @@ OpTask物件通常稱為「問題」。 問題指工作專案，通常表示發�
           <li>
             <p><b>workPerDate</b>
             </p>
-            <p>此欄位已新增，並顯示您每天需要執行的工作分鐘數。 其格式為 <code>YYYY-MM-DD: (number of minutes)</code>、和會考量時區。</p>
+            <p>此欄位已新增，並顯示您每天需要執行的工作分鐘數。 其格式為<code>YYYY-MM-DD: (number of minutes)</code>，並考慮到時區。</p>
           </li>
         </ul>
       </td>
@@ -326,7 +326,7 @@ OpTask物件通常稱為「問題」。 問題指工作專案，通常表示發�
            <li>
             <p><b>assignMultiple</b>
             </p>
-            <p>此動作已新增欄位 <code>teamIDs</code> 以支援將多個團隊指派到一個任務或問題的功能。</p>
+            <p>此動作新增欄位<code>teamIDs</code>以支援將多個團隊指派至一個任務或問題的功能。</p>
          </li>
         </ul>
       </td>
@@ -400,11 +400,11 @@ Rate物件代表Workfront中的計費費率。
 
 RtfNote物件是在Workfront物件上所做的註解或更新，其中包括RTF文字，例如粗體或斜體文字。
 
-RichTextNote物件已移除標幟 `REPORTABLE`.
+RichTextNote物件已移除旗標`REPORTABLE`。
 
 ### 角色/工作角色(ROLE)
 
-角色物件（工作角色）代表使用者可能填入的功能容量或技能集，例如設計師或產品經理。
+角色物件（工作角色）代表使用者可能填入的功能容量或技能集，例如Designer或產品經理。
 
 <table>
   <col/>
@@ -439,7 +439,7 @@ Task物件代表作為達成最終目標（完成專案）的步驟而必須執�
           <li>
             <p><b>workPerDate</b>
             </p>
-            <p>此欄位已新增，並顯示您每天需要執行的工作分鐘數。 其格式為 <code>YYYY-MM-DD: (number of minutes)</code>、和會考量時區。</p>
+            <p>此欄位已新增，並顯示您每天需要執行的工作分鐘數。 其格式為<code>YYYY-MM-DD: (number of minutes)</code>，並考慮到時區。</p>
           </li>
         </ul>
       </td>
@@ -451,7 +451,7 @@ Task物件代表作為達成最終目標（完成專案）的步驟而必須執�
            <li>
             <p><b>assignMultiple</b>
             </p>
-            <p>此動作已新增欄位 <code>teamIDs</code> 以支援將多個團隊指派到一個任務或問題的功能。</p>
+            <p>此動作新增欄位<code>teamIDs</code>以支援將多個團隊指派至一個任務或問題的功能。</p>
          </li>
         </ul>
       </td>
@@ -472,19 +472,19 @@ Task物件代表作為達成最終目標（完成專案）的步驟而必須執�
       <td>
         <ul>
            <li>
-            <p><b>availableactions</b>
+            <p><b>availableActions</b>
             </p>
-            <p>此引數已移除標幟 <code>READ_ONLY</code>.</p>
+            <p>此引數已移除旗標<code>READ_ONLY</code>。</p>
          </li>
            <li>
-            <p><b>可編輯</b>
+            <p><b>isEditable</b>
             </p>
-            <p>此引數已移除標幟 <code>READ_ONLY</code>.</p>
+            <p>此引數已移除旗標<code>READ_ONLY</code>。</p>
          </li>
            <li>
             <p><b>totalDays</b>
             </p>
-            <p>已新增此引數，且無論「完整Workday的相等時數」有何變更，都以天為單位儲存時程表持續時間。  例如，如果「對等時數」設為6，並記錄一天，則「對等時數」會變更為8小時， <code>totalDays</code> 仍具有值1。</p>
+            <p>已新增此引數，且無論「完整Workday的相等時數」有何變更，都以天為單位儲存時程表持續時間。  例如，如果「對等時數」設為6，並記錄一天，則「對等時數」會變更為8小時，<code>totalDays</code>的值仍為1。</p>
          </li>
         </ul>
       </td>
@@ -506,7 +506,7 @@ Task物件代表作為達成最終目標（完成專案）的步驟而必須執�
           <li>
             <p><b>addJoinForNullableFields</b>
             </p>
-            <p>此動作已新增，而且採用篩選器查詢對應並新增 <code>allowingnull</code> 加入可空欄位。</p>
+            <p>此動作已新增，而且採用篩選器查詢對應，並為可空欄位新增<code>allowingnull</code>聯結。</p>
          </li>
          <li>
             <p><b>disableSystemWideVisibility
@@ -514,7 +514,7 @@ Task物件代表作為達成最終目標（完成專案）的步驟而必須執�
             </p>
             <p><b>enableSystemWideVisibility </b>
             </p>
-            <p>這些動作支援在整個系統內共用篩選器、檢視和群組的功能。</p><p>如需詳細資訊，請參閱 <a href="https://experienceleague.adobe.com/docs/workfront/using/administration-and-setup/set-up-wf/configure-system-defaults/create-and-share-default-fvgs.html?lang=en#make-filters-views-or-groupings-available-to-users">讓篩選器、檢視或群組可供所有使用者使用</a>.</p>
+            <p>這些動作支援在整個系統內共用篩選器、檢視和群組的功能。</p><p>如需詳細資訊，請參閱<a href="https://experienceleague.adobe.com/docs/workfront/using/administration-and-setup/set-up-wf/configure-system-defaults/create-and-share-default-fvgs.html?lang=en#make-filters-views-or-groupings-available-to-users">讓所有使用者都可以使用篩選器、檢視或群組</a>。</p>
          </li>
         </ul>
       </td>
@@ -538,7 +538,7 @@ Task物件代表作為達成最終目標（完成專案）的步驟而必須執�
             </p>
             <p><b>enableSystemWideVisibility </b>
             </p>
-            <p>這些動作支援在整個系統內共用篩選器、檢視和群組的功能。</p><p>如需詳細資訊，請參閱 <a href="https://experienceleague.adobe.com/docs/workfront/using/administration-and-setup/set-up-wf/configure-system-defaults/create-and-share-default-fvgs.html?lang=en#make-filters-views-or-groupings-available-to-users">讓篩選器、檢視或群組可供所有使用者使用</a>.</p>
+            <p>這些動作支援在整個系統內共用篩選器、檢視和群組的功能。</p><p>如需詳細資訊，請參閱<a href="https://experienceleague.adobe.com/docs/workfront/using/administration-and-setup/set-up-wf/configure-system-defaults/create-and-share-default-fvgs.html?lang=en#make-filters-views-or-groupings-available-to-users">讓所有使用者都可以使用篩選器、檢視或群組</a>。</p>
          </li>
         </ul>
       </td>
@@ -557,7 +557,7 @@ Task物件代表作為達成最終目標（完成專案）的步驟而必須執�
       <td>
         <ul>
           <li>
-            <p><b>佈局型別</b>
+            <p><b>layoutType</b>
             </p>
             <p>已新增下列可能值：</p>
             <ul>
@@ -579,7 +579,7 @@ Task物件代表作為達成最終目標（完成專案）的步驟而必須執�
             </p>
             <p><b>enableSystemWideVisibility </b>
             </p>
-            <p>這些動作支援在整個系統內共用篩選器、檢視和群組的功能。</p><p>如需詳細資訊，請參閱 <a href="https://experienceleague.adobe.com/docs/workfront/using/administration-and-setup/set-up-wf/configure-system-defaults/create-and-share-default-fvgs.html?lang=en#make-filters-views-or-groupings-available-to-users">讓篩選器、檢視或群組可供所有使用者使用</a>.</p>
+            <p>這些動作支援在整個系統內共用篩選器、檢視和群組的功能。</p><p>如需詳細資訊，請參閱<a href="https://experienceleague.adobe.com/docs/workfront/using/administration-and-setup/set-up-wf/configure-system-defaults/create-and-share-default-fvgs.html?lang=en#make-filters-views-or-groupings-available-to-users">讓所有使用者都可以使用篩選器、檢視或群組</a>。</p>
          </li>
         </ul>
       </td>
@@ -650,7 +650,7 @@ Work物件是Task和OpTask都繼承的公用介面，並在兩者之間共用公
           <li>
             <p><b>workPerDate</b>
             </p>
-            <p>此欄位已新增，並顯示您每天需要執行的工作分鐘數。 其格式為 <code>YYYY-MM-DD: (number of minutes)</code>、和會考量時區。</p>
+            <p>此欄位已新增，並顯示您每天需要執行的工作分鐘數。 其格式為<code>YYYY-MM-DD: (number of minutes)</code>，並考慮到時區。</p>
           </li>
         </ul>
       </td>

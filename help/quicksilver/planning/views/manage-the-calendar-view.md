@@ -30,7 +30,7 @@ hide: yes
 
 您可以從記錄型別頁面，在行事曆檢視中顯示記錄及其欄位。
 
-如需Adobe Workfront Planning檢視及其管理方式的詳細資訊，請參閱 [管理記錄檢視](/help/quicksilver/planning/views/manage-record-views.md).
+如需Adobe Workfront Planning檢視的詳細資訊及管理方式，請參閱[管理記錄檢視](/help/quicksilver/planning/views/manage-record-views.md)。
 
 <!--at GA the plan below will change to Prime, Select and Ultimate only-->
 
@@ -82,13 +82,13 @@ hide: yes
 
 <tr>
    <td role="rowheader"><p>版面配置範本</p></td>
-   <td> <p>必須為所有使用者(包括Workfront管理員)指派一個版面配置範本，該範本包含主功能表中的Planning區域。 </p> <p>如需詳細資訊，請參閱 <a href="/help/quicksilver/planning/access/access-overview.md">存取權總覽</a>. </p> 
+   <td> <p>必須為所有使用者(包括Workfront管理員)指派一個版面配置範本，該範本包含主功能表中的Planning區域。 </p> <p>如需詳細資訊，請參閱<a href="/help/quicksilver/planning/access/access-overview.md">存取總覽</a>。 </p> 
 </td>
   </tr>
  </tbody>
 </table>
 
-*如需詳細資訊，請參閱 [Workfront檔案中的存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 ## 管理行事曆檢視 {#manage-a-calendar-view}
 
@@ -108,7 +108,7 @@ hide: yes
 若要管理行事曆檢視：
 
 1. 移至您要檢視其行事曆的記錄型別頁面。
-1. 建立行事曆檢視，如文章所述 [管理記錄檢視](/help/quicksilver/planning/views/manage-record-views.md).
+1. 建立行事曆檢視，如文章[管理記錄檢視](/help/quicksilver/planning/views/manage-record-views.md)中所述。
 
    ![](assets/calendar-view-example.png)
 
@@ -117,7 +117,7 @@ hide: yes
 1. 執行下列任一項作業來瀏覽行事曆：
 
    * 按一下左右圖示，或使用水準捲動在行事曆中前後移動。
-   * 按一下 **今天** 將行事曆置中到今天的日期。
+   * 按一下&#x200B;**今天**，將行事曆置中到今天的日期。
    * 從時間範圍下拉式選單中選取下列其中一個選項，以更新時間增量：
 
       * 月
@@ -147,7 +147,7 @@ hide: yes
 
 * 在行事曆檢視中新增篩選器，與在表格檢視中新增篩選器相同。
 
-  如需詳細資訊，請參閱文章中的「新增篩選器」一節 [管理表格檢視](/help/quicksilver/planning/views/manage-the-table-view.md).
+  如需詳細資訊，請參閱文章[管理資料表檢視](/help/quicksilver/planning/views/manage-the-table-view.md)中的「新增篩選器」一節。
 
 * 您可以依已連線的記錄欄位或查詢欄位進行篩選。
 

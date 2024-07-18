@@ -11,8 +11,8 @@ role: Admin
 exl-id: 36172f4c-fe10-49d2-b10b-abb0cfce62c1
 source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
-source-wordcount: '403'
-ht-degree: 0%
+source-wordcount: '400'
+ht-degree: 1%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 當某人共用具有「檢視」或「管理」存取權的自訂欄位時，可以設定數個其他設定以進一步定義該存取權。 如果您是欄位的收件者，這些設定會影響您可以對欄位執行的操作。 檢視欄位時，您可能會看到下列內容。
 
-如需有關使用者在共用自訂表單時如何設定共用設定的詳細資訊，請參閱 [設定自訂欄位和Widget共用](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/configure-sharing-for-a-custom-field.md).
+如需有關使用者在共用自訂表單時如何設定共用設定的詳細資訊，請參閱[設定自訂欄位和Widget的共用](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/configure-sharing-for-a-custom-field.md)。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -46,7 +46,7 @@ ht-degree: 0%
      <li>檢視</li> 
      <li>新增至自訂Forms：已選取</li> 
     </ul> </td> 
-   <td> <p>如果您將欄位新增到自訂表單：</p> 
+   <td> <p>如果您將欄位新增至自訂表單：</p> 
     <ul> 
      <li>您可以編輯欄位的表單相關設定，例如其顯示邏輯、其在表單上其他欄位的順序、是否為表單上的必要欄位，以及將其從表單中移除的功能。</li> 
      <li>您無法編輯欄位的欄位相關設定，例如其標籤、名稱和型別。</li> 

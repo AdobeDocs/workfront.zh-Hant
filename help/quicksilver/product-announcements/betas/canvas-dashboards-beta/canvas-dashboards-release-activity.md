@@ -19,7 +19,7 @@ ht-degree: 0%
 
 此頁面列出每週為畫布儀表板測試版發佈的開發更新。
 
-如需「畫布控制面板」測試版的一般資訊，請參閱 [Canvas儀表板概觀](/help/quicksilver/reports-and-dashboards/dashboards/creating-and-managing-dashboards/canvas-dashboards-overview.md).
+如需Canvas儀表板測試版的一般資訊，請參閱[Canvas儀表板概觀](/help/quicksilver/reports-and-dashboards/dashboards/creating-and-managing-dashboards/canvas-dashboards-overview.md)。
 
 ## 8月14日當週
 
@@ -31,4 +31,4 @@ ht-degree: 0%
 
 * **圖表報告**
 
-  除了清單報告之外，您現在可以將圖表報告新增到畫布。 如需將圖表報表新增至畫布控制面板的詳細資訊，請參閱 [Canvas儀表板概觀](/help/quicksilver/reports-and-dashboards/dashboards/creating-and-managing-dashboards/canvas-dashboards-overview.md).
+  除了清單報告之外，您現在可以將圖表報告新增到畫布。 如需將圖表報表新增至畫布控制面板的詳細資訊，請參閱[畫布控制面板概觀](/help/quicksilver/reports-and-dashboards/dashboards/creating-and-managing-dashboards/canvas-dashboards-overview.md)。

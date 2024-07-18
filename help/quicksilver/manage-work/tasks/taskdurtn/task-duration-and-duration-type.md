@@ -27,7 +27,7 @@ ht-degree: 1%
 
 如果任務的「實際開始日期」與「實際完成日期」在專案、主要受指派人或預設排程的排程之外，則任務「工期」為零。
 
-**範例：** 如果您的排程從上午9:00開始，到中午12:00結束，而任務的排程從下午2:00開始，到下午4:00結束，則任務的「工期」為零。
+**範例：**&#x200B;如果您的排程從上午9:00開始到下午12:00結束，而工作排程從下午2:00開始到下午4:00結束，則工作的期間為零。
 
 在Adobe Workfront中計算持續時間時，有兩種情況存在：
 
@@ -35,19 +35,19 @@ ht-degree: 1%
 
    1. Workfront會考慮使用者的排程。
    1. 如果使用者未關聯排程，Workfront會考慮專案的排程。
-   1. 如果專案未與排程相關聯，Workfront會考量您系統的預設排程。 如需排程的相關資訊，請參閱 [建立排程](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
+   1. 如果專案未與排程相關聯，Workfront會考量您系統的預設排程。 如需排程的相關資訊，請參閱[建立排程](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md)。
 
 * 如果任務指派給多個使用者：
 
    1. Workfront會考慮專案或主要受指派人的排程。
 
-  當任務指派給多個使用者時，您的Workfront管理員會決定Workfront使用的排程。 如需詳細資訊，請參閱 [設定全系統專案偏好設定](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+  當任務指派給多個使用者時，您的Workfront管理員會決定Workfront使用的排程。 如需詳細資訊，請參閱[設定全系統的專案偏好設定](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md)。
 
   這些步驟類似於瞭解Workfront使用哪個排程來計算持續時間後的第一個案例。
 
 >[!NOTE]
 >
->若將專案的主要受指派人休假列入考量，任務的計畫日期可能會調整，但任務的期間保持不變。 如需有關在計畫專案時考慮主要受指派人休假的資訊，請參閱  [設定全系統專案偏好設定](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+>若將專案的主要受指派人休假列入考量，任務的計畫日期可能會調整，但任務的期間保持不變。 如需有關在規劃專案時考慮主要受指派人休假的資訊，請參閱[設定全系統專案偏好設定](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md)。
 
 ## 任務期間的時間單位
 
@@ -70,7 +70,7 @@ ht-degree: 1%
 
 {style="table-layout:auto"}
 
-**範例：** 如果您想要指出任務的期間是3個經過的天數，應在任務清單的「期間」欄位中輸入「3 ED」。  您也可以在編輯任務時，從可用的下拉式功能表或「任務詳細資訊」區段中，選取「期間單位」的偏好選項。 如需有關編輯任務的資訊，請參閱 [編輯任務](../../../manage-work/tasks/manage-tasks/edit-tasks.md).
+**範例：**&#x200B;如果您想要指出任務的期間是3天，您應在任務清單的[期間]欄位中輸入「3 ED」。  您也可以在編輯任務時，從可用的下拉式功能表或「任務詳細資訊」區段中，選取「期間單位」的偏好選項。 如需有關編輯任務的資訊，請參閱[編輯任務](../../../manage-work/tasks/manage-tasks/edit-tasks.md)。
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: stays QS only forever; for the pictures below: make the first one classic at preview time and the second one stays QS always. The second one is yellow >> take out at 21.2 production!!)</p>
@@ -108,28 +108,28 @@ ht-degree: 1%
   <tr> 
    <th scope="row"><p><strong>期間類型</strong></p></th> 
    <th scope="col"> <p><strong>函式</strong> </p> </th> 
-   <th scope="col"> <p><strong>資源如何影響</strong> </p> </th> 
+   <th scope="col"> <p><strong>資源如何影響它</strong> </p> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <th scope="col"> <p><strong>已計算的任務指派</strong> </p> </th> 
-   <td scope="col"> <p>計算任務中每個受指派人的配置百分比。 </p> <p>選擇此「期間型別」時，您可以為任務輸入個別的「期間」和「計畫時數」。 Workfront將計畫時數除以任務期間內的時數，再除以指派給任務的資源數，以計算每個受指派人的分配。</p> <p>如需詳細資訊，請參閱 <a href="../../../manage-work/tasks/taskdurtn/calculated-assignment.md" class="MCXref xref">期間型別概要：計算的指定</a>.</p> </td> 
+   <th scope="col"> <p><strong>計算的工作分派</strong> </p> </th> 
+   <td scope="col"> <p>計算任務中每個受指派人的配置百分比。 </p> <p>選擇此「期間型別」時，您可以為任務輸入個別的「期間」和「計畫時數」。 Workfront將計畫時數除以任務期間內的時數，再除以指派給任務的資源數，以計算每個受指派人的分配。</p> <p>如需詳細資訊，請參閱<a href="../../../manage-work/tasks/taskdurtn/calculated-assignment.md" class="MCXref xref">期間型別總覽：計算的指派</a>。</p> </td> 
    <td scope="col">將受指派者新增或移除至任務時，持續時間和計畫時數未變更。 </td> 
   </tr> 
   <tr> 
    <th scope="col"> <p><strong>已計算的工作</strong> </p> </th> 
-   <td scope="col"> <p>決定完成任務所需的計畫時數（工作量）。</p> <p>通常用於指派給任務的資源被配置給任務的整個期間時。</p> <p>選擇此「期間型別」時，您就可以為任務輸入個別期間。 Workfront計算任務的「計畫時數」，方法是將「工期」中的天數乘以排程中的工作時數，再乘以任務的受指派人數。 </p> <p>您可以手動將每個受指派人的配置百分比變更為任務，這會縮短計畫時數的數量。</p> <p>如需詳細資訊，請參閱 <a href="../../../manage-work/tasks/taskdurtn/calculated-work.md" class="MCXref xref">期間型別概觀：計算的工作量</a>.</p> </td> 
+   <td scope="col"> <p>決定完成任務所需的計畫時數（工作量）。</p> <p>通常用於指派給任務的資源被配置給任務的整個期間時。</p> <p>選擇此「期間型別」時，您就可以為任務輸入個別期間。 Workfront計算任務的「計畫時數」，方法是將「工期」中的天數乘以排程中的工作時數，再乘以任務的受指派人數。 </p> <p>您可以手動將每個受指派人的配置百分比變更為任務，這會縮短計畫時數的數量。</p> <p>如需詳細資訊，請參閱<a href="../../../manage-work/tasks/taskdurtn/calculated-work.md" class="MCXref xref">期間型別總覽：計算的工作量</a>。</p> </td> 
    <td scope="col"> <p>當受指派人新增至任務時，計畫時數會增加。 </p> <p>當受指派人從任務中移除時，計畫時數便會減少。</p> </td> 
   </tr> 
   <tr> 
    <th scope="col"> <p><strong>投入比導向</strong></p> </th> 
-   <td scope="col"> <p>根據資源數量決定計畫時數。</p> <p>選擇此「期間型別」時，您就可以為任務輸入個別期間。 Workfront計算任務的「計畫時數」，方法是將「工期」中的天數乘以排程中的工作時數，再除以任務的受指派人數。 </p> <p>您可以手動變更每個受指派人至任務的配置百分比，但計畫時數保持不變。</p> <p>如需詳細資訊，請參閱 <a href="../../../manage-work/tasks/taskdurtn/effort-driven.md" class="MCXref xref">期間型別概觀：投入比導向</a>.</p> </td> 
+   <td scope="col"> <p>根據資源數量決定計畫時數。</p> <p>選擇此「期間型別」時，您就可以為任務輸入個別期間。 Workfront計算任務的「計畫時數」，方法是將「工期」中的天數乘以排程中的工作時數，再除以任務的受指派人數。 </p> <p>您可以手動變更每個受指派人至任務的配置百分比，但計畫時數保持不變。</p> <p>如需詳細資訊，請參閱<a href="../../../manage-work/tasks/taskdurtn/effort-driven.md" class="MCXref xref">期間型別總覽：投入比導向</a>。</p> </td> 
    <td scope="col"> <p>當受指派人從任務中移除時，計畫時數會增加。</p> <p>當受指派人新增至任務時，計畫時數便會減少。 </p> <p>期間不會變更，無論受指派人數或其排程有何變更。 </p> <p>期間等於計畫時數。 計畫期間等於計畫時數除以受指派人數。</p> </td> 
   </tr> 
   <tr> 
    <th scope="col"> <p><strong>簡單</strong> </p> </th> 
-   <td scope="col"> <p>根據每個被指定者被分配的時數決定計畫時數與持續時間（對於此持續時間型別是相同的）。 </p> <p>Workfront計算計畫時數的方法為加總每個受指派人的計劃分配時數。 </p> <p>您可以手動變更每個受指派人分配的時數，而計畫時數和「期間」量會隨之變更。 如果您選擇所有受指派人的分配時數總計，則該數字會平均分配給每個受指派人。</p> <p>如需詳細資訊，請參閱 <a href="../../../manage-work/tasks/taskdurtn/simple-duration-type.md" class="MCXref xref">期間型別概觀：簡單</a>.</p> </td> 
+   <td scope="col"> <p>根據每個被指定者被分配的時數決定計畫時數與持續時間（對於此持續時間型別是相同的）。 </p> <p>Workfront計算計畫時數的方法為加總每個受指派人的計劃分配時數。 </p> <p>您可以手動變更每個受指派人分配的時數，而計畫時數和「期間」量會隨之變更。 如果您選擇所有受指派人的分配時數總計，則該數字會平均分配給每個受指派人。</p> <p>如需詳細資訊，請參閱<a href="../../../manage-work/tasks/taskdurtn/simple-duration-type.md" class="MCXref xref">期間型別概觀：簡單</a>。</p> </td> 
    <td scope="col"> <p>如果您選擇分配時數的總數，則時數會在被指定者之間平均分配。 不過，身為專案經理，您可以手動調整每個受指派人的時數。 </p> <p>您可以編輯內嵌或任務層級具有「簡單期間型別」之任務的計畫時數與期間。 </p> <p>如果將敏捷團隊指派給任務，則「持續時間型別」會自動設定為「簡單」，且無法變更。 敏捷團隊的任務持續時間必須大於0分鐘。</p> </td> 
   </tr> 
  </tbody> 
@@ -137,8 +137,8 @@ ht-degree: 1%
 
 ## 新任務的期間型別
 
-新任務的期間型別符合系統中設定的期間型別。 預設期間型別為已計算的任務指派。 您的Workfront管理員或群組管理員可以為您的系統或與專案關聯的群組更新預設期間型別。 如需詳細資訊，請參閱 [設定系統範圍的任務和問題偏好設定](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
+新任務的期間型別符合系統中設定的期間型別。 預設期間型別為已計算的任務指派。 您的Workfront管理員或群組管理員可以為您的系統或與專案關聯的群組更新預設期間型別。 如需詳細資訊，請參閱[設定全系統的任務和問題偏好設定](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md)。
 
 ## 變更任務的期間型別
 
-如需有關變更任務期間型別的資訊，請參閱 [更新任務的期間型別](../../../manage-work/tasks/taskdurtn/update-duration-type-of-task.md).
+如需有關變更任務期間型別的資訊，請參閱[更新任務的期間型別](../../../manage-work/tasks/taskdurtn/update-duration-type-of-task.md)。

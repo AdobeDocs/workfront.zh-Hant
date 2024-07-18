@@ -72,7 +72,7 @@ ht-degree: 0%
 <tr>
    <td role="rowheader"><p>物件許可權</p></td>
    <td>
-   <p>貢獻或更高的許可權給您未建立的工作區和檢視，以編輯、刪除和共用它們，以及建立、編輯或刪除記錄型別和記錄。</p>
+   <p>Contribute或您未建立的工作區和檢視的更高許可權，用來編輯、刪除和共用這些工作區和檢視，以及建立、編輯或刪除記錄型別和記錄。</p>
     <p>系統管理員可以管理他們未建立的工作區。 </p>
     <p>系統管理員無法管理他們未建立的檢視。 </p>
    <p>如需有關共用Workfront Planning物件許可權的資訊，請參閱  
@@ -81,13 +81,13 @@ ht-degree: 0%
   </tr>
 <tr>
    <td role="rowheader"><p>版面配置範本</p></td>
-   <td> <p>必須為所有使用者(包括Workfront管理員)指派一個版面配置範本，該範本包含主功能表中的Planning區域。 </p> <p>如需詳細資訊，請參閱 <a href="../../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md">使用版面配置範本自訂主功能表</a> 和 <a href="../../administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md">將使用者指派至版面配置範本</a>. </p>  
+   <td> <p>必須為所有使用者(包括Workfront管理員)指派一個版面配置範本，該範本包含主功能表中的Planning區域。 </p> <p>如需詳細資訊，請參閱<a href="../../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md">使用配置範本自訂主功能表</a>和<a href="../../administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md">將使用者指派給配置範本</a>。 </p>  
 </td>
   </tr>
  </tbody>
 </table>
 
-*如需有關Workfront存取需求的詳細資訊，請參閱 [Workfront檔案中的存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*如需Workfront存取需求的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 
 ## 與其他共用主功能表中的Planning區域
@@ -96,15 +96,15 @@ ht-degree: 0%
 
 您的組織註冊Workfront Planning方案後，您可以使用版面配置範本，將「計畫」區域新增至所有使用者的主功能表。
 
-1. 登入 **Workfront** Workfront管理員。
+1. 以Workfront管理員身分登入&#x200B;**Workfront**。
 
-1. 新增 **規劃** 圖示 ![](assets/planning-icon.png) 至 **主要功能表** 使用 **版面配置範本**.
+1. 使用&#x200B;**配置範本**&#x200B;將&#x200B;**Planning**&#x200B;圖示![](assets/planning-icon.png)新增至&#x200B;**主功能表**。
 
-   如需詳細資訊，請參閱 [使用版面配置範本自訂主功能表](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).
+   如需詳細資訊，請參閱[使用配置範本自訂主功能表](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md)。
 
 1. 將版面配置範本指派給您要存取Workfront Planning的使用者。
 
-   如需詳細資訊，請參閱 [將使用者指派至版面配置範本](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md).
+   如需詳細資訊，請參閱[將使用者指派給配置範本](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md)。
 
    所有指派給範本的使用者現在都可以在其主要功能表中存取Workfront Planning 。
 
@@ -116,16 +116,16 @@ Workfront Planning沒有存取控制。
 
 擁有任何授權型別的使用者都可以存取Workfront Planning。
 
-如需在Workfront中授與存取權的相關資訊，請參閱 [建立和修改自訂存取層級](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+如需在Workfront中授與存取權的相關資訊，請參閱[建立和修改自訂存取層級](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)。
 
 ## 授予許可權
 
 您必須授予使用者對您建立的工作區和檢視的許可權，使用者才能存取它們。
 
-如需詳細資訊，請參閱 [在Adobe Workfront Planning中共用許可權的概觀](/help/quicksilver/planning/access/sharing-permissions-overview.md).
+如需詳細資訊，請參閱[在Adobe Workfront Planning中共用許可權的總覽](/help/quicksilver/planning/access/sharing-permissions-overview.md)。
 
 您的Adobe Workfront授權型別會與您的Workfront Planning許可權搭配使用，提供您檢視、貢獻或管理Workfront Planning物件的存取權。
 
-如需有關授權型別如何影響Workfront Planning物件之許可權等級的資訊，請參閱 [使用Adobe Workfront Planning時的授權型別概觀](/help/quicksilver/planning/access/license-type-overview.md).
+如需授權型別如何影響Workfront Planning物件許可權等級的資訊，請參閱[使用Adobe Workfront Planning時的授權型別概觀](/help/quicksilver/planning/access/license-type-overview.md)。
 
 

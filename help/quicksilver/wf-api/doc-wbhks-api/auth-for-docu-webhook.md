@@ -30,7 +30,7 @@ OAuth2可讓Workfront代表使用者向webhook提供者發出授權的API呼叫�
 1. 使用者開始將webhook整合連線至其帳戶。 目前，若要這麼做，請按一下「新增檔案」下拉式清單>「新增服務」>自訂整合名稱。
 1. Workfront會導覽使用者驗證URL，這可能會提示使用者登入外部檔案提供者。 此頁面由webhook提供者或外部檔案管理系統託管。 Workfront這麼做時，會將「state」引數新增至驗證URL。 必須在下列步驟中，將相同的值附加至Workfront傳回URI，將此值傳回Workfront。
 1. 登入外部系統後（或如果使用者已登入），使用者將被帶到「驗證」頁面，此頁面說明Workfront正在請求存取權，以代表使用者執行一組動作。
-1. 如果使用者按一下「允許」按鈕，瀏覽器會重新導向至Workfront重新導向URI ，新增「code=`<code>`」到querystring。 根據OAuth2規格，此代號只會短暫有效。 查詢字串也必須具有下列「state=」`<sent_by_workfront>`「。
+1. 如果使用者按一下「允許」按鈕，瀏覽器會重新導向至Workfront重新導向URI ，並將「code=`<code>`」新增至querystring。 根據OAuth2規格，此代號只會短暫有效。 查詢字串也必須具有下列「state=`<sent_by_workfront>`」。
 1. Workfront處理此要求，並使用授權代碼對權杖端點URL進行API呼叫。
 1. 權杖端點URL會傳回重新整理權杖和存取權杖。
 1. Workfront會儲存這些Token並完整布建此使用者的webhook整合。

@@ -23,9 +23,9 @@ ht-degree: 0%
 
 * [任務期間與期間型別概觀](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md)
 * [更新任務的期間型別](../../../manage-work/tasks/taskdurtn/update-duration-type-of-task.md)
-* [期間型別概要：計算的指定](../../../manage-work/tasks/taskdurtn/calculated-assignment.md)
-* [期間型別概觀：投入比導向](../../../manage-work/tasks/taskdurtn/effort-driven.md)
-* [期間型別概觀：計算的工作量](../../../manage-work/tasks/taskdurtn/calculated-work.md)
+* [期間型別總覽：計算的指派](../../../manage-work/tasks/taskdurtn/calculated-assignment.md)
+* [期間型別總覽：投入比導向](../../../manage-work/tasks/taskdurtn/effort-driven.md)
+* [期間型別總覽：計算的工作量](../../../manage-work/tasks/taskdurtn/calculated-work.md)
 * [期間型別概觀：簡單](../../../manage-work/tasks/taskdurtn/simple-duration-type.md)
 * [使用簡單期間型別更新任務的計畫時數和期間](../../../manage-work/tasks/taskdurtn/update-planned-hours-duration-for-simple-duration-task.md)
 * [Adobe Workfront和Microsoft專案中的期間型別](../../../manage-work/tasks/taskdurtn/workfront-ms-project-duration-types.md)

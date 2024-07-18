@@ -36,7 +36,7 @@ Workfront提供集中管理的單一登入(SSO)設定，將Workfront與您現有
 
 使用SSO解決方案時，Workfront會在指定連線埠上起始與伺服器的連線。
 
-如果您的防火牆或郵件伺服器設定為僅允許特定廠商存取，則必須將特定Workfront IP位址新增至您的防火牆允許清單。 如需詳細資訊，請參閱 [設定防火牆的允許清單](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).
+如果您的防火牆或郵件伺服器設定為僅允許特定廠商存取，則必須將特定Workfront IP位址新增至您的防火牆允許清單。 如需詳細資訊，請參閱[設定防火牆的允許清單](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md)。
 
 ## 設定單一登入
 
@@ -44,8 +44,8 @@ Workfront已整合下列SSO解決方案：
 
 * 支援SAML 2.0的同盟解決方案
 
-  如需整合Workfront與SAML 2.0的相關資訊，請參閱 [使用SAML 2.0設定Adobe Workfront](../../../administration-and-setup/add-users/single-sign-on/configure-workfront-saml-2.md).
+  如需整合Workfront與SAML 2.0的相關資訊，請參閱[使用SAML 2.0](../../../administration-and-setup/add-users/single-sign-on/configure-workfront-saml-2.md)設定Adobe Workfront。
 
 * 支援使用ADFS的SAML 2.0同盟解決方案
 
-  如需使用ADFS整合Workfront與SAML 2.0的相關資訊，請參閱 [使用ADFS以SAML 2.0設定Adobe Workfront](../../../administration-and-setup/add-users/single-sign-on/configure-workfront-saml-2-adfs.md).
+  如需使用ADFS整合Workfront與SAML 2.0的相關資訊，請參閱[使用ADFS設定Adobe Workfront與SAML 2.0](../../../administration-and-setup/add-users/single-sign-on/configure-workfront-saml-2-adfs.md)。

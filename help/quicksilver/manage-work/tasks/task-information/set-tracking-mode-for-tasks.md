@@ -2,22 +2,22 @@
 product-area: projects
 navigation-topic: task-information
 title: 設定任務的追蹤模式
-description: 任務的「跟蹤模式」決定了在Adobe Workfront中更新任務「進度狀態」的方式。
+description: 任務的追蹤模式會決定如何在Adobe Workfront中更新任務進度狀態。
 author: Alina
 feature: Work Management
 exl-id: 751071b4-3716-4153-97fe-4fe0ebc7cbb0
 source-git-commit: dd7f61fcd92a43303be356dd3209ec6da6a063dd
 workflow-type: tm+mt
-source-wordcount: '259'
+source-wordcount: '257'
 ht-degree: 2%
 
 ---
 
 # 設定任務的追蹤模式
 
-任務的「跟蹤模式」決定了在Adobe Workfront中更新任務「進度狀態」的方式。
+任務的追蹤模式會決定如何在Adobe Workfront中更新任務進度狀態。
 
-如需有關工作的追蹤模式的資訊，請參閱 [任務追蹤模式概觀](../../../manage-work/tasks/task-information/task-tracking-mode.md).
+如需有關工作的追蹤模式資訊，請參閱[工作追蹤模式概觀](../../../manage-work/tasks/task-information/task-tracking-mode.md)。
 
 ## 存取需求
 
@@ -52,7 +52,7 @@ ht-degree: 2%
 </table>
 -->
 
-您必須具備下列存取權，才能執行本文中的步驟：
+您必須具有下列存取權才能執行本文中的步驟：
 
 <table style="table-layout:auto"> 
  <col> 
@@ -63,43 +63,43 @@ ht-degree: 2%
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront授權概觀</a>*</td> 
+   <td role="rowheader"><a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront授權總覽</a>*</td> 
    <td> <p>工作或更高</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">訪問級別配置*</td> 
-   <td> <p>編輯對任務的訪問 </p> <p>注意：如果您仍無權存取，請洽詢您的Workfront管理員，他們是否在您的存取層級設定其他限制。 如需Workfront管理員如何修改您的存取層級的詳細資訊，請參閱 <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront授權概觀</a></p> </td> 
+   <td role="rowheader">存取層級設定*</td> 
+   <td> <p>編輯任務的存取權 </p> <p>注意：如果您還是沒有存取權，請詢問您的Workfront管理員，他們是否在您的存取層級中設定其他限制。 如需Workfront管理員如何修改存取層級的詳細資訊，請參閱<a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront授權總覽</a></p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">物件權限</td> 
-   <td> <p>管理任務的權限</p> <p>有關請求其他訪問的資訊，請參閱 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">請求對對象的訪問 </a>.</p> </td> 
+   <td role="rowheader">物件許可權</td> 
+   <td> <p>管理任務的許可權</p> <p>如需請求其他存取權的資訊，請參閱<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">請求物件</a>的存取權。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;若要了解您擁有的計畫、授權類型或存取權，請聯絡您的Workfront管理員。
+&#42;若要瞭解您擁有的計畫、授權型別或存取權，請連絡您的Workfront管理員。
 
 ## 設定任務的追蹤模式
 
 若要設定追蹤模式：
 
-1. 轉至要為設定追蹤模式的任務。
-1. 按一下 **更多** 圖示 ![](assets/qs-more-icon-on-an-object.png)在任務名稱旁，按一下 **編輯**.
+1. 前往您要設定追蹤模式的工作。
+1. 按一下工作名稱旁的&#x200B;**更多**&#x200B;圖示![](assets/qs-more-icon-on-an-object.png)，然後按一下&#x200B;**編輯**。
 
-   將開啟「編輯任務」對話框。
+   「編輯任務」對話方塊開啟。
 
-1. 在 **設定** 區段，請使用 **追蹤模式** 下拉式功能表，選取任務的「追蹤模式」。
+1. 在&#x200B;**設定**&#x200B;區段中，使用&#x200B;**追蹤模式**&#x200B;下拉式功能表來選取工作的追蹤模式。
 
    ![](assets/tracking-mode-field-in-edit-task-settings-nwe-350x233.png)
 
 1. 從下列選項中選取：
 
-   * 用戶必須更新（這是預設選項）
-   * 假設按時
+   * 使用者必須更新（這是預設選項）
+   * 假設準時
    * 忽略遲到警告
    * 自動完成
    * 前置任務
 
-   如需追蹤模式選項的詳細資訊，請參閱 [任務追蹤模式概觀](../../../manage-work/tasks/task-information/task-tracking-mode.md)
+   如需追蹤模式選項的詳細資訊，請參閱[工作追蹤模式概觀](../../../manage-work/tasks/task-information/task-tracking-mode.md)
 
-1. 按一下&#x200B;**儲存**。
+1. 按一下「**儲存**」。

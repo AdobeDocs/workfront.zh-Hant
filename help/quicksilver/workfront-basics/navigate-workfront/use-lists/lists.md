@@ -1,6 +1,6 @@
 ---
 navigation-topic: navigate-workfront
-title: 中的清單 [!DNL Adobe Workfront]
+title: ' [!DNL Adobe Workfront]中的清單'
 description: 請檢閱這些文章以瞭解如何使用Adobe Workfront中的清單。
 feature: Get Started with Workfront
 author: Lisa
@@ -13,12 +13,12 @@ ht-degree: 0%
 
 ---
 
-# 中的清單 [!DNL Adobe Workfront]
+# [!DNL Adobe Workfront]中的清單
 
 本節包含下列文章：
 
-* [開始使用中的清單 [!DNL Adobe Workfront]](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md)
+* [開始使用 [!DNL Adobe Workfront]中的清單](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md)
 * [將快速篩選套用至清單](../../../workfront-basics/navigate-workfront/use-lists/apply-quick-filter-list.md)
-* [在的清單中內聯編輯專案 [!DNL Adobe Workfront]](../../../workfront-basics/navigate-workfront/use-lists/inline-edit-objects.md)
+* [在 [!DNL Adobe Workfront]的清單中內嵌編輯專案](../../../workfront-basics/navigate-workfront/use-lists/inline-edit-objects.md)
 * [修改清單的顯示方式](../../../workfront-basics/navigate-workfront/use-lists/modify-list-display.md)
 * [匯出清單](../../../workfront-basics/navigate-workfront/use-lists/export-lists.md)

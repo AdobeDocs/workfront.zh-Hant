@@ -20,10 +20,10 @@ ht-degree: 0%
 
 本節包含下列文章：
 
-* [Adobe Workfront API呼叫的網域格式](../../wf-api/tips-tricks-and-troubleshooting/locate-domain-for-api.md)
-* [API錯誤：「遠端伺服器傳回錯誤：(400)錯誤請求」](../../wf-api/tips-tricks-and-troubleshooting/api-error-remote-server.md)
+* Adobe Workfront API呼叫的[網域格式](../../wf-api/tips-tricks-and-troubleshooting/locate-domain-for-api.md)
+* [API錯誤：「遠端伺服器傳回錯誤： (400)錯誤請求」](../../wf-api/tips-tricks-and-troubleshooting/api-error-remote-server.md)
 * [大型分頁搜尋期間傳回的重複專案](../../wf-api/tips-tricks-and-troubleshooting/duplicates-paginated-search.md)
-* [排序API中的查詢結果](../../wf-api/tips-tricks-and-troubleshooting/query-sort-api.md)
+* [在API中排序查詢結果](../../wf-api/tips-tricks-and-troubleshooting/query-sort-api.md)
 * [更新至emailAddr不會更新使用者名稱](../../wf-api/tips-tricks-and-troubleshooting/update-email-addr-and-username.md)
 * [透過Adobe Workfront API建立校訂時新增進階校訂選項](../../wf-api/tips-tricks-and-troubleshooting/api-create-proof-options-json.md)
 * [OPTASK copyIssue的選項設定](../../wf-api/tips-tricks-and-troubleshooting/copyissue-options.md)

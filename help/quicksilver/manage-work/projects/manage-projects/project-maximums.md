@@ -9,7 +9,7 @@ feature: Work Management
 exl-id: 60576107-89f1-4328-89e2-5b1e5e243fd9
 source-git-commit: 8be7534dfc0a1227bd2274ad093a88ae19b4691d
 workflow-type: tm+mt
-source-wordcount: '405'
+source-wordcount: '412'
 ht-degree: 0%
 
 ---
@@ -53,7 +53,7 @@ Adobe Workfront對可與專案相關聯的物件數量有限制。 設定專案�
   </tr> 
   <tr> 
    <td role="rowheader"><p>時間表計算</p></td> 
-   <td>Workfront不會為在6個月內未更新的專案執行自動時間表計算，並在更新後才會繼續。<p>對於在3個月內未更新的專案，Workfront會每週執行時間表計算，而非每晚執行。</p><p>如需有關計算專案時間表的相關資訊，請參閱 <a href="../../../manage-work/projects/manage-projects/recalculate-project-timeline.md" class="MCXref xref">重新計算專案時間表</a>. </p></td> 
+   <td>Workfront不會為在6個月內未更新的專案執行自動時間表計算，並在更新後才會繼續。<p>對於在3個月內未更新的專案，Workfront會每週執行時間表計算，而非每晚執行。</p><p>如需有關計算專案時間表的相關資訊，請參閱<a href="../../../manage-work/projects/manage-projects/recalculate-project-timeline.md" class="MCXref xref">重新計算專案時間表</a>。 </p></td> 
   </tr> 
  </tbody> 
 </table>

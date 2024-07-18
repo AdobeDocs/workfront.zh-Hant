@@ -4,7 +4,7 @@ content-type: reference
 product-area: system-administration;timesheets
 navigation-topic: set-up-workfront
 title: 設定時程表和時程表偏好設定
-description: 作為 [!DNL Workfront] 管理員，您可以使用排程來定義工作週，並將排程與使用者或專案建立關聯。 這允許 [!DNL Adobe Workfront] 以計算時間表和使用者可用性。 您也可以設定時程表和小時偏好設定。
+description: 作為 [!DNL Workfront] 管理員，您可以使用排程來定義您的工作週，並將排程與使用者或專案建立關聯。 這可讓 [!DNL Adobe Workfront] 計算時間表和使用者可用性。 您也可以設定時程表和小時偏好設定。
 author: Caroline
 feature: System Setup and Administration
 role: Admin

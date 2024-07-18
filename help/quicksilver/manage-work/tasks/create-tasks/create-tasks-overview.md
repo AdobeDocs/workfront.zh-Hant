@@ -1,93 +1,93 @@
 ---
 product-area: projects
 navigation-topic: create-tasks
-title: 建立任務概述
-description: 只有在建立專案後，才能在專案中建立工作。
+title: 建立任務總覽
+description: 您只能在建立專案之後在專案中建立任務。
 author: Alina
 feature: Work Management
 exl-id: 7bd6578e-9288-4793-ba07-a0c126c479b9
 source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
 workflow-type: tm+mt
-source-wordcount: '883'
+source-wordcount: '889'
 ht-degree: 0%
 
 ---
 
-# 建立任務概述
+# 建立任務總覽
 
-只有在建立專案後，才能在專案中建立工作。
+您只能在建立專案之後在專案中建立任務。
 
-例如，建立項目後，您可能需要添加任務並修改任務以組織項目計畫。 如需建立專案的詳細資訊，請參閱 [建立專案](../../../manage-work/projects/create-projects/create-project.md). 有關建立任務的資訊，請參閱 [在專案中建立任務](../../../manage-work/tasks/create-tasks/create-tasks-in-project.md).
+例如，建立專案後，您可能會想要新增任務並加以修改以組織專案計畫。 如需建立專案的詳細資訊，請參閱[建立專案](../../../manage-work/projects/create-projects/create-project.md)。 如需有關建立任務的資訊，請參閱[在專案中建立任務](../../../manage-work/tasks/create-tasks/create-tasks-in-project.md)。
 
-本文說明建立任務時所適用的考量事項、限制及預設值。
+本文會說明建立任務時適用的考量事項、限制及預設值。
 
-## 在專案上建立任務的方式
+## 在專案上建立任務的方法
 
 您可以透過下列方式在專案上建立任務：
 
-* 從頭開始，如 [在專案中建立任務](../../../manage-work/tasks/create-tasks/create-tasks-in-project.md).
-* 將任務複製到相同的項目或新項目，或複製同一項目上的任務，如 [複製和複製任務](../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md).
-* 將任務從項目移動到其他項目，如 [移動任務](../../../manage-work/tasks/manage-tasks/move-tasks.md).
+* 從頭開始，如[在專案中建立任務](../../../manage-work/tasks/create-tasks/create-tasks-in-project.md)中所述。
+* 將任務複製到相同專案或新專案，或複製相同專案上的任務，如[複製和複製任務](../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md)中所述。
+* 將任務從專案移動到另一個專案，如[移動任務](../../../manage-work/tasks/manage-tasks/move-tasks.md)中所述。
 
 ## 建立任務時的限制
 
-如果您擁有正確的存取權和權限，即可在專案上建立工作。 但是，以下是您可能無法建立任務的情況：
+當您擁有正確的存取權和許可權時，您便可以在專案上建立任務。 但是，在下列情況下，您可能無法建立任務：
 
-* 您的Adobe Workfront管理員或組管理員必須在「項目首選項」區域中啟用向處於「完成」或「無效」狀態的項目添加任務。 有關設定項目首選項的資訊，請參閱 [配置系統範圍的項目首選項](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
-* 無法向處於「待批准」狀態的項目添加任務。
+* 您的Adobe Workfront管理員或群組管理員必須啟用將任務新增到專案偏好設定區域中處於完成或無法使用狀態的專案。 如需有關設定專案偏好設定的資訊，請參閱[設定全系統的專案偏好設定](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md)。
+* 您無法將任務新增到擱置核准中的專案。
 
-## 項目上允許的最大任務數
+## 專案允許的最大任務數量
 
-一個專案最多可包含5,000個工作。 當您接近限制時、達到限制時，以及嘗試超過限制時，專案上會顯示警告訊息。
+一個專案最多可包含5,000個任務。 當您接近限制、達到限制以及如果您嘗試超過限制，專案上會顯示警告訊息。
 
-根據實施此限制時專案中的任務數，您的Workfront例項在單一專案中可能允許超過5,000個任務。
+根據套用此限制時您專案中的任務數量，您的Workfront執行個體可能允許在單一專案中超過5,000個任務。
 
-如果您能在單一專案中納入超過5,000個工作，請注意下列事項：
+如果您能在單一專案中包含超過5,000項任務，請注意下列事項：
 
-* Workfront環境的任務限制已設為您最大專案中的目前任務數量，加上10%的額外值。
+* Workfront環境的任務限制設為您最大專案中的目前任務數量，外加額外10%。
 
-   例如，若您Workfront例項中的專案包含10,000個工作，則整個Workfront例項中每個專案的上限為11,000個工作。
+  例如，如果Workfront執行個體中的專案包含10,000個任務，則您在整個Workfront執行個體中的每個專案限製為11,000個任務。
 
-* 較小的項目可提高效能，並最大限度地減少大型項目帶來的管理挑戰。
+* 小型專案可改善效能，並最大程度降低大型專案所伴隨的管理挑戰。
 
-## 將任務添加到項目時，任務預設值
+## 將任務新增至專案時的任務預設值
 
-有兩種類型的預設資訊，Workfront會在您建立任務時自動更新這些資訊：
+建立任務時，Workfront會自動更新兩種型別的預設資訊：
 
-* 系統級預設資訊
+* 系統層級預設資訊
 
-   您的Workfront管理員或組管理員在「項目首選項」的「任務和問題」區域中為任務建立系統級預設值。 有關任務和問題首選項的資訊，請參閱 [配置全系統任務和問題首選項](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md) 或 [配置組的任務和問題首選項](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-task-issue-preferences-group.md).
+  您的Workfront管理員或群組管理員會在專案偏好設定的「任務和問題」區域中建立任務的系統層級預設值。 有關任務和問題偏好設定的資訊，請參閱[設定全系統的任務和問題偏好設定](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md)或[設定群組的任務和問題偏好設定](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-task-issue-preferences-group.md)。
 
-* 專案層級預設資訊
+* 專案層級的預設資訊
 
-   本節的其餘部分說明項目級預設值，作為項目經理，您可以為添加到項目的所有新任務定義這些預設值
+  本節的其餘部分說明您作為專案經理，可為所有新增至專案的新任務定義的專案層級預設值
 
-將任務新增至專案時，根據專案的設定方式，Workfront可能會自動將核准程式或自訂表單附加至該任務。
+當您將任務新增至專案時，Workfront可能會根據專案的設定方式，自動將核准流程或自訂表單附加至任務。
 
-如需依預設設定專案以新增這些項目的相關資訊，請參閱 [編輯專案](../../../manage-work/projects/manage-projects/edit-projects.md) 文章。
+如需有關設定專案以依預設新增這些專案的資訊，請參閱[編輯專案](../../../manage-work/projects/manage-projects/edit-projects.md)文章中的「任務」一節。
 
-在定義與項目級別添加到項目的任務關聯的預設資訊時，請考慮以下事項：
+在專案層級定義要與新增至專案之任務相關聯的預設資訊時，請考慮下列事項：
 
-* 您必須具有項目的「管理」權限，才能定義任務審批流程和自定義表單的預設設定。
-* 所有新任務都會使用核准程式和編輯專案時定義的自訂表單來建立。
-* 使用「編輯任務」框添加任務時，可以修改這些預設設定，但在內嵌編輯中添加任務時則不能。
-* 您可以為範本中的任務定義核准程式和自訂表單。
+* 您必須擁有專案的管理許可權，才能定義任務核准程式及自訂表單的預設設定。
+* 所有新任務都是使用編輯專案時定義的核准程式和自訂表單建立的。
+* 當您使用「編輯任務」方塊新增任務時，可以修改這些預設設定，但當您在內聯編輯中新增任務時則不能修改。
+* 您可以定義範本中任務的核准流程及自訂表單。
 
    * 從此範本建立專案時，核准程式和自訂表單會自動套用至專案。
-   * 將模板附加到現有項目後，項目將保留原始任務批准流程和自定義表單設定（如果已定義）。 如果未定義，範本中的設定會成為專案的設定。
-   * 將模板附加到現有項目時，從模板添加到項目的任務將保留其在模板上具有的批准流程和自定義表單設定，而不考慮項目上的任務設定。
+   * 當範本附加到現有專案時，專案會保留原始任務核准流程和自訂表單設定（如果已定義）。 如果未定義，則範本中的設定會成為專案的設定。
+   * 當範本附加到現有專案時，從範本新增到專案的任務會保留它們在範本上的核准程式和自訂表單設定，無論專案上的任務設定為何。
 
-   如需將範本附加至專案的詳細資訊，請參閱 [將範本附加至專案](../../../manage-work/projects/create-and-manage-templates/attach-template-to-project.md).
+  如需有關將範本附加到專案的資訊，請參閱[將範本附加到專案](../../../manage-work/projects/create-and-manage-templates/attach-template-to-project.md)。
 
-* 複製專案時，任務預設設定會轉移至新專案。
+* 當您複製專案時，任務預設設定會傳輸到新專案。
 
-   如需複製專案的相關資訊，請參閱 [複製專案](../../../manage-work/projects/manage-projects/copy-project.md).
+  如需有關複製專案的資訊，請參閱[複製專案](../../../manage-work/projects/manage-projects/copy-project.md)。
 
-* 將任務從一個項目複製到另一個項目，並且目標項目具有不同的任務預設設定時，複製的任務將保留原始項目的預設設定，除非在複製過程中清除了這些設定。
-* 在同一個項目上複製任務時，自定義表單和批准流程將轉移到重複任務。
+* 當您將任務從一個專案複製到另一個專案並且目標專案具有不同的任務預設設定時，複製的任務會保留原始專案的預設設定，除非在複製過程中清除這些設定。
+* 當您在相同專案上複製任務時，自訂表單和核准流程會轉移到複製任務。
 
-   有關複製和複製任務的資訊，請參見[ [複製和複製任務](../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md)](../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md)。
+  如需有關複製和複製任務的資訊，請參閱[[複製和複製任務](../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md)](../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md)。
 
-* 將任務移到另一個項目時，無論新項目上的任務預設設定如何，預設任務設定都將保存在原始項目的任務上。
+* 當您將任務移動到另一個專案時，預設任務設定將儲存在原始專案的任務上，無論新專案上的任務預設設定如何。
 
-   有關移動任務的資訊，請參閱 [移動任務](../../../manage-work/tasks/manage-tasks/move-tasks.md).
+  如需關於移動任務的資訊，請參閱[移動任務](../../../manage-work/tasks/manage-tasks/move-tasks.md)。

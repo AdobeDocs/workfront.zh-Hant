@@ -3,8 +3,8 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 keywords: 聯結器
 navigation-topic: connections-annd-webhooks
-title: 建立與的連線 [!DNL Adobe Workfront Fusion]  — 基本指示
-description: 許多 [!DNL Adobe Workfront Fusion] 建立連線時，聯結器不需要自訂設定。 本文會介紹預設的連線建立程式。
+title: 建立與 [!DNL Adobe Workfront Fusion] 的連線 — 基本指示
+description: 許多 [!DNL Adobe Workfront Fusion] 聯結器在建立連線時不需要自訂組態。 本文會介紹預設的連線建立程式。
 author: Becky
 feature: Workfront Fusion
 exl-id: 6576a515-a1a1-4613-8d04-3c9d36bb1ed9
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 ---
 
-# 建立與的連線 [!DNL Adobe Workfront Fusion]  — 基本指示
+# 建立與[!DNL Adobe Workfront Fusion]的連線 — 基本指示
 
 ## 存取需求
 
@@ -36,39 +36,39 @@ ht-degree: 0%
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] 授權**</td> 
    <td>
-   <p>目前授權需求：否 [!DNL Workfront Fusion] 授權需求。</p>
+   <p>目前授權需求：無[!DNL Workfront Fusion]授權需求。</p>
    <p>或</p>
-   <p>舊版授權需求： [！UICONTROL [!DNL Workfront Fusion] 適用於工作自動化與整合] </p>
+   <p>舊版授權需求：[！UICONTROL [!DNL Workfront Fusion] for Work Automation and Integration] </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">產品</td> 
    <td>
-   <p>目前產品需求：如果您有[！UICONTROL Select]或[！UICONTROL Prime] [!DNL Adobe Workfront] 計畫，您的組織必須購買 [!DNL Adobe Workfront Fusion] 以及 [!DNL Adobe Workfront] 以使用本文所述的功能。 [!DNL Workfront Fusion] 包含在[！UICONTROL Ultimate]中 [!DNL Workfront] 計畫。</p>
+   <p>目前產品需求：如果您有[！UICONTROL Select]或[！UICONTROL Prime] [!DNL Adobe Workfront]計畫，您的組織必須購買[!DNL Adobe Workfront Fusion]及[!DNL Adobe Workfront]，才能使用本文所述的功能。 [!DNL Workfront Fusion]包含在[！UICONTROL Ultimate] [!DNL Workfront]計畫中。</p>
    <p>或</p>
-   <p>舊版產品需求：貴組織必須購買 [!DNL Adobe Workfront Fusion] 以及 [!DNL Adobe Workfront] 以使用本文所述的功能。</p>
+   <p>舊版產品需求：您的組織必須購買[!DNL Adobe Workfront Fusion]及[!DNL Adobe Workfront]，才能使用本文所述的功能。</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-若要瞭解您擁有的計畫、授權型別或存取權，請聯絡您的 [!DNL Workfront] 管理員。
+若要瞭解您擁有的計畫、授權型別或存取權，請連絡您的[!DNL Workfront]管理員。
 
-有關的資訊 [!DNL Adobe Workfront Fusion] 授權，請參閱 [[!DNL Adobe Workfront Fusion] 授權](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+如需[!DNL Adobe Workfront Fusion]授權的相關資訊，請參閱[[!DNL Adobe Workfront Fusion] 授權](../../workfront-fusion/get-started/license-automation-vs-integration.md)。
 
 ## 建立連線
 
-若要在內部建立連線 [!DNL Workfront Fusion] 模組：
+若要在[!DNL Workfront Fusion]模組內建立連線：
 
-1. 按一下 **[!UICONTROL 新增]** 在 [!UICONTROL 連線] 方塊以開啟 **[!UICONTROL 建立連線]** 面板。
-1. （選用）變更預設值 **[!UICONTROL 連線名稱]**.
-1. （條件式）如果應用程式需要進階連線設定，例如ID、金鑰或 [!UICONTROL 密碼]，請輸入該資訊。
+1. 按一下[!UICONTROL 連線]方塊旁的&#x200B;**[!UICONTROL 新增]**&#x200B;以開啟&#x200B;**[!UICONTROL 建立連線]**&#x200B;面板。
+1. （選擇性）變更預設的&#x200B;**[!UICONTROL 連線名稱]**。
+1. （條件式）如果應用程式需要進階連線設定（例如ID、金鑰或[!UICONTROL 密碼]），請輸入該資訊。
 
-   您可能需要按一下 **[!UICONTROL 顯示進階設定]** 以顯示可輸入這類資訊的欄位。
+   您可能需要按一下「顯示進階設定」****&#x200B;來顯示可輸入這類資訊的欄位。
 
-1. 按一下 **[!UICONTROL 繼續]**.
+1. 按一下&#x200B;**[!UICONTROL 繼續]**。
 1. 在顯示的登入視窗中，輸入您的認證以登入應用程式（如果尚未這麼做）。
-1. （視條件而定）如果 **[!UICONTROL 允許]** 按鈕顯示，檢查聯結器將能夠採取的動作，然後按一下按鈕以連線應用程式 [!DNL Workfront Fusion].
+1. （條件式）如果顯示&#x200B;**[!UICONTROL 允許]**&#x200B;按鈕，請檢查聯結器能夠採取的動作，然後按一下按鈕以將應用程式連線到[!DNL Workfront Fusion]。
 
    >[!NOTE]
    >

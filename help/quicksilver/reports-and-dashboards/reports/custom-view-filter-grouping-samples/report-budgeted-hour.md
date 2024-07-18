@@ -48,26 +48,26 @@ ht-degree: 1%
    <td role="rowheader">存取層級設定*</td> 
    <td> <p>編輯報告、儀表板、行事曆的存取權</p> <p>編輯對篩選器、檢視、群組的存取權</p> <p><b>附註</b>
 
-如果您還是沒有存取權，請詢問您的Workfront管理員，他們是否在您的存取層級中設定其他限制。 如需有關Workfront管理員如何修改您的存取層級的資訊，請參閱 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>.</p> </td>
+如果您還是沒有存取權，請詢問您的Workfront管理員，他們是否在您的存取層級中設定其他限制。 如需Workfront管理員如何修改存取層級的詳細資訊，請參閱<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>。</p> </td>
 </tr> 
   <tr> 
    <td role="rowheader">物件許可權</td> 
-   <td> <p>管理報表的許可權</p> <p>如需請求其他存取許可權的詳細資訊，請參閱 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">要求物件的存取權 </a>.</p> </td> 
+   <td> <p>管理報表的許可權</p> <p>如需請求其他存取權的資訊，請參閱<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">請求物件</a>的存取權。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;若要瞭解您擁有的計畫、授權型別或存取權，請聯絡您的Workfront管理員。
+&#42;若要瞭解您擁有的計畫、授權型別或存取權，請連絡您的Workfront管理員。
 
 ## 建立預算時數報告
 
-1. 按一下 **主要功能表** ![](assets/main-menu-icon.png) 按一下「 」 **報表**.
+1. 按一下右上角的&#x200B;**主要功能表** ![](assets/main-menu-icon.png)，然後按一下&#x200B;**報表**。
 
-1. 按一下 **新報告>預算時數**.
+1. 按一下&#x200B;**新報告>預算時數**。
 
    預設檢視會套用至報表。
 
-1. （選用）若要讓報表更易於閱讀，請按一下 **已編列預算時數** 欄，然後 **切換到文字模式**，然後變更
+1. （選擇性）若要讓報告更易於閱讀，請按一下&#x200B;**預算時數**&#x200B;欄，然後&#x200B;**切換至文字模式**，然後變更
 
    ```
    valuefield
@@ -83,20 +83,20 @@ ht-degree: 1%
 
    這會將預算時數四捨五入為您指定的小數。
 
-   如需如何在Workfront中舍入數字的詳細資訊，請參閱文章 [計算資料運算式的概觀](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
+   如需有關如何在Workfront中舍入數字的資訊，請參閱文章[計算資料運算式概觀](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md)。
 
-1. （選用）按一下 **新增欄** 以新增其他欄。
+1. （選擇性）按一下&#x200B;**新增欄**&#x200B;以新增其他欄。
 1. （選用）若要讓報表更易於閱讀，建議您將分組新增至報表。 我們建議進行下列分組：
 
-   按一下 **群組** 標籤，然後執行下列一或數個動作：
+   按一下&#x200B;**群組**&#x200B;標籤，然後執行下列一或數個動作：
 
-   1. 按一下 **新增群組** 並開始輸入「專案名稱」，然後當它出現在清單中時選取它。
-   1. 按一下 **新增群組** 並開始輸入「工作角色名稱」，然後當它出現在清單中時選取它。
-   1. 按一下 **新增群組** 並開始輸入 **分配日期**，請在它出現在清單中時選取它，然後從以下位置選取您要作為群組依據的時間範圍： **日期分組條件** 欄位。
+   1. 按一下&#x200B;**新增群組**&#x200B;並開始輸入「專案名稱」，然後當它出現在清單中時選取它。
+   1. 按一下&#x200B;**新增群組**&#x200B;並開始輸入「工作角色名稱」，然後當它出現在清單中時選取它。
+   1. 按一下&#x200B;**新增群組**&#x200B;並開始輸入&#x200B;**配置日期**，當它出現在清單中時選取它，然後從&#x200B;**依**&#x200B;的群組日期欄位選取您要依其進行群組的時間範圍。
 
-1. （選用）按一下 **篩選器** 以新增篩選器至報表。
-1. （選用）按一下 **圖表** 以新增圖表至報表。
-1. 按一下 **儲存+關閉**.
+1. （選擇性）按一下&#x200B;**篩選器**&#x200B;以將篩選器新增至報表。
+1. （選擇性）按一下&#x200B;**圖表**&#x200B;將圖表新增至報表。
+1. 按一下&#x200B;**儲存+關閉**。
 
 ## 檢閱預算時數報告
 

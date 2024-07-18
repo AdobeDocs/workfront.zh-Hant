@@ -20,7 +20,7 @@ ht-degree: 2%
 
 建立或編輯任務時，您可以調整任務的「追蹤模式」設定，以控制任務的「進度狀態」指示器的顯示方式和時間。 當您設定某些設定來追蹤任務的進度時，Adobe Workfront會顯示進度狀態旗標。
 
-如需有關任務進度狀態的詳細資訊，請參閱 [任務進度狀態總覽](../../../manage-work/tasks/task-information/task-progress-status.md).
+如需任務進度狀態的詳細資訊，請參閱[任務進度狀態概觀](../../../manage-work/tasks/task-information/task-progress-status.md)。
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -38,12 +38,12 @@ ht-degree: 2%
 
 ## 追蹤模式選項 {#tracking-mode-options}
 
-身為任務擁有者或專案管理員，您可以選取Workfront指示每個任務之進度狀態的方式。 如需如何在工作上設定追蹤模式的詳細資訊，請參閱 [設定任務的追蹤模式](../../../manage-work/tasks/task-information/set-tracking-mode-for-tasks.md).
+身為任務擁有者或專案管理員，您可以選取Workfront指示每個任務之進度狀態的方式。 如需如何在工作上設定追蹤模式的詳細資訊，請參閱[為工作設定追蹤模式](../../../manage-work/tasks/task-information/set-tracking-mode-for-tasks.md)。
 
 您可選取下列選項：
 
 * [使用者必須更新](#user-must-update)
-* [假設準時](#assume-on-time)
+* [假設於時間](#assume-on-time)
 * [忽略遲到警告](#ignore-late-warnings)
 * [自動完成](#auto-complete)
 * [前置任務](#predecessor)
@@ -71,9 +71,9 @@ Workfront假設任務將依照排程完成，並在其到期日或計畫完成�
 
 >[!IMPORTANT]
 >
->選取讓任務自動完成會在重新計算專案時間時將任務標籤為「完成」。 如果專案的「更新型別」設定為「自動」或「自動」及「變更時」，則會每天計算專案時間表。 如需有關專案時間表重新計算的資訊，請參閱 [重新計算專案時間表](../../../manage-work/projects/manage-projects/recalculate-project-timeline.md).
+>選取讓任務自動完成會在重新計算專案時間時將任務標籤為「完成」。 如果專案的「更新型別」設定為「自動」或「自動」及「變更時」，則會每天計算專案時間表。 如需重新計算專案時間表的相關資訊，請參閱[重新計算專案時間表](../../../manage-work/projects/manage-projects/recalculate-project-timeline.md)。
 >
->實際完成日期的時間是自動計算時間表當天的午夜。 用來產生這個時間戳記的時間是您的系統時區，由您的Workfront管理員在設定的客戶資訊區段中定義。 如需有關設定系統時區的資訊，請參閱 [設定系統的基本資訊](../../../administration-and-setup/get-started-wf-administration/configure-basic-info.md).
+>實際完成日期的時間是自動計算時間表當天的午夜。 用來產生這個時間戳記的時間是您的系統時區，由您的Workfront管理員在設定的客戶資訊區段中定義。 如需設定系統時區的詳細資訊，請參閱[設定系統的基本資訊](../../../administration-and-setup/get-started-wf-administration/configure-basic-info.md)。
 
 ### 前置任務 {#predecessor}
 

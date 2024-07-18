@@ -41,7 +41,7 @@ ht-degree: 6%
 
 * 檢視
 
-  您必須授予使用者（包括系統管理員）存取檢視的許可權，而不授予其存取工作區的許可權。 如需詳細資訊，請參閱 [共用檢視](/help/quicksilver/planning/access/share-views.md).
+  您必須授予使用者（包括系統管理員）存取檢視的許可權，而不授予其存取工作區的許可權。 如需詳細資訊，請參閱[共用檢視](/help/quicksilver/planning/access/share-views.md)。
 
 您可以與下列實體共用工作區或檢視：
 
@@ -54,7 +54,7 @@ ht-degree: 6%
 
 * 您的Adobe Workfront授權型別與Workfront Planning許可權搭配使用，可讓您檢視、貢獻或管理工作區及其物件。
 
-  如需有關授權型別如何影響Workfront Planning許可權等級的資訊，請參閱 [使用Adobe Workfront Planning時的授權型別概觀](/help/quicksilver/planning/access/license-type-overview.md).
+  如需授權型別如何影響Workfront Planning許可權等級的資訊，請參閱[使用Adobe Workfront Planning時的授權型別概觀](/help/quicksilver/planning/access/license-type-overview.md)。
 * 系統管理員可以管理系統中的所有工作區，包括他們未建立的工作區。
 * 其他使用者（包括系統管理員）只能存取他們已建立或已與他們共用的檢視。 系統管理員只能獲得管理檢視的許可權。
 * 您可以與他人共用工作區的連結或檢視。
@@ -73,7 +73,7 @@ ht-degree: 6%
 > 
 >具有所有其他授權型別的使用者可以擁有對工作區和檢視的檢視許可權。
 >
->如需詳細資訊，請參閱 [使用Adobe Workfront Planning時的授權型別概觀](/help/quicksilver/planning/access/license-type-overview.md).
+>如需詳細資訊，請參閱[使用Adobe Workfront Planning時的授權型別概觀](/help/quicksilver/planning/access/license-type-overview.md)。
 
 
 ### Workspace許可權

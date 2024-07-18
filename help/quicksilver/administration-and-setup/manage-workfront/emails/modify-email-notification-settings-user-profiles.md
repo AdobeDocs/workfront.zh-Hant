@@ -20,9 +20,9 @@ ht-degree: 0%
 
 <!-- Audited: 12/2023 -->
 
-如果您是Adobe Workfront管理員或您具有允許編輯其他使用者設定的「規劃者」存取層級，您可以一次為多個使用者設定通知設定。 這包括指定使用者在發生事件時收到通知，還是在一封每日摘要電子郵件中收到通知，如中所述 [Adobe Workfront通知](../../../workfront-basics/using-notifications/wf-notifications.md). 如需有關編輯使用者所需存取層級的資訊，請參閱 [授予使用者存取許可權](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
+如果您是Adobe Workfront管理員或您具有允許編輯其他使用者設定的「規劃者」存取層級，您可以一次為多個使用者設定通知設定。 這包括指定使用者是否在事件發生時收到通知，或如[Adobe Workfront通知](../../../workfront-basics/using-notifications/wf-notifications.md)中所述，在每日摘要電子郵件中收到通知。 如需有關編輯使用者所需存取層級的資訊，請參閱[授予使用者存取權](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md)。
 
-您也可以一次為一位使用者設定電子郵件通知，包括您自己的設定檔。 如需詳細資訊，請參閱 [修改您自己的電子郵件通知](../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+您也可以一次為一位使用者設定電子郵件通知，包括您自己的設定檔。 如需詳細資訊，請參閱[修改您自己的電子郵件通知](../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md)。
 
 
 ## 存取需求
@@ -49,7 +49,7 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-如需有關此表格的詳細資訊，請參閱 [Workfront檔案中的存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -57,28 +57,28 @@ ht-degree: 0%
 
 大量設定通知設定時，您只能變更所選使用者共同擁有的設定。
 
-當您修改通知設定時，標籤 **已編輯** 會為該通知設定顯示，通知您已修改該通知設定。
+當您修改通知設定時，該通知設定會顯示標籤&#x200B;**已編輯**，通知您已修改該通知設定。
 
 若要修改多個使用者的電子郵件通知設定：
 
 {{step-1-to-users}}
 
-1. 選取使用者，然後按一下 **編輯**.
-1. 在 **編輯人員** 方塊中，按一下 **通知**.
+1. 選取使用者，然後按一下[編輯]。****
+1. 在出現的&#x200B;**編輯人員**&#x200B;方塊中，按一下&#x200B;**通知**。
 
 1. 展開類別以檢視與該類別相關的通知設定。
 
-   如果至少選取了一個通知與其他選定使用者的通知不匹配的使用者，則該通知的類別核取方塊包含水平線 ![](assets/straight-line-instead-of-checkmark.jpg) 而不是勾號。
+   如果至少選取了一個通知與其他選取使用者之通知不符的使用者，則該通知的類別核取方塊包含水平線![](assets/straight-line-instead-of-checkmark.jpg)而不是核取標籤。
 
 
 1. 按一下您希望使用者每天或立即接收的任何通知，或清除您希望他們停止接收的任何通知。
 
    >[!NOTE]
    >
-   >   對於 **通訊** 類別中，您可以選取僅供即時傳送的個別通知。 您必須選取所有要在每日摘要中傳送的通知。
+   >   對於&#x200B;**通訊**&#x200B;類別，您只能選取即時傳遞的個別通知。 您必須選取所有要在每日摘要中傳送的通知。
 
 
-1. 如果您選取以每日摘要傳送通知，請在 **通知** 中的區段 **在以下時間後以電子郵件傳送每日摘要：** 功能表。
+1. 如果您選取以每日摘要傳送通知，請在&#x200B;**電子郵件每日摘要**&#x200B;後選單的&#x200B;**通知**&#x200B;區段頂端選取您想要摘要傳送的當天時間。
 
    ![](assets/daily-digest-time.png)
 

@@ -36,7 +36,7 @@ ht-degree: 1%
   <tr>  
    <td role="rowheader">[!DNL Adobe Workfront Fusion] 授權**</td>  
    <td> 
-   <p>目前：否 [!DNL Workfront Fusion] 授權需求。</p> 
+   <p>目前：無[!DNL Workfront Fusion]授權需求。</p> 
    <p>或</p> 
    <p>舊版：任何 </p> 
    </td>  
@@ -44,17 +44,17 @@ ht-degree: 1%
   <tr>  
    <td role="rowheader">產品</td>  
    <td> 
-   <p>新增：</p> <ul><li>[！UICONTROL Select]或[！UICONTROL Prime] [!DNL Workfront] 計畫：您的組織必須購買 [!DNL Adobe Workfront Fusion].</li><li>[！UICONTROL Ultimate] [!DNL Workfront] 計畫： [!DNL Workfront Fusion] 已包括在內。</li></ul> 
+   <p>新增：</p> <ul><li>[！UICONTROL Select]或[！UICONTROL Prime] [!DNL Workfront]計畫：您的組織必須購買[!DNL Adobe Workfront Fusion]。</li><li>已包含[！UICONTROL Ultimate] [!DNL Workfront]計畫： [!DNL Workfront Fusion]。</li></ul> 
    <p>或</p> 
-   <p>目前：您的組織必須購買 [!DNL Adobe Workfront Fusion].</p> 
+   <p>目前：您的組織必須購買[!DNL Adobe Workfront Fusion]。</p> 
    </td>  
   </tr> 
  </tbody>  
 </table>
 
-如需有關此表格的詳細資訊，請參閱 [Workfront檔案中的存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
-有關的資訊 [!DNL Adobe Workfront Fusion] 授權，請參閱 [[!DNL Adobe Workfront Fusion] 授權](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+如需[!DNL Adobe Workfront Fusion]授權的相關資訊，請參閱[[!DNL Adobe Workfront Fusion] 授權](../../workfront-fusion/get-started/license-automation-vs-integration.md)。
 
 ## 函數
 
@@ -75,7 +75,7 @@ ht-degree: 1%
 * [toCollection]
 * [toArray](#toarray)
 * [arraydifference](#arraydifference-array1-array2-mode)
-* [去重複化]
+* [重複資料刪除]
 
 ### [!UICONTROL 聯結（陣列；分隔符號）]
 
@@ -85,11 +85,11 @@ ht-degree: 1%
 
 傳回陣列中的專案數。
 
-### [!UICONTROL 索引鍵（物件）]
+### [!UICONTROL 鍵（物件）]
 
 傳回給定物件或陣列屬性的陣列。
 
-### [!UICONTROL 磁碟片段(陣列；開始； [結束])]
+### [!UICONTROL 磁碟片段（陣列；開始；[結束]）]
 
 傳回僅包含所選專案的新陣列。
 
@@ -105,11 +105,11 @@ ht-degree: 1%
 
 移除陣列引數中指定的值。 此函式僅對文字或數字的原始陣列有效。
 
-### [!UICONTROL 新增（陣列；value1；value2； ...）]
+### [!UICONTROL 新增（陣列；值1；值2； ...）]
 
 將引數中指定的值加入陣列並傳回該陣列。
 
-### [!UICONTROL 對應(複雜陣列；索引鍵；[篩選索引鍵]；[篩選的可能值])]
+### [!UICONTROL 對應（複雜陣列；機碼；[用於篩選的機碼]；[用於篩選的可能值]）]
 
 傳回包含複雜陣列值的原始陣列。 此函式允許篩選值。 將原始變數名稱用於金鑰。
 
@@ -125,13 +125,13 @@ ht-degree: 1%
 >
 >  傳回原始陣列，其中包含標籤等於工作或住家位置的電子郵件
 
-如需詳細資訊，請參閱 [在中將資訊從一個模組對應到另一個模組 [!UICONTROL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md)
+如需詳細資訊，請參閱[在[!UICONTROL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md)中將資訊從一個模組對應到另一個模組
 
 ### 隨機播放
 
-### [!UICONTROL 排序(陣列； [訂購]； [key])]
+### [!UICONTROL 排序（陣列；[順序]；[索引鍵]）]
 
-排序陣列的值。 的有效值 `order` 引數為：
+排序陣列的值。 `order`引數的有效值為：
 
 * `asc`
 
@@ -149,7 +149,7 @@ ht-degree: 1%
 
   不區分大小寫的遞減順序： ...， C， c， B， b， A，代表文字型別。
 
-使用 `key` 引數以存取複雜物件內的屬性。
+使用`key`引數來存取複雜物件內的屬性。
 
 將原始變數名稱用於金鑰。
 
@@ -185,9 +185,9 @@ ht-degree: 1%
 
 建立一個新陣列，將所有子陣列元素以遞回方式串連到其中，直到指定的深度。
 
-### [!UICONTROL 相異(陣列； [key])]
+### [!UICONTROL distinct （陣列；[索引鍵]）]
 
-移除陣列內的重複專案。 使用&quot;[!UICONTROL key]用於存取複雜物件內部屬性的「 」引數。 若要存取巢狀屬性，請使用點標籤法。 陣列中的第一個專案是索引1。
+移除陣列內的重複專案。 使用&quot;[!UICONTROL key]&quot;引數來存取複雜物件內的屬性。 若要存取巢狀屬性，請使用點標籤法。 陣列中的第一個專案是索引1。
 
 >[!INFO]
 >
@@ -217,17 +217,17 @@ ht-degree: 1%
 >
 >`[{ key1: "value1"}, { key2: "value2"}]`
 
-### [!UICONTROL arraydifference [陣列1，陣列2，模式]]
+### [!UICONTROL arrayDifference [array1，array2，模式]]
 
 傳回兩個陣列之間的差異。
 
-輸入下列其中一個值 `mode` 引數。
+為`mode`引數輸入下列其中一個值。
 
-* `classic`：傳回包含所有元素的新陣列 `array1` 中不存在的 `array2`.
+* `classic`：傳回新陣列，其中包含`array2`中不存在的`array1`的所有元素。
 
 * `symmetric`：傳回兩個陣列不共用的元素陣列。
 
-  換言之，此函式傳回的陣列包含了 `array1` 中不存在的 `array2`，以及的所有元素 `array2` 中不存在的 `array1`.
+  換言之，此函式傳回的陣列包含`array2`中不存在的`array1`的所有元素，以及`array1`中不存在的`array2`的所有元素。
 
   >[!INFO]
   >
@@ -245,15 +245,15 @@ ht-degree: 1%
   >
   >* `arrayDifference [myArray, yourArray, classic]`
   >
-  >    傳回 `[1,2]`
+  >    傳回`[1,2]`
   >
   >* `arrayDifference [yourArray, myArray, classic]`
   >
-  >    傳回 `[6,7]`
+  >    傳回`[6,7]`
   >
   >* `arrayDifference [myArray, yourArray, symmetric]`
   >
-  >    傳回 `[1,2,6,7]`
+  >    傳回`[1,2,6,7]`
 
 ### 去重複化
 

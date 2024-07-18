@@ -17,7 +17,7 @@ ht-degree: 1%
 
 身為資源管理員，您可以使用Adobe Workfront工作負載平衡器來檢視尚未指派給使用者的工作專案，並將這些專案指派給使用者。
 
-如需有關工作負載平衡器的一般資訊，請參閱 [工作負載平衡器總覽](../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
+如需工作負載平衡器的一般資訊，請參閱[工作負載平衡器總覽](../../resource-mgmt/workload-balancer/overview-workload-balancer.md)。
 
 您可以將工作專案（任務和問題）指派給Workfront其他區域中的使用者。 但是，透過使用工作負載平衡器，您可以輕鬆瞭解使用者的可用性，並在指派他們更多工作之前清楚檢視他們指派給他們的所有其他專案。
 
@@ -41,13 +41,13 @@ Workfront使用下列資訊在工作負載平衡器中計算使用者的容量�
 
      這會計算使用者的每日和每週可用性。 所選排程的任何排程例外都會反映在工作負載平衡器的使用者容量中。
 
-  如需詳細資訊，請參閱 [設定資源管理喜好設定](../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md).
+  如需詳細資訊，請參閱[設定資源管理喜好設定](../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md)。
 
-  如需排程的相關資訊，請參閱 [建立排程](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md)
+  如需排程的相關資訊，請參閱[建立排程](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md)
 
 * 使用者的休假。 這表示使用者計畫起飛的日期。
 
-  如需詳細資訊，請參閱 [設定個人休假](../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/personal-time-overview.md).
+  如需詳細資訊，請參閱[設定個人休假](../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/personal-time-overview.md)。
 
 * 使用者的工作時間。 這表示使用者可用於執行實際專案相關工作（不包括管理費用）的FTE時間百分比。 將「工作時間」值設為1，表示使用者可用於專案相關工作的整個全職同等工作。
 
@@ -62,26 +62,26 @@ Workfront使用下列資訊在工作負載平衡器中計算使用者的容量�
 
   您可以在手動指派專案時進行「進階指派」，一次一個。
 
-  如需詳細資訊，請參閱 [使用工作負載平衡器手動指派工作](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer-manually.md).
+  如需詳細資訊，請參閱[使用工作負載平衡器](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer-manually.md)手動指派工作。
 
 * 一次一個專案，方法是拖放工作專案給需要指派的使用者。
 
-  如需詳細資訊，請參閱 [透過拖放在工作負載平衡器中指派工作](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer-by-drag-and-drop.md).
+  如需詳細資訊，請參閱[透過拖放在工作負載平衡器中指派工作](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer-by-drag-and-drop.md)。
 
 * 使用「大量指派」選項，一次可指派多個專案。 您可以定義一次將專案指派給多個使用者的規則。
 
-  如需詳細資訊，請參閱 [使用工作負載平衡器大量指派工作](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer-in-bulk.md).
+  如需詳細資訊，請參閱[使用工作負載平衡器](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer-in-bulk.md)大量指派工作。
 
-有關取消指派工作的資訊，請參閱 [在工作負載平衡器中取消指派工作](../../resource-mgmt/workload-balancer/unassign-work-in-workload-balancer.md).
+如需有關取消指派工作的資訊，請參閱[在工作負載平衡器](../../resource-mgmt/workload-balancer/unassign-work-in-workload-balancer.md)中取消指派工作。
 
 ## 工作負載平衡器中的指派區域
 
-您可以使用資源區域、專案或團隊層級的工作負載平衡器將工作指派給使用者。 如需有關工作負載平衡器在Workfront中的位置的詳細資訊，請參閱 [找到工作負載平衡器](../../resource-mgmt/workload-balancer/locate-workload-balancer.md).
+您可以使用資源區域、專案或團隊層級的工作負載平衡器將工作指派給使用者。 如需有關工作負載平衡器在Workfront中的位置的詳細資訊，請參閱[找到工作負載平衡器](../../resource-mgmt/workload-balancer/locate-workload-balancer.md)。
 
 工作負載平衡器中有兩個區域可供您檢視工作專案：
 
 * **未指派的工作**：顯示未指派給使用者的專案。
-* **已指派的工作**：顯示指派給使用者的專案。
+* **指派的工作**：顯示指派給使用者的專案。
 
 下表說明哪些專案會根據其指定顯示在每個區域中：
 
@@ -144,15 +144,15 @@ Workfront使用下列資訊在工作負載平衡器中計算使用者的容量�
 
 &#42;將工作專案指派給使用者和角色時，只有當角色是主要受指派人時，它才會顯示在「未指派的工作」區域中。
 
-&#42;&#42;當工作專案被指派給一個使用者和另一個實體時，它只有在使用者是主要受指派人時才顯示在指派的工作區域中。
+&#42;&#42;將工作專案指派給使用者和另一個實體時，只有當使用者是主要受指派人時，它才會顯示在「已指派的工作」區域中。
 
-如需有關工作負載平衡器的未指派和已指派區域的詳細資訊，請參閱 [瀏覽工作負載平衡器](../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
+如需有關工作負載平衡器的未指派和已指派區域的詳細資訊，請參閱[瀏覽工作負載平衡器](../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md)。
 
 ## 對工作角色、團隊和使用者的多個指派的考量事項
 
 將多個資源指派給工作專案時，請考量下列事項：
 
-* 使用者可以有多個與其設定檔相關聯的工作角色。 如需將使用者與工作角色建立關聯的資訊，請參閱 [編輯使用者設定檔](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
+* 使用者可以有多個與其設定檔相關聯的工作角色。 如需將使用者與工作角色建立關聯的資訊，請參閱[編輯使用者的設定檔](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md)。
 
 * 任務或問題通常會先指派給一或多個工作角色或團隊。 當專案準備開始時，也需要將其指派給使用者。\
   如果將任務或問題指派給一個或多個角色，然後您也指派了使用者，Adobe Workfront會根據以下規則決定要將哪個工作角色與其他使用者（如果有）相關聯：

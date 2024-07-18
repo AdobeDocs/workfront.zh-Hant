@@ -18,9 +18,9 @@ ht-degree: 0%
 
 Adobe Workfront目標隨附一組事件通知，您可以為您的帳戶啟用這些通知。 每次符合事件定義的條件時，這些事件通知都會觸發電子郵件通訊。
 
-如需可為Workfront目標啟用哪些通知的詳細資訊，請參閱 [通知：目標](../../workfront-basics/using-notifications/notifications-goals.md).
+如需可為Workfront目標啟用哪些通知的詳細資訊，請參閱[通知：目標](../../workfront-basics/using-notifications/notifications-goals.md)。
 
-如需有關在Adobe Workfront中管理通知的資訊，請參閱 [修改您自己的電子郵件通知](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+如需有關在Adobe Workfront中管理通知的資訊，請參閱[修改您自己的電子郵件通知](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md)。
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

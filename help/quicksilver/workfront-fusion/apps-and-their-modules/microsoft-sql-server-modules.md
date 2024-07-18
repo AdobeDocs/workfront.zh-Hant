@@ -5,7 +5,7 @@ product-area: workfront-integrations
 keywords: 聯結器
 navigation-topic: apps-and-their-modules
 title: Microsoft SQL Server模組
-description: 您可以使用 [!DNL Adobe Workfront Fusion] 以連線至Microsoft SQL Server。
+description: 您可以使用 [!DNL Adobe Workfront Fusion] 連線至Microsoft SQL Server。
 author: Becky
 feature: Workfront Fusion
 exl-id: d79cf00d-a81e-4d88-ac4a-f80b7b5a92b3
@@ -16,9 +16,9 @@ ht-degree: 0%
 
 ---
 
-# [!DNL Microsoft SQL Server] 模組
+# [!DNL Microsoft SQL Server]模組
 
-您可以使用 [!DNL Adobe Workfront Fusion] 以連線到 [!UICONTROL Microsoft SQL Server].
+您可以使用[!DNL Adobe Workfront Fusion]連線至[!UICONTROL Microsoft SQL Server]。
 
 ## 存取需求
 
@@ -39,31 +39,31 @@ ht-degree: 0%
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] 授權**</td> 
    <td>
-   <p>目前授權需求：否 [!DNL Workfront Fusion] 授權需求。</p>
+   <p>目前授權需求：無[!DNL Workfront Fusion]授權需求。</p>
    <p>或</p>
-   <p>舊版授權需求： [！UICONTROL [!DNL Workfront Fusion] 適用於工作自動化與整合] </p>
+   <p>舊版授權需求：[！UICONTROL [!DNL Workfront Fusion] for Work Automation and Integration] </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">產品</td> 
    <td>
-   <p>目前產品需求：如果您有[！UICONTROL Select]或[！UICONTROL Prime] [!DNL Adobe Workfront] 計畫，您的組織必須購買 [!DNL Adobe Workfront Fusion] 以及 [!DNL Adobe Workfront] 以使用本文所述的功能。 [!DNL Workfront Fusion] 包含在[！UICONTROL Ultimate]中 [!DNL Workfront] 計畫。</p>
+   <p>目前產品需求：如果您有[！UICONTROL Select]或[！UICONTROL Prime] [!DNL Adobe Workfront]計畫，您的組織必須購買[!DNL Adobe Workfront Fusion]及[!DNL Adobe Workfront]，才能使用本文所述的功能。 [!DNL Workfront Fusion]包含在[！UICONTROL Ultimate] [!DNL Workfront]計畫中。</p>
    <p>或</p>
-   <p>舊版產品需求：貴組織必須購買 [!DNL Adobe Workfront Fusion] 以及 [!DNL Adobe Workfront] 以使用本文所述的功能。</p>
+   <p>舊版產品需求：您的組織必須購買[!DNL Adobe Workfront Fusion]及[!DNL Adobe Workfront]，才能使用本文所述的功能。</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-若要瞭解您擁有的計畫、授權型別或存取權，請聯絡您的 [!DNL Workfront] 管理員。
+若要瞭解您擁有的計畫、授權型別或存取權，請連絡您的[!DNL Workfront]管理員。
 
-有關的資訊 [!DNL Adobe Workfront Fusion] 授權，請參閱 [[!DNL Adobe Workfront Fusion] 授權](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+如需[!DNL Adobe Workfront Fusion]授權的相關資訊，請參閱[[!DNL Adobe Workfront Fusion] 授權](../../workfront-fusion/get-started/license-automation-vs-integration.md)。
 
 
 
-## 連線 [!DNL Microsoft SQL Server] 服務對象 [!DNL Workfront Fusion]
+## 正在將[!DNL Microsoft SQL Server]服務連線到[!DNL Workfront Fusion]
 
-如需有關連線您的電腦的指示 [!DNL Microsoft SQL Server] 帳戶至 [!UICONTROL Workfront Fusion]，請參閱 [建立與的連線 [!UICONTROL Adobe Workfront Fusion]  — 基本指示](../../workfront-fusion/connections/connect-to-fusion-general.md)
+如需有關將您的[!DNL Microsoft SQL Server]帳戶連線到[!UICONTROL Workfront Fusion]的指示，請參閱[建立與[!UICONTROL Adobe Workfront Fusion]的連線](../../workfront-fusion/connections/connect-to-fusion-general.md) — 基本指示
 
 >[!NOTE]
 >
@@ -71,21 +71,21 @@ ht-degree: 0%
 >
 >例如，如果使用者擁有透過Excel聯結器授予的「讀取表格」許可權，然後在Outlook聯結器中建立連線以讀取電子郵件，則許可權同意畫面會顯示已授予的「讀取表格」許可權和新要求的「寫入電子郵件」許可權。
 
-## 使用 [!DNL Microsoft SQL Server] 模組
+## 使用[!DNL Microsoft SQL Server]模組
 
-您可以透過預存程式，直接在資料庫伺服器上執行自訂邏輯。 [!DNL Adobe Workfront Fusion] 會動態載入輸入/輸出引數及記錄集的介面，以便每個引數或值可以個別對應。 在開始設定案例之前，請確定您用來連線至資料庫的帳戶擁有讀取許可權 `INFORMATION_SCHEMA.ROUTINES` 和 `INFORMATION_SCHEMA.PARAMETERS` 檢視。
+您可以透過預存程式，直接在資料庫伺服器上執行自訂邏輯。 [!DNL Adobe Workfront Fusion]會動態載入輸入/輸出引數及記錄集的介面，以便每個引數或值都可以個別對應。 開始設定案例之前，請確定您用來連線至資料庫的帳戶具有`INFORMATION_SCHEMA.ROUTINES`和`INFORMATION_SCHEMA.PARAMETERS`檢視的讀取存取權。
 
-時間 [!DNL Fusion] 建立與的連線 [!DNL SQL server] 目的地， [!DNL Fusion] 使用者可識別主機（託管伺服器的網域名稱或IP位址）和連線埠。 [!DNL Fusion] 可以連線到任何可用的主機和連線埠。
+當[!DNL Fusion]建立與[!DNL SQL server]目的地的連線時，[!DNL Fusion]使用者會識別主機（裝載伺服器的網域名稱或IP位址）和連線埠。 [!DNL Fusion]可以連線到任何可用的主機和連線埠。
 
-有關使用的特定IP位址的資訊 [!DNL Workfront Fusion]，請參閱 [要存取的IP位址 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/get-started/ip-addresses-for-fusion.md)
+如需[!DNL Workfront Fusion]使用的特定IP位址的詳細資訊，請參閱[用於存取的IP位址 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/get-started/ip-addresses-for-fusion.md)
 
-若要進一步瞭解如何建立預存程式，請參閱 [!DNL Microsoft SQL Server] 檔案。
+若要深入瞭解如何建立預存程式，請參閱[!DNL Microsoft SQL Server]檔案。
 
 >[!NOTE]
 >
->[!DNL Workfront Fusion] 不支援多個記錄集。 系統只會處理第一個專案。
+>[!DNL Workfront Fusion]不支援多個記錄集。 系統只會處理第一個專案。
 
-## 疑難排解錯誤 [!UICONTROL ER_LOCK_WAIT_TIMEOUT：超過鎖定等待逾時；請嘗試重新啟動交易]
+## 疑難排解錯誤[!UICONTROL ER_LOCK_WAIT_TIMEOUT：超過鎖定等待逾時；請嘗試重新啟動交易]
 
 使用多個模組修改相同資料時，會發生此錯誤。 這是由SQL交易所造成。
 
@@ -97,6 +97,6 @@ ht-degree: 0%
 
 開啟自動提交。 自動認可會在模組執行完成後立即完成（認可）每個交易。
 
-1. 按一下 [!UICONTROL 案例設定] 圖示 ![](assets/scenario-settings-icon.png)在熒幕底部。
-1. 按一下 **[!UICONTROL 自動認可]** 核取方塊。
-1. 按一下 **[!UICONTROL 確定]** 以儲存情境設定。
+1. 按一下畫面底部的[!UICONTROL 情境設定]圖示![](assets/scenario-settings-icon.png)。
+1. 按一下&#x200B;**[!UICONTROL 自動認可]**&#x200B;核取方塊。
+1. 按一下&#x200B;**[!UICONTROL 確定]**&#x200B;以儲存情境設定。

@@ -9,8 +9,8 @@ role: Developer
 exl-id: dcb7dadb-4dd8-48da-a559-cbe8ad99ff9e
 source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
 workflow-type: tm+mt
-source-wordcount: '356'
-ht-degree: 0%
+source-wordcount: '353'
+ht-degree: 1%
 
 ---
 
@@ -21,16 +21,16 @@ ht-degree: 0%
 
 ## 存取API Explorer：
 
-1. 使用網頁瀏覽器導覽至 [API總管](https://developer.adobe.com/workfront/api-explorer/)\
+1. 使用網頁瀏覽器導覽至[API總管](https://developer.adobe.com/workfront/api-explorer/)\
    ![](assets/mceclip1-350x149.png)
 
-1. 在API Explorer的右上角，選取所需的Workfront **API版本**，預設會自動選取最新版本
-1. 此 **篩選** 欄位)來篩選依名稱列出的物件，並截斷相應顯示的物件清單：
+1. 在API Explorer的右上角，選取所需的Workfront **API Version**，預設會自動選取最新版本
+1. **篩選器**&#x200B;欄位可用來篩選依名稱列出的物件，並將截斷顯示的物件清單：
 
    ![](assets/mceclip2-350x147.png)
 
    * **欄位**：指定物件中的可用欄位。
-   * **引用**：指定物件的可用參考變數。 參照是變數的別名。 初始化後，參照可與變數名稱互換使用。 參考使用初始化的記憶體。
+   * **參考**：指定物件的可用參考變數。 參照是變數的別名。 初始化後，參照可與變數名稱互換使用。 參考使用初始化的記憶體。
    * **集合**：物件的可用集合。 集合是代表物件與資源之間一對多關係的變數。
    * **搜尋**：物件的可用搜尋資源。 搜尋結果會根據API要求中搜尋資源所指定的查詢引數而定。
    * **動作**：物件支援的動作。 動作可以是針對資源或一組資源執行的簡單或複雜程式。 指定的動作也可能影響相關資源。

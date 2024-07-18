@@ -30,7 +30,7 @@ Workfront或群組管理員無法修改欄位中的字元限制。
  <thead> 
   <tr> 
    <th> <p><strong>欄位型別</strong> </p> </th> 
-   <th> <p><strong>字元限制(</strong><strong>包含空間)</strong> </p> </th> 
+   <th> <p><strong>字元限制（</strong><strong>包含空格）</strong> </p> </th> 
   </tr> 
  </thead> 
  <tbody> 

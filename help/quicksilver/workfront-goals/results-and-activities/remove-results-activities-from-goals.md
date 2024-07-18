@@ -24,13 +24,13 @@ ht-degree: 0%
 如需建立目標及將結果和活動新增至目標的相關資訊，請參閱下列文章：
 
 * [在Adobe Workfront目標中建立目標](../../workfront-goals/goal-management/create-goals.md)
-* [將活動新增至Adobe Workfront目標中的目標](../../workfront-goals/results-and-activities/add-activities-to-goals.md)
-* [在Adobe Workfront目標中新增結果](../../workfront-goals/results-and-activities/add-results-to-goals.md)
+* [在Adobe Workfront目標中新增活動](../../workfront-goals/results-and-activities/add-activities-to-goals.md)
+* [將結果新增至Adobe Workfront目標中的目標](../../workfront-goals/results-and-activities/add-results-to-goals.md)
 * [在Adobe Workfront目標中編輯結果和活動](../../workfront-goals/results-and-activities/edit-results-and-activities.md)
 
 目標也可以與父目標校準，成為子目標。 子目標也是父目標的進度指示器。
 
-您可以透過移除目標之間的連線來移除目標之間的對齊方式。 如需詳細資訊，請參閱 [移除Adobe Workfront目標中的目標校準](../goal-alignment/remove-goal-alignment.md).
+您可以透過移除目標之間的連線來移除目標之間的對齊方式。 如需詳細資訊，請參閱[移除Adobe Workfront目標中的目標校準](../goal-alignment/remove-goal-alignment.md)。
 
 ## 存取需求
 
@@ -59,7 +59,7 @@ ht-degree: 0%
  <td>
  <p>新授權：投稿人或以上版本</p>
  或
- <p>目前授權：要求或以上</p> <p>如需詳細資訊，請參閱 <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront授權總覽</a>.</p> </td>
+ <p>目前授權：要求或以上</p> <p>如需詳細資訊，請參閱<a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront授權總覽</a>。</p> </td>
  </tr>
  <tr>
  <td role="rowheader">產品*</td>
@@ -69,7 +69,7 @@ ht-degree: 0%
 <li>Select或Prime Adobe Workfront計畫以及額外的Adobe Workfront目標授權。</li>
 <li>預設包含Workfront目標的Ultimate Workfront計畫。 </li></ul>
  <p>或</p>
- <p>目前產品需求： Adobe Workfront Goals的Workfront計畫和額外授權。 </p> <p>如需詳細資訊，請參閱 <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">使用Workfront目標的需求</a>. </p> </td>
+ <p>目前產品需求： Adobe Workfront Goals的Workfront計畫和額外授權。 </p> <p>如需詳細資訊，請參閱<a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">使用Workfront目標的需求</a>。 </p> </td>
  </tr>
  <tr>
  <td role="rowheader">存取層級</td>
@@ -81,7 +81,7 @@ ht-degree: 0%
   <div>
   <p>檢視目標或更高許可權以檢視它</p>
   <p>管理目標的許可權以編輯它</p>
-  <p>如需關於共用目標的資訊，請參閱 <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">在Workfront目標中共用目標</a>. </p>
+  <p>如需共用目標的相關資訊，請參閱<a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">在Workfront目標中共用目標</a>。 </p>
   </div> </td>
  </tr>
  <tr>
@@ -92,7 +92,7 @@ ht-degree: 0%
 </tbody>
 </table>
 
-*如需詳細資訊，請參閱 [Workfront檔案中的存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 ## 先決條件
 
@@ -105,7 +105,7 @@ ht-degree: 0%
 * 當您從目標中移除結果或活動時，移除結果或活動的進度會影響目標的整體進度。
 * 您無法從目標刪除專案，但可以從目標中斷專案的連線。 透過從目標中斷專案連線，專案的完成百分比不再影響目標的進度。
 
-  如需有關專案如何影響目標進度的資訊，請參閱 [在Adobe Workfront目標中新增專案](../../workfront-goals/results-and-activities/connect-projects-to-goals-overview.md).
+  如需有關專案如何影響目標進度的資訊，請參閱[在Adobe Workfront目標中新增專案](../../workfront-goals/results-and-activities/connect-projects-to-goals-overview.md)。
 
 * 您無法從目標移除結果或活動，也無法中斷子目標或專案的連線（如果子目標或專案是目標的最後一個進度指示器）。
 * 如果專案從「專案」區域刪除，且它是目標的最後一個進度指示器，則目標會變為「非使用中」。
@@ -141,7 +141,7 @@ How you delete results and activities differs depending on the environment you u
 
 -->
 
-1. 按一下 **主要功能表** 圖示 ![](assets/main-menu-icon.png) 按一下「 」 **目標**.
+1. 按一下右上角的&#x200B;**主要功能表**&#x200B;圖示![](assets/main-menu-icon.png)，然後按一下&#x200B;**目標**。
 
    <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../results-and-activities/assets/three-line-main-menu-icon.png) in the upper-left corner)
    -->
@@ -151,11 +151,11 @@ How you delete results and activities differs depending on the environment you u
 
    如此將可開啟目標頁面。
 
-1. 按一下 **進度指示器** 在左側面板中。
+1. 按一下左側面板中的&#x200B;**進度指示器**。
 
-1. 選取結果或活動，然後按一下 **刪除** 圖示 ![](assets/delete-icon.png) 在清單頂端。
+1. 選取結果或活動，然後按一下清單頂端的&#x200B;**刪除**&#x200B;圖示![](assets/delete-icon.png)。
 
-1. 按一下 **刪除** 以確認刪除。 結果或活動已刪除且無法復原。 目標的完成百分比會更新，以排除已刪除的活動或結果。
+1. 按一下&#x200B;**刪除**&#x200B;以確認刪除。 結果或活動已刪除且無法復原。 目標的完成百分比會更新，以排除已刪除的活動或結果。
 
 
 ## 從目標中移除專案
@@ -186,7 +186,7 @@ Dsconnecting projects from goals differs depending on the environment you use.
 -->
 
 
-1. 按一下 **主要功能表** 圖示並按一下「 」 **目標**.
+1. 按一下右上角的&#x200B;**主要功能表**&#x200B;圖示，然後按一下&#x200B;**目標**。
 
    <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../results-and-activities/assets/three-line-main-menu-icon.png) in the upper-left corner)
    -->
@@ -196,9 +196,9 @@ Dsconnecting projects from goals differs depending on the environment you use.
 1. 按一下您要從中移除結果和活動的目標名稱。
 
    如此將可開啟目標頁面。
-1. 按一下 **進度指示器** 在左側面板中。
-1. 選取專案，然後按一下 **中斷連線** 圖示 ![](assets/disconnect-icon.png) 在清單頂端。
-1. 按一下 **中斷連線** 以確認。
+1. 按一下左側面板中的&#x200B;**進度指示器**。
+1. 選取專案，然後按一下清單頂端的&#x200B;**中斷連線**&#x200B;圖示![](assets/disconnect-icon.png)。
+1. 按一下&#x200B;**中斷連線**&#x200B;以確認。
 
    專案不再連線至目標。 目標更新的完成百分比會排除已中斷連線的專案。
 

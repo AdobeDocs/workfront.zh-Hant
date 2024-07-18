@@ -60,7 +60,7 @@ ht-degree: 1%
 
 {{step-1-to-setup}}
 
-1. 在左側面板中，按一下 **系統** > **客戶資訊**.
+1. 在左側面板中，按一下&#x200B;**系統** > **客戶資訊**。
 
    根據您購買的Workfront計畫，客戶資訊頁面中可能會遺漏某些區段。 如果您需要瞭解您的組織使用哪個Workfront計畫，請聯絡客戶代表。
 
@@ -68,19 +68,19 @@ ht-degree: 1%
 
    * **基本資訊**
 
-     如需在Workfront中設定基本資訊的詳細資訊，請參閱 [設定基本資訊](#configure-basic-info).
+     如需有關在Workfront中設定基本資訊的資訊，請參閱[設定基本資訊](#configure-basic-info)。
 
    * **API金鑰設定**
 
-     如需API金鑰設定的相關資訊，請參閱 [管理API金鑰](../../administration-and-setup/manage-workfront/security/manage-api-keys.md).
+     如需API金鑰設定的相關資訊，請參閱[管理API金鑰](../../administration-and-setup/manage-workfront/security/manage-api-keys.md)。
 
    * **IP允許清單**
 
-     如需有關將IP位址新增至您的允許清單(您的使用者可透過該清單存取Workfront)的資訊，請參閱 [設定防火牆的允許清單](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).
+     如需將IP位址新增至您的允許清單(您的使用者可存取Workfront)的相關資訊，請參閱[設定防火牆的允許清單](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md)。
 
    * **授權**
 
-     如需授權的相關資訊，請參閱 [管理系統中的可用授權](../../administration-and-setup/get-started-wf-administration/manage-available-licenses-in-your-system.md).
+     如需授權的相關資訊，請參閱[管理您系統中的可用授權](../../administration-and-setup/get-started-wf-administration/manage-available-licenses-in-your-system.md)。
 
 ## 設定基本資訊 {#configure-basic-info}
 
@@ -90,9 +90,9 @@ ht-degree: 1%
 
 {{step-1-to-setup}}
 
-1. 在左側面板中，按一下 **系統** > **客戶資訊**.
+1. 在左側面板中，按一下&#x200B;**系統** > **客戶資訊**。
 
-1. 在 **基本資訊** 區段在頂端 **客戶資訊** 頁面上，尋找有關您使用Workfront執行個體的下列資訊：
+1. 在&#x200B;**客戶資訊**&#x200B;頁面頂端的&#x200B;**基本資訊**&#x200B;區段中，尋找有關您使用Workfront的執行個體的下列資訊：
 
    <table style="table-layout:auto"> 
     <col> 
@@ -112,7 +112,7 @@ ht-degree: 1%
      </tr> 
      <tr> 
       <td role="rowheader">網域</td> 
-      <td> <p>網域是在建立帳戶時由Workfront設定。</p> <p>網域會識別您用來存取Workfront之URL的唯一子網域。<p>例如，如果您的組織已被指派網域「mycompany」，則您用來存取Workfront的URL為 <i>https://mycompany.my.workfront.com.</i></p><p>您無法自行編輯網域。 如果您想要變更網域，請聯絡Workfront客戶支援。 如需聯絡Workfront客戶支援的詳細資訊，請參閱 <a href="../../workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md" class="MCXref xref">聯絡客戶支援</a>.</p> </td> 
+      <td> <p>網域是在建立帳戶時由Workfront設定。</p> <p>網域會識別您用來存取Workfront之URL的唯一子網域。<p>例如，如果您的組織已被指派網域「mycompany」，則您用來存取Workfront的URL為<i>https://mycompany.my.workfront.com。</i></p><p>您無法自行編輯網域。 如果您想要變更網域，請聯絡Workfront客戶支援。 如需聯絡Workfront客戶支援的詳細資訊，請參閱<a href="../../workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md" class="MCXref xref">聯絡客戶支援</a>。</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">時區</td> 
@@ -120,15 +120,15 @@ ht-degree: 1%
        <ul> 
         <li>外寄電子郵件中顯示的日期和時間</li> 
         <li>新使用者建立時的預設時區</li> 
-       </ul> <p>使用者可以在個人資料下修改其Workfront執行個體的時區。 當使用者修改他們的時區時，他們來自Workfront的電子郵件中的日期和時間符合他們的設定檔偏好設定。 如需有關修改使用者設定檔偏好設定的詳細資訊，請參閱 <a href="../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md" class="MCXref xref">設定我的設定</a>. 當您建立新排程時，系統會選取預設時區作為預設時區。 如需建立排程的詳細資訊，請參閱 <a href="../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md" class="MCXref xref">建立排程</a>.</p> <p>如需使用排程協助使用者在Workfront中跨時區共同作業的相關資訊，請參閱 <a href="../../workfront-basics/tips-tricks-and-troubleshooting/working-across-timezones.md" class="MCXref xref">跨時區工作</a>.</p> </td> 
+       </ul> <p>使用者可以在個人資料下修改其Workfront執行個體的時區。 當使用者修改他們的時區時，他們來自Workfront的電子郵件中的日期和時間符合他們的設定檔偏好設定。 如需有關修改使用者設定檔偏好設定的詳細資訊，請參閱<a href="../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md" class="MCXref xref">設定我的設定</a>。 當您建立新排程時，系統會選取預設時區作為預設時區。 如需建立排程的詳細資訊，請參閱<a href="../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md" class="MCXref xref">建立排程</a>。</p> <p>如需使用排程協助使用者在Workfront中跨時區共同作業的詳細資訊，請參閱<a href="../../workfront-basics/tips-tricks-and-troubleshooting/working-across-timezones.md" class="MCXref xref">跨時區工作</a>。</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">語系設定</td> 
-      <td>控制用於外寄電子郵件訊息的語言、日期和數字格式。 此處選取的地區設定是建立新使用者時的預設設定。 使用者可以在他們的使用者設定檔中修改他們的地區設定。 當使用者修改他們的地區設定時，他們來自Workfront的電子郵件中的語言、日期和數字格式符合他們的設定檔偏好設定。 如需有關修改設定檔偏好設定的詳細資訊，請參閱 <a href="../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md" class="MCXref xref">設定我的設定</a>.</td> 
+      <td>控制用於外寄電子郵件訊息的語言、日期和數字格式。 此處選取的地區設定是建立新使用者時的預設設定。 使用者可以在他們的使用者設定檔中修改他們的地區設定。 當使用者修改他們的地區設定時，他們來自Workfront的電子郵件中的語言、日期和數字格式符合他們的設定檔偏好設定。 如需有關修改設定檔偏好設定的詳細資訊，請參閱<a href="../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md" class="MCXref xref">設定我的設定</a>。</td> 
      </tr> 
      <tr> 
       <td role="rowheader">儲存配額</td> 
-      <td> <p>這是您的Workfront執行個體中可用的檔案儲存空間量。<br>配額包含您直接上傳至Workfront的檔案。<br>其中不包含：</p> 
+      <td> <p>這是您的Workfront執行個體中可用的檔案儲存空間量。<br>配額包含您直接上傳至Workfront的檔案。<br>它不包含：</p> 
        <ul> 
         <li>從任何其他第三方服務提供者(SharePoint、Google Drive、Webdam、Box、Dropbox、任何其他檔案資產管理提供者)連結至Workfront的檔案。</li> 
         <li>您的Workfront資料（專案、任務、問題、使用者等）。</li> 
@@ -136,7 +136,7 @@ ht-degree: 1%
      </tr> 
      <tr> 
       <td role="rowheader">產品版本</td> 
-      <td>這是指派給您的Workfront執行個體型別。 大部分Workfront客戶的產品版本為 <strong>企業</strong>.</td> 
+      <td>這是指派給您的Workfront執行個體型別。 大多數Workfront客戶的產品版本為<strong>Enterprise</strong>。</td> 
      </tr> 
     </tbody> 
    </table>

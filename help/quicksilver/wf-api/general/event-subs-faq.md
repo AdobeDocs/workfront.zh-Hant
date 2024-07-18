@@ -9,7 +9,7 @@ role: Developer
 exl-id: a6120939-5d76-4f46-a304-125de6b22502
 source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
 workflow-type: tm+mt
-source-wordcount: '937'
+source-wordcount: '950'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ ht-degree: 0%
 
 ## 我是否能夠根據事件裝載內的特定條件，選取要傳送至端點的事件？
 
-事件訂閱篩選器是一種可依指定條件排序事件子項的方式。 建議您套用篩選器至事件訂閱，因為這樣可以大幅減少端點需要使用的訊息數量。 如需詳細資訊，請參閱 [事件訂閱篩選](../../wf-api/general/event-subs-api.md#event).
+事件訂閱篩選器是一種可依指定條件排序事件子項的方式。 建議您套用篩選器至事件訂閱，因為這樣可以大幅減少端點需要使用的訊息數量。 如需詳細資訊，請參閱[事件訂閱篩選](../../wf-api/general/event-subs-api.md#event)。
 
 ## 為何API會傳回409衝突回應代碼？
 
@@ -45,9 +45,9 @@ ht-degree: 0%
 
 尋找下列案例並使用建議的解決方案：
 
-* 確定您的訂閱端點 — 由 **url** 欄位 — 傳回2XX HTTP回應代碼。 如果沒有，請聯絡Workfront支援或參閱 [事件訂閱傳送需求](../../wf-api/general/setup-event-sub-endpoint.md).
+* 確定您的訂閱端點（由&#x200B;**url**&#x200B;欄位定義）正在傳回2XX HTTP回應代碼。 如果不是，請連絡Workfront支援，或參閱[事件訂閱傳遞需求](../../wf-api/general/setup-event-sub-endpoint.md)。
 
-* 事件傳送請求可能在完成之前逾時。 請確認您的端點在5秒內持續回應。 這是HTTP要求傳送事件訂閱訊息時設定的預設逾時。 如果您的端點在5秒內沒有回應，請聯絡Workfront支援或參閱 [事件訂閱傳送需求](../../wf-api/general/setup-event-sub-endpoint.md).
+* 事件傳送請求可能在完成之前逾時。 請確認您的端點在5秒內持續回應。 這是HTTP要求傳送事件訂閱訊息時設定的預設逾時。 如果您的端點沒有在5秒內回應，請連絡Workfront支援或參閱[事件訂閱傳遞需求](../../wf-api/general/setup-event-sub-endpoint.md)。
 * 這些事件可能不會產生您思考的方式。 確保您沒有對事件應該如何或何時引發做出假設。 例如，您可能會認為更新任務上的檔案會產生任務更新事件，而是會產生檔案建立或檔案更新事件。
 * 您的訂閱可能無法如預期般設定。 您可以在不同的環境中建立事件訂閱，並預期他們會像其他Workfront資料一樣進行傳輸。 但是，事件訂閱資料未設定為複製或升級至其他環境。 請確定您向正確的環境發出API要求，且該環境中的訂閱已如預期般設定。
 * 未收到裝載，因為必要的Workfront IP位址尚未新增至防火牆上的允許清單。 事件訂閱事件只會從少數IP位址傳送。 確保目的地網路具有從Workfront事件訂閱接收裝載所需的所有IP例外。
@@ -73,11 +73,11 @@ ht-degree: 0%
 
 ## 如果在嘗試呼叫事件訂閱API時收到500回應狀態，怎麼辦？
 
-請聯絡Workfront支援。 若要瞭解如何聯絡支援人員，請參閱 [聯絡客戶支援](../../workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).
+請聯絡Workfront支援。 若要瞭解如何連絡支援，請參閱[連絡客戶支援](../../workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md)。
 
 ## Workfront事件訂閱可使用哪些不同型別的驗證？
 
-您可以使用任何使用持有人權杖的驗證。 此 **authToken** 訂閱的欄位是一個字串，代表用來驗證的OAuth2持有人權杖，其URL在 **url** 欄位。 理論上，只要目的地端點知道如何處理其編碼(也就是 **utf-8**.
+您可以使用任何使用持有人權杖的驗證。 訂閱的&#x200B;**authToken**&#x200B;欄位是字串，代表OAuth2持有者權杖，用於以&#x200B;**url**&#x200B;欄位中指定的URL進行驗證。 理論上，只要目的地端點知道如何處理其編碼（即&#x200B;**utf-8**），此權杖值可以是任何值。
 
 ## 我應多久之後才會從Workfront事件訂閱收到事件裝載？
 
@@ -87,10 +87,10 @@ ht-degree: 0%
 
 * **API檔案**： [事件訂閱API](../../wf-api/general/event-subs-api.md)
 
-* **最佳實務**： [活動訂閱最佳實務](../../wf-api/general/event-sub-best-practice.md)
+* **最佳實務**： [事件訂閱最佳實務](../../wf-api/general/event-sub-best-practice.md)
 
 * **觸發事件訂閱裝載的欄位**： [事件訂閱資源欄位](../../wf-api/api/event-sub-resource-fields.md)
 
-* **瞭解事件訂閱重試**： [事件訂閱重試次數](../../wf-api/api/event-sub-retries.md)
+* **瞭解事件訂閱重試次數**： [事件訂閱重試次數](../../wf-api/api/event-sub-retries.md)
 
-* **為Workfront設定防火牆**： [設定防火牆的允許清單](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md)
+* **設定Workfront的防火牆**： [設定防火牆的允許清單](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md)

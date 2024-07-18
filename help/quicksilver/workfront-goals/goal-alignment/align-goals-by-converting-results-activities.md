@@ -16,7 +16,7 @@ ht-degree: 16%
 # 透過將結果和活動轉換為目標來校準目標
 
 您可以手動對齊兩個目標，也可以將現有目標的結果和活動轉換為另一個目標。 轉換的結果或活動會成為原始目標的子目標。
-有關手動對齊兩個目標的資訊，請參閱 [透過在Adobe Workfront目標中連線目標來對齊目標](../../workfront-goals/goal-alignment/align-goals-by-connecting-them.md).
+如需有關手動對齊兩個目標的資訊，請參閱[在Adobe Workfront目標中連線來對齊目標](../../workfront-goals/goal-alignment/align-goals-by-connecting-them.md)。
 
 ## 存取需求
 
@@ -39,7 +39,7 @@ ht-degree: 16%
  <td>
  <p>新授權：投稿人或以上版本</p>
  或
- <p>目前授權：要求或以上</p> <p>如需詳細資訊，請參閱 <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront授權總覽</a>.</p> </td>
+ <p>目前授權：要求或以上</p> <p>如需詳細資訊，請參閱<a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront授權總覽</a>。</p> </td>
  </tr>
  <tr>
  <td role="rowheader">產品*</td>
@@ -49,7 +49,7 @@ ht-degree: 16%
 <li>Select或Prime Adobe Workfront計畫以及額外的Adobe Workfront目標授權。</li>
 <li>預設包含Workfront目標的Ultimate Workfront計畫。 </li></ul>
  <p>或</p>
- <p>目前產品需求： Adobe Workfront Goals的Workfront計畫和額外授權。 </p> <p>如需詳細資訊，請參閱 <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">使用Workfront目標的需求</a>. </p> </td>
+ <p>目前產品需求： Adobe Workfront Goals的Workfront計畫和額外授權。 </p> <p>如需詳細資訊，請參閱<a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">使用Workfront目標的需求</a>。 </p> </td>
  </tr>
  <tr>
  <td role="rowheader">存取層級</td>
@@ -61,7 +61,7 @@ ht-degree: 16%
   <div>
   <p>檢視目標或更高許可權以檢視它</p>
   <p>管理目標的許可權以編輯它</p>
-  <p>如需關於共用目標的資訊，請參閱 <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">在Workfront目標中共用目標</a>. </p>
+  <p>如需共用目標的相關資訊，請參閱<a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">在Workfront目標中共用目標</a>。 </p>
   </div> </td>
  </tr>
 <tr>
@@ -72,7 +72,7 @@ ht-degree: 16%
 </tbody>
 </table>
 
-*如需詳細資訊，請參閱 [Workfront檔案中的存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 ## 先決條件
 
@@ -80,7 +80,7 @@ ht-degree: 16%
 
 * 具有現有結果和活動的現有目標。
 
-  如需建立目標的相關資訊，請參閱 [在Adobe Workfront目標中建立目標](../../workfront-goals/goal-management/create-goals.md).
+  如需建立目標的相關資訊，請參閱[在Adobe Workfront目標中建立目標](../../workfront-goals/goal-management/create-goals.md)。
 
 >[!IMPORTANT]
 >
@@ -119,16 +119,16 @@ ht-degree: 16%
 -->
 
 1. 移至具有結果或您要轉換為目標的活動的目標。
-1. 從目標頁面，按一下 **進度指示器** 在左側面板中。
-1. 在進度指標清單中選取結果或活動，然後按一下 **轉換為目標** 圖示 ![](assets/convert-to-goal-icon-unshimmed.png) 在進度指標清單的最上方。 「轉換為目標」方塊開啟。
+1. 從目標的頁面，按一下左側面板中的&#x200B;**進度指示器**。
+1. 在進度指標清單中選取結果或活動，然後按一下進度指標清單頂端的&#x200B;**轉換為目標**&#x200B;圖示![](assets/convert-to-goal-icon-unshimmed.png)。 「轉換為目標」方塊開啟。
 
    ![](assets/convert-to-goal-box-unshimmed.png)
 1. 更新下列資訊：
    * **目標名稱**：依預設，新目標的名稱與原始結果或活動相同。
-   * **期間**：依預設，新目標的期間為目前季度。 您可以選取 **啟用自訂日期** 用來為新目標定義自訂時段的設定。
-   * **目標所有者**：依預設，新目標擁有者是原始結果或活動的擁有者。
-   * **說明**：新增新目標的詳細資訊。
-1. 按一下 **儲存**
+   * **期間**：依預設，新目標的期間為目前季度。 您可以選取&#x200B;**啟用自訂日期**&#x200B;設定，以定義新目標的自訂時段。
+   * **目標擁有者**：依預設，新的目標擁有者是原始結果或活動的擁有者。
+   * **描述**：新增新目標的詳細資訊。
+1. 按一下&#x200B;**儲存**
 
    結果或活動現在轉換為原始目標的子目標。 它會在原始目標的進度指標清單中列為目標。
 

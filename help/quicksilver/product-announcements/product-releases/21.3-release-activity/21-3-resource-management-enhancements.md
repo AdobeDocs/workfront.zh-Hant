@@ -17,7 +17,7 @@ ht-degree: 0%
 
 此頁面說明21.3版本對「預覽」環境所做的所有資源管理增強功能。 這些增強功能已在2021年7月21日當週的生產環境中推出。
 
-如需21.3版本所有可用變更的清單，請參閱 [21.3版本總覽](../../../product-announcements/product-releases/21.3-release-activity/21-3-release-overview.md).
+如需21.3版本可用的所有變更清單，請參閱[21.3版本總覽](../../../product-announcements/product-releases/21.3-release-activity/21-3-release-overview.md)。
 
 ## 停用不再使用的角色
 
@@ -29,5 +29,5 @@ ht-degree: 0%
 
 指派給已停用角色的任務和問題，以及核准流程或路由規則，將繼續指派給這些角色。 您必須更新這些物件，以使用中角色取代非使用中角色（如果尚未完成）。
 
-如需詳細資訊，請參閱 [停用職位角色](../../../administration-and-setup/set-up-workfront/organizational-setup/deactivate-job-roles.md).
+如需詳細資訊，請參閱[停用工作角色](../../../administration-and-setup/set-up-workfront/organizational-setup/deactivate-job-roles.md)。
 

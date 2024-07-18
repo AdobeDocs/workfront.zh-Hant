@@ -17,7 +17,7 @@ ht-degree: 0%
 
 此頁面說明21.3版本對預覽環境提出的所有要求增強功能。 這些增強功能已在2021年7月21日當週的生產環境中推出。
 
-如需21.3版本所有可用變更的清單，請參閱 [21.3版本總覽](../../../product-announcements/product-releases/21.3-release-activity/21-3-release-overview.md).
+如需21.3版本可用的所有變更清單，請參閱[21.3版本總覽](../../../product-announcements/product-releases/21.3-release-activity/21-3-release-overview.md)。
 
 ## 依最近的路徑或使用關鍵字搜尋來尋找請求
 
@@ -32,5 +32,5 @@ ht-degree: 0%
 
 路徑包括請求佇列，以及提交請求前您選取的所有主題群組和佇列主題。
 
-如需詳細資訊，請參閱 [建立及提交Adobe Workfront請求](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md).
+如需詳細資訊，請參閱[建立和提交Adobe Workfront要求](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md)。
 

@@ -17,7 +17,7 @@ ht-degree: 0%
 
 # 21.2其他增強功能
 
-本頁說明21.2版對預覽環境所做的所有其他增強功能。 這些增強功能將在2021年5月10日當週的生產環境中提供。 如需21.2版所有可用變更的清單，請參閱 [21.2版本總覽](../../../product-announcements/product-releases/21.2-release-activity/21-2-release-overview.md).
+本頁說明21.2版對預覽環境所做的所有其他增強功能。 這些增強功能將在2021年5月10日當週的生產環境中提供。 如需21.2版本可用的所有變更清單，請參閱[21.2版本概觀](../../../product-announcements/product-releases/21.2-release-activity/21-2-release-overview.md)。
 
 ## 我們現在正式改稱Adobe Workfront
 
@@ -25,7 +25,7 @@ Workfront已更名為Adobe Workfront。
 
 Adobe Workfront應用程式中最顯眼的區域和我們面向客戶的網站現在都已更新。 其他區域即將更新。
 
-**更新區域**
+**已更新區域**
 
 * 登入畫面、頂端導覽、校樣
 * 版面配置範本UI、主功能表、自訂Forms匯出(僅在新的Adobe Workfront體驗中可用)
@@ -49,7 +49,7 @@ Adobe Workfront應用程式中最顯眼的區域和我們面向客戶的網站�
 
 如果您使用電子郵件允許清單，新和更新的使用者電子郵件地址現在會根據允許清單進行驗證。 當您新增使用者或編輯現有使用者，並輸入不在允許清單中的電子郵件網域時，訊息會通知您使用者將不會收到電子郵件訊息。 您仍然可以儲存使用者設定檔，但您應該將網域新增到允許清單，以便使用者會收到電子郵件。
 
-如需詳細資訊，請參閱 [編輯使用者設定檔](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
+如需詳細資訊，請參閱[編輯使用者的設定檔](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md)。
 
 ## 物件標題的新外觀
 
@@ -70,7 +70,7 @@ Adobe Workfront應用程式中最顯眼的區域和我們面向客戶的網站�
 
 新Workfront體驗中區域的頁面標頭（例如增強型分析、資源管理等）也有此更新的外觀。
 
-若要進一步瞭解新Workfront體驗中的新物件標題，請參閱 [新物件標頭](../../../workfront-basics/the-new-workfront-experience/new-object-headers.md).
+若要進一步瞭解新Workfront體驗中的新物件標頭，請參閱[新物件標頭](../../../workfront-basics/the-new-workfront-experience/new-object-headers.md)。
 
 ![](assets/product-announcement-object-header-350x179.png)
 
@@ -80,7 +80,7 @@ Workfront現在以新的方式儲存物件狀態。
 
 這些變更不會影響進行狀態搜尋請求的方式。 不過，包含物件狀態搜尋的API請求將傳回不完整的群組狀態清單。
 
-如需詳細資訊，請參閱 [核心API變更：狀態搜尋回應](../../../wf-api/api/api-changes-search.md) .
+如需詳細資訊，請參閱[核心API變更：狀態搜尋回應](../../../wf-api/api/api-changes-search.md) 。
 
 ## 事件訂閱裝載已更新，以包含所有以ID結尾的欄位
 
@@ -96,4 +96,4 @@ Workfront現在以新的方式儲存物件狀態。
 
 藍圖提供基本的建置組塊，協助您建立隨您成長的工作管理系統。 系統管理員可以瀏覽Blueprint目錄並安裝現成的專案範本。
 
-如需詳細資訊，請參閱 [藍圖](../../../administration-and-setup/blueprints/blueprints.md).
+如需詳細資訊，請參閱[藍圖](../../../administration-and-setup/blueprints/blueprints.md)。

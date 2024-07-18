@@ -77,21 +77,21 @@ ht-degree: 1%
   </tr>
 <tr>
    <td role="rowheader"><p>權限</p></td>
-   <td> <p>在Workfront中，檢視專案、專案組合或方案的或更高許可權</a> </p> 
-   <p>在Workfront Planning、Contribute或工作區的較高許可權中</a> </p>  
+   <td> <p>在Workfront中，檢視專案、投資組合或方案的或更高許可權</a> </p> 
+   <p>在Workfront Planning中，使用Contribute或更高的工作區許可權</a> </p>  
    <p>系統管理員擁有所有Workfront Planning工作區的許可權，包括他們未建立的工作區</p>
 </td>
   </tr>
 <tr>
    <td role="rowheader"><p>版面配置範本</p></td>
-   <td> <p>您的Workfront或群組管理員必須在主功能表中新增Planning區域，並在左側面板中新增Planning區段至您的版面配置範本。 如需詳細資訊，請參閱 <a href="/help/quicksilver/planning/access/access-overview.md">存取權總覽</a>. </p>  
+   <td> <p>您的Workfront或群組管理員必須在主功能表中新增Planning區域，並在左側面板中新增Planning區段至您的版面配置範本。 如需詳細資訊，請參閱<a href="/help/quicksilver/planning/access/access-overview.md">存取總覽</a>。 </p>  
 </td>
   </tr>
 
 </tbody>
 </table>
 
-*如需詳細資訊，請參閱 [Workfront檔案中的存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 ## 關於Workfront物件Planning區段的考量事項
 
@@ -113,11 +113,11 @@ ht-degree: 1%
    工作區隨即開啟，且記錄型別會顯示為卡片。
 
 1. 按一下連線到Workfront專案、投資組合或方案的記錄型別的卡片。
-1. 在表格檢視或記錄的詳細資訊頁面中，移至與Workfront物件有連線的已連線記錄欄位。 如需詳細資訊，請參閱 [連線記錄](/help/quicksilver/planning/records/connect-records.md).
+1. 在表格檢視或記錄的詳細資訊頁面中，移至與Workfront物件有連線的已連線記錄欄位。 如需詳細資訊，請參閱[連線記錄](/help/quicksilver/planning/records/connect-records.md)。
 1. 在連線的記錄欄位中按一下Workfront物件的名稱。
 物件的頁面會在Workfront中開啟。
 
-1. 按一下 **規劃** 在左側面板中。
+1. 按一下左側面板中的&#x200B;**規劃**。
 
    >[!NOTE]
    >
@@ -135,17 +135,17 @@ ht-degree: 1%
 
 1. 按一下記錄卡以顯示有關記錄的更多資訊。 記錄預覽方塊隨即顯示。
 1. （選用）開始修改記錄預覽方塊中的欄位。 您的變更會自動儲存。
-1. （可選）按一下 **在新標籤中開啟** 圖示 ![](assets/open-details-in-a-new-tab-icon.png) 在預覽方塊的右上角，開啟記錄的詳細資訊頁面。 記錄的詳細資訊頁面會在Workfront Planning中開啟。
-1. 暫留在記錄卡上，然後按一下中斷連線記錄圖示 **-**，然後按一下 **中斷連線**.
+1. （選擇性）按一下預覽方塊右上角的&#x200B;**在新索引標籤中開啟**&#x200B;圖示![](assets/open-details-in-a-new-tab-icon.png)以開啟記錄的詳細資訊頁面。 記錄的詳細資訊頁面會在Workfront Planning中開啟。
+1. 將游標停留在記錄卡上，然後按一下中斷連線記錄圖示&#x200B;**-**，然後按一下&#x200B;**中斷連線**。
 會發生下列情況：
    * 記錄不再連線至Workfront物件。
    * Workfront物件也會從Workfront Planning的記錄連線欄位中移除。
    * 連線至Planning記錄的Workfront查閱欄位值也會一併刪除。
-1. 按一下 **連線** 以連線更多記錄。
+1. 按一下&#x200B;**連線**&#x200B;以連線更多記錄。
 
    >[!NOTE]
    >
-   >   「連線」按鈕只會在您擁有Contribute許可權的工作區中顯示。 <!--they might replace this with one button at the top of the page. Rephrase-->
+   >   「連線」按鈕只會在您擁有Contribute許可權的工作區中顯示。<!--they might replace this with one button at the top of the page. Rephrase-->
 
 1. 按一下您要連線的記錄。 會發生下列情況：
 

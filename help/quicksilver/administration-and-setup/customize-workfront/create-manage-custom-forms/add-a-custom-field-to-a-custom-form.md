@@ -23,9 +23,9 @@ ht-degree: 2%
 
 處理自訂表單時，您可以建立新的自訂欄位並將其新增到自訂表單。
 
-您也可以新增已新增至其他自訂表單的自訂欄位。 如需指示，請參閱 [在自訂表單中重複使用自訂欄位或Widget](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/reuse-an-existing-field.md).
+您也可以新增已新增至其他自訂表單的自訂欄位。 如需指示，請參閱[在自訂表單中重複使用自訂欄位或Widget](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/reuse-an-existing-field.md)。
 
-如需將資產Widget新增至自訂表單的相關資訊（類似於新增自訂欄位的程式），請參閱 [在自訂表單中新增或編輯資產Widget](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md).
+如需有關將資產Widget新增至自訂表單的資訊（類似於新增自訂欄位的程式），請參閱[在自訂表單中新增或編輯資產Widget](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md)。
 
 >[!NOTE]
 >
@@ -59,18 +59,18 @@ ht-degree: 2%
  </tbody> 
 </table>
 
-如需有關此表格的詳細資訊，請參閱 [Workfront檔案中的存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
 ## 新增自訂欄位至自訂表單 {#add-custom-field-to-custom-form}
 
-1. 開始建立或編輯自訂表單，如所述 [建立或編輯自訂表單](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
-1. 選取 **新增欄位** 標籤。
+1. 開始建立或編輯自訂表單，如[建立或編輯自訂表單](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)中所述。
+1. 選取&#x200B;**新增欄位**&#x200B;索引標籤。
 
    ![新增欄位索引標籤](assets/add-a-field.jpg)
 
-1. 替換為 **新欄位** ![「新增欄位」圖示](assets/new-field.jpg) 選取，選取下列其中一個欄位型別：
+1. 選取&#x200B;**新欄位** ![新欄點陣圖示](assets/new-field.jpg)後，請選取下列其中一個欄位型別：
 
    <table style="table-layout:auto"> 
     <col> 
@@ -88,7 +88,7 @@ ht-degree: 2%
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader">含格式的文字欄位</td> 
-      <td>允許使用者在欄位中輸入多行文字，並以粗體、斜體、底線、專案符號、編號、超連結和區塊引號來格式化文字。 這可在首頁、更新區域、清單和Workfront物件的詳細資訊區域中取得。 15,000的字元限制可提供大量的文字和格式。</p> <p>清單和報告上的篩選器不支援此自訂欄位型別。</p> <p>如需有關透過API存取此欄位的資訊，請參閱 <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/rich-text-field-storage-in-the-api.md" class="MCXref xref">API中的RTF文字欄位儲存</a>.</p> <p><b>注意</b>：含有格式的文字欄位不適用於Workfront行動應用程式。 </p> </td> 
+      <td>允許使用者在欄位中輸入多行文字，並以粗體、斜體、底線、專案符號、編號、超連結和區塊引號來格式化文字。 這可在首頁、更新區域、清單和Workfront物件的詳細資訊區域中取得。 15,000的字元限制可提供大量的文字和格式。</p> <p>清單和報告上的篩選器不支援此自訂欄位型別。</p> <p>如需有關透過API存取此欄位的資訊，請參閱<a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/rich-text-field-storage-in-the-api.md" class="MCXref xref"> API中的RTF文字欄位儲存體</a>。</p> <p><b>注意</b>：含格式的文字欄位不適用於Workfront行動應用程式。 </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">下拉</td> 
@@ -112,7 +112,7 @@ ht-degree: 2%
      </tr> 
      <tr> 
       <td role="rowheader">已計算</td> 
-      <td>可讓您定義運算式並在自訂表單上顯示結果。 如需詳細資訊，請參閱 <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md" class="MCXref xref">新增計算資料至自訂表單</a>.</td> 
+      <td>可讓您定義運算式並在自訂表單上顯示結果。 如需詳細資訊，請參閱<a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md" class="MCXref xref">將計算資料新增至自訂表單</a>。</td> 
      </tr> 
      <tr> 
       <td role="rowheader">日期</td> 
@@ -132,7 +132,7 @@ ht-degree: 2%
      </tr> 
      <tr> 
       <td role="rowheader">分節符號</td> 
-      <td>分割槽符號實際上並非欄位。 您可以使用分割槽符號來組織自訂欄位和Widget到分割槽中，並在必要時為每個分割槽設定不同的檢視和編輯許可權。 有關新增和設定分割槽符號的資訊，請參閱 <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-section-break-to-a-custom-form.md" class="MCXref xref">新增分割槽符號至自訂表單</a>.</td> 
+      <td>分割槽符號實際上並非欄位。 您可以使用分割槽符號來組織自訂欄位和Widget到分割槽中，並在必要時為每個分割槽設定不同的檢視和編輯許可權。 如需新增及設定分割槽符號的資訊，請參閱<a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-section-break-to-a-custom-form.md" class="MCXref xref">新增分割槽符號至自訂表單</a>。</td> 
      </tr> 
     </tbody> 
    </table>
@@ -141,7 +141,7 @@ ht-degree: 2%
    >
    >允許進行多項選擇的欄位（例如核取方塊和下拉式清單）很難在報告中建立圖表和群組。 若要更輕鬆地在報表中進行圖表和分組，您可以為每個選擇建立個別欄位（例如，單行文字欄位）。
 
-1. 在 **欄位設定** 索引標籤中，設定您新增之自訂欄位型別的可用選項：
+1. 在&#x200B;**欄位設定**&#x200B;索引標籤上，設定您新增的自訂欄位型別可用的選項：
 
    <table style="table-layout:auto"> 
     <col> 
@@ -161,7 +161,7 @@ ht-degree: 2%
       <li>雖然可以這樣做，但建議您不要在您或其他使用者開始使用Workfront中的自訂表單後變更此名稱。 如果這樣做，系統將不再識別現在可能在Workfront其他區域參考該欄位的自訂欄位。 <p>例如，如果您新增自訂欄位至報表，之後又變更其名稱，Workfront將無法辨識報表中的自訂欄位，且除非您使用新名稱將其重新新增至報表，否則將無法正常運作。</p> </li>
       <li> <p>建議您不要輸入已用於內建Workfront欄位的名稱。</p> </li>
       <li><p>建議您不要在自訂欄位名稱中使用句號/點字元，以防止在Workfront的不同區域使用欄位時發生錯誤。</p></li>
-      </ul> <p>每個自訂欄位名稱在貴組織的Workfront例項中必須是唯一的。 如此一來，您便可重複使用已針對其他自訂表單建立的表單。 如需詳細資訊，請參閱 <a href="#add-a-custom-field-to-a-custom-form">新增自訂欄位至自訂表單</a> 本文章內容。</p> </td>
+      </ul> <p>每個自訂欄位名稱在貴組織的Workfront例項中必須是唯一的。 如此一來，您便可重複使用已針對其他自訂表單建立的表單。 如需詳細資訊，請參閱本文中的<a href="#add-a-custom-field-to-a-custom-form">新增自訂欄位至自訂表單</a>。</p> </td>
      </tr> 
      <tr> 
       <td role="rowheader">指示</td> 
@@ -173,10 +173,10 @@ ht-degree: 2%
       <td role="rowheader">格式</td> 
       <td> <p>選取將在自訂欄位中擷取的資料型別。 您可以在儲存表單後變更格式選擇，但新格式必須支援輸入的值。</p>
 
-   <p><strong>範例：</strong> 如果您將某個欄位的數值儲存為至少一個物件上文字格式的欄位，稍後又將格式變更為數字或貨幣，則不會發生錯誤。 </p>
+   <p><strong>範例：</strong>如果您將文字格式欄位的數值儲存於至少一個物件，之後將格式變更為「數字」或「貨幣」，則不會發生錯誤。 </p>
       <p>不過，如果您將英數字元值儲存在欄位中，且此欄位具有至少一個物件的「文字」格式，然後嘗試將格式變更為「數字」或「貨幣」，您將會遇到錯誤，因為儲存的英數字元值與「數字」或「貨幣」格式不相容。 </p>
 
-   <p><strong>注意：</strong> 數字欄位的字元限製為16。 您也可以使用文字欄位來輸入數字並避免限制。</p>
+   <p><strong>注意：</strong>數字欄位的字元限製為16。 您也可以使用文字欄位來輸入數字並避免限制。</p>
 
    </td> 
      </tr> 
@@ -194,7 +194,7 @@ ht-degree: 2%
      </tr> 
      <tr> 
       <td role="rowheader">參考物件類型</td> 
-      <td> <p>（僅限預先輸入欄位）選取您要與欄位關聯的物件型別。</p> <p>按一下「套用」或「儲存+關閉」後，就無法變更欄位的物件型別。</p> <p><b>注意</b>：   
+      <td> <p>（僅限預先輸入欄位）選取您要與欄位關聯的物件型別。</p> <p>按一下「套用」或「儲存+關閉」後，就無法變更欄位的物件型別。</p> <p><b>附註</b>：   
         <ul> 
          <li>如果您的Workfront管理員在Workfront使用者介面中為「Portfolio」、「程式」或「專案」自訂名稱，此下拉式清單中會顯示物件的預設Workfront名稱，而非自訂名稱。 如果您需要這方面的協助，請洽詢Workfront管理員。<br></li> 
          <li>iOS和Android Workfront Mobile應用程式支援下列物件型別：使用者、公司、群組、工作角色、Portfolio、方案、專案和範本。</li> 
@@ -207,8 +207,8 @@ ht-degree: 2%
         <li>它們屬於您指定的群組</li> 
         <li>它們與您指定的角色或職稱相關聯</li> 
         <li>他們與使用欄位的人屬於同一群組</li> 
-       </ul> <p>您必須使用「文字模式」語法來定義所選物件型別的濾鏡。 如需有關使用文字模式建立篩選的資訊，請參閱 <a href="/help/quicksilver/reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md" class="MCXref xref">使用文字模式編輯篩選器</a>.</p>
-       <p><b>注意</b>：   
+       </ul> <p>您必須使用「文字模式」語法來定義所選物件型別的濾鏡。 如需有關使用文字模式建立篩選的資訊，請參閱<a href="/help/quicksilver/reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md" class="MCXref xref">使用文字模式編輯篩選</a>。</p>
+       <p><b>附註</b>：   
         <ul> 
          <li>如果您正在編輯現有的自訂表單，將篩選條件新增至預先輸入欄位時，不會移除使用者已使用該欄位新增的任何物件（在篩選條件範圍之外）。</li> 
          <li>此篩選器不適用於行動裝置。 如果您針對「預先輸入」欄位使用篩選器，則該欄位將會顯示在不受篩選器影響之使用者的行動裝置上。</li> 
@@ -234,30 +234,30 @@ ht-degree: 2%
       <li>與下列物件型別相關聯的自訂表單：費用、公司、反複專案、記帳記錄、檔案和群組。</li> 
       <li>下列欄位型別：計算、描述性文字和分割槽符號</li> 
       </ul>
-      <p><b>重要</b>：在這裡選取或取消選取物件型別會影響與所選物件型別關聯且包含此欄位的所有自訂表單。 例如，如果您在此取消選取物件型別並儲存自訂表單，則不再追蹤包含該欄位之任何自訂表單中該物件型別的欄位值變更。</p>
+      <p><b>重要</b>：在這裡選取或取消選取物件型別會影響與選取的物件型別關聯且包含此欄位的所有自訂表單。 例如，如果您在此取消選取物件型別並儲存自訂表單，則不再追蹤包含該欄位之任何自訂表單中該物件型別的欄位值變更。</p>
        <p>在這裡為欄位選擇物件型別並儲存自訂表單後，該欄位會顯示在「設定」中「更新摘要」區域的「自訂欄位」索引標籤上。</p> 
        <p>反之，若在「設定」的「更新摘要」區域中刪除此欄位，則會在與物件型別關聯且包含此欄位的所有自訂表單上，取消選取此設定的物件型別。</p> 
-       <p>如需詳細資訊，請參閱區段 <a href="/help/quicksilver/administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md#add-fields-you-want-workfront-to-track">新增您希望Workfront追蹤的欄位</a> 在文章中 <a href="/help/quicksilver/administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md">設定系統更新</a>.</p> </td> 
+       <p>如需詳細資訊，請參閱文章<a href="/help/quicksilver/administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md">設定系統更新</a>中的<a href="/help/quicksilver/administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md#add-fields-you-want-workfront-to-track">新增您希望Workfront追蹤的欄位</a>一節。</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">新增邏輯</td>
-      <td>根據使用者在現有欄位中所做的選擇，指定哪些欄位應該顯示在表單上。 如需詳細資訊，請參閱 <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/display-or-skip-logic-custom-form.md" class="MCXref xref">新增顯示邏輯和略過邏輯至自訂表單</a>.</td> 
+      <td>根據使用者在現有欄位中所做的選擇，指定哪些欄位應該顯示在表單上。 如需詳細資訊，請參閱<a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/display-or-skip-logic-custom-form.md" class="MCXref xref">新增顯示邏輯並略過邏輯至自訂表單</a>。</td> 
      </tr> 
      <tr> 
       <td role="rowheader">選擇 </td> 
       <td> <p>（僅限下拉式清單、核取方塊或選項按鈕；選擇性）</p> 
        <ol> 
-        <li> <p>按一下 <b>選項</b>，然後啟用下列任一專案：</p> 
+        <li> <p>按一下<b>選項</b>，然後啟用下列任一專案：</p> 
            <ul> 
             <li><strong>顯示值</strong>：顯示欄位中每個選擇的值。 依預設，會顯示每個選擇的標籤。</li> 
-            <li><strong>將選擇按A-Z排序</strong>：依字母順序排序您在欄位中新增的選擇。</li> 
+            <li><strong>排序選擇A-Z</strong>：依字母順序排序您在欄位中新增的選擇。</li> 
            </ul> 
         </li> 
-        <li> <p>針對您為使用者新增的每個選擇，按一下齒輪圖示 <img src="assets/gear-icon-settings.png">，然後選取下列其中一個選項：</p> 
+        <li> <p>針對您為使用者新增的每個選擇，按一下齒輪圖示<img src="assets/gear-icon-settings.png">，然後選取下列其中一個選項：</p> 
            <ul> 
-            <li><strong>預設選取</strong>：在欄位中選取預設選項。</li> 
+            <li><strong>依預設選取</strong>：依預設在欄位中選取選項。</li> 
             <li> <p><strong>隱藏選擇</strong>：隱藏欄位中的選擇。 隱藏的選擇在報表中仍可存取。</p> </li> 
-            <li> <p><strong>移除選擇</strong>：從欄位中移除選擇。</p> <p><b>警告</b>：如果您有使用此選項的目前物件，請勿將其從欄位中移除。 移除它將會導致歷史資料遺失。 相反地，選取要隱藏它的選項，這會防止使用者在將來選取它。</p> </li> 
+            <li> <p><strong>移除選擇</strong>：從欄位移除選擇。</p> <p><b>警告</b>：如果您有使用此選擇的目前物件，請勿將其從欄位移除。 移除它將會導致歷史資料遺失。 相反地，選取要隱藏它的選項，這會防止使用者在將來選取它。</p> </li> 
            </ul> 
         </li> 
        </ol> </td> 
@@ -265,11 +265,11 @@ ht-degree: 2%
     </tbody> 
    </table>
 
-1. （視條件而定）若要變更自訂表單上欄位的顯示型別，請按一下 **顯示型別** 下拉式功能表，然後按一下您想要的型別。
+1. （視條件而定）若要變更自訂表單上欄位的顯示型別，請按一下&#x200B;**顯示型別**&#x200B;下拉式功能表，然後按一下您想要的型別。
 
    您可以在下列欄位顯示型別之間切換：
 
-   * **選擇型別欄位**：核取方塊、下拉式清單、選項按鈕。
+   * **選取型別欄位**：核取方塊、下拉式清單、選項按鈕。
    * **文字型別欄位**：單行文字欄位、段落文字欄位。 (您無法將「格式化文字欄位」切換為不同的顯示型別。 不過，您可以將其移除並新增其他型別的欄位。)
 
    例如，如果您已建立「核取方塊」欄位，則可將其變更為「下拉式清單」欄位或「選項按鈕」欄位。 或者，如果您已建立「單行文字欄位」，您可以將其變更為「段落文字欄位」。
@@ -285,19 +285,19 @@ ht-degree: 2%
 
    或
 
-   新增已為貴組織建立的欄位，如中所述 [在自訂表單中重複使用自訂欄位或Widget](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/reuse-an-existing-field.md).
+   新增已為貴組織建立的欄位，如[在自訂表單中重複使用自訂欄位或Widget](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/reuse-an-existing-field.md)中所述。
 
    >[!NOTE]
    >
    >您最多可以在單一自訂表單中新增500個欄位和Widget。 不過，根據表單的複雜性，當表單上存在超過100個時，可能會發生效能降低。 複雜表單的範例包括含有階層式引數的表單、計算的自訂資料欄位，以及單一欄位中的多個值選項。
 
-1. 按一下 **套用**.
+1. 按一下&#x200B;**套用**。
 1. 如果您想以其他方式繼續建置自訂表單，請繼續閱讀下列其中一篇文章：
 
-   * [在自訂表單中定位自訂欄位和Widget](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/position-fields-in-a-custom-form.md)
+   * [在自訂表單中放置自訂欄位和Widget](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/position-fields-in-a-custom-form.md)
    * [在自訂表單中新增或編輯資產Widget](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md)
    * [新增計算資料至自訂表單](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md)
    * [新增分割槽符號至自訂表單](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-section-break-to-a-custom-form.md)
    * [在自訂表單中重複使用現有的計算自訂欄位](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/use-existing-calc-field-new-custom-form.md)
-   * [新增顯示邏輯和略過邏輯至自訂表單](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/display-or-skip-logic-custom-form.md)
+   * [新增顯示邏輯並略過邏輯至自訂表單](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/display-or-skip-logic-custom-form.md)
    * [預覽並完成自訂表格](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/preview-and-complete-a-custom-form.md)

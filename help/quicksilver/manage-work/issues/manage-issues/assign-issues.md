@@ -18,13 +18,13 @@ ht-degree: 0%
 
 <!--keep the rate card job role information always in yellow till it releases to production - check with Lisa - this might not apply to issues?! -->
 
-<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它僅適用於所有客戶的預覽環境，或適用於啟用快速發行的客戶的生產環境。</span>
+<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它只能在「預覽」環境中供所有客戶使用，或在「生產」環境中供啟用快速發行的客戶使用。</span>
 
-<span class="preview">如需快速發行版本的相關資訊，請參閱 [啟用或停用組織的快速發行](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
+<span class="preview">如需快速發行資訊，請參閱[為您的組織啟用或停用快速發行](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
 
-<span class="preview">如需目前版本的相關資訊，請參閱 [2024年第三季度版本總覽](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).</span>
+<span class="preview">如需目前版本的相關資訊，請參閱[2024年第三季版本總覽](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md)。</span>
 
-您可以將問題指派給使用者、角色和團隊，以指出誰負責完成問題。 如需指派問題的一般資訊，請參閱 [修改問題指派的概觀](../../../manage-work/issues/manage-issues/modify-issue-assignments-overview.md).
+您可以將問題指派給使用者、角色和團隊，以指出誰負責完成問題。 如需指派問題的一般資訊，請參閱[修改問題指派的概觀](../../../manage-work/issues/manage-issues/modify-issue-assignments-overview.md)。
 
 >[!TIP]
 >
@@ -37,17 +37,17 @@ ht-degree: 0%
 
 除了本文章之外，我們建議您閱讀下列文章，以取得指派問題的詳細資訊：
 
-* [修改問題指派的概觀](../../../manage-work/issues/manage-issues/modify-issue-assignments-overview.md)
+* [修改問題指派的總覽](../../../manage-work/issues/manage-issues/modify-issue-assignments-overview.md)
 * [編輯問題](../../../manage-work/issues/manage-issues/edit-issues.md)
 * [修改清單中多個問題的使用者指派](../../../manage-work/issues/manage-issues/edit-assignments-for-multiple-issues.md)
-* [建立進階任務指派](../../../manage-work/tasks/assign-tasks/create-advanced-assignments.md)
-* [進行智慧型指派](../../../manage-work/tasks/assign-tasks/make-smart-assignments.md)
+* [建立進階工作分派](../../../manage-work/tasks/assign-tasks/create-advanced-assignments.md)
+* [進行智慧指派](../../../manage-work/tasks/assign-tasks/make-smart-assignments.md)
 * [智慧指派總覽](../../../manage-work/tasks/assign-tasks/smart-assignments.md)
 * [在工作負載平衡器中指派工作的總覽](../../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md)
 
 您可以在個別問題層級將問題指派給一或多個資源，也可以一次將多個資源指派給多個問題。
 
-指派問題和任務在Adobe Workfront中類似。 如需指派工作的一般資訊，請參閱 [修改任務指派的概要](../../../manage-work/tasks/assign-tasks/modify-task-assignments-overview.md).
+指派問題和任務在Adobe Workfront中類似。 如需指派任務的一般資訊，請參閱[修改任務指派的概觀](../../../manage-work/tasks/assign-tasks/modify-task-assignments-overview.md)。
 
 ## 存取需求
 
@@ -69,11 +69,11 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">存取層級*</td> 
-   <td> <p>編輯問題的存取權</p> <p>檢視專案和任務的或更高存取權</p> <p>如果您還是沒有存取權，請詢問您的Workfront管理員，他們是否在您的存取層級中設定其他限制。 如需存取存取存取層級中問題的相關資訊，請參閱 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-issues.md" class="MCXref xref">授予問題的存取許可權</a>. 如需有關Workfront管理員如何變更您的存取層級的資訊，請參閱 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>. </p> </td> 
+   <td> <p>編輯問題的存取權</p> <p>檢視專案和任務的或更高存取權</p> <p>如果您還是沒有存取權，請詢問您的Workfront管理員，他們是否在您的存取層級中設定其他限制。 如需存取您存取層級中問題的相關資訊，請參閱<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-issues.md" class="MCXref xref">授與問題的存取權</a>。 如需Workfront管理員如何變更存取層級的詳細資訊，請參閱<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>。 </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">物件許可權</td> 
-   <td> <p>管理問題的許可權</p> <p>貢獻許可權給您要複製問題的專案，並具備新增問題的功能。</p> <p> 有關授予問題許可權的資訊，請參閱 <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">共用問題 </a></p> <p>如需請求其他許可權的相關資訊，請參閱 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md">授予使用者存取許可權</a>.</p> </td> 
+   <td> <p>管理問題的許可權</p> <p>您正在複製問題的專案的Contribute許可權，以及新增問題的功能。</p> <p> 如需授與問題許可權的相關資訊，請參閱<a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">共用問題</a></p> <p>如需請求其他許可權的資訊，請參閱<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md">授予使用者存取權</a>。</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -84,7 +84,7 @@ ht-degree: 0%
 
 將多個資源指派給工作專案時，請考量下列事項：
 
-* 使用者可以有多個與其設定檔相關聯的工作角色。 如需將使用者與工作角色建立關聯的資訊，請參閱 [編輯使用者設定檔](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
+* 使用者可以有多個與其設定檔相關聯的工作角色。 如需將使用者與工作角色建立關聯的資訊，請參閱[編輯使用者的設定檔](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md)。
 
 * 任務或問題通常首先指派給一個或多個職位角色或團隊。 當專案準備開始時，也需要將其指派給使用者。
 
@@ -114,7 +114,7 @@ ht-degree: 0%
 ## 指派單一問題
 
 1. 移至您要指派的問題。
-1. 按一下 **指派給** 位於問題標題右上角的 **指定任務** 區域
+1. 按一下問題標題右上角的&#x200B;**指派給** （在&#x200B;**指派**&#x200B;區域中）
 
    或
 
@@ -130,13 +130,13 @@ ht-degree: 0%
      ![](assets/nwe-assignments-expanded-in-task-header-350x259.png)
 
      <span class="preview">預覽環境中的範例影像：</span>
-     <span class="preview">![指派搜尋](assets/smart-assignments-issue-header.png)</span>
+     <span class="preview">![工作分派搜尋](assets/smart-assignments-issue-header.png)</span>
 
    * （視條件而定）按一下可用清單中的名稱、角色或專案團隊之一
-   * 按一下 **指派給我** 以將其指派給您自己
-   * 按一下 **進階**.
+   * 按一下&#x200B;**指派給我**&#x200B;以指派給您自己
+   * 按一下&#x200B;**進階**。
 
-     建立進階指派與任務和問題類似。 有關如何進行進階指派的資訊，請參閱 [建立進階任務指派](../../../manage-work/tasks/assign-tasks/create-advanced-assignments.md).
+     建立進階指派與任務和問題類似。 如需如何進行進階指派的詳細資訊，請參閱[建立進階指派](../../../manage-work/tasks/assign-tasks/create-advanced-assignments.md)。
 
      >[!TIP]
      >
@@ -144,15 +144,15 @@ ht-degree: 0%
      >
      >使用者必須至少與一個工作角色相關聯，才能在您新增時檢視該角色。
      >
-     >您必須在存取層級中啟用檢視聯絡資訊設定，使用者才能檢視使用者的電子郵件。 如需詳細資訊，請參閱 [授予使用者存取許可權](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md)
+     >您必須在存取層級中啟用檢視聯絡資訊設定，使用者才能檢視使用者的電子郵件。 如需詳細資訊，請參閱[授予使用者存取權](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md)
      >
 
      <!-- not sure if this applies to issues; if it does, add this to the TIP above: 
       ><span class="preview">When adding a job role assignment, you can search for the job role or location. Select a role from the Job roles list to use the default billing rate for the assignment, or select a Rate card job role to use the billing rate from the rate card. For more information on rate cards, see [Manage rate cards](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md).</span>-->
 
 
-1. 按一下 **儲存** 以完成指派問題。
-1. （可選）按一下 **X圖示** 在問題標題的指派區域中指派名稱旁邊，以移除指派。
+1. 按一下&#x200B;**儲存**&#x200B;以完成指派問題。
+1. （選擇性）按一下問題標題上工作分派區域名稱旁的&#x200B;**X圖示**&#x200B;以移除工作分派。
 
 ## 指派清單中的問題
 
@@ -171,11 +171,11 @@ ht-degree: 0%
 1. 前往檢視中具有指派給、指派或指派欄位的問題清單。
 1. 若要指派問題，請執行下列任一項作業：
 
-   * 按一下 **指派給** 或 **已指派** 欄位並開始輸入您要指派給問題的活躍使用者名稱，然後當它顯示在清單中時按一下它。
+   * 在&#x200B;**指派給**&#x200B;或&#x200B;**已指派**&#x200B;欄位內按一下，並開始輸入您要指派給問題的作用中使用者名稱，然後當它顯示在清單中時按一下它。
 
      ![](assets/assigned-to-field-task-list-nwe.png)
 
-   * 按一下 **指定任務** 欄位並開始輸入您想要指派給問題的活躍使用者、工作角色或活躍團隊的名稱，然後當它顯示在清單中時按一下它。
+   * 按一下&#x200B;**指派**&#x200B;欄位並開始輸入您想要指派給問題的作用中使用者、工作角色或作用中團隊的名稱，然後當它顯示在清單中時按一下它。
 
      生產環境中的影像範例：
      ![](assets/assignments-field-task-list-nwe.png)
@@ -189,10 +189,10 @@ ht-degree: 0%
    >
    >使用者必須至少與一個工作角色相關聯，才能在您新增時檢視該角色。
    >
-   >您必須在存取層級中啟用檢視聯絡資訊設定，使用者才能檢視使用者的電子郵件。 如需詳細資訊，請參閱 [授予使用者存取許可權](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
+   >您必須在存取層級中啟用檢視聯絡資訊設定，使用者才能檢視使用者的電子郵件。 如需詳細資訊，請參閱[授予使用者存取權](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md)。
 
 
-1. （視條件而定）在「工作總攬」欄位中可見時，按一下 **人員圖示** ![](assets/teams.png) 在「工作總攬」方塊的右上角，開啟「進階工作總攬」方塊並建立進階工作總攬。 如需詳細資訊，請參閱 [建立進階任務指派](../../../manage-work/tasks/assign-tasks/create-advanced-assignments.md).
+1. （視條件而定）在「工作總攬」欄位中顯示時，按一下工作總攬方塊右上角的&#x200B;**人員圖示** ![](assets/teams.png)，以開啟「進階工作總攬」方塊並建立進階工作總攬。 如需詳細資訊，請參閱[建立進階工作分派](../../../manage-work/tasks/assign-tasks/create-advanced-assignments.md)。
 
    >[!TIP]
    >
@@ -204,23 +204,23 @@ ht-degree: 0%
 
 1. 前往您要大量指派的問題清單。
 1. 在清單中選取數個問題。
-1. 按一下 **編輯圖示** ![](assets/qs-edit-icon.png).
+1. 按一下&#x200B;**編輯圖示** ![](assets/qs-edit-icon.png)。
 
-   此 **編輯問題** 對話方塊開啟。
+   **編輯問題**&#x200B;對話方塊開啟。
 
-1. 在 **指定任務** 區域，選取 **被指定者** 方塊，然後開始輸入您要指派給所有問題的使用者、工作角色或團隊名稱。
+1. 在「**工作總攬**」區域中，選取「**受指派人**」方塊，然後開始輸入您要指派給所有問題的使用者、工作角色或團隊名稱。
 
    >[!IMPORTANT]
    >
    >如果已經指派任何問題，您在此處指示的資源會新增到問題中，而不是取代問題上的現有資源。
 
-1. （選擇性）選取 **問題所有者** 欄，指明當您為問題指派一個以上的資源時，哪個資源是問題的主要受指派人或擁有者。 這不適用於團隊。
-1. （選用）從以下專案選取使用者應在問題中履行的角色： **選擇角色** 中的下拉式功能表 **受指派人的角色** 欄中指派問題的使用者。 如果您未選取角色，Workfront會自動選取使用者的主要角色。
+1. （選擇性）當您指派多個資源給問題時，選取&#x200B;**問題擁有者**&#x200B;欄中的圓鈕，以指出哪個資源是問題的主要受指派人或擁有者。 這不適用於團隊。
+1. （選擇性）將使用者指派給問題時，從&#x200B;**受指派人角色**&#x200B;欄中的&#x200B;**挑選角色**&#x200B;下拉式功能表，選取使用者應履行在問題上的角色。 如果您未選取角色，Workfront會自動選取使用者的主要角色。
 
 1. （選擇性）如果要從所有問題中移除現有的受指派人，請執行下列任一項作業：
 
-   1. 開始輸入您想從問題中移除的使用者、角色或團隊名稱，然後在其出現在清單上時選取並按一下 **移除被指定者** 以新增要移除的其他受指派人。
-   1. 按一下 **移除所有現有的被指定者** 以從所有選取的問題中移除所有受指派人。
+   1. 開始輸入您想從問題中移除的使用者、角色或團隊名稱，然後當它出現在清單中時選取它，並按一下&#x200B;**移除受指派人**&#x200B;以新增要移除的其他受指派人。
+   1. 按一下&#x200B;**移除所有現有的受指派人**，從所有選取的問題中移除所有受指派人。
 
-1. 按一下 **儲存變更**.
-1. （選擇性和條件性）當指派至或指派欄位顯示在您的問題清單中時，按一下這些欄中的一個以尋找問題，然後按一下 **X圖示** ，將其從問題中移除。
+1. 按一下&#x200B;**儲存變更**。
+1. （選擇性和條件性）當指派至或指派欄位顯示在您的問題清單中時，按一下這些欄中的一個以尋找問題，然後按一下受指派人名稱旁的&#x200B;**X圖示**，以將其從問題中移除。

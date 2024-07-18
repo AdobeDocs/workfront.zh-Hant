@@ -10,8 +10,8 @@ role: Developer
 exl-id: f3a2630d-d34e-4d36-b2bb-707ba0d3258e
 source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
 workflow-type: tm+mt
-source-wordcount: '268'
-ht-degree: 5%
+source-wordcount: '253'
+ht-degree: 3%
 
 ---
 
@@ -36,7 +36,7 @@ URL可設定，並與自訂整合設定頁面上的權杖端點URL值相對應�
  <col>
  <thead>
   <tr>
-   <th>名稱</th>
+   <th>姓名</th>
    <th>必要</th>
    <th>說明</th>
   </tr>
@@ -72,7 +72,7 @@ URL可設定，並與自訂整合設定頁面上的權杖端點URL值相對應�
 
  
 
-## 個回應
+## 回應
 
 <table style="table-layout:auto">
  <col>
@@ -80,8 +80,8 @@ URL可設定，並與自訂整合設定頁面上的權杖端點URL值相對應�
  <col>
  <thead>
   <tr>
-   <th>名稱</th>
-   <th>類型 </th>
+   <th>姓名</th>
+   <th>型別 </th>
    <th>說明</th>
   </tr>
  </thead>
@@ -114,7 +114,7 @@ client_id=123456
 client_secret=6asdf7a7a9a4af
 ```
 
-## 個回應
+## 回應
 
 ```
 {

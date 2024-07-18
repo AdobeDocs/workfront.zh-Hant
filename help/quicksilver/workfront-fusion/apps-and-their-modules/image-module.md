@@ -10,14 +10,14 @@ feature: Workfront Fusion, Digital Content and Documents
 exl-id: 89efa9d5-00c9-4bb5-97b3-2b2f9d73721d
 source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
 workflow-type: tm+mt
-source-wordcount: '908'
+source-wordcount: '912'
 ht-degree: 0%
 
 ---
 
 # 影像模組
 
-[!DNL Adobe Workfront Fusion] [!UICONTROL 影像] 模組可讓您取得特定影像的相關資訊（尺寸、型別等）、將影像轉換為其他檔案格式，以及直接變更影像大小。
+[!DNL Adobe Workfront Fusion] [!UICONTROL 影像]模組可讓您取得特定影像的相關資訊（尺寸、型別等）、將影像轉換為其他檔案格式，以及直接變更影像大小。
 
 ## 存取需求
 
@@ -28,7 +28,7 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 計劃*</td>
+   <td role="rowheader">[!DNL Adobe Workfront] 計畫*</td>
   <td> <p>[！UICONTROL Pro]或更高版本</p> </td>
   </tr> 
   <tr data-mc-conditions=""> 
@@ -38,27 +38,27 @@ ht-degree: 0%
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] 授權**</td> 
    <td>
-   <p>目前授權需求：否 [!DNL Workfront Fusion] 授權需求。</p>
+   <p>目前授權需求：無[!DNL Workfront Fusion]授權需求。</p>
    <p>或</p>
-   <p>舊版授權需求： [！UICONTROL [!DNL Workfront Fusion] 若為工作自動化與整合]，[！UICONTROL [!DNL Workfront Fusion] 工作自動化專用]</p>
+   <p>舊版授權需求： [！UICONTROL [!DNL Workfront Fusion] for Work Automation and Integration]，[！UICONTROL [!DNL Workfront Fusion] for Work Automation]</p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">產品</td> 
    <td>
-   <p>目前產品需求：如果您有[！UICONTROL Select]或[！UICONTROL Prime] [!DNL Adobe Workfront] 計畫，您的組織必須購買 [!DNL Adobe Workfront Fusion] 以及 [!DNL Adobe Workfront] 以使用本文所述功能。 [!DNL Workfront Fusion] 包含在[！UICONTROL Ultimate]中 [!DNL Workfront] 計畫。</p>
+   <p>目前產品需求：如果您有[！UICONTROL Select]或[！UICONTROL Prime] [!DNL Adobe Workfront]計畫，您的組織必須購買[!DNL Adobe Workfront Fusion]及[!DNL Adobe Workfront]，才能使用本文所述的功能。 [!DNL Workfront Fusion]包含在[！UICONTROL Ultimate] [!DNL Workfront]計畫中。</p>
    <p>或</p>
-   <p>舊版產品需求：貴組織必須購買 [!DNL Adobe Workfront Fusion] 以及 [!DNL Adobe Workfront] 以使用本文所述功能。</p>
+   <p>舊版產品需求：您的組織必須購買[!DNL Adobe Workfront Fusion]及[!DNL Adobe Workfront]，才能使用本文所述的功能。</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-若要瞭解您擁有哪些計畫、授權型別或存取權，請聯絡您的 [!DNL Workfront] 管理員。
+若要瞭解您擁有的計畫、授權型別或存取權，請連絡您的[!DNL Workfront]管理員。
 
-有關以下專案的資訊： [!DNL Adobe Workfront Fusion] 授權，請參閱 [[!DNL Adobe Workfront Fusion] 授權](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+如需[!DNL Adobe Workfront Fusion]授權的相關資訊，請參閱[[!DNL Adobe Workfront Fusion] 授權](../../workfront-fusion/get-started/license-automation-vs-integration.md)。
 
-## [!UICONTROL 影像] 模組及其欄位
+## [!UICONTROL 影像]模組及其欄位
 
 當您設定此模組時，會顯示下列欄位。 模組中的粗體標題表示必填欄位。
 
@@ -75,31 +75,31 @@ ht-degree: 0%
  <col data-mc-conditions=""> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[！UICONTROL來源檔案]</td> 
-   <td> <p>選取您要轉換的影像來源。 您可以從先前的模組選取輸出，或對應資料檔案和檔案名稱。 </p> </td> 
+   <td role="rowheader">[！UICONTROL Source檔案]</td> 
+   <td> <p>選取您要轉換的影像來源。 您可以從先前的模組中選取輸出，或對應資料檔案和檔案名稱。 </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL資料]</td> 
-   <td>對應您要轉換的檔案。 如果您在[！UICONTROL來源檔案]欄位中選取[！UICONTROL對應]，則此欄位可用。</td> 
+   <td>對應您要轉換的檔案。 如果您在[！UICONTROL Source file]欄位中選取[！UICONTROL Map]，則可使用此欄位。</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL檔案名稱]</td> 
-   <td>輸入已轉換檔案的名稱。 如果您在[！UICONTROL來源檔案]欄位中選取[！UICONTROL對應]，則此欄位可用。</td> 
+   <td>輸入轉換檔案的名稱。 如果您在[！UICONTROL Source file]欄位中選取[！UICONTROL Map]，則可使用此欄位。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL I want to]</td> 
+   <td role="rowheader">[！UICONTROL我要]</td> 
    <td>選取您要維持高寬比還是將尺寸變更為指定的高度和寬度。</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL依據]</td> 
-   <td> <p>選取您希望模組如何決定影像的新大小。 如果您在「我想」欄位中選取要保持高度寬度比例，此欄位就會顯示。 其他欄位會根據此欄位中的選取專案而顯示。</p> 
+   <td> <p>選取您希望模組如何決定影像的新大小。 如果您在「我想」欄位中選取要維持高寬比例，此欄位就會顯示。 其他欄位會根據此欄位中的選取專案而顯示。</p> 
     <ul> 
      <li> <p>[！UICONTROL最大寬度]</p> <p>將影像縮小至您指定的寬度。 高度會自動計算。</p> </li> 
      <li> <p>[！UICONTROL最大高度]</p> <p>將影像縮小至您指定的高度。 會自動計算寬度。</p> </li> 
-     <li> <p>[！UICONTROL最大高度或寬度]</p> <p>以高度和寬度不超過指定值的方式縮小影像。 因為此選項會維持高寬比，所以其中一個尺寸可能小於指定的尺寸。 例如，如果高度和寬度都指定為40，則400x300影像將會減少為40X30。</p> </li> 
+     <li> <p>[！UICONTROL最大高度或寬度]</p> <p>以高度和寬度不超過指定值的方式縮小影像。 因為此選項會維持高寬比，所以其中一個尺寸可能小於指定的尺寸。 例如，如果高度和寬度都指定為40,400x300的影像將會減少為40X30。</p> </li> 
      <li> <p>[！UICONTROL最小寬度]</p> <p>將影像放大至您指定的寬度。 高度會自動計算。</p> </li> 
      <li> <p>[！UICONTROL最小高度]</p> <p>將影像放大至您指定的高度。 會自動計算寬度。</p> </li> 
-     <li> <p>[！UICONTROL最小高度或寬度]</p> <p>放大影像的方式使其高度和寬度不小於您指定的值。 因為此選項會維持高寬比，所以其中一個尺寸可能大於指定的尺寸。 例如，如果高度和寬度都指定為300，則40x30影像會放大為400X300。</p> </li> 
+     <li> <p>[！UICONTROL最小高度或寬度]</p> <p>放大影像的方式使其高度和寬度不小於您指定的值。 因為此選項會維持高寬比，所以其中一個尺寸可能會大於指定的尺寸。 例如，如果高度和寬度都指定為300,40x30影像將會放大為400X300。</p> </li> 
      <li> <p>[！UICONTROL百分比]</p> <p>根據您指定的值，以百分比變更影像大小。 </p> </li> 
     </ul> </td> 
   </tr> 
@@ -109,7 +109,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL Height]</td> 
-   <td>輸入或對應調整大小影像的所需高度（畫素）。</td> 
+   <td>輸入或對應調整大小影像所需的高度（畫素）。</td> 
   </tr> 
  </tbody> 
 </table>
@@ -123,23 +123,23 @@ ht-degree: 0%
 * GIF
 * BMP
 
-來源檔案和輸出都必須採用下列格式之一。 例如， [!UICONTROL 影像] >[!UICONTROL 轉換格式] 模組可將PNG檔案轉換為BMP檔案，或將BMP轉換為JPG。
+來源檔案和輸出都必須採用其中一種格式。 例如，[!UICONTROL 影像] >[!UICONTROL 轉換格式]模組可以將PNG檔案轉換為BMP檔案，或將BMP轉換為JPG。
 
 <table style="table-layout:auto"> 
  <col data-mc-conditions=""> 
  <col data-mc-conditions=""> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[！UICONTROL來源檔案]</td> 
-   <td> <p>選取您要轉換的影像來源。 您可以從先前的模組選取輸出，或對應資料檔案和檔案名稱。 </p> </td> 
+   <td role="rowheader">[！UICONTROL Source檔案]</td> 
+   <td> <p>選取您要轉換的影像來源。 您可以從先前的模組中選取輸出，或對應資料檔案和檔案名稱。 </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL資料]</td> 
-   <td>對應您要轉換的檔案。 如果您在[！UICONTROL來源檔案]欄位中選取[！UICONTROL對應]，則此欄位可用。</td> 
+   <td>對應您要轉換的檔案。 如果您在[！UICONTROL Source file]欄位中選取[！UICONTROL Map]，則可使用此欄位。</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL檔案名稱]</td> 
-   <td>輸入已轉換檔案的名稱。 如果您在[！UICONTROL來源檔案]欄位中選取[！UICONTROL對應]，則此欄位可用。</td> 
+   <td>輸入轉換檔案的名稱。 如果您在[！UICONTROL Source file]欄位中選取[！UICONTROL Map]，則可使用此欄位。</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL輸出格式]</td> 
@@ -157,16 +157,16 @@ ht-degree: 0%
  <col data-mc-conditions=""> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[！UICONTROL來源檔案]</td> 
-   <td> <p>選取您要轉換的影像來源。 您可以從先前的模組選取輸出，或對應資料檔案和檔案名稱。 </p> </td> 
+   <td role="rowheader">[！UICONTROL Source檔案]</td> 
+   <td> <p>選取您要轉換的影像來源。 您可以從先前的模組中選取輸出，或對應資料檔案和檔案名稱。 </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL資料]</td> 
-   <td>對應您要轉換的檔案。 如果您在[！UICONTROL來源檔案]欄位中選取「對應」，則此欄位可用。</td> 
+   <td>對應您要轉換的檔案。 如果您在[！UICONTROL Source file]欄位中選取「對應」，則可使用此欄位。</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL檔案名稱]</td> 
-   <td>輸入已轉換檔案的名稱。 如果您在[！UICONTROL來源檔案]欄位中選取「對應」，則此欄位可用。</td> 
+   <td>輸入轉換檔案的名稱。 如果您在[！UICONTROL Source file]欄位中選取「對應」，則可使用此欄位。</td> 
   </tr> 
  </tbody> 
 </table>

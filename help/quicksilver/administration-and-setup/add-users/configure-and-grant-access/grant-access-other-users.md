@@ -15,7 +15,7 @@ ht-degree: 1%
 
 # 授予使用者存取許可權
 
-身為Adobe Workfront管理員，您可以使用存取層級來定義使用者對Workfront中其他使用者的存取權，如中所述 [存取層級概觀](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).
+身為Adobe Workfront管理員，您可以使用存取層級來定義使用者對Workfront中其他使用者的存取權，如[存取層級概觀](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md)中所述。
 
 ## 存取需求
 
@@ -35,7 +35,7 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定</td> 
-   <td> <p>您必須是Workfront管理員。</p> <p><b>注意</b>：如果您還是沒有存取權，請詢問Workfront管理員是否對您的存取層級設定了其他限制。 如需有關Workfront管理員如何修改您的存取層級的資訊，請參閱 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref" data-mc-variable-override="">建立或修改自訂存取層級</a>.</p> </td> 
+   <td> <p>您必須是Workfront管理員。</p> <p><b>注意</b>：如果您還是沒有存取權，請詢問您的Workfront管理員是否對您的存取層級設定了其他限制。 如需Workfront管理員如何修改存取層級的詳細資訊，請參閱<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref" data-mc-variable-override="">建立或修改自訂存取層級</a>。</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -46,28 +46,28 @@ ht-degree: 1%
 
 * Workfront管理員。
 
-  如需詳細資訊，請參閱 [授予使用者完整管理存取權](../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md).
+  如需詳細資訊，請參閱[授予使用者完整管理存取權](../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md)。
 
 * 具有預設Plan授權且有權存取使用者的使用者，如本文所述。
 
-  僅限於檢視其公司或主要公司使用者的使用者，只能編輯其可看到的使用者。 如需詳細資訊，請參閱 [建立或修改自訂存取層級](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+  僅限於檢視其公司或主要公司使用者的使用者，只能編輯其可看到的使用者。 如需詳細資訊，請參閱[建立或修改自訂存取層級](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)。
 
 * 具有預設Plan授權的使用者，同時也被指定為其他使用者的管理員。
 
-  在存取層級中授予使用者「編輯」存取許可權的使用者可以管理向其報告的使用者。 如需有關管理使用者的資訊，請參閱 [檢視組織圖](../../../people-teams-and-groups/work-directly-with-others/view-the-org-chart.md).
+  在存取層級中授予使用者「編輯」存取許可權的使用者可以管理向其報告的使用者。 如需有關管理使用者的資訊，請參閱[檢視組織圖](../../../people-teams-and-groups/work-directly-with-others/view-the-org-chart.md)。
 
-* 具有預設Plan授權的使用者建立使用者後，可以停用、刪除或編輯他們建立的使用者。 如需建立新使用者的詳細資訊，請參閱 [新增使用者](../../../administration-and-setup/add-users/create-and-manage-users/add-users.md).
+* 具有預設Plan授權的使用者建立使用者後，可以停用、刪除或編輯他們建立的使用者。 如需有關建立新使用者的資訊，請參閱[新增使用者](../../../administration-and-setup/add-users/create-and-manage-users/add-users.md)。
 
 ## 設定使用者的存取權，以使用自訂存取層級編輯使用者
 
-1. 開始建立或編輯存取層級，如中所述 [建立或修改自訂存取層級](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+1. 開始建立或編輯存取層級，如[建立或修改自訂存取層級](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)中所述。
 1. 若要變更擁有計畫或工作授權的使用者檢視其他使用者設定檔的能力：
 
-   1. 按一下齒輪圖示 ![](assets/gear-icon-settings.png) 於 **檢視** 按鈕在右側 **使用者**.
+   1. 按一下&#x200B;**使用者**&#x200B;右側&#x200B;**檢視**&#x200B;按鈕上的齒輪圖示![](assets/gear-icon-settings.png)。
 
-   1. 停用 **檢視連絡資訊**，然後按一下X以關閉 **微調您的設定** 方塊。
+   1. 停用&#x200B;**檢視連絡人資訊**，然後按一下X以關閉&#x200B;**微調您的設定**&#x200B;方塊。
 
-1. 若要修改擁有計畫授權存取權的使用者編輯其他使用者的能力，請按一下齒輪圖示 ![](assets/gear-icon-settings.png) 於 **編輯** 按鈕在右側 **使用者**，然後選取您要授與的功能：
+1. 若要修改擁有計畫授權存取許可權的使用者編輯其他使用者的能力，請按一下&#x200B;**使用者**&#x200B;右側&#x200B;**編輯**&#x200B;按鈕上的齒輪圖示![](assets/gear-icon-settings.png)，然後選取您要授與的功能：
 
    <table style="table-layout:auto"> 
     <col> 
@@ -76,15 +76,15 @@ ht-degree: 1%
      <tr> 
       <td role="rowheader"><strong>建立</strong> </td> 
       <td> <p>允許使用者建立使用者。<br>此選項預設為啟用。</p> 
-      &lt;!—
+      &lt;！—
         <p data-mc-conditions="QuicksilverOrClassic.Draft mode">在取消草擬這2個備註之前，請確定已進行此變更。 2029年3月29日，請求檔案指出這取決於調查結果。</p>
 
-       &lt;p>&lt;b>注意&lt;/b>：如果您的組織已上線Adobe Admin Console，便無法使用此功能。 如需詳細資訊，請洽詢您的網路或IT管理員。&lt;/p>
-       —>  &lt;/td>
+       &lt;p>&lt;b>注意&lt;/b>：如果您的組織已上線Adobe Admin Console，將無法使用此功能。 如需詳細資訊，請洽詢您的網路或IT管理員。&lt;/p>
+       —> &lt;/td>
    </tr> 
      <tr> 
       <td role="rowheader"><strong>刪除</strong> </td> 
-      <td> <p> 允許使用者刪除他們自己建立的使用者。<br>此選項預設為啟用。</p> <p><b>注意</b>：如果您的組織已上線Adobe Admin Console，則無法使用此功能。 如需詳細資訊，請洽詢您的網路或IT管理員。</p> </td> 
+      <td> <p> 允許使用者刪除他們自己建立的使用者。<br>此選項預設為啟用。</p> <p><b>注意</b>：如果您的組織已加入Adobe Admin Console，則無法使用此功能。 如需詳細資訊，請洽詢您的網路或IT管理員。</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>使用者管理員（所有使用者）</strong> </td> 
@@ -111,9 +111,9 @@ ht-degree: 1%
    >
    >如果您不想要授與群組管理員對其所管理群組之所有成員的存取權，請停用上述兩個「使用者管理員」選項。 群組管理員仍可存取他們新增至Workfront的群組成員，或在Workfront中向他們報告的群組成員。
 
-1. （選擇性）若要為您正在處理的存取層級中的其他物件與區域設定存取設定，請繼續下列其中一篇文章 [設定Adobe Workfront的存取權](../../../administration-and-setup/add-users/configure-and-grant-access/configure-access.md)，例如 [授與任務的存取權](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-tasks.md) 和 [授予財務資料的存取權](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).
-1. 完成後，按一下 **儲存**.
+1. （選擇性）若要針對您正在處理的存取層級中的其他物件與區域設定存取設定，請繼續使用[設定對Adobe Workfront的存取權](../../../administration-and-setup/add-users/configure-and-grant-access/configure-access.md)中所列的文章之一，例如[授與對工作的存取權](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-tasks.md)和[授與對財務資料的存取權](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md)。
+1. 完成時，按一下&#x200B;**儲存**。
 
 ## 依授權型別存取使用者
 
-如需每個存取層級中的使用者可以對使用者進行之作業的資訊，請參閱區段 [使用者](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md#users) 在文章中 [適用於每種物件型別的功能](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md).
+如需有關每個存取層級中的使用者可以對使用者執行哪些操作的資訊，請參閱文章[每個物件型別可用的功能](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md)中的[使用者](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md#users)小節。

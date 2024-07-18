@@ -7,9 +7,10 @@ title: Adobe Workfront Fusion中的連線中繼資料
 description: 除了Adobe Workfront授權，Adobe Workfront Fusion還需要Adobe Workfront Fusion授權。
 author: Becky
 feature: Workfront Fusion
-source-git-commit: 3a7983279a38c30cb58078d129ea22dee137d9a5
+exl-id: af260c63-3385-4d5c-abc2-d5c23175be40
+source-git-commit: abb021a6857f8016d4f8b6bcf99fe818e47faea6
 workflow-type: tm+mt
-source-wordcount: '286'
+source-wordcount: '281'
 ht-degree: 0%
 
 ---
@@ -18,7 +19,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->[!DNL Adobe Workfront Fusion] 需要 [!DNL Adobe Workfront Fusion] 除了授權之外， [!DNL Adobe Workfront] 授權。
+>除了[!DNL Adobe Workfront]授權之外，[!DNL Adobe Workfront Fusion]還需要[!DNL Adobe Workfront Fusion]授權。
 
 並非所有連線都相同。 瞭解不同連線之間的差異對於瞭解其業務環境非常重要。 Fusion使用中繼資料來識別連線的重要屬性。
 
@@ -28,7 +29,7 @@ ht-degree: 0%
 
 Fusion使用者可以從「連線」區域檢視及編輯連線。
 
-![「連線」區域中的連線中繼資料](assets/connections-area-metadata.png)
+![連線區域中的連線中繼資料](assets/connections-area-metadata.png)
 
 ## 環境型別
 
@@ -40,7 +41,4 @@ Fusion連線可用於服務帳戶和個人帳戶。 當案例自動做為Fusion�
 
 請注意，與其他連線中繼資料一樣，型別僅供參考。 使用者仍需負責手動準確設定此屬性。
 
-如需驗證型別的詳細資訊，請參閱 [驗證](https://developer.adobe.com/developer-console/docs/guides/authentication/) 在Adobe驗證指南中。
-
-
-
+如需驗證型別的詳細資訊，請參閱Adobe驗證指南中的[驗證](https://developer.adobe.com/developer-console/docs/guides/authentication/)。

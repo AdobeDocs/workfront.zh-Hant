@@ -22,12 +22,12 @@ ht-degree: 2%
 
 ## 先決條件
 
-開始之前，您必須先註冊Reporting Canvas測試版。 如需詳細資訊，請參閱 [報告畫布Beta版：概觀](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/reporting-canvas-beta-overview.md).
+開始之前，您必須先註冊Reporting Canvas測試版。 如需詳細資訊，請參閱[報告畫布測試版：概觀](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/reporting-canvas-beta-overview.md)。
 
 ## 匯出報告
 
 1. 導覽至您要匯出的報告。
-1. 在報告標題中，按一下 **更多** 圖示 ![](assets/more-icon-27x15.png)，按一下 **匯出**，然後選取您要建立的檔案格式。
+1. 在報告標題中，按一下&#x200B;**更多**&#x200B;圖示![](assets/more-icon-27x15.png)，按一下&#x200B;**匯出**，然後選取您要建立的檔案格式。
 
    >[!NOTE]
    >

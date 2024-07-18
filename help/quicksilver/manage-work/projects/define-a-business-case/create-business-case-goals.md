@@ -22,18 +22,18 @@ ht-degree: 1%
 
 >[!TIP]
 >
->您可以為組織建立未與專案的個別業務案例連結的戰略目標。 您必須擁有Adobe Workfront目標的存取權才能建立策略目標。 然後，您可以將他們與業務案例以外的專案連線。 如需使用Workfront目標建立目標的相關資訊，請參閱 [Adobe Workfront目標總覽](../../../workfront-goals/goal-management/wf-goals-overview.md).
+>您可以為組織建立未與專案的個別業務案例連結的戰略目標。 您必須擁有Adobe Workfront目標的存取權才能建立策略目標。 然後，您可以將他們與業務案例以外的專案連線。 如需使用Workfront目標建立目標的相關資訊，請參閱[Adobe Workfront目標總覽](../../../workfront-goals/goal-management/wf-goals-overview.md)。
 
 為專案建立業務案例目標時，請考慮下列事項：
 
 * 業務案例目標是專案專用的。 您無法將目標從一個專案複製到另一個專案，也不能在系統層級建立目標。 它們必須在每個專案的層級定義。
-* 您的Adobe Workfront管理員或群組管理員必須啟用專案的目標區段，它才會顯示在您專案的業務案例中。 如需為專案啟用業務案例欄位的相關資訊，請參閱 [設定全系統專案偏好設定](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+* 您的Adobe Workfront管理員或群組管理員必須啟用專案的目標區段，它才會顯示在您專案的業務案例中。 如需有關啟用專案的業務案例欄位的資訊，請參閱[設定全系統的專案偏好設定](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md)。
 
 * 目標不是專案業務案例中的強制區段。
 
   即使未定義業務案例的目標區段，專案也可以在Portfolio最佳化工具中接收要優先處理的分數。
 
-  如需「Portfolio最佳化程式」分數的詳細資訊，請參閱 [將計分卡套用至專案並產生一致性分數](../../../manage-work/projects/define-a-business-case/apply-scorecard-to-project-to-generate-alignment-score.md).
+  如需有關Portfolio最佳化工具分數的詳細資訊，請參閱[將計分卡套用至專案並產生一致性分數](../../../manage-work/projects/define-a-business-case/apply-scorecard-to-project-to-generate-alignment-score.md)。
 
 * 您無法報告業務案例目標。
 
@@ -57,30 +57,30 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定*</td> 
-   <td> <p>編輯專案的存取權</p> <p>注意：如果您還是沒有存取權，請詢問您的Workfront管理員，他們是否在您的存取層級中設定其他限制。 如需有關Workfront管理員如何修改您的存取層級的資訊，請參閱 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>.</p> </td> 
+   <td> <p>編輯專案的存取權</p> <p>注意：如果您還是沒有存取權，請詢問您的Workfront管理員，他們是否在您的存取層級中設定其他限制。 如需Workfront管理員如何修改存取層級的詳細資訊，請參閱<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">物件許可權</td> 
-   <td> <p>管理專案的許可權或更高版本</p> <p>如需請求其他存取許可權的詳細資訊，請參閱 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">要求物件的存取權 </a>.</p> </td> 
+   <td> <p>管理專案的許可權或更高版本</p> <p>如需請求其他存取權的資訊，請參閱<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">請求物件</a>的存取權。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;若要瞭解您擁有的計畫、授權型別或存取權，請聯絡您的Workfront管理員。
+&#42;若要瞭解您擁有的計畫、授權型別或存取權，請連絡您的Workfront管理員。
 
 ## 將目標新增至專案的業務案例
 
 1. 前往您要定義業務案例目標的專案。
-1. 按一下 **左側面板中的業務案例。**
+1. 按一下左側面板中的&#x200B;**業務案例。**
 
    業務案例隨即顯示。
 
    ![](assets/business-case-page-info-goals-expenses-nwe-350x123.png)
 
-1. 在 **目標** 區段，按一下 **編輯目標**.
+1. 在&#x200B;**目標**&#x200B;區段中，按一下&#x200B;**編輯目標**。
 
 1. 指定您的目標。
-在 **重要性** 下拉式功能表，選取重要性層級：
+在**重要性**&#x200B;下拉式功能表中，選取重要性層級：
 
    * 最高
    * 高
@@ -92,5 +92,5 @@ ht-degree: 1%
 
      您無法自訂目標的重要性層級。
 
-1. （選用）若要新增其他目標，請按一下 **新增另一個目標**&#x200B;並重複步驟5和步驟6。
-1. 按一下 **儲存**.
+1. （選擇性）若要新增其他目標，請按一下[新增其他目標] **並重複步驟5和步驟6。**
+1. 按一下&#x200B;**儲存**。

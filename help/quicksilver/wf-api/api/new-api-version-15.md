@@ -9,8 +9,8 @@ role: Developer
 exl-id: 1cfdc136-f3b4-4beb-b58b-f546a5510e6d
 source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
-source-wordcount: '2349'
-ht-degree: 3%
+source-wordcount: '2286'
+ht-degree: 0%
 
 ---
 
@@ -36,7 +36,7 @@ Adobe Workfront於2022年6月14日發行API第15版。 API第15版具有第14版
 
 方案物件會在Workfront情境規劃工具中建立職位角色的種類和數量、固定成本和計畫福利的估計值。
 
-如需方案的詳細資訊，請參閱 [情境規劃工具中的方案概觀](../../scenario-planner/initiatives-overview.md).
+如需方案的詳細資訊，請參閱情境規劃工具](../../scenario-planner/initiatives-overview.md)中的[方案概觀。
 
 <table>
   <col/>
@@ -52,7 +52,7 @@ Adobe Workfront於2022年6月14日發行API第15版。 API第15版具有第14版
             <p>這是內部物件。</p>
           </li>
           <li>
-            <p><b>期間</b>
+            <p><b>持續時間</b>
             </p>
             <p>endDate和startDate之間的時間量。</p>
           </li>
@@ -62,12 +62,12 @@ Adobe Workfront於2022年6月14日發行API第15版。 API第15版具有第14版
             <p>方案的計畫完成日期。</p>
           </li>
           <li>
-            <p><b>enteredById</b>
+            <p><b>enteredByID</b>
             </p>
             <p>與提交請求之使用者相關聯的ID。</p>
           </li>
           <li>
-            <p><b>ID</b>
+            <p><b>識別碼</b>
             </p>
             <p>與動作相關聯的ID</p>
           </li>
@@ -87,7 +87,7 @@ Adobe Workfront於2022年6月14日發行API第15版。 API第15版具有第14版
             <p>方案的名稱</p>
           </li>
           <li>
-            <p><b>planid</b>
+            <p><b>planID</b>
             </p>
             <p>與方案相關聯的計畫ID。</p>
           </li>
@@ -97,12 +97,12 @@ Adobe Workfront於2022年6月14日發行API第15版。 API第15版具有第14版
             <p>與方案關聯的計畫名稱。</p>
           </li>
           <li>
-            <p><b>projectID</b>
+            <p><b>專案識別碼</b>
             </p>
             <p>與方案相關聯的專案ID。</p>
           </li>
           <li>
-            <p><b>scenarioID</b>
+            <p><b>情境ID</b>
             </p>
             <p>與方案關聯的Workfront情境規劃工具中的情境ID。</p>
           </li>
@@ -123,7 +123,7 @@ Adobe Workfront於2022年6月14日發行API第15版。 API第15版具有第14版
             </p>
           </li>
           <li>
-            <p><b>輸入者</b>
+            <p><b>enteredBy</b>
             </p>
           </li>
           <li>
@@ -138,7 +138,7 @@ Adobe Workfront於2022年6月14日發行API第15版。 API第15版具有第14版
       <td>
         <ul>
           <li>
-            <p><b>ID</b>
+            <p><b>識別碼</b>
             </p>
           </li>
           <li>
@@ -153,7 +153,7 @@ Adobe Workfront於2022年6月14日發行API第15版。 API第15版具有第14版
       </td>
     </tr>
     <tr>
-      <td role="rowheader">作業</td>
+      <td role="rowheader">營運</td>
       <td>
         <ul>
           <li>
@@ -165,11 +165,11 @@ Adobe Workfront於2022年6月14日發行API第15版。 API第15版具有第14版
             </p>
           </li>
           <li>
-            <p><b>報告 </b>
+            <p><b>報告</b>
             </p>
           </li>
           <li>
-            <p><b>SEARCH</b>
+            <p><b>搜尋</b>
             </p>
           </li>
         </ul>
@@ -191,7 +191,7 @@ IssueDef物件代表關於問題格式的一組資料。 此物件可附加到�
       <td>
         <ul>
           <li>
-            <p><b>ID</b>
+            <p><b>識別碼</b>
             </p>
           </li>
           <li>
@@ -206,7 +206,7 @@ IssueDef物件代表關於問題格式的一組資料。 此物件可附加到�
       <td>
         <ul>
           <li>
-            <p><b>ID</b>
+            <p><b>識別碼</b>
             </p>
           </li>
           <li>
@@ -242,12 +242,12 @@ IssueDef物件代表關於問題格式的一組資料。 此物件可附加到�
             <p>ObjectIntegration輸入Workfront系統的日期和時間。</p>
           </li>
           <li>
-            <p><b>ID</b>
+            <p><b>識別碼</b>
             </p>
             <p>特定ObjectIntegration物件的唯一Workfront ID。</p>
           </li>
           <li>
-            <p><b>integrationtype</b>
+            <p><b>integrationType</b>
             </p>
             <p>ObjectIntegration物件用來建立連結的外部軟體。 可能的值包括：</p>
             <ul>
@@ -267,12 +267,12 @@ IssueDef物件代表關於問題格式的一組資料。 此物件可附加到�
             </p>
           </li>
           <li>
-            <p><b>物件ID</b>
+            <p><b>objID</b>
             </p>
             <p>與ObjectIntegration相關聯的Workfront物件。</p>
           </li>
           <li>
-            <p><b>物件代碼</b>
+            <p><b>objObjCode</b>
             </p>
             <p>與ObjectIntegration相關聯之Workfront中物件的物件程式碼。</p>
           </li>
@@ -310,7 +310,7 @@ IssueDef物件代表關於問題格式的一組資料。 此物件可附加到�
       <td>
         <ul>
           <li>
-            <p><b>ID</b>
+            <p><b>識別碼</b>
             </p>
           </li>
           <li>
@@ -340,7 +340,7 @@ TaskDef物件代表關於工作格式的一組資料。 此物件可附加到專
             </p>
           </li>
           <li>
-            <p><b>ID</b>
+            <p><b>識別碼</b>
             </p>
           </li>
         </ul>
@@ -351,7 +351,7 @@ TaskDef物件代表關於工作格式的一組資料。 此物件可附加到專
       <td >
         <ul>
           <li>
-            <p><b>defaultProvalProcess </b>
+            <p><b>defaultApprovalProcess </b>
             </p>
           </li>
         </ul>
@@ -374,7 +374,7 @@ TaskDef物件代表關於工作格式的一組資料。 此物件可附加到專
       <td>
         <ul>
           <li>
-            <p><b>ID</b>
+            <p><b>識別碼</b>
             </p>
           </li>
           <li>
@@ -406,7 +406,7 @@ TaskDef物件代表關於工作格式的一組資料。 此物件可附加到專
             </p>
           </li>
           <li>
-            <p><b>ID</b>
+            <p><b>識別碼</b>
             </p>
           </li>
           <li>
@@ -414,7 +414,7 @@ TaskDef物件代表關於工作格式的一組資料。 此物件可附加到專
             </p>
           </li>
           <li>
-            <p><b>要求者ID</b>
+            <p><b>requestorID</b>
             </p>
           </li>
           <li>
@@ -456,7 +456,7 @@ TaskDef物件代表關於工作格式的一組資料。 此物件可附加到專
       <td>
         <ul>
           <li>
-            <p><b>ID</b>
+            <p><b>識別碼</b>
             </p>
           </li>
           <li>
@@ -475,7 +475,7 @@ TaskDef物件代表關於工作格式的一組資料。 此物件可附加到專
             </p>
           </li>
           <li>
-            <p><b>要求者ID</b>
+            <p><b>requestorID</b>
             </p>
           </li>
           <li>
@@ -505,7 +505,7 @@ TaskDef物件代表關於工作格式的一組資料。 此物件可附加到專
       </td>
     </tr>
     <tr>
-      <td role="rowheader">作業</td>
+      <td role="rowheader">營運</td>
       <td>
         <ul>
           <li>
@@ -529,7 +529,7 @@ TaskDef物件代表關於工作格式的一組資料。 此物件可附加到專
             </p>
           </li>
           <li>
-            <p><b>SEARCH</b>
+            <p><b>搜尋</b>
             </p>
           </li>
         </ul>
@@ -604,7 +604,7 @@ TaskDef物件代表關於工作格式的一組資料。 此物件可附加到專
 
 AccessLevel物件與使用者相關聯，並描述決定使用者可存取內容的AccessLevelPermissions集合。
 
-如需存取層級的詳細資訊，請參閱 [存取層級](../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels.md).
+如需存取層級的詳細資訊，請參閱[存取層級](../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels.md)。
 
 <table>
   <col/>
@@ -805,18 +805,18 @@ AccessRule物件代表自訂存取層級中的規則集，可決定使用者如�
           <li>
             <p><b>方案</b>
             </p>
-            <p>已新增.</p>
+            <p>已新增。</p>
             <p>方案物件會在Workfront情境規劃工具中建立職位角色的種類和數量、固定成本和計畫福利的估計值。 </p>
           </li>
           <li>
             <p><b>issueDef</b>
             </p>
-            <p>已新增.</p>
+            <p>已新增。</p>
           </li>
           <li>
             <p><b>taskDef</b>
             </p>
-            <p>已新增.</p>
+            <p>已新增。</p>
           </li>
         </ul>
       </td>
@@ -826,10 +826,10 @@ AccessRule物件代表自訂存取層級中的規則集，可決定使用者如�
       <td>
         <ul>
           <li>
-            <p style="font-weight: bold;"><b>objectIntegrations
+            <p style="font-weight: bold;"><b>物件整合
 </b>
             </p>
-            <p style="font-weight: normal;">已新增.</p>
+            <p style="font-weight: normal;">已新增。</p>
             <p>在某些情況下，可以直接將Workfront工作專案連結到外部軟體產品中的物件。 ObjectIntegration物件代表此連結。</p>
           </li>
         </ul>
@@ -860,8 +860,8 @@ AccessRule物件代表自訂存取層級中的規則集，可決定使用者如�
             </ul>
           </li>
           <li>
-            <p><b>物件型別</b> (string[])</p>
-            <p>已新增.</p>
+            <p><b>objTypes</b> (string[])</p>
+            <p>已新增。</p>
             <p style="font-weight: normal;">此引數是可附加自訂表單的可能物件陣列。 新增此項是為了支援將自訂表單附加到多種物件型別的功能。</p>
             <p>可能的值： </p>
             <p>CMPY，連線埠， PRGM，專案，任務， OPTASK，使用者， DOCU，費用， ITRN，帳單，群組</p>
@@ -874,8 +874,8 @@ AccessRule物件代表自訂存取層級中的規則集，可決定使用者如�
       <td>
         <ul>
           <li>
-            <p><b>物件型別</b> (string[])</p>
-            <p>已新增.</p>
+            <p><b>objTypes</b> (string[])</p>
+            <p>已新增。</p>
             <p style="font-weight: normal;">此引數是可附加自訂表單的可能物件陣列。 新增此項是為了支援將自訂表單附加到多種物件型別的功能。</p>
             <p>可能的值： </p>
             <p>CMPY，連線埠， PRGM，專案，任務， OPTASK，使用者， DOCU，費用， ITRN，帳單，群組</p>
@@ -897,19 +897,19 @@ AccessRule物件代表自訂存取層級中的規則集，可決定使用者如�
       <td>
         <ul>
           <li>
-            <p><b>hideFormalFromDescription</b>
+            <p><b>hideFormulaFromDescription</b>
             </p>
-            <p>已新增.</p>
+            <p>已新增。</p>
           </li>
           <li>
             <p><b>journaledObjCodes</b>
             </p>
-            <p>已新增.</p>
+            <p>已新增。</p>
           </li>
           <li>
-            <p><b>rawCustomExpress</b>
+            <p><b>rawCustomExpression</b>
             </p>
-            <p>已新增.</p>
+            <p>已新增。</p>
           </li>
         </ul>
       </td>
@@ -935,11 +935,11 @@ CustomerPreferences物件代表客戶已針對其Workfront例項設定的偏好�
             <p>已新增下列值：</p>
             <ul>
               <li>
-                <p><code>password:sharePointV2IntegrationEnabled</code> (SharePoint (Graph API) 整合已啟用)</p>
+                <p><code>password:sharePointV2IntegrationEnabled</code> (啟用SharePoint (Graph API)整合)</p>
                 <p>此值支援更新的Sharepoint整合。</p>
               </li>
               <li>
-                <p><code>project.mgmt:default.project.allowcreatewithouttemplate</code> (允許使用者在不使用範本的情況下建立專案)</p>
+                <p><code>project.mgmt:default.project.allowcreatewithouttemplate</code> （允許使用者在不使用範本的情況下建立專案）</p>
               </li>
               <li>
                 <p><code>project.mgmt:taskissue.delegate</code> (config.taskissue.delegate)</p>
@@ -956,13 +956,13 @@ CustomerPreferences物件代表客戶已針對其Workfront例項設定的偏好�
 
 檔案可整理到資料夾中。 您可以在個人的「檔案」區域中建立個人資料夾。 DocumentFolder物件代表其中一個資料夾。
 
-DocumentFolder物件已新增標幟 `SHARABLE`.
+DocumentFolder物件已新增旗標`SHARABLE`。
 
 ### DocumentVersion (DOCV)
 
 DocumentVersion物件代表檔案的特定版本（例如書面材料、影像或其他形式的資訊）。
 
-如需檔案版本的詳細資訊，請參閱 [上傳檔案的新版本](../../documents/managing-documents/upload-new-document-version.md).
+如需檔案版本的詳細資訊，請參閱[上傳檔案的新版本](../../documents/managing-documents/upload-new-document-version.md)。
 
 <table>
   <col/>
@@ -995,7 +995,7 @@ DocumentVersion物件代表檔案的特定版本（例如書面材料、影像�
 
 如需群組的詳細資訊，請參閱群組與團隊。
 
-群組物件已新增標幟 `DATA_EXTENDIBLE`
+群組物件已新增旗標`DATA_EXTENDIBLE`
 
 <table>
   <col/>
@@ -1007,7 +1007,7 @@ DocumentVersion物件代表檔案的特定版本（例如書面材料、影像�
         <p>已新增下列欄位：</p>
         <ul>
           <li>
-            <p><b>categoryID</b>
+            <p><b>類別識別碼</b>
             </p>
             <p>類別是自訂表單。 新增此引數是為了支援新增自訂Forms至群組物件的功能。 </p>
           </li>
@@ -1181,7 +1181,7 @@ OpTask物件通常稱為「問題」。 問題指工作專案，通常表示發�
         <p>已修改下列動作：</p>
         <ul>
           <li>
-            <p><b>copyissue</b>
+            <p><b>複製問題</b>
             </p>
             <p>已新增欄位 <code>parentID</code></p>
           </li>
@@ -1214,13 +1214,13 @@ Parameter物件是自訂欄位。
           <li>
             <p><b>資料型別</b>
             </p>
-            <p>已新增可能的值 <code>WIDGET </code>(Widget) </p>
+            <p>已新增可能的值<code>WIDGET </code>(Widget) </p>
             <p>此值支援在自訂表單中使用影像。</p>
           </li>
           <li>
-            <p><b>顯示型別</b>
+            <p><b>displayType</b>
             </p>
-            <p>已新增可能的值 <code>WIDGET </code>(Widget)</p>
+            <p>已新增可能的值<code>WIDGET </code>(Widget)</p>
             <p>此值支援在自訂表單中使用影像。</p>
           </li>
         </ul>
@@ -1361,7 +1361,7 @@ Portfolio物件是競爭相同資源（通常是金錢或人力）的專案集�
 
 QueueDef物件代表佇列，這是已發佈至服務檯區域的專案，可讓使用者向其提交問題。
 
-如需請求佇列的詳細資訊，請參閱 [建立請求佇列](../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
+如需請求佇列的詳細資訊，請參閱[建立請求佇列](../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md)。
 
 <table>
   <col/>
@@ -1407,7 +1407,7 @@ QueueDef物件代表佇列，這是已發佈至服務檯區域的專案，可讓
 
 ScoreCardQuestion物件代表已新增至計分卡的問題。 這些問題通常由Portfolio經理決定，而他們的答案可讓經理瞭解專案與產品組合目標的對齊程度。
 
-如需計分卡問題的詳細資訊，請參閱 [建立計分卡](../../administration-and-setup/set-up-workfront/configure-system-defaults/create-scorecard.md).
+如需計分卡問題的詳細資訊，請參閱[建立計分卡](../../administration-and-setup/set-up-workfront/configure-system-defaults/create-scorecard.md)。
 
 <table>
   <col/>
@@ -1418,9 +1418,9 @@ ScoreCardQuestion物件代表已新增至計分卡的問題。 這些問題通�
       <td>
         <ul>
           <li>
-            <p><b>顯示型別</b>
+            <p><b>displayType</b>
             </p>
-            <p>已新增可能的值 <code>WIDGET </code>(Widget)</p>
+            <p>已新增可能的值<code>WIDGET </code>(Widget)</p>
           </li>
         </ul>
       </td>
@@ -1516,40 +1516,40 @@ Template物件代表專案的模式。 可以從範本建立專案以節省時�
             <p>下列可能的值已移除：</p>
             <ul>
               <li>
-                <p><code>FOUR_COL</code> (四欄式配置)</p>
+                <p><code>FOUR_COL</code> （四欄式配置）</p>
               </li>
               <li>
-                <p><code>UPDATES</code> (更新)</p>
+                <p><code>UPDATES</code> （更新）</p>
               </li>
               <li>
-                <p><code>UPDATESTOOLBAR_FEED</code> (更新)</p>
+                <p><code>UPDATESTOOLBAR_FEED</code> （更新）</p>
               </li>
               <li>
-                <p><code>WORKINGON</code> (處理中)</p>
+                <p><code>WORKINGON</code> （正在處理）</p>
               </li>
               <li>
-                <p><code>CUSTOMDATA</code> (自訂資料)</p>
+                <p><code>CUSTOMDATA</code> （自訂資料）</p>
               </li>
               <li>
-                <p><code>CUSTOMDATA_UPDATE</code> (更新自訂資料)</p>
+                <p><code>CUSTOMDATA_UPDATE</code> （更新自訂資料）</p>
               </li>
               <li>
-                <p><code>STATUS_UPDATE</code> (狀態更新)</p>
+                <p><code>STATUS_UPDATE</code> （狀態更新）</p>
               </li>
               <li>
-                <p><code>OPTASK_STATUS_UPDATE</code> (狀態更新)</p>
+                <p><code>OPTASK_STATUS_UPDATE</code> （狀態更新）</p>
               </li>
               <li>
-                <p><code>PROJ_STATUS_UPDATE</code> (狀態更新)</p>
+                <p><code>PROJ_STATUS_UPDATE</code> （狀態更新）</p>
               </li>
               <li>
-                <p><code>PROJECT_TIMEENTRY</code> (狀態更新)</p>
+                <p><code>PROJECT_TIMEENTRY</code> （狀態更新）</p>
               </li>
               <li>
-                <p><code>DLIST</code> (詳細資訊清單)</p>
+                <p><code>DLIST</code> （詳細清單）</p>
               </li>
               <li>
-                <p><code>DLIST_SECTION</code> (詳細資訊清單部分)</p>
+                <p><code>DLIST_SECTION</code> （詳細清單區段）</p>
               </li>
             </ul>
           </li>
@@ -1574,7 +1574,7 @@ Workfront中的工作專案可以更新，以隨時通知使用者目前的狀�
           <li>
             <p><b>updateType</b>
             </p>
-            <p>已新增可能的值 <code>documentVersionDownload </code>(enum.updatetypeenum.documentversiondownload)</p>
+            <p>已新增可能的值<code>documentVersionDownload </code>(enum.updatetypeenum.documentversiondownload)</p>
           </li>
         </ul>
       </td>
@@ -1632,7 +1632,7 @@ UserNote物件是通知。
       <td>
         <ul>
           <li>
-            <p><b>eventtype</b>
+            <p><b>eventType</b>
             </p>
             <p>已新增下列可能值：</p>
             <ul>

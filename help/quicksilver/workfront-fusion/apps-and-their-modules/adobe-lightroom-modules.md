@@ -8,22 +8,23 @@ title: Adobe Lightroom模組
 description: 透過Adobe Lightroom模組，您可以根據Adobe Lightroom帳戶中的事件啟動Adobe Workfront Fusion案例。
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
-source-git-commit: e99bd69c712a7685512eecc7fccc8211013a259d
+exl-id: e48bdf18-49f0-436e-9182-16c9da2b3169
+source-git-commit: 0a01acd56b3ea10d1cccc31a21e434da55b1ec13
 workflow-type: tm+mt
 source-wordcount: '2244'
 ht-degree: 0%
 
 ---
 
-# [!DNL Adobe Lightroom] 模組
+# [!DNL Adobe Lightroom]模組
 
 <!--Add Connection info-->
 
-在 [!DNL Adobe Workfront Fusion] 情境中，您可以使用自動化工作流程 [!DNL Adobe Lightroom]，並連結至多個協力廠商應用程式和服務。
+在[!DNL Adobe Workfront Fusion]案例中，您可以自動化使用[!DNL Adobe Lightroom]的工作流程，並將其連線至多個協力廠商應用程式和服務。
 
-如果您需要有關建立情境的指示，請參閱 [建立情境](../../workfront-fusion/scenarios/create-a-scenario.md).
+如果您需要有關建立案例的指示，請參閱[建立案例](../../workfront-fusion/scenarios/create-a-scenario.md)。
 
-如需模組的相關資訊，請參閱 [中的模組 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/modules.md).
+如需模組的相關資訊，請參閱 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/modules.md)中的[模組。
 
 ## 存取需求
 
@@ -53,22 +54,22 @@ ht-degree: 0%
     </tr>
     <tr>
       <td role="rowheader">產品</td>
-      <td>貴組織必須購買 [!DNL Adobe Workfront Fusion] 以及 [!DNL Adobe Workfront] 以使用本文所述的功能。</td>
+      <td>您的組織必須購買[!DNL Adobe Workfront Fusion]和[!DNL Adobe Workfront]，才能使用本文所述的功能。</td>
     </tr>
     </tr>
   </tbody>
 </table>
 
 
-&#42;若要瞭解您擁有的計畫、授權型別或存取權，請聯絡您的 [!DNL Workfront] 管理員。
+&#42;若要瞭解您擁有的計畫、授權型別或存取權，請連絡您的[!DNL Workfront]管理員。
 
-&#42;&#42;有關的資訊 [!DNL Adobe Workfront Fusion] 授權，請參閱 [!DNL [Adobe Workfront Fusion] licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md)
+&#42;&#42;如需[!DNL Adobe Workfront Fusion]授權的相關資訊，請參閱[!DNL [Adobe Workfront Fusion] licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md)
 
 ## 先決條件
 
-開始使用 [!DNL Adobe Lightroom] 聯結器時，您必須確定符合下列先決條件：
+使用[!DNL Adobe Lightroom]聯結器之前，您必須確定符合下列先決條件：
 
-* 您必須擁有使用中 [!DNL Adobe Lightroom] 帳戶。
+* 您必須擁有使用中的[!DNL Adobe Lightroom]帳戶。
 
 ## 建立與Adobe Lightroom的連線
 
@@ -76,9 +77,9 @@ ht-degree: 0%
 
 ## Adobe Lightroom模組及其欄位
 
-當您設定 [!DNL Adobe Lightroom] 模組， [!DNL Workfront Fusion] 顯示下列欄位。 除了這些以外， [!DNL Adobe Lightroom] 欄位可能會顯示，端視您應用程式或服務中的存取層級等因素而定。 模組中的粗體標題表示必填欄位。
+當您設定[!DNL Adobe Lightroom]模組時，[!DNL Workfront Fusion]會顯示下列欄位。 除了這些欄位以外，可能還會顯示其他[!DNL Adobe Lightroom]欄位，視您在應用程式或服務中的存取層級等因素而定。 模組中的粗體標題表示必填欄位。
 
-如果您在欄位或函式上方看到對應按鈕，則可以使用它來設定該欄位的變數和函式。 如需詳細資訊，請參閱 [在中將資訊從一個模組對應到另一個模組 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
+如果您在欄位或函式上方看到對應按鈕，則可以使用它來設定該欄位的變數和函式。 如需詳細資訊，請參閱[在 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md)中將資訊從一個模組對應到另一個模組。
 
 ![](assets/map-toggle-350x74.png)
 
@@ -101,7 +102,7 @@ ht-degree: 0%
   <tbody>
     <tr>
       <td role="rowheader">[！UICONTROL Connection]</td>
-      <td>有關建立與的連線的指示 [!DNL Adobe Lightroom]，請參閱 <a href="#create-a-connection-to-adobe-lightroom" class="MCXref xref" >建立與的連線 [!DNL Adobe Lightroom]</a> 本文章內容。</td>
+      <td>如需建立[!DNL Adobe Lightroom]連線的說明，請參閱本文中的<a href="#create-a-connection-to-adobe-lightroom" class="MCXref xref" >建立與[!DNL Adobe Lightroom]</a>的連線。</td>
     </tr>
     <tr>
       <td role="rowheader">[！UICONTROL認證]</td>
@@ -120,7 +121,7 @@ ht-degree: 0%
   <tbody>
     <tr>
       <td role="rowheader">[！UICONTROL Connection]</td>
-      <td>有關建立與的連線的指示 [!DNL Adobe Lightroom]，請參閱 <a href="#create-a-connection-to-adobe-lightroom" class="MCXref xref" >建立與的連線 [!DNL Adobe Lightroom]</a> 本文章內容。</td>
+      <td>如需建立[!DNL Adobe Lightroom]連線的說明，請參閱本文中的<a href="#create-a-connection-to-adobe-lightroom" class="MCXref xref" >建立與[!DNL Adobe Lightroom]</a>的連線。</td>
     </tr>
     <tr>
       <td role="rowheader">[！UICONTROL認證]</td>
@@ -153,7 +154,7 @@ ht-degree: 0%
   <tbody>
     <tr>
       <td role="rowheader">[！UICONTROL Connection]</td>
-      <td>有關建立與的連線的指示 [!DNL Adobe Lightroom]，請參閱 <a href="#create-a-connection-to-adobe-lightroom" class="MCXref xref" >建立與的連線 [!DNL Adobe Lightroom]</a> 本文章內容。</td>
+      <td>如需建立[!DNL Adobe Lightroom]連線的說明，請參閱本文中的<a href="#create-a-connection-to-adobe-lightroom" class="MCXref xref" >建立與[!DNL Adobe Lightroom]</a>的連線。</td>
     </tr>
     <tr>
       <td role="rowheader">[！UICONTROL目錄ID]</td>
@@ -199,7 +200,7 @@ ht-degree: 0%
   <tbody>
     <tr>
       <td role="rowheader">[！UICONTROL Connection]</td>
-      <td>有關建立與的連線的指示 [!DNL Adobe Lightroom]，請參閱 <a href="#create-a-connection-to-adobe-lightroom" class="MCXref xref" >建立與的連線 [!DNL Adobe Lightroom]</a> 本文章內容。</td>
+      <td>如需建立[!DNL Adobe Lightroom]連線的說明，請參閱本文中的<a href="#create-a-connection-to-adobe-lightroom" class="MCXref xref" >建立與[!DNL Adobe Lightroom]</a>的連線。</td>
     </tr>
     <tr>
       <td role="rowheader">[！UICONTROL目錄ID]</td>
@@ -222,19 +223,19 @@ ht-degree: 0%
     <tr>
       <td role="rowheader">[！UICONTROL日期時間使用者已建立]</td>
       <td>
-        <p>輸入或對應格式的日期 <code>YYYY-MM-DDT00:00:00-00:00</code>.</p>
+        <p>輸入或對應格式為<code>YYYY-MM-DDT00:00:00-00:00</code>的日期。</p>
       </td>
     </tr>
     <tr>
       <td role="rowheader">[！UICONTROL日期時間使用者已更新]</td>
       <td>
-        <p>輸入或對應格式的日期 <code>YYYY-MM-DDT00:00:00-00:00</code>.</p>
+        <p>輸入或對應格式為<code>YYYY-MM-DDT00:00:00-00:00</code>的日期。</p>
       </td>
     </tr>
     <tr>
       <td role="rowheader">[！UICONTROL擷取日期]</td>
       <td>
-        <p>輸入或對應格式的日期 <code>YYYY-MM-DDT00:00:00-00:00</code>.</p>
+        <p>輸入或對應格式為<code>YYYY-MM-DDT00:00:00-00:00</code>的日期。</p>
       </td>
     </tr>
   </tbody>
@@ -250,7 +251,7 @@ ht-degree: 0%
   <tbody>
     <tr>
       <td role="rowheader">[！UICONTROL Connection]</td>
-      <td>有關建立與的連線的指示 [!DNL Adobe Lightroom]，請參閱 <a href="#create-a-connection-to-adobe-lightroom" class="MCXref xref" >建立與的連線 [!DNL Adobe Lightroom]</a> 本文章內容。</td>
+      <td>如需建立[!DNL Adobe Lightroom]連線的說明，請參閱本文中的<a href="#create-a-connection-to-adobe-lightroom" class="MCXref xref" >建立與[!DNL Adobe Lightroom]</a>的連線。</td>
     </tr>
     <tr>
       <td role="rowheader">[！UICONTROL內容長度（位元組）]</td>
@@ -295,7 +296,7 @@ ht-degree: 0%
   <tbody>
     <tr>
       <td role="rowheader">[！UICONTROL Connection]</td>
-      <td>有關建立與的連線的指示 [!DNL Adobe Lightroom]，請參閱 <a href="#create-a-connection-to-adobe-lightroom" class="MCXref xref" >建立與的連線 [!DNL Adobe Lightroom]</a> 本文章內容。</td>
+      <td>如需建立[!DNL Adobe Lightroom]連線的說明，請參閱本文中的<a href="#create-a-connection-to-adobe-lightroom" class="MCXref xref" >建立與[!DNL Adobe Lightroom]</a>的連線。</td>
     </tr>
     <tr>
       <td role="rowheader">[！UICONTROL轉譯型別（以分號分隔）]</td>
@@ -334,7 +335,7 @@ ht-degree: 0%
   <tbody>
     <tr>
       <td role="rowheader">[！UICONTROL Connection]</td>
-      <td>有關建立與的連線的指示 [!DNL Adobe Lightroom]，請參閱 <a href="#create-a-connection-to-adobe-lightroom" class="MCXref xref" >建立與的連線 [!DNL Adobe Lightroom]</a> 本文章內容。</td>
+      <td>如需建立[!DNL Adobe Lightroom]連線的說明，請參閱本文中的<a href="#create-a-connection-to-adobe-lightroom" class="MCXref xref" >建立與[!DNL Adobe Lightroom]</a>的連線。</td>
     </tr>
     <tr>
       <td role="rowheader">[！UICONTROL目錄ID]</td>
@@ -362,7 +363,7 @@ ht-degree: 0%
   <tbody>
     <tr>
       <td role="rowheader">[！UICONTROL Connection]</td>
-      <td>有關建立與的連線的指示 [!DNL Adobe Lightroom]，請參閱 <a href="#create-a-connection-to-adobe-lightroom" class="MCXref xref" >建立與的連線 [!DNL Adobe Lightroom]</a> 本文章內容。</td>
+      <td>如需建立[!DNL Adobe Lightroom]連線的說明，請參閱本文中的<a href="#create-a-connection-to-adobe-lightroom" class="MCXref xref" >建立與[!DNL Adobe Lightroom]</a>的連線。</td>
     </tr>
     <tr>
       <td role="rowheader">[！UICONTROL目錄ID]</td>
@@ -389,7 +390,7 @@ ht-degree: 0%
   <tbody>
     <tr>
       <td role="rowheader">[！UICONTROL Connection]</td>
-      <td>有關建立與的連線的指示 [!DNL Adobe Lightroom]，請參閱 <a href="#create-a-connection-to-adobe-lightroom" class="MCXref xref" >建立與的連線 [!DNL Adobe Lightroom]</a> 本文章內容。</td>
+      <td>如需建立[!DNL Adobe Lightroom]連線的說明，請參閱本文中的<a href="#create-a-connection-to-adobe-lightroom" class="MCXref xref" >建立與[!DNL Adobe Lightroom]</a>的連線。</td>
     </tr>
     <tr>
       <td role="rowheader">[！UICONTROL目錄ID]</td>
@@ -422,7 +423,7 @@ ht-degree: 0%
   <tbody>
     <tr>
       <td role="rowheader">[！UICONTROL Connection]</td>
-      <td>有關建立與的連線的指示 [!DNL Adobe Lightroom]，請參閱 <a href="#create-a-connection-to-adobe-lightroom" class="MCXref xref" >建立與的連線 [!DNL Adobe Lightroom]</a> 本文章內容。</td>
+      <td>如需建立[!DNL Adobe Lightroom]連線的說明，請參閱本文中的<a href="#create-a-connection-to-adobe-lightroom" class="MCXref xref" >建立與[!DNL Adobe Lightroom]</a>的連線。</td>
     </tr>
     <tr>
       <td role="rowheader">[！UICONTROL目錄ID]</td>
@@ -439,13 +440,13 @@ ht-degree: 0%
     <tr>
       <td role="rowheader">[！UICONTROL傳回之前擷取的資產]</td>
       <td>
-        <p>以格式輸入日期 <code>YYYY-MM-DDT00:00:00</code>. 模組會傳回在此日期之前擷取的結果。</p><p> 此欄位無法與欄位搭配使用 <code>Return assets captured after</code>.</p>
+        <p>輸入格式為<code>YYYY-MM-DDT00:00:00</code>的日期。 模組會傳回在此日期之前擷取的結果。</p><p> 此欄位無法與欄位<code>Return assets captured after</code>搭配使用。</p>
       </td>
     </tr>
     <tr>
       <td role="rowheader">[！UICONTROL傳回資產的最大數量]</td>
       <td>
-        <p>設定符合以下條件的資產數量上限： [!DNL Workfront Fusion] 將會在一個執行週期中傳回。 此數字必須小於或等於100。</p>
+        <p>設定[!DNL Workfront Fusion]在一個執行週期內傳回的最大資產數量。 此數字必須小於或等於100。</p>
       </td>
     </tr>
     <tr>
@@ -519,7 +520,7 @@ ht-degree: 0%
   <tbody>
     <tr>
       <td role="rowheader">[！UICONTROL Connection]</td>
-      <td>有關建立與的連線的指示 [!DNL Adobe Lightroom]，請參閱 <a href="#create-a-connection-to-adobe-lightroom" class="MCXref xref" >建立與的連線 [!DNL Adobe Lightroom]</a> 本文章內容。</td>
+      <td>如需建立[!DNL Adobe Lightroom]連線的說明，請參閱本文中的<a href="#create-a-connection-to-adobe-lightroom" class="MCXref xref" >建立與[!DNL Adobe Lightroom]</a>的連線。</td>
     </tr>
     <tr>
       <td role="rowheader">[！UICONTROL目錄ID]</td>
@@ -536,7 +537,7 @@ ht-degree: 0%
     <tr>
       <td role="rowheader">[！UICONTROL Assets]</td>
       <td>
-        <p>針對您想要新增至相簿的每個資產，按一下 <b>新增專案</b> 並輸入下列欄位。</p>
+        <p>針對您想要新增至相簿的每個資產，按一下<b>新增專案</b>並輸入下列欄位。</p>
       </td>
     <tr>
       <td role="rowheader">[！UICONTROL資產ID]</td>
@@ -577,7 +578,7 @@ ht-degree: 0%
   <tbody>
     <tr>
       <td role="rowheader">[！UICONTROL Connection]</td>
-      <td>有關建立與的連線的指示 [!DNL Adobe Lightroom]，請參閱 <a href="#create-a-connection-to-adobe-lightroom" class="MCXref xref" >建立與的連線 [!DNL Adobe Lightroom]</a> 本文章內容。</td>
+      <td>如需建立[!DNL Adobe Lightroom]連線的說明，請參閱本文中的<a href="#create-a-connection-to-adobe-lightroom" class="MCXref xref" >建立與[!DNL Adobe Lightroom]</a>的連線。</td>
     </tr>
     <tr>
       <td role="rowheader">[！UICONTROL目錄ID]</td>
@@ -604,13 +605,13 @@ ht-degree: 0%
     <tr>
       <td role="rowheader">[！UICONTROL日期時間使用者已建立]</td>
       <td>
-        <p>輸入或對應格式的日期 <code>YYYY-MM-DDT00:00:00-00:00Z</code>.</p>
+        <p>輸入或對應格式為<code>YYYY-MM-DDT00:00:00-00:00Z</code>的日期。</p>
       </td>
     </tr>
     <tr>
       <td role="rowheader">[！UICONTROL日期時間使用者已更新]</td>
       <td>
-        <p>輸入或對應格式的日期 <code>YYYY-MM-DDT00:00:00-00:00Z</code>.</p>
+        <p>輸入或對應格式為<code>YYYY-MM-DDT00:00:00-00:00Z</code>的日期。</p>
       </td>
     </tr>
     <tr>
@@ -632,12 +633,12 @@ ht-degree: 0%
     <tr>
       <td role="rowheader">[！UICONTROL建立日期]</td>
       <td>
-        <p>輸入或對應格式的日期 <code>YYYY-MM-DDT00:00:00-00:00Z</code>.</p>
+        <p>輸入或對應格式為<code>YYYY-MM-DDT00:00:00-00:00Z</code>的日期。</p>
       </td>
     <tr>
       <td role="rowheader">[！UICONTROL更新日期]</td>
       <td>
-        <p>輸入或對應格式的日期 <code>YYYY-MM-DDT00:00:00-00:00Z</code>.</p>
+        <p>輸入或對應格式為<code>YYYY-MM-DDT00:00:00-00:00Z</code>的日期。</p>
       </td>
     </tr>
     <tr>
@@ -665,7 +666,7 @@ ht-degree: 0%
 
 此動作模組會刪除相簿。
 
-已刪除的相簿必須由目前要刪除該相簿的相同使用者端應用程式建立，而且必須是子型別 `project` 或 `project_set`.
+已刪除的相簿必須由目前要刪除該相簿的相同使用者端應用程式所建立，而且它必須是子型別`project`或`project_set`。
 
 <table style="table-layout:auto"> 
   <col/>
@@ -673,7 +674,7 @@ ht-degree: 0%
   <tbody>
     <tr>
       <td role="rowheader">[！UICONTROL Connection]</td>
-      <td>有關建立與的連線的指示 [!DNL Adobe Lightroom]，請參閱 <a href="#create-a-connection-to-adobe-lightroom" class="MCXref xref" >建立與的連線 [!DNL Adobe Lightroom]</a> 本文章內容。</td>
+      <td>如需建立[!DNL Adobe Lightroom]連線的說明，請參閱本文中的<a href="#create-a-connection-to-adobe-lightroom" class="MCXref xref" >建立與[!DNL Adobe Lightroom]</a>的連線。</td>
     </tr>
     <tr>
       <td role="rowheader">[！UICONTROL目錄ID]</td>
@@ -706,7 +707,7 @@ ht-degree: 0%
   <tbody>
     <tr>
       <td role="rowheader">[！UICONTROL Connection]</td>
-      <td>有關建立與的連線的指示 [!DNL Adobe Lightroom]，請參閱 <a href="#create-a-connection-to-adobe-lightroom" class="MCXref xref" >建立與的連線 [!DNL Adobe Lightroom]</a> 本文章內容。</td>
+      <td>如需建立[!DNL Adobe Lightroom]連線的說明，請參閱本文中的<a href="#create-a-connection-to-adobe-lightroom" class="MCXref xref" >建立與[!DNL Adobe Lightroom]</a>的連線。</td>
     </tr>
     <tr>
       <td role="rowheader">[！UICONTROL目錄ID]</td>
@@ -739,7 +740,7 @@ ht-degree: 0%
   <tbody>
     <tr>
       <td role="rowheader">[！UICONTROL Connection]</td>
-      <td>有關建立與的連線的指示 [!DNL Adobe Lightroom]，請參閱 <a href="#create-a-connection-to-adobe-lightroom" class="MCXref xref" >建立與的連線 [!DNL Adobe Lightroom]</a> 本文章內容。</td>
+      <td>如需建立[!DNL Adobe Lightroom]連線的說明，請參閱本文中的<a href="#create-a-connection-to-adobe-lightroom" class="MCXref xref" >建立與[!DNL Adobe Lightroom]</a>的連線。</td>
     </tr>
     <tr>
       <td role="rowheader">[！UICONTROL目錄ID]</td>
@@ -762,7 +763,7 @@ ht-degree: 0%
     <tr>
       <td role="rowheader">[！UICONTROL傳回專輯的最大數量]</td>
       <td>
-        <p>設定符合以下條件的資產數量上限： [!DNL Workfront Fusion] 將會在一個執行週期中傳回。 此欄位的預設值為100。如果限制邊界有多個相簿相同，則此模組傳回的相簿可能會超過此限制 <code>name_after</code> 值。</p>
+        <p>設定[!DNL Workfront Fusion]在一個執行週期內傳回的最大資產數量。 此欄位的預設值為100。如果限制邊界處的多個相簿具有相同的<code>name_after</code>值，則此模組可能會傳回比此限制更多的相簿。</p>
       </td>
     </tr>
   </tbody>
@@ -772,7 +773,7 @@ ht-degree: 0%
 
 此動作模組會更新指定的相簿。
 
-更新的相簿必須是由目前進行更新的相同使用者端應用程式所建立，而且必須是子型別 `project` 或 `project_set`.
+更新的相簿必須是由目前進行更新的相同使用者端應用程式所建立，而且必須是子型別`project`或`project_set`。
 
 <table style="table-layout:auto"> 
   <col/>
@@ -780,7 +781,7 @@ ht-degree: 0%
   <tbody>
     <tr>
       <td role="rowheader">[！UICONTROL Connection]</td>
-      <td>有關建立與的連線的指示 [!DNL Adobe Lightroom]，請參閱 <a href="#create-a-connection-to-adobe-lightroom" class="MCXref xref" >建立與的連線 [!DNL Adobe Lightroom]</a> 本文章內容。</td>
+      <td>如需建立[!DNL Adobe Lightroom]連線的說明，請參閱本文中的<a href="#create-a-connection-to-adobe-lightroom" class="MCXref xref" >建立與[!DNL Adobe Lightroom]</a>的連線。</td>
     </tr>
     <tr>
       <td role="rowheader">[！UICONTROL目錄ID]</td>
@@ -797,18 +798,8 @@ ht-degree: 0%
     <tr>
       <td role="rowheader">其他欄位</td>
       <td>
-      <td>如需此模組中其他欄位的說明，請參閱 <a href="#create-an-album" class="MCXref xref" >建立相簿</a> 本文章內容。</td>
+      <td>如需此模組中其他欄位的說明，請參閱本文中的<a href="#create-an-album" class="MCXref xref" >建立相簿</a>。</td>
       </td>
     </tr>
   </tbody>
 </table>
-
-
-
-
-
-
-
-
-
-

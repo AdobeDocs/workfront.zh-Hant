@@ -17,7 +17,7 @@ ht-degree: 0%
 
 本頁說明21.3版對「預覽」環境所做的所有管理員增強功能。 這些增強功能已在2021年7月21日當週的生產環境中推出。
 
-如需21.3版本所有可用變更的清單，請參閱 [21.3版本總覽](../../../product-announcements/product-releases/21.3-release-activity/21-3-release-overview.md).
+如需21.3版本可用的所有變更清單，請參閱[21.3版本總覽](../../../product-announcements/product-releases/21.3-release-activity/21-3-release-overview.md)。
 
 ## 21.3版本的生產中可用的藍圖
 
@@ -25,9 +25,9 @@ ht-degree: 0%
 
 藍圖提供基本的建置組塊，協助您建立隨您成長的工作管理系統。 系統管理員可以瀏覽Blueprint目錄並安裝現成的專案範本。
 
-如需詳細資訊，請參閱 [藍圖概觀](../../../administration-and-setup/blueprints/blueprints-overview.md).
+如需詳細資訊，請參閱[藍圖概觀](../../../administration-and-setup/blueprints/blueprints-overview.md)。
 
-此功能現已包含在 [全新Workfront體驗中的專案範本](https://one.workfront.com/s/learningpath4/project-templates-in-the-new-workfront-experience-MCGLS7GRNLDZDFPF6AEOGIDZFDG4) Workfront One的學習路徑。
+此功能現已包含在Workfront One上新Workfront體驗](https://one.workfront.com/s/learningpath4/project-templates-in-the-new-workfront-experience-MCGLS7GRNLDZDFPF6AEOGIDZFDG4)學習路徑的[專案範本中。
 
 ## 群組管理員的新增功能：建立和管理任何層級群組的狀態
 
@@ -43,13 +43,13 @@ Workfront管理員也可以（針對所有群組）執行這些操作。
 
 以前，此功能僅適用於頂層群組。
 
-如需詳細資訊，請參閱 [管理群組狀態](../../../administration-and-setup/manage-groups/manage-group-statuses/manage-group-statuses.md).
+如需詳細資訊，請參閱[管理群組狀態](../../../administration-and-setup/manage-groups/manage-group-statuses/manage-group-statuses.md)。
 
 ## 管理員的新增功能：建立付費記錄自訂表單
 
 現在您可以建立付費記錄自訂表單，以改善使用者擷取付費資訊的方式。 使用者可以將自訂表單附加至計費記錄、填寫該記錄，然後執行在表單中包含資訊的報告。
 
-如需建立自訂表單的相關資訊，請參閱 [建立或編輯自訂表單](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
+如需建立自訂表單的相關資訊，請參閱[建立或編輯自訂表單](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)。
 
-如需有關將計費記錄自訂表單附加到專案的資訊，請參閱 [新增自訂表單至物件](../../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md).
+如需有關將付費記錄自訂表單附加到專案的資訊，請參閱[將自訂表單新增到物件](../../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md)。
 

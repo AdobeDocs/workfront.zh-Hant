@@ -11,7 +11,7 @@ exl-id: d87311fc-6f60-4fa8-a180-fda6eae473a0
 source-git-commit: b08377e539b04e896e84d17f46d2c941b0f66731
 workflow-type: tm+mt
 source-wordcount: '79'
-ht-degree: 5%
+ht-degree: 0%
 
 ---
 
@@ -33,6 +33,6 @@ ht-degree: 5%
 * [移動任務](../../../manage-work/tasks/manage-tasks/move-tasks.md)
 * [刪除任務](../../../manage-work/tasks/manage-tasks/delete-tasks.md)
 * [專案關鍵路徑概觀](../../../manage-work/tasks/manage-tasks/critical-path.md)
-* [遞回任務總覽](../../../manage-work/tasks/manage-tasks/recurring-tasks-overview.md)
+* [週期性任務總覽](../../../manage-work/tasks/manage-tasks/recurring-tasks-overview.md)
 * [將里程碑與任務建立關聯](../../../manage-work/tasks/manage-tasks/associate-milestones-with-tasks.md)
 * [將任務轉換為專案](../../../manage-work/tasks/manage-tasks/convert-task-to-project.md)

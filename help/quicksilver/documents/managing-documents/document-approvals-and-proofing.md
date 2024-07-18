@@ -15,6 +15,6 @@ ht-degree: 0%
 
 # 檔案核准和校訂
 
-您可以要求使用者核准您上傳至Workfront的檔案。 如需詳細資訊，請參閱 [請求檔案核准](../../review-and-approve-work/manage-approvals/request-document-approvals.md).
+您可以要求使用者核准您上傳至Workfront的檔案。 如需詳細資訊，請參閱[要求檔案核准](../../review-and-approve-work/manage-approvals/request-document-approvals.md)。
 
-您也可以要求使用者使用校訂檢視器，在Adobe Workfront中檢閱作為校訂的檔案。 校訂檢視器包含用於標籤內容和進行註解的工具。 如需詳細資訊，請參閱 [建立校樣](../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-proofs-in-wf.md).
+您也可以要求使用者使用校訂檢視器，在Adobe Workfront中檢閱作為校訂的檔案。 校訂檢視器包含用於標籤內容和進行註解的工具。 如需詳細資訊，請參閱[建立校樣](../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-proofs-in-wf.md)。

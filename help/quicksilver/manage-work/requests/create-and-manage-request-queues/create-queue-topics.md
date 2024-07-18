@@ -82,7 +82,7 @@ ht-degree: 2%
  </tbody> 
 </table>
 
-如需有關此表格的詳細資訊，請參閱 [Workfront檔案中的存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -96,7 +96,7 @@ ht-degree: 2%
    * [建立或編輯自訂表單](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)
 
 1. 移至您選擇啟用為「說明要求佇列」的專案，以及您要建立新佇列主題的位置。\
-   有關如何將專案指定為說明請求佇列的詳細資訊，請參閱 [建立請求佇列](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
+   如需如何將專案指定為說明要求佇列的詳細資訊，請參閱[建立要求佇列](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md)。
 
    您可以在「主題群組」下組織相關的「佇列主題」。 這會在提出要求時，為要求者提供一系列下拉式功能表。
 
@@ -104,11 +104,11 @@ ht-degree: 2%
 
    您可以直接在指定為「說明請求佇列」的專案下巢狀內嵌佇列主題，而不需要主題群組。
 
-   如需有關建立主題群組的資訊，請參閱 [建立主題群組](../../../manage-work/requests/create-and-manage-request-queues/create-topic-groups.md).
+   如需有關建立主題群組的資訊，請參閱[建立主題群組](../../../manage-work/requests/create-and-manage-request-queues/create-topic-groups.md)。
 
-1. 按一下 **佇列主題** 在左側面板中。 您可能需要按一下 **顯示更多**，然後 **佇列主題**.
-1. 按一下 **新增佇列主題**.
-1. 在 **新增佇列主題** 表單，輸入下列內容：
+1. 按一下左側面板中的&#x200B;**佇列主題**。 您可能需要按一下&#x200B;**顯示更多**，然後按一下&#x200B;**佇列主題**。
+1. 按一下&#x200B;**新增佇列主題**。
+1. 在&#x200B;**新佇列主題**&#x200B;表單上，輸入下列內容：
 
    <table style="table-layout:auto"> 
     <col> 
@@ -124,17 +124,17 @@ ht-degree: 2%
      </tr> 
      <tr> 
       <td role="rowheader"><strong>新增至主題群組</strong> </td> 
-      <td> 如果專案中沒有「主題群組」，專案名稱會預設為「主題群組」。<br>如果要從此建立其他主題群組，請選取「 」 <strong>建立新主題群組</strong> （從下拉式功能表）。<br><img src="assets/create-new-topic-group-within-queue-topic-350x203.png" alt="create_new_topic_group_within_queue_topic.png" style="width: 350;height: 203;"></td> 
+      <td> 如果專案中沒有「主題群組」，專案名稱會預設為「主題群組」。<br>如果您想要在這裡建立其他主題群組，請從下拉式功能表中選取<strong>建立新主題群組</strong>。<br><img src="assets/create-new-topic-group-within-queue-topic-350x203.png" alt="create_new_topic_group_within_queue_topic.png" style="width: 350;height: 203;"></td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>自訂表單</strong> </td> 
-      <td>選取您要與佇列主題關聯的任何自訂表單。 您必須先建立問題的自訂表單，然後才能將其與佇列主題相關聯。 如需建立自訂表單的相關資訊，請參閱 <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref">建立或編輯自訂表單</a>.</td> 
+      <td>選取您要與佇列主題關聯的任何自訂表單。 您必須先建立問題的自訂表單，然後才能將其與佇列主題相關聯。 如需建立自訂表單的相關資訊，請參閱<a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref">建立或編輯自訂表單</a>。</td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>預設核准</strong></td> 
-      <td> <p>將核准流程與此佇列主題相關聯。 此下拉式選單中只會顯示問題核准流程。 提交至此佇列的所有問題都將與此核准流程相關聯。 您的Adobe Workfront管理員必須定義系統層級的核准流程，然後才能將其與佇列主題相關聯。 <span>擁有「核准流程」管理存取權的使用者也可以建立群組特定的核准流程。</span> 如需有關建立核准流程的詳細資訊，請參閱 <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md" class="MCXref xref">建立工作專案的核准流程</a>.<br></p> 
+      <td> <p>將核准流程與此佇列主題相關聯。 此下拉式選單中只會顯示問題核准流程。 提交至此佇列的所有問題都將與此核准流程相關聯。 您的Adobe Workfront管理員必須定義系統層級的核准流程，然後才能將其與佇列主題相關聯。 <span>擁有核准流程管理存取許可權的使用者也可以建立群組特定的核准流程。</span>如需建立核准流程的詳細資訊，請參閱<a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md" class="MCXref xref">建立工作專案的核准流程</a>。<br></p> 
        <div> 
-        <p>重要：如果專案的群組變更，則附加至現有問題的群組特定核准流程會變成單一使用核准流程。 如需關於專案群組變更或核准流程變更如何影響核准設定的詳細資訊，請參閱 <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/how-changes-affect-group-approvals.md" class="MCXref xref">群組和核准流程變更如何影響指派的核准流程</a>.</p> 
+        <p>重要：如果專案的群組變更，則附加至現有問題的群組特定核准流程會變成單一使用核准流程。 如需關於專案群組的變更或核准程式變更如何影響核准設定的詳細資訊，請參閱<a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/how-changes-affect-group-approvals.md" class="MCXref xref">群組和核准程式變更如何影響指派的核准程式</a>。</p> 
         <p>將核准流程新增至佇列主題時，請考量下列事項： </p> 
         <ul style="list-style-type: circle;"> 
          <li>清單中只會顯示有效的核准流程。 </li> 
@@ -148,15 +148,15 @@ ht-degree: 2%
      </tr> 
      <tr> 
       <td role="rowheader"><strong>預設路由</strong> </td> 
-      <td>指定您要與「佇列主題」關聯的路由規則。 您必須先建立路由規則，才能將其附加至佇列主題。 如需詳細資訊，請參閱 <a href="../../../manage-work/requests/create-and-manage-request-queues/create-routing-rules.md">建立路由規則</a>. </td> 
+      <td>指定您要與「佇列主題」關聯的路由規則。 您必須先建立路由規則，才能將其附加至佇列主題。 如需詳細資訊，請參閱<a href="../../../manage-work/requests/create-and-manage-request-queues/create-routing-rules.md">建立路由規則</a>。 </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>請求型別</strong> </td> 
-      <td> <p>選擇此佇列主題儲存的請求型別。 可見的選項設定在 <strong>佇列詳細資訊</strong> 索引標籤中。 這是必填欄位。 </p>
+      <td role="rowheader"><strong>要求型別</strong> </td> 
+      <td> <p>選擇此佇列主題儲存的請求型別。 可見的選項是在專案的<strong>佇列詳細資料</strong>索引標籤上設定的。 這是必填欄位。 </p>
 
-   <p><b>注意</b>：
+   <p><b>附註</b>：
 
-   只有在「佇列詳細資訊」和「佇列主題」頁面中同時選取「請求型別」時，「型別」才會顯示為「請求」區域的選取專案。 如需有關設定專案之「佇列詳細資訊」區域的資訊，請參閱 <a href="../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md" class="MCXref xref">建立請求佇列</a>. </p> <p>從下列型別中選取：</p>
+   只有在「佇列詳細資訊」和「佇列主題」頁面中同時選取「請求型別」時，「型別」才會顯示為「請求」區域的選取專案。 如需有關設定專案佇列詳細資料區域的資訊，請參閱<a href="../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md" class="MCXref xref">建立請求佇列</a>。 </p> <p>從下列型別中選取：</p>
    <ul>
    <li>錯誤報告</li>
    <li>變更順序</li>
@@ -167,7 +167,7 @@ ht-degree: 2%
     </tbody> 
    </table>
 
-   ![新增佇列主題方塊](assets/new-queue-topic-box.png)
+   ![新佇列主題方塊](assets/new-queue-topic-box.png)
 
 1. 按一下「**儲存**」。\
    佇列主題現在可供使用，並在選取請求佇列和主題群組後，顯示在Workfront的請求區域中。

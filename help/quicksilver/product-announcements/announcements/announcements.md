@@ -25,4 +25,4 @@ ht-degree: 4%
 
 
 
-如需較舊的公告，請參閱 [宣告封存](announcement-archive/announcement-archive.md).
+如需較舊的宣告，請參閱[宣告封存](announcement-archive/announcement-archive.md)。

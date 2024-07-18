@@ -3,79 +3,79 @@ content-type: overview
 product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: manage-your-billing-workfront-proof
-title: 此 [!DNL Workfront] 校樣帳單頁面
-description: 若要存取 [!UICONTROL 帳單] 頁面，開啟畫面右上方的「設定」功能表，然後在下拉式功能表中選擇「帳單」。
+title: ' [!DNL Workfront] 校訂帳單頁面'
+description: 若要存取[!UICONTROL 帳單]頁面，請在熒幕右上方開啟[設定]功能表，然後在下拉式功能表中選擇[帳單]。
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: f3828671-e950-4649-9f6d-881101100a96
 source-git-commit: 1312e3d5256f28ca0197c73a6c06016d6d7c7e2a
 workflow-type: tm+mt
-source-wordcount: '602'
+source-wordcount: '606'
 ht-degree: 0%
 
 ---
 
-# 此 [!DNL Workfront Proof] 帳單頁面
+# [!DNL Workfront Proof]帳單頁面
 
 >[!IMPORTANT]
 >
->本文說明獨立產品中的功能 [!DNL Workfront Proof]. 有關內部校對的資訊 [!DNL Adobe Workfront]，請參閱 [校對](../../../review-and-approve-work/proofing/proofing.md).
+>本文提及獨立產品[!DNL Workfront Proof]中的功能。 有關[!DNL Adobe Workfront]內部校訂的資訊，請參閱[校訂](../../../review-and-approve-work/proofing/proofing.md)。
 
 ## 帳單頁面
 
-若要存取 [!UICONTROL 帳單] 頁面，開啟 **[!UICONTROL 設定]** 菜單，然後選擇 **[!UICONTROL 帳單]** 的下拉式清單。
+若要存取[!UICONTROL 帳單]頁面，請開啟畫面右上方的&#x200B;**[!UICONTROL 設定]**&#x200B;功能表，然後在下拉式功能表中選擇&#x200B;**[!UICONTROL 帳單]**。
 
-此 [!UICONTROL 帳單] 頁面包含下列項目：
+[!UICONTROL 帳單]頁面包含下列專案：
 
 * 帳戶名稱(1)
 * 帳戶清單（例如，如果您有Satellite帳戶）(2)
 * 變更計畫(3)
-* 更改付款詳細資訊(4)
-* 新衛星賬戶(5)
+* 變更付款詳細資料(4)
+* 新衛星帳戶(5)
 * 關閉帳戶(6)
-* 當前計畫資訊(7)
-* 帳單聯繫人和地址(8)
-* 使用情況統計資料(9)
+* 目前計畫資訊(7)
+* 帳單連絡人和地址(8)
+* 使用統計資料(9)
 * 帳單歷史記錄(10)
-* 帳單活動(11)
+* 計費活動(11)
 
-   ![Billing_page.jpg](assets/billing-page-350x315.jpg)
+  ![Billing_page.jpg](assets/billing-page-350x315.jpg)
 
-## [!UICONTROL 當前計畫]
+## [!UICONTROL 目前的計畫]
 
-本節(7)顯示您當前計畫的詳細資訊，包括：
+本區段(7)顯示您目前計畫的詳細資訊，包括下列專案：
 
 * 計畫的名稱
-* 當前付款方法
-* 當前計劃開始和完成日期
-* 下一個計畫類型
-* 下一計畫付款方法
+* 目前的付款方式
+* 目前計畫的開始與完成日期
+* 下一個計畫型別
+* 下一個計畫付款方法
 
-   如需詳細資訊，請參閱 [在 [!DNL Workfront Proof]](../../../workfront-proof/wp-billingsettings/manage-your-billing/choose-payment-method-in-wp.md).
+  如需詳細資訊，請參閱[在 [!DNL Workfront Proof]](../../../workfront-proof/wp-billingsettings/manage-your-billing/choose-payment-method-in-wp.md)中選擇付款方式。
 
-## [!UICONTROL 帳單聯繫人和地址]
+## [!UICONTROL 帳單連絡人和地址]
 
-本節(8)顯示您帳戶的主要帳單聯絡人和地址詳細資訊。
+本區段(8)顯示您帳戶的主要帳單連絡人和地址詳細資料。
 
-只能從帳戶中設定為計費管理員的用戶中選擇計費聯繫人。 在Satellite帳戶上，只能在此欄位中設定主帳戶的Billing Administrators。
+帳單聯絡人只能從您帳戶上設定為帳單管理員的使用者中選取。 在Satellite帳戶上，在此欄位中只能設定來自主帳戶的計費管理員。
 
 ![Billing_Contact.png](assets/billing-contact-350x137.png)
 
 >[!NOTE]
 >
-> 您的帳戶上可以有多個帳單管理員，但在 [!UICONTROL 帳單聯繫人] 欄位，將接收所有帳單通知和帳戶使用量警報。
+> 您的帳戶可以有多個帳單管理員，但只有其中一個在[!UICONTROL 帳單連絡人]欄位中選取將會收到所有帳單通知和帳戶使用警報。
 
-這包括下列通知電子郵件：
+這包含下列通知電子郵件：
 
-* 校樣用途
+* 校訂使用情況
 * 發票
 * 降級
-* 延遲付款/帳戶暫停警報
-* 信用卡故障
+* 延遲付款/帳戶暫停警示
+* 信用卡失敗
 
-   ![Billin_CC.png](assets/billin-cc-350x103.png)
+  ![Billin_CC.png](assets/billin-cc-350x103.png)
 
-此 [!UICONTROL 帳單CC] 欄位也可讓您新增要在所有與帳單相關的電子郵件上複製的電子郵件地址。 按一下欄位以啟用傾斜編輯，並輸入您選擇的電子郵件地址（這也可以是現有使用者的電子郵件地址）。
+[!UICONTROL 帳單副本]欄位也可讓您新增要複製到所有帳單相關電子郵件的電子郵件地址。 按一下欄位以啟動傾斜編輯，然後輸入您選擇的電子郵件地址（這也可以是現有使用者的電子郵件地址）。
 
 ## [!UICONTROL 帳單地址]
 
@@ -83,15 +83,15 @@ ht-degree: 0%
 
 >[!NOTE]
 >
-> 我們會將此地址包含在您的訂閱發票中，以確保此資料始終是最新的。
+> 我們將此地址包含在您的訂閱發票中，以確保此資料永遠為最新狀態。
 
 ![Billing_Address.png](assets/billing-address-350x199.png)
 
-## [!UICONTROL 使用情況統計資料]
+## [!UICONTROL 使用統計資料]
 
-本節顯示當前帳單期間帳戶的使用情況統計資訊，包括：
+本區段顯示目前計費期間內您帳戶的使用統計資料，包括下列專案：
 
-* 已使用的儲存
+* 使用的儲存空間
 * 使用的校樣
 * 使用的使用者限制
 
@@ -99,43 +99,43 @@ ht-degree: 0%
 
 ### [!UICONTROL 使用警告]
 
-此 [[!UICONTROL 校樣權限設定檔] in [!DNL Workfront] 校樣](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md) 設為帳單連絡人(1)時，當您的帳戶達到以下狀態時，系統會透過電子郵件通知您：
+ [!DNL Workfront] Proof](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)中設定為帳務連絡人(1)的[[!UICONTROL 校訂許可權設定檔]，會在您的帳戶達到下列條件時透過電子郵件通知：
 
-* 儲存容量的75%，然後是98%
-* 75%，然後100%的證明限制
+* 儲存容量的75%和98%
+* 75%然後100%的證明限制
 
 ![Billing_Contact__1_.png](assets/billing-contact--1--350x74.png)
 
-一旦達到校樣或儲存限制，您也會在 [!UICONTROL 帳單] 頁面：
+一旦達到校訂或儲存限制，您也會在[!UICONTROL 帳單]頁面頂端看到警示：
 
-* 針對已達校樣限制
+* 為了達到校訂限制
 
-   ![Doods_limit_reached.png](assets/proofs-limit-reached-350x65.png)
+  ![校訂_限制_已達到.png](assets/proofs-limit-reached-350x65.png)
 
-* 已達到儲存限制
+* 達到的儲存空間限制
 
-![Storage_limit_reated.png](assets/storage-limit-reached-350x65.png)
+![已達到Storage_limit_acceeded.png](assets/storage-limit-reached-350x65.png)
 
 >[!NOTE]
 >
->在帳戶中建立校樣時，校樣計數會耗用，且無法透過移除校樣來還原。
+>在您的帳戶中建立校訂時，您的校訂計數會用盡，且無法透過移除校訂來還原。
 
-刪除校樣和檔案並清空 [!UICONTROL 垃圾] 之後。
+刪除校樣和檔案，然後清空[!UICONTROL 垃圾桶]，即可釋放儲存空間。
 
-請記住，如果您需要更多證明、儲存空間或用戶，您可以隨時升級您的帳戶；而且會立即生效。
+請記住，如果您需要更多校樣、儲存空間或使用者，您可以隨時升級您的帳戶；這會立即生效。
 
 ## [!UICONTROL 帳單歷史記錄]
 
-此區段顯示任何最近計費期間的活動。 您也可以從本節下載發票。
+此區段顯示任何最近計費期間的活動。 您也可以從此區段下載您的發票。
 
-如需詳細資訊，請參閱 [下載 [!DNL Workfront Proof] 發票](../../../workfront-proof/wp-billingsettings/manage-your-billing/download-wp-invoice.md).&quot;
+如需詳細資訊，請參閱[下載您的 [!DNL Workfront Proof] 發票](../../../workfront-proof/wp-billingsettings/manage-your-billing/download-wp-invoice.md)。
 
-## [!UICONTROL 帳單活動]
+## [!UICONTROL 記帳活動]
 
-本節顯示您的計費設定的最新變更，例如訂閱、升級、降級和續約 [!DNL Workfront Proof] 計畫。
+本區段顯示您計費設定的最近變更，例如[!DNL Workfront Proof]計畫的訂閱、升級、降級和續約。
 
-如果您將計畫更改為具有較低用戶限制(1)的計畫，則當新計劃開始時，超過新限制的用戶將自動被停用。 此活動也會在您的帳戶記錄(2)中擷取。
+如果您將計畫變更為具有較低使用者限制(1)的計畫，則超過新限制的使用者將在新計劃開始時自動停用。 此活動也會在您的帳戶記錄檔(2)中擷取。
 
-![Billing_Downdrage_log.png](assets/billing-downgrade-log-350x45.png)
+![Billing_Downgrade_log.png](assets/billing-downgrade-log-350x45.png)
 
 ![Account_Activity_-_Deleted_users.png](assets/account-activity---deleted-users-350x94.png)

@@ -1,6 +1,6 @@
 ---
-title: Workfront Fusion發行活動：&nbsp；2021年7月26日當週
-description: Workfront Fusion發行活動：&nbsp；2021年7月26日當週
+title: Workfront Fusion發行活動：&amp；nbsp；2021年7月26日當週
+description: Workfront Fusion發行活動：&amp；nbsp；2021年7月26日當週
 author: Luke
 draft: Probably
 feature: Product Announcements, Workfront Fusion
@@ -18,9 +18,9 @@ ht-degree: 0%
 
 本頁說明2021年7月26日當週在Adobe Workfront Fusion中所做的所有增強功能。
 
-如需所有最近變更的清單，請參閱 [Adobe Workfront Fusion發行活動](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
+如需所有最近變更的清單，請參閱[Adobe Workfront Fusion發行活動](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md)。
 
-如需Workfront Fusion中近期的錯誤修正清單，請參閱 [Workfront維護更新](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) 頁面，並檢查是否有任何標示為Workfront Fusion維護更新的更新。
+如需Workfront Fusion中最近的錯誤修正清單，請參閱[Workfront維護更新](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html)頁面，並檢查任何標示為Workfront Fusion維護更新的更新。
 
 ## Salesforce聯結器中的簡化模組
 
@@ -30,11 +30,11 @@ ht-degree: 0%
 
 使用先前可用模組的現有情境的功能不會變更，不過這些模組將無法在新情境中使用。
 
-如需詳細資訊，請參閱 [Salesforce模組](../../../workfront-fusion/apps-and-their-modules/salesforce-modules.md).
+如需詳細資訊，請參閱[Salesforce模組](../../../workfront-fusion/apps-and-their-modules/salesforce-modules.md)。
 
 ## 在同意Adobe Workfront Fusion聯結器時，可更清楚檢視帳戶存取的詳細資訊
 
 已更新Adobe Workfront Fusion連線的同意畫面。 現在，您可以檢視連線有權存取的特定動作和區域，以便更清楚瞭解您允許應用程式存取的內容。
 
-如需詳細資訊，請參閱 [將模組的應用程式或Web服務連線至Workfront Fusion](../../../workfront-fusion/scenarios/create-a-scenario.md#connect) 中的區段 [在Adobe Workfront Fusion中建立情境](../../../workfront-fusion/scenarios/create-a-scenario.md).
+如需詳細資訊，請參閱[在Workfront Fusion中建立案例](../../../workfront-fusion/scenarios/create-a-scenario.md)中的[將模組的應用程式或Web服務連線至Adobe Workfront Fusion](../../../workfront-fusion/scenarios/create-a-scenario.md#connect)區段。
 

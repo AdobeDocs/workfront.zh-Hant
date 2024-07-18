@@ -2,91 +2,90 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: '''查看：隱藏列的內容」'
-description: 您可能希望隱藏視圖列中的資訊。 可通過修改列的文本模式來執行此操作。
+title: 「檢視：隱藏欄的內容」
+description: 您可能想要隱藏檢視欄中的資訊。 您可以修改欄的文字模式來完成此操作。
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: f4c3e1ca-d750-4f8b-835c-254c20ad72b3
 source-git-commit: 661f925b4e485069122ef4278b2914d206387974
 workflow-type: tm+mt
-source-wordcount: '419'
+source-wordcount: '423'
 ht-degree: 0%
 
 ---
 
-# 視圖：隱藏列的內容
+# 檢視：隱藏欄的內容
 
-您可能希望隱藏視圖列中的資訊。 可通過修改列的文本模式來執行此操作。
+您可能想要隱藏檢視欄中的資訊。 您可以修改欄的文字模式來完成此操作。
 
 >[!TIP]
 >
->* 可以使用隱藏列按不希望在視圖中顯示的特定對象排序。\
-   >  例如，您可以在任務視圖中按任務編號排序，並從視圖中隱藏任務編號資訊。 在這種情況下，列中引用的對象有助於對視圖進行排序，但該對象的資訊不會顯示在視圖中。
->* 隱藏列時，請注意列中的資訊已隱藏，但該列仍存在於視圖中。
+>* 您可以使用隱藏欄，依您不想要在檢視中顯示的特定物件來排序。\
+>  例如，您可以依任務檢視中的「任務編號」排序，並在檢視中隱藏「任務編號」資訊。 在這種情況下，欄中參照的物件有助於排序檢視，但該物件的資訊不會顯示在檢視中。
+>* 當您隱藏欄時，請注意欄中的資訊是隱藏的，但該欄仍然存在於檢視中。
 >
 
+## 存取需求
 
-## 訪問要求
-
-您必須具有以下訪問權限才能執行本文中的步驟：
+您必須具有下列存取權才能執行本文中的步驟：
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront計畫</td> 
+   <td role="rowheader">Adobe Workfront計畫*</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront許可證*</td> 
-   <td> <p>請求修改視圖 </p>
+   <td role="rowheader">Adobe Workfront授權*</td> 
+   <td> <p>請求修改檢視 </p>
    <p>計畫修改報表</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">訪問級別配置*</td> 
-   <td> <p>編輯對報表、儀表板、日曆的訪問以修改報表</p> <p>編輯對篩選器、視圖、分組的訪問以修改視圖</p> <p><b>附註</b>
+   <td role="rowheader">存取層級設定*</td> 
+   <td> <p>編輯報告、儀表板、行事曆的存取權以修改報告</p> <p>編輯對篩選器、檢視、群組的存取權以修改檢視</p> <p><b>附註</b>
 
-如果您仍然沒有訪問權限，請詢問您的Workfront管理員是否在您的訪問級別設定了其他限制。 有關Workfront管理員如何修改您的訪問級別的資訊，請參見 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自定義訪問級別</a>。</p> </td>
+如果您還是沒有存取權，請詢問您的Workfront管理員，他們是否在您的存取層級中設定其他限制。 如需Workfront管理員如何修改存取層級的詳細資訊，請參閱<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>。</p> </td>
 </tr> 
   <tr> 
-   <td role="rowheader">對象權限</td> 
-   <td> <p>管理對報表的權限</p> <p>有關請求附加訪問的資訊，請參見 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">請求訪問對象 </a>。</p> </td> 
+   <td role="rowheader">物件許可權</td> 
+   <td> <p>管理報表的許可權</p> <p>如需請求其他存取權的資訊，請參閱<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">請求物件</a>的存取權。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;要瞭解您擁有的計畫、許可證類型或訪問權限，請與您的Workfront管理員聯繫。
+&#42;若要瞭解您擁有的計畫、授權型別或存取權，請連絡您的Workfront管理員。
 
-## 示例：對任務視圖中的「任務編號」列進行排序和隱藏：
+## 範例：排序並隱藏工作檢視中的「工作編號」欄：
 
-1. 轉到任務清單。
-1. 從 **視圖** 下拉菜單，按一下 **新建視圖**。
+1. 前往工作清單。
+1. 從&#x200B;**檢視**&#x200B;下拉式功能表，按一下&#x200B;**新增檢視**。
 
-1. 按一下 **添加列** 並開始在 **在此列中顯示** 欄位，然後在清單中顯示時選擇它。
+1. 按一下&#x200B;**新增欄**&#x200B;並開始在&#x200B;**顯示在此欄**&#x200B;欄位中輸入「任務編號」，然後當它顯示在清單中時選取它。
 
-1. 按一下 **切換到文本模式**。
-1. 懸停在文本模式區域上，然後按一下 **按一下可編輯文本**。
-1. 刪除在中查找的文本 **文本模式** 框，並用以下代碼替換它：
+1. 按一下&#x200B;**切換到文字模式**。
+1. 暫留在文字模式區域上，然後按一下&#x200B;**按一下以編輯文字**。
+1. 移除您在&#x200B;**文字模式**&#x200B;方塊中找到的文字，並取代為下列程式碼：
 
-   <pre><strong>displayname=</strong>linkedname=direct<br>querysort=taskNumber<br>排序順序=1<br>sortType=asc<br>textmode=true<br><strong>值=</strong>值格式=int<br><strong>寬度=0</strong></pre>此代碼中使列隱藏的重要更改包括：
+   <pre><strong>displayname=</strong>linkedname=direct<br>querysort=taskNumber<br>sortOrder=1<br>sortType=asc<br>textmode=true<br><strong>value=</strong>valueformat=int<br><strong>width=0</strong></pre>此程式碼中讓欄隱藏的重要變更包括：
 
    ```
    displayname
    ```
 
-   此行必須為空。
+   此行必須為空白。
 
    ```
    valuefield
    ```
 
-   已替換為 *值*，且必須為空。
+   此專案已由&#x200B;*值*&#x200B;取代，且必須為空白。
 
    ```
    width
    ```
 
-   :根據欄位的不同，此值必須為 *0* 或 *1*。
+   ：根據欄位，此專案的值必須是&#x200B;*0*&#x200B;或&#x200B;*1*。
 
-1. 按一下 **保存**，則 **保存視圖**。
+1. 按一下&#x200B;**儲存**，然後按一下&#x200B;**儲存檢視**。

@@ -23,7 +23,7 @@ ht-degree: 5%
 * [資源集區概觀](../../../resource-mgmt/resource-planning/resource-pools/work-with-resource-pools.md)
 * [建立資源集區](../../../resource-mgmt/resource-planning/resource-pools/create-resource-pools.md)
 * [將資源集區與專案和範本建立關聯](../../../resource-mgmt/resource-planning/resource-pools/associate-resource-pools-with-projects-and-templates.md)
-* [將資源集區與使用者建立關聯](../../../resource-mgmt/resource-planning/resource-pools/associate-resource-pools-with-users.md)
+* [將資源集區與使用者關聯](../../../resource-mgmt/resource-planning/resource-pools/associate-resource-pools-with-users.md)
 * [從資源集區中移除使用者](../../../resource-mgmt/resource-planning/resource-pools/remove-users-from-resource-pool.md)
 
  

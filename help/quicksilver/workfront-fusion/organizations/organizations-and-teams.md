@@ -15,9 +15,9 @@ ht-degree: 0%
 
 ---
 
-# [!DNL Adobe Workfront Fusion] 組織和團隊
+# [!DNL Adobe Workfront Fusion]組織和團隊
 
-[!DNL Adobe Workfront Fusion]的「組織」和「團隊」功能可讓企業控制Fusion中情境和其他功能的存取權。
+[!DNL Adobe Workfront Fusion]的組織與團隊功能可讓企業控制Fusion中案例與其他功能的存取權。
 
 ## 存取需求
 
@@ -34,37 +34,37 @@ ht-degree: 0%
   <tr> 
    <td role="rowheader">[！UICONTROL Adobe Workfront Fusion]授權**</td> 
    <td>
-   <p>目前授權需求：否 [!DNL Workfront Fusion] 授權需求。</p>
+   <p>目前授權需求：無[!DNL Workfront Fusion]授權需求。</p>
    <p>或</p>
-   <p>舊版授權需求： [！UICONTROL [!DNL Workfront Fusion] 工作自動化與整合]，請參閱[！UICONTROL [!DNL Workfront Fusion] 工作自動化專用]</p>
+   <p>舊版授權需求： [！UICONTROL [!DNL Workfront Fusion] for Work Automation and Integration]，[！UICONTROL [!DNL Workfront Fusion] for Work Automation]</p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">產品</td> 
    <td>
-   <p>目前產品需求：如果您有[！UICONTROL Select]或[！UICONTROL Prime] [!DNL Adobe Workfront] 計畫，您的組織必須購買 [!DNL Adobe Workfront Fusion] 以及 [!DNL Adobe Workfront] 以使用本文所述的功能。 [!DNL Workfront Fusion] 包含在[！UICONTROL Ultimate]中 [!DNL Workfront] 計畫。</p>
+   <p>目前產品需求：如果您有[！UICONTROL Select]或[！UICONTROL Prime] [!DNL Adobe Workfront]計畫，您的組織必須購買[!DNL Adobe Workfront Fusion]及[!DNL Adobe Workfront]，才能使用本文所述的功能。 [!DNL Workfront Fusion]包含在[！UICONTROL Ultimate] [!DNL Workfront]計畫中。</p>
    <p>或</p>
-   <p>舊版產品需求：貴組織必須購買 [!DNL Adobe Workfront Fusion] 以及 [!DNL Adobe Workfront] 以使用本文所述的功能。</p>
+   <p>舊版產品需求：您的組織必須購買[!DNL Adobe Workfront Fusion]及[!DNL Adobe Workfront]，才能使用本文所述的功能。</p>
    </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">存取層級設定*</td> 
    <td> 
-     <p>您必須是 [!DNL Workfront Fusion] 您組織的管理員。</p>
-     <p>您必須是 [!DNL Workfront Fusion] 您團隊的管理員。</p>
+     <p>您必須是組織的[!DNL Workfront Fusion]管理員。</p>
+     <p>您必須是團隊的[!DNL Workfront Fusion]管理員。</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-若要瞭解您擁有的計畫、授權型別或存取權，請聯絡您的 [!DNL Workfront] 管理員。
+若要瞭解您擁有的計畫、授權型別或存取權，請連絡您的[!DNL Workfront]管理員。
 
-<p>**如需詳細資訊， [!DNL Adobe Workfront Fusion] 授權，請參閱 <a href="../../workfront-fusion/get-started/license-automation-vs-integration.md" class="MCXref xref">[!DNL Adobe Workfront Fusion] 授權</a></p>
+<p>**如需[!DNL Adobe Workfront Fusion]授權的相關資訊，請參閱<a href="../../workfront-fusion/get-started/license-automation-vs-integration.md" class="MCXref xref">[!DNL Adobe Workfront Fusion]授權</a></p>
 
 
 ## 組織
 
-[!DNL Workfront Fusion] 使用者屬於某個組織。
+[!DNL Workfront Fusion]個使用者屬於某個組織。
 
 * [組織角色](#organization-roles)
 * [邀請使用者加入組織](#inviting-users-to-an-organization)
@@ -74,13 +74,13 @@ ht-degree: 0%
 
 使用者在組織中擁有下列其中一種角色：
 
-* **[!UICONTROL 所有者]**：擁有者擁有組織中可用的所有許可權。
+* **[!UICONTROL 所有者]**：所有者擁有組織中可用的所有許可權。
 * **[!UICONTROL 管理員]**：管理員角色可讓使用者建立和管理組織的團隊和使用者。
-* **[!UICONTROL 會員]**：成員可以使用 [!DNL Workfront Fusion] 但無法進行組織變更。
-* **[!UICONTROL 會計師]**：會計師角色只允許使用者在組織儀表板上檢視授權資訊。
-* **[!UICONTROL 應用程式開發人員]**：此角色的功能目前無法使用，不久將會推出。 我們目前不建議將使用者指派給此角色。
+* **[!UICONTROL 成員]**：成員可以使用[!DNL Workfront Fusion]，但無法進行組織變更。
+* **[!UICONTROL 會計]**：會計師角色只允許使用者在組織儀表板上檢視授權資訊。
+* **[!UICONTROL 應用程式開發人員]**：此角色的功能目前無法使用，而且將在不久的將來提供。 我們目前不建議將使用者指派給此角色。
 
-有關每個組織角色中使用者可用的特定動作的資訊，請參閱 [組織和團隊角色](/help/quicksilver/workfront-fusion/organizations/organization-roles.md).
+如需每個組織角色中使用者可用的特定動作資訊，請參閱[組織和團隊角色](/help/quicksilver/workfront-fusion/organizations/organization-roles.md)。
 
 ### 邀請使用者加入組織
 
@@ -88,17 +88,17 @@ ht-degree: 0%
 
 若要邀請使用者加入組織：
 
-1. 按一下 **[!UICONTROL 變更詳細資料]** 在畫面的右上角。
-1. 選取 **[!UICONTROL 邀請新使用者]**.
+1. 按一下畫面右上角的&#x200B;**[!UICONTROL 變更詳細資料]**。
+1. 選取&#x200B;**[!UICONTROL 邀請新使用者]**。
 
    ![](assets/fusion-organization-invite-user-350x199.png)
 
 1. 填寫使用者的電子郵件地址和名稱。
-1. 選取使用者的角色。 有關角色的詳細資訊，請參閱 [組織角色](#organization-roles) （在此檔案中）。
+1. 選取使用者的角色。 如需角色的詳細資訊，請參閱本檔案中的[組織角色](#organization-roles)。
 1. （選用）新增附註。 此附註會顯示在使用者收到的邀請電子郵件中。
 1. 按一下「**[!UICONTROL 儲存]**」。
 
-[!DNL Fusion] 傳送一封包含特定組織邀請的電子郵件，並 [!UICONTROL 接受角色] 按鈕。
+[!DNL Fusion]傳送一封電子郵件，其中包含特定組織的邀請及[!UICONTROL 接受角色]按鈕。
 
 當收件者按一下按鈕時，系統會將他們重新導向至邀請頁面，讓他們接受邀請。
 
@@ -106,7 +106,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->如果使用者是初次使用 [!DNL Fusion]， [!DNL Fusion] 自動為他們建立帳戶，並傳送一封包含臨時密碼的電子郵件，指示新使用者登入及變更密碼。
+>如果使用者是[!DNL Fusion]的新使用者，[!DNL Fusion]會自動為他們建立帳戶，並傳送一封包含臨時密碼的電子郵件，指示新使用者登入並變更其密碼。
 
 ### 在組織之間切換
 
@@ -128,7 +128,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->由於專案團隊可控制對資源的存取，因此專案團隊只擁有一名成員有時相當實用。 例如，訓練中的使用者可以建立與其個人的連線 [!DNL Google] 帳戶。 任何團隊成員也可以連線至個人 [!DNL Google] 帳戶，因此在此情況下，使用者最好是培訓團隊的唯一成員。
+>由於專案團隊可控制對資源的存取，因此專案團隊只擁有一名成員有時相當實用。 例如，訓練中的使用者可以建立與其個別[!DNL Google]帳戶的連線。 任何團隊成員也可以連線至個別[!DNL Google]帳戶，因此在此情況下，最好讓使用者成為訓練團隊的唯一成員。
 
 組織可以擁有任意所需數量的團隊，使用者可以屬於一個或多個團隊。
 
@@ -141,13 +141,13 @@ ht-degree: 0%
 
 使用者在其每個團隊中具有以下角色之一：
 
-* **[!UICONTROL 團隊管理員]**：除了其他專案團隊角色的功能外，管理員角色也可讓使用者新增、移除或變更專案團隊成員的角色。
-* **[!UICONTROL 團隊成員]**：團隊成員角色可讓使用者建立和執行情境。
-* **[!UICONTROL 團隊監視]**：此 [!UICONTROL 監視] 角色可讓使用者存取情境的執行資訊，但他們無法設計情境或變更其「作用中」狀態。
-* **[!UICONTROL 團隊操作員]**：此 [!UICONTROL 運運算元] 角色可讓使用者檢視執行資料，並變更案例的「作用中」狀態。
-* **[!UICONTROL 團隊受限制的成員]**：此角色的功能目前無法使用，不久將會推出。 我們目前不建議將使用者指派給此角色。
+* **[!UICONTROL 團隊管理員]**：除了其他團隊角色的功能外，管理員角色還可讓使用者新增、移除或變更團隊成員的角色。
+* **[!UICONTROL 團隊成員]**：團隊成員角色可讓使用者建立和執行案例。
+* **[!UICONTROL 團隊監控]**： [!UICONTROL 監控]角色可讓使用者存取案例的執行資訊，但他們無法設計案例或變更其「作用中」狀態。
+* **[!UICONTROL 團隊運運算元]**： [!UICONTROL 運運算元]角色可讓使用者檢視執行資料，並變更案例的「作用中」狀態。
+* **[!UICONTROL 團隊受限制成員]**：此角色的功能目前無法使用，而且將在不久的將來提供。 我們目前不建議將使用者指派給此角色。
 
-有關每個專案團隊角色中使用者可用的特定動作資訊，請參閱 [組織和團隊角色](/help/quicksilver/workfront-fusion/organizations/organization-roles.md).
+如需每個專案團隊角色中使用者可用的特定動作資訊，請參閱[組織和專案團隊角色](/help/quicksilver/workfront-fusion/organizations/organization-roles.md)。
 
 ### 團隊管理
 
@@ -160,10 +160,10 @@ ht-degree: 0%
 
 若要建立專案團隊：
 
-1. 在左側導覽面板中，按一下 **[!UICONTROL 組織]**
-1. 選取 **[!UICONTROL 團隊]** 標籤。
-1. 按一下 **[!UICONTROL 新增團隊]** 在團隊清單下。
-1. 輸入新團隊的名稱，然後按一下 **新增**.
+1. 在左側導覽面板中，按一下&#x200B;**[!UICONTROL 組織]**
+1. 選取「**[!UICONTROL 團隊]**」標籤。
+1. 按一下團隊清單下的&#x200B;**[!UICONTROL 新增團隊]**。
+1. 輸入新團隊的名稱，然後按一下&#x200B;**新增**。
 
 #### 設定團隊通知選項
 
@@ -173,12 +173,12 @@ ht-degree: 0%
 >
 >若要使用Unified Shell Experience (包括Adobe通知區域)，請按一下靠近頁面頂端的在Unified Experience中嘗試新的Fusion UI按鈕。 此按鈕僅在您的組織已移至Unified Shell時可用。
 >
->如需詳細資訊，請參閱 [存取您的通知](/help/quicksilver/workfront-fusion/fusion-in-admin-console/fusion-unified-experience.md#access-your-notifications) 在 [!DNL Adobe Unified Experience] 的 [!DNL Workfront Fusion].
+>如需詳細資訊，請參閱[在[!DNL Adobe Unified Experience]中存取[!DNL Workfront Fusion]的通知](/help/quicksilver/workfront-fusion/fusion-in-admin-console/fusion-unified-experience.md#access-your-notifications)。
 
 在團隊層級設定電子郵件通知選項。
 
-1. 在左側導覽面板中，按一下 **[!UICONTROL 團隊]**
-1. 選取 **[!UICONTROL 通知選項]** 標籤。
+1. 在左側導覽面板中，按一下&#x200B;**[!UICONTROL 團隊]**
+1. 選取&#x200B;**[!UICONTROL 通知選項]**&#x200B;標籤。
 1. 啟用您希望團隊收到的通知。
 
    <table style="table-layout:auto"> 
@@ -195,7 +195,7 @@ ht-degree: 0%
      </tr> 
      <tr> 
       <td role="rowheader"> <p>[！UICONTROL案例停用]</p> </td> 
-      <td><p>當案例停用時收到電子郵件。</p><p><b>注意：</b> 只有在案例因錯誤而自動停用時，您才會收到案例停用的通知。 您沒有收到有關手動停用案例的通知。</p><p>在某些情況下，情境可能會被 [!DNL Workfront Fusion] 工程團隊，因為此情境會導致效能或其他問題。 在這些情況下，您不會在中收到通知 [!DNL Workfront Fusion]. </p></td>
+      <td><p>當案例停用時收到電子郵件。</p><p><b>注意：</b>只有在案例因錯誤而自動停用時，您才會收到案例停用的通知。 您沒有收到有關手動停用案例的通知。</p><p>在某些情況下，案例可能會由[!DNL Workfront Fusion]工程團隊停用，因為案例會導致效能或其他問題。 在這些情況下，您不會在[!DNL Workfront Fusion]中收到通知。 </p></td>
 
 </tr>
 </tbody>

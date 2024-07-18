@@ -25,7 +25,7 @@ in January 2022
 
 2022年4月4日當週。
 
-如需22.2版所有可用變更的清單，請參閱 [22.2版本總覽](../../../product-announcements/product-releases/22.2-release-activity/22-2-release-overview.md).
+如需22.2版本可用的所有變更清單，請參閱[22.2版本概觀](../../../product-announcements/product-releases/22.2-release-activity/22-2-release-overview.md)。
 
 ## 工作負載平衡器導覽的改進
 
@@ -37,13 +37,13 @@ in January 2022
 * 左側面板現在也可以調整大小。
 * 工作負載平衡器現在提供全熒幕模式。
 
-如需有關導覽工作負載平衡器的詳細資訊，請參閱 [瀏覽工作負載平衡器](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
+如需有關瀏覽工作負載平衡器的詳細資訊，請參閱[瀏覽工作負載平衡器](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md)。
 
 ## 存取工作負載平衡器中的進階指派
 
 為了使指派工作專案更容易、更準確，您現在可以在工作負載平衡器中手動指派工作專案時進行進階指派。 在此增強功能之前，您可以在編輯專案時、從專案的標題或清單中存取進階工作。
 
-如需詳細資訊，請參閱 [使用工作負載平衡器手動指派工作](../../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer-manually.md).
+如需詳細資訊，請參閱[使用工作負載平衡器](../../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer-manually.md)手動指派工作。
 
 ## 選取「預設排程」偏好設定時，計算使用者可用性的新公式
 
@@ -53,7 +53,7 @@ in January 2022
 
 在此更新之前，當選取「預設排程」時，Workfront使用下列公式計算使用者可用性：
 
-使用者可用時數= (預設排程時數 — （排程例外+休假時數）) &#42; 使用者FTE值
+使用者可用時數= (預設排程時數 — （排程例外+休假時數）) &#42;使用者FTE值
 
-如需詳細資訊，請參閱 [設定資源管理喜好設定](../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md).
+如需詳細資訊，請參閱[設定資源管理喜好設定](../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md)。
 

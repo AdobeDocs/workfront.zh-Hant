@@ -47,9 +47,9 @@ ht-degree: 0%
 
 ## 在更新中標籤使用者的相關考量事項
 
-* 在更新中被標籤的使用者必須在他們的設定檔中啟用個人通知，以便他們接收電子郵件通知。 如需詳細資訊，請參閱 [修改您自己的電子郵件通知](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+* 在更新中被標籤的使用者必須在他們的設定檔中啟用個人通知，以便他們接收電子郵件通知。 如需詳細資訊，請參閱[修改您自己的電子郵件通知](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md)。
 
-  如需有關將更新新增至Workfront物件的資訊，請參閱 [更新工作](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+  如需新增更新至Workfront物件的詳細資訊，請參閱[更新工作](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md)。
 
 * 當問題轉換為專案或任務時，更新會複製到新專案或任務，但標籤的使用者不會。 若要繼續交談，您必須再次標籤參與者。
 
@@ -81,28 +81,28 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-*若要瞭解您擁有的計畫、授權型別或存取權，請聯絡您的Workfront管理員。 如需詳細資訊，請參閱 [Workfront檔案的存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*若要瞭解您擁有的計畫、授權型別或存取權，請聯絡您的Workfront管理員。 如需詳細資訊，請參閱[Workfront檔案的存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 ## 標籤其他人的更新
 
 您可以透過下列方式，在更新中標籤其他人：
 
-* **自動**：當使用者啟動對話串、新增評論或新增回覆時，會自動標籤他們並新增到標籤人員或團隊區域的評論方塊。
-* **手動**：手動將使用者新增至評論方塊的「標籤人員」區域時。
+* **自動**：當使用者啟動對話串、新增註解或新增回覆時，系統會自動標籤他們，並將其新增至註解方塊的「標籤人員」或「團隊」區域。
+* **手動**：當您手動將使用者新增到評論方塊的[標籤人員]區域時。
 
 您也可以在編輯或回複評論時，移除被錯誤標籤的使用者。
 
-1. 開始更新工作專案，如所述 [更新工作](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md). 您身為註解擁有者，會自動被標籤並新增至註解方塊的「標籤人員」或「團隊」區域。
+1. 開始更新工作專案，如[更新工作](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md)中所述。 您身為註解擁有者，會自動被標籤並新增至註解方塊的「標籤人員」或「團隊」區域。
 
    >[!TIP]
    >
    >評論擁有者在評論方塊的「標籤人員」或「團隊」區域中看不到自己的名稱。
 
-1. 在 **標籤人員或團隊** 欄位，開始輸入您要包含的使用者或團隊名稱，然後在名稱出現在下拉式清單中時按一下該名稱。
+1. 在&#x200B;**標籤人員或團隊**&#x200B;欄位中，開始輸入您要包含的使用者或團隊名稱，然後在其出現在下拉式清單中時按一下該名稱。
 
    或
 
-   在「 」中輸入@符號 **撰寫評論** 區域，開始輸入您要在更新中包含的使用者或團隊名稱，然後按一下該名稱（當它出現在下拉式清單中時）。
+   在&#x200B;**撰寫註解**&#x200B;區域輸入@符號，開始輸入您要在更新中包含的使用者或團隊名稱，然後當名稱出現在下拉式清單中時按一下該名稱。
 
    >[!TIP]
    > 
@@ -110,24 +110,24 @@ ht-degree: 0%
    > 
    >使用者必須至少與一個工作角色相關聯，才能在更新中標籤他們時檢視該工作角色。
    > 
-   >您必須在存取層級中啟用檢視聯絡資訊設定，使用者才能檢視使用者的電子郵件。 如需詳細資訊，請參閱 [授予使用者存取許可權](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
+   >您必須在存取層級中啟用檢視聯絡資訊設定，使用者才能檢視使用者的電子郵件。 如需詳細資訊，請參閱[授予使用者存取權](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md)。
 
    ![標籤使用者](assets/tag-others-unified-commenting-with-all-tab.png)
 
-1. （選用）若要設為私人更新，請啟用 **我的公司私有** 位於更新方塊的右下角。 這可讓貴公司的使用者看到更新。 此 **我的公司私有** 只有在Workfront設定檔中指定了公司時，才可使用選項。
+1. （選擇性）若要將更新設為私人，請在更新方塊的右下角啟用&#x200B;**我的公司私有**。 這可讓貴公司的使用者看到更新。 **我的公司私有**&#x200B;選項只有在您的Workfront設定檔中指定了公司時才可用。
 
    >[!NOTE]
    >
    >* 只有在使用者與公司相關聯時，才會顯示此選項。
    >* 公司外部的已標籤使用者仍可收到應用程式內通知或電子郵件，即使他們不會在更新索引標籤上看到私人評論。 如果您不想與外部使用者共用資訊，建議不要在更新時標籤這些使用者。
 
-1. （可選）若要新增多個使用者和團隊，請重複步驟2。 <!--insure this stays accurate-->
+1. （選用）若要新增多個使用者和團隊，請重複步驟2。<!--insure this stays accurate-->
 
    >[!NOTE]
    >
-   >「標籤人員或團隊」欄位中列出的所有使用者和團隊成員都會收到更新的應用程式內通知，且可能會收到電子郵件，具體取決於其電子郵件通知設定的設定。 在評論或回覆中標籤自己的使用者會收到該評論或回覆的通知，並可以在中看到他們的名稱被列為對話串剩餘部分的成員，但他們不會收到另一個通知，除非他們再次標籤自己。 如需詳細資訊，請參閱 [修改您自己的電子郵件通知](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md) 和 [為系統中的每個人設定事件通知](../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md).
+   >「標籤人員或團隊」欄位中列出的所有使用者和團隊成員都會收到更新的應用程式內通知，且可能會收到電子郵件，具體取決於其電子郵件通知設定的設定。 在評論或回覆中標籤自己的使用者會收到該評論或回覆的通知，並可以在中看到他們的名稱被列為對話串剩餘部分的成員，但他們不會收到另一個通知，除非他們再次標籤自己。 如需詳細資訊，請參閱[修改您自己的電子郵件通知](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md)和[設定系統中每個人的事件通知](../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md)。
 
-1. 按一下 **提交**.\
+1. 按一下&#x200B;**提交**。\
    更新中包含的使用者會自動被授予物件的檢視許可權，而且可以檢視和回應對物件所做的更新。
 
    標籤實體的名稱會顯示在其頭像旁，最多兩個實體。 如果標籤了兩個以上的實體，除了會標籤多少個其他實體外，還會顯示第一個實體的名稱。
@@ -136,9 +136,9 @@ ht-degree: 0%
 
    當您在註解文字中被標籤時，您的名稱會在這些註解中反白顯示。
 
-   有關更新工作專案時可用的其他功能的資訊，請參閱 [更新工作](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+   如需有關更新工作專案時可用的其他功能的資訊，請參閱[更新工作](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md)。
 
-1. （可選）按一下 **更多** 功能表 ![](assets/more-menu.png) 在註解的右上角，然後按一下 **編輯**. 移除任何已標籤的使用者，然後按一下 **提交**.
+1. （選擇性）按一下評論右上角的&#x200B;**更多**&#x200B;功能表![](assets/more-menu.png)，然後按一下&#x200B;**編輯**。 移除所有已標籤的使用者，然後按一下&#x200B;**提交**。
 
    >[!IMPORTANT]
    >
@@ -193,7 +193,7 @@ You can manually tag users in the legacy Updates section.
    ![](assets/tagging-transparency-350x192.png)
 -->
 
-有關更新工作專案時可用的其他功能的資訊，請參閱 [更新工作](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+如需有關更新工作專案時可用的其他功能的資訊，請參閱[更新工作](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md)。
 
 
 

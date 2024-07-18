@@ -3,138 +3,138 @@ user-type: administrator
 content-type: tips-tricks-troubleshooting
 product-area: system-administration
 navigation-topic: tips-tricks-troubleshooting-setup-admin
-title: '''錯誤訊息：有個小問題。 該欄位用於多表單設定中」'
-description: 在自訂表單的計算自訂欄位中變更計算時，如果出現錯誤訊息指出該欄位用於多表單設定，您需要將欄位取代為包含您要使用的計算的新欄位。
+title: 「錯誤訊息：發生輕微問題。 該欄位用於多表單設定
+description: 當您在自訂表單的計算自訂欄位中變更計算時，出現一則錯誤訊息，告知您該欄位用於多表單設定時，您需要將該欄位取代為包含您要使用計算的新欄位。
 author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 43668525-5572-4d82-8eed-0e320249f296
 source-git-commit: c2bf6441e4ac8520a56d4005b3e87c48370dc065
 workflow-type: tm+mt
-source-wordcount: '1222'
+source-wordcount: '1252'
 ht-degree: 0%
 
 ---
 
-# 錯誤訊息：有個小問題。 該欄位用於多表單設定
+# 錯誤訊息：發生輕微問題。 該欄位用於多表單設定
 
 ## 問題
 
-當您變更自訂表單上計算自訂欄位的計算時， [!DNL Adobe Workfront] 可能會顯示下列警告：
+當您變更自訂表單上計算自訂欄位的計算時，[!DNL Adobe Workfront]可能會顯示以下警告：
 
 出現一個小問題
 
-[欄位] 用於多表單配置，如果要更改此公式，則需要刪除此欄位，並將其替換為包含所需計算的新欄位。
+[欄位]用於多表單設定，如果您想要變更此公式，您必須移除此欄位，並以包含所需計算的新欄位取代。
 
 ## 原因
 
-您嘗試變更的計算自訂欄位中，至少有兩個自訂表單會附加至您 [!DNL Workfront] 例項。
+至少兩個包含您嘗試變更的計算自訂欄位的自訂表單已附加至[!DNL Workfront]執行個體中的單一物件。
 
-**範例：** 自訂表單A和B都附加至相同的工作。 兩個表單都包含一個名為Profit的計算自訂欄位。 嘗試在自訂表單A的「利潤」欄位中編輯計算時，您會遇到錯誤。
+**範例：**&#x200B;自訂表單A和B都附加到相同工作。 兩個表單都包含名為「利潤」的計算自訂欄位。 當您嘗試在自訂表單A的利潤欄位中編輯計算時，會遇到錯誤。
 
-您無法更改其中一個表單中自定義欄位的計算，因為這將與另一個表單中同一欄位中的公式衝突。
-要解決此衝突，您必須找到附加了具有相同計算自定義欄位的多個表單的對象，然後執行以下操作之一：
+您無法變更其中一個表單中自訂欄位的計算，因為這會與另一個表單中相同欄位中的公式衝突。
+若要解決此衝突，您必須找到附加了具有相同計算自訂欄位的多個表單的物件，然後執行下列任一項作業：
 
-* 從物件中移除其中一個表單。
-* 視需要變更計算，但在附加至物件的所有自訂表單中執行此操作。
-* 在附加至物件的所有自訂表單中，新增包含您需要之計算的新計算自訂欄位，並將舊的計算自訂欄位標示為過時。
+* 從物件移除其中一個表單。
+* 視需要變更計算，但在附加到物件的所有自訂表單中變更計算。
+* 在附加到物件的所有自訂表單中，新增包含所需計算的新計算自訂欄位，並將舊的計算自訂欄位標籤為過時。
 
-本文以這三種方式之一，說明如何找到對象，然後解決問題。
+本文會說明如何尋找物件，然後透過以下三種方式之一解決問題。
 
-## 尋找自訂表單附加所在的物件 {#find-the-object-where-the-custom-forms-are-attached}
+## 尋找已附加自訂表單的物件 {#find-the-object-where-the-custom-forms-are-attached}
 
-1. 按一下 **[!UICONTROL 主菜單]** 圖示 ![](assets/main-menu-icon.png) 在 [!DNL Adobe Workfront]，然後按一下 **[!UICONTROL 使用者]** ![](assets/users-icon-in-main-menu.png).
+1. 按一下[!DNL Adobe Workfront]右上角的&#x200B;**[!UICONTROL 主要功能表]**&#x200B;圖示![](assets/main-menu-icon.png)，然後按一下&#x200B;**[!UICONTROL 使用者]** ![](assets/users-icon-in-main-menu.png)。
 
-1. 按一下 **[!UICONTROL 自訂Forms]** > **[!UICONTROL 欄位]**.
-1. 套用 **[!UICONTROL 欄位清單]** 查看以查找您嘗試修改的計算欄位，並記錄使用該欄位的每個自定義表單（例如表單1、表單2、表單3）。
-1. 按一下 **[!UICONTROL Forms]**，然後套用 **[!UICONTROL 表單清單]** 檢視。
-1. 按一下 **[!UICONTROL 篩選]** 下拉式清單，然後 **[!UICONTROL 新增篩選]**.
+1. 按一下&#x200B;**[!UICONTROL 自訂Forms]** > **[!UICONTROL 欄位]**。
+1. 套用&#x200B;**[!UICONTROL 欄位清單]**&#x200B;檢視以尋找您嘗試修改的計算欄位，並記下使用它的每個自訂表單（例如，表單1、表單2、表單3） 。
+1. 按一下&#x200B;**[!UICONTROL Forms]**，然後套用&#x200B;**[!UICONTROL 表單清單]**&#x200B;檢視。
+1. 按一下&#x200B;**[!UICONTROL 篩選器]**&#x200B;下拉式清單，然後&#x200B;**[!UICONTROL 新增篩選器]**。
 
-1. 按一下 **[!UICONTROL 新增篩選規則]**，然後開始輸入「自訂表單名稱」，並在此值顯示在清單中時加以選取。
-1. 選擇 **[!UICONTROL 等於]** 對於篩選修飾詞，開始鍵入您在步驟1中記下的每個表單的名稱，然後在顯示時選取該名稱。
+1. 按一下&#x200B;**[!UICONTROL 新增篩選規則]**，然後開始輸入「自訂表單名稱」，並在清單中顯示時選取此值。
+1. 針對篩選修飾元選取&#x200B;**[!UICONTROL 等於]**，開始輸入您在步驟1中記下的每個表單的名稱，然後在其顯示時選取它。
 
-   **範例：** 自訂表單名稱等於表單1、表單2、表單3。
+   **範例：**&#x200B;自訂表單名稱等於Form 1、Form 2、Form 3。
 
-1. 按一下 **[!UICONTROL 儲存篩選]**，然後為新篩選器命名，然後按一下 **[!UICONTROL 儲存篩選]**.
+1. 按一下&#x200B;**[!UICONTROL 儲存篩選器]**，然後命名新篩選器，再按一下&#x200B;**[!UICONTROL 儲存篩選器]**。
 
-1. 在表單清單中，記下顯示在 **[!UICONTROL 類型]** 欄。
-1. 在步驟1找到的每個自訂表單中，建立新的「核取方塊」自訂欄位，其單一預設值為「是」。
+1. 在表單清單中，記下顯示在&#x200B;**[!UICONTROL 型別]**&#x200B;欄中的篩選器物件型別，例如「任務」或「問題」。
+1. 在步驟1找到的每個自訂表單上，建立一個新的核取方塊自訂欄位，其單一預設值為「是」。
 
-   **範例：** 表單1上的欄位1 =是，表單2上的欄位2 =是，表單3上的欄位3 =是。 這表示「表單1上有計算自訂欄位」或「表單2上有計算自訂欄位」等。
+   **範例：**&#x200B;表單1的欄位1 =是，表單2的欄位2 =是，表單3的欄位3 =是。 這表示「計算自訂欄位存在於表單1中」或「計算自訂欄位存在於表單2中」等等。
 
-1. 在 **[!UICONTROL 搜尋圖示]** ![](assets/search-icon.png) 在畫面的右上角，按一下 **[!UICONTROL 進階搜尋]**.
-1. 按一下自訂表單的物件（例如問題），然後按一下 **[!UICONTROL 篩選結果]**，然後按一下 **[!UICONTROL 新增篩選]**.
-1. 開始在 **[!UICONTROL 開始鍵入欄位名稱]** 欄位，並在其顯示於清單時加以選取，然後選取 **[!UICONTROL 等於]** 和類型 **[!UICONTROL 是]** （不含引號）。
+1. 在熒幕右上角的&#x200B;**[!UICONTROL 搜尋圖示]** ![](assets/search-icon.png)中，按一下&#x200B;**[!UICONTROL 進階搜尋]**。
+1. 按一下自訂表單的物件（例如問題），按一下&#x200B;**[!UICONTROL 篩選結果]**，然後按一下&#x200B;**[!UICONTROL 新增篩選器]**。
+1. 在&#x200B;**[!UICONTROL 開始輸入欄位名稱]**&#x200B;欄位中輸入Checkbox欄位的名稱，並在該欄位顯示在清單中時加以選取，然後選取&#x200B;**[!UICONTROL 等於]**&#x200B;並在下列方塊中輸入&#x200B;**[!UICONTROL 是]** （不含引號）。
 
-   **範例：** 欄位1等於（區分大小寫）是。
+   **範例：**&#x200B;欄位1等於（區分大小寫） Yes。
 
-1. 按一下 **[!UICONTROL 新增篩選器]** 並將所有核取方塊欄位新增至進階搜尋。
+1. 按一下&#x200B;**[!UICONTROL 新增篩選器]**，並將所有核取方塊欄位新增至您的進階搜尋。
 
    尋找所有可能的組合。
 
-   **範例：** 使用您找到的組合建立數個篩選器，如下所列。 您應該會找到具有多個附加自訂表單的物件，這些表單包含相同的計算欄位。 您可能會發現下列情況：
+   **範例：**&#x200B;使用您找到的組合建置多個篩選器，如下所示。 您應該會找到物件，其中包含多個包含相同計算欄位的附加自訂表單。 您可能會發現下列案例：
 
-   * 欄位1=是+欄位2 =是+欄位3 =是（例如無物件）
-   * 欄位1=是+欄位2 =是（例如，無物件）
+   * 欄位1=是+欄位2 =是+欄位3 =是（例如，沒有物件）
+   * 欄位1=是+欄位2 =是（例如，沒有物件）
    * 欄位1=是+欄位3 =是（例如兩個物件）
 
-   這表示計算欄位同時存在於表單1和表單3中，因為這些對象上存在相應的複選框欄位（欄位1和欄位3）。
+   這表示計算欄位同時存在於表單1和表單3中，因為對應的核取方塊欄位（欄位1和欄位3）存在於這些物件中。
 
-   欄位2 =是+欄位3 =是（例如，無物件）
+   欄位2 =是+欄位3 =是（例如，沒有物件）
 
-1. 繼續閱讀本文的以下其中一節：
+1. 請繼續閱讀本文中下列其中一節：
 
-   * [從物件中移除其中一個自訂表單，並在該處編輯計算](#remove-one-of-the-custom-forms-from-the-object-and-edit-the-calculation-there)
-   * [在所有附加的自訂表單中進行相同的計算編輯](#make-identical-edits-in-the-calculation-in-all-of-the-attached-custom-forms)
-   * [將包含已編輯計算的新計算欄位新增至附加的一或所有自訂表單](#add-a-new-calculated-field-containing-the-edited-calculation-to-one-or-all-of-the-attached-custom-forms)
+   * [從物件移除其中一個自訂表單，並在其中編輯計算](#remove-one-of-the-custom-forms-from-the-object-and-edit-the-calculation-there)
+   * [在所有附加的自訂表單的計算中進行相同的編輯](#make-identical-edits-in-the-calculation-in-all-of-the-attached-custom-forms)
+   * [將包含已編輯計算的新計算欄位新增至一個或所有附加的自訂表單](#add-a-new-calculated-field-containing-the-edited-calculation-to-one-or-all-of-the-attached-custom-forms)
 
-## 從物件中移除其中一個自訂表單，並在該處編輯計算 {#remove-one-of-the-custom-forms-from-the-object-and-edit-the-calculation-there}
+## 從物件移除其中一個自訂表單，並在其中編輯計算 {#remove-one-of-the-custom-forms-from-the-object-and-edit-the-calculation-there}
 
-1. 尋找自訂表單附加所在的物件，如 [尋找自訂表單附加所在的物件](#find-the-object-where-the-custom-forms-are-attached) 在本文中，然後開啟物件。
+1. 尋找已附加自訂表單的物件，如[在本文章中尋找已附加自訂表單的物件](#find-the-object-where-the-custom-forms-are-attached)中所述，然後開啟該物件。
 1. 從物件中移除其中一個自訂表單，然後儲存物件。
 
    >[!NOTE]
    >
-   >若要從您從物件中移除的表單中新增欄位，您可能需要編輯仍附加至物件的自訂表單。 這樣，您就可以保留物件的自訂資料資訊。
+   >若要從您從物件移除的表單新增欄位，您可能需要編輯仍附加至物件的自訂表單。 如此一來，您便可保留物件的自訂資料資訊。
 
-1. 在您移除的自訂表單中，編輯您原本嘗試更新之自訂欄位的計算，然後按一下 **[!UICONTROL 儲存]**.
+1. 在您移除的自訂表單中，編輯您最初嘗試更新的自訂欄位計算，然後按一下[儲存]。****
 
-   這次， [!DNL Workfront] 不應遇到衝突。
+   此時，[!DNL Workfront]不應發生衝突。
 
-1. （可選）從自訂表單中移除核取方塊欄位，或從 [!DNL Workfront].
+1. （選用）從自訂表單中移除核取方塊欄位，或從[!DNL Workfront]中刪除這些欄位。
 
-## 在所有附加的自訂表單中進行相同的計算編輯 {#make-identical-edits-in-the-calculation-in-all-of-the-attached-custom-forms}
+## 在所有附加的自訂表單的計算中進行相同的編輯 {#make-identical-edits-in-the-calculation-in-all-of-the-attached-custom-forms}
 
 >[!IMPORTANT]
 >
->執行這些步驟時，資料會在已附加自訂表單的物件中遺失。 不過，如果計算欄位參考靜態欄位，而非計算欄位，您可以使用 [!UICONTROL 重新計算自定義運算式] 用於恢復丟失資料的對象上的選項
+>當您按照這些步驟操作時，已附加自訂表單的物件中的資料會遺失。 但是，如果計算欄位參考靜態欄位，而不是計算欄位，您可以在物件上使用[!UICONTROL 重新計算自訂運算式]選項來還原遺失的資料
 
-1. 尋找自訂表單附加所在的物件，如 [尋找自訂表單附加所在的物件](#find-the-object-where-the-custom-forms-are-attached) 這篇文章。
-1. 從附加至物件的所有自訂表單中移除欄位，然後儲存表單。
+1. 尋找已附加自訂表單的物件，如本文中[尋找已附加自訂表單的物件](#find-the-object-where-the-custom-forms-are-attached)中所述。
+1. 從附加到物件的所有自訂表單中移除欄位，然後儲存表單。
 
-1. 將包含新計算的自訂欄位新增至自訂表單。
-
-   >[!IMPORTANT]
-   >
-   >所有附加的自訂表單中的計算必須相同。
-
-1. （可選）從表單中移除「核取方塊」欄位，或將其從 [!DNL Workfront].
-
-## 將包含已編輯計算的新計算欄位新增至附加的一或所有自訂表單 {#add-a-new-calculated-field-containing-the-edited-calculation-to-one-or-all-of-the-attached-custom-forms}
-
-為了避免現有計算自定義欄位中丟失資料，或者只需要在附加到您找到的對象的自定義表單中編輯計算：
-
-1. 尋找自訂表單附加所在的物件，如 [尋找自訂表單附加所在的物件](#find-the-object-where-the-custom-forms-are-attached) 這篇文章。
-1. 新增新的計算自訂欄位，其中包含您需要的計算，以填入一或所有表單。
-1. 重新命名舊的計算自訂欄位 **過時**.
-
-   在附加至物件的所有表單上，這個舊的計算自訂表單會保留其歷史資料，但使用者不會再使用它。
+1. 將包含新計算的自訂欄位新增回自訂表單。
 
    >[!IMPORTANT]
    >
-   >其他計算的自訂欄位可能會參考較舊的欄位，因此您必須在變更欄位名稱后更新這些計算。
+   >所有附加的自訂表單中的計算內容必須相同。
 
-1. （選用）從表單中移除「核取方塊」欄位，或從Workfront中刪除欄位。
+1. （選用）從表單中移除核取方塊欄位，或從[!DNL Workfront]中刪除這些欄位。
+
+## 將包含已編輯計算的新計算欄位新增至一個或所有附加的自訂表單 {#add-a-new-calculated-field-containing-the-edited-calculation-to-one-or-all-of-the-attached-custom-forms}
+
+為避免遺失現有計算自訂欄位中的資料，或如果您只需要其中一個附加到您找到物件的自訂表單中進行編輯計算：
+
+1. 尋找已附加自訂表單的物件，如本文中[尋找已附加自訂表單的物件](#find-the-object-where-the-custom-forms-are-attached)中所述。
+1. 新增新的計算自訂欄位，其中包含您需要的計算，以新增一個或所有表單。
+1. 重新命名舊的計算自訂欄位&#x200B;**過時**。
+
+   在附加到物件的所有表單上，這個較舊的計算自訂表單會保留其歷史資料，但使用者會停止使用它。
+
+   >[!IMPORTANT]
+   >
+   >舊欄位可能會在其他計算自訂欄位中參照，因此您需要在變更名稱后更新這些計算。
+
+1. （選用）從表單中移除核取方塊欄位，或從Workfront中刪除這些欄位。
 
 <!--
 <blockquote data-mc-conditions="QuicksilverOrClassic.Draft mode">

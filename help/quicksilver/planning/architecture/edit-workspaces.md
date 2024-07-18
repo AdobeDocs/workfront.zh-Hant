@@ -22,7 +22,7 @@ ht-degree: 0%
 
 工作區是團隊使用的記錄型別集合，代表團隊的工作生命週期。 您可以在Adobe Workfront Planning中完全自訂工作區。
 
-如需有關建立工作區的資訊，請參閱 [建立工作區](/help/quicksilver/planning/architecture/create-workspaces.md).
+如需有關建立工作區的資訊，請參閱[建立工作區](/help/quicksilver/planning/architecture/create-workspaces.md)。
 
 您對工作區所做的所有變更，對至少擁有工作區檢視許可權的所有使用者都是可見的。
 
@@ -76,14 +76,14 @@ ht-degree: 0%
 
 <tr>
    <td role="rowheader"><p>版面配置範本</p></td>
-   <td> <p>您必須將Planning區域新增至版面配置範本。 如需詳細資訊，請參閱 <a href="/help/quicksilver/planning/access/access-overview.md">存取權總覽</a>. </p>  
+   <td> <p>您必須將Planning區域新增至版面配置範本。 如需詳細資訊，請參閱<a href="/help/quicksilver/planning/access/access-overview.md">存取總覽</a>。 </p>  
 </td>
   </tr>
 
 </tbody>
 </table>
 
-如需存取需求的詳細資訊，請參閱 [Workfront檔案中的存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+如需存取需求的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 
 ## 編輯工作區
@@ -91,52 +91,52 @@ ht-degree: 0%
 {{step1-to-planning}}
 
 1. 按一下工作區卡以開啟工作區。
-1. 在新工作區標題的工作區名稱內按一下以重新命名，然後按下 **輸入**.
-1. 按一下 **更多** 功能表 ![](assets/more-menu.png) 工作區名稱右側，然後按一下 **編輯**.
+1. 按一下新工作區標題中工作區的名稱以重新命名，然後按&#x200B;**Enter**。
+1. 按一下標題中工作區名稱右側的&#x200B;**更多**&#x200B;功能表![](assets/more-menu.png)，然後按一下&#x200B;**編輯**。
 
    ![](assets/edit-workspace-box.png)
 
-   更新以下資訊於 **編輯工作區** 方塊：
+   在&#x200B;**編輯工作區**&#x200B;方塊中更新下列資訊：
 
-   * 新增工作區的名稱。 <!--did they add a label for this field?-->
-   * **說明**：新增工作區的相關資訊。
+   * 新增工作區的名稱。<!--did they add a label for this field?-->
+   * **描述**：新增工作區的相關資訊。
    * 選取要與工作區關聯的圖示。
 
-1. 按一下 **儲存** 以關閉「編輯工作區」方塊並套用您的變更。
+1. 按一下&#x200B;**儲存**&#x200B;以關閉[編輯工作區]方塊並套用您的變更。
 
 1. （可選）若要新增工作區區段，請執行下列任一項作業：
 
-   * 按一下 **新增區段** 位於工作區底部。
-   * 將游標停留在區段名稱上，然後按一下 **更多** 功能表 ![](assets/more-menu.png)，然後按一下 **新增上述區段** 或 **在底下新增區段**.
+   * 按一下工作區底部的&#x200B;**新增區段**。
+   * 將游標暫留在區段名稱上，然後按一下&#x200B;**更多**&#x200B;功能表![](assets/more-menu.png)，然後按一下&#x200B;**新增上方區段**&#x200B;或&#x200B;**新增下方區段**。
 
 1. （可選）若要變更區段位置，請執行下列任一項作業：
 
-   * 將游標停留在區段名稱上，然後按一下 **抓取** 圖示 ![](assets/grab-icon.png)，然後將其拖放至正確的位置。
-   * 將游標停留在區段名稱上，然後按一下 **更多** 功能表 ![](assets/more-menu.png)，然後按一下 **上移** 或 **下移**. 區段在工作區中向上或向下移動。
+   * 暫留在區段名稱上，按一下&#x200B;**抓取**&#x200B;圖示![](assets/grab-icon.png)，然後將其拖放到右側位置。
+   * 將游標暫留在區段名稱上，然後按一下&#x200B;**更多**&#x200B;功能表![](assets/more-menu.png)，然後按一下&#x200B;**上移**&#x200B;或&#x200B;**下移**。 區段在工作區中向上或向下移動。
 
 1. （可選）若要刪除工作區區段，請執行下列動作：
 
-   1. 暫留在區段名稱上，然後按一下 **更多** 功能表 ![](assets/more-menu.png)，然後按一下 **刪除**. <!--add screen shot when UI is final?-->
-   1. 選取新區段以將所有記錄型別移動至該區段，然後按一下 **刪除**. <!--check the button name; logged a bug to change it to "Delete" from "Delete section".-->
+   1. 暫留在區段名稱上，然後按一下&#x200B;**更多**&#x200B;功能表![](assets/more-menu.png)，然後按一下&#x200B;**刪除**。<!--add screen shot when UI is final?-->
+   1. 選取新區段以將所有記錄型別移動至該區段，然後按一下&#x200B;**刪除**。<!--check the button name; logged a bug to change it to "Delete" from "Delete section".-->
 
       所有記錄型別都會移至選取區段，而區段會被刪除。
 
-1. （選用）按一下 **新增記錄型別** 以新增記錄型別至工作區。
+1. （選擇性）按一下&#x200B;**新增記錄型別**&#x200B;以將記錄型別新增至工作區。
 
-   如需詳細資訊，請參閱 [建立記錄型別](/help/quicksilver/planning/architecture/create-record-types.md).
+   如需詳細資訊，請參閱[建立記錄型別](/help/quicksilver/planning/architecture/create-record-types.md)。
 
-1. （可選）將滑鼠游標停留在記錄型別卡片上，按一下 **更多** 功能表 ![](assets/more-menu.png) 按一下「 」 **編輯** 修改記錄型別的外觀。
+1. （選擇性）將滑鼠停留在記錄型別卡片上，按一下右上角的&#x200B;**更多**&#x200B;功能表![](assets/more-menu.png)，然後按一下&#x200B;**編輯**&#x200B;以修改記錄型別的外觀。
 
-   如需詳細資訊，請參閱 [編輯記錄型別](/help/quicksilver/planning/architecture/edit-record-types.md).
+   如需詳細資訊，請參閱[編輯記錄型別](/help/quicksilver/planning/architecture/edit-record-types.md)。
 
-1. （可選）將滑鼠游標停留在記錄型別卡片上，按一下 **更多** 功能表 ![](assets/more-menu.png) 按一下「 」 **刪除** 刪除記錄型別。
+1. （選擇性）將游標停留在記錄型別卡片上，按一下右上角的&#x200B;**更多**&#x200B;功能表![](assets/more-menu.png)，然後按一下&#x200B;**刪除**&#x200B;以刪除記錄型別。
 
-   如需詳細資訊，請參閱 [刪除記錄型別](/help/quicksilver/planning/architecture/delete-record-types.md).
+   如需詳細資訊，請參閱[刪除記錄型別](/help/quicksilver/planning/architecture/delete-record-types.md)。
 
 1. （可選）按一下記錄型別卡片以將其拖放到新位置。 您可以將記錄型別從一個工作區區段拖放至另一個工作區區段。
 
    ![](assets/drag-and-drop-record-types-in-a-workspace.png)
 
-1. （選用）按一下 **共用** 工作區右上角的「 」，與其他人共用工作區。
+1. （選擇性）按一下工作區右上角的&#x200B;**共用**，與他人共用工作區。
 
-   如需詳細資訊，請參閱 [共用工作區](/help/quicksilver/planning/access/share-workspaces.md).
+   如需詳細資訊，請參閱[共用工作區](/help/quicksilver/planning/access/share-workspaces.md)。

@@ -17,7 +17,7 @@ ht-degree: 0%
 
 本頁說明在2023年第四季發行時間範圍內對Adobe Workfront應用程式的各個區域外觀和感覺所做的小幅更新。
 
-如需2023年第四季版本所有可用變更的清單，請參閱 [2023年第四季版本總覽](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md).
+如需2023年第四季版本的所有變更清單，請參閱[2023年第四季版本概觀](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md)。
 
 ## 檔案核准電子郵件範本的外觀更新
 
@@ -35,7 +35,7 @@ ht-degree: 0%
 
 為了更清楚地說明工作負載平衡器中手動調整或分佈，手動調整的每小時分配現在會顯示一個鉛筆圖示。
 
-如需詳細資訊，請參閱 [在工作負載平衡器中管理使用者配置](/help/quicksilver/resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md).
+如需詳細資訊，請參閱[在工作負載平衡器](/help/quicksilver/resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md)中管理使用者配置。
 
 ## 「設定通知」區域中索引標籤的新外觀更新
 
@@ -45,7 +45,7 @@ ht-degree: 0%
 
 我們已更新「設定>電子郵件>通知」區域中電子郵件通知、提醒通知和電子郵件範本的標籤，以更新為與Workfront其他區域一致的更現代化設計。
 
-如需詳細資訊，請參閱 [為系統中的每個人設定事件通知](/help/quicksilver/administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md).
+如需詳細資訊，請參閱[設定系統中每個人的事件通知](/help/quicksilver/administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md)。
 
 ## 工作角色畫面外觀更新
 
@@ -55,4 +55,4 @@ ht-degree: 0%
 
 我們已將「新工作角色」和「編輯工作角色」畫面更新為與Workfront其他區域一致的更現代化設計。
 
-如需詳細資訊，請參閱 [建立和管理職位角色](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).
+如需詳細資訊，請參閱[建立和管理職位角色](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md)。

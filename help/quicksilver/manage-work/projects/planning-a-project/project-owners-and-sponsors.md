@@ -24,7 +24,7 @@ ht-degree: 0%
 
 專案贊助者是專案的重要利害關係人，專案中有資源投資於專案。 專案完成通常有利於專案贊助者。
 
-如需有關如何更新專案的專案所有者或贊助者的資訊，請參閱 [更新專案所有者和贊助者](../../../manage-work/projects/planning-a-project/update-project-owners-and-sponsors.md).
+如需有關如何更新專案的專案所有者或贊助者的資訊，請參閱[更新專案所有者和贊助者](../../../manage-work/projects/planning-a-project/update-project-owners-and-sponsors.md)。
 
 ## 專案所有者
 
@@ -36,17 +36,17 @@ ht-degree: 0%
 
 * 您只能指定一個使用者作為專案所有者。
 * 您可以指定「專案所有者」為專案的時數核准者。
-* 在定義專案、任務或問題核准流程時，您可以指定「專案所有者」作為一般核准者。 如需關於核准的資訊，請參閱 [編輯核准流程](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/edit-an-approval-process.md).
+* 在定義專案、任務或問題核准流程時，您可以指定「專案所有者」作為一般核准者。 如需核准的相關資訊，請參閱[編輯核准程式](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/edit-an-approval-process.md)。
 
   >[!IMPORTANT]
   >
-  >當您將核准指派給專案所有者，且沒有人被指定為專案的所有者時，核准將重新指派給主要Workfront管理員，如設定區域的客戶資訊區段中所述。 如需詳細資訊，請參閱 [設定系統的基本資訊](../../../administration-and-setup/get-started-wf-administration/configure-basic-info.md).
+  >當您將核准指派給專案所有者，且沒有人被指定為專案的所有者時，核准將重新指派給主要Workfront管理員，如設定區域的客戶資訊區段中所述。 如需詳細資訊，請參閱[設定您系統的基本資訊](../../../administration-and-setup/get-started-wf-administration/configure-basic-info.md)。
   >
 
 
 * 您可以啟用只傳送給專案所有者的某些通知。
 
-  如需電子郵件通知的詳細資訊，請參閱區段 [為系統中的每個人設定事件通知](../../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md#modify) 在文章中 [為系統中的每個人設定事件通知](../../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md).
+  如需電子郵件通知的詳細資訊，請參閱[設定系統中每個人的事件通知](../../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md)一文中的[設定系統中每個人的事件通知](../../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md#modify)一節。
 
 * 您可以在報告或清單中顯示「專案所有者」欄位。
 
@@ -58,7 +58,7 @@ ht-degree: 0%
   ownerID=$$USER.ID
   ```
 
-如需建立報表的詳細資訊，請參閱文章 [建立自訂報表](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+如需有關建立報告的詳細資訊，請參閱文章[建立自訂報告](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md)。
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -80,10 +80,10 @@ ht-degree: 0%
 
 指派專案贊助者時，請考慮下列事項：
 
-* 專案贊助者未取得專案的任何額外存取權，但會新增到專案的電子郵件通知中。 如需有關通知的資訊，請參閱文章 [為系統中的每個人設定事件通知](../../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md).
+* 專案贊助者未取得專案的任何額外存取權，但會新增到專案的電子郵件通知中。 如需有關通知的資訊，請參閱文章[為系統中的每個人設定事件通知](../../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md)。
 
 * 您只能指定一個專案贊助者。
-* 在定義專案、任務或問題核准流程時，您可以將專案贊助者指定為一般核准者。 如需關於核准的資訊，請參閱 [編輯核准流程](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/edit-an-approval-process.md).
+* 在定義專案、任務或問題核准流程時，您可以將專案贊助者指定為一般核准者。 如需核准的相關資訊，請參閱[編輯核准程式](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/edit-an-approval-process.md)。
 
   >[!IMPORTANT]
   >
@@ -101,7 +101,7 @@ ht-degree: 0%
 
    
 
-  如需建立報表的詳細資訊，請參閱文章 [建立自訂報表](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+  如需有關建立報告的詳細資訊，請參閱文章[建立自訂報告](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md)。
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

@@ -17,13 +17,13 @@ ht-degree: 0%
 
 # 21.2資源管理增強功能
 
-此頁面說明21.2版對「預覽」環境所做的所有資源管理增強功能。 這些增強功能將在2021年5月10日當週的生產環境中提供。 如需21.2版所有可用變更的清單，請參閱 [21.2版本總覽](../../../product-announcements/product-releases/21.2-release-activity/21-2-release-overview.md).
+此頁面說明21.2版對「預覽」環境所做的所有資源管理增強功能。 這些增強功能將在2021年5月10日當週的生產環境中提供。 如需21.2版本可用的所有變更清單，請參閱[21.2版本概觀](../../../product-announcements/product-releases/21.2-release-activity/21-2-release-overview.md)。
 
 ## 工作負載平衡器中的月層級檢視
 
 為協助您管理較長時間內的資源配置，我們現在為工作負載平衡器實作月層級檢視。 您一次最多可以檢視三個月，並更新每月資源配置。 在此變更之前，您只能按天或周檢視工作負載平衡器。
 
-如需詳細資訊，請參閱 [瀏覽工作負載平衡器](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
+如需詳細資訊，請參閱[瀏覽工作負載平衡器](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md)。
 
 ## 情境規劃工具、工作負載平衡器和任務清單之間的連線
 
@@ -35,7 +35,7 @@ ht-degree: 0%
 
 如需詳細資訊，請參閱下列文章：
 
-* [協調專案與方案之間資源配置的概要](../../../scenario-planner/overview-reconcile-allocations-between-projects-initiatives.md).
+* [協調專案與行動方案之間的資源配置的概觀](../../../scenario-planner/overview-reconcile-allocations-between-projects-initiatives.md)。
 * [瀏覽工作負載平衡器](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md)
 
 >[!IMPORTANT]
@@ -48,13 +48,13 @@ ht-degree: 0%
 
 在此增強功能之前，Workfront僅使用預算時數計算淨值。 淨值會顯示可用與預算或計畫時數、FTE或成本之間的差異。 計算淨值時，預算時數仍是預設設定。
 
-如需詳細資訊，請參閱 [資源規劃工具之專案與角色檢視中的時數、約當全職人數及成本資訊概要](../../../resource-mgmt/resource-planning/overview-of-planner-hour-fte-cost-information-in-role-project-views.md).
+如需相關資訊，請參閱資源規劃工具](../../../resource-mgmt/resource-planning/overview-of-planner-hour-fte-cost-information-in-role-project-views.md)的專案與角色檢視中的[時數概觀、約當全職人數與成本資訊。
 
 ## 在工作負載平衡器12週檢視
 
 您現在可以在工作負載平衡器中檢視最多12週的資訊。 在此增強功能之前，您可以檢視2、4和6週的資訊。
 
-如需有關檢視工作負載平衡器的資訊，請參閱 [瀏覽工作負載平衡器](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md)瀏覽工作負載平衡器。
+如需有關檢視工作負載平衡器的資訊，請參閱[瀏覽工作負載平衡器](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md)瀏覽工作負載平衡器。
 
 ## 變更工作角色篩選器在工作負載平衡器未指派區域中的工作方式
 
@@ -62,4 +62,4 @@ ht-degree: 0%
 
 在此增強功能之前，當將工作角色篩選器套用至未指派區域時，工作負載平衡器顯示與指派給工作角色的工作專案相關的所有時數。
 
-如需有關在工作負載平衡器篩選資訊，請參閱 [管理工作負載平衡器中的篩選器](../../../resource-mgmt/workload-balancer/filter-information-workload-balancer.md).
+如需有關在工作負載平衡器中篩選資訊的資訊，請參閱在工作負載平衡器中管理篩選器[](../../../resource-mgmt/workload-balancer/filter-information-workload-balancer.md)。

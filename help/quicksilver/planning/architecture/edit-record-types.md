@@ -30,7 +30,7 @@ hide: yes
 
 {{planning-important-intro}}
 
-記錄型別是Adobe Workfront Planning的物件型別。 您可以編輯您或其他人建立的記錄型別外觀。 如需有關建立Workfront Planning記錄型別的資訊，請參閱 [建立記錄型別](/help/quicksilver/planning/architecture/create-record-types.md).
+記錄型別是Adobe Workfront Planning的物件型別。 您可以編輯您或其他人建立的記錄型別外觀。 如需建立Workfront Planning記錄型別的相關資訊，請參閱[建立記錄型別](/help/quicksilver/planning/architecture/create-record-types.md)。
 
 ## 存取需求
 
@@ -75,13 +75,13 @@ hide: yes
 
 <tr>
    <td role="rowheader"><p>權限</p></td>
-   <td> <p>管理工作區的許可權</a> </p>  
+   <td> <p>管理工作區</a>的許可權 </p>  
    <p>系統管理員擁有所有工作區的許可權，包括他們未建立的工作區
 </td>
   </tr>
 <tr>
    <td role="rowheader"><p>版面配置範本</p></td>
-   <td> <p>您的Workfront或群組管理員必須在版面配置範本中新增Planning區域。 如需詳細資訊，請參閱 <a href="/help/quicksilver/planning/access/access-overview.md">存取權總覽</a>. </p>  
+   <td> <p>您的Workfront或群組管理員必須在版面配置範本中新增Planning區域。 如需詳細資訊，請參閱<a href="/help/quicksilver/planning/access/access-overview.md">存取總覽</a>。 </p>  
 </td>
   </tr>
 
@@ -104,14 +104,14 @@ hide: yes
    從工作區中，展開現有工作區名稱右側的向下箭頭，搜尋工作區，然後在工作區顯示在清單中時選取該工作區。
 
    工作區隨即開啟，且記錄型別隨即顯示。
-1. 將滑鼠停留在記錄型別的卡片上，然後按一下 **更多** 功能表 ![](assets/more-menu.png) 在記錄型別卡片的右上角，然後按一下 **編輯**.
+1. 暫留在記錄型別的卡片上，然後按一下記錄型別卡片右上角的&#x200B;**更多**&#x200B;功能表![](assets/more-menu.png)，然後按一下&#x200B;**編輯**。
 
    ![](assets/more-menu-options-from-record-type-card.png)
 
-1. 在 **編輯記錄型別** 方塊中，更新下列資訊：
+1. 在&#x200B;**編輯記錄型別**&#x200B;方塊中，更新下列資訊：
 
-   * 視需要編輯記錄型別名稱。 <!--did they add a field label for this? -->
-   * **說明**：編輯或新增記錄型別的說明，並提供更多相關資訊。
+   * 視需要編輯記錄型別名稱。<!--did they add a field label for this? -->
+   * **描述**：編輯或新增記錄型別的描述，其中包含更多相關資訊。
    * 編輯與記錄型別關聯的圖示的顏色和形狀。 執行下列動作：
       * 選取顏色以識別記錄型別。 這是記錄型別圖示的顏色。 預設會選取「灰色」。
       * 從清單中選取圖示，或開始輸入圖示名稱以說明其代表內容，然後在顯示時選取它。 這是記錄型別的圖示。 依預設，會選取檔案圖示。
@@ -120,7 +120,7 @@ hide: yes
 
 1. 按一下「**儲存**」。
 1. （可選）從工作區區域按一下記錄型別卡以開啟記錄型別的頁面。
-1. 按一下 **更多** 記錄型別名稱右邊的功能表，然後按一下 **編輯** 更新記錄型別的相關資訊。
+1. 按一下記錄型別名稱右側的&#x200B;**更多**&#x200B;功能表，然後按一下&#x200B;**編輯**&#x200B;以更新有關記錄型別的資訊。
 
    >[!TIP]
    >

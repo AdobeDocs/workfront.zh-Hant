@@ -30,19 +30,19 @@ ht-degree: 0%
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">舊版授權概觀</a>*</td> 
-   <td> <p>您必須是Workfront管理員。 如需Workfront管理員的詳細資訊，請參閱 <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">授予使用者完整管理存取權</a>.</p> </td> 
+   <td role="rowheader"><a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">舊版授權總覽</a>*</td> 
+   <td> <p>您必須是Workfront管理員。 如需Workfront管理員的相關資訊，請參閱<a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">授予使用者完整管理存取權</a>。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;若要瞭解您擁有的計畫、授權型別或存取權，請聯絡您的Workfront管理員。
+&#42;若要瞭解您擁有的計畫、授權型別或存取權，請連絡您的Workfront管理員。
 
 ## 檢查檔案儲存
 
-1. 按一下 **主要功能表** 圖示 ![](assets/main-menu-icon.png) (位於Adobe Workfront的右上角)，然後按一下 **設定** ![](assets/gear-icon-settings.png).
-1. 在左側面板中，按一下 **系統** > **客戶資訊**.
-1. 在 **基本資訊** 部分，尋找 **儲存配額**. 在這裡，您可以檢視目前使用的儲存空間，以及Workfront計畫包含的總儲存空間。
+1. 按一下Adobe Workfront右上角的&#x200B;**主要功能表**&#x200B;圖示![](assets/main-menu-icon.png)，然後按一下&#x200B;**設定** ![](assets/gear-icon-settings.png)。
+1. 在左側面板中，按一下&#x200B;**系統** > **客戶資訊**。
+1. 在&#x200B;**基本資訊**&#x200B;區段中，尋找&#x200B;**儲存配額**。 在這裡，您可以檢視目前使用的儲存空間，以及Workfront計畫包含的總儲存空間。
 
 儲存配額會每天重新整理，以顯示最新的計數。
 

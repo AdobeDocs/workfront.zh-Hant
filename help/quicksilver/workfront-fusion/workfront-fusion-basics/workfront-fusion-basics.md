@@ -21,6 +21,6 @@ ht-degree: 0%
 除了Adobe Workfront授權，Adobe Workfront Fusion還需要Adobe Workfront Fusion授權。
 本節包含下列文章：
 
-* [變更中的設定檔設定 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/workfront-fusion-basics/change-profile-settings.md)
-* [刪除中的使用者資料 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/workfront-fusion-basics/delete-user-data.md)
-* [[!DNL Adobe Workfront Fusion] 常見問題集](../../workfront-fusion/workfront-fusion-basics/faq.md)
+* [在 [!DNL Adobe Workfront Fusion]中變更設定檔設定](../../workfront-fusion/workfront-fusion-basics/change-profile-settings.md)
+* [刪除 [!DNL Adobe Workfront Fusion]中的使用者資料](../../workfront-fusion/workfront-fusion-basics/delete-user-data.md)
+* [[!DNL Adobe Workfront Fusion]常見問題集](../../workfront-fusion/workfront-fusion-basics/faq.md)

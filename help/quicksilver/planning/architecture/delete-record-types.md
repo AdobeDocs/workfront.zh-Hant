@@ -31,9 +31,9 @@ hide: yes
 
 當記錄型別不再相關時，您可以將其刪除。
 
-但是，刪除記錄型別也會刪除與記錄型別相關的所有資訊。 如需詳細資訊，請參閱 [刪除記錄型別時的注意事項](#considerations-when-deleting-record-types) 一節。
+但是，刪除記錄型別也會刪除與記錄型別相關的所有資訊。 如需詳細資訊，請參閱本文中[刪除記錄型別](#considerations-when-deleting-record-types)時的考量事項。
 
-如需有關記錄型別的資訊，請參閱 [記錄型別概觀](/help/quicksilver/planning/architecture/overview-of-record-types.md).
+如需有關記錄型別的資訊，請參閱[記錄型別概觀](/help/quicksilver/planning/architecture/overview-of-record-types.md)。
 
 <!-- last sentence might need to be deleted when we can recover or replace deleted record types-->
 
@@ -80,13 +80,13 @@ hide: yes
 
 <tr>
    <td role="rowheader"><p>權限</p></td>
-   <td> <p>管理工作區的許可權</a> </p>  
+   <td> <p>管理工作區</a>的許可權 </p>  
    <p>系統管理員擁有所有工作區的許可權，包括他們未建立的工作區
 </td>
   </tr>
 <tr>
    <td role="rowheader"><p>版面配置範本</p></td>
-   <td> <p>您的Workfront或群組管理員必須在版面配置範本中新增Planning區域。 如需詳細資訊，請參閱 <a href="/help/quicksilver/planning/access/access-overview.md">存取權總覽</a>. </p>  
+   <td> <p>您的Workfront或群組管理員必須在版面配置範本中新增Planning區域。 如需詳細資訊，請參閱<a href="/help/quicksilver/planning/access/access-overview.md">存取總覽</a>。 </p>  
 </td>
   </tr>
 
@@ -131,11 +131,11 @@ hide: yes
    工作區隨即開啟，且記錄型別隨即顯示。
 1. 執行下列其中一項：
 
-   * 將游標停留在記錄型別卡片上，按一下「更多」功能表，然後 **刪除**.
-   * 按一下要刪除之記錄型別的卡片，然後在記錄型別頁面中按一下 **更多** 功能表 ![](assets/more-menu.png) 在記錄型別名稱的右側，然後按一下 **刪除**.
+   * 將游標停留在記錄型別卡片上，按一下[更多]功能表，然後按一下&#x200B;**刪除**。
+   * 按一下您要刪除之記錄型別的卡片，然後在記錄型別頁面中，按一下記錄型別名稱右側的&#x200B;**更多**&#x200B;功能表![](assets/more-menu.png)，然後按一下&#x200B;**刪除**。
 
    ![](assets/permanently-delete-record-type-confirmation.png)
 
-1. 型別 **刪除** ，然後按一下「 」 **永久刪除**. 不區分大小寫。
+1. 在確認方塊中輸入&#x200B;**刪除**，然後按一下&#x200B;**永久刪除**。 不區分大小寫。
 
    所選的記錄型別及其欄位、關聯的記錄和檢視都會被刪除。

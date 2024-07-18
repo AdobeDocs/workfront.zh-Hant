@@ -19,12 +19,12 @@ ht-degree: 0%
 
 本節包含下列文章：
 
-* [團隊概觀](../../people-teams-and-groups/create-and-manage-teams/teams-overview.md)
+* [團隊總覽](../../people-teams-and-groups/create-and-manage-teams/teams-overview.md)
 * [建立團隊](../../people-teams-and-groups/create-and-manage-teams/create-a-team.md)
 * [建立及管理敏捷團隊](../../people-teams-and-groups/create-and-manage-teams/create-and-manage-agile-teams.md)
 * [編輯團隊設定](../../people-teams-and-groups/create-and-manage-teams/edit-team-settings.md)
 * [管理您的團隊正在處理的工作](../../people-teams-and-groups/create-and-manage-teams/manage-what-your-team-is-working-on.md)
 * [停用團隊](../../people-teams-and-groups/create-and-manage-teams/deactivate-a-team.md)
-* [設定 [!UICONTROL 完成] 任務按鈕](../../people-teams-and-groups/create-and-manage-teams/configure-the-done-button-for-tasks.md)
-* [設定 [!UICONTROL 完成] 問題的按鈕](../../people-teams-and-groups/create-and-manage-teams/configure-the-done-button-for-issues.md)
-* [取代 [!UICONTROL 處理它] 按鈕與 [!UICONTROL 開始] 按鈕](../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md)
+* [設定任務的[!UICONTROL 完成]按鈕](../../people-teams-and-groups/create-and-manage-teams/configure-the-done-button-for-tasks.md)
+* [設定問題的[!UICONTROL 完成]按鈕](../../people-teams-and-groups/create-and-manage-teams/configure-the-done-button-for-issues.md)
+* [以[!UICONTROL 開始]按鈕取代[!UICONTROL 處理它]按鈕](../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md)

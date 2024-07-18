@@ -4,7 +4,7 @@ content-type: reference
 product-area: system-administration;setup
 navigation-topic: administration-and-setup
 title: 設定 [!DNL Adobe Workfront]
-description: 作為 [!DNL Workfront] 管理員，您可以設定組織的系統預設值、時程表、排程、使用者在系統中的組織方式、自動系統更新，以及 [!DNL Workfront] 測試您使用的環境。
+description: 作為 [!DNL Workfront] 管理員，您可以設定組織的系統預設值、時程表、排程、使用者在系統中的組織方式、自動系統更新，以及您使用的 [!DNL Workfront] 測試環境。
 author: Lisa
 feature: System Setup and Administration
 role: Admin
@@ -17,11 +17,11 @@ ht-degree: 0%
 
 ---
 
-# 設定 [!DNL Adobe Workfront]：文章索引
+# 設定[!DNL Adobe Workfront]：文章索引
 
 <!--Audited: 01/2024-->
 
-作為 [!DNL Adobe Workfront] 管理員，您可以設定組織的系統預設值、時程表、排程、使用者在系統中的組織方式、自動系統更新，以及 [!DNL Workfront] 測試您使用的環境。
+作為[!DNL Adobe Workfront]管理員，您可以設定組織的系統預設值、時程表、排程、使用者在系統中的組織方式、自動系統更新，以及您使用的[!DNL Workfront]測試環境。
 
 以下小節包含有關設定Workfront執行個體和設定系統偏好設定的文章：
 
@@ -29,4 +29,4 @@ ht-degree: 0%
 * [設定時程表和排程](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/configure-timesheets-and-schedules.md)
 * [組織設定](../../administration-and-setup/set-up-workfront/organizational-setup/organizational-setup.md)
 * [系統追蹤的更新摘要](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-updates-feeds.md)
-* [[!DNL Adobe Workfront] 測試環境](../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-testing-environments.md)
+* [[!DNL Adobe Workfront]測試環境](../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-testing-environments.md)

@@ -2,7 +2,7 @@
 product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: connections-annd-webhooks
-title: 中的即時觸發器(webhook) [!DNL Adobe Workfront Fusion]
+title: ' [!DNL Adobe Workfront Fusion]中的即時觸發程式(webhook)'
 description: 許多服務都會提供Webhook，以便在服務發生特定變更時傳送即時通知。 若要處理這些通知，建議您使用立即觸發程式。 本文說明Adobe Workfront Fusion中即時觸發器的使用及功能。
 author: Becky
 feature: Workfront Fusion
@@ -14,9 +14,9 @@ ht-degree: 0%
 
 ---
 
-# 中的即時觸發器(webhook) [!DNL Adobe Workfront Fusion]
+# [!DNL Adobe Workfront Fusion]中的即時觸發器(webhook)
 
-許多服務都會提供Webhook，以便在服務發生特定變更時傳送即時通知。 若要處理這些通知，建議您使用立即觸發程式。 您可以在中輕鬆辨識這些專案 [!DNL Adobe Workfront Fusion] 因為它們的標籤：
+許多服務都會提供Webhook，以便在服務發生特定變更時傳送即時通知。 若要處理這些通知，建議您使用立即觸發程式。 您可以在[!DNL Adobe Workfront Fusion]中輕鬆辨識這些專案，因為其標籤：
 
 ![](assets/instant-350x256.png)
 
@@ -25,7 +25,7 @@ ht-degree: 0%
 如需Workfront Fusion中Webhook的影片簡介，請參閱：
 
 * [Webhook簡介](https://video.tv.adobe.com/v/3427025/){target=_blank}
-* [中間Webhook](https://video.tv.adobe.com/v/3427030/){target=_blank}
+* [中繼Webhook](https://video.tv.adobe.com/v/3427030/){target=_blank}
 
 ## 存取需求
 
@@ -46,31 +46,31 @@ ht-degree: 0%
   <tr> 
    <td role="rowheader">[！UICONTROL Adobe Workfront Fusion]授權**</td> 
    <td>
-   <p>目前授權需求：否 [!DNL Workfront Fusion] 授權需求。</p>
+   <p>目前授權需求：無[!DNL Workfront Fusion]授權需求。</p>
    <p>或</p>
-   <p>舊版授權需求： [！UICONTROL [!DNL Workfront Fusion] 工作自動化與整合]，請參閱[！UICONTROL [!DNL Workfront Fusion] 工作自動化專用]</p>
+   <p>舊版授權需求： [！UICONTROL [!DNL Workfront Fusion] for Work Automation and Integration]，[！UICONTROL [!DNL Workfront Fusion] for Work Automation]</p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">產品</td> 
    <td>
-   <p>目前產品需求：如果您有[！UICONTROL Select]或[！UICONTROL Prime] [!DNL Adobe Workfront] 計畫，您的組織必須購買 [!DNL Adobe Workfront Fusion] 以及 [!DNL Adobe Workfront] 以使用本文所述的功能。 [!DNL Workfront Fusion] 包含在[！UICONTROL Ultimate]中 [!DNL Workfront] 計畫。</p>
+   <p>目前產品需求：如果您有[！UICONTROL Select]或[！UICONTROL Prime] [!DNL Adobe Workfront]計畫，您的組織必須購買[!DNL Adobe Workfront Fusion]及[!DNL Adobe Workfront]，才能使用本文所述的功能。 [!DNL Workfront Fusion]包含在[！UICONTROL Ultimate] [!DNL Workfront]計畫中。</p>
    <p>或</p>
-   <p>舊版產品需求：貴組織必須購買 [!DNL Adobe Workfront Fusion] 以及 [!DNL Adobe Workfront] 以使用本文所述的功能。</p>
+   <p>舊版產品需求：您的組織必須購買[!DNL Adobe Workfront Fusion]及[!DNL Adobe Workfront]，才能使用本文所述的功能。</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-若要瞭解您擁有的計畫、授權型別或存取權，請聯絡您的 [!DNL Workfront] 管理員。
+若要瞭解您擁有的計畫、授權型別或存取權，請連絡您的[!DNL Workfront]管理員。
 
-有關的資訊 [!DNL Adobe Workfront Fusion] 授權，請參閱 [[!DNL Adobe Workfront Fusion] 授權](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+如需[!DNL Adobe Workfront Fusion]授權的相關資訊，請參閱[[!DNL Adobe Workfront Fusion] 授權](../../workfront-fusion/get-started/license-automation-vs-integration.md)。
 
 ## 檢視webhook的佇列
 
 所有來自傳入webhook的訊息都會儲存在webhook的佇列中。
 
-1. 按一下 **[!UICONTROL Webhooks]** 在左側的功能表中。
+1. 按一下左側功能表中的&#x200B;**[!UICONTROL Webhooks]**。
 1. 尋找您要檢視其佇列的Webhook。
 1. 按一下帶有卡車圖示和已接收Webhook數量的按鈕。
 
@@ -78,7 +78,7 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >無論您如何設定選項，傳入的webhook資料一律會儲存在佇列中 [!UICONTROL 資料] 是機密檔案(詳見 [中的案例設定面板 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/scenario-settings-panel.md))。 在案例中處理資料後，資料就會從系統中永久刪除。
+   >無論您如何設定選項[!UICONTROL 資料]是機密的（在 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/scenario-settings-panel.md)的[案例設定面板中說明），傳入的webhook資料一律會儲存在佇列中。 在案例中處理資料後，資料就會從系統中永久刪除。
 
 ## 排程即時觸發程式
 
@@ -86,7 +86,7 @@ ht-degree: 0%
 
 ![](assets/schedule-setting-350x185.png)
 
-在這種情況下，您的情境將在以下情況下立即執行： [!DNL Workfront Fusion] 會從服務接收新資料。 執行案例後，系統會計算佇列中等待的擱置Webhook總數，而案例執行的週期與擱置Webhook相同，每個週期處理一個Webhook。 如需詳細資訊，請參閱 [中的案例執行、週期和階段 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/scenario-execution-cycles-phases.md).
+在此情況下，當[!DNL Workfront Fusion]從服務收到新資料時，您的情境會立即執行。 執行案例後，系統會計算佇列中等待的擱置Webhook總數，而案例執行的週期與擱置Webhook相同，每個週期處理一個Webhook。 如需詳細資訊，請參閱 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/scenario-execution-cycles-phases.md)中的[案例執行、週期和階段。
 
 >[!NOTE]
 >
@@ -101,10 +101,10 @@ ht-degree: 0%
 >
 
 
-如果您使用任何其他排程設定 [!UICONTROL 立即]，情境會以您指定的間隔執行。 由於間隔期間可在佇列中收集數個Webhook，因此建議設定 [[!UICONTROL 最大週期數]](../../workfront-fusion/scenarios/scenario-settings-panel.md#maximum) 設定為高於預設值1的值，以便在一個案例執行中處理更多webhook：
+如果您使用[!UICONTROL 立即]以外的任何其他排程設定，情境會依您指定的間隔執行。 由於間隔期間可在佇列中收集數個webhook，因此建議將[[!UICONTROL 最大週期數]](../../workfront-fusion/scenarios/scenario-settings-panel.md#maximum)設定為比預設1更高的值，以便在一次案例執行中處理更多webhook：
 
-1. 按一下 [!UICONTROL 案例設定] 圖示 ![](assets/gear-icon-settings.png) 位於情境底部。
-1. 在 **[!UICONTROL 案例設定]** 在出現的方塊中，在 **[!UICONTROL 最大週期數]** 方塊，表示每次執行案例時，您要從佇列中執行的webhook數目。
+1. 按一下案例底部的[!UICONTROL 案例設定]圖示![](assets/gear-icon-settings.png)。
+1. 在出現的&#x200B;**[!UICONTROL 情境設定]**&#x200B;方塊中，在&#x200B;**[!UICONTROL 最大循環數]**&#x200B;方塊中輸入數字，以表示每次執行情境時，您要從佇列中執行的Webhook數目。
 
 ## 速率限制
 
@@ -116,22 +116,22 @@ ht-degree: 0%
 
 ## Webhook裝載
 
-[!DNL Workfront Fusion] 會儲存webhook裝載30天。 在建立webhook裝載超過30天後存取該裝載會導致錯誤»[!UICONTROL 無法從儲存體讀取檔案。]&quot;
+[!DNL Workfront Fusion]儲存webhook裝載30天。 存取webhook裝載時，若在裝載建立超過30天後進行，會導致&#39;&#39;[!UICONTROL 無法從儲存空間讀取檔案。]&#39;&#39;
 
 ## 錯誤處理
 
 當您的案例中出現具有立即觸發器的錯誤時，案例：
 
-* 立即停止 — 案例設定為執行時 [!UICONTROL 立即].
+* 立即停止 — 設定為立即執行[!UICONTROL 時]。
 * 嘗試3次不成功後停止（3個錯誤） — 案例設定為依排程執行時。
 
-如果案例執行期間發生錯誤，webhook會在即時觸發器的復原階段重新放入佇列中。 在此情況下，您可能會修正該案例並重新執行。 如需詳細資訊，請參閱 [回覆](../../workfront-fusion/scenarios/scenario-execution-cycles-phases.md#rollback) 在文章中 [中的案例執行、週期和階段 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/scenario-execution-cycles-phases.md).
+如果案例執行期間發生錯誤，webhook會在即時觸發器的復原階段重新放入佇列中。 在此情況下，您可能會修正該案例並重新執行。 如需詳細資訊，請參閱文章[案例執行、週期和 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/scenario-execution-cycles-phases.md)中的階段[復原](../../workfront-fusion/scenarios/scenario-execution-cycles-phases.md#rollback)。
 
-如果您的案例中存在Webhook回應模組，則會將錯誤傳送至Webhook回應。 Webhook回應模組一律在最後執行(若 [!UICONTROL 自動認可] 情境設定中的選項未啟用)。 如需詳細資訊，請參閱 [回應Webhook](../../workfront-fusion/apps-and-their-modules/webhooks-updated.md#respondi) 在文章中 [Webhooks](../../workfront-fusion/apps-and-their-modules/webhooks-updated.md).
+如果您的案例中存在Webhook回應模組，則會將錯誤傳送至Webhook回應。 Webhook回應模組一律在最後執行（在Scenario設定中的[!UICONTROL 自動認可]選項未啟用的情況下）。 如需詳細資訊，請參閱文章[Webhooks](../../workfront-fusion/apps-and-their-modules/webhooks-updated.md)中的[回應Webhooks](../../workfront-fusion/apps-and-their-modules/webhooks-updated.md#respondi)。
 
 ## 自訂Webhook
 
-您可以建立自己的Webhook。 如需詳細資訊，請參閱 [Webhooks](../../workfront-fusion/apps-and-their-modules/webhooks-updated.md).
+您可以建立自己的Webhook。 如需詳細資訊，請參閱[Webhooks](../../workfront-fusion/apps-and-their-modules/webhooks-updated.md)。
 
 ## Webhook停用
 

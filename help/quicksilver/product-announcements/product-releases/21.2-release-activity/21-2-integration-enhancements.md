@@ -17,13 +17,13 @@ ht-degree: 0%
 
 # 21.2整合增強功能
 
-本頁說明21.2版對預覽環境所做的所有整合增強功能。 這些增強功能將在2021年5月10日當週的生產環境中提供。 如需21.2版所有可用變更的清單，請參閱 [21.2版本總覽](../../../product-announcements/product-releases/21.2-release-activity/21-2-release-overview.md).
+本頁說明21.2版對預覽環境所做的所有整合增強功能。 這些增強功能將在2021年5月10日當週的生產環境中提供。 如需21.2版本可用的所有變更清單，請參閱[21.2版本概觀](../../../product-announcements/product-releases/21.2-release-activity/21-2-release-overview.md)。
 
 ## 介紹XD適用的Adobe Workfront
 
 我們很高興宣佈推出新的外掛程式：XD適用的Adobe Workfront。 此外掛程式可讓您存取工作專案詳細資訊、與更新區域的同事共同作業，以及提交校樣以供檢閱，這一切都無需離開XD。 立即前往Adobe XD Marketplace下載外掛程式。
 
-若要進一步瞭解您可以使用適用於XD的Adobe Workfront做什麼，請參閱 [使用適用於Creative Cloud應用程式的Adobe Workfront外掛程式管理工作](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-manage-work-toc.md).
+若要進一步瞭解您可以使用XD適用的Adobe Workfront做什麼，請參閱[使用Creative Cloud應用程式適用的Adobe Workfront外掛程式來管理工作](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-manage-work-toc.md)。
 
 
 ## 在檔案整合中搜尋資料夾
@@ -32,7 +32,7 @@ ht-degree: 0%
 
 以前，只能透過開啟父資料夾來找到子資料夾。
 
-如需詳細資訊，請參閱 [從外部應用程式連結檔案](../../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md).
+如需詳細資訊，請參閱[從外部應用程式連結檔案](../../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md)。
 
 ## 加強上傳檔案至Google Drive時的安全性
 

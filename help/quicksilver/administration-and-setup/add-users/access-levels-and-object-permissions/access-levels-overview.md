@@ -46,19 +46,19 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td><p><strong>授權</strong></p></td> 
-   <td> <p>附加到存取層級的授權決定如何設定存取層級。</p> <p>如需詳細資訊，請參閱 <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">授權總覽</a>.</p> <p><strong>秘訣</strong>：您可以檢視使用者清單或報告，以檢視指派給每個使用者的存取層級和授權。 如需指示，請參閱 <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/list-access-levels-and-licenses-for-your-users.md" class="MCXref xref">列出使用者的存取層級和授權</a>.</p> </td> 
+   <td> <p>附加到存取層級的授權決定如何設定存取層級。</p> <p>如需詳細資訊，請參閱<a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">授權總覽</a>。</p> <p><strong>秘訣</strong>：您可以檢視使用者清單或報告，瞭解指派給每位使用者的存取層級和授權。 如需指示，請參閱<a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/list-access-levels-and-licenses-for-your-users.md" class="MCXref xref">列出您使用者的存取層級和授權</a>。</p> </td> 
   </tr> 
   <tr> 
    <td><strong>內建存取層級</strong></td> 
-   <td> <p>如需上圖中所示6個內建存取層級的詳細資訊，請參閱 <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/default-access-levels-in-workfront.md" class="MCXref xref">內建存取層級</a>.</p> </td> 
+   <td> <p>如需上圖中所示6個內建存取層級的詳細資訊，請參閱<a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/default-access-levels-in-workfront.md" class="MCXref xref">內建存取層級</a>。</p> </td> 
   </tr> 
   <tr> 
    <td><strong>指派存取層級</strong></td> 
-   <td> <p>如需有關如何將存取層級指派給使用者的指示，請參閱 <a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md" class="MCXref xref">編輯使用者設定檔</a>.</p> </td> 
+   <td> <p>如需如何指派存取層級給使用者的指示，請參閱<a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md" class="MCXref xref">編輯使用者的設定檔</a>。</p> </td> 
   </tr> 
   <tr> 
    <td>存取層級標準、輕度、貢獻者</td> 
-   <td> <p>如果您在環境中看到這些存取層級，而不是「計畫」、「工作」、「檢閱」或「請求」，則您的組織會使用新的存取層級模型。 有關新模型的資訊，請參閱 <a href="../../../administration-and-setup/add-users/how-access-levels-work/access-level-overview.md" class="MCXref xref">新存取層級概觀</a>.</p> </td> 
+   <td> <p>如果您在環境中看到這些存取層級，而不是「計畫」、「工作」、「檢閱」或「請求」，則您的組織會使用新的存取層級模型。 如需新模型的詳細資訊，請參閱<a href="../../../administration-and-setup/add-users/how-access-levels-work/access-level-overview.md" class="MCXref xref">新存取層級概觀</a>。</p> </td> 
   </tr> 
   <!--
   <tr> 

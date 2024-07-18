@@ -22,17 +22,17 @@ ht-degree: 0%
 >
 > 本頁所述的功能在生產環境使用之前可能會有所變更。
 
-如需2018.2年度所有變更的清單，請參閱  [2018.2版本活動概覽](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-release-activity-overview.md).
+如需2018.2年度所有變更的清單，請參閱  [2018.2發行活動總覽](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-release-activity-overview.md)。
 
 2018.2 Beta 2版本包含下列增強功能：
 
-* [直接從首頁區域編輯欄位](#edit-fields-directly-from-the-home-area)
-* [以天為單位記錄時間](#log-time-in-days)
+* [直接從主區域編輯欄位](#edit-fields-directly-from-the-home-area)
+* [以天數記錄時間](#log-time-in-days)
 * [在專案清單的甘特圖上檢視跨專案前置任務關係](#view-cross-project-predecessor-relationships-on-the-gantt-chart-in-a-list-of-projects)
-* [使用Portfolio最佳化工具中的預算成本來計算Portfolio財務](#use-budgeted-cost-in-the-portfolio-optimizer-to-calculate-portfolio-finances)
-* [使用率報表：從新資源預算區域植入預算時數](#utilization-report-populates-budgeted-hours-from-new-resource-budgeting-area) （僅預覽）
+* [在Portfolio最佳化工具中使用預算成本來計算Portfolio財務](#use-budgeted-cost-in-the-portfolio-optimizer-to-calculate-portfolio-finances)
+* [使用率報告：從新資源預算區域](#utilization-report-populates-budgeted-hours-from-new-resource-budgeting-area)填入預算時數（僅預覽）
 
-* [使用率報表：依使用者檢視專案的預算時數](#utilization-report-view-budgeted-hours-by-user-on-a-project) （僅預覽）
+* [使用率報告：檢視專案上使用者的預算時數](#utilization-report-view-budgeted-hours-by-user-on-a-project) （僅預覽）
 
 * [檔案清單中的校訂進度可供非校訂使用者使用](#proof-progress-from-the-document-list-available-to-non-proofing-users)
 * [行動裝置改良](#mobile-improvements)
@@ -43,7 +43,7 @@ ht-degree: 0%
 
 在此變更之前，只能在「首頁」區域檢視資訊，不能編輯。
 
-如需詳細資訊，請參閱 [更新或編輯首頁區域的工作專案](../../../../workfront-basics/using-home/using-the-home-area/update-and-edit-work-item-home.md) 在文章中  [更新或編輯首頁區域的工作專案](../../../../workfront-basics/using-home/using-the-home-area/update-and-edit-work-item-home.md).
+如需詳細資訊，請參閱文章的[首頁]區域](../../../../workfront-basics/using-home/using-the-home-area/update-and-edit-work-item-home.md)中的[更新或編輯工作專案  [更新或編輯首頁區域中的工作專案](../../../../workfront-basics/using-home/using-the-home-area/update-and-edit-work-item-home.md)。
 
 ## 以天為單位記錄時間 {#log-time-in-days}
 
@@ -51,9 +51,9 @@ Workfront管理員現在可以設定組織中的使用者是以天或小時記�
 
 在此變更之前，使用者只能以小時記錄時間。
 
-您可以編輯使用者設定檔來設定此設定。 如需詳細資訊，請參閱 [設定以小時或天記錄時間](../../../../timesheets/config-timesheet-prefs/config-time-logged-hrs-days.md).
+您可以編輯使用者設定檔來設定此設定。 如需詳細資訊，請參閱[設定以小時或天記錄時間](../../../../timesheets/config-timesheet-prefs/config-time-logged-hrs-days.md)。
 
-如需此設定更新後使用者如何在天內記錄時間的詳細資訊，請參閱 [記錄時間](../../../../timesheets/create-and-manage-timesheets/log-time.md).
+如需使用者如何在此設定更新後以天數記錄時間的詳細資訊，請參閱[記錄時間](../../../../timesheets/create-and-manage-timesheets/log-time.md)。
 
 ## 在專案清單的甘特圖上檢視跨專案前置任務關係 {#view-cross-project-predecessor-relationships-on-the-gantt-chart-in-a-list-of-projects}
 
@@ -64,7 +64,7 @@ Workfront管理員現在可以設定組織中的使用者是以天或小時記�
 
 在此變更之前，您只能檢視專案層級個別任務的跨專案前置任務關係。
 
-如需詳細資訊，請參閱 [設定資訊在甘特圖上的顯示方式](../../../../manage-work/gantt-chart/use-the-gantt-chart/configure-info-on-gantt-chart.md). 
+如需詳細資訊，請參閱[設定資訊在甘特圖上的顯示方式](../../../../manage-work/gantt-chart/use-the-gantt-chart/configure-info-on-gantt-chart.md)。 
 
 ## 使用Portfolio最佳化工具中的預算成本來計算Portfolio財務 {#use-budgeted-cost-in-the-portfolio-optimizer-to-calculate-portfolio-finances}
 
@@ -78,7 +78,7 @@ Workfront管理員現在可以設定組織中的使用者是以天或小時記�
 
 我們也在Portfolio財務欄位中新增了兩個欄位：舊版ROI和舊版淨值，以便從新的資源管理工具中擷取新的值。
 
-如需詳細資訊，請參閱 [Portfolio最佳化工具概觀](../../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md) 在文章中  [Portfolio最佳化工具概觀](../../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md).
+如需詳細資訊，請參閱文章中的[Portfolio最佳化工具概觀](../../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md)  [Portfolio最佳化工具概觀](../../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md)。
 
 ## 使用率報表：從新資源預算區域植入預算時數 {#utilization-report-populates-budgeted-hours-from-new-resource-budgeting-area}
 
@@ -90,7 +90,7 @@ Workfront管理員現在可以設定組織中的使用者是以天或小時記�
 
 在此變更之前，使用來自舊版資源估計區域的資訊。
 
-如需詳細資訊，請參閱 [資源使用率報表概要](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md) 在文章中  [資源使用率報表概要](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md).
+如需詳細資訊，請參閱文章中的[資源使用率報告概觀](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md)  [資源使用率報告概觀](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md)。
 
 ## 使用率報表：依使用者檢視專案的預算時數 {#utilization-report-view-budgeted-hours-by-user-on-a-project}
 
@@ -102,7 +102,7 @@ Workfront管理員現在可以設定組織中的使用者是以天或小時記�
 
 在此變更之前，「使用率」報告僅依工作角色顯示「預算時數」。 
 
-如需詳細資訊，請參閱 [資源使用率報表概要](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md) 在文章中 [資源使用率報表概要](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md).
+如需詳細資訊，請參閱[資源使用率報告概述](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md)一文中的[資源使用率報告概述](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md)。
 
 ## 檔案清單中的校訂進度可供非校訂使用者使用 {#proof-progress-from-the-document-list-available-to-non-proofing-users}
 
@@ -110,7 +110,7 @@ Workfront管理員現在可以設定組織中的使用者是以天或小時記�
 
 在此變更之前，校訂進度指標僅適用於可以產生校訂的使用者。
 
-如需詳細資訊，請參閱 [校訂進度和狀態概觀](../../../../review-and-approve-work/proofing/proofing-overview/view-progress-status-proof.md).
+如需詳細資訊，請參閱[校訂進度與狀態概觀](../../../../review-and-approve-work/proofing/proofing-overview/view-progress-status-proof.md)。
 
 ## 行動裝置改良 {#mobile-improvements}
 
@@ -120,7 +120,7 @@ Workfront管理員現在可以設定組織中的使用者是以天或小時記�
 
   如需共用連結的詳細資訊，請參閱。
 
-  此更新現在適用於iOS和Android。
+  此更新現在可在iOS和Android上取得。
 
 * 我們已更新iOS平台的支援需求，以支援iPhone X。
 

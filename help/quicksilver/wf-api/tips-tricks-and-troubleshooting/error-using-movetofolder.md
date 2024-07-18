@@ -6,19 +6,19 @@ description: 使用Document moveToFolder動作時，會傳回422錯誤。
 author: Becky
 feature: Workfront API
 role: Developer
-source-git-commit: 86c0517443537ec5af640036c290b3a495825fdc
+exl-id: 811efabc-e101-4de5-a800-a1447654dc3e
+source-git-commit: 53edc378e000e5b36fe0ce5750b8917fb13cfde1
 workflow-type: tm+mt
 source-wordcount: '121'
 ht-degree: 0%
 
 ---
 
-
 # 檔案moveToFolder動作無效
 
 ## 問題
 
-使用檔案物件的 `moveToFolder` 動作，則會傳回422錯誤。
+使用檔案物件的`moveToFolder`動作時，傳回422錯誤。
 
 或
 

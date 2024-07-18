@@ -5,7 +5,8 @@ title: 在畫布儀表板中建立圖表報告
 description: 可將您的資料視覺化為橫條、欄、折線圖或圓餅圖的圖表報表，可新增至畫布控制面板。
 author: Nolan
 feature: Reports and Dashboards
-source-git-commit: 535e9c8481ce0781ee0d35636bb6d56de4d1e102
+exl-id: 4262cae8-602f-416d-94b9-409eb9d6241c
+source-git-commit: 893f41011159ff14410edf50bf1b3d24d787a85a
 workflow-type: tm+mt
 source-wordcount: '174'
 ht-degree: 0%
@@ -16,7 +17,7 @@ ht-degree: 0%
 
 可將您的資料視覺化為橫條、欄、折線圖或圓餅圖的圖表報表，可新增至畫布控制面板。
 
-如需在「畫布控制面板」上新增及排列報表的一般資訊，請參閱 [在畫布控制面板中新增、移除或排列報表](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/add-remove-arrange-reports.md).
+如需在畫布控制面板上新增和排列報表的一般資訊，請參閱[在畫布控制面板中新增、移除或排列報表](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/add-remove-arrange-reports.md)。
 
 ## 存取需求
 
@@ -43,10 +44,10 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-如需有關此表格的詳細資訊，請參閱 [Workfront檔案中的存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 ## 在畫布儀表板中建立圖表報告
 
 >[!IMPORTANT]
 >
->本文尚未完成。 請參閱文章中有關將報表新增至畫布控制面板的一般指示 [在畫布控制面板中新增、移除或排列報表](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/add-remove-arrange-reports.md).
+>本文尚未完成。 請參閱文章[在畫布儀表板中新增、移除或排列報告](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/add-remove-arrange-reports.md)中有關將報告新增到畫布儀表板的一般指示。

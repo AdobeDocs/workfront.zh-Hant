@@ -3,8 +3,8 @@ filename: manage-fusion-users
 product-previous: workfront-fusion
 product-area: workfront-integrations;user-management
 navigation-topic: organizations
-title: 管理 [!DNL Adobe Workfront Fusion] 您組織中的使用者
-description: 管理 [!DNL Adobe Workfront Fusion] 您組織中的使用者
+title: 管理組織中的 [!DNL Adobe Workfront Fusion] 位使用者
+description: 管理組織中的 [!DNL Adobe Workfront Fusion] 位使用者
 author: Becky
 feature: Workfront Fusion
 exl-id: fbb858a6-1230-41b4-892a-4ffeb2711922
@@ -15,9 +15,9 @@ ht-degree: 0%
 
 ---
 
-# 管理 [!DNL Adobe Workfront Fusion] 您組織中的使用者
+# 管理貴組織中的[!DNL Adobe Workfront Fusion]位使用者
 
-[!DNL Adobe Workfront Fusion] 管理員可以在內部管理使用者角色 [!DNL Workfront Fusion].
+[!DNL Adobe Workfront Fusion]管理員可以管理[!DNL Workfront Fusion]內的使用者角色。
 
 <!--
 
@@ -44,7 +44,7 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-    <td role="rowheader">[!DNL Adobe Workfront] 計劃*</td> 
+    <td role="rowheader">[!DNL Adobe Workfront] 計畫*</td> 
    <td> <p>[!DNL Pro] 或更高</p> </td> 
   </tr> 
    <tr> 
@@ -54,58 +54,58 @@ ht-degree: 0%
    <tr> 
    <td role="rowheader">[！UICONTROL Adobe Workfront Fusion]授權**</td> 
    <td>
-   <p>目前授權需求：否 [!DNL Workfront Fusion] 授權需求。</p>
+   <p>目前授權需求：無[!DNL Workfront Fusion]授權需求。</p>
    <p>或</p>
-   <p>舊版授權需求： [！UICONTROL [!DNL Workfront Fusion] 若為工作自動化與整合]，[！UICONTROL [!DNL Workfront Fusion] 工作自動化專用]</p>
+   <p>舊版授權需求： [！UICONTROL [!DNL Workfront Fusion] for Work Automation and Integration]，[！UICONTROL [!DNL Workfront Fusion] for Work Automation]</p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">產品</td> 
    <td>
-   <p>目前產品需求：如果您有[！UICONTROL Select]或[！UICONTROL Prime] [!DNL Adobe Workfront] 計畫，您的組織必須購買 [!DNL Adobe Workfront Fusion] 以及 [!DNL Adobe Workfront] 以使用本文所述功能。 [!DNL Workfront Fusion] 包含在[！UICONTROL Ultimate]中 [!DNL Workfront] 計畫。</p>
+   <p>目前產品需求：如果您有[！UICONTROL Select]或[！UICONTROL Prime] [!DNL Adobe Workfront]計畫，您的組織必須購買[!DNL Adobe Workfront Fusion]及[!DNL Adobe Workfront]，才能使用本文所述的功能。 [!DNL Workfront Fusion]包含在[！UICONTROL Ultimate] [!DNL Workfront]計畫中。</p>
    <p>或</p>
-   <p>舊版產品需求：貴組織必須購買 [!DNL Adobe Workfront Fusion] 以及 [!DNL Adobe Workfront] 以使用本文所述功能。</p>
+   <p>舊版產品需求：您的組織必須購買[!DNL Adobe Workfront Fusion]及[!DNL Adobe Workfront]，才能使用本文所述的功能。</p>
    </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">存取層級設定*</td> 
    <td> 
-     <p>您必須是 [!DNL Workfront Fusion] 您組織的管理員。</p>
-     <p>您必須是 [!DNL Workfront Fusion] 您的團隊管理員。</p>
+     <p>您必須是組織的[!DNL Workfront Fusion]管理員。</p>
+     <p>您必須是團隊的[!DNL Workfront Fusion]管理員。</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-若要瞭解您擁有哪些計畫、授權型別或存取權，請聯絡您的 [!DNL Workfront] 管理員。
+若要瞭解您擁有的計畫、授權型別或存取權，請連絡您的[!DNL Workfront]管理員。
 
-有關以下專案的資訊： [!DNL Adobe Workfront Fusion] 授權，請參閱 [[!DNL Adobe Workfront Fusion] 授權](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+如需[!DNL Adobe Workfront Fusion]授權的相關資訊，請參閱[[!DNL Adobe Workfront Fusion] 授權](../../workfront-fusion/get-started/license-automation-vs-integration.md)。
 
 ## 檢視或編輯使用者角色 {#view}
 
-[!DNL Adobe Workfront Fusion] 管理員可以檢視和更新使用者角色。
+[!DNL Adobe Workfront Fusion]管理員可以檢視和更新使用者角色。
 
-1. 以身分登入時 [!DNL Workfront Fusion] 管理員，選取 **[!UICONTROL 使用者]** 左側導覽列中。
-1. 按一下 **[!UICONTROL 詳細資料]** ，位於您要檢視的使用者列中。
-1. （可選）若要更新使用者的角色，請按一下 **[!DNL Role]** 欄中選取要變更使用者角色的組織列，然後選取新角色。
+1. 以[!DNL Workfront Fusion]管理員身分登入時，請在左側導覽中選取&#x200B;**[!UICONTROL 使用者]**。
+1. 在您要檢視的使用者列中，按一下&#x200B;**[!UICONTROL 詳細資料]**。
+1. （可選）若要更新使用者的角色，請在您要變更使用者角色的組織列中，按一下&#x200B;**[!DNL Role]**&#x200B;欄中的下拉式清單，然後選取新角色。
 
 ## 檢視或編輯使用者詳細資訊 {#view2}
 
-[!DNL Adobe Workfront Fusion] 管理員可以檢視和更新使用者詳細資訊。
+[!DNL Adobe Workfront Fusion]管理員可以檢視和更新使用者詳細資訊。
 
-1. 以身分登入時 [!DNL Workfront Fusion] 管理員，選取 **[!UICONTROL 使用者]** 左側導覽列中。
-1. 按一下 **[!UICONTROL 詳細資料]** ，位於您要檢視的使用者列中。
-1. （選用）若要更新使用者的詳細資訊，請按一下 **[!UICONTROL 選項]** 在熒幕右上角，然後選取 **[!UICONTROL 變更詳細資料]**.
+1. 以[!DNL Workfront Fusion]管理員身分登入時，請在左側導覽中選取&#x200B;**[!UICONTROL 使用者]**。
+1. 在您要檢視的使用者列中，按一下&#x200B;**[!UICONTROL 詳細資料]**。
+1. （選擇性）若要更新使用者的詳細資料，請按一下畫面右上角的&#x200B;**[!UICONTROL 選項]**，然後選取&#x200B;**[!UICONTROL 變更詳細資料]**。
 
 ## 刪除使用者 {#delete}
 
-[!DNL Adobe Workfront Fusion] 管理員可以刪除使用者。
+[!DNL Adobe Workfront Fusion]管理員可以刪除使用者。
 
-1. 以身分登入時 [!DNL Workfront Fusion] 管理員，選取 [!UICONTROL 使用者] 左側導覽列中。
-1. 按一下 **[!UICONTROL 詳細資料]** ，位於您要檢視的使用者列中。
-1. （選用）若要更新使用者的詳細資訊，請按一下 **[!UICONTROL 選項]** 在熒幕右上角，然後選取 **[!UICONTROL 刪除]**.
+1. 以[!DNL Workfront Fusion]管理員身分登入時，請在左側導覽中選取[!UICONTROL 使用者]。
+1. 在您要檢視的使用者列中，按一下&#x200B;**[!UICONTROL 詳細資料]**。
+1. （選擇性）若要更新使用者的詳細資料，請按一下畫面右上角的&#x200B;**[!UICONTROL 選項]**，然後選取&#x200B;**[!UICONTROL 刪除]**。
 
 ### 在Workfront Fusion中刪除使用者時的注意事項
 
-* 刪除使用者時，會移除使用者的連線、金鑰和Webhook。 屬於使用者的任何案例都會轉移至組織「擁有者」。 必須更新這些案例中的連線，因為屬於使用者的連線不再有效。
+* 刪除使用者時，會移除使用者的連線、金鑰和Webhook。 屬於使用者的任何案例都會轉移給組織「擁有者」。 必須更新這些案例中的連線，因為屬於使用者的連線已無效。
 * 如果刪除的使用者擁有任何應用程式或公用範本，則應用程式或公用範本會轉移至組織「擁有者」。 如果沒有組織「擁有者」，則應用程式或公用範本會轉讓給其他使用者。

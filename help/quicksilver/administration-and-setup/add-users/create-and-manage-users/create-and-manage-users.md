@@ -25,7 +25,7 @@ ht-degree: 0%
 
 * [新增使用者](../../../administration-and-setup/add-users/create-and-manage-users/add-users.md)
 * [匯入使用者](../../../administration-and-setup/add-users/create-and-manage-users/import-users.md)
-* [編輯使用者設定檔](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md)
+* [編輯使用者的設定檔](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md)
 * [大量編輯使用者設定檔](../../../administration-and-setup/add-users/create-and-manage-users/edit-user-profiles-in-bulk.md)
 * [建立直接下屬](../../../administration-and-setup/add-users/create-and-manage-users/create-direct-reports.md)
 * [以其他使用者身分登入](../../../administration-and-setup/add-users/create-and-manage-users/log-in-as-another-user.md)

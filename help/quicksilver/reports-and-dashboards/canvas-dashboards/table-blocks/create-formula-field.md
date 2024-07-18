@@ -17,12 +17,12 @@ ht-degree: 7%
 
 ## 先決條件
 
-開始之前，您必須先註冊Reporting Canvas測試版。 如需詳細資訊，請參閱 [報告畫布Beta版：概觀](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/reporting-canvas-beta-overview.md).
+開始之前，您必須先註冊Reporting Canvas測試版。 如需詳細資訊，請參閱[報告畫布測試版：概觀](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/reporting-canvas-beta-overview.md)。
 
 ## 建立公式欄位
 
-1. 建立或導覽至表格區塊，如所述 [在報告畫布中新增或編輯表格區塊](../../../reports-and-dashboards/reporting-canvas/table-blocks/add-or-edit-report-table.md).
-1. 在報表的表格標頭上，按一下 **編輯** 圖示 ![](assets/edit-icon.png).
+1. 建立或導覽至資料表區塊，如[在報告畫布](../../../reports-and-dashboards/reporting-canvas/table-blocks/add-or-edit-report-table.md)中新增或編輯資料表區塊。
+1. 在報告中的表格標題上，按一下&#x200B;**編輯**&#x200B;圖示![](assets/edit-icon.png)。
 
    ![](assets/edit-icon-table-header-350x71.png)
 
@@ -30,14 +30,14 @@ ht-degree: 7%
    >
    >如果您剛建立表格且尚未新增任何欄位，請改為按一下表格中央的「編輯」按鈕。
 
-1. 按一下 **新增+** 在頂端 **欄位** 清單位於右側面板。
-1. 在開啟的新頁面中，按一下 **編輯** 圖示 ![](assets/edit-icon.png) 左上角的欄位名稱旁，變更公式欄位的名稱。
-1. 拖曳 **函式** 或 **欄位** 從左側面板移至中間的欄位產生器，以將它們新增至您的公式欄位。
+1. 按一下右側面板上&#x200B;**欄位**&#x200B;清單頂端的&#x200B;**新增+**。
+1. 在開啟的新頁面中，按一下左上角欄位名稱旁的&#x200B;**編輯**&#x200B;圖示![](assets/edit-icon.png)以變更公式欄位的名稱。
+1. 從左側面板將&#x200B;**函式**&#x200B;或&#x200B;**欄位**&#x200B;拖曳到中央的欄位產生器，以將它們新增至公式欄位。
 
 
    >[!TIP]
    >
-   >當您建立公式欄位時， **欄位預覽** 在右側顯示結果欄位的範例。
+   >當您建置公式欄位時，右側的&#x200B;**欄位預覽**&#x200B;會顯示結果欄位的範例。
 
    每個函式都包含一些空的點狀矩形，這些矩形將在計算結果中作為引數。 這些可透過輸入靜態文字或數字、從左側面板拖放欄位（在計算中使用欄位的值）或拖放其他函式（建立巢狀函式）來填入。 可能的函式包括：
 
@@ -67,4 +67,4 @@ ht-degree: 7%
 
    {style="table-layout:auto"}
 
-1. 按一下 **返回** 箭號位於熒幕左上角，可返回您的表格。
+1. 按一下熒幕左上角的&#x200B;**返回**&#x200B;箭頭，可返回您的表格。

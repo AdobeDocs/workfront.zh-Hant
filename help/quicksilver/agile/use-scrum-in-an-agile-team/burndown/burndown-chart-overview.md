@@ -18,7 +18,7 @@ ht-degree: 0%
 
 待執行工作圖表提供內文在反複專案中的進度視覺化表示。 實際待執行工作速率是依照反複專案時間表的理想待執行工作速率來測量。
 
-待執行工作圖表會根據選取的日期進行調整。 目前日期是預設值。 選取前一天時，待執行工作圖表中的所有資料以及 [!UICONTROL 完成狀態] 待執行工作圖表上方的區段會重新計算，以呈現所選日期結束時的資料。 （您可以選取過去幾天或當天，但無法選取未來的天數。）
+待執行工作圖表會根據選取的日期進行調整。 目前日期是預設值。 選取前一天時，會重新計算待執行工作圖表中的所有資料，以及待執行工作圖表上方[!UICONTROL 完成狀態]區段中的所有值，以呈現所選日期結束時的資料。 （您可以選取過去幾天或當天，但無法選取未來的天數。）
 
 ![](assets/agile-iteration-burndown-350x88.png)
 
@@ -32,11 +32,11 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader"> <img src="assets/agile-iteration-burndown-dottedblue.png" alt=""> </td> 
-   <td> <p>理想的待執行工作速率（根據反複專案開始的時間）。</p> <p>如果反複專案的範圍從未變更（不會新增或移除時數或點），則不會顯示此行。</p> <p>此線條在休息日完成工作時顯示為平坦。 如需詳細資訊，請參閱 <a title="使用敏捷待執行工作圖表" href="#how-days-off-affect-the-burndown-chart" class="MCXref xref">休假如何影響待執行工作圖表</a>.</p> </td> 
+   <td> <p>理想的待執行工作速率（根據反複專案開始的時間）。</p> <p>如果反複專案的範圍從未變更（不會新增或移除時數或點），則不會顯示此行。</p> <p>此線條在休息日完成工作時顯示為平坦。 如需詳細資訊，請參閱<a title="使用敏捷待執行工作圖表" href="#how-days-off-affect-the-burndown-chart" class="MCXref xref">休假如何影響待執行工作圖表</a>。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <img src="assets/agile-iteration-burndown-solidblue.png" alt=""> </td> 
-   <td> <p>根據目前劇本或任務的理想待執行工作速率。</p> <p>當反複專案開始後，在反複專案中加入或移除時數或點時，目前的理想待執行專案速率（實心藍線）與原始的理想待執行專案速率（虛藍線）不同。</p> <p>此線條在休息日完成工作時顯示為平坦。</p> <p>如需詳細資訊，請參閱 <a title="使用敏捷待執行工作圖表" href="#how-days-off-affect-the-burndown-chart" class="MCXref xref">休假如何影響待執行工作圖表</a>.</p> </td> 
+   <td> <p>根據目前劇本或任務的理想待執行工作速率。</p> <p>當反複專案開始後，在反複專案中加入或移除時數或點時，目前的理想待執行專案速率（實心藍線）與原始的理想待執行專案速率（虛藍線）不同。</p> <p>此線條在休息日完成工作時顯示為平坦。</p> <p>如需詳細資訊，請參閱<a title="使用敏捷待執行工作圖表" href="#how-days-off-affect-the-burndown-chart" class="MCXref xref">休假如何影響待執行工作圖表</a>。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <img src="assets/agile-iteration-burndown-red.png" alt=""> </td> 
@@ -71,9 +71,9 @@ ht-degree: 0%
 
 ## 休假如何影響待執行工作圖表 {#how-days-off-affect-the-burndown-chart}
 
-中定義的預設排程 [!DNL Workfront] 會透過從待執行工作排除休假（週末和假日）來影響待執行工作圖表。 待執行工作圖表使用預設排程來定義工作天（如所述）  [建立排程](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md))。
+在[!DNL Workfront]中定義的預設排程會透過從待執行工作排除休假（週末和假日）來影響待執行工作圖表。 待執行工作圖表使用預設排程來定義工作天（如所述）  [建立排程](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md))。
 
-敏捷團隊可以定義替代排程（如文章所述），以合併團隊特定的非工作日 [對待執行工作圖表使用替代的小組排程](../../../agile/use-scrum-in-an-agile-team/burndown/use-alt-team-schedule-burndown-charts.md))。 然後，此替代排程會反映在指派給團隊之任何反複專案的待執行工作圖表中。 替代排程只會影響待執行工作圖表。
+敏捷團隊可以透過定義替代排程來合併團隊特定的非工作日（如文章[使用待執行工作表的替代團隊排程](../../../agile/use-scrum-in-an-agile-team/burndown/use-alt-team-schedule-burndown-charts.md)中所述）。 然後，此替代排程會反映在指派給團隊之任何反複專案的待執行工作圖表中。 替代排程只會影響待執行工作圖表。
 
 只有在下列情況下，休假才會反映在待執行工作圖表中：
 
@@ -88,8 +88,8 @@ ht-degree: 0%
 * 您正在休息日檢視待執行工作圖表。 （您檢視的日期會顯示在待執行工作圖表上。）
 * 您已在休息日完成疊代的總剩餘工作。
 
-  當使用者在休假日完成疊代的總剩餘工作時， [!UICONTROL 預估完成] 欄位顯示完成反複運算的日期。
+  當使用者在休假日完成反複運算的總剩餘工時時，[!UICONTROL 預估完成]欄位會顯示反複運算完成的日期。
 
-  規劃反複專案時，如果您為非工作日設定反複專案結束日期，且反複專案正在追蹤以準時完成，則 [!UICONTROL 預估完成] 日期設定為您設定的反複專案結束日期之前的最後一個工作日（因為未排程在非工作日燒錄工作）。
+  規劃反複專案時，如果您為非工作日設定反複專案結束日期，且反複專案正在追蹤以準時完成，則會為您設定的反複專案結束日期之前的最後一個工作日設定[!UICONTROL 預估完成]日期（因為未排定在非工作日燒錄工作）。
 
-  反複專案的結束日期會在計畫反複專案時指定，如文章所述 [建立反複專案](../../../agile/use-scrum-in-an-agile-team/iterations/create-an-iteration.md).
+  當計畫反複專案時，會指定反複專案的結束日期，如文章[建立反複專案](../../../agile/use-scrum-in-an-agile-team/iterations/create-an-iteration.md)中所述。

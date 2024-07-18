@@ -10,8 +10,8 @@ role: Developer
 exl-id: 5b1a4a02-a7fd-41f2-9adb-74b40606270b
 source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
 workflow-type: tm+mt
-source-wordcount: '81'
-ht-degree: 8%
+source-wordcount: '78'
+ht-degree: 3%
 
 ---
 
@@ -32,7 +32,7 @@ PUT/重新命名
 | 名稱  | 檔案或資料夾的新名稱 |
 
 
-## 個回應
+## 回應
 
 指示成功或失敗的JSON字串，如以下錯誤處理區段中所指定。
 

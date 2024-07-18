@@ -2,8 +2,8 @@
 content-type: overview;how-to-procedural
 product-area: projects
 navigation-topic: financials
-title: 計算投資回報(ROI)
-description: 投資回報(ROI)是Adobe Workfront指標，使投資組合經理能夠根據項目的原始計畫效益和預算成本快速查看項目的執行情況。
+title: 計算投資報酬率(ROI)
+description: 投資報酬率(ROI)是Adobe Workfront的量度，可讓投資組合經理快速瞭解專案相對於專案原始計畫收益和預算成本的表現。
 author: Alina
 feature: Work Management
 exl-id: 1a3d16cb-8cb1-472e-8102-0ea8e0bc0edd
@@ -14,44 +14,45 @@ ht-degree: 0%
 
 ---
 
-# 計算投資回報(ROI)
+# 計算投資報酬率(ROI)
 
-投資回報(ROI)是Adobe Workfront指標，使投資組合經理能夠根據項目的原始計畫效益和預算成本快速查看項目的執行情況。
+投資報酬率(ROI)是Adobe Workfront的量度，可讓投資組合經理快速瞭解專案相對於專案原始計畫收益和預算成本的表現。
 
-## 項目投資回報(ROI)概述
+## 專案投資報酬率(ROI)概要
 
-Workfront使用下列公式計算ROI:
+Workfront使用下列公式計算ROI：
 
 ```
 Project ROI = [(Project Planned Benefit - Project Budgeted Cost) / Project Budgeted Cost] x 100
 ```
 
-以下欄位會影響專案的ROI:
+下列欄位會影響專案的ROI：
 
-* **項目計畫收益**:這是在完成業務案例的「項目資訊」區域時由項目所有者指定的手動輸入。 這是您作為專案擁有者所認為，如果您完成專案，可能會是專案的好處。 這是特定貨幣量，且必須為正值。\
-   有關項目計畫效益的詳細資訊，請參閱文章中的「項目資訊」部分 [為項目建立業務案例](../../../manage-work/projects/define-a-business-case/create-business-case.md).
+* **專案計畫權益**：這是專案所有者在完成業務案例的專案資訊區域時所指定的手動專案。 這是您身為專案所有者的預估值，您認為完成專案後，專案可能會受益。 這是特定數量的貨幣，且必須是正值。\
+  如需有關專案計畫權益的詳細資訊，請參閱[為專案建立業務案例](../../../manage-work/projects/define-a-business-case/create-business-case.md)一文中的「專案資訊」一節。
 
-* **項目預算成本**：這是初次啟動專案時預估的與專案相關的總成本。
+* **專案預算成本**：這是您首次啟動專案時所預估的與專案相關的總成本。
 
-   此 **預算成本** 使用 **預算人工成本** 在「業務案例」的「資源預算」區域中計算的值，它考慮了資源計畫員中任務職責的預算小時數以及每個任務職責的「每小時成本」費率。\
-   如需詳細資訊，請參閱 [計算預算成本](../../../manage-work/projects/project-finances/budgeted-cost.md).
+  **預算成本**&#x200B;使用&#x200B;**預算勞力成本**&#x200B;值，該值是在業務案例的資源預算區域中計算的，並考慮到資源規劃工具中工作角色的預算時數以及每個工作角色的每小時成本費率。\
+  如需詳細資訊，請參閱[計算預算成本](../../../manage-work/projects/project-finances/budgeted-cost.md)。
 
-## 找到項目投資回報(ROI)
+## 找到專案投資報酬率(ROI)
 
 您可以在Workfront的下列區域中檢視專案的ROI值：
 
-* 在Portfolio優化程式中，如果項目與產品組合關聯
+* 在Portfolio最佳化工具中（若專案與專案組合相關聯）
 
-   >[!NOTE]
-   >
-   >所有項目ROI值的總計是產品組合的ROI。
+  >[!NOTE]
+  >
+  >所有專案ROI值的總和即為產品組合的ROI。
 
-   如需Portfolio優化程式的相關資訊，請參閱文章 [Portfolio優化程式概述](../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md).
+  如需Portfolio最佳化程式的詳細資訊，請參閱文章[Portfolio最佳化程式概述](../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md)。
 
-* 在項目ROI欄位中，以下清單和報告： 
+* 在「專案ROI」欄位中的下列清單和報告中： 
 
    * 專案
    * 任務
    * 問題
-   * 項目（財務資料）
-   如需在Workfront中建立報表的詳細資訊，請參閱文章 [建立自訂報表](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+   * 專案（財務資料）
+
+  如需在Workfront中建立報表的詳細資訊，請參閱文章[建立自訂報表](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md)。

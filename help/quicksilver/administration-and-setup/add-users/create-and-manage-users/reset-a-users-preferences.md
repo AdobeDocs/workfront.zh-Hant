@@ -50,7 +50,7 @@ ht-degree: 2%
  </tbody> 
 </table>
 
-如需有關此表格的詳細資訊，請參閱 [Workfront檔案中的存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -63,8 +63,8 @@ ht-degree: 2%
  <col> 
  <thead> 
   <tr> 
-   <th><strong>偏好設定</strong> </th> 
-   <th><strong>重設後的狀態</strong> </th> 
+   <th><strong>喜好設定</strong> </th> 
+   <th>重設後的<strong>狀態</strong> </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -90,7 +90,7 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td>使用者偏好設定</td> 
-   <td> <p>已恢復為系統預設值</p> <p>電子郵件通知會恢復為系統預設值。 預設通知列於 <a href="/help/quicksilver/administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md">Adobe Workfront中可用的事件通知</a>.</p> </td> 
+   <td> <p>已恢復為系統預設值</p> <p>電子郵件通知會恢復為系統預設值。 預設通知列在Adobe Workfront</a>中可用的<a href="/help/quicksilver/administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md">事件通知中。</p> </td> 
   </tr> 
   <tr> 
    <td>使用者定義的自訂標籤</td> 
@@ -107,10 +107,10 @@ ht-degree: 2%
 
 {{step-1-to-setup}}
 
-1. 選取 **登入身份**.
+1. 選取&#x200B;**登入身份**。
 1. 開始輸入您要重設其偏好設定的使用者名稱，然後在名稱出現在下拉式清單中時按一下該名稱。
-1. 選取  **登入**.
-1. 在網頁瀏覽器頂端的URL欄位中，新增 `/resetUser` 晚於 `workfront.com`.
+1. 選取&#x200B;**登入**。
+1. 在網頁瀏覽器頂端的URL欄位中，在`workfront.com`之後新增`/resetUser`。
 
    >[!NOTE]
    >
@@ -118,9 +118,9 @@ ht-degree: 2%
    >
    >`https://company_domain.my.workfront.com/resetUser`
 
-1. 按下 **輸入**.
-1. 若要重設所有使用者偏好設定，請選取 **重設**.
+1. 按&#x200B;**Enter**。
+1. 若要重設所有使用者偏好設定，請選取&#x200B;**重設**。
 
    或
 
-   若只要重設自訂標籤，請選取 **重設標籤**.
+   若要僅重設自訂標籤，請選取&#x200B;**重設標籤**。

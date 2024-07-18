@@ -2,38 +2,38 @@
 product-previous: workfront-proof
 product-area: documents;system-administration;user-management
 navigation-topic: groups-workfront-proof
-title: 使用建立校對群組 [!DNL Workfront Proof]
-description: 使用此功能需要「選擇」或「特優」計畫。 如需各種可用計畫的詳細資訊，請參閱Workfront計畫。
+title: 使用 [!DNL Workfront Proof]建立校訂群組
+description: 必須有Select或Premium計畫才能使用此功能。 如需各種可用計畫的詳細資訊，請參閱Workfront計畫。
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: c0433621-3988-45f2-9d6b-68ef92b5b7d2
 source-git-commit: 1a85f2a214036b62d13cb01f0b7a77392648a5fd
 workflow-type: tm+mt
-source-wordcount: '194'
+source-wordcount: '193'
 ht-degree: 1%
 
 ---
 
-# 使用建立校對群組 [!DNL Workfront Proof]
+# 使用[!DNL Workfront Proof]建立校訂群組
 
 >[!IMPORTANT]
 >
->本文說明獨立產品中的功能 [!DNL Workfront Proof]. 有關內部校對的資訊 [!DNL Adobe Workfront]，請參閱 [校對](../../../review-and-approve-work/proofing/proofing.md).
+>本文提及獨立產品[!DNL Workfront Proof]中的功能。 有關[!DNL Adobe Workfront]內部校訂的資訊，請參閱[校訂](../../../review-and-approve-work/proofing/proofing.md)。
 
-使用此功能需要「選擇」或「特優」計畫。 如需各種可用計畫的詳細資訊，請參閱 [[!DNL Workfront] 計畫](https://www.workfront.com/plans).
+必須有Select或Premium計畫才能使用此功能。 如需各種可用計畫的詳細資訊，請參閱[[!DNL Workfront] 計畫](https://www.workfront.com/plans)。
 
-您可以建立使用者群組，以便在多個校樣上新增為審核者。 如果您定期將內容傳送給相同的使用者，這個功能會很實用。
+您可以建立使用者群組，以將其新增為多個校訂的檢閱者。 如果您定期傳送內容給相同的使用者，這將很有用。
 
-1. 在控制面板上，按一下旁邊的向下箭頭 **[!UICONTROL 新增]**，然後按一下 **[!UICONTROL 新組]**.
+1. 在儀表板上，按一下&#x200B;**[!UICONTROL 新增]**&#x200B;旁的向下箭頭，然後按一下&#x200B;**[!UICONTROL 新增群組]**。
 
-1. 在 **[!UICONTROL 新組]** 框中，輸入組的詳細資訊（組名最多可以為128個字元）。
+1. 在出現的&#x200B;**[!UICONTROL 新群組]**&#x200B;方塊中，輸入群組的詳細資料（群組名稱最多可包含128個字元）。
 
-   選取 **[!UICONTROL 私人]** 使群組只對您和群組其他成員可見。
+   選取&#x200B;**[!UICONTROL 私人]**&#x200B;後，只有您和群組的其他成員才能看見群組。
 
-1. 在 **[!UICONTROL 人員]** 區段中，新增或移除群組中的人員，並視需要指定其角色和電子郵件警報選項。
+1. 在&#x200B;**[!UICONTROL 人員]**&#x200B;區段中，視需要指定群組的角色和電子郵件警示選項，新增或移除群組中的人員。
 
-   如果您需要有關指定角色的資訊，請參閱 [在中管理校樣角色 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md).
+   如果您需要有關指定角色的資訊，請參閱[在 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md)中管理校訂角色。
 
-   如果您需要有關電子郵件警報選項的資訊，請參閱 [在中配置電子郵件通知設定 [!DNL Workfront Proof]](../../../workfront-proof/wp-emailsntfctns/email-alerts/config-email-notification-settings-wp.md).
+   如果您需要有關電子郵件警示選項的資訊，請參閱[在 [!DNL Workfront Proof]](../../../workfront-proof/wp-emailsntfctns/email-alerts/config-email-notification-settings-wp.md)中設定電子郵件通知設定。
 
-1. 按一下&#x200B;**[!UICONTROL 儲存]**。
+1. 按一下「**[!UICONTROL 儲存]**」。

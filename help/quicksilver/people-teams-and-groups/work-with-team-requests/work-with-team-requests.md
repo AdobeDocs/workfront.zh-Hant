@@ -19,5 +19,5 @@ ht-degree: 0%
 
 本節包含下列文章：
 
-* [團隊請求概觀](../../people-teams-and-groups/work-with-team-requests/team-requests-overview.md)
+* [團隊要求總覽](../../people-teams-and-groups/work-with-team-requests/team-requests-overview.md)
 * [管理工作和團隊請求](../../people-teams-and-groups/work-with-team-requests/manage-work-and-team-requests.md)

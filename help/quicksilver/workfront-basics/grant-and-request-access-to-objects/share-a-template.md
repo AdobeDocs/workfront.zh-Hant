@@ -2,64 +2,64 @@
 title: 共用範本
 product-area: templates
 navigation-topic: grant-and-request-access-to-objects
-description: 身為Adobe Workfront管理員，您可以在指派存取層級時，授予使用者檢視或編輯範本的存取權。 用戶必須擁有計畫許可才能訪問「編輯」模板。
+description: 身為Adobe Workfront管理員，您可以在指派使用者的存取層級時，授予使用者檢視或編輯範本的存取權。 使用者必須擁有「計畫」授權才能存取「編輯範本」。
 author: Alina
 feature: Get Started with Workfront
 exl-id: 19fb0de5-7db5-42a9-9f33-a4570acfeef8
 source-git-commit: dd7f61fcd92a43303be356dd3209ec6da6a063dd
 workflow-type: tm+mt
-source-wordcount: '548'
+source-wordcount: '557'
 ht-degree: 2%
 
 ---
 
 # 共用範本
 
-身為Adobe Workfront管理員，您可以在指派存取層級時，授予使用者檢視或編輯範本的存取權。 用戶必須擁有計畫許可才能訪問「編輯」模板。
+身為Adobe Workfront管理員，您可以在指派使用者的存取層級時，授予使用者檢視或編輯範本的存取權。 使用者必須擁有「計畫」授權才能存取「編輯範本」。
 
-如需授與範本存取權的詳細資訊，請參閱 [授予範本的存取權](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-templates.md).
+如需授與範本存取權的詳細資訊，請參閱[授與範本存取權](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-templates.md)。
 
-除了您授予的存取層級，使用者也可以從共用範本的其他使用者接收檢視或管理特定範本的權限。
+除了您授與的存取層級外，使用者還可以從共用範本的其他使用者接收檢視或管理特定範本的許可權。
 
 >[!NOTE]
 >
->權限層級可在存取層級中運作。 例如，如果用戶的訪問級別僅允許他們查看模板，則用戶無法獲得「管理模板」的權限。
+>許可權層級在存取層級中運作。 例如，如果使用者的存取層級只允許他們檢視範本，則他們無法取得「管理範本」的許可權。
 
-權限是Workfront中一個項目專屬的權限，並定義可對該項目採取的動作。
+許可權專屬於Workfront中的一個專案，可定義使用者可對該專案執行的動作。
 
-## 共用範本時的考量事項
+## 共用範本時的注意事項
 
-* 除了下列考量事項外，另請參閱 [對象共用權限概述](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
-* 預設情況下，模板的建立者以及模板所有者具有模板的「管理」權限。 有關將用戶指定為模板所有者的資訊，請參閱 [編輯專案範本](../../manage-work/projects/create-and-manage-templates/edit-templates.md).
-* 共用範本時，您可以共用下列項目：
+* 除了下列考量事項外，另請參閱[物件共用許可權概觀](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md)。
+* 根據預設，範本的建立者以及範本擁有者具有範本的管理許可權。 如需有關指定使用者為範本擁有者的資訊，請參閱[編輯專案範本](../../manage-work/projects/create-and-manage-templates/edit-templates.md)。
+* 共用範本時，您可以共用下列專案：
 
    * 範本
 
-      如需如何共用範本的詳細資訊，請參閱 [共用專案範本](../../manage-work/projects/create-and-manage-templates/share-project-template.md).
+     如需如何共用範本的詳細資訊，請參閱[共用專案範本](../../manage-work/projects/create-and-manage-templates/share-project-template.md)。
 
-      您可以將下列權限授予範本：
+     您可以將下列許可權授與範本：
 
       * 檢視
 
-         ![](assets/view-on-template-262x221.png)
+        ![](assets/view-on-template-262x221.png)
 
       * 管理
 
-         ![](assets/manage-on-template-225x280.png)
-   * 使用範本建立的未來專案。 您可以為從範本建立的專案提供與個別專案相同的權限層級。 
+        ![](assets/manage-on-template-225x280.png)
 
-      如需如何在範本層級共用範本專案的詳細資訊，請參閱 [共用專案範本](../../manage-work/projects/create-and-manage-templates/share-project-template.md).
+   * 使用範本建立的未來專案。 您可以對使用範本建立的專案賦予與個別專案相同的許可權層級。 
 
+     若要瞭解如何在範本層級共用範本中的專案，請參閱[共用專案範本](../../manage-work/projects/create-and-manage-templates/share-project-template.md)。
 
-* 當您共用從模板建立的模板或項目時，預設情況下，用戶將繼承與模板或項目相關聯的所有子對象的相同權限。
+* 當您共用範本或從範本建立的專案時，使用者預設會繼承與範本或專案相關聯的所有子物件的相同許可權。
 
-   如需Workfront中物件階層的詳細資訊，請參閱  [了解Adobe Workfront中的物件](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
+  如需Workfront中物件階層的詳細資訊，請參閱  [瞭解Adobe Workfront中的物件](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)。
 
-* 共用模板時，除非另有指定，否則所有模板任務和文檔以及將來從模板建立的項目問題都將繼承相同的權限。
+* 當您共用範本時，除非另有指定，所有範本任務和檔案，以及使用該範本建立的未來專案上的問題都將繼承相同的許可權。
 
-   如需根據使用者對專案的權限管理範本工作存取權限和專案問題的相關資訊，請參閱 [存取](../../manage-work/projects/create-and-manage-templates/edit-templates.md#access) 文章一節 [編輯專案範本](../../manage-work/projects/create-and-manage-templates/edit-templates.md).
+  如需有關根據使用者對專案的許可權來管理專案上範本任務和問題的存取許可權的資訊，請參閱文章[編輯專案範本](../../manage-work/projects/create-and-manage-templates/edit-templates.md)中的[存取](../../manage-work/projects/create-and-manage-templates/edit-templates.md#access)區段。
 
-* Workfront管理員可以指定文檔是否應繼承用戶訪問級別較高對象的權限。 有關限制對文檔繼承的權限的詳細資訊，請參見 [建立或修改自訂存取層級](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+* Workfront管理員可以指定檔案是否應該繼承使用者存取層級中較高物件的許可權。 如需有關限制檔案繼承許可權的詳細資訊，請參閱[建立或修改自訂存取層級](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)。
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -106,7 +106,7 @@ You can share an object only with active users, teams,
 
 ## 範本共用的進階設定
 
-下表顯示了允許使用者檢視或管理範本時，您可授予的權限。 如需共用範本的指示，請參閱 [共用範本](../../manage-work/projects/create-and-manage-templates/share-project-template.md#share) 在文章中 [共用專案範本](../../manage-work/projects/create-and-manage-templates/share-project-template.md).
+下表顯示當允許使用者檢視或管理範本時，您可以授予他們哪些許可權。 如需共用範本的指示，請參閱文章[共用專案範本](../../manage-work/projects/create-and-manage-templates/share-project-template.md)中的[共用範本](../../manage-work/projects/create-and-manage-templates/share-project-template.md#share)一節。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -122,40 +122,40 @@ You can share an object only with active users, teams,
  <tbody> 
   <tr> 
    <td>複製</td> 
-   <td>✓</td> 
+   <td>✓ (A)</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>刪除</td> 
-   <td>✓</td> 
+   <td>✓ (A)</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>編輯範本詳細資訊</td> 
-   <td>✓</td> 
+   <td>✓ (A)</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>檢視範本</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ (A)</td> 
+   <td>✓ (A)</td> 
   </tr> 
   <tr> 
    <td>共用</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ (A)</td> 
+   <td>✓ (A)</td> 
   </tr> 
   <tr> 
-   <td>共用系統範圍</td> 
+   <td>全系統共用</td> 
    <td> </td> 
-   <td>✓</td> 
+   <td>✓ (A)</td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p>新增文件</p> <p>提示：有時人們會將檔案新增至專案範本，以為會將檔案新增至專案。 您可以停用此設定，以防止收件者發生此情況。</p> </td> 
+   <td> <p>新增文件</p> <p>秘訣：有時候，人們會將檔案新增至專案範本，認為自己要新增至專案。 您可以停用此設定來防止收件者發生這種情況。</p> </td> 
    <td> </td> 
-   <td>✓</td> 
+   <td>✓ (A)</td> 
   </tr> 
  </tbody> 
 </table>
 
-若要了解您授予使用者的權限，以使用範本建立的專案，請參閱 [在Adobe Workfront中共用專案](../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md).
+若要瞭解您授予使用者使用範本建立之專案的許可權，請參閱[在Adobe Workfront中共用專案](../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md)。

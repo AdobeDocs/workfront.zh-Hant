@@ -23,7 +23,7 @@ in January 2022
 </MadCap:conditionalText>
 -->
 
-2022年4月4日當週。 如需22.2版所有可用變更的清單，請參閱 [22.2版本總覽](../../../product-announcements/product-releases/22.2-release-activity/22-2-release-overview.md).
+2022年4月4日當週。 如需22.2版本可用的所有變更清單，請參閱[22.2版本概觀](../../../product-announcements/product-releases/22.2-release-activity/22-2-release-overview.md)。
 
 ## 設定自訂表單以搭配多種物件型別使用
 
@@ -33,20 +33,20 @@ in January 2022
 
 此功能適用於先前在Workfront系統中建立的所有自訂表單。 例如，如果您已經有為Task物件型別建立的自訂表單，您現在可以設定表單以搭配其他物件型別使用，例如「專案」和「問題」。
 
-如需詳細資訊，請參閱區段 [開始建立自訂表單](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#start) 在文章中 [建立或編輯自訂表單](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
+如需詳細資訊，請參閱文章[建立或編輯自訂表單](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)中的[開始建立自訂表單](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#start)一節。
 
 >[!NOTE]
 >
->* 我們初次發行預覽功能時，已暫時停用複製多物件自訂表單的功能。 此功能已於3月24日啟用。 如需複製自訂表單的相關資訊，請參閱 [複製自訂表單以建立新表單](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/copy-custom-form-to-create-a-new-one.md).
->* 在計算自訂欄位中，您參考的某些欄位可能與為表單設定的物件型別不相容。 我們的解決方案是萬用字元，允許計算根據表單附加到的物件輸出不同的值。 我們在3月24日新增了萬用字元。 如需使用方法的詳細資訊，請參閱區段 [多物件自訂表單中的已計算自訂欄位](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md#calculat) 在文章中 [新增計算資料至自訂表單](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
->* 針對自訂表單中的分割槽符號，我們已建立一組通用檢視和編輯許可權，這些許可權適用於您可以為表單設定的所有物件型別。 在其中一個案例中，我們發現其中一個「有限編輯」許可權可能會造成表單錯誤。 此問題已在3月24日修正。 如需分節符號的詳細資訊，請參閱 [新增分割槽符號至自訂表單](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-section-break-to-a-custom-form.md).
+>* 我們初次發行預覽功能時，已暫時停用複製多物件自訂表單的功能。 此功能已於3月24日啟用。 如需複製自訂表單的相關資訊，請參閱[複製自訂表單以建立新表單](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/copy-custom-form-to-create-a-new-one.md)。
+>* 在計算自訂欄位中，您參考的某些欄位可能與為表單設定的物件型別不相容。 我們的解決方案是萬用字元，允許計算根據表單附加到的物件輸出不同的值。 我們在3月24日新增了萬用字元。 如需有關如何使用的資訊，請參閱文章[將計算資料新增至自訂表單](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md)中的[多物件自訂表單中的計算自訂欄位](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md#calculat)小節。
+>* 針對自訂表單中的分割槽符號，我們已建立一組通用檢視和編輯許可權，這些許可權適用於您可以為表單設定的所有物件型別。 在其中一個案例中，我們發現其中一個「有限編輯」許可權可能會造成表單錯誤。 此問題已在3月24日修正。 如需分節符號的詳細資訊，請參閱[新增分節符號至自訂表單](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-section-break-to-a-custom-form.md)。
 >
 
 ## 藍圖目錄可供所有使用者使用，管理員可以允許請求
 
-所有Adobe Workfront使用者現在可以瀏覽可用藍圖的目錄。 如需詳細資訊，請參閱 [瀏覽藍圖目錄並請求安裝藍圖](../../../administration-and-setup/blueprints/browse-catalog.md).
+所有Adobe Workfront使用者現在可以瀏覽可用藍圖的目錄。 如需詳細資訊，請參閱[瀏覽Blueprint目錄並要求Blueprint安裝](../../../administration-and-setup/blueprints/browse-catalog.md)。
 
-此外，系統管理員可以啟用使用者的存取權，以請求安裝藍圖。 指派要求佇列以儲存要求，可讓使用者從藍圖目錄提出要求。 如需詳細資訊，請參閱 [設定對藍圖的存取權](../../../administration-and-setup/blueprints/configure-access-to-blueprints.md).
+此外，系統管理員可以啟用使用者的存取權，以請求安裝藍圖。 指派要求佇列以儲存要求，可讓使用者從藍圖目錄提出要求。 如需詳細資訊，請參閱[設定Blueprint的存取權](../../../administration-and-setup/blueprints/configure-access-to-blueprints.md)。
 
 ## 新增影像至自訂表單
 
@@ -60,11 +60,11 @@ in January 2022
 >
 >在新的Adobe Workfront體驗區域（尚未現代化，例如當您大量編輯專案時顯示的方塊）中，不顯示自訂表單影像。 這些區域會在我們持續更新時顯示。
 
-如需詳細資訊，請參閱 [在自訂表單中新增或編輯資產Widget](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md).
+如需詳細資訊，請參閱[在自訂表單中新增或編輯資產Widget](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md)。
 
 ## 新的預設存取層級設定
 
-為了更符合建立新存取層級的大多數管理員的需求，我們已變更下列之「微調您的設定」選項的預設設定。 當您按一下齒輪圖示時，這些畫面就會顯示 ![](assets/gear-icon-in-access-levels.png) 在「編輯」按鈕上。
+為了更符合建立新存取層級的大多數管理員的需求，我們已變更下列之「微調您的設定」選項的預設設定。 當您按一下「編輯」按鈕上的齒輪圖示![](assets/gear-icon-in-access-levels.png)時，就會顯示這些專案。
 
 所有這些變更都會停用先前預設啟用的選項。 如果這不符合貴組織的需求，您可以在設定新存取層級時或稍後隨時啟用它們。
 
@@ -95,13 +95,13 @@ in January 2022
 
 過去，您無法停用群組。
 
-如需詳細資訊，請參閱 [停用或重新啟用群組](../../../administration-and-setup/manage-groups/create-and-manage-groups/deactivate-or-reactivate-a-group.md).
+如需詳細資訊，請參閱[停用或重新啟用群組](../../../administration-and-setup/manage-groups/create-and-manage-groups/deactivate-or-reactivate-a-group.md)。
 
 ## Blueprint安裝歷史記錄增強功能
 
 安裝Blueprint時，現在會顯示已成功與Blueprint一起安裝的特定物件（例如角色、團隊或群組）以及任何無法安裝的物件。 您也可以按一下安裝歷史記錄表格中特定安裝旁的檢視詳細資訊，來檢視「Blueprint詳細資訊」頁面上的已安裝物件清單。
 
-如需詳細資訊，請參閱 [安裝Blueprint](../../../administration-and-setup/blueprints/blueprints-install.md).
+如需詳細資訊，請參閱[安裝藍圖](../../../administration-and-setup/blueprints/blueprints-install.md)。
 
 ![](assets/blueprints-installation-history-350x95.png)
 
@@ -111,4 +111,4 @@ in January 2022
 
 如果您在生產環境、沙箱1或沙箱2中存取僅預覽內容，則安裝按鈕不會啟用，並且您可能會看到警告訊息。
 
-如需詳細資訊，請參閱 [安裝Blueprint](../../../administration-and-setup/blueprints/blueprints-install.md).
+如需詳細資訊，請參閱[安裝藍圖](../../../administration-and-setup/blueprints/blueprints-install.md)。

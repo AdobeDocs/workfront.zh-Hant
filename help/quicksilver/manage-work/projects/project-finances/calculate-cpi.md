@@ -3,13 +3,13 @@ content-type: overview;how-to-procedural
 product-area: projects
 navigation-topic: financials
 title: 計算成本績效指數(CPI)
-description: 成本績效指數(CPI)描述了計畫成本與實際成本之間在項目或任務層的關係。 項目經理複查此度量，以確定當前在指定時間按或超出成本跟蹤的任務或項目。
+description: 成本績效指數(CPI)說明專案或作業層次的計畫成本與實際成本之間的關係。 專案經理會檢閱此量度，以識別目前於指定時間點追蹤成本過低或過高的任務或專案。
 author: Alina
 feature: Work Management
 exl-id: 7f2efe26-7292-482d-986c-2d2077a7ca52
 source-git-commit: a55041ad5a6cd41cd11ec3ade27bf5227ae0ac47
 workflow-type: tm+mt
-source-wordcount: '635'
+source-wordcount: '644'
 ht-degree: 0%
 
 ---
@@ -20,13 +20,13 @@ ht-degree: 0%
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: Linked to the product. Do not change link.)</p>
 -->
 
-成本績效指數(CPI)描述了計畫成本與實際成本之間在項目或任務層的關係。 項目經理複查此度量，以確定當前在指定時間按或超出成本跟蹤的任務或項目。 成本可以按小時或美元計算，具體取決於您的效能索引方法(PIM)。 有關設定效能索引方法的詳細資訊，請參見 [設定效能索引方法(PIM)](../../../manage-work/projects/project-finances/set-pim.md).
+成本績效指數(CPI)說明專案或作業層次的計畫成本與實際成本之間的關係。 專案經理會檢閱此量度，以識別目前於指定時間點追蹤成本過低或過高的任務或專案。 視您的績效指數方法(PIM)而定，成本可以用小時或美元來衡量。 如需有關設定績效指數方法的詳細資訊，請參閱[設定績效指數方法(PIM)](../../../manage-work/projects/project-finances/set-pim.md)。
 
-只有需要時間輸入的組織才能使用CPI。 此外，基於成本的PIM值僅在具有為任務分配者（任務角色或用戶）定義成本率的組織中準確。
+只有需要輸入時間的組織才能使用CPI。 此外，以成本為基礎的PIM值只有在已定義作業受指派人（職務角色或使用者）的成本比率的組織中才正確。
 
 ## 存取需求
 
-您必須具備下列存取權，才能執行本文中的步驟：
+您必須具有下列存取權才能執行本文中的步驟：
 
 <table style="table-layout:auto"> 
  <col> 
@@ -38,45 +38,45 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront授權*</td> 
-   <td> <p>審核或更高版本</p> </td> 
+   <td> <p>評論或以上</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">訪問級別配置*</td> 
-   <td> <p>查看對項目和財務資料的訪問</p> <p> 如果您仍無權存取，請洽詢您的Workfront管理員，他們是否在您的存取層級設定其他限制。 如需Workfront管理員如何修改您的存取層級的詳細資訊，請參閱 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>.</p> </td> 
+   <td role="rowheader">存取層級設定*</td> 
+   <td> <p>檢視專案與財務資料的存取權</p> <p> 如果您還是沒有存取權，請詢問您的Workfront管理員，他們是否在您的存取層級中設定其他限制。 如需Workfront管理員如何修改存取層級的詳細資訊，請參閱<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">物件權限</td> 
-   <td> <p>查看項目或具有查看財務權限的項目的更高權限</p> <p>有關請求其他訪問的資訊，請參閱 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">請求對對象的訪問 </a>.</p> </td> 
+   <td role="rowheader">物件許可權</td> 
+   <td> <p>檢視專案或更高許可權，並具有檢視財務的許可權</p> <p>如需請求其他存取權的資訊，請參閱<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">請求物件</a>的存取權。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;若要了解您擁有的計畫、授權類型或存取權，請聯絡您的Workfront管理員。
+&#42;若要瞭解您擁有的計畫、授權型別或存取權，請連絡您的Workfront管理員。
 
-## 成本績效指數(CPI)概覽
+## 成本績效指數(CPI)概要
 
 * [CPI值](#the-cpi-value)
-* [如何計算CPI](#how-cpi-is-calculated)
+* [CPI的計算方式](#how-cpi-is-calculated)
 
 ### CPI值 {#the-cpi-value}
 
-項目經理們明白，CPI值為1表示項目完全處於預算狀態。 值大於1表示項目處於預算之下（記錄的小時數或費用少於原計畫），值小於1表示項目超出預算（記錄的小時數或費用比原計畫的要多）。 距1越遠，與計畫的偏差越大。
+專案經理瞭解CPI值為1表示專案完全符合預算。 大於1的值表示專案在預算內（記錄的時數或費用少於最初計畫），而小於1的值表示專案超出預算（記錄的時數或費用多於最初計畫）。 從1越遠，與計畫的偏差越大。
 
-| **CPI值** | **預算指示** |
+| **CPI值** | 預算&#x200B;**上的**&#x200B;指示 |
 |---|---|
-| 1 | 計畫或預算 |
-| > 1（大於1） | 預算不足 |
-| &lt; 1（小於1） | 超預算 |
+| 1 | 在計畫或預算內 |
+| > 1 （大於1） | 低於預算 |
+| &lt; 1 （小於1） | 超出預算 |
 
 
-### 如何計算CPI {#how-cpi-is-calculated}
+### CPI的計算方式 {#how-cpi-is-calculated}
 
-在Adobe Workfront中，CPI的計算取決於為專案選取的效能指數方法。 有關設定效能索引方法的詳細資訊，請參見 [設定效能索引方法(PIM)](../../../manage-work/projects/project-finances/set-pim.md).
+在Adobe Workfront中，CPI的計算取決於為專案選取的績效指數方法。 如需有關設定績效指數方法的詳細資訊，請參閱[設定績效指數方法(PIM)](../../../manage-work/projects/project-finances/set-pim.md)。
 
-* [使用小時型PIM時的CPI計算](#cpi-calculations-when-using-hour-based-pim)
-* [使用基於成本的PIM時的CPI計算](#cpi-calculations-when-using-cost-based-pim)
+* 使用以小時為基礎的PIM時進行[CPI計算](#cpi-calculations-when-using-hour-based-pim)
+* [使用成本型PIM時的CPI計算](#cpi-calculations-when-using-cost-based-pim)
 
-#### 使用小時型PIM時的CPI計算 {#cpi-calculations-when-using-hour-based-pim}
+#### 使用以小時為基礎的PIM時的CPI計算 {#cpi-calculations-when-using-hour-based-pim}
 
 如果
 
@@ -90,21 +90,21 @@ Actual Hours > 0 THEN CPI = Total Budgeted Cost Work Performed / Actual Hours
 CPI = 1
 ```
 
-* **對於非父任務：**
+* **針對非父系任務：**
 
-   ```
-   Total Budgeted Cost Work Performed = Planned Hours * (Percent Complete / 100)
-   ```
+  ```
+  Total Budgeted Cost Work Performed = Planned Hours * (Percent Complete / 100)
+  ```
 
-* **對於父任務：**
-執行的總預算成本工作=所有直接子任務的「已執行總預算成本工作」欄位的總和。
+* **對於父系任務：**
+已執行預算成本工時總計=所有直接子任務之已執行預算成本工時總計欄位的總和。
 
-* **專案：**
-執行的總預算成本工作=所有頂層任務（父任務和獨立任務）的「執行的總預算成本工作」欄位的總和。
+* 專案的&#x200B;**：**
+已執行預算成本工時總計=所有最上層作業（父系與獨立作業）之已執行預算成本工時總計欄位的總和。
 
-有關已執行的總預算成本工作(BCWP)的資訊，請參閱 [計算已執行的預算成本工作(BCWP)](../../../manage-work/projects/project-finances/calculate-bcwp.md).
+如需執行的總預算成本工作(BCWP)的相關資訊，請參閱[計算執行的預算成本工作(BCWP)](../../../manage-work/projects/project-finances/calculate-bcwp.md)。
 
-#### 使用基於成本的PIM時的CPI計算 {#cpi-calculations-when-using-cost-based-pim}
+#### 使用成本型PIM時的CPI計算 {#cpi-calculations-when-using-cost-based-pim}
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode"><code>CPI = (Planned Cost of Work Performed + Planned Cost of Incurred Expenses) / (Total Actual Cost + Actual Cost of Incurred Expenses) </code> </p>
@@ -132,7 +132,7 @@ CPI = 1
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode"><code>(NOTE: above: this used to say: CPI = CPI Labor, but Anna had me fix it on July 21, 2021)</code> </p>
 -->
 
-此計算中的欄位如下所述：
+此計算中的欄位說明如下：
 
 ```
 Total Actual Cost = Actual (logged) Hours * Hourly Rate of assignees
@@ -142,7 +142,7 @@ Total Actual Cost = Actual (logged) Hours * Hourly Rate of assignees
 Incurred Actual Expense Cost = Actual Cost
 ```
 
-已發生費用是實際成本> 0的費用
+發生費用是實際成本> 0的費用
 
 ```
 Planned Cost of Incurred Expenses = Total of Planned Cost of all incurred expenses
@@ -154,43 +154,43 @@ Planned Cost of Incurred Expenses = Total of Planned Cost of all incurred expens
   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: Old calculation - taken out by Lilit and replaced below: Planned Cost of Work Performed= (planned labor cost) * (percent complete) / 100 where planned labor cost is the planned hours allocated to assignees * their rates.)</p>
   -->
 
-* 已執行的計畫成本按以下公式計算：
+* 已執行工作之計畫成本的計算公式如下：
 
-   ```
-   Planned Cost of Work Performed = Planned cost * Percent Complete / 100
-   ```
+  ```
+  Planned Cost of Work Performed = Planned cost * Percent Complete / 100
+  ```
 
-執行的總預算成本工作計算如下：
+已執行的總預算成本工作針對下列專案計算：
 
-* **對於非父任務：**
+* **針對非父系任務：**
 
-   ```
-   Total Budgeted Cost Work Performed = Planned Labor Cost * Percent Complete / 100
-   ```
+  ```
+  Total Budgeted Cost Work Performed = Planned Labor Cost * Percent Complete / 100
+  ```
 
-* **對於父任務：**
+* **對於父系任務：**
 
-   ```
-   Total Budgeted Cost Work Performed = SUM(Total Budgeted Cost Work Performed field from all direct child tasks)
-   ```
+  ```
+  Total Budgeted Cost Work Performed = SUM(Total Budgeted Cost Work Performed field from all direct child tasks)
+  ```
 
-* **專案：**
+* 專案的&#x200B;**：**
 
-   ```
-   Total Budgeted Cost Work Performed = SUM(Total Budgeted Cost Work Performed field for all top level tasks)
-   ```
+  ```
+  Total Budgeted Cost Work Performed = SUM(Total Budgeted Cost Work Performed field for all top level tasks)
+  ```
 
 
 
-## 在項目或任務中查找CPI
+## 在專案或任務中尋找CPI
 
-您可以在項目或任務清單或報表中顯示項目或任務的CPI。 此外，您也可以在專案或任務層級檢視。
+您可以在專案、任務清單或報告中顯示專案或任務的CPI。 此外，您還可以在專案或任務層級檢視它。
 
-1. 轉到要查看CPI的項目或任務。
-1. 展開 **專案詳細資料** 或 **任務詳細資訊** 在左側面板中，根據您是查看項目還是任務的CPI。
+1. 前往您要檢視CPI的專案或任務。
+1. 展開左側面板中的&#x200B;**專案詳細資料**&#x200B;或&#x200B;**任務詳細資料**，具體取決於您檢視的是專案還是任務的CPI。
 
-1. 按一下 **金融**.
+1. 按一下&#x200B;**財務**。
 
-   CPI會顯示在 **CPI/SPI/CSI** 欄位。
+   CPI顯示在&#x200B;**CPI/ SPI/ CSI**&#x200B;欄位中。
 
    ![](assets/cpi-on-project-nwe.png)

@@ -19,7 +19,7 @@ ht-degree: 0%
 
 本頁說明21.1版對「預覽」環境所做的所有管理員增強功能。 這些增強功能將在2021年2月15日當週的生產環境中提供。
 
-如需21.1版所有可用變更的清單，請參閱 [21.1版本總覽](../../../product-announcements/product-releases/21.1-release-activity/21-1-release-overview.md).
+如需21.1版本可用的所有變更清單，請參閱[21.1版本概觀](../../../product-announcements/product-releases/21.1-release-activity/21-1-release-overview.md)。
 
 ## 引入新的存取層級設定以複製專案
 
@@ -27,11 +27,11 @@ ht-degree: 0%
 
 如果使用者在此變更前有存取層級編輯專案的許可權，當此功能發行時，他們會自動啟用此設定。
 
-如需有關「計畫」存取層級的資訊，請參閱 [授予專案存取權](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md).
+如需計畫存取層級的詳細資訊，請參閱[授予專案的存取權](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md)。
 
-如需有關複製專案的資訊，請參閱 [複製專案](../../../manage-work/projects/manage-projects/copy-project.md).
+如需有關複製專案的資訊，請參閱[複製專案](../../../manage-work/projects/manage-projects/copy-project.md)。
 
-此功能現已包含在 [新Workfront體驗中的管理員基礎知識，第1部分：使用者組織](https://one.workfront.com/s/learningpath3/administrator-fundamentals-in-the-new-workfront-experience-part-2-user-organizat-MCUPSLH2M2WBDTFI2VKSRE2BRGKY) Workfront One的學習路徑。
+此功能現在包含在新Workfront體驗第1部分：使用者組織](https://one.workfront.com/s/learningpath3/administrator-fundamentals-in-the-new-workfront-experience-part-2-user-organizat-MCUPSLH2M2WBDTFI2VKSRE2BRGKY)的Workfront One學習路徑的[管理員基礎課程中。
 
 ## 在物件的自訂表單中，選取多選下拉式欄位中的所有專案
 
@@ -41,7 +41,7 @@ ht-degree: 0%
 
 在物件的「詳細資訊」頁面上，當您在自訂表單中填寫多選下拉欄位時，如果您需要選取所有可用的選項，可以按一下「全選」。
 
-如需有關編輯自訂表單上的資料的資訊，請參閱 [編輯自訂表單欄位中的資訊](../../../workfront-basics/work-with-custom-forms/edit-custom-forms.md).
+如需有關編輯自訂表單上資料的資訊，請參閱[編輯自訂表單欄位中的資訊](../../../workfront-basics/work-with-custom-forms/edit-custom-forms.md)。
 
 ## 重新計算物件的所有自訂表單欄位
 
@@ -51,7 +51,7 @@ ht-degree: 0%
 
 以前，使用者必須使用因應措施，以確保計算自訂欄位中的所有資料都是最新的。 例如，他們編輯物件與其他物件，以使用可大量編輯的重新計算選項。
 
-如需詳細資訊，請參閱 [編輯自訂表單欄位中的資訊](../../../workfront-basics/work-with-custom-forms/edit-custom-forms.md).
+如需詳細資訊，請參閱[編輯自訂表單欄位中的資訊](../../../workfront-basics/work-with-custom-forms/edit-custom-forms.md)。
 
 ## 解鎖群組管理員的任務和問題偏好設定
 
@@ -61,9 +61,9 @@ ht-degree: 0%
 
 Adobe Workfront管理員現在可以解鎖個別任務和問題偏好設定，賦予群組管理員更多自主權。 解鎖偏好設定後，群組管理員可以為其群組設定它，以滿足每個群組的獨特需求和內部流程。
 
-如需詳細資訊，請參閱 [設定群組的任務和問題偏好設定](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-task-issue-preferences-group.md).
+如需詳細資訊，請參閱[設定群組的任務和問題偏好設定](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-task-issue-preferences-group.md)。
 
-此功能現已包含在 [新Workfront體驗中的管理員基礎課程，第2部分：專案設定](https://one.workfront.com/s/learningpath3/administrator-fundamentals-in-the-new-workfront-experience-part-1-project-workfl-MCTBVZ3Q3J5RHNLIPPZPFSQRLKUY) Workfront One的學習路徑。
+此功能現在包含在新Workfront Experience第2部分：專案設定](https://one.workfront.com/s/learningpath3/administrator-fundamentals-in-the-new-workfront-experience-part-1-project-workfl-MCTBVZ3Q3J5RHNLIPPZPFSQRLKUY)的Workfront One學習路徑的[管理員基礎課程中。
 
 ## 分別設定投資組合和計畫的存取層級設定
 
@@ -71,11 +71,11 @@ Adobe Workfront管理員現在可以解鎖個別任務和問題偏好設定，�
 
 先前，投資組合和計畫的存取層級設定是合併的。 這表示您無法為方案設定存取設定，除非以相同的方式為投資組合進行設定，反之亦然。
 
-如需有關設定存取層級的資訊，請參閱 [建立或修改自訂存取層級](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+如需有關設定存取層級的資訊，請參閱[建立或修改自訂存取層級](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)。
 
-如需有關您可為程式和投資組合設定的存取設定資訊，請參閱 [可設定的每種物件型別功能存取權](../../../administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md).
+如需您可以為程式與產品組合設定的存取設定相關資訊，請參閱[每個物件型別可設定的功能存取權](../../../administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md)。
 
-此功能現已包含在 [新Workfront體驗中的管理員基礎知識，第1部分：使用者組織](https://one.workfront.com/s/learningpath3/administrator-fundamentals-in-the-new-workfront-experience-part-2-user-organizat-MCUPSLH2M2WBDTFI2VKSRE2BRGKY) Workfront One的學習路徑。
+此功能現在包含在新Workfront體驗第1部分：使用者組織](https://one.workfront.com/s/learningpath3/administrator-fundamentals-in-the-new-workfront-experience-part-2-user-organizat-MCUPSLH2M2WBDTFI2VKSRE2BRGKY)的Workfront One學習路徑的[管理員基礎課程中。
 
 ## 在自訂表單中編輯資訊時，選取序列中的所有核取方塊
 
@@ -87,7 +87,7 @@ Adobe Workfront管理員現在可以解鎖個別任務和問題偏好設定，�
 
 只有在欄位包含2個以上的核取方塊時，才會顯示此選項。
 
-如需詳細資訊，請參閱 [編輯自訂表單欄位中的資訊](../../../workfront-basics/work-with-custom-forms/edit-custom-forms.md).
+如需詳細資訊，請參閱[編輯自訂表單欄位中的資訊](../../../workfront-basics/work-with-custom-forms/edit-custom-forms.md)。
 
 ## 設定您的Workfront電子郵件允許清單
 
@@ -98,7 +98,7 @@ Adobe Workfront管理員現在可以解鎖個別任務和問題偏好設定，�
 
 例如，如果您想保護敏感資料，例如列出有風險客戶的報表，您只能在電子郵件允許清單中加入內部電子郵件網域或網域。 如此一來，使用者無法將該報表(或任何其他Workfront報表)傳送至外部電子郵件地址。
 
-如需詳細資訊，請參閱區段 [設定防火牆的允許清單](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md#configur) 在文章中 [設定防火牆的允許清單](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).
+如需詳細資訊，請參閱[設定防火牆允許清單](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md)一文中的[設定防火牆允許清單](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md#configur)一節。
 
 ## 指派子群組的群組管理員
 
@@ -106,9 +106,9 @@ Adobe Workfront管理員現在可以解鎖個別任務和問題偏好設定，�
 
 以前，只有最上層群組才有群組管理員，而這些管理員負責管理最上層群組下的所有子群組。
 
-如需詳細資訊，請參閱區段 [子群組的群組管理員](../../../administration-and-setup/manage-groups/groups-overview/subgroups.md#for) 在文章中 [子群組概述](../../../administration-and-setup/manage-groups/groups-overview/subgroups.md).
+如需詳細資訊，請參閱文章[子群組總覽](../../../administration-and-setup/manage-groups/groups-overview/subgroups.md)中的[子群組的群組管理員](../../../administration-and-setup/manage-groups/groups-overview/subgroups.md#for)一節。
 
-此功能現已包含在 [新Workfront體驗中的管理員基礎知識，第1部分：使用者組織](https://one.workfront.com/s/learningpath3/administrator-fundamentals-in-the-new-workfront-experience-part-2-user-organizat-MCUPSLH2M2WBDTFI2VKSRE2BRGKY) Workfront One的學習路徑。
+此功能現在包含在新Workfront體驗第1部分：使用者組織](https://one.workfront.com/s/learningpath3/administrator-fundamentals-in-the-new-workfront-experience-part-2-user-organizat-MCUPSLH2M2WBDTFI2VKSRE2BRGKY)的Workfront One學習路徑的[管理員基礎課程中。
 
 ## 設定群組的事件通知
 
@@ -122,12 +122,12 @@ Workfront管理員現在可以允許群組管理員為其最上層群組設定�
 
 如需詳細資訊，請參閱下列文章：
 
-* [解鎖或鎖定所有群組的事件通知設定](../../../administration-and-setup/manage-workfront/emails/unlock-configuration-of-event-notifications-for-groups.md)
+* [解除鎖定所有群組的事件通知設定](../../../administration-and-setup/manage-workfront/emails/unlock-configuration-of-event-notifications-for-groups.md)
 * [檢視和設定群組的事件通知](../../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-configure-event-notifications-group.md)
 
-此功能現已包含在 [新Workfront體驗中的管理員基礎知識，第1部分：使用者組織](https://one.workfront.com/s/learningpath3/administrator-fundamentals-in-the-new-workfront-experience-part-2-user-organizat-MCUPSLH2M2WBDTFI2VKSRE2BRGKY) Workfront One的學習路徑。
+此功能現在包含在新Workfront體驗第1部分：使用者組織](https://one.workfront.com/s/learningpath3/administrator-fundamentals-in-the-new-workfront-experience-part-2-user-organizat-MCUPSLH2M2WBDTFI2VKSRE2BRGKY)的Workfront One學習路徑的[管理員基礎課程中。
 
-此功能現已包含在 [新Workfront體驗中的電子郵件和應用程式內通知](https://one.workfront.com/s/learningpath3/administrator-fundamentals-in-the-new-workfront-experience-part-2-user-organizat-https://one.workfront.com/s/learningpath2/email-and-in-app-notifications-in-the-new-workfront-experience-MCDSDH3SRJ4ZGTJF5NJI64F4TW2U) Workfront One的學習路徑。
+此功能現已包含在Workfront One上新Workfront體驗](https://one.workfront.com/s/learningpath3/administrator-fundamentals-in-the-new-workfront-experience-part-2-user-organizat-https://one.workfront.com/s/learningpath2/email-and-in-app-notifications-in-the-new-workfront-experience-MCDSDH3SRJ4ZGTJF5NJI64F4TW2U)學習路徑的[電子郵件和應用程式內通知中。
 
 ## 在群組區域中使用群組專案和核准流程
 
@@ -135,11 +135,11 @@ Workfront管理員現在可以允許群組管理員為其最上層群組設定�
 
 * 按一下左側功能表中的「專案」 ，檢視群組的專案並為群組建立新專案。 如果選取的專案已與您共用，您可以使用工具列中的按鈕來編輯、匯出、複製或刪除專案。
 
-  如需詳細資訊，請參閱 [建立和修改群組的專案](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-projects.md).
+  如需詳細資訊，請參閱[建立和修改群組的專案](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-projects.md)。
 
 * 按一下左側功能表中的「核准」 ，即可檢視和管理與群組相關聯的所有核准流程。
 
-  如需詳細資訊，請參閱 [群組層級核准流程](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-groups-approval-processes.md).
+  如需詳細資訊，請參閱[群組層級核准流程](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-groups-approval-processes.md)。
 
 Workfront管理員也可使用此功能。
 
@@ -149,5 +149,5 @@ Workfront管理員也可使用此功能。
 
 如果您管理最上層群組，則可以檢視群組（及其子群組）中使用的授權數目，以及配置給該群組的授權數目上限。
 
-如需詳細資訊，請參閱 [在新的Adobe Workfront體驗中檢視群組中配置及使用的授權數量](../../../administration-and-setup/manage-groups/create-and-manage-groups/view-number-licenses-allocated-used-group.md).
+如需詳細資訊，請參閱[檢視新Adobe Workfront體驗中群組所配置及使用的授權數目](../../../administration-and-setup/manage-groups/create-and-manage-groups/view-number-licenses-allocated-used-group.md)。
 

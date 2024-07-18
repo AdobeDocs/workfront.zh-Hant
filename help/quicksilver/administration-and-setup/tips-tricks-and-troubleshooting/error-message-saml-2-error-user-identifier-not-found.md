@@ -3,38 +3,38 @@ user-type: administrator
 content-type: tips-tricks-troubleshooting
 product-area: system-administration;user-management
 navigation-topic: tips-tricks-troubleshooting-setup-admin
-title: '錯誤訊息：SAML 2.0錯誤：找不到用戶標識符'
-description: 您無法建立與ADFS的成功連接。
+title: 「錯誤訊息： SAML 2.0錯誤：找不到使用者識別碼」
+description: 您無法成功建立與ADFS的連線。
 author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: c4c70532-de4f-4264-b661-2d30cefd403c
 source-git-commit: c2bf6441e4ac8520a56d4005b3e87c48370dc065
 workflow-type: tm+mt
-source-wordcount: '217'
-ht-degree: 1%
+source-wordcount: '219'
+ht-degree: 0%
 
 ---
 
-# 錯誤訊息：SAML 2.0錯誤：未找到用戶標識符
+# 錯誤訊息： SAML 2.0錯誤：找不到使用者識別碼
 
 ## 問題
 
-您無法建立與ADFS的成功連接。
+您無法成功建立與ADFS的連線。
 
-![identifier_not_found.png](assets/identifier-not-found.png)
+![識別碼_not_found.png](assets/identifier-not-found.png)
 
 >[!NOTE]
 >
->如果建立成功的測試連線，但您仍遇到問題，則可能有不正確的屬性對應或同盟ID問題。 如有疑問，請聯絡客戶支援。
+>如果您建立了成功的測試連線，但仍遇到問題，則屬性對應可能不正確，或是同盟ID有問題。 如有疑問，請聯絡客戶支援。
 
 ## 原因：
 
-ADFS伺服器上的聲明不正確
+ADFS伺服器上的宣告不正確
 
 ## 存取需求
 
-您必須具備下列存取權，才能執行本文中的步驟：
+您必須具有下列存取權才能執行本文中的步驟：
 
 <table style="table-layout:auto"> 
  <col> 
@@ -49,22 +49,22 @@ ADFS伺服器上的聲明不正確
    <td>計劃</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">訪問級別配置</td> 
-   <td> <p>您必須是 [!DNL Workfront] 管理員。 如需詳細資訊，請參閱 <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">授予使用者完整的管理存取權</a>.</p> <p><b>注意</b>:如果您仍無法存取，請詢問您的 [!DNL Workfront] 管理員。 若要了解 [!DNL Workfront] 管理員可修改您的存取層級，請參閱 <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>.</p> </td> 
+   <td role="rowheader">存取層級設定</td> 
+   <td> <p>您必須是[!DNL Workfront]管理員。 如需詳細資訊，請參閱<a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">授予使用者完整管理存取權</a>。</p> <p><b>注意</b>：如果您仍然沒有存取權，請詢問您的[!DNL Workfront]管理員是否對您的存取層級設定了其他限制。 如需[!DNL Workfront]管理員如何修改存取層級的詳細資訊，請參閱<a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## 解決方案
 
-在ADFS伺服器上，請確定有名稱ID的聲明：
+在ADFS伺服器上，確定有名稱ID的宣告：
 
-1. 在Windows中，按一下 **[!UICONTROL 開始]** > **[!UICONTROL 管理]** > **[!UICONTROL ADFS 2.0管理]**.\
-   將顯示「ADFS 2.0管理」對話框。
+1. 在Windows中，按一下&#x200B;**[!UICONTROL 開始]** > **[!UICONTROL 管理]** > **[!UICONTROL ADFS 2.0管理]**。\
+   隨即顯示「ADFS 2.0管理」對話方塊。
 
-1. 選擇 **[!UICONTROL 信任關係]** > **[!UICONTROL 信賴方信託]** 在左窗格中。
+1. 在左窗格中選取&#x200B;**[!UICONTROL 信任關係]** > **[!UICONTROL 信賴方信任]**。
 
-1. 以滑鼠右鍵按一下與Adobe Workfront相關的信賴方信任，然後選取 **[!UICONTROL 編輯聲明規則]**.
-1. 驗證聲明是否具有 **[!UICONTROL 傳出聲明類型]** of **[!UICONTROL 名稱ID]**.
+1. 以滑鼠右鍵按一下與Adobe Workfront相關的信賴方信任，然後選取&#x200B;**[!UICONTROL 編輯宣告規則]**。
+1. 確認宣告有&#x200B;**[!UICONTROL 名稱ID]**&#x200B;的&#x200B;**[!UICONTROL 傳出宣告型別]**。
 
 ![1.png](assets/1-350x287.png)

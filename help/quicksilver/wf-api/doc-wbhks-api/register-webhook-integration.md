@@ -10,7 +10,7 @@ role: Developer
 exl-id: 9a4f8dbe-967f-4a41-a42c-8e3acb604972
 source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
 workflow-type: tm+mt
-source-wordcount: '346'
+source-wordcount: '336'
 ht-degree: 11%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 11%
 
 Adobe Workfront管理員可透過導覽至Workfront中的「設定>檔案>自訂整合」，為其公司新增自訂webhook整合。 在「設定」的「自訂整合」頁面中，管理員可以檢視現有檔案Webhook整合的清單。 您可以在此頁面新增、編輯、啟用和停用整合。
 
-若要新增整合，請按一下 **新增自訂整合**.
+若要新增整合，請按一下[新增自訂整合]。****
 
 ![](assets/webhooks-integration-350x230.png)
 
@@ -41,7 +41,7 @@ Adobe Workfront管理員可透過導覽至Workfront中的「設定>檔案>自訂
  </thead> 
  <tbody> 
   <tr> 
-   <td>名稱</td> 
+   <td>姓名</td> 
    <td>此整合的名稱。</td> 
   </tr> 
   <tr> 

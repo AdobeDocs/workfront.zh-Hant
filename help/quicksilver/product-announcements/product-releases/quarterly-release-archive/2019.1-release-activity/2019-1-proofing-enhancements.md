@@ -18,7 +18,7 @@ ht-degree: 0%
 
 本頁說明2019.1版包含的所有校訂增強功能。 此功能現在可在生產環境中使用。
 
-如需2019.1年度所有變更的清單，請參閱 [2019.1版本活動概覽](../../../../product-announcements/product-releases/quarterly-release-archive/2019.1-release-activity/2019-1-release-activity-overview.md).
+如需2019.1年度所有變更的清單，請參閱[2019.1年度發行活動概觀](../../../../product-announcements/product-releases/quarterly-release-archive/2019.1-release-activity/2019-1-release-activity-overview.md)。
 
 ## 適用於管理員
 
@@ -26,10 +26,10 @@ ht-degree: 0%
 
 ## 適用於所有使用者
 
-* [校訂網路校訂檢視器中的互動式內容](#proof-interactive-content-in-the-web-proofing-viewer)
+* [在網頁校訂檢視器中校訂互動式內容](#proof-interactive-content-in-the-web-proofing-viewer)
 * [校訂檢視器中註解的預設排序順序現在為最舊到最新](#default-sorting-order-for-comments-in-the-proofing-viewer-is-now-oldest-to-latest)
-* [增強與視訊範圍相關聯的校訂檢視器中評論的檢閱](#enhanced-reviewing-for-comments-in-the-proofing-viewer-associated-with-a-range-of-video)
-* [來自校樣通知或校樣檢視器的檔案詳細資訊連結](#link-to-document-details-from-a-proof-notification-or-the-proofing-viewer)
+* [在與視訊範圍相關的校訂檢視器中加強評論檢閱](#enhanced-reviewing-for-comments-in-the-proofing-viewer-associated-with-a-range-of-video)
+* [從校訂通知或校訂檢視器連結到檔案詳細資訊](#link-to-document-details-from-a-proof-notification-or-the-proofing-viewer)
 * [在校訂檢視器中變更您的電子郵件通知](#change-your-email-notifications-in-the-proofing-viewer)
 * [變更案頭校訂檢視器中的背景顏色](#change-the-background-color-in-the-desktop-proofing-viewer)
 * [清除案頭校訂檢視器中校訂的快取瀏覽器資料](#clear-cached-browser-data-from-a-proof-in-the-desktop-proofing-viewer)
@@ -40,7 +40,7 @@ Workfront管理員現在可以為未在校訂工作流程中指定收件者，�
 
 先前，當使用者和訪客在未新增至其工作流程的情況下存取校訂時，其預設校訂角色為檢閱者。
 
-此功能僅適用於在Workfront中建立的校訂，而非Workfront Proof。
+此功能僅適用於在Workfront中建立的校訂，而不適用於Workfront Proof。
 
 ## 校訂網路校訂檢視器中的互動式內容 {#proof-interactive-content-in-the-web-proofing-viewer}
 
@@ -88,7 +88,7 @@ Workfront管理員現在可以為未在校訂工作流程中指定收件者，�
 
 這些設定與您可在Workfront中設定的電子郵件警報設定不同。
 
-如需詳細資訊，請參閱 [管理校訂評論和決定的通知](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/manage-notifications-for-proof-comments.md)
+如需詳細資訊，請參閱[管理校訂評論和決定的通知](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/manage-notifications-for-proof-comments.md)
 
 視訊
 
@@ -96,7 +96,7 @@ Workfront管理員現在可以為未在校訂工作流程中指定收件者，�
 
 現在，您可以將「案頭校訂檢視器」的背景顏色，從預設的近黑色變更為白色。 這樣可讓您更容易看到具有透明背景的校訂內容。
 
-如需詳細資訊，請參閱 [設定校訂檢視器設定](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/configure-proofing-viewer-settings.md).
+如需詳細資訊，請參閱[設定校訂檢視器設定](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/configure-proofing-viewer-settings.md)。
 
 視訊
 
@@ -106,6 +106,6 @@ Workfront管理員現在可以為未在校訂工作流程中指定收件者，�
 
 現在您可以清除可能隨校訂一起儲存的瀏覽器快取資料，以便所有內容顯示在案頭校訂檢視器中，且稽核者可以檢視和評論。
 
-如需詳細資訊，請參閱 [設定校訂檢視器設定](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/configure-proofing-viewer-settings.md).
+如需詳細資訊，請參閱[設定校訂檢視器設定](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/configure-proofing-viewer-settings.md)。
 
 視訊

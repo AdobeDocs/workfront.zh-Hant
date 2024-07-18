@@ -21,11 +21,11 @@ ht-degree: 0%
 
 編輯記錄時，您可以在Adobe Workfront Planning中將封面影像新增至記錄頁面，以個人化記錄。
 
-如需有關編輯記錄的資訊，請參閱 [編輯記錄](/help/quicksilver/planning/records/edit-records.md).
+如需有關編輯記錄的資訊，請參閱[編輯記錄](/help/quicksilver/planning/records/edit-records.md)。
 
 您必須先建立記錄型別，才能開始建立和編輯記錄。
 
-如需詳細資訊，請參閱 [建立記錄型別](/help/quicksilver/planning/architecture/create-record-types.md).
+如需詳細資訊，請參閱[建立記錄型別](/help/quicksilver/planning/architecture/create-record-types.md)。
 
 ## 存取需求
 
@@ -78,14 +78,14 @@ ht-degree: 0%
   </tr>
 <tr>
    <td role="rowheader"><p>版面配置範本</p></td>
-   <td>  <p>必須為所有使用者(包括Workfront管理員)指派一個版面配置範本，該範本包含主功能表中的Planning區域。 </p> <p>如需詳細資訊，請參閱 <a href="/help/quicksilver/planning/access/access-overview.md">存取權總覽</a>. </p>  
+   <td>  <p>必須為所有使用者(包括Workfront管理員)指派一個版面配置範本，該範本包含主功能表中的Planning區域。 </p> <p>如需詳細資訊，請參閱<a href="/help/quicksilver/planning/access/access-overview.md">存取總覽</a>。 </p>  
 </td>
   </tr>
 
 </tbody>
 </table>
 
-*如需詳細資訊，請參閱 [Workfront檔案中的存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*如需詳細資訊，請參閱Workfornt檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 ## 關於紀錄頁封面影像的考量事項
 
@@ -122,46 +122,46 @@ ht-degree: 0%
 
    或
 
-   從表格檢視中，按一下 **開啟詳細資料** 圖示 ![](assets/open-details-icon-in-table-name-field.png) 在第一欄中。
+   從表格檢視中，按一下第一欄中的&#x200B;**開啟詳細資料**&#x200B;圖示![](assets/open-details-icon-in-table-name-field.png)。
 
    記錄的預覽會在檢視中開啟。
 
    ![](assets/details-box.png)
 
-1. （可選）按一下 **在新標籤中開啟** 圖示 ![](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> 在記錄預覽的右上角，以在新索引標籤中開啟記錄頁面。
+1. （選擇性）按一下記錄預覽右上角的&#x200B;**在新索引標籤中開啟**&#x200B;圖示![](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it-->，以在新索引標籤中開啟記錄的頁面。
 
    記錄頁面隨即開啟。
 
    ![](assets/details-page.png)
 
-1. 在記錄預覽或頁面中，按一下 **新增封面**
+1. 在記錄預覽或頁面中，按一下&#x200B;**新增封面**
 
 
    或
 
-   將滑鼠停留在現有的封面影像上，按一下 **更多** 功能表 ![](assets/more-menu.png) ，然後按一下 **上傳**. <!--check the casing here; I logged a bug for this-->
-此 **紀錄封面** 方塊在 **上傳** 標籤。
+   將滑鼠停留在現有的封面影像上，按一下&#x200B;**更多**&#x200B;功能表![](assets/more-menu.png)，然後按一下&#x200B;**上傳**。 <!--check the casing here; I logged a bug for this-->
+**唱片封面**&#x200B;方塊會在&#x200B;**上傳**&#x200B;標籤中開啟。
 
    ![](assets/record-cover-box-for-upload.png)
 
-1. 按一下 **瀏覽影像** 並瀏覽電腦上的圖片，以選取並新增圖片。
+1. 按一下&#x200B;**瀏覽影像**&#x200B;並瀏覽您電腦上的圖片，以選取並新增圖片。
 
-1. （選擇性）若要在儲存影像之前移除影像，請按一下 **上傳新影像** 圖示 ![](assets/upload-new-image-icon.png) ，並上傳新影像。
+1. （選擇性）若要在儲存影像之前移除影像，請按一下&#x200B;**上傳新影像**&#x200B;圖示![](assets/upload-new-image-icon.png)，然後上傳新影像。
 
-1. （可選）按一下 **相簿** 標籤，然後按一下影像庫中的影像。 無法修改影像庫。
+1. （選擇性）按一下&#x200B;**影像庫**&#x200B;標籤，然後按一下影像庫中的影像。 無法修改影像庫。
 
    ![](assets/record-cover-box-for-gallery.png)
 
-1. 按一下 **使用影像**.
+1. 按一下&#x200B;**使用影像**。
 
    影像會上傳到記錄預覽或頁面頂端，而變更會自動儲存。
 
    ![](assets/record-page-with-cover-image.png)
 
-1. （選用）將游標停留在影像上，然後按一下 **更多** 功能表 ![](assets/more-menu.png) 在封面影像的右下角，執行下列任一項作業：
+1. （選擇性）將滑鼠停留在影像上，然後按一下封面影像右下角的&#x200B;**更多**&#x200B;功能表![](assets/more-menu.png)，然後執行下列任一項作業：
 
-   * 按一下 **上傳** 如果要取代封面影像，並重複步驟6以上傳和儲存新影像。
-   * 按一下 **重新定位**，並使用 **重新定位** 工具 ![](assets/reposition-tool-icon.png) 將封面影像置中，然後按一下 **儲存** 完成時。
-   * 按一下 **移除** 以移除封面影像。
+   * 如果您要取代封面影像，並重複步驟6以上傳並儲存新影像，請按一下&#x200B;**上傳**。
+   * 按一下[重新定位]****，並使用[重新定位]工具![](assets/reposition-tool-icon.png)將封面影像置中，然後在完成時按一下[儲存]****。****
+   * 按一下&#x200B;**移除**&#x200B;以移除封面影像。
 
    Workfront會自動儲存您的變更。

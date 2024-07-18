@@ -2,8 +2,8 @@
 user-type: administrator
 product-area: system-administration;timesheets
 navigation-topic: configure-timesheets-and-schedules
-title: 配置用戶以小時或天為單位登錄時間
-description: 擁有規劃員許可證的用戶可以配置是否登錄時間 [!DNL Adobe Workfront] 以小時或天為單位。 身為Workfront管理員，您可以為個別使用者或組織中的完整多位使用者設定此設定。 預設情況下，用戶以小時為單位登錄時間。
+title: 設定使用者以小時或天為單位記錄時間
+description: 擁有Planner授權的使用者可以設定他們是否以 [!DNL Adobe Workfront] 小時或天為單位記錄時間。 身為Workfront管理員，您可以為組織中的個別使用者或完整多位使用者設定此設定。 依預設，使用者會以小時記錄時間。
 author: Alina
 feature: System Setup and Administration
 role: Admin
@@ -15,10 +15,10 @@ ht-degree: 0%
 
 ---
 
-# 配置用戶以小時或天為單位登錄時間
+# 設定使用者以小時或天為單位記錄時間
 
 <!--this article should be removed from the admin area because this is not an admin function; we have another article linked below in the user area for timesheets -->
 
-具有 [!UICONTROL 計畫員] 許可證可以配置是否登錄 [!DNL Adobe Workfront] 以小時或天為單位。 As a [!DNL Workfront] 管理員，您可以為個別使用者或組織中的完整多位使用者設定此設定。 預設情況下，用戶以小時為單位登錄時間。
+擁有[!UICONTROL Planner]授權的使用者可以設定是以[!DNL Adobe Workfront]記錄時間（小時或天）。 作為[!DNL Workfront]管理員，您可以為組織中的個別使用者或完整多位使用者設定此設定。 依預設，使用者會以小時記錄時間。
 
-有關將用戶配置為以小時或天為單位登錄時間的資訊，請參閱 [配置時間是以小時還是天記錄](../../../timesheets/config-timesheet-prefs/config-time-logged-hrs-days.md).
+如需有關設定使用者以小時或天記錄時間的資訊，請參閱[設定以小時或天記錄時間](../../../timesheets/config-timesheet-prefs/config-time-logged-hrs-days.md)。

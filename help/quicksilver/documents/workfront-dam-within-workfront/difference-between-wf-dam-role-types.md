@@ -2,8 +2,8 @@
 content-type: reference
 product-area: documents
 navigation-topic: workfront-dam-within-workfront
-title: Adobe Workfront授權角色類型與Adobe Workfront DAM角色類型的比較
-description: Adobe Workfront管理員使用存取層級來決定使用者可在應用程式中執行的動作。
+title: Adobe Workfront授權角色型別與Adobe Workfront DAM角色型別的比較
+description: Adobe Workfront管理員會使用存取層級來決定使用者可在應用程式中執行的動作。
 author: Courtney
 feature: Digital Content and Documents
 exl-id: dcca0158-dc31-4aba-bd87-90ccc64e77cb
@@ -14,20 +14,20 @@ ht-degree: 2%
 
 ---
 
-# Adobe Workfront授權角色類型與Adobe Workfront DAM角色類型的比較
+# Adobe Workfront授權角色型別與Adobe Workfront DAM角色型別的比較
 
-Adobe Workfront管理員使用存取層級來決定使用者可在應用程式中執行的動作。
+Adobe Workfront管理員會使用存取層級來決定使用者可在應用程式中執行的動作。
 
 * 在Workfront中，授權會決定使用者的存取層級。
-* 在Workfront DAM中，角色類型會定義使用者對DAM中資產的存取權。
+* 在Workfront DAM中，角色型別會定義使用者對DAM中資產的存取權。
 
-由於許可證類型和角色類型不可互換，因此在一個應用程式中具有訪問級別並不意味著在另一個應用程式中具有訪問權限。 例如，在Workfront中具有工作授權的使用者不會在Workfront DAM內自動獲派貢獻者角色。
+因為授權型別和角色型別不可互換，在一個應用程式中具有存取層級並不意味著在另一個應用程式中具有存取權。 例如，在Workfront中擁有工作授權的使用者，不會在Workfront DAM中自動獲派貢獻者角色。
 
 ## Workfront 授權類型
 
-身為Workfront管理員，您可以指派授權類型來定義使用者擁有的存取層級。 每個許可證都附有一組預設訪問功能，您可以先修改這些功能，然後再將許可證分配給用戶。 
+作為Workfront管理員，您可以透過指派授權型別來定義使用者擁有的存取層級。 每個授權都隨附一組預設存取功能，您可以在將授權指派給使用者之前修改這些功能。 
 
-您可以透過授權來判斷使用者在Workfront中可以看到和執行的動作。 Workfront提供五種授權類型：
+您使用授權可決定使用者在Workfront中可以檢視和執行的操作。 Workfront提供五種授權型別：
 
 * 計劃
 * 工作
@@ -35,36 +35,36 @@ Adobe Workfront管理員使用存取層級來決定使用者可在應用程式�
 * 請求
 * 外部
 
-請參閱 [舊版授權概觀](../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md) 以取得Workfront中不同授權類型的說明。
+如需Workfront中不同授權型別的說明，請參閱[舊版授權概觀](../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md)。
 
-## Workfront DAM角色類型
+## Workfront DAM角色型別
 
-身為Workfront DAM Workfront管理員，您可以將角色類型指派給使用者，以定義使用者對資產的存取權。 此外，角色類型會指定DAM中使用者可以工作的區域。
+身為Workfront DAM Workfront管理員，您可以指派角色型別給使用者，以定義使用者對資產的存取權。 此外，角色型別會指定使用者可在DAM中工作的區域。
 
-建立使用者存取權限時，角色類型可與群組搭配使用。 群組可控制使用者對資料夾和資產本身的存取權。 角色類型決定使用者可對資產採取的動作。 所有DAM使用者都至少必須與一個群組相關聯。 若要進一步了解角色類型和存取設定，請參閱Workfront DAM中的說明。
+建立使用者存取許可權時，角色型別可與群組搭配使用。 群組可控制使用者對資料夾及資產本身的存取權。 角色型別會決定使用者對資產可採取的動作。 所有DAM使用者必須至少與一個群組相關聯。 若要深入瞭解角色型別和存取設定，請參閱Workfront DAM的說明。
 
-Workfront DAM提供四種不同的角色類型：
+Workfront DAM中有四種不同的角色型別可用：
 
 ### Brand Portal
 
-具有此角色類型的使用者只能存取DAM中的Brand Connect入口網站。 在入口網站中，使用者可以檢視並下載擁有權限的資產。
+具有此角色型別的使用者只能存取DAM中的Brand Connect入口網站。 在入口網站中，使用者可以檢視和下載他們有權使用的資產。
 
-Brand Portal使用者可以透過建立和共用燈箱來與他人共同作業。
+Brand Portal使用者可以透過建立和共用燈箱與其他人共同作業。
 
 ### 一般使用者
 
-具有此角色類型的使用者可從Workfront DAM和Brand Connect入口網站檢視和下載資產。
+具有此角色型別的使用者可以從Workfront DAM和Brand Connect入口網站檢視及下載資產。
 
-一般使用者也可以建立和共用燈箱，與他人共同作業。
+一般使用者也可以藉由建立和共用燈箱來與其他使用者共同作業。
 
-### 投稿人
+### 貢獻者
 
-具有此角色類型的使用者可存取Workfront DAM和Brand Connect入口網站。
+具有此角色型別的使用者可存取Workfront DAM和Brand Connect入口網站。
 
-貢獻者可以檢視、下載、上傳、編輯、移動及刪除他們有權存取的資產和資料夾。 此外，貢獻者可以建立和共用燈箱，與他人共同作業。 
+貢獻者可以檢視、下載、上傳、編輯、移動和刪除其有權存取的資產和資料夾。 此外，貢獻者可以透過建立和共用燈箱與其他人共同作業。 
 
 ### 管理員
 
-Workfront管理員可存取Brand Connect入口網站和Workfront DAM中的所有項目，包括過期或狀態非作用中的資產。
+Workfront管理員可存取Brand Connect入口網站和Workfront DAM中的所有專案，包括已過期或處於非使用中狀態的資產。
 
-為了具有管理員訪問權限，具有管理員角色類型的用戶必須位於管理員組中。
+若要擁有管理員存取權，具有「管理員」角色型別的使用者必須在「管理員群組」中。

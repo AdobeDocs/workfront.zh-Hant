@@ -21,9 +21,9 @@ ht-degree: 3%
 
 如果您的群組之上有任何群組，其管理員也可以為您的群組執行下列動作。 Workfront管理員也是如此（適用於任何群組）。
 
-有關擁有Plan授權的使用者如何建立團隊的資訊，請參閱 [建立團隊](../../../people-teams-and-groups/create-and-manage-teams/create-a-team.md).
+如需有關如何擁有計畫授權的使用者建立團隊的資訊，請參閱[建立團隊](../../../people-teams-and-groups/create-and-manage-teams/create-a-team.md)。
 
-如需Workfront管理員如何建立團隊的詳細資訊，請參閱 [從設定區域建立團隊](../../../administration-and-setup/add-users/create-and-manage-teams/create-a-team-from-setup.md).
+如需Workfront管理員如何建立團隊的詳細資訊，請參閱[從設定區域建立團隊](../../../administration-and-setup/add-users/create-and-manage-teams/create-a-team-from-setup.md)。
 
 ## 存取需求
 
@@ -39,25 +39,25 @@ ht-degree: 3%
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront授權*</td> 
-   <td> <p>計劃 </p> <p>您必須是群組的群組管理員或Workfront管理員。 如需詳細資訊，請參閱 <a href="../../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref" data-mc-variable-override="">群組管理員</a> 和 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref" data-mc-variable-override="">授予使用者完整管理存取權</a>.</p> </td> 
+   <td> <p>計劃 </p> <p>您必須是群組的群組管理員或Workfront管理員。 如需詳細資訊，請參閱<a href="../../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref" data-mc-variable-override="">群組管理員</a>和<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref" data-mc-variable-override="">授與使用者完整管理存取權</a>。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;如果您需要瞭解自己的計畫或授權型別，請聯絡Workfront管理員。
+&#42;如果您需要瞭解您擁有的計畫或授權型別，請連絡您的Workfront管理員。
 
 ## 從群組區域檢視、處理和建立群組的團隊
 
-1. 按一下 **主要功能表** 圖示 ![](assets/main-menu-icon.png) (位於Adobe Workfront的右上角)，然後按一下 **設定** ![](assets/gear-icon-settings.png).
+1. 按一下Adobe Workfront右上角的&#x200B;**主要功能表**&#x200B;圖示![](assets/main-menu-icon.png)，然後按一下&#x200B;**設定** ![](assets/gear-icon-settings.png)。
 
-1. 在左側面板中，按一下 **群組** ![](assets/groups-icon.png).
+1. 在左側面板中，按一下&#x200B;**群組** ![](assets/groups-icon.png)。
 
 1. 按一下要為其建立或修改專案團隊的群組名稱。
-1. 在左側面板中，按一下 **團隊** ![](assets/teams.png) 列出與群組及其可能擁有的任何子群組相關聯的專案團隊。
+1. 在左側面板中，按一下&#x200B;**團隊** ![](assets/teams.png)以列出與群組及其可能擁有的任何子群組相關聯的團隊。
 
 1. 執行下列任一項作業：
 
-   * **新增團隊**：按一下 **新團隊**，然後使用下列選項進行設定：
+   * **新增團隊**：按一下&#x200B;**新增團隊**，然後使用下列選項進行設定：
 
    <!-- WRITER please check table below. I stripped out wonky conditions-->
 
@@ -71,7 +71,7 @@ ht-degree: 3%
        </tr> 
        <tr> 
        <td role="rowheader">群組</td> 
-       <td> <p> 系統會用您正在檢視的群組來填入新專案團隊的「群組」欄位。 如果要將專案團隊與不同的群組相關聯，請開始輸入群組的名稱，然後在其出現時選取名稱。</p> <p>您可以將滑鼠懸停在正確的群組上，並按一下資訊圖示，確定您正在將正確的群組與團隊建立關聯 <img src="assets/info-icon.png"> 隨即顯示。 這會顯示工具提示，列出群組的相關資訊，例如群組及其管理員上方的群組階層。</p> <p><b>注意</b>：將專案團隊指派給群組或子群組時，該群組或子群組的任何群組管理員都可以管理專案團隊，而無需成為其成員。 群組管理員可以從主功能表前往團隊區域，然後按一下切換團隊箭頭 <img src="assets/switch-team-icon.png" alt="切換群組圖示"> 列出指派給其管理群組的所有團隊。</p> </td> 
+       <td> <p> 系統會用您正在檢視的群組來填入新專案團隊的「群組」欄位。 如果要將專案團隊與不同的群組相關聯，請開始輸入群組的名稱，然後在其出現時選取名稱。</p> <p>您可以暫留在正確的群組上，並按一下旁邊顯示的資訊圖示<img src="assets/info-icon.png">，確定您要將正確的群組與團隊建立關聯。 這會顯示工具提示，列出群組的相關資訊，例如群組及其管理員上方的群組階層。</p> <p><b>注意</b>：將團隊指派給群組或子群組時，該群組或子群組的任何群組管理員都可以管理團隊，而無需成為其成員。 群組管理員可以從主功能表前往團隊區域，然後按一下「切換團隊」箭頭<img src="assets/switch-team-icon.png" alt="切換群組圖示">以列出指派給其管理群組的所有團隊。</p> </td> 
        </tr> 
        <tr> 
        <td role="rowheader">團隊成員</td> 
@@ -96,7 +96,7 @@ ht-degree: 3%
       </tbody> 
      </table>
 
-   * **編輯團隊**：至少選取一個團隊，按一下 **此** 編輯圖示 ![](assets/edit-icon.png)，然後使用下列選項進行設定：
+   * **編輯團隊**：至少選取一個團隊，按一下&#x200B;****「編輯」圖示![](assets/edit-icon.png)，然後使用下列選項進行設定：
 
      <table style="table-layout:auto"> 
       <col> 
@@ -108,7 +108,7 @@ ht-degree: 3%
        </tr> 
        <tr> 
        <td role="rowheader">群組</td> 
-       <td> <p>將團隊與群組建立關聯。 開始輸入群組的名稱，然後在其出現時選取名稱。</p> <p>您可以將滑鼠懸停在正確的群組上，並按一下資訊圖示，確定您正在將正確的群組與團隊建立關聯 <img src="assets/info-icon.png"> 隨即顯示。 這會顯示工具提示，列出群組的相關資訊，例如群組及其管理員上方的群組階層。</p> <p><b>注意</b>：將專案團隊指派給群組或子群組時，該群組或子群組的任何群組管理員都可以管理專案團隊，而無需成為其成員。 群組管理員可以從主功能表前往團隊區域，然後按一下切換團隊箭頭 <img src="assets/switch-team-icon.png" alt="切換群組圖示"> 列出指派給其管理群組的所有團隊。</p> </td> 
+       <td> <p>將團隊與群組建立關聯。 開始輸入群組的名稱，然後在其出現時選取名稱。</p> <p>您可以暫留在正確的群組上，並按一下旁邊顯示的資訊圖示<img src="assets/info-icon.png">，確定您要將正確的群組與團隊建立關聯。 這會顯示工具提示，列出群組的相關資訊，例如群組及其管理員上方的群組階層。</p> <p><b>注意</b>：將團隊指派給群組或子群組時，該群組或子群組的任何群組管理員都可以管理團隊，而無需成為其成員。 群組管理員可以從主功能表前往團隊區域，然後按一下「切換團隊」箭頭<img src="assets/switch-team-icon.png" alt="切換群組圖示">以列出指派給其管理群組的所有團隊。</p> </td> 
        </tr> 
        <tr> 
        <td role="rowheader">所有者</td> 
@@ -116,7 +116,7 @@ ht-degree: 3%
        </tr> 
        <tr> 
        <td role="rowheader">團隊成員</td> 
-       <td> <p>新增和團隊成員。 開始輸入使用者的名稱，然後在其出現時選取名稱。 重複此程式，將多位使用者新增至團隊。</p> <p><b>秘訣</b>：您可以新增至團隊的使用者數量沒有限制。 但是，我們建議一個團隊中的使用者數量不要過多，因為團隊的工作管理可能會變得太複雜。</p> </td> 
+       <td> <p>新增和團隊成員。 開始輸入使用者的名稱，然後在其出現時選取名稱。 重複此程式，將多位使用者新增至團隊。</p> <p><b>秘訣</b>：您可以新增至團隊的使用者數目沒有限制。 但是，我們建議一個團隊中的使用者數量不要過多，因為團隊的工作管理可能會變得太複雜。</p> </td> 
        </tr> 
        <tr> 
        <td role="rowheader">說明</td> 
@@ -128,22 +128,22 @@ ht-degree: 3%
        </tr> 
        <tr> 
        <td role="rowheader">敏捷</td> 
-       <td>指定這是否為敏捷團隊。 有關敏捷團隊以及如何管理其工作的資訊，請參閱 <a href="../../../agile/get-started-with-agile-in-workfront/create-an-agile-team.md" class="MCXref xref">建立敏捷團隊</a>.</td> 
+       <td>指定這是否為敏捷團隊。 有關敏捷團隊以及如何管理其工作的資訊，請參閱<a href="../../../agile/get-started-with-agile-in-workfront/create-an-agile-team.md" class="MCXref xref">建立敏捷團隊</a>。</td> 
        </tr> 
        <tr> 
        <td role="rowheader">處理它</td> 
-       <td> <p>將處理它按鈕變更為開始按鈕。 當使用者按一下開始，專案的狀態會自動更新。</p> <p>如需如何設定[開始]按鈕的詳細資訊，請參閱 <a href="../../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md" class="MCXref xref">將處理它按鈕取代為開始按鈕</a>.</p> </td> 
+       <td> <p>將處理它按鈕變更為開始按鈕。 當使用者按一下開始，專案的狀態會自動更新。</p> <p>如需如何設定[開始]按鈕的詳細資訊，請參閱<a href="../../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md" class="MCXref xref">以[開始]按鈕取代[處理它]按鈕</a>。</p> </td> 
        </tr> 
        <tr> 
        <td role="rowheader">完成按鈕</td> 
        <td> <p>自訂完成按鈕。 如需詳細資訊，請參閱：</p> 
        <ul> 
-       <li><a href="../../../people-teams-and-groups/create-and-manage-teams/configure-the-done-button-for-tasks.md" class="MCXref xref">設定任務的「完成」按鈕</a> </li> 
+       <li><a href="../../../people-teams-and-groups/create-and-manage-teams/configure-the-done-button-for-tasks.md" class="MCXref xref">設定任務的[完成]按鈕</a> </li> 
        <li><a href="../../../people-teams-and-groups/create-and-manage-teams/configure-the-done-button-for-issues.md" class="MCXref xref">設定問題的完成按鈕</a> </li> 
        </ul> </td> 
        </tr> 
       </tbody> 
      </table>
 
-   * **刪除團隊**：至少選取一個團隊，然後按一下「刪除」圖示 ![](assets/delete.png).
-   * **匯出團隊清單**：按一下 **匯出** ![](assets/export.png)，然後選取您要用於匯出清單的檔案格式。
+   * **刪除團隊**：請至少選取一個團隊，然後按一下[刪除]圖示![](assets/delete.png)。
+   * **匯出小組清單**：按一下&#x200B;**匯出** ![](assets/export.png)，然後選取您要用於匯出清單的檔案格式。

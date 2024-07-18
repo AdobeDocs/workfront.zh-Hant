@@ -21,10 +21,10 @@ ht-degree: 0%
 
 本節包含下列文章：
 
-* [為您的組織設定校訂設定](../../../administration-and-setup/manage-workfront/configure-proofing/configure-proofing-organization.md)
-* [Adobe Workfront和Workfront Proof之間的使用者同步](../../../administration-and-setup/manage-workfront/configure-proofing/user-sync-proofing.md)
+* [設定您組織的校訂設定](../../../administration-and-setup/manage-workfront/configure-proofing/configure-proofing-organization.md)
+* [Adobe Workfront與Workfront Proof之間的使用者同步處理](../../../administration-and-setup/manage-workfront/configure-proofing/user-sync-proofing.md)
 * [存取Workfront中的校訂功能](../../../administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md)
-* [為您的組織安裝案頭校訂檢視器](../../../administration-and-setup/manage-workfront/configure-proofing/install-desktop-proofing-viewer-org.md)
+* [安裝您組織的案頭校訂檢視器](../../../administration-and-setup/manage-workfront/configure-proofing/install-desktop-proofing-viewer-org.md)
 * [設定預設校訂角色](../../../administration-and-setup/manage-workfront/configure-proofing/configure-default-proofing-roles.md)
 * [設定預設校訂電子郵件通知設定](../../../administration-and-setup/manage-workfront/configure-proofing/configure-default-proof-email-notification-settings.md)
 * [設定使用者的校訂存取權](../../../administration-and-setup/manage-workfront/configure-proofing/configure-a-users-proofing-access.md)

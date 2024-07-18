@@ -46,7 +46,7 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定</td> 
-   <td> <p>您必須是 [!DNL Workfront] 管理員。 如需詳細資訊，請參閱 <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">授予使用者完整管理存取權</a>.</p> <p><b>注意</b>：如果您還是沒有存取權，請詢問您的 [!DNL Workfront] 管理員是否對您的存取層級設定其他限制。 如需瞭解如何 [!DNL Workfront] 管理員可以修改您的存取層級，請參閱 <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>.</p> </td> 
+   <td> <p>您必須是[!DNL Workfront]管理員。 如需詳細資訊，請參閱<a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">授予使用者完整管理存取權</a>。</p> <p><b>注意</b>：如果您仍然沒有存取權，請詢問您的[!DNL Workfront]管理員是否對您的存取層級設定了其他限制。 如需[!DNL Workfront]管理員如何修改存取層級的詳細資訊，請參閱<a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>。</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -55,11 +55,11 @@ ht-degree: 1%
 
 使用請求授權建立基本存取層級：
 
-1. 前往 **[!UICONTROL 設定]** > **[!UICONTROL 存取層級]**.
+1. 移至&#x200B;**[!UICONTROL 設定]** > **[!UICONTROL 存取層級]**。
 
-1. 按一下 **[!UICONTROL 新增存取層級]**.
-1. 輸入 **[!UICONTROL 名稱]**.
-1. 在 **[!UICONTROL 授權型別]** 從下拉式功能表中選取「請求」。
+1. 按一下&#x200B;**[!UICONTROL 新增存取層級]**。
+1. 輸入&#x200B;**[!UICONTROL 名稱]**。
+1. 在&#x200B;**[!UICONTROL 授權型別]**&#x200B;下拉式功能表中，選取[要求]。
 1. 按一下「**[!UICONTROL 儲存變更]**」。
 
 使用「要求」授權建立存取層級後，請讓使用者使用其SSO憑證登入。

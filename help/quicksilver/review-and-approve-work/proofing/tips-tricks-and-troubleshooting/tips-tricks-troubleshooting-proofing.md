@@ -19,7 +19,7 @@ ht-degree: 0%
 
 * [在Adobe Workfront中列出具有校訂授權的使用者](../../../review-and-approve-work/proofing/tips-tricks-and-troubleshooting/report-which-users-have-proofing-license-in-wf.md)
 * [大量編輯校訂許可權設定檔欄位](../../../review-and-approve-work/proofing/tips-tricks-and-troubleshooting/edit-proof-profile-bulk.md)
-* [停用透過公開URL或內嵌程式碼共用校訂](../../../review-and-approve-work/proofing/tips-tricks-and-troubleshooting/disable-public-proofs.md)
+* [停用透過公用URL或內嵌程式碼共用校訂](../../../review-and-approve-work/proofing/tips-tricks-and-troubleshooting/disable-public-proofs.md)
 * [常見問題集：Adobe Workfront內的校訂 — 美國移轉至EMEA](../../../review-and-approve-work/proofing/tips-tricks-and-troubleshooting/faq-proofing-in-wf-us-to-emea-migration.md)
 * [上傳後檔名稱已變更，且包含無效字元](/help/quicksilver/review-and-approve-work/proofing/tips-tricks-and-troubleshooting/document-to-proof-name.md)
 * [校訂PowerPoint搭配內嵌視訊](/help/quicksilver/review-and-approve-work/proofing/tips-tricks-and-troubleshooting/powerpoint-with-video.md)

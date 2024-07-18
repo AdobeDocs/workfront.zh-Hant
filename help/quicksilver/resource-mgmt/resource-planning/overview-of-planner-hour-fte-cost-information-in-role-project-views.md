@@ -2,19 +2,19 @@
 content-type: overview
 product-area: resource-management
 navigation-topic: resource-planning
-title: 資源計畫員的「項目」和「職責」視圖中的小時數、FTE和成本資訊概覽
-description: 資源計畫員的「項目」和「職責」視圖中的小時數、FTE和成本資訊概覽
+title: 資源規劃工具之專案與角色檢視中的時數、約當全職人數及成本資訊概要
+description: 資源規劃工具之專案與角色檢視中的時數、約當全職人數及成本資訊概要
 author: Alina
 feature: Resource Management
 exl-id: 76de1945-3f19-4c91-801c-07dc79e646ad
 source-git-commit: 3486a2523a038bdd83c3c2001001a119fd0508ad
 workflow-type: tm+mt
-source-wordcount: '2973'
+source-wordcount: '2977'
 ht-degree: 0%
 
 ---
 
-# 資源計畫員的「項目」和「職責」視圖中的小時數、FTE和成本資訊概覽
+# 資源規劃工具之專案與角色檢視中的時數、約當全職人數及成本資訊概要
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: this came from the budget-resources-project-role-views-resource-planner article)</p>
@@ -24,78 +24,79 @@ ht-degree: 0%
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: relink all articles pointing to this section to the new article)</p>
 -->
 
-對資源進行預算，以使其在項目上必須完成的工作是資源計畫員的主要功能。 您可以檢視資源的可用時間，並將其時間分配給指派資源的專案。
+資源規劃工具的主要功能是為資源編列預算，以供其在專案上完成的工作。 您可以檢視資源的可用時間，並將其時間分配給指派給它們的專案。
 
-有關資源計畫員中預算資源的資訊，請參閱 [使用「項目」和「職責」視圖在資源計畫器中使用預算資源](../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md)
+如需資源規劃工具中預算資源的相關資訊，請參閱資源規劃工具中使用專案與角色檢視的[預算資源](../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md)
 
-本文介紹了在開始在資源計畫器中預算資源之前需要了解的一些重要概念。
+本文說明在資源規劃工具中開始為資源編列預算之前需要瞭解的一些關鍵概念。
 
-## 預算資源概覽
+## 預算資源概觀
 
-使用資源計畫器編製資源預算時，請考慮以下事項：
+使用資源規劃工具編列資源預算時，請考量下列事項：
 
-* 您可以指定資源可用於完成項目工作的小時數、FTE或成本，從而為資源分配預算。 在預算資源的時間或成本時，資源的可用小時數、FTE或成本將按預算金額減少。 因此，在您要為其編製預算的項目後面的項目的可用小時數、FTE或成本金額會減少這些用戶和這些項目上的角色。
+* 您可以指定資源可用於完成專案工作的「時數」、「約當全職人數」或「成本」金額，以預算資源配置。 當您為資源編列時間或成本預算時，資源的可用時數、約當全職人數或成本會減少預算金額。 因此，您正在編列預算之專案之後之專案的可用時數、約當全職人數或成本金額，會針對這些專案中的使用者與角色而減少。
 
-   >[!IMPORTANT]
-   >
-   >您可以將資源預算為15年。 如果為持續時間超過15年的項目預算資源，則預算資訊可能不準確。
+  >[!IMPORTANT]
+  >
+  >您可以為資源編列為期15年的預算。 如果您為持續期間超過15年的專案編列資源預算，預算資訊可能不準確。
 
-* 您可以為資源在資源計畫器中顯示的任意時間範圍預算小時數、FTE或成本，而不受項目時間軸的影響。 例如，如果您想要指明資源可能在項目時間軸期間不可用（在該時間軸與計畫小時數關聯），但在其他時間可能可用，則可以通過為計畫小時數為零的時間範圍編製預算來執行此操作（如果計畫小時數可用）。 在執行此操作後，您可以手動更改項目的時間表，以匹配資源可用性。
+* 您可以在「資源規劃工具」中顯示的任何時間範圍內，為資源預算「小時」、「約當全職人數」或「成本」，不受專案時間表的影響。 例如，如果您想要指出您的資源在專案的時間表期間可能無法使用（這些資源與計畫時數相關聯），但它們可能在另一個時間可供使用，您可以透過為計畫時數為零的時間範圍編列預算來執行此操作，前提是這些資源可供使用。 您可在執行此操作後，手動變更專案的時間表以符合您的資源可用性。
 
-   >[!NOTE]
-   >
-   >建議您先手動預算職務角色或用戶的小時數、FTE或成本。 只有在確定「計畫小時數」、「FTE」或「成本」的金額始終與「預算小時數」、「FTE」或「成本」相匹配時，您才能使用自動選項來為項目和資源預算時間。\
-   >有關在資源計畫員中使用預算自動選項的資訊，請參閱文章中的「自動預算項目和職責」部分 [使用Adobe Workfront資源計畫器複查資源可用性和分配](../../resource-mgmt/resource-planning/resource-availability-allocation-resource-planner.md).
+  >[!NOTE]
+  >
+  >建議您先手動為工作角色或使用者編列時數、約當全職人數或成本的預算。 只有在您確定計畫時數、約當全職人數或成本之金額一律符合您的預算時數、約當全職人數或成本時，您才可以使用自動選項來預算專案與資源的時間。\
+  >如需有關在資源規劃工具中使用自動預算選項的相關資訊，請參閱文章[使用Adobe Workfront資源規劃工具](../../resource-mgmt/resource-planning/resource-availability-allocation-resource-planner.md)檢閱資源可用性與配置中的「自動預算專案與角色」一節。
 
-* 預算FTE或成本與預算小時相同，在預算小時中，Adobe Workfront會使用FTE和成本值，而不是您預算的資源的小時數。
+* 編列預算FTE或成本與編列預算時數相同，其中Adobe Workfront會使用FTE和成本值，而非您編列預算之資源的時數。
 
-   有關了解如何在資源計畫器中計算成本的詳細資訊，請參閱 [在資源計畫器中計算成本](../../resource-mgmt/resource-planning/calculate-costs-resource-planner.md).
+  如需瞭解如何在資源規劃工具中計算成本的詳細資訊，請參閱[在資源規劃工具中計算成本](../../resource-mgmt/resource-planning/calculate-costs-resource-planner.md)。
 
-* 在「資源計畫器」中為資源分配預算分配的方法如下：
+* 資源規劃工具中資源的預算配置可透過下列方式完成：
 
    * 手動
 
-      或
+     或
 
-   * 自動，借由在 **依專案檢視** 和 **按角色查看** 檢視。
-   如需詳細資訊，請參閱 [使用「項目」和「職責」視圖在資源計畫器中使用預算資源](../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md).
+   * 使用&#x200B;**依專案檢視**&#x200B;和&#x200B;**依角色檢視**&#x200B;檢視中的專案和角色選項，自動執行。
 
-* 當用戶更改作業角色、從資源池中刪除、停用或刪除時，該角色的預算小時數不會更改，並且這些小時會被重新分配給該角色中的其餘用戶。 如果再沒有任何使用者與工作角色相關聯，該角色的「已預算小時數」將變為零。
+  如需詳細資訊，請參閱資源規劃工具中使用專案和角色檢視的[預算資源](../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md)。
 
-如需專案和角色選項的詳細資訊，請參閱區段 [了解資源計畫員中的小時數、FTE和成本值](#understand-the-values-of-hours-fte-and-cost-in-the-resource-planner) 這篇文章。
+* 當使用者變更工作角色，被刪除、停用或從資源集區中移除時，為角色預算的時數未變更並且它們被重新分配給角色中的其餘使用者。 如果沒有任何使用者再與工作角色相關聯，該角色的預算時數將變為零。
 
-## 了解資源計畫員中的小時數、FTE和成本值 {#understand-the-values-of-hours-fte-and-cost-in-the-resource-planner}
+如需有關專案和角色選項的詳細資訊，請參閱本文章[瞭解資源規劃工具](#understand-the-values-of-hours-fte-and-cost-in-the-resource-planner)中的時數、約當全職人數和成本值。
+
+## 瞭解資源規劃工具中的時數、約當全職人數和成本值 {#understand-the-values-of-hours-fte-and-cost-in-the-resource-planner}
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(this needs to be broken into its own article and leave here just the how-to: see this article: overview-of-planner-hour-fte-cost-information-in-role-project-views)</p>
 -->
 
-在對資源進行預算以及在資源計畫器中更新預算小時數資訊之前，您必須熟悉以下概念
+在將資源編列預算以及更新資源規劃工具中的預算時數資訊之前，您必須熟悉下列概念
 
-* **計畫小時數、FTE或成本**:需要根據任務和問題的定義完成的工作。
-* **可用小時數、FTE或成本**:根據與用戶關聯的計畫，用戶或作業角色可用於工作的時間。
+* **計畫時數、FTE或成本**：需要完成的工作（如任務和問題上的定義）。
+* **可用時數、FTE或成本**：根據與使用者關聯的排程，使用者或工作角色可用的工作時間。
 
-此資訊顯示在資源計畫器中，用於每個資源（用戶或角色）和每個項目。
+此資訊會顯示在每個資源（使用者或角色）和每個專案的資源規劃工具中。
 
-如需專案中顯示項目和角色檢視項目相關資訊，請參閱文章 [資源計畫員導航概覽](../../resource-mgmt/resource-planning/resource-planner-navigation.md).
+有關專案的專案和角色檢視中顯示的資訊，請參閱文章[資源規劃工具導覽概觀](../../resource-mgmt/resource-planning/resource-planner-navigation.md)。
 
-有關了解如何在資源計畫器中計算成本的資訊，請參閱文章 [在資源計畫器中計算成本](../../resource-mgmt/resource-planning/calculate-costs-resource-planner.md).
+如需瞭解如何在資源規劃工具中計算成本的資訊，請參閱文章[在資源規劃工具中計算成本](../../resource-mgmt/resource-planning/calculate-costs-resource-planner.md)。
 
 >[!NOTE]
 >
->按成本編製預算與按小時數或FTE編製預算相同，但您必須了解Workfront如何計算資源計畫員的成本。
+>按成本編列預算與按小時或約當全職人數編列預算相同，但您必須瞭解Workfront如何計算資源規劃工具的成本。
 >
->有關如何在資源計畫器中計算成本的資訊，請參閱文章 [在資源計畫器中計算成本](../../resource-mgmt/resource-planning/calculate-costs-resource-planner.md).
+>如需有關如何在資源規劃工具中計算成本的資訊，請參閱文章[在資源規劃工具中計算成本](../../resource-mgmt/resource-planning/calculate-costs-resource-planner.md)。
 
-下表顯示了在應用項目或角色視圖時在資源計畫器中顯示的分配和可用性資訊。 您可以按小時、FTE或成本查看此資訊：
+下表顯示套用「專案」或「角色」檢視時，「資源規劃工具」中顯示的配置與可用性資訊。 您可以按小時、約當全職人數或成本檢視此資訊：
 
-* [AVL（可用）欄](#the-avl-available-column)
-* [「PLN（計畫）」列](#the-pln-planned-column)
-* [BDG（預算）欄](#the-bdg-budgeted-column)
-* [VAR（變數）欄](#the-var-variance-column)
-* [NET列](#the-net-column)
+* [AVL （可用）資料行](#the-avl-available-column)
+* [計畫（計畫）資料行](#the-pln-planned-column)
+* [預算(BDG)資料行](#the-bdg-budgeted-column)
+* [VAR （變數）資料行](#the-var-variance-column)
+* [NET欄](#the-net-column)
 
-### AVL（可用）欄 {#the-avl-available-column}
+### AVL （可用）欄 {#the-avl-available-column}
 
 <table style="table-layout:auto"> 
  <col> 
@@ -107,39 +108,39 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td>專案 </td> 
-   <td> <p>項目上所有用戶都可以根據其計畫在所選時間範圍內工作的小時數、FTE或成本總計。 </p> </td> 
+   <td> <p>專案上所有使用者在選取的時間範圍內根據其排程可工作的小時、約當全職人數或成本總計。 </p> </td> 
   </tr> 
   <tr> 
    <td>角色</td> 
-   <td> <p>與此角色關聯的所有用戶均可根據其計畫和計畫工作的小時數、FTE或成本合計 <strong>FTE可用性百分比</strong> 針對該特定角色，針對所選時間範圍。 </p> <p>請考量下列事項： </p> 
+   <td> <p>在選取的時間範圍內，與此角色相關的所有使用者可根據其排程和他們在該特定角色的<strong>FTE可用性百分比</strong>工作的時數、FTE或成本總計。 </p> <p>請考量下列事項： </p> 
     <ul> 
-     <li>如果沒有用戶與作業角色相關聯，則作業角色的「可用小時數」值為零。 </li> 
-     <li>如果用戶與主要作業角色相關聯，但 <strong>FTE可用性百分比</strong> 對於角色為0%，工作角色「可用小時數」值為零。</li> 
-     <li>如果使用者與「其他角色」相關聯，且 <strong>FTE可用性百分比</strong> 對於角色為0%，「其他角色」不會列在「資源規劃器」中，用戶只會顯示在其「主要角色」下。</li> 
-    </ul> <p>如需 <strong>FTE可用性百分比</strong> 如需工作角色，請參閱文章 <a href="../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md" class="MCXref xref">編輯使用者的設定檔</a>.</p> <p>有關如何在資源計畫員中計算任務職責可用性的詳細資訊，請參閱文章中的「計算資源計畫員中任務職責的可用小時數和FTE」部分 <a href="../../resource-mgmt/resource-planning/calculate-hours-fte-for-users-roles-resource-planner.md" class="MCXref xref">在資源計畫員中計算用戶和角色的小時數和FTE的概覽</a>.</p> </td> 
+     <li>如果沒有使用者與工作角色相關聯，則工作角色的「可用時數」值為零。 </li> 
+     <li>如果使用者與主要工作角色相關聯，但角色的FTE可用性<strong>百分比</strong>為0%，則工作角色可用時數值為零。</li> 
+     <li>如果使用者與其他角色相關聯，且角色的FTE可用性<strong>百分比</strong>為0%，則其他角色不會列在資源規劃工具中，使用者只會顯示在其主要角色下。</li> 
+    </ul> <p>如需有關工作角色的<strong> FTE可用性百分比</strong>的詳細資訊，請參閱文章<a href="../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md" class="MCXref xref">編輯使用者設定檔</a>。</p> <p>如需有關如何在資源規劃工具中計算工作角色可用性的詳細資訊，請參閱文章<a href="../../resource-mgmt/resource-planning/calculate-hours-fte-for-users-roles-resource-planner.md" class="MCXref xref">計算資源規劃工具中使用者和角色的時數和FTE的概觀</a>中的「計算資源規劃工具中工作角色的可用時數和FTE」一節。</p> </td> 
   </tr> 
   <tr> 
    <td>使用者</td> 
-   <td> <p>根據用戶的計畫，在所選時間範圍內，用戶可以工作的小時數、FTE或成本。 此數字減去與以下項目相關聯的小時數：</p> 
+   <td> <p>在所選的時間範圍內，使用者根據其排程可工作的小時、FTE或成本。 此數字減去與以下專案相關的時數：</p> 
     <ul> 
      <li>排程例外</li> 
-     <li>用戶超時</li> 
-     <li>為其他項目編列預算的時數。 </li> 
-    </ul> <p>用戶的可用小時數、FTE或成本根據以下條件進行更改： </p> 
+     <li>使用者的休假</li> 
+     <li>為其他專案編列的時數。 </li> 
+    </ul> <p>使用者的可用時數、FTE或成本會根據下列專案變更： </p> 
     <ul> 
-     <li>如何根據系統級別的「資源管理首選項」計算其計畫和FTE。<br><p>有關計算用戶和作業角色可用性的詳細資訊，請參閱文章 <a href="../../resource-mgmt/resource-planning/calculate-hours-fte-for-users-roles-resource-planner.md" class="MCXref xref">在資源計畫員中計算用戶和角色的小時數和FTE的概覽</a>.</p>
-     有關在Workfront中配置資源管理首選項的詳細資訊，請參見 <a href="../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md">配置資源管理首選項</a></li> 
+     <li>如何根據系統層級的Resource Management Preferences計算其排程和FTE。<br><p>如需有關計算使用者和工作角色可用性的詳細資訊，請參閱文章<a href="../../resource-mgmt/resource-planning/calculate-hours-fte-for-users-roles-resource-planner.md" class="MCXref xref">計算資源規劃工具</a>中使用者和角色的時數和FTE的概觀。</p>
+     如需有關在Workfront中設定資源管理偏好設定的詳細資訊，請參閱<a href="../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md">設定資源管理偏好設定</a></li> 
     </ul> 
     <ul> 
-     <li>the <strong>項目計畫優先順序</strong>，則會在使用者已編入工作預算時執行。<br>有關項目計畫優先順序如何影響用戶可用小時數的詳細資訊，請參閱 <a href="../../resource-mgmt/resource-planning/resource-planner-navigation.md" class="MCXref xref">資源計畫員導航概覽 </a>. </li> 
-    </ul> <p>如果計畫用戶停用，則停用日期後的可用小時數、FTE或成本為零。 <br>如需停用使用者的詳細資訊，請參閱文章 <a href="../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md" class="MCXref xref">停用或重新啟用使用者</a>.</p> </td> 
+     <li><strong>專案計畫優先順序</strong> （如果使用者已編列工作預算）。<br>如需有關專案計畫優先順序如何影響使用者可用時數的詳細資訊，請參閱<a href="../../resource-mgmt/resource-planning/resource-planner-navigation.md" class="MCXref xref">資源規劃工具導覽概觀</a>。 </li> 
+    </ul> <p>如果使用者已排定停用，則停用日期後幾天的可用時數、FTE或成本為零。 <br>如需停用使用者的詳細資訊，請參閱文章<a href="../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md" class="MCXref xref">停用或重新啟用使用者</a>。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 
 
-### 「PLN（計畫）」列 {#the-pln-planned-column}
+### 計畫（計畫）欄 {#the-pln-planned-column}
 
 <table style="table-layout:auto"> 
  <col> 
@@ -151,45 +152,45 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td>專案</td> 
-   <td> <p>項目下列出的所有任務角色或用戶的計畫小時數、FTE或成本合計，包括 <strong>無角色</strong> 或 <strong>無用戶</strong> 節，顯示所選時間範圍和項目的「項目詳細資訊」頁簽中顯示的內容。 </p> <p><b>附註</b>
+   <td> <p>專案下列出的所有工作角色或使用者的計畫時數、FTE或成本總計，包括所選時間範圍內的<strong>無角色</strong>或<strong>無使用者</strong>區段，並顯示在專案的[專案詳細資料]索引標籤中。 </p> <p><b>附註</b>
 
-人工調整每日用戶分配可能會更改資源計畫員中的每週、每月或每季計畫小時數值。 您可以使用工作負載平衡器手動調整任務和問題的每日用戶分配。 如需詳細資訊，請參閱 <a href="../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md" class="MCXref xref">在工作負載平衡器中管理用戶分配</a>.</p> </td>
+手動調整每日使用者配置可能會變更資源規劃工具中的每週、每月或每季計畫時數值。 您可以使用工作負載平衡器手動調整任務和問題的每日使用者分配。 如需詳細資訊，請參閱<a href="../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md" class="MCXref xref">在工作負載平衡器</a>中管理使用者配置。</p> </td>
 </tr> 
   <tr> 
    <td>角色</td> 
-   <td> <p>在所選時間範圍內，從分配給角色的所有任務中的計畫時數總計。 </p> <p>此 <strong>無角色</strong> 小節將顯示與未分配、分配給團隊(其小時數列於 <strong>無用戶</strong> 區段)，或指派給未與工作角色相關聯的使用者。 </p> </td> 
+   <td> <p>在選取的時間範圍內，從指派給角色的所有任務中計畫的時數總計。 </p> <p><strong>無角色</strong>區段將顯示與任務相關的計畫時數，這些任務可能是未指派、已指派給團隊（其時數列在<strong>無使用者</strong>區段中），或是已指派給未與工作角色相關聯的使用者。 </p> </td> 
   </tr> 
   <tr> 
    <td>使用者</td> 
-   <td> <p>在所選時間範圍內，從分配給某個特定角色的用戶的所有任務的計畫小時數。 </p> <p>此 <strong>無用戶</strong> 小節將顯示與未分配或分配給團隊的任務關聯的計畫小時數。 </p> </td> 
+   <td> <p>在選取的時間範圍內，從指派給特定角色中使用者的所有任務中計畫的時數。 </p> <p><strong>沒有使用者</strong>區段將顯示與未指派或指派給團隊的任務相關的計畫時數。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-檢視「計畫小時數」時，請考量下列事項：
+檢視計畫時數時，請考慮下列事項：
 
-* 雖然您在「項目」和「職責」視圖中看不到「資源計畫員」中有關任務分配的資訊，但「計畫小時數」金額來自項目中任務的「計畫小時數」。
-* 計畫小時數在任務持續時間內的每天分配給它們的每個資源。 任務持續時間基於任務計劃開始和完成日期，並包括該時段內的每個日曆日。\
-   Workfront在將「計畫時間」分發給使用者或專案時，會考量使用者或專案的排程。 在這種情況下，計畫小時數在任務持續時間內平均分配給每天，但不包括週末、休假天數和計畫例外。\
-   例如，如果按周顯示資源計畫員，並且您的任務跨越項目的多個周，則每週計畫小時數取決於該周內多少天屬於任務持續時間的一部分。 在按月或季度顯示資源計畫器以及任務跨越多個月或季度時，這同樣適用。\
-   此分配中不包括週末天數、排程例外和休假天數。
-* 計算每個資源的「計畫小時數」時包括以下任務類別：
+* 雖然您在「專案」和「角色」檢視的「資源規劃工具」中看不到任務配置的相關資訊，但計畫時數的金額來自於專案中任務的計畫時數。
+* 對於指派給任務的每個資源，計畫時數會平均分配給任務持續時間內的每一天。 「工期」是以任務的「計劃開始日期」和「完成日期」為基礎，並包含該時段內的每個行事曆日。\
+  當向使用者或專案分配計畫時數時，Workfront會考慮使用者或專案的排程。 在此情況下，計畫時數會平均分配到工作期間內的每一天，週末除外、休假天數和排程例外。\
+  例如，如果您按周顯示「資源規劃工具」，而您有專案上跨越多個周的任務，則每週的計畫時數取決於該周內的多少天屬於任務「工期」。 當按月或季度顯示資源規劃工具，以及任務跨越多個月或季度時，其作用類似。\
+  週末天數、排程例外和休假天數會從此分佈中排除。
+* 計算每個資源的計畫時數時，會包含下列任務類別：
 
-   * 分配給項目上資源池、作業角色或團隊中的用戶的任務\
-      如果將任務指派給團隊，則其分配將顯示在 **無角色** 和 **無用戶** 區段。 您可以看到與團隊相關聯的計畫小時數，但無法預算小時數，因為沒有任何角色或用戶與任務相關聯。
+   * 指派給資源集區、工作角色或專案團隊中使用者的任務\
+     如果任務已指派給團隊，則其配置將顯示在&#x200B;**無角色**&#x200B;和&#x200B;**無使用者**&#x200B;區段下。 您可以檢視與團隊關聯的計畫時數，但無法預算時數，因為沒有任何角色或使用者與任務相關聯。
 
-   * 未分配的任務
+   * 未指派任務
 
-* 資源計畫員中的計畫小時數不包含與以下項目關聯的計畫小時數：
+* 資源規劃工具中的計畫時數不包含與下列專案關聯的計畫時數：
 
-   * 上層任務
-   * 分配給沒有資源池的用戶的任務
-   * 問題，當 **包括來自問題的小時數** 設定已停用。
+   * 父系任務
+   * 指派給無資源集區之使用者的任務
+   * 問題，當&#x200B;**包含來自問題的時數**&#x200B;設定停用時。
 
-* 如果任務持續時間為零，計畫小時數不會顯示在資源計畫器中。
-* 未顯示與停用的使用者相關聯的計畫小時數。
+* 如果任務期間為零，則計畫時數不會顯示在資源規劃工具。
+* 未顯示與已停用使用者相關的計畫時數。
 
-### BDG（預算）欄 {#the-bdg-budgeted-column}
+### 預算(BDG)欄 {#the-bdg-budgeted-column}
 
 <table style="table-layout:auto"> 
  <col> 
@@ -201,20 +202,20 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td>專案</td> 
-   <td> <p>人工輸入，用於估計選定時間範圍內項目預算的小時數、FTE或成本。 </p> <p>在「項目」視圖中，您為項目預算的小時數將分配給項目下列出的作業角色。 每個角色的「計畫小時數」決定如何將「預算小時數」分配給這些角色。 預算小時數分配給具有較高計畫小時數值的角色。 </p> <p>在「角色」視圖中，您為項目預算的小時數不會分配給項目上的角色或用戶。 </p> </td> 
+   <td> <p>手動輸入以估計在選取的時間範圍內，您為專案編列預算的時數、約當全職人數或成本。 </p> <p>在「專案」檢視中，您為專案編列預算的時數會分配給專案下列出的職務角色。 每個角色的計畫時數金額決定如何將預算時數分配給角色。 預算時數會分配給具有較高計畫時數值的角色。 </p> <p>在「角色」檢視中，您為專案預算的時數不會分配給專案上的角色或使用者。 </p> </td> 
   </tr> 
   <tr> 
    <td>角色</td> 
-   <td> <p>人工輸入，用於估計選定時間範圍內某個職責的預算小時數。 </p> <p>如果沒有任何用戶與職務角色相關聯，則無法估計職務角色的預算小時數。 </p> <p>在「角色」視圖中，您為角色預算的小時數將分配給該角色下列出的項目。 每個項目的「計畫小時數」量決定如何將「預算小時數」分配給項目。 預算小時數分配給計畫小時數值較高的項目。</p> <p>在「項目」視圖中，您為角色預算的小時數不會分配給與角色關聯的項目或用戶。 </p> </td> 
+   <td> <p>手動輸入以估計您為某個角色在選定時間範圍內編列預算的時數。 </p> <p>如果沒有與工作角色相關聯的使用者，則您無法估計工作角色的預算時數。 </p> <p>在「角色」檢視中，您為角色編列預算的時數會分配至該角色下列出的專案。 每個專案的計畫時數金額會決定如何將預算時數分配給專案。 預算時數會分配給具有較高計畫時數值的專案。</p> <p>在「專案」檢視中，您為角色編列預算的時數不會分配至專案或與角色相關聯的使用者。 </p> </td> 
   </tr> 
   <tr> 
    <td>使用者</td> 
-   <td> <p>人工輸入，用於估計所選時間範圍內用戶預算的小時數。 </p> <p> <p><b>注意</b>   您可以估計未分配給任務，但與項目上的資源池關聯的用戶的預算小時數，因為這些用戶也顯示在資源計畫器中。 但是，如果未將計畫小時數分配給任務，則其計畫小時數應為零。 </p> </p> </td> 
+   <td> <p>手動輸入，用於估計在選取的時間範圍內，為使用者預算的時數。 </p> <p> <p><b>附註</b>   您可以為未指派給任務，但與專案上的資源集區相關聯的使用者估計預算時數，因為這些使用者也會出現在資源規劃工具中。 但是，如果它們未指派給任務，則其計畫時數應為零。 </p> </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-使用預算小時數時，請考量下列事項：
+使用預算時數時，請考慮下列事項：
 
 <!--
 <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -222,26 +223,26 @@ ht-degree: 0%
 </MadCap:conditionalText>
 -->
 
-* 只有在對項目具有「編輯」「資源管理」和「財務資料」的訪問權限和「管理財務」權限時，才能對資源進行預算。
+* 只有當您對專案具有「資源管理」和「財務資料」的「編輯」存取權和「管理財務」許可權時，才能為資源編列預算。
 
-   有關預算資源所需的訪問權限的資訊，請參閱文章 [獲得Adobe Workfront預算資源所需資源](../../resource-mgmt/resource-planning/access-needed-to-budget-resources.md).
+  如需有關預算資源所需存取權的資訊，請參閱文章[在Adobe Workfront中預算資源所需的存取權](../../resource-mgmt/resource-planning/access-needed-to-budget-resources.md)。
 
-* 預設情況下，資源計畫器中的預算小時數為所有資源和所有項目的預算小時數為零。
-* 您可以手動估計用戶和角色的預算小時數，也可以使用項目或職務角色中的一個連結 **更多** 功能表，以根據「計畫小時數」來更新。\
-   如需專案和角色選項的詳細資訊，請參閱 [資源計畫員的「項目」和「職責」視圖中的小時數、FTE和成本資訊概覽](#Budget) 這篇文章。
+* 依預設，資源規劃工具中的預算時數，對於所有資源和所有專案都是零。
+* 您可以手動估計使用者和角色的預算時數，或者您可以使用專案或工作角色&#x200B;**更多**&#x200B;選單中的其中一個連結，根據計畫時數來更新它們。\
+  如需有關專案和角色選項的詳細資訊，請參閱本文中資源規劃工具](#Budget)的專案和角色檢視中的[時數概觀、約當全職人數和成本資訊一節。
 
-* 可以預算小時數、FTE或成本的最短時間是一週。 您不能預算一天的小時數、FTE或成本。
-* 在任務的持續時間內，為分配給任務的每個資源，預算小時數平均分配給每天。 任務持續時間基於任務計劃開始和完成日期，並包括該時段內的每個日曆日。\
-   Workfront在將預算小時數分發給使用者或專案時，會考量使用者或專案的排程。 在這種情況下，預算小時數在任務持續時間（不包括週末）內平均分配給每天，但包括超時和計畫例外。\
-   例如，如果按周顯示資源規劃器，並且您的任務跨越了多周，則每週預算小時數取決於該周內多少天是任務持續時間的一部分。 此分送會排除週末天數。 在按月或季度顯示資源計畫器以及任務跨越多個月或季度時，這同樣適用。
+* 您可以為預算小時、FTE或成本的最小期間是一週。 您無法編列一天的時數、約當全職人數或成本的預算。
+* 預算時數會平均分配給任務期間內的每一天，適用於指派給他們的每個資源。 「工期」是以任務的「計劃開始日期」和「完成日期」為基礎，並包含該時段內的每個行事曆日。\
+  將預算時數分配給使用者或專案時，Workfront會考慮使用者或專案的排程。 在這種情況下，預算時數會平均分配到工作期間內的每一天，週末除外，但包括休假和排程例外狀況。\
+  例如，如果按周顯示「資源規劃工具」，而您的任務跨越數週，則每週的預算時數取決於該周內的天數是任務「工期」的一部分。 週末會從此分佈中排除。 當按月或季度顯示資源規劃工具，以及任務跨越多個月或季度時，其作用類似。
 
-* 您可以選擇「預算小時數」作為新報表的報表對象，以報告「預算小時數」。\
-   如需可在Workfront中報告哪些物件的詳細資訊，請參閱文章中的「報告物件」一節 [了解Adobe Workfront中的物件](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).\
-   有關建立「預算小時」報表的資訊，請參閱文章 [報告：預算小時數](../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/report-budgeted-hour.md).
+* 您可以選取預算時數作為新報告的報告物件，來報告預算時數。\
+  如需您可以在Workfront中報告哪些物件的相關資訊，請參閱[瞭解Adobe Workfront中的物件](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)一文中的「報告物件」一節。\
+  如需有關建立預算時數報表的資訊，請參閱文章[報表：預算時數](../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/report-budgeted-hour.md)。
 
-* 先前為之後已停用的使用者編列的小時數不會顯示。
+* 先前為稍後停用的使用者編列的時數不會顯示。
 
-### VAR（變數）欄 {#the-var-variance-column}
+### VAR （變數）欄 {#the-var-variance-column}
 
 <table style="table-layout:auto"> 
  <col> 
@@ -253,24 +254,24 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td>專案</td> 
-   <td> <p>「小時」、「FTE」或「成本差異」顯示項目是否有足夠的預算小時數來完成項目的所有計畫小時數。 </p> <p>項目小時數、FTE或成本差異使用以下公式計算：</p> <p><code>Project Hour, FTE, or Cost Variance = Project Budgeted Hours, FTE, or Cost - Project Planned Hours, FTE, or Cost</code> </p> </td> 
+   <td> <p>時數、FTE或成本差異會顯示您是否有足夠的專案預算時數來完成專案的所有計畫時數。 </p> <p>專案小時、約當全職人數或成本差異的計算公式如下：</p> <p><code>Project Hour, FTE, or Cost Variance = Project Budgeted Hours, FTE, or Cost - Project Planned Hours, FTE, or Cost</code> </p> </td> 
   </tr> 
   <tr> 
    <td>角色</td> 
-   <td> <p>「小時」、「FTE」或「成本差異」顯示職責是否有足夠的預算小時數、FTE或成本來完成分配給該職責的「計畫小時數」。 </p> <p>職責小時、FTE或成本差異使用以下公式計算：</p> <p><code>Role Hour, FTE, or Cost Variance = Role Budgeted Hours, FTE, or Cost - Role Planned Hours, FTE, or Cost</code> </p> </td> 
+   <td> <p>時數、FTE或成本差異會顯示您是否有足夠的預算時數、FTE或成本供角色完成指派給它的計畫時數。 </p> <p>角色時數、約當全職人數或成本差異的計算公式如下：</p> <p><code>Role Hour, FTE, or Cost Variance = Role Budgeted Hours, FTE, or Cost - Role Planned Hours, FTE, or Cost</code> </p> </td> 
   </tr> 
   <tr> 
    <td>使用者</td> 
-   <td> <p>小時數、FTE或成本差異顯示是否有足夠的預算小時數供用戶完成分配給它們的計畫小時數。 </p> <p>用戶小時數、FTE或成本差異使用以下公式計算：</p> <p><code>User Hours, FTE, or Cost Variance = User Budgeted Hours, FTE, or Cost - User Planned Hours, FTE, or Cost</code> </p> </td> 
+   <td> <p>時數、FTE或成本差異會顯示您是否有足夠的預算時數可供使用者完成指派給他們的計畫時數。 </p> <p>「使用者時數」、「約當全職人數」或「成本差異」的計算公式如下：</p> <p><code>User Hours, FTE, or Cost Variance = User Budgeted Hours, FTE, or Cost - User Planned Hours, FTE, or Cost</code> </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->當「小時數」、「FTE」或「成本差異」以紅色顯示時，您估計的預算小時數比需要完成的實際工作的「計畫小時數」要少。 在這種情況下，預算小時數可能不足以完成工作。
+>當時數、FTE或成本差異以紅色顯示時，您預估的預算時數少於需要完成之實際工作的計畫時數。 在此情況下，預算時數可能不足以完成工作。
 
-### NET列  {#the-net-column}
+### NET欄  {#the-net-column}
 
 <table style="table-layout:auto"> 
  <col> 
@@ -284,15 +285,15 @@ ht-degree: 0%
    <td>專案</td> 
    <td> 
     <div> 
-     <p>項目淨小時數、FTE或成本可能顯示以下其中一項： </p> 
+     <p>專案的「淨時數」、「約當全職人數」或「成本」會顯示下列其中一項： </p> 
      <ul> 
-      <li> <p>項目的可用時間或成本與預算時間或成本之間的差：</p> <p><code>Project Net Hours, FTE, or Cost = Project Available Hours, FTE, or Cost - Project Budgeted Hours, FTE, or Cost</code> </p> </li> 
-      <li> <p>啟用NET計算設定中的「使用計畫(PLN)」值時，項目的「可用時間」或「成本」與「計畫時間」或「成本」之間的差值： </p> <p><code>Project Net Hours, FTE, or Cost = Project Available Hours, FTE, or Cost - Project Planned Hours, FTE, or Cost</code>
+      <li> <p>可用的時間或成本與專案的預算時間或成本之間的差異：</p> <p><code>Project Net Hours, FTE, or Cost = Project Available Hours, FTE, or Cost - Project Budgeted Hours, FTE, or Cost</code> </p> </li> 
+      <li> <p>啟用NET計算設定中的「使用計畫(PLN)」值時，專案的可用時間或成本與計畫時間或成本之間的差異： </p> <p><code>Project Net Hours, FTE, or Cost = Project Available Hours, FTE, or Cost - Project Planned Hours, FTE, or Cost</code>
       </p>
 
-<p><b>筆尖</b></p>        
-  <p>只有當您自訂「顯示選取的項目」區段中的檢視時，才會套用此選項。</p>
-  <p>如需詳細資訊，請參閱 <a href="../../resource-mgmt/resource-planning/resource-availability-allocation-resource-planner.md" >使用Adobe Workfront資源計畫器複查資源可用性和分配</a> </p> 
+<p><b>秘訣</b></p>        
+  <p>只有當您自訂「顯示選取的專案」區段中的檢視時，才會套用此選項。</p>
+  <p>如需詳細資訊，請參閱<a href="../../resource-mgmt/resource-planning/resource-availability-allocation-resource-planner.md" >使用Adobe Workfront資源規劃工具</a>檢閱資源可用性和配置 </p> 
       </li> 
      </ul> 
     </div> </td> 
@@ -301,12 +302,12 @@ ht-degree: 0%
    <td>角色</td> 
    <td> 
     <div> 
-     <p>「淨小時數」、「FTE」或「成本」角色可能顯示以下任一項： </p> 
+     <p>「淨時數」、「約當全職人數」或「成本」角色會顯示下列其中一項： </p> 
      <ul> 
-      <li> <p>職責的可用時間或成本與預算時間或成本之間的差異：</p> <p><code>Role Net Hours, FTE, or Cost = Role Available Hours, FTE, or Cost - Role Budgeted Hours, FTE, or Cost</code> </p> </li> 
-      <li> <p><span>啟用NET計算設定中的「使用計畫(PLN)」值時，職責的「可用時間」或「成本」與「計畫時間」或「成本」之間的差值：</span> </p> <p><span><code>Role Net Hours, FTE, or Cost = Role Available Hours, FTE, or Cost - Role Planned Hours, FTE, or Cost</code></span> </p> <p><b>筆尖</b> <span>
+      <li> <p>可用時間或成本與角色的預算時間或成本之間的差異：</p> <p><code>Role Net Hours, FTE, or Cost = Role Available Hours, FTE, or Cost - Role Budgeted Hours, FTE, or Cost</code> </p> </li> 
+      <li> <p><span>當在NET計算設定中啟用使用計畫(PLN)值時，可用時間或成本與角色的計畫時間或成本之間的差異：</span> </p> <p><span><code>Role Net Hours, FTE, or Cost = Role Available Hours, FTE, or Cost - Role Planned Hours, FTE, or Cost</code></span> </p> <p><b>秘訣</b> <span>
 
-只有當您自訂「顯示選取的項目」區段中的檢視時，才會套用此選項。</span> </p> <p><span>如需詳細資訊，請參閱 </span><a href="../../resource-mgmt/resource-planning/resource-availability-allocation-resource-planner.md" class="MCXref xref">使用Adobe Workfront資源計畫器複查資源可用性和分配</a> </p> </li>
+只有當您自訂[顯示選取的專案]區段中的檢視時，才會套用此選項。</span> </p> <p><span>如需詳細資訊，請參閱</span><a href="../../resource-mgmt/resource-planning/resource-availability-allocation-resource-planner.md" class="MCXref xref">使用Adobe Workfront資源規劃工具檢閱資源可用性和配置</a> </p> </li>
 </ul>
 </div> </td>
 </tr> 
@@ -314,12 +315,12 @@ ht-degree: 0%
    <td>使用者</td> 
    <td> 
     <div> 
-     <p>用戶淨小時數、FTE或成本可能顯示以下任一項： </p> 
+     <p>使用者「淨時數」、「約當全職人數」或「成本」會顯示下列其中一項： </p> 
      <ul> 
-      <li> <p>用戶的可用時間或成本與預算時間或成本之間的差異：</p> <p><code>User Net Hours, FTE, or Cost = USer Available Hours, FTE, or Cost - User Budgeted Hours, FTE, or Cost</code> </p> </li> 
-      <li> <p><span>啟用NET計算設定中的「使用計畫(PLN)」值時，用戶的可用時間或成本與「計畫時間」或「成本」之間的差：</span> </p> <p><span><code>User Net Hours, FTE, or Cost = User Available Hours, FTE, or Cost - User Planned Hours, FTE, or Cost</code></span> </p> <p><b>筆尖</b> <span>
+      <li> <p>可用的時間或成本與使用者的預算時間或成本之間的差異：</p> <p><code>User Net Hours, FTE, or Cost = USer Available Hours, FTE, or Cost - User Budgeted Hours, FTE, or Cost</code> </p> </li> 
+      <li> <p><span>當在NET計算設定中啟用使用計畫(PLN)值時，可用的時間或成本與使用者的計畫時間或成本之間的差異：</span> </p> <p><span><code>User Net Hours, FTE, or Cost = User Available Hours, FTE, or Cost - User Planned Hours, FTE, or Cost</code></span> </p> <p><b>秘訣</b> <span>
 
-只有當您自訂「顯示選取的項目」區段中的檢視時，才會套用此選項。</span> </p> <p><span>如需詳細資訊，請參閱 </span><a href="../../resource-mgmt/resource-planning/resource-availability-allocation-resource-planner.md" class="MCXref xref">使用Adobe Workfront資源計畫器複查資源可用性和分配</a> </p> </li>
+只有當您自訂[顯示選取的專案]區段中的檢視時，才會套用此選項。</span> </p> <p><span>如需詳細資訊，請參閱</span><a href="../../resource-mgmt/resource-planning/resource-availability-allocation-resource-planner.md" class="MCXref xref">使用Adobe Workfront資源規劃工具檢閱資源可用性和配置</a> </p> </li>
 </ul>
 </div> </td>
 </tr> 
@@ -328,7 +329,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->**當「淨小時數」、「FTE」或「成本」顯示為紅色時，沒有足夠的可用時間或預算來覆蓋預算的時間或預算** 或與工作相關的計畫時間或成本。 在這種情況下，資源會過度分配。
+>**當淨時數、約當全職人數或成本顯示為紅色時，可用的時間或預算不足以涵蓋預算的**，或與工作相關的計畫時間或成本。 在這種情況下，資源會過度配置。
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(the table below is ideal but it does not transfer to Markdown)</p>

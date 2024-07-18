@@ -10,8 +10,8 @@ role: Developer
 exl-id: 7b594df5-c87f-45d4-b84a-cae17171e906
 source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
 workflow-type: tm+mt
-source-wordcount: '275'
-ht-degree: 7%
+source-wordcount: '268'
+ht-degree: 2%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 7%
 
 **URL**
 
-GET/metadata？id=[檔案或資料夾ID]
+/metadata？id=[檔案或資料夾識別碼]GET
 
 ## 查詢參數
 
@@ -46,7 +46,7 @@ GET/metadata？id=[檔案或資料夾ID]
 
  
 
-## 個回應
+## 回應
 
 <table style="table-layout:auto"> 
  <col> 
@@ -55,13 +55,13 @@ GET/metadata？id=[檔案或資料夾ID]
  <thead> 
   <tr> 
    <th>名稱 </th> 
-   <th>類型 </th> 
+   <th>型別 </th> 
    <th>說明</th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td>title </td> 
+   <td>標題 </td> 
    <td>字串 </td> 
    <td>檔案或資料夾的名稱</td> 
   </tr> 
@@ -109,7 +109,7 @@ GET/metadata？id=[檔案或資料夾ID]
 </table>
 
 **範例：** https://www.acme.com/api/metadata?id=12345
-<pre>{<br>title："My Document"，<br>kind："file"<br>id"："12345"，<br>viewLink："https://www.acme.com/viewDocument?id=12345"，<br>downloadLink："https://www.acme.com/downloadDocument?id=12345"，<br>mimetype："image/png"，<br>dateModified："20140605T17:39:45.251Z英吋，<br>大小： 「32554694」<br>}</pre>
+<pre>{<br>title："My Document"，<br>kind："file"<br>id"："12345"，<br>viewLink："https://www.acme.com/viewDocument?id=12345"，<br>downloadLink："https://www.acme.com/downloadDocument?id=12345"，<br>mimeType："image/png"，<br>dateModified："20140605T17:39:45.251Z"，<br>size："32554694"<br>}</pre>
 
 >[!NOTE]
 >

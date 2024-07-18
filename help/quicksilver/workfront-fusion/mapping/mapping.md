@@ -20,12 +20,12 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->[!DNL Adobe Workfront Fusion] 需要 [!DNL Adobe Workfront Fusion] 除了授權之外， [!DNL Adobe Workfront license].
+>除了[!DNL Adobe Workfront license]之外，[!DNL Adobe Workfront Fusion]還需要[!DNL Adobe Workfront Fusion]授權。
 
 本節包含下列文章：
 
-* [在中將資訊從一個模組對應到另一個模組 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md)
-* [關於對應檔案於 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/about-mapping-files.md)
-* [中的專案資料型別 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/item-data-types.md)
-* [將陣列對應 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-an-array.md)
-* [輸入強制 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/type-coercion.md)
+* [在 [!DNL Adobe Workfront Fusion]中將資訊從一個模組對應到另一個模組](../../workfront-fusion/mapping/map-information-between-modules.md)
+* [關於在 [!DNL Adobe Workfront Fusion]中對應檔案](../../workfront-fusion/mapping/about-mapping-files.md)
+* [ [!DNL Adobe Workfront Fusion]中的專案資料型別](../../workfront-fusion/mapping/item-data-types.md)
+* [在 [!DNL Adobe Workfront Fusion]中對應陣列](../../workfront-fusion/mapping/map-an-array.md)
+* [在 [!DNL Adobe Workfront Fusion]中鍵入強制](../../workfront-fusion/mapping/type-coercion.md)

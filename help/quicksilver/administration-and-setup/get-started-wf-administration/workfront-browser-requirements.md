@@ -2,7 +2,7 @@
 content-type: reference
 navigation-topic: get-started-with-workfront
 title: Workfront的瀏覽器需求
-description: 本文的資訊已移動。 請參閱Adobe Workfront瀏覽器需求。
+description: 本文資訊已移動。 請參閱Adobe Workfront瀏覽器需求。
 author: Caroline
 feature: System Setup and Administration
 role: Admin
@@ -18,4 +18,4 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->本文的資訊已移動。 請參閱 [Adobe Workfront瀏覽器需求](../../workfront-basics/workfront-browser-requirements.md).
+>本文資訊已移動。 請參閱[Adobe Workfront瀏覽器需求](../../workfront-basics/workfront-browser-requirements.md)。

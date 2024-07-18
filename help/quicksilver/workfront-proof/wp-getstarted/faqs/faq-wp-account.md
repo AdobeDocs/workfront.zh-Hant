@@ -4,77 +4,77 @@ product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: faqs-workfront-proof
 title: 常見問題集 —  [!DNL Workfront Proof] 帳戶
-description: 要開啟新帳戶，請轉到試用註冊頁並開啟試用帳戶。 然後，我們團隊的成員將與您聯繫，幫助您開始 [!DNL Workfront Proof].
+description: 若要開啟新帳戶，請移至試用註冊頁面，並開啟試用帳戶。 然後我們團隊的成員會與您連絡，協助您開始使用 [!DNL Workfront Proof]。
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 47092717-3895-40a3-9db1-0009638e2544
 source-git-commit: d5ffd576fcedf9b10dce5e5d5bd9245dd7f67ef8
 workflow-type: tm+mt
-source-wordcount: '874'
+source-wordcount: '869'
 ht-degree: 0%
 
 ---
 
-# 常見問題集 —  [!DNL Workfront Proof] 帳戶
+# 常見問題集 — [!DNL Workfront Proof]帳戶
 
 >[!IMPORTANT]
 >
->本文說明獨立產品中的功能 [!DNL Workfront Proof]. 有關內部校對的資訊 [!DNL Adobe Workfront]，請參閱 [校對](../../../review-and-approve-work/proofing/proofing.md).
+>本文提及獨立產品[!DNL Workfront Proof]中的功能。 有關[!DNL Adobe Workfront]內部校訂的資訊，請參閱[校訂](../../../review-and-approve-work/proofing/proofing.md)。
 
-## 如何開啟新 [!DNL Workfront Proof] 帳戶？
+## 如何開啟新的[!DNL Workfront Proof]帳戶？
 
-若要開啟新帳戶，請前往 [試用註冊頁面](https://www.proofhq.com/html/free-trial.html) 開個試用賬戶。 然後，我們團隊的成員將與您聯繫，幫助您開始 [!DNL Workfront Proof].
+若要開啟新帳戶，請移至[試用註冊頁面](https://www.proofhq.com/html/free-trial.html)並開啟試用帳戶。 然後我們團隊的成員會與您連絡，協助您開始使用[!DNL Workfront Proof]。
 
-如果您已熟悉系統且想要註冊付費計畫，請前往 *[!UICONTROL 設定]* *>* *[!UICONTROL 帳單]* 並將您的帳戶升級至我們的付費計畫。
+如果您已經知道系統並且想要註冊付費方案，請移至&#x200B;*[!UICONTROL 設定]* *>* *[!UICONTROL 帳單]*，並將您的帳戶升級為我們的付費方案之一。
 
 ## 如何將人員新增至我的帳戶？
 
-管理員和帳單管理員可將使用者新增至帳戶。 使用者擁有自己的控制面板，可協助他們管理工作，以及在帳戶中建立校樣和檔案。
+管理員和帳單管理員可將使用者新增至帳戶。 使用者擁有自己的控制面板，協助管理工作，並可在帳戶中建立校訂和檔案。
 
-請看 [使用 [!DNL Workfront Proof]](../../../workfront-proof/wp-mnguserscontacts/users/create-users.md) 了解如何將使用者新增至帳戶。
+請檢視[使用 [!DNL Workfront Proof]](../../../workfront-proof/wp-mnguserscontacts/users/create-users.md)建立使用者，瞭解如何將使用者新增至帳戶。
 
-## 我忘記了密碼，我能做什麼？
+## 我忘記了自己的密碼，該怎麼辦？
 
-前往 [登入頁面](https://app.proofhq.com/login) 按一下 *[!UICONTROL 忘記密碼]*. 我們將向您發送重置連結，該連結將允許您更改密碼。
+移至[登入頁面](https://app.proofhq.com/login)並按一下&#x200B;*[!UICONTROL 忘記密碼]*。 我們將以電子郵件寄送重設連結給您，讓您變更密碼。
 
-## 權限設定檔為何重要？
+## 許可權設定檔為何重要？
 
-權限設定檔會定義使用者對您帳戶中不同項目的存取權限。 如果您不希望別人看到他人的證明，或者您不想讓他們存取 [!UICONTROL 帳戶設定] 或 [!UICONTROL 帳單]. 請看 [校樣權限設定檔(位於 [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md) 文章，以查看 [!DNL Workfront Proof].
+許可權設定檔會定義使用者對您帳戶中不同專案的存取權。 如果您不想讓人員看到其他人的校樣，或您不想讓他們存取[!UICONTROL 帳戶設定]或[!UICONTROL 帳單]，這點很重要。 請檢視 [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)文章中的[校訂許可權設定檔，以檢視[!DNL Workfront Proof]中有哪些設定檔可用。
 
-如果您需要進一步微調權限，您可能需要考慮自訂設定檔。 這是 [!UICONTROL 無限制] 功能，可讓您使用自訂的權限建立自己的設定檔。 如需詳細資訊，請前往 [[!UICONTROL 使用 [!DNL Workfront Proof]]](../../../workfront-proof/wp-mnguserscontacts/users/create-and-manage-custom-profiles.md) 文章。
+如果您需要進一步微調許可權，建議您考慮使用自訂設定檔。 這是[!UICONTROL Unlimited]功能，可讓您使用自訂許可權建立自己的設定檔。 如需詳細資訊，請前往[[!UICONTROL 使用 [!DNL Workfront Proof]]](../../../workfront-proof/wp-mnguserscontacts/users/create-and-manage-custom-profiles.md)建立和管理自訂設定檔。
 
-## 證明角色和權限設定檔之間有何差異？
+## 校樣角色和許可權設定檔之間有何差異？
 
-校樣角色定義審核者應該能夠對校樣（評論、決策等）採取的動作。
+校訂角色定義檢閱者可對校訂執行哪些動作（評論、做出決定等）。
 
-權限設定檔會定義使用者在您的帳戶中應該能夠採取的動作（建立校樣、編輯其他人的校樣、管理帳戶設定等）。
+許可權設定檔會定義使用者可在您的帳戶中執行的動作（建立校樣、編輯其他人的校樣、管理帳戶設定等）。
 
-## 如何整理校樣？
+## 如何組織我的校樣？
 
-組織校樣和檔案的最常見方式是在帳戶中建立資料夾結構。 您可以有所需的資料夾和子資料夾。
+組織校樣和檔案的最常見方式是在帳戶中建立資料夾結構。 您可以視需要擁有儘可能多的資料夾和子資料夾。
 
-例如，您可以為每個客戶端建立單獨的資料夾，然後為每個項目建立不同的子資料夾。 或者，您也可以為專案建立資料夾，並為不同資產建立不同的子資料夾。 如果您喜歡，校樣建立者只需為建立的校樣分別建立自己的資料夾即可。 資料夾在 [資料夾 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/folders.md) 文章。
+例如，您可以為每個使用者端建立個別的資料夾，然後為每個專案建立不同的子資料夾。 或者，您也可以為專案建立資料夾，並為不同資產建立不同的子資料夾。 您也可以選擇校樣建立者，只需為他們建立的校樣建立自己的資料夾即可。 資料夾在 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/folders.md)文章中的[資料夾中有說明。
 
-*標籤* 是組織帳戶中校樣和檔案的另一種方式。 您可以將多個標籤套用至校樣和檔案，以便用於專案名稱、內容類型、用戶端名稱等。 您可以使用標籤來搜尋帳戶，然後對搜尋結果執行不同動作。 您也可以在自訂檢視中使用這些參數。 請看 [[!UICONTROL 建立和管理標籤] in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/create-and-manage-tags.md) 文章，以了解標籤的詳細資訊。
+*標籤*&#x200B;是在您的帳戶中組織校樣和檔案的另一種方式。 您可以將多個標籤套用至校訂和檔案，以便用於專案名稱、內容型別、使用者端名稱等。 您可以使用標籤來搜尋帳戶，然後對搜尋結果執行不同的動作。 您也可以在「自訂檢視」中使用它們。 請檢視 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/create-and-manage-tags.md)文章中的[[!UICONTROL 建立及管理標籤]以進一步瞭解標籤。
 
-## 如何為客戶提供控制面板？
+## 如何提供儀表板給我的客戶？
 
-您可以為其設定Satellite帳戶。 衛星是從中心帳戶中管理的獨立帳戶。 可以將多個衛星連接到同一集線器。
+您可以為其設定Satellite帳戶。 衛星是單獨的帳戶，從中心帳戶中進行管理。 您可以將多個衛星連線到同一個集線器。
 
-此設定可讓您為客戶提供控制面板，而無須將其新增至您自己的帳戶。 這是確保客戶只看到他們應查看的資訊的絕佳方法 — 衛星帳戶用戶看不到集線器帳戶的任何詳細資訊（或連接到同一集線器的任何其他衛星）。 衛星帳戶在 [中的衛星帳戶 [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/satellite-accounts/sat-accts-in-wp.md).
+此設定可讓您向客戶提供儀表板，而不需將其新增到您自己的帳戶。 這是確保您的使用者端只看到他們要看到的資訊的絕佳方式，因為衛星帳戶使用者看不到集線器帳戶的任何詳細資訊（或附加至相同集線器的任何其他衛星）。 在 [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/satellite-accounts/sat-accts-in-wp.md)的[附屬帳戶中進一步說明附屬帳戶。
 
-## 我可以使用 [!DNL Workfront Proof]?
+## 我可以使用[!DNL Workfront Proof]建立報告嗎？
 
-自訂檢視可在 [!UICONTROL 企業] 和 [!UICONTROL 無限制] 版本可讓您在帳戶中建立自己的檢視。 您可以選擇要包含在該檢視中的資訊、要使用的篩選器，以及如何排序資訊。 這是追蹤帳戶中校樣和檔案的絕佳工具，但也可作為報表工具使用 — 自訂檢視可匯出至 [!DNL Excel] 檔案，讓您進一步處理資料。
+[!UICONTROL Enterprise]和[!UICONTROL Unlimited]版本中可用的自訂檢視可讓您在帳戶中建立自己的檢視。 您可以選擇要包含在該檢視中的資訊、要使用的篩選條件以及如何排序資訊。 這是追蹤您帳戶中校訂和檔案的絕佳工具，但也可作為報告工具 — 可將自訂檢視匯出至[!DNL Excel]檔案，讓您進一步處理資料。
 
-如需詳細指示，請參閱 [在中建立和管理自訂檢視 [!DNL Workfront Proof] 校樣](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/create-and-manage-custom-views.md) 頁面。
+在[在 [!DNL Workfront Proof] 校訂](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/create-and-manage-custom-views.md)頁面中建立及管理自訂檢視有詳細的指示。
 
-## 如果有人意外刪除校樣，我該怎麼辦？
+## 如果有人意外刪除校樣，我該怎麼做？
 
-校樣被刪除時，會移至 [!UICONTROL 垃圾] 資料夾。 如果您誤刪了某個項目，則無需擔心 — 如果您能夠刪除校樣，也可以從垃圾桶復原。 只要前往 [!UICONTROL 垃圾]，選取您刪除的校樣，然後按一下 *[!UICONTROL 還原]*.
+刪除校訂時，它會被移至側邊欄中的[!UICONTROL 垃圾桶]資料夾。 如果您誤刪了某些專案，請不要擔心；如果您能刪除校訂，也可以從垃圾桶復原它。 只要移至[!UICONTROL 垃圾桶]，挑選您刪除的校訂，然後按一下&#x200B;*[!UICONTROL 還原]*。
 
-如需垃圾桶資料夾的詳細資訊，請參閱 [還原並清空 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/restore-and-empty-trash.md) 文章。
+有關「垃圾桶」資料夾的詳細資訊，請參閱[還原及清空 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/restore-and-empty-trash.md)中的垃圾桶。
 
-## 我該如何為 [!DNL Workfront Proof] 訂閱？
+## 如何為我的[!DNL Workfront Proof]訂閱付款？
 
-每月訂閱僅由信用卡支付。 年度訂閱可以在信用卡和銀行轉賬之間進行選擇。 <!--Visit the [Account Payment in [!DNL Workfront Proof]](../../../workfront-proof/wp-billingsettings/manage-your-billing/acct-payment-in-wp.md) help page for additional information.-->
+每月訂閱僅以信用卡支付。 年度訂閱可選擇信用卡或銀行轉帳。<!--Visit the [Account Payment in [!DNL Workfront Proof]](../../../workfront-proof/wp-billingsettings/manage-your-billing/acct-payment-in-wp.md) help page for additional information.-->

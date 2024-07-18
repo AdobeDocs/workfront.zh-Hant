@@ -2,73 +2,73 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: '''報告：組合任務和問題視圖和分組」'
-description: 此工作項報告顯示用戶已接受在一個報告中處理的任務和問題。 與自定義分組結合是最好的。
+title: 「報告：合併的任務和問題檢視和分組」
+description: 此工作專案報告顯示使用者已接受在一個報告中處理的任務和問題。 最好與自訂分組結合。
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: 6eaae772-229d-44ea-b285-cbaf9e46eade
 source-git-commit: 661f925b4e485069122ef4278b2914d206387974
 workflow-type: tm+mt
-source-wordcount: '397'
-ht-degree: 0%
+source-wordcount: '395'
+ht-degree: 1%
 
 ---
 
-# 報告：組合任務和問題視圖和分組
+# 報告：合併的任務和問題檢視和分組
 
-此工作項報告顯示用戶已接受在一個報告中處理的任務和問題。 與自定義分組結合是最好的。
+此工作專案報告顯示使用者已接受在一個報告中處理的任務和問題。 最好與自訂分組結合。
 
-此報表使用 `sharecol=true` 在視圖中將多個欄位合併到同一列標題下。 有關 `sharecol` 標籤，請參閱 [視圖：從一個共用列中的多個列合併資訊](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-merge-columns.md)。
+此報告在檢視中使用`sharecol=true`來合併相同欄標題下的多個欄位。 如需`sharecol`標籤的詳細資訊，請參閱[檢視：合併一個共用資料行中多個資料行的資訊](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-merge-columns.md)。
 
 >[!TIP]
 >
-> 「工作項目」視圖僅顯示已被分配給它們的用戶接受的任務和問題。 此報表不顯示尚未從「工作請求」或「團隊請求」清單中移入用戶的「工作時間」清單的工作項。
+> 「工作專案」檢視只會顯示指派給他們的使用者所接受的任務和問題。 此報告不顯示尚未從「工作請求」或「團隊請求」清單移入使用者「正在處理」清單的工作專案。
 
-![work_item_report_png](assets/work-item-report-350x46.png)
+![work_item_report.png](assets/work-item-report-350x46.png)
 
-## 訪問要求
+## 存取需求
 
-您必須具有以下訪問權限才能執行本文中的步驟：
+您必須具有下列存取權才能執行本文中的步驟：
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront計畫</td> 
+   <td role="rowheader">Adobe Workfront計畫*</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront許可證*</td> 
+   <td role="rowheader">Adobe Workfront授權*</td> 
    <td> <p>計劃 </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">訪問級別配置*</td> 
-   <td> <p>編輯對報表、儀表板、日曆的訪問</p> <p>編輯對篩選器、視圖、分組的訪問</p> <p><b>附註</b>
+   <td role="rowheader">存取層級設定*</td> 
+   <td> <p>編輯報告、儀表板、行事曆的存取權</p> <p>編輯對篩選器、檢視、群組的存取權</p> <p><b>附註</b>
 
-如果您仍然沒有訪問權限，請詢問您的Workfront管理員是否在您的訪問級別設定了其他限制。 有關Workfront管理員如何修改您的訪問級別的資訊，請參見 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自定義訪問級別</a>。</p> </td>
+如果您還是沒有存取權，請詢問您的Workfront管理員，他們是否在您的存取層級中設定其他限制。 如需Workfront管理員如何修改存取層級的詳細資訊，請參閱<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>。</p> </td>
 </tr> 
   <tr> 
-   <td role="rowheader">對象權限</td> 
-   <td> <p>管理對報表的權限</p> <p>有關請求附加訪問的資訊，請參見 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">請求訪問對象 </a>。</p> </td> 
+   <td role="rowheader">物件許可權</td> 
+   <td> <p>管理報表的許可權</p> <p>如需請求其他存取權的資訊，請參閱<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">請求物件</a>的存取權。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;要瞭解您擁有的計畫、許可證類型或訪問權限，請與您的Workfront管理員聯繫。
+&#42;若要瞭解您擁有的計畫、授權型別或存取權，請連絡您的Workfront管理員。
 
-## 使用組合任務和問題視圖和分組構建報告
+## 建立包含合併任務和問題的報告檢視和分組
 
-要使用此視圖生成報表，請執行以下操作：
+若要使用此檢視建立報表：
 
-1. 從 **主菜單** ![](assets/main-menu-icon.png)按一下 **報告**。
+1. 從&#x200B;**主功能表** ![](assets/main-menu-icon.png)，按一下&#x200B;**報表**。
 
-1. 按一下 **新建報表** 選擇對象 **工作項** 的下界。
+1. 按一下&#x200B;**新報告**，然後從下拉式功能表中選取物件&#x200B;**工作專案**。
 
-1. 在&#x200B;**列預覽** 的上界。
-1. 按一下&#x200B;**切換到文本模式**。
-1. 將滑鼠移到文本模式區域上，然後按一下 **按一下可編輯文本**。
-1. 刪除在中查找的文本 **文本模式** 框，並用以下代碼替換它：
+1. 在&#x200B;**欄預覽**&#x200B;區域中，按一下唯一顯示的欄標題。
+1. 按一下&#x200B;**切換到文字模式**。
+1. 將滑鼠移到文字模式區域上，然後按一下&#x200B;**按一下以編輯文字**。
+1. 移除您在&#x200B;**文字模式**&#x200B;方塊中找到的文字，並取代為下列程式碼：
 
    ```
    column.0.description=Task or Issue 
@@ -259,9 +259,9 @@ ht-degree: 0%
    column.15.width=1
    ```
 
-1. （可選）按一下 **分組** 來修改標籤元素的屬性。
-1. （可選）如果要添加分組，請按一下 **切換到文本模式**。
-1. （可選）用以下代碼替換分組文本模式區域內的文本：
+1. （選用）按一下「**群組**」，將群組新增至報表。
+1. （選擇性）如果您正在新增群組，請按一下&#x200B;**切換到文字模式**。
+1. （可選）將分組文字模式區域中的文字取代為下列程式碼：
 
    ```
    group.0.name=
@@ -270,6 +270,6 @@ ht-degree: 0%
    textmode=true
    ```
 
-   此分組將所有任務和所有問題分組在一起。
+   此分組將所有任務和問題分組在一起。
 
-1. 按一下 **保存+關閉**。
+1. 按一下「**儲存並關閉**」。

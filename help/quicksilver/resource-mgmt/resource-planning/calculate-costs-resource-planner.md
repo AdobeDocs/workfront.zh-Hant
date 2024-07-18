@@ -8,7 +8,7 @@ feature: Resource Management
 exl-id: 2f3ca8c2-51b3-4282-af8b-7f433365d386
 source-git-commit: f66a6c340d8789db447c860d995d9836a30eeeb0
 workflow-type: tm+mt
-source-wordcount: '1445'
+source-wordcount: '1458'
 ht-degree: 0%
 
 ---
@@ -21,16 +21,16 @@ ht-degree: 0%
 
 <!--'(Alina: ***Linked to the Planning in the Resource Planner article, Understanding areas of the Resource Planner. - do not move/ change/ delete.)'-->
 
-您可以在Adobe Workfront資源規劃工具中使用成本值（而不是時數或FTE值）來預算資源。 成本值不適用於&#x200B;**依使用者檢視** 檢視資源規劃工具。
+您可以在Adobe Workfront資源規劃工具中使用成本值（而不是時數或FTE值）來預算資源。 資源規劃工具中的&#x200B;**依使用者的檢視**&#x200B;檢視無法使用成本值。
 
 >[!IMPORTANT]
 >
 >您必須將使用者和職位角色與每小時成本費率相關聯，才能在資源規劃工具中顯示成本資訊。\
->如需將每小時成本費率與工作角色產生關聯的詳細資訊，請參閱 [建立和管理職位角色](../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).\
->如需將每小時成本費率與使用者產生關聯的詳細資訊，請參閱 [編輯使用者設定檔](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
+>如需將每小時成本費率與工作角色產生關聯的詳細資訊，請參閱[建立和管理工作角色](../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md)。\
+>如需將每小時成本費率與使用者產生關聯的詳細資訊，請參閱[編輯使用者的設定檔](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md)。
 
 在編列資源預算之前，請確定您已清楚瞭解需要完成的工作（計畫時數、約當全職人數或成本），以及使用者開放工作的時間（可用時數、約當全職人數或成本）。\
-如需按時數或約當全職人數編列預算時瞭解資源規劃工具中資訊的更多資訊，請參閱 [資源規劃工具之專案與角色檢視中的時數、約當全職人數及成本資訊概要](../../resource-mgmt/resource-planning/overview-of-planner-hour-fte-cost-information-in-role-project-views.md).
+如需有關在按時數或約當全職人數進行預算時瞭解資源規劃工具中資訊的更多資訊，請參閱資源規劃工具專案與角色檢視中的[時數概觀、約當全職人數和成本資訊](../../resource-mgmt/resource-planning/overview-of-planner-hour-fte-cost-information-in-role-project-views.md)。
 
 ## 存取需求
 
@@ -52,16 +52,16 @@ ht-degree: 0%
    <td role="rowheader">存取層級設定*</td> 
    <td> <p>編輯對資源管理的存取權，包括存取資源規劃工具中的編輯優先順序和預算時數</p> <p>編輯財務資料、專案和使用者的存取權</p> <p><b>附註</b>
 
-如果您還是沒有存取權，請詢問您的Workfront管理員，他們是否在您的存取層級中設定其他限制。 如需有關Workfront管理員如何變更您的存取層級的資訊，請參閱 <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>.</p> </td>
+如果您還是沒有存取權，請詢問您的Workfront管理員，他們是否在您的存取層級中設定其他限制。 如需Workfront管理員如何變更存取層級的詳細資訊，請參閱<a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>。</p> </td>
 </tr> 
   <tr> 
    <td role="rowheader">物件許可權</td> 
-   <td> <p>管理您要為其編列預算資訊之專案的許可權，並具備管理財務的能力</p> <p>如需請求其他存取許可權的詳細資訊，請參閱 <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">要求物件的存取權 </a>.</p> </td> 
+   <td> <p>管理您要為其編列預算資訊之專案的許可權，並具備管理財務的能力</p> <p>如需請求其他存取權的資訊，請參閱<a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">請求物件</a>的存取權。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;若要瞭解您擁有的計畫、授權型別或存取權，請聯絡您的Workfront管理員。
+&#42;若要瞭解您擁有的計畫、授權型別或存取權，請連絡您的Workfront管理員。
 
 ## 在資源規劃工具（依成本）中顯示資訊
 
@@ -69,19 +69,19 @@ ht-degree: 0%
 
 若要在資源規劃工具中依成本顯示可用、計畫和預算資訊：
 
-1. 按一下 **主要功能表** 圖示 ![](assets/main-menu-icon.png) 在Adobe Workfront的右上角。
+1. 按一下Adobe Workfront右上角的&#x200B;**主要功能表**&#x200B;圖示![](assets/main-menu-icon.png)。
 
-1. 按一下 **資源**.
+1. 按一下「**資源**」。
 1. 前往資源規劃工具。
-1. （視條件而定）選取 **依專案檢視** 或 **依角色檢視**.\
-   預設 **依專案檢視** 已選取。\
+1. （視條件而定）選取&#x200B;**依專案檢視**&#x200B;或&#x200B;**依角色檢視**。\
+   預設會選取&#x200B;**依專案檢視**。\
    配置和可用性資訊會以時數顯示。
 
-1. 從 **小時** 下拉式功能表，選取 **成本**.
+1. 從&#x200B;**小時**&#x200B;下拉式功能表中，選取&#x200B;**成本**。
 
    如果您無權存取存取存取層級中的財務資料，則此選項不可用。\
    如果專案的幣別與系統幣別不同，則這些專案的「成本」會顯示在以系統幣別轉換的資源規劃工具。 您的系統管理員會定義系統貨幣。\
-   如需在Workfront中設定系統貨幣和轉換率的詳細資訊，請參閱 [設定匯率](../../administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md).\
+   如需在Workfront中設定系統貨幣和轉換率的詳細資訊，請參閱[設定匯率](../../administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md)。\
    ![costs_in_the_planner_with_no_budgeting.png](assets/costs-in-the-planner-with-no-budgeting-350x240.png)
 
 ## 在資源規劃工具中計算可用成本
@@ -92,7 +92,7 @@ ht-degree: 0%
 * 有關使用者可用性的資訊。
 
   取得使用者可用性相關資訊取決於您的Workfront管理員如何設定資源管理偏好設定。\
-  如需有關計算使用者可用性及設定資源管理偏好設定的詳細資訊，請參閱 [設定資源管理喜好設定](../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md).
+  如需有關計算使用者使用狀態及設定資源管理喜好設定的詳細資訊，請參閱[設定資源管理喜好設定](../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md)。
 
 下表說明如何在「資源規劃工具」中計算「可用成本」：
 
@@ -137,8 +137,8 @@ ht-degree: 0%
    * 團隊\
      從資源規劃工具的角度來看，指派給團隊的任務會視為未指派。
 
-* 此 **成本型別** 專案上任務的。\
-  如需有關任務成本型別的詳細資訊，請參閱 [追蹤成本](../../manage-work/projects/project-finances/track-costs.md).
+* 專案上任務的&#x200B;**成本型別**。\
+  如需有關任務的成本型別的詳細資訊，請參閱[追蹤成本](../../manage-work/projects/project-finances/track-costs.md)。
 
 * 職務角色和使用者成本費率的有效日期。
 
@@ -150,7 +150,7 @@ ht-degree: 0%
 
 計算使用者、角色和專案的計畫成本時，有下列情況：
 
-* 當 **成本型別** 為**使用者小時**，且有 **無指派** 在任務上：
+* 當&#x200B;**成本型別**&#x200B;為**使用者小時**且任務上有&#x200B;**無指派**&#x200B;時：
 
    * **角色和使用者計畫成本**：
 
@@ -160,7 +160,7 @@ ht-degree: 0%
 
      專案計畫成本為$0.00。
 
-* 當 **成本型別** 是 **使用者小時** 而且有一個 **使用者指派** 在任務上：
+* 當&#x200B;**成本型別**&#x200B;為&#x200B;**使用者小時**，且任務中有&#x200B;**使用者指派**&#x200B;時：
 
    * **角色和使用者計畫成本**：
 
@@ -182,7 +182,7 @@ ht-degree: 0%
 
      專案計畫成本為$0.00。
 
-* 當 **成本型別** 是 **使用者小時** 而且有一個 **工作角色指派** 在任務上：
+* 當&#x200B;**成本型別**&#x200B;為&#x200B;**使用者小時**，且任務上有&#x200B;**工作角色指派**&#x200B;時：
 
    * **角色和使用者計畫成本**：
 
@@ -198,7 +198,7 @@ ht-degree: 0%
 
      專案計畫成本為$0.00。
 
-* 當 **成本型別** 是 **角色小時** 還有 **無指派** 在任務上：
+* 當&#x200B;**成本型別**&#x200B;為&#x200B;**每小時**&#x200B;角色，且任務上有&#x200B;**無指派**&#x200B;時：
 
    * **角色和使用者計畫成本**：
 
@@ -208,7 +208,7 @@ ht-degree: 0%
 
      專案計畫成本為$0.00。
 
-* 當 **成本型別** 是 **角色小時** 而且有一個 **使用者指派** 在任務上：
+* 當&#x200B;**成本型別**&#x200B;為&#x200B;**每小時**&#x200B;角色，且任務上有&#x200B;**使用者指派**&#x200B;時：
 
    * **角色和使用者計畫成本**：
 
@@ -228,7 +228,7 @@ ht-degree: 0%
 
      `Project Planned Cost = SUM(Role Planned Costs)`
 
-* 當 **成本型別** 是 **角色小時** 而且有一個 **工作角色指派** 在任務上：
+* 當&#x200B;**成本型別**&#x200B;為&#x200B;**角色每小時**，且任務上有&#x200B;**工作角色指派**&#x200B;時：
 
    * **角色和使用者計畫成本**：
 

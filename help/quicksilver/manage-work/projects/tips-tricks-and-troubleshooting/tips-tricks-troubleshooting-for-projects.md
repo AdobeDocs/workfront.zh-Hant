@@ -19,7 +19,7 @@ ht-degree: 0%
 
 * [專案常見問題集](../../../manage-work/projects/tips-tricks-and-troubleshooting/projects-faqs.md)
 * [專案狀態不會從完成變更為目前](../../../manage-work/projects/tips-tricks-and-troubleshooting/project-status-does-not-change-from-complete-to-current.md)
-* [計算範例 — 在專案層級計算EAC](../../../manage-work/projects/tips-tricks-and-troubleshooting/calculate-eac-at-project-level-example.md)
+* [計算範例 — 計算專案層級的EAC](../../../manage-work/projects/tips-tricks-and-troubleshooting/calculate-eac-at-project-level-example.md)
 * [計算範例 — 從任務累加計算EAC](../../../manage-work/projects/tips-tricks-and-troubleshooting/calculate-eac-by-rolling-up-from-tasks-example.md)
 
   <!--

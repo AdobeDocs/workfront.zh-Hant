@@ -53,112 +53,112 @@ ht-degree: 2%
  <tbody> 
   <tr> 
    <td>時間</td> 
-   <td> 如需有關記錄專案時間的資訊，請參閱 <a href="../../../timesheets/create-and-manage-timesheets/log-time.md" class="MCXref xref">記錄時間</a>. </td> 
+   <td> 如需有關記錄專案時間的資訊，請參閱<a href="../../../timesheets/create-and-manage-timesheets/log-time.md" class="MCXref xref">記錄時間</a>。 </td> 
    <td>✔</td> 
    <td>✔</td> 
    <td>✔</td> 
   </tr> 
   <tr> 
    <td> 成本</td> 
-   <td>如需有關追蹤成本的資訊，請參閱 <a href="../../../manage-work/projects/project-finances/track-costs.md" class="MCXref xref">追蹤成本</a>.</td> 
+   <td>如需有關追蹤成本的資訊，請參閱<a href="../../../manage-work/projects/project-finances/track-costs.md" class="MCXref xref">追蹤成本</a>。</td> 
    <td>✔</td> 
    <td>✔</td> 
    <td>✔</td> 
   </tr> 
   <tr> 
    <td>預算</td> 
-   <td> <p>如需有關編列專案預算的資訊，請參閱 <a href="../../../manage-work/projects/project-finances/manage-project-finance-area.md" class="MCXref xref">管理專案財務區域的資訊</a>.</p> <p>如需有關為專案編列預算資源的資訊，請參閱 <a href="../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case.md" class="MCXref xref">業務案例中的預算資源</a>.</p> </td> 
+   <td> <p>如需有關編列專案預算的資訊，請參閱<a href="../../../manage-work/projects/project-finances/manage-project-finance-area.md" class="MCXref xref">管理專案財務區域的資訊</a>。</p> <p>如需有關為專案編列預算資源的資訊，請參閱業務案例中的<a href="../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case.md" class="MCXref xref">預算資源</a>。</p> </td> 
    <td> </td> 
    <td>✔</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>付費記錄</td> 
-   <td>如需建立付費記錄的相關資訊，請參閱 <a href="../../../manage-work/projects/project-finances/create-billing-records.md" class="MCXref xref">建立付費記錄</a>.</td> 
+   <td>如需有關建立付費記錄的資訊，請參閱<a href="../../../manage-work/projects/project-finances/create-billing-records.md" class="MCXref xref">建立付費記錄</a>。</td> 
    <td> </td> 
    <td>✔</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>收入</td> 
-   <td> 如需有關帳單和收入的資訊，請參閱 <a href="../../../manage-work/projects/project-finances/billing-and-revenue-overview.md" class="MCXref xref">帳單與收入概要</a>. </td> 
+   <td> 如需有關帳單和收入的資訊，請參閱<a href="../../../manage-work/projects/project-finances/billing-and-revenue-overview.md" class="MCXref xref">帳單和收入概觀</a>。 </td> 
    <td>✔</td> 
    <td>✔</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>費用</td> 
-   <td>如需管理費用的相關資訊，請參閱 <a href="../../../manage-work/projects/project-finances/manage-project-expenses.md" class="MCXref xref">管理專案費用 </a>.</td> 
+   <td>如需管理費用的相關資訊，請參閱<a href="../../../manage-work/projects/project-finances/manage-project-expenses.md" class="MCXref xref">管理專案費用</a>。</td> 
    <td>✔</td> 
    <td>✔</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>收費率</td> 
-   <td> <p>您可以為使用者或工作角色建立收費率。</p> <p>如需將使用者與計費率建立關聯的資訊，請參閱 <a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md" class="MCXref xref">編輯使用者設定檔</a>.</p> <p>如需將職務角色與收費率相關聯的資訊，請參閱 <a href="../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md" class="MCXref xref">建立和管理職位角色</a>.</p> <p>記帳費率會計算您的專案與任務的收入。 您可以覆寫專案或公司的角色收費率。 </p> <p>如需有關覆寫專案收費率的資訊，請參閱 <a href="../../../manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md" class="MCXref xref">覆寫工作角色帳單費率與計算專案收入的概要</a>.</p> <p>如需有關覆寫公司收費率的資訊，請參閱 <a href="../../../manage-work/projects/project-finances/override-project-level-with-company-level-billing-rates.md" class="MCXref xref">以公司層級的收費率覆寫專案層級的收費率</a>.</p> </td> 
+   <td> <p>您可以為使用者或工作角色建立收費率。</p> <p>如需將使用者與計費率建立關聯的資訊，請參閱<a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md" class="MCXref xref">編輯使用者的設定檔</a>。</p> <p>如需將工作角色與收費率建立關聯的資訊，請參閱<a href="../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md" class="MCXref xref">建立及管理工作角色</a>。</p> <p>記帳費率會計算您的專案與任務的收入。 您可以覆寫專案或公司的角色收費率。 </p> <p>如需有關覆寫專案收費率的資訊，請參閱<a href="../../../manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md" class="MCXref xref">覆寫工作角色收費率和計算專案收入的概觀</a>。</p> <p>如需有關覆寫公司收費率的資訊，請參閱<a href="../../../manage-work/projects/project-finances/override-project-level-with-company-level-billing-rates.md" class="MCXref xref">以公司層級的收費率覆寫專案層級的收費率</a>。</p> </td> 
    <td>✔</td> 
    <td>✔</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>投資報酬率(ROI)</td> 
-   <td> 如需有關計算ROI的資訊，請參閱 <a href="../../../manage-work/projects/project-finances/calculate-roi.md" class="MCXref xref">計算投資報酬率(ROI)</a>. </td> 
+   <td> 如需有關計算ROI的資訊，請參閱<a href="../../../manage-work/projects/project-finances/calculate-roi.md" class="MCXref xref">計算投資報酬率(ROI)</a>。 </td> 
    <td> </td> 
    <td>✔</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>淨值風險</td> 
-   <td>有關計算淨值風險的資訊，請參閱 <a href="../../../manage-work/portfolios/portfolio-optimizer/calculate-risk-to-net-value-in-portfolio.md" class="MCXref xref">計算投資組合中淨值的風險</a>.</td> 
+   <td>如需有關計算淨值風險的資訊，請參閱<a href="../../../manage-work/portfolios/portfolio-optimizer/calculate-risk-to-net-value-in-portfolio.md" class="MCXref xref">計算投資組合中淨值風險</a>。</td> 
    <td> </td> 
    <td>✔</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>績效計量</td> 
-   <td> <p>績效量度會顯示您的專案或任務在指定時間的執行情形。 績效量度是Workfront對任務和專案執行的自動計算。 您可以在Workfront中計算的效能度量會列在下列各列。 績效量度的計算會因您使用的績效指數方法型別而異。 </p> <p>如需有關選取系統要使用的PIM的詳細資訊，請參閱 <a href="../../../manage-work/projects/project-finances/set-pim.md" class="MCXref xref">設定績效指數方法(PIM)</a>.</p> </td> 
+   <td> <p>績效量度會顯示您的專案或任務在指定時間的執行情形。 績效量度是Workfront對任務和專案執行的自動計算。 您可以在Workfront中計算的效能度量會列在下列各列。 績效量度的計算會因您使用的績效指數方法型別而異。 </p> <p>如需選取哪個PIM用於系統的詳細資訊，請參閱<a href="../../../manage-work/projects/project-finances/set-pim.md" class="MCXref xref">設定績效指數方法(PIM)</a>。</p> </td> 
    <td>✔</td> 
    <td>✔</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>完工估算(EAC)</td> 
-   <td> 如需有關計算EAC的資訊，請參閱 <a href="../../../manage-work/projects/project-finances/calculate-eac.md" class="MCXref xref">計算完工估算(EAC)</a>. </td> 
+   <td> 如需有關計算EAC的資訊，請參閱<a href="../../../manage-work/projects/project-finances/calculate-eac.md" class="MCXref xref">計算完工估算(EAC)</a>。 </td> 
    <td>✔</td> 
    <td>✔</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>排程績效指數(SPI)</td> 
-   <td>如需有關計算SPI的資訊，請參閱 <a href="../../../manage-work/projects/project-finances/calculate-spi.md" class="MCXref xref">計算排程績效指數(SPI) </a>.</td> 
+   <td>如需有關計算SPI的資訊，請參閱<a href="../../../manage-work/projects/project-finances/calculate-spi.md" class="MCXref xref">計算排程績效指數(SPI) </a>。</td> 
    <td>✔</td> 
    <td>✔</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>成本績效指數(CPI)</td> 
-   <td>如需有關計算CPI的資訊，請參閱 <a href="../../../manage-work/projects/project-finances/calculate-cpi.md" class="MCXref xref">計算成本績效指數(CPI)</a>.</td> 
+   <td>如需有關計算CPI的資訊，請參閱<a href="../../../manage-work/projects/project-finances/calculate-cpi.md" class="MCXref xref">計算成本績效指數(CPI)</a>。</td> 
    <td>✔</td> 
    <td>✔</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>成本排程績效指數(CSI)</td> 
-   <td>如需有關計算CSI的資訊，請參閱 <a href="../../../manage-work/projects/project-finances/calculate-cpi.md" class="MCXref xref">計算成本績效指數(CPI)</a>.</td> 
+   <td>如需有關計算CSI的資訊，請參閱<a href="../../../manage-work/projects/project-finances/calculate-cpi.md" class="MCXref xref">計算成本績效指數(CPI)</a>。</td> 
    <td>✔</td> 
    <td>✔</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>已排程工作的預算成本(BCWS)</td> 
-   <td>效能量度。 如需有關計算BCWS的資訊，請參閱 <a href="../../../manage-work/projects/project-finances/calculate-bcws.md" class="MCXref xref">計算已排程工作的預算成本(BCWS)</a>. </td> 
+   <td>效能量度。 如需有關計算BCWS的資訊，請參閱<a href="../../../manage-work/projects/project-finances/calculate-bcws.md" class="MCXref xref">計算排定工作的預算成本(BCWS)</a>。 </td> 
    <td>✔</td> 
    <td>✔</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>已執行工作的預算成本(BCWP)</td> 
-   <td>效能量度。 如需有關計算BCWP的資訊，請參閱 <a href="../../../manage-work/projects/project-finances/calculate-bcwp.md" class="MCXref xref">計算已執行工作的預算成本(BCWP) </a>.</td> 
+   <td>效能量度。 如需有關計算BCWP的資訊，請參閱<a href="../../../manage-work/projects/project-finances/calculate-bcwp.md" class="MCXref xref">計算已執行工作的預算成本(BCWP) </a>。</td> 
    <td>✔</td> 
    <td>✔</td> 
    <td> </td> 

@@ -21,5 +21,5 @@ ht-degree: 5%
 
 * [從您的檔案系統新增檔案至Adobe Workfront](../../documents/adding-documents-to-workfront/add-documents-from-file-system.md)
 * [從外部應用程式連結檔案](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md)
-* [移除Adobe Workfront和外部檔案儲存提供者之間的連結](../../documents/adding-documents-to-workfront/remove-links-between-wf-and-doc-apps.md)
+* [移除Adobe Workfront與外部檔案儲存提供者之間的連結](../../documents/adding-documents-to-workfront/remove-links-between-wf-and-doc-apps.md)
 * [請求文件](../../documents/adding-documents-to-workfront/request-a-document.md)

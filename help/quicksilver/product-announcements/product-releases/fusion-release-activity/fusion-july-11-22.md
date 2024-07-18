@@ -21,9 +21,9 @@ ht-degree: 0%
 
 本頁說明2022年7月11日當週在Adobe Workfront Fusion中所做的所有增強功能。
 
-如需所有最近變更的清單，請參閱 [Adobe Workfront Fusion發行活動](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
+如需所有最近變更的清單，請參閱[Adobe Workfront Fusion發行活動](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md)。
 
-如需Workfront Fusion中近期的錯誤修正清單，請參閱 [Workfront維護更新](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) 頁面，並檢查是否有任何標示為Workfront Fusion維護更新的更新。
+如需Workfront Fusion中最近的錯誤修正清單，請參閱[Workfront維護更新](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html)頁面，並檢查任何標示為Workfront Fusion維護更新的更新。
 
 ## 現在提供圖形連線和模組
 
@@ -31,7 +31,7 @@ ht-degree: 0%
 
 * 當您的Figma帳戶中發生事件時觸發案例
 
-* 在檔案上張貼或刪除註解
+* Post或刪除檔案上的註解
 
 * 列出檔案、檔案版本記錄、專案檔案或專案的註解。
 
@@ -40,7 +40,7 @@ ht-degree: 0%
 * 呼叫Figma API
 
 
-如需詳細資訊，請參閱 [圖形模組](../../../workfront-fusion/apps-and-their-modules/figma-modules.md).
+如需詳細資訊，請參閱[圖形模組](../../../workfront-fusion/apps-and-their-modules/figma-modules.md)。
 
 ## Workday聯結器和模組現已推出
 
@@ -53,7 +53,7 @@ ht-degree: 0%
 * 向Workday API提出請求
 
 
-如需詳細資訊，請參閱 [Workday模組](../../../workfront-fusion/apps-and-their-modules/workday-modules.md).
+如需詳細資訊，請參閱[Workday模組](../../../workfront-fusion/apps-and-their-modules/workday-modules.md)。
 
 ## Adobe Creative Cloud Libraries連線和模組現已推出
 
@@ -68,7 +68,7 @@ ht-degree: 0%
 * 執行自訂API呼叫
 
 
-如需詳細資訊，請參閱 [Adobe Creative Cloud Libraries模型](../../../workfront-fusion/apps-and-their-modules/creative-cloud-libraries-modules.md).
+如需詳細資訊，請參閱[Adobe Creative Cloud Libraries模組](../../../workfront-fusion/apps-and-their-modules/creative-cloud-libraries-modules.md)。
 
 ## Adobe Target連線與模組現已推出
 
@@ -83,4 +83,4 @@ ht-degree: 0%
 * 執行自訂API呼叫
 
 
-如需詳細資訊， [Adobe Target模組](../../../workfront-fusion/apps-and-their-modules/adobe-target-modules.md).
+如需詳細資訊，[Adobe Target模組](../../../workfront-fusion/apps-and-their-modules/adobe-target-modules.md)。

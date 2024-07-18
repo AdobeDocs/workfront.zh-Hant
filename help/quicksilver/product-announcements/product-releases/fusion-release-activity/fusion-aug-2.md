@@ -1,6 +1,6 @@
 ---
-title: Workfront Fusion發行活動：&nbsp；2021年8月2日起一週
-description: Workfront Fusion發行活動：&nbsp；2021年8月2日起一週
+title: Workfront Fusion發行活動：&amp；nbsp；2021年8月2日當週
+description: Workfront Fusion發行活動：&amp；nbsp；2021年8月2日當週
 author: Luke
 draft: Probably
 feature: Product Announcements, Workfront Fusion
@@ -18,9 +18,9 @@ ht-degree: 0%
 
 本頁說明2021年8月2日當週在Adobe Workfront Fusion中所做的所有增強功能。
 
-如需所有最近變更的清單，請參閱 [Adobe Workfront Fusion發行活動](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
+如需所有最近變更的清單，請參閱[Adobe Workfront Fusion發行活動](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md)。
 
-如需Workfront Fusion中近期的錯誤修正清單，請參閱 [Workfront維護更新](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) 頁面，並檢查是否有任何標示為Workfront Fusion維護更新的更新。
+如需Workfront Fusion中最近的錯誤修正清單，請參閱[Workfront維護更新](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html)頁面，並檢查任何標示為Workfront Fusion維護更新的更新。
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -55,7 +55,7 @@ ht-degree: 0%
 
   以前，只能由使用者輸入的公式來計算日期和時間差異。
 
-  如需詳細資訊，請參閱 [Adobe Workfront Fusion中的日期和時間函式](../../../workfront-fusion/functions/date-and-time-functions.md).
+  如需詳細資訊，請參閱[Adobe Workfront Fusion中的日期和時間函式](../../../workfront-fusion/functions/date-and-time-functions.md)。
 
 * 新陣列函式： arrayDifference
 
@@ -64,4 +64,4 @@ ht-degree: 0%
    * 一個陣列中未包含在其他陣列中的元素陣列
    * 包含在一個或另一個陣列中，但不是同時包含這兩個陣列中的元素陣列。
 
-  如需詳細資訊，請參閱 [Adobe Workfront Fusion中的陣列函式](../../../workfront-fusion/functions/array-functions.md).
+  如需詳細資訊，請參閱Adobe Workfront Fusion中的[陣列函式](../../../workfront-fusion/functions/array-functions.md)。

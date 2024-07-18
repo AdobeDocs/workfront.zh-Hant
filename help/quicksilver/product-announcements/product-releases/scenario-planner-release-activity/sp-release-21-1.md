@@ -3,50 +3,51 @@ product-previous: enterprise-scenario-planner
 content-type: release-notes
 product-area: enterprise-scenario-planner-product-area
 navigation-topic: scenario-planner-release-activity
-title: Adobe Workfront Scenario Planner 21.1版
-description: Adobe Workfront方案規劃器僅適用於新的Adobe Workfront體驗。
+title: 含21.1版的Adobe Workfront Scenario Planner
+description: Adobe Workfront Scenario Planner僅適用於新的Adobe Workfront體驗。
 author: Luke
 feature: Product Announcements, Workfront Scenario Planner
 exl-id: 2e507c0c-76e2-4335-9682-df4f1940ff88
 source-git-commit: be4904f0b37870c1bfc8ec345e468d5fc283aa36
 workflow-type: tm+mt
-source-wordcount: '295'
+source-wordcount: '299'
 ht-degree: 0%
 
 ---
 
-# Adobe Workfront Scenario Planner 21.1版
+# 含21.1版的Adobe Workfront Scenario Planner
 
-Adobe Workfront方案規劃器僅適用於新的Adobe Workfront體驗。
+Adobe Workfront Scenario Planner僅適用於新的Adobe Workfront體驗。
 
-21.1版包含下列功能：
+第21.1發行版本包含下列功能：
 
-## 任務職責和成本輪廓，以解決方案計畫員中的衝突
+## 解決「情境規劃工具」中衝突的工作角色與成本分佈
 
-我們重新設計了解決方案計畫器中職務職責和預算衝突的體驗。 這次重新設計中包含的部分新功能包括：
+我們重新設計了在「情境規劃工具」中解決工作角色和預算衝突的體驗。 此重新設計包含的新功能包括：
 
-* 能夠按月更新職務職責的方案數和固定成本金額。
-* 在發生衝突的時間表中顯示更多資訊，讓您更快速了解需要在何處解決可能資源不足的問題。
-* 改善的使用體驗，包括新的工具提示、資訊框和亮點，可幫助您更快、更輕鬆地解決方案所需資源與計畫可用預算之間的任何衝突。
+* 能夠按月更新職務角色的方案數量與固定成本金額。
+* 更清楚瞭解發生衝突之計畫的時間表，讓您更迅速地瞭解在哪裡需要解決資源可能不足的問題。
+* 改善的使用者體驗，包括新的工具提示、資訊方塊和重點提示，可引導您更快、更輕鬆地解決計畫所需資源與計畫可用預算之間的任何衝突。
 
-有關在方案計畫器中解決衝突的資訊，請參閱 [在方案計畫器中解決方案衝突](../../../scenario-planner/resolve-conflicts-in-sp.md).
+如需解決「情境規劃工具」中衝突的資訊，請參閱[解決「情境規劃工具」中的方案衝突](../../../scenario-planner/resolve-conflicts-in-sp.md)。
 
 >[!NOTE]
 >
->**可於下列日期使用：**
+>**在以下日期可用：**
 >
->測試版預覽發行： 2021年1月13日
-生產版本：隨著第21.1發行版本
+>Beta預覽版本： 2021年1月13日
+>
+>生產版本：第21.1發行版本
 
-## 大量管理計畫的新功能表
+## 新功能表可大量管理方案
 
-為了在Workfront方案規劃器中管理計畫的方案時為您提供更大的靈活性，我們引入了一個新菜單，其中包含用於刪除、複製和排定方案優先順序的操作。 您現在可以選取一或多個方案，並刪除、複製或排定計畫的優先順序。
+為了讓您在Workfront案例規劃工具中管理計畫中的方案時有更多彈性，我們引入了一個新功能表，其中包含用於刪除、複製和排定方案優先順序的動作。 您現在可以選取一或多個方案，並在計畫上刪除、複製或排列其優先順序。
 
-在此更改之前，您無法複製方案，一次只能刪除或優先處理一個方案。
+在此變更之前，您無法複製方案，且一次只能刪除或優先處理一個方案。
 
 如需詳細資訊，請參閱下列文章：
 
-* [刪除方案計畫器中的方案](../../../scenario-planner/delete-initiatives.md)
-* [在方案計畫器中複製方案](../../../scenario-planner/copy-initiatives.md)
-* [更新方案計畫器中的方案優先順序](../../../scenario-planner/prioritize-initiatives.md)
+* [刪除Scenario Planner](../../../scenario-planner/delete-initiatives.md)中的方案
+* 在Scenario Planner](../../../scenario-planner/copy-initiatives.md)中[複製方案
+* [更新「情境規劃工具」中的方案優先順序](../../../scenario-planner/prioritize-initiatives.md)
 

@@ -1,25 +1,25 @@
 ---
 product-area: documents
 navigation-topic: comment-on-a-proof
-title: 搜尋、篩選及排序校樣留言
-description: 您可以搜尋、篩選及排序校樣留言，輕鬆導覽對內容的意見。
+title: 搜尋、篩選和排序校訂評論
+description: 您可以搜尋、篩選和排序校訂評論，以輕鬆導覽對內容的意見回饋。
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 03edaa7e-08c3-4ab1-83ab-747694cf1c17
 source-git-commit: 49950895440fec8cebdf12ec81191c6e890383cf
 workflow-type: tm+mt
-source-wordcount: '853'
+source-wordcount: '851'
 ht-degree: 0%
 
 ---
 
-# 搜尋、篩選及排序校樣留言
+# 搜尋、篩選和排序校訂評論
 
-您可以搜尋、篩選及排序校樣留言，輕鬆導覽對內容的意見。
+您可以搜尋、篩選和排序校訂評論，以輕鬆導覽對內容的意見回饋。
 
 ## 存取需求
 
-您必須具備下列存取權，才能執行本文中的步驟：
+您必須具有下列存取權才能執行本文中的步驟：
 
 <table style="table-layout:auto"> 
  <col> 
@@ -27,55 +27,55 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront計畫*</td> 
-   <td> <p>當前計畫：Pro或更高</p> <p>或</p> <p>舊計畫：Select或Premium</p> <p>如需使用不同計畫校對存取權限的詳細資訊，請參閱 <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">存取Workfront中的校對功能</a>.</p> </td> 
+   <td> <p>目前計畫：Pro或更高版本</p> <p>或</p> <p>舊版計畫：選擇或Premium</p> <p>如需有關不同方案的校訂存取許可權的詳細資訊，請參閱<a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">存取Workfront中的校訂功能</a>。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront授權*</td> 
-   <td> <p>當前計畫：工作或計畫</p> <p>舊計畫：任何（您必須為使用者啟用校對）</p> </td> 
+   <td> <p>目前計畫：工作或計畫</p> <p>舊版計畫：任何（您必須為使用者啟用校訂）</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">校訂權限設定檔 </td> 
-   <td>管理員或更高</td> 
+   <td role="rowheader">校樣權限設定檔 </td> 
+   <td>經理或以上</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">訪問級別配置*</td> 
-   <td> <p>編輯對文檔的訪問</p> <p>有關請求其他訪問的資訊，請參閱 <a href="../../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">請求對對象的訪問 </a>.</p> </td> 
+   <td role="rowheader">存取層級設定*</td> 
+   <td> <p>編輯檔案的存取權</p> <p>如需請求其他存取權的資訊，請參閱<a href="../../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">請求物件</a>的存取權。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;若要了解您擁有的計畫、角色或校樣權限設定檔，請聯絡您的Workfront或Workfront Proof管理員。
+&#42;若要瞭解您擁有的計畫、角色或校訂許可權設定檔，請連絡您的Workfront或Workfront Proof管理員。
 
-## 搜索注釋清單
+## 搜尋評論清單
 
-您可以搜索注釋清單，查找注釋本身包含的文本、注釋編號，或注釋的使用者。
+您可以在註解清單中搜尋註解本身所包含的文字、註解編號或建立註解的使用者。
 
-1. 轉到包含文檔的項目、任務或問題，然後選擇 **檔案**.
-1. 找到您需要的校樣，然後按一下 **開啟校樣**.
+1. 前往包含檔案的專案、任務或問題，然後選取「**檔案**」。
+1. 尋找您需要的校訂，然後按一下&#x200B;**開啟校訂**。
 
-1. （條件性）如果未開啟注釋區域，請按一下 **查看注釋** 在右上角。
-1. 按一下 **搜尋** 圖示來顯示搜尋方塊。
+1. （視條件而定）如果註解區域未開啟，請按一下右上角的&#x200B;**檢視註解**。
+1. 按一下&#x200B;**搜尋**&#x200B;圖示以顯示搜尋方塊。
 
-1. 開始鍵入以下任一項：
+1. 開始輸入下列其中一項：
 
-   * 要搜索的文本。 備注清單會隨您輸入內容而篩選，從您輸入的第一個字元開始。
-   * 要顯示的注釋數。
-   * 評論的使用者。
+   * 您要搜尋的文字。 註解會在您輸入時進行篩選，從您輸入的第一個字元開始。
+   * 您要顯示的註解數。
+   * 發表評論的使用者。
 
-1. （可選）按一下注釋以顯示一條線，將注釋連接到校樣上的相關區域。
-1. 完成搜索並要顯示所有注釋後，按一下搜索框結尾的X。
+1. （可選）按一下註解以顯示一條線，將註解連線到校樣上的相關區域。
+1. 當您完成搜尋並想要顯示所有註解時，請按一下搜尋方塊結尾的X。
 
-## 篩選注釋清單
+## 篩選評論清單
 
-您可以定義篩選參數（例如使用者、動作、未讀狀態等），以篩選顯示的留言。
+您可以藉由定義篩選引數（例如使用者、動作、未讀取狀態等）來篩選顯示的註解。
 
-1. 開啟您要篩選留言的校樣。
-1. （條件性）如果未開啟注釋區域，請按一下 **查看注釋** 在右上角。
-1. 在「注釋」區域中，按一下 **篩選** 表徵圖。
+1. 開啟您要篩選評論的校訂。
+1. （視條件而定）如果註解區域未開啟，請按一下右上角的&#x200B;**檢視註解**。
+1. 在註解區域中，按一下&#x200B;**篩選器**&#x200B;圖示。
 
    ![proof_comment_filter.png](assets/proof-comment-filter.png)
 
-1. 使用下方顯示的選項 **篩選** 圖示，以依下列任何條件來篩選留言：
+1. 使用&#x200B;**篩選器**&#x200B;圖示下方的選項，依下列任一條件篩選註解：
 
    <table style="table-layout:auto"> 
     <col> 
@@ -83,11 +83,11 @@ ht-degree: 0%
     <tbody> 
      <tr> 
       <td role="rowheader"><strong>作者</strong> </td> 
-      <td>僅顯示由您指定的用戶作出的評論和評論答復。 </td> 
+      <td>僅顯示您指定的使用者所做的評論和評論回覆。 </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>動作</strong> </td> 
-      <td>僅顯示與所選操作匹配的注釋。無操作。 必須在您的系統中啟用動作。 如需詳細資訊，請參閱。<!--
+      <td>僅顯示符合您選取之動作的註解。無動作。 您的系統中必須啟用動作。 如需詳細資訊，請參閱。<!--
         &nbsp;
        --></td> 
      </tr> 
@@ -95,30 +95,30 @@ ht-degree: 0%
       <td role="rowheader"><strong>一般篩選選項</strong> </td> 
       <td> 
        <ul> 
-        <li><strong>未解析</strong>：僅顯示尚未解析的留言。 </li> 
-        <li><strong>未讀</strong>：僅顯示您尚未閱讀的留言。 </li> 
-        <li><strong>附件</strong>：僅顯示包含附件的留言，或包含包含附件之回覆的留言。</li> 
-        <li><strong>僅限目前頁面</strong>：僅顯示您目前檢視之頁面的留言。 變更可見頁面時，註解清單會重新整理。 僅適用於靜態和互動式校樣。</li> 
+        <li><strong>未解析</strong>：僅顯示尚未解析的註解。 </li> 
+        <li><strong>未讀取</strong>：僅顯示您尚未讀取的註解。 </li> 
+        <li><strong>含附件</strong>：只顯示包含附件的註解，或包含包含附件的回覆的註解。</li> 
+        <li><strong>僅目前頁面</strong>：僅顯示您目前檢視頁面的評論。 當您變更可見頁面時，註解清單會重新整理。 僅適用於靜態和互動式校樣。</li> 
        </ul> </td> 
      </tr> 
     </tbody> 
    </table>
 
-1. 按一下 **套用** 或按一下 **篩選** 圖示來檢視已套用篩選條件的註解清單。 篩選器圖示會以藍點顯示，指出已套用篩選器。
+1. 按一下「**套用**」或按一下「**篩選**」圖示以檢視已套用篩選條件的註解清單。 「篩選」圖示會以藍點顯示，表示已套用篩選。
 
-1. 完成篩選並想查看所有留言時，請按一下 **篩選** 圖示，按一下 **重設**，然後按一下 **篩選** 圖示。
+1. 當您完成篩選且想要檢視所有註解時，請按一下&#x200B;**篩選器**&#x200B;圖示、按一下&#x200B;**重設**，然後再次按一下&#x200B;**篩選器**&#x200B;圖示。
 
-## 排序注釋清單
+## 排序評論清單
 
-當您排序註解清單時，下次在您使用的校對檢視器中開啟校樣時，系統會記住您選擇的排序選項。
+當您排序註解清單時，當您下次在使用的校訂檢視器中開啟校訂時，將會記住您選擇的排序選項。
 
-1. 開啟您要排序留言的校樣。
-1. 如果未開啟注釋區域，請按一下 **查看注釋** 在右上角。
+1. 開啟您要排序評論的校訂。
+1. 如果註解區域未開啟，請按一下右上角的&#x200B;**檢視註解**。
 
 1. 按一下排序功能表以開啟。
 1. ![](assets/mceclip3.png)
 
-1. 選擇以下排序選項之一：
+1. 選取下列其中一個排序選項：
 
    <table style="table-layout:auto"> 
     <col> 
@@ -127,48 +127,48 @@ ht-degree: 0%
     <tbody> 
      <tr> 
       <td role="rowheader">最新</td> 
-      <td>在注釋清單頂部顯示最近的注釋。</td> 
-      <td>適用於所有校樣</td> 
+      <td>在評論清單頂端顯示最近的評論。</td> 
+      <td>可用於所有校訂</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">最舊</td> 
-      <td>在注釋清單頂部顯示最舊的注釋。 這是預設值。 </td> 
-      <td>適用於所有校樣</td> 
+      <td role="rowheader">Oldest</td> 
+      <td>在註解清單頂端顯示最舊的註解。 這是預設值。 </td> 
+      <td>可用於所有校訂</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">創作者A-Z</td> 
-      <td>顯示按建立注釋的用戶分組的注釋，按字母順序列出。</td> 
-      <td>適用於所有校樣</td> 
+      <td role="rowheader">建立者A-Z</td> 
+      <td>顯示按建立註解的使用者分組的註解，按字母順序列出。</td> 
+      <td>可用於所有校訂</td> 
      </tr> 
      <tr> 
       <td role="rowheader">建立者Z-A</td> 
-      <td>顯示按建立注釋的用戶分組的注釋，按反字母順序列出。</td> 
-      <td>適用於所有校樣</td> 
+      <td>顯示按建立註解的使用者分組的註解，以反字母順序列出。</td> 
+      <td>可用於所有校訂</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">頁面（向下，向上）</td> 
-      <td>按與頁碼或視訊時間軸相關的時間顯示注釋。 </td> 
+      <td role="rowheader">頁面（向下、向上）</td> 
+      <td>依照註解出現時相對於頁碼或視訊時間軸的順序來顯示註解。 </td> 
       <td>僅適用於靜態校樣。</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">時間戳記（下）</td> 
-      <td>按與視訊時間軸相關的時間順序顯示注釋。 稍後在時間軸中發表的註解會先顯示。 </td> 
-      <td>僅適用於視訊校樣。</td> 
+      <td role="rowheader">時間戳記（向下）</td> 
+      <td>以註解相對於視訊時間軸出現的順序來顯示註解。 稍後在時間軸中所做的註解會先顯示。 </td> 
+      <td>僅供視訊校訂使用。</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">時間戳記（上）</td> 
-      <td>按與視訊時間軸相關的時間順序顯示注釋。 先在時間軸中先前所做的註解會先顯示。 </td> 
-      <td>僅適用於視訊校樣。</td> 
+      <td role="rowheader">時間戳記（向上）</td> 
+      <td>以註解相對於視訊時間軸出現的順序來顯示註解。 先前在時間軸中所做的註解會先顯示。 </td> 
+      <td>僅供視訊校訂使用。</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">設備（上）</td> 
-      <td>根據進行註解時選取的裝置，依序顯示註解。 首先會顯示對低解析度的註解。</td> 
-      <td>僅適用於互動式校樣。</td> 
+      <td role="rowheader">裝置（向上）</td> 
+      <td>根據進行註解時選取的裝置順序顯示註解。 在較低解析度上所做的註解會先顯示。</td> 
+      <td>僅供互動式校訂使用。</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">設備（關閉）</td> 
-      <td> <p>（僅適用於互動式校樣。） 根據評論建立時選取的解析度，按順序顯示評論。 會先顯示在較高解析度上的註解。</p> <p>如需在互動式校樣中變更解析度的相關資訊，請參閱 <a href="../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/view-interactive-content-as-it-appears-in-device.md" class="MCXref xref">變更校對檢視器中的互動式校樣解析度</a>.</p> </td> 
-      <td>僅適用於互動式校樣。</td> 
+      <td role="rowheader">裝置（向下）</td> 
+      <td> <p>（僅適用於互動式校樣。） 根據建立註解時選取的解析度順序顯示註解。 在更高解析度上所做的註解會最先顯示。</p> <p>如需有關變更互動式校訂中解析度的資訊，請參閱<a href="../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/view-interactive-content-as-it-appears-in-device.md" class="MCXref xref">變更校訂檢視器中的互動式校訂解析度</a>。</p> </td> 
+      <td>僅供互動式校訂使用。</td> 
      </tr> 
     </tbody> 
    </table>

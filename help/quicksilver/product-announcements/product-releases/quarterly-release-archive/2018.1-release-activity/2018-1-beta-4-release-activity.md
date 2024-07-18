@@ -22,29 +22,29 @@ ht-degree: 0%
 >
 > 本頁所述的功能在生產環境使用之前可能會有所變更。
 
-如需2018.1年度所有變更的清單，請參閱  [2018.1版本活動概覽](../../../../product-announcements/product-releases/quarterly-release-archive/2018.1-release-activity/2018-1-release-activity-overview.md).
+如需2018.1年度所有變更的清單，請參閱  [2018.1發行活動總覽](../../../../product-announcements/product-releases/quarterly-release-archive/2018.1-release-activity/2018-1-release-activity-overview.md)。
 
 2018.1 Beta 4版本包含適用於Workfront管理員和其他使用者的增強功能：
 
-**適用於管理員**
+管理員的&#x200B;****
 
 * [由群組管理員管理的排程](#schedules-managed-by-group-administrators)
 
-**適用於所有使用者**
+**所有使用者**
 
-* [Workfront中的校訂改善](#proofing-improvements-within-workfront)
-* [在Workfront中建立校訂 — 改善使用者體驗和其他功能](#proof-creation-in-workfront-proof-improved-user-experience-and-additional-functionality)
-* [Workfront和Workfront Proof中的校訂改善](#proofing-improvements-within-workfront-and-workfront-proof)
+* Workfront中的[校訂改善](#proofing-improvements-within-workfront)
+* [在Workfront Proof中建立校訂 — 改善使用者體驗和其他功能](#proof-creation-in-workfront-proof-improved-user-experience-and-additional-functionality)
+* Workfront和Workfront Proof中的[校訂改善](#proofing-improvements-within-workfront-and-workfront-proof)
 * [透過Workfront Proof中的Basecamp整合更新外觀](#updated-look-and-feel-with-basecamp-integration-in-workfront-proof)
 * [從剪貼簿將影像貼到Workfront](#paste-images-to-workfront-from-the-clipboard)
-* [改善使用率報告](#utilization-report-improvements)
+* [使用報告改善](#utilization-report-improvements)
 * [從Workfront移除資源預算時數物件](#remove-the-resource-budgeted-hour-object-from-workfront)
-* [報告使用情況統計資料](#report-usage-statistics)
+* [報告使用統計資料](#report-usage-statistics)
 * [甘特圖更新](#gantt-chart-updates)
-* [全新Portfolio最佳化工具](#new-portfolio-optimizer)
-* [資源規劃工具中的預算日期調整選項](#budget-date-adjustment-option-in-the-resource-planner)
-* [資源排程：根據群組成員資格限制指定給使用者](#resource-scheduling-restrict-assignments-to-users-based-on-group-membership)
-* [資源排程：允許指定給使用者，無論角色為何](#resource-scheduling-allow-assignments-to-users-regardless-of-role)
+* [新Portfolio最佳化工具](#new-portfolio-optimizer)
+* 資源規劃工具中的[預算日期調整選項](#budget-date-adjustment-option-in-the-resource-planner)
+* [資源排程：根據群組成員資格限制使用者的指派](#resource-scheduling-restrict-assignments-to-users-based-on-group-membership)
+* [資源排程：無論角色為何，都允許指派給使用者](#resource-scheduling-allow-assignments-to-users-regardless-of-role)
 * [Emoji支援](#emoji-support)
 
 ## Workfront中的校訂改善 {#proofing-improvements-within-workfront}
@@ -54,8 +54,8 @@ Workfront中的檔案清單已進行下列改進： 
 * [從檔案清單檢視校訂進度](#view-proof-progress-from-the-document-list)
 * [從檔案清單檢視列印摘要的新選項](#new-option-to-view-the-print-summary-from-the-document-list)
 * [更新從檔案清單產生或開啟校訂的外觀](#updated-look-and-feel-for-generating-or-opening-the-proof-from-the-document-list)
-* [從檔案清單上的檔案中移除的各種連結](#various-links-removed-from-documents-on-the-document-list)
-* [檢視組合校訂的檔案名稱](#view-file-names-on-combined-proofs)
+* [已從檔案清單上的檔案中移除各種連結](#various-links-removed-from-documents-on-the-document-list)
+* [檢視組合校訂上的檔案名稱](#view-file-names-on-combined-proofs)
 * [從檔案清單檢視校訂的目前使用中階段](#view-the-current-active-stage-of-a-proof-from-the-document-list)
 
 ### 從檔案清單檢視校訂進度 {#view-proof-progress-from-the-document-list}
@@ -64,7 +64,7 @@ Workfront中的檔案清單已進行下列改進： 
 
 在此變更之前，您必須在檔案清單中選取校訂，以在右側面板中檢視校訂進度。 
 
-如需詳細資訊，請參閱 [校訂進度和狀態概觀](../../../../review-and-approve-work/proofing/proofing-overview/view-progress-status-proof.md).
+如需詳細資訊，請參閱[校訂進度與狀態概觀](../../../../review-and-approve-work/proofing/proofing-overview/view-progress-status-proof.md)。
 
 ### 從檔案清單檢視列印摘要的新選項 {#new-option-to-view-the-print-summary-from-the-document-list}
 
@@ -72,7 +72,7 @@ Workfront中的檔案清單已進行下列改進： 
 
 在此變更之前，您只能從校訂檢視器檢視列印摘要。 
 
-如需有關從檔案清單檢視列印摘要的詳細資訊，請參閱 [在Adobe Workfront中列印校訂摘要](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/print-proof-summary-in-wf.md).
+如需從檔案清單檢視列印摘要的詳細資訊，請參閱[在Adobe Workfront中列印校訂摘要](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/print-proof-summary-in-wf.md)。
 
 ### 更新從檔案清單產生或開啟校訂的外觀 {#updated-look-and-feel-for-generating-or-opening-the-proof-from-the-document-list}
 
@@ -89,8 +89,8 @@ Workfront中的檔案清單已進行下列改進： 
 
 下列動作不再可作為檔案清單內個別檔案的連結：
 
-* 產生證據
-* 證明
+* 產生校樣
+* 校樣
 * 詳细資料
 * 共用
 * 簽出/簽入
@@ -102,7 +102,7 @@ Workfront中的檔案清單已進行下列改進： 
 
 下列動作現在可在開啟校樣或產生校樣按鈕旁的下拉式選單中使用：
 
-* 校訂詳細資訊
+* 校樣詳細資訊
 * 文件詳細資訊
 * 列印摘要
 
@@ -121,9 +121,9 @@ Workfront中的檔案清單已進行下列改進： 
 
 現在，在檔案清單中選取校訂時，目前的作用中階段會顯示在詳細資訊標籤的右欄。 
 
-如需詳細資訊，請參閱 [檢視校訂上的使用中階段](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/view-active-stages-proof.md).  
+如需詳細資訊，請參閱[檢視校訂上的使用中階段](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/view-active-stages-proof.md)。  
 
-## 在Workfront中建立校訂 — 改善使用者體驗和其他功能 {#proof-creation-in-workfront-proof-improved-user-experience-and-additional-functionality}
+## 在Workfront Proof中建立校訂 — 改善使用者體驗和其他功能 {#proof-creation-in-workfront-proof-improved-user-experience-and-additional-functionality}
 
 除了在Workfront Proof中建立校訂時改善的使用者體驗外，現在還提供以下附加功能：
 
@@ -137,16 +137,16 @@ Workfront中的檔案清單已進行下列改進： 
 
 >[!NOTE]
 >
->這個在Workfront Proof中的新校訂建立頁面現在符合在Workfront中建立校訂時最近提供的校訂建立頁面。 
+>Workfront Proof中的這個新校訂建立頁面現在符合最近在Workfront中建立校訂時可用的校訂建立頁面。 
 
-如需詳細資訊，請參閱  [在Workfront Proof中產生校訂](../../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md).
+如需詳細資訊，請參閱  [在Workfront Proof](../../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md)中產生校樣。
 
 ## Workfront和Workfront Proof中的校訂改善 {#proofing-improvements-within-workfront-and-workfront-proof}
 
-將檔案新增至Workfront和Workfront校訂時，適用下列變更：
+將檔案新增至Workfront和Workfront Proof時，請套用下列變更：
 
 * [檢閱校樣時調整評論清單大小](#resize-the-comment-list-when-reviewing-proofs)
-* [檢閱靜態校樣時超連結為作用中](#hyperlinks-are-active-when-reviewing-static-proofs)
+* 檢閱靜態校樣時，[個超連結為作用中](#hyperlinks-are-active-when-reviewing-static-proofs)
 * [新增校訂時的改進](#improvements-when-adding-proofs)
 
 ### 檢閱校樣時調整評論清單大小 {#resize-the-comment-list-when-reviewing-proofs}
@@ -198,7 +198,7 @@ Basecamp與Workfront Proof整合的外觀與操作方式現已更新。 功能�
 
 從剪貼簿貼上的功能已在舊版中從Workfront移除；此版本正在重新推出這項功能。 新方法更精簡且更直覺。
 
-如需詳細資訊，請參閱 [從剪貼簿貼上影像](../../../../documents/managing-documents/paste-image-clipboard.md). 
+如需詳細資訊，請參閱[從剪貼簿貼上影像](../../../../documents/managing-documents/paste-image-clipboard.md)。 
 
 ## 改善使用率報告 {#utilization-report-improvements}
 
@@ -227,7 +227,7 @@ Basecamp與Workfront Proof整合的外觀與操作方式現已更新。 功能�
 
 * 提升效能
 
-如需「使用率」報表的詳細資訊，請參閱 [資源使用率報表概要](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md).
+如需有關使用率報告的詳細資訊，請參閱[資源使用率報告概觀](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md)。
 
 ## 從Workfront移除資源預算時數物件 {#remove-the-resource-budgeted-hour-object-from-workfront}
 
@@ -235,7 +235,7 @@ Basecamp與Workfront Proof整合的外觀與操作方式現已更新。 功能�
 
 提醒一下，資源預算時數是您為資源規劃工具中的資源或專案預算的時數。 目前，您無法在網頁應用程式中或透過API在此欄位上報告。 當效能問題解決後，該欄位將在未來版本中恢復。
 
-如需有關資源規劃工具中預算時數的詳細資訊，請參閱 [資源規劃工具概觀](../../../../resource-mgmt/resource-planning/get-started-resource-planner.md). 
+如需資源規劃工具中預算時數的詳細資訊，請參閱[資源規劃工具概觀](../../../../resource-mgmt/resource-planning/get-started-resource-planner.md)。 
 
 ## 報告使用情況統計資料 {#report-usage-statistics}
 
@@ -250,13 +250,13 @@ Basecamp與Workfront Proof整合的外觀與操作方式現已更新。 功能�
 
 在此更新之前，您在報表上可看到的使用資訊有所限制。
 
-如需有關報告使用情況的詳細資訊，請參閱 [檢視報表使用情形](../../../../reports-and-dashboards/reports/report-usage/view-report-usage.md)
+如需有關報告使用量的詳細資訊，請參閱[檢視報告使用量](../../../../reports-and-dashboards/reports/report-usage/view-report-usage.md)
 
 ## 由群組管理員管理的排程 {#schedules-managed-by-group-administrators}
 
 身為群組管理員，您可以建立及編輯與所管理群組及其子群組相關聯的排程。 在此變更之前，只有Workfront管理員可以建立和編輯排程。
 
-如需管理排程的詳細資訊，請參閱 [建立排程](../../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md)
+如需管理排程的詳細資訊，請參閱[建立排程](../../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md)
 
 ## 甘特圖更新 {#gantt-chart-updates}
 
@@ -269,25 +269,25 @@ Basecamp與Workfront Proof整合的外觀與操作方式現已更新。 功能�
 
 在此變更之前，您只能移除甘特圖中的前置任務關係，而且只能編輯工作清單中的工作。
 
-如需甘特圖的詳細資訊，請參閱 [更新工作清單甘特圖中的資訊](../../../../manage-work/gantt-chart/use-the-gantt-chart/update-info-task-list-gantt.md)
+如需甘特圖的詳細資訊，請參閱工作清單甘特圖中的[更新資訊](../../../../manage-work/gantt-chart/use-the-gantt-chart/update-info-task-list-gantt.md)
 
 ## 全新Portfolio最佳化工具 {#new-portfolio-optimizer}
 
 Workfront的Portfolio最佳化工具區域現在已更新為全新的外觀。 功能未變更。
 
-如需有關Portfolio最佳化程式的詳細資訊，請參閱 [Portfolio最佳化工具概觀](../../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md)
+如需有關Portfolio最佳化程式的詳細資訊，請參閱[Portfolio最佳化程式概述](../../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md)
 
 ## 資源規劃工具中的預算日期調整選項 {#budget-date-adjustment-option-in-the-resource-planner}
 
 我們新增了一個選項，可讓您快速檢視時間範圍，而不會產生預算衝突。 當您檢視沒有預算衝突的時間範圍發生時，可以手動將預算時數移至這些時間。 這也會調整時數的預算日期。 在此更新之前，無法一眼檢視專案的預算衝突。
 
-如需有關「資源規劃工具」中調整預算日期的更多資訊，請參閱 [資源規劃工具概觀](../../../../resource-mgmt/resource-planning/get-started-resource-planner.md)
+如需有關資源規劃工具中調整預算日期的詳細資訊，請參閱[資源規劃工具概觀](../../../../resource-mgmt/resource-planning/get-started-resource-planner.md)中的「調整預算日期」一節
 
 ## 資源排程：根據群組成員資格限制指定給使用者 {#resource-scheduling-restrict-assignments-to-users-based-on-group-membership}
 
 >[!NOTE]
 >
->已棄用資源排程工具，並已從Workfront的23.1版本中移除。 如需有關使用工作負載平衡器排程資源的資訊，請參閱 [工作負載平衡器概覽](../../../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
+>已棄用資源排程工具，並已從Workfront的23.1版本中移除。 如需有關使用工作負載平衡器排程資源的資訊，請參閱[工作負載平衡器概覽](../../../../resource-mgmt/workload-balancer/overview-workload-balancer.md)。
 
 在「排程」區域中進行使用者指派時（如「手動指派排程區域中的未指派任務和問題」中所述），您現在可以設定Workfront，將任務和問題的指派限製為僅限屬於在任務或問題源自的專案上定義的群組成員的使用者。 
 
@@ -339,4 +339,4 @@ Workfront的Portfolio最佳化工具區域現在已更新為全新的外觀。 �
 
 現在，您可以插入emoji來設定您在Workfront中註釋和更新的基調。 在「更新」標籤上新增至評論的任何表情符號，也會顯示在更新電子郵件通知中。 
 
-如需詳細資訊，請參閱 [更新工作](../../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+如需詳細資訊，請參閱[更新工作](../../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md)。

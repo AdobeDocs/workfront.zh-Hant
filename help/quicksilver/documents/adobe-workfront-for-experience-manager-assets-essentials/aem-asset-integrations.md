@@ -54,9 +54,9 @@ Workfront與Experience Manager Assets或Assets Essentials之間的整合可讓�
 
 ## 開始使用
 
-1. [設定Adobe Workfront和Experience Manager Assets之間的資產中繼資料對應](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping.html?lang=en).
+1. [設定Adobe Workfront與Experience Manager Assets之間的資產中繼資料對應](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping.html?lang=en)。
 1. 設定整合：
    1. [設定Experience Manager Assetsas a Cloud Service整合](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md)
 或
    1. [設定Experience Manager Assets Essentials整合](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md)
-1. 使用整合：傳送資產、建立連結資料夾、對應中繼資料等。 另請參閱 [適用於Experience Manager Assets和Assets Essentials的Adobe Workfront：文章索引](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md) 以取得詳細資訊。
+1. 使用整合：傳送資產、建立連結資料夾、對應中繼資料等。 如需詳細資訊，請參閱[適用於Experience Manager Assets和Assets Essentials的Adobe Workfront：文章索引](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md)。

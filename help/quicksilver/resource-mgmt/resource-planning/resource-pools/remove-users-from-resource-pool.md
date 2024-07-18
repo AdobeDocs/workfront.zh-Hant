@@ -1,25 +1,25 @@
 ---
 product-area: resource-management
 navigation-topic: resource-pools
-title: 從資源池中刪除用戶
-description: 雖然資源池中可以擁有的用戶數沒有限制，但用戶清單只顯示前2000個用戶（按字母順序列出）。
+title: 從資源集區中移除使用者
+description: 雖然資源集區中的使用者數量沒有限制，但使用者清單只會顯示前2000位使用者（按字母順序列出）。
 author: Alina
 feature: Resource Management
 exl-id: b888aa95-8d42-4cc3-8a99-6842435c84d2
 source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
 workflow-type: tm+mt
-source-wordcount: '386'
+source-wordcount: '384'
 ht-degree: 1%
 
 ---
 
-# 從資源池中刪除用戶
+# 從資源集區中移除使用者
 
-雖然資源池中可以擁有的用戶數沒有限制，但用戶清單只顯示前2000個用戶（按字母順序列出）。
+雖然資源集區中的使用者數量沒有限制，但使用者清單只會顯示前2000位使用者（按字母順序列出）。
 
-建議您移除已停用或已移動角色或部門的使用者，以確保所有資源池中的使用者清單一律準確。
+建議您移除已停用或已移動角色或部門的使用者，以確保您在所有資源集區中一律擁有精確的使用者清單。
 
-有關資源池的詳細資訊，請參見 [資源池概述](../../../resource-mgmt/resource-planning/resource-pools/work-with-resource-pools.md).
+如需資源集區的詳細資訊，請參閱[資源集區概觀](../../../resource-mgmt/resource-planning/resource-pools/work-with-resource-pools.md)。
 
 ## 存取需求
 
@@ -31,15 +31,15 @@ ht-degree: 1%
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront計畫*</td> 
-   <td> <p>Pro及更高版本</p> </td> 
+   <td> <p>專業及更高版本</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront授權*</td> 
    <td> <p>計劃 </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">訪問級別配置*</td> 
-   <td> <p>編輯對資源管理的訪問，包括對管理資源池的訪問</p> <p>檢視或更高的使用者存取權</p> <p>注意：如果您仍無權存取，請洽詢您的Workfront管理員，他們是否在您的存取層級設定其他限制。 如需Workfront管理員如何變更您的存取層級的詳細資訊，請參閱 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>.</p> </td> 
+   <td role="rowheader">存取層級設定*</td> 
+   <td> <p>編輯對資源管理的存取權，包括管理資源集區的存取權</p> <p>檢視或更高的使用者存取權</p> <p>注意：如果您還是沒有存取權，請詢問您的Workfront管理員，他們是否在您的存取層級中設定其他限制。 如需Workfront管理員如何變更存取層級的詳細資訊，請參閱<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>。</p> </td> 
   </tr> <!--
    <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
     <td role="rowheader">Object permissions</td> 
@@ -49,28 +49,28 @@ ht-degree: 1%
  </tbody> 
 </table>
 
-&#42;若要了解您擁有的計畫、授權類型或存取權，請聯絡您的Workfront管理員。
+&#42;若要瞭解您擁有的計畫、授權型別或存取權，請連絡您的Workfront管理員。
 
-## 從資源池中刪除用戶
+## 從資源集區移除使用者
 
-當資源池中不再需要這些用戶時，可以從資源池中刪除這些用戶。
+當資源集區中不再需要這些使用者時，您可以從資源集區中移除這些使用者。
 
-要從資源池中刪除用戶：
+若要從資源集區移除使用者：
 
-1. 按一下 **主菜單** 圖示 ![](assets/main-menu-icon.png) 在Adobe Workfront的右上角。
+1. 按一下Adobe Workfront右上角的&#x200B;**主要功能表**&#x200B;圖示![](assets/main-menu-icon.png)。
 
-1. 按一下 **資源**.
-1. 按一下 **資源池** 中。
-1. 選擇資源池，然後按一下**編輯。**或\
-   按一下資源池的名稱。
+1. 按一下「**資源**」。
+1. 按一下左側面板中的&#x200B;**資源集區**。
+1. 選取資源集區，然後按一下**編輯」。**或\
+   按一下資源集區的名稱。
 
-1. 開始鍵入要在 **在此資源池中搜索** 欄位。\
+1. 開始在&#x200B;**搜尋此資源集區**&#x200B;欄位中輸入您要移除的使用者名稱。\
    或\
-   如果要刪除與這些實體關聯的所有用戶，請開始鍵入公司、職務、團隊或組的名稱。\
+   如果您想要移除與這些實體相關聯的所有使用者，請開始輸入公司、工作角色、團隊或群組的名稱。\
    ![search_inside_NEW_resource_pool.png](assets/search-inside-new-resource-pool-350x314.png)
 
-1. 按一下用戶級別的「x」表徵圖，從資源池中刪除用戶。 它們會從中顯示的所有清單中移除。\
+1. 按一下使用者層級的「x」圖示，從資源集區移除使用者。 它們會從所有出現的清單中移除。\
    或\
-   要刪除與作業角色、組、團隊或公司關聯的所有用戶，請按一下 **移除** 在職務角色、組、團隊級別或公司級別。 這會從資源池中刪除與該作業角色、組、團隊或公司相關聯的所有用戶。
+   若要移除與工作角色、群組、團隊或公司相關聯的所有使用者，請按一下工作角色、群組、團隊或公司層級的&#x200B;**移除**。 這會從資源集區中移除與該工作角色、群組、團隊或公司相關聯的所有使用者。
 
-1. 按一下&#x200B;**儲存**。
+1. 按一下「**儲存**」。

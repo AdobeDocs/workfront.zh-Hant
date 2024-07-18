@@ -19,7 +19,7 @@ ht-degree: 2%
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: some information in here is duplicated in Edit projects. If you need to update one of the fields in this area, do it in both places.)</p>
 -->
 
-您可以存取專案詳細資訊區段的財務區域，以檢視或編輯專案的財務資訊。 您可以在此區域中檢視或編輯的欄位數量有限。 如需有關編輯專案所有資訊的資訊，請參閱 [編輯專案](../../../manage-work/projects/manage-projects/edit-projects.md).
+您可以存取專案詳細資訊區段的財務區域，以檢視或編輯專案的財務資訊。 您可以在此區域中檢視或編輯的欄位數量有限。 如需有關編輯專案所有資訊的資訊，請參閱[編輯專案](../../../manage-work/projects/manage-projects/edit-projects.md)。
 
 ## 存取需求
 
@@ -40,16 +40,16 @@ ht-degree: 2%
   <tr> 
    <td role="rowheader">存取層級設定*</td> 
    <td> <p>檢視專案和財務資料的存取權或更高的存取權</p> <p>編輯對專案和財務資料的存取權以編輯專案的財務資訊</p> <p><b>附註</b></p>
-   <p> 如果您還是沒有存取權，請詢問您的Workfront管理員，他們是否在您的存取層級中設定其他限制。 如需有關Workfront管理員如何變更您的存取層級的資訊，請參閱 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>.</p> </td> 
+   <p> 如果您還是沒有存取權，請詢問您的Workfront管理員，他們是否在您的存取層級中設定其他限制。 如需Workfront管理員如何變更存取層級的詳細資訊，請參閱<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">物件許可權</td> 
-   <td> <p>檢視專案或以上版本的許可權，其中包含檢視財務許可權</p> <p>管理專案的許可權，包括管理財務以編輯專案的財務資訊</p> <p>如需請求其他存取許可權的詳細資訊，請參閱 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">要求物件的存取權 </a>.</p> </td> 
+   <td> <p>檢視專案或以上版本的許可權，其中包含檢視財務許可權</p> <p>管理專案的許可權，包括管理財務以編輯專案的財務資訊</p> <p>如需請求其他存取權的資訊，請參閱<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">請求物件</a>的存取權。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;若要瞭解您擁有的計畫、授權型別或存取權，請聯絡您的Workfront管理員。
+&#42;若要瞭解您擁有的計畫、授權型別或存取權，請連絡您的Workfront管理員。
 
 ## 財務領域概述
 
@@ -62,14 +62,14 @@ ht-degree: 2%
 ## 檢視專案的財務資訊
 
 1. 前往專案。
-1. 按一下 **專案詳細資訊** 在左側面板中。
-1. 按一下 **編輯** 圖示 ![](assets/edit-icon.png) 「詳細資訊」區段的右上角，然後按一下 **財務**.
+1. 按一下左側面板中的&#x200B;**專案詳細資料**。
+1. 按一下[詳細資料]區段右上角的&#x200B;**編輯**&#x200B;圖示![](assets/edit-icon.png)，然後按一下&#x200B;**財務**。
 
    ![](assets/finance-area-in-details-view-only-nwe-350x188.png)
 
    >[!NOTE]
    >
-   >根據Workfront管理員設定版面配置範本的方式，概觀區段可能不會列在前，在此情況下會摺疊。 如需詳細資訊，請參閱 [使用版面配置範本自訂詳細資料檢視](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md).
+   >根據Workfront管理員設定版面配置範本的方式，概觀區段可能不會列在前，在此情況下會摺疊。 如需詳細資訊，請參閱[使用配置範本自訂詳細資料檢視](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md)。
 
 1. 檢視專案之財務區域的下列欄位：
 
@@ -79,10 +79,10 @@ ht-degree: 2%
     <tbody> 
      <tr> 
       <td role="rowheader">績效指數方法</td> 
-      <td> 控制Workfront用來計算「實現值」量度的方法。 可以是小時制，也可以是成本制。 <br>如需有關PIM的詳細資訊，請參閱文章 <a href="../../../manage-work/projects/project-finances/set-pim.md" class="MCXref xref">設定績效指數方法(PIM)</a></td> 
+      <td> 控制Workfront用來計算「實現值」量度的方法。 可以是小時制，也可以是成本制。 <br>如需有關PIM的詳細資訊，請參閱文章<a href="../../../manage-work/projects/project-finances/set-pim.md" class="MCXref xref">設定績效指數方法(PIM)</a></td> 
      </tr> 
      <tr> 
-      <td role="rowheader">CPI / SPI / CSI</td> 
+      <td role="rowheader">CPI/SPI/CSI</td> 
       <td> <p>這些是顯示您的專案在指定時間的表現情形的專案績效量度。 其值是根據績效指數方法計算。<br>如需詳細資訊，請參閱下列文章： </p> 
        <ul> 
         <li> <p><a href="../../../manage-work/projects/project-finances/calculate-cpi.md" class="MCXref xref">計算成本績效指數(CPI)</a> </p> </li> 
@@ -92,7 +92,7 @@ ht-degree: 2%
      </tr> 
      <tr> 
       <td role="rowheader">預估完成成本</td> 
-      <td> 專案的預估總成本，如果績效指數方法(PIM)是以時數為基準，則以時數表示；如果績效指數方法(PIM)是以成本為基準，則以貨幣值表示。<br>如需有關計算完工估算的詳細資訊，請參閱文章 <a href="../../../manage-work/projects/project-finances/calculate-eac.md" class="MCXref xref">計算完工估算(EAC)</a></td> 
+      <td> 專案的預估總成本，如果績效指數方法(PIM)是以時數為基準，則以時數表示；如果績效指數方法(PIM)是以成本為基準，則以貨幣值表示。<br>如需有關計算完工估算的詳細資訊，請參閱文章<a href="../../../manage-work/projects/project-finances/calculate-eac.md" class="MCXref xref">計算完工估算(EAC)</a></td> 
      </tr> 
      <tr> 
       <td role="rowheader">預算</td> 
@@ -103,7 +103,7 @@ ht-degree: 2%
       <td>這些是專案的固定成本，與專案上的其他活動無關。 由專案所有者手動輸入。</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">計畫成本</td> 
+      <td role="rowheader">規劃成本</td> 
       <td>專案的估計成本，根據計畫時數以及與任務受指派人（工作角色或使用者）相關聯的費率。</td> 
      </tr> 
      <tr> 
@@ -115,7 +115,7 @@ ht-degree: 2%
       <td>根據專案排程設定預期收入。 固定收入由專案所有者手動指定。</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">計畫收入</td> 
+      <td role="rowheader">規劃收入</td> 
       <td>根據計畫時數以及與任務受指派人（工作角色或使用者）關聯的費率的預期收入。</td> 
      </tr> 
      <tr> 
@@ -123,8 +123,8 @@ ht-degree: 2%
       <td>根據實際時數以及與任務受指派人（職務角色或使用者）關聯的費率，從專案得到的實際收入。</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">已記帳收入</td> 
-      <td> <p>記入帳單記錄中，向客戶或其他當事人記帳的收入。 如需付費記錄的詳細資訊，請參閱文章 <a href="../../../manage-work/projects/project-finances/create-billing-records.md" class="MCXref xref">建立付費記錄</a>. </p> </td> 
+      <td role="rowheader">已計費收入</td> 
+      <td> <p>記入帳單記錄中，向客戶或其他當事人記帳的收入。 如需有關付費記錄的詳細資訊，請參閱文章<a href="../../../manage-work/projects/project-finances/create-billing-records.md" class="MCXref xref">建立付費記錄</a>。 </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"> </td> 
@@ -149,9 +149,9 @@ ht-degree: 2%
    >
    >您需要專案的管理許可權才能執行以下步驟。 我們也建議只有專案所有者應該變更專案的財務子標籤。
 
-1. 按一下 **專案詳細資訊** 在左側面板中。
-1. 按一下 **編輯** 圖示 ![](assets/edit-icon.png) 「詳細資訊」區段的右上角，然後按一下 **財務** . 這將開啟「財務」區域以進行編輯。
-1. 編輯任何可編輯的欄位，方法是按一下該欄位或按一下 **+新增** 將資訊新增至空白欄位。
+1. 按一下左側面板中的&#x200B;**專案詳細資料**。
+1. 按一下[詳細資料]區段右上角的&#x200B;**編輯**&#x200B;圖示![](assets/edit-icon.png)，然後按一下&#x200B;**財務**。 這將開啟「財務」區域以進行編輯。
+1. 編輯任何可編輯的欄位，方法是按一下該欄位或按一下&#x200B;**+新增**&#x200B;將資訊新增至空白欄位。
 
    >[!TIP]
    >
@@ -163,7 +163,7 @@ ht-degree: 2%
 
    >[!NOTE]
    >
-   >根據您的Workfront管理員設定版面配置範本的方式，您環境中專案詳細資訊區段中的欄位可能會不同。 如需詳細資訊，請參閱 [使用版面配置範本自訂詳細資料檢視](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md).
+   >根據您的Workfront管理員設定版面配置範本的方式，您環境中專案詳細資訊區段中的欄位可能會不同。 如需詳細資訊，請參閱[使用配置範本自訂詳細資料檢視](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md)。
 
    <table style="table-layout:auto"> 
     <col> 
@@ -173,16 +173,16 @@ ht-degree: 2%
       <td role="rowheader">績效指數方法</td> 
       <td> <p>控制Workfront用來計算專案績效量度的方法。 這是由您的管理員在系統層級設定的，但您也可以在專案層級進行編輯。 請考慮選取下列其中一個選項：</p> 
        <ul> 
-        <li><strong>基於小時：</strong>Workfront使用計畫時數來計算專案的CPI和EAC，而專案的EAC顯示為數字（以時數表示）。 </li> 
-        <li><strong>基於成本：</strong>Workfront使用計畫勞力成本來計算專案的CPI和EAC，而EAC會顯示為貨幣值。 選取此選項時，請確定您的任務受指派人（職務角色或使用者）與成本費率相關聯。</li> 
+        <li><strong>小時型：</strong>Workfront使用計畫時數來計算專案的CPI和EAC，而專案的EAC顯示為數字（以小時為單位）。 </li> 
+        <li><strong>以成本為基礎：</strong>Workfront使用計畫勞力成本來計算專案的CPI和EAC，而EAC會顯示為貨幣值。 選取此選項時，請確定您的任務受指派人（職務角色或使用者）與成本費率相關聯。</li> 
        </ul> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">預估完成成本</td> 
       <td> <p>代表專案或任務完成時的預估總成本。 這是由您的管理員在系統層級設定的，但您也可以在專案層級進行編輯。 請考慮選取下列其中一個選項：</p> 
        <ul> 
-        <li><strong>在專案層級計算</strong>：父系任務和專案的EAC是透過在EAC公式中輸入實際時數/實際勞力成本來決定。 此計算包括直接新增到父級任務或專案的實際時數/成本和費用。</li> 
-        <li><strong>從任務/子任務彙總</strong>：父系任務和專案的EAC是由每個子系任務的EAC相加決定。 此計算不包括直接新增到父級任務或專案的實際時數/成本和費用。</li> 
+        <li><strong>在專案層級計算</strong>：父系任務與專案的EAC是透過在EAC公式中輸入實際時數/實際勞力成本來決定。 此計算包括直接新增到父級任務或專案的實際時數/成本和費用。</li> 
+        <li><strong>從任務/子任務累計</strong>：父任務和專案的EAC是由每個子任務的EAC相加所決定。 此計算不包括直接新增到父級任務或專案的實際時數/成本和費用。</li> 
        </ul> </td> 
      </tr> 
      <tr> 
@@ -199,9 +199,9 @@ ht-degree: 2%
      </tr> 
      <tr> 
       <td role="rowheader">專案貨幣</td> 
-      <td> <p>如果貨幣與系統中的預設貨幣不同，請指定此專案的貨幣。 您系統中的預設貨幣由Workfront管理員定義。 如需在Workfront中設定匯率的詳細資訊，請參閱文章 <a href="../../../administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md" class="MCXref xref">設定匯率</a>.</p> </td> 
+      <td> <p>如果貨幣與系統中的預設貨幣不同，請指定此專案的貨幣。 您系統中的預設貨幣由Workfront管理員定義。 如需有關在Workfront中設定匯率的詳細資訊，請參閱文章<a href="../../../administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md" class="MCXref xref">設定匯率</a>。</p> </td> 
      </tr>
     </tbody> 
    </table>
 
-1. 按一下 **儲存變更**.
+1. 按一下「**儲存變更**」。

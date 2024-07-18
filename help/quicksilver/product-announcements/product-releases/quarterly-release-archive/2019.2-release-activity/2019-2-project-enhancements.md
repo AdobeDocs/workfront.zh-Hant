@@ -18,7 +18,7 @@ ht-degree: 1%
 
 本頁說明2019.2版本隨附的所有專案增強功能。 此功能計畫在2019年5月20日當週的生產環境中可用。
 
-如需2019.2年度所有變更的清單，請參閱 [2019.2版本活動概覽](../../../../product-announcements/product-releases/quarterly-release-archive/2019.2-release-activity/2019-2-release-activity-overview.md).
+如需2019.2年度所有變更的清單，請參閱[2019.2年度發行活動概覽](../../../../product-announcements/product-releases/quarterly-release-archive/2019.2-release-activity/2019-2-release-activity-overview.md)。
 
 ## 自訂狀態時更快找到群組
 
@@ -26,13 +26,13 @@ ht-degree: 1%
 
 以前，下拉式選單顯示的群組數量有限。 如果您想要的群組未顯示，您必須導覽至「設定>群組」 ，並尋找特定群組以自訂群組的狀態。
 
-如需詳細資訊，請參閱 [建立或編輯狀態](../../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md).
+如需詳細資訊，請參閱[建立或編輯狀態](../../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md)。
 
 ## 將預設自訂Forms和核准流程附加至任務
 
 您現在可以設定預設自訂表單和核准流程，以便在您將任務新增到專案時附加到任務。 您可以在專案層級進行預設設定。
 
-如需有關為專案層級的任務設定預設自訂表單和核准流程的資訊，請參閱 [編輯專案](../../../../manage-work/projects/manage-projects/edit-projects.md) 文章。
+如需有關在專案層級為任務設定預設自訂表單和核准流程的資訊，請參閱[編輯專案](../../../../manage-work/projects/manage-projects/edit-projects.md)文章中的「任務」一節。
 
 ## 在工作清單中以粗體顯示父系工作的整列
 
@@ -44,9 +44,9 @@ ht-degree: 1%
 
 在此增強功能之前，所有變更一律會自動儲存。
 
-如需有關編輯工作清單中工作的資訊，請參閱 [編輯任務](../../../../manage-work/tasks/manage-tasks/edit-tasks.md).
+如需有關編輯工作清單中工作的資訊，請參閱[編輯工作](../../../../manage-work/tasks/manage-tasks/edit-tasks.md)。
 
-如需有關編輯甘特圖中的工作的資訊，請參閱 [更新工作清單甘特圖中的資訊](../../../../manage-work/gantt-chart/use-the-gantt-chart/update-info-task-list-gantt.md).
+如需有關編輯甘特圖中的工作的資訊，請參閱工作清單甘特圖中的[更新資訊](../../../../manage-work/gantt-chart/use-the-gantt-chart/update-info-task-list-gantt.md)。
 
 ## 新清單中的新欄寬預設值
 
@@ -54,7 +54,7 @@ ht-degree: 1%
 
 在此改善之前，除非另有指定，否則新專案和工作檢視中的欄寬設定為100畫素。
 
-如需欄寬的相關資訊，請參閱 [修改欄寬和順序](../../../../reports-and-dashboards/reports/reporting-elements/modify-column-width-order.md).
+如需欄寬的相關資訊，請參閱[修改欄寬和順序](../../../../reports-and-dashboards/reports/reporting-elements/modify-column-width-order.md)。
 
 ## 停用未使用的物件
 
@@ -86,7 +86,7 @@ ht-degree: 1%
 
 雖然這些專案績效量度以前用於Workfront的財務計算，但在此增強功能之前，無法在系統中看到。
 
-如需有關計算BCWS的資訊，請參閱 [計算已排程工作的預算成本(BCWS)](../../../../manage-work/projects/project-finances/calculate-bcws.md).
+如需有關計算BCWS的資訊，請參閱[計算排定工作的預算成本(BCWS)](../../../../manage-work/projects/project-finances/calculate-bcws.md)。
 
-如需有關計算BCWP的資訊，請參閱 [計算已執行工作的預算成本(BCWP)](../../../../manage-work/projects/project-finances/calculate-bcwp.md).
+如需有關計算BCWP的資訊，請參閱[計算已執行工作的預算成本(BCWP)](../../../../manage-work/projects/project-finances/calculate-bcwp.md)。
 

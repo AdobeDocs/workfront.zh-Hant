@@ -17,7 +17,7 @@ ht-degree: 0%
 
 本頁說明21.1版本隨附的所有行動裝置增強功能。 這些增強功能將於2021年2月15日當週在行動商店推出。
 
-如需21.1版所有可用變更的清單，請參閱 [21.1版本總覽](../../../product-announcements/product-releases/21.1-release-activity/21-1-release-overview.md).
+如需21.1版本可用的所有變更清單，請參閱[21.1版本概觀](../../../product-announcements/product-releases/21.1-release-activity/21-1-release-overview.md)。
 
 ## Adobe Workfront應用程式中的新導覽階層連結
 
@@ -27,10 +27,10 @@ ht-degree: 0%
 
 您現在可以在Workfront行動應用程式的自訂表單文字欄位中使用RTF格式。
 
-如需有關如何建立具有文字欄位的自訂表單的詳細資訊，請參閱 [建立或編輯自訂表單](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
+如需有關如何使用文字欄位建立自訂表單的詳細資訊，請參閱[建立或編輯自訂表單](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)。
 
 ## SSO使用者現在可以使用面容ID或指紋技術重新登入Workfront應用程式
 
 如果您的組織使用SSO，您現在可以在工作階段逾時後，使用面孔ID或指紋登入Workfront行動應用程式。 不過，您一開始必須使用您的SSO憑證登入。
 
-如需如何使用SSO登入Workfront行動應用程式的詳細資訊，請參閱 [登入Adobe Workfront](../../../workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/log-in-to-workfront.md).
+如需有關如何使用SSO登入Workfront行動應用程式的資訊，請參閱[登入Adobe Workfront](../../../workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/log-in-to-workfront.md)。

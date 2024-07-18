@@ -22,7 +22,7 @@ ht-degree: 0%
 >
 >本頁所述的功能在生產環境使用之前可能會有所變更。
 
-如需2019.2年度所有變更的清單，請參閱 [2019.2版本活動概覽](../../../../product-announcements/product-releases/quarterly-release-archive/2019.2-release-activity/2019-2-release-activity-overview.md).
+如需2019.2年度所有變更的清單，請參閱[2019.2年度發行活動概覽](../../../../product-announcements/product-releases/quarterly-release-archive/2019.2-release-activity/2019-2-release-activity-overview.md)。
 
 ## 在敏捷工具中追蹤問題的完成百分比進度
 

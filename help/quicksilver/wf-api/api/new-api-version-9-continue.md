@@ -9,18 +9,18 @@ role: Developer
 exl-id: 0af97c16-e6a7-4796-92e0-4c2d9751c845
 source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
-source-wordcount: '145'
-ht-degree: 25%
+source-wordcount: '153'
+ht-degree: 24%
 
 ---
 
 # API第9版的新增功能（續）
 
-此清單是大型清單的第二個部分。 上半部分可以位於 [API 9版的新增功能](../../wf-api/api/new-api-version-9.md). 如需第9版的更新清單，請前往 [API第9版的更新](../../wf-api/api/new-api-version-9-updates.md).
+此清單是大型清單的第二個部分。 前半部分可以位於[API版本9](../../wf-api/api/new-api-version-9.md)的新增功能。 您可以在[API版本9](../../wf-api/api/new-api-version-9-updates.md)的更新中找到版本9的更新清單。
 
 ## PortalSection
 
-| 欄位 | 引用 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
+| 欄位 | 引用 | 集合 | 搜尋 | 動作 | 查詢 | 營運 |
 |---|---|---|---|---|---|---|
 | `accessorIDs` | `customer` | `accessRules` | `accessLevelMM` | `exportFusionChartToPDF` |  | `ADD` |
 | `appGlobalID` | `enteredBy` | `lastViewers` | `displayDescription` | `getPK` |  | `COPY` |
@@ -88,7 +88,7 @@ ht-degree: 25%
 
 ## PortalSectionLastViewer
 
-| 欄位 | 引用 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
+| 欄位 | 引用 | 集合 | 搜尋 | 動作 | 查詢 | 營運 |
 |---|---|---|---|---|---|---|
 | creationDate | `customer` |  |  |  |  | `COUNT` |
 | `customerID` | `report` |  |  |  |  | `GET` |
@@ -100,7 +100,7 @@ ht-degree: 25%
 
 ## PortalSectionStatisticInfo
 
-| 欄位 | 引用 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
+| 欄位 | 引用 | 集合 | 搜尋 | 動作 | 查詢 | 營運 |
 |---|---|---|---|---|---|---|
 | `allViews` | `customer` |  |  |  |  | `COUNT` |
 | `customerID` | `report` |  |  |  |  | `GET` |
@@ -118,7 +118,7 @@ ht-degree: 25%
 
 ## Portaltab
 
-| 欄位 | 引用 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
+| 欄位 | 引用 | 集合 | 搜尋 | 動作 | 查詢 | 營運 |
 |---|---|---|---|---|---|---|
 | `accessorIDs` | `customer` | `accessRules` | `linkedRoleIDs` | `advancedCopy` |  | `ADD` |
 | `customerID` | `lastUpdatedBy` | `linkedRoles` | `linkedTeamIDs` | `exportDashboard` |  | `COPY` |
@@ -140,7 +140,7 @@ ht-degree: 25%
 
 ## PortalTabSection
 
-| 欄位 | 引用 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
+| 欄位 | 引用 | 集合 | 搜尋 | 動作 | 查詢 | 營運 |
 |---|---|---|---|---|---|---|
 | `area` | `calendarPortalSection`  |   |   |   |   |   |
 | `calendarPortalSectionID` | `customer`  |   |   |   |   |   |
@@ -157,7 +157,7 @@ ht-degree: 25%
 
 ## 報告資料夾
 
-| 欄位 | 引用 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
+| 欄位 | 引用 | 集合 | 搜尋 | 動作 | 查詢 | 營運 |
 |---|---|---|---|---|---|---|
 | customerID | `customer` |   |   |   |   |   |
 | `ID`  |   |   |   |   |   |   |
@@ -167,7 +167,7 @@ ht-degree: 25%
 
 ## 排程報表
 
-| 欄位 | 引用 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
+| 欄位 | 引用 | 集合 | 搜尋 | 動作 | 查詢 | 營運 |
 |---|---|---|---|---|---|---|
 | `customerID` | `customer` | `groups` | `accessLevelMM` | `sendReportDeliveryNow` |  | `ADD` |
 | `description` | `enteredBy` | `roles` |  |  |  | `COPY` |

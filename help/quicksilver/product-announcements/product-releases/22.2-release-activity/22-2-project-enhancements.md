@@ -1,6 +1,6 @@
 ---
-title: 22.2&nbsp；專案增強功能
-description: 22.2&nbsp；專案增強功能
+title: 22.2&amp；nbsp；專案增強功能
+description: 22.2&amp；nbsp；專案增強功能
 author: Luke
 draft: Probably
 feature: Product Announcements
@@ -23,7 +23,7 @@ in January 2022
 </MadCap:conditionalText>
 -->
 
-2022年4月4日當週。 如需22.2版所有可用變更的清單，請參閱 [22.2版本總覽](../../../product-announcements/product-releases/22.2-release-activity/22-2-release-overview.md).
+2022年4月4日當週。 如需22.2版本可用的所有變更清單，請參閱[22.2版本概觀](../../../product-announcements/product-releases/22.2-release-activity/22-2-release-overview.md)。
 
 ## Adobe Workfront展示板現已推出！
 
@@ -40,7 +40,7 @@ in January 2022
 
 系統管理員必須啟用版面配置範本中的面板，才能讓主功能表中的所有使用者都可以使用選項。
 
-如需詳細資訊，請參閱 [展示板概述](../../../agile/boards-overview.md).
+如需詳細資訊，請參閱[面板概述](../../../agile/boards-overview.md)。
 
 ## Workfront面板的其他改善
 
@@ -65,13 +65,13 @@ Workfront主機板現在提供下列其他改良功能：
 
   您現在可以為展示板上的個別卡片設定到期日期。
 
-如需詳細資訊，請參閱 [開始使用Adobe Workfront中的面板](../../../agile/get-started-with-boards/get-started-with-boards.md).
+如需詳細資訊，請參閱[開始使用Adobe Workfront中的面板](../../../agile/get-started-with-boards/get-started-with-boards.md)。
 
 ## 「更新貼文」的「還原」選項
 
 現在，在張貼更新時更容易擷取錯誤。 現在，在物件的Update索引標籤中完成評論時，會建立一個彈出式視窗，持續7秒，讓您在系統時間戳記該文章或傳送任何電子郵件和應用程式內通知之前取消文章並返回編輯。 如果您關閉快顯視窗、離開頁面，或等待視窗7秒逾時，系統就會正常張貼。
 
-如需詳細資訊，請參閱 [更新工作](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+如需詳細資訊，請參閱[更新工作](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md)。
 
 ## 更新複製和移動問題時的體驗
 
@@ -94,7 +94,7 @@ Workfront主機板現在提供下列其他改良功能：
 
 為了讓您使用Workfront與新的Adobe Workfront體驗一致，我們重新設計了複製專案的介面。 目前從專案頁面複製專案或從清單或報告複製專案時，可使用此功能。 在此更新之前，您只能從專案頁面複製專案。
 
-如需詳細資訊，請參閱 [複製專案](../../../manage-work/projects/manage-projects/copy-project.md).
+如需詳細資訊，請參閱[複製專案](../../../manage-work/projects/manage-projects/copy-project.md)。
 
 ## 從新的「更多」選單管理清單和報告專案的功能
 
@@ -124,7 +124,7 @@ Workfront主機板現在提供下列其他改良功能：
 
 將問題轉換為專案後，使用者留在清單、報告或儀表板上，而不是被重新導向到專案的頁面。 轉換完成後，系統會顯示成功通知，內含專案的連結，可讓您視需要輕鬆導覽至專案。
 
-如需詳細資訊，請參閱 [在Adobe Workfront中將問題轉換為專案](../../../manage-work/issues/convert-issues/convert-issue-to-project.md).
+如需詳細資訊，請參閱[在Adobe Workfront中將問題轉換為專案](../../../manage-work/issues/convert-issues/convert-issue-to-project.md)。
 
 ## 變更指派時，分配時數將不再移除
 
@@ -140,7 +140,7 @@ Workfront主機板現在提供下列其他改良功能：
 * 取代使用者和角色時，會保留個別指派分配。
 * 移除使用者時，會保留角色上的個別指派分配。 (已從發行版本中移除。 現在，計畫時數將在移除所有受指派人後設為0。)
 
-如需計畫時數的詳細資訊，請參閱 [計畫時數概觀](../../../manage-work/tasks/task-information/planned-hours.md).
+如需計畫時數的詳細資訊，請參閱[計畫時數總覽](../../../manage-work/tasks/task-information/planned-hours.md)。
 
 ## 僅共用資料夾階層前五個層級的資料夾
 
@@ -152,5 +152,5 @@ Workfront主機板現在提供下列其他改良功能：
 
 第六層級或更低層級的每個資料夾都會從其正上方的資料夾繼承其共用設定。
 
-如需共用資料夾的詳細資訊，請參閱 [共用檔案資料夾](../../../workfront-basics/grant-and-request-access-to-objects/share-a-document-folder.md).
+如需共用資料夾的詳細資訊，請參閱[共用檔案資料夾](../../../workfront-basics/grant-and-request-access-to-objects/share-a-document-folder.md)。
 

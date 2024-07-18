@@ -16,7 +16,7 @@ ht-degree: 2%
 
 本頁說明2024年第二季度版本對預覽環境所做的所有檔案管理增強功能。 這些增強功能將在2024年第二季度版本的生產環境中提供。
 
-如需2024年第二季發行週期目前可用的所有變更清單，請參閱 [2024年第二季版本總覽](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).
+如需2024年第二季發行週期目前可用的所有變更清單，請參閱[2024年第二季發行概觀](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md)。
 
 >[!IMPORTANT]
 >
@@ -30,7 +30,7 @@ ht-degree: 2%
 
 您現在可以指定使用者或專案團隊檢閱或核准檔案的截止日期。 稽核者和核准者在指定截止日期前72小時和之後24小時收到電子郵件通知。 截止日期也會反映在新首頁區域的核准Widget。
 
-如需詳細資訊，請參閱 [建立檔案稽核或核准請求](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md).
+如需詳細資訊，請參閱[建立檔案檢閱或核准要求](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)。
 
 ## 建立及使用核准範本
 
@@ -45,7 +45,7 @@ ht-degree: 2%
 
 建立檔案的核准流程時，您可以從檔案區域套用核准範本。
 
-如需詳細資訊，請參閱 [建立核准範本](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md).
+如需詳細資訊，請參閱[建立核准範本](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md)。
 
 ## 一次檢視所有核准的相關資訊
 
@@ -62,4 +62,4 @@ ht-degree: 2%
 
 您可以向下展開至上述類別，以取得更詳細的檢視。 所有核准Widget都可在新首頁和畫布儀表板中使用。
 
-如需詳細資訊，請參閱 [開始使用新首頁](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md).
+如需詳細資訊，請參閱[開始使用新首頁](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md)。

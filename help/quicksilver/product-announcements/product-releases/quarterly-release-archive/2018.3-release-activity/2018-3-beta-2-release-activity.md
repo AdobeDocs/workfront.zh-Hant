@@ -2,7 +2,7 @@
 content-type: release-notes
 navigation-topic: product-releases-archive
 title: 2018.3 Beta 2發行活動
-description: 本頁說明2018.3 Beta 2版本預覽環境中最近可用的所有變更。 此功能將於2018年8月1日在預覽環境中提供。 Beta 2版本的校訂增強功能將於7月18日星期三在預覽環境中提供。 它將於2018年11月在生產環境中提供。
+description: 本頁說明2018.3 Beta 2版本預覽環境中最近可用的所有變更。 此功能將於2018年8月1日在預覽環境中提供。 Beta 2所發行的校訂增強功能將於7月18日星期三在預覽環境中提供。 它將於2018年11月在生產環境中提供。
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
@@ -16,29 +16,29 @@ ht-degree: 0%
 
 # 2018.3 Beta 2發行活動
 
-本頁說明2018.3 Beta 2版本預覽環境中最近可用的所有變更。 此功能將於2018年8月1日在預覽環境中提供。 Beta 2版本的校訂增強功能將於7月18日星期三在預覽環境中提供。 它將於2018年11月在生產環境中提供。
+本頁說明2018.3 Beta 2版本預覽環境中最近可用的所有變更。 此功能將於2018年8月1日在預覽環境中提供。 Beta 2所發行的校訂增強功能將於7月18日星期三在預覽環境中提供。 它將於2018年11月在生產環境中提供。
 
 >[!NOTE]
 >
 > 本頁所述的功能在生產環境使用之前可能會有所變更。
 
-如需2018.3年所有變更的清單，請參閱  [2018.3版本活動概覽](../../../../product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-release-activity-overview.md).
+如需2018.3年所有變更的清單，請參閱  [2018.3發行活動總覽](../../../../product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-release-activity-overview.md)。
 
 2018.3 Beta 2版本包含適用於Workfront管理員和其他使用者的增強功能：
 
-**適用於管理員**
+管理員的&#x200B;****
 
 * [以群組管理員的身分更新使用者設定檔中的電子郵件地址](#update-the-email-address-in-the-user-profile-as-a-group-administrator)
 
-**適用於所有使用者**
+**所有使用者**
 
-* [在首頁區域中檢視委派給我的核准](#view-approvals-delegated-to-me-in-the-home-area)
+* [在首頁區域檢視委派給我的核准](#view-approvals-delegated-to-me-in-the-home-area)
 * [匯出資源規劃工具中指定期間的資料](#export-data-for-a-given-period-in-the-resource-planner)
-* [當使用者過度分配時，每日總計現在會以紅色顯示](#daily-totals-now-display-in-red-when-the-user-is-overallocated)
-* [最小化時，排程時間表上會隱藏任務和問題](#tasks-and-issues-are-hidden-on-the-scheduling-timeline-when-minimized)
+* 當使用者過度分配時，[每日總計現在會以紅色顯示](#daily-totals-now-display-in-red-when-the-user-is-overallocated)
+* 最小化時，[排程時間表上會隱藏任務和問題](#tasks-and-issues-are-hidden-on-the-scheduling-timeline-when-minimized)
 * [在校訂檢視器中依使用者篩選評論和回覆](#filter-comments-and-replies-by-user-in-the-proofing-viewer)
-* [對視訊校訂中的某個範圍的影片進行註解](#comment-on-a-range-of-footage-in-a-video-proof)
-* [校訂檢視器中註解標示的新折線工具](#new-polyline-tool-for-comment-markup-in-the-proofing-viewer)
+* [在視訊校訂中註解一段素材](#comment-on-a-range-of-footage-in-a-video-proof)
+* [校訂檢視器中註解標籤的新折線工具](#new-polyline-tool-for-comment-markup-in-the-proofing-viewer)
 * [針對報告、行事曆和檔案共用移除Flash](#flash-removal-for-report-calendar-and-document-sharing)
 
 ## 以群組管理員的身分更新使用者設定檔中的電子郵件地址 {#update-the-email-address-in-the-user-profile-as-a-group-administrator}
@@ -47,7 +47,7 @@ ht-degree: 0%
 
 之前，只有Workfront管理員可以更新其他使用者的電子郵件地址。 
 
-如需詳細資訊，請參閱 [群組管理員](../../../../administration-and-setup/manage-groups/group-roles/group-administrators.md).
+如需詳細資訊，請參閱[群組管理員](../../../../administration-and-setup/manage-groups/group-roles/group-administrators.md)。
 
 ## 在首頁區域中檢視委派給我的核准 {#view-approvals-delegated-to-me-in-the-home-area}
 
@@ -55,7 +55,7 @@ ht-degree: 0%
 
 在此變更之前，您只能在「我的工作」區域中檢視委派的核准。
 
-如需詳細資訊，請參閱 [委派核准請求](../../../../review-and-approve-work/manage-approvals/delegate-approval-requests.md).
+如需詳細資訊，請參閱[委派核准要求](../../../../review-and-approve-work/manage-approvals/delegate-approval-requests.md)。
 
 ## 匯出資源規劃工具中指定期間的資料 {#export-data-for-a-given-period-in-the-resource-planner}
 
@@ -63,13 +63,13 @@ ht-degree: 0%
 
 在此增強功能之前，您只能匯出畫面上顯示的資訊。
 
-如需有關從資源規劃工具匯出資料的詳細資訊，請參閱 [資源規劃工具導覽概觀](../../../../resource-mgmt/resource-planning/resource-planner-navigation.md) 在文章中 [資源規劃工具導覽概觀](../../../../resource-mgmt/resource-planning/resource-planner-navigation.md).
+如需有關從資源規劃工具匯出資料的詳細資訊，請參閱文章[資源規劃工具導覽概觀](../../../../resource-mgmt/resource-planning/resource-planner-navigation.md)中的[資源規劃工具導覽概觀](../../../../resource-mgmt/resource-planning/resource-planner-navigation.md)。
 
 ## 當使用者過度分配時，每日總計現在會以紅色顯示 {#daily-totals-now-display-in-red-when-the-user-is-overallocated}
 
 >[!NOTE]
 >
->已棄用資源排程工具，並已從Workfront的23.1版本中移除。 如需有關使用工作負載平衡器排程資源的資訊，請參閱 [工作負載平衡器概覽](../../../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
+>已棄用資源排程工具，並已從Workfront的23.1版本中移除。 如需有關使用工作負載平衡器排程資源的資訊，請參閱[工作負載平衡器概覽](../../../../resource-mgmt/workload-balancer/overview-workload-balancer.md)。
 
 當使用者被過度分配時，該使用者被過度分配的天數的每日總計現在顯示為紅色。 只有在排程時間表設定中啟用顯示每日計畫時數總計選項時，才會顯示此選項。 在此增強功能之前，使用者過度配置的天數有紅色長條指標，但每日總計顯示時沒有紅色反白顯示。
 
@@ -81,7 +81,7 @@ ht-degree: 0%
 
 以前，當最小化任務和問題時，任務和問題將保留在使用者和角色的排程時間表上，但將以壓縮檢視顯示。
 
-如需在排程時間表上最大限度減少任務和問題的詳細資訊，請參閱「開始使用資源排程」。
+如需有關在排程時間表中將任務和問題最小化的詳細資訊，請參閱  開始使用資源排程。
 
 ## 在校訂檢視器中依使用者篩選評論和回覆 {#filter-comments-and-replies-by-user-in-the-proofing-viewer}
 

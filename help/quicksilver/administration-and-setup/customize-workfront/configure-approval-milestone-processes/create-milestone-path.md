@@ -43,7 +43,7 @@ NOTE: DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THR
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定</td> 
-   <td> <p>您必須是Workfront管理員。</p> <p><b>注意</b>：如果您還是沒有存取權，請詢問Workfront管理員是否對您的存取層級設定了其他限制。 如需有關Workfront管理員如何修改您的存取層級的資訊，請參閱 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>.</p> </td> 
+   <td> <p>您必須是Workfront管理員。</p> <p><b>注意</b>：如果您還是沒有存取權，請詢問您的Workfront管理員是否對您的存取層級設定了其他限制。 如需Workfront管理員如何修改存取層級的詳細資訊，請參閱<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>。</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -58,15 +58,15 @@ NOTE: DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THR
 
 建立里程碑路徑的第一步是識別里程碑步驟是什麼，並建立里程碑。 由於您可以將里程碑路徑關聯到多個專案，因此里程碑步驟必須是任何專案的一般階段或階段。
 
-如需如何將里程碑路徑與專案建立關聯的詳細資訊，以及里程碑與任務的詳細資訊，請參閱 [將里程碑與任務建立關聯](../../../manage-work/tasks/manage-tasks/associate-milestones-with-tasks.md).
+如需如何關聯里程碑路徑與專案的詳細資訊，以及關聯里程碑與任務的詳細資訊，請參閱[關聯里程碑與任務](../../../manage-work/tasks/manage-tasks/associate-milestones-with-tasks.md)。
 
 ## 建立里程碑路徑
 
-1. 按一下 **主要功能表** 圖示 ![](assets/main-menu-icon.png) (位於Adobe Workfront的右上角)，然後按一下 **設定** ![](assets/gear-icon-settings.png).
+1. 按一下Adobe Workfront右上角的&#x200B;**主要功能表**&#x200B;圖示![](assets/main-menu-icon.png)，然後按一下&#x200B;**設定** ![](assets/gear-icon-settings.png)。
 
-1. 按一下 **程式** > **里程碑路徑**.
-1. 按一下 **建立里程碑路徑。**
-1. 在「 」中指定下列資訊 **基本資訊** 區域：
+1. 按一下&#x200B;**處理序** > **里程碑路徑**。
+1. 按一下&#x200B;**新增里程碑路徑。**
+1. 在&#x200B;**基本資訊**&#x200B;區域中指定下列資訊：
 
    <table style="table-layout:auto">
     <tr>
@@ -87,7 +87,7 @@ NOTE: DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THR
     </tr>
    </table>
 
-1. 在「 」中指定下列資訊 **里程碑** 區域：
+1. 在&#x200B;**里程碑**&#x200B;區域中指定下列資訊：
 
    <table style="table-layout:auto"> 
     <col> 
@@ -108,9 +108,9 @@ NOTE: DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THR
     </tbody> 
    </table>
 
-1. 按一下 **新增里程碑** 並視需要繼續新增里程碑，直到路徑完成為止。
-1. 按一下 **建立里程碑路徑** 以儲存變更。
+1. 按一下&#x200B;**新增里程碑**，然後視需要繼續新增里程碑，直到路徑完成為止。
+1. 按一下&#x200B;**建立里程碑路徑**&#x200B;以儲存變更。
 
    您的里程碑路徑已準備好與專案相關聯。
 
-   有關如何將里程碑路徑關聯至專案以及里程碑與任務的更多資訊，請參閱 [將里程碑與任務建立關聯](../../../manage-work/tasks/manage-tasks/associate-milestones-with-tasks.md).
+   如需有關如何將里程碑路徑與專案建立關聯以及將里程碑與任務建立關聯的詳細資訊，請參閱[將里程碑與任務建立關聯](../../../manage-work/tasks/manage-tasks/associate-milestones-with-tasks.md)。

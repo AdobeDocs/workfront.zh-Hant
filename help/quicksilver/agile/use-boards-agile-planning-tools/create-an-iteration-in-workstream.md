@@ -9,8 +9,8 @@ feature: Agile
 exl-id: 37b8810d-8439-4a7a-89d5-7c2560422ace
 source-git-commit: 4e5bff5ad62dce8766072e04e3a2b89371a90f03
 workflow-type: tm+mt
-source-wordcount: '379'
-ht-degree: 1%
+source-wordcount: '380'
+ht-degree: 0%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 1%
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] 計劃*</strong></td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] 計畫*</strong></td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
@@ -47,12 +47,12 @@ ht-degree: 1%
 
 {{step1-to-boards}}
 
-1. 開啟您要新增反複專案的工作流。 若要開啟工作流程，請按一下 [!UICONTROL **檢視工作流程**].
+1. 開啟您要新增反複專案的工作流。 若要開啟工作流程，請按一下[檢視工作流程]。[!UICONTROL ****]
 1. 使用下列其中一種方法建立反複專案：
 
-   * 在「卡片清單」標籤上的反複專案檢視中，按一下 [!UICONTROL **建立反複專案**].
-   * 在「卡片清單」標籤上的清單檢視中，按一下 [!UICONTROL **建立反複專案**].
-   * 在「面板」標籤上，按一下 [!UICONTROL **新增展示板**] 並選取 [!UICONTROL **反複專案程式**] 作為展示板範本。 然後，開啟反複專案板並按一下 [!UICONTROL **設定反複專案**].
+   * 在[卡片清單]索引標籤上的反複專案檢視中，按一下[建立反複專案]。[!UICONTROL ****]
+   * 在[卡片清單]索引標籤上，按一下[清單檢視]中的[建立反複專案]。[!UICONTROL ****]
+   * 在[展示板]索引標籤上，按一下[新增展示板&#x200B;**]]並選取[反複專案程式][!UICONTROL **&#x200B;做為展示板範本。 [!UICONTROL ****]&#x200B;然後，開啟反複專案板並按一下&#x200B;[!UICONTROL **設定反複專案**]。
 
 1. 在「版序詳細資訊」對話方塊中，新增下列資訊：
 
@@ -73,22 +73,22 @@ ht-degree: 1%
     </tbody> 
    </table>
 
-1. 按一下&#x200B;[!UICONTROL **儲存**]。
+1. 按一下「[!UICONTROL **儲存**]」。
 
    反複專案現在會出現在卡片清單的反複專案檢視中，以及反複專案板上的量度區域中。
 
-   若要將卡片新增至反複專案，請參閱 [使用卡片清單](/help/quicksilver/agile/use-boards-agile-planning-tools/use-card-list.md).
+   若要將卡片新增至反複專案，請參閱[使用卡片清單](/help/quicksilver/agile/use-boards-agile-planning-tools/use-card-list.md)。
 
 ## 編輯現有反複專案
 
-1. 若要開啟工作流程，請按一下 [!UICONTROL **檢視工作流程**].
+1. 若要開啟工作流程，請按一下[檢視工作流程]。[!UICONTROL ****]
 1. 使用下列其中一種方法開啟反複專案：
 
-   * 在「卡片清單」標籤上的反複專案檢視中，按一下 [!UICONTROL **反複專案詳細資料**] 圖示 ![反複專案詳細資料](assets/iteration-details-button.png).
-   * 在反複專案板上，按一下 [!UICONTROL **反複專案詳細資料**] 圖示 ![反複專案詳細資料](assets/iteration-details-button.png) 在右上角的量度區域中。
+   * 在[卡片清單]索引標籤上的反複專案檢視中，按一下&#x200B;[!UICONTROL **反複專案詳細資料**]&#x200B;圖示![反複專案詳細資料](assets/iteration-details-button.png)。
+   * 在反複專案展示板上，按一下右上角量度區域中的&#x200B;[!UICONTROL **反複專案詳細資料**]&#x200B;圖示![反複專案詳細資料](assets/iteration-details-button.png)。
 
-1. 在 [!UICONTROL 反複專案設定] 面板，視需要編輯反複專案。
-1. 若要變更反複專案名稱，請展開 [!UICONTROL **反複專案詳細資料**].
+1. 在[!UICONTROL 反複專案組態]面板中，視需要編輯反複專案。
+1. 若要變更反複專案名稱，請展開&#x200B;[!UICONTROL **反複專案詳細資料**]。
 
    反複專案開始後，您只能變更反複專案名稱，不能變更日期或反複專案長度。
 
@@ -115,6 +115,6 @@ Use the [!UICONTROL Next Iteration] column to move cards from the current iterat
 
 ## 刪除反複專案
 
-1. 按一下 [!UICONTROL **卡片清單**] 在工作流程上按「 」標籤，並開啟反複專案檢視。
-1. 按一下 **刪除** 圖示 ![「刪除」圖示](assets/delete.png) 位於反複專案旁。
-1. 按一下 [!UICONTROL **刪除反複專案**] 於確認訊息上。
+1. 按一下工作流程上的&#x200B;[!UICONTROL **卡片清單**]&#x200B;索引標籤，然後開啟反複專案檢視。
+1. 按一下反複專案旁的&#x200B;**刪除**&#x200B;圖示![刪除圖示](assets/delete.png)。
+1. 按一下確認訊息上的&#x200B;[!UICONTROL **刪除反複專案**]。

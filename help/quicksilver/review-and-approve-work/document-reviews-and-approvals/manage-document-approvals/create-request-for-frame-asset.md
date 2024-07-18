@@ -18,7 +18,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->本文內容指的更新核准功能僅適用於特定帳戶。 如需有關標準核准流程的資訊，請參閱下列文章： [工作核准](/help/quicksilver/review-and-approve-work/manage-approvals/manage-approvals.md).
+>本文內容指的更新核准功能僅適用於特定帳戶。 如需有關標準核准程式的資訊，請參閱[工作核准](/help/quicksilver/review-and-approve-work/manage-approvals/manage-approvals.md)中列出的文章。
 
 <!--
 ## Access requirements
@@ -53,7 +53,7 @@ You must have the following access to perform the steps in this article:
 
 ## 從檔案摘要建立稽核或核准請求
 
-1. 前往包含Frame.io連線的專案、任務或問題，然後選取 **檔案**.
+1. 移至包含Frame.io連線的專案、任務或問題，然後選取「**檔案**」。
 
    >[!TIP]
    >
@@ -61,17 +61,17 @@ You must have the following access to perform the steps in this article:
 
 1. 按一下需要開啟「檔案摘要」面板的Frame.io連線資產。
 
-1. （選用）在 **版本** 下拉式功能表，選取您要建立核准的資產版本。 預設會選取最新版本。
+1. （選擇性）在&#x200B;**版本**&#x200B;下拉式功能表中，選取您要建立核准的資產版本。 預設會選取最新版本。
 
-1. 向下捲動至 **核准** 區段，然後按一下 **新增**.
+1. 向下捲動至&#x200B;**核准**&#x200B;區段，然後按一下&#x200B;**新增**。
 
 ![](assets/doc-summary-add-approvers.png)
 
 1. （選用）設定核准的截止日期。 若在指定期限前72小時通知使用者和團隊。
 
-1. 若要新增核准者，請按一下 **核准者** 並開始輸入使用者或團隊名稱。
+1. 若要新增核准者，請按一下&#x200B;**核准者**&#x200B;並開始輸入使用者或團隊名稱。
 
-1. 若要新增稽核者，請按一下 **檢閱者** 核取方塊，並開始輸入使用者或團隊名稱。
+1. 若要新增檢閱者，請按一下&#x200B;**檢閱者**&#x200B;核取方塊並開始輸入使用者或團隊名稱。
 
    ![](assets/add-approver-and-deadline.png)
 
@@ -79,18 +79,18 @@ You must have the following access to perform the steps in this article:
 
 ## 從檔案詳細資訊頁面建立檢閱或核准請求
 
-1. 將滑鼠停留在檔案上，然後按一下 **檔案詳細資訊**.
+1. 將滑鼠停留在檔案上，然後按一下&#x200B;**檔案詳細資料**。
    ![](assets/doc-details.png)
 
 1. 在檔名稱附近，選取您要建立核准的檔案版本。 預設會選取最新版本。
 
-1. 在左側面板中，按一下 **核准**.
+1. 在左側面板中，按一下&#x200B;**核准**。
 
 1. （選用）設定核准的截止日期。 若在指定期限前72小時通知使用者和團隊。
 
-1. 若要新增核准者，請按一下 **核准者** 並開始輸入使用者或團隊名稱。
+1. 若要新增核准者，請按一下&#x200B;**核准者**&#x200B;並開始輸入使用者或團隊名稱。
 
-1. 若要新增稽核者，請按一下 **檢閱者** 核取方塊，並開始輸入使用者或團隊名稱。
+1. 若要新增檢閱者，請按一下&#x200B;**檢閱者**&#x200B;核取方塊並開始輸入使用者或團隊名稱。
 
    ![](assets/add-approver-and-deadline.png)
 

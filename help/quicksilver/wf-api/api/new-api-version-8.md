@@ -9,8 +9,8 @@ role: Developer
 exl-id: 90fefaa6-d387-4cdb-8aea-9a939fe2ac26
 source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
-source-wordcount: '261'
-ht-degree: 28%
+source-wordcount: '269'
+ht-degree: 27%
 
 ---
 
@@ -18,11 +18,11 @@ ht-degree: 28%
 
 ## 新資源
 
-這是API版本9的新資源清單。 如需8版資源的更新清單，請造訪 [API第8版的更新](../../wf-api/api/new-api-version-8-updates.md)
+這是API版本9的新資源清單。 如需版本8的資源更新清單，請造訪[API版本8](../../wf-api/api/new-api-version-8-updates.md)的更新
 
 **敏捷工作**
 
-| 欄位 | 引用 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
+| 欄位 | 引用 | 集合 | 搜尋 | 動作 | 查詢 | 營運 |
 |---|---|---|---|---|---|---|
 | backlogOrder | 客戶 |   |   | bulkcopy  |   | 複製 |
 | 顏色 | 反複專案  |   |   |   |   | 計數 |
@@ -49,7 +49,7 @@ ht-degree: 28%
 
 ### APIVersionMetadata
 
-| 欄位 | 引用 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
+| 欄位 | 引用 | 集合 | 搜尋 | 動作 | 查詢 | 營運 |
 |---|---|---|---|---|---|---|
 | deprecationRelease |   |   |   |   |   | 計數  |
 | removalRelease |   |   |   |   |   | GET |
@@ -60,7 +60,7 @@ ht-degree: 28%
 
 **KanbanBoard**
 
-| 欄位 | 引用 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
+| 欄位 | 引用 | 集合 | 搜尋 | 動作 | 查詢 | 營運 |
 |---|---|---|---|---|---|---|
 | ID |   |   |   |   |   | 新增 |
 | 名稱 |   |   |   |   |   | 計數 |
@@ -74,7 +74,7 @@ ht-degree: 28%
 
 ### ProofApprovalStatus
 
-| 欄位 | 引用 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
+| 欄位 | 引用 | 集合 | 搜尋 | 動作 | 查詢 | 營運 |
 |---|---|---|---|---|---|---|
 | ID |   |   |   |   |   |   |
 | proofApprovalStatusID |   |   |   |   |   |   |
@@ -84,7 +84,7 @@ ht-degree: 28%
 
 **ProofFileMetadata**
 
-| 欄位 | 引用 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
+| 欄位 | 引用 | 集合 | 搜尋 | 動作 | 查詢 | 營運 |
 |---|---|---|---|---|---|---|
 | documentVersionID | documentversion |   |   |   |   |   |
 | fileIndex |   |   |   |   |   |   |
@@ -96,7 +96,7 @@ ht-degree: 28%
 
 **ResourceBudgetedHour**
 
-| 欄位 | 引用 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
+| 欄位 | 引用 | 集合 | 搜尋 | 動作 | 查詢 | 營運 |
 |---|---|---|---|---|---|---|
 | allocationDate |   |   |   |   |   | 新增 |
 | budgetedHours |   |   |   |   |   | 計數 |
@@ -110,7 +110,7 @@ ht-degree: 28%
 
 ### ResourcePlannerFilter
 
-| 欄位 | 引用 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
+| 欄位 | 引用 | 集合 | 搜尋 | 動作 | 查詢 | 營運 |
 |---|---|---|---|---|---|---|
 | ID |   |   |   |   |   | 新增 |
 | 名稱 |   |   |   |   |   | 計數 |
@@ -122,9 +122,9 @@ ht-degree: 28%
 
 {style="table-layout:auto"}
 
-**RTF備註**
+**RichTextNote**
 
-| 欄位 | 引用 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
+| 欄位 | 引用 | 集合 | 搜尋 | 動作 | 查詢 | 營運 |
 |---|---|---|---|---|---|---|
 | ID |   |   |   |   |   | 計數 |
 |   |   |   |   |   |   | GET |
@@ -135,7 +135,7 @@ ht-degree: 28%
 
 ### 訂閱
 
-| 欄位 | 引用 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
+| 欄位 | 引用 | 集合 | 搜尋 | 動作 | 查詢 | 營運 |
 |---|---|---|---|---|---|---|
 |  ID |   |   |   | addSubscribers | 訂閱者 | 新增 |
 |   |   |   |   | removeSubscribers |   | 計數  |
@@ -148,7 +148,7 @@ ht-degree: 28%
 
 ### 使用者角色
 
-| 欄位 | 引用 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
+| 欄位 | 引用 | 集合 | 搜尋 | 動作 | 查詢 | 營運 |
 |---|---|---|---|---|---|---|
 | roleID | 角色 |   |   |   |   |   |
 | timePercentage | 使用者 |   |   |   |   |   |

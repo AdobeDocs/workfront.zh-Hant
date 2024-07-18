@@ -2,7 +2,7 @@
 content-type: release-notes
 navigation-topic: product-releases-archive
 title: 2018.2 Beta 1發行活動
-description: 本頁說明2018.2 Beta 1版預覽環境中最近可用的所有變更。 2018年3月22日在預覽環境中提供此功能。 它將於2018年6月在生產環境中提供。
+description: 本頁說明2018.2 Beta 1版本預覽環境中最近可用的所有變更。 2018年3月22日在預覽環境中提供此功能。 它將於2018年6月在生產環境中提供。
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
@@ -16,21 +16,21 @@ ht-degree: 0%
 
 # 2018.2 Beta 1發行活動
 
-本頁說明2018.2 Beta 1版預覽環境中最近可用的所有變更。 2018年3月22日在預覽環境中提供此功能。 它將於2018年6月在生產環境中提供。
+本頁說明2018.2 Beta 1版本預覽環境中最近可用的所有變更。 2018年3月22日在預覽環境中提供此功能。 它將於2018年6月在生產環境中提供。
 
 >[!IMPORTANT]
 >
 >本頁所述的功能在生產環境使用之前可能會有所變更。
 
-如需2018.2年度所有變更的清單，請參閱 [2018.2版本活動概覽](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-release-activity-overview.md).
+如需2018.2年所有變更的清單，請參閱[2018.2發行活動概覽](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-release-activity-overview.md)。
 
-2018.2 Beta 1版包含下列增強功能：
+2018.2 Beta 1版本包含下列增強功能：
 
 * [修改甘特圖中的任務日期](#modify-task-dates-in-the-gantt-chart)
-* [從更新索引標籤存取專案甘特圖](#access-the-project-gantt-chart-from-the-updates-tab) （暫時移除）
+* [從[更新]索引標籤](#access-the-project-gantt-chart-from-the-updates-tab)存取專案甘特圖（暫時移除）
 
-* [檔案清單上檔案的各種連結重新引入](#various-links-re-introduced-to-documents-on-the-document-list)
-* [資源規劃工具中的使用者檢視改善](#user-view-improvements-in-the-resource-planner)
+* [檔案清單](#various-links-re-introduced-to-documents-on-the-document-list)上的檔案重新引進各種連結
+* 資源規劃工具中的[使用者檢視改善](#user-view-improvements-in-the-resource-planner)
 * [新專案清單體驗](#new-project-list-experience)
 * [更新索引標籤的新外觀](#new-look-for-updates-tab)
 * [行動裝置改良](#mobile-improvements)
@@ -41,7 +41,7 @@ ht-degree: 0%
 
 在此變更之前，您只能在工作清單或工作層次中變更工作日期。
 
-如需詳細資訊，請參閱 [更新工作清單甘特圖中的資訊](../../../../manage-work/gantt-chart/use-the-gantt-chart/update-info-task-list-gantt.md).
+如需詳細資訊，請參閱工作清單甘特圖](../../../../manage-work/gantt-chart/use-the-gantt-chart/update-info-task-list-gantt.md)中的[更新資訊。
 
 ## 從更新索引標籤存取專案甘特圖 {#access-the-project-gantt-chart-from-the-updates-tab}
 
@@ -53,9 +53,9 @@ ht-degree: 0%
 
 在此變更之前，專案時間表連結會開啟舊版甘特圖。
 
-如需詳細資訊，請參閱 [認可日期總覽](../../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md).
+如需詳細資訊，請參閱[認可日期總覽](../../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md)。
 
-如需詳細資訊，請參閱 [Portfolio最佳化工具概觀](../../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md).
+如需詳細資訊，請參閱[Portfolio最佳化程式概述](../../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md)。
 
 ## 檔案清單上檔案的各種連結重新引入 {#various-links-re-introduced-to-documents-on-the-document-list}
 
@@ -95,7 +95,7 @@ ht-degree: 0%
 
 在這些改進之前，您報告資源規劃工具載入緩慢，並且您注意到顯示的資料中出現不一致。 透過這些改善功能，這些應該現已淘汰。
 
-如需有關資源規劃工具區域的詳細資訊，請參閱 [資源規劃工具導覽概觀](../../../../resource-mgmt/resource-planning/resource-planner-navigation.md).
+如需資源規劃工具區域的詳細資訊，請參閱[資源規劃工具導覽概觀](../../../../resource-mgmt/resource-planning/resource-planner-navigation.md)。
 
 <!--
 <p dir="ltr" data-mc-conditions="QuicksilverOrClassic.Draft mode">To participate in our current beta program and give us feedback on the functionality of the Resource Planner, see <a href="../../../../product-announcements/betas/resource-planner-performance-beta.md" class="MCXref xref">Resource Planner performance beta </a></p>
@@ -119,12 +119,12 @@ ht-degree: 0%
 
 下列功能已在指定的專案清單中暫時停用：
 
-* 調整欄大小（此功能已在2018.2 Beta 5版本中重新引入）
+* 調整欄大小(此功能已在2018.2 Beta 5版本中重新引入)
 * 欄重新排序
-* 狀態圖示欄位顯示為空白（此功能已在2018.2 Beta 5版本中重新引入）
-* 無法存取甘特圖（2018.2 Beta 3版本已重新引入此功能）。
+* 狀態圖示欄位會顯示為空白(2018.2 Beta 5版本已重新引入此功能)
+* 無法存取甘特圖(此功能已在2018.2 Beta 3版本中重新引入。)
 
-如需有關在清單中工作的詳細資訊，請參閱 [開始使用Adobe Workfront中的清單](../../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).
+如需使用清單的詳細資訊，請參閱[開始使用Adobe Workfront中的清單](../../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md)。
 
 ## 更新索引標籤的新外觀 {#new-look-for-updates-tab}
 
@@ -144,8 +144,8 @@ ht-degree: 0%
  <thead> 
   <tr> 
    <th> <p><strong>任務</strong> </p> </th> 
-   <th> <p><strong>上一個使用者動作</strong> </p> </th> 
-   <th> <p><strong>新增使用者動作</strong> </p> </th> 
+   <th> <p><strong>先前的使用者動作</strong> </p> </th> 
+   <th> <p><strong>新使用者動作</strong> </p> </th> 
    <th> <p><strong>如需詳細資訊，請參閱……</strong> </p> </th> 
   </tr> 
  </thead> 
@@ -190,7 +190,7 @@ ht-degree: 0%
    <td> <p>新增回覆或更新至評論或更新</p> </td> 
    <td> <p>按一下評論按鈕</p> </td> 
    <td> <p>按一下回覆或更新按鈕</p> </td> 
-   <td> <p><a href="../../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md" class="MCXref xref">更新工作</a> </p> <p><a href="../../../../manage-work/projects/updating-work-in-a-project/update-task-status.md" class="MCXref xref">更新任務狀態</a> </p> <p><a href="../../../../manage-work/projects/updating-work-in-a-project/update-condition-for-tasks-and-issues.md" class="MCXref xref">更新任務和問題的條件</a> </p> <p> </p> <p><a href="../../../../documents/managing-documents/add-update-documents.md" class="MCXref xref">將更新新增至檔案</a> </p> </td> 
+   <td> <p><a href="../../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md" class="MCXref xref">更新工作</a> </p> <p><a href="../../../../manage-work/projects/updating-work-in-a-project/update-task-status.md" class="MCXref xref">更新任務狀態</a> </p> <p><a href="../../../../manage-work/projects/updating-work-in-a-project/update-condition-for-tasks-and-issues.md" class="MCXref xref">更新任務和問題的條件</a> </p> <p> </p> <p><a href="../../../../documents/managing-documents/add-update-documents.md" class="MCXref xref">新增更新至檔案</a> </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -203,7 +203,7 @@ ht-degree: 0%
 
   如需共用連結的詳細資訊，請參閱。
 
-  此更新本週有時會發佈到iOS，Android更新應該會在之後不久發佈。
+  此更新本週有時會發佈到iOS，Android更新應該會在不久之後發佈。
 
 * 我們已更新iOS平台的支援需求，以支援iPhone X。
 

@@ -17,7 +17,7 @@ ht-degree: 14%
 
 本頁說明在22.3版發行時間範圍內對Adobe Workfront應用程式的各個區域外觀和感覺所做的小幅更新。 這些增強功能在發佈到「預覽」版後至少2週內可在「生產」環境中使用。
 
-如需22.3版所有可用變更的清單，請參閱 [22.3版本總覽](../../../product-announcements/product-releases/22.3-release-activity/22-3-release-overview.md).
+如需22.3版本可用的所有變更清單，請參閱[22.3版本總覽](../../../product-announcements/product-releases/22.3-release-activity/22-3-release-overview.md)。
 
 ## 全域外觀和感覺更新
 
@@ -43,6 +43,6 @@ ht-degree: 14%
 
 >[!NOTE]
 >
->此變更於2022年5月23日在生產環境中更新。 請參閱 [2022年5月26日維護更新，以瞭解更多資訊](https://one.workfront.com/s/article/Maintenance-Update-on-May-26-2022).
+>此變更於2022年5月23日在生產環境中更新。 如需詳細資訊，請參閱2022年5月26日的[維護更新](https://one.workfront.com/s/article/Maintenance-Update-on-May-26-2022)。
 
 我們在所有可用階層連結的區域更新了階層連結分隔符號。現在，階層連結中的物件由豎線 (|) 分隔。在此更新之前，它們由正斜線 (/) 分隔。

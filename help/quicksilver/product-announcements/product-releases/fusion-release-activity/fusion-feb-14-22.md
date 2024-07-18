@@ -1,6 +1,6 @@
 ---
-title: Workfront Fusion發行活動：&nbsp；2022年2月14日起一週
-description: Workfront Fusion發行活動：&nbsp；2022年2月14日起一週
+title: Workfront Fusion發行活動：&amp；nbsp；2022年2月14日當週
+description: Workfront Fusion發行活動：&amp；nbsp；2022年2月14日當週
 author: Luke
 draft: Probably
 feature: Product Announcements, Workfront Fusion
@@ -18,9 +18,9 @@ ht-degree: 0%
 
 本頁說明2022年2月14日當週在Adobe Workfront Fusion中所做的所有增強功能。
 
-如需所有最近變更的清單，請參閱 [Adobe Workfront Fusion發行活動](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
+如需所有最近變更的清單，請參閱[Adobe Workfront Fusion發行活動](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md)。
 
-如需Workfront Fusion中近期的錯誤修正清單，請參閱 [Workfront維護更新](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) 頁面，並檢查是否有任何標示為Workfront Fusion維護更新的更新。
+如需Workfront Fusion中最近的錯誤修正清單，請參閱[Workfront維護更新](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html)頁面，並檢查任何標示為Workfront Fusion維護更新的更新。
 
 ## Workfront Fusion Anaplan聯結器的更新
 
@@ -29,4 +29,4 @@ ht-degree: 0%
 * 使用專用模組將檔案上傳至Anaplan。 現在，您可以在Anaplan中取得檔案，並將其上傳至其他工作區和模型。
 * 使用取得記錄模組擷取Anaplan檢視。 現在，您可以列出Anaplan模組或模型的所有檢視。
 
-如需詳細資訊，請參閱 [Anaplan模組](../../../workfront-fusion/apps-and-their-modules/anaplan-modules.md).
+如需詳細資訊，請參閱[Anaplan模組](../../../workfront-fusion/apps-and-their-modules/anaplan-modules.md)。

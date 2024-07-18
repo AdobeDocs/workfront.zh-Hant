@@ -24,7 +24,7 @@ ht-degree: 0%
 * 檢視、貢獻或管理工作區
 * 檢視或管理檢視。
 
-如需Workfront Planning中物件許可權的相關資訊，請參閱 [在Adobe Workfront Planning中共用許可權的概觀](/help/quicksilver/planning/access/sharing-permissions-overview.md).
+如需Workfront Planning中物件的許可權相關資訊，請參閱[在Adobe Workfront Planning中共用許可權概觀](/help/quicksilver/planning/access/sharing-permissions-overview.md)。
 
 ## Workfront授權型別與Workfront Planning許可權之間的關係
 
@@ -35,10 +35,10 @@ ht-degree: 0%
 
 | Adobe Workfront授權型別* | Adobe Workfront Planning允許的最高許可權 |
 |------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 新增：標準 <br> 或 <br>目前：計畫 | 使用者可以管理工作區。 他們可以建立、編輯或刪除工作區、記錄型別、記錄和欄位。 <br> 系統管理員擁有所有工作區的管理許可權，包括他們未建立的工作區。 |
-| 新增：輕量，貢獻者 <br> 或 <br>目前：工作、請求者、檢閱者 | 使用者可以檢視與他們共用的工作區，以及這些工作區的記錄型別、記錄和欄位。 <br> 使用者無法建立、編輯或刪除工作區、記錄型別、記錄或欄位。 |
+| 新增：標準<br>或<br>目前：計畫 | 使用者可以管理工作區。 他們可以建立、編輯或刪除工作區、記錄型別、記錄和欄位。 <br>系統管理員擁有所有工作區的管理許可權，包括他們未建立的工作區。 |
+| 新增：淺色、貢獻者<br>或<br>目前：工作、請求者、檢閱者 | 使用者可以檢視與他們共用的工作區，以及這些工作區的記錄型別、記錄和欄位。 <br>使用者無法建立、編輯或刪除工作區、記錄型別、記錄或欄位。 |
 
-*如需詳細資訊，請參閱 [Workfront檔案中的存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 ### 授權型別和工作區許可權
 

@@ -32,7 +32,7 @@ webhook型整合的使用者體驗將與現有檔案整合類似，例如Google 
 
 **參考實作**
 
-為協助快速開始開發新的Webhook實作，Workfront提供參考實作的範例。 這些範例可在以下網址找到： [https://github.com/Workfront/webhooks-app](https://github.com/Workfront/webhooks-app). 範例以Java為基礎，可讓Workfront在網路檔案系統上連線檔案。 
+為協助快速開始開發新的Webhook實作，Workfront提供參考實作的範例。 您可以在[https://github.com/Workfront/webhooks-app](https://github.com/Workfront/webhooks-app)找到這些範例。 範例以Java為基礎，可讓Workfront在網路檔案系統上連線檔案。 
 
 >[!NOTE]
 >

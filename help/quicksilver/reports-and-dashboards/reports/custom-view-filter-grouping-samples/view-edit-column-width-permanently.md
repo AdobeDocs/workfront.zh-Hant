@@ -18,7 +18,7 @@ ht-degree: 0%
 
 <!-- Audited: 1/2024 -->
 
-您可以拖放欄的邊界以符合想要的寬度，暫時修改欄的寬度。 如需詳細資訊，請參閱 [修改欄寬和順序](../../../reports-and-dashboards/reports/reporting-elements/modify-column-width-order.md).
+您可以拖放欄的邊界以符合想要的寬度，暫時修改欄的寬度。 如需詳細資訊，請參閱[修改資料行寬度和順序](../../../reports-and-dashboards/reports/reporting-elements/modify-column-width-order.md)。
 
 若要永久變更任何檢視的任何欄寬，編輯檢視時必須在欄中使用文字模式。
 
@@ -51,7 +51,7 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-如需有關此表格的詳細資訊，請參閱 [Workfront檔案中的存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -59,21 +59,21 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->如果您依照一節所述手動修改欄寬 [暫時修改欄寬和順序](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/modify-column-width-order.md#modify-width-and-order-of-columns-temporarily) 在文章中 [修改欄寬和順序](../../../reports-and-dashboards/reports/reporting-elements/modify-column-width-order.md) 永久修改欄的寬度之後，會根據手動調整大小來保留欄的寬度。 在此情況下，會覆寫根據下列步驟更新的欄寬。 清除快取或從其他瀏覽器登入後，您可以根據下列步驟中定義的寬度來檢視欄。
+>如果您手動修改欄的寬度，如[暫時修改欄的寬度和順序[修改欄的寬度和順序](../../../reports-and-dashboards/reports/reporting-elements/modify-column-width-order.md)一節中所述，在您永久修改欄的寬度之後，欄的寬度會根據手動調整大小保留。 ](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/modify-column-width-order.md#modify-width-and-order-of-columns-temporarily)在此情況下，會覆寫根據下列步驟更新的欄寬。 清除快取或從其他瀏覽器登入後，您可以根據下列步驟中定義的寬度來檢視欄。
 >
->如需在使用「文字模式」介面時自訂欄寬的其他資訊，請參閱 [Adobe Workfront術語表](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
+>如需在使用「文字模式」介面時自訂欄寬的其他資訊，請參閱Adobe Workfront術語[辭彙表](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md)中的「寬度」和「延伸」定義。
 
 1. 移至物件清單。
-1. 從 **檢視** 下拉式功能表，按一下 **新檢視**.
+1. 從&#x200B;**檢視**&#x200B;下拉式功能表，按一下&#x200B;**新增檢視**。
 
-1. 按一下 **新增欄** 以新增欄。
+1. 按一下&#x200B;**新增欄**&#x200B;以新增欄。
 
    或
 
    按一下任何現有欄的欄標題。
 
-1. 按一下 **切換到文字模式**.
-1. 暫留在文字模式區域上，然後按一下 **按一下以編輯文字**.
+1. 按一下&#x200B;**切換到文字模式**。
+1. 暫留在文字模式區域上，然後按一下&#x200B;**按一下以編輯文字**。
 1. 將下列程式碼新增至欄的文字模式：
 
    ```
@@ -81,8 +81,8 @@ ht-degree: 0%
    usewidths=true
    ```
 
-   對於 **寬度** 行，指定代表您希望欄在檢視中顯示之寬度的任何數字（畫素）。
+   對於&#x200B;**寬度**&#x200B;行，請指定代表您希望欄在檢視中顯示之寬度範圍的任意數字（畫素）。
 
-1. 按一下 **儲存**，然後 **儲存檢視**.
+1. 按一下&#x200B;**儲存**，然後按一下&#x200B;**儲存檢視**。
 
 

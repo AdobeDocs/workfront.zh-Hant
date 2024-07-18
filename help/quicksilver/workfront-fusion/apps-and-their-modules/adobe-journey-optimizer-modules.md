@@ -5,7 +5,7 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: apps-and-their-modules
 title: Adobe Journey Optimizer模組
-description: 在 [!DNL Adobe Workfront Fusion] 情境中，您可以使用自動化工作流程 [!DNL Adobe Journey Optimizer]，並連結至多個協力廠商應用程式和服務。
+description: 在 [!DNL Adobe Workfront Fusion] 案例中，您可以自動化使用 [!DNL Adobe Journey Optimizer]的工作流程，並將其連線到多個協力廠商應用程式和服務。
 author: Becky
 feature: Workfront Fusion
 exl-id: 2c1aea46-edbf-42a3-a6e9-f8aea042a48d
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 ---
 
-# [!DNL Adobe Journey Optimizer] 模組
+# [!DNL Adobe Journey Optimizer]模組
 
 >[!IMPORTANT]
 >

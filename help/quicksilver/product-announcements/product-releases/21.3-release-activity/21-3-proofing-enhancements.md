@@ -17,7 +17,7 @@ ht-degree: 0%
 
 本頁說明預覽環境的21.3版本所進行的所有「校訂」增強功能。 這些增強功能已在2021年7月21日當週的生產環境中推出。
 
-如需21.3版本所有可用變更的清單，請參閱 [21.3版本總覽](../../../product-announcements/product-releases/21.3-release-activity/21-3-release-overview.md).
+如需21.3版本可用的所有變更清單，請參閱[21.3版本總覽](../../../product-announcements/product-releases/21.3-release-activity/21-3-release-overview.md)。
 
 ## 移除在連結資料夾中建立新檔案或校訂版本的功能
 

@@ -3,8 +3,8 @@ content-type: reference
 product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: workfront-proof-navigation-topic
-title: Workfront校訂計費設定
-description: 進一步瞭解Workfront校訂帳單。
+title: Workfront Proof計費設定
+description: 進一步瞭解Workfront Proof帳單。
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 recommendations: noDisplay, noCatalog
@@ -16,11 +16,11 @@ ht-degree: 0%
 
 ---
 
-# [!DNL Workfront Proof] 帳單設定
+# [!DNL Workfront Proof]帳單設定
 
 >[!IMPORTANT]
 >
->本文提及獨立版產品中的功能 [!DNL Workfront Proof]. 有關內部校訂的資訊 [!DNL Adobe Workfront]，請參閱 [校訂](../../review-and-approve-work/proofing/proofing.md).
+>本文提及獨立產品[!DNL Workfront Proof]中的功能。 有關[!DNL Adobe Workfront]內部校訂的資訊，請參閱[校訂](../../review-and-approve-work/proofing/proofing.md)。
 
 本節包含下列子章節：
 

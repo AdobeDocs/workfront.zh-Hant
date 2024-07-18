@@ -18,7 +18,7 @@ ht-degree: 0%
 
 本頁面說明2020.2版對生產環境所做的所有校訂增強功能。 這些增強功能已在2020年5月11日當週的生產環境中推出。
 
-如需2020.2版所有可用變更的清單，請參閱 [2020.2版本總覽](../../../product-announcements/product-releases/2020.2.-release-activity/2020-2-release-overview.md).
+如需2020.2版所有可用變更的清單，請參閱[2020.2版總覽](../../../product-announcements/product-releases/2020.2.-release-activity/2020-2-release-overview.md)。
 
 ## 校訂網域正在從proofhq.com變更為workfront.com。
 
@@ -30,11 +30,11 @@ ht-degree: 0%
 
 &#42;.workfront.com
 
-此 &#42;proofhq.com URL也是必填欄位。
+&#42;proofhq.com URL也是必要的。
 
-如需更新允許清單的詳細資訊，請參閱 [設定防火牆的允許清單](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).
+如需更新允許清單的詳細資訊，請參閱[設定防火牆的允許清單](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md)。
 
-此更新僅適用於Workfront內的校訂；使用Workfront Proof獨立應用程式時，不適用。
+此更新僅適用於Workfront內的校訂，不適用於使用Workfront Proof獨立應用程式。
 
 ## 來賓所做的校訂註解會出現在「更新」區域中
 

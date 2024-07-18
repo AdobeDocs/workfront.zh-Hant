@@ -2,8 +2,8 @@
 user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: group-roles
-title: 業務領導者概觀
-description: 在組中，業務負責人是為組決定目標、策略、預算和聘用等的人。 例如，在有首席行銷官的組織中，該人可能是行銷業務領導。
+title: 業務主管概觀
+description: 在群組中，業務主管是負責決定群組的目標、策略、預算和招募等的人員。 例如，在設有行銷總監的組織中，該人員可能是行銷業務領導者。
 author: Caroline
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
@@ -15,17 +15,17 @@ ht-degree: 0%
 
 ---
 
-# 業務領導者概觀
+# 業務主管概觀
 
-在組中，業務負責人是為組決定目標、策略、預算和聘用等的人。 例如，在有首席行銷官的組織中，該人可能是行銷業務領導。
+在群組中，業務主管是負責決定群組的目標、策略、預算和招募等的人員。 例如，在設有行銷總監的組織中，該人員可能是行銷業務領導者。
 
-作為組管理員，您可以將一個用戶分配為您管理的組或子組的業務負責人。 如果您管理的群組上方有任何群組，其管理員也可以對您的群組執行此動作。 Workfront管理員（適用於任何群組）也是如此。 如需指示，請參閱 [建立群組](../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md).
+作為群組管理員，您可以指派一位使用者作為您管理的群組或子群組的業務領導者。 如果您管理的群組之上有任何群組，其管理員也可以為您的群組執行此動作。 Workfront管理員也是如此（適用於任何群組）。 如需指示，請參閱[建立群組](../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md)。
 
-如果您需要群組的一般資訊，請參閱 [群組概觀](../../../administration-and-setup/manage-groups/groups-overview/groups.md).
+如果您需要群組的一般資訊，請參閱[群組概述](../../../administration-and-setup/manage-groups/groups-overview/groups.md)。
 
 >[!NOTE]
 >
->與組的組管理員不同，業務主管無法查看或更改組的任何配置或成員資格。
+>與群組的群組管理員不同，業務負責人無法檢視或變更群組的任何組態或成員資格。
 
 <!--
 >DRAFTED IN FLARE:
@@ -33,16 +33,16 @@ ht-degree: 0%
 >
 -->
 
-## 在報表中使用業務領導者欄位
+## 在報告中使用業務主管欄位
 
-為組建立報表的用戶可以在篩選、查看或分組中包括「業務領導者」欄位。
+使用者為群組建立報告時，可在篩選、檢視或分組中包含「業務領導者」欄位。
 
 例如：
 
-* 按業務主管篩選，以列出將該人員指派為業務主管的群組。
-* 向「視圖」添加「業務領導者」欄位，以列出分配給清單中組的所有業務領導者的名稱。 您可以按一下名稱，轉至該業務主管的用戶配置檔案或編輯名稱。
-* 按業務領導欄位分組，以根據其業務領導列出組。
+* 依業務負責人篩選，列出將該人指派為業務負責人的群組。
+* 將「業務領導者」欄位新增至「檢視」，以列出指派給清單中的群組的所有「業務領導者」名稱。 您可以按一下名稱，前往該業務主管的使用者設定檔或編輯名稱。
+* 依業務負責人欄位分組，以根據業務負責人列出群組。
 
-此外，「業務領導者」欄位作為清單列包含在報表的預設視圖中。
+此外，「業務領導者」欄位會以清單欄的形式包含在報表的預設檢視中。
 
-如需詳細資訊，請參閱 [報表元素：篩選器、檢視和群組](../../../reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md).
+如需詳細資訊，請參閱[報告元素：篩選器、檢視和群組](../../../reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md)。

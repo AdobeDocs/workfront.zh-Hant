@@ -17,7 +17,7 @@ ht-degree: 0%
 
 # 21. 2個報表增強功能
 
-本頁說明21.2版對預覽環境所做的所有報表增強功能。 這些增強功能將在2021年5月10日當週的生產環境中提供。 如需21.2版所有可用變更的清單，請參閱 [21.2版本總覽](../../../product-announcements/product-releases/21.2-release-activity/21-2-release-overview.md).
+本頁說明21.2版對預覽環境所做的所有報表增強功能。 這些增強功能將在2021年5月10日當週的生產環境中提供。 如需21.2版本可用的所有變更清單，請參閱[21.2版本概觀](../../../product-announcements/product-releases/21.2-release-activity/21-2-release-overview.md)。
 
 ## 限制在專案和報告中進行小時編輯
 
@@ -25,7 +25,7 @@ ht-degree: 0%
 
 先前，在存取層級中啟用時程表和時數的使用者可以編輯時數。
 
-如需詳細資訊，請參閱 [設定時程表和小時偏好設定](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
+如需詳細資訊，請參閱[設定時程表和小時喜好設定](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md)。
 
 ## 更新清單和報告中「工作總攬」欄位的新外觀
 
@@ -42,7 +42,7 @@ ht-degree: 0%
 * 新的「限制存取」圖示
 * 其他次要設計變更
 
-如需清單中指派的詳細資訊，請參閱 [指派任務](../../../manage-work/tasks/assign-tasks/assign-tasks.md) 或 [指派問題](../../../manage-work/issues/manage-issues/assign-issues.md).
+如需清單中指派的詳細資訊，請參閱[指派任務](../../../manage-work/tasks/assign-tasks/assign-tasks.md)或[指派問題](../../../manage-work/issues/manage-issues/assign-issues.md)。
 
 ![](assets/assignments-updates-350x193.png)
 
@@ -62,7 +62,7 @@ ht-degree: 0%
 * 現在當您按一下預先輸入欄位時，建議功能表會在您輸入文字之前顯示。
 * 建議功能表更能回應值的長度，現在，當符合字元限制時，這些值會在結尾截斷，而不是在值中間。
 
-如需更新清單的詳細資訊，請參閱 [更新清單和舊版清單之間的差異](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md#updated) 文章中的區段 [開始使用Adobe Workfront中的清單](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).
+如需有關已更新清單的資訊，請參閱文章[開始使用Adobe Workfront中的清單](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md)中的[已更新清單和舊版清單的差異](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md#updated)區段。
 
 ![](assets/typeahead-updates-350x336.png)
 
@@ -80,5 +80,5 @@ ht-degree: 0%
 
 之前，您只能透過Workfront API報告系統更新。
 
-若要進一步瞭解此報告及其用途，請參閱 [更新區域報告](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-journal-entry-report.md).
+若要進一步瞭解此報告以及您可用其用途，請參閱[更新區域的報告](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-journal-entry-report.md)。
 

@@ -60,12 +60,12 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">物件許可權</td> 
-   <td> <p>貢獻許可權或更高，包括指派給您要管理配置的任務和問題。 </p> <p>或 </p> <p>管理您要更新計畫時數以及更新配置的任務的許可權。 如需有關更新工作負載平衡器中規劃時數的資訊，請參閱 <a href="#update-task-planned-hours-when-managing-user-allocations">管理使用者分派時更新任務計畫時數</a> 一節。</p> </td> 
+   <td> <p>Contribute許可權或更高版本，其中包含對您要管理其配置的任務和問題進行指派。 </p> <p>或 </p> <p>管理您要更新計畫時數以及更新配置的任務的許可權。 如需有關更新工作負載平衡器中的規劃時數的資訊，請參閱本文中的<a href="#update-task-planned-hours-when-managing-user-allocations">管理使用者指派時更新任務規劃時數</a>區段。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-如需有關此表格的詳細資訊，請參閱 [Workfront檔案中的存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -73,13 +73,13 @@ ht-degree: 0%
 
 使用者配置是時數，表示使用者在某一指定日或工作日、周或月完成工作專案應花費的時間。 它們包含在工作專案的計畫時數中。
 
-本文會說明如何更新指派給任務或問題的使用者的每日、每週或每月小時配置。 如需有關管理使用者及工作角色對任務的整體配置的資訊，請參閱 [管理任務的使用者和角色分配時數](../../manage-work/tasks/assign-tasks/manage-allocation-hours-on-tasks.md).
+本文會說明如何更新指派給任務或問題的使用者的每日、每週或每月小時配置。 如需管理使用者及工作角色總體配置給任務的資訊，請參閱[管理使用者及角色配置給任務的時數](../../manage-work/tasks/assign-tasks/manage-allocation-hours-on-tasks.md)。
 
 ### 使用者配置總覽 {#user-allocation-overview}
 
 您可在工作負載平衡器中將使用者分配顯示為時數或百分比值。 您可以調整小時或百分比。
 
-使用者配置包含在工作專案的計畫時數中。 如需有關計畫時數的資訊，請參閱 [計畫時數概觀](../../manage-work/tasks/task-information/planned-hours.md).
+使用者配置包含在工作專案的計畫時數中。 如需計畫時數的詳細資訊，請參閱[計畫時數總覽](../../manage-work/tasks/task-information/planned-hours.md)。
 
 對於指派給任務的使用者，任務計畫時數在任務期間內的所有天數之間平均分配。 例如，如果任務的工期為5天，總共有10個計畫時數，則任務的每日分配數為2小時。 每週配置為10小時。 這表示使用者會被分配每天工作2小時。 不過，您可以使用工作負載平衡器手動變更使用者的每日分配。
 
@@ -90,7 +90,7 @@ ht-degree: 0%
 為工作負載平衡器中的任務或問題找到每日、每週或每月分配時，請考慮以下事項：
 
 * 您可以檢視每日、每週和每月使用者對其工作專案的配置。 啟用「週」或「月」檢視，以顯示每週或每月配置。
-* 您可以使用工作負載平衡器來修改每日、每週或每月將使用者配置給任務或問題。 如需有關調整工作負載平衡器檢視的資訊，請參閱 [瀏覽工作負載平衡器](../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
+* 您可以使用工作負載平衡器來修改每日、每週或每月將使用者配置給任務或問題。 如需有關調整工作負載平衡器檢視的資訊，請參閱[瀏覽工作負載平衡器](../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md)。
 
   >[!NOTE]
   >
@@ -117,14 +117,14 @@ ht-degree: 0%
 
 * 位於不同時區的兩個使用者或位於不同時區的排程，與指派使用者的使用者不同，這會造成檢視相同工作專案的兩個使用者看見分配金額的方式不同。
 
-* 當使用者已排程休假時，一天或一天中的部分將以灰色背景顯示， <span class="preview">而飛機圖示則表示休假</span>. 如果Workfront管理員在設定區域中啟用了使用者休息時間設定，以將使用者的休息時間列入考量，則分配的時數會移至時間軸中的下一個可用日。 如果停用此設定，則配置的時數仍會保留在標示為休假的當天，且使用者會顯示為過度配置。 如需詳細資訊，請參閱 [設定全系統專案偏好設定](../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+* 當使用者已排程休假時，一天或一天的一部分會以灰色背景顯示，<span class="preview">而飛機圖示表示休假</span>。 如果Workfront管理員在設定區域中啟用了使用者休息時間設定，以將使用者的休息時間列入考量，則分配的時數會移至時間軸中的下一個可用日。 如果停用此設定，則配置的時數仍會保留在標示為休假的當天，且使用者會顯示為過度配置。 如需詳細資訊，請參閱[設定全系統的專案偏好設定](../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md)。
 
   >[!TIP]
   >
-  >如果在將使用者指派給工作專案後標籤休假，您必須重新計算專案的時間表以顯示移動的分配。 如需詳細資訊，請參閱 [重新計算專案時間表](../../manage-work/projects/manage-projects/recalculate-project-timeline.md).
+  >如果在將使用者指派給工作專案後標籤休假，您必須重新計算專案的時間表以顯示移動的分配。 如需詳細資訊，請參閱[重新計算專案時間表](../../manage-work/projects/manage-projects/recalculate-project-timeline.md)。
 
-   * <span class="preview">當多個使用者被指派到一個任務且主要受指派人已排程休假時，時間軸會移動（如果日期未固定），並且所有受指派人的計畫時數會重新分配到任務的新期間中。 如果任務有固定日期，則時間表不會因休假而變更，並且小時數會在剩餘天數之間重新分配。</span>
-   * <span class="preview">如果手動進行分配，則在休假後不會重新分配計畫時數。</span>
+   * <span class="preview">當多個使用者被指派到一個任務且主要受指派人已排程休假時，時間軸會移動（如果日期未固定），並且所有受指派人的計畫時數會重新分配到該任務的新期間中。 如果任務有固定日期，則時間表不會因休假而變更，並且小時會在剩餘的天數中重新分配。</span>
+   * <span class="preview">如果是以手動方式分配，則不會在休假後重新分配計畫時數。</span>
 
 * 如果有多個使用者被指派到任務，則計畫時數的數量會先平均分配給每個使用者，然後平均分配給任務期間內的每一天。 此分配會成為每個使用者對任務的配置。
 
@@ -133,13 +133,13 @@ ht-degree: 0%
    * 對於持續時間為2天且指派給一位使用者的10個計畫時數的任務，使用者的每日分配預設為每天5小時。
    * 對於持續期間2天且將10個計畫時數指派給兩名使用者的任務，每個使用者的每日配置預設為每日2.5小時。
 
-* 如果任務或問題在計畫完成日期之前完成，則剩餘天數的分配時數會被刪除，且不計入使用者的整體分配。 只有在同時啟用顯示配置圖示與顯示預計日期設定時，才會顯示此圖示。 如需有關在工作負載平衡器啟用設定的詳細資訊，請參閱 [瀏覽工作負載平衡器](../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
+* 如果任務或問題在計畫完成日期之前完成，則剩餘天數的分配時數會被刪除，且不計入使用者的整體分配。 只有在同時啟用顯示配置圖示與顯示預計日期設定時，才會顯示此圖示。 如需有關在工作負載平衡器中啟用設定的詳細資訊，請參閱[瀏覽工作負載平衡器](../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md)。
 
-  ![已完成分配時數](assets/allocations-struck-through-highlighted.png)
+  ![已分配時數到](assets/allocations-struck-through-highlighted.png)
 
 * 當使用者被過度分配時，他們分配的時數在使用者欄位中以紅色背景顯示。
 * 當使用者未充分分配或分配了相等數量的時數到其排程的可用時間，時數會以藍色背景顯示。
-* 您可以在使用者折線的圖表檢視中顯示使用者的配置。 如需為使用者配置啟用圖表檢視的相關資訊，請參閱文章中的「瀏覽工作負載平衡器」一節 [瀏覽工作負載平衡器](../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
+* 您可以在使用者折線的圖表檢視中顯示使用者的配置。 如需有關啟用使用者配置的圖表檢視的資訊，請參閱文章[瀏覽工作負載平衡器](../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md)中的「瀏覽工作負載平衡器」一節。
 
   ![使用者配置圖](assets/user-allocation-chart.png)
 
@@ -153,7 +153,7 @@ ht-degree: 0%
 
 #### 重設已調整配置的動作 {#actions-that-reset-adjusted-allocations}
 
-在您手動調整使用者之每日、每週或每月配置後，下列動作會重設或修改這些配置，如 [修改使用者配置](#modify-user-allocations) 章節：
+在您手動調整使用者的每日、每週或每月配置後，下列動作會重設或修改這些配置，如本文中[修改使用者配置](#modify-user-allocations)一節所述：
 
 * 當您縮短工作專案的長度以縮短其「持續時間」中的天數時，會從遺失的天數加入調整後的已分配時數，至工作專案最後一天的分配數量。
 * 當您變更工作分派或工作專案上的計畫時數時，新的計畫時數會在工作專案的整個期間中統一重新分配。
@@ -176,19 +176,19 @@ ht-degree: 0%
 * 任務或問題的總計畫時數顯示在工作負載平衡器左側的任務或問題名稱旁。
 
 * 專案的總計畫時數顯示在工作負載平衡器左側的專案名稱旁。 這代表工作負載平衡器專案下列出的所有任務和問題的總計畫時數，而非專案的所有計畫時數。
-* 只有當您手動啟用「顯示配置」設定時，才會顯示所有任務與所有專案的每日或每週配置時間量。 如需有關在工作負載平衡器中啟用設定的資訊，請參閱 [瀏覽工作負載平衡器](../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
+* 只有當您手動啟用「顯示配置」設定時，才會顯示所有任務與所有專案的每日或每週配置時間量。 如需有關在工作負載平衡器中啟用設定的資訊，請參閱[瀏覽工作負載平衡器](../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md)。
 
 ## 修改使用者配置 {#modify-user-allocations}
 
-將工作指派給使用者時，您可以修改工作負載平衡器中的使用者指派，以確保不會過度指派，或確保資源之間準確平衡時數。 如需識別使用者是否過度配置的資訊，請參閱區段 [使用者配置總覽](#user-allocation-overview) 本文章內容。
+將工作指派給使用者時，您可以修改工作負載平衡器中的使用者指派，以確保不會過度指派，或確保資源之間準確平衡時數。 如需識別使用者是否過度配置的資訊，請參閱本文中的[使用者配置概觀](#user-allocation-overview)小節。
 
-1. 確保您有指派給使用者的任務和問題。 如需有關在工作負載平衡器指派工作給使用者的資訊，請參閱 [在工作負載平衡器中指派工作的總覽](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md).
+1. 確保您有指派給使用者的任務和問題。 如需指派工作給工作負載平衡器中使用者的相關資訊，請參閱指派工作在工作負載平衡器](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md)中的概述。[
 1. 前往工作負載平衡器。
-1. （選用）按一下 **周** 或 **月** 管理使用者的每週或每月配置。
+1. （選擇性）按一下&#x200B;**周**&#x200B;或&#x200B;**月**&#x200B;來管理使用者的每週或每月配置。
 
    ![選取周或月](assets/month-icon-on-toolbar-selected-wb-350x226.png)
 
-1. 在 **已指派的工作** 區域，尋找您要手動修改其配置的使用者，然後按一下使用者名稱左側的向右箭頭以展開使用者。
+1. 在&#x200B;**指派的工作**&#x200B;區域中，尋找您要手動修改配置的使用者，然後按一下使用者名稱左側的向右箭頭以展開使用者。
 
    ![展開使用者](assets/wb-highlight-on-name-caret2.png)
 
@@ -198,30 +198,30 @@ ht-degree: 0%
    >
    >您只能修改任務和問題的使用者配置。 您無法修改專案的使用者配置。
 
-1. （可選）按一下 **顯示分配** 圖示 ![](assets/show-allocations-icon-small.png) 以顯示所有工作專案的配置。
+1. （選擇性）按一下&#x200B;**顯示配置**&#x200B;圖示![](assets/show-allocations-icon-small.png)以顯示所有工作專案的配置。
 
    任務與專案的名稱會由任務或專案的使用者配置取代。
 
-1. （可選）按一下 **設定** 圖示 ![](assets/gear-icon-settings.png) 並選取下列任一選項：
+1. （選擇性）按一下&#x200B;**設定**&#x200B;圖示![](assets/gear-icon-settings.png)並選取下列任一選項：
 
-   1. **包括問題的時數**. 這可讓您在任務指派之外管理問題指派。
-   1. **顯示已完成的工作**. 這會顯示已在您管理配置的時間表期間完成並排程的專案。
-   1. **顯示剩餘時間**. 每個使用者（在使用者行中）的變更總時數。 啟用此設定後，工作負載平衡器顯示每個使用者可供工作的時數，而不是他們被分配的時數。
+   1. **包含問題的時數**。 這可讓您在任務指派之外管理問題指派。
+   1. **顯示已完成的工作**。 這會顯示已在您管理配置的時間表期間完成並排程的專案。
+   1. **顯示剩餘時間**。 每個使用者（在使用者行中）的變更總時數。 啟用此設定後，工作負載平衡器顯示每個使用者可供工作的時數，而不是他們被分配的時數。
 
       >[!TIP]
       >
       >啟用此設定時修改配置會減少使用者明細行中的總數。
 
-   1. **專案** 在 **選取顏色主題** 區段。 這樣會以獨特的顏色顯示每個專案及其各自的工作專案，並可讓您更容易瞭解哪些專案屬於哪個專案。
-   1. **百分比** 在 **顯示使用者分配於** 區段。 這會將配置顯示為百分比值。 根據排程，使用者的容量視為100%。 例如，如果使用者與每天8小時的排程相關聯，則8小時等於100%容量。 如果您想要將使用者配置為一天工作4小時，則將其配置更新為50%。
+   1. **選取顏色主題**&#x200B;區段中的&#x200B;**專案**。 這樣會以獨特的顏色顯示每個專案及其各自的工作專案，並可讓您更容易瞭解哪些專案屬於哪個專案。
+   1. **在**&#x200B;區段中顯示&#x200B;**百分比**。 這會將配置顯示為百分比值。 根據排程，使用者的容量視為100%。 例如，如果使用者與每天8小時的排程相關聯，則8小時等於100%容量。 如果您想要將使用者配置為一天工作4小時，則將其配置更新為50%。
 
       >[!NOTE]
       >
-      >Workfront管理員在「設定」的「資源管理」區域中，決定要在整個系統中使用哪個排程來計算使用者的容量。 如需詳細資訊，請參閱 [設定資源管理喜好設定](../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md).
+      >Workfront管理員在「設定」的「資源管理」區域中，決定要在整個系統中使用哪個排程來計算使用者的容量。 如需詳細資訊，請參閱[設定資源管理喜好設定](../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md)。
 
-1. 按一下 **更多** 功能表 ![](assets/qs-more-menu.png) ，然後按一下 **編輯配置**.
+1. 按一下工作專案的&#x200B;**更多**&#x200B;功能表![](assets/qs-more-menu.png)，然後按一下&#x200B;**編輯配置**。
 
-   ![工作專案的更多選單](assets/more-menu-on-task-wb-nwe.png)
+   工作專案的![更多功能表](assets/more-menu-on-task-wb-nwe.png)
 
    或
 
@@ -229,11 +229,11 @@ ht-degree: 0%
 
    配置方塊變為可編輯。
 
-1. 按一下每個每日、每週或每月配置的方塊，以手動更新每日、每週或每月要配置使用者的小時數或百分比值，然後按一下 **儲存** 圖示 ![](assets/checkmark-icon.png).
+1. 按一下每個每日、每週或每月配置的方塊，以手動更新每日、每週或每月要配置使用者的小時數或百分比值，然後按一下&#x200B;**儲存**&#x200B;圖示![](assets/checkmark-icon.png)。
 
    >[!TIP]
    >
-   >按一下 **取消** 圖示 ![](assets/cancel-allocations-wb.png) 以移除您已調整的分配。
+   >按一下&#x200B;**取消**&#x200B;圖示![](assets/cancel-allocations-wb.png)以移除您已調整的分配。
 
    ![儲存或取消已調整的分配](assets/wb-contouring-with-check-and-x-boxes-350x63.png)
 
@@ -241,7 +241,7 @@ ht-degree: 0%
 
    >[!TIP]
    >
-   >如果任務或問題在計畫完成日期之前完成，則剩餘天數的分配時數會被刪除，且不計入使用者的整體分配。 僅當兩者皆為 **顯示分配** 圖示和 **顯示預計日期** 設定已啟用。
+   >如果任務或問題在計畫完成日期之前完成，則剩餘天數的分配時數會被刪除，且不計入使用者的整體分配。 只有同時啟用&#x200B;**顯示配置**&#x200B;圖示和&#x200B;**顯示預計日期**&#x200B;設定時，才會顯示這個專案。
 
    存在下列情況：
 
@@ -252,9 +252,9 @@ ht-degree: 0%
      >
      >當您開始調整配置時，任務名稱的右側會顯示一個鎖定圖示，表示任務具有「簡單期間型別」。
 
-     ![「鎖定」圖示](assets/lock-icon-on-simple-task-in-the-balancer.png)
+     ![鎖定圖示](assets/lock-icon-on-simple-task-in-the-balancer.png)
 
-   如需更新工作負載平衡器中規劃時數所需滿足條件的詳細資訊，請參閱 [管理使用者分派時更新任務計畫時數](#update-task-planned-hours-when-managing-user-allocations) 一節。 如需有關工作期間型別的資訊，請參閱 [任務期間與期間型別概觀](../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
+   如需更新工作負載平衡器中規劃時數所需滿足條件的詳細資訊，請參閱本文中「管理使用者指派時[更新任務規劃時數](#update-task-planned-hours-when-managing-user-allocations)」一節。 如需有關工作期間型別的資訊，請參閱[工作期間與期間型別概觀](../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md)。
 
 1. （視條件而定）如果任務指派給多個使用者，請對指派給任務的每個使用者重複這些步驟，以更新每個使用者的分配。
 
@@ -273,7 +273,7 @@ ht-degree: 0%
 >[!IMPORTANT]
 >
 >* 更新任務的計畫時數可能會影響專案進度。
->* 當從未來的任務中移除指派時，透過變更每日指派來手動更新計畫時數可能會對計畫時數產生影響。 如需詳細資訊，請參閱 [計畫時數概觀](../../manage-work/tasks/task-information/planned-hours.md).
+>* 當從未來的任務中移除指派時，透過變更每日指派來手動更新計畫時數可能會對計畫時數產生影響。 如需詳細資訊，請參閱[計畫時數總覽](../../manage-work/tasks/task-information/planned-hours.md)。
 >
 >* 無法透過更新工作負載平衡器中的分配來更新問題的計畫時數。
 
@@ -284,7 +284,7 @@ ht-degree: 0%
    * 管理任務的許可權。
    * 更新計畫時數（在存取層級的「資源管理」區域的工作負載平衡器存取）。
 
-  如需有關使用工作負載平衡器所需存取權的詳細資訊，請參閱 [存取需求](#access-requirements) 一節。
+  如需有關使用工作負載平衡器所需存取權的詳細資訊，請參閱本文中的[存取需求](#access-requirements)一節。
 
 * 任務的期間型別為「簡單」。
 

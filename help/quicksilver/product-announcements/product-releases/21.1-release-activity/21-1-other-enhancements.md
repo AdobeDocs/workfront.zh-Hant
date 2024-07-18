@@ -19,7 +19,7 @@ ht-degree: 0%
 
 本頁說明21.1版對預覽環境所做的所有其他增強功能。 這些增強功能將在2021年2月15日當週的生產環境中提供。
 
-如需21.1版所有可用變更的清單，請參閱 [21.1版本總覽](../../../product-announcements/product-releases/21.1-release-activity/21-1-release-overview.md).
+如需21.1版本可用的所有變更清單，請參閱[21.1版本概觀](../../../product-announcements/product-releases/21.1-release-activity/21-1-release-overview.md)。
 
 ## 更新事件訂閱失敗要求
 
@@ -27,13 +27,13 @@ ht-degree: 0%
 
 此外，我們將在2021年2月起新增硬停用需求。
 
-如需新的軟式停用和硬式停用需求的詳細資訊，請參閱 [常見問題集 — 事件訂閱](../../../wf-api/general/event-subs-faq.md).
+如需新的軟式停用與硬式停用需求的詳細資訊，請參閱[常見問題集 — 事件訂閱](../../../wf-api/general/event-subs-faq.md)。
 
 ## 「每日摘要」可用的新團隊欄位
 
 我們已將團隊核准和指派欄位新增到「需要動作的每日摘要」電子郵件。
 
-如需詳細資訊，請參閱 [通知：需要動作](../../../workfront-basics/using-notifications/notifications-action-needed.md).
+如需詳細資訊，請參閱[通知：需要動作](../../../workfront-basics/using-notifications/notifications-action-needed.md)。
 
 ## 取代請求佇列中的POP電子郵件選項
 
@@ -41,13 +41,13 @@ ht-degree: 0%
 
 這些變更可在「預覽」中測試。
 
-電子郵件在所有預覽環境中都會自動停用。 若要啟用電子郵件以進行測試，請參閱 [啟用從預覽Sandbox環境傳送電子郵件](../../../workfront-basics/using-notifications/enable-delivery-emails-from-preview-sandbox-environment.md).
+電子郵件在所有預覽環境中都會自動停用。 若要啟用電子郵件以進行測試，請參閱[啟用來自預覽沙箱環境的電子郵件傳遞](../../../workfront-basics/using-notifications/enable-delivery-emails-from-preview-sandbox-environment.md)。
 
-如需詳細資訊，請參閱 [讓使用者透過電子郵件將問題傳送到請求佇列專案](/help/quicksilver/manage-work/requests/create-requests/enable-email-issues-into-projects.md).
+如需詳細資訊，請參閱[讓使用者透過電子郵件將問題傳送到請求佇列專案](/help/quicksilver/manage-work/requests/create-requests/enable-email-issues-into-projects.md)。
 
-如需進行此變更之原因的詳細資訊，請參閱 [全新Adobe Workfront管理系統，以21.1取代請求佇列的POP電子郵件](../../../product-announcements/announcements/announcement-archive/pop-removal-request-queue.md).
+如需我們為何進行此變更的詳細資訊，請參閱[新的Adobe Workfront受管系統，以21.1](../../../product-announcements/announcements/announcement-archive/pop-removal-request-queue.md)取代請求佇列的POP電子郵件。
 
-此功能現已包含在 [新Workfront體驗中的佇列管理](https://one.workfront.com/s/learningpath4/queue-management-MCYCJRWK36QZBP7PGMNDMSPRN3LE) Workfront One的學習路徑。
+此功能現已包含在Workfront One上新Workfront體驗](https://one.workfront.com/s/learningpath4/queue-management-MCYCJRWK36QZBP7PGMNDMSPRN3LE)學習路徑的[佇列管理中。
 
 ## 限制時程表上的小時編輯
 
@@ -55,7 +55,7 @@ ht-degree: 0%
 
 以前，在存取層級中啟用時程表和時數選項的使用者可以在任何時程表中編輯時數。
 
-如需詳細資訊，請參閱 [設定時程表和小時偏好設定](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
+如需詳細資訊，請參閱[設定時程表和小時喜好設定](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md)。
 
 ## 改進時程表區域中的篩選器和檢視
 
@@ -64,14 +64,14 @@ ht-degree: 0%
 * 篩選器：我們已新增專案和問題的篩選器。 按一下「更多選項」以檢視這些篩選器。 以前，只有任務可使用篩選。
 * 檢視：我們已將「檢視」和「群組」選項新增至「搜尋」頁面。
 
-如需詳細資訊，請參閱 [記錄時間](../../../timesheets/create-and-manage-timesheets/log-time.md).
+如需詳細資訊，請參閱[記錄時間](../../../timesheets/create-and-manage-timesheets/log-time.md)。
 
 ## 隱藏時程表中超時方塊
 
 如果您沒有在Workfront中追蹤加班，現在可以隱藏加班方塊，以方便使用者混淆。 您可以隱藏單次使用時程表或時程表設定檔中的加班方塊：
 
-* 單次使用時程表：當您選擇隱藏個別時程表中的加時方塊時，該時程表才會隱藏。 如需詳細資訊，請參閱 [建立單次使用時程表](../../../timesheets/create-and-manage-timesheets/create-tmshts.md).
-* 時程表設定檔：當您選擇隱藏時程表設定檔中的超時方塊時，所有針對指派給該設定檔的使用者而建立的時程表都不會看到超時方塊。 如需詳細資訊，請參閱 [建立、編輯和指派週期性時程表](../../../timesheets/create-and-manage-timesheets/create-timesheet-profiles.md).
+* 單次使用時程表：當您選擇隱藏個別時程表中的加時方塊時，該時程表才會隱藏。 如需詳細資訊，請參閱[建立單次使用時程表](../../../timesheets/create-and-manage-timesheets/create-tmshts.md)。
+* 時程表設定檔：當您選擇隱藏時程表設定檔中的超時方塊時，所有針對指派給該設定檔的使用者而建立的時程表都不會看到超時方塊。 如需詳細資訊，請參閱[建立、編輯和指派週期性時程表](../../../timesheets/create-and-manage-timesheets/create-timesheet-profiles.md)。
 
 以前您無法隱藏時程表上的加時方塊。
 

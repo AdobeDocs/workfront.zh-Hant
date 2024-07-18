@@ -21,11 +21,11 @@ ht-degree: 2%
 
 校訂許可權設定檔決定使用者在您的帳戶中擁有所有校訂的整體許可權。 校訂許可權設定檔指派給使用者在其使用者設定檔中。
 
-校訂許可權設定檔與校訂角色不同。 如需有關校訂角色的詳細資訊，請參閱 [校訂角色總覽](../../../review-and-approve-work/proofing/proofing-overview/proof-roles.md).
+校訂許可權設定檔與校訂角色不同。 如需校訂角色的詳細資訊，請參閱[校訂角色概觀](../../../review-and-approve-work/proofing/proofing-overview/proof-roles.md)。
 
 >[!NOTE]
 >
->如果您是管理員，可以為貴組織中的使用者建立自訂設定檔。 如需詳細資訊，請參閱 [在Workfront Proof中設定自訂設定檔](../../../workfront-proof/wp-acct-admin/account-settings/configure-custom-profiles.md).
+>如果您是管理員，可以為貴組織中的使用者建立自訂設定檔。 如需詳細資訊，請參閱[在Workfront Proof中設定自訂設定檔](../../../workfront-proof/wp-acct-admin/account-settings/configure-custom-profiles.md)。
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Consider the following about roles and permissions:</p>
@@ -139,7 +139,7 @@ ht-degree: 2%
 
 ### 管理員
 
-管理員有權存取 [帳戶設定](https://support.workfront.com/hc/en-us/sections/115000912147-Account-Settings) 並擁有下列許可權：
+系統管理員可以存取[帳戶設定](https://support.workfront.com/hc/en-us/sections/115000912147-Account-Settings)，並具有下列許可權：
 
 <table style="table-layout:auto"> 
  <col> 
@@ -175,7 +175,7 @@ ht-degree: 2%
  </tbody> 
 </table>
 
-&#42;僅適用於Workfront Proof獨立產品。
+&#42;僅適用於Workfront Proof獨立版產品。
 
 ### 主管
 

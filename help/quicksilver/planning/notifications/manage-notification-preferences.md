@@ -22,7 +22,7 @@ ht-degree: 0%
 >
 >貴公司必須是Adobe統一體驗客戶，才能接收來自Workfront Planning的通知。
 >
->如需詳細資訊，請參閱 [Workfront的AdobeUnified Experience](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
+>如需詳細資訊，請參閱[Workfront的Adobe統一體驗](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md)。
 
 ## 存取需求
 
@@ -40,7 +40,7 @@ ht-degree: 0%
    <p> 產品</p> </td>
    <td>
    <p> Adobe Workfront</p> 
-   <p>若要從Workfront Planning接收應用程式內通知並管理通知偏好設定，貴組織的Workfront例項必須上線至Adobe統一體驗。 如需詳細資訊，請參閱 <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Workfront的AdobeUnified Experience</a>.</p>
+   <p>若要從Workfront Planning接收應用程式內通知並管理通知偏好設定，貴組織的Workfront例項必須上線至Adobe統一體驗。 如需詳細資訊，請參閱<a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Workfront的Adobe統一體驗</a>。</p>
    </td>
   </tr>  
  <td role="rowheader"><p>Adobe Workfront合約</p></td>
@@ -75,7 +75,7 @@ ht-degree: 0%
 
 <tr>
    <td role="rowheader"><p>版面配置範本</p></td>
-   <td> <p>您的Workfront或群組管理員必須在版面配置範本中新增Planning區域。 如需詳細資訊，請參閱 <a href="/help/quicksilver/planning/access/access-overview.md">存取權總覽</a>. </p>  
+   <td> <p>您的Workfront或群組管理員必須在版面配置範本中新增Planning區域。 如需詳細資訊，請參閱<a href="/help/quicksilver/planning/access/access-overview.md">存取總覽</a>。 </p>  
 </td>
   </tr>
  </tbody>
@@ -84,15 +84,15 @@ ht-degree: 0%
 ## 管理通知偏好設定
 
 1. 使用您的Adobe Experience Cloud憑證登入Workfront。
-1. 按一下 **帳戶功能表** 圖示 ![](assets/account-menu-icon-on-experience-cloud.png) 然後按一下「 」 **偏好設定**.
-1. 在 **通知** 區段，按一下 **Workfront**，然後依照以下文章中的步驟管理您的Workfront Planning通知偏好設定：
-   [帳戶偏好設定和通知](https://experienceleague.adobe.com/en/docs/core-services/interface/features/account-preferences).
+1. 按一下熒幕右上角的&#x200B;**帳戶功能表**&#x200B;圖示![](assets/account-menu-icon-on-experience-cloud.png)，然後按一下&#x200B;**偏好設定**。
+1. 在&#x200B;**通知**&#x200B;區段下，按一下&#x200B;**Workfront**，然後依照下列文章中的步驟管理您的Workfront Planning通知偏好設定：
+   [帳戶偏好設定和通知](https://experienceleague.adobe.com/en/docs/core-services/interface/features/account-preferences)。
 
 如需Workfront Planning通知的詳細資訊，另請參閱下列文章：
 
-* 如需有關記錄註釋的資訊，請參閱 [管理記錄註解](/help/quicksilver/planning/records/manage-record-comments.md).
-* 如需有關來自Workfront Planning的應用程式內通知的資訊，請參閱 [管理Adobe Workfront Planning的應用程式內通知](/help/quicksilver/planning/notifications/manage-planning-in-app-notifications.md).
-* 如需有關來自Workfront Planning的電子郵件通知的資訊，請參閱 [管理Adobe Workfront的電子郵件通知](/help/quicksilver/planning/notifications/manage-planning-email-notifications.md).
+* 如需有關記錄的註解資訊，請參閱[管理記錄註解](/help/quicksilver/planning/records/manage-record-comments.md)。
+* 如需有關來自Workfront Planning的應用程式內通知的資訊，請參閱[管理Adobe Workfront Planning的應用程式內通知](/help/quicksilver/planning/notifications/manage-planning-in-app-notifications.md)。
+* 如需Workfront Planning電子郵件通知的相關資訊，請參閱[管理Adobe Workfront Planning的電子郵件通知](/help/quicksilver/planning/notifications/manage-planning-email-notifications.md)。
 
 
 

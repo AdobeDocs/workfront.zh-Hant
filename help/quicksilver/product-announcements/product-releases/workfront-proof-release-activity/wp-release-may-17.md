@@ -2,8 +2,8 @@
 content-type: release-notes
 product-area: Workfront Proof
 navigation-topic: proof-release-activity
-title: 「Workfront校訂發行活動： 2021年5月17日當週」
-description: 本頁說明對Workfront校訂（獨立校訂應用程式）所做的變更。 此處說明的變更不適用於Adobe Workfront應用程式內的校訂功能。
+title: 「Workfront Proof發行活動： 2021年5月17日當週」
+description: 本頁說明對Workfront Proof （獨立校訂應用程式）所做的變更。 此處說明的變更不適用於Adobe Workfront應用程式內的校訂功能。
 author: Luke
 feature: Product Announcements, Workfront Proof
 recommendations: noDisplay, noCatalog
@@ -15,11 +15,11 @@ ht-degree: 0%
 
 ---
 
-# Workfront校訂發行活動： 2021年5月17日當週
+# Workfront Proof發行活動： 2021年5月17日起一週
 
-本頁說明對Workfront校訂（獨立校訂應用程式）所做的變更。 此處說明的變更不適用於Adobe Workfront應用程式內的校訂功能。
+本頁說明對Workfront Proof （獨立校訂應用程式）所做的變更。 此處說明的變更不適用於Adobe Workfront應用程式內的校訂功能。
 
-## Workfront校訂中的使用者設定檔功能表現在使用預先輸入欄位來搜尋使用者
+## Workfront Proof中的使用者設定檔功能表現在使用預先輸入欄位來搜尋使用者
 
 >[!NOTE]
 >

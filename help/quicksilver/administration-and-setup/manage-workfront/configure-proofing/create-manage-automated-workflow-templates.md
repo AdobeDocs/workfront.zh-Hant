@@ -31,7 +31,7 @@ ht-degree: 0%
 1. 當有人在自動化工作流程範本中新增到頁面，但已經在校樣上作為稽核者出現時，套用範本會從階段中移除稽核者。 如果您未將其他稽核者新增至階段，則會出現一則訊息，提示您新增稽核者。
 1. 您修改自動化工作流程範本的能力取決於Workfront管理員設定的範本設定，如所述。 如果修改範本的功能已停用，則只有範本的擁有者可以修改它。
 
-如需自動化工作流程的相關資訊，請參閱 [自動化工作流程總覽](../../../review-and-approve-work/proofing/proofing-overview/automated-workflow.md).
+如需有關自動化工作流程的資訊，請參閱[自動化工作流程概觀](../../../review-and-approve-work/proofing/proofing-overview/automated-workflow.md)。
 
 ## 存取需求
 
@@ -45,7 +45,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront計畫</td> 
-   <td> <p>新增：任何</p><p>目前：Pro或更高</p><p>舊版：進階版或選取版</p> <p>如需有關校訂不同方案的存取許可權的詳細資訊，請參閱 <a href="../../../administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">存取Workfront中的校訂功能</a>.</p> </td> 
+   <td> <p>新增：任何</p><p>目前：Pro或更高</p><p>舊版：進階版或選取版</p> <p>如需有關不同方案的校訂存取許可權的詳細資訊，請參閱<a href="../../../administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">存取Workfront中的校訂功能</a>。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront授權</td> 
@@ -58,7 +58,7 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-如需有關此表格的詳細資訊，請參閱 [Workfront檔案中的存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -66,10 +66,10 @@ ht-degree: 0%
 
 {{step1-to-proofing}}
 
-1. 按一下 **工作流程** 在左側面板中。
-1. 在 **工作流程** 標籤，按一下 **新增** > **建立範本**.
+1. 按一下左側面板中的&#x200B;**工作流程**。
+1. 在&#x200B;**工作流程**&#x200B;標籤上，按一下&#x200B;**新增** > **新增範本**。
 
-1. 在 **詳細資料** 段落中，指定下列資訊：
+1. 在&#x200B;**詳細資料**&#x200B;區段中，指定下列資訊：
 
    <table style="table-layout:auto"> 
     <col> 
@@ -85,7 +85,7 @@ ht-degree: 0%
      </tr> 
      <tr> 
       <td role="rowheader">範本群組</td> 
-      <td> <p> 如果您組織的自動化工作流程已組織成群組，您可以選取群組名稱。 另請參閱 <a href="#create-automated-workflow-template-groups" class="MCXref xref">建立自動化工作流程範本群組</a> 如需詳細資訊，請參閱下文內容。</p> </td> 
+      <td> <p> 如果您組織的自動化工作流程已組織成群組，您可以選取群組名稱。 如需詳細資訊，請參閱本文稍後的<a href="#create-automated-workflow-template-groups" class="MCXref xref">建立自動化工作流程範本群組</a>。</p> </td> 
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader">範本時區 </td> 
@@ -94,14 +94,14 @@ ht-degree: 0%
      <tr> 
       <td role="rowheader">允許</td> 
       <td> <p>您可以選取您希望人員可以使用範本建立校訂的階段活動。</p> 
-      <p><b>警告</b>：如果您未選取「新增階段」和「新增人員至階段」選項，則範本擁有者或使用此範本之任何校訂的擁有者都無法新增階段或共用校訂。 
+      <p><b>警告</b>：如果您未選取「新增階段」和「將人員新增至階段」選項，則範本擁有者或使用此範本之任何校訂的擁有者，都無法新增階段或共用校訂。 
       </p>
       </td> 
      </tr> 
     </tbody> 
    </table>
 
-1. 在 **階段** 區段，設定「自動化工作流程」範本的每個階段。
+1. 在&#x200B;**階段**&#x200B;區段中，設定自動化工作流程範本的每個階段。
 
    您可以新增多個階段，並在它們之間建立。
 
@@ -115,14 +115,14 @@ ht-degree: 0%
      </tr> 
      <tr> 
       <td role="rowheader">啟用階段</td> 
-      <td> <p>指定舞台是自動啟動還是手動啟動。 對於第一個階段，您可以選取 <strong>建立校訂時</strong>， <strong>在特定日期和時間</strong>，或 <strong>手動</strong>.</p> <p>當您新增第二個階段時，其他選項會變成可用，因為它們需要您選取父級階段。 </p> </td> 
+      <td> <p>指定舞台是自動啟動還是手動啟動。 在第一階段，您可以選取<strong>建立校訂時</strong>、<strong>特定日期和時間</strong>或<strong>手動</strong>。</p> <p>當您新增第二個階段時，其他選項會變成可用，因為它們需要您選取父級階段。 </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">截止日期計算自</td> 
       <td> <p>指定計算截止日期的方式：</p> 
        <ul> 
-        <li> <p><strong>校訂建立</strong>：在下拉式清單中的 <strong>截止日期（+個工作日）</strong>，選取您想要新增至校訂建立日期的營業日數，以自動設定校訂的截止日期。</p> </li> 
-        <li><strong>階段開始時</strong>：在下拉式清單中的 <strong>截止日期（+個工作日）</strong>，選取您想要新增至階段啟用日期的工作日數，以自動在校訂上設定截止日期。</li> 
+        <li> <p><strong>校訂建立</strong>：在<strong>截止日期（+個工作日）</strong>下的下拉式清單中，選取要新增至校訂建立日期的營業日，以在校訂上自動設定截止日期。</p> </li> 
+        <li><strong>階段開始時</strong>：在<strong>截止日期（+個工作日）</strong>下的下拉式清單中，選取要新增至階段啟用日期的營業日，以在校訂上自動設定截止日期。</li> 
        </ul> </td> 
      </tr> 
      <tr> 
@@ -135,11 +135,11 @@ ht-degree: 0%
      </tr> 
      <tr> 
       <td role="rowheader">只需要一個決定</td> 
-      <td>當其中一位決策者提交其決定時，此階段的稽核程式即會完成。 如需詳細資訊，請參閱 <a href="../../../workfront-proof/wp-work-proofsfiles/manage-your-work/configure-proof-settings.md" class="MCXref xref">在Workfront Proof中設定校訂設定</a>.</td> 
+      <td>當其中一位決策者提交其決定時，此階段的稽核程式即會完成。 如需詳細資訊，請參閱<a href="../../../workfront-proof/wp-work-proofsfiles/manage-your-work/configure-proof-settings.md" class="MCXref xref">在Workfront Proof中設定校訂設定</a>。</td> 
      </tr> 
      <tr> 
       <td role="rowheader">私人階段</td> 
-      <td>隱藏來自而未新增至階段或不是Workfront管理員的使用者的評論和決定。 如需詳細資訊，請參閱 <a href="../../../review-and-approve-work/proofing/proofing-overview/automated-workflow.md" class="MCXref xref">自動化工作流程總覽</a>.</td> 
+      <td>隱藏來自而未新增至階段或不是Workfront管理員的使用者的評論和決定。 如需詳細資訊，請參閱<a href="../../../review-and-approve-work/proofing/proofing-overview/automated-workflow.md" class="MCXref xref">自動化工作流程總覽</a>。</td> 
      </tr> 
      <tr> 
       <td role="rowheader">不允許刪除此階段</td> 
@@ -150,9 +150,9 @@ ht-degree: 0%
 
 1. 如果使用此範本的校訂一律會傳送給階段中的相同人員，請在此處新增校訂，這樣使用者就不必每次建立校訂時都新增校訂。
 
-   選擇每個人的 **角色** 在將會使用此範本的校樣上，以及 **電子郵件警示** 您想要使用者在處理使用此範本的校訂時收到。
+   在將會使用此範本的校訂上選擇每個人的&#x200B;**角色**，以及您希望在使用者處理使用此範本的校訂時收到的&#x200B;**電子郵件警示**。
 
-   如需校訂上角色的相關資訊，請參閱 [設定預設校訂角色](../../../administration-and-setup/manage-workfront/configure-proofing/configure-default-proofing-roles.md). 如需校樣電子郵件警示的資訊，請參閱區段 [設定使用者的校訂預設值](../../../workfront-proof/wp-emailsntfctns/email-alerts/config-email-notification-settings-wp.md#configur) 在文章中  [在Workfront Proof中設定電子郵件通知設定](../../../workfront-proof/wp-emailsntfctns/email-alerts/config-email-notification-settings-wp.md).
+   有關校訂上角色的資訊，請參閱[設定預設校訂角色](../../../administration-and-setup/manage-workfront/configure-proofing/configure-default-proofing-roles.md)。 如需有關校訂電子郵件警示的資訊，請參閱文章[在Workfront Proof中設定電子郵件通知設定](../../../workfront-proof/wp-emailsntfctns/email-alerts/config-email-notification-settings-wp.md)中的[設定使用者的校訂預設值](../../../workfront-proof/wp-emailsntfctns/email-alerts/config-email-notification-settings-wp.md#configur)一節。
 
    每個使用者只能新增到一個階段。 您可以新增任意數量的使用者至階段。
 
@@ -162,11 +162,11 @@ ht-degree: 0%
 
 1. 對要新增至範本的任何其他階段重複前兩個步驟。
 
-   在頂端 **工作流程** 區段，您可以檢視正在設定的自動工作流程圖表。 當您繼續新增階段時，它們會出現在圖表上，其中行顯示它們之間的相依性。 您可以按一下圖表中的某個階段，以檢視該階段的設定。
+   在&#x200B;**工作流程**&#x200B;區段的頂端，您可以看到您正在設定的自動化工作流程圖表。 當您繼續新增階段時，它們會出現在圖表上，其中行顯示它們之間的相依性。 您可以按一下圖表中的某個階段，以檢視該階段的設定。
 
-   如果您不需要檢視圖表，可以按一下 **隱藏圖表**.
+   如果您不需要檢視圖表，可以按一下&#x200B;**隱藏圖表**。
 
-1. 在 **共用範本與** 區段，按一下選項（如果範本尚未與整個組織共用）以指定能夠使用範本的人員。
+1. 在&#x200B;**與**&#x200B;共用範本區段中，按一下選項（如果範本尚未與整個組織共用）以指定能夠使用範本的人員。
 
    依預設，新的「自動化工作流程」範本會與您組織中的所有人共用。
 
@@ -178,9 +178,9 @@ ht-degree: 0%
 
 {{step1-to-proofing}}
 
-1. 按一下 **工作流程** 在左側面板中。
-1. 在 **工作流程範本** 在出現的清單中，按一下要修改的範本。
-1. 在 **詳細資料** 段落中，指定下列資訊：
+1. 按一下左側面板中的&#x200B;**工作流程**。
+1. 在出現的&#x200B;**工作流程範本**&#x200B;清單中，按一下您要修改的範本。
+1. 在&#x200B;**詳細資料**&#x200B;區段中，指定下列資訊：
 
    <table style="table-layout:auto"> 
     <col> 
@@ -196,7 +196,7 @@ ht-degree: 0%
      </tr> 
      <tr> 
       <td role="rowheader">範本群組</td> 
-      <td> <p> 如果您組織的自動化工作流程已組織成群組，您可以選取群組名稱。 另請參閱 <a href="#create-automated-workflow-template-groups" class="MCXref xref">建立自動化工作流程範本群組</a> 如需詳細資訊，請參閱下文內容。</p> </td> 
+      <td> <p> 如果您組織的自動化工作流程已組織成群組，您可以選取群組名稱。 如需詳細資訊，請參閱本文稍後的<a href="#create-automated-workflow-template-groups" class="MCXref xref">建立自動化工作流程範本群組</a>。</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">範本時區 </td> 
@@ -204,12 +204,12 @@ ht-degree: 0%
      </tr> 
      <tr> 
       <td role="rowheader">允許</td> 
-      <td> <p>選取您想要讓使用範本建立校訂的人可用的階段活動。 </p> <p><b>警告</b>：如果您未選取「新增階段」和「新增人員至階段」選項，則範本擁有者或使用此範本之任何校訂的擁有者都無法新增階段或共用校訂。</p> </td> 
+      <td> <p>選取您想要讓使用範本建立校訂的人可用的階段活動。 </p> <p><b>警告</b>：如果您未選取「新增階段」和「將人員新增至階段」選項，則範本擁有者或使用此範本之任何校訂的擁有者，都無法新增階段或共用校訂。</p> </td> 
      </tr> 
     </tbody> 
    </table>
 
-1. 在 **工作流程** 區段，變更任何階段的名稱並展開其設定 ![](assets/arrow-button.png) 若要進行任何必要的變更：
+1. 在&#x200B;**工作流程**&#x200B;區段中，變更任何階段的名稱，並展開其設定![](assets/arrow-button.png)以進行任何必要的變更：
 
    <table style="table-layout:auto"> 
     <col> 
@@ -219,13 +219,13 @@ ht-degree: 0%
       <td role="rowheader">截止日期計算自</td> 
       <td> <p>指定計算截止日期的方式：</p> 
        <ul> 
-        <li> <p><strong>從建立校訂計算出的截止日期</strong>：在 <strong>設定階段期限</strong> 從下拉式清單中，選取您想要新增至校訂建立日期的工作天數，以自動設定校訂的截止日期。</p> </li> 
-        <li><strong>從階段啟用計算出的截止日期</strong>：在 <strong>設定階段期限</strong> 從下拉式清單中，選取您想要新增至階段啟用日期的業務天數，以自動在校訂上設定截止日期。</li> 
+        <li> <p><strong>從校訂建立計算出的截止日期</strong>：在<strong>設定階段截止日期</strong>下拉式清單中，選取要新增至校訂建立日期的營業日數，以在校訂上自動設定截止日期。</p> </li> 
+        <li><strong>從階段啟用計算出的截止日期</strong>：在<strong>設定階段截止日期</strong>下拉式清單中，選取要新增至階段啟用日期的營業天數，以在校訂上自動設定截止日期。</li> 
        </ul> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">啟用階段</td> 
-      <td> <p>指定舞台是自動啟動還是手動啟動。 對於第一個階段，您可以選取 <strong>建立校訂時</strong>， <strong>在特定日期和時間</strong>，或 <strong>手動</strong>.</p> <p>當您新增第二個階段時，其他選項會變成可用，因為它們需要您選取父級階段。 </p> </td> 
+      <td> <p>指定舞台是自動啟動還是手動啟動。 在第一階段，您可以選取<strong>建立校訂時</strong>、<strong>特定日期和時間</strong>或<strong>手動</strong>。</p> <p>當您新增第二個階段時，其他選項會變成可用，因為它們需要您選取父級階段。 </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">鎖定階段</td> 
@@ -233,11 +233,11 @@ ht-degree: 0%
      </tr> 
      <tr> 
       <td role="rowheader">決策</td> 
-      <td>在決策者第一次提交決策時結束階段。 如需詳細資訊，請參閱 <a href="../../../workfront-proof/wp-work-proofsfiles/manage-your-work/configure-proof-settings.md" class="MCXref xref">在Workfront Proof中設定校訂設定</a>.</td> 
+      <td>在決策者第一次提交決策時結束階段。 如需詳細資訊，請參閱<a href="../../../workfront-proof/wp-work-proofsfiles/manage-your-work/configure-proof-settings.md" class="MCXref xref">在Workfront Proof中設定校訂設定</a>。</td> 
      </tr> 
      <tr> 
       <td role="rowheader">隱私權</td> 
-      <td>將的評論和決定隱藏給未新增到舞台或帳戶中不是主管或以上人員的人員。 如需詳細資訊，請參閱 <a href="../../../review-and-approve-work/proofing/proofing-overview/automated-workflow.md" class="MCXref xref">自動化工作流程總覽</a>.</td> 
+      <td>將的評論和決定隱藏給未新增到舞台或帳戶中不是主管或以上人員的人員。 如需詳細資訊，請參閱<a href="../../../review-and-approve-work/proofing/proofing-overview/automated-workflow.md" class="MCXref xref">自動化工作流程總覽</a>。</td> 
      </tr> 
      <tr> 
       <td role="rowheader">階段刪除</td> 
@@ -245,18 +245,18 @@ ht-degree: 0%
      </tr> 
      <tr> 
       <td role="rowheader">更多 <img src="assets/more-icon.png"></td> 
-      <td>新增檢閱者至舞台或刪除舞台。<p>如果您的每個校樣都傳送給在特定階段的相同人員，您可以在此處指定他們的名稱，這樣您就不必每次建立校樣時都新增他們。 輸入並選取您要新增至舞台的使用者名稱，然後新增其 <strong>角色</strong> 在校訂和 <strong>電子郵件警示</strong> 您想要給使用者的設定。 有關校訂角色的資訊，請參閱 <a href="../../../administration-and-setup/manage-workfront/configure-proofing/configure-default-proofing-roles.md" class="MCXref xref">設定預設校訂角色</a>. 如需校樣電子郵件警示的資訊，請參閱區段 <a href="../../../workfront-proof/wp-emailsntfctns/email-alerts/config-email-notification-settings-wp.md#configur" class="MCXref xref">設定使用者的校訂預設值</a> 在文章中 <a href="../../../workfront-proof/wp-emailsntfctns/email-alerts/config-email-notification-settings-wp.md" class="MCXref xref">在Workfront Proof中設定電子郵件通知設定</a>.</p><p>您可以新增任意數量的使用者至階段</p><p>提示：您可以在階段圖表上的階段之間拖放檢閱者名稱。 可用的階段會以藍色反白顯示。</p></td> 
+      <td>新增檢閱者至舞台或刪除舞台。<p>如果您的每個校樣都傳送給在特定階段的相同人員，您可以在此處指定他們的名稱，這樣您就不必每次建立校樣時都新增他們。 輸入並選取您要新增到階段的使用者名稱，然後在校訂上新增他們的<strong>角色</strong>，以及您想要給使用者的<strong>電子郵件警示</strong>設定。 如需校訂角色的資訊，請參閱<a href="../../../administration-and-setup/manage-workfront/configure-proofing/configure-default-proofing-roles.md" class="MCXref xref">設定預設校訂角色</a>。 如需有關校訂電子郵件警示的資訊，請參閱文章<a href="../../../workfront-proof/wp-emailsntfctns/email-alerts/config-email-notification-settings-wp.md" class="MCXref xref">在Workfront Proof中設定電子郵件通知設定</a>中的<a href="../../../workfront-proof/wp-emailsntfctns/email-alerts/config-email-notification-settings-wp.md#configur" class="MCXref xref">設定使用者的校訂預設值</a>一節。</p><p>您可以新增任意數量的使用者至階段</p><p>提示：您可以在階段圖表上的階段之間拖放檢閱者名稱。 可用的階段會以藍色反白顯示。</p></td> 
      </tr> 
     </tbody> 
    </table>
 
 1. 對要新增至範本的任何其他階段重複此步驟。
 
-   在頂端 **工作流程** 區段，您可以檢視正在設定的自動工作流程圖表。 當您繼續新增階段時，它們會出現在圖表上，其中行顯示它們之間的相依性。 您可以按一下圖表中的某個階段，以檢視該階段的設定。
+   在&#x200B;**工作流程**&#x200B;區段的頂端，您可以看到您正在設定的自動化工作流程圖表。 當您繼續新增階段時，它們會出現在圖表上，其中行顯示它們之間的相依性。 您可以按一下圖表中的某個階段，以檢視該階段的設定。
 
-   如果您不需要檢視圖表，可以按一下 **隱藏圖表**.
+   如果您不需要檢視圖表，可以按一下&#x200B;**隱藏圖表**。
 
-1. 在 **共用對象** 區段，如果您想要刪除使用者，請按一下更多 ![](assets/more-icon.png) 按鈕，然後按一下 **移除**.
+1. 在&#x200B;**共用給**&#x200B;區段中，如果您想要刪除使用者，請按一下右側的[更多![](assets/more-icon.png)]按鈕，然後按一下[移除]。****
 
 ## 建立自動化工作流程範本群組 {#create-automated-workflow-template-groups}
 
@@ -266,9 +266,9 @@ ht-degree: 0%
 
 {{step1-to-proofing}}
 
-1. 按一下 **工作流程** 在左側面板中。
-1. 在 **工作流程** 標籤，按一下 **新增** > **建立範本群組**.
-1. 輸入新範本群組的描述性名稱，然後按下 **輸入**.
+1. 按一下左側面板中的&#x200B;**工作流程**。
+1. 在&#x200B;**工作流程**&#x200B;標籤上，按一下&#x200B;**新增** > **新增範本群組**。
+1. 輸入新範本群組的描述性名稱，然後按&#x200B;**Enter**。
 
 您可以拖放方式在群組之間移動範本。
 
@@ -276,8 +276,8 @@ ht-degree: 0%
 
 {{step1-to-proofing}}
 
-1. 在Workfront Proof的左側面板中，按一下 **工作流程**.
-1. 在 **工作流程** 在出現的頁面中，執行下列任一項作業：
+1. 在Workfront Proof的左側面板中，按一下&#x200B;**工作流程**。
+1. 在出現的&#x200B;**工作流程**&#x200B;頁面上，執行下列任一項作業：
 
    * 新增範本
    * 新增範本群組

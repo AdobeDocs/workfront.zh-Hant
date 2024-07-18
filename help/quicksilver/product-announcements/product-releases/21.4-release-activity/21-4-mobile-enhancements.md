@@ -17,7 +17,7 @@ ht-degree: 0%
 
 本頁說明21.4版對預覽環境所做的所有行動裝置增強功能。 這些增強功能將在2021年10月4日當週的生產環境中提供。
 
-如需21.4版本所有可用變更的清單，請參閱 [21.4版本總覽](../../../product-announcements/product-releases/21.4-release-activity/21-4-release-overview.md).
+如需21.4版本可用的所有變更清單，請參閱[21.4版本總覽](../../../product-announcements/product-releases/21.4-release-activity/21-4-release-overview.md)。
 
 ## 在行動應用程式中檢閱和核准校樣
 
@@ -29,7 +29,7 @@ Adobe Workfront行動應用程式現在會在我的工作中的核准清單中�
 
 當應用程式發行至應用程式商店時，下列文章將會更新：
 
-* [適用於iOS的Adobe Workfront](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-ios.md)
+* 適用於iOS的[Adobe Workfront](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-ios.md)
 * [適用於Android的Adobe Workfront](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-android.md)
 
 ## 從行動應用程式首頁區域建立新請求
@@ -42,5 +42,5 @@ Adobe Workfront行動應用程式現在會在我的工作中的核准清單中�
 
 當應用程式發行至應用程式商店時，下列文章將會更新：
 
-* [適用於iOS的Adobe Workfront](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-ios.md)
+* 適用於iOS的[Adobe Workfront](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-ios.md)
 * [適用於Android的Adobe Workfront](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-android.md)

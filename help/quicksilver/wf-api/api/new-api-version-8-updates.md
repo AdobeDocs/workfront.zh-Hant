@@ -9,8 +9,8 @@ role: Developer
 exl-id: c6d7d2d2-cd21-4ca8-a5a0-afe3669dc959
 source-git-commit: ae80999fc7ea7e35097560aa99baa435bcd31b74
 workflow-type: tm+mt
-source-wordcount: '491'
-ht-degree: 34%
+source-wordcount: '537'
+ht-degree: 31%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 34%
 
 ## 已更新的資源
 
-此版本的Adobe Workfront API已更新下列現有資源。 若要檢視版本8的新資源，請參閱 [API 8版的新增功能](../../wf-api/api/new-api-version-8.md). 對資源所做的變更會以下列方式表示：
+此版本的Adobe Workfront API已更新下列現有資源。 若要檢視版本8的新資源，請參閱[API版本8](../../wf-api/api/new-api-version-8.md)的新增功能。 對資源所做的變更會以下列方式表示：
 
 * 新增內容只會列出
 * 移除以刪除線文字表示
@@ -26,17 +26,17 @@ ht-degree: 34%
 
 ### AccessRequest
 
-| 欄位 | 引用 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
+| 欄位 | 引用 | 集合 | 搜尋 | 動作 | 查詢 | 營運 |
 |---|---|---|---|---|---|---|
 | 動作<sup>1</sup>  |   |   |   |   |   |   |
 
 {style="table-layout:auto"}
 
-<sup>1</sup> 可能值的變更
+<sup>1</sup>可能值的變更
 
-### 存取規則<sup>1</sup> 
+### AccessRule<sup>1</sup> 
 
-| 欄位 | 引用 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
+| 欄位 | 引用 | 集合 | 搜尋 | 動作 | 查詢 | 營運 |
 |---|---|---|---|---|---|---|
 | coreAction<sup>2</sup>  |   |   |   |   |   |   |
 | forbiddenActions<sup>2</sup> |   |   |   |   |   |   |
@@ -44,14 +44,14 @@ ht-degree: 34%
 
 {style="table-layout:auto"}
 
-<sup>1</sup> 旗標已移除：可報告\
-<sup>2</sup> 可能值的變更
+<sup>1</sup>旗標已移除：可報告\
+<sup>2</sup>可能值的變更
 
 ### 核准
 
-| 欄位 | 引用 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
+| 欄位 | 引用 | 集合 | 搜尋 | 動作 | 查詢 | 營運 |
 |---|---|---|---|---|---|---|
-| 稽核型別<sup>1</sup> | 敏捷工作  | resourcePools |   |   |   |   |
+| auditTypes<sup>1</sup> | 敏捷工作  | resourcePools |   |   |   |   |
 | backlogOrder<sup>2</sup> | kanbanBoard  |   |   |   |   |   |
 | backlogParent |   |   |   |   |   |   |
 | kanbanBoardID |   |   |   |   |   |   |
@@ -59,11 +59,11 @@ ht-degree: 34%
 {style="table-layout:auto"}
 
 <sup>1</sup>可能值的變更\
-<sup>2</sup>已新增標幟：DYNAMIC、LAZY_READ和NOT_GROUPABLE
+<sup>2</sup>標幟已新增：動態、LAZY_READ和NOT_GROUPABLE
 
 ### 指派
 
-|   |   |   |   | 欄位 | 引用 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
+|   |   |   |   | 欄位 | 引用 | 集合 | 搜尋 | 動作 | 查詢 | 營運 |
 |---|---|---|---|---|---|---|---|---|---|---|
 |   |   |   |   | assignUserToRoleOntasks | getAssignAssignmentsForTasks  |   |   |   |   |   |
 |   |   |   |   | swapUsersOnTasks | getUnassignAssignmentsForTasks |   |   |   |   |   |
@@ -73,7 +73,7 @@ ht-degree: 34%
 
 ### 客戶
 
-| 欄位 | 引用 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
+| 欄位 | 引用 | 集合 | 搜尋 | 動作 | 查詢 | 營運 |
 |---|---|---|---|---|---|---|
 | bizRuleExclusions<sup>1</sup> |   |   |   | Getpackagingoptionvalue |   |   |
 | proofPlan<sup>1</sup> |   |   |   | isPackagingOptionEnabled |   |   |
@@ -84,7 +84,7 @@ ht-degree: 34%
 
 ### 客戶喜好設定
 
-| 欄位 | 引用 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
+| 欄位 | 引用 | 集合 | 搜尋 | 動作 | 查詢 | 營運 |
 |---|---|---|---|---|---|---|
 | 名稱<sup>1</sup> |   |   |   |   |   |   |
 
@@ -94,9 +94,9 @@ ht-degree: 34%
 
 ### 檔案核准
 
-| 欄位 | 引用 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
+| 欄位 | 引用 | 集合 | 搜尋 | 動作 | 查詢 | 營運 |
 |---|---|---|---|---|---|---|
-| ID<sup>1</sup> |   |   |   |   |   |   |
+| 識別碼<sup>1</sup> |   |   |   |   |   |   |
 
 {style="table-layout:auto"}
 
@@ -104,7 +104,7 @@ ht-degree: 34%
 
 ### 檔案版本
 
-| 欄位 | 引用 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
+| 欄位 | 引用 | 集合 | 搜尋 | 動作 | 查詢 | 營運 |
 |---|---|---|---|---|---|---|
 | activeProofStages |   |   |   |   |   |   |
 
@@ -112,7 +112,7 @@ ht-degree: 34%
 
 ### 群組
 
-| 欄位 | 引用 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
+| 欄位 | 引用 | 集合 | 搜尋 | 動作 | 查詢 | 營運 |
 |---|---|---|---|---|---|---|
 |   |   | 擁有者 |   |   |   |   |
 
@@ -120,7 +120,7 @@ ht-degree: 34%
 
 ### Hourtype
 
-| 欄位 | 引用 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
+| 欄位 | 引用 | 集合 | 搜尋 | 動作 | 查詢 | 營運 |
 |---|---|---|---|---|---|---|
 | appGlobalID<sup>1</sup> |   |   |   |   |   |   |
 
@@ -130,7 +130,7 @@ ht-degree: 34%
 
 ### 反覆項目
 
-| 欄位 | 引用 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
+| 欄位 | 引用 | 集合 | 搜尋 | 動作 | 查詢 | 營運 |
 |---|---|---|---|---|---|---|
 |   |   |   |   | 移動劇本 |   |   |
 
@@ -138,7 +138,7 @@ ht-degree: 34%
 
 ### 喜歡
 
-| 欄位 | 引用 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
+| 欄位 | 引用 | 集合 | 搜尋 | 動作 | 查詢 | 營運 |
 |---|---|---|---|---|---|---|
 | `endorsementID` | `endorsement` |   |   |   |   |   |
 
@@ -146,7 +146,7 @@ ht-degree: 34%
 
 ### 備註
 
-| 欄位 | 引用 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
+| 欄位 | 引用 | 集合 | 搜尋 | 動作 | 查詢 | 營運 |
 |---|---|---|---|---|---|---|
 | auditType<sup>1</sup> |   |   |   |   |   |   |
 
@@ -156,9 +156,9 @@ ht-degree: 34%
 
 ### Op 任務
 
-| 欄位 | 引用 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
+| 欄位 | 引用 | 集合 | 搜尋 | 動作 | 查詢 | 營運 |
 |---|---|---|---|---|---|---|
-| 稽核型別<sup>1</sup> | 敏捷工作  |   |   |   | defaultShownTimesheetIssues  |   |
+| auditTypes<sup>1</sup> | 敏捷工作  |   |   |   | defaultShownTimesheetIssues  |   |
 | backlogOrder | 反複專案 |   |   |   |   |   |
 | backlogParent |   |   |   |   |   |   |
 | 預估 |   |   |   |   |   |   |
@@ -170,9 +170,9 @@ ht-degree: 34%
 
 ### 專案組合
 
-| 欄位 | 引用 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
+| 欄位 | 引用 | 集合 | 搜尋 | 動作 | 查詢 | 營運 |
 |---|---|---|---|---|---|---|
-| 稽核型別<sup>1</sup> |   |   |   |   |   |   |
+| auditTypes<sup>1</sup> |   |   |   |   |   |   |
 
 {style="table-layout:auto"}
 
@@ -180,9 +180,9 @@ ht-degree: 34%
 
 ### 方案
 
-| 欄位 | 引用 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
+| 欄位 | 引用 | 集合 | 搜尋 | 動作 | 查詢 | 營運 |
 |---|---|---|---|---|---|---|
-| 稽核型別<sup>1</sup> |   |   |   |   |   |   |
+| auditTypes<sup>1</sup> |   |   |   |   |   |   |
 
 {style="table-layout:auto"}
 
@@ -190,9 +190,9 @@ ht-degree: 34%
 
 ### 專案
 
-| 欄位 | 引用 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
+| 欄位 | 引用 | 集合 | 搜尋 | 動作 | 查詢 | 營運 |
 |---|---|---|---|---|---|---|
-| 稽核型別<sup>1</sup> |   | resourcePools |   |   | defaultShowTimesheetProjects |   |
+| auditTypes<sup>1</sup> |   | resourcePools |   |   | defaultShowTimesheetProjects |   |
 
 {style="table-layout:auto"}
 
@@ -200,11 +200,11 @@ ht-degree: 34%
 
 ### ProofApproval
 
-| 欄位 | 引用 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
+| 欄位 | 引用 | 集合 | 搜尋 | 動作 | 查詢 | 營運 |
 |---|---|---|---|---|---|---|
 | approverID | 核准者 |   |   |   |   |   |
 | documentVersionID | documentversion |   |   |   |   |   |
-| ID<sup>1</sup> |   |   |   |   |   |   |
+| 識別碼<sup>1</sup> |   |   |   |   |   |   |
 | proofCreationDate |   |   |   |   |   |   |
 
 {style="table-layout:auto"}
@@ -213,7 +213,7 @@ ht-degree: 34%
 
 ### QueueDef
 
-| 欄位 | 引用 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
+| 欄位 | 引用 | 集合 | 搜尋 | 動作 | 查詢 | 營運 |
 |---|---|---|---|---|---|---|
 | requestorCoreAction<sup>1</sup> |   |   |   |   |   |   |
 | requestorForbiddenActions<sup>1</sup> |   |   |   |   |   |   |
@@ -222,9 +222,9 @@ ht-degree: 34%
 
 <sup>1</sup>可能值的變更
 
-### 匯率
+### 費率
 
-| 欄位 | 引用 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
+| 欄位 | 引用 | 集合 | 搜尋 | 動作 | 查詢 | 營運 |
 |---|---|---|---|---|---|---|
 | endDate |   |   |   | setRatesForRole  |   |   |
 | 名稱 |   |   |   |   |   |   |
@@ -234,7 +234,7 @@ ht-degree: 34%
 
 ### 保留時間
 
-| 欄位 | 引用 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
+| 欄位 | 引用 | 集合 | 搜尋 | 動作 | 查詢 | 營運 |
 |---|---|---|---|---|---|---|
 | extRefId |   |   |   |   |   |   |
 
@@ -242,7 +242,7 @@ ht-degree: 34%
 
 ### ResourceManager
 
-| 欄位 | 引用 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
+| 欄位 | 引用 | 集合 | 搜尋 | 動作 | 查詢 | 營運 |
 |---|---|---|---|---|---|---|
 | 專案優先順序 |   |   |   |   |   |   |
 
@@ -250,9 +250,9 @@ ht-degree: 34%
 
 ### 任務
 
-| 欄位 | 引用 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
+| 欄位 | 引用 | 集合 | 搜尋 | 動作 | 查詢 | 營運 |
 |---|---|---|---|---|---|---|
-| 稽核型別<sup>1</sup> | 敏捷工作  |   |   |   | allTasksOnIterations  |   |
+| auditTypes<sup>1</sup> | 敏捷工作  |   |   |   | allTasksOnIterations  |   |
 | backlogParent | kanbanBoard |   |   |   | defaultShownTimesheetTasks |   |
 | kanbanBoardID |   |   |   |   |   |   |
 
@@ -262,7 +262,7 @@ ht-degree: 34%
 
 ### 團隊
 
-| 欄位 | 引用 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
+| 欄位 | 引用 | 集合 | 搜尋 | 動作 | 查詢 | 營運 |
 |---|---|---|---|---|---|---|
 | 敏捷方法 |   |   |   |   |   |   |
 | autoAddNextStory |   |   |   |   |   |   |
@@ -274,7 +274,7 @@ ht-degree: 34%
 
 ### 範本
 
-| 欄位 | 引用 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
+| 欄位 | 引用 | 集合 | 搜尋 | 動作 | 查詢 | 營運 |
 |---|---|---|---|---|---|---|
 |   |   | resourcePools |   |   |   |   |
 
@@ -282,9 +282,9 @@ ht-degree: 34%
 
 ### 範本任務
 
-| 欄位 | 引用 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
+| 欄位 | 引用 | 集合 | 搜尋 | 動作 | 查詢 | 營運 |
 |---|---|---|---|---|---|---|
-| 稽核型別<sup>1</sup> |   |   |   |   |   |   |
+| auditTypes<sup>1</sup> |   |   |   |   |   |   |
 
 {style="table-layout:auto"}
 
@@ -292,7 +292,7 @@ ht-degree: 34%
 
 更新
 
-| 欄位 | 引用 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
+| 欄位 | 引用 | 集合 | 搜尋 | 動作 | 查詢 | 營運 |
 |---|---|---|---|---|---|---|
 | updateType<sup>1</sup> | `updateEndorsement` |   |   |   |   |   |
 
@@ -302,7 +302,7 @@ ht-degree: 34%
 
 ### 使用者
 
-|   |   | 欄位 | 引用 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
+|   |   | 欄位 | 引用 | 集合 | 搜尋 | 動作 | 查詢 | 營運 |
 |---|---|---|---|---|---|---|---|---|
 |   |   | resourcePools |   |   |   |   |   |   |
 |   |   | 使用者群組 |   |   |   |   |   |   |
@@ -312,11 +312,11 @@ ht-degree: 34%
 
 ### 使用者附註
 
-| 欄位 | 引用 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
+| 欄位 | 引用 | 集合 | 搜尋 | 動作 | 查詢 | 營運 |
 |---|---|---|---|---|---|---|
 | `endorsementID` | `endorsement` |   |   |   |   |   |
 | `endorsementShareID` | `endorsementShare` |   |   |   |   |   |
-| eventtype<sup>1</sup> |   |   |   |   |   |   |
+| eventType<sup>1</sup> |   |   |   |   |   |   |
 
 {style="table-layout:auto"}
 
@@ -324,9 +324,9 @@ ht-degree: 34%
 
 ### 工作
 
-| 欄位 | 引用 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
+| 欄位 | 引用 | 集合 | 搜尋 | 動作 | 查詢 | 營運 |
 |---|---|---|---|---|---|---|
-| 稽核型別<sup>1</sup> | 敏捷工作  |   |   |   |   |   |
+| auditTypes<sup>1</sup> | 敏捷工作  |   |   |   |   |   |
 | backlogOrder<sup>2</sup> | kanbanBoard  |   |   |   |   |   |
 | backlogParent  |   |   |   |   |   |   |
 | kanbanBoardID |   |   |   |   |   |   |
@@ -334,4 +334,4 @@ ht-degree: 34%
 {style="table-layout:auto"}
 
 <sup>1</sup>可能值的變更\
-<sup>2</sup>已新增標幟：DYNAMIC、LAZY_READ和NOT_GROUPABLE
+<sup>2</sup>標幟已新增：動態、LAZY_READ和NOT_GROUPABLE

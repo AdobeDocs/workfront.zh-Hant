@@ -1,8 +1,8 @@
 ---
 product-area: agile-and-teams
 navigation-topic: iterations
-title: 查看小版本
-description: 您可以查看給定團隊的所有小版本，也可以查看單個小版本。 小版本顯示小版本中包含的動態、問題和文檔的相關資料。
+title: 檢視反複專案
+description: 您可以檢視指定專案團隊的所有版序，也可以檢視個別版序。 反複專案顯示反複專案中包含的內文、問題和檔案的相關資料。
 author: Lisa
 feature: Agile
 exl-id: 1ee14c40-8047-4885-96f0-cddfc2617028
@@ -13,13 +13,13 @@ ht-degree: 0%
 
 ---
 
-# 查看小版本
+# 檢視反複專案
 
-您可以查看給定團隊的所有小版本，也可以查看單個小版本。 小版本顯示小版本中包含的動態、問題和文檔的相關資料。
+您可以檢視指定專案團隊的所有版序，也可以檢視個別版序。 反複專案顯示反複專案中包含的內文、問題和檔案的相關資料。
 
 ## 存取需求
 
-您必須具備下列存取權，才能執行本文中的步驟：
+您必須具有下列存取權才能執行本文中的步驟：
 
 <table style="table-layout:auto"> 
  <col> 
@@ -28,34 +28,34 @@ ht-degree: 0%
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] 計劃*</strong></td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] 計畫*</strong></td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] 授權*</strong></td> 
-   <td> <p>[!UICONTROL Review]或更高版本</p> </td> 
+   <td> <p>[！UICONTROL Review]或更高版本</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;若要了解您擁有的計畫或授權類型，請連絡您的 [!DNL Workfront] 管理員。
+&#42;若要瞭解您擁有的計畫或授權型別，請連絡您的[!DNL Workfront]系統管理員。
 
-## 查看分配給給定團隊的小版本
+## 檢視指派給特定團隊的反複專案
 
-1. 按一下 **[!UICONTROL 主菜單]** 圖示 ![](assets/main-menu-icon.png) 在 [!DNL Adobe Workfront]，然後按一下 **[!UICONTROL 團隊]**.
+1. 按一下[!DNL Adobe Workfront]右上角的&#x200B;**[!UICONTROL 主要功能表]**&#x200B;圖示![](assets/main-menu-icon.png)，然後按一下&#x200B;**[!UICONTROL 團隊]**。
 
-1. （選用）按一下 **[!UICONTROL 交換組]** 圖示 ![切換團隊表徵圖](assets/switch-team-icon.png)，然後從下拉式選單中選取新的Scrum團隊，或在搜尋列中搜尋團隊。
+1. （選擇性）按一下&#x200B;**[!UICONTROL 切換群組]**&#x200B;圖示![切換群組圖示](assets/switch-team-icon.png)，然後從下拉式功能表中選取新的Scrum群組或在搜尋列中搜尋群組。
 
-1. 在左側面板中，選取 **[!UICONTROL 迭代]** 要選擇特定的小版本，或選擇 **[!UICONTROL 當前迭代]**.
+1. 在左側面板中，選取&#x200B;**[!UICONTROL 反複專案]**&#x200B;以選擇特定反複專案，或選取&#x200B;**[!UICONTROL 目前反複專案]**。
 
-   ![迭代清單](assets/view-iteration-NWE.png)
+   ![反複專案清單](assets/view-iteration-NWE.png)
 
    >[!NOTE]
    >
-   >**[!UICONTROL 當前迭代]** 僅當將其分配給佈局模板時，且小版本上至少存在一個任務或問題時，才顯示在左側面板中。 如需詳細資訊，請參閱 [使用版面範本自訂左側面板](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md).
+   >**[!UICONTROL 目前反複專案]**&#x200B;只有在指派給版面配置範本，而且反複專案上至少有一個任務或問題時，才會顯示在左側面板中。 如需詳細資訊，請參閱[使用配置範本自訂左側面板](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md)。
 
 
-1. （可選）按一下要查看的特定小版本的名稱。\
-   會顯示小版本動態。
+1. （選擇性）按一下您要檢視的特定版序名稱。\
+   反複專案內文隨即顯示。
 
-   ![[!UICONTROL 迭代中的動態]](assets/iteration-stories-list-NWE.png)
+   反複專案中的![[!UICONTROL 個劇本]](assets/iteration-stories-list-NWE.png)

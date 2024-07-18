@@ -3,7 +3,7 @@ user-type: administrator
 content-type: overview;how-to-procedural
 product-area: system-administration
 navigation-topic: workfront-testing-environments
-title: 此 [!DNL Adobe Workfront] 預覽Sandbox環境
+title: ' [!DNL Adobe Workfront] 預覽沙箱環境'
 description: 預覽沙箱是測試環境，可作為即時環境的復本。 Workfront每週末都會重新整理。 星期五新增到您即時環境的資料會在下星期一之前顯示在您的預覽沙箱中。 所有支援套件皆可存取此沙箱。
 author: Lisa
 feature: System Setup and Administration
@@ -16,21 +16,21 @@ ht-degree: 0%
 
 ---
 
-# 此 [!DNL Adobe Workfront] 預覽Sandbox環境
+# [!DNL Adobe Workfront]預覽沙箱環境
 
 <!-- Audited: 12/2023 -->
 
-有兩個測試環境 [!DNL Workfront] 您的電腦的復本 [!DNL Workfront] 生產環境：
+[!DNL Workfront]有兩個測試環境，它們是[!DNL Workfront]生產環境的復本：
 
 * 預覽沙箱
 
-  預覽沙箱是測試環境，可作為即時環境的復本，並在每個週末由進行重新整理 [!DNL Workfront]. 星期五新增到您即時環境的資料會在下星期一之前顯示在您的預覽沙箱中。
+  預覽沙箱是測試環境，可作為您即時環境的復本，並在每個週末由[!DNL Workfront]重新整理。 星期五新增到您即時環境的資料會在下星期一之前顯示在您的預覽沙箱中。
 
   所有支援套件都可存取預覽沙箱。
 
 * 自訂重新整理沙箱
 
-  自訂重新整理沙箱是獨立的測試環境，由您手動重新整理。 取得自訂重新整理沙箱需要額外付費。 如需此環境的詳細資訊，請參閱 [此 [!DNL Adobe Workfront] 自訂重新整理沙箱環境](../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-custom-refresh-sandbox-environment.md).
+  自訂重新整理沙箱是獨立的測試環境，由您手動重新整理。 取得自訂重新整理沙箱需要額外付費。 如需此環境的詳細資訊，請參閱[自訂重新整理沙箱環境](../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-custom-refresh-sandbox-environment.md)。 [!DNL Adobe Workfront] 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -63,9 +63,9 @@ ht-degree: 0%
 
 預覽沙箱包含您的實際生產資料；但是，它每週末都會重新整理，以便資料最多可在生產環境後一週內完成。 自上次重新整理時間以來建立的專案會位於預覽沙箱環境中，直到後續重新整理為止。
 
-資料會單向流動，從生產環境流至預覽環境，而不會反向流動。 系統會一律排程重新整理預覽環境 [!DNL Workfront] 每個週末。
+資料會單向流動，從生產環境流至預覽環境，而不會反向流動。 預覽環境的重新整理一律由[!DNL Workfront]安排在每個週末。
 
-預覽Sandbox也允許 [!DNL Workfront] 在準備部署到生產環境之前，在安全環境中部署新功能。 您可以測試新功能並提供 [!DNL Workfront] 存取預覽Sandbox以對其功能提供意見回饋。 因此，預覽沙箱的程式碼一律先於生產程式碼，不過您的資料每週都會重新整理。
+預覽沙箱還允許[!DNL Workfront]在準備部署到生產環境之前，在安全環境中部署新功能。 您可以測試新功能，並透過存取預覽沙箱提供[!DNL Workfront]對其功能的意見反應。 因此，預覽沙箱的程式碼一律先於生產程式碼，不過您的資料每週都會重新整理。
 
 預覽環境適用於執行培訓、測試新功能和判斷設定功能。
 
@@ -73,26 +73,26 @@ ht-degree: 0%
 >
 >存取預覽沙箱時，請注意熒幕頂端的藍色橫幅。 當您在此環境中工作時，無法移除橫幅。
 >
->您存取的環境名稱（預覽）和程式碼的發行版本會顯示在橫幅上。 按一下 **[!UICONTROL 檢視新增功能]** 以取得該版本的相關資訊。
+>您存取的環境名稱（預覽）和程式碼的發行版本會顯示在橫幅上。 按一下&#x200B;**[!UICONTROL 檢視新增功能]**&#x200B;以取得該版本的相關資訊。
 >
 >![](assets/preview-banner-nwe-350x161.png)
 
 ## 存取預覽沙箱
 
-依預設，作為 [!DNL Workfront] 管理員，您擁有 [!UICONTROL 預覽] 沙箱環境。 如果您無法存取 [!UICONTROL 預覽] 沙箱環境如本節所述，請聯絡您的 [!DNL Workfront] 管理員或我們的客戶支援團隊。
+依預設，身為[!DNL Workfront]管理員，您擁有[!UICONTROL 預覽]沙箱環境的存取權。 如果您無法存取本節所述的[!UICONTROL 預覽]沙箱環境，請連絡您的[!DNL Workfront]系統管理員或我們的客戶支援團隊。
 
 
-### 從存取預覽沙箱 [!DNL Workfront] 介面 {#accessing-the-preview-sandbox-from-the-workfront-interface}
+### 從[!DNL Workfront]介面存取預覽沙箱 {#accessing-the-preview-sandbox-from-the-workfront-interface}
 
-作為 [!DNL Workfront] 管理員，您可以透過以下方式存取預覽沙箱： [!DNL Workfront] 介面。
+作為[!DNL Workfront]管理員，您可以透過[!DNL Workfront]介面存取「預覽沙箱」。
 
 若要存取「預覽沙箱」：
 
-1. 按一下 **[!UICONTROL 主要功能表]** 圖示 ![](assets/main-menu-icon.png) 位於的右上角 [!DNL Adobe Workfront]，然後按一下 **[!UICONTROL 設定]** ![](assets/gear-icon-settings.png).
+1. 按一下[!DNL Adobe Workfront]右上角的&#x200B;**[!UICONTROL 主要功能表]**&#x200B;圖示![](assets/main-menu-icon.png)，然後按一下&#x200B;**[!UICONTROL 設定]** ![](assets/gear-icon-settings.png)。
 
-1. 按一下 **[!UICONTROL 系統]** > **[!UICONTROL 偏好設定]**.
+1. 按一下&#x200B;**[!UICONTROL 系統]** > **[!UICONTROL 偏好設定]**。
 
-1. 在 **[!UICONTROL 測試環境]** 區段，按一下 **[!UICONTROL Sandbox預覽]**.
+1. 在&#x200B;**[!UICONTROL 測試環境]**&#x200B;區段中，按一下&#x200B;**[!UICONTROL 沙箱預覽]**。
 
 1. 使用您的「預覽」憑證登入。
 
@@ -104,7 +104,7 @@ ht-degree: 0%
 
 #### 存取叢集1、2、3和5上帳戶的預覽沙箱 {#accessing-the-preview-sandbox-for-accounts-on-cluster-1-2-3-and-5}
 
-預覽沙箱的URL為： `https://companyname.preview.workfront.com/`.
+預覽沙箱的URL是： `https://companyname.preview.workfront.com/`。
 
 >[!NOTE]
 >
@@ -112,7 +112,7 @@ ht-degree: 0%
 
 若要使用URL登入預覽Sandbox：
 
-1. 導覽至此URL： `https://companyname.preview.workfront.com/`.
+1. 瀏覽至此URL： `https://companyname.preview.workfront.com/`。
 
    如果您是EMEA客戶且您的帳戶位於叢集4，請參閱以下存取叢集4上帳戶的預覽沙箱（EMEA帳戶）一節。
 
@@ -127,9 +127,9 @@ ht-degree: 0%
 
 若要使用URL登入預覽Sandbox：
 
-1. 導覽至此URL： `https://companyname.preview.workfront.com/`.
+1. 瀏覽至此URL： `https://companyname.preview.workfront.com/`。
 
-   您也可以前往「 」存取「預覽沙箱」 [https://cl04.preview.workfront.com/login](https://cl04.preview.workfront.com/login).
+   您也可以前往[https://cl04.preview.workfront.com/login](https://cl04.preview.workfront.com/login)存取「預覽沙箱」。
 
 1. 使用您的預覽憑證登入。
 
@@ -137,28 +137,28 @@ ht-degree: 0%
 
 ## 從預覽Sandbox接收電子郵件
 
-Workfront會停用來自預覽Sandbox環境的所有電子郵件通訊。 如果您想從預覽Sandbox環境接收電子郵件通知，您必須在使用者設定中啟用此功能。 如需在預覽Sandbox環境中啟用電子郵件通知的詳細資訊，請參閱 [啟用從預覽Sandbox環境傳送電子郵件](../../../workfront-basics/using-notifications/enable-delivery-emails-from-preview-sandbox-environment.md).
+Workfront會停用來自預覽Sandbox環境的所有電子郵件通訊。 如果您想從預覽Sandbox環境接收電子郵件通知，您必須在使用者設定中啟用此功能。 如需在預覽Sandbox環境中啟用電子郵件通知的詳細資訊，請參閱[從預覽Sandbox環境啟用電子郵件傳遞](../../../workfront-basics/using-notifications/enable-delivery-emails-from-preview-sandbox-environment.md)。
 
 >[!NOTE]
 >
->行動應用程式上的報告傳送和推播通知一律會在預覽沙箱環境中停用。 您或 [!DNL Workfront] 存取預覽沙箱環境時，管理員可以為行動應用程式啟用報告傳送或推播通知。
+>行動應用程式上的報告傳送和推播通知一律會在預覽沙箱環境中停用。 存取預覽沙箱環境時，您和[!DNL Workfront]管理員都無法啟用行動應用程式的報告傳遞或推播通知。
 >
->如需生產環境之報表傳送的詳細資訊，請參閱 [報表傳送概覽](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md).
+>如需生產環境報告傳送的詳細資訊，請參閱[報告傳送概覽](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md)。
 
 
 ## 單一登入 (SSO)
 
-如果您使用SSO，請與我們的客戶支援團隊合作，確定是否已正確設定，以便您可以使用SSO憑證登入 [!UICONTROL 預覽] 沙箱。 如果初始登入失敗，請連絡您的定期支援聯絡或 [!DNL Workfront] 管理員以取得協助。
+如果您使用SSO，請與我們的客戶支援團隊合作，確保已正確設定，以便您可以使用SSO憑證登入[!UICONTROL 預覽]沙箱。 若您的初始登入失敗，請連絡您的一般支援連絡人或[!DNL Workfront]管理員以尋求協助。
 
-如需單一登入的詳細資訊，請參閱 [Adobe Workfront單一登入概觀](../../../administration-and-setup/add-users/single-sign-on/sso-in-workfront.md).
+如需單一登入的詳細資訊，請參閱[Adobe Workfront中的單一登入概觀](../../../administration-and-setup/add-users/single-sign-on/sso-in-workfront.md)。
 
 ## 在預覽沙箱中設定單一登入
 
 >[!IMPORTANT]
 >
->此頁面中說明的程式僅適用於尚未加入的組織。 [!DNL Adobe Admin Console]. 如果您的組織已上線至 [!DNL Adobe Admin Console]，不需要採取任何動作。
+>本頁所述的程式僅適用於尚未上線到[!DNL Adobe Admin Console]的組織。 如果您的組織已加入[!DNL Adobe Admin Console]，則不需要採取任何動作。
 >
->針對因貴組織是否已上線至而不同的程式清單 [!DNL Adobe Admin Console]，請參閱 [平台式管理差異([!UICONTROL Adobe Workfront]/[!UICONTROL Adobe商務平台])](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
+>如需根據貴組織是否已加入[!DNL Adobe Admin Console]而不同的程式清單，請參閱[以平台為基礎的管理差異([!UICONTROL Adobe Workfront]/[!UICONTROL Adobe商務平台])](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md)。
 
 
 如果您想要將預覽沙箱設定為使用單一登入解決方案，您可以透過與生產環境分開設定來執行此操作。 預覽沙箱中的SSO設定與生產環境中的SSO設定無關。
@@ -167,14 +167,14 @@ Workfront會停用來自預覽Sandbox環境的所有電子郵件通訊。 如果
 
 在預覽沙箱中設定單一登入的步驟與在生產環境中設定它的步驟類似。
 
-如需關於設定的詳細資訊 [!DNL Workfront] 若使用SSO，請參閱 [Adobe Workfront單一登入概觀](../../../administration-and-setup/add-users/single-sign-on/sso-in-workfront.md).
+如需使用SSO設定[!DNL Workfront]的詳細資訊，請參閱[Adobe Workfront單一登入的概觀](../../../administration-and-setup/add-users/single-sign-on/sso-in-workfront.md)。
 
 ## 預覽環境效能和可用性
 
-[!DNL Workfront] 預覽環境並非用於效能或負載測試。 反之，使用這些環境來驗證組織現有工作流程的功能性。
+[!DNL Workfront]預覽環境並非用於效能或負載測試。 反之，使用這些環境來驗證組織現有工作流程的功能性。
 
-[!DNL Workfront] 預覽環境旨在永遠可用。
+[!DNL Workfront]預覽環境旨在永遠可用。
 
-對的任何中斷 [!DNL Workfront] 解決任何生產問題（如果存在）後，立即將正常工作時間的預覽環境作為首要任務。
+[!DNL Workfront]預覽環境在正常工作時間內發生的任何中斷都將成為解決任何生產問題（如果存在）後的第一優先專案。
 
-對的任何中斷 [!DNL Workfront] 週末（星期六和星期日）的預覽環境將進行處理，以便環境在星期一的營業時間執行。
+[!DNL Workfront]預覽環境在週末（星期六和星期日）發生的任何中斷都會得到解決，因此環境會在星期一的營業時間執行。

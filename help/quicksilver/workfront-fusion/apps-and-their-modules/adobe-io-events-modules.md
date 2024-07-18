@@ -47,9 +47,9 @@ ht-degree: 1%
  </tbody> 
 </table>
 
-&#42;若要瞭解您擁有的計畫、授權型別或存取權，請聯絡您的Workfront管理員。
+&#42;若要瞭解您擁有的計畫、授權型別或存取權，請連絡您的Workfront管理員。
 
-&#42;&#42;如需Adobe Workfront Fusion授權的相關資訊，請參閱 [Adobe Workfront Fusion授權](../../workfront-fusion/get-started/license-automation-vs-integration.md)
+&#42;&#42;如需Adobe Workfront Fusion授權的相關資訊，請參閱[Adobe Workfront Fusion授權](../../workfront-fusion/get-started/license-automation-vs-integration.md)
 
 ## 先決條件
 
@@ -85,15 +85,15 @@ ht-degree: 1%
       </tr>
       <tr>
         <td role="rowheader">其他範圍</td>
-        <td>若要新增任何其他範圍，請按一下 <b>新增專案</b> 並輸入範圍。</td>
+        <td>若要新增任何其他範圍，請按一下[新增專案] <b> </b>並輸入範圍。</td>
       </tr>
       <tr>
         <td role="rowheader">用戶端 ID</td>
-        <td>輸入您的Adobe使用者端ID。 您可以在Adobe Developer Console的「認證詳細資訊」區段中找到</td>
+        <td>輸入您的Adobe使用者端ID。 您可在Adobe Developer Console的「認證詳細資料」區段中找到</td>
       </tr>
       <tr>
         <td role="rowheader">用戶端密碼</td>
-        <td>輸入您的Adobe使用者端密碼。 您可以在Adobe Developer Console的「認證詳細資訊」區段中找到</td>
+        <td>輸入您的Adobe使用者端密碼。 您可在Adobe Developer Console的「認證詳細資料」區段中找到</td>
       </tr>
       </tr>
         <tr>
@@ -106,26 +106,26 @@ ht-degree: 1%
       </tr>
       <tr>
         <td role="rowheader">IMS組織ID</td>
-        <td>輸入您的Adobe組織ID。 您可以在Adobe Developer Console的「認證詳細資訊」區段中找到</td>
+        <td>輸入您的Adobe組織ID。 您可在Adobe Developer Console的「認證詳細資料」區段中找到</td>
       </tr>
         <tr>
         <td role="rowheader">專案識別碼</td>
         <td>輸入您的專案ID。 您可以在專案的認證URL中找到此專案： <code>https://developer.adobe.com/console/projects/{consumer org ID}/ {project ID}/credentials/{credential ID}/details</code></td>
       </tr>
       <tr>
-        <td role="rowheader">工作區ID</td>
-        <td>若要檢視您專案的工作區ID，請從Adobe Developer Console的專案概觀頁面下載專案詳細資訊。 </td>
+        <td role="rowheader">WORKSPACE ID</td>
+        <td>若要檢視專案的Workspace ID，請從Adobe Developer Console的專案概觀頁面下載專案詳細資訊。 </td>
       </tr>
     </tbody>
     </table>
 
-1. 按一下 **繼續** 以儲存連線並返回模組。
+1. 按一下&#x200B;**繼續**&#x200B;以儲存連線並返回模組。
 
 ## Adobe I/O事件模組及其欄位
 
-當您設定 [!DNL Adobe I/O Events] 模組， [!DNL Workfront Fusion] 顯示下列欄位。 除了這些以外， [!DNL Adobe I/O Events] 欄位可能會顯示，端視您應用程式或服務中的存取層級等因素而定。 模組中的粗體標題表示必填欄位。
+當您設定[!DNL Adobe I/O Events]模組時，[!DNL Workfront Fusion]會顯示下列欄位。 除了這些欄位以外，可能還會顯示其他[!DNL Adobe I/O Events]欄位，視您在應用程式或服務中的存取層級等因素而定。 模組中的粗體標題表示必填欄位。
 
-如果您在欄位或函式上方看到對應按鈕，則可以使用它來設定該欄位的變數和函式。 如需詳細資訊，請參閱 [在中將資訊從一個模組對應到另一個模組 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
+如果您在欄位或函式上方看到對應按鈕，則可以使用它來設定該欄位的變數和函式。 如需詳細資訊，請參閱[在 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md)中將資訊從一個模組對應到另一個模組。
 
 ![](assets/map-toggle-350x74.png)
 
@@ -141,7 +141,7 @@ ht-degree: 1%
 
 若要建立webhook：
 
-1. 按一下 **新增** ，位於Webhook欄位旁。
+1. 按一下Webhook欄位旁的&#x200B;**新增**。
 1. 填寫下列欄位：
 
    <table>
@@ -154,7 +154,7 @@ ht-degree: 1%
        </tr>
        <tr>
          <td role="rowheader">[！UICONTROL Connection]</td>
-        <td>有關建立與的連線的指示 [!DNL Adobe I/O Events]，請參閱 <a href="#create-a-connection-to-adobe-io-events" class="MCXref xref" >建立與的連線 [!DNL Adobe I/O Events]</a> 本文章內容。</td>
+        <td>如需建立[!DNL Adobe I/O Events]連線的說明，請參閱本文中的<a href="#create-a-connection-to-adobe-io-events" class="MCXref xref" >建立與[!DNL Adobe I/O Events]</a>的連線。</td>
        </tr>
        <tr>
          <td role="rowheader">
@@ -197,7 +197,7 @@ ht-degree: 1%
      <tbody>
        <tr>
          <td role="rowheader">[！UICONTROL Connection]</td>
-        <td>有關建立與的連線的指示 [!DNL Adobe I/O Events]，請參閱 <a href="#create-a-connection-to-adobe-io-events" class="MCXref xref" >建立與的連線 [!DNL Adobe I/O Events]</a> 本文章內容。</td>
+        <td>如需建立[!DNL Adobe I/O Events]連線的說明，請參閱本文中的<a href="#create-a-connection-to-adobe-io-events" class="MCXref xref" >建立與[!DNL Adobe I/O Events]</a>的連線。</td>
        </tr>
        <tr>
          <td role="rowheader">
@@ -242,7 +242,7 @@ ht-degree: 1%
 
 #### 進行自訂API呼叫
 
-此動作模組會對 [!DNL Adobe I/O Events] API
+此動作模組會對[!DNL Adobe I/O Events] API發出自訂API呼叫
 
 <table>
   <col/>
@@ -250,7 +250,7 @@ ht-degree: 1%
   <tbody>
     <tr>
      <td role="rowheader">[！UICONTROL Connection]</td>
-        <td>有關建立與的連線的指示 [!DNL Adobe I/O Events]，請參閱 <a href="#create-a-connection-to-adobe-io-events" class="MCXref xref" >建立與的連線 [!DNL Adobe I/O Events]</a> 本文章內容。</td>
+        <td>如需建立[!DNL Adobe I/O Events]連線的說明，請參閱本文中的<a href="#create-a-connection-to-adobe-io-events" class="MCXref xref" >建立與[!DNL Adobe I/O Events]</a>的連線。</td>
     </tr>
     <tr>
       <td role="rowheader">
@@ -265,7 +265,7 @@ ht-degree: 1%
         <p>[！UICONTROL方法]</p>
       </td>
       <td>
-  <p>選取設定API呼叫所需的HTTP要求方法。 如需詳細資訊，請參閱 <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">中的HTTP要求方法 [!DNL Adobe Workfront Fusion]</a>.</p>  
+  <p>選取設定API呼叫所需的HTTP要求方法。 如需詳細資訊，請參閱[!DNL Adobe Workfront Fusion]</a>中的<a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">HTTP要求方法。</p>  
       </td>
     </tr>
     <tr>
@@ -284,7 +284,7 @@ ht-degree: 1%
     </tr>
     <tr>
       <td role="rowheader">[！UICONTROL Body]</td>
-   <td> <p>以標準JSON物件的形式新增API呼叫的內文內容。</p> <p>注意：  <p>使用條件陳述式時，例如 <code>if</code> 在JSON中，將引號放在條件陳述式之外。</p> 
+   <td> <p>以標準JSON物件的形式新增API呼叫的內文內容。</p> <p>注意：  <p>在JSON中使用條件陳述式（例如<code>if</code>）時，請將引號放在條件陳述式之外。</p> 
      <div class="example" data-mc-autonum="<b>Example: </b>"> 
       <p> <img src="assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
      </div> </p> </td>     </tr>
@@ -303,7 +303,7 @@ ht-degree: 1%
      <tbody>
        <tr>
          <td role="rowheader">[！UICONTROL Connection]</td>
-        <td>有關建立與的連線的指示 [!DNL Adobe I/O Events]，請參閱 <a href="#create-a-connection-to-adobe-io-events" class="MCXref xref" >建立與的連線 [!DNL Adobe I/O Events]</a> 本文章內容。</td>
+        <td>如需建立[!DNL Adobe I/O Events]連線的說明，請參閱本文中的<a href="#create-a-connection-to-adobe-io-events" class="MCXref xref" >建立與[!DNL Adobe I/O Events]</a>的連線。</td>
        </tr>
        <tr>
          <td role="rowheader">

@@ -54,7 +54,7 @@ ht-degree: 0%
 <li>Select或Prime Adobe Workfront計畫以及額外的Adobe Workfront目標授權。</li>
 <li>預設包含Workfront目標的Ultimate Workfront計畫。 </li></ul>
  <p>或</p>
- <p>目前產品需求： Adobe Workfront Goals的Workfront計畫和額外授權。 </p> <p>如需詳細資訊，請參閱 <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">使用Workfront目標的需求</a>. </p> </td>
+ <p>目前產品需求： Adobe Workfront Goals的Workfront計畫和額外授權。 </p> <p>如需詳細資訊，請參閱<a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">使用Workfront目標的需求</a>。 </p> </td>
  </tr>
  <tr>
  <td role="rowheader"><p>存取層級</p></td>
@@ -66,7 +66,7 @@ ht-degree: 0%
   <div>
   <p>檢視目標或更高許可權以檢視它</p>
   <p>管理目標的許可權以編輯它</p>
-  <p>如需關於共用目標的資訊，請參閱 <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">在Workfront目標中共用目標</a>. </p>
+  <p>如需共用目標的相關資訊，請參閱<a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">在Workfront目標中共用目標</a>。 </p>
   </div> </td>
  </tr>
  <tr>
@@ -77,27 +77,27 @@ ht-degree: 0%
 </tbody>
 </table>
 
-*如需詳細資訊，請參閱 [Workfront檔案中的存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 ## 停用目標
 
 您可以停用不再相關且將來可能想要重新啟用的目標。
 
-* [停用目標時的注意事項](#considerations-when-deactivating-goals)
+* [停用目標時的考量事項](#considerations-when-deactivating-goals)
 * [停用目標](#deactivate-goals)
 
 ### 停用目標時的注意事項
 
 停用目標時，請記住下列事項：
 
-* 您只能停用處於作用中狀態的目標。 如需啟用目標的詳細資訊，請參閱 [在Adobe Workfront目標中啟用目標](../../workfront-goals/goal-management/activate-goals.md).
+* 您只能停用處於作用中狀態的目標。 如需啟用目標的相關資訊，請參閱[在Adobe Workfront目標中啟用目標](../../workfront-goals/goal-management/activate-goals.md)。
 
   >[!TIP]
   >
   >您無法停用「草稿」狀態下的目標。
 
 * Workfront停止計算已停用目標的進度。
-* 非作用中目標不再顯示於，或在Workfront目標的「圖表」區段中予以考慮。 如需Workfront目標圖表的詳細資訊，請參閱 [檢閱圖表以瞭解Adobe Workfront目標中的目標進度趨勢](../../workfront-goals/goal-review-and-workfront-goals-sections/review-goal-graphs.md).
+* 非作用中目標不再顯示於，或在Workfront目標的「圖表」區段中予以考慮。 如需Workfront目標圖表的相關資訊，請參閱[檢閱圖表以瞭解Adobe Workfront目標中的目標進度趨勢](../../workfront-goals/goal-review-and-workfront-goals-sections/review-goal-graphs.md)。
 
   <!--* The Check-in section. For information about the Check-in page, see [Update goal progress in Adobe Workfront Goals](../../workfront-goals/goal-review-and-workfront-goals-sections/check-in-goals.md). -->
 
@@ -132,7 +132,7 @@ Deactivating goals differs depending on which environment you use.
 1. Click the **X** icon in the upper-right to close Goal Details.
 -->
 
-1. 按一下 **主要功能表** 圖示 ![](assets/main-menu-icon.png) 然後按一下「 」 **目標**.
+1. 按一下右上角的&#x200B;**主要功能表**&#x200B;圖示![](assets/main-menu-icon.png)，然後按一下&#x200B;**目標**。
 
    目標清單隨即顯示。
 
@@ -141,7 +141,7 @@ Deactivating goals differs depending on which environment you use.
 
 1. （可選）修改您的篩選器以僅顯示作用中的目標。
 
-   如需有關篩選Workfront目標中的資訊，請參閱 [在Adobe Workfront目標中篩選資訊](../goal-management/filter-information-wf-goals.md).
+   如需在Workfront目標中篩選資訊的詳細資訊，請參閱[在Adobe Workfront目標中篩選資訊](../goal-management/filter-information-wf-goals.md)。
 
 1. 按一下作用中的目標。
 
@@ -149,7 +149,7 @@ Deactivating goals differs depending on which environment you use.
 
    ![](assets/goal-page-unshimmed.png)
 
-1. 按一下 **更多** 功能表 ![](assets/more-icon.png) 在目標名稱的右側，然後按一下 **停用**.
+1. 按一下目標名稱右邊的&#x200B;**更多**&#x200B;功能表![](assets/more-icon.png)，然後按一下&#x200B;**停用**。
 
 1. 目標已停用，其狀態變為非使用中。
 
@@ -157,7 +157,7 @@ Deactivating goals differs depending on which environment you use.
 
 您可以刪除不再相關或可能永遠不會相關的目標。
 
-* [刪除目標時的注意事項](#considerations-when-deleting-goals)
+* [刪除目標時的考量事項](#considerations-when-deleting-goals)
 * [刪除目標](#delete-goals)
 
 ### 刪除目標時的注意事項 {#considerations-when-deleting-goals}
@@ -189,14 +189,14 @@ Deleting  goals differs depending on which environment you use.
    The goal is removed from the Goal List and cannot be recovered.
 -->
 
-1. 按一下主要功能表圖示 ![](assets/main-menu-icon.png) 然後按一下「 」 **目標**.
+1. 按一下右上角的「主要功能表」圖示![](assets/main-menu-icon.png)，然後按一下&#x200B;**目標**。
 
    目標清單隨即顯示。
 
    <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-management/assets/three-line-main-menu-icon.png) in the upper-left corner)
    -->
 1. 按一下目標的名稱。 如此將可開啟目標頁面。
-1. 按一下 **更多** 功能表 ![](assets/more-icon.png) 在目標名稱的右側，然後按一下 **刪除目標**，然後 **刪除**.
+1. 按一下目標名稱右邊的&#x200B;**更多**&#x200B;功能表![](assets/more-icon.png)，然後按一下&#x200B;**刪除目標**，再按一下&#x200B;**刪除**。
 
    目標及其活動和結果也會遭到刪除且無法復原。 不會刪除與一個或多個子目標相關聯的專案。
 

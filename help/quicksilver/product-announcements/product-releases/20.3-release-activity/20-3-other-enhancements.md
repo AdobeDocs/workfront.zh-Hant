@@ -18,7 +18,7 @@ ht-degree: 0%
 
 本頁說明生產環境第20.3發行版本所做的所有其他增強功能。 這些增強功能已在2020年8月10日當週的生產環境中推出。
 
-如需20.3版所有可用變更的清單，請參閱 [20.3版本總覽](../../../product-announcements/product-releases/20.3-release-activity/20-3-release-overview.md).
+如需20.3版本可用的所有變更清單，請參閱[20.3版本總覽](../../../product-announcements/product-releases/20.3-release-activity/20-3-release-overview.md)。
 
 ## 與私人連結共用行事曆
 
@@ -26,13 +26,13 @@ ht-degree: 0%
 
 之前，您可以共用不需要登入即可檢視的公用URL。
 
-如需詳細資訊，請參閱 [共用行事曆報告](../../../reports-and-dashboards/reports/calendars/share-a-calendar-report.md).
+如需詳細資訊，請參閱[共用行事曆報告](../../../reports-and-dashboards/reports/calendars/share-a-calendar-report.md)。
 
 ## 建立請求時新增草稿區域
 
 為了讓您在處理請求時擁有更多彈性，Workfront現在會自動將您建立的每個請求儲存為新「草稿」區域中的草稿。 如果您沒有完成新請求所需的所有資訊，可以將其保留為草稿、返回並稍後完成。 Workfront會在新草稿區域的每個佇列主題儲存一個請求。 草稿請求可以儲存到您準備好完成並提交為止，只要您需要。 您也可以使用「版面配置範本」來移除或重新定位左側面板中的「草稿」區域。
 
-如需建立請求的詳細資訊，請參閱 [建立及提交Workfront請求](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md).
+如需有關建立請求的詳細資訊，請參閱[建立和提交Workfront請求](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md)。
 
 >[!NOTE]
 >
@@ -48,7 +48,7 @@ ht-degree: 0%
 
 之前，您必須個別按一下每個專案。
 
-如需詳細資訊，請參閱 [記錄時間](../../../timesheets/create-and-manage-timesheets/log-time.md).
+如需詳細資訊，請參閱[記錄時間](../../../timesheets/create-and-manage-timesheets/log-time.md)。
 
 ## 忽略Workfront行事曆中的實際日期
 
@@ -60,7 +60,7 @@ ht-degree: 0%
 
 以前，行事曆在可以使用實際日期後會自動使用實際日期。
 
-如需詳細資訊，請參閱 [行事曆報表總覽](../../../reports-and-dashboards/reports/calendars/calendar-reports-overview.md).
+如需詳細資訊，請參閱[行事曆報告總覽](../../../reports-and-dashboards/reports/calendars/calendar-reports-overview.md)。
 
 ## 在行事曆報告中使用自訂日期欄位
 
@@ -72,17 +72,17 @@ ht-degree: 0%
 
 以前，您只能在實際日期不可用時，以預計或計畫的方式管理行事曆。
 
-如需詳細資訊，請參閱 [在行事曆報告中使用自訂日期欄位](../../../reports-and-dashboards/reports/calendars/use-custom-dates.md) (或如果您使用Workfront Classic，請參閱 [在行事曆報告中使用自訂日期欄位](https://one.workfront.com/s/article/Use-custom-date-fields-in-a-calendar-report-432597950?language=en_US))。
+如需詳細資訊，請參閱[在行事曆報告中使用自訂日期欄位](../../../reports-and-dashboards/reports/calendars/use-custom-dates.md) (或者，如果您使用的是Workfront Classic，請參閱[在行事曆報告中使用自訂日期欄位](https://one.workfront.com/s/article/Use-custom-date-fields-in-a-calendar-report-432597950?language=en_US))。
 
 ## 電子郵件變更
 
-**傳出電子郵件變更：** Workfront的所有電子郵件將來自notifications@my.workfront.com。 這包括自動警示和使用者對使用者的通訊。
+**傳出電子郵件變更：**&#x200B;所有來自Workfront的電子郵件將來自notifications@my.workfront.com。 這包括自動警示和使用者對使用者的通訊。
 
 以前，系統管理員可以在電子郵件設定區域中新增自訂電子郵件地址。
 
-**傳入電子郵件POP回覆變更：** 系統管理員無法再設定自訂POP電子郵件伺服器來接收通知的電子郵件回覆。
+**傳入電子郵件POP回覆變更：**&#x200B;系統管理員將無法再設定自訂POP電子郵件伺服器來接收通知的電子郵件回覆。
 
-如需詳細資訊，請參閱 [電子郵件詐騙和POP回覆電子郵件變更](https://one.workfront.com/s/article/Email-spoofing-and-POP-reply-email-changes?language=en_US).
+如需詳細資訊，請參閱[電子郵件詐騙和POP回覆電子郵件變更](https://one.workfront.com/s/article/Email-spoofing-and-POP-reply-email-changes?language=en_US)。
 
 ## 傳出的Workfront電子郵件現在包含DomainKeys識別的郵件(DKIM)
 
@@ -107,7 +107,7 @@ ht-degree: 0%
 
 現在，您可以使用版面範本來變更頂端導覽區域和[主要]功能表上的標誌，以利特定群組、團隊、工作角色和擁有自己品牌的使用者使用。
 
-如需詳細資訊，請參閱 [品牌化您的Adobe Workfront執行個體](../../../administration-and-setup/customize-workfront/brand-workfront/brand-your-workfront-instance.md).
+如需詳細資訊，請參閱[將您的Adobe Workfront執行個體品牌化](../../../administration-and-setup/customize-workfront/brand-workfront/brand-your-workfront-instance.md)。
 
 ## 群組管理員可以建立和管理核准流程
 
@@ -115,7 +115,7 @@ ht-degree: 0%
 
 為了確保群組管理員不會無意中編輯整個系統中使用的核准流程或由其他群組建立的核准流程，他們只能存取與其管理的群組相關聯的核准流程。
 
-如需詳細資訊，請參閱 [建立工作專案的核准流程](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
+如需詳細資訊，請參閱[建立工作專案的核准程式](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md)。
 
 ## 管理員專用：新的「群組」頁面可讓您更輕鬆地建立和管理群組
 
@@ -129,13 +129,13 @@ ht-degree: 0%
 * 子群組清單：檢視、編輯、複製、匯出及刪除您管理的群組中的子群組。
 * 狀態清單：檢視及管理群組的狀態。
 
-如需詳細資訊，請參閱 [建立群組](../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md).
+如需詳細資訊，請參閱[建立群組](../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md)。
 
 ## 管理員的新增功能：建立最多14層子群組
 
 為了更方便組織您的Workfront群組以符合您的組織階層，我們已將您可以在群組中建立的子群組層級從3個增加到14個。
 
-如需詳細資訊，請參閱 [群組概述](../../../administration-and-setup/manage-groups/groups-overview/groups.md).
+如需詳細資訊，請參閱[群組總覽](../../../administration-and-setup/manage-groups/groups-overview/groups.md)。
 
 ## 管理員的新增功能：新增設定側欄
 
@@ -152,22 +152,22 @@ ht-degree: 0%
 * 側邊欄收合時，您只會看到每個功能的圖示。 若要檢視主要側邊欄專案底下的子專案，請將滑鼠指標停留在子專案的圖示上，即可在彈出式選單中顯示子專案。 例如，將滑鼠懸停在流程圖示上，即可顯示包含核准和里程碑路徑的功能表。
 * 您可以按一下更快存取兩個Kick-Start選項（匯入資料和匯出資料）。 它們已從系統下方移出，並顯示在側邊欄的主要層級。
 
-如需有關如何使用「設定」區域的資訊，請參閱 [管理和設定](../../../administration-and-setup/administration-and-setup.md).
+如需有關如何使用[設定]區域的資訊，請參閱[管理與設定](../../../administration-and-setup/administration-and-setup.md)。
 
 ## 在客戶資訊區域包含叢集編號
 
 身為Workfront管理員，您現在可以在Workfront中輕鬆找到叢集編號，不必花費額外時間和精力從我們的支援團隊取得。 我們在設定的「客戶資訊」區域中新增了「叢集設定」欄位。
 
-如需「客戶資訊」區域的詳細資訊，請參閱 [設定系統的基本資訊](../../../administration-and-setup/get-started-wf-administration/configure-basic-info.md).
+如需客戶資訊區域的詳細資訊，請參閱[設定您系統的基本資訊](../../../administration-and-setup/get-started-wf-administration/configure-basic-info.md)。
 
 ## 事件訂閱的Base64編碼
 
 base64Encoding欄位是選用欄位，用來啟用事件訂閱裝載的Base64編碼。 如果使用設為true的base64Encoding欄位提出要求，則承載中的newState和oldState物件會以Base64編碼字串傳送。 如果您的網路設定方式不允許在「事件訂閱」中使用特殊字元，此功能會很有用。
 
-如需詳細資訊，請參閱 [事件訂閱API](../../../wf-api/general/event-subs-api.md).
+如需詳細資訊，請參閱[事件訂閱API](../../../wf-api/general/event-subs-api.md)。
 
 ## 移除建立重複事件訂閱的功能
 
 為了防止傳送重複的訊息，您無法再建立重複的訂閱。 此外，先前建立的任何重複訂閱均已移除。
 
-如需詳細資訊，請參閱 [常見問題集 — 事件訂閱](../../../wf-api/general/event-subs-faq.md).
+如需詳細資訊，請參閱[常見問題集 — 活動訂閱](../../../wf-api/general/event-subs-faq.md)。

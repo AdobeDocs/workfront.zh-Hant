@@ -17,5 +17,5 @@ ht-degree: 0%
 
 本節包含下列文章：
 
-* [任務常見問答](../../../manage-work/tasks/tips-tricks-and-troubleshooting/tasks-faqs.md)
+* [個任務常見問答](../../../manage-work/tasks/tips-tricks-and-troubleshooting/tasks-faqs.md)
 * [預計期間與計畫期間不符](../../../manage-work/tasks/tips-tricks-and-troubleshooting/projected-and-planned-durations-dont-match.md)

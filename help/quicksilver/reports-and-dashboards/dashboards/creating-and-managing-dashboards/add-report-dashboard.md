@@ -15,7 +15,7 @@ ht-degree: 0%
 
 # 新增報告至儀表板
 
-您可以直接從報表將報表新增至新的或現有的儀表板。 您也可以將現有報表新增至控制面板，如所述 [建立儀表板](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-dashboard.md).
+您可以直接從報表將報表新增至新的或現有的儀表板。 您也可以新增現有報告至儀表板，如[建立儀表板](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-dashboard.md)中所述。
 
 >[!NOTE]
 >
@@ -39,28 +39,28 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader"><strong>存取層級設定*</strong></td> 
-   <td> <p>編輯報告、儀表板和行事曆的存取權</p> <p>注意：如果您還是沒有存取權，請詢問您的Workfront管理員，他們是否在您的存取層級中設定其他限制。 如需有關Workfront管理員如何變更您的存取層級的資訊，請參閱 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>.</p> </td> 
+   <td> <p>編輯報告、儀表板和行事曆的存取權</p> <p>注意：如果您還是沒有存取權，請詢問您的Workfront管理員，他們是否在您的存取層級中設定其他限制。 如需Workfront管理員如何變更存取層級的詳細資訊，請參閱<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>物件許可權</strong></td> 
-   <td> <p>管理儀表板的許可權</p> <p>檢視報表許可權</p> <p>如需請求其他存取許可權的詳細資訊，請參閱 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">要求物件的存取權 </a>.</p> </td> 
+   <td> <p>管理儀表板的許可權</p> <p>檢視報表許可權</p> <p>如需請求其他存取權的資訊，請參閱<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">請求物件</a>的存取權。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;若要瞭解您擁有的計畫、授權型別或存取權，請聯絡您的Workfront管理員。
+&#42;若要瞭解您擁有的計畫、授權型別或存取權，請連絡您的Workfront管理員。
 
 ## 先決條件
 
 您必須先建立報表，才能將其新增到控制面板。
 
-如需建立報表的詳細資訊，請參閱 [建立報告](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-report.md).
+如需建立報告的詳細資訊，請參閱[建立報告](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-report.md)。
 
 ## 新增報表至現有儀表板
 
 1. 前往您擁有「管理」許可權且想要新增至控制面板的報表。
-1. 按一下 **報表動作** 下拉式功能表。
-1. 按一下 **新增到儀表板**. 由登入使用者擁有的最多10個最近修改的儀表板會依最新到最舊的順序顯示。
+1. 按一下&#x200B;**報表動作**&#x200B;下拉式功能表。
+1. 按一下&#x200B;**新增到儀表板**。 由登入使用者擁有的最多10個最近修改的儀表板會依最新到最舊的順序顯示。
 1. 選取您要新增報表的控制面板。
 
    選取儀表板後，您可新增報表，就像編輯該儀表板一樣。
@@ -68,9 +68,9 @@ ht-degree: 0%
 ## 新增報告至新儀表板
 
 1. 前往您擁有「管理」許可權且想要新增至控制面板的報表。
-1. 按一下 **報表動作** 下拉式清單。
-1. 按一下 **新增到儀表板**，然後按一下 **新儀表板** 以新增您的報表。\
+1. 按一下&#x200B;**報表動作**&#x200B;下拉式清單。
+1. 按一下&#x200B;**新增到儀表板**，然後按一下&#x200B;**新增儀表板**&#x200B;以新增您的報告。\
    儀表板產生器隨即顯示。
 
 1. （選用）選取版面，並將其他報表納入新控制面板。
-1. 按一下 **儲存+關閉** 以新增報表。
+1. 按一下&#x200B;**儲存+關閉**&#x200B;以新增報表。

@@ -58,11 +58,11 @@ ht-degree: 4%
 
 ## 設定自動提醒
 
-1. 按一下 **主要功能表** 圖示 ![](assets/main-menu-icon.png) (位於Adobe Workfront的右上角)，然後按一下 **設定** ![](assets/gear-icon-settings.png).
+1. 按一下Adobe Workfront右上角的&#x200B;**主要功能表**&#x200B;圖示![](assets/main-menu-icon.png)，然後按一下&#x200B;**設定** ![](assets/gear-icon-settings.png)。
 
-1. 按一下 **電子郵件** >**自動提醒**.
+1. 按一下&#x200B;**電子郵件** >**自動提醒**。
 
-1. 在 **傳送延遲通知至** 區域，選取下列任一選項：
+1. 在&#x200B;**傳送延遲通知至**&#x200B;區域中，選取下列任一選項：
 
    <table>
     <tr>
@@ -82,7 +82,7 @@ ht-degree: 4%
     </tr>
     <tr>
         <td>「指派至」使用者</td>
-        <td>(在 <b>傳送期限提醒至</b> 區域。) 如果您希望指派給任務或問題的使用者收到臨近到期日的工作專案通知，請選取此選項。</td>
+        <td>（在<b>傳送期限提醒給</b>區域。） 如果您希望指派給任務或問題的使用者收到臨近到期日的工作專案通知，請選取此選項。</td>
         <td></td>
     </tr>
 </table>
@@ -91,7 +91,7 @@ ht-degree: 4%
 
    從任務或問題的規劃完成日期計算時間。
 
-   指定任務或問題的計畫完成日期要增加時間的分鐘數、小時數、天數、周數或月數。 選取 **經過的分鐘數**， **經過的時數**， **經過的天數**，或 **經過的周數** 新增時間，包括排程中所指示的任何週末、假日及非工作時間。
+   指定任務或問題的計畫完成日期要增加時間的分鐘數、小時數、天數、周數或月數。 選取&#x200B;**經過的分鐘數**、**經過的時數**、**經過的天數**&#x200B;或&#x200B;**經過的周數**，以新增排程中所指示的時間，包括任何週末、假日及非工作時間。
 
    例如，如果任務指派在星期五且持續時間為3天，則任務完成日期設定為星期一（假設星期六和星期日是週末）。 如果任務的持續時間為3天（未過），則任務完成日期設定為星期三。
 
@@ -105,10 +105,10 @@ ht-degree: 4%
 
 具有特定相依性型別的任務可能會在指定的開始日期之後傳遞，即使這些任務已過期。 例如，如果任務的前置任務具有「完成 — 開始」(fs)相依性，即使任務已超過指定的開始日期，也不會包含在電子郵件中，因為您必須等到前置任務完成才能開始該任務。
 
-如需有關接收自動提醒電子郵件的詳細資訊，請參閱 [自動提醒](../../../workfront-basics/using-notifications/wf-notifications.md#automatic-reminders) 中的區段 [Adobe Workfront通知](../../../workfront-basics/using-notifications/wf-notifications.md).
+如需接收自動提醒電子郵件的詳細資訊，請參閱[Adobe Workfront通知](../../../workfront-basics/using-notifications/wf-notifications.md)中的[自動提醒](../../../workfront-basics/using-notifications/wf-notifications.md#automatic-reminders)區段。
 
 ## 傳送自動提醒
 
 在符合Workfront管理員所選取的時間時，立即傳送自動提醒。
 
-如果您想要觸發手動傳送自動提醒電子郵件，可以使用「診斷」來執行。 如需在Workfront中存取及使用診斷的詳細資訊，請參閱 [使用診斷來觸發自動化流程](../../../administration-and-setup/manage-workfront/run-diagnostics/use-diagnostics-to-trigger-automated-processes.md).
+如果您想要觸發手動傳送自動提醒電子郵件，可以使用「診斷」來執行。 如需在Workfront中存取及使用診斷的詳細資訊，請參閱[使用診斷來觸發自動化程式](../../../administration-and-setup/manage-workfront/run-diagnostics/use-diagnostics-to-trigger-automated-processes.md)。

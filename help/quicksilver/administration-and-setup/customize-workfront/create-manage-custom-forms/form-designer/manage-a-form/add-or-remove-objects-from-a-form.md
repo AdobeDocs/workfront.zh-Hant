@@ -45,7 +45,7 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-如需有關此表格的詳細資訊，請參閱 [Workfront檔案中的存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 ## 將物件型別新增至現有的自訂表單
 
@@ -55,26 +55,26 @@ ht-degree: 0%
 >
 >分割槽符號許可權會受到物件型別的影響。 自訂表單分割槽符號的「有限編輯」許可權僅適用於專案、任務、問題和使用者物件型別。
 >
->如需詳細資訊，請參閱 [多個物件型別如何影響分割槽符號許可權](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/organize-a-form.md#how-multiple-object-types-can-affect-section-break-permissions).
+>如需詳細資訊，請參閱[多個物件型別如何影響分割槽符號許可權](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/organize-a-form.md#how-multiple-object-types-can-affect-section-break-permissions)。
 
 
 {{step-1-to-setup}}
 
-1. 按一下 **自訂Forms** 在左側面板中。
+1. 按一下左側面板中的&#x200B;**自訂Forms**。
 
    在出現的檢視中，您可以檢閱為組織建立的所有自訂表單。 您也可以檢視每個表單的建立者、表單使用的物件型別，以及表單是否使用中。
 
-1. 選取要新增其他物件型別的自訂表單，然後按一下 ![編輯圖示](assets/edit-icon2.png).
+1. 選取要新增其他物件型別的自訂表單，然後按一下![編輯圖示](assets/edit-icon2.png)。
 
-1. 在表單頂端，按一下表單頂端的加號+ （在後） **物件型別**，然後在顯示的功能表中選取您想要的型別。 您可以重複此步驟，新增任意數目的物件型別。
+1. 在表單頂端按一下&#x200B;**物件型別**&#x200B;之後的加號+，然後在顯示的功能表中選取您要的型別。 您可以重複此步驟，新增任意數目的物件型別。
 
    ![](assets/add-new-object.png)
 
-1. 按一下 **儲存並關閉**.
+1. 按一下&#x200B;**儲存並關閉**。
 
    >[!TIP]
    >
-   >您可以按一下 **套用** 建立自訂表單時，隨時儲存變更並保持表單開啟。
+   >建立自訂表單時，您可以隨時按一下&#x200B;**套用**，以儲存變更並保持表單開啟。
 
 ## 刪除自訂表單上的物件型別
 
@@ -90,11 +90,11 @@ ht-degree: 0%
 
 {{step-1-to-setup}}
 
-1. 按一下 **自訂Forms** 在左側面板中。
-1. 選取您要編輯的自訂表單，然後按一下 ![編輯圖示](assets/edit-icon2.png).
-1. 按一下任何頁面上的X **物件型別** 要從表單中刪除的專案。
+1. 按一下左側面板中的&#x200B;**自訂Forms**。
+1. 選取您要編輯的自訂表單，然後按一下![編輯圖示](assets/edit-icon2.png)。
+1. 在您要從表單刪除的任何&#x200B;**物件型別**&#x200B;上按一下X。
 
    ![](assets/delete-object-types.png)
 
 1. （可選）針對您要從表單中移除的任何其他物件型別，重複上一步驟。
-1. 按一下 **套用**，然後按一下 **儲存並關閉**.
+1. 按一下&#x200B;**套用**，然後按一下&#x200B;**儲存並關閉**。

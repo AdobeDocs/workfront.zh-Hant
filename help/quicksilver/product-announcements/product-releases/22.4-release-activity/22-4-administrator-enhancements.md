@@ -17,7 +17,7 @@ ht-degree: 0%
 
 本頁說明22.4版對預覽環境所做的所有管理員增強功能。 這些增強功能將在2022年10月3日當週提供。
 
-如需22.4版本所有可用變更的清單，請參閱 [22.4版本總覽](/help/quicksilver/product-announcements/product-releases/22.4-release-activity/22-4-release-overview.md).
+如需22.4版本可用的所有變更清單，請參閱[22.4版本總覽](/help/quicksilver/product-announcements/product-releases/22.4-release-activity/22-4-release-overview.md)。
 
 ## 在核准流程中使用解除鎖定狀態
 
@@ -41,7 +41,7 @@ ht-degree: 0%
 
 現有版面範本會自動包含藍圖圖示，管理員可以從版面範本中移除圖示以限制藍圖目錄的可見度。 在22.4版之後建立的新版面範本將包含「使用中專案」清單中的「藍圖」圖示。
 
-如需詳細資訊，請參閱 [設定對藍圖的存取權](/help/quicksilver/administration-and-setup/blueprints/configure-access-to-blueprints.md).
+如需詳細資訊，請參閱[設定Blueprint的存取權](/help/quicksilver/administration-and-setup/blueprints/configure-access-to-blueprints.md)。
 
 [觀看此功能的影片示範](https://video.tv.adobe.com/v/3412382/){target=_blank}
 
@@ -63,7 +63,7 @@ ht-degree: 0%
 
 
 
-如需詳細資訊，請參閱 [使用版面配置範本自訂物件標頭](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md).
+如需詳細資訊，請參閱[使用配置範本自訂物件標頭](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md)。
 
 [觀看此功能的影片示範](https://video.tv.adobe.com/v/3412383/){target=_blank}
 
@@ -81,9 +81,9 @@ ht-degree: 0%
 
 在此版本之前，只能自訂專案標題。
 
-如需詳細資訊，請參閱 [使用版面配置範本自訂物件標頭](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md).
+如需詳細資訊，請參閱[使用配置範本自訂物件標頭](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md)。
 
-[觀看此功能的示範影片。](https://video.tv.adobe.com/v/3412384/){target=_blank}
+[觀看此功能的影片示範。](https://video.tv.adobe.com/v/3412384/){target=_blank}
 
 ## 面板最新功能的早期功能選擇加入
 
@@ -91,9 +91,9 @@ ht-degree: 0%
 
 只有Workfront管理員可以選擇加入早期功能。 當管理員選擇加入早期功能時，組織中的所有使用者都會選擇加入，而額外功能會在您的生產Workfront環境中啟用。
 
-如需詳細資訊，請參閱 [Adobe Workfront展示板的早期功能選擇加入](/help/quicksilver/agile/get-started-with-boards/boards-early-feature-opt-in.md).
+如需詳細資訊，請參閱[Adobe Workfront主機板的早期功能選擇加入](/help/quicksilver/agile/get-started-with-boards/boards-early-feature-opt-in.md)。
 
-[觀看此功能的示範影片。](https://video.tv.adobe.com/v/3412386/){target=_blank}
+[觀看此功能的影片示範。](https://video.tv.adobe.com/v/3412386/){target=_blank}
 
 ## 自訂表單欄位計算編輯器顯示錯誤資訊
 
@@ -103,9 +103,9 @@ ht-degree: 0%
 
 編輯自訂欄位的計算現在更容易，並在計算中直接指示有用的錯誤資訊。 當您在自訂表單中建立計算欄位時，錯誤會以粉紅色反白顯示。 當您將滑鼠停留在醒目提示的部分上時，會顯示工具提示來說明問題所在。
 
-如需詳細資訊，請參閱 [新增計算資料至自訂表單](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
+如需詳細資訊，請參閱[將計算資料新增至自訂表單](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md)。
 
-[觀看此功能的示範影片。](https://video.tv.adobe.com/v/3412387/){target=_blank}
+[觀看此功能的影片示範。](https://video.tv.adobe.com/v/3412387/){target=_blank}
 
 ## 移轉至Adobe Unified Experience
 
@@ -121,6 +121,6 @@ Adobe Unified Experience包括：
 
 * 包含Workfront頁面、Adobe Experience Cloud偏好設定和您的Workfront設定檔選項的導覽
 
-如需詳細資訊，請參閱 [Workfront的AdobeUnified Experience](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
+如需詳細資訊，請參閱[Workfront的Adobe統一體驗](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md)。
 
-[觀看此功能的示範影片。](https://video.tv.adobe.com/v/3412388/){target=_blank}
+[觀看此功能的影片示範。](https://video.tv.adobe.com/v/3412388/){target=_blank}

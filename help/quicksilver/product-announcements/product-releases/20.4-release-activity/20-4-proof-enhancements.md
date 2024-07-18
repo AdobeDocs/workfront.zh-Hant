@@ -17,7 +17,7 @@ ht-degree: 0%
 
 本頁說明預覽環境的20.4版本所做的所有校訂增強功能。 這些增強功能將在2020年11月9日當週的生產環境中提供。
 
-如需20.4版所有可用變更的清單，請參閱 [20.4版本總覽](../../../product-announcements/product-releases/20.4-release-activity/20-4-release-overview.md).
+如需20.4版本可用的所有變更清單，請參閱[20.4版本總覽](../../../product-announcements/product-releases/20.4-release-activity/20-4-release-overview.md)。
 
 ## 產生新版本時延續現有校訂工作流程
 
@@ -29,7 +29,7 @@ ht-degree: 0%
 
 之前，根據您在Workfront中產生校樣工作流程的位置，校樣工作流程的執行方式略有不同。
 
-如需詳細資訊，請參閱 [建立新版本的校訂](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/create-new-proof-version.md).
+如需詳細資訊，請參閱[建立新版本的校訂](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/create-new-proof-version.md)。
 
 ## 校訂檢視器中可用的檔案核准按鈕
 
@@ -37,7 +37,7 @@ ht-degree: 0%
 
 以前，您只能從檔案詳細資訊區域核准檔案。
 
-如需詳細資訊，請參閱 [在校訂檢視器中對校訂做出決定](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/make-decisions-on-proof.md).
+如需詳細資訊，請參閱[在校訂檢視器中對校訂做出決定](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/make-decisions-on-proof.md)。
 
 ## 上傳預設為停用的檔案設定時自動產生校訂
 
@@ -45,4 +45,4 @@ ht-degree: 0%
 
 之前，新使用者預設會啟用此設定。
 
-如需此設定如何運作的詳細資訊，請參閱 [設定我的設定](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md).
+如需此設定如何運作的詳細資訊，請參閱[設定我的設定](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md)。

@@ -2,31 +2,31 @@
 content-type: overview
 product-area: resource-management
 navigation-topic: resource-planning
-title: 資源計畫員導航概覽
-description: 通過使用Adobe Workfront資源規劃器，您可以輕鬆了解資源的可用性以及完成項目工作所需的計畫時間。 然後，您就可以管理使用者的分配，以及他們在被指派給專案中的工作角色。
+title: 資源規劃工具導覽概觀
+description: 使用Adobe Workfront資源規劃工具，您可以輕鬆瞭解資源的可用性，以及完成專案工作所需的計畫時間。 然後，您可以管理使用者配置及其在指派給他們的專案中的工作角色。
 author: Alina
 feature: Resource Management
 exl-id: 5a1be723-e3ac-443a-9c09-85e8839fcbef
 source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
 workflow-type: tm+mt
-source-wordcount: '2658'
+source-wordcount: '2621'
 ht-degree: 1%
 
 ---
 
-# 資源計畫員導航概覽
+# 資源規劃工具導覽概觀
 
-通過使用Adobe Workfront資源規劃器，您可以輕鬆了解資源的可用性以及完成項目工作所需的計畫時間。 然後，您就可以管理使用者的分配，以及他們在被指派給專案中的工作角色。
+使用Adobe Workfront資源規劃工具，您可以輕鬆瞭解資源的可用性，以及完成專案工作所需的計畫時間。 然後，您可以管理使用者配置及其在指派給他們的專案中的工作角色。
 
 >[!TIP]
 >
->您無法管理在資源計畫員中分配給它們的任務的團隊分配。
+>您無法在資源規劃工具中管理團隊在其獲指派的任務上的配置。
 
-您必須滿足充分使用資源規劃器所需的先決條件。 有關資源計畫員的詳細資訊，請參閱 [資源計畫員概覽](../../resource-mgmt/resource-planning/get-started-resource-planner.md).
+您必須符合完全使用資源規劃工具所需的先決條件。 如需資源規劃工具的詳細資訊，請參閱[資源規劃工具概觀](../../resource-mgmt/resource-planning/get-started-resource-planner.md)。
 
 ![](assets/rp-project-view-all-functionality-350x117.png)
 
-以下各節將概述資源規劃器的所有區域。
+以下章節概述「資源規劃工具」的所有區域。
 
 ## 專案時間表
 
@@ -34,23 +34,23 @@ ht-degree: 1%
 
 
 
-使用資源規劃器頂部的日曆來定位您正在查看的項目的時間軸。 依預設，時間軸以今天的月份開始。\
-有關更改在資源計畫器中顯示的時間表的時間表的時間表的詳細資訊，請參閱 [時間範圍選擇](#timeframe-selection) 這篇文章。
+使用資源規劃工具頂端的行事曆，以瀏覽您正在檢視之專案的時間表。 依預設，時間軸從當月開始。\
+如需有關變更您在「資源規劃工具」中顯示之時間軸的時間範圍詳細資訊，請參閱本文中的[時間範圍選擇](#timeframe-selection)小節。
 
-## 時間範圍選擇  {#timeframe-selection}
+## 時間範圍選取  {#timeframe-selection}
 
 ![time_frame_selection_in_the_resource_planner.png](assets/time-frame-selection-in-the-resource-planner-350x61.png)
 
-預設情況下，資源計畫器將從當月開始顯示一次3個月或4個月的資源資訊。 顯示的時段數視畫面寬度而定。
+依預設，資源規劃工具會一次顯示三或四個月的資源資訊，從當月開始。 顯示的時段數取決於熒幕的寬度。
 
 >[!TIP]
 >
->在Oracle Resource Planner中，一次不能顯示超過四個時段。
+>您不能在資源規劃工具中一次顯示超過四個時間週期。
 
-要導航時間軸：
+若要導覽時間軸：
 
-1. 按一下上下箭頭，在時間軸上向後移動。
-1. 通過按一下相應按鈕，從資源計畫器中的以下日期範圍選項中進行選擇：
+1. 按一下後退和前進箭頭，在時間軸上前後移動。
+1. 按一下適當的按鈕，從「資源規劃工具」中的下列日期範圍選項中選取：
 
    <table style="table-layout:auto"> 
     <col> 
@@ -58,44 +58,44 @@ ht-degree: 1%
     <tbody> 
      <tr> 
       <td role="rowheader">週</td> 
-      <td>按周顯示資訊。<br>周數會顯示在欄標題中的日期旁。 </td> 
+      <td>按周顯示資訊。<br>周數會顯示在欄標題中的日期旁邊。 </td> 
      </tr> 
      <tr> 
       <td role="rowheader">月</td> 
-      <td> 按月顯示資訊。</td> 
+      <td> 依月份顯示資訊。</td> 
      </tr> 
      <tr> 
       <td role="rowheader">季度</td> 
-      <td>按季度顯示資訊。<br>季度數會顯示在欄標題中的日期旁。<br>自定義季度不會顯示在資源計畫器中。 </td> 
+      <td>依季度顯示資訊。<br>季數會顯示在欄標題中的日期旁邊。<br>自訂季度未顯示在資源規劃工具。 </td> 
      </tr> 
      <tr> 
       <td role="rowheader">今天</td> 
-      <td>返回今天的月、周或季。</td> 
+      <td>傳回至今天的月、周或季。</td> 
      </tr> 
     </tbody> 
    </table>
 
-## 項目/角色/用戶視圖選擇
+## 專案/角色/使用者檢視選擇
 
 ![](assets/nwe-project-role-user-view-selection-resource-planner.png)
 
-您可以根據要顯示資訊的方式更改資源計畫員中的視圖。
+您可以根據您想要顯示資訊的方式，變更「資源規劃工具」中的檢視。
 
-預設情況下，資源計畫器將顯示在「用戶視圖」中。 您可以將檢視變更為專案或角色檢視。 當您將其變更為其他檢視時，您的選項會變成預設檢視。
+依預設，資源規劃工具會顯示在「使用者檢視」中。 您可以將檢視變更為「專案」或「角色檢視」。 當您將其變更為其他檢視時，您的選擇會成為您的預設檢視。
 
-變更檢視時，下列資訊也會變更：
+當您變更檢視時，也會變更下列資訊：
 
-* 對象層次結構（資源規劃器行中的資訊）。
-* 小時分配資訊（資源計畫員列中的資訊）。
+* 物件階層（資源規劃工具列中的資訊）。
+* 時數配置資訊（資源規劃工具欄中的資訊）。
 
-   有關在資源計畫器中顯示哪些列的詳細資訊（取決於您選擇的視圖），請參閱 [使用Adobe Workfront資源計畫器複查資源可用性和分配](../../resource-mgmt/resource-planning/resource-availability-allocation-resource-planner.md).
+  如需根據您選取的檢視，在「資源規劃工具」中顯示哪些欄的詳細資訊，請參閱[使用Adobe Workfront資源規劃工具](../../resource-mgmt/resource-planning/resource-availability-allocation-resource-planner.md)檢閱資源可用性和配置。
 
-為了在資源計畫器中顯示準確資訊，您必須滿足一組先決條件。 有關先決條件的詳細資訊，請參閱 [資源計畫員概覽](../../resource-mgmt/resource-planning/get-started-resource-planner.md) 文章。  要更改資源計畫員中的視圖，請執行以下操作：
+為了在「資源規劃工具」中顯示精確的資訊，您必須符合一組先決條件。 如需有關先決條件的詳細資訊，請參閱[資源規劃工具概觀](../../resource-mgmt/resource-planning/get-started-resource-planner.md)文章中的「在資源規劃工具中工作的先決條件」一節。  若要變更資源規劃工具中的檢視：
 
-1. 前往 **資源計畫員**.\
-   有關訪問資源計畫員的詳細資訊，請參閱 [查找資源計畫員](../../resource-mgmt/resource-planning/get-started-resource-planner.md#accessing-the-resource-planner) 區段 [資源計畫員概覽](../../resource-mgmt/resource-planning/get-started-resource-planner.md) 文章。
+1. 移至&#x200B;**資源規劃工具**。\
+   如需有關存取資源規劃工具的詳細資訊，請參閱[資源規劃工具概觀](../../resource-mgmt/resource-planning/get-started-resource-planner.md)文章中的[尋找資源規劃工具](../../resource-mgmt/resource-planning/get-started-resource-planner.md#accessing-the-resource-planner)區段。
 
-1. 在&#x200B;**檢視依據** 下拉式功能表中，選取下列其中一個檢視：
+1. 在&#x200B;**檢視依據**&#x200B;下拉式功能表中，選取下列其中一個檢視：
 
    * [依專案檢視](#view-by-project)
    * [依角色檢視](#view-by-role)
@@ -103,26 +103,26 @@ ht-degree: 1%
 
 ### 依專案檢視 {#view-by-project}
 
-在資源計畫員中選擇「項目視圖」時，請考慮以下事項：
+在資源規劃工具中選取「專案檢視」時，請考量下列事項：
 
-* 您至少可以看到您擁有檢視權限的專案。
-* 當您首次訪問資源規劃器時，可以查看按預設篩選器篩選的項目。\
-   有關在資源計畫器中篩選資訊的詳細資訊，請參閱 [在資源計畫器中篩選資訊](../../resource-mgmt/resource-planning/filter-resource-planner.md).
+* 您至少可以看到有檢視許可權的專案。
+* 第一次存取資源規劃工具時，您可以看到依預設篩選條件篩選的專案。\
+  如需有關在資源規劃工具中篩選資訊的詳細資訊，請參閱資源規劃工具中的[篩選資訊](../../resource-mgmt/resource-planning/filter-resource-planner.md)。
 
-* 您顯示或可從「專案檢視」匯出的項目數目有限，以提升效能。\
-   有關在「項目視圖」中查看資源計畫程式時的限制的詳細資訊，請參閱 [專案檢視的限制](../../resource-mgmt/resource-planning/resource-planner-display-limitations.md#project-view-limits) 區段 [資源計畫器顯示限制](../../resource-mgmt/resource-planning/resource-planner-display-limitations.md) 文章。
+* 為了改善效能，您顯示或可從「專案檢視」匯出的專案數量會受到限制。\
+  如需在專案檢視中檢視資源規劃工具時的限制詳細資訊，請參閱[資源規劃工具顯示限制](../../resource-mgmt/resource-planning/resource-planner-display-limitations.md)文章中專案檢視](../../resource-mgmt/resource-planning/resource-planner-display-limitations.md#project-view-limits)區段的[限制。
 
-* 項目在「項目視圖」中按其優先順序列出。\
-   有關資源計畫器中項目優先順序的詳細資訊，請參閱 [項目計畫優先順序](#project-planning-priority) 一節。
+* 專案會在「專案檢視」中按優先順序列出。\
+  如需資源規劃工具中專案優先順序的詳細資訊，請參閱本文的[專案計畫優先順序](#project-planning-priority)一節。
 
 * 展開每個專案時，您可以顯示與其相關聯的工作角色。\
-   當您展開每個角色時，可以顯示與其相關聯的使用者。\
-   捲動以在每個專案下載入更多角色和使用者。
+  展開每個角色時，您可以顯示與其相關聯的使用者。\
+  捲動以在每個專案下載入更多角色和使用者。
 
-* 應用此視圖時，職責小時數、FTE或成本加總到項目小時數、FTE或成本。\
-   ![resource_planner_view_by_project.png](assets/resource-planner-view-by-project-350x228.png)
+* 套用此檢視時，角色時數、約當全職人數或成本將加到專案時數、約當全職人數或成本。\
+  ![resource_planner_view_by_project.png](assets/resource-planner-view-by-project-350x228.png)
 
-* 您可以在「項目」視圖中查看以下小時、FTE或成本資訊：
+* 您可以在「專案」檢視中檢視下列時數、約當全職人數或成本資訊：
 
    * 可用
    * 計畫
@@ -130,22 +130,22 @@ ht-degree: 1%
    * 差額
    * 淨餘
 
-      如需詳細資訊，請參閱 [使用「項目」和「職責」視圖在資源計畫器中使用預算資源](../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md).
+     如需詳細資訊，請參閱資源規劃工具中使用專案和角色檢視的[預算資源](../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md)。
 
 ### 依角色檢視 {#view-by-role}
 
-在資源計畫員中選擇「職責視圖」時，請考慮以下事項：
+在資源規劃工具中選取「角色檢視」時，請考量下列事項：
 
-* 您至少必須具有「查看資源管理」的訪問權限，並且要查看與這些項目關聯的角色，必須具有對項目的權限。
-* 您可以展開每個角色以顯示專案清單，並展開每個專案以顯示可在專案上履行這些角色的使用者清單。
-* 您顯示或可從角色檢視匯出的項目數有限，以改善效能。\
-   有關在「角色視圖」中查看資源計畫器時的限制的詳細資訊，請參閱 [角色檢視的限制](../../resource-mgmt/resource-planning/resource-planner-display-limitations.md#role-view-limits) 區段 [資源計畫器顯示限制](../../resource-mgmt/resource-planning/resource-planner-display-limitations.md) .
+* 您必須至少具有資源管理的檢視存取權和專案的檢視許可權，才能檢視與這些專案關聯的角色。
+* 您可以展開每個角色以顯示專案清單，而每個專案會顯示可在專案上履行這些角色的使用者清單。
+* 為了改善效能，您顯示或可從「角色檢視」匯出的專案數量是有限的。\
+  如需在角色檢視中檢視資源規劃工具時限制的詳細資訊，請參閱[資源規劃工具顯示限制](../../resource-mgmt/resource-planning/resource-planner-display-limitations.md)中角色檢視](../../resource-mgmt/resource-planning/resource-planner-display-limitations.md#role-view-limits)區段的[限制。
 
-* 項目按優先順序列在作業角色下，與「項目視圖」中列出的項目相同。
-* 應用此視圖時，項目小時數、FTE或成本加總為職責小時數、FTE或成本。\
-   ![resource_planner_view_by_role.png](assets/resource-planner-view-by-role-350x222.png)
+* 這些專案會以與「專案檢視」中相同的優先順序列在工作角色底下。
+* 套用此檢視時，專案時數、約當全職人數或成本將加總至角色時數、約當全職人數或成本。\
+  ![resource_planner_view_by_role.png](assets/resource-planner-view-by-role-350x222.png)
 
-* 您可以在「職責」視圖中查看以下小時、FTE或成本資訊：
+* 您可以在「角色」檢視中檢視下列小時、約當全職人數或成本資訊：
 
    * 可用
    * 計畫
@@ -153,140 +153,141 @@ ht-degree: 1%
    * 差額
    * 淨餘
 
-      如需詳細資訊，請參閱 [使用「項目」和「職責」視圖在資源計畫器中使用預算資源](../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md).
+     如需詳細資訊，請參閱資源規劃工具中使用專案和角色檢視的[預算資源](../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md)。
 
 ### 依使用者檢視 {#view-by-user}
 
-您可以在「用戶視圖」中顯示資源計畫員，以了解用戶的計畫小時數和可用小時數或FTE之間的差異，或查看他們記錄的實際小時數。
+您可以在「使用者檢視」中顯示資源規劃工具，以瞭解使用者的「計畫」與「可用時數」或「約當全職人數」之間的差異，或檢視他們記錄的實際時數金額。
 
-在將用戶視圖應用到資源計畫器時，無法對資源進行預算。 您必須使用「項目」或「角色」視圖來預算資源，並使用「用戶」視圖來複查與計畫工作相關的用戶分配和可用性。*
+將使用者檢視套用至資源規劃工具時，您無法編列資源預算。 您必須使用「專案」或「角色」檢視來預算資源，並使用「使用者」檢視來檢閱與計畫工作相關的使用者配置和可用性。* *
 
-用戶視圖是資源計畫員的預設視圖。
+「使用者檢視」是「資源規劃工具」的預設檢視。
 
 ![RP_STORM_user_view_with_link.png](assets/rp-user-view-with-link-350x101.png)
 
-在資源計畫員中選擇「用戶視圖」時，請考慮以下事項：
+在資源規劃工具中選取「使用者檢視」時，請考量下列事項：
 
-* 您可以看見所有您擁有檢視權限的使用者，最多2000位使用者，他們處於作用中狀態且至少已登入Adobe Workfront一次。\
-   按團隊、作業角色或池篩選用戶清單，以查看僅與這些實體關聯的用戶。
-* 如果您已依專案篩選使用者清單，則只能展開與已篩選專案相關聯的使用者，並顯示小時資訊。\
-   有關在資源計畫器中篩選資訊的詳細資訊，請參閱 [在資源計畫器中篩選資訊](../../resource-mgmt/resource-planning/filter-resource-planner.md) .
+* 您可以看到您有權檢視的所有使用者，最多2000名作用中且已至少登入Adobe Workfront一次的使用者。\
+  依團隊、工作角色或集區篩選使用者清單，以檢視僅與這些實體相關聯的使用者。
+* 如果您已依專案篩選使用者清單，則只有與已篩選專案相關聯的使用者才能展開並顯示時數資訊。\
+  如需有關在資源規劃工具中篩選資訊的詳細資訊，請參閱[資源規劃工具中的篩選資訊](../../resource-mgmt/resource-planning/filter-resource-planner.md) 。
 
-* 您顯示或可從「使用者檢視」匯出的項目數目有限，以提升效能。\
-   有關在「用戶視圖」中查看資源計畫時限制的詳細資訊，請參見 [使用者檢視的限制](../../resource-mgmt/resource-planning/resource-planner-display-limitations.md#user-view-limits) 區段 [資源計畫器顯示限制](../../resource-mgmt/resource-planning/resource-planner-display-limitations.md) .
+* 為了提高效能，您顯示或可從「使用者檢視」匯出的專案數量會受到限制。\
+  如需在使用者檢視中檢視資源規劃工具時的限制詳細資訊，請參閱[資源規劃工具顯示限制](../../resource-mgmt/resource-planning/resource-planner-display-limitations.md)中使用者檢視](../../resource-mgmt/resource-planning/resource-planner-display-limitations.md#user-view-limits)區段的[限制。
 
-* 項目以用戶名下列出，其優先順序與「項目視圖」中列出的項目相同。\
-   有關資源計畫器中項目優先順序的詳細資訊，請參閱 [項目計畫優先順序](#project-planning-priority) 一節。
+* 這些專案會按照與「專案檢視」中列出的相同優先順序，列在使用者的名稱下。\
+  如需資源規劃工具中專案優先順序的詳細資訊，請參閱本文的[專案計畫優先順序](#project-planning-priority)一節。
 
-* 如果用戶沒有與他們關聯的工作角色，則小時數或FTE值將列在 **無角色** 區段。
-* 應用此視圖時，項目小時數或FTE加總為用戶小時數或FTE。
+* 如果使用者沒有關聯的工作角色，則小時或FTE值會列在&#x200B;**無角色**&#x200B;區段下。
+* 套用此檢視時，專案小時或FTE將加總到使用者小時或FTE。
 
-   >[!TIP]
-   >
-   >您不能在「用戶視圖」中按成本顯示用戶的分配和可用性。
+  >[!TIP]
+  >
+  >您不能在「使用者檢視」中按「成本」顯示使用者的配置和可用性。
 
-* 您對專案和工作的權限會決定在「使用者檢視」中看到之使用者名稱下方顯示的內容。\
-   存在下列情況：
+* 您對專案和任務的許可權將決定顯示在您在「使用者檢視」中看到的使用者名稱下的內容。\
+  存在下列情況：
 
-   * 如果您沒有查看項目的權限以及分配給資源計畫員中顯示的用戶的任務或問題，則這些項目將列在 **無法訪問的項** 區段。 此 **無法訪問的項** 在本例中，區段會取代「專案」或「任務」區段。
+   * 當您沒有檢視專案和指派給資源規劃工具中顯示之使用者的任務或問題的許可權時，這些專案會列在&#x200B;**無法存取的專案**&#x200B;區段下。 在此情況下，**無法存取的專案**&#x200B;區段會取代專案或任務區段。
 
-   * 當您沒有查看項目的權限，但有權查看項目上的任務或問題時，項目、任務和問題將列在分配給它們的用戶名下。
-   * 如果您有查看專案的權限，但沒有專案上的任務或問題，專案名稱隨即顯示，且工作和問題會列在 **無法訪問的項** 區段。\
-      如需Workfront權限的詳細資訊，請參閱 [對象共用權限概述](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
+   * 如果您沒有許可權檢視專案，但您可以檢視專案上的任務或問題，則專案、任務和問題會列在指派給它們的使用者名稱下。
+   * 當您有權檢視專案，但沒有專案上的任何任務或問題時，專案名稱會顯示，並且任務和問題會列在「**無法存取的專案**」區段下。\
+     如需Workfront中許可權的詳細資訊，請參閱[物件許可權共用概觀](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md)。
 
-      ![](assets/inaccessible-items-in-rp-with---column-and-red-outline--1--350x187.png)
-    
+     ![](assets/inaccessible-items-in-rp-with---column-and-red-outline--1--350x187.png)
 
-* 您可以在「用戶」視圖中查看以下小時和FTE資訊：
+   
+
+* 您可以在「使用者」檢視中檢視下列時數和FTE資訊：
 
    * 可用
    * 計畫
    * 實際
    * 計畫與實際之間的差異
-   * 計劃分配百分比
+   * 計畫配置的百分比
 
-      如需詳細資訊，請參閱 [使用「用戶」視圖時，查看資源計畫員中的可用小時數、計畫小時數和實際小時數或FTE](../../resource-mgmt/resource-planning/view-hours-fte-user-view-resource-planner.md)
+     如需詳細資訊，請參閱[使用使用者檢視時，在資源規劃工具中檢視可用、計畫和實際時數或FTE](../../resource-mgmt/resource-planning/view-hours-fte-user-view-resource-planner.md)
 
 ## 專案名稱
 
 ![](assets/project-name-highlighted-resource-planner-350x445.png)
 
-您可以在資源計畫器中查看以下項目：
+您可以在資源規劃工具中檢視下列專案：
 
-* 您至少擁有檢視權限的專案。
+* 您有權至少檢視的專案。
 
-   您還必須在訪問級別中至少具有查看資源管理的訪問權限。
+  您也必須有權存取存取存取層級中至少的「檢視資源管理」。
 
-   有關使用資源計畫員所需訪問的資訊，請參閱 [獲得Adobe Workfront預算資源所需資源](../../resource-mgmt/resource-planning/access-needed-to-budget-resources.md).
+  如需有關使用資源規劃工具所需存取權的資訊，請參閱[在Adobe Workfront中編列資源預算所需的存取權](../../resource-mgmt/resource-planning/access-needed-to-budget-resources.md)。
 
-* 受應用於資源計畫員的篩選器限制的項目。
+* 受套用至資源規劃工具之篩選條件的專案。
 
-   有關在資源計畫器中篩選資訊的詳細資訊，請參閱 [在資源計畫器中篩選資訊](../../resource-mgmt/resource-planning/filter-resource-planner.md).
+  如需有關在資源規劃工具中篩選資訊的詳細資訊，請參閱資源規劃工具中的[篩選資訊](../../resource-mgmt/resource-planning/filter-resource-planner.md)。
 
-   >[!NOTE]
-   >
-   >建議使用篩選器來減少在資源計畫器中顯示的項目數。
+  >[!NOTE]
+  >
+  >我們建議使用篩選器來減少您在資源規劃工具中顯示的專案數量。
 
-## 項目計畫優先順序 {#project-planning-priority}
+## 專案計畫優先順序 {#project-planning-priority}
 
-在Oracle Resource Planner中，按優先順序列出項目，而最重要的項目在頂部。 優先順序以項目名稱前面的數字表示。
+專案會依優先順序列在資源規劃工具中，最重要的專案會列在頂端。 優先順序由專案名稱前面的數字表示。
 
 ![](assets/rp-planner-priority-highlighted-350x186.png)
 
-您也可以啟用設定，以在項目與產品組合關聯時，根據其產品組合顯示項目優先順序。 有關在資源規劃器中排定項目優先順序和顯示產品組合優先順序的資訊，請參閱 [在資源計畫器中排列項目優先順序](../../resource-mgmt/resource-planning/prioritize-projects-resource-planner.md).
+您也可以啟用某項設定，以便在專案與投資組合相關聯時，根據投資組合顯示專案優先順序。 如需有關在資源規劃工具中排定專案的優先順序並顯示投資組合優先順序的資訊，請參閱[在資源規劃工具中排定專案的優先順序](../../resource-mgmt/resource-planning/prioritize-projects-resource-planner.md)。
 
 ## 職位角色名稱
 
 ![](assets/role-highlighted-resource-planner-350x243.png)
 
-Oracle Resource Planner中列出了以下職務職責類別：
+資源規劃工具中列出下列職務角色類別：
 
-* 分配給任務的作業角色。
-* 未分配給任務的作業角色，但是是與項目資源池關聯的用戶的主要作業角色。
-* 分配給這些作業角色中任務的用戶的輔助作業角色。
-* 具有有效 **FTE可用性百分比** 在他們的個人資料中。\
-   如需 **FTE可用性百分比** 有關作業角色，請參閱 [編輯使用者的設定檔](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md) .
+* 指派給任務的工作角色。
+* 未指派給任務，但與專案資源集區相關聯之使用者的主要職務角色的工作角色。
+* 使用者指派給這些工作角色中任務的次要工作角色。
+* 使用者在其設定檔中具有有效&#x200B;**FTE可用性百分比**&#x200B;的次要職務角色。\
+  如需有關工作角色的&#x200B;**FTE可用性百分比**&#x200B;的詳細資訊，請參閱[編輯使用者的設定檔](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md) 。
 
 >[!NOTE]
 >
->當 **包括發出時間** 設定。 有關在資源計畫器中啟用發放小時數的詳細資訊，請參閱 [設定](#settings) 區段。
+>啟用&#x200B;**包含問題**&#x200B;的時數設定時，也會列出指派給問題的工作角色。 如需有關在資源規劃工具中啟用問題時數的詳細資訊，請參閱[設定](#settings)區段。
 
 ## 使用者名稱
 
 ![](assets/user-highlighted-resource-planner-350x272.png)
 
-在「資源規劃器」的「項目」和「角色」視圖中列出的用戶屬於與項目關聯的資源池。\
-有關使用者填入資源池的詳細資訊，請參閱 [將資源池與用戶關聯](../../resource-mgmt/resource-planning/resource-pools/associate-resource-pools-with-users.md).
+在資源規劃工具中，在專案和角色檢視中列出的使用者屬於與專案關聯的資源集區。\
+如需以使用者填入資源集區的詳細資訊，請參閱[將資源集區與使用者關聯](../../resource-mgmt/resource-planning/resource-pools/associate-resource-pools-with-users.md)。
 
-所有您有權存取「檢視」且已至少登入Workfront一次的使用者，都會顯示在「使用者檢視」中。
+您有權存取檢視且已登入Workfront至少一次的所有使用者都會顯示在「使用者檢視」中。
 
-在「項目」和「角色」視圖中，用戶可能顯示在以下類型的作業角色下：
+在「專案與角色檢視」中，使用者可能會出現在下列工作角色型別底下：
 
 * 他們的主要工作角色
-* 在以下情況下，其輔助作業角色：
+* 其次要工作角色，在下列情況中：
 
-   * 如果輔助作業角色具有 **FTE可用性百分比** 在其使用者設定檔中。
-   * 如果將用戶分配給這些角色中的任務。
+   * 如果次要工作角色在其使用者設定檔中有&#x200B;**FTE可用性百分比**&#x200B;的有效數字。
+   * 如果將使用者指派給這些角色中的任務。
 
-如需 **FTE可用性百分比** 如需工作角色，請參閱 [編輯使用者的設定檔](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md) .
+如需有關工作角色的&#x200B;**FTE可用性百分比**&#x200B;的詳細資訊，請參閱[編輯使用者的設定檔](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md) 。
 
-## 「無角色」和「無用戶」部分
+## 「無角色」和「無使用者」區段
 
-* [「無角色」部分](#no-role-section)
-* [「無用戶」部分](#no-user-section)
+* [「無角色」區段](#no-role-section)
+* [「無使用者」區段](#no-user-section)
 
-### 「無角色」部分  {#no-role-section}
+### 「無角色」區段  {#no-role-section}
 
-當用戶屬於與項目關聯的資源池，但沒有與其關聯的作業角色時，它們會顯示在 **無角色** 區段，而非特定工作角色下。
+當使用者屬於與專案相關聯的資源集區，但沒有與其相關聯的工作角色時，他們會出現在&#x200B;**無角色**&#x200B;區段，而不是顯示在特定工作角色下。
 
-您無法為 **無角色** 區段。 用戶必須至少具有與其關聯的一個職務角色，以便為其工作編入預算。\
-![no_role_with_user___res_planner.png](assets/no-role-with-user---res-planner-350x165.png)
+您無法為&#x200B;**無角色**&#x200B;區段中的使用者編列時數預算。 使用者必須至少有一個工作角色與其相關聯，才能為工作編列預算。\
+![no_role_with_user_res___planner.png](assets/no-role-with-user---res-planner-350x165.png)
 
-### 「無用戶」部分  {#no-user-section}
+### 「無使用者」區段  {#no-user-section}
 
-當您將任務分配給某個團隊，或者將其保留為未分配任務時，計畫小時數將顯示在 **無用戶** 顯示在 **無角色** 部分。 使用 **按用戶查看** 檢視。
+當您將任務指派給團隊或保持未指派時，計畫時數會出現在&#x200B;**無使用者**&#x200B;區段下，該區段出現在資源規劃工具的&#x200B;**無角色**&#x200B;區段下。 使用&#x200B;**依使用者檢視**&#x200B;檢視時，這些任務未出現在資源規劃工具中。
 
-您可以在 **無用戶** 部分，但無法為這些分配預算。
+您可以在資源規劃工具的&#x200B;**無使用者**&#x200B;區段中，看到專案上任務所歸因的計畫時數金額，但無法為這些配置編列預算。
 
 ![no_user_and_no_role___res_planner.png](assets/no-user-and-no-role---res-planner-350x129.png)
 
@@ -294,63 +295,63 @@ Oracle Resource Planner中列出了以下職務職責類別：
 
 ## 篩選器
 
-使用篩選器，您可以限制在資源計畫器中顯示的資訊。
+使用篩選器，您可以限制顯示在資源規劃工具中的資訊。
 
-![RP_filter_collaped.png](assets/rp-filter-collapsed-350x112.png)
+![RP_filter_collapsed.png](assets/rp-filter-collapsed-350x112.png)
 
-有關在資源計畫器中進行篩選的詳細資訊，請參閱 [在資源計畫器中篩選資訊](../../resource-mgmt/resource-planning/filter-resource-planner.md) .
+如需有關在資源規劃工具中篩選的詳細資訊，請參閱[資源規劃工具中的篩選資訊](../../resource-mgmt/resource-planning/filter-resource-planner.md) 。
 
 ## 設定 {#settings}
 
-從「設定」區域，您可以啟用或禁用選項以在資源計畫器中顯示或隱藏資訊。
+在「設定」區域中，您可以啟用或停用在「資源規劃工具」中顯示或隱藏資訊的選項。
 
-要在資源計畫器中啟用設定，請執行以下操作：
+若要啟用資源規劃工具中的設定：
 
-1. 開啟資源計畫器。
-1. 按一下 **設定** 表徵圖。
+1. 開啟資源規劃工具。
+1. 按一下&#x200B;**設定**&#x200B;圖示。
 
    ![](assets/rp-settings-icon-edit-1.png)
 
-   「資源計畫器設定」框隨即顯示。
+   資源規劃工具設定方塊隨即顯示。
 
    ![](assets/rp-settings-without-actual-hours-350x211.png)
 
-1. 啟用 **包括來自問題的小時數** 設定以在「資源計畫員」中顯示「來自問題的計畫小時數」。 預設會停用此設定。
+1. 啟用&#x200B;**包括問題的時數**&#x200B;設定，以顯示資源規劃工具中問題的計畫時數。 此設定預設為停用。
 
    啟用此設定時，請考量下列事項：
 
-   * 分配給問題的用戶名稱顯示在與問題相關聯的作業角色下，您可以在「項目」和「角色」視圖中為用戶指定「預算小時數」和作業角色。
-   * 在「用戶」視圖中，作業角色的名稱下會列出分配給用戶的問題。
+   * 指派給問題的使用者名稱會顯示在問題中與他們相關聯的工作角色下，並且您可以在「專案」和「角色」檢視中指定使用者和工作角色的預算時數。
+   * 指派給使用者的問題列在「使用者」檢視中的工作角色名稱下。
 
-      >[!IMPORTANT]
-      >
-      >**當問題計劃開始日期和完成日期超出項目時間軸時，系統會根據問題日期顯示問題的計畫時數。 例如，如果項目時間表是在1月和3月之間，但問題的時間表是8月，則問題的「計畫時間」將顯示在8月的時段中。**
+     >[!IMPORTANT]
+     >
+     >**當問題計劃開始和完成日期在專案的時間表以外時，問題的計畫時數會根據問題日期顯示。 例如，如果專案時間表介於1月至3月之間，但問題的時間表是8月，則問題的計畫時數會顯示在8月期間。**
 
-1. （條件式和可選）如果您選擇了「項目」視圖，請啟用「顯示Portfolio優先順序」設定，以根據項目的Portfolio顯示項目優先順序。 根據項目組合的優先順序顯示在「資源規劃器」優先順序旁。 預設會停用此設定。
+1. （條件式與選擇性）如果您選取「專案」檢視，請啟用「顯示Portfolio優先順序」設定，以根據指派給它們的Portfolio來顯示專案優先順序。 根據其投資組合的專案優先順序顯示在資源規劃工具優先順序旁邊。 此設定預設為停用。
 
-   有關在資源計畫器中排定項目優先順序的資訊，請參閱 [在資源計畫器中排列項目優先順序](../../resource-mgmt/resource-planning/prioritize-projects-resource-planner.md).
+   如需有關在資源規劃工具中排定專案優先順序的資訊，請參閱[在資源規劃工具中排定專案的優先順序](../../resource-mgmt/resource-planning/prioritize-projects-resource-planner.md)。
 
-## 全螢幕選項
+## 全熒幕選項
 
-您可以全螢幕顯示「資源計畫員」，以擴大可在螢幕上查看的資訊量。
+您可以全熒幕顯示資源規劃工具，以放大畫面上可檢視的資訊量。
 
-以全螢幕查看資訊的選項適用於資源計畫員的所有視圖。
+以全熒幕檢視資訊的選項適用於資源規劃工具的所有檢視。
 
-要以全螢幕顯示資源計畫器，請執行以下操作：
+若要以全熒幕顯示資源規劃工具：
 
-1. 前往 **資源計畫員**.
-1. 按一下 **全螢幕圖示** 以全螢幕查看資源計畫器。\
-   ![RP_sull_screen_area_User_View__1_.png](assets/rp-full-screen-icon-highlighted-user-view--350x260.png)\
-   「資源規劃器」展開以佔用整個瀏覽器窗口，表徵圖將變為 **關閉全螢幕** 檢視選項。
+1. 移至&#x200B;**資源規劃工具**。
+1. 按一下&#x200B;**全熒幕圖示**&#x200B;以全熒幕檢視資源規劃工具。\
+   ![RP_sull_sccreen_area_User_View__1_.png](assets/rp-full-screen-icon-highlighted-user-view--350x260.png)\
+   資源規劃工具會展開以佔據整個瀏覽器視窗，而圖示會變更為&#x200B;**關閉全熒幕**&#x200B;檢視選項。
 
-1. （選用）按一下 **關閉全螢幕表徵圖** 回復到上一個顯示。
+1. （選擇性）按一下&#x200B;**關閉全熒幕圖示**&#x200B;以還原到先前的顯示。
 
 ## 匯出選項
 
 ![](assets/export-button-highlighted-resource-planner-350x92.png)
 
-您可以從資源規劃器的任何檢視將資訊匯出至Excel(.xlsx)檔案。\
-有關從資源計畫器導出資訊的資訊，請參閱 [從資源計畫員導出資訊](../../resource-mgmt/resource-planning/export-resource-planner.md).
+您可以從資源規劃工具的任何檢視將資訊匯出到Excel (.xlsx)檔案。\
+如需有關從資源規劃工具匯出資訊的資訊，請參閱[從資源規劃工具匯出資訊](../../resource-mgmt/resource-planning/export-resource-planner.md)。
 
-您可以管理資訊量和匯出檔案的顯示。\
-有關可從資源規劃器導出哪些資訊以及如何管理導出檔案的外觀和風格的資訊，請參閱 [資源計畫器顯示限制](../../resource-mgmt/resource-planning/resource-planner-display-limitations.md).
+您可以管理資訊量以及匯出檔案的顯示。\
+如需有關您可以從資源規劃工具匯出哪些資訊，以及如何管理匯出檔案的外觀和感覺的資訊，請參閱[資源規劃工具顯示限制](../../resource-mgmt/resource-planning/resource-planner-display-limitations.md)。

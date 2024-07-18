@@ -21,11 +21,11 @@ ht-degree: 1%
 * Workfront物件的檔案區域
 * Workfront展示板上的已連線卡片
 
-您也可以上傳檔案的新版本，並將連結新增至協力廠商雲端廠商(例如Google Drive、Dropbox和Microsoft OneDrive)的檔案。 如需新增檔案新版本的詳細資訊，請參閱 [上傳檔案的新版本](../../documents/managing-documents/upload-new-document-version.md). 如需關於新增來自第三方雲端廠商的檔案的資訊，請參閱 [從外部應用程式連結檔案](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md).
+您也可以上傳檔案的新版本，並將連結新增至協力廠商雲端廠商(例如Google Drive、Dropbox和Microsoft OneDrive)的檔案。 如需新增檔案新版本的詳細資訊，請參閱[上傳檔案的新版本](../../documents/managing-documents/upload-new-document-version.md)。 如需新增協力廠商雲端廠商檔案的相關資訊，請參閱[從外部應用程式連結檔案](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md)。
 
 您可以上傳至Workfront的檔案型別和大小沒有限制。 不過，為了成功，上傳必須在5分鐘內完成，而且您必須有足夠的可用儲存空間。
 
-如果您需要有關將檔案新版本上傳到Workfront的資訊，請參閱 [上傳檔案的新版本](../../documents/managing-documents/upload-new-document-version.md).
+如果您需要有關將檔案新版本上傳到Workfront的資訊，請參閱[上傳檔案新版本](../../documents/managing-documents/upload-new-document-version.md)。
 
 ## 存取需求
 
@@ -47,7 +47,7 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定*</td> 
-   <td> <p>編輯檔案的存取權</p> <p>注意：如果您還是沒有存取權，請詢問您的Workfront管理員，他們是否在您的存取層級中設定其他限制。 如需有關Workfront管理員如何修改您的存取層級的資訊，請參閱 <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>.</p> </td> 
+   <td> <p>編輯檔案的存取權</p> <p>注意：如果您還是沒有存取權，請詢問您的Workfront管理員，他們是否在您的存取層級中設定其他限制。 如需Workfront管理員如何修改存取層級的詳細資訊，請參閱<a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>。</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -69,7 +69,7 @@ ht-degree: 1%
 若要新增檔案：
 
 1. 前往您要新增檔案的專案、任務或問題。
-1. 按一下 **檔案** 標籤，然後按一下 **新增** 下拉式功能表。
+1. 按一下&#x200B;**檔案**&#x200B;標籤，然後按一下&#x200B;**新增**&#x200B;下拉式功能表。
 
    ![](assets/add-new-doc.png)
 
@@ -83,9 +83,9 @@ ht-degree: 1%
       <td role="rowheader">從您工作站上的檔案系統上傳檔案</td> 
       <td> 
        <ol> 
-        <li value="1">從 <strong>新增</strong> 下拉式功能表，選取 <strong>檔案。</strong></li> 
+        <li value="1">從<strong>新增</strong>下拉式功能表中，選取<strong>檔案。</strong></li> 
         <li value="2"> <p>瀏覽並選取您要從工作站上的檔案系統新增的檔案。<br></p> <p>當您選取其他檔案時，可以按住Shift鍵來選取多個檔案。</p> </li> 
-        <li value="3">按一下 <strong>開啟</strong>.</li> 
+        <li value="3">按一下<strong>開啟</strong>。</li> 
        </ol> 
        <p><b>注意</b>：您也可以直接從檔案管理員將檔案拖放至檔案清單中。</td> 
      </tr> 
@@ -93,18 +93,18 @@ ht-degree: 1%
       <td role="rowheader">從第三方應用程式(例如Google Drive或SharePoint)上傳檔案</td> 
       <td> 
        <ol> 
-        <li value="1"> <p>從 <strong>新增</strong> 下拉式功能表，選取 <strong>從 &lt;name_of_third-party_application&gt;</strong>.</p> <p>例如，若要從Google Drive上傳檔案，請按一下 <strong>從Google Drive</strong>.</p> </li> 
-        <li value="2"> <p>按照提示在第三方應用程式中選取檔案。<br></p> <p>如需連結檔案的詳細資訊，請參閱 <a href="../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md" class="MCXref xref">從外部應用程式連結檔案</a>.</p> </li> 
+        <li value="1"> <p>從<strong>新增</strong>下拉式功能表中，選取<strong>從&lt;name_of_third-party_application&gt;</strong>。</p> <p>例如，若要從Google磁碟機上傳檔案，請按一下[從Google磁碟機<strong>] </strong>。</p> </li> 
+        <li value="2"> <p>按照提示在第三方應用程式中選取檔案。<br></p> <p>如需連結檔案的詳細資訊，請參閱<a href="../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md" class="MCXref xref">從外部應用程式連結檔案</a>。</p> </li> 
        </ol> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">向其他Workfront使用者請求檔案</td> 
       <td> 
        <ol> 
-        <li value="1">從 <strong>新增</strong> 下拉式功能表，選取 <strong>請求檔案</strong>.</li> 
-        <li value="2">在 <strong>您向誰請求</strong> 方塊中，輸入您向其請求檔案的使用者名稱。</li> 
-        <li value="3">在 <strong>告知您正在請求的內容</strong> 方塊中，鍵入檔案的名稱。</li> 
-        <li value="4"> <p>按一下 <strong>傳送要求</strong>.</p> <p>您的請求會顯示在「檔案」標籤上。</p> <p>如需請求檔案的詳細資訊，請參閱 <a href="../../documents/adding-documents-to-workfront/request-a-document.md" class="MCXref xref">請求檔案</a>.</p> </li> 
+        <li value="1">從<strong>新增</strong>下拉式功能表中，選取<strong>要求檔案</strong>。</li> 
+        <li value="2">在<strong>您是從</strong>向誰請求檔案中，輸入您向其請求檔案的使用者的名稱。</li> 
+        <li value="3">在<strong>告訴他們您要求的內容</strong>方塊中，輸入檔案的名稱。</li> 
+        <li value="4"> <p>按一下<strong>傳送要求</strong>。</p> <p>您的請求會顯示在「檔案」標籤上。</p> <p>如需有關請求檔案的詳細資訊，請參閱<a href="../../documents/adding-documents-to-workfront/request-a-document.md" class="MCXref xref">請求檔案</a>。</p> </li> 
        </ol> </td> 
      </tr> 
     </tbody> 
@@ -129,4 +129,4 @@ Workfront網站可透過檔案以下列方式防止病毒和其他惡意內容�
 
 ### 檔案名稱限制 {#file-name-restrictions}
 
-上傳至Workfront的檔案無法在檔案名稱中包含某些字元。 如果檔案在檔案名稱中包含下列任一字元，則上傳檔案時，會從檔案名稱中移除這些字元： `! # % * \ | ' " / ? < > { } [ ]`.
+上傳至Workfront的檔案無法在檔案名稱中包含某些字元。 如果檔案在檔案名稱中包含下列任何字元，則檔案上傳時這些字元會從檔案名稱中移除： `! # % * \ | ' " / ? < > { } [ ]`。

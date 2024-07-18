@@ -25,14 +25,14 @@ ht-degree: 2%
 >
 >* 通常，已解鎖的偏好設定會無限期地保持解鎖狀態。 如果Workfront管理員將其重新鎖定，系統設定將再次生效，並且群組管理員所做的偏好設定設定將遺失。
 >* 為與專案關聯的群組設定的偏好設定優先於為建立專案之使用者的「首頁」群組設定的偏好設定。
->* 有些群組層級偏好設定會影響您為群組建立的專案範本。 如需詳細資訊，請參閱區段 [從群組區域檢視、處理和建立群組的範本](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-templates.md#view) 在文章中 [建立和修改群組的專案範本](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-templates.md).
+>* 有些群組層級偏好設定會影響您為群組建立的專案範本。 如需詳細資訊，請參閱文章[建立及修改群組的專案範本](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-templates.md)中的「群組」區域](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-templates.md#view)，一節[「檢視、使用及建立群組的範本」。
 >
->* Workfront管理員在系統層級解除鎖定偏好設定後，您可以對其進行設定，然後將其鎖定，以確保您的群組及其子群組中的每個人都使用相同的設定。 此功能與Workfront管理員必須為系統中的每個人設定並鎖定偏好設定的功能平行。 如需詳細資訊，請參閱 [鎖定或解除鎖定子群組的專案、任務或問題偏好設定](../../../administration-and-setup/manage-groups/create-and-manage-groups/lock-or-unlock-a-group-preference.md).
+>* Workfront管理員在系統層級解除鎖定偏好設定後，您可以對其進行設定，然後將其鎖定，以確保您的群組及其子群組中的每個人都使用相同的設定。 此功能與Workfront管理員必須為系統中的每個人設定並鎖定偏好設定的功能平行。 如需詳細資訊，請參閱[鎖定或解除鎖定子群組的專案、任務或問題偏好設定](../../../administration-and-setup/manage-groups/create-and-manage-groups/lock-or-unlock-a-group-preference.md)。
 >
 
-任務與問題偏好設定、時程表與小時偏好設定也可能使用群組層級設定。 如需詳細資訊，請參閱 [設定群組的任務和問題偏好設定](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-task-issue-preferences-group.md) 和 [設定群組的時程表和小時偏好設定](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-timesheet-hour-preferences-group.md).
+任務與問題偏好設定、時程表與小時偏好設定也可能使用群組層級設定。 如需詳細資訊，請參閱[設定群組的任務和問題偏好設定](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-task-issue-preferences-group.md)以及[設定群組的時程表和小時偏好設定](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-timesheet-hour-preferences-group.md)。
 
-如需Workfront管理員如何解除鎖定專案偏好設定的詳細資訊，請參閱 [鎖定或解除鎖定系統中所有群組的專案偏好設定](../../../administration-and-setup/set-up-workfront/configure-system-defaults/lock-or-unlock-project-preferences-for-groups-system.md).
+如需Workfront管理員如何解除鎖定專案偏好設定的相關資訊，請參閱[鎖定或解除鎖定系統中所有群組的專案偏好設定](../../../administration-and-setup/set-up-workfront/configure-system-defaults/lock-or-unlock-project-preferences-for-groups-system.md)。
 
 ## 存取需求
 
@@ -48,12 +48,12 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront授權*</td> 
-   <td> <p>計劃 </p> <p>您必須是群組的群組管理員或Workfront管理員。 如需詳細資訊，請參閱 <a href="../../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">群組管理員</a> 和 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">授予使用者完整管理存取權</a>.</p> </td> 
+   <td> <p>計劃 </p> <p>您必須是群組的群組管理員或Workfront管理員。 如需詳細資訊，請參閱<a href="../../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">群組管理員</a>和<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">授與使用者完整管理存取權</a>。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;如果您需要瞭解自己的計畫或授權型別，請聯絡Workfront管理員。
+&#42;如果您需要瞭解您擁有的計畫或授權型別，請連絡您的Workfront管理員。
 
 ## 設定群組的解除鎖定專案偏好設定
 
@@ -61,12 +61,12 @@ ht-degree: 2%
 >
 >如果您是Workfront管理員，可以前往「設定>專案偏好設定>專案」，然後在頁面頂端的方塊中搜尋群組名稱，略過步驟1至4。
 
-1. 按一下 **主要功能表** 圖示 ![](assets/main-menu-icon.png) (位於Adobe Workfront的右上角)，然後按一下 **設定** ![](assets/gear-icon-settings.png).
+1. 按一下Adobe Workfront右上角的&#x200B;**主要功能表**&#x200B;圖示![](assets/main-menu-icon.png)，然後按一下&#x200B;**設定** ![](assets/gear-icon-settings.png)。
 
-1. 在左側面板中，按一下 **群組** ![](assets/groups-icon.png).
+1. 在左側面板中，按一下&#x200B;**群組** ![](assets/groups-icon.png)。
 
 1. 按一下要設定其專案偏好設定的群組名稱。
-1. 在左側面板中，按一下 **專案偏好設定**.
+1. 在左側面板中，按一下&#x200B;**專案偏好設定**。
 1. 在出現的頁面上，繼續下列的4個區段之一，以設定專案狀態、時間表、業務案例和死後存留的偏好設定。
 
    >[!TIP]
@@ -101,7 +101,7 @@ ht-degree: 2%
 </td></tr>
   <tr> 
    <td role="rowheader">將新專案狀態設為</td> 
-   <td> <p>決定新專案的狀態。</p> <p><b>注意</b>   
+   <td> <p>決定新專案的狀態。</p> <p><b>附註</b>   
      <ul> 
       <li>如果您或其他Workfront管理員隱藏此處選取的狀態，預設狀態會變更為狀態清單中的第一個狀態。</li> 
      </ul> 
@@ -111,7 +111,7 @@ ht-degree: 2%
        <ul> 
         <li>如果必要的狀態等於已解除鎖定的預設狀態，則即使已解除鎖定，「必要」狀態也會變成預設狀態。</li> 
         <li>如果所有必要狀態都不等同於已解除鎖定的預設狀態，則狀態清單中的第一個必要狀態會成為預設狀態。</li> 
-       </ul> <p>如需必要狀態的相關資訊，請參閱文章 <a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/project-statuses.md" class="MCXref xref" data-mc-variable-override="">存取系統專案狀態清單</a>， <a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/task-statuses.md" class="MCXref xref" data-mc-variable-override="">存取系統工作狀態清單</a>、和 <a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/issue-statuses.md" class="MCXref xref" data-mc-variable-override="">存取系統問題狀態清單</a>.</p> </li> 
+       </ul> <p>如需必要狀態的相關資訊，請參閱文章<a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/project-statuses.md" class="MCXref xref" data-mc-variable-override="">存取系統專案狀態清單</a>、<a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/task-statuses.md" class="MCXref xref" data-mc-variable-override="">存取系統任務狀態清單</a>，以及<a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/issue-statuses.md" class="MCXref xref" data-mc-variable-override="">存取系統問題狀態清單</a>。</p> </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
@@ -120,27 +120,27 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td role="rowheader">根據進度狀態自動設定專案條件</td> 
-   <td> <p>此偏好設定可讓使用者手動設定專案條件（達成目標、有風險、存在問題），或讓Workfront根據專案在時間上的進度自動設定條件（進度狀態）。 如需專案條件的詳細資訊，請參閱 <a href="../../../manage-work/projects/manage-projects/project-condition-and-condition-type.md" class="MCXref xref" data-mc-variable-override="">專案狀態與狀態型別概觀</a>.</p> </td> 
+   <td> <p>此偏好設定可讓使用者手動設定專案條件（達成目標、有風險、存在問題），或讓Workfront根據專案在時間上的進度自動設定條件（進度狀態）。 如需有關專案條件的詳細資訊，請參閱<a href="../../../manage-work/projects/manage-projects/project-condition-and-condition-type.md" class="MCXref xref" data-mc-variable-override="">專案條件和條件型別概觀</a>。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>自動建立基準線</p> </td> 
-   <td> <p>當專案狀態變更為目前時，此偏好設定會自動建立任務與專案詳細資訊的基準（快照）。 如需有關建立基準線的資訊，請參閱 <a href="../../../manage-work/projects/create-projects/create-baselines.md" class="MCXref xref" data-mc-variable-override="">建立專案基準線</a>.</p> </td> 
+   <td> <p>當專案狀態變更為目前時，此偏好設定會自動建立任務與專案詳細資訊的基準（快照）。 如需建立基準的相關資訊，請參閱<a href="../../../manage-work/projects/create-projects/create-baselines.md" class="MCXref xref" data-mc-variable-override="">建立專案基準</a>。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>績效指數方法 </p> </td> 
-   <td> <p>專案的績效指數方法(PIM)會控制Workfront用來計算「收益值」量度的方法，例如「成本績效指數(CPI)」和「完工估算(EAC)」。 如需詳細資訊，請參閱 <a href="../../../manage-work/projects/project-finances/calculate-cpi.md" class="MCXref xref" data-mc-variable-override="">計算成本績效指數(CPI)</a>和 <a href="../../../manage-work/projects/project-finances/calculate-eac.md" class="MCXref xref" data-mc-variable-override="">計算完工估算(EAC)</a></p> 
+   <td> <p>專案的績效指數方法(PIM)會控制Workfront用來計算「收益值」量度的方法，例如「成本績效指數(CPI)」和「完工估算(EAC)」。 如需詳細資訊，請參閱<a href="../../../manage-work/projects/project-finances/calculate-cpi.md" class="MCXref xref" data-mc-variable-override="">計算成本績效指數(CPI)</a>和<a href="../../../manage-work/projects/project-finances/calculate-eac.md" class="MCXref xref" data-mc-variable-override="">計算完工估算(EAC)</a></p> 
     <ul> 
-     <li><strong>基於小時</strong>：Workfront使用計畫時數來計算效能量度，例如EAC和CPI。 當根據時數計算PIM時，EAC會顯示為時數。 確保您有計畫時數的值，而不是零。</li> 
-     <li> <p><strong>基於成本</strong>：Workfront使用計畫勞力成本來計算績效量度，例如EAC和CPI。 確保您的工作角色或使用者與每小時成本費率相關聯。 根據「成本」計算PIM時，EAC會顯示為貨幣值。</p> <p>專案經理可以使用專案詳細資訊中的財務區域，在專案層級修改此設定。如需詳細資訊，請參閱 <a href="../../../manage-work/projects/project-finances/manage-project-finance-area.md" class="MCXref xref" data-mc-variable-override="">管理專案財務區域的資訊</a>.</p> </li> 
+     <li><strong>小時制</strong>： Workfront會使用計畫時數來計算效能量度，例如EAC和CPI。 當根據時數計算PIM時，EAC會顯示為時數。 確保您有計畫時數的值，而不是零。</li> 
+     <li> <p><strong>以成本為基礎</strong>： Workfront使用計畫勞力成本來計算績效量度，例如EAC和CPI。 確保您的工作角色或使用者與每小時成本費率相關聯。 根據「成本」計算PIM時，EAC會顯示為貨幣值。</p> <p>專案經理可以使用[專案詳細資料]中的[財務]區域，在專案層級修改此設定。如需詳細資訊，請參閱<a href="../../../manage-work/projects/project-finances/manage-project-finance-area.md" class="MCXref xref" data-mc-variable-override="">專案財務區域</a>中的管理資訊。</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>預估完成成本 </p> </td> 
    <td> <p>決定Workfront要使用哪些資料來計算預估完成成本(EAC)，以代表專案的預估總成本。</p> 
     <ul> 
-     <li><strong>在專案層級計算</strong>：父系作業與專案的EAC是由在EAC公式中輸入「實際時數」或「實際勞力成本」所決定。 此計算包括直接新增到父級任務或專案的實際時數或成本和費用。</li> 
-     <li> <p><strong>從任務/子任務彙總</strong>：父系任務和專案的EAC是由每個子系任務的EAC相加決定。 此計算不包括直接新增至父級任務或專案的實際時數或實際成本與費用。</p> <p>專案經理可以使用專案詳細資訊中的財務區域，在專案層級修改此設定。如需詳細資訊，請參閱 <a href="../../../manage-work/projects/project-finances/manage-project-finance-area.md" class="MCXref xref" data-mc-variable-override="">管理專案財務區域的資訊</a>.</p> </li> 
-    </ul> <p>如需有關EAC如何計算的詳細資訊，請參閱 <a href="../../../manage-work/projects/project-finances/calculate-eac.md" class="MCXref xref" data-mc-variable-override="">計算完工估算(EAC)</a>.</p> </td> 
+     <li><strong>在專案層級計算</strong>：父系任務與專案的EAC是由在EAC公式中輸入「實際時數」或「實際勞力成本」所決定。 此計算包括直接新增到父級任務或專案的實際時數或成本和費用。</li> 
+     <li> <p><strong>從任務/子任務累計</strong>：父任務和專案的EAC是由每個子任務的EAC相加所決定。 此計算不包括直接新增至父級任務或專案的實際時數或實際成本與費用。</p> <p>專案經理可以使用[專案詳細資料]中的[財務]區域，在專案層級修改此設定。如需詳細資訊，請參閱<a href="../../../manage-work/projects/project-finances/manage-project-finance-area.md" class="MCXref xref" data-mc-variable-override="">專案財務區域</a>中的管理資訊。</p> </li> 
+    </ul> <p>如需EAC如何計算的詳細資訊，請參閱<a href="../../../manage-work/projects/project-finances/calculate-eac.md" class="MCXref xref" data-mc-variable-override="">完工估算(EAC)</a>。</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -157,16 +157,16 @@ ht-degree: 2%
    <td role="rowheader">排程開始時間</td> 
    <td> <p>決定新專案是從開始日期排程，還是從建立專案時的完成日期排程。</p> 
     <ul> 
-     <li><strong>開始日期</strong>：新任務預設為「儘可能早」任務限制，並提示專案經理提供專案的計劃開始日期。</li> 
-     <li><strong>完成日期</strong>：新任務預設為「儘可能晚的任務限制」，並提示專案經理提供專案的規劃完成日期。</li> 
+     <li><strong>開始日期</strong>：新任務預設為「儘可能早」的任務限制，並且會提示專案經理提供專案的計劃開始日期。</li> 
+     <li><strong>完成日期</strong>：新任務預設為「儘可能晚的任務限制」，並且會提示專案經理提供專案的計畫完成日期。</li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">使用者休假</td> 
    <td> <p>決定任務的主要受指派人的休假是否調整專案上該任務的計畫日期。</p> 
     <ul> 
-     <li> <p><strong>考量使用者在任務持續期間的休假</strong>：如果休假發生在任務持續期間，為任務的主要受指派人排定的任何休假都會調整任務的計畫日期。 這是預設設定。 </p> <p>例如，如果一項限製為「儘快」的任務排程在6月1日開始並在6月3日完成，而主要受指派人將6月2日標籤為休假，則任務的計畫日期將調整為6月1日到6月4日。</p> <p><b>重要</b>：任務期間在選取此設定時不會變更。 根據任務限制，只有計畫日期會變更。</p> </li> 
-     <li><strong>忽略使用者在任務持續期間的休假</strong>：專案上每個任務的計畫日期仍維持原計畫，即使任務的主要受指派人在其期間有休假。</li> 
+     <li> <p><strong>考量使用者在任務持續期間的休假</strong>：如果休假發生在任務持續期間，則為任務的主要受指派人排定的任何休假都會調整任務的計畫日期。 這是預設設定。 </p> <p>例如，如果一項限製為「儘快」的任務排程在6月1日開始並在6月3日完成，而主要受指派人將6月2日標籤為休假，則任務的計畫日期將調整為6月1日到6月4日。</p> <p><b>重要</b>：當您選取此設定時，工作的期間不會變更。 根據任務限制，只有計畫日期會變更。</p> </li> 
+     <li><strong>忽略使用者在任務持續期間的休假</strong>：專案上每個任務的計畫日期仍保持原始計畫，即使任務的主要受指派人在其持續期間有休假。</li> 
     </ul> <p>選取此設定的選項時，請考量下列事項：</p> 
     <ul> 
      <li>當您變更此設定時，只有變更後建立的專案和範本會繼承更新的設定。 </li> 
@@ -176,51 +176,51 @@ ht-degree: 2%
        <li>計畫完成日期</li> 
        <li>兩個日期</li> 
        <li>兩者皆非。 </li> 
-      </ul> <p>例如，如果任務具有固定日期的限制條件，則即使選取了考慮使用者在任務持續時間中的休假選項，當主要受指派人具有休假時日期也不會調整。 有關任務限制的資訊，請參閱 <a href="../../../manage-work/tasks/task-constraints/task-constraint-overview.md" class="MCXref xref" data-mc-variable-override="">任務限制總覽</a>.</p> </li> 
+      </ul> <p>例如，如果任務具有固定日期的限制條件，則即使選取了考慮使用者在任務持續時間中的休假選項，當主要受指派人具有休假時日期也不會調整。 如需任務限制的相關資訊，請參閱<a href="../../../manage-work/tasks/task-constraints/task-constraint-overview.md" class="MCXref xref" data-mc-variable-override="">任務限制總覽</a>。</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p><strong>專案時間表將自動重新計算</strong> </p> </td> 
-   <td> <p>決定重新計算專案的時間表。 如需重新計算專案時間表的相關資訊，請參閱 <a href="../../../manage-work/projects/manage-projects/recalculate-project-timeline.md" class="MCXref xref" data-mc-variable-override="">重新計算專案時間表</a>.</p> <p>預設會啟用下列選項。 您可以選取下列一或多個設定：</p> 
+   <td> <p>決定重新計算專案的時間表。 如需重新計算專案時間表的相關資訊，請參閱<a href="../../../manage-work/projects/manage-projects/recalculate-project-timeline.md" class="MCXref xref" data-mc-variable-override="">重新計算專案時間表</a>。</p> <p>預設會啟用下列選項。 您可以選取下列一或多個設定：</p> 
     <ul> 
-     <li> <p><strong>每晚</strong>：選取此項以每晚重新計算專案時間表。 您對專案所做的任何可能影響時間表的變更都不會立即顯示。 Workfront​​只會​在夜間重新計算同時符合下列兩個條件的專案的時間表：</p> <p> 
+     <li> <p><strong>每晚</strong>：選取此項可每晚重新計算專案時間表。 您對專案所做的任何可能影響時間表的變更都不會立即顯示。 Workfront​​只會​在夜間重新計算同時符合下列兩個條件的專案的時間表：</p> <p> 
        <ul> 
         <li>具有目前狀態</li> 
         <li>在過去3個月內已更新</li> 
        </ul> </p> </li> 
-     <li> <p><strong>專案範圍變更時</strong>：選取此專案可在專案範圍變更時立即重新計算專案時間表。 如需有關構成專案範圍變更之內容的資訊，請參閱 <a href="../../../manage-work/projects/manage-projects/recalculate-project-timeline.md" class="MCXref xref" data-mc-variable-override="">重新計算專案時間表</a>.</p> </li> 
+     <li> <p><strong>當專案範圍變更時</strong>：選取此專案可在專案範圍變更時立即重新計算專案時間表。 如需有關構成專案範圍變更的資訊，請參閱<a href="../../../manage-work/projects/manage-projects/recalculate-project-timeline.md" class="MCXref xref" data-mc-variable-override="">重新計算專案時間表</a>。</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p><strong>將多位使用者指派到一個任務時，使用</strong> </p> </td> 
+   <td role="rowheader"> <p><strong>將多位使用者指派到一個任務時，請使用</strong>的排程 </p> </td> 
    <td> <p>如果專案未指派排程，或指派給其任務的使用者未指派排程，Workfront會使用系統預設排程來計算任務的時間表。</p> <p>如果您將多位使用者指派給專案中擁有指派排程的相同任務，且指派給任務的使用者也擁有指派給他們的排程，則Workfront會使用下列排程：</p> 
     <ul> 
-     <li><strong>主要指派</strong>：Workfront使用任務上主要指派的排程來計算時間表。</li> 
-     <li><strong>專案</strong>：Workfront會使用專案排程來計算每項工作的時間表。</li> 
-    </ul> <p>如需排程的詳細資訊，請參閱 <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md" class="MCXref xref" data-mc-variable-override="">建立排程</a>.</p> </td> 
+     <li><strong>主要指派</strong>： Workfront使用任務上主要指派的排程來計算時間表。</li> 
+     <li><strong>專案</strong>： Workfront會使用專案排程來計算每項工作的時間表。</li> 
+    </ul> <p>如需排程的詳細資訊，請參閱<a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md" class="MCXref xref" data-mc-variable-override="">建立排程</a>。</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader"> <p>時間表計算 </p> </td> 
    <td> 
     <ul> 
-     <li><strong>每工作日一般小時數</strong>：針對將處理專案的使用者，設定一般工作日的小時數。 預設值為8小時。</li> 
+     <li><strong>每個工作日一般小時數</strong>：為將處理專案的使用者設定一般工作日內的小時數。 預設值為8小時。</li> 
     </ul> 
     <ul> 
      <li><strong>每週一般工作天數</strong>：為處理專案的使用者設定標準工作週。 預設值為5天。</li> 
-    </ul> <p>這2個選項會將天數轉換為小時，或將周數轉換為天數。</p> <p>例如，如果您有具有8個計畫時數的任務，而持續時間是根據計畫時數計算的，則Workfront會將這些時數轉換為天數，以便將持續時間顯示為天。</p> <p>Workfront會從「每週一般工作天數」欄位計算系統的「相當於全職(FTE)」值。 這是Workfront在計算使用者的分配時所使用的專案。</p> <p>當您計畫專案時間表、編列資源預算或針對專案記錄時間時，會使用這些值。 </p> <p>當您在系統中為使用者建立時程表時，不會使用這些時間表，如中所述 <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md" class="MCXref xref" data-mc-variable-override="">設定時程表和小時偏好設定</a>.</p> <p><b>注意</b>：Workfront管理員無法解鎖時間表計算偏好設定。</p> </td> 
+    </ul> <p>這2個選項會將天數轉換為小時，或將周數轉換為天數。</p> <p>例如，如果您有具有8個計畫時數的任務，而持續時間是根據計畫時數計算的，則Workfront會將這些時數轉換為天數，以便將持續時間顯示為天。</p> <p>Workfront會從「每週一般工作天數」欄位計算系統的「相當於全職(FTE)」值。 這是Workfront在計算使用者的分配時所使用的專案。</p> <p>當您計畫專案時間表、編列資源預算或針對專案記錄時間時，會使用這些值。 </p> <p>當您在系統中建立使用者的時程表時，不會使用這些時間表，如<a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md" class="MCXref xref" data-mc-variable-override="">設定時程表和小時偏好設定</a>中所述。</p> <p><b>注意</b>： Workfront管理員無法解除鎖定時間表計算偏好設定。</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader"> <p><strong>自訂季度</strong> </p> </td> 
-   <td> <p>為將處理專案的使用者設定自訂每年季度。 自訂季度通常是不符合日曆年度中傳統季度劃分的季度。 您可以新增多個自訂季度。 如需詳細資訊，請參閱 <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md" class="MCXref xref" data-mc-variable-override="">啟用專案的自訂季度</a>.</p> <p><b>注意</b>：Workfront管理員無法解鎖自訂季度偏好設定。</p> </td> 
+   <td> <p>為將處理專案的使用者設定自訂每年季度。 自訂季度通常是不符合日曆年度中傳統季度劃分的季度。 您可以新增多個自訂季度。 如需詳細資訊，請參閱<a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md" class="MCXref xref" data-mc-variable-override="">啟用專案的自訂季度</a>。</p> <p><b>注意</b>： Workfront管理員無法解除鎖定自訂季度偏好設定。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ### 業務案例 {#business-cases}
 
-您可以為與群組關聯的新建立專案建立業務案例，以提交專案請求。 您可以定義偏好設定以決定哪些區域可顯示在 **業務案例** 表單。 建議您啟用這些選項，以便其他工具(例如Portfolio最佳化程式)能夠正確更新。 如需每個欄位顯示內容的詳細資訊，請參閱 [定義業務案例：文章索引](../../../manage-work/projects/define-a-business-case/define-business-case.md).
+您可以為與群組關聯的新建立專案建立業務案例，以提交專案請求。 您可以定義偏好設定來決定可在&#x200B;**業務案例**&#x200B;表單上看到的區域。 建議您啟用這些選項，以便其他工具(例如Portfolio最佳化程式)能夠正確更新。 如需每個欄位顯示內容的詳細資訊，請參閱[定義業務案例：文章索引](../../../manage-work/projects/define-a-business-case/define-business-case.md)。
 
-Workfront管理員啟用業務案例的區段後，專案所有者就可以在專案層級建立業務案例。 如需建立業務案例的相關資訊，請參閱 [為專案建立業務案例](../../../manage-work/projects/define-a-business-case/create-business-case.md).
+Workfront管理員啟用業務案例的區段後，專案所有者就可以在專案層級建立業務案例。 如需建立業務案例的相關資訊，請參閱[為專案建立業務案例](../../../manage-work/projects/define-a-business-case/create-business-case.md)。
 
 ### 到期後生命期  {#life-after-death}
 
@@ -234,25 +234,25 @@ Workfront管理員啟用業務案例的區段後，專案所有者就可以在�
    <td role="rowheader"> <p><strong>將專案標籤為完成之後，人員仍可</strong> </p> </td> 
    <td> <p>決定您的組織（或群組，如果您正在設定群組的專案偏好設定）的規則，這些規則有關於在專案狀態標籤為「完成」後是否可以刪除任務或問題。</p> 
     <ul> 
-     <li><strong>刪除任務</strong>：可讓使用者在專案標籤為「完成」後，從專案中刪除任務。<br></li> 
-     <li><strong>刪除問題</strong>：可讓使用者在專案標籤為「完成」後，從專案中刪除問題。</li> 
+     <li><strong>刪除任務</strong>：允許使用者在專案標籤為「完成」後，從專案中刪除任務。<br></li> 
+     <li><strong>刪除問題</strong>：允許使用者在專案標籤為「完成」後，從專案中刪除問題。</li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p><strong>將專案標籤為「完成」、「廢棄」或「未決核准」之後，人員仍可</strong> </p> </td> 
-   <td> <p>決定您的組織（或群組，如果您是設定群組的專案偏好設定）的規則，這些規則有關於標示專案狀態後專案中任務、問題、檔案和其他物件會發生什麼情況 <strong>完成</strong>， <strong>廢棄</strong>，或是 <strong>未決核准</strong>.</p> 
+   <td> <p>決定組織（或群組，如果您正在設定群組的專案偏好設定）的規則，這些規則有關於專案狀態標籤為<strong>完成</strong>、<strong>廢棄</strong>或<strong>未決核准</strong>後，專案中任務、問題、檔案和其他物件所發生的情況。</p> 
     <ul> 
-     <li><strong>新增和編輯任務</strong> 允許使用者： 
+     <li><strong>新增及編輯工作</strong>允許使用者： 
       <ul> 
        <li>在專案標籤為「完成」、「廢棄」或「未決核准」後，編輯專案中的任務。 這包括新增時數以及變更任務上的費用輸入項。</li> 
        <li>將任務新增至專案。</li> 
       </ul></li> 
-     <li><strong>新增和編輯問題</strong>：允許使用者： 
+     <li><strong>新增及編輯問題</strong>：允許使用者： 
       <ul> 
        <li>在專案標籤為「完成」、「廢棄」或「未決核准」後，編輯專案中的問題。</li> 
        <li>在專案被標示為完成或廢棄後，將問題新增至專案。 （您無法將問題新增至擱置核准的專案。）</li> 
       </ul></li> 
-     <li> <p><strong>將檔案新增至專案及其任務和問題</strong>：可讓使用者在專案標籤為「完成」或「廢棄」後，將檔案新增至專案（或將檔案新增至專案內的任務和問題）。</p> <p>此選項不適用於等待核准的專案。</p> </li> 
+     <li> <p><strong>將檔案新增至專案及其任務和問題</strong>：允許使用者在專案被標示為完成或廢棄後，將檔案新增至專案（或將檔案新增至專案內的任務和問題）。</p> <p>此選項不適用於等待核准的專案。</p> </li> 
      <li> <p><strong>附加範本</strong>：允許使用者在專案被標示為完成或廢棄後，將範本附加至專案。</p> <p>此選項不適用於等待核准的專案。</p> </li> 
     </ul> </td> 
   </tr> 

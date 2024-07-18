@@ -1,27 +1,27 @@
 ---
-title: 配置全局批准設定
+title: 設定全域核准設定
 user-type: administrator
 product-area: system-administration;projects
 navigation-topic: configure-approval-and-milestone-processes
-description: 身為Adobe Workfront管理員，您可以決定Workfront中核准程式的全域設定。 這些設定會影響您系統中的所有工作項目核准程式。
+description: 作為Adobe Workfront管理員，您可以決定Workfront中核准流程的全域設定。 這些設定會影響您系統中的所有工作專案核准流程。
 author: Alina, Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 2fb0c647-bb6d-46d0-a985-6ab820b4a7f2
 source-git-commit: a3cb3d9d340d377e301c98480324bfe8bf507382
 workflow-type: tm+mt
-source-wordcount: '907'
-ht-degree: 2%
+source-wordcount: '909'
+ht-degree: 1%
 
 ---
 
-# 配置全局批准設定
+# 設定全域核准設定
 
-身為Adobe Workfront管理員，您可以決定Workfront中核准程式的全域設定。 這些設定會影響您系統中的所有工作項目核准程式。
+作為Adobe Workfront管理員，您可以決定Workfront中核准流程的全域設定。 這些設定會影響您系統中的所有工作專案核准流程。
 
 ## 存取需求
 
-您必須具備下列存取權，才能執行本文中的步驟：
+您必須具有下列存取權才能執行本文中的步驟：
 
 <table style="table-layout:auto"> 
  <col> 
@@ -36,66 +36,66 @@ ht-degree: 2%
    <td>計劃</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">訪問級別配置*</td> 
-   <td> <p>您必須是系統管理員或擁有具有管理權限的計畫許可證，才能管理批准流程</p> <p><b>注意</b>:如果您仍無權存取，請洽詢您的Workfront管理員，他們是否在您的存取層級設定其他限制。 如需Workfront管理員如何修改您的存取層級的詳細資訊，請參閱 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>.</p> </td> 
+   <td role="rowheader">存取層級設定*</td> 
+   <td> <p>您必須是系統管理員或擁有對核准流程具有管理存取權的計畫授權</p> <p><b>注意</b>：如果您還是沒有存取權，請詢問您的Workfront管理員是否對您的存取層級設定了其他限制。 如需Workfront管理員如何修改存取層級的詳細資訊，請參閱<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;若要了解您擁有的計畫、授權類型或存取權，請聯絡您的Workfront管理員。
+&#42;若要瞭解您擁有的計畫、授權型別或存取權，請連絡您的Workfront管理員。
 
-## 配置全局批准設定
+## 設定全域核准設定
 
 1. 以Workfront管理員身分登入Workfront 。
-1. 按一下 **主菜單** 圖示 ![](assets/main-menu-icon.png) 在Adobe Workfront的右上角，然後按一下 **設定** ![](assets/gear-icon-settings.png).
+1. 按一下Adobe Workfront右上角的&#x200B;**主要功能表**&#x200B;圖示![](assets/main-menu-icon.png)，然後按一下&#x200B;**設定** ![](assets/gear-icon-settings.png)。
 
-1. 按一下 **程式** > **核准** .
+1. 按一下「**處理序** > **核准**」。
 
-1. 按一下 **設定** 圖示 ![](assets/gear-icon-settings.png) 旁邊 **核准** 區域名稱。
+1. 按一下&#x200B;**核准**&#x200B;區域名稱旁的&#x200B;**設定**&#x200B;圖示![](assets/gear-icon-settings.png)。
 
-1. 在 **核准設定** 框中，指定以下資訊：
+1. 在出現的&#x200B;**核准設定**&#x200B;方塊中，指定下列資訊：
 
    <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">新增 &lt;number&gt; 計畫完成日期的天數，以適應審批流程</td> 
-      <td> <p>指定分鐘、小時、天、周或月數，以將時間添加到需要審批的任務的計畫完成日期。 選擇「已用」分鐘數、小時數、天數或周數以添加時間，這些時間包括系統工作計畫日曆中指定的任何週末、節假日和非工作小時數。</p> 
-      <p>例如，如果在星期五分配了任務，且任務的持續時間為3天，則任務完成日期將設定為星期一（假設星期六和星期日是週末）。 如果任務的持續時間為3天（未過），則任務完成日期設定為星期三。</p>
-      <p><b>注意</b>:啟用額外時間以適應任務審批將影響任務和項目的時間軸。</p></td> 
+      <td role="rowheader">新增&lt;number&gt;天數至計畫完成日期，以配合核准流程</td> 
+      <td> <p>指定分鐘、小時、天、周或月數，以將時間新增至需要核准之任務的計畫完成日期。 選取「經過的時間」分鐘、小時、天或周，以新增時間，包括系統工作排程行事曆中指定的任何週末、假日及非工作小時。</p> 
+      <p>例如，如果任務指派在星期五且持續時間為3天，則任務完成日期設定為星期一（假設星期六和星期日是週末）。 如果任務的持續時間為3天（未過），則任務完成日期設定為星期三。</p>
+      <p><b>注意</b>：啟用新增額外時間以因應任務核准將會影響任務與專案的時間表。</p></td> 
      </tr> 
      <tr> 
-      <td role="rowheader">不需要核准者加入專案團隊（用於包含角色的核准程式）</td> 
-      <td> <p>如果在審批流程包含角色時不需要審批人加入項目團隊，請選擇此選項。 將批准決策指派給工作角色時，只有在專案中具有與其相關聯角色的使用者才會看到批准。 如果啟用此設定，則具有該作業角色的任何用戶無論是否在項目團隊中，都會收到批准請求。 如需編輯使用者專案角色的相關資訊，請參閱 <a href="../../../manage-work/projects/planning-a-project/manage-project-team.md" class="MCXref xref">管理專案團隊</a>. </p> 
-      <p><b>筆尖</b>:將批准指派給角色和選項時 <b>不需要核准者加入專案團隊（用於包含角色的核准程式）</b> 已禁用，但項目組中沒有與批准時的角色匹配的角色，則會將批准重新分配給項目所有者。 </p> </td> 
+      <td role="rowheader">當核准程式包含角色時，專案團隊中不需要有核准者</td> 
+      <td> <p>如果核准流程包含角色時，不需要專案團隊中的核准者，請選取此選項。 將核准決定指派給工作角色時，只有擁有專案中相關角色的使用者可以看到核准。 如果您啟用此設定，則無論是否屬於專案團隊，任何具有該工作角色的使用者都會收到核准請求。 如需有關編輯使用者專案角色的資訊，請參閱<a href="../../../manage-work/projects/planning-a-project/manage-project-team.md" class="MCXref xref">管理專案團隊</a>。 </p> 
+      <p><b>秘訣</b>：當您指派核准給角色，且專案團隊中不需要有選項<b>核准者（針對包含角色的核准程式）</b>已停用，但專案團隊中沒有符合核准角色的角色，核准就會重新指派給專案所有者。 </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">停用核准委派</td> 
-      <td> <p>選擇此選項可禁用系統中用戶將批准委託給其他用戶的功能。 選取此選項時，從Workfront移除委派核准的選項，並停止任何現有核准委派。</p> <p>如需在Workfront中委派核准的詳細資訊，請參閱 <a href="../../../review-and-approve-work/manage-approvals/delegate-approval-requests.md" class="MCXref xref">委派核准請求</a> .</p> </td> 
+      <td> <p>選取此選項可停用系統中的使用者將核准委派給其他使用者的功能。 選取此選項時，會從Workfront移除委派核准的選項，並停止任何現有的核准委派。</p> <p>如需在Workfront中委託核准的詳細資訊，請參閱<a href="../../../review-and-approve-work/manage-approvals/delegate-approval-requests.md" class="MCXref xref">委託核准要求</a> 。</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">允許在項目、任務或問題處於等待批准狀態時編輯自定義表單</td> 
-      <td> <p>選取此選項，可讓使用者在「待核准」狀態下編輯自訂的專案、工作和問題表單。 這是預設設定。</p> 
+      <td role="rowheader">允許在專案、任務或問題處於未決核准狀態時編輯自訂表單</td> 
+      <td> <p>選擇此選項可允許使用者在處於未決核准狀態時編輯專案、任務和問題的自訂表單。 這是預設設定。</p> 
       <p>選取此選項時：</p> 
        <ul> 
-       <li>所有批准者（以及任何有權編輯自定義表單的其他用戶）都可以在對象處於待批准狀態時對自定義表單進行更改，而不管當前的批准路徑或批准步驟如何。</li> 
-       <li>在批准過程中對自定義表單所做的更改不會影響在更改之前作出的任何批准決定。</li> 
-       <li> <p>對專案、任務或問題所做的任何變更都會以相同方式追蹤，無論此設定為何。 </p> <p>例如，如果您新增要在更新資料流上追蹤的自訂表單欄位，則會在物件的更新資料流上追蹤表單的任何變更。</p> </li> 
+       <li>物件處於未決核准狀態時，無論目前的核准路徑或核准步驟為何，所有核准者（以及有權編輯自訂表單的任何其他使用者）都可以變更自訂表單。</li> 
+       <li>在核准流程期間對自訂表單進行的變更不會影響變更前所做的任何核准決定。</li> 
+       <li> <p>無論此設定為何，對專案、任務或問題所做的任何變更都會以相同的方式進行追蹤。 </p> <p>例如，如果您新增要在更新流上追蹤的自訂表單欄位，對表單的任何變更都會在物件的更新流上追蹤。</p> </li> 
        </ul> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">允許使用者恢復新建立的等待核准中請求</td> 
-      <td> <p>選擇此選項可配置用戶是否可以撤回問題或請求以等待其第一個狀態的批准。 您可以設定請求佇列，將問題或請求的第一個狀態與核准程式建立關聯。 </p> 
-      <p>如需請求佇列的詳細資訊，請參閱 <a href="../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md" class="MCXref xref">建立請求佇列</a>.</p> 
-      <p>執行下列任一項作業：</p> 
+      <td> <p>選取此選項可設定使用者是否可以撤回問題，或針對其第一個狀態而等待核准的請求。 您可以設定請求佇列，將問題或請求的第一個狀態與核准流程相關聯。 </p> 
+      <p>如需請求佇列的詳細資訊，請參閱<a href="../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md" class="MCXref xref">建立請求佇列</a>。</p> 
+      <p>執行下列其中一項：</p> 
        <ul> 
-       <li>選擇此選項可讓使用者重新調用對問題或請求的第一個狀態的批准。 在此情況下，他們會看到新問題或正在等待批准狀態的請求的「召回」&lt;按鈕。 當他們選擇撤回問題時，將收到警告，說明問題也將被刪除。 在他們確認回訪後，該問題即被刪除。 </li> 
-       <li> <p>取消選取此選項，以防止使用者回顧第一個狀態為等待核准的問題或請求。 他們看不到新發行或請求的Recall&lt;按鈕，必須授予批准。 這是預設選項。</p> 
-       <p>有關複查等待批准的項目的詳細資訊，請參閱 <a href="../../../review-and-approve-work/manage-approvals/view-approvals.md" class="MCXref xref">查看批准 </a>.</p> </li> 
+       <li>選取此選項可讓使用者恢復對問題或請求的第一個狀態的核准。 在這種情況下，他們可以在新問題或處於未決核准狀態的請求上看到「撤消」&lt;按鈕。 當他們選擇召回問題時，將會收到警告訊息，指出問題也會被刪除。 問題在確認他們將其召回後即會刪除。 </li> 
+       <li> <p>取消選取此選項可防止使用者重新呼叫第一個狀態為未決核准的問題或請求。 他們看不到新問題或請求上的「撤消」&lt;按鈕，且必須獲得核准。 這是預設選項。</p> 
+       <p>如需複查等待核准之專案的詳細資訊，請參閱<a href="../../../review-and-approve-work/manage-approvals/view-approvals.md" class="MCXref xref">檢視核准</a>。</p> </li> 
        </ul> </td> 
      </tr> 
     </tbody> 
    </table>
 
-1. 按一下 **儲存變更。**
+1. 按一下&#x200B;**儲存變更。**

@@ -21,13 +21,13 @@ ht-degree: 1%
 
 本節包含下列子章節：
 
-* [報表基本需知](../../reports-and-dashboards/reports/reporting/reporting-basics.md)
+* [報告基本資訊](../../reports-and-dashboards/reports/reporting/reporting-basics.md)
 * [報表元素概觀](../../reports-and-dashboards/reports/reporting-elements/reporting-elements-overview.md)
 * [使用內建報告](../../reports-and-dashboards/reports/using-built-in-reports/use-built-in-reports.md)
-* [建立及管理報表](../../reports-and-dashboards/reports/creating-and-managing-reports/create-manage-reports.md)
-* [報表中計算的自訂資料](../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-custom-data-reports.md)
-* [自訂檢視、篩選和分組範例：文章索引](../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md)
+* [建立和管理報告](../../reports-and-dashboards/reports/creating-and-managing-reports/create-manage-reports.md)
+* [在報表中計算的自訂資料](../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-custom-data-reports.md)
+* [自訂檢視、篩選和群組範例：發行項索引](../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md)
 * [文字模式資源：文章索引](../../reports-and-dashboards/reports/text-mode/text-mode-resources.md)
-* [報表使用情況概觀](../../reports-and-dashboards/reports/report-usage/report-usage-overview.md)
+* [報告使用情況總覽](../../reports-and-dashboards/reports/report-usage/report-usage-overview.md)
 * [行事曆：文章索引](../../reports-and-dashboards/reports/calendars/calendars.md)
 * [報告的提示、技巧和疑難排解](../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/tips-troubleshooting-reports.md)

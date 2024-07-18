@@ -22,7 +22,7 @@ ht-degree: 0%
 
 可以將任務指派給要完成的使用者。 當專案中的所有任務都完成時，可以將專案狀態標籤為完成。
 
-如需Adobe Workfront中專案的詳細資訊，請參閱 [建立專案](../../../manage-work/projects/create-projects/create-project.md).
+如需Adobe Workfront中專案的詳細資訊，請參閱[建立專案](../../../manage-work/projects/create-projects/create-project.md)。
 
 以下是專案中的任務型別：
 
@@ -38,15 +38,15 @@ ht-degree: 0%
 
 視專案上的「摘要完成模式」而定，您或許可以獨立於其子系任務完成父系任務。 依預設，您無法獨立於其子項完成或更新父系任務。
 
-如需有關專案摘要完成模式的詳細資訊，請參閱 [編輯專案](../../../manage-work/projects/manage-projects/edit-projects.md).
+如需有關專案摘要完成模式的詳細資訊，請參閱[編輯專案](../../../manage-work/projects/manage-projects/edit-projects.md)。
 
 ## 子任務或子任務概要
 
 子任務或子任務指列在父任務下的任務。 它們通常會影響父任務的更新和解析。
 
-如需有關父系任務的詳細資訊，請參閱 [父系任務概觀](#overview-of-parent-tasks) 本文章內容。
+如需有關父系任務的詳細資訊，請參閱本文中的[父系任務概觀](#overview-of-parent-tasks)。
 
-如需有關建立子項任務的詳細資訊，請參閱 [在專案中建立任務](../../../manage-work/tasks/create-tasks/create-tasks-in-project.md).
+如需建立子項任務的詳細資訊，請參閱[在專案中建立任務](../../../manage-work/tasks/create-tasks/create-tasks-in-project.md)。
 
 ## 最上層任務概觀
 
@@ -62,4 +62,4 @@ ht-degree: 0%
 
 ## 遞回任務
 
-如果您的任務重複發生，您可以將其建立為具有多個遞回的遞回任務。 如需週期性工作的相關資訊，請參閱 [遞回任務總覽](../../../manage-work/tasks/manage-tasks/recurring-tasks-overview.md).
+如果您的任務重複發生，您可以將其建立為具有多個遞回的遞回任務。 如需週期性工作的相關資訊，請參閱[週期性工作概觀](../../../manage-work/tasks/manage-tasks/recurring-tasks-overview.md)。

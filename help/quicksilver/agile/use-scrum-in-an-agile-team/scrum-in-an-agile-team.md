@@ -11,7 +11,7 @@ exl-id: 25141131-0092-48a8-ae8b-f75fc3b6fb41
 source-git-commit: 752caa1d94a09871b97a11400d83f28853118d33
 workflow-type: tm+mt
 source-wordcount: '33'
-ht-degree: 6%
+ht-degree: 0%
 
 ---
 
@@ -19,6 +19,6 @@ ht-degree: 6%
 
 本節包含下列子章節：
 
-* [專案待執行工作](../../agile/use-scrum-in-an-agile-team/burndown/burndown.md)
-* [疊代](../../agile/use-scrum-in-an-agile-team/iterations/iterations.md)
-* [[!UICONTROL Scrum] 展示板](../../agile/use-scrum-in-an-agile-team/scrum-board/scrum-board.md)
+* [待執行工作](../../agile/use-scrum-in-an-agile-team/burndown/burndown.md)
+* [反複專案](../../agile/use-scrum-in-an-agile-team/iterations/iterations.md)
+* [[!UICONTROL Scrum]展示板](../../agile/use-scrum-in-an-agile-team/scrum-board/scrum-board.md)

@@ -17,7 +17,7 @@ ht-degree: 2%
 
 # 敏捷
 
-[!DNL Adobe Workfront] 提供數個工具，可協助您定義敏捷工作流程。 主機板是簡單但靈活的團隊合作工具。 舊版敏捷規劃工具包括待處理專案和Kanban或Scrum團隊的故事板。
+[!DNL Adobe Workfront]提供數個工具，可協助您定義敏捷工作流程。 主機板是簡單但靈活的團隊合作工具。 舊版敏捷規劃工具包括待處理專案和Kanban或Scrum團隊的故事板。
 
 本節包含下列子章節：
 
@@ -25,7 +25,7 @@ ht-degree: 2%
 * [開始使用面板：文章索引](../agile/get-started-with-boards/get-started-with-boards.md)
 * [在面板中使用敏捷規劃工具](/help/quicksilver/agile/use-boards-agile-planning-tools/agile-planning-tools-overview.md)
 * [敏捷概覽](../agile/agile-overview.md)
-* [開始使用敏捷開發，位於 [!DNL Adobe Workfront]](../agile/get-started-with-agile-in-workfront/get-started-with-agile.md)
+* [開始使用 [!DNL Adobe Workfront]中的敏捷開發](../agile/get-started-with-agile-in-workfront/get-started-with-agile.md)
 * [敏捷團隊中的Kanban](../agile/use-kanban-in-an-agile-team/using-kanban-in-an-agile-team.md)
 * [敏捷團隊中的Scrum](../agile/use-scrum-in-an-agile-team/scrum-in-an-agile-team.md)
 * [在敏捷環境中工作](../agile/work-in-an-agile-environment/work-in-an-agile-environment.md)

@@ -3,7 +3,7 @@ content-type: reference
 product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: workfront-fusion-2-0
-title: 中的組織 [!DNL Adobe Workfront Fusion]
+title: ' [!DNL Adobe Workfront Fusion]中的組織'
 description: 除了Adobe Workfront授權，Adobe Workfront Fusion還需要Adobe Workfront Fusion授權。
 author: Becky
 feature: Workfront Fusion
@@ -16,15 +16,15 @@ ht-degree: 0%
 
 ---
 
-# 中的組織 [!DNL Adobe Workfront Fusion]
+# [!DNL Adobe Workfront Fusion]中的組織
 
 >[!NOTE]
 >
->[!DNL Adobe Workfront Fusion] 需要 [!DNL Adobe Workfront Fusion] 除了授權之外， [!DNL Adobe Workfront license].
+>除了[!DNL Adobe Workfront license]之外，[!DNL Adobe Workfront Fusion]還需要[!DNL Adobe Workfront Fusion]授權。
 
 本節包含下列文章：
 
-* [[!DNL Adobe Workfront Fusion] 組織和團隊](../../workfront-fusion/organizations/organizations-and-teams.md)
-* [在中新增使用者至組織 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/organizations/add-user-to-an-organization.md)
-* [在中管理使用者 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/organizations/manage-fusion-users.md)
-* [中的組織角色 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/organizations/organization-roles.md)
+* [[!DNL Adobe Workfront Fusion]組織和團隊](../../workfront-fusion/organizations/organizations-and-teams.md)
+* [在 [!DNL Adobe Workfront Fusion]中新增使用者至組織](../../workfront-fusion/organizations/add-user-to-an-organization.md)
+* [管理 [!DNL Adobe Workfront Fusion]中的使用者](../../workfront-fusion/organizations/manage-fusion-users.md)
+* [ [!DNL Adobe Workfront Fusion]中的組織角色](../../workfront-fusion/organizations/organization-roles.md)

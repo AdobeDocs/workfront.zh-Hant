@@ -49,7 +49,7 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-如需有關此表格的詳細資訊，請參閱 [Workfront檔案中的存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -63,11 +63,11 @@ ht-degree: 0%
 
 1. 執行下列任一項作業來下載應用程式：
 
-   * 如果您使用生產環境，請按一下 [適用於案頭校訂檢視器的Mac生產下載。](https://assets.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof-2.1.35.pkg)
-   * 如果您使用預覽環境，請按一下 [案頭校訂檢視器的Mac預覽下載。](https://assets.preview.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof+Preview-2.1.35.pkg)
+   * 如果您使用生產環境，請按一下案頭校訂檢視器的[Mac生產下載。](https://assets.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof-2.1.35.pkg)
+   * 如果您使用預覽環境，請按一下案頭校訂檢視器的[Mac預覽下載。](https://assets.preview.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof+Preview-2.1.35.pkg)
 
 1. 開啟您剛下載的檔案，開始安裝。
-1. 在出現的安裝方塊上，按一下 **繼續**，然後按一下 **安裝**.
+1. 在出現的安裝方塊上，按一下[繼續]****，然後按一下[安裝]****。
 
    ![00000776.png](assets/00000776-350x244.png)
 
@@ -75,7 +75,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->如果您開啟互動式校訂時「案頭校訂檢視器」未啟動，可能表示您的Workfront或Workfront Proof管理員需要將「案頭校訂檢視器」設定為互動式校訂的預設檢視器，如所述 [在案頭校訂檢視器中開啟非互動校訂的使用者設定](../../../workfront-proof/wp-work-proofsfiles/review-proofs-dpv/destop-proofing-viewer.md#user-setting-for-opening-non-interactive-proofs-in-the-desktop-proofing-viewer).
+>如果您開啟互動式校訂時「案頭校訂檢視器」未啟動，這可能表示您的Workfront或Workfront Proof管理員需要將「案頭校訂檢視器」設定為互動式校訂的預設檢視器，如[在案頭校訂檢視器中開啟非互動式校訂的使用者設定](../../../workfront-proof/wp-work-proofsfiles/review-proofs-dpv/destop-proofing-viewer.md#user-setting-for-opening-non-interactive-proofs-in-the-desktop-proofing-viewer)中所述。
 
 ## 在Windows上安裝案頭校訂檢視器
 
@@ -83,20 +83,20 @@ ht-degree: 0%
 
 >[!TIP]
 >
->您可以透過執行命令列來安裝案頭校訂檢視器 `Workfront Proof Setup 2.1.34.exe" /S`
+>您可以使用命令列執行`Workfront Proof Setup 2.1.34.exe" /S`來安裝案頭校訂檢視器
 
 1. 執行下列任一項作業來下載應用程式：
 
-   * 在生產環境中，按一下 [適用於案頭校訂檢視器的Windows生產環境下載。](https://assets.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof+Setup+2.1.35.exe)
-   * 在預覽環境中，按一下 [案頭校訂檢視器的Windows預覽下載](https://assets.preview.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof+Preview+Setup+2.1.35.exe)
+   * 在生產環境中，按一下案頭校訂檢視器的[Windows生產下載。](https://assets.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof+Setup+2.1.35.exe)
+   * 在預覽環境中，按一下案頭校訂檢視器的[Windows預覽下載](https://assets.preview.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof+Preview+Setup+2.1.35.exe)
 
 1. 開啟您剛下載的檔案，開始安裝。
 1. 在出現的安裝方塊中，開啟您剛下載的檔案以開始安裝。
 
    ![Screen_Shot_2018-05-02_at_10.56.55_AM.png](assets/screen-shot-2018-05-02-at-10.56.55-am-350x271.png)
 
-1. 在出現的安全性警告方塊中，按一下 **執行**. 案頭校訂檢視器會自動安裝並執行。
+1. 在出現的安全性警告方塊中，按一下&#x200B;**執行**。 案頭校訂檢視器會自動安裝並執行。
 1. （條件式）如果您使用Internet Explorer安裝應用程式，請在應用程式安裝後，重新整理瀏覽器中的啟動頁面。
 1. 從檔案區域開啟互動式校樣。
 
-安裝「案頭校訂檢視器」後，所有互動式校訂都會在「案頭校訂檢視器」中開啟。 如果您開啟互動式校訂時「案頭校訂檢視器」未啟動，可能表示您的Workfront或Workfront Proof管理員需要將「案頭校訂檢視器」設定為互動式校訂的預設檢視器，如所述 [在案頭校訂檢視器中開啟非互動校訂的使用者設定](../../../workfront-proof/wp-work-proofsfiles/review-proofs-dpv/destop-proofing-viewer.md#user-setting-for-launching-non-interactive-proofs).
+安裝「案頭校訂檢視器」後，所有互動式校訂都會在「案頭校訂檢視器」中開啟。 如果您開啟互動式校訂時「案頭校訂檢視器」未啟動，這可能表示您的Workfront或Workfront Proof管理員需要將「案頭校訂檢視器」設定為互動式校訂的預設檢視器，如[在案頭校訂檢視器中開啟非互動式校訂的使用者設定](../../../workfront-proof/wp-work-proofsfiles/review-proofs-dpv/destop-proofing-viewer.md#user-setting-for-launching-non-interactive-proofs)中所述。

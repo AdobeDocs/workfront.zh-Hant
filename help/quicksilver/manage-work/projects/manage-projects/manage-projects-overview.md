@@ -11,7 +11,7 @@ exl-id: a63ec4e0-ba39-42c1-8061-c29350ef4bbb
 source-git-commit: fb1c7ade6622db391e0dac54f37603efe9dc0a58
 workflow-type: tm+mt
 source-wordcount: '126'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -32,10 +32,10 @@ ht-degree: 0%
 * [專案需要時間核准](../../../manage-work/projects/manage-projects/require-time-approval-for-projects.md)
 * [管理專案概述區域中的資訊](../../../manage-work/projects/manage-projects/understand-project-overview-area.md)
 * [專案狀態與狀態型別概觀](../../../manage-work/projects/manage-projects/project-condition-and-condition-type.md)
-* [設定專案的條件型別](../../../manage-work/projects/manage-projects/set-condition-type-for-project.md)
+* [設定專案的狀態型別](../../../manage-work/projects/manage-projects/set-condition-type-for-project.md)
 * [從專案移除使用者](../../../manage-work/projects/manage-projects/remove-users-from-projects.md)
-* [為專案排程資源](../../../manage-work/projects/manage-projects/schedule-resources-for-projects.md)
-* [與專案團隊成員溝通](../../../manage-work/projects/manage-projects/communicate-with-project-team-members.md)
+* [排程專案的資源](../../../manage-work/projects/manage-projects/schedule-resources-for-projects.md)
+* [與專案團隊成員通訊](../../../manage-work/projects/manage-projects/communicate-with-project-team-members.md)
 * [在敏捷檢視中管理專案](../../../manage-work/projects/manage-projects/manage-projects-in-agile-view.md)
 * [專案限制總覽](../../../manage-work/projects/manage-projects/project-maximums.md)
 * [專案量度概觀](../../../manage-work/projects/manage-projects/project-metrics.md)

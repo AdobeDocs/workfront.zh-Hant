@@ -1,8 +1,8 @@
 ---
 product-area: projects
 navigation-topic: plan-a-project
-title: 在「角色分配」面板中查看項目計畫小時數
-description: 您可以在項目的「角色分配」面板中查看分配給項目中工作項的所有作業角色的角色分配。
+title: 在角色分配面板中檢視專案計畫時數
+description: 您可以在專案的「角色配置」面板中，檢視指派給專案中工作專案的所有職務角色的角色配置。
 author: Alina
 feature: Work Management
 exl-id: 76f70cb6-f707-4a73-bc81-e755e2d0a33d
@@ -13,18 +13,19 @@ ht-degree: 0%
 
 ---
 
-# 在「角色分配」面板中查看項目計畫小時數
+# 在角色分配面板中檢視專案計畫時數
 
-您可以在項目的「角色分配」面板中查看分配給項目中工作項的所有作業角色的角色分配。
+您可以在專案的「角色配置」面板中，檢視指派給專案中工作專案的所有職務角色的角色配置。
 
 >[!NOTE]
 >
->本文涉及在項目的「角色分配」面板中查看與項目任務和問題及其分配的「計畫小時數」相關的職務角色。 有關在使用Adobe Workfront方案計畫員時使用「職責分配」面板協調計畫小時數與方案小時數的資訊，請參閱：
+>本文指的是檢視與專案上任務和問題相關的工作角色，及其在專案角色配置面板中的已配置計畫時數。 如需有關使用Adobe Workfront Scenario Planner時使用角色配置面板來協調計畫時數與方案時數的資訊，請參閱下列內容：
 >
->* [在任務清單中顯示項目和方案的角色分配](../../../scenario-planner/show-role-allocation-task-list-nwe.md)
->* [在工作負載平衡器中顯示項目和方案的角色分配](../../../scenario-planner/show-role-allocation-workload-balancer.md)
+>* [顯示工作清單中專案和方案的角色分配](../../../scenario-planner/show-role-allocation-task-list-nwe.md)
+>* [在工作負載平衡器](../../../scenario-planner/show-role-allocation-workload-balancer.md)中顯示專案和方案的角色分配
 >
->  您必須擁有方案計畫員許可證，才能在「角色分配」面板中查看方案小時數。 有關方案計畫員的資訊，請參閱 [開始使用方案規劃器](../../../scenario-planner/get-started-with-scenario-planning.md) .
+>  您必須有Scenario Planner授權，才能在「角色配置」面板中檢視方案時數。 如需Scenario Planner的相關資訊，請參閱[開始使用Scenario Planner](../../../scenario-planner/get-started-with-scenario-planning.md) 。
+>
 
 ## 存取需求
 
@@ -70,48 +71,53 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront授權*</td> 
-   <td> <p>審核或更高版本</p> </td> 
+   <td> <p>評論或以上</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">訪問級別配置*</td> 
-   <td> <p>檢視或更高權限存取專案</p> <p>如果您仍無權存取，請洽詢您的Workfront管理員，他們是否在您的存取層級設定其他限制。 如需Workfront管理員如何修改您的存取層級的詳細資訊，請參閱 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>.</p> </td> 
+   <td role="rowheader">存取層級設定*</td> 
+   <td> <p>檢視或更高專案存取權</p> <p>如果您還是沒有存取權，請詢問您的Workfront管理員，他們是否在您的存取層級中設定其他限制。 如需Workfront管理員如何修改存取層級的詳細資訊，請參閱<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">物件權限</td> 
-   <td> <p>檢視專案的或更高權限</p> <p>有關請求其他訪問的資訊，請參閱 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">請求對對象的訪問 </a>.</p> </td> 
+   <td role="rowheader">物件許可權</td> 
+   <td> <p>檢視專案或更高的許可權</p> <p>如需請求其他存取權的資訊，請參閱<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">請求物件</a>的存取權。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;若要了解您擁有的計畫、授權類型或存取權，請聯絡您的Workfront管理員。
+&#42;若要瞭解您擁有的計畫、授權型別或存取權，請連絡您的Workfront管理員。
 
-## 必要條件
+## 先決條件
 
 您必須具備下列條件：
 
-* 分配給作業角色或與作業角色關聯的用戶的任務或問題。
+* 指派給工作角色或與工作角色相關聯之使用者的任務或問題。
 
-   >[!TIP]
-   如果未分配任務或問題、分配給團隊或分配給沒有職務角色的用戶，則「職責分配」面板中項目的「計畫小時數」為零。
+  >[!TIP]
+  >
+  >如果任務或問題被取消指派、指派給團隊或指派給沒有工作角色的使用者，則專案的「角色分配」面板中的計畫時數為零。
 
-* 持續時間超過零的任務和問題。
+* 持續時間大於零的任務和問題。
 
-## 在「角色分配」面板中查看項目計畫小時數
+## 在角色分配面板中檢視專案計畫時數
 
-1. 按一下 **主菜單** 圖示 ![](assets/main-menu-icon.png) 在Adobe Workfront的右上角，然後按一下 **專案**.
-1. 按一下專案的名稱以存取。 這會開啟「專案」頁面。
+1. 按一下Adobe Workfront右上角的&#x200B;**主要功能表**&#x200B;圖示![](assets/main-menu-icon.png)，然後按一下&#x200B;**專案**。
+1. 按一下專案名稱以存取。 如此將可開啟「專案」頁面。
 1. 在左側面板中按一下下列其中一項：
 
    * **任務**
-   * **工作負載平衡器**
+   * **工作量平衡工具**
 
-1. 按一下 **顯示角色分配** 圖示 ![](assets/show-role-allocation-icon.png).
+1. 按一下&#x200B;**顯示角色配置**&#x200B;圖示![](assets/show-role-allocation-icon.png)。
 
-   「角色分配」面板隨即顯示。
+   「角色配置」面板隨即顯示。
 
    ![](assets/role-allocation-panel-planned-hours-only-350x316.png)
 
-1. 請參閱 **角色分配** 面板： |欄位 |說明| |—|—| | **工作角色** |分配給項目上的任務和問題的作業角色。 這些角色可以是直接分配給任務和問題的作業角色，或與分配給項目任務和問題的用戶相關聯的作業角色。  | | **計畫小時數** |分配給任務角色或與項目上的任務角色相關聯的用戶的任務和問題的計畫小時總數。 |
+1. 檢閱&#x200B;**角色配置**面板中的下列資訊：
+|欄位 | 說明|
+|—|—|
+| **工作角色** |指派給專案中任務和問題的職位角色。 這些可以是直接指派給任務和問題的工作角色，或與指派給專案任務和問題的使用者相關聯的工作角色。  |
+| **計畫時數** |指派給工作角色或與專案工作角色相關聯之使用者的任務和問題的計畫時數總數。  |
 
 
 

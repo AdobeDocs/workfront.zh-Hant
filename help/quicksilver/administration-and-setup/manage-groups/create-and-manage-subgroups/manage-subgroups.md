@@ -1,34 +1,34 @@
 ---
 user-type: administrator
 product-area: system-administration;user-management
-keywords: 管理，子組，編輯
+keywords: 管理，子群組，編輯
 navigation-topic: create-and-manage-subgroups
-title: 管理子組
-description: 作為子組的組管理員，可以建立、移動、查看、編輯、複製、更名、導出和刪除子組。 您也可以將子組從父組中刪除，使子組成為頂級組。
+title: 管理子群組
+description: 身為子群組的群組管理員，您可以建立、移動、檢視、編輯、複製、重新命名、匯出及刪除子群組。 您也可以將子群組從父群組中移除，使其成為最上層群組。
 author: Caroline
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 5186d266-fa9f-445d-9dcc-bc07eb147b60
 source-git-commit: 02191d80ea58f80de2e7be2ff55f43663e415e31
 workflow-type: tm+mt
-source-wordcount: '1269'
+source-wordcount: '1272'
 ht-degree: 1%
 
 ---
 
-# 管理子組
+# 管理子群組
 
-作為子組的組管理員，可以建立、移動、查看、編輯、複製、更名、導出和刪除子組。
+身為子群組的群組管理員，您可以建立、移動、檢視、編輯、複製、重新命名、匯出及刪除子群組。
 
-您也可以將子組從父組中刪除，使子組成為頂級組。
+您也可以將子群組從父群組中移除，使其成為最上層群組。
 
-如果群組上有任何群組，其管理員也可以為群組執行這些動作。 Workfront管理員（適用於任何群組）也是如此。
+如果您的群組之上有任何群組，其管理員也可以為您的群組執行下列動作。 Workfront管理員也是如此（適用於任何群組）。
 
-有關子組的詳細資訊，請參閱 [子組概述](../../../administration-and-setup/manage-groups/groups-overview/subgroups.md).
+如需子群組的詳細資訊，請參閱[子群組總覽](../../../administration-and-setup/manage-groups/groups-overview/subgroups.md)。
 
 ## 存取需求
 
-您必須具備下列條件才能執行本文所述步驟：
+您必須具備下列專案才能執行本文所述的步驟：
 
 <table style="table-layout:auto"> 
  <col> 
@@ -40,78 +40,78 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront授權*</td> 
-   <td> <p>計劃 </p> <p>您必須是群組的群組管理員或Workfront管理員。 如需詳細資訊，請參閱 <a href="../../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">群組管理員</a> 和 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">授予使用者完整的管理存取權</a>.</p> </td> 
+   <td> <p>計劃 </p> <p>您必須是群組的群組管理員或Workfront管理員。 如需詳細資訊，請參閱<a href="../../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">群組管理員</a>和<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">授與使用者完整管理存取權</a>。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;如果您需要了解您擁有的計畫或授權類型，請聯絡Workfront管理員。
+&#42;如果您需要瞭解您擁有的計畫或授權型別，請連絡您的Workfront管理員。
 
-## 建立、移動、查看、編輯、複製、更名、導出或刪除子組
+## 建立、移動、檢視、編輯、複製、重新命名、匯出或刪除子群組
 
-1. 按一下 **主菜單** 圖示 ![](assets/main-menu-icon.png) 在Adobe Workfront的右上角，然後按一下 **設定** ![](assets/gear-icon-settings.png).
+1. 按一下Adobe Workfront右上角的&#x200B;**主要功能表**&#x200B;圖示![](assets/main-menu-icon.png)，然後按一下&#x200B;**設定** ![](assets/gear-icon-settings.png)。
 
-1. 在左側面板中，按一下 **群組** ![](assets/groups-icon.png).
+1. 在左側面板中，按一下&#x200B;**群組** ![](assets/groups-icon.png)。
 
-   在隨即顯示的清單中，您可以看到您管理的群組，以及這些群組擁有的任何子群組。 Adobe Workfront管理員可以查看所有群組。
+   在顯示的清單中，您可以看到您管理的群組及其擁有的任何子群組。 Adobe Workfront管理員可檢視所有群組。
 
-1. 按一下包含要處理的子組的組的名稱。
+1. 按一下包含您要處理之子群組的群組名稱。
 
    或
 
-   如果要移動一個或多個子組，請按一下目標組的名稱（您將指定在以後的步驟中要移動的子組）。
+   如果您要移動一個或多個子群組，請按一下目的地群組的名稱（您將在後續步驟中指定要移動的子群組）。
 
-1. 在左側功能表中，按一下 **子組**.
+1. 在左側功能表中，按一下&#x200B;**子群組**。
 
-1. 執行下列任一操作：
+1. 執行下列任一項作業：
 
    <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">建立新子組</td> 
-      <td> <p>如果要從正在查看的組中向下建立新子組，請按一下 <strong>添加子組</strong>.</p> <p>或者，如果要在清單中的另一個子組下建立新子組，請選擇該子組，然後按一下 <strong>新增</strong><strong>ubgroup</strong>.</p> <p>有關可用於配置子組的選項的資訊，請參閱 <a href="../../../administration-and-setup/manage-groups/create-and-manage-subgroups/create-a-subgroup.md" class="MCXref xref">建立子組</a>.</p> <p>群組階層不能超過15個層級，但單一層級可以有不限數量的平行群組。</p> </td> 
+      <td role="rowheader">建立新的子群組</td> 
+      <td> <p>如果您想要從檢視的群組建立新子群組，請按一下[新增子群組] <strong> </strong>。</p> <p>或者，如果您想要在清單中另一個子群組下方建立新的子群組，請選取該子群組，然後按一下[新增s</strong><strong>子群組</strong>]。<strong></p> <p>如需您可以用來設定子群組的選項相關資訊，請參閱<a href="../../../administration-and-setup/manage-groups/create-and-manage-subgroups/create-a-subgroup.md" class="MCXref xref">建立子群組</a>中的表格。</p> <p>群組階層不可超過15個層級，但單一層級可以有不限數量的平行群組。</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">移動子組 </td> 
-      <td> <p>可以移動您管理的其他組下的現有子組。</p> <p>群組階層不能超過15個層級，但單一層級可以有不限數量的平行群組。</p> 
+      <td role="rowheader">移動子群組 </td> 
+      <td> <p>您可以將現有的子群組移至您管理的另一個群組下。</p> <p>群組階層不可超過15個層級，但單一層級可以有不限數量的平行群組。</p> 
        <ol> 
-        <li value="1"> <p>（可選）選擇子組，使其成為目標組。</p> <p>如果您略過此步驟，您在步驟3中選取的群組即為目標群組。</p> </li> 
-        <li value="2">按一下 <strong>添加子組</strong> &gt; <strong>現有組</strong>.</li> 
-        <li value="3"> <p>在 <strong>現有組</strong> 框中，開始鍵入要移動的子組的名稱。</p> <p>顯示的結果不包含目標組上方的組。</p> <p>您可以將游標移至群組上並按一下資訊圖示，以確定您正在選取正確的群組 <img src="assets/info-icon.png"> 顯示於其旁。 此工具提示會列出群組的相關資訊，例如上方的群組階層及其管理員。</p> </li> 
-        <li value="4"> <p>在清單中顯示要移動的子組的名稱時，按一下它。</p> </li> 
-        <li value="5"> <p>對要移到目標組的任何其他子組重複執行步驟c-d</p> </li> 
-        <li value="6">按一下<strong>儲存</strong>。</li> 
+        <li value="1"> <p>（選擇性）選取一個子群組，使其成為目的地群組。</p> <p>如果您略過此步驟，您在步驟3中選取的群組就是目的地群組。</p> </li> 
+        <li value="2">按一下<strong>新增子群組</strong> &gt; <strong>現有群組</strong>。</li> 
+        <li value="3"> <p>在出現的<strong>現有群組</strong>方塊中，開始輸入您要移動的子群組名稱。</p> <p>顯示的結果不包含目的地群組上方的群組。</p> <p>您可以暫留在正確的群組上，並按一下旁邊顯示的資訊圖示<img src="assets/info-icon.png">，確定您選取的群組正確。 這會顯示工具提示，列出群組的相關資訊，例如群組及其管理員上方的群組階層。</p> </li> 
+        <li value="4"> <p>當您看到子群組顯示在清單中時，按一下您要移動的子群組名稱。</p> </li> 
+        <li value="5"> <p>針對您要移至目的地群組的任何其他子群組，重複步驟c-d</p> </li> 
+        <li value="6">按一下「<strong>儲存</strong>」。</li> 
        </ol> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">編輯子組</td> 
-      <td> <p>選擇要編輯的子組，然後按一下「編輯」表徵圖 <img src="assets/edit-icon.png">.</p> <p>有關可用於配置子組的選項的資訊，請參閱 <a href="../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md" class="MCXref xref">建立群組</a>.</p> </td> 
+      <td role="rowheader">編輯子群組</td> 
+      <td> <p>選取您要編輯的子群組，然後按一下「編輯」圖示<img src="assets/edit-icon.png">。</p> <p>如需您可以用來設定子群組的選項相關資訊，請參閱<a href="../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md" class="MCXref xref">建立群組</a>中的表格。</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">導出一個或多個子組</td> 
+      <td role="rowheader">匯出一個或多個子群組</td> 
       <td> 
        <ol> 
-        <li value="1">選擇要導出的子組或子組。</li> 
-        <li value="2">按一下「匯出」圖示 <img src="assets/export.png">，然後選取您想要的檔案格式。</li> 
+        <li value="1">選取要匯出的子群組。</li> 
+        <li value="2">按一下「匯出」圖示<img src="assets/export.png">，然後選取您想要的檔案格式。</li> 
        </ol> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">複製子組以建立新的頂級組</td> 
-      <td> <p>(僅適用於Workfront管理員。) 複製子組時，它將成為父組。 所有組成員和子組都隨其複製。 組成員保留其在原始組中的任何分配。</p> <p>有關複製子組的詳細資訊，請參閱 <a href="#about-copying-a-subgroup" class="MCXref xref">關於複製子組</a> 這篇文章。</p> 
+      <td role="rowheader">複製子群組以建立新的頂層群組</td> 
+      <td> <p>(僅適用於Workfront管理員)。 當您複製子群組時，它會變成父群組。 所有群組成員和子群組都會隨其一起複製。 群組成員會保留其在原始群組中的任何指派。</p> <p>如需有關複製子群組的詳細資訊，請參閱本文中的<a href="#about-copying-a-subgroup" class="MCXref xref">關於複製子群組</a>。</p> 
        <ol> 
-        <li value="1">選擇子組，然後按一下「複製」表徵圖 <img src="assets/copy-icon.png"> 以根據選取的群組建立新的頂層群組。</li> 
-        <li value="2"> <p>配置新組的設定。</p> <p>如需這些設定的說明，請參閱區段中的表格 <a href="../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md#copying-an-existing-group-and-sub-group" class="MCXref xref">複製現有組或子組以建立頂級組</a> 在文章中 <a href="../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md#copying-an-existing-group-and-sub-group" class="MCXref xref">複製現有組或子組以建立頂級組</a>.</p> </li> 
+        <li value="1">選取子群組，然後按一下「複製」圖示<img src="assets/copy-icon.png">，根據選取的群組建立新的頂層群組。</li> 
+        <li value="2"> <p>設定新群組的設定。</p> <p>如需這些設定的說明，請參閱<a href="../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md#copying-an-existing-group-and-sub-group" class="MCXref xref">複製現有群組或子群組</a>中的文章<a href="../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md#copying-an-existing-group-and-sub-group" class="MCXref xref">複製現有群組或子群組以建立最上層群組</a>一節中的表格。</p> </li> 
        </ol> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">刪除子組</td> 
-      <td> <p><b>重要</b>:刪除組或子組時，需要保留當前分配給它的用戶、工作項和任何子組。 為幫助您確保保留這些對象，提示要求您在以下步驟中將組的對象重新分配到另一個組。</p> 
+      <td role="rowheader">刪除子群組</td> 
+      <td> <p><b>重要</b>：當您刪除群組或子群組時，您需要保留使用者、工作專案以及目前指派給它的任何子群組。 為了協助您確定它們會被保留，出現提示時，您需要在下方步驟中將群組的物件重新指派給不同的群組。</p> 
        <ol> 
-        <li value="1">選擇子組，然後按一下「刪除」表徵圖 <img src="assets/delete.png">.</li> 
-        <li value="2">在 <strong>刪除組</strong> 框，開始鍵入，然後選擇要移動要刪除的組的成員、工作項和子組的組的名稱。</li> 
-        <li value="3">按一下 <strong>刪除</strong>.</li> 
+        <li value="1">選取子群組，然後按一下「刪除」圖示<img src="assets/delete.png">。</li> 
+        <li value="2">在出現的<strong>刪除群組</strong>方塊中，開始輸入，然後選取您要移動所刪除群組之成員、工作專案及子群組的群組名稱。</li> 
+        <li value="3">按一下<strong>刪除它們</strong>。</li> 
        </ol> </td> 
      </tr> 
     </tbody> 
@@ -119,49 +119,48 @@ ht-degree: 1%
 
 >[!TIP]
 >
->管理包含子組的組時，能夠識別和篩選有關整個組及其所有子組的資料會很有幫助。 您可以使用報表或清單中的「上層父ID」欄位來執行此操作。
+>當您管理包含子群組的群組時，能夠識別和篩選有關整個群組及其所有子群組的資料會很有幫助。 您可以使用報表或清單中的「頂層父項ID」欄位來達到此目的。
 >
->例如，假設您管理一個大型行銷部門，而想要一份清單列出整個部門正在處理的所有專案。
+>例如，假設您管理一個大型行銷部門，並且想要一個包含整個部門正在處理之所有專案的清單。
 >
->在Workfront中，此行銷部門由稱為「行銷」的群組表示，其中3個子群組稱為「欄位行銷」、「產品行銷」和「數位行銷」。 若要列出屬於整個行銷部門（所有4個群組）的專案，您可以使用下列篩選規則為「專案」區域建立篩選器：
+>在Workfront中，此行銷部門由稱為行銷的群組表示，有3個稱為現場行銷、產品行銷和數位行銷的子群組。 若要列出屬於整個行銷部門（全部4個群組）的專案，您可以使用以下篩選規則為專案區域建立篩選：
 >
->
-```
+>```
 >Group: Top Parent ID > Equal > Marketing
 >```
 >
->您也可以使用「上層父名稱」欄位來識別與上層群組相關聯的資料，但僅限於「檢視」中，而非「篩選器」或「群組」中。
+>您也可以使用「頂層父項名稱」欄位來識別與頂層群組相關聯的資料，但僅限於在「檢視」中，而不適用於「篩選器」或「群組」。
 
-## 從子組的父組中刪除子組，並使其成為頂級組
+## 從子群組的父群組中移除子群組，並將其設為最上層群組
 
-通過將子組從其父組中刪除，可以將其設為頂級組。
+您可以將子群組從父群組中移除，使其成為最上層群組。
 
 >[!TIP]
 >
->如果停用下面有子組的組，這些子組也會變為非活動狀態。 如果希望其中一個活動，可以使用這些指示將其從父組中刪除，然後重新激活它。
+>當您停用下有子群組的群組時，這些子群組也會變成非使用中。 如果您希望其中一個處於作用中狀態，可以使用這些指示將其從父群組中移除，然後重新啟用它。
 >
->如需停用和重新啟用群組的相關指示，請參閱 [檢視及管理群組的詳細資訊](../../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-manage-a-groups-details.md#view) 和 [檢視及管理群組的詳細資訊](../../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-manage-a-groups-details.md#inactive) 在文章中 [檢視及管理群組的詳細資訊](../../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-manage-a-groups-details.md).
+>如需停用及重新啟用群組的說明，請參閱文章[檢視及管理群組詳細資料](../../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-manage-a-groups-details.md)中的[檢視及管理群組詳細資料](../../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-manage-a-groups-details.md#view)及[檢視及管理群組詳細資料](../../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-manage-a-groups-details.md#inactive)小節。
 
-1. 按一下 **主菜單** 圖示 ![](assets/main-menu-icon.png) 在Adobe Workfront的右上角，然後按一下 **設定** ![](assets/gear-icon-settings.png).
+1. 按一下Adobe Workfront右上角的&#x200B;**主要功能表**&#x200B;圖示![](assets/main-menu-icon.png)，然後按一下&#x200B;**設定** ![](assets/gear-icon-settings.png)。
 
-1. 在左側面板中，按一下 **群組** ![](assets/groups-icon.png).
+1. 在左側面板中，按一下&#x200B;**群組** ![](assets/groups-icon.png)。
 
-1. 選取您要建立頂層群組之群組的父群組，然後按一下「編輯」圖示 ![](assets/edit-icon.png).
-1. 在 **編輯群組** 框，位於 **群組成員和群組管理員**，開始鍵入要建立頂級組的子組的名稱，然後在出現時按一下名稱右側的X。
-1. 按一下&#x200B;**儲存**。
+1. 選取您要建立最上層群組的父群組，然後按一下「編輯」圖示![](assets/edit-icon.png)。
+1. 在出現的&#x200B;**編輯群組**&#x200B;方塊中，在&#x200B;**群組成員和群組管理員**&#x200B;下方，開始輸入您要建立最上層群組的子群組名稱，然後在其名稱右側按一下X。
+1. 按一下「**儲存**」。
 
-## 查看和管理組的子組成員
+## 檢視和管理群組的子群組成員
 
-查看所管理組的首頁時，可以查看和管理組子組中的所有用戶。 如需指示，請參閱 [查看和管理子組成員](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/view-and-manage-subgroup-members.md).
+當您檢視所管理群組的首頁時，可以檢視和管理群組子群組中的所有使用者。 如需指示，請參閱[檢視和管理子群組成員](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/view-and-manage-subgroup-members.md)。
 
-## 關於複製子組 {#about-copying-a-subgroup}
+## 關於複製子群組 {#about-copying-a-subgroup}
 
-複製子組時，請考慮以下事項。
+複製子群組時，請考量下列事項。
 
-* 如果複製的子組有其自己的子組，則這些子組將包含在複製中，其名稱的格式如下：
+* 如果您複製的子群組有自己的子群組，它們會包含在複製中，其名稱的格式如下：
 
-   ```
-   Original subgroup name (Copy)
-   ```
+  ```
+  Original subgroup name (Copy)
+  ```
 
-* 屬於公用組的任何子組也是公用組，因此，具有編輯用戶訪問權限的任何用戶（在組內或組外）都可以向該子組添加用戶。
+* 屬於公用群組的任何子群組也是公用的，因此任何具有編輯 — 使用者存取權的使用者（在群組內或群組外）都可以將使用者新增至子群組。

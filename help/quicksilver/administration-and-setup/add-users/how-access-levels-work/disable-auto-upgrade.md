@@ -21,7 +21,7 @@ ht-degree: 1%
 
 新計畫的所有未付費Workfront授權校訂和檔案決定受限。 當使用者達到其分配數量的決定時，他們會依預設升級至輕度授權。
 
-您可以從設定區域停用自動升級選項。 若要進一步瞭解自動升級如何運作，請參閱 [非付費使用者的有限檔案和校訂決定概覽](/help/quicksilver/review-and-approve-work/proof-doc-decision-limits.md).
+您可以從設定區域停用自動升級選項。 若要深入瞭解自動升級如何運作，請參閱[非付費使用者的有限檔案與校訂決定概覽](/help/quicksilver/review-and-approve-work/proof-doc-decision-limits.md)。
 
 >[!IMPORTANT]
 >
@@ -56,6 +56,6 @@ ht-degree: 1%
 
 {{step-1-to-setup}}
 
-1. 展開 [!UICONTROL **系統**] 在左側導覽列中，然後按一下 [!UICONTROL **偏好設定**].
-1. 在 [!UICONTROL **一般偏好設定**] 區段，核取 [!UICONTROL **停用存取層級內的自動升級**] 方塊。
-1. 按一下&#x200B;[!UICONTROL **儲存**]。
+1. 展開左側導覽中的&#x200B;[!UICONTROL **系統**]，然後按一下&#x200B;[!UICONTROL **偏好設定**]。
+1. 在&#x200B;[!UICONTROL **一般偏好設定**]&#x200B;區段中，勾選&#x200B;[!UICONTROL **停用存取層級內的自動升級**]&#x200B;方塊。
+1. 按一下「[!UICONTROL **儲存**]」。

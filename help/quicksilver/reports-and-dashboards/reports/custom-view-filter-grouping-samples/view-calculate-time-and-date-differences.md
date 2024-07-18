@@ -62,7 +62,7 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-如需有關此表格的詳細資訊，請參閱 [Workfront檔案中的存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -73,16 +73,16 @@ ht-degree: 0%
 ![](assets/view-planned-actual-completion-dates-datediff-column-new.png)
 
 1. 前往工作清單。
-1. 從 **檢視** 下拉式功能表，按一下 **新檢視**.
+1. 從&#x200B;**檢視**&#x200B;下拉式功能表，按一下&#x200B;**新增檢視**。
 
-1. 按一下 **新增欄** 並開始在「 」中輸入「規劃完成日期」 **顯示在此欄中** 欄位，然後在清單中顯示時選取它。
+1. 按一下&#x200B;**新增欄**&#x200B;並開始在&#x200B;**顯示在此欄**&#x200B;欄位中輸入「規劃完成日期」，然後當它顯示在清單中時選取它。
 
-1. 按一下 **新增欄** 並開始在 **顯示在此欄中** 欄位，然後在清單中顯示時選取它。
+1. 按一下&#x200B;**新增欄**&#x200B;並開始在&#x200B;**顯示在此欄**&#x200B;欄位中輸入「實際完成日期」，然後當它顯示在清單中時選取它。
 
-1. 按一下 **新增欄**，然後按一下 **切換到文字模式**.
+1. 按一下&#x200B;**新增資料行**，然後按一下&#x200B;**切換到文字模式**。
 
-1. 暫留在文字模式區域上，然後按一下 **按一下以編輯文字**.
-1. 移除您在「 」中找到的文字 **文字模式** 方塊，並以下列程式碼取代：
+1. 暫留在文字模式區域上，然後按一下&#x200B;**按一下以編輯文字**。
+1. 移除您在&#x200B;**文字模式**&#x200B;方塊中找到的文字，並取代為下列程式碼：
 
    ```
     displayname=Planned-Actual Completion Date
@@ -93,26 +93,26 @@ ht-degree: 0%
     valueformat=HTML
    ```
 
-1. 按一下 **儲存**，然後 **儲存檢視**.
+1. 按一下&#x200B;**儲存**，然後按一下&#x200B;**儲存檢視**。
 
 ## 計算物件上的欄位與父物件上其他欄位之間的時間和日期差異
 
-如需物件及其父項的清單，請參閱下列章節中的「瞭解物件的相互相依性和階層」 [瞭解Adobe Workfront中的物件](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).\
+如需物件及其父項的清單，請參閱[瞭解Adobe Workfront中的物件](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)中的「瞭解物件的相依性和階層」一節。\
 例如，您可以計算任務的計畫完成日期與其父系任務或任務所在專案計畫完成日期之間的差異。
 
 ![](assets/view-project-planned-task-planned-completion-dates-datediff-column-new.png)
 
 1. 前往工作清單。
-1. 從 **檢視** 下拉式功能表，按一下 **新檢視**.
+1. 從&#x200B;**檢視**&#x200B;下拉式功能表，按一下&#x200B;**新增檢視**。
 
-1. 按一下 **新增欄** 並開始輸入「專案計畫完成日期」或「父級完成日期」 **顯示在此欄中** 欄位，然後在清單中顯示時選取它。
+1. 按一下&#x200B;**新增欄**，並在&#x200B;**顯示在此欄**&#x200B;欄位中開始輸入「專案計畫完成日期」或「父級完成日期」，然後在其顯示在清單中時選取它。
 
-1. 按一下 **新增欄** 並開始在「 」中輸入「規劃完成日期」 **顯示在此欄中** 欄位，然後在清單中顯示時選取它。
+1. 按一下&#x200B;**新增欄**&#x200B;並開始在&#x200B;**顯示在此欄**&#x200B;欄位中輸入「規劃完成日期」，然後當它顯示在清單中時選取它。
 
-1. 按一下 **新增欄**，然後按一下 **切換到文字模式**.
+1. 按一下&#x200B;**新增資料行**，然後按一下&#x200B;**切換到文字模式**。
 
-1. 暫留在文字模式區域上，然後按一下 **按一下以編輯文字**.
-1. 移除您在「 」中找到的文字 **文字模式** 方塊，然後以下列其中一個程式碼取代：
+1. 暫留在文字模式區域上，然後按一下&#x200B;**按一下以編輯文字**。
+1. 移除您在&#x200B;**文字模式**&#x200B;方塊中找到的文字，並以下列其中一個程式碼取代：
 
    * 若要顯示專案與任務之計畫完成日期之間的差異：
 
@@ -131,4 +131,4 @@ ht-degree: 0%
       displayname=Parent Planned Completion - Planned Completion (Days)
      ```
 
-1. 按一下 **儲存**，然後 **儲存檢視**.
+1. 按一下&#x200B;**儲存**，然後按一下&#x200B;**儲存檢視**。

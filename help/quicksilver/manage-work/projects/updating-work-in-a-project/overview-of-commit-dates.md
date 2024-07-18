@@ -16,17 +16,17 @@ ht-degree: 0%
 
 # 認可日期總覽
 
-<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它僅適用於所有客戶的預覽環境，或適用於啟用快速發行的客戶的生產環境。</span>
+<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它只能在「預覽」環境中供所有客戶使用，或在「生產」環境中供啟用快速發行的客戶使用。</span>
 
-<span class="preview">如需快速發行版本的相關資訊，請參閱 [啟用或停用組織的快速發行](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
+<span class="preview">如需快速發行資訊，請參閱[為您的組織啟用或停用快速發行](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
 
-<span class="preview">如需目前版本的相關資訊，請參閱 [2024年第三季度版本總覽](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).</span>
+<span class="preview">如需目前版本的相關資訊，請參閱[2024年第三季版本總覽](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md)。</span>
 
 認可日期是指指派給任務或問題的使用者認可完成任務或問題的日期。
 
 這與任務或問題的規劃完成日期不同，因為這是僅由負責工作的使用者提供的完成日期更實際的估計值。
 
-有關計畫完成日期的資訊，請參閱 [任務計畫完成日期總覽](../../../manage-work/tasks/task-information/task-planned-completion-date.md).
+如需計畫完成日期的詳細資訊，請參閱[任務計畫完成日期的總覽](../../../manage-work/tasks/task-information/task-planned-completion-date.md)。
 
 ## 認可日期總覽
 
@@ -37,9 +37,9 @@ ht-degree: 0%
   當您建立任務或問題時，沒有指派給任務或問題的認可日期。
 * 如果您被指派到任務或問題，則可以執行下列操作之一來設定「認可日期」：
 
-   * 透過按一下任務或問題上的「處理任務」、「開始問題」或「開始任務」，讓Workfront設定認可日期以符合任務或問題的現有規劃完成日期。 有關將「處理它」按鈕取代為「開始」按鈕的資訊，請參閱  [將處理它按鈕取代為開始按鈕](../../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md).
+   * 透過按一下任務或問題上的「處理任務」、「開始問題」或「開始任務」，讓Workfront設定認可日期以符合任務或問題的現有規劃完成日期。 有關將[處理它]按鈕取代為[開始]按鈕的資訊，請參閱[將[處理它]按鈕取代為[開始]按鈕](../../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md)。
    * 根據您認為任務或問題可能完成的時間手動設定認可日期。 這是您作為受託人，對「專案經理」的估計與承諾，表示您將在特定日期前完成任務或問題。
-如需詳細資訊，請參閱 [更新任務和問題的認可日期](/help/quicksilver/manage-work/projects/updating-work-in-a-project/update-commit-date-on-tasks-and-issues.md).
+如需詳細資訊，請參閱[更新任務和問題的認可日期](/help/quicksilver/manage-work/projects/updating-work-in-a-project/update-commit-date-on-tasks-and-issues.md)。
 
 >[!NOTE]
 >
@@ -52,15 +52,15 @@ ht-degree: 0%
 >* 任務上的任何其他受指派人
 >* 擁有任務許可權的任何其他使用者。
 >
->如需有關工作擁有者的詳細資訊，請參閱 [編輯任務](../../../manage-work/tasks/manage-tasks/edit-tasks.md).
+>如需有關工作擁有者的詳細資訊，請參閱[編輯工作](../../../manage-work/tasks/manage-tasks/edit-tasks.md)。
 
 ## 找出任務和問題的認可日期
 
 您可以在Workfront的下列區域中找到任務和問題的認可日期：
 
 * 詳細資訊頁面
-* 在Workfront或群組管理員將其新增到您的版面配置範本後，顯示「摘要」面板。 如需詳細資訊，請參閱 [使用版面配置範本自訂首頁和摘要](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md).
-* <span class="preview">Workfront或群組管理員將任務或問題的標題新增到您的版面配置範本後。 如需詳細資訊，請參閱 [使用版面配置範本自訂物件標頭](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md). </span>
+* 在Workfront或群組管理員將其新增到您的版面配置範本後，顯示「摘要」面板。 如需詳細資訊，請參閱[使用配置範本自訂首頁和摘要](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md)。
+* <span class="preview">在Workfront或群組管理員將任務或問題的標題新增到您的版面配置範本後。 如需詳細資訊，請參閱[使用配置範本自訂物件標頭](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md)。</span>
 
 ## 變更認可日期所觸發的通知和更新 {#notifications-and-updates-triggered-by-changing-the-commit-date}
 
@@ -76,7 +76,7 @@ ht-degree: 0%
 
   ![](assets/project-owner-notification-update-stream-that-commit-date-affects-project-timeline.png)
 
-  當Workfront管理員在設定的更新摘要區域中啟用此更新時，認可日期的變更會顯示在任務或問題的更新區域中。 如需詳細資訊，請參閱 [系統追蹤更新](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md).
+  當Workfront管理員在設定的更新摘要區域中啟用此更新時，認可日期的變更會顯示在任務或問題的更新區域中。 如需詳細資訊，請參閱[系統追蹤的更新](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md)。
 
   如果專案所有者不想接受變更，我們建議他們使用「更新」區段中的「註解」索引標籤，將註解回覆給提出新日期的使用者，讓他們將「認可日期」變更回原始計畫日期，或選取新日期。
 
@@ -90,9 +90,9 @@ ht-degree: 0%
   >
   >如需詳細資訊，請參閱下列文章：
   >
-  >* [摘要概觀](/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md)
-  >* [使用版面配置範本自訂首頁和摘要](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md)
-  >* [使用版面配置範本自訂物件標頭](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md).
+  >* [摘要概述](/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md)
+  >* [使用配置範本自訂首頁和摘要](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md)
+  >* [使用配置範本自訂物件標頭](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md)。
 
 <!--this is no longer possible: 
 >[!NOTE]
@@ -107,7 +107,7 @@ ht-degree: 0%
 
 * 任務或問題的預計完成日期設定為相同日期，因為任務現在有更準確的指示可能完成的時間。
 
-  如需有關預計完成日期的詳細資訊，請參閱 [專案、任務和問題的預計完成日期總覽](../../../manage-work/projects/planning-a-project/project-projected-completion-date.md).
+  如需預計完成日期的詳細資訊，請參閱[專案、任務和問題的預計完成日期總覽](../../../manage-work/projects/planning-a-project/project-projected-completion-date.md)。
 
   ![](assets/task-projected-completion-date-in-details-highlighted-nwe-350x230.png)
 
@@ -121,11 +121,11 @@ ht-degree: 0%
 
   >[!TIP]
   >
-  >只有在Workfront管理員啟用在「設定」的更新摘要區域顯示認可日期時，才會將認可日期已變更的通知傳送給專案所有者。 如需詳細資訊，請參閱 [系統追蹤更新](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md).
+  >只有在Workfront管理員啟用在「設定」的更新摘要區域顯示認可日期時，才會將認可日期已變更的通知傳送給專案所有者。 如需詳細資訊，請參閱[系統追蹤的更新](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md)。
 
-有關更新工作專案時可用的其他功能的資訊，請參閱  [更新工作](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+如需有關更新工作專案時可用的其他功能的資訊，請參閱[更新工作](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md)。
 
-有關更新任務和問題的認可日期的資訊，請參閱 [更新任務和問題的認可日期](../../../manage-work/projects/updating-work-in-a-project/update-commit-date-on-tasks-and-issues.md).
+如需更新任務和問題的認可日期的詳細資訊，請參閱[更新任務和問題的認可日期](../../../manage-work/projects/updating-work-in-a-project/update-commit-date-on-tasks-and-issues.md)。
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

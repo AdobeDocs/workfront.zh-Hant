@@ -1,88 +1,87 @@
 ---
 product-area: workfront-integrations
 navigation-topic: workfront-for-slack
-title: 存取 [!DNL Adobe Workfront] 從 [!DNL Slack]
-description: 整合 [!DNL Adobe Workfront] with [!DNL Slack] 可讓您存取 [!DNL Workfront] ，或在 [!DNL Workfront] 使用斜線命令。 整合可透過任何 [!DNL Slack] 環境，包括 [!DNL Slack] 行動應用程式。
+title: 從 [!DNL Slack]存取 [!DNL Adobe Workfront]
+description: 整合 [!DNL Adobe Workfront] 與 [!DNL Slack] 可讓您從Slack存取 [!DNL Workfront] ，或在 [!DNL Workfront] 中使用斜線指令執行某些動作。 整合可從任何 [!DNL Slack] 環境使用，包括 [!DNL Slack] 行動應用程式。
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 5f531217-3bd6-4156-8b9f-eabc95d4df10
 source-git-commit: 65bfeafe67a10c72e87a02e0ece285df619fcb81
 workflow-type: tm+mt
-source-wordcount: '1075'
+source-wordcount: '1077'
 ht-degree: 1%
 
 ---
 
-# 存取 [!DNL Adobe Workfront] 從 [!DNL Slack]
+# 從[!DNL Slack]存取[!DNL Adobe Workfront]
 
-整合 [!DNL Adobe Workfront] with [!DNL Slack] 可讓您存取 [!DNL Workfront] 從 [!DNL Slack]，或執行 [!DNL Workfront] 使用斜線命令。 整合可透過任何 [!DNL Slack] 環境，包括 [!DNL Slack] 行動應用程式。
+將[!DNL Adobe Workfront]與[!DNL Slack]整合可讓您從[!DNL Slack]存取[!DNL Workfront]，或使用斜線命令在[!DNL Workfront]中執行某些動作。 整合可從任何[!DNL Slack]環境使用，包括[!DNL Slack]行動應用程式。
 
-您或您的 [!DNL Slack] 管理員必須安裝 [!DNL Workfront] 應用程式 [!DNL Slack] 例項 [!DNL Workfront] 從 [!DNL Slack]. 如需詳細資訊，請參閱 [設定Adobe Workfront以Slack](../../workfront-integrations-and-apps/using-workfront-with-slack/configure-workfront-for-slack.md).
+您或您的[!DNL Slack]管理員必須在您的[!DNL Slack]執行個體中安裝[!DNL Workfront]應用程式，才能使用[!DNL Slack]的[!DNL Workfront]。 如需詳細資訊，請參閱[為Slack設定Adobe Workfront](../../workfront-integrations-and-apps/using-workfront-with-slack/configure-workfront-for-slack.md)。
 
-## 關於斜線命令 {#about-slash-commands}
+## 關於斜線指令 {#about-slash-commands}
 
-使用時 [!DNL Slack]，請在訊息欄位內輸入訊息。 當您以斜線啟動訊息時，訊息會變成命令，其行為與簡單訊息不同。 命令會告訴 [!DNL Slack] 來執行動作。
+使用[!DNL Slack]時，您會在訊息欄位中輸入訊息。 當您以斜線啟動訊息時，它會變成命令，而且其行為與簡單訊息不同。 命令會通知[!DNL Slack]執行動作。
 
-您可以存取 [!DNL Workfront] 執行個體 [!DNL Slack] 在任何 [!DNL Slack] 頻道。
+您可以在任何[!DNL Slack]頻道中輸入斜線命令，以從[!DNL Slack]存取您的[!DNL Workfront]執行個體。
 
-在中使用斜線命令時，請記住以下事項 [!DNL Slack] 存取 [!DNL Workfront]:
+在[!DNL Slack]中使用斜線命令存取[!DNL Workfront]時，請記住下列事項：
 
-* 斜線命令區分大小寫。
-* 的命令 [!DNL Workfront] 只會顯示給您，無論您在哪個管道輸入。
-* 命令應一律以開頭 `/workfront` 或 `/wf`，後面接著空格，以及您要在中執行之動作的名稱 [!DNL Workfront].
+* 斜線指令區分大小寫。
+* [!DNL Workfront]的命令只對您可見，無論您在哪個管道輸入它們。
+* 命令應該一律以`/workfront`或`/wf`開頭，後面接著空格和您要在[!DNL Workfront]中執行的動作名稱。
 
-   這表示您的命令適用於 [!DNL Workfront] 應用程式。 的命令 [!DNL Workfront] 僅當已配置時才工作 [!DNL Workfront] 應用程式 [!DNL Slack] 例項。
+  這表示您的命令適用於[!DNL Workfront]應用程式。 [!DNL Workfront]的命令只有在您已使用您的[!DNL Slack]執行個體設定[!DNL Workfront]應用程式時才有效。
 
-對於可從Slack運行的所有命令的清單 [!DNL Workfront]，請參閱 [存取 [!DNL Workfront] 從 [!DNL Slack]](#access-workfront-from-a-slash-command-in-slack-access-workfront-from-a-slash-command-in-slack).
+如需可從[!DNL Workfront]的Slack執行的所有命令清單，請參閱 [!DNL Slack]](#access-workfront-from-a-slash-command-in-slack-access-workfront-from-a-slash-command-in-slack)中的[Access [!DNL Workfront] slash命令。
 
-## 登入 [!DNL Workfront] 從 [!DNL Slack] {#log-in-to-workfront-from-slack}
+## 從[!DNL Slack]登入[!DNL Workfront] {#log-in-to-workfront-from-slack}
 
-在Slack的訊息欄位中輸入任何命令時，系統會要求您登入 [!DNL Workfront] 第一個。\
-如需 [!DNL Workfront] 命令 [!DNL Slack]，請參閱 [存取 [!DNL Workfront] 從 [!DNL Slack]](#access-workfront-from-a-slash-command-in-slack-access-workfront-from-a-slash-command-in-slack) 一節。
+當您在Slack的訊息欄位中輸入任何命令時，將會要求您先登入[!DNL Workfront]。\
+如需來自[!DNL Slack]的[!DNL Workfront]命令的完整清單，請參閱本文章節 [!DNL Slack]](#access-workfront-from-a-slash-command-in-slack-access-workfront-from-a-slash-command-in-slack)中的[Access [!DNL Workfront] from a slash命令。
 
-登入 [!DNL Workfront] 從 [!DNL Slack]:
+若要從[!DNL Slack]登入[!DNL Workfront]：
 
-1. 登入 [!DNL Slack] 例項。
-1. 在任何通道中鍵入以下命令之一：\
+1. 登入您的[!DNL Slack]執行個體。
+1. 從任何色版中，鍵入下列指令之一：\
    `/workfront log in`
 
    或
 
    `/wf log in`
 
-1. 按一下 [!DNL Workfront] **[!UICONTROL 登入]** 回應中顯示的連結。\
-   新索引標籤隨即開啟，其中包含 [!DNL Workfront] 憑證。
+1. 按一下回應中顯示的[!DNL Workfront] **[!UICONTROL 登入]**&#x200B;連結。\
+   新標籤隨即開啟，其中包含[!DNL Workfront]認證的欄位。
 
-1. 按照提示登錄 [!DNL Workfront] 使用增強驗證、OAuth 2.0或您的安全斷言標籤語言(SAML)URL。
+1. 依照提示使用Enhanced Authentication、OAuth 2.0或您的安全性宣告標籤語言(SAML) URL登入[!DNL Workfront]。
 
    >[!NOTE]
    >
-   >* 當系統提示您輸入主機時 [!DNL Workfront] 帳戶，請使用此格式輸入： *yourCompany&#39;sDomain.my.workfront.com*. 您公司的網域通常是您公司的名稱。
-   >* 增強驗證必須在 [!DNL Workfront] 管理員會啟用此整合。
+   >* 當系統提示您輸入[!DNL Workfront]帳戶的主機時，請使用下列格式輸入該主機： *yourCompany&#39;sDomain.my.workfront.com*。 您公司的網域通常是您公司的名稱。
+   >* 增強式驗證必須由[!DNL Workfront]系統管理員針對這項整合啟用才能使用。
 
 
+   [!DNL Slack]中[!DNL Workfront]個通知的設定頁面隨即開啟。
 
-   的設定頁面 [!DNL Workfront] 通知 [!DNL Slack] 開啟。
+1. （選用）停用您不想在[!DNL Slack]中接收的任何[!DNL Workfront]通知。
 
-1. （選用）停用任何 [!DNL Workfront] 您不想在 [!DNL Slack].
+   如需有關為[!DNL Slack]設定[!DNL Workfront]設定的資訊，請參閱本文章的[設定設定](#configure-settings-configure-settings)一節
 
-   如需設定的相關資訊 [!DNL Workfront] 設定 [!DNL Slack]，請參閱 [配置設定](#configure-settings-configure-settings) 本文章節
+1. 導覽回您的[!DNL Slack]頻道。
 
-1. 導覽回您的 [!DNL Slack] 頻道。
+   您已從您的[!DNL Slack]執行個體登入[!DNL Workfront]。
 
-   您已登入 [!DNL Workfront] 從 [!DNL Slack] 例項。
+## 從[!DNL Slack]存取[!DNL Workfront]
 
-## 存取 [!DNL Workfront] 從 [!DNL Slack]
+* [關於斜線指令](#about-slash-commands-about-slash-commands)
+* [從 [!DNL Slack]中的共用連結存取 [!DNL Workfront] ](#access-workfront-from-a-shared-link-in-slack-access-workfront-from-a-shared-link-in-slack)
 
-* [關於斜線命令](#about-slash-commands-about-slash-commands)
-* [存取 [!DNL Workfront] 從 [!DNL Slack]](#access-workfront-from-a-shared-link-in-slack-access-workfront-from-a-shared-link-in-slack)
+## 從[!DNL Slack]中的斜線命令存取[!DNL Workfront] {#access-workfront-from-a-slash-command-in-slack}
 
-## 存取 [!DNL Workfront] 從 [!DNL Slack] {#access-workfront-from-a-slash-command-in-slack}
+1. 登入您的[!DNL Slack]執行個體並從[!DNL Slack]登入[!DNL Workfront]。\
+   如需有關從[!DNL Slack]登入[!DNL Workfront]的詳細資訊，請參閱[從 [!DNL Slack]](#log-in-to-workfront-from-slack-log-in-to-workfront-from-slack)登入 [!DNL Workfront] 
 
-1. 登入 [!DNL Slack] 執行個體和登入 [!DNL Workfront] 從 [!DNL Slack].\
-   如需登入的詳細資訊，請參閱 [!DNL Workfront] 從 [!DNL Slack]，請參閱 [登入 [!DNL Workfront] 從 [!DNL Slack]](#log-in-to-workfront-from-slack-log-in-to-workfront-from-slack)
-
-1. 從任何通道，開始在消息欄位中鍵入以下命令：
+1. 從任何通道中，開始在訊息欄位中輸入以下命令：
 
    `/workfront help`
 
@@ -90,63 +89,63 @@ ht-degree: 1%
 
    `/wf help`
 
-1. 從以下命令中選擇：
+1. 從下列命令中選取：
 
    * `/wf home`
 
-      顯示可從中訪問任務、問題和批准清單的按鈕。 按一下其中一個按鈕，會顯示 [!DNL Slack].
+     顯示您可以存取任務、問題和核准清單的按鈕。 按一下其中一個按鈕會顯示[!DNL Slack]中每個清單的前20個專案。
 
-      如需管理的詳細資訊 [!DNL Workfront] 工作項 [!DNL Slack]，請參閱 [管理您的工作和批准 [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/manage-your-work-and-approvals-from-slack.md).
+     如需有關從[!DNL Slack]管理[!DNL Workfront]個工作專案的詳細資訊，請參閱[從 [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/manage-your-work-and-approvals-from-slack.md)管理您的工作和核准。
 
    * `/wf add task <TaskName>`
 
-      在中納入要顯示的任務名稱 [!DNL Workfront] 介面。
+     包含將顯示在[!DNL Workfront]介面中的工作名稱。
 
-      將任務添加到 [!DNL Workfront].
+     將工作新增至[!DNL Workfront]。
 
-      有關將任務添加到 [!DNL Workfront] 從Slack，請參閱「從 [!DNL Slack]「 」部分 [從建立任務和問題 [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/create-tasks-and-issues-from-slack.md).
+     如需有關從Slack新增任務到[!DNL Workfront]的詳細資訊，請參閱[從 [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/create-tasks-and-issues-from-slack.md)建立任務和問題中的「從[!DNL Slack]建立任務」一節。
 
    * `/wf add issue <Issue Name>`
 
-      在中納入問題的名稱，使其顯示於 [!DNL Workfront] 介面。
+     包含將顯示在[!DNL Workfront]介面中的問題名稱。
 
-      將問題新增至 [!DNL Workfront]
+     新增問題至[!DNL Workfront]
 
-      如需將問題新增至 [!DNL Workfront] 從 [!DNL Slack]，請參閱「建立問題來自 [!DNL Slack]「 」部分 [從建立任務和問題 [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/create-tasks-and-issues-from-slack.md).
+     如需有關從[!DNL Slack]新增問題到[!DNL Workfront]的詳細資訊，請參閱[從 [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/create-tasks-and-issues-from-slack.md)建立任務和問題中的「從[!DNL Slack]建立問題」一節。
 
    * `/wf favorites`
 
-      顯示 [!DNL Workfront] 我的最愛。
+     顯示[!DNL Workfront]我的最愛清單。
 
-      有關從訪問收藏夾的詳細資訊 [!DNL Slack]，請參閱 [存取您的 [!UICONTROL 我的最愛] 清單來源 [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-favorites-and-recent-items-from-slack.md#accessing-favorites) 區段 [從以下位置訪問收藏夾和最近的項目 [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-favorites-and-recent-items-from-slack.md) 文章。
+     如需有關從[!DNL Slack]存取您的最愛的相關資訊，請參閱[存取您的最愛和最近專案 [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-favorites-and-recent-items-from-slack.md)文章中的[從 [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-favorites-and-recent-items-from-slack.md#accessing-favorites)存取您的[!UICONTROL 我的最愛]清單區段。
 
    * `/wf recent`
 
-      顯示您最近存取的項目清單，位於 [!DNL Workfront].
+     顯示[!DNL Workfront]中最近存取專案的清單。
 
-      有關從以下位置訪問最近的項目的詳細資訊 [!DNL Slack]，請參閱 [存取您的 [!UICONTROL 最近項目] 清單來源 [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-favorites-and-recent-items-from-slack.md#accessing-recent-items) section in the [[!UICONTROL Access your favorites] 和 [!UICONTROL 最近的項目 [!DNL Slack]]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-favorites-and-recent-items-from-slack.md) 文章。
+     如需有關從[!DNL Slack]存取您最近專案的詳細資訊，請參閱[從 [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-favorites-and-recent-items-from-slack.md#accessing-recent-items) section in the [[!UICONTROL Access your favorites] 存取您的[!UICONTROL 最近專案]清單和從 [!DNL Slack]]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-favorites-and-recent-items-from-slack.md)存取最近專案[!UICONTROL 。
 
    * `wf tasks`
 
-      顯示任務清單。
+     顯示工作清單。
 
-      有關管理任務的詳細資訊，請參閱 [!DNL Slack]，請參閱「管理您的任務： [!DNL Slack]「 」部分 [管理您的工作和批准 [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/manage-your-work-and-approvals-from-slack.md).
+     如需有關從[!DNL Slack]管理您的任務的詳細資訊，請參閱[從 [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/manage-your-work-and-approvals-from-slack.md)管理您的工作和核准[!DNL Slack]中的「管理您的任務」一節。
 
    * `/wf issues`
 
-      顯示問題清單。
+     顯示問題清單。
 
-      如需管理問題的詳細資訊，請參閱 [!DNL Slack]，請參閱「管理您的問題： [!DNL Slack]「 」部分 [管理您的工作和批准 [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/manage-your-work-and-approvals-from-slack.md).
+     如需有關從[!DNL Slack]管理您的問題的詳細資訊，請參閱[從 [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/manage-your-work-and-approvals-from-slack.md)管理您的工作和核准中的「從[!DNL Slack]管理您的問題」一節。
 
-   * `/wf approvals` 顯示您的 [!DNL Workfront] 批准。\
+   * `/wf approvals`顯示您的[!DNL Workfront]核准。\
 
-      如需管理核准的詳細資訊，請參閱 [!DNL Slack]，請參閱「管理您的核准」 [!DNL Slack]「 」部分 [管理您的工作和批准 [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/manage-your-work-and-approvals-from-slack.md).
+     如需有關從[!DNL Slack]管理您的核准的詳細資訊，請參閱[從 [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/manage-your-work-and-approvals-from-slack.md)管理您的工作和核准中的「從[!DNL Slack]管理您的核准」一節。
 
    * `/wf search <keyword>`
 
-      包含關鍵字。
+     包含關鍵字。
 
-      搜尋特定關鍵字。 可以搜索以下類型對象：
+     搜尋特定關鍵字。 您可以搜尋下列型別物件：
 
       * 專案
       * 任務
@@ -159,42 +158,42 @@ ht-degree: 1%
       * 方案
       * 儀表板
       * 公司
-      * 備註  \
+      * 注意\
 
-         如需有關在中搜尋的詳細資訊 [!DNL Slack]，請參閱 [搜尋 [!DNL Adobe Workfront] 項目來自Slack](../../workfront-integrations-and-apps/using-workfront-with-slack/search-for-wf-items-from-slack.md).
+        如需在[!DNL Slack]中搜尋的詳細資訊，請參閱[從Slack](../../workfront-integrations-and-apps/using-workfront-with-slack/search-for-wf-items-from-slack.md)搜尋 [!DNL Adobe Workfront] 專案。
    * `/wf log in`
 
-      將您登入 [!DNL Workfront] 從 [!DNL Slack].
+     從[!DNL Slack]將您登入[!DNL Workfront]。
 
    * `/wf log out `
 
-      將您登出 [!DNL Workfront] 從 [!DNL Slack]. 您仍保持登入狀態 [!DNL Workfront] 如果您有 [!DNL Workfront] 例項會在另一個應用程式上的其他瀏覽器標籤中開啟。
+     從[!DNL Slack]將您登出[!DNL Workfront]。 如果您在另一個應用程式的另一個瀏覽器標籤中開啟了單獨的[!DNL Workfront]執行個體，則您仍會登入[!DNL Workfront]。
    * `/wf settings`
 
-      提供您設定 [!DNL Workfront] 設定 [!DNL Slack].
+     可讓您在[!DNL Slack]中設定[!DNL Workfront]設定。
 
-      如需設定的相關資訊 [!DNL Workfront] Slack中的設定，請參閱 [配置設定](#configure-settings-configure-settings).
+     如需有關在Slack中設定[!DNL Workfront]設定的資訊，請參閱[設定設定](#configure-settings-configure-settings)。
 
    * `/wf help`
-顯示命令的完整清單 [!DNL Workfront].
+顯示[!DNL Workfront]的完整命令清單。
 
 
-   * `Visit Workfront Help`:開啟 [!UICONTROL Slack] 區段 [!DNL Workfront] 說明網站（在新的瀏覽器標籤中）。
+   * `Visit Workfront Help`：在新的瀏覽器分頁中開啟[!DNL Workfront]說明網站上的[!UICONTROL Slack]區段。
 
 
-1. （可選）要刪除任何命令的消息，請將滑鼠移到包含該命令的Slack消息的右上角，然後按一&#x200B;下&#x200B;**[!UICONTROL 顯示消息操作]**，然後按一下 **[!UICONTROL 刪除訊息]**.
+1. （選擇性）若要刪除任何命令的訊息，請將滑鼠移至包含命令的Slack訊息的右上角，然後按一下&#x200B;**[!UICONTROL 顯示訊息動作]**，然後按一下&#x200B;**[!UICONTROL 刪除訊息]**。
 
-1. （選用和條件式）按一下 **[!UICONTROL 刪除]** 確認要刪除此郵件。
+1. （選擇性和條件性）按一下&#x200B;**[!UICONTROL 刪除]**&#x200B;以確認您要刪除此訊息。
 
-### 存取 [!DNL Workfront] 從 [!DNL Slack] {#access-workfront-from-a-shared-link-in-slack}
+### 從[!DNL Slack]中的共用連結存取[!DNL Workfront] {#access-workfront-from-a-shared-link-in-slack}
 
-您可以存取 [!DNL Workfront] 對象從連結到與您共用的對象 [!DNL Slack].
+您可以透過連結存取[!DNL Workfront]物件，這些連結會連結到[!DNL Slack]中與您共用的物件。
 
-如需有關存取的詳細資訊 [!DNL Workfront] 從共用連結，請參閱 [存取 [!DNL Adobe Workfront] 對象來自 [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-wf-objects-from-shared-linked-in-slack.md).
+如需從共用連結存取[!DNL Workfront]的詳細資訊，請參閱 [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-wf-objects-from-shared-linked-in-slack.md)中的[從共用連結存取 [!DNL Adobe Workfront] 物件。
 
-## 配置設定 {#configure-settings}
+## 設定設定 {#configure-settings}
 
-1. 內 [!DNL Slack] 消息欄位，鍵入以下命令：
+1. 在[!DNL Slack]訊息欄位內，輸入下列命令：
 
    `/workfront settings`
 
@@ -204,18 +203,18 @@ ht-degree: 1%
 
    預設會啟用所有設定。
 
-1. 取消選取下列選項，以停用Workfront的設定：
+1. 取消選取下列選項，即可停用Workfront的設定：
 
-   * 在 **[!UICONTROL 一般設定]** 區域，禁用 **[!UICONTROL 貼上 [!DNL Workfront] URL，在 [!DNL Slack] 管道，顯示其他說明、到期日或請求者名稱]**&#x200B;設定 [!DNL Slack] 新增關於 [!DNL Workfront] 對象 [!UICONTROL Slack].
+   * 在&#x200B;**[!UICONTROL 一般設定]**&#x200B;區域中，停用&#x200B;**[!UICONTROL 在[!DNL Slack]頻道中貼上[!DNL Workfront] URL時，如果不想讓[!DNL Slack]在您共用[!UICONTROL Slack]中物件的URL時新增關於您的[!DNL Workfront]物件的其他資訊，請顯示額外的說明、到期日或要求者名稱]**&#x200B;設定。
 
-   * 在 **[!UICONTROL 通知設定]** 區域中，禁用您要停止接收來自Workfront的通知。\
+   * 在&#x200B;**[!UICONTROL 通知設定]**&#x200B;區域中，停用您要停止從Workfront接收的通知。\
 
-      有關接收的資訊 [!DNL Workfront] 通知 [!DNL Slack]，請參閱 [接收 [!DNL Adobe Workfront] 通知 [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/receive-workfront-notifications-in-slack.md).
+     如需有關在[!DNL Slack]接收[!DNL Workfront]通知的資訊，請參閱 [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/receive-workfront-notifications-in-slack.md)中的[接收 [!DNL Adobe Workfront] 通知。
 
-## 登出 [!DNL Workfront] 從 [!DNL Slack]
+## 從[!DNL Slack]登出[!DNL Workfront]
 
-1. 內 [!DNL Slack] 消息欄位，鍵入以下命令：\
-   `/workfront log out` 或\
+1. 在[!DNL Slack]訊息欄位內，輸入下列命令：\
+   `/workfront log out`或\
    `/wf log out`\
-   您會收到確認，確認您已登出 [!DNL Workfront].\
-   您仍保持登入狀態 [!DNL Workfront] 如果您有 [!DNL Workfront] 例項會在另一個應用程式上的其他瀏覽器標籤中開啟。
+   您會收到一則訊息，確認您已登出[!DNL Workfront]。\
+   如果您在另一個應用程式的另一個瀏覽器標籤中開啟了單獨的[!DNL Workfront]執行個體，則您仍會登入[!DNL Workfront]。

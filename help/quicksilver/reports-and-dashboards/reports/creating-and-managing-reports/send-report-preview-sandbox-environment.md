@@ -27,7 +27,7 @@ ht-degree: 0%
 
 您可以在測試環境中排程報表，但傳送方式與從生產環境傳送報表的方式不同。
 
-如需生產環境中傳送排程報表的相關資訊，請參閱 [報表傳送概覽](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md).
+如需有關在生產環境中排程傳送報告的資訊，請參閱[報告傳送概覽](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md)。
 
 根據您排程報告的位置，傳送功能在「預覽」和「自訂重新整理」沙箱中有所不同。
 
@@ -49,16 +49,16 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定*</td> 
-   <td> <p>編輯報告、儀表板、行事曆的存取權</p> <p>編輯對篩選器、檢視、群組的存取權</p> <p>注意：如果您還是沒有存取權，請詢問您的Workfront管理員，他們是否在您的存取層級中設定其他限制。 如需有關Workfront管理員如何修改您的存取層級的資訊，請參閱 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>.</p> </td> 
+   <td> <p>編輯報告、儀表板、行事曆的存取權</p> <p>編輯對篩選器、檢視、群組的存取權</p> <p>注意：如果您還是沒有存取權，請詢問您的Workfront管理員，他們是否在您的存取層級中設定其他限制。 如需Workfront管理員如何修改存取層級的詳細資訊，請參閱<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">物件許可權</td> 
-   <td> <p>管理報表的許可權</p> <p>如需請求其他存取許可權的詳細資訊，請參閱 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">要求物件的存取權 </a>.</p> </td> 
+   <td> <p>管理報表的許可權</p> <p>如需請求其他存取權的資訊，請參閱<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">請求物件</a>的存取權。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;若要瞭解您擁有的計畫、授權型別或存取權，請聯絡您的Workfront管理員。
+&#42;若要瞭解您擁有的計畫、授權型別或存取權，請連絡您的Workfront管理員。
 
 ## 在預覽環境中排程報表
 
@@ -66,28 +66,28 @@ ht-degree: 0%
 
 ### 在預覽環境中排程報表
 
-是否會在預覽環境中產生傳遞的報表，取決於是否 **接收來自此測試環境的電子郵件** 已啟用或未啟用。
+是否在[預覽]環境中產生傳遞的報表，取決於&#x200B;**是否啟用從此測試環境接收電子郵件**。
 
-如需有關從沙箱環境啟用電子郵件的資訊，請參閱 [啟用從預覽Sandbox環境傳送電子郵件](../../../workfront-basics/using-notifications/enable-delivery-emails-from-preview-sandbox-environment.md).
+如需有關啟用來自沙箱環境的電子郵件的資訊，請參閱[啟用來自預覽沙箱環境的電子郵件傳遞](../../../workfront-basics/using-notifications/enable-delivery-emails-from-preview-sandbox-environment.md)。
 
 ![](assets/receive-emails-from-sandbox-setting-edit-350x223.png)
 
-在「預覽」環境中排程傳送的報告與在「生產」環境中排程報告相同。 如需排程報表傳送的詳細資訊，請參閱 [報表傳送概覽](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md).
+在「預覽」環境中排程傳送的報告與在「生產」環境中排程報告相同。 如需排程報表傳送的相關資訊，請參閱[報表傳送概述](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md)。
 
 當您在預覽環境中排程報表以進行傳送時，會出現下列情況：
 
-* 時間 **接收來自此測試環境的電子郵件** 已針對接收報表的使用者停用，在排程報表傳送時不會產生檔案。
-* 時間 **接收來自此測試環境的電子郵件** 會針對接收報告的使用者啟用，在排程報告傳送時產生的檔案會新增到使用者的檔案索引標籤中。
+* 當&#x200B;**從此測試環境接收電子郵件**&#x200B;對接收報告的使用者停用時，排程傳送報告時不會產生任何檔案。
+* 當針對接收報告的使用者啟用&#x200B;**接收來自此測試環境的電子郵件**&#x200B;時，排程傳送報告時產生的檔案會新增到使用者的[檔案]索引標籤中。
 
 ## 在自訂重新整理沙箱環境中排程報表
 
 自訂重新整理沙箱中是否會產生傳遞的報表，取決於是否啟用從此測試環境接收電子郵件設定。
 
-如需有關從預覽環境啟用電子郵件的資訊，請參閱區段 [檢視並修改您的電子郵件通知設定](../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md#view) 在文章中 [修改您自己的電子郵件通知](../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+如需有關從預覽環境啟用電子郵件的資訊，請參閱[修改您自己的電子郵件通知](../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md)一節中的[檢視並修改您的電子郵件通知設定](../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md#view)。
 
 ![](assets/receive-emails-from-sandbox-setting-edit-350x223.png)
 
-在自訂重新整理沙箱環境中排程傳送的報告與在生產環境中排程報告相同。 如需排程報表傳送的詳細資訊，請參閱 [報表傳送概覽](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md).
+在自訂重新整理沙箱環境中排程傳送的報告與在生產環境中排程報告相同。 如需排程報表傳送的相關資訊，請參閱[報表傳送概述](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md)。
 
 當您排程報表以在「自訂重新整理沙箱」環境中傳送時，會出現下列情況：
 

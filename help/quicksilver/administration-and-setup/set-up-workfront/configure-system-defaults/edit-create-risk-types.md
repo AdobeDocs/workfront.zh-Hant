@@ -2,28 +2,28 @@
 user-type: administrator
 product-area: system-administration
 navigation-topic: configure-system-defaults
-title: 編輯和建立風險類型
-description: 您可以在規劃階段為項目添加風險，以在批准任何工作之前識別潛在障礙。 風險是可能導致項目無法按時或在預算內完成的事件。
+title: 編輯和建立風險型別
+description: 您可以在計畫階段為專案新增風險，以在核准任何工作之前識別潛在障礙。 風險是可能導致專案無法按時完成或無法在預算內完成的事件。
 author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: f929806f-9087-4b64-be4b-70bbceaaeab0
 source-git-commit: 2fd772ffc667c4f32c6a7b0de9c87676ee6dd65b
 workflow-type: tm+mt
-source-wordcount: '457'
+source-wordcount: '459'
 ht-degree: 0%
 
 ---
 
-# 編輯和建立風險類型
+# 編輯和建立風險型別
 
 <!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.-->
 
-您可以在規劃階段為項目添加風險，以在批准任何工作之前識別潛在障礙。 風險是可能導致項目無法按時或在預算內完成的事件。
+您可以在計畫階段為專案新增風險，以在核准任何工作之前識別潛在障礙。 風險是可能導致專案無法按時完成或無法在預算內完成的事件。
 
 ## 存取需求
 
-您必須具備下列存取權，才能執行本文中的步驟：
+您必須具有下列存取權才能執行本文中的步驟：
 
 <table style="table-layout:auto"> 
  <col> 
@@ -35,59 +35,59 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 授權</td> 
-   <td>[!UICONTROL計畫]</td> 
+   <td>[！UICONTROL計畫]</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">訪問級別配置</td> 
-   <td> <p>您必須是 [!DNL Workfront] 管理員。</p> <p><b>注意</b>:如果您仍無法存取，請詢問您的 [!DNL Workfront] 管理員。 若要了解 [!DNL Workfront] 管理員可修改您的存取層級，請參閱 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>.</p> </td> 
+   <td role="rowheader">存取層級設定</td> 
+   <td> <p>您必須是[!DNL Workfront]管理員。</p> <p><b>注意</b>：如果您仍然沒有存取權，請詢問您的[!DNL Workfront]管理員是否對您的存取層級設定了其他限制。 如需[!DNL Workfront]管理員如何修改存取層級的詳細資訊，請參閱<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## 風險類型
+## 風險型別
 
-風險類型是您可用於風險的標籤，可用於為報告目的對風險進行分類。 這些區段會在 **[!UICONTROL 設定]** 區域 [!DNL Adobe Workfront] 管理員。 在 **[!UICONTROL 設定]** 區域中，這些規則對您的系統是通用的。 所有項目所有者都可以使用相同的風險類型來處理其項目。
+風險型別是可用於風險的標籤，可將其分類以用於報表用途。 它們由[!DNL Adobe Workfront]管理員在&#x200B;**[!UICONTROL 設定]**&#x200B;區域中建立。 在您的&#x200B;**[!UICONTROL 設定]**&#x200B;區域中建立風險型別後，這些風險型別對您的系統而言是通用的。 所有專案擁有者都可針對其專案使用相同的風險型別。
 
-## 編輯和建立風險類型
+## 編輯和建立風險型別
 
-某些風險類型已在 [!DNL Workfront]，預設為。 要反映組織的需求，您可以編輯現有的風險類型或建立新的風險類型。
+某些風險型別預設已在[!DNL Workfront]中。 若要反映貴組織的需求，您可以編輯現有的風險型別，或建立新的風險型別。
 
-* [編輯現有風險類型](#edit-existing-risk-types)
-* [建立新的風險類型](#create-new-risk-types)
+* [編輯現有的風險型別](#edit-existing-risk-types)
+* [建立新的風險型別](#create-new-risk-types)
 
-### 編輯現有風險類型 {#edit-existing-risk-types}
+### 編輯現有的風險型別 {#edit-existing-risk-types}
 
-1. 按一下 **[!UICONTROL 主菜單]** 圖示 ![](assets/main-menu-icon.png) 在 [!DNL Adobe Workfront]，然後按一下 **[!UICONTROL 設定]** ![](assets/gear-icon-settings.png).
+1. 按一下[!DNL Adobe Workfront]右上角的&#x200B;**[!UICONTROL 主要功能表]**&#x200B;圖示![](assets/main-menu-icon.png)，然後按一下&#x200B;**[!UICONTROL 設定]** ![](assets/gear-icon-settings.png)。
 
-1. 按一下 **[!UICONTROL 風險類型]**.
-1. 選擇要編輯的風險類型。
-1. 按一下 **[!UICONTROL 編輯]**.
-1. （可選）更改風險類型的名稱和說明。
+1. 按一下&#x200B;**[!UICONTROL 風險型別]**。
+1. 選取您要編輯的風險型別。
+1. 按一下&#x200B;**[!UICONTROL 編輯]**。
+1. （選擇性）變更風險型別的名稱和說明。
 
-   若 **[!UICONTROL 名稱]** 和 **[!UICONTROL 說明]** 欄位。
+   **[!UICONTROL Name]**&#x200B;和&#x200B;**[!UICONTROL Description]**&#x200B;欄位有50個字元的字元限制。
 
-1. 按一下 **[!UICONTROL 儲存變更].**
+1. 按一下&#x200B;**[!UICONTROL 儲存變更]。**
 
-### 建立新的風險類型 {#create-new-risk-types}
+### 建立新的風險型別 {#create-new-risk-types}
 
-除了預設風險類型外，您還可以建立新的風險類型，以反映貴組織的需求。
+除了預設風險型別外，您還可以建立新的風險型別以反映組織的需求。
 
-要建立新的風險類型，請執行以下操作：
+若要建立新的風險型別，請執行下列步驟：
 
-1. 按一下 **[!UICONTROL 主菜單]** 圖示 ![](assets/main-menu-icon.png) 在 [!DNL Adobe Workfront]，然後按一下 **[!UICONTROL 設定]** ![](assets/gear-icon-settings.png).
+1. 按一下[!DNL Adobe Workfront]右上角的&#x200B;**[!UICONTROL 主要功能表]**&#x200B;圖示![](assets/main-menu-icon.png)，然後按一下&#x200B;**[!UICONTROL 設定]** ![](assets/gear-icon-settings.png)。
 
-1. 按一下 **[!UICONTROL 風險類型]**.
-1. 按一下 **[!UICONTROL 新風險類型]**.
-1. 輸入 **[!UICONTROL 名稱]** （必要）和a **[!UICONTROL 說明]** （選用）。
+1. 按一下&#x200B;**[!UICONTROL 風險型別]**。
+1. 按一下&#x200B;**[!UICONTROL 新增風險型別]**。
+1. 輸入風險型別的&#x200B;**[!UICONTROL Name]** （必要）和&#x200B;**[!UICONTROL Description]** （選用）。
 
-   若 **[!UICONTROL 名稱]** 和 **[!UICONTROL 說明]** 欄位。
+   **[!UICONTROL Name]**&#x200B;和&#x200B;**[!UICONTROL Description]**&#x200B;欄位有50個字元的字元限制。
 
-1. 按一下 **[!UICONTROL 建立風險類型]**. 如果您使用行內編輯來添加風險類型，請按一下 **[!UICONTROL 輸入]** 等你完成。
+1. 按一下&#x200B;**[!UICONTROL 建立風險型別]**。 如果您使用內嵌編輯來新增您的風險型別，請在完成時按一下&#x200B;**[!UICONTROL Enter]**。
 
    >[!NOTE]
    >
-   >如果您需要編輯自訂風險類型，請參閱區段 [[!UICONTROL 編輯現有] 風險類型](#edit-existing-risk-types) 這篇文章。
+   >如果您需要編輯自訂風險型別，請參閱本文章的[[!UICONTROL 編輯現有]風險型別](#edit-existing-risk-types)小節。
 
-## 在項目上附加風險類型
+## 在專案上附加風險與風險型別
 
-風險類型可用於標籤添加到項目中的風險。 有關如何向項目添加風險的詳細資訊，請參閱 [建立和編輯項目風險](../../../manage-work/projects/define-a-business-case/create-edit-risks-on-projects.md).
+風險型別可用於標示新增至專案的風險。 如需如何新增風險至專案的詳細資訊，請參閱[在專案上建立與編輯風險](../../../manage-work/projects/define-a-business-case/create-edit-risks-on-projects.md)。

@@ -13,9 +13,9 @@ ht-degree: 0%
 
 ---
 
-# 安裝  [!DNL Adobe Workfront] 外掛程式 [!DNL Creative Cloud] 應用
+# 安裝[!DNL Creative Cloud]應用程式的[!DNL Adobe Workfront]外掛程式
 
-本節包含下列文章。 有關安裝的指示 [!DNL Adobe Workfront] 外掛程式，請參閱文章，瞭解您安裝外掛程式的應用程式。
+本節包含下列文章。 如需有關安裝[!DNL Adobe Workfront]外掛程式的說明，請參閱您要安裝外掛程式之應用程式的文章。
 
 * [安裝並開啟 [!DNL Adobe Workfront for Photoshop]](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install-ps.md)
 * [安裝並開啟 [!DNL Adobe Workfront for XD]](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-xd-install.md)

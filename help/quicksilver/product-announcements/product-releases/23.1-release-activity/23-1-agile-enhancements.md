@@ -17,7 +17,7 @@ ht-degree: 0%
 
 本頁說明預覽環境的23.1版本所做的所有敏捷增強功能。 這些增強功能將在2023年1月16日當週的生產環境中提供。
 
-如需23.1版所有可用變更的清單，請參閱 [23.1版本總覽](/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-release-overview.md).
+如需23.1版本可用的所有變更清單，請參閱[23.1版本總覽](/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-release-overview.md)。
 
 ## Workfront主機板的Scrum規劃
 
@@ -41,7 +41,7 @@ Workfront面板中連線卡片的到期日現在對應至關聯Workfront物件�
 
 連線的卡片和臨機卡片上的到期日期現在也包含時間欄位。
 
-如需詳細資訊，請參閱 [在展示板上使用連線的卡片](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
+如需詳細資訊，請參閱[使用主機板上的連線卡](/help/quicksilver/agile/get-started-with-boards/connected-cards.md)。
 
 [觀看此功能的影片示範](https://video.tv.adobe.com/v/3411952/){target=_blank}
 
@@ -55,7 +55,7 @@ Workfront面板中連線卡片的到期日現在對應至關聯Workfront物件�
 
 以前檢查清單專案和子任務未連結。 如果您想在展示板上加入子任務，您可以將它匯入為個別的連線卡片，或手動將檢查清單專案新增到卡片。
 
-如需詳細資訊，請參閱 [在展示板上使用連線的卡片](/help/quicksilver/agile/get-started-with-boards/connected-cards.md) 和 [管理卡片上的檢查清單專案](/help/quicksilver/agile/get-started-with-boards/manage-checklist-items.md).
+如需詳細資訊，請參閱[在面板上使用連線的卡片](/help/quicksilver/agile/get-started-with-boards/connected-cards.md)和[管理卡片上的檢查清單專案](/help/quicksilver/agile/get-started-with-boards/manage-checklist-items.md)。
 
 [觀看此功能的影片示範](https://video.tv.adobe.com/v/3411951/){target=_blank}
 
@@ -67,7 +67,7 @@ Workfront面板中連線卡片的到期日現在對應至關聯Workfront物件�
 
 有新的組態設定可開啟展示板上所有欄的卡片計數器。 如果您在欄上使用WIP限制，則不會新增個別的卡片計數器。
 
-如需詳細資訊，請參閱 [管理展示板欄](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md).
+如需詳細資訊，請參閱[管理主機板資料行](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md)。
 
 ## 在面板控制面板上搜尋和排序
 
@@ -77,7 +77,7 @@ Workfront面板中連線卡片的到期日現在對應至關聯Workfront物件�
 
 您現在可以依展示板名稱或日期來排序展示板，並在清單中搜尋特定展示板。
 
-如需詳細資訊，請參閱 [使用面板儀表板](/help/quicksilver/agile/get-started-with-boards/use-boards-page.md).
+如需詳細資訊，請參閱[使用面板儀表板](/help/quicksilver/agile/get-started-with-boards/use-boards-page.md)。
 
 ## 狀態會顯示在卡片上
 
@@ -87,9 +87,9 @@ Workfront面板中連線卡片的到期日現在對應至關聯Workfront物件�
 
 如果展示板上的卡片已指派狀態，狀態現在會顯示在卡片上，因此您不必開啟卡片即可檢視狀態。 此增強功能同時適用於ad hoc卡和連線卡。
 
-如需詳細資訊，請參閱 [在展示板上使用連線的卡片](/help/quicksilver/agile/get-started-with-boards/connected-cards.md) 和 [新增臨機卡到展示板](/help/quicksilver/agile/get-started-with-boards/add-card-to-board.md).
+如需詳細資訊，請參閱[在展示板上使用連線的卡片](/help/quicksilver/agile/get-started-with-boards/connected-cards.md)和[將臨機操作卡片新增到展示板](/help/quicksilver/agile/get-started-with-boards/add-card-to-board.md)。
 
-![卡片上的狀態](/help/quicksilver/product-announcements/product-releases/assets/boards-connected-card-details-110922.png)
+卡片上的![狀態](/help/quicksilver/product-announcements/product-releases/assets/boards-connected-card-details-110922.png)
 
 ## 可連結卡現在可在展示板上使用
 
@@ -109,7 +109,7 @@ https://<Workfront-URL>/boards/<board-id>/card/<card-id>.
 
 以前展示板有連結，但特定卡片沒有連結。
 
-如需卡片的相關資訊，請參閱 [新增臨機卡到展示板](/help/quicksilver/agile/get-started-with-boards/add-card-to-board.md) 和 [在展示板上使用連線的卡片](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
+如需有關卡片的資訊，請參閱[將臨機卡片新增到展示板](/help/quicksilver/agile/get-started-with-boards/add-card-to-board.md)和[使用展示板上連線的卡片](/help/quicksilver/agile/get-started-with-boards/connected-cards.md)。
 
 ## 在面板上依連線篩選
 
@@ -119,7 +119,7 @@ https://<Workfront-URL>/boards/<board-id>/card/<card-id>.
 
 展示板上的篩選器清單現在包含依連線篩選的選項，這會顯示特定專案的所有已連線卡片。 您也可以依未連線的卡片進行篩選。
 
-如需詳細資訊，請參閱 [在展示板中篩選和搜尋](/help/quicksilver/agile/get-started-with-boards/filter-search-in-board.md).
+如需詳細資訊，請參閱[在展示板中篩選和搜尋](/help/quicksilver/agile/get-started-with-boards/filter-search-in-board.md)。
 
 [觀看此功能的影片示範](https://video.tv.adobe.com/v/3412381/){target=_blank}
 
@@ -133,6 +133,6 @@ https://<Workfront-URL>/boards/<board-id>/card/<card-id>.
 
 如果您想在卡片從展示板掉落後再次顯示卡片，您可以將展示板篩選器設定為顯示已封存的卡片。
 
-如需詳細資訊，請參閱 [設定卡片縮減](/help/quicksilver/agile/use-boards-agile-planning-tools/configure-card-falloff.md).
+如需詳細資訊，請參閱[設定卡片縮減](/help/quicksilver/agile/use-boards-agile-planning-tools/configure-card-falloff.md)。
 
 [觀看此功能的影片示範](https://video.tv.adobe.com/v/3412323/){target=_blank}

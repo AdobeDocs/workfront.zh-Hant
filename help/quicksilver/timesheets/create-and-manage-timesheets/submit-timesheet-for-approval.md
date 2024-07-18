@@ -35,11 +35,11 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定*</td> 
-   <td> <p>檢視任務或問題的存取權或以上許可權</p> <p>如果您還是沒有存取權，請詢問您的Workfront管理員，他們是否在您的存取層級中設定其他限制。 如需有關Workfront管理員如何修改您的存取層級的資訊，請參閱 <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>.</p> </td> 
+   <td> <p>檢視任務或問題的存取權或以上許可權</p> <p>如果您還是沒有存取權，請詢問您的Workfront管理員，他們是否在您的存取層級中設定其他限制。 如需Workfront管理員如何修改存取層級的詳細資訊，請參閱<a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">物件許可權</td> 
-   <td> <p>檢視或更高的任務和問題許可權</p> <p>如需請求其他存取許可權的詳細資訊，請參閱 <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">要求物件的存取權 </a>.</p> </td> 
+   <td> <p>檢視或更高的任務和問題許可權</p> <p>如需請求其他存取權的資訊，請參閱<a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">請求物件</a>的存取權。</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -53,53 +53,53 @@ ht-degree: 0%
 
 ### 提交時程表以供核准
 
-在時程表核准者設定後（如一節所述） [指定時程表核准者](../../timesheets/create-and-manage-timesheets/timesheet-approvals.md#designating-a-timesheet-approver) 在文章中 [核准時間表](../../timesheets/create-and-manage-timesheets/timesheet-approvals.md))， **關閉** 時程表底部的按鈕變更為 **提交以進行核准** 按鈕。
+在時程表核准者設定之後（如文章[核準時程表](../../timesheets/create-and-manage-timesheets/timesheet-approvals.md)中的[指定時程表核准者](../../timesheets/create-and-manage-timesheets/timesheet-approvals.md#designating-a-timesheet-approver)一節中所述），時程表底部的&#x200B;**關閉**&#x200B;按鈕變更為&#x200B;**提交核准**&#x200B;按鈕。
 
 若要提交時程表以供核准，請執行下列步驟：
 
 1. 移至已設定為擁有核准者的時程表。
-1. 記錄時間，如所述 [記錄時間](../../timesheets/create-and-manage-timesheets/log-time.md).
-1. 按一下 **提交以進行核准** 以啟動時程表核准流程。
+1. 記錄時間，如[記錄時間](../../timesheets/create-and-manage-timesheets/log-time.md)中所述。
+1. 按一下&#x200B;**提交核准**&#x200B;以啟動時程表核准流程。
 
    ![](assets/submit-for-approval-button-on-timesheet-nwe.png)
 
-   此 **提交以進行核准** 按鈕已取代為 **核准**， **拒絕**、和 **恢復** 按鈕。 時程表的狀態變更為 **已提交**.
+   **提交以供核准**&#x200B;按鈕已由&#x200B;**核准**、**拒絕**&#x200B;和&#x200B;**撤銷**&#x200B;按鈕取代。 時程表的狀態變更為&#x200B;**已提交**。
 
-   當您提交時程表以供核準時，核准者會看到 **核准** 區域 **首頁** 頁面。 可能會發生下列情況：
+   當您提交時程表以供核準時，核准者會在&#x200B;**首頁**&#x200B;頁面的&#x200B;**核准**&#x200B;區域中看到列出的時程表。 可能會發生下列情況：
 
-   * 如果他們核准， **恢復** 按鈕變更為 **重新開啟** 和時程表狀態更新至 **開啟**.
-   * 如果他們拒絕， **提交以進行核准** 按鈕取代 **恢復** 按鈕和時程表狀態更新為 **已拒絕**.
+   * 如果他們核准，**撤銷**&#x200B;按鈕將變更為&#x200B;**重新開啟**，而時程表狀態更新為&#x200B;**開啟**。
+   * 如果他們拒絕，則&#x200B;**提交以進行核准**&#x200B;按鈕會取代&#x200B;**撤銷**&#x200B;按鈕，而時程表狀態會更新為&#x200B;**已拒絕**。
 
-1. （選用）按一下 **恢復** 如果您需要重新開啟時程表並更新時間。 如需詳細資訊，請參閱 [撤回時程表](#recall-a-timesheet) 一節。
+1. （選擇性）如果您需要重新開啟時程表並更新您的時間，請按一下&#x200B;**撤銷**。 如需詳細資訊，請參閱本文中的[撤回時間表](#recall-a-timesheet)區段。
 
 ### 檢視已提交時程表的狀態 {#view-the-status-of-a-submitted-timesheet}
 
 您可以在提交時程表後檢視其狀態。
 
-如果Workfront管理員已啟用「使用者的時程表核准」和「使用者的時程表拒絕」事件處理常式，在核准或拒絕時程表後，您會收到通知。 如需啟用事件通知的詳細資訊，請參閱 [事件通知型別](../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md).
+如果Workfront管理員已啟用「使用者的時程表核准」和「使用者的時程表拒絕」事件處理常式，在核准或拒絕時程表後，您會收到通知。 如需啟用事件通知的詳細資訊，請參閱[事件通知型別](../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md)。
 
 如果沒有這些通知，您可以在Workfront的時程表區域中瞭解已提交時程表的狀態。
 
 若要檢視時程表的狀態：
 
-1. 按一下 **主要功能表** 圖示 ![](assets/main-menu-icon.png) 在Adobe Workfront的右上角。
-1. 按一下 **時間表**. 此 **全部** 依預設會選取篩選器。
+1. 按一下Adobe Workfront右上角的&#x200B;**主要功能表**&#x200B;圖示![](assets/main-menu-icon.png)。
+1. 按一下&#x200B;**時程表**。 依預設會選取&#x200B;**全部**&#x200B;篩選器。
 
    ![](assets/timesheet-list-one-timesheet-selected-nwe-350x70.png)
 
 1. （選用）執行下列任一項作業，更新時程表清單中的篩選器：
 
-   * 選取 **我的時程表核准** 在頁面的右上角，僅檢視您核准的時程表
+   * 選取頁面右上角的&#x200B;**我的時程表核准**，僅檢視您核准的時程表
 
      或
 
-     選取 **我的時間表** 以僅檢視您的時間表。
+     選取&#x200B;**我的時程表**&#x200B;以僅檢視您的時程表。
 
      這會套用我的時程表核准或我的時程表篩選器到時程表清單。
 
      ![](assets/my-timesheet-approvals-my-timesheets-pills-on-timesheets-list-nwe-350x58.png)
 
-   * 按一下篩選器圖示 ![](assets/filter-nwepng.png) 以套用不同的篩選，或建立新的篩選。 如需建立或更新篩選的資訊，請參閱 [在Adobe Workfront中建立或編輯篩選器](../../reports-and-dashboards/reports/reporting-elements/create-filters.md).
+   * 按一下「篩選」圖示![](assets/filter-nwepng.png)以套用不同的篩選，或建立新的篩選。 如需建立或更新篩選的資訊，請參閱[在Adobe Workfront中建立或編輯篩選器](../../reports-and-dashboards/reports/reporting-elements/create-filters.md)。
 
    >[!NOTE]
    >
@@ -107,11 +107,11 @@ ht-degree: 0%
    >
    >   
    >   
-   >   * [使用版面配置範本自訂篩選器、檢視和群組](../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)
+   >   * [使用配置範本自訂篩選器、檢視和群組](../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)
    >   
    >
 
-1. （視條件而定）如果您已選取 **我的時間表**，確認 **標準** 已套用檢視，請留意 **狀態** 欄。
+1. （視條件而定）若您選取&#x200B;**我的時程表**，請確定已套用&#x200B;**標準**&#x200B;檢視，並注意&#x200B;**狀態**&#x200B;欄。
 
    時程表可能有下列狀態：
 
@@ -120,12 +120,12 @@ ht-degree: 0%
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">未結</td> 
-      <td> <p>您的時程表目前未完成，您可以記錄時間。 </p> <p>已召回的時程表會顯示為「開啟」狀態。 如需詳細資訊，請參閱 <a href="#recall-a-timesheet" class="MCXref xref">撤回時程表</a> 一節。 </p> </td> 
+      <td role="rowheader">開啟</td> 
+      <td> <p>您的時程表目前未完成，您可以記錄時間。 </p> <p>已召回的時程表會顯示為「開啟」狀態。 如需詳細資訊，請參閱本文中的<a href="#recall-a-timesheet" class="MCXref xref">撤回時間表</a>區段。 </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">已提交</td> 
-      <td>您已提交時程表以供核准，但尚未獲得核准。 您可以撤回已提交的時程表以繼續編輯。 如需詳細資訊，請參閱 <a href="#recall-a-timesheet" class="MCXref xref">撤回時程表</a> 一節。 </td> 
+      <td>您已提交時程表以供核准，但尚未獲得核准。 您可以撤回已提交的時程表以繼續編輯。 如需詳細資訊，請參閱本文中的<a href="#recall-a-timesheet" class="MCXref xref">撤回時間表</a>區段。 </td> 
      </tr> 
      <tr> 
       <td role="rowheader">已關閉</td> 
@@ -148,11 +148,11 @@ ht-degree: 0%
 
 若要撤回時程表：
 
-1. 按一下 **主要功能表** 圖示 ![](assets/main-menu-icon.png) 在Adobe Workfront的右上角。
+1. 按一下Adobe Workfront右上角的&#x200B;**主要功能表**&#x200B;圖示![](assets/main-menu-icon.png)。
 
-1. 按一下 **時間表**.
-1. 按一下 **我的時間表** 在熒幕右上角或選取 **我的時間表** 從 **篩選** ![](assets/filter-nwepng.png) 下拉式功能表。
-1. 按一下狀態為的時程表的時間範圍 **已提交**.
-1. 按一下 **恢復**.
+1. 按一下&#x200B;**時程表**。
+1. 按一下畫面右上角的&#x200B;**我的時程表**，或從&#x200B;**篩選器** ![](assets/filter-nwepng.png)下拉式選單中選取&#x200B;**我的時程表**。
+1. 按一下狀態為&#x200B;**已提交**&#x200B;之時程表的時間範圍。
+1. 按一下&#x200B;**撤銷**。
 
-   時程表再次變為可編輯，其狀態變更為 **開啟**.
+   時程表再次變為可編輯，其狀態變更為&#x200B;**開啟**。

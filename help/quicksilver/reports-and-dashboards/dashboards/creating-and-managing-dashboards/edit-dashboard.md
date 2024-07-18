@@ -19,15 +19,15 @@ ht-degree: 1%
 
 * 報告
 
-  如需建立報表的詳細資訊，請參閱 [建立自訂報表](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+  如需建立報告的詳細資訊，請參閱[建立自訂報告](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md)。
 
 * 行事曆
 
-  如需建立行事曆的詳細資訊，請參閱 [行事曆：文章索引](../../../reports-and-dashboards/reports/calendars/calendars.md).
+  如需建立行事曆的詳細資訊，請參閱[行事曆：文章索引](../../../reports-and-dashboards/reports/calendars/calendars.md)。
 
 * 外部頁面
 
-  如需建立外部頁面的詳細資訊，請參閱 [將外部網頁內嵌在控制面板中](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-external-web-page-dashboard.md).
+  如需建立外部頁面的詳細資訊，請參閱[將外部網頁內嵌在儀表板中](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-external-web-page-dashboard.md)。
 
 建立這些專案並將它們新增到儀表板後，您可以編輯儀表板以新增更多專案、從其中移除現有專案或編輯儀表板資訊。
 
@@ -53,40 +53,40 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td role="rowheader"><strong>存取層級設定*</strong></td> 
-   <td> <p>編輯報告、儀表板和行事曆的存取權</p> <p>注意：如果您還是沒有存取權，請詢問您的Workfront管理員，他們是否在您的存取層級中設定其他限制。 如需有關Workfront管理員如何變更您的存取層級的資訊，請參閱 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>.</p> </td> 
+   <td> <p>編輯報告、儀表板和行事曆的存取權</p> <p>注意：如果您還是沒有存取權，請詢問您的Workfront管理員，他們是否在您的存取層級中設定其他限制。 如需Workfront管理員如何變更存取層級的詳細資訊，請參閱<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>物件許可權</strong></td> 
-   <td> <p>管理儀表板的許可權</p> <p>如需請求其他存取許可權的詳細資訊，請參閱 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">要求物件的存取權 </a>.</p> </td> 
+   <td> <p>管理儀表板的許可權</p> <p>如需請求其他存取權的資訊，請參閱<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">請求物件</a>的存取權。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;若要瞭解您擁有的計畫、授權型別或存取權，請聯絡您的Workfront管理員。
+&#42;若要瞭解您擁有的計畫、授權型別或存取權，請連絡您的Workfront管理員。
 
 ## 先決條件
 
 您必須先建立儀表板，才能進行編輯。
 
-如需建立控制面板的詳細資訊，請參閱 [建立儀表板](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-dashboard.md).
+如需有關建立儀表板的資訊，請參閱[建立儀表板](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-dashboard.md)。
 
 ## 編輯儀表板
 
 1. 前往您要編輯的控制面板。
-1. 按一下 **儀表板動作**，然後按一下 **編輯**.
+1. 按一下&#x200B;**儀表板動作**，然後按一下&#x200B;**編輯**。
 
    ![](assets/qs-dashboard-actions-menu-350x318.png)
 
    >[!TIP]
    >
-   >若要瞭解如何刪除儀表板，請參閱 [刪除儀表板](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/delete-dashboard.md).
+   >若要瞭解如何刪除控制面板，請參閱[刪除控制面板](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/delete-dashboard.md)。
 
 1. 請考慮編輯下列欄位：
 
-   * **名稱**：編輯控制面板的名稱。
-   * **說明**：指定控制面板的說明。
+   * **名稱**：編輯儀表板的名稱。
+   * **描述**：指定儀表板的描述。
 
-1. 在 **可用的報告與行事曆** 區段，開始在「 」中輸入報表、日曆或外部頁面的名稱 **依名稱或型別搜尋……** 欄位，然後將配置窗格中的報告或行事曆拖放到右側。
+1. 在&#x200B;**可用的報告與行事曆**&#x200B;區段中，開始在&#x200B;**依名稱或型別搜尋……**&#x200B;欄位中輸入報告、行事曆或外部頁面的名稱，然後將報告或行事曆拖放到右邊的配置窗格中。
 
    >[!NOTE]
    >
@@ -95,9 +95,9 @@ ht-degree: 1%
 1. （選擇性）按一下與您要的版面配置對應的選項按鈕，以選取控制面板的新版面。
 1. （可選）將滑鼠移到現有報表的名稱上，然後按一下垃圾桶圖示，即可將其從控制面板中移除。
 1. （可選）按一下報表名稱，拖曳至配置窗格中所需的位置，以變更報表在控制面板上的順序。
-1. （選用）按一下 **新增外部頁面** 將外部頁面新增至控制面板。\
+1. （選擇性）按一下&#x200B;**新增外部頁面**，將外部頁面新增到儀表板。\
    或\
-   在控制面板中找出現有的外部頁面，然後將滑鼠移至該頁面上，然後按一下 **編輯** 圖示可編輯外部頁面。\
-   如需在控制面板中新增或編輯外部頁面的詳細資訊，請參閱 [將外部網頁內嵌在控制面板中](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-external-web-page-dashboard.md).
+   在儀表板中找出現有的外部頁面，然後將滑鼠移至該頁面上，然後按一下&#x200B;**編輯**&#x200B;圖示以編輯外部頁面。\
+   如需在儀表板中新增或編輯外部頁面的詳細資訊，請參閱[在儀表板中內嵌外部網頁](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-external-web-page-dashboard.md)。
 
 1. 按一下「**儲存並關閉**」。

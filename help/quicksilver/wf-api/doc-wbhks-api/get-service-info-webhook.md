@@ -11,7 +11,7 @@ exl-id: a3a423ff-29a6-466e-a568-f64e02dcb484
 source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
 workflow-type: tm+mt
 source-wordcount: '266'
-ht-degree: 4%
+ht-degree: 1%
 
 ---
 
@@ -30,9 +30,9 @@ GET/serviceInfo
 
 ## 查詢參數
 
-無. 此外，對此端點的呼叫不應需要驗證。
+無。 此外，對此端點的呼叫不應需要驗證。
 
-## 個回應
+## 回應
 
 包含此服務相關資訊的JSON
 
@@ -42,8 +42,8 @@ GET/serviceInfo
  <col> 
  <thead> 
   <tr> 
-   <th>名稱</th> 
-   <th>類型 </th> 
+   <th>姓名</th> 
+   <th>型別 </th> 
    <th>說明</th> 
   </tr> 
  </thead> 

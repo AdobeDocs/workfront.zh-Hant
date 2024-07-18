@@ -37,7 +37,7 @@ GET /attask/api-internal/project/{{projectID}}?fields=currency
 }
 ```
 
-如果未設定專案的貨幣，此回應將包含具有值的貨幣 `null`：
+如果未設定專案的貨幣，此回應將包含值為`null`的貨幣：
 
 ```
 {

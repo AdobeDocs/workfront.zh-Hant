@@ -4,7 +4,8 @@ description: 2024年第三季財務管理增強功能
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 2681e878b3366b08343aa8d0a513b71126d2a67b
+exl-id: c8f78a68-41d3-4cb3-ade5-577bd85181b3
+source-git-commit: 0132485ba872dbd5961145e0d46fc7500169d728
 workflow-type: tm+mt
 source-wordcount: '197'
 ht-degree: 2%
@@ -15,7 +16,7 @@ ht-degree: 2%
 
 此頁面說明2024年第三季度版本對「預覽」環境所做的所有財務管理增強功能。 這些增強功能將在2024年第三季度版本的生產環境中提供。
 
-如需2024年第三季度發行週期中目前可用的所有變更清單，請參閱 [2024年第三季度版本總覽](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).
+如需2024年第三季度發行週期中目前可用的所有變更清單，請參閱[2024年第三季度發行概觀](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md)。
 
 ## 專案與任務可用的可記帳與不可記帳費用欄位
 
@@ -34,4 +35,4 @@ ht-degree: 2%
 
 可記帳費用會標示為對客戶可記帳。 不可開立帳單的費用不會標示為可開立帳單。
 
-如需將費用標示為可記帳的詳細資訊，請參閱 [管理專案費用](/help/quicksilver/manage-work/projects/project-finances/manage-project-expenses.md).
+如需將費用標籤為可記帳的詳細資訊，請參閱[管理專案費用](/help/quicksilver/manage-work/projects/project-finances/manage-project-expenses.md)。

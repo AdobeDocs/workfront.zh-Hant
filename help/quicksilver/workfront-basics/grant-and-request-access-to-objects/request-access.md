@@ -19,15 +19,15 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->本文說明如何在「Adobe Workfront案例規劃工具」中要求所有物件（計畫除外）的許可權。 如需請求計畫存取權的相關資訊，請參閱 [在「情境規劃工具」中請求計畫的存取權](../../scenario-planner/request-access-to-plan.md). 這需要額外的授權。
+>本文說明如何在「Adobe Workfront案例規劃工具」中要求所有物件（計畫除外）的許可權。 如需請求計畫存取權的相關資訊，請參閱[在情境規劃工具](../../scenario-planner/request-access-to-plan.md)中請求計畫的存取權。 這需要額外的授權。
 
-您的Workfront管理員會在存取層級中設定您對某個物件型別的存取權。 如需詳細資訊，請參閱 [存取層級和許可權如何搭配運作](../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md).
+您的Workfront管理員會在存取層級中設定您對某個物件型別的存取權。 如需詳細資訊，請參閱[存取層級和許可權如何搭配運作](../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md)。
 
 如果您需要Workfront中特定物件的許可權，可以請求存取許可權。 與其傳送電子郵件給Workfront管理員或物件擁有者來說明您的需求，您可以在Workfront中請求其他存取權（或許可權）。
 
 如果有人與您共用物件的連結，您可以要求物件的初始存取權，或者您可以要求您至少檢視的物件的額外存取權。
 
-例如，您可能有專案的檢視許可權，但您需要將任務新增至該專案。 在此情況下，您可以要求專案的貢獻許可權。
+例如，您可能有專案的檢視許可權，但您需要將任務新增至該專案。 在此情況下，您可以要求專案的Contribute許可權。
 
 ## 存取需求
 
@@ -77,25 +77,25 @@ ht-degree: 0%
    <td role="rowheader">存取層級設定*</td> 
    <td> <p>檢視您要求許可權之物件的存取權或以上許可權</p> <p><b>附註</b>
 
-如果您還是沒有存取權，請詢問您的Workfront管理員，他們是否在您的存取層級中設定其他限制。 如需有關Workfront管理員如何修改您的存取層級的資訊，請參閱 <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>.</p> </td>
+如果您還是沒有存取權，請詢問您的Workfront管理員，他們是否在您的存取層級中設定其他限制。 如需Workfront管理員如何修改存取層級的詳細資訊，請參閱<a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>。</p> </td>
 </tr> 
  </tbody> 
 </table>
 
-&#42;若要瞭解您擁有的計畫、授權型別或存取權，請聯絡您的Workfront管理員。
+&#42;若要瞭解您擁有的計畫、授權型別或存取權，請連絡您的Workfront管理員。
 
 ## 瞭解標準共用規則
 
 下列標準共用規則在Workfront系統中設定為預設選項時，會自動生效。
 
-* 指派給任務或問題的使用者具有其Contribute存取權。
+* 指派給任務或問題的使用者擁有其Contribute存取權。
 * 專案、Portfolio和方案管理員擁有其擁有的物件管理存取權。
 * 對話中包含的使用者擁有對話發生之物件的檢視存取權。
 * 被指派為核准者的使用者在等待核准的物件上有「檢視」存取權。
 * 共用控制面板時，控制面板上的所有報告也會以相同的存取權共用給相同的使用者。
 * 物件擁有者無法將存取權擴充至其對該物件的存取權之外（如管理員所定義）。
 
-## 要求存取權限
+## 請求存取權
 
 您可以要求您目前沒有存取權的物件的初始存取權，或者您可以要求您只有有限存取權的物件的額外存取權。
 
@@ -108,16 +108,16 @@ ht-degree: 0%
 
 若要要求物件的初始存取權，請執行下列動作：
 
-1. 按一下 **要求存取權**.\
-   此 **要求存取權** 對話方塊隨即顯示。
+1. 按一下&#x200B;**要求存取權**。\
+   顯示&#x200B;**要求存取**&#x200B;對話方塊。
 
 1. （視條件而定）如果超過一位使用者擁有授予您額外存取權的適當存取權，則該使用者名稱旁邊會顯示下拉箭頭。
 1. 從下拉式清單中選取您要接收存取要求的使用者。\
    下拉式清單中只會顯示10位使用者。 清單會依字母排序。\
-   如需此下拉式選單中所列使用者順序的詳細資訊，請參閱  [「要求存取權」和「要求更多存取權」下拉式功能表的階層](#hierarchy-of-the-request-access-and-request-more-access-drop-down-menus).
+   如需此下拉式功能表中使用者順序的詳細資訊，請參閱「要求存取」和「要求更多存取權」下拉式功能表的[階層](#hierarchy-of-the-request-access-and-request-more-access-drop-down-menus)。
 
 1. 從下拉式清單中，選取您要求的存取型別。
-1. （選用）在 **公關** 欄位中，指定使用者需要其他存取許可權之原因相關附註。
+1. （選擇性）在&#x200B;**P.S.**&#x200B;欄位中，指定使用者需要其他存取權原因的備註。
 
    ![](assets/request-access-dialog-350x314.png)
 
@@ -132,18 +132,18 @@ ht-degree: 0%
 
 1. 前往您要要求其他存取權的物件。
 
-1. 按一下 **更多** 功能表，然後按一下 **要求更多存取許可權**.
+1. 按一下專案名稱右側的&#x200B;**更多**&#x200B;功能表，然後按一下&#x200B;**要求更多存取權**。
 
    ![](assets/request-access-in-project-350x201.png)
 
 1. （視條件而定）如果超過一位使用者擁有授予您額外存取權的適當存取權，則該使用者名稱旁邊會顯示下拉箭頭。
 1. 從下拉式清單中選取您要接收存取要求的使用者。\
    下拉式清單中只會顯示10位使用者。 清單會依字母排序。\
-   如需此下拉式選單中所列使用者順序的詳細資訊，請參閱  [「要求存取權」和「要求更多存取權」下拉式功能表的階層](#hierarchy-of-the-request-access-and-request-more-access-drop-down-menus).
+   如需此下拉式功能表中使用者順序的詳細資訊，請參閱「要求存取」和「要求更多存取權」下拉式功能表的[階層](#hierarchy-of-the-request-access-and-request-more-access-drop-down-menus)。
 
 1. 從下拉式清單中，選取您要求的存取層級。
-1. （選用）在 **公關** 欄位，指定有關您需要額外存取權的說明。
-1. 按一下 **要求存取權**.\
+1. （選擇性）在&#x200B;**P.S.**&#x200B;欄位中，指定有關您需要額外存取權的理由的備註。
+1. 按一下&#x200B;**要求存取權**。\
    ![](assets/request-access-dialog-350x314.png)
 
 ## 「要求存取權」和「要求更多存取權」下拉式功能表的階層 {#hierarchy-of-the-request-access-and-request-more-access-drop-down-menus}
@@ -159,7 +159,7 @@ Workfront會在「要求存取權」和「要求更多存取權」清單中顯�
 
 「要求存取權」或「要求更多存取權」下拉式功能表中的使用者順序由以下規則指定：
 
-* 清單中的第一個使用者是物件「所有者」，如所述 [瞭解物件的擁有者](#understand-the-owner-of-an-object).
+* 清單中的第一個使用者是物件「擁有者」，如[瞭解物件的擁有者](#understand-the-owner-of-an-object)中所述。
 * 然後清單會填入個別共用物件的使用者。 它們會依字母順序列出。
 * 然後清單中會進一步填入使用者，這些使用者透過與其團隊、群組或公司共用而獲得所需存取權。 它們會依字母順序列出。
 * 如果清單為空，則會新增Workfront管理員，以便始終有人員可向其請求存取權。 它們會依字母順序列出。
@@ -213,11 +213,11 @@ Workfront會在「要求存取權」和「要求更多存取權」清單中顯�
   </tr> 
   <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
    <td><span>計畫</span> </td> 
-   <td> <p><span>擁有者是計畫的建立者。</span> </p> <p>這需要額外的授權。 </p> <p><span>如需Workfront Scenario Planner的相關資訊，請參閱</span> <a href="../../scenario-planner/scenario-planner-overview.md" class="MCXref xref">情境規劃工具概觀</a>.</p> </td> 
+   <td> <p><span>擁有者是計畫的建立者。</span> </p> <p>這需要額外的授權。 </p> <p><span>如需Workfront情境規劃工具的相關資訊，請參閱</span> <a href="../../scenario-planner/scenario-planner-overview.md" class="MCXref xref">情境規劃工具概觀</a>。</p> </td> 
   </tr> 
   <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
    <td>目標</td> 
-   <td> <p>擁有者是指定為擁有者的使用者。 他們可能與目標建立者不是同一個人。 </p> <p>這需要額外的授權。 </p> <p>如需Workfront目標的相關資訊，請參閱 <a href="../../workfront-goals/goal-management/wf-goals-overview.md" class="MCXref xref">Adobe Workfront目標總覽</a>. </p> </td> 
+   <td> <p>擁有者是指定為擁有者的使用者。 他們可能與目標建立者不是同一個人。 </p> <p>這需要額外的授權。 </p> <p>如需Workfront目標的相關資訊，請參閱<a href="../../workfront-goals/goal-management/wf-goals-overview.md" class="MCXref xref">Adobe Workfront目標總覽</a>。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

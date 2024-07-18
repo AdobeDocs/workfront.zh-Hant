@@ -1,8 +1,8 @@
 ---
 product-previous: mobile
 navigation-topic: use-the-workfront-mobile-app
-title: 在中檢閱校樣並作出決定 [!DNL Adobe Workfront] 行動應用程式
-description: 當校訂指派給您進行核準時，它會出現在行動應用程式的核准清單中。 您可以直接在應用程式中檢閱校訂，並做出決定。
+title: 在 [!DNL Adobe Workfront] 行動應用程式中檢閱並決定校訂
+description: 當校訂指派給您進行核準時，它會顯示於行動應用程式中的核准清單中。 您可以直接在應用程式中檢閱校訂，並做出決定。
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 4ab8dfd0-0a1f-425d-9e05-8e8134ce930a
@@ -13,44 +13,44 @@ ht-degree: 0%
 
 ---
 
-# 在中檢閱校樣並作出決定 [!DNL Adobe Workfront] 行動應用程式
+# 在[!DNL Adobe Workfront]行動應用程式中檢閱並決定校訂
 
-當校訂指派給您進行核準時，它會出現在行動應用程式的核准清單中。 您可以直接在應用程式中檢閱校訂，並做出決定。 有關在中檢閱和核准校樣的資訊 [!DNL Adobe Workfront]，請參閱 [檢閱校樣於 [!DNL Adobe Workfront]](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-proofs-in-wf.md).
+當校訂指派給您進行核準時，它會顯示於行動應用程式中的核准清單中。 您可以直接在應用程式中檢閱校訂，並做出決定。 如需在[!DNL Adobe Workfront]中檢閱和核准校訂的資訊，請參閱[在 [!DNL Adobe Workfront]](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-proofs-in-wf.md)中檢閱校訂。
 
-您可以在校樣中新增註解，並在做出最終決定之前進行修訂過程。 如需關於註解的資訊，請參閱 [對中的校樣發表評論 [!DNL iOS]](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/comment-on-proofs-ios.md) 或 [對中的校樣發表評論 [!DNL Android]](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/comment-on-proofs-android.md).
+您可以在校樣中新增註解，並經歷修訂過程以做出最終決定。 如需註解的詳細資訊，請參閱[註解 [!DNL iOS]](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/comment-on-proofs-ios.md)中的校訂或[註解 [!DNL Android]](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/comment-on-proofs-android.md)中的校訂。
 
-您對檢閱和核准校訂的存取權與中的相同 [!DNL Adobe Workfront]. 如需校訂功能的相關資訊，請參閱 [中的校訂許可權設定檔 [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md).
+您檢閱和核准校訂的存取權與[!DNL Adobe Workfront]中的相同。 如需校訂功能的相關資訊，請參閱 [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)中的[校訂許可權設定檔。
 
-## 開啟並檢閱證明
+## 開啟並檢閱校訂
 
 1. 開啟校訂核准任務：
 
-   * 選取中的校訂核准任務 [!UICONTROL 核准] 區域 [!UICONTROL 我的工作].
+   * 在[!UICONTROL 我的工作]的[!UICONTROL 核准]區域中選取校訂核准任務。
 
-      ![我的工作核准區段](assets/mobile-mywork-approvals-338x482.png)\
+     ![我的工作核准區段](assets/mobile-mywork-approvals-338x482.png)\
       或
 
-   * 選取 **[!UICONTROL 顯示所有核准]** 在 [!UICONTROL 核准] 區域 [!UICONTROL 我的工作]. 然後在所有核准清單中選取校訂核准任務。
+   * 在[!UICONTROL 我的工作]的[!UICONTROL 核准]區域中選取&#x200B;**[!UICONTROL 顯示所有核准]**。 然後在所有核准清單中選取校訂核准任務。
 
-      如需有關的資訊 [!UICONTROL 我的工作] 在行動應用程式中，請參閱 [[!UICONTROL 我的工作] 行動應用程式中的區段](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/my-work-section-mobile.md).
+     如需行動應用程式中[!UICONTROL 我的工作]的相關資訊，請參閱行動應用程式中的[[!UICONTROL 我的工作]區段](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/my-work-section-mobile.md)。
 
-1. 在「詳細資訊」頁面上，選取 **[!UICONTROL 前往校訂]**.
+1. 在詳細資訊頁面上，選取&#x200B;**[!UICONTROL 前往校訂]**。
 
    ![校訂任務](assets/mobile-prooftask1-338x516.png)
 
 1. 檢閱檔案校訂。
-1. （選用）選取 ![[!UICONTROL 「單頁」圖示]](assets/mobile-proofpagingicon1-25x36.png) 從單頁檢視變更為連續檢視。 選取 ![[!UICONTROL 「連續頁面」圖示]](assets/mobile-proofpagingicon2-25x25.png) 變更回單頁檢視。
+1. （選擇性）選取檔案右上角的![[!UICONTROL 單頁圖示]](assets/mobile-proofpagingicon1-25x36.png)，從單頁檢視變更為連續檢視。 選取「![[!UICONTROL 連續頁面」圖示]](assets/mobile-proofpagingicon2-25x25.png)，變更回單頁檢視。
 
-   在單頁檢視中，您向右和向左捲動以移動檔案頁面。 在連續檢視中，您可以上下捲動以瀏覽頁面。
+   在單頁檢視中，您可以左右捲動，在檔案頁面上移動。 在連續檢視中，您可以上下捲動以瀏覽頁面。
 
-1. （可選）使用右側的捲動指示器前往特定頁面：
+1. （選用）使用右側的捲動指示器前往特定頁面：
 
    1. 點選捲動指示器。
-   1. 在「 」中輸入頁碼 [!UICONTROL 移至頁面] 方塊並選取 **[!UICONTROL 確定]**.
-   1. ![移至頁面](assets/mobile-gotopage-350x224.png)
+   1. 在[!UICONTROL 移至頁面]方塊中輸入頁碼，並選取&#x200B;**[!UICONTROL 確定]**。
+   1. ![前往頁面](assets/mobile-gotopage-350x224.png)
 
-1. 選取檔案左上方的箭頭，返回 [!UICONTROL 詳細資料] 頁面。
-1. （選用）在 [!UICONTROL 詳細資料] 頁面，選取 **[!UICONTROL 更新]** 檢視校訂的所有更新，例如校訂的建立時間和傳送以供核准的時間。
+1. 選取檔案左上方的箭頭，以返回[!UICONTROL 詳細資料]頁面。
+1. （選擇性）在[!UICONTROL 詳細資料]頁面上，選取&#x200B;**[!UICONTROL 更新]**&#x200B;以檢視校訂的所有更新，例如校訂的建立時間和送出核准的時間。
 
 ## 鎖定和解鎖校訂
 
@@ -58,15 +58,15 @@ ht-degree: 0%
 
 ### 鎖定校訂
 
-1. 開啟檔案校樣並選取 **[!UICONTROL 更多]** 功能表 ![更多選單](assets/mobile-verticalmoremenu-20x33.png) 在檔案的右上角。 然後，選取 **[!UICONTROL 更多]**.
-1. 選取 **[!UICONTROL 鎖定檔案]**.\
-   A &quot;[!UICONTROL 已鎖定]「指示器會顯示在檔案頂端。
+1. 開啟檔案校訂，然後選取檔案右上角的&#x200B;**[!UICONTROL 更多]**&#x200B;功能表![更多功能表](assets/mobile-verticalmoremenu-20x33.png)。 然後，選取&#x200B;**[!UICONTROL 更多]**。
+1. 選取&#x200B;**[!UICONTROL 鎖定檔案]**。\
+   「[!UICONTROL 已鎖定]」指示器會顯示在檔案頂端。
 
 ### 解鎖校訂
 
-1. 開啟檔案校樣並選取 **[!UICONTROL 更多]** 功能表 ![更多選單](assets/mobile-verticalmoremenu-20x33.png) 在檔案的右上角。 然後，選取 **[!UICONTROL 更多]**.
-1. 選取 **[!UICONTROL 解鎖檔案]**.
-1. 選取 **[!UICONTROL 解鎖]** 於確認訊息上。
+1. 開啟檔案校訂，然後選取檔案右上角的&#x200B;**[!UICONTROL 更多]**&#x200B;功能表![更多功能表](assets/mobile-verticalmoremenu-20x33.png)。 然後，選取&#x200B;**[!UICONTROL 更多]**。
+1. 選取&#x200B;**[!UICONTROL 解除鎖定檔案]**。
+1. 在確認訊息上選取&#x200B;**[!UICONTROL 解除鎖定]**。
 
 ## 對校訂進行決策
 
@@ -75,10 +75,10 @@ ht-degree: 0%
 ### 在校訂中做出決定
 
 1. 開啟檔案校訂。
-1. 選取決定圖示 ![[!UICONTROL 決定] 圖示](assets/mobile-proofcheckmarkdecisionicon-30x30.png) 檔案右上角。
-1. 選擇決定，在 [!UICONTROL 做出決定] 方塊。
+1. 選取檔案右上方的決定圖示![[!UICONTROL 決定]圖示](assets/mobile-proofcheckmarkdecisionicon-30x30.png)。
+1. 在[!UICONTROL 做出決定]方塊中選取決定。
 
-   以下顯示一些常見的決定選項。 此 [!DNL Adobe Workfront] 管理員或 [!UICONTROL Workfront Proof] 管理員可以設定決定選項清單。 如需管理員如何設定決策的詳細資訊，請參閱 [在Workfront Proof中設定核准決定選項](../../../workfront-proof/wp-acct-admin/account-settings/configure-approval-decision-in-wp.md).
+   以下顯示一些常見的決定選項。 [!DNL Adobe Workfront]管理員或[!UICONTROL Workfront Proof]管理員可以設定決定選項清單。 如需管理員如何設定決定的詳細資訊，請參閱[在Workfront Proof中設定核准決定選項](../../../workfront-proof/wp-acct-admin/account-settings/configure-approval-decision-in-wp.md)。
 
    <table style="table-layout:auto"> 
     <col> 
@@ -86,11 +86,11 @@ ht-degree: 0%
     <tbody> 
      <tr> 
       <td role="rowheader"><strong>[！UICONTROL已核准]</strong></td> 
-      <td>校訂已準備好移至工作流程的下一個階段。</td> 
+      <td>校訂已準備好移動到工作流程的下一個階段。</td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>[！UICONTROL已核准變更]</strong></td> 
-      <td> <p>校訂需要一些變更，但在修訂移至工作流程的下一個階段之前，您不需要檢視修訂版本。</p> </td> 
+      <td> <p>校訂需要一些變更，但在修訂移至工作流程的下一個階段之前，您不需要檢視修訂專案。</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>[！UICONTROL已拒絕]</strong></td> 
@@ -99,23 +99,23 @@ ht-degree: 0%
     </tbody> 
    </table>
 
-1. （有條件）如果 [!DNL Adobe Workfront] 管理員或 [!DNL Workfront Proof] 管理員已新增以下清單 [!UICONTROL 原因]，請為您的決定選取任何適用的原因。
+1. （視條件而定）如果[!DNL Adobe Workfront]系統管理員或[!DNL Workfront Proof]系統管理員已新增[!UICONTROL 個原因]的清單，請選取您決定的任何適用原因。
 
-   某些原因可能也需要您提供註解來說明您選擇原因的原因。
+   有些原因可能也需要您提供註解來說明您選擇原因的原因。
 
-   如需管理員如何設定原因的詳細資訊，請參閱  [在中設定核准決定選項 [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/configure-approval-decision-in-wp.md).
+   如需管理員如何設定原因的詳細資訊，請參閱[在 [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/configure-approval-decision-in-wp.md)中設定核准決定選項。
 
-1. 選取 **[!UICONTROL 提交]**.
+1. 選取&#x200B;**[!UICONTROL 提交]**。
 
-### 在證明中變更您的決定
+### 在校訂中變更您的決定
 
 1. 開啟檔案校訂。
-1. 選取決定圖示 ![[!UICONTROL 決定] 圖示](assets/mobile-proofcheckmarkdecisionicon-30x30.png) 檔案右上角。
+1. 選取檔案右上方的決定圖示![[!UICONTROL 決定]圖示](assets/mobile-proofcheckmarkdecisionicon-30x30.png)。
 
-   此 [!UICONTROL 做出決定] 方塊顯示您目前的決策。
+   [!UICONTROL 做出決定]方塊會顯示您目前的決定。
 
-1. 選取其他決定，或選擇 **[!UICONTROL 清除選取專案]** 以移除決定。
+1. 選取不同的決定，或選擇&#x200B;**[!UICONTROL 清除選取專案]**&#x200B;以移除決定。
 
-   對於有原因的決策，您可以選擇不同原因或移除原因。
+   對於具有原因的決策，您可以選擇不同原因或移除原因。
 
-1. 選取 **[!UICONTROL 提交]**.
+1. 選取&#x200B;**[!UICONTROL 提交]**。

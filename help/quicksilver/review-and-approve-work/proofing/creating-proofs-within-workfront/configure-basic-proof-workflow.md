@@ -34,7 +34,7 @@ ht-degree: 1%
    <td>
    <p>新增：任何</p>
     <p>目前計畫：Pro或更高版本</p>
-   <p>舊版計畫：選取或更高</p> <p>如需有關校訂不同方案的存取許可權的詳細資訊，請參閱 <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">存取Workfront中的校訂功能</a>.</p> </td> 
+   <p>舊版計畫：選取或更高</p> <p>如需有關不同方案的校訂存取許可權的詳細資訊，請參閱<a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">存取Workfront中的校訂功能</a>。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront授權</td> 
@@ -53,22 +53,22 @@ ht-degree: 1%
  </tbody> 
 </table>
 
-&#42;若要瞭解您擁有的計畫、角色或校訂許可權設定檔，請聯絡您的Workfront或Workfront Proof管理員。
+&#42;若要瞭解您擁有的計畫、角色或校訂許可權設定檔，請連絡您的Workfront或Workfront Proof管理員。
 
 +++
 
 ## 使用基本工作流程建立進階校訂
 
-1. 前往您想要校訂的專案、任務或問題，然後按一下 **檔案** 標籤。
-1. 按一下 **新增** >校訂，上傳內容，然後完成以下列出的區段。
+1. 前往您要校訂的專案、任務或問題，然後按一下「**檔案**」標籤。
+1. 按一下&#x200B;**新增** >校訂，上傳內容，然後完成下列區段。
 
    或
 
-   將滑鼠停留在現有檔案上，然後按一下 **建立校訂** > **進階校訂** 並逐步說明下列章節。
+   將游標停留在現有檔案上，然後按一下&#x200B;**建立校訂** > **進階校訂**，並處理下列區段。
 
 ## 設定工作流程並新增稽核者
 
-1. 在「工作流程型別」區段中，選擇 **基本**.
+1. 在工作流程型別區段中，選擇&#x200B;**基本**。
 1. 指定您要新增的使用者，然後選擇校訂角色。
 
    ![](assets/new-proof---roles-350x213.png)
@@ -104,7 +104,7 @@ ht-degree: 1%
       <th> <p><strong>編輯校訂</strong> </p> </th> 
       <th>與他人共用校訂</th> 
       <th>建立新版本</th> 
-      <th> <p><strong>在首頁區域中檢視核准請求</strong> </p> </th> 
+      <th> <p><strong>在首頁區域檢視核准要求</strong> </p> </th> 
       <th>新增檢閱者</th> 
      </tr> 
     </thead> 
@@ -193,7 +193,7 @@ ht-degree: 1%
       <td> <p><strong>仲裁者</strong> </p> </td> 
       <td> <p>✓ (A)</p> </td> 
       <td> <p>✓ (A)</p> </td> 
-      <td> <p><strong>✓ (A)</strong> </p> </td> 
+      <td> <p>✓ <strong></strong> </p> </td> 
       <td> <p>✓ (A)</p> </td> 
       <td> <p>✓ (A)</p> </td> 
       <td> <p>✓ (A)</p> <p> </p> </td> 
@@ -219,19 +219,19 @@ ht-degree: 1%
       <td role="rowheader">解決評論並套用動作 </td> 
       <td> <p>允許Workfront使用者執行下列動作：</p> 
        <ul> 
-        <li>解決註解後加以解決，如中所述 <a href="../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/resolve-proof-comments.md" class="MCXref xref">解決校訂評論</a>.</li> 
-        <li>將動作套用至註解，如中所述 <a href="../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/use-actions-on-comments-in-viewer.md" class="MCXref xref">對校訂評論使用動作</a>. </li> 
+        <li>解決註解已解決之後，如<a href="../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/resolve-proof-comments.md" class="MCXref xref">解決校訂註解</a>中所述。</li> 
+        <li>套用動作至註解，如<a href="../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/use-actions-on-comments-in-viewer.md" class="MCXref xref">對校訂註解使用動作</a>中所述。 </li> 
        </ul> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">透過標記共用校訂</td> 
-      <td> <p>允許檢閱者將任何Workfront使用者新增到校訂中，如中所述 <a href="../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/tag-users-to-share-proof.md" class="MCXref xref">標籤要共用校訂的使用者</a>.</p> <p>注意：  <p>如果這兩個選項無法使用（變暗），則使用者已有許可權設定檔，可允許解析評論、將動作套用至評論和標籤任何使用者。 </p> <p>如果選項未顯示，則表示您新增的人員並非Workfront授權持有者。</p> </p> </td> 
+      <td> <p>允許檢閱者將任何Workfront使用者新增到校訂中，如<a href="../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/tag-users-to-share-proof.md" class="MCXref xref">標籤使用者共用校訂</a>中所述。</p> <p>注意：  <p>如果這兩個選項無法使用（變暗），則使用者已有許可權設定檔，可允許解析評論、將動作套用至評論和標籤任何使用者。 </p> <p>如果選項未顯示，則表示您新增的人員並非Workfront授權持有者。</p> </p> </td> 
      </tr> 
     </tbody> 
    </table>
 
 1. 對您已新增到校樣的任何其他使用者重複步驟1到3。
-1. 對於您所共用的每個使用者，在 **電子郵件警示** 從下拉式清單中，選取當有人對校樣做出評論和決定時，此使用者會收到的電子郵件警示型別：
+1. 針對您共用的每個使用者，在&#x200B;**電子郵件警示**&#x200B;下拉式清單中，選取此使用者在校訂上發表評論及做出決定時收到的電子郵件警示型別：
 
    <table style="table-layout:auto"> 
     <col> 
@@ -243,7 +243,7 @@ ht-degree: 1%
      </tr> 
      <tr> 
       <td role="rowheader">回覆我的評論</td> 
-      <td>只有當某人明確回覆其評論時（這不包括他們自己的評論），才會傳送電子郵件給稽核者。 這表示如果校訂上的某人發表新評論，則不會通知檢閱者。<p>建議將此設定提供給校訂上的客戶，這樣他們就不會收到校訂上任何其他評論的通知，而只會在回覆他們自己的評論時收到通知。</p><p>雖然具有此電子郵件警報設定的檢閱者不會收到其他新評論的通知，但他們仍可在校訂檢視器中檢視校訂上的所有評論。</p><p>如需有關註解的資訊，請參閱 <a href="../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/view-proof-comments.md" class="MCXref xref">檢視並回覆校訂評論</a>.</p></td> 
+      <td>只有當某人明確回覆其評論時（這不包括他們自己的評論），才會傳送電子郵件給稽核者。 這表示如果校訂上的某人發表新評論，則不會通知檢閱者。<p>建議將此設定提供給校訂上的客戶，這樣他們就不會收到校訂上任何其他評論的通知，而只會在回覆他們自己的評論時收到通知。</p><p>雖然具有此電子郵件警報設定的檢閱者不會收到其他新評論的通知，但他們仍可在校訂檢視器中檢視校訂上的所有評論。</p><p>如需有關註解的資訊，請參閱<a href="../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/view-proof-comments.md" class="MCXref xref">檢視並回覆校訂註解</a>。</p></td> 
      </tr> 
      <tr> 
       <td role="rowheader">決策</td> 
@@ -259,26 +259,26 @@ ht-degree: 1%
      </tr> 
      <tr> 
       <td role="rowheader">每日摘要</td> 
-      <td>Workfront會傳送一封電子郵件，其中包含所有評論、回覆和決定，且僅限於您擁有活動以外的日期。<p>此警報是檢視專案摘要的好方法，而不會在一天中忙於多次更新。</p><p>此摘要的範例使用案例是部門負責人，他想要監控專案的整體進度。</p><p>如需詳細資訊，請參閱 <a href="../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/manage-notifications-for-proof-comments.md" class="MCXref xref">管理校訂評論和決定的通知</a>.</p></td> 
+      <td>Workfront會傳送一封電子郵件，其中包含所有評論、回覆和決定，且僅限於您擁有活動以外的日期。<p>此警報是檢視專案摘要的好方法，而不會在一天中忙於多次更新。</p><p>此摘要的範例使用案例是部門負責人，他想要監控專案的整體進度。</p><p>如需詳細資訊，請參閱<a href="../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/manage-notifications-for-proof-comments.md" class="MCXref xref">管理校訂評論和決定的通知</a>。</p></td> 
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader">無電子郵件</td> 
-      <td>Workfront不會傳送任何電子郵件警示。<br>這對於僅供參考而新增到校樣而無需通知任何變更的人非常有用。<p>系統預設值為「每日」摘要（亦顯示為「未設定」）。 如果您或您的稽核者未進行任何其他變更，則您的所有校樣都會具有此設定。</p></td> 
+      <td>Workfront不會傳送任何電子郵件警示。<br>這對於僅供參考而新增到校訂中且不需要通知任何變更的人員非常有用。<p>系統預設值為「每日」摘要（亦顯示為「未設定」）。 如果您或您的稽核者未進行任何其他變更，則您的所有校樣都會具有此設定。</p></td> 
      </tr> 
     </tbody> 
    </table>
 
-1. 繼續使用 [設定校訂的電子郵件設定](#configure-email-settings-for-the-proof) 底下。
+1. 繼續[設定以下校訂的電子郵件設定](#configure-email-settings-for-the-proof)。
 
 ## 設定校訂的電子郵件設定 {#configure-email-settings-for-the-proof}
 
-1. 在 **電子郵件通知** 區段，選取是否傳送電子郵件通知及自訂訊息給您在中選取的使用者 [使用基本工作流程建立進階校訂](#workflow) 本文前文：
+1. 在&#x200B;**電子郵件通知**&#x200B;區段中，選取是否要傳送電子郵件通知和自訂訊息給您在[建立進階校樣時，使用本文前面的「基本」工作流程](#workflow)：
 
    <table>
    <tbody>
    <tr>
    <td>將此校訂通知收件者</td>
-   <td>選取此選項即可傳送電子郵件通知給使用者。 時間 <strong>基本共用</strong> 已選取的 <strong>工作流程</strong> 區段，建立校樣時會傳送電子郵件通知。 時間 <strong>自動化工作流程</strong> 已選取的 <strong>工作流程</strong> 區段，當校樣進入使用者關聯的自動化工作流程階段時，會傳送電子郵件通知。</td>
+   <td>選取此選項即可傳送電子郵件通知給使用者。 在<strong>工作流程</strong>區段中選取<strong>基本共用</strong>時，會在建立校訂時傳送電子郵件通知。 在<strong>工作流程</strong>區段中選取<strong>自動化工作流程</strong>時，當校訂進入使用者關聯的自動化工作流程階段時，會傳送電子郵件通知。</td>
    </tr>
    <tr>
    <td>新增自訂訊息</td>
@@ -288,11 +288,11 @@ ht-degree: 1%
    </table>
 
 
-1. 繼續使用 [設定校訂設定](#configure-proof-settings) 底下。
+1. 繼續進行[在下方設定校訂設定](#configure-proof-settings)。
 
 ## 設定校訂設定 {#configure-proof-settings}
 
-1. 在 **校訂設定** 部分，選取下列任一選項：
+1. 在&#x200B;**校訂設定**&#x200B;區段中，選取下列任一選項：
 
    <table style="table-layout:auto"> 
     <col> 
@@ -321,7 +321,7 @@ ht-degree: 1%
      </tr> 
      <tr> 
       <td role="rowheader">下載原始檔案</td> 
-      <td>選取此選項時，稽核者可下載從中建立校訂的原始檔案。<br>取消選取此選項時，不再顯示「下載」圖示。<br>此選項預設為啟用。</td> 
+      <td>選取此選項時，稽核者可下載從中建立校訂的原始檔案。<br>取消選取此選項時，「下載」圖示不再顯示。<br>此選項預設為啟用。</td> 
      </tr> 
      <tr> 
       <td role="rowheader">透過公開URL或內嵌代碼共用校訂</td> 
@@ -331,21 +331,21 @@ ht-degree: 1%
       <td role="rowheader">透過公開URL或內嵌程式碼訂閱校訂</td> 
       <td>選取此選項時，未明確新增到校訂的人員可以訂閱校訂。 訂閱校訂的人員會獲得您在以下設定中定義的角色和電子郵件：
        <ul>
-        <li><strong>訂閱者角色：</strong> 為訂閱校訂的所有檢閱者指派的預設校訂角色。 </li>
-        <li><strong>訂閱者的電子郵件警示設定：</strong> 指派給所有訂閱校訂的稽核者的預設電子郵件警報。</li>
+        <li><strong>訂閱者角色：</strong>指派給所有訂閱校訂的檢閱者的預設校訂角色。 </li>
+        <li><strong>訂閱者的電子郵件警示設定：</strong>指派給所有訂閱校訂的稽核者的預設電子郵件警示。</li>
        </ul><p>
         <ul>
-         <li><strong>以下專案需要透過電子郵件連結的校訂存取權：</strong> 設定訂閱者是否收到包含校訂連結的電子郵件。 您可以選取 <strong>無電子郵件</strong> （存取校樣不需要電子郵件連結）， <strong>僅校訂通知電子郵件</strong> （訂閱者會透過電子郵件收到校訂連結，無需任何驗證），或 <strong>驗證和校訂通知電子郵件</strong> （訂閱者會透過電子郵件收到校訂連結，必須按一下連結才能存取校訂，此選項的目的是確保人員輸入了他們有權存取的正確電子郵件地址）。</li>
-        </ul><p>注意：如果校訂已附加自動化工作流程，則所有訂閱都將向校訂所有者產生確認電子郵件，以便他們決定應將人員新增到哪個階段。<br></p></p></td> 
+         <li><strong>需要透過電子郵件連結存取校訂：</strong>設定訂閱者是否收到包含校訂連結的電子郵件。 您可以選取<strong>無電子郵件</strong> （存取校訂不需要電子郵件連結）、<strong>僅校訂通知電子郵件</strong> （訂閱者會透過電子郵件收到校訂的連結，而不需要任何驗證）或<strong>驗證和校訂通知電子郵件</strong> （訂閱者會透過電子郵件收到校訂的連結，必須按一下連結才能存取校訂，此選項的目的是確保人員已輸入他們有權存取的正確電子郵件地址）。</li>
+        </ul><p>注意：  如果校訂已附加自動化工作流程，則所有訂閱都將向校訂所有者產生確認電子郵件，以便他們決定應將人員新增到哪個階段。<br></p></p></td> 
      </tr> 
     </tbody> 
    </table>
 
-1. 按一下 **建立校訂**.
+1. 按一下&#x200B;**建立校訂**。
 
    Workfront開始產生所選檔案或網站的校訂。 根據檔案大小和型別，檔案上傳的延遲時間可能會有所不同。 請耐心等候，因為產生較大的檔案需要更長的時間。 您可以離開頁面，Workfront會繼續產生您的檔案。 檔案上傳大小上限為4GB。
 
-1. 產生校訂後，按一下 **未完成的校訂** 以啟動校訂檢視器。
+1. 產生校訂後，按一下&#x200B;**開啟校訂**&#x200B;以啟動校訂檢視器。
 
    ![](assets/open-proof-350x132.png)
 

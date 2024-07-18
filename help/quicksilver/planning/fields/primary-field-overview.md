@@ -4,7 +4,8 @@ description: 在Adobe Workfront Planning中記錄型別的表格檢視中，您�
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 406cd3f929d3955d196f883bf1830fd0fffe9251
+exl-id: fe3127ab-3f59-46a0-a747-9e9e1582265b
+source-git-commit: 9a9a756e2b7e30ce3c0139e5e166b65c7e64bffd
 workflow-type: tm+mt
 source-wordcount: '294'
 ht-degree: 1%
@@ -27,7 +28,7 @@ ht-degree: 1%
 
 ![](assets/another-text-field-as-a-primary-field-highlighted.png)
 
-如需有關如何將欄位指定為主要欄位的資訊，請參閱 [管理表格檢視](/help/quicksilver/planning/views/manage-the-table-view.md).
+如需有關如何將欄位指定為主要欄位的資訊，請參閱[管理資料表檢視](/help/quicksilver/planning/views/manage-the-table-view.md)。
 
 ## 主要欄位概觀
 

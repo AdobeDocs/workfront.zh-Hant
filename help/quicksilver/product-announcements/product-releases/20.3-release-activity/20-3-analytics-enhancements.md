@@ -18,7 +18,7 @@ ht-degree: 0%
 
 本頁說明20.3版本對生產環境所做的所有分析增強功能。 這些增強功能已在2020年8月10日當週的生產環境中推出。
 
-如需20.3版所有可用變更的清單，請參閱 [20.3版本總覽](../../../product-announcements/product-releases/20.3-release-activity/20-3-release-overview.md).
+如需20.3版本可用的所有變更清單，請參閱[20.3版本總覽](../../../product-announcements/product-releases/20.3-release-activity/20-3-release-overview.md)。
 
 ## 此處提供增強型分析！
 
@@ -34,5 +34,5 @@ Workfront現在提供增強型分析。 此功能為您提供視覺效果工作�
 
 除了您可以獲得的見解外，您還可以完成任務的動作，例如更新狀態、要求更新、將任務指派給某人等。 — 直接從「增強型分析」區域。
 
-如需詳細資訊，請參閱 [增強型分析概述](../../../enhanced-analytics/enhanced-analytics-overview.md).
+如需詳細資訊，請參閱[增強型分析總覽](../../../enhanced-analytics/enhanced-analytics-overview.md)。
 

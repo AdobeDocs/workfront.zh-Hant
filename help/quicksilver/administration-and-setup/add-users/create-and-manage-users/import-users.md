@@ -53,8 +53,8 @@ ht-degree: 0%
    <td role="rowheader">存取層級設定</td> 
    <td> <p>您必須具備下列其中一項：</p> 
     <ul> 
-     <li> <p>系統管理員存取層級。 如需詳細資訊，請參閱 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">授予使用者完整管理存取權</a>. </p> </li> 
-     <li> <p><b>使用者</b> 將存取層級中的設定設為 <b>編輯</b> 存取，使用 <b>建立</b> 以及兩者中的至少一個 <b>使用者管理員</b> 選項已啟用於 <b>微調您的設定</b> <img src="assets/gear-icon-in-access-levels.png">. </p> <p>這兩個選項中，如果使用者 <b>管理員（群組使用者）</b> 已啟用，您必須是使用者所屬群組的群組管理員。</p> <p>如需關於的詳細資訊 <b>使用者</b> 在存取層級中設定，請參閱 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">授予使用者存取許可權</a>.</p> </li> 
+     <li> <p>系統管理員存取層級。 如需詳細資訊，請參閱<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">授予使用者完整管理存取權</a>。 </p> </li> 
+     <li> <p>您的存取層級中的<b>使用者</b>設定已設定為<b>編輯</b>存取權，其中<b>建立</b>以及在<b>微調您的設定</b> <img src="assets/gear-icon-in-access-levels.png">下啟用的兩個<b>使用者管理員</b>選項中的至少一個。 </p> <p>在這兩個選項中，如果已啟用使用者<b>管理員（群組使用者）</b>，您必須是該使用者所屬群組的群組管理員。</p> <p>如需存取層級中<b>使用者</b>設定的詳細資訊，請參閱<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">授予使用者存取權</a>。</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -62,11 +62,11 @@ ht-degree: 0%
 
 ## 使用試算表匯入檔案來匯入使用者
 
-1. 按一下 **主要功能表** 圖示 ![](assets/main-menu-icon.png) (位於Adobe Workfront的右上角)，然後按一下 **使用者** ![](assets/users-icon-in-main-menu.png).
+1. 按一下Adobe Workfront右上角的&#x200B;**主要功能表**&#x200B;圖示![](assets/main-menu-icon.png)，然後按一下&#x200B;**使用者** ![](assets/users-icon-in-main-menu.png)。
 
-1. 按一下 **新使用者** 下拉箭頭，然後按一下 **匯入使用者**.
+1. 按一下&#x200B;**新增使用者**&#x200B;下拉式箭號，然後按一下&#x200B;**匯入使用者**。
 
-1. 在 **匯入使用者** 方塊中，下載範例檔案，然後更新範例檔案以包含您自己的使用者個人資訊。
+1. 在顯示的&#x200B;**匯入使用者**&#x200B;方塊中，下載範例檔案，然後更新範例檔案以包含您自己的使用者個人資訊。
 
    每一列包含下列欄位：
 
@@ -91,13 +91,13 @@ ht-degree: 0%
    ![importing-new-users.png](assets/importing-new-users.png)
 
 1. 將檔案儲存至工作站上的某個位置。
-1. 按一下 **選擇檔案** 在 **匯入使用者** 方塊。
+1. 在&#x200B;**匯入使用者**&#x200B;方塊中按一下&#x200B;**選擇檔案**。
 
 1. 瀏覽並選取您儲存的檔案。
-1. （可選）選取 **傳送邀請電子郵件給此使用者** 傳送電子郵件邀請給使用者的選項，通知他們已建立Workfront帳戶並提示他們設定密碼。
+1. （選擇性）選取&#x200B;**傳送邀請電子郵件給此使用者**&#x200B;選項，傳送電子郵件邀請給使用者，通知他們已建立Workfront帳戶，並提示他們設定密碼。
 
    如果要設定使用者的密碼，請取消選取此選項。
 
-1. 按一下 **匯入**.
+1. 按一下&#x200B;**匯入**。
 
    您會在畫面頂端收到一則確認訊息，告知您使用者已成功匯入。

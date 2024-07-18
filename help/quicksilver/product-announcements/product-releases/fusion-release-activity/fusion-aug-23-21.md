@@ -1,6 +1,6 @@
 ---
-title: Workfront Fusion發行活動：&nbsp；2021年8月23日起一週
-description: Workfront Fusion發行活動：&nbsp；2021年8月23日起一週
+title: Workfront Fusion發行活動：&amp；nbsp；2021年8月23日當週
+description: Workfront Fusion發行活動：&amp；nbsp；2021年8月23日當週
 author: Luke
 draft: Probably
 feature: Product Announcements, Workfront Fusion
@@ -18,9 +18,9 @@ ht-degree: 0%
 
 本頁說明2021年8月23日當週在Adobe Workfront Fusion中所做的所有增強功能。
 
-如需所有最近變更的清單，請參閱 [Adobe Workfront Fusion發行活動](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
+如需所有最近變更的清單，請參閱[Adobe Workfront Fusion發行活動](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md)。
 
-如需Workfront Fusion中近期的錯誤修正清單，請參閱 [Workfront維護更新](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) 頁面，並檢查是否有任何標示為Workfront Fusion維護更新的更新。
+如需Workfront Fusion中最近的錯誤修正清單，請參閱[Workfront維護更新](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html)頁面，並檢查任何標示為Workfront Fusion維護更新的更新。
 
 ## Workfront模組中現在提供預先輸入欄位
 
@@ -28,7 +28,7 @@ ht-degree: 0%
 
 之前，使用者從下拉式清單中選取專案。 視物件而定，這些清單可能會很長，而且捲動和尋找專案可能會很麻煩。
 
-如需Workfront模組的詳細資訊，請參閱 [Adobe Workfront模組](../../../workfront-fusion/apps-and-their-modules/workfront-modules.md).
+如需Workfront模組的詳細資訊，請參閱[Adobe Workfront模組](../../../workfront-fusion/apps-and-their-modules/workfront-modules.md)。
 
 ## 計費記錄物件現在可在Workfront模組中使用
 
@@ -43,7 +43,7 @@ ht-degree: 0%
 
 以前，計費記錄物件只能透過對應取得。
 
-如需詳細資訊，請參閱 [Adobe Workfront模組](../../../workfront-fusion/apps-and-their-modules/workfront-modules.md).
+如需詳細資訊，請參閱[Adobe Workfront模組](../../../workfront-fusion/apps-and-their-modules/workfront-modules.md)。
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

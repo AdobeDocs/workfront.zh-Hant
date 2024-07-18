@@ -1,7 +1,7 @@
 ---
 content-type: release-notes
 navigation-topic: product-releases-archive
-title: 2017.2 Beta最終版
+title: 2017.2 Beta決賽
 description: 本頁說明2017.2版預覽環境中最近可用的所有變更。 此頁面的功能已於2017年6月28日在預覽環境中推出。 它將於2017年7月26日在生產環境中提供。
 author: Luke
 feature: Product Announcements
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 ---
 
-# 2017.2 Beta最終版
+# 2017.2 Beta決賽
 
 本頁說明2017.2版預覽環境中最近可用的所有變更。 此頁面的功能已於2017年6月28日在預覽環境中推出。 它將於2017年7月26日在生產環境中提供。
 
@@ -22,43 +22,43 @@ ht-degree: 0%
 >
 >本頁所述的功能在生產環境使用之前可能會有所變更。
 
-如需2017.2年度所有變更的清單，請參閱 [2017.2版本活動概覽](../../../../product-announcements/product-releases/quarterly-release-archive/2017.2-release-activity/2017-2-release-activity-overview.md).
+如需2017.2年度所有變更的清單，請參閱[2017.2年度發行活動概觀](../../../../product-announcements/product-releases/quarterly-release-archive/2017.2-release-activity/2017-2-release-activity-overview.md)。
 
-2017.2測試版最終版本包含適用於Workfront管理員和其他使用者的增強功能：
+2017.2 Beta最終版本包含適用於Workfront管理員和其他使用者的增強功能：
 
-**對於管理員：**
+管理員的&#x200B;**：**
 
 * [判斷HTML5視訊校訂檢視器(ProofHQ和Workfront)的可用性](#determine-the-availability-of-the-html5-video-proofing-viewer-proofhq-and-workfront)
 * [支援SAML 2.0的SHA-256憑證](#support-sha-256-certificates-for-saml-2-0)
-* [對應屬性的預先輸入](#type-ahead-for-mapping-attributes)
+* [預先輸入對應屬性](#type-ahead-for-mapping-attributes)
 * [API增強功能：存取使用者配置](#api-enhancement-access-user-allocations)
 
-**針對所有使用者：**
+所有使用者的&#x200B;**：**
 
 * [資源規劃工具](#resource-planner)
 * [專案中的新排程區域(Team Builder)](#new-scheduling-area-in-a-project-team-builder)
 * [資源排程：預設顯示較少專案](#resource-scheduling-show-fewer-items-by-default)
-* [資源排程：在拖曳任務和問題時顯示下拉指標與過度配置](#resource-scheduling-display-drop-indicator-and-over-allocation-when-dragging-tasks-and-issues)
+* [資源排程：在拖曳任務和問題時顯示下拉指示器和過度配置](#resource-scheduling-display-drop-indicator-and-over-allocation-when-dragging-tasks-and-issues)
 * [資源排程：使用者配置不再四捨五入到最接近的半小時](#resource-scheduling-user-allocations-are-no-longer-rounded-to-the-nearest-half-hour)
-* [以TSV和PDF格式匯出使用情況報表](#export-the-utilization-report-in-tsv-and-pdf-formats)
+* [以TSV和PDF格式匯出使用情況報告](#export-the-utilization-report-in-tsv-and-pdf-formats)
 * [2017.2 Beta最終版](#user-calendar-enhancements-in-the-my-work-area%22)
 * [2017.2 Beta最終版](#layout-template-determines-whether-the-new-or-legacy-calendar-displays-in-the-my-work-area)
-* [校訂決定顯示在我的工作區域(Workfront)](#proof-decision-displays-in-the-my-work-area-workfront)
+* 我的工作區域(Workfront)中顯示[校訂決定](#proof-decision-displays-in-the-my-work-area-workfront)
 * [以預設解析度檢視多媒體校樣(ProofHQ和Workfront)](#view-rich-media-proofs-in-preset-resolutions-proofhq-and-workfront)
 * [在多媒體校樣(ProofHQ和Workfront)的評論中檢視子頁面的URL](#view-url-to-sub-pages-in-comments-on-rich-media-proofs-proofhq-and-workfront)
-* [根據現有的標準檢視建立自訂檢視(ProofHQ)](#create-custom-views-based-on-existing-standard-views-proofhq)
+* [根據現有的標準檢視(ProofHQ)建立自訂檢視](#create-custom-views-based-on-existing-standard-views-proofhq)
 * [篩選報告區域(ProofHQ)](#filter-the-reporting-area-proofhq)
-* [在報告中顯示最小值和最大值(ProofHQ)](#display-minimum-and-maximum-values-in-reports-proofhq)
-* [用於校訂核准的應用程式內通知](#in-app-notification-for-proof-approval)
+* [在報告(ProofHQ)中顯示最小值和最大值](#display-minimum-and-maximum-values-in-reports-proofhq)
+* [校訂核准的應用程式內通知](#in-app-notification-for-proof-approval)
 * [行動裝置改良](#mobile-improvements)
-* [新增斜線以篩選包含逗號的欄位值陳述式](#slash-added-to-filter-statements-for-field-values-that-contain-commas)
+* [Slash已新增至包含逗號](#slash-added-to-filter-statements-for-field-values-that-contain-commas)之欄位值的篩選陳述式
 * [多重收費率](#multiple-billing-rates)
 * [新資源預算時數欄位](#new-resource-budgeted-hour-field)
 * [在任務與問題的詳細資訊頁面上的「指派至」區域顯示使用者工作角色](#show-user-job-role-in-assigned-to-area-on-the-details-page-for-tasks-and-issues)
 
 >[!NOTE]
 >
->已棄用資源排程工具，並已從Workfront的23.1版本中移除。 如需有關使用工作負載平衡器排程資源的資訊，請參閱 [工作負載平衡器概覽](../../../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
+>已棄用資源排程工具，並已從Workfront的23.1版本中移除。 如需有關使用工作負載平衡器排程資源的資訊，請參閱[工作負載平衡器概覽](../../../../resource-mgmt/workload-balancer/overview-workload-balancer.md)。
 
 ## 專案中的新排程區域(Team Builder) {#new-scheduling-area-in-a-project-team-builder}
 
@@ -123,7 +123,7 @@ ht-degree: 0%
 
 在此變更之前，您只能以XLSX格式匯出「使用率」報告。
 
-如需有關匯出「使用率」報告的詳細資訊，請參閱 [資源使用率報表概要](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md) 在 [資源使用率報表概要](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md).
+如需有關匯出使用率報告的詳細資訊，請參閱[資源使用率報告概覽](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md)中的[資源使用率報告概覽](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md)。
 
 ## 校訂決定顯示在我的工作區域(Workfront) {#proof-decision-displays-in-the-my-work-area-workfront}
 
@@ -131,7 +131,7 @@ ht-degree: 0%
 
 在此變更之前，沒有跡象表明已在校訂上做出決定，並且在您重新整理瀏覽器之前，校訂保留在我的核准索引標籤上。
 
-如需詳細資訊，請參閱 [核准工作](../../../../review-and-approve-work/manage-approvals/approving-work.md) 在 [核准工作](../../../../review-and-approve-work/manage-approvals/approving-work.md).
+如需詳細資訊，請參閱[核准工作](../../../../review-and-approve-work/manage-approvals/approving-work.md)中的[核准工作](../../../../review-and-approve-work/manage-approvals/approving-work.md)。
 
 ## 以預設解析度檢視多媒體校樣(ProofHQ和Workfront) {#view-rich-media-proofs-in-preset-resolutions-proofhq-and-workfront}
 
@@ -139,7 +139,7 @@ ht-degree: 0%
 
 您現在可以從各種手機、平板電腦、筆記型電腦和桌上型電腦的預設解析度選項中選取。
 
-如需詳細資訊，請參閱以下的「檢視預設解析度」： [在校訂檢視器中變更互動式校訂解析度](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/view-interactive-content-as-it-appears-in-device.md).
+如需詳細資訊，請參閱[在校訂檢視器](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/view-interactive-content-as-it-appears-in-device.md)中變更互動式校訂解析度中的「檢視預設解析度」。
 
 ## 在多媒體校樣(ProofHQ和Workfront)的評論中檢視子頁面的URL {#view-url-to-sub-pages-in-comments-on-rich-media-proofs-proofhq-and-workfront}
 
@@ -165,25 +165,25 @@ ht-degree: 0%
 
 在此變更之前，為了建立自訂檢視，您必須從頭開始建立檢視。 
 
-如需詳細資訊，請參閱 [建立自訂檢視](../../../../workfront-proof/wp-work-proofsfiles/manage-your-work/create-and-manage-custom-views.md#creating) 在 [在Workfront Proof Proof中建立和管理自訂檢視](../../../../workfront-proof/wp-work-proofsfiles/manage-your-work/create-and-manage-custom-views.md).
+如需詳細資訊，請參閱[在[在Workfront Proof校訂中建立和管理自訂檢視](../../../../workfront-proof/wp-work-proofsfiles/manage-your-work/create-and-manage-custom-views.md)中建立自訂檢視](../../../../workfront-proof/wp-work-proofsfiles/manage-your-work/create-and-manage-custom-views.md#creating)。
 
 ## 篩選報告區域(ProofHQ) {#filter-the-reporting-area-proofhq}
 
 依預設，「報表」標籤上顯示的資料包含來自ProofHQ系統的所有資訊。 您現在可以使用篩選器只顯示與需求相關的資訊。 
 
-如需詳細資訊，請參閱 [篩選報表](../../../../workfront-proof/wp-work-proofsfiles/manage-your-work/run-reports.md#filtering-reports) 在  [在Workfront Proof中執行報告](../../../../workfront-proof/wp-work-proofsfiles/manage-your-work/run-reports.md).
+如需詳細資訊，請參閱[篩選報告](../../../../workfront-proof/wp-work-proofsfiles/manage-your-work/run-reports.md#filtering-reports)，位於  [在Workfront Proof中執行報告](../../../../workfront-proof/wp-work-proofsfiles/manage-your-work/run-reports.md)。
 
 ## 在報告中顯示最小值和最大值(ProofHQ) {#display-minimum-and-maximum-values-in-reports-proofhq}
 
 您現在可以設定檢視報表時圖形中是否顯示最小值和最大值。
 
-如需詳細資訊，請參閱 [檢視報表](../../../../workfront-proof/wp-work-proofsfiles/manage-your-work/run-reports.md#viewing-reports) 在  [在Workfront Proof中執行報告](../../../../workfront-proof/wp-work-proofsfiles/manage-your-work/run-reports.md).
+如需詳細資訊，請參閱[檢視報告](../../../../workfront-proof/wp-work-proofsfiles/manage-your-work/run-reports.md#viewing-reports)，位於  [在Workfront Proof中執行報告](../../../../workfront-proof/wp-work-proofsfiles/manage-your-work/run-reports.md)。
 
 ## 支援SAML 2.0的SHA-256憑證 {#support-sha-256-certificates-for-saml-2-0}
 
 使用SAML 2.0為SSO設定Workfront時，我們現在支援安全雜湊演演算法256 (SHA-256)。在此版本之前，我們僅支援安全雜湊演演算法1 (SHA-1)。
 
-如需使用SAML 2.0設定Workfront的詳細資訊，請參閱 [使用SAML 2.0設定Adobe Workfront](../../../../administration-and-setup/add-users/single-sign-on/configure-workfront-saml-2.md)
+如需使用SAML 2.0設定Workfront的詳細資訊，請參閱[使用SAML 2.0設定Adobe Workfront](../../../../administration-and-setup/add-users/single-sign-on/configure-workfront-saml-2.md)
 
 ## 對應屬性的預先輸入 {#type-ahead-for-mapping-attributes}
 
@@ -203,7 +203,7 @@ SAML 1.1不支援屬性對應。
 >
 > 行動應用程式會獨立於Workfront主應用程式發行。 本節所述的功能將於8月初發佈。
 
-您將在Android和iOS平台的行動應用程式上看到下列新增功能：
+您將在Android和iOS平台的行動應用程式中看到下列新增功能：
 
 * 從行動應用程式提交請求
 * 行動應用程式上的時程表新專案
@@ -212,7 +212,7 @@ SAML 1.1不支援屬性對應。
 
 Android平台將針對其中部分功能提供公開測試版計畫。
 
-如需即將推出的行動測試版計畫的詳細資訊，請參閱  [「貝塔斯」](https://support.workfront.com/hc/en-us/sections/115000743248) 頁面。
+如需即將推出的行動測試版計畫的詳細資訊，請參閱  [「Betas」](https://support.workfront.com/hc/en-us/sections/115000743248)頁。
 
 如需使用Workfront行動應用程式的詳細資訊，請參閱。  
 
@@ -226,7 +226,7 @@ Android平台將針對其中部分功能提供公開測試版計畫。
 
 在此變更之前，您無法篩選選項中包含逗號的欄位。
 
-如需此變更的詳細資訊，請參閱 [篩選器概觀](../../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+如需此變更的詳細資訊，請參閱[篩選器總覽](../../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md)。
 
 ## 多重收費率 {#multiple-billing-rates}
 
@@ -234,9 +234,9 @@ Android平台將針對其中部分功能提供公開測試版計畫。
 
 在此變更之前，您只能覆寫工作角色的計費費率一次，並且實際收入將重新計算以反映在計費費率變更之前記錄的所有時數的目前計費率。
 
-如需有關收費率和收入的詳細資訊，請參閱 [帳單與收入概要](../../../../manage-work/projects/project-finances/billing-and-revenue-overview.md).
+如需有關記帳費率和收入的詳細資訊，請參閱[記帳與收入概觀](../../../../manage-work/projects/project-finances/billing-and-revenue-overview.md)。
 
-如需有關在專案層級覆寫職務角色收費率的詳細資訊，請參閱 [覆寫工作角色帳單費率與計算專案收入的概要](../../../../manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md).
+如需有關在專案層級覆寫工作角色收費率的詳細資訊，請參閱[覆寫工作角色收費率和計算專案收入的總覽](../../../../manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md)。
 
 ## 資源規劃工具 {#resource-planner}
 
@@ -248,21 +248,21 @@ Android平台將針對其中部分功能提供公開測試版計畫。
 * 時數差額（預算與計畫時數之間）
 * 淨時數差異（可用與預算時數之間）
 
-如需有關使用資源規劃工具的詳細資訊，請參閱 [資源規劃工具概觀](../../../../resource-mgmt/resource-planning/get-started-resource-planner.md).
+如需有關使用資源規劃工具的詳細資訊，請參閱[資源規劃工具概觀](../../../../resource-mgmt/resource-planning/get-started-resource-planner.md)。
 
 ## 新資源預算時數欄位 {#new-resource-budgeted-hour-field}
 
 為了支援新的「計畫」功能和「資源規劃工具」，已新增一個欄位至Report Builder，可讓您報告資源預算時數。 此欄位會擷取資源在專案中預算的時數。 使用「舊版資源規劃」功能編列資源預算時，無法使用此欄位。
 
-如需有關在資源規劃工具中使用預算時數的詳細資訊，請參閱 [資源規劃工具概觀](../../../../resource-mgmt/resource-planning/get-started-resource-planner.md).
+如需有關在資源規劃工具中使用預算時數的詳細資訊，請參閱[資源規劃工具概觀](../../../../resource-mgmt/resource-planning/get-started-resource-planner.md)。
 
 ## 用於校訂核准的應用程式內通知 {#in-app-notification-for-proof-approval}
 
-當您被指定為校訂的核准者時，您會收到有關校訂核准的應用程式內通知，以等待您的決定。 通知會顯示下列文字： `<User name>` 要您核准此校訂」。 如果無法取得使用者資訊，通知會變更為「此校訂需要您的核准」。
+當您被指定為校訂的核准者時，您會收到有關校訂核准的應用程式內通知，以等待您的決定。 通知會顯示下列文字： `<User name>`要您核准此校訂」。 如果無法取得使用者資訊，通知會變更為「此校訂需要您的核准」。
 
 在此增強功能之前，您被指定為校訂核准者的唯一視覺指示是「我的工作」區域中的新校訂請求。
 
-如需應用程式內通知的詳細資訊，請參閱 [檢視及管理應用程式內通知](../../../../workfront-basics/using-notifications/view-and-manage-in-app-notifications.md).
+如需應用程式內通知的詳細資訊，請參閱[檢視及管理應用程式內通知](../../../../workfront-basics/using-notifications/view-and-manage-in-app-notifications.md)。
 
 ## 在任務與問題的詳細資訊頁面上的「指派至」區域顯示使用者工作角色 {#show-user-job-role-in-assigned-to-area-on-the-details-page-for-tasks-and-issues}
 

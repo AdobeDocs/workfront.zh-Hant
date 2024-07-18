@@ -41,7 +41,7 @@ ht-degree: 0%
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] 計劃*</strong></td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] 計畫*</strong></td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
@@ -51,21 +51,21 @@ ht-degree: 0%
    </tbody> 
 </table>
 
-&#42;若要瞭解您擁有的計畫、授權型別或存取權，請聯絡您的 [!DNL Workfront] 管理員。
+&#42;若要瞭解您擁有的計畫、授權型別或存取權，請連絡您的[!DNL Workfront]管理員。
 
 ## 設定卡片 {#configure-cards}
 
-1. 按一下 **[!UICONTROL 主要功能表]** 圖示 ![](assets/main-menu-icon.png) 位於的右上角 [!DNL Adobe Workfront]，然後按一下 **[!UICONTROL 展示板]**.
-1. 存取展示板。 如需詳細資訊，請參閱 [建立或編輯展示板](../../agile/get-started-with-boards/create-edit-board.md).
-1. 按一下 [!UICONTROL **設定**] ，以開啟「設定」面板。
-1. 展開 [!UICONTROL **卡片**].
+1. 按一下[!DNL Adobe Workfront]右上角的&#x200B;**[!UICONTROL 主功能表]**&#x200B;圖示![](assets/main-menu-icon.png)，然後按一下&#x200B;**[!UICONTROL 面板]**。
+1. 存取展示板。 如需詳細資訊，請參閱[建立或編輯展示板](../../agile/get-started-with-boards/create-edit-board.md)。
+1. 按一下主機板右側的&#x200B;[!UICONTROL **[設定]**]&#x200B;以開啟[設定]面板。
+1. 展開&#x200B;[!UICONTROL **卡片**]。
 
    預設會啟用大部分的欄位和區段。
 
 1. 關閉欄位或區段以在兩個卡片檢視中將其停用。
-1. 按一下隱藏圖示 ![隱藏圖示](assets/eye-hide-icon.png) 在欄位或區段旁邊，將其隱藏在壓縮檢視上。
-1. 若要在兩個檢視中顯示所有欄位和區段，請按一下 [!UICONTROL **將所有欄位還原為預設值**].
-1. 按一下 [!UICONTROL **隱藏設定**] 以關閉「設定」面板。
+1. 按一下欄位或區段旁的隱藏圖示![隱藏圖示](assets/eye-hide-icon.png)，在壓縮檢視中隱藏它。
+1. 若要在兩個檢視中顯示所有欄位和區段，請按一下[將所有欄位還原為預設值]。**][!UICONTROL **
+1. 按一下&#x200B;[!UICONTROL **隱藏設定**]&#x200B;以關閉「設定」面板。
 
 ## 新增自訂欄位到卡片
 
@@ -73,10 +73,10 @@ ht-degree: 0%
 
 自訂欄位上的資料可在卡片上編輯，但某些自訂元素可能只能在原始欄位上編輯，無法在卡片上編輯。
 
-1. 存取展示板並按一下 [!UICONTROL **設定**] 以開啟「設定」面板。
-1. 展開 [!UICONTROL **卡片**].
-1. 在 [!UICONTROL 卡片欄位]，按一下 [!UICONTROL **新增自訂欄位**].
-1. 選取 [!UICONTROL **任務**] 或 [!UICONTROL **問題**].
+1. 存取展示板並按一下&#x200B;[!UICONTROL **設定**]&#x200B;以開啟「設定」面板。
+1. 展開&#x200B;[!UICONTROL **卡片**]。
+1. 在[!UICONTROL 卡片欄位]下，按一下&#x200B;[!UICONTROL **新增自訂欄位**]。
+1. 選取&#x200B;[!UICONTROL **任務**]&#x200B;或&#x200B;[!UICONTROL **問題**]。
 
    任務或問題的可用欄位類別隨即顯示。 展開類別以檢視所有欄位。 您也可以搜尋欄位。
 
@@ -87,13 +87,13 @@ ht-degree: 0%
    >下列欄位型別無法新增至卡片：Adobe XD、影像、PDF、視訊。
 
 1. 選取欄位名稱。
-1. （選用）按一下 **[!UICONTROL 欄位值]** 欄位以將此自訂欄位變更為其他欄位。
-1. （可選）變更 **[!UICONTROL 欄位標籤]** 至您要顯示在卡片上的欄位名稱。
-1. 完成變更後，按一下 [!UICONTROL **儲存欄位**].
+1. （選擇性）按一下&#x200B;**[!UICONTROL 欄位值]**&#x200B;欄位，將此自訂欄位變更為其他欄位。
+1. （選擇性）將&#x200B;**[!UICONTROL 欄位標籤]**&#x200B;變更為您想在卡片上顯示的欄位名稱。
+1. 完成變更後，按一下&#x200B;[!UICONTROL **儲存欄位**]。
 
    ![自訂欄位值和標籤](assets/save-custom-field-value-label.png)
 
-   自訂欄位會新增至可用欄位清單，並依預設啟用。 您可以依照以下檔案中的步驟停用自訂欄位： [設定卡片](customize-fields-on-card.md#configure-cards) 編輯欄位，或從所有卡片中刪除它。
+   自訂欄位會新增至可用欄位清單，並依預設啟用。 您可以依照上面[設定卡片](customize-fields-on-card.md#configure-cards)區段中的步驟停用自訂欄位、編輯欄位或從所有卡片中刪除它。
 
 >[!NOTE]
 >
@@ -103,14 +103,14 @@ ht-degree: 0%
 
 您必須開啟組態設定，才能在展示板上顯示封存的卡片。
 
-1. 存取展示板並按一下 [!UICONTROL **設定**] 以開啟「設定」面板。
-1. 展開 [!UICONTROL **卡片**].
-1. 開啟 [!UICONTROL **在展示板上顯示已封存的卡片**].
+1. 存取展示板並按一下&#x200B;[!UICONTROL **設定**]&#x200B;以開啟「設定」面板。
+1. 展開&#x200B;[!UICONTROL **卡片**]。
+1. 開啟&#x200B;[!UICONTROL **在展示板上顯示封存的卡片**]。
 
-   現在，您可以篩選展示板以顯示任何已封存的卡片。 如需詳細資訊，請參閱 [在展示板中篩選和搜尋](/help/quicksilver/agile/get-started-with-boards/filter-search-in-board.md).
+   現在，您可以篩選展示板以顯示任何已封存的卡片。 如需詳細資訊，請參閱[在展示板中篩選和搜尋](/help/quicksilver/agile/get-started-with-boards/filter-search-in-board.md)。
 
-1. 按一下 [!UICONTROL **隱藏設定**] 以關閉「設定」面板。
+1. 按一下&#x200B;[!UICONTROL **隱藏設定**]&#x200B;以關閉「設定」面板。
 
 ## 設定卡片縮減
 
-若要在一段時間後自動從展示板中移除卡片，請參閱 [設定卡片縮減](/help/quicksilver/agile/use-boards-agile-planning-tools/configure-card-falloff.md).
+若要在一段時間後自動從展示板移除卡片，請參閱[設定卡片縮減](/help/quicksilver/agile/use-boards-agile-planning-tools/configure-card-falloff.md)。

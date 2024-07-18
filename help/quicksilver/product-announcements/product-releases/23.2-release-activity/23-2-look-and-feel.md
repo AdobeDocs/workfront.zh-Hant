@@ -17,7 +17,7 @@ ht-degree: 2%
 
 本頁說明在23.2版發行時間範圍內對Adobe Workfront應用程式的各個區域外觀和感覺所做的小幅更新。 這些增強功能將在發佈到「預覽」後至少2週內可在「生產」環境中使用。
 
-如需23.2版所有可用變更的清單，請參閱 [23.2版本總覽](/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-release-overview.md).
+如需23.2版本可用的所有變更清單，請參閱[23.2版本總覽](/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-release-overview.md)。
 
 ## 更新請求區域中草稿清單的外觀和風格
 
@@ -32,7 +32,7 @@ ht-degree: 2%
 * 當清單不含任何請求時，從草稿清單中移除影像
 * 清單新增分頁與欄排序功能。
 
-如需詳細資訊，請參閱 [從草稿建立請求](/help/quicksilver/manage-work/requests/create-requests/delete-request-draft.md).
+如需詳細資訊，請參閱[從草稿建立請求](/help/quicksilver/manage-work/requests/create-requests/delete-request-draft.md)。
 
 ## Workfront其他區域提供的智慧型使用者選擇
 
@@ -53,7 +53,7 @@ ht-degree: 2%
 
 現在，當您在上面列出的區域新增使用者時，除了使用者名稱和顯示圖片之外，也會顯示其主要角色和電子郵件。 這有助於區分具有類似或相同名稱的多位使用者。
 
-如需詳細資訊以及觀看類似功能的影片示範，請參閱中的「編輯和詳細資訊區域中專案角色的智慧使用者選擇」。 [22.4專案增強功能](/help/quicksilver/product-announcements/product-releases/22.4-release-activity/22-4-project-enhancements.md).
+如需詳細資訊以及觀看類似功能的影片示範，請參閱[22.4專案增強功能](/help/quicksilver/product-announcements/product-releases/22.4-release-activity/22-4-project-enhancements.md)中的「編輯和詳細資訊區域中專案角色的智慧使用者選擇」。
 
 ## 更新檔案詳細資訊中的檔案版本圖示
 
@@ -73,4 +73,4 @@ ht-degree: 2%
 * Workfront會在選擇範本後，立即檢查您是否有目的地範本的存取權。 在此增強功能之前，在您確認複製或移動後，會顯示警告訊息，指出您沒有正確的存取權，這會導致額外的步驟，且不允許動作。
 * 能夠要求存取您要複製或移動範本任務的範本，而不需要離開「複製或移動範本任務」方塊。
 
-如需詳細資訊，請參閱 [複製和移動範本任務](/help/quicksilver/manage-work/projects/create-and-manage-templates/copy-and-move-template-tasks.md).
+如需詳細資訊，請參閱[複製並移動範本任務](/help/quicksilver/manage-work/projects/create-and-manage-templates/copy-and-move-template-tasks.md)。

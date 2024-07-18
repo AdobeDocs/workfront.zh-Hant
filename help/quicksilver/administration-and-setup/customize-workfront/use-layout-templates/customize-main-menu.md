@@ -21,17 +21,17 @@ ht-degree: 4%
 
 作為Adobe Workfront管理員或群組管理員，您可以使用版面配置範本來設定使用者在Workfront中開啟「主要」功能表時看到的選項。
 
-![主要功能表選項](assets/main-menu-with-blueprints-no-branding.png)
+![主功能表選項](assets/main-menu-with-blueprints-no-branding.png)
 
 >[!NOTE]
 >
->使用者看到的主要功能表選項取決於其授權型別以及在其存取層級中設定的設定。 某些將使用此配置範本的使用者可能不會看見您在這裡選擇的所有選項。 如需詳細資訊，請參閱 [存取層級和許可權如何搭配運作](../../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md) 和 [可設定的每種物件型別功能存取權](../../../administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md).
+>使用者看到的主要功能表選項取決於其授權型別以及在其存取層級中設定的設定。 某些將使用此配置範本的使用者可能不會看見您在這裡選擇的所有選項。 如需詳細資訊，請參閱[存取層級和許可權如何搭配運作](../../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md)以及[每個物件型別可設定的功能存取權](../../../administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md)。
 
-如需有關建立版面配置範本的資訊，請參閱 [建立及管理版面範本](../use-layout-templates/create-and-manage-layout-templates.md).
+如需有關建立版面配置範本的資訊，請參閱[建立和管理版面配置範本](../use-layout-templates/create-and-manage-layout-templates.md)。
 
-如需有關群組版面配置範本的資訊，請參閱 [建立和修改群組的版面配置範本](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
+如需有關群組配置範本的資訊，請參閱[建立和修改群組的配置範本](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md)。
 
-配置版面範本後，您必須將其指派給使用者，才能讓其他人看到您所做的變更。 如需有關指派配置範本給使用者的資訊，請參閱 [將使用者指派至版面配置範本](../use-layout-templates/assign-users-to-layout-template.md).
+配置版面範本後，您必須將其指派給使用者，才能讓其他人看到您所做的變更。 如需將配置範本指派給使用者的詳細資訊，請參閱[將使用者指派給配置範本](../use-layout-templates/assign-users-to-layout-template.md)。
 
 ## 存取需求
 
@@ -62,14 +62,14 @@ ht-degree: 4%
  </tbody> 
 </table>
 
-*如需存取需求的詳細資訊，請參閱 [Workfront檔案中的存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*如需存取需求的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
 ## 自訂主要功能表
 
-1. 開始使用版面範本，如所述 [建立及管理版面範本](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
-1. 按一下 **設定主功能表** 在範本的右上角。
+1. 開始使用版面配置範本，如[建立和管理版面配置範本](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md)中所述。
+1. 按一下範本右上角的&#x200B;**設定主功能表**。
 
    「主選單」方塊開啟，您可以看到目前顯示在範本的「主選單」中的區域，以及可新增的專案。 以下是您可以新增的所有可能專案：
    * 首頁
@@ -89,14 +89,14 @@ ht-degree: 4%
 
      >[!NOTE]
      >
-     >Scenario Planner需要額外的授權。 如需Workfront Scenario Planner的相關資訊，請參閱 [情境規劃工具概觀](../../../scenario-planner/scenario-planner-overview.md).
+     >Scenario Planner需要額外的授權。 如需Workfront Scenario Planner的相關資訊，請參閱[Scenario Planner概觀](../../../scenario-planner/scenario-planner-overview.md)。
 
    * 團隊
    * 使用者
 
      >[!NOTE]
      >
-     >只有具有「計畫」許可證的使用者（在目前的許可證模型中）或具有「標準」許可證的使用者（在新的許可證模型中），才能看到「使用者」區域 ![](assets/users-icon-in-main-menu.png) 在主要功能表中。
+     >只有擁有Plan授權的使用者（在目前的授權模式中）或擁有Standard授權的使用者（在新的授權模式中），才能在主要功能表中看到「使用者」區域![](assets/users-icon-in-main-menu.png)。
 
    * 請求
    * 時程表
@@ -108,7 +108,7 @@ ht-degree: 4%
 
      >[!NOTE]
      >
-     >目標需要額外的授權。 如需Workfront目標的相關資訊，請參閱 [Adobe Workfront目標總覽](../../../workfront-goals/goal-management/wf-goals-overview.md).
+     >目標需要額外的授權。 如需Workfront目標的相關資訊，請參閱[Adobe Workfront目標總覽](../../../workfront-goals/goal-management/wf-goals-overview.md)。
 
    * 我的更新
    * 展示板
@@ -116,22 +116,22 @@ ht-degree: 4%
 
 1. 執行下列任一項作業：
 
-   * 隱藏 ![](assets/remove-icon---x-in-circle.png) **使用中的專案** 您不想要顯示的專案
-   * 顯示 ![](assets/add-icon-plus-in-circle.png) **可用專案** 您想要顯示在主功能表上的資訊。
-   * 拖曳 ![](assets/move-icon---dots.png) **使用中的專案** 以變更主功能表的顯示順序。
+   * 隱藏您不想顯示的![](assets/remove-icon---x-in-circle.png) **作用中專案**
+   * 顯示您想要顯示在主要功能表上的![](assets/add-icon-plus-in-circle.png) **可用專案**。
+   * 拖曳![](assets/move-icon---dots.png) **作用中專案**&#x200B;以變更它們在主要功能表上的顯示順序。
 
-1. 按一下 **完成**.
+1. 按一下&#x200B;**完成**。
 
-   您也可以按一下 **取消** 隨時放棄變更。
+   如果您要捨棄變更，也可以隨時按一下&#x200B;**取消**。
 
 1. 繼續自訂版面範本。
 
    或
 
-   如果您已完成自訂，請按一下 **儲存**.
+   如果您已完成自訂，請按一下&#x200B;**儲存**。
 
    >[!TIP]
    >
    >您可以隨時按一下「儲存」以儲存進度，然後繼續修改範本。
 
-如需版面配置範本的詳細資訊，請參閱 [建立及管理版面範本](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
+如需配置範本的詳細資訊，請參閱[建立和管理配置範本](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md)。

@@ -2,8 +2,8 @@
 user-type: administrator
 product-area: system-administration
 navigation-topic: manage-deleted-items
-title: 配置對象被刪除和還原時對時間的影響
-description: 您可以設定當某人刪除專案、任務或記錄該小時時，會發生什麼情況。 您選擇的選項也決定了稍後還原專案、任務或問題時的時數。 (如需在Workfront中還原項目的詳細資訊，請參閱還原已刪除的項目。)
+title: 設定刪除和還原物件時的影響時間
+description: 您可以設定在有人刪除專案、任務或時數記錄所針對的問題時，時數會發生什麼情況。 您選擇的選項也會決定在稍後還原專案、任務或問題時發生的小時數。 (如需有關在Workfront中還原專案的詳細資訊，請參閱還原已刪除的專案。)
 feature: System Setup and Administration
 role: Admin
 exl-id: 466c3972-8108-49a6-98f6-f65f5fcc3617
@@ -14,13 +14,13 @@ ht-degree: 0%
 
 ---
 
-# 配置對象被刪除和還原時對時間的影響
+# 設定刪除和還原物件時的影響時間
 
-您可以設定當某人刪除專案、任務或記錄該小時時，會發生什麼情況。 您選擇的選項也決定了稍後還原專案、任務或問題時的時數。 (如需在Workfront中還原項目的詳細資訊，請參閱 [還原已刪除的項](../../../administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md).)
+您可以設定在有人刪除專案、任務或時數記錄所針對的問題時，時數會發生什麼情況。 您選擇的選項也會決定在稍後還原專案、任務或問題時發生的小時數。 (如需有關在Workfront中還原專案的詳細資訊，請參閱[還原已刪除的專案](../../../administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md)。)
 
 ## 存取需求
 
-您必須具備下列存取權，才能執行本文中的步驟：
+您必須具有下列存取權才能執行本文中的步驟：
 
 <table style="table-layout:auto"> 
  <col> 
@@ -35,29 +35,29 @@ ht-degree: 0%
    <td>計劃</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">訪問級別配置</td> 
-   <td> <p>您必須是Workfront管理員。</p> <p><b>注意</b>:如果您仍無權存取，請洽詢您的Workfront管理員，他們是否在您的存取層級設定其他限制。 如需Workfront管理員如何修改您的存取層級的詳細資訊，請參閱 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>.</p> </td> 
+   <td role="rowheader">存取層級設定</td> 
+   <td> <p>您必須是Workfront管理員。</p> <p><b>注意</b>：如果您還是沒有存取權，請詢問您的Workfront管理員是否對您的存取層級設定了其他限制。 如需Workfront管理員如何修改存取層級的詳細資訊，請參閱<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## 配置刪除和還原項時如何管理小時
+## 設定刪除和還原專案時如何管理小時
 
-1. 按一下 **主菜單** 圖示 ![](assets/main-menu-icon.png) 在Adobe Workfront的右上角，然後按一下 **設定** ![](assets/gear-icon-settings.png).
+1. 按一下Adobe Workfront右上角的&#x200B;**主要功能表**&#x200B;圖示![](assets/main-menu-icon.png)，然後按一下&#x200B;**設定** ![](assets/gear-icon-settings.png)。
 
-1. 展開 **工時單和小時數**，然後按一下&#x200B;**偏好設定**.
+1. 展開&#x200B;**時程表和時數**，然後按一下&#x200B;**偏好設定**。
 
-1. 找出 **項目、任務或問題刪除首選項** 區段。
-1. （條件性）若要設定刪除專案時的管理小時數，請在 **刪除專案時** 小節：
+1. 找出&#x200B;**專案、任務或問題刪除偏好設定**&#x200B;區段。
+1. （視條件而定）若要設定刪除專案時數的管理方式，請在&#x200B;**刪除專案時**&#x200B;區段中選取下列其中一個選項：
 
-   * 將已添加到工時單的記錄小時數保留為一般小時數（如果此項目稍後恢復，則工時數將保留在工時單中）\
-      預設會選取此選項。
-   * 刪除任何記錄的小時數（如果此專案稍後還原，則記錄的小時數會還原至專案）
+   * 保留已新增至時程表的記錄時數作為一般時數（若日後還原此專案，時數仍會保留於時程表中）\
+     依預設，會選取此選項。
+   * 刪除任何記錄時數（若日後還原此專案，系統會將記錄時數還原至專案）
 
-1. （條件性）若要設定在刪除任務或問題時如何管理小時，請在 **刪除任務或問題時** 小節：
+1. （視條件而定）若要設定刪除任務或問題時數的管理方式，請在&#x200B;**刪除任務或問題時**&#x200B;區段中選取下列其中一個選項：
 
-   * 將任何記錄的小時數移至任務或問題所在的專案（如果稍後還原此任務或問題，則該小時數仍保留在專案中）\
-      預設會選取此選項。
-   * 刪除任何記錄的小時數（如果稍後還原了此任務或問題，則將將記錄的小時數還原為任務或問題）
+   * 將任何記錄時數移至任務或問題所在的專案（若日後還原此任務或問題，時數仍會保留於專案）\
+     依預設，會選取此選項。
+   * 刪除任何記錄時數（若日後還原此任務或問題，記錄時數會還原至任務或問題）
 
-1. 按一下&#x200B;**儲存**。
+1. 按一下「**儲存**」。

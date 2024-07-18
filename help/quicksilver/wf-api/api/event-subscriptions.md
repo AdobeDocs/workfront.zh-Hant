@@ -18,7 +18,7 @@ ht-degree: 0%
 
 * [事件訂閱API](../../wf-api/general/event-subs-api.md)
 * [活動訂閱最佳實務](../../wf-api/general/event-sub-best-practice.md)
-* [事件訂閱傳送需求](../../wf-api/general/setup-event-sub-endpoint.md)
+* [事件訂閱傳遞需求](../../wf-api/general/setup-event-sub-endpoint.md)
 * [事件訂閱資源欄位](../../wf-api/api/event-sub-resource-fields.md)
 * [事件訂閱重試次數](../../wf-api/api/event-sub-retries.md)
 * [篩選事件訂閱訊息](../../wf-api/api/filter-event-sub-messages.md)

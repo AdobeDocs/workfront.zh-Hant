@@ -33,7 +33,7 @@ ht-degree: 0%
 >
 >新評論體驗的Beta版計畫從2023年4月開始，於2023年10月結束，並於2023年10月發行。
 > 
->如需詳細資訊，請參閱 [新的評論體驗](../../betas/new-commenting-experience-beta/unified-commenting-experience.md).
+>如需詳細資訊，請參閱[新的註解體驗](../../betas/new-commenting-experience-beta/unified-commenting-experience.md)。
 >
 >自2024年4月11日起，生產環境中的所有客戶都可以使用新評論體驗中包含的所有功能。
 
@@ -41,9 +41,9 @@ ht-degree: 0%
 
 新的註解體驗為Workfront物件的「更新」區段帶來全新的設計。
 
-如需哪些Workfront物件會顯示「更新」區段的資訊，請參閱 [更新區段概觀](../../../workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
+如需關於哪些Workfront物件顯示「更新」區段的資訊，請參閱[更新區段概觀](../../../workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md)。
 
-如需新註解體驗發行時間表的相關資訊，請參閱 [新的評論體驗](../../betas/new-commenting-experience-beta/unified-commenting-experience.md).
+如需新註解體驗發行時間表的相關資訊，請參閱[新註解體驗](../../betas/new-commenting-experience-beta/unified-commenting-experience.md)。
 
 
 ## Beta版期間發行的功能
@@ -70,12 +70,12 @@ Beta版計畫結束後發行的功能會在發行時的最新發行頁面中傳�
 
 >[!NOTE]
 >
->此限制已在2023年11月28日後移除。 如需詳細資訊，請參閱 [2024年第一季版本總覽](../../product-releases/24-q1-release-activity/24-q1-release-overview.md).
+>此限制已在2023年11月28日後移除。 如需詳細資訊，請參閱[2024年第一季版本總覽](../../product-releases/24-q1-release-activity/24-q1-release-overview.md)。
 
 
 專案、任務、問題和檔案現在顯示從2019年1月1日起的更新。 在此增強功能之前，新的註釋體驗僅擷取這些物件自2022年6月以來的更新。
 
-如需詳細資訊，請參閱 [新的評論體驗](../new-commenting-experience-beta/unified-commenting-experience.md).
+如需詳細資訊，請參閱[新的註解體驗](../new-commenting-experience-beta/unified-commenting-experience.md)。
 
 所有客戶的預覽和生產： 2023年9月11日。
 
@@ -103,7 +103,7 @@ Beta版計畫結束後發行的功能會在發行時的最新發行頁面中傳�
 
 這將是這些物件的唯一註解體驗，因為當您存取它們時，舊版註解體驗會被移除。
 
-如需詳細資訊，請參閱 [新的評論體驗](../../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
+如需詳細資訊，請參閱[新的註解體驗](../../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md)。
 
 預覽版本： 2023年8月17日
 
@@ -131,7 +131,7 @@ Beta版計畫結束後發行的功能會在發行時的最新發行頁面中傳�
 
 * 每個註解對話串之間有一條分隔線
 
-如需詳細資訊，請參閱 [更新索引標籤總覽](../../../workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
+如需詳細資訊，請參閱[更新索引標籤總覽](../../../workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md)。
 
 預覽版本： 2023年8月17日
 
@@ -147,9 +147,9 @@ Beta版計畫結束後發行的功能會在發行時的最新發行頁面中傳�
 
 我們正在將新的註解體驗設定為下列物件的預設體驗：專案、任務、問題和檔案。  存取這些物件時，舊版註解體驗仍會作為替代選項。
 
-為了支援這項變更，我們也將的「註解測試版」切換重新命名為「新註解」。
+為支援此變更，我們將「註解Beta」切換開關重新命名為「新增註解」。
 
-如需詳細資訊，請參閱 [新的評論體驗](../new-commenting-experience-beta/unified-commenting-experience.md).
+如需詳細資訊，請參閱[新的註解體驗](../new-commenting-experience-beta/unified-commenting-experience.md)。
 
 預覽版本： 2023年8月17日
 
@@ -159,7 +159,7 @@ Beta版計畫結束後發行的功能會在發行時的最新發行頁面中傳�
 
 #### 在更新中標籤使用者時的頭像改善
 
-為了讓您更清楚地瞭解哪些使用者在更新中被標籤，我們現在會在更新中顯示被標籤的使用者名稱（最多兩個使用者）。 如需詳細資訊，請參閱 [在更新中標籤其他人](../../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
+為了讓您更清楚地瞭解哪些使用者在更新中被標籤，我們現在會在更新中顯示被標籤的使用者名稱（最多兩個使用者）。 如需詳細資訊，請參閱[在更新中標籤其他](../../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md)。
 
 預覽版本： 2023年8月17日
 
@@ -173,7 +173,7 @@ Beta版計畫結束後發行的功能會在發行時的最新發行頁面中傳�
 
 您現在可以使用新註解體驗中的RTF工具列選項，將表情符號新增到註解中。
 
-如需詳細資訊，請參閱 [更新工作](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md). 說明檔案將在發行時更新。
+如需詳細資訊，請參閱[更新工作](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md)。 說明檔案將在發行時更新。
 
 預覽和生產： 2023年8月10日
 
@@ -193,7 +193,7 @@ Beta版計畫結束後發行的功能會在發行時的最新發行頁面中傳�
 
 我們重新設計了介面，用於從新評論體驗的更新區域記錄時間。
 
-如需詳細資訊，請參閱 [記錄時間](../../../timesheets/create-and-manage-timesheets/log-time.md).
+如需詳細資訊，請參閱[記錄時間](../../../timesheets/create-and-manage-timesheets/log-time.md)。
 
 預覽版本： 2023年7月5日
 
@@ -205,7 +205,7 @@ Beta版計畫結束後發行的功能會在發行時的最新發行頁面中傳�
 
 現在，您能夠複製註解的內容，並在使用新的註解體驗時，以新引號的形式新增到相同對話串的回覆中。
 
-如需詳細資訊，請參閱 [更新工作](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+如需詳細資訊，請參閱[更新工作](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md)。
 
 預覽： 2023年6月28日
 
@@ -215,7 +215,7 @@ Beta版計畫結束後發行的功能會在發行時的最新發行頁面中傳�
 
 #### 面板區域中卡片的新註解體驗
 
-新的註解體驗現在可用於面板區域中的卡片。 這是卡片唯一可用的體驗。 如需詳細資訊，請參閱 [23.3版本總覽](../../product-releases/23.3-release-activity/23-3-release-overview.md).
+新的註解體驗現在可用於面板區域中的卡片。 這是卡片唯一可用的體驗。 如需詳細資訊，請參閱[23.3版本總覽](../../product-releases/23.3-release-activity/23-3-release-overview.md)。
 
 預覽： 2023年6月15日
 
@@ -225,9 +225,9 @@ Beta版計畫結束後發行的功能會在發行時的最新發行頁面中傳�
 
 #### 將區塊引號新增至註解
 
-您現在可以使用新註解測試版體驗中的RTF工具列選項，將區塊引號新增到註解中。
+您現在可以使用新註解Beta體驗中的RTF工具列選項，將區塊引號新增到註解中。
 
-如需詳細資訊，請參閱 [更新工作](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+如需詳細資訊，請參閱[更新工作](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md)。
 
 預覽： 2023年6月14日
 
@@ -241,7 +241,7 @@ Beta版計畫結束後發行的功能會在發行時的最新發行頁面中傳�
 
 * CTRL + Y (Mac為CMD + Y)以重做變更
 
-在這些增強功能之前，您無法在編輯註解時復原或重做變更。 如需詳細資訊，請參閱 [更新工作](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+在這些增強功能之前，您無法在編輯註解時復原或重做變更。 如需詳細資訊，請參閱[更新工作](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md)。
 
 預覽： 2023年6月13日
 
@@ -251,9 +251,9 @@ Beta版計畫結束後發行的功能會在發行時的最新發行頁面中傳�
 
 ### 2023年5月29日起一週
 
-#### 專案、任務和檔案的新註解測試版體驗
+#### 專案、任務和檔案的全新註解Beta體驗
 
-新的評論測試版體驗現在可用於專案、任務和檔案。 在此更新之前，評論Beta版體驗僅適用於問題和目標。
+專案、任務和檔案現在提供新的評論Beta體驗。 在此更新之前，評論Beta體驗僅適用於問題和目標。
 
 預覽： 2023年6月1日
 
@@ -261,11 +261,11 @@ Beta版計畫結束後發行的功能會在發行時的最新發行頁面中傳�
 
 >[!NOTE]
 >
->從2023年6月1日開始針對新註解Beta版體驗發佈的任何功能，在23.3版發佈至生產環境後，都可在生產環境中用於專案、任務和檔案。 如需詳細資訊，請參閱 [23.3版本總覽](../../../product-announcements/product-releases/23.3-release-activity/23-3-release-overview.md).
+>從2023年6月1日開始，針對新註解Beta體驗發佈的任何功能將在發佈到生產環境的23.3版本之後可用於專案、任務和檔案。 如需詳細資訊，請參閱[23.3版本總覽](../../../product-announcements/product-releases/23.3-release-activity/23-3-release-overview.md)。
 
 #### 編輯評論後新增「已編輯」標籤的外觀
 
-在新的註解測試版體驗中編輯註解時，「已編輯」標籤會新增到註解中。 此標籤現在具有原來發佈的新外觀。 註解的日期和時間戳記是原始註解的日期和時間。 不是進行編輯時的日期和時間戳記。  如需詳細資訊，請參閱 [更新工作](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+在新的註解Beta體驗中編輯註解時，「已編輯」標籤會新增至註解。 此標籤現在具有原來發佈的新外觀。 註解的日期和時間戳記是原始註解的日期和時間。 不是進行編輯時的日期和時間戳記。  如需詳細資訊，請參閱[更新工作](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md)。
 
 預覽： 2023年5月31日
 
@@ -273,15 +273,15 @@ Beta版計畫結束後發行的功能會在發行時的最新發行頁面中傳�
 
 #### 子物件的註解會向上彙整至父物件
 
-啟用註解Beta版體驗時，與子物件相關聯的註解現在會向上彙整至父物件。 例如，檔案中的註解現在會顯示在附加檔案的問題上。 如需詳細資訊，請參閱 [更新區段總覽](../../../workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
+現在啟用註解Beta體驗時，與子物件關聯的註解會向上彙整至父物件。 例如，檔案中的註解現在會顯示在附加檔案的問題上。 如需詳細資訊，請參閱[更新區段總覽](../../../workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md)。
 
 預覽： 2023年6月1日
 
 生產： 2023年6月1日
 
-#### 在新的評論Beta版體驗中記錄時間
+#### 在新的評論Beta體驗中記錄時間
 
-使用新的註解測試版體驗時，您可以從更新區域記錄問題、任務和專案的時間。 如需詳細資訊，請參閱 [記錄時間](../../../timesheets/create-and-manage-timesheets/log-time.md).
+使用新的註解Beta體驗時，您可以從更新區域記錄問題、任務和專案的時間。 如需詳細資訊，請參閱[記錄時間](../../../timesheets/create-and-manage-timesheets/log-time.md)。
 
 預覽： 2023年6月1日
 
@@ -296,7 +296,7 @@ Beta版計畫結束後發行的功能會在發行時的最新發行頁面中傳�
 * CTRL + V (Mac為CMD + V)在選取的文字上貼上連結
 * CTRL + K (Mac為CMD + K)開啟「新增連結」方塊。
 
-在這些增強功能之前，您只能按一下RTF工具列中的連結圖示來新增超連結。 如需詳細資訊，請參閱 [更新工作](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+在這些增強功能之前，您只能按一下RTF工具列中的連結圖示來新增超連結。 如需詳細資訊，請參閱[更新工作](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md)。
 
 預覽： 2023年5月17日
 
@@ -306,9 +306,9 @@ Beta版計畫結束後發行的功能會在發行時的最新發行頁面中傳�
 
 #### 當從註解中移除附件或移除包含附件的註解時，會從「檔案」區域移除影像
 
-移除或編輯包含附件的註解時，我們正在變更附件的工作方式。 現在，當您編輯註解並移除附件時，或者當您刪除包含附件的註解時，附件也會從「檔案」區域中移除。 在此變更之前，在先前的註解體驗中，附件仍保留在您的「檔案」區域中。 如需詳細資訊，請參閱 [更新工作](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+移除或編輯包含附件的註解時，我們正在變更附件的工作方式。 現在，當您編輯註解並移除附件時，或者當您刪除包含附件的註解時，附件也會從「檔案」區域中移除。 在此變更之前，在先前的註解體驗中，附件仍保留在您的「檔案」區域中。 如需詳細資訊，請參閱[更新工作](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md)。
 
-依預設，可用於下列日期發表測試版體驗和Workfront目標註解的問題：
+依預設，可用於下列日期發表評論Beta體驗的問題和Workfront目標：
 
 * 預覽和生產： 2023年5月4日
 
@@ -317,22 +317,22 @@ Beta版計畫結束後發行的功能會在發行時的最新發行頁面中傳�
 
 針對註解Beta版的問題和目標發佈了以下維護更新：
 
-編輯註解時編輯附加的影像。 如需詳細資訊，請參閱文章中的「4月27日維護更新」一節 <a href="https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=en#updates-in-april-2023">2023年4月更新</a>.
+編輯註解時編輯附加的影像。 如需相關資訊，請參閱<a href="https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=en#updates-in-april-2023">2023年4月更新</a>一文中的「4月27日維護更新」一節。
 
 ### 2023 年 4 月 20 日
 
 針對註解Beta版的問題和目標發佈了以下維護更新：
 
-遠離目標更新和評論Beta版體驗中的問題時，請將影像保留為草稿。 如需詳細資訊，請參閱文章中的「4月20日維護更新」一節 <a href="https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=en#updates-in-april-2023">2023年4月更新</a>.
+遠離目標更新和評論Beta版體驗中的問題時，請將影像保留為草稿。 如需相關資訊，請參閱<a href="https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=en#updates-in-april-2023">2023年4月更新</a>一文中的「4月20日維護更新」一節。
 
 ### 2023 年 4 月 17 日
 
 針對註解Beta版的問題和目標發佈了以下維護更新：
 
-在問題（新註解Beta版體驗）和目標的「更新」區段中，在可見畫面區域之外顯示新註解。 如需詳細資訊，請參閱文章中的「4月17日維護更新」一節  <a href="https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=en#updates-in-april-2023">2023年4月更新</a>.
+在問題的更新區段(新註解Beta體驗)和目標中，在可見畫面區域之外顯示新註解。 如需相關資訊，請參閱<a href="https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=en#updates-in-april-2023">2023年4月更新</a>一文中的「4月17日維護更新」一節。
 
 
 ### 2023年4月6日當週
 
 新的發表評論測試版體驗已針對問題推出。
-針對Workfront物件的評論測試版所發行的相同功能，會針對有權存取Workfront目標的所有使用者同時發行目標。 如需詳細資訊，請參閱 [23.2版本總覽](../../product-releases/23.2-release-activity/23-2-release-overview.md).
+針對Workfront物件的評論測試版所發行的相同功能，會針對有權存取Workfront目標的所有使用者同時發行目標。 如需詳細資訊，請參閱[23.2版本總覽](../../product-releases/23.2-release-activity/23-2-release-overview.md)。

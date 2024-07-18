@@ -17,7 +17,7 @@ ht-degree: 0%
 
 本頁說明預覽環境的21.4版本所進行的所有「校訂」增強功能。 這些增強功能將在2021年10月4日當週的生產環境中提供。
 
-如需21.4版本所有可用變更的清單，請參閱 [21.4版本總覽](../../../product-announcements/product-releases/21.4-release-activity/21-4-release-overview.md).
+如需21.4版本可用的所有變更清單，請參閱[21.4版本總覽](../../../product-announcements/product-releases/21.4-release-activity/21-4-release-overview.md)。
 
 ## 改善檢閱者和請求者的校訂功能
 
@@ -31,4 +31,4 @@ ht-degree: 0%
 * 您可以將檢閱者和請求者新增至需要登入或需要以電子方式簽署的校訂。
 * 所有使用者都能從Workfront和Proof之間更佳的連線能力中獲益。 現在，停用使用者或更新使用者的電子郵件地址時，在Workfront中變更時校訂中會正確反映您的更新。
 
-如需詳細資訊，請參閱 [校訂角色總覽](../../../review-and-approve-work/proofing/proofing-overview/proof-roles.md).
+如需詳細資訊，請參閱[校訂角色概觀](../../../review-and-approve-work/proofing/proofing-overview/proof-roles.md)。

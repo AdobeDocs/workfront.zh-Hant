@@ -17,15 +17,15 @@ ht-degree: 0%
 
 本頁說明21.4版對預覽環境所做的所有管理員增強功能。 這些增強功能將在2021年10月4日當週的生產環境中提供。
 
-如需21.4版本所有可用變更的清單，請參閱 [21.4版本總覽](../../../product-announcements/product-releases/21.4-release-activity/21-4-release-overview.md).
+如需21.4版本可用的所有變更清單，請參閱[21.4版本總覽](../../../product-announcements/product-releases/21.4-release-activity/21-4-release-overview.md)。
 
 ## 對於管理員：檢視與核准流程相關聯的群組
 
 為協助您找出哪些群組與系統中的核准流程相關聯，我們在「設定」的「核准」頁面上，將「群組名稱」欄新增至「標準」檢視。 現在，您無需建立自訂檢視即可檢視此資訊。
 
-如需核准流程的相關資訊，請參閱 [核准流程總覽](../../../review-and-approve-work/manage-approvals/approval-process-in-workfront.md).
+如需核准程式的資訊，請參閱[核准程式概觀](../../../review-and-approve-work/manage-approvals/approval-process-in-workfront.md)。
 
-如需有關管理群組核准流程的資訊，請參閱 [群組層級核准流程](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-groups-approval-processes.md).
+如需有關管理群組核准流程的資訊，請參閱[群組層級核准流程](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-groups-approval-processes.md)。
 
 ## 管理員的新增功能：群組可以設定自己的時程表和小時偏好設定
 
@@ -37,27 +37,27 @@ ht-degree: 0%
 
 此功能最近也針對專案偏好設定以及任務和問題偏好設定新增。
 
-如需Workfront管理員如何解除鎖定時程表和小時偏好設定的相關資訊，請參閱區段 [解鎖群組的時程表和小時偏好設定](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md#lock) 在文章中 [設定時程表和小時偏好設定](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
+如需Workfront管理員如何解除鎖定時程表和小時偏好設定的相關資訊，請參閱[設定時程表和小時偏好設定](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md)一文中的[解除鎖定群組的時程表和小時偏好設定](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md#lock)小節。
 
-如需有關群組管理員如何設定群組的解除鎖定任務和問題偏好設定的資訊，請參閱 [設定群組的時程表和小時偏好設定](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-timesheet-hour-preferences-group.md).
+如需有關群組管理員如何設定群組的解除鎖定任務和問題偏好設定的資訊，請參閱[設定群組的時程表和小時偏好設定](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-timesheet-hour-preferences-group.md)。
 
 ## Workfront管理員的新增功能：在新的Workfront體驗中為自動布建的使用者設定版面範本
 
 現在您可以在新的Workfront體驗中設定版面配置範本，供自動布建的使用者使用。 在對應使用者屬性的Workfront「使用者屬性」下拉式功能表中（「設定」>「系統」>「單一登入」），新的「全新配置範本」功能表專案現在可用於進行此設定。 之前，您只能在Workfront Classic中為自動布建的使用者設定版面範本。
 
-如需對應使用者屬性的指示，請參閱 [對應使用者屬性並自動布建新使用者](../../../administration-and-setup/add-users/create-and-manage-users/map-user-attributes.md).
+如需對應使用者屬性的指示，請參閱[對應使用者屬性和自動布建新使用者](../../../administration-and-setup/add-users/create-and-manage-users/map-user-attributes.md)。
 
 ## 新欄位顯示您的使用者所屬的群組
 
 現在，您可輕鬆瞭解使用者屬於哪些群組。 在列出使用者的報表或檢視中，您可以使用新的「其他群組」欄位來建立欄。 此欄位會列出每個使用者所屬的群組。
 
-如需有關使用報表和檢視的資訊，請參閱 [建立自訂報表](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md) 和 [Adobe Workfront中的檢視概觀](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
+如需有關使用報告和檢視的資訊，請參閱[在Adobe Workfront中建立自訂報告](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md)和[檢視總覽](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md)。
 
 ## 藍圖詳細資訊頁面現在會顯示影像
 
 現在，每個Blueprint的詳細資訊頁面都會顯示與Blueprint一起安裝的專案範本影像。 此影像提供Blueprint內容的預覽，讓您知道要安裝的內容。 您可以選擇在瀏覽器中預覽完整影像或下載影像。
 
-如需詳細資訊，請參閱 [藍圖概觀](../../../administration-and-setup/blueprints/blueprints-overview.md).
+如需詳細資訊，請參閱[藍圖概觀](../../../administration-and-setup/blueprints/blueprints-overview.md)。
 
 ![](assets/blueprint-detailspage.png)
 
@@ -69,7 +69,7 @@ ht-degree: 0%
 
 請注意，使用這些偏好設定不會將從範本建立的專案放入請求佇列。
 
-如需詳細資訊，請參閱 [設定Blueprint](../../../administration-and-setup/blueprints/configure-template-package.md).
+如需詳細資訊，請參閱[設定藍圖](../../../administration-and-setup/blueprints/configure-template-package.md)。
 
 ## 群組管理員的新增功能：檢視及管理群組最近刪除及還原的專案
 
@@ -79,7 +79,7 @@ ht-degree: 0%
 
 我們持續讓您更輕鬆地集中管理群組及其相關物件。 現在，您可以從「群組」區域檢視和使用群組最近刪除和還原的專案。 這可讓您無須前往「設定」中的「最近刪除」或「最近還原」區域來管理這些專案。 而且它會將您正在使用的群組專案清單與系統中其他已刪除和還原的專案分開。
 
-如需詳細資訊，請參閱 [檢視及管理群組最近刪除的專案](../../../administration-and-setup/manage-groups/work-with-group-objects/view-manage-groups-recently-deleted-objects.md) 和 [檢視和管理群組最近還原的專案](../../../administration-and-setup/manage-groups/work-with-group-objects/view-manage-groups-recently-restored-objects.md).
+如需詳細資訊，請參閱[檢視和管理群組最近刪除的專案](../../../administration-and-setup/manage-groups/work-with-group-objects/view-manage-groups-recently-deleted-objects.md)和[檢視和管理群組最近還原的專案](../../../administration-and-setup/manage-groups/work-with-group-objects/view-manage-groups-recently-restored-objects.md)。
 
 ## 群組管理員的新增功能：群組偏好設定現在會影響群組範本
 
@@ -102,13 +102,13 @@ ht-degree: 0%
 
 如果您建立沒有群組的範本或範本任務（例如，從主「範本」頁面），則上述設定會繼承自系統層級的專案和任務偏好設定。 但是，如果您稍後將群組指派給範本或範本任務，群組的偏好設定不會影響它。
 
-如需詳細資訊，請參閱文章中的偏好設定如何套用至範本和範本任務一節 [建立和修改群組的專案範本](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-templates.md).
+如需詳細資訊，請參閱文章[建立及修改群組的專案範本](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-templates.md)中的「偏好設定如何套用至範本和範本任務」一節。
 
 ## 管理員的新增功能：瞭解哪些自訂表單正在使用自訂欄位
 
 現在變更自訂表單中的自訂欄位更容易。 只要在自訂表單中按一下，您就可以找到有關也使用該欄位的任何其他自訂表單。 請務必評估這些表單是否需要調整，以便在您進行變更後能夠繼續正常運作。
 
-如需詳細資訊，請參閱 [檢視使用特定自訂欄位或Widget的所有自訂表單](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/view-all-custom-forms-that-use-a-particular-custom-field.md).
+如需詳細資訊，請參閱[檢視使用特定自訂欄位或Widget](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/view-all-custom-forms-that-use-a-particular-custom-field.md)的所有自訂表單。
 
 ## 群組管理員的新增功能：鎖定和解鎖群組的專案、任務和問題偏好設定
 
@@ -118,11 +118,11 @@ ht-degree: 0%
 
   反之，您可以解鎖群組的偏好設定。 這允許子群組管理員根據其使用者獨特的專案、任務或問題工作流程需求來設定它。
 
-  如需詳細資訊，請參閱 [鎖定或解除鎖定子群組的專案、任務或問題偏好設定](../../../administration-and-setup/manage-groups/create-and-manage-groups/lock-or-unlock-a-group-preference.md).
+  如需詳細資訊，請參閱[鎖定或解除鎖定子群組的專案、任務或問題偏好設定](../../../administration-and-setup/manage-groups/create-and-manage-groups/lock-or-unlock-a-group-preference.md)。
 
 * 如果您是Workfront管理員，就不需要前往「群組」區域設定子群組的偏好設定。 從主要專案偏好設定、任務和問題偏好設定或時程表和時數偏好設定區域，您可以使用頁面頂端的搜尋方塊來尋找子群組並設定其偏好設定。
 
-  如需詳細資訊，請參閱 [設定群組的專案偏好設定](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-project-preferences-group.md) 和 [設定群組的任務和問題偏好設定](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-task-issue-preferences-group.md).
+  如需詳細資訊，請參閱[設定群組的專案偏好設定](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-project-preferences-group.md)和[設定群組的任務和問題偏好設定](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-task-issue-preferences-group.md)。
 
 ## 群組管理員的新增功能：從群組區域建立和編輯範本
 
@@ -132,7 +132,7 @@ ht-degree: 0%
 
 我們持續讓您更輕鬆地在一個位置管理群組及其關聯的物件。 現在您可以從「設定」的「群組」區域檢視和使用群組的範本。 這可讓您無須前往「範本」區域來管理群組的範本。 而且它會將您正在處理的群組範本清單與整個系統中的其他群組範本清單分開。
 
-如需詳細資訊，請參閱 [建立和修改群組的專案範本](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-templates.md).
+如需詳細資訊，請參閱[建立和修改群組的專案範本](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-templates.md)。
 
 ## 一次在一個附加的自訂表單中輸入並儲存資訊
 
@@ -162,7 +162,7 @@ Workfront管理員也可以（針對所有群組）執行這些操作。
 
 以前，此功能僅適用於頂層群組。
 
-如需詳細資訊，請參閱 [管理群組狀態](../../../administration-and-setup/manage-groups/manage-group-statuses/manage-group-statuses.md).
+如需詳細資訊，請參閱[管理群組狀態](../../../administration-and-setup/manage-groups/manage-group-statuses/manage-group-statuses.md)。
 
 ## Workfront管理員的新功能：自行將版面範本從Workfront Classic移轉至新的Workfront體驗
 
@@ -180,4 +180,4 @@ Workfront管理員也可以（針對所有群組）執行這些操作。
 
 在21.3中，當我們新增將群組範本與群組建立關聯的功能時，您可以在範本中選取群組特定的核准程式，但您無法在範本的「佇列詳細資訊」或「佇列主題」中執行此操作。
 
-如需詳細資訊，請參閱 [將新的或現有的核准流程與工作建立關聯](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md).
+如需詳細資訊，請參閱[將新的或現有的核准程式與工作建立關聯](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md)。

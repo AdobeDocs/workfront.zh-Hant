@@ -2,118 +2,118 @@
 product-previous: workfront-proof
 product-area: documents;workfront-integrations
 navigation-topic: basecamp-classic
-title: 整合 [!DNL Workfront Proof] 與Basecamp Classic
-description: 如果您使用 [!DNL Basecamp] 對於項目管理，您可以使用 [!DNL Workfront Proof].
+title: 將 [!DNL Workfront Proof] 與Basecamp Classic整合
+description: 如果您使用 [!DNL Basecamp] 進行專案管理，可以使用 [!DNL Workfront Proof]提供專案團隊更豐富的檢閱和核准工具。
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: e1f03079-6ccc-4e81-a7f7-184e87d62654
 source-git-commit: 088570f516bbea2e6fd81b1f711151d8941ca71e
 workflow-type: tm+mt
-source-wordcount: '770'
+source-wordcount: '725'
 ht-degree: 0%
 
 ---
 
-# 整合 [!DNL Workfront Proof] with [!DNL Basecamp Classic]
+# 將[!DNL Workfront Proof]與[!DNL Basecamp Classic]整合
 
 >[!IMPORTANT]
 >
->本文說明獨立產品中的功能 [!DNL Workfront Proof]. 有關內部校對的資訊 [!DNL Adobe Workfront]，請參閱 [校對](../../../review-and-approve-work/proofing/proofing.md).
+>本文提及獨立產品[!DNL Workfront Proof]中的功能。 有關[!DNL Adobe Workfront]內部校訂的資訊，請參閱[校訂](../../../review-and-approve-work/proofing/proofing.md)。
 
-如果您使用 [!DNL Basecamp] 對於項目管理，您可以使用 [!DNL Workfront Proof].
+如果您使用[!DNL Basecamp]進行專案管理，則可以使用[!DNL Workfront Proof]提供專案團隊更豐富的檢閱和核准工具。
 
-## 了解 [!DNL Basecamp] 與整合 [!DNL Workfront]
+## 瞭解[!DNL Basecamp]與[!DNL Workfront]的整合
 
-與整合 [!DNL Basecamp] 可讓使用者在 [!DNL Basecamp]. 使用者可以將校樣提交至您的 [!DNL Workfront Proof] 將其與您的 [!DNL Basecamp] 專案。 您的審核者可以 [在校對檢視器中決定校樣](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/make-decisions-on-proof.md) via [!DNL Basecamp]，使用內嵌於Basecamp訊息中的mini校樣。
+與[!DNL Basecamp]整合可讓使用者在[!DNL Basecamp]內檢視、檢閱及核准校訂。 使用者可以將校訂提交至您的[!DNL Workfront Proof]帳戶，並將它們連結至您的[!DNL Basecamp]專案。 您的檢閱者可以使用Basecamp郵件中內嵌的迷你校訂，透過[!DNL Basecamp]在校訂檢視者](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/make-decisions-on-proof.md)中決定校訂[。
 
-與整合時 [!DNL Workfront Proof], [!DNL Basecamp] 可讓使用者對校樣執行下列動作：
+與[!DNL Workfront Proof]整合時，[!DNL Basecamp]可讓使用者對校訂進行下列操作：
 
-* 使用者可以在 [!DNL Basecamp Classic].
-* 使用者可隨時使用審核工具。
-* 專案審核團隊會在 [!DNL Basecamp] 提供微型的審核和批准證明。
-* 使用者可切換至完整頁面的校樣，以進行審核和核准。
-* 使用者可為小型和完整校樣新增註解和標籤。
+* 使用者可以在[!DNL Basecamp Classic]內檢閱和核准校樣。
+* 使用者隨時可以使用檢閱工具。
+* 專案稽核團隊在[!DNL Basecamp]中收到一封包含迷你校訂的郵件，以供稽核和核准。
+* 使用者可以切換到整頁校訂以供檢閱和核准。
+* 使用者可以在迷你和完整大小的校樣中新增評論和標籤。
 
-   >[!NOTE]
-   >
-   >評論一經回覆，便無法編輯或刪除。
+  >[!NOTE]
+  >
+  >評論回覆後即無法編輯或刪除。
 
-* 審核者可回應其他審核者所做的和標籤。
-* 有新版本的校樣可用時，系統會提醒使用者。
-* 非 [!DNL Workfront Proof] 使用者可以在 [!DNL Basecamp].
+* 稽核者可回應其他稽核者所做的和標示。
+* 當有新版本的校訂可用時，會提醒使用者。
+* 不是[!DNL Workfront Proof]使用者的使用者可以在[!DNL Basecamp]中處理校訂。
 
-整合 [!DNL Workfront Proof] with [!DNL Basecamp] 必須設定在兩個層級：
+[!DNL Workfront Proof]與[!DNL Basecamp]的整合必須在兩個層級上設定：
 
-* 設定 [!DNL Basecamp] in [帳戶設定：](https://support.workfront.com/hc/en-us/sections/115000912147-Account-settings) 這可讓您整個組織的Basecamp整合。
-* 如需詳細資訊，請參閱 [啟用 [!DNL Basecamp] 與整合 [!DNL Workfront Proof]](#enabling-the-basecamp-integration-with-workfront-proof).
-* 設定 [!DNL Basecamp] in [個人設定](https://support.workfront.com/hc/en-us/sections/115000921168-Personal-settings):這可讓證明建立者和擁有者與其個人連結 [!DNL Basecamp] 帳戶和授權 [!DNL Workfront Proof] 存取權。 如需詳細資訊，請參閱 [配置個人設定](#configuring-personal-settings).
+* 在[帳戶設定：](https://support.workfront.com/hc/en-us/sections/115000912147-Account-settings)中設定[!DNL Basecamp]如此可讓您整個組織的Basecamp整合。
+* 如需詳細資訊，請參閱[啟用 [!DNL Basecamp] 與 [!DNL Workfront Proof]](#enabling-the-basecamp-integration-with-workfront-proof)的整合。
+* 在[個人設定](https://support.workfront.com/hc/en-us/sections/115000921168-Personal-settings)中設定[!DNL Basecamp]：這可讓校訂建立者和擁有者連線到他們的個人[!DNL Basecamp]帳戶並授權[!DNL Workfront Proof]存取權。 如需詳細資訊，請參閱[設定個人設定](#configuring-personal-settings)。
 
-您可以整合 [!DNL Workfront] 為 [!DNL Basecamp] 或 [!DNL Basecamp Classic]. 每個版本 [!DNL Basecamp] 使用不同的API，因此需要不同的設定程式。
+您可以整合[!DNL Workfront]與[!DNL Basecamp]或[!DNL Basecamp Classic]。 每個版本的[!DNL Basecamp]使用不同的API，因此需要不同的設定程式。
 
-有關配置的資訊 [!DNL Basecamp Classic]，請參閱 [啟用 [!DNL Basecamp] 與整合 [!DNL Workfront Proof]](#enabling-the-basecamp-integration-with-workfront-proof) 這篇文章。
+如需有關設定[!DNL Basecamp Classic]的資訊，請參閱本文中的[啟用 [!DNL Basecamp] 與 [!DNL Workfront Proof]](#enabling-the-basecamp-integration-with-workfront-proof)的整合。
 
-有關配置的資訊 [!DNL Basecamp]，請參閱 [整合 [!DNL Workfront Proof] with [!DNL Basecamp]](../../../workfront-proof/wp-integrations/basecamp/integrate-workfront-proof-with-basecamp.md).
+如需設定[!DNL Basecamp]的詳細資訊，請參閱[整合 [!DNL Workfront Proof] 與 [!DNL Basecamp]](../../../workfront-proof/wp-integrations/basecamp/integrate-workfront-proof-with-basecamp.md)。
 
-## 啟用 [!DNL Basecamp] 與整合 [!DNL Workfront Proof]
+## 正在啟用[!DNL Basecamp]與[!DNL Workfront Proof]的整合
 
-As a [校樣權限設定檔(位於 [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md) 或 [校樣權限設定檔(位於 [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)，您可以在您的 [帳戶設定](https://support.workfront.com/hc/en-us/sections/115000912147-Account-settings).
+作為 [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)中的[校訂許可權設定檔或 [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)中的[校訂許可權設定檔，您可以在[帳戶設定](https://support.workfront.com/hc/en-us/sections/115000912147-Account-settings)中為整個帳戶設定Basecamp整合。
 
-1. 前往 [帳戶設定。](https://support.workfront.com/hc/en-us/sections/115000912147-Account-settings)
-1. 開啟 **[!UICONTROL 整合]** 標籤(1)。
-1. 若要啟用Basecamp整合，請按一下 **[!UICONTROL 啟用]** (2)。
-1. 確認 [!DNL Basecamp Classic] 是您要與(3)整合的版本。
-1. （條件性）若否 [!DNL Basecamp] URL顯示(4)，按一下 **[!UICONTROL 編輯]** 並輸入 [!DNL Basecamp] 帳戶(不含http://)。
-1. 按一下 **[!UICONTROL 儲存]** (5)。\
-   ![Basecamp_account_settings_-_integration.png](assets/basecamp-account-settings---integration-350x192.png)
+1. 移至[帳戶設定。](https://support.workfront.com/hc/en-us/sections/115000912147-Account-settings)
+1. 開啟&#x200B;**[!UICONTROL 整合]**&#x200B;標籤(1)。
+1. 若要啟用Basecamp整合，請按一下&#x200B;**[!UICONTROL 啟用]** (2)。
+1. 確認[!DNL Basecamp Classic]是您正在與(3)整合的版本。
+1. （視條件而定）如果沒有顯示[!DNL Basecamp] URL (4)，請按一下&#x200B;**[!UICONTROL 編輯]**&#x200B;並輸入您[!DNL Basecamp]帳戶的URL (不含http://)。
+1. 按一下&#x200B;**[!UICONTROL 儲存]** (5)。\
+   ![基本帳戶_設定_-_整合.png](assets/basecamp-account-settings---integration-350x192.png)
 
-1. （選用）檢查 [!DNL Basecamp] 登入您的 [!DNL Basecamp Classic] 賬號(6)。
+1. （選擇性）登入[!DNL Basecamp Classic]帳戶後，在瀏覽器中檢查您的[!DNL Basecamp] URL (6)。
 
    ![Basecamp_URL.png](assets/basecamp-url-350x75.png)
 
-   整合後 [!DNL Workfront Proof] with [!DNL Basecamp]，您的使用者可以設定其個人設定。 有關設定個人設定的資訊，請參閱 [配置個人設定](#configuring-personal-settings).
+   一旦您將[!DNL Workfront Proof]與[!DNL Basecamp]整合，您的使用者就可以設定其個人設定。 如需設定個人設定的詳細資訊，請參閱[設定個人設定](#configuring-personal-settings)。
 
-   如果您無法啟用 [!DNL Basecamp] 整合，您的 [!DNL Workfront Proof] 帳戶ID可能與您在 [!DNL Basecamp].
+   如果您無法啟用[!DNL Basecamp]整合，您的[!DNL Workfront Proof]帳戶ID可能與您在[!DNL Basecamp]中使用的帳戶ID不同。
 
-## 配置個人設定
+## 設定個人設定
 
-在您設定 [帳戶設定](https://support.workfront.com/hc/en-us/sections/115000912147-Account-settings) 針對您的組織，建立/提交證明的每個作者都應設定  [個人設定。](https://support.workfront.com/hc/en-us/sections/115000921168-Personal-settings)
+在您為組織設定[帳戶設定](https://support.workfront.com/hc/en-us/sections/115000912147-Account-settings)後，建立/提交校訂的每位作者都應該設定其[個人設定。](https://support.workfront.com/hc/en-us/sections/115000921168-Personal-settings)
 
 >[!NOTE]
 >
->如果您有 [!DNL Basecamp] 工作階段在單一瀏覽器視窗中開啟，而您的 [!DNL Workfront Proof] 工作階段會在另一個視窗中開啟。
+>如果您在一個瀏覽器視窗中開啟您的[!DNL Basecamp]工作階段，而在另一個視窗中開啟您的[!DNL Workfront Proof]工作階段，完成這些步驟是最簡單的。
 
-* [擷取 [!DNL Basecamp] API Token](#retrieving-your-basecamp-api-token)
-* [新增您的 [!DNL Basecamp] API代號至您的個人設定](#adding-your-basecamp-api-token-to-your-personal-settings)
+* [正在擷取您的 [!DNL Basecamp] API Token](#retrieving-your-basecamp-api-token)
+* [正在將您的 [!DNL Basecamp] API Token新增至您的個人設定](#adding-your-basecamp-api-token-to-your-personal-settings)
 
-### 擷取 [!DNL Basecamp] API Token
+### 正在擷取您的[!DNL Basecamp] API Token
 
-若要在 [!DNL Workfront Proof]，使用者需要其個別驗證Token才能 [!DNL Basecamp] API。
+若要在[!DNL Workfront Proof]中完成個別層級的整合，使用者需要[!DNL Basecamp] API的個別驗證權杖。
 
-若要擷取 [!DNL Basecamp] API Token:
+若要擷取您的[!DNL Basecamp] API Token：
 
-1. 登入 [!DNL Basecamp] 帳戶。
-1. 按一下 **[!UICONTROL 我的資訊]** （一）螢幕右上角。\
-   此 [!UICONTROL 我的資訊] 頁面。\
+1. 登入您的[!DNL Basecamp]帳戶。
+1. 按一下熒幕右上角的&#x200B;**[!UICONTROL 我的資訊]** (1)。\
+   顯示[!UICONTROL 我的資訊]頁面。\
    ![Basecamp_Integration_-_Token1.png](assets/basecamp-integration---token1-350x334.png)
 
-1. 在 [!UICONTROL 驗證Token] ，按一下 **[!UICONTROL 顯示代號]** (2)顯示個人驗證代號。
-1. 選取 **[!UICONTROL 摘要讀取器的代號]** 或 **[!UICONTROL Basecamp API]** (3)，然後將代號複製到剪貼簿。
+1. 在[!UICONTROL 驗證權杖]區段中，按一下&#x200B;**[!UICONTROL 顯示您的權杖]** (2)以顯示您的個人驗證權杖。
+1. 選取摘要讀取程式的&#x200B;**[!UICONTROL Token]**&#x200B;或&#x200B;**[!UICONTROL Basecamp API]** (3)，然後將該Token複製到剪貼簿。
 
-1. 貼上您的 [!DNL Basecamp] API代號放入 [!UICONTROL 摘要讀取器的代號] 或 [!UICONTROL Basecamp API] 框。\
+1. 將您的[!DNL Basecamp] API Token貼到摘要讀取程式的[!UICONTROL Token]或[!UICONTROL Basecamp API]方塊中。\
    ![Basecamp_Integration_-_Token2.png](assets/basecamp-integration---token2-350x178.png)
 
-### 新增您的 [!DNL Basecamp] API代號至您的個人設定
+### 正在將您的[!DNL Basecamp] API Token新增至您的個人設定
 
-若要貼上 [!DNL Basecamp] API代號放入您的 [!DNL Workfront Proof] [個人設定](https://support.workfront.com/hc/en-us/sections/115000921168-Personal-settings):
+若要將[!DNL Basecamp] API權杖貼入您的[!DNL Workfront Proof] [個人設定](https://support.workfront.com/hc/en-us/sections/115000921168-Personal-settings)：
 
-1. 前往 [[!UICONTROL 整合]  — 使用者設定](../../../workfront-proof/wp-getstarted/personal-settings/integrations-user-setup.md) 在 [個人設定](https://support.workfront.com/hc/en-us/sections/115000921168-Personal-settings) (1)。\
-   管理員必須先啟用 [!DNL Basecamp Classic] 整合，以便啟用個人設定。 如需設定整合的詳細資訊，請參閱 [啟用 [!DNL Basecamp] 與整合 [!DNL Workfront Proof]](#enabling-the-basecamp-integration-with-workfront-proof) 這篇文章。
+1. 移至[個人設定](https://support.workfront.com/hc/en-us/sections/115000921168-Personal-settings) (1)中的[[!UICONTROL 整合] — 使用者設定](../../../workfront-proof/wp-getstarted/personal-settings/integrations-user-setup.md)。\
+   系統管理員必須先啟用[!DNL Basecamp Classic]整合，您才能啟用個人設定。 如需設定整合的詳細資訊，請參閱本文中的[啟用 [!DNL Basecamp] 與 [!DNL Workfront Proof]](#enabling-the-basecamp-integration-with-workfront-proof)的整合。
 
-1. 在 [!DNL Basecamp] API代號方塊(2)，貼上您剛從 [!DNL Basecamp] [!UICONTROL 我的資訊] 頁面到欄位(3)。\
-   有關複製 [!DNL Basecamp] API代號，請參閱 [擷取 [!DNL Basecamp] API Token](#retrieving-your-basecamp-api-token) 這篇文章。
+1. 在[!DNL Basecamp] API Token方塊(2)中，將您剛才從[!DNL Basecamp] [!UICONTROL 我的資訊]頁面複製的Token貼到欄位(3)。\
+   如需有關複製[!DNL Basecamp] API Token的資訊，請參閱本文中的[擷取 [!DNL Basecamp] API Token](#retrieving-your-basecamp-api-token)。
 
-1. 按一下 **[!UICONTROL 儲存]** (4)。
+1. 按一下&#x200B;**[!UICONTROL 儲存]** (4)。
 
 ![Basecamp_personal_settings_-_integration.png](assets/basecamp-personal-settings---integration-350x250.png)
 
-您的 [!DNL Workfront Proof] [個人設定](https://support.workfront.com/hc/en-us/sections/115000921168-Personal-settings) 現在已與 [!DNL Basecamp Classic] 帳戶。
+您的[!DNL Workfront Proof] [個人設定](https://support.workfront.com/hc/en-us/sections/115000921168-Personal-settings)現已與您的[!DNL Basecamp Classic]帳戶整合。

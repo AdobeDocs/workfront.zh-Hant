@@ -17,7 +17,7 @@ ht-degree: 2%
 
 <!-- printing or exporting goals is no longer possible, but see if they add it later-->
 
-在您或其他使用者建立目標後，可以在「目標清單」中檢閱其進度和資訊。 如需建立目標的相關資訊，請參閱 [在Adobe Workfront目標中建立目標](../../workfront-goals/goal-management/create-goals.md).
+在您或其他使用者建立目標後，可以在「目標清單」中檢閱其進度和資訊。 如需建立目標的相關資訊，請參閱[在Adobe Workfront目標中建立目標](../../workfront-goals/goal-management/create-goals.md)。
 
 ## 存取需求
 
@@ -46,7 +46,7 @@ ht-degree: 2%
  <td>
  <p>新授權：投稿人或以上版本</p>
  或
- <p>目前授權：要求或以上</p> <p>如需詳細資訊，請參閱 <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront授權總覽</a>.</p> </td>
+ <p>目前授權：要求或以上</p> <p>如需詳細資訊，請參閱<a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront授權總覽</a>。</p> </td>
  </tr>
  <tr>
  <td role="rowheader">產品*</td>
@@ -56,7 +56,7 @@ ht-degree: 2%
 <li>Select或Prime Adobe Workfront計畫以及額外的Adobe Workfront目標授權。</li>
 <li>預設包含Workfront目標的Ultimate Workfront計畫。 </li></ul>
  <p>或</p>
- <p>目前產品需求： Adobe Workfront Goals的Workfront計畫和額外授權。 </p> <p>如需詳細資訊，請參閱 <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">使用Workfront目標的需求</a>. </p> </td>
+ <p>目前產品需求： Adobe Workfront Goals的Workfront計畫和額外授權。 </p> <p>如需詳細資訊，請參閱<a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">使用Workfront目標的需求</a>。 </p> </td>
  </tr>
  <tr>
  <td role="rowheader">存取層級</td>
@@ -68,7 +68,7 @@ ht-degree: 2%
   <div>
   <p>檢視目標或更高許可權以檢視它</p>
   <p>管理目標的許可權以編輯它</p>
-  <p>如需關於共用目標的資訊，請參閱 <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">在Workfront目標中共用目標</a>. </p>
+  <p>如需共用目標的相關資訊，請參閱<a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">在Workfront目標中共用目標</a>。 </p>
   </div> </td>
  </tr>
  <tr>
@@ -79,7 +79,7 @@ ht-degree: 2%
 </tbody>
 </table>
 
-*如需詳細資訊，請參閱 [Workfront檔案中的存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 ## 管理目標清單中的目標
 
@@ -90,7 +90,7 @@ ht-degree: 2%
 
 每個區段都會以稍微不同的格式顯示目標。 您使用哪個區段取決於您在使用目標時想要達到的目的。
 
-如需詳細資訊，請參閱 [Adobe Workfront目標區段概觀](../../workfront-goals/goal-review-and-workfront-goals-sections/overview-of-wf-goals-sections.md).
+如需詳細資訊，請參閱[ Adobe Workfront目標區段概觀](../../workfront-goals/goal-review-and-workfront-goals-sections/overview-of-wf-goals-sections.md)。
 
 本文說明如何檢閱目標清單中的目標。
 
@@ -196,7 +196,7 @@ ht-degree: 2%
 
 若要管理「目標清單」中的目標：
 
-1. 按一下 **主要功能表** 圖示 ![](assets/main-menu-icon.png)  按一下「 」 **目標**.
+1. 按一下右上角的&#x200B;**主要功能表**&#x200B;圖示![](assets/main-menu-icon.png)，然後按一下&#x200B;**目標**。
 
    <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-review-and-workfront-goals-sections/assets/three-line-main-menu-icon.png) in the upper-left corner)
    -->
@@ -206,19 +206,19 @@ ht-degree: 2%
    目標清單包含以下欄位，其中包含每個目標的相關資訊：
 
    * **名稱**：目標的名稱。
-   * **所有者**：目標擁有者的名稱。
-   * **期間**：目標排程的時間期間。
+   * **所有者**：目標所有者的名稱。
+   * **期間**：目標排定的期間。
    * **狀態**：目標的狀態可以是下列其中一項：
       * 啟用中
       * 草稿
       * 停用中
       * 已關閉
 
-     如需目標狀態的相關資訊，請參閱 [Adobe Workfront目標中的目標狀態概觀](../goal-management/goal-status-overview.md).
+     如需目標狀態的相關資訊，請參閱Adobe Workfront目標中的[目標狀態總覽](../goal-management/goal-status-overview.md)。
 
-     對齊圖示會出現在與其他目標對齊的目標上。 如需對齊目標的資訊，請參閱 [透過在Adobe Workfront目標中連線目標來對齊目標](../goal-alignment/align-goals-by-connecting-them.md).
+     對齊圖示會出現在與其他目標對齊的目標上。 如需對齊目標的資訊，請參閱[在Adobe Workfront目標中連線來對齊目標](../goal-alignment/align-goals-by-connecting-them.md)。
 
-   * **條件**：目標在配置給目標完成的時段內進度之視覺表示。
+   * **條件**：目標在配置給目標完成的時段內進度之視覺化表示。
 
      目標的條件可以是下列其中一項：
 
@@ -227,15 +227,15 @@ ht-degree: 2%
       * 有風險
       * 陷入困境
 
-     如需有關目標條件的資訊，請參閱 [Adobe Workfront目標中的目標進度和條件概觀](../goal-management/calculate-goal-progress.md).
+     如需目標條件的詳細資訊，請參閱[Adobe Workfront目標中的目標進度和條件概觀](../goal-management/calculate-goal-progress.md)。
 
-   * **進度**：目標的進度指示器，以百分比值顯示。 進度指示器的顏色符合目標條件的顏色。
+   * **進度**：目標的進度指示器百分比值。 進度指示器的顏色符合目標條件的顏色。
 
-     如需詳細資訊，請參閱 [在Adobe Workfront目標中計算目標進度](../goal-management/calculate-goal-progress.md).
+     如需詳細資訊，請參閱[在Adobe Workfront目標中計算目標進度](../goal-management/calculate-goal-progress.md)。
 
-1. 按一下篩選器圖示 ![](assets/filter-icon.png) 並套用篩選器，只顯示對您而言重要的目標。
+1. 按一下目標清單右上角的篩選器圖示![](assets/filter-icon.png)，然後套用篩選器以僅顯示對您重要的目標。
 
-   如需在Workfront目標中使用篩選器的相關資訊，請參閱 [在Adobe Workfront目標中篩選資訊](../goal-management/filter-information-wf-goals.md).
+   如需在Workfront目標中使用篩選器的相關資訊，請參閱[Adobe Workfront目標中的篩選資訊](../goal-management/filter-information-wf-goals.md)。
 
 1. 按一下欄標題中的任何欄位，即可依該欄位排序清單。
 欄位右側會顯示一個箭頭，清單會依此箭頭排序。
@@ -243,10 +243,10 @@ ht-degree: 2%
 1. （選用）再按一下欄中的欄位，以遞減順序排序相同的欄。
 1. 按一下目標的名稱以開啟目標的頁面。
 1. 在清單中選取一個目標，然後按一下清單頂端的下列其中一個選項：
-   * **編輯** 圖示 ![](assets/edit-icon.png) 以編輯目標的相關資訊。 如需詳細資訊，請參閱 [在Adobe Workfront目標中編輯目標](../goal-management/edit-goals.md).
-   * **共用** 圖示 ![](assets/share-icon.png) 與其他人共用目標。 如需詳細資訊，請參閱 [在Adobe Workfront目標中共用目標](../workfront-goals-settings/share-a-goal.md).
-   * **開啟對齊方式** 圖示 ![](assets/align-icon-unshimmed.png) 以開啟「目標校準」區域。 只有在您選取的目標已對齊另一個目標時，才會顯示此選項。
-   * **刪除** 圖示 ![](assets/delete-icon.png) 若要刪除目標，然後按一下 **刪除** 以確認。  如需詳細資訊，請參閱 [刪除和停用Adobe Workfront目標中的目標](../goal-management/delete-and-deactivate-goals.md).
+   * **編輯**&#x200B;圖示![](assets/edit-icon.png)以編輯目標的相關資訊。 如需詳細資訊，請參閱[在Adobe Workfront目標中編輯目標](../goal-management/edit-goals.md)。
+   * **共用**&#x200B;圖示![](assets/share-icon.png)以與其他人共用目標。 如需詳細資訊，請參閱[在Adobe Workfront目標中共用目標](../workfront-goals-settings/share-a-goal.md)。
+   * **開啟對齊方式**&#x200B;圖示![](assets/align-icon-unshimmed.png)以開啟目標對齊方式區域。 只有在您選取的目標已對齊另一個目標時，才會顯示此選項。
+   * **刪除**&#x200B;圖示![](assets/delete-icon.png)以刪除目標，然後按一下&#x200B;**刪除**&#x200B;以確認。  如需詳細資訊，請參閱[在Adobe Workfront目標中刪除及停用目標](../goal-management/delete-and-deactivate-goals.md)。
 
 
 

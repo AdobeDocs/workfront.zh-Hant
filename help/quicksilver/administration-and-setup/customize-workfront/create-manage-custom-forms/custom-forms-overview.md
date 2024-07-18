@@ -29,7 +29,7 @@ ht-degree: 7%
 
 ## 如何建立自訂表格
 
-有兩個選項可在中建立自訂表單 [!DNL Workfront]. 您可以使用舊版自訂表單產生器或新的表單設計工具：
+有兩個選項可在[!DNL Workfront]中建立自訂表格。 您可以使用舊版自訂表單產生器或新的表單設計工具：
 
 * [舊版自訂表單產生器](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/use-the-custom-form-builder.md)
 * [表單設計工具](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/form-designer-toc.md)
@@ -78,8 +78,8 @@ Workfront為每種物件型別提供許多內建欄位。
 * 反覆項目
 * 計費記錄
 
-如需將自訂表單附加到物件的詳細資訊，請參閱 [新增自訂表單至物件](../../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md).
+如需將自訂表單附加至物件的詳細資訊，請參閱[將自訂表單新增至物件](../../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md)。
 
-如需有關轉換物件時自訂表單所發生情況的資訊，請參閱 [轉換物件時傳輸自訂表單資料](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/transfer-custom-form-data-larger-item.md).
+如需有關轉換物件時自訂表單所發生情況的資訊，請參閱[轉換物件時傳輸自訂表單資料](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/transfer-custom-form-data-larger-item.md)。
 
 

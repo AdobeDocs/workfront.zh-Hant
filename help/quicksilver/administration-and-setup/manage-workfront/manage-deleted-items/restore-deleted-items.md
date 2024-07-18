@@ -97,7 +97,7 @@ DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH T
 
 * 小時（和小時ID）
 
-  是否將時數還原至已刪除的專案取決於您在設定時程表和時數的偏好設定時選擇的設定。 如需詳細資訊，請參閱 [設定刪除和還原物件時的影響時間](../../../administration-and-setup/manage-workfront/manage-deleted-items/configure-how-hours-affected-when-obj-deleted-restored.md).
+  是否將時數還原至已刪除的專案取決於您在設定時程表和時數的偏好設定時選擇的設定。 如需詳細資訊，請參閱[設定刪除和還原物件時數的影響](../../../administration-and-setup/manage-workfront/manage-deleted-items/configure-how-hours-affected-when-obj-deleted-restored.md)。
 
 * 專案的URL
 
@@ -131,20 +131,20 @@ DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH T
 
 * 解析物件
 
-  解決物件是使用選項設定的轉換問題 **保持初始問題並將其解決方案連結至此** &lt;**專案** 或 **任務)**>. 如果您刪除父級專案或任務，則問題不再被識別為解決物件，因為沒有連結將其連線到專案或任務。 如果您還原父系，則連結不會還原。
+  解決物件是使用選項&#x200B;**保留原始問題並將其解決方案繫結至此** &lt;**專案**&#x200B;或&#x200B;**任務)**>設定的轉換問題。 如果您刪除父級專案或任務，則問題不再被識別為解決物件，因為沒有連結將其連線到專案或任務。 如果您還原父系，則連結不會還原。
 
-  如需有關Workfront管理員或群組管理員如何在轉換時設定問題以符合解析物件的詳細資訊，請參閱 [設定系統範圍的任務和問題偏好設定](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md) 和 [設定群組的任務和問題偏好設定](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-task-issue-preferences-group.md).
+  如需有關Workfront管理員或群組管理員如何在轉換時設定問題以符合解決物件的詳細資訊，請參閱[設定全系統的任務和問題偏好設定](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md)和[設定群組的任務和問題偏好設定](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-task-issue-preferences-group.md)。
 
-  如需轉換問題的詳細資訊，請參閱 [在Adobe Workfront中轉換問題的概觀](../../../manage-work/issues/convert-issues/convert-issues.md).
+  如需轉換問題的詳細資訊，請參閱[在Adobe Workfront中轉換問題的概觀](../../../manage-work/issues/convert-issues/convert-issues.md)。
 
 ## 還原專案
 
 {{step-1-to-setup}}
 
-1. 按一下 **資源回收筒** > **最近刪除**.
-1. 按一下 **專案**， **任務**， **問題**， **範本**，或 **檔案** 標籤，視您要還原的專案型別而定。
+1. 按一下「**資源回收筒**」>「**最近刪除**」。
+1. 視您要還原的專案型別而定，按一下&#x200B;**專案**、**任務**、**問題**、**範本**&#x200B;或&#x200B;**檔案**&#x200B;標籤。
 
-   專案會依據 **刪除日期** 欄。
+   專案預設會依&#x200B;**刪除日期**&#x200B;欄排序。
 
 1. 最多選取10個要還原的專案。
 
@@ -152,10 +152,10 @@ DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH T
 
    如果您刪除父系任務，則清單中只會顯示父系任務。 但是，當您還原父任務時，所有子任務都會還原。
 
-1. 按一下 **還原** 將選取的專案還原至其原始位置。
-1. （可選）若要快速檢視還原的專案，請遵循中的步驟 [檢視還原的專案](../../../administration-and-setup/manage-workfront/manage-deleted-items/view-restored-items.md).
+1. 按一下&#x200B;**還原**，將選取的專案還原至其原始位置。
+1. （選擇性）若要快速檢視還原的專案，請依照[檢視還原的專案](../../../administration-and-setup/manage-workfront/manage-deleted-items/view-restored-items.md)中的步驟進行。
 
-   如需有關還原專案後所發生情況的詳細資訊，請參閱區段 [還原專案後會發生什麼事](#what-happens-after-you-restore-items) 本文章內容。
+   如需有關還原專案後所發生情況的詳細資訊，請參閱本文中[還原專案後所發生的情況](#what-happens-after-you-restore-items)。
 
 ## 還原專案後會發生什麼事 {#what-happens-after-you-restore-items}
 

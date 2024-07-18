@@ -19,7 +19,7 @@ ht-degree: 1%
 
 如需對齊目標的資訊，請參閱下列文章：
 
-* [透過在Adobe Workfront目標中連線目標來對齊目標](../../workfront-goals/goal-alignment/align-goals-by-connecting-them.md)
+* [在Adobe Workfront目標中連線目標以對齊目標](../../workfront-goals/goal-alignment/align-goals-by-connecting-them.md)
 * [透過將結果和活動轉換為目標來校準目標](../../workfront-goals/goal-alignment/align-goals-by-converting-results-activities.md)
 
 ## 存取需求
@@ -54,7 +54,7 @@ ht-degree: 1%
 <li>Select或Prime Adobe Workfront計畫以及額外的Adobe Workfront目標授權。</li>
 <li>預設包含Workfront目標的Ultimate Workfront計畫。 </li></ul>
  <p>或</p>
- <p>目前產品需求： Adobe Workfront Goals的Workfront計畫和額外授權。 </p> <p>如需詳細資訊，請參閱 <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">使用Workfront目標的需求</a>. </p> </td>
+ <p>目前產品需求： Adobe Workfront Goals的Workfront計畫和額外授權。 </p> <p>如需詳細資訊，請參閱<a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">使用Workfront目標的需求</a>。 </p> </td>
  </tr>
  <tr>
  <td role="rowheader">存取層級</td>
@@ -65,7 +65,7 @@ ht-degree: 1%
  <td>
   <p>檢視目標或更高許可權以檢視它</p>
   <p>管理目標的許可權以編輯它</p>
-  <p>如需關於共用目標的資訊，請參閱 <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">在Workfront目標中共用目標</a>. </p>
+  <p>如需共用目標的相關資訊，請參閱<a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">在Workfront目標中共用目標</a>。 </p>
   </td>
  </tr>
    <td role="rowheader"><p>版面配置範本</p></td>
@@ -75,7 +75,7 @@ ht-degree: 1%
 </tbody>
 </table>
 
-*如需詳細資訊，請參閱 [Workfront檔案中的存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 ## 先決條件
 
@@ -114,16 +114,16 @@ Removing goal alignment differs depending on which environment you use.
    * [Add results to goals in Adobe Workfront Goals](../../workfront-goals/results-and-activities/add-results-to-goals.md)
 -->
 
-1. 存取 **目標** Workfront區域，然後按一下目標的名稱以開啟目標的頁面。
-1. 從上層目標的目標頁面，按一下 **進度指示器** 在左側面板中。
+1. 存取Workfront中的&#x200B;**目標**&#x200B;區域，然後按一下目標的名稱以開啟目標的頁面。
+1. 從上層目標的目標頁面，按一下左側面板中的&#x200B;**進度指示器**。
 
    ![](assets/remove-goal-alignment-from-list-unshimmed.png)
 
-1. 在 **型別：目標** 分組，選取目標，然後按一下 **中斷連線** 圖示 ![](assets/disconnect-goal-to-remove-alignment-icon-unshimmed.png) 在清單頂端。
+1. 在&#x200B;**型別：目標**&#x200B;群組中，選取目標，然後按一下清單頂端的&#x200B;**中斷連線**&#x200B;圖示![](assets/disconnect-goal-to-remove-alignment-icon-unshimmed.png)。
 
    會顯示[Disconnect]方塊。
 
-1. 按一下 **中斷連線** 以中斷所選目標與其父項的連線。
+1. 按一下&#x200B;**中斷連線**，將選取的目標與其父系中斷連線。
 
    目標會變成獨立目標，不再列為原始目標的進度指示器。 已中斷連線目標的進度不再影響原始目標的進度。
 

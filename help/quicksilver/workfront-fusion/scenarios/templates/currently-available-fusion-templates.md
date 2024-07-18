@@ -20,13 +20,13 @@ Adobe Workfront Fusion目前提供下列公用範本。
 
 您的團隊或組織可能有其他可用的團隊建立範本。
 
-若要檢視可用的範本，請按一下 **範本** 圖示 ![](assets/fusion-template-icon.png) 在Fusion的側邊導覽功能表中。
+若要檢視可用的範本，請按一下Fusion側邊導覽功能表中的&#x200B;**範本**&#x200B;圖示![](assets/fusion-template-icon.png)。
 
 ## Workfront範本
 
 這些範本會自動化Workfront流程和工作流程。
 
-### [!BADGE 最新！]{type=Informative}
+### [!BADGE 新增！]{type=Informative}
 
 此Fusion範本會針對在計時基礎上輸入特定欄位的所有卡片建立標準檢查清單。
 
@@ -155,7 +155,7 @@ Adobe Workfront Fusion目前提供下列公用範本。
 
 這些範本支援Workfront-Anaplan整合，並且預期Workfront中的Anaplan會有特定設定。 如需這些範本及其所需設定的詳細資訊，請參閱各範本的相關文章。
 
-如需Workfront-Anaplan整合的詳細資訊，請參閱 [Adobe Workfront與Anaplan](../../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/anaplan-integration.md).
+如需Workfront-Anaplan整合的詳細資訊，請參閱[Adobe Workfront與Anaplan](../../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/anaplan-integration.md)。
 
 >[!NOTE]
 >
@@ -163,19 +163,19 @@ Adobe Workfront Fusion目前提供下列公用範本。
 
 ### 支出最佳化工作流程
 
-* [傳送 [!DNL Adobe Workfront] 專案更新至 [!DNL Anaplan] 清單專案](../../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/send-workfront-project-actual-hours-updates-to-anaplan-list-item.md)
-* [傳送 [!DNL Adobe Workfront] 費用至 [!DNL Anaplan] 清單專案](../../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/send-workfront-project-expenses-to-anaplan-list-item.md)
-* [傳送 [!DNL Adobe Workfront] 實際小時更新至 [!DNL Anaplan] 清單專案](../../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/send-workfront-project-actual-hours-updates-to-anaplan-list-item.md)
+* [將 [!DNL Adobe Workfront] 專案更新傳送至 [!DNL Anaplan] 清單專案](../../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/send-workfront-project-actual-hours-updates-to-anaplan-list-item.md)
+* [將 [!DNL Adobe Workfront] 費用傳送至 [!DNL Anaplan] 清單專案](../../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/send-workfront-project-expenses-to-anaplan-list-item.md)
+* [將 [!DNL Adobe Workfront] 實際時數更新傳送至 [!DNL Anaplan] 清單專案](../../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/send-workfront-project-actual-hours-updates-to-anaplan-list-item.md)
 
 ### 連結預算請求的工作流程
 
-* [建立 [!DNL Anaplan] 清單專案來自 [!DNL Adobe Workfront] 預算請求](../../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/create-an-anaplan-list-item-from-a-workfront-budget-request.md)
-* [套用 [!DNL Anaplan] 預算分配至 [!DNL Adobe Workfront] 專案](../../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/apply-anaplan-budget-allocation-to-workfront-projects.md)
+* [從 [!DNL Adobe Workfront] 預算請求建立 [!DNL Anaplan] 清單專案](../../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/create-an-anaplan-list-item-from-a-workfront-budget-request.md)
+* [將 [!DNL Anaplan] 預算配置套用至 [!DNL Adobe Workfront] 專案](../../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/apply-anaplan-budget-allocation-to-workfront-projects.md)
 
 ### 連結行銷活動請求的工作流程
 
-* [建立 [!DNL Anaplan] 清單專案來自 [!DNL Adobe Workfront] 行銷活動請求](../../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/create-an-anaplan-list-item-from-a-workfront-campaign-request.md)
-* [套用 [!DNL Anaplan] 預算分配至 [!DNL Adobe Workfront] 行銷活動請求或行銷活動專案](../../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/apply-anaplan-budget-allocation-to-workfront-campaign-requests-and-projects.md)
+* [從 [!DNL Adobe Workfront] 行銷活動請求建立 [!DNL Anaplan] 清單專案](../../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/create-an-anaplan-list-item-from-a-workfront-campaign-request.md)
+* [將 [!DNL Anaplan] 預算分配套用至 [!DNL Adobe Workfront] 行銷活動請求或行銷活動專案](../../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/apply-anaplan-budget-allocation-to-workfront-campaign-requests-and-projects.md)
 
 
 <!--[!BADGE New!]{type=Informative} -->

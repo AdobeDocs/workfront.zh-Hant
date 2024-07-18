@@ -16,7 +16,7 @@ ht-degree: 0%
 
 此頁面說明2024年第二季度版本對「預覽」環境所做的所有專案增強功能。 如上所述，這些增強功能將於生產環境中提供。
 
-如需2024年第二季發行週期目前可用的所有變更清單，請參閱 [2024年第二季版本總覽](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).
+如需2024年第二季發行週期目前可用的所有變更清單，請參閱[2024年第二季發行概觀](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md)。
 
 
 ## 已將更相關的指派新增至「新任務」工作流程
@@ -31,7 +31,7 @@ ht-degree: 0%
 
 * 在專案任務清單中
 
-如需詳細資訊，請參閱 [智慧指派總覽](/help/quicksilver/manage-work/tasks/assign-tasks/smart-assignments.md).
+如需詳細資訊，請參閱[智慧指派總覽](/help/quicksilver/manage-work/tasks/assign-tasks/smart-assignments.md)。
 
 ## 更相關的智慧指派
 
@@ -55,4 +55,4 @@ ht-degree: 0%
 
 * 針對問題計算智慧型指派的方式沒有變更。 問題清單中的智慧指派清單名稱為「以下是一些建議」。
 
-如需詳細資訊，請參閱 [智慧指派總覽](/help/quicksilver/manage-work/tasks/assign-tasks/smart-assignments.md).
+如需詳細資訊，請參閱[智慧指派總覽](/help/quicksilver/manage-work/tasks/assign-tasks/smart-assignments.md)。

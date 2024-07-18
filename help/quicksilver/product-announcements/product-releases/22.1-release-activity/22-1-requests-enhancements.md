@@ -25,7 +25,7 @@ in January 2022
 
 2022年1月17日當週。
 
-如需22.1版所有可用變更的清單，請參閱 [22.1版本總覽](../../../product-announcements/product-releases/22.1-release-activity/22-1-release-overview.md).
+如需22.1版本可用的所有變更清單，請參閱[22.1版本總覽](../../../product-announcements/product-releases/22.1-release-activity/22-1-release-overview.md)。
 
 ## 改善無權建立請求之使用者的介面
 
@@ -33,7 +33,7 @@ in January 2022
 
 在此增強功能之前，新請求按鈕未顯示在這些使用者的請求區域。 將請求複製和提交為新請求也受到限制。
 
-如需建立請求的詳細資訊，請參閱 [建立及提交Adobe Workfront請求](../../../manage-work/requests/create-requests/create-submit-requests.md).
+如需有關建立請求的詳細資訊，請參閱[建立和提交Adobe Workfront請求](../../../manage-work/requests/create-requests/create-submit-requests.md)。
 
 ## 複製並提交請求
 
@@ -45,7 +45,7 @@ in January 2022
 >
 >在發行此功能之前，您無法複製並重新提交提交已提交至請求佇列但沒有佇列主題的問題。
 
-如需詳細資訊，請參閱 [複製並提交請求](../../../manage-work/requests/create-requests/copy-and-submit-requests.md).
+如需詳細資訊，請參閱[複製並提交請求](../../../manage-work/requests/create-requests/copy-and-submit-requests.md)。
 
 ## 更新請求區域的已提交區段中的摘要面板體驗
 
@@ -55,6 +55,6 @@ in January 2022
 
 為了改善可見度以及與「摘要」面板的互動，我們在「請求」區域的「已提交」區段中的「開啟摘要」圖示新增了標籤。 標籤現在為動態標籤，而且會根據面板是開啟還是關閉而更新。
 
-現在於未先選取請求的情況下開啟「摘要」面板時，會顯示較容易理解的影像，以明確指示使用者在開啟面板前選取專案。 如需詳細資訊，請參閱 [找出已提交的請求](../../../manage-work/requests/create-requests/locate-submitted-requests.md).
+現在於未先選取請求的情況下開啟「摘要」面板時，會顯示較容易理解的影像，以明確指示使用者在開啟面板前選取專案。 如需詳細資訊，請參閱[尋找已提交的請求](../../../manage-work/requests/create-requests/locate-submitted-requests.md)。
 
-透過這項變更，任務、問題和檔案的摘要面板也已更新。 如需「摘要」面板的相關資訊，請參閱 [摘要概觀](../../../workfront-basics/the-new-workfront-experience/summary-overview.md).
+透過這項變更，任務、問題和檔案的摘要面板也已更新。 如需「摘要」面板的相關資訊，請參閱[摘要概觀](../../../workfront-basics/the-new-workfront-experience/summary-overview.md)。

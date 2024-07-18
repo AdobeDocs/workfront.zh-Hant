@@ -13,13 +13,13 @@ ht-degree: 13%
 
 # Workfront知識庫
 
-* [管理和設定](administration-and-setup/administration-and-setup.md)
-* [Adobe Workfront基本需知](workfront-basics/workfront-basics.md)
+* [管理與設定](administration-and-setup/administration-and-setup.md)
+* [Adobe Workfront基本知識](workfront-basics/workfront-basics.md)
 * [人員、團隊和群組](people-teams-and-groups/people-teams-and-groups.md)
 * [管理資源](resource-mgmt/manage-resources.md)
 * [敏捷](agile/agile.md)
 * [管理工作](manage-work/manage-work.md)
-* [檢閱和核准工作](review-and-approve-work/review-and-approve-work.md)
+* [檢閱及核准工作](review-and-approve-work/review-and-approve-work.md)
 * [文件](documents/documents-overview.md)
 * [報告](reports-and-dashboards/reports-and-dashboards-overview.md)
 

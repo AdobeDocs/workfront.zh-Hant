@@ -1,8 +1,8 @@
 ---
 product-area: resource-management;reporting
 navigation-topic: resource-planning
-title: 資源計畫員預算小時數報表
-description: 您可以使用資源計畫員來對項目進行資源預算。 有關使用Adobe Workfront資源計畫員編製資源預算的資訊，請參閱使用「項目」和「職責」視圖的資源計畫員中的「預算資源」一文。
+title: 資源規劃工具預算時數報告
+description: 您可以使用資源規劃工具，為您的專案編列資源預算。 如需有關使用Adobe Workfront資源規劃工具編列資源預算的資訊，請參閱使用專案和角色檢視的資源規劃工具中的預算資源一文。
 author: Alina
 feature: Resource Management
 exl-id: 6adf11a4-3c33-484f-80cc-c5d96a7c7112
@@ -13,11 +13,11 @@ ht-degree: 0%
 
 ---
 
-# 資源計畫員預算小時數報表
+# 資源規劃工具預算時數報告
 
-您可以使用資源計畫員來對項目進行資源預算。 有關使用Adobe Workfront資源計畫器編製資源預算的資訊，請參閱文章 [使用「項目」和「職責」視圖在資源計畫器中使用預算資源](../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md).
+您可以使用資源規劃工具，為您的專案編列資源預算。 如需有關使用Adobe Workfront資源規劃工具編列資源預算的資訊，請參閱使用專案和角色檢視的資源規劃工具中的文章[預算資源](../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md)。
 
-預算資源表示您定義（或預算）項目上的資源完成其在項目上的工作所需的特定小時數。 要與可能沒有資源計畫員訪問權限的其他用戶共用在資源計畫員中輸入的預算小時資訊，您可以建立預算小時報表。 如需詳細資訊，請參閱 [報告：預算小時數](../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/report-budgeted-hour.md).
+編列預算資源表示您定義（或編列預算）專案上的資源完成其在專案上的工作所需的特定時數。 若要與其他可能沒有資源規劃工具存取權的使用者共用您在「資源規劃工具」中輸入的預算時數資訊，您可以建置預算時數報表。 如需詳細資訊，請參閱[報告：預算時數](../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/report-budgeted-hour.md)。
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: this is all drafted - below - same content as the one in the standalone Report: Budgeted Hour article - consider deleting that and just keeping the infomation here?!)</p>

@@ -1,6 +1,6 @@
 ---
-title: 『[!DNL Adobe Workfront] documentation`
-description: 的檔案 [!DNL Adobe Workfront].
+title: '[!DNL Adobe Workfront]檔案'
+description: ' [!DNL Adobe Workfront]的檔案。'
 feature: Get Started with Workfront
 exl-id: 337efdc8-ee1e-4223-a211-2cb1dcecfafa
 source-git-commit: 31c87d326cb34a153ba17e7b9769d79d0141c113
@@ -10,7 +10,7 @@ ht-degree: 1%
 
 ---
 
-# [!DNL Workfront] 檔案
+# [!DNL Workfront]檔案
 
 歡迎使用Adobe Workfront產品與技術檔案首頁。 使用下列Adobe Workfront連結、說明文章和其他資源，瞭解如何在組織中實施並有效使用Adobe Workfront。
 
@@ -87,16 +87,16 @@ ht-degree: 1%
 
 ### 使用目錄和搜尋列
 
-* **目錄**：從目錄開始，以取得可用主題的概觀，並透過展開區段縮小至特定主題。
-* **搜尋列**：使用搜尋列來尋找檔案。 輸入與您的問題或主題相關的特定詞語。 請使用「專案時間表設定」或「任務相依性」，而不是「專案管理」等一般用語。
+* **目錄**：從目錄開始以取得可用主題的概觀，並依展開的區段縮小至特定主題。
+* **搜尋列**：使用搜尋列尋找檔案。 輸入與您的問題或主題相關的特定詞語。 請使用「專案時間表設定」或「任務相依性」，而不是「專案管理」等一般用語。
 
 ![](assets/exl-site-nav.png)
 
 ### 探索學習與訓練區段
 
-* **訓練教材**：導覽至 [Workfront培訓](https://experienceleague.adobe.com/en/browse/workfront) 此頁面包含訓練影片和文章，旨在協助您更瞭解Workfront功能和設定。 您也可以存取付費培訓資料，網址為 [learning.adobe.com](https://learning.adobe.com/).
-* **課程**：尋找 [結構化學習課程](https://experienceleague.adobe.com/home?Solution=Workfront#courses) 以邏輯順序引導您使用各種Workfront功能。
+* **訓練教材**：瀏覽至[Workfront訓練](https://experienceleague.adobe.com/en/browse/workfront)頁面，以取得訓練影片和文章庫，協助您更瞭解Workfront功能和設定。 您也可以在[learning.adobe.com](https://learning.adobe.com/)存取付費訓練教材。
+* **課程**：尋找[結構化學習課程](https://experienceleague.adobe.com/home?Solution=Workfront#courses)，以邏輯順序引導您使用各種Workfront功能。
 
 ### 在社群論壇中尋找答案
 
-* **提出問題**：如果檔案未回答您的問題，請嘗試在 [Workfront社群論壇](https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront?profile.language=en) 其他使用者和專家可提供協助的地方。
+* **提出問題**：如果檔案沒有回答您的問題，請嘗試在[Workfront社群論壇](https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront?profile.language=en)中張貼，其他使用者和專家可在其中提供協助。

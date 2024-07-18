@@ -16,7 +16,7 @@ ht-degree: 0%
 
 本頁說明預覽環境的21.4版本所做的所有敏捷增強功能。 這些增強功能將在2021年10月4日當週的生產環境中提供。
 
-如需21.4版本所有可用變更的清單，請參閱 [21.4版本總覽](../../../product-announcements/product-releases/21.4-release-activity/21-4-release-overview.md).
+如需21.4版本可用的所有變更清單，請參閱[21.4版本總覽](../../../product-announcements/product-releases/21.4-release-activity/21-4-release-overview.md)。
 
 ## Kanban和Scrum展示板上的使用者指派
 
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 如需詳細資訊，請參閱
 
-* [將使用者指派給Kanban面板上的劇本](../../../agile/use-kanban-in-an-agile-team/assign-users-to-a-story.md)
+* [將使用者指派給Kanban展示板上的劇本](../../../agile/use-kanban-in-an-agile-team/assign-users-to-a-story.md)
 * [將使用者指派給Scrum展示板上的劇本](../../../agile/use-scrum-in-an-agile-team/scrum-board/assign-users-to-a-story-scrum.md)
 
 ## 設定將工作專案新增到Scrum反複專案時日期的套用方式
@@ -33,7 +33,7 @@ ht-degree: 0%
 
 此選項僅適用於Scrum團隊，不適用於Kanban團隊。
 
-如需詳細資訊，請參閱 [設定Scrum](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md).
+如需詳細資訊，請參閱[設定Scrum](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md)。
 
 ## 專案中敏捷檢視的變更
 
@@ -41,7 +41,7 @@ ht-degree: 0%
 >
 >此功能已於2021年9月16日發佈到預覽環境。
 
-在21.3版中，我們改良了敏捷卡片標題和內文面板(請參閱 [敏捷卡片標題和故事板更新](../../../product-announcements/product-releases/21.3-release-activity/21-3-project-enhancements.md#agile))。 這些更新套用至疊代以及專案的敏捷檢視。
+在21.3版中，我們改良了敏捷卡片和故事板（請參閱[敏捷卡片和故事板更新](../../../product-announcements/product-releases/21.3-release-activity/21-3-project-enhancements.md#agile)）。 這些更新套用至疊代以及專案的敏捷檢視。
 
 在21.4版中，我們正在針對專案的敏捷檢視恢復這些增強功能。 未對敏捷反複專案進行任何變更。
 
@@ -56,5 +56,5 @@ ht-degree: 0%
 
 您現在可以直接從Kanban面板建立新劇本或問題。 這可讓您更輕鬆地快速新增內文，而無需前往專案、報告或儀表板來建立任務。
 
-如需詳細資訊，請參閱 [從Kanban面板新增劇本和問題](../../../agile/use-kanban-in-an-agile-team/add-story-from-kanban-board.md).
+如需詳細資訊，請參閱[從Kanban面板新增劇本和問題](../../../agile/use-kanban-in-an-agile-team/add-story-from-kanban-board.md)。
 

@@ -79,17 +79,17 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
 
 <table>
   <tr>
-   <td><strong>功能 </strong>
+   <td><strong>功能</strong>
    </td>
-   <td><strong>存在於舊評論體驗中 </strong>
+   <td><strong>存在於舊評論體驗</strong>中
    </td>
-   <td><strong>存在於新的評論體驗中 </strong>
+   <td><strong>存在於新的註解體驗</strong>中
    </td>
-   <td><strong>將在新的評論體驗中引入 </strong>
+   <td><strong>將被引入新的評論體驗</strong>
    </td>
-   <td><strong>何時會引進到新的註解體驗 </strong>
+   <td><strong>何時將引進新的評論體驗</strong>
    </td>
-   <td><strong>研究中 </strong>
+   <td><strong>正在研究</strong>
    </td>
   </tr>
   <tr>
@@ -514,9 +514,9 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
 
 >[!IMPORTANT]
 >
->如需在Beta版時間範圍內發行給新評論體驗之功能的相關資訊，請參閱 [新的評論Beta版體驗發行活動](../../betas/new-commenting-experience-beta/new-commenting-beta-experience-release-activity.md).
+>如需在Beta版時間範圍內發行給新註解體驗之功能的相關資訊，請參閱[新註解測試版體驗發行活動](../../betas/new-commenting-experience-beta/new-commenting-beta-experience-release-activity.md)。
 >
->如需管理Workfront物件更新的詳細資訊，請參閱 [更新工作](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+>如需管理Workfront物件更新的詳細資訊，請參閱[更新工作](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md)。
 
 
 以下是新註解體驗發行至生產環境的計畫時間表，其中包含關鍵里程碑。 除了下列里程碑，我們將繼續透過較小的增強功能改善評論體驗。
@@ -526,21 +526,21 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
 以下是新評論體驗發行的計畫時間表：
 
 * 第23.2發行版本（2023年4月6日）：
-   * 啟動問題的評論體驗Beta版
+   * 啟動問題的評論體驗Beta
    * 發佈目標的新評論體驗（作為唯一體驗）
 * 第23.3發行版本（2023年7月20日）：
-   * 啟動專案、任務和檔案的評論體驗測試版。
+   * 啟動專案、任務和檔案的評論體驗Beta 。
    * 針對展示板區域中的卡片發行新的註解體驗（作為唯一體驗）
 * 在2023年第四季版本（限量版，僅供選擇快速版本的客戶使用）：
    * 發行新的範本、範本任務、計畫、投資組合、團隊、使用者和時程表的評論體驗（作為唯一體驗）
-   * 更新專案、任務、問題和檔案的評論體驗Beta版，使其成為預設選項。 「Beta」標籤會移除。
+   * 更新專案、任務、問題和檔案的評論體驗Beta ，使其成為預設選項。 「Beta」標籤已移除。
 * 2023年第四季(23.10)版本（2023年10月26日）
    * 發行新的範本、範本任務、計畫、投資組合、團隊、使用者和時程表的評論體驗（作為唯一的體驗）給所有客戶。
    * 將專案、任務、問題和檔案的新註解體驗設為預設選項。
 
   >[!IMPORTANT]
   >
-  >    這將結束新評論體驗的Beta階段。
+  >    這將為全新評論體驗的Beta階段畫上句號。
 
    * 自此日期開始針對新評論體驗發佈的所有功能，都是目前定期每月和季度發佈的一部分。
 * 2023年底：
@@ -561,7 +561,7 @@ Workfront的下列區域提供新的註解體驗：
 
 * 在所有物件的「更新」區段中。
 
-  如需有關存取Workfront物件「更新」區段的資訊，請參閱 [更新區段概觀](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
+  如需有關存取Workfront物件「更新」區段的資訊，請參閱[更新區段概觀](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md)。
 
 * 在任務、問題和檔案的摘要面板中，在所有區域有這可用的（清單、時程表、工作負載平衡器和首頁）。
 * 在「首頁」區域中，檢視任務和問題。

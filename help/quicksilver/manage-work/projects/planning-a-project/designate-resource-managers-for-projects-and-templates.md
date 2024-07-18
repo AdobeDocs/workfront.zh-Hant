@@ -92,7 +92,7 @@ Designating Resource Managers for a project is a prerequisite for using the Sche
    <td role="rowheader">存取層級設定*</td> 
    <td> <p>編輯專案和範本的存取權</p> <p><b>附註</b>
 
-如果您還是沒有存取權，請詢問您的Workfront管理員，他們是否在您的存取層級中設定其他限制。 如需有關Workfront管理員如何修改您的存取層級的資訊，請參閱 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>.</p> </td>
+如果您還是沒有存取權，請詢問您的Workfront管理員，他們是否在您的存取層級中設定其他限制。 如需Workfront管理員如何修改存取層級的詳細資訊，請參閱<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>。</p> </td>
 </tr> 
   <tr> 
    <td role="rowheader">物件許可權</td> 
@@ -100,7 +100,7 @@ Designating Resource Managers for a project is a prerequisite for using the Sche
 
 <p><b>附註</b>
 
-新增為專案或範本的資源管理員的使用者會立即獲得專案或範本的管理許可權</p> <p>如需請求其他存取許可權的詳細資訊，請參閱 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">要求物件的存取權 </a>.</p> </td>
+新增為專案或範本的資源管理員的使用者會立即獲得專案或範本的管理許可權</p> <p>如需請求其他存取權的資訊，請參閱<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">請求物件</a>的存取權。</p> </td>
 </tr> 
  </tbody> 
 </table>
@@ -132,15 +132,15 @@ Designating Resource Managers for a project is a prerequisite for using the Sche
 
 * 您在專案或範本上指定為資源管理員的使用者不會自動成為專案團隊的一部分。
 
-  如需有關專案團隊的資訊，請參閱 [管理專案團隊](../../../manage-work/projects/planning-a-project/manage-project-team.md).
+  如需有關專案團隊的資訊，請參閱[管理專案團隊](../../../manage-work/projects/planning-a-project/manage-project-team.md)。
 
 * 您可以指定專案或專案範本的資源管理員。 當您在專案範本上指定「資源管理員」時，您在範本上指定為「資源管理員」的任何使用者，都會自動成為使用該範本建立之任何專案的資源管理員。
 * 您可以在下列區域中檢視Resource Manager欄位：
 
    * 編輯專案時，如本文所述。
    * 編輯範本時，如本文所述。
-   * 建立專案或範本報表時。 如需有關建立報表的資訊，請參閱 [建立自訂報表](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
-   * 建立或自訂清單的專案或範本檢視時。 如需詳細資訊，請參閱 [Adobe Workfront中的檢視概觀](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
+   * 建立專案或範本報表時。 如需建立報表的相關資訊，請參閱[建立自訂報表](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md)。
+   * 建立或自訂清單的專案或範本檢視時。 如需詳細資訊，請參閱[Adobe Workfront中的檢視總覽](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md)。
 
 * 您可以快速在多個專案或範本上新增或移除資源管理員，方法是將資源管理員欄位新增到清單或專案的檢視中，並使用內嵌編輯來編輯此欄位。
 
@@ -148,17 +148,17 @@ Designating Resource Managers for a project is a prerequisite for using the Sche
 
 1. 執行下列任一項作業：
 
-   * 若要將資源管理員新增至單一專案，請移至您要指定一或多個資源管理員的專案，然後按一下 **更多選單** 在專案名稱旁，然後 **編輯。**
+   * 若要將資源管理員新增至單一專案，請移至您要指定一或多個資源管理員的專案，然後按一下專案名稱旁的&#x200B;**更多&#39;a5&#39;5c能表**，然後&#x200B;**編輯。**
 
-   * 若要同時新增資源管理員至多個專案，請瀏覽至專案清單，選取您要指定一或多個資源管理員的專案，然後按一下 **編輯**.
+   * 若要同時新增資源管理員至多個專案，請瀏覽至專案清單，選取您要指定一或多個資源管理員的專案，然後按一下[編輯]。****
 
      不會從您編輯的專案中移除現有的資源管理員；您以這種方式新增的任何使用者都會新增為專案上的資源管理員，以及任何現有的資源管理員。
 
    * 若要將資源管理員新增至新專案，請開始建立新專案。
 
-     如需有關建立專案的資訊，請參閱 [建立專案](../../../manage-work/projects/create-projects/create-project.md).
+     如需有關建立專案的資訊，請參閱[建立專案](../../../manage-work/projects/create-projects/create-project.md)。
 
-1. 在 **概觀** 區段編輯專案對話方塊中，按一下 **資源管理員** 欄位。
+1. 在[編輯專案]對話方塊的&#x200B;**總覽**&#x200B;區段中，按一下&#x200B;**資源管理員**&#x200B;欄位。
 1. 開始輸入您想要新增為專案資源管理員的使用者名稱，然後按一下出現在清單中的名稱。
 
    重複此步驟，為專案新增多個資源管理員。
@@ -167,21 +167,21 @@ Designating Resource Managers for a project is a prerequisite for using the Sche
 
 ## 指定範本的資源管理員
 
-1. 按一下 **主要功能表** 圖示 ![](assets/main-menu-icon.png) 在Adobe Workfront的右上角。
+1. 按一下Adobe Workfront右上角的&#x200B;**主要功能表**&#x200B;圖示![](assets/main-menu-icon.png)。
 
-1. 按一下 **範本**.
+1. 按一下&#x200B;**範本**。
 
 1. 執行下列任一項作業：
 
-   * 若要將資源管理員新增至單一範本，請移至您要指定一或多個資源管理員的範本，然後按一下 **更多選單** 在範本名稱旁，然後 **編輯。**
+   * 若要將資源管理員新增至單一範本，請移至您要指定一或多個資源管理員的範本，然後按一下範本名稱旁的&#x200B;**更多功能表**，然後&#x200B;**編輯。**
 
-   * 若要同時將「資源管理員」新增至多個範本，請移至範本清單，並選取您要指定一或多個資源管理員的範本，然後按一下 **編輯**.
+   * 若要同時新增資源管理員到多個範本，請移至範本清單，並選取您要指定一或多個資源管理員的範本，然後按一下[編輯]。****
 
      不會從您編輯的範本中移除現有的資源管理員；您以這種方式新增的任何使用者都會新增為範本上的資源管理員，以及任何現有的資源管理員。
 
-   * 若要將資源管理員新增至新範本，請按一下 **建立範本**，然後按一下 **更多選單** 在範本名稱旁，然後 **編輯。**
+   * 若要將資源管理員新增至新範本，請按一下[新增範本] **，然後按一下範本名稱旁的[其他]功能表**，再按一下[編輯] **。******
 
-1. 在 **概觀** 區段，按一下 **資源管理員** 欄位。
+1. 在&#x200B;**總覽**&#x200B;區段中，按一下&#x200B;**資源管理員**&#x200B;欄位。
 1. 開始輸入您想要新增為範本資源管理員的使用者名稱，然後按一下出現在清單中的名稱。
 
    重複此步驟，將多個資源管理員新增至範本。

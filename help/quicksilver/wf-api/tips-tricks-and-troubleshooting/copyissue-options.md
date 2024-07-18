@@ -9,15 +9,15 @@ role: Developer
 exl-id: a2b8ef01-1c14-47a5-8b0a-550b17b526ff
 source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
 workflow-type: tm+mt
-source-wordcount: '117'
-ht-degree: 6%
+source-wordcount: '122'
+ht-degree: 4%
 
 ---
 
 # OPTASK copyIssue的選項設定
 
 
-copyIssue API呼叫的屬性之一是名為的欄位 `options`. 此欄位必須是整數。
+copyIssue API呼叫的其中一個屬性是名為`options`的欄位。 此欄位必須是整數。
 
 若要包含下列其中一個選項，請輸入相符的整數。 若要包含多個選項，請輸入相符整數的加總。
 
@@ -32,11 +32,11 @@ copyIssue API呼叫的屬性之一是名為的欄位 `options`. 此欄位必須�
 
 *所有值皆為2的冪。
 
-範例:
+範例：
 
-* 若要在複製問題時清除進度，請輸入 `options` 值 `4`.
+* 若要在複製問題時清除進度，請輸入`options`值`4`。
 
-* 若要清除進度與檔案，請輸入 `options` 值 `132`.
+* 若要清除進度與檔案，請輸入`132`的`options`值。
 
   清除進度= 4
 

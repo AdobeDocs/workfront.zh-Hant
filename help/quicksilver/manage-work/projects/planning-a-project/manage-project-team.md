@@ -68,11 +68,11 @@ ht-degree: 0%
    <td role="rowheader">存取層級設定*</td> 
    <td> <p>編輯專案的存取權</p> <p>檢視或更高的使用者存取權</p> <p><b>附註</b>
 
-如果您還是沒有存取權，請詢問您的Workfront管理員，他們是否在您的存取層級中設定其他限制。 如需有關Workfront管理員如何修改您的存取層級的資訊，請參閱 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>.</p> </td>
+如果您還是沒有存取權，請詢問您的Workfront管理員，他們是否在您的存取層級中設定其他限制。 如需Workfront管理員如何修改存取層級的詳細資訊，請參閱<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>。</p> </td>
 </tr> 
   <tr> 
    <td role="rowheader">物件許可權</td> 
-   <td> <p>檢視專案或更高的許可權</p> <p>如需請求其他存取許可權的詳細資訊，請參閱 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">要求物件的存取權 </a>.</p> </td> 
+   <td> <p>檢視專案或更高的許可權</p> <p>如需請求其他存取權的資訊，請參閱<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">請求物件</a>的存取權。</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -81,7 +81,7 @@ ht-degree: 0%
 
 ## 將使用者新增至專案團隊
 
-當您將使用者新增到專案團隊時，他們將獲得有關專案以及專案的任務、問題和檔案的檢視許可權。 如需詳細資訊，請參閱文章 [專案團隊概述](../../../manage-work/projects/planning-a-project/project-team-overview.md).
+當您將使用者新增到專案團隊時，他們將獲得有關專案以及專案的任務、問題和檔案的檢視許可權。 如需詳細資訊，請參閱文章[專案團隊概述](../../../manage-work/projects/planning-a-project/project-team-overview.md)。
 
 >[!TIP]
 >
@@ -89,7 +89,7 @@ ht-degree: 0%
 
 您可以透過下列方式將使用者新增至專案團隊：
 
-* [自動將使用者新增至專案團隊](#automatically-add-users-to-a-project-team)
+* [自動新增使用者至專案團隊](#automatically-add-users-to-a-project-team)
 * [手動新增使用者至專案團隊](#manually-add-users-to-a-project-team)
 
 ### 自動將使用者新增至專案團隊 {#automatically-add-users-to-a-project-team}
@@ -109,7 +109,7 @@ ht-degree: 0%
 
 如果專案上未履行任何角色的使用者希望在專案存留期間收到有關某些更新或變更的通知，您可以手動將其新增到專案團隊。
 
-如需有關可以為專案團隊中的使用者啟用哪些通知的詳細資訊，請參閱 [事件通知型別](../../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md).
+如需專案團隊使用者可啟用哪些通知的詳細資訊，請參閱[事件通知型別](../../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md)。
 
 <!--drafted - this used to be the case, in the note below but this limitation was removed on Jan 5, 2023 - as a patch, not a release feature:
 
@@ -121,15 +121,15 @@ ht-degree: 0%
 
 1. 前往您要新增使用者的專案。
 
-1. 按一下 **人員** 在左側面板中。 您可能需要按一下 **顯示更多** 第一。
+1. 按一下左側面板中的&#x200B;**人員**。 您可能需要先按一下&#x200B;**顯示更多**。
 
-1. 按一下 **新增使用者**.
+1. 按一下&#x200B;**新增使用者**。
 
    新增使用者至專案團隊對話方塊隨即顯示。
 
    ![add_users_dialog.png](assets/add-users-dialog-350x217.png)
 
-1. 在 **新增使用者** 方塊中，開始輸入您要新增至專案團隊的作用中Workfront使用者名稱，然後在其出現在下拉式清單中時按一下該名稱。
+1. 在&#x200B;**新增使用者**&#x200B;方塊中，開始輸入您要新增至專案團隊的作用中Workfront使用者名稱，然後在其出現在下拉式清單中時按一下該名稱。
 
    重複此步驟，將多位使用者新增至專案團隊。 使用者必須屬於與專案相關聯的群組。
 
@@ -138,10 +138,10 @@ ht-degree: 0%
    >* 您無法透過新增其團隊、群組、公司或工作角色來新增使用者。
    >* 新增使用者時，請注意頭像、使用者的主要角色及其電子郵件地址，以區分具有相同名稱的使用者。 使用者必須至少與一個工作角色相關聯，才能在您新增時檢視該角色。
    >
-   >  您必須在存取層級中啟用檢視聯絡資訊設定，使用者才能檢視使用者的電子郵件。 如需詳細資訊，請參閱 [授予使用者存取許可權](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
+   >  您必須在存取層級中啟用檢視聯絡資訊設定，使用者才能檢視使用者的電子郵件。 如需詳細資訊，請參閱[授予使用者存取權](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md)。
 
 
-1. 按一下 **新增**.
+1. 按一下&#x200B;**新增**。
 
    使用者取得專案的檢視許可權，並作為專案團隊的一部分接收有關專案的通知。
 
@@ -153,4 +153,4 @@ ht-degree: 0%
 
 即使您將使用者從專案團隊中移除，仍會指派給指派給已完成任務和問題的使用者。
 
-如需有關從專案團隊中移除使用者的詳細資訊，請參閱 [從專案移除使用者](../../../manage-work/projects/manage-projects/remove-users-from-projects.md).
+如需有關從專案團隊移除使用者的詳細資訊，請參閱[從專案移除使用者](../../../manage-work/projects/manage-projects/remove-users-from-projects.md)。

@@ -19,14 +19,14 @@ ht-degree: 7%
 
 <!-- Audited: 1/2024 -->
 
-事件通知是由物件（如專案、任務和問題）上的各種事件型別觸發的電子郵件，如中所述 [事件通知](../../../workfront-basics/using-notifications/event-notifications.md).
+事件通知是由物件（例如專案、任務和問題）上各種型別的事件所觸發的電子郵件，如[事件通知](../../../workfront-basics/using-notifications/event-notifications.md)中所述。
 
 可在系統和群組層級設定這些通知：
 
-* 如需有關在系統層級設定事件通知的資訊，請參閱 [為系統中的每個人設定事件通知](../../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md).
-* 如需有關在群組層級設定事件通知的資訊，請參閱 [檢視和設定群組的事件通知](../../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-configure-event-notifications-group.md).
+* 如需有關在系統層級設定事件通知的資訊，請參閱[為系統中的每個人設定事件通知](../../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md)。
+* 如需有關在群組層級設定事件通知的資訊，請參閱[檢視和設定群組的事件通知](../../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-configure-event-notifications-group.md)。
 
-個人使用者也可以在個人設定檔中啟用和停用其個人事件通知。 如需詳細資訊，請參閱 [修改您自己的電子郵件通知](../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+個人使用者也可以在個人設定檔中啟用和停用其個人事件通知。 如需詳細資訊，請參閱[修改您自己的電子郵件通知](../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md)。
 
 下表列出所有Adobe Workfront事件通知、事件的簡短說明，以及事件依預設為作用中或非作用中。
 
@@ -36,7 +36,7 @@ ht-degree: 7%
 
 ## 需要動作
 
-另請參閱 [通知：需要動作](../../../workfront-basics/using-notifications/notifications-action-needed.md).
+另請參閱[通知：需要動作](../../../workfront-basics/using-notifications/notifications-action-needed.md)。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -86,7 +86,7 @@ ht-degree: 7%
    <td> <p>問題</p> </td> 
    <td> <p>擱置核准的問題</p> </td> 
    <td> <p>核准者</p> </td> 
-   <td> <p>我需要核准問題。</p> <p>哪些使用者會收到此事件的電子郵件通知，取決於是否已啟用「專案團隊不需要核准者（針對包含角色的核准流程）」設定（如所述） <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/establish-approval-settings.md" class="MCXref xref">設定全域核准設定</a>)。 </p> <p>如果已啟用此選項</strong>，會傳送電子郵件通知給系統中具有「核准者」工作角色的所有使用者。</p> <p>如果停用此選項</strong>，只有具有「核准者」工作角色的專案團隊成員會收到電子郵件通知。</p> <p>如果專案處於「計畫」或「目前」狀態，則會傳送通知。 </p> </td> 
+   <td> <p>我需要核准問題。</p> <p>哪些使用者會收到此事件的電子郵件通知，取決於是否已啟用「專案團隊不需要核准者（針對包含角色的核准程式）」設定（如<a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/establish-approval-settings.md" class="MCXref xref">設定全域核准設定</a>中所述）。 </p> <p>如果已啟用此選項</strong>，則會傳送電子郵件通知給系統中具有「核准者」工作角色的所有使用者。</p> <p>如果此選項已停用</strong>，則只有具有「核准者」工作角色的專案團隊成員會收到電子郵件通知。</p> <p>如果專案處於「計畫」或「目前」狀態，則會傳送通知。 </p> </td> 
    <td> <p>停用中</p> </td> 
   </tr> 
   <tr> 
@@ -100,7 +100,7 @@ ht-degree: 7%
    <td> <p>專案</p> </td> 
    <td> <p>擱置核准的專案</p> </td> 
    <td> <p>核准者</p> </td> 
-   <td> <p>我需要核准專案。</p> <p>哪些使用者會收到此事件的電子郵件通知，取決於是否已啟用「專案團隊不需要核准者（針對包含工作角色的核准流程）」設定（如所述） <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/establish-approval-settings.md" class="MCXref xref">設定全域核准設定</a>)。</p> <p>如果已啟用此選項</strong>，會傳送電子郵件通知給系統中具有「核准者」工作角色的所有使用者。</p> <p>如果停用此選項</strong>，只有具有「核准者」工作角色的專案團隊成員會收到電子郵件通知。</p> </td> 
+   <td> <p>我需要核准專案。</p> <p>哪些使用者會收到此事件的電子郵件通知，取決於是否已啟用「專案團隊不需要核准者（針對包含工作角色的核准程式）」設定（如<a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/establish-approval-settings.md" class="MCXref xref">設定全域核准設定</a>中所述）。</p> <p>如果已啟用此選項</strong>，則會傳送電子郵件通知給系統中具有「核准者」工作角色的所有使用者。</p> <p>如果此選項已停用</strong>，則只有具有「核准者」工作角色的專案團隊成員會收到電子郵件通知。</p> </td> 
    <td> <p>停用中</p> </td> 
   </tr> 
   <tr> 
@@ -121,7 +121,7 @@ ht-degree: 7%
    <td> <p>任務</p> </td> 
    <td> <p>擱置核准的工作</p> </td> 
    <td> <p>核准者</p> </td> 
-   <td> <p>我需要核准任務。</p> <p>哪些使用者會收到此事件的電子郵件通知，取決於是否已啟用「專案團隊不需要核准者（針對包含角色的核准流程）」設定（如所述） <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/establish-approval-settings.md" class="MCXref xref">設定全域核准設定</a>)。 </p> <p>如果已啟用此選項</strong>，會傳送電子郵件通知給系統中具有「核准者」工作角色的所有使用者。</p> <p>如果停用此選項</strong>，只有具有「核准者」工作角色的專案團隊成員會收到電子郵件通知。</p> <p>只有在請求時的專案狀態為「目前」時，才會傳送通知。</p> </td> 
+   <td> <p>我需要核准任務。</p> <p>哪些使用者會收到此事件的電子郵件通知，取決於是否已啟用「專案團隊不需要核准者（針對包含角色的核准程式）」設定（如<a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/establish-approval-settings.md" class="MCXref xref">設定全域核准設定</a>中所述）。 </p> <p>如果已啟用此選項</strong>，則會傳送電子郵件通知給系統中具有「核准者」工作角色的所有使用者。</p> <p>如果此選項已停用</strong>，則只有具有「核准者」工作角色的專案團隊成員會收到電子郵件通知。</p> <p>只有在請求時的專案狀態為「目前」時，才會傳送通知。</p> </td> 
    <td> <p>停用中</p> </td> 
   </tr> 
   <tr> 
@@ -171,7 +171,7 @@ ht-degree: 7%
 
 ## 我已進行的請求
 
-另請參閱 [通知：我已進行的請求](../../../workfront-basics/using-notifications/notifications-requests-i-have-made.md).
+另請參閱[通知：我已提出的要求](../../../workfront-basics/using-notifications/notifications-requests-i-have-made.md)。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -256,7 +256,7 @@ ht-degree: 7%
    <td> <p>文件</p> </td> 
    <td> <p>請求檔案新增</p> </td> 
    <td> <p>問題主要連絡人</p> </td> 
-   <td> <p>針對我為主要連絡人的問題，檔案已變更或上傳。</p> <p>除非上傳或變更檔案的使用者同時也是主要連絡人，否則當就問題上傳或變更檔案時，問題的主要連絡人會收到電子郵件通知。</p> <p>僅當專案狀態為「目前」，且專案在「佇列設定」索引標籤上啟用了「作為說明請求佇列發佈」時，才會傳送通知。</p> </td> 
+   <td> <p>針對我為主要連絡人的問題，檔案已變更或上傳。</p> <p>除非上傳或變更檔案的使用者同時也是主要連絡人，否則當就問題上傳或變更檔案時，問題的主要連絡人會收到電子郵件通知。</p> <p>僅當專案狀態為「目前」，且專案在「佇列設定」索引標籤上啟用了「Publish作為說明請求佇列」時，才會傳送通知。</p> </td> 
    <td> <p>作用中（僅限每日）</p> </td> 
   </tr> 
   <tr> 
@@ -276,7 +276,7 @@ ht-degree: 7%
 
 ## 通訊
 
-另請參閱 [通知：通訊](../../../workfront-basics/using-notifications/notifications-communication.md).
+另請參閱[通知：通訊](../../../workfront-basics/using-notifications/notifications-communication.md)。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -297,7 +297,7 @@ ht-degree: 7%
    <td> <p>文件</p> </td> 
    <td> <p>在檔案上評論</p> </td> 
    <td> <p>文件所有者</p> </td> 
-   <td> <p>註解已新增至我的檔案。</p> <p>在檔案上張貼評論時，Workfront中檔案的擁有者會收到電子郵件通知，除非張貼評論的使用者也是檔案擁有者。</p> <p>直接包含在評論中的任何使用者都會收到電子郵件通知。</p> <p>只有在專案狀態為「目前」時，才會傳送通知。 </p> <p>即時通知電子郵件的主旨為： <em>評論 &lt;request name=""&gt; 於 &lt;project name=""&gt; (參考編號 &lt;request reference="" number=""&gt;)</em></p> <p> 每日摘要通知的主題為：<em> 通訊摘要 &lt;date of="" daily="" digest=""&gt;</em></p> </td> 
+   <td> <p>註解已新增至我的檔案。</p> <p>在檔案上張貼評論時，Workfront中檔案的擁有者會收到電子郵件通知，除非張貼評論的使用者也是檔案擁有者。</p> <p>直接包含在評論中的任何使用者都會收到電子郵件通知。</p> <p>只有在專案狀態為「目前」時，才會傳送通知。 </p> <p>即時通知電子郵件的主旨為： &lt;專案名稱&gt; （ref# &lt;請求參考編號&gt;）</em>上&lt;請求名稱&gt;的<em>註解</p> <p> 每日摘要通知的主旨為：<em>通訊摘要&lt;每日摘要日期&gt;</em></p> </td> 
    <td> <p>啟用中</p> </td> 
   </tr> 
   <tr> 
@@ -311,14 +311,14 @@ ht-degree: 7%
    <td> <p>使用者</p> </td> 
    <td>導向式更新</td> 
    <td>使用者</td> 
-   <td> <p>有人將我加入定向更新。</p> <p>定向更新是指使用者在更新中明確包含另一個使用者時（如所述） <a href="../../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md" class="MCXref xref">標籤其他人的更新</a>.</p> <p>在這種情況下，包含在定向更新中的使用者會收到有關更新的電子郵件通知。</p> <p>只有當使用者擁有物件的存取許可權，且在他們的設定檔中將其保持啟用時，才會傳送電子郵件通知。  </p> <p>此事件通知預設為啟用，無法停用。</p> </td> 
+   <td> <p>有人將我加入定向更新。</p> <p>定向更新是指當使用者在更新中明確包含另一個使用者時，如<a href="../../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md" class="MCXref xref">在更新上標籤其他使用者</a>中所述。</p> <p>在這種情況下，包含在定向更新中的使用者會收到有關更新的電子郵件通知。</p> <p>只有當使用者擁有物件的存取許可權，且在他們的設定檔中將其保持啟用時，才會傳送電子郵件通知。  </p> <p>此事件通知預設為啟用，無法停用。</p> </td> 
    <td> <p>啟用中</p> </td> 
   </tr> 
   <tr> 
    <td> <p>團隊</p> </td> 
    <td> <p>導向式更新</p> </td> 
    <td> <p>團隊成員</p> </td> 
-   <td> <p>有人將我的團隊加入定向更新。</p> <p>定向更新是指使用者在更新中明確包含另一個使用者時（如所述） <a href="../../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md" class="MCXref xref">標籤其他人的更新</a>.</p> <p>在這種情況下，定向更新中包含的所有團隊成員都會收到有關更新的電子郵件通知。</p> <p>電子郵件通知僅會傳送給具有更新物件存取許可權的使用者。</p> <p>如果傳送定向更新的使用者是要包含的團隊成員，則傳送更新的使用者不會收到電子郵件通知。</p> </td> 
+   <td> <p>有人將我的團隊加入定向更新。</p> <p>定向更新是指當使用者在更新中明確包含另一個使用者時，如<a href="../../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md" class="MCXref xref">在更新上標籤其他使用者</a>中所述。</p> <p>在這種情況下，定向更新中包含的所有團隊成員都會收到有關更新的電子郵件通知。</p> <p>電子郵件通知僅會傳送給具有更新物件存取許可權的使用者。</p> <p>如果傳送定向更新的使用者是要包含的團隊成員，則傳送更新的使用者不會收到電子郵件通知。</p> </td> 
    <td> <p>作用中（僅限每日）</p> </td> 
   </tr> 
   <tr> 
@@ -360,7 +360,7 @@ ht-degree: 7%
 
 ## 核准資訊
 
-另請參閱 [通知：核准資訊](../../../workfront-basics/using-notifications/notifications-approval-information.md).
+另請參閱[通知：核准資訊](../../../workfront-basics/using-notifications/notifications-approval-information.md)。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -424,7 +424,7 @@ ht-degree: 7%
 
 ## 關於指派給我的工作的資訊
 
-另請參閱 [通知：關於指派給我的工作的資訊](../../../workfront-basics/using-notifications/notifications-information-about-work-assigned-to-me.md).
+另請參閱[通知：指派給我的工作資訊](../../../workfront-basics/using-notifications/notifications-information-about-work-assigned-to-me.md)。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -494,7 +494,7 @@ ht-degree: 7%
    <td> <p>文件</p> </td> 
    <td> <p>請求檔案新增</p> </td> 
    <td> <p>問題受指派的使用者</p> </td> 
-   <td> <p>向我指派的請求上傳或變更了檔案。</p> <p>在上傳檔案或變更檔案時問題受指派人會收到電子郵件通知，告知他們新增的問題。</p> <p>如果輸入問題的使用者是問題受指派人，則不會傳送電子郵件通知。</p> <p>僅當專案狀態為「目前」，且專案在「佇列設定」索引標籤上啟用了「作為說明請求佇列發佈」時，才會傳送通知。</p> </td> 
+   <td> <p>向我指派的請求上傳或變更了檔案。</p> <p>在上傳檔案或變更檔案時問題受指派人會收到電子郵件通知，告知他們新增的問題。</p> <p>如果輸入問題的使用者是問題受指派人，則不會傳送電子郵件通知。</p> <p>僅當專案狀態為「目前」，且專案在「佇列設定」索引標籤上啟用了「Publish作為說明請求佇列」時，才會傳送通知。</p> </td> 
    <td> <p>作用中（僅限每日）</p> </td> 
   </tr> 
   <tr> 
@@ -535,7 +535,7 @@ ht-degree: 7%
 
 ## 關於我所在專案的資訊
 
-另請參閱 [通知：關於我所在專案的資訊](../../../workfront-basics/using-notifications/notifications-information-about-projects-im-on.md).
+另請參閱[通知：關於我在](../../../workfront-basics/using-notifications/notifications-information-about-projects-im-on.md)的專案資訊。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -627,7 +627,7 @@ ht-degree: 7%
 
 ## 關於我擁有的專案資訊
 
-另請參閱 [通知：關於我擁有的專案資訊](../../../workfront-basics/using-notifications/notifications-information-about-projects-i-own.md).
+另請參閱[通知：關於我擁有的專案資訊](../../../workfront-basics/using-notifications/notifications-information-about-projects-i-own.md)。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -726,7 +726,7 @@ ht-degree: 7%
 
 ## 關於我贊助的專案資訊
 
-另請參閱 [通知：關於我贊助的專案資訊](../../../workfront-basics/using-notifications/notifications-information-about-projects-i-sponsor.md).
+另請參閱[通知：關於我贊助的專案資訊](../../../workfront-basics/using-notifications/notifications-information-about-projects-i-sponsor.md)。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -811,7 +811,7 @@ ht-degree: 7%
 
 ## 其他資訊
 
-另請參閱 [通知：其他資訊](../../../workfront-basics/using-notifications/notifications-misc-information.md).
+另請參閱[通知：其他資訊](../../../workfront-basics/using-notifications/notifications-misc-information.md)。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -861,7 +861,7 @@ ht-degree: 7%
    <td> <p>使用者</p> </td> 
    <td> <p>建立使用者</p> </td> 
    <td> <p>使用者</p> </td> 
-   <td> <p>在Workfront中建立新使用者時，傳送電子郵件給使用者。</p> <p>建立新使用者後，使用者會收到電子郵件邀請，通知他們已建立Workfront帳戶，並提示他們設定密碼。</p> <p>建立新使用者時，使用者可以選取「傳送邀請電子郵件給此人」選項（如所述） <a href="../../../administration-and-setup/add-users/create-and-manage-users/add-users.md" class="MCXref xref">新增使用者</a><span style="font-weight: 400;">)。 但是，當全域啟用「新增使用者至使用者」選項時，無論是否選取「傳送邀請電子郵件給此人」選項，所有新使用者都會收到電子郵件邀請。</span></p> </td> 
+   <td> <p>在Workfront中建立新使用者時，傳送電子郵件給使用者。</p> <p>建立新使用者後，使用者會收到電子郵件邀請，通知他們已建立Workfront帳戶，並提示他們設定密碼。</p> <p>建立新使用者時，使用者可以選取「傳送邀請電子郵件給此人」選項（如<a href="../../../administration-and-setup/add-users/create-and-manage-users/add-users.md" class="MCXref xref">新增使用者</a><span style="font-weight: 400;">中所述）。 但是，全域啟用[新增使用者至使用者]選項時，無論是否選取[傳送邀請電子郵件給此人]選項，所有新使用者都會收到電子郵件邀請。</span></p> </td> 
    <td> 停用中 </td> 
   </tr> 
   <tr> 
@@ -900,7 +900,7 @@ ht-degree: 7%
    <td> <p>停用中</p> </td> 
   </tr> 
   <tr> 
-   <td> 專案 <br>任務 <br>問題</td> 
+   <td> 專案<br>任務<br>問題</td> 
    <td>新的更新</td> 
    <td>訂閱者 </td> 
    <td> <p class="p1"><span class="s1 wysiwyg-font-size-medium">向我訂閱的任務、問題或專案進行更新時，會傳送電子郵件。</span> </p> </td> 
@@ -919,7 +919,7 @@ ht-degree: 7%
 
 ## 委派
 
-另請參閱 [通知：委派](../../../workfront-basics/using-notifications/notifications-delegation.md).
+另請參閱[通知：委派](../../../workfront-basics/using-notifications/notifications-delegation.md)。
 
 | 物件類型 | 事件 | 收件人 | 說明 | 預設狀態 |
 |------------------|--------------------------------------------|-----------|--------------------------------------------------------------|-----------------------|

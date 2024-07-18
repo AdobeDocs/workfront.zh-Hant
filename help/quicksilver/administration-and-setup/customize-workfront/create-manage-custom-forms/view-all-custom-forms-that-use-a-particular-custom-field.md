@@ -19,7 +19,7 @@ ht-degree: 0%
 
 您可以找出哪些自訂表單正在使用您要變更或刪除的自訂欄位或Widget。 請務必評估這些自訂表單是否需要調整，才能在變更或刪除欄位或Widget後繼續正常運作。
 
-如需自訂表單中自訂欄位和Widget的相關資訊，請參閱 [新增自訂欄位至自訂表單](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md) 和 [在自訂表單中新增或編輯資產Widget](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md).
+如需自訂表單中自訂欄位和Widget的相關資訊，請參閱[新增自訂欄位至自訂表單](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md)和[新增或編輯自訂表單中的資產Widget](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md)。
 
 ## 存取需求
 
@@ -47,12 +47,12 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-如需有關此表格的詳細資訊，請參閱 [Workfront檔案中的存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 ## 瞭解哪些自訂表單使用特定自訂欄位或Widget
 
 {{step-1-to-setup}}
 
-1. 在左側面板中，按一下 **自訂Forms**.
-1. 按一下 **欄位**，尋找中的欄位或Widget **名稱** 欄，然後檢視 **Forms** 欄以檢視哪些自訂表單正在使用欄位或Widget。
+1. 在左側面板中，按一下&#x200B;**自訂Forms**。
+1. 按一下&#x200B;**欄位**，在&#x200B;**名稱**&#x200B;欄中尋找欄位或Widget，然後檢視&#x200B;**Forms**&#x200B;欄，以檢視哪些自訂表單正在使用欄位或Widget。
 1. （可選）按一下任何這些自訂表單的名稱以移至表單，並考慮在修改欄位或Widget時可能需要在那裡進行的變更。

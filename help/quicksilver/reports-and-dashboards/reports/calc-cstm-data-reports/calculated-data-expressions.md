@@ -24,11 +24,11 @@ ht-degree: 0%
 
 * 自訂表單上的計算自訂欄位
 
-  如需在Workfront中的自訂表單上建立計算自訂欄位的詳細資訊，請參閱 [新增計算資料至自訂表單](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
+  如需在Workfront中的自訂表單上建立計算自訂欄位的詳細資訊，請參閱[將計算資料新增至自訂表單](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md)。
 
 * 使用文字模式時，報表或清單中的計算自訂欄
 
-  如需有關在報表和檢視中使用文字模式的詳細資訊，請參閱 [文字模式概觀](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).
+  如需有關在報表和檢視中使用文字模式的詳細資訊，請參閱[文字模式概觀](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md)。
 
 ## 計算自訂欄位與計算自訂欄的語法
 
@@ -77,17 +77,17 @@ ht-degree: 0%
   >
   >相同的語法適用於所有使用計算運算式的文字模式報表元素：檢視、篩選器、群組、提示。
 
-如需有關計算自訂欄中必須使用的語法的詳細資訊，請參閱 [文字模式概觀](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).
+如需有關計算自訂欄中必須使用的語法的詳細資訊，請參閱[文字模式概觀](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md)。
 
 ## 您可以使用的資料運算式
 
 下列清單定義當您在Workfront中建置3種不同型別的計算自訂欄位之一時，可用的運算式：
 
-* [日期和時間計算自訂欄位](#date-time-calculated-custom-fields)
+* [日期與時間計算的自訂欄位](#date-time-calculated-custom-fields)
 * [數學計算的自訂欄位](#mathematical-calculated-custom-fields)
 * [文字計算自訂欄位](#text-calculated-custom-fields)
 
-您可以使用下面列出的運算式來建置計算出的自訂欄。 不過，您必須使用計算自訂欄的正確語法，如一節所述  [計算自訂欄位與計算自訂欄的語法](#syntax-of-calculated-custom-fields-vs-calculated-custom-columns) 本文章內容。
+您可以使用下面列出的運算式來建置計算出的自訂欄。 不過，您必須使用計算自訂欄的正確語法，如本文中[計算自訂欄位與計算自訂欄位語法](#syntax-of-calculated-custom-fields-vs-calculated-custom-columns)一節所述。
 
 ### 日期和時間計算自訂欄位 {#date-time-calculated-custom-fields}
 
@@ -114,7 +114,7 @@ ht-degree: 0%
 <p><code>ADDDAYS(date, number)</code></p> </td> 
   </tr> 
   <tr> 
-   <td><strong>每週新增日</strong> </td> 
+   <td><strong>ADDWEEKDAYS</strong> </td> 
    <td> <p>將工作日數新增至日期。 此運算式只會將整數值加到日期，往下舍入。 </p> <p>運算式的格式如下：</p>
 
 <p><code>ADDWEEKDAYS(date, number)</code></p> </td> 
@@ -126,7 +126,7 @@ ht-degree: 0%
 </p><p><code>ADDMONTHS(date, number)</code></p> </td> 
   </tr> 
   <tr> 
-   <td><strong>ADDYEARS</strong> </td> 
+   <td><strong>年</strong> </td> 
    <td> <p>將年份新增至日期，格式如下：</p>
 
 <p><code>ADDYEARS(date, number)</code></p> </td> 
@@ -186,13 +186,13 @@ ht-degree: 0%
 <p><code>DMAX(date1, date2, ...)</code></p> </td> 
   </tr> 
   <tr> 
-   <td><strong>DMIN</strong> </td> 
+   <td><strong>分鐘</strong> </td> 
    <td> <p>傳回清單中最早的日期，格式如下：</p>
 
 <p><code>DMIN(date1, date2, ...)</code></p> </td> 
   </tr> 
   <tr> 
-   <td><strong>HOUR</strong> </td> 
+   <td><strong>小時</strong> </td> 
    <td> <p>以0到23之間的數字傳回日期的小時數。</p> <p>運算式的格式如下。 在此範例中，日期是工作物件的「輸入日期」。</p>
 
 <p><code>HOUR({entryDate})</code></p> </td> 
@@ -204,13 +204,13 @@ ht-degree: 0%
 <p><code>MINUTE({entryDate})</code></p> </td> 
   </tr> 
   <tr> 
-   <td><strong>月</strong> </td> 
+   <td><strong>個月</strong> </td> 
    <td> <p>以1到12之間的數字傳回日期的月份，格式如下。 在此範例中，日期是工作物件的「輸入日期」。</p>
 
 <p><code>MONTH({entryDate})</code></p> </td> 
   </tr> 
   <tr> 
-   <td><strong>SECOND</strong> </td> 
+   <td><strong>秒</strong> </td> 
    <td> <p>以0到60之間的數字傳回日期的秒數，格式如下。 在此範例中，日期是工作物件的「輸入日期」。</p>
 
 <p><code>SECOND({entryDate})</code></p> </td> 
@@ -257,7 +257,7 @@ ht-degree: 0%
 <p><code>ABS({numberOfChildren})</code></p></td> 
   </tr> 
   <tr> 
-   <td><strong>AVERAGE</strong> </td> 
+   <td><strong>平均</strong> </td> 
    <td>傳回數字的平均值，格式如下：
 
 <p><code>AVERAGE(number1, number2, ...)</code></p></td> 
@@ -275,7 +275,7 @@ ht-degree: 0%
 <p><code>DIV(number1, number2, ...)</code></p></td> 
   </tr> 
   <tr> 
-   <td><strong>FLOOR</strong> </td> 
+   <td><strong>樓層</strong> </td> 
    <td>將數字下調至最接近的整數，格式如下。 此範例使用物件下附加自訂表單的物件數目。
 
 <p><code>FLOOR({numberOfChildren})</code></p></td> 
@@ -287,7 +287,7 @@ ht-degree: 0%
 <p><code>LN({numberOfChildren})</code></p></td> 
   </tr> 
   <tr> 
-   <td><strong>記錄</strong> </td> 
+   <td><strong>記錄檔</strong> </td> 
    <td>傳回number2對數值至基礎number1，格式如下：
 
 <p><code>LOG(number1, number2)</code></p></td> 
@@ -299,7 +299,7 @@ ht-degree: 0%
 <p><code>MAX(item1, item2, ...)</code></p></td> 
   </tr> 
   <tr> 
-   <td><strong>MIN</strong> </td> 
+   <td><strong>分鐘</strong> </td> 
    <td>傳回清單中的最小專案，格式如下：
 
 <p><code>MIN(item1, item2, ...)</code></p></td> 
@@ -309,7 +309,7 @@ ht-degree: 0%
    <td>將字串轉換為數字，格式如下：<p><code>NUMBER(string)</code></p></td> 
   </tr> 
   <tr> 
-   <td><strong>POWER</strong> </td> 
+   <td><strong>電源</strong> </td> 
    <td>傳回提升為次方的數字，格式如下：
 
 <p><code>POWER(number, power)</code></p></td> 
@@ -325,7 +325,7 @@ ht-degree: 0%
    </td> 
   </tr> 
   <tr> 
-   <td><strong>ROUND</strong> </td> 
+   <td><strong>回合</strong> </td> 
    <td>將數字四捨五入到指定的精確位數，格式如下：
 
 <p><code>ROUND(number, precision)</code></p></td> 
@@ -355,7 +355,7 @@ ht-degree: 0%
 <p><code>SUB(number1, number2, ...)</code></p></td> 
   </tr> 
   <tr> 
-   <td><strong>SUM</strong> </td> 
+   <td><strong>總和</strong> </td> 
    <td>將所有數字相加，格式如下：
 
 <p><code>SUM(number1, number2, ...)</code></p></td> 
@@ -378,7 +378,7 @@ ht-degree: 0%
  </thead> 
  <tbody> 
   <tr> 
-   <td><strong>案例</strong> </td> 
+   <td><strong>個案例</strong> </td> 
    <td> <p>與其他運算式搭配使用，根據索引編號從清單中選擇值。 </p>
    <p>索引數字是傳回數值（通常在已知範圍內）的欄位或函式。</p> 
    <p>運算式的格式如下：</p>
@@ -414,7 +414,7 @@ ht-degree: 0%
 <p><code>ENCODEURL(string)</code></p></td> 
   </tr> 
   <tr> 
-   <td><strong>如果</strong> </td> 
+   <td><strong>IF</strong> </td> 
    <td> <p>評估您指定的條件，如果為true，則傳回trueExpression的值；如果為false，則傳回falseExpression的值。</p>
 
 <p>運算式的格式如下：</p>
@@ -434,7 +434,7 @@ ht-degree: 0%
 
 <p><code>IF({projectedCompletionDate}&gt;{plannedCompletionDate},"Off Track","")</code></p>
 
-<p>如需有關建立「IF」陳述式的詳細資訊，請參閱 <a href="../../../reports-and-dashboards/reports/calc-cstm-data-reports/if-statements-overview.md" class="MCXref xref">「IF」陳述式概述</a>.</p> </td> 
+<p>如需有關建立「IF」陳述式的詳細資訊，請參閱<a href="../../../reports-and-dashboards/reports/calc-cstm-data-reports/if-statements-overview.md" class="MCXref xref">「IF」陳述式概述</a>。</p> </td> 
   </tr> 
   <tr> 
    <td><strong>IFIN</strong> </td> 
@@ -452,7 +452,7 @@ ht-degree: 0%
     <p><code>IFIN({owner}.{name},"Jennifer Campbell","Rick Kuvec","Marketing Team","")</code></p> </p> </td> 
   </tr> 
   <tr> 
-   <td><strong>在</strong> </td> 
+   <td><strong>IN</strong> </td> 
    <td> <p>如果值等於提供的值之一，則傳回true；否則，運算式會傳回false。</p> <p>運算式的格式如下：
 
 </p><p><code>IN(value, value1[, value2...])</code></p> </td> 
@@ -464,25 +464,25 @@ ht-degree: 0%
 </p><p><code>ISBLANK(value)</code></p> </td> 
   </tr> 
   <tr> 
-   <td><strong>左側</strong> </td> 
+   <td><strong>左</strong> </td> 
    <td> <p>傳回字串左側的指定字元數，格式如下：</p>
 
 <p><code>LEFT(string, length)</code></p> </td> 
   </tr> 
   <tr> 
-   <td><strong>LEN</strong> </td> 
+   <td><strong>長度</strong> </td> 
    <td> <p>傳回字串長度，格式如下：</p>
 
 <p><code>LEN(string)</code></p> </td> 
   </tr> 
   <tr> 
-   <td><strong>LOWER</strong> </td> 
+   <td><strong>下層</strong> </td> 
    <td>傳回小寫的字串，格式如下：
 
 <p><code>LOWER(string)</code></p></td> 
   </tr> 
   <tr> 
-   <td><strong>REPLACE</strong> </td> 
+   <td><strong>取代</strong> </td> 
    <td> <p>在string1中，以string3取代所有出現的string2。</p> <p>運算式的格式如下：</p>
 
 <p><code>REPLACE(string1, string2, string3)</code></p> </td> 
@@ -500,7 +500,7 @@ ht-degree: 0%
 <p><code>SEARCH(findText, withinText, start)</code></p> </td> 
   </tr> 
   <tr> 
-   <td><strong>STRING</strong> </td> 
+   <td><strong>字串</strong> </td> 
    <td> <p>將數字轉換為字串，格式如下：</p>
 
 <p><code>STRING(number)</code></p> </td> 

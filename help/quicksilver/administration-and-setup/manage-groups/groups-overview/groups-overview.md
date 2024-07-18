@@ -21,6 +21,6 @@ ht-degree: 0%
 
 本節包含下列文章：
 
-* [群組概述](../../../administration-and-setup/manage-groups/groups-overview/groups.md)
-* [子群組概述](../../../administration-and-setup/manage-groups/groups-overview/subgroups.md)
+* [群組總覽](../../../administration-and-setup/manage-groups/groups-overview/groups.md)
+* [子群組總覽](../../../administration-and-setup/manage-groups/groups-overview/subgroups.md)
 * [主群組概觀](../../../administration-and-setup/manage-groups/groups-overview/home-groups.md)

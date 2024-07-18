@@ -15,7 +15,7 @@ ht-degree: 0%
 
 ---
 
-# 中的字串函式 [!DNL Adobe Workfront Fusion]
+# [!DNL Adobe Workfront Fusion]中的字串函式
 
 ## 存取需求
 
@@ -36,7 +36,7 @@ ht-degree: 0%
   <tr>  
    <td role="rowheader">[!DNL Adobe Workfront Fusion] 授權**</td>  
    <td> 
-   <p>目前：否 [!DNL Workfront Fusion] 授權需求。</p> 
+   <p>目前：無[!DNL Workfront Fusion]授權需求。</p> 
    <p>或</p> 
    <p>舊版：任何 </p> 
    </td>  
@@ -44,17 +44,17 @@ ht-degree: 0%
   <tr>  
    <td role="rowheader">產品</td>  
    <td> 
-   <p>新增：</p> <ul><li>[！UICONTROL Select]或[！UICONTROL Prime] [!DNL Workfront] 計畫：您的組織必須購買 [!DNL Adobe Workfront Fusion].</li><li>[！UICONTROL Ultimate] [!DNL Workfront] 計畫： [!DNL Workfront Fusion] 已包括在內。</li></ul> 
+   <p>新增：</p> <ul><li>[！UICONTROL Select]或[！UICONTROL Prime] [!DNL Workfront]計畫：您的組織必須購買[!DNL Adobe Workfront Fusion]。</li><li>已包含[！UICONTROL Ultimate] [!DNL Workfront]計畫： [!DNL Workfront Fusion]。</li></ul> 
    <p>或</p> 
-   <p>目前：您的組織必須購買 [!DNL Adobe Workfront Fusion].</p> 
+   <p>目前：您的組織必須購買[!DNL Adobe Workfront Fusion]。</p> 
    </td>  
   </tr> 
  </tbody>  
 </table>
 
-如需有關此表格的詳細資訊，請參閱 [Workfront檔案中的存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
-有關的資訊 [!DNL Adobe Workfront Fusion] 授權，請參閱 [[!DNL Adobe Workfront Fusion] 授權](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+如需[!DNL Adobe Workfront Fusion]授權的相關資訊，請參閱[[!DNL Adobe Workfront Fusion] 授權](../../workfront-fusion/get-started/license-automation-vs-integration.md)。
 
 ## [!UICONTROL 長度（文字或緩衝區）]
 
@@ -68,7 +68,7 @@ ht-degree: 0%
 >
 >傳回： 5
 
-## [!UICONTROL 下方（文字）]
+## [!UICONTROL 小寫（文字）]
 
 將文字字串中的所有字母字元轉換為小寫。
 
@@ -103,7 +103,7 @@ ht-degree: 0%
 >
 >傳回： [!UICONTROL Hello World]
 
-## [!UICONTROL ascii (文字； [移除變音符號])]
+## [!UICONTROL ascii （文字；[移除變音符號]）]
 
 移除文字字串中的所有非ascii字元。
 
@@ -133,7 +133,7 @@ ht-degree: 0%
 >
 >傳回： [!UICONTROL Hi World]
 
-規則運算式(括在 `/.../`)可作為具有標幟(例如 `g`， `i`， `m`)已附加：
+規則運算式（以`/.../`括住）可以做為搜尋字串，並附加標幟（例如`g`、`i`、`m`）的組合：
 
 >[!INFO]
 >
@@ -145,8 +145,8 @@ ht-degree: 0%
 
 取代字串可包括下列特殊取代模式：
 
-* `$&` 插入相符的子字串。
-* `$n` 其中n是小於100的正整數，插入以括弧括住的第n個子比對字串。 這是1索引。
+* `$&`插入相符的子字串。
+* `$n`其中n是小於100的正整數，插入第n個以括弧括住的子符合字串。 這是1索引。
 
 >[!INFO]
 >
@@ -154,7 +154,7 @@ ht-degree: 0%
 >
 >![](assets/variable-value-350x63.png)
 >
->傳回：電話號碼 `+420777111222`
+>傳回：電話號碼`+420777111222`
 >>
 >![](assets/variable-value---2-350x55.png)
 >
@@ -162,11 +162,11 @@ ht-degree: 0%
 
 >[!CAUTION]
 >
->請勿使用已命名的擷取群組，例如 `/ is (?<number>\d+)/` 在取代字串引數中。 這樣做會導致錯誤。
+>請勿在取代字串引數中使用已命名的擷取群組，例如`/ is (?<number>\d+)/`。 這樣做會導致錯誤。
 
-如需規則運算式的詳細資訊，請參閱 [文字剖析器](../../workfront-fusion/apps-and-their-modules/text-parser.md).
+如需規則運算式的詳細資訊，請參閱[文字剖析器](../../workfront-fusion/apps-and-their-modules/text-parser.md)。
 
-## [!UICONTROL trim （文字）]
+## [!UICONTROL 修剪（文字）]
 
 移除文字開頭或結尾的空格字元。
 
@@ -180,7 +180,7 @@ ht-degree: 0%
 >
 >`upper( Hello )`
 >
->傳回： [!UICONTROL 您好]
+>傳回： [!UICONTROL HELLO]
 
 ## [!UICONTROL 子字串（文字；開始；結束）]
 
@@ -329,7 +329,7 @@ ht-degree: 0%
 >
 >傳回： `1448bbbeaa7a9b8091d426999f1f666b`
 
-## [!UICONTROL sha1 (文字； [編碼]； [key])]
+## [!UICONTROL sha1 （文字；[編碼]；[金鑰]）]
 
 計算字串的sha1雜湊。 如果指定機碼引數，則會傳回sha1 HMAC雜湊。 支援的編碼：「十六進位」（預設）、「base64」或「latin1」。
 
@@ -341,7 +341,7 @@ ht-degree: 0%
 >
 >傳回： b2b30b8ae1f9e5b40fbb0696eaabdbfd8d0c087f
 
-## [!UICONTROL sha256 (文字； [編碼]； [key])]
+## [!UICONTROL sha256 （文字；[編碼]；[金鑰]）]
 
 計算字串的sha256雜湊。 如果指定機碼引數，則會傳回sha256 HMAC雜湊。 支援的編碼：「十六進位」（預設）、「base64」或「latin1」。>
 
@@ -353,23 +353,23 @@ ht-degree: 0%
 >
 >傳回： ed3d7397eec7b94453035b67ba4468c883ee3bedeb57137f7371f2e0cf5e2bbc
 
-## [!UICONTROL sha512 (文字； [輸出編碼]； [key]； [金鑰編碼])]
+## [!UICONTROL sha512 （文字；[輸出編碼]；[金鑰]；[金鑰編碼]）]
 
 計算字串的sha512雜湊。 如果指定機碼引數，則會傳回sha512 HMAC雜湊。
 
 支援的編碼：
 
-* &quot;[!UICONTROL 十六進位]「 （預設）
-* &quot;[!UICONTROL base64]&quot;
-* &quot;[!UICONTROL latin1]&quot;
+* &quot;[!UICONTROL 十六進位]&quot; （預設）
+* [!UICONTROL base64]
+* [!UICONTROL latin1]
 
 支援的關鍵編碼：
 
-* &quot;[!UICONTROL 文字]「 （預設）
-* &quot;[!UICONTROL 十六進位]&quot;
-* &quot;[!UICONTROL base64]「或」[!UICONTROL 二進位]&quot;
+* &quot;[!UICONTROL 文字]&quot; （預設）
+* [!UICONTROL 十六進位]
+* [!UICONTROL base64]」或[!UICONTROL 二進位]
 
-使用&quot;[!UICONTROL 二進位]「金鑰編碼，金鑰必須是緩衝區，而非字串。
+使用&quot;[!UICONTROL 二進位]&quot;金鑰編碼時，金鑰必須是緩衝區，而非字串。
 
 >[!INFO]
 >

@@ -35,11 +35,11 @@ ht-degree: 0%
 * Workfront中的報表只針對一個物件。 您必須先為報表定義主要物件，才能建置報表。 因此，所有報表元素都是物件專屬的。
 * 您的Workfront管理員必須授予您存取層級中篩選器、檢視和群組的存取權，才能在清單和報告中檢視或編輯它們。
 
-  如需授與篩選器、檢視和群組存取權的相關資訊，請參閱 [授予對篩選器、檢視和群組的存取權](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-fvg.md).
+  如需授與篩選器、檢視和群組存取權的相關資訊，請參閱[授與篩選器、檢視和群組的存取權](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-fvg.md)。
 
 * 您的Workfront管理員必須授予您存取層級中報告、儀表板和行事曆的存取權，才能檢視或編輯報告。
 
-  如需授與報表、控制面板和行事曆存取權的相關資訊，請參閱 [授予對報告、儀表板和行事曆的存取權](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-reports-dashboards-calendars.md).
+  如需授與報告、儀表板和行事曆存取權的相關資訊，請參閱[授與報告、儀表板和行事曆的存取權](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-reports-dashboards-calendars.md)。
 
 * 如果您在報表或清單上選取篩選、檢視或分組，即使您登出或關閉瀏覽器，Workfront仍會針對該物件的清單保留此選取範圍。 例如，如果您為任務報告選取特定檢視，則該選取項會出現在其他任務清單中，例如專案上的任務清單。
 
@@ -54,9 +54,9 @@ ht-degree: 0%
 * Workfront預設為各種物件提供許多篩選器。
 * 您可以自訂擁有或管理的篩選器。
 
-  如需篩選器的詳細資訊，請參閱文章 [篩選器概觀](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+  如需篩選的詳細資訊，請參閱文章[篩選概觀](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md)。
 
-![篩選圖示](assets/projects-list-with-filter-drop-down-highlighted-nwe.png)
+![篩選器圖示](assets/projects-list-with-filter-drop-down-highlighted-nwe.png)
 
 ## 檢視
 
@@ -69,7 +69,7 @@ ht-degree: 0%
 * 您可在執行報表後，從「檢視」下拉式欄位套用其他檢視。
 * 其他檢視會暫時取代建立報告時定義的檢視；不過，下次您返回報告時會顯示預設檢視。
 
-  如需檢視的詳細資訊，請參閱文章 [Adobe Workfront中的檢視概觀](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
+  如需檢視的詳細資訊，請參閱文章[ Adobe Workfront中的檢視總覽](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md)。
 
 ## 群組
 
@@ -83,20 +83,20 @@ ht-degree: 0%
 * 分組在結果中顯示彙總值&#x200B;。
 * 分組決定圖表中的軸。
 * 分組會決定矩陣報表中的標題識別。\
-  如需矩陣報表的詳細資訊，請參閱文章 [建立矩陣報表](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-matrix-report.md).
+  如需矩陣報表的詳細資訊，請參閱文章[建立矩陣報表](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-matrix-report.md)。
 
 * 分組有助於建立報表的摘要標籤，提供報表的彙總值。
 * Workfront預設為不同的物件提供許多分組。
 * 您可以自訂擁有或管理的群組。
 
-  如需分組的詳細資訊，請參閱 [Adobe Workfront中的群組概觀](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
+  如需群組的詳細資訊，請參閱Adobe Workfront中的[群組概觀](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md)。
 
 ## 其他報表元素
 
 除了篩選器、檢視和群組之外，您也可以將下列元素新增至報表：
 
-* **提示**：開啟的篩選器，每次執行報表時都能以不同方式自訂和套用。\
-  如需有關提示的詳細資訊，請參閱文章 [新增提示至報表](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md).
+* **提示**：開啟的篩選器，每次執行報表時都可以以不同方式自訂和套用。\
+  如需有關提示的詳細資訊，請參閱文章[新增提示至報表](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md)。
 
-* **圖表**：您可以新增圖表至報表，並以視覺化方式顯示資訊，藉此增強報表。\
-  如需關於報表中圖表的詳細資訊，請參閱文章 [新增圖表至報表](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-chart-report.md).
+* **圖表**：您可以新增圖表並以視覺化方式顯示資訊，藉此增強報表。\
+  如需有關報表中圖表的詳細資訊，請參閱文章[將圖表新增至報表](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-chart-report.md)。

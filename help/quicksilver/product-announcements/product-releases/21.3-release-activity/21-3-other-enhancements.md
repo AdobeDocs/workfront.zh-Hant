@@ -17,7 +17,7 @@ ht-degree: 0%
 
 本頁說明21.3版對預覽環境所做的所有其他增強功能。 這些增強功能已在2021年7月21日當週的生產環境中推出。
 
-如需21.3版本所有可用變更的清單，請參閱 [21.3版本總覽](../../../product-announcements/product-releases/21.3-release-activity/21-3-release-overview.md).
+如需21.3版本可用的所有變更清單，請參閱[21.3版本總覽](../../../product-announcements/product-releases/21.3-release-activity/21-3-release-overview.md)。
 
 ## 針對行動應用程式重新設計首頁區域
 
@@ -33,7 +33,7 @@ Adobe Workfront行動應用程式的首頁區域已新增下列增強功能：
 
 當應用程式發行至應用程式商店時，下列文章將會更新：
 
-* [適用於iOS的Adobe Workfront](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-ios.md)
+* 適用於iOS的[Adobe Workfront](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-ios.md)
 * [適用於Android的Adobe Workfront](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-android.md)
 
 ## 事件訂閱篩選器
@@ -44,4 +44,4 @@ Adobe Workfront行動應用程式的首頁區域已新增下列增強功能：
 
 預覽環境中現在已啟用事件訂閱篩選器。 事件訂閱篩選可用於確保您僅接收相關訊息。 為您的訂閱建立篩選器可能會大幅減少端點需要使用的訊息數量。
 
-若要深入瞭解事件訂閱，請參閱 [事件訂閱API](../../../wf-api/general/event-subs-api.md) 和 [常見問題集 — 事件訂閱](../../../wf-api/general/event-subs-faq.md).
+若要深入瞭解事件訂閱，請參閱[事件訂閱API](../../../wf-api/general/event-subs-api.md)與[常見問題集 — 事件訂閱](../../../wf-api/general/event-subs-faq.md)。

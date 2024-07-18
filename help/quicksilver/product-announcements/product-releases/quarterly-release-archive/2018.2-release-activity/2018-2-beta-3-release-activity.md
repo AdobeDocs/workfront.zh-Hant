@@ -22,12 +22,12 @@ ht-degree: 0%
 >
 > 本頁所述的功能在生產環境使用之前可能會有所變更。
 
-如需2018.2年度所有變更的清單，請參閱  [2018.2版本活動概覽](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-release-activity-overview.md).
+如需2018.2年度所有變更的清單，請參閱  [2018.2發行活動總覽](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-release-activity-overview.md)。
 
 2018.2 Beta 3版本包含下列增強功能：
 
 * [在您的系統中管理授權](#manage-licenses-in-your-system)
-* [在Kanban面板上設定劇本的旗標](#set-flags-for-stories-on-the-kanban-board)
+* [在Kanban展示板上設定劇本的旗標](#set-flags-for-stories-on-the-kanban-board)
 * [直接在敏捷故事卡上編輯欄位](#edit-fields-directly-on-an-agile-story-card)
 * [改善多個字詞的搜尋相關性](#improved-search-relevancy-for-multiple-words)
 
@@ -37,7 +37,7 @@ ht-degree: 0%
 
 在此變更之前，Workfront管理員只能在客戶資訊頁面的「授權」區段中檢視授權計數。
 
-如需詳細資訊，請參閱 [管理系統中的可用授權](../../../../administration-and-setup/get-started-wf-administration/manage-available-licenses-in-your-system.md)
+如需詳細資訊，請參閱[管理系統中的可用授權](../../../../administration-and-setup/get-started-wf-administration/manage-available-licenses-in-your-system.md)
 
 ## 在Kanban面板上設定劇本的旗標 {#set-flags-for-stories-on-the-kanban-board}
 
@@ -47,7 +47,7 @@ Kanban內文板上的每個內文拼貼現在都包含一個旗標，團隊成�
 
 如需在Kanban展示板上使用標幟的詳細資訊，請參閱本文中的「在劇本上使用標幟」。
 
-如需有關在任務報告中包含旗標的資訊，請參閱 [Adobe Workfront術語表](../../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).  
+如需在任務報表中加入標幟的相關資訊，請參閱[Adobe Workfront術語辭彙表](../../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md)。  
 
 ## 直接在敏捷故事卡上編輯欄位 {#edit-fields-directly-on-an-agile-story-card}
 
@@ -66,4 +66,4 @@ Kanban內文板上的每個內文拼貼現在都包含一個旗標，團隊成�
 
 在此變更之前，一次搜尋多個字詞會尋找包含片語中任何或所有字詞的專案。 
 
-如需搜尋的詳細資訊，請參閱 [搜尋Adobe Workfront](../../../../workfront-basics/navigate-workfront/search/search-workfront.md).
+如需搜尋的詳細資訊，請參閱[搜尋Adobe Workfront](../../../../workfront-basics/navigate-workfront/search/search-workfront.md)。

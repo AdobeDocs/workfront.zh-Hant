@@ -54,7 +54,7 @@ ht-degree: 4%
 <li>Select或Prime Adobe Workfront計畫以及額外的Adobe Workfront目標授權。</li>
 <li>預設包含Workfront目標的Ultimate Workfront計畫。 </li></ul>
  <p>或</p>
- <p>目前產品需求： Adobe Workfront Goals的Workfront計畫和額外授權。 </p> <p>如需詳細資訊，請參閱 <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">使用Workfront目標的需求</a>. </p> </td>
+ <p>目前產品需求： Adobe Workfront Goals的Workfront計畫和額外授權。 </p> <p>如需詳細資訊，請參閱<a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">使用Workfront目標的需求</a>。 </p> </td>
  </tr>
  <tr>
  <td role="rowheader">存取層級</td>
@@ -66,7 +66,7 @@ ht-degree: 4%
   <div>
   <p>檢視目標或更高許可權以檢視它</p>
   <p>管理目標的許可權以編輯它</p>
-  <p>如需關於共用目標的資訊，請參閱 <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">在Workfront目標中共用目標</a>. </p>
+  <p>如需共用目標的相關資訊，請參閱<a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">在Workfront目標中共用目標</a>。 </p>
   </div> </td>
  </tr>
 <tr>
@@ -77,7 +77,7 @@ ht-degree: 4%
 </tbody>
 </table>
 
-*如需詳細資訊，請參閱 [Workfront檔案中的存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 ## 關於共用目標的考量事項
 
@@ -118,7 +118,7 @@ ht-degree: 4%
 
 ## 共用目標
 
-1. 按一下 **主要功能表** 圖示 ![](assets/main-menu-icon.png) > **目標** 位於右上角。
+1. 按一下右上角的&#x200B;**主要功能表**&#x200B;圖示![](assets/main-menu-icon.png) > **目標**。
 
    <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../workfront-goals-settings/assets/three-line-main-menu-icon.png) in the upper-left corner)
    -->
@@ -127,7 +127,7 @@ ht-degree: 4%
 
 1. 按一下清單中目標的名稱。 目標頁面隨即開啟。
 
-1. 按一下 **「更多」圖示** 在目標名稱旁，然後按一下 **共用**.
+1. 按一下目標名稱旁的&#x200B;**更多圖示**，然後按一下&#x200B;**共用**。
 
    ![](assets/more-menu-highlighted-goal-details-panel-with-share-link-350x156.png)
 
@@ -137,20 +137,20 @@ ht-degree: 4%
 
 1. 執行下列其中一項：
 
-   * 選取 **管理整個系統** 設定，將管理許可權授與系統中擁有目標編輯存取許可權（在其存取層級中）的使用者。 所有新目標均是預設不選取這個選項。
-   * 開始輸入您要在中將「管理」許可權授與的使用者名稱 **將管理存取權授予** 方塊。 當清單中出現該名稱時，請選取該名稱。
+   * 選取&#x200B;**管理全系統**&#x200B;設定，將管理許可權授與系統中對其存取層級具有目標編輯存取權的所有人。 所有新目標均是預設不選取這個選項。
+   * 開始在&#x200B;**將管理許可權授與**&#x200B;方塊中輸入您想要授與「管理」許可權的使用者名稱。 當清單中出現該名稱時，請選取該名稱。
 
      >[!TIP]
      >
      >您只能與其他使用者共用目標。 您無法與群組、團隊或您的公司共用目標。
 
-1. 按一下 **共用**.
+1. 按一下&#x200B;**共用**。
 
    目標會與您指定的使用者共用。 「系統範圍」標籤或擁有目標管理許可權的使用者名稱，會顯示在「目標詳細資料」面板的「存取目標管理」欄位中。
 
 ## 目標許可權選項
 
-下表列出您可在共用目標時授與的許可權。 如需使用者根據其授權可取得之存取權的詳細資訊，請參閱 [授予Adobe Workfront目標的存取權](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md).
+下表列出您可在共用目標時授與的許可權。 如需使用者根據其授權所取得存取權的詳細資訊，請參閱[授與Adobe Workfront目標的存取權](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md)。
 
 <table border="1" cellspacing="15" cellpadding="1"> 
  <col> 
@@ -234,8 +234,8 @@ ht-degree: 4%
 
 **您必須擁有檢視專案的存取權，以及已新增專案的檢視許可權，或您要新增至目標以檢視專案的存取權。
 
-如需有關專案存取層級的資訊，請參閱 [授予專案存取權](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md).
+如需有關專案存取層級的資訊，請參閱[授與專案的存取權](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md)。
 
-如需有關專案許可權的資訊，請參閱 [在Adobe Workfront中共用專案](../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md).
+如需有關專案許可權的資訊，請參閱[在Adobe Workfront中共用專案](../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md)。
 
  

@@ -16,15 +16,15 @@ ht-degree: 0%
 
 # R1 Final
 
-下列功能目前在「預覽」或Beta版中無法使用，但將在R1中發佈到「生產」環境：
+下列功能目前在Preview或Beta中無法使用，但將在R1中發佈到「生產」環境：
 
 ## 從我的工作區域(Workfront)對校訂進行核准決策
 
 現在，當使用者將您新增到校訂並授予核准者角色或檢視者和核准者角色(來自獨立的ProofHQ應用計畫或使用Workfront中的自動工作流程)，核准請求顯示在您的我的工作區域的核准索引標籤中。 然後您可以直接從Workfront檢視校樣並對校樣做出核准決定。
 
-有關如何使用自動化工作流程將使用者新增到校訂的資訊，請參閱 [在Adobe Workfront中共用校訂](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md) 在 [在Adobe Workfront中共用校訂](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md).
+有關如何使用自動化工作流程將使用者新增到校訂的資訊，請參閱[在Adobe Workfront中共用校訂](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md)中的[在Adobe Workfront中共用校訂](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md)。
 
-如需如何從「我的工作」區域做出核准決定的相關資訊，請參閱 [核准工作](../../../../review-and-approve-work/manage-approvals/approving-work.md) 在 [核准工作](../../../../review-and-approve-work/manage-approvals/approving-work.md). 
+如需如何從「我的工作」區域做出核准決定的相關資訊，請參閱[核准工作](../../../../review-and-approve-work/manage-approvals/approving-work.md)中的[核准工作](../../../../review-and-approve-work/manage-approvals/approving-work.md)。 
 
 ## 我的工作區域(Workfront)內的校訂核准報表
 
@@ -38,9 +38,9 @@ ht-degree: 0%
 * 校訂 ID
 * 校訂建立日期
 
-根據物件建立報告時，您可以存取此核准，如所述 [建立自訂報表](../../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+您在根據物件建立報告時存取此核准，如[建立自訂報告](../../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md)中所述。
 
-如需校訂核准物件報告的詳細資訊，請參閱 [瞭解Adobe Workfront中的物件](../../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md) 中的區段 [瞭解Adobe Workfront中的物件](../../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
+如需校訂核准物件報告的詳細資訊，請參閱[瞭解Adobe Workfront中的物件](../../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)中的[瞭解Adobe Workfront中的物件](../../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)一節。
 
 ## 使用拖放功能自動生成檔案校訂的新版本(Workfront)
 
@@ -50,7 +50,7 @@ ht-degree: 0%
 
 當您使用檔案更多選單上傳新版本時，校樣不會自動產生。
 
-如需詳細資訊，請參閱以下小節：
+如需詳細資訊，請參閱  中的區段
 
 ## 讓所有校訂使用者直接從Workfront介面(Workfront)存取ProofHQ
 
@@ -58,7 +58,7 @@ ht-degree: 0%
 
 預設不會啟用此選項。 若要啟用此選項，請聯絡Workfront技術支援並請求系統中的所有校訂使用者取得此存取權。
 
-如需詳細資訊，請參閱 [從Adobe Workfront存取Workfront校訂](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/access-wf-proof-in-workfront.md) 在  [從Adobe Workfront存取Workfront校訂](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/access-wf-proof-in-workfront.md).
+如需詳細資訊，請參閱[從Adobe Workfront存取Workfront Proof](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/access-wf-proof-in-workfront.md)，位於  [從Adobe Workfront存取Workfront Proof](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/access-wf-proof-in-workfront.md)。
 
 在此變更之前，只有Workfront管理員可以從Workfront介面直接存取ProofHQ網站。
 
@@ -76,15 +76,15 @@ Workfront現在會停用來自「預覽」沙箱環境和「自訂重新整理�
 
 如需詳細資訊，請參閱下列資訊：
 
-* [Adobe Workfront預覽沙箱環境](../../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md) 在 [Adobe Workfront預覽沙箱環境](../../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md).
+* [在[Adobe Workfront預覽沙箱環境](../../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md)中的Adobe Workfront預覽沙箱環境](../../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md)。
 
-* 中的「從自訂重新整理沙箱接收電子郵件」 [Adobe Workfront自訂重新整理沙箱環境](../../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-custom-refresh-sandbox-environment.md)
+* [Adobe Workfront自訂重新整理沙箱環境](../../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-custom-refresh-sandbox-environment.md)中的「接收來自自訂重新整理沙箱的電子郵件」
 
 ## Outlook for Office 365 (Workfront)
 
 適用於Outlook 365的Workfront增益集現已推出。 
 
-如需使用增益集的詳細資訊，請參閱 [搭配Outlook for Office 365使用Workfront增益集。](https://support.workfront.com/hc/en-us/sections/205046167)
+如需使用增益集的詳細資訊，請參閱[搭配使用Workfront增益集與Outlook for Office 365。](https://support.workfront.com/hc/en-us/sections/205046167)
 
 ## 在行動應用程式中搜尋(Workfront)
 
@@ -106,7 +106,7 @@ Workfront現在會停用來自「預覽」沙箱環境和「自訂重新整理�
 
 您現在可以在PDF檔案、Office檔案和靜態網頁中執行搜尋。
 
-如需詳細資訊，請參閱  [搜尋校訂中的內容](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/search-in-a-proof.md).
+如需詳細資訊，請參閱  [搜尋校訂中的內容](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/search-in-a-proof.md)。
 
 ## 更新全域導覽列(ProofHQ)
 
@@ -121,13 +121,13 @@ Workfront現在會停用來自「預覽」沙箱環境和「自訂重新整理�
 
 * **收件者層級資料**\
   您可以設定自訂檢視以包含與收件者層級資料相關的下列欄：角色、位置、電子郵件警示、我的截止日期、新增到校訂的日期和收件者搜尋。\
-  如需詳細資訊，請參閱 [在Workfront Proof Proof中建立和管理自訂檢視](../../../../workfront-proof/wp-work-proofsfiles/manage-your-work/create-and-manage-custom-views.md).
+  如需詳細資訊，請參閱[在Workfront Proof Proof中建立和管理自訂檢視](../../../../workfront-proof/wp-work-proofsfiles/manage-your-work/create-and-manage-custom-views.md)。
 * **校訂資料**\
   您可以設定自訂檢視以包含下列與校訂資料相關的欄：註解計數（所有版本）、磁碟大小、校訂型別、每個版本的檔案數、註解附件資料（磁碟大小、檔案名稱）以及依子資料夾篩選。\
-  如需詳細資訊，請參閱 [在Workfront Proof Proof中建立和管理自訂檢視](../../../../workfront-proof/wp-work-proofsfiles/manage-your-work/create-and-manage-custom-views.md).
+  如需詳細資訊，請參閱[在Workfront Proof Proof中建立和管理自訂檢視](../../../../workfront-proof/wp-work-proofsfiles/manage-your-work/create-and-manage-custom-views.md)。
 * **與自動化工作流程相關的階段層級資料**\
   您可以設定自訂檢視，以包含與自動化工作流程個別階段相關的下列欄：SOCD狀態、階段截止日期、作用中階段名稱、下一個階段名稱、階段名稱和範本。\
-  如需詳細資訊，請參閱 [在Workfront Proof Proof中建立和管理自訂檢視](../../../../workfront-proof/wp-work-proofsfiles/manage-your-work/create-and-manage-custom-views.md).
+  如需詳細資訊，請參閱[在Workfront Proof Proof中建立和管理自訂檢視](../../../../workfront-proof/wp-work-proofsfiles/manage-your-work/create-and-manage-custom-views.md)。
 
 ## 校訂報表（先前稱為Analytics）的改善(ProofHQ)
 
@@ -149,4 +149,4 @@ Workfront現在會停用來自「預覽」沙箱環境和「自訂重新整理�
 
 此生產前預覽功能發佈的新工作流程可讓您為未來更新ProofHQ生產環境做好準備。
 
-如需ProofHQ預覽環境的詳細資訊，請參閱 [預覽Sandbox測試環境 — Workfront Proof](../../../../workfront-proof/wp-getstarted/system-information/preview-sandbox.md).
+如需ProofHQ預覽環境的詳細資訊，請參閱[預覽沙箱測試環境 — Workfront Proof](../../../../workfront-proof/wp-getstarted/system-information/preview-sandbox.md)。

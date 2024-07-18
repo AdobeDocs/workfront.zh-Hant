@@ -1,12 +1,13 @@
 ---
-title: 「AI助理：文章索引」
+title: 'AI助理：文章索引'
 content-type: reference
 description: 檢視有關Workfront中AI助理的可用文章清單
 author: Becky
 feature: Get Started with Workfront
 hide: true
 hidefromtoc: true
-source-git-commit: 9948943f802e249a25e81ffc6b5b96ab70f8f930
+exl-id: 3f83dd91-d7de-4050-89b7-f53cbc4389a0
+source-git-commit: 6dd2fd4d688514540265fa3b0d2634194fb6a7ab
 workflow-type: tm+mt
 source-wordcount: '46'
 ht-degree: 0%

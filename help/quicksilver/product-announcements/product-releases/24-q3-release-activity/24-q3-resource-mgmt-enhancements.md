@@ -16,7 +16,7 @@ ht-degree: 0%
 
 此頁面說明2024年第三季度版本對「預覽」環境所做的所有資源管理增強功能。 這些增強功能將在2024年第三季度版本的生產環境中提供。
 
-如需2024年第三季度發行週期中目前可用的所有變更清單，請參閱 [2024年第三季度版本總覽](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).
+如需2024年第三季度發行週期中目前可用的所有變更清單，請參閱[2024年第三季度發行概觀](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md)。
 
 ## 休假現在反映在工作負載平衡器
 
@@ -28,4 +28,4 @@ ht-degree: 0%
 
 以前，重新計算時間表時沒有重新分配時數。
 
-如需詳細資訊，請參閱 [在工作負載平衡器中管理使用者配置](/help/quicksilver/resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md).
+如需詳細資訊，請參閱[在工作負載平衡器](/help/quicksilver/resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md)中管理使用者配置。

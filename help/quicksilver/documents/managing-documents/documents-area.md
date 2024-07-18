@@ -22,11 +22,11 @@ ht-degree: 0%
 
 檔案區域有兩種型別。 兩者的特色和功能相同：
 
-* **計畫、投資組合、專案、任務或問題的檔案區域：** 列出您有權存取特定專案、任務或問題的所有檔案。 若要存取此區域，請按一下 **檔案** ![](assets/document-icon-12x14.png) 在檢視專案、任務或問題時於左側面板中檢視。
+* **方案、投資組合、專案、任務或問題的檔案區域：**&#x200B;列出您有權存取特定專案、任務或問題的所有檔案。 若要存取此區域，在檢視專案、任務或問題時，按一下左側面板中的&#x200B;**檔案** ![](assets/document-icon-12x14.png)。
 
-* **全域檔案區域：** 列出您在Workfront中有權存取的所有檔案。 若要存取此區域，請按一下 **檔案** ![](assets/document-icon.png) 在主要功能表中 ![](assets/main-menu-icon.png).
+* **全域檔案區域：**&#x200B;列出您在Workfront中可以存取的所有檔案。 若要存取此區域，請按一下主功能表![](assets/main-menu-icon.png)中的&#x200B;**檔案** ![](assets/document-icon.png)。
 
-如需將檔案上傳至Workfront的詳細資訊，請參閱 [從您的檔案系統新增檔案至Adobe Workfront](../../documents/adding-documents-to-workfront/add-documents-from-file-system.md).
+如需有關將檔案上傳到Workfront的資訊，請參閱[從您的檔案系統新增檔案到Adobe Workfront](../../documents/adding-documents-to-workfront/add-documents-from-file-system.md)。
 
 
 檔案區域會記錄下列專案的計數：
@@ -46,7 +46,7 @@ ht-degree: 0%
 
 ![](assets/documents-area-v2-350x199.png)
 
-如需有關「摘要」的資訊，請參閱 [檔案摘要概覽](../../documents/managing-documents/summary-for-documents.md).
+如需「摘要」的相關資訊，請參閱[檔案概述](../../documents/managing-documents/summary-for-documents.md)的摘要。
 
 ## 校訂決定
 
@@ -56,13 +56,13 @@ ht-degree: 0%
 
 ## 資料夾
 
-在上傳檔案的專案、任務或問題中，您可以設定資料夾來組織檔案。 如需詳細資訊，請參閱 [建立檔案資料夾](../../documents/organizing-documents/create-documents-folder.md).
+在上傳檔案的專案、任務或問題中，您可以設定資料夾來組織檔案。 如需詳細資訊，請參閱[建立檔案資料夾](../../documents/organizing-documents/create-documents-folder.md)。
 
 在全域檔案區域中，您可以設定兩種型別的資料夾來組織您有權存取的檔案：
 
-* **智慧資料夾：** 僅顯示您想要檢視的檔案。 如需詳細資訊，請參閱 [建立及管理智慧資料夾](../../documents/organizing-documents/create-manage-smart-folders.md).
+* **智慧資料夾：**&#x200B;僅顯示您想要檢視的檔案。 如需詳細資訊，請參閱[建立及管理智慧資料夾](../../documents/organizing-documents/create-manage-smart-folders.md)。
 
-* **我的資料夾：** 依您想要的方式組織檔案。 如需詳細資訊，請參閱 [建立檔案資料夾](../../documents/organizing-documents/create-documents-folder.md).
+* **我的資料夾：**&#x200B;依您想要的方式整理檔案。 如需詳細資訊，請參閱[建立檔案資料夾](../../documents/organizing-documents/create-documents-folder.md)。
 
 ## 展開的檔案詳細資訊
 

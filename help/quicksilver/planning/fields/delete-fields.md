@@ -31,7 +31,7 @@ recommendations: noDisplay, noCatalog
 
 在Adobe Workfront Planning中，您可以建立自訂欄位來儲存有關記錄的資訊。
 
-如需有關在Workfront Planning中建立自訂欄位的資訊，請參閱 [建立欄位](/help/quicksilver/planning/fields/create-fields.md).
+如需有關在Workfront Planning中建立自訂欄位的資訊，請參閱[建立欄位](/help/quicksilver/planning/fields/create-fields.md)。
 
 您可以刪除不再相關的Workfront規劃欄位。
 
@@ -42,7 +42,7 @@ recommendations: noDisplay, noCatalog
 * 儲存在欄位中的任何資訊都會被刪除且無法復原。
 * 當您刪除連結的記錄欄位時，所有連結的查閱欄位也會從您連結的記錄型別中刪除。 您連結到的記錄型別的連結記錄欄位不會被刪除。
 
-  如需詳細資訊，請參閱 [連線記錄型別](/help/quicksilver/planning/architecture/connect-record-types.md).
+  如需詳細資訊，請參閱[連線記錄型別](/help/quicksilver/planning/architecture/connect-record-types.md)。
 
 <!-- this is not possible yet, since fields cannot be shared yet; maybe move this up a bit, in this bullet list: * When you delete a field, it is deleted from all records associated with the field.-->
 
@@ -88,12 +88,12 @@ recommendations: noDisplay, noCatalog
   </tr>
 <tr>
    <td role="rowheader"><p>版面配置範本</p></td>
-   <td> <p>您的Workfront或群組管理員必須在版面配置範本中新增Planning區域。 如需詳細資訊，請參閱 <a href="/help/quicksilver/planning/access/access-overview.md">存取權總覽</a>. </p>  
+   <td> <p>您的Workfront或群組管理員必須在版面配置範本中新增Planning區域。 如需詳細資訊，請參閱<a href="/help/quicksilver/planning/access/access-overview.md">存取總覽</a>。 </p>  
 </td>
   </tr>
 <tr>
    <td role="rowheader"><p>權限</p></td>
-   <td> <p>管理工作區的許可權</a> </p>  
+   <td> <p>管理工作區</a>的許可權 </p>  
    <p>系統管理員擁有所有工作區的許可權，包括他們未建立的工作區</p>
 </td>
   </tr>
@@ -119,7 +119,7 @@ recommendations: noDisplay, noCatalog
 
 1. 按一下記錄型別的卡片。
 
-1. （視條件而定）如果尚未選取，請按一下的 **表格檢視** 在記錄型別頁面上。
+1. （視條件而定）如果尚未選取，請按一下記錄型別頁面上&#x200B;**資料表檢視**&#x200B;的索引標籤。
 
    與記錄型別關聯的所有現有記錄都會顯示在表格檢視的列中。
 
@@ -127,10 +127,10 @@ recommendations: noDisplay, noCatalog
 
    ![](assets/arrow-menu-after-name-of-field-in-table-header-highlighted.png)
 
-1. 按一下 **刪除**. <!-- check this: they might replace it with **Delete field**-->
+1. 按一下&#x200B;**刪除**。<!-- check this: they might replace it with **Delete field**-->
 
    <!--insert screen shot when finalized-->
 
-1. 按一下 **刪除** 以確認。
+1. 按一下&#x200B;**刪除**&#x200B;確認。
 
    欄位已刪除、無法復原，且無法再與任何記錄相關聯。

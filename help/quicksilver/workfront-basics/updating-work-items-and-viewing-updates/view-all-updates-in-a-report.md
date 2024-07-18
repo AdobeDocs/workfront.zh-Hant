@@ -23,7 +23,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->您可以使用日誌專案報告建置報告以檢視物件在預覽中的更新。 如需詳細資訊，請參閱 [更新區域報告](../../reports-and-dashboards/reports/creating-and-managing-reports/create-journal-entry-report.md).
+>您可以使用日誌專案報告建置報告以檢視物件在預覽中的更新。 如需詳細資訊，請參閱[更新區域報告](../../reports-and-dashboards/reports/creating-and-managing-reports/create-journal-entry-report.md)。
 
 ## 存取需求
 
@@ -60,7 +60,7 @@ ht-degree: 1%
  </tbody> 
 </table>
 
-*如需詳細資訊，請參閱 [Adobe Workfront的存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*如需詳細資訊，請參閱Adobe Workfront中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 ## 建立附註報告
 
@@ -68,26 +68,26 @@ ht-degree: 1%
 
 例如，若要為專案中的所有附註建立附註報告：
 
-1. 按一下 **主要功能表** 圖示 ![](assets/main-menu-icon.png) 在Adobe Workfront的右上角。
+1. 按一下Adobe Workfront右上角的&#x200B;**主要功能表**&#x200B;圖示![](assets/main-menu-icon.png)。
 
-1. 按一下 **報表**.
-1. 按一下 **新報告**，然後選擇 **注意**.
+1. 按一下&#x200B;**報表**。
+1. 按一下&#x200B;**新增報告**，然後選擇&#x200B;**附註**。
 
-1. （選用）按一下 **檢視**，然後 **新增欄** 新增 **名稱** 的 **專案** 在報表的檢視中。 
+1. （選擇性）按一下&#x200B;**檢視**，然後按一下&#x200B;**新增資料行**，將&#x200B;**專案**&#x200B;的&#x200B;**名稱**&#x200B;新增至報表的檢視中。 
 
-1. （選用）按一下 **群組**，然後 **新增群組** 依下列條件分組： **專案名稱**，代表您同時報告多個專案。\
+1. （選擇性）如果您同時報告多個專案，請按一下&#x200B;**群組**，然後按&#x200B;**新增群組**&#x200B;以依&#x200B;**專案名稱**&#x200B;分組。\
    這可確保附註按其各自專案分組，使報告更易於閱讀。 
 
-1. （選用）按一下 **篩選器，** 則 **新增篩選器規則**.
-1. 新增篩選器 **注意** > **附註文字** > **不為空白**.
+1. （選擇性）按一下&#x200B;**篩選器，**&#x200B;然後&#x200B;**新增篩選器規則**。
+1. 為&#x200B;**記事** > **記事文字** > **不是空白的**。
 
    ![](assets/note-note-text-not-blank-filter.png)
 
    >[!TIP]
    >
-   >   如果專案欄位已更新，但在更新時沒有新增附註，則 **附註文字** 的更新顯示為 **（沒有新增文字到更新）**.
+   >   如果專案欄位已更新，但更新時未新增附註，則更新的&#x200B;**附註文字**&#x200B;會顯示為&#x200B;**（未新增文字至更新）**。
 
 
-1. （選用）新增另一個篩選器 **專案** > **名稱** > **等於** 並新增一或多個您要檢視附註的專案名稱。
+1. （選擇性）為&#x200B;**專案** > **名稱** > **等於**&#x200B;新增另一個篩選器，並新增一或多個您要檢視其附註的專案名稱。
 1. 按一下「**儲存並關閉**」。\
    所有至少擁有檢視專案許可權的使用者在專案中輸入的所有更新都會顯示在報表中。

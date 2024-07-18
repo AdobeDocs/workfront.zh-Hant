@@ -1,9 +1,9 @@
 ---
-title: 建立或自訂問題嚴重性
+title: 建立或自訂問題嚴重程度
 user-type: administrator
 product-area: system-administration;projects
 navigation-topic: create-custom-status-and-priority-labels
-description: 您的使用者可使用嚴重性來定義問題的嚴重程度。 您可以自訂Adobe Workfront中現有的五個預設嚴重性之一，或為使用者建立新的嚴重性。
+description: 您的使用者可使用嚴重程度來定義問題的嚴重程度。 您可以自訂Adobe Workfront中現有的五種預設嚴重程度，或為使用者建立新的嚴重程度。
 author: Caroline
 feature: System Setup and Administration
 role: Admin
@@ -15,7 +15,7 @@ ht-degree: 4%
 
 ---
 
-# 建立或自訂問題嚴重性
+# 建立或自訂問題嚴重程度
 
 <!--
 DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.
@@ -23,15 +23,15 @@ DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH T
 Linked to Understanding Issue Severity.
 -->
 
-您的使用者可使用嚴重性來定義問題的嚴重程度。 您可以自訂Adobe Workfront中現有的五個預設嚴重性之一，或為使用者建立新的嚴重性。
+您的使用者可使用嚴重程度來定義問題的嚴重程度。 您可以自訂Adobe Workfront中現有的五種預設嚴重程度，或為使用者建立新的嚴重程度。
 
 >[!NOTE]
 >
->任務和項目不具有嚴重性。
+>任務和專案沒有嚴重性。
 
 ## 存取需求
 
-您必須具備下列存取權，才能執行本文中的步驟：
+您必須具有下列存取權才能執行本文中的步驟：
 
 <table style="table-layout:auto"> 
  <col> 
@@ -46,15 +46,15 @@ Linked to Understanding Issue Severity.
    <td>計劃</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">訪問級別配置</td> 
-   <td> <p>您必須是Workfront管理員。</p> <p><b>注意</b>:如果您仍無權存取，請洽詢您的Workfront管理員，他們是否在您的存取層級設定其他限制。 如需Workfront管理員如何修改您的存取層級的詳細資訊，請參閱 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>.</p> </td> 
+   <td role="rowheader">存取層級設定</td> 
+   <td> <p>您必須是Workfront管理員。</p> <p><b>注意</b>：如果您還是沒有存取權，請詢問您的Workfront管理員是否對您的存取層級設定了其他限制。 如需Workfront管理員如何修改存取層級的詳細資訊，請參閱<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## 內建問題嚴重性
+## 內建問題嚴重程度
 
-Workfront有5個內建的問題嚴重性：
+Workfront有五個內建問題嚴重性：
 
 * 輕微
 * 導致混淆
@@ -62,35 +62,35 @@ Workfront有5個內建的問題嚴重性：
 * 無因應措施的錯誤
 * 致命錯誤
 
-<p>您可以編輯下列這些嚴重性的項目：</p>
+<p>您可以針對這些嚴重程度編輯下列專案：</p>
 
-* 名稱
+* 姓名
 * 顏色
 
-   如果按「問題嚴重性」對結果進行分組，則嚴重性的顏色將保留在圖表報告中。 如需圖表報表的資訊，請參閱 [新增圖表至報表](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-chart-report.md).
+  如果您依問題嚴重程度將結果分組，嚴重程度的顏色會保留在圖表報告中。 如需圖表報表的資訊，請參閱[新增圖表至報表](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-chart-report.md)。
 
-* 預設嚴重性
+* 預設嚴重程度
 
-   如需預設嚴重性的詳細資訊，請參閱 [建立或編輯問題嚴重性](#create-or-edit-an-issue-severity) 這篇文章。
+  如需預設嚴重程度的詳細資訊，請參閱本文中的[建立或編輯問題嚴重程度](#create-or-edit-an-issue-severity)。
 * 說明
-* 嚴重性是否隱藏在Workfront中
+* Workfront中是否隱藏嚴重程度
 
-   有關隱藏嚴重性的詳細資訊，請參閱 [建立或編輯問題嚴重性](#create-or-edit-an-issue-severity")
+  如需隱藏嚴重程度的詳細資訊，請參閱[建立或編輯問題嚴重程度](#create-or-edit-an-issue-severity")
 
-* 刪除嚴重性
+* 刪除嚴重程度
 
-   執行此操作時，必須選擇替換嚴重性。
+  執行此操作時，必須選取替代嚴重程度。
 
-## 建立或編輯問題嚴重性 {#create-or-edit-an-issue-severity}
+## 建立或編輯問題嚴重程度 {#create-or-edit-an-issue-severity}
 
-身為Workfront管理員，您可以建立和編輯期刊嚴重性，以符合使用者的需求。
+身為Workfront管理員，您可以根據使用者的需求建立和編輯問題嚴重程度。
 
-1. 按一下 **主菜單** 圖示 ![](assets/main-menu-icon.png) 在Adobe Workfront的右上角，然後按一下 **設定** ![](assets/gear-icon-settings.png).
+1. 按一下Adobe Workfront右上角的&#x200B;**主要功能表**&#x200B;圖示![](assets/main-menu-icon.png)，然後按一下&#x200B;**設定** ![](assets/gear-icon-settings.png)。
 
-1. 在左側面板中，按一下 **專案偏好設定** > **嚴重性**.
+1. 在左側面板中，按一下&#x200B;**專案偏好設定** > **嚴重程度**。
 
-1. 如果要建立新的嚴重性，請按一下 **添加新嚴重性**.
-1. 為新嚴重性配置以下選項，或為現有嚴重性編輯它們：
+1. 如果您正在建立新的嚴重程度，請按一下&#x200B;**新增嚴重程度**。
+1. 針對新嚴重性設定下列選項，或編輯現有嚴重性的選項：
 
    <table style="table-layout:auto"> 
     <col> 
@@ -98,40 +98,40 @@ Workfront有5個內建的問題嚴重性：
     <tbody> 
      <tr> 
       <td role="rowheader">嚴重程度名稱</td> 
-      <td>鍵入嚴重性的名稱</td> 
+      <td>輸入嚴重程度的名稱</td> 
      </tr> 
      <tr> 
       <td role="rowheader">重要</td> 
-      <td>增加或降低嚴重性級別(最初由Workfront指定)。
-      <p>每個嚴重性的重要性編號必須是唯一的。 最高數量對應於最高級別的嚴重性。</p> <p>保存嚴重性後，無法編輯此編號。</p> </td> 
+      <td>提高或降低嚴重性的嚴重性等級，最初由Workfront指派。
+      <p>每個嚴重程度的重要性數字必須是唯一的。 最高數字對應於嚴重性的最高層級。</p> <p>儲存嚴重程度後，就無法編輯此數字。</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">顏色</td> 
-      <td> <p>選擇嚴重性的顏色。</p> 
-      <p>按問題嚴重性對結果進行分組時，會在圖表報告中使用嚴重性的顏色。 如需圖表報表的資訊，請參閱 <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/add-chart-report.md" class="MCXref xref">新增圖表至報表</a>.</p> </td> 
+      <td> <p>選擇嚴重程度的顏色。</p> 
+      <p>當您依問題嚴重程度將結果分組時，會在圖表報告中使用嚴重程度的顏色。 如需圖表報表的資訊，請參閱<a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/add-chart-report.md" class="MCXref xref">新增圖表至報表</a>。</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">預設嚴重程度</td> 
-      <td>選取您希望Workfront自動選取所有新建立的問題的嚴重性。</p>
-      <p>美化是Workfront中問題的預設嚴重性。</p></td> 
+      <td>選取您希望Workfront自動選取所有新建立問題的嚴重程度。</p>
+      <p>在Workfront中，裝飾是問題的預設嚴重性。</p></td> 
      </tr> 
      <tr> 
       <td role="rowheader">說明</td> 
-      <td>鍵入嚴重性的說明以解釋其功能。</td> 
+      <td>輸入嚴重程度的說明以說明其功能。</td> 
      </tr> 
      <tr> 
       <td role="rowheader">隱藏</td> 
-      <td> 隱藏不再需要的嚴重性。 
-      <p>隱藏的嚴重性不會顯示在Workfront的任何位置，因此使用者無法針對其問題選擇它。</p> 
-      <p><b>重要</b>:建議您隱藏這些嚴重性，而不要刪除您不想再使用的嚴重性。 這樣，您就可以保留已以嚴重性完成的對象上的所有歷史資料，同時防止將來使用嚴重性。</p> </td> 
+      <td> 隱藏不再需要的嚴重程度。 
+      <p>隱藏的嚴重程度不會在Workfront的任何位置顯示，因此使用者無法針對其問題選擇它。</p> 
+      <p><b>重要</b>：建議您隱藏嚴重程度，不要刪除不想再使用的嚴重程度。 如此一來，您就可以保留物件上所有已使用嚴重度完成的歷史資料，同時防止人們日後使用嚴重度。</p> </td> 
      </tr> 
     </tbody> 
    </table>
 
-1. （選用）依您想要的順序拖放，以變更嚴重性的清單順序。
+1. （可選）以您想要的順序拖放嚴重性，以變更其清單順序。
 
-   這會變更問題的顯示順序。 不會變更 **重要性** 數字。
+   這會變更問題顯示的順序。 它不會變更&#x200B;**重要性**&#x200B;數字。
 
-1. 按一下&#x200B;**儲存**。
+1. 按一下「**儲存**」。
 
-如需如何在處理問題時使用嚴重性的詳細資訊，請參閱 [更新問題嚴重性](../../../manage-work/issues/issue-information/update-issue-severity.md).
+如需處理問題時如何使用嚴重程度的詳細資訊，請參閱[更新問題嚴重程度](../../../manage-work/issues/issue-information/update-issue-severity.md)。

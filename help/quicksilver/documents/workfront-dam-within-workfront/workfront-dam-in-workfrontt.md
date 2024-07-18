@@ -21,7 +21,7 @@ Adobe Workfront DAM是Adobe Workfront內的原生數位資產管理(DAM)系統�
 
 本節包含下列文章：
 
-* [啟用Adobe Workfront DAM](../../documents/workfront-dam-within-workfront/enable-wf-dam.md)
+* [正在啟用Adobe Workfront DAM](../../documents/workfront-dam-within-workfront/enable-wf-dam.md)
 * [使用Adobe Workfront DAM管理檔案](../../documents/workfront-dam-within-workfront/manage-docs-with-wf-dam.md)
 * [Adobe Workfront授權角色型別與Adobe Workfront DAM角色型別的比較](../../documents/workfront-dam-within-workfront/difference-between-wf-dam-role-types.md)
 * [存取Adobe Workfront DAM的說明](../../documents/workfront-dam-within-workfront/access-help-workfront-dam.md)

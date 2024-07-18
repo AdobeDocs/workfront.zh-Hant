@@ -25,7 +25,7 @@ in January 2022
 
 2022年1月17日當週。
 
-如需22.1版所有可用變更的清單，請參閱 [22.1版本總覽](../../../product-announcements/product-releases/22.1-release-activity/22-1-release-overview.md).
+如需22.1版本可用的所有變更清單，請參閱[22.1版本總覽](../../../product-announcements/product-releases/22.1-release-activity/22-1-release-overview.md)。
 
 ## 改善檢閱者和請求者的校訂功能
 
@@ -56,11 +56,11 @@ in January 2022
 
 >[!IMPORTANT]
 >
->若要使用SSO憑證以電子方式簽署校訂，您必須在Workfront Proof中設定SSO。 如需有關啟用SSO的詳細資訊，請參閱 [為Workfront Proof使用者設定單一登入](../../../workfront-proof/wp-acct-admin/account-settings/configure-sso-for-wp-users.md).
+>若要使用SSO憑證以電子方式簽署校樣，您必須在Workfront Proof中設定SSO。 如需啟用SSO的詳細資訊，請參閱[為Workfront Proof使用者設定單一登入](../../../workfront-proof/wp-acct-admin/account-settings/configure-sso-for-wp-users.md)。
 
-先前，使用者必須使用Workfront校訂憑證，這些憑證與其Workfront憑證不同。
+之前，使用者必須使用Workfront Proof憑證，這些憑證與其Workfront憑證不同。
 
-如需詳細資訊，請參閱 [校訂安全性總覽](../../../review-and-approve-work/proofing/proofing-overview/proof-security-overview.md).
+如需詳細資訊，請參閱[校訂安全性總覽](../../../review-and-approve-work/proofing/proofing-overview/proof-security-overview.md)。
 
 ## 案頭檢視器升級
 
@@ -68,6 +68,6 @@ in January 2022
 
 >[!IMPORTANT]
 >
->Windows使用者必須手動重新安裝案頭檢視器，才能升級至最新版本。 之後，未來案頭校訂檢視器會自動更新。 如需重新安裝的說明，請參閱 [安裝案頭校訂檢視器](../../../review-and-approve-work/proofing/use-the-desktop-proofing-viewer/installing-desktop-proofing-viewer.md).
+>Windows使用者必須手動重新安裝案頭檢視器，才能升級至最新版本。 之後，未來案頭校訂檢視器會自動更新。 如需重新安裝的說明，請參閱[安裝案頭校訂檢視器](../../../review-and-approve-work/proofing/use-the-desktop-proofing-viewer/installing-desktop-proofing-viewer.md)。
 
 Mac使用者會自動升級至最新版本。

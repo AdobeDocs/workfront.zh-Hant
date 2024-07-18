@@ -19,9 +19,9 @@ ht-degree: 2%
 
 您可以手動、拖放或大量解除工作專案的使用者指派。 本文會說明如何手動解除指派使用者。
 
-如需透過拖放來取消指定使用者的資訊，請參閱 [透過拖放在工作負載平衡器中指派工作](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer-by-drag-and-drop.md)
+如需透過拖放來取消指派使用者的資訊，請參閱[透過拖放在工作負載平衡器中指派工作](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer-by-drag-and-drop.md)
 
-如需大量取消指派使用者的詳細資訊，請參閱 [使用工作負載平衡器大量指派工作](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer-in-bulk.md).
+如需大量取消指派使用者的詳細資訊，請參閱[使用工作負載平衡器](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer-in-bulk.md)大量指派工作。
 
 ## 存取需求
 
@@ -50,16 +50,16 @@ ht-degree: 2%
      <li> <p>專案</p> </li> 
      <li> <p>任務</p> </li> 
      <li> <p>問題</p> </li> 
-    </ul> <p>如果您還是沒有存取權，請詢問您的Workfront管理員，他們是否在您的存取層級中設定其他限制。 如需有關Workfront管理員如何變更您的存取層級的資訊，請參閱 <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>.</p> </td> 
+    </ul> <p>如果您還是沒有存取權，請詢問您的Workfront管理員，他們是否在您的存取層級中設定其他限制。 如需Workfront管理員如何變更存取層級的詳細資訊，請參閱<a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">物件許可權</td> 
-   <td> <p>包含進行指派的專案、任務和問題的貢獻許可權或更高</p> <p>如需請求其他存取許可權的詳細資訊，請參閱 <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">要求物件的存取權 </a>.</p> </td> 
+   <td> <p>Contribute許可權或以上至專案、任務和問題，包括進行指派</p> <p>如需請求其他存取權的資訊，請參閱<a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">請求物件</a>的存取權。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;若要瞭解您擁有的計畫、授權型別或存取權，請聯絡您的Workfront管理員。
+&#42;若要瞭解您擁有的計畫、授權型別或存取權，請連絡您的Workfront管理員。
 
  
 
@@ -69,14 +69,14 @@ ht-degree: 2%
 
 若要取消指派使用者的工作專案，請執行下列動作：
 
-1. 在工作負載平衡器，前往 **已指派的工作** 區域並展開使用者。
+1. 在工作負載平衡器中，移至&#x200B;**指派的工作**&#x200B;區域並展開使用者。
 1. 執行下列其中一項：
 
    * 在使用者的區域中尋找您要取消指派的專案，按一下該專案，然後將其拖放至「已取消指派」區域或其他使用者的區域中。
-   * 按一下 **更多** 圖示 ![](assets/more-icon-task-list.png) 在工作專案名稱的右側，按一下 **將此指派至**，然後移除指派給工作專案的實體名稱，或輸入其他名稱，然後按一下 **儲存**.
+   * 按一下工作專案名稱右側的&#x200B;**更多**&#x200B;圖示![](assets/more-icon-task-list.png)，按一下&#x200B;**將此指派給**，然後移除指派給工作專案的實體名稱或輸入其他名稱，然後按一下&#x200B;**儲存**。
 
      ![](assets/assign-this-to-link-from-task-wb-nwe-350x104.png)
 
    如果專案符合該區域的篩選條件，且未指派給任何其他使用者，則會顯示在「未指派的工作」區域中；如果專案指派給其他使用者，則會顯示在使用者區域中。
 
-   如需有關在工作負載平衡器篩選資訊，請參閱 [在工作負載平衡器中篩選資訊](../../resource-mgmt/workload-balancer/filter-information-workload-balancer.md).
+   如需有關在工作負載平衡器中篩選資訊的資訊，請參閱在工作負載平衡器](../../resource-mgmt/workload-balancer/filter-information-workload-balancer.md)中的篩選資訊[。

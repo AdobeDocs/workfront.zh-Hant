@@ -4,8 +4,8 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 keywords: 聯結器
 navigation-topic: apps-and-their-modules
-title: HTTP &gt；其他模組
-description: 此 [!DNL Adobe Workfront Fusion] HTTP應用程式提供各種模組，用於根據超文字傳輸通訊協定(HTTP)通訊協定進行通訊。 HTTP是全球資訊網資料通訊的基礎。 您可以使用模組下載網頁和檔案、呼叫Webhook和API端點等。
+title: HTTP &amp；gt；其他模組
+description: ' [!DNL Adobe Workfront Fusion] HTTP應用程式提供各種模組，用於以超文字傳輸通訊協定(HTTP)通訊協定為基礎的通訊。 HTTP是全球資訊網資料通訊的基礎。 您可以使用模組下載網頁和檔案、呼叫Webhook和API端點等。'
 author: Becky
 feature: Workfront Fusion
 exl-id: ff2cd098-d1d7-43a3-9f00-15e0f6e92332
@@ -20,14 +20,14 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->[!UICONTROL Adobe Workfront Fusion] 需要 [!UICONTROL Adobe Workfront Fusion] 除了授權之外， [!UICONTROL Adobe Workfront] 授權。
+>[!UICONTROL Adobe Workfront Fusion]除了[!UICONTROL Adobe Workfront]授權外，還需要[!UICONTROL Adobe Workfront Fusion]授權。
 
-此 [!DNL Adobe Workfront Fusion] [!UICONTROL HTTP] 應用程式提供各種模組，用於根據超文字傳輸通訊協定(HTTP)通訊協定進行通訊。 HTTP是全球資訊網資料通訊的基礎。 您可以使用模組下載網頁和檔案、呼叫Webhook和API端點等。
+[!DNL Adobe Workfront Fusion] [!UICONTROL HTTP]應用程式提供各種模組，以根據超文字傳輸通訊協定(HTTP)通訊協定進行通訊。 HTTP是全球資訊網資料通訊的基礎。 您可以使用模組下載網頁和檔案、呼叫Webhook和API端點等。
 
 模組的正確選擇取決於您要存取的資源所使用的驗證/授權機制。 以下是模組的範例
 
 * 提出請求：通用模組主要用於不使用任何型別的驗證/授權的資源
-* 提出基本驗證請求：針對以下資源 [!DNL HTTP] 基本驗證(BA)
+* 提出基本驗證要求：針對採用[!DNL HTTP]基本驗證(BA)的資源
 * 提出OAuth 2.0請求：針對採用OAuth 2.0授權通訊協定的資源
 * 提出使用者端憑證驗證請求：針對採用需要使用者端憑證之授權通訊協定的資源。
 * 發出API金鑰授權請求：針對採用API金鑰授權的資源。
@@ -36,17 +36,17 @@ ht-degree: 0%
 >
 >如果您要連線至目前沒有專用聯結器的Adobe產品，建議您使用Adobe Authenticator模組。
 >
->如需詳細資訊，請參閱 [Adobe Authenticator模組](/help/quicksilver/workfront-fusion/apps-and-their-modules/adobe-authenticator-modules.md).
+>如需詳細資訊，請參閱[Adobe Authenticator模組](/help/quicksilver/workfront-fusion/apps-and-their-modules/adobe-authenticator-modules.md)。
 
 ## 請求模組
 
 如需特定請求模組指示，請參閱下列文章：
 
-* [[!UICONTROL HTTP] >[!UICONTROL 提出要求] 模組](../../../workfront-fusion/apps-and-their-modules/http-modules/http-module-make-a-request.md)
-* [[!UICONTROL HTTP] >[!UICONTROL 提出基本授權請求] 模組](../../../workfront-fusion/apps-and-their-modules/http-modules/http-module-make-a-basic-auth-request.md)
-* [[!UICONTROL HTTP] > [!UICONTROL 提出OAuth 2.0請求] 模組](../../../workfront-fusion/apps-and-their-modules/http-modules/http-module-make-an-oauth-2-request.md)
-* [[!UICONTROL HTTP] >[!UICONTROL 提出使用者端憑證授權要求] 模組](../../../workfront-fusion/apps-and-their-modules/http-modules/http-module-make-a-client-cert-auth-request.md)
-* [[!UICONTROL HTTP] >[!UICONTROL 提出API金鑰授權請求]](../../../workfront-fusion/apps-and-their-modules/http-modules/http-module-make-an-api-key-auth-request.md)
+* [[!UICONTROL HTTP] >[!UICONTROL 提出要求]模組](../../../workfront-fusion/apps-and-their-modules/http-modules/http-module-make-a-request.md)
+* [[!UICONTROL HTTP] >[!UICONTROL 發出基本授權要求]模組](../../../workfront-fusion/apps-and-their-modules/http-modules/http-module-make-a-basic-auth-request.md)
+* [[!UICONTROL HTTP] > [!UICONTROL 發出OAuth 2.0請求]模組](../../../workfront-fusion/apps-and-their-modules/http-modules/http-module-make-an-oauth-2-request.md)
+* [[!UICONTROL HTTP] >[!UICONTROL 發出使用者端憑證授權要求]模組](../../../workfront-fusion/apps-and-their-modules/http-modules/http-module-make-a-client-cert-auth-request.md)
+* [[!UICONTROL HTTP] >[!UICONTROL 發出API金鑰授權要求]](../../../workfront-fusion/apps-and-their-modules/http-modules/http-module-make-an-api-key-auth-request.md)
 
 ## 其他動作模組
 
@@ -78,7 +78,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">[！UICONTROL URL] </td> 
-   <td> <p>輸入或對應您要解析的URL，例如 [!DNL bit.ly] URL。</p> </td> 
+   <td> <p>輸入或對應您要解析的URL，例如[!DNL bit.ly] URL。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL方法] </td> 
@@ -89,7 +89,7 @@ ht-degree: 0%
 
 ## 疊代器模組
 
-### [!UICONTROL 擷取標題]
+### [!UICONTROL 擷取標頭]
 
 此模組會以個別的套件組合，從指定的HTTP模組傳回每個標題（名稱和值）。
 
@@ -98,7 +98,7 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[！UICONTROL來源模組]</td> 
+   <td role="rowheader">[！UICONTROL Source模組]</td> 
    <td> <p> 選取您要從中擷取標題的模組。</p> </td> 
   </tr> 
  </tbody> 

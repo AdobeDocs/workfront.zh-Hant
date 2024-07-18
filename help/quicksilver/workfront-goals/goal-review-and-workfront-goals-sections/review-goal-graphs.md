@@ -50,7 +50,7 @@ ht-degree: 0%
  <td>
  <p>新授權：投稿人或以上版本</p>
  或
- <p>目前授權：要求或以上</p> <p>如需詳細資訊，請參閱 <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront授權總覽</a>.</p> </td>
+ <p>目前授權：要求或以上</p> <p>如需詳細資訊，請參閱<a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront授權總覽</a>。</p> </td>
  </tr>
  <tr>
  <td role="rowheader">產品*</td>
@@ -60,7 +60,7 @@ ht-degree: 0%
 <li>Select或Prime Adobe Workfront計畫以及額外的Adobe Workfront目標授權。</li>
 <li>預設包含Workfront目標的Ultimate Workfront計畫。 </li></ul>
  <p>或</p>
- <p>目前產品需求： Adobe Workfront Goals的Workfront計畫和額外授權。 </p> <p>如需詳細資訊，請參閱 <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">使用Workfront目標的需求</a>. </p> </td>
+ <p>目前產品需求： Adobe Workfront Goals的Workfront計畫和額外授權。 </p> <p>如需詳細資訊，請參閱<a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">使用Workfront目標的需求</a>。 </p> </td>
  </tr>
  <tr>
  <td role="rowheader"><p>存取層級</p></td>
@@ -72,7 +72,7 @@ ht-degree: 0%
   <div>
   <p>檢視目標或更高許可權以檢視它</p>
   <p>管理目標的許可權以編輯它</p>
-  <p>如需關於共用目標的資訊，請參閱 <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">在Workfront目標中共用目標</a>. </p>
+  <p>如需共用目標的相關資訊，請參閱<a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">在Workfront目標中共用目標</a>。 </p>
   </div> </td>
  </tr>
  <tr>
@@ -83,7 +83,7 @@ ht-degree: 0%
 </tbody>
 </table>
 
-*如需詳細資訊，請參閱 [Workfront檔案中的存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 ## Workfront目標中的圖表型別
 
@@ -99,7 +99,7 @@ ht-degree: 0%
     <ul> 
      <li>所選時段的目標總數。 任何狀態下的目標都會納入考量。 </li> 
      <li>狀態為「作用中」和「已關閉」之目標的進度狀態。</li> 
-    </ul> <p>如需Workfront目標如何計算進度狀態的詳細資訊，請參閱 <a href="../../workfront-goals/goal-management/calculate-goal-progress.md" class="MCXref xref">Adobe Workfront目標中的目標進度和條件概觀</a>.</p> </td> 
+    </ul> <p>如需Workfront目標如何計算進度狀態的詳細資訊，請參閱<a href="../../workfront-goals/goal-management/calculate-goal-progress.md" class="MCXref xref">Adobe Workfront目標中的目標進度和條件總覽</a>。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">目標進度圖</td> 
@@ -114,14 +114,14 @@ ht-degree: 0%
 
 ## 以圖表檢閱目標進度
 
-1. 按一下 **主要功能表** 圖示 ![](assets/main-menu-icon.png) > **目標** 位於右上角。
+1. 按一下右上角的&#x200B;**主要功能表**&#x200B;圖示![](assets/main-menu-icon.png) > **目標**。
 
    <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-review-and-workfront-goals-sections/assets/three-line-main-menu-icon.png) in the upper-left corner)
    -->
 
    如此將可開啟Workfront目標區域。
 
-1. 按一下 **圖表** 在左側面板中。
+1. 按一下左側面板中的&#x200B;**圖形**。
 
    ![](assets/graphs-in-left-panel.png)
 
@@ -134,7 +134,7 @@ ht-degree: 0%
 
 1. （選擇性）更新「圖形」(Graphics)區段右上角的篩選條件，以選取您要顯示的資訊型別。
 
-   如需篩選目標的詳細資訊，請參閱 [在Adobe Workfront目標中篩選資訊](../../workfront-goals/goal-management/filter-information-wf-goals.md).
+   如需有關篩選目標的詳細資訊，請參閱[在Adobe Workfront目標中篩選資訊](../../workfront-goals/goal-management/filter-information-wf-goals.md)。
 
    >[!TIP]
    >
@@ -173,12 +173,12 @@ ht-degree: 0%
 
    * **週日期**：所選周的月、日和年。
    * **進度**：所選周所有目標實際完成百分比的平均值。
-   * **基線**：所選周所有目標的平均預期完成百分比。
+   * **基準線**：所選周內所有目標之預期完成百分比的平均值。
 
-1. （選用）按一下 **進度** 在進度圖底部以移除實際的整體進度線
+1. （選擇性）按一下進度圖底部的&#x200B;**進度**&#x200B;以移除實際的整體進度線
 
    或
 
-   按一下 **基線** 在進度圖底端，以移除圖表的預期進度。
+   按一下進度圖底部的&#x200B;**基準線**，從圖表中移除預期的進度。
 
  

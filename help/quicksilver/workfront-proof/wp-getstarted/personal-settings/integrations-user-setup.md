@@ -10,8 +10,8 @@ feature: Workfront Proof, Digital Content and Documents
 exl-id: 43ecf257-44ea-4d2c-ac55-21192e7c2a45
 source-git-commit: 5d7ff744ed0721ffa6d793a224226f28a76c57a0
 workflow-type: tm+mt
-source-wordcount: '121'
-ht-degree: 1%
+source-wordcount: '109'
+ht-degree: 0%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 1%
 
 >[!IMPORTANT]
 >
->本文提及獨立版產品中的功能 [!DNL Workfront Proof]. 有關內部校訂的資訊 [!DNL Adobe Workfront]，請參閱 [校訂](../../../review-and-approve-work/proofing/proofing.md).
+>本文提及獨立產品[!DNL Workfront Proof]中的功能。 有關[!DNL Adobe Workfront]內部校訂的資訊，請參閱[校訂](../../../review-and-approve-work/proofing/proofing.md)。
 
 本節說明您可用來設定與協力廠商應用程式預先建立的整合連結的選項。
 
@@ -27,8 +27,8 @@ ht-degree: 1%
 
 目前的整合點適用於下列專案：
 
-* 公用API (1) — 參閱我們的專屬 [API說明頁面](https://api.proofhq.com/)
-* [!DNL Basecamp] (2) — 參閱我們專屬的 [[!DNL Basecamp]](https://support.workfront.com/hc/en-us/sections/115000911927-Basecamp) 和 [[!DNL Basecamp Classic]](https://support.workfront.com/hc/en-us/categories/115000588707-Basecamp-Classic) 說明頁面
+* 公開API (1) — 檢視我們的專用[API說明頁面](https://api.proofhq.com/)
+* [!DNL Basecamp] (2) — 檢視我們的專用[[!DNL Basecamp]](https://support.workfront.com/hc/en-us/sections/115000911927-Basecamp)和[[!DNL Basecamp Classic]](https://support.workfront.com/hc/en-us/categories/115000588707-Basecamp-Classic)說明頁面
 
 * [!DNL NetSuite] (3)
 * [!DNL WorkFront] (4)

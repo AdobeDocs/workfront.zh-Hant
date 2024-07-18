@@ -12,25 +12,25 @@ feature: Workfront Fusion
 exl-id: bf6c1d82-7926-4bf9-8424-e658650ee6b1
 source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
-source-wordcount: '4485'
+source-wordcount: '4070'
 ht-degree: 0%
 
 ---
 
 
-# [!UICONTROL GitLab] 模組
+# [!UICONTROL GitLab]模組
 
 除了Adobe Workfront授權，Adobe Workfront Fusion還需要Adobe Workfront Fusion授權。
 
-在 [!DNL Adobe Workfront Fusion] 情境中，您可以使用自動化工作流程 [!UICONTROL GitLab]，並連結至多個協力廠商應用程式和服務。
+在[!DNL Adobe Workfront Fusion]案例中，您可以自動執行使用[!UICONTROL GitLab]的工作流程，並將其連線到多個協力廠商應用程式和服務。
 
 >[!NOTE]
 >
->本文需要熟悉API檔案，以及 [!DNL GitLab] 一般功能。
+>本文期望讀者對API檔案及一般[!DNL GitLab]功能有一定的瞭解。
 
-如果您需要有關建立情境的指示，請參閱 [在中建立情境 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md).
+如果您需要有關建立案例的指示，請參閱[在 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md)中建立案例。
 
-如需模組的相關資訊，請參閱 [中的模組 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/modules.md).
+如需模組的相關資訊，請參閱 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/modules.md)中的[模組。
 
 ## 存取需求
 
@@ -41,7 +41,7 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 計劃*</td>
+   <td role="rowheader">[!DNL Adobe Workfront] 計畫*</td>
   <td> <p>[！UICONTROL Pro]或更高版本</p> </td>
   </tr> 
   <tr data-mc-conditions=""> 
@@ -51,29 +51,29 @@ ht-degree: 0%
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] 授權**</td> 
    <td>
-   <p>目前授權需求：否 [!DNL Workfront Fusion] 授權需求。</p>
+   <p>目前授權需求：無[!DNL Workfront Fusion]授權需求。</p>
    <p>或</p>
-   <p>舊版授權需求： [！UICONTROL [!DNL Workfront Fusion] 適用於工作自動化與整合] </p>
+   <p>舊版授權需求：[！UICONTROL [!DNL Workfront Fusion] for Work Automation and Integration] </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">產品</td> 
    <td>
-   <p>目前產品需求：如果您有[！UICONTROL Select]或[！UICONTROL Prime] [!DNL Adobe Workfront] 計畫，您的組織必須購買 [!DNL Adobe Workfront Fusion] 以及 [!DNL Adobe Workfront] 以使用本文所述的功能。 [!DNL Workfront Fusion] 包含在[！UICONTROL Ultimate]中 [!DNL Workfront] 計畫。</p>
+   <p>目前產品需求：如果您有[！UICONTROL Select]或[！UICONTROL Prime] [!DNL Adobe Workfront]計畫，您的組織必須購買[!DNL Adobe Workfront Fusion]及[!DNL Adobe Workfront]，才能使用本文所述的功能。 [!DNL Workfront Fusion]包含在[！UICONTROL Ultimate] [!DNL Workfront]計畫中。</p>
    <p>或</p>
-   <p>舊版產品需求：貴組織必須購買 [!DNL Adobe Workfront Fusion] 以及 [!DNL Adobe Workfront] 以使用本文所述的功能。</p>
+   <p>舊版產品需求：您的組織必須購買[!DNL Adobe Workfront Fusion]及[!DNL Adobe Workfront]，才能使用本文所述的功能。</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-若要瞭解您擁有的計畫、授權型別或存取權，請聯絡您的 [!DNL Workfront] 管理員。
+若要瞭解您擁有的計畫、授權型別或存取權，請連絡您的[!DNL Workfront]管理員。
 
-有關的資訊 [!DNL Adobe Workfront Fusion] 授權，請參閱 [[!DNL Adobe Workfront Fusion] 授權](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+如需[!DNL Adobe Workfront Fusion]授權的相關資訊，請參閱[[!DNL Adobe Workfront Fusion] 授權](../../workfront-fusion/get-started/license-automation-vs-integration.md)。
 
-## 連線 [!DNL GitLab] 至 [!DNL Workfront Fusion] {#connect-gitlab-to-workfront-fusion}
+## 將[!DNL GitLab]連線至[!DNL Workfront Fusion] {#connect-gitlab-to-workfront-fusion}
 
-1. 在任何 [!DNL Workfront Fusion] [!DNL Gitlab] 模組，按一下 **[!UICONTROL 新增]** 連線欄位旁。
+1. 在任何[!DNL Workfront Fusion] [!DNL Gitlab]模組中，按一下連線欄位旁的&#x200B;**[!UICONTROL 新增]**。
 1. 設定下列欄位：
 
    <table style="table-layout:auto"> 
@@ -85,31 +85,31 @@ ht-degree: 0%
       <td> <p>輸入連線的名稱。</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[！UICONTROL [!DNL GitLab] URL</td> 
-      <td>輸入的URL [!DNL GitLab] 執行個體。</td> 
+      <td role="rowheader">[！UICONTROL [!DNL GitLab]網址]</td> 
+      <td>輸入[!DNL GitLab]執行個體的URL。</td> 
      </tr> 
      <tr> 
       <td role="rowheader">[！UICONTROL存取權杖]</td> 
-      <td><p>輸入您的[！UICONTROL私密權杖]或[！UICONTROL個人存取權杖]。</p><p>有關在中尋找或建立個人存取權杖的資訊 [!DNL GitLab]，請參閱中的「建立個人存取權杖」 <a href="https://docs.gitlab.com/ee/user/profile/personal_access_tokens.html">個人存取權杖</a> 在 [!DNL GitLab] 檔案。</p></td> 
+      <td><p>輸入您的[！UICONTROL私密權杖]或[！UICONTROL個人存取權杖]。</p><p>如需有關在[!DNL GitLab]中尋找或建立個人存取權杖的資訊，請參閱[!DNL GitLab]檔案中<a href="https://docs.gitlab.com/ee/user/profile/personal_access_tokens.html">個人存取權杖</a>中的「建立個人存取權杖」。</p></td> 
      </tr> 
     </tbody> 
    </table>
 
 
-1. 按一下 **[!UICONTROL 繼續]**.
-1. 按一下 **[!UICONTROL 授權]** 以建立連線並返回模組。
+1. 按一下&#x200B;**[!UICONTROL 繼續]**。
+1. 按一下&#x200B;**[!UICONTROL 授權]**&#x200B;以建立連線並返回模組。
 
-## [!DNL GitLab] 模組及其欄位
+## [!DNL GitLab]模組及其欄位
 
-當您設定 [!DNL GitLab] 模組， [!DNL Workfront Fusion] 顯示下列欄位。 除了這些以外， [!DNL GitLab] 欄位可能會顯示，端視您應用程式或服務中的存取層級等因素而定。 模組中的粗體標題表示必填欄位。
+當您設定[!DNL GitLab]模組時，[!DNL Workfront Fusion]會顯示下列欄位。 除了這些欄位以外，可能還會顯示其他[!DNL GitLab]欄位，視您在應用程式或服務中的存取層級等因素而定。 模組中的粗體標題表示必填欄位。
 
-如果您在欄位或函式上方看到對應按鈕，則可以使用它來設定該欄位的變數和函式。 如需詳細資訊，請參閱 [在中將資訊從一個模組對應到另一個模組 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
+如果您在欄位或函式上方看到對應按鈕，則可以使用它來設定該欄位的變數和函式。 如需詳細資訊，請參閱[在 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md)中將資訊從一個模組對應到另一個模組。
 
 ![](assets/map-toggle-350x74.png)
 
 ### 觸發器
 
-+++**[!UICONTROL 監視組建狀態]**
++++**[!UICONTROL 觀看組建狀態]**
 
 此即時觸發模組會在組建狀態變更時啟動案例。
 
@@ -119,7 +119,7 @@ ht-degree: 0%
    <tbody> 
    <tr> 
    <td role="rowheader">[！UICONTROL Webhook]</td> 
-   <td><p>選取您要用於此觸發器的webhook，或新增新的webhook。 </p><p>若要新增webhook， <ol><li>按一下 <b>[！UICONTROL新增]</b> ，位於[！UICONTROL webhook]欄位旁。</li><li>輸入下列內容： <ul><li>webhook的名稱</li><li>您要用於此webhook的連線</li><li>您希望webhook監視建置狀態變更的專案</li></ul></li><li>按一下 <b>[！UICONTROL儲存]</b> 以儲存webhook並返回模組。 </td> 
+   <td><p>選取您要用於此觸發器的webhook，或新增新的webhook。 </p><p>若要新增webhook， <ol><li>按一下[！UICONTROL webhook]欄位旁的<b>[！UICONTROL Add]</b>。</li><li>輸入下列內容： <ul><li>webhook的名稱</li><li>您要用於此webhook的連線</li><li>您希望webhook監視建置狀態變更的專案</li></ul></li><li>按一下<b>[！UICONTROL儲存]</b>以儲存webhook並返回模組。 </td> 
    </tr> 
    </tbody> 
 </table>
@@ -136,7 +136,7 @@ ht-degree: 0%
    <tbody> 
    <tr> 
    <td role="rowheader">[！UICONTROL Webhook]</td> 
-   <td><p>選取您要用於此觸發器的webhook，或新增新的webhook。 </p><p>若要新增webhook， <ol><li>按一下 <b>[！UICONTROL新增]</b> ，位於[！UICONTROL webhook]欄位旁。</li><li>輸入下列內容： <ul><li>webhook的名稱</li><li>您要用於此webhook的連線</li><li>您希望webhook觀看其註解的專案</li></ul></li><li>按一下 <b>[！UICONTROL儲存]</b> 以儲存webhook並返回模組。 </td> 
+   <td><p>選取您要用於此觸發器的webhook，或新增新的webhook。 </p><p>若要新增webhook， <ol><li>按一下[！UICONTROL webhook]欄位旁的<b>[！UICONTROL Add]</b>。</li><li>輸入下列內容： <ul><li>webhook的名稱</li><li>您要用於此webhook的連線</li><li>您希望webhook觀看其註解的專案</li></ul></li><li>按一下<b>[！UICONTROL儲存]</b>以儲存webhook並返回模組。 </td> 
    </tr> 
    </tbody> 
 </table>
@@ -153,7 +153,7 @@ ht-degree: 0%
    <tbody> 
    <tr> 
    <td role="rowheader">[！UICONTROL Webhook]</td> 
-   <td><p>選取您要用於此觸發器的webhook，或新增新的webhook。 </p><p>若要新增webhook， <ol><li>按一下 <b>[！UICONTROL新增]</b> ，位於[！UICONTROL webhook]欄位旁。</li><li>輸入下列內容： <ul><li>webhook的名稱</li><li>您要用於此webhook的連線</li><li>您希望webhook監視認可專案的專案</li></ul></li><li>按一下 <b>[！UICONTROL儲存]</b> 以儲存webhook並返回模組。 </td> 
+   <td><p>選取您要用於此觸發器的webhook，或新增新的webhook。 </p><p>若要新增webhook， <ol><li>按一下[！UICONTROL webhook]欄位旁的<b>[！UICONTROL Add]</b>。</li><li>輸入下列內容： <ul><li>webhook的名稱</li><li>您要用於此webhook的連線</li><li>您希望webhook監視認可專案的專案</li></ul></li><li>按一下<b>[！UICONTROL儲存]</b>以儲存webhook並返回模組。 </td> 
    </tr> 
    </tbody> 
 </table>
@@ -170,7 +170,7 @@ ht-degree: 0%
    <tbody> 
    <tr> 
    <td role="rowheader">[！UICONTROL Webhook]</td> 
-   <td><p>選取您要用於此觸發器的webhook，或新增新的webhook。 </p><p>若要新增webhook， <ol><li>按一下 <b>[！UICONTROL新增]</b> ，位於[！UICONTROL webhook]欄位旁。</li><li>輸入下列內容： <ul><li>webhook的名稱</li><li>您要用於此webhook的連線</li><li>您希望Webhook觀看問題註解的專案</li></ul></li><li>按一下 <b>[！UICONTROL儲存]</b> 以儲存webhook並返回模組。 </td> 
+   <td><p>選取您要用於此觸發器的webhook，或新增新的webhook。 </p><p>若要新增webhook， <ol><li>按一下[！UICONTROL webhook]欄位旁的<b>[！UICONTROL Add]</b>。</li><li>輸入下列內容： <ul><li>webhook的名稱</li><li>您要用於此webhook的連線</li><li>您希望Webhook觀看問題註解的專案</li></ul></li><li>按一下<b>[！UICONTROL儲存]</b>以儲存webhook並返回模組。 </td> 
    </tr> 
    </tbody> 
 </table>
@@ -179,7 +179,7 @@ ht-degree: 0%
 
 +++**[!UICONTROL 觀看問題]**
 
-這個 [!UICONTROL 即時觸發] 當問題建立或現有問題更新、關閉或重新開啟時，模組就會啟動案例。
+此[!UICONTROL 即時觸發器]模組會在問題建立或現有問題更新、關閉或重新開啟時啟動案例。
 
 <table style="table-layout:auto"> 
    <col> 
@@ -187,14 +187,14 @@ ht-degree: 0%
    <tbody> 
    <tr> 
    <td role="rowheader">[！UICONTROL Webhook]</td> 
-   <td><p>選取您要用於此觸發器的webhook，或新增新的webhook。 </p><p>若要新增webhook， <ol><li>按一下 <b>[！UICONTROL新增]</b> ，位於[！UICONTROL webhook]欄位旁。</li><li>輸入下列內容： <ul><li>webhook的名稱</li><li>您要用於此webhook的連線</li><li>您希望webhook監視問題的專案</li></ul></li><li>按一下 <b>[！UICONTROL儲存]</b> 以儲存webhook並返回模組。 </td> 
+   <td><p>選取您要用於此觸發器的webhook，或新增新的webhook。 </p><p>若要新增webhook， <ol><li>按一下[！UICONTROL webhook]欄位旁的<b>[！UICONTROL Add]</b>。</li><li>輸入下列內容： <ul><li>webhook的名稱</li><li>您要用於此webhook的連線</li><li>您希望webhook監視問題的專案</li></ul></li><li>按一下<b>[！UICONTROL儲存]</b>以儲存webhook並返回模組。 </td> 
    </tr> 
    </tbody> 
 </table>
 
 +++
 
-+++**[!UICONTROL 監看合併請求]**
++++**[!UICONTROL 觀看合併要求]**
 
 發生下列其中一種情況時，此立即觸發模組就會啟動案例：
 
@@ -209,14 +209,14 @@ ht-degree: 0%
    <tbody> 
    <tr> 
    <td role="rowheader">[！UICONTROL Webhook]</td> 
-   <td><p>選取您要用於此觸發器的webhook，或新增新的webhook。 </p><p>若要新增webhook， <ol><li>按一下 <b>[！UICONTROL新增]</b> ，位於[！UICONTROL webhook]欄位旁。</li><li>輸入下列內容： <ul><li>webhook的名稱</li><li>您要用於此webhook的連線</li><li>您希望webhook監視合併請求的專案</li></ul></li><li>按一下 <b>[！UICONTROL儲存]</b> 以儲存webhook並返回模組。 </td> 
+   <td><p>選取您要用於此觸發器的webhook，或新增新的webhook。 </p><p>若要新增webhook， <ol><li>按一下[！UICONTROL webhook]欄位旁的<b>[！UICONTROL Add]</b>。</li><li>輸入下列內容： <ul><li>webhook的名稱</li><li>您要用於此webhook的連線</li><li>您希望webhook監視合併請求的專案</li></ul></li><li>按一下<b>[！UICONTROL儲存]</b>以儲存webhook並返回模組。 </td> 
    </tr> 
    </tbody> 
 </table>
 
 +++
 
-+++**[!UICONTROL 監看合併請求註解]**
++++**[!UICONTROL 觀看合併要求註解]**
 
 此立即觸發模組會在合併要求上產生評論時啟動案例。
 
@@ -226,14 +226,14 @@ ht-degree: 0%
    <tbody> 
    <tr> 
    <td role="rowheader">[！UICONTROL Webhook]</td> 
-   <td><p>選取您要用於此觸發器的webhook，或新增新的webhook。 </p><p>若要新增webhook， <ol><li>按一下 <b>[！UICONTROL新增]</b> ，位於[！UICONTROL webhook]欄位旁。</li><li>輸入下列內容： <ul><li>webhook的名稱</li><li>您要用於此webhook的連線</li><li>您希望webhook監視合併請求註解的專案</li></ul></li><li>按一下 <b>[！UICONTROL儲存]</b> 以儲存webhook並返回模組。 </td> 
+   <td><p>選取您要用於此觸發器的webhook，或新增新的webhook。 </p><p>若要新增webhook， <ol><li>按一下[！UICONTROL webhook]欄位旁的<b>[！UICONTROL Add]</b>。</li><li>輸入下列內容： <ul><li>webhook的名稱</li><li>您要用於此webhook的連線</li><li>您希望webhook監視合併請求註解的專案</li></ul></li><li>按一下<b>[！UICONTROL儲存]</b>以儲存webhook並返回模組。 </td> 
    </tr> 
    </tbody> 
 </table>
 
 +++
 
-+++**[!UICONTROL 監視管道狀態]**
++++**[!UICONTROL 觀看管道狀態]**
 
 此即時觸發模組會在管道狀態變更時啟動方案。
 
@@ -243,7 +243,7 @@ ht-degree: 0%
    <tbody> 
    <tr> 
    <td role="rowheader">[！UICONTROL Webhook]</td> 
-   <td><p>選取您要用於此觸發器的webhook，或新增新的webhook。 </p><p>若要新增webhook， <ol><li>按一下 <b>[！UICONTROL新增]</b> ，位於[！UICONTROL webhook]欄位旁。</li><li>輸入下列內容： <ul><li>webhook的名稱</li><li>您要用於此webhook的連線</li><li>您希望webhook監視管道狀態變更的專案</li></ul></li><li>按一下 <b>[！UICONTROL儲存]</b> 以儲存webhook並返回模組。 </td> 
+   <td><p>選取您要用於此觸發器的webhook，或新增新的webhook。 </p><p>若要新增webhook， <ol><li>按一下[！UICONTROL webhook]欄位旁的<b>[！UICONTROL Add]</b>。</li><li>輸入下列內容： <ul><li>webhook的名稱</li><li>您要用於此webhook的連線</li><li>您希望webhook監視管道狀態變更的專案</li></ul></li><li>按一下<b>[！UICONTROL儲存]</b>以儲存webhook並返回模組。 </td> 
    </tr> 
    </tbody> 
 </table>
@@ -260,7 +260,7 @@ ht-degree: 0%
    <tbody> 
    <tr> 
    <td role="rowheader">[！UICONTROL Connection]</td> 
-   <td>如需有關連線您的電腦的指示 [!DNL GitLab] 帳戶至 [!DNL Workfront] Fusion，請參閱 <a href="#connect-gitlab-to-workfront-fusion-connect-gitlab-to-workfront-fusion" class="MCXref xref">連線 [!DNL GitLab] 至 [!DNL Workfront] Fusion</a> 本文章內容。</td> 
+   <td>如需有關將您的[!DNL GitLab]帳戶連線到[!DNL Workfront] Fusion的說明，請參閱本文中的<a href="#connect-gitlab-to-workfront-fusion-connect-gitlab-to-workfront-fusion" class="MCXref xref">將[!DNL GitLab]連線到[!DNL Workfront] Fusion</a>。</td> 
    </tr> 
    <tr> 
    <td role="rowheader">最大結果</td> 
@@ -281,7 +281,7 @@ ht-degree: 0%
    <tbody> 
    <tr> 
    <td role="rowheader">[！UICONTROL Connection]</td> 
-   <td>如需有關連線您的電腦的指示 [!DNL GitLab] 帳戶至 [!DNL Workfront] Fusion，請參閱 <a href="#connect-gitlab-to-workfront-fusion-connect-gitlab-to-workfront-fusion" class="MCXref xref">連線 [!DNL GitLab] 至 [!DNL Workfront] Fusion</a> 本文章內容。</td> 
+   <td>如需有關將您的[!DNL GitLab]帳戶連線到[!DNL Workfront] Fusion的說明，請參閱本文中的<a href="#connect-gitlab-to-workfront-fusion-connect-gitlab-to-workfront-fusion" class="MCXref xref">將[!DNL GitLab]連線到[!DNL Workfront] Fusion</a>。</td> 
    </tr> 
    <tr> 
    <td role="rowheader">最大結果</td> 
@@ -302,14 +302,14 @@ ht-degree: 0%
    <tbody> 
    <tr> 
    <td role="rowheader">[！UICONTROL Webhook]</td> 
-   <td><p>選取您要用於此觸發器的webhook，或新增新的webhook。 </p><p>若要新增webhook， <ol><li>按一下 <b>[！UICONTROL新增]</b> ，位於[！UICONTROL webhook]欄位旁。</li><li>輸入下列內容： <ul><li>webhook的名稱</li><li>您要用於此webhook的連線</li><li>您希望webhook監視標籤的專案</li></ul></li><li>按一下 <b>[！UICONTROL儲存]</b> 以儲存webhook並返回模組。 </td> 
+   <td><p>選取您要用於此觸發器的webhook，或新增新的webhook。 </p><p>若要新增webhook， <ol><li>按一下[！UICONTROL webhook]欄位旁的<b>[！UICONTROL Add]</b>。</li><li>輸入下列內容： <ul><li>webhook的名稱</li><li>您要用於此webhook的連線</li><li>您希望webhook監視標籤的專案</li></ul></li><li>按一下<b>[！UICONTROL儲存]</b>以儲存webhook並返回模組。 </td> 
    </tr> 
    </tbody> 
 </table>
 
 +++
 
-+++**[!UICONTROL 觀看片段註解]**
++++**[!UICONTROL 觀看程式碼片段註解]**
 
 此即時觸發模組會在程式碼片段上產生新評論時啟動案例。
 
@@ -319,7 +319,7 @@ ht-degree: 0%
    <tbody> 
    <tr> 
    <td role="rowheader">[！UICONTROL Webhook]</td> 
-   <td><p>選取您要用於此觸發器的webhook，或新增新的webhook。 </p><p>若要新增webhook， <ol><li>按一下 <b>[！UICONTROL新增]</b> ，位於[！UICONTROL webhook]欄位旁。</li><li>輸入下列內容： <ul><li>webhook的名稱</li><li>您要用於此webhook的連線</li><li>您希望webhook觀看其註解的專案</li></ul></li><li>按一下 <b>[！UICONTROL儲存]</b> 以儲存webhook並返回模組。 </td> 
+   <td><p>選取您要用於此觸發器的webhook，或新增新的webhook。 </p><p>若要新增webhook， <ol><li>按一下[！UICONTROL webhook]欄位旁的<b>[！UICONTROL Add]</b>。</li><li>輸入下列內容： <ul><li>webhook的名稱</li><li>您要用於此webhook的連線</li><li>您希望webhook觀看其註解的專案</li></ul></li><li>按一下<b>[！UICONTROL儲存]</b>以儲存webhook並返回模組。 </td> 
    </tr> 
    </tbody> 
 </table>
@@ -330,7 +330,7 @@ ht-degree: 0%
 
 此排程觸發模組會在新增待辦事項時啟動案例。 若未套用任何篩選器，則會在新增新的待辦事項時執行觸發器。
 
-如需欄位的相關資訊，請參閱 [取得待辦事項清單](https://docs.gitlab.com/ee/api/todos.html#get-a-list-of-todos) 在 [!DNL GitLab] 檔案。
+如需欄位的相關資訊，請參閱[!DNL GitLab]檔案中的[取得dos清單](https://docs.gitlab.com/ee/api/todos.html#get-a-list-of-todos)。
 
 +++
 
@@ -344,7 +344,7 @@ ht-degree: 0%
    <tbody> 
    <tr> 
    <td role="rowheader">[！UICONTROL Webhook]</td> 
-   <td><p>選取您要用於此觸發器的webhook，或新增新的webhook。 </p><p>若要新增webhook， <ol><li>按一下 <b>[！UICONTROL新增]</b> ，位於[！UICONTROL webhook]欄位旁。</li><li>輸入下列內容： <ul><li>webhook的名稱</li><li>您要用於此webhook的連線</li><li>您希望Webhook觀看Wiki頁面的專案</li></ul></li><li>按一下 <b>[！UICONTROL儲存]</b> 以儲存webhook並返回模組。 </td> 
+   <td><p>選取您要用於此觸發器的webhook，或新增新的webhook。 </p><p>若要新增webhook， <ol><li>按一下[！UICONTROL webhook]欄位旁的<b>[！UICONTROL Add]</b>。</li><li>輸入下列內容： <ul><li>webhook的名稱</li><li>您要用於此webhook的連線</li><li>您希望Webhook觀看Wiki頁面的專案</li></ul></li><li>按一下<b>[！UICONTROL儲存]</b>以儲存webhook並返回模組。 </td> 
    </tr> 
    </tbody> 
 </table>
@@ -353,15 +353,15 @@ ht-degree: 0%
 
 ### 動作
 
-+++**[!UICONTROL 接受合併請求]**
++++**[!UICONTROL 接受合併要求]**
 
 此動作模組會將提交的變更與給定的合併請求合併。
 
-如需欄位的相關資訊，請參閱 [接受合併請求](https://docs.gitlab.com/ee/api/merge_requests.html#accept-mr) 在 [!DNL GitLab] 檔案。
+如需欄位的相關資訊，請參閱[!DNL GitLab]檔案中的[接受合併要求](https://docs.gitlab.com/ee/api/merge_requests.html#accept-mr)。
 
 +++
 
-+++**[!UICONTROL 取消建置]**
++++**[!UICONTROL 取消組建]**
 
 此動作模組會取消專案的單一建置。
 
@@ -371,7 +371,7 @@ ht-degree: 0%
    <tbody> 
    <tr> 
    <td role="rowheader">[！UICONTROL Connection]</td> 
-   <td>如需有關連線您的電腦的指示 [!DNL GitLab] 帳戶至 [!DNL Workfront] Fusion，請參閱 <a href="#connect-gitlab-to-workfront-fusion-connect-gitlab-to-workfront-fusion" class="MCXref xref">連線 [!DNL GitLab] 至 [!DNL Workfront] Fusion</a> 本文章內容。</td> 
+   <td>如需有關將您的[!DNL GitLab]帳戶連線到[!DNL Workfront] Fusion的說明，請參閱本文中的<a href="#connect-gitlab-to-workfront-fusion-connect-gitlab-to-workfront-fusion" class="MCXref xref">將[!DNL GitLab]連線到[!DNL Workfront] Fusion</a>。</td> 
    </tr> 
    <tr> 
    <td role="rowheader">[！UICONTROL專案ID]</td> 
@@ -403,11 +403,11 @@ ht-degree: 0%
 
 +++
 
-+++**[!UICONTROL 取消管道的建置]**
++++**[!UICONTROL 取消管道的組建]**
 
 此動作模組會取消單一管道的建置。
 
-如需欄位的相關資訊，請參閱 [取消管道的工作](https://docs.gitlab.com/ee/api/pipelines.html#cancel-a-pipelines-jobs) 在 [!DNL GitLab] 檔案。
+如需有關欄位的資訊，請參閱[!DNL GitLab]檔案中的[取消管道的工作](https://docs.gitlab.com/ee/api/pipelines.html#cancel-a-pipelines-jobs)。
 
 +++
 
@@ -415,15 +415,15 @@ ht-degree: 0%
 
 如果合併請求設為管道成功時合併，此動作模組會取消該動作。
 
-如需欄位的相關資訊，請參閱 [管道成功時取消合併](https://docs.gitlab.com/ee/api/merge_requests.html) 在 [!DNL GitLab] 檔案。
+如需欄位的相關資訊，請參閱[!DNL GitLab]檔案中的[管道成功時取消合併](https://docs.gitlab.com/ee/api/merge_requests.html)。
 
 +++
 
-+++**[!UICONTROL 櫻桃挑選認可]**
++++**[!UICONTROL 挑選認可]**
 
 此動作模組會挑選對指定分支的認可。
 
-如需欄位的相關資訊，請參閱 [櫻桃挑選認可](https://docs.gitlab.com/ee/api/commits.html#cherry-pick-a-commit) 在 [!DNL GitLab] 檔案。
+如需欄位的相關資訊，請參閱[!DNL GitLab]檔案中的[Cherry pick a commit](https://docs.gitlab.com/ee/api/commits.html#cherry-pick-a-commit)。
 
 +++
 
@@ -431,7 +431,7 @@ ht-degree: 0%
 
 此動作模組會為指定的存放庫建立新標籤。
 
-如需欄位的相關資訊，請參閱 [建立新標籤](https://docs.gitlab.com/ee/api/labels.html#create-a-new-label) 在 [!DNL GitLab] 檔案。
+如需有關欄位的資訊，請參閱[!DNL GitLab]檔案中的[建立新標籤](https://docs.gitlab.com/ee/api/labels.html#create-a-new-label)。
 
 +++
 
@@ -439,7 +439,7 @@ ht-degree: 0%
 
 此動作模組會為指定專案建立新的管道。
 
-如需欄位的相關資訊，請參閱 [建立新管道](https://docs.gitlab.com/ee/api/pipelines.html#create-a-new-pipeline) 在 [!DNL GitLab] 檔案。
+如需有關欄位的資訊，請參閱[!DNL GitLab]檔案中的[建立新管道](https://docs.gitlab.com/ee/api/pipelines.html#create-a-new-pipeline)。
 
 +++
 
@@ -447,7 +447,7 @@ ht-degree: 0%
 
 此動作模組將發行說明新增至現有的Git標籤。
 
-如需欄位的相關資訊，請參閱 [建立版本](https://docs.gitlab.com/ee/api/releases/#create-a-release) 在 [!DNL GitLab] 檔案。
+如需有關欄位的資訊，請參閱[!DNL GitLab]檔案中的[建立版本](https://docs.gitlab.com/ee/api/releases/#create-a-release)。
 
 +++
 
@@ -455,7 +455,7 @@ ht-degree: 0%
 
 此動作模組會在存放庫中建立新標籤，指向提供的參照。
 
-如需欄位的相關資訊，請參閱 [建立新標籤](https://docs.gitlab.com/ee/api/tags.html#create-a-new-tag) 在 [!DNL GitLab] 檔案。
+如需有關欄位的資訊，請參閱[!DNL GitLab]檔案中的[建立新標籤](https://docs.gitlab.com/ee/api/tags.html#create-a-new-tag)。
 
 +++
 
@@ -463,23 +463,23 @@ ht-degree: 0%
 
 此動作模組會針對所選問題為目前使用者建立待辦事項。 目前的使用者是由用於此模組之連線上的認證所識別的使用者。
 
-如需欄位的相關資訊，請參閱 [建立待辦事項](https://docs.gitlab.com/ee/api/issues.html#create-a-todo) 在 [!DNL GitLab] 檔案。
+如需有關欄位的資訊，請參閱[!DNL GitLab]檔案中的[建立待辦事項](https://docs.gitlab.com/ee/api/issues.html#create-a-todo)。
 
 +++
 
-+++**[!UICONTROL 在合併請求上建立待辦事項]**
++++**[!UICONTROL 在合併要求上建立待辦事項]**
 
 此動作模組會為所選合併請求上的目前使用者建立待辦事項。 目前的使用者是由用於此模組之連線上的認證所識別的使用者。
 
-如需欄位的相關資訊，請參閱 [建立待辦事項](https://docs.gitlab.com/ee/api/merge_requests.html#create-a-todo) 在 [!DNL GitLab] 檔案。
+如需有關欄位的資訊，請參閱[!DNL GitLab]檔案中的[建立待辦事項](https://docs.gitlab.com/ee/api/merge_requests.html#create-a-todo)。
 
 +++
 
-+++**[!UICONTROL 建立合併請求]**
++++**[!UICONTROL 建立合併要求]**
 
 此動作模組會在專案上建立新的合併請求。
 
-如需欄位的相關資訊，請參閱 [建立合併請求](https://docs.gitlab.com/ee/api/merge_requests.html#create-mr) 在 [!DNL GitLab] 檔案。
+如需欄位的相關資訊，請參閱[!DNL GitLab]檔案中的[建立合併要求](https://docs.gitlab.com/ee/api/merge_requests.html#create-mr)。
 
 +++
 
@@ -487,7 +487,7 @@ ht-degree: 0%
 
 此動作模組會在選取的存放庫中建立新檔案。
 
-如需欄位的相關資訊，請參閱 [在存放庫中建立新檔案](https://docs.gitlab.com/ee/api/repository_files.html#create-new-file-in-repository) 在 [!DNL GitLab] 檔案。
+如需有關欄位的資訊，請參閱[!DNL GitLab]檔案中的[在存放庫中建立新檔案](https://docs.gitlab.com/ee/api/repository_files.html#create-new-file-in-repository)。
 
 +++
 
@@ -495,15 +495,15 @@ ht-degree: 0%
 
 此動作模組會為單一專案問題建立問題備註。
 
-如需欄位的相關資訊，請參閱 [建立新的問題備註](https://docs.gitlab.com/ee/api/notes.html#create-new-issue-note) 在 [!DNL GitLab] 檔案。
+如需欄位的相關資訊，請參閱[!DNL GitLab]檔案中的[建立新的問題備註](https://docs.gitlab.com/ee/api/notes.html#create-new-issue-note)。
 
 +++
 
-+++**[!UICONTROL 建立新的合併請求備註]**
++++**[!UICONTROL 建立新的合併要求備註]**
 
 此動作模組會為單一合併請求建立附註。
 
-如需欄位的相關資訊，請參閱 [建立新的合併請求備註](https://docs.gitlab.com/ee/api/notes.html#create-new-merge-request-note) 在 [!DNL GitLab] 檔案。
+如需有關欄位的資訊，請參閱[!DNL GitLab]檔案中的[建立新的合併要求備註](https://docs.gitlab.com/ee/api/notes.html#create-new-merge-request-note)。
 
 +++
 
@@ -511,7 +511,7 @@ ht-degree: 0%
 
 此動作模組會為專案建立新的里程碑。
 
-如需欄位的相關資訊，請參閱 [建立新里程碑](https://docs.gitlab.com/ee/api/milestones.html#create-new-milestone) 在 [!DNL GitLab] 檔案。
+如需有關欄位的資訊，請參閱[!DNL GitLab]檔案中的[建立新的里程碑](https://docs.gitlab.com/ee/api/milestones.html#create-new-milestone)。
 
 +++
 
@@ -519,7 +519,7 @@ ht-degree: 0%
 
 此動作模組會為單一程式碼片段建立新的附註。 程式碼片段附註是使用者可在程式碼片段中張貼的註解。
 
-如需欄位的相關資訊，請參閱 [建立新的程式碼片段備註](https://docs.gitlab.com/ee/api/notes.html#create-new-snippet-note) 在 [!DNL GitLab] 檔案。
+如需有關欄位的資訊，請參閱[!DNL GitLab]檔案中的[建立新的程式碼片段備註](https://docs.gitlab.com/ee/api/notes.html#create-new-snippet-note)。
 
 +++
 
@@ -527,7 +527,7 @@ ht-degree: 0%
 
 此動作模組會建立單一存放庫分支。
 
-如需欄位的相關資訊，請參閱 [建立存放庫分支](https://docs.gitlab.com/ee/api/branches.html#create-repository-branch) 在 [!DNL GitLab] 檔案。
+如需有關欄位的資訊，請參閱[!DNL GitLab]檔案中的[建立存放庫分支](https://docs.gitlab.com/ee/api/branches.html#create-repository-branch)。
 
 +++
 
@@ -535,23 +535,23 @@ ht-degree: 0%
 
 此動作模組會建立新的組建變數。
 
-如需欄位的相關資訊，請參閱 [建立變數](https://docs.gitlab.com/ee/api/project_level_variables.html#create-variable) 在 [!DNL GitLab] 檔案。
+如需有關欄位的資訊，請參閱[!DNL GitLab]檔案中的[建立變數](https://docs.gitlab.com/ee/api/project_level_variables.html#create-variable)。
 
 +++
 
-+++**[!UICONTROL 刪除合併請求]**
++++**[!UICONTROL 刪除合併要求]**
 
 此動作模組僅適用於管理員和專案所有者。 它會刪除有問題的合併請求
 
-如需欄位的相關資訊，請參閱 [刪除合併請求](https://docs.gitlab.com/ee/api/merge_requests.html#delete-a-merge-request) 在 [!DNL GitLab] 檔案。
+如需有關欄位的資訊，請參閱[!DNL GitLab]檔案中的[刪除合併要求](https://docs.gitlab.com/ee/api/merge_requests.html#delete-a-merge-request)。
 
 +++
 
-+++**[!UICONTROL 刪除存放庫中的現有檔案]**
++++**[!UICONTROL 刪除儲存庫中的現有檔案]**
 
 此動作模組會從存放庫刪除現有檔案。
 
-如需欄位的相關資訊，請參閱 [刪除存放庫中的現有檔案](https://docs.gitlab.com/ee/api/repository_files.html#delete-existing-file-in-repository) 在 [!DNL GitLab] 檔案。
+如需有關欄位的資訊，請參閱[!DNL GitLab]檔案中的[刪除儲存庫中的現有檔案](https://docs.gitlab.com/ee/api/repository_files.html#delete-existing-file-in-repository)。
 
 +++
 
@@ -559,7 +559,7 @@ ht-degree: 0%
 
 此動作模組會從存放庫刪除分支。
 
-如需欄位的相關資訊，請參閱 [刪除存放庫分支](https://docs.gitlab.com/ee/api/branches.html#delete-repository-branch) 在 [!DNL GitLab] 檔案。
+如需有關欄位的資訊，請參閱[!DNL GitLab]檔案中的[刪除存放庫分支](https://docs.gitlab.com/ee/api/branches.html#delete-repository-branch)。
 
 +++
 
@@ -567,14 +567,14 @@ ht-degree: 0%
 
 此動作模組會更新現有的專案問題。 此呼叫也用於將問題標示為已關閉。
 
-如需欄位的相關資訊，請參閱 [編輯問題](https://docs.gitlab.com/ee/api/issues.html#edit-issue) 在 [!DNL GitLab] 檔案。
+如需欄位的相關資訊，請參閱[!DNL GitLab]檔案中的[編輯問題](https://docs.gitlab.com/ee/api/issues.html#edit-issue)。
 
 +++
 
 +++**[!UICONTROL 編輯里程碑]**
 此動作模組會更新現有的專案里程碑。
 
-如需欄位的相關資訊，請參閱 [編輯里程碑](https://docs.gitlab.com/ee/api/milestones.html#edit-milestone) 在 [!DNL GitLab] 檔案。
+如需有關欄位的資訊，請參閱[!DNL GitLab]檔案中的[編輯里程碑](https://docs.gitlab.com/ee/api/milestones.html#edit-milestone)。
 
 +++
 
@@ -582,7 +582,7 @@ ht-degree: 0%
 
 此動作模組會清除專案的建置（移除工作成品和工作記錄）。
 
-如需欄位的相關資訊，請參閱 [清除工作](https://docs.gitlab.com/ee/api/jobs.html#erase-a-job) 在 [!DNL GitLab] 檔案。
+如需有關欄位的資訊，請參閱[!DNL GitLab]檔案中的[清除工作](https://docs.gitlab.com/ee/api/jobs.html#erase-a-job)。
 
 +++
 
@@ -590,7 +590,7 @@ ht-degree: 0%
 
 此搜尋模組會擷取待辦事項清單。
 
-如需欄位的相關資訊，請參閱 [取得待辦事項清單](https://docs.gitlab.com/ee/api/todos.html#get-a-list-of-todos) 在 [!DNL GitLab] 檔案。
+如需欄位的相關資訊，請參閱[!DNL GitLab]檔案中的[取得dos清單](https://docs.gitlab.com/ee/api/todos.html#get-a-list-of-todos)。
 
 +++
 
@@ -598,7 +598,7 @@ ht-degree: 0%
 
 此動作模組會擷取專案的單一工作。
 
-如需欄位的相關資訊，請參閱 [取得單一工作](https://docs.gitlab.com/ee/api/jobs.html#get-a-single-job) 在 [!DNL GitLab] 檔案。
+如需有關欄位的資訊，請參閱[!DNL GitLab]檔案中的[取得單一工作](https://docs.gitlab.com/ee/api/jobs.html#get-a-single-job)。
 
 +++
 
@@ -606,7 +606,7 @@ ht-degree: 0%
 
 此動作模組會擷取由其名稱所決定的特定存放庫標籤。
 
-如需欄位的相關資訊，請參閱 [取得單一存放庫標籤](https://docs.gitlab.com/ee/api/tags.html#get-a-single-repository-tag) 在 [!DNL GitLab] 檔案。
+如需有關欄位的資訊，請參閱[!DNL GitLab]檔案中的[取得單一存放庫標籤](https://docs.gitlab.com/ee/api/tags.html#get-a-single-repository-tag)。
 
 +++
 
@@ -614,15 +614,15 @@ ht-degree: 0%
 
 此動作模組會擷取特定部署。
 
-如需欄位的相關資訊，請參閱 [取得特定部署](https://docs.gitlab.com/ee/api/deployments.html#get-a-specific-deployment) 在 [!DNL GitLab] 檔案。
+如需有關欄位的資訊，請參閱[!DNL GitLab]檔案中的[取得特定部署](https://docs.gitlab.com/ee/api/deployments.html#get-a-specific-deployment)。
 
 +++
 
-+++**[!UICONTROL 取得指派給單一里程碑的所有問題]**
++++**[!UICONTROL 將所有問題指派給單一里程碑]**
 
 此搜尋模組會擷取指派給單一專案里程碑的所有問題。
 
-如需欄位的相關資訊，請參閱 [取得指派給單一里程碑的所有問題](https://docs.gitlab.com/ee/api/milestones.html#get-all-issues-assigned-to-a-single-milestone) 在 [!DNL GitLab] 檔案。
+如需欄位的相關資訊，請參閱[!DNL GitLab]檔案中的[取得指派給單一里程碑的所有問題](https://docs.gitlab.com/ee/api/milestones.html#get-all-issues-assigned-to-a-single-milestone)。
 
 +++
 
@@ -630,7 +630,7 @@ ht-degree: 0%
 
 此動作模組會擷取存放庫中檔案的相關資訊，例如名稱、大小或內容。
 
-如需欄位的相關資訊，請參閱 [從存放庫取得檔案](https://docs.gitlab.com/ee/api/repository_files.html#get-file-from-repository) 在 [!DNL GitLab] 檔案。
+如需有關欄位的資訊，請參閱[!DNL GitLab]檔案中的[從儲存庫](https://docs.gitlab.com/ee/api/repository_files.html#get-file-from-repository)取得檔案。
 
 +++
 
@@ -638,7 +638,7 @@ ht-degree: 0%
 
 此搜尋模組會擷取專案的使用者。
 
-如需欄位的相關資訊，請參閱 [取得專案使用者](https://docs.gitlab.com/ee/api/projects.html#get-project-users) 在 [!DNL GitLab] 檔案。
+如需有關欄位的資訊，請參閱[!DNL GitLab]檔案中的[取得專案使用者](https://docs.gitlab.com/ee/api/projects.html#get-project-users)。
 
 +++
 
@@ -652,7 +652,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">[！UICONTROL Connection]</td> 
-   <td>若要建立新連線，請參閱 <a href="#connect-gitlab-to-workfront-fusion" class="MCXref xref">[！UICONTROL Connect [!DNL GitLab] 至Workfront Fusion]</a> 本文章內容。</td> 
+   <td>若要建立新連線，請參閱本文中的<a href="#connect-gitlab-to-workfront-fusion" class="MCXref xref">[！UICONTROL連線[!DNL GitLab]至Workfront Fusion]</a>。</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL專案]</td> 
@@ -667,11 +667,11 @@ ht-degree: 0%
 
 +++
 
-+++**[!UICONTROL 取得單一問題注意事項]**
++++**[!UICONTROL 取得單一問題備註]**
 
 此動作模組會擷取特定專案問題的單一附註。
 
-如需欄位的相關資訊，請參閱 [取得單一問題注意事項](https://docs.gitlab.com/ee/api/notes.html#get-single-issue-note) 在 [!DNL GitLab] 檔案。
+如需欄位的相關資訊，請參閱[!DNL GitLab]檔案中的[取得單一問題備註](https://docs.gitlab.com/ee/api/notes.html#get-single-issue-note)。
 
 +++
 
@@ -679,7 +679,7 @@ ht-degree: 0%
 
 此動作模組會擷取單一合併請求的相關資訊。
 
-如需欄位的相關資訊，請參閱 [取得單一合併要求](https://docs.gitlab.com/ee/api/merge_requests.html#get-single-mr) 在 [!DNL GitLab] 檔案。
+如需欄位的相關資訊，請參閱[!DNL GitLab]檔案中的[取得單一合併要求](https://docs.gitlab.com/ee/api/merge_requests.html#get-single-mr)。
 
 +++
 
@@ -687,7 +687,7 @@ ht-degree: 0%
 
 此搜尋模組會擷取合併請求的相關資訊，包括其檔案和變更。
 
-如需欄位的相關資訊，請參閱 [取得單一合併要求變更](https://docs.gitlab.com/ee/api/merge_requests.html#get-single-mr-changes) 在 [!DNL GitLab] 檔案。
+如需欄位的相關資訊，請參閱[!DNL GitLab]檔案中的[取得單一合併要求變更](https://docs.gitlab.com/ee/api/merge_requests.html#get-single-mr-changes)。
 
 +++
 
@@ -695,15 +695,15 @@ ht-degree: 0%
 
 此動作模組會擷取合併要求認可清單。
 
-如需欄位的相關資訊，請參閱 [取得單一合併要求認可](https://docs.gitlab.com/ee/api/merge_requests.html#get-single-mr-commits) 在 [!DNL GitLab] 檔案。
+如需欄位的相關資訊，請參閱[!DNL GitLab]檔案中的[取得單一合併要求認可](https://docs.gitlab.com/ee/api/merge_requests.html#get-single-mr-commits)。
 
 +++
 
-+++**[!UICONTROL 取得單一合併請求備註]**
++++**[!UICONTROL 取得單一合併要求備註]**
 
 此動作模組會針對給定的合併請求傳回單一附註。
 
-如需欄位的相關資訊，請參閱 [取得單一合併請求備註](https://docs.gitlab.com/ee/api/notes.html#get-single-merge-request-note) 在 [!DNL GitLab] 檔案。
+如需欄位的相關資訊，請參閱[!DNL GitLab]檔案中的[取得單一合併要求備註](https://docs.gitlab.com/ee/api/notes.html#get-single-merge-request-note)。
 
 +++
 
@@ -711,7 +711,7 @@ ht-degree: 0%
 
 此動作模組會擷取里程碑詳細資訊。
 
-如需欄位的相關資訊，請參閱 [取得單一里程碑](https://docs.gitlab.com/ee/api/milestones.html#get-single-milestone) 在 [!DNL GitLab] 檔案。
+如需有關欄位的資訊，請參閱[!DNL GitLab]檔案中的[取得單一里程碑](https://docs.gitlab.com/ee/api/milestones.html#get-single-milestone)。
 
 +++
 
@@ -719,7 +719,7 @@ ht-degree: 0%
 
 此動作模組會擷取專案詳細資料。
 
-如需欄位的相關資訊，請參閱 [取得單一專案](https://docs.gitlab.com/ee/api/projects.html#get-single-project) 在 [!DNL GitLab] 檔案。
+如需有關欄位的資訊，請參閱[!DNL GitLab]檔案中的[取得單一專案](https://docs.gitlab.com/ee/api/projects.html#get-single-project)。
 
 +++
 
@@ -727,7 +727,7 @@ ht-degree: 0%
 
 此動作模組會擷取存放庫分支詳細資訊。
 
-如需欄位的相關資訊，請參閱 [取得單一存放庫分支](https://docs.gitlab.com/ee/api/branches.html#get-single-repository-branch) 在 [!DNL GitLab] 檔案。
+如需有關欄位的資訊，請參閱[!DNL GitLab]檔案中的[取得單一存放庫分支](https://docs.gitlab.com/ee/api/branches.html#get-single-repository-branch)。
 
 +++
 
@@ -735,7 +735,7 @@ ht-degree: 0%
 
 此模組會擷取指定程式碼片段的單一附註。
 
-如需欄位的相關資訊，請參閱 [取得單一程式碼片段備註](https://docs.gitlab.com/ee/api/notes.html#get-single-snippet-note) 在 [!DNL GitLab] 檔案。
+如需有關欄位的資訊，請參閱[!DNL GitLab]檔案中的[取得單一代碼片段備註](https://docs.gitlab.com/ee/api/notes.html#get-single-snippet-note)。
 
 +++
 
@@ -743,7 +743,7 @@ ht-degree: 0%
 
 此搜尋模組會擷取專案中認可專案的註解。
 
-如需欄位的相關資訊，請參閱 [取得認可註解](https://docs.gitlab.com/ee/api/commits.html#get-the-comments-of-a-commit) 在 [!DNL GitLab] 檔案。
+如需有關欄位的資訊，請參閱[!DNL GitLab]檔案中的[取得認可](https://docs.gitlab.com/ee/api/commits.html#get-the-comments-of-a-commit)的註解。
 
 +++
 
@@ -751,7 +751,7 @@ ht-degree: 0%
 
 此動作模組取得專案中認可的diff。
 
-如需欄位的相關資訊，請參閱 [取得認可差異](https://docs.gitlab.com/ee/api/commits.html#get-the-diff-of-a-commit) 在 [!DNL GitLab] 檔案。
+如需欄位的相關資訊，請參閱[!DNL GitLab]檔案中的[取得認可](https://docs.gitlab.com/ee/api/commits.html#get-the-diff-of-a-commit)的差異。
 
 +++
 
@@ -759,7 +759,7 @@ ht-degree: 0%
 
 防止在設定到期時刪除成品。
 
-如需欄位的相關資訊，請參閱 [保留成品](https://docs.gitlab.com/ee/api/job_artifacts.html#keep-artifacts) 在 [!DNL GitLab] 檔案。
+如需有關欄位的資訊，請參閱[!DNL GitLab]檔案中的[保留成品](https://docs.gitlab.com/ee/api/job_artifacts.html#keep-artifacts)。
 
 +++
 
@@ -767,7 +767,7 @@ ht-degree: 0%
 
 此搜尋模組會擷取單一合併請求的所有附註清單。
 
-如需欄位的相關資訊，請參閱 [列出所有合併請求備註](https://docs.gitlab.com/ee/api/notes.html#list-all-merge-request-notes) 在 [!DNL GitLab] 檔案。
+如需欄位的相關資訊，請參閱[!DNL GitLab]檔案中的[列出所有合併請求備註](https://docs.gitlab.com/ee/api/notes.html#list-all-merge-request-notes)。
 
 +++
 
@@ -775,7 +775,7 @@ ht-degree: 0%
 
 此模組會取得單一程式碼片段的所有附註清單。 程式碼片段附註是使用者可在程式碼片段中張貼的註解。
 
-如需欄位的相關資訊，請參閱 [??](https://docs.gitlab.com/ee/api/notes.html#list-all-snippet-notes) 在 [!DNL GitLab] 檔案。
+如需有關欄位的資訊，請參閱[!DNL GitLab]檔案中的[??](https://docs.gitlab.com/ee/api/notes.html#list-all-snippet-notes)。
 
 +++
 
@@ -789,7 +789,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">[！UICONTROL Connection]</td> 
-   <td>若要建立新連線，請參閱 <a href="#connect-gitlab-to-workfront-fusion" class="MCXref xref">[！UICONTROL Connect [!DNL GitLab] 至Workfront Fusion]</a> 本文章內容。</td> 
+   <td>若要建立新連線，請參閱本文中的<a href="#connect-gitlab-to-workfront-fusion" class="MCXref xref">[！UICONTROL連線[!DNL GitLab]至Workfront Fusion]</a>。</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL專案ID]</td> 
@@ -808,7 +808,7 @@ ht-degree: 0%
 
 此搜尋模組會傳回指定之篩選設定發生的所有問題。
 
-如需欄位的相關資訊，請參閱 [清單問題](https://docs.gitlab.com/ee/api/issues.html#list-issues) 在 [!DNL GitLab] 檔案。
+如需有關欄位的資訊，請參閱[!DNL GitLab]檔案中的[清單問題](https://docs.gitlab.com/ee/api/issues.html#list-issues)。
 
 +++
 
@@ -816,7 +816,7 @@ ht-degree: 0%
 
 此搜尋模組會擷取將透過合併所提供的合併請求而關閉的所有問題。
 
-如需欄位的相關資訊，請參閱 [列出合併時將關閉的問題](https://docs.gitlab.com/ee/api/merge_requests.html#list-issues-that-will-close-on-merge) 在 [!DNL GitLab] 檔案。
+如需有關欄位的資訊，請參閱[!DNL GitLab]檔案中的[列出將在合併](https://docs.gitlab.com/ee/api/merge_requests.html#list-issues-that-will-close-on-merge)時關閉的問題。
 
 +++
 
@@ -824,7 +824,7 @@ ht-degree: 0%
 
 此搜尋模組會擷取專案中的所有標籤。
 
-如需欄位的相關資訊，請參閱 [清單標籤](https://docs.gitlab.com/ee/api/labels.html#list-labels) 在 [!DNL GitLab] 檔案。
+如需有關欄位的資訊，請參閱[!DNL GitLab]檔案中的[清單標籤](https://docs.gitlab.com/ee/api/labels.html#list-labels)。
 
 +++
 
@@ -832,7 +832,7 @@ ht-degree: 0%
 
 此搜尋模組會依篩選設定擷取所有合併請求。
 
-如需欄位的相關資訊，請參閱 [列出合併請求](https://docs.gitlab.com/ee/api/merge_requests.html#list-merge-requests) 在 [!DNL GitLab] 檔案。
+如需欄位的相關資訊，請參閱[!DNL GitLab]檔案中的[列出合併請求](https://docs.gitlab.com/ee/api/merge_requests.html#list-merge-requests)。
 
 +++
 
@@ -840,7 +840,7 @@ ht-degree: 0%
 
 此搜尋模組會擷取已驗證身分的使用者設定為擁有者的專案。
 
-如需欄位的相關資訊，請參閱 [列出使用者專案](https://docs.gitlab.com/ee/api/projects.html#list-all-projects) 在 [!DNL GitLab] 檔案。
+如需有關欄位的資訊，請參閱[!DNL GitLab]檔案中的[列出使用者專案](https://docs.gitlab.com/ee/api/projects.html#list-all-projects)。
 
 +++
 
@@ -848,7 +848,7 @@ ht-degree: 0%
 
 此搜尋模組會擷取專案中的組建清單。
 
-如需欄位的相關資訊，請參閱 [列出專案工作](https://docs.gitlab.com/ee/api/jobs.html#list-project-jobs) 在 [!DNL GitLab] 檔案。
+如需有關欄位的資訊，請參閱[!DNL GitLab]檔案中的[列出專案工作](https://docs.gitlab.com/ee/api/jobs.html#list-project-jobs)。
 
 +++
 
@@ -856,7 +856,7 @@ ht-degree: 0%
 
 此搜尋模組會擷取專案中的部署清單。
 
-如需欄位的相關資訊，請參閱 [列出專案部署](https://docs.gitlab.com/ee/api/deployments.html#list-project-deployments) 在 [!DNL GitLab] 檔案。
+如需有關欄位的資訊，請參閱[!DNL GitLab]檔案中的[列出專案部署](https://docs.gitlab.com/ee/api/deployments.html#list-project-deployments)。
 
 +++
 
@@ -864,7 +864,7 @@ ht-degree: 0%
 
 此搜尋模組會擷取單一問題所有附註的清單。
 
-如需欄位的相關資訊，請參閱 [列出專案問題注意事項](https://docs.gitlab.com/ee/api/notes.html#list-project-issue-notes) 在 [!DNL GitLab] 檔案。
+如需欄位的相關資訊，請參閱[!DNL GitLab]檔案中的[列出專案問題說明](https://docs.gitlab.com/ee/api/notes.html#list-project-issue-notes)。
 
 +++
 
@@ -872,7 +872,7 @@ ht-degree: 0%
 
 此搜尋模組傳回指定專案中的所有問題。
 
-如需欄位的相關資訊，請參閱 [列出專案問題](https://docs.gitlab.com/ee/api/issues.html#list-project-issues) 在 [!DNL GitLab] 檔案。
+如需有關欄位的資訊，請參閱[!DNL GitLab]檔案中的[列出專案問題](https://docs.gitlab.com/ee/api/issues.html#list-project-issues)。
 
 +++
 
@@ -880,7 +880,7 @@ ht-degree: 0%
 
 此搜尋模組會擷取專案中的所有里程碑。
 
-如需欄位的相關資訊，請參閱 [列出專案里程碑](https://docs.gitlab.com/ee/api/milestones.html#list-project-milestones) 在 [!DNL GitLab] 檔案。
+如需有關欄位的資訊，請參閱[!DNL GitLab]檔案中的[列出專案里程碑](https://docs.gitlab.com/ee/api/milestones.html#list-project-milestones)。
 
 +++
 
@@ -888,7 +888,7 @@ ht-degree: 0%
 
 此搜尋模組會擷取專案的所有管道。
 
-如需欄位的相關資訊，請參閱 [列出專案管道](https://docs.gitlab.com/ee/api/pipelines.html#list-project-pipelines) 在 [!DNL GitLab] 檔案。
+如需有關欄位的資訊，請參閱[!DNL GitLab]檔案中的[列出專案管道](https://docs.gitlab.com/ee/api/pipelines.html#list-project-pipelines)。
 
 +++
 
@@ -896,7 +896,7 @@ ht-degree: 0%
 
 此搜尋模組會從專案擷取存放庫標籤的清單，並依名稱以相反的字母順序排序。
 
-如需欄位的相關資訊，請參閱 [列出專案存放庫標籤](https://docs.gitlab.com/ee/api/tags.html#list-project-repository-tags) 在 [!DNL GitLab] 檔案。
+如需有關欄位的資訊，請參閱[!DNL GitLab]檔案中的[列出專案存放庫標籤](https://docs.gitlab.com/ee/api/tags.html#list-project-repository-tags)。
 
 +++
 
@@ -904,7 +904,7 @@ ht-degree: 0%
 
 此搜尋模組會擷取專案的變數清單。
 
-如需欄位的相關資訊，請參閱 [列出專案變數](https://docs.gitlab.com/ee/api/project_level_variables.html#list-project-variables) 在 [!DNL GitLab] 檔案。
+如需有關欄位的資訊，請參閱[!DNL GitLab]檔案中的[列出專案變數](https://docs.gitlab.com/ee/api/project_level_variables.html#list-project-variables)。
 
 +++
 
@@ -912,7 +912,7 @@ ht-degree: 0%
 
 此搜尋模組會擷取已驗證身分的使用者所屬的所有專案。
 
-如需欄位的相關資訊，請參閱 [列出所有專案](https://docs.gitlab.com/ee/api/projects.html#list-all-projects) 在 [!DNL GitLab] 檔案。
+如需有關欄位的資訊，請參閱[!DNL GitLab]檔案中的[列出所有專案](https://docs.gitlab.com/ee/api/projects.html#list-all-projects)。
 
 +++
 
@@ -920,7 +920,7 @@ ht-degree: 0%
 
 此模組會依搜尋字詞搜尋存放庫分支。
 
-如需欄位的相關資訊，請參閱 [列出存放庫分支](https://docs.gitlab.com/ee/api/branches.html#list-repository-branches) 在 [!DNL GitLab] 檔案。
+如需有關欄位的資訊，請參閱[!DNL GitLab]檔案中的[列出存放庫分支](https://docs.gitlab.com/ee/api/branches.html#list-repository-branches)。
 
 +++
 
@@ -928,7 +928,7 @@ ht-degree: 0%
 
 此搜尋模組會擷取專案中的存放庫認可清單。
 
-如需欄位的相關資訊，請參閱 [列出存放庫認可](https://docs.gitlab.com/ee/api/commits.html#list-repository-commits) 在 [!DNL GitLab] 檔案。
+如需有關欄位的資訊，請參閱[!DNL GitLab]檔案中的[列出存放庫認可](https://docs.gitlab.com/ee/api/commits.html#list-repository-commits)。
 
 +++
 
@@ -936,7 +936,7 @@ ht-degree: 0%
 
 此搜尋模組會擷取存放庫貢獻者清單。
 
-如需欄位的相關資訊，請參閱 [貢獻者](https://docs.gitlab.com/ee/api/repositories.html#contributors) 在 [!DNL GitLab] 檔案。
+如需欄位的相關資訊，請參閱[!DNL GitLab]檔案中的[貢獻者](https://docs.gitlab.com/ee/api/repositories.html#contributors)。
 
 +++
 
@@ -944,7 +944,7 @@ ht-degree: 0%
 
 此搜尋模組會擷取專案中的存放庫檔案和目錄清單。
 
-如需欄位的相關資訊，請參閱 [列出存放庫樹狀結構](https://docs.gitlab.com/ee/api/repositories.html#list-repository-tree) 在 [!DNL GitLab] 檔案。
+如需有關欄位的資訊，請參閱[!DNL GitLab]檔案中的[列出存放庫樹狀結構](https://docs.gitlab.com/ee/api/repositories.html#list-repository-tree)。
 
 +++
 
@@ -952,23 +952,23 @@ ht-degree: 0%
 
 此動作模組會將ID為目前使用者提供的單一擱置中待辦事項標示為已完成。
 
-如需欄位的相關資訊，請參閱 [將待辦事項標籤為完成](https://docs.gitlab.com/ee/api/todos.html#mark-a-todo-as-done) 在 [!DNL GitLab] 檔案。
+如需有關欄位的資訊，請參閱[!DNL GitLab]檔案中的[將待辦事項標示為完成](https://docs.gitlab.com/ee/api/todos.html#mark-a-todo-as-done)。
 
 +++
 
-+++**[!UICONTROL 修改現有問題附註]**
++++**[!UICONTROL 修改現有問題備註]**
 
 修改問題的現有附註。
 
-如需欄位的相關資訊，請參閱 [修改現有問題附註](https://docs.gitlab.com/ee/api/notes.html#modify-existing-issue-note) 在 [!DNL GitLab] 檔案。
+如需有關欄位的資訊，請參閱[!DNL GitLab]檔案中的[修改現有問題備註](https://docs.gitlab.com/ee/api/notes.html#modify-existing-issue-note)。
 
 +++
 
-+++**[!UICONTROL 修改現有的合併請求備註]**
++++**[!UICONTROL 修改現有的合併要求備註]**
 
 修改合併請求的現有附註。
 
-如需欄位的相關資訊，請參閱 [修改現有的合併請求備註](https://docs.gitlab.com/ee/api/notes.html#modify-existing-merge-request-note) 在 [!DNL GitLab] 檔案。
+如需有關欄位的資訊，請參閱[!DNL GitLab]檔案中的[修改現有的合併要求備註](https://docs.gitlab.com/ee/api/notes.html#modify-existing-merge-request-note)。
 
 +++
 
@@ -976,7 +976,7 @@ ht-degree: 0%
 
 此動作模組會修改程式碼片段的現有附註。
 
-如需欄位的相關資訊，請參閱 [修改現有的程式碼片段備註](https://docs.gitlab.com/ee/api/notes.html#modify-existing-snippet-note) 在 [!DNL GitLab] 檔案。
+如需有關欄位的資訊，請參閱[!DNL GitLab]檔案中的[修改現有的程式碼片段備註](https://docs.gitlab.com/ee/api/notes.html#modify-existing-snippet-note)。
 
 +++
 
@@ -984,7 +984,7 @@ ht-degree: 0%
 
 此動作模組會建立新專案問題。
 
-如需欄位的相關資訊，請參閱 [新問題](https://www.integromat.com/en/help/app/gitlab) 在 [!DNL GitLab] 檔案。
+如需有關欄位的資訊，請參閱[!DNL GitLab]檔案中的[新問題](https://www.integromat.com/en/help/app/gitlab)。
 
 +++
 
@@ -992,15 +992,15 @@ ht-degree: 0%
 
 此動作模組會觸發啟動工作的手動動作。
 
-如需欄位的相關資訊，請參閱 [播放工作](https://docs.gitlab.com/ee/api/jobs.html#play-a-job) 在 [!DNL GitLab] 檔案。
+如需有關欄位的資訊，請參閱[!DNL GitLab]檔案中的[播放工作](https://docs.gitlab.com/ee/api/jobs.html#play-a-job)。
 
 +++
 
-+++**[!UICONTROL 發表評論以認可]**
++++要認可的&#x200B;**[!UICONTROL Post註解]**
 
 此動作模組會新增註解至認可。
 
-如需欄位的相關資訊，請參閱 [發表評論以認可](https://docs.gitlab.com/ee/api/commits.html#post-comment-to-commit) 在 [!DNL GitLab] 檔案。
+如需欄位的相關資訊，請參閱[!DNL GitLab]檔案中的[要認可的Post註解](https://docs.gitlab.com/ee/api/commits.html#post-comment-to-commit)。
 
 +++
 
@@ -1008,11 +1008,11 @@ ht-degree: 0%
 
 此動作模組會移除專案的變數。
 
-如需欄位的相關資訊，請參閱 [移除變數](https://docs.gitlab.com/ee/api/project_level_variables.html#remove-variable) 在 [!DNL GitLab] 檔案。
+如需欄位的相關資訊，請參閱[!DNL GitLab]檔案中的[移除變數](https://docs.gitlab.com/ee/api/project_level_variables.html#remove-variable)。
 
 +++
 
-+++**[!UICONTROL 重試建置]**
++++**[!UICONTROL 重試組建]**
 
 此動作模組會重試認可中的單一組建。
 
@@ -1022,7 +1022,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">[！UICONTROL Connection]</td> 
-   <td>若要建立新連線，請參閱 <a href="#connect-gitlab-to-workfront-fusion" class="MCXref xref">[！UICONTROL Connect [!DNL GitLab] 至Workfront Fusion]</a> 本文章內容。</td> 
+   <td>若要建立新連線，請參閱本文中的<a href="#connect-gitlab-to-workfront-fusion" class="MCXref xref">[！UICONTROL連線[!DNL GitLab]至Workfront Fusion]</a>。</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL專案ID]</td> 
@@ -1041,7 +1041,7 @@ ht-degree: 0%
 
 此動作模組會重試管道中失敗的組建。
 
-如需欄位的相關資訊，請參閱 [重試管道中的作業](https://docs.gitlab.com/ee/api/pipelines.html#retry-jobs-in-a-pipeline) 在 [!DNL GitLab] 檔案。
+如需有關欄位的資訊，請參閱[!DNL GitLab]檔案中的[在管道](https://docs.gitlab.com/ee/api/pipelines.html#retry-jobs-in-a-pipeline)中重試工作。
 
 +++
 
@@ -1049,7 +1049,7 @@ ht-degree: 0%
 
 此模組會擷取專案特定變數的詳細資訊。
 
-如需欄位的相關資訊，請參閱 [顯示變數詳細資訊](https://docs.gitlab.com/ee/api/project_level_variables.html#show-variable-details) 在 [!DNL GitLab] 檔案。
+如需欄位的相關資訊，請參閱[!DNL GitLab]檔案中的[顯示變數詳細資料](https://docs.gitlab.com/ee/api/project_level_variables.html#show-variable-details)。
 
 +++
 
@@ -1057,15 +1057,15 @@ ht-degree: 0%
 
 此動作模組會更新版本。
 
-如需欄位的相關資訊，請參閱 [更新版本](https://docs.gitlab.com/ee/api/releases/#update-a-release) 在 [!DNL GitLab] 檔案。
+如需有關欄位的資訊，請參閱[!DNL GitLab]檔案中的[更新版本](https://docs.gitlab.com/ee/api/releases/#update-a-release)。
 
 +++
 
-+++**[!UICONTROL 更新合併請求]**
++++**[!UICONTROL 更新合併要求]**
 
 此動作模組會更新現有的合併請求。 您可以變更目標分支、標題，或甚至關閉MR。
 
-如需欄位的相關資訊，請參閱 [更新合併請求](https://docs.gitlab.com/ee/api/merge_requests.html#update-mr) 在 [!DNL GitLab] 檔案。
+如需欄位的相關資訊，請參閱[!DNL GitLab]檔案中的[更新合併要求](https://docs.gitlab.com/ee/api/merge_requests.html#update-mr)。
 
 +++
 
@@ -1073,6 +1073,6 @@ ht-degree: 0%
 
 此動作模組會更新專案的變數。
 
-如需欄位的相關資訊，請參閱 [更新變數](https://docs.gitlab.com/ee/api/project_level_variables.html#update-variable) 在 [!DNL GitLab] 檔案。
+如需有關欄位的資訊，請參閱[!DNL GitLab]檔案中的[更新變數](https://docs.gitlab.com/ee/api/project_level_variables.html#update-variable)。
 
 +++

@@ -38,11 +38,11 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">Workfront Proof </td> 
-   <td>您可以在Workfront中提供原本在Workfront Proof中建立的校樣。 若為目前的授權，需要Pro Workfront Plan或更新版本才能使用此功能。 對於新授權，所有計畫都包含此功能。 如需各種可用計畫的詳細資訊，請參閱 <a href="https://www.workfront.com/plans">Workfront計畫</a>.</td> 
+   <td>您可以在Workfront中提供原本在Workfront Proof中建立的校樣。 若為目前的授權，需要Pro Workfront Plan或更新版本才能使用此功能。 對於新授權，所有計畫都包含此功能。 如需各種可用計畫的詳細資訊，請參閱<a href="https://www.workfront.com/plans">Workfront計畫</a>。</td> 
   </tr> 
   <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
    <td role="rowheader">Experience Manager Assets Essentials </td> 
-   <td>您可以從Experience Manager Assets Essentials將檔案連結到Workfront。 如需詳細資訊，請參閱 <a href="../../documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md" class="MCXref xref"> 適用於Experience Manager Assets Essentials的Adobe Workfront</a>.</td> 
+   <td>您可以從Experience Manager Assets Essentials將檔案連結到Workfront。 如需詳細資訊，請參閱<a href="../../documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md" class="MCXref xref">適用於Experience Manager Assets Essentials的Adobe Workfront</a>。</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Workfront DAM </td> 
@@ -50,12 +50,12 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">其他檔案提供者（透過自訂檔案整合）</td> 
-   <td> <p class="workfront_plans">若為目前的授權，需要Pro Workfront Plan或更新版本才能使用此功能。 對於新授權，所有計畫都包含此功能。 如需各種可用計畫的詳細資訊，請參閱 <a href="https://www.workfront.com/plans">Workfront計畫</a>.</p> </td>
+   <td> <p class="workfront_plans">若為目前的授權，需要Pro Workfront Plan或更新版本才能使用此功能。 對於新授權，所有計畫都包含此功能。 如需各種可用計畫的詳細資訊，請參閱<a href="https://www.workfront.com/plans">Workfront計畫</a>。</p> </td>
   </tr> 
  </tbody> 
 </table>
 
-在連結檔案或資料夾之前，您的Workfront管理員必須為每個檔案提供者或自訂檔案整合啟用此功能，如中所述 [設定檔案整合](../../administration-and-setup/configure-integrations/configure-document-integrations.md).
+連結檔案或資料夾之前，您的Workfront管理員必須為每個檔案提供者或自訂檔案整合啟用此功能，如[設定檔案整合](../../administration-and-setup/configure-integrations/configure-document-integrations.md)中所述。
 
 您可以校訂和核准連結至外部雲端提供者的檔案，就像直接上傳至Workfront的檔案一樣。
 
@@ -86,7 +86,7 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-如需有關此表格的詳細資訊，請參閱 [Workfront檔案中的存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -105,7 +105,7 @@ ht-degree: 0%
 
 ### 先決條件 {#prerequisites}
 
-在連結檔案或資料夾之前，您的Workfront管理員必須為每個檔案提供者或自訂檔案整合啟用此功能，如中所述 [設定檔案整合](../../administration-and-setup/configure-integrations/configure-document-integrations.md).
+連結檔案或資料夾之前，您的Workfront管理員必須為每個檔案提供者或自訂檔案整合啟用此功能，如[設定檔案整合](../../administration-and-setup/configure-integrations/configure-document-integrations.md)中所述。
 
 ### 將外部檔案連結至Workfront {#link-an-external-document-to-workfront}
 
@@ -115,19 +115,19 @@ ht-degree: 0%
 >
 >Dropbox會根據檔案路徑來儲存檔案。 因此，如果從Dropbox連結的檔案遭到移動、重新命名或刪除，就無法在Workfront中存取。
 
-1. 前往 **檔案** Workfront中您想要檔案的區域。
-1. 按一下 **新增**，然後按一下您要將檔案連結至Workfront的外部檔案供應程式。
+1. 移至Workfront中您想要檔案的&#x200B;**檔案**&#x200B;區域。
+1. 按一下「新增&#x200B;**」**，然後按一下您要將檔案連結至Workfront的外部檔案提供者。
 
-   例如，若要從Dropbox連結檔案，請按一下 **從Dropbox**.
+   例如，若要從Dropbox連結檔案，請按一下&#x200B;**從Dropbox**。
 
    您已經授權的外部提供者會出現在清單頂端。
 
-1. （視條件而定）如果系統提示您登入外部服務，請在顯示的方塊中輸入服務的登入認證，然後按一下 **登入**.
-1. （視條件而定）如果系統提示您授權外部應用程式，請按一下 **授權** 按鈕。
+1. （視條件而定）如果系統提示您登入外部服務，請在顯示的方塊中輸入服務的登入認證，然後按一下&#x200B;**登入**。
+1. （視條件而定）如果系統提示您授權外部應用程式，請按一下&#x200B;**授權**&#x200B;按鈕。
 
    您只需執行此操作一次。
 
-1. 在的搜尋方塊中 **連結外部檔案和資料夾** 在出現的方塊中，輸入您要搜尋的專案名稱，然後按 **輸入** 以檢視外部應用程式的所有結果，無論結果位於哪個資料夾中。
+1. 在出現的&#x200B;**連結外部檔案和資料夾**&#x200B;方塊的搜尋方塊中，輸入您要搜尋的專案名稱，然後按&#x200B;**Enter**&#x200B;檢視來自外部應用程式的所有結果，無論這些結果位於哪個資料夾中。
 
    或
 
@@ -135,13 +135,13 @@ ht-degree: 0%
 
    雖然您可以選取多個檔案，但只會連結在目前檢視中選取的檔案。 例如，如果您選取檔案，然後進入資料夾，則不會連結您最初選取的檔案。
 
-1. （視條件而定）如果您是Workfront DAM客戶，請按一下 **縮圖** 圖示以將檔案顯示為縮圖影像。
+1. （視條件而定）如果您是Workfront DAM客戶，請按一下&#x200B;**縮圖**&#x200B;圖示，將檔案顯示為縮圖影像。
 
    >[!NOTE]
    >
    >Workfront DAM客戶在從Workfront DAM連結檔案時，可檢視縮圖。 也會針對Workfront DAM客戶顯示其他服務(例如Dropbox和Box)的縮圖。 但是，不支援在Workfront中檢視Workfront DAM以外服務的縮圖，而且在從SharePoint或Google Drive連結檔案時，不會顯示縮圖。
 
-1. 按一下 **連結**.
+1. 按一下&#x200B;**連結**。
 
    在Workfront中，雲端提供者的圖示會出現在檔案旁。
 
@@ -154,24 +154,24 @@ ht-degree: 0%
 
 您可以從外部應用程式新增連結至Workfront的檔案的新版本。
 
-1. 前往 **檔案** 連結檔案的區域，然後選取連結的檔案。
+1. 移至連結檔案的&#x200B;**檔案**&#x200B;區域，然後選取連結的檔案。
 
    >[!IMPORTANT]
    >
    >檔案必須位於連結的資料夾之外，才能建立新版本。
 
-1. 按一下 **新增** > **版本**，然後按一下外部檔案提供者。
+1. 按一下&#x200B;**新增** > **版本**，然後按一下外部檔案提供者。
 
-   例如，若要從Dropbox連結檔案的新版本，請按一下 **從Dropbox**.
+   例如，若要從Dropbox連結檔案的新版本，請按一下&#x200B;**從Dropbox**。
 
    您已經授權的外部提供者會出現在清單頂端。
 
-1. （視條件而定）如果系統提示您登入外部服務，請在顯示的方塊中輸入服務的登入認證，然後按一下 **登入**.
-1. （視條件而定）如果系統提示您授權外部應用程式，請按一下 **授權**.
+1. （視條件而定）如果系統提示您登入外部服務，請在顯示的方塊中輸入服務的登入認證，然後按一下&#x200B;**登入**。
+1. （視條件而定）如果系統提示您授權外部應用程式，請按一下&#x200B;**授權**。
 
    您只需執行此操作一次。
 
-1. 在的搜尋方塊中 **連結外部檔案和資料夾** 在出現的方塊中，輸入您要搜尋的專案名稱，然後按 **輸入** 以檢視外部應用程式的所有結果，無論結果儲存在哪個資料夾中。
+1. 在出現的&#x200B;**連結外部檔案和資料夾**&#x200B;方塊的搜尋方塊中，輸入您要搜尋的專案名稱，然後按&#x200B;**Enter**&#x200B;檢視來自外部應用程式的所有結果，無論這些結果儲存在哪個資料夾中。
 
    或
 
@@ -179,13 +179,13 @@ ht-degree: 0%
 
    您可以選取多個檔案；不過，只會連結在目前檢視中選取的檔案。 例如，如果您選取檔案，然後進入資料夾，則不會連結您最初選取的檔案。
 
-1. （視條件而定）如果您是Workfront DAM客戶，請按一下 **縮圖** 圖示以將檔案顯示為縮圖影像。
+1. （視條件而定）如果您是Workfront DAM客戶，請按一下&#x200B;**縮圖**&#x200B;圖示，將檔案顯示為縮圖影像。
 
    >[!NOTE]
    >
    >Workfront DAM客戶在從Workfront DAM連結檔案時，可檢視縮圖。 也會針對Workfront DAM客戶顯示其他服務(例如Dropbox和Box)的縮圖。 但是，不支援在Workfront中檢視Workfront DAM以外服務的縮圖，而且在從SharePoint或Google Drive連結檔案時，不會顯示縮圖。
 
-1. 按一下 **連結**.
+1. 按一下&#x200B;**連結**。
 
    在Workfront中，雲端提供者的圖示會出現在檔案旁邊，表示這些檔案已連結至外部雲端提供者。
 
@@ -193,7 +193,7 @@ ht-degree: 0%
    >
    >對於連結到Box的檔案，在您重新整理頁面之前，不會顯示Box中檔案的連結。
 
-如需有關新增檔案新版本的資訊，請參閱從檔案系統上傳到Workfront的檔案 [新增檔案至Adobe Workfront](../../documents/adding-documents-to-workfront/add-documents-from-file-system.md#add-documents-to-workfront) 在 [從您的檔案系統新增檔案至Adobe Workfront](../../documents/adding-documents-to-workfront/add-documents-from-file-system.md).
+如需有關從您的檔案系統新增檔案版本至Workfront的資訊，請參閱[從您的檔案系統新增檔案至Adobe Workfront](../../documents/adding-documents-to-workfront/add-documents-from-file-system.md)中的[新增檔案至Adobe Workfront](../../documents/adding-documents-to-workfront/add-documents-from-file-system.md#add-documents-to-workfront)。
 
 ### 連結Workfront Proof檔案 {#link-workfront-proof-documents}
 
@@ -201,14 +201,14 @@ ht-degree: 0%
 
 您只能連結在Workfront Proof中您擁有檢視存取權的校訂。
 
-1. 前往 **檔案** Workfront中您想要檔案的區域。
-1. 按一下 **新增**，然後按一下 **從Workfront Proof**.
+1. 移至Workfront中您想要檔案的&#x200B;**檔案**&#x200B;區域。
+1. 按一下[新增] ****，然後按一下[來自Workfront Proof的&#x200B;****。
 
    >[!NOTE]
    >
    >此功能表中的選項可能會因環境中設定的協力廠商提供者而異。
 
-1. 在 **來自Workfront Proof的連結校樣** 方塊中，開始輸入您要在Workfront中提供的校訂名稱。
+1. 在出現的&#x200B;**從Workfront Proof連結校樣**&#x200B;方塊中，開始輸入您要在Workfront中提供的校樣名稱。
 
    當您輸入時，清單會經過篩選。
 
@@ -216,7 +216,7 @@ ht-degree: 0%
 
    任何變暗的校訂名稱都無法連結，因為校訂已與Workfront中的檔案相關聯。
 
-1. 按一下 **連結**.
+1. 按一下&#x200B;**連結**。
 
    最新版本的校訂連結至Workfront。 開啟校訂時，校訂檢視器中會提供所有版本。
 
@@ -224,11 +224,11 @@ ht-degree: 0%
 
 您可以在Workfront中建立新的Google檔案。 您無法在Workfront中為其他雲端服務供應商建立新檔案。
 
-1. 前往 **檔案** Workfront中您想要檔案的區域。
-1. 按一下 **新增** > **Google檔案**，然後選取您要建立的Google檔案型別。
-1. 如果 **新增Google磁碟機帳戶** 方塊出現，按一下 **授權Google Drive**.
+1. 移至Workfront中您想要檔案的&#x200B;**檔案**&#x200B;區域。
+1. 按一下&#x200B;**新增** > **Google檔案**，然後選取您要建立的Google檔案型別。
+1. 如果出現&#x200B;**新增Google磁碟機帳戶**&#x200B;方塊，請按一下&#x200B;**授權Google磁碟機**。
 
-   Google檔案已新增至 **檔案** 標籤。
+   Google檔案已新增至&#x200B;**檔案**&#x200B;索引標籤。
 
    >[!NOTE]
    >
@@ -245,9 +245,9 @@ ht-degree: 0%
 沒有Workfront存取許可權的使用者如果擁有應用程式的存取許可權，便可以在外部應用程式中檢視檔案。
 
 1. 選取在Workfront中上傳的檔案。
-1. 按一下 **更多** >**傳送至**，然後選取您要儲存連結檔案的雲端提供者。
+1. 按一下&#x200B;**更多** >**傳送至**，然後選取您要儲存連結檔案的雲端提供者。
 
-   您也可以使用「更多」選單 ![](assets/more-icon.png) 檔案詳細資訊頁面執行此操作。
+   您也可以使用[檔案詳細資訊]頁面上的[更多]功能表![](assets/more-icon.png)來執行此操作。
 
 1. 在提供者的應用程式中，選取您要儲存檔案的資料夾。
 
@@ -277,18 +277,18 @@ ht-degree: 0%
 
 ### 連結一或多個外部資料夾 {#link-one-or-more-external-folders}
 
-1. 前往Workfront中您要資料夾的區域，然後按一下  **檔案** ![](assets/document-icon.png) 在左側面板中。
+1. 移至Workfront中您要資料夾的區域，然後按一下左側面板中的「**檔案**」![](assets/document-icon.png)。
 
-1. 按一下 **新增**，然後按一下您要將資料夾連結至Workfront的外部檔案提供者。
-1. （視條件而定）如果您尚未授權外部服務，請指定外部提供者的登入認證，然後按一下 **登入**.
+1. 按一下[新增]****，然後按一下您要將資料夾連結至Workfront的外部檔案提供者。
+1. （視條件而定）如果您尚未授權外部服務，請指定外部提供者的登入認證，然後按一下&#x200B;**登入**。
 
    您已經授權的外部提供者會出現在清單頂端。
 
-1. 在 **連結外部檔案和資料夾** 方塊中，瀏覽並選取您要連結的資料夾。
+1. 在出現的&#x200B;**連結外部檔案和資料夾**&#x200B;方塊中，瀏覽並選取您要連結的資料夾。
 
    或
 
-   輸入您要搜尋的資料夾名稱，然後按 **輸入**.
+   輸入您要搜尋的資料夾名稱，然後按&#x200B;**Enter**。
 
    您可以選取多個資料夾；不過，只會連結在目前檢視中選取的資料夾。 例如，如果您選取資料夾，然後進入資料夾，則您最初選取的資料夾不會連結。
 
@@ -296,11 +296,11 @@ ht-degree: 0%
    >
    >從Google Drive連結資料夾時，您只能連結位於個人磁碟機（我的磁碟機）和Team Drive中的資料夾。 您無法從「與我共用」區域連結資料夾。
 
-1. 按一下 **連結**.
+1. 按一下&#x200B;**連結**。
 
    在Workfront中，雲端提供者的標誌會顯示在資料夾旁，表示已連結至外部雲端提供者。
 
-1. （選擇性）若要重新命名資料夾，使Workfront中的資料夾名稱不同於外部檔案應用程式中的資料夾名稱，請在 **資料夾** 區段，按一下「更多」功能表 ![](assets/more-icon.png)  ，然後按一下「 」 **重新命名**.
+1. （選擇性）若要重新命名資料夾，讓Workfront中的資料夾名稱不同於外部檔案應用程式中的資料夾名稱，請在&#x200B;**資料夾**&#x200B;區段中選取資料夾，按一下資料夾名稱旁邊顯示的[更多]功能表![](assets/more-icon.png)，然後按一下[重新命名]。**重新命名**
 
    ![](assets/documents-folderlink-rename-nwe-350x154.png)
 
@@ -310,7 +310,7 @@ ht-degree: 0%
 
 您可以在現有的連結資料夾中建立新資料夾。 您也可以將另一個資料夾拖曳到現有的連結資料夾中。
 
-1. 若要在現有連結資料夾中建立新資料夾，請移至現有資料夾，然後建立新資料夾，如所述 [建立檔案資料夾](../../documents/organizing-documents/create-documents-folder.md).
+1. 若要在現有連結資料夾中建立新資料夾，請移至現有資料夾，然後依照[建立檔案資料夾](../../documents/organizing-documents/create-documents-folder.md)中的說明建立新資料夾。
 
    或
 
@@ -329,11 +329,11 @@ ht-degree: 0%
 
 當您透過Workfront將檔案新增至連結資料夾時，會自動新增為連結檔案。
 
-1. 選取您想要檔案的連結資料夾，按一下 **新增>檔案**，然後瀏覽到檔案並將其新增到資料夾。
+1. 選取您想要檔案的連結資料夾，按一下&#x200B;**新增>檔案**，然後瀏覽至檔案並將其新增至資料夾。
 
    或
 
-   在 **檔案** 在您想要檔案的區域，將檔案拖曳到連結的資料夾中。
+   在您想要檔案的&#x200B;**檔案**&#x200B;區域中，將檔案拖曳至連結的資料夾。
 
    您檔案的新版本會自動在外部應用程式中建立，並連結至Workfront。
 
@@ -349,8 +349,8 @@ ht-degree: 0%
 
 當您從外部應用程式中刪除連結的檔案或資料夾時，該檔案或資料夾會保留在Workfront系統中，直到您也從Workfront中刪除它為止。
 
-1. 選取連結的檔案或資料夾，然後按一下 **刪除**.
-1. 在出現的確認方塊中，按一下 **是的，取消連結**.
+1. 選取連結的檔案或資料夾，然後按一下&#x200B;**刪除**。
+1. 在出現的確認方塊中，按一下&#x200B;**是，取消連結**。
 
    檔案會從Workfront網站取消連結。 在外部應用程式中不受影響。
 

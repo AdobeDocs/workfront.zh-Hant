@@ -2,7 +2,7 @@
 product-area: user-management
 navigation-topic: manage-your-workfront-account
 title: 使用增強式驗證重設使用者密碼
-description: 為您的啟用增強驗證(eAuth)時 [!DNL Workfront] 環境， a [!DNL Workfront] 管理員無法重設其他使用者的登入認證。 這與 [!DNL Workfront] 沒有eAuth的環境或已啟用單一登入(SSO)的環境。
+description: 為您的 [!DNL Workfront] 環境啟用增強式驗證(eAuth)時， [!DNL Workfront] 管理員無法重設其他使用者的登入認證。 這與沒有eAuth或啟用單一登入(SSO)的 [!DNL Workfront] 環境不同。
 author: Lisa
 feature: Get Started with Workfront
 hide: true
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 <!--This article has been hidden by request-->
 
-為您的啟用增強驗證(eAuth)時 [!DNL Workfront] 環境， a [!DNL Workfront] 管理員無法重設其他使用者的登入認證。 這與 [!DNL Workfront] 沒有eAuth的環境或已啟用單一登入(SSO)的環境。
+為您的[!DNL Workfront]環境啟用增強式驗證(eAuth)時，[!DNL Workfront]管理員無法重設其他使用者的登入認證。 這與沒有eAuth或啟用單一登入(SSO)的[!DNL Workfront]環境不同。
 
 ## 存取需求
 
@@ -44,21 +44,21 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-若要瞭解您擁有的計畫、授權型別或存取權，請聯絡您的 [!DNL Workfront] 管理員。
+若要瞭解您擁有的計畫、授權型別或存取權，請連絡您的[!DNL Workfront]管理員。
 
 ## 在啟用eAuth的環境中重設使用者密碼
 
-1. 按一下 **[!UICONTROL 主要功能表]** 圖示 ![](assets/main-menu-icon.png) 位於的右上角 [!DNL Workfront]，然後按一下 **[!UICONTROL 使用者]** ![](assets/users-icon-in-main-menu.png).
+1. 按一下[!DNL Workfront]右上角的&#x200B;**[!UICONTROL 主要功能表]**&#x200B;圖示![](assets/main-menu-icon.png)，然後按一下&#x200B;**[!UICONTROL 使用者]** ![](assets/users-icon-in-main-menu.png)。
 
    ![](assets/main-menu-options-350x481.png)
 
-1. 選取 **[!UICONTROL 使用者]** 需要重設密碼。
+1. 選取需要重設密碼的&#x200B;**[!UICONTROL 使用者]**。
    ![](assets/100520classicnweselectuser-350x105.png)
 
-1. 按一下 **[!UICONTROL 更多] 按鈕** 在您選擇想要的 **[!UICONTROL 使用者]** 並選取 **[!UICONTROL 傳送忘記密碼電子郵件]** 選項。
+1. 在您選擇想要的&#x200B;**[!UICONTROL 使用者]**&#x200B;後，請按一下顯示的&#x200B;**[!UICONTROL 更多]按鈕**，然後從下拉式功能表中選取&#x200B;**[!UICONTROL 傳送忘記密碼電子郵件]**&#x200B;選項。
 
    ![](assets/100520classicnwesendemail-350x134.png)
 
-選取 **[!UICONTROL 傳送忘記密碼電子郵件]** 選項，會傳送電子郵件給選取的使用者，其中包含他們變更自己密碼的說明。
+選取&#x200B;**[!UICONTROL 傳送忘記密碼電子郵件]**&#x200B;選項後，會傳送電子郵件給選取的使用者，其中包含使用者變更自己密碼的指示。
 
 ![](assets/pwresetemail-resized-350x461.png)

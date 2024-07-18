@@ -18,19 +18,19 @@ ht-degree: 0%
 
 <!--keep the yellow around the Rate card job roles and the Preview intro for those-->
 
-<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它僅適用於所有客戶的預覽環境，或適用於啟用快速發行的客戶的生產環境。</span>
+<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它只能在「預覽」環境中供所有客戶使用，或在「生產」環境中供啟用快速發行的客戶使用。</span>
 
-<span class="preview">如需快速發行版本的相關資訊，請參閱 [啟用或停用組織的快速發行](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
+<span class="preview">如需快速發行資訊，請參閱[為您的組織啟用或停用快速發行](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
 
-<span class="preview">如需目前版本的相關資訊，請參閱 [2024年第三季度版本總覽](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).</span>
+<span class="preview">如需目前版本的相關資訊，請參閱[2024年第三季版本總覽](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md)。</span>
 
 在管理任務和問題指派時，您可以使用智慧指派來識別誰是完成工作的最佳資源。 智慧型指派是Adobe Workfront在您根據演演算法將工作專案指派給資源時所顯示的建議，該演演算法會決定最適合工作的資源。 智慧指派可以是使用者、工作角色或團隊。
 
 >[!NOTE]
 >
->建議使用者時，智慧指派不會考慮使用者的可用性。 但是，根據它們的排程可用性，會影響任務和問題在指派時的計畫和預計日期。 如需有關排程的資訊，請參閱文章 [建立排程](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
+>建議使用者時，智慧指派不會考慮使用者的可用性。 但是，根據它們的排程可用性，會影響任務和問題在指派時的計畫和預計日期。 如需排程的相關資訊，請參閱文章[建立排程](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md)。
 
-本文包含智慧指派的一般資訊。 有關使用智慧指派指派指派任務和問題給使用者的資訊，請參閱 [進行智慧型指派](../../../manage-work/tasks/assign-tasks/make-smart-assignments.md).
+本文包含智慧指派的一般資訊。 如需使用智慧指派指派指派任務與問題給使用者的相關資訊，請參閱[進行智慧指派](../../../manage-work/tasks/assign-tasks/make-smart-assignments.md)。
 
 ## 智慧指派總覽
 
@@ -49,11 +49,11 @@ ht-degree: 0%
 
   ![](assets/smart-assignments-issue-list.png)
 
-* <span class="preview">「工作總攬」欄中的任務清單或報告 </span>
+* <span class="preview">「工作總攬」欄</span>中的任務清單或報告
 
   <span class="preview">![](assets/smart-assignments-task-list.png)</span>
 
-* <span class="preview">工作列位中的任務標題</span>
+* <span class="preview">工作分派欄位中的任務標題</span>
 
   <span class="preview">![](assets/smart-assignments-task-header-nwe-350x302.png)</span>
 
@@ -65,7 +65,7 @@ ht-degree: 0%
 
   ![](assets/smart-assignments-summary-panel-nwe-350x332.png)
 
-* <span class="preview">將任務新增至專案時，在「新增任務」方塊中的「工作總攬」欄位</span>
+* <span class="preview">將任務新增至專案時，[新增任務]方塊中的[工作總攬]欄位</span>
 
   <span class="preview">![](assets/smart-assignments-new-task-modal.png)</span>
 
@@ -88,7 +88,7 @@ ht-degree: 0%
 
 任務智慧型指派計算在兩個階段中運作，這兩個階段使用兩個不同的演演算法。
 
-根據尋找智慧指派的演演算法，指派會列在「指派」欄位的兩個獨立區段下。 如需詳細資訊，請參閱 [進行智慧型指派](/help/quicksilver/manage-work/tasks/assign-tasks/make-smart-assignments.md).
+根據尋找智慧指派的演演算法，指派會列在「指派」欄位的兩個獨立區段下。 如需詳細資訊，請參閱[進行智慧指派](/help/quicksilver/manage-work/tasks/assign-tasks/make-smart-assignments.md)。
 
 ![](assets/smart-assignments-task-list.png)
 
@@ -124,7 +124,7 @@ ht-degree: 0%
 
   例如，如果Rick今天早些時候被指派到類似任務，而Jennifer兩天前被指派到類似任務，則Rick會先顯示。
 
-* 此階段中識別的指派會列在    **建議的指派**  任務指派欄位的區段。
+* 此階段中識別的指派會列在    任務指派欄位的&#x200B;**建議指派**&#x200B;區段。
 
 * 如果沒有符合使用此計算的專案，則智慧型指派的第二階段會使用不同的演演算法來開始計算。
 
@@ -132,9 +132,9 @@ ht-degree: 0%
 
 如果任務智慧指派的第一步找不到相符專案，Workfront會以計算問題的相同方式計算任務的智慧指派。
 
-如需詳細資訊，請參閱區段 [任務和問題的智慧指派條件](#smart-assignments-criteria-for-tasks-and-issues) 本文章內容。
+如需詳細資訊，請參閱本文章的[任務和問題的智慧指派條件](#smart-assignments-criteria-for-tasks-and-issues)一節。
 
-此階段中識別的指派會列在 **使用者和團隊**， **工作角色指派**、和 **評等卡片角色**  區段。 如需費率卡的詳細資訊，請參閱 [管理費率卡](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md). <!--keep the rate cards roles in yellow after the release of assignments to Prod-->
+此階段中識別的指派列在指派欄位的&#x200B;**使用者和團隊**、**工作角色指派**&#x200B;和&#x200B;**評等卡片角色**&#x200B;區段中。 如需費率卡的詳細資訊，請參閱[管理費率卡](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md)。<!--keep the rate cards roles in yellow after the release of assignments to Prod-->
 
 ### 任務和問題的智慧指派條件
 
@@ -142,7 +142,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
-><span class="preview">只有當任務智慧指派計算的第一個階段找不到任何相符專案時，以下條件才適用於任務。 如需詳細資訊，請參閱區段 [工作的智慧型指派計算的第一階段](#first-phase-of-smart-assignment-calculation-for-tasks) 本文章內容。 依預設，下列條件一律適用於問題。 </span>
+><span class="preview">只有當任務智慧指派計算的第一階段找不到任何相符專案時，下列條件才適用於任務。 如需相關資訊，請參閱本文中[工作](#first-phase-of-smart-assignment-calculation-for-tasks)智慧型指派計算的第一階段一節。 依預設，下列條件一律適用於問題。</span>
 
 <span class="preview">![](assets/smart-assignments-issue-header.png)</span>
 

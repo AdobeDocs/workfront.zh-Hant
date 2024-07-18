@@ -18,7 +18,7 @@ ht-degree: 1%
 
 {{planning-important-intro}}
 
-在Adobe Workfront Planning中，工作區是團隊規劃工作的集中位置。 如需詳細資訊，請參閱 [建立工作區](/help/quicksilver/planning/architecture/create-workspaces.md).
+在Adobe Workfront Planning中，工作區是團隊規劃工作的集中位置。 如需詳細資訊，請參閱[建立工作區](/help/quicksilver/planning/architecture/create-workspaces.md)。
 
 您可以刪除不再相關的工作區。
 
@@ -68,21 +68,21 @@ ht-degree: 1%
 
 <tr>
    <td role="rowheader"><p>權限</p></td>
-   <td> <p>管理工作區的許可權</a> </p>  
+   <td> <p>管理工作區</a>的許可權 </p>  
    <p>系統管理員擁有所有工作區的許可權，包括他們未建立的工作區</p>
 
 </td>
   </tr>
 <tr>
    <td role="rowheader"><p>版面配置範本</p></td>
-   <td> <p>您的Workfront或群組管理員必須在版面配置範本中新增Planning區域。 如需詳細資訊，請參閱 <a href="/help/quicksilver/planning/access/access-overview.md">存取權總覽</a>. </p>  
+   <td> <p>您的Workfront或群組管理員必須在版面配置範本中新增Planning區域。 如需詳細資訊，請參閱<a href="/help/quicksilver/planning/access/access-overview.md">存取總覽</a>。 </p>  
 </td>
   </tr>
 
 </tbody>
 </table>
 
-*如需存取需求的詳細資訊，請參閱 [Workfront檔案中的存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*如需存取需求的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 <!--Maybe enable this at GA - but Planning is not supposed to have Access controls in the Workfront Access Level: 
 >[!NOTE]
@@ -102,10 +102,10 @@ ht-degree: 1%
 
    工作區頁面隨即顯示。
 
-1. 按一下 **更多** 功能表 ![](assets/more-menu.png) 按一下工作區名稱旁的「 」 **刪除**.
+1. 按一下工作區名稱旁的&#x200B;**更多**&#x200B;功能表![](assets/more-menu.png)，然後按一下&#x200B;**刪除**。
 
    ![](assets/permanently-delete-workspace-confirmation.png)
 
-1. Type &quot;**刪除**&quot;，然後按一下 **永久刪除**. 不區分大小寫。
+1. 在提供的空白處輸入&#39;&#39;**&#39;delete**&#39;&#39;，然後按一下&#x200B;**&#39;永久刪除**。 不區分大小寫。
 
-   工作區已刪除且無法復原。 任何與其關聯的記錄型別、記錄、欄位和檢視也會被刪除。 <!--ensure this is right at or before GA-->
+   工作區已刪除且無法復原。 任何與其關聯的記錄型別、記錄、欄位和檢視也會被刪除。<!--ensure this is right at or before GA-->

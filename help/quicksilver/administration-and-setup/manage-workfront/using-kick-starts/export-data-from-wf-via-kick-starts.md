@@ -57,7 +57,7 @@ ht-degree: 7%
  </tbody> 
 </table>
 
-如需有關此表格的詳細資訊，請參閱 [Workfront檔案中的存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -67,7 +67,7 @@ ht-degree: 7%
 
 * 從報表或清單匯出資料
 
-  如需從報表或清單匯出資料的詳細資訊，請參閱 [匯出資料](../../../reports-and-dashboards/reports/creating-and-managing-reports/export-data.md).
+  如需從報表或清單匯出資料的詳細資訊，請參閱[匯出資料](../../../reports-and-dashboards/reports/creating-and-managing-reports/export-data.md)。
 
 * 透過Kick-Start匯出資料
 
@@ -86,12 +86,12 @@ ht-degree: 7%
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p><strong>從清單檢視匯出資料</strong> </p> <p>如需從清單匯出資料的詳細資訊，請參閱 <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/export-data.md" class="MCXref xref">匯出資料</a></p> </td> 
+   <td> <p><strong>從清單檢視匯出資料</strong> </p> <p>如需從清單匯出資料的詳細資訊，請參閱<a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/export-data.md" class="MCXref xref">匯出資料</a></p> </td> 
    <td> <p>是</p> <p>會匯出與物件相關聯的Workfront原生欄位和自訂欄位。</p> </td> 
    <td> <p>否</p> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>透過Kick-Start匯出資料</strong> </p> </td> 
+   <td> <p><strong>透過Kick-Starts匯出資料</strong> </p> </td> 
    <td> <p>是（受限）</p> <p>與物件相關的大多數Workfront原生欄位都會匯出，但部分不會。 例如，您無法透過專案快速啟動匯出來匯出排程、專案所有者或專案贊助者欄位。</p> <p>在附加了自訂表單的專案中，在表單上的欄位中輸入的任何資料都不會匯出。</p> <p>但您可以匯出自訂表格。 產生的檔案會列出表單中設定的欄位，例如文字方塊和選項按鈕。</p> </td> 
    <td> <p>是</p> <p>使用Kick-Starts匯出Workfront資料，可讓您在單一匯出中匯出與多個物件型別相關的資料。 例如，您可以在單一匯出中包含任務、問題和專案。</p> </td> 
   </tr> 
@@ -102,16 +102,16 @@ ht-degree: 7%
 
 透過Kick-starts匯出資料時，有下列限制（資料會以Excel檔案格式匯出）：
 
-* **50,000列：** 檔案中允許的列數。
-* **65,530個超連結：** 這是Excel對包含65,530個以上超連結的檔案所強加的限制。 這些檔案匯出後即無法開啟。 請注意，一個Excel檔案可能只有200列資料，但如果檔案中有超過65,530個連結，則檔案不會開啟。
+* **50,000列：**&#x200B;檔案中允許的列數。
+* **65,530個超連結：**&#x200B;這是Excel對包含超過65,530個超連結的檔案所強加的限制。 這些檔案匯出後即無法開啟。 請注意，一個Excel檔案可能只有200列資料，但如果檔案中有超過65,530個連結，則檔案不會開啟。
 
 ## 透過Kick-Start匯出資料
 
 {{step-1-to-setup}}
 
-1. 按一下 **系統** > **Kick-Start，** 然後按一下 **匯出資料。**
+1. 按一下&#x200B;**系統** > **Kick-Starts，**，然後按一下&#x200B;**匯出資料。**
 
-1. 選取要匯出的物件。 依預設，下列物件會顯示在 **要包含的內容**：
+1. 選取要匯出的物件。 根據預設，下列物件會顯示在&#x200B;**要包含的內容**&#x200B;下：
 
    <table style="table-layout:auto"> 
     <col> 
@@ -120,24 +120,24 @@ ht-degree: 7%
     <thead> 
      <tr> 
       <th> <p><strong>物件</strong> </p> </th> 
-      <th> <p><strong>Excel檔案的匯出工作表</strong> </p> </th> 
+      <th> <p><strong>已匯出的Excel檔案工作表</strong> </p> </th> 
       <th> <p> <strong>匯出格式</strong></p> </th> 
      </tr> 
     </thead> 
     <tbody> 
      <tr> 
       <td scope="col" valign="top"> <p>儀表板</p> <p> </p> <p> </p> </td> 
-      <td scope="col" valign="top"> <p>引數<br>引數選項<br>引數群組<br>類別引數<br>類別<br>報告<br>入口網站頁簽區段<br>儀表板<br>偏好設定</p> </td> 
+      <td scope="col" valign="top"> <p>引數<br>引數選項<br>引數群組<br>類別引數<br>類別<br>報表<br>入口網站頁簽區段<br>儀表板<br>偏好設定</p> </td> 
       <td scope="col" valign="top"> ZIP</td> 
      </tr> 
      <tr> 
       <td scope="col" valign="top"> <p>報告</p> <p> </p> <p> </p> </td> 
-      <td scope="col" valign="top">引數<br>引數選項<br>引數群組<br>類別引數<br>類別<br>報告<br>偏好設定</td> 
+      <td scope="col" valign="top">引數<br>引數選項<br>引數群組<br>類別引數<br>類別<br>報表<br>偏好設定</td> 
       <td scope="col" valign="top"> ZIP </td> 
      </tr> 
      <tr> 
       <td scope="col" valign="top"> <p>核准</p> </td> 
-      <td scope="col" valign="top"> <p>步驟核准者<br>核准步驟<br>核准<br>核准流程<br>偏好設定</p> </td> 
+      <td scope="col" valign="top"> <p>步驟核准者<br>核准步驟<br>核准<br>核准程式<br>偏好設定</p> </td> 
       <td scope="col" valign="top"> <p> Excel</p> </td> 
      </tr> 
      <tr> 
@@ -152,7 +152,7 @@ ht-degree: 7%
      </tr> 
      <tr> 
       <td valign="top"> <p>時數類型</p> </td> 
-      <td valign="top"> <p>小時型別<br>偏好設定</p> </td> 
+      <td valign="top"> <p>小時型別<br>喜好設定</p> </td> 
       <td scope="col" valign="top"> <p>Excel</p> </td> 
      </tr> 
      <tr> 
@@ -162,19 +162,19 @@ ht-degree: 7%
      </tr> 
      <tr> 
       <td valign="top"> <p>使用者</p> </td> 
-      <td valign="top"> <p>使用者<br>偏好設定</p> </td> 
+      <td valign="top"> <p>使用者<br>喜好設定</p> </td> 
       <td valign="top"> <p> Excel</p> </td> 
      </tr> 
     </tbody> 
    </table>
 
-1. 按一下 **更多選項** 以檢視物件的完整清單。
+1. 按一下&#x200B;**其他選項**&#x200B;以檢視物件的完整清單。
 
    此處列出的所有物件也可用來將資料匯入Workfront。
 
-   唯一的例外是 **存取層級** 物件。 匯出中包含的「存取層級」資料表僅供參考之用。 它可讓您依ID將存取層級指派給新的使用者帳戶。
+   唯一的例外是&#x200B;**存取層級**&#x200B;物件。 匯出中包含的「存取層級」資料表僅供參考之用。 它可讓您依ID將存取層級指派給新的使用者帳戶。
 
-   如需有關透過Kick-Start將資料匯入Workfront的詳細資訊，請參閱 [使用Kick-Start範本將資料匯入Adobe Workfront](../../../administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md). 以下是可透過Kick-Start匯出的所有物件清單：
+   如需透過Kick-Start將資料匯入Workfront的詳細資訊，請參閱[使用Kick-Start範本將資料匯入Adobe Workfront](../../../administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md)。 以下是可透過Kick-Start匯出的所有物件清單：
 
    <table style="table-layout:auto"> 
     <col> 
@@ -190,17 +190,17 @@ ht-degree: 7%
     <tbody> 
      <tr> 
       <td scope="col" valign="top">存取層級</td> 
-      <td scope="col" valign="top">存取層級<br>偏好設定</td> 
+      <td scope="col" valign="top">存取層級<br>喜好設定</td> 
       <td scope="col" valign="top">Excel</td> 
      </tr> 
      <tr> 
       <td scope="col" valign="top">指派</td> 
-      <td scope="col" valign="top">指定任務<br>偏好設定</td> 
+      <td scope="col" valign="top">工作分派<br>偏好設定</td> 
       <td scope="col" valign="top">Excel</td> 
      </tr> 
      <tr> 
       <td scope="col" valign="top">公司</td> 
-      <td scope="col" valign="top"> 公司<br>偏好設定 </td> 
+      <td scope="col" valign="top"> 公司<br>喜好設定 </td> 
       <td scope="col" valign="top">Excel</td> 
      </tr> 
      <tr> 
@@ -220,22 +220,22 @@ ht-degree: 7%
      </tr> 
      <tr> 
       <td valign="top">篩選器</td> 
-      <td valign="top"> 篩選<br>偏好設定 </td> 
+      <td valign="top"> 篩選器<br>偏好設定 </td> 
       <td valign="top">ZIP </td> 
      </tr> 
      <tr> 
       <td valign="top">群組</td> 
-      <td valign="top"> 群組<br>偏好設定  </td> 
+      <td valign="top"> 群組<br>喜好設定  </td> 
       <td valign="top">Excel</td> 
      </tr> 
      <tr> 
       <td valign="top">分組</td> 
-      <td valign="top"> 分組<br>偏好設定 </td> 
+      <td valign="top"> 群組<br>偏好設定 </td> 
       <td valign="top">ZIP</td> 
      </tr> 
      <tr> 
       <td valign="top">小時</td> 
-      <td valign="top"> 小時<br>偏好設定 </td> 
+      <td valign="top"> 小時<br>喜好設定 </td> 
       <td valign="top">Excel</td> 
      </tr> 
      <tr> 
@@ -255,12 +255,12 @@ ht-degree: 7%
      </tr> 
      <tr> 
       <td valign="top">備註</td> 
-      <td valign="top"> 注意<br>偏好設定 </td> 
+      <td valign="top"> 附註<br>喜好設定 </td> 
       <td valign="top">Excel</td> 
      </tr> 
      <tr> 
       <td valign="top">專案組合</td> 
-      <td valign="top"> Portfolio<br>偏好設定  </td> 
+      <td valign="top"> Portfolio<br>喜好設定  </td> 
       <td valign="top">Excel</td> 
      </tr> 
      <tr> 
@@ -270,17 +270,17 @@ ht-degree: 7%
      </tr> 
      <tr> 
       <td valign="top">資源估計</td> 
-      <td valign="top"> 資源估計<br>偏好設定 </td> 
+      <td valign="top"> 資源估計<br>喜好設定 </td> 
       <td valign="top">Excel</td> 
      </tr> 
      <tr> 
       <td valign="top">資源集區</td> 
-      <td valign="top"> 資源集區<br>偏好設定 </td> 
+      <td valign="top"> 資源集區<br>喜好設定 </td> 
       <td valign="top">Excel</td> 
      </tr> 
      <tr> 
       <td valign="top">風險</td> 
-      <td valign="top"> 風險<br>偏好設定  </td> 
+      <td valign="top"> 風險<br>喜好設定  </td> 
       <td valign="top">Excel</td> 
      </tr> 
      <tr> 
@@ -295,7 +295,7 @@ ht-degree: 7%
      </tr> 
      <tr> 
       <td valign="top">任務</td> 
-      <td valign="top"> 任務<br>偏好設定 </td> 
+      <td valign="top"> 任務<br>喜好設定 </td> 
       <td valign="top">Excel </td> 
      </tr> 
      <tr> 
@@ -310,29 +310,29 @@ ht-degree: 7%
      </tr> 
      <tr> 
       <td valign="top">範本任務</td> 
-      <td valign="top"> 範本任務<br>偏好設定 </td> 
+      <td valign="top"> 範本任務<br>喜好設定 </td> 
       <td valign="top">Excel </td> 
      </tr> 
      <tr> 
       <td valign="top">時程表</td> 
-      <td valign="top"> 週期性時程表<br>時間表<br>偏好設定 </td> 
+      <td valign="top"> 時程表設定檔<br>時程表<br>偏好設定 </td> 
       <td valign="top">Excel  </td> 
      </tr> 
      <tr> 
       <td valign="top"> 檢視 </td> 
-      <td valign="top"> 檢視<br>偏好設定  </td> 
+      <td valign="top"> 檢視<br>喜好設定  </td> 
       <td valign="top">ZIP</td> 
      </tr> 
     </tbody> 
    </table>
 
-1. 按一下 **下載。**
+1. 按一下&#x200B;**下載。**
 
-   匯出的Kick-start檔案會以Excel檔案或的格式下載至您的電腦。 包含多個Excel和屬性檔案的zip檔案。 每個Excel檔案都是工作表的集合，其中每個工作表代表與所選物件相關聯的欄位。 有一個 **屬性** 與每次匯出相關聯的頁面。
+   匯出的Kick-start檔案會以Excel檔案或的格式下載至您的電腦。 包含多個Excel和屬性檔案的zip檔案。 每個Excel檔案都是工作表的集合，其中每個工作表代表與所選物件相關聯的欄位。 每次匯出都有&#x200B;**屬性**&#x200B;工作表。
 
-   此 **儀表板** 和 **報告** 選項可讓您選取要包含在下載中的特定控制面板和報表。 您只能匯出在整個系統內共用的控制面板。
+   **儀表板**&#x200B;和&#x200B;**報告**&#x200B;選項可讓您選取要包含在下載中的特定儀表板和報告。 您只能匯出在整個系統內共用的控制面板。
 
-   您無法匯出矩陣報表。 如需矩陣報表的詳細資訊，請參閱 [建立矩陣報表](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-matrix-report.md).
+   您無法匯出矩陣報表。 如需矩陣報表的詳細資訊，請參閱[建立矩陣報表](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-matrix-report.md)。
 
    Kick-Starts不支援文字模式篩選器。 若要成功匯出，報表篩選器必須切換至「標準模式」。
 

@@ -20,11 +20,11 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->本文提及獨立版產品中的功能 [!DNL Workfront Proof]. 有關內部校訂的資訊 [!DNL Adobe Workfront]，請參閱 [校訂](../../../review-and-approve-work/proofing/proofing.md).
+>本文提及獨立產品[!DNL Workfront Proof]中的功能。 有關[!DNL Adobe Workfront]內部校訂的資訊，請參閱[校訂](../../../review-and-approve-work/proofing/proofing.md)。
 
 本節包含下列文章：
 
-* [新增校訂到 [!DNL Basecamp] 專案](../../../workfront-proof/wp-integrations/basecamp/add-proof-to-basecamp-project.md)
-* [整合 [!DNL Workfront Proof] 替換為 [!DNL Basecamp]](../../../workfront-proof/wp-integrations/basecamp/integrate-workfront-proof-with-basecamp.md)
-* [檢閱中的校訂 [!DNL Basecamp]](../../../workfront-proof/wp-integrations/basecamp/review-proof-basecamp.md)
-* [瞭解 [!DNL Basecamp] 與整合 [!DNL Workfront Proof]](../../../workfront-proof/wp-integrations/basecamp/basecamp-integration-overview.md)
+* [將校訂新增至 [!DNL Basecamp] 專案](../../../workfront-proof/wp-integrations/basecamp/add-proof-to-basecamp-project.md)
+* [整合 [!DNL Workfront Proof] 與 [!DNL Basecamp]](../../../workfront-proof/wp-integrations/basecamp/integrate-workfront-proof-with-basecamp.md)
+* [在 [!DNL Basecamp]中檢閱校訂](../../../workfront-proof/wp-integrations/basecamp/review-proof-basecamp.md)
+* [瞭解 [!DNL Basecamp] 與 [!DNL Workfront Proof]的整合](../../../workfront-proof/wp-integrations/basecamp/basecamp-integration-overview.md)

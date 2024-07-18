@@ -56,24 +56,24 @@ ht-degree: 1%
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">存取層級設定*</td> 
-   <td> <p>管理自訂表單的存取權</p> <p>如需Workfront管理員如何授予此存取許可權的詳細資訊，請參閱 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">授予使用者管理特定區域的存取權</a>.</p> </td> 
+   <td> <p>管理自訂表單的存取權</p> <p>如需Workfront管理員如何授予此存取權的相關資訊，請參閱<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">授予使用者對特定區域的管理存取權</a>。</p> </td> 
   </tr>  
  </tbody> 
 </table>
 
-&#42;若要瞭解您擁有的計畫、授權型別或存取層級設定，請聯絡Workfront管理員。
+&#42;若要瞭解您擁有的計畫、授權型別或存取層級設定，請連絡您的Workfront管理員。
 
 ## 在自訂表單中新增或編輯資產Widget
 
-1. 開始使用自訂表單，如所述 [建立或編輯自訂表單](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
-1. 使用 **新增欄位** 標籤開啟，執行下列任一項作業：
+1. 開始處理自訂表單，如[建立或編輯自訂表單](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)中所述。
+1. 開啟&#x200B;**新增欄位**&#x200B;索引標籤後，請執行下列其中一項作業：
 
-   * 如果您要新增一個Widget，請選取 **影像**， **PDF**，或 **視訊** 將其新增至表單底部，或將其拖曳至表單上您想要的位置。
+   * 如果您正在新增一個介面工具集，請選取&#x200B;**影像**、**PDF**&#x200B;或&#x200B;**影片**，將其新增至表單底部，或將其拖曳至表單上您想要的位置。
 
      ![](assets/add-widget.png)
 
 
-   * 如果您想要新增已新增至其他自訂表單的Widget，請按一下 **欄位程式庫**，然後按一下顯示清單中Widget的名稱。 如需詳細資訊，請參閱 [在自訂表單中重複使用自訂欄位或Widget](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/reuse-an-existing-field.md).
+   * 若要新增已新增至其他自訂表單的Widget，請按一下&#x200B;**欄位程式庫**，然後按一下所顯示清單中Widget的名稱。 如需詳細資訊，請參閱[在自訂表單中重複使用自訂欄位或Widget](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/reuse-an-existing-field.md)。
 
    * 如果您正在編輯已新增至自訂表單的Widget，請選取它。
 
@@ -100,7 +100,7 @@ ht-degree: 1%
       <li> <p>YouTube或Vimeo連結</p> </li> 
       <li> <p>Google Drive影片連結</p> </li> 
       <li> <p>使用MP4和MOV擴充功能的視訊連結</p> </li> 
-      <li> <p>視訊連結已上傳至Workfront執行個體中的檔案區域。 如需指示，請參閱 <a href="#add-a-video-widget-to-a-custom-form-from-the-documents-area" class="MCXref xref">從檔案區域新增視訊Widget至自訂表單</a> 本文章內容。</p> 
+      <li> <p>視訊連結已上傳至Workfront執行個體中的檔案區域。 如需指示，請參閱本文中的<a href="#add-a-video-widget-to-a-custom-form-from-the-documents-area" class="MCXref xref">從檔案區域</a>新增視訊Widget至自訂表單。</p> 
       </li> 
       </ul> 
        </td> 
@@ -116,22 +116,22 @@ ht-degree: 1%
     </tbody> 
    </table>
 
-1. 按一下 **套用**.
+1. 按一下&#x200B;**套用**。
 1. 如果您想以其他方式繼續建置自訂表單，請繼續閱讀下列其中一篇文章：
 
-   * [在自訂表單中定位自訂欄位和Widget](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/position-fields-in-a-custom-form.md)
+   * [在自訂表單中放置自訂欄位和Widget](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/position-fields-in-a-custom-form.md)
    * [新增自訂欄位至自訂表單](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md)
    * [在自訂表單中重複使用自訂欄位或Widget](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/reuse-an-existing-field.md)
    * [新增計算資料至自訂表單](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md)
    * [在自訂表單中重複使用現有的計算自訂欄位](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/use-existing-calc-field-new-custom-form.md)
-   * [新增顯示邏輯和略過邏輯至自訂表單](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/display-or-skip-logic-custom-form.md)
+   * [新增顯示邏輯並略過邏輯至自訂表單](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/display-or-skip-logic-custom-form.md)
    * [預覽並完成自訂表格](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/preview-and-complete-a-custom-form.md)
 
 
 ## 將XD檔案新增至自訂表單
 
-1. 開始使用自訂表單，如所述 [建立或編輯自訂表單](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
-1. 使用 **新增欄位** 標籤開啟，選取 **Adobe XD**.
+1. 開始處理自訂表單，如[建立或編輯自訂表單](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)中所述。
+1. 開啟&#x200B;**新增欄位**&#x200B;索引標籤後，選取&#x200B;**Adobe XD**。
 1. 為Widget輸入或編輯下列任一屬性：
 
    <table style="table-layout:auto"> 
@@ -165,12 +165,12 @@ ht-degree: 1%
 
 1. 如果您想以其他方式繼續建置自訂表單，請繼續閱讀下列其中一篇文章：
 
-   * [在自訂表單中定位自訂欄位和Widget](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/position-fields-in-a-custom-form.md)
+   * [在自訂表單中放置自訂欄位和Widget](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/position-fields-in-a-custom-form.md)
    * [新增自訂欄位至自訂表單](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md)
    * [在自訂表單中重複使用自訂欄位或Widget](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/reuse-an-existing-field.md)
    * [新增計算資料至自訂表單](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md)
    * [在自訂表單中重複使用現有的計算自訂欄位](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/use-existing-calc-field-new-custom-form.md)
-   * [新增顯示邏輯和略過邏輯至自訂表單](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/display-or-skip-logic-custom-form.md)
+   * [新增顯示邏輯並略過邏輯至自訂表單](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/display-or-skip-logic-custom-form.md)
    * [預覽並完成自訂表格](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/preview-and-complete-a-custom-form.md)
 
 ## 從檔案區域新增視訊Widget至自訂表單 {#add-a-video-widget-to-a-custom-form-from-the-documents-area}
@@ -179,7 +179,7 @@ ht-degree: 1%
 >
 >以這種方式將視訊新增至自訂表單時，當使用者存取物件上的表單時，只有針對自訂表單設定的許可權會套用至視訊，而不是檔案區域中為視訊設定的許可權。
 
-1. 前往檔案區域中的影片，並為其產生校樣，如中所述 [為網站或其他網頁內容建立互動式校樣](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/generate-interactive-proof-for-website-or-other-web-content.md).
+1. 移至[檔案]區域中的視訊並產生其校訂，如[為網站或其他網頁內容建立互動式校訂](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/generate-interactive-proof-for-website-or-other-web-content.md)中所述。
 1. 開啟校訂。
-1. 以滑鼠右鍵按一下視訊上的任何位置，然後選取「 」 **複製視訊位址**.
-1. 在您新增視訊Widget的自訂表單中，將複製的地址貼到 **URL** 方塊。
+1. 以滑鼠右鍵按一下視訊上的任何位置，然後選取&#x200B;**複製視訊位址**。
+1. 在您新增視訊Widget的自訂表單中，將複製的地址貼到&#x200B;**URL**&#x200B;方塊中。

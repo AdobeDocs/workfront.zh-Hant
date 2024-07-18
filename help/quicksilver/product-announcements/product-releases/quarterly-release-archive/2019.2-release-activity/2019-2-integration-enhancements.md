@@ -18,7 +18,7 @@ ht-degree: 0%
 
 本頁說明2019.2版包含的所有整合與行動增強功能。 此功能計畫在2019年5月20日當週的生產環境中可用。
 
-如需2019.2年度所有變更的清單，請參閱 [2019.2版本活動概覽](../../../../product-announcements/product-releases/quarterly-release-archive/2019.2-release-activity/2019-2-release-activity-overview.md).
+如需2019.2年度所有變更的清單，請參閱[2019.2年度發行活動概覽](../../../../product-announcements/product-releases/quarterly-release-archive/2019.2-release-activity/2019-2-release-activity-overview.md)。
 
 ## Workfront的Microsoft Teams改善功能
 
@@ -32,7 +32,7 @@ ht-degree: 0%
 
   在此增強功能之前，您無法在Microsoft Teams中停用任何Workfront通知。
 
-  如需詳細資訊，請參閱 [在Microsoft Teams中管理Workfront通知和核准請求](../../../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/manage-wf-notifications-approval-requests-ms-teams.md).
+  如需詳細資訊，請參閱[在Microsoft Teams中管理Workfront通知和核准要求](../../../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/manage-wf-notifications-approval-requests-ms-teams.md)。
 
 ## 已更新Workfront以進行Adobe Creative Cloud整合
 

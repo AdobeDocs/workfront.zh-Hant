@@ -2,8 +2,8 @@
 product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: scenarios
-title: 中的案例詳細資料 [!DNL Adobe Workfront Fusion]
-description: 中的案例詳細資料 [!DNL Adobe Workfront Fusion]
+title: 在 [!DNL Adobe Workfront Fusion]中的案例詳細資料
+description: 在 [!DNL Adobe Workfront Fusion]中的案例詳細資料
 author: Becky
 feature: Workfront Fusion
 exl-id: 1d8a3492-d609-43c8-a486-a401a597f160
@@ -14,11 +14,11 @@ ht-degree: 1%
 
 ---
 
-# 中的案例詳細資料 [!DNL Adobe Workfront Fusion]
+# [!DNL Adobe Workfront Fusion]中的案例詳細資料
 
 案例詳細資訊頁面是特定案例的首頁。 它可讓您存取頁面上所呈現案例的特定資訊。
 
-它也可讓您存取 [中的案例編輯器 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/scenario-editor.md)，您可在此編輯情境。
+它也可讓您存取 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/scenario-editor.md)中的[情境編輯器，您可以在其中編輯情境。
 
 ## 存取需求
 
@@ -38,30 +38,30 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL Adobe Workfront Fusion]授權**</td> 
-   <td> <p>[！UICONTROL [!DNL Workfront Fusion] 適用於工作自動化與整合] </p><p>[！UICONTROL [!DNL Workfront Fusion] 工作自動化專用] </p><p>[！UICONTROL [!DNL Workfront Fusion] 工作自動化專用]</p>   </td> 
+   <td> <p>[！UICONTROL [!DNL Workfront Fusion] for Work Automation and Integration] </p><p>[！UICONTROL [!DNL Workfront Fusion] for Work Automation] </p><p>[！UICONTROL [!DNL Workfront Fusion] for Work Automation]</p>   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">產品</td> 
    <td>
-   <p>目前產品需求：如果您有[！UICONTROL Select]或[！UICONTROL Prime] [!DNL Adobe Workfront] 計畫，您的組織必須購買 [!DNL Adobe Workfront Fusion] 以及 [!DNL Adobe Workfront] 以使用本文所述的功能。 [!DNL Workfront Fusion] 包含在[！UICONTROL Ultimate]中 [!DNL Workfront] 計畫。</p>
+   <p>目前產品需求：如果您有[！UICONTROL Select]或[！UICONTROL Prime] [!DNL Adobe Workfront]計畫，您的組織必須購買[!DNL Adobe Workfront Fusion]及[!DNL Adobe Workfront]，才能使用本文所述的功能。 [!DNL Workfront Fusion]包含在[！UICONTROL Ultimate] [!DNL Workfront]計畫中。</p>
    <p>或</p>
-   <p>舊版產品需求：貴組織必須購買 [!DNL Adobe Workfront Fusion] 以及 [!DNL Adobe Workfront] 以使用本文所述的功能。</p>
+   <p>舊版產品需求：您的組織必須購買[!DNL Adobe Workfront Fusion]及[!DNL Adobe Workfront]，才能使用本文所述的功能。</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-若要瞭解您擁有的計畫、授權型別或存取權，請聯絡您的 [!DNL Workfront] 管理員。
+若要瞭解您擁有的計畫、授權型別或存取權，請連絡您的[!DNL Workfront]管理員。
 
-有關的資訊 [!DNL Adobe Workfront Fusion] 授權，請參閱 [[!DNL Adobe Workfront Fusion] 授權](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+如需[!DNL Adobe Workfront Fusion]授權的相關資訊，請參閱[[!DNL Adobe Workfront Fusion] 授權](../../workfront-fusion/get-started/license-automation-vs-integration.md)。
 
-## 開啟 [!UICONTROL 案例詳細資料] 頁面：
+## 開啟[!UICONTROL 案例詳細資料]頁面：
 
-1. 按一下 **[!UICONTROL 情境]** 標籤，然後按一下您要詳細資訊的情境。
+1. 按一下左側面板中的&#x200B;**[!UICONTROL 案例]**&#x200B;索引標籤，然後按一下您想要瞭解詳細資訊的案例。
 
    或
 
-   如果您處理的是中的案例 [中的案例編輯器 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/scenario-editor.md)，按一下向左鍵 ![](assets/exit-editing-arrow.png) 靠近視窗左上角。
+   如果您正在[在 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/scenario-editor.md)中處理案例編輯器，請按一下視窗左上角附近的向左箭頭![](assets/exit-editing-arrow.png)。
 
 1. 在顯示的頁面上，您可以檢閱下表中列出的元素。
 

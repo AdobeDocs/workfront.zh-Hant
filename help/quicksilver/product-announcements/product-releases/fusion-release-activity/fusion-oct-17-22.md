@@ -25,6 +25,6 @@ ht-degree: 0%
 
 之前，此模組中的檔案上傳限製為5MB。
 
-如需Adobe Creative Cloud程式庫模組的詳細資訊，請參閱 [Adobe Creative Cloud程式庫模組](/help/quicksilver/workfront-fusion/apps-and-their-modules/creative-cloud-libraries-modules.md).
+如需Adobe Creative Cloud程式庫模組的詳細資訊，請參閱[Adobe Creative Cloud程式庫模組](/help/quicksilver/workfront-fusion/apps-and-their-modules/creative-cloud-libraries-modules.md)。
 
-如需其他Workfront Fusion效能護欄的相關資訊，包括檔案大小限制，請參閱 [Adobe Workfront Fusion效能護欄](/help/quicksilver/workfront-fusion/get-started/fusion-performance-guardrails.md).
+如需其他Workfront Fusion效能護欄的相關資訊，包括檔案大小限制，請參閱[Adobe Workfront Fusion效能護欄](/help/quicksilver/workfront-fusion/get-started/fusion-performance-guardrails.md)。

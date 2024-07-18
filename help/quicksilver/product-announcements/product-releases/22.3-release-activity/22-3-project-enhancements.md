@@ -15,7 +15,7 @@ ht-degree: 0%
 
 # 22.3專案增強功能
 
-本頁說明22.3版對預覽環境所做的所有專案增強功能。 這些增強功能已在2022年7月11日當週的生產環境中推出。 如需22.3版所有可用變更的清單，請參閱 [22.3版本總覽](../../../product-announcements/product-releases/22.3-release-activity/22-3-release-overview.md).
+本頁說明22.3版對預覽環境所做的所有專案增強功能。 這些增強功能已在2022年7月11日當週的生產環境中推出。 如需22.3版本可用的所有變更清單，請參閱[22.3版本總覽](../../../product-announcements/product-releases/22.3-release-activity/22-3-release-overview.md)。
 
 ## 休假工作委派
 
@@ -39,7 +39,7 @@ ht-degree: 0%
 >只有擁有檢閱或更高授權的使用者才能將其工作委派給其他人。 工作可委派給任何使用者，無論其存取層級為何。 受委派的使用者會獲得與受委派專案之受指派人相同的許可權。 如果這些許可權低於使用者的存取層級設定，則委派的使用者可能會無法在委派給他們的任務和問題上執行某些活動。
 
 
-如需詳細資訊，請參閱 [委派任務和問題總覽](/help/quicksilver/manage-work/delegate-work/delegate-work-overview.md).
+如需詳細資訊，請參閱[委派任務和問題總覽](/help/quicksilver/manage-work/delegate-work/delegate-work-overview.md)。
 
 ## 將問題轉換為任務時的新體驗
 
@@ -54,7 +54,7 @@ ht-degree: 0%
 * 新增至新任務的預設自訂表單定義於目標專案的任務設定區域。
 
 
-如需詳細資訊，請參閱 [在Adobe Workfront中將問題轉換為任務](/help/quicksilver/manage-work/issues/convert-issues/convert-issue-to-task.md).
+如需詳細資訊，請參閱[在Adobe Workfront中將問題轉換為任務](/help/quicksilver/manage-work/issues/convert-issues/convert-issue-to-task.md)。
 
 ## 將問題轉換為沒有範本的專案時的新體驗
 
@@ -62,19 +62,19 @@ ht-degree: 0%
 
 除了符合新Workfront體驗其餘部分的更新使用者介面外，我們還新增了從清單或報告將問題轉換為空白專案的功能。
 
-如需詳細資訊，請參閱 [在Adobe Workfront中將問題轉換為專案](/help/quicksilver/manage-work/issues/convert-issues/convert-issue-to-project.md).
+如需詳細資訊，請參閱[在Adobe Workfront中將問題轉換為專案](/help/quicksilver/manage-work/issues/convert-issues/convert-issue-to-project.md)。
 
 ## 更新流中的智慧標籤
 
 我們已改善您在建立新的更新或回覆現有更新時，在更新流中標籤使用者的功能。 現在，當您標籤使用者以將其納入更新時，除了其名稱和頭像外，我們也會顯示其主要角色和電子郵件。 這有助於區分具有類似或相同名稱的多位使用者。
 
-如需詳細資訊，請參閱 [標籤其他人的更新](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
+如需詳細資訊，請參閱[標籤其他人的更新](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md)。
 
 ## 自訂欄位計算的新語法
 
 為了準備好日後的增強功能，協助您將計算新增至自訂表單，我們已將您新增至計算的參考欄位語法標準化。 此新語法使用起來很容易，因為當您開始輸入欄位名稱並選取它時，系統會為您輸入它。
 
-如需詳細資訊，請參閱 [文章將計算資料新增至自訂表單](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
+如需詳細資訊，請參閱[將計算資料新增至自訂表單](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md)文章中的「為您計算的自訂欄位建立計算」一節。
 
 ## 當有兩位具有相同角色的使用者參與核准程式時，請保留精確資訊
 
@@ -84,7 +84,7 @@ ht-degree: 0%
 
 在此變更之前，兩個核准都記錄為第二個使用者，因為它們與第一個核准者共用一個核准角色。 在這種情況下，第二個核准者會覆寫第一個核准者的資訊。
 
-如需Workfront中核准程式的詳細資訊，請參閱 [核准流程總覽](/help/quicksilver/review-and-approve-work/manage-approvals/approval-process-in-workfront.md).
+如需Workfront中核准流程的詳細資訊，請參閱[核准流程總覽](/help/quicksilver/review-and-approve-work/manage-approvals/approval-process-in-workfront.md)。
 
 ## 變更指派時，分配時數將不再移除
 
@@ -104,7 +104,7 @@ ht-degree: 0%
 * 移除使用者時，會保留角色上的個別指派分配。 (已從發行版本中移除。 現在，計畫時數將在移除所有受指派人後設為0。)
 
 
-如需計畫時數的詳細資訊，請參閱 [計畫時數概觀](/help/quicksilver/manage-work/tasks/task-information/planned-hours.md).
+如需計畫時數的詳細資訊，請參閱[計畫時數總覽](/help/quicksilver/manage-work/tasks/task-information/planned-hours.md)。
 
 ## 展示板增強功能
 
@@ -131,7 +131,7 @@ Adobe Workfront展示板已新增下列增強功能：
 * 欄位更新指標 — 儲存卡片時現在會顯示指標，以確認您的更新已儲存。
 
 
-如需詳細資訊，請參閱 [開始使用Adobe Workfront中的面板](/help/quicksilver/agile/get-started-with-boards/get-started-with-boards.md).
+如需詳細資訊，請參閱[開始使用Adobe Workfront中的面板](/help/quicksilver/agile/get-started-with-boards/get-started-with-boards.md)。
 
 ## 僅共用資料夾階層前五個層級的資料夾
 
@@ -139,13 +139,13 @@ Adobe Workfront展示板已新增下列增強功能：
 
 第六層級或更低層級的每個資料夾都會從其正上方的資料夾繼承其共用設定。
 
-如需共用資料夾的詳細資訊，請參閱 [共用頂層檔案資料夾](/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/share-a-document-folder.md).
+如需共用資料夾的詳細資訊，請參閱[共用最上層檔案資料夾](/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/share-a-document-folder.md)。
 
-## Workfront Campaigns （測試版） — 管理您工作的新方法
+## Workfront Campaigns (Beta) — 管理您工作的新方法
 
 >[!NOTE]
 >
->此功能預計於2023年1月9日從預覽版中移除。 如需詳細資訊，請參閱 [23.1版本總覽頁面](/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-release-overview.md).
+>此功能預計於2023年1月9日從預覽版中移除。 如需詳細資訊，請參閱[23.1版本總覽頁面](/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-release-overview.md)。
 
 >[!NOTE]
 >
@@ -164,7 +164,7 @@ Workfront行銷活動可讓您在新的工作容器中組織來自不同投資�
 
 * 名為Campaign的新Workfront物件
 
-* 主要功能表中的新行銷活動（測試版）區域
+* 主要功能表中的新行銷活動(Beta)區域
 
 * 行銷活動區域中的行銷活動清單
 

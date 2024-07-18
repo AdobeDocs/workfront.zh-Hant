@@ -39,7 +39,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定</td> 
-   <td> <p>您必須是 [!DNL Workfront] 管理員。</p> <p><b>注意</b>：如果您還是沒有存取權，請詢問您的 [!DNL Workfront] 管理員是否對您的存取層級設定其他限制。 如需瞭解如何 [!DNL Workfront] 管理員可以修改您的存取層級，請參閱 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>.</p> </td> 
+   <td> <p>您必須是[!DNL Workfront]管理員。</p> <p><b>注意</b>：如果您仍然沒有存取權，請詢問您的[!DNL Workfront]管理員是否對您的存取層級設定了其他限制。 如需[!DNL Workfront]管理員如何修改存取層級的詳細資訊，請參閱<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>。</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -52,21 +52,21 @@ ht-degree: 0%
 
 如果欄位沒有鎖定/解鎖切換，則群組管理員無法解鎖該欄位，無法在群組層級進行設定。 組態僅可在系統層級使用。
 
-有關鎖定或解除鎖定系統層級專案、任務或問題偏好設定的指示，請參閱 [設定系統範圍的任務和問題偏好設定](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
+有關鎖定或解除鎖定系統層級專案、任務或問題偏好設定的說明，請參閱[設定系統範圍的任務和問題偏好設定](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md)。
 
 >[!NOTE]
 >
->之後 [!DNL Workfront] 管理員在系統層級解除鎖定偏好設定，任何群組管理員都可以對其進行設定，然後將其鎖定，以確保其群組中的所有人和下面的子群組都使用相同的設定。 此功能與 [!DNL Workfront] 管理員必須設定並鎖定系統中每個人的偏好設定。 如需詳細資訊，請參閱 [設定群組的專案偏好設定](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-project-preferences-group.md) 和 [鎖定或解除鎖定子群組的專案、任務或問題偏好設定](../../../administration-and-setup/manage-groups/create-and-manage-groups/lock-or-unlock-a-group-preference.md).
+>在[!DNL Workfront]管理員在系統層級解除鎖定偏好設定後，任何群組管理員都可以對其進行設定，然後將其鎖定，以確保其群組中的所有人和下面的子群組都使用相同的設定。 此功能與[!DNL Workfront]管理員必須設定並鎖定系統中每個人的偏好設定功能平行。 如需詳細資訊，請參閱[設定群組的專案偏好設定](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-project-preferences-group.md)以及[鎖定或解除鎖定子群組的專案、任務或問題偏好設定](../../../administration-and-setup/manage-groups/create-and-manage-groups/lock-or-unlock-a-group-preference.md)。
 
 ## 解鎖專案偏好設定，讓群組可以設定它
 
-1. 按一下 **[!UICONTROL 主要功能表]** 圖示 ![](assets/main-menu-icon.png) 位於的右上角 [!DNL Adobe Workfront]，然後按一下 **[!UICONTROL 設定]** ![](assets/gear-icon-settings.png).
+1. 按一下[!DNL Adobe Workfront]右上角的&#x200B;**[!UICONTROL 主要功能表]**&#x200B;圖示![](assets/main-menu-icon.png)，然後按一下&#x200B;**[!UICONTROL 設定]** ![](assets/gear-icon-settings.png)。
 
-1. 按一下 **[!UICONTROL 專案偏好設定]**，然後按一下 **[!UICONTROL 專案]**.
+1. 按一下&#x200B;**[!UICONTROL 專案偏好設定]**，然後按一下&#x200B;**[!UICONTROL 專案]**。
 
 1. 執行下列任一項作業：
 
-   * 如果您希望群組管理員能夠設定其群組的偏好設定，請將其解鎖 ![](assets/unlock-toggle-button.png).
+   * 如果您希望群組管理員能夠設定其群組的偏好設定，請將其解鎖![](assets/unlock-toggle-button.png)。
    * 如果您希望所有群組都使用您的偏好設定設定，請確定它已被鎖定（這是預設值）。
 
      >[!IMPORTANT]

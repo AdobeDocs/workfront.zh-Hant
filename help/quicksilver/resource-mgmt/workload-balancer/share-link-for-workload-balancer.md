@@ -15,7 +15,7 @@ ht-degree: 0%
 
 # 使用連結共用工作負載平衡器
 
-您可以與其他可能沒有資源區域可用的使用者共用工作負載平衡器。 如需有關使用工作負載平衡器的資訊，請參閱 [瀏覽工作負載平衡器](../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
+您可以與其他可能沒有資源區域可用的使用者共用工作負載平衡器。 如需有關使用工作負載平衡器的資訊，請參閱[瀏覽工作負載平衡器](../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md)。
 
 ## 存取需求
 
@@ -44,16 +44,16 @@ ht-degree: 0%
      <li> <p>問題</p> </li> 
     </ul> <p><b>附註</b>
 
-如果您還是沒有存取權，請詢問您的Workfront管理員，他們是否在您的存取層級中設定其他限制。 如需有關Workfront管理員如何變更您的存取層級的資訊，請參閱 <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>.</p> </td>
+如果您還是沒有存取權，請詢問您的Workfront管理員，他們是否在您的存取層級中設定其他限制。 如需Workfront管理員如何變更存取層級的詳細資訊，請參閱<a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>。</p> </td>
 </tr> 
   <tr> 
    <td role="rowheader">物件許可權</td> 
-   <td> <p>檢視專案、任務和問題的許可權或更高 </p> <p>如需請求其他存取許可權的詳細資訊，請參閱 <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">要求物件的存取權 </a>.</p> </td> 
+   <td> <p>檢視專案、任務和問題的許可權或更高 </p> <p>如需請求其他存取權的資訊，請參閱<a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">請求物件</a>的存取權。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;若要瞭解您擁有的計畫、授權型別或存取權，請聯絡您的Workfront管理員。
+&#42;若要瞭解您擁有的計畫、授權型別或存取權，請連絡您的Workfront管理員。
 
 ## 從共用連結檢視時包含在工作負載平衡器中的資訊
 
@@ -81,7 +81,7 @@ ht-degree: 0%
 * 「設定」圖示
 * 顯示配置圖示
 
-  如需使用這些選項的相關資訊，請參閱 [瀏覽工作負載平衡器](../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
+  如需有關使用這些選項的資訊，請參閱[瀏覽工作負載平衡器](../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md)。
 
 * 顯示角色配置圖示
 
@@ -98,27 +98,27 @@ ht-degree: 0%
 您需要以下存取權才能從共用連結檢視工作負載平衡器中的資訊：
 
 * 具備有效的Adobe Workfront授權，且您必須登入Workfront。
-* 至少要在存取層級中檢視對資源管理的存取權。 如需授與資源管理存取權的相關資訊，請參閱 [授與資源管理的存取權](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-resource-management.md).
+* 至少要在存取層級中檢視對資源管理的存取權。 如需授與資源管理存取權的相關資訊，請參閱[授與資源管理的存取權](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-resource-management.md)。
 * 檢視顯示在工作負載平衡器中的專案、任務、問題和使用者的許可權。
 
 ## 透過連結與其他使用者共用工作負載平衡器
 
 1. 前往工作負載平衡器
 
-   如需有關存取工作負載平衡器的資訊，請參閱 [瀏覽工作負載平衡器](../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
+   如需有關存取工作負載平衡器的資訊，請參閱[瀏覽工作負載平衡器](../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md)。
 
 1. （可選）執行下列一或多個動作：
 
    * 更新時段選擇。
-   * 按一下 **日、周**，或 **月** 檢視每日、每週或每月的資訊。
+   * 按一下&#x200B;**天、周**&#x200B;或&#x200B;**月**，檢視每日、每週或每月的資訊。
 
      ![](assets/month-icon-on-toolbar-selected-wb-350x226.png)
 
    * 將篩選器套用至「未指派」和「已指派」工作區域。
 
-     如需有關在工作負載平衡器篩選資訊，請參閱 [在工作負載平衡器中篩選資訊](../../resource-mgmt/workload-balancer/filter-information-workload-balancer.md).
+     如需有關在工作負載平衡器中篩選資訊的資訊，請參閱在工作負載平衡器](../../resource-mgmt/workload-balancer/filter-information-workload-balancer.md)中的篩選資訊[。
 
-1. 按一下 **連結圖示** ![](assets/wb-shearable-link-icon-small.png).
+1. 按一下&#x200B;**連結圖示** ![](assets/wb-shearable-link-icon-small.png)。
 
    這會將連結新增至剪貼簿。
 
@@ -127,7 +127,7 @@ ht-degree: 0%
    * 將其貼到電子郵件、聊天訊息或任何其他應用程式中，並與其他使用者共用。
    * 將其新增到自訂區段作為外部頁面，將自訂區段新增到使用者的設定檔或版面配置範本，然後與使用者、團隊、工作角色或群組共用版面配置範本。
 
-     如需有關建立外部頁面的資訊，請參閱 [將外部網頁內嵌在控制面板中](../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-external-web-page-dashboard.md). 如需將自訂區段新增至版面配置範本的相關資訊，請參閱 [使用版面配置範本自訂左側面板](../../administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md).
+     如需建立外部頁面的相關資訊，請參閱[將外部網頁內嵌在儀表板中](../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-external-web-page-dashboard.md)。 如需將自訂區段新增至版面配置範本的相關資訊，請參閱[使用版面配置範本自訂左側面板](../../administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md)。
 
      >[!IMPORTANT]
      >

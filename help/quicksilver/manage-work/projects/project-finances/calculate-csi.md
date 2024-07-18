@@ -9,7 +9,7 @@ feature: Work Management
 exl-id: 38a8c5e0-b812-499d-8fe7-a71ddccb3aad
 source-git-commit: 1cf679376517293f0e0f28b461bd9ecab9283035
 workflow-type: tm+mt
-source-wordcount: '337'
+source-wordcount: '340'
 ht-degree: 0%
 
 ---
@@ -42,9 +42,9 @@ Workfront會使用下列公式計算專案或作業的成本績效指數(CSI)：
 
 `CSI = CPI x SPI`
 
-如需CPI的相關資訊，請參閱文章 [計算成本績效指數(CPI)](../../../manage-work/projects/project-finances/calculate-cpi.md).
+如需有關CPI的資訊，請參閱文章[計算成本績效指數(CPI)](../../../manage-work/projects/project-finances/calculate-cpi.md)。
 
-如需SPI的相關資訊，請參閱文章 [計算排程績效指數(SPI)](../../../manage-work/projects/project-finances/calculate-spi.md).
+如需SPI的相關資訊，請參閱文章[計算排程績效指數(SPI)](../../../manage-work/projects/project-finances/calculate-spi.md)。
 
 CSI有下列三個可能的值：
 

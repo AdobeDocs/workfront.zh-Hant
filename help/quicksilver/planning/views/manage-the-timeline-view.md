@@ -30,7 +30,7 @@ role: User
 
 存取Adobe Workfront Planning中的記錄型別頁面時，您可以在時間軸檢視中顯示記錄。
 
-如需有關記錄檢視的資訊，請參閱 [管理記錄檢視](/help/quicksilver/planning/views/manage-record-views.md).
+如需有關記錄檢視的資訊，請參閱[管理記錄檢視](/help/quicksilver/planning/views/manage-record-views.md)。
 
 ## 存取需求
 
@@ -86,13 +86,13 @@ role: User
 
 <tr>
    <td role="rowheader"><p>版面配置範本</p></td>
-   <td> <p>必須為所有使用者(包括Workfront管理員)指派一個版面配置範本，該範本包含主功能表中的Planning區域。 </p> <p>如需詳細資訊，請參閱 <a href="/help/quicksilver/planning/access/access-overview.md">存取權總覽</a>. </p> 
+   <td> <p>必須為所有使用者(包括Workfront管理員)指派一個版面配置範本，該範本包含主功能表中的Planning區域。 </p> <p>如需詳細資訊，請參閱<a href="/help/quicksilver/planning/access/access-overview.md">存取總覽</a>。 </p> 
 </td>
   </tr>
  </tbody>
 </table>
 
-*如需詳細資訊，請參閱 [Workfront檔案中的存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 
 ## 管理時間表檢視 {#manage-a-timeline-view}
@@ -115,7 +115,7 @@ role: User
 若要管理時間表檢視：
 
 1. 移至您要檢視其時間軸的記錄型別頁面。
-1. 建立時間表檢視，如文章所述 [管理記錄檢視](/help/quicksilver/planning/views/manage-record-views.md).
+1. 建立時間表檢視，如文章[管理記錄檢視](/help/quicksilver/planning/views/manage-record-views.md)中所述。
 
    ![](assets/timeline-view-example.png)
 
@@ -129,23 +129,23 @@ role: User
 1. 執行下列任一項作業來瀏覽時間軸：
 
    * 按一下左右圖示，或使用水準捲動在時間軸中前後移動。
-   * 按一下 **今天** 將時間軸置中到今天的日期。
+   * 按一下&#x200B;**今天**，將時間表置中到今天的日期。
    * 從時間範圍下拉式選單中選取下列其中一個選項，以更新時間增量：
 
       * 年
       * 季度
       * 月
-1. 按一下 **切換至標準** 檢視以個別行顯示記錄 <!--check to see if they updated the name of the setting here-->
+1. 按一下&#x200B;**切換至標準**&#x200B;檢視，以個別行<!--check to see if they updated the name of the setting here-->顯示記錄
 
    或
 
-   按一下 **切換至精簡檢視** 顯示日期在同一行上不相交的記錄。 <!--check to see if they updated the name of the setting here-->
+   按一下&#x200B;**切換到壓縮檢視**&#x200B;以顯示日期在同一行上不相交的記錄。<!--check to see if they updated the name of the setting here-->
 
    預設情況下，記錄會顯示在「壓縮」檢視中。
 
 1. 執行下列動作以快速尋找符合關鍵字的記錄：
 
-   1. 按一下 **搜尋** 圖示 ![](assets/search-icon.png) 並開始輸入與畫面上所顯示之記錄的任何欄位相關聯的關鍵字。 正確相符的數目會顯示在搜尋專案旁邊，而具有正確相符專案的記錄會反白顯示。
+   1. 按一下&#x200B;**搜尋**&#x200B;圖示![](assets/search-icon.png)，然後開始輸入與熒幕上顯示之記錄的任何欄位相關聯的關鍵字。 正確相符的數目會顯示在搜尋專案旁邊，而具有正確相符專案的記錄會反白顯示。
 
       ![](assets/search-box-and-results-timeline-view.png)
 
@@ -155,7 +155,7 @@ role: User
 
    1. 在鍵盤上按Enter鍵以移至下一個找到的欄位。
    1. （選擇性）如果有多個相符專案，請按一下搜尋關鍵字右邊的向上和向下箭頭，以尋找表格中的所有相符專案。
-   1. 按一下 **x** 圖示來清除搜尋關鍵字。
+   1. 按一下搜尋方塊中的&#x200B;**x**&#x200B;圖示以清除搜尋關鍵字。
 
 1. 更新下列檢視元素，如下列子區段所述：
    * [篩選器](#add-filters)
@@ -183,7 +183,7 @@ role: User
 
 * 在時間軸檢視中新增濾鏡，與在表格檢視中新增濾鏡相同。
 
-  如需詳細資訊，請參閱文章中的「新增篩選器」一節 [管理表格檢視](/help/quicksilver/planning/views/manage-the-table-view.md).
+  如需詳細資訊，請參閱文章[管理資料表檢視](/help/quicksilver/planning/views/manage-the-table-view.md)中的「新增篩選器」一節。
 
 * 您可以依已連線的記錄欄位或查詢欄位進行篩選。
 * 您可以依顯示多個值的查閱欄位進行篩選。
@@ -201,7 +201,7 @@ role: User
 
 * 您可以在表格和時間軸檢視中套用群組。 表格檢視的分組與相同記錄型別之時間軸檢視中的群組是獨立的。
 * 您可以在檢視中套用3個群組層級。 記錄會依照您選取的群組順序進行分組。
-&lt;!—*使用API時，您最多可以套用4個層級的群組。  — 現在正在檢查此專案 — >
+&lt;！—*使用API時，您最多可以套用4個層級的群組。  — 現在正在檢查此專案 — >
 * 群組對於您選取的檢視而言是唯一的。 相同記錄型別的兩個表格檢視可以套用不同的群組。 檢視相同表格檢視的兩個使用者會看到目前套用的相同分組。
 * 您無法為表格檢視建立的分組命名。
 * 移除群組會將群組從存取與您相同記錄型別以及顯示與您相同檢視的任何人中移除。
@@ -214,12 +214,12 @@ role: User
 
 若要在時間表檢視中新增群組：
 
-1. 如文章所述，為記錄型別建立時間表檢視 [管理記錄檢視](/help/quicksilver/planning/views/manage-record-views.md).
-1. 按一下 **分組** 位於時間軸檢視的右上角。
+1. 如文章[管理記錄檢視](/help/quicksilver/planning/views/manage-record-views.md)中所述，建立記錄型別的時間表檢視。
+1. 按一下時間軸檢視右上角的&#x200B;**群組**。
 
    ![](assets/grouping-ui-timeline-view-with-linked-fields.png)
 
-1. 按一下其中一個建議欄位，或按一下 **選擇其他欄位**，搜尋其他欄位，然後在清單中顯示時按一下該欄位。
+1. 按一下其中一個建議的欄位，或按一下&#x200B;**選擇其他欄位**，搜尋其他欄位，然後在欄位顯示在清單中時按一下它。
 
    分組會自動套用至時間軸，且記錄會顯示在分組方塊內。
 
@@ -233,14 +233,14 @@ role: User
 
    ![](assets/grouping-applied-in-timeline-view.png)
 
-1. （選用）內部 **記錄分組依據** 方塊中，按一下 **x** 圖示在選取要移除分組的欄位右側
+1. （選擇性）在&#x200B;**群組記錄依據**&#x200B;方塊中，按一下選取要移除分組的欄位右邊的&#x200B;**x**&#x200B;圖示
 
    或
 
-   按一下 **全部清除** 以移除所有欄位。
+   按一下&#x200B;**全部清除**&#x200B;以移除所有欄位。
 
-1. 按一下 **記錄分組依據** 方塊以關閉它。
-1. （選用）按一下 **設定**，然後 **顏色** 至色彩程式碼群組。 如需詳細資訊，請參閱 [編輯時間軸檢視設定](#edit-the-timeline-view-settings) 一節。
+1. 按一下「**依**&#x200B;分組記錄」方塊外部以關閉它。
+1. （選擇性）按一下&#x200B;**設定**，然後按一下&#x200B;**色彩**&#x200B;以使用色彩代碼分組。 如需詳細資訊，請參閱本文中的[編輯時間表檢視設定](#edit-the-timeline-view-settings)一節。
 
 <!-- 
 
@@ -254,45 +254,45 @@ this is not possible right now; if this is the same functionality as the table v
 
 更新時間軸檢視設定，以指示要在檢視的時間軸區段中顯示哪些資訊及顯示方式。
 
-1. 如文章所述，為記錄型別建立時間表檢視 [管理記錄檢視](/help/quicksilver/planning/views/manage-record-views.md).
-1. 按一下 **設定**.
-1. 按一下 **日期和時間** 在左側面板中，然後選取 **開始日期** 和 **結束日期** 以在時間軸上顯示。 您可以選擇預設的「開始」和「結束」日期，也可以選擇任何可用的日期欄位。 代表記錄的長條圖，其開始日期為您為「開始」日期指定的日期，結束日期為您與「結束」日期對應的日期。
+1. 如文章[管理記錄檢視](/help/quicksilver/planning/views/manage-record-views.md)中所述，建立記錄型別的時間表檢視。
+1. 按一下&#x200B;**設定**。
+1. 按一下左側面板中的&#x200B;**日期和時間**，然後選取要在時間軸上顯示的&#x200B;**開始日期**&#x200B;和&#x200B;**結束日期**。 您可以選擇預設的「開始」和「結束」日期，也可以選擇任何可用的日期欄位。 代表記錄的長條圖，其開始日期為您為「開始」日期指定的日期，結束日期為您與「結束」日期對應的日期。
 
    >[!NOTE]
    >
    >沒有開始或結束日期值或開始日期晚於結束日期的記錄不會顯示在時間軸檢視中。
 
-1. 按一下 **橫條樣式** 在左側面板中，指定您要在記錄列上顯示的欄位。
+1. 按一下左側面板中的&#x200B;**列樣式**，以指示您要在記錄列上顯示的欄位。
 
-   預設會選取記錄的主要欄位（或標題），如記錄的表格檢視中所定義。 <!--adjust this when the primary field is released??-->
+   預設會選取記錄的主要欄位（或標題），如記錄的表格檢視中所定義。<!--adjust this when the primary field is released??-->
 
 1. （選擇性和條件性）如果您將縮圖新增至記錄，請選取「縮圖」選項，以顯示與其記錄列中的記錄相關聯的影像。
 
    >[!NOTE]
    >
-   >    您必須先在表格檢視中新增縮圖，才能在時間軸檢視中顯示它們。 如需詳細資訊，請參閱 [新增縮圖至記錄](/help/quicksilver/planning/records/add-thumbnails-to-records.md).
+   >    您必須先在表格檢視中新增縮圖，才能在時間軸檢視中顯示它們。 如需詳細資訊，請參閱[新增縮圖至記錄](/help/quicksilver/planning/records/add-thumbnails-to-records.md)。
 
-1. 按一下 **新增欄位** 以新增最多4個欄位到記錄列。
-1. 按一下 **搜尋欄位** 方塊，然後按一下您要新增的欄位。
+1. 按一下&#x200B;**新增欄位**&#x200B;以將最多4個欄位新增到記錄列。
+1. 在&#x200B;**搜尋欄位**&#x200B;方塊內按一下，然後按一下您要新增的欄位。
 
    >[!TIP]
    >
    >   * 您必須先建立欄位，才能將其新增到記錄列。
    > 
-   >   * 您必須至少選取一個欄位。 **名稱** 預設為選取。
+   >   * 您必須至少選取一個欄位。 預設會選取&#x200B;**名稱**。
 
    右側會顯示時間軸上長條圖的外觀。
 
    ![](assets/record-details-panel-timeline-settings-with-preview.png)
 
-1. 按一下 **顏色** 在左側面板中，自訂時間軸中記錄和群組的顏色。
+1. 按一下左側面板中的&#x200B;**色彩**，以自訂時間軸中記錄和群組的色彩。
 
    ![](assets/color-tab-timeline-view.png)
 
-1. （條件式與選擇性）如果您將群組新增至時間軸檢視，請從下列選項中選取，以設定群組中的顏色 **設定群組顏色** 區段：
+1. （條件式與選擇性）如果您將群組新增至時間軸檢視，請從下列選項中選取，以在&#x200B;**設定群組顏色**&#x200B;區段中設定群組的顏色：
 
-   * **預設（灰色）**：群組的顏色會設定為灰色。 這是預設值。
-   * **欄位值**：分組的顏色符合您分組依據的欄位顏色。
+   * **預設（灰色）**：群組的顏色設定為灰色。 這是預設值。
+   * **欄位值**：群組的顏色符合您群組依據之欄位的顏色。
 
      >[!NOTE]
      >
@@ -309,14 +309,14 @@ this is not possible right now; if this is the same functionality as the table v
    >
    >如果您未將群組新增至時間軸檢視，則不會顯示此區段。
 
-1. 在 **設定記錄顏色** 區段中，從下列選項中選取，以設定記錄的顏色：
+1. 在&#x200B;**設定記錄色彩**&#x200B;區段中，從下列選項中選取，以設定記錄的色彩：
 
-   * **記錄型別**：記錄的顏色符合您選取的記錄型別的顏色。 這是預設選項。
-   * **欄位值**：記錄的顏色與您指定的欄位顏色相符。 繼續進行步驟10。 <!--ensure this stays accurate-->
-   * **分組**：記錄的顏色符合您為分組指定的顏色。 當您未將群組套用到時間軸檢視時，此選項會變暗。
-   * **無**：記錄會以白色列顯示。
+   * **記錄型別**：記錄的顏色符合您選取的記錄型別顏色。 這是預設選項。
+   * **欄位值**：記錄的顏色符合您指定的欄位顏色。 繼續步驟10。<!--ensure this stays accurate-->
+   * **群組**：記錄的顏色符合您為群組指定的顏色。 當您未將群組套用到時間軸檢視時，此選項會變暗。
+   * **無**：記錄以白色列顯示。
 
-1. （視條件而定）如果您已選取 **欄位值** 對於記錄顏色，從 **比對記錄顏色** 下拉式功能表。
+1. （視條件而定）如果您為記錄顏色選取&#x200B;**欄位值**，請從&#x200B;**將記錄顏色與**&#x200B;下拉式功能表中選取欄位。
 
    ![](assets/field-selector-drop-down-menu-timeline-view.png)
 

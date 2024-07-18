@@ -15,7 +15,7 @@ ht-degree: 0%
 
 # 22.3整合增強功能
 
-本頁說明22.3版對預覽環境所做的所有整合增強功能。 這些增強功能將於2022年1月11日當週的2022年7月11日在生產環境中提供。 如需22.3版所有可用變更的清單，請參閱 [22.3版本總覽](/help/quicksilver/product-announcements/product-releases/22.3-release-activity/22-3-release-overview.md).
+本頁說明22.3版對預覽環境所做的所有整合增強功能。 這些增強功能將於2022年1月11日當週的2022年7月11日在生產環境中提供。 如需22.3版本可用的所有變更清單，請參閱[22.3版本總覽](/help/quicksilver/product-announcements/product-releases/22.3-release-activity/22-3-release-overview.md)。
 
 ## 適用於Experience Manager Assets整合的Adobe Workfront
 
@@ -49,7 +49,7 @@ ht-degree: 0%
 
 Workfront管理員可以根據其組織的需求，個別啟用和停用SharePoint和舊版SharePoint整合。
 
-如需詳細資訊，請參閱 [設定舊版SharePoint整合](/help/quicksilver/administration-and-setup/configure-integrations/configure-sharepoint-integration.md).
+如需詳細資訊，請參閱[設定舊版SharePoint整合](/help/quicksilver/administration-and-setup/configure-integrations/configure-sharepoint-integration.md)。
 
 ## 在Creative Cloud外掛程式的單一校訂中合併多個檔案
 

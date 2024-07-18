@@ -28,12 +28,12 @@ ht-degree: 0%
 本節包含下列文章：
 
 * [文字模式概觀](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md)
-* [文字模式的常見用途概觀](../../../reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md)
+* [文字模式的常見使用概述](../../../reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md)
 * [文字模式語法概觀](../../../reports-and-dashboards/reports/text-mode/text-mode-syntax-overview.md)
 * [使用文字模式編輯檢視](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-view.md)
 * [使用文字模式編輯篩選器](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md)
-* [編輯群組中的文字模式](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-grouping.md)
-* [自訂檢視、篩選和分組範例：文章索引](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md)
+* [在群組中編輯文字模式](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-grouping.md)
+* [自訂檢視、篩選和群組範例：發行項索引](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md)
 
   <!--
   <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -41,7 +41,7 @@ ht-degree: 0%
   </MadCap:conditionalText>
   -->
 
-* [報表中計算的自訂資料](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-custom-data-reports.md)
+* [在報表中計算的自訂資料](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-custom-data-reports.md)
 
   <!--
   <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">

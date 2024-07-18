@@ -24,7 +24,7 @@ ht-degree: 1%
 標準介面產生器在建立報表元素時，會提供各種彈性以符合您組織的需求。
 
 您可以使用標準介面，在檢視中套用條件式格式。\
-如需將條件式格式套用至檢視的詳細資訊，請參閱 [在檢視中使用條件式格式](../../../reports-and-dashboards/reports/reporting-elements/use-conditional-formatting-views.md).
+如需將條件式格式套用至檢視的詳細資訊，請參閱[在檢視中使用條件式格式](../../../reports-and-dashboards/reports/reporting-elements/use-conditional-formatting-views.md)。
 
 ## 存取需求
 
@@ -58,7 +58,7 @@ ht-degree: 1%
  </tbody> 
 </table>
 
-如需有關此表格的詳細資訊，請參閱 [Workfront檔案中的存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -67,9 +67,9 @@ ht-degree: 1%
 
 文字模式可讓您使用標準介面中無法使用的欄位，來建立更複雜的檢視、篩選器、群組和提示。
 
-如需所有可報告欄位的完整清單，請參閱  [API總管](../../../wf-api/general/api-explorer.md).
+如需所有可報告欄位的完整清單，請參閱[API總管](../../../wf-api/general/api-explorer.md)。
 
-如需有關使用文字模式語法的詳細資訊，請參閱 [文字模式語法概觀](../../../reports-and-dashboards/reports/text-mode/text-mode-syntax-overview.md).
+如需有關使用文字模式語法的詳細資訊，請參閱[文字模式語法概觀](../../../reports-and-dashboards/reports/text-mode/text-mode-syntax-overview.md)。
 
 您也可以使用文字模式來格式化報表和清單中的檢視。 使用條件式格式，您可以變更報表中結果的字型型別和背景，以及圖示和旗標，以變更報表的檢視。 建議您一律先使用標準介面建置檢視，並在絕對必要時才切換至文字模式介面。
 
@@ -79,25 +79,25 @@ ht-degree: 1%
 
 ## 新增條件式格式至檢視
 
-如需將條件式格式套用至標準產生器介面中的檢視的詳細資訊，請參閱 [在檢視中使用條件式格式](../../../reports-and-dashboards/reports/reporting-elements/use-conditional-formatting-views.md).
+如需將條件式格式套用至標準產生器介面中的檢視的詳細資訊，請參閱[在檢視中使用條件式格式](../../../reports-and-dashboards/reports/reporting-elements/use-conditional-formatting-views.md)。
 
 若要在文字模式介面中新增條件式格式至檢視：
 
 1. 移至物件清單。
 1. 展開您要新增條件式格式之檢視的下拉式功能表。
-1. 按一下 **自訂檢視**.
+1. 按一下&#x200B;**自訂檢視**。
 1. 在檢視中按一下要套用條件式格式的欄。
-1. 按一下 **切換到文字模式**.
-1. 在 **顯示在此欄：** 區域，按一下 **按一下以編輯文字**.
-1. 新增中提供的程式碼範例 [使用文字模式格式化檢視](#format-views-using-text-mode) 位於所選欄文字底部。
-1. 按一下 **儲存**，然後按一下 **儲存檢視**.
+1. 按一下&#x200B;**切換到文字模式**。
+1. 在&#x200B;**顯示在此欄：**&#x200B;區域中，按一下&#x200B;**按一下以編輯文字**。
+1. 使用文字模式](#format-views-using-text-mode)，在您選取的資料行文字的底部，加入[格式檢視中提供的程式碼範例。
+1. 按一下&#x200B;**儲存**，然後按一下&#x200B;**儲存檢視**。
 
 ## 使用文字模式格式化檢視 {#format-views-using-text-mode}
 
 您可以在檢視中將下列元件新增至欄，以有條件地以文字模式設定其格式：
 
-* [欄設定](#column-settings)
-* [欄規則](#column-rules)
+* [資料行設定](#column-settings)
+* [資料行規則](#column-rules)
 * [有條件地格式化值運算式](#conditionally-format-a-valueexpression)
 
 ### 欄設定 {#column-settings}
@@ -107,12 +107,12 @@ ht-degree: 1%
 在檢視中使用條件式格式時，您可以自訂欄的下列元素：
 
 * [欄標題](#column-headers)
-* [日期格式](#format-dates)
+* [格式化日期](#format-dates)
 * [數字格式](#format-numbers)
 
 #### 欄標題 {#column-headers}
 
-若要變更顯示的欄標題，請新增下列程式碼至您的欄： `displayname= [Name of column]`. 例如，若要將欄命名為「專案所有者」，文字代碼如下所示：
+若要變更顯示的欄標題，請新增下列程式碼至您的欄： `displayname= [Name of column]`。 例如，若要將欄命名為「專案所有者」，文字代碼如下所示：
 
 `displayname=Project Owner`
 
@@ -120,7 +120,7 @@ ht-degree: 1%
 
 日期可以設定為以各種格式顯示。
 
-如需詳細資訊，請參閱 [文字模式報表中的日期格式](../../../reports-and-dashboards/reports/text-mode/format-dates-in-text-mode-reports.md).
+如需詳細資訊，請參閱[文字模式報表中的日期格式](../../../reports-and-dashboards/reports/text-mode/format-dates-in-text-mode-reports.md)。
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
@@ -183,7 +183,7 @@ ht-degree: 1%
 
 您可以格式化數值，以顯示最適合您報告需求的資訊。
 
-如需詳細資訊，請參閱 [格式化文字模式報表中的數字、貨幣和百分比值](../../../reports-and-dashboards/reports/text-mode/format-numbers-in-text-mode-reports.md).
+如需詳細資訊，請參閱[文字模式報表中的數字、貨幣和百分比值格式](../../../reports-and-dashboards/reports/text-mode/format-numbers-in-text-mode-reports.md)。
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -248,9 +248,9 @@ ht-degree: 1%
 欄規則允許在檢視中新增影像、顏色、格式和文字覆寫。 欄規則可以獨立建立，也可以包含欄的多個條件。
 
 * [條件式格式](#conditional-formatting)
-* [多個條件式格式](#multiple-conditional-formats)
+* [多個條件格式](#multiple-conditional-formats)
 * [套用文字](#apply-text)
-* [套用列格式](#apply-row-formats)
+* [套用資料列格式](#apply-row-formats)
 * [套用影像](#apply-images)
 
 #### 條件式格式設定 {#conditional-formatting}
@@ -260,7 +260,7 @@ ht-degree: 1%
 >[!NOTE]
 >
 >合併的欄可能不支援條件式格式。\
->如需有關將欄與文字模式合併的詳細資訊，請參閱 [檢視：合併一個共用欄中多個欄的資訊](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-merge-columns.md).
+>如需有關以文字模式合併欄的詳細資訊，請參閱[檢視：合併一個共用欄中多個欄的資訊](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-merge-columns.md)。
 
 在您要新增條件式格式的任何欄中插入下列程式碼：
 
@@ -278,11 +278,11 @@ styledef.case.0.comparison.trueproperty.0.value= [format style]
 
 >[!NOTE]
 >
->此 `styledef.case.0.comparison.icon` 除非使用圖示，否則行一律為false。
+>除非使用圖示，否則`styledef.case.0.comparison.icon`行一律為false。
 >
->此 `styledef.case.0.comparison.truetext` 行一律保持空白，直到使用覆寫文字為止。
+>在處理覆寫文字之前，`styledef.case.0.comparison.truetext`行一律保持空白。
 >
->此 `styledef.case.0.comparison.righttext` 當限定詞非空白時，明細行為空白。
+>當限定詞非空白時，`styledef.case.0.comparison.righttext`行是空白的。
 
 例如，如果我們想在專案報告中以綠色文字顯示公司名稱，您可以使用下列程式碼：
 
@@ -300,8 +300,8 @@ styledef.case.0.comparison.trueproperty.0.value=03a219
 
 >[!NOTE]
 >
->* 雖然此陳述式可套用至「公司名稱」欄，但也可套用至報表上的任何其他欄。 只有在專案有關聯的公司時，才會顯示綠色文字。 記住 `[field name]`， `[value]`、和 `[qualifier]` 驅動條件是否最終顯示在欄上。
->* 使用限定詞時，我們建議使用 `cicontains` 而非 `equal`. 根據預設， `equal` 尋找ID號碼。 使用 `cicontains` 限定元，您可以依其名稱存取專案。
+>* 雖然此陳述式可套用至「公司名稱」欄，但也可套用至報表上的任何其他欄。 只有在專案有關聯的公司時，才會顯示綠色文字。 記住`[field name]`、`[value]`和`[qualifier]`磁碟機，無論條件是否最終顯示在資料行上。
+>* 使用限定詞時，我們建議使用`cicontains`而非`equal`。 依預設，`equal`會尋找ID號碼。 使用`cicontains`辨識符號，您可以依專案名稱來存取專案。
 
 ![](assets/screen-shot-2013-08-15-at-2.53.51-pm-350x199.png)
 
@@ -318,7 +318,7 @@ styledef.case.0.comparison.trueproperty.0.value= [format style]
 
 使用下清單格來識別必須修改哪些行，以及您應該指定哪些值來定義欄的格式樣式：
 
-| **文字色彩** | **線條： textcolor=** |
+| **文字色彩** | **行： textcolor=** |
 |---|---|
 | 黑色 | `000000` |
 | 深藍色 | `0c6aca` |
@@ -331,7 +331,7 @@ styledef.case.0.comparison.trueproperty.0.value= [format style]
 
 {style="table-layout:auto"}
 
-| **對齊方式** | **直線： align=** |
+| **對齊方式** | **行： align=** |
 |---|---|
 | 靠左對齊 | `left` |
 | 靠右對齊 | `right` |
@@ -339,14 +339,14 @@ styledef.case.0.comparison.trueproperty.0.value= [format style]
 
 {style="table-layout:auto"}
 
-| 字型 | 行： ***字型樣式=*** |
+| 字型 | 行： ***fontstyle=*** |
 |---|---|
 | 粗體 | `bold` |
 | 斜體 | `italic` |
 
 {style="table-layout:auto"}
 
-| **背景顏色** | **線條：bgcolor=** |
+| **背景色彩** | **行： bgcolor=** |
 |---|---|
 | 藍綠色 | `dcf6f7` |
 | 綠色 | `def6e2` |
@@ -408,7 +408,7 @@ styledef.case.0.comparison.truetext=not today
 
 >[!NOTE]
 >
->開頭為的行 `case.0.` 使用案例比較來識別文字的使用。 開頭為的行 `styledef.case.0.` 是早期的條件式格式陳述式，我們透過以下說明來識別文字的使用 `truetext` 運算式。 請務必設定 `truetext` 至一個值，而不是保留為空白。
+>以`case.0.`開頭以識別文字使用的使用案例比較行。 以`styledef.case.0.`開頭的行是早期的條件式格式陳述式，我們透過`truetext`運算式來識別文字的使用。 請務必將`truetext`設定為值，而非保留空白。
 
 ![](assets/screen-shot-2013-08-15-at-3.22.02-pm-350x196.png)
 
@@ -473,7 +473,7 @@ image.case.0.comparison.truetext=/interface/images/v4_redux/icons/casebuilder/em
 
 >[!NOTE]
 >
->請注意，陳述式會使用 `icon=true` 運算式。 此陳述式也與其他條件式格式陳述式不同，因為它不使用 `style.def` 格式，但不是唯一的影像格式。
+>請注意，陳述式使用`icon=true`運算式。 此陳述式也與其他條件式格式陳述式不同，因為它不使用`style.def`格式，而是使用唯一的影像格式。
 
 ![](assets/screen-shot-2013-08-15-at-3.35.08-pm-350x199.png)
 
@@ -481,36 +481,36 @@ image.case.0.comparison.truetext=/interface/images/v4_redux/icons/casebuilder/em
 
 若要使用可用的影像，請套用下列程式碼和值：
 
-| **圖示** | **折線： image.case.0.comparison.truetext=** |
+| **圖示** | **行： image.case.0.comparison.truetext=** |
 |---|---|
-| 皺眉臉 ![](assets/face-sad.png) | =`/interface/images/v4_redux/icons/casebuilder/emoticon_frown.gif` |
-| 快樂的臉 ![](assets/face-happy.png) | =`/interface/images/v4_redux/icons/casebuilder/emoticon_smile.gif` |
-| 藍色旗標  ![](assets/flag-blue-large.png) | =`/interface/images/v4_redux/icons/casebuilder/flag_blue.gif` |
-| 綠色旗標  ![](assets/flag-green-large.png) | =`/interface/images/v4_redux/icons/casebuilder/flag_green.gif` |
-| 紅色旗標  ![](assets/flag-red-style2.png) | =`/interface/images/v4_redux/icons/casebuilder/flag_red.gif` |
-| 黃色旗標  ![](assets/flag-yellow-style2.png) | =`/interface/images/v4_redux/icons/casebuilder/flag_yellow.gif` |
-| 黑色圓形  ![](assets/dot-black.png) | =`/interface/images/v4_redux/icons/casebuilder/light_black.gif` |
-| 藍色圓形 ![](assets/dot-blue.png) | =`/interface/images/v4_redux/icons/casebuilder/light_blue.gif` |
-| 灰色圓形 ![](assets/dot-gray.png) | =`/interface/images/v4_redux/icons/casebuilder/light_grey.gif` |
-| 綠色圓形 ![](assets/dot-green.png) | =`/interface/images/v4_redux/icons/casebuilder/light_green.gif` |
-| 橘色圓形 ![](assets/dot-orange.png) | =`/interface/images/v4_redux/icons/casebuilder/light_orange.gif` |
-| 粉紅色圓形 ![](assets/dot-pink.png) | =`/interface/images/v4_redux/icons/casebuilder/light_pink.gif` |
-| 紫色圓形 ![](assets/dot-purple.png) | =`/interface/images/v4_redux/icons/casebuilder/light_purple.gif` |
-| 紅色圓形 ![](assets/dot-red.png) | =`/interface/images/v4_redux/icons/casebuilder/light_red.gif` |
-| 白色圓形 ![](assets/dot-white.png) | =`/interface/images/v4_redux/icons/casebuilder/light_white.gif` |
-| 黃色圓形 ![](assets/dot-yellow.png) | =`/interface/images/v4_redux/icons/casebuilder/light_yellow.gif` |
+| 皺眉臉![](assets/face-sad.png) | =`/interface/images/v4_redux/icons/casebuilder/emoticon_frown.gif` |
+| 快樂的臉![](assets/face-happy.png) | =`/interface/images/v4_redux/icons/casebuilder/emoticon_smile.gif` |
+| 藍色旗標![](assets/flag-blue-large.png) | =`/interface/images/v4_redux/icons/casebuilder/flag_blue.gif` |
+| 綠色旗標![](assets/flag-green-large.png) | =`/interface/images/v4_redux/icons/casebuilder/flag_green.gif` |
+| 紅色旗標![](assets/flag-red-style2.png) | =`/interface/images/v4_redux/icons/casebuilder/flag_red.gif` |
+| 黃色旗標![](assets/flag-yellow-style2.png) | =`/interface/images/v4_redux/icons/casebuilder/flag_yellow.gif` |
+| 黑色圓圈![](assets/dot-black.png) | =`/interface/images/v4_redux/icons/casebuilder/light_black.gif` |
+| 藍色圓圈![](assets/dot-blue.png) | =`/interface/images/v4_redux/icons/casebuilder/light_blue.gif` |
+| 灰色圓形![](assets/dot-gray.png) | =`/interface/images/v4_redux/icons/casebuilder/light_grey.gif` |
+| 綠色圓圈![](assets/dot-green.png) | =`/interface/images/v4_redux/icons/casebuilder/light_green.gif` |
+| 橘色圓圈![](assets/dot-orange.png) | =`/interface/images/v4_redux/icons/casebuilder/light_orange.gif` |
+| 粉紅色圓圈![](assets/dot-pink.png) | =`/interface/images/v4_redux/icons/casebuilder/light_pink.gif` |
+| 紫色圓圈![](assets/dot-purple.png) | =`/interface/images/v4_redux/icons/casebuilder/light_purple.gif` |
+| 紅色圓圈![](assets/dot-red.png) | =`/interface/images/v4_redux/icons/casebuilder/light_red.gif` |
+| 白色圓圈![](assets/dot-white.png) | =`/interface/images/v4_redux/icons/casebuilder/light_white.gif` |
+| 黃色圓圈![](assets/dot-yellow.png) | =`/interface/images/v4_redux/icons/casebuilder/light_yellow.gif` |
 
 {style="table-layout:auto"}
 
-### 有條件地格式化 `valueexpression` {#conditionally-format-a-valueexpression}
+### 有條件地格式化`valueexpression` {#conditionally-format-a-valueexpression}
 
-若要在欄中顯示計算值，您可以取代 `valuefield` 欄中的程式碼行，帶有 `valueexpression`. 計算值可讓您根據相同物件上兩個現有欄位之間的計算，顯示物件的新值。
+若要在欄中顯示計算值，您可以將欄中的`valuefield`行程式碼取代為`valueexpression`。 計算值可讓您根據相同物件上兩個現有欄位之間的計算，顯示物件的新值。
 
-如需如何格式化的詳細資訊， `valueexpression line`，請參閱 [文字模式語法概觀](../../../reports-and-dashboards/reports/text-mode/text-mode-syntax-overview.md).
+如需如何格式化`valueexpression line`的詳細資訊，請參閱[文字模式語法概述](../../../reports-and-dashboards/reports/text-mode/text-mode-syntax-overview.md)。
 
-您無法有條件地格式化包含 `valueexpression` 程式碼行。 反之，您可以將計算的自訂欄位新增到自訂表單，並將其與報表中顯示的物件相關聯。 然後，您可以有條件地格式化顯示此欄位的欄。
+您無法有條件地格式化包含`valueexpression`行程式碼的資料行。 反之，您可以將計算的自訂欄位新增到自訂表單，並將其與報表中顯示的物件相關聯。 然後，您可以有條件地格式化顯示此欄位的欄。
 
-如需有關計算自訂欄位的詳細資訊，請參閱 [新增計算資料至自訂表單](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
+如需有關計算自訂欄位的詳細資訊，請參閱[將計算資料新增至自訂表單](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md)。
 
 ## 在文字模式欄中新增彙總值
 
@@ -524,7 +524,7 @@ image.case.0.comparison.truetext=/interface/images/v4_redux/icons/casebuilder/em
    * 日期
    * 貨幣
 
-* 您可以將彙總器新增至顯示計算的欄。 彙總值會顯示在檢視或報表的分組中。 如需詳細資訊，請參閱 [分組：顯示分組中多個計算值的彙總結果](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-calculation-between-two-fields-aggregated-in-grouping.md).
+* 您可以將彙總器新增至顯示計算的欄。 彙總值會顯示在檢視或報表的分組中。 如需詳細資訊，請參閱[群組：顯示群組](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-calculation-between-two-fields-aggregated-in-grouping.md)中多個計算值的彙總結果。
 * 用於定義欄的程式碼行必須與引入彙總器的程式碼行相同，並且前面必須加上「彙總」。 例如，如果您有在專案中顯示計畫時數的欄，則該欄主要行的文字模式為：
 
 ```
@@ -534,10 +534,10 @@ image.case.0.comparison.truetext=/interface/images/v4_redux/icons/casebuilder/em
 
 當您想要彙總檢視分組中所有行的值時，我們可以新增下列程式碼來新增彙總值：
 
-`aggregator.valuefield=workRequired` (此 `aggregator.valuefield` 行必須與 `valuefield` 描述欄)
+`aggregator.valuefield=workRequired` （`aggregator.valuefield`行必須與描述該欄的`valuefield`相同）
 
-`aggregator.valueformat=compound` (此 `aggregator.valueformat` 行的值必須與 `valueformat` 描述欄)
+`aggregator.valueformat=compound` （`aggregator.valueformat`行必須具有與描述該欄的`valueformat`相同的值）
 
-`aggregator.function=SUM` （這是指示您要如何彙總欄的強制行，在此情況下，您要將所有個別計畫時數新增到分組行中的一個數字）
+`aggregator.function=SUM` （這是指示您要如何彙總欄的強制行，在此例中，您要將所有個別計畫時數新增到分組行中的一個數字）
 
-`aggregator.displayformat=minutesAsHoursString` (因為時數會以分鐘為單位儲存在Workfront中，因此我們想要指出 `displayformat` 當資料以分鐘儲存時代表小時)
+`aggregator.displayformat=minutesAsHoursString` (因為時數是以分鐘數儲存在Workfront中，我們想要在時數以分鐘數儲存時指出`displayformat`)

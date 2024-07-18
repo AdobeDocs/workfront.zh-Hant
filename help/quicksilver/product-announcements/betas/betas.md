@@ -1,6 +1,6 @@
 ---
 navigation-topic: betas
-title: 測試版計畫
+title: Beta計畫
 description: 瞭解關於Adobe Workfront目前測試版的資訊。
 author: Alina
 feature: Product Announcements
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 ---
 
-# 測試版計畫
+# Beta計畫
 
 從這個頁面連結的文章會說明Adobe Workfront中目前可用的測試版計畫。 可能並非所有客戶都可使用測試版的功能。
 

@@ -2,7 +2,7 @@
 content-type: reference
 navigation-topic: announcements
 title: Adobe Workfront 21.1版本電子郵件的新IP位址
-description: 為了提高電子郵件傳送的成功率，我們針對下列叢集新增新的IP位址，並以21.1生產版本發行。 若要找出您執行個體所在的叢集，請前往「設定&gt；系統&gt；客戶資訊」。
+description: 為了提高電子郵件傳送的成功率，我們針對下列叢集新增新的IP位址，並以21.1生產版本發行。 若要找出您執行個體所在的叢集，請前往Setup &amp； System &amp； Gt； Customer Info。
 author: Luke
 feature: Product Announcements
 exl-id: b29c8de0-b405-4419-b52e-2d5536bc7f63
@@ -33,7 +33,7 @@ ht-degree: 0%
 * 23.251.239.98
 * 23.251.239.99
 
-(如需允許清單的其他內容，以及可能已新增至允許清單的其他IP位址，請參閱 [設定防火牆的允許清單](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).)
+（如需允許清單的其他相關資訊以及可能已新增至允許清單的其他IP位址，請參閱[設定防火牆的允許清單](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md)。）
 
 這什麼時候需要完成？
 

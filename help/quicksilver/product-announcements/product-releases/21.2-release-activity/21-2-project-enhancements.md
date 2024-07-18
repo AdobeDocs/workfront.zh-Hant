@@ -17,7 +17,7 @@ ht-degree: 1%
 
 # 21.2專案增強功能
 
-本頁說明21.2版對預覽環境所做的所有專案增強功能。 這些增強功能將在2021年5月10日當週的生產環境中提供。 如需21.2版所有可用變更的清單，請參閱 [21.2版本總覽](../../../product-announcements/product-releases/21.2-release-activity/21-2-release-overview.md).
+本頁說明21.2版對預覽環境所做的所有專案增強功能。 這些增強功能將在2021年5月10日當週的生產環境中提供。 如需21.2版本可用的所有變更清單，請參閱[21.2版本概觀](../../../product-announcements/product-releases/21.2-release-activity/21-2-release-overview.md)。
 
 ## 用於建立和編輯週期性任務的新介面
 
@@ -27,9 +27,9 @@ ht-degree: 1%
 
 在重新設計「新增」和「編輯任務」方塊時，我們新增了使新任務重複執行以及編輯重複執行任務之父系的功能。 此功能未包含在先前發行的「新增及編輯任務」方塊重新設計中。
 
-如需詳細資訊，請參閱 [建立週期性任務](../../../manage-work/tasks/create-tasks/create-recurring-tasks.md).
+如需詳細資訊，請參閱[建立週期性工作](../../../manage-work/tasks/create-tasks/create-recurring-tasks.md)。
 
-此功能現已包含在 [新Workfront體驗的計畫者基礎知識，第2部分：計畫專案](https://one.workfront.com/s/learningpath3/planner-fundamentals-for-the-new-workfront-experience-part-2-plan-a-project-MCDUWIMXC3JRAAFGHX7QYIN2BVDI) Workfront One的學習路徑。
+此功能現在包含在新Workfront體驗的[規劃基礎中，第2部分：在Workfront One上規劃專案](https://one.workfront.com/s/learningpath3/planner-fundamentals-for-the-new-workfront-experience-part-2-plan-a-project-MCDUWIMXC3JRAAFGHX7QYIN2BVDI)學習路徑。
 
 ## 專案標題中可用的新按鈕
 
@@ -39,7 +39,7 @@ ht-degree: 1%
 
 為了讓您快速篩選「專案」頁面上的專案清單，標題中有兩個新按鈕，可讓您快速套用我所在的專案或我擁有的專案篩選。
 
-此功能現已包含在 [新Workfront體驗的計畫者基礎知識，第1部分：建立專案](https://one.workfront.com/s/learningpath5/planner-fundamentals-for-the-new-workfront-experience-MCTOONVRZDLRD3FAIX6SQYSUAHDE) Workfront One的學習路徑。
+此功能現在包含在新Workfront體驗的[規劃師基礎課程第1部分：在Workfront One上建立專案](https://one.workfront.com/s/learningpath5/planner-fundamentals-for-the-new-workfront-experience-MCTOONVRZDLRD3FAIX6SQYSUAHDE)學習路徑。
 
 ## 從Scrum展示板移動或刪除劇本或問題
 
@@ -51,7 +51,7 @@ ht-degree: 1%
 
 您也可以按一下卡片上的「更多」圖示並選取「刪除」，選擇直接從Scrum面板刪除內文或問題。 當您刪除內文或問題時，內文或問題會移至資源回收筒並保留30天，且只有系統管理員才能復原。
 
-如需詳細資訊，請參閱 [管理Scrum展示板上的故事和問題](../../../agile/use-scrum-in-an-agile-team/scrum-board/manage-scrum-board.md).
+如需詳細資訊，請參閱[管理Scrum展示板上的劇本和問題](../../../agile/use-scrum-in-an-agile-team/scrum-board/manage-scrum-board.md)。
 
 ## 新增編輯問題方塊
 
@@ -93,7 +93,7 @@ ht-degree: 1%
 
 為了在您填寫自訂表單時獲得更好的體驗，我們改進了長自訂欄位標籤的顯示方式。 當有足夠的水平空間來完整顯示它們時，這些標籤將不再被截斷。
 
-如需填寫自訂表單的相關資訊，請參閱 [編輯自訂表單欄位中的資訊](../../../workfront-basics/work-with-custom-forms/edit-custom-forms.md).
+如需填寫自訂表單的相關資訊，請參閱[編輯自訂表單欄位中的資訊](../../../workfront-basics/work-with-custom-forms/edit-custom-forms.md)。
 
 ## 問題的主要連絡人現在可以從專案詳細資訊區域看到
 
@@ -105,7 +105,7 @@ ht-degree: 1%
 
 您必須在版面配置範本中啟用此欄位，才能在專案的新Adobe Workfront體驗中檢視它。
 
-如需轉換問題的相關資訊，請參閱 [在Adobe Workfront中轉換問題的概觀](../../../manage-work/issues/convert-issues/convert-issues.md).
+如需轉換問題的相關資訊，請參閱[在Adobe Workfront中轉換問題的概述](../../../manage-work/issues/convert-issues/convert-issues.md)。
 
 ## 檢視您要指派給投資組合、方案或團隊之群組的相關資訊
 
@@ -115,12 +115,12 @@ ht-degree: 1%
 
 當您指派群組給投資組合、方案或團隊時，我們讓您更容易確定您擁有正確的群組 — 您可以按一下群組名稱旁的資訊圖示，以顯示工具提示，其中包含群組上方的階層以及群組的管理員。 根據為群組設定的詳細資訊，您也可能看到群組的業務主管和說明。
 
-這是最近推出的相同功能，可協助您識別需要指派給專案的群組，如中所述 [編輯專案](../../../manage-work/projects/manage-projects/edit-projects.md).
+這是最近發行的相同功能，可協助您識別需要指派給專案的群組，如[編輯專案](../../../manage-work/projects/manage-projects/edit-projects.md)中所述。
 
 如需詳細資訊，請參閱下列文章：
 
 * [建立投資組合](../../../manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md)
-* [建立方案](../../../manage-work/portfolios/create-and-manage-programs/create-program.md)
+* [建立程式](../../../manage-work/portfolios/create-and-manage-programs/create-program.md)
 * [建立團隊](../../../people-teams-and-groups/create-and-manage-teams/create-a-team.md)
 
 ## 自訂欄位中的文字格式現在會顯示在所有Workfront Classic清單和報表中
@@ -133,9 +133,9 @@ ht-degree: 1%
 
 先前，在Workfront Classic中，文字格式只顯示在專案、任務和小時清單中。
 
-如需在自訂欄位中設定文字格式的相關資訊，請參閱 [建立自訂表格](https://one.workfront.com/s/document-item?bundleId=workfront-classic&amp;topicId=Content%2FAdministration_and_Setup%2FCustomize_Workfront%2FCreate_manage_Custom_Forms%2Fcreate-a-custom-form.html).
+如需有關在自訂欄位中格式化文字的資訊，請參閱[建立自訂表單](https://one.workfront.com/s/document-item?bundleId=workfront-classic&amp;topicId=Content%2FAdministration_and_Setup%2FCustomize_Workfront%2FCreate_manage_Custom_Forms%2Fcreate-a-custom-form.html)。
 
-如需有關在清單中顯示資訊的資訊，請參閱 [開始使用清單](https://one.workfront.com/s/document-item?bundleId=workfront-classic&amp;topicId=Content%2FWorkfront_basics%2FNavigate_Workfront%2FWorkfront_Navigation%2Fview-items-in-a-list.html&amp;_LANG=en).
+如需有關在清單中顯示資訊的資訊，請參閱[開始使用清單](https://one.workfront.com/s/document-item?bundleId=workfront-classic&amp;topicId=Content%2FWorkfront_basics%2FNavigate_Workfront%2FWorkfront_Navigation%2Fview-items-in-a-list.html&amp;_LANG=en)。
 
 ## 新增編輯任務方塊
 
@@ -156,7 +156,7 @@ ht-degree: 1%
 * 我們已將期間、期間型別和計畫時數欄位新增到「工作總攬」區段，以在更新各種期間型別中的指派以及他們花費在任務上的時間或期間時提供一致性。
 * 我們已從編輯工作畫面中移除評論功能，以消除「更新」區段的備援。
 
-如需有關新的「編輯工作」方塊的資訊，請參閱 [編輯任務](../../../manage-work/tasks/manage-tasks/edit-tasks.md).
+如需有關新編輯工作方塊的資訊，請參閱[編輯工作](../../../manage-work/tasks/manage-tasks/edit-tasks.md)。
 
 ## 新任務方塊
 
@@ -176,7 +176,7 @@ ht-degree: 1%
 * 您可以自訂「版面配置範本」一次，並在「詳細資訊」頁面和「新增任務」方塊中反映這些自訂。
 * 我們已將期間、期間型別和計畫時數欄位新增到指派區段，以便在更新指派時以及在任務上所花費的時間或期間保持一致。
 
-有關新的「新增任務」方塊的資訊，請參閱 [在專案中建立任務](../../../manage-work/tasks/create-tasks/create-tasks-in-project.md).
+如需有關新任務方塊的資訊，請參閱[在專案中建立任務](../../../manage-work/tasks/create-tasks/create-tasks-in-project.md)。
 
 ## 停用不再使用的團隊
 
@@ -186,7 +186,7 @@ ht-degree: 1%
 
 您現在可以停用不再使用的團隊。 當您停用團隊時，它不再出現在Workfront的大部分預先輸入、搜尋欄位或常見選單中。 但是，會保留與團隊相關的歷史資料。
 
-如需詳細資訊，請參閱 [停用團隊](../../../people-teams-and-groups/create-and-manage-teams/deactivate-a-team.md).
+如需詳細資訊，請參閱[停用團隊](../../../people-teams-and-groups/create-and-manage-teams/deactivate-a-team.md)。
 
 ## 更新為允許使用者刪除具有記錄時數的任務和問題的設定
 
@@ -198,5 +198,5 @@ ht-degree: 1%
 
 在此變更之前，停用設定會防止使用者僅刪除任務或問題，而不會刪除專案。
 
-如需詳細資訊，請參閱 [設定系統範圍的任務和問題偏好設定](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
+如需詳細資訊，請參閱[設定全系統的任務和問題偏好設定](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md)。
 

@@ -17,7 +17,7 @@ ht-degree: 0%
 
 本頁說明21.4版本對「預覽」環境所做的所有報表增強功能。 這些增強功能將在2021年10月4日當週的生產環境中提供。
 
-如需21.4版本所有可用變更的清單，請參閱 [21.4版本總覽](../../../product-announcements/product-releases/21.4-release-activity/21-4-release-overview.md).
+如需21.4版本可用的所有變更清單，請參閱[21.4版本總覽](../../../product-announcements/product-releases/21.4-release-activity/21-4-release-overview.md)。
 
 ## 更新清單和報告中「工作總攬」欄位的新外觀
 
@@ -38,7 +38,7 @@ ht-degree: 0%
 * 新的「限制存取」圖示
 * 其他次要設計變更
 
-如需清單中指派的詳細資訊，請參閱 [指派任務](../../../manage-work/tasks/assign-tasks/assign-tasks.md) 或 [指派問題](../../../manage-work/issues/manage-issues/assign-issues.md).
+如需清單中指派的詳細資訊，請參閱[指派任務](../../../manage-work/tasks/assign-tasks/assign-tasks.md)或[指派問題](../../../manage-work/issues/manage-issues/assign-issues.md)。
 
 ![](assets/assignments-updates-350x193.png)
 
@@ -58,6 +58,6 @@ ht-degree: 0%
 * 現在當您按一下預先輸入欄位時，建議功能表會在您輸入文字之前顯示。
 * 建議功能表更能回應值的長度，現在，當符合字元限制時，這些值會在結尾截斷，而不是在值中間。
 
-如需更新清單的詳細資訊，請參閱 [更新清單和舊版清單之間的差異](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md#updated) 文章中的區段 [開始使用Adobe Workfront中的清單](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).
+如需有關已更新清單的資訊，請參閱文章[開始使用Adobe Workfront中的清單](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md)中的[已更新清單和舊版清單的差異](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md#updated)區段。
 
 ![](assets/typeahead-updates-350x336.png)

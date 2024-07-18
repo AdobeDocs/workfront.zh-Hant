@@ -4,25 +4,25 @@ product-previous: workfront-fusion
 product-area: workfront-integrations;documents
 keywords: 聯結器
 navigation-topic: apps-and-their-modules
-title: Google投影片模組
-description: Adobe Workfront Fusion Google投影片模組可讓您建立、更新、列出和/或刪除簡報，並將影像上傳至Google投影片帳戶中的簡報。
+title: Google幻燈片模組
+description: Adobe Workfront Fusion Google幻燈片模組可讓您建立、更新、列出及/或刪除簡報，並將影像上傳至Google幻燈片帳戶中的簡報。
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: 680a5328-1d50-4434-beda-7a4670a6e458
 source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
 workflow-type: tm+mt
-source-wordcount: '1623'
+source-wordcount: '1618'
 ht-degree: 0%
 
 ---
 
-# [!DNL Google Slides] 模組
+# [!DNL Google Slides]模組
 
-此 [!DNL Adobe Workfront Fusion] [!DNL Google Slides] 模組可讓您建立、更新、列出和/或刪除簡報，並將影像上傳至您的中的簡報 [!DNL Google Slides] 帳戶。
+[!DNL Adobe Workfront Fusion] [!DNL Google Slides]模組可讓您建立、更新、列出和/或刪除簡報，並將影像上傳到您[!DNL Google Slides]帳戶中的簡報。
 
-為了使用 [!DNL Google Slides] 替換為 [!DNL Workfront Fusion]，必須有 [!DNL Google] 帳戶。 如果您沒有 [!DNL Google] 帳戶尚未完成時，您可以在 [!DNL Google] 帳戶說明頁面。
+若要搭配[!DNL Workfront Fusion]使用[!DNL Google Slides]，必須有[!DNL Google]帳戶。 如果您還沒有[!DNL Google]帳戶，您可以在[!DNL Google]帳戶說明頁面建立一個帳戶。
 
-您還需要 [!DNL Google Slides] 在您的 [!DNL Google Drive].
+您的[!DNL Google Drive]中還需要[!DNL Google Slides]。
 
 ## 存取需求
 
@@ -33,7 +33,7 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 計劃*</td>
+   <td role="rowheader">[!DNL Adobe Workfront] 計畫*</td>
   <td> <p>[！UICONTROL Pro]或更高版本</p> </td>
   </tr> 
   <tr data-mc-conditions=""> 
@@ -43,35 +43,35 @@ ht-degree: 0%
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] 授權**</td> 
    <td>
-   <p>目前授權需求：否 [!DNL Workfront Fusion] 授權需求。</p>
+   <p>目前授權需求：無[!DNL Workfront Fusion]授權需求。</p>
    <p>或</p>
-   <p>舊版授權需求： [！UICONTROL [!DNL Workfront Fusion] 適用於工作自動化與整合] </p>
+   <p>舊版授權需求：[！UICONTROL [!DNL Workfront Fusion] for Work Automation and Integration] </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">產品</td> 
    <td>
-   <p>目前產品需求：如果您有[！UICONTROL Select]或[！UICONTROL Prime] [!DNL Adobe Workfront] 計畫，您的組織必須購買 [!DNL Adobe Workfront Fusion] 以及 [!DNL Adobe Workfront] 以使用本文所述功能。 [!DNL Workfront Fusion] 包含在[！UICONTROL Ultimate]中 [!DNL Workfront] 計畫。</p>
+   <p>目前產品需求：如果您有[！UICONTROL Select]或[！UICONTROL Prime] [!DNL Adobe Workfront]計畫，您的組織必須購買[!DNL Adobe Workfront Fusion]及[!DNL Adobe Workfront]，才能使用本文所述的功能。 [!DNL Workfront Fusion]包含在[！UICONTROL Ultimate] [!DNL Workfront]計畫中。</p>
    <p>或</p>
-   <p>舊版產品需求：貴組織必須購買 [!DNL Adobe Workfront Fusion] 以及 [!DNL Adobe Workfront] 以使用本文所述功能。</p>
+   <p>舊版產品需求：您的組織必須購買[!DNL Adobe Workfront Fusion]及[!DNL Adobe Workfront]，才能使用本文所述的功能。</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-若要瞭解您擁有哪些計畫、授權型別或存取權，請聯絡您的 [!DNL Workfront] 管理員。
+若要瞭解您擁有的計畫、授權型別或存取權，請連絡您的[!DNL Workfront]管理員。
 
-有關以下專案的資訊： [!DNL Adobe Workfront Fusion] 授權，請參閱 [[!DNL Adobe Workfront Fusion] 授權](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+如需[!DNL Adobe Workfront Fusion]授權的相關資訊，請參閱[[!DNL Adobe Workfront Fusion] 授權](../../workfront-fusion/get-started/license-automation-vs-integration.md)。
 
-## 必要條件
+## 先決條件
 
-使用 [!DNL Google Slides] 模組，您必須擁有 [!DNL Google] 帳戶。
+若要使用[!DNL Google Slides]模組，您必須有[!DNL Google]帳戶。
 
-## [!DNL Google Slides] 模組及其欄位
+## [!DNL Google Slides]模組及其欄位
 
-當您設定 [!DNL Google Slides] 模組，Workfront Fusion會顯示下列欄位。 除了這些以外， [!DNL Google Slides] 視您在應用程式或服務中的存取層級等因素而定，可能會顯示欄位。 模組中的粗體標題表示必填欄位。
+當您設定[!DNL Google Slides]模組時，Workfront Fusion會顯示下列欄位。 除了這些欄位以外，可能還會顯示其他[!DNL Google Slides]欄位，視您在應用程式或服務中的存取層級等因素而定。 模組中的粗體標題表示必填欄位。
 
-如果您在欄位或函式上方看到對應按鈕，則可以使用它來設定該欄位的變數和函式。 如需詳細資訊，請參閱 [將資訊從一個模組對應至中的另一個模組 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
+如果您在欄位或函式上方看到對應按鈕，則可以使用它來設定該欄位的變數和函式。 如需詳細資訊，請參閱[在 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md)中將資訊從一個模組對應到另一個模組。
 
 ![](assets/map-toggle-350x74.png)
 
@@ -87,7 +87,7 @@ ht-degree: 0%
 * [[!UICONTROL 從範本建立簡報]](#create-a-presentation-from-a-template)
 * [[!UICONTROL 上傳影像至簡報]](#upload-an-image-to-a-presentation)
 * [[!UICONTROL 重新整理圖表]](#refresh-a-chart)
-* [[!UICONTROL 新增/刪除幻燈片]](#adddelete-a-slide)
+* [[!UICONTROL 新增/刪除投影片]](#adddelete-a-slide)
 
 #### [!UICONTROL 觀看Presentations]
 
@@ -98,11 +98,11 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[！UICONTROL連線] </td> 
-   <td> <p>如需有關連線您的電腦的指示， [!DNL Google Slides] 帳戶至 [!DNL Workfront Fusion]，請參閱 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與的連線 [!DNL Adobe Workfront Fusion]  — 基本指示</a></p> </td> 
+   <td role="rowheader">[！UICONTROL Connection] </td> 
+   <td> <p>如需有關將您的[!DNL Google Slides]帳戶連線到[!DNL Workfront Fusion]的指示，請參閱<a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與[!DNL Adobe Workfront Fusion]的連線 — 基本指示</a></p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL監視] </td> 
+   <td role="rowheader">[！UICONTROL手錶] </td> 
    <td> <p>選取觀看簡報的選項：</p> 
     <ul> 
      <li> <p>[！UICONTROL建立日期]</p> </li> 
@@ -125,16 +125,16 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[！UICONTROL連線] </td> 
-   <td> <p>如需有關連線您的電腦的指示， [!DNL Google Slides] 帳戶至 [!DNL Workfront Fusion]，請參閱 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與的連線 [!DNL Adobe Workfront Fusion]  — 基本指示</a></p> </td> 
+   <td role="rowheader">[！UICONTROL Connection] </td> 
+   <td> <p>如需有關將您的[!DNL Google Slides]帳戶連線到[!DNL Workfront Fusion]的指示，請參閱<a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與[!DNL Adobe Workfront Fusion]的連線 — 基本指示</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL選擇磁碟機位置]</td> 
-   <td> <p>選取 [!DNL Google Drive] 您要列出的簡報所在位置：</p> 
+   <td> <p>選取您要列出的簡報所在的[!DNL Google Drive]：</p> 
     <ul> 
      <li>[！UICONTROL我的磁碟機]</li> 
      <li>[！UICONTROL與我共用]</li> 
-     <li>[！UICONTROL [!DNL Google] 共用磁碟機]</li> 
+     <li>[！UICONTROL [!DNL Google]共用磁碟機]</li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -143,7 +143,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL限制]</td> 
-   <td> <p>簡報數量上限 [!DNL Workfront Fusion] 應該會在一個案例執行週期中傳回。</p> </td> 
+   <td> <p>在一個案例執行週期中，[!DNL Workfront Fusion]應傳回的最大簡報數量。</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -157,16 +157,16 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[！UICONTROL連線] </td> 
-   <td> <p>如需有關連線您的電腦的指示， [!DNL Google Slides] 帳戶至 [!DNL Workfront Fusion]，請參閱 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與的連線 [!DNL Adobe Workfront Fusion]  — 基本指示</a></p> </td> 
+   <td role="rowheader">[！UICONTROL Connection] </td> 
+   <td> <p>如需有關將您的[!DNL Google Slides]帳戶連線到[!DNL Workfront Fusion]的指示，請參閱<a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與[!DNL Adobe Workfront Fusion]的連線 — 基本指示</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL選擇磁碟機]</td> 
-   <td> <p>選取 [!DNL Google Drive] 您要列出的簡報所在位置：</p> 
+   <td> <p>選取您要列出的簡報所在的[!DNL Google Drive]：</p> 
     <ul> 
      <li>[！UICONTROL我的磁碟機]</li> 
      <li>[！UICONTROL與我共用]</li> 
-     <li>[！UICONTROL [!DNL Google] 共用磁碟機]</li> 
+     <li>[！UICONTROL [!DNL Google]共用磁碟機]</li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -185,8 +185,8 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[！UICONTROL連線] </td> 
-   <td> <p>如需有關連線您的電腦的指示， [!DNL Google Slides] 帳戶至 [!DNL Workfront Fusion]，請參閱 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與的連線 [!DNL Adobe Workfront Fusion]  — 基本指示</a></p> </td> 
+   <td role="rowheader">[！UICONTROL Connection] </td> 
+   <td> <p>如需有關將您的[!DNL Google Slides]帳戶連線到[!DNL Workfront Fusion]的指示，請參閱<a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與[!DNL Adobe Workfront Fusion]的連線 — 基本指示</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL簡報ID]</td> 
@@ -194,7 +194,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL頁面物件ID]</td> 
-   <td> <p> 選取您要檢視其頁面物件詳細資訊的幻燈片。</p> </td> 
+   <td> <p> 選取您要檢視頁面物件詳細資訊的幻燈片。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL顯示頁面縮圖]</td> 
@@ -205,15 +205,15 @@ ht-degree: 0%
 
 #### [!UICONTROL 從範本建立簡報]
 
-取代所有標籤，例如建立新的簡報 `{{Name}}`， `{{Email}}` 在已提供資料的範本中。
+使用提供的資料取代範本中所有標籤（例如`{{Name}}`、`{{Email}}`）來建立新的簡報。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[！UICONTROL連線] </td> 
-   <td> <p>如需有關連線您的電腦的指示， [!DNL Google Slides] 帳戶至 [!DNL Workfront Fusion]，請參閱 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與的連線 [!DNL Adobe Workfront Fusion]  — 基本指示</a></p> </td> 
+   <td role="rowheader">[！UICONTROL Connection] </td> 
+   <td> <p>如需有關將您的[!DNL Google Slides]帳戶連線到[!DNL Workfront Fusion]的指示，請參閱<a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與[!DNL Adobe Workfront Fusion]的連線 — 基本指示</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL標題] </td> 
@@ -233,22 +233,22 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL選擇磁碟機]</td> 
-   <td> <p>選取 [!DNL Google Drive] 您要列出的簡報所在位置：</p> 
+   <td> <p>選取您要列出的簡報所在的[!DNL Google Drive]：</p> 
     <ul> 
      <li>[！UICONTROL我的磁碟機]</li> 
      <li>[！UICONTROL與我共用]</li> 
-     <li>[！UICONTROL [!DNL Google] 共用磁碟機]</li> 
-    </ul> <p>如果您正在建立簡報[！UICONTROL By Dropdown]，則會顯示此欄位。</p> </td> 
+     <li>[！UICONTROL [!DNL Google]共用磁碟機]</li> 
+    </ul> <p>如果您要建立簡報[！UICONTROL By Dropdown]，就會顯示此欄位。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL簡報ID]</td> 
-   <td> <p> 選取要作為範本使用的簡報的「簡報ID」。</p> </td> 
+   <td> <p> 選取要做為範本之簡報的「簡報ID」。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL值] </td> 
    <td> <p>新增值：</p> 
     <ul> 
-     <li><strong>[！UICONTROL標籤]</strong>：輸入您要在簡報中取代的標籤。 例如， <code>&#123;&#123;Name&#125;&#125;</code></li> 
+     <li><strong>[！UICONTROL標籤]</strong>：在簡報中輸入您要取代的標籤。 例如， <code>&#123;&#123;Name&#125;&#125;</code></li> 
      <li><strong>[！UICONTROL取代的值]</strong>：輸入要取代現有標籤的值。 例如，如果字串 <tr><ul><tr><tr><tr><code>&#123;&#123;Name&#125;&#125;/code> in the presentation and the replaced value is Sample, then the <code>&#123;&#123;Name}}</code> will be replaced by <code>Sample</code>.</li> 
     </ul> </td> 
   </tr> 
@@ -285,8 +285,8 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[！UICONTROL連線] </td> 
-   <td> <p>如需有關連線您的電腦的指示， [!DNL Google Slides] 帳戶至 [!DNL Workfront Fusion]，請參閱 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與的連線 [!DNL Adobe Workfront Fusion]  — 基本指示</a></p> </td> 
+   <td role="rowheader">[！UICONTROL Connection] </td> 
+   <td> <p>如需有關將您的[!DNL Google Slides]帳戶連線到[!DNL Workfront Fusion]的指示，請參閱<a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與[!DNL Adobe Workfront Fusion]的連線 — 基本指示</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL選擇簡報]</td> 
@@ -298,12 +298,12 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL選擇磁碟機]</td> 
-   <td> <p>選取 [!DNL Google Drive] 您要列出的簡報所在位置：</p> 
+   <td> <p>選取您要列出的簡報所在的[!DNL Google Drive]：</p> 
     <ul> 
      <li>[！UICONTROL我的磁碟機]</li> 
      <li>[！UICONTROL與我共用]</li> 
-     <li>[！UICONTROL [!DNL Google] 共用磁碟機]</li> 
-    </ul> <p>如果您正在建立簡報[！UICONTROL By Dropdown]，則會顯示此欄位。</p> </td> 
+     <li>[！UICONTROL [!DNL Google]共用磁碟機]</li> 
+    </ul> <p>如果您要建立簡報[！UICONTROL By Dropdown]，就會顯示此欄位。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL簡報ID]</td> 
@@ -313,8 +313,8 @@ ht-degree: 0%
    <td role="rowheader">[！UICONTROL值]</td> 
    <td> <p>值新增值：</p> 
     <ul> 
-     <li><strong>[！UICONTROL標籤]</strong>：輸入您要新增URL的標籤。</li> 
-     <li><strong>[！UICONTROL影像URL]</strong>：輸入您要上傳之影像的路徑或URL。</li> 
+     <li><strong>[！UICONTROL標籤]</strong>：輸入要新增URL的標籤。</li> 
+     <li><strong>[！UICONTROL影像URL]</strong>：輸入要上傳的影像的路徑或URL。</li> 
     </ul> <p>注意：影像大小必須小於50MB、不能超過2500萬畫素，且必須是PNG、JPEG或GIF格式。</p> </td> 
   </tr> 
  </tbody> 
@@ -329,16 +329,16 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[！UICONTROL連線] </td> 
-   <td> <p>如需有關連線您的電腦的指示， [!DNL Google Slides] 帳戶至 [!DNL Workfront Fusion]，請參閱 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與的連線 [!DNL Adobe Workfront Fusion]  — 基本指示</a></p> </td> 
+   <td role="rowheader">[！UICONTROL Connection] </td> 
+   <td> <p>如需有關將您的[!DNL Google Slides]帳戶連線到[!DNL Workfront Fusion]的指示，請參閱<a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與[!DNL Adobe Workfront Fusion]的連線 — 基本指示</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL選擇磁碟機]</td> 
-   <td> <p>選取 [!DNL Google Drive] 您要列出的簡報所在位置：</p> 
+   <td> <p>選取您要列出的簡報所在的[!DNL Google Drive]：</p> 
     <ul> 
      <li>[！UICONTROL我的磁碟機]</li> 
      <li>[！UICONTROL與我共用]</li> 
-     <li>[！UICONTROL [!DNL Google] 共用磁碟機]</li> 
+     <li>[！UICONTROL [!DNL Google]共用磁碟機]</li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -352,17 +352,17 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-#### [!UICONTROL 新增/刪除幻燈片]
+#### [!UICONTROL 新增/刪除投影片]
 
-建立空白幻燈片，或刪除指定簡報上的現有幻燈片。
+建立空白投影片或刪除指定簡報上的現有投影片。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[！UICONTROL連線] </td> 
-   <td> <p>如需有關連線您的電腦的指示， [!DNL Google Slides] 帳戶至 [!DNL Workfront Fusion]，請參閱 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與的連線 [!DNL Adobe Workfront Fusion]  — 基本指示</a></p> </td> 
+   <td role="rowheader">[！UICONTROL Connection] </td> 
+   <td> <p>如需有關將您的[!DNL Google Slides]帳戶連線到[!DNL Workfront Fusion]的指示，請參閱<a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與[!DNL Adobe Workfront Fusion]的連線 — 基本指示</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL選取方法]</td> 
@@ -374,16 +374,16 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL預先定義的配置型別]</td> 
-   <td> <p> 選取您想要新增的幻燈片使用的預先定義幻燈片版面。 指定任何其他欄位的值（例如[！UICONTROL Title]）。</p> 
+   <td> <p> 選取您要新增的幻燈片使用的預先定義幻燈片版面配置。 指定任何其他欄位的值（例如[！UICONTROL Title]）。</p> 
     <ul> 
      <li>[！UICONTROL空白版面，無預留位置]</li> 
      <li>[！UICONTROL佈局，底部有標題]</li> 
-     <li>具有標題和副標題的[！UICONTROL版面]</li> 
-     <li>具有標題和內文的[！UICONTROL版面]</li> 
-     <li>[！UICONTROL佈局，含標題和兩欄]</li> 
-     <li>[！UICONTROL僅含標題的版面]</li> 
+     <li>[！UICONTROL含標題和副標題的佈局]</li> 
+     <li>[！UICONTROL佈局，含標題和內文]</li> 
+     <li>[！UICONTROL具有標題和兩欄的佈局]</li> 
+     <li>[！UICONTROL僅含標題的佈局]</li> 
      <li>[！UICONTROL版面配置含區段標題]</li> 
-     <li>[！UICONTROL版面配置，其中一面有標題和副標題，另一面有說明]</li> 
+     <li>[！UICONTROL版面配置，標題和副標題為一側，說明為另一側]</li> 
      <li>[！UICONTROL版面配置有一個標題和一個內文，以單一欄排列]</li> 
      <li>具有主點的[！UICONTROL版面]</li> 
      <li>[!DNL Layout with a big number heading]</li> 
@@ -406,19 +406,19 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[！UICONTROL連線] </td> 
-   <td> <p>如需有關連線您的電腦的指示， [!DNL Google Slides] 帳戶至 [!DNL Workfront Fusion]，請參閱 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與的連線 [!DNL Adobe Workfront Fusion]  — 基本指示</a></p> </td> 
+   <td role="rowheader">[！UICONTROL Connection] </td> 
+   <td> <p>如需有關將您的[!DNL Google Slides]帳戶連線到[!DNL Workfront Fusion]的指示，請參閱<a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與[!DNL Adobe Workfront Fusion]的連線 — 基本指示</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL URL]</td> 
-   <td> <p>輸入相對於https://developers.google.com/slides/的路徑。 例如簡報。</p> <p>如需可用端點的清單，請參閱 <a href="https://developers.google.com/slides/reference/rest">[!DNL Google Slides] API檔案</a>.</p> </td> 
+   <td> <p>輸入相對於https://developers.google.com/slides/的路徑。 例如，簡報。</p> <p>如需可用端點的清單，請參閱<a href="https://developers.google.com/slides/reference/rest">[!DNL Google Slides] API檔案</a>。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL方法]</td> 
-   <td> <p>選取設定API呼叫所需的HTTP要求方法。 如需詳細資訊，請參閱 <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref">中的HTTP要求方法 [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td> <p>選取設定API呼叫所需的HTTP要求方法。 如需詳細資訊，請參閱[!DNL Adobe Workfront Fusion]</a>中的<a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref">HTTP要求方法。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL標頭]</td> 
+   <td role="rowheader">[！UICONTROL Headers]</td> 
    <td> <p>輸入所需的請求標頭。 您不需要新增授權標頭。</p> </td> 
   </tr> 
   <tr> 
@@ -426,8 +426,8 @@ ht-degree: 0%
    <td> <p> 輸入請求查詢字串。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL內文]</td> 
-   <td> <p>以標準JSON物件的形式新增API呼叫的正文內容。</p> <p>備註:  <p>使用條件陳述式時，例如 <code>if</code> 在JSON中，將引號放在條件陳述式之外。</p> 
+   <td role="rowheader">[！UICONTROL Body]</td> 
+   <td> <p>以標準JSON物件的形式新增API呼叫的內文內容。</p> <p>注意：  <p>在JSON中使用條件陳述式（例如<code>if</code>）時，請將引號放在條件陳述式之外。</p> 
      <div class="example" data-mc-autonum="<b>Example: </b>"> 
       <p> <img src="assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
      </div> </p> </td> 
@@ -437,7 +437,7 @@ ht-degree: 0%
 
 >[!INFO]
 >
->**範例：** 您可以使用API呼叫取得您輸入之簡報ID的簡報詳細資料。 當您在中開啟簡報時，可以在URL中找到簡報ID [!DNL Google Slides].
+>**範例：**&#x200B;您可以使用API呼叫取得您輸入的簡報ID的簡報詳細資料。 當您在[!DNL Google Slides]中開啟簡報時，可以在URL中找到簡報ID。
 >
 >![](assets/api-call-350x13.png)
 >
@@ -445,9 +445,9 @@ ht-degree: 0%
 >
 >![](assets/presentation-details.png)
 >
->您可以在模組的輸出中找到搜尋的相符專案，位於 [!UICONTROL 組合] > [!UICONTROL 內文] > [!UICONTROL presentationId].
+>在[!UICONTROL 組合] > [!UICONTROL 內文] > [!UICONTROL presentationId]下的模組輸出中，可找到搜尋的相符專案。
 >
->在我們的範例中，傳回要求的簡報詳細資料：
+>在我們的範例中，已傳回要求的簡報詳細資料：
 >
 >![](assets/presentation-details-2.png)
 
@@ -460,8 +460,8 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[！UICONTROL連線] </td> 
-   <td> <p>如需有關連線您的電腦的指示， [!DNL Google Slides] 帳戶至 [!DNL Workfront Fusion]，請參閱 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與的連線 [!DNL Adobe Workfront Fusion]  — 基本指示</a></p> </td> 
+   <td role="rowheader">[！UICONTROL Connection] </td> 
+   <td> <p>如需有關將您的[!DNL Google Slides]帳戶連線到[!DNL Workfront Fusion]的指示，請參閱<a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與[!DNL Adobe Workfront Fusion]的連線 — 基本指示</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL選擇簡報]</td> 
@@ -473,12 +473,12 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL選擇磁碟機]</td> 
-   <td> <p>選取 [!DNL Google Drive] 您要列出的簡報所在位置：</p> 
+   <td> <p>選取您要列出的簡報所在的[!DNL Google Drive]：</p> 
     <ul> 
      <li>[！UICONTROL我的磁碟機]</li> 
      <li>[！UICONTROL與我共用]</li> 
-     <li>[！UICONTROL [!DNL Google] 共用磁碟機]</li> 
-    </ul> <p>如果您正在建立簡報[！UICONTROL By Dropdown]，則會顯示此欄位。</p> </td> 
+     <li>[！UICONTROL [!DNL Google]共用磁碟機]</li> 
+    </ul> <p>如果您要建立簡報[！UICONTROL By Dropdown]，就會顯示此欄位。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL簡報ID]</td> 
@@ -486,11 +486,11 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL選取]</td> 
-   <td> <p>選取是否要讓簡報中的所有連結可點按，或是否要在所有相符的輸入文字中插入連結。</p> </td> 
+   <td> <p>選取您是否要將簡報中的所有連結設為可點按，或者是否要將連結插入所有相符的輸入文字中。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL文字輸入]</td> 
-   <td>針對您想要新增連結的每個文字專案，將專案及其相關連結新增至清單。 每次專案出現在簡報中時，都會自動連結至指定的網站。</td> 
+   <td>對於您想要新增連結的每個文字專案，請在清單中新增專案及其關聯的連結。 每次專案出現在簡報中時，它都會自動連結到指定的網站。</td> 
   </tr> 
  </tbody> 
 </table>

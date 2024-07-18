@@ -39,7 +39,7 @@ ht-degree: 0%
   <tr>
    <td><strong>產品</strong>
    </td>
-   <td>您必須有Experience Manager Assetsas a Cloud Service或Assets Essentials，而且您必須以使用者的身分新增到產品中。
+   <td>您必須擁有Experience Manager Assetsas a Cloud Service或Assets Essentials，而且您必須以使用者的身分新增到產品中。
    </td>
   </tr>
   <tr>
@@ -60,11 +60,11 @@ ht-degree: 0%
 *若要瞭解您擁有的計畫、授權型別或存取權，請聯絡您的Workfront管理員。
 
 
-## 必要條件
+## 先決條件
 
 開始之前，
 
-* 您的Workfront管理員必須設定Experience Manager整合。 如需詳細資訊，請參閱 [設定Experience Manager Assetsas a Cloud Service整合](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md) 或 [設定Experience Manager Assets Essentials整合](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md).
+* 您的Workfront管理員必須設定Experience Manager整合。 如需詳細資訊，請參閱[設定Experience Manager Assetsas a Cloud Service整合](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md)或[設定Experience Manager Assets Essentials整合](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md)。
 
 
 ## 建立連結的資料夾
@@ -78,11 +78,11 @@ ht-degree: 0%
 
 
 1. 前往您想要資料夾的專案。
-1. 選取 **新增**，然後前往管理員設定的Experience Manager整合。
+1. 選取「**新增**」，然後前往管理員設定的Experience Manager整合。
 
    >[!NOTE]
    >
    >Workfront管理員可為這項整合選擇任何名稱，因此可能沒有特別提及Experience Manager Assets或Assets Essentials。
 
-1. 選取 **建立連結的資料夾**. 系統會根據設定整合時指定的位置，自動建立Experience Manager的資料夾。
-   ![建立連結的資料夾](assets/linked-folder.png)
+1. 選取&#x200B;**建立連結的資料夾**。 系統會根據設定整合時指定的位置，自動建立Experience Manager的資料夾。
+   ![建立連結資料夾](assets/linked-folder.png)

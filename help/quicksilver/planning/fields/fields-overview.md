@@ -35,16 +35,16 @@ hide: yes
 
 * 您只能從記錄型別頁面的表格檢視建立欄位。 欄位在表格檢視中顯示為欄。 與記錄型別關聯的所有欄位也會顯示在記錄頁面中。
 
-  如需有關管理表格欄（或記錄欄位）的資訊，請參閱 [管理表格檢視](/help/quicksilver/planning/views/manage-the-table-view.md).
+  如需有關管理資料表資料行（或記錄欄位）的資訊，請參閱[管理資料表檢視](/help/quicksilver/planning/views/manage-the-table-view.md)。
 
   如需有關管理欄位的資訊，另請參閱下列文章：
 
    * [編輯欄位設定](/help/quicksilver/planning/fields/edit-fields.md)
    * [刪除欄位](/help/quicksilver/planning/fields/delete-fields.md)
 
-* 與記錄型別相關聯的欄位可與該型別的所有記錄相關聯。 <!--will this change and will the fields be available for other record types, too?! Also, the next bullet might need to change too if this one changes -->
+* 與記錄型別相關聯的欄位可與該型別的所有記錄相關聯。<!--will this change and will the fields be available for other record types, too?! Also, the next bullet might need to change too if this one changes -->
 
-* 無法將與記錄型別關聯的欄位新增到其他記錄型別。 <!-- this will change when they open the Field library tab when creating a field-->
+* 無法將與記錄型別關聯的欄位新增到其他記錄型別。<!-- this will change when they open the Field library tab when creating a field-->
 
 * 您可以透過下列方式手動或自動建立欄位：
 
@@ -58,9 +58,9 @@ hide: yes
 
         <!--* Importing record types with fields using a CSV or an Excel file. - this is not available yet-->
 
-        如需有關連線記錄型別的詳細資訊，請參閱 [連線記錄型別](/help/quicksilver/planning/architecture/connect-record-types.md).
+        如需有關連線記錄型別的詳細資訊，請參閱[連線記錄型別](/help/quicksilver/planning/architecture/connect-record-types.md)。
 
-      * 使用Excel或CSV檔案匯入記錄型別。 如需詳細資訊，請參閱 [建立記錄型別](/help/quicksilver/planning/architecture/create-record-types.md).
+      * 使用Excel或CSV檔案匯入記錄型別。 如需詳細資訊，請參閱[建立記錄型別](/help/quicksilver/planning/architecture/create-record-types.md)。
 
    * 自動：
 
@@ -79,11 +79,11 @@ hide: yes
 
         您可以新增更多值或重新命名現有值。
 
-     當您從範本建立工作區時，Workfront Planning會為記錄型別建立欄位。 如需詳細資訊，請參閱 [建立工作區](/help/quicksilver/planning/architecture/create-workspaces.md).
+     當您從範本建立工作區時，Workfront Planning會為記錄型別建立欄位。 如需詳細資訊，請參閱[建立工作區](/help/quicksilver/planning/architecture/create-workspaces.md)。
 
 * 無法從Workfront存取Workfront規劃欄位。
 
-* 只有當您連線記錄型別與Workfront物件型別，並從Workfront物件新增連結或查詢欄位時，才能從Workfront Planning存取Workfront欄位。 如需詳細資訊，請參閱 [連線記錄型別](/help/quicksilver/planning/architecture/connect-record-types.md).
+* 只有當您連線記錄型別與Workfront物件型別，並從Workfront物件新增連結或查詢欄位時，才能從Workfront Planning存取Workfront欄位。 如需詳細資訊，請參閱[連線記錄型別](/help/quicksilver/planning/architecture/connect-record-types.md)。
 
 * 如果您擁有欄位所屬工作區的管理許可權，您可以檢視和更新您或任何其他使用者建立的欄位設定。
 
@@ -91,4 +91,4 @@ hide: yes
 
 * 欄位名稱最多可包含250個字元。
 
-* 刪除記錄型別或工作區時，與其關聯的所有欄位和欄位的值也會被刪除並且無法復原。 <!-- this might change with a possible recycle bin solution?!-->
+* 刪除記錄型別或工作區時，與其關聯的所有欄位和欄位的值也會被刪除並且無法復原。<!-- this might change with a possible recycle bin solution?!-->

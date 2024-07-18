@@ -73,31 +73,31 @@ ht-degree: 0%
   </tr>
 <tr>
    <td role="rowheader"><p>權限</p></td>
-   <td> <p>貢獻或更高的工作區許可權</a> </p>  
+   <td> <p>Contribute或更高的工作區許可權</a> </p>  
    <p>系統管理員擁有所有工作區的許可權，包括他們未建立的工作區</p>
 </td>
   </tr>
 <tr>
    <td role="rowheader"><p>版面配置範本</p></td>
-   <td> <p>您的Workfront或群組管理員必須在版面配置範本中新增Planning區域。 如需詳細資訊，請參閱 <a href="/help/quicksilver/planning/access/access-overview.md">存取權總覽</a>. </p>  
+   <td> <p>您的Workfront或群組管理員必須在版面配置範本中新增Planning區域。 如需詳細資訊，請參閱<a href="/help/quicksilver/planning/access/access-overview.md">存取總覽</a>。 </p>  
 </td>
   </tr>
 
 </tbody>
 </table>
 
-*如需詳細資訊，請參閱 [Workfront檔案的存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*如需詳細資訊，請參閱[Workfront檔案的存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 <!--Maybe enable this at GA - but Planning is not supposed to have Access controls in the Workfront Access Level: 
 >[!NOTE]
 >
 >If you don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see [Create or modify custom access levels](/help/quicksilver/planning/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md). -->
 
-## 手動將記錄新增至記錄型別以建立記錄 <!--in a record type table (I don't think you can create them elsewhere right now)-->
+## 手動將記錄新增至記錄型別<!--in a record type table (I don't think you can create them elsewhere right now)-->以建立記錄
 
 您可以在記錄型別頁面的表格檢視中建立記錄。
 
-如需有關編輯記錄資訊的資訊，請參閱 [編輯記錄](/help/quicksilver/planning/records/edit-records.md).
+如需有關編輯記錄資訊的資訊，請參閱[編輯記錄](/help/quicksilver/planning/records/edit-records.md)。
 
 {{step1-to-planning}}
 
@@ -105,7 +105,7 @@ ht-degree: 0%
 
    工作區隨即開啟，且記錄型別會顯示為卡片。
 
-1. 按一下記錄型別卡。 如需有關建立記錄型別的資訊，請參閱 [建立記錄型別](/help/quicksilver/planning/architecture/create-record-types.md).
+1. 按一下記錄型別卡。 如需有關建立記錄型別的資訊，請參閱[建立記錄型別](/help/quicksilver/planning/architecture/create-record-types.md)。
 
    記錄型別頁面會在您上次存取的檢視中開啟。 依預設，會在表格檢視中開啟記錄型別頁面。
 所選型別的所有記錄都會顯示在檢視中。
@@ -114,15 +114,15 @@ ht-degree: 0%
 
    * 從表格檢視中：
 
-      * 按一下 **新記錄** 在表格的最後一列
+      * 在表格的最後一列按一下&#x200B;**新增記錄**
 
-      * 按一下 **Shift + Enter** 從表格的任一欄或列移至鍵盤上。 這會新增空白列。
+      * 在表格的任何欄或列按一下鍵盤上的&#x200B;**Shift + Enter**。 這會新增空白列。
 
      ![](assets/adding-a-new-campaign-in-table-row.png)
 
    * 從任何檢視：
 
-      * 按一下 **新記錄** 在頁面的右上角。 記錄預覽方塊開啟。
+      * 按一下頁面右上角的&#x200B;**新增記錄**。 記錄預覽方塊開啟。
 
      Workfront會自動上傳縮圖和封面影像至每張新記錄。 您稍後可以修改這些影像。 如需詳細資訊，請參閱下列文章：
 
@@ -133,22 +133,22 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >  * 記錄沒有必填欄位。 不過，我們建議您為記錄的主要欄位新增資訊，因為將記錄連結至彼此時，識別記錄會很有幫助。 如需主要欄位的詳細資訊，請參閱 [管理表格檢視](/help/quicksilver/planning/views/manage-the-table-view.md) 和 [主要欄位概述](/help/quicksilver/planning/fields/primary-field-overview.md).
+   >  * 記錄沒有必填欄位。 不過，我們建議您為記錄的主要欄位新增資訊，因為將記錄連結至彼此時，識別記錄會很有幫助。 如需主要欄位的詳細資訊，請參閱[管理資料表檢視](/help/quicksilver/planning/views/manage-the-table-view.md)和[主要欄位概述](/help/quicksilver/planning/fields/primary-field-overview.md)。
    >
    >  * 參考其他記錄型別或計算欄位的欄位為唯讀欄位。
 
-1. （視條件而定）在表格中新增記錄時，請繼續在每一列新增資訊，然後按一下 **輸入** 以儲存變更。
+1. （視條件而定）在表格中新增記錄時，請繼續在每一列新增資訊，然後在鍵盤上按一下&#x200B;**Enter**&#x200B;以儲存變更。
 
    或
 
-   按一下新記錄的名稱或 **開啟詳細資料** 圖示 ![](assets/open-details-icon-in-table-name-field.png) 記錄名稱的左側。 含有記錄詳細資訊的預覽會在表格中開啟。
+   按一下新記錄名稱或記錄名稱左側的&#x200B;**開啟詳細資料**&#x200B;圖示![](assets/open-details-icon-in-table-name-field.png)。 含有記錄詳細資訊的預覽會在表格中開啟。
 
    >[!TIP]
    >
-   >您可以存取 **開啟詳細資料** 圖示僅來自記錄的名稱欄位，當「名稱」欄位是主要欄位時。
+   >當「名稱」欄位是主要欄位時，您只能從記錄的名稱欄位存取&#x200B;**開啟詳細資料**&#x200B;圖示。
 
 1. 開始編輯記錄預覽中的記錄資訊。 Workfront會自動儲存您的變更。
-1. （可選）按一下 **在新標籤中開啟** 圖示 ![](assets/open-details-in-a-new-tab-icon.png) 在記錄預覽的右上角，以在新索引標籤中開啟記錄頁面。 繼續編輯記錄頁面上的記錄。 如需詳細資訊，請參閱 [編輯記錄](/help/quicksilver/planning/records/edit-records.md).
+1. （選擇性）按一下記錄預覽右上角的&#x200B;**在新索引標籤中開啟**&#x200B;圖示![](assets/open-details-in-a-new-tab-icon.png)，以在新索引標籤中開啟記錄的頁面。 繼續編輯記錄頁面上的記錄。 如需詳細資訊，請參閱[編輯記錄](/help/quicksilver/planning/records/edit-records.md)。
 
 1. （可選）在表格檢視中新增記錄或其資訊時，請使用下列鍵盤快速鍵來復原或重做新增記錄或其資訊：
 
@@ -179,11 +179,11 @@ You can import records from other applications by linking them to existing recor
 
 ## 從外部清單複製並貼上資訊，以建立記錄
 
-1. 開始在「表格」檢視中建立記錄（如區段所述） [手動將記錄新增至記錄型別以建立記錄](#create-records-by-manually-adding-them-to-a-record-type) 本文章內容。
+1. 開始在[資料表]檢視中建立記錄，如本文[將記錄手動新增至記錄型別](#create-records-by-manually-adding-them-to-a-record-type)以建立記錄一節中所述。
 
    確定表格檢視具有您要填入新記錄資訊的欄（或欄位）。
 
-1. 按一下 **新&lt;記錄型別名稱>** 在表格的最後一列，新增任意數目的新資料列至表格。
+1. 在表格的最後一列按一下&#x200B;**新增&lt;記錄型別名稱>**，新增您想要的新記錄至表格的所有新列。
 
    例如，如果要從另一個應用程式貼上10筆新記錄的資訊，請將10列新增到表格檢視中。
 

@@ -2,8 +2,8 @@
 product-previous: workfront-proof
 product-area: documents;system-administration;user-management
 navigation-topic: contacts-workfront-proof
-title: 將訪客新增至Workfront校樣
-description: 依預設，聯絡人會在組織中共用。 因此，如果添加「來賓」，您的「同事」也將在其聯繫人清單中看到該人。 如需Guests和Collegues的相關資訊，請參閱了解Workfront Proof中的使用者、成員和來賓。
+title: 將訪客新增至Workfront Proof
+description: 依預設，連絡人會在組織中共用。 因此，如果您新增訪客，您的同事也會在連絡人清單中看到該人員。 如需有關來賓和同事的資訊，請參閱瞭解Workfront Proof中的使用者、成員和來賓。
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 208d719e-a2fc-4080-88be-954c2f87f7ff
@@ -14,24 +14,24 @@ ht-degree: 0%
 
 ---
 
-# 將來賓添加到 [!DNL Workfront Proof]
+# 新增來賓至[!DNL Workfront Proof]
 
 >[!IMPORTANT]
 >
->本文說明獨立產品中的功能 [!DNL Workfront Proof]. 有關內部校對的資訊 [!DNL Adobe Workfront]，請參閱 [校對](../../../review-and-approve-work/proofing/proofing.md).
+>本文提及獨立產品[!DNL Workfront Proof]中的功能。 有關[!DNL Adobe Workfront]內部校訂的資訊，請參閱[校訂](../../../review-and-approve-work/proofing/proofing.md)。
 
-依預設，聯絡人會在組織中共用。 因此，如果添加「來賓」，您的「同事」也將在其聯繫人清單中看到該人。 有關Guests和Collegues的資訊，請參見 [了解中的用戶、成員和來賓 [!DNL Workfront Proof]](../../../workfront-proof/wp-mnguserscontacts/contacts/use-members-guests.md).
+依預設，連絡人會在組織中共用。 因此，如果您新增訪客，您的同事也會在連絡人清單中看到該人員。 如需有關來賓和同事的資訊，請參閱[瞭解在 [!DNL Workfront Proof]](../../../workfront-proof/wp-mnguserscontacts/contacts/use-members-guests.md)中的使用者、成員和來賓。
 
-添加到校樣的任何人將自動添加到您的聯繫人清單中。 有關將審核者添加到校樣的資訊，請參見 [在中共用校樣 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-proof.md).
+您新增到校訂的任何人都會自動新增到您的連絡人清單。 如需有關將檢閱者新增到校訂的資訊，請參閱[在 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-proof.md)中共用校訂。
 
 >[!NOTE]
 >
->來賓不會計入您的用戶限制 — 他們只會作為條目顯示在您的「聯繫人」頁面上，以便更輕鬆地共用校樣。 客人沒有 [!DNL Workfront Proof] 憑證，因此您無法與其共用登入必要校樣
+>來賓不會計入您的使用者限制中 — 他們只會出現在您的[連絡人]頁面上，以更輕鬆的共用校樣。 來賓沒有[!DNL Workfront Proof]認證，因此您無法與他們共用登入要求的校樣
 
-添加新來賓：
+新增來賓：
 
-1. 在控制面板上，按一下旁邊的向下箭頭 **[!UICONTROL 新校樣]**，然後按一下 **[!UICONTROL 新訪客]**.
+1. 在儀表板上，按一下&#x200B;**[!UICONTROL 新校訂]**&#x200B;旁的向下箭頭，然後按一下&#x200B;**[!UICONTROL 新來賓]**。
 
-1. 如果您有「觀察者」配置檔案，則將無法選擇添加新聯繫人。 如需詳細資訊，請參閱 [校樣權限設定檔(位於 [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md).
-1. 鍵入來賓的資訊，然後按一下 **[!UICONTROL 建立]**. 您可以選擇新來賓的預設校樣角色和權限。 然後將此人員新增至校樣時，他們將依預設獲得此角色和警報，不過當將他們新增至校樣時，可以在「新增校樣」頁面上變更這些角色。
-如需詳細資訊，請參閱 [校樣權限設定檔(位於 [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md) 和 [在中配置電子郵件通知設定 [!DNL Workfront Proof]](../../../workfront-proof/wp-emailsntfctns/email-alerts/config-email-notification-settings-wp.md).
+1. 如果您有觀察者設定檔，您將無法新增連絡人。 如需詳細資訊，請參閱 [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)中的[校訂許可權設定檔。
+1. 輸入來賓的資訊，然後按一下[建立]。**** 您可以選擇新來賓的預設校訂角色和許可權。 然後將此人新增到校訂時，他們將會獲得此角色和預設警報，但是當他們新增到校訂時，可以在新校訂頁面上變更這些角色。
+如需詳細資訊，請參閱 [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)中的[校訂許可權設定檔，以及 [!DNL Workfront Proof]](../../../workfront-proof/wp-emailsntfctns/email-alerts/config-email-notification-settings-wp.md)中的[設定電子郵件通知設定。

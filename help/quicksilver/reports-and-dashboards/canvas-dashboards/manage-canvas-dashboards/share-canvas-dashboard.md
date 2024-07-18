@@ -5,7 +5,8 @@ title: 共用畫布控制面板
 description: 您可以與其他Adobe Workfront使用者共用畫布控制面板，讓他們可以檢視或編輯。
 author: Nolan
 feature: Reports and Dashboards
-source-git-commit: 535e9c8481ce0781ee0d35636bb6d56de4d1e102
+exl-id: 5cb03113-35b0-49aa-86ec-ec800cd3f4dc
+source-git-commit: 893f41011159ff14410edf50bf1b3d24d787a85a
 workflow-type: tm+mt
 source-wordcount: '318'
 ht-degree: 0%
@@ -41,18 +42,18 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-如需有關此表格的詳細資訊，請參閱 [Workfront檔案中的存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 ## 共用畫布控制面板
 
-1. 按一下 **[!UICONTROL 主要功能表]** 圖示 ![主要功能表](/help/_includes/assets/main-menu-icon.png) 在Adobe Workfront的右上角，或（如果有的話）按一下 **[!UICONTROL 主要功能表]** 圖示 ![主要功能表](/help/_includes/assets/main-menu-icon-left-nav.png) 然後按一下「 」 **儀表板**.
+1. 按一下Adobe Workfront右上角的&#x200B;**[!UICONTROL 主功能表]**&#x200B;圖示![主功能表](/help/_includes/assets/main-menu-icon.png)，或（如果有的話）按一下左上角的&#x200B;**[!UICONTROL 主功能表]**&#x200B;圖示![主功能表](/help/_includes/assets/main-menu-icon-left-nav.png)，然後按一下&#x200B;**儀表板**。
 
-1. 在左側面板中，按一下 **畫布控制面板**，然後按一下您要共用的畫布控制面板的名稱。
+1. 在左側面板中，按一下&#x200B;**畫布控制面板**，然後按一下您要共用的畫布控制面板名稱。
 
-1. 按一下 **共用** 按鈕來切換頁面。
+1. 按一下頁面右上角的&#x200B;**共用**&#x200B;按鈕。
 
-1. 在 **將存取權授予：** 欄位屬於 **控制面板共用** 出現的視窗，開始輸入Workfront執行個體中您想要與其共用「畫布控制面板」的特定使用者、團隊、角色、群組或公司名稱。 當您要尋找的名稱出現在欄位下方的自動完成清單中時，按一下該名稱以將其新增到預期的收件者清單中。
+1. 在出現的&#x200B;**控制面板共用**&#x200B;視窗的&#x200B;**授與：**&#x200B;存取權欄位中，開始輸入您想要與其共用畫布控制面板之Workfront執行個體中特定使用者、團隊、角色、群組或公司的名稱。 當您要尋找的名稱出現在欄位下方的自動完成清單中時，按一下該名稱以將其新增到預期的收件者清單中。
 
-1. （選用）將實體新增至預定收件者清單後，您可以編輯他們會獲得此「畫布控制面板」的存取權型別。 依預設，他們只會收到 **檢視** 存取權，但您可以按一下「 」，授予他們管理存取權 **檢視>** 在實體旁邊，然後選取 **管理** 在下拉式清單中。 請注意，某些實體的存取層級無法變更，例如管理員。
+1. （選用）將實體新增至預定收件者清單後，您可以編輯他們會獲得此「畫布控制面板」的存取權型別。 依預設，他們只會收到&#x200B;**檢視**&#x200B;存取權，但您可以按一下實體旁的&#x200B;**檢視>**，然後在下拉式清單中選取&#x200B;**管理**，授與他們管理存取權。 請注意，某些實體的存取層級無法變更，例如管理員。
 
-1. 新增要共用畫布控制面板的所有使用者後，按一下 **共用** 按鈕。
+1. 新增要共用畫布控制面板的所有使用者後，請按一下&#x200B;**共用**&#x200B;按鈕。

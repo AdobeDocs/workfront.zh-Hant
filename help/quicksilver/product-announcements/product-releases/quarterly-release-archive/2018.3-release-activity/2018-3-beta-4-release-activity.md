@@ -18,22 +18,22 @@ ht-degree: 0%
 
 本頁說明2018.3 Beta 4版本預覽環境中最近可用的所有變更。 此功能將於2018年8月30日在預覽環境中提供。 它將於2018年11月在生產環境中提供。
 
-如需2018.3年所有變更的清單，請參閱  [2018.3版本活動概覽](../../../../product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-release-activity-overview.md).
+如需2018.3年所有變更的清單，請參閱  [2018.3發行活動總覽](../../../../product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-release-activity-overview.md)。
 
 2018.3 Beta 4版本包含適用於Workfront管理員和其他使用者的增強功能：
 
-**適用於管理員**
+管理員的&#x200B;****
 
-* [以群組管理員的身分更新使用者設定檔中的報告結構](#update-reporting-structure-in-the-user-profile-as-a-group-administrator) 
+* [以群組管理員身分更新使用者設定檔中的報告結構](#update-reporting-structure-in-the-user-profile-as-a-group-administrator) 
 
-**適用於所有使用者**
+**所有使用者**
 
 * [從資源規劃工具匯出更多資訊](#export-more-information-from-the-resource-planner)
-* [任務清單改善](#task-list-improvements) 已從發行版本中移除
+* [工作清單改善](#task-list-improvements)已從發行版本中移除
 * [專案清單改善](#project-list-improvements)
-* [在甘特圖編輯模式下編輯工作清單](#editing-the-task-list-in-gantt-chart-edit-mode) 已從發行版本中移除
-* [測量工具顏色](#measurement-tool-colors)
-* [在新標籤中開啟的校訂](#proofs-open-in-a-new-tab)  已從發行版本中移除
+* [在甘特圖編輯模式下編輯工作清單](#editing-the-task-list-in-gantt-chart-edit-mode)已從發行版本移除
+* [測量工具色彩](#measurement-tool-colors)
+* 在新索引標籤](#proofs-open-in-a-new-tab)中開啟的[校訂已從發行版本中移除
 
 * [列印摘要增強功能](#print-summary-enhancements)
 * [在Workfront行動應用程式中記錄時間（以天為單位）](#log-time-in-days-in-the-workfront-mobile-app)
@@ -44,7 +44,7 @@ ht-degree: 0%
 
 之前，只有Workfront管理員和對使用者具有管理存取許可權的使用者才能擁有此功能。
 
-如需群組管理員的相關資訊，請參閱 [群組管理員](../../../../administration-and-setup/manage-groups/group-roles/group-administrators.md).
+如需群組管理員的相關資訊，請參閱[群組管理員](../../../../administration-and-setup/manage-groups/group-roles/group-administrators.md)。
 
 ## 從資源規劃工具匯出更多資訊 {#export-more-information-from-the-resource-planner}
 
@@ -52,7 +52,7 @@ ht-degree: 0%
 
 過去，您一次最多只能匯出4週、月或季度。
 
-如需詳細資訊，請參閱 [從資源規劃工具匯出資訊](../../../../resource-mgmt/resource-planning/export-resource-planner.md).
+如需詳細資訊，請參閱[從資源規劃工具](../../../../resource-mgmt/resource-planning/export-resource-planner.md)匯出資訊。
 
 ## 任務清單改善 {#task-list-improvements}
 
@@ -80,9 +80,9 @@ ht-degree: 0%
 
      所有變更都會顯示在專案內的任務清單中，以及任務底下的子任務標籤中。
 
-如需有關在清單中工作的詳細資訊，請參閱 [開始使用Adobe Workfront中的清單](../../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).
+如需使用清單的詳細資訊，請參閱[開始使用Adobe Workfront中的清單](../../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md)。
 
-如需有關在甘特圖中鏈結任務的詳細資訊，請參閱 [透過鏈結任務建立前置任務關係](../../../../manage-work/tasks/use-prdcssrs/create-predecessors-by-chaining-tasks.md).
+如需有關在甘特圖中鏈結任務的詳細資訊，請參閱[透過鏈結任務建立前置任務關係](../../../../manage-work/tasks/use-prdcssrs/create-predecessors-by-chaining-tasks.md)。
 
 ## 專案清單改善 {#project-list-improvements}
 
@@ -94,7 +94,7 @@ ht-degree: 0%
 
 此功能已在2018.2版本中移除。
 
-如需有關在清單中工作的詳細資訊，請參閱 [開始使用Adobe Workfront中的清單](../../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).
+如需使用清單的詳細資訊，請參閱[開始使用Adobe Workfront中的清單](../../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md)。
 
 ## 在甘特圖編輯模式下編輯工作清單 {#editing-the-task-list-in-gantt-chart-edit-mode}
 
@@ -112,7 +112,7 @@ ht-degree: 0%
 
 以前，當任務以甘特圖的編輯模式顯示時，您無法對這些任務執行這些動作。 您可以在未顯示在甘特圖中的工作清單中進行這些變更，但變更會立即生效。
 
-如需有關編輯甘特圖中的工作的資訊，請參閱 [更新工作清單甘特圖中的資訊](../../../../manage-work/gantt-chart/use-the-gantt-chart/update-info-task-list-gantt.md).
+如需有關編輯甘特圖中的工作的資訊，請參閱工作清單甘特圖中的[更新資訊](../../../../manage-work/gantt-chart/use-the-gantt-chart/update-info-task-list-gantt.md)。
 
 ## 測量工具顏色 {#measurement-tool-colors}
 
@@ -128,9 +128,9 @@ ht-degree: 0%
 >
 >* 此功能已從預覽環境中移除，將不會包含在2018.3版本中。
 
-當您在Workfront或Workfront Proof的任何地方開啟校訂時，校訂檢視器現在會在新的瀏覽器標籤中啟動，且焦點會切換到該標籤。 您可以在多個瀏覽器標籤中工作，檢閱校訂並繼續您在Workfront或Workfront Proof中處理專案、任務和問題。
+現在當您在Workfront或Workfront Proof中的任何地方開啟校訂時，校訂檢視器會在新的瀏覽器標籤中啟動，且焦點會切換到該標籤。 您可以在多個瀏覽器標籤中工作，檢閱校樣並繼續在Workfront或Workfront Proof中處理專案、任務和問題。
 
-先前，校訂檢視器會在您目前Workfront或Workfront Proof瀏覽器標籤上方的框架中啟動，導致該標籤無法存取，直到您關閉校訂檢視器為止。
+之前，校訂檢視器會在您目前Workfront或Workfront Proof瀏覽器標籤上方的框架中啟動，導致該標籤無法存取，直到您關閉校訂檢視器為止。
 
 如需詳細資訊，請參閱。
 
@@ -150,7 +150,7 @@ ht-degree: 0%
 
   以前不包含階段。
 
-如需詳細資訊，請參閱 [在Adobe Workfront中列印校訂摘要](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/print-proof-summary-in-wf.md).
+如需詳細資訊，請參閱[在Adobe Workfront中列印校訂摘要](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/print-proof-summary-in-wf.md)。
 
 ## 在Workfront行動應用程式中記錄時間（以天為單位） {#log-time-in-days-in-the-workfront-mobile-app}
 
@@ -160,4 +160,4 @@ ht-degree: 0%
 
 如需在行動應用程式中記錄時間的詳細資訊，請參閱。 
 
-此功能可立即透過Android Beta版應用程式進行測試。 
+此功能可立即透過Android Beta應用程式進行測試。 

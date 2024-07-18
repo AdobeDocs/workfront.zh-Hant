@@ -21,8 +21,8 @@ ht-degree: 0%
 
 本節包含下列文章：
 
-* [建立方案](../../../manage-work/portfolios/create-and-manage-programs/create-program.md)
-* [編輯計畫](../../../manage-work/portfolios/create-and-manage-programs/edit-programs.md)
+* [建立程式](../../../manage-work/portfolios/create-and-manage-programs/create-program.md)
+* [編輯程式](../../../manage-work/portfolios/create-and-manage-programs/edit-programs.md)
 * [將現有方案新增至投資組合](../../../manage-work/portfolios/create-and-manage-programs/move-program.md)
 * [將專案新增至方案](../../../manage-work/portfolios/create-and-manage-programs/add-project-to-program.md)
 * [從方案中移除專案](../../../manage-work/portfolios/create-and-manage-programs/remove-project-from-program.md)

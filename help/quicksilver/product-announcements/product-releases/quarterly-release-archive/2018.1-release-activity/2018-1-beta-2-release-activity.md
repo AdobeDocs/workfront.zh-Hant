@@ -22,22 +22,22 @@ ht-degree: 2%
 >
 > 本頁所述的功能在生產環境使用之前可能會有所變更。
 
-如需2018.1年度所有變更的清單，請參閱  [2018.1版本活動概覽](../../../../product-announcements/product-releases/quarterly-release-archive/2018.1-release-activity/2018-1-release-activity-overview.md).
+如需2018.1年度所有變更的清單，請參閱  [2018.1發行活動總覽](../../../../product-announcements/product-releases/quarterly-release-archive/2018.1-release-activity/2018-1-release-activity-overview.md)。
 
 2018.1 Beta 2版本包含適用於Workfront管理員和其他使用者的增強功能：
 
-**適用於管理員**
+管理員的&#x200B;****
 
 * [使用者和版面配置範本的群組管理](#group-administration-for-users-and-layout-templates)
 
-**適用於所有使用者**
+**所有使用者**
 
-* [全系統寬熒幕顯示器](#system-wide-widescreen-display)
+* [系統範圍寬熒幕顯示器](#system-wide-widescreen-display)
 * [在甘特圖上調整時間表快照的大小](#resize-timeline-snapshot-on-the-gantt-chart)
-* [業務案例中的互動式資源規劃工具](#interactive-resource-planner-in-the-business-case)
-* [資源規劃工具 — 使用者配置圖中的視覺效果](#visualization-in-the-resource-planner-user-allocation-chart)
-* [首頁區域的改善](#improvements-in-the-home-area)
-* [新校訂檢視器改進](#new-proofing-viewer-improvements) 
+* 業務案例中的[互動式資源規劃工具](#interactive-resource-planner-in-the-business-case)
+* 資源規劃工具中的[視覺效果 — 使用者配置圖](#visualization-in-the-resource-planner-user-allocation-chart)
+* 首頁區域中的[改善專案](#improvements-in-the-home-area)
+* [新校訂檢視器改善](#new-proofing-viewer-improvements) 
 
 ## 使用者和版面配置範本的群組管理 {#group-administration-for-users-and-layout-templates}
 
@@ -48,7 +48,7 @@ ht-degree: 2%
 
 ### 群組管理員的使用者管理 {#user-management-by-group-administrator}
 
-我們即將推出 **群組管理員**. 為了支援此功能， **群組所有者** 欄位已重新命名為 **群組管理員** 而指定為群組管理員的使用者擁有管理使用者和群組的其他許可權。
+我們將介紹&#x200B;**群組管理員**&#x200B;的新概念。 為了支援此功能，**群組擁有者**&#x200B;欄位已重新命名為&#x200B;**群組管理員**，而且被指定為群組管理員的使用者擁有管理使用者和群組的額外許可權。
 
 除了群組擁有者先前必須擁有的使用者管理許可權之外，群組管理員現在還可在群組內管理設定為群組管理員的使用者時，擁有下列額外存取許可權：
 
@@ -58,11 +58,11 @@ ht-degree: 2%
 
 在此變更之前，只有Workfront管理員可以執行這些功能。
 
-如需群組管理員的詳細資訊，請參閱下列「瞭解群組管理員」一節： [建立群組](../../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md).
+如需群組管理員的詳細資訊，請參閱[建立群組](../../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md)中的「瞭解群組管理員」一節。
 
 ### 群組管理員的版面配置範本管理 {#layout-template-management-by-group-administrators}
 
-我們即將推出 **具有管理存取權的群組** 您可以與版面配置範本建立關聯的物件。
+我們即將推出具有管理存取權的&#x200B;**群組**&#x200B;的新概念，您可以將其與配置範本建立關聯。
 
 指定為此群組之群組管理員的使用者有權管理該版面配置範本並建立新的版面配置範本，其中他們管理的群組是範本的管理群組。 
 
@@ -89,7 +89,7 @@ ht-degree: 2%
 
 在此增強功能之前，您可以在時間軸快照上選取特定點，以便在甘特圖中導覽至該點。
 
-如需有關設定資訊在甘特圖上的顯示方式的詳細資訊，請參閱 [設定資訊在甘特圖上的顯示方式](../../../../manage-work/gantt-chart/use-the-gantt-chart/configure-info-on-gantt-chart.md).
+如需有關設定資訊在甘特圖上的顯示方式的詳細資訊，請參閱[設定資訊在甘特圖上的顯示方式](../../../../manage-work/gantt-chart/use-the-gantt-chart/configure-info-on-gantt-chart.md)。
 
 ## 業務案例中的互動式資源規劃工具 {#interactive-resource-planner-in-the-business-case}
 
@@ -97,11 +97,11 @@ ht-degree: 2%
 
 在此變更之前，如果專案已針對全域資源規劃工具中的資源編列預算，則您可以在業務案例中檢視資源預算資訊。
 
-如需有關在Business Case中完成預算專案資源的詳細資訊，請參閱 [業務案例中的預算資源](../../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case.md).
+如需在業務案例中完成預算專案資源的詳細資訊，請參閱業務案例中的[預算資源](../../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case.md)。
 
 ## 資源規劃工具 — 使用者配置圖中的視覺效果 {#visualization-in-the-resource-planner-user-allocation-chart}
 
-您現在可以在「資源規劃工具」的圖表中顯示所有使用者對其可用性的整體計劃分配。 當您選取時，圖表可供使用 **依使用者檢視** 在資源規劃工具中。
+您現在可以在「資源規劃工具」的圖表中顯示所有使用者對其可用性的整體計劃分配。 當您在資源規劃工具中選取&#x200B;**依使用者檢視**&#x200B;時，圖表可供使用。
 
 圖表會顯示下列資訊：
 
@@ -112,7 +112,7 @@ ht-degree: 2%
 
 在此變更之前，您只能以表格格式檢視個別使用者的配置和可用性。
 
-如需資源規劃工具中使用者配置圖表的詳細資訊，請參閱 [資源規劃工具概觀](../../../../resource-mgmt/resource-planning/get-started-resource-planner.md).
+如需資源規劃工具中使用者配置圖表的詳細資訊，請參閱[資源規劃工具概觀](../../../../resource-mgmt/resource-planning/get-started-resource-planner.md)。
 
 ## 首頁區域的改善 {#improvements-in-the-home-area}
 
@@ -130,26 +130,26 @@ ht-degree: 2%
 
 * 在請求上按一下「處理它」後，與問題相關的欄位將顯示在右側面板中。
 
-  如需有關處理首頁區域請求的詳細資訊，請參閱 [管理首頁區域的工作和團隊請求](../../../../workfront-basics/using-home/using-the-home-area/manage-work-and-team-requests-home.md) 在 [管理首頁區域的工作和團隊請求](../../../../workfront-basics/using-home/using-the-home-area/manage-work-and-team-requests-home.md).
+  如需有關處理首頁區域的請求的詳細資訊，請參閱[管理首頁區域的工作和團隊請求](../../../../workfront-basics/using-home/using-the-home-area/manage-work-and-team-requests-home.md)中的[管理首頁區域的工作和團隊請求](../../../../workfront-basics/using-home/using-the-home-area/manage-work-and-team-requests-home.md)。
 
 * 指向左側面板中工作專案上的使用者頭像，以檢視使用者名稱。
 * 展開左側面板中的「延遲」區域以檢視所有延遲的專案（摺疊此區域時，只會顯示前5個專案）。
 * 將專案標示為「完成」後，該專案會保留在左側面板中，直到您選取其他專案為止。\
-  如需有關顯示已完成專案的資訊，請參閱 [在首頁區域的工作清單中顯示專案](../../../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md) 在 [在首頁區域的工作清單中顯示專案](../../../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md).
+  如需有關顯示已完成專案的資訊，請參閱[顯示首頁區域工作清單中的專案](../../../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md)首頁區域工作清單中的專案[顯示首頁區域的工作清單](../../../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md)。
 
-如需有關使用新「首頁」區域的詳細資訊，以及說明「我的工作」和「首頁」之間功能差異的資訊，請參閱 [使用首頁區域](../../../../workfront-basics/using-home/using-the-home-area/use-the-home-area.md).
+如需有關使用新首頁區域的詳細資訊，以及說明「我的工作」和「首頁」之間功能差異的資訊，請參閱[使用首頁區域](../../../../workfront-basics/using-home/using-the-home-area/use-the-home-area.md)。
 
 ## 新校訂檢視器改進  {#new-proofing-viewer-improvements}
 
-* [改善版面配置和設計](#improved-layout-and-design)
-* [按評論編號搜尋評論](#search-comments-by-comment-number)
-* [標示指標旁的編輯註解選項](#option-to-edit-comment-next-to-the-markup-indicator)
-* [將所有註解標示為已讀取](#mark-all-comments-as-read)
+* [改善版面配置與設計](#improved-layout-and-design)
+* [依據評論編號搜尋評論](#search-comments-by-comment-number)
+* [標籤指標旁編輯註解的選項](#option-to-edit-comment-next-to-the-markup-indicator)
+* [將所有評論標示為已讀取](#mark-all-comments-as-read)
 * [左側功能表改良](#left-menu-improvements)
 
 ### 改善版面配置和設計 {#improved-layout-and-design}
 
-校訂檢視器的外觀與風格均已更新。 下列校訂檢視器區域已更新：
+校訂檢視器的外觀與風格均已更新。 此  下列校訂檢視器區域已更新：
 
 * 縮圖區域
 

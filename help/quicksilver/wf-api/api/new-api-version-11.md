@@ -9,15 +9,15 @@ role: Developer
 exl-id: b8826dc6-9791-49f6-923d-5a0c5392a8b0
 source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
-source-wordcount: '3600'
+source-wordcount: '3573'
 ht-degree: 2%
 
 ---
 
 # API 11版的新增功能
 
-* [新增的資源](#added-resources)
-* [已移除的資源](#removed-resources)
+* [已新增資源](#added-resources)
+* [已移除資源](#removed-resources)
 * [已修改的資源](#modified-resources)
 
 ## 新增的資源 {#added-resources}
@@ -208,7 +208,7 @@ ReportableBudgedHour已新增至Adobe Workfront API作為報表的資源。 它�
     </ul> </td> 
   </tr> 
   <tr> 
-   <td>作業</td> 
+   <td>營運</td> 
    <td> 
     <ul> 
      <li style="font-weight: bold;">計數</li> 
@@ -238,9 +238,9 @@ ReportableBudgedHour已新增至Adobe Workfront API作為報表的資源。 它�
      <li><a href="#accessrequest" class="MCXref xref">AccessRequest</a> </li> 
      <li><a href="#accessrule" class="MCXref xref">存取規則</a> </li> 
      <li><a href="#approval" class="MCXref xref">核准</a> </li> 
-     <li><a href="#approvalpath" class="MCXref xref">ApprovalPath</a> </li> 
+     <li><a href="#approvalpath" class="MCXref xref">核准路徑</a> </li> 
      <li><a href="#approvalprocess" class="MCXref xref">ApprovalProcess</a> </li> 
-     <li><a href="#assignment" class="MCXref xref">指派</a> </li> 
+     <li><a href="#assignment" class="MCXref xref">工作分派</a> </li> 
      <li><a href="#baselinetask" class="MCXref xref">基準線任務</a> </li> 
      <li><a href="#category" class="MCXref xref">類別</a> </li> 
      <li><a href="#company" class="MCXref xref">公司</a> </li> 
@@ -251,17 +251,17 @@ ReportableBudgedHour已新增至Adobe Workfront API作為報表的資源。 它�
    <td> 
     <ul> 
      <li><a href="#docmetadatalinkgroup" class="MCXref xref">DocMetadataLinkGroup</a> </li> 
-     <li><a href="#document" class="MCXref xref">文件</a> </li> 
-     <li><a href="#iteration" class="MCXref xref">反覆項目</a> </li> 
-     <li><a href="#layout-template" class="MCXref xref">版面配置範本</a> </li> 
+     <li><a href="#document" class="MCXref xref">檔案</a> </li> 
+     <li><a href="#iteration" class="MCXref xref">反複專案</a> </li> 
+     <li><a href="#layout-template" class="MCXref xref">配置範本</a> </li> 
      <li><a href="#milestonepath" class="MCXref xref">里程碑路徑</a> </li> 
-     <li><a href="#note" class="MCXref xref">備註</a> </li> 
-     <li><a href="#optask" class="MCXref xref">Op 任務</a> </li> 
-     <li><a href="#parameter" class="MCXref xref">參數</a> </li> 
-     <li><a href="#portfolio" class="MCXref xref">專案組合</a> </li> 
-     <li><a href="#program" class="MCXref xref">方案</a> </li> 
+     <li><a href="#note" class="MCXref xref">附註</a> </li> 
+     <li><a href="#optask" class="MCXref xref">OpTask</a> </li> 
+     <li><a href="#parameter" class="MCXref xref">引數</a> </li> 
+     <li><a href="#portfolio" class="MCXref xref">Portfolio</a> </li> 
+     <li><a href="#program" class="MCXref xref">程式</a> </li> 
      <li><a href="#project" class="MCXref xref">專案</a> </li> 
-     <li><a href="#proofapproval" class="MCXref xref">ProofApproval</a> </li> 
+     <li><a href="#proofapproval" class="MCXref xref">校訂核准</a> </li> 
      <li><a href="#queuedef" class="MCXref xref">QueueDef</a> </li> 
      <li><a href="#reservedtime" class="MCXref xref">保留時間</a> </li> 
     </ul> </td> 
@@ -270,7 +270,7 @@ ReportableBudgedHour已新增至Adobe Workfront API作為報表的資源。 它�
      <li><a href="#resourceplannerfilter" class="MCXref xref">ResourcePlannerFilter</a> </li> 
      <li><a href="#risk" class="MCXref xref">風險</a> </li> 
      <li><a href="#scheduledreport" class="MCXref xref">排程報告</a> </li> 
-     <li><a href="#scorecardquestion" class="MCXref xref">ScorecardQuestion</a> </li> 
+     <li><a href="#scorecardquestion" class="MCXref xref">ScoreCardQuestion</a> </li> 
      <li><a href="#task" class="MCXref xref">任務</a> </li> 
      <li><a href="#team" class="MCXref xref">團隊</a> </li> 
      <li><a href="#template" class="MCXref xref">範本</a> </li> 
@@ -281,7 +281,7 @@ ReportableBudgedHour已新增至Adobe Workfront API作為報表的資源。 它�
       <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="#user" class="MCXref xref">User</a> </li>
      --> 
      <li><a href="#usernote" class="MCXref xref">使用者附註</a> </li> 
-     <li><a href="#work" class="MCXref xref">工作 </a> </li> 
+     <li><a href="#work" class="MCXref xref">工作</a> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -832,7 +832,7 @@ Parameter物件是自訂欄位。
    <td> 
     <ul> 
      <li style="font-weight: bold;"> <p>顯示型別</p> <p style="font-weight: normal;">新增可能的值TYAH （自動提示）。</p> </li> 
-     <li style="font-weight: bold;"> <p>refObjCode </p> <p style="font-weight: normal;">此欄位已新增，並參考參考參考物件的物件程式碼。 所有物件的物件程式碼都可在下列位置找到： <a href="../../wf-api/general/api-explorer.md" class="MCXref xref">API總管</a>.  </p> </li> 
+     <li style="font-weight: bold;"> <p>refObjCode </p> <p style="font-weight: normal;">此欄位已新增，並參考參考參考物件的物件程式碼。 您可以在<a href="../../wf-api/general/api-explorer.md" class="MCXref xref">API Explorer</a>中找到所有物件的物件程式碼。  </p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -988,7 +988,7 @@ ReservedTime資源已新增旗標REPORTABLE。
     </ul> </td> 
   </tr> 
   <tr> 
-   <td>作業</td> 
+   <td>營運</td> 
    <td> 
     <ul> 
      <li style="font-weight: bold;"> <p>編輯</p> <p style="font-weight: normal;">已新增</p> </li> 

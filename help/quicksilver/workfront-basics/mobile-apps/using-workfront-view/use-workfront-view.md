@@ -3,7 +3,7 @@ content-type: reference
 product-previous: mobile
 navigation-topic: mobile-apps
 title: 使用Adobe Workfront檢視
-description: 請參閱這些文章以瞭解如何使用 [!DNL Adobe Workfront] 檢視。
+description: 檢閱這些文章以瞭解如何使用 [!DNL Adobe Workfront] 檢視。
 author: Nolan
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
@@ -15,12 +15,12 @@ ht-degree: 0%
 
 ---
 
-# 使用 [!DNL Adobe Workfront View]
+# 使用[!DNL Adobe Workfront View]
 
 本節包含下列文章：
 
 * [開始使用 [!DNL Adobe Workfront View]](../../../workfront-basics/mobile-apps/using-workfront-view/get-started-with-workfront-view.md)
-* [顯示專案於 [!DNL Adobe Workfront View]](../../../workfront-basics/mobile-apps/using-workfront-view/display-projects-in-wokrfont-view.md)
-* [篩選專案清單于 [!DNL Adobe Workfront View]](../../../workfront-basics/mobile-apps/using-workfront-view/filter-project-lists-in-workfront-view.md)
-* [更新Widget [!UICONTROL 專案詳細資訊] 檢視](../../../workfront-basics/mobile-apps/using-workfront-view/update-widgets-in-workfront-view.md)
-* [在中新增更新 [!DNL Adobe Workfront View]](../../../workfront-basics/mobile-apps/using-workfront-view/add-updates-in-workfront-view.md)
+* [在 [!DNL Adobe Workfront View]中顯示專案](../../../workfront-basics/mobile-apps/using-workfront-view/display-projects-in-wokrfont-view.md)
+* [篩選 [!DNL Adobe Workfront View]中的專案清單](../../../workfront-basics/mobile-apps/using-workfront-view/filter-project-lists-in-workfront-view.md)
+* [更新[!UICONTROL 專案詳細資料]檢視中的Widget](../../../workfront-basics/mobile-apps/using-workfront-view/update-widgets-in-workfront-view.md)
+* [在 [!DNL Adobe Workfront View]中新增更新](../../../workfront-basics/mobile-apps/using-workfront-view/add-updates-in-workfront-view.md)

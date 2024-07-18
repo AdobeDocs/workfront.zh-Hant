@@ -25,11 +25,11 @@ ht-degree: 0%
 
 本節包含下列文章：
 
-* [修改任務指派的概要](../../../manage-work/tasks/assign-tasks/modify-task-assignments-overview.md)
+* [修改任務指派的總覽](../../../manage-work/tasks/assign-tasks/modify-task-assignments-overview.md)
 * [指派任務](../../../manage-work/tasks/assign-tasks/assign-tasks.md)
-* [建立進階任務指派](../../../manage-work/tasks/assign-tasks/create-advanced-assignments.md)
+* [建立進階工作分派](../../../manage-work/tasks/assign-tasks/create-advanced-assignments.md)
 * [智慧指派總覽](../../../manage-work/tasks/assign-tasks/smart-assignments.md)
-* [進行智慧型指派](../../../manage-work/tasks/assign-tasks/make-smart-assignments.md)
-* [修改任務清單中的多個使用者指派](../../../manage-work/tasks/assign-tasks/modify-multiple-assignments-in-task-list.md)
-* [管理任務的使用者和角色分配時數](../../../manage-work/tasks/assign-tasks/manage-allocation-hours-on-tasks.md)
+* [進行智慧指派](../../../manage-work/tasks/assign-tasks/make-smart-assignments.md)
+* [修改工作清單中的多個使用者指派](../../../manage-work/tasks/assign-tasks/modify-multiple-assignments-in-task-list.md)
+* [管理任務的使用者和角色配置時數](../../../manage-work/tasks/assign-tasks/manage-allocation-hours-on-tasks.md)
 * [管理任務的使用者或角色配置百分比](../../../manage-work/tasks/assign-tasks/manage-allocation-percentage-on-tasks.md)

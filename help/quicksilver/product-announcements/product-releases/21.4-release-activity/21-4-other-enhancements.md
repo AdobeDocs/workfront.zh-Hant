@@ -17,7 +17,7 @@ ht-degree: 0%
 
 本頁說明21.4版本對「預覽」環境所做的所有其他增強功能。 這些增強功能將在2021年10月4日當週的生產環境中提供。
 
-如需21.4版本所有可用變更的清單，請參閱 [21.4版本總覽](../../../product-announcements/product-releases/21.4-release-activity/21-4-release-overview.md).
+如需21.4版本可用的所有變更清單，請參閱[21.4版本總覽](../../../product-announcements/product-releases/21.4-release-activity/21-4-release-overview.md)。
 
 ## 清單中用於縮排和凸排的新鍵盤快速鍵
 
@@ -31,4 +31,4 @@ ht-degree: 0%
 
 此變更僅適用於更新的清單，不適用於舊版清單。
 
-如需詳細資訊，請參閱 [建立子任務](../../../manage-work/tasks/create-tasks/create-subtasks.md).
+如需詳細資訊，請參閱[建立子工作](../../../manage-work/tasks/create-tasks/create-subtasks.md)。

@@ -20,17 +20,17 @@ ht-degree: 0%
 
 >[!INFO]
 >
->[!DNL Adobe Workfront Fusion] 需要 [!DNL Adobe Workfront Fusion] 除了授權之外， [!DNL Adobe Workfront license].
+>除了[!DNL Adobe Workfront license]之外，[!DNL Adobe Workfront Fusion]還需要[!DNL Adobe Workfront Fusion]授權。
 
-[!DNL Workfront Fusion]的範本功能可讓您建立和使用現有的範本，作為您的起點 [!DNL Workfront Fusion] 情境。
+[!DNL Workfront Fusion]的範本功能可讓您建立和使用現有的範本，作為[!DNL Workfront Fusion]案例的起點。
 
 本節包含下列文章：
 
-* [[!DNL Adobe Workfront Fusion] 範本概觀](/help/quicksilver/workfront-fusion/scenarios/templates/fusion-templates-overview.md)
-* [在中建立新範本 [!DNL Adobe Workfront Fusion]](../../../workfront-fusion/scenarios/templates/create-new-fusion-templates.md)
-* [發佈和共用 [!DNL Adobe Workfront Fusion] 範本](../../../workfront-fusion/scenarios/templates/publish-and-share-fusion-templates.md)
-* [建立情境，使用 [!DNL Adobe Workfront Fusion] 範本](../../../workfront-fusion/scenarios/templates/create-scenarios-with-fusion-templates.md)
+* [[!DNL Adobe Workfront Fusion]範本概觀](/help/quicksilver/workfront-fusion/scenarios/templates/fusion-templates-overview.md)
+* [在 [!DNL Adobe Workfront Fusion]](../../../workfront-fusion/scenarios/templates/create-new-fusion-templates.md)中建立新範本
+* [Publish和共用 [!DNL Adobe Workfront Fusion] 範本](../../../workfront-fusion/scenarios/templates/publish-and-share-fusion-templates.md)
+* [使用 [!DNL Adobe Workfront Fusion] 範本建立情境](../../../workfront-fusion/scenarios/templates/create-scenarios-with-fusion-templates.md)
 * [檢視、編輯和刪除 [!DNL Adobe Workfront Fusion] 範本](../../../workfront-fusion/scenarios/templates/view-edit-and-delete-fusion-templates.md)
 * [[!DNL Adobe Workfront Fusion] 範本管理](../../../workfront-fusion/scenarios/templates/fusion-templates-adminstration.md)
-* [[!DNL Adobe Workfront Fusion] 範本常見問答](../../../workfront-fusion/scenarios/templates/fusion-templates-faqs.md)
-* [目前可用 [!DNL Adobe Workfront Fusion] 範本](../../../workfront-fusion/scenarios/templates/currently-available-fusion-templates.md)
+* [[!DNL Adobe Workfront Fusion]範本常見問答](../../../workfront-fusion/scenarios/templates/fusion-templates-faqs.md)
+* [目前可用的 [!DNL Adobe Workfront Fusion] 範本](../../../workfront-fusion/scenarios/templates/currently-available-fusion-templates.md)

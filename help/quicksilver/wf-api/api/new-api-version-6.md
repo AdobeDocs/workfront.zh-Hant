@@ -9,8 +9,8 @@ role: Developer
 exl-id: e671a881-b8c2-4234-a3a0-76b1fbfafd32
 source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
-source-wordcount: '495'
-ht-degree: 38%
+source-wordcount: '538'
+ht-degree: 34%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 38%
 
 ### 資源管理員
 
-| 欄位 | 引用 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
+| 欄位 | 引用 | 集合 | 搜尋 | 動作 | 查詢 | 營運 |
 |---|---|---|---|---|---|---|
 | ID | 客戶 |   |   |   |   | 新增 |
 | customerID | 專案 |   |   |   |   | 計數 |
@@ -32,7 +32,7 @@ ht-degree: 38%
 
 ### Ews
 
-| 欄位 | 引用 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
+| 欄位 | 引用 | 集合 | 搜尋 | 動作 | 查詢 | 營運 |
 |---|---|---|---|---|---|---|
 | 檔案名稱 |   |   |   |   | 上傳 |   |
 | 控點 |   |   |   |   |   |   |
@@ -41,7 +41,7 @@ ht-degree: 38%
 
 ### 自訂標籤
 
-| 欄位 | 引用 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
+| 欄位 | 引用 | 集合 | 搜尋 | 動作 | 查詢 | 營運 |
 |---|---|---|---|---|---|---|
 | ID |   |   |   | checkDelete | customLabel | 新增 |
 |   |   |   |   | inUseByOtherLayoutTemplate | userCustomLabel | 計數 |
@@ -59,14 +59,14 @@ ht-degree: 38%
 
  
 
-| 欄位 | 引用 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
+| 欄位 | 引用 | 集合 | 搜尋 | 動作 | 查詢 | 營運 |
 |---|---|---|---|---|---|---|
 | updateType<sup>1</sup> |   |   |   |   | `sinceDate` |   |
 |   |   |   |   |   | objectUpdatesByCommentID<sup>2</sup> |   |
 
 {style="table-layout:auto"}
 
-<sup>1</sup> 可能值的變更
+<sup>1</sup>可能值的變更
 
 <sup>2</sup> hasFilters屬性已變更為true
 
@@ -74,25 +74,25 @@ ht-degree: 38%
 
 ### 核准
 
-| 欄位 | 引用 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
+| 欄位 | 引用 | 集合 | 搜尋 | 動作 | 查詢 | 營運 |
 |---|---|---|---|---|---|---|
 | completedHours |   | resourceManagers | resourceManagerIDs |   |   |   |
-| constraintdate<sup>1</sup> |   |   |   |   |   |   |
+| constraintDate<sup>1</sup> |   |   |   |   |   |   |
 | isOriginalPlannedHoursSet |   |   |   |   |   |   |
 | syncBurndownDate |   |   |   |   |   |   |
-| 所需工作<sup>2</sup> |   |   |   |   |   |   |
+| workRequired<sup>2</sup> |   |   |   |   |   |   |
 
 {style="table-layout:auto"}
 
-<sup>1</sup> 日期驗證已新增
+<sup>1</sup>日期驗證已新增
 
-<sup>2</sup> 已新增NOT_FILTERABLE旗標
+<sup>2</sup> NOT_FILTERABLE旗標已新增
 
  
 
 ### 核准流程
 
-|   | 欄位 | 引用 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
+|   | 欄位 | 引用 | 集合 | 搜尋 | 動作 | 查詢 | 營運 |
 |---|---|---|---|---|---|---|---|
 |   |  | `attachedApprovalPaths` |   |   |   |   |   |
 
@@ -104,23 +104,23 @@ ht-degree: 38%
 
  
 
-| 欄位 | 引用 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
+| 欄位 | 引用 | 集合 | 搜尋 | 動作 | 查詢 | 營運 |
 |---|---|---|---|---|---|---|
 | approvalType<sup>1</sup> |   |   |   |   |   |   |
 
 {style="table-layout:auto"}
 
-<sup>1</sup> 可能值的變更
+<sup>1</sup>可能值的變更
 
  
 
 ### 核准路徑<sup>1</sup>
 
-| 欄位 | 引用 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
+| 欄位 | 引用 | 集合 | 搜尋 | 動作 | 查詢 | 營運 |
 |---|---|---|---|---|---|---|
 | approvedstatus |   |   |   |   |   | 新增 |
 | approvedStatusLabs |   |   |   |   |   | 計數 |
-| 註解 |   |   |   |   |   | 刪除 |
+| 評論 |   |   |   |   |   | 刪除 |
 | enteredById |   |   |   |   |   | 編輯 |
 | entryDate |   |   |   |   |   | Get |
 | globalPathID |   |   |   |   |   | 報告 |
@@ -131,30 +131,30 @@ ht-degree: 38%
 
 {style="table-layout:auto"}
 
-<sup>1</sup> 變更為可報告
+<sup>1</sup>已變更為可報告
 
-<sup>2</sup> 已新增最大長度驗證器
+<sup>2</sup>已新增長度上限驗證器
 
  
 
 ### 工作服務物件
 
-| 欄位 | 引用 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
+| 欄位 | 引用 | 集合 | 搜尋 | 動作 | 查詢 | 營運 |
 |---|---|---|---|---|---|---|
-| constraintdate<sup>1</sup> |   |   |   | getMyWorkCountFiltered |   |   |
-| 所需工作<sup>2</sup> |   |   |   | workitemstatusLabels  |   |   |
+| constraintDate<sup>1</sup> |   |   |   | getMyWorkCountFiltered |   |   |
+| workRequired<sup>2</sup> |   |   |   | workitemstatusLabels  |   |   |
 
 {style="table-layout:auto"}
 
-<sup>1</sup> 日期驗證已新增
+<sup>1</sup>日期驗證已新增
 
-<sup>2</sup> 已新增Not_Filterable旗標
+<sup>2</sup> Not_Filterable旗標已新增
 
  
 
 ### 指派
 
-| 欄位 | 引用 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
+| 欄位 | 引用 | 集合 | 搜尋 | 動作 | 查詢 | 營運 |
 |---|---|---|---|---|---|---|
 |   |   |   |   | assignUserToRoleOnProject |   |   |
 |   |   |   |   | swapUsersOnProjects |   |   |
@@ -164,43 +164,43 @@ ht-degree: 38%
 
  
 
-### 基準線 
+### 基線 
 
-| 欄位 | 引用 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
+| 欄位 | 引用 | 集合 | 搜尋 | 動作 | 查詢 | 營運 |
 |---|---|---|---|---|---|---|
-| 所需工作<sup>1</sup> |   |   |   |   |   |   |
+| workRequired<sup>1</sup> |   |   |   |   |   |   |
 
 {style="table-layout:auto"}
 
-<sup>1</sup> 已新增Not_Filterable旗標
+<sup>1</sup> Not_Filterable旗標已新增
 
  
 
 ### 基準線任務
 
-| 欄位 | 引用 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
+| 欄位 | 引用 | 集合 | 搜尋 | 動作 | 查詢 | 營運 |
 |---|---|---|---|---|---|---|
-| 所需工作<sup>1</sup> |   |   |   |   |   |   |
+| workRequired<sup>1</sup> |   |   |   |   |   |   |
 
 {style="table-layout:auto"}
 
-<sup>1</sup> 已新增Not_Filterable旗標
+<sup>1</sup> Not_Filterable旗標已新增
 
  
 
-### 付費記錄
+### 計費記錄
 
-| 欄位 | 引用 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
+| 欄位 | 引用 | 集合 | 搜尋 | 動作 | 查詢 | 營運 |
 |---|---|---|---|---|---|---|
 | billingDate<sup>1</sup> |   |   |   |   |   |   |
 
 {style="table-layout:auto"}
 
-<sup>1</sup> 新增NO_TIME欄位旗標
+<sup>1</sup>已新增NO_TIME欄位旗標
 
 ### 待執行工作事件 
 
-| 欄位 | 引用 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
+| 欄位 | 引用 | 集合 | 搜尋 | 動作 | 查詢 | 營運 |
 |---|---|---|---|---|---|---|
 | eventInitiator |   |   |   |   |   | `ADD` |
 |   |   |   |   |   |   | `DELETE` |
@@ -211,7 +211,7 @@ ht-degree: 38%
 
 ### 類別 
 
-| 欄位 | 引用 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
+| 欄位 | 引用 | 集合 | 搜尋 | 動作 | 查詢 | 營運 |
 |---|---|---|---|---|---|---|
 |   |   |   |   | getCascadingRules |   |   |
 |   |   |   |   | reorderCategories |   |   |
@@ -220,9 +220,9 @@ ht-degree: 38%
 
  
 
-自訂枚舉 
+自訂列舉 
 
-| 欄位 | 引用 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
+| 欄位 | 引用 | 集合 | 搜尋 | 動作 | 查詢 | 營運 |
 |---|---|---|---|---|---|---|
 |   |   |   |   | getGroupDefaultProjectStatus | opTaskGroupStatuses |   |
 |   |   |   |   | isPossibleToUnlockStatus | projectGroupStatures |   |
@@ -232,9 +232,9 @@ ht-degree: 38%
 
  
 
-文件 
+檔案 
 
-| 欄位 | 引用 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
+| 欄位 | 引用 | 集合 | 搜尋 | 動作 | 查詢 | 營運 |
 |---|---|---|---|---|---|---|
 | `checkedOutByID` | `checkedOutBy`  |   |  isDir |   |   |   |
 | `isDir`  |   |   |   |   |   |   |
@@ -245,19 +245,19 @@ ht-degree: 38%
 
 匯率 
 
-| 欄位 | 引用 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
+| 欄位 | 引用 | 集合 | 搜尋 | 動作 | 查詢 | 營運 |
 |---|---|---|---|---|---|---|
-| 評等<sup>1</sup> |   |   |   |   |   |   |
+| 速率<sup>1</sup> |   |   |   |   |   |   |
 
 {style="table-layout:auto"}
 
-<sup>1</sup> 將PRECISION驗證器從8變更為9
+<sup>1</sup>已將8的PRECISION驗證器變更為9
 
  
 
 ### 整合
 
-| 欄位 | 引用 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
+| 欄位 | 引用 | 集合 | 搜尋 | 動作 | 查詢 | 營運 |
 |---|---|---|---|---|---|---|
 | syncBurndownDate |   |   |   |   |   |   |
 
@@ -267,33 +267,33 @@ ht-degree: 38%
 
 ### 日誌輸入項目
 
-| 欄位 | 引用 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
+| 欄位 | 引用 | 集合 | 搜尋 | 動作 | 查詢 | 營運 |
 |---|---|---|---|---|---|---|
 | changeType<sup>1</sup> |   |   |   |   |   |   |
 
 {style="table-layout:auto"}
 
-<sup>1</sup> 可能值的變更
+<sup>1</sup>可能值的變更
 
  
 
 ### Optask （問題）<sup>1</sup> 
 
-| 欄位 | 引用 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
+| 欄位 | 引用 | 集合 | 搜尋 | 動作 | 查詢 | 營運 |
 |---|---|---|---|---|---|---|
-| 所需工作<sup>2</sup> |   |   |   |   |   |   |
+| workRequired<sup>2</sup> |   |   |   |   |   |   |
 
 {style="table-layout:auto"}
 
-<sup>1</sup> 已標籤為可還原
+<sup>1</sup>已標示為可還原
 
-<sup>2</sup> 已新增Not_Filterable旗標
+<sup>2</sup> Not_Filterable旗標已新增
 
  
 
 ### 專案<sup>1</sup> 
 
-| 欄位 | 引用 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
+| 欄位 | 引用 | 集合 | 搜尋 | 動作 | 查詢 | 營運 |
 |---|---|---|---|---|---|---|
 | completedHours |   | `openOpTasks` |  openOpTasks |   |   |   |
 | isOriginalPlannedHoursSet |   | resourceManagers | resourceManagerIDs  |   |   |   |
@@ -304,32 +304,32 @@ ht-degree: 38%
 
 {style="table-layout:auto"}
 
-<sup>1</sup> 標示為可還原且資源可管理
+<sup>1</sup>標示為可還原且資源可管理
 
-<sup>2</sup> 已新增Not_Filterable旗標
+<sup>2</sup> Not_Filterable旗標已新增
 
  
 
-### 任務<sup>1</sup>
+### 工作<sup>1</sup>
 
-| 欄位 | 引用 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
+| 欄位 | 引用 | 集合 | 搜尋 | 動作 | 查詢 | 營運 |
 |---|---|---|---|---|---|---|
-| constraintdate<sup>2</sup> |   |   |   |   |   |   |
-| 所需工作<sup>3</sup> |   |   |   |   |   |   |
+| constraintDate<sup>2</sup> |   |   |   |   |   |   |
+| workRequired<sup>3</sup> |   |   |   |   |   |   |
 
 {style="table-layout:auto"}
 
-<sup>1</sup> 已標籤為可還原
+<sup>1</sup>已標示為可還原
 
-<sup>2</sup> 已新增AT_DATE_YEAR_BEFORE驗證器
+<sup>2</sup> AT_DATE_YEAR_BEFORE驗證器已新增
 
-<sup>3</sup> 已新增Not_Filterable旗標
+<sup>3</sup> Not_Filterable旗標已新增
 
  
 
 ### 團隊
 
-| 欄位 | 引用 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
+| 欄位 | 引用 | 集合 | 搜尋 | 動作 | 查詢 | 營運 |
 |---|---|---|---|---|---|---|
 | `myWorkViewID` |  `myWorkView` |   |   |   |   |   |
 | `requestsViewID`  | `myRequestsView`  |   |   |   |   |   |
@@ -340,31 +340,31 @@ ht-degree: 38%
 
 ### 範本<sup>1</sup> 
 
-| 欄位 | 引用 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
+| 欄位 | 引用 | 集合 | 搜尋 | 動作 | 查詢 | 營運 |
 |---|---|---|---|---|---|---|
 |   |   | resourceManagers | resourceManagerIDs |   |   |   |
 
 {style="table-layout:auto"}
 
-<sup>1</sup> 標示為可還原且資源可管理
+<sup>1</sup>標示為可還原且資源可管理
 
 ### 範本任務<sup>1</sup> 
 
-| 欄位 | 引用 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
+| 欄位 | 引用 | 集合 | 搜尋 | 動作 | 查詢 | 營運 |
 |---|---|---|---|---|---|---|
-| 所需工作<sup>2</sup> |   |   |   |   |   |   |
+| workRequired<sup>2</sup> |   |   |   |   |   |   |
 
 {style="table-layout:auto"}
 
-<sup>1</sup> 已標籤為可還原
+<sup>1</sup>已標示為可還原
 
-<sup>2</sup> 已新增Not_Filterable旗標
+<sup>2</sup> Not_Filterable旗標已新增
 
  
 
 ### 使用者
 
-| 欄位 | 引用 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
+| 欄位 | 引用 | 集合 | 搜尋 | 動作 | 查詢 | 營運 |
 |---|---|---|---|---|---|---|
 | myInfo<sup>1</sup> |   |   |   |   |   |   |
 
@@ -376,21 +376,21 @@ ht-degree: 38%
 
 ### 使用者附註
 
-| 欄位 | 引用 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
+| 欄位 | 引用 | 集合 | 搜尋 | 動作 | 查詢 | 營運 |
 |---|---|---|---|---|---|---|
-| eventtype<sup>1</sup> |   |   |   |   | myNotifications<sup>2</sup> |   |
+| eventType<sup>1</sup> |   |   |   |   | myNotifications<sup>2</sup> |   |
 
 {style="table-layout:auto"}
 
-<sup>1</sup> 可能的值已變更
+<sup>1</sup>可能的值已變更
 
-<sup>2</sup> 已將篩選器變更為 `[true]`
+<sup>2</sup>的篩選器已變更為`[true]`
 
  
 
 ### 宣告
 
-| 欄位 | 引用 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
+| 欄位 | 引用 | 集合 | 搜尋 | 動作 | 查詢 | 營運 |
 |---|---|---|---|---|---|---|
 |   |   |   |   | `fileHandle` |   |   |
 |   |   |   |   | `zipAnnouncementAttachments`  |   |   |

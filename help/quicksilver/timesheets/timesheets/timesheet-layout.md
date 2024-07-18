@@ -26,9 +26,9 @@ ht-degree: 1%
 
 本文說明Adobe Workfront中時程表的配置，讓您更瞭解如何自訂及利用時程表來記錄時間。
 
-時程表和小時偏好設定控制要在時程表上顯示的內容。 本文提供所有可用選項的概觀。 如需有關選取選項的資訊，請參閱 [設定時程表和小時偏好設定](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
+時程表和小時偏好設定控制要在時程表上顯示的內容。 本文提供所有可用選項的概觀。 如需選取選項的詳細資訊，請參閱[設定時程表和小時喜好設定](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md)。
 
-如需有關如何在時程表上記錄時間的資訊，請參閱 [記錄時間](../../timesheets/create-and-manage-timesheets/log-time.md).
+如需如何在時程表上記錄時間的詳細資訊，請參閱[記錄時間](../../timesheets/create-and-manage-timesheets/log-time.md)。
 
 ![時程表配置](assets/timesheet-layout-unshimmed.png)
 
@@ -60,7 +60,7 @@ ht-degree: 1%
    * 更多圖示和允許您刪除時程表的刪除選項。
 * 時程表所有者的名稱。
 * 針對時程表中顯示的專案所記錄的時數總計。
-* 加班小時數。 這是手動輸入，只有在 **加班** 會在時程表上啟用此設定。 如需詳細資訊，請參閱 [編輯時程表資訊](../create-and-manage-timesheets/edit-timesheets.md).
+* 加班小時數。 這是手動專案，只有在時程表上啟用&#x200B;**加班**&#x200B;設定時才會顯示。 如需詳細資訊，請參閱[編輯時程表資訊](../create-and-manage-timesheets/edit-timesheets.md)。
 
 >[!TIP]
 >
@@ -74,8 +74,8 @@ ht-degree: 1%
 
 您可以存取左側面板中的下列區段：
 
-* **時間表**：顯示實際時間表。
-* **更新**：顯示時程表的評論和系統更新。 如需詳細資訊，請參閱 [更新左側面板中的區域](#updates-area-in-the-left-panel) 一節。
+* **時程表**：顯示實際時程表。
+* **更新**：顯示時程表的評論和系統更新。 如需詳細資訊，請參閱本文左面板](#updates-area-in-the-left-panel)中的[更新區域。
 
 ## 工作專案
 
@@ -87,23 +87,23 @@ ht-degree: 1%
 
 ## 工具欄
 
-![時間表工具列](assets/timesheet-toolbar-unshimmed-redesign.png)
+![時程表工具列](assets/timesheet-toolbar-unshimmed-redesign.png)
 
 工具列包含下列選項：
 
-* 此 **新增專案** 按鈕可讓您新增專案、任務或問題。
+* **新增專案**&#x200B;按鈕可讓您新增專案、任務或問題。
 * 快速篩選圖示可搜尋時程表中的任務或問題。
-* 此 **顯示評論** 此設定可讓您檢視或隱藏針對專案、任務或問題時數專案所記錄的時數評論。
+* **顯示註解**&#x200B;設定可讓您檢視或隱藏專案、任務或問題時數專案所記錄的時數註解。
 * 以全熒幕模式顯示時程表的全熒幕圖示。
-* 此 **開啟摘要** (或 **關閉摘要**)按鈕來開啟或關閉「摘要」面板，以檢視任務或問題的其他資訊。 此按鈕不適用於專案。
+* **開啟摘要** （或&#x200B;**關閉摘要**）按鈕可開啟或關閉摘要面板，以檢視任務或問題的其他資訊。 此按鈕不適用於專案。
 
-如需詳細資訊，請參閱 [記錄時間](../create-and-manage-timesheets/log-time.md).
+如需詳細資訊，請參閱[記錄時間](../create-and-manage-timesheets/log-time.md)。
 
 ## 時程表頁尾
 
 ![時程表頁尾](assets/timesheet-footer-unshimmed-redesign.png)
 
-您可以按一下 **提交以進行核准**， **關閉**， **核准**、和 **拒絕** 按鈕來關閉或拒絕時程表核准。
+您可以按一下此區域中的&#x200B;**提交核准**、**關閉**、**核准**&#x200B;和&#x200B;**拒絕**&#x200B;按鈕，以關閉或拒絕時程表核准。
 
 此區域也包含上次儲存時程表的時間相關資訊。 您對時程表中的資訊所做的所有變更都會自動儲存。
 
@@ -111,17 +111,17 @@ ht-degree: 1%
 
 ![職位角色](assets/timesheet-job-role-area-unshimmed-redesign.png)
 
-您可以選取不同的工作角色來與小時專案建立關聯。 您的Workfront管理員必須啟用 **將職位角色指派給時數專案** 手動設定。 當您被指派任務或問題時，預設會顯示為您指定的工作角色。 如果您未被指派任務或問題的工作角色，則您的主要角色將顯示為預設值。 如需詳細資訊，請參閱 [設定時程表和小時偏好設定](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
+您可以選取不同的工作角色來與小時專案建立關聯。 您的Workfront管理員必須手動啟用&#x200B;**將工作角色指派給時數專案**&#x200B;設定。 當您被指派任務或問題時，預設會顯示為您指定的工作角色。 如果您未被指派任務或問題的工作角色，則您的主要角色將顯示為預設值。 如需詳細資訊，請參閱[設定時程表和小時喜好設定](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md)。
 
-您可以為不同角色的相同工作專案記錄多個小時專案。 如需詳細資訊，請參閱 [記錄時間](../create-and-manage-timesheets/log-time.md).
+您可以為不同角色的相同工作專案記錄多個小時專案。 如需詳細資訊，請參閱[記錄時間](../create-and-manage-timesheets/log-time.md)。
 
 ## 時數類型
 
 ![小時型別](assets/timesheet-hour-type-unshimmed-redesign.png)
 
-您可以選取不同的小時型別，以便與每個專案的小時專案產生關聯。 此欄位僅在Workfront管理員為您的環境啟用時顯示。 如需詳細資訊，請參閱 [設定時程表和小時偏好設定](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
+您可以選取不同的小時型別，以便與每個專案的小時專案產生關聯。 此欄位僅在Workfront管理員為您的環境啟用時顯示。 如需詳細資訊，請參閱[設定時程表和小時喜好設定](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md)。
 
-您可以為不同的小時型別記錄同一工作專案的多個小時專案。 如需詳細資訊，請參閱 [記錄時間](../create-and-manage-timesheets/log-time.md).
+您可以為不同的小時型別記錄同一工作專案的多個小時專案。 如需詳細資訊，請參閱[記錄時間](../create-and-manage-timesheets/log-time.md)。
 
 ## 更新左側面板中的區域
 
@@ -135,7 +135,7 @@ ht-degree: 1%
 
 ![摘要面板](assets/timesheet-summary-panel-on-updates.png)
 
-您可以存取時程表中顯示的任務或問題的摘要面板。 從這裡，您可以對任務和問題發表評論，或更新其資訊。 如需詳細資訊，請參閱 [摘要概觀](../../workfront-basics/the-new-workfront-experience/summary-overview.md).
+您可以存取時程表中顯示的任務或問題的摘要面板。 從這裡，您可以對任務和問題發表評論，或更新其資訊。 如需詳細資訊，請參閱[摘要概觀](../../workfront-basics/the-new-workfront-experience/summary-overview.md)。
 
 您在時程表摘要面板中為工作專案輸入的評論會顯示在任務或問題的更新區域中。 摘要面板不適用於專案。
 
@@ -149,18 +149,18 @@ ht-degree: 1%
 
 時間範圍會以整週為單位顯示。 指定時程表時間範圍以外的天數會變暗。 您無法記錄超出時程表時間範圍的天數。
 
-如需詳細資訊，請參閱 [建立單次使用時程表](../create-and-manage-timesheets/create-tmshts.md) 或 [建立、編輯和指派週期性時程表](../create-and-manage-timesheets/create-timesheet-profiles.md).
+如需詳細資訊，請參閱[建立單一使用時程表](../create-and-manage-timesheets/create-tmshts.md)或[建立、編輯和指派時程表設定檔](../create-and-manage-timesheets/create-timesheet-profiles.md)。
 
 <!--drafted for the resize columns in timesheets story - make this blurb a TIP when the story is released: 
 You can resize the columns that display different weeks, the time frame, or the work item areas by dragging and dropping the vertical lines that separate them.-->
 
 ## 小時輸入註解
 
-![小時輸入註解](assets/timesheet-hour-entry-comment-button-unshimmed-redesign.png)
+![小時專案註解](assets/timesheet-hour-entry-comment-button-unshimmed-redesign.png)
 
 您可以為新增到時程表的每個小時專案新增註解。
 
-您在時數專案註解方塊中輸入的註解會顯示在時程表中，位於您記錄時間 **顯示評論** 工具列中的設定已啟用。
+您在時數專案註解方塊中輸入的註解會顯示在您記錄工具列中&#x200B;**顯示註解**&#x200B;設定啟用時間的每個工作專案下的時程表中。
 
 ![](assets/hour-entry-comment-under-task-in-timesheet-unshimmed-redesign.png)
 

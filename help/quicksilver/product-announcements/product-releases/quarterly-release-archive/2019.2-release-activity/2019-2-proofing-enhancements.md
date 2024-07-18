@@ -18,7 +18,7 @@ ht-degree: 0%
 
 本頁說明2019.2版本隨附的所有校訂增強功能。 此功能計畫在2019年5月20日當週的生產環境中可用。
 
-如需2019.2年度所有變更的清單，請參閱 [2019.2版本活動概覽](../../../../product-announcements/product-releases/quarterly-release-archive/2019.2-release-activity/2019-2-release-activity-overview.md).
+如需2019.2年度所有變更的清單，請參閱[2019.2年度發行活動概覽](../../../../product-announcements/product-releases/quarterly-release-archive/2019.2-release-activity/2019-2-release-activity-overview.md)。
 
 ## 允許沒有校訂授權的使用者套用動作和解決註解
 
@@ -45,5 +45,5 @@ ht-degree: 0%
 
 如果您被要求核准具有多個版本的校樣，這將很有用。 當您使用目前檔案版本篩選器執行校訂核准報告時，該報告僅列出等待您核准的每個校訂的最新版本，並省略您不再需要處理的舊版本。
 
-如需詳細資訊，請參閱 [篩選器：校訂核准報告以省略先前的校訂版本](../../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-proof-approval-report.md).
+如需詳細資訊，請參閱[篩選：校訂核准報告，以省略先前的校訂版本](../../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-proof-approval-report.md)。
 

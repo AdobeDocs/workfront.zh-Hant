@@ -18,15 +18,15 @@ ht-degree: 0%
 
 本節包含下列文章：
 
-* [業務案例的領域概述](../../../manage-work/projects/define-a-business-case/areas-of-business-case.md)
+* [業務案例的領域概觀](../../../manage-work/projects/define-a-business-case/areas-of-business-case.md)
 * [為專案建立業務案例](../../../manage-work/projects/define-a-business-case/create-business-case.md)
 * [核准業務案例](../../../manage-work/projects/define-a-business-case/approve-business-case.md)
-* [業務案例財務欄位概要](../../../manage-work/projects/define-a-business-case/business-case-finances.md)
+* [業務案例財務欄位概觀](../../../manage-work/projects/define-a-business-case/business-case-finances.md)
 * [建立業務案例目標](../../../manage-work/projects/define-a-business-case/create-business-case-goals.md)
 * [業務案例中的預算資源](../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case.md)
-* [使用資源規劃工具在業務案例中預算資源](../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-resource-planner.md)
-* [使用案例規劃工具之業務案例中的預算資源](../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-scenario-planner.md)
-* [將計分卡套用至專案並產生一致性分數](../../../manage-work/projects/define-a-business-case/apply-scorecard-to-project-to-generate-alignment-score.md)
+* 使用資源規劃工具[業務案例中的預算資源](../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-resource-planner.md)
+* 使用Scenario Planner](../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-scenario-planner.md)的業務案例中的預算資源[
+* [套用計分卡至專案並產生一致性分數](../../../manage-work/projects/define-a-business-case/apply-scorecard-to-project-to-generate-alignment-score.md)
 * [將自訂表格附加至業務案例](../../../manage-work/projects/define-a-business-case/attach-custom-form-to-business-case.md)
-* [建立及編輯專案的風險](../../../manage-work/projects/define-a-business-case/create-edit-risks-on-projects.md)
+* [建立並編輯專案的風險](../../../manage-work/projects/define-a-business-case/create-edit-risks-on-projects.md)
 * [匯出專案的業務案例](../../../manage-work/projects/define-a-business-case/export-business-case.md)

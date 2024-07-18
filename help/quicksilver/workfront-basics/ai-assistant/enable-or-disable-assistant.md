@@ -48,7 +48,7 @@ ht-degree: 1%
  </tbody> 
 </table>
 
-如需有關此表格的詳細資訊，請參閱 [Workfront檔案中的存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 ## 啟用或停用Workfront中的AI助理
 
@@ -56,10 +56,10 @@ AI助理預設為啟用。
 
 若要停用指定存取層級的AI小幫手：
 
-1. 按一下 **[!UICONTROL 主要功能表]** 圖示 ![主要功能表](/help/_includes/assets/main-menu-icon.png) 在Adobe Workfront的右上角，或（如果有的話）按一下 **[!UICONTROL 主要功能表]** 圖示 ![主要功能表](/help/_includes/assets/main-menu-icon-left-nav.png) 然後按一下「 」 **[!UICONTROL 設定]** ![「設定」圖示](/help/_includes/assets/gear-icon-setup.png).
-1. 選取 **存取層級** ，位於左側導覽器中。
+1. 按一下Adobe Workfront右上角的&#x200B;**[!UICONTROL 主功能表]**&#x200B;圖示![主功能表](/help/_includes/assets/main-menu-icon.png)，或（如果有的話）按一下左上角的&#x200B;**[!UICONTROL 主功能表]**&#x200B;圖示![主功能表](/help/_includes/assets/main-menu-icon-left-nav.png)，然後按一下&#x200B;**[!UICONTROL 設定]** ![設定圖示](/help/_includes/assets/gear-icon-setup.png)。
+1. 在左側導覽中選取&#x200B;**存取層級**。
 1. 選取您要停用AI助理的存取層級。
-1. 在編輯存取層級視窗中，向下捲動至視窗底部，然後按一下 **設定其他限制……**.
-1. 在「設定其他限制」區域中，啟用選項 **停用Workfront AI助理**.
+1. 在「編輯存取層級」視窗中，向下捲動至視窗底部，然後按一下&#x200B;**設定其他限制……**。
+1. 在設定其他限制區域中，啟用選項&#x200B;**停用Workfront AI小幫手**。
 1. 按一下「**儲存**」。
 1. 針對您想要停用AI助理的每個存取層級，重複步驟3到6。

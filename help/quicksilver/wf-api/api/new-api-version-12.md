@@ -9,8 +9,8 @@ role: Developer
 exl-id: 1ffba3b5-ab24-4ca2-a1ef-f7e5b77e776c
 source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
-source-wordcount: '2516'
-ht-degree: 2%
+source-wordcount: '2475'
+ht-degree: 1%
 
 ---
 
@@ -29,7 +29,7 @@ Workfront於2020年11月12日發行API第12版。 API第12版具有第11版的�
 
 BreadCrumb物件代表Adobe Workfront工作專案之父/子階層中的元素。 階層連結可指出工作專案如何融入Portfolio、專案、專案和任務的較大結構。
 
-如需Workfront階層連結的詳細資訊，請參閱 [新Adobe Workfront體驗中的階層連結概觀](../../workfront-basics/the-new-workfront-experience/breadcrumb-overview.md)
+如需Workfront階層連結的詳細資訊，請參閱新Adobe Workfront體驗中的[階層連結概觀](../../workfront-basics/the-new-workfront-experience/breadcrumb-overview.md)
 
 <table style="table-layout:auto"> <!--
   <col data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -51,7 +51,7 @@ BreadCrumb物件代表Adobe Workfront工作專案之父/子階層中的元素。
 
 RTF文字欄位現在可用於更多物件。 已將RichTextParameterValue物件新增至Workfront，以支援此可用性。
 
-如需詳細資訊，請參閱 [Adobe Workfront API中的RTF文字欄位](../../wf-api/general/rich-text-field-api.md).
+如需詳細資訊，請參閱Adobe Workfront API中的[ RTF欄位](../../wf-api/general/rich-text-field-api.md)。
 
 <table style="table-layout:auto"> <!--
   <col data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -97,8 +97,8 @@ RTF文字欄位現在可用於更多物件。 已將RichTextParameterValue物件
      <li> <p><a href="#accesslevelpermissions" class="MCXref xref">AccessLevelPermissions</a> </p> </li> 
      <li> <p><a href="#accessrequest" class="MCXref xref">AccessRequest</a> </p> </li> 
      <li> <p><a href="#accessrule" class="MCXref xref">存取規則</a> </p> </li> 
-     <li> <p><a href="#activitylog" class="MCXref xref">活動記錄</a> </p> </li> 
-     <li> <p><a href="#announcementattachment" class="MCXref xref">宣告附件</a> </p> </li> 
+     <li> <p><a href="#activitylog" class="MCXref xref">活動記錄檔</a> </p> </li> 
+     <li> <p><a href="#announcementattachment" class="MCXref xref">AnnouncementAttachment</a> </p> </li> 
      <li> <p><a href="#approval" class="MCXref xref">核准</a> </p> </li> 
      <li> <p><a href="#calendarsection" class="MCXref xref">行事曆區段</a> </p> </li> 
      <li> <p><a href="#company" class="MCXref xref">公司</a> </p> </li> 
@@ -107,26 +107,26 @@ RTF文字欄位現在可用於更多物件。 已將RichTextParameterValue物件
    <td> 
     <ul> 
      <li> <p><a href="#customerpreferences" class="MCXref xref">客戶喜好設定</a> </p> </li> 
-     <li> <p><a href="#document" class="MCXref xref">文件</a> </p> </li> 
-     <li> <p><a href="#documentversion" class="MCXref xref">檔案版本</a> </p> </li> 
-     <li> <p><a href="#group" class="MCXref xref">群組 </a> </p> </li> 
+     <li> <p><a href="#document" class="MCXref xref">檔案</a> </p> </li> 
+     <li> <p><a href="#documentversion" class="MCXref xref">DocumentVersion</a> </p> </li> 
+     <li> <p><a href="#group" class="MCXref xref">群組</a> </p> </li> 
      <li> <p><a href="#linkedfolder" class="MCXref xref">LinkedFolder</a> </p> </li> 
-     <li> <p><a href="#optask" class="MCXref xref">Op 任務</a> </p> </li> 
-     <li> <p><a href="#parameter" class="MCXref xref">參數</a> </p> </li> 
-     <li> <p><a href="#portfolio" class="MCXref xref">專案組合</a> </p> </li> 
-     <li> <p><a href="#program" class="MCXref xref">方案</a> </p> </li> 
+     <li> <p><a href="#optask" class="MCXref xref">OpTask</a> </p> </li> 
+     <li> <p><a href="#parameter" class="MCXref xref">引數</a> </p> </li> 
+     <li> <p><a href="#portfolio" class="MCXref xref">Portfolio</a> </p> </li> 
+     <li> <p><a href="#program" class="MCXref xref">程式</a> </p> </li> 
     </ul> </td> 
    <td> 
     <ul> 
      <li> <p><a href="#queuedef" class="MCXref xref">QueueDef</a> </p> </li> 
      <li> <p><a href="#scheduledreport" class="MCXref xref">排程報告</a> </p> </li> 
-     <li> <p><a href="#scorecardquestion" class="MCXref xref">ScorecardQuestion</a> </p> </li> 
+     <li> <p><a href="#scorecardquestion" class="MCXref xref">ScoreCardQuestion</a> </p> </li> 
      <li> <p><a href="#task" class="MCXref xref">任務</a> </p> </li> 
      <li> <p><a href="#team" class="MCXref xref">團隊</a> </p> </li> 
      <li> <p><a href="#templatetask" class="MCXref xref">範本任務</a> </p> </li> 
      <li> <p><a href="#timesheet" class="MCXref xref">時程表</a> </p> </li> 
      <li> <p><a href="#user" class="MCXref xref">使用者</a> </p> </li> 
-     <li> <p><a href="#work" class="MCXref xref">工作 </a> </p> </li> 
+     <li> <p><a href="#work" class="MCXref xref">工作</a> </p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -138,7 +138,7 @@ RTF文字欄位現在可用於更多物件。 已將RichTextParameterValue物件
 
 AccessLevel物件與使用者相關聯，並描述決定使用者可存取內容的AccessLevelPermissions集合。
 
-如需存取層級的詳細資訊，請參閱 [存取層級的運作方式](../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels.md).
+如需存取層級的詳細資訊，請參閱[存取層級的運作方式](../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels.md)。
 
 <table style="table-layout:auto"> <!--
   <col data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -175,9 +175,9 @@ AccessLevelPermissions物件代表存取、建立或修改Workfront物件的特�
     <ul> 
      <li> <p><strong>coreAction</strong> </p> <p>已新增下列可能值：</p> 
       <ul> 
-       <li> <p>PLANNED_HOURS_CONTOURING </p> <p>具有包含此許可權的存取層級的使用者可以在工作負載平衡器中更新規劃時數。</p> <p>如需詳細資訊，請參閱 <a href="../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md#update" class="MCXref xref">管理使用者分派時更新任務計畫時數</a> 在 <a href="../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md" class="MCXref xref">在工作負載平衡器中管理使用者配置</a>.</p> </li> 
-       <li> <p>ADD_TO_CUSTOM_FORMS </p> <p>具有包含此許可權的存取層級的使用者可以將欄位新增到自訂表單。</p> <p>如需詳細資訊，請參閱 <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#add2" class="MCXref xref"></a> 在 <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref">建立或編輯自訂表單</a>.</p> </li> 
-       <li> <p>EDIT_SYSTEM範圍 </p> <p>具有包含此許可權的存取層級的使用者可以在系統範圍內以刪除存取權共用自訂欄位。</p> <p>如需詳細資訊，請參閱 <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/configure-sharing-for-a-custom-field.md" class="MCXref xref">設定自訂欄位和Widget共用</a>.</p> </li> 
+       <li> <p>PLANNED_HOURS_CONTOURING </p> <p>具有包含此許可權的存取層級的使用者可以在工作負載平衡器中更新規劃時數。</p> <p>如需詳細資訊，請參閱<a href="../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md" class="MCXref xref">在工作負載平衡器</a>中管理使用者指派時<a href="../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md#update" class="MCXref xref">更新任務計畫時數</a>。</p> </li> 
+       <li> <p>ADD_TO_CUSTOM_FORMS </p> <p>具有包含此許可權的存取層級的使用者可以將欄位新增到自訂表單。</p> <p>如需詳細資訊，請參閱<a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref">建立或編輯自訂表單</a>中的<a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#add2" class="MCXref xref"></a>。</p> </li> 
+       <li> <p>EDIT_SYSTEM範圍 </p> <p>具有包含此許可權的存取層級的使用者可以在系統範圍內以刪除存取權共用自訂欄位。</p> <p>如需詳細資訊，請參閱<a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/configure-sharing-for-a-custom-field.md" class="MCXref xref">設定自訂欄位和Widget的共用</a>。</p> </li> 
       </ul> </li> 
      <li> <p><strong>forbiddenActions</strong> </p> <p>已新增下列可能值：</p> 
       <ul> 
@@ -246,9 +246,9 @@ AccessLevelPermissions物件代表存取、建立或修改Workfront物件的特�
     <ul> 
      <li> <p style="font-weight: bold;">動作</p> <p>已新增下列可能值：</p> 
       <ul> 
-       <li> <p>PLANNED_HOURS_CONTOURING </p> <p>具有包含此許可權的存取層級的使用者可以在工作負載平衡器中更新規劃時數。</p> <p>如需詳細資訊，請參閱 <a href="../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md#update" class="MCXref xref">管理使用者分派時更新任務計畫時數</a> 在 <a href="../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md" class="MCXref xref">在工作負載平衡器中管理使用者配置</a>.</p> </li> 
-       <li> <p>ADD_TO_CUSTOM_FORMS </p> <p>具有包含此許可權的存取層級的使用者可以將欄位新增到自訂表單。</p> <p>如需詳細資訊，請參閱 <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#add2" class="MCXref xref"></a> 在 <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref">建立或編輯自訂表單</a>.</p> </li> 
-       <li> <p>EDIT_SYSTEM範圍 </p> <p>具有包含此許可權的存取層級的使用者可以在系統範圍內以刪除存取權共用自訂欄位。</p> <p>如需詳細資訊，請參閱 <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/configure-sharing-for-a-custom-field.md" class="MCXref xref">設定自訂欄位和Widget共用</a>.</p> </li> 
+       <li> <p>PLANNED_HOURS_CONTOURING </p> <p>具有包含此許可權的存取層級的使用者可以在工作負載平衡器中更新規劃時數。</p> <p>如需詳細資訊，請參閱<a href="../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md" class="MCXref xref">在工作負載平衡器</a>中管理使用者指派時<a href="../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md#update" class="MCXref xref">更新任務計畫時數</a>。</p> </li> 
+       <li> <p>ADD_TO_CUSTOM_FORMS </p> <p>具有包含此許可權的存取層級的使用者可以將欄位新增到自訂表單。</p> <p>如需詳細資訊，請參閱<a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref">建立或編輯自訂表單</a>中的<a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#add2" class="MCXref xref"></a>。</p> </li> 
+       <li> <p>EDIT_SYSTEM範圍 </p> <p>具有包含此許可權的存取層級的使用者可以在系統範圍內以刪除存取權共用自訂欄位。</p> <p>如需詳細資訊，請參閱<a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/configure-sharing-for-a-custom-field.md" class="MCXref xref">設定自訂欄位和Widget的共用</a>。</p> </li> 
       </ul> </li> 
     </ul> </td> 
   </tr> 
@@ -269,9 +269,9 @@ AccessRule物件代表自訂存取層級中的規則集，可決定使用者如�
     <ul> 
      <li><strong>coreAction</strong> <p>已新增下列可能值：</p> 
       <ul> 
-       <li> <p>PLANNED_HOURS_CONTOURING </p> <p>具有包含此許可權的存取層級的使用者可以在工作負載平衡器中更新規劃時數。</p> <p>如需詳細資訊，請參閱 <a href="../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md#update" class="MCXref xref">管理使用者分派時更新任務計畫時數</a> 在 <a href="../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md" class="MCXref xref">在工作負載平衡器中管理使用者配置</a>.</p> </li> 
-       <li> <p>ADD_TO_CUSTOM_FORMS </p> <p>具有包含此許可權的存取層級的使用者可以將欄位新增到自訂表單。</p> <p>如需詳細資訊，請參閱 <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#add2" class="MCXref xref"></a> 在 <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref">建立或編輯自訂表單</a>.</p> </li> 
-       <li> <p>EDIT_SYSTEM範圍 </p> <p>具有包含此許可權的存取層級的使用者可以在系統範圍內以刪除存取權共用自訂欄位。</p> <p>如需詳細資訊，請參閱 <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/configure-sharing-for-a-custom-field.md" class="MCXref xref">設定自訂欄位和Widget共用</a>.</p> </li> 
+       <li> <p>PLANNED_HOURS_CONTOURING </p> <p>具有包含此許可權的存取層級的使用者可以在工作負載平衡器中更新規劃時數。</p> <p>如需詳細資訊，請參閱<a href="../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md" class="MCXref xref">在工作負載平衡器</a>中管理使用者指派時<a href="../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md#update" class="MCXref xref">更新任務計畫時數</a>。</p> </li> 
+       <li> <p>ADD_TO_CUSTOM_FORMS </p> <p>具有包含此許可權的存取層級的使用者可以將欄位新增到自訂表單。</p> <p>如需詳細資訊，請參閱<a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref">建立或編輯自訂表單</a>中的<a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#add2" class="MCXref xref"></a>。</p> </li> 
+       <li> <p>EDIT_SYSTEM範圍 </p> <p>具有包含此許可權的存取層級的使用者可以在系統範圍內以刪除存取權共用自訂欄位。</p> <p>如需詳細資訊，請參閱<a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/configure-sharing-for-a-custom-field.md" class="MCXref xref">設定自訂欄位和Widget的共用</a>。</p> </li> 
       </ul> </li> 
      <li> <p><strong>forbiddenActions</strong> </p> <p>已新增下列可能值：</p> 
       <ul> 
@@ -292,14 +292,14 @@ AccessRule物件代表自訂存取層級中的規則集，可決定使用者如�
 
 ### 活動記錄 {#activitylog}
 
-ActivityLog物件是在指定Workfront校訂帳戶中發生的所有活動的完整清單。
+ActivityLog物件是在指定Workfront Proof帳戶中發生的所有活動的完整清單。
 
 <table style="table-layout:auto"> 
  <col data-mc-conditions=""> 
  <col data-mc-conditions=""> 
  <tbody> 
   <tr> 
-   <td> <p>作業</p> </td> 
+   <td> <p>營運</p> </td> 
    <td> <p>下列作業已從ActivityLog物件中移除：</p> 
     <ul> 
      <li> <p><strong>新增</strong> </p> </li> 
@@ -312,7 +312,7 @@ ActivityLog物件是在指定Workfront校訂帳戶中發生的所有活動的完
 
 AnnouncementAttachment物件代表已附加至Workfront宣告的檔案。
 
-如需宣告附件的詳細資訊，請參閱 [傳送宣告](../../administration-and-setup/get-started-wf-administration/view-send-announcements.md)
+如需宣告附件的詳細資訊，請參閱[傳送宣告](../../administration-and-setup/get-started-wf-administration/view-send-announcements.md)
 
 <table style="table-layout:auto"> 
  <col data-mc-conditions=""> 
@@ -322,7 +322,7 @@ AnnouncementAttachment物件代表已附加至Workfront宣告的檔案。
    <td> <p>直接欄位</p> </td> 
    <td> 
     <ul> 
-     <li> <p><strong>檔案副檔名</strong> </p> <p>新增可能的值：</p> 
+     <li> <p><strong>副檔名</strong> </p> <p>新增可能的值：</p> 
       <ul> 
        <li> <p>qdoc (enum.fileextension.qdoc)</p> </li> 
        <li> <p>qslides (enum.fileextension.qslides)</p> </li> 
@@ -360,9 +360,9 @@ AnnouncementAttachment物件代表已附加至Workfront宣告的檔案。
      <li> <p><strong>工作量</strong> </p> <p>此欄位已新增，並代表使用者需要少量、中量或大量每日努力才能完成任務。 可能的值包括：</p> 
       <ul> 
        <li> <p>1 （小）</p> </li> 
-       <li> <p>2 （中）</p> </li> 
+       <li> <p>2 (Medium)</p> </li> 
        <li> <p>3 （大）</p> </li> 
-      </ul> <p>如需Workfront中工作量的詳細資訊，請參閱 <a href="../../manage-work/tasks/task-information/work-effort.md" class="MCXref xref">工作投入概觀</a>.</p> </li> 
+      </ul> <p>如需有關Workfront中工作量的詳細資訊，請參閱<a href="../../manage-work/tasks/task-information/work-effort.md" class="MCXref xref">工作量概觀</a>。</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -372,7 +372,7 @@ AnnouncementAttachment物件代表已附加至Workfront宣告的檔案。
 
 行事曆區段是行事曆報告。
 
-如需行事曆報表的詳細資訊，請參閱 [行事曆報表總覽](../../reports-and-dashboards/reports/calendars/calendar-reports-overview.md).
+如需行事曆報告的詳細資訊，請參閱[行事曆報告總覽](../../reports-and-dashboards/reports/calendars/calendar-reports-overview.md)。
 
 <table style="table-layout:auto"> 
  <col data-mc-conditions=""> 
@@ -380,7 +380,7 @@ AnnouncementAttachment物件代表已附加至Workfront宣告的檔案。
  <tbody> 
   <tr> 
    <td>直接欄位</td> 
-   <td> <p style="font-weight: normal;">CalendarSection物件新增了下列欄位，以支援在行事曆報表中使用自訂日期的新功能。 </p> <p style="font-weight: normal;">如需詳細資訊，請參閱 <a href="../../reports-and-dashboards/reports/calendars/use-custom-dates.md" class="MCXref xref">在行事曆報告中使用自訂日期欄位</a>.</p> 
+   <td> <p style="font-weight: normal;">CalendarSection物件新增了下列欄位，以支援在行事曆報表中使用自訂日期的新功能。 </p> <p style="font-weight: normal;">如需詳細資訊，請參閱<a href="../../reports-and-dashboards/reports/calendars/use-custom-dates.md" class="MCXref xref">在行事曆報告中使用自訂日期欄位</a>。</p> 
     <ul> 
      <li> <p style="font-weight: normal;">customDate</p> </li> 
      <li> <p style="font-weight: normal;">customEndDateParameterID</p> </li> 
@@ -395,7 +395,7 @@ AnnouncementAttachment物件代表已附加至Workfront宣告的檔案。
 
 Company物件代表由人員集合組成的組織。
 
-如需有關公司的詳細資訊，請參閱 [建立和編輯公司](../../administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md).
+如需有關公司的詳細資訊，請參閱[建立和編輯公司](../../administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md)。
 
 <table style="table-layout:auto"> 
  <col data-mc-conditions=""> 
@@ -430,7 +430,7 @@ Customer物件代表使用Workfront例項的組織。
    <td>動作</td> 
    <td> 
     <ul> 
-     <li> <p style="font-weight: normal;"><strong>productEnabled</strong> </p> <p style="font-weight: normal;">此動作會採用CustomerProductTypeEnum引數並傳回布林值，指出該客戶是否有該產品的帳戶。 </p> </li> 
+     <li> <p style="font-weight: normal;"><strong>產品已啟用</strong> </p> <p style="font-weight: normal;">此動作會採用CustomerProductTypeEnum引數並傳回布林值，指出該客戶是否有該產品的帳戶。 </p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -480,7 +480,7 @@ Document物件代表檔案（例如書面材料、影像或其他形式的資訊
 
 DocumentVersion物件代表檔案的特定版本（例如書面材料、影像或其他形式的資訊）。
 
-如需檔案版本的詳細資訊，請參閱 [上傳檔案的新版本](../../documents/managing-documents/upload-new-document-version.md).
+如需檔案版本的詳細資訊，請參閱[上傳檔案的新版本](../../documents/managing-documents/upload-new-document-version.md)。
 
 <table style="table-layout:auto"> 
  <col data-mc-conditions=""> 
@@ -496,7 +496,7 @@ DocumentVersion物件代表檔案的特定版本（例如書面材料、影像�
       </ul> </li> 
     </ul> 
     <ul> 
-     <li> <p style="font-weight: normal;"><strong>proofDecision</strong> </p> <p>已新增</p> </li> 
+     <li> <p style="font-weight: normal;"><strong>校訂決定</strong> </p> <p>已新增</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -534,7 +534,7 @@ DocumentVersion物件代表檔案的特定版本（例如書面材料、影像�
    <td>參考欄位</td> 
    <td> 
     <ul> 
-     <li style="font-weight: bold;"> <p>業務領導者</p> <p style="font-weight: normal;">指派給群組的業務領導者。 業務主管是負責為群組制定業務決策的人。</p> <p style="font-weight: normal;">如需業務主管的詳細資訊，請參閱 <a href="../../administration-and-setup/manage-groups/group-roles/business-leader-overview.md" class="MCXref xref">業務主管概觀</a>.<br></p> </li> 
+     <li style="font-weight: bold;"> <p>業務領導者</p> <p style="font-weight: normal;">指派給群組的業務領導者。 業務主管是負責為群組制定業務決策的人。</p> <p style="font-weight: normal;">如需商務領導者的詳細資訊，請參閱<a href="../../administration-and-setup/manage-groups/group-roles/business-leader-overview.md" class="MCXref xref">商務領導概述</a>。<br></p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -548,7 +548,7 @@ DocumentVersion物件代表檔案的特定版本（例如書面材料、影像�
        <li> <p>teamID （字串）</p> </li> 
       </ul> </li> 
      <li> <p><strong>getGroupMembers</strong> </p> </li> 
-     <li> <p><strong>updateMemberList</strong> </p> <p>此動作會採用下列引數：</p> 
+     <li> <p><strong>updateMembersList</strong> </p> <p>此動作會採用下列引數：</p> 
       <ul> 
        <li> <p>newMemberIDs (string[])</p> </li> 
        <li> <p>removedMemberDs (string[])</p> </li> 
@@ -562,7 +562,7 @@ DocumentVersion物件代表檔案的特定版本（例如書面材料、影像�
 
 LinkedFolder物件代表連結自外部檔案提供者(例如Google Drive或Dropbox)的資料夾。
 
-如需連結資料夾的詳細資訊，請參閱 [從外部應用程式連結檔案](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md).
+如需連結資料夾的詳細資訊，請參閱[從外部應用程式連結檔案](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md)。
 
 <table style="table-layout:auto"> 
  <col data-mc-conditions=""> 
@@ -603,7 +603,7 @@ OpTask物件通常稱為「問題」。 問題指工作專案，通常表示發�
   </tr> 
   <tr> 
    <td role="rowheader">動作</td> 
-   <td> <p>這些動作新增引數狀態以支援新的「開始」按鈕功能，當使用者按一下按鈕以指示他們已開始處理專案時，該功能會變更工作專案的狀態。</p> <p>如需詳細資訊，請參閱 <a href="../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md" class="MCXref xref">將處理它按鈕取代為開始按鈕</a>.</p> 
+   <td> <p>這些動作新增引數狀態以支援新的「開始」按鈕功能，當使用者按一下按鈕以指示他們已開始處理專案時，該功能會變更工作專案的狀態。</p> <p>如需詳細資訊，請參閱<a href="../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md" class="MCXref xref">以開始按鈕取代處理它按鈕</a>。</p> 
     <ul> 
      <li> <p><strong>acceptWork</strong> </p> </li> 
      <li> <p><strong>unacceptWork</strong> </p> </li> 
@@ -618,7 +618,7 @@ Parameter物件是自訂欄位。
 
 Parameter資源已新增可共用的標幟。
 
-如需自訂欄位的詳細資訊，請參閱 [建立或編輯自訂表單](../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#create) 在 [建立或編輯自訂表單](../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
+如需自訂欄位的詳細資訊，請參閱[建立或編輯自訂表單](../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)中的[建立或編輯自訂表單](../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#create)。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -630,11 +630,11 @@ Parameter資源已新增可共用的標幟。
     <ul> 
      <li> <p><strong>資料型別</strong> </p> <p>新增可能的值：</p> 
       <ul> 
-       <li> <p>RTF (RTF)</p> <p>如需詳細資訊，請參閱 <a href="../../wf-api/general/rich-text-field-api.md" class="MCXref xref">Adobe Workfront API中的RTF文字欄位</a>.</p> </li> 
+       <li> <p>RTF (RTF)</p> <p>如需詳細資訊，請參閱Adobe Workfront API中的<a href="../../wf-api/general/rich-text-field-api.md" class="MCXref xref"> RTF欄位</a>。</p> </li> 
       </ul> </li> 
-     <li> <p><strong>顯示型別</strong> </p> <p>新增可能的值：</p> 
+     <li> <p><strong>displayType</strong> </p> <p>新增可能的值：</p> 
       <ul> 
-       <li> <p>RTF （含格式的文字欄位）</p> <p>如需詳細資訊，請參閱 <a href="../../wf-api/general/rich-text-field-api.md" class="MCXref xref">Adobe Workfront API中的RTF文字欄位</a>.</p> </li> 
+       <li> <p>RTF （含格式的文字欄位）</p> <p>如需詳細資訊，請參閱Adobe Workfront API中的<a href="../../wf-api/general/rich-text-field-api.md" class="MCXref xref"> RTF欄位</a>。</p> </li> 
       </ul> </li> 
      <li> <p><strong>標籤</strong> </p> <p>已新增</p> </li> 
     </ul> </td> 
@@ -643,7 +643,7 @@ Parameter資源已新增可共用的標幟。
    <td role="rowheader">集合欄位</td> 
    <td> 
     <ul> 
-     <li> <p><strong>accessRules</strong> </p> <p>已新增</p> </li> 
+     <li> <p><strong>存取規則</strong> </p> <p>已新增</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -660,7 +660,7 @@ Parameter資源已新增可共用的標幟。
 
 Portfolio物件是競爭相同資源（通常是金錢或人力）的專案集合。
 
-如需投資組合的詳細資訊，請參閱 [Adobe Workfront中的Portfolio概觀](../../manage-work/portfolios/portfolios-overview/portfolio-overview.md).
+如需投資組合的詳細資訊，請參閱[Adobe Workfront中的Portfolio概觀](../../manage-work/portfolios/portfolios-overview/portfolio-overview.md)。
 
 <table style="table-layout:auto"> 
  <col data-mc-conditions=""> 
@@ -712,7 +712,7 @@ Portfolio物件是競爭相同資源（通常是金錢或人力）的專案集�
 
 QueueDef物件代表佇列，這是已發佈至服務檯區域的專案，可讓使用者向其提交問題。
 
-如需請求佇列的詳細資訊，請參閱 [建立請求佇列](../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
+如需請求佇列的詳細資訊，請參閱[建立請求佇列](../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md)。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -724,9 +724,9 @@ QueueDef物件代表佇列，這是已發佈至服務檯區域的專案，可讓
     <ul> 
      <li><strong>requestorCoreAction</strong> <p>已新增下列可能值：</p> 
       <ul> 
-       <li> <p>PLANNED_HOURS_CONTOURING </p> <p>具有包含此許可權的存取層級的使用者可以在工作負載平衡器中更新規劃時數。</p> <p>如需詳細資訊，請參閱 <a href="../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md#update" class="MCXref xref">管理使用者分派時更新任務計畫時數</a> 在 <a href="../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md" class="MCXref xref">在工作負載平衡器中管理使用者配置</a>.</p> </li> 
-       <li> <p>ADD_TO_CUSTOM_FORMS </p> <p>具有包含此許可權的存取層級的使用者可以將欄位新增到自訂表單。</p> <p>如需詳細資訊，請參閱 <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#add2" class="MCXref xref"></a> 在 <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref">建立或編輯自訂表單</a>.</p> </li> 
-       <li> <p>EDIT_SYSTEM範圍 </p> <p>具有包含此許可權的存取層級的使用者可以在系統範圍內以刪除存取權共用自訂欄位。</p> <p>如需詳細資訊，請參閱 <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/configure-sharing-for-a-custom-field.md" class="MCXref xref">設定自訂欄位和Widget共用</a></p> </li> 
+       <li> <p>PLANNED_HOURS_CONTOURING </p> <p>具有包含此許可權的存取層級的使用者可以在工作負載平衡器中更新規劃時數。</p> <p>如需詳細資訊，請參閱<a href="../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md" class="MCXref xref">在工作負載平衡器</a>中管理使用者指派時<a href="../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md#update" class="MCXref xref">更新任務計畫時數</a>。</p> </li> 
+       <li> <p>ADD_TO_CUSTOM_FORMS </p> <p>具有包含此許可權的存取層級的使用者可以將欄位新增到自訂表單。</p> <p>如需詳細資訊，請參閱<a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref">建立或編輯自訂表單</a>中的<a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#add2" class="MCXref xref"></a>。</p> </li> 
+       <li> <p>EDIT_SYSTEM範圍 </p> <p>具有包含此許可權的存取層級的使用者可以在系統範圍內以刪除存取權共用自訂欄位。</p> <p>如需詳細資訊，請參閱<a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/configure-sharing-for-a-custom-field.md" class="MCXref xref">設定自訂欄位和Widget的共用</a></p> </li> 
       </ul> <li> <p><strong>requestorForbiddenActions</strong> </p> <p>已新增下列可能值：</p> 
        <ul> 
         <li> <p>PLANNED_HOURS_CONTOURING </p> </li> 
@@ -765,7 +765,7 @@ ScheduledReport物件代表已設定為排程傳送的報表。
 
 ScoreCardQuestion物件代表已新增至計分卡的問題。 這些問題通常由Portfolio經理決定，而他們的答案可讓經理瞭解專案與產品組合目標的對齊程度。
 
-如需計分卡問題的詳細資訊，請參閱 [建立計分卡](../../administration-and-setup/set-up-workfront/configure-system-defaults/create-scorecard.md).
+如需計分卡問題的詳細資訊，請參閱[建立計分卡](../../administration-and-setup/set-up-workfront/configure-system-defaults/create-scorecard.md)。
 
 <table style="table-layout:auto"> 
  <col data-mc-conditions=""> 
@@ -775,7 +775,7 @@ ScoreCardQuestion物件代表已新增至計分卡的問題。 這些問題通�
    <td>直接欄位</td> 
    <td> 
     <ul> 
-     <li style="font-weight: bold;"> <p>顯示型別</p> <p style="font-weight: normal;">新增可能的值RTF （文字欄位含格式） </p> <p style="font-weight: normal;">如需詳細資訊，請參閱 <a href="../../wf-api/general/rich-text-field-api.md" class="MCXref xref">Adobe Workfront API中的RTF文字欄位</a>.  </p> </li> 
+     <li style="font-weight: bold;"> <p>顯示型別</p> <p style="font-weight: normal;">新增可能的值RTF （文字欄位含格式） </p> <p style="font-weight: normal;">如需詳細資訊，請參閱Adobe Workfront API中的<a href="../../wf-api/general/rich-text-field-api.md" class="MCXref xref"> RTF欄位</a>。  </p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -796,14 +796,14 @@ Task物件代表作為達成最終目標（完成專案）的步驟而必須執�
      <li> <p><strong>工作量</strong> </p> <p>此欄位已新增，並代表使用者需要少量、中量或大量每日努力才能完成任務。 可能的值包括：</p> 
       <ul> 
        <li> <p>1 （小）</p> </li> 
-       <li> <p>2 （中）</p> </li> 
+       <li> <p>2 (Medium)</p> </li> 
        <li> <p>3 （大）</p> </li> 
-      </ul> <p>如需Workfront中工作量的詳細資訊，請參閱 <a href="../../manage-work/tasks/task-information/work-effort.md" class="MCXref xref">工作投入概觀</a>.</p> </li> 
+      </ul> <p>如需有關Workfront中工作量的詳細資訊，請參閱<a href="../../manage-work/tasks/task-information/work-effort.md" class="MCXref xref">工作量概觀</a>。</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">動作</td> 
-   <td> <p>這些動作新增引數狀態以支援新的「開始」按鈕功能，當使用者按一下按鈕以指示他們已開始處理專案時，該功能會變更工作專案的狀態。</p> <p>如需詳細資訊，請參閱 <a href="../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md" class="MCXref xref">將處理它按鈕取代為開始按鈕</a>.</p> 
+   <td> <p>這些動作新增引數狀態以支援新的「開始」按鈕功能，當使用者按一下按鈕以指示他們已開始處理專案時，該功能會變更工作專案的狀態。</p> <p>如需詳細資訊，請參閱<a href="../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md" class="MCXref xref">以開始按鈕取代處理它按鈕</a>。</p> 
     <ul> 
      <li> <p><strong>acceptWork</strong> </p> </li> 
      <li> <p><strong>unacceptWork</strong> </p> </li> 
@@ -835,7 +835,7 @@ Team物件是可指派至工作專案的「使用者」集合。
        <li> <p><strong>workOnItOpTaskChangeOrderStatuses</strong> </p> </li> 
        <li> <p><strong>workOnItOpTaskIssueStatuses</strong> </p> </li> 
        <li> <p><strong>workOnItOpTaskRequestStatuses</strong> </p> <p><strong>workOnItTaskStatuses</strong> </p> </li> 
-      </ul> <p>如需「開始」按鈕的詳細資訊，請參閱 <a href="../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md" class="MCXref xref">將處理它按鈕取代為開始按鈕</a>.</p> </li> 
+      </ul> <p>有關[開始]按鈕的詳細資訊，請參閱<a href="../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md" class="MCXref xref">以[開始]按鈕取代[處理它]按鈕</a>。</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -852,7 +852,7 @@ Team物件是可指派至工作專案的「使用者」集合。
 
 TemplateTask物件代表屬於Template一部分的Task。 範本任務會成為使用範本之專案中的任務。
 
-有關範本任務的詳細資訊，請參閱 [編輯範本任務](../../manage-work/projects/create-and-manage-templates/edit-template-task.md).
+如需範本工作的詳細資訊，請參閱[編輯範本工作](../../manage-work/projects/create-and-manage-templates/edit-template-task.md)。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -865,9 +865,9 @@ TemplateTask物件代表屬於Template一部分的Task。 範本任務會成為�
      <li> <p><strong>工作量</strong> </p> <p>此欄位已新增，並代表使用者需要少量、中量或大量每日努力才能完成任務。 可能的值包括：</p> 
       <ul> 
        <li> <p>1 （小）</p> </li> 
-       <li> <p>2 （中）</p> </li> 
+       <li> <p>2 (Medium)</p> </li> 
        <li> <p>3 （大）</p> </li> 
-      </ul> <p>如需Workfront中工作量的詳細資訊，請參閱 <a href="../../manage-work/tasks/task-information/work-effort.md" class="MCXref xref">工作投入概觀</a>.</p> </li> 
+      </ul> <p>如需有關Workfront中工作量的詳細資訊，請參閱<a href="../../manage-work/tasks/task-information/work-effort.md" class="MCXref xref">工作量概觀</a>。</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -877,7 +877,7 @@ TemplateTask物件代表屬於Template一部分的Task。 範本任務會成為�
 
 時程表物件代表虛擬時程表，可讓使用者輸入任務、專案和管理費用時數型別的實際工作時數。
 
-如需時程表的詳細資訊，請參閱 [時程表總覽](../../timesheets/timesheets/timesheets-overview.md)
+如需時程表的詳細資訊，請參閱[時程表總覽](../../timesheets/timesheets/timesheets-overview.md)
 
 <table style="table-layout:auto"> 
  <col> 
@@ -907,7 +907,7 @@ TemplateTask物件代表屬於Template一部分的Task。 範本任務會成為�
       <ul> 
        <li> <p>initiativeAdd (enum.updatetypeenum.initiativeadd)</p> </li> 
        <li> <p>initiativeEdit (enum.updatetypeenum.initiativeedit)</p> </li> 
-      </ul> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">如需方案的詳細資訊，請參閱 <a href="../../scenario-planner/initiatives-overview.md" class="MCXref xref">情境規劃工具中的方案概觀</a>.</p> </li> 
+      </ul> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">如需方案的詳細資訊，請參閱情境規劃工具</a>中的<a href="../../scenario-planner/initiatives-overview.md" class="MCXref xref">方案概觀。</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -925,7 +925,7 @@ TemplateTask物件代表屬於Template一部分的Task。 範本任務會成為�
    <td role="rowheader">直接欄位</td> 
    <td> <p>下列欄位已新增至使用者資源：</p> 
     <ul> 
-     <li> <p><strong>actualDeactivationDate</strong> </p> <p>這代表停用使用者的日期和時間。</p> <p>如需已停用使用者的詳細資訊，請參閱 <a href="../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md" class="MCXref xref">停用或重新啟用使用者</a>.</p> </li> 
+     <li> <p><strong>actualDeactivationDate</strong> </p> <p>這代表停用使用者的日期和時間。</p> <p>如需已停用使用者的詳細資訊，請參閱<a href="../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md" class="MCXref xref">停用或重新啟用使用者</a>。</p> </li> 
      <li> <p><strong>alignAccessType</strong> </p> <p>此欄位會顯示使用者對Workfront目標的存取權。 可能的值包括：</p> 
       <ul> 
        <li> <p>無存取權</p> </li> 
@@ -975,9 +975,9 @@ Work物件是Task和OpTask都繼承的公用介面，並在兩者之間共用公
      <li> <p><strong>工作量</strong> </p> <p>此欄位已新增，並代表使用者需要少量、中量或大量每日努力才能完成任務。 可能的值包括：</p> 
       <ul> 
        <li> <p>1 （小）</p> </li> 
-       <li> <p>2 （中）</p> </li> 
+       <li> <p>2 (Medium)</p> </li> 
        <li> <p>3 （大）</p> </li> 
-      </ul> <p>如需Workfront中工作量的詳細資訊，請參閱 <a href="../../manage-work/tasks/task-information/work-effort.md" class="MCXref xref">工作投入概觀</a>.</p> </li> 
+      </ul> <p>如需有關Workfront中工作量的詳細資訊，請參閱<a href="../../manage-work/tasks/task-information/work-effort.md" class="MCXref xref">工作量概觀</a>。</p> </li> 
     </ul> <p style="font-weight: normal;">  </p> </td> 
   </tr> 
  </tbody> 

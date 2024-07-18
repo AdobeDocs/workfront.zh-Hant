@@ -21,7 +21,7 @@ ht-degree: 0%
 
 本節包含下列子章節：
 
-* [群組概述](../../administration-and-setup/manage-groups/groups-overview/groups-overview.md)
+* [群組總覽](../../administration-and-setup/manage-groups/groups-overview/groups-overview.md)
 * [建立和管理群組](../../administration-and-setup/manage-groups/create-and-manage-groups/create-and-manage-groups.md)
 * [建立和管理子群組](../../administration-and-setup/manage-groups/create-and-manage-subgroups/create-and-manage-subgroups.md)
 * [群組角色](../../administration-and-setup/manage-groups/group-roles/group-roles.md)

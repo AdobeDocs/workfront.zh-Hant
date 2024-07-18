@@ -24,7 +24,7 @@ ht-degree: 0%
 
 ## 建立Oauth2應用程式
 
-如需建立OAuth2應用程式的指示，請參閱 [使用伺服器驗證（JWT流程）建立OAuth2應用程式](../../administration-and-setup/configure-integrations/create-oauth-application.md#create2) 在 [為Workfront整合建立OAuth2應用程式](../../administration-and-setup/configure-integrations/create-oauth-application.md)
+如需建立OAuth2應用程式的指示，請參閱[建立Workfront整合的OAuth2應用程式](../../administration-and-setup/configure-integrations/create-oauth-application.md)中的[使用伺服器驗證（JWT流程）建立OAuth2應用程式](../../administration-and-setup/configure-integrations/create-oauth-application.md#create2)
 
 >[!NOTE]
 >
@@ -38,14 +38,14 @@ JWT必須經過簽署並以base-64編碼，才能納入存取請求中。 JWT程
 
 使用的演演算法為RS256 （使用SHA-256的RSA簽名）。 這是非對稱演演算法，且使用公開/私密金鑰組。 身分提供者擁有用來產生簽章的私人（秘密）金鑰，而JWT的消費者則取得用來驗證簽章的公開金鑰。
 
-若要產生公開金鑰，請執行 **一** 下列專案中的。
+若要產生公開金鑰，請執行下列其中一個&#x200B;**動作**。
 
-* 開啟您的MacOS/Linux終端機，執行以下命令，然後上傳 `certificate_pub.crt` 使用 **新增公開金鑰** 按鈕(在Workfront中的OAuth2應用程式設定中)。
+* 開啟MacOS/Linux終端機並執行下列命令，然後使用Workfront中OAuth2應用程式設定中的&#x200B;**新增公開金鑰**&#x200B;按鈕上傳`certificate_pub.crt`。
 
   <!-- [Copy](javascript:void(0);) -->
   <pre><code>openssl req -x509 -sha256 -nodes -newkey rsa:2048 -keyout private.key -out certificate_pub.crt</code></pre>
 
-* 使用 **產生公用/私用金鑰組** 按鈕(在Workfront中的OAuth2應用程式設定中)來產生RSA。
+* 使用Workfront中OAuth2應用程式設定中的&#x200B;**產生公開/私用金鑰組**&#x200B;按鈕來產生RSA。
 
 ## 建立JSON Web權杖
 

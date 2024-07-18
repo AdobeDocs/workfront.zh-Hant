@@ -21,8 +21,8 @@ ht-degree: 0%
 
 <!--* [Adobe Workfront Scenario Planner with the 21.4 release](../../../product-announcements/product-releases/scenario-planner-release-activity/sp-release-21-4.md) -->
 
-* [含21.3版的Adobe Workfront Scenario Planner](../../../product-announcements/product-releases/scenario-planner-release-activity/sp-release-21-3.md)
-* [含21.2版的Adobe Workfront Scenario Planner](../../../product-announcements/product-releases/scenario-planner-release-activity/sp-release-21-2.md)
-* [含21.1版的Adobe Workfront Scenario Planner](../../../product-announcements/product-releases/scenario-planner-release-activity/sp-release-21-1.md)
-* [含20.4版的Workfront Scenario Planner - 2020年10月14日](../../../product-announcements/product-releases/scenario-planner-release-activity/sp-release-20-4.md)
+* 含21.3版的[Adobe Workfront Scenario Planner](../../../product-announcements/product-releases/scenario-planner-release-activity/sp-release-21-3.md)
+* 含21.2版的[Adobe Workfront Scenario Planner](../../../product-announcements/product-releases/scenario-planner-release-activity/sp-release-21-2.md)
+* 含21.1版的[Adobe Workfront Scenario Planner](../../../product-announcements/product-releases/scenario-planner-release-activity/sp-release-21-1.md)
+* 含20.4版本的[Workfront Scenario Planner - 2020年10月14日](../../../product-announcements/product-releases/scenario-planner-release-activity/sp-release-20-4.md)
 * [含20.3版的Workfront Scenario Planner - 2020年8月14日](../../../product-announcements/product-releases/scenario-planner-release-activity/sp-release-20-3.md)

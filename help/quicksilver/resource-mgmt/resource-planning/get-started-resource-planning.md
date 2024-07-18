@@ -23,13 +23,13 @@ ht-degree: 0%
 </div>
 -->
 
-您可以使用Adobe Workfront資源管理工具來預測資源的配置，以便準確知道專案是否準時及符合預算。 如需Workfront的資源管理概觀，請參閱 [開始使用資源管理](../../resource-mgmt/resource-mgmt-overview/get-started-resource-management.md).
+您可以使用Adobe Workfront資源管理工具來預測資源的配置，以便準確知道專案是否準時及符合預算。 如需Workfront的資源管理概觀，請參閱[開始使用資源管理](../../resource-mgmt/resource-mgmt-overview/get-started-resource-management.md)。
 
 您可以使用資源計畫工具來管理您的職務角色、其可用性，以及根據此可用性的一般專案配置。
 
 預算使用者對專案的一般配置不會將其指派給實際工作（任務和問題）。 您必須使用工作負載平衡器指派您的資源以進行工作。
 
-如需有關使用工作負載平衡器在Workfront中排程資源的詳細資訊，請參閱 [工作負載平衡器總覽](../workload-balancer/overview-workload-balancer.md).
+如需使用工作負載平衡器在Workfront中排程資源的詳細資訊，請參閱[工作負載平衡器概覽](../workload-balancer/overview-workload-balancer.md)。
 
 ## Workfront中的資源規劃工具
 
@@ -39,19 +39,19 @@ ht-degree: 0%
 
   您可以前往「資源」區域中的規劃工具區段來存取資源規劃工具。
 
-  如需資源規劃工具的相關資訊，請參閱 [資源規劃工具概觀](../../resource-mgmt/resource-planning/get-started-resource-planner.md).
+  如需資源規劃工具的相關資訊，請參閱[資源規劃工具概觀](../../resource-mgmt/resource-planning/get-started-resource-planner.md)。
 
-* 針對單一專案的預算分配：使用專案之業務案例的「資源預算」區域中的專案層次資源規劃工具。 如需有關為專案編列預算資源的資訊，請參閱文章 [業務案例中的預算資源](../../manage-work/projects/define-a-business-case/budget-resources-in-business-case.md).
+* 針對單一專案的預算分配：使用專案之業務案例的「資源預算」區域中的專案層次資源規劃工具。 如需為一個專案編列預算資源的相關資訊，請參閱文章[商業案例中的預算資源](../../manage-work/projects/define-a-business-case/budget-resources-in-business-case.md)。
 
-  若要根據共同技能或部門結構來管理使用者，並將他們組織到集區，然後管理他們指派給專案的配置，您必須建立資源集區。 如需有關建立資源集區的詳細資訊，請參閱 [建立資源集區](../../resource-mgmt/resource-planning/resource-pools/create-resource-pools.md).
+  若要根據共同技能或部門結構來管理使用者，並將他們組織到集區，然後管理他們指派給專案的配置，您必須建立資源集區。 如需有關建立資源集區的詳細資訊，請參閱[建立資源集區](../../resource-mgmt/resource-planning/resource-pools/create-resource-pools.md)。
 
   >[!TIP]
   >
   >專案的資源預算區域是專案層次的資源規劃工具。 當您在專案的「業務案例」中編列資源預算時，資訊也會反映在系統層次「資源規劃工具」中。
 
-* 若要在高層級、跨多個行動方案管理資源，並依照組織的策略調整您的工作，請使用Adobe Workfront情境規劃工具。 Scenario Planner需要額外的授權。 如需Workfront Scenario Planner的相關資訊，請參閱 [情境規劃工具概觀](../../scenario-planner/scenario-planner-overview.md).
+* 若要在高層級、跨多個行動方案管理資源，並依照組織的策略調整您的工作，請使用Adobe Workfront情境規劃工具。 Scenario Planner需要額外的授權。 如需Workfront Scenario Planner的相關資訊，請參閱[Scenario Planner概觀](../../scenario-planner/scenario-planner-overview.md)。
 
-  您可以在系統層級、多個專案中使用「資源規劃工具」，以及在業務案例的「資源預算」區域中，為單一專案預算資源。 如需有關業務案例中專案預算資源的詳細資訊，請參閱 [業務案例中的預算資源](../../manage-work/projects/define-a-business-case/budget-resources-in-business-case.md).
+  您可以在系統層級、多個專案中使用「資源規劃工具」，以及在業務案例的「資源預算」區域中，為單一專案預算資源。 如需商務案例中專案預算資源的詳細資訊，請參閱商務案例中的[預算資源](../../manage-work/projects/define-a-business-case/budget-resources-in-business-case.md)。
 
 ## 資源規劃工具的用途
 
@@ -61,11 +61,11 @@ ht-degree: 0%
    * 根據使用者的排程，瞭解資源的可用性。
    * 針對資源（使用者和職位角色）指派給他們的專案，為其分配預算小時、FTE或成本分攤。
 
-  如需有關在資源規劃工具中工作的資訊，請參閱文章 [資源規劃工具概觀](../../resource-mgmt/resource-planning/get-started-resource-planner.md).
+  如需有關在資源規劃工具中工作的資訊，請參閱文章[資源規劃工具概觀](../../resource-mgmt/resource-planning/get-started-resource-planner.md)。
 
-* 使用「情境規劃工具」，您可以跨多個行動方案建立企業級計畫，概述公司的整體策略結果。 如需詳細資訊，請參閱 [開始使用案例規劃工具](../../scenario-planner/get-started-with-scenario-planning.md).
+* 使用「情境規劃工具」，您可以跨多個行動方案建立企業級計畫，概述公司的整體策略結果。 如需詳細資訊，請參閱[開始使用Scenario Planner](../../scenario-planner/get-started-with-scenario-planning.md)。
 
-  Scenario Planner需要額外的授權。 如需Workfront Scenario Planner的相關資訊，請參閱 [情境規劃工具概觀](../../scenario-planner/scenario-planner-overview.md).
+  Scenario Planner需要額外的授權。 如需Workfront Scenario Planner的相關資訊，請參閱[Scenario Planner概觀](../../scenario-planner/scenario-planner-overview.md)。
 
 <!--
 <h2 data-mc-conditions="QuicksilverOrClassic.Draft mode">Prerequisites for resource planning</h2>

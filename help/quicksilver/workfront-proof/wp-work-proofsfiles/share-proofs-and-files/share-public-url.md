@@ -2,8 +2,8 @@
 product-previous: workfront-proof
 product-area: documents
 navigation-topic: share-proofs-and-files
-title: 共用公用URL於 [!DNL Workfront Proof]
-description: 您可以透過提供公開校樣URL給所需的收件者來共用校樣。
+title: 在 [!DNL Workfront Proof]中共用公用URL
+description: 您可以透過向所需的收件者提供公開校訂URL來共用校訂。
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: b5fceaf9-f812-4368-8a13-d7fadebb7d28
@@ -14,49 +14,49 @@ ht-degree: 0%
 
 ---
 
-# 共用公用URL於 [!DNL Workfront Proof]
+# 在[!DNL Workfront Proof]中共用公用URL
 
 >[!IMPORTANT]
 >
->本文說明獨立產品中的功能 [!DNL Workfront Proof]. 有關內部校對的資訊 [!DNL Adobe Workfront]，請參閱 [校對](../../../review-and-approve-work/proofing/proofing.md).
+>本文提及獨立產品[!DNL Workfront Proof]中的功能。 有關[!DNL Adobe Workfront]內部校訂的資訊，請參閱[校訂](../../../review-and-approve-work/proofing/proofing.md)。
 
-您可以透過提供公開校樣URL給所需的收件者來共用校樣。
+您可以透過向所需的收件者提供公開校訂URL來共用校訂。
 
-公用URL是開啟校樣但不會自動登入審核者的URL。 將校樣的相關資訊傳送至一組人員時，可使用公用URL。 從公開URL存取校樣時，他們將以唯讀存取權加以檢視。 有關訪問級別的資訊，請參見 [在中管理校樣角色 [!DNL Workfront] 校樣](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md).
+公用URL是開啟校訂但未自動登入檢閱者的URL。 將校訂的相關資訊傳送給一組人員時，可使用公用URL。 當他們從公開URL存取校訂時，他們將以唯讀存取權檢視它。 如需有關存取層級的資訊，請參閱[在 [!DNL Workfront] 校訂](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md)中管理校訂角色。
 
-也提供簽署的選項，讓專門加入審核的人員能夠使用其電子郵件地址登錄，並對校樣發表意見和做出決策。
+也提供登入選項，以便特別新增到稽核的人員可以使用其電子郵件地址登入，並對校樣做出評論和決定。
 
-* 您需要手動複製公用URL並貼到電子郵件中，然後傳送給相關人員。
-* 您提供給公用URL的人員「不會」出現在「校樣」詳細資訊頁面的「工作流程」區段中。
+* 您需要手動複製公開URL並貼入電子郵件，然後傳送給相關人員。
+* 您提供公開URL給的人員「不會」出現在「校訂」詳細資訊頁面的「工作流程」區段中。
 
-如果校樣上啟用了訂閱，則任何有權存取校樣URL的人都可以訂閱校樣（因此，請將自己新增至校樣擁有者所指定的預設角色的審核週期）。
+如果在校訂上啟用訂閱，則有權存取校訂URL的任何人將能夠訂閱校訂（因此使用校訂擁有者指定的預設角色將自己新增到檢閱週期）。
 
-請參閱 [在中訂閱校樣 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/subscribe-to-proof.md) 以取得更多資訊。
+如需詳細資訊，請參閱[在 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/subscribe-to-proof.md)中訂閱校訂。
 
-使用校樣的公用URL:
+使用校訂的公用URL：
 
-1. 前往「校樣預設值」頁面，如 [在中管理校樣詳細資料 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md).
-1. 開啟 **[!UICONTROL 更多共用選項]** 區段。
-1. 請確定 **校樣URL** 啟用。
+1. 移至[校訂失敗]頁面，如[在 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md)中管理校訂詳細資訊。
+1. 開啟&#x200B;**[!UICONTROL 更多共用選項]**&#x200B;區段。
+1. 確定已啟用&#x200B;**校訂URL**。
 1. 將公用URL複製到剪貼簿。
-1. 將公用URL貼入電子郵件或聊天視窗，然後傳送給您的收件者
+1. 將公用URL貼入電子郵件或聊天視窗中，然後傳送給收件者
 
-## 從公用URL存取校樣
+## 從公共URL存取校訂
 
-校樣開啟時，公用URL不會識別審核者。 校樣會改為以唯讀模式開啟。
+校訂開啟時，公用URL不會識別稽核者。 校訂會改為以唯讀模式開啟。
 
-如果某人想要新增留言，則需登入以識別自己。 如果他們已是校樣的審核者，則系統會提示他們輸入其登入詳細資訊。
+如果人員想要新增評論，則需要登入以識別身分。 如果他們已是校訂的檢閱者，則系統會提示他們輸入登入詳細資訊。
 
-如果他們尚未成為校樣的審核者，則需要訂閱。
+如果他們還不是校訂的檢閱者，則需要訂閱。
 
 >[!NOTE]
 >
->訂閱可以停用，在此情況下，他們將無法訂閱校樣。
+>訂閱可能會停用，這樣他們將無法訂閱校訂。
 
-請參閱 [在中訂閱校樣 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/subscribe-to-proof.md) 以取得更多資訊。
+如需詳細資訊，請參閱[在 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/subscribe-to-proof.md)中訂閱校訂。
 
-若要從公用URL存取校樣：
+若要從公開URL存取校訂：
 
-* 使用者使用登入詳細資訊（包括其的註冊電子郵件和密碼）開啟校樣 [!DNL Workfront Proof].
-* 非使用者輸入電子郵件地址和顯示名稱以開啟校樣。
-* 無論是哪種情況，請選取 **[!UICONTROL 記住我]** 因此，您必須這次輸入詳細資訊（針對此校樣）。
+* 使用者使用登入詳細資訊開啟校訂，包括他們註冊的[!DNL Workfront Proof]電子郵件和密碼。
+* 非使用者透過輸入電子郵件地址和顯示名稱來開啟校樣。
+* 無論是哪種情況，請選取&#x200B;**[!UICONTROL 記住我]**，如此您就只須一次輸入您的詳細資料（針對此校訂）。

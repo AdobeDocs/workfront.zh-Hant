@@ -19,31 +19,31 @@ ht-degree: 1%
 
 本頁說明21.1版對預覽環境所做的所有專案管理增強功能。 這些增強功能將在2021年2月15日當週的生產環境中提供。
 
-如需21.1版所有可用變更的清單，請參閱 [21.1版本總覽](../../../product-announcements/product-releases/21.1-release-activity/21-1-release-overview.md).
+如需21.1版本可用的所有變更清單，請參閱[21.1版本概觀](../../../product-announcements/product-releases/21.1-release-activity/21-1-release-overview.md)。
 
 ## 專案的「量度」區段現已提供匯出功能
 
 為了更輕鬆地共用專案的狀態和進度，您現在可以將專案的「量度」區段中的整個儀表板匯出到.png檔案。
 
-如需詳細資訊，請參閱 [專案量度概觀](../../../manage-work/projects/manage-projects/project-metrics.md).
+如需詳細資訊，請參閱[專案量度概觀](../../../manage-work/projects/manage-projects/project-metrics.md)。
 
-此功能現已包含在 [新Workfront體驗的計畫者基礎知識，第3部分：管理專案](https://one.workfront.com/s/learningpath3/planner-fundamentals-for-the-new-workfront-experience-part-3-manage-a-project-MCG6OJL724XRBLHBXEAKGAUZOJ6U) Workfront One的學習路徑。
+此功能現在包含在新Workfront體驗的[規劃師基礎知識部分，第3部分：管理Workfront One上的專案](https://one.workfront.com/s/learningpath3/planner-fundamentals-for-the-new-workfront-experience-part-3-manage-a-project-MCG6OJL724XRBLHBXEAKGAUZOJ6U)學習路徑。
 
 ## 從問題更新轉換而來的專案或任務時，更新問題完成百分比
 
 我們已更新問題完成百分比的運作方式，這些問題已轉換為專案或任務。 運用新功能時，當問題轉換為任務或專案時，當從設定啟用「當解決物件的狀態變更時自動更新可解決的問題狀態」設定時，問題的完成百分比會與解決任務或專案的完成百分比同步。
 
-如需轉換問題的相關資訊，請參閱 [解析與可解析物件的概觀](../../../manage-work/issues/convert-issues/resolving-and-resolvable-objects.md).
+如需轉換問題的相關資訊，請參閱[解析和可解析物件概述](../../../manage-work/issues/convert-issues/resolving-and-resolvable-objects.md)。
 
 ## 新提交的請求清單
 
 為了讓您以更簡單、更一致的方式管理您提交的請求，我們已移除「我已提交的請求」和「請求」區域中的「所有請求」區段，並以新的「已提交」清單取代。 清單具有熟悉的外觀和風格，符合系統中的所有其他清單，可讓您篩選不同類別的已提交請求，並快速搜尋可能難以找到的請求。
 
-如需如何找到已提交請求的相關資訊，請參閱 [找出已提交的請求](../../../manage-work/requests/create-requests/locate-submitted-requests.md).
+如需如何尋找已提交要求的詳細資訊，請參閱[尋找已提交的要求](../../../manage-work/requests/create-requests/locate-submitted-requests.md)。
 
-此功能現已包含在 [新Workfront體驗的Collaborator基礎知識](https://one.workfront.com/s/learningpath1/collaborator-fundamentals-for-the-new-workfront-experience-MCY5AMOQQTGFDVZB4ODS6TXCYE2A) Workfront One的學習路徑。
+此功能現已包含在Workfront One上的新Workfront Experience](https://one.workfront.com/s/learningpath1/collaborator-fundamentals-for-the-new-workfront-experience-MCY5AMOQQTGFDVZB4ODS6TXCYE2A)學習路徑的[Collaborator基礎知識中。
 
-此功能現已包含在 [新Workfront體驗中的請求](https://one.workfront.com/s/learningpath3/core-team-requests-in-the-new-workfront-experience-MCHWSSDWRFC5EKXFBXTQ6MJNKE7E) Workfront One的學習路徑。
+此功能現已包含在Workfront One上新Workfront體驗](https://one.workfront.com/s/learningpath3/core-team-requests-in-the-new-workfront-experience-MCHWSSDWRFC5EKXFBXTQ6MJNKE7E)學習路徑的[要求中。
 
 ## 從新請求頁面移除的欄位
 
@@ -65,7 +65,7 @@ ht-degree: 1%
 
 我們已將「指派至」、「工作角色」及「專案團隊」欄位取代為「新請求」頁面上的新「指派」欄位，以便在您提交新請求時，於共用欄位中有效地指定使用者、工作角色或專案團隊。
 
-有關為專案定義新問題欄位的資訊，請參閱 [建立請求佇列](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
+如需為專案定義新問題欄位的相關資訊，請參閱[建立請求佇列](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md)。
 
 ## 在請求區域中提交請求的新體驗
 
@@ -81,7 +81,7 @@ ht-degree: 1%
 
 可在您輸入請求時，共用請求佇列、主題群組或佇列主題的連結。
 
-如需有關提交請求的資訊，請參閱 [建立及提交Workfront請求](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md).
+如需有關提交請求的資訊，請參閱[建立並提交Workfront請求](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md)。
 
 ## 提交請求時分享請求佇列的連結
 
@@ -93,7 +93,7 @@ ht-degree: 1%
 
 在提交新請求之前，您可以複製請求的請求佇列、主題群組或佇列主題的連結，並將其與其他使用者共用，或嵌入到儀表板中。
 
-如需有關在提交請求時共用請求佇列連結的資訊，請參閱 [分享請求佇列的連結](../../../manage-work/requests/create-requests/share-link-to-request-queue.md).
+如需在提交請求時共用請求佇列連結的相關資訊，請參閱[共用請求佇列的連結](../../../manage-work/requests/create-requests/share-link-to-request-queue.md)。
 
 ## 搜尋您要指派給專案的群組並檢視其詳細資訊
 
@@ -105,7 +105,7 @@ ht-degree: 1%
 
 有了這些資訊，您就可以確信您選取了要指派給專案的正確群組。
 
-如需詳細資訊，請參閱 [管理專案概述區域中的資訊](../../../manage-work/projects/manage-projects/understand-project-overview-area.md).
+如需詳細資訊，請參閱[管理專案概觀區域的資訊](../../../manage-work/projects/manage-projects/understand-project-overview-area.md)。
 
 ## 新增使用者委派報告
 
@@ -115,4 +115,4 @@ ht-degree: 1%
 * 哪些使用者已被委派這些核准
 * 這些委派的開始和結束日期
 
-若要深入瞭解，請參閱 [建立使用者委派報告](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-user-delegation-report.md).
+若要深入瞭解，請參閱[建立使用者委派報告](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-user-delegation-report.md)。

@@ -51,7 +51,7 @@ Workfront有5個新的內建存取層級：
     </tr>
 </table>
 
-如果您需要自訂存取層級，可以複製內建存取層級，並調整您要允許各種Workfront物件型別的存取量。 如需建立自訂存取層級的詳細資訊，請參閱 [建立或修改自訂存取層級](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+如果您需要自訂存取層級，可以複製內建存取層級，並調整您要允許各種Workfront物件型別的存取量。 如需建立自訂存取層級的資訊，請參閱[建立或修改自訂存取層級](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)。
 
 >[!IMPORTANT]
 >
@@ -65,7 +65,7 @@ Workfront有5個新的內建存取層級：
 
 使用者也可存取完整的「設定」區域，在此變更系統層級的任何設定，並可存取主功能表中的所有區域。
 
-如需詳細資訊，請參閱 [授予使用者完整管理存取權](../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md).
+如需詳細資訊，請參閱[授予使用者完整管理存取權](../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md)。
 
 ### 標準存取層級
 
@@ -81,7 +81,7 @@ Workfront有5個新的內建存取層級：
 
 >[!NOTE]
 >
->您可以建立自訂版本的標準內建存取層級，並調整其允許各種Workfront物件型別的存取量。 如需建立自訂存取層級的詳細資訊，請參閱 [建立或修改自訂存取層級](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+>您可以建立自訂版本的標準內建存取層級，並調整其允許各種Workfront物件型別的存取量。 如需建立自訂存取層級的資訊，請參閱[建立或修改自訂存取層級](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)。
 
 #### **存取詳細資料**
 
@@ -127,7 +127,7 @@ Workfront有5個新的內建存取層級：
 
 >[!NOTE]
 >
->您可以建立Light內建存取層級的自訂版本，並調整其允許各種Workfront物件型別的存取量。 如需建立自訂存取層級的詳細資訊，請參閱 [建立或修改自訂存取層級](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+>您可以建立Light內建存取層級的自訂版本，並調整其允許各種Workfront物件型別的存取量。 如需建立自訂存取層級的資訊，請參閱[建立或修改自訂存取層級](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)。
 
 #### **存取詳細資料**
 
@@ -266,11 +266,11 @@ Workfront有5個新的內建存取層級：
 * 可以核准專案、任務和問題
 * 可以檢閱他們已提交問題的狀態
 * 可指派給工作專案，但無法完成它們
-* 只能從主功能表存取請求。 如需請求佇列的詳細資訊，請參閱 [建立請求佇列](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
+* 只能從主功能表存取請求。 如需請求佇列的詳細資訊，請參閱[建立請求佇列](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md)。
 
 >[!NOTE]
 >
->您可以建立「貢獻者」內建存取層級的自訂版本，並調整其允許各種Workfront物件型別的存取量。 如需建立自訂存取層級的詳細資訊，請參閱 [建立或修改自訂存取層級](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+>您可以建立「貢獻者」內建存取層級的自訂版本，並調整其允許各種Workfront物件型別的存取量。 如需建立自訂存取層級的資訊，請參閱[建立或修改自訂存取層級](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)。
 
 #### **存取詳細資料**
 
@@ -314,7 +314,7 @@ Workfront有5個新的內建存取層級：
 
 >[!IMPORTANT]
 >
->只有在「設定」的「系統偏好設定」區域中啟用「透過電子郵件地址與沒有Workfront帳戶的人合作」選項時，外部使用者才可用。 如需詳細資訊，請參閱 [設定系統安全性偏好設定](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md).
+>只有在「設定」的「系統偏好設定」區域中啟用「透過電子郵件地址與沒有Workfront帳戶的人合作」選項時，外部使用者才可用。 如需詳細資訊，請參閱[設定系統安全性偏好設定](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md)。
 
 #### **存取詳細資料**
 
@@ -393,14 +393,14 @@ Workfront有5個新的內建存取層級：
 
 使用者可以將下列任一許可權授與收件者給個別物件：
 
-* **檢視**：此許可權層級可讓收件者透過下列其中一種方式共用物件：
+* **檢視**：此許可權層級允許收件者以下列其中一種方式共用物件：
 
    * 系統範圍，讓所有使用者都能看見（不適用於所有物件）
    * 針對沒有Workfront授權的外部使用者（不適用於所有物件）
    * 含電子郵件地址（僅適用於檔案和行事曆）
 
-* **Contribute**：（不適用於所有物件）
-* **管理**：當有人共用物件時，收件者對物件的許可權取決於收件者的存取層級與共用者所授予物件的許可權的組合。 該組合中可用的最低存取度決定了收件者可以對物件執行的操作。
+* **Contribute**： （不適用於所有物件）
+* **管理**：當某人共用物件時，收件者對該物件的許可權是由收件者的存取層級與共用者所授予之物件許可權的組合所決定。 該組合中可用的最低存取度決定了收件者可以對物件執行的操作。
 
 ### 範例情境
 

@@ -25,7 +25,7 @@ ht-degree: 0%
 >
 >* 基於安全理由，有些網站不允許您將網頁內嵌為iframe。 如果您要內嵌在儀表板中的網頁不允許這麼做，則儀表板中不會顯示該頁面。 不過，您仍然可以按一下控制面板的名稱來存取外部頁面。\
 >![](assets/qs-empty-external-page-report-350x165.png)\
->若要允許內嵌您擁有的網站，請與您的網站管理員合作，調整 **X-Frame-Options** 設定。 如需詳細資訊，請參閱 [X-Frame-Options](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-Frame-Options).
+>若要允許內嵌您擁有的網站，請與您的網站管理員合作，調整&#x200B;**X-Frame-Options**&#x200B;設定。 如需詳細資訊，請參閱[X-Frame-Options](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-Frame-Options)。
 >
 >
 >* 儀表板頁面不再支援作為儀表板中的內嵌外部頁面。 雖然現有儀表板不會自動修改以移除這些外部頁面，但對包含此類參考的儀表板所做的任何修改都無法儲存，直到移除或更改參考為止。
@@ -47,7 +47,7 @@ ht-degree: 0%
 >     * /group/：ID/content-dashboard__：dashboardID&#x200B;
 >     * /billingrecord/：ID/content-dashboard__：dashboardID
 >
->作為替代解決方案，請考慮在您的控制面板中包含清單報告，如中所述 [新增報表至控制面板](/help/quicksilver/reports-and-dashboards/dashboards/creating-and-managing-dashboards/add-report-dashboard.md)
+>作為替代解決方案，請考慮在您的儀表板中包含清單報告，如[將報告新增到儀表板](/help/quicksilver/reports-and-dashboards/dashboards/creating-and-managing-dashboards/add-report-dashboard.md)中所述
 
 ## 存取需求
 
@@ -80,7 +80,7 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-*若要瞭解您擁有的計畫、授權型別或存取權，請聯絡您的Workfront管理員。 如需詳細資訊，請參閱 [Workfront檔案中的存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*若要瞭解您擁有的計畫、授權型別或存取權，請聯絡您的Workfront管理員。 如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -88,13 +88,13 @@ ht-degree: 0%
 
 您必須先建立儀表板，才能在其中嵌入外部頁面。
 
-如需建立控制面板的詳細資訊，請參閱 [建立儀表板](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-dashboard.md).
+如需有關建立儀表板的資訊，請參閱[建立儀表板](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-dashboard.md)。
 
 ## 將外部頁面內嵌在控制面板中
 
 >[!IMPORTANT]
 >
->如果不再需要外部頁面，您可以從控制面板中將其移除。 但是，在Workfront中建立外部頁面後，您無法刪除該頁面。 您只能使用API刪除外部頁面。 如需詳細資訊，請參閱 [從儀表板移除外部頁面](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/remove-external-page-from-dashboard.md).
+>如果不再需要外部頁面，您可以從控制面板中將其移除。 但是，在Workfront中建立外部頁面後，您無法刪除該頁面。 您只能使用API刪除外部頁面。 如需詳細資訊，請參閱[從儀表板移除外部頁面](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/remove-external-page-from-dashboard.md)。
 
 1. 找出要在Workfront中顯示的頁面URL，並複製位址列中的URL。
 
@@ -104,21 +104,21 @@ ht-degree: 0%
 
 {{step1-to-dashboards}}
 
-1. 若要編輯現有儀表板，請選取您要內嵌網站頁面的儀表板，然後按一下 **儀表板動作**，然後按一下 **編輯**
+1. 若要編輯現有儀表板，請選取要內嵌網站頁面的儀表板，然後按一下&#x200B;**儀表板動作**，再按一下&#x200B;**編輯**
 或\
-   若要建立新儀表板，請按一下 **新儀表板**.\
-   如需建立儀表板的詳細資訊，請參閱 [建立儀表板](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-dashboard.md).
+   若要建立新儀表板，請按一下&#x200B;**新增儀表板**。\
+   如需有關建立儀表板的詳細資訊，請參閱[建立儀表板](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-dashboard.md)。
 
-1. 按一下 **新增外部頁面** 在 **選擇佈局/新增報告/新增行事曆** 區域。
+1. 按一下&#x200B;**選取配置/新增報告/新增行事曆**&#x200B;區域下的&#x200B;**新增外部頁面**。
 
    ![](assets/qs-add-external-page-350x239.png)
 
-   此 **新增外部頁面** 方塊隨即顯示。
+   顯示&#x200B;**新增外部頁面**&#x200B;方塊。
 
 1. 指定下列有關外部頁面的資訊：
 
-   * **名稱**：新增控制面板的名稱。
-   * **說明**：新增控制面板的詳細資訊，以識別其中包含的資訊。 在您儲存後，說明會顯示在控制面板上，供有權檢視它的每個人使用。
+   * **名稱**：新增儀表板的名稱。
+   * **描述**：新增儀表板的詳細資訊，以識別其包含的資訊。 在您儲存後，說明會顯示在控制面板上，供有權檢視它的每個人使用。
    * **URL**：將您先前複製的URL貼在此欄位中。
 
      您可以指定下列型別的URL：
@@ -130,9 +130,9 @@ ht-degree: 0%
       * 包含特定網站的工作階段資訊的範本URL。\
         例如： *https://localhost/?session={！$$SESSION}*
 您必須登入指定的網站才能顯示外部頁面。\
-        如需有關如何從Workfront取得SessionID的資訊，請參閱 [API基本概念](../../../wf-api/general/api-basics.md).\
+        如需有關如何從Workfront取得SessionID的資訊，請參閱[API基本知識](../../../wf-api/general/api-basics.md)。\
         基於安全理由，您的Workfront管理員可能會以不允許在外部頁面中使用工作階段資訊的方式設定您的系統偏好設定。 在此情況下，外部頁面不會在控制面板上載入。\
-        如需有關系統安全性偏好設定的詳細資訊，請參閱 [設定系統安全性偏好設定](../../../administration-and-setup/manage-workfront/security/configure-security-preferences.md).\
+        如需有關系統安全性偏好設定的詳細資訊，請參閱[設定系統安全性偏好設定](../../../administration-and-setup/manage-workfront/security/configure-security-preferences.md)。\
         ![external_page_with_session_id_example.png](assets/external-page-with-session-id-example-350x134.png)
 
      >[!WARNING]
@@ -140,7 +140,7 @@ ht-degree: 0%
      >使用SessionID是不安全的，不建議使用。
      >
 
-   * **高度**：輸入大於0的數字，以定義外部頁面在控制面板上的空間。 預設高度為500。
+   * **高度**：輸入大於0的數字，以定義外部頁面在控制面板上佔用的空間。 預設高度為500。
 
 1. 按一下「**儲存**」。
 
@@ -158,15 +158,15 @@ ht-degree: 0%
 
 {{step1-to-dashboards}}
 
-1. 按一下要更新的控制面板名稱以開啟它，然後按一下 **儀表板動作**，然後 **編輯**.
+1. 按一下您要更新的儀表板名稱以開啟它，然後按一下&#x200B;**儀表板動作**，然後按&#x200B;**編輯**。
 
-   此 **控制面板詳細資訊** 方塊開啟。
+   **儀表板詳細資料**&#x200B;方塊開啟。
 
-1. 在 **選擇版面配置/新增報告/新增行事曆** 的區域 **控制面板詳細資訊** 方塊中，找到您要更新的外部頁面，將滑鼠游標停留在頁面上，然後按一下 **編輯** 圖示。\
+1. 在&#x200B;**儀表板詳細資料**&#x200B;方塊的&#x200B;**選取配置/新增報告/新增行事曆**&#x200B;區域中，找到您要更新的外部頁面，將滑鼠游標停留在它上，然後按一下&#x200B;**編輯**&#x200B;圖示。\
    ![](assets/nwe-inline-edit-external-page-350x226.png)
 
-1. 在 **編輯外部頁面** 方塊，更新您要變更的欄位，然後按一下 **儲存**.
-1. （可選）按一下 **刪除** 圖示 ![](assets/delete.png) 以從控制面板移除外部頁面。 如需詳細資訊，請參閱 [從儀表板移除外部頁面](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/remove-external-page-from-dashboard.md).
+1. 在&#x200B;**編輯外部頁面**&#x200B;方塊中，更新您要變更的欄位，然後按一下&#x200B;**儲存**。
+1. （選擇性）按一下&#x200B;**刪除**&#x200B;圖示![](assets/delete.png)以從儀表板移除外部頁面。 如需詳細資訊，請參閱[從儀表板移除外部頁面](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/remove-external-page-from-dashboard.md)。
 1. 按一下「**儲存並關閉**」。
 
 ## 在報表中檢視外部頁面
@@ -175,15 +175,15 @@ ht-degree: 0%
 
 {{step1-to-reports}}
 
-1. 按一下 **新報告** >選取 **外部頁面**.
+1. 按一下「**新增報表**」>選取「**外部頁面**」。
 
    ![](assets/external-page-new-report-in-dropdown-nwe.png)
 
 1. （可選）更新報告的檢視、篩選或分組標籤。
 
-   如需詳細資訊，請參閱 [建立自訂報表](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+   如需詳細資訊，請參閱[建立自訂報表](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md)。
 
-1. 按一下 **儲存+關閉**.
+1. 按一下&#x200B;**儲存+關閉**。
 
    您可以在新的報告中檢視與系統中外部頁面關聯的名稱和URL。
 

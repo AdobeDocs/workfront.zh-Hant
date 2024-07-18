@@ -3,7 +3,7 @@ content-type: reference
 product-area: user-management;setup
 navigation-topic: manage-your-account-and-profile
 title: 設定您的使用者設定檔
-description: 請參閱本節中的文章，瞭解如何設定 [!DNL Workfront] 使用者設定檔。
+description: 請參閱本節中的文章以瞭解如何設定您的 [!DNL Workfront] 使用者設定檔。
 author: Nolan
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
@@ -19,5 +19,5 @@ ht-degree: 0%
 
 本節包含下列文章：
 
-* [設定 [!UICONTROL 我的設定]](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md)
-* [在中設定個人休假 [!DNL Adobe Workfront]](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/personal-time-overview.md)
+* [設定[!UICONTROL 我的設定]](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md)
+* [在 [!DNL Adobe Workfront]中設定個人休假](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/personal-time-overview.md)

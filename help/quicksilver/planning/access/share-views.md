@@ -85,19 +85,19 @@ ht-degree: 1%
 
 <tr>
    <td role="rowheader"><p>版面配置範本</p></td>
-   <td> <p>必須為所有使用者(包括Workfront管理員)指派一個版面配置範本，該範本包含主功能表中的Planning區域。 </p> <p>如需詳細資訊，請參閱 <a href="/help/quicksilver/planning/access/access-overview.md">存取權總覽</a>. </p> 
+   <td> <p>必須為所有使用者(包括Workfront管理員)指派一個版面配置範本，該範本包含主功能表中的Planning區域。 </p> <p>如需詳細資訊，請參閱<a href="/help/quicksilver/planning/access/access-overview.md">存取總覽</a>。 </p> 
 </td>
   </tr>
  </tbody>
 </table>
 
-*如需詳細資訊，請參閱 [Workfront檔案中的存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 
 
-## 共用檢視的許可權 <!--internally-->
+## 共用檢視<!--internally-->的許可權
 
-您可以分享您建立的檢視或您擁有管理許可權的檢視 <!--with users or groups in Workfront-->.
+您可以共用您建立的檢視或您擁有<!--with users or groups in Workfront-->管理許可權的檢視。
 
 >[!NOTE]
 >
@@ -111,7 +111,7 @@ ht-degree: 1%
 
    這會開啟記錄型別頁面。
 
-1. 在檢視標籤中，暫留在您要共用的檢視上，然後按一下 **更多** 功能表 ![](assets/more-menu.png) 檢視名稱右側，然後按一下 **共用**.
+1. 在[檢視]索引標籤中，暫留在您要共用的檢視上，然後按一下檢視名稱右側的&#x200B;**更多**&#x200B;功能表![](assets/more-menu.png)，然後按一下&#x200B;**共用**。
 
    ![](assets/more-menu-for-views-expanded-with-share-option.png)
 
@@ -120,9 +120,9 @@ ht-degree: 1%
 1. （可選）從下列選項中選取以共用檢視：
 
    * **只有受邀者才能存取**：您必須指定想要與其共用檢視的使用者或群組。 這是預設選項。
-   * **工作區中的所有人都可以檢視**：所有對Workspace具有「檢視」或更高許可權的使用者都可以存取檢視。
+   * **工作區中的所有人都可以檢視**：所有對工作區具有「檢視」或更高許可權的使用者都可以存取檢視。
 
-1. 在 **授予檢視存取許可權至** 欄位，開始輸入使用者或群組的名稱，然後在其顯示在清單中時按一下它。  <!--***********replace screen shot below when public sharing is released***********-->
+1. 在&#x200B;**授與檢視許可權給**&#x200B;欄位中，開始輸入使用者或群組的名稱，然後當它顯示在清單中時按一下它。 <!--***********replace screen shot below when public sharing is released***********-->
 
    ![](assets/sharing-a-view-ui-with-groups.png)
 
@@ -130,17 +130,17 @@ ht-degree: 1%
    * 檢視
    * 管理
 
-     如需許可權層級以及使用者可針對每個層級執行的動作的相關資訊，請參閱 [在Adobe Workfront Planning中共用許可權的概觀](/help/quicksilver/planning/access/sharing-permissions-overview.md).
+     如需許可權層級，以及使用者可針對每個層級執行的動作的相關資訊，請參閱[在Adobe Workfront Planning中共用許可權的總覽](/help/quicksilver/planning/access/sharing-permissions-overview.md)。
 
      系統管理員一律會獲得與其共用檢視的管理許可權。
 
-1. 按一下 **複製連結** 將檢視的連結複製到剪貼簿。
+1. 按一下&#x200B;**複製連結**&#x200B;以將檢視的連結複製到剪貼簿。
 1. 與他人共用複製的連結。 收到連結的使用者必須是作用中使用者，並登入Workfront，才能存取記錄型別頁面並在選取的檢視中顯示該頁面。
 1. 按一下「**儲存**」。
 
    >[!TIP]
    >
-   >   與您共用的檢視有人員指標 ![](assets/view-shared-with-others-people-icon.png) ，位於檢檢視示旁。 不含People指示器的檢視是您建立的檢視。
+   >   與您共用的檢視在檢檢視示旁有人員指標![](assets/view-shared-with-others-people-icon.png)。 不含People指示器的檢視是您建立的檢視。
 
 
 
@@ -189,9 +189,9 @@ To share a view publicly in Workfront Planning:
 {{step1-to-planning}}
 
 1. 開啟您要停止共用其檢視的工作區，然後按一下記錄型別卡片。 這會開啟記錄型別頁面。
-1. 將游標停留在您要移除共用之檢視的標簽名稱上，然後按一下 **更多** 功能表 ![](assets/more-menu.png)，然後按一下 **共用**.
-1. 尋找您要移除的使用者或群組，然後按一下 **移除** 在使用者或群組名稱右側的「許可權」下拉式功能表中。
-1. 按一下 **儲存**.
+1. 將游標停留在您要移除共用之檢視的索引標簽名稱上，然後按一下&#x200B;**更多**&#x200B;功能表![](assets/more-menu.png)，然後按一下&#x200B;**共用**。
+1. 尋找您要移除的使用者或群組，然後在使用者或群組名稱右側的許可權下拉式功能表中按一下&#x200B;**移除**。
+1. 按一下&#x200B;**儲存**。
 屬於已移除群組的使用者或使用者無法再存取該檢視。 對於已從存取檢視中移除的使用者，沒有通知他們已失去此存取權。
 
 <!--Replace the above instructions with the following when public sharing is released: 

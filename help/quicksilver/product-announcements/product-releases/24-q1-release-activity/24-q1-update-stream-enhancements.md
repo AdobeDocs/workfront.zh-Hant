@@ -16,7 +16,7 @@ ht-degree: 0%
 
 本頁說明2024年第一季度版本對預覽環境所做的所有更新流和通知增強功能。 這些增強功能將在2024年第一季度版本的生產環境中提供。
 
-如需2024年第一季發行週期目前可用的所有變更清單，請參閱 [2024年第一季版本總覽](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).
+如需2024年第一季發行週期目前可用的所有變更清單，請參閱[2024年第一季發行概觀](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md)。
 
 ## 在更新區段的註解中拖放影像
 
@@ -26,7 +26,7 @@ ht-degree: 0%
 
 此功能存在於舊版評論串流中，現在已新增至新評論體驗。
 
-如需詳細資訊，請參閱 [更新工作](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+如需詳細資訊，請參閱[更新工作](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md)。
 
 ## 新的評論體驗會擷取專案、任務、問題和檔案的所有資訊
 
@@ -38,9 +38,9 @@ ht-degree: 0%
 
 會篩選與搜尋相關的註解，並反白關鍵字，以便您輕鬆找到它們。
 
-如需詳細資訊，請參閱 [更新工作](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+如需詳細資訊，請參閱[更新工作](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md)。
 
-[觀看此功能的示範影片。](https://video.tv.adobe.com/v/3425730/){target=_blank}
+[觀看此功能的影片示範。](https://video.tv.adobe.com/v/3425730/){target=_blank}
 
 ## 在更新區段的註解中複製並貼上影像
 
@@ -48,6 +48,6 @@ ht-degree: 0%
 
 支援的檔案格式如下： .jpg、.jpeg、.png、.gif。
 
-如需詳細資訊，請參閱 [更新工作](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+如需詳細資訊，請參閱[更新工作](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md)。
 
-[觀看此功能的示範影片。](https://video.tv.adobe.com/v/3425731/){target=_blank}
+[觀看此功能的影片示範。](https://video.tv.adobe.com/v/3425731/){target=_blank}

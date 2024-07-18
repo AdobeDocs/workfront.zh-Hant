@@ -28,8 +28,8 @@ ht-degree: 3%
 
 記錄的右側面板會顯示下列區段：
 
-* **註解**：顯示使用者新增至記錄的評論和回覆。 如需有關管理Workfront Planning記錄中的註解的詳細資訊，請參閱 [管理記錄註解](/help/quicksilver/planning/records/manage-record-comments.md).
-* **歷史記錄**：顯示使用者對記錄欄位進行的系統記錄變更。
+* **註解**：顯示註解及使用者新增至記錄的回覆。 如需有關管理Workfront Planning記錄中的註解的詳細資訊，請參閱[管理記錄註解](/help/quicksilver/planning/records/manage-record-comments.md)。
+* **歷程記錄**：顯示使用者對記錄欄位所做的系統記錄變更。
 
 ## 找出記錄的「歷史記錄」區段
 
@@ -42,12 +42,12 @@ ht-degree: 3%
 1. 按一下記錄型別卡。
 記錄型別頁面隨即開啟，並顯示該型別的所有記錄。
 
-1. 從中選擇表格檢視 **檢視** 下拉式功能表。
+1. 從&#x200B;**檢視**&#x200B;下拉式功能表中選擇表格檢視。
 1. 按一下表格檢視中的記錄名稱。
 
    記錄的頁面隨即開啟。 「註解」區域預設會在右側面板中開啟。
-1. 按一下 **顯示歷史記錄** 圖示 ![](assets/show-history-icon.png). 對記錄欄位所做的所有變更都會顯示在右側面板中，從最近的變更開始。
-1. （可選）按一下 **隱藏歷史記錄** 圖示 ![](assets/hide-history-icon.png) 以關閉右側面板。
+1. 按一下&#x200B;**顯示歷程記錄**&#x200B;圖示![](assets/show-history-icon.png)。 對記錄欄位所做的所有變更都會顯示在右側面板中，從最近的變更開始。
+1. （選擇性）按一下&#x200B;**隱藏歷程記錄**&#x200B;圖示![](assets/hide-history-icon.png)以關閉右側面板。
 
 ## 關於「歷史記錄」段落的考量事項
 
@@ -85,7 +85,7 @@ ht-degree: 3%
 
 * 核取方塊型別的欄位絕不會以刪除線格式顯示舊值。 如果欄位已編輯，則只顯示進行變更時的目前狀態。
 
-  如需Workfront Planning欄位的詳細資訊，請參閱 [建立欄位](/help/quicksilver/planning/fields/create-fields.md).
+  如需Workfront Planning欄位的詳細資訊，請參閱[建立欄位](/help/quicksilver/planning/fields/create-fields.md)。
 
 * 下列型別的欄位變更不會顯示在「歷史記錄」區段中：
 

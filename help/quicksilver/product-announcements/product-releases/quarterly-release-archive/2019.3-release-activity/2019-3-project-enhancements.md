@@ -18,7 +18,7 @@ ht-degree: 0%
 
 本頁說明2019.3版中專案增強功能的所有變更。 它在2019年8月19日當週的生產環境中可用。
 
-如需2019.3年度所有變更的清單，請參閱 [2019.3版本活動概覽](../../../../product-announcements/product-releases/quarterly-release-archive/2019.3-release-activity/2019-3-release-activity-overview.md).
+如需2019.3年所有變更的清單，請參閱[2019.3發行活動總覽](../../../../product-announcements/product-releases/quarterly-release-archive/2019.3-release-activity/2019-3-release-activity-overview.md)。
 
 ## 變更自訂表單中欄位的顯示型別
 
@@ -30,7 +30,7 @@ ht-degree: 0%
 
 之前，若要變更自訂欄位的顯示型別，您必須建立新欄位並刪除舊欄位。 這需要傳輸資料，而這通常很耗時。
 
-如需詳細資訊，請參閱 [建立或編輯自訂表單](../../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#create) 在文章中 [建立或編輯自訂表單](../../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)
+如需詳細資訊，請參閱文章[建立或編輯自訂表單](../../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)中的[建立或編輯自訂表單](../../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#create)
 
 >[!NOTE]
 >
@@ -75,13 +75,13 @@ ht-degree: 0%
 * 任務清單
 * 專案清單
 
-如需有關檢視清單中專案的資訊，請參閱 [開始使用Adobe Workfront中的清單](../../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).
+如需檢視清單專案的詳細資訊，請參閱[開始使用Adobe Workfront中的清單](../../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md)。
 
 ## 編輯甘特圖而不啟用特殊編輯模式
 
 現在當啟用或未啟用自動儲存時，您可以編輯工作清單甘特圖。 切換開啟時，您無法復原變更。 在這種情況下，您對專案進行的變更會自動儲存。
 
-如需有關編輯工作清單甘特圖的資訊，請參閱 [更新工作清單甘特圖中的資訊](../../../../manage-work/gantt-chart/use-the-gantt-chart/update-info-task-list-gantt.md).
+如需有關編輯工作清單甘特圖的資訊，請參閱工作清單甘特圖中的[更新資訊](../../../../manage-work/gantt-chart/use-the-gantt-chart/update-info-task-list-gantt.md)。
 
 ## 從Kanban面板中移除「問題」標籤
 
@@ -95,8 +95,8 @@ ht-degree: 0%
 
 我們將從敏捷疊代詳細資訊頁面中移除檔案和問題標籤：
 
-* **檔案：** 儲存在檔案索引標籤中的所有檔案都必須在生產版本之前移動。 如果您無法移動檔案，您將無法再存取這些檔案。
-* **問題：** 此標籤通常位於更多下拉式選單下方。 您仍然可以從疊代上的「工作專案」標籤存取「問題」子標籤。
+* **檔案：**&#x200B;儲存在[檔案]索引標籤中的所有檔案都必須在生產版本之前移動。 如果您無法移動檔案，您將無法再存取這些檔案。
+* **問題：**&#x200B;此索引標籤通常位於[更多]下拉式功能表下方。 您仍然可以從疊代上的「工作專案」標籤存取「問題」子標籤。
 
 ## 考慮或忽略使用者在任務日期的休假
 
@@ -106,9 +106,9 @@ ht-degree: 0%
 
 在此變更之前，如果「任務限制」允許修改日期，則「主要受指派人」的休假一律會調整任務的計畫日期。
 
-如需有關系統層級使用者休假設定的資訊，請參閱 [設定全系統專案偏好設定](../../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+如需系統層級使用者休假設定的相關資訊，請參閱[設定全系統的專案偏好設定](../../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md)。
 
-如需有關專案層級「使用者休假」設定的資訊，請參閱 [編輯專案](../../../../manage-work/projects/manage-projects/edit-projects.md).
+如需有關專案層級使用者休假設定的資訊，請參閱[編輯專案](../../../../manage-work/projects/manage-projects/edit-projects.md)。
 
 >[!NOTE]
 >
@@ -129,7 +129,7 @@ ht-degree: 0%
 
 以前，無法自訂或變更條件，並且只有使用者可以變更任務或問題的條件（如果指派給它）。
 
-如需詳細資訊，請參閱 [自訂條件](../../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/custom-conditions.md).
+如需詳細資訊，請參閱[自訂條件](../../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/custom-conditions.md)。
 
 >[!NOTE]
 >
@@ -159,7 +159,7 @@ ht-degree: 0%
 
 以前，更新註釋只出現在檔案的「更新」標籤上。
 
-如需詳細資訊，請參閱區段 [更新工作](../../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md#updates) 在文章中 [更新工作](../../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+如需詳細資訊，請參閱文章[更新工作](../../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md)中的[更新工作](../../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md#updates)小節。
 
 >[!NOTE]
 >
@@ -171,9 +171,9 @@ ht-degree: 0%
 
 當您將使用者指派給任務或問題時，如果所選使用者在任務或問題的計畫日期之間已排程任何時間的休假，您現在可以看到內嵌警告。
 
-如需指派工作的相關資訊，請參閱 [指派任務](../../../../manage-work/tasks/assign-tasks/assign-tasks-1.md)
+如需指派工作的相關資訊，請參閱[指派工作](../../../../manage-work/tasks/assign-tasks/assign-tasks-1.md)
 
-如需休假的詳細資訊，請參閱 [設定個人休假](../../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/personal-time-overview.md).
+如需休假的詳細資訊，請參閱[設定個人休假](../../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/personal-time-overview.md)。
 
 >[!NOTE]
 >
@@ -187,7 +187,7 @@ ht-degree: 0%
 
 以前，管理員必須在自訂表單下拉式選單中手動將使用者維持為個別選項。
 
-如需詳細資訊，請參閱 [建立或編輯自訂表單](../../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
+如需詳細資訊，請參閱[建立或編輯自訂表格](../../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)。
 
 >[!NOTE]
 >
@@ -209,5 +209,5 @@ ht-degree: 0%
 
 在此變更之前，您需在「主旨」欄位中輸入請求名稱。
 
-如需建立請求的相關資訊，請參閱 [建立及提交Workfront請求](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md).
+如需建立請求的相關資訊，請參閱[建立並提交Workfront請求](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md)。
 

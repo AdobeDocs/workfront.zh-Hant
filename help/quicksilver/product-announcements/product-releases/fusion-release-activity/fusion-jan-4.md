@@ -21,9 +21,9 @@ ht-degree: 0%
 
 本頁說明2021年1月4日當週在Adobe Workfront Fusion中所做的所有增強功能。
 
-如需所有最近變更的清單，請參閱 [Adobe Workfront Fusion發行活動](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
+如需所有最近變更的清單，請參閱[Adobe Workfront Fusion發行活動](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md)。
 
-如需Workfront Fusion中近期的錯誤修正清單，請參閱 [Workfront維護更新](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) 頁面，並檢查是否有任何標示為Workfront Fusion維護更新的更新。
+如需Workfront Fusion中最近的錯誤修正清單，請參閱[Workfront維護更新](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html)頁面，並檢查任何標示為Workfront Fusion維護更新的更新。
 
 ## Microsoft 365電子郵件聯結器的更新
 
@@ -40,4 +40,4 @@ ht-degree: 0%
 
 我們也已移除重複附件模組。 您可以結合清單附件模組與疊代器模組來疊代附件。
 
-如需詳細資訊，請參閱 [Microsoft Office 365電子郵件](../../../workfront-fusion/apps-and-their-modules/microsoft-365-email-modules.md).
+如需詳細資訊，請參閱[Microsoft Office 365電子郵件](../../../workfront-fusion/apps-and-their-modules/microsoft-365-email-modules.md)。

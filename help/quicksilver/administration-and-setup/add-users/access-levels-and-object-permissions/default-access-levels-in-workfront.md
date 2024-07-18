@@ -23,7 +23,7 @@ ht-degree: 5%
 
 >[!NOTE]
 >
->本文說明Adobe Workfront中目前的內建存取層級。 如需新的內建存取層級的詳細資訊，請參閱 [新存取層級概觀](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md).
+>本文說明Adobe Workfront中目前的內建存取層級。 如需新的內建存取層級的詳細資訊，請參閱[新的存取層級概觀](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md)。
 
 
 目前內建的六個存取層級，每個層級都是針對特定型別的使用者而設計。 這些存取層級可讓您控制哪些使用者可以在系統中編輯和檢視。
@@ -60,13 +60,13 @@ ht-degree: 5%
 >
 >您無法修改系統管理員或外部使用者存取層級。
 
-如需有關建立自訂存取層級或修改其中一個內建存取層級的資訊，請參閱 [建立和修改自訂存取層級](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+如需有關建立自訂存取層級或修改其中一個內建存取層級的資訊，請參閱[建立和修改自訂存取層級](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)。
 
 >[!IMPORTANT]
 >
 >我們強烈建議您維持內建的存取層級不變，以便在設定使用者後參考。
 
-如需這些存取層級的一般資訊，請參閱 [存取層級概觀](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).
+如需這些存取層級的一般資訊，請參閱[存取層級概觀](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md)。
 
 ## 系統管理員存取層級
 
@@ -74,9 +74,9 @@ ht-degree: 5%
 
 具有系統管理員存取層級的使用者可以在Workfront中執行所有操作。 他們可以檢視及編輯所有其他使用者在Workfront中輸入的所有Workfront物件和資訊。
 
-使用者也可完整存取「設定」區域，在此變更系統層級的任何設定。 而且他們可以存取主功能表中的所有區域 ![](assets/main-menu-icon.png) 或主要功能表 ![](assets/lines-main-menu.png)，如果有的話。
+使用者也可完整存取「設定」區域，在此變更系統層級的任何設定。 而且他們可以存取主功能表![](assets/main-menu-icon.png)或主功能表![](assets/lines-main-menu.png)中的所有區域（如果可用）。
 
-如需詳細資訊，請參閱 [授予使用者完整管理存取權](../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md).
+如需詳細資訊，請參閱[授予使用者完整管理存取權](../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md)。
 
 ## 規劃工具存取層級
 
@@ -86,9 +86,9 @@ ht-degree: 5%
 * 任何負責計畫、建立和管理任務、專案、投資組合和計畫的人
 * 負責將工作（任務和問題）指派給其他使用者的任何人
 * 建立報告及核準時程表、工作專案和檔案的使用者
-* 需要存取主功能表中所有區域的使用者 ![](assets/main-menu-icon.png) 或主要功能表 ![](assets/lines-main-menu.png)，若有
+* 需要存取主功能表![](assets/main-menu-icon.png)或主功能表![](assets/lines-main-menu.png)中所有區域的使用者（如果可用）
 
-您可以建立Planner內建存取層級的自訂版本，並決定其允許各種Workfront物件型別的存取量。 如需詳細資訊，請參閱 [建立和修改自訂存取層級](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+您可以建立Planner內建存取層級的自訂版本，並決定其允許各種Workfront物件型別的存取量。 如需詳細資訊，請參閱[建立和修改自訂存取層級](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)。
 
 以下是「供需規劃員」存取層級中物件可用的最高存取設定：
 
@@ -122,10 +122,10 @@ ht-degree: 5%
 * 可以核准工作和檔案，但不能核準時程表
 * 可存取和共用報告
 * 可以與系統中的其他使用者通訊
-* 無法存取主功能表中的所有區域 ![](assets/main-menu-icon.png) 或主要功能表 ![](assets/lines-main-menu.png)，如果有，則其「使用者」區域將命名為團隊。 在「專案團隊」區域中，具有此存取層級的使用者只能檢視他們所屬的專案團隊，以及指派給這些專案團隊的工作。
+* 無法存取主功能表![](assets/main-menu-icon.png)或主功能表![](assets/lines-main-menu.png)中的所有區域（如果可用），且其「使用者」區域名為「團隊」。 在「專案團隊」區域中，具有此存取層級的使用者只能檢視他們所屬的專案團隊，以及指派給這些專案團隊的工作。
 * 建立物件的能力有限 — 他們無法建立專案、投資組合、計畫或報告。
 
-您可以建立Worker內建存取層級的自訂版本，並決定其允許各種Workfront物件型別的存取量。 如需詳細資訊，請參閱 [建立和修改自訂存取層級](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+您可以建立Worker內建存取層級的自訂版本，並決定其允許各種Workfront物件型別的存取量。 如需詳細資訊，請參閱[建立和修改自訂存取層級](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)。
 
 以下是「背景工作」存取層級中物件的最高存取設定：
 
@@ -142,7 +142,7 @@ ht-degree: 5%
 | 使用者 |   |   | ✓ (A) |
 | 團隊 |   |   | ✓有限存取 |
 | 範本 | ✓ (A) |   |   |
-| 財務資料 |   | ✓ (預設設定為「無存取權」。 檢視設定可讓使用者僅檢視專案詳細資訊中的財務區域。) |   |
+| 財務資料 |   | ✓ (預設設定為「無存取權」。 「檢視」設定可讓使用者僅檢視財務區域   （位於專案詳細資料中）。 |   |
 | 資源管理 |   | ✓ (A) |   |
 | 情境規劃工具 |   |   | ✓ （預設設定為「無存取權」。） |
 | Workfront Goals |   |   | ✓ （預設設定為「無存取權」。） |
@@ -158,10 +158,10 @@ ht-degree: 5%
 具有檢閱者存取層級的使用者：
 
 * 無法指派工作專案或核準時程表
-* 可以存取主功能表中的「請求與檔案」區域 ![](assets/main-menu-icon.png) 或主要功能表 ![](assets/lines-main-menu.png)，若有
+* 如果可用，可以存取主功能表![](assets/main-menu-icon.png)或主功能表![](assets/lines-main-menu.png)中的請求和檔案區域
 * 建立物件的能力有限 — 他們無法建立專案、投資組合、計畫或報告。
 
-您可以建立Reviewer內建存取層級的自訂版本，並決定其允許各種Workfront物件型別的存取量。 如需詳細資訊，請參閱 [建立和修改自訂存取層級](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+您可以建立Reviewer內建存取層級的自訂版本，並決定其允許各種Workfront物件型別的存取量。 如需詳細資訊，請參閱[建立和修改自訂存取層級](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)。
 
 專案與任務的限制比「背景工作」存取層級更有限，以下是「稽核者」存取層級中物件可用的最高存取設定：
 
@@ -249,7 +249,7 @@ ht-degree: 5%
   <tr> 
    <td>財務資料</td> 
    <td> </td> 
-   <td> <p>✓ (預設設定為「無存取權」。 檢視設定可讓使用者僅檢視專案詳細資訊中的財務區域。)</p> </td> 
+   <td> <p>✓ (預設設定為「無存取權」。 「檢視」設定可讓使用者僅檢視財務區域   （位於專案詳細資料中）。</p> </td> 
    <td> </td> 
   </tr> 
   <tr> 
@@ -285,9 +285,9 @@ ht-degree: 5%
 * 可以上傳和核准檔案
 * 可以檢閱他們已提交問題的狀態
 * 無法指派給工作專案
-* 只能從主功能表的請求區域存取請求 ![](assets/main-menu-icon.png) 或主要功能表 ![](assets/lines-main-menu.png)，如果有的話。 如需請求佇列的詳細資訊，請參閱 [建立請求佇列](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
+* 如果可用，只能從主功能表![](assets/main-menu-icon.png)或主功能表![](assets/lines-main-menu.png)中的要求區域存取要求。 如需請求佇列的詳細資訊，請參閱[建立請求佇列](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md)。
 
-您可以建立請求者內建存取層級的自訂版本，並決定其允許各種Workfront物件型別的存取量。 如需詳細資訊，請參閱 [建立和修改自訂存取層級](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+您可以建立請求者內建存取層級的自訂版本，並決定其允許各種Workfront物件型別的存取量。 如需詳細資訊，請參閱[建立和修改自訂存取層級](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)。
 
 以下是「請求者」存取層級中物件可用的最高存取設定：
 
@@ -327,7 +327,7 @@ ht-degree: 5%
 
 >[!IMPORTANT]
 >
->只有在「設定」的「系統偏好設定」區域中啟用「透過電子郵件地址與沒有Workfront帳戶的人合作」選項時，外部使用者才可用。 如需詳細資訊，請參閱 [設定系統安全性偏好設定](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md).
+>只有在「設定」的「系統偏好設定」區域中啟用「透過電子郵件地址與沒有Workfront帳戶的人合作」選項時，外部使用者才可用。 如需詳細資訊，請參閱[設定系統安全性偏好設定](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md)。
 
 雖然這些設定不會顯示在外部使用者存取層級的存取層級區域中，但具有此存取許可權的使用者對Workfront物件型別具有下列最高存取許可權：
 

@@ -22,16 +22,16 @@ ht-degree: 0%
 >
 > 本頁所述的功能在生產環境使用之前可能會有所變更。
 
-如需2018.2年度所有變更的清單，請參閱  [2018.2版本活動概覽](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-release-activity-overview.md).
+如需2018.2年度所有變更的清單，請參閱  [2018.2發行活動總覽](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-release-activity-overview.md)。
 
 下列新功能將在18.2生產版本時發行：
 
-* [指定用於回覆Workfront電子郵件通知的郵件傳遞服務](#specify-mail-delivery-services-for-replying-to-workfront-email-notifications)
+* [指定郵件傳遞服務以回覆Workfront電子郵件通知](#specify-mail-delivery-services-for-replying-to-workfront-email-notifications)
 * [接收有關檔案評論的電子郵件通知](#receive-email-notifications-for-comments-on-documents)
 * [系統追蹤更新不再包含圖示](#system-tracked-updates-no-longer-contain-an-icon)
-* [將註解轉換為任務的選項已移除](#option-to-convert-a-comment-to-a-task-was-removed)
-* [適用於Salesforce的Workfront](#workfront-for-salesforce)
-* [Workfront的Slack改良功能](#workfront-for-slack-improvements)
+* 將註解轉換為任務的[選項已移除](#option-to-convert-a-comment-to-a-task-was-removed)
+* Salesforce的[Workfront](#workfront-for-salesforce)
+* [Workfront的Slack改善專案](#workfront-for-slack-improvements)
 * [行動裝置改良](#mobile-improvements)
 
 ## 指定用於回覆Workfront電子郵件通知的郵件傳遞服務 {#specify-mail-delivery-services-for-replying-to-workfront-email-notifications}
@@ -50,7 +50,7 @@ ht-degree: 0%
 
 在此變更之前，當有人對您擁有的檔案發表評論時，您未收到任何通知。 
 
-如需詳細資訊，請參閱 [修改您自己的電子郵件通知](../../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+如需詳細資訊，請參閱[修改您自己的電子郵件通知](../../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md)。
 
 >[!NOTE]
 >
@@ -62,7 +62,7 @@ ht-degree: 0%
 
 在此變更之前，任何系統更新也包含代表所做更新的圖示。
 
-如需有關系統更新的詳細資訊，請參閱 [系統追蹤更新](../../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md).
+如需系統更新的詳細資訊，請參閱[系統追蹤的更新](../../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md)。
 
 ## 將註解轉換為任務的選項已移除 {#option-to-convert-a-comment-to-a-task-was-removed}
 
@@ -79,7 +79,7 @@ ht-degree: 0%
 
 這項整合將可供擁有Workfront Pro版本或更高版本的所有客戶使用，而且將是免費的。
 
-如需適用於Salesforce的Workfront的詳細資訊，請參閱  [適用於Salesforce的Adobe Workfront](../../../../workfront-integrations-and-apps/using-workfront-with-salesforce/workfront-for-salesforce.md).
+如需適用於Salesforce的Workfront的詳細資訊，請參閱  Salesforce的[Adobe Workfront](../../../../workfront-integrations-and-apps/using-workfront-with-salesforce/workfront-for-salesforce.md)。
 
 ## Workfront的Slack改良功能 {#workfront-for-slack-improvements}
 
@@ -93,7 +93,7 @@ ht-degree: 0%
 
 在此改善之前，您無法在Slack中收到Workfront通知。
 
-如需Slack中Workfront通知的詳細資訊，請參閱 [在Slack中接收Adobe Workfront通知](../../../../workfront-integrations-and-apps/using-workfront-with-slack/receive-workfront-notifications-in-slack.md).
+如需Slack中Workfront通知的詳細資訊，請參閱[在Slack中接收Adobe Workfront通知](../../../../workfront-integrations-and-apps/using-workfront-with-slack/receive-workfront-notifications-in-slack.md)。
 
 ## 行動裝置改良 {#mobile-improvements}
 
@@ -113,10 +113,10 @@ ht-degree: 0%
 
   此功能僅適用於iOS行動應用程式。
 
-下列功能已發佈至Workfront行動應用程式的Android Beta版，同時也發佈至公用Android和iOS行動應用程式。 iOS平台的體驗包含下列與已發行Android體驗的差異：
+下列功能已發佈至Android Beta版的Workfront行動應用程式，也將發佈至公用Android和iOS行動應用程式。 iOS平台的體驗包含下列與已發行Android體驗的差異：
 
 * 適用於iOS的全新底部導覽列 
 
 * 新的iOS教學課程體驗 
 
-如需這些功能的詳細資訊，以及觀看示範這些功能的影片，請參閱 [2018.2 Beta 4發行活動](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-4-release-activity.md) 和 [2018.2 Beta 5發行活動](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-5-release-activity.md).
+如需這些功能的詳細資訊，以及觀看示範這些功能的影片，請參閱[2018.2 Beta 4發行活動](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-4-release-activity.md)和[2018.2 Beta 5發行活動](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-5-release-activity.md)。

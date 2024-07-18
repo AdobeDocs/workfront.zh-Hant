@@ -20,7 +20,7 @@ ht-degree: 0%
 
 本文包含有關Adobe Workfront Planning最常見問題的清單。
 
-如需Workfront Planning的詳細資訊，請參閱 [Adobe Workfront規劃概觀](/help/quicksilver/planning/general/planning-overview.md).
+如需Workfront Planning的詳細資訊，請參閱[Adobe Workfront Planning概觀](/help/quicksilver/planning/general/planning-overview.md)。
 
 ## 什麼是Workfront規劃？
 
@@ -30,15 +30,15 @@ Workfront Planning先前稱為Project Maestro，這項新功能可讓團隊集�
 
 Workfront規劃模組是三個相異但連結的Workfront功能之一，這些功能共同建立行銷記錄系統。 這三項功能包括：
 
-* **規劃**：Workfront Planning包含的新進階功能。
+* **規劃**： Workfront規劃中包含的新進階功能。
 
 * **工作流程**：您目前在Workfront中使用的合作工作管理功能（專案管理、資源管理等）
 
-* **自動化與整合**：由Workfront Fusion支援的全面整合和自動化功能。
+* **自動化與整合**：由Workfront Fusion支援的全面整合與自動化功能。
 
 ## Workfront Planning何時發行？
 
-正式發行的最新Workfront Planning版本計畫於2024年8月28日發行。 如需目前發行之功能的最新資訊，請參閱 [Adobe Workfront Planning目前發行活動](/help/quicksilver/planning/general/release-activity.md).
+正式發行的最新Workfront Planning版本計畫於2024年8月28日發行。 如需目前發行之功能的最新資訊，請參閱[Adobe Workfront Planning目前發行活動](/help/quicksilver/planning/general/release-activity.md)。
 
 ## Workfront規劃早期階段結束後，會發生什麼事？
 
@@ -50,7 +50,7 @@ Workfront規劃模組是三個相異但連結的Workfront功能之一，這些�
 
 ## 我們必須移轉至IMS嗎？
 
-是。想要購買Workfront Planning的客戶必須移轉至Adobe統一體驗/Adobe業務平台。 如需詳細資訊，請參閱 [Workfront的AdobeUnified Experience](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
+是。想要購買Workfront Planning的客戶必須移轉至Adobe統一體驗/Adobe業務平台。 如需詳細資訊，請參閱[Workfront的Adobe統一體驗](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md)。
 
 ## 您可以提供不同工作區的範例嗎？
 
@@ -68,7 +68,7 @@ Workfront規劃模組是三個相異但連結的Workfront功能之一，這些�
 
 ## 一個組織中允許的工作區數量是否有任何軟性或硬性限制？
 
-您組織的Workfront執行個體中最多可以有1,000個工作區。 如需有關限制的詳細資訊，請參閱 [Adobe Workfront規劃概觀](/help/quicksilver/planning/general/planning-overview.md).
+您組織的Workfront執行個體中最多可以有1,000個工作區。 如需有關限制的詳細資訊，請參閱[Adobe Workfront規劃總覽](/help/quicksilver/planning/general/planning-overview.md)。
 
 ## Workfront系統中的目前物件是否可以在Planning中使用，還是必須手動建置？
 
@@ -125,7 +125,7 @@ Workfront Planning使用者為Workfront使用者。
 
 ## 您有記錄的ERD可供共用給Planning模型和記錄型別嗎？
 
-我們目前並未制定ERD，但已有深入的檔案協助您瞭解Workfront Planning的相關詳細資訊。 如需詳細資訊，請參閱 [Adobe Workfront規劃：文章索引](/help/quicksilver/planning/planning-information.md).
+我們目前並未制定ERD，但已有深入的檔案協助您瞭解Workfront Planning的相關詳細資訊。 如需詳細資訊，請參閱[Adobe Workfront規劃：文章索引](/help/quicksilver/planning/planning-information.md)。
 
 ## Workfront Planning的定價結構如何：是單次年費嗎？ 還是每個使用者都要付費？
 
@@ -145,7 +145,7 @@ AI Assistant目前提供測試版，當您向帳戶管理員提出特殊請求�
 
 ## 我們也能使用API提取Planning資料嗎？
 
-是。我們已有可用的Planning API以及Fusion聯結器。 如需詳細資訊，請參閱 [Adobe Workfront規劃模組](/help/quicksilver/workfront-fusion/apps-and-their-modules/workfront-planning-modules.md). Workfront Planning API的檔案即將推出。
+是。我們已有可用的Planning API以及Fusion聯結器。 如需詳細資訊，請參閱[Adobe Workfront規劃模組](/help/quicksilver/workfront-fusion/apps-and-their-modules/workfront-planning-modules.md)。 Workfront Planning API的檔案即將推出。
 
 <!--From a Marketing Workspace - is it best to have one master Workspace to use for a Global Marketing team OR is it best to have individual Workspaces for each Business Line, Country, Brand, etc. i saw that we're able to have up to 1000 Workspaces and potentially connect Workspaces. is it possible to link records btwn workspaces? Use case would be - allow each product their own workspace, but with shared record types. And then would want to see a shared view that combines everything. -->
 
@@ -175,7 +175,7 @@ Public views that are shared are visible  -->
 
 ## 如何在內部共用檢視？
 
-如需關於共用檢視的資訊，請參閱 [共用檢視](/help/quicksilver/planning/access/share-views.md).
+如需關於共用檢視的資訊，請參閱[共用檢視](/help/quicksilver/planning/access/share-views.md)。
 
 ## 每次建立工作區時，您都必須重新共用檢視嗎？
 
@@ -187,7 +187,7 @@ Public views that are shared are visible  -->
 
 ## 您是否能自訂超出基本範圍的許可權？ 目前您可以使用其他Workfront物件來自訂Contribute/管理/檢視許可權的功能。
 
-目前不可以。 如需每個許可權允許之專案的詳細資訊，請參閱 [在Adobe Workfront Planning中共用許可權的概觀](/help/quicksilver/planning/access/sharing-permissions-overview.md).
+目前不可以。 如需每個許可權允許的專案相關資訊，請參閱[在Adobe Workfront Planning中共用許可權的總覽](/help/quicksilver/planning/access/sharing-permissions-overview.md)。
 
 目前我們只有工作區與檢視層級的許可權，但沒有記錄型別或個別記錄層級的許可權。 記錄型別和記錄會繼承其所屬工作區的許可權。
 
@@ -197,4 +197,4 @@ Public views that are shared are visible  -->
 
 ## 是否有可自訂的API來使用我們自己的DAM而非Adobe的DAM？
 
-我們已有可用的Planning API以及Fusion聯結器。 如需詳細資訊，請參閱 [Adobe Workfront規劃模組](/help/quicksilver/workfront-fusion/apps-and-their-modules/workfront-planning-modules.md). Workfront Planning API的檔案即將推出。 您可以使用API來建置自訂整合。
+我們已有可用的Planning API以及Fusion聯結器。 如需詳細資訊，請參閱[Adobe Workfront規劃模組](/help/quicksilver/workfront-fusion/apps-and-their-modules/workfront-planning-modules.md)。 Workfront Planning API的檔案即將推出。 您可以使用API來建置自訂整合。

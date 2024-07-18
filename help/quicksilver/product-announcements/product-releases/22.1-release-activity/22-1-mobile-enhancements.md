@@ -25,7 +25,7 @@ in January 2022
 
 2022年1月17日當週。
 
-如需22.1版所有可用變更的清單，請參閱 [22.1版本總覽](../../../product-announcements/product-releases/22.1-release-activity/22-1-release-overview.md).
+如需22.1版本可用的所有變更清單，請參閱[22.1版本總覽](../../../product-announcements/product-releases/22.1-release-activity/22-1-release-overview.md)。
 
 ## 行動應用程式中校訂功能的增強功能
 

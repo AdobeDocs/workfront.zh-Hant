@@ -22,19 +22,19 @@ ht-degree: 0%
 >
 > 本頁所述的功能在生產環境使用之前可能會有所變更。
 
-如需2018.3年所有變更的清單，請參閱  [2018.3版本活動概覽](../../../../product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-release-activity-overview.md).
+如需2018.3年所有變更的清單，請參閱  [2018.3發行活動總覽](../../../../product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-release-activity-overview.md)。
 
 2018.3 Beta 3版本包含適用於Workfront管理員和其他使用者的增強功能：
 
-**適用於管理員**
+管理員的&#x200B;****
 
 * [以群組管理員身分更新使用者設定檔中的角色](#update-roles-in-the-user-profile-as-a-group-administrator)
 
-**適用於所有使用者**
+**所有使用者**
 
 * [主區域現在為預設值](#home-area-is-now-the-default)
-* [排定您在首頁工作的優先順序](#prioritize-your-work-in-home)
-* [資源規劃工具使用者檢視的唯一URL](#unique-url-for-the-resource-planner-user-view)
+* [優先處理您的首頁工作](#prioritize-your-work-in-home)
+* 資源規劃工具使用者檢視的[唯一URL](#unique-url-for-the-resource-planner-user-view)
 * [在Workfront行動應用程式中上傳設定檔圖片](#upload-profile-picture-in-the-workfront-mobile-app) 
 * [Workfront行動應用程式中的自訂表單改良](#custom-form-improvement-in-the-workfront-mobile-app)
 * [以橫向在Workfront行動應用程式中記錄時間](#log-time-in-the-workfront-mobile-app-in-landscape-orientation)
@@ -50,7 +50,7 @@ ht-degree: 0%
 
 以前，您只能優先處理「我的工作」區域中的任務和問題。
 
-如需詳細資訊，請參閱 [排定首頁區域工作的優先順序](../../../../workfront-basics/using-home/using-the-home-area/prioritize-work-in-home.md).
+如需詳細資訊，請參閱[在首頁區域排定工作優先順序](../../../../workfront-basics/using-home/using-the-home-area/prioritize-work-in-home.md)。
 
 ## 以群組管理員身分更新使用者設定檔中的角色 {#update-roles-in-the-user-profile-as-a-group-administrator}
 
@@ -61,7 +61,7 @@ ht-degree: 0%
 
 以前，只有系統和使用者管理員可以更新這些欄位。 
 
-如需詳細資訊，請參閱 [群組管理員](../../../../administration-and-setup/manage-groups/group-roles/group-administrators.md).
+如需詳細資訊，請參閱[群組管理員](../../../../administration-and-setup/manage-groups/group-roles/group-administrators.md)。
 
 ## 資源規劃工具使用者檢視的唯一URL {#unique-url-for-the-resource-planner-user-view}
 
@@ -69,7 +69,7 @@ ht-degree: 0%
 
 之前，此功能無法使用。
 
-如需詳細資訊，請參閱下列「使用者檢視的唯一URL」一節： [資源規劃工具導覽概觀](../../../../resource-mgmt/resource-planning/resource-planner-navigation.md).
+如需詳細資訊，請參閱[資源規劃工具導覽概觀](../../../../resource-mgmt/resource-planning/resource-planner-navigation.md)中的「使用者檢視的唯一URL」一節。
 
 ## 在Workfront行動應用程式中上傳設定檔圖片  {#upload-profile-picture-in-the-workfront-mobile-app}
 
@@ -83,7 +83,7 @@ ht-degree: 0%
 
 ## Workfront行動應用程式中的自訂表單改良 {#custom-form-improvement-in-the-workfront-mobile-app}
 
-在Android適用的Workfront測試版應用程式中，自訂表單現在會出現在物件的主要標籤中。
+在Android的Workfront測試版應用程式中，自訂表單現在會出現在物件的主要標籤中。
 
 以前，自訂表單出現在單獨的標籤上。
 
@@ -93,7 +93,7 @@ ht-degree: 0%
 
 ## 以橫向在Workfront行動應用程式中記錄時間 {#log-time-in-the-workfront-mobile-app-in-landscape-orientation}
 
-您現在可以在Android適用的Workfront Beta版應用程式中，以橫向方式記錄時間。
+您現在可以在Android的Workfront Beta版應用程式中，以橫向方式記錄時間。
 
 之前，您只能以縱向方向記錄時間。
 
@@ -103,7 +103,7 @@ ht-degree: 0%
 
 ## 重新排列Workfront行動應用程式底部導覽列中的圖示 {#rearrange-the-icons-in-the-bottom-navigation-bar-in-the-workfront-mobile-app}
 
-使用Android適用的Workfront測試版應用程式時，您現在可以自訂底部導覽列中區域的顯示順序。
+現在當您使用Android的Workfront測試版應用程式時，可以自訂底部導覽列中區域的顯示順序。
 
 之前，此功能僅適用於iOS平台。
 

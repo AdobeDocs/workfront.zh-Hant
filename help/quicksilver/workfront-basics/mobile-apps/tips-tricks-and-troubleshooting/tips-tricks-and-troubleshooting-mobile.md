@@ -2,8 +2,8 @@
 content-type: tips-tricks-troubleshooting;reference
 product-previous: mobile
 navigation-topic: mobile-apps
-title: 秘訣、技巧和疑難排解 [!DNL Adobe Workfront] 行動應用程式
-description: 秘訣、技巧和疑難排解 [!DNL Adobe Workfront] 行動應用程式
+title: ' [!DNL Adobe Workfront] 行動應用程式的秘訣、技巧和疑難排解'
+description: ' [!DNL Adobe Workfront] 行動應用程式的秘訣、技巧和疑難排解'
 author: Lisa
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
@@ -15,8 +15,8 @@ ht-degree: 0%
 
 ---
 
-# 秘訣、技巧和疑難排解 [!DNL Adobe Workfront] 行動應用程式
+# [!DNL Adobe Workfront]行動應用程式的秘訣、技巧和疑難排解
 
 本節包含下列文章：
 
-* [上的錯誤訊息 [!DNL Adobe Workfront] 行動應用程式： &quot;[!UICONTROL 您的帳戶未啟用API。]&quot;](../../../workfront-basics/mobile-apps/tips-tricks-and-troubleshooting/error-message-on-mobile-app.md)
+* [ [!DNL Adobe Workfront] 行動應用程式上的錯誤訊息： &quot;[!UICONTROL 您的帳戶未啟用API。]&quot;](../../../workfront-basics/mobile-apps/tips-tricks-and-troubleshooting/error-message-on-mobile-app.md)

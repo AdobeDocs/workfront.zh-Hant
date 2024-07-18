@@ -18,7 +18,7 @@ ht-degree: 0%
 
 本頁說明了20.3版本對生產環境所做的所有校訂增強功能。 這些增強功能已在2020年8月10日當週的生產環境中推出。
 
-如需20.3版所有可用變更的清單，請參閱 [20.3版本總覽](../../../product-announcements/product-releases/20.3-release-activity/20-3-release-overview.md).
+如需20.3版本可用的所有變更清單，請參閱[20.3版本總覽](../../../product-announcements/product-releases/20.3-release-activity/20-3-release-overview.md)。
 
 ## 改善「更新」標籤和「校訂」評論之間的可見性
 
@@ -31,7 +31,7 @@ ht-degree: 0%
 * 當校訂評論顯示在更新索引標籤中時，會出現一個新的在校訂中回覆按鈕，允許您進入校訂檢視器以進行回覆。
 * 當校訂評論在校訂檢視器內被某個動作標籤時，該動作會顯示在「更新」標籤中。
 
-如需詳細資訊，請參閱 [將更新新增至檔案](../../../documents/managing-documents/add-update-documents.md).
+如需詳細資訊，請參閱[新增更新至檔案](../../../documents/managing-documents/add-update-documents.md)。
 
 ## 更新檔案詳細資訊中的校訂自訂欄位
 
@@ -39,11 +39,11 @@ ht-degree: 0%
 >
 >此功能僅在新的Adobe Workfront體驗中可用
 
-若要簡化校訂程式，您現在可以在Workfront的檔案詳細資訊頁面上，檢視和編輯Workfront校訂中設定的自訂欄位（如果您包含在校訂工作流程中）。
+若要簡化校訂程式，您現在可以在Workfront Proof的檔案詳細資訊頁面上，檢視和編輯在Workfront中設定的自訂欄位（如果您包含在校訂工作流程中）。
 
 之前，您只能在校訂檢視器中檢視自訂欄位。
 
-如需詳細資訊，請參閱 [檔案詳細資訊總覽](../../../documents/managing-documents/document-details-overview.md).
+如需詳細資訊，請參閱[檔案詳細資料總覽](../../../documents/managing-documents/document-details-overview.md)。
 
 ## 「檔案」工具列的新外觀
 
@@ -61,5 +61,5 @@ ht-degree: 0%
 
 之前，您必須產生校訂，然後前往校訂工作流程區域以設定工作流程。
 
-如需詳細資訊，請參閱 [為檔案建立校訂](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/generate-proof-for-a-document.md).
+如需詳細資訊，請參閱[建立檔案的校訂](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/generate-proof-for-a-document.md)。
 

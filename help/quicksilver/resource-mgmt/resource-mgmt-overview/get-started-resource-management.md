@@ -34,13 +34,13 @@ Workfront有幾組用於管理資源的工具。 每個工具都有個別的範�
 
 * 若要在專案的實際工作開始之前，計畫如何在較高層次配置資源，請使用下列工具：
 
-   * **資源規劃工具**：您可以在資源管理的第一個階段中使用資源規劃工具，根據資源的已排程可用性來預算資源的專案時間。 在資源規劃階段中，您可以組織資源集區中的使用者，並將多個資源集區指定給專案。
+   * **資源規劃工具**：您可以在資源管理的第一個階段中使用資源規劃工具，根據資源的排程可用性來預算資源的專案時間。 在資源規劃階段中，您可以組織資源集區中的使用者，並將多個資源集區指定給專案。
 
-     如需有關「資源規劃」的詳細資訊，請參閱 [資源規劃：文章索引](../../resource-mgmt/resource-planning/resource-planning-overview.md).
+     如需有關資源規劃的詳細資訊，請參閱[資源規劃：文章索引](../../resource-mgmt/resource-planning/resource-planning-overview.md)。
 
-   * **情境規劃工具**：這是資源的較高層級計畫，可讓您跨多個方案管理資源，這些方案可跨越一、三或五年計畫，並包含多個專案。 您可以善用最佳情境，以充分利用其可用性和預算。
+   * **情境規劃工具**：這是資源的較高層級計畫，可讓您跨多個計畫管理這些資源，這些計畫可跨越一、三或五年計畫並包含多個專案。 您可以善用最佳情境，以充分利用其可用性和預算。
 
-     除了Workfront授權外，Scenario Planner還需要單獨的授權。 如需Workfront Scenario Planner的相關資訊，請參閱 [情境規劃工具概觀](../../scenario-planner/scenario-planner-overview.md).
+     除了Workfront授權外，Scenario Planner還需要單獨的授權。 如需Workfront Scenario Planner的相關資訊，請參閱[Scenario Planner概觀](../../scenario-planner/scenario-planner-overview.md)。
 
      <!--   
      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: when more functionality is added, maybe we add that we recommend to start here if this is available for them?!) </p>   
@@ -48,9 +48,9 @@ Workfront有幾組用於管理資源的工具。 每個工具都有個別的範�
 
 * 若要排程或指派資源給實際工作（任務和問題），請使用下列工具：
 
-   * **工作負載平衡器**：這屬於資源管理的較低層級階段，您可以在此處根據完成資源所需的時數及其可用性，將資源指派給必須完成的實際工作（任務和問題）。 您可以使用工作負載平衡器將使用者指派給目前未指派或指派給工作角色的實際工作。
+   * **工作負載平衡器**：這屬於資源管理的較低層級階段，您可以根據完成資源所需的時數及其可用性，將資源指派給必須完成的實際工作（任務和問題）。 您可以使用工作負載平衡器將使用者指派給目前未指派或指派給工作角色的實際工作。
 
-     如需Workfront平衡器的相關資訊，請參閱 [工作負載平衡器：文章索引](../../resource-mgmt/workload-balancer/workload-balancer.md).
+     如需Workfront平衡器的相關資訊，請參閱[工作負載平衡器：文章索引](../../resource-mgmt/workload-balancer/workload-balancer.md)。
 
 <!--
 
@@ -72,9 +72,9 @@ Workfront有幾組用於管理資源的工具。 每個工具都有個別的範�
 -->
 * 若要分析多個專案的預算、計畫和實際配置，請使用以下工具：
 
-   * **使用率報告**：此報表可檢視專案的資源使用率。 您可以比較專案的預算、計畫和實際分配，以及其對專案成本和收入的影響。
+   * **使用率報告**：使用此報告來檢視專案的資源使用率。 您可以比較專案的預算、計畫和實際分配，以及其對專案成本和收入的影響。
 
-     如需「使用率報表」的相關資訊，請參閱 [檢視資源使用率資訊](../../resource-mgmt/resource-utilization/view-utilization-information.md).
+     如需使用率報告的詳細資訊，請參閱[檢視資源使用率資訊](../../resource-mgmt/resource-utilization/view-utilization-information.md)。
 
 ## 資源管理程式的元件
 
@@ -84,17 +84,17 @@ Workfront有幾組用於管理資源的工具。 每個工具都有個別的範�
 
 在Workfront中管理資源的程式包括下列階段：
 
-* **設定**：作為系統管理員、資源管理員或專案所有者，您必須在管理資源之前設定Workfront執行個體中的特定欄位和物件。 如需在Workfront中開始管理資源所需先決條件的詳細資訊，請參閱 [精確資源管理的先決條件](#prerequisites-for-accurate-resource-management) 一節。\
+* **設定**：作為系統管理員、資源管理員或專案所有者，您必須在管理資源之前，設定Workfront執行個體中的特定欄位和物件。 如需開始在Workfront中管理資源所需之先決條件的詳細資訊，請參閱本文中的[精確資源管理的先決條件](#prerequisites-for-accurate-resource-management)一節。\
   除了讓專案包含工作專案之外，您還必須在Workfront中設定下列專案：
 
    * 使用者\
-     如需建立使用者的詳細資訊，請參閱文章 [新增使用者](../../administration-and-setup/add-users/create-and-manage-users/add-users.md).
+     如需建立使用者的詳細資訊，請參閱文章[新增使用者](../../administration-and-setup/add-users/create-and-manage-users/add-users.md)。
 
    * 職務角色\
-     如需有關建立工作角色的詳細資訊，請參閱文章 [建立和管理職位角色](../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).
+     如需有關建立工作角色的詳細資訊，請參閱文章[建立及管理工作角色](../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md)。
 
    * 排程\
-     如需建立排程的詳細資訊，請參閱文章 [建立排程](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
+     如需有關建立排程的詳細資訊，請參閱文章[建立排程](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md)。
 
    * 專案偏好設定
 
@@ -102,19 +102,19 @@ Workfront有幾組用於管理資源的工具。 每個工具都有個別的範�
      >
      >只有系統或群組管理員才能修改您系統或您的群組的「專案偏好設定」。
 
-     如需有關定義專案偏好設定的詳細資訊，請參閱文章 [設定全系統專案偏好設定](../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+     如需有關定義專案偏好設定的詳細資訊，請參閱文章[設定全系統的專案偏好設定](../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md)。
 
    * 資源集區
 
-     如需有關建立資源集區的詳細資訊，請參閱 [建立資源集區](../../resource-mgmt/resource-planning/resource-pools/create-resource-pools.md).
+     如需有關建立資源集區的詳細資訊，請參閱[建立資源集區](../../resource-mgmt/resource-planning/resource-pools/create-resource-pools.md)。
 
    * 資源管理喜好設定
 
      作為系統，您必須決定Workfront如何計算系統層級的使用者可用性，不論是使用使用者的排程還是您系統的「預設排程」。
 
-     如需詳細資訊，請參閱 [設定資源管理喜好設定](../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md).
+     如需詳細資訊，請參閱[設定資源管理喜好設定](../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md)。
 
-* **資源配置**：身為資源管理員或專案所有者，您可以為專案定義資源配置並指派工作。 對於此步驟，您可以使用資源規劃工具或案例規劃工具管理資源的估計配置，並在工作負載平衡器中將實際工作指派給使用者。
+* **資源配置**：身為資源管理員或專案所有者，您可以定義專案的資源配置並指派工作。 對於此步驟，您可以使用資源規劃工具或案例規劃工具管理資源的估計配置，並在工作負載平衡器中將實際工作指派給使用者。
 
   如需資源規劃與指派工作的詳細資訊，請參閱下列章節：
 
@@ -128,7 +128,7 @@ Workfront有幾組用於管理資源的工具。 每個工具都有個別的範�
   For more information, see [Workload Balancer overview](../workload-balancer/overview-workload-balancer.md). 
 -->
 
-* **分析**：身為資源管理員、專案所有者或人員管理員，請檢閱使用率報表，以瞭解資源的預算及計畫配置與實際配置的比較情形。 依時數、成本或收入複查資訊。 如需「使用率」報表的相關資訊，請參閱 [檢視資源使用率資訊](../../resource-mgmt/resource-utilization/view-utilization-information.md).
+* **分析**：身為資源管理員、專案所有者或人員管理員，請檢閱使用率報告，瞭解您資源的預算及計畫配置與實際配置的比較情形。 依時數、成本或收入複查資訊。 如需有關使用率報告的資訊，請參閱[檢視資源使用率資訊](../../resource-mgmt/resource-utilization/view-utilization-information.md)。
 
 ## 使用Workfront中的資源管理工具檢視和管理資源所需的存取權
 
@@ -147,7 +147,7 @@ Workfront有幾組用於管理資源的工具。 每個工具都有個別的範�
    * 編輯財務資料的存取權以在資源規劃工具中顯示成本資訊
    * 檢視財務資料的存取權，以檢視使用率報表中的成本與收入資訊（僅限擁有計畫授權的使用者）
 
-* Contribute或更高的許可權，包括針對您想要管理資源的專案進行「工作分派」。
+* Contribute或更高許可權，包括針對您想要管理資源的專案進行工作分派。
 
 <!--
 * Designated as a Resource Manager for projects to use the Scheduling tool (the Scheduling tool is deprecated).
@@ -157,9 +157,9 @@ Workfront有幾組用於管理資源的工具。 每個工具都有個別的範�
   >You do not have to be a Resource Manager to use the Resource Planner, Scenario Planner, or the Workload Balancer. 
 -->
 
-如需有關預算資源所需存取權的資訊，請參閱文章 [預算資源所需的存取權](../../resource-mgmt/resource-planning/access-needed-to-budget-resources.md).
+如需有關預算資源所需存取權的資訊，請參閱文章[預算資源所需存取權](../../resource-mgmt/resource-planning/access-needed-to-budget-resources.md)。
 
-如需有關管理工作負載平衡器中的資源所需存取許可權的資訊，請參閱 [管理工作負載平衡工具中的資源所需的存取權](../../resource-mgmt/workload-balancer/access-needed-manage-resources-balancer.md).
+如需有關在工作負載平衡器中管理資源所需存取權的資訊，請參閱[在工作負載平衡器中管理資源所需的存取權](../../resource-mgmt/workload-balancer/access-needed-manage-resources-balancer.md)。
 
 ## 精確資源管理的先決條件  {#prerequisites-for-accurate-resource-management}
 
@@ -167,11 +167,11 @@ Workfront有幾組用於管理資源的工具。 每個工具都有個別的範�
 
 如需Workfront中每個資源管理工具的需求相關資訊，請參閱下列內容：
 
-* 區段 [在資源規劃工具中工作的先決條件](../../resource-mgmt/resource-planning/get-started-resource-planner.md#prerequisites-for-working-in-the-resource-planner) 在文章中 [資源規劃工具概觀](../../resource-mgmt/resource-planning/get-started-resource-planner.md).
+* 文章[資源規劃工具概觀](../../resource-mgmt/resource-planning/get-started-resource-planner.md)中的[在資源規劃工具](../../resource-mgmt/resource-planning/get-started-resource-planner.md#prerequisites-for-working-in-the-resource-planner)中工作的先決條件。
   <!--remove this at production: * The section "Prerequisites" in the article [Get started with Resource Scheduling](../../resource-mgmt/resource-scheduling/get-started-resource-scheduling.md).-->
-* 區段 [使用工作負載平衡器的最佳實務](../../resource-mgmt/workload-balancer/overview-workload-balancer.md#best-practices-for-using-the-workload-balancer) 在文章中 [工作負載平衡器總覽](../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
-* [在Adobe Workfront中預算資源所需的存取權](../../resource-mgmt/resource-planning/access-needed-to-budget-resources.md).
-* [管理工作負載平衡工具中的資源所需的存取權](../../resource-mgmt/workload-balancer/access-needed-manage-resources-balancer.md).
+* 在文章[工作負載平衡器總覽](../../resource-mgmt/workload-balancer/overview-workload-balancer.md)中的[使用工作負載平衡器](../../resource-mgmt/workload-balancer/overview-workload-balancer.md#best-practices-for-using-the-workload-balancer)的最佳實務區段。
+* [在Adobe Workfront中預算資源所需的存取權](../../resource-mgmt/resource-planning/access-needed-to-budget-resources.md)。
+* [在工作負載平衡器](../../resource-mgmt/workload-balancer/access-needed-manage-resources-balancer.md)中管理資源所需的存取權。
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

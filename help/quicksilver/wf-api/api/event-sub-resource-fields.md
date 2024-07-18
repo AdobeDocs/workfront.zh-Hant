@@ -9,7 +9,7 @@ role: Developer
 exl-id: 54859930-7619-4b93-8dff-29b10e43d6d5
 source-git-commit: c08bd3311892d24a9bd40af138169957f5ea2ca4
 workflow-type: tm+mt
-source-wordcount: '712'
+source-wordcount: '711'
 ht-degree: 10%
 
 ---
@@ -445,9 +445,9 @@ ht-degree: 10%
    <td>userID</td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td><span>檔案版本</span> </td> 
+   <td><span>DocumentVersion</span> </td> 
    <td><span>DOCV</span> </td> 
-   <td><span>存取子IDs</span> </td> 
+   <td><span>accessorIDs</span> </td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -462,7 +462,7 @@ ht-degree: 10%
   <tr data-mc-conditions=""> 
    <td> </td> 
    <td> </td> 
-   <td><span>檔案ID</span> </td> 
+   <td><span>documentID</span> </td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -482,7 +482,7 @@ ht-degree: 10%
   <tr data-mc-conditions=""> 
    <td> </td> 
    <td> </td> 
-   <td><span>enteredById</span> </td> 
+   <td><span>enteredByID</span> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> </td> 
@@ -507,12 +507,12 @@ ht-degree: 10%
   <tr data-mc-conditions=""> 
    <td> </td> 
    <td> </td> 
-   <td><span>檔案型別</span> </td> 
+   <td><span>fileType</span> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> </td> 
    <td> </td> 
-   <td><span>ID</span> </td> 
+   <td><span>識別碼</span> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> </td> 
@@ -532,7 +532,7 @@ ht-degree: 10%
   <tr data-mc-conditions=""> 
    <td> </td> 
    <td> </td> 
-   <td><span>proofederableuserid</span> </td> 
+   <td><span>proofedByUserID</span> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> </td> 
@@ -542,17 +542,17 @@ ht-degree: 10%
   <tr data-mc-conditions=""> 
    <td> </td> 
    <td> </td> 
-   <td><span>proofDecision</span> </td> 
+   <td><span>校訂決定</span> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> </td> 
    <td> </td> 
-   <td><span>proofID</span> </td> 
+   <td><span>校訂ID</span> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> </td> 
    <td> </td> 
-   <td><span>proofName</span> </td> 
+   <td><span>校訂名稱</span> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> </td> 
@@ -572,7 +572,7 @@ ht-degree: 10%
   <tr data-mc-conditions=""> 
    <td> </td> 
    <td> </td> 
-   <td><span>proofstageid</span> </td> 
+   <td><span>proofStageID</span> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> </td> 
@@ -1780,9 +1780,9 @@ ht-degree: 10%
    <td>Workflowautomationid</td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td><span>ProofApproval</span> </td> 
-   <td><span>預設</span> </td> 
-   <td><span>存取子IDs</span> </td> 
+   <td><span>校訂核准</span> </td> 
+   <td><span>PRFAPL</span> </td> 
+   <td><span>accessorIDs</span> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> </td> 
@@ -1802,7 +1802,7 @@ ht-degree: 10%
   <tr data-mc-conditions=""> 
    <td> </td> 
    <td> </td> 
-   <td><span>檔案ID</span> </td> 
+   <td><span>documentID</span> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> </td> 
@@ -1812,7 +1812,7 @@ ht-degree: 10%
   <tr data-mc-conditions=""> 
    <td> </td> 
    <td> </td> 
-   <td><span>ID</span> </td> 
+   <td><span>識別碼</span> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> </td> 
@@ -2717,7 +2717,7 @@ ht-degree: 10%
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>title</td> 
+   <td>標題</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -2736,7 +2736,7 @@ ht-degree: 10%
   </tr> 
   <tr> 
    <td>工作區</td> 
-   <td>工作區</td> 
+   <td>Workspace</td> 
    <td>顏色</td> 
   </tr> 
   <tr> 

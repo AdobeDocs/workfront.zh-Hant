@@ -1,8 +1,8 @@
 ---
 product-area: workfront-integrations;agile-and-teams;user-management
 navigation-topic: workfront-for-microsoft-teams
-title: 管理 [!DNL Adobe Workfront] 中的通知 [!DNL Microsoft] 團隊
-description: 您可以接收通知 [!DNL Adobe Workfront] 關於您需要核准的專案、已給予您的指派，或您關聯專案的註解與變更。
+title: 管理 [!DNL Microsoft] 團隊中的 [!DNL Adobe Workfront] 通知
+description: 您可以接收來自 [!DNL Adobe Workfront] 的通知，內容有關您需要核准的專案、已指派給您的工作分派，或您關聯專案的註解與變更。
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 7771a7d7-7e20-4b3d-95e7-1050aeb3af67
@@ -13,19 +13,19 @@ ht-degree: 0%
 
 ---
 
-# 管理 [!DNL Adobe Workfront] 中的通知 [!DNL Microsoft Teams]
+# 管理[!DNL Microsoft Teams]中的[!DNL Adobe Workfront]個通知
 
 >[!NOTE]
 >
 >適用於Microsoft Teams的Adobe Workfront整合目前僅支援傳統Microsoft Teams體驗。
 
-您可以接收通知 [!DNL Adobe Workfront] 關於您需要核准的專案、已給予您的指派，或您關聯專案的註解與變更。
+您可以從[!DNL Adobe Workfront]接收有關您需要核准的專案、已給予您的指派，或您關聯專案的評論和變更的通知。
 
-這些通知包含 [!DNL Workfront] 您可在其中採取的動作 [!DNL Microsoft Teams] 無須離開此頁面 [!DNL Microsoft Teams] 完成這些步驟。
+這些通知包含[!DNL Workfront]個動作，您可以在[!DNL Microsoft Teams]內採取這些動作，不需離開[!DNL Microsoft Teams]即可完成這些動作。
 
 >[!NOTE]
 >
->[!DNL Microsoft Teams] 不再支援 [!DNL Internet Explorer]. 若要使用 [!DNL Adobe Workfront for Microsoft Teams integration]，您必須使用以外的網頁瀏覽器 [!DNL Internet Explorer].
+>[!DNL Microsoft Teams]不再支援[!DNL Internet Explorer]。 若要使用[!DNL Adobe Workfront for Microsoft Teams integration]，您必須使用[!DNL Internet Explorer]以外的網頁瀏覽器。
 
 
 ## 存取需求
@@ -47,37 +47,37 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-&#42;若要瞭解您擁有的計畫、授權型別或存取權，請聯絡您的 [!DNL Workfront] 管理員。
+&#42;若要瞭解您擁有的計畫、授權型別或存取權，請連絡您的[!DNL Workfront]管理員。
 
-## 收貨的必要條件 [!DNL Workfront] 中的通知 [!DNL Microsoft Teams]
+## 在[!DNL Microsoft Teams]中接收[!DNL Workfront]通知的必要條件
 
-您可以 [!DNL Workfront] 中的通知 [!DNL Microsoft Teams] 如果符合下列條件：
+如果符合下列條件，您可以在[!DNL Microsoft Teams]中接收[!DNL Workfront]通知：
 
-* 群組擁有者已安裝並設定 [!DNL Workfront for Microsoft Teams] 給您的團隊。
-* 您已登入 [!DNL Workfront] 從 [!DNL Microsoft Teams].
-* 您已在中啟用立即通知 [!DNL Workfront]. 如需啟用即時通知的詳細資訊，請參閱 [修改您自己的電子郵件通知](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+* 團隊擁有者已為您的團隊安裝和設定[!DNL Workfront for Microsoft Teams]。
+* 您已從[!DNL Microsoft Teams]登入[!DNL Workfront]。
+* 您已在[!DNL Workfront]中啟用立即通知。 如需啟用即時通知的詳細資訊，請參閱[修改您自己的電子郵件通知](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md)。
 
-如需關於安裝的資訊 [!DNL Workfront for Microsoft Teams] 並登入 [!DNL Workfront from Microsoft Teams]，請參閱 [安裝 [!DNL Adobe Workfront for Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md).
+如需有關安裝[!DNL Workfront for Microsoft Teams]和登入[!DNL Workfront from Microsoft Teams]的資訊，請參閱[安裝 [!DNL Adobe Workfront for Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md)。
 
-## 管理 [!DNL Workfront] 中的通知 [!DNL Microsoft Teams]
+## 管理[!DNL Microsoft Teams]中的[!DNL Workfront]個通知
 
-當 [!DNL Workfront for Microsoft Teams] 應用程式已安裝， [!DNL Workfront] 聊天頻道建立於 [!DNL Microsoft Teams] 給該團隊的每個成員。 在中執行特定動作時 [!DNL Workfront]，您可以設定 [!DNL Workfront for Microsoft Teams] ，以接收中該動作的通知 [!DNL Workfront] 的聊天頻道 [!DNL Microsoft Teams].
+安裝[!DNL Workfront for Microsoft Teams]應用程式後，會在[!DNL Microsoft Teams]中為該團隊的每個成員建立[!DNL Workfront]聊天頻道。 在[!DNL Workfront]中執行特定動作時，您可以設定[!DNL Workfront for Microsoft Teams]的設定，以在[!DNL Microsoft Teams]的[!DNL Workfront]聊天頻道中接收有關該動作的通知。
 
-使用時，請考慮下列事項 [!DNL Workfront] 通知來源 [!DNL Microsoft Teams]：
+處理來自[!DNL Microsoft Teams]的[!DNL Workfront]個通知時，請考慮下列事項：
 
-* 您無法接收全部，但只能接收部分數量 [!DNL Workfront] 中的通知 [!DNL Microsoft Teams].
-* 您從收到的所有通知 [!DNL Workfront] 出現在 [!DNL Workfront] 機器人聊天頻道。
+* 您無法在[!DNL Microsoft Teams]中接收全部，但只能接收選取數量的[!DNL Workfront]則通知。
+* 您從[!DNL Workfront]收到的所有通知都會顯示在[!DNL Workfront]機器人聊天頻道中。
 
-  如需安裝的相關資訊 [!DNL Workfront] 機器人管道，請參閱 [登入 [!DNL Workfront] 從 [!DNL Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md#logging-in-to-workfront) 中的區段 [安裝 [!DNL Workfront for Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md) 文章。
+  如需有關安裝[!DNL Workfront]機器人頻道的資訊，請參閱[安裝 [!DNL Workfront for Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md)文章中的[登入 [!DNL Workfront] 來自 [!DNL Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md#logging-in-to-workfront)區段。
 
-* 進行更新的時間之間最多可能有5分鐘的延遲 [!DNL Workfront] 當您在中收到有關該活動的通知時 [!DNL Microsoft Teams].
-* 針對每個 [!DNL Microsoft Teams] 通知時，您也會收到電子郵件通知。
+* 從[!DNL Workfront]中完成更新到您在[!DNL Microsoft Teams]中收到有關該更新的通知之間最多可能有5分鐘的延遲。
+* 對於每個[!DNL Microsoft Teams]通知，您也會收到電子郵件通知。
 
-若要管理 [!DNL Workfront] 您可在中收到的通知 [!DNL Microsoft Teams]：
+若要管理可在[!DNL Microsoft Teams]中收到的[!DNL Workfront]通知：
 
-1. 按一下 **[!UICONTROL 更多新增]** （三點）應用程式圖示位於中的左側導覽列 [!DNL Microsoft Teams].
+1. 按一下[!DNL Microsoft Teams]中左側導覽列上的&#x200B;**[!UICONTROL 更多新增]** （三點）應用程式圖示。
 
-1. 按一下 [!DNL Workfront] 在出現的清單中。
+1. 在出現的清單中按一下[!DNL Workfront]。
 1. 選取「**[!UICONTROL 設定]**」標籤。
 
    ![](assets/ms-teams-settings-tab-350x552.png)
@@ -86,19 +86,19 @@ ht-degree: 0%
 
    預設會啟用所有通知。
 
-   的通知設定 [!DNL Workfront for Microsoft] 團隊會自動儲存。
+   [!DNL Workfront for Microsoft]團隊的通知設定會自動儲存。
 
    >[!NOTE]
    >
    >您無法新增更多通知至預設可用的通知。
 
-## 回應 [!DNL Workfront] 中的通知和核准請求 [!DNL Microsoft Teams]
+## 在[!DNL Microsoft Teams]中回應[!DNL Workfront]個通知和核准要求
 
-1. 登入 [!DNL Workfront] 從 [!DNL Microsoft Teams].\
-   有關登入的資訊 [!DNL Workfront]，請參閱 [安裝 [!DNL Adobe Workfront for Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md).
+1. 從[!DNL Microsoft Teams]登入[!DNL Workfront]。\
+   如需有關登入[!DNL Workfront]的資訊，請參閱[安裝 [!DNL Adobe Workfront for Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md)。
 
-1. 前往 **[!UICONTROL 聊天]** 區域並按一下 **[!DNL Workfront]** 機器人管道。\
-   此頻道是供您與進行個人聊天 [!DNL Workfront] 機器人。 全部 [!DNL Workfront] 通知會顯示於此處。
+1. 前往&#x200B;**[!UICONTROL 聊天]**&#x200B;區域並按一下&#x200B;**[!DNL Workfront]**&#x200B;機器人頻道。\
+   此頻道用於您與[!DNL Workfront]機器人的個人聊天。 所有[!DNL Workfront]通知都會顯示在這裡。
 1. 根據您收到的通知型別，請前往相關區段：
 
    * [核准通知](#approval-notifications-approval-notifications)
@@ -114,8 +114,8 @@ ht-degree: 0%
 * **[!UICONTROL 核准]**：按一下以核准專案。
 * **[!UICONTROL 變更]**：按一下以核准有變更的專案。
 * **[!UICONTROL 拒絕]**：按一下以拒絕專案。
-* **[!UICONTROL 註解]**：按一下以進行註解。 您的註解也會出現在 [!DNL Workfront] 作為通知相關物件的更新。
-* **[!UICONTROL 前往校訂]**：按一下以開啟校樣。 然後，您可以直接在校訂中做出決定。 如需詳細資訊，請參閱 [在校訂檢視器中對校訂做出決定](../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/make-decisions-on-proof.md).
+* **[!UICONTROL 註解]**：按一下即可發表註解。 您的註解也會在[!DNL Workfront]中顯示為通知相關物件的更新。
+* **[!UICONTROL 前往校訂]**：按一下以開啟校訂。 然後，您可以直接在校訂中做出決定。 如需詳細資訊，請參閱[在校訂檢視器中對校訂做出決定](../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/make-decisions-on-proof.md)。
 
 >[!NOTE]
 >
@@ -252,11 +252,11 @@ ht-degree: 0%
 
 當您或您所在的團隊被指派Workfront中的任務或問題時，您會收到指派通知。 從指定通知，您可以執行下列動作：
 
-* **[!UICONTROL 處理它]**：選取以認可此專案上的工作。 系統會短暫顯示通知，確認您已將新專案新增至工作清單。
-* **[!UICONTROL 檢視位置[!DNL Workfront]]**：選取以在Workfront中檢視指派的問題或任務，這會開啟新索引標籤。
+* **[!UICONTROL 處理它]**：選取以認可處理專案。 系統會短暫顯示通知，確認您已將新專案新增至工作清單。
+* **[!UICONTROL 在[!DNL Workfront]]**&#x200B;中檢視：選取以在Workfront中檢視指派的問題或任務，這會開啟新索引標籤。
 * **[!UICONTROL 開始]**：按一下以開始處理專案。 系統會短暫顯示通知，確認您已將新專案新增至工作清單。
-* **[!UICONTROL 註解]**：按一下「 」以評論該專案。 您的註解也會顯示在Workfront的專案更新流中。
-* **[!UICONTROL 狀態]**：按一下，然後從下拉式選單中選取工作專案的新狀態。
+* **[!UICONTROL 註解]**：按一下以評論該專案。 您的註解也會顯示在Workfront的專案更新流中。
+* **[!UICONTROL 狀態]**：按一下，然後從下拉式功能表中選取工作專案的新狀態。
 
 #### 特定指定通知的可用動作：
 
@@ -305,8 +305,8 @@ ht-degree: 0%
 
 當有人對與您相關聯的專案發表評論或將您納入更新時，您會收到通訊通知。 在通訊通知中，您可以執行下列動作：
 
-* **代表光年**：按一下以回複評論或 [!UICONTROL 更新]. 您的回覆也會出現在更新流中，評論會顯示在Workfront中。
-* **[!UICONTROL 在Workfront中檢視]**：選取以在Workfront中檢視評論和專案，此專案會在新索引標籤中開啟。
+* **Reply**：按一下以回覆註解或[!UICONTROL 更新]。 您的回覆也會出現在更新流中，評論會顯示在Workfront中。
+* **[!UICONTROL 在Workfront中檢視]**：選取此選項可檢視在新索引標籤中開啟的Workfront中的註解和專案。
 * **[!UICONTROL 狀態]**：按一下，然後為註解或更新相關的工作專案選取新狀態。
 
 #### 特定通訊通知上的可用動作：
@@ -370,9 +370,9 @@ ht-degree: 0%
 
 當您關聯的專案有更新時，您會收到資訊通知，但您不需要對專案採取任何動作。 從資訊通知中，您可以執行下列動作：
 
-* **[!UICONTROL 回覆]**：按一下以回覆 [!UICONTROL 更新]. 您的回覆也會顯示在Workfront的專案更新流中。
-* **在Workfront中檢視**：選取以在Workfront中檢視評論和專案，此專案會在新索引標籤中開啟。
-* **[!UICONTROL 狀態]**：按一下，然後從下拉式選單中選取專案的新狀態。
+* **[!UICONTROL 回覆]**：按一下以回覆[!UICONTROL 更新]。 您的回覆也會顯示在Workfront的專案更新流中。
+* **在Workfront中檢視**：選取此選項可檢視在新索引標籤中開啟的Workfront中的註解和專案。
+* **[!UICONTROL 狀態]**：按一下，然後從下拉式功能表中選取專案的新狀態。
 
 #### 特定資訊通知上的可用動作：
 
@@ -410,8 +410,8 @@ ht-degree: 0%
 
 當指定給您的工作專案的日期變更時，您會收到日期變更通知。 從日期變更通知中，您可以執行下列動作。
 
-* **[!UICONTROL 註解]**：按一下「 」以評論該專案。 您的註解也會顯示在Workfront的專案更新流中。
-* **[!UICONTROL 狀態]**：按一下，然後從下拉式選單中選取工作專案的新狀態。
+* **[!UICONTROL 註解]**：按一下以評論該專案。 您的註解也會顯示在Workfront的專案更新流中。
+* **[!UICONTROL 狀態]**：按一下，然後從下拉式功能表中選取工作專案的新狀態。
 
 <table style="table-layout:auto"> 
  <col> 

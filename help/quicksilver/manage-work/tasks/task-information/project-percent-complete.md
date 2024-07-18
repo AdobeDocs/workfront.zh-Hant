@@ -20,7 +20,7 @@ ht-degree: 0%
 
 專案的完成百分比值是根據專案中任務的期間或計畫時數而計算的。 您的Adobe Workfront管理員或群組管理員會定義在系統中計算完成百分比時，在「專案偏好設定」區域中設定資訊時要考慮的值。
 
-如需有關設定專案偏好設定的資訊，請參閱 [設定全系統專案偏好設定](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+如需有關設定專案偏好設定的資訊，請參閱[設定全系統的專案偏好設定](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md)。
 
 父系任務的完成百分比取決於其每個子任務的期間或計畫時數。
 
@@ -40,7 +40,7 @@ ht-degree: 0%
 
 Workfront使用個別任務的完成百分比來計算其上層任務的完成百分比或專案的完成百分比。
 
-如需有關更新任務完成百分比的資訊，請參閱 [檢視並更新任務的完成百分比](../../../manage-work/projects/updating-work-in-a-project/view-update-percent-complete-for-tasks.md).
+如需更新任務完成百分比的資訊，請參閱[檢視並更新任務的完成百分比](../../../manage-work/projects/updating-work-in-a-project/view-update-percent-complete-for-tasks.md)。
 
 ### Workfront如何計算父系任務的完成百分比 {#how-workfront-calculates-percent-complete-on-a-parent-task}
 

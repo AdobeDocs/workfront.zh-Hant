@@ -17,7 +17,7 @@ ht-degree: 3%
 
 # 21.2行動裝置增強功能
 
-本頁說明21.2版對預覽環境所做的所有行動裝置增強功能。 這些增強功能將在2021年5月10日當週的生產環境中提供。 如需21.2版所有可用變更的清單，請參閱 [21.2版本總覽](../../../product-announcements/product-releases/21.2-release-activity/21-2-release-overview.md).
+本頁說明21.2版對預覽環境所做的所有行動裝置增強功能。 這些增強功能將在2021年5月10日當週的生產環境中提供。 如需21.2版本可用的所有變更清單，請參閱[21.2版本概觀](../../../product-announcements/product-releases/21.2-release-activity/21-2-release-overview.md)。
 
 ## 時程表註解
 
@@ -27,7 +27,7 @@ ht-degree: 3%
 
 行動應用程式現在可讓您在時程表中輸入註解。
 
-如需詳細資訊，請參閱 [適用於iOS的Adobe Workfront](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-ios.md) 和 [適用於Android的Adobe Workfront](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-android.md).
+如需詳細資訊，請參閱適用於iOS的[Adobe Workfront](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-ios.md)和適用於Android的[Adobe Workfront](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-android.md)。
 
 ## 其他支援預先輸入功能的物件 — 僅適用於iOS使用者
 
@@ -46,7 +46,7 @@ ht-degree: 3%
 * 團隊
 * 範本
 
-如需詳細資訊，請參閱 [建立或編輯自訂表單](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
+如需詳細資訊，請參閱[建立或編輯自訂表格](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)。
 
 ## 在Workfront行動應用程式中將請求儲存為草稿
 
@@ -56,4 +56,4 @@ ht-degree: 3%
 
 您現在可以在行動應用程式中將部分填滿的請求儲存為草稿。 我們已在「要求」區域新增草稿區段，讓您輕鬆找到任何草稿。
 
-如需詳細資訊，請參閱 [適用於Android的Adobe Workfront](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-android.md) 或 [適用於iOS的Adobe Workfront](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-ios.md).
+如需詳細資訊，請參閱[適用於Android的Adobe Workfront](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-android.md)或[適用於iOS的Adobe Workfront](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-ios.md)。

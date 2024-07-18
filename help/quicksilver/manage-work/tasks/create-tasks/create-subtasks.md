@@ -45,12 +45,12 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">物件許可權</td> 
-   <td> <p>為專案和父級任務貢獻許可權，並可新增任務或以上任務</p> <p>您會在建立任務後自動收到該任務的「管理」許可權。</p>  </td> 
+   <td> <p>專案和父級任務的Contribute許可權（可新增任務或以上任務）</p> <p>您會在建立任務後自動收到該任務的「管理」許可權。</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-如需有關此表格的詳細資訊，請參閱 [Workfront檔案中的存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -61,16 +61,16 @@ ht-degree: 0%
 ### 從任務清單建立子任務 {#create-subtasks-from-the-task-list}
 
 1. 前往您要建立子任務的專案。
-1. 按一下 **任務** 區段。
+1. 按一下左側面板中的&#x200B;**任務**&#x200B;區段。
 1. （條件式）如果您要建立子項工作的工作尚未位於要建立父項工作的正下方，請將其拖曳至工作清單中的適當位置。
 1. 選取要建立子任務的工作，並執行下列任一項作業：
 
-   * 按一下 **縮排** 圖示 ![](assets/indent-icon-nwe-33x29.png) 將選取的任務設為直接位於其上方的任務的子任務。
+   * 按一下&#x200B;**縮排**&#x200B;圖示![](assets/indent-icon-nwe-33x29.png)，將選取的工作設為其正上方的子工作。
    * 使用標準英文QWERTY鍵盤時，在鍵盤上按Option + > (Mac)或Alt + > (Windows)。 其他語言可能會使用命令Option + 、 (Mac)或Alt + 、 (Windows)來縮排。
 
      >[!TIP]
      >
-     >當您在內嵌編輯中編輯任務時，鍵盤快速鍵無法運作。 在此情況下，請使用「縮排」圖示 ![](assets/cs1.png) 以建立子任務。
+     >當您在內嵌編輯中編輯任務時，鍵盤快速鍵無法運作。 在此情況下，請使用縮排圖示![](assets/cs1.png)來建立子任務。
 
    * 將任務拖放到要指定為父系任務的任務上。
 
@@ -81,21 +81,21 @@ ht-degree: 0%
 ### 從任務子任務區段建立子任務 {#create-subtasks-from-the-task-subtasks-section}
 
 1. 前往您要建立子任務的專案。
-1. 按一下 **任務** 區段。
+1. 按一下左側面板中的&#x200B;**任務**&#x200B;區段。
 1. 按一下要建立子任務的工作名稱。
-1. 按一下 **子任務** 區段。
-1. 按一下 **新增任務。**
+1. 按一下左側面板中的&#x200B;**子任務**&#x200B;區段。
+1. 按一下&#x200B;**新增工作。**
 
-   請依照下文中的步驟繼續建立子任務： [在專案中建立任務](../../../manage-work/tasks/create-tasks/create-tasks-in-project.md).
+   請依照下列文章中的步驟繼續建立子任務： [在專案中建立任務](../../../manage-work/tasks/create-tasks/create-tasks-in-project.md)。
 
-1. 按一下 **儲存任務。**
+1. 按一下&#x200B;**儲存工作。**
 
 ## 將子任務設為主要任務
 
 1. 移至您想要將子任務設為主要任務的專案。
-1. 按一下 **任務** 區段。
+1. 按一下左側面板中的&#x200B;**任務**&#x200B;區段。
 1. 選取您想要成為主要任務的子任務。
-1. 按一下 **凸排** 圖示 ![](assets/outdent-icon-nwe-31x29.png) 使子任務成為主要任務。
+1. 按一下&#x200B;**減少縮排**&#x200B;圖示![](assets/outdent-icon-nwe-31x29.png)，將子工作設為主要工作。
 
    或
 

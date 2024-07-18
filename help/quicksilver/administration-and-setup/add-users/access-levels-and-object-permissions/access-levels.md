@@ -24,12 +24,12 @@ ht-degree: 0%
 * [授權總覽](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md)
 * [內建存取層級](../../../administration-and-setup/add-users/access-levels-and-object-permissions/default-access-levels-in-workfront.md)
 * [存取層級和許可權如何搭配運作](../../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md)
-* [列出使用者的存取層級和授權](../../../administration-and-setup/add-users/access-levels-and-object-permissions/list-access-levels-and-licenses-for-your-users.md)
-* [依授權型別存取物件和區域](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-to-objects-and-areas-by-license-type.md)
-* [適用於每種物件型別的功能](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md)
+* [列出您使用者的存取層級和授權](../../../administration-and-setup/add-users/access-levels-and-object-permissions/list-access-levels-and-licenses-for-your-users.md)
+* [依照授權型別存取物件和區域](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-to-objects-and-areas-by-license-type.md)
+* [每個物件型別可用的功能](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md)
 
 ## 另請參閱
 
-* 如需有關如何建立存取層級的資訊，請參閱 [設定Adobe Workfront的存取權](../../../administration-and-setup/add-users/configure-and-grant-access/configure-access.md).
-* 如需使用者如何彼此共用物件、授與這些物件的「檢視」和「編輯」許可權的詳細資訊，請參閱 [授予物件許可權並請求物件](../../../workfront-basics/grant-and-request-access-to-objects/grant-and-request-access-to-objects.md).
-* 如需說明檔案文章中「存取需求」表格的相關資訊，請參閱 [Workfront檔案中的存取層級要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+* 如需如何建立存取層級的詳細資訊，請參閱[設定Adobe Workfront的存取權](../../../administration-and-setup/add-users/configure-and-grant-access/configure-access.md)。
+* 如需使用者如何彼此共用物件、授與這些物件的檢視和編輯許可權的相關資訊，請參閱[授予物件許可權並請求物件許可權](../../../workfront-basics/grant-and-request-access-to-objects/grant-and-request-access-to-objects.md)。
+* 如需說明檔案文章中存取需求表格的相關資訊，請參閱Workfront說明檔案中的[存取層級需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。

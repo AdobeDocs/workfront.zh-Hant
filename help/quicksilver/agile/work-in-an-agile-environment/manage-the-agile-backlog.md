@@ -17,10 +17,10 @@ ht-degree: 0%
 
 以下工作專案可指派給敏捷團隊，並根據團隊使用的敏捷方法，以劇本形式新增到該團隊的待辦專案中：
 
-* **[!UICONTROL Scrum敏捷團隊]：** 可以將任務和問題指派給敏捷團隊並新增到待辦專案中。
-* **[!UICONTROL Kanban敏捷團隊]：** 任務可以指派給敏捷團隊並新增到待辦專案中。 使用者可以直接從敏捷故事板檢視待處理專案，如所述 [[!UICONTROL 新增待處理專案] 至Kanban面板](../../agile/use-kanban-in-an-agile-team/view-the-backlog-on-the-kanban-board.md). 團隊使用此待處理專案來排定優先順序並管理其工作佇列。
+* **[!UICONTROL Scrum敏捷團隊]：**&#x200B;任務和問題可以指派給敏捷團隊並新增到待處理專案。
+* **[!UICONTROL Kanban敏捷團隊]：**&#x200B;任務可以指派給敏捷團隊並新增到待處理專案。 使用者可以直接從敏捷故事板檢視待處理專案，如[[!UICONTROL 將待處理專案]新增到看板](../../agile/use-kanban-in-an-agile-team/view-the-backlog-on-the-kanban-board.md)中所述。 團隊使用此待處理專案來排定優先順序並管理其工作佇列。
 
-任務或問題可以從中的任何位置指派給團隊（並隨後新增到團隊待辦專案中）。 [!DNL Adobe Workfront]. 例如，一個團隊可能被指派來自多個專案的工作指派。
+任務或問題可以從[!DNL Adobe Workfront]中的任何位置指派給團隊（並隨後新增到團隊待辦專案中）。 例如，一個團隊可能被指派來自多個專案的工作指派。
 
 >[!NOTE]
 >
@@ -57,14 +57,14 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-如需有關此表格的詳細資訊，請參閱 [Workfront檔案中的存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
 ## 建立和管理待處理專案上的劇本
 
 * [重新排序劇本](#reorder-stories)
-* [[!UICONTROL 劃分] 劇本](#break-down-stories)
+* [[!UICONTROL 劃分]個劇本](#break-down-stories)
 * [編輯劇本](#edit-stories)
 
 ### 重新排序劇本 {#reorder-stories}
@@ -72,7 +72,7 @@ ht-degree: 0%
 您可以使用拖放方式，重新排序待處理專案清單中的劇本。
 
 1. 前往您要重新排序劇本的敏捷待辦專案。
-1. 在 **[!UICONTROL 檢視]** 下拉式功能表，選取 **[!UICONTROL 待處理專案]** 檢視或包含 **[!UICONTROL 訂購]** 欄。
+1. 在&#x200B;**[!UICONTROL 檢視]**&#x200B;下拉式功能表中，選取&#x200B;**[!UICONTROL 待處理專案]**&#x200B;檢視或包含&#x200B;**[!UICONTROL 順序]**&#x200B;資料行的自訂檢視。
 
    >[!NOTE]
    >
@@ -96,17 +96,17 @@ ht-degree: 0%
 若要劃分劇本，請執行下列動作：
 
 1. 移至包含您要劃分之劇本的待處理專案。
-1. 選取您要劃分的內文，然後按一下 **[!UICONTROL 分解劇本]**.\
-   此 [!UICONTROL 分解劇本] 對話方塊隨即顯示。\
-   ![分解內文對話方塊](assets/backlog-breakdown-dialog.png)
+1. 選取您要分解的內文，然後按一下&#x200B;**[!UICONTROL 分解內文]**。\
+   顯示[!UICONTROL 分解劇本]對話方塊。\
+   ![分解劇本對話方塊](assets/backlog-breakdown-dialog.png)
 
 1. 指定內文的名稱和預估，然後選取內文是否準備就緒。
-1. 按一下 **[!UICONTROL 新增劇本]** 從原始劇本建立另一個劇本。
+1. 按一下&#x200B;**[!UICONTROL 新增劇本]**，從原始劇本建立另一個劇本。
 1. 按一下「**[!UICONTROL 儲存]**」。
 
 ### 編輯劇本 {#edit-stories}
 
-您可以直接從編輯劇本 [!UICONTROL 劇本] 或 [!UICONTROL 問題] 如要大量編輯專案中的任何任務或問題，位於待處理專案索引標籤上，如所述 [大量編輯任務](../../manage-work/tasks/manage-tasks/edit-tasks.md#edit-tasks-in-bulk) 在 [編輯任務](../../manage-work/tasks/manage-tasks/edit-tasks.md)、和 [編輯問題](../../manage-work/issues/manage-issues/edit-issues.md).
+您可以直接從「待處理專案」上的[!UICONTROL 內文]或[!UICONTROL 問題]標籤編輯內文，就像大量編輯專案中的任何任務或問題一樣，如[編輯任務](../../manage-work/tasks/manage-tasks/edit-tasks.md)中的[大量編輯任務](../../manage-work/tasks/manage-tasks/edit-tasks.md#edit-tasks-in-bulk)和[編輯問題](../../manage-work/issues/manage-issues/edit-issues.md)中所述。
 
 ## 在待處理專案上建立新劇本 {#create-new-stories-on-the-backlog}
 
@@ -121,18 +121,18 @@ ht-degree: 0%
 
 若要從待處理專案建立劇本，請執行下列動作：
 
-1. 按一下 **[!UICONTROL 主要功能表]** 圖示 ![主要功能表](/help/_includes/assets/main-menu-icon.png) 在Adobe Workfront的右上角，或（如果有的話）按一下 **[!UICONTROL 主要功能表]** 圖示 ![主要功能表](/help/_includes/assets/main-menu-icon-left-nav.png) 然後按一下「 」 **[!UICONTROL 團隊]**.
+1. 按一下Adobe Workfront右上角的&#x200B;**[!UICONTROL 主功能表]**&#x200B;圖示![主功能表](/help/_includes/assets/main-menu-icon.png)，或（如果有的話）按一下左上角的&#x200B;**[!UICONTROL 主功能表]**&#x200B;圖示![主功能表](/help/_includes/assets/main-menu-icon-left-nav.png)，然後按一下&#x200B;**[!UICONTROL 團隊]**。
 
-1. （可選）按一下 **[!UICONTROL 切換群組]** 圖示 ![切換群組圖示](assets/switch-team-icon.png)，然後從下拉式選單中選取新的Scrum團隊，或在搜尋列中搜尋團隊，並在團隊出現時加以選取。
+1. （選擇性）按一下&#x200B;**[!UICONTROL 切換群組]**&#x200B;圖示![切換群組圖示](assets/switch-team-icon.png)，然後從下拉式功能表中選取新的Scrum群組，或在搜尋列中搜尋群組，並在群組出現時加以選取。
 
-1. 選取 **[!UICONTROL 待處理專案]** 從左側面板。
+1. 從左側面板選取&#x200B;**[!UICONTROL 待處理專案]**。
 1. 根據您想要建立任務還是問題，執行下列任一操作：
 
-   * **若要建立任務：** 按一下 **[!UICONTROL 劇本]**.
+   * **若要建立工作：**&#x200B;請按一下&#x200B;**[!UICONTROL 劇本]**。
 
-   * **若要建立問題：** 按一下 **[!UICONTROL 問題]**.
+   * **若要建立問題：**&#x200B;請按一下&#x200B;**[!UICONTROL 問題]**。
 
-1. 按一下 **[!UICONTROL 新增劇本]** 或 **[!UICONTROL 新問題]**.
+1. 按一下&#x200B;**[!UICONTROL 新增劇本]**&#x200B;或&#x200B;**[!UICONTROL 新增問題]**。
 
 1. 指定下列資訊：
 
@@ -171,7 +171,7 @@ ht-degree: 0%
     </tbody>
    </table>
 
-1. 按一下 **[!UICONTROL 儲存劇本]**.
+1. 按一下&#x200B;**[!UICONTROL 儲存劇本]**。
 
 ### 將任務或問題指派給敏捷團隊 {#assign-a-task-or-issue-to-an-agile-team}
 
@@ -181,10 +181,10 @@ ht-degree: 0%
 
 1. 移至包含您要指派之任務的專案。
 1. 選擇清單中的任務或問題。
-1. 按一下 **[!UICONTROL 編輯]**.
-1. 按一下 **[!UICONTROL 指定任務]**.
+1. 按一下&#x200B;**[!UICONTROL 編輯]**。
+1. 按一下&#x200B;**[!UICONTROL 指派]**。
 1. （選用）刪除任何現有的受指派人。
-1. 按一下 **[!UICONTROL 新增被指定者]**.
+1. 按一下&#x200B;**[!UICONTROL 新增被指定者]**。
 1. 開始輸入您要指派給任務或問題的敏捷團隊名稱，然後按一下出現在下拉清單中的團隊名稱。
 1. 按一下「**[!UICONTROL 儲存變更]**」。\
    團隊待處理專案現在提供任務或問題。
@@ -200,27 +200,27 @@ ht-degree: 0%
 ### 將內文從待處理專案移至反複專案或+展示板
 
 1. 前往敏捷團隊的待辦專案。
-1. 選取您要移至反複專案或Kanban展示板的劇本，然後按一下 **[!UICONTROL 更多]** > **[!UICONTROL 移至]**.\
-   如果移動本文至 [!UICONTROL Kanban] 展示板， [!UICONTROL 將劇本移至Kanban] 顯示展示板。\
-   如果移動本文至反複專案，則 [!UICONTROL 移動本文至反複專案] 對話方塊隨即顯示。\
+1. 選取您要移至疊代或Kanban面板的內文，然後按一下「**[!UICONTROL 更多]** > **[!UICONTROL 移至]**」。\
+   如果將劇本移至[!UICONTROL Kanban]面板，則會顯示[!UICONTROL 將劇本移至Kanban]面板。\
+   如果將內文移至反複專案，會顯示[!UICONTROL 將內文移至反複專案]對話方塊。\
    ![移動內文對話方塊](assets/agile-backlog-addtoiteration.png)
 
 1. 執行下列任一項作業：
 
-   * **對於Scrum團隊：** 在 **[!UICONTROL 選取反複專案]** 欄位，選取您要移動內文的疊代。
+   * **對於Scrum團隊：**&#x200B;在&#x200B;**[!UICONTROL 選取反複專案]**&#x200B;欄位中，選取您要移動內文的反複專案。
 
-   * **對於Kanban團隊：** 在 **[!UICONTROL 選取Kanban面板]** 欄位，選取您的團隊 [!UICONTROL Kanban] 展示板。 (Kanban團隊只能有一個 [!UICONTROL Kanban] 展示板。)
+   * **若為Kanban團隊：**&#x200B;在&#x200B;**[!UICONTROL 選取Kanban面板]**&#x200B;欄位中，選取您的團隊[!UICONTROL Kanban]面板。 （Kanban團隊只能有一個[!UICONTROL Kanban]面板。）
 
-1. 按一下 **[!UICONTROL 移動劇本]**.
+1. 按一下&#x200B;**[!UICONTROL 移動劇本]**。
 
 ### 將現有劇本移至待處理專案 {#move-existing-stories-to-the-backlog}
 
 如果您決定您的團隊尚未準備好處理劇本，您可以將劇本移至待處理專案。
 
-如需詳細資訊，請參閱 [移動敏捷劇本](../../agile/work-in-an-agile-environment/move-an-agile-story.md).
+如需詳細資訊，請參閱[移動敏捷劇本](../../agile/work-in-an-agile-environment/move-an-agile-story.md)。
 
 ### 從待處理專案匯出劇本 {#export-stories-from-the-backlog}
 
 您可以直接從待處理專案匯出一或多個劇本（包括任務和問題）。
 
-從待處理專案匯出劇本的方式與匯出其他資料的方式相同 [!DNL Workfront]，如所述 [匯出資料](../../reports-and-dashboards/reports/creating-and-managing-reports/export-data.md).
+從待處理專案匯出劇本的方式與在[!DNL Workfront]中匯出其他資料的方式相同，如[匯出資料](../../reports-and-dashboards/reports/creating-and-managing-reports/export-data.md)中所述。

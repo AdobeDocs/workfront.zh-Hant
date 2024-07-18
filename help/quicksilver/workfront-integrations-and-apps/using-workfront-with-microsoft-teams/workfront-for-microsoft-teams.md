@@ -3,7 +3,7 @@ content-type: overview
 product-area: workfront-integrations;agile-and-teams;user-management
 navigation-topic: workfront-for-microsoft-teams
 title: 適用於Microsoft Teams的Adobe Workfront概觀
-description: 身為團隊擁有者，您可以安裝 [!DNL Adobe Workfront for Microsoft Teams] 適用於您團隊的應用程式。
+description: 身為團隊擁有者，您可以為團隊安裝 [!DNL Adobe Workfront for Microsoft Teams] 應用程式。
 author: Becky
 feature: Workfront Integrations and Apps
 recommendations: noDisplay, noCatalog
@@ -23,36 +23,36 @@ ht-degree: 0%
 >
 >適用於Microsoft Teams的Adobe Workfront整合目前僅支援傳統Microsoft Teams體驗。
 
-在中作為團隊所有者 [!DNL Microsoft Teams]，您可以安裝 [!DNL Adobe Workfront for Microsoft Teams] 適用於您團隊的應用程式。
+身為團隊擁有者在[!DNL Microsoft Teams]中，您可以為團隊安裝[!DNL Adobe Workfront for Microsoft Teams]應用程式。
 
-使用 [!DNL Workfront] 用於Microsoft Teams，可讓您在中執行許多動作 [!DNL Workfront] 永遠不要離開Microsoft Teams。
+將[!DNL Workfront]用於Microsoft Teams可讓您在不離開Microsoft Teams的情況下在[!DNL Workfront]中執行許多動作。
 
-如需有關為Microsoft Teams安裝Workfront的詳細資訊，請參閱 [安裝適用於Microsoft Teams的Adobe Workfront](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md).
+如需有關安裝適用於Microsoft Teams的Workfront的詳細資訊，請參閱[安裝適用於Microsoft Teams的Adobe Workfront](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md)。
 
-安裝之後 [!DNL Workfront for Microsoft Teams]，您可在不離開例項的情況下進行下列操作 [!DNL Microsoft Teams]：
+安裝[!DNL Workfront for Microsoft Teams]後，您可以在不離開[!DNL Microsoft Teams]執行個體的情況下執行下列動作：
 
-* 搜尋 [!DNL Workfront] 專案、任務和問題，並與其他使用者共用。
+* 搜尋[!DNL Workfront]個專案、任務和問題，並與其他使用者共用。
 
-  有關搜尋和共用的資訊 [!DNL Workfront] 專案來源 [!DNL Microsoft Teams]，請參閱 [搜尋並共用 [!DNL Adobe Workfront] 中的專案 [!DNL Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/search-for-and-share-wf-items-in-ms-teams.md).
+  如需有關從[!DNL Microsoft Teams]搜尋及共用[!DNL Workfront]個專案的資訊，請參閱[在 [!DNL Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/search-for-and-share-wf-items-in-ms-teams.md)中搜尋及共用 [!DNL Adobe Workfront] 個專案。
 
-* 建立 [!DNL Workfront] 個人任務。
+* 建立[!DNL Workfront]個人工作。
 
-  如需關於建立的資訊 [!DNL Workfront] 個人任務來源 [!DNL Microsoft Teams]，請參閱 [建立 [!DNL Adobe Workfront] 任務來源 [!DNL Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/create-workfront-tasks-from-ms-teams.md).
+  如需有關從[!DNL Microsoft Teams]建立[!DNL Workfront]個人工作的資訊，請參閱[從 [!DNL Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/create-workfront-tasks-from-ms-teams.md)建立 [!DNL Adobe Workfront] 工作。
 
-* 提交 [!DNL Workfront] 請求並檢閱已提交請求的進度。
+* 提交[!DNL Workfront]個要求並檢閱您提交之要求的進度。
 
-  關於提交的相關資訊 [!DNL Workfront] 請求來源 [!DNL Microsoft Teams]，請參閱 [提交 [!DNL Workfront] 請求來源 [!DNL Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/submit-workfront-requests-from-ms-teams.md).
+  如需有關從[!DNL Microsoft Teams]提交[!DNL Workfront]要求的資訊，請參閱[從 [!DNL Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/submit-workfront-requests-from-ms-teams.md)提交 [!DNL Workfront] 要求。
 
-* 回應 [!DNL Workfront] 有關更新和評論的通知。
+* 回應[!DNL Workfront]個有關更新與註解的通知。
 * 回應檔案核准請求。\
-   如需關於回應的相關資訊 [!DNL Workfront] 通知與檔案核准請求來自 [!DNL Microsoft Teams]，請參閱 [管理 [!DNL Adobe Workfront] 中的通知 [!DNL Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/manage-wf-notifications-approval-requests-ms-teams.md).
+   如需有關回應[!DNL Microsoft Teams]的[!DNL Workfront]通知和檔案核准要求的資訊，請參閱[在 [!DNL Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/manage-wf-notifications-approval-requests-ms-teams.md)中管理 [!DNL Adobe Workfront] 通知。
 
-使用時，請考慮下列事項 [!DNL Workfront] 的 [!DNL Microsoft Teams]：
+處理[!DNL Microsoft Teams]的[!DNL Workfront]時，請考慮下列事項：
 
-* 您不需要成為 [!DNL Workfront] 要安裝的管理員 [!DNL Workfront for Microsoft Teams].\
-   此應用程式是免費的，而且如果您同時擁有此應用程式，則可以將其新增至您的團隊。 [!DNL Microsoft Teams].
-* 中的任何使用者 [!DNL Microsoft Team] 如果應用程式已由團隊擁有者安裝，且他們具有 [!DNL Workfront] 帳戶。
-* 如果多個團隊需要存取許可權 [!DNL Workfront] 從 [!DNL Microsoft Teams]，您必須為每個團隊安裝應用程式。
-* 您可以檢視以下專案的相關資訊： [!DNL Workfront] 中的專案 [!DNL Microsoft Teams]. 例如，工作的名稱、狀態、優先順序、受指派人、計畫完成日期 [!DNL Workfront] 個專案。 無法自訂此資訊。
-* 您可以直接前往 [!DNL Workfront] 專案與檔案來源 [!DNL Microsoft Teams].
-* [!DNL Microsoft Teams] 不再支援 [!DNL Internet Explorer]. 若要使用 [!DNL Adobe Workfront for Microsoft Teams] 整合，您必須使用 [!DNL Internet Explorer].
+* 您不需要是[!DNL Workfront]系統管理員即可安裝[!DNL Workfront for Microsoft Teams]。\
+   應用程式是免費的，如果您也是[!DNL Microsoft Teams]中的團隊所有者，則可以將其新增到您的團隊。
+* 如果[!DNL Microsoft Team]中的任何使用者已由團隊擁有者安裝，且他們具有[!DNL Workfront]帳戶，則可以使用應用程式。
+* 如果多個團隊需要從[!DNL Microsoft Teams]存取[!DNL Workfront]，您必須為每個團隊安裝應用程式。
+* 您可以在[!DNL Microsoft Teams]中檢視[!DNL Workfront]專案的部分相關資訊。 例如，[!DNL Workfront]專案的名稱、狀態、優先順序、受指派人、計畫完成日期。 無法自訂此資訊。
+* 您可以直接從[!DNL Microsoft Teams]移至[!DNL Workfront]專案與檔案。
+* [!DNL Microsoft Teams]不再支援[!DNL Internet Explorer]。 若要使用[!DNL Adobe Workfront for Microsoft Teams]整合，您必須使用[!DNL Internet Explorer]以外的網頁瀏覽器。

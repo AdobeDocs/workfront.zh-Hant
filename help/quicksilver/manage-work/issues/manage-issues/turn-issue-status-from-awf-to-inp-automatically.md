@@ -21,13 +21,13 @@ ht-degree: 0%
 
 * 問題必須透過請求佇列輸入。
 
-  如需有關建立請求佇列的資訊，請參閱 [建立及管理請求佇列](../../../manage-work/requests/create-and-manage-request-queues/create-manage-request-queues.md) 區段。 如需建立請求的相關資訊，請參閱 [建立及提交Adobe Workfront請求](../../../manage-work/requests/create-requests/create-submit-requests.md).
+  如需有關建立請求佇列的資訊，請參閱[建立及管理請求佇列](../../../manage-work/requests/create-and-manage-request-queues/create-manage-request-queues.md)區段。 如需建立請求的相關資訊，請參閱[建立並提交Adobe Workfront請求](../../../manage-work/requests/create-requests/create-submit-requests.md)。
 
 * 請求佇列中的「佇列詳細資料」必須有下列設定：
-   * **當有人提出要求時，自動授予** 設為 **Contribute存取**
-   * **變更狀態** 在進階設定下選取
+   * **某人提出要求時，自動授予**&#x200B;設定為&#x200B;**Contribute存取權**
+   * 已在[進階設定]下選取&#x200B;**變更狀態**
 
-  ![已選取「佇列詳細資訊」授予Contribute存取權和變更狀態。](assets/queuedetails-contributeaccess-changestatus.png)
+  已選取![佇列詳細資料授予Contribute存取權和變更狀態。](assets/queuedetails-contributeaccess-changestatus.png)
 
   >[!IMPORTANT]
   >
@@ -35,9 +35,9 @@ ht-degree: 0%
   >
   >當您在設定請求佇列時取消選取「變更狀態」設定時，請記住，系統管理員始終有權變更問題的狀態，即使請求佇列設定中已取消選取「變更狀態」選項。
 
-  如需有關「佇列詳細資訊」的詳細資訊，請參閱 [建立請求佇列](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
+  如需佇列詳細資料的詳細資訊，請參閱[建立要求佇列](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md)。
 
 * 問題必須處於等待回饋狀態。
 * 系統層級的問題必須具有「等待回饋」(AWF)狀態。
 
-  如需有關系統層級狀態的詳細資訊，請參閱 [建立或編輯狀態](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md).
+  如需系統層級狀態的詳細資訊，請參閱[建立或編輯狀態](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md)。

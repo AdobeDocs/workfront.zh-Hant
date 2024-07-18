@@ -4,7 +4,7 @@ content-type: reference
 product-area: system-administration
 navigation-topic: set-up-workfront
 title: 系統追蹤的更新摘要
-description: Adobe Workfront會在其中的某些物件上記錄發生的活動 [!UICONTROL 更新] 區域。 系統更新包含簡短的附註，說明物件已發生何種變更。 [!DNL Workfront] 管理員可以定義系統應在中追蹤的變更型別 [!UICONTROL 更新] 區段。
+description: Adobe Workfront會將某些物件上發生的活動記錄在其[!UICONTROL 更新]區域中。 系統更新包含簡短的附註，說明物件已發生何種變更。 [!DNL Workfront] 管理員可以定義系統應在[!UICONTROL 更新]區段中追蹤的變更型別。
 author: Alina
 feature: System Setup and Administration
 role: Admin
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 <!--Audited: April, 2024-->
 
-Adobe Workfront會自動記錄在其中的特定物件上發生的活動 [!UICONTROL 更新] 區段作為系統更新。 系統更新包含簡短的附註，說明物件已發生何種變更。 [!DNL Workfront] 管理員可以定義系統應在中追蹤的變更型別 [!UICONTROL 更新] 區段。
+Adobe Workfront會在某些物件的[!UICONTROL 更新]區段中，將正在發生的活動自動記錄為系統更新。 系統更新包含簡短的附註，說明物件已發生何種變更。 [!DNL Workfront]管理員可以定義系統應在[!UICONTROL 更新]區段中追蹤的變更型別。
 
 本節包含下列文章：
 

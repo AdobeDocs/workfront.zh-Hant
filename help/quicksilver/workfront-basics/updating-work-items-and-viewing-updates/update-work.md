@@ -51,13 +51,13 @@ ht-degree: 0%
 ><span class="preview">The new commenting experience is available in the Summary panel in lists, timesheets, and the Workload Balancer in the Preview environment and in the Production environment for customers who have opted for the fast release process. </span>
 -->
 
-您可以在Adobe Workfront物件上新增更新，與他人溝通物件的進度。 如需您可以在Workfront中新增更新的物件詳細資訊，請參閱 [更新區段總覽](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
+您可以在Adobe Workfront物件上新增更新，與他人溝通物件的進度。 如需您可以在Workfront中新增更新的物件詳細資訊，請參閱[更新區段總覽](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md)。
 
 本文中的資訊說明如何為專案、任務和問題加上註解和更新資訊。 指派或訂閱物件的使用者可以檢視您的更新。 您也可以標籤使用者，以吸引他們注意更新。
 
 將註解新增到其他物件類似於更新專案、任務和問題。 如需關於卡片及目標註解的詳細資訊，另請參閱下列文章：
 
-* [在Adobe Workfront目標中管理目標註解](../../workfront-goals/goal-management/manage-goal-comments.md).
+* [在Adobe Workfront目標中管理目標註解](../../workfront-goals/goal-management/manage-goal-comments.md)。
 
   您必須額外擁有授權才能存取Workfront目標。
 
@@ -101,13 +101,13 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-如需有關此表格的詳細資訊，請參閱 [Workfront檔案中的存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
 ## 更新工作的相關考量事項
 
-* 您可以在「更新」區段中，將註解新增至Adobe Workfront中的大部分物件。 如需有關哪些物件會顯示「更新」區段的詳細資訊，請參閱 [更新區段概觀](../updating-work-items-and-viewing-updates/updates-tab-overview.md).
+* 您可以在「更新」區段中，將註解新增至Adobe Workfront中的大部分物件。 如需有關哪些物件顯示「更新」區段的詳細資訊，請參閱[更新區段概觀](../updating-work-items-and-viewing-updates/updates-tab-overview.md)。
 
 * 您可以從與Workfront整合的其他應用程式或Workfront行動應用程式，將註解新增至Workfront物件。
 
@@ -121,10 +121,10 @@ ht-degree: 0%
 
   >[!TIP]
   >
-  >註解擁有者會自動加上標籤。 如需詳細資訊，請參閱 [標籤其他人的更新](../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
+  >註解擁有者會自動加上標籤。 如需詳細資訊，請參閱[標籤其他人的更新](../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md)。
 
 
-* 您可以將註解新增至可以檢視的物件，也可以以Workfront或群組管理員身分登入，並代表其他使用者新增註解。 如需詳細資訊，請參閱 [以其他使用者身分登入](../../administration-and-setup/add-users/create-and-manage-users/log-in-as-another-user.md).
+* 您可以將註解新增至可以檢視的物件，也可以以Workfront或群組管理員身分登入，並代表其他使用者新增註解。 如需詳細資訊，請參閱[以其他使用者身分登入](../../administration-and-setup/add-users/create-and-manage-users/log-in-as-another-user.md)。
 
 * 您可以從Workfront的下列區域新增更新至專案、任務和問題：
 
@@ -232,8 +232,8 @@ You can add updates to the following objects:
 本文會介紹如何更新專案、任務或問題。 更新大多數其他物件類似。
 
 1. 找到您要更新的物件，然後按一下其名稱以開啟物件的頁面。
-1. 按一下  **更新** 在左側面板中。
-此 **註解** 標籤預設為選取。
+1. 按一下左側面板中的&#x200B;**更新**。
+預設會選取**註解**&#x200B;標籤。
 
    <!--
    1. (Conditional) If the **New commenting** option is disabled, click to enable it. 
@@ -245,7 +245,7 @@ You can add updates to the following objects:
          ><span class="preview">The New commenting option has been removed in the Preview environment.</span>
    -->
 
-1. 開始在 **新註解** 方塊。
+1. 開始在&#x200B;**新註解**&#x200B;方塊中輸入註解。
 
    ![新註解方塊](assets/comment-box-all-tabs.png)
 
@@ -257,8 +257,8 @@ You can add updates to the following objects:
    * CTRL + Z (Mac為⌘ + z)可復原變更
    * 按CTRL + Y (Mac則為⌘ + y)以重做變更
 
-1. （選用）在 **標籤人員或團隊** 區域，開始輸入使用者或要納入此註解中的團隊的名稱或電子郵件，然後在其顯示在清單中時選取它。
-1. （可選）使用RTF工具列中的選項來格式化文字、新增emoji、連結或影像至更新，以強化內容。 如需詳細資訊，請參閱 [在Workfront更新中使用RTF文字](#use-rich-text-in-a-workfront-update) 一節。
+1. （選擇性）在&#x200B;**標籤人員或團隊**&#x200B;區域，開始輸入使用者或您要加入此註解之團隊的名稱或電子郵件，然後在其顯示在清單中時選取它。
+1. （可選）使用RTF工具列中的選項來格式化文字、新增emoji、連結或影像至更新，以強化內容。 如需詳細資訊，請參閱本文中的[在Workfront更新中使用RTF文字](#use-rich-text-in-a-workfront-update)一節。
 
    >[!TIP]
    >
@@ -269,8 +269,8 @@ You can add updates to the following objects:
    >「新」指標只有在輸入新更新的使用者以及目前輸入更新的使用者都使用新註解體驗時才會顯示。
    >![](assets/real-time-new-red-indicator-unified-commenting.png)
 
-1. 按一下 **提交** 將更新新增至Workfront物件。
-1. （可選）若要編輯註解，請按一下 **更多** 功能表 ![](assets/more-menu.png) 在註解的右上角，然後按一下 **編輯**.
+1. 按一下&#x200B;**提交**，將更新新增至Workfront物件。
+1. （選擇性）若要編輯評論，請按一下評論右上角的&#x200B;**更多**&#x200B;功能表![](assets/more-menu.png)，然後按一下&#x200B;**編輯**。
 
    >[!IMPORTANT]
    >
@@ -290,15 +290,15 @@ You can add updates to the following objects:
    >* 註解旁邊的日期戳記是原始註解的日期，而不是上次編輯的日期。
    >* 當您代表另一個使用者新增註解時(以Workfront或群組管理員身份登入時)，如果您以其他使用者身份登入，則無法編輯註解。 只有在您以使用者身分登出並以您自己的身分重新登入後，才能編輯註解。
 
-1. （選用）按一下 **回覆** 或開始在 **新增回覆……** 區域，回覆現有註解，然後遵循上述步驟3-7。 <!--(**************insure this stays accurate***********)--> 如需有關回覆更新的資訊，請參閱 [回覆更新](../../workfront-basics/updating-work-items-and-viewing-updates/reply-to-updates.md).
+1. （選擇性）按一下「**回覆**」或開始在「**新增回覆……**」區域輸入註解，以回覆現有的註解，然後遵循上述步驟3-7。 <!--(**************insure this stays accurate***********)-->如需回覆更新的相關資訊，請參閱[回覆更新](../../workfront-basics/updating-work-items-and-viewing-updates/reply-to-updates.md)。
 
-1. （條件式與選擇性）如果您在新增註解時，有其他使用者新增的註解顯示在「更新」區段的可見區域之外，請按一下 **檢視** 藍色內部 **新評論橫幅** 在熒幕底部顯示這些註解。
+1. （條件式及選擇性）若其他使用者新增的註解顯示在[更新]區段的可見區域之外，而您新增註解時，請按一下熒幕底部的藍色&#x200B;**新註解橫幅**&#x200B;中的&#x200B;**檢視**&#x200B;以顯示這些註解。
 
    ![](assets/blue-new-comments-banner-with-view-button.png)
 
    熒幕底部會顯示其他註解。
 
-1. （可選）按一下 **按讚** 圖示![](assets/like-icon.png). 圖示會隨著喜歡的數量而更新。
+1. （選擇性）按一下&#x200B;**Like**&#x200B;圖示![](assets/like-icon.png)。 圖示會隨著喜歡的數量而更新。
 1. （有條件且選擇性）如果您在註解中包含其他人員，請按一下更新中包含的成員數目，以顯示與您輸入的註解共用之實體的清單。
 
    ![](assets/members-icons-expanded-unshimmed.png)
@@ -308,26 +308,26 @@ You can add updates to the following objects:
    >前兩個已標籤實體的名稱會顯示在它們的頭像旁。 如果兩個以上的圖元被標籤，則只顯示第一個圖元的名稱和其他圖元的數量。
 
 1. （選用）按一下評論者的名稱，即可在資訊方塊中檢視其名稱、角色及電子郵件地址。 在資訊方塊中再次按一下評論者的名稱以開啟其使用者設定檔。
-1. （可選）按一下 **系統活動** 標籤以檢視系統記錄的更新。 當物件或其任何子系更新時，Workfront會產生有關該更新的附註，並將其顯示在系統活動標籤中。
+1. （選擇性）按一下&#x200B;**系統活動**&#x200B;索引標籤，以檢視系統記錄的更新。 當物件或其任何子系更新時，Workfront會產生有關該更新的附註，並將其顯示在系統活動標籤中。
 
-   如需詳細資訊，請參閱 [更新區段概觀](../updating-work-items-and-viewing-updates/updates-tab-overview.md).
+   如需詳細資訊，請參閱[更新區段總覽](../updating-work-items-and-viewing-updates/updates-tab-overview.md)。
 
    >[!TIP]
    >
    >您無法將註解新增至系統更新。 但是，對舊版評論體驗中系統活動記錄所做的任何回覆，都會以唯讀形式新增至「系統活動」索引標籤。 舊版評論體驗已於2024年4月11日從Workfront移除。
 
-1. （可選）按一下 **全部** 標籤以在一個位置檢視使用者註解和系統活動註解。 這是僅供檢視的標籤。
+1. （選擇性）按一下&#x200B;**全部**&#x200B;索引標籤，以在一個位置檢視使用者註解和系統活動註解。 這是僅供檢視的標籤。
 
    >[!TIP]
    >
-   >您無法在[全部]索引標籤的現有註解中回覆註解或標籤其他使用者。 若要回覆「全部」標籤中的註解，請按一下 **在評論中回覆** 以在「註解」標籤中開啟註解。
+   >您無法在[全部]索引標籤的現有註解中回覆註解或標籤其他使用者。 若要在[全部]索引標籤中回複評論，請按一下[在評論中回覆]****，在[評論]索引標籤中開啟評論。
 
 ## 在Workfront更新中使用RTF文字{#use-rich-text-in-a-workfront-update}
 
 您可以使用RTF或新增各種專案（例如emoji、連結或影像）來增強更新。
 
-1. 前往 **更新** Workfront區域，並開始輸入註解。
-1. （可選）若要新增RTF格式至您的更新，請使用 **RTF文字** 工具列。
+1. 前往Workfront物件的&#x200B;**更新**&#x200B;區域並開始輸入註解。
+1. （選擇性）若要新增RTF格式至更新中，請在輸入時使用&#x200B;**RTF**&#x200B;工具列上的任何屬性。
 
    ![](assets/rich-text-toolbar.png)
 
@@ -336,14 +336,14 @@ You can add updates to the following objects:
    | 粗體 | ![](assets/mceclip10.png) | ⌘+b | Ctrl+B |
    | 斜體 | ![mceclip9.png](assets/mceclip9.png) | ⌘+i | Ctrl+I |
    | 底線 | ![mceclip8.png](assets/mceclip8.png) | ⌘+u | Ctrl+U |
-   | 超連結 | ![mceclip7.png](assets/mceclip7.png) | <br>若要開啟「新增連結」方塊： ⌘+K</br> <br>若要在選取的文字上貼上連結： ⌘+V</br> | <br>若要開啟「新增連結」方塊：Ctrl+K</br> <br>若要在選取的文字上貼上連結：Ctrl+V</br> |
+   | 超連結 | ![mceclip7.png](assets/mceclip7.png) | <br>若要開啟[新增連結]方塊： ⌘+K</br> <br>若要在選取的文字上貼上連結： ⌘+V</br> | <br>若要開啟[新增連結]方塊： Ctrl+K</br> <br>若要在選取的文字上貼上連結： Ctrl+V</br> |
    | 項目符號清單 | ![mceclip6.png](assets/mceclip6.png) | ⌘+Shift+8 | Ctrl+Shift+8 |
    | 編號清單 | ![mceclip5.png](assets/mceclip5.png) | ⌘+Shift+7 | Ctrl+Shift+7 |
    <!--| Block Quote | ![](assets/block-quote-icon-large.png)|⌘+Shift+9 |<br>Ctrl+Shift+9</br> <br>This is not available in the new commenting experience. </br> |-->
 
    <!--remove the last row when we remove legacy from the system-->
 
-   若要停止格式化文字，請取消選取 **RTF文字** 工具列。
+   若要停止格式化文字，請取消選取&#x200B;**RTF格式**&#x200B;工具列上的屬性。
 
 
    <!-- in the table above: take "Create Links" verbiage from the hyperlink when the old commenting is removed and the commenting beta is the only way to comment - with October 2023-->
@@ -361,7 +361,7 @@ You can add updates to the following objects:
 
    <!--![](assets/block-quote-marked-350x144.png)-->
 
-1. （可選）按一下 **emoji** 圖示 ![](assets/emoji-icon.png) 以新增emoji至您的更新。
+1. （選擇性）按一下&#x200B;**表情符號**&#x200B;圖示![](assets/emoji-icon.png)以將表情符號新增至您的更新。
 
    >[!NOTE]
    >
@@ -375,18 +375,18 @@ You can add updates to the following objects:
 1. （選用）若要新增URL連結至其他資訊來源，請執行下列動作：
 
    1. 在更新中按一下您要插入連結的位置。
-   1. 在 **RTF文字** 工具列，按一下 **超連結** 圖示 ![](assets/link-icon.png).
+   1. 在&#x200B;**RTF**&#x200B;工具列上，按一下&#x200B;**超連結**&#x200B;圖示![](assets/link-icon.png)。
 
-   1. 在 **建立連結** 方塊，位於 **URL**，鍵入或貼上您要連結之來源的URL。
+   1. 在出現的&#x200B;**建立連結**&#x200B;方塊中，在&#x200B;**URL**&#x200B;下，輸入或貼上您要連結之來源的URL。
 
-   1. 在 **要顯示的文字**，輸入或貼上連結文字。
+   1. 在&#x200B;**要顯示的文字**&#x200B;下，輸入或貼上連結文字。
    1. 按一下「**儲存**」。
 
 1. （可選）若要將影像附加到更新中，請執行下列任一項作業：
 
    * 將影像儲存在電腦上，然後將其拖放到「新增註解」區域。
    * 從電腦複製熒幕擷圖，然後貼到註解中。<!-- This is not available in the legacy commenting experience.-->
-   * 按一下 **新增影像** 圖示 ![](assets/add-image-mountain-with-plus-icon.png) 並瀏覽至您電腦上的影像。
+   * 按一下&#x200B;**新增影像**&#x200B;圖示![](assets/add-image-mountain-with-plus-icon.png)並瀏覽至您電腦上的影像。
 
 
    >[!NOTE]
@@ -395,7 +395,7 @@ You can add updates to the following objects:
    >
    ><!--<span class="preview">You cannot add images to goals or ad-hoc cards on boards.</span> -->
    >
-   >* 您的Workfront管理員必須先在Workfront介面區域的更新摘要偏好設定區段中啟用新增影像，您才能看到影像或新增附件圖示。 如需詳細資訊，請參閱 [設定使用者更新的偏好設定](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-preferences-user-updates.md).
+   >* 您的Workfront管理員必須先在Workfront介面區域的更新摘要偏好設定區段中啟用新增影像，您才能看到影像或新增附件圖示。 如需詳細資訊，請參閱[設定使用者更新的偏好設定](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-preferences-user-updates.md)。
    >* 影像檔案大小上限為7 MB。 支援的影像檔案型別為.jpg、.gif和.png。
    >* 可從物件的「更新」區段存取影像，也可從主功能表下的「檔案」區域存取影像。
    >* 您可以在新的註解中按一下滑鼠右鍵，或在鍵盤上按Windows適用的CTRL + V (或Mac適用的⌘ + V )以貼上影像。
@@ -407,17 +407,17 @@ You can add updates to the following objects:
 
 1. （選擇性）若要在現有更新中檢視影像，請執行下列任一項作業：
 
-   * 按一下 **預覽** 圖示 ![](assets/previewimageicon-31x31.png) 在影像縮圖上，以在新的瀏覽器標籤中開啟全尺寸影像。
-   * 按一下 **下載** 圖示 ![](assets/downloadimageicon.png) 在影像縮圖上以下載影像。
+   * 按一下影像縮圖上的&#x200B;**預覽**&#x200B;圖示![](assets/previewimageicon-31x31.png)，在新的瀏覽器分頁中開啟全尺寸影像。
+   * 按一下影像縮圖上的&#x200B;**下載**&#x200B;圖示![](assets/downloadimageicon.png)以下載影像。
 
-1. 按一下 **提交** 以新增您的註解。
+1. 按一下&#x200B;**提交**&#x200B;以新增您的註解。
 
 ## 搜尋更新
 
 您可以在物件的「更新」區段中搜尋註解或回覆。
 
-1. 前往 **更新** 物件的區段。
-1. 開始輸入關鍵字 <!--or a user's name --> 在 **搜尋** 方塊右上角的 **註解** 標籤。
+1. 移至物件的&#x200B;**更新**&#x200B;區段。
+1. 開始在&#x200B;**註解**&#x200B;索引標籤右上角的&#x200B;**搜尋**&#x200B;方塊中輸入關鍵字<!--or a user's name -->。
 
    <!--Add this tip or note instead of the note below - when it'll be possible: You can search for users who have been tagged or for comment owners.-->
 
@@ -427,11 +427,11 @@ You can add updates to the following objects:
 
    ![搜尋更新](assets/updates-all-tabs-with-search-field.png)
 
-   關鍵字 <!--or user--> 您搜尋的註釋會反白顯示，且包含該註釋的註釋會顯示在「更新」區段的頂端。
+   您搜尋的關鍵字<!--or user-->會反白顯示，而且包含該關鍵字的註解會顯示在「更新」區段的頂端。
 
    Workfront會搜尋物件的整個更新流，搜尋畫面上可見的註解之外。
 
-1. 按一下 **x** 圖示來清除搜尋結果並返回所有註解。
+1. 按一下搜尋欄位中的&#x200B;**x**&#x200B;圖示以清除搜尋結果並返回所有註解。
 
 <!-- when we release search to production, check above and make sure you don't have to add that the users tagged/ owners are also searchable-->
 
@@ -445,7 +445,7 @@ You can add updates to the following objects:
 
 <!--info for April 11: take the sentence above out and reword the section title below to: Copy an update-->
 
-### 複製更新 <!--in the new commenting experience-->
+### 複製更新<!--in the new commenting experience-->
 
 <!--For information about what features are available for the new commenting experience and for what objects, see [New commenting experience](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).-->
 
@@ -463,7 +463,7 @@ You can add updates to the following objects:
 
 1. 前往要複製其連結的更新。
 
-1. 按一下 **更多** 功能表，然後按一下 **複製連結**.
+1. 按一下&#x200B;**更多**&#x200B;功能表，然後按一下&#x200B;**複製連結**。
 
 1. 將您在上一步中複製的連結貼入電子郵件或其他應用程式，以便與其他人共用。 共用連結會開啟您共用連結的註解。
 
@@ -478,21 +478,21 @@ You can add updates to the following objects:
 「複製內文」選項可將文字從特定更新複製到剪貼簿。
 
 1. 前往更新或您要複製的回覆。
-1. 按一下 **更多** 功能表，然後按一下 **複製內文**.
+1. 按一下&#x200B;**更多**&#x200B;功能表，然後按一下&#x200B;**複製內文**。
 
 #### 引用回覆
 
 「報價」回複選項會將原始註解複製到新的回覆，做為區塊報價。
 
 1. 前往更新或您要複製的回覆。
-1. 按一下 **更多** 功能表，然後按一下 **引用回覆**.
+1. 按一下&#x200B;**更多**&#x200B;功能表，然後按一下&#x200B;**報價回覆**。
 
    新註解方塊開啟，引述的回覆會包含在新的註解中，並標示為區塊引號。
 
    ![](assets/block-quote-highlighted-mid-comment-before-submit.png)
 
 
-1. 繼續新增更新，然後按一下 **提交** 以新增註解。
+1. 繼續新增您的更新，然後按一下&#x200B;**提交**&#x200B;以新增註解。
 
 <!--info for April 11: hide the entire section below - notice that there are several sub-sub sections below this main section - hide them all, all the way up to "Delete an update"-->
 
@@ -556,20 +556,20 @@ The Quote Reply option copies the original comment to a new reply as a block quo
 
 ## 刪除更新或回覆
 
-根據Workfront管理員賦予您的存取權，您或許可以刪除在物件的「更新」標籤上新增的更新。 如需詳細資訊，請參閱 [建立或修改自訂存取層級](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md#creating-a-new-access-from-scratch) 在文章中 [建立或修改自訂存取層級](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+根據Workfront管理員賦予您的存取權，您或許可以刪除在物件的「更新」標籤上新增的更新。 如需詳細資訊，請參閱文章[建立或修改自訂存取層級](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)中的[建立或修改自訂存取層級](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md#creating-a-new-access-from-scratch)。
 
-Workfront使用者(包括Workfront管理員)無法刪除其他使用者所做的更新。 但是，如果使用者的存取層級允許他們刪除自己的更新，Workfront管理員可以以該使用者的身分登入，並刪除他們所做的更新。 如需詳細資訊，請參閱 [建立或修改自訂存取層級](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md#creating-a-new-access-from-scratch) 和 [以其他使用者身分登入](../../administration-and-setup/add-users/create-and-manage-users/log-in-as-another-user.md).
+Workfront使用者(包括Workfront管理員)無法刪除其他使用者所做的更新。 但是，如果使用者的存取層級允許他們刪除自己的更新，Workfront管理員可以以該使用者的身分登入，並刪除他們所做的更新。 如需詳細資訊，請參閱[建立或修改自訂存取層級](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md#creating-a-new-access-from-scratch)和[以其他使用者身分登入](../../administration-and-setup/add-users/create-and-manage-users/log-in-as-another-user.md)。
 
 1. 前往更新或您要刪除的回覆。
-1. 按一下 **更多** 您要刪除的更新或回覆旁的功能表，然後按一下 **刪除**.
+1. 按一下您要刪除的更新或回覆旁的&#x200B;**更多**&#x200B;功能表，然後按一下&#x200B;**刪除**。
 
    ![](assets/update-stream-comment-menu-marked-350x152.png)
 
-1. 在顯示的訊息中，按一下 **刪除**.
+1. 在顯示的訊息中，按一下&#x200B;**刪除**。
 
    >[!NOTE]
    >
-   >刪除具有附加影像的更新會同時刪除註解和影像。 如需詳細資訊，請參閱 [在Workfront更新中使用RTF文字](#use-rich-text-in-a-workfront-update) 一節。
+   >刪除具有附加影像的更新會同時刪除註解和影像。 如需詳細資訊，請參閱本文中的[在Workfront更新中使用RTF文字](#use-rich-text-in-a-workfront-update)一節。
 
    當您刪除的評論有關聯的回覆時，會顯示已移除評論，以及移除評論的使用者姓名。
 
@@ -582,15 +582,15 @@ Workfront使用者(包括Workfront管理員)無法刪除其他使用者所做的
 
 Workfront物件的更新區段會顯示兩種型別的資訊：
 
-* **使用者更新：** 使用者更新是您和您系統中的其他使用者輸入的註解。 使用者更新會顯示在「更新」區段的「註釋」和「全部」標籤中。
+* **使用者更新：**&#x200B;使用者更新是您和您系統中的其他使用者輸入的註解。 使用者更新會顯示在「更新」區段的「註釋」和「全部」標籤中。
 
   ![](assets/user-update-cl-350x277.png)
 
-* **系統更新：** 系統更新記錄移除任務或問題、新增或刪除檔案版本、附加或移除核准請求，以及對物件所做的任何編輯或變更。 系統更新會顯示在「系統活動」和「更新」區段的「所有」標籤中。
+* **系統更新：**&#x200B;系統更新記錄移除任務或問題、新增或刪除檔案版本、附加或移除核准要求，以及對物件所做的任何編輯或變更。 系統更新會顯示在「系統活動」和「更新」區段的「所有」標籤中。
 
   ![](assets/system-updates-cl-350x277.png)
 
-  Workfront管理員可決定系統更新中會追蹤哪些專案，如中所述 [系統追蹤更新](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md). 您也可以篩選掉系統更新或活動，以便只看到所有物件的使用者更新。
+  如[系統追蹤更新](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md)所述，Workfront管理員可決定系統更新中追蹤的內容。 您也可以篩選掉系統更新或活動，以便只看到所有物件的使用者更新。
 
   下列物件沒有系統產生的更新：
 
@@ -599,7 +599,7 @@ Workfront物件的更新區段會顯示兩種型別的資訊：
    * 範本任務
    * 臨機卡
 
-如需「更新」一節中有關系統更新的詳細資訊，請參閱 [更新區段概觀](../updating-work-items-and-viewing-updates/updates-tab-overview.md).
+如需「更新」章節中有關系統更新的詳細資訊，請參閱[更新章節概述](../updating-work-items-and-viewing-updates/updates-tab-overview.md)。
 
 
 <!--

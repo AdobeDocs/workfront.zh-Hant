@@ -19,7 +19,7 @@ ht-degree: 1%
 
 * 對於目前的計畫與授權結構：
 
-   * A Pro或更高版本 [Adobe Workfront計畫](https://www.workfront.com/plans).
+   * Pro或更高[Adobe Workfront方案](https://www.workfront.com/plans)。
    * 除了Adobe Workfront授權之外，還有Workfront目標授權。
 
 * 對於新計畫和授權結構：
@@ -32,9 +32,9 @@ ht-degree: 1%
 
 請連絡您的Workfront客戶經理，以瞭解Workfront Goals授權。
 
-如需存取Workfront目標的其他資訊，請參閱 [使用Workfront目標的需求](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).
+如需存取Workfront目標的詳細資訊，請參閱[使用Workfront目標的需求](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md)。
 
-如需詳細資訊，請參閱 [Workfront檔案中的存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 Workfront或群組管理員可以自訂Workfront目標中的物件名稱，以更符合您組織的術語。
 
@@ -48,4 +48,4 @@ Workfront或群組管理員可以自訂Workfront目標中的物件名稱，以�
 
 自訂Workfront目標術語與在Workfront中自訂術語相同。
 
-如需在Workfront中自訂術語的詳細資訊，請參閱 [使用版面配置範本自訂使用者介面術語](../../administration-and-setup/customize-workfront/use-layout-templates/customize-terminology.md).
+如需在Workfront中自訂術語的相關資訊，請參閱[使用版面配置範本自訂使用者介面術語](../../administration-and-setup/customize-workfront/use-layout-templates/customize-terminology.md)。

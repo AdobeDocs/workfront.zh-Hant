@@ -27,7 +27,7 @@ ht-degree: 0%
 
 ## 建立Oauth2應用程式
 
-如需建立OAuth2應用程式的指示，請參閱 [使用使用者認證建立OAuth2應用程式（授權代碼流程）](../../administration-and-setup/configure-integrations/create-oauth-application.md#create3) 在 [為Workfront整合建立OAuth2應用程式](../../administration-and-setup/configure-integrations/create-oauth-application.md)
+如需建立OAuth2應用程式的指示，請參閱[建立Workfront整合的OAuth2應用程式](../../administration-and-setup/configure-integrations/create-oauth-application.md)中的[使用使用者認證（授權代碼流程）建立OAuth2應用程式](../../administration-and-setup/configure-integrations/create-oauth-application.md#create3)
 
 >[!NOTE]
 >
@@ -48,7 +48,7 @@ ht-degree: 0%
 
 * `redirect_uri`：這是您在建立應用程式時輸入的重新導向URL。 您的使用者在為其帳戶授權應用程式後，即會被導向此頁面。
 
-* `response_type`：此值必須是 `code`.
+* `response_type`：此值必須為`code`。
 
 因此，授權頁面的URL為：
 
@@ -95,17 +95,17 @@ https://<URL of your organization's domain>/integrations/oauth2/authorize?client
 
    ![](assets/consent-screen-350x227.png)
 
-1. 如果使用者允許存取，頁面會重新導向至 `redirect_url`. 重新導向必須包括下列查詢引數：
+1. 如果使用者允許存取，頁面會重新導向至`redirect_url`。 重新導向必須包括下列查詢引數：
 
-* `code`：取得存取/重新整理Token所需的授權代碼。
-* `domain`：您組織的網域。 範例：在 `myorganization.my.workfront.com`，網域為 `myorganization`.
-* `lane`：請求的通道。 範例：在 `myorganization.preview.workfront.com`，車道為 `preview`.
+* `code`：取得存取/重新整理Token所需的授權碼。
+* `domain`：您組織的網域。 範例：在`myorganization.my.workfront.com`中，網域為`myorganization`。
+* `lane`：要求的通道。 範例：在`myorganization.preview.workfront.com`中，車道是`preview`。
 
   >[!IMPORTANT]
   >
-  >此 `code` 僅有效2分鐘。 因此，您必須在該時間內取得重新整理和存取權杖。
+  >`code`僅有效2分鐘。 因此，您必須在該時間內取得重新整理和存取權杖。
 
-1. 有了程式碼後，您可以將程式碼連同使用者端應用程式認證傳送至 `/integrations/oauth2/api/v1/token` 端點。
+1. 擁有程式碼時，您可以將程式碼連同使用者端應用程式認證傳送至`/integrations/oauth2/api/v1/token`端點，以要求重新整理和存取權杖。
 
    完整的權杖請求URL為
 
@@ -113,7 +113,7 @@ https://<URL of your organization's domain>/integrations/oauth2/authorize?client
    https://<URL of your organization's domain></span>/integrations/oauth2/api/v1/token
    ```
 
-   **範例：**  對權杖端點進行CURL呼叫的範例：
+   **範例：**&#x200B;對權杖端點進行CURL呼叫的範例：
 
    範例1
 
@@ -157,7 +157,7 @@ https://<URL of your organization's domain>/integrations/oauth2/authorize?client
    }
    ```
 
-   存取權杖與相同 ```sessionID```，而且過期時間與一般使用者相同 ```sessionID```
+   存取權杖與```sessionID```相同，過期時間與一般```sessionID```相同
 
    >[!IMPORTANT]
    >
@@ -208,4 +208,4 @@ curl --location --request POST '<workfront host>/integrations/oauth2/api/v1/toke
 }
 ```
 
-存取權杖也是 `sessionID` ，可用來向Workfront提出API請求。
+存取權杖同樣是`sessionID`，可用於向Workfront提出API請求。

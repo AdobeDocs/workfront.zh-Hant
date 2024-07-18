@@ -28,6 +28,6 @@ ht-degree: 0%
 * [Adobe Workfront單一登入概觀](../../../administration-and-setup/add-users/single-sign-on/sso-in-workfront.md)
 * [更新單一登入的使用者](../../../administration-and-setup/add-users/single-sign-on/update-users-sso.md)
 * [使用SAML 2.0設定Adobe Workfront](../../../administration-and-setup/add-users/single-sign-on/configure-workfront-saml-2.md)
-* [更新身分提供者中的SAML 2.0中繼資料](../../../administration-and-setup/add-users/single-sign-on/update-saml-2-metadata-ip.md)
-* [使用ADFS以SAML 2.0設定Adobe Workfront](../../../administration-and-setup/add-users/single-sign-on/configure-workfront-saml-2-adfs.md)
+* [更新您的身分提供者中的SAML 2.0中繼資料](../../../administration-and-setup/add-users/single-sign-on/update-saml-2-metadata-ip.md)
+* [使用ADFS設定Adobe Workfront的SAML 2.0](../../../administration-and-setup/add-users/single-sign-on/configure-workfront-saml-2-adfs.md)
 * [在Adobe Workfront中停用單一登入](../../../administration-and-setup/add-users/single-sign-on/deactivate-sso.md)

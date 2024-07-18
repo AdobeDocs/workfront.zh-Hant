@@ -9,8 +9,8 @@ role: Developer
 exl-id: 29d922f4-f4c6-45e5-b9fa-43e2068ec66d
 source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
-source-wordcount: '168'
-ht-degree: 20%
+source-wordcount: '179'
+ht-degree: 19%
 
 ---
 
@@ -18,11 +18,11 @@ ht-degree: 20%
 
 ## 新資源
 
-這是API版本9的新資源清單，若要檢視版本9的資源更新清單，請造訪 [API第9版的更新](../../wf-api/api/new-api-version-9-updates.md)
+這是API版本9的新資源清單，若要檢視版本9的資源更新清單，請造訪[API版本9](../../wf-api/api/new-api-version-9-updates.md)的更新
 
 ### 存取層級
 
-| 欄位 | 引用 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
+| 欄位 | 引用 | 集合 | 搜尋 | 動作 | 查詢 | 營運 |
 |---|---|---|---|---|---|---|
 | `accessRestrictions` | `customer` | `accessLevelPermissions` |  |  |  | `ADD` |
 | `customerID` | `lastUpdatedBy` | `accessRulePreferences` |  |  |  | `COPY` |
@@ -45,7 +45,7 @@ ht-degree: 20%
 
 ### AccessLevelPermissions
 
-| 欄位 | 引用 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
+| 欄位 | 引用 | 集合 | 搜尋 | 動作 | 查詢 | 營運 |
 |---|---|---|---|---|---|---|
 | `coreAction` |  |  |  |  |  |   |
 | `forbiddenActions` |  |  |  |  |  |   |
@@ -58,7 +58,7 @@ ht-degree: 20%
 
 ### AccessRulePreference
 
-| 欄位 | 引用 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
+| 欄位 | 引用 | 集合 | 搜尋 | 動作 | 查詢 | 營運 |
 |---|---|---|---|---|---|---|
 | `ID` |   |   |   |   |   |   |
 
@@ -66,7 +66,7 @@ ht-degree: 20%
 
 ### BudgetedHour
 
-| 欄位 | 引用 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
+| 欄位 | 引用 | 集合 | 搜尋 | 動作 | 查詢 | 營運 |
 |---|---|---|---|---|---|---|
 | `allocationDate` |  |  |  |  |  | `ADD` |
 | `budgetedHours` |  |  |  |  |  | `DELETE` |
@@ -80,7 +80,7 @@ ht-degree: 20%
 
 ### CalendarPortalSection
 
-| 欄位 | 引用 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
+| 欄位 | 引用 | 集合 | 搜尋 | 動作 | 查詢 | 營運 |
 |---|---|---|---|---|---|---|
 | `calendarInfoID` | `customer` |  | `displayDescription` |  |  | `ADD` |
 | `customerID` | `enteredBy` |  | `displayName` |  |  | `COPY` |
@@ -95,7 +95,7 @@ ht-degree: 20%
 
 ### 行事曆區段
 
-| 欄位 | 引用 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
+| 欄位 | 引用 | 集合 | 搜尋 | 動作 | 查詢 | 營運 |
 |---|---|---|---|---|---|---|
 | `calendarID` | `customer` | `filters` |  | `getConcatenatedExpressionForm` |  | `ADD` |
 | `calEvents` |  |  |  | `getPrettyExpressionForm` |  | `COUNT` |
@@ -112,7 +112,7 @@ ht-degree: 20%
 
 ### Externalsection
 
-| 欄位 | 引用 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
+| 欄位 | 引用 | 集合 | 搜尋 | 動作 | 查詢 | 營運 |
 |---|---|---|---|---|---|---|
 | `appGlobalID` | `customer` |  | `displayDescription` | `calculateURL` |  | `ADD` |
 | `calculatedURL` | `enteredBy` |  | `displayName` | `calculateURLS` |  | `COPY` |
@@ -140,4 +140,4 @@ ht-degree: 20%
 
  
 
-此清單已分成兩半。 若要檢視下半部分，請參閱 [API第9版的新增功能（續）](../../wf-api/api/new-api-version-9-continue.md). 若要檢視版本9更新的清單，請造訪 [API第9版的更新](../../wf-api/api/new-api-version-9-updates.md)
+此清單已分成兩半。 若要檢視下半部分，請參閱[API版本9的新增功能（續）](../../wf-api/api/new-api-version-9-continue.md)。 若要檢視版本9更新的清單，請造訪[API版本9](../../wf-api/api/new-api-version-9-updates.md)的更新

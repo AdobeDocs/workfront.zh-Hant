@@ -21,7 +21,7 @@ ht-degree: 1%
 
 記錄型別是Adobe Workfront Planning的物件型別。 在Workfront Planning中，您可以建立自訂記錄型別，以說明組織生命週期中所需的工作相關專案。
 
-如需有關記錄型別的詳細資訊，請參閱 [記錄型別概觀](/help/quicksilver/planning/architecture/overview-of-record-types.md).
+如需有關記錄型別的詳細資訊，請參閱[記錄型別概觀](/help/quicksilver/planning/architecture/overview-of-record-types.md)。
 
 ## 存取需求
 
@@ -67,12 +67,12 @@ ht-degree: 1%
   </tr>
 <tr>
    <td role="rowheader"><p>版面配置範本</p></td>
-   <td> <p>您的Workfront或群組管理員必須在版面配置範本中新增Planning區域。 如需詳細資訊，請參閱 <a href="/help/quicksilver/planning/access/access-overview.md">存取權總覽</a>. </p>  
+   <td> <p>您的Workfront或群組管理員必須在版面配置範本中新增Planning區域。 如需詳細資訊，請參閱<a href="/help/quicksilver/planning/access/access-overview.md">存取總覽</a>。 </p>  
 </td>
   </tr>
 <tr>
    <td role="rowheader"><p>權限</p></td>
-   <td> <p>管理工作區的許可權</a> </p>  
+   <td> <p>管理工作區</a>的許可權 </p>  
    <p>系統管理員擁有所有工作區的許可權，包括他們未建立的工作區
 </td>
   </tr>
@@ -97,7 +97,7 @@ ht-degree: 1%
    * 自動：
       * 使用範本建立工作區時。
 
-        如需詳細資訊，請參閱 [建立工作區](/help/quicksilver/planning/architecture/create-workspaces.md).
+        如需詳細資訊，請參閱[建立工作區](/help/quicksilver/planning/architecture/create-workspaces.md)。
 
       * 當您使用Excel或CSV檔案匯入時。
 
@@ -127,9 +127,9 @@ ht-degree: 1%
 
 您可以在「作業記錄型別」與「分類」段落中手動新增記錄型別。
 
-如需有關建立工作區的資訊，請參閱 [建立工作區](/help/quicksilver/planning/architecture/create-workspaces.md).
+如需有關建立工作區的資訊，請參閱[建立工作區](/help/quicksilver/planning/architecture/create-workspaces.md)。
 
-如需每個範本包含哪些記錄型別的詳細資訊，請參閱 [工作區範本清單](/help/quicksilver/planning/architecture/workspace-templates.md).
+如需每個範本包含哪些記錄型別的詳細資訊，請參閱[工作區範本清單](/help/quicksilver/planning/architecture/workspace-templates.md)。
 
 ## 從頭開始建立記錄型別
 
@@ -140,16 +140,16 @@ ht-degree: 1%
    或
 
    從工作區中，展開現有工作區名稱右側的向下箭頭，搜尋工作區，然後在工作區顯示在清單中時選取該工作區。
-1. （選用）按一下 **新增區段** 以新增區段至工作區。
-1. 按一下 **新增記錄型別**.
-1. （視條件而定）啟用匯入Excel或CSV檔案來建立記錄型別時，請按一下 **從頭開始**. 否則， **新增記錄型別** 方塊開啟。
+1. （選擇性）按一下&#x200B;**新增區段**&#x200B;以新增區段至工作區。
+1. 按一下&#x200B;**新增記錄型別**。
+1. （視條件而定）啟用匯入Excel或CSV檔案來建立記錄型別時，請按一下[從頭開始] ****。 否則，**新增記錄型別**&#x200B;方塊會開啟。
 
    ![](assets/add-record-type-box-with-appearance-options.png)
 
 1. 更新下列資訊：
 
-   * 將「未命名的記錄型別」取代為您未來記錄型別的名稱。 <!--did they bring back the field label here and did they rename it to "Name"-->
-   * **說明**：新增更多有關記錄型別的資訊。
+   * 將「未命名的記錄型別」取代為您未來記錄型別的名稱。<!--did they bring back the field label here and did they rename it to "Name"-->
+   * **描述**：新增記錄型別的詳細資訊。
    * 為與記錄型別關聯的圖示選取顏色和形狀。 執行下列動作：
       * 選取顏色以識別您的新記錄型別。 這是記錄型別圖示的顏色。 預設會選取「灰色」。
       * 從清單中選取圖示，或開始輸入圖示名稱以說明其代表內容，然後在顯示時選取它。 這是記錄型別的圖示。 依預設，會選取檔案圖示。
@@ -161,7 +161,7 @@ ht-degree: 1%
 
    ![](assets/record-type-card-with-description.png)
 
-1. （可選）將游標停留在記錄型別卡片上，按一下 **更多** 圖示 ![](assets/more-menu.png) 按一下「 」 **編輯** 以修改有關記錄型別的資訊。
+1. （選擇性）將滑鼠停留在記錄型別卡片上，按一下右上角的&#x200B;**更多**&#x200B;圖示![](assets/more-menu.png)，然後按一下&#x200B;**編輯**&#x200B;以修改有關記錄型別的資訊。
 1. （選擇性）按一下記錄型別卡片以開啟記錄型別頁面。
 
    ![](assets/operational-record-type-blank.png)
@@ -184,12 +184,12 @@ ht-degree: 1%
 
    或
 
-   按一下 **更多** 圖示 ![](assets/more-menu.png) 在記錄型別名稱的右側，然後按一下 **編輯** 以重新命名或變更其相關資訊。 如需詳細資訊，請參閱 [編輯記錄型別](/help/quicksilver/planning/architecture/edit-record-types.md).
+   按一下記錄型別名稱右側的&#x200B;**更多**&#x200B;圖示![](assets/more-menu.png)，然後按一下&#x200B;**編輯**&#x200B;以重新命名或變更相關資訊。 如需詳細資訊，請參閱[編輯記錄型別](/help/quicksilver/planning/architecture/edit-record-types.md)。
 
-1. （選用）按一下 **+新增記錄** 以新增所選記錄型別的記錄。 如需詳細資訊，請參閱 [建立記錄](/help/quicksilver/planning/records/create-records.md).
-1. （可選）按一下 **+** 圖示來新增更多欄位至記錄型別。
+1. （選擇性）按一下&#x200B;**+新記錄**&#x200B;以新增所選記錄型別的記錄。 如需詳細資訊，請參閱[建立記錄](/help/quicksilver/planning/records/create-records.md)。
+1. （選擇性）按一下表格右上角的&#x200B;**+**&#x200B;圖示，將更多欄位新增至記錄型別。
 
-   如需有關建立欄位的詳細資訊，請參閱 [建立欄位](/help/quicksilver/planning/fields/create-fields.md).
+   如需有關建立欄位的詳細資訊，請參閱[建立欄位](/help/quicksilver/planning/fields/create-fields.md)。
 
 1. （可選）在標題中，按一下記錄型別名稱左側的向左箭頭，返回選取的工作區。
 
@@ -231,10 +231,10 @@ ht-degree: 1%
    或
 
    從工作區中，展開現有工作區名稱右側的向下箭頭，搜尋工作區，然後在工作區顯示在清單中時選取該工作區。
-1. 按一下 **新增記錄型別**.
-1. 按一下 **Excel/CSV**.
-1. 拖放先前儲存在電腦上的Excel或CSV檔案，或按一下 **選取CSV或Excel檔案** 以瀏覽一個。
-1. 按一下 **檢閱您的資料**.
+1. 按一下&#x200B;**新增記錄型別**。
+1. 按一下&#x200B;**Excel/CSV**。
+1. 拖放先前儲存在電腦上的Excel或CSV檔案，或按一下&#x200B;**選取CSV或Excel檔案**&#x200B;以瀏覽檔案。
+1. 按一下&#x200B;**檢閱您的資料**。
 
    「預覽和編輯」方塊會顯示下列資訊：
 
@@ -251,13 +251,13 @@ ht-degree: 1%
    >    不支援空白的頁面，這些頁面會變暗。
 
 
-1. （可選）按一下 **選取要匯入的工作表** 下拉式功能表，並取消選取您不想要匯入的工作表。
+1. （選擇性）按一下&#x200B;**選取要匯入的工作表**&#x200B;下拉式功能表，並取消選取您不想要匯入的工作表。
 
    ![](assets/select-sheets-to-import-drop-down-with-unselected.png)
 
    取消選取的頁面會以灰色背景顯示。
 
-1. 按一下 **匯入** 當您準備好匯入檔案時。
+1. 當您準備好匯入您的檔案時，請按一下[匯入]。****
 
    下列資訊會匯入Workfront Planning中：
 
@@ -267,7 +267,7 @@ ht-degree: 1%
 
    您可以開始管理記錄型別頁面上的欄位和記錄。
 
-   所有有權存取Workfront Planning的人員現在都能檢視及編輯匯入的記錄型別及其資訊。 <!--this will change with permissions-->
+   所有有權存取Workfront Planning的人員現在都能檢視及編輯匯入的記錄型別及其資訊。<!--this will change with permissions-->
 
 <!--## Connect record types with object types from another application
 

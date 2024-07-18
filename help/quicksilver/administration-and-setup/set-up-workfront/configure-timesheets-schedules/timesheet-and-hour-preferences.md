@@ -3,7 +3,7 @@ user-type: administrator
 product-area: system-administration;timesheets
 navigation-topic: configure-timesheets-and-schedules
 title: 設定時程表和小時偏好設定
-description: 作為 [!DNL Adobe Workfront] 管理員，您可以在中指定時程表和時數的偏好設定 [!DNL Workfront] 以定義時間表可預先填入的專案以及使用者可記錄時間的專案。
+description: 作為 [!DNL Adobe Workfront] 管理員，您可以在 [!DNL Workfront] 中指定時程表和時數的偏好設定，以定義時程表可預先填入的專案以及使用者可記錄時間的專案。
 author: Alina and Lisa
 feature: System Setup and Administration
 role: Admin
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 <!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.-->
 
-作為 [!DNL Adobe Workfront] 管理員，您可以在中指定時程表和時數的偏好設定 [!DNL Workfront] 以定義時間表可預先填入的專案以及使用者可記錄時間的專案。
+作為[!DNL Adobe Workfront]管理員，您可以在[!DNL Workfront]中指定時程表和時數的偏好設定，以定義時程表可預先填入的專案以及使用者可記錄時間的專案。
 
 >[!IMPORTANT]
 >
@@ -31,7 +31,7 @@ ht-degree: 0%
 >* 釘選到時程表的專案
 >* 您搜尋並手動新增至時程表的專案。 預設會釘選手動新增的專案。
 >
->如需詳細資訊，請參閱 [記錄時間](../../../timesheets/create-and-manage-timesheets/log-time.md) 和 [時程表總覽](/help/quicksilver/timesheets/timesheets/timesheets-overview.md).
+>如需詳細資訊，請參閱[記錄時間](../../../timesheets/create-and-manage-timesheets/log-time.md)和[時程表總覽](/help/quicksilver/timesheets/timesheets/timesheets-overview.md)。
 
 
 
@@ -58,28 +58,28 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定</td> 
-   <td> <p>您必須是 [!DNL Workfront] 管理員。</p>  </td>
+   <td> <p>您必須是[!DNL Workfront]管理員。</p>  </td>
 </tr> 
  </tbody> 
 </table>
 
-*如需詳細資訊，請參閱 [Workfront檔案中的存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 ## 設定時程表和小時偏好設定
 
 {{step-1-to-setup}}
 
-1. 按一下 **[!UICONTROL 時程表和時數]** > **[!UICONTROL 偏好設定]**.
+1. 按一下&#x200B;**[!UICONTROL 時程表和時數]** > **[!UICONTROL 偏好設定]**。
 
    時程表和時數偏好設定頁面隨即顯示。
 
-1. （選用）在 **系統時程表和時數喜好設定** 搜尋方塊中，開始輸入群組的名稱，然後在群組顯示在清單中時選取群組。
+1. （選擇性）在&#x200B;**系統時程表和時數偏好設定**&#x200B;搜尋方塊中，開始輸入群組的名稱，然後在其顯示在清單中時選取它。
 
    ![](assets/search-for-group-box-in-timesheets-preferences-page.png)
 
-   「時程表和小時偏好設定」頁面會以您所選群組的偏好設定來更新。 系統層級的偏好設定必須解除鎖定，才能修改群組層級的偏好設定。 如需詳細資訊，請參閱區段 [解鎖群組的時程表和小時偏好設定](#unlock-timesheet-and-hour-preferences-for-groups) 本文章內容。
+   「時程表和小時偏好設定」頁面會以您所選群組的偏好設定來更新。 系統層級的偏好設定必須解除鎖定，才能修改群組層級的偏好設定。 如需詳細資訊，請參閱本文章的[解除鎖定群組](#unlock-timesheet-and-hour-preferences-for-groups)的時程表和小時偏好設定。
 
-1. 在 **[!UICONTROL 一般偏好設定]** 區段，設定下列任一選項：
+1. 在&#x200B;**[!UICONTROL 一般偏好設定]**&#x200B;區段中，設定下列任一選項：
 
    <table style="table-layout:auto"> 
     <col> 
@@ -91,7 +91,7 @@ ht-degree: 0%
        <ul> 
         <li>他們有權記錄時間的任何專案、任務和問題</li> 
         <li>他們的時程表作為一般時間</li> 
-       </ul> <p>當使用者計畫離開辦公室並想要預先記錄該時間時，此功能會很有用。</p> <p><b>注意</b>：</p> 
+       </ul> <p>當使用者計畫離開辦公室並想要預先記錄該時間時，此功能會很有用。</p> <p><b>附註</b>：</p> 
        <p>您無法防止使用者記錄已關閉或已取消的任務或問題的時間。 您只能防止使用者記錄完成或廢棄專案的時間。 建議您在任務和問題清單中使用篩選器，以排除已完成或取消的對使用者可見的任務和問題。</p> </td> 
      </tr>
 
@@ -105,7 +105,7 @@ ht-degree: 0%
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader">[！UICONTROL限制所有者和管理員只能編輯時程表]</td> 
-      <td> <p>限制僅編輯時程表所有者和 [!DNL Workfront] 管理員。 停用此選項時，也可以由以下人員編輯時程表：</p> 
+      <td> <p>限制僅編輯時程表所有者和[!DNL Workfront]管理員。 停用此選項時，也可以由以下人員編輯時程表：</p> 
        <ul> 
         <li> <p>具有時程表管理存取許可權的使用者及其存取層級的時數</p> </li> 
         <li> <p>時程表核准者（如果時程表上啟用了「可編輯時數」）</p> </li> 
@@ -114,12 +114,12 @@ ht-degree: 0%
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader">[！UICONTROL限制所有者和管理員只能編輯小時]</td> 
-      <td>限制僅編輯輸入時數和 [!DNL Workfront] 管理員。 此設定適用於專案或時數報表中的[！UICONTROL時數]索引標籤。</td> 
+      <td>限制僅編輯輸入時數的使用者和[!DNL Workfront]管理員。 此設定適用於專案或時數報表中的[！UICONTROL時數]索引標籤。</td> 
      </tr> 
     </tbody> 
    </table>
 
-1. 在 **[!UICONTROL 使用者可以記錄時間的位置]** 區段，設定下列任一選項：
+1. 在&#x200B;**[!UICONTROL 使用者可記錄時間]**&#x200B;區段中，設定下列任一選項：
 
    <table style="table-layout:auto">
     <tr>
@@ -136,14 +136,14 @@ ht-degree: 0%
     </tr>
    </table>
 
-1. 在 **[!UICONTROL 預先填入時程表]** 區段，設定下列任一選項：
+1. 在&#x200B;**[!UICONTROL 預先填入時程表]**&#x200B;區段中，設定下列任一選項：
 
    <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">[！UICONTROL所屬工作] &lt;number of="" weeks=""&gt; [！UICONTROL時程表的工作範圍]</td> 
+      <td role="rowheader">[！UICONTROL在時程表工作範圍之內] &lt;周數&gt; [！UICONTROL]的工作</td> 
       <td> <p>定義包含指派給使用者的任務和問題日期的時程表日期範圍之前和之後的周數。</p> 
       <p>預設值為1週，您可以將此範圍延長至4週。</p> 
       <p>也就是說，如果您為範圍選取4週，則時程表已預先填入日期在時程表日期範圍前4週至時程表日期範圍後4週之間的任何時間任務和問題。 </p> </td> 
@@ -163,7 +163,7 @@ ht-degree: 0%
     </tbody> 
    </table>
 
-1. 在 **[!UICONTROL 已刪除專案、任務和問題]** 部分，指定下列專案：
+1. 在&#x200B;**[!UICONTROL 已刪除的專案、任務和問題]**&#x200B;區段中，指定下列專案：
 
    <table style="table-layout:auto"> 
     <col> 
@@ -173,16 +173,16 @@ ht-degree: 0%
       <td role="rowheader"> 刪除專案時</td> 
       <td> 
        <ul> 
-        <li><strong>[！UICONTROL保留已新增至時程表的記錄時間作為一般時間]</strong>：如果此專案在稍後還原，時間仍會保留在時程表中。</li> 
-        <li><strong>[！UICONTROL刪除任何記錄時間]</strong>：若日後還原此專案，系統會將已記錄的時間還原至該專案。</li> 
+        <li><strong>[！UICONTROL保留記錄時間已新增至時程表作為一般時間]</strong>：如果稍後還原此專案，時間仍會保留在時程表中。</li> 
+        <li><strong>[！UICONTROL刪除任何記錄時間]</strong>：如果稍後還原此專案，則已記錄的時間會還原至專案。</li> 
        </ul> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">刪除任務或問題時</td> 
       <td> 
        <ul> 
-        <li><strong>[！UICONTROL將任何記錄時間移至專案]</strong> 任務或問題所在的位置：若日後還原此任務或問題，時間仍會保留於專案。<br></li> 
-        <li> <p><strong>[！UICONTROL刪除任何記錄時間]</strong>：若日後還原此任務或問題，系統會將記錄時間還原至任務或問題。</p> <p>如需這些選項的詳細資訊，請參閱 <a href="../../../administration-and-setup/manage-workfront/manage-deleted-items/configure-how-hours-affected-when-obj-deleted-restored.md" class="MCXref xref">刪除和還原物件後的幾小時內，[！UICONTROL設定影響]</a>.</p> </li> 
+        <li><strong>[！UICONTROL將任何記錄時間移至任務或問題所在的專案]</strong>：若日後還原此任務或問題，則時間仍會保留在專案上。<br></li> 
+        <li> <p><strong>[！UICONTROL刪除任何記錄時間]</strong>：如果稍後還原此任務或問題，則記錄時間會還原至任務或問題。</p> <p>如需這些選項的詳細資訊，請參閱刪除和還原物件時數的<a href="../../../administration-and-setup/manage-workfront/manage-deleted-items/configure-how-hours-affected-when-obj-deleted-restored.md" class="MCXref xref">[！UICONTROL設定影響]</a>。</p> </li> 
        </ul> </td> 
      </tr> 
     </tbody> 
@@ -196,22 +196,22 @@ ht-degree: 0%
 
 當偏好設定已解除鎖定且群組管理員修改時，如果群組是時間表所有者的主群組，則會影響時間表所有者。
 
-如需有關群組管理員如何為群組設定時程表和小時偏好設定的資訊，請參閱 [設定群組的時程表和小時偏好設定](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-timesheet-hour-preferences-group.md).
+如需有關群組管理員如何為群組設定時程表和小時偏好設定的資訊，請參閱[為群組設定時程表和小時偏好設定](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-timesheet-hour-preferences-group.md)。
 
 >[!NOTE]
 >
->之後 [!DNL Workfront] 管理員在系統層級解除鎖定偏好設定，任何群組管理員都可以對其進行設定，然後將其鎖定，以確保其群組中的所有人和下面的子群組都使用相同的設定。 此功能與 [!DNL Workfront] 管理員必須設定並鎖定系統中每個人的偏好設定。 如需詳細資訊，請參閱 [鎖定或解鎖群組時程表和小時偏好設定](../../../administration-and-setup/manage-groups/create-and-manage-groups/lock-or-unlock-a-group-timesheet-hour-preference.md).
+>在[!DNL Workfront]管理員在系統層級解除鎖定偏好設定後，任何群組管理員都可以對其進行設定，然後將其鎖定，以確保其群組中的所有人和下面的子群組都使用相同的設定。 此功能與[!DNL Workfront]管理員必須設定並鎖定系統中每個人的偏好設定功能平行。 如需詳細資訊，請參閱[鎖定或解除鎖定群組時程表和小時喜好設定](../../../administration-and-setup/manage-groups/create-and-manage-groups/lock-or-unlock-a-group-timesheet-hour-preference.md)。
 
 若要解鎖專案偏好設定讓群組可以加以設定：
 
 {{step-1-to-setup}}
 
-1. 在左側面板中，按一下 **[!UICONTROL 時程表和時數]**，然後按一下 **[!UICONTROL 偏好設定]**.
+1. 在左側面板中，按一下&#x200B;**[!UICONTROL 時程表和時數]**，然後按一下&#x200B;**[!UICONTROL 偏好設定]**。
 
 1. 執行下列任一項作業：
 
-   * 如果您希望群組管理員能夠設定其群組的偏好設定，請按一下 **解除鎖定** 切換 ![](assets/unlock-toggle-button.png) 以解除鎖定。
-   * 如果您希望所有群組都使用您的偏好設定設定，請確定切換已鎖定 ![](assets/locked-preference-toggle.png) （這是預設值）。
+   * 如果您希望群組管理員能夠設定其群組的偏好設定，請按一下&#x200B;**解除鎖定**&#x200B;切換![](assets/unlock-toggle-button.png)以解除鎖定。
+   * 如果您希望所有群組都使用您的偏好設定設定，請確定切換已鎖定![](assets/locked-preference-toggle.png) （此為預設值）。
 
      >[!IMPORTANT]
      >

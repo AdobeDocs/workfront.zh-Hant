@@ -3,21 +3,21 @@ user-type: administrator
 product-area: system-administration;setup
 navigation-topic: system-tracked-update-feeds
 title: 設定系統更新
-description: Workfront會在物件的中產生自動系統更新 [!UICONTROL 更新] 區域來記錄使用者對物件執行的變更。 作為 [!DNL Workfront] 管理員，您可以設定哪些物件欄位和動作 [!DNL Workfront] 追蹤以記錄系統更新。
+description: Workfront會在物件的[!UICONTROL 更新]區域產生自動系統更新，以記錄使用者對物件執行的變更。 作為 [!DNL Workfront] 管理員，您可以設定哪些物件欄位和動作 [!DNL Workfront] 追蹤以記錄系統更新。
 author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 54fc3f77-57d1-47f1-8e16-73626a6733ec
 source-git-commit: c2c09486756db021b6edaf380c5a54d531ffa723
 workflow-type: tm+mt
-source-wordcount: '888'
+source-wordcount: '889'
 ht-degree: 7%
 
 ---
 
 # 設定系統更新
 
-[!DNL Adobe Workfront] 在物件的中產生自動系統更新 [!UICONTROL 更新] 區域以記錄下列事件：
+[!DNL Adobe Workfront]在物件的[!UICONTROL 更新]區域產生自動系統更新，以記錄下列事件：
 
 * 使用者在物件欄位中所做的變更
 * 使用者對物件執行的動作
@@ -28,11 +28,11 @@ ht-degree: 7%
 * 進行變更的使用者名稱
 * 變更的時間和日期
 
-如需有關系統更新的詳細資訊，請參閱 [系統追蹤更新](../system-tracked-update-feeds/system-tracked-update-feeds.md).
+如需系統更新的詳細資訊，請參閱[系統追蹤的更新](../system-tracked-update-feeds/system-tracked-update-feeds.md)。
 
-作為 [!DNL Workfront] 管理員，您可以設定哪些物件欄位和動作 [!DNL Workfront] 追蹤以記錄系統更新。
+作為[!DNL Workfront]管理員，您可以設定哪些物件欄位和動作[!DNL Workfront]追蹤以記錄系統更新。
 
-例如，您可以 [!DNL Workfront] 追蹤使用者對整個系統中的問題名稱所做的所有變更。 然後，任何問題名稱變更將作為系統更新出現在問題的上 [!UICONTROL 更新] 區域。
+例如，您可以讓[!DNL Workfront]追蹤使用者對整個系統中的問題名稱所做的所有變更。 然後，任何問題名稱變更都會顯示為問題[!UICONTROL 更新]區域上的系統更新。
 
 ## 存取需求
 
@@ -52,75 +52,75 @@ ht-degree: 7%
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定</td> 
-   <td> <p>您必須是 [!DNL Workfront] 管理員。</p> <p><b>注意</b>：如果您還是沒有存取權，請詢問您的 [!DNL Workfront] 管理員是否對您的存取層級設定其他限制。 如需瞭解如何 [!DNL Workfront] 管理員可以修改您的存取層級，請參閱 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>.</p> </td> 
+   <td> <p>您必須是[!DNL Workfront]管理員。</p> <p><b>注意</b>：如果您仍然沒有存取權，請詢問您的[!DNL Workfront]管理員是否對您的存取層級設定了其他限制。 如需[!DNL Workfront]管理員如何修改存取層級的詳細資訊，請參閱<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## 決定哪些欄位 [!DNL Workfront] 追蹤物件型別
+## 決定物件型別要追蹤哪些欄位[!DNL Workfront]
 
-您可以決定哪些資訊 [!DNL Workfront] 追蹤使用者何時在整個過程中變更與特定物件型別相關的資訊 [!DNL Workfront] 介面。 您可以新增或移除想要的欄位來執行此操作 [!DNL Workfront] 以追蹤該物件型別。
+您可以決定當使用者在整個[!DNL Workfront]介面中變更與特定物件型別相關聯的資訊時，[!DNL Workfront]會追蹤哪些資訊。 若要這麼做，請新增或移除您要[!DNL Workfront]追蹤該物件型別的欄位。
 
 >[!NOTE]
 >
->* [!DNL Workfront] 無法追蹤和記錄有關計算自訂欄位的更新。
->* 您可以自訂專案、任務、問題、投資組合、計畫和使用者的系統更新。 您無法自訂範本、檔案或時程表的系統更新，但是 [!DNL Workfront] 會記錄這些物件的系統更新。
+>* [!DNL Workfront]無法追蹤和記錄有關已計算自訂欄位的更新。
+>* 您可以自訂專案、任務、問題、投資組合、計畫和使用者的系統更新。 您無法自訂範本、檔案或時程表的系統更新，但[!DNL Workfront]確實記錄這些物件的系統更新。
 >
 
 
 
-* [新增您想要的欄位 [!DNL Workfront] 要追蹤的](#add-fields-you-want-workfront-to-track)
+* [新增您要 [!DNL Workfront] 追蹤的欄位](#add-fields-you-want-workfront-to-track)
 * [移除不想追蹤的欄位](#remove-fields-that-you-don-t-want-tracked)
 
-### 新增您想要的欄位 [!DNL Workfront] 要追蹤的 {#add-fields-you-want-workfront-to-track}
+### 新增您要[!DNL Workfront]追蹤的欄位 {#add-fields-you-want-workfront-to-track}
 
-您可以新增想要的欄位 [!DNL Workfront] 以追蹤整個過程中的特定物件型別 [!DNL Workfront] 介面。 當使用者變更該欄位中的資訊時， [!DNL Workfront] 將有關變更的資訊記錄為中的系統更新 [!UICONTROL 更新] 物件的區域。
+您可以新增要[!DNL Workfront]在整個[!DNL Workfront]介面中追蹤特定物件型別的欄位。 當使用者在該欄位中變更資訊時，[!DNL Workfront]會將有關變更的資訊記錄為物件的[!UICONTROL 更新]區域中的系統更新。
 
 >[!NOTE]
 >
->您可以在更新摘要中追蹤最多300個內建和自訂欄位。 如果您要追蹤最大欄位數，並想追蹤未顯示在 [!UICONTROL 所有欄位] 子索引標籤中，您必須先移除部分已追蹤的欄位，才能追蹤新欄位。 如需有關從更新欄位中移除欄位的詳細資訊，請參閱 [移除不想追蹤的欄位](#remove-fields-that-you-don-t-want-tracked).
+>您可以在更新摘要中追蹤最多300個內建和自訂欄位。 若您正在追蹤最大欄位數，且想要追蹤未顯示在[!UICONTROL 所有欄位]子標籤中的其他欄位，您必須先移除部分已追蹤的欄位，才能追蹤新欄位。 如需有關從更新欄位移除欄位的詳細資訊，請參閱[移除您不想追蹤的欄位](#remove-fields-that-you-don-t-want-tracked)。
 
-1. 按一下 **[!UICONTROL 主要功能表]** 圖示 ![](assets/main-menu-icon.png) 位於的右上角 [!DNL Adobe Workfront]，然後按一下 **[!UICONTROL 設定]** ![](assets/gear-icon-settings.png).
+1. 按一下[!DNL Adobe Workfront]右上角的&#x200B;**[!UICONTROL 主要功能表]**&#x200B;圖示![](assets/main-menu-icon.png)，然後按一下&#x200B;**[!UICONTROL 設定]** ![](assets/gear-icon-settings.png)。
 
-1. 在左側的面板中，按一下 **[!UICONTROL 介面]** > **[!UICONTROL 更新摘要]**.
+1. 在左側的面板中，按一下&#x200B;**[!UICONTROL 介面]** > **[!UICONTROL 更新摘要]**。
 
-1. 按&#x200B;一下 **[!UICONTROL 新增欄位]**，然後按一下您要追蹤的物件。
+1. 按&#x200B;一下&#x200B;**[!UICONTROL 新增欄位]**，然後按一下您要追蹤的物件。
 
-1. 在&#x200B; **[!UICONTROL 更新摘要]** 在出現的方塊中，開始輸入物件的內建（標準）欄位或自訂欄位，然後按一下以在物件出現在清單中時選取它。
+1. 在出現的&#x200B;**[!UICONTROL 更新摘要]**&#x200B;方塊中，開始輸入物件的內建（標準）欄位或自訂欄位，然後按一下以在物件出現在清單中時選取它。
 
-   如果 [!DNL Workfront] 已在追蹤欄位，您無法從清單中再次新增該欄位。
+   如果[!DNL Workfront]已在追蹤欄位，您無法從清單中再次新增該欄位。
 
-1. 新增所有您想要的欄位後 [!DNL Workfront] 若要追蹤，請按一下 **[!UICONTROL 新增欄位]**.
+1. 新增所有您要[!DNL Workfront]追蹤的欄位後，請按一下&#x200B;**[!UICONTROL 新增欄位]**。
 
-   您新增的內建欄位會顯示在 **[!UICONTROL 內建欄位]** 子標籤。
+   您新增的內建欄位會顯示在&#x200B;**[!UICONTROL 內建欄位]**&#x200B;子標籤下。
 
-   您新增的自訂欄位會顯示在 **[!UICONTROL 自訂欄位]** 子標籤。
+   您新增的自訂欄位會顯示在&#x200B;**[!UICONTROL 自訂欄位]**&#x200B;子標籤下。
 
-   此 **[!UICONTROL 所有欄位]** 子標籤會顯示正在追蹤的內建和自訂欄位。
+   **[!UICONTROL 所有欄位]**&#x200B;子標籤同時顯示正在追蹤的內建和自訂欄位。
 
 ### 移除不想追蹤的欄位 {#remove-fields-that-you-don-t-want-tracked}
 
-您可以移除不希望系統追蹤整個過程中特定物件型別的欄位 [!DNL Workfront] 介面。
+您可以移除不希望系統透過[!DNL Workfront]介面追蹤特定物件型別的欄位。
 
-1. 按一下 **[!UICONTROL 主要功能表]** 圖示 ![](assets/main-menu-icon.png) 位於的右上角 [!DNL Adobe Workfront]，然後按一下 **[!UICONTROL 設定]** ![](assets/gear-icon-settings.png).
+1. 按一下[!DNL Adobe Workfront]右上角的&#x200B;**[!UICONTROL 主要功能表]**&#x200B;圖示![](assets/main-menu-icon.png)，然後按一下&#x200B;**[!UICONTROL 設定]** ![](assets/gear-icon-settings.png)。
 
-1. 按一下 **[!UICONTROL 介面]** > **[!UICONTROL 更新摘要]**.
+1. 按一下&#x200B;**[!UICONTROL 介面]** > **[!UICONTROL 更新摘要]**。
 
-1. 在 **[!UICONTROL 已追蹤的欄位]** 索引標籤中，選取 **[!UICONTROL 所有欄位]** 子標籤。
+1. 在&#x200B;**[!UICONTROL 追蹤的欄位]**&#x200B;標籤上，選取&#x200B;**[!UICONTROL 所有欄位]**&#x200B;子標籤。
 
    這會顯示目前追蹤的內建和自訂欄位。
 
-1. 選取您要停止追蹤的欄位，然後按一下 **[!UICONTROL 移除]**.
+1. 選取您要停止追蹤的欄位，然後按一下[移除]。****
 
-1. 在 **[!UICONTROL 移除欄位]** 方塊中，按一下 **[!UICONTROL 是的，請移除]** 以確認。
+1. 在出現的&#x200B;**[!UICONTROL 移除欄位]**&#x200B;方塊中，按一下&#x200B;**[!UICONTROL 是，移除它]**&#x200B;以進行確認。
 
-有關先前追蹤欄位的任何更新都會保留在 [!UICONTROL 更新] 錄製區域。
+有關先前追蹤的欄位的任何更新會保留在記錄它們的[!UICONTROL 更新]區域中。
 
-## 決定哪些動作 [!DNL Workfront] 追蹤物件型別
+## 決定物件型別要追蹤哪些動作[!DNL Workfront]
 
-您可以 [!DNL Workfront] 在整個中追蹤使用者可在物件上執行的下列動作 [!DNL Workfront] 介面。
+您可以讓[!DNL Workfront]在整個[!DNL Workfront]介面中追蹤使用者可以在物件上執行的下列動作。
 
-例如，您可以 [!DNL Workfront] 每次使用者變更任務或問題時記錄更新。 然後，變更會以系統更新的形式出現在 [!UICONTROL 更新] 任務或問題的區域。
+例如，每次使用者將指派變更至任務或問題時，您都可以讓[!DNL Workfront]記錄更新。 然後，變更會以系統更新的形式出現在任務或問題的[!UICONTROL 更新]區域中。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -130,7 +130,7 @@ ht-degree: 7%
   <tr> 
    <th><strong>動作</strong> </th> 
    <th><strong>物件</strong> </th> 
-   <th><strong>主要狀態</strong> </th> 
+   <th><strong>預設狀態</strong> </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -187,15 +187,15 @@ ht-degree: 7%
  </tbody> 
 </table>
 
-設定您要執行的動作 [!DNL Workfront] 要追蹤的：
+若要設定您要[!DNL Workfront]追蹤的動作：
 
-1. 按一下 **[!UICONTROL 主要功能表]** 圖示 ![](assets/main-menu-icon.png) 位於的右上角 [!DNL Adobe Workfront]，然後按一下 **[!UICONTROL 設定]** ![](assets/gear-icon-settings.png).
+1. 按一下[!DNL Adobe Workfront]右上角的&#x200B;**[!UICONTROL 主要功能表]**&#x200B;圖示![](assets/main-menu-icon.png)，然後按一下&#x200B;**[!UICONTROL 設定]** ![](assets/gear-icon-settings.png)。
 
-1. 按一下 **[!UICONTROL 介面]** > **[!UICONTROL 更新摘要]**.
+1. 按一下&#x200B;**[!UICONTROL 介面]** > **[!UICONTROL 更新摘要]**。
 
-1. 按一下 **[!UICONTROL 動作]** 標籤。
+1. 按一下&#x200B;**[!UICONTROL 動作]**&#x200B;標籤。
 
 1. 選取要啟用的動作，或取消選取要停用的動作。
-1. 按一下&#x200B;**[!UICONTROL 儲存]**。
+1. 按一下「**[!UICONTROL 儲存]**」。
 
-當您停用動作時，先前就該動作所錄製的任何更新都會保留在 [!UICONTROL 更新] 錄製區域。
+當您停用動作時，先前記錄的有關該動作的任何更新都會保留在記錄該動作的[!UICONTROL 更新]區域中。

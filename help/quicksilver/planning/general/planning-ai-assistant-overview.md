@@ -28,7 +28,7 @@ ht-degree: 0%
 >
 >如果您屬於此階段，您的客戶代表將會通知您。
 >
->如需詳細資訊，請參閱 [Adobe Workfront規劃概觀](/help/quicksilver/planning/general/planning-overview.md).
+>如需詳細資訊，請參閱[Adobe Workfront規劃總覽](/help/quicksilver/planning/general/planning-overview.md)。
 
 您可以使用「AI輔助程式」，根據目前頁面內容和記錄結構來產生、更新或移除記錄。
 
@@ -38,7 +38,7 @@ ht-degree: 0%
 
 * 預設情況下，Workfront管理員可以使用AI助理。
 
-* Workfront管理員必須為所有其他使用者啟用AI助理。 如需詳細資訊，請參閱 [啟用或停用AI助理](/help/quicksilver/workfront-basics/ai-assistant/enable-or-disable-assistant.md).
+* Workfront管理員必須為所有其他使用者啟用AI助理。 如需詳細資訊，請參閱[啟用或停用AI助理](/help/quicksilver/workfront-basics/ai-assistant/enable-or-disable-assistant.md)。
 
 * AI助理會在每個頁面的內容中運作。 您為AI助理提交的請求必須參考您開啟的頁面中可用的功能。
 
@@ -72,15 +72,15 @@ ht-degree: 0%
 
 ## 存取AI助理
 
-1. 登入Workfront，然後前往 **規劃** 區域。
+1. 登入Workfront，然後前往&#x200B;**規劃**&#x200B;區域。
 
-1. 按一下 **工作區卡片**.
+1. 按一下&#x200B;**工作區卡片**。
 
-1. （選用）按一下 **記錄型別卡片**.
+1. （選擇性）按一下&#x200B;**記錄型別卡片**。
 
-1. （選用）按一下 **記錄** 以開啟記錄的 **詳細資料** 頁面。
+1. （選擇性）按一下&#x200B;**記錄**&#x200B;以開啟記錄的&#x200B;**詳細資料**&#x200B;頁面。
 
-1. 按一下 **AI助理圖示** 全域導覽列中熒幕右上角的「 」。
+1. 按一下全域導覽列中熒幕右上角的&#x200B;**AI助理圖示**。
 
    ![](assets/ai-assistant-icon-highlighted.png)
 

@@ -85,7 +85,7 @@ ht-degree: 9%
 
 >[!NOTE]
 >
->此情境中提供的指示不像中提供的逐步指示那麼明確 [Kick-Start情境：公司、群組、角色和使用者Kick-Start準備](../../../administration-and-setup/manage-workfront/using-kick-starts/kick-starts-scenario-company-group-role-user-prep.md). 假設您已瞭解如何從「公司」和「群組」工作表中查詢及複製值，因此將提及這些步驟，但並未特別概述。
+>此情境中提供的指示並不像[Kick-Starts情境中提供的逐步指示那麼明確：公司、群組、角色和使用者Kick-Starts準備](../../../administration-and-setup/manage-workfront/using-kick-starts/kick-starts-scenario-company-group-role-user-prep.md)。 假設您已瞭解如何從「公司」和「群組」工作表中查詢及複製值，因此將提及這些步驟，但並未特別概述。
 
 1. 設定。
 1. 匯入使用者。
@@ -284,9 +284,9 @@ ht-degree: 9%
 
 設定下列專案欄位的值：
 
-* **設定isNew欄**
+* **設定isNew資料行**
 在isNew欄的列3到6中輸入TRUE。
-* **設定唯一ID**
+* **設定唯一識別碼**
 在每一列中，為ID欄輸入唯一的ID — 通常，建立新記錄時，從1開始的整數可正常運作。
 * **設定專案名稱**
 在setName欄中輸入每個專案的名稱。
@@ -333,11 +333,11 @@ ht-degree: 9%
 在每一列中，為ID欄輸入唯一的ID。
 * **設定名稱**
 將工作名稱輸入到setName欄中。
-* **確認專案ID**
+* **確認專案識別碼**
 輸入您為實作Workfront專案設定的ID；檢閱PROJ專案表以確定它是正確的ID。
 * **設定使用者**
 移至「使用者」工作表，以查詢指派給每個工作的使用者ID，並在setAssignedToID欄中的個別儲存格中輸入這些值。
-* **識別任務關係**
+* **識別工作關係**
 對於任務2到5，在setParentID欄中輸入1。 若為工作9，請在setParentID欄中輸入8。 在setPrecessortString欄中，輸入每個前置任務的任務編號。 如果任務有多個前置任務，例如此案例中的任務8，您需要使用逗號來分隔每個前置任務ID。 使用建立前置任務關係一文中所述的簡寫，可以在非「完成 — 開始」關係上以延遲來定義前置任務。
 * **設定持續時間**
 在setDuration欄位中輸入任務的時數、天數、周數或月數，以設定每個任務的工期。 然後在setDurationUnit欄位中輸入持續時間單位。
@@ -378,4 +378,4 @@ ht-degree: 9%
 
 * **匯入Excel檔案**
 
-  遵循中提供的指示 [使用Kick-Start範本將資料匯入Adobe Workfront](../../../administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md).
+  遵循[使用Kick-Start範本將資料匯入Adobe Workfront](../../../administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md)中提供的指示。

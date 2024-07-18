@@ -49,7 +49,7 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-如需有關此表格的詳細資訊，請參閱 [Workfront檔案中的存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 ## 停用自訂表單
 
@@ -61,9 +61,9 @@ ht-degree: 0%
 
 {{step-1-to-setup}}
 
-1. 在左側面板中，選擇 **自訂Forms**.
-1. 在 **Forms** 區域，選取您要停用的自訂表單。
-1. 在「作用中」欄中，選擇 **假** 並按一下以離開欄。 此表單已不在使用中。
+1. 在左側面板中，選擇&#x200B;**自訂Forms**。
+1. 在&#x200B;**Forms**&#x200B;區域中，選取您要停用的自訂表單。
+1. 在[為使用中]欄中，選擇&#x200B;**False**，然後按一下退出該欄。 此表單已不在使用中。
 
 ## 重新啟用自訂表單
 
@@ -71,6 +71,6 @@ ht-degree: 0%
 
 {{step-1-to-setup}}
 
-1. 在左側面板中，選擇 **自訂Forms**.
-1. 在 **Forms** 區域，選取您要重新啟用的自訂表單。
-1. 在「作用中」欄中，選擇 **真** 並按一下以離開欄。 此表單現在為使用中。
+1. 在左側面板中，選擇&#x200B;**自訂Forms**。
+1. 在&#x200B;**Forms**&#x200B;區域中，選取您要重新啟用的自訂表單。
+1. 在[為使用中]欄中，選擇&#x200B;**True**，然後按一下退出該欄。 此表單現在為使用中。

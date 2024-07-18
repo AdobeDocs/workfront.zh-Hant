@@ -16,7 +16,7 @@ ht-degree: 0%
 
 本頁說明在23.3版發行時間範圍內對Adobe Workfront應用程式的各個區域外觀和感覺所做的小幅更新。 這些增強功能將在發佈到「預覽」後至少2週內可在「生產」環境中使用。
 
-如需23.3版本所有可用變更的清單，請參閱 [23.3版本總覽](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-release-overview.md).
+如需23.3版本可用的所有變更清單，請參閱[23.3版本總覽](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-release-overview.md)。
 
 ## 請求清單的介面改善
 
@@ -31,7 +31,7 @@ ht-degree: 0%
 * 頁面上傳時現在有載入指示器；
 * 「複製」圖示是持續性的，並會伴隨著文字；若未選取任何請求，則會停用此圖示。
 
-如需詳細資訊，請參閱 [複製並提交請求](/help/quicksilver/manage-work/requests/create-requests/copy-and-submit-requests.md). 本檔案將在功能發行後更新。
+如需詳細資訊，請參閱[複製並提交請求](/help/quicksilver/manage-work/requests/create-requests/copy-and-submit-requests.md)。 本檔案將在功能發行後更新。
 
 ## 將新問題新增到專案時更新設計
 
@@ -43,7 +43,7 @@ ht-degree: 0%
 
 我們已更新「新問題」方塊，在向專案提交新問題時會顯示此方塊。 現在，介面符合新請求方塊，在將新請求提交到請求佇列時顯示。
 
-如需詳細資訊，請參閱 [建立問題](../../../manage-work/issues/manage-issues/create-issues.md). 本檔案將在功能發行後更新。
+如需詳細資訊，請參閱[建立問題](../../../manage-work/issues/manage-issues/create-issues.md)。 本檔案將在功能發行後更新。
 
 ## 更新的收費率清單
 

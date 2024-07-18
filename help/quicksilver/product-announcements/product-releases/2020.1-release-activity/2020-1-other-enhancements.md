@@ -18,7 +18,7 @@ ht-degree: 0%
 
 本頁說明2020.1版中對Workfront一般區域進行的所有增強功能。 這些增強功能目前可在「預覽」環境中取得，並將於2020年3月底或4月初在「生產」環境中取得。
 
-如需2020.1版所有可用變更的清單，請參閱 [2020.1版本總覽](../../../product-announcements/product-releases/2020.1-release-activity/2020-1-release-overview.md).
+如需2020.1版所有可用變更的清單，請參閱[2020.1版總覽](../../../product-announcements/product-releases/2020.1-release-activity/2020-1-release-overview.md)。
 
 ## 將校樣新增至允許清單所需變更
 
@@ -32,19 +32,19 @@ ht-degree: 0%
 
 &#42;.workfront.com
 
-此 &#42;proofhq.com URL也是必填欄位。
+&#42;proofhq.com URL也是必要的。
 
-如需更新允許清單的詳細資訊，請參閱 [設定防火牆的允許清單](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).
+如需更新允許清單的詳細資訊，請參閱[設定防火牆的允許清單](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md)。
 
 >[!NOTE]
 >
->此更新僅適用於Workfront內的校訂；使用Workfront Proof獨立應用程式時，不適用。
+>此更新僅適用於Workfront內的校訂，不適用於使用Workfront Proof獨立應用程式。
 
 ## 更新Workfront Cookie行為以維持與Chrome的相容性
 
-為了維持與即將推出的Google Chrome更新(Chrome v80)的相容性，我們已更新Workfront平台以確保適當地隨請求傳送Cookie。
+為了與即將推出的Google Chrome更新(Chrome v80)保持相容性，我們已更新Workfront平台以確保可正確傳送包含請求的Cookie。
 
-此Chrome更新會變更SameSite Cookie屬性的預設值。 如果您想要測試Google Chrome更新後Workfront執行個體的行為，請調整Chrome中的標幟，並啟用下列選項：
+此Chrome更新會變更SameSite Cookie屬性的預設值。 如果您想要測試Workfront執行個體在Google Chrome更新後的行為，請調整Chrome中的標幟，並啟用下列選項：
 
 * &quot;預設SameSite Cookie&quot;
 * 「不含SameSite的Cookie必須是安全的」
@@ -55,7 +55,7 @@ ht-degree: 0%
 
 之前，您可以將Jira的評論同步至Workfront，但不能將Workfront的評論同步至Jira。
 
-如需詳細資訊，請參閱 [設定Jira適用的Adobe Workfront](../../../workfront-integrations-and-apps/use-workfront-with-jira/configure-workfront-for-jira.md).
+如需詳細資訊，請參閱[設定Jira的Adobe Workfront](../../../workfront-integrations-and-apps/use-workfront-with-jira/configure-workfront-for-jira.md)。
 
 ## 已移除FlashPortfolio最佳化工具
 
@@ -63,4 +63,4 @@ ht-degree: 0%
 
 如需專案組合最佳化工具的相關資訊，請參閱https://experience.workfront.com/s/article/Understanding-the-Portfolio-Optimizer-356650079
 
-如需有關在Workfront中淘汰Flash型工具的資訊，請參閱 [取代Adobe Workfront中的Flash型工具](../../../product-announcements/announcements/announcement-archive/replace-flash-tools.md).
+如需有關在Workfront中棄用Flash型工具的資訊，請參閱[在Adobe Workfront中取代Flash型工具](../../../product-announcements/announcements/announcement-archive/replace-flash-tools.md)。

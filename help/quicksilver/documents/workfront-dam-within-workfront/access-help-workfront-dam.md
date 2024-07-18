@@ -17,11 +17,11 @@ ht-degree: 0%
 
 Adobe Workfront DAM DAM是Workfront內的原生數位資產管理(DAM)系統，可讓您儲存、組織、尋找、擷取和共用數位檔案。
 
-您可以在下列位置存取Workfront DAM的支援檔案：
+您可以存取Workfront DAM的支援檔案  在下列位置：
 
-* 如果您使用獨立的Workfront DAM應用程式(在主要Workfront應用程式之外)，請參閱  [damsuccess.com](https://www.damsuccess.com).
-* 如果您正在主要Workfront應用程式中運用Workfront DAM功能，請參閱 [Adobe Workfront中的Adobe Workfront DAM](../../documents/workfront-dam-within-workfront/workfront-dam-in-workfrontt.md)
+* 如果您使用獨立的Workfront DAM應用程式(在主要Workfront應用程式之外)，請參閱  [damsuccess.com](https://www.damsuccess.com)。
+* 如果您正在主要Workfront應用程式中使用Workfront DAM功能，請參閱Adobe Workfront中的[Adobe Workfront DAM](../../documents/workfront-dam-within-workfront/workfront-dam-in-workfrontt.md)
 
   >[!NOTE]
   >
-  >如果您需要提交功能請求或登入問題，請透過電話、電子郵件或Workfront說明網站聯絡Workfront客戶支援。 如需詳細資訊，請參閱 [聯絡客戶支援](../../workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).
+  >如果您需要提交功能請求或登入問題，請透過電話、電子郵件或Workfront說明網站聯絡Workfront客戶支援。 如需詳細資訊，請參閱[聯絡客戶支援](../../workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md)。

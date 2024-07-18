@@ -43,7 +43,7 @@ ht-degree: 0%
 >
 >在Workfront中停用使用者時，會移除使用者對Workfront和數位校訂的授權。 此外，無法再為該使用者指派工作。 當使用者停用時，該使用者的Workfront授權和校訂授權將可供其他使用者使用。 已停用使用者設定檔中的所有其他資訊維持不變。
 >
->如需有關刪除和停用使用者之影響的詳細資訊，請參閱 [刪除使用者](../../../administration-and-setup/add-users/create-and-manage-users/delete-a-user.md).
+>如需有關刪除和停用使用者之影響的詳細資訊，請參閱[刪除使用者](../../../administration-and-setup/add-users/create-and-manage-users/delete-a-user.md)。
 
 ## 存取需求
 
@@ -65,8 +65,8 @@ ht-degree: 0%
    <td role="rowheader">存取層級設定</td> 
    <td> <p>您必須具備下列其中一項：</p> 
     <ul> 
-     <li> <p>系統管理員存取層級。 如需詳細資訊，請參閱 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">授予使用者完整管理存取權</a>. </p> </li> 
-     <li> <p><b>使用者</b> 將存取層級中的設定設為 <b>編輯</b> 存取，使用 <b>建立</b> 以及兩者中的至少一個 <b>使用者管理員</b> 選項已啟用於 <b>微調您的設定</b> <img src="assets/gear-icon-in-access-levels.png">. </p> <p>這兩個選項中，如果使用者 <b>管理員（群組使用者）</b> 已啟用，您必須是使用者所屬群組的群組管理員。</p> <p>如需關於的詳細資訊 <b>使用者</b> 在存取層級中設定，請參閱 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">授予使用者存取許可權</a>.</p> </li> 
+     <li> <p>系統管理員存取層級。 如需詳細資訊，請參閱<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">授予使用者完整管理存取權</a>。 </p> </li> 
+     <li> <p>您的存取層級中的<b>使用者</b>設定已設定為<b>編輯</b>存取權，其中<b>建立</b>以及在<b>微調您的設定</b> <img src="assets/gear-icon-in-access-levels.png">下啟用的兩個<b>使用者管理員</b>選項中的至少一個。 </p> <p>在這兩個選項中，如果已啟用使用者<b>管理員（群組使用者）</b>，您必須是該使用者所屬群組的群組管理員。</p> <p>如需存取層級中<b>使用者</b>設定的詳細資訊，請參閱<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">授予使用者存取權</a>。</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -76,7 +76,7 @@ ht-degree: 0%
 
 在停用Workfront管理員或Standard或Plan授權使用者之前，您必須將其物件和活動與其他使用者建立關聯。
 
-如需詳細資訊，請參閱 [關於停用Workfront管理員和計畫授權使用者](#about-deactivating-workfront-administrators-and-plan-license-users) 本文章內容。
+如需詳細資訊，請參閱本文中的[關於停用Workfront管理員和計畫授權使用者](#about-deactivating-workfront-administrators-and-plan-license-users)。
 
 ## 停用使用者
 
@@ -90,11 +90,11 @@ ht-degree: 0%
 
 若要停用使用者：
 
-1. 按一下 **[!UICONTROL 主要功能表]** 圖示 ![主要功能表](/help/_includes/assets/main-menu-icon.png) 在Adobe Workfront的右上角，或（如果有的話）按一下 **[!UICONTROL 主要功能表]** 圖示 ![主要功能表](/help/_includes/assets/main-menu-icon-left-nav.png) 然後按一下「 」 **使用者** ![](assets/users-icon-in-main-menu.png).
+1. 按一下Adobe Workfront右上角的&#x200B;**[!UICONTROL 主功能表]**&#x200B;圖示![主功能表](/help/_includes/assets/main-menu-icon.png)，或（如果有的話）按一下左上角的&#x200B;**[!UICONTROL 主功能表]**&#x200B;圖示![主功能表](/help/_includes/assets/main-menu-icon-left-nav.png)，然後按一下&#x200B;**使用者** ![](assets/users-icon-in-main-menu.png)。
 
-1. 選取使用者，按一下 **更多** 圖示 ![](assets/more-icon.png)，然後按一下 **停用**.
+1. 選取使用者，按一下&#x200B;**更多**&#x200B;圖示![](assets/more-icon.png)，然後按一下&#x200B;**停用**。
 
-1. 按一下 **停用** 在出現的方塊中。
+1. 在出現的方塊中，按一下&#x200B;**停用**。
 
 ## 排程使用者停用
 
@@ -104,7 +104,7 @@ Workfront管理員和計畫授權使用者可在他們的使用者設定檔中�
 
 若要排程使用者停用，請執行下列動作：
 
-1. 按一下 **[!UICONTROL 主要功能表]** 圖示 ![主要功能表](/help/_includes/assets/main-menu-icon.png) 在Adobe Workfront的右上角，或（如果有的話）按一下 **[!UICONTROL 主要功能表]** 圖示 ![主要功能表](/help/_includes/assets/main-menu-icon-left-nav.png) 然後按一下「 」 **使用者** ![](assets/users-icon-in-main-menu.png).
+1. 按一下Adobe Workfront右上角的&#x200B;**[!UICONTROL 主功能表]**&#x200B;圖示![主功能表](/help/_includes/assets/main-menu-icon.png)，或（如果有的話）按一下左上角的&#x200B;**[!UICONTROL 主功能表]**&#x200B;圖示![主功能表](/help/_includes/assets/main-menu-icon-left-nav.png)，然後按一下&#x200B;**使用者** ![](assets/users-icon-in-main-menu.png)。
 
 1. 選取使用者的名稱。
 
@@ -112,11 +112,11 @@ Workfront管理員和計畫授權使用者可在他們的使用者設定檔中�
 
    （選用）選取多位使用者以排程大量停用。
 
-1. 按一下編輯圖示 ![](assets/edit-icon.png).
-1. 在顯示的編輯使用者方塊中，按一下 **資源規劃** 前往該區域。
-1. 啟用 **排程停用** 選項。
+1. 按一下編輯圖示![](assets/edit-icon.png)。
+1. 在顯示的編輯使用者方塊中，按一下&#x200B;**資源規劃**&#x200B;移至該區域。
+1. 啟用&#x200B;**排程停用**&#x200B;選項。
 
-1. 在顯示的行事曆中，指定 **排程的停用日期**.
+1. 在顯示的行事曆中，指定&#x200B;**排定的停用日期**&#x200B;的日期和時間。
 
    >[!NOTE]
    >
@@ -131,11 +131,11 @@ Workfront管理員和計畫授權使用者可在他們的使用者設定檔中�
 
 ## 重新啟用使用者
 
-1. 按一下 **[!UICONTROL 主要功能表]** 圖示 ![主要功能表](/help/_includes/assets/main-menu-icon.png) 在Adobe Workfront的右上角，或（如果有的話）按一下 **[!UICONTROL 主要功能表]** 圖示 ![主要功能表](/help/_includes/assets/main-menu-icon-left-nav.png) 然後按一下「 」 **使用者** ![](assets/users-icon-in-main-menu.png).
+1. 按一下Adobe Workfront右上角的&#x200B;**[!UICONTROL 主功能表]**&#x200B;圖示![主功能表](/help/_includes/assets/main-menu-icon.png)，或（如果有的話）按一下左上角的&#x200B;**[!UICONTROL 主功能表]**&#x200B;圖示![主功能表](/help/_includes/assets/main-menu-icon-left-nav.png)，然後按一下&#x200B;**使用者** ![](assets/users-icon-in-main-menu.png)。
 
-1. 選取使用者，按一下更多圖示 ![](assets/more-icon.png)，然後按一下 **啟動**.
+1. 選取使用者，按一下[更多]圖示![](assets/more-icon.png)，然後按一下[啟動]****。
 
-1. 指派新的 **存取層級**，然後按一下「 」 **重新啟用**.
+1. 在下拉式功能表中指派新的&#x200B;**存取層級**，然後按一下&#x200B;**重新啟用**。
 <!--
 ### Asset review and approval impact when you reactivate a user
 
@@ -145,8 +145,8 @@ Deactivated users lose access to their assigned Frame.io accounts as well as ass
 
 已停用的使用者會失去其獲指派的預設校訂角色及其校訂授權(如果您位於Workfront Premium舊版計畫)。 如果您選擇重新啟用使用者，您必須：
 
-* 重新指派授權(如果您使用Workfront Premium舊版計畫)。 如需Workfront校訂計畫的詳細資訊，請參閱 [存取Workfront中的校訂功能](../../../administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md).
-* 確認他們具有正確的校訂角色。 重新啟用的校訂使用者會被指派任何指定為新使用者預設校訂角色的角色。 另請參閱 [設定預設校訂角色](../../../administration-and-setup/manage-workfront/configure-proofing/configure-default-proofing-roles.md) 以取得詳細資訊。
+* 重新指派授權(如果您使用Workfront Premium舊版計畫)。 如需Workfront校訂計畫的詳細資訊，請參閱[存取Workfront中的校訂功能](../../../administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md)。
+* 確認他們具有正確的校訂角色。 重新啟用的校訂使用者會被指派任何指定為新使用者預設校訂角色的角色。 如需詳細資訊，請參閱[設定預設校訂角色](../../../administration-and-setup/manage-workfront/configure-proofing/configure-default-proofing-roles.md)。
 
 ## 關於停用Workfront管理員和Standard或Plan授權使用者
 
@@ -171,4 +171,4 @@ Deactivated users lose access to their assigned Frame.io accounts as well as ass
 
 「資源規劃工具」會考慮使用者的所有職務角色與作業的「計畫完成日期」，並據此計算資源。
 
-如需有關資源規劃工具的詳細資訊，請參閱 [資源規劃工具概觀](../../../resource-mgmt/resource-planning/get-started-resource-planner.md).
+如需資源規劃工具的詳細資訊，請參閱[資源規劃工具概觀](../../../resource-mgmt/resource-planning/get-started-resource-planner.md)。

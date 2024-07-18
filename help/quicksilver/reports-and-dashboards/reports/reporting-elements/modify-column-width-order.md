@@ -18,21 +18,21 @@ ht-degree: 0%
 以下是有關Adobe Workfront中欄寬如何運作的准則：
 
 * Workfront預設會定義清單和報告中的欄寬。
-* Workfront會根據 `valueformat`所有清單和報告中的資訊，除非在欄的文字模式中另外指定。
+* 除非在欄的文字模式中另外指定，否則Workfront會根據所有清單和報告中的`valueformat`資訊自動調整欄的寬度。
 
   >[!NOTE]
   >
-  >Workfront不會根據 `valueformat` 「設定」和「報告」區域中可用清單中的資訊。
+  >Workfront不會根據「設定」和「報告」區域中可用清單中的`valueformat`資訊調整欄寬。
 
-  此 `valueformat` 值會定義欄中顯示的資訊型別。 例如，顯示數字的欄比顯示「說明」欄位的欄窄。
+  `valueformat`值定義資料行中顯示的資訊型別。 例如，顯示數字的欄比顯示「說明」欄位的欄窄。
 
 * 您可以根據自己的需求，自訂Workfront清單和報告中的欄寬。
 
-  您可以在檢視清單或報表時暫時修改欄的寬度，或是透過在檢視產生器中調整欄的寬度來永久修改。 如需暫時修改欄寬的相關資訊，請參閱 [暫時修改欄寬和順序時的注意事項](#considerations-when-temporarily-modifying-the-width-and-order-of-columns) 一節。
+  您可以在檢視清單或報表時暫時修改欄的寬度，或是透過在檢視產生器中調整欄的寬度來永久修改。 如需暫時修改欄寬的相關資訊，請參閱本文中暫時修改欄寬和順序時的[考量事項](#considerations-when-temporarily-modifying-the-width-and-order-of-columns)一節。
 
 * 內建檢視中顯示的欄具有先前由Workfront定義並以硬式編碼撰寫的寬度。 若要修改這些寬度，您必須使用檢視產生器中的文字模式，手動更新這些欄的寬度。
 
-  如需有關在文字模式中修改欄的資訊，請參閱 [檢視：永久編輯欄寬](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-edit-column-width-permanently.md).
+  如需有關在文字模式中修改欄的資訊，請參閱[檢視：永久編輯欄寬](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-edit-column-width-permanently.md)。
 
 ## 存取需求
 
@@ -52,32 +52,32 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader"><strong>存取層級設定*</strong></td> 
-   <td> <p>編輯對篩選器、檢視、群組的存取權</p> <p>編輯報告、儀表板、行事曆的存取權，以編輯報告中的檢視</p> <p>注意：如果您還是沒有存取權，請詢問您的Workfront管理員，他們是否在您的存取層級中設定其他限制。 如需有關Workfront管理員如何修改您的存取層級的資訊，請參閱 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>.</p> </td> 
+   <td> <p>編輯對篩選器、檢視、群組的存取權</p> <p>編輯報告、儀表板、行事曆的存取權，以編輯報告中的檢視</p> <p>注意：如果您還是沒有存取權，請詢問您的Workfront管理員，他們是否在您的存取層級中設定其他限制。 如需Workfront管理員如何修改存取層級的詳細資訊，請參閱<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>物件許可權</strong></td> 
-   <td> <p>管理報表的許可權，以編輯報表中的檢視</p> <p>管理檢視的許可權以進行編輯</p> <p>如需請求其他存取許可權的詳細資訊，請參閱 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">要求物件的存取權 </a>.</p> </td> 
+   <td> <p>管理報表的許可權，以編輯報表中的檢視</p> <p>管理檢視的許可權以進行編輯</p> <p>如需請求其他存取權的資訊，請參閱<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">請求物件</a>的存取權。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;若要瞭解您擁有的計畫、授權型別或存取權，請聯絡您的Workfront管理員。
+&#42;若要瞭解您擁有的計畫、授權型別或存取權，請連絡您的Workfront管理員。
 
 ## 修改欄寬和順序
 
 您可以透過下列方式，修改報表中的欄寬和順序：
 
-* [暫時修改欄寬和順序](#modify-width-and-order-of-columns-temporarily)
+* [暫時修改資料行的寬度和順序](#modify-width-and-order-of-columns-temporarily)
 * [永久修改欄寬和順序](#modify-width-and-order-of-columns-permanently)
 
 ### 暫時修改欄寬和順序 {#modify-width-and-order-of-columns-temporarily}
 
 您可以拖曳欄框線來調整欄大小，拖放欄暫時在整個Workfront網站的大部分清單中重新排序。 這包括報告、檢視、控制面板的報告和甘特圖。
 
-如需Workfront清單的詳細資訊，請參閱文章 [開始使用Adobe Workfront中的清單](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).
+如需Workfront清單的詳細資訊，請參閱文章[開始使用Adobe Workfront中的清單](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md)。
 
-* [暫時修改欄寬和順序時的注意事項](#considerations-when-temporarily-modifying-the-width-and-order-of-columns)
-* [暫時調整欄大小](#resize-columns-temporarily)
+* [暫時修改資料行寬度和順序時的考量事項](#considerations-when-temporarily-modifying-the-width-and-order-of-columns)
+* [暫時調整資料行大小](#resize-columns-temporarily)
 * [暫時重新排序欄](#reorder-columns-temporarily)
 
 #### 暫時修改欄寬和順序時的注意事項 {#considerations-when-temporarily-modifying-the-width-and-order-of-columns}
@@ -90,7 +90,7 @@ ht-degree: 0%
 
 >[!NOTE]
 > 
->欄寬受到瀏覽器視窗大小的限制；如果重新整理頁面，欄寬將會減少，直到所有欄都能符合視窗大小，而沒有水準捲動。 若要強制欄位保持比瀏覽器可容納的寬度還寬，您必須在文字模式中設定欄位寬度，如中所述 [永久修改欄寬和順序](#modify-width-and-order-of-columns-permanently) 並避免透過拖曳邊框手動調整任何欄寬。
+>欄寬受到瀏覽器視窗大小的限制；如果重新整理頁面，欄寬將會減少，直到所有欄都能符合視窗大小，而沒有水準捲動。 若要強制欄位保持比瀏覽器可容納的寬度還寬，您必須在文字模式中設定欄位寬度，如[永久修改欄位寬度和順序](#modify-width-and-order-of-columns-permanently)中所述，並避免透過拖曳欄位寬度來手動調整欄位寬度。
 >
 
 * 重新排序欄時，只會維持您選擇的順序，直到您離開清單或重新整理瀏覽器頁面為止。 離開清單或重新整理瀏覽器頁面後，欄會恢復其預設順序。
@@ -108,7 +108,7 @@ ht-degree: 0%
 
 * 如果將任何清單匯出到檔案，則欄的暫時順序不會轉移到匯出的檔案。 匯出的檔案會顯示原始清單中欄的順序，然後才重新排序欄。
 
-如需從清單和報告匯出資料的詳細資訊，請參閱文章 [匯出資料](../../../reports-and-dashboards/reports/creating-and-managing-reports/export-data.md).
+如需有關從清單和報告匯出資料的詳細資訊，請參閱文章[匯出資料](../../../reports-and-dashboards/reports/creating-and-managing-reports/export-data.md)。
 
 #### 暫時調整欄大小 {#resize-columns-temporarily}
 
@@ -131,8 +131,8 @@ ht-degree: 0%
 
 ### 永久修改欄寬和順序 {#modify-width-and-order-of-columns-permanently}
 
-若要永久重新排序欄，請參閱區段 [建立或自訂標準檢視](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md#customizing-a-standard-view) 在文章中 [Adobe Workfront中的檢視概觀](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
+若要永久重新排序欄，請參閱文章[在Adobe Workfront中的檢視總覽](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md)中的[建立或自訂標準檢視](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md#customizing-a-standard-view)一節。
 
 您只能使用文字模式來永久修改欄寬。
 
-如需有關使用文字模式及永久修改欄寬的詳細資訊，請參閱文章 [文字模式的常見用途概觀](../../../reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md).
+如需有關使用文字模式和永久修改欄寬的詳細資訊，請參閱文章[文字模式的常見使用概述](../../../reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md)。

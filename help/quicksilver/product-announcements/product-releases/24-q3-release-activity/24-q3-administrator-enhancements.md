@@ -16,7 +16,7 @@ ht-degree: 0%
 
 本頁說明2024年第三季度版本對「預覽」環境所做的所有管理員增強功能。 如上所述，這些增強功能將於生產環境中提供。
 
-如需2024年第三季度發行週期中目前可用的所有變更清單，請參閱 [2024年第三季度版本總覽](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).
+如需2024年第三季度發行週期中目前可用的所有變更清單，請參閱[2024年第三季度發行概觀](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md)。
 
 ## 商業規則現已可用
 
@@ -28,7 +28,7 @@ ht-degree: 0%
 
 商業規則可讓您套用驗證至Workfront物件，並防止使用者在滿足某些條件時建立、編輯或刪除物件。 規則是使用與自訂表單中計算欄位類似的公式來建置。
 
-如需詳細資訊，請參閱 [建立和編輯商業規則](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/business-rules.md).
+如需詳細資訊，請參閱[建立和編輯商業規則](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/business-rules.md)。
 
 >[!IMPORTANT]
 >
@@ -46,7 +46,7 @@ ht-degree: 0%
 
 此版本後，您將無法再選擇回覆至舊版表單產生器。
 
-如需有關表單設計工具與影片示範的詳細資訊，請參閱 [表單設計工具測試版發行說明](/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-admin-enhancements.md).
+如需表單設計工具及影片示範的詳細資訊，請參閱[表單設計工具測試版發行說明](/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-admin-enhancements.md)。
 
 ## 透過環境升級在Workfront環境之間移動物件
 
@@ -58,7 +58,7 @@ ht-degree: 0%
 
 以前，物件需要在生產環境中與沙箱或預覽環境分開設定。
 
-如需有關環境升級的詳細資訊，請參閱 [在Workfront環境之間移動物件的概觀（環境升級）](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-in-wf.md)
+如需有關環境升級的詳細資訊，請參閱[在Workfront環境之間移動物件的概述（環境升級）](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-in-wf.md)
 
 [觀看此功能的影片示範](https://video.tv.adobe.com/v/3429735/){target=_blank}
 
@@ -75,7 +75,7 @@ ht-degree: 0%
 
 您現在可以在新的表單設計工具中共用自訂表單和自訂欄位。 這可讓自訂表單的使用者之間有更多共同作業。
 
-如需詳細資訊，請參閱 [共用自訂表格](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md) 和 [使用表單設計器設定自訂欄位和Widget的共用](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/manage-a-form/share-custom-fields.md).
+如需詳細資訊，請參閱[共用自訂表單](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md)和[設定與表單設計工具共用自訂欄位和Widget](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/manage-a-form/share-custom-fields.md)。
 
 ## 從欄位區域新增自訂欄位
 
@@ -87,7 +87,7 @@ ht-degree: 0%
 
 自訂表單設計人員和舊版自訂表單產生器皆可使用此功能。
 
-如需詳細資訊，請參閱 [新增或編輯自訂欄位、分割槽符號或Widget](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/edit-a-custom-field.md).
+如需詳細資訊，請參閱[新增或編輯自訂欄位、分割槽符號或Widget](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/edit-a-custom-field.md)。
 
 ## 表單設計器上可用的多選下拉式欄位型別
 
@@ -101,4 +101,4 @@ ht-degree: 0%
 
 舊版表單產生器中未提供此選項。
 
-如需詳細資訊，請參閱 [使用表單設計工具設計表單](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+如需詳細資訊，請參閱[使用表單設計工具](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)設計表單。

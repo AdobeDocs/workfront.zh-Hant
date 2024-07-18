@@ -18,7 +18,7 @@ ht-degree: 2%
 
 本頁說明R1.3版本預覽環境中所有可用的變更。 此頁面的功能已於2017年2月1日在預覽環境中推出。
 
-如需R1中所有變更的清單，請參閱 [R1發行活動概覽](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-release-activity-overview.md). 
+如需R1中所有變更的清單，請參閱[R1發行活動概覽](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-release-activity-overview.md)。 
 
 ## 連結外部檔案的改良方法
 
@@ -28,13 +28,13 @@ ht-degree: 2%
 
 在這些變更之前，從外部來源連結檔案的選項位於「檔案」區域的「新增檔案」對話方塊中。 在第一次從外部來源連結檔案之前，連結檔案的使用者必須在設定區域中授權該檔案提供者。
 
-如需詳細資訊，請參閱  [從外部應用程式連結檔案](../../../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md).
+如需詳細資訊，請參閱  [從外部應用程式連結檔案](../../../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md)。
 
 ## 處理行事曆的已更新團隊
 
 >[!NOTE]
 >
->已棄用資源排程工具，並已從Workfront的23.1版本中移除。 如需有關使用工作負載平衡器排程資源的資訊，請參閱 [工作負載平衡器概覽](../../../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
+>已棄用資源排程工具，並已從Workfront的23.1版本中移除。 如需有關使用工作負載平衡器排程資源的資訊，請參閱[工作負載平衡器概覽](../../../../resource-mgmt/workload-balancer/overview-workload-balancer.md)。
 
 現在可供團隊使用的「處理中」行事曆包含其他功能和更新的外觀。 「處理中行事曆」團隊的功能現在類似於專案的資源排程工具。
 
@@ -70,7 +70,7 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->已棄用資源排程工具，並已從Workfront的23.1版本中移除。 如需有關使用工作負載平衡器排程資源的資訊，請參閱 [工作負載平衡器概覽](../../../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
+>已棄用資源排程工具，並已從Workfront的23.1版本中移除。 如需有關使用工作負載平衡器排程資源的資訊，請參閱[工作負載平衡器概覽](../../../../resource-mgmt/workload-balancer/overview-workload-balancer.md)。
 
 篩選器現在可用於控制排程時間表上顯示的使用者，以及未指派區域中顯示的任務和問題。 在篩選器中選取使用者時，只會顯示您選取的使用者，無論他們是否有符合未指派區域中任務角色指派的角色指派。 所有目前指派給該使用者的任務也會一併顯示。
 
@@ -120,7 +120,7 @@ ht-degree: 2%
 * 行動應用程式
 * Outlook增益集
 
-如需有關如何使用版面範本自訂Workfront術語的詳細資訊，請參閱「建立和管理版面範本」中的「自訂術語」一節，以及 [瞭解Adobe Workfront中的物件](../../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
+如需有關如何使用版面配置範本自訂Workfront術語的詳細資訊，請參閱「建立和管理版面配置範本」中的「自訂術語」一節，以及[瞭解Adobe Workfront中的物件](../../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)中的「瞭解自訂物件名稱的影響」一節。
 
 ## 在報表中包含核准開始和結束日期
 
@@ -131,9 +131,9 @@ ht-degree: 2%
 
 這些欄位可讓您深入瞭解目前或最近核准路徑何時開始，以及何時標籤為完成。
 
-如需這些欄位的詳細資訊，請參閱 [Adobe Workfront術語表](../../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
+如需這些欄位的詳細資訊，請參閱[Adobe Workfront術語表](../../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md)。
 
-如需核准路徑、其建立與觸發方式，及其在核准程式中之功能的詳細資訊，請參閱 [建立工作專案的核准流程](../../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
+如需核准路徑、其建立與觸發方式，及其在核准程式中作用的詳細資訊，請參閱[建立工作專案的核准程式](../../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md)。
 
 下列欄位已從Workfront中移除，無法再包含在報表中（這些欄位提供專案的相關資訊，而非核准本身的資訊，且經常遭到誤用）：
 
@@ -145,7 +145,7 @@ ht-degree: 2%
 
 每日摘要傳送選項已新增至通知設定的「我已提出請求」區域。
 
-如需詳細資訊，請參閱 [修改您自己的電子郵件通知](../../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+如需詳細資訊，請參閱[修改您自己的電子郵件通知](../../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md)。
 
 請記得更新與您的帳戶相關聯的電子郵件地址，以便測試此功能。 此為必要操作，因為「預覽沙箱」會清除所有使用者的電子郵件地址。
 
@@ -153,7 +153,7 @@ ht-degree: 2%
 
 「檔案核准」通知的外觀和使用新UI更新：
 
-如需電子郵件通知的詳細資訊，請參閱 [Adobe Workfront通知](../../../../workfront-basics/using-notifications/wf-notifications.md).
+如需電子郵件通知的詳細資訊，請參閱[Adobe Workfront通知](../../../../workfront-basics/using-notifications/wf-notifications.md)。
 
 請記得更新與您的帳戶相關聯的電子郵件地址，以便測試此功能。 此為必要操作，因為「預覽沙箱」會清除所有使用者的電子郵件地址。
 
@@ -166,4 +166,4 @@ ht-degree: 2%
 
 在此變更之前，為了編輯日期或檢視完成百分比，您必須移至個別任務。
 
-如需詳細資訊，請參閱 [使用里程碑檢視](../../../../reports-and-dashboards/reports/reporting-elements/use-milestone-view.md).
+如需詳細資訊，請參閱[使用里程碑檢視](../../../../reports-and-dashboards/reports/reporting-elements/use-milestone-view.md)。

@@ -2,8 +2,8 @@
 product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: avoiding-spam-filters
-title: 設定 [!DNL Workfront Proof] 避免垃圾郵件過濾器的電子郵件
-description: 「您的電子郵件用戶端的垃圾郵件篩選器有重要用途：保護您免受煩人且可能惡意垃圾郵件的侵擾。 但是，如果您的垃圾郵件篩選器中沒有正確的設定，則可能會阻止您看到以下重要資訊 [!DNL Workfront Proof] 電子郵件：校樣電子郵件通知、電子報和特殊通訊。」
+title: 設定 [!DNL Workfront Proof] 封電子郵件以避免垃圾郵件篩選器
+description: 「您的電子郵件使用者端的垃圾郵件篩選器有一個重要目的：保護您免受惱人的和可能的惡意垃圾郵件電子郵件的侵擾。 但是，如果垃圾郵件篩選器中沒有正確的設定，則可能會阻止您看到以下重要的 [!DNL Workfront Proof] 電子郵件：校訂電子郵件通知、電子報和特殊通訊。」
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 1fce3d83-fdce-4ded-8e78-3468243a59e1
@@ -14,30 +14,30 @@ ht-degree: 0%
 
 ---
 
-# 設定 [!DNL Workfront Proof] 避免垃圾郵件過濾器的電子郵件
+# 設定[!DNL Workfront Proof]封電子郵件以避免垃圾郵件篩選器
 
 >[!IMPORTANT]
 >
->本文說明獨立產品中的功能 [!DNL Workfront Proof]. 有關內部校對的資訊 [!DNL Adobe Workfront]，請參閱 [校對](../../../review-and-approve-work/proofing/proofing.md).
+>本文提及獨立產品[!DNL Workfront Proof]中的功能。 有關[!DNL Adobe Workfront]內部校訂的資訊，請參閱[校訂](../../../review-and-approve-work/proofing/proofing.md)。
 
-您的電子郵件用戶端的垃圾郵件篩選器有重要用途：保護您免受煩人且可能惡意垃圾郵件的侵擾。 但是，如果您的垃圾郵件篩選器中沒有正確的設定，則可能會阻止您看到以下重要資訊 [!DNL Workfront Proof] 電子郵件：校樣電子郵件通知、電子報和特殊通訊。
+您的電子郵件使用者端的垃圾郵件篩選器有一個重要的用途：保護您免受惱人的和可能的惡意垃圾郵件電子郵件的侵擾。 但是，如果垃圾郵件篩選器中沒有正確的設定，可能會阻止您看到以下重要的[!DNL Workfront Proof]電子郵件：校訂電子郵件通知、電子報和特殊通訊。
 
-確保您的 [!DNL Workfront Proof] 電子郵件一律會路由至您的收件匣，而非垃圾郵件資料夾，您應將下列項目新增至允許清單：
+為了確保您的[!DNL Workfront Proof]電子郵件一律被路由至您的收件匣，而不是您的垃圾郵件資料夾，您應該將以下內容新增至允許清單：
 
-* [!DNL Workfront Proof] 郵件伺服器： **[!DNL mx.proofhq.com]**
-* [!DNL Workfront Proof] &quot;[!UICONTROL 從]「電子郵件地址(例如， notification@proofhq.com)
+* [!DNL Workfront Proof]郵件伺服器： **[!DNL mx.proofhq.com]**
+* [!DNL Workfront Proof] &quot;[!UICONTROL from]&quot;電子郵件地址(例如，notification@proofhq.com)
 
-如需要新增至允許清單之URL的詳細資訊，請參閱 [配置防火牆的允許清單](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md) 在文章中 [配置防火牆的允許清單](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).
+如需有關要新增至允許清單的URL的詳細資訊，請參閱[設定防火牆允許清單](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md)一文中的[設定防火牆允許清單](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md)。
 
-## [!DNL Workfront Proof] &quot;[!UICONTROL 從]「電子郵件地址」
+## [!DNL Workfront Proof] &quot;[!UICONTROL 來自]&quot;電子郵件地址
 
-視您的電子郵件用戶端類型而定，您可能需要新增 [!DNL Workfront Proof] &quot;[!UICONTROL 從]「電子郵件地址，用於防止垃圾郵件過濾器在將來將電子郵件路由到垃圾郵件資料夾：
+根據您的電子郵件使用者端型別，您可能需要將[!DNL Workfront Proof]個[!UICONTROL 來自]的電子郵件地址新增至下列其中一項，以防止垃圾郵件篩選器日後將您的電子郵件路由至您的垃圾郵件資料夾：
 
-* 您的聯繫人清單
-* 您的 [!UICONTROL 安全發件人] 清單
-* 您建立的篩選器，用於將電子郵件從這些地址傳送至收件匣
+* 您的連絡人清單
+* 您的[!UICONTROL 安全寄件者]清單
+* 您建立的篩選器，可將這些地址的電子郵件傳送到您的收件匣
 
-您也可能需要移除任何現有 [!DNL Workfront Proof] 從垃圾郵件資料夾發送電子郵件，並檢查「[!UICONTROL 從]「地址在被阻止的地址清單上。 此說明頁面會列出 [!DNL Workfront Proof] &quot;[!UICONTROL 從]」地址並顯示如何將這些地址添加到以下電子郵件客戶端中的垃圾郵件過濾器：
+您可能還需要從垃圾郵件資料夾中移除任何現有的[!DNL Workfront Proof]封電子郵件，並檢查是否有&quot;[!UICONTROL 來自]&quot;的位址在封鎖的位址清單中。 此說明頁面列出[!DNL Workfront Proof]個]的[!UICONTROL 位址，並顯示如何在下列電子郵件使用者端中將它們新增至垃圾郵件篩選器：
 
 * [!DNL Gmail]
 * [!DNL Microsoft Outlook 2003 - 2007]
@@ -47,25 +47,25 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->如果您對此處描述的程式有任何疑問，請查看您的電子郵件客戶的幫助。
+>如果您對此處描述的程式有任何疑問，請檢視電子郵件使用者端的說明。
 
-如需詳細資訊，請參閱 [配置常見電子郵件客戶端的垃圾郵件設定](../../../workfront-proof/wp-emailsntfctns/avoiding-spam-filters/configure-spam-settings-clients.md).
+如需詳細資訊，請參閱[設定常見電子郵件使用者端的垃圾郵件設定](../../../workfront-proof/wp-emailsntfctns/avoiding-spam-filters/configure-spam-settings-clients.md)。
 
-## 此 [!DNL Workfront Proof] &quot;[!UICONTROL 從]&quot;複製的電子郵件地址
+## 要複製的[!DNL Workfront Proof] &quot;[!UICONTROL from]&quot;電子郵件地址
 
-確保您的 [!DNL Workfront Proof] 電子郵件到達收件匣時，您需要新增兩個 [!DNL Workfront Proof] 電子郵件地址分別指向電子郵件客戶端的垃圾郵件過濾器：
+若要確保您的[!DNL Workfront Proof]電子郵件送達您的收件匣，您需要將兩個[!DNL Workfront Proof]電子郵件地址分別新增到您的電子郵件使用者端的垃圾郵件篩選條件：
 
-* 一般支助地址， [!DNL support@proofhq.com]，從 [!DNL Workfront Proof] 發送了許多電子郵件
-* 來自的通知地址 [!DNL Workfront Proof] 傳送校樣通知電子郵件給校樣建立者和具有校樣連結的審核者。 如果您有自訂的子網域或白標籤網域，則這可能是一般位址、notification@support.proofhq.com或特定位址。
+* 一般支援地址[!DNL support@proofhq.com]，[!DNL Workfront Proof]會從中傳送許多電子郵件通訊
+* [!DNL Workfront Proof]傳送校樣通知電子郵件給校樣建立者和檢閱者（包含校樣連結）的通知地址。 這可能是一般地址、notification@support.proofhq.com，或者，如果您有自訂子網域或白色標籤網域，則可能是特定地址。
 
-若要新增 [!DNL Workfront Proof] &quot;[!UICONTROL 從]「 」電子郵件用戶端篩選器的地址：
+若要將[!DNL Workfront Proof]個[!UICONTROL 來自]的地址新增至電子郵件使用者端的篩選器：
 
-1. 複製一般 [!DNL Workfront Proof] 支援&quot;[!UICONTROL 從]「電子郵件地址(support@proofhq.com)，並貼到您電子郵件用戶端所指示的欄位中。
-1. 複製下列適當項目之一 [!DNL Workfront Proof] &quot;[!UICONTROL 從]「電子郵件地址並個別貼到您電子郵件用戶端所指示的欄位中：
+1. 複製一般[!DNL Workfront Proof]支援「[!UICONTROL 來自]」電子郵件地址(support@proofhq.com)，並將其貼到您電子郵件使用者端所指定的欄位中。
+1. 複製下列[!DNL Workfront Proof] &quot;[!UICONTROL from]&quot;電子郵件地址中適當的一個，並將其個別貼到針對您的電子郵件使用者端所指定的欄位中：
 
-   * notification@support.proofhq.com如果您沒有自訂的子網域或白標籤網域，
-   * notification@yoursubdomain.proofhq.com（如果您有自訂的子網域）;在此位址取代您的子網域名稱
-   * notification@yoursubdomain.yourdomain.com（如果您有白標籤域）;在此位址中取代您的子網域名稱和網域名稱
+   * notification@support.proofhq.com （如果您沒有自訂子網域或白色標籤網域）
+   * notification@yoursubdomain.proofhq.com （如果您有自訂的子網域）；請在此位址中取代您的子網域名稱
+   * notification@yoursubdomain.yourdomain.com （如果您有白色標籤網域）；請在此位址中取代您的子網域名稱和網域名稱
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">See the relevant section below for your email client to find out where to paste in these two Workfront Proof "[!UICONTROL from]" addresses.</p>

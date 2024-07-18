@@ -21,5 +21,5 @@ ht-degree: 0%
 
 * [修正時程表的工作週開始日期](../../timesheets/tips-tricks-and-troubleshooting/correct-start-day-of-work-week.md)
 * [避免重新計算財務動作在費率變更時影響歷史時數](../../timesheets/tips-tricks-and-troubleshooting/prevent-recalculate-finance-action.md)
-* [使用Adobe Workfront API追蹤小時記錄](../../timesheets/tips-tricks-and-troubleshooting/track-hour-records-with-wfapi.md)
+* 使用Adobe Workfront API [追蹤小時記錄](../../timesheets/tips-tricks-and-troubleshooting/track-hour-records-with-wfapi.md)
 * [無法記錄未來日期的時間](../../timesheets/tips-tricks-and-troubleshooting/unable-to-log-time-future-dates.md)

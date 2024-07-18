@@ -57,7 +57,7 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-如需有關此表格的詳細資訊，請參閱 [Workfront檔案中的存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 ## Adobe Workfront如何決定預計完成日期
 
@@ -65,33 +65,33 @@ ht-degree: 0%
 
 根據您檢視的物件，用來決定「預計完成日期」的條件會有所不同：
 
-* **專案：** 專案的「預計完成日期」等於專案上最新作業的「預計完成日期」。
+* **專案：**&#x200B;專案的預計完成日期等於專案上最新任務的預計完成日期。
 
   例如，較高的完成百分比會將任務的「預計完成日期」移動至更接近當天。 如果任務的狀態為「新增」，且任務的「計畫完成日期」已關閉或已過，則「預計完成日期」會進一步移向未來。
 
-* **工作：** 作業的「預計完成日期」是根據下列條件所決定：
+* **任務：**&#x200B;任務的預計完成日期是根據下列條件決定：
 
-   * **任務受指派人在任務上進行的進度更新：** 進度更新包括完成百分比的變更及任務狀態的變更。
-   * **認可日期：** 如果任務受指派人指定認可日期，則預計完成日期會變更以符合認可日期。
+   * **工作受指派人對工作所做的進度更新：**&#x200B;進度更新包括完成百分比的變更以及工作狀態的變更。
+   * **認可日期：**&#x200B;如果工作受指派人指定認可日期，預計完成日期會變更以符合認可日期。
 
-     如需認可日期的詳細資訊，請參閱文章 [認可日期總覽](../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md).
+     如需認可日期的詳細資訊，請參閱文章[認可日期概觀](../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md)。
 
-   * **前置任務：** 如果前置任務沒有延遲，「預計完成日期」應該與「計畫完成日期」相符。 發生延遲時，相依任務顯示的「預計完成日期」會晚於「計畫完成日期」。
+   * **前置任務：**&#x200B;如果前置任務沒有延遲，則預計完成日期應該與計畫完成日期相符。 發生延遲時，相依任務顯示的「預計完成日期」會晚於「計畫完成日期」。
 
-     有關任務的規劃完成日期的詳細資訊，請參閱 [任務計畫完成日期總覽](../../../manage-work/tasks/task-information/task-planned-completion-date.md).
+     如需任務計畫完成日期的詳細資訊，請參閱[任務計畫完成日期概觀](../../../manage-work/tasks/task-information/task-planned-completion-date.md)。
 
   >[!IMPORTANT]
   >
   >當任務的前置任務具有實際完成日期時，相依任務會收到如下案例所述的預計完成日期：
   >
   >
-  >如果專案具有任務A、任務B和任務C，並且任務B是任務A的後繼任務，任務C是任務B的後繼任務，並且已將實際完成日期新增到任務A，則會自動重新計算任務B的預計完成日期(如果 **更新型別** 專案設定為「自動」與「變更時」)，但不會針對「作業C」重新計算。目前，基於效能原因，Workfront會針對從更新的「作業」往上或往下一個層次的任務，計算「預計完成日期」。 
+  >如果專案具有任務A、任務B和任務C，而任務B是任務A的後續任務，任務C是任務B的後續任務，並且任務A新增了實際完成日期，則會自動重新計算任務B的預計完成日期（假設專案的&#x200B;**更新型別**&#x200B;設定為「自動」和「變更時」），但不會重新計算任務C。目前，基於效能原因，Workfront會計算從更新的「任務」向上或向下一個層級之任務的預計完成日期。 
 
-* **問題：** 「問題預計完成日期」最初設定為與問題「計畫完成日期」相符。
+* **問題：**&#x200B;問題預計完成日期最初設定為與問題計畫完成日期相符。
 
   如果問題受指派人指定認可日期，則預計完成日期和計畫完成日期都會變更以符合認可日期。
 
-  如需認可日期的詳細資訊，請參閱文章 [認可日期總覽](../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md).
+  如需認可日期的詳細資訊，請參閱文章[認可日期概觀](../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md)。
 
 ## 檢視預計完成日期
 
@@ -100,14 +100,14 @@ ht-degree: 0%
 ### 檢視專案的預計完成日期 {#view-the-projected-completion-date-of-a-project}
 
 1. 移至您要檢視預計完成日期的專案。
-1. 按一下 **專案詳細資訊** 在左側面板中。
-1. 找到 **預計完成日期** 中的欄位 **概觀** > **專案日期** 區段。
+1. 按一下左側面板中的&#x200B;**專案詳細資料**。
+1. 在&#x200B;**總覽** > **專案日期**&#x200B;區段中，找到&#x200B;**預計完成日期**&#x200B;欄位。
 
 ### 檢視任務的預計完成日期 {#view-the-projected-completion-date-of-a-task}
 
 1. 移至您要檢視「預計完成日期」的工作。
-1. 按一下 **任務詳細資訊** 在左側面板中。
-1. 找到 **預計完成日期** 中的欄位 **概觀** > **任務日期和限制** 區段。
+1. 按一下左側面板中的&#x200B;**工作詳細資料**。
+1. 在&#x200B;**總覽** > **任務日期和限制**&#x200B;區段中，找到&#x200B;**預計完成日期**&#x200B;欄位。
 
 ### 檢視問題的預計完成日期 {#view-the-projected-completion-date-of-an-issue}
 
@@ -115,13 +115,13 @@ ht-degree: 0%
 
 若要建立包含預計完成日期的問題報表，請執行下列步驟：
 
-1. 建立問題報告，如文章所述 [建立自訂報表](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
-1. 選取 **欄（檢視）** 標籤。
-1. 按一下 **新增欄**，並開始輸入 **預計完成日期** 在 **顯示在此欄：** 欄位。
+1. 建立問題報告，如文章[建立自訂報告](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md)中所述。
+1. 選取&#x200B;**欄（檢視）**&#x200B;標籤。
+1. 按一下&#x200B;**新增欄**，然後開始在&#x200B;**顯示在此欄：**&#x200B;欄位中輸入&#x200B;**預計完成日期**。
 
-1. 當它出現在清單中時，在 **問題** 物件。 
+1. 當它出現在清單中的&#x200B;**問題**&#x200B;物件下時，請選取它。 
 1. 按一下「**儲存並關閉**」。
 
-   此 **預計完成日期** 欄會填入。 
+   已填入報告中的&#x200B;**預計完成日期**&#x200B;欄。 
 
    ![](assets/issue-projected-completion-date-in-view-nwe-350x148.png)

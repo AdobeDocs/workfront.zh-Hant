@@ -1,8 +1,8 @@
 ---
 product-area: programs
 navigation-topic: create and manage programs
-title: 將現有程式添加到產品組合
-description: 您可以將現有程式新增至產品組合。 因為程式不能存在於兩個不同的產品組合中，所以添加現有程式會將其從一個產品組合永久移到另一個組合。
+title: 將現有方案新增至投資組合
+description: 您可以將現有方案新增至投資組合。 由於計畫不能存在於兩個不同的投資組合中，因此新增現有計畫會將其從一個投資組合永久移動到另一個投資組合。
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 73dbe277-12d2-4041-8a02-91ccf5f8b465
@@ -13,50 +13,50 @@ ht-degree: 0%
 
 ---
 
-# 將現有程式添加到產品組合
+# 將現有方案新增至投資組合
 
-您可以將現有程式新增至產品組合。 因為程式不能存在於兩個不同的產品組合中，所以添加現有程式會將其從一個產品組合永久移到另一個組合。 
+您可以將現有方案新增至投資組合。 由於計畫不能存在於兩個不同的投資組合中，因此新增現有計畫會將其從一個投資組合永久移動到另一個投資組合。 
 
 ## 存取需求
 
-您必須具備下列存取權，才能執行本文中的步驟：
+您必須具有下列存取權才能執行本文中的步驟：
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 計劃*</td> 
-   <td> <p>[!UICONTROL Business]或更高版本</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] 計畫*</td> 
+   <td> <p>[！UICONTROL Business]或更高版本</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 授權*</td> 
-   <td> <p>[!UICONTROL計畫] </p> </td> 
+   <td> <p>[！UICONTROL計畫] </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">訪問級別配置*</td> 
-   <td> <p>[!UICONTROL編輯]對Portfolio和程式的訪問 </p> <p>注意：如果您仍無法存取，請詢問您的 [!DNL Workfront] 管理員。 若要了解 [!DNL Workfront] 管理員可以更改您的訪問級別，請參閱 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>.</p> </td> 
+   <td role="rowheader">存取層級設定*</td> 
+   <td> <p>[！UICONTROL Edit]對Portfolio和計畫的存取權 </p> <p>注意：如果您還是沒有存取權，請詢問您的[!DNL Workfront]管理員是否對您的存取層級設定了其他限制。 如需[!DNL Workfront]管理員如何變更您的存取層級的詳細資訊，請參閱<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">物件權限</td> 
-   <td> <p>對產品組合和程式的[!UICONTROL管理]權限</p> <p>有關請求其他訪問的資訊，請參閱 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">請求對對象的訪問 </a>.</p> </td> 
+   <td role="rowheader">物件許可權</td> 
+   <td> <p>投資組合和計畫的[！UICONTROL管理]許可權</p> <p>如需請求其他存取權的資訊，請參閱<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">請求物件</a>的存取權。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;若要了解您擁有的計畫、授權類型或存取權，請聯絡您的 [!DNL Workfront] 管理員。
+&#42;若要瞭解您擁有的計畫、授權型別或存取權，請連絡您的[!DNL Workfront]管理員。
 
-## 將現有程式添加到產品組合
+## 將現有方案新增至投資組合
 
-1. 前往產品組合，然後按一下 **[!UICONTROL 方案]** 中。
-1. 按一下 **[!UICONTROL 添加程式]**.
-1. 按一下 **[!UICONTROL 現有方案]**.
+1. 前往投資組合，然後按一下左側面板中的&#x200B;**[!UICONTROL 程式]**。
+1. 按一下&#x200B;**[!UICONTROL 新增程式]**。
+1. 按一下&#x200B;**[!UICONTROL 現有程式]**。
 
    >[!IMPORTANT]
    >
-   >新增現有方案會將與該方案相關聯的所有專案納入產品組合中。 注意不要無意中將項目移向這個方向。
+   >新增現有方案會將與該方案相關聯的所有專案帶入投資組合。 請留意勿以這種方式無意中移動專案。
 
-1. 在 **[!UICONTROL 新增方案]** 對話框，鍵入並選擇程式的名稱。
-1. （可選）要添加其他程式，請鍵入並選擇程式的名稱。
-1. 按一下 **[!UICONTROL 新增方案]**.\
-   程式會顯示在 **[!UICONTROL 方案]** 頁簽。
+1. 在&#x200B;**[!UICONTROL 新增程式]**&#x200B;對話方塊中，輸入並選取程式名稱。
+1. （可選）若要新增其他程式，請鍵入並選取程式名稱。
+1. 按一下&#x200B;**[!UICONTROL 新增程式]**。\
+   程式會出現在您選取的投資組合上的&#x200B;**[!UICONTROL 程式]**&#x200B;索引標籤中。

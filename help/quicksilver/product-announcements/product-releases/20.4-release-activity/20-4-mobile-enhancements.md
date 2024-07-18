@@ -17,7 +17,7 @@ ht-degree: 0%
 
 本頁說明20.4版對預覽環境所做的所有行動裝置增強功能。 這些增強功能將在2020年11月9日當週的生產環境中提供。
 
-如需20.4版所有可用變更的清單，請參閱 [20.4版本總覽](../../../product-announcements/product-releases/20.4-release-activity/20-4-release-overview.md).
+如需20.4版本可用的所有變更清單，請參閱[20.4版本總覽](../../../product-announcements/product-releases/20.4-release-activity/20-4-release-overview.md)。
 
 ## 在Microsoft Teams通知中新增功能
 
@@ -32,15 +32,15 @@ ht-degree: 0%
 * 我們讓您能夠在通知中檢視工作專案的自訂表單，並展開自訂表單以檢視其欄位。
 * 當您收到有關專案、任務或問題的通知時，您現在可以直接在通知中變更工作專案的狀態。
 
-如需詳細資訊，請參閱 [在Microsoft Teams中管理Adobe Workfront通知](../../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/manage-wf-notifications-approval-requests-ms-teams.md).
+如需詳細資訊，請參閱[在Microsoft Teams中管理Adobe Workfront通知](../../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/manage-wf-notifications-approval-requests-ms-teams.md)。
 
 ## 向您介紹適用於MobileIron的Workfront
 
 Workfront與行動裝置管理(MDM)平台MobileIron合作，為組織提供更安全、控制更嚴格的行動裝置體驗。
 
-透過MobileIron適用的Workfront，管理員可以限制複製/貼上功能和熒幕擷取等功能。 您可以在以下網址下載適用於MobileIron應用程式的Workfront： [https://marketplace.mobileiron.com/listing/workfront](https://marketplace.mobileiron.com/listing/workfront).
+透過MobileIron適用的Workfront，管理員可以限制複製/貼上功能和熒幕擷取等功能。 您可以在[https://marketplace.mobileiron.com/listing/workfront](https://marketplace.mobileiron.com/listing/workfront)下載適用於MobileIron應用程式的Workfront。
 
-如需設定應用程式的詳細資訊，請參閱 [設定適用於MobileIron的Adobe Workfront](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/wf-mobileiron-configs.md).
+如需設定應用程式的詳細資訊，請參閱[設定MobileIron的Adobe Workfront](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/wf-mobileiron-configs.md)。
 
 ## 在Workfront行動應用程式中快速建立任務
 
@@ -50,7 +50,7 @@ Workfront與行動裝置管理(MDM)平台MobileIron合作，為組織提供更�
 
 如需詳細資訊，請參閱
 
-* [適用於iOS的Adobe Workfront](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-ios.md)
+* 適用於iOS的[Adobe Workfront](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-ios.md)
 * [適用於Android的Adobe Workfront](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-android.md)
 
 ## 取得Workfront mobile虛擬助理命令的協助
@@ -62,4 +62,4 @@ Workfront與行動裝置管理(MDM)平台MobileIron合作，為組織提供更�
 
 這些指令會顯示您可以向助理詢問的不同專案的清單。
 
-**注意：行動版虛擬助理已於2024年4月起淘汰。**
+**注意：行動虛擬助理已於2024年4月汰除。**

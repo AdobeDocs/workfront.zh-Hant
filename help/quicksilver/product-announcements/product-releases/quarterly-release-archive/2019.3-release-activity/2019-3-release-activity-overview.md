@@ -22,7 +22,7 @@ ht-degree: 1%
 <MadCap:conditionalText data-mc-conditions="OnlineOrPDF.OnlineOnly">  To download this page in PDF&nbsp;format, go  <a href="https://documentation.my.workfront.com/library/a/1c7547fc-9d72-400e-84ed-3382bca498f4" target="_blank">here</a>. </MadCap:conditionalText>
 -->
 
-若要檢視2019.3版之後發行的增強功能清單，請參閱 [產品發行](../../../../product-announcements/product-releases/product-releases.md).
+若要檢視2019.3版之後發行的增強功能清單，請參閱[產品版本](../../../../product-announcements/product-releases/product-releases.md)。
 
 ## 適用於所有使用者的增強功能
 
@@ -152,11 +152,11 @@ ht-degree: 1%
 
   為了讓您和貴公司更安全，Workfront行動應用程式會在8分鐘無活動後自動登出。
 
-* [在行動應用程式中依已終止專案篩選](../../../../product-announcements/product-releases/quarterly-release-archive/2019.3-release-activity/2019-3-integration-mobile-enhancements.md#filter) [在行動應用程式中依已終止專案篩選](https://experience.workfront.com/s/article/2019-3-Integration-and-mobile-enhancements-1150184880)
+* [在行動應用程式中依無效專案篩選](../../../../product-announcements/product-releases/quarterly-release-archive/2019.3-release-activity/2019-3-integration-mobile-enhancements.md#filter) [在行動應用程式中依無效專案篩選](https://experience.workfront.com/s/article/2019-3-Integration-and-mobile-enhancements-1150184880)
 
   我們已在行動應用程式的「專案」索引標籤上新增「廢棄專案」作為篩選選項。
 
-* [在iOS上使用行動應用程式刪除物件](../../../../product-announcements/product-releases/quarterly-release-archive/2019.3-release-activity/2019-3-integration-mobile-enhancements.md#delete)
+* 在iOS上使用行動應用程式[刪除物件](../../../../product-announcements/product-releases/quarterly-release-archive/2019.3-release-activity/2019-3-integration-mobile-enhancements.md#delete)
 
   <!-- <MadCap:conditionalText data-mc-conditions="OnlineOrPDF.PrintOnly">  <a href="https://experience.workfront.com/s/article/2019-3-Integration-and-mobile-enhancements-1150184880" target="_blank" data-mc-conditions="QuicksilverOrClassic.Draft mode">Delete objects using the Mobile app on iOS</a> </MadCap:conditionalText>
    -->
@@ -357,12 +357,12 @@ ht-degree: 1%
 
 ## 公告
 
-* [新的Workfront體驗測試版現在可在「預覽」中使用](#the-new-workfront-experience-beta-now-available-in-preview)
-* [Workfront資料庫現已推出](#workfront-library-now-available)
-* [不再支援API第3版](#api-version-3-no-longer-supported)
+* [新的Workfront Experience Beta版現在可在「預覽」中使用](#the-new-workfront-experience-beta-now-available-in-preview)
+* [Workfront資料庫現已可用](#workfront-library-now-available)
+* [不再支援API版本3](#api-version-3-no-longer-supported)
 * [TLS 1.0和1.1支援即將結束](#tls-1-0-and-1-1-support-is-ending)
 * [Flash應用程式移除](#flash-application-removal)
-* [各種要移除的單一登入選項](#various-single-sign-on-options-to-be-removed)
+* [要移除的各種單一登入選項](#various-single-sign-on-options-to-be-removed)
 * [第3季產品藍圖網路研討會](#q3-product-roadmap-webinar)
 
 ### 新的Workfront體驗測試版現在可在「預覽」中使用 {#the-new-workfront-experience-beta-now-available-in-preview}
@@ -375,7 +375,7 @@ Workfront Library是企業數位內容中樞，可用來管理組織數位資產
 
 ### 不再支援API第3版 {#api-version-3-no-longer-supported}
 
-對API版本3的支援已於2018年11月終止。 如需Workfront API版本支援排程的詳細資訊，請參閱 [API版本設定和支援排程](../../../../wf-api/api/api-version-support-schedule.md)
+對API版本3的支援已於2018年11月終止。 如需有關Workfront API版本支援排程的詳細資訊，請參閱[API版本設定與支援排程](../../../../wf-api/api/api-version-support-schedule.md)
 
 <!--
 <MadCap:conditionalText data-mc-conditions="OnlineOrPDF.PrintOnly,QuicksilverOrClassic.Draft mode">
@@ -403,7 +403,7 @@ TLS 1.2 to be required in Workfront
 
 自2018.3發行版本以來，Workfront已移除所有依賴Flash技術的功能，並更換為新解決方案。
 
-如需有關舊版Flash工具及其取代的詳細資訊，請參閱 [取代Adobe Workfront中的Flash型工具](../../../../product-announcements/announcements/announcement-archive/replace-flash-tools.md)
+如需有關舊版Flash工具及其取代的詳細資訊，請參閱[在Adobe Workfront中取代Flash工具](../../../../product-announcements/announcements/announcement-archive/replace-flash-tools.md)
 
 <!--
 <MadCap:conditionalText data-mc-conditions="OnlineOrPDF.PrintOnly,QuicksilverOrClassic.Draft mode">
@@ -419,7 +419,7 @@ Replacement of Flash-based tools in Workfront
 
 * LDAP
 
-  如需搭配Workfront使用LDAP的詳細資訊，請參閱 [使用LDAP設定Adobe Workfront](../../../../administration-and-setup/manage-workfront/security/removal-various-sso-options.md)
+  如需搭配Workfront使用LDAP的詳細資訊，請參閱[搭配LDAP使用Adobe Workfront](../../../../administration-and-setup/manage-workfront/security/removal-various-sso-options.md)
 
   <!--
   <MadCap:conditionalText data-mc-conditions="OnlineOrPDF.PrintOnly,QuicksilverOrClassic.Draft mode">
@@ -431,7 +431,7 @@ Replacement of Flash-based tools in Workfront
 
 * 主動式目錄
 
-  如需搭配Workfront使用Active Directory的詳細資訊，請參閱 [使用Active Directory設定Adobe Workfront](../../../../administration-and-setup/manage-workfront/security/removal-various-sso-options.md)
+  如需將Active Directory與Workfront搭配使用的詳細資訊，請參閱[使用Active Directory設定Adobe Workfront](../../../../administration-and-setup/manage-workfront/security/removal-various-sso-options.md)
 
   <!--
   <MadCap:conditionalText data-mc-conditions="OnlineOrPDF.PrintOnly,QuicksilverOrClassic.Draft mode">
@@ -443,7 +443,7 @@ Replacement of Flash-based tools in Workfront
 
 * SAML 1.1
 
-  如需將SAML 1.1與Workfront搭配使用的詳細資訊，請參閱 [使用SAML 1.1設定Adobe Workfront](../../../../administration-and-setup/manage-workfront/security/removal-various-sso-options.md)
+  如需有關將SAML 1.1與Workfront搭配使用的詳細資訊，請參閱[使用SAML 1.1設定Adobe Workfront](../../../../administration-and-setup/manage-workfront/security/removal-various-sso-options.md)
 
   <!--
   <MadCap:conditionalText data-mc-conditions="OnlineOrPDF.PrintOnly,QuicksilverOrClassic.Draft mode">
@@ -467,4 +467,4 @@ Replacement of Flash-based tools in Workfront
 
 ### 第3季產品藍圖網路研討會 {#q3-product-roadmap-webinar}
 
-進一步瞭解期間將推出哪些功能 [第3季藍圖網路研討會](https://event.on24.com/eventRegistration/EventLobbyServlet?target=reg20.jsp&amp;partnerref=Product&amp;eventid=2040896&amp;sessionid=1&amp;key=EFBB434E2FDF446E010DA62D1C27E9E5&amp;regTag=&amp;sourcepage=register) 8月1日上午9:00。 最小
+深入瞭解將於8月1日上午9:00舉行的[第3季藍圖網路研討會](https://event.on24.com/eventRegistration/EventLobbyServlet?target=reg20.jsp&amp;partnerref=Product&amp;eventid=2040896&amp;sessionid=1&amp;key=EFBB434E2FDF446E010DA62D1C27E9E5&amp;regTag=&amp;sourcepage=register)。 最小

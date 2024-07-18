@@ -19,7 +19,7 @@ ht-degree: 0%
 
 # 建立或編輯環境升級套件
 
-您必須在要複製物件的環境中建立套件 **從**. 例如，如果您在您的「自訂重新整理沙箱」環境中設定專案並將其升級至您的生產環境，則必須在您的「自訂重新整理沙箱」環境中建立套件。
+您必須在要從&#x200B;**複製物件**&#x200B;的環境中建立封裝。 例如，如果您在您的「自訂重新整理沙箱」環境中設定專案並將其升級至您的生產環境，則必須在您的「自訂重新整理沙箱」環境中建立套件。
 
 >[!IMPORTANT]
 >
@@ -31,13 +31,13 @@ ht-degree: 0%
 
 <table>
   <tr>
-   <td><strong>[!DNL Adobe Workfront] 計畫</strong>
+   <td><strong>[!DNL Adobe Workfront]計畫</strong>
    </td>
    <td> Prime或Ultimate （僅限新計畫）
    </td>
   </tr>
   <tr>
-   <td><strong>[!DNL Adobe Workfront] 授權</strong>
+   <td><strong>[!DNL Adobe Workfront]個授權</strong>
    </td>
    <td> [！UICONTROL標準]
    </td>
@@ -45,43 +45,43 @@ ht-degree: 0%
    <tr>
    <td>存取層級設定
    </td>
-   <td>您必須是 [!DNL Workfront] 管理員。
+   <td>您必須是[!DNL Workfront]管理員。
    </td>
   </tr>
 </table>
 
-如需有關此表格的詳細資訊，請參閱 [Workfront檔案中的存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 ## 建立套件
 
-1. 前往您要在其中建立套件的環境。 這是您複製物件的環境 **從**.
-1. 按一下 **[!UICONTROL 主要功能表]** 圖示 ![主要功能表](/help/_includes/assets/main-menu-icon.png) 在Adobe Workfront的右上角，或（如果有的話）按一下 **[!UICONTROL 主要功能表]** 圖示 ![主要功能表](/help/_includes/assets/main-menu-icon-left-nav.png) 然後按一下「 」 **[!UICONTROL 設定]** ![「設定」圖示](/help/_includes/assets/gear-icon-setup.png).
-1. 選取 **系統** 在左側導覽中，然後選取 **環境升級**.
-1. 按一下 **建立封裝**.
+1. 前往您要在其中建立套件的環境。 這是您從&#x200B;**複製物件**&#x200B;的環境。
+1. 按一下Adobe Workfront右上角的&#x200B;**[!UICONTROL 主功能表]**&#x200B;圖示![主功能表](/help/_includes/assets/main-menu-icon.png)，或（如果有的話）按一下左上角的&#x200B;**[!UICONTROL 主功能表]**&#x200B;圖示![主功能表](/help/_includes/assets/main-menu-icon-left-nav.png)，然後按一下&#x200B;**[!UICONTROL 設定]** ![設定圖示](/help/_includes/assets/gear-icon-setup.png)。
+1. 在左側導覽中選取&#x200B;**系統**，然後選取&#x200B;**環境升級**。
+1. 按一下&#x200B;**建立封裝**。
 
    「新建促銷活動封裝」頁面隨即開啟。
 
-1. 在 **封裝名稱** 欄位，輸入封裝的名稱。
-1. 在 **說明** 欄位，輸入此封裝的說明。
-1. 若要將物件加入封裝，請按一下 **新增物件** 在左側導覽中並選取您要新增的物件型別。
+1. 在&#x200B;**封裝名稱**&#x200B;欄位中，輸入封裝的名稱。
+1. 在&#x200B;**描述**&#x200B;欄位中，輸入此封裝的描述。
+1. 若要新增物件至封裝，請按一下左側導覽中的[新增物件] ****，並選取您要新增的物件型別。
 1. 從清單中選取一或多個物件，或在搜尋列中鍵入名稱，並在物件出現在清單中時選取物件。 您可以在清單中選取多個物件。
-1. 按一下 **新增（X個物件）** 將選取的物件加入封裝。
+1. 按一下&#x200B;**新增（X物件）**，將選取的物件新增至封裝。
 
    >[!INFO]
    >
    >**範例**
    >
-   >如果您選取了三個專案以新增至專案，按鈕會顯示 **新增3個專案**.
+   >如果您已選取三個要新增至專案的專案，按鈕會顯示&#x200B;**新增3個專案**。
 
    您新增的物件會顯示在頁面右側的「封裝內容」區域中。
 
 1. 若要新增其他型別的物件，請重複步驟7-9。
 1. （選擇性）若要從封裝中移除物件，請將游標暫留在「封裝內容」區域中的物件上，然後按一下物件旁邊的X。
-1. 將所有想要的物件新增至封裝之後，請按一下 **儲存並關閉** 以儲存封裝而不進行組裝。
+1. 將所有想要的物件加入封裝之後，按一下[儲存並關閉] ****&#x200B;儲存封裝而不進行組裝。
 
    或
 
-   按一下 **儲存並組裝** 以儲存及組裝封裝。
+   按一下&#x200B;**儲存並組裝**&#x200B;以儲存並組裝封裝。
 
    >[!NOTE]
    >
@@ -90,14 +90,14 @@ ht-degree: 0%
 
 ## 編輯或組合現有套件
 
-1. 前往您要在其中建立套件的環境。 這是您複製物件的環境 **從**.
-1. 按一下 **[!UICONTROL 主要功能表]** 圖示 ![主要功能表](/help/_includes/assets/main-menu-icon.png) 在Adobe Workfront的右上角，或（如果有的話）按一下 **[!UICONTROL 主要功能表]** 圖示 ![主要功能表](/help/_includes/assets/main-menu-icon-left-nav.png) 然後按一下「 」 **[!UICONTROL 設定]** ![「設定」圖示](/help/_includes/assets/gear-icon-setup.png).
-1. 選取 **系統** 在左側導覽中，然後選取 **環境升級**.
+1. 前往您要在其中建立套件的環境。 這是您從&#x200B;**複製物件**&#x200B;的環境。
+1. 按一下Adobe Workfront右上角的&#x200B;**[!UICONTROL 主功能表]**&#x200B;圖示![主功能表](/help/_includes/assets/main-menu-icon.png)，或（如果有的話）按一下左上角的&#x200B;**[!UICONTROL 主功能表]**&#x200B;圖示![主功能表](/help/_includes/assets/main-menu-icon-left-nav.png)，然後按一下&#x200B;**[!UICONTROL 設定]** ![設定圖示](/help/_includes/assets/gear-icon-setup.png)。
+1. 在左側導覽中選取&#x200B;**系統**，然後選取&#x200B;**環境升級**。
 1. 從顯示的清單中選取封裝。
-1. （視條件而定）若要檢視停用的套件，請啟用 **顯示已淘汰的封裝** 選項。
-1. （選擇性）若要檢視內容（包括所有物件及其子物件），請按一下 **內容** 區段。
-1. （選擇性）若要檢視此套件的先前安裝與安裝嘗試，請按一下 **部署**.
-1. （選擇性）若要編輯套件，請按一下 **編輯套裝** 在畫面的右上角。
-1. 若要安裝套件，請按一下 **安裝** 在畫面的右上角。
+1. （視條件而定）若要檢視停用的封裝，請啟用&#x200B;**顯示已淘汰的封裝**&#x200B;選項。
+1. （選擇性）若要檢視內容（包括所有物件及其子物件），請在&#x200B;**內容**&#x200B;區段中按一下物件型別旁的下拉箭頭。
+1. （選擇性）若要檢視此套裝程式的先前安裝與安裝嘗試，請按一下&#x200B;**部署**。
+1. （選擇性）若要編輯封裝，請按一下畫面右上角的&#x200B;**編輯封裝**。
+1. 若要安裝套件，請按一下畫面右上角的&#x200B;**安裝**。
 
-   如需安裝套件的說明，請參閱 [安裝環境升級套件](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-install-package.md).
+   如需安裝套件的說明，請參閱[安裝環境升級套件](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-install-package.md)。

@@ -9,7 +9,7 @@ exl-id: e6cffe81-ab45-4c34-aafe-2f947f9a67fd
 source-git-commit: 3a2745437e00ac968f2a4590be2637dbc01594ad
 workflow-type: tm+mt
 source-wordcount: '817'
-ht-degree: 2%
+ht-degree: 1%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 2%
 
 >[!IMPORTANT]
 >
->如果使用者與週期性時程表相關聯，且時程表會自動產生，則您對現有時程表進行的變更不會反映在為未來日期產生的時程表中。 所有自動產生的時程表都會在時程表設定檔中建立設定。 如需詳細資訊，請參閱 [建立週期性時程表](../create-and-manage-timesheets/create-timesheet-profiles.md)
+>如果使用者與週期性時程表相關聯，且時程表會自動產生，則您對現有時程表進行的變更不會反映在為未來日期產生的時程表中。 所有自動產生的時程表都會在時程表設定檔中建立設定。 如需詳細資訊，請參閱[建立週期性時程表](../create-and-manage-timesheets/create-timesheet-profiles.md)
 
 
 ## 存取需求
@@ -42,38 +42,38 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定*</td> 
-   <td> <p>您必須擁有時程表的管理存取權。 </p> <p>如需詳細資訊，請參閱 <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">授予使用者管理特定區域的存取權</a>.</p> <p><b>附註</b>
+   <td> <p>您必須擁有時程表的管理存取權。 </p> <p>如需詳細資訊，請參閱<a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">授予使用者對特定區域的管理存取權</a>。</p> <p><b>附註</b>
 
-如果您還是沒有存取權，請詢問您的Workfront管理員，他們是否在您的存取層級中設定其他限制。 如需有關Workfront管理員如何修改您的存取層級的資訊，請參閱 <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>.</p> </td>
+如果您還是沒有存取權，請詢問您的Workfront管理員，他們是否在您的存取層級中設定其他限制。 如需Workfront管理員如何修改存取層級的詳細資訊，請參閱<a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>。</p> </td>
 </tr> 
  </tbody> 
 </table>
 
-&#42;若要瞭解您擁有的計畫、授權型別或存取權，請聯絡您的Workfront管理員。
+&#42;若要瞭解您擁有的計畫、授權型別或存取權，請連絡您的Workfront管理員。
 
 ## 編輯時間表
 
-1. 按一下 **主要功能表** 圖示 ![](assets/main-menu-icon.png) (位於Adobe Workfront的右上角)，然後按一下 **時間表**.
+1. 按一下Adobe Workfront右上角的&#x200B;**主要功能表**&#x200B;圖示![](assets/main-menu-icon.png)，然後按一下&#x200B;**時程表**。
 
-   此 **全部** 依預設會選取篩選器，以顯示您有權檢視的所有時程表。
+   依預設會選取&#x200B;**全部**&#x200B;篩選器，以顯示您有權檢視的所有時程表。
 
    ![](assets/timesheet-list-one-timesheet-selected-nwe-350x70.png)
 
-1. （可選）按一下 **搜尋** 圖示 ![](assets/search-icon.png) 和輸入關鍵字，並搜尋特定時程表。 例如，您可以搜尋時程表的時間範圍或擁有者名稱。
+1. （選擇性）按一下&#x200B;**搜尋**&#x200B;圖示![](assets/search-icon.png)並輸入關鍵字及搜尋特定時間表。 例如，您可以搜尋時程表的時間範圍或擁有者名稱。
 
 1. （選用）執行下列任一項作業，更新時程表清單中的篩選器：
 
-   * 選取 **我的時程表核准** 在頁面的右上角，僅檢視您核准的時程表
+   * 選取頁面右上角的&#x200B;**我的時程表核准**，僅檢視您核准的時程表
 
      或
 
-     選取 **我的時間表** 以僅檢視您的時間表。
+     選取&#x200B;**我的時程表**&#x200B;以僅檢視您的時程表。
 
      這會套用我的時程表核准或我的時程表篩選器到時程表清單。
 
      ![](assets/my-timesheet-approvals-my-timesheets-pills-on-timesheets-list-nwe-350x58.png)
 
-   * 按一下篩選器圖示 ![](assets/filter-nwepng.png) 以套用不同的篩選，或建立新的篩選。 如需建立或更新篩選的資訊，請參閱 [在Adobe Workfront中建立或編輯篩選器](../../reports-and-dashboards/reports/reporting-elements/create-filters.md).
+   * 按一下「篩選」圖示![](assets/filter-nwepng.png)以套用不同的篩選，或建立新的篩選。 如需建立或更新篩選的資訊，請參閱[在Adobe Workfront中建立或編輯篩選器](../../reports-and-dashboards/reports/reporting-elements/create-filters.md)。
 
    >[!NOTE]
    >
@@ -81,11 +81,11 @@ ht-degree: 2%
    >
    >   
    >   
-   * [使用版面配置範本自訂篩選器、檢視和群組](../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)
+   >   * [使用配置範本自訂篩選器、檢視和群組](../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)
    >   
    >
 
-1. （可選）按一下&#x200B;**檢視** ![](assets/view-icon.png) 或 **分組** ![](assets/grouping.png) 圖示可套用不同的檢視或群組，或是建立新的檢視或群組。
+1. （選擇性）按一下&#x200B;**檢視** ![](assets/view-icon.png)或&#x200B;**群組** ![](assets/grouping.png)圖示以套用不同的檢視或群組或建立新的檢視或群組。
 
    如需有關建立篩選器、檢視或群組的資訊，請參閱下列文章：
 
@@ -93,7 +93,7 @@ ht-degree: 2%
    * [在Adobe Workfront中建立或編輯檢視](../../reports-and-dashboards/reports/reporting-elements/create-edit-views.md)
    * [在Adobe Workfront中建立群組](../../reports-and-dashboards/reports/reporting-elements/create-groupings.md)
 
-1. 選取一或多個時程表，然後按一下 **編輯** 圖示 ![](assets/edit-icon.png) 在時程表清單頂端。
+1. 選取一或多個時間表，然後按一下時間表清單頂端的&#x200B;**編輯**&#x200B;圖示![](assets/edit-icon.png)。
 1. 檢視或指定下列資訊：
 
    <table style="table-layout:auto"> 
@@ -116,18 +116,18 @@ ht-degree: 2%
       <td role="rowheader"><strong>狀態</strong> </td> 
       <td> 這是時程表的狀態。
       以下為可能的時程表狀態選項： 
-      <ul><li><b>開啟</b>：時程表已開啟且可以編輯小時專案。</li>
-      <li><b>已提交</b>：時程表已提交給指定的核准者核准。</li>
+      <ul><li><b>開啟</b>：時程表已開啟，可以編輯小時專案。</li>
+      <li><b>已提交</b>：已提交時程表以供指定核准者核准。</li>
       <li><b>已拒絕</b>：核准者未核準時程表，現在使用者可再次編輯時間專案。</li>
-      <li><b>已關閉</b>：使用者已關閉或核准者已核準時程表，因此時程表現在已關閉。 您無法將時間新增至已關閉的時程表。</li>
+      <li><b>已關閉</b>：時程表已由使用者關閉或由核准者核准，因此現在已關閉。 您無法將時間新增至已關閉的時程表。</li>
    </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>核准者</strong> </td> 
-      <td> <p>核准者指核准與時程表相關聯之使用者之時程表的使用者。 只有對時程表具有管理存取許可權的使用者才能設定為核准者。 </p> <p>如需時程表管理許可權的詳細資訊，請參閱 <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">授予使用者管理特定區域的存取權</a>.</p> <p>開始輸入時程表核准者的名稱，並在他們出現在清單中時選取他們。</p> <p>您可以在時程表上擁有多個核准者。 在此情況下，當核准者核準時程表後，該時程表會標籤為 <strong>已關閉</strong> 而且它會從所有剩餘核准者的時程表核准清單中消失。</p> </td> 
+      <td> <p>核准者指核准與時程表相關聯之使用者之時程表的使用者。 只有對時程表具有管理存取許可權的使用者才能設定為核准者。 </p> <p>如需時程表管理許可權的詳細資訊，請參閱<a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">授予使用者對特定區域的管理存取權</a>。</p> <p>開始輸入時程表核准者的名稱，並在他們出現在清單中時選取他們。</p> <p>您可以在時程表上擁有多個核准者。 在這種情況下，在核准者核準時程表後，該時程表會被標籤為<strong>已關閉</strong>，並且會從所有剩餘核准者的時程表核准清單中消失。</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>可編輯時間</strong> </td> 
+      <td role="rowheader"><strong>可以編輯時間</strong> </td> 
       <td> <p>如果您希望允許核准者編輯時程表上的小時，請選取此選項。</p> <p>當您選取多個時程表時，此選項不可用。 </p> </td> 
      </tr> 
      <tr data-mc-conditions=""> 
@@ -137,4 +137,4 @@ ht-degree: 2%
     </tbody> 
    </table>
 
-1. 按一下&#x200B;**儲存**。
+1. 按一下「**儲存**」。

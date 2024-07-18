@@ -18,7 +18,7 @@ ht-degree: 0%
 
 本頁說明2020.1版的所有校訂增強功能。 這些增強功能目前可在「預覽」環境中取得，並將於2020年3月底或4月初在「生產」環境中取得。
 
-如需2020.1版所有可用變更的清單，請參閱 [2020.1版本總覽](../../../product-announcements/product-releases/2020.1-release-activity/2020-1-release-overview.md).
+如需2020.1版所有可用變更的清單，請參閱[2020.1版總覽](../../../product-announcements/product-releases/2020.1-release-activity/2020-1-release-overview.md)。
 
 ## 校訂檢視器中測量工具的更新
 
@@ -36,7 +36,7 @@ ht-degree: 0%
 
 此外，不同自動工作流程活動之間的階段設定名稱現在是一致的。 先前，設定新校訂的一些自動化工作流程階段設定與現有校訂的對應設定不同。
 
-如需詳細資訊，請參閱和 [建立或編輯現有校訂的自動化工作流程](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/create-edit-automated-workflow-existing-proof.md)
+如需詳細資訊，請參閱和[建立或編輯現有校訂的自動工作流程](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/create-edit-automated-workflow-existing-proof.md)
 
 ## 新增時區至自動化工作流程範本
 

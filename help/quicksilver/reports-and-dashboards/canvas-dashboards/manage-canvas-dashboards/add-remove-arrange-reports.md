@@ -5,7 +5,8 @@ title: 在畫布控制面板中新增、移除或排列報表
 description: 建立「畫布控制面板」後，您可以新增報表，以各種格式顯示您的Adobe Workfront資料。 您可以視需要在畫布上移動這些報表及調整其大小。
 author: Nolan
 feature: Reports and Dashboards
-source-git-commit: 535e9c8481ce0781ee0d35636bb6d56de4d1e102
+exl-id: 840f2e1f-592f-44c1-b2e9-7201e424209a
+source-git-commit: 893f41011159ff14410edf50bf1b3d24d787a85a
 workflow-type: tm+mt
 source-wordcount: '548'
 ht-degree: 0%
@@ -14,7 +15,7 @@ ht-degree: 0%
 
 # 在畫布控制面板中新增、移除或排列報表
 
-建立「畫布控制面板」後，您可以新增報表，以各種格式顯示您的Adobe Workfront資料。 您可以視需要在畫布上移動這些報表及調整其大小。 如需有關建立畫布控制面板的資訊，請參閱 [開始使用畫布儀表板](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/get-started-canvas-dashboards.md).
+建立「畫布控制面板」後，您可以新增報表，以各種格式顯示您的Adobe Workfront資料。 您可以視需要在畫布上移動這些報表及調整其大小。 如需有關建立畫布控制面板的資訊，請參閱[開始使用畫布控制面板](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/get-started-canvas-dashboards.md)。
 
 ## 存取需求
 
@@ -41,27 +42,27 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-如需有關此表格的詳細資訊，請參閱 [Workfront檔案中的存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 ## 新增報表至畫布控制面板
 
-1. 按一下 **[!UICONTROL 主要功能表]** 圖示 ![主要功能表](/help/_includes/assets/main-menu-icon.png) 在Adobe Workfront的右上角，或（如果有的話）按一下 **[!UICONTROL 主要功能表]** 圖示 ![主要功能表](/help/_includes/assets/main-menu-icon-left-nav.png) 然後按一下「 」 **儀表板**.
+1. 按一下Adobe Workfront右上角的&#x200B;**[!UICONTROL 主功能表]**&#x200B;圖示![主功能表](/help/_includes/assets/main-menu-icon.png)，或（如果有的話）按一下左上角的&#x200B;**[!UICONTROL 主功能表]**&#x200B;圖示![主功能表](/help/_includes/assets/main-menu-icon-left-nav.png)，然後按一下&#x200B;**儀表板**。
 
-1. 在左側面板中，按一下 **畫布控制面板**，然後按一下您要新增報表的畫布控制面板名稱。
+1. 在左側面板中，按一下&#x200B;**畫布控制面板**，然後按一下您要新增報告的畫布控制面板名稱。
 
-1. 按一下 **+新增報告** 按鈕來切換頁面。
+1. 按一下頁面右上角的&#x200B;**+新增報告**&#x200B;按鈕。
 
-1. 在 **新增報告** 視窗出現，按一下 **新增** 在您想要新增至畫布控制面板的報表型別底下。
+1. 在出現的「**新增報告**」視窗中，按一下您想要新增至畫布控制面板的報告型別下方的「**新增**」。
 
-1. 根據您選取的報告型別繼續設定報告。 如需設定每種報表型別的詳細資訊，請參閱 [畫布控制面板報表型別](/help/quicksilver/reports-and-dashboards/canvas-dashboards/report-types/report-types-overview.md). 如果您在完成設定之前關閉視窗，則仍會將空白報表新增至畫布控制面板。 您稍後可以按一下 **設定** 按鈕以空白報表居中。
+1. 根據您選取的報告型別繼續設定報告。 如需設定每種報表型別的詳細資訊，請參閱[畫布儀表板報表型別](/help/quicksilver/reports-and-dashboards/canvas-dashboards/report-types/report-types-overview.md)。 如果您在完成設定之前關閉視窗，則仍會將空白報表新增至畫布控制面板。 您稍後可以按一下空白報表中央的&#x200B;**組態**&#x200B;按鈕，完成設定。
 
 ## 在畫布控制面板中移動報表或調整報表大小
 
-1. 按一下 **[!UICONTROL 主要功能表]** 圖示 ![主要功能表](/help/_includes/assets/main-menu-icon.png) 在Adobe Workfront的右上角，或（如果有的話）按一下 **[!UICONTROL 主要功能表]** 圖示 ![主要功能表](/help/_includes/assets/main-menu-icon-left-nav.png) 然後按一下「 」 **儀表板**.
+1. 按一下Adobe Workfront右上角的&#x200B;**[!UICONTROL 主功能表]**&#x200B;圖示![主功能表](/help/_includes/assets/main-menu-icon.png)，或（如果有的話）按一下左上角的&#x200B;**[!UICONTROL 主功能表]**&#x200B;圖示![主功能表](/help/_includes/assets/main-menu-icon-left-nav.png)，然後按一下&#x200B;**儀表板**。
 
-1. 在左側面板中，按一下 **畫布控制面板**，然後按一下您要編輯的畫布控制面板的名稱。
+1. 在左側面板中，按一下&#x200B;**畫布控制面板**，然後按一下您要編輯的畫布控制面板名稱。
 
-1. 按一下 **編輯版面** 按鈕來切換頁面。
+1. 按一下頁面右上角的&#x200B;**編輯配置**&#x200B;按鈕。
 
 1. 「畫布控制面板」上的報表現在會顯示在可以編輯的方塊中：
 
@@ -71,12 +72,12 @@ ht-degree: 0%
 
    若要調整報表大小，請按一下並拖曳方塊右下角的楔形，直到它成為您想要的大小。
 
-1. 排完報表後，按一下 **完成** 按鈕來儲存變更。
+1. 完成報表排列後，請按一下頁面右上角的&#x200B;**完成**&#x200B;按鈕以儲存變更。
 
 ## 從畫布控制面板移除報表
 
-1. 按一下 **[!UICONTROL 主要功能表]** 圖示 ![主要功能表](/help/_includes/assets/main-menu-icon.png) 在Adobe Workfront的右上角，或（如果有的話）按一下 **[!UICONTROL 主要功能表]** 圖示 ![主要功能表](/help/_includes/assets/main-menu-icon-left-nav.png) 然後按一下「 」 **儀表板**.
+1. 按一下Adobe Workfront右上角的&#x200B;**[!UICONTROL 主功能表]**&#x200B;圖示![主功能表](/help/_includes/assets/main-menu-icon.png)，或（如果有的話）按一下左上角的&#x200B;**[!UICONTROL 主功能表]**&#x200B;圖示![主功能表](/help/_includes/assets/main-menu-icon-left-nav.png)，然後按一下&#x200B;**儀表板**。
 
-1. 在左側面板中，按一下 **畫布控制面板**，然後按一下包含您要移除之報表的畫布控制面板的名稱。
+1. 在左側面板中，按一下&#x200B;**畫布控制面板**，然後按一下包含您要移除之報告的畫布控制面板名稱。
 
-1. 按一下 **更多** 圖示 ![「更多」圖示](/help/quicksilver/reports-and-dashboards/canvas-dashboards/assets/more-icon.png) 在想要移除的報表右上角，然後按一下「 」 **移除**.
+1. 按一下您要移除之報告右上角的&#x200B;**更多**&#x200B;圖示![更多](/help/quicksilver/reports-and-dashboards/canvas-dashboards/assets/more-icon.png)，然後按一下&#x200B;**移除**。

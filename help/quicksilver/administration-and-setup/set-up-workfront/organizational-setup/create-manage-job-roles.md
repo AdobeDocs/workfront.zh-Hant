@@ -3,7 +3,7 @@ user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: organization-setup
 title: 建立和管理職務角色
-description: 作為 [!DNL Adobe Workfront] 管理員或具有職位角色管理存取權的使用者，您可以建立可指派給使用者的職位角色，並刪除與您的組織無關的預設職位角色。
+description: 作為 [!DNL Adobe Workfront] 管理員或具有「工作角色」管理存取許可權的使用者，您可以建立可指派給使用者的工作角色，並刪除與您的組織無關的預設工作角色。
 author: Lisa
 feature: System Setup and Administration
 role: Admin
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 <!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.-->
 
-作為 [!DNL Adobe Workfront] 管理員或具有職位角色管理存取權的使用者，您可以建立可指派給使用者的職位角色，並刪除與您的組織無關的預設職位角色。 有關中管理存取許可權的資訊 [!DNL Workfront]，請參閱 [授予使用者管理特定區域的存取權](../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
+作為[!DNL Adobe Workfront]管理員或具有工作角色管理存取權的使用者，您可以建立可指派給使用者的工作角色，並刪除與您的組織無關的預設工作角色。 如需[!DNL Workfront]中管理存取權的相關資訊，請參閱[授予使用者對特定區域的管理存取權](../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md)。
 
 ## 存取需求
 
@@ -50,7 +50,7 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-&#42;若要瞭解您擁有的計畫、授權型別或存取權，請聯絡您的 [!DNL Workfront] 管理員。
+&#42;若要瞭解您擁有的計畫、授權型別或存取權，請連絡您的[!DNL Workfront]管理員。
 
 +++
 
@@ -60,8 +60,8 @@ ht-degree: 0%
 
 {{step-1-to-setup}}
 
-1. 在左側面板中，按一下&#x200B;。 **[!UICONTROL 職位角色].**
-1. 按一下 **[!UICONTROL 新增工作角色].**
+1. 在左側面板中，按一下&#x200B;**[!UICONTROL 工作角色].**
+1. 按一下&#x200B;**[!UICONTROL 新增工作角色].**
 1. 設定下列專案：
 
    <table style="table-layout:auto"> 
@@ -70,7 +70,7 @@ ht-degree: 0%
     <tbody> 
      <tr> 
       <td role="rowheader">[！UICONTROL名稱]</td> 
-      <td> <p>指定工作角色的名稱。 此名稱會顯示「 」中的所有位置 [!DNL Workfront] 其中顯示[！UICONTROL Job Role]欄位。 </p> <p>提示：工作角色的名稱最多可包含255個字元。 不過，較長名稱在下列特定區域可能會遭到截斷： [!DNL Workfront]. </p> </td> 
+      <td> <p>指定工作角色的名稱。 這是[!DNL Workfront]中顯示[！UICONTROL Job Role]欄位的所有位置的名稱。 </p> <p>提示：工作角色的名稱最多可包含255個字元。 但是，在[!DNL Workfront]的某些區域中，較長的名稱可能會被截斷。 </p> </td> 
      </tr>
      <tr> 
       <td role="rowheader">[！UICONTROL說明]</td> 
@@ -80,46 +80,46 @@ ht-degree: 0%
       <td role="rowheader"><span>[！UICONTROL作用中]</span> </td> 
       <td> 
        <ul> 
-        <li> <p>選取 <b>[！UICONTROL是]</b> 如果您希望角色在中任何地方都可使用且為作用中 [!DNL Workfront] 以與使用者、工作專案等建立關聯。 </p> </li> 
-        <li> <p>選取 <b>[！UICONTROL否]</b>，如果您想要停用角色，且無法將其指派給使用者、工作專案等。 </p> </li> 
-       </ul> <p><span>如需有關停用工作角色的資訊，請參閱</span> <a href="../../../administration-and-setup/set-up-workfront/organizational-setup/deactivate-job-roles.md" class="MCXref xref">停用職位角色</a>. </p> </td> 
+        <li> <p>如果您想要角色作用中並且在[!DNL Workfront]中的所有位置都可供使用，以便與使用者、工作專案等建立關聯，請選取<b>[！UICONTROL是]</b>。 </p> </li> 
+        <li> <p>如果您想要停用角色且無法指派給使用者、工作專案等，請選取<b>[！UICONTROL否]</b>。 </p> </li> 
+       </ul> <p><span>如需停用工作角色的資訊，請參閱</span> <a href="../../../administration-and-setup/set-up-workfront/organizational-setup/deactivate-job-roles.md" class="MCXref xref">停用工作角色</a>。 </p> </td> 
      </tr>
      <tr data-mc-conditions=""> 
       <td role="rowheader"><span>[！UICONTROL基本貨幣]</span> </td> 
-      <td> <p><span>這是您的Workfront管理員在[！UICONTROL設定]區域中設定的[！UICONTROL基本貨幣]。 如需詳細資訊，請參閱</span> <a href="../../../administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md" class="MCXref xref">設定匯率</a> .</p> <p>秘訣： <span>您無法在工作角色層級編輯[！UICONTROL基本貨幣]。 此欄位會變暗，以提醒您系統的基本貨幣為何。</span> </p> </td> 
+      <td> <p><span>這是您的Workfront管理員在[！UICONTROL設定]區域中設定的[！UICONTROL基本貨幣]。 如需詳細資訊，請參閱</span> <a href="../../../administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md" class="MCXref xref">設定匯率</a>。</p> <p>提示： <span>您無法編輯工作角色層級的[！UICONTROL基本貨幣]。 此欄位會變暗，以提醒您系統的基本貨幣為何。</span> </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">[！UICONTROL成本率]</td> 
       <td><p>這是工作角色的每小時成本率。 此值會計算與角色相關之任務與問題的計畫成本與實際成本，以及最終的專案計畫成本與實際成本。 使用[！UICONTROL基本貨幣]輸入匯率。</p> 
-      <p>若要取得日期有效成本率，請按一下 <strong>[！UICONTROL加入率]</strong>. 輸入時段的成本/小時值，並視需要指派[！UICONTROL開始日期]和[！UICONTROL結束日期]。 第一個成本費率不會有開始日期，而最後一個成本費率不會有結束日期。</p> <p>部分日期會自動新增。 例如，如果第一個成本費率沒有結束日期，而您新增了開始日期為2023年5月1日的第二個成本費率，則結束日期為2023年4月30日的成本費率會新增至第一個成本費率，這樣就不會有差距。</p> <p>提示：編輯現有工作角色時，您可以選取 <strong>依開始日期排序</strong> 若要在費率清單頂端檢視最近的開始日期。</p></td> 
+      <p>如需日期有效成本費率，請按一下<strong>[！UICONTROL新增費率]</strong>。 輸入時段的成本/小時值，並視需要指派[！UICONTROL開始日期]和[！UICONTROL結束日期]。 第一個成本費率不會有開始日期，而最後一個成本費率不會有結束日期。</p> <p>部分日期會自動新增。 例如，如果第一個成本費率沒有結束日期，而您新增了開始日期為2023年5月1日的第二個成本費率，則結束日期為2023年4月30日的成本費率會新增至第一個成本費率，這樣就不會有差距。</p> <p>提示：編輯現有工作角色時，您可以選取<strong>依開始日期排序</strong>，在費率清單頂端檢視最近的開始日期。</p></td> 
      </tr> 
      <tr> 
       <td role="rowheader">[！UICONTROL收費率] </td> 
-      <td><p>這是工作角色的每小時收費率。 此值會計算與角色相關之任務和問題的計畫和實際收入，最終是專案的計畫和實際收入。 使用[！UICONTROL基本貨幣]輸入匯率。</p> <p>如需日期有效收費率，請按一下 <strong>[！UICONTROL加入率]</strong>. 輸入時段的記帳/小時值，並視需要指派[！UICONTROL開始日期]和[！UICONTROL結束日期]。 第一個收費率不會有開始日期，而最後一個收費率則不會有結束日期。</p> <p>部分日期會自動新增。 例如，如果第一個收費率沒有結束日期，而您新增了開始日期為2023年5月1日的第二個收費率，則第一個收費率會新增2023年4月30日的結束日期，因此不會有間隙。</p> <p>提示：編輯現有工作角色時，您可以選取 <strong>依開始日期排序</strong> 若要在費率清單頂端檢視最近的開始日期。</p> </td> 
+      <td><p>這是工作角色的每小時收費率。 此值會計算與角色相關之任務和問題的計畫和實際收入，最終是專案的計畫和實際收入。 使用[！UICONTROL基本貨幣]輸入匯率。</p> <p>若要取得日期有效收費率，請按一下<strong>[！UICONTROL新增費率]</strong>。 輸入時段的記帳/小時值，並視需要指派[！UICONTROL開始日期]和[！UICONTROL結束日期]。 第一個收費率不會有開始日期，而最後一個收費率則不會有結束日期。</p> <p>部分日期會自動新增。 例如，如果第一個收費率沒有結束日期，而您新增了開始日期為2023年5月1日的第二個收費率，則第一個收費率會新增2023年4月30日的結束日期，因此不會有間隙。</p> <p>提示：編輯現有工作角色時，您可以選取<strong>依開始日期排序</strong>，在費率清單頂端檢視最近的開始日期。</p> </td> 
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader"><span>[！UICONTROL覆寫貨幣]</span> </td> 
       <td>
-        <p>選取與此工作角色關聯的貨幣。 這是具有以下特性的貨幣 [!DNL Workfront] 會使用來計算與此職務角色相關聯的成本和收入。 </p> 
-        <p><span>與您設定的[！UICONTROL基本貨幣]不同 [!DNL Workfront] 管理員（位於[！UICONTROL設定]區域），且可能與專案相關的貨幣不同。</span> </p> 
+        <p>選取與此工作角色關聯的貨幣。 這是[!DNL Workfront]用於計算與此工作角色相關之成本和收入的貨幣。 </p> 
+        <p><span>這與[!DNL Workfront]管理員在[！UICONTROL設定]區域中設定的[！UICONTROL基本貨幣]不同，也可能與專案相關的貨幣不同。</span> </p> 
         <p>提示：此欄位僅提供您系統中[！UICONTROL Exchange Rates]區域中可用的貨幣。 如果您只設定一種貨幣，則此欄位不會出現。</p> 
-       <p><span>如需有關在中設定[！UICONTROL基本貨幣]的資訊 [!DNL Workfront]，請參閱</span> <a href="../../../administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md" class="MCXref xref">設定匯率</a>.</p> <p><span>如需有關變更專案貨幣的資訊，請參閱</span> <a href="../../../manage-work/projects/project-finances/change-project-currency.md" class="MCXref xref">變更專案貨幣</a>.</p> </td> 
+       <p><span>如需在[!DNL Workfront]中設定[！UICONTROL基本貨幣]的相關資訊，請參閱</span> <a href="../../../administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md" class="MCXref xref">設定匯率</a>。</p> <p><span>如需有關變更專案貨幣的資訊，請參閱</span> <a href="../../../manage-work/projects/project-finances/change-project-currency.md" class="MCXref xref">變更專案貨幣</a>。</p> </td> 
      </tr> 
      <tr data-mc-conditions=""> 
-      <td role="rowheader"><span>[！UICONTROL覆寫貨幣成本率]</span> </td> 
+      <td role="rowheader"><span>[！UICONTROL覆寫貨幣成本費率]</span> </td> 
       <td>
-        <p>這是工作角色使用所選[！UICONTROL覆寫貨幣]的每小時成本率。 [!DNL Workfront] 使用此值來計算與工作角色相關之任務和問題的計畫成本與實際成本。 </p> 
-        <p><span>以上述指定的[！UICONTROL覆寫貨幣]輸入匯率。 當使用[！UICONTROL基本貨幣]時，這也會更新此職務角色的成本率。</span> </p> 
-        <p>如需如何操作的詳細資訊 [!DNL Workfront] 計算成本，請參閱 <a href="../../../manage-work/projects/project-finances/track-costs.md" class="MCXref xref">追蹤成本</a>.</p> 
-       <p>提示：更新已具有相關成本率的現有職務角色時， [!DNL Workfront] 根據您系統中的轉換率計算[！UICONTROL覆寫貨幣]匯率。 如果您更新[！UICONTROL覆寫貨幣成本費率]，則職務角色的成本費率也會自動更新。</p> </td> 
+        <p>這是工作角色使用所選[！UICONTROL覆寫貨幣]的每小時成本率。 [!DNL Workfront]使用此值來計算與工作角色相關之任務和問題的計畫成本與實際成本。 </p> 
+        <p><span>以上述指定的[！UICONTROL Override Currency]輸入匯率。 當使用[！UICONTROL基本貨幣]時，這也會更新此工作角色的成本率。</span> </p> 
+        <p>有關[!DNL Workfront]如何計算成本的資訊，請參閱<a href="../../../manage-work/projects/project-finances/track-costs.md" class="MCXref xref">追蹤成本</a>。</p> 
+       <p>提示：更新已有關聯成本費率的現有職務角色時，[!DNL Workfront]會根據您系統中的轉換率計算[！UICONTROL覆寫貨幣]費率。 如果您更新[！UICONTROL覆寫貨幣成本費率]，則職務角色的成本費率也會自動更新。</p> </td> 
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader"><span>[！UICONTROL覆寫貨幣收費率]</span> </td> 
       <td>
-        <p>這是工作角色使用所選[！UICONTROL覆寫貨幣]的每小時收費率。 [!DNL Workfront] 使用此值來計算與工作角色相關之任務和問題的計畫和實際收入。 </p>
-        <p><span>以上述指定的[！UICONTROL覆寫貨幣]輸入匯率。 當使用[！UICONTROL基本貨幣]時，這也會更新此職務角色的計費率。</span> </p>
-        <p>如需如何操作的詳細資訊 [!DNL Workfront] 計算收入，請參閱 <a href="../../../manage-work/projects/project-finances/billing-and-revenue-overview.md" class="MCXref xref">帳單與收入概要</a>.</p>
-        <p>提示：更新已具有相關聯收費率的現有職務角色時， [!DNL Workfront] 根據您系統中的兌換率計算「覆寫幣別」匯率。 如果您更新「覆寫幣別帳單費率」，職務角色的「帳單費率」也會自動更新。 </p>
+        <p>這是工作角色使用所選[！UICONTROL覆寫貨幣]的每小時收費率。 [!DNL Workfront]使用此值來計算與工作角色相關之任務和問題的計畫和實際收入。 </p>
+        <p><span>以上述指定的[！UICONTROL Override Currency]輸入匯率。 當使用[！UICONTROL基本貨幣]時，這也會更新此工作角色的計費率。</span> </p>
+        <p>有關[!DNL Workfront]如何計算收入的資訊，請參閱<a href="../../../manage-work/projects/project-finances/billing-and-revenue-overview.md" class="MCXref xref">帳單與收入概觀</a>。</p>
+        <p>提示：更新已有關聯收費率的現有職務角色時，[!DNL Workfront]會根據您系統中的轉換率計算覆寫貨幣率。 如果您更新「覆寫幣別帳單費率」，職務角色的「帳單費率」也會自動更新。 </p>
        </td>
      </tr> 
     </tbody> 
@@ -127,9 +127,9 @@ ht-degree: 0%
 
    >[!TIP]
    >
-   >工作角色是管理資源的必要部分。 若要使用資源計畫工具，職務角色需要與其相關的成本與帳單費率。 如需詳細資訊，請參閱 [開始使用資源管理](../../../resource-mgmt/resource-mgmt-overview/get-started-resource-management.md).
+   >工作角色是管理資源的必要部分。 若要使用資源計畫工具，職務角色需要與其相關的成本與帳單費率。 如需詳細資訊，請參閱[開始使用資源管理](../../../resource-mgmt/resource-mgmt-overview/get-started-resource-management.md)。
 
-1. 按一下 **[!UICONTROL 建立工作角色]**. 工作角色現在可指派給任務、問題、核准，或者您可以與其共用版面範本或其他物件。 有關中工作角色的所有使用的資訊 [!DNL Workfront]，請參閱 [工作角色總覽](../../../administration-and-setup/set-up-workfront/organizational-setup/job-role-overview.md). 有關刪除工作角色的資訊，請參閱 [刪除職位角色](../../../administration-and-setup/set-up-workfront/organizational-setup/delete-job-roles.md).
+1. 按一下&#x200B;**[!UICONTROL 建立工作角色]**。 工作角色現在可指派給任務、問題、核准，或者您可以與其共用版面範本或其他物件。 如需[!DNL Workfront]中所有工作角色使用的相關資訊，請參閱[工作角色總覽](../../../administration-and-setup/set-up-workfront/organizational-setup/job-role-overview.md)。 如需有關刪除工作角色的資訊，請參閱[刪除工作角色](../../../administration-and-setup/set-up-workfront/organizational-setup/delete-job-roles.md)。
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

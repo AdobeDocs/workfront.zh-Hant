@@ -9,8 +9,8 @@ feature: Reports and Dashboards
 exl-id: 235156b6-a9b6-484e-b126-54874da705c8
 source-git-commit: bcafa607da733b89747f6b448dd295d9b906d060
 workflow-type: tm+mt
-source-wordcount: '141'
-ht-degree: 4%
+source-wordcount: '134'
+ht-degree: 5%
 
 ---
 
@@ -22,11 +22,11 @@ ht-degree: 4%
 * 已轉換問題的輸入日期
 * 轉換的問題建立者名稱
 
-如需使用標準Report Builder建立檢視的相關資訊，請參閱 [Adobe Workfront中的檢視概觀](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
+如需使用標準Report Builder建立檢視的相關資訊，請參閱[Adobe Workfront中的檢視總覽](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md)。
 
 ![task_and_project_list_with_original_issue_info.png](assets/task-and-project-list-with-original-issue-info-350x59.png)
 
-如需將其他問題資訊包含在專案和任務清單中的詳細資訊，請參閱 [檢視：任務和專案的原始問題詳細資訊](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-originating-issue-details-tasks-projects.md).
+如需將其他問題資訊包含在專案與工作清單中的詳細資訊，另請參閱[檢視：工作與專案的原始問題詳細資訊](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-originating-issue-details-tasks-projects.md)。
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

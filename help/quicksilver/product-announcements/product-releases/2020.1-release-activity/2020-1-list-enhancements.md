@@ -18,7 +18,7 @@ ht-degree: 0%
 
 本頁說明2020.1版本對「清單」所做的所有增強功能。 這些增強功能目前可在「預覽」環境中取得，並將於2020年3月底或4月初在「生產」環境中取得。
 
-如需2020.1版所有可用變更的清單，請參閱 [2020.1版本總覽](../../../product-announcements/product-releases/2020.1-release-activity/2020-1-release-overview.md).
+如需2020.1版所有可用變更的清單，請參閱[2020.1版總覽](../../../product-announcements/product-releases/2020.1-release-activity/2020-1-release-overview.md)。
 
 ## 在工作清單中進行變更時，新增儲存模式：「時程表計畫」模式
 
@@ -30,7 +30,7 @@ ht-degree: 0%
 * 提交每個變更的速度比使用自動或手動儲存模式更快。
 * 您可以在儲存變更之前將其還原。
 
-如需有關將變更儲存至工作清單的詳細資訊，請參閱文章中的「使用時間表規劃設定編輯工作」一節 [編輯清單中的任務](../../../manage-work/tasks/manage-tasks/edit-tasks-in-a-list.md).
+如需有關將變更儲存到任務清單的詳細資訊，請參閱文章[在清單中編輯任務](../../../manage-work/tasks/manage-tasks/edit-tasks-in-a-list.md)中的「使用時間表規劃設定編輯任務」一節。
 
 ## 新清單的更新外觀
 
@@ -40,7 +40,7 @@ ht-degree: 0%
 
 專案、任務和時數清單現在具有更新的外觀。
 
-如需有關檢視清單中專案的資訊，請參閱 [開始使用Adobe Workfront中的清單](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).
+如需檢視清單專案的詳細資訊，請參閱[開始使用Adobe Workfront中的清單](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md)。
 
 部分更新包括：
 
@@ -54,19 +54,19 @@ ht-degree: 0%
 
 您現在可以更清楚地看到清單中數個群組圖層與新色彩配置之間的差異。 群組結果也會在個別框架中更清楚列出。 此變更已套用至所有新清單。
 
-如需有關建立和自訂群組的資訊，請參閱 [Adobe Workfront中的群組概觀](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
+如需建立及自訂群組的相關資訊，請參閱Adobe Workfront中的[群組概觀](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md)。
 
 ## 使用快速篩選時反白顯示清單中相符的專案
 
 在清單中尋找專案現在更快了：當您使用快速篩選器搜尋專案時，相符的欄位在結果中會以黃色反白顯示，以便您清楚看到哪些欄位值與您的關鍵字相符。 在獨立欄位以及共用欄和複雜欄位中，欄位會以黃色反白顯示。 複雜欄位的一些範例為「工作總攬」、「工作總攬」與「狀態」、「完成百分比」、「前置任務」、「核准者與狀態」、「資源管理員」、「類別」、「條件」、「條件更新」等。
 
-如需有關使用快速篩選的資訊，請參閱 [開始使用Adobe Workfront中的清單](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).
+如需有關使用快速篩選的資訊，請參閱[開始使用Adobe Workfront中的清單](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md)。
 
 ## 限制使用者對清單和報告編輯篩選、檢視和分組控制項的能力
 
 現在，您可以使用存取層級來限制使用者編輯清單和報告上的篩選、檢視和分組控制項的能力。 如果您希望只有具有特定存取層級的使用者能看見自訂欄位，這會很有用。
 
-如需詳細資訊，請參閱 [授予對篩選器、檢視和群組的存取權](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-fvg.md).
+如需詳細資訊，請參閱[授予篩選器、檢視和群組的存取權](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-fvg.md)。
 
 ## 在更新區域中新增更多選單
 
@@ -76,13 +76,13 @@ ht-degree: 0%
 * 將直接連結複製到更新對話串或單一更新
 * 刪除更新
 
-如需詳細資訊，請參閱 [更新工作](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+如需詳細資訊，請參閱[更新工作](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md)。
 
 ## 更新區域中新的進度列
 
 更新區域中的完成百分比進度列有新外觀。 按一下並拖曳以更新百分比，或按兩下以手動輸入數字。
 
-如需詳細資訊，請參閱 [更新工作](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+如需詳細資訊，請參閱[更新工作](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md)。
 
 ## 以句子大小寫顯示清單和報告欄標題
 
@@ -100,4 +100,4 @@ ht-degree: 0%
 
 在此變更之前，結果一律顯示在收合的清單中。
 
-如需建立群組的詳細資訊，請參閱 [Adobe Workfront中的群組概觀](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
+如需建立群組的相關資訊，請參閱Adobe Workfront中的[群組概觀](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md)。

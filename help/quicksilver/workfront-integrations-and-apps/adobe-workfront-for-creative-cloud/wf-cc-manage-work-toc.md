@@ -1,6 +1,6 @@
 ---
-title: 使用管理工作  [!DNL Adobe Workfront] 外掛程式 [!DNL Creative Cloud] 應用
-description: 使用管理工作  [!DNL Adobe Workfront] 外掛程式 [!DNL Creative Cloud] 應用
+title: 使用 [!DNL Creative Cloud] 應用程式的 [!DNL Adobe Workfront] 外掛程式管理工作
+description: 使用 [!DNL Creative Cloud] 應用程式的 [!DNL Adobe Workfront] 外掛程式管理工作
 author: Courtney
 draft: Probably
 feature: Workfront Integrations and Apps, Digital Content and Documents
@@ -12,11 +12,11 @@ ht-degree: 0%
 
 ---
 
-# 使用管理工作  [!DNL Adobe Workfront] 外掛程式 [!DNL Creative Cloud] 應用
+# 使用[!DNL Creative Cloud]應用程式的[!DNL Adobe Workfront]外掛程式管理工作
 
-* [使用尋找您的工作 [!DNL Adobe Workfront] 外掛程式](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-find-work.md)
-* [使用檢視工作專案資訊 [!DNL Adobe Workfront] 外掛程式](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-view-work-info.md)
-* [使用更新您的工作 [!DNL Adobe Workfront] 外掛程式](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-update.md)
-* [使用將工作專案標示為完成 [!DNL Adobe Workfront] 外掛程式](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-complete.md)
-* [記錄時間，使用 [!DNL Adobe Workfront] 外掛程式](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-log-time.md)
-* [檢視和管理 [!DNL Adobe Workfront] 通知來源 [!DNL Adobe Creative Cloud]](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-notifications.md)
+* [使用 [!DNL Adobe Workfront] 外掛程式尋找您的工作](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-find-work.md)
+* [使用 [!DNL Adobe Workfront] 外掛程式檢視工作專案資訊](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-view-work-info.md)
+* [使用 [!DNL Adobe Workfront] 外掛程式更新您的工作](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-update.md)
+* [使用 [!DNL Adobe Workfront] 外掛程式將工作專案標示為完成](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-complete.md)
+* [使用 [!DNL Adobe Workfront] 外掛程式記錄時間](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-log-time.md)
+* [檢視及管理來自 [!DNL Adobe Creative Cloud]的 [!DNL Adobe Workfront] 通知](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-notifications.md)

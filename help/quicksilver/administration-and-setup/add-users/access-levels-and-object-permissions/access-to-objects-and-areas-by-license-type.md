@@ -12,7 +12,7 @@ exl-id: d8f2a295-c053-4763-bf6e-6e836087a839
 source-git-commit: 880e82546ac0ca80be60f03db31b99ad1778c35a
 workflow-type: tm+mt
 source-wordcount: '425'
-ht-degree: 19%
+ht-degree: 20%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 19%
 
   >[!NOTE]
   >
-  >當其他使用者共用物件時，共用者可以指定許可權來限制他們編輯物件的能力。 如需詳細資訊，請參閱 [物件許可權共用概觀](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
+  >當其他使用者共用物件時，共用者可以指定許可權來限制他們編輯物件的能力。 如需詳細資訊，請參閱[物件共用許可權總覽](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md)。
 
 |   | 計劃 | 工作 | 檢閱 | 請求 | 外部 |
 |---|---|---|---|---|---|
@@ -34,39 +34,39 @@ ht-degree: 19%
 | 問題 | 編輯 | 編輯 | 編輯 | 編輯 | 無存取權限 |
 | 專案組合 | 編輯 | 檢視 | 檢視 | 無存取權限 | 無存取權限 |
 | 計劃 | 編輯 | 檢視 | 檢視 | 無存取權限 | 無存取權限 |
-| 報告、儀表板和行事曆 | 編輯 | 檢視 | 檢視 | 檢視「&#42;」 | 檢視（僅限行事曆，無共用許可權） |
-| 篩選器、檢視和群組 | 編輯 | 編輯 | 編輯 | 編輯 | 無存取權 |
+| 報告、儀表板和行事曆 | 編輯 | 檢視 | 檢視 | 檢視&#42; | 檢視（僅限行事曆，無共用許可權） |
+| 篩選器、視圖和分組 | 編輯 | 編輯 | 編輯 | 編輯 | 無存取權 |
 | 文件 | 編輯 | 編輯 | 編輯 | 編輯 | 檢視（無共用許可權） |
 | 使用者 | 編輯 | 檢視 | 檢視 | 檢視 | 檢視 |
 | 團隊 | 編輯 | 編輯 | 檢視 | 檢視 | 無存取權 |
 | 範本 | 編輯 | 無存取權 | 無存取權 | 無存取權 | 無存取權 |
 | 財務資料 | 編輯 | 檢視（僅限專案詳細資訊中的財務區域） | 檢視 | 無存取權 | 無存取權 |
 | 資源管理 | 編輯 | 檢視 | 檢視 | 無存取權 | 無存取權 |
-| 案例規劃工具 | 編輯 | 編輯 | 編輯 | 無存取權 | 無存取權 |
-| Workfront 目標 | 編輯 | 編輯 | 編輯 | 編輯 | 無存取權 |
+| 情境規劃工具 | 編輯 | 編輯 | 編輯 | 無存取權 | 無存取權 |
+| Workfront Goals | 編輯 | 編輯 | 編輯 | 編輯 | 無存取權 |
 
-&#42; 擁有請求授權的使用者只能檢視與他們共用的報告、儀表板和行事曆。
+&#42;具有請求授權的使用者只能檢視與他們共用的報告、儀表板和行事曆。
 
 >[!NOTE]
 >
->擁有「檢閱」授權或「請求」授權的使用者共用功能有限。 如需詳細資訊，請參閱 [Adobe Workfront授權總覽](../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md).
+>擁有「檢閱」授權或「請求」授權的使用者共用功能有限。 如需詳細資訊，請參閱[Adobe Workfront授權總覽](../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md)。
 >
 >外部使用者無法在Workfront中搜尋專案。 他們可以檢視特別與他們共用的檔案和行事曆。 他們也可以檢視與他們共用專案的使用者。
 
 您可以在下列文章中找到有關每個物件與區域的存取層級所允許的詳細資訊：
 
-* [授予專案存取權](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md)
-* [授與任務的存取權](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-tasks.md)
-* [授予問題的存取許可權](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-issues.md)
+* [授與專案的存取權](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md)
+* [授與工作的存取權](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-tasks.md)
+* [授與問題的存取權](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-issues.md)
 * [授與檔案的存取權](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-documents.md)
-* [授予投資組合的存取權](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-portfolios.md)
-* [授予方案存取權](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-programs.md)
-* [授予對報告、儀表板和行事曆的存取權](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-reports-dashboards-calendars.md)
-* [授予對篩選器、檢視和群組的存取權](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-fvg.md)
-* [授予使用者存取許可權](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md)
+* [授與投資組合的存取權](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-portfolios.md)
+* [授與程式的存取權](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-programs.md)
+* [授與報告、儀表板和行事曆的存取權](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-reports-dashboards-calendars.md)
+* [授與篩選器、檢視和群組的存取權](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-fvg.md)
+* [授予使用者存取權](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md)
 * [授予團隊存取權](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-teams.md)
-* [授予範本存取權](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-templates.md)
+* [授與範本存取權](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-templates.md)
 * [授予財務資料的存取權](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md)
 * [授與資源管理的存取權](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-resource-management.md)
-* [授予Scenario Planner的存取權](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-sp.md)
+* [授與Scenario Planner](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-sp.md)的存取權
 * [授予Adobe Workfront目標的存取權](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md)

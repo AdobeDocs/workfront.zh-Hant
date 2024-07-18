@@ -20,12 +20,12 @@ ht-degree: 0%
 本節包含下列文章：
 
 * [核准流程總覽](../../review-and-approve-work/manage-approvals/approval-process-in-workfront.md)
-* [請求檔案核准](../../review-and-approve-work/manage-approvals/request-document-approvals.md)
+* [要求檔案核准](../../review-and-approve-work/manage-approvals/request-document-approvals.md)
 * [核准工作](../../review-and-approve-work/manage-approvals/approving-work.md)
 * [檢視核准](../../review-and-approve-work/manage-approvals/view-approvals.md)
 * [提醒核准者已提交的核准](../../review-and-approve-work/manage-approvals/remind-approvers-submitted-approvals.md)
-* [將其他核准者新增至已提交的檔案核准](../../review-and-approve-work/manage-approvals/add-approver-submitted-doc-approvals.md)
-* [檢視提交的校訂核准](../../review-and-approve-work/manage-approvals/viewsubmitted-proof-approvals.md)
-* [委派核准請求](../../review-and-approve-work/manage-approvals/delegate-approval-requests.md)
-* [將新的或現有的核准流程與工作建立關聯](../../review-and-approve-work/manage-approvals/associate-approval-with-work.md)
+* [新增其他核准者至已提交的檔案核准](../../review-and-approve-work/manage-approvals/add-approver-submitted-doc-approvals.md)
+* [檢視已提交的校訂核准](../../review-and-approve-work/manage-approvals/viewsubmitted-proof-approvals.md)
+* [委派核准要求](../../review-and-approve-work/manage-approvals/delegate-approval-requests.md)
+* [將新的或現有的核准程式與工作建立關聯](../../review-and-approve-work/manage-approvals/associate-approval-with-work.md)
 * [撤回已提交的核准](../../review-and-approve-work/manage-approvals/recall-submitted-approvals.md)

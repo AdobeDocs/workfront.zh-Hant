@@ -21,7 +21,7 @@ Workfront Scenario Planner僅適用於新的Adobe Workfront體驗。
 
 20.4版新增了下列功能：
 
-## 發佈情境以從Workfront情境規劃工具更新及建立專案
+## 從Publish情境規劃工具更新及建立專案的Workfront情境
 
 Workfront Scenario Planner中的新功能現在可讓您發佈情境並將其方案對應至一般專案。 這會從現有方案建立專案，或更新已連結至已在計畫中匯入之方案的專案。 方案資訊會傳輸到專案，為您節省資料輸入時間並確保準確性。
 
@@ -34,7 +34,7 @@ Workfront Scenario Planner中的新功能現在可讓您發佈情境並將其方
 * 專案更新流中的方案資訊
 * 報告中的方案資訊
 
-如需有關發佈計畫的資訊，請參閱 [透過在情境規劃工具中發佈行動方案來更新或建立專案](../../../scenario-planner/publish-scenarios-update-projects.md).
+如需有關發佈計畫的資訊，請參閱[在Scenario Planner](../../../scenario-planner/publish-scenarios-update-projects.md)中發佈行動方案以更新或建立專案。
 
 觀看以下影片，瞭解如何透過發佈情境來建立專案：
 
@@ -44,5 +44,5 @@ Workfront Scenario Planner中的新功能現在可讓您發佈情境並將其方
 
 若要邀請其他使用者在Workfront Scenario Planner中工作時與您共同作業，您現在可以與其他使用者共用您建立的計畫。 如果您能存取改善前並未透過連結建立的計畫，則必須先與您共用計畫，然後才能存取。
 
-如需在「情境規劃工具」中共用計畫的相關資訊，請參閱 [在「情境規劃工具」中共用計畫](../../../scenario-planner/share-a-plan.md).
+如需在「情境規劃工具」中共用計畫的相關資訊，請參閱[在「情境規劃工具」中共用計畫](../../../scenario-planner/share-a-plan.md)。
 

@@ -22,15 +22,15 @@ ht-degree: 1%
 
 * 表格
 
-  如需詳細資訊，請參閱 [管理表格檢視](/help/quicksilver/planning/views/manage-the-table-view.md).
+  如需詳細資訊，請參閱[管理資料表檢視](/help/quicksilver/planning/views/manage-the-table-view.md)。
 
 * 時間表
 
-  如需詳細資訊，請參閱 [管理時間表檢視](/help/quicksilver/planning/views/manage-the-timeline-view.md).
+  如需詳細資訊，請參閱[管理時間表檢視](/help/quicksilver/planning/views/manage-the-timeline-view.md)。
 
 * 行事曆
 
-  如需詳細資訊，請參閱 [管理行事曆檢視](/help/quicksilver/planning/views/manage-the-calendar-view.md).
+  如需詳細資訊，請參閱[管理行事曆檢視](/help/quicksilver/planning/views/manage-the-calendar-view.md)。
 
 本文說明有關記錄檢視的下列資訊：
 
@@ -94,13 +94,13 @@ ht-degree: 1%
 
 <tr>
    <td role="rowheader"><p>版面配置範本</p></td>
-   <td> <p>必須為所有使用者(包括Workfront管理員)指派一個版面配置範本，該範本包含主功能表中的Planning區域。 </p> <p>如需詳細資訊，請參閱 <a href="/help/quicksilver/planning/access/access-overview.md">存取權總覽</a>. </p> 
+   <td> <p>必須為所有使用者(包括Workfront管理員)指派一個版面配置範本，該範本包含主功能表中的Planning區域。 </p> <p>如需詳細資訊，請參閱<a href="/help/quicksilver/planning/access/access-overview.md">存取總覽</a>。 </p> 
 </td>
   </tr>
  </tbody>
 </table>
 
-*如需詳細資訊，請參閱 [Workfront檔案中的存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 
 ## 使用記錄檢視時的注意事項
@@ -109,7 +109,7 @@ ht-degree: 1%
 * 您建立的檢視只對您和共用檢視的使用者可見。
 * 當您修改或刪除檢視時，該檢視會被修改並刪除，以供擁有該檢視許可權的所有使用者使用。
 * 每位使用者最多可建立100個檢視。 您可以為記錄型別顯示100個以上的檢視，但一個使用者只能建立100個檢視。
-* 您可以與其他人共用您建立的檢視。 如需詳細資訊，請參閱 [共用檢視](/help/quicksilver/planning/access/share-views.md).
+* 您可以與其他人共用您建立的檢視。 如需詳細資訊，請參閱[共用檢視](/help/quicksilver/planning/access/share-views.md)。
 * 以下元素是每個記錄檢視所獨有的：
 
    * 篩選器
@@ -168,7 +168,7 @@ ht-degree: 1%
 
    依預設，選取型別的所有記錄都會顯示在表格檢視中。
 
-1. 按一下 **+檢視** 以新增檢視。
+1. 按一下「**+檢視**」以新增檢視。
 1. 從下列檢視型別中選取：
 
    * 表格
@@ -177,7 +177,7 @@ ht-degree: 1%
 
    會以選取的檢視建立新標籤。
 
-   根據熒幕的寬度，其他檢視可能會顯示在 **更多** 功能表 ![](assets/more-menu.png).
+   視熒幕寬度而定，**更多**&#x200B;功能表![](assets/more-menu.png)中可能會顯示其他檢視。
 
 
 >[!TIP]
@@ -191,7 +191,7 @@ ht-degree: 1%
 
 ![](assets/view-types-drop-down-from-record-type-list.png)
 
-1. （視條件而定）按一下 **下一個**，在建立時間表或行事曆檢視時。
+1. （視條件而定）建立時間表或行事曆檢視時，按一下&#x200B;**下一步**。
 
    依預設，Workfront會提供下列其中一個檢視名稱：
 
@@ -201,23 +201,23 @@ ht-degree: 1%
 
    數字是自動產生的增量。
 
-1. （視條件而定）選取 **開始** 和 **結束日期** 適用於將在時間軸或行事曆檢視中顯示的記錄。
+1. （視條件而定）針對將在時間軸或行事曆檢視中顯示的記錄，選取&#x200B;**開始**&#x200B;和&#x200B;**結束日期**。
 
    >[!TIP]
    >
-   >    您可以從記錄日期欄位中選取，或從連線的記錄或物件型別中查詢日期欄位。 當您選取查閱欄位作為時間軸和行事曆檢視的開始和結束日期時，您必須使用日期欄位的彙總(MAX或MIN)。 如需詳細資訊，請參閱 [連線記錄型別](/help/quicksilver/planning/architecture/connect-record-types.md).
+   >    您可以從記錄日期欄位中選取，或從連線的記錄或物件型別中查詢日期欄位。 當您選取查閱欄位作為時間軸和行事曆檢視的開始和結束日期時，您必須使用日期欄位的彙總(MAX或MIN)。 如需詳細資訊，請參閱[連線記錄型別](/help/quicksilver/planning/architecture/connect-record-types.md)。
 
 1. 按一下「**建立**」。
 
    檢視會顯示為新標籤。 檢視會以建立或與您共用的時間順序顯示。
-1. （可選）按一下 **更多** 功能表 ![](assets/more-caret-down-icon-views.png) 在最後一個檢視旁邊，顯示所選記錄型別的所有檢視。
+1. （選擇性）按一下最後一個檢視旁的&#x200B;**更多**&#x200B;功能表![](assets/more-caret-down-icon-views.png)，以顯示所選記錄型別的所有檢視。
 
-   其他檢視顯示在 **更多** 「最後檢視」標籤之後的功能表。 旁的數字 **更多** 功能表會顯示其他檢視的數目。
-1. （選擇性）若要在建立檢視後重新命名，請按一下檢視下拉式功能表，然後按一下 **更多** 功能表 ![](assets/more-menu.png) > **重新命名** 更新檢視名稱
+   最後一個檢視標籤之後的&#x200B;**更多**&#x200B;功能表下會顯示其他檢視。 **更多**&#x200B;功能表旁的數字會顯示其他檢視的數目。
+1. （選擇性）若要在建立檢視後重新命名，請按一下檢視下拉式功能表，然後按一下&#x200B;**更多**&#x200B;功能表![](assets/more-menu.png) > **重新命名**&#x200B;以更新檢視名稱
 
    或
 
-   連按兩下檢視名稱，然後開始輸入新名稱。  <!--ensure there is not another saving step here?!-->
+   連按兩下檢視名稱，然後開始輸入新名稱。 <!--ensure there is not another saving step here?!-->
 
 1. （可選）若要管理特定型別的檢視，請參閱下列文章：
 
@@ -240,10 +240,10 @@ ht-degree: 1%
 
    依預設，選取型別的所有記錄都會顯示在表格檢視中。
 
-1. 將滑鼠懸停在檢視標籤中其中一個檢視名稱上，然後按一下 **更多** ![](assets/more-menu.png) ，然後按一下「 」 **刪除**.
-首先，您可能需要按一下 **更多** ，以尋找您要刪除的檢視。
+1. 將游標暫留在檢視標籤中其中一個檢視名稱上，然後按一下檢視名稱左邊的&#x200B;**更多** ![](assets/more-menu.png)，然後按一下&#x200B;**刪除**。
+首先，您可能需要按一下最後一個標籤左側的**更多**，以尋找您要刪除的檢視。
 
-1. 按一下 **刪除** 以確認。 <!--ensure there is not another saving step here?!-->
+1. 按一下&#x200B;**刪除**&#x200B;確認。<!--ensure there is not another saving step here?!-->
 
    所有可存取記錄區域的使用者檢視都會刪除，且無法復原。
 
@@ -270,10 +270,10 @@ ht-degree: 1%
    記錄型別頁面隨即開啟。
 依預設，所選型別的所有記錄都會顯示在表格檢視中。
 
-1. 將游標停留在要複製之檢視的標籤上，然後按一下 **更多** 功能表 ![](assets/more-menu.png) 檢視名稱右側，然後按一下 **複製**.
+1. 將游標停留在您要複製的檢視的索引標籤上，然後按一下檢視名稱右側的&#x200B;**更多**&#x200B;功能表![](assets/more-menu.png)，然後按一下&#x200B;**複製**。
 
    ![](assets/view-more-menu-with-duplicate-option.png)
 
 
-   檢視會重複，而新檢視的名稱會遵循以下模式： `Original view's name (Copy)`. 新的檢視標籤會顯示在所有檢視標籤的末尾。
+   檢視重複，新檢視的名稱遵循下列模式： `Original view's name (Copy)`。 新的檢視標籤會顯示在所有檢視標籤的末尾。
 

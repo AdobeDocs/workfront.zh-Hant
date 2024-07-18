@@ -19,15 +19,15 @@ ht-degree: 1%
 
 身為群組管理員，您可以為管理的群組建立自訂狀態。 如此一來，您就不需要數十種全公司的自訂狀態，且群組階層擁有更多自主權。
 
-如果Workfront管理員已解除鎖定狀態，您也可以編輯所管理群組的系統層級狀態。 如需詳細資訊，請參閱 [鎖定和未鎖定的系統層級狀態](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/lock-or-unlock-a-custom-system-level-status.md).
+如果Workfront管理員已解除鎖定狀態，您也可以編輯所管理群組的系統層級狀態。 如需詳細資訊，請參閱[鎖定與解除鎖定的系統層級狀態](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/lock-or-unlock-a-custom-system-level-status.md)。
 
 如果您的群組之上有任何群組，其管理員也可以為您的群組執行下列動作。 Workfront管理員也是如此（適用於任何群組）。
 
 >[!NOTE]
 >
->在敏捷檢視中檢視專案時，專案上無法顯示自訂群組狀態。 在敏捷檢視中檢視專案時，只能看到預設和自訂鎖定狀態。 如需為專案自訂敏捷檢視的相關資訊，請參閱區段 [建立或自訂敏捷檢視](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md#create-or-customize-an-agile-view) 在文章中 [在Adobe Workfront中建立或編輯檢視](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md).
+>在敏捷檢視中檢視專案時，專案上無法顯示自訂群組狀態。 在敏捷檢視中檢視專案時，只能看到預設和自訂鎖定狀態。 如需有關自訂專案的敏捷檢視的資訊，請參閱文章[在Adobe Workfront中建立或編輯檢視](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md)中的[建立或自訂敏捷檢視](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md#create-or-customize-an-agile-view)小節。
 
-如需狀態的一般資訊，請參閱 [狀態概觀](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/statuses-overview.md).
+如需狀態的一般資訊，請參閱[狀態概觀](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/statuses-overview.md)。
 
 ## 存取需求
 
@@ -43,21 +43,21 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront授權*</td> 
-   <td> <p>計劃 </p> <p>您必須是群組的群組管理員或Workfront管理員。 如需詳細資訊，請參閱 <a href="../../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">群組管理員</a> 和 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">授予使用者完整管理存取權</a>.</p> </td> 
+   <td> <p>計劃 </p> <p>您必須是群組的群組管理員或Workfront管理員。 如需詳細資訊，請參閱<a href="../../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">群組管理員</a>和<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">授與使用者完整管理存取權</a>。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;如果您需要瞭解自己的計畫或授權型別，請聯絡Workfront管理員。
+&#42;如果您需要瞭解您擁有的計畫或授權型別，請連絡您的Workfront管理員。
 
 ## 建立或編輯群組的狀態
 
-1. 按一下 **主要功能表** 圖示 ![](assets/main-menu-icon.png) (位於Adobe Workfront的右上角)，然後按一下 **設定** ![](assets/gear-icon-settings.png).
+1. 按一下Adobe Workfront右上角的&#x200B;**主要功能表**&#x200B;圖示![](assets/main-menu-icon.png)，然後按一下&#x200B;**設定** ![](assets/gear-icon-settings.png)。
 
-1. 在左側面板中，按一下 **群組** ![](assets/groups-icon.png).
+1. 在左側面板中，按一下&#x200B;**群組** ![](assets/groups-icon.png)。
 
 1. 按一下要建立或自訂狀態的群組名稱。
-1. 在左側面板中，按一下 **狀態**.
+1. 在左側面板中，按一下&#x200B;**狀態**。
 
    如果您檢視的群組是頂層群組，則顯示的清單包含下列專案：
 
@@ -69,21 +69,21 @@ ht-degree: 1%
    * 屬於子群組上方群組的鎖定狀態。
    * 建立子群組時，屬於該子群組上方群組的解除鎖定狀態。
 
-     建立子群組後，在其上方的群組中建立的解除鎖定狀態不會包含在子群組的狀態清單中。 但是，如果有人稍後鎖定其中一個，它就會包含在子群組的狀態清單中。 如需詳細資訊，請參閱 [群組如何繼承狀態](../../../administration-and-setup/manage-groups/manage-group-statuses/how-groups-inherit-statuses.md).
+     建立子群組後，在其上方的群組中建立的解除鎖定狀態不會包含在子群組的狀態清單中。 但是，如果有人稍後鎖定其中一個，它就會包含在子群組的狀態清單中。 如需詳細資訊，請參閱[群組如何繼承狀態](../../../administration-and-setup/manage-groups/manage-group-statuses/how-groups-inherit-statuses.md)。
 
-1. 選取物件型別的標籤(**專案**， **任務**，或 **問題**)建立關聯。
+1. 選取您想要與狀態關聯的物件型別（**專案**、**任務**&#x200B;或&#x200B;**問題**）的標籤。
 
-1. （視條件而定）如果狀態是問題狀態，請確定 **主清單** 已選取。
+1. （視條件而定）如果狀態是問題狀態，請確定已選取&#x200B;**主要清單**。
 
    ![](assets/master-list.png)
 
-   有關自訂其他問題型別（錯誤報告、變更順序、問題、請求）的資訊，請參閱 [自訂預設問題型別](../../../administration-and-setup/set-up-workfront/configure-system-defaults/customize-default-issue-types.md).
+   如需自訂其他問題型別（錯誤報告、變更順序、問題、請求）的相關資訊，請參閱[自訂預設問題型別](../../../administration-and-setup/set-up-workfront/configure-system-defaults/customize-default-issue-types.md)。
 
-1. （視條件而定）若要建立新狀態，請按一下 **新增狀態**.
+1. （視條件而定）若要建立新狀態，請按一下&#x200B;**新增狀態**。
 
    或
 
-   若要編輯現有狀態，請將滑鼠移至您要編輯的狀態，然後按一下 **編輯** 顯示在最右側的選項。
+   若要編輯現有狀態，請將滑鼠移至您要編輯的狀態，然後按一下顯示於最右邊的&#x200B;**編輯**&#x200B;選項。
 
    ![](assets/group-statuses-edit.jpg)
 
@@ -126,7 +126,7 @@ ht-degree: 1%
       <td> <p>從清單中選取最能描述狀態功能的選項之一。 例如，如果狀態名稱為Done，則其對應的選項應為Complete。</p> <p>每個狀態都必須等同於其中一個選項，因為這會決定狀態如何運作。</p> <p>建立狀態後就無法修改此選項。</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">密鑰</td> 
+      <td role="rowheader">索引鍵</td> 
       <td> <p>如果您要建立新狀態，請輸入狀態的程式碼或縮寫，或使用為您產生的程式碼。 此索引鍵在Workfront中必須是唯一的，因為可用於報表用途。 如果您嘗試指定系統中已使用的金鑰，欄位會變成紅色。</p> <p>使用將可使用的人可辨識的縮寫可能有所助益。</p> <p>建立狀態後就無法修改此選項。</p> <p>您無法變更Planning、Current及Complete狀態的索引鍵代碼。 如果您以文字模式建立報表，這一點很重要。</p> </td> 
      </tr> 
      <tr> 
@@ -138,8 +138,8 @@ ht-degree: 1%
       <td> 
        <p>如果您讓此選項保持啟用，則您群組及其子群組中的使用者可以檢視和使用狀態，而群組管理員無法對較低子群組自訂它。</p> 
        <p>停用此選項時，群組管理員可以自訂較低層子群組的狀態。</p> 
-       <p><b>注意</b>：您可以在群組核准程式中使用鎖定和未鎖定狀態。 如果您建立的群組核准流程具有未鎖定的群組狀態，則使用者可以將核准流程附加至與群組相關聯的任何專案、任務或問題。</p> 
-       <p>如需鎖定狀態的詳細資訊，請參閱 <a href="../../../administration-and-setup/manage-groups/manage-group-statuses/lock-or-unlock-a-custom-group-status.md" class="MCXref xref">鎖定和未鎖定的群組狀態</a>.</p> 
+       <p><b>注意</b>：您可以在群組核准程式中使用鎖定和未鎖定的狀態。 如果您建立的群組核准流程具有未鎖定的群組狀態，則使用者可以將核准流程附加至與群組相關聯的任何專案、任務或問題。</p> 
+       <p>如需鎖定狀態的詳細資訊，請參閱<a href="../../../administration-and-setup/manage-groups/manage-group-statuses/lock-or-unlock-a-custom-group-status.md" class="MCXref xref">鎖定與解除鎖定群組狀態</a>。</p> 
        </td> 
      </tr>
     </tbody> 
@@ -149,7 +149,7 @@ ht-degree: 1%
 
    現在，與您群組或子群組相關聯的所有專案都可使用狀態。 如果您將其鎖定，則任何較低階的子群組都可使用它。
 
-   您可以將狀態設定為群組的預設狀態。 如需詳細資訊，請參閱 [使用自訂狀態作為群組的預設狀態](../../../administration-and-setup/manage-groups/manage-group-statuses/use-custom-statuses-as-default-statuses-group.md).
+   您可以將狀態設定為群組的預設狀態。 如需詳細資訊，請參閱[使用自訂狀態作為群組](../../../administration-and-setup/manage-groups/manage-group-statuses/use-custom-statuses-as-default-statuses-group.md)的預設狀態。
 
 ## 為多個群組建立自訂狀態
 
@@ -157,13 +157,13 @@ ht-degree: 1%
 
 如果您是群組管理員(或Workfront管理員)，您可以為您管理的群組階層內的多個子群組建立自訂狀態，方法為建立較高層級群組的狀態，然後隱藏該狀態，讓任何不需要該狀態的較低子群組。
 
-1. 如果您是Workfront管理員，請依照中的說明建立系統範圍的解除鎖定狀態 [建立或編輯狀態](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md).
-1. 在右上角的方塊中，刪除 **系統狀態**，開始輸入您要隱藏狀態的群組名稱，然後在其出現時按一下名稱。
-1. 將游標停留在您要隱藏於群組的狀態上，然後按一下 **編輯** 當它出現時。
+1. 如果您是Workfront管理員，請依照[建立或編輯狀態](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md)中的說明建立系統範圍的解除鎖定狀態。
+1. 在右上角的方塊中，刪除&#x200B;**系統狀態**，開始輸入您要隱藏狀態的群組名稱，然後在名稱出現時按一下。
+1. 暫留在您要隱藏群組的狀態上，然後按一下&#x200B;**編輯** （當它出現時）。
 
    ![](assets/hover-click-edit.jpg)
 
-1. 啟用 **隱藏狀態** 出現的選項。
+1. 啟用顯示的&#x200B;**隱藏狀態**&#x200B;選項。
 
    ![](assets/hide-group-status.png)
 

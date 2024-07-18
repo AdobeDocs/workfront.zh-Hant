@@ -25,13 +25,13 @@ ht-degree: 0%
 >
 >此頁面中說明的程式僅適用於尚未加入Admin Console的組織。 如果您的組織已加入Adobe Admin Console，您必須透過Adobe Admin Console執行此動作。
 >
->如需根據貴組織是否已加入Adobe Admin Console而有所差異的程式清單，請參閱 [平台型管理差異(Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
+>如需根據貴組織是否已加入Adobe Admin Console而有所差異的程式清單，請參閱[以平台為基礎的管理差異(Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md)。
 
 身為Adobe Workfront管理員，您可以使用電子郵件邀請將使用者新增至Workfront，並通知他們已新增。
 
 電子郵件邀請可讓新使用者追蹤連結，以便選擇Workfront帳戶的密碼。 接著，他們就可以完成帳戶的設定。
 
-為確保新帳戶的安全性，我們建議您為新使用者使用電子郵件邀請，以便他們可以選擇自己的密碼。 或者，您也可以在建立新使用者的帳戶時，為其選取密碼。 如需新增使用者至Workfront的詳細資訊，請參閱 [新增使用者](../../../administration-and-setup/add-users/create-and-manage-users/add-users.md).
+為確保新帳戶的安全性，我們建議您為新使用者使用電子郵件邀請，以便他們可以選擇自己的密碼。 或者，您也可以在建立新使用者的帳戶時，為其選取密碼。 如需新增使用者至Workfront的詳細資訊，請參閱[新增使用者](../../../administration-and-setup/add-users/create-and-manage-users/add-users.md)。
 
 您可以為新使用者設定電子郵件：
 
@@ -40,7 +40,7 @@ ht-degree: 0%
 
 傳送電子郵件邀請時，所有新使用者都會看到相同的電子郵件。
 
-如需有關接收電子郵件邀請的資訊，請參閱 [接收電子郵件邀請並建立Adobe Workfront的密碼](../../../workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/receive-email-invitations.md).
+如需接收電子郵件邀請的詳細資訊，請參閱[接收電子郵件邀請並建立Adobe Workfront的密碼](../../../workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/receive-email-invitations.md)。
 
 ## 存取需求
 
@@ -69,23 +69,23 @@ ht-degree: 0%
 
 在下列情況下會產生電子郵件邀請：
 
-* 當您建立新使用者並選取 **傳送邀請電子郵件給此人** 於 **新使用者** 表單。 如需建立新使用者的詳細資訊，請參閱 [新增使用者](../../../administration-and-setup/add-users/create-and-manage-users/add-users.md).
-* 當您匯入多個新使用者並選取 **給這些人傳送邀請電子郵件** 選項。 如需有關匯入多個新使用者的詳細資訊，請參閱 [匯入使用者](../../../administration-and-setup/add-users/create-and-manage-users/import-users.md).
+* 當您建立新使用者，並在&#x200B;**新增使用者**&#x200B;表單上選取&#x200B;**傳送邀請電子郵件給此人**&#x200B;時。 如需有關建立新使用者的詳細資訊，請參閱[新增使用者](../../../administration-and-setup/add-users/create-and-manage-users/add-users.md)。
+* 當您匯入多個新使用者，並選取&#x200B;**傳送邀請電子郵件給這些人員**&#x200B;選項時。 如需有關匯入多個新使用者的詳細資訊，請參閱[匯入使用者](../../../administration-and-setup/add-users/create-and-manage-users/import-users.md)。
 * 建立使用者後，您可以手動向尚未在Workfront註冊帳戶且尚未建立Workfront密碼的使用者產生邀請。\
-  已建立帳戶但尚未註冊帳戶的使用者會標籤為 **已取消註冊** 在Workfront中。
+  已建立帳戶但尚未註冊帳戶的使用者，在Workfront中會標示為&#x200B;**已取消註冊**。
 
   >[!NOTE]
   >
-  >如果您取消選取 **傳送電子郵件邀請給此人** 方塊建立使用者時，無法手動產生電子郵件邀請。 只有已在其帳戶建立時傳送原始電子郵件邀請的使用者，才能手動重新傳送電子郵件邀請。 如需建立新使用者的詳細資訊，請參閱 [新增使用者](../../../administration-and-setup/add-users/create-and-manage-users/add-users.md).
+  >如果您在建立使用者時取消選取&#x200B;**傳送電子郵件邀請給此人**&#x200B;方塊，則無法手動產生電子郵件邀請。 只有已在其帳戶建立時傳送原始電子郵件邀請的使用者，才能手動重新傳送電子郵件邀請。 如需有關建立新使用者的詳細資訊，請參閱[新增使用者](../../../administration-and-setup/add-users/create-and-manage-users/add-users.md)。
 
 若要手動產生電子郵件邀請給現有的未註冊使用者：
 
-1. 按一下 **主要功能表** 圖示 ![](assets/main-menu-icon.png) (位於Adobe Workfront的右上角)，然後按一下 **使用者** ![](assets/users-icon-in-main-menu.png).
-1. 選取顯示 **已取消註冊** 標籤在名稱之後。
+1. 按一下Adobe Workfront右上角的&#x200B;**主要功能表**&#x200B;圖示![](assets/main-menu-icon.png)，然後按一下&#x200B;**使用者** ![](assets/users-icon-in-main-menu.png)。
+1. 選取在其名稱后面顯示&#x200B;**已取消註冊**&#x200B;標籤的使用者。
 
    ![](assets/unreg-user-qs-350x221.png)
 
-1. 按一下更多圖示 ![](assets/more-icon.png)，然後按一下 **提醒使用者註冊**.
+1. 按一下「更多」圖示![](assets/more-icon.png)，然後按一下&#x200B;**提醒使用者註冊**。
 
    系統會傳送電子郵件邀請給新使用者，其中包含可用來建立其Workfront密碼的新連結。
 
@@ -101,11 +101,11 @@ ht-degree: 0%
 
 身為Workfront管理員，您可以設定新使用者的電子郵件邀請所包含的訊息。
 
-1. 按一下 **主要功能表** 圖示 ![](assets/main-menu-icon.png) (位於Adobe Workfront的右上角)，然後按一下 **設定** ![](assets/gear-icon-settings.png).
+1. 按一下Adobe Workfront右上角的&#x200B;**主要功能表**&#x200B;圖示![](assets/main-menu-icon.png)，然後按一下&#x200B;**設定** ![](assets/gear-icon-settings.png)。
 
-1. 在左側的清單中，按一下 **電子郵件** > **邀請**.
+1. 在左邊的清單中，按一下&#x200B;**電子郵件** > **邀請**。
 
-1. 在 **一般選項** 部分，進行下列任一修改：
+1. 在&#x200B;**一般選項**&#x200B;區段中，進行下列任何修改：
 
    <table style="table-layout:auto"> 
     <col> 
@@ -119,12 +119,12 @@ ht-degree: 0%
       <td role="rowheader"><strong>包含訊息和/或服務條款</strong> </td> 
       <td> <p>如果您想要修改所有新增至Workfront之新使用者的電子郵件邀請，請選取此選項。 這不包括擁有請求者授權的使用者。</p> 
        <ul> 
-        <li><strong>訊息</strong>：如果您選取修改所有新使用者的電子郵件邀請，請指定您要包含在電子郵件邀請中的文字作為電子郵件內文。</li> 
-        <li><strong>條款與條件</strong>：如果您選取修改所有新使用者的電子郵件邀請，請將您要納入電子郵件邀請的文字指定為條款與條件。<br></li> 
-        <li><strong>包括訊息和/或服務檯使用者的服務條款</strong>：如果您想要修改已新增至Workfront且具有「請求者」授權的所有新使用者的電子郵件邀請，請選取此選項。</li> 
-        <li><strong>訊息</strong>：如果您選取修改所有具有要求者授權的新使用者的電子郵件邀請，請指定您要在電子郵件邀請中包含的文字作為電子郵件內文。</li> 
-        <li><strong>條款與條件</strong>：如果您選擇修改所有具有請求者授權的新使用者的電子郵件邀請，請將您要納入電子郵件邀請的文字指定為條款與條件。<br></li> 
-        <li> <p>在 <strong>邀請預覽</strong> 區段，您可以看到電子郵件邀請的預覽。 如果您選取在電子郵件邀請中包含自訂訊息，則自訂訊息會顯示在此區域中。</p> <p> <img src="assets/email-invitation-for-all-users-preview-qs-350x190.png" style="width: 350;height: 190;"> </p> </li> 
+        <li><strong>訊息</strong>：如果您選擇修改所有新使用者的電子郵件邀請，請指定您要在電子郵件邀請中包含的文字做為電子郵件內文。</li> 
+        <li><strong>條款與條件</strong>：如果您選擇修改所有新使用者的電子郵件邀請，請指定要包含在電子郵件邀請中的文字做為條款與條件。<br></li> 
+        <li><strong>包括訊息和/或服務條件給服務檯使用者</strong>：如果您要修改新增到Workfront且擁有要求者授權的所有新使用者的電子郵件邀請，請選取此選項。</li> 
+        <li><strong>訊息</strong>：如果您選擇修改所有具有要求者授權的新使用者的電子郵件邀請，請指定您要在電子郵件邀請中包含的文字做為電子郵件內文。</li> 
+        <li><strong>條款與條件</strong>：如果您選擇修改所有具有要求者授權的新使用者的電子郵件邀請，請指定您要加入電子郵件邀請的文字做為條款與條件。<br></li> 
+        <li> <p>在<strong>邀請預覽</strong>區段中，您可以看到電子郵件邀請的預覽。 如果您選取在電子郵件邀請中包含自訂訊息，則自訂訊息會顯示在此區域中。</p> <p> <img src="assets/email-invitation-for-all-users-preview-qs-350x190.png" style="width: 350;height: 190;"> </p> </li> 
        </ul> </td> 
      </tr> 
     </tbody> 

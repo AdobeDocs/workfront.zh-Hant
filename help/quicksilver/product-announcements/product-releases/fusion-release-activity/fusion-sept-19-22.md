@@ -28,7 +28,7 @@ ht-degree: 0%
 * 使用您指定的條件搜尋Adobe Journey Optimizer記錄
 * 對Adobe Journey Optimizer API發出自訂API呼叫
 
-如需詳細資訊，請參閱 [Adobe Journey Optimizer模組](/help/quicksilver/workfront-fusion/apps-and-their-modules/adobe-journey-optimizer-modules.md).
+如需詳細資訊，請參閱[Adobe Journey Optimizer模組](/help/quicksilver/workfront-fusion/apps-and-their-modules/adobe-journey-optimizer-modules.md)。
 
 ## Adobe Campaign Classic聯結器和模組現已推出
 
@@ -40,4 +40,4 @@ ht-degree: 0%
 * 從Adobe Campaign API執行動作
 * 對Adobe Campaign Classic API發出自訂API呼叫
 
-如需詳細資訊，請參閱 [Adobe Campaign Classic模組](/help/quicksilver/workfront-fusion/apps-and-their-modules/adobe-campaign-classic-connector.md).
+如需詳細資訊，請參閱[Adobe Campaign Classic模組](/help/quicksilver/workfront-fusion/apps-and-their-modules/adobe-campaign-classic-connector.md)。

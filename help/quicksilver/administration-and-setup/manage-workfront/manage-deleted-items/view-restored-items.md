@@ -2,31 +2,31 @@
 user-type: administrator
 product-area: system-administration
 navigation-topic: manage-deleted-items
-title: 查看已還原的項
-description: 身為Adobe Workfront管理員或具有計畫授權的使用者，您可以檢視過去7天內還原了哪些專案、工作、問題和檔案。
+title: 檢視還原的專案
+description: 身為Adobe Workfront管理員或具有Plan授權的使用者，您可以檢視在過去7天內已還原的專案、任務、問題和檔案。
 feature: System Setup and Administration
 role: Admin
 exl-id: 0c0fc9df-23eb-4a2b-a5b0-6dbd742e8238
 source-git-commit: fe399743ee495334face9d4d632686d9472bc8ef
 workflow-type: tm+mt
-source-wordcount: '194'
-ht-degree: 1%
+source-wordcount: '196'
+ht-degree: 0%
 
 ---
 
-# 查看已還原的項
+# 檢視還原的專案
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">**DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. **</p>
 -->
 
-身為Adobe Workfront管理員或具有計畫授權的使用者，您可以檢視過去7天內還原了哪些專案、工作、問題和檔案。
+身為Adobe Workfront管理員或具有Plan授權的使用者，您可以檢視在過去7天內已還原的專案、任務、問題和檔案。
 
-有關在刪除項目、任務、問題或文檔後如何還原該項目、任務、問題或文檔的資訊，請參見 [還原已刪除的項](../../../administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md).
+如需有關刪除專案、任務、問題或檔案後如何還原的資訊，請參閱[還原已刪除的專案](../../../administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md)。
 
 ## 存取需求
 
-您必須具備下列條件才能執行本文所述步驟：
+您必須具備下列專案才能執行本文所述的步驟：
 
 <table style="table-layout:auto"> 
  <col> 
@@ -43,18 +43,18 @@ ht-degree: 1%
  </tbody> 
 </table>
 
-&#42;若要了解您擁有的計畫或授權類型，請聯絡您的Workfront管理員。
+&#42;若要瞭解您擁有的計畫或授權型別，請連絡您的Workfront管理員。
 
-## 查看最近刪除的項
+## 檢視最近刪除的專案
 
-1. 按一下 **主菜單** 圖示 ![](assets/main-menu-icon.png) 在Adobe Workfront的右上角，然後按一下 **設定** ![](assets/gear-icon-settings.png).
+1. 按一下Adobe Workfront右上角的&#x200B;**主要功能表**&#x200B;圖示![](assets/main-menu-icon.png)，然後按一下&#x200B;**設定** ![](assets/gear-icon-settings.png)。
 
-1. 展開 **回收筒**，然後按一下 **最近恢復**.
+1. 展開&#x200B;**資源回收筒**，然後按一下&#x200B;**最近還原**。
 
-   依預設會依還原日期排序項目。
+   依預設會依還原日期來排序專案。
 
-1. 按一下 **專案**, **工作**, **問題**，或 **檔案** 頁簽，具體取決於已還原的項目類型。
+1. 根據已還原的專案型別，按一下&#x200B;**專案**、**任務**、**問題**&#x200B;或&#x200B;**檔案**&#x200B;索引標籤。
 
-1. 按一下要查看的項目的連結名稱。
+1. 按一下您要檢視之專案的連結名稱。
 
-   將顯示項目、任務、問題或文檔。
+   專案、任務、問題或檔案隨即顯示。

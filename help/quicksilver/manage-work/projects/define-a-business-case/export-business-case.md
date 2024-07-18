@@ -1,21 +1,21 @@
 ---
 product-area: projects
 navigation-topic: business-case-and-scorecards
-title: 導出項目的業務案例
-description: 您可以將Business Case導出到PDF檔案，以備需要打印它或以更精簡的格式將其附加到電子郵件時使用。
+title: 匯出專案的業務案例
+description: 您可以將業務案例匯出至PDF檔案，以備您以更精簡的格式列印或附加至電子郵件。
 author: Alina
 feature: Work Management
 exl-id: 834c56c4-ca11-4aff-b67e-0eac9fa23403
 source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
 workflow-type: tm+mt
-source-wordcount: '250'
+source-wordcount: '248'
 ht-degree: 0%
 
 ---
 
-# 導出項目的業務案例
+# 匯出專案的業務案例
 
-您可以將Business Case導出到PDF檔案，以備需要打印它或以更精簡的格式將其附加到電子郵件時使用。 
+您可以將業務案例匯出至PDF檔案，以備您以更精簡的格式列印或附加至電子郵件。 
 
 ## 存取需求
 
@@ -31,30 +31,30 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront授權*</td> 
-   <td> <p>審核或更高版本</p> </td> 
+   <td> <p>評論或以上</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">訪問級別配置*</td> 
-   <td> <p>查看對項目、財務資料和資源管理的訪問</p> <p>注意：如果您仍無權存取，請洽詢您的Workfront管理員，他們是否在您的存取層級設定其他限制。 如需Workfront管理員如何修改您的存取層級的詳細資訊，請參閱 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>.</p> </td> 
+   <td role="rowheader">存取層級設定*</td> 
+   <td> <p>檢視專案、財務資料及資源管理的存取權</p> <p>注意：如果您還是沒有存取權，請詢問您的Workfront管理員，他們是否在您的存取層級中設定其他限制。 如需Workfront管理員如何修改存取層級的詳細資訊，請參閱<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">物件權限</td> 
-   <td> <p>檢視專案的或更高權限</p> <p>有關請求其他訪問的資訊，請參閱 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">請求對對象的訪問 </a>.</p> </td> 
+   <td role="rowheader">物件許可權</td> 
+   <td> <p>檢視專案或更高的許可權</p> <p>如需請求其他存取權的資訊，請參閱<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">請求物件</a>的存取權。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;若要了解您擁有的計畫、授權類型或存取權，請聯絡您的Workfront管理員。
+&#42;若要瞭解您擁有的計畫、授權型別或存取權，請連絡您的Workfront管理員。
 
-## 導出業務案例
+## 匯出業務案例
 
-1. 轉到要從中導出業務案例的項目。
-1. 按一下 **業務案例** 中。
-1. 在右上角&#x200B;**業務案例摘要** 按一下 **匯出**.
+1. 前往您要匯出業務案例的專案。
+1. 按一下左側面板中的&#x200B;**業務案例**。
+1. 在右上角&#x200B;**業務案例摘要**&#x200B;區域中，按一下&#x200B;**匯出**。
 
    ![](assets/bc-summary--350x587.png)\
-   PDF檔案下載到您的電腦。 該檔案包含Business Case的所有區域，格式易於讀取。
+   PDF  檔案已下載到您的電腦。 檔案以易於閱讀的格式包含業務案例的所有區域。
 
    ![BC_Summary_exported.png](assets/bc-summary-exported-350x160.png)
 
-1. （選用）您可以將PDF檔案附加至電子郵件，或列印以與他人共用。 
+1. （選擇性）您可以將PDF檔案附加至電子郵件，或列印該檔案以與其他人共用。 

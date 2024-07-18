@@ -25,7 +25,7 @@ in January 2022
 
 2022年1月17日當週。
 
-如需22.1版所有可用變更的清單，請參閱 [22.1版本總覽](../../../product-announcements/product-releases/22.1-release-activity/22-1-release-overview.md).
+如需22.1版本可用的所有變更清單，請參閱[22.1版本總覽](../../../product-announcements/product-releases/22.1-release-activity/22-1-release-overview.md)。
 
 ## 檔案下載記錄到更新區域
 
@@ -35,7 +35,7 @@ in January 2022
 >
 >我們建議在新上傳檔案的「預覽」中測試此功能。
 
-如需Workfront如何記錄物件的自動更新資訊，請參閱 [系統追蹤更新](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md).
+如需Workfront如何記錄物件的自動更新資訊，請參閱[系統追蹤的更新](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md)。
 
 ## 使用存取層級授予團隊存取權
 
@@ -51,13 +51,13 @@ For more information, see [Grant access to teams](../../../administration-and-se
 
 部分Blueprint現在包含群組，您可以在安裝Blueprint之前進行自訂。 您可以將Blueprint中的群組對應至Workfront例項中的現有群組，或視需要建立新群組。
 
-如需詳細資訊，請參閱 [設定Blueprint](../../../administration-and-setup/blueprints/configure-template-package.md).
+如需詳細資訊，請參閱[設定藍圖](../../../administration-and-setup/blueprints/configure-template-package.md)。
 
 ## 自訂Forms區域中的樣式更新
 
 自訂Forms區域具有新外觀，可讓您與新Workfront體驗中的許多其他區域同步更新。
 
-如需建立自訂表單的相關資訊，請參閱 [建立或編輯自訂表單](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
+如需建立自訂表單的相關資訊，請參閱[建立或編輯自訂表單](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)。
 
 ## 建立計算自訂欄位的多項增強功能
 
@@ -71,7 +71,7 @@ For more information, see [Grant access to teams](../../../administration-and-se
 
 此外，在可自訂的「指示」中，將計算自訂欄位的文字暫留，您可以顯示或隱藏欄位的公式。 如果您認為填寫自訂表單的使用者不需要該資訊，這將很有用。
 
-如需建立計算自訂欄位的詳細資訊，請參閱 [新增計算資料至自訂表單](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
+如需建立計算自訂欄位的詳細資訊，請參閱[將計算資料新增至自訂表單](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md)。
 
 ## 檢視有關狀態和公司的稽核記錄資訊
 
@@ -82,7 +82,7 @@ For more information, see [Grant access to teams](../../../administration-and-se
 * 您可以瞭解重新命名、鎖定或隱藏狀態的人員及其時間。
 * 您可以瞭解誰從公司中移除了一些成員或工作角色，以及何時移除。
 
-如需有關檢視稽核記錄資訊的資訊，請參閱 [檢視和匯出稽核記錄](../../../administration-and-setup/add-users/create-and-manage-users/view-and-export-audit-logs.md).
+如需有關檢視稽核記錄資訊的資訊，請參閱[檢視和匯出稽核記錄](../../../administration-and-setup/add-users/create-and-manage-users/view-and-export-audit-logs.md)。
 
 ## 藍圖公司對應和其他增強功能
 
@@ -92,7 +92,7 @@ For more information, see [Grant access to teams](../../../administration-and-se
 * 現已提供新的Blueprint型別「組織結構」。 某些Blueprint包含來自多種型別的元素（例如，專案範本和組織結構）。 您可以在目錄頁面上按Blueprint型別進行篩選。
 * 為簡單起見，設定頁面上的「安裝偏好設定」和「範本所有權」區段已合併到「範本偏好設定」。
 
-如需詳細資訊，請參閱 [設定Blueprint](../../../administration-and-setup/blueprints/configure-template-package.md).
+如需詳細資訊，請參閱[設定藍圖](../../../administration-and-setup/blueprints/configure-template-package.md)。
 
 ## 更輕鬆地管理公司成員資格
 
@@ -102,13 +102,13 @@ For more information, see [Grant access to teams](../../../administration-and-se
 
 更新的工具列也包含先前工具列中可用的所有動作，例如編輯成員的使用者設定檔資訊，以及在系統中停用它們。
 
-如需詳細資訊，請參閱 [管理公司成員資格](../../../administration-and-setup/set-up-workfront/organizational-setup/manage-company-memberships.md).
+如需詳細資訊，請參閱[管理公司成員資格](../../../administration-and-setup/set-up-workfront/organizational-setup/manage-company-memberships.md)。
 
 ## 在新的計算欄位視窗中選取運算式和欄位
 
 我們繼續讓您更輕鬆地在自訂表單中建立計算欄位。 現在，當您按一下「最大化」開啟新的「計算編輯器」時，您可以找到並選取所需的運算式和欄位。
 
-如需詳細資訊，請參閱 [新增計算資料至自訂表單](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
+如需詳細資訊，請參閱[將計算資料新增至自訂表單](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md)。
 
 ## 群組可以設定自己的時程表和小時偏好設定
 
@@ -120,9 +120,9 @@ For more information, see [Grant access to teams](../../../administration-and-se
 
 此功能最近也針對專案偏好設定以及任務和問題偏好設定新增。
 
-如需Workfront管理員如何解除鎖定時程表和小時偏好設定的相關資訊，請參閱區段 [解鎖群組的時程表和小時偏好設定](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md#lock) 在文章中 [設定時程表和小時偏好設定](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
+如需Workfront管理員如何解除鎖定時程表和小時偏好設定的相關資訊，請參閱[設定時程表和小時偏好設定](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md)一文中的[解除鎖定群組的時程表和小時偏好設定](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md#lock)小節。
 
-如需有關群組管理員如何設定群組的解除鎖定任務和問題偏好設定的資訊，請參閱 [設定群組的時程表和小時偏好設定](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-timesheet-hour-preferences-group.md).
+如需有關群組管理員如何設定群組的解除鎖定任務和問題偏好設定的資訊，請參閱[設定群組的時程表和小時偏好設定](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-timesheet-hour-preferences-group.md)。
 
 ## 選取您要解除鎖定或重新鎖定群組的多個通知
 
@@ -130,7 +130,7 @@ For more information, see [Grant access to teams](../../../administration-and-se
 
 之前，您必須一次解鎖並重新鎖定一個通知。 Workfront目前有95項通知，因此如果您必須針對全部或多項通知，則需要一段時間才能完成。
 
-如需詳細資訊，請參閱 [解鎖或鎖定所有群組的事件通知設定](../../../administration-and-setup/manage-workfront/emails/unlock-configuration-of-event-notifications-for-groups.md).
+如需詳細資訊，請參閱[解除鎖定或鎖定所有群組的事件通知設定](../../../administration-and-setup/manage-workfront/emails/unlock-configuration-of-event-notifications-for-groups.md)。
 
 ## 對於群組管理員：刪除群組時，可更輕鬆選取替代群組
 
@@ -139,13 +139,13 @@ For more information, see [Grant access to teams](../../../administration-and-se
 * 您可以開始輸入群組的名稱，以快速找到它。 先前只有下拉式清單無法輸入。 對於擁有許多群組的組織來說，這會造成問題，因為您必須捲動清單來尋找您想要的群組。 此外，下拉式清單具有專案限制，因此您想要的群組可能不會顯示。
 * 您可以使用新資訊圖示來確保選取您想要的取代群組。 將滑鼠指標暫留在圖示上會顯示工具提示，其中列出群組的相關資訊，例如群組上方的階層以及其管理員的姓名。
 
-如需詳細資訊，請參閱 [刪除群組](../../../administration-and-setup/manage-groups/create-and-manage-groups/delete-a-group.md).
+如需詳細資訊，請參閱[刪除群組](../../../administration-and-setup/manage-groups/create-and-manage-groups/delete-a-group.md)。
 
 ## 用於建立計算欄位的較大區域
 
 現在，在自訂表單中建立複雜的計算欄位變得更加容易。 按一下新的「最大化」按鈕，開啟一個大型編輯視窗以建立您的計算。 完成後，按一下「最小化」以繼續處理自訂表單。
 
-如需詳細資訊，請參閱 [新增計算資料至自訂表單](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
+如需詳細資訊，請參閱[將計算資料新增至自訂表單](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md)。
 
 ## 新增自訂表單至群組
 
@@ -157,7 +157,7 @@ For more information, see [Grant access to teams](../../../administration-and-se
 * 移除自訂表格
 * 編輯清單中的自訂資料，並在新的Workfront體驗中，從群組頁面編輯自訂資料
 
-如需自訂表單的相關資訊，請參閱 [自訂表格](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-and-manage-custom-forms.md).
+如需自訂表單的相關資訊，請參閱[自訂表單](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-and-manage-custom-forms.md)。
 
 ## 建立OAuth2應用程式以將應用程式與Workfront整合
 
@@ -165,10 +165,10 @@ For more information, see [Grant access to teams](../../../administration-and-se
 
 之前，您只能透過內建整合、Workfront Fusion或Workfront API來與其他應用程式整合。
 
-如需詳細資訊，請參閱 [為Workfront整合建立OAuth2應用程式](../../../administration-and-setup/configure-integrations/create-oauth-application.md).
+如需詳細資訊，請參閱[為Workfront整合建立OAuth2應用程式](../../../administration-and-setup/configure-integrations/create-oauth-application.md)。
 
 ## 公司區域的介面文字改善
 
 在「設定」的「公司」區域中，新的確認訊息和細微的措辭變更可讓您更輕鬆地管理公司成員資格。 例如，左側面板中的區段名稱「People」現在是「公司成員」。
 
-如需有關管理公司成員資格的資訊，請參閱 [管理公司成員資格](../../../administration-and-setup/set-up-workfront/organizational-setup/manage-company-memberships.md).
+如需有關管理公司成員資格的資訊，請參閱[管理公司成員資格](../../../administration-and-setup/set-up-workfront/organizational-setup/manage-company-memberships.md)。

@@ -22,20 +22,20 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->此報表僅對擁有新存取層級模型的使用者可見。 如需詳細資訊，請參閱 [新存取層級概觀](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md).
+>此報表僅對擁有新存取層級模型的使用者可見。 如需詳細資訊，請參閱[新存取層級總覽](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md)。
 
 若要檢視使用者的決定數目，請執行下列步驟：
 
 {{step-1-to-users}}
 
-1. 開啟 **檢視** 區域，然後選擇 **授權** 檢視。
-1. 尋找欄 **本月決策** 檢視每個使用者在當月所做的決定數。
-1. 若要檢視歷史資料，請開啟 **檢視** 區域並選擇 **歷史使用者檢視**.
-1. 尋找欄 **使用者歷史決策** 檢視每個使用者在一個月內所做的決定數。 根據您的組織何時可使用此報表，資料最多可包含本月前12個月的資料。
+1. 開啟&#x200B;**檢視**&#x200B;區域，然後選擇&#x200B;**授權**&#x200B;檢視。
+1. 尋找欄&#x200B;**本月**&#x200B;的決定，以檢視每個使用者在該月所做的決定數。
+1. 若要檢視歷史資料，請開啟&#x200B;**檢視**&#x200B;區域，然後選擇&#x200B;**歷史使用者檢視**。
+1. 尋找&#x200B;**使用者歷史決策**&#x200B;欄，以檢視每個使用者在一個月內所作出的決策數目。 根據您的組織何時可使用此報表，資料最多可包含本月前12個月的資料。
 
 >[!NOTE]
 >
->如果「歷史使用者檢視」無法使用，您可以建立新檢視來顯示歷史資料。 新增 **使用者歷史決策** 作為檢視中的欄。 如需將欄新增至檢視的詳細資訊，請參閱 [在Adobe Workfront中建立或編輯檢視](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md).
+>如果「歷史使用者檢視」無法使用，您可以建立新檢視來顯示歷史資料。 新增&#x200B;**使用者歷史決策**&#x200B;作為檢視中的欄。 如需將欄新增至檢視的資訊，請參閱[在Adobe Workfront中建立或編輯檢視](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md)。
 
 
 ## 在報告區域中檢視決策
@@ -46,10 +46,10 @@ ht-degree: 0%
 
 {{step1-to-reports}}
 
-1. 按一下 **新報告**，然後選取 **使用者決策**.
-1. 尋找欄 **本月決策** 檢視每個使用者在當月所做的決定數。
+1. 按一下&#x200B;**新報告**，然後選取&#x200B;**使用者決定**。
+1. 尋找欄&#x200B;**本月**&#x200B;的決定，以檢視每個使用者在該月所做的決定數。
 
-   根據您的組織何時可使用此報表，資料最多可包含本月前12個月的資料。 此 **月** 和 **年** 欄會顯示進行決策的月份。 第1個月是指1月，第2個月是指2月，以此類推。
+   根據您的組織何時可使用此報表，資料最多可包含本月前12個月的資料。 **Month**&#x200B;和&#x200B;**Year**&#x200B;欄顯示決策是在哪一個月做出的。 第1個月是指1月，第2個月是指2月，以此類推。
 
-1. 檢閱報告並視需要加以編輯。 如需詳細資訊，請參閱 [建立自訂報表](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+1. 檢閱報告並視需要加以編輯。 如需詳細資訊，請參閱[建立自訂報表](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md)。
 

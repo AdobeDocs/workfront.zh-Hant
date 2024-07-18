@@ -53,11 +53,11 @@ ht-degree: 2%
  </tbody> 
 </table>
 
-如需有關此表格的詳細資訊，請參閱 [Workfront檔案中的存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 ## 先決條件
 
-如需使用增強型Analytics的必要條件，請參閱 [增強型分析概述](../enhanced-analytics/enhanced-analytics-overview.md).
+如需使用增強型分析的先決條件，請參閱[增強型分析概觀](../enhanced-analytics/enhanced-analytics-overview.md)中的「先決條件」一節。
 
 ## 瞭解專案樹狀圖視覺效果
 
@@ -65,15 +65,15 @@ ht-degree: 2%
 
 專案樹狀圖視覺效果包含：
 
-* **較小的淺藍色方塊**：小時數或天數較少的專案會顯示為淺藍色的小方塊。
+* **較小的淺藍色方塊**：具有較少小時或天數的專案會顯示為較小的淺藍色方塊。
 
   ![](assets/project-treemap-smaller-box.png)
 
-* **較大的深藍色方塊**：有更多小時（或天數）的專案會顯示為藍色深藍的大方塊。
+* **較大、深藍色的方塊**：有更多小時（或天數）的專案會顯示為較大且深藍色的方塊。
 
   ![](assets/project-treemap-larger-box-350x205.png)
 
-* **中等大小的藍色方塊**：屬於兩個類別的專案會顯示為中等大小的方塊，深藍色和淺藍色之間有藍色陰影。 中型盒子有3種可能的藍色色調。
+* **Medium大小的藍色方塊**：介於兩個類別之間的專案會顯示為中等大小的方塊，深藍色和淺藍色之間有藍色陰影。 中型盒子有3種可能的藍色色調。
 
 右側的圖例顯示每個藍色陰影的完成時數劃分。 此圖例為動態圖例，會根據資料進行更新。
 
@@ -91,24 +91,24 @@ ht-degree: 2%
 * 如果團隊聚焦於正確的事。
 * 按一下特定專案時，該時段內專案範圍的變更量。
 
-若要瞭解如何針對此視覺效果取得最佳資料，請參閱 [增強型分析概述](../enhanced-analytics/enhanced-analytics-overview.md).
+若要瞭解如何取得此視覺效果的最佳資料，請參閱[增強型分析概述](../enhanced-analytics/enhanced-analytics-overview.md)。
 
 ## 檢視專案樹狀圖視覺效果
 
-1. 按一下主要功能表圖示 ![](assets/main-menu-icon-16x12.png)，然後選取 **Analytics**.
+1. 按一下主要功能表圖示![](assets/main-menu-icon-16x12.png)，然後選取&#x200B;**Analytics**。
 1. （可選）若要使用不同的日期範圍，請從日期範圍篩選器中選取新的開始和結束日期。
 
    ![](assets/filters-select-date-range-350x344.png)
 
-   如需有關使用日期範圍篩選的資訊，請參閱 [在增強型分析中套用篩選器](../enhanced-analytics/use-enhanced-analytics-filters.md).
+   如需有關使用日期範圍篩選的資訊，請參閱[在增強型分析中套用篩選](../enhanced-analytics/use-enhanced-analytics-filters.md)。
 
 1. （視條件而定）如果您需要限制專案資料集，請選取並套用您要使用的篩選器。
 
-   如需在增強型分析中新增篩選器的詳細資訊，請參閱 [在增強型分析中套用篩選器](../enhanced-analytics/use-enhanced-analytics-filters.md).
+   如需在增強型分析中新增篩選器的詳細資訊，請參閱[在增強型分析中套用篩選器](../enhanced-analytics/use-enhanced-analytics-filters.md)。
 
    新增篩選器後，系統會顯示最多50個專案的資料，而且即使您離開頁面或登出Workfront，篩選器仍會保持作用中。
 
-1. （選用）若要變更專案的排序方式，請按一下 **排序依據：** 「專案樹狀圖」視覺效果右上角的功能表，然後選取新的排序選項：
+1. （選擇性）若要變更專案的排序方式，請按一下專案樹狀圖視覺效果右上角的&#x200B;**排序依據**&#x200B;功能表，然後選取新的排序選項：
 
    * **A - Z**
    * **Z - A**
@@ -123,7 +123,7 @@ ht-degree: 2%
 
    ![](assets/pagination-350x118.png)
 
-1. （可選）變更檢視從 **計畫時數** 至 **期間**.
+1. （選用）將檢視從&#x200B;**計畫時數**&#x200B;變更為&#x200B;**持續時間**。
 
    預設會選取計畫時數。
 
@@ -133,21 +133,21 @@ ht-degree: 2%
 
    >[!NOTE]
    >
-   >如果您已選取 **期間** 檢視，您將會看到下列期間詳細資料：
+   >若您選取&#x200B;**持續時間**&#x200B;檢視，您將會看到下列持續時間詳細資料：
    >
    >* **計畫時間範圍**：計畫完成專案的天數。
-   >* **已工作天數**：在上方所選日期範圍內完成的每項工作的計畫期間除以一天中的小時數。
+   >* **已工作天數**：在上方選取的日期範圍內完成的每項工作的計畫期間除以一天中的小時數。
    >   
    >![](assets/duration-treemap-350x159.png)
    >
-   >如需有關持續時間的詳細資訊，請參閱以下的「持續時間檢視」一節： [增強型分析概述](../enhanced-analytics/enhanced-analytics-overview.md).
+   >如需持續時間的詳細資訊，請參閱[增強型分析總覽](../enhanced-analytics/enhanced-analytics-overview.md)中的「持續期間檢視」一節。
 
-1. （選用）若要匯出視覺效果資料，請按一下 **「匯出」圖示** ![](assets/export.png) 然後選取匯出格式：
+1. （選擇性）若要匯出視覺效果資料，請按一下視覺效果右上角的&#x200B;**匯出圖示** ![](assets/export.png)，然後選取匯出格式：
 
    * **圖表(PNG)**
-   * **資料表格(XSLX)**
+   * **資料表(XSLX)**
 
 1. 按一下專案以開啟「待執行工作」和「小眾測試版中的任務」視覺效果，以更深入地瞭解任務和小時（或天數）對專案大小的貢獻。
 
-如需有關待執行工作視覺效果的詳細資訊，請參閱 [在增強型分析中檢視待執行工作視覺效果](../enhanced-analytics/burndown-overview.md). 如需小眾測試版中任務視覺效果的詳細資訊，請參閱 [在Enhanced Analytics中檢視小眾測試版中的任務視覺效果](../enhanced-analytics/tasks-in-flight-overview.md).
+如需有關待執行工作視覺效果的詳細資訊，請參閱[在增強型分析中檢視待執行工作視覺效果](../enhanced-analytics/burndown-overview.md)。 如需小眾測試版中任務的詳細資訊，請參閱[在增強型分析中檢視小眾測試版中的任務](../enhanced-analytics/tasks-in-flight-overview.md)。
 

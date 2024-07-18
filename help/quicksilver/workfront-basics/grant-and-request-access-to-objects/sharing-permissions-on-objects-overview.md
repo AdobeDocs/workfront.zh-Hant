@@ -9,7 +9,7 @@ exl-id: 7c14702e-ac55-4266-88a7-f31618f84218
 source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
 workflow-type: tm+mt
 source-wordcount: '1165'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 您不必是Adobe Workfront管理員，即可共用您有權存取之物件的許可權，但您對物件的許可權可在Workfront管理員設定的存取層級內運作。
 
-您可以共用或移除您所建立之物件或與您共用之物件的許可權。 當您不是物件的建立者時，除了物件的「共用」許可權之外，您還必須對要在存取層級中共用的物件擁有「共用」存取許可權。 如需有關存取層級的資訊，請參閱 [新存取層級概觀](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md) 或 [存取層級概觀](../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).
+您可以共用或移除您所建立之物件或與您共用之物件的許可權。 當您不是物件的建立者時，除了物件的「共用」許可權之外，您還必須對要在存取層級中共用的物件擁有「共用」存取許可權。 如需存取層級的資訊，請參閱[新的存取層級總覽](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md)或[存取層級總覽](../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md)。
 
 >[!NOTE]
 >
@@ -34,37 +34,37 @@ ht-degree: 0%
 
 您可以在Workfront中與其他使用者共用下列物件：
 
-* **專案**：如需詳細資訊，請參閱 [在Adobe Workfront中共用專案](../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md).
+* **專案**：如需詳細資訊，請參閱[在Adobe Workfront中共用專案](../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md)。
 
-* **範本**：如需詳細資訊，請參閱 [共用專案範本](../../manage-work/projects/create-and-manage-templates/share-project-template.md).
+* **範本**：如需詳細資訊，請參閱[共用專案範本](../../manage-work/projects/create-and-manage-templates/share-project-template.md)。
 
-* **Portfolio**：如需詳細資訊，請參閱 [共用投資組合](../../workfront-basics/grant-and-request-access-to-objects/share-a-portfolio.md).
+* **Portfolio**：如需詳細資訊，請參閱[共用投資組合](../../workfront-basics/grant-and-request-access-to-objects/share-a-portfolio.md)。
 
-* **計畫**：如需詳細資訊，請參閱 [共用方案](../../workfront-basics/grant-and-request-access-to-objects/share-a-program.md) .
+* **程式**：如需詳細資訊，請參閱[共用程式](../../workfront-basics/grant-and-request-access-to-objects/share-a-program.md)。
 
-* **任務**：如需詳細資訊，請參閱 [共用任務](../../workfront-basics/grant-and-request-access-to-objects/share-a-task.md).
+* **工作**：如需詳細資訊，請參閱[共用工作](../../workfront-basics/grant-and-request-access-to-objects/share-a-task.md)。
 
-* **問題**：如需詳細資訊，請參閱 [共用問題](../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md).
+* **問題**：如需詳細資訊，請參閱[共用問題](../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md)。
 
-* **檔案**：如需詳細資訊，請參閱 [共用檔案](../../workfront-basics/grant-and-request-access-to-objects/document-permissions.md).
+* **檔案**：如需詳細資訊，請參閱[共用檔案](../../workfront-basics/grant-and-request-access-to-objects/document-permissions.md)。
 
-* **檔案資料夾**：如需詳細資訊，請參閱 [共用檔案資料夾](../../workfront-basics/grant-and-request-access-to-objects/share-a-document-folder.md).
+* **檔案資料夾**：如需詳細資訊，請參閱[共用檔案資料夾](../../workfront-basics/grant-and-request-access-to-objects/share-a-document-folder.md)。
 
-* **校樣**：如需詳細資訊，請參閱 [在Workfront中共用校訂](/help/quicksilver/review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md).
+* **校訂**：如需詳細資訊，請參閱[在Workfront中共用校訂](/help/quicksilver/review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md)。
 
-* **報告、儀表板和行事曆**：如需詳細資訊，請參閱 [共用報告、儀表板和行事曆](../../workfront-basics/grant-and-request-access-to-objects/permissions-reports-dashboards-calendars.md). 此外，請參閱下列文章：
+* **報告、儀表板和行事曆**：如需詳細資訊，請參閱[共用報告、儀表板和行事曆](../../workfront-basics/grant-and-request-access-to-objects/permissions-reports-dashboards-calendars.md)。 此外，請參閱下列文章：
 
    * [在Adobe Workfront中共用報表](../../reports-and-dashboards/reports/creating-and-managing-reports/share-report.md)
    * [共用儀表板](../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/share-dashboard.md)
    * [共用行事曆報告](../../reports-and-dashboards/reports/calendars/share-a-calendar-report.md)
 
-* **篩選器、檢視和群組**：如需詳細資訊，請參閱 [共用篩選、檢視或分組](../../reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md).
+* **篩選器、檢視和群組**：如需詳細資訊，請參閱[共用篩選器、檢視或群組](../../reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md)。
 
-* **計畫**：如需詳細資訊，請參閱 [在「情境規劃工具」中共用計畫](../../scenario-planner/share-a-plan.md).
+* **計畫**：如需詳細資訊，請參閱[在Scenario Planner中共用計畫](../../scenario-planner/share-a-plan.md)。
 
   這需要額外的授權。
 
-* **目標**：如需詳細資訊，請參閱 [在Workfront目標中共用目標](../../workfront-goals/workfront-goals-settings/share-a-goal.md).
+* **目標**：如需詳細資訊，請參閱[在Workfront目標中共用目標](../../workfront-goals/workfront-goals-settings/share-a-goal.md)。
 
   這需要額外的授權。
 
@@ -87,7 +87,7 @@ ht-degree: 0%
   >
   >如需詳細資訊，請參閱：
   >
-  >* [在「情境規劃工具」中共用計畫](../../scenario-planner/share-a-plan.md)
+  >* [在情境規劃工具中共用計畫](../../scenario-planner/share-a-plan.md)
   >* [在Workfront目標中共用目標](../../workfront-goals/workfront-goals-settings/share-a-goal.md)
 
 ## 共用限制
@@ -96,7 +96,7 @@ ht-degree: 0%
 
 ## 共用物件的許可權
 
-下表說明您可在共用物件時選取的許可權等級。 並非所有物件都有這些設定可供使用。 您可以將其他實體許可權授予「檢視」或「管理物件」。 如果您要共用專案、任務或問題，也可以授予「貢獻內容」的許可權。
+下表說明您可在共用物件時選取的許可權等級。 並非所有物件都有這些設定可供使用。 您可以將其他實體許可權授予「檢視」或「管理物件」。 如果您要共用專案、任務或問題，也可以授與Contribute的許可權給它。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -129,13 +129,13 @@ ht-degree: 0%
    <td role="rowheader"><strong>管理</strong></td> 
    <td> <p>您可以對物件執行下列動作：</p> 
     <ul> 
-     <li>檢視和貢獻許可權中包含的所有動作</li> 
+     <li>檢視和Contribute許可權所包含的所有動作</li> 
      <li>刪除它</li> 
      <li>管理其中的財務資訊</li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>將此設為公開給外部使用者</strong></td> 
+   <td role="rowheader"><strong>將此設為對外部使用者公開</strong></td> 
    <td> <p>沒有Workfront帳戶的任何人都可以按一下物件的連結來檢視該物件。 並非所有物件皆可使用此選項。</p> </td> 
   </tr> 
   <tr> 
@@ -151,15 +151,15 @@ ht-degree: 0%
 
 Workfront中的許可權是階層式繼承的。 這表示如果您授予使用者對父物件的許可權，預設情況下，這些使用者會獲得與其相關聯之子物件的相同許可權。
 
-例如，如果您授予使用者「貢獻專案」的許可權，則使用者對於與該專案相關聯的所有任務和問題（子物件）都具有「貢獻專案」許可權。
+例如，如果您將專案的Contribute許可權授予使用者，則該使用者擁有與該專案相關聯的所有任務和問題（子物件）的Contribute許可權。
 
-繼續上述範例，您無法將許可權限制在子物件。 如果您不希望使用者擁有與專案相關聯之子物件的「貢獻」許可權，您必須手動從物件移除「繼承的許可權」，然後調整個別使用者的許可權，包括任何「進階設定」。 
+繼續上述範例，您無法將許可權限制在子物件。 如果您不希望使用者擁有與專案相關聯之子物件的Contribute許可權，您必須手動從物件中移除繼承許可權，然後調整個別使用者的許可權，包括任何進階設定。 
 
-如需Workfront中物件的階層與相依性的詳細資訊，請參閱區段 [物件的相依性和階層](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#interdependency-and-hierarchy-of-objects) 在文章中 [Adobe Workfront物件總覽](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
+如需Workfront中物件的階層與相依性的詳細資訊，請參閱[Adobe Workfront物件概觀](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)一文中的[物件相依性和階層](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#interdependency-and-hierarchy-of-objects)一節。
 
 >[!NOTE]
 >
->您的Workfront管理員可以停用存取層級中檔案的繼承許可權。 如需有關在存取層級中停用檔案的繼承許可權的詳細資訊，請參閱 [建立或修改自訂存取層級](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+>您的Workfront管理員可以停用存取層級中檔案的繼承許可權。 如需有關停用存取層級中檔案的繼承許可權的詳細資訊，請參閱[建立或修改自訂存取層級](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)。
 
 ### 透過組織成員資格取得的許可權  {#permissions-acquired-through-organizational-memberships}
 
@@ -221,11 +221,11 @@ You cannot remove individual entities from the Inherited Permissions list. You c
 
 ## 共用物件
 
-如需關於如何共用物件的資訊，請參閱 [共用物件](../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md).
+如需如何共用物件的詳細資訊，請參閱[共用物件](../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md)。
 
 ## 移除物件的許可權
 
-如需有關如何從物件移除許可權的資訊，請參閱 [移除物件的許可權](../../workfront-basics/grant-and-request-access-to-objects/remove-permissions-from-objects.md).
+如需有關如何從物件移除許可權的資訊，請參閱[從物件移除許可權](../../workfront-basics/grant-and-request-access-to-objects/remove-permissions-from-objects.md)。
 
 ## 要求物件的許可權
 
@@ -233,4 +233,4 @@ You cannot remove individual entities from the Inherited Permissions list. You c
 
 您可以向擁有物件「共用」許可權的任何人請求物件的存取權。 
 
-如需有關向物件要求許可權的詳細資訊，請參閱 [要求物件的存取權](../../workfront-basics/grant-and-request-access-to-objects/request-access.md).
+如需有關要求物件許可權的詳細資訊，請參閱[要求存取物件](../../workfront-basics/grant-and-request-access-to-objects/request-access.md)。

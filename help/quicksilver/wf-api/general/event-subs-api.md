@@ -9,7 +9,7 @@ role: Developer
 exl-id: c3646a5d-42f4-4af8-9dd0-e84977506b79
 source-git-commit: c08bd3311892d24a9bd40af138169957f5ea2ca4
 workflow-type: tm+mt
-source-wordcount: '2126'
+source-wordcount: '2147'
 ht-degree: 3%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 3%
 
 若要透過防火牆接收事件訂閱裝載，您必須將下列IP位址新增至允許清單：
 
-**歐洲客戶：**
+歐洲客戶的&#x200B;**：**
 
 * 52.30.133.50
 * 52.208.159.124
@@ -36,7 +36,7 @@ ht-degree: 3%
 * 34.254.76.122
 * 34.252.250.191
 
-**對於位於歐洲以外地點的客戶：**
+**位於歐洲以外地點的客戶：**
 
 * 54.244.142.219
 * 44.241.82.96
@@ -72,16 +72,16 @@ ht-degree: 3%
 * 使用者
 * 工作區
 
-如需事件訂閱物件支援的欄位清單，請參閱 [事件訂閱資源欄位](../../wf-api/api/event-sub-resource-fields.md).
+如需事件訂閱物件支援的欄位清單，請參閱[事件訂閱資源欄位](../../wf-api/api/event-sub-resource-fields.md)。
 
 ## 事件訂閱驗證
 
 若要建立、查詢或刪除事件訂閱，您的Workfront使用者需要下列專案：
 
 * 需要「系統管理員」的存取層級才能使用事件訂閱。
-* A `sessionID`  標題為必填欄位，才能使用事件訂閱API
+* 需要`sessionID`標頭才能使用事件訂閱API
 
-  如需詳細資訊，請參閱 [驗證](api-basics.md#authentication) 在 [API基本需知](api-basics.md).
+  如需詳細資訊，請參閱[API基本知識](api-basics.md)中的[驗證](api-basics.md#authentication)。
 
 ## 形成訂閱資源
 
@@ -89,11 +89,11 @@ ht-degree: 3%
 
 * 物件ID （選擇性）
 
-   * **字串**  — 為其引發事件的指定物件程式碼的物件識別碼。 如果未指定此欄位，使用者會收到指定型別之所有物件的事件。
+   * **String** — 為其引發事件的指定objCode物件識別碼。 如果未指定此欄位，使用者會收到指定型別之所有物件的事件。
 
 * 物件代碼（必要）
 
-   * **字串**  — 訂閱變更的物件物件代碼。 objCode的可能值列於下表。
+   * **字串** — 正在訂閱變更之物件的objCode。 objCode的可能值列於下表。
 
      <table style="table-layout:auto"> 
       <col> 
@@ -183,14 +183,14 @@ ht-degree: 3%
        </tr> 
        <tr> 
         <td scope="col">工作區</td> 
-        <td scope="col">工作區</td> 
+        <td scope="col">Workspace</td> 
        </tr> 
       </tbody> 
      </table>
 
 * eventType （必要）
 
-   * **字串**  — 代表物件訂閱的事件型別的值。 可用的事件型別包括：
+   * **String** — 代表物件訂閱的事件型別的值。 可用的事件型別包括：
 
       * 建立
       * DELETE 
@@ -198,11 +198,11 @@ ht-degree: 3%
 
 * url （必要）
 
-   * **字串**  — 透過HTTP傳送訂閱事件裝載的端點URL。
+   * **String** — 透過HTTP傳送訂閱事件裝載的端點URL。
 
 * authToken （必要）
 
-   * **字串**  — 用於使用「URL」欄位中指定的URL進行驗證的OAuth2持有人權杖。 
+   * **字串** — 用來使用「URL」欄位中指定的URL進行驗證的OAuth2持有人權杖。 
 
 ## 建立事件訂閱API請求
 
@@ -210,14 +210,14 @@ ht-degree: 3%
 
 請使用下列語法來建構URL。
 
-**請求URL：**
+**要求URL：**
 
 
 ```
 POST https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions
 ```
 
-**請求標頭：**
+**要求標頭：**
 
 <table style="table-layout:auto"> 
  <col> 
@@ -260,7 +260,7 @@ POST https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions
 | 401 （未獲授權） | 提供的sessionID是空的或被視為無效。 |
 | 403 （禁止存取） | 符合所提供sessionID的使用者沒有管理員存取權。 |
 
-以要求內文傳遞訂閱資源（內容型別是&quot;application/json&quot;）會導致系統針對指定的物件建立事件訂閱。 回應代碼201 （已建立）表示已建立訂閱。 201以外的回應代碼表示訂閱為 **NOT** 已建立。
+以要求內文傳遞訂閱資源（內容型別是&quot;application/json&quot;）會導致系統針對指定的物件建立事件訂閱。 回應代碼201 （已建立）表示已建立訂閱。 201以外的回應代碼表示已建立訂閱&#x200B;**NOT**。
 
 >[!NOTE]
 >
@@ -283,12 +283,12 @@ POST https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions
 
 您可以查詢客戶的所有事件訂閱，或使用下列專案來管理回應。 您也可以使用下列選項來管理回應：
 
-* **頁面**：查詢引數選項，用於指定要傳回的頁數。 預設值為1。
-* **limit**：查詢引數選項，用於指定每頁傳回的結果數。 預設值為100，最大值為1000。
+* **page**：查詢引數選項，用來指定要傳回的頁數。 預設值為1。
+* **limit**：查詢引數選項，指定每頁要傳回的結果數目。 預設值為100，最大值為1000。
 
 列出特定客戶之所有事件訂閱的請求語法如下：
 
-**請求URL：**
+**要求URL：**
 
 <!-- [Copy](javascript:void(0);) -->
 
@@ -296,7 +296,7 @@ POST https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions
 GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions
 ```
 
-**請求標頭：**
+**要求標頭：**
 
 <table style="table-layout:auto"> 
  <col> 
@@ -373,15 +373,15 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions
 
 位置
 
-* **頁面** 和 **limit** 是請求中提供的值，如果未提供值，則為預設值
-* **page_count** 是可查詢的頁面總數。
-* **total_count** 是符合查詢的訂閱總數。
+* **page**&#x200B;和&#x200B;**limit**&#x200B;是請求中提供的值，如果未提供值，則為預設值
+* **page_count**&#x200B;是可查詢的頁面總數。
+* **total_count**&#x200B;是符合查詢的訂閱總數。
 
 ### 依事件訂閱ID查詢
 
 您可以依事件訂閱ID來查詢事件訂閱。 列出事件訂閱的請求語法如下：
 
-**請求URL：**
+**要求URL：**
 
 <!-- [Copy](javascript:void(0);) -->
 
@@ -389,7 +389,7 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions
 GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/<SUBSCRIPTION ID>
 ```
 
-**請求標頭：**
+**要求標頭：**
 
 <table style="table-layout:auto"> 
  <col> 
@@ -437,21 +437,21 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/<SUBSCRIPTI
 
 事件訂閱篩選可用於確保您僅接收相關訊息。 為您的訂閱建立篩選器可能會大幅減少端點需要使用的訊息數量。
 
-例如， **更新 — 任務** 事件訂閱只能設定為以下情況觸發： **newState** 事件有效負載的 **任務狀態** 作為 **目前**.
+例如，只有當事件承載的&#x200B;**newState**&#x200B;將&#x200B;**taskStatus**&#x200B;定義為&#x200B;**current**&#x200B;時，才能將&#x200B;**UPDATE - TASK**&#x200B;事件訂閱設定為觸發。
 
 >[!IMPORTANT]
 >
-下列屬性適用於事件訂閱篩選
+>下列屬性適用於事件訂閱篩選
 
-* 當篩選欄位具有非空白值時，只會訊息具有 **newState** 包含篩選鍵和值，以傳送至訂閱的URL
-* 您可以依據包含在 **newState** 和/或 **oldState**&#x200B;物件的
+* 當篩選欄位具有非空白值時，只有具有包含篩選鍵和值的&#x200B;**newState**&#x200B;的訊息才會傳送到訂閱URL
+* 您可以依物件的&#x200B;**newState**&#x200B;和/或&#x200B;**oldState**&#x200B;中包含的自訂資料進行篩選
 * 篩選器僅會根據其是否等於特定值進行評估
-* 如果您的篩選器語法不正確或不符合 **newState** 在承載中，將不會傳回驗證訊息來指示已發生錯誤
+* 如果您的篩選器語法不正確或不符合承載之&#x200B;**newState**&#x200B;中包含的任何資料，將不會傳回驗證訊息以指出發生錯誤
 * 無法在現有的訂閱上更新篩選器；必須使用新的篩選器引數建立新的訂閱。
 * 多個篩選器可套用至單一訂閱，且只有當滿足所有篩選器條件時，才會傳送訂閱。
-* 將多個篩選器套用至單一訂閱，其實務等於使用 **和** 邏輯運運算元。
+* 將多個篩選器套用至單一訂閱的作法等同於使用&#x200B;**AND**&#x200B;邏輯運運算元。
 * 只要每個事件訂閱之間有一或多個事件訂閱欄位引數不同，就可以將多個事件訂閱套用至單一物件。
-* 將多個事件訂閱指派給單一物件時，與該物件相關聯的所有事件訂閱都可以傳回至單一端點。 此作法可以當做邏輯運運算元的對等替代使用 **或** 無法使用篩選引數來設定。
+* 將多個事件訂閱指派給單一物件時，與該物件相關聯的所有事件訂閱都可以傳回至單一端點。 此實務可做為邏輯運運算元&#x200B;**OR**&#x200B;的同等替代使用，而此邏輯運運算元無法使用篩選引數設定。
 
 ### 使用比較運運算元
 
@@ -459,7 +459,7 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/<SUBSCRIPTI
 
 #### eq： equal
 
-如果發生的變更相符，此篩選器可允許傳遞訊息 `fieldValue` 在篩選器中完全符合。 此 `fieldValue` 值區分大小寫。
+如果發生的變更與篩選器中的`fieldValue`完全相符，此篩選器可允許傳遞訊息。 `fieldValue`值區分大小寫。
 
 ```
 {
@@ -479,7 +479,7 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/<SUBSCRIPTI
 
 #### ne：不等於
 
-如果發生的變更不符，此篩選器可允許傳遞訊息 `fieldValue` 在篩選器中完全符合。 此 `fieldValue` 值區分大小寫。
+如果發生的變更與篩選器中的`fieldValue`不符，此篩選器可允許傳遞訊息。 `fieldValue`值區分大小寫。
 
 ```
 {
@@ -499,7 +499,7 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/<SUBSCRIPTI
 
 #### gt：大於
 
-如果指定的更新，此篩選器可允許訊息通過 `fieldName` 大於的值 `fieldValue`.
+如果指定`fieldName`上的更新大於`fieldValue`的值，此篩選器可允許訊息通過。
 
 ```
 {
@@ -519,7 +519,7 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/<SUBSCRIPTI
 
 #### gte：大於或等於
 
-如果指定的更新，此篩選器可允許訊息通過 `fieldName` 大於或等於 `fieldValue`.
+如果指定`fieldName`上的更新大於或等於`fieldValue`的值，此篩選器可允許訊息通過。
 
 ```
 {
@@ -539,7 +539,7 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/<SUBSCRIPTI
 
 #### lt：小於
 
-如果指定的更新，此篩選器可允許訊息通過 `fieldName` 小於 `fieldValue`.
+如果指定`fieldName`上的更新小於`fieldValue`的值，此篩選器可允許訊息通過。
 
 ```
 {
@@ -559,7 +559,7 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/<SUBSCRIPTI
 
 #### lte：小於或等於
 
-如果指定的更新，此篩選器可允許訊息通過 `fieldName` 小於或等於 `fieldValue`.
+如果指定`fieldName`上的更新小於或等於`fieldValue`的值，此篩選器可允許訊息通過。
 
 ```
 {
@@ -579,7 +579,7 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/<SUBSCRIPTI
 
 #### 包含
 
-如果發生的變更包含 `fieldValue` 在篩選中。 此 `fieldValue` 值區分大小寫
+如果發生的變更包含篩選器中的`fieldValue`，此篩選器可允許傳遞訊息。 `fieldValue`值區分大小寫
 
 ```
 {
@@ -599,11 +599,11 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/<SUBSCRIPTI
 
 #### 變更
 
-此篩選器只允許指定欄位(`fieldName`)在oldstate和newstate中有不同的值。 更新指定欄位以外的其他欄位(`fieldName`)將不會傳回該變更。
+只有在指定的欄位(`fieldName`)在oldstate和newstate中有不同的值時，此篩選器才允許訊息通過。 更新指定欄位(`fieldName`)以外的其他欄位將不會傳回該變更。
 
 >[!NOTE]
 >
-`fieldValue` 在以下的濾鏡陣列中沒有任何效果。
+>下列篩選器陣列中的`fieldValue`沒有作用。
 
 ```
 {
@@ -624,12 +624,12 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/<SUBSCRIPTI
 #### state
 
 此聯結器將篩選套用到已建立或更新之物件的新狀態或舊狀態。 當您想知道某個專案在哪裡變更到另一個專案時，這會很有幫助。
-`oldState` 無法在CREATE上執行 `eventTypes`.
+無法在CREATE `eventTypes`上執行`oldState`。
 
 >[!NOTE]
 >
-底下具有指定篩選器的訂閱只會傳回工作名稱包含的訊息 `again` 於 `oldState`，即更新任務之前的狀態。
-此情況下的使用案例是尋找從一個事物變更為另一個事物的objCode訊息。 例如，找出從「Research Some name」變更為「Research TeamName Some name」的所有任務
+>底下具有指定篩選器的訂閱只會傳回工作名稱在`oldState`上包含`again`的訊息，這是更新工作之前的訊息。
+>此情況下的使用案例是尋找從一個事物變更為另一個事物的objCode訊息。 例如，找出從「Research Some name」變更為「Research TeamName Some name」的所有任務
 
 ```
 {
@@ -650,7 +650,7 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/<SUBSCRIPTI
 
 ### 使用聯結器欄位
 
-此 `filterConnector` 訂閱裝載上的欄位可讓您選擇應如何套用篩選器。 預設值為「AND」，其中所有篩選器必須為 `true` 讓訂閱訊息顯示。 若指定「OR」，則只有一個篩選器必須符合訂閱訊息才能通過。
+訂閱承載上的`filterConnector`欄位可讓您選擇應如何套用篩選器。 預設值為&quot;AND&quot;，其中篩選器必須全部為`true`，訂閱訊息才能通過。 若指定「OR」，則只有一個篩選器必須符合訂閱訊息才能通過。
 
 ```
 {
@@ -678,7 +678,7 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/<SUBSCRIPTI
 
 刪除Workfront的HTTP時，請使用DELETE方法。 依訂閱ID刪除單一事件訂閱的請求語法如下：
 
-**請求URL：**
+**要求URL：**
 
 <!-- [Copy](javascript:void(0);) -->
 
@@ -686,7 +686,7 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/<SUBSCRIPTI
 DELETE https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/<SUBSCRIPTION ID>
 ```
 
-**請求標頭：**
+**要求標頭：**
 
 <table style="table-layout:auto"> 
  <col> 
@@ -744,7 +744,7 @@ DELETE https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/<SUBSCRI
 | 伺服器 | `→Apache-Coyote/1.1` |
 
 
-**回應本文範例：** 不適用
+**回應本文範例：** N/A
 
 ## 事件裝載範例
 
@@ -881,7 +881,7 @@ base64Encoding欄位是選用欄位，用來啟用事件訂閱裝載的Base64編
 
 ### 使用base64Encoding欄位的要求範例
 
-如果使用設為true的base64Encoding欄位提出要求，則 **newState** 和 **oldState** 承載中的物件會以base 64編碼字串形式傳送。 如果base64Encoding欄位設為false、保留空白或未包含於請求中，則傳回的裝載將不會以base 64編碼。
+如果使用設為true的base64Encoding欄位提出要求，則承載中的&#x200B;**newState**&#x200B;和&#x200B;**oldState**&#x200B;物件會傳遞為base 64編碼字串。 如果base64Encoding欄位設為false、保留空白或未包含於請求中，則傳回的裝載將不會以base 64編碼。
 
 以下是使用base64Encoding欄位的要求範例：
 
@@ -917,7 +917,7 @@ base64Encoding欄位是選用欄位，用來啟用事件訂閱裝載的Base64編
 
 ## 查詢所有事件訂閱的方法已過時
 
-下列API端點已過時，不應該用於新的實作。 我們也建議將舊的實作轉換成 **查詢事件訂閱** 一節中說明。
+下列API端點已過時，不應該用於新的實作。 我們也建議將舊實作轉換為上述&#x200B;**查詢事件訂閱**&#x200B;區段中的方法。
 
 您可以查詢sessionID值所指定的客戶的所有事件訂閱。 列出特定客戶之所有事件訂閱的請求語法如下URL：
 
@@ -927,7 +927,7 @@ base64Encoding欄位是選用欄位，用來啟用事件訂閱裝載的Base64編
 GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/list
 ```
 
-**請求標頭：**
+**要求標頭：**
 
 <table style="table-layout:auto"> 
  <col> 

@@ -40,7 +40,7 @@ ht-degree: 6%
  <col>
  <thead> 
   <tr> 
-   <th> <p><strong>限制名稱</strong> </p> </th> 
+   <th> <p><strong>條件約束名稱</strong> </p> </th> 
    <th> <p><strong>縮寫</strong> </p> </th> 
    <th> <p><strong>說明</strong> </p> </th> 
   </tr> 
@@ -54,14 +54,14 @@ ht-degree: 6%
    </td> 
   </tr> 
   <tr> 
-   <td scope="col"> <p><a href="../../../manage-work/tasks/task-constraints/as-late-as-possible.md" class="MCXref xref">任務限制總覽：儘可能遲 </a> </p> </td> 
+   <td scope="col"> <p><a href="../../../manage-work/tasks/task-constraints/as-late-as-possible.md" class="MCXref xref">任務限制總覽：儘可能遲</a> </p> </td> 
    <td scope="col"> <p>ALAP</p> </td> 
    <td scope="col"> <p>將任務的完成時間儘可能放置在專案結尾處。</p> 
    <p>當專案「排程模式」為「完成日期」，且任務的「開始日期」的系統或群組預設值設定為「根據專案計畫日期」時，此為預設限制。 </p>
    </td> 
   </tr> 
   <tr> 
-   <td scope="col"> <p><a href="../../../manage-work/tasks/task-constraints/earliest-available-time.md" class="MCXref xref">作業限制概要：最早可用時間</a> </p> </td> 
+   <td scope="col"> <p><a href="../../../manage-work/tasks/task-constraints/earliest-available-time.md" class="MCXref xref">任務限制總覽：最早可用時間</a> </p> </td> 
    <td scope="col"> <p>EAT</p> </td> 
  <td scope="col"> <p>在考量任何前置任務關係後，排程任務在最早可用時間開始。</p> </td>
   </tr> 
@@ -71,7 +71,7 @@ ht-degree: 6%
    <td scope="col"> <p>在專案中考慮前置任務與後續任務之間的關係後，將任務排程為最晚可用時間開始。</p> </td>
   </tr> 
   <tr> 
-   <td scope="col"> <p><a href="../../../manage-work/tasks/task-constraints/start-no-earlier-than.md" class="MCXref xref">任務限制總覽：開始時間不得早於</a> </p> </td> 
+   <td scope="col"> <p><a href="../../../manage-work/tasks/task-constraints/start-no-earlier-than.md" class="MCXref xref">任務限制總覽：開始時間不早於</a> </p> </td> 
    <td scope="col"> <p>SNET</p> </td> 
    <td scope="col"> <p>排程在指定日期之後開始的工作。</p> 
    <p>如果專案「排程模式」是從「開始日期」開始，且系統或群組預設新任務的「開始日期」設定為「今天」，則這是預設限制。   </td> 
@@ -84,7 +84,7 @@ ht-degree: 6%
    </td> 
   </tr> 
   <tr> 
-   <td scope="col"> <p><a href="../../../manage-work/tasks/task-constraints/finish-no-earlier-than.md" class="MCXref xref">作業限制總覽：完成時間不早於</a> </p> </td> 
+   <td scope="col"> <p><a href="../../../manage-work/tasks/task-constraints/finish-no-earlier-than.md" class="MCXref xref">任務限制總覽：完成時間不早於</a> </p> </td> 
    <td scope="col"> <p>FNET</p> </td>
    <td scope="col"> <p>排程在指定日期之後完成的工作。</p> </td> 
   </tr> 
@@ -94,12 +94,12 @@ ht-degree: 6%
    <td scope="col"> <p>排程在您指定日期之前完成的工作。</p> </td> 
   </tr> 
   <tr> 
-   <td> <p><a href="../../../manage-work/tasks/task-constraints/must-start-on.md" class="MCXref xref">任務限制總覽：必須開始於</a> </p> </td> 
+   <td> <p><a href="../../../manage-work/tasks/task-constraints/must-start-on.md" class="MCXref xref">任務限制總覽：必須從</a>開始 </p> </td> 
    <td scope="col"> <p>MSO</p> </td> 
    <td scope="col"> <p>將任務排程為完全在特定日期開始。</p> </td> 
   </tr> 
   <tr> 
-   <td> <p><a href="../../../manage-work/tasks/task-constraints/must-finish-on.md" class="MCXref xref">任務限制總覽：必須完成日期</a> </p> </td> 
+   <td> <p><a href="../../../manage-work/tasks/task-constraints/must-finish-on.md" class="MCXref xref">任務限制總覽：必須在</a>完成 </p> </td> 
    <td scope="col"> <p>MFO</p> </td> 
    <td scope="col"> <p>排程要在特定日期結束的工作。</p> </td>
   </tr> 
@@ -117,13 +117,13 @@ ht-degree: 6%
 
 Workfront使用兩個變數來決定預設為新任務選取哪個任務限制：
 
-* 此 **專案排程開始日期** 欄位。
+* 專案上的&#x200B;**專案排程**&#x200B;欄位。
 
-  如需「專案排程起始日期」欄位的相關資訊，請參閱 [編輯專案](../../../manage-work/projects/manage-projects/edit-projects.md).
+  如需「專案排程起始日期」欄位的詳細資訊，請參閱[編輯專案](../../../manage-work/projects/manage-projects/edit-projects.md)。
 
-* 此 **開始日期** 由您的Workfront或群組管理員在 **任務和問題** 區域 **設定**.
+* 您的Workfront或群組管理員在&#x200B;**設定**&#x200B;的&#x200B;**任務和問題**&#x200B;區域中設定的&#x200B;**開始日期**&#x200B;偏好設定。
 
-  有關任務和問題偏好設定的資訊，請參閱 [新任務預設值](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md#new-task-defaults) 中的區段 [設定系統範圍的任務和問題偏好設定](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
+  有關任務和問題偏好設定的資訊，請參閱[設定系統範圍的任務和問題偏好設定](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md)中的[新任務預設值](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md#new-task-defaults)區段。
 
 下表顯示為您的專案和新任務選擇不同變數時的預設任務限制：
 

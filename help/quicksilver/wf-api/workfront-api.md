@@ -19,7 +19,7 @@ ht-degree: 3%
 本節包含下列子章節：
 
 * [API](../wf-api/api/api.md)
-* [檔案Webhooks API](../wf-api/doc-wbhks-api/document-webhooks-api.md)
+* [Document Webhooks API](../wf-api/doc-wbhks-api/document-webhooks-api.md)
 * [API一般](../wf-api/general/api-general.md)
 * [Adobe Workfront API的秘訣、技巧和疑難排解](../wf-api/tips-tricks-and-troubleshooting/tips-troubleshoot-api.md)
 * [Adobe Workfront物件](../wf-api/wf-objects/workfront-objects.md)

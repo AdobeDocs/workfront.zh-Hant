@@ -24,7 +24,7 @@ ht-degree: 0%
 
 若要將自訂表單資料從問題傳輸至任務或專案，您必須依照以下順序完成本文中的兩個任務。
 
-如需詳細資訊，請參閱 [在Adobe Workfront中轉換問題的概觀](../../../manage-work/issues/convert-issues/convert-issues.md) 或 [在Adobe Workfront中轉換問題的概觀](../../../manage-work/issues/convert-issues/convert-issues.md).
+如需詳細資訊，請參閱[在Adobe Workfront中轉換問題的總覽](../../../manage-work/issues/convert-issues/convert-issues.md)或[在Adobe Workfront中轉換問題的總覽](../../../manage-work/issues/convert-issues/convert-issues.md)。
 
 ## 存取需求
 
@@ -52,34 +52,34 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-如需有關此表格的詳細資訊，請參閱 [Workfront檔案中的存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 ## 第一：新增其他物件至自訂表單
 
 {{step-1-to-setup}}
 
-1. 按一下 **自訂Forms**.
-1. 尋找所需的表單，然後按一下 ![編輯圖示](assets/edit-icon.png).
+1. 按一下&#x200B;**自訂Forms**。
+1. 尋找您需要的表單，然後按一下![編輯圖示](assets/edit-icon.png)。
 1. 在表單頂端，新增您計畫轉換任務或問題的物件。
 
    >[!INFO]
    >
-   >**範例**：如果您想要將自訂表單資料傳輸至專案，請選取「專案」。
+   >**範例**：如果您想要將自訂表單資料傳輸至專案，請選取[專案]。
 
-1. 按一下 **套用** 在表單底部。
+1. 按一下表單底部的&#x200B;**套用**。
 
-1. 繼續前往 [第二：轉換問題或任務並傳輸自訂表單資料](#second-convert-the-issue-or-task-and-transfer-the-custom-form-data).
+1. 繼續到[秒：轉換問題或任務並傳輸自訂表單資料](#second-convert-the-issue-or-task-and-transfer-the-custom-form-data)。
 
 ## 第二：轉換問題或任務並傳輸自訂表單資料 {#second-convert-the-issue-or-task-and-transfer-the-custom-form-data}
 
-1. 按照一節中的說明，在轉換的問題或任務上，將其他物件新增到自訂表單 [第一：新增其他物件至自訂表單](#first-add-additonal-objects-to-the-custom-form) 本文章內容。
-1. 使用轉換問題或任務 **自訂Forms** 方塊中的選項，用於選取您需要的自訂表單。 如需指示，請參閱下列文章：
+1. 在您要轉換的問題或任務上新增其他物件至自訂表單，如本文中[第一：新增其他物件至自訂表單](#first-add-additonal-objects-to-the-custom-form)小節所述。
+1. 使用顯示的方塊中的&#x200B;**自訂Forms**&#x200B;選項轉換問題或任務，以選取您需要的自訂表單。 如需指示，請參閱下列文章：
 
    * [在Adobe Workfront中將問題轉換為專案](../../../manage-work/issues/convert-issues/convert-issue-to-project.md)
    * [在Adobe Workfront中將問題轉換為任務](../../../manage-work/issues/convert-issues/convert-issue-to-task.md)
    * [將任務轉換為專案](../../../manage-work/tasks/manage-tasks/convert-task-to-project.md)
 
-1. 在 **轉換為（物件型別）** 對話方塊中，按一下 **新增Forms** 下拉式功能表，並選取您在上一節中複製的表單。
+1. 在顯示的&#x200B;**轉換成（物件型別）**&#x200B;對話方塊中，按一下&#x200B;**新增Forms**&#x200B;下拉式功能表，並選取您在上一節中複製的表單。
 
    在問題的自訂欄位中擷取的資訊現在已轉移到任務上的自訂表單。
 

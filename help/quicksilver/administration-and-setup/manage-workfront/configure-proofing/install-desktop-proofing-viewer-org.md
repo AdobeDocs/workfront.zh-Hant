@@ -31,7 +31,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront計畫</td> 
-   <td> <p>目前計畫：Pro或更高版本</p> <p>或</p> <p>舊版計畫：Premium或選取</p> <p>如需有關校訂不同方案的存取許可權的詳細資訊，請參閱 <a href="../../../administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">存取Workfront中的校訂功能</a>.</p> </td> 
+   <td> <p>目前計畫：Pro或更高版本</p> <p>或</p> <p>舊版計畫：Premium或選取</p> <p>如需有關不同方案的校訂存取許可權的詳細資訊，請參閱<a href="../../../administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">存取Workfront中的校訂功能</a>。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront授權</td> 
@@ -39,12 +39,12 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定</td> 
-   <td> <p>您必須在校訂許可權設定檔中選取管理員。 如需詳細資訊，請參閱 <a href="../../../administration-and-setup/manage-workfront/configure-proofing/configure-a-users-proofing-access.md" class="MCXref xref">設定使用者的校訂存取權</a>.</p> </td> 
+   <td> <p>您必須在校訂許可權設定檔中選取管理員。 如需詳細資訊，請參閱<a href="../../../administration-and-setup/manage-workfront/configure-proofing/configure-a-users-proofing-access.md" class="MCXref xref">設定使用者的校訂存取權</a>。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-如需有關此表格的詳細資訊，請參閱 [Workfront檔案中的存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 ## 系統需求
 
@@ -63,13 +63,13 @@ ht-degree: 0%
 
 {{step1-to-proofing}}
 
-1. 按一下 **帳戶設定** 在Workfront Proof的右上角附近，然後按一下 **設定** 標籤。
+1. 按一下Workfront Proof右上角附近的&#x200B;**帳戶設定**，然後按一下&#x200B;**設定**&#x200B;標籤。
 
-1. 在 **校訂預設值**，在結尾 **互動式校訂的案頭校訂檢視器** 列，按一下 **設定**.
+1. 在&#x200B;**校訂預設值**&#x200B;下，在&#x200B;**互動式校訂的案頭校訂檢視器**&#x200B;列的結尾處，按一下&#x200B;**設定**。
 
    ![校訂預設值](assets/proof-defaults.png)
 
-1. 按一下 **已啟用且預設**，然後按一下 **儲存**.
+1. 按一下[已啟用]及[預設&#x200B;**]，然後按一下[儲存]。******
 
 ## 為您的使用者安裝案頭校訂檢視器
 
@@ -80,11 +80,11 @@ ht-degree: 0%
 
 1. 在使用者的電腦上，執行下列任一項作業來下載應用程式：
 
-   * 如果您使用生產環境，請按一下 [適用於案頭校訂檢視器的Mac生產下載](https://assets.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof-2.1.19.pkg).
-   * 如果您使用預覽環境，請按一下 [案頭校訂檢視器的Mac預覽下載](https://assets.preview.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof+Preview-2.1.19.pkg).
+   * 如果您使用生產環境，請按一下案頭校訂檢視器的[Mac生產下載](https://assets.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof-2.1.19.pkg)。
+   * 如果您使用預覽環境，請按一下案頭校訂檢視器的[Mac預覽下載](https://assets.preview.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof+Preview-2.1.19.pkg)。
 
 1. 開啟您剛下載的檔案，開始安裝。
-1. 在出現的安裝方塊中，按一下 **繼續**，然後按一下 **安裝**.
+1. 在出現的安裝方塊中，按一下[繼續]****，然後按一下[安裝]****。
 
    ![安裝方塊](assets/install-wf-proof-box.png)
 
@@ -94,11 +94,11 @@ ht-degree: 0%
 
 1. 在使用者的電腦上，執行下列任一項作業來下載應用程式：
 
-   * 在生產環境中，按一下 [案頭校訂檢視器的Windows生產環境下載](https://assets.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof+Setup+2.1.19.exe).
-   * 在預覽環境中，按一下 [案頭校訂檢視器的Windows預覽下載](https://assets.preview.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof+Preview+Setup+2.1.19.exe).
+   * 在生產環境中，按一下案頭校訂檢視器的[Windows生產下載](https://assets.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof+Setup+2.1.19.exe)。
+   * 在預覽環境中，按一下案頭校訂檢視器的[Windows預覽下載](https://assets.preview.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof+Preview+Setup+2.1.19.exe)。
 
 1. 開啟您剛下載的檔案，開始安裝。
-1. 在出現的安全性警告方塊中，按一下 **執行**.
+1. 在出現的安全性警告方塊中，按一下&#x200B;**執行**。
 
    ![Screen_Shot_2018-05-02_at_10.56.55_AM.png](assets/screen-shot-2018-05-02-at-10.56.55-am-350x271.png)
 

@@ -1,33 +1,32 @@
 ---
 product-area: projects
 navigation-topic: grant-and-request-access-to-objects
-title: 共用文檔資料夾
-description: 您可以從「文檔」區域共用資料夾及其內容。
+title: 共用檔案資料夾
+description: 您可以從「檔案」區域共用資料夾及其內容。
 author: Alina
 feature: Get Started with Workfront
 exl-id: c0d318a8-b1cf-4522-b478-acf092687658
 source-git-commit: bbd64e9deed1b89d720272508b3562c354578704
 workflow-type: tm+mt
-source-wordcount: '901'
+source-wordcount: '903'
 ht-degree: 0%
 
 ---
 
-# 共用文檔資料夾
+# 共用檔案資料夾
 
-您可以從「文檔」區域共用資料夾及其內容。
+您可以從「檔案」區域共用資料夾及其內容。
 
 >[!NOTE]
 >
->* 資料夾必須位於對象上資料夾層次結構的前五個級別中。 第六級或第六級以下的每個資料夾都會繼承其上方資料夾的共用配置。
+>* 資料夾必須位於物件上資料夾階層的前五個層級。 第六層級或更低層級的每個資料夾都會從其正上方的資料夾繼承其共用設定。
 >
->  有關添加子資料夾以建立資料夾層次結構的資訊，請參見部分 [建立資料夾和子資料夾](../../documents/organizing-documents/create-documents-folder.md#creating-folders) 在文章中 [建立文檔資料夾](../../documents/organizing-documents/create-documents-folder.md).
+>  如需新增子資料夾以建立資料夾階層的相關資訊，請參閱文章[建立檔案資料夾](../../documents/organizing-documents/create-documents-folder.md)中的[建立資料夾和子資料夾](../../documents/organizing-documents/create-documents-folder.md#creating-folders)小節。
 >
 >* 無法共用智慧資料夾。
->* 如果為模板中的文檔資料夾配置共用選項，然後有人從該模板建立項目，則您的共用配置不會轉移到新項目中的文檔資料夾。
->* 如果為工作項內的文檔資料夾配置共用選項，然後複製工作項，則共用配置不會轉移到新工作項中的文檔資料夾。
+>* 如果您在範本中設定檔案資料夾的共用選項，然後有人從該範本建立專案，則您的共用設定不會轉移到新專案中的檔案資料夾。
+>* 如果您為工作專案中的檔案資料夾設定共用選項，然後複製工作專案，則您的共用設定不會轉移到新工作專案中的檔案資料夾。
 >
-
 
 ## 存取需求
 
@@ -63,7 +62,7 @@ ht-degree: 0%
 </table>
 -->
 
-您必須具備下列存取權，才能執行本文中的步驟：
+您必須具有下列存取權才能執行本文中的步驟：
 
 <table style="table-layout:auto"> 
  <col> 
@@ -75,34 +74,34 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront授權*</td> 
-   <td> <p>審核或更高版本</p> </td> 
+   <td> <p>評論或以上</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">訪問級別配置*</td> 
-   <td> <p>查看對文檔的訪問</p> <p>注意：如果您仍無權存取，請洽詢您的Workfront管理員，他們是否在您的存取層級設定其他限制。 如需Workfront管理員如何修改您的存取層級的詳細資訊，請參閱 <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>.</p> </td> 
+   <td role="rowheader">存取層級設定*</td> 
+   <td> <p>檢視檔案的存取權</p> <p>注意：如果您還是沒有存取權，請詢問您的Workfront管理員，他們是否在您的存取層級中設定其他限制。 如需Workfront管理員如何修改存取層級的詳細資訊，請參閱<a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>。</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">物件權限</td> 
-   <td> <p>檢視物件的存取權</p> <p>有關請求其他訪問的資訊，請參閱 <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">請求對對象的訪問 </a>.</p> </td> 
+   <td role="rowheader">物件許可權</td> 
+   <td> <p>檢視物件的存取權</p> <p>如需請求其他存取權的資訊，請參閱<a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">請求物件</a>的存取權。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;若要了解您擁有的計畫、授權類型或存取權，請聯絡您的Workfront管理員。
+&#42;若要瞭解您擁有的計畫、授權型別或存取權，請連絡您的Workfront管理員。
 
 ## 共用資料夾
 
-1. 按一下 **主菜單** 圖示 ![](assets/main-menu-icon.png) 在Adobe Workfront的右上角，然後按一下 **檔案**.
+1. 按一下Adobe Workfront右上角的&#x200B;**主功能表**&#x200B;圖示![](assets/main-menu-icon.png)，然後按一下&#x200B;**檔案**。
 
    或
 
-   開啟Workfront物件時，按一下 **檔案** 中。
+   開啟Workfront物件後，按一下左側面板中的&#x200B;**檔案**。
 
-1. 選取資料夾，然後按一下「共用」圖示 ![](assets/share-icon.png) 的下一頁。
+1. 選取資料夾，然後按一下工具列中的「共用」圖示![](assets/share-icon.png)。
 
-   資料夾必須位於對象上資料夾層次結構的前五個級別，並且不能是智慧資料夾。
+   資料夾必須位於物件上資料夾階層的前五個層級，而且不能是智慧型資料夾。
 
-1. 在顯示的方塊中，於 **授予資料夾存取權**，開始鍵入要與共用資料夾的用戶、團隊、職務角色、組或公司的名稱，然後按鍵 **輸入** 名稱時顯示。
+1. 在顯示的方塊中，在&#x200B;**授與資料夾存取權**&#x200B;下方，開始輸入您要共用資料夾的使用者、團隊、工作角色、群組或公司名稱，然後在名稱顯示時按&#x200B;**Enter**。
 1. 若要調整您剛新增的使用者、團隊、工作角色、群組或公司的存取權，請按一下名稱右側的下拉式功能表，然後設定下列其中一個可用選項及其任何進階設定：
 
    <table style="table-layout:auto"> 
@@ -111,38 +110,38 @@ ht-degree: 0%
     <tbody> 
      <tr> 
       <td role="rowheader">檢視它</td> 
-      <td> <p>檢視資料夾及其內容的功能。</p> <p>按一下 <strong>進階設定</strong> 指定是否允許下列項目：</p> 
+      <td> <p>檢視資料夾及其內容的功能。</p> <p>按一下<strong>進階設定</strong>，指定是否要允許下列專案：</p> 
        <ul> 
-        <li><strong>下載</strong>:能將資料夾及其內容下載為ZIP檔案</li> 
-        <li> <p><strong>共用</strong>:可與系統中的其他人共用資料夾</p> </li> 
+        <li><strong>下載</strong>：能夠以ZIP檔案格式下載資料夾及其內容</li> 
+        <li> <p><strong>共用</strong>：能夠與系統中的其他人共用資料夾</p> </li> 
        </ul> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">管理它</td> 
-      <td> <p>檢視及編輯資料夾及其內容的功能</p> <p>按一下 <strong>進階設定</strong> 指定是否允許用戶執行以下操作：</p> 
+      <td> <p>能夠檢視和編輯資料夾及其內容</p> <p>按一下<strong>進階設定</strong>，指定是否要允許使用者執行下列動作：</p> 
        <ul> 
-        <li><strong>刪除</strong>:從系統中刪除資料夾及其內容</li> 
-        <li><b>下載</b>:將資料夾及其內容下載為ZIP檔案</li> 
-        <li><strong>共用</strong>:與系統中的其他用戶共用資料夾及其內容</li> 
+        <li><strong>刪除</strong>：從系統中刪除資料夾及其內容</li> 
+        <li><b>下載</b>：將資料夾及其內容下載為ZIP檔</li> 
+        <li><strong>共用</strong>：與系統中的其他使用者共用資料夾及其內容</li> 
        </ul> </td> 
      </tr> 
     </tbody> 
    </table>
 
-1. （可選）重複步驟3-4將其他名稱新增至清單並設定其選項。
-1. （可選）如果您希望系統中的所有人都能查看資料夾及其內容，請按一下齒輪表徵圖 ![](assets/gear-icon-settings-with-dn-arrow.jpg) 在共用方塊的右上角，然後按一下 **使此系統範圍可見。**
+1. （可選）重複步驟3至4，將其他名稱新增至清單並設定其選項。
+1. （選擇性）如果您希望系統中的每個人都能檢視資料夾及其內容，請按一下共用方塊右上角的齒輪圖示![](assets/gear-icon-settings-with-dn-arrow.jpg)，然後按一下&#x200B;**讓此內容在整個系統內可見。**
 
-   如果您改變心意，可以按一下 **刪除系統範圍的訪問** （預設選項）。
+   如果您改變心意，可以按一下&#x200B;**移除系統範圍存取權** （預設選項）。
 
-## 使用者如何存取與其共用之資料夾的內容
+## 使用者如何存取共用給他們的資料夾內容
 
 <!--
 <p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">Delete these 2 paragraphs when the story &nbsp;<a href="https://hub.workfront.com/task/622f8d6f000897c9a4a11bdfd9b2cf34/overview">Handle email notification content when a folder is shared</a> goes to Preview:</p>
 -->
 
-目前，當您共用資料夾時，收件者在其「檔案」區域中看不到該資料夾。 但是，他們可以通過運行文檔報告來訪問其文檔。
+目前，當您共用資料夾時，收件者在其「檔案」區域中看不到該資料夾。 但是，他們可以透過執行檔案報告來存取其檔案。
 
-如需執行報表的相關資訊，請參閱區段 [對象報告](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#reporting-on-objects) 在文章中 [了解Adobe Workfront中的物件](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md). 另請參閱 [建立自訂報表](../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+如需有關執行報表的資訊，請參閱文章[瞭解Adobe Workfront中的物件](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)中的[物件報表](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#reporting-on-objects)一節。 另請參閱[建立自訂報表](../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md)。
 
 <!--
 <div class="preview" data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -156,22 +155,22 @@ ht-degree: 0%
 </div>
 -->
 
-## 共用包含資料夾的物件時繼承的權限
+## 當您共用包含資料夾的物件時繼承的許可權
 
-當您共用具有文檔資料夾的對象時，收件者還可以訪問該資料夾：
+當您共用具有檔案資料夾的物件時，收件者也可存取該資料夾：
 
-* 如果您授予收件者對上層物件的「檢視」存取權，則他們擁有資料夾的「檢視」存取權。
-* 如果您授予收件者對上層物件的「貢獻」或「管理」存取權，則他們擁有資料夾的「管理」存取權。
-* 如果您授予父對象一種訪問類型（查看、貢獻或管理），而授予資料夾另一種訪問類型，則收件者對資料夾內文檔的訪問具有這兩種類型的最高權限
+* 如果您授予收件者對父系物件的檢視存取權，則他們擁有該資料夾的檢視存取權。
+* 如果您授予收件者Contribute或「管理」存取權給父物件，則他們擁有該資料夾的「管理」存取權。
+* 如果您將一種型別的存取權(檢視、Contribute或管理)授予父物件，並將另一種型別授予資料夾，則您的收件者對該資料夾中的檔案具有這兩種型別中最高的存取權
 
-   例如，如果您共用具有「查看」訪問權限的父對象和具有「管理」訪問權限的資料夾，則收件者對資料夾中的文檔具有「管理」權限。
+  例如，如果您共用具有「檢視」存取權的父物件，以及具有「管理」存取權的資料夾，則收件者會擁有該資料夾中檔案的「管理」。
 
-   >[!NOTE]
-   >
-   >附加的文檔僅繼承附加的對象的權限。 如果在對象上建立資料夾並將文檔移動到資料夾中，它會繼承資料夾的權限。 但是，如果在父或祖父對象上建立資料夾，並將文檔移入該資料夾，則不會繼承該資料夾的權限。
+  >[!NOTE]
+  >
+  >附加的檔案只會從附加它的物件繼承許可權。 如果您在物件上建立資料夾並將檔案移至資料夾，則會繼承資料夾的許可權。 但是，如果您在父項或祖項物件上建立資料夾，並將檔案移至該資料夾，則不會繼承該資料夾的許可權。
 
-* 如果在收件人的訪問級別中啟用了「從項目、任務、問題等中繼承文檔訪問」選項，則這些人將不會繼承您與他們共用的資料夾中文檔的權限。 要授予他們對資料夾中文檔的訪問權，必須共用該文檔。
+* 如果收件者的存取層級中啟用了「不要從專案、任務、問題等繼承檔案存取權」選項，他們將不會繼承您與他們共用之資料夾中檔案的許可權。 若要讓他們存取資料夾中的檔案，您必須共用該檔案。
 
-   有關「從不繼承」選項的資訊，請參見 [設定Adobe Workfront的存取權](../../administration-and-setup/add-users/configure-and-grant-access/configure-access.md).
+  如需「永不繼承」選項的詳細資訊，請參閱[設定Adobe Workfront的存取權](../../administration-and-setup/add-users/configure-and-grant-access/configure-access.md)。
 
-   有關共用文檔的資訊，請參閱 [共用檔案](../../workfront-basics/grant-and-request-access-to-objects/document-permissions.md).
+  如需共用檔案的詳細資訊，請參閱[共用檔案](../../workfront-basics/grant-and-request-access-to-objects/document-permissions.md)。

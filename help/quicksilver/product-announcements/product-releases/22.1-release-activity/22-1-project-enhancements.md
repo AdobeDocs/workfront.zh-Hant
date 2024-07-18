@@ -25,7 +25,7 @@ in January 2022
 
 2022年1月17日當週。
 
-如需22.1版所有可用變更的清單，請參閱 [22.1版本總覽](../../../product-announcements/product-releases/22.1-release-activity/22-1-release-overview.md).
+如需22.1版本可用的所有變更清單，請參閱[22.1版本總覽](../../../product-announcements/product-releases/22.1-release-activity/22-1-release-overview.md)。
 
 ## 變更複製或移動任務時前置任務的預設選項
 
@@ -49,7 +49,7 @@ in January 2022
 * 我的儀表板清單
 * 共用控制面板清單
 
-如需詳細資訊，請參閱 [建立和管理儀表板](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-and-manage-dashboards.md).
+如需詳細資訊，請參閱[建立和管理儀表板](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-and-manage-dashboards.md)。
 
 ## 新增和編輯檔案的自訂表單摘要面板
 
@@ -59,7 +59,7 @@ in January 2022
 
 之前，您必須前往檔案詳細資訊中的自訂表單索引標籤，才能進行編輯或新增自訂表單。
 
-如需詳細資訊，請參閱 [檔案摘要概覽](../../../documents/managing-documents/summary-for-documents.md).
+如需詳細資訊，請參閱[檔案概述](../../../documents/managing-documents/summary-for-documents.md)的摘要。
 
 ## 複製一或多個任務時的新體驗
 
@@ -71,13 +71,13 @@ in January 2022
 * Workfront會在選擇專案後，立即檢查您是否有目的地專案的存取權。 在此增強功能之前，在您確認複製後，會顯示一則警告訊息，指出您沒有正確的存取權，這會導致額外的步驟，且不允許複製。
 * 能夠要求存取您要複製任務的專案，而不需要離開「複製任務」方塊。
 
-如需詳細資訊，請參閱 [複製和複製任務](../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md).
+如需詳細資訊，請參閱[複製和複製工作](../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md)。
 
 ## 從清單移動一或多個任務時的新體驗
 
 為了在執行相同任務時提供一致的體驗，我們現在更新了從清單移動一個或多個任務的介面，以在任務層級移動任務時符合體驗。 （我們已更新在先前的「預覽」版本中，在任務層級移動任務的體驗。）
 
-如需詳細資訊，請參閱 [移動任務](../../../manage-work/tasks/manage-tasks/move-tasks.md).
+如需詳細資訊，請參閱[移動任務](../../../manage-work/tasks/manage-tasks/move-tasks.md)。
 
 ## 在任務層級移動任務時的新體驗
 
@@ -89,13 +89,13 @@ in January 2022
 * Workfront會在選擇專案後，立即檢查您是否有目的地專案的存取權。 在此增強功能之前，Workfront警告您確認移動後沒有正確的存取權，這會導致額外的步驟，且不允許移動。
 * 能夠要求存取您要移動任務的專案，而不離開「移動任務」方塊。
 
-如需詳細資訊，請參閱 [移動任務](../../../manage-work/tasks/manage-tasks/move-tasks.md).
+如需詳細資訊，請參閱[移動任務](../../../manage-work/tasks/manage-tasks/move-tasks.md)。
 
 ## 在問題層級使用範本將問題轉換為專案時的新體驗
 
 >[!NOTE]
 >
->此功能已於2022年3月4日暫時從生產環境中移除。 它後來在2022年4月28日開始分階段發行。 推出已於2022年5月5日完成。 現在，預覽和生產版都可供所有客戶使用。 (如需此功能發佈至生產環境的最新狀態更新，請參閱 [22.3版本總覽](../../../product-announcements/product-releases/22.3-release-activity/22-3-release-overview.md).)
+>此功能已於2022年3月4日暫時從生產環境中移除。 它後來在2022年4月28日開始分階段發行。 推出已於2022年5月5日完成。 現在，預覽和生產版都可供所有客戶使用。 （如需此功能發行至生產環境的最新狀態更新，請參閱[22.3版本總覽](../../../product-announcements/product-releases/22.3-release-activity/22-3-release-overview.md)。）
 
 為了讓您使用Workfront與新的Workfront體驗一致，我們重新設計了介面，讓您從問題頁面使用範本時將其轉換為專案。
 
@@ -103,19 +103,19 @@ in January 2022
 
 重新設計的介面與從範本建立專案時的體驗相符，我們最近也更新了範本。
 
-如需詳細資訊，請參閱 [在Adobe Workfront中將問題轉換為專案](../../../manage-work/issues/convert-issues/convert-issue-to-project.md).
+如需詳細資訊，請參閱[在Adobe Workfront中將問題轉換為專案](../../../manage-work/issues/convert-issues/convert-issue-to-project.md)。
 
 ## 使用清單、報告和儀表板的範本將問題轉換為專案
 
 >[!NOTE]
 >
->此功能已於2022年3月4日暫時從生產環境中移除。 它後來在2022年4月28日開始分階段發行。 推出已於2022年5月5日完成。 現在，預覽和生產版都可供所有客戶使用。 (如需此功能發佈至生產環境的最新狀態更新，請參閱 [22.3版本總覽](../../../product-announcements/product-releases/22.3-release-activity/22-3-release-overview.md).)
+>此功能已於2022年3月4日暫時從生產環境中移除。 它後來在2022年4月28日開始分階段發行。 推出已於2022年5月5日完成。 現在，預覽和生產版都可供所有客戶使用。 （如需此功能發行至生產環境的最新狀態更新，請參閱[22.3版本總覽](../../../product-announcements/product-releases/22.3-release-activity/22-3-release-overview.md)。）
 
 為了提高您的工作效率，讓您更輕鬆地在快節奏環境中轉換問題，我們已新增使用清單、報告或儀表板中的範本將問題轉換為專案的功能。
 
 在此增強功能之前，此功能僅當您從問題頁面轉換問題時存在。
 
-如需詳細資訊，請參閱 [在Adobe Workfront中將問題轉換為專案](../../../manage-work/issues/convert-issues/convert-issue-to-project.md).
+如需詳細資訊，請參閱[在Adobe Workfront中將問題轉換為專案](../../../manage-work/issues/convert-issues/convert-issue-to-project.md)。
 
 ## 在敏捷板上依使用者清單篩選，顯示具有最多指派的使用者先前
 
@@ -129,20 +129,20 @@ in January 2022
 
 如需詳細資訊，請參閱下列資訊
 
-* [在Scrum板上依使用者篩選](../../../agile/use-scrum-in-an-agile-team/scrum-board/filter-by-user-scrum-board.md)
+* [在Scrum展示板上依使用者篩選](../../../agile/use-scrum-in-an-agile-team/scrum-board/filter-by-user-scrum-board.md)
 * [在Kanban板上依使用者篩選](../../../agile/use-kanban-in-an-agile-team/filter-by-user.md)
 
 ## 限制將檔案新增至您共用的範本的能力
 
 有時候，人們會將檔案新增至專案範本，以為他們要將檔案新增至專案。 現在您可以協助防止這種情況 — 當您以檢視存取權共用範本時，可以停用新的進階設定「新增檔案」。 這會停用收件者將檔案新增至範本的能力。
 
-如需共用範本的指示，請參閱 [共用專案範本](../../../manage-work/projects/create-and-manage-templates/share-project-template.md).
+如需共用範本的指示，請參閱[共用專案範本](../../../manage-work/projects/create-and-manage-templates/share-project-template.md)。
 
-如需有關新進階設定「新增檔案」的資訊，請參閱文章一節 [共用範本](../../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md).
+如需有關新進階設定[新增檔案]的資訊，請參閱[共用範本](../../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md)一節中的章節。
 
 ## 共用檔案資料夾
 
 現在您可以從檔案區域共用檔案資料夾及其內容。 以前這是不可能的，您必須單獨共用資料夾中的每一份檔案。
 
-如需詳細資訊，請參閱 [共用檔案資料夾](../../../workfront-basics/grant-and-request-access-to-objects/share-a-document-folder.md).
+如需詳細資訊，請參閱[共用檔案資料夾](../../../workfront-basics/grant-and-request-access-to-objects/share-a-document-folder.md)。
 

@@ -27,7 +27,7 @@ ht-degree: 7%
 
 身為Adobe Workfront管理員，您可以設定Workfront網頁和行動應用程式，以整合單一登入(SSO)的安全宣告標籤語言(SAML) 2.0解決方案。
 
-在Workfront中設定SAML 2.0後（如以下區段所述），您可以維持設定（如所述） [更新身分提供者中的SAML 2.0中繼資料](../../../administration-and-setup/add-users/single-sign-on/update-saml-2-metadata-ip.md).
+在Workfront中設定SAML 2.0後，如下列各節所述，您可以維持設定，如身分提供者](../../../administration-and-setup/add-users/single-sign-on/update-saml-2-metadata-ip.md)中的[更新SAML 2.0中繼資料所述。
 
 ## 存取需求
 
@@ -57,7 +57,7 @@ ht-degree: 7%
  </tbody> 
 </table>
 
-如需有關此表格的詳細資訊，請參閱 [Workfront檔案中的存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -65,11 +65,11 @@ ht-degree: 7%
 
 {{step-1-to-setup}}
 
-1. 按一下 **系統** > **單一登入(SSO)。**
+1. 按一下&#x200B;**系統** > **單一登入(SSO)。**
 
-1. 在 **型別** 下拉式清單，選取 **SAML 2.0。**
+1. 在&#x200B;**型別**&#x200B;下拉式清單中，選取&#x200B;**SAML 2.0.**
 
-1. 在顯示的選項頂端附近，按一下 **下載SAML 2.0中繼資料** 將檔案下載到電腦上。
+1. 在出現的選項頂端附近，按一下&#x200B;**下載SAML 2.0中繼資料**&#x200B;以在您的電腦上下載檔案。
 
    您的SAML 2.0身分提供者需要XML檔案，其中包含在Workfront執行個體中產生的資訊。 下載檔案後，您必須存取您的SAML 2.0 Identity Provider伺服器，並在該處上傳Workfront SAML 2.0 Metadata XML檔案。
 
@@ -81,7 +81,7 @@ ht-degree: 7%
     <tbody>
      <tr>
       <td role="rowheader">服務提供者 ID </td>
-      <td> 此URL已為您填入，可將Workfront識別給您的身分提供者。 例如： <code>&lt;yourcompany&gt;.com/SAML2</code>.</td>
+      <td> 此URL已為您填入，可將Workfront識別給您的身分提供者。 例如： <code>&lt;yourcompany&gt;.com/SAML2</code>。</td>
      </tr>
      <tr>
       <td role="rowheader">繫結型別</span> </td>
@@ -93,7 +93,7 @@ ht-degree: 7%
      </tr>
      <tr>
       <td role="rowheader">從身份提供者中繼資料填入欄位 </td> 
-      <td>在您的SAML 2.0 Identity Provider解決方案中，匯出Service Provider中繼資料XML檔案，並將其儲存到您電腦上的暫存位置。 選取 <strong>選擇檔案</strong>，然後尋找並選取您儲存的檔案，以將其新增至您的Workfront設定。</td> 
+      <td>在您的SAML 2.0 Identity Provider解決方案中，匯出Service Provider中繼資料XML檔案，並將其儲存到您電腦上的暫存位置。 選取「<strong>選擇檔案</strong>」，然後尋找並選取您儲存的檔案，以將其新增至您的Workfront設定。</td> 
      </tr> 
      <tr> 
       <td role="rowheader">登入入口網站URL</span> </td> 
@@ -101,7 +101,7 @@ ht-degree: 7%
      </tr>
      <tr>
       <td role="rowheader">登出URL</span> </td> 
-      <td> <p>輸入IDP伺服器的登出URL。 Workfront會在登出Workfront之前傳送HTTP要求至此URL。 當Workfront工作階段關閉時，這會關閉遠端伺服器上的使用者工作階段。</p> <p><b>注意</b>：只有在您有選項的情況下，系統才會將您重新導向至登出URL <strong>僅允許SAML 2.0驗證</strong> 已在您的使用者設定檔中啟用。</p> </td>
+      <td> <p>輸入IDP伺服器的登出URL。 Workfront會在登出Workfront之前傳送HTTP要求至此URL。 當Workfront工作階段關閉時，這會關閉遠端伺服器上的使用者工作階段。</p> <p><b>注意</b>：只有在您的使用者設定檔中啟用<strong>僅允許SAML 2.0驗證</strong>選項時，您才會被重新導向至登出URL。</p> </td>
      </tr>
      <tr>
       <td role="rowheader">變更密碼 URL </td> 
@@ -126,9 +126,9 @@ ht-degree: 7%
        <p>當您選取核取方塊時，會顯示下列選項：</p> 
        <p> <img src="assets/saml-2.0-auto-provision-users-ui.png"> </p> 
        <p>從下拉式清單中選取您要對應的Workfront使用者屬性，然後在使用者目錄中指定對應的目錄屬性。</p> 
-       <p>此 <strong>目錄屬性</strong> 欄位應包含您成功測試SAML 2.0組態時儲存之「使用者屬性」表格中的「目錄屬性名稱」。</p> 
-       <p>您可以在「 」中設定預設Workfront值 <strong>預設值</strong> 欄位。 您也可以根據SAML 2.0身分提供者的值來設定規則。</p> 
-       <p><b>警告</b>：每次使用者登入系統時，Workfront都會嘗試對應下列屬性。 因此，我們不建議對應存取層級。 如果屬性對應不正確，您可以輕鬆移除管理存取權。 按一下 <strong>新增對應</strong> 以新增其他規則。
+       <p><strong>Directory Attribute</strong>欄位應包含您順利測試SAML 2.0組態時儲存的使用者屬性資料表中的目錄屬性名稱。</p> 
+       <p>您可以在<strong>預設值</strong>欄位中設定預設Workfront值。 您也可以根據SAML 2.0身分提供者的值來設定規則。</p> 
+       <p><b>警告</b>： Workfront每次使用者登入系統時，都會嘗試對應下列屬性。 因此，我們不建議對應存取層級。 如果屬性對應不正確，您可以輕鬆移除管理存取權。 按一下<strong>新增對應</strong>以新增其他規則。
        </p> 
        <p>您可以對應下列Workfront屬性：</p> 
       <ul> 
@@ -156,7 +156,7 @@ ht-degree: 7%
       <li> <p>時程表設定檔</p> </li> 
       <li> <p>標題</p> </li> 
       </ul>
-      <p>按一下 <strong>儲存</strong> 完成對應使用者屬性時。</p> </td> 
+      <p>完成對應使用者屬性時，按一下<strong>儲存</strong>。</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">憑證 </td> 
@@ -170,19 +170,19 @@ ht-degree: 7%
      </tr> 
      <tr> 
       <td role="rowheader">啟用 </td> 
-      <td> <p>在Workfront系統上啟用SSO。 確定您已向使用者傳達登入指示。</p> <p>在Workfront中啟用SSO設定後，您必須啟用 <strong>僅允許SAML 2.0驗證</strong> 為所有使用者進行設定，以便他們可以使用SSO。</p> <p>如需更新SSO使用者的詳細資訊，請參閱 <a href="../../../administration-and-setup/add-users/single-sign-on/update-users-sso.md" class="MCXref xref">更新單一登入的使用者</a>.</p> <p>如需使用者設定的詳細資訊，請參閱 <a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md" class="MCXref xref">編輯使用者設定檔</a>.</p> </td> 
+      <td> <p>在Workfront系統上啟用SSO。 確定您已向使用者傳達登入指示。</p> <p>在Workfront中啟用SSO設定後，您必須為所有使用者啟用<strong>僅允許SAML 2.0驗證</strong>設定，讓他們可以使用SSO。</p> <p>如需更新SSO使用者的詳細資訊，請參閱<a href="../../../administration-and-setup/add-users/single-sign-on/update-users-sso.md" class="MCXref xref">更新單一登入的使用者</a>。</p> <p>如需使用者設定的詳細資訊，請參閱<a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md" class="MCXref xref">編輯使用者的設定檔</a>。</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">確認設定 </td> 
       <td> 
-      <p>按一下 <strong>測試連線</strong> 確認Workfront和SAML 2.0身分提供者可互相通訊。 只有當您交換XML檔案時，此連線才會成功。
+      <p>按一下「<strong>測試連線</strong>」以確認Workfront與SAML 2.0身分提供者可以互相通訊。 只有當您交換XML檔案時，此連線才會成功。
       </p> 
       <p>成功測試SAML 2.0身分提供者與Workfront之間的連結後，您會看到類似下圖的畫面。</p>
-      <p><b>注意</b>：此畫面會以瀏覽器快顯視窗顯示，因此請務必停用瀏覽器中的快顯封鎖程式。</p>
+      <p><b>注意</b>：此畫面會顯示在瀏覽器快顯視窗中，因此請確定您停用瀏覽器中的快顯封鎖程式。</p>
       <p>儲存表格中顯示的資訊以供稍後使用。</p>
       <p><img src="assets/success-table-saml-2.png"></p></td> 
      </tr> 
     </tbody> 
    </table>
 
-1. 按一下 **儲存** 儲存SAML 2.0設定。
+1. 按一下&#x200B;**儲存**&#x200B;以儲存SAML 2.0設定。

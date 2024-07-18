@@ -30,7 +30,7 @@ hide: yes
 
 存取Adobe Workfront Planning中的記錄型別頁面時，您可以在表格檢視中顯示記錄及其欄位。
 
-如需有關記錄檢視以及如何管理檢視的資訊，請參閱 [管理記錄檢視](/help/quicksilver/planning/views/manage-record-views.md).
+如需有關記錄檢視以及如何管理它們的資訊，請參閱[管理記錄檢視](/help/quicksilver/planning/views/manage-record-views.md)。
 
 ## 存取需求
 
@@ -86,13 +86,13 @@ hide: yes
 
 <tr>
    <td role="rowheader"><p>版面配置範本</p></td>
-   <td> <p>必須為所有使用者(包括Workfront管理員)指派一個版面配置範本，該範本包含主功能表中的Planning區域。 </p> <p>如需詳細資訊，請參閱 <a href="/help/quicksilver/planning/access/access-overview.md">存取權總覽</a>. </p> 
+   <td> <p>必須為所有使用者(包括Workfront管理員)指派一個版面配置範本，該範本包含主功能表中的Planning區域。 </p> <p>如需詳細資訊，請參閱<a href="/help/quicksilver/planning/access/access-overview.md">存取總覽</a>。 </p> 
 </td>
   </tr>
  </tbody>
 </table>
 
-*如需詳細資訊，請參閱 [Workfront檔案中的存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 ## 管理表格檢視 {#manage-a-table-view}
 
@@ -102,11 +102,11 @@ hide: yes
 
 若要管理表格檢視：
 
-1. 建立表格檢視，如文章所述 [管理記錄檢視](/help/quicksilver/planning/views/manage-record-views.md).
+1. 建立資料表檢視，如文章[管理記錄檢視](/help/quicksilver/planning/views/manage-record-views.md)中所述。
 
    ![](assets/table-view-example.png)
 
-1. （選用）按一下 **列高**，然後從下列選項中選取，以修改表格列的高度：
+1. （選擇性）按一下&#x200B;**列高度**，然後從下列選項中選取，以修改表格列的高度：
    * 短
    * 中
    * 高
@@ -121,7 +121,7 @@ hide: yes
 
 ### 新增欄（或欄位） {#add-columns}
 
-表格檢視的欄標題會顯示與檢視中記錄相關聯的欄位。 表格檢視中顯示的相同欄位也會顯示在記錄的「詳細資訊」區段中。 如需詳細資訊，請參閱 [編輯記錄](/help/quicksilver/planning/records/edit-records.md).
+表格檢視的欄標題會顯示與檢視中記錄相關聯的欄位。 表格檢視中顯示的相同欄位也會顯示在記錄的「詳細資訊」區段中。 如需詳細資訊，請參閱[編輯記錄](/help/quicksilver/planning/records/edit-records.md)。
 
 <!--this is not available yet:You can display record fields (or columns) in both a table and a timeline view. However, the number of columns displayed in the table of the timeline view is limited and you cannot add columns in addition to those selected by default.-->
 
@@ -129,10 +129,10 @@ hide: yes
 
 您可以在表格檢視中新增最多500個欄位（或欄）。
 
-1. 移至記錄型別頁面並選取 **表格** 從「檢視」下拉式選單中檢視。
+1. 移至記錄型別頁面，並從檢視下拉式功能表中選取&#x200B;**表格**&#x200B;檢視。
 
    <!-- replace above with this when view redesign: Go to a record type page and click a table view tab, or click **+ View **to add a new view, then choose **Table**. -->
-1. 開始新增欄位（或欄），如文章所述 [建立欄位](/help/quicksilver/planning/fields/create-fields.md).
+1. 開始新增欄位（或欄），如文章[建立欄位](/help/quicksilver/planning/fields/create-fields.md)中所述。
 
    您新增的欄對存取記錄型別的所有使用者可見，並作為記錄頁面的新欄位新增。
 
@@ -140,7 +140,7 @@ hide: yes
 
    * 抓取欄標題，並將其拖放到所需位置。 您移動的欄會短暫地以藍色背景顯示，直到您對表格進行其他調整為止。
 
-   * 按一下 **欄位** 在表格工具列中，依所需順序拖放欄位，然後按一下 **欄位可見度和順序** 方塊以關閉它。
+   * 按一下表格工具列中的&#x200B;**欄位**，然後依所需順序拖放欄位，再按一下&#x200B;**欄位可見度和順序**&#x200B;方塊外部以關閉它。
 
      ![](assets/fields-setting-table-view-toolbar-expanded.png)
 
@@ -149,21 +149,21 @@ hide: yes
      >
      >* 依預設，「名稱」欄位永遠是表格檢視中的第一個欄位。 系統會將此視為主要欄位。
      >
-     >* 除非您指定其他欄位作為主要欄位，否則您無法將「名稱」欄位移至其他位置。 如需詳細資訊，請繼續進行步驟4。 <!--accurate?-->
+     >* 除非您指定其他欄位作為主要欄位，否則您無法將「名稱」欄位移至其他位置。 如需詳細資訊，請繼續進行步驟4。<!--accurate?-->
      >
      >
 
-   * 變更主要欄位，以其他欄位取代第一欄中的欄位。 如需詳細資訊，請繼續步驟4。 <!--accurate?-->
+   * 變更主要欄位，以其他欄位取代第一欄中的欄位。 如需詳細資訊，請繼續步驟4。<!--accurate?-->
 
-1. （選擇性）將滑鼠游標停留在任何未顯示在表格第一欄之欄位的欄位標題中，按一下欄位名稱右側的向下箭頭，然後按一下 **設為主要欄位**.
+1. （選擇性）將滑鼠懸停在表格第一欄中未顯示之任何欄位之欄位標題中的欄位名稱上，按一下欄位名稱右側的向下箭頭，然後按一下&#x200B;**設定為主要欄位**。
 
    ![](assets/set-as-primary-field-option-table-view.png)
 
-1. 按一下 **設定欄位** 以確認。
+1. 按一下&#x200B;**設定欄位**&#x200B;以進行確認。
 
    該欄位會變成主要欄位，表示它會顯示為表格檢視的第一欄。 前一個主要欄位會移至第二欄。
 
-   主要欄位會成為記錄的標題，並顯示在記錄頁面的頁首區域，以及記錄顯示的每個位置。 例如，記錄標題會顯示在連線的欄位和所有檢視中。 如需主要欄位的詳細資訊，請參閱 [主要欄位概述](/help/quicksilver/planning/fields/primary-field-overview.md).
+   主要欄位會成為記錄的標題，並顯示在記錄頁面的頁首區域，以及記錄顯示的每個位置。 例如，記錄標題會顯示在連線的欄位和所有檢視中。 如需主要欄位的詳細資訊，請參閱[主要欄位概述](/help/quicksilver/planning/fields/primary-field-overview.md)。
 
 1. 按一下並拖曳欄分隔線，並將它們拖曳到所需的位置以增加欄寬。
 
@@ -171,22 +171,22 @@ hide: yes
    >
    >您對欄寬和順序所做的變更是永久性的，並且所有存取該記錄型別的使用者都可以看到。
 
-1. 將游標停留在欄標題上，按一下向下箭頭，然後按一下 **隱藏欄位**
+1. 暫留在欄標題上，然後按一下向下箭頭，然後按一下&#x200B;**隱藏欄位**
 
    或
 
-   按一下 **欄位** ，並停用與您要隱藏的欄位或欄位相關聯的切換。 此 **欄位可見度和順序** 方塊隨即顯示。
+   按一下表格工具列中的&#x200B;**欄位**，並停用與您要隱藏的欄位（或欄）相關聯的切換。 顯示&#x200B;**欄位可見性和順序**&#x200B;方塊。
 
    >[!TIP]
    >
    >隱藏欄位數會顯示在工具列的「欄位」圖示左側。
 
 
-1. 按一下 **欄位** 圖示並啟用與您要顯示在表格欄位中的欄位相關聯的切換。 預設會顯示所有欄位。
+1. 按一下&#x200B;**欄位**&#x200B;圖示，並啟用與您要顯示在表格欄位中的欄位相關聯的切換。 預設會顯示所有欄位。
 
 1. 執行下列動作以快速尋找符合關鍵字的記錄：
 
-   1. 按一下 **搜尋** 圖示 ![](assets/search-icon.png) 並開始輸入與畫面上所顯示之記錄的任何欄位相關聯的關鍵字。 正確相符的數目會顯示在搜尋專案旁邊，而具有正確相符專案的欄位會反白顯示。
+   1. 按一下&#x200B;**搜尋**&#x200B;圖示![](assets/search-icon.png)，然後開始輸入與熒幕上顯示之記錄的任何欄位相關聯的關鍵字。 正確相符的數目會顯示在搜尋專案旁邊，而具有正確相符專案的欄位會反白顯示。
 
       ![](assets/search-box-with-results-blue-outline-table-view.png)
 
@@ -194,11 +194,11 @@ hide: yes
 
       您無法使用與表格檢視中隱藏之欄位關聯的關鍵字。
 
-   1. 按下 **輸入** 前往下一個找到的欄位。
+   1. 在鍵盤上按&#x200B;**Enter**&#x200B;以移至下一個找到的欄位。
 
    1. （選擇性）如果有多個相符專案，請按一下搜尋關鍵字右邊的向上和向下箭頭，以尋找表格中的所有相符專案。
 
-   1. 按一下 **x** 圖示來清除搜尋關鍵字。
+   1. 按一下搜尋方塊中的&#x200B;**x**&#x200B;圖示以清除搜尋關鍵字。
 
 
 ### 新增列（或記錄） {#add-rows}
@@ -207,18 +207,18 @@ hide: yes
 
 記錄型別最多可以有50,000筆記錄（或列）。
 
-1. 移至記錄型別頁面並選取 **表格** 從「檢視」下拉式選單中檢視。
+1. 移至記錄型別頁面，並從檢視下拉式功能表中選取&#x200B;**表格**&#x200B;檢視。
 
 <!-- replace above with this when view redesign: Go to a record type page and click a table view tab, or click **+ View **to add a new view, then choose **Table**. -->
-1. 開始新增記錄（或列），如文章所述 [建立記錄](/help/quicksilver/planning/records/create-records.md).
+1. 開始新增記錄（或列），如文章[建立記錄](/help/quicksilver/planning/records/create-records.md)中所述。
 
    您在表格檢視中新增的記錄會立即儲存，且所有擁有工作區檢視或更高許可權的使用者皆可看到。
 
-1. （可選）新增縮圖至每筆記錄，然後按一下 **欄位** 在表格的右上角，然後選取 **縮圖** 欄位，在主欄位左側顯示。 預設會取消選取它。
+1. （選擇性）新增縮圖至每筆記錄，並按一下表格右上角的&#x200B;**欄位**，然後選取&#x200B;**縮圖**&#x200B;欄位的切換按鈕，將其顯示在主要欄位的左側。 預設會取消選取它。
 
-   如需詳細資訊，請參閱 [新增縮圖至記錄](/help/quicksilver/planning/records/add-thumbnails-to-records.md).
+   如需詳細資訊，請參閱[新增縮圖至記錄](/help/quicksilver/planning/records/add-thumbnails-to-records.md)。
 
-1. （選擇性）選取一列中的一或多個記錄，然後拖放 **控點** 圖示 ![](assets/handle-icon.png) 以重新排序列。
+1. （選擇性）在列中選取一或多個記錄，然後將&#x200B;**控制代碼**&#x200B;圖示![](assets/handle-icon.png)拖放到記錄左側，以重新排序列。
 
    >[!NOTE]
    >
@@ -258,13 +258,13 @@ hide: yes
 
 若要將篩選器新增至表格檢視：
 
-1. 建立記錄型別頁面的表格檢視，如文章所述 [管理記錄檢視](/help/quicksilver/planning/views/manage-record-views.md).
-1. 選取表格檢視，然後按一下 **篩選器** 在表格的右上角。
-1. 按一下 **新增條件** 並新增下列資訊：
+1. 建立記錄型別頁面的資料表檢視，如文章[管理記錄檢視](/help/quicksilver/planning/views/manage-record-views.md)中所述。
+1. 選取表格檢視，然後按一下表格右上角的&#x200B;**篩選器**。
+1. 按一下&#x200B;**新增條件**&#x200B;並新增下列資訊：
 
-   * **選取欄位** 要作為篩選依據的 <!-- the tip below might change-->
+   * **選取您要依<!-- the tip below might change-->篩選的欄位**
 
-   * **選取選項** （或篩選修飾元），以定義欄位必須符合的條件型別
+   * **選取選項** （或篩選修飾元）以定義欄位必須符合何種條件
 
      下表顯示每種欄位型別的可用修飾元。
 
@@ -336,16 +336,16 @@ hide: yes
 
    您可以新增的篩選條件數量沒有限制。
 
-1. （選用）按一下 **新增條件** 以新增另一個篩選選項，並重複上述步驟。 套用的篩選器數會顯示在「篩選器」圖示的左側。
+1. （選擇性）按一下&#x200B;**新增條件**&#x200B;以新增另一個篩選選項，並重複上述步驟。 套用的篩選器數會顯示在「篩選器」圖示的左側。
 1. 按一下下列運運算元，指示如何聯結及套用篩選條件：
 
-   * **與**：必須符合所有指定的條件。
+   * **And**：必須符合所有指定的條件。
    * **或**：必須符合任何指定的條件。 這是預設選項。
 
-   系統會自動篩選記錄清單。  <!--at this time, you can't name and save the filter - but will this change?!-->
+   系統會自動篩選記錄清單。 <!--at this time, you can't name and save the filter - but will this change?!-->
    <!-- asked on the task for the simple filters whether there is a limitation for how many statements a filter can have?!-->
 
-1. （選用）按一下 **篩選器**，然後按一下 **x** 圖示以移除篩選器。 <!--right now you cannot "clear all" for filters, but this might come later-->
+1. （選擇性）按一下&#x200B;**篩選器**，然後按一下&#x200B;**x**&#x200B;圖示以移除篩選器。<!--right now you cannot "clear all" for filters, but this might come later-->
 
 ### 新增群組 {#add-groupings}
 
@@ -359,7 +359,7 @@ hide: yes
 
 * 您可以在表格和時間軸檢視中套用群組。 表格檢視的分組與相同記錄型別之時間軸檢視中的群組是獨立的。
 * 您可以在檢視中套用3個群組層級。 記錄會依照您選取的群組順序進行分組。
-&lt;!—*使用API時，您最多可以套用4個層級的群組。  — 現在正在檢查此專案 — >
+&lt;！—*使用API時，您最多可以套用4個層級的群組。  — 現在正在檢查此專案 — >
 * 群組對於您選取的檢視而言是唯一的。 相同記錄型別的兩個表格檢視可以套用不同的群組。 檢視相同表格檢視的兩個使用者會看到目前套用的相同分組。
 * 您無法為表格檢視建立的分組命名。
 * 移除群組會將群組從存取與您相同記錄型別以及顯示與您相同檢視的任何人中移除。
@@ -372,29 +372,29 @@ hide: yes
 
 若要新增群組：
 
-1. 如文章所述，為記錄型別建立時間表檢視 [管理記錄檢視](/help/quicksilver/planning/views/manage-record-views.md).
-1. 按一下 **分組** 表格檢視的右上角。
+1. 如文章[管理記錄檢視](/help/quicksilver/planning/views/manage-record-views.md)中所述，建立記錄型別的時間表檢視。
+1. 按一下表格檢視右上角的&#x200B;**群組**。
 
    ![](assets/grouping-ui-table-view-with-linked-fields.png)
 
-1. 按一下其中一個建議欄位，或按一下 **選擇其他欄位**，搜尋其他欄位，然後在清單中顯示時按一下該欄位。
+1. 按一下其中一個建議的欄位，或按一下&#x200B;**選擇其他欄位**，搜尋其他欄位，然後在欄位顯示在清單中時按一下它。
 
    此分組會自動套用至表格，且記錄會顯示在分組分隔行下方。
 
-1. （選用）按一下 **新增條件** 並重複上述步驟，新增最多3個群組。
+1. （選擇性）按一下&#x200B;**新增條件**&#x200B;並重複上述步驟以新增最多3個群組。
 
    為分組選取的欄位數會顯示在「分組」圖示旁。
 
    ![](assets/grouping-applied-in-table-view.png)
 
-1. （選用）內部 **記錄分組依據** 方塊中，按一下 **x** 圖示在選取要移除分組的欄位右側
+1. （選擇性）在&#x200B;**群組記錄依據**&#x200B;方塊中，按一下選取要移除分組的欄位右邊的&#x200B;**x**&#x200B;圖示
 
    或
 
-   按一下 **全部清除** 以移除所有欄位。
+   按一下&#x200B;**全部清除**&#x200B;以移除所有欄位。
 
-1. 按一下 **記錄分組依據** 方塊以關閉它。
-1. （選用）按一下 **+新增記錄** 在任何群組結束時新增記錄，然後重新整理您的頁面以將新記錄新增到適當的群組。 <!--this might need to be changed when they add the Refresh button on the toolbar of the table view-->
+1. 按一下「**依**&#x200B;分組記錄」方塊外部以關閉它。
+1. （選擇性）在任何群組結束時按一下&#x200B;**+新記錄**&#x200B;以新增記錄，然後重新整理您的頁面以將新記錄新增到適當的群組。<!--this might need to be changed when they add the Refresh button on the toolbar of the table view-->
 
 ### 新增排序 {#sort-information}
 
@@ -402,7 +402,7 @@ hide: yes
 
 您可以排序下列資訊：
 
-* 表格檢視中的所有記錄。 <!--or timeline view. ***********verify this is the case for the timeline view*********************-->
+* 表格檢視中的所有記錄。<!--or timeline view. ***********verify this is the case for the timeline view*********************-->
   <!--* All groupings. - this is not available yet-->
 
 在表格檢視中排序記錄時，請考量下列事項：
@@ -425,32 +425,32 @@ hide: yes
 
 * 您可以參考與目前記錄型別相距最多4個層級的欄位。 例如，如果您正在建立「活動」記錄型別的排序，且「活動」已連線至「產品」記錄型別，而該記錄型別已連線至「行銷活動」記錄型別，而該記錄型別已連線至「Workfront專案」，則您可以在針對「活動」記錄型別建立的排序中參考專案的「狀態」。
 
-排序 <!--ungrouped (add this when sorting for groupings will be available--> 記錄，請執行下列動作：
+若要排序<!--ungrouped (add this when sorting for groupings will be available-->筆記錄，請執行下列動作：
 
-1. 建立表格檢視，如文章所述 [管理記錄檢視](/help/quicksilver/planning/views/manage-record-views.md).
-1. 按一下 **排序** 圖示 ![](assets/sort-icon.png) 在表格的右上角
+1. 建立資料表檢視，如文章[管理記錄檢視](/help/quicksilver/planning/views/manage-record-views.md)中所述。
+1. 按一下表格右上角的&#x200B;**排序**&#x200B;圖示![](assets/sort-icon.png)
 
    或
 
-   暫留在表格檢視中的欄名稱上，按一下欄標題名稱右側的向下箭頭，然後按一下 **依此欄位排序**. 欄位會在表格檢視右上角的「排序」圖示中新增為排序選取專案。
+   暫留在表格檢視中的欄名稱上，按一下欄標題名稱右側的向下箭頭，然後按一下&#x200B;**依此欄位排序**。 欄位會在表格檢視右上角的「排序」圖示中新增為排序選取專案。
 
-1. （視條件而定）在 **記錄排序依據** 方塊中，按一下其中一個建議的欄位，或按一下 **選擇其他欄位** 並搜尋其他欄位，然後在清單中顯示時按一下該欄位。
+1. （視條件而定）在&#x200B;**依**&#x200B;排序記錄方塊中，按一下其中一個建議的欄位，或按一下&#x200B;**選擇其他欄位**&#x200B;並搜尋其他欄位，然後在欄位顯示在清單中時按一下它。
 
    排序會自動套用至表格檢視，且記錄會依您選取的條件排序。
 
    <!-- add a step that you can rearrange the sorting fields here, when this will be possible-->
 
-1. （選用）按一下 **新增條件**，並重複上述步驟以依其他欄位排序。
+1. （選擇性）按一下&#x200B;**新增條件**，然後重複上述步驟以依其他欄位排序。
 
    排序依據的欄位數會顯示在工具列右上角的「排序」圖示左側。 您只能選擇顯示在表格檢視欄中的欄位。
 
-1. （選用）在 **記錄排序依據** 方塊中，按一下 **x** 圖示在排序欄位右側以移除排序
+1. （選擇性）在&#x200B;**記錄排序依據**&#x200B;方塊中，按一下排序欄位右側的&#x200B;**x**&#x200B;圖示以移除排序
 
    或
 
-   按一下 **全部清除** 以移除排序中的所有欄位。
+   按一下&#x200B;**全部清除**&#x200B;以移除排序中的所有欄位。
 
-1. 按一下 **記錄排序依據** 方塊以關閉它。
+1. 按一下&#x200B;**依**&#x200B;排序記錄方塊外部以將其關閉。
 
    ![](assets/sorting-in-table-view.png)
 

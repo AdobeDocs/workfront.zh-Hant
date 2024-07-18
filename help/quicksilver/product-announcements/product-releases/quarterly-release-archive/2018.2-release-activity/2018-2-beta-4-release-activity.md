@@ -2,7 +2,7 @@
 content-type: release-notes
 navigation-topic: product-releases-archive
 title: 2018.2 Beta 4發行活動
-description: 本頁說明2018.2 Beta 4版預覽環境中最近可用的所有變更。 此功能將於2018年5月17日在預覽環境中提供。 它將在2018年7月的生產環境中提供。
+description: 本頁說明2018.2 Beta 4版本預覽環境中最近可用的所有變更。 此功能將於2018年5月17日在預覽環境中提供。 它將在2018年7月的生產環境中提供。
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
@@ -16,31 +16,31 @@ ht-degree: 0%
 
 # 2018.2 Beta 4發行活動
 
-本頁說明2018.2 Beta 4版預覽環境中最近可用的所有變更。 此功能將於2018年5月17日在預覽環境中提供。 它將在2018年7月的生產環境中提供。
+本頁說明2018.2 Beta 4版本預覽環境中最近可用的所有變更。 此功能將於2018年5月17日在預覽環境中提供。 它將在2018年7月的生產環境中提供。
 
 >[!IMPORTANT]
 >
 > 本頁所述的功能在生產環境使用之前可能會有所變更。
 
-如需2018.2年度所有變更的清單，請參閱  [2018.2版本活動概覽](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-release-activity-overview.md).
+如需2018.2年度所有變更的清單，請參閱  [2018.2發行活動總覽](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-release-activity-overview.md)。
 
-2018.2 Beta 4版本包含適用於Workfront管理員和其他使用者的增強功能：
+2018.2 Beta 4版本包含Workfront管理員和其他使用者的增強功能：
 
-**適用於管理員**
+管理員的&#x200B;****
 
 * [系統設定：外部頁面中的工作階段資訊](#system-setting-session-information-in-external-pages)
 
-**適用於所有使用者**
+**所有使用者**
 
-* [Kanban面板上的進行中工作(WIP)限制增強功能](#work-in-progress-wip-limit-enhancements-on-the-kanban-board)
+* Kanban展示板上的[進行中的工作(WIP)限制增強功能](#work-in-progress-wip-limit-enhancements-on-the-kanban-board)
 * [改善設定敏捷團隊狀態的介面](#improved-interface-for-configuring-statuses-for-an-agile-team)
-* [更新工作清單（左側面板）首頁區域](#updated-work-list-left-panel-in-the-home-area)
-* [新的案頭校訂檢視器用於校訂互動式（多媒體）內容](#new-desktop-proofing-viewer-for-proofing-interactive-rich-media-content) 
+* 首頁區域中的[已更新工作清單（左側面板）](#updated-work-list-left-panel-in-the-home-area)
+* [新的案頭校訂檢視器以校訂互動式（多媒體）內容](#new-desktop-proofing-viewer-for-proofing-interactive-rich-media-content) 
 * [匯出資源規劃工具中的使用者檢視](#export-the-user-view-in-the-resource-planner)
-* [支援Google團隊磁碟機](#support-for-google-team-drives)
+* [支援Google Team磁碟機](#support-for-google-team-drives)
 * [甘特圖新的匯出限制](#new-export-limit-for-the-gantt-chart)
-* [使用Internet Explorer或Safari時，「從剪貼簿貼上」選項現在會以灰色顯示](#paste-from-clipboard-option-now-displays-as-dimmed-when-using-internet-explorer-or-safari)
-* [適用於Android的全新Beta版環境與新功能](#new-beta-environment-for-android-along-with-new-features)
+* 使用Internet Explorer或Safari時，[從剪貼簿貼上現在會顯示為暗灰色](#paste-from-clipboard-option-now-displays-as-dimmed-when-using-internet-explorer-or-safari)
+* [適用於Android的新Beta環境以及新功能](#new-beta-environment-for-android-along-with-new-features)
 * [事件訂閱訊息的篩選器範例](#examples-of-filters-for-event-subscriptions-messages)
 
 ## Kanban面板上的進行中工作(WIP)限制增強功能 {#work-in-progress-wip-limit-enhancements-on-the-kanban-board}
@@ -51,7 +51,7 @@ ht-degree: 0%
 
 在此變更之前，您只能設定一個套用至Kanban面板上所有欄的WIP限制。 
 
-如需詳細資訊，請參閱區段  [設定進行中的工作(WIP)限制](../../../../agile/get-started-with-agile-in-workfront/configure-kanban.md#configur4) 在文章中  [設定Kanban](../../../../agile/get-started-with-agile-in-workfront/configure-kanban.md).
+如需詳細資訊，請參閱區段  [在文章中設定進行中的工作(WIP)限制](../../../../agile/get-started-with-agile-in-workfront/configure-kanban.md#configur4)  [設定Kanban](../../../../agile/get-started-with-agile-in-workfront/configure-kanban.md)。
 
 ### 直接從Kanban面板更新在製品(WIP)限制
 
@@ -59,7 +59,7 @@ ht-degree: 0%
 
 在此變更之前，您只能從「專案團隊設定」區域更新WIP限制。
 
-如需詳細資訊，請參閱文章中的。
+如需詳細資訊，請參閱  （在文章中）。
 
 ## 改善設定敏捷團隊狀態的介面 {#improved-interface-for-configuring-statuses-for-an-agile-team}
 
@@ -81,7 +81,7 @@ ht-degree: 0%
 
   在「首頁」區域之外檢視的專案，在「首頁」區域仍會顯示為「未讀取」。
 
-  如需詳細資訊，請參閱 [在首頁區域的工作清單中顯示專案](../../../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md).
+  如需詳細資訊，請參閱[首頁區域的工作清單顯示專案](../../../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md)。
 
 * 問題現在以問題旁邊顯示的問題圖示加以區分。
 * 核准現在會依核准型別區分，並顯示核准型別。 可能的核准型別包括任務、專案、問題、存取、檔案、時程表和校訂。
@@ -102,20 +102,20 @@ ht-degree: 0%
 
   此數字不適用於「已完成」群組。
 
-  如需詳細資訊，請參閱 [在首頁區域的工作清單中顯示專案](../../../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md).
+  如需詳細資訊，請參閱[首頁區域的工作清單顯示專案](../../../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md)。
 
 * 透過拖放調整工作清單的大小。 您可以調整工作清單的大小，以使用最多一半的畫面。 下次存取「首頁」時，您設定的大小會保留。
 
   在此變更之前，無法變更工作清單的大小。
 
-* 對於請求，現在會顯示提出請求的使用者的使用者頭像，其文字為&quot;[Approver_name] 希望您核准於。」
+* 對於請求，現在會顯示提出請求的使用者的使用者頭像，其文字為&quot;[Approver_name]希望您核准開啟。&quot;
 * 建立新的個人任務時，「待辦事項」按鈕現在標籤為「個人」。
 
-  如需詳細資訊，請參閱 [從首頁區域建立工作專案](../../../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md) 在文章中 [從首頁區域建立工作專案](../../../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md).
+  如需詳細資訊，請參閱文章[從首頁區域建立工作專案](../../../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md)中的[從首頁區域建立工作專案](../../../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md)。
 
 * 延遲料號只有在超過計畫完成日期一小時後才會顯示為「延遲」。
 
-如需首頁區域的詳細資訊，請參閱 [使用首頁區域](../../../../workfront-basics/using-home/using-the-home-area/use-the-home-area.md).
+如需主區域的詳細資訊，請參閱[使用主區域](../../../../workfront-basics/using-home/using-the-home-area/use-the-home-area.md)。
 
 ## 新的案頭校訂檢視器用於校訂互動式（多媒體）內容 {#new-desktop-proofing-viewer-for-proofing-interactive-rich-media-content}
 
@@ -137,15 +137,15 @@ ht-degree: 0%
 
 如需有關下載，安裝和使用Desktop Proofing Viewer的詳細資訊，請參閱。
 
-有關「案頭校訂檢視器」和瀏覽器校訂檢視器之間功能差異的資訊，請參閱 [網頁校訂檢視器與案頭校訂檢視器之間的差異概述](../../../../review-and-approve-work/proofing/proofing-overview/understand-differences-between-web-viewer.md).
+如需有關案頭校訂檢視器與瀏覽器校訂檢視器之間功能差異的資訊，請參閱[網頁校訂檢視器與案頭校訂檢視器之間的差異](../../../../review-and-approve-work/proofing/proofing-overview/understand-differences-between-web-viewer.md)。
 
 ## 匯出資源規劃工具中的使用者檢視 {#export-the-user-view-in-the-resource-planner}
 
 當資料顯示在使用者檢視中時，為了解決一些效能問題，我們暫時禁止從資源規劃工具匯出資料。 在此版本中，我們在使用者檢視中顯示資源規劃工具時，重新啟用資料匯出。
 
-如需有關將資源規劃工具資料匯出到Excel的詳細資訊，請參閱以下的「匯出選項」一節： [資源規劃工具導覽概觀](../../../../resource-mgmt/resource-planning/resource-planner-navigation.md).
+如需將資源規劃工具資料匯出至Excel的詳細資訊，請參閱[資源規劃工具導覽概觀](../../../../resource-mgmt/resource-planning/resource-planner-navigation.md)中的「匯出選項」一節。
 
-若要參與我們目前資源規劃工具的Beta版計畫，請參閱 [資源規劃工具效能測試版。](http://community.workfront.com/discussions/community-home/digestviewer/viewthread?GroupId=457&amp;MessageKey=8b018ed9-97a2-4f9d-a93b-01a7b09b6350&amp;CommunityKey=0425cafc-f0ec-47fc-be20-a21dc073d520&amp;tab=digestviewer&amp;ReturnUrl=%2fdiscussions%2fcommunity-home%2fdigestviewer%3fCommunityKey%3d0425cafc-f0ec-47fc-be20-a21dc073d520)
+若要參與我們目前資源規劃工具的Beta版計畫，請參閱[資源規劃工具績效Beta。](http://community.workfront.com/discussions/community-home/digestviewer/viewthread?GroupId=457&amp;MessageKey=8b018ed9-97a2-4f9d-a93b-01a7b09b6350&amp;CommunityKey=0425cafc-f0ec-47fc-be20-a21dc073d520&amp;tab=digestviewer&amp;ReturnUrl=%2fdiscussions%2fcommunity-home%2fdigestviewer%3fCommunityKey%3d0425cafc-f0ec-47fc-be20-a21dc073d520)
 
 ## 系統設定：外部頁面中的工作階段資訊 {#system-setting-session-information-in-external-pages}
 
@@ -153,7 +153,7 @@ Workfront管理員現在可以在建立外部頁面時，限制使用工作階�
 
 在此變更前，可建立外部頁面的使用者可在將其他網站內嵌至Workfront儀表板時，使用任何工作階段資訊。 
 
-如需有關在Workfront中設定系統偏好設定的詳細資訊，請參閱 [設定系統安全性偏好設定](../../../../administration-and-setup/manage-workfront/security/configure-security-preferences.md).
+如需有關在Workfront中設定系統偏好設定的詳細資訊，請參閱[設定系統安全性偏好設定](../../../../administration-and-setup/manage-workfront/security/configure-security-preferences.md)。
 
 ## 支援Google團隊磁碟機 {#support-for-google-team-drives}
 
@@ -161,7 +161,7 @@ Workfront管理員現在可以在建立外部頁面時，限制使用工作階�
 
 在此增強功能之前，您可以連結僅位於Google我的磁碟上的檔案或資料夾。
 
-如需從各種應用程式將檔案和資料夾連結至Workfront的詳細資訊，請參閱 [從外部應用程式連結檔案](../../../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md).
+如需從各種應用程式連結檔案和資料夾到Workfront的詳細資訊，請參閱[從外部應用程式連結檔案](../../../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md)。
 
 ## 甘特圖新的匯出限制 {#new-export-limit-for-the-gantt-chart}
 
@@ -169,7 +169,7 @@ Workfront管理員現在可以在建立外部頁面時，限制使用工作階�
 
 之前，您最多只能匯出250個任務。
 
-如需詳細資訊，請參閱 [將甘特圖匯出至PDF](../../../../manage-work/gantt-chart/use-the-gantt-chart/export-gantt-chart-to-pdf.md).
+如需詳細資訊，請參閱[將甘特圖匯出至PDF](../../../../manage-work/gantt-chart/use-the-gantt-chart/export-gantt-chart-to-pdf.md)。
 
 ## 使用Internet Explorer或Safari時，「從剪貼簿貼上」選項現在會以灰色顯示 {#paste-from-clipboard-option-now-displays-as-dimmed-when-using-internet-explorer-or-safari}
 
@@ -177,9 +177,9 @@ Workfront管理員現在可以在建立外部頁面時，限制使用工作階�
 
 在此變更之前，使用Internet Explorer或Safari時未顯示此選項。 
 
-如需有關從剪貼簿貼上影像的詳細資訊，請參閱 [從剪貼簿貼上影像](../../../../documents/managing-documents/paste-image-clipboard.md).
+如需從剪貼簿貼上影像的詳細資訊，請參閱[從剪貼簿貼上影像](../../../../documents/managing-documents/paste-image-clipboard.md)。
 
-## 適用於Android的全新Beta版環境與新功能 {#new-beta-environment-for-android-along-with-new-features}
+## 適用於Android的全新Beta環境與新功能 {#new-beta-environment-for-android-along-with-new-features}
 
 您現在可以註冊成為Beta測試者，在正式發行之前，體驗我們團隊為行動應用程式設計的最新功能。 Workfront行動應用程式目前僅支援Android手機使用這個環境。
 
@@ -215,4 +215,4 @@ Workfront管理員現在可以在建立外部頁面時，限制使用工作階�
 
 ## 事件訂閱訊息的篩選器範例 {#examples-of-filters-for-event-subscriptions-messages}
 
-為了示範如何篩選事件訂閱以僅接收與您組織相關的訊息，現在提供範常式式碼片段來篩選進入您端點的事件流程。 若要進一步瞭解檢視篩選範例，請參閱 [篩選事件訂閱訊息](../../../../wf-api/api/filter-event-sub-messages.md).
+為了示範如何篩選事件訂閱以僅接收與您組織相關的訊息，現在提供範常式式碼片段來篩選進入您端點的事件流程。 若要進一步瞭解檢視篩選範例，請參閱[篩選事件訂閱訊息](../../../../wf-api/api/filter-event-sub-messages.md)。

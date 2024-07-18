@@ -17,7 +17,7 @@ ht-degree: 0%
 
 本頁說明21.4版對預覽環境所做的所有專案增強功能。 這些增強功能將在2021年10月4日當週的生產環境中提供。
 
-如需21.4版本所有可用變更的清單，請參閱 [21.4版本總覽](../../../product-announcements/product-releases/21.4-release-activity/21-4-release-overview.md).
+如需21.4版本可用的所有變更清單，請參閱[21.4版本總覽](../../../product-announcements/product-releases/21.4-release-activity/21-4-release-overview.md)。
 
 ## 在更新中包含影像
 
@@ -27,9 +27,9 @@ ht-degree: 0%
 
 之前，在Workfront中共用影像的唯一方式是將影像作為檔案附加至物件。 在「更新」標籤上新增的影像只能在該標籤上使用，不能在「檔案」標籤上使用。
 
-如需詳細資訊，請參閱 [更新工作](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+如需詳細資訊，請參閱[更新工作](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md)。
 
-在Workfront使用者能在更新中包含影像之前，此功能必須先由Adobe Workfront管理員啟用，如中所述 [設定使用者更新的偏好設定](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-preferences-user-updates.md).
+在Workfront使用者可以在更新中包含影像之前，此功能必須先由Adobe Workfront管理員啟用，如[設定使用者更新的偏好設定](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-preferences-user-updates.md)中所述。
 
 ## 已更新智慧型指派的演演算法
 
@@ -37,7 +37,7 @@ ht-degree: 0%
 
 在此增強功能之前，Workfront在建議使用者時，會考慮父系任務上的指派以及與這些指派相關的其他使用者屬性。
 
-如需智慧指派的相關資訊，請參閱 [智慧指派總覽](../../../manage-work/tasks/assign-tasks/smart-assignments.md).
+如需智慧指派的相關資訊，請參閱[智慧指派總覽](../../../manage-work/tasks/assign-tasks/smart-assignments.md)。
 
 ## 從範本建立專案時的新體驗
 
@@ -48,7 +48,7 @@ ht-degree: 0%
 
 當您從專案和範本區域建立專案時，我們已更新用於建立專案的介面。
 
-如需詳細資訊， [使用範本建立專案](../../../manage-work/projects/create-projects/create-project-from-template.md).
+如需詳細資訊，[使用範本](../../../manage-work/projects/create-projects/create-project-from-template.md)建立專案。
 
 ## 將範本附加到專案時的新體驗
 
@@ -62,7 +62,7 @@ ht-degree: 0%
 * 在附件程式期間將範本新增至我的最愛清單
 * 在一個連續頁面中檢視用於管理範本和專案設定的所有選項
 
-如需詳細資訊，請參閱 [將範本附加至專案](../../../manage-work/projects/create-and-manage-templates/attach-template-to-project.md).
+如需詳細資訊，請參閱[將範本附加至專案](../../../manage-work/projects/create-and-manage-templates/attach-template-to-project.md)。
 
 ## 任務的統一持續時間和持續單位值
 
@@ -75,7 +75,7 @@ ht-degree: 0%
 * 建立週期性任務時的頻率欄位（即將推出）
 * 新增前置任務時的延遲欄位（即將推出）
 
-如需詳細資訊，請參閱 [編輯任務](../../../manage-work/tasks/manage-tasks/edit-tasks.md).
+如需詳細資訊，請參閱[編輯工作](../../../manage-work/tasks/manage-tasks/edit-tasks.md)。
 
 ![](assets/duration-combined-field-350x139.png)
 
@@ -87,7 +87,7 @@ ht-degree: 0%
 >
 >此設定僅在新的Workfront體驗中可用。 即使使用新Workfront體驗的使用者已針對專案停用此設定，使用Workfront Classic的使用者仍可在專案或其任務中新增內嵌問題。
 
-如需詳細資訊，請參閱 [編輯專案](../../../manage-work/projects/manage-projects/edit-projects.md).
+如需詳細資訊，請參閱[編輯專案](../../../manage-work/projects/manage-projects/edit-projects.md)。
 
 ## 核取方塊和選項按鈕的自訂欄位顯示改善
 
@@ -95,7 +95,7 @@ ht-degree: 0%
 
 這取決於您在自訂表單中放置欄位的方式 — 如果您將另一個欄位與核取方塊或選項按鈕欄位放在同一列，則選項可能只有足夠的水準空間可顯示在單一欄中。
 
-如需填寫自訂表單的相關資訊，請參閱 [編輯自訂表單欄位中的資訊](../../../workfront-basics/work-with-custom-forms/edit-custom-forms.md).
+如需填寫自訂表單的相關資訊，請參閱[編輯自訂表單欄位中的資訊](../../../workfront-basics/work-with-custom-forms/edit-custom-forms.md)。
 
-如需有關在自訂表單中建立核取方塊或選項按鈕欄位的資訊，請參閱小節 [建立或編輯自訂表單](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#create) 和 [建立或編輯自訂表單](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#configur) 在文章中 [建立或編輯自訂表單](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
+如需有關在自訂表單中建立核取方塊或選項按鈕欄位的資訊，請參閱文章[建立或編輯自訂表單](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)中的[建立或編輯自訂表單](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#create)和[建立或編輯自訂表單](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#configur)小節。
 

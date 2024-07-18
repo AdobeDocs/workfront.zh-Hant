@@ -20,7 +20,7 @@ ht-degree: 2%
 
 R1版本目前可在Preview中測試；R1版本將於2017年4月26日發行至生產環境。
 
-若要檢視網路研討會涵蓋之功能的詳細資訊，請參閱 [R1發行活動概覽](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-release-activity-overview.md) 頁面。
+若要檢視網路研討會涵蓋之功能的詳細資訊，請參閱[R1發行活動概覽](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-release-activity-overview.md)頁面。
 
 下列網路研討會影片可供觀賞：
 
@@ -32,8 +32,8 @@ Workfront R1 2017版本網路研討會由Workfront產品團隊於3月29日主講
 
 * [簡介](#introduction)
 * [專案](#projects)
-* [User Management](#user-management)
-* [設定](#configuration)
+* [使用者管理](#user-management)
+* [組態](#configuration)
 * [行動裝置和Outlook](#mobile-and-outlook)
 
 ### 簡介 {#introduction}

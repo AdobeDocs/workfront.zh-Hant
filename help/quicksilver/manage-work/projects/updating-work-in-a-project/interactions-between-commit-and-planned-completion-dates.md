@@ -33,11 +33,11 @@ this article has mostly information that is repeated from the articles linked fr
  <tbody> 
   <tr> 
    <td role="rowheader">認可日期</td> 
-   <td> <p>「認可日期」是指指派給任務或問題的人員手動估計將完成任務或問題的日期。</p> <p>如需有關認可日期的資訊，請參閱 <a href="../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md" class="MCXref xref">認可日期總覽</a>.</p> </td> 
+   <td> <p>「認可日期」是指指派給任務或問題的人員手動估計將完成任務或問題的日期。</p> <p>如需認可日期的詳細資訊，請參閱<a href="../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md" class="MCXref xref">認可日期概觀</a>。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">規劃完成日期</td> 
-   <td> <p>計畫完成日期顯示專案所有者預期任務或問題完成的時間。 可由專案所有者或擁有任務或問題管理許可權的任何人手動設定，或由Adobe Workfront自動計算。</p> <p>如需計畫完成日期的詳細資訊，請參閱 <a href="../../../manage-work/tasks/task-information/task-planned-completion-date.md" class="MCXref xref">任務計畫完成日期總覽</a></p> </td> 
+   <td> <p>計畫完成日期顯示專案所有者預期任務或問題完成的時間。 可由專案所有者或擁有任務或問題管理許可權的任何人手動設定，或由Adobe Workfront自動計算。</p> <p>如需計畫完成日期的詳細資訊，請參閱<a href="../../../manage-work/tasks/task-information/task-planned-completion-date.md" class="MCXref xref">任務計畫完成日期的總覽</a></p> </td> 
   </tr> 
  </tbody> 
 </table>

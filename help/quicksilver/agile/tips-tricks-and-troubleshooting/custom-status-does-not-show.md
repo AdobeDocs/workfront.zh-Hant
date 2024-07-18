@@ -2,8 +2,8 @@
 content-type: tips-tricks-troubleshooting
 product-area: agile-and-teams
 navigation-topic: tips-tricks-and-troubleshooting-agile
-title: 敏捷動態展示板上未顯示自訂狀態
-description: 如果您想在敏捷的動態圖片上使用自訂狀態，您的 [!DNL Adobe Workfront] 管理員必須先將該自定義狀態建立為系統範圍狀態。
+title: 自訂狀態未顯示在敏捷故事板上
+description: 如果您想要在敏捷故事板上使用自訂狀態，您的 [!DNL Adobe Workfront] 管理員必須先將該自訂狀態建立為全系統狀態。
 author: Lisa
 feature: Agile
 exl-id: dcf71cd0-da56-48e7-85bf-393f5cec3ae3
@@ -14,6 +14,6 @@ ht-degree: 0%
 
 ---
 
-# 敏捷動態展示板上未顯示自訂狀態
+# 自訂狀態未顯示在敏捷故事板上
 
-如果您想在敏捷的動態圖片上使用自訂狀態，您的 [!DNL Adobe Workfront] 管理員必須先將該自定義狀態建立為系統範圍狀態。 如需詳細資訊，請 [!DNL Workfront] 管理員請參閱 [建立或編輯狀態](../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md).
+如果您想在敏捷故事板上使用自訂狀態，您的[!DNL Adobe Workfront]管理員必須首先將該自訂狀態建立為全系統狀態。 如需詳細資訊，請讓您的[!DNL Workfront]管理員檢視[建立或編輯狀態](../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md)。

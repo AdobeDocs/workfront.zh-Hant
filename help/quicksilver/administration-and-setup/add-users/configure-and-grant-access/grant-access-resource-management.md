@@ -1,27 +1,27 @@
 ---
-title: 授予資源管理的訪問權限
+title: 授與資源管理的存取權
 user-type: administrator
 product-area: system-administration;resource-management
 navigation-topic: configure-access-to-workfront
-description: 身為Adobe Workfront管理員，您可以使用存取層級來定義使用者對Workfront中Resource Management的存取權。
+description: 作為Adobe Workfront管理員，您可以使用存取層級來定義使用者對Workfront中資源管理的存取權。
 author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 14948e33-3dd7-4ef3-9307-51628dedd1f5
 source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
 workflow-type: tm+mt
-source-wordcount: '511'
-ht-degree: 3%
+source-wordcount: '512'
+ht-degree: 4%
 
 ---
 
-# 授予資源管理的訪問權限
+# 授與資源管理的存取權
 
-身為Adobe Workfront管理員，您可以使用存取層級來定義使用者對資源管理的存取，如 [存取層級概觀](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).
+身為Adobe Workfront管理員，您可以使用存取層級來定義使用者對資源管理的存取權，如[存取層級概觀](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md)中所述。
 
 ## 存取需求
 
-您必須具備下列存取權，才能執行本文中的步驟：
+您必須具有下列存取權才能執行本文中的步驟：
 
 <table style="table-layout:auto"> 
  <col> 
@@ -36,16 +36,16 @@ ht-degree: 3%
    <td>計劃</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">訪問級別配置</td> 
-   <td> <p>您必須是Workfront管理員。</p> <p><b>注意</b>:如果您仍無權存取，請洽詢您的Workfront管理員，他們是否在您的存取層級設定其他限制。 如需Workfront管理員如何修改您的存取層級的詳細資訊，請參閱 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref" data-mc-variable-override="">建立或修改自訂存取層級</a>.</p> </td> 
+   <td role="rowheader">存取層級設定</td> 
+   <td> <p>您必須是Workfront管理員。</p> <p><b>注意</b>：如果您還是沒有存取權，請詢問您的Workfront管理員是否對您的存取層級設定了其他限制。 如需Workfront管理員如何修改存取層級的詳細資訊，請參閱<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref" data-mc-variable-override="">建立或修改自訂存取層級</a>。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## 使用自定義訪問級別配置對資源管理工具的用戶訪問
+## 使用自訂存取層級設定使用者對資源管理工具的存取權
 
-1. 開始建立或編輯存取層級，如 [建立或修改自訂存取層級](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
-1. 按一下齒輪圖示 ![](assets/gear-icon-settings.png) 在 **檢視** 或 **編輯** 按鈕（位於「資源管理」的右側），然後選擇要授予的功能 **微調您的設定**.
+1. 開始建立或編輯存取層級，如[建立或修改自訂存取層級](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)中所述。
+1. 按一下資源管理右側&#x200B;**檢視**&#x200B;或&#x200B;**編輯**&#x200B;按鈕上的齒輪圖示![](assets/gear-icon-settings.png)，然後在&#x200B;**微調您的設定**&#x200B;下選取您要授與的功能。
 
    ![](assets/resource-management-details-of-edit-in-the-access-level.png)
 
@@ -55,27 +55,27 @@ ht-degree: 3%
     <tbody> 
      <tr> 
       <td role="rowheader">在規劃工具中編輯優先順序和預算</td> 
-      <td> <p>允許具有此許可證的用戶執行以下操作：</p> <p>在資源計畫器中排定項目優先順序。</p> <p>在資源計畫工具中為資源分配預算（在項目的業務案例中為「資源計畫員」和「資源預算」部分）。</p> <p>預設會啟用此選項。</p> </td> 
+      <td> <p>允許擁有此授權的使用者執行下列動作：</p> <p>排定資源規劃工具中專案的優先順序。</p> <p>資源計畫工具中資源的預算分配（專案的「業務案例」中的「資源規劃工具」與「資源預算」區段）。</p> <p>此選項預設為啟用。</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">管理資源集區</td> 
-      <td> <p>允許具有此許可證的用戶建立、編輯和刪除資源池。 預設會停用此選項。</p> </td> 
+      <td> <p>允許擁有此授權的使用者建立、編輯和刪除資源集區。 此選項預設為停用。</p> </td> 
      </tr> 
      <tr data-mc-conditions=""> 
-      <td role="rowheader"><span>更新工作量平衡工具中的計畫時數</span> </td> 
-      <td> <p>允許具有此許可證的用戶在更新工作負載平衡器中的用戶分配時更新工作項目的「計畫小時數」。 分配的小時總數將成為工作項的「計畫小時數」。</p> <p>預設會停用此選項。</p> <p> 如需詳細資訊，請參閱 <a href="../../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md" class="MCXref xref">在工作負載平衡器中管理用戶分配</a>.</p> </td> 
+      <td role="rowheader"><span>更新工作負載平衡器中的計畫時數</span> </td> 
+      <td> <p>允許擁有此授權的使用者在更新工作負載平衡器中的使用者指派時更新規劃時數工作專案。 分配時數總計會變成工作專案的計畫時數。</p> <p>此選項預設為停用。</p> <p> 如需詳細資訊，請參閱<a href="../../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md" class="MCXref xref">在工作負載平衡器</a>中管理使用者配置。</p> </td> 
      </tr> 
     </tbody> 
    </table>
 
-1. （可選）要配置您正在處理的訪問級別中其他對象和區域的訪問設定，請繼續以下文章之一列出： [設定Adobe Workfront的存取權](../../../administration-and-setup/add-users/configure-and-grant-access/configure-access.md)，例如 [授予任務的存取權](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-tasks.md) 和 [授予金融資料的存取權](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).
-1. 完成後，按一下 **儲存**.
+1. （選擇性）若要針對您正在處理的存取層級中的其他物件與區域設定存取設定，請繼續使用[設定對Adobe Workfront的存取權](../../../administration-and-setup/add-users/configure-and-grant-access/configure-access.md)中所列的文章之一，例如[授與對工作的存取權](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-tasks.md)和[授與對財務資料的存取權](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md)。
+1. 完成時，按一下&#x200B;**儲存**。
 
-   建立存取層級後，您可將其指派給使用者。 如需詳細資訊，請參閱 [編輯使用者的設定檔](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
+   建立存取層級後，您可以將其指派給使用者。 如需詳細資訊，請參閱[編輯使用者的設定檔](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md)。
 
-## 按許可證類型訪問資源管理
+## 依授權型別存取資源管理
 
-有關每個訪問級別中的用戶可以使用資源管理執行的操作的資訊，請參見部分 [資源管理](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md#resource) 在文章中 [每種物件類型皆可使用的功能](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md).
+如需有關每個存取層級中的使用者可以執行哪些資源管理的資訊，請參閱每個物件型別](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md)可用的文章[功能中的[資源管理](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md#resource)小節。
 
 ## 存取共用問題
 
@@ -86,10 +86,10 @@ If you make changes here, make them also in the "Grant access to" articles where
 * issue
 -->
 
-當您與其他使用者共用物件時，收件者對該物件的預算或檢視資源分配的權利，由下列三項組合決定：
+當您與其他使用者共用物件時，收件者對其編列預算或檢視資源配置的許可權是由下列三項的組合所決定：
 
-* 資源管理的收件人的訪問級別設定
-* 使用者對財務資料的存取，如 [授予金融資料的存取權](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md)
-* 共用者為物件授予的金融資料的任何權限
+* 收件者資源管理的存取層級設定
+* 使用者對財務資料的存取權，如[授予財務資料的存取權](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md)中所述
+* 共用者授予物件的任何財務資料許可權
 
-如需使用者在共用物件時可授予物件之財務資料之權限的相關資訊，請參閱 [共用物件的財務權限](../../../workfront-basics/grant-and-request-access-to-objects/share-financial-permissions-object.md).
+如需使用者在共用物件時可授與物件財務資料之許可權的資訊，請參閱[共用物件的財務許可權](../../../workfront-basics/grant-and-request-access-to-objects/share-financial-permissions-object.md)。

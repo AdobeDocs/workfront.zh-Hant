@@ -2,22 +2,23 @@
 product-previous: workfront-goals
 content-type: release-notes
 navigation-topic: goals-release-activity
-title: Adobe Workfront第23.2發行版本的目標
-description: 本頁提供有關新Adobe Workfront體驗中目標功能的資訊，此新Adobe Workfront體驗將於23.2版發行至生產環境。
+title: 第23.2發行版本中的Adobe Workfront目標
+description: 本頁提供隨23.2版發佈至生產環境的新Adobe Workfront體驗中Adobe Workfront目標功能的相關資訊。
 author: Courtney
 feature: Product Announcements, Workfront Goals
-source-git-commit: 2049958745516d37f41938fbd4b6398f57378959
+exl-id: 7f543c35-d4e3-4d17-be21-1f09eb7c4df3
+source-git-commit: 0ca335bf0db934d23f607d3f8ce7cfb67e629053
 workflow-type: tm+mt
-source-wordcount: '152'
+source-wordcount: '161'
 ht-degree: 0%
 
 ---
 
-# Adobe Workfront第23.2發行版本的目標
+# 第23.2發行版本中的Adobe Workfront目標
 
-本頁提供Adobe Workfront目標功能的相關資訊，此目標將隨23.2版推出（排定在2023年4月3日當周）至生產環境。
+此頁面提供Adobe Workfront Goals隨23.2版發佈至生產環境之功能的相關資訊，該版本預計在2023年4月3日當週發行。
 
-如需Workfront所有區域目前在23.2版本週期中可用的所有變更清單，請參閱 [23.2版本概觀](/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-release-overview.md).
+如需23.2版本週期中此時適用於Workfront所有區域的所有變更清單，請參閱[23.2版本總覽](/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-release-overview.md)。
 
 <table>
             <col style="width: 50%;" />
@@ -35,19 +36,19 @@ ht-degree: 0%
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/goals-release-activity/goals-23-2-release/goals-march.md">改善註解體驗的目標</a></p>
-                        <p>從23.1版開始，我們已推出Workfront Target的全新評論體驗。</p>
-                        <p>目標的評論體驗將會符合針對問題所發行的新評論體驗測試版。 我們將在2023年所有發行期間，繼續發行此領域的更新。 </p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/goals-release-activity/goals-23-2-release/goals-march.md">評論體驗的目標改善</a></p>
+                        <p>從23.1版開始，我們為Workfront Goals引進了新的評論體驗。</p>
+                        <p>目標評論體驗將會符合針對問題發佈的新評論體驗Beta 。 我們將繼續在2023年所有發行期間發佈此區域的更新。 </p>
                     </td>
-                    <td><p><b>可於下列日期使用：</b></p>
+                    <td><p><b>將於下列日期提供：</b></p>
                      <p>
                         </p>
                         <ul>
                             <li>
-                                <p>預覽版本：2023年3月23日<br /></p>
+                                <p>預覽版本： 2023年3月23日<br /></p>
                             </li>
                             <li>
-                                <p>生產版本：隨第23.2發行版本一起推出</p>
+                                <p>生產版本：第23.2發行版本</p>
                             </li>
                         </ul>
                     </td>

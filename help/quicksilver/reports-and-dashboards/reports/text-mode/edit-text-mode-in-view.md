@@ -53,8 +53,8 @@ ht-degree: 1%
  </tbody> 
 </table>
 
-&#42;若要瞭解您擁有的計畫、授權型別或存取權，請聯絡您的Workfront管理員。
-如需存取需求的詳細資訊，請參閱 [Workfront檔案中的存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+&#42;若要瞭解您擁有的計畫、授權型別或存取權，請連絡您的Workfront管理員。
+如需存取需求的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -76,14 +76,14 @@ ht-degree: 1%
 >
 >建議您在標準模式中建立儘可能多的檢視，然後將其轉換為文字模式以進行編輯。
 
-如需有關建立檢視的資訊，請參閱 [Adobe Workfront中的檢視概觀](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
+如需有關建立檢視的資訊，請參閱[Adobe Workfront中的檢視總覽](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md)。
 
-如需建立報表的相關資訊，請參閱 [建立自訂報表](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+如需建立報告的詳細資訊，請參閱[建立自訂報告](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md)。
 
 1. 執行下列其中一項：
 
-   1. 若要從報表存取檢視，請移至報表，然後按一下 **報表動作** > **編輯** > **欄（檢視）** 標籤。
-   1. 若要從清單存取檢視，請移至清單並從 **檢視** 下拉式功能表，將滑鼠移至您要修改的檢視上，然後按一下 **編輯** 圖示 ![](assets/edit-icon.png).
+   1. 若要從報告存取檢視，請移至報告，然後按一下&#x200B;**報告動作** > **編輯** > **欄（檢視）**&#x200B;標籤。
+   1. 若要從清單存取檢視，請移至清單，然後從&#x200B;**檢視**&#x200B;下拉式功能表，將游標移至您要修改的檢視上，然後按一下&#x200B;**編輯**&#x200B;圖示![](assets/edit-icon.png)。
 
       檢視產生器隨即開啟。
 
@@ -91,17 +91,17 @@ ht-degree: 1%
 
    或
 
-   選取 **欄（檢視）** 標籤，然後選取欄。
+   選取Report Builder的&#x200B;**欄（檢視）**&#x200B;標籤，然後選取欄。
 
    >[!TIP]
    >
    >若要使用文字模式編輯檢視，您必須一次編輯一欄。
 
-1. 按一下 **切換到文字模式** 建立器的右上角。
+1. 按一下產生器右上角的&#x200B;**切換至文字模式**。
 
    >[!NOTE]
    >
-   >當您以文字模式編輯欄時，Workfront會新增 `textmode=true` 欄的程式碼行。 這表示在文字模式中修改了欄。
+   >當您以文字模式編輯欄時，Workfront會將`textmode=true`行程式碼新增至欄。 這表示在文字模式中修改了欄。
 
    ![](assets/switch-to-text-mode-in-view-nwe-highlighted-350x447.png)
 
@@ -201,15 +201,15 @@ ht-degree: 1%
        </div>
 
    <div>
-      此 <code>aggregator. </code>行可以包含 <code>valuefield </code>或 <code>valueexpression</code>.
+      <code>aggregator. </code>行可能包含<code>valuefield </code>或<code>valueexpression</code>。
        </div> </td> 
      </tr> 
     </tbody> 
    </table>
 
-1. 按一下 **套用** 如果您要儲存變更並繼續編輯檢視。
-1. 按一下 **儲存+關閉** 以儲存報表。
+1. 如果要儲存變更並繼續編輯檢視，請按一下[套用]。****
+1. 按一下&#x200B;**儲存+關閉**&#x200B;以儲存您的報告。
 
    或
 
-   按一下 **儲存檢視** 將檢視儲存在清單中。
+   按一下&#x200B;**儲存檢視**，將檢視儲存在清單中。

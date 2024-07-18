@@ -226,11 +226,11 @@ ht-degree: 2%
  </tbody> 
 </table>
 
-&#42; 在群組管理員的存取層級中， **編輯** 必須為 **使用者** 設定，使用 **使用者管理員（群組使用者）** 已選取，在 **微調您的設定** ![](assets/gear-icon-in-access-levels.png). 如需詳細資訊，請參閱區段 [設定使用者的存取權，以使用自訂存取層級編輯使用者](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md#access-to-edit) 在文章中 [授予使用者存取許可權](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
+&#42;在群組管理員的存取層級中，必須為&#x200B;**使用者**&#x200B;設定選取&#x200B;**編輯**，並在&#x200B;**微調您的設定** ![](assets/gear-icon-in-access-levels.png)下選取&#x200B;**使用者管理員（群組使用者）**。 如需詳細資訊，請參閱[授予使用者存取權](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md)一文中的[設定使用者的存取權，以使用自訂存取層級](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md#access-to-edit)編輯使用者一節。
 
-&#42;&#42; 在群組管理員的存取層級中，必須啟用此動作的存取權。 如需詳細資訊，請參閱 [授予使用者管理特定區域的存取權](../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
+&#42;&#42;在群組管理員的存取層級中，必須啟用此動作的存取權。 如需詳細資訊，請參閱[授予使用者對特定區域的管理存取權](../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md)。
 
-&#42;&#42;&#42; 下列活動是「進階企業控制項」的一部份，不適用於「選取」計畫。 只有已購買Prime或Ultimate計畫的組織才能存取這些功能。  請參閱 [Adobe Workfront定價與封裝頁面](https://business.adobe.com/products/workfront/pricing.html) 以取得計畫的詳細資訊。 （針對使用舊版計畫的組織，上表顯示群組和子群組管理員的活動。）
+&#42;&#42;&#42;下列活動是「進階企業控制項」的一部份，不適用於「選取」計畫。 只有已購買Prime或Ultimate計畫的組織才能存取這些功能。  如需計畫的詳細資訊，請參閱[Adobe Workfront定價與封裝頁面](https://business.adobe.com/products/workfront/pricing.html)。 （針對使用舊版計畫的組織，上表顯示群組和子群組管理員的活動。）
 
 * 在群組層級設定專案、任務和問題偏好設定
 * 在群組層級設定時程表和小時偏好設定

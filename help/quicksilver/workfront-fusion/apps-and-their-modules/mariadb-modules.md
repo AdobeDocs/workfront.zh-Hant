@@ -1,24 +1,24 @@
 ---
 title: MariaDB模組
-description: 在 [!DNL Adobe Workfront Fusion] 情境下，您可以自動化使用下列專案的工作流程： [!DNL MariaDB]，以及將其連線到多個協力廠商應用程式和服務。
+description: 在 [!DNL Adobe Workfront Fusion] 案例中，您可以自動化使用 [!DNL MariaDB]的工作流程，並將其連線到多個協力廠商應用程式和服務。
 author: Becky
 draft: Probably
 feature: Workfront Fusion
 exl-id: 45d4d7fe-a70c-4906-adb4-f913a870fe47
 source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
 workflow-type: tm+mt
-source-wordcount: '593'
-ht-degree: 1%
+source-wordcount: '594'
+ht-degree: 0%
 
 ---
 
-# [!DNL MariaDB] 模組
+# [!DNL MariaDB]模組
 
-在 [!DNL Adobe Workfront Fusion] 情境下，您可以自動化使用下列專案的工作流程： [!DNL MariaDB]，以及將其連線到多個協力廠商應用程式和服務。
+在[!DNL Adobe Workfront Fusion]案例中，您可以自動化使用[!DNL MariaDB]的工作流程，並將其連線至多個協力廠商應用程式和服務。
 
-如果您需要建立案例的說明，請參閱 [在中建立情境 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md).
+如果您需要有關建立案例的指示，請參閱[在 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md)中建立案例。
 
-如需模組的相關資訊，請參閱 [中的模組 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/modules.md).
+如需模組的相關資訊，請參閱 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/modules.md)中的[模組。
 
 ## 存取需求
 
@@ -29,7 +29,7 @@ ht-degree: 1%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 計劃*</td>
+   <td role="rowheader">[!DNL Adobe Workfront] 計畫*</td>
   <td> <p>[！UICONTROL Pro]或更高版本</p> </td>
   </tr> 
   <tr data-mc-conditions=""> 
@@ -39,35 +39,35 @@ ht-degree: 1%
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] 授權**</td> 
    <td>
-   <p>目前授權需求：否 [!DNL Workfront Fusion] 授權需求。</p>
+   <p>目前授權需求：無[!DNL Workfront Fusion]授權需求。</p>
    <p>或</p>
-   <p>舊版授權需求： [！UICONTROL [!DNL Workfront Fusion] 適用於工作自動化與整合] </p>
+   <p>舊版授權需求：[！UICONTROL [!DNL Workfront Fusion] for Work Automation and Integration] </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">產品</td> 
    <td>
-   <p>目前產品需求：如果您有[！UICONTROL Select]或[！UICONTROL Prime] [!DNL Adobe Workfront] 計畫，您的組織必須購買 [!DNL Adobe Workfront Fusion] 以及 [!DNL Adobe Workfront] 以使用本文所述功能。 [!DNL Workfront Fusion] 包含在[！UICONTROL Ultimate]中 [!DNL Workfront] 計畫。</p>
+   <p>目前產品需求：如果您有[！UICONTROL Select]或[！UICONTROL Prime] [!DNL Adobe Workfront]計畫，您的組織必須購買[!DNL Adobe Workfront Fusion]及[!DNL Adobe Workfront]，才能使用本文所述的功能。 [!DNL Workfront Fusion]包含在[！UICONTROL Ultimate] [!DNL Workfront]計畫中。</p>
    <p>或</p>
-   <p>舊版產品需求：貴組織必須購買 [!DNL Adobe Workfront Fusion] 以及 [!DNL Adobe Workfront] 以使用本文所述功能。</p>
+   <p>舊版產品需求：您的組織必須購買[!DNL Adobe Workfront Fusion]及[!DNL Adobe Workfront]，才能使用本文所述的功能。</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-若要瞭解您擁有哪些計畫、授權型別或存取權，請聯絡您的 [!DNL Workfront] 管理員。
+若要瞭解您擁有的計畫、授權型別或存取權，請連絡您的[!DNL Workfront]管理員。
 
-有關以下專案的資訊： [!DNL Adobe Workfront Fusion] 授權，請參閱 [[!DNL Adobe Workfront Fusion] 授權](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+如需[!DNL Adobe Workfront Fusion]授權的相關資訊，請參閱[[!DNL Adobe Workfront Fusion] 授權](../../workfront-fusion/get-started/license-automation-vs-integration.md)。
 
-## 必要條件
+## 先決條件
 
-使用 [!DNL MariaDB] 模組，您必須擁有 [!DNL MariaDB] 帳戶。
+若要使用[!DNL MariaDB]模組，您必須有[!DNL MariaDB]帳戶。
 
-## Connect [!DNL MariaDB] 至 [!DNL Workfront Fusion]
+## 將[!DNL MariaDB]連線至[!DNL Workfront Fusion]
 
-您可以建立與的連線 [!DNL MariaDB] 直接從a內的帳戶 [!DNL MariaDB] 模組。
+您可以直接從[!DNL MariaDB]模組內建立與您的[!DNL MariaDB]帳戶的連線。
 
-1. 在任何 [!DNL MariaDB] 模組，按一下 **[!UICONTROL 新增]** 旁邊 [!UICONTROL 連線] 欄位。
+1. 在任何[!DNL MariaDB]模組中，按一下[!UICONTROL 連線]欄位旁的&#x200B;**[!UICONTROL 新增]**。
 1. 設定下列欄位：
 
    <table style="table-layout:auto"> 
@@ -80,7 +80,7 @@ ht-degree: 1%
      </tr> 
      <tr> 
       <td role="rowheader">[！UICONTROL主機]</td> 
-      <td> <p>輸入資料庫執行處理的IP位址或主機名稱。 此主機必須可從您的網路外部存取。</p> <p>範例: <code>[!DNL mariadb.hwoh2j5h.us-east-1.rds.amazon.com]</code></p> </td> 
+      <td> <p>輸入資料庫執行處理的IP位址或主機名稱。 此主機必須可從您的網路外部存取。</p> <p>範例： <code>[!DNL mariadb.hwoh2j5h.us-east-1.rds.amazon.com]</code></p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">[！UICONTROL連線埠]</td> 
@@ -92,7 +92,7 @@ ht-degree: 1%
      </tr> 
      <tr> 
       <td role="rowheader">[！UICONTROL使用者名稱]</td> 
-      <td>輸入您的使用者名稱.</td> 
+      <td>輸入您的使用者名稱。</td> 
      </tr> 
      <tr> 
       <td role="rowheader">[！UICONTROL密碼]</td> 
@@ -101,13 +101,13 @@ ht-degree: 1%
     </tbody> 
    </table>
 
-1. 按一下 **[!UICONTROL 繼續]** 以建立連線並返回模組。
+1. 按一下&#x200B;**[!UICONTROL 繼續]**&#x200B;以建立連線並返回模組。
 
-## [!DNL MariaDB] 模組及其欄位
+## [!DNL MariaDB]模組及其欄位
 
-當您設定 [!DNL MariaDB] 模組， [!DNL Workfront Fusion] 顯示下列欄位。 除了這些以外， [!DNL MariaDB] 視您在應用程式或服務中的存取層級等因素而定，可能會顯示欄位。 模組中的粗體標題表示必填欄位。
+當您設定[!DNL MariaDB]模組時，[!DNL Workfront Fusion]會顯示下列欄位。 除了這些欄位以外，可能還會顯示其他[!DNL MariaDB]欄位，視您在應用程式或服務中的存取層級等因素而定。 模組中的粗體標題表示必填欄位。
 
-如果您在欄位或函式上方看到對應按鈕，則可以使用它來設定該欄位的變數和函式。 如需詳細資訊，請參閱 [將資訊從一個模組對應至中的另一個模組 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
+如果您在欄位或函式上方看到對應按鈕，則可以使用它來設定該欄位的變數和函式。 如需詳細資訊，請參閱[在 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md)中將資訊從一個模組對應到另一個模組。
 
 ![](assets/map-toggle-350x74.png)
 
@@ -120,17 +120,17 @@ ht-degree: 1%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[！UICONTROL連線]</td> 
-   <td>如需有關連線您的電腦的指示， [!DNL MariaDB] 帳戶至 [!DNL Workfront Fusion]，請參閱 <a href="#connect-mariadb-to-workfront-fusion" class="MCXref xref">Connect [!DNL MariaDB] 至 [!DNL Workfront Fusion]</a> 本文章內容。</td> 
+   <td role="rowheader">[！UICONTROL Connection]</td> 
+   <td>如需有關將您的[!DNL MariaDB]帳戶連線到[!DNL Workfront Fusion]的說明，請參閱本文中的<a href="#connect-mariadb-to-workfront-fusion" class="MCXref xref">將[!DNL MariaDB]連線到[!DNL Workfront Fusion]</a>。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL查詢]</td> 
-   <td> <p>輸入您希望模組用來擷取資料的SQL查詢。</p> <p>重要：查詢中使用的變數不會經過淨化。 請務必正確清理變數，以避免SQL插入。</p> </td> 
+   <td role="rowheader">[！UICONTROL Query]</td> 
+   <td> <p>輸入您希望模組用來擷取資料的SQL查詢。</p> <p>重要：查詢中使用的變數不會經過淨化。 請務必正確清理變數，以防止SQL插入。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-### [!UICONTROL 從表格中選取列（進階）]
+### [!UICONTROL 從資料表選取資料列（進階）]
 
 此模組會從您的資料庫讀取記錄。
 
@@ -139,12 +139,12 @@ ht-degree: 1%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[！UICONTROL連線]</td> 
-   <td>如需有關連線您的電腦的指示， [!DNL MariaDB] 帳戶至 [!DNL Workfront Fusion]，請參閱 <a href="#connect-mariadb-to-workfront-fusion" class="MCXref xref">Connect [!DNL MariaDB] 至 [!DNL Workfront Fusion]</a> 本文章內容。</td> 
+   <td role="rowheader">[！UICONTROL Connection]</td> 
+   <td>如需有關將您的[!DNL MariaDB]帳戶連線到[!DNL Workfront Fusion]的說明，請參閱本文中的<a href="#connect-mariadb-to-workfront-fusion" class="MCXref xref">將[!DNL MariaDB]連線到[!DNL Workfront Fusion]</a>。</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL表格]</td> 
-   <td> <p>選取包含您要讀取之記錄的表格。</p> </td> 
+   <td> <p>選取包含要讀取之記錄的表格。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL篩選器]</td> 
@@ -157,11 +157,11 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL排序] </td> 
-   <td> <p>針對您想要排序結果的每個層級，按一下 <strong>[！UICONTROL新增專案]</strong>，然後選取您想要作為結果排序依據的欄位，以及您想要遞增排序還是遞減排序</p> </td> 
+   <td> <p>針對您想要排序結果的每個層級，按一下<strong>[！UICONTROL新增專案]</strong>，然後選取您想要排序結果的欄位，以及您想要以升序或降序排序</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL限制]</td> 
-   <td> <p>輸入或對應您希望模組在每個案例執行週期內傳回的最大記錄數。</p> </td> 
+   <td> <p>輸入或對應您希望模組在每個案例執行週期中傳回的最大記錄數。</p> </td> 
   </tr> 
  </tbody> 
 </table>

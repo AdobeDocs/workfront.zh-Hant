@@ -2,23 +2,23 @@
 product-previous: workfront-proof
 product-area: documents
 navigation-topic: organize-your-work-workfront-proof
-title: 列印和匯出註解於 [!DNL Workfront Proof]
-description: 評論摘要可在Workfront校訂中存取。
+title: 在 [!DNL Workfront Proof]中列印及匯出註解
+description: 您可以在Workfront Proof中存取「註解」摘要。
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 212d465c-5605-4bb9-af5a-cea377619cfe
 source-git-commit: c3e15a052533d43065b50a9f56169b82f8dc3765
 workflow-type: tm+mt
-source-wordcount: '477'
-ht-degree: 1%
+source-wordcount: '469'
+ht-degree: 0%
 
 ---
 
-# 列印和匯出註解於 [!DNL Workfront Proof]
+# 在[!DNL Workfront Proof]中列印及匯出註解
 
 >[!IMPORTANT]
 >
->本文提及獨立版產品中的功能 [!DNL Workfront Proof]. 有關內部校訂的資訊 [!DNL Adobe Workfront]，請參閱 [校訂](../../../review-and-approve-work/proofing/proofing.md).
+>本文提及獨立產品[!DNL Workfront Proof]中的功能。 有關[!DNL Adobe Workfront]內部校訂的資訊，請參閱[校訂](../../../review-and-approve-work/proofing/proofing.md)。
 
 ## 列印註解
 
@@ -26,28 +26,28 @@ ht-degree: 1%
 
 * [校訂檢視器](#the-proof-viewer)
 * [校訂詳細資訊頁面](#the-proof-details-page)
-* [此 [!DNL Proof] 動作功能表](#the-proof-actions-menu)
+* [ [!DNL Proof] 動作功能表](#the-proof-actions-menu)
 
 ### 校訂檢視器 {#the-proof-viewer}
 
-您可以按一下「 」，列印校樣的評論摘要，包括校樣的縮圖或完整檢視影像 **[!UICONTROL 列印]** 圖示進行校訂。 (1)
+您可以按一下校訂檢視器中的&#x200B;**[!UICONTROL 列印]**&#x200B;圖示，列印校訂的評論摘要，包括校訂的縮圖或完整檢視影像。 (1)
 
 ![PV_print_all_comm.png](assets/pv-print-all-comm-350x158.png)
 
 ### 校訂詳細資訊頁面 {#the-proof-details-page}
 
-您可以按一下 **[!UICONTROL 列印]** 圖示加以存取。 (2)
+您可以按一下校樣詳細資訊頁面上的&#x200B;**[!UICONTROL 列印]**&#x200B;圖示，以列印校樣的評論摘要。 (2)
 
 ![proof_details_page.png](assets/proof-details-page-350x231.png)
 
-### 此 [!DNL Proof] 動作功能表 {#the-proof-actions-menu}
+### [!DNL Proof]動作功能表 {#the-proof-actions-menu}
 
-您可以按一下 **[!UICONTROL 列印]** 圖示於 [!UICONTROL 校訂動作] 功能表。
+您可以按一下[!UICONTROL 校訂動作]功能表中的&#x200B;**[!UICONTROL 列印]**&#x200B;圖示，列印校訂的評論摘要。
 
-若要存取 [!UICONTROL 評論摘要] 從清單檢視建立頁面：
+若要從清單檢視存取[!UICONTROL 評論摘要]頁面：
 
-1. 按一下 **[!UICONTROL 動作]** 功能表。 (3)
-1. 選取 **[!UICONTROL 列印註解]**. (4)
+1. 按一下&#x200B;**[!UICONTROL 動作]**&#x200B;功能表。 (3)
+1. 選取&#x200B;**[!UICONTROL 列印註解]**。 (4)
 
 ![List_view.png](assets/list-view-350x155.png)\
 在「註解」摘要頁面上，您可以選擇下列列印選項：
@@ -56,7 +56,7 @@ ht-degree: 1%
 * 全頁檢視(2)
 * 列印頁面(3)
 * 將含有註解的校樣匯出至PDF檔案(4)
-* 將校訂評論匯出到 [!DNL Excel] 檔案(5)
+* 將校訂註解匯出至[!DNL Excel]檔案(5)
 
 ![PV_thumb_full_option_callouts.png](assets/pv-thumb-full-option-callouts-350x154.png)
 
@@ -64,7 +64,7 @@ ht-degree: 1%
 
 「縮圖」檢視會依序顯示每個註解，以及每個註解的完整對話串。 您也可以排序註解，並檢視每個註解的縮圖（已新增標示）。
 
-若要列印縮圖檢視，請按一下 **[!UICONTROL 印表機]** 圖示並選取下列其中一項：
+若要列印縮圖檢視，請按一下頁面右上角的&#x200B;**[!UICONTROL 印表機]**&#x200B;圖示，並選取下列其中一項：
 
 * 依評論ID或頁面排序(1)
 * 每個已新增標示的註解的縮圖(2)
@@ -75,28 +75,28 @@ ht-degree: 1%
 
 整頁檢視會依序顯示每個頁面，以及該頁面上的註解，以及指出註解標籤在頁面上的位置的圖釘。
 
-若要列印整頁檢視，請按一下 **[!UICONTROL 印表機]** 圖示加以顯示。
+若要列印整頁檢視，請按一下頁面右上角的&#x200B;**[!UICONTROL 印表機]**&#x200B;圖示。
 
 ![PV_full.png](assets/pv-full-350x347.png)
 
-## 匯出 [!DNL Excel] 摘要
+## 匯出[!DNL Excel]摘要
 
-若要下載 [!DNL Excel] 摘要：
+若要下載[!DNL Excel]摘要：
 
-1. 開啟校樣右側的校樣動作功能表，然後按一下 **[!UICONTROL [!DNL Excel]摘要]**. (1)\
+1. 開啟校訂右側的校訂動作功能表，然後按一下&#x200B;**[!UICONTROL [!DNL Excel]摘要]**。 (1)\
    ![Excel_summary.png](assets/excel-summary-350x450.png)
 
-若要下載 [!DNL Excel] 來自校訂詳細資訊頁面的摘要：
+若要從校訂詳細資訊頁面下載[!DNL Excel]摘要：
 
-1. 按一下「匯出至」 **[!DNL Excel]** 圖示。 (2)
+1. 按一下「匯出至&#x200B;**[!DNL Excel]**」圖示。 (2)
 1. ![Export_to_excel.png](assets/export-to-excel-350x185.png)
 
 ## 匯出至PDF
 
 若要將校訂連同所有標示和註解匯出至PDF，請執行下列步驟：
 
-1. 前往 **[!UICONTROL 檢視]** 在熒幕左側。
-1. 按一下 **[!UICONTROL 更多]** 圖示內嵌校樣，然後按一下 **[!UICONTROL 列印註解]**.
+1. 前往畫面左側的&#x200B;**[!UICONTROL 檢視]**。
+1. 按一下內嵌校訂的&#x200B;**[!UICONTROL 更多]**&#x200B;圖示，然後按一下&#x200B;**[!UICONTROL 列印評論]**。
 
 1. 按一下頁面右上角的「匯出至PDF」圖示。
 

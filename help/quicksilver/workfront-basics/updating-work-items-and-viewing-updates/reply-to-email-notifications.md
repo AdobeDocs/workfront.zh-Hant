@@ -70,7 +70,7 @@ ht-degree: 1%
  </tbody> 
 </table>
 
-*若要瞭解您擁有的計畫、授權型別或存取權，請聯絡您的Workfront管理員。 如需詳細資訊，請參閱 [Workfront檔案的存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*若要瞭解您擁有的計畫、授權型別或存取權，請聯絡您的Workfront管理員。 如需詳細資訊，請參閱[Workfront檔案的存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 ## 回覆電子郵件通知的更新
 
@@ -79,15 +79,15 @@ ht-degree: 1%
 1. 開啟Workfront中更新產生的電子郵件通知。
 
    ![email.png](assets/email-350x202.png)
-1. 按一下 **註解** 從電子郵件通知。
+1. 按一下電子郵件通知中的&#x200B;**註解**。
 
    物件的「詳細資訊」頁面會在Workfront中開啟。
 
 1. 前往您要新增回覆的更新。
 
-   除了檢視積極參與交談的使用者外，您還可以在該更新對話串頂端檢視每個回覆中被標籤的訪客。 這些使用者以及訂閱物件的任何使用者會在物件進行更新或回覆時收到通知。 若要標籤更多使用者，請參閱 [標籤其他人的更新](../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
+   除了檢視積極參與交談的使用者外，您還可以在該更新對話串頂端檢視每個回覆中被標籤的訪客。 這些使用者以及訂閱物件的任何使用者會在物件進行更新或回覆時收到通知。 若要標籤更多使用者，請參閱[標籤其他人的更新](../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md)。
 
-1. 按一下 **回覆，** 輸入您的回覆，然後按一下 **回覆**.
+1. 按一下&#x200B;**回覆，**&#x200B;輸入您的回覆，然後按一下&#x200B;**回覆**。
 
    回覆會新增為註解對話串的新註解。
 

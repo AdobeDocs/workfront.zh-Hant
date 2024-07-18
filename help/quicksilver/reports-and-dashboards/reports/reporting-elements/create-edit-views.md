@@ -17,7 +17,7 @@ ht-degree: 1%
 
 您可以使用檢視來自訂顯示在熒幕上的資訊型別。 您可以在Adobe Workfront中使用數種檢視。
 
-本文說明如何建立及編輯清單與報告的標準檢視，以及如何建立敏捷檢視。 如需詳細資訊，請參閱 [Adobe Workfront中的檢視概觀](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
+本文說明如何建立及編輯清單與報告的標準檢視，以及如何建立敏捷檢視。 如需詳細資訊，請參閱[Adobe Workfront中的檢視總覽](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md)。
 
 ## 存取需求
 
@@ -39,16 +39,16 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td role="rowheader"><strong>存取層級設定*</strong></td> 
-   <td> <p>編輯對篩選器、檢視、群組的存取權</p> <p>編輯對報告、儀表板、行事曆的存取權，以在報告中建立檢視</p> <p>注意：如果您還是沒有存取權，請詢問您的Workfront管理員，他們是否在您的存取層級中設定其他限制。 如需有關Workfront管理員如何修改您的存取層級的資訊，請參閱 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>.</p> </td> 
+   <td> <p>編輯對篩選器、檢視、群組的存取權</p> <p>編輯對報告、儀表板、行事曆的存取權，以在報告中建立檢視</p> <p>注意：如果您還是沒有存取權，請詢問您的Workfront管理員，他們是否在您的存取層級中設定其他限制。 如需Workfront管理員如何修改存取層級的詳細資訊，請參閱<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>物件許可權</strong></td> 
-   <td> <p>管理報表的許可權，以建立或編輯報表中的檢視</p> <p>管理檢視的許可權以進行編輯</p> <p>如需請求其他存取許可權的詳細資訊，請參閱 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">要求物件的存取權 </a>.</p> </td> 
+   <td> <p>管理報表的許可權，以建立或編輯報表中的檢視</p> <p>管理檢視的許可權以進行編輯</p> <p>如需請求其他存取權的資訊，請參閱<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">請求物件</a>的存取權。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;若要瞭解您擁有的計畫、授權型別或存取權，請聯絡您的Workfront管理員。
+&#42;若要瞭解您擁有的計畫、授權型別或存取權，請連絡您的Workfront管理員。
 
 +++
 
@@ -63,19 +63,19 @@ ht-degree: 1%
 
 您可以建立新的標準檢視，也可以自訂您先前建立的現有標準檢視。
 
-1. 按一下 **檢視** 任何清單上的下拉式功能表，您可在其中建立或自訂檢視。
+1. 在您要建立或自訂檢視的任何清單上，按一下&#x200B;**檢視**&#x200B;下拉式功能表。
 1. （可選）若要自訂現有的檢視，請選取您要自訂的標準檢視。\
    在Workfront中，任何型別的清單（例如報告、專案清單或工作清單）都可以使用標準檢視。
-1. 按一下 **檢視** 下拉式功能表，然後按一下 **自訂檢視** 或 **新檢視**.\
-   此 **自訂檢視** 對話方塊隨即顯示。
+1. 按一下&#x200B;**檢視**&#x200B;下拉式功能表，然後按一下&#x200B;**自訂檢視**&#x200B;或&#x200B;**新檢視**。\
+   顯示&#x200B;**自訂檢視**&#x200B;對話方塊。
 
-1. 在 **欄預覽** 部分，執行下列任一項作業：
+1. 在&#x200B;**資料行預覽**&#x200B;區段中，執行下列任一項作業：
 
    * 按一下欄標題，然後選取新欄位，修改任何欄的值。
-   * 按一下以新增欄 **新增欄**，開始輸入您要新增的欄名稱，然後當它出現在下拉式清單中時按一下它。
+   * 按一下&#x200B;**新增欄**&#x200B;來新增欄，開始輸入您要新增的欄名稱，然後當它出現在下拉式清單中時按一下它。
    * 將欄標題拖曳至新位置，調整欄的顯示順序。
 
-      * （選用）在 **欄設定** 區域，按一下 **此欄的摘要方式** 下拉式清單，然後選取其中一個可用選項來彙總資訊。 選擇此選項時，您欄中的資訊會在報表的群組中彙總。\
+      * （選擇性）在&#x200B;**資料行設定**&#x200B;區域中，按一下&#x200B;**摘要此資料行**&#x200B;下拉式清單，然後選取其中一個可用選項來摘要資訊。 選擇此選項時，您欄中的資訊會在報表的群組中彙總。\
         對於日期欄位，您可以透過以下選項彙總值：
 
          * 最大值
@@ -99,9 +99,9 @@ ht-degree: 1%
         >   
         >
 
-        如需在報表中使用群組的詳細資訊，請參閱文章 [Adobe Workfront中的群組概觀](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
+        如需在報告中使用群組的詳細資訊，請參閱文章[ Adobe Workfront中的群組概觀](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md)。
 
-      * （選用）按一下 **進階選項** 指定欄的下列資訊：
+      * （選擇性）按一下&#x200B;**進階選項**，為資料行指定下列資訊：
 
         <table style="table-layout:auto"> 
          <col> 
@@ -121,22 +121,22 @@ ht-degree: 1%
           </tr> 
           <tr> 
            <td role="rowheader"><strong>欄規則</strong></td> 
-           <td><p>按一下 <strong>為此欄新增規則</strong> 以定義欄的規則。 新增規則後，您可以定義欄位和文字樣式，以顯示符合該規則的欄位。 按一下 <strong>新增規則</strong> 定義完規則之後。</p></td> 
+           <td><p>按一下<strong>新增此資料行的規則</strong>以定義資料行的規則。 新增規則後，您可以定義欄位和文字樣式，以顯示符合該規則的欄位。 完成規則定義後，按一下<strong>新增規則</strong>。</p></td> 
           </tr> 
          </tbody> 
         </table>
 
-        如需有關在報表中有條件地格式化檢視的詳細資訊，請參閱文章 [在文字模式中使用條件式格式](../../../reports-and-dashboards/reports/text-mode/use-conditional-formatting-text-mode.md).
+        如需有關報表中有條件格式化檢視表的詳細資訊，請參閱文章[在文字模式中使用條件格式](../../../reports-and-dashboards/reports/text-mode/use-conditional-formatting-text-mode.md)。
 
-1. （視條件而定）如果您按一下 **進階選項**，按一下 **完成**.
+1. （視條件而定）如果您按一下&#x200B;**進階選項**，請按一下&#x200B;**完成**。
 
-1. 按一下 **儲存檢視** 以建立新檢視或以您的變更取代目前檢視。\
+1. 按一下&#x200B;**儲存檢視**&#x200B;以建立新檢視，或以您的變更取代目前的檢視。\
    或\
-   按一下 **另存為新檢視** 將變更另存為新檢視。
+   按一下&#x200B;**另存為新檢視**，將您的變更另存為新檢視。
 
    >[!TIP]
    >
-   >此 **另存為新檢視** 是自訂內建Workfront檢視時唯一可用的選項。
+   >當您自訂內建Workfront檢視時，**另存為新檢視**&#x200B;是唯一可用的選項。
 
    您的存取權會指定檢視的儲存方式。 如果最初建立的是檢視，您可以儲存變更；否則，系統會提示您儲存版本。 請記住，您對檢視所做的變更會影響已共用檢視的使用者。
 
@@ -148,7 +148,7 @@ ht-degree: 1%
 >
 >敏捷檢視僅在檢視專案時可用。
 
-如需關於敏捷檢視的詳細資訊，請參閱文章 [在敏捷檢視中管理專案](../../../manage-work/projects/manage-projects/manage-projects-in-agile-view.md).
+如需敏捷檢視的詳細資訊，請參閱文章[在敏捷檢視中管理專案](../../../manage-work/projects/manage-projects/manage-projects-in-agile-view.md)。
 
 >[!NOTE]
 >
@@ -157,24 +157,24 @@ ht-degree: 1%
 若要建立或自訂敏捷檢視：
 
 1. 前往專案上的任務清單。
-1. 按一下 **展示板** 圖示 ![展示板圖示](assets/board-icon-for-agile-view.png)，然後按一下 **使用舊版敏捷** 在展示板檢視上。
+1. 按一下&#x200B;**展示板**&#x200B;圖示![展示板圖示](assets/board-icon-for-agile-view.png)，然後按一下展示板檢視上的&#x200B;**使用舊版敏捷**。
 
 1. （視條件而定）若要自訂現有的敏捷檢視：
 
-   1. 按一下 **檢視** 下拉式功能表，然後選取您要自訂的敏捷檢視。\
+   1. 按一下&#x200B;**檢視**&#x200B;下拉式功能表，然後選取您要自訂的敏捷檢視。\
       您無法自訂預設的敏捷檢視。
 
-   1. 按一下 **檢視** 再次使用下拉式功能表，然後按一下 **自訂檢視**.\
+   1. 再次按一下&#x200B;**檢視**&#x200B;下拉式功能表，然後按一下&#x200B;**自訂檢視**。\
       ![](assets/view-agile-customize.png)
 
-1. （視條件而定）若要建立新的敏捷檢視，請按一下 **新檢視**.\
-   此 **自訂敏捷檢視** 對話方塊隨即顯示。
+1. （視條件而定）若要建立新的敏捷檢視，請按一下&#x200B;**新檢視**。\
+   顯示&#x200B;**自訂敏捷檢視**&#x200B;對話方塊。
 
-1. 在 **自訂敏捷檢視** 對話方塊中，指定敏捷檢視的名稱。\
+1. 在&#x200B;**自訂敏捷檢視**&#x200B;對話方塊中，指定敏捷檢視的名稱。\
    我們建議您在檢視名稱中加入「敏捷」一詞，讓使用者知道這是敏捷檢視。\
-   此名稱會顯示在 **檢視** 下拉式功能表（選擇檢視時）。
+   選取檢視時，此名稱會顯示在&#x200B;**檢視**&#x200B;下拉式功能表中。
 
-1. 定義要在敏捷檢視的內文板上顯示的狀態列。 這些是由Workfront管理員定義的工作狀態，如中所述 [建立或編輯狀態](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md).
+1. 定義要在敏捷檢視的內文板上顯示的狀態列。 這些是Workfront管理員定義的工作狀態，如[建立或編輯狀態](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md)中所述。
 
    敏捷故事板上只能使用系統狀態。 如果狀態僅適用於您為成員的個別群組，則敏捷故事板上不會提供狀態。 此外，在敏捷檢視中檢視專案時，看不到狀態為僅供自訂群組使用的任務。
 
@@ -190,12 +190,12 @@ ht-degree: 1%
       <td> 將狀態列拖曳至您要其顯示的順序。<br><img src="assets/agile-project-reorderstatuses-350x141.png" alt="" style="width: 350;height: 141;"></td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>移除狀態列：</strong> </td> 
-      <td>按一下您要移除之欄上的(x)圖示。<br>除非已在檢視中新增自訂狀態，且該自訂狀態等於「新增」，否則您無法移除「新增」狀態。<br>如需有關建立自訂狀態的資訊，請參閱 <a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md" class="MCXref xref">建立或編輯狀態</a>.</td> 
+      <td role="rowheader"><strong>移除狀態資料行：</strong> </td> 
+      <td>按一下您要移除之欄上的(x)圖示。<br>除非已新增自訂狀態至檢視，且該自訂狀態等於「新增」，否則您無法移除「新增」狀態。<br>如需建立自訂狀態的詳細資訊，請參閱<a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md" class="MCXref xref">建立或編輯狀態</a>。</td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>新增狀態列：</strong> </td> 
-      <td> <p>按一下 <strong>加號</strong> 圖示，然後選取您要新增的狀態。<br>所有預設系統狀態以及已與您共用的任何自訂狀態都會顯示。<br>您可以設定顯示最多10個狀態。</p></td> 
+      <td role="rowheader"><strong>新增狀態資料行：</strong> </td> 
+      <td> <p>按一下<strong>加號</strong>圖示，然後選取您要新增的狀態。<br>會顯示所有預設的系統狀態，以及與您共用的任何自訂狀態。<br>您可以設定顯示最多10個狀態。</p></td> 
      </tr> 
     </tbody> 
    </table>
@@ -204,7 +204,7 @@ ht-degree: 1%
         <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE FOR ADD STATUS COLUMNS: research this and add: [! What if the status has been shared with me or a group I'm in (so I can see it here), but the status hasn't been shared with another user who also has access to a project where I later apply this view? Can that user still see this status on the project?]) </p>
        -->
 
-1. 在 **將卡片顏色關聯至** 區域，選取下列選項：
+1. 在&#x200B;**將卡片顏色與**&#x200B;區域關聯中，從下列選項中選取：
 
    <table style="table-layout:auto"> 
     <col> 
@@ -212,29 +212,29 @@ ht-degree: 1%
     <tbody> 
      <tr> 
       <td role="rowheader"><strong>劇本：</strong> </td> 
-      <td>任何子任務都符合父任務的顏色，因此任何指定泳道中所有劇本的顏色都相同。<br>如果任務沒有任何子任務或沒有父任務，則在建立顏色時，顏色會隨機指派給任務。</td> 
+      <td>任何子任務都符合父任務的顏色，因此任何指定泳道中所有劇本的顏色都相同。<br>如果任務沒有任何子任務或沒有父任務，則會在建立顏色時隨機指派給任務。</td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>自由格式：</strong> </td> 
-      <td> 所有卡片預設都會顯示為藍色，直到使用者手動變更顏色為止，如文章所述 <a href="../../../agile/use-scrum-in-an-agile-team/scrum-board/categorize-stories-by-color.md" class="MCXref xref">在Scrum板上依顏色分類劇本</a>. </td> 
+      <td> 所有卡片預設都會顯示為藍色，直到使用者手動變更顏色為止，如文章<a href="../../../agile/use-scrum-in-an-agile-team/scrum-board/categorize-stories-by-color.md" class="MCXref xref">在Scrum展示板上依顏色分類劇本</a>中所述。 </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>優先順序：</strong> </td> 
       <td> <p> 顏色與內文優先順序相關聯，如下所示：</p> 
        <ul> 
         <li>高=紅色</li> 
-        <li>中=黃色</li> 
+        <li>Medium =黃色</li> 
         <li>低=綠色<br>如果您的Workfront管理員已設定Workfront系統的自訂優先順序，最高優先順序為紅色，次高為黃色，其餘為綠色。</li> 
        </ul> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>任務擁有者：</strong> </td> 
-      <td> 所有主要受指派人相同的劇本都是相同的色彩。<br>主要受指派人是首次受指派工作的使用者。 </td> 
+      <td role="rowheader"><strong>工作擁有者：</strong> </td> 
+      <td> 所有主要受指派人相同的劇本都是相同的色彩。<br>主要受指派人是第一個受指派工作的使用者。 </td> 
      </tr> 
     </tbody> 
    </table>
 
-1. 在 **敏捷** 區段，在 **其他欄位** 區域，按一下 **新增欄位**，然後選取您要新增至劇本卡的欄位。 （這些欄位與建立自訂檢視或建立報表欄位時可新增的欄位相同。）\
+1. 在&#x200B;**敏捷**&#x200B;區段中，在&#x200B;**其他欄位**&#x200B;區域中，按一下&#x200B;**新增欄位**，然後選取您要新增到故事卡的欄位。 （這些欄位與建立自訂檢視或建立報表欄位時可新增的欄位相同。）\
    重複此程式，向劇本卡片新增最多三個額外的欄位。\
    當您新增欄位到內文卡時，欄位是僅供檢視的，並且只有在填入欄位時才顯示。
 
@@ -253,4 +253,4 @@ ht-degree: 1%
 1. 按一下「**儲存**」。\
    您的存取權會指定檢視的儲存方式。 如果最初建立的是檢視，您可以儲存變更；否則，系統會提示您儲存版本。 請記住，您對檢視所做的變更會影響已共用檢視的使用者。
 
-1. （可選）按一下 **清單** 圖示以返回工作清單。
+1. （選擇性）按一下&#x200B;**清單**&#x200B;圖示以返回工作清單。

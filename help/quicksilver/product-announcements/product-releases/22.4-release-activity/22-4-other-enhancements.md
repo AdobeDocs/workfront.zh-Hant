@@ -17,17 +17,17 @@ ht-degree: 0%
 
 本頁說明22.4版本對預覽環境所做的所有其他增強功能。 這些增強功能將在2022年10月3日當週提供。
 
-如需22.4版本所有可用變更的清單，請參閱 [22.4版本總覽](/help/quicksilver/product-announcements/product-releases/22.4-release-activity/22-4-release-overview.md).
+如需22.4版本可用的所有變更清單，請參閱[22.4版本總覽](/help/quicksilver/product-announcements/product-releases/22.4-release-activity/22-4-release-overview.md)。
 
 ## 適用於InDesign的Adobe Workfront
 
 此外掛程式現在可在InDesign中安裝。 它可讓您存取工作專案詳細資料、與更新區域中的同事共同作業，以及提交校樣以供全部檢閱，而不需離開XD。 立即前往Adobe Creative Cloud Marketplace下載外掛程式。
 
-如需外掛程式的詳細資訊，請參閱 [[!DNL Adobe Workfront] 外掛程式 [!DNL Creative Cloud] 應用](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-cc.md).
+如需外掛程式的詳細資訊，請參閱 [!DNL Creative Cloud] 應用程式](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-cc.md)的[[!DNL Adobe Workfront] 外掛程式。
 
-[立即下載Adobe Workfront以在Marketplace中InDesign](https://exchange.adobe.com/apps/cc/108938/adobe-workfront-for-indesign).
+[立即下載Adobe Workfront以在Marketplace中進行InDesign](https://exchange.adobe.com/apps/cc/108938/adobe-workfront-for-indesign)。
 
-管理員也可以 [使用外掛程式建立套件](https://helpx.adobe.com/in/enterprise/using/manage-extensions.html) 從Admin Console並以受管理或自我管理方式部署給使用者。
+管理員也可以從Admin Console[建立包含外掛程式](https://helpx.adobe.com/in/enterprise/using/manage-extensions.html)的套件，並以受管理或自我管理的方式部署給使用者。
 
 ## 將物件中繼資料與原生Experience Manager Assets整合約步
 
@@ -37,7 +37,7 @@ ht-degree: 0%
 
 以前只會自動更新專案欄位。
 
-如需詳細資訊，請參閱 [設定Experience Manager Assetsas a Cloud Service整合](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md).
+如需詳細資訊，請參閱[設定Experience Manager Assetsas a Cloud Service整合](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md)。
 
 ## 計畫和投資組合父物件的中繼資料推送
 
@@ -45,7 +45,7 @@ ht-degree: 0%
 
 以前，只傳送父級專案資料。
 
-如需詳細資訊，請參閱 [傳送檔案至Experience Manager Assets或Assets Essentials](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/send-to-aem.md).
+如需詳細資訊，請參閱[將檔案傳送至Experience Manager Assets或Assets Essentials](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/send-to-aem.md)。
 
 ## 展開的團隊說明
 
@@ -55,9 +55,9 @@ ht-degree: 0%
 
 說明的這一增強功能適用於敏捷和非敏捷團隊。
 
-如需詳細資訊，請參閱 [建立團隊](/help/quicksilver/people-teams-and-groups/create-and-manage-teams/create-a-team.md).
+如需詳細資訊，請參閱[建立團隊](/help/quicksilver/people-teams-and-groups/create-and-manage-teams/create-a-team.md)。
 
-## Workfront Campaigns （測試版） — 管理您工作的新方法
+## Workfront Campaigns (Beta) — 管理您工作的新方法
 
 >[!NOTE]
 >
@@ -75,7 +75,7 @@ Workfront行銷活動可讓您在新的工作容器中組織來自不同投資�
 
 * 名為Campaign的新Workfront物件
 
-* 主要功能表中的新行銷活動（測試版）區域
+* 主要功能表中的新行銷活動(Beta)區域
 
 * 行銷活動區域中的行銷活動清單
 

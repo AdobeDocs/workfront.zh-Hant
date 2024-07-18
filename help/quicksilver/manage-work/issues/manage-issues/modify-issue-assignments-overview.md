@@ -29,11 +29,11 @@ ht-degree: 0%
 
 本文包含有關修改問題指派之影響的一般資訊。 如需如何指派問題的相關資訊，請參閱下列文章：
 
-* 有關指派問題的資訊，請參閱 [指派問題](../../../manage-work/issues/manage-issues/assign-issues.md) 和 [修改清單中多個問題的使用者指派](../../../manage-work/issues/manage-issues/edit-assignments-for-multiple-issues.md).
+* 如需指派問題的相關資訊，請參閱[指派問題](../../../manage-work/issues/manage-issues/assign-issues.md)和[修改清單中多個問題的使用者指派](../../../manage-work/issues/manage-issues/edit-assignments-for-multiple-issues.md)。
 
-* 如需有關使用工作負載平衡器指派問題的資訊，請參閱 [在工作負載平衡器中指派工作的總覽](../../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md).
+* 如需有關使用工作負載平衡器指派問題的資訊，請參閱在工作負載平衡器](../../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md)中指派工作的總覽。[
 
-本文章中的部分資訊也適用於工作的指派。 有關指派任務和額外考量的詳細資訊，請參閱 [修改任務指派的概要](../../../manage-work/tasks/assign-tasks/modify-task-assignments-overview.md).
+本文章中的部分資訊也適用於工作的指派。 如需指派任務及其他考量事項的詳細資訊，請參閱[修改任務指派的概觀](../../../manage-work/tasks/assign-tasks/modify-task-assignments-overview.md)。
 
 ## 何時修改問題的使用者指派
 
@@ -47,7 +47,7 @@ ht-degree: 0%
 
 您可以一次從一個問題中移除指派，也可以從多個問題中大量移除指派。
 
-如需有關從問題中大量移除指派的詳細資訊，請參閱 [修改清單中多個問題的使用者指派](../../../manage-work/issues/manage-issues/edit-assignments-for-multiple-issues.md).
+如需有關從問題大量移除指派的詳細資訊，請參閱[修改清單中多個問題的使用者指派](../../../manage-work/issues/manage-issues/edit-assignments-for-multiple-issues.md)。
 
 從問題中移除指派時，請考量下列事項：
 

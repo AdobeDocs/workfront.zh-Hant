@@ -2,23 +2,23 @@
 product-previous: workfront-goals
 content-type: release-notes
 navigation-topic: goals-release-activity
-title: Adobe Workfront第23.1發行版本的目標
-description: 本頁提供有關新Adobe Workfront體驗中目標功能的資訊，此新Adobe Workfront體驗將隨23.1版發行至生產環境。
+title: 第23.1發行版本中的Adobe Workfront目標
+description: 本頁提供在23.1版中發佈至生產環境的新Adobe Workfront體驗中Adobe Workfront目標功能的相關資訊。
 author: Courtney
 feature: Product Announcements, Workfront Goals
 exl-id: d6a3e048-3f55-4954-9b65-f7f55c77d1a3
 source-git-commit: 2c02db0a08921d1daa16c0a9beef7b40d09565ef
 workflow-type: tm+mt
-source-wordcount: '340'
+source-wordcount: '347'
 ht-degree: 0%
 
 ---
 
-# Adobe Workfront第23.1發行版本的目標
+# 第23.1發行版本中的Adobe Workfront目標
 
-本頁提供Adobe Workfront目標功能的相關資訊，此目標將隨23.1版推出（排定在2023年1月16日當周）至生產環境。
+此頁面提供Adobe Workfront Goals隨23.1版發佈至生產環境之功能的相關資訊，該版本預計在2023年1月16日當週發行。
 
-如需Workfront所有區域目前在23.1發行週期中可用的所有變更清單，請參閱 [23.1版本概觀](/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-release-overview.md).
+如需23.1版本週期中此時適用於Workfront所有區域的所有變更清單，請參閱[23.1版本總覽](/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-release-overview.md)。
 
 <table>
             <col style="width: 50%;" />
@@ -36,30 +36,30 @@ ht-degree: 0%
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/goals-release-activity/goals-23-1-release/goals-jan.md">Workfront目標更新</a></p>
-                        <p>為了與Workfront的其他部分建立更一致的體驗，並且讓檢視和運用您的目標更輕鬆，我們已更新Workfront目標。 「Workfront目標」的外觀和風格現在更像Workfront的其他領域。 </p>
-                        <p>現在，頁首、清單和詳細資訊卡等區域已與您在Workfront中的體驗相熟悉且一致。
-個別目標會在其專屬頁面中開啟，我們已在左側面板中新增下列區段，以方便導覽和更新：</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/goals-release-activity/goals-23-1-release/goals-jan.md">Workfront目標的更新</a></p>
+                        <p>為了與Workfront的其他部分建立更一致的體驗，並讓檢視和使用您的目標變得更輕鬆，我們更新了Workfront目標。 Workfront目標的外觀和感覺現在更類似於Workfront中的其他區域。 </p>
+                        <p>現在，標題、清單和詳細資訊卡等區域都很熟悉，並且與您在Workfront中的體驗一致。
+個別目標會在自己的頁面中開啟，我們已在左側面板中新增下列區段，以便輕鬆導覽和更新：</p>
                         <ul>
-                        <li><b>目標詳細資訊</b>:目標詳細資訊：查看目標說明、進度、日期和父目標資訊等資訊。</li>
-                        <li><b>進度指標</b>:在清單中查看進度指標。 您可以內嵌編輯這些指標、開啟編輯視窗，或從此區域刪除指標。</li>
-                        <li><b>更新</b>:檢視、張貼或回覆目標的更新，類似於其他Workfront物件中的「更新」區域。 
-共用、編輯、刪除或複製目標的方式與您對Workfront中其他物件執行這些動作的方式類似。</li>    
+                        <li><b>目標詳細資料</b>：目標詳細資料：檢視目標說明、進度、日期和上層目標資訊等資訊。</li>
+                        <li><b>進度指示器</b>：檢視清單中的進度指示器。 您可以內聯編輯這些指標、開啟編輯視窗，或從此區域刪除指標。</li>
+                        <li><b>更新</b>：檢視、張貼或回覆目標上的更新，類似於其他Workfront物件中的更新區域。 
+共用、編輯、刪除或複製目標的方式與在Workfront中對其他物件執行這些動作的方式類似。</li>    
                         </ul>
                         </p>
-                        <p>共用、編輯、刪除或複製目標的方式與您對Workfront中其他物件執行這些動作的方式類似。
-此外，我們在目標的「更新」區段中導入了新的註解體驗，現在會在兩個不同的標籤中顯示使用者註解和系統活動註解。</p>
-                        <p><b>重要</b>:透過此更新，我們移除了「目標」區域中的「簽入」和「脈衝」區段。 </p>
+                        <p>共用、編輯、刪除或複製目標的方式與在Workfront中對其他物件執行這些動作的方式類似。
+此外，我們在目標的「更新」區段中引進了新的註解體驗，現在可在兩個獨立索引標籤中顯示使用者註解和系統活動附註。</p>
+                        <p><b>重要</b>：透過此更新，我們已移除目標區域中的「簽入」和「脈衝」區段。 </p>
                     </td>
-                    <td><p><b>可於下列日期使用：</b></p>
+                    <td><p><b>將於下列日期提供：</b></p>
                      <p>
                         </p>
                         <ul>
                             <li>
-                                <p>預覽版本：2023年1月5日<br /></p>
+                                <p>預覽版本： 2023年1月5日<br /></p>
                             </li>
                             <li>
-                                <p>生產版本：隨第23.1發行版本一起推出</p>
+                                <p>生產版本：第23.1發行版本</p>
                             </li>
                         </ul>
                     </td>

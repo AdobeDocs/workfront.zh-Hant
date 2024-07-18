@@ -20,7 +20,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->攝入欄中的任何卡片都不會包含在群組中，而且在套用群組時攝入欄會隱藏。 如需輸入欄的詳細資訊，請參閱 [將輸入欄新增到展示板](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md).
+>攝入欄中的任何卡片都不會包含在群組中，而且在套用群組時攝入欄會隱藏。 如需輸入資料行的詳細資訊，請參閱[將輸入資料行新增到展示板](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md)。
 
 ## 存取需求
 
@@ -33,7 +33,7 @@ ht-degree: 0%
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] 計劃*</strong></td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] 計畫*</strong></td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
@@ -43,29 +43,29 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-&#42;若要瞭解您擁有的計畫、授權型別或存取權，請聯絡您的 [!DNL Workfront] 管理員。
+&#42;若要瞭解您擁有的計畫、授權型別或存取權，請連絡您的[!DNL Workfront]管理員。
 
 ## 展示板上的群組卡片
 
-1. 按一下 **[!UICONTROL 主要功能表]** 圖示 ![主要功能表](assets/main-menu-icon.png) 位於的右上角 [!DNL Adobe Workfront]，然後按一下 **[!UICONTROL 展示板]**.
-1. 存取展示板。 如需詳細資訊，請參閱 [建立或編輯展示板](../../agile/get-started-with-boards/create-edit-board.md).
-1. 按一下 **[!UICONTROL 群組]** 開啟面板左側的群組面板。
+1. 按一下[!DNL Adobe Workfront]右上角的&#x200B;**[!UICONTROL 主功能表]**&#x200B;圖示![主功能表](assets/main-menu-icon.png)，然後按一下&#x200B;**[!UICONTROL 面板]**。
+1. 存取展示板。 如需詳細資訊，請參閱[建立或編輯展示板](../../agile/get-started-with-boards/create-edit-board.md)。
+1. 按一下「**[!UICONTROL 群組]**」以開啟展示板左側的群組面板。
 
    >[!NOTE]
    >
-   >群組依據的預設設定為 **[!UICONTROL 無]**. 您可以隨時選取此選項來移除群組，並只顯示展示板上的欄。
+   >群組依據的預設設定是&#x200B;**[!UICONTROL 無]**。 您可以隨時選取此選項來移除群組，並只顯示展示板上的欄。
 
-1. 若要將卡片分組，請選取 **[!UICONTROL 被指定者]** 或 **[!UICONTROL 標籤]**.
+1. 若要將卡片分組，請選取&#x200B;**[!UICONTROL 受指派人]**&#x200B;或&#x200B;**[!UICONTROL 標籤]**。
 
    卡片會自動分組。 按一下群組名稱旁的箭頭，可收合併展開該群組。
 
-   ![將卡片分組在展示板上](assets/group-by-assignee.png)
+   ![面板上的群組卡片](assets/group-by-assignee.png)
 
 1. 選取將卡片移至其他群組時發生的情況。
 
-   * **[!UICONTROL 新增至受指派人] / [!UICONTROL 新增到標籤上]：** 新群組中的被指定人或標籤會新增到卡片上的現有被指定人或標籤清單中。
-   * **[!UICONTROL 覆寫受指派人] / [!UICONTROL 覆寫標籤]：** 新群組中的受指派人或標籤會覆寫所有其他受指派人或標籤，並成為卡片上的唯一受指派人或標籤。
+   * **[!UICONTROL 加入受指派人] / [!UICONTROL 加入標籤]：**&#x200B;新群組中的受指派人或標籤會加入卡片上的現有受指派人或標籤清單。
+   * **[!UICONTROL 覆寫受指派人] / [!UICONTROL 覆寫標籤]：**&#x200B;新群組中的受指派人或標籤會覆寫所有其他受指派人或標籤，並成為卡片上的唯一受指派人或標籤。
 
-   ![[!UICONTROL 分組依據選項]](assets/group-by-rail.png)
+   ![[!UICONTROL 依選項分組]](assets/group-by-rail.png)
 
-1. 按一下 **[!UICONTROL 隱藏群組]** 以隱藏群組面板並顯示整個面板。
+1. 按一下「**[!UICONTROL 隱藏群組]**」以隱藏群組面板並顯示完整版面。

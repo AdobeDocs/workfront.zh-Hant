@@ -24,5 +24,5 @@ ht-degree: 0%
 * [新增檔案至Adobe Workfront](../documents/adding-documents-to-workfront/add-new-documents-to-workfront.md)
 * [管理檔案](../documents/managing-documents/manage-documents.md)
 * [組織檔案](../documents/organizing-documents/organize-documents.md)
-* [Adobe Workfront中的Adobe Workfront DAM](../documents/workfront-dam-within-workfront/workfront-dam-in-workfrontt.md)
+* Adobe Workfront中的[Adobe Workfront DAM](../documents/workfront-dam-within-workfront/workfront-dam-in-workfrontt.md)
 * [Workfront與Experience Manager Assets整合](../documents/workfront-and-experience-manager-integrations/wf-experience-manager-integrations.md)

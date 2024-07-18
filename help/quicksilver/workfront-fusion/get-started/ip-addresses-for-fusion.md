@@ -15,15 +15,15 @@ ht-degree: 0%
 
 ---
 
-# 要存取的IP位址 [!DNL Adobe Workfront Fusion]
+# 用於存取[!DNL Adobe Workfront Fusion]的IP位址
 
 >[!NOTE]
 >
->[!DNL Adobe Workfront Fusion] 需要 [!DNL Adobe Workfront Fusion] 除了授權之外， [!DNL Adobe Workfront license].
+>除了[!DNL Adobe Workfront license]之外，[!DNL Adobe Workfront Fusion]還需要[!DNL Adobe Workfront Fusion]授權。
 
-如果您的防火牆或郵件伺服器設定為僅允許存取特定廠商，則必須將特定IP位址新增至其允許清單，以允許您的環境與之間的開放通訊 [!DNL Adobe Workfront Fusion].
+如果您的防火牆或郵件伺服器設定為僅允許存取特定廠商，則必須將特定IP位址新增至其允許清單，以允許您的環境與[!DNL Adobe Workfront Fusion]之間的開放通訊。
 
-將以下IP位址新增至您的允許清單以啟用 [!DNL Workfront Fusion] 以存取您的系統。
+將下列IP位址新增至您的允許清單，讓[!DNL Workfront Fusion]能夠存取您的系統。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -87,4 +87,4 @@ ht-degree: 0%
 >
 >傳出網路篩選並不常見。 請洽詢您的網路管理員，以瞭解是否需要更新允許清單以符合您的要求。
 
-如需設定組織允許清單的詳細資訊，請參閱 [設定防火牆的允許清單](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).
+如需設定組織允許清單的詳細資訊，請參閱[設定防火牆的允許清單](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md)。

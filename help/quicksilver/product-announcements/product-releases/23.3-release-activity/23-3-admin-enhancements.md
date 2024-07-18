@@ -16,7 +16,7 @@ ht-degree: 0%
 
 本頁說明23.3版本的所有管理員增強功能。 這些增強功能已在2023年7月20日和21日的23.3版本中在生產環境中提供。
 
-如需23.3版本週期目前可用的所有變更清單，請參閱 [23.3版本總覽](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-release-overview.md).
+如需23.3發行週期中目前所有可用變更的清單，請參閱[23.3發行概觀](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-release-overview.md)。
 
 ## 加速Workfront的發行週期
 
@@ -24,13 +24,13 @@ ht-degree: 0%
 
 過去，所有客戶每季都會發佈其功能。
 
-如需詳細資訊，請參閱 [啟用或停用快速發行程式](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).
+如需詳細資訊，請參閱[啟用或停用快速發行程式](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。
 
 ## 「使用者可在此記錄時間」時程表和小時偏好設定可用的群組層級控制
 
 系統管理員現在可以鎖定和解鎖「使用者可以在其中記錄時間」時程表和小時偏好設定。 解鎖此偏好設定時，群組管理員可針對每個群組分別設定「使用者可登入的時間位置」設定。
 
-如需詳細資訊，請參閱 [設定時程表和小時偏好設定](/help/quicksilver/administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md) 和 [設定群組的時程表和小時偏好設定](/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-groups/configure-timesheet-hour-preferences-group.md).
+如需詳細資訊，請參閱[設定時程表和小時喜好設定](/help/quicksilver/administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md)以及[設定群組的時程表和小時喜好設定](/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-groups/configure-timesheet-hour-preferences-group.md)。
 
 [觀看此功能的影片示範](https://video.tv.adobe.com/v/3419111/){target=_blank}
 
@@ -44,4 +44,4 @@ ht-degree: 0%
 
 表單設計工具Beta版尚未提供編輯現有邏輯以及向自訂表單新增邏輯的功能，但日後打算提供。
 
-如需詳細資訊，請參閱 [表單設計工具概觀](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/form-designer-overview.md).
+如需詳細資訊，請參閱[表單設計工具總覽](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/form-designer-overview.md)。

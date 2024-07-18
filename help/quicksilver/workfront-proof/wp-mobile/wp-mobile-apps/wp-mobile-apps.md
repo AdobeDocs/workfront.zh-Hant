@@ -3,7 +3,8 @@ title: Workfront Proof行動應用程式
 description: 瞭解如何使用Workfront Proof行動應用程式。
 hide: true
 hidefromtoc: true
-source-git-commit: 02e55be36d3b649aeb5b81d185538f77ac3d4ec7
+exl-id: 8a868212-cf8e-4752-8aa6-ed74f10f5cea
+source-git-commit: 6c7d22bea669586c56acfc23d328d7cc815b04be
 workflow-type: tm+mt
 source-wordcount: '44'
 ht-degree: 0%
@@ -14,9 +15,9 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->本文提及獨立版產品中的功能 [!DNL Workfront Proof]. 有關內部校訂的資訊 [!DNL Adobe Workfront]，請參閱 [校訂](../../../review-and-approve-work/proofing/proofing.md).
+>本文提及獨立產品[!DNL Workfront Proof]中的功能。 有關[!DNL Adobe Workfront]內部校訂的資訊，請參閱[校訂](../../../review-and-approve-work/proofing/proofing.md)。
 
 本節包含下列文章：
 
-* [[!DNL Workfront Proof] 行動應用程式](../../../workfront-proof/wp-mobile/wp-mobile-apps/wp-mobile-app-phones.md)
-* [[!DNL Workfront Proof] 平板電腦行動應用程式](../../../workfront-proof/wp-mobile/wp-mobile-apps/wp-mobile-app-tablet.md)
+* [[!DNL Workfront Proof]行動應用程式](../../../workfront-proof/wp-mobile/wp-mobile-apps/wp-mobile-app-phones.md)
+* [[!DNL Workfront Proof]平板電腦行動應用程式](../../../workfront-proof/wp-mobile/wp-mobile-apps/wp-mobile-app-tablet.md)

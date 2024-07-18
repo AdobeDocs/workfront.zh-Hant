@@ -1,25 +1,25 @@
 ---
 product-area: projects;resource-management
 navigation-topic: manage-projects
-title: 排程專案的資源
-description: 您可以為單個項目安排資源，以指明每個資源被分配給的工作以及他們完成其工作所花的時間。 您可以使用項目級別的調度工具或工作負載平衡器來調度項目的資源，並為每個資源分配小時。
+title: 為專案排程資源
+description: 您可以為單一專案排程資源，以指出每項資源被指派的工作，以及完成工作所花費的時間。 您可以為專案排程資源，並在專案層級使用排程工具或工作負載平衡器為每個資源分配時數。
 author: Alina
 feature: Work Management
 exl-id: d59f6083-49d3-4fe6-ac60-656f992363d9
 source-git-commit: f4cc5ae89c8746ec4c40ece88bfdb21dc1996575
 workflow-type: tm+mt
 source-wordcount: '368'
-ht-degree: 2%
+ht-degree: 1%
 
 ---
 
-# 排程專案的資源
+# 為專案排程資源
 
-您可以為單個項目安排資源，以指明每個資源被分配給的工作以及他們完成其工作所花的時間。 您可以使用項目級別的調度工具或工作負載平衡器來調度項目的資源，並為每個資源分配小時。
+您可以為單一專案排程資源，以指出每項資源被指派的工作，以及完成工作所花費的時間。 您可以為專案排程資源，並在專案層級使用排程工具或工作負載平衡器為每個資源分配時數。
 
 ## 存取需求
 
-您必須具備下列存取權，才能執行本文中的步驟：
+您必須具有下列存取權才能執行本文中的步驟：
 
 <table style="table-layout:auto"> 
  <col> 
@@ -35,41 +35,41 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td role="rowheader">存取層級*</td> 
-   <td> <p>編輯對以下項目的存取權：</p> 
+   <td> <p>編輯下列專案的存取權：</p> 
     <ul> 
      <li> <p>資源管理</p> </li> 
      <li> <p>專案</p> </li> 
      <li> <p>任務</p> </li> 
      <li> <p>問題</p> </li> 
-    </ul> <p>注意：如果您仍無權存取，請洽詢您的Workfront管理員，他們是否在您的存取層級設定其他限制。 如需Workfront管理員如何變更您的存取層級的詳細資訊，請參閱 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>.</p> </td> 
+    </ul> <p>注意：如果您還是沒有存取權，請詢問您的Workfront管理員，他們是否在您的存取層級中設定其他限制。 如需Workfront管理員如何變更存取層級的詳細資訊，請參閱<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">物件權限</td> 
-   <td> <p>為專案、工作和問題貢獻權限或更高版本 </p> <p>有關請求其他訪問的資訊，請參閱 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">請求對對象的訪問 </a>.</p> </td> 
+   <td role="rowheader">物件許可權</td> 
+   <td> <p>專案、任務和問題的Contribute許可權或更高版本 </p> <p>如需請求其他存取權的資訊，請參閱<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">請求物件</a>的存取權。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;若要了解您擁有的計畫、授權類型或存取權，請聯絡您的Workfront管理員。
+&#42;若要瞭解您擁有的計畫、授權型別或存取權，請連絡您的Workfront管理員。
 
-## 排程專案的資源
+## 為專案排程資源
 
-若要存取專案中的排程工具：
+若要存取專案中的「排程」工具：
 
-1. 前往您要排程資源的專案。
-1. 按一下 **排程** 或左面板中的「工作負載平衡器」部分。 「調度」或「工作負載平衡器」部分可能位於 **顯示更多**.
+1. 移至您要排程資源的專案。
+1. 按一下左側面板中的&#x200B;**排程**&#x200B;或工作負載平衡器區段。 排程或工作負載平衡器區段可能位於&#x200B;**顯示更多**&#x200B;下。
 
-   有關使用項目中的調度工具來調度資源的資訊，請參閱「開始執行資源調度」一文中的「修改用戶分配和分配」一節。
+   如需有關在專案中使用排程工具排程資源的資訊，請參閱「開始使用資源排程」一文中的「修改使用者指派和配置」一節。
 
-1. （有條件且建議）如果您按一下「排程」，請按一下 **切換到工作負載平衡器** 使用工作負載平衡器計畫資源。
+1. （條件式且建議使用）如果您按一下[排程]，請按一下&#x200B;**切換至工作負載平衡器**&#x200B;以使用工作負載平衡器排程資源。
 
    >[!TIP]
    >
-   >如果您之前已選擇了工作負載平衡器，則節的名稱將更改為工作負載平衡器。
+   >如果您之前已選取工作負載平衡器，區段的名稱會變更為工作負載平衡器。
 
-   有關使用工作負載平衡器調度資源的資訊，請參閱以下文章：
+   如需有關使用工作負載平衡器排程資源的資訊，請參閱下列文章：
 
-   * [工作負載平衡器中分配工作的概述](../../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md)
-   * [在工作負載平衡器中管理用戶分配](../../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md)
+   * [在工作負載平衡器](../../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md)中指派工作的總覽
+   * [在工作負載平衡器中管理使用者配置](../../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md)
 
  

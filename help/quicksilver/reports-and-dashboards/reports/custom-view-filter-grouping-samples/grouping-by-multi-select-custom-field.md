@@ -9,7 +9,7 @@ feature: Reports and Dashboards
 exl-id: 530dff59-0d4c-490e-b464-1d3bb1d0f36f
 source-git-commit: b0447fd2ea9419fabcc21a1131910485c18b75d0
 workflow-type: tm+mt
-source-wordcount: '541'
+source-wordcount: '543'
 ht-degree: 0%
 
 ---
@@ -23,13 +23,13 @@ ht-degree: 0%
 * 核取方塊
 * 多選下拉式功能表
 
-如需有關使用文字模式的資訊，請參閱文章 [文字模式概觀](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).
+如需有關使用文字模式的資訊，請參閱文章[文字模式概觀](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md)。
 
 ## 依多選自訂欄位分組時的注意事項
 
 * 您無法繪製使用文字模式分組的報表圖表。 您需要建立參考多選自訂欄位的額外計算欄位，以便同時依據多選自訂欄位的值繪製報表圖表。
 
-  如需詳細資訊，請參閱 [依多選自訂欄位繪製報表圖表](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/chart-report-by-multi-select-custom-field.md).
+  如需詳細資訊，請參閱[依據多重選取的自訂欄位](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/chart-report-by-multi-select-custom-field.md)繪製報表圖表。
 * 已選取任何選項的專案只會計算一次。
 
   例如，如果您有一個核取方塊自訂欄位，其中選項1和選項2為選項，並且您將表單附加至任務，則同時選取選項1和選項2的任務與僅選取選項1或選項2的任務會分開分組。
@@ -56,11 +56,11 @@ ht-degree: 0%
    <td role="rowheader">存取層級設定*</td> 
    <td> <p>編輯報告、儀表板、行事曆的存取權以修改報告</p> <p>編輯對篩選器、檢視、群組的存取權以修改群組</p> <p><b>附註</b>
 
-如果您還是沒有存取權，請詢問您的Workfront管理員，他們是否在您的存取層級中設定其他限制。 如需有關Workfront管理員如何修改您的存取層級的資訊，請參閱 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>.</p> </td>
+如果您還是沒有存取權，請詢問您的Workfront管理員，他們是否在您的存取層級中設定其他限制。 如需Workfront管理員如何修改存取層級的詳細資訊，請參閱<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>。</p> </td>
 </tr>  
   <tr> 
    <td role="rowheader">物件許可權</td> 
-   <td> <p>管理報表的許可權</p> <p>如需請求其他存取許可權的詳細資訊，請參閱 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">要求物件的存取權 </a>.</p> </td> 
+   <td> <p>管理報表的許可權</p> <p>如需請求其他存取權的資訊，請參閱<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">請求物件</a>的存取權。</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -72,7 +72,7 @@ ht-degree: 0%
 若要能夠依多選自訂欄位分組，您必須具備下列先決條件：
 
 * 在自訂表單中建立多選自訂欄位。\
-  如需有關建立自訂表單及新增自訂欄位的資訊，請參閱文章 [建立或編輯自訂表單](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
+  如需有關建立自訂表單及新增自訂欄位的資訊，請參閱文章[建立或編輯自訂表單](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)。
 
 * 將自訂表單附加到物件。
 * 在每個物件上填入多選自訂欄位。 
@@ -80,19 +80,22 @@ ht-degree: 0%
 若要在報表中依多選自訂欄位分組：
 
 1. 建立報表或編輯要新增多選自訂欄位分組的現有報表。\
-   如需建立報表的相關資訊，請參閱文章 [建立自訂報表](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+   如需有關建立報告的資訊，請參閱文章[建立自訂報告](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md)。
 
-1. 選取 **群組** 標籤。
-1. 按一下 **切換到文字模式**.
+1. 選取&#x200B;**群組**&#x200B;索引標籤。
+1. 按一下&#x200B;**切換到文字模式**。
 
-1. 選擇文字 **將報告分組** 方塊，並以下列程式碼取代：
+1. 在&#x200B;**將您的報告分組**&#x200B;方塊中選取文字，並以下列程式碼取代：
 
    <pre>
-   group.0.displayname=多重選取自訂欄位名稱group.0.valueexpression={DE：多重選取自訂欄位名稱} group.0.valueformat=HTML群組。0.textmode=true
+   group.0.displayname=多重選取自訂欄位名稱
+   group.0.valueexpression={DE：多選自訂欄位名稱}
+   group.0.valueformat=HTML
+   group.0.textmode=true
    </pre>
 
 1. 將「多選自訂欄位名稱」取代為您多選自訂欄位的實際名稱，如Workfront中所示。
-1. 按一下 **儲存並關閉**.
+1. 按一下&#x200B;**儲存並關閉**。
 
    報表中的物件會依多選自訂欄位的值分組。
 

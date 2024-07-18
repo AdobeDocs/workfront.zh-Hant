@@ -31,11 +31,11 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader"> <p><span class="wysiwyg-font-size-medium"><strong>系統設定</strong></span> </p> </td> 
-   <td> <p><span class="wysiwyg-font-size-medium">您的Adobe Workfront管理員可決定您如何收到與您工作的校訂相關評論和決策的電子郵件警示，如中所述 <a href="../../../workfront-proof/wp-mnguserscontacts/users/configure-user-info.md" class="MCXref xref">使用Workfront Proof設定使用者資訊</a></span> </p> </td> 
+   <td> <p><span class="wysiwyg-font-size-medium">您的Adobe Workfront管理員可以決定您如何收到有關您工作之校訂的評論和決定的電子郵件警示，如<a href="../../../workfront-proof/wp-mnguserscontacts/users/configure-user-info.md" class="MCXref xref">使用Workfront Proof設定使用者資訊</a></span>中所述 </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p><span class="wysiwyg-font-size-medium"><strong>新校訂視窗，校訂詳細資訊視窗</strong></span> </p> </td> 
-   <td> <p><span class="wysiwyg-font-size-medium">當有人將您新增到「新校訂」視窗或「校訂詳細資訊」視窗中的校訂時，他們可以確定您如何收到有關校訂評論和決定的電子郵件提醒。 這會覆寫Workfront管理員已選取的選項，但僅限於該特定校訂。 如需詳細資訊，請參閱</span> </p> 
+   <td> <p><span class="wysiwyg-font-size-medium">當有人將您新增至「新校訂」視窗或「校訂詳細資訊」視窗的校訂時，他們可以確定您如何收到有關校訂評論和決定的電子郵件警示。 這會覆寫Workfront管理員已選取的選項，但僅限於該特定校訂。 如需詳細資訊，請參閱</span> </p> 
     <ul> 
      <li> <p><a href="../../../review-and-approve-work/proofing/creating-proofs-within-workfront/configure-basic-proof-workflow.md" class="MCXref xref">使用基本工作流程建立進階校訂</a> </p> </li> 
      <li> <p><a href="../../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-automated-proof-workflow.md" class="MCXref xref">使用自動化工作流程建立進階校訂</a> </p> </li> 
@@ -43,7 +43,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader"> <p><span class="wysiwyg-font-size-medium"><strong>校訂檢視器</strong></span> </p> </td> 
-   <td> <p><span class="wysiwyg-font-size-medium">當您開啟已新增至的校訂時，您可以決定如何收到校訂評論的電子郵件通知。 這會覆寫Workfront管理員已選取的選項，以及由將您新增至校訂的人員所選取的選項。 如需詳細資訊，請參閱 <a href="../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/manage-notifications-for-proof-comments.md" class="MCXref xref">管理校訂評論和決定的通知</a></span> </p> <p><span class="wysiwyg-font-size-medium"><em><strong>注意</strong> 在校訂檢視器中，最後一個選項的標籤不同（「無電子郵件」而非「已停用」），但運作方式相同。</em></span> </p> </td> 
+   <td> <p><span class="wysiwyg-font-size-medium">當您開啟已新增至的校訂時，您可以決定如何接收校訂評論的電子郵件通知。 這會覆寫Workfront管理員已選取的選項，以及由將您新增至校訂的人員所選取的選項。 如需詳細資訊，請參閱<a href="../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/manage-notifications-for-proof-comments.md" class="MCXref xref">管理校訂評論和決定的通知</a></span> </p> <p><span class="wysiwyg-font-size-medium"><em><strong>注意</strong>在校訂檢視器中，最後一個選項的標籤不同（「沒有電子郵件」而非「已停用」），但運作方式相同。</em></span> </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -55,4 +55,4 @@ ht-degree: 0%
 >* [新校訂電子郵件](../../../workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/new-proof-email.md)
 >* [新版本的電子郵件](../../../workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/new-version-email.md)
 >* [延遲校訂電子郵件](../../../workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/late-proof-email.md)
->* [校樣已製作電子郵件](../../../workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/proof-made-email.md)
+>* [校訂已製作電子郵件](../../../workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/proof-made-email.md)

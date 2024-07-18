@@ -22,9 +22,9 @@ ht-degree: 0%
 
 本頁說明2020年11月30日當週在Adobe Workfront Fusion中所做的所有增強功能。
 
-如需所有最近變更的清單，請參閱 [Adobe Workfront Fusion發行活動](../../../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
+如需所有最近變更的清單，請參閱[Adobe Workfront Fusion發行活動](../../../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md)。
 
-如需Workfront Fusion中近期的錯誤修正清單，請參閱 [Workfront維護更新](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) 頁面，並檢查是否有任何標示為Workfront Fusion維護更新的更新。
+如需Workfront Fusion中最近的錯誤修正清單，請參閱[Workfront維護更新](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html)頁面，並檢查任何標示為Workfront Fusion維護更新的更新。
 
 ## Workfront Fusion 2.0 Webhook的速率限制。
 
@@ -32,7 +32,7 @@ ht-degree: 0%
 
 以前，webhook請求不受限制。
 
-如需詳細資訊，請參閱 [Adobe Workfront Fusion效能護欄](../../../../../workfront-fusion/get-started/fusion-performance-guardrails.md).
+如需詳細資訊，請參閱[Adobe Workfront Fusion效能護欄](../../../../../workfront-fusion/get-started/fusion-performance-guardrails.md)。
 
 ## 在Workfront Fusion 2.0中新增自訂表單至Workfront物件
 
@@ -40,7 +40,7 @@ ht-degree: 0%
 
 之前，您無法使用Workfront Fusion 2.0模組將自訂表單新增至Workfront中的物件。
 
-如需有關「Workfront >雜項」的詳細資訊。 動作模組，請參閱 [Adobe Workfront模組](../../../../../workfront-fusion/apps-and-their-modules/workfront-modules.md).
+如需有關「Workfront >雜項」的詳細資訊。 動作模組，請參閱[Adobe Workfront模組](../../../../../workfront-fusion/apps-and-their-modules/workfront-modules.md)。
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

@@ -2,7 +2,7 @@
 product-area: agile-and-teams
 navigation-topic: get-started-with-boards
 title: 使用面板儀表板
-description: 此 [!UICONTROL 展示板] 儀表板顯示您可以存取的展示板清單，包括您已建立的展示板和您已加入的展示板。
+description: '[!UICONTROL 展示板]儀表板會顯示您可以存取的展示板清單，包括您已建立的展示板和您已加入的展示板。'
 author: Lisa
 feature: Agile
 exl-id: bb275f4f-efaf-4dcc-b184-40e015f089b6
@@ -31,7 +31,7 @@ ht-degree: 0%
 * 搜尋展示板或工作流程
 * 刪除展示板或工作流程
 
-如需有關建立新電路板或編輯現有電路板的資訊，請參閱 [建立或編輯展示板](../../agile/get-started-with-boards/create-edit-board.md). 如需有關建立新工作流程的資訊，請參閱 [管理工作流程](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md).
+如需有關建立新版面或編輯現有版面的資訊，請參閱[建立或編輯版面](../../agile/get-started-with-boards/create-edit-board.md)。 如需有關建立新工作流程的資訊，請參閱[管理工作流程](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md)。
 
 ## 存取需求
 
@@ -58,7 +58,7 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-如需有關此表格的詳細資訊，請參閱 [Workfront檔案中的存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -67,32 +67,32 @@ ht-degree: 0%
 
 您可以篩選展示板控制面板，以顯示使用中、已封存或所有展示板或工作流程。
 
-1. 按一下 **[!UICONTROL 主要功能表]** 圖示 ![主要功能表](/help/_includes/assets/main-menu-icon.png) 在Adobe Workfront的右上角，或（如果有的話）按一下 **[!UICONTROL 主要功能表]** 圖示 ![主要功能表](/help/_includes/assets/main-menu-icon-left-nav.png) 然後按一下「 」 **[!UICONTROL 展示板]**.
-1. 按一下 [!UICONTROL **篩選**] 在「面板」區域或「工作流程」區域中，選取 **[!UICONTROL 全部]**， **[!UICONTROL 作用中]**，或 **[!UICONTROL 已封存]**.
+1. 按一下Adobe Workfront右上角的&#x200B;**[!UICONTROL 主功能表]**&#x200B;圖示![主功能表](/help/_includes/assets/main-menu-icon.png)，或（如果有的話）按一下左上角的&#x200B;**[!UICONTROL 主功能表]**&#x200B;圖示![主功能表](/help/_includes/assets/main-menu-icon-left-nav.png)，然後按一下&#x200B;**[!UICONTROL 面板]**。
+1. 按一下[面板]區域或[工作流程]區域中的[篩選器][!UICONTROL ****]，然後選取[全部]]**、[活動]****或[已封存]****。**[!UICONTROL 
 
-   當在圖示板上套用預設以外的篩選器時，篩選器圖示上會顯示一個指示器 ![套用至儀表板的篩選器](assets/boards-filterapplied-30x30.png).
+   當在儀表板上套用預設以外的篩選器時，篩選器圖示![已套用至儀表板](assets/boards-filterapplied-30x30.png)的篩選器上會顯示指示器。
 
 ## 排序展示板
 
-1. 按一下 **[!UICONTROL 主要功能表]** 圖示 ![主要功能表](/help/_includes/assets/main-menu-icon.png) 在Adobe Workfront的右上角，或（如果有的話）按一下 **[!UICONTROL 主要功能表]** 圖示 ![主要功能表](/help/_includes/assets/main-menu-icon-left-nav.png) 然後按一下「 」 **[!UICONTROL 展示板]**.
-1. 若要排序面板清單，請按一下 [!UICONTROL **排序**]. 頁面的預設排序選項為 **[!UICONTROL 修改日期]**. 您也可以依展示板排序頁面 **[!UICONTROL 名稱]**.
+1. 按一下Adobe Workfront右上角的&#x200B;**[!UICONTROL 主功能表]**&#x200B;圖示![主功能表](/help/_includes/assets/main-menu-icon.png)，或（如果有的話）按一下左上角的&#x200B;**[!UICONTROL 主功能表]**&#x200B;圖示![主功能表](/help/_includes/assets/main-menu-icon-left-nav.png)，然後按一下&#x200B;**[!UICONTROL 面板]**。
+1. 若要排序面板清單，請按一下&#x200B;[!UICONTROL **排序**]。 此頁面的預設排序選項為&#x200B;**[!UICONTROL 修改日期]**。 您也可以依展示板&#x200B;**[!UICONTROL 名稱]**&#x200B;來排序頁面。
 
-   選取 **[!UICONTROL 反轉順序]** 以反向的修改日期或名稱順序來排序面板。 當排序圖示上的箭頭指向上時，即會套用反向順序。 當箭頭向下指向時，會套用標準順序。
+   選取&#x200B;**[!UICONTROL 反向順序]**，以反向的修改日期或名稱順序排序面板。 當排序圖示上的箭頭指向上時，即會套用反向順序。 當箭頭向下指向時，會套用標準順序。
 
-   當在儀表板上套用預設以外的排序時，排序圖示上會顯示指示器 ![已套用排序](assets/sort-applied-boards.png).
+   當在儀表板上套用預設以外的排序時，排序圖示![已套用排序](assets/sort-applied-boards.png)上會顯示指示器。
 
 ## 搜尋展示板或工作流程
 
 您可以在「面板」區域中搜尋特定面板，或在「工作流程」區域中搜尋特定工作流程。
 
-1. 按一下 **[!UICONTROL 主要功能表]** 圖示 ![主要功能表](/help/_includes/assets/main-menu-icon.png) 在Adobe Workfront的右上角，或（如果有的話）按一下 **[!UICONTROL 主要功能表]** 圖示 ![主要功能表](/help/_includes/assets/main-menu-icon-left-nav.png) 然後按一下「 」 **[!UICONTROL 展示板]**.
-1. 按一下 [!UICONTROL **搜尋**] 並輸入搜尋字詞。 然後，按下Enter。
+1. 按一下Adobe Workfront右上角的&#x200B;**[!UICONTROL 主功能表]**&#x200B;圖示![主功能表](/help/_includes/assets/main-menu-icon.png)，或（如果有的話）按一下左上角的&#x200B;**[!UICONTROL 主功能表]**&#x200B;圖示![主功能表](/help/_includes/assets/main-menu-icon-left-nav.png)，然後按一下&#x200B;**[!UICONTROL 面板]**。
+1. 按一下「[!UICONTROL **搜尋**]」並輸入搜尋字詞。 然後，按下Enter。
 
    會顯示標題中包含搜尋字詞的所有展示板或工作流程。
 
    按一下X以清除搜尋。
 
-   ![在控制面板上搜尋面板](assets/boards-searchbox.png)
+   ![在儀表板上搜尋面板](assets/boards-searchbox.png)
 
 ## 封存展示板或工作流程
 
@@ -104,20 +104,20 @@ ht-degree: 0%
 >
 >當您封存工作串流時，其所有展示板都會被封存。
 
-1. 按一下 **[!UICONTROL 主要功能表]** 圖示 ![主要功能表](/help/_includes/assets/main-menu-icon.png) 在Adobe Workfront的右上角，或（如果有的話）按一下 **[!UICONTROL 主要功能表]** 圖示 ![主要功能表](/help/_includes/assets/main-menu-icon-left-nav.png) 然後按一下「 」 **[!UICONTROL 展示板]**.
-1. 按一下 **[!UICONTROL 更多]** 功能表 ![更多選單](assets/more-icon-spectrum.png) 在展示板或工作流程上，然後選取 **[!UICONTROL 封存]**.
+1. 按一下Adobe Workfront右上角的&#x200B;**[!UICONTROL 主功能表]**&#x200B;圖示![主功能表](/help/_includes/assets/main-menu-icon.png)，或（如果有的話）按一下左上角的&#x200B;**[!UICONTROL 主功能表]**&#x200B;圖示![主功能表](/help/_includes/assets/main-menu-icon-left-nav.png)，然後按一下&#x200B;**[!UICONTROL 面板]**。
+1. 按一下展示板或工作流程上的&#x200B;**[!UICONTROL 更多]**&#x200B;功能表![更多功能表](assets/more-icon-spectrum.png)，然後選取&#x200B;**[!UICONTROL 封存]**。
 
-   在工作流程上，功能表位於右側，在 [!UICONTROL **檢視工作流程**] 按鈕。
+   在工作流程上，功能表位於右側，在&#x200B;[!UICONTROL **檢視工作流程**]&#x200B;按鈕旁邊。
 
-   一個 [!UICONTROL 封存] 圖示 ![封存](assets/archive-icon-spectrum-25x20.png) 出現在展示板或工作流程中。 您無法編輯已封存的展示板或工作流程。
+   展示板或工作流程上出現[!UICONTROL 封存]圖示![封存](assets/archive-icon-spectrum-25x20.png)。 您無法編輯已封存的展示板或工作流程。
 
-   除非您套用篩選來顯示已封存的專案，否則它們會隱藏在面板控制面板上。 如需詳細資訊，請參閱 [[!UICONTROL 篩選面板]](#filter-boards) 一節。
+   除非您套用篩選來顯示已封存的專案，否則它們會隱藏在面板控制面板上。 如需詳細資訊，請參閱本文中的[[!UICONTROL 篩選面板]](#filter-boards)一節。
 
-1. 若要還原已封存的展示板或工作流程，請按一下 **[!UICONTROL 更多]** 功能表 ![更多選單圖示](assets/more-icon-spectrum.png) 在展示板或工作流程上，然後選取 **[!UICONTROL 還原]**.
+1. 若要還原已封存的展示板或工作流程，請按一下展示板或工作流程上的&#x200B;**[!UICONTROL 更多]**&#x200B;功能表![更多功能表圖示](assets/more-icon-spectrum.png)，然後選取&#x200B;**[!UICONTROL 還原]**。
 
 ## 刪除展示板或工作流程
 
-當您刪除展示板時，它會從下列位置永久移除： [!DNL Workfront] 且無法還原。 任何在展示板上的卡片也會隨展示板一起刪除。
+當您刪除展示板時，該展示板會從[!DNL Workfront]中永久移除，且無法還原。 任何在展示板上的卡片也會隨展示板一起刪除。
 
 刪除工作流程也會刪除工作流程中的所有面板。
 
@@ -125,12 +125,12 @@ ht-degree: 0%
 >
 >您只能刪除您建立的展示板和工作串流，不能刪除您加入的展示板和工作串流。
 
-1. 按一下 **[!UICONTROL 主要功能表]** 圖示 ![主要功能表](/help/_includes/assets/main-menu-icon.png) 在Adobe Workfront的右上角，或（如果有的話）按一下 **[!UICONTROL 主要功能表]** 圖示 ![主要功能表](/help/_includes/assets/main-menu-icon-left-nav.png) 然後按一下「 」 **[!UICONTROL 展示板]**.
-1. 按一下 **[!UICONTROL 更多]** 功能表 ![[!UICONTROL 更多選單]](assets/more-icon-spectrum.png) 在展示板或工作流程上，然後選取 **[!UICONTROL 刪除]**.
+1. 按一下Adobe Workfront右上角的&#x200B;**[!UICONTROL 主功能表]**&#x200B;圖示![主功能表](/help/_includes/assets/main-menu-icon.png)，或（如果有的話）按一下左上角的&#x200B;**[!UICONTROL 主功能表]**&#x200B;圖示![主功能表](/help/_includes/assets/main-menu-icon-left-nav.png)，然後按一下&#x200B;**[!UICONTROL 面板]**。
+1. 按一下展示板或工作流程上的&#x200B;**[!UICONTROL 更多]**&#x200B;功能表![[!UICONTROL 更多功能表]](assets/more-icon-spectrum.png)，然後選取&#x200B;**[!UICONTROL 刪除]**。
 
-   在工作流程上，功能表位於右側，在 [!UICONTROL **檢視工作流程**] 按鈕。
+   在工作流程上，功能表位於右側，在&#x200B;[!UICONTROL **檢視工作流程**]&#x200B;按鈕旁邊。
 
-1. 按一下 **[!UICONTROL 刪除展示板]** 或 [!UICONTROL **刪除工作流程**] 於確認訊息上。
+1. 按一下確認訊息上的&#x200B;**[!UICONTROL 刪除展示板]**&#x200B;或&#x200B;[!UICONTROL **刪除工作流程**]。
 
 <!-- ## Move a board to a workstream
 

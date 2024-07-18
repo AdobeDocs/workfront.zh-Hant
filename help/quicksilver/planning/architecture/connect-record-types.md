@@ -39,9 +39,9 @@ You can use Adobe Workfront Planning to design fully-customizable workspaces tha
 
 建立記錄或物件型別之間的連線後，您可以將個別記錄連線至彼此，並在Workfront Planning記錄上顯示連結記錄或物件型別的欄位。
 
-如需有關將Workfront Planning記錄從另一個應用程式連線至物件的資訊，請參閱 [連線記錄](/help/quicksilver/planning/records/connect-records.md).
+如需有關將Workfront Planning記錄連線到其他應用程式物件的資訊，請參閱[連線記錄](/help/quicksilver/planning/records/connect-records.md)。
 
-如需連線記錄型別和記錄的範例，請參閱 [連線記錄型別和記錄的範例](/help/quicksilver/planning/architecture/example-connect-record-types-and-records.md).
+如需連線記錄型別和記錄的範例，請參閱[連線記錄型別和記錄的範例](/help/quicksilver/planning/architecture/example-connect-record-types-and-records.md)。
 
 <!--ensure this last linked article is right; the title and the link should have changed-->
 
@@ -60,7 +60,7 @@ You can use Adobe Workfront Planning to design fully-customizable workspaces tha
 <td>
    <p> 產品</p> </td>
    <td>
-   <p> Adobe Workfront</p> <p>若要將Adobe Workfront Planning記錄型別與Experience Manager Assets連線，您必須擁有Adobe Experience Manager Assets授權，且貴組織的Workfront執行個體必須上線至Adobe統一體驗。 如需詳細資訊，請參閱 <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Workfront的AdobeUnified Experience</a>.</p> </td>
+   <p> Adobe Workfront</p> <p>若要將Adobe Workfront Planning記錄型別與Experience Manager Assets連線，您必須擁有Adobe Experience Manager Assets授權，且貴組織的Workfront執行個體必須上線至Adobe統一體驗。 如需詳細資訊，請參閱<a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Workfront的Adobe統一體驗</a>。</p> </td>
   </tr>  
  <td role="rowheader"><p>Adobe Workfront合約</p></td>
    <td>
@@ -88,19 +88,19 @@ You can use Adobe Workfront Planning to design fully-customizable workspaces tha
   </tr>
 <tr>
    <td role="rowheader"><p>版面配置範本</p></td>
-   <td> <p>您的Workfront或群組管理員必須在版面配置範本中新增Planning區域。 如需詳細資訊，請參閱 <a href="/help/quicksilver/planning/access/access-overview.md">存取權總覽</a>. </p>  
+   <td> <p>您的Workfront或群組管理員必須在版面配置範本中新增Planning區域。 如需詳細資訊，請參閱<a href="/help/quicksilver/planning/access/access-overview.md">存取總覽</a>。 </p>  
 </td>
   </tr>
 <tr>
    <td role="rowheader"><p>權限</p></td>
-   <td> <p>管理工作區的許可權</a> </p>  
+   <td> <p>管理工作區</a>的許可權 </p>  
    <p>系統管理員擁有所有工作區的許可權，包括他們未建立的工作區。
 </td>
   </tr>
  </tbody>
 </table>
 
-*如需詳細資訊，請參閱 [Workfront檔案中的存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 <!--Maybe enable this at GA - but planing is not supposed to have Access controls in the Workfront Access Level: 
 >[!NOTE]
@@ -142,24 +142,24 @@ You can use Adobe Workfront Planning to design fully-customizable workspaces tha
      >
      >您必須擁有Adobe Experience Manager Assets授權，且貴組織的Workfront執行個體必須上線至Adobe商業平台或Adobe Admin Console，才能將Workfront Planning記錄連線至Adobe Experience Manager Assets。
      >
-     >如果您對上線Adobe Admin Console有任何疑問，請參閱 [Adobe Unified Experience常見問題集](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/unified-experience-faq.md).
+     >如果您對加入Adobe Admin Console有任何疑問，請參閱[Adobe統一體驗常見問題集](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/unified-experience-faq.md)。
 
-* 為記錄型別建立個別記錄後，您可以從連結的記錄型別欄位中選取連線的記錄。 如需詳細資訊，請參閱 [連線記錄](/help/quicksilver/planning/records/connect-records.md).
+* 為記錄型別建立個別記錄後，您可以從連結的記錄型別欄位中選取連線的記錄。 如需詳細資訊，請參閱[連線記錄](/help/quicksilver/planning/records/connect-records.md)。
 
 * 將記錄型別與另一個記錄型別或另一個應用程式的物件型別連線後，就會出現下列情況：
 
-   * **當您連線兩種記錄型別時**：連結的記錄欄位會在您連線的記錄型別上建立。 類似的連結記錄欄位會在您連線的記錄型別上建立。
+   * **當您連線兩個記錄型別時**：連結的記錄欄位會在您連線的記錄型別上建立。 類似的連結記錄欄位會在您連線的記錄型別上建立。
 
      例如，如果您將「促銷活動」記錄型別與「產品」記錄型別連結，您會為「促銷活動」記錄型別建立名為「連結的產品」的連結記錄欄位，並為「產品」記錄型別建立自動名為「促銷活動」的連結記錄型別。
 
-   * **當您從另一個應用程式將記錄型別與物件型別連線時**：
+   * **當您從另一個應用程式連線具有物件型別的記錄型別時**：
 
       * 連結的記錄欄位會在您連線的記錄型別上建立。 不會在其他應用程式的物件型別上自動建立任何連結的記錄欄位。
 
       * 無法從Workfront物件存取規劃記錄欄位。
-      * 當您的Workfront管理員透過Workfront與Adobe Experience Manager Assets之間的整合設定中繼資料對應時，可從Experience Manager資產存取規劃記錄欄位。 如需詳細資訊，請參閱 [設定Adobe Workfront和Experience Manager Assets之間的資產中繼資料對應](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping.html?lang=en).
+      * 當您的Workfront管理員透過Workfront與Adobe Experience Manager Assets之間的整合設定中繼資料對應時，可從Experience Manager資產存取規劃記錄欄位。 如需詳細資訊，請參閱[設定Adobe Workfront與Experience Manager Assets之間的資產中繼資料對應](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping.html?lang=en)。
 
-   * **當您新增連線的記錄或物件的連結（或查詢）欄位時**：您可以將其他應用程式物件的欄位連線至Workfront Planning記錄型別。 連結欄位是唯讀的，當您連線記錄或物件時，連結欄位會自動顯示已連線記錄或物件的資訊。
+   * **當您新增連線至記錄或物件的連結（或查詢）欄位時**：您可以將其他應用程式物件的欄位連線至Workfront Planning記錄型別。 連結欄位是唯讀的，當您連線記錄或物件時，連結欄位會自動顯示已連線記錄或物件的資訊。
 
      例如，如果您將「行銷活動」記錄型別與Workfront專案連線，並且選擇將專案的「計畫完成日期」欄位帶入Workfront計畫記錄，則系統會自動為行銷活動建立名為「計畫完成日期」（來自「專案」）的連結欄位。 您無法手動編輯此連結的欄位。 計畫完成日期（來自專案）欄位會顯示連結專案的計畫完成日期。
 
@@ -167,7 +167,7 @@ You can use Adobe Workfront Planning to design fully-customizable workspaces tha
      >
      >    擁有工作區檢視或更高許可權的所有人都可以檢視連結欄位中的資訊，無論其在連結物件型別應用程式中的許可權或存取層級為何。
 
-* 連結的記錄欄位前面有關係圖示 ![](assets/relationship-field-icon.png).
+* 連結的記錄欄位前面有關聯圖示![](assets/relationship-field-icon.png)。
 
   連結的欄位前面有識別欄位型別的圖示。 例如，連結（或查詢）欄位前面有圖示，表示欄位是數字、段落或日期。
 
@@ -184,11 +184,11 @@ You can use Adobe Workfront Planning to design fully-customizable workspaces tha
 
    從工作區中，展開現有工作區名稱右側的向下箭頭，搜尋工作區，然後在工作區顯示在清單中時選取該工作區。
 1. 按一下記錄型別的卡片以開啟記錄型別頁面。
-1. 按一下 **+** 圖示並按一下 **新連線** 標籤。
+1. 按一下表格檢視右上角的&#x200B;**+**&#x200B;圖示，然後按一下&#x200B;**新增連線**&#x200B;索引標籤。
 
    ![](assets/new-connection-tab-with-workfront-aem-options.png)
 
-1. 在 **記錄型別** 欄位，搜尋記錄型別，或選取下列其中一項：
+1. 在&#x200B;**記錄型別**&#x200B;欄位中，搜尋記錄型別，或選取下列其中一項：
 
    * 來自所選工作區區段的其他記錄型別
 
@@ -200,25 +200,25 @@ You can use Adobe Workfront Planning to design fully-customizable workspaces tha
      > 
      >如果您在選取的工作區中沒有其他記錄型別，工作區區段不會顯示。
 
-   * A **專案、Portfolio、計畫、公司**，或 **群組** 從 **Workfront物件型別** 區段。
+   * 來自&#x200B;**Workfront物件型別**&#x200B;區段的&#x200B;**專案、Portfolio、方案、公司**&#x200B;或&#x200B;**群組**。
 
      ![](assets/workfront-project-connection-selection.png)
 
-   * **Experience Manager Assets** 從 **Adobe應用程式** 區段。
+   * 來自&#x200B;**Adobe應用程式**&#x200B;區段的&#x200B;**Experience Manager Assets**。
 
      ![](assets/aem-assets-connection-selection.png)
 
 1. 更新下列資訊：
 
-   * **名稱**：已連線的欄位名稱，會顯示在原始記錄型別的表格檢視或記錄頁面中。 這會在原始記錄型別的表格檢視或原始記錄的連結記錄欄位中建立連結記錄欄。 依預設，欄位名稱是您連線的記錄或物件的名稱。
+   * **名稱**：已連線欄位的名稱，它會顯示在原始記錄型別的資料表檢視或記錄頁面中。 這會在原始記錄型別的表格檢視或原始記錄的連結記錄欄位中建立連結記錄欄。 依預設，欄位名稱是您連線的記錄或物件的名稱。
 
    >[!TIP]
    >
    >您可以有多個連線連線到相同的記錄或物件型別。 如果您不編輯已連線的欄位名稱，Workfront會在已連線記錄的名稱后新增一個數字，以表示相同名稱的已連線記錄型別數目。
 
-   * **說明**：有關連線記錄欄位的其他資訊。 當您將滑鼠游標停留在表格中的欄位欄位上時，會顯示欄位說明。
-   * **允許多筆記錄**：選取此選項以表示您允許使用者在原始記錄上顯示「連結的記錄型別」欄位時新增多個記錄。 依預設會選取此選項。
-   * **選取查閱欄位**：選取此選項，從選取的記錄型別新增欄位。 查閱欄位是與您要連結的記錄或物件型別相關聯的欄位。 連結它們會顯示您連結的記錄或物件在您所連結的記錄上的資訊。 依預設會選取此選項。
+   * **描述**：有關連線記錄欄位的額外資訊。 當您將滑鼠游標停留在表格中的欄位欄位上時，會顯示欄位說明。
+   * **允許多筆記錄**：選取此選項表示當連結的記錄型別欄位顯示在原始記錄上時，您可以允許使用者新增多筆記錄。 依預設會選取此選項。
+   * **選取查詢欄位**：選取此選項以從選取的記錄型別新增欄位。 查閱欄位是與您要連結的記錄或物件型別相關聯的欄位。 連結它們會顯示您連結的記錄或物件在您所連結的記錄上的資訊。 依預設會選取此選項。
 
      >[!TIP]
      >
@@ -229,35 +229,35 @@ You can use Adobe Workfront Planning to design fully-customizable workspaces tha
      >    * 上次修改者
      >    * Workfront預先輸入欄位（包括專案所有者或專案贊助者等欄位）
 
-1. （條件式與選擇性）如果您已選取連線Workfront物件，請選取 **自訂表格** 從 **僅連結符合這些條件的物件** 區段。 只有已附加所選自訂表單的物件才能連結至所選記錄型別。 您可以選取多個表單。
+1. （有條件且選擇性）如果您選取連線Workfront物件，請從&#x200B;**僅連結符合這些條件的物件**&#x200B;區段中選取&#x200B;**自訂表單**。 只有已附加所選自訂表單的物件才能連結至所選記錄型別。 您可以選取多個表單。
 
    >[!NOTE]
    >
    > 您必須先在Workfront中為選取的物件建立自訂表單，這些表單才會顯示在此清單中。
 
-1. （視條件而定）如果您已選取連線至Experience Manager Assets，請從 **Experience Manager存放庫** 中的下拉式功能表 **從下列存放庫連結資產** 區段。 這是必填欄位。 此欄位只會顯示您在Experience Manager Assets中有權存取的存放庫。
+1. （視條件而定）如果您選取連線至Experience Manager Assets，請從&#x200B;**從下列存放庫連結資產**&#x200B;區段的&#x200B;**Experience Manager存放庫**&#x200B;下拉式功能表中選取存放庫。 這是必填欄位。 此欄位只會顯示您在Experience Manager Assets中有權存取的存放庫。
 
    >[!NOTE]
    >
-   >您的Workfront管理員可以透過Workfront中的中繼資料對應，將Workfront Planning欄位對應至Experience Manager Assets欄位。 如需詳細資訊，請參閱 [設定Adobe Workfront和Experience Manager Assets之間的資產中繼資料對應](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping.html?lang=en).
+   >您的Workfront管理員可以透過Workfront中的中繼資料對應，將Workfront Planning欄位對應至Experience Manager Assets欄位。 如需詳細資訊，請參閱[設定Adobe Workfront與Experience Manager Assets之間的資產中繼資料對應](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping.html?lang=en)。
 
-1. （視條件而定）如果您選取連線至Experience Manager Assets或Workfront Planning記錄型別，請停用 **標題** 切換至 **錄製外觀** 區域（如果您不希望連結的記錄或資產的標題顯示在連結的欄位中）。 停用時，連結欄位中只會顯示記錄的縮圖。 沒有縮圖影像的記錄會顯示影像圖示。 切換預設為啟用。 有關連線記錄如何顯示的範例，請參見 **錄製外觀** 區域。
+1. （視條件而定）如果您選取連線至Experience Manager Assets或Workfront Planning記錄型別，且不想在連結欄位中顯示連線記錄或資產的標題，請停用&#x200B;**記錄外觀**&#x200B;區域中的&#x200B;**標題**&#x200B;切換功能。 停用時，連結欄位中只會顯示記錄的縮圖。 沒有縮圖影像的記錄會顯示影像圖示。 切換預設為啟用。 在&#x200B;**記錄外觀**&#x200B;區域顯示連線記錄的範例。
 
    >[!TIP]
    >
    >    當您允許連結多個記錄時，只顯示縮圖可能會節省較小區域（例如記錄檢視）的空間。
    >
-   >記錄的標題是記錄的主要欄位。 如需詳細資訊，請參閱 [主要欄位概述](/help/quicksilver/planning/fields/primary-field-overview.md).
+   >記錄的標題是記錄的主要欄位。 如需詳細資訊，請參閱[主要欄位概述](/help/quicksilver/planning/fields/primary-field-overview.md)。
 
 1. 按一下「**建立**」。
 
-1. （視條件而定）如果您已選取 **選取查閱欄位** 設定， **新增查詢欄位** 方塊開啟。
+1. （視條件而定）若您選取&#x200B;**選取查閱欄位**&#x200B;設定，**新增查閱欄位**&#x200B;方塊就會開啟。
 
-   按一下 **+** 圖示以從新增欄位 **未選取的欄位** 區域。
+   按一下&#x200B;**+**&#x200B;圖示，從&#x200B;**未選取的欄位**&#x200B;區域新增欄位。
 
    或
 
-   按一下 **-** 圖示可移除中的欄位 **選取的欄位** 區域
+   按一下&#x200B;**-**&#x200B;圖示以從&#x200B;**選取的欄位**&#x200B;區域移除欄位
 
    ![](assets/add-lookup-fields-for-another-maestro-record-type-box.png)
 
@@ -268,7 +268,7 @@ You can use Adobe Workfront Planning to design fully-customizable workspaces tha
    >    擁有工作區檢視或更高許可權的所有人都可以檢視連結欄位中的資訊，無論其在連結物件型別應用程式中的許可權或存取層級為何。
 
 
-1. （選用）按一下 **略過** 跳過從連結的記錄或物件型別新增欄位。 此 **名稱** 或 **標題** 連結記錄的表格檢視中，唯一可見的欄位是您連線的記錄型別。
+1. （選擇性）按一下&#x200B;**跳過**&#x200B;以跳過從連結的記錄或物件型別新增欄位。 連結記錄的&#x200B;**Name**&#x200B;或&#x200B;**Title**&#x200B;是您連線之記錄型別的資料表檢視中唯一可見的欄位。
 
 1. （選擇性和條件性）如果您選取連結數字、貨幣、百分比或日期型別欄位，請同時選取彙總值以彙總多個值。 當使用者在連結的記錄欄位中選取多個連結的記錄時，連結欄位的值會根據您選擇的彙總器，以逗號分隔或顯示為摘要值。
 
@@ -292,12 +292,12 @@ You can use Adobe Workfront Planning to design fully-customizable workspaces tha
 
    從下列選項中選取：
 
-   * **無**：顯示來自多筆記錄的值，並以逗號分隔。 這是預設選取範圍。
-   * **MAX**：顯示連結記錄欄位中，來自多筆記錄之所有值的最高值。
-   * **MIN**：顯示在連結的記錄欄位中，從多個記錄中選取之所有值的最低值。
-   * **SUM**：顯示在連結的記錄欄位中，來自多個記錄的所有值總計。
-   * **平均**：顯示連結記錄欄位中，來自多筆記錄之所有值的平均值。
-   * **獨特**：從查詢欄位值中移除重複專案，並僅顯示唯一值。 下列欄位型別無法使用此選項：
+   * **無**：顯示來自多個記錄的值（以逗號分隔）。 這是預設選取範圍。
+   * **MAX**：顯示在連結的記錄欄位中選取之多個記錄的所有值中的最高值。
+   * **MIN**：顯示在連結記錄欄位中選取之多個記錄的所有值中最低的值。
+   * **SUM**：顯示在連結記錄欄位中選取之多個記錄的所有值總計。
+   * **AVG**：顯示在連結記錄欄位中選取之多個記錄的所有值的平均值。
+   * **唯一**：從查閱欄位值中移除重複專案，並且只顯示唯一值。 下列欄位型別無法使用此選項：
       * 段落
       * 核取方塊
       * 人員
@@ -308,25 +308,25 @@ You can use Adobe Workfront Planning to design fully-customizable workspaces tha
    >
    >* **無**： $100,000， $110,000， $100,000
    >* **MAX**： $110,000
-   >* **MIN**： $100,000
-   >* **SUM**： $310,000
-   >* **平均**：$103,000.33
-   >* **獨特**： $100,000
+   >* **分鐘**： $100,000
+   >* **總計**： $310,000
+   >* **平均**： $103,000.33
+   >* **唯一**： $100,000
    >
 
-1. （選用）使用 **搜尋** 圖示 ![](assets/search-icon.png) 以搜尋欄位。
+1. （選擇性）使用&#x200B;**搜尋**&#x200B;圖示![](assets/search-icon.png)來搜尋欄位。
 
-1. 按一下 **新增欄位** 以儲存變更。
+1. 按一下&#x200B;**新增欄位**&#x200B;以儲存變更。
 
    已新增下列專案：
 
-   * 您正在連結的記錄型別上的連結記錄欄位。 在您手動新增連結的記錄型別後，連結的記錄欄位將顯示連結的記錄型別的個別記錄。 如需新增記錄的資訊，請參閱 [連線記錄](/help/quicksilver/planning/records/connect-records.md). 連結的記錄欄位名稱是您在步驟7中選取的名稱。 <!--accurate-->
+   * 您正在連結的記錄型別上的連結記錄欄位。 在您手動新增連結的記錄型別後，連結的記錄欄位將顯示連結的記錄型別的個別記錄。 如需新增記錄的資訊，請參閱[連線記錄](/help/quicksilver/planning/records/connect-records.md)。 連結的記錄欄位名稱是您在步驟7中選取的名稱。<!--accurate-->
 
-   * 一個連結（或查詢）欄位（或數個欄位），在您手動新增連結記錄欄位中的記錄或物件後，顯示連結記錄或物件型別的相關資訊。 查閱欄位僅在 **選取查閱欄位** 建立連線時會選取「設定」。 查閱欄位會自動根據以下模式命名：
+   * 一個連結（或查詢）欄位（或數個欄位），在您手動新增連結記錄欄位中的記錄或物件後，顯示連結記錄或物件型別的相關資訊。 只有在建立連線時選取&#x200B;**選取查閱欄位**&#x200B;設定時，才會建立查閱欄位。 查閱欄位會自動根據以下模式命名：
 
      `<Name of the original field on the linked record> (from <Name of your linked field>)`
 
-     例如，如果您連結的「行銷活動」記錄型別具有「方案」記錄型別，且將「方案」連結的記錄欄位命名為「方案資訊」，然後選取以在「行銷活動」表格檢視中同時顯示「方案」的「預算」欄位，則連結的欄位會自動命名為 `Budget (from Program information)` 在行銷活動的表格檢視中。
+     例如，如果您連結的行銷活動記錄型別具有「方案」記錄型別，並將方案連結記錄欄位命名為「方案資訊」，然後選取還要在行銷活動表格檢視中顯示「方案」的「預算」欄位，則連結的欄位在行銷活動表格檢視中會自動命名為`Budget (from Program information)`。
 
    * 當您將記錄型別連結到彼此時，連結的記錄欄位也會新增到您連結到的記錄型別上。 連結的記錄型別上連結的記錄欄位名稱是您連結的記錄型別名稱。
 
@@ -338,12 +338,12 @@ You can use Adobe Workfront Planning to design fully-customizable workspaces tha
 
 1. （選擇性和條件性）在原始記錄型別或連結記錄型別表格檢視中，按一下連結記錄欄位標題中的向下箭頭，然後按一下下列其中一項：
 
-   * **編輯欄位**：您可以更新 **名稱** 和 **說明** 欄位資訊。
+   * **編輯欄位**：您可以更新欄位的&#x200B;**名稱**&#x200B;和&#x200B;**描述**&#x200B;資訊。
    * **編輯查閱欄位**：新增或移除任何連結記錄的欄位。
 
    ![](assets/edit-field-and-lookup-fields-drop-down-menu-in-table-column.png)
 
-   若要新增或移除查詢欄位，請遵循上述步驟10至14中的指示。 <!--ensure these step numbers stay accurate-->
+   若要新增或移除查詢欄位，請遵循上述步驟10至14中的指示。<!--ensure these step numbers stay accurate-->
 
    >[!NOTE]
    >
@@ -351,6 +351,6 @@ You can use Adobe Workfront Planning to design fully-customizable workspaces tha
    >
    > 例如，您無法將「促銷活動狀態」的查詢欄位新增至您正從促銷活動連結至的Workfront專案。
 
-1. （可選）從連結的記錄型別中，按一下連結的記錄欄位標題或查閱欄位標題中的向下箭頭，然後按一下 **刪除**.
+1. （選擇性）從連結的記錄型別中，按一下連結的記錄欄位標題或查閱欄位標題中的向下箭頭，然後按一下&#x200B;**刪除**。
 
    記錄欄位或查詢欄位將會刪除。 如果您刪除記錄欄位，則與連結記錄關聯的任何查閱欄位也會被刪除。

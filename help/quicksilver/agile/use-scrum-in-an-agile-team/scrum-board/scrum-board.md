@@ -19,13 +19,13 @@ ht-degree: 0%
 
 本節包含下列文章：
 
-* [[!UICONTROL Scrum] 展示板概述](../../../agile/use-scrum-in-an-agile-team/scrum-board/scrum-board-overview.md)
-* [將子任務新增至上的現有劇本 [!UICONTROL Scrum] 展示板](../../../agile/use-scrum-in-an-agile-team/scrum-board/add-a-subtask-to-an-existing-story-scrum.md)
-* [將使用者指派至上的劇本 [!UICONTROL Scrum] 展示板](../../../agile/use-scrum-in-an-agile-team/scrum-board/assign-users-to-a-story-scrum.md)
-* [在上依色彩將劇本分類 [!UICONTROL Scrum] 展示板](../../../agile/use-scrum-in-an-agile-team/scrum-board/categorize-stories-by-color.md)
-* [變更劇本在上的順序 [!UICONTROL Scrum] 展示板](../../../agile/use-scrum-in-an-agile-team/scrum-board/change-order-of-stories.md)
-* [依據使用者篩選 [!UICONTROL Scrum] 展示板](../../../agile/use-scrum-in-an-agile-team/scrum-board/filter-by-user-scrum-board.md)
-* [從新增劇本和問題 [!UICONTROL Scrum] 展示板](../../../agile/use-scrum-in-an-agile-team/scrum-board/add-story-from-scrum-board.md)
-* [管理上的劇本和問題 [!UICONTROL Scrum] 展示板](../../../agile/use-scrum-in-an-agile-team/scrum-board/manage-scrum-board.md)
-* [更新上內文和子任務的狀態 [!UICONTROL Scrum] 展示板](../../../agile/use-scrum-in-an-agile-team/scrum-board/update-status-of-stories-and-subtasks.md)
-* [檢視和編輯劇本資訊 [!UICONTROL Scrum] 展示板](../../../agile/use-scrum-in-an-agile-team/scrum-board/view-and-edit-story-info.md)
+* [[!UICONTROL Scrum]主機板概述](../../../agile/use-scrum-in-an-agile-team/scrum-board/scrum-board-overview.md)
+* [將子工作新增至[!UICONTROL Scrum]展示板上的現有劇本](../../../agile/use-scrum-in-an-agile-team/scrum-board/add-a-subtask-to-an-existing-story-scrum.md)
+* [將使用者指派給[!UICONTROL Scrum]展示板上的劇本](../../../agile/use-scrum-in-an-agile-team/scrum-board/assign-users-to-a-story-scrum.md)
+* [在[!UICONTROL Scrum]展示板上依色彩將劇本分類](../../../agile/use-scrum-in-an-agile-team/scrum-board/categorize-stories-by-color.md)
+* [在[!UICONTROL Scrum]展示板上變更劇本的順序](../../../agile/use-scrum-in-an-agile-team/scrum-board/change-order-of-stories.md)
+* [在[!UICONTROL Scrum]展示板上依使用者篩選](../../../agile/use-scrum-in-an-agile-team/scrum-board/filter-by-user-scrum-board.md)
+* [從[!UICONTROL Scrum]展示板新增劇本和問題](../../../agile/use-scrum-in-an-agile-team/scrum-board/add-story-from-scrum-board.md)
+* [在[!UICONTROL Scrum]展示板上管理故事和問題](../../../agile/use-scrum-in-an-agile-team/scrum-board/manage-scrum-board.md)
+* [在[!UICONTROL Scrum]展示板上更新內文和子工作的狀態](../../../agile/use-scrum-in-an-agile-team/scrum-board/update-status-of-stories-and-subtasks.md)
+* [在[!UICONTROL Scrum]板上檢視及編輯內文資訊](../../../agile/use-scrum-in-an-agile-team/scrum-board/view-and-edit-story-info.md)

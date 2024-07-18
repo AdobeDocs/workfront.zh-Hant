@@ -37,7 +37,7 @@ recommendations: noDisplay, noCatalog
 
 公式欄位會使用記錄型別中其他欄位的現有值，以及指示應如何計算現有值的函式，來產生新值。
 
-如需詳細資訊，請參閱文章中的「公式」一節 [建立欄位](/help/quicksilver/planning/fields/create-fields.md).
+如需詳細資訊，請參閱文章[建立欄位](/help/quicksilver/planning/fields/create-fields.md)中的「公式」一節。
 
 ## 存取需求
 
@@ -81,13 +81,13 @@ recommendations: noDisplay, noCatalog
   </tr>
 <tr>
    <td role="rowheader"><p>權限</p></td>
-   <td> <p>管理工作區的許可權</a> </p>  
+   <td> <p>管理工作區</a>的許可權 </p>  
    <p>系統管理員擁有所有工作區的許可權，包括他們未建立的工作區</p>
 </td>
   </tr>
 <tr>
    <td role="rowheader"><p>版面配置範本</p></td>
-   <td> <p>您的Workfront或群組管理員必須在版面配置範本中新增Planning區域。 如需詳細資訊，請參閱 <a href="/help/quicksilver/planning/access/access-overview.md">存取權總覽</a>. </p>  
+   <td> <p>您的Workfront或群組管理員必須在版面配置範本中新增Planning區域。 如需詳細資訊，請參閱<a href="/help/quicksilver/planning/access/access-overview.md">存取總覽</a>。 </p>  
 </td>
   </tr>
 
@@ -101,14 +101,14 @@ recommendations: noDisplay, noCatalog
 
 ## 有關公式欄位的考量事項
 
-* 公式欄位參考屬於相同記錄型別的欄位。 建立公式欄位時，您無法參考其他記錄型別的欄位。 <!--is this still accurate??-->
+* 公式欄位參考屬於相同記錄型別的欄位。 建立公式欄位時，您無法參考其他記錄型別的欄位。<!--is this still accurate??-->
 * 儲存公式欄位後，您無法變更其欄位型別。
 * 儲存公式欄位後，您可以更新公式欄位的計算，而計算結果會自動更新相同型別的所有記錄。
 * 您必須在Workfront Planning介面中顯示的公式中，新增您參考的欄位。
 
 ## 支援的公式
 
-Adobe Workfront Planning公式欄位支援Workfront計算欄位的所有運算式。 如需詳細資訊，請參閱 [計算資料運算式的概觀](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
+Adobe Workfront Planning公式欄位支援Workfront計算欄位的所有運算式。 如需詳細資訊，請參閱[計算資料運算式概觀](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md)。
 
 此外，我們為Workfront Planning公式欄位支援下列運算式：
 
@@ -139,7 +139,7 @@ Adobe Workfront Planning公式欄位支援Workfront計算欄位的所有運算�
 </p>
    </td></tr>
      <tr> 
-   <td><strong>ID</strong> </td> 
+   <td><strong>識別碼</strong> </td> 
    <td> <p>傳回記錄的ID。 每個記錄都有一個唯一的ID。</p> <p>運算式的格式如下：
 
 <code>{ID}</code>

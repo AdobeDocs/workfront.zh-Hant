@@ -4,7 +4,7 @@ content-type: reference
 product-area: system-administration;setup
 navigation-topic: set-up-workfront
 title: 設定系統預設值
-description: 作為 [!DNL Adobe Workfront] 管理員，您可以設定系統預設值，例如使用者建立之所有專案的偏好設定。
+description: 作為 [!DNL Adobe Workfront] 管理員，您可以設定系統預設值，例如使用者建立的所有專案的偏好設定。
 author: Caroline
 feature: System Setup and Administration
 role: Admin
@@ -27,7 +27,7 @@ ht-degree: 0%
 * [設定請求型別](../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-request-types.md)
 * [自訂預設問題型別](../../../administration-and-setup/set-up-workfront/configure-system-defaults/customize-default-issue-types.md)
 * [建立、編輯和共用預設的篩選器、檢視和群組](../../../administration-and-setup/set-up-workfront/configure-system-defaults/create-and-share-default-fvgs.md)
-* [設定 [!UICONTROL 資源管理] 偏好設定](../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md)
+* [設定[!UICONTROL 資源管理]偏好設定](../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md)
 * [編輯和建立風險型別](../../../administration-and-setup/set-up-workfront/configure-system-defaults/edit-create-risk-types.md)
 * [建立自訂費用型別](../../../administration-and-setup/set-up-workfront/configure-system-defaults/create-custom-expense-types.md)
 * [建立計分卡](../../../administration-and-setup/set-up-workfront/configure-system-defaults/create-scorecard.md)

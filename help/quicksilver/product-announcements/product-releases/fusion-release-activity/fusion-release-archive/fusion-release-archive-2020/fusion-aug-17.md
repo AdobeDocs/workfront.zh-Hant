@@ -21,15 +21,15 @@ ht-degree: 1%
 
 本頁說明2020年8月17日當週在Adobe Workfront Fusion中所做的所有增強功能。
 
-如需所有最近變更的清單，請參閱 [Adobe Workfront Fusion發行活動](../../../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
+如需所有最近變更的清單，請參閱[Adobe Workfront Fusion發行活動](../../../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md)。
 
-如需Workfront Fusion中近期的錯誤修正清單，請參閱 [Workfront維護更新](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) 頁面，並檢查是否有任何標示為Workfront Fusion維護更新的更新。
+如需Workfront Fusion中最近的錯誤修正清單，請參閱[Workfront維護更新](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html)頁面，並檢查任何標示為Workfront Fusion維護更新的更新。
 
 ## SharePoint聯結器和模組現已推出
 
 您現在可以使用Workfront Fusion連線至您的SharePoint帳戶。 透過SharePoint模組，您可以在SharePoint帳戶中執行動作，例如建立專案、讀取檔案或下載檔案。
 
-如需可用SharePoint模組的相關資訊，請參閱 [SharePoint模組](../../../../../workfront-fusion/apps-and-their-modules/sharepoint-modules.md).
+如需可用SharePoint模組的相關資訊，請參閱[SharePoint模組](../../../../../workfront-fusion/apps-and-their-modules/sharepoint-modules.md)。
 
 **預覽版本**
 

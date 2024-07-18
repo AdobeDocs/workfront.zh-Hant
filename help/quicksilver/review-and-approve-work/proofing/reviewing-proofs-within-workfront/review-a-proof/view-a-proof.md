@@ -8,7 +8,7 @@ feature: Digital Content and Documents
 exl-id: f44e191c-edce-4387-8ab0-7a014d094a29
 source-git-commit: ae80999fc7ea7e35097560aa99baa435bcd31b74
 workflow-type: tm+mt
-source-wordcount: '883'
+source-wordcount: '856'
 ht-degree: 0%
 
 ---
@@ -25,31 +25,31 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront計畫*</td> 
-   <td> <p>目前計畫：Pro或更高版本</p> <p>或</p> <p>舊版計畫：選擇或Premium</p> <p>如需有關校訂不同方案的存取許可權的詳細資訊，請參閱 <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">存取Workfront中的校訂功能</a>.</p> </td> 
+   <td> <p>目前計畫：Pro或更高版本</p> <p>或</p> <p>舊版計畫：選擇或Premium</p> <p>如需有關不同方案的校訂存取許可權的詳細資訊，請參閱<a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">存取Workfront中的校訂功能</a>。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront授權*</td> 
    <td> <p>目前計畫：工作或計畫</p> <p>舊版計畫：任何（您必須為使用者啟用校訂）</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">校訂權限設定檔 </td> 
+   <td role="rowheader">校樣權限設定檔 </td> 
    <td>經理或以上</td> 
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定*</td> 
-   <td> <p>編輯檔案的存取權</p> <p>如需請求其他存取許可權的詳細資訊，請參閱 <a href="../../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">要求物件的存取權 </a>.</p> </td> 
+   <td> <p>編輯檔案的存取權</p> <p>如需請求其他存取權的資訊，請參閱<a href="../../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">請求物件</a>的存取權。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;若要瞭解您擁有的計畫、角色或校訂許可權設定檔，請聯絡您的Workfront或Workfront校訂管理員。
+&#42;若要瞭解您擁有的計畫、角色或校訂許可權設定檔，請連絡您的Workfront或Workfront Proof管理員。
 
 ## 變更校訂的檢視
 
 您可以在單一檢視、連續檢視或磁帶匣檢視中檢視包含多個頁面的靜態校樣。
 
-1. 前往包含檔案的專案、任務或問題，然後選取「 」 **檔案**.
-1. 尋找所需的證明，然後按一下 **未完成的校訂**.
+1. 前往包含檔案的專案、任務或問題，然後選取「**檔案**」。
+1. 尋找您需要的校訂，然後按一下&#x200B;**開啟校訂**。
 
 1. 在校訂檢視器的左上角區域中，找出檢視選項。\
    ![changing_the_view.png](assets/changing-the-view-350x213.png)
@@ -86,10 +86,10 @@ ht-degree: 0%
 
 預設會顯示縮圖面板。 您可以隱藏或調整面板的大小。
 
-1. 前往包含檔案的專案、任務或問題，然後選取「 」 **檔案**.
-1. 尋找所需的證明，然後按一下 **未完成的校訂**.
+1. 前往包含檔案的專案、任務或問題，然後選取「**檔案**」。
+1. 尋找您需要的校訂，然後按一下&#x200B;**開啟校訂**。
 
-1. 按一下 **縮圖** 圖示加以調整。\
+1. 按一下校訂檢視器左上角的&#x200B;**縮圖**&#x200B;圖示。\
    ![hide_thumbnails_panel.png](assets/hide-thumbnails-panel-350x213.png)
 
 1. （可選）再次按一下「縮圖」圖示以顯示縮圖面板。
@@ -104,8 +104,8 @@ ht-degree: 0%
 
 若要在縮圖檢視中進行縮放和平移：
 
-1. 前往包含檔案的專案、任務或問題，然後選取「 」 **檔案**.
-1. 尋找所需的證明，然後按一下 **未完成的校訂**.
+1. 前往包含檔案的專案、任務或問題，然後選取「**檔案**」。
+1. 尋找您需要的校訂，然後按一下&#x200B;**開啟校訂**。
 
 1. 在縮圖面板中找出目前的縮放區域。\
    縮放區域會在縮圖邊緣周圍顯示為藍色框架。
@@ -119,37 +119,37 @@ ht-degree: 0%
 
 您可以在校訂檢視器中旋轉校訂。 旋轉包含多頁的校樣時，會同時旋轉所有頁面。
 
-1. 前往包含檔案的專案、任務或問題，然後選取「 」 **檔案**.
-1. 尋找所需的證明，然後按一下 **未完成的校訂**.
+1. 前往包含檔案的專案、任務或問題，然後選取「**檔案**」。
+1. 尋找您需要的校訂，然後按一下&#x200B;**開啟校訂**。
 
-1. 按一下 **旋轉** 圖示加以檢視。
+1. 按一下校訂檢視器底部的&#x200B;**旋轉**&#x200B;圖示。
 
    ![proof_viewer_static_rotate.png](assets/proof-viewer-static-rotate-350x36.png)
 
-   每次按一下「 」，校樣都會旋轉90度 **旋轉** 圖示。
+   每次按一下&#x200B;**旋轉**&#x200B;圖示時，校樣都會旋轉90度。
 
 ## 縮放和平移校訂
 
 您可以在檢視校樣時調整縮放百分比。 以較大的縮放百分比檢視校訂時，「平移」選項可讓您使用游標來導覽至校訂的不同區域。
 
-1. 前往包含檔案的專案、任務或問題，然後選取「 」 **檔案**.
-1. 尋找所需的證明，然後按一下 **未完成的校訂**.
+1. 前往包含檔案的專案、任務或問題，然後選取「**檔案**」。
+1. 尋找您需要的校訂，然後按一下&#x200B;**開啟校訂**。
 
 1. 執行下列任一項作業來調整校訂的縮放百分比：
 
-   * 按一下 **縮放** 圖示，然後按一下校訂以在更高的縮放層級檢視校訂，或拖移過校訂的區域以僅檢視該區域。
+   * 按一下&#x200B;**縮放**&#x200B;圖示，然後按一下校樣以在更高的縮放等級檢視校樣，或是拖移過校樣區域以僅檢視該區域。
 
      ![change_zoom_percentage.png](assets/change-zoom-percentage-350x36.png)
 
-   * 按一下目前的縮放百分比，然後按一下新的縮放百分比，或按一下 **符合寬度**， **符合高度**，或 **符合頁面大小**.
+   * 按一下目前的縮放百分比、按一下新的縮放百分比，或按一下&#x200B;**符合寬度**、**符合高度**&#x200B;或&#x200B;**符合頁面**。
 
      ![zoom_percentage_menu.png](assets/zoom-percentage-menu-350x245.png)
 
-   * 按一下 **加號** 或 **減號** 圖示可增加或減少縮放百分比。
+   * 按一下&#x200B;**加**&#x200B;或&#x200B;**減**&#x200B;圖示以增加或減少縮放百分比。
 
      ![change_zoom_percentage_-_plus_minus.png](assets/change-zoom-percentage---plus-minus-350x36.png)
 
-1. 如果您需要平移到視訊校訂上的特定區域，請按一下 **平移** 圖示，然後視需要拖曳校樣。
+1. 如果您需要平移到視訊校訂上的特定區域，請按一下&#x200B;**平移**&#x200B;圖示，然後視需要拖曳校訂。
 
    ![change_zoom_-_pan.png](assets/change-zoom---pan-350x36.png)
 

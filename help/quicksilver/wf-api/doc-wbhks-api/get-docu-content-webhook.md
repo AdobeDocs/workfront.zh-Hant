@@ -11,7 +11,7 @@ exl-id: 0f0b5af7-f276-4856-852c-e976fa491f83
 source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
 workflow-type: tm+mt
 source-wordcount: '43'
-ht-degree: 13%
+ht-degree: 9%
 
 ---
 
@@ -42,7 +42,7 @@ GET/下載
  </tbody> 
 </table>
 
-## 個回應
+## 回應
 
 檔案的原始位元組。
 

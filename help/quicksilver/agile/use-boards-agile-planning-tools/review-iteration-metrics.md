@@ -33,7 +33,7 @@ ht-degree: 0%
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] 計劃*</strong></td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] 計畫*</strong></td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
@@ -47,13 +47,13 @@ ht-degree: 0%
 
 {{step1-to-boards}}
 
-1. 若要開啟工作流程，請按一下 [!UICONTROL **檢視工作流程**].
-1. 選取 [!UICONTROL 反複專案程式] 展示板。
+1. 若要開啟工作流程，請按一下[檢視工作流程]。[!UICONTROL ****]
+1. 選取[!UICONTROL 反複專案程式]展示板。
 1. 檢閱右上角展示板上方的量度區域。 按一下向上和向下箭頭可在版序之間移動。
 
    會顯示下列量度：指派給疊代的總點數、疊代中尚未完成的剩餘點數，以及疊代中完成的點數。
 
-1. （可選）按一下 [!UICONTROL **反複專案詳細資料**] 圖示 ![反複專案詳細資料](assets/iteration-details-button.png) 以開啟所選反複專案的詳細資訊對話方塊。
+1. （選擇性）按一下&#x200B;[!UICONTROL **反複專案詳細資料**]&#x200B;圖示![反複專案詳細資料](assets/iteration-details-button.png)以開啟所選反複專案的詳細資料對話方塊。
 
 ## 檢閱儀表板上的反複專案量度
 

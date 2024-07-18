@@ -30,4 +30,4 @@ ht-degree: 0%
    * [資源規劃：文章索引](../../../resource-mgmt/resource-planning/resource-planning-overview.md)
    * [開始使用案例規劃工具](../../../scenario-planner/get-started-with-scenario-planning.md)
 
-* 排程您的資源或將其指派給任務和問題。 當您將資源指派給任務和問題時，您實際上可以將使用者、團隊或角色關聯到特定工作專案，讓他們負責完成這些專案。 如需詳細資訊，請參閱 [工作負載平衡器總覽](../../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
+* 排程您的資源或將其指派給任務和問題。 當您將資源指派給任務和問題時，您實際上可以將使用者、團隊或角色關聯到特定工作專案，讓他們負責完成這些專案。 如需詳細資訊，請參閱[工作負載平衡器總覽](../../../resource-mgmt/workload-balancer/overview-workload-balancer.md)。

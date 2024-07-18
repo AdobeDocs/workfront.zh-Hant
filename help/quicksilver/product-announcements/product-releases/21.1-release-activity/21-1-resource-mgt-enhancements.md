@@ -19,17 +19,17 @@ ht-degree: 0%
 
 此頁面說明21.1版對「預覽」環境所做的所有資源管理增強功能。 這些增強功能將在2021年2月15日當週的生產環境中提供。
 
-如需21.1版所有可用變更的清單，請參閱 [21.1版本總覽](../../../product-announcements/product-releases/21.1-release-activity/21-1-release-overview.md).
+如需21.1版本可用的所有變更清單，請參閱[21.1版本概觀](../../../product-announcements/product-releases/21.1-release-activity/21-1-release-overview.md)。
 
 ## 專案的工作負載平衡器
 
 工作負載平衡器現在可在專案中使用。 現在，您可以選擇使用工作負載平衡器或排程工具來管理您的專案資源。
 
-如需有關工作負載平衡器可在Adobe Workfront中的位置的資訊，請參閱 [找到工作負載平衡器](../../../resource-mgmt/workload-balancer/locate-workload-balancer.md).
+如需工作負載平衡器可在Adobe Workfront中的什麼位置的相關資訊，請參閱[找到工作負載平衡器](../../../resource-mgmt/workload-balancer/locate-workload-balancer.md)。
 
 ## 適用於團隊的Workfront平衡器
 
 工作負載平衡器現在可在團隊中使用。 現在，您可以選擇使用工作負載平衡器或排程工具來管理團隊資源。
 
-如需有關工作負載平衡器可在Workfront中的位置的資訊，請參閱 [找到工作負載平衡器](../../../resource-mgmt/workload-balancer/locate-workload-balancer.md).
+如需工作負載平衡器可在Workfront中的什麼位置的相關資訊，請參閱[找到工作負載平衡器](../../../resource-mgmt/workload-balancer/locate-workload-balancer.md)。
 

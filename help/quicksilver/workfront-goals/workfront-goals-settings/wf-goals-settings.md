@@ -25,7 +25,7 @@ ht-degree: 0%
 
      或
 
-     適用於Prime或選取Adobe Workfront計畫的Adobe Workfront目標的其他授權。 如需詳細資訊，請參閱 [Adobe Workfront計畫](https://www.workfront.com/plans).
+     適用於Prime或選取Adobe Workfront計畫的Adobe Workfront目標的其他授權。 如需詳細資訊，請參閱[Adobe Workfront計畫](https://www.workfront.com/plans)。
 
 * 對於目前的計畫與授權結構：
 
@@ -34,7 +34,7 @@ ht-degree: 0%
 
 請連絡您的Workfront客戶經理，以瞭解Workfront Goals授權。
 
-如需存取Workfront目標的其他資訊，請參閱 [使用Workfront目標的需求](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).
+如需存取Workfront目標的詳細資訊，請參閱[使用Workfront目標的需求](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md)。
 
 本節包含下列文章：
 

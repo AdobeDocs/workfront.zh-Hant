@@ -11,7 +11,7 @@ exl-id: 8a3bf0c4-4a20-4311-8c05-15f4ef3a1d42
 source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
 workflow-type: tm+mt
 source-wordcount: '154'
-ht-degree: 5%
+ht-degree: 3%
 
 ---
 
@@ -56,13 +56,13 @@ GET/search
 
  
 
-## 個回應
+## 回應
 
 JSON，其中包含符合查詢的檔案和資料夾的中繼資料清單。 構成「符合」的專案由webhook提供者決定。 理想情況下，應該執行全文檢索搜尋。 執行檔案名稱式搜尋也可運作。
 
-**範例:**
+**範例：**
 
-範例:  `https://www.acme.com/api/search?query=test-query`
+範例： `https://www.acme.com/api/search?query=test-query`
 
 ```
 [ 

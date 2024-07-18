@@ -5,7 +5,7 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: apps-and-their-modules
 title: Adobe Target模組
-description: 在 [!DNL Adobe Workfront Fusion] 情境中，您可以使用自動化工作流程 [!DNL Adobe Target], as well as connect it to multiple third-party applications and services. [!DNL Adobe Target] 模組可讓您建立、讀取、更新或刪除記錄、列出特定型別的所有記錄、根據您指定的條件搜尋記錄，或執行自訂API呼叫至 [!DNL Adobe Target] API。
+description: 在 [!DNL Adobe Workfront Fusion] 案例中，您可以自動執行使用 [!DNL Adobe Target], as well as connect it to multiple third-party applications and services. [!DNL Adobe Target] 模組的工作流程，讓您建立、讀取、更新或刪除記錄、列出特定型別的所有記錄、根據您指定的條件搜尋記錄，或對 [!DNL Adobe Target] API執行自訂API呼叫。
 author: Becky
 feature: Workfront Fusion
 exl-id: 9597806b-d4bf-4627-b27d-30e24a1e6776
@@ -16,14 +16,14 @@ ht-degree: 0%
 
 ---
 
-# [!DNL Adobe Target] 模組
+# [!DNL Adobe Target]模組
 
-在 [!DNL Adobe Workfront Fusion] 情境中，您可以使用自動化工作流程 [!DNL Adobe Target]，並連結至多個協力廠商應用程式和服務。 [!DNL Adobe Target] 模組可讓您建立、讀取、更新或刪除記錄、列出特定型別的所有記錄、根據您指定的條件搜尋記錄，或執行自訂API呼叫至 [!DNL Adobe Target] API。
+在[!DNL Adobe Workfront Fusion]案例中，您可以自動化使用[!DNL Adobe Target]的工作流程，並將其連線至多個協力廠商應用程式和服務。 [!DNL Adobe Target]模組可讓您建立、讀取、更新或刪除記錄、列出特定型別的所有記錄、根據您指定的條件搜尋記錄，或執行對[!DNL Adobe Target] API的自訂API呼叫。
 
 
-如果您需要有關建立情境的指示，請參閱 [建立情境](../../workfront-fusion/scenarios/create-a-scenario.md).
+如果您需要有關建立案例的指示，請參閱[建立案例](../../workfront-fusion/scenarios/create-a-scenario.md)。
 
-如需模組的相關資訊，請參閱 [中的模組 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/modules.md).
+如需模組的相關資訊，請參閱 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/modules.md)中的[模組。
 
 ## 存取需求
 
@@ -48,17 +48,17 @@ ht-degree: 0%
     <tr>
       <td role="rowheader">[!DNL Adobe Workfront Fusion] 授權**</td>
       <td>
-   <p>目前授權需求：否 [!DNL Workfront Fusion] 授權需求。</p>
+   <p>目前授權需求：無[!DNL Workfront Fusion]授權需求。</p>
    <p>或</p>
-   <p>舊版授權需求： [！UICONTROL [!DNL Workfront Fusion] 適用於工作自動化與整合] </p>
+   <p>舊版授權需求：[！UICONTROL [!DNL Workfront Fusion] for Work Automation and Integration] </p>
    </td>
     </tr>
     <tr>
       <td role="rowheader">產品</td>
       <td>
-   <p>目前產品需求：如果您有[！UICONTROL Select]或[！UICONTROL Prime] [!DNL Adobe Workfront] 計畫，您的組織必須購買 [!DNL Adobe Workfront Fusion] 以及 [!DNL Adobe Workfront] 以使用本文所述的功能。 [!DNL Workfront Fusion] 包含在[！UICONTROL Ultimate]中 [!DNL Workfront] 計畫。</p>
+   <p>目前產品需求：如果您有[！UICONTROL Select]或[！UICONTROL Prime] [!DNL Adobe Workfront]計畫，您的組織必須購買[!DNL Adobe Workfront Fusion]及[!DNL Adobe Workfront]，才能使用本文所述的功能。 [!DNL Workfront Fusion]包含在[！UICONTROL Ultimate] [!DNL Workfront]計畫中。</p>
    <p>或</p>
-   <p>舊版產品需求：貴組織必須購買 [!DNL Adobe Workfront Fusion] 以及 [!DNL Adobe Workfront] 以使用本文所述的功能。</p>
+   <p>舊版產品需求：您的組織必須購買[!DNL Adobe Workfront Fusion]及[!DNL Adobe Workfront]，才能使用本文所述的功能。</p>
    </td>
     </tr>
     </tr>
@@ -66,17 +66,17 @@ ht-degree: 0%
 </table>
 
 
-若要瞭解您擁有的計畫、授權型別或存取權，請聯絡您的 [!DNL Workfront] 管理員。
+若要瞭解您擁有的計畫、授權型別或存取權，請連絡您的[!DNL Workfront]管理員。
 
-有關的資訊 [!DNL Adobe Workfront Fusion] 授權，請參閱 [[!DNL Adobe Workfront Fusion] 授權](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+如需[!DNL Adobe Workfront Fusion]授權的相關資訊，請參閱[[!DNL Adobe Workfront Fusion] 授權](../../workfront-fusion/get-started/license-automation-vs-integration.md)。
 
 ## 先決條件
 
-開始使用 [!DNL Adobe Target] 聯結器時，您必須確定符合下列先決條件：
+使用[!DNL Adobe Target]聯結器之前，您必須確定符合下列先決條件：
 
-* 您必須擁有使用中 [!DNL Adobe Target] 帳戶。
+* 您必須擁有使用中的[!DNL Adobe Target]帳戶。
 
-## 建立與的連線 [!DNL Adobe Target]
+## 建立與[!DNL Adobe Target]的連線
 
 >[!IMPORTANT]
 >
@@ -85,9 +85,9 @@ ht-degree: 0%
 >* 現有的服務帳戶連線將持續運作到2025年1月。 您必須在2024年1月前，將服務帳戶連線取代為Adobe Target伺服器對伺服器連線。
 >* 您必須是組織的開發人員才能建立Adobe Target伺服器對伺服器連線。 開發人員角色是在Adobe Admin Console中設定。
 
-若要為建立連線，請執行下列步驟： [!DNL Adobe Target] 模組：
+若要為您的[!DNL Adobe Target]模組建立連線：
 
-1. 按一下 **[!UICONTROL 新增]** ，位於「連線」方塊旁。
+1. 按一下[連線]方塊旁的&#x200B;**[!UICONTROL 新增]**。
 
 1. 填寫下列欄位：
 
@@ -105,7 +105,7 @@ ht-degree: 0%
       </tr>
       <tr>
         <td role="rowheader">[！UICONTROL連線型別]</td>
-        <td>選擇您要建立服務帳戶連線還是Adobe Target伺服器對伺服器連線。<p><b>重要</b>：2024年6月3日之後建立的連線需要Adobe Target伺服器對伺服器連線。 現有的服務帳戶連線將持續運作到2025年1月。 您必須在2024年1月前，將服務帳戶連線取代為Adobe Target伺服器對伺服器連線。
+        <td>選擇您要建立服務帳戶連線還是Adobe Target伺服器對伺服器連線。<p><b>重要</b>： 2024年6月3日之後建立的連線需要Adobe Target伺服器對伺服器連線。 現有的服務帳戶連線將持續運作到2025年1月。 您必須在2024年1月前，將服務帳戶連線取代為Adobe Target伺服器對伺服器連線。
         </td>
       </tr>
       <tr>
@@ -120,39 +120,39 @@ ht-degree: 0%
       </tr>
       <tr>
         <td role="rowheader">[！UICONTROL使用者端ID]</td>
-        <td>輸入您的 [!DNL Adobe] 使用者端ID。 您可在的[！UICONTROL憑證詳細資料]區段中找到 [!DNL Adobe Developer Console].
+        <td>輸入您的[!DNL Adobe]使用者端識別碼。 這可以在[!DNL Adobe Developer Console]的[！UICONTROL認證詳細資料]區段中找到。
       </tr>
       <tr>
         <td role="rowheader">[！UICONTROL使用者端密碼]</td>
-        <td>輸入您的 [!DNL Adobe] 使用者端密碼。 您可在的[！UICONTROL憑證詳細資料]區段中找到 [!DNL Adobe Developer Console].
+        <td>輸入您的[!DNL Adobe]使用者端密碼。 這可以在[!DNL Adobe Developer Console]的[！UICONTROL認證詳細資料]區段中找到。
       </tr>
       <tr>
         <td role="rowheader">[！UICONTROL技術帳戶ID]</td>
-        <td>輸入您的 [!DNL Adobe] 技術帳戶ID。 您可在的[！UICONTROL憑證詳細資料]區段中找到 [!DNL Adobe Developer Console].
+        <td>輸入您的[!DNL Adobe]技術帳戶ID。 這可以在[!DNL Adobe Developer Console]的[！UICONTROL認證詳細資料]區段中找到。
       </tr>
       <tr>
         <td role="rowheader">[！UICONTROL組織ID]</td>
-        <td>輸入您的 [!DNL Adobe] 組織ID。 您可在的[！UICONTROL憑證詳細資料]區段中找到 [!DNL Adobe Developer Console].
+        <td>輸入您的[!DNL Adobe]組織識別碼。 這可以在[!DNL Adobe Developer Console]的[！UICONTROL認證詳細資料]區段中找到。
       </tr>
       <tr>
         <td role="rowheader">[！UICONTROL租使用者]</td>
         <td>
-          <p> 若要尋找您的租使用者，請登入 [!DNL Adobe Experience Cloud]，開啟 [!DNL Target]，然後按一下 [!DNL Target] 卡片。 使用URL子網域中所述的租使用者ID值。</p>
-          <p>例如，如果您在登入時的URL [!DNL Adobe Target] 是 <code>&lt;https://mycompany.experiencecloud.adobe.com/...></code> 則您的租使用者ID為「mycompany」。</p>
+          <p> 若要尋找您的租使用者，請登入[!DNL Adobe Experience Cloud]，開啟[!DNL Target]，然後按一下[!DNL Target]卡片。 使用URL子網域中所述的租使用者ID值。</p>
+          <p>例如，如果您在登入[!DNL Adobe Target]時的URL是<code>&lt;https://mycompany.experiencecloud.adobe.com/...></code>，則您的租使用者ID是"mycompany"。</p>
         </td>
       </tr>
       <tr>
         <td role="rowheader">[！UICONTROL中繼範圍]</td>
-        <td>輸入 <code>ent_marketing_sdk</code>       </td>
+        <td>輸入<code>ent_marketing_sdk</code>       </td>
       </tr>
       <tr>
         <td role="rowheader">[！UICONTROL私密金鑰]</td>
         <td>
-          <p>輸入在中建立您的認證時產生的私密金鑰 [!DNL Adobe Developer Console]. </p>
+          <p>輸入在[!DNL Adobe Developer Console]中建立認證時產生的私密金鑰。 </p>
           <p>若要擷取您的私密金鑰或憑證：</p>
           <ol>
             <li value="1">
-              <p>按一下 <b>[！UICONTROL Extract]</b>.</p>
+              <p>按一下<b>[！UICONTROL Extract]</b>。</p>
             </li>
             <li value="2">
               <p>選取要解壓縮的檔案型別。</p>
@@ -164,7 +164,7 @@ ht-degree: 0%
               <p>輸入檔案的密碼。</p>
             </li>
             <li value="5">
-              <p>按一下 <b>[！UICONTROL儲存]</b> 以擷取檔案並返回連線設定。</p>
+              <p>按一下<b>[！UICONTROL儲存]</b>以擷取檔案並返回連線設定。</p>
             </li>
           </ol>
         </td>
@@ -172,13 +172,13 @@ ht-degree: 0%
     </tbody>
     </table>
 
-1. 按一下 **[!UICONTROL 繼續]** 以儲存連線並返回模組。
+1. 按一下&#x200B;**[!UICONTROL 繼續]**&#x200B;以儲存連線並返回模組。
 
-## [!DNL Adobe Target] 模組及其欄位
+## [!DNL Adobe Target]模組及其欄位
 
-當您設定 [!DNL Adobe Target] 模組， [!DNL Workfront Fusion] 顯示下列欄位。 除了這些以外， [!DNL Adobe Target] 欄位可能會顯示，端視您應用程式或服務中的存取層級等因素而定。 模組中的粗體標題表示必填欄位。
+當您設定[!DNL Adobe Target]模組時，[!DNL Workfront Fusion]會顯示下列欄位。 除了這些欄位以外，可能還會顯示其他[!DNL Adobe Target]欄位，視您在應用程式或服務中的存取層級等因素而定。 模組中的粗體標題表示必填欄位。
 
-如果您在欄位或函式上方看到對應按鈕，則可以使用它來設定該欄位的變數和函式。 如需詳細資訊，請參閱 [在中將資訊從一個模組對應到另一個模組 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
+如果您在欄位或函式上方看到對應按鈕，則可以使用它來設定該欄位的變數和函式。 如需詳細資訊，請參閱[在 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md)中將資訊從一個模組對應到另一個模組。
 
 ![](assets/map-toggle-350x74.png)
 
@@ -210,7 +210,7 @@ ht-degree: 0%
 <tbody>
   <tr>
     <td role="rowheader">[！UICONTROL Connection]</td>
-    <td>有關建立與的連線的指示 [!DNL Adobe Target]，請參閱 <a href="#create-a-connection-to-adobe-target" class="MCXref xref" >建立與的連線 [!DNL Adobe Target]</a> 本文章內容。</td>
+    <td>如需建立[!DNL Adobe Target]連線的說明，請參閱本文中的<a href="#create-a-connection-to-adobe-target" class="MCXref xref" >建立與[!DNL Adobe Target]</a>的連線。</td>
   </tr>
   <tr>
     <td role="rowheader">[！UICONTROL記錄型別]</td>
@@ -218,41 +218,41 @@ ht-degree: 0%
       <p>選取您要建立的記錄型別。</p>
       <ul>
         <li>
-        <b>屬性</b><p>如需欄位的詳細資訊，請參閱 <a href="https://developer.adobe.com/target/administer/admin-api/#tag/Properties/operation/createProperty">建立屬性</a> 在Adobe Target API檔案中。</p>
+        <b>屬性</b><p>如需欄位的詳細資訊，請參閱Adobe Target API檔案中的<a href="https://developer.adobe.com/target/administer/admin-api/#tag/Properties/operation/createProperty">建立屬性</a>。</p>
         </li>
         <li>
-        <b>優惠建議</b><p>如需欄位的詳細資訊，請參閱 <a href="https://developer.adobe.com/target/administer/admin-api/#tag/Offers/operation/createOffer">建立新的記錄選件</a> 在Adobe Target API檔案中。</p>
+        <b>優惠建議</b><p>如需欄位的詳細資訊，請參閱Adobe Target API檔案中的<a href="https://developer.adobe.com/target/administer/admin-api/#tag/Offers/operation/createOffer">建立新的RECS選件</a>。</p>
         </li>
         <li>
           <b>[！UICONTROL選件JSON]</b>
-          <p>繼續至 <a href="#offer-fields" class="MCXref xref" >選件欄位</a>.</p>
+          <p>繼續<a href="#offer-fields" class="MCXref xref" >選件欄位</a>。</p>
         </li>
         <li>
           <b>[！UICONTROL選件內容]</b>
-          <p>繼續至 <a href="#offer-fields" class="MCXref xref" >選件欄位</a>.</p>
+          <p>繼續<a href="#offer-fields" class="MCXref xref" >選件欄位</a>。</p>
         </li>
         <li>
-        <b>環境</b><p>如需欄位的詳細資訊，請參閱 <a href="https://developer.adobe.com/target/administer/admin-api/#tag/Environments/operation/createEnvironment">建立環境</a> 在Adobe Target API檔案中。</p>
+        <b>環境</b><p>如需欄位的詳細資訊，請參閱Adobe Target API檔案中的<a href="https://developer.adobe.com/target/administer/admin-api/#tag/Environments/operation/createEnvironment">建立環境</a>。</p>
         </li>
         <li>
           <b>[！UICONTROL對象]</b>
-          <p>如需欄位的詳細資訊，請參閱 <a href="https://developer.adobe.com/target/administer/admin-api/#tag/Audiences/operation/createAudience_1_1">建立對象</a> 在Adobe Target API檔案中。</p>
+          <p>如需欄位的詳細資訊，請參閱Adobe Target API檔案中的<a href="https://developer.adobe.com/target/administer/admin-api/#tag/Audiences/operation/createAudience_1_1">建立對象</a>。</p>
         </li>
         <li>
           <b>[！UICONTROL AB活動]</b>
-          <p>如需欄位的詳細資訊，請參閱 <a href="https://developer.adobe.com/target/administer/admin-api/#tag/Activities/operation/createActivity_4_1">建立AB活動</a> 在Adobe Target API檔案中。</p>
+          <p>如需欄位的詳細資訊，請參閱Adobe Target API檔案中的<a href="https://developer.adobe.com/target/administer/admin-api/#tag/Activities/operation/createActivity_4_1">建立AB活動</a>。</p>
         </li>
         <li>
           <b>[！UICONTROL XT活動]</b>
-          <p>繼續至 <a href="#xt-activity-fields" class="MCXref xref" >XT活動欄位</a>.</p>
+          <p>繼續<a href="#xt-activity-fields" class="MCXref xref" >XT活動欄位</a>。</p>
         </li>
         <li>
           <b>[！UICONTROL AP活動]</b>
-          <p>如需欄位的詳細資訊，請參閱 <a href="https://developer.adobe.com/target/administer/admin-api/#tag/Activities/operation/createActivity_2">建立AP活動</a> 在Adobe Target API檔案中。</p>
+          <p>如需欄位的詳細資訊，請參閱Adobe Target API檔案中的<a href="https://developer.adobe.com/target/administer/admin-api/#tag/Activities/operation/createActivity_2">建立AP活動</a>。</p>
         </li>
         <li>
           <b>[！UICONTROL回應Token]</b>
-          <p>如需欄位的詳細資訊，請參閱 <a href="https://developer.adobe.com/target/administer/admin-api/#tag/Response-tokens/operation/createResponseToken">建立回應Token</a> 在Adobe Target API檔案中。</p>
+          <p>如需欄位的詳細資訊，請參閱Adobe Target API檔案中的<a href="https://developer.adobe.com/target/administer/admin-api/#tag/Response-tokens/operation/createResponseToken">建立回應Token</a>。</p>
         </li>
       </ul>
     </td>
@@ -476,10 +476,10 @@ ht-degree: 0%
     <tr>
       <td role="rowheader">[！UICONTROL Options]</td>
       <td>
-        <p>針對您想要新增至活動的每個選項，按一下 <b>[！UICONTROL新增專案]</b> 並填入下列欄位：</p>
+        <p>針對您想要新增至活動的每個選項，按一下<b>[！UICONTROL新增專案]</b>並填入下列欄位：</p>
         <ul>
           <li>
-            <p><b>[！UICONTROL選項本機ID]</b>
+            <p><b>[！UICONTROL選項本機識別碼]</b>
             </p>
             <p>輸入或對應要用於跨API請求追蹤選項的字串。</p>
           </li>
@@ -501,14 +501,14 @@ ht-degree: 0%
     <tr>
       <td role="rowheader">[！UICONTROL位置]</td>
       <td>
-        <p>針對您要新增至活動的每個Mbox，按一下 <b>[！UICONTROL新增專案]</b> 並填入下列欄位：</p>
+        <p>針對您要新增至活動的每個Mbox，按一下<b>[！UICONTROL新增專案]</b>並填寫下列欄位：</p>
         <ul>
           <li>
             <p>[！UICONTROL對象ID]</p>
-            <p>針對您想要新增至Mbox的每個對象，按一下 <b>[！UICONTROL新增專案]</b> 並選取對象ID。</p>
+            <p>針對您想要新增至Mbox的每個對象，按一下<b>[！UICONTROL新增專案]</b>並選取對象ID。</p>
           </li>
           <li>
-            <p><b>[！UICONTROL位置本機ID]</b>
+            <p><b>[！UICONTROL位置本機識別碼]</b>
             </p>
             <p>輸入或對應要用來跨API請求追蹤位置的字串。</p>
           </li>
@@ -527,7 +527,7 @@ ht-degree: 0%
 </p>
         <ul>
           <li>
-            <p><b>[！UICONTROL體驗本機ID]</b>
+            <p><b>[！UICONTROL體驗本機識別碼]</b>
             </p>
             <p>輸入或對映體驗的ID</p>
           </li>
@@ -541,7 +541,7 @@ ht-degree: 0%
           <li>
             <p><b>[!DNL Audience IDs]</b>
             </p>
-            <p>針對您想檢視體驗的每個對象，按一下 <b>[！UICONTROL新增專案]</b> 並輸入對象ID。
+            <p>針對您想要檢視體驗的每個對象，按一下<b>[！UICONTROL新增專案]</b>並輸入對象ID。
 
 </p>
           </li>
@@ -563,11 +563,11 @@ ht-degree: 0%
     </tr>
     <tr>
       <td role="rowheader">[！UICONTROL開始於]</td>
-      <td>以格式輸入或對應開始活動的日期和時間 <code>YYYY-MM-DD hh:mm:ss.z</code>.</td>
+      <td>輸入或對應開始活動的日期和時間，格式為<code>YYYY-MM-DD hh:mm:ss.z</code>。</td>
     </tr>
     <tr>
       <td role="rowheader">[！UICONTROL結尾為]</td>
-      <td>輸入或對應日期和時間，以使用格式結束活動 <code>YYYY-MM-DD hh:mm:ss.z</code>.</td>
+      <td>輸入或對應結束活動的日期和時間，格式為<code>YYYY-MM-DD hh:mm:ss.z</code>。</td>
     </tr>
     <tr>
       <td role="rowheader">[！UICONTROL狀態]</td>
@@ -609,7 +609,7 @@ ht-degree: 0%
     </tr>
     <tr>
       <td role="rowheader">[！UICONTROL屬性ID] </td>
-      <td>針對您想要新增至活動的每個屬性，按一下 <b>[！UICONTROL新增專案]</b> 並選取或對應屬性的ID。</td>
+      <td>針對您想要新增至活動的每個屬性，按一下<b>[！UICONTROL新增專案]</b>，然後選取或對應屬性的識別碼。</td>
     </tr>
     <tr>
       <td role="rowheader">[！UICONTROL報表受眾]</td>
@@ -617,7 +617,7 @@ ht-degree: 0%
         <p>針對您想要新增至活動的每個報表對象，按一下[！UICONTROL新增專案]並輸入下列資訊：</p>
         <ul>
           <li>
-            <p><b>[！UICONTROL報表對象本機ID]</b>
+            <p><b>[！UICONTROL報表對象本機識別碼]</b>
             </p>
             <p>輸入或對應字串，用於跨API請求追蹤報表對象。</p>
           </li>
@@ -627,7 +627,7 @@ ht-degree: 0%
             <p>輸入或對應要在報告中使用的區段</p>
           </li>
           <li>
-            <p><b>[！UICONTROL量度本機ID]</b>
+            <p><b>[！UICONTROL量度本機識別碼]</b>
             </p>
             <p>輸入或對應字串，用於跨API請求追蹤量度。</p>
           </li>
@@ -656,7 +656,7 @@ ht-degree: 0%
     <tr>
       <td role="rowheader">[！UICONTROL Workspace]</td>
       <td>
-        <p>輸入或對應與選件相關聯之工作區的ID。 如果保留為空白，選件會與帳戶的預設工作區相關聯。 此功能僅適用於 [!DNL Target] Premium帳戶。</p>
+        <p>輸入或對應與選件相關聯之工作區的ID。 如果保留為空白，選件會與帳戶的預設工作區相關聯。 此功能僅適用於[!DNL Target]個Premium帳戶。</p>
       </td>
     </tr>
     <tr>
@@ -742,7 +742,7 @@ ht-degree: 0%
 
 #### [!UICONTROL 進行自訂API呼叫]
 
-此模組會對 [!DNL Adobe Target] API。
+此模組會對[!DNL Adobe Target] API發出自訂API呼叫。
 
 <table style="table-layout:auto"> 
   <col/>
@@ -750,25 +750,25 @@ ht-degree: 0%
   <tbody>
     <tr>
       <td role="rowheader">[！UICONTROL Connection]</td>
-      <td>有關建立與的連線的指示 [!DNL Adobe Target]，請參閱 <a href="#create-a-connection-to-adobe-target" class="MCXref xref" >建立與的連線 [!DNL Adobe Target]</a> 本文章內容。</td>
+      <td>如需建立[!DNL Adobe Target]連線的說明，請參閱本文中的<a href="#create-a-connection-to-adobe-target" class="MCXref xref" >建立與[!DNL Adobe Target]</a>的連線。</td>
     </tr>
     <tr>
-      <td role="rowheader">[！UICONTROL [!DNL Target] 基礎URL]</td>
-      <td>輸入或對應 [!DNL Target] 基礎URL。</td>
+      <td role="rowheader">[！UICONTROL [!DNL Target]基底URL]</td>
+      <td>輸入或對應您的[!DNL Target]基底URL。</td>
     </tr>
     <tr>
       <td role="rowheader">
         <p>[！UICONTROL路徑]</p>
       </td>
       <td>
-        <p>輸入相對於 {baseURL}/</p>
+        <p>輸入相對於{baseURL}/</p>
       </td>
     </tr>
     <tr>
       <td role="rowheader">
         <p>[！UICONTROL方法]</p>
       </td>
-   <td> <p>選取設定API呼叫所需的HTTP要求方法。 如需詳細資訊，請參閱 <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">中的HTTP要求方法 [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td> <p>選取設定API呼叫所需的HTTP要求方法。 如需詳細資訊，請參閱[!DNL Adobe Workfront Fusion]</a>中的<a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">HTTP要求方法。</p> </td> 
     </tr>
     <tr>
       <td role="rowheader">[！UICONTROL Headers]</td>
@@ -786,7 +786,7 @@ ht-degree: 0%
     </tr>
     <tr>
       <td role="rowheader">[！UICONTROL Body]</td>
-   <td> <p>以標準JSON物件的形式新增API呼叫的內文內容。</p> <p>注意：  <p>使用條件陳述式時，例如 <code>if</code> 在JSON中，將引號放在條件陳述式之外。</p> 
+   <td> <p>以標準JSON物件的形式新增API呼叫的內文內容。</p> <p>注意：  <p>在JSON中使用條件陳述式（例如<code>if</code>）時，請將引號放在條件陳述式之外。</p> 
      <div class="example" data-mc-autonum="<b>Example: </b>"> 
       <p> <img src="assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
      </div> </p> </td>     </tr>
@@ -803,7 +803,7 @@ ht-degree: 0%
 <tbody>
   <tr>
     <td role="rowheader">[！UICONTROL Connection]</td>
-    <td>有關建立與的連線的指示 [!DNL Adobe Target]，請參閱 <a href="#create-a-connection-to-adobe-target" class="MCXref xref" >建立與的連線 [!DNL Adobe Target]</a> 本文章內容。</td>
+    <td>如需建立[!DNL Adobe Target]連線的說明，請參閱本文中的<a href="#create-a-connection-to-adobe-target" class="MCXref xref" >建立與[!DNL Adobe Target]</a>的連線。</td>
   </tr>
   <tr>
     <td role="rowheader">[！UICONTROL記錄型別]</td>
@@ -826,7 +826,7 @@ ht-degree: 0%
 <tbody>
   <tr>
     <td role="rowheader">[！UICONTROL Connection]</td>
-    <td>有關建立與的連線的指示 [!DNL Adobe Target]，請參閱 <a href="#create-a-connection-to-adobe-target" class="MCXref xref" >建立與的連線 [!DNL Adobe Target]</a> 本文章內容。</td>
+    <td>如需建立[!DNL Adobe Target]連線的說明，請參閱本文中的<a href="#create-a-connection-to-adobe-target" class="MCXref xref" >建立與[!DNL Adobe Target]</a>的連線。</td>
   </tr>
   <tr>
     <td role="rowheader">[！UICONTROL記錄型別]</td>
@@ -849,7 +849,7 @@ ht-degree: 0%
   <tbody>
     <tr>
       <td role="rowheader">[！UICONTROL Connection]</td>
-      <td>有關建立與的連線的指示 [!DNL Adobe Target]，請參閱 <a href="#create-a-connection-to-adobe-target" class="MCXref xref" >建立與的連線 [!DNL Adobe Target]</a> 本文章內容。</td>
+      <td>如需建立[!DNL Adobe Target]連線的說明，請參閱本文中的<a href="#create-a-connection-to-adobe-target" class="MCXref xref" >建立與[!DNL Adobe Target]</a>的連線。</td>
     </tr>
     <tr>
       <td role="rowheader">[！UICONTROL記錄型別]</td>
@@ -860,7 +860,7 @@ ht-degree: 0%
     <tr>
       <td role="rowheader">[！UICONTROL欄位名稱]</td>
       <td>選取您要更新的欄位。 欄位顯示如下。
-          <p>如需欄位的詳細資訊，請參閱 <a href="https://developer.adobe.com/target/administer/admin-api/">Adobe Target API檔案</a>.</p>
+          <p>如需欄位的詳細資訊，請參閱<a href="https://developer.adobe.com/target/administer/admin-api/">Adobe Target API檔案</a>。</p>
       </td>
     </tr>
   </tbody>
@@ -883,7 +883,7 @@ ht-degree: 0%
   <tbody>
     <tr>
       <td role="rowheader">[！UICONTROL Connection]</td>
-      <td>有關建立與的連線的指示 [!DNL Adobe Target]，請參閱 <a href="#create-a-connection-to-adobe-target" class="MCXref xref" >建立與的連線 [!DNL Adobe Target]</a> 本文章內容。</td>
+      <td>如需建立[!DNL Adobe Target]連線的說明，請參閱本文中的<a href="#create-a-connection-to-adobe-target" class="MCXref xref" >建立與[!DNL Adobe Target]</a>的連線。</td>
     </tr>
     <tr>
       <td role="rowheader">[！UICONTROL記錄型別]</td>
@@ -891,20 +891,20 @@ ht-degree: 0%
     </tr>
     <tr>
       <td role="rowheader">[！UICONTROL排序依據]</td>
-      <td>針對您要排序的每個欄位，按一下 <b>[！UICONTROL新增專案]</b> 並選取欄位，以及傳回的結果應為遞增還是遞減。</td>
+      <td>針對您要排序的每個欄位，按一下<b>[！UICONTROL新增專案]</b>，然後選取欄位以及傳回的結果應該遞增還是遞減。</td>
     </tr>
     <tr>
       <td role="rowheader">[！UICONTROL開始於]</td>
       <td>
         <p>輸入您要擷取記錄的最早日期。 </p>
-        <p>如需支援的日期和時間格式清單，請參閱 <a href="../../workfront-fusion/mapping/type-coercion.md" class="MCXref xref">輸入強制 [!DNL Adobe Workfront Fusion]</a>.</p>
+        <p>如需支援的日期和時間格式清單，請參閱<a href="../../workfront-fusion/mapping/type-coercion.md" class="MCXref xref">在[!DNL Adobe Workfront Fusion]</a>中鍵入強制。</p>
       </td>
     </tr>
     <tr>
       <td role="rowheader">[！UICONTROL結尾為]</td>
       <td>
         <p>輸入您要擷取記錄的最晚日期。 </p>
-        <p>如需支援的日期和時間格式清單，請參閱 <a href="../../workfront-fusion/mapping/type-coercion.md" class="MCXref xref">輸入強制 [!DNL Adobe Workfront Fusion]</a>.</p>
+        <p>如需支援的日期和時間格式清單，請參閱<a href="../../workfront-fusion/mapping/type-coercion.md" class="MCXref xref">在[!DNL Adobe Workfront Fusion]</a>中鍵入強制。</p>
       </td>
     </tr>
   </tbody>
@@ -920,7 +920,7 @@ ht-degree: 0%
 <tbody>
   <tr>
     <td role="rowheader">[！UICONTROL Connection]</td>
-    <td>有關建立與的連線的指示 [!DNL Adobe Target]，請參閱 <a href="#create-a-connection-to-adobe-target" class="MCXref xref" >建立與的連線 [!DNL Adobe Target]</a> 本文章內容。</td>
+    <td>如需建立[!DNL Adobe Target]連線的說明，請參閱本文中的<a href="#create-a-connection-to-adobe-target" class="MCXref xref" >建立與[!DNL Adobe Target]</a>的連線。</td>
   </tr>
   <tr>
     <td role="rowheader">[！UICONTROL記錄型別]</td>
@@ -928,16 +928,16 @@ ht-degree: 0%
   </tr>
   <tr>
     <td role="rowheader">[！UICONTROL排序依據]</td>
-    <td>針對您要排序的每個欄位，按一下 <b>[！UICONTROL新增專案]</b> 並選取欄位，以及傳回的結果應為遞增還是遞減。</td>
+    <td>針對您要排序的每個欄位，按一下<b>[！UICONTROL新增專案]</b>，然後選取欄位以及傳回的結果應該遞增還是遞減。</td>
   </tr>
   <tr>
     <td role="rowheader">[！UICONTROL搜尋條件]</td>
-    <td>針對您要設定的每個規則，選取欄位、運運算元和值。 按一下 <b>[！UICONTROL新增和規則]</b> 以建立其他規則。</td>
+    <td>針對您要設定的每個規則，選取欄位、運運算元和值。 按一下<b>[！UICONTROL Add AND rule]</b>以建立其他規則。</td>
   </tr>
   <tr>
     <td role="rowheader">[！UICONTROL位移]</td>
     <td>
-      <p>輸入您希望模組傳回的第一個回應編號。 第一個傳回回回回回應的位移為 <code>0</code>. 將此欄位與[！UICONTROL Maximum number of returned results]欄位搭配使用，可將回應分頁。</p>
+      <p>輸入您希望模組傳回的第一個回應編號。 第一個傳回回回的回應有<code>0</code>的位移。 將此欄位與[！UICONTROL Maximum number of returned results]欄位搭配使用，可將回應分頁。</p>
       <p>例如，若要檢視回應的第三個頁面，當每個頁面有10個回應時，請將[！UICONTROL Offset]設為20，並將[！UICONTROL Maximum number of returned]設為10。</p>
     </td>
   </tr>

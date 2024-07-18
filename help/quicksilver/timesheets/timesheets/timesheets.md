@@ -11,7 +11,7 @@ exl-id: 59ddd607-5e99-43b4-aea5-c6cb0d6aa13d
 source-git-commit: c49b545938a78716084296ef1b4e7c0fc075ef95
 workflow-type: tm+mt
 source-wordcount: '30'
-ht-degree: 0%
+ht-degree: 6%
 
 ---
 
@@ -19,5 +19,5 @@ ht-degree: 0%
 
 本節包含下列文章：
 
-* [時程表總覽](../../timesheets/timesheets/timesheets-overview.md)
+* [時程表概觀](../../timesheets/timesheets/timesheets-overview.md)
 * [時程表配置總覽](../../timesheets/timesheets/timesheet-layout.md)

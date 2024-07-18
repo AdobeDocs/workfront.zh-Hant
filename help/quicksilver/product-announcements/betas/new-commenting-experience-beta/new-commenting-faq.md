@@ -20,7 +20,7 @@ ht-degree: 0%
 
 本文包含有關新評論體驗最常見問題的清單。
 
-如需有關新註解體驗的詳細資訊，請參閱 [新的評論體驗](../../betas/new-commenting-experience-beta/unified-commenting-experience.md).
+如需有關新註解體驗的詳細資訊，請參閱[新註解體驗](../../betas/new-commenting-experience-beta/unified-commenting-experience.md)。
 
 ## 除了影像之外，我是否可以將不同的檔案型別附加至註解？
 

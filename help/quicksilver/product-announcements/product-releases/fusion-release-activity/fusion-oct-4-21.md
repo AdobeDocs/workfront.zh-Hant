@@ -1,6 +1,6 @@
 ---
-title: Workfront Fusion發行活動：&nbsp；2021年10月4日當週
-description: Workfront Fusion發行活動：&nbsp；2021年10月4日當週
+title: Workfront Fusion發行活動：&amp；nbsp；2021年10月4日當週
+description: Workfront Fusion發行活動：&amp；nbsp；2021年10月4日當週
 author: Luke
 draft: Probably
 feature: Product Announcements, Workfront Fusion
@@ -18,9 +18,9 @@ ht-degree: 0%
 
 本頁說明2021年10月4日當週在Adobe Workfront Fusion中所做的所有增強功能。
 
-如需所有最近變更的清單，請參閱 [Adobe Workfront Fusion發行活動](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
+如需所有最近變更的清單，請參閱[Adobe Workfront Fusion發行活動](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md)。
 
-如需Workfront Fusion中近期的錯誤修正清單，請參閱 [Workfront維護更新](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) 頁面，並檢查是否有任何標示為Workfront Fusion維護更新的更新。
+如需Workfront Fusion中最近的錯誤修正清單，請參閱[Workfront維護更新](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html)頁面，並檢查任何標示為Workfront Fusion維護更新的更新。
 
 ## 在「Workfront >觀看活動模組」中檢視現有活動篩選器
 
@@ -28,7 +28,7 @@ ht-degree: 0%
 
 之前，使用者在設定webhook時只能看到事件篩選器，且無法在現有的「Workfront >觀看事件」模組中檢視篩選器。
 
-如需詳細資訊，請參閱 [「Workfront >觀看活動」模組中的活動訂閱篩選器](../../../workfront-fusion/apps-and-their-modules/workfront-modules.md#event) 在 [Adobe Workfront模組](../../../workfront-fusion/apps-and-their-modules/workfront-modules.md).
+如需詳細資訊，請參閱[Adobe Workfront模組](../../../workfront-fusion/apps-and-their-modules/workfront-modules.md)中的Workfront >觀看活動模組](../../../workfront-fusion/apps-and-their-modules/workfront-modules.md#event)中的[活動訂閱篩選器。
 
 ## 使用「Workfront >建立記錄和更新記錄」模組將自訂表單附加至Workfront物件
 
@@ -36,7 +36,7 @@ ht-degree: 0%
 
 以前，您可以在自訂表單的欄位中輸入值，但是這些值不是按照表單來組織，並且可能很難找到。
 
-如需詳細資訊，請參閱 [Adobe Workfront模組](../../../workfront-fusion/apps-and-their-modules/workfront-modules.md).
+如需詳細資訊，請參閱[Adobe Workfront模組](../../../workfront-fusion/apps-and-their-modules/workfront-modules.md)。
 
 ## 在Workfront Fusion建立的評論和自訂欄位中使用RTF文字
 
@@ -55,6 +55,6 @@ ht-degree: 0%
 
 之前，RTF只能透過Workfront本身或Workfront API新增至評論或自訂欄位。
 
-有關「建立記錄」和「更新記錄」模組的詳細資訊，請參閱 [Adobe Workfront模組](../../../workfront-fusion/apps-and-their-modules/workfront-modules.md).
+如需建立記錄和更新記錄模組的詳細資訊，請參閱[Adobe Workfront模組](../../../workfront-fusion/apps-and-their-modules/workfront-modules.md)。
 
-如需評論或自訂欄位中可用RTF文字的詳細資訊，請參閱 [更新工作](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+如需評論或自訂欄位中可用的RTF文字的詳細資訊，請參閱[更新工作](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md)。

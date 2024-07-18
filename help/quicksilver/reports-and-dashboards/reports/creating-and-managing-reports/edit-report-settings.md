@@ -35,26 +35,26 @@ ht-degree: 6%
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定*</td> 
-   <td> <p>編輯報告、儀表板、行事曆的存取權</p> <p>編輯對篩選器、檢視、群組的存取權</p> <p>注意：如果您還是沒有存取權，請詢問您的Workfront管理員，他們是否在您的存取層級中設定其他限制。 如需有關Workfront管理員如何修改您的存取層級的資訊，請參閱 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>.</p> </td> 
+   <td> <p>編輯報告、儀表板、行事曆的存取權</p> <p>編輯對篩選器、檢視、群組的存取權</p> <p>注意：如果您還是沒有存取權，請詢問您的Workfront管理員，他們是否在您的存取層級中設定其他限制。 如需Workfront管理員如何修改存取層級的詳細資訊，請參閱<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">物件許可權</td> 
-   <td> <p>管理報表的許可權</p> <p>如需請求其他存取許可權的詳細資訊，請參閱 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">要求物件的存取權 </a>.</p> </td> 
+   <td> <p>管理報表的許可權</p> <p>如需請求其他存取權的資訊，請參閱<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">請求物件</a>的存取權。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;若要瞭解您擁有的計畫、授權型別或存取權，請聯絡您的Workfront管理員。
+&#42;若要瞭解您擁有的計畫、授權型別或存取權，請連絡您的Workfront管理員。
 
 ## 操作步驟
 
-1. 開始建立報表，請前往 **主功能表** > **報表**，然後選取報表的物件。
+1. 前往&#x200B;**主要功能表** > **報表**，開始建立報表，然後選取報表的物件。
 
    或
 
-   開啟現有報表，然後按一下 **報表動作** > **編輯**.
+   開啟現有的報表，然後按一下&#x200B;**報表動作** > **編輯**。
 
-1. 按一下 **報表設定** （位於report builder的右上角）。
+1. 按一下Report Builder右上角的&#x200B;**報表設定**。
 1. 設定下列報表設定：
 
    <table style="table-layout:auto"> 
@@ -71,7 +71,7 @@ ht-degree: 6%
      </tr> 
      <tr> 
       <td role="rowheader">透過以下存取許可權運行此報告：</td> 
-      <td>選取您希望此報告在顯示給其他使用者時，使用哪個使用者的存取權。 如需以其他使用者的存取許可權執行報告的詳細資訊，請參閱文章 <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/run-deliver-report-access-rights-another-user.md" class="MCXref xref">執行並傳遞具有其他使用者存取許可權的報告</a>.</td> 
+      <td>選取您希望此報告在顯示給其他使用者時，使用哪個使用者的存取權。 如需以其他使用者的存取許可權執行報告的詳細資訊，請參閱文章<a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/run-deliver-report-access-rights-another-user.md" class="MCXref xref">以其他使用者的存取許可權執行並傳遞報告</a>。</td> 
      </tr> 
      <tr> 
       <td role="rowheader">報告載入時，顯示</td> 
@@ -95,7 +95,7 @@ ht-degree: 6%
      </tr> 
      <tr> 
       <td role="rowheader">預設為以甘特圖檢視顯示此報告</td> 
-      <td>（僅限專案報表與任務報表）選取此選項，可在使用者檢視此報表中的「詳細資訊」索引標籤時，自動啟用「甘特圖」檢視。<br>如需有關在專案報告和任務報告中檢視甘特圖的詳細資訊，請參閱文章中的「在專案清單甘特圖中檢視任務資訊」一節 <a href="../../../manage-work/gantt-chart/use-the-gantt-chart/view-info-in-gantt.md" class="MCXref xref">檢視甘特圖中的資訊 </a>.</td> 
+      <td>（僅限專案報表與任務報表）選取此選項，可在使用者檢視此報表中的「詳細資訊」索引標籤時，自動啟用「甘特圖」檢視。<br>如需有關檢視專案報告和任務報告中甘特圖的詳細資訊，請參閱<a href="../../../manage-work/gantt-chart/use-the-gantt-chart/view-info-in-gantt.md" class="MCXref xref">檢視甘特圖</a>中的文章中的「檢視專案清單甘特圖中的任務資訊」一節。</td> 
      </tr> 
      <tr> 
       <td role="rowheader">允許在報告中變更檢視</td> 
@@ -112,10 +112,10 @@ ht-degree: 6%
     </tbody> 
    </table>
 
-1. 按一下 **報告提示** 為報告設定任何提示。\
-   如需有關在報表中新增提示的詳細資訊，請參閱文章 [新增提示至報表](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md).
+1. 按一下&#x200B;**報告提示**&#x200B;為報告設定任何提示。\
+   如需新增提示至報表的詳細資訊，請參閱文章[新增提示至報表](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md)。
 
-1. 按一下&#x200B;**完成，** 然後按一下 **儲存+關閉**.
+1. 按一下&#x200B;**完成，**，然後按一下&#x200B;**儲存+關閉**。
 
 ## 其他資訊
 

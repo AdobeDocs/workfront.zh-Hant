@@ -27,7 +27,7 @@ ht-degree: 0%
 
 * 在記錄型別的表格檢視中檢視記錄時，複製指向記錄頁面的連結。
 
-* 您可以透過共用工作區來與其他使用者共用工作區中的所有記錄。 如需詳細資訊，請參閱 [共用工作區](/help/quicksilver/planning/access/share-workspaces.md).
+* 您可以透過共用工作區來與其他使用者共用工作區中的所有記錄。 如需詳細資訊，請參閱[共用工作區](/help/quicksilver/planning/access/share-workspaces.md)。
 
 本文說明如何從記錄型別的表格檢視複製記錄頁面的連結。
 
@@ -80,7 +80,7 @@ ht-degree: 0%
   </tr>
 <tr>
    <td role="rowheader"><p>版面配置範本</p></td>
-   <td> <p>您的Workfront或群組管理員必須在版面配置範本中新增Planning區域。 如需詳細資訊，請參閱 <a href="/help/quicksilver/planning/access/access-overview.md">存取權總覽</a>. </p>  
+   <td> <p>您的Workfront或群組管理員必須在版面配置範本中新增Planning區域。 如需詳細資訊，請參閱<a href="/help/quicksilver/planning/access/access-overview.md">存取總覽</a>。 </p>  
 </td>
   </tr>
 
@@ -111,14 +111,14 @@ ht-degree: 0%
 1. 按一下記錄型別卡。
 
    記錄型別頁面隨即開啟。
-1. （視條件而定）從 **檢視** 在表格右上角的下拉式功能表中，選取表格檢視。 這應為預設檢視，除非您上次存取時間軸檢視時已檢視該記錄型別。
+1. （視條件而定）從表格右上角的&#x200B;**檢視**&#x200B;下拉式功能表中，選取表格檢視。 這應為預設檢視，除非您上次存取時間軸檢視時已檢視該記錄型別。
 
    與所選記錄型別相關聯的記錄會顯示在表格檢視中。
 1. 以滑鼠右鍵按一下記錄列
 
    或
 
-   將游標停留在記錄名稱上，按一下 **更多** 功能表 ![](assets/more-menu.png)，然後按一下 **複製連結**.
+   將游標停留在記錄名稱上，按一下&#x200B;**更多**&#x200B;功能表![](assets/more-menu.png)，然後按一下&#x200B;**複製連結**。
 
    ![](assets/contextual-menu-for-record-row.png)
 
@@ -139,4 +139,4 @@ ht-degree: 0%
 
 只有具有工作區管理許可權的使用者才能與其他人共用。
 
-如需詳細資訊，請參閱 [共用工作區](/help/quicksilver/planning/access/share-workspaces.md).
+如需詳細資訊，請參閱[共用工作區](/help/quicksilver/planning/access/share-workspaces.md)。

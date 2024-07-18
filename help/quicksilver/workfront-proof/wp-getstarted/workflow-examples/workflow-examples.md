@@ -19,11 +19,11 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->本文提及獨立版產品中的功能 [!DNL Workfront Proof]. 有關內部校訂的資訊 [!DNL Adobe Workfront]，請參閱 [校訂](../../../review-and-approve-work/proofing/proofing.md).
+>本文提及獨立產品[!DNL Workfront Proof]中的功能。 有關[!DNL Adobe Workfront]內部校訂的資訊，請參閱[校訂](../../../review-and-approve-work/proofing/proofing.md)。
 
 本節包含下列文章：
 
-* [中的基本校訂程式 [!DNL Workfront Proof]](../../../workfront-proof/wp-getstarted/workflow-examples/basic-proof-process.md)
-* [內部檢閱，然後再外部檢閱 [!DNL Workfront Proof]](../../../workfront-proof/wp-getstarted/workflow-examples/internal-external-review.md)
-* [與設計人員和專案經理合作 [!DNL Workfront Proof]](../../../workfront-proof/wp-getstarted/workflow-examples/work-designers-project-managers.md)
-* [與中的自由職業者合作 [!DNL Workfront Proof]](../../../workfront-proof/wp-getstarted/workflow-examples/work-freelancers.md)
+* [ [!DNL Workfront Proof]中的基本校訂程式](../../../workfront-proof/wp-getstarted/workflow-examples/basic-proof-process.md)
+* [在 [!DNL Workfront Proof]中進行內部檢閱，然後再進行外部檢閱](../../../workfront-proof/wp-getstarted/workflow-examples/internal-external-review.md)
+* [與 [!DNL Workfront Proof]中的設計人員和專案經理合作](../../../workfront-proof/wp-getstarted/workflow-examples/work-designers-project-managers.md)
+* [使用 [!DNL Workfront Proof]中的自由譯者](../../../workfront-proof/wp-getstarted/workflow-examples/work-freelancers.md)

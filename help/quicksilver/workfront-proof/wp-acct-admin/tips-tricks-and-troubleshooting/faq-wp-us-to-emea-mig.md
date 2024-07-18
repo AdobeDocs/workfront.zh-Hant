@@ -3,31 +3,31 @@ content-type: tips-tricks-troubleshooting
 product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: tips-tricks-and-troubleshooting-account-administration-workfront-proof
-title: 「常見問題集：Workfront校訂 — 美國至EMEA移轉」
-description: Workfront會直接連絡受Workfront Proof美國影響的所有組織移轉至EMEA。
+title: 「常見問題集：Workfront Proof — 美國移轉至EMEA」
+description: Workfront會直接連絡所有受Workfront Proof美國影響的組織，以移轉至EMEA。
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: d1aa69e5-f7e5-46d5-814e-e11a999e36db
 source-git-commit: 20fcf4dd07c1058559533501f7e297d78c43a70b
 workflow-type: tm+mt
-source-wordcount: '437'
+source-wordcount: '433'
 ht-degree: 0%
 
 ---
 
-# 常見問題集： [!UICONTROL Workfront Proof]  — 美國移轉至EMEA
+# 常見問題集：[!UICONTROL Workfront Proof] — 美國移轉至EMEA
 
 >[!IMPORTANT]
 >
->本文提及獨立版產品中的功能 [!DNL Workfront Proof]. 有關內部校訂的資訊 [!DNL Adobe Workfront]，請參閱 [校訂](../../../review-and-approve-work/proofing/proofing.md).
+>本文提及獨立產品[!DNL Workfront Proof]中的功能。 有關[!DNL Adobe Workfront]內部校訂的資訊，請參閱[校訂](../../../review-and-approve-work/proofing/proofing.md)。
 
 ## 如何知道此變更是否會影響我的組織？
 
-[!DNL Workfront] 直接連絡所有受下列專案影響的組織： [!DNL Workfront Proof] 美國移轉至EMEA。
+[!DNL Workfront]直接連絡所有受美國[!DNL Workfront Proof]影響的組織移轉至EMEA。
 
 ## 我需要執行任何動作來準備移轉嗎？
 
-是. 移轉之前，請確定您將下列專案新增至貴組織的允許清單：
+是。移轉之前，請確定您將下列專案新增至貴組織的允許清單：
 
 **[!DNL webcapture.proofhq.eu]**
 
@@ -39,15 +39,15 @@ ht-degree: 0%
 
 移轉完成後，您和您的使用者將只能從EMEA資料中心存取檔案和校樣。
 
-## 我用來存取的URL會發生什麼事？ [!DNL Workfront Proof]？
+## 我用來存取[!DNL Workfront Proof]的URL會發生什麼事？
 
-此URL將維持不變。 您將能夠存取 [!DNL Workfront] 系統運作方式與過去完全相同。
+此URL將維持不變。 您將能完全依照您過去存取系統的方式存取[!DNL Workfront]系統。
 
 ## 我仍然可以使用我的舊校樣連結和書籤嗎？
 
-移轉後，校訂專用的書籤將不再運作。 任何使用校樣的人都會收到訊息，透過提供存取校樣許可權的 [!UICONTROL 前往校訂] 按鈕：
+移轉後，校訂專用的書籤將不再運作。 任何使用校訂的人都會收到訊息，透過[!UICONTROL 前往校訂]按鈕提供校訂的存取權：
 
-![this_proof_has_migrated.png](assets/this-proof-has-been-migrated-350x361.png)
+![此_proof_has_migrated.png](assets/this-proof-has-been-migrated-350x361.png)
 
 ## 我的使用者名稱與密碼會維持與先前相同嗎？
 
@@ -61,4 +61,4 @@ ht-degree: 0%
 
 ## 如果我在帳戶上使用SSO，該怎麼辦？
 
-如果您在校訂帳戶上使用SSO，則需要重新設定帳戶以使用新的 [!DNL proofhq.eu] 網域。
+如果您在校訂帳戶上使用SSO，則需要重新設定帳戶以使用新的[!DNL proofhq.eu]網域。

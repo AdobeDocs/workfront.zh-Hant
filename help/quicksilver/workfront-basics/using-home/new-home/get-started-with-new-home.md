@@ -31,7 +31,7 @@ Adobe Workfront新的首頁體驗旨在改善目前的首頁體驗，同時提�
 
 Widget是新首頁的基礎。 將Widget新增至首頁後，您就可以選擇最符合您工作需求的資訊型別。 某些Widget僅適用於特定授權型別，因為它們追蹤的物件僅適用於這些授權。
 
-如需新增、移動、調整大小或刪除介面工具集的資訊，請參閱 [新增、編輯或移除新首頁中的Widget](/help/quicksilver/workfront-basics/using-home/new-home/add-edit-remove-widgets-in-new-home.md).
+如需新增、移動、調整大小或刪除介面工具集的資訊，請參閱新首頁](/help/quicksilver/workfront-basics/using-home/new-home/add-edit-remove-widgets-in-new-home.md)中的[新增、編輯或移除介面工具。
 
 目前有十個Widget可供選擇，以及它們顯示的資訊摘要如下：
 
@@ -47,19 +47,19 @@ Widget是新首頁的基礎。 將Widget新增至首頁後，您就可以選擇�
 * **我的問題**\
     顯示清單中指派給您的問題。 您可以使用現有的篩選器、檢視或分組來自訂清單，或直接從Widget建立問題。 此Widget僅包含關聯專案設為「目前」的問題，不包含已完成的專案。 您也可以在外出時委派問題。
 
-* **我的請求**\
+* **我的要求**\
     顯示您已提交的所有請求、只顯示開啟中請求的篩選條件，以及開啟請求摘要窗格的按鈕。
 
-* **團隊請求**\
+* **團隊要求**\
     顯示您所在團隊的所有待處理請求 (依團隊排序)，以及用於直接將請求指派給使用者或自行處理請求的按鈕。
 
-* **等待我的核准**\
+* **正在等待我的核准**\
     顯示所有待指派或委派的核准、用於委派核准的按鈕，以及用於直接在 Widget 中做出核准決策的按鈕。
 
 * **所有核准**\
-        <span class="preview"> 顯示2個圖表，內含平均核准時間和決定的相關資訊，以及擱置和逾期核准的清單檢視。</span> <span style="color: #ff0000;">此功能屬於分階段發行，目前僅供特定客戶使用。</span>
+        <span class="preview">顯示2個圖表，其中包含平均核准時間和決定的相關資訊，以及擱置和逾期核准的清單檢視。</span> <span style="color: #ff0000;">此功能是分階段發行的一部分，目前僅供特定客戶使用。</span>
 
-* **提及**\
+* **提及次數**\
     顯示來自Workfront的最近評論對話串，類似於「我的更新」頁面。 您可以使用回覆按鈕在Widget中撰寫回覆。 只要任務或問題在過去30天內已更新，此Widget也會顯示針對您指派給、您指派給其他使用者、您擁有、您是主要連絡人或您建立之任務或問題所做的評論。
 
 * **待辦事項**\
@@ -129,20 +129,20 @@ Widget是新首頁的基礎。 將Widget新增至首頁後，您就可以選擇�
 
 您可以選取頁面頂端的彩色橫幅，在首頁上加入一點個人光暈。
 
-**若要變更「首頁」背景的顏色：**
+**若要變更您住家背景的色彩：**
 
 1. 執行下列任一項作業，移至您的首頁：
 
-   * 如果「首頁」已設定為您的登陸頁面，請按一下 **Adobe Workfront** 圖示 ![Adobe Workfront圖示](../new-home/assets/home-icon-30x29.png) 位於熒幕左上角。
-   * 按一下 **主要功能表** 圖示或是 **主要功能表** 圖示 ![主要功能表圖示](../new-home/assets/main-menu-icon-left-nav.png) （如果有的話）按一下 **首頁**.
+   * 如果「首頁」已設定為您的登陸頁面，請按一下畫面左上角的&#x200B;**Adobe Workfront**&#x200B;圖示![Adobe Workfront圖示](../new-home/assets/home-icon-30x29.png)。
+   * 按一下熒幕右上角的&#x200B;**主功能表**&#x200B;圖示，或按一下左上角的&#x200B;**主功能表**&#x200B;圖示![主功能表圖示](../new-home/assets/main-menu-icon-left-nav.png) （如果有的話），然後按一下&#x200B;**首頁**。
 
-1. 按一下 **自訂** 在畫面的右上角。
+1. 按一下熒幕右上角的&#x200B;**自訂**。
 
    ![自訂按鈕](../new-home/assets/customize-button.png)
 
    「自訂」面板隨即開啟。
 
-1. 在 **背景** 的區段 **自訂** 面板，按一下您要為「首頁」背景選取的顏色。 您也可以按一下 **無** 以移除背景。
+1. 在「**自訂**」面板的「**背景**」區段中，按一下您要為「首頁」背景選取的色彩。 您也可以按一下[無]來移除背景。****
 
 ## 還原至目前的首頁體驗
 
@@ -150,16 +150,16 @@ Widget是新首頁的基礎。 將Widget新增至首頁後，您就可以選擇�
 
 返回目前的首頁體驗：
 
-1. 按一下「 」，移至您的首頁 **Adobe Workfront** 圖示 ![Adobe Workfront圖示](../new-home/assets/home-icon-30x29.png) （如果「首頁」已設定為您的登陸頁面），或按一下 **主要功能表** 圖示右上角 ![](assets/dots-main-menu.png) 或 **主要功能表** 圖示 ![主要功能表圖示](../new-home/assets/main-menu-icon-left-nav.png) （如果有的話）按一下 **首頁**.
+1. 若將「首頁」設為登陸頁面，請按一下熒幕左上角的&#x200B;**Adobe Workfront**&#x200B;圖示![Adobe Workfront圖示](../new-home/assets/home-icon-30x29.png)移至您的首頁，或按一下右上角的&#x200B;**主功能表**&#x200B;圖示![](assets/dots-main-menu.png)或左上角的&#x200B;**主功能表**&#x200B;圖示![主功能表圖示](../new-home/assets/main-menu-icon-left-nav.png) （如果可用），然後按一下&#x200B;**首頁**。
 
-1. 按一下 **返回目前的首頁** 按鈕來切換頁面。
+1. 按一下頁面右下角的&#x200B;**「返回目前的首頁**」按鈕。
 
-   ![返回目前的首頁按鈕](../new-home/assets/go-back-to-current-home-button.png)
+   ![返回目前的[首頁]按鈕](../new-home/assets/go-back-to-current-home-button.png)
 
    確認視窗隨即顯示。
 
-1. 請進行簡短問卷調查，以瞭解您使用新首頁的體驗，或按一下 **返回目前的首頁** 以還原至目前的「首頁」體驗。
+1. 請做一個簡短問卷調查，以瞭解您使用新首頁的體驗，或按一下&#x200B;**[返回目前的首頁]**&#x200B;以恢復目前首頁體驗。
 
 >[!NOTE]
 >
-> 系統管理員可以停用新的首頁作為其使用者的預設首頁。 如需有關變更系統使用者預設首頁體驗的資訊，請參閱 [設定系統偏好設定](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md).
+> 系統管理員可以停用新的首頁作為其使用者的預設首頁。 如需有關變更系統使用者預設首頁體驗的資訊，請參閱[設定系統偏好設定](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md)。

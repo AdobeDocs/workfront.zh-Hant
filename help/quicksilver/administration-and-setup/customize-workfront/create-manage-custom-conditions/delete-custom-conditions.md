@@ -19,7 +19,7 @@ ht-degree: 0%
 
 ## 存取需求
 
-您必須具備下列存取權，才能執行本文中的步驟：
+您必須具有下列存取權才能執行本文中的步驟：
 
 <table style="table-layout:auto"> 
  <col> 
@@ -34,35 +34,35 @@ ht-degree: 0%
    <td>計劃</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">訪問級別配置</td> 
-   <td> <p>您必須是Workfront管理員。</p> <p><b>注意</b>:如果您仍無權存取，請洽詢您的Workfront管理員，他們是否在您的存取層級設定其他限制。 如需Workfront管理員如何修改您的存取層級的詳細資訊，請參閱 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>.</p> </td> 
+   <td role="rowheader">存取層級設定</td> 
+   <td> <p>您必須是Workfront管理員。</p> <p><b>注意</b>：如果您還是沒有存取權，請詢問您的Workfront管理員是否對您的存取層級設定了其他限制。 如需Workfront管理員如何修改存取層級的詳細資訊，請參閱<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## 刪除自訂條件
 
-1. 按一下 **主菜單** 圖示 ![](assets/main-menu-icon.png) 在Adobe Workfront的右上角，然後按一下 **設定** ![](assets/gear-icon-settings.png).
+1. 按一下Adobe Workfront右上角的&#x200B;**主要功能表**&#x200B;圖示![](assets/main-menu-icon.png)，然後按一下&#x200B;**設定** ![](assets/gear-icon-settings.png)。
 
-1. 按一下 **專案偏好設定** > **條件**.
+1. 按一下&#x200B;**專案偏好設定** > **條件**。
 
    <!--
    <span data-mc-conditions="QuicksilverOrClassic.Draft mode">Make sure it's this way also in QS</span>
    -->
 
-1. 選擇對象類型的頁簽(**專案**, **任務**，或 **問題**)，您要刪除的條件位於的位置。
+1. 選取您要刪除的條件所在之物件型別（**專案**、**任務**&#x200B;或&#x200B;**問題**）的標籤。
 
-1. 將滑鼠指標暫留在您要刪除的條件上，然後按一下 **刪除** 圖示 ![](assets/delete.png) 在最右邊。
-1. 在顯示的確認訊息中，按一下 **刪除條件**.
+1. 暫留在您要刪除的條件上，然後按一下出現在最右邊的&#x200B;**刪除**&#x200B;圖示![](assets/delete.png)。
+1. 在出現的確認訊息中，按一下&#x200B;**刪除條件**。
 
-1. 在 **刪除條件** 框中，針對使用您正在刪除的條件的所有項目，在下拉清單中選擇新條件。
+1. 在出現的&#x200B;**刪除條件**&#x200B;方塊中，針對使用您要刪除條件的所有專案，在下拉式清單中選取新條件。
 
-   只有當自訂條件與您要刪除的相同內建條件相等時，才可在下拉式清單中使用。 例如，如果您刪除等於「風險」的條件，則只能選擇同樣等於「風險」的自訂條件。
+   自訂條件必須與您要刪除的內建條件相同，才可在下拉式清單中使用。 例如，如果您要刪除等同於「有風險」的條件，則只能選取等同於「有風險」的自訂條件。
 
-1. 按一下 **刪除條件**.
+1. 按一下&#x200B;**刪除條件**。
 
 >[!NOTE]
 >
->您無法刪除內建條件，這些條件在Target上、有風險且有問題。 不過，您可以變更其名稱和顏色。
+>您無法刪除內建條件，這些條件已達目標狀態、有風險狀態及存在問題。 不過，您可以變更它們的名稱和顏色。
 
-如需自訂條件的相關資訊，請參閱 [自訂條件](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/custom-conditions.md).
+如需自訂條件的詳細資訊，請參閱[自訂條件](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/custom-conditions.md)。

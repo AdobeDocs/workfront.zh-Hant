@@ -83,7 +83,7 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-如需有關此表格的詳細資訊，請參閱 [Workfront檔案中的存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -94,47 +94,47 @@ ht-degree: 0%
 ### 在任務的前置任務區段中指示延遲型別 {#indicate-lag-types-in-the-predecessors-section-of-a-task}
 
 1. 移至您要定義前置任務與延遲型別的工作。
-1. 按一下 **前置任務** 在左側面板中。 您可能需要按一下 **顯示更多**，然後 **前置任務**.
-1. 按一下 **新增前置任務**.
-1. （選用）如果要新增跨專案前置任務，請將 **父級專案** 名稱與另一個專案。
+1. 按一下左側面板中的&#x200B;**前置任務**。 您可能需要按一下&#x200B;**顯示更多**，然後按一下&#x200B;**前置任務**。
+1. 按一下&#x200B;**新增前置任務**。
+1. （選擇性）如果要新增跨專案前置任務，請將&#x200B;**父專案**&#x200B;名稱取代為其他專案。
 1. 開始輸入前置任務名稱，然後將其選取於清單中。
-1. 選取 **相依性型別**.
+1. 選取&#x200B;**相依性型別**。
 
-   如需前置任務相依性型別的詳細資訊，請參閱 [作業相依性型別的概要](../../../manage-work/tasks/use-prdcssrs/task-dependency-types.md).
+   如需前置任務相依性型別的詳細資訊，請參閱[任務相依性型別概觀](../../../manage-work/tasks/use-prdcssrs/task-dependency-types.md)。
 
-1. 指定 **延遲** 使用數值的金額。 您可以指定負數來指示負延遲。
+1. 使用數值指定&#x200B;**延遲**&#x200B;金額。 您可以指定負數來指示負延遲。
 1. 從下列選項中選取，以識別您要為前置任務指示的延遲型別：
 
    * **天**
    * **行事曆日**
    * **百分比**
-   * **星期**
-   * **星期（非零）**
+   * 一週的&#x200B;**天**
+   * 一週的&#x200B;**天（非零）**
 
-     如需這些延遲型別及其計算方式的詳細資訊，請參閱區段 [延遲型別](#lag-types) 本文章內容。
+     如需這些延遲型別及其計算方式的詳細資訊，請參閱本文章的[延遲型別](#lag-types)小節。
 
 1. 按一下「**儲存**」。
 
 ### 指示工作清單中的延遲型別  {#indicate-lag-types-in-a-task-list}
 
-1. 前往工作清單，然後選取 **標準** 檢視。
+1. 移至工作清單，並選取&#x200B;**標準**&#x200B;檢視。
 
-1. 按一下 **前置任務** 與您要為其指定前置任務和延遲量的任務對應的欄。
+1. 按一下與您要為其指定前置任務和延遲量的任務相對應的&#x200B;**前置任務**&#x200B;欄內。
 1. 輸入以下內容（不含空格）：
 
    * 要指定為所選任務的前置任務之任務編號
    * 您要在工作之間指示的相依性型別的縮寫
 
-     如需有關「相依性型別」縮寫的詳細資訊，請參閱 [作業相依性型別的概要](../../../manage-work/tasks/use-prdcssrs/task-dependency-types.md).
+     如需有關相依性型別縮寫的詳細資訊，請參閱[任務相依性型別概觀](../../../manage-work/tasks/use-prdcssrs/task-dependency-types.md)。
 
-   * 或a **+** 正延遲或 **-** 若為負延遲
+   * 正延遲的&#x200B;**+**&#x200B;或負延遲的&#x200B;**-**
 
    * 延遲的金額
    * 您要使用的Lag Type縮寫
 
-     如需Lag型別縮寫的詳細資訊，請參閱區段 [延遲型別](#lag-types) 本文章內容。
+     如需有關Lag型別縮寫的詳細資訊，請參閱本文章的[Lag型別](#lag-types)小節。
 
-   例如，若要指出某個任務具有前置任務且延遲為2天，您可以輸入 `1fs+2d` 在「前置任務」欄中。
+   例如，若要指出某個任務具有前置任務且正延遲2天，您可在「前置任務」欄中輸入`1fs+2d`。
 
 1. 在鍵盤上按Enter鍵以儲存您工作的變更。
 

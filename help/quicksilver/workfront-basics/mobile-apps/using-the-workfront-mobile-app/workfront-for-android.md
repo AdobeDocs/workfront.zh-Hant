@@ -3,7 +3,7 @@ content-type: overview
 product-previous: mobile
 navigation-topic: use-the-workfront-mobile-app
 title: 適用於Android的Adobe Workfront
-description: 此 [!DNL Adobe Workfront] 應用程式可讓您存取在任何Android裝置上的工作。 您可以安裝並使用 [!DNL Workfront] 在執行Android 5.0或更新版本的手機和平板電腦上使用行動應用程式。
+description: ' [!DNL Adobe Workfront] 應用程式可讓您存取任何Android裝置上的作品。 您可以在執行Android 5.0或更新版本的手機和平板電腦上安裝及使用 [!DNL Workfront] 行動應用程式。'
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 4bc209b8-18da-4f6f-97bd-699356269179
@@ -14,15 +14,15 @@ ht-degree: 2%
 
 ---
 
-# [!DNL Adobe Workfront] 的 [!DNL Android]
+# [!DNL Android]的[!DNL Adobe Workfront]
 
-此 [!DNL Adobe Workfront] 應用程式可讓您存取您在任何應用程式上的工作 [!DNL Android] 裝置。 您可以安裝並使用 [!DNL Workfront] 在手機和平板電腦上執行的行動應用程式 [!DNL Android] 5.0或更新版本。
+[!DNL Adobe Workfront]應用程式可讓您存取您在任何[!DNL Android]裝置上的工作。 您可以在執行[!DNL Android] 5.0或更新版本的手機和平板電腦上安裝及使用[!DNL Workfront]行動應用程式。
 
-如需登入行動應用程式的詳細資訊，請參閱區段 [登入 [!DNL Workfront] 行動應用程式](../../../workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/log-in-to-workfront.md#log) 在文章中 [登入 [!DNL Adobe Workfront]](../../../workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/log-in-to-workfront.md).
+如需登入行動應用程式的資訊，請參閱[登入 [!DNL Adobe Workfront]](../../../workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/log-in-to-workfront.md)一文中的[登入 [!DNL Workfront] 行動應用程式](../../../workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/log-in-to-workfront.md#log)一節。
 
 ## [!UICONTROL 首頁]
 
-此 [!UICONTROL 首頁] 區域可讓您直接處理指派給您的任務、問題和核准。 從 [!UICONTROL 首頁] 區域內，您可以：
+[!UICONTROL 首頁]區域可讓您直接處理指派給您的任務、問題和核准。 從應用程式的[!UICONTROL 首頁]區域，您可以：
 
 <table style="table-layout:auto"> 
  <col> 
@@ -48,21 +48,21 @@ ht-degree: 2%
  </tbody> 
 </table>
 
-如需詳細資訊，請參閱 [[!UICONTROL 首頁] 區域Widget](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/home-area-widgets-mobile.md) 和 [[!UICONTROL 我的工作] 區段](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/my-work-section-mobile.md).
+如需詳細資訊，請參閱行動應用程式](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/my-work-section-mobile.md)中的[[!UICONTROL 首頁]區域Widget](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/home-area-widgets-mobile.md)和[[!UICONTROL 我的工作]區段。
 
 ![主區域](assets/mobile-home-area.png)
 
 ## [!UICONTROL 展示板]
 
-此 [!UICONTROL 展示板] 區域可讓您存取 [!DNL Workfront] 展示板。
+[!UICONTROL 面板]區域可讓您存取您的[!DNL Workfront]面板。
 
 ![展示板區域](assets/mobile-all-boards-displayed.png)
 
-如需詳細資訊，請參閱 [[!DNL Adobe Workfront] [!UICONTROL 展示板] 適用於行動裝置](/help/quicksilver/workfront-basics/mobile-apps/using-the-workfront-mobile-app/mobile-boards.md).
+如需詳細資訊，請參閱行動裝置](/help/quicksilver/workfront-basics/mobile-apps/using-the-workfront-mobile-app/mobile-boards.md)的[[!DNL Adobe Workfront] [!UICONTROL 面板]。
 
 ## [!UICONTROL 專案]
 
-此 [!UICONTROL 專案] 區域可讓您與自己擁有的專案和所在的專案互動及管理。 從 [!UICONTROL 專案] 區域內，您可以：
+[!UICONTROL 專案]區域可讓您與擁有的專案及您參與的專案進行互動及管理。 從應用程式的[!UICONTROL 專案]區域，您可以：
 
 <table style="table-layout:auto"> 
  <col> 
@@ -91,7 +91,7 @@ ht-degree: 2%
 
 ## [!UICONTROL 核准]
 
-此 [!UICONTROL 核准] 區域可讓您檢視及核准指派或委派給您的核准。 從 [!UICONTROL 核准] 區域，您可以核准：
+[!UICONTROL 核准]區域可讓您檢視及核准指派或委派給您的核准。 從[!UICONTROL 核准]區域，您可以核准：
 
 <table style="table-layout:auto">
  <col>
@@ -113,15 +113,15 @@ ht-degree: 2%
  </tbody>
 </table>
 
-如需核准的詳細資訊，請參閱 [中的核准 [!DNL Adobe Workfront] 行動應用程式](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/approvals-in-mobile-app.md).
+如需核准的詳細資訊，請參閱 [!DNL Adobe Workfront] 行動應用程式](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/approvals-in-mobile-app.md)中的[核准。
 
-有關檢閱和核准校訂的資訊，請參閱 [在中檢閱校訂並作出決定 [!DNL Adobe Workfront] 行動應用程式](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/work-with-proofs-in-mobile-app.md).
+如需檢閱和核准校訂的資訊，請參閱[在 [!DNL Adobe Workfront] 行動應用程式](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/work-with-proofs-in-mobile-app.md)中檢閱和決定校訂。
 
-![行動應用程式中的核准清單](assets/mobile-approvals-adobe-350x574.png)
+行動應用程式中的![核准清單](assets/mobile-approvals-adobe-350x574.png)
 
 ## [!UICONTROL 通知]
 
-此 [!UICONTROL 通知] 區域可讓您檢視和回應工作的應用程式內通知。
+[!UICONTROL 通知]區域可讓您檢視和回應您工作的應用程式內通知。
 
 >[!NOTE]
 >除非附註的整個內容都是沒有顯示文字的超連結，否則更新通知中不會提供超連結。
@@ -130,7 +130,7 @@ ht-degree: 2%
 
 ## [!UICONTROL 要求]
 
-此 [!UICONTROL 請求] 區域可讓您檢視請求的詳細資訊。 從 [!UICONTROL 請求] 區域內，您可以：
+[!UICONTROL 要求]區域可讓您檢視要求的詳細資料。 從應用程式的[!UICONTROL 要求]區域，您可以：
 
 <table style="table-layout:auto">
  <col>
@@ -154,13 +154,13 @@ ht-degree: 2%
  </tbody>
 </table>
 
-![請求區域](assets/mobile-requests-area.png)
+![要求區域](assets/mobile-requests-area.png)
 
 ## [!UICONTROL 時程表]
 
-此 [!UICONTROL 時間表] 區域可讓您檢視關於時程表的詳細資訊。 在應用程式的時程表區域中，您可以：
+[!UICONTROL 時程表]區域可讓您檢視有關時程表的詳細資料。 在應用程式的時程表區域中，您可以：
 
-* 中的Post [!UICONTROL 更新] 區域
+* [!UICONTROL 更新]區域中的Post
 * 調整小時型別
 * 變更您的記錄時間
 * 在您的時程表中輸入註解
@@ -170,19 +170,19 @@ ht-degree: 2%
 
 ## [!UICONTROL 我的最愛]
 
-您可以從以下位置存取現有專案： [!UICONTROL 我的最愛] 並新增專案至[我的最愛]功能表。
+您可以從[!UICONTROL 我的最愛]功能表存取現有專案，並將新專案加入我的最愛功能表。
 
 ![我的最愛區域](assets/mobile-favorites-area.png)
 
 ## [!UICONTROL 連絡人]
 
-此 [!UICONTROL 連絡人] 區域可讓您檢視公司中所有使用者的聯絡資訊。
+[!UICONTROL 連絡人]區域可讓您檢視公司中所有使用者的連絡資訊。
 
-![聯絡人區域](assets/mobile-contacts-area.png)
+![連絡人區域](assets/mobile-contacts-area.png)
 
-## [!UICONTROL 設定]
+## [!UICONTROL 組態]
 
-此 [!UICONTROL 設定] 區域可讓您：
+[!UICONTROL 組態]區域允許您：
 
 * 管理您的設定
 * 檢視指派的團隊

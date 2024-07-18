@@ -3,7 +3,7 @@ content-type: reference
 product-area: projects
 navigation-topic: financials
 title: 計算預算成本
-description: 使用利用率報告計算預算成本跟蹤項目進度」
+description: 使用使用情況報告計算預算成本追蹤專案進度」
 author: Alina
 feature: Work Management
 exl-id: e96fe38f-58c2-4938-9d2d-81d1109123fa
@@ -23,39 +23,39 @@ ht-degree: 2%
 </div>
 -->
 
-項目的預算成本是指在計畫項目時與項目關聯的總成本。
+專案的預算成本是當您計畫專案時，與專案相關聯的總估計成本。
 
-## 項目預算成本概覽
+## 專案中的預算成本概要
 
-您不能手動更改項目的預算成本。 Adobe Workfront使用下列公式計算預算成本：
+您無法手動變更專案的預算成本。 Adobe Workfront使用下列公式計算預算成本：
 
 `Budgeted Cost = Resource Planner Budgeted Labor Cost + Budgeted Expenses Cost + Fixed Cost of the project`
 
-* 此 **資源計畫員預算人工成本** 在上述計算中，是與項目中的任務角色關聯的成本。
+* 上述計算中的&#x200B;**資源規劃工具預算勞力成本**&#x200B;是與專案中工作角色相關的成本。
 
-   您可以在「業務案例」或「資源計畫員」的「資源預算」區域中跟蹤項目的預算人工成本。
+  您可以在業務案例或資源規劃工具的資源預算區域中追蹤專案的預算勞力成本。
 
-   >[!TIP]
-   >
-   >  在「業務案例」中，項目的預算人工成本在報表和清單中顯示為資源計畫員預算人工成本。
+  >[!TIP]
+  >
+  >  業務案例中專案的預算勞力成本在報表和清單中顯示為「資源規劃工具預算勞力成本」。
 
-   有關預算人工成本的資訊，請參閱文章 [了解項目的預算人工成本和預算工時](../../../manage-work/projects/project-finances/budgeted-labor-cost.md).
+  如需有關預算勞力成本的資訊，請參閱文章[瞭解專案的預算勞力成本和預算時數](../../../manage-work/projects/project-finances/budgeted-labor-cost.md)。
 
-* 此 **預算費用** 在上述計算中，與項目支出關聯的計畫成本，這些費用在「業務案例」的「支出」區域或項目的「支出」標籤中計算。\
-   有關項目費用的詳細資訊，請參閱文章 [管理項目費用](../../../manage-work/projects/project-finances/manage-project-expenses.md).
+* 以上計算中的&#x200B;**預算費用成本**&#x200B;是與專案費用相關的計畫成本，因為這些費用是在業務案例的費用區域或專案的費用標籤中計算的。\
+  如需有關專案費用的詳細資訊，請參閱文章[管理專案費用](../../../manage-work/projects/project-finances/manage-project-expenses.md)。
 
-* 此 **固定成本** 在上述計算中，與項目成本關聯的固定金額，如項目「詳細資訊」部分的「財務」區域中所定義。\
-   有關項目的「財務」子頁簽的詳細資訊，請參閱文章 [管理項目財務區域中的資訊](../../../manage-work/projects/project-finances/manage-project-finance-area.md).
+* 以上計算中的&#x200B;**固定成本**&#x200B;是與專案成本相關的固定金額，如專案詳細資訊區段的「財務」區域中所定義。\
+  如需有關專案[財務]子標籤的詳細資訊，請參閱文章[專案財務區域](../../../manage-work/projects/project-finances/manage-project-finance-area.md)中的管理資訊。
 
 >[!NOTE]
 >
->Workfront會使用專案的貨幣計算所有成本資訊。 如果在「資源計畫員」中為資源指定「預算小時數」，則禁用更改項目幣種的選項。
+>Workfront會使用專案的貨幣來計算所有成本資訊。 如果您在資源規劃工具中指定資源的預算時數，則會停用變更專案幣別的選項。
 >
->如需變更專案貨幣的詳細資訊，請參閱文章 [更改項目幣種](../../../manage-work/projects/project-finances/change-project-currency.md).
+>如需有關變更專案貨幣的詳細資訊，請參閱文章[變更專案貨幣](../../../manage-work/projects/project-finances/change-project-currency.md)。
 
-## 查找項目的預算成本
+## 找出專案的預算成本
 
-「業務案例」或「資源計畫員」的「資源預算」區域中反映的「預算成本」將以下名稱顯示在Workfront的以下區域：
+反映在業務案例或資源規劃工具的資源預算區域中的預算成本，顯示在Workfront的以下區域中，其名稱如下：
 
 <table style="table-layout:auto"> 
    <col> 
@@ -63,7 +63,7 @@ ht-degree: 2%
    <tbody> 
     <tr> 
      <td><strong>預算成本顯示名稱</strong></td> 
-     <td><strong>Workfront地區</strong></td> 
+     <td><strong>Workfront區域</strong></td> 
     </tr> 
     <tr> 
      <td>預算成本</td> 
@@ -71,13 +71,13 @@ ht-degree: 2%
     </tr> 
     <tr> 
      <td>成本</td> 
-     <td> <p>Portfolio優化程式</p> <p>提示：所有項目預算成本值的合計為組合的預算成本。</p> </td> 
+     <td> <p>Portfolio最佳化工具</p> <p>提示：所有專案預算成本值的總計是投資組合的預算成本。</p> </td> 
     </tr> 
     <tr> 
      <td>專案預算成本</td> 
      <td> <!--
        <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Resource Estimates report (NOTE: this was removed with flash)</p>
-      --> <p>專案報表</p> <p>項目（財務資料）報告</p> <p>任務報告</p> <p>問題報告</p> <p>預算小時報表</p> <p>如需建立報表的詳細資訊，請參閱文章 <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md" class="MCXref xref">建立自訂報表</a>.</p> </td> 
+      --> <p>專案報告</p> <p>專案（財務資料）報表</p> <p>任務報告</p> <p>問題報告</p> <p>已編列預算時數報告</p> <p>如需有關建立報告的詳細資訊，請參閱文章<a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md" class="MCXref xref">建立自訂報告</a>。</p> </td> 
     </tr> 
    </tbody> 
   </table>

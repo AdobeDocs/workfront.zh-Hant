@@ -39,29 +39,29 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td>Adobe Workfront授權</a>*</td> 
-   <td> <p>計劃 </p> <p>您必須是群組的群組管理員或Workfront管理員。 如需詳細資訊，請參閱 <a href="../../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">群組管理員</a> 和 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">授予使用者完整管理存取權</a>.</p> </td> 
+   <td> <p>計劃 </p> <p>您必須是群組的群組管理員或Workfront管理員。 如需詳細資訊，請參閱<a href="../../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">群組管理員</a>和<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">授與使用者完整管理存取權</a>。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">物件許可權</td> 
    <td> 
     <ul> 
-     <li> <p>專案必須與群組或其任何子群組相關聯。 </p> <p>如需將群組指派至專案的詳細資訊，請參閱 <a href="../../../manage-work/projects/manage-projects/understand-project-overview-area.md" class="MCXref xref">管理專案概述區域中的資訊</a>.</p> </li> 
-     <li> <p>此外，您必須擁有編輯專案的許可權，這可能是因為您已建立專案或專案已共用給您。</p> <p>如需請求其他存取許可權的詳細資訊，請參閱 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">要求物件的存取權 </a>.</p> </li> 
-    </ul> <p><b>注意</b>：從群組的頁面建立專案時，系統會將該專案指派給該群組。 這與在其他Workfront區域中建立專案不同，在其中，系統將專案指派給建立該專案之使用者（專案所有者）的「主群組」 。</p> </td> 
+     <li> <p>專案必須與群組或其任何子群組相關聯。 </p> <p>如需將群組指派給專案的資訊，請參閱<a href="../../../manage-work/projects/manage-projects/understand-project-overview-area.md" class="MCXref xref">專案概述區域中的管理資訊</a>。</p> </li> 
+     <li> <p>此外，您必須擁有編輯專案的許可權，這可能是因為您已建立專案或專案已共用給您。</p> <p>如需請求其他存取權的資訊，請參閱<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">請求物件</a>的存取權。</p> </li> 
+    </ul> <p><b>注意</b>：當您從群組的頁面建立專案時，系統會將該專案指派給該群組。 這與在其他Workfront區域中建立專案不同，在其中，系統將專案指派給建立該專案之使用者（專案所有者）的「主群組」 。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;如果您需要瞭解自己的計畫或授權型別，請聯絡Workfront管理員。
+&#42;如果您需要瞭解您擁有的計畫或授權型別，請連絡您的Workfront管理員。
 
 ## 從群組區域檢視、處理和建立群組的專案
 
-1. 按一下 **主要功能表** 圖示 ![](assets/main-menu-icon.png) (位於Adobe Workfront的右上角)，然後按一下 **設定** ![](assets/gear-icon-settings.png).
+1. 按一下Adobe Workfront右上角的&#x200B;**主要功能表**&#x200B;圖示![](assets/main-menu-icon.png)，然後按一下&#x200B;**設定** ![](assets/gear-icon-settings.png)。
 
-1. 在左側面板中，按一下 **群組** ![](assets/groups-icon.png).
+1. 在左側面板中，按一下&#x200B;**群組** ![](assets/groups-icon.png)。
 
 1. 按一下您要建立、檢視或使用專案的群組名稱。
-1. 在左側面板中，按一下 **專案** ![](assets/projects-in-main-menu.png) 以檢視與群組相關聯的專案清單。
+1. 在左側面板中，按一下&#x200B;**專案** ![](assets/projects-in-main-menu.png)以檢視與群組相關聯的專案清單。
 
 1. 執行下列任一項作業：
 
@@ -71,19 +71,19 @@ ht-degree: 0%
     <tbody> 
      <tr> 
       <td role="rowheader"> <p>使用專案</p> </td> 
-      <td> <p>選取專案，然後使用工具列按鈕進行編輯 <img src="assets/edit-icon.png">，共用 <img src="assets/share-icon.png">，或將其刪除 <img src="assets/delete.png">.</p> <p>如需這些活動的詳細資訊，請參閱 <a href="../../../manage-work/projects/manage-projects/manage-projects-overview.md" class="MCXref xref">管理專案：文章索引</a>.</p> </td> 
+      <td> <p>選取專案，然後使用工具列按鈕來編輯<img src="assets/edit-icon.png">、共用<img src="assets/share-icon.png">或刪除專案<img src="assets/delete.png">。</p> <p>如需這些活動的詳細資訊，請參閱<a href="../../../manage-work/projects/manage-projects/manage-projects-overview.md" class="MCXref xref">管理專案：文章索引</a>。</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"> <p>為群組建立新專案</p> </td> 
       <td> 
        <ol> 
-        <li value="1"> <p>按一下 <strong>新增專案</strong>，然後在下拉式選單中選取選項以指示您要如何建立它。 </p> <p>如需詳細資訊，請參閱區段 <a href="../../../manage-work/projects/create-projects/create-project.md#ways-to-create-projects" class="MCXref xref">建立專案的方式</a> 在文章中 <a href="../../../manage-work/projects/create-projects/create-project.md" class="MCXref xref">建立專案</a>.</p> </li> 
-        <li value="2">輸入專案名稱並加以設定，如中所述 <a href="../../../manage-work/projects/manage-projects/edit-projects.md" class="MCXref xref">編輯專案</a>.</li> 
-       </ol> <p> 為群組設定的專案偏好設定會影響您在「群組」區域中建立的所有專案。 如需詳細資訊，請參閱 <a href="../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-project-preferences-group.md" class="MCXref xref">設定群組的專案偏好設定</a>.</p> </td> 
+        <li value="1"> <p>按一下<strong>新增專案</strong>，然後在下拉式選單中選取選項以指示您要如何建立專案。 </p> <p>如需詳細資訊，請參閱文章<a href="../../../manage-work/projects/create-projects/create-project.md" class="MCXref xref">建立專案</a>中的<a href="../../../manage-work/projects/create-projects/create-project.md#ways-to-create-projects" class="MCXref xref">建立專案的方式</a>一節。</p> </li> 
+        <li value="2">輸入專案名稱並加以設定，如<a href="../../../manage-work/projects/manage-projects/edit-projects.md" class="MCXref xref">編輯專案</a>中所述。</li> 
+       </ol> <p> 為群組設定的專案偏好設定會影響您在「群組」區域中建立的所有專案。 如需詳細資訊，請參閱<a href="../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-project-preferences-group.md" class="MCXref xref">設定群組的專案偏好設定</a>。</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">匯出專案清單</td> 
-      <td>按一下匯出圖示 <img src="assets/export.png"> 在清單上方的工具列中。</td> 
+      <td>按一下清單上方工具列中的「匯出」圖示<img src="assets/export.png">。</td> 
      </tr> 
     </tbody> 
    </table>

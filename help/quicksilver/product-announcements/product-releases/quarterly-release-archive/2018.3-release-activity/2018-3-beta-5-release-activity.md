@@ -18,30 +18,30 @@ ht-degree: 0%
 
 本頁說明2018.3 Beta 5版本預覽環境中最近可用的所有變更。 此功能將於2018年9月21日在預覽環境中提供。 它將於2018年11月在生產環境中提供。
 
-如需2018.3年所有變更的清單，請參閱  [2018.3版本活動概覽](../../../../product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-release-activity-overview.md).
+如需2018.3年所有變更的清單，請參閱  [2018.3發行活動總覽](../../../../product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-release-activity-overview.md)。
 
-2018.3 Beta 5版本包含所有使用者的增強功能：
+2018.3 Beta 5版本包含適用於所有使用者的增強功能：
 
-* [追蹤您已在首頁區域中提交的核准](#track-approvals-you-ve-submitted-in-the-home-area)
-* [取代Workfront中的Flash型工具](#replacement-of-flash-based-tools-in-workfront)
-* [允許工作授權使用者存取專案的「排程」子標籤](#allowing-work-license-users-to-access-the-scheduling-subtab-of-a-project)
-* [改善資源規劃工具中的篩選器](#improved-filters-in-the-resource-planner)
+* [追蹤您已在主區域提交的核准](#track-approvals-you-ve-submitted-in-the-home-area)
+* [取代Workfront中的Flash工具](#replacement-of-flash-based-tools-in-workfront)
+* [允許工作授權使用者存取專案的排程子標籤](#allowing-work-license-users-to-access-the-scheduling-subtab-of-a-project)
+* [資源規劃工具中的已改良篩選器](#improved-filters-in-the-resource-planner)
 * [在資源規劃工具中檢視實際時數](#view-actual-hours-in-the-resource-planner)
-* [業務案例匯出中的資源規劃工具資料](#resource-planner-data-in-the-business-case-export)
+* 業務案例匯出中的[資源規劃工具資料](#resource-planner-data-in-the-business-case-export)
 * [啟用公司層級收費率覆寫](#enable-company-level-billing-rate-override)
-* [簡化的角色型核准](#simplified-role-based-approvals)
-* [使用率報表：從新資源預算區域植入預算時數](#utilization-report-populates-budgeted-hours-from-new-resource-budgeting-area)
-* [使用率報表：依使用者檢視專案的預算時數](#utilization-report-view-budgeted-hours-by-user-on-a-project)
-* [校訂檢視器不再支援SWF檔案](#swf-files-no-longer-supported-in-the-proofing-viewer)
-* [可在校訂檢視器的「註解清單」中更快速地存取動作](#actions-more-quickly-accessible-in-the-comment-list-in-the-proofing-viewer)
+* [簡化角色型核准](#simplified-role-based-approvals)
+* [使用率報告：從新資源預算區域填入預算時數](#utilization-report-populates-budgeted-hours-from-new-resource-budgeting-area)
+* [使用率報告：檢視專案上按使用者的預算時數](#utilization-report-view-budgeted-hours-by-user-on-a-project)
+* 校訂檢視器中不再支援[SWF檔案](#swf-files-no-longer-supported-in-the-proofing-viewer)
+* 在校訂檢視器的註解清單中更快速地存取[動作](#actions-more-quickly-accessible-in-the-comment-list-in-the-proofing-viewer)
 * [校訂檢視器中的校訂共用改善](#proof-sharing-improvement-in-the-proofing-viewer)
-* [校訂檢視器中的「註解清單」增強功能](#comments-list-enhancements-in-the-proofing-viewer)
+* 校訂檢視器中的[註解清單增強功能](#comments-list-enhancements-in-the-proofing-viewer)
 * [在校訂檢視器中縮放和平移視訊校訂](#zoom-and-pan-video-proofs-in-the-proofing-viewer)
-* [校訂檢視器中的較亮背景](#lighter-background-in-the-proofing-viewer)
-* [在校訂檢視器中編輯註解時提升可見度](#better-visibility-when-a-comment-has-been-edited-in-the-proofing-viewer)
-* [在校訂檢視器的「註解清單」中檢視與動作關聯的註解數](#view-the-number-of-comments-associated-with-an-action-in-the-comment-list-in-the-proofing-viewer)
-* [在校訂檢視器中指定將使用者新增到校訂時的階段](#specify-the-stage-when-adding-users-to-a-proof-in-the-proofing-viewer)
-* [從互動或靜態網站校訂開啟關聯的網站](#opening-the-associated-website-from-an-interactive-or-static-website-proof)
+* 校訂檢視器中的[較亮背景](#lighter-background-in-the-proofing-viewer)
+* [當在校訂檢視器中編輯評論時，能有更好的可見度](#better-visibility-when-a-comment-has-been-edited-in-the-proofing-viewer)
+* [在校訂檢視器的註解清單中檢視與動作關聯的註解數](#view-the-number-of-comments-associated-with-an-action-in-the-comment-list-in-the-proofing-viewer)
+* [將使用者新增到校訂檢視器中的校訂時指定階段](#specify-the-stage-when-adding-users-to-a-proof-in-the-proofing-viewer)
+* [從互動式或靜態網站校訂開啟關聯的網站](#opening-the-associated-website-from-an-interactive-or-static-website-proof)
 * [列印摘要增強功能](#print-summary-enhancements)
 * [改善的校訂載入時間](#improved-proof-loading-time)
 * [Workfront行動應用程式中更新標籤的新外觀](#new-look-and-feel-of-the-updates-tab-in-the-workfront-mobile-app)
@@ -59,13 +59,13 @@ ht-degree: 0%
 
   以前，您只能在「我的工作」區域與已提交的核准互動。 
 
-如需詳細資訊，請參閱 [管理核准](../../../../review-and-approve-work/manage-approvals/manage-approvals.md). 
+如需詳細資訊，請參閱[管理核准](../../../../review-and-approve-work/manage-approvals/manage-approvals.md)。 
 
 ## 取代Workfront中的Flash型工具 {#replacement-of-flash-based-tools-in-workfront}
 
 所有依賴Flash技術的功能預計會在2018.3版中從Workfront移除，並更換為新解決方案。
 
-如需受移除這些功能影響之所有區域的詳細資訊，以及瞭解哪些工具會取代它們，請參閱 [取代Adobe Workfront中的Flash型工具](../../../../product-announcements/announcements/announcement-archive/replace-flash-tools.md).
+如需受移除這些功能影響之所有區域的詳細資訊，以及瞭解哪些工具會取代這些功能，請參閱[在Adobe Workfront中取代Flash型工具](../../../../product-announcements/announcements/announcement-archive/replace-flash-tools.md)。
 
 ## 允許工作授權使用者存取專案的「排程」子標籤 {#allowing-work-license-users-to-access-the-scheduling-subtab-of-a-project}
 
@@ -77,7 +77,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->已棄用資源排程工具，並已從Workfront的23.1版本中移除。 如需有關使用工作負載平衡器排程資源的資訊，請參閱 [工作負載平衡器概覽](../../../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
+>已棄用資源排程工具，並已從Workfront的23.1版本中移除。 如需有關使用工作負載平衡器排程資源的資訊，請參閱[工作負載平衡器概覽](../../../../resource-mgmt/workload-balancer/overview-workload-balancer.md)。
 
 ## 改善資源規劃工具中的篩選器 {#improved-filters-in-the-resource-planner}
 
@@ -85,7 +85,7 @@ ht-degree: 0%
 
 在此改善之前，您只能在資源規劃工具中篩選有限數量的內建欄位和條件。
 
-如需有關在資源規劃工具中篩選資訊的資訊，請參閱 [在資源規劃工具中篩選資訊](../../../../resource-mgmt/resource-planning/filter-resource-planner.md).
+如需有關在資源規劃工具中篩選資訊的資訊，請參閱資源規劃工具中的[篩選資訊](../../../../resource-mgmt/resource-planning/filter-resource-planner.md)。
 
 ## 在資源規劃工具中檢視實際時數 {#view-actual-hours-in-the-resource-planner}
 
@@ -93,7 +93,7 @@ ht-degree: 0%
 
 在此改善之前，實際時數未顯示在資源規劃工具。
 
-如需有關在資源規劃工具中檢視時數資訊的資訊，請參閱 [資源規劃工具概觀](../../../../resource-mgmt/resource-planning/get-started-resource-planner.md).
+如需有關在資源規劃工具中檢視時數資訊的資訊，請參閱[資源規劃工具概觀](../../../../resource-mgmt/resource-planning/get-started-resource-planner.md)。
 
 ## 業務案例匯出中的資源規劃工具資料 {#resource-planner-data-in-the-business-case-export}
 
@@ -101,7 +101,7 @@ ht-degree: 0%
 
 先前，匯出的檔案會反映舊版資源估算區域和Capacity Planner中的資訊。 
 
-如需匯出業務案例的相關資訊，請參閱 [為專案建立業務案例](../../../../manage-work/projects/define-a-business-case/create-business-case.md) 中的區段 [為專案建立業務案例](../../../../manage-work/projects/define-a-business-case/create-business-case.md).
+如需有關匯出業務案例的資訊，請參閱[為專案建立業務案例](../../../../manage-work/projects/define-a-business-case/create-business-case.md)中的[為專案建立業務案例](../../../../manage-work/projects/define-a-business-case/create-business-case.md)區段。
 
 ## 啟用公司層級收費率覆寫 {#enable-company-level-billing-rate-override}
 
@@ -111,7 +111,7 @@ ht-degree: 0%
 
 以前，除非您將公司從專案中移除，然後重新附加，否則無法將公司層級的計費率變更套用至專案。
 
-如需詳細資訊，請參閱 [以公司層級的收費率覆寫專案層級的收費率](../../../../manage-work/projects/project-finances/override-project-level-with-company-level-billing-rates.md). 
+如需詳細資訊，請參閱[以公司層級的收費率覆寫專案層級的收費率](../../../../manage-work/projects/project-finances/override-project-level-with-company-level-billing-rates.md)。 
 
 ## 簡化的角色型核准 {#simplified-role-based-approvals}
 
@@ -119,7 +119,7 @@ ht-degree: 0%
 
 之前，您必須將使用者指派給專案團隊，確保他們在使用者設定檔中具有正確的角色，並在舊版團隊建立器中選取該角色。
 
-如需詳細資訊，請參閱區段 [專案團隊概述](../../../../manage-work/projects/planning-a-project/project-team-overview.md) 在文章中 [專案團隊概述](../../../../manage-work/projects/planning-a-project/project-team-overview.md).
+如需詳細資訊，請參閱文章[專案團隊概述](../../../../manage-work/projects/planning-a-project/project-team-overview.md)中的[專案團隊概述](../../../../manage-work/projects/planning-a-project/project-team-overview.md)一節。
 
 ## 使用率報表：從新資源預算區域植入預算時數 {#utilization-report-populates-budgeted-hours-from-new-resource-budgeting-area}
 
@@ -131,7 +131,7 @@ ht-degree: 0%
 
 在此變更之前，使用來自舊版資源估計區域的資訊。
 
-如需詳細資訊，請參閱  [資源使用率報表概要](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md) 在文章中  [資源使用率報表概要](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md).
+如需詳細資訊，請參閱  [文章中的資源使用率報告概觀](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md)  [資源使用率報告概觀](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md)。
 
 ## 使用率報表：依使用者檢視專案的預算時數 {#utilization-report-view-budgeted-hours-by-user-on-a-project}
 
@@ -143,13 +143,13 @@ ht-degree: 0%
 
 在此變更之前，「使用率」報告僅依工作角色顯示「預算時數」。 
 
-如需詳細資訊，請參閱  [資源使用率報表概要](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md) 在文章中  [資源使用率報表概要](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md).
+如需詳細資訊，請參閱  [文章中的資源使用率報告概觀](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md)  [資源使用率報告概觀](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md)。
 
 ## 校訂檢視器不再支援SWF檔案 {#swf-files-no-longer-supported-in-the-proofing-viewer}
 
 由於AdobeFlash的相關安全性問題，校訂檢視器不再支援從SWF檔案建立的校訂。 如果您開啟先前為SWF檔案建立的校訂，則會顯示一則訊息，指出校訂內容先前顯示在校訂檢視器中。 您可以在校訂上看到任何評論。 您也可以下載註解及下載原始SWF檔案。
 
-如需詳細資訊，請參閱 [支援的校訂檔案型別和大小限制概觀](../../../../review-and-approve-work/proofing/proofing-overview/supported-proofing-file-types.md) 在文章中 [支援的校訂檔案型別和大小限制概觀](../../../../review-and-approve-work/proofing/proofing-overview/supported-proofing-file-types.md). 
+如需詳細資訊，請參閱文章[支援的校訂檔案型別和大小限制概述](../../../../review-and-approve-work/proofing/proofing-overview/supported-proofing-file-types.md)中的[支援的校訂檔案型別和大小限制概述](../../../../review-and-approve-work/proofing/proofing-overview/supported-proofing-file-types.md)。 
 
 ## 可在校訂檢視器的「註解清單」中更快速地存取動作 {#actions-more-quickly-accessible-in-the-comment-list-in-the-proofing-viewer}
 
@@ -157,7 +157,7 @@ ht-degree: 0%
 
 之前，您必須開啟註解、開啟下拉式功能表、開啟子功能表，然後按一下您想要的動作。
 
-如需詳細資訊，請參閱 [對校訂評論使用動作](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/use-actions-on-comments-in-viewer.md).
+如需詳細資訊，請參閱[對校訂評論使用動作](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/use-actions-on-comments-in-viewer.md)。
 
 ## 校訂檢視器中的校訂共用改善 {#proof-sharing-improvement-in-the-proofing-viewer}
 
@@ -165,7 +165,7 @@ ht-degree: 0%
 
 以前，這些選項提供的功能與現在相同，但其組織與「檔案」清單中的對應選項不一致。
 
-如需詳細資訊，請參閱區段  [共用URL](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/share-a-proof-in-proofing-viewer.md#sharing-the-url) 在文章中  [從校訂檢視器共用校訂](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/share-a-proof-in-proofing-viewer.md).
+如需詳細資訊，請參閱區段  [分享文章中的URL](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/share-a-proof-in-proofing-viewer.md#sharing-the-url)  [從校訂檢視器共用校訂](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/share-a-proof-in-proofing-viewer.md)。
 
 ## 校訂檢視器中的「註解清單」增強功能 {#comments-list-enhancements-in-the-proofing-viewer}
 
@@ -215,7 +215,7 @@ ht-degree: 0%
 
 先前，當您從校訂檢視器將檢閱者新增至校訂時，Workfront會將他們放置在目前作用中的階段。
 
-如需詳細資訊，請參閱 [新增使用者以共用校訂](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/share-a-proof-in-proofing-viewer.md#sharing-with-individual-users) 在 [從校訂檢視器共用校訂](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/share-a-proof-in-proofing-viewer.md).
+如需詳細資訊，請參閱[分享校訂檢視器](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/share-a-proof-in-proofing-viewer.md)的校訂[透過新增使用者來分享校訂](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/share-a-proof-in-proofing-viewer.md#sharing-with-individual-users)。
 
 ## 從互動或靜態網站校訂開啟關聯的網站 {#opening-the-associated-website-from-an-interactive-or-static-website-proof}
 
@@ -242,7 +242,7 @@ ht-degree: 0%
 * 如果校訂是網頁擷取，則任何包含評論的頁面都會顯示擷取網頁的解析度。 例如，如果校樣包含行動裝置擷取的頁面，以及筆記型電腦和桌上型電腦擷取的相同頁面，則這項功能會很有幫助。
 * 現在，當您按「動作」、「作者」或「未解決」狀態來篩選「列印摘要」頁面中的註解時，您的篩選器會套用至您匯出為PDF或Excel檔案的校樣，而不僅僅是列印的校樣。
 
-如需詳細資訊，請參閱 [在Adobe Workfront中列印校訂摘要](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/print-proof-summary-in-wf.md).
+如需詳細資訊，請參閱[在Adobe Workfront中列印校訂摘要](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/print-proof-summary-in-wf.md)。
 
 ## 改善的校訂載入時間 {#improved-proof-loading-time}
 
@@ -254,4 +254,4 @@ ht-degree: 0%
 
 行動應用程式上「更新」標籤的外觀和操作方式現已更新。 此項改善目前僅適用於Android的Workfront Beta版應用程式。
 
-如需在Workfront行動應用程式中管理更新和評論的詳細資訊，請參閱中的區段。
+如需在Workfront行動應用程式中管理更新和評論的詳細資訊，請參閱區段  中的。

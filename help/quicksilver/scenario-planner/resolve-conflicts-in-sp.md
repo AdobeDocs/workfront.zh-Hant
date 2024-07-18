@@ -1,26 +1,26 @@
 ---
 product-area: enterprise-scenario-planner-product-area
 navigation-topic: enterprise-scenario-planner-navigation-topic
-title: 在方案計畫器中解決方案衝突
-description: 當各項舉措相互衝突時，它們就在爭奪相同的資源。 您可用於方案的資源不足以覆蓋方案中所有方案所需的所有資源。
+title: 解決「情境規劃工具」中的方案衝突
+description: 當方案彼此衝突時，它們會爭奪相同的資源。 您可用於情境的資源不足以涵蓋情境中所有方案所需的所有資源。
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: d3a3e177-bece-4e03-89d7-9cee6127bc55
 source-git-commit: e152c20e7b987f4bef7ffd6ee534c059f7b9bf45
 workflow-type: tm+mt
-source-wordcount: '2183'
+source-wordcount: '2188'
 ht-degree: 0%
 
 ---
 
-# 解決 [!DNL Scenario Planner]
+# 解決[!DNL Scenario Planner]中的方案衝突
 
-當各項舉措相互衝突時，它們就在爭奪相同的資源。 您可用於方案的資源不足以覆蓋方案中所有方案所需的所有資源。
+當方案彼此衝突時，它們會爭奪相同的資源。 您可用於情境的資源不足以涵蓋情境中所有方案所需的所有資源。
 
-在下列任何情況下都可能發生此情況：
+這可能發生在以下任何情況下：
 
-* 計畫所需的工作角色數大於計畫預算的角色數。
-* 該計畫的費用大於計畫可用的預算額。
+* 方案所需的工作角色數量大於計畫預算的角色數量。
+* 方案的成本大於可用於計畫的預算金額。
 
 ## 存取需求
 
@@ -31,265 +31,265 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td> <p>[!DNL Adobe Workfront]<b> 計劃*</b> </p> </td> 
-   <td>[!UICONTROL Business]或更高版本</td> 
+   <td> <p>[!DNL Adobe Workfront]<b>計畫*</b> </p> </td> 
+   <td>[！UICONTROL Business]或更高版本</td> 
   </tr> 
   <tr> 
-   <td> <p>[!DNL Adobe Workfront]<b> 授權*</b> </p> </td> 
-   <td> <p>[!UICONTROL Review]或更高版本</p> </td> 
+   <td> <p>[!DNL Adobe Workfront]<b>授權*</b> </p> </td> 
+   <td> <p>[！UICONTROL Review]或更高版本</p> </td> 
   </tr> 
   <tr> 
    <td><b>產品</b> </td> 
-   <td> <p>您必須為 [!DNL Adobe Workfront Scenario Planner] 存取本文所述功能。</p> <p>如需有關取得 [!DNL Workfront Scenario Planner]，請參閱 <a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">使用 [!DNL Scenario Planner]</a>. </p> </td> 
+   <td> <p>您必須為[!DNL Adobe Workfront Scenario Planner]購買額外的授權，才能存取本文所述的功能。</p> <p>如需有關取得[!DNL Workfront Scenario Planner]的資訊，請參閱<a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">使用[!DNL Scenario Planner]</a>所需的存取權。 </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td><strong>訪問級別配置*</strong> </td> 
-   <td> <p>[!UICONTROL Edit]或更高版本 [!DNL Scenario Planner]</p> <p>注意：如果您仍無法存取，請詢問您的 [!DNL Workfront] 管理員。 若要了解 [!DNL Workfront] 管理員可以更改您的訪問級別，請參閱 <a href="../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>.</p> </td> 
+   <td><strong>存取層級設定*</strong> </td> 
+   <td> <p>[！UICONTROL Edit]或更高版本， [!DNL Scenario Planner]</p> <p>注意：如果您還是沒有存取權，請詢問您的[!DNL Workfront]管理員是否對您的存取層級設定了其他限制。 如需[!DNL Workfront]管理員如何變更您的存取層級的詳細資訊，請參閱<a href="../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>。</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><strong>物件權限</strong> </p> </td> 
-   <td> <p>計畫的[!UICONTROL管理]權限</p> <p>有關請求對計畫進行額外訪問的資訊，請參閱 <a href="../scenario-planner/request-access-to-plan.md" class="MCXref xref">在 [!DNL Scenario Planner]</a>.</p> </td> 
+   <td> <p><strong>物件許可權</strong> </p> </td> 
+   <td> <p>[！UICONTROL Manage]計畫的許可權</p> <p>如需有關請求對計畫的額外存取權的資訊，請參閱<a href="../scenario-planner/request-access-to-plan.md" class="MCXref xref">在[!DNL Scenario Planner]</a>中請求對計畫的存取權。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;若要了解您擁有的計畫、授權類型或存取權，請聯絡您的Workfront管理員。
+&#42;若要瞭解您擁有的計畫、授權型別或存取權，請連絡您的Workfront管理員。
 
-## 解決衝突概述
+## 解決衝突概觀
 
-* 衝突也被理解為工作角色或方案預算的過度分配。
-* 當 [!DNL Workfront] 檢測衝突，在方案持續時間內與衝突月份相對應的欄以紅色顯示。 在下列任何情況下都可能發生此情況：
+* 衝突也可以理解為工作角色或案例預算的過度配置。
+* 當[!DNL Workfront]偵測到衝突時，與方案期間衝突月份對應的列會以紅色顯示。 這可能發生在以下任何情況下：
 
-   * 每個方案每月所需的職務數目大於所有先前方案使用計畫預算資源後為計畫預算的職務數目。
-   * 在所有先前的倡議都使用計畫預算支付費用後，該倡議的每月費用比該計畫可用的預算還多。
+   * 在所有先前的行動方案已使用計畫的預算資源後，行動方案每月所需的工作角色數量大於計畫預算的角色數量。
+   * 在所有先前的計畫已使用計畫的預算來支付其成本之後，計畫的每月成本會大於計畫的可用預算。
 
 >[!TIP]
 >
->依預設， [!DNL Scenario Planner] 假設您已為0個工作角色編入預算，且已為某個案例以系統貨幣$0或等於$0，除非您另有指定。 職務職責數指示職務職責的FTE（全職等值）或預算小時數。
+>根據預設，[!DNL Scenario Planner]假設您已針對0個工作角色編列預算，且除非您另有指定，否則案例的$0或等值專案將以您系統的貨幣表示。 職務角色的數目表示職務角色預算的FTE （全職相當值）或時數。
 >
->對於方案計畫器中的所有計算，Workfront使用以下值：1 FTE = 8小時。
+>對於「情境規劃工具」中的所有計算，Workfront會使用以下值： 1 FTE = 8小時。
 >
->有關更新計畫和預算的可用職責的資訊，請參閱 [在 [!DNL Scenario Planner]](../scenario-planner/create-and-edit-plans.md).
+>如需有關更新計畫和預算的可用角色的資訊，請參閱[在 [!DNL Scenario Planner]](../scenario-planner/create-and-edit-plans.md)中建立和編輯計畫。
 
-* 您可以執行以下操作之一來解決衝突：
+* 您可以執行下列其中一項作業來解決衝突：
 
-   * 自動從方案的方案中新增遺漏的必要資源。 本文說明如何使用此選項來解決衝突。
-   * 通過編輯計畫調整方案的任務職責和預算資源。 如需詳細資訊，請參閱 [在 [!DNL Scenario Planner]](../scenario-planner/create-and-edit-plans.md).
+   * 自動從情境上的方案新增缺少的必要資源。 本文說明如何使用此選項解決衝突。
+   * 藉由編輯計畫，調整案例的工作角色與預算資源。 如需詳細資訊，請參閱[在 [!DNL Scenario Planner]](../scenario-planner/create-and-edit-plans.md)中建立和編輯計畫。
 
 ## 解決方案之間的衝突
 
-1. 轉到要解決衝突的計畫。
+1. 移至您要解決衝突的計畫。
 
-   如需建立計畫的相關資訊，請參閱 [在 [!DNL Scenario Planner]](../scenario-planner/create-and-edit-plans.md).
+   如需有關建立計畫的資訊，請參閱[在 [!DNL Scenario Planner]](../scenario-planner/create-and-edit-plans.md)中建立和編輯計畫。
 
-   有關建立方案的資訊，請參閱 [在 [!DNL Scenario Planner]](../scenario-planner/create-and-edit-initiatives.md).
+   如需關於建立方案的資訊，請參閱[在 [!DNL Scenario Planner]](../scenario-planner/create-and-edit-initiatives.md)中建立和編輯方案。
 
-1. （選用）從 **[!DNL Initial scenario]** 下拉式功能表中，選取您要檢閱的案例。
+1. （選擇性）從&#x200B;**[!DNL Initial scenario]**&#x200B;下拉式功能表中，選取您要檢閱的情境。
 
    >[!TIP]
    >
-   >計畫可能有多種情況。 當看到計畫的衝突時， [!DNL Workfront] 是指所選藍本上目前可用的資源，以及該藍本舉措上所需的資源。 如需藍本的相關資訊，請參閱 [在 [!DNL Scenario Planner]](../scenario-planner/create-and-compare-scenarios-for-a-plan.md).
+   >一個計畫可能具有數個情境。 檢視計畫的衝突時，[!DNL Workfront]指的是目前所選情境上可用的資源，以及該情境行動方案所需的資源。 如需情境的相關資訊，請參閱[在 [!DNL Scenario Planner]](../scenario-planner/create-and-compare-scenarios-for-a-plan.md)中建立和比較計畫情境。
 
-1. 確保 **[!UICONTROL 顯示衝突]** 啟用。 預設會啟用。
+1. 確定已啟用&#x200B;**[!UICONTROL 顯示衝突]**。 預設為啟用。
 
    ![](assets/show-scenarios-toggle-on.png)
 
-   第一個衝突的方案顯示衝突為紅色的月份，方案名稱旁會顯示警告表徵圖。
+   第一個衝突方案會以紅色顯示衝突的月份，而方案名稱旁邊會顯示警告圖示。
 
-   從第一個衝突的方案開始的所有方案的背景以紅色顯示在計畫圖表上。
+   從第一個衝突方案開始的所有方案背景，會在計畫圖表中以紅色顯示。
 
-   當方案顯示衝突時，這意味著至少一個特定職責的職務職責數、已發生的成本或兩者均超過為特定月份的計畫定義的職務職責數或預算。
+   當方案顯示衝突時，表示至少有一個特定角色的工作角色數、產生的成本或兩者超過為特定月份的計畫定義的職位角色數或預算。
 
    ![](assets/initiatives-on-plan-with-conflicts-350x126.png)
 
-1. 執行下列任一操作，以進一步了解可能存在的衝突：
+1. 請執行下列任一項作業，以進一步瞭解可能存在的衝突：
 
-   * 將滑鼠移到方案名稱旁的警告圖示上，可了解您是具有工作角色還是預算衝突。
+   * 將滑鼠停留在方案名稱旁的警告圖示上，即可瞭解您是否擁有工作角色或預算衝突。
 
-      ![](assets/budget-job-role-conflict-tooltip-on-warning-icon-350x109.png)
+     ![](assets/budget-job-role-conflict-tooltip-on-warning-icon-350x109.png)
 
-      根據您是否過度分配了職務職責或高估了計畫的成本，在將游標暫留在警告表徵圖上時，您可能會看到以下選項之一：
+     當游標停留在警告圖示上時，根據您是過度配置職務角色還是高估方案成本，您可能會看到下列其中一個選項：
 
       * 顯示職位角色衝突詳細資料
       * 顯示預算衝突詳細資料
-      * 顯示任務角色和預算詳細資訊
-   * 按月查看計畫時，將滑鼠移到計畫時間表中的某個月上，以查看該月的必需資源，以及該月的衝突是人員衝突還是與成本相關衝突。
+      * 顯示工作角色和預算詳細資訊
 
-      ![](assets/details-of-conflicts-on-monthly-plan-timeline-pop-up-350x178.png)
+   * 依月份檢視計畫時，將滑鼠移至計畫時間表中的一個月上，即可檢視該月所需的資源，以及該月的衝突是人員還是成本相關。
 
-      在計畫層查看以下每月資訊：
+     ![](assets/details-of-conflicts-on-monthly-plan-timeline-pop-up-350x178.png)
 
-      * 該月計畫的所有計畫的可用、必需和分配過多的工作角色數
-      * 該月計畫的所有計畫的可用、必需和超額分配成本
+     在計畫層次複查下列每月資訊：
 
-         >[!TIP]
-         >
-         >此 [!UICONTROL 可用] 成本是該月的方案預算。
-   * 將滑鼠指標暫留在方案的紅色長條上一個月，以顯示該月所發生衝突的其他資訊方塊。
+      * 針對該月規劃的所有方案當月可用、必要和過度配置的工作角色數量
+      * 針對該月規劃的所有行動方案，該月的可用、必要和過度分配成本
 
-      ![](assets/details-of-conflicts-on-initiative-timeline-pop-up-350x113.png)
+        >[!TIP]
+        >
+        >[!UICONTROL 可用]成本為該案例當月的預算。
 
-      在計畫層查看附加資訊框中的以下欄位：
+   * 將滑鼠指標停留在方案的紅色列上達一個月，以顯示有關該月衝突的其他資訊方塊。
 
-      <table style="table-layout:auto"> 
+     ![](assets/details-of-conflicts-on-initiative-timeline-pop-up-350x113.png)
+
+     在方案層級的「其他資訊」方塊中，檢閱下列欄位：
+
+     <table style="table-layout:auto"> 
       <col> 
       <col> 
       <tbody> 
        <tr> 
-        <td role="rowheader">發生衝突的月份</td> 
-        <td>顯示在其他資訊框的標題中。</td> 
+        <td role="rowheader">衝突發生的月份</td> 
+        <td>顯示在其他資訊方塊的標題中。</td> 
        </tr> 
        <tr> 
         <td role="rowheader">方案名稱</td> 
-        <td>顯示在其他資訊框的標題中。</td> 
+        <td>顯示在其他資訊方塊的標題中。</td> 
        </tr> 
        <tr> 
-        <td role="rowheader">[!UICONTROL作業角色]</td> 
-        <td> <p>與此方案關聯的工作角色，在選定月份被過度分配。 以下列顯示選定月份所需的每個職務角色的資訊，這些角色與該月可用職務角色的數量衝突：</p> 
+        <td role="rowheader">[！UICONTROL職位角色]</td> 
+        <td> <p>與所選月份過度配置的此方案相關聯的工作角色。 下列欄顯示所選月份所需的每個職務角色資訊，這些資訊與該月份可用的職務角色數量衝突：</p> 
          <ul> 
-          <li> <p><strong>[!UICONTROL可用]</strong>:所選月份方案中可用的每個作業角色的數量。</p> </li> 
-          <li> <p><strong>[!UICONTROL必要]</strong>:所選月份內計畫所需的每個工作職責數。</p> </li> 
-          <li> <p style="font-weight: normal;"><strong>[!UICONTROL過分分配]:</strong> 方案所需數量與方案中可用數量之間的差異。 </p> </li> 
-         </ul> <p>提示：有時，[!UICONTROL Available]角色的數量會與[!UICONTROL Required]角色的數量相符或高於，但 [!DNL Scenario Planner] 仍顯示超額分配。 這表示在同月計畫中，已使用可用職務的更高級別計畫。 </p> </td> 
+          <li> <p><strong>[！UICONTROL可用]</strong>：從案例中選取的月份可用的每個職務角色數目。</p> </li> 
+          <li> <p><strong>[！UICONTROL必要]</strong>：方案在所選月份所需的每個職務角色數目。</p> </li> 
+          <li> <p style="font-weight: normal;"><strong>[！UICONTROL過度配置]：</strong>方案所需的數目與情境中可用的數目之間的差異。 </p> </li> 
+         </ul> <p>提示：有時[！UICONTROL Available]角色的數目會符合或高於[！UICONTROL Required]角色的數目，但[!DNL Scenario Planner]仍會顯示過度配置。 這表示有較高等級的行動方案已使用同一月計畫上可用的職務角色。 </p> </td> 
        </tr> 
        <tr> 
         <td role="rowheader">成本</td> 
-        <td> <p>所選月份的計畫成本。 以下列顯示所選月份所需成本和可用預算的資訊：</p> 
+        <td> <p>所選月份的方案成本。 下列欄位會顯示所選月份所需成本與可用預算的資訊：</p> 
          <ul> 
-          <li> <p><strong>[!UICONTROL可用]</strong>:所選月份的計畫中可用的預算。</p> </li> 
-          <li> <p><strong>[!UICONTROL必要]</strong>:選定月份與此計畫相關的成本。</p> </li> 
-          <li> <p style="font-weight: normal;"><strong>[!UICONTROL過分分配]:</strong> 計畫費用與計畫可用預算之間的差額。 </p> </li> 
-         </ul> <p>提示：有時，[!UICONTROL可用]成本與選定月份的計畫的[!UICONTROL必需]成本匹配或高於 [!DNL Scenario Planner] 仍顯示成本的過度分配。 這意味著，在同月計畫中，已經使用了可用預算的更高級別舉措。 </p> </td> 
+          <li> <p><strong>[！UICONTROL可用]</strong>：可從計畫取得所選月份的預算。</p> </li> 
+          <li> <p><strong>[！UICONTROL必要]</strong>：與所選月份此方案相關的成本。</p> </li> 
+          <li> <p style="font-weight: normal;"><strong>[！UICONTROL超額分配]：</strong>方案成本與計畫可用預算之間的差異。 </p> </li> 
+         </ul> <p>秘訣：有時[！UICONTROL Available]成本與所選月份的主動方案[！UICONTROL Required]成本相符或更高，[!DNL Scenario Planner]仍顯示成本過度分配。 這表示有較高等級的行動方案已使用同一月計畫上的可用預算。 </p> </td> 
        </tr> 
       </tbody> 
      </table>
 
-
-
-1. 執行以下操作之一以開啟方案詳細資訊面板並查看衝突發生位置的詳細資訊並解決衝突：
+1. 執行下列任一項作業以開啟方案詳細資訊面板，並檢視有關衝突發生位置及解決衝突的詳細資訊：
 
    * 按一下方案名稱旁的警告圖示。
-   * 按一下方案的欄。
-   * 按一下 **[!UICONTROL 更多]** 圖示 ![](assets/more-icon.png) 按一下計畫名稱右側的 **[!UICONTROL 編輯]**.
+   * 按一下方案列。
+   * 按一下方案名稱右邊的&#x200B;**[!UICONTROL 更多]**&#x200B;圖示![](assets/more-icon.png)，然後按一下&#x200B;**[!UICONTROL 編輯]**。
 
-      方案詳細資訊面板顯示在右側。
+     方案詳細資訊面板會顯示在右側。
 
-      如果您的方案沒有足夠的人員或預算，則下列小節旁會顯示紅色警告表徵圖：
+     當您的方案沒有足夠的可用人員或預算時，下列區段旁會顯示一個紅色警告圖示：
 
-   * [!UICONTROL 必要職位角色]
+   * [!UICONTROL 必要的工作角色]
    * [!UICONTROL 成本]
 
-1. （有條件）若為有工作角色衝突的倡議，請前往 **[!UICONTROL 必需的作業角色]** 部分，查看計畫所需的所有工作角色。 確定可能被過度分配的作業角色。 檢查計畫每個月中每個職務職責所需的FTE或小時數。 紅色大綱中顯示的框，其中FTE或小時數是具有超額分配的月份。
+1. （視條件而定）若方案有工作角色衝突，請移至&#x200B;**[!UICONTROL 必要工作角色]**&#x200B;區段，檢視方案所需的所有工作角色。 識別可能過度配置的工作角色。 檢視方案每個月每個工作角色所需的FTE或時數。 包含具有超額分攤之月份的FTE或小時數的方塊會顯示為紅色大綱。
 
    ![](assets/details-panel-overallocated-roles-350x275.png)
 
-1. （可選）按一下計畫時間表中月份旁邊的右箭頭，查看哪些額外月份顯示工作角色衝突。
+1. （可選）在方案時間軸中的月份旁按一下向右箭頭，以檢視哪些額外月份顯示工作角色衝突。
 
    ![](assets/right-arrow-initiative-months-inside-details-box-highlighted-350x145.png)
 
-1. （選用）按一下 **[!UICONTROL 顯示詳細資訊]** 在顯示衝突的作業角色下，查看衝突的出現位置，並在計畫的圖表區域中突出顯示衝突的月份。 會針對每個作業角色顯示其他資訊。
+1. （選擇性）按一下顯示衝突的工作角色下的&#x200B;**[!UICONTROL 顯示詳細資料]**，以檢視衝突在哪裡出現，並反白計畫圖表區域中衝突的月份。 隨即顯示每個工作角色的其他資訊。
 
-   每個作業角色的欄位如下：
+   每個工作角色會顯示以下欄位：
 
    <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">[!UICONTROL可用]</td> 
-      <td> <p>計畫中每月可用的職務角色數。 </p> </td> 
+      <td role="rowheader">[！UICONTROL可用]</td> 
+      <td> <p>計畫內每個月可用的職務角色數量。 </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL先前分配]</td> 
-      <td>已從計畫預算分配給特定月份的高級計畫的職務角色數。 </td> 
+      <td role="rowheader">[！UICONTROL先前已配置]</td> 
+      <td>已從計畫預算配置給特定月份中較高等級方案的工作角色數量。 </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL過分分配]</td> 
-      <td> <p>計畫上所需職務的數量與高級計畫之後計畫中可用數量之間的差異也使用了其中的一些職責。 Workfront使用下列公式計算[!UICONTROL Overlocated]作業角色的數量：</p> <p><code>Overallocated roles = (Roles Previously Allocated to higher initiatives + Required roles for current initiative) - Monthly available roles from the plan</code> </p> </td> 
+      <td role="rowheader">[！UICONTROL過度配置]</td> 
+      <td> <p>方案上所需職務角色的數量與較高等級方案後計畫中可用數量之間的差異也使用了一些角色。 Workfront會使用下列公式計算[！UICONTROL過度配置]職務角色的數目：</p> <p><code>Overallocated roles = (Roles Previously Allocated to higher initiatives + Required roles for current initiative) - Monthly available roles from the plan</code> </p> </td> 
      </tr> 
     </tbody> 
    </table>
 
    >[!TIP]
    >
-   >在計畫圖表中，分配職務職責的月份顯示每個計畫所需的職責名稱和數量。 您必須選取 [!UICONTROL 月] 查看作業角色的名稱
+   >在計畫圖表上，配置工作角色的月份會顯示每個需要這些角色的方案所需的名稱和角色數量。 您必須選取[!UICONTROL 月]檢視才能檢視工作角色的名稱
 
    ![](assets/conflicting-job-role-months-on-plan-after-clicking-show-details-350x158.png)
 
-1. 執行以下操作之一以解決作業角色衝突：
+1. 執行下列任一項作業以解決工作角色衝突：
 
-   * 手動將方案每個月的工作職責數量調整為較低數量。
-   * 將滑鼠指標暫留在作業角色的名稱上，然後按一下 **[!UICONTROL 刪除] 圖示** ![](assets/delete.png) 從計畫中刪除作業角色。
-   * 選擇 **[!UICONTROL 將角色新增至方案的可用資源]**，然後按一下 **[!UICONTROL 套用]**.
+   * 手動將方案每月的工作角色數量調整為較低數字。
+   * 將滑鼠停留在工作角色的名稱上，然後按一下&#x200B;**[!UICONTROL 刪除]圖示** ![](assets/delete.png)，即可從方案移除工作角色。
+   * 選取&#x200B;**[!UICONTROL 將角色新增至方案的可用資源]**，然後按一下&#x200B;**[!UICONTROL 套用]**。
 
-      這會將缺少的工作角色FTE數或小時數添加到方案的 [!UICONTROL 可用] 欄位。
+     這會將缺少的工作角色FTE或時數新增至情境的[!UICONTROL 可用]欄位。
 
-      >[!NOTE]
-      >
-      >您為解決衝突而添加的角色將修改 [!UICONTROL 可用] 所選方案的作業角色，而不是計畫中所有方案的作業角色。
+     >[!NOTE]
+     >
+     >您為解決衝突而新增的角色會修改所選案例的[!UICONTROL 可用]工作角色，而非計畫中的所有案例。
 
-      向上指的綠色箭頭 ![](assets/upward-green-arrow.png) 在計畫時間軸中顯示該月，以指示該月的計畫中已添加更多資源。 您必須選取 [!UICONTROL 月] 檢視以查看此指標。
+     在計畫的時間表中顯示該月的向上綠色箭頭![](assets/upward-green-arrow.png)，表示在該月計畫新增了更多資源。 您必須選取[!UICONTROL 月]檢視才能檢視此指標。
 
-   * （有條件）關閉詳細資訊面板，並盡可能優先從計畫接收預算資源。 有關更新方案優先順序的資訊，請參閱 [更新方案計畫器中的方案優先順序](../scenario-planner/prioritize-initiatives.md).
+   * （依條件）關閉詳細資料面板，並儘可能優先讓方案從計畫接收預算資源。 如需有關更新方案優先順序的資訊，請參閱情境規劃工具](../scenario-planner/prioritize-initiatives.md)中的[更新方案優先順序。
 
-1. （選用）按一下 **[!UICONTROL 隱藏詳細資訊]** 要關閉其他詳細資訊框，請按一下 **[!UICONTROL 套用]** 以保存您對作業角色所做的更改。
+1. （選擇性）按一下&#x200B;**[!UICONTROL 隱藏詳細資料]**&#x200B;以關閉其他詳細資料方塊，然後按一下&#x200B;**[!UICONTROL 套用]**&#x200B;以儲存您對工作角色所做的變更。
 
-1. （有條件）若為有成本衝突的舉措，請前往 **[!UICONTROL 成本]** 方案詳細資訊小組中的一節，以審查方案期間每個月的費用。 確定哪些月份的計畫預算可能沒有足夠的資金來支付選定計畫的費用。 可用預算不足的框以紅色大綱顯示。
-1. （可選）按一下計畫時間表中月份旁邊的右箭頭，查看預算不足以支付成本的其他月份。
+1. （有條件）若方案發生成本衝突，請移至方案詳細資料面板中的&#x200B;**[!UICONTROL 成本]**&#x200B;區段，以檢閱方案期間每個月的成本。 確定計畫的預算中哪幾個月可能沒有足夠的資金來支付所選方案的成本。 可用預算不足的方塊會以紅色大綱顯示。
+1. （可選）按一下方案時間表中月份旁邊的右箭頭，以檢視預算不足以涵蓋成本的其他月份。
 
    ![](assets/details-panel-insufficient-costs-350x239.png)
 
-1. （選用）按一下 **[!UICONTROL 顯示詳細資訊]** 在成本資訊下，查看衝突出現的位置，並在計畫圖表上突出顯示衝突的月份。 每種成本類型會顯示以下其他欄位：
+1. （選擇性）按一下成本資訊下方的&#x200B;**[!UICONTROL 顯示詳細資料]**，以檢視衝突在哪裡出現，並反白計畫圖表上衝突的月份。 系統會針對每種成本型態顯示下列額外欄位：
 
    <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">[!UICONTROL可用]</td> 
-      <td> <p>計畫每月預算中的可用成本。 </p> </td> 
+      <td role="rowheader">[！UICONTROL可用]</td> 
+      <td> <p>計畫預算中每個月的可用成本。 </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL先前分配]</td> 
-      <td>已從計畫預算中分配給更高級別計畫的資金數額。 </td> 
+      <td role="rowheader">[！UICONTROL先前已配置]</td> 
+      <td>已從計畫預算中分配給較高等級方案的金額。 </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL過分分配]</td> 
-      <td> <p>計畫所需費用與計畫預算中較高級別舉措後可用資金數額之間的月差，也使用了一些可用預算。 [!DNL Workfront] 使用以下公式計算超額分配成本的數量：</p> <p><code>Overallocated costs = (Costs Previously Allocated to higher initiatives + Required costs for the current initiative) - Monthly available budget from the plan</code> </p> <p>[!DNL Workfront] 使用以下公式計算每月當前方案的必需成本：</p> <p><code>Required initiative costs = Initiative Fixed Costs + Initiative People Costs</code> </p> </td> 
+      <td role="rowheader">[！UICONTROL過度配置]</td> 
+      <td> <p>方案所需成本與較高等級方案後計畫預算中可用資金量之間的每月差額也使用一些可用預算。 [!DNL Workfront]使用下列公式計算「超額分配」成本的數目：</p> <p><code>Overallocated costs = (Costs Previously Allocated to higher initiatives + Required costs for the current initiative) - Monthly available budget from the plan</code> </p> <p>[!DNL Workfront] 使用下列公式計算目前方案每個月的所需成本：</p> <p><code>Required initiative costs = Initiative Fixed Costs + Initiative People Costs</code> </p> </td> 
      </tr> 
     </tbody> 
    </table>
 
    >[!TIP]
    >
-   >在計畫圖表中，成本不足的月份顯示計畫所需的名稱和角色數。 必須選擇「月」視圖才能查看成本金額。
+   >在計畫圖表上，成本不足的月份會顯示方案仍需要的角色名稱和數量。 您必須選取「月份」檢視才能檢視成本金額。
 
    ![](assets/conflicting-costs-months-on-plan-after-clicking-show-details-350x139.png)
 
    >[!NOTE]
    >
-   >如果您已停用 [!UICONTROL 包括人員成本] 計畫的設定 [!UICONTROL 預算] 框， [!UICONTROL 人員成本] 在任何情況下，不會針對任何方案顯示行。 在此情況下，Workfront不會將人員成本納入計算中，以判斷成本衝突。 如需建立計畫的相關資訊，請參閱 [在 [!DNL Scenario Planner]](../scenario-planner/create-and-edit-plans.md).
+   >如果您在建立計畫時停用計畫[!UICONTROL 預算]方塊的[!UICONTROL 包含人員成本]設定，則任何情境中都不會針對任何方案顯示[!UICONTROL 人員成本]行。 在這種情況下，Workfront不會將人員成本帶入計算中，以判斷成本衝突。 如需有關建立計畫的資訊，請參閱[在 [!DNL Scenario Planner]](../scenario-planner/create-and-edit-plans.md)中建立和編輯計畫。
 
-1. 執行以下任一操作以解決成本衝突：
+1. 執行下列任一項作業以解決成本衝突：
 
-   * 手動調整 [!UICONTROL 固定成本] 每個月的計畫數量減少。
-   * 在 **[!UICONTROL 必需的作業角色]** 部分，如果可能，使用「人員成本」預算手動調整該月的職務數。 這可減少人員成本。
+   * 手動將方案每個月的[!UICONTROL 固定成本]數目調整為較低的數目。
+   * 在&#x200B;**[!UICONTROL 必要工作角色]**&#x200B;區段中，儘可能以人員成本預算手動調整當月的工作角色數量。 這樣可以減少人員成本。
 
-      >[!TIP]
-      >
-      >您不能手動調整人員成本。
+     >[!TIP]
+     >
+     >您無法手動調整人員成本。
 
-   * 選擇 **[!UICONTROL 將金額新增至方案的預算]**，然後按一下 **[!UICONTROL 套用]**.
+   * 選取&#x200B;**[!UICONTROL 將金額加入情境的預算]**，然後按一下&#x200B;**[!UICONTROL 套用]**。
 
-      這會在方案缺少的月份預算中增加不足的金額，而這也會更新整體方案預算。
+     這會將不足的金額新增至案例缺少該金額的月份預算，這也會更新整體案例預算。
 
-      >[!NOTE]
-      >
-      >您為解決成本衝突而添加的金額修改了選定方案的預算，而不是計畫中所有方案的預算。
+     >[!NOTE]
+     >
+     >您新增以解決成本衝突的金額，會修改所選案例的預算，而非計畫中所有案例的預算。
 
-   * （有條件）關閉詳細資訊面板，並盡可能優先從計畫接收預算資源。 有關更新方案優先順序的資訊，請參閱 [更新 [!DNL Scenario Planner]](../scenario-planner/prioritize-initiatives.md).
+   * （依條件）關閉詳細資料面板，並儘可能優先讓方案從計畫接收預算資源。 如需有關更新方案優先順序的資訊，請參閱 [!DNL Scenario Planner]](../scenario-planner/prioritize-initiatives.md)中的[更新方案優先順序。
 
-1. 按一下 **[!UICONTROL 套用]** 對「成本」部分進行任何更改時。
-1. 按一下 **[!UICONTROL 保存計畫]** 來儲存變更。
+1. 當您變更[成本]區段時，按一下[套用]****。
+1. 按一下&#x200B;**[!UICONTROL 儲存計畫]**&#x200B;以儲存變更。
 
 

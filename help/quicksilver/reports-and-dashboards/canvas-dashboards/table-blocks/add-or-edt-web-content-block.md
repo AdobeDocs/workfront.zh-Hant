@@ -17,35 +17,35 @@ ht-degree: 1%
 
 ## 先決條件
 
-開始之前，您必須先註冊Reporting Canvas測試版。 如需詳細資訊，請參閱 [報告畫布Beta版：概觀](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/reporting-canvas-beta-overview.md).
+開始之前，您必須先註冊Reporting Canvas測試版。 如需詳細資訊，請參閱[報告畫布測試版：概觀](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/reporting-canvas-beta-overview.md)。
 
 ## 新增或編輯網頁內容區塊
 
-1. 按一下 **主要功能表** 圖示 ![](assets/main-menu-icon.png) (位於Adobe Workfront的右上角)，然後按一下&#x200B;**報告**.
-1. 按一下 **新報告**.
+1. 按一下Adobe Workfront右上角的&#x200B;**主要功能表**&#x200B;圖示![](assets/main-menu-icon.png)，然後按一下&#x200B;**報表**。
+1. 按一下&#x200B;**新報告**。
 
    或
 
-   前往現有報表，按一下 **更多** 圖示 ![](assets/more-icon-27x15.png) 在報表標題中，然後按一下 **編輯**.
+   移至現有報表，按一下報表標題中的&#x200B;**更多**&#x200B;圖示![](assets/more-icon-27x15.png)，然後按一下&#x200B;**編輯**。
 
-1. 在熒幕右側，下方的 **新增區塊**，可以：
+1. 在熒幕右側的&#x200B;**「新增區塊」**&#x200B;底下：
 
-   拖曳 **網頁內容** 圖示直接在畫布上前往您所需的位置。
+   將&#x200B;**Web內容**&#x200B;圖示直接拖曳到畫布上您想要的位置。
 
    或
 
-   按兩下 **網頁內容** 圖示將區塊新增至畫布頂端。
+   連按兩下&#x200B;**網頁內容**&#x200B;圖示，將區塊新增至畫布頂端。
 
    >[!TIP]
    >
    >您可以拖曳區塊的轉角操作框來變更該區塊放置後的大小。
 
-1. 按一下 **未命名的網頁內容** 在區塊標題中，然後輸入區塊的標題。
-1. 按一下 **編輯** 圖示 ![](assets/edit-icon.png) 區塊標頭中。
+1. 在區塊標題中按一下&#x200B;**未命名的網頁內容**，然後輸入區塊的標題。
+1. 按一下區塊標頭中的&#x200B;**編輯**&#x200B;圖示![](assets/edit-icon.png)。
 
    ![](assets/web-content-block-header-350x76.png)
 
-1. 在 **設定** 在開啟的面板中，輸入您要顯示之頁面的完整URL (包括「https://」) **URL** 欄位。
+1. 在開啟的&#x200B;**設定**&#x200B;面板中，輸入您要在&#x200B;**URL**&#x200B;欄位中顯示之頁面的完整URL (包括&quot;https://&quot;)。
 
    >[!NOTE]
    >
@@ -68,10 +68,10 @@ ht-degree: 1%
 
    {style="table-layout:auto"}
 
-1. （可選）按一下 **傳遞引數** 切換即可開啟可用傳遞引數的清單。
+1. （選擇性）按一下&#x200B;**傳遞引數**&#x200B;切換以開啟可用的傳遞引數清單。
 
    >[!WARNING]
    >
    >傳遞引數目前已停用。
 
-1. 按一下 **內嵌URL** 以儲存您的選取並返回您的報表。
+1. 按一下&#x200B;**內嵌URL**&#x200B;以儲存您的選擇並返回您的報表。

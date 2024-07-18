@@ -31,7 +31,7 @@ ht-degree: 0%
 * [透過Webhook取得檔案內容](../../wf-api/doc-wbhks-api/get-docu-content-webhook.md)
 * [取得檔案的縮圖](../../wf-api/doc-wbhks-api/get-thmbnl-doc.md)
 * [透過Document Webhook上傳檔案](../../wf-api/doc-wbhks-api/file-upload-docu-webhook.md)
-* [建立包含檔案Webhook的資料夾](../../wf-api/doc-wbhks-api/create-folder-docu-webhook.md)
+* [使用Document Webhook建立資料夾](../../wf-api/doc-wbhks-api/create-folder-docu-webhook.md)
 * [刪除檔案或資料夾（尚未實作）](../../wf-api/doc-wbhks-api/delete-a-document-or-folder.md)
 * [取得服務的相關資訊（尚未實作）](../../wf-api/doc-wbhks-api/get-service-info-webhook.md)
 * [重新命名檔案或資料夾（尚未實作）](../../wf-api/doc-wbhks-api/rename-docu-or-folder.md)

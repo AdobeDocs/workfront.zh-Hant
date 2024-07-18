@@ -4,7 +4,7 @@ content-type: tips-tricks-troubleshooting
 product-area: system-administration;user-management
 navigation-topic: create-and-manage-users
 title: 變更使用者名稱
-description: 您可以編輯使用者的使用者名稱（電子郵件地址），方法是編輯其使用者設定檔。
+description: 您可以編輯使用者的使用者設定檔，以編輯其使用者名稱（電子郵件地址）。
 author: Caroline
 feature: System Setup and Administration
 role: Admin
@@ -18,4 +18,4 @@ ht-degree: 0%
 
 # 變更使用者名稱
 
-您可以編輯使用者的使用者名稱（電子郵件地址），方法是編輯其使用者設定檔。 如需指示，請參閱 [編輯使用者的設定檔](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
+您可以編輯使用者的使用者設定檔，以編輯其使用者名稱（電子郵件地址）。 如需指示，請參閱[編輯使用者設定檔](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md)中電子郵件位址列位的相關資訊。

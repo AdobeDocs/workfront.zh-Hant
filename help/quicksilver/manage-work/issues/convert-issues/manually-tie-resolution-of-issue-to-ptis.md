@@ -21,7 +21,7 @@ ht-degree: 0%
 >
 >當您將問題的解決繫結到另一個物件的解決時，您無法再手動編輯原始問題的狀態。
 
-如需有關解析和可解析物件的詳細資訊，請參閱 [解析與可解析物件的概觀](../../../manage-work/issues/convert-issues/resolving-and-resolvable-objects.md).
+如需有關解析和可解析物件的詳細資訊，請參閱[解析和可解析物件概觀](../../../manage-work/issues/convert-issues/resolving-and-resolvable-objects.md)。
 
 ## 存取需求
 
@@ -41,16 +41,16 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定*</td> 
-   <td> <p>編輯問題、任務、專案的存取權</p> <p>注意：如果您還是沒有存取權，請詢問您的Workfront管理員，他們是否在您的存取層級中設定其他限制。 如需有關Workfront管理員如何修改您的存取層級的資訊，請參閱 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>.</p> </td> 
+   <td> <p>編輯問題、任務、專案的存取權</p> <p>注意：如果您還是沒有存取權，請詢問您的Workfront管理員，他們是否在您的存取層級中設定其他限制。 如需Workfront管理員如何修改存取層級的詳細資訊，請參閱<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">物件許可權</td> 
-   <td> <p>管理您連結至其他問題、任務或專案之問題的許可權</p> <p>檢視或授予您新增至現有問題的問題、任務或專案的更高許可權</p> <p>如需請求其他存取許可權的詳細資訊，請參閱 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">要求物件的存取權 </a>.</p> </td> 
+   <td> <p>管理您連結至其他問題、任務或專案之問題的許可權</p> <p>檢視或授予您新增至現有問題的問題、任務或專案的更高許可權</p> <p>如需請求其他存取權的資訊，請參閱<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">請求物件</a>的存取權。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;若要瞭解您擁有的計畫、授權型別或存取權，請聯絡您的Workfront管理員。
+&#42;若要瞭解您擁有的計畫、授權型別或存取權，請連絡您的Workfront管理員。
 
 ## 先決條件
 
@@ -63,11 +63,11 @@ ht-degree: 0%
 ## 將問題的解決連結至另一個問題、任務或專案的解決
 
 1. 瀏覽至您想要將其解決方案連結至另一個問題的解決方案，或是任務或專案的解決方案的問題。
-1. 按一下 **問題詳細資訊** 在左側面板中，然後展開 **概觀** 區域。
+1. 按一下左側面板中的&#x200B;**問題詳細資訊**，然後展開&#x200B;**概觀**&#x200B;區域。
 
    ![](assets/qs-issue-details-icon-expanded-with-overview-section-350x462.png)
 
-1. 按一下 **解決者** 欄位，並從下列解析物件型別中選取：
+1. 按一下&#x200B;**解析者**&#x200B;欄位，然後從下列解析物件型別中選取：
 
    * **專案**
    * **任務**
@@ -77,9 +77,9 @@ ht-degree: 0%
 
    * **解析專案**
    * **解析任務**
-   * **解決問題**
+   * **正在解決問題**
 
-1. 開始鍵入特定專案、任務或問題的名稱 **解析專案**， **任務**，或 **問題** 欄位，然後當它出現在清單中時按一下它。
+1. 在&#x200B;**解決專案**、**任務**&#x200B;或&#x200B;**問題**&#x200B;欄位中開始輸入特定專案、任務或問題的名稱，然後當它出現在清單中時按一下它。
 
    >[!NOTE]
    >

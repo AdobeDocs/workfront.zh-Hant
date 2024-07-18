@@ -27,13 +27,13 @@ ht-degree: 0%
 >
 >如果您屬於此階段，您的客戶代表將會通知您。
 >
->如需詳細資訊，請參閱 [Adobe Workfront規劃概觀](/help/quicksilver/planning/general/planning-overview.md).
+>如需詳細資訊，請參閱[Adobe Workfront規劃總覽](/help/quicksilver/planning/general/planning-overview.md)。
 >
 >在某些情況下，將記錄的功能發佈到生產環境後，可能會提供以下章節中參考的檔案。
 
 本文列出2024年發行給Workfront Planing的功能。
 
-Workfront規劃程式已於2023年5月22日開始執行。 如需2023年期間發行的所有功能清單，請參閱 [2023年Adobe Workfront Planning發行活動封存](/help/quicksilver/planning/general/release-activity-archives-2023.md).
+Workfront規劃程式已於2023年5月22日開始執行。 如需2023年期間發行的所有功能清單，請參閱[Adobe Workfront Planning 2023年發行活動封存](/help/quicksilver/planning/general/release-activity-archives-2023.md)。
 
 已發行的功能會依其發行順序列出，最新的排在前。 參與Workfront Planning計畫的客戶可存取其生產環境中的所有功能。
 
@@ -51,7 +51,7 @@ Workfront規劃程式已於2023年5月22日開始執行。 如需2023年期間�
 
 現在，當您從連線到的Planning記錄中按一下Workfront物件的名稱時，您會開啟Workfront物件頁面。 在此增強功能之前，已連線之Workfront物件的唯讀Workfront Planning頁面將會開啟，您可以在此處進一步導覽至Workfront物件頁面。
 
-如需詳細資訊，請參閱 [連線記錄](/help/quicksilver/planning/records/connect-records.md).
+如需詳細資訊，請參閱[連線記錄](/help/quicksilver/planning/records/connect-records.md)。
 
 ### 只有「標準」或「計畫」授權使用者可以建立檢視
 
@@ -61,7 +61,7 @@ Workfront規劃程式已於2023年5月22日開始執行。 如需2023年期間�
 
 我們已變更使用者可建立檢視的型別。 現在，只有「標準」或「計畫」授權使用者可以建立檢視。 所有其他使用者對於與其共用的檢視具有僅限檢視的存取權。 在此更新之前，輕度和Worker授權的使用者可以建立檢視。
 
-如需詳細資訊，請參閱 [使用Adobe Workfront Planning時的授權型別概觀](/help/quicksilver/planning/access/license-type-overview.md).
+如需詳細資訊，請參閱[使用Adobe Workfront Planning時的授權型別概觀](/help/quicksilver/planning/access/license-type-overview.md)。
 
 ### 依包含多個值的查閱欄位排序和分組記錄
 
@@ -82,7 +82,7 @@ Workfront規劃程式已於2023年5月22日開始執行。 如需2023年期間�
 如需詳細資訊，請參閱下列文章：
 
 * [連線記錄型別](/help/quicksilver/planning/architecture/connect-record-types.md)
-* [管理表格檢視](/help/quicksilver/planning/views/manage-the-table-view.md).
+* [管理資料表檢視](/help/quicksilver/planning/views/manage-the-table-view.md)。
 
 
 ## 2024年6月24日起一週
@@ -95,7 +95,7 @@ AI助理會在所選頁面的內容中運作，並使用您的存取和許可權
 
 AI助理目前處於測試階段，可供特定客戶使用。 請聯絡您的客戶代表，瞭解您是否有資格參與此階段。
 
-如需詳細資訊，請參閱 [Adobe Workfront Planning AI Assistant概觀](/help/quicksilver/planning/general/planning-ai-assistant-overview.md).
+如需詳細資訊，請參閱[Adobe Workfront Planning AI Assistant總覽](/help/quicksilver/planning/general/planning-ai-assistant-overview.md)。
 
 ### 選取工作區或記錄型別時新增搜尋方塊
 
@@ -105,7 +105,7 @@ AI助理目前處於測試階段，可供特定客戶使用。 請聯絡您的�
 
 為了讓您更輕鬆地在工作區或記錄型別之間導覽，您現在可以在頁面標頭中工作區或記錄型別名稱的右側下拉式功能表中搜尋這些工作區或記錄型別。
 
-如需詳細資訊，請參閱 [編輯記錄型別](/help/quicksilver/planning/architecture/edit-record-types.md).
+如需詳細資訊，請參閱[編輯記錄型別](/help/quicksilver/planning/architecture/edit-record-types.md)。
 
 ### 在表格檢視中現有欄位的右側或左側插入新欄位
 
@@ -115,7 +115,7 @@ AI助理目前處於測試階段，可供特定客戶使用。 請聯絡您的�
 
 為了改善並加速您在記錄表格檢視中的體驗，我們新增了在兩欄之間新增欄位的功能，方法是將其插入現有欄位的右側或左側。
 
-如需詳細資訊，請參閱 [建立欄位](/help/quicksilver/planning/fields/create-fields.md).
+如需詳細資訊，請參閱[建立欄位](/help/quicksilver/planning/fields/create-fields.md)。
 
 ## 2024年6月17日起一週
 
@@ -127,7 +127,7 @@ AI助理目前處於測試階段，可供特定客戶使用。 請聯絡您的�
 
 我們已更新記錄「詳細資料」頁面的外觀和風格。 在此更新中，欄點陣圖示已被移除。
 
-如需詳細資訊，請參閱 [編輯記錄](/help/quicksilver/planning/records/edit-records.md).
+如需詳細資訊，請參閱[編輯記錄](/help/quicksilver/planning/records/edit-records.md)。
 
 ### 已更新工作區範本
 
@@ -183,7 +183,7 @@ AI助理目前處於測試階段，可供特定客戶使用。 請聯絡您的�
 
 如需詳細資訊，請參閱下列文章：
 
-* [管理表格檢視](/help/quicksilver/planning/views/manage-the-table-view.md)
+* [管理資料表檢視](/help/quicksilver/planning/views/manage-the-table-view.md)
 
 * [編輯記錄](/help/quicksilver/planning/records/edit-records.md)
 
@@ -195,7 +195,7 @@ AI助理目前處於測試階段，可供特定客戶使用。 請聯絡您的�
 
 我們在已連線的記錄欄位中新增了「顯示更多/顯示更少」連結，當有記錄會顯示在記錄的「詳細資料」頁面中超過兩列時。
 
-如需詳細資訊，請參閱 [連線記錄](/help/quicksilver/planning/records/connect-records.md).
+如需詳細資訊，請參閱[連線記錄](/help/quicksilver/planning/records/connect-records.md)。
 
 ### 在連線記錄型別時，使用記錄名稱自動填入名稱欄位
 
@@ -205,7 +205,7 @@ AI助理目前處於測試階段，可供特定客戶使用。 請聯絡您的�
 
 當您在兩個記錄之間或在記錄與來自另一個應用程式的物件之間建立連線時，連線的「名稱」欄位會自動填入連線的記錄名稱。 在此增強功能之前，您必須手動新增連線欄位的「名稱」。
 
-如需詳細資訊，請參閱 [連線記錄型別](/help/quicksilver/planning/architecture/connect-record-types.md).
+如需詳細資訊，請參閱[連線記錄型別](/help/quicksilver/planning/architecture/connect-record-types.md)。
 
 ### 定義連線記錄在連線欄位中的顯示方式
 
@@ -219,7 +219,7 @@ AI助理目前處於測試階段，可供特定客戶使用。 請聯絡您的�
 
 此增強功能適用於從Workfront Planning連線的記錄以及從Adobe Experience Manager連線的資產。
 
-如需詳細資訊，請參閱 [連線記錄型別](/help/quicksilver/planning/architecture/connect-record-types.md).
+如需詳細資訊，請參閱[連線記錄型別](/help/quicksilver/planning/architecture/connect-record-types.md)。
 
 ### 只有「標準」或「計畫」授權使用者可以擁有工作區的「管理」許可權（標題）
 
@@ -229,7 +229,7 @@ AI助理目前處於測試階段，可供特定客戶使用。 請聯絡您的�
 
 我們已變更哪些型別的使用者可以完整存取工作區。 現在，只有「標準」或「計畫」授權使用者可以擁有工作區的「管理」許可權。 記錄型別、記錄和欄位的存取權繼承自工作區。 所有其他使用者對工作區及其物件型別具有僅限檢視的存取權。 在此更新之前，輕度使用者和工作者授權使用者可以接收工作區的Contribute許可權。
 
-如需詳細資訊，請參閱 [使用Adobe Workfront Planning時的授權型別概觀](/help/quicksilver/planning/access/license-type-overview.md).
+如需詳細資訊，請參閱[使用Adobe Workfront Planning時的授權型別概觀](/help/quicksilver/planning/access/license-type-overview.md)。
 
 ## 2024年6月10日起一週
 
@@ -253,7 +253,7 @@ AI助理目前處於測試階段，可供特定客戶使用。 請聯絡您的�
 
 * [建立欄位](/help/quicksilver/planning/fields/create-fields.md)
 
-* [管理表格檢視](/help/quicksilver/planning/views/manage-the-table-view.md)
+* [管理資料表檢視](/help/quicksilver/planning/views/manage-the-table-view.md)
 
 ## 2024年6月3日起一週
 
@@ -279,7 +279,7 @@ AI助理目前處於測試階段，可供特定客戶使用。 請聯絡您的�
 
 * Workfront Planning快速入門教學課程
 
-如需詳細資訊，請參閱 [Adobe Workfront規劃概觀](/help/quicksilver/planning/general/planning-overview.md).
+如需詳細資訊，請參閱[Adobe Workfront規劃總覽](/help/quicksilver/planning/general/planning-overview.md)。
 
 ### Workfront Planning的新上線體驗
 
@@ -309,7 +309,7 @@ UNIQUE運運算元適用於下列欄位型別以外的所有欄位型別：
 * 人員
 * 核取方塊欄位
 
-如需詳細資訊，請參閱 [連線記錄型別](/help/quicksilver/planning/architecture/connect-record-types.md).
+如需詳細資訊，請參閱[連線記錄型別](/help/quicksilver/planning/architecture/connect-record-types.md)。
 
 ### 依預設與工作區的所有成員共用檢視
 
@@ -319,7 +319,7 @@ UNIQUE運運算元適用於下列欄位型別以外的所有欄位型別：
 
 我們現在匯入了一個選項，您可以在其中快速將檢視許可權授予工作區的所有成員。 在此增強功能之前，只有您特別共用檢視的使用者才能存取檢視。 預設不會啟用此選項。
 
-如需詳細資訊，請參閱 [共用檢視](/help/quicksilver/planning/access/share-views.md).
+如需詳細資訊，請參閱[共用檢視](/help/quicksilver/planning/access/share-views.md)。
 
 ### 更新主要功能表中Planning圖示的外觀
 
@@ -327,7 +327,7 @@ UNIQUE運運算元適用於下列欄位型別以外的所有欄位型別：
 
 預覽：待定
 
-我們已更新主要功能表中Planning區域圖示的外觀。 如需詳細資訊，請參閱 [Adobe Workfront規劃概觀](/help/quicksilver/planning/general/planning-overview.md).
+我們已更新主要功能表中Planning區域圖示的外觀。 如需詳細資訊，請參閱[Adobe Workfront規劃總覽](/help/quicksilver/planning/general/planning-overview.md)。
 
 ### 重新命名Workfront規劃程式
 
@@ -347,7 +347,7 @@ UNIQUE運運算元適用於下列欄位型別以外的所有欄位型別：
 
 已刪除的工作區及其資訊無法復原。
 
-如需詳細資訊，請參閱 [刪除工作區](/help/quicksilver/planning/architecture/delete-workspaces.md).
+如需詳細資訊，請參閱[刪除工作區](/help/quicksilver/planning/architecture/delete-workspaces.md)。
 
 ### 時間軸檢視中現在提供查詢日期欄位
 
@@ -357,7 +357,7 @@ UNIQUE運運算元適用於下列欄位型別以外的所有欄位型別：
 
 您現在可以從連線的記錄或物件型別將時間表檢視的「開始日期」和「結束日期」設定為查詢欄位。
 
-如需有關建立檢視的詳細資訊，請參閱 [管理記錄檢視](/help/quicksilver/planning/views/manage-record-views.md).
+如需建立檢視的詳細資訊，請參閱[管理記錄檢視](/help/quicksilver/planning/views/manage-record-views.md)。
 
 ## 2024年5月20日起一週
 
@@ -379,7 +379,7 @@ UNIQUE運運算元適用於下列欄位型別以外的所有欄位型別：
 
 * 開啟詳細資料預覽方塊或頁面，以檢視有關連線記錄的詳細資訊
 
-如需詳細資訊，請參閱 [在Adobe Workfront物件的Planning區段中管理記錄](/help/quicksilver/planning/records/manage-records-in-planning-section.md).
+如需詳細資訊，請參閱[在Adobe Workfront物件的Planning區段管理記錄](/help/quicksilver/planning/records/manage-records-in-planning-section.md)。
 
 ## 2024年5月13日起一週
 
@@ -399,7 +399,7 @@ UNIQUE運運算元適用於下列欄位型別以外的所有欄位型別：
 
 我們在記錄型別頁面的標題上新增了「新記錄」按鈕。 您現在可以從任何檢視建立記錄。 在此增強功能之前，您只能從表格檢視建立記錄。
 
-如需詳細資訊，請參閱 [建立記錄](/help/quicksilver/planning/records/create-records.md).
+如需詳細資訊，請參閱[建立記錄](/help/quicksilver/planning/records/create-records.md)。
 
 
 ### 連線記錄時，關於物件可見性的新警告
@@ -412,7 +412,7 @@ UNIQUE運運算元適用於下列欄位型別以外的所有欄位型別：
 
 例如，如果您從Workfront Planning行銷活動連結專案，一般而言，所有有權存取檢視行銷活動之人員也有權檢視連結的專案及其查閱欄位中的資訊，即使他們沒有任何許可權存取連結的專案或存取專案亦然。 當您收到工作區許可權時，可以存取Planning記錄。
 
-如需詳細資訊，請參閱 [連線記錄型別](/help/quicksilver/planning/architecture/connect-record-types.md).
+如需詳細資訊，請參閱[連線記錄型別](/help/quicksilver/planning/architecture/connect-record-types.md)。
 
 ### 新增區段到記錄的預覽和詳細資訊頁面
 
@@ -422,7 +422,7 @@ UNIQUE運運算元適用於下列欄位型別以外的所有欄位型別：
 
 為了更妥善地組織紀錄頁面上的資訊，以更有效率地閱讀和導覽，我們在紀錄頁面中引進了章節。 區段標題可作為標題，將欄位組織成不同的類別。 這些區段是完全可自訂的，如果需要，可以展開或摺疊。
 
-如需詳細資訊，請參閱 [管理記錄頁面配置](/help/quicksilver/planning/records/manage-the-record-page.md).
+如需詳細資訊，請參閱[管理記錄頁面配置](/help/quicksilver/planning/records/manage-the-record-page.md)。
 
 ### 欄位設定變更的即時更新
 
@@ -440,7 +440,7 @@ UNIQUE運運算元適用於下列欄位型別以外的所有欄位型別：
 >
 >不會通知其他使用者欄位設定已變更。
 
-如需詳細資訊，請參閱 [編輯欄位設定](/help/quicksilver/planning/fields/edit-fields.md).
+如需詳細資訊，請參閱[編輯欄位設定](/help/quicksilver/planning/fields/edit-fields.md)。
 
 ## 2024年5月6日起一週
 
@@ -456,7 +456,7 @@ UNIQUE運運算元適用於下列欄位型別以外的所有欄位型別：
 
 * 新增記錄型別的說明
 
-如需詳細資訊，請參閱 [建立記錄型別](/help/quicksilver/planning/architecture/create-record-types.md).
+如需詳細資訊，請參閱[建立記錄型別](/help/quicksilver/planning/architecture/create-record-types.md)。
 
 ### 為Adobe Unified Experience客戶啟用Workfront規劃通知
 
@@ -464,9 +464,9 @@ UNIQUE運運算元適用於下列欄位型別以外的所有欄位型別：
 
 預覽：待定
 
-如果您是Adobe Unified Experience客戶，且有人將您新增至記錄頁面上的評論，您會收到應用程式內通知及有關評論的電子郵件通知。 您可以在Adobe Experience Cloud設定檔的偏好設定區域中管理通知偏好設定。 如需詳細資訊，請參閱 [帳戶偏好設定和通知](https://experienceleague.adobe.com/en/docs/core-services/interface/features/account-preferences).
+如果您是Adobe Unified Experience客戶，且有人將您新增至記錄頁面上的評論，您會收到應用程式內通知及有關評論的電子郵件通知。 您可以在Adobe Experience Cloud設定檔的偏好設定區域中管理通知偏好設定。 如需詳細資訊，請參閱[帳戶偏好設定和通知](https://experienceleague.adobe.com/en/docs/core-services/interface/features/account-preferences)。
 
-如需Workfront規劃通知的詳細資訊，請參閱 [Adobe Workfront規劃通知：文章索引](/help/quicksilver/planning/notifications/notifications-information.md).
+如需Workfront規劃通知的詳細資訊，請參閱[Adobe Workfront規劃通知：文章索引](/help/quicksilver/planning/notifications/notifications-information.md)。
 
 
 ## 2029年4月29日起一週
@@ -479,7 +479,7 @@ UNIQUE運運算元適用於下列欄位型別以外的所有欄位型別：
 
 當使用者更新表格檢視中記錄的資訊時，其他使用者可以在記錄的詳細資訊方塊（檢視內）或頁面中即時檢視更新的資訊。 這可確保所有使用者同時檢視更新資訊，並在變更時同步。
 
-如需有關編輯記錄的資訊，請參閱 [編輯記錄](/help/quicksilver/planning/records/edit-records.md).
+如需有關編輯記錄的資訊，請參閱[編輯記錄](/help/quicksilver/planning/records/edit-records.md)。
 
 ### 編輯記錄後，在行事曆檢視中進行即時更新
 
@@ -505,7 +505,7 @@ UNIQUE運運算元適用於下列欄位型別以外的所有欄位型別：
 
 * [編輯工作區](/help/quicksilver/planning/architecture/edit-workspaces.md)
 
-* [編輯記錄型別](/help/quicksilver/planning/architecture/edit-record-types.md).
+* [編輯記錄型別](/help/quicksilver/planning/architecture/edit-record-types.md)。
 
 ## 2024年4月8日當週
 
@@ -519,7 +519,7 @@ UNIQUE運運算元適用於下列欄位型別以外的所有欄位型別：
 
 除了計算欄位外，此功能支援所有欄位型別。
 
-如需詳細資訊，請參閱 [編輯記錄](/help/quicksilver/planning/records/edit-records.md).
+如需詳細資訊，請參閱[編輯記錄](/help/quicksilver/planning/records/edit-records.md)。
 
 ## 2024年4月1日當週
 
@@ -531,7 +531,7 @@ UNIQUE運運算元適用於下列欄位型別以外的所有欄位型別：
 
 身為Workspace管理員，您現在可以重新排序記錄頁面或預覽中列出的欄位。 更新欄位順序會變更所有相同型別記錄上的欄位順序，適用於所有檢視記錄頁面或記錄預覽的人。
 
-如需詳細資訊，請參閱 [管理記錄頁面配置](/help/quicksilver/planning/records/manage-the-record-page.md).
+如需詳細資訊，請參閱[管理記錄頁面配置](/help/quicksilver/planning/records/manage-the-record-page.md)。
 
 
 ### 新增封面影像以記錄頁面
@@ -542,7 +542,7 @@ UNIQUE運運算元適用於下列欄位型別以外的所有欄位型別：
 
 當您管理記錄頁面時，您現在可以在記錄頁面或預覽上新增、重新定位和取代封面影像，以豐富記錄的展示和利害關係人的參與。 檢視記錄的所有使用者都可以看到封面影像。
 
-如需詳細資訊，請參閱 [管理記錄頁面配置](/help/quicksilver/planning/records/manage-the-record-page.md).
+如需詳細資訊，請參閱[管理記錄頁面配置](/help/quicksilver/planning/records/manage-the-record-page.md)。
 
 ## 2024年3月25日起一週
 
@@ -560,7 +560,7 @@ UNIQUE運運算元適用於下列欄位型別以外的所有欄位型別：
 
 * 將記錄型別拖放到需要的地方（包括不同的區段），以動態方式在工作區中移動記錄型別。
 
-如需詳細資訊，請參閱 [建立記錄型別](/help/quicksilver/planning/architecture/create-record-types.md).
+如需詳細資訊，請參閱[建立記錄型別](/help/quicksilver/planning/architecture/create-record-types.md)。
 
 ### 重複檢視
 
@@ -572,7 +572,7 @@ UNIQUE運運算元適用於下列欄位型別以外的所有欄位型別：
 
 複製檢視會使用相同的篩選器、排序條件和群組，建立相同的檢視。 複製檢視不會維持原始檢視的許可權。
 
-如需詳細資訊，請參閱 [管理記錄檢視](/help/quicksilver/planning/views/manage-record-views.md).
+如需詳細資訊，請參閱[管理記錄檢視](/help/quicksilver/planning/views/manage-record-views.md)。
 
 ### 將主要功能表中的Maestro區域重新命名為Planning
 
@@ -582,7 +582,7 @@ UNIQUE運運算元適用於下列欄位型別以外的所有欄位型別：
 
 我們已將主要功能表中的Maestro區域重新命名為Planning。
 
-如需Adobe Workfront Planning的概觀，請參閱 [Adobe Workfront規劃概觀](/help/quicksilver/planning/general/planning-overview.md).
+如需Adobe Workfront Planning的概觀，請參閱[Adobe Workfront Planning概觀](/help/quicksilver/planning/general/planning-overview.md)。
 
 ### 刪除記錄型別時的新體驗
 
@@ -592,7 +592,7 @@ UNIQUE運運算元適用於下列欄位型別以外的所有欄位型別：
 
 刪除記錄型別時，我們重新設計了確認方塊。 刪除記錄型別會造成影響，因為它也會刪除所有記錄、其欄位、欄位中的資訊，以及與記錄型別相關聯的檢視。 已刪除的記錄型別及其已刪除的資訊無法復原。
 
-因此，在刪除記錄型別時，我們希望確保使用者的意圖是準確的，因此我們在確認刪除時引進了額外的步驟。 如需詳細資訊，請參閱 [刪除記錄型別](/help/quicksilver/planning/architecture/delete-record-types.md).
+因此，在刪除記錄型別時，我們希望確保使用者的意圖是準確的，因此我們在確認刪除時引進了額外的步驟。 如需詳細資訊，請參閱[刪除記錄型別](/help/quicksilver/planning/architecture/delete-record-types.md)。
 
 ## 2024年3月18日起一週
 
@@ -602,7 +602,7 @@ UNIQUE運運算元適用於下列欄位型別以外的所有欄位型別：
 
 預覽：待定
 
-您現在可以在行事曆檢視中篩選資訊。 如需詳細資訊，請參閱 [管理行事曆檢視](/help/quicksilver/planning/views/manage-the-calendar-view.md).
+您現在可以在行事曆檢視中篩選資訊。 如需詳細資訊，請參閱[管理行事曆檢視](/help/quicksilver/planning/views/manage-the-calendar-view.md)。
 
 ### 使用新增到時間軸和行事曆檢視的記錄詳細資料進行預覽
 
@@ -614,7 +614,7 @@ UNIQUE運運算元適用於下列欄位型別以外的所有欄位型別：
 
 從紀錄的預覽中，您可以在新的瀏覽器標籤中開啟紀錄頁面。
 
-如需詳細資訊，請參閱 [編輯記錄](/help/quicksilver/planning/records/edit-records.md).
+如需詳細資訊，請參閱[編輯記錄](/help/quicksilver/planning/records/edit-records.md)。
 
 ### 記錄型別Excel匯入暫時停用
 
@@ -640,7 +640,7 @@ UNIQUE運運算元適用於下列欄位型別以外的所有欄位型別：
 
 * 開啟記錄頁面的連結
 
-如需詳細資訊，請參閱 [編輯記錄](/help/quicksilver/planning/records/edit-records.md).
+如需詳細資訊，請參閱[編輯記錄](/help/quicksilver/planning/records/edit-records.md)。
 
 ### 記錄檢視的新索引標籤設計
 
@@ -652,18 +652,19 @@ UNIQUE運運算元適用於下列欄位型別以外的所有欄位型別：
 
 檢視會依新增的日期從左到右依時間順序顯示。 共用檢視也會依共用時間先後順序顯示。
 
-如需詳細資訊，請參閱 [管理記錄檢視](/help/quicksilver/planning/views/manage-record-views.md).
+如需詳細資訊，請參閱[管理記錄檢視](/help/quicksilver/planning/views/manage-record-views.md)。
 
 ### 記錄檢視的動態設計
 
-生產： 2024年3月14日預覽：待定
+生產： 2024年3月14日
+預覽：待定
 
 我們已更新記錄型別頁面中檢視的外觀和風格。 新檢視會動態回應，並快速調整至熒幕大小。 工具列選項標籤會隱藏在較小的熒幕上，讓工具列更易於使用。
 
 如需詳細資訊，請參閱下列文章：
 
 * [管理表格檢視](/help/quicksilver/planning/views/manage-the-table-view.md)
-* [管理時間表檢視](/help/quicksilver/planning/views/manage-the-timeline-view.md).
+* [管理時間表檢視](/help/quicksilver/planning/views/manage-the-timeline-view.md)。
 
 ### 允許系統管理員管理所有共用檢視
 
@@ -673,7 +674,7 @@ UNIQUE運運算元適用於下列欄位型別以外的所有欄位型別：
 
 為了與系統的所有其他區域保持一致，並能夠維護和控制任何可供您作為系統管理員使用的檢視，您現在擁有記錄型別頁面中與您共用之任何檢視的「管理」許可權。 在此增強功能之前，檢視建立者可能已授予您檢視或管理檢視的許可權。 現在，如果檢視與您共用，並且您是系統管理員，則預設情況下您將擁有該檢視的管理許可權。
 
-如需詳細資訊，請參閱 [共用檢視](/help/quicksilver/planning/access/share-views.md).
+如需詳細資訊，請參閱[共用檢視](/help/quicksilver/planning/access/share-views.md)。
 
 ### 分享沒有許可權的檢視時未經授權的頁面
 
@@ -683,7 +684,7 @@ UNIQUE運運算元適用於下列欄位型別以外的所有欄位型別：
 
 當使用者收到記錄型別的連結並且他們有權存取工作區但沒有存取連結中共用的檢視時，將顯示一個頁面通知他們無權檢視記錄型別。
 
-如需詳細資訊，請參閱 [共用檢視](/help/quicksilver/planning/access/share-views.md).
+如需詳細資訊，請參閱[共用檢視](/help/quicksilver/planning/access/share-views.md)。
 
 
 ### 共用對話方塊中系統管理員的新標籤
@@ -694,7 +695,7 @@ UNIQUE運運算元適用於下列欄位型別以外的所有欄位型別：
 
 現在，共用檢視或工作區時，我們會在共用對話方塊中的系統管理員名稱旁邊顯示「管理員」標籤。
 
-如需詳細資訊，請參閱 [共用許可權總覽](/help/quicksilver/planning/access/sharing-permissions-overview.md).
+如需詳細資訊，請參閱[共用許可權總覽](/help/quicksilver/planning/access/sharing-permissions-overview.md)。
 
 ### 分享沒有許可權的檢視時未經授權的頁面
 
@@ -706,7 +707,7 @@ UNIQUE運運算元適用於下列欄位型別以外的所有欄位型別：
 
 除了為其他人共用工作區之外，您還必須共用檢視，才能存取您與連結共用的相同記錄型別頁面。
 
-如需詳細資訊，請參閱 [共用檢視](/help/quicksilver/planning/access/share-views.md).
+如需詳細資訊，請參閱[共用檢視](/help/quicksilver/planning/access/share-views.md)。
 
 ## 2024年3月4日起一週
 
@@ -724,7 +725,7 @@ UNIQUE運運算元適用於下列欄位型別以外的所有欄位型別：
 * 中
 * 高。
 
-如需詳細資訊，請參閱 [管理表格檢視](/help/quicksilver/planning/views/manage-the-table-view.md).
+如需詳細資訊，請參閱[管理資料表檢視](/help/quicksilver/planning/views/manage-the-table-view.md)。
 
 ### 記錄的新行事曆檢視
 
@@ -734,7 +735,7 @@ UNIQUE運運算元適用於下列欄位型別以外的所有欄位型別：
 
 您現在可以在行事曆檢視中顯示記錄。 記錄型別中必須至少有兩個日期欄位，才能建立行事曆檢視。
 
-如需詳細資訊，請參閱 [管理行事曆檢視](/help/quicksilver/planning/views/manage-the-calendar-view.md).
+如需詳細資訊，請參閱[管理行事曆檢視](/help/quicksilver/planning/views/manage-the-calendar-view.md)。
 
 ## 2024年2月26日當週
 
@@ -748,7 +749,7 @@ UNIQUE運運算元適用於下列欄位型別以外的所有欄位型別：
 
 您無法按允許多筆記錄連線的查閱欄位來篩選、排序或群組。
 
-如需詳細資訊，請參閱 [管理表格檢視](/help/quicksilver/planning/views/manage-the-table-view.md) 和 [管理時間表檢視](/help/quicksilver/planning/views/manage-the-timeline-view.md).
+如需詳細資訊，請參閱[管理資料表檢視](/help/quicksilver/planning/views/manage-the-table-view.md)和[管理時間表檢視](/help/quicksilver/planning/views/manage-the-timeline-view.md)。
 
 ## 2024年2月5日當週
 
@@ -768,9 +769,9 @@ UNIQUE運運算元適用於下列欄位型別以外的所有欄位型別：
 
 * 擁有「檢閱」或「請求者」授權（或新授權模式中的「貢獻者」）的使用者只能檢視與其共用的工作區，以及這些工作區的記錄型別和記錄。 他們無法建立、編輯或刪除記錄型別或記錄。
 
-有關新許可證模型的資訊，請參閱 [Workfront檔案中的存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+如需有關新授權模式的資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
-如需有關計畫功能中許可證型別與許可權之間的連線的資訊，請參閱 [使用Adobe Workfront Planning時的授權型別概觀](/help/quicksilver/planning/access/license-type-overview.md).
+如需有關計畫功能中授權型別與許可權之間連線的資訊，請參閱[使用Adobe Workfront計畫時的授權型別概觀](/help/quicksilver/planning/access/license-type-overview.md)。
 
 
 ### 記錄欄位RTF工具列的新外觀
@@ -781,7 +782,7 @@ UNIQUE運運算元適用於下列欄位型別以外的所有欄位型別：
 
 當您編輯「段落」型別欄位時，我們更新了RTF工具列的外觀。
 
-如需詳細資訊，請參閱 [編輯記錄](/help/quicksilver/planning/records/edit-records.md).
+如需詳細資訊，請參閱[編輯記錄](/help/quicksilver/planning/records/edit-records.md)。
 
 ### 改善編輯單選、多選、人物欄位及新增連線物件時的體驗
 
@@ -805,7 +806,7 @@ UNIQUE運運算元適用於下列欄位型別以外的所有欄位型別：
 
 更新記錄型別表格檢視中的欄位時，現在可取得這些改善專案。
 
-如需詳細資訊，請參閱 [連線記錄](/help/quicksilver/planning/records/connect-records.md).
+如需詳細資訊，請參閱[連線記錄](/help/quicksilver/planning/records/connect-records.md)。
 
 ## 2024年1月29日起一週
 
@@ -834,7 +835,7 @@ UNIQUE運運算元適用於下列欄位型別以外的所有欄位型別：
 
 您現在可以將個別縮圖新增至每個記錄，以便在檢視中加以區分。 在表格檢視中，您可以將先前儲存在電腦上的影像檔案新增為縮圖。 縮圖對每個記錄都可能是唯一的，並會顯示在記錄型別頁面的表格和時間軸檢視中。
 
-如需詳細資訊，請參閱 [新增縮圖至記錄](/help/quicksilver/planning/records/add-thumbnails-to-records.md).
+如需詳細資訊，請參閱[新增縮圖至記錄](/help/quicksilver/planning/records/add-thumbnails-to-records.md)。
 
 ### 移除已連線的記錄型別卡片
 
@@ -844,7 +845,7 @@ UNIQUE運運算元適用於下列欄位型別以外的所有欄位型別：
 
 為避免混淆並簡化工作區管理，我們已從工作區中移除已連線外部物件的自動產生、唯讀記錄型別卡。
 
-如需詳細資訊，請參閱 [連線記錄](/help/quicksilver/planning/records/connect-records.md).
+如需詳細資訊，請參閱[連線記錄](/help/quicksilver/planning/records/connect-records.md)。
 
 ## 2024年1月22日起一週
 
@@ -866,7 +867,7 @@ UNIQUE運運算元適用於下列欄位型別以外的所有欄位型別：
 
 * 變更發生的日期和時間戳記。
 
-如需詳細資訊，請參閱 [歷史記錄區段總覽](/help/quicksilver/planning/records/history-section-overview.md).
+如需詳細資訊，請參閱[歷程記錄區段總覽](/help/quicksilver/planning/records/history-section-overview.md)。
 
 ### 新記錄連結的新標籤
 
@@ -874,7 +875,7 @@ UNIQUE運運算元適用於下列欄位型別以外的所有欄位型別：
 
 預覽：待定
 
-為了建立建立記錄時的一致性，我們為建立記錄的「+新增」連結重新標籤為「+新記錄」。  在此更新之前，連結包含記錄型別的名稱。 現在建立作業和分類記錄時，可以使用新連結。 如需詳細資訊，請參閱 [建立記錄](/help/quicksilver/planning/records/create-records.md).
+為了建立建立記錄時的一致性，我們為建立記錄的「+新增」連結重新標籤為「+新記錄」。  在此更新之前，連結包含記錄型別的名稱。 現在建立作業和分類記錄時，可以使用新連結。 如需詳細資訊，請參閱[建立記錄](/help/quicksilver/planning/records/create-records.md)。
 
 ## 2024年1月8日當週
 
@@ -909,7 +910,7 @@ Adobe Workfront規劃功能已暫時從預覽和沙箱環境中移除。 它們�
 * 檢視：使用者可以從記錄型別頁面的「檢視」下拉式功能表中選取檢視。
 * 管理：使用者可以編輯、共用和刪除檢視。
 
-如需詳細資訊，請參閱 [存取權總覽](/help/quicksilver/planning/access/access-overview.md) 和 [在Adobe Workfront Planning功能中共用許可權概觀](/help/quicksilver/planning/access/sharing-permissions-overview.md).
+如需詳細資訊，請參閱[存取總覽](/help/quicksilver/planning/access/access-overview.md)和[在Adobe Workfront規劃功能中共用許可權總覽](/help/quicksilver/planning/access/sharing-permissions-overview.md)。
 
 ### 新公式欄位型別
 
@@ -923,7 +924,7 @@ Adobe Workfront規劃功能已暫時從預覽和沙箱環境中移除。 它們�
 
 在公式計算中，不能使用來自連結記錄型別的查閱欄位。 此功能將在稍後提供。
 
-如需詳細資訊，請參閱 [公式欄位概觀](/help/quicksilver/planning/fields/formula-fields.md).
+如需詳細資訊，請參閱[公式欄位概述](/help/quicksilver/planning/fields/formula-fields.md)。
 
 ### 在表格檢視中管理記錄時還原/重做動作
 

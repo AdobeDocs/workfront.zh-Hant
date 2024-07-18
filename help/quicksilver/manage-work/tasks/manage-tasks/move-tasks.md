@@ -47,11 +47,11 @@ ht-degree: 2%
    <td role="rowheader">存取層級設定*</td> 
    <td> <p>編輯任務與專案的存取權</p> <p><b>附註</b>
 
-如果您還是沒有存取權，請詢問您的Workfront管理員，他們是否在您的存取層級中設定其他限制。 如需有關Workfront管理員如何修改您的存取層級的資訊，請參閱 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>.</p> </td>
+如果您還是沒有存取權，請詢問您的Workfront管理員，他們是否在您的存取層級中設定其他限制。 如需Workfront管理員如何修改存取層級的詳細資訊，請參閱<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>。</p> </td>
 </tr> 
   <tr> 
    <td role="rowheader">物件許可權</td> 
-   <td> <p>管理任務的許可權</p> <p>為專案貢獻或更高的許可權並新增任務</p> <p>如需請求其他存取許可權的詳細資訊，請參閱 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">要求物件的存取權 </a>.</p> </td> 
+   <td> <p>管理任務的許可權</p> <p>專案的Contribute或以上許可權可新增任務</p> <p>如需請求其他存取權的資訊，請參閱<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">請求物件</a>的存取權。</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -79,14 +79,14 @@ ht-degree: 2%
 ## 移動清單中的任務
 
 1. 移至包含您要移動之任務的一或多個任務的專案。
-1. 按一下 **任務** 在左側面板中顯示工作清單。
-1. 按一下 **計畫模式** 圖示 ![](assets/plan-mode-icon.png) 並確保 **自動儲存** 切換已啟用，然後選取您要移動的一項或多項工作。
+1. 按一下左側面板中的&#x200B;**工作**&#x200B;以顯示工作清單。
+1. 按一下「**計畫模式**」圖示![](assets/plan-mode-icon.png)，並確定已啟用「**自動儲存**」切換功能，然後選取您要移動的一項或多項工作。
 
    ![](assets/autosave-icon-on-highlighted-350x202.png)
 
    >[!IMPORTANT]
    >
-   >您無法在以下情況下移動任務： **自動儲存** 切換已停用。
+   >**自動儲存**&#x200B;切換停用時，您無法移動工作。
 
 1. （選擇性和條件性）如果您想要在相同專案中移動選取的任務，請按一下您選取的任務，將其拖放到您想要在專案中移動的位置。
 
@@ -94,15 +94,15 @@ ht-degree: 2%
 
 1. （視條件而定）選取您要移動的一或多個工作，然後執行下列其中一項作業：
 
-   * 按一下 **更多** 功能表 ![](assets/qs-more-menu.png) 按一下工作清單頂端的「 」 **移至**.
-   * 以滑鼠右鍵按一下選取的任務，然後按一下 **移至**.
-   * 選取一個任務時，按一下 **更多** 功能表 ![](assets/more-icon-task-list.png) 在清單中工作名稱旁，然後按一下 **移至**.
+   * 按一下工作清單頂端的&#x200B;**更多**&#x200B;功能表![](assets/qs-more-menu.png)，然後按一下&#x200B;**移至**。
+   * 以滑鼠右鍵按一下選取的工作，然後按一下[移至&#x200B;**]。**
+   * 選取一個任務時，按一下清單中任務名稱旁的&#x200B;**更多**&#x200B;功能表![](assets/more-icon-task-list.png)，然後按一下&#x200B;**移至**。
 
    ![](assets/move-task-in-list-nwe-350x119.png)
 
    移動工作方塊隨即顯示
 
-1. 繼續移動工作，如區段中所述 [在任務層級移動任務](#move-a-task-at-the-task-level) 本文將從步驟4開始介紹。
+1. 從步驟4開始，繼續移動工作，如本文中[移動工作層級](#move-a-task-at-the-task-level)一節中所述。
 
    <!--
    is this still accurate?!
@@ -114,11 +114,11 @@ ht-degree: 2%
 
 1. 透過搜尋來尋找Workfront系統中的任務。
 1. 按一下工作名稱以開啟。
-1. 按一下 **更多** 下拉式功能表 ![](assets/qs-more-menu.png) 在任務名稱旁，然後按一下 **移至**. 「移動工作」方塊隨即顯示。
+1. 按一下工作名稱旁的&#x200B;**更多**&#x200B;下拉式功能表![](assets/qs-more-menu.png)，然後按一下&#x200B;**移至**。 「移動工作」方塊隨即顯示。
 
    ![](assets/move-task-at-task-level-nwe-350x222.png)
 
-1. （可選）更新 **任務名稱**. 任務會以新名稱移動到新位置。 Workfront不會記錄任務的原始名稱。
+1. （選用）更新&#x200B;**工作名稱**。 任務會以新名稱移動到新位置。 Workfront不會記錄任務的原始名稱。
 
    >[!TIP]
    >
@@ -127,7 +127,7 @@ ht-degree: 2%
    >
    >![](assets/move-task-multiple-tasks-box-with-list-of-task-names-nwe-350x142.png)
 
-1. 輸入的名稱 **目標專案** 您想要任務移動到的位置 **選取目標專案** 欄位。
+1. 在&#x200B;**選取目的地專案**&#x200B;欄位中，輸入您要移動任務的&#x200B;**目的地專案**&#x200B;的名稱。
 
    如果您想要在相同專案中移動任務，請輸入目前專案的名稱。
 
@@ -137,20 +137,20 @@ ht-degree: 2%
    >* 您也可以開始輸入「參考編號」或輸入專案的ID。 這可能會協助您區分具有相同名稱的專案。
    >* 清單中只會顯示100個專案。
 
-1. （視條件而定）按一下 **要求存取權** 以請求專案的存取權（如果您沒有所選專案的存取權）。
+1. （視條件而定）如果您沒有選取專案的存取權，請按一下&#x200B;**要求存取權**&#x200B;來要求存取專案。
 1. （視條件而定）如果您有權將任務新增至目標專案上的任務之一，請繼續將任務移動至所選的目標專案，而不要求存取權。
 
    ![](assets/move-task-request-access-from-project-nwe-350x120.png)
 
    >[!TIP]
    >
-   >如果Workfront管理員防止將任務新增到這些專案時，選取的專案處於未決核准、已完成或廢棄狀態，則會顯示類似訊息。 如需詳細資訊，請參閱 [設定全系統專案偏好設定](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+   >如果Workfront管理員防止將任務新增到這些專案時，選取的專案處於未決核准、已完成或廢棄狀態，則會顯示類似訊息。 如需詳細資訊，請參閱[設定全系統的專案偏好設定](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md)。
 
-1. （選用）按一下 **選項** 在左側面板
+1. （選擇性）按一下左側面板中的&#x200B;**選項**
 
    或
 
-   向下捲動至 **選項** 區中的「 」區段，然後取消選取下表所列的任何專案，以將其從移動的任務中移除。 依預設會選取所有選項。
+   向下捲動至「移動任務」方塊中的&#x200B;**選項**&#x200B;區段，然後取消選取下表所列的任何專案，以將其從移動的任務中移除。 依預設會選取所有選項。
 
    >[!IMPORTANT]
    >
@@ -179,7 +179,7 @@ ht-degree: 2%
       <li> 開始時間不晚於</li>
       </ul>
 
-   有關任務限制以及任務限制或專案日期如何受到影響的資訊，請參閱 <a href="../../../manage-work/tasks/task-constraints/task-constraint-overview.md" class="MCXref xref">任務限制總覽</a> 並尋找特定限制。</p> </td>
+   如需有關任務限制以及任務限制或專案日期如何受到影響的資訊，請參閱<a href="../../../manage-work/tasks/task-constraints/task-constraint-overview.md" class="MCXref xref">任務限制總覽</a>並尋找特定限制。</p> </td>
    </tr> 
      <tr> 
       <td role="rowheader">指派</td> 
@@ -204,7 +204,7 @@ ht-degree: 2%
      <tr> 
       <td role="rowheader">文件</td> 
       <td> <p>附加到任務的檔案未轉移到已移動的任務。 這包括版本、校樣和連結檔案。</p> <p>這不包括檔案核准。 移動任務時無法移動檔案核准。</p> 
-      <b>注意</b>
+      <b>附註</b>
 
    如果您選擇不將檔案與任務一起移動，檔案將被刪除並放入資源回收筒30天。 管理員可以還原它們，它們將在移動的任務上還原。
 
@@ -229,11 +229,11 @@ ht-degree: 2%
 
 
 
-1. （選用）按一下 **選取父系** 在左側面板
+1. （選擇性）按一下左側面板中的&#x200B;**選取父項**
 
    或
 
-   捲動至 **選取父系** 區段，然後在目的地專案中選取您要成為已移動任務之父系的任務。
+   捲動至「**選取父項**」區段，然後在目的地專案中選取您要成為已移動任務之父項的工作。
 
    >[!TIP]
    >
@@ -242,20 +242,20 @@ ht-degree: 2%
    執行下列任一項作業來選取父系：
 
    * 在任務清單中，選取專案計畫中的父項之一。
-   * 按一下搜尋圖示 ![搜尋圖示](assets/search-icon.png) 並按名稱搜尋父系任務。
+   * 按一下搜尋圖示![搜尋圖示](assets/search-icon.png)並按名稱搜尋父系任務。
 
    任務會顯示在清單中。
 
-   ![使用搜尋功能移動任務時選取父系任務 ](assets/select-parent-when-moving-tasks-with-search-functionality-nwe-350x110.png)
+   ![移動具有搜尋功能的任務時選取父系任務](assets/select-parent-when-moving-tasks-with-search-functionality-nwe-350x110.png)
 
 1. 找到父項後，選取該父項的圓鈕。
 
    如果您未選取父系任務，任務會作為主要任務而非子任務移動，並放置在目標專案上任務清單的末尾。
 
-1. 按一下 **移動任務**
+1. 按一下&#x200B;**移動任務**
 
    或
 
-   按一下 **移動任務** 當您在清單中選取多個任務時。
+   當您在清單中選取多個任務時，請按一下&#x200B;**移動任務**。
 
    移動的任務現在位於指定的專案上，且為父系任務的子任務或專案上的最後一個任務。

@@ -22,37 +22,37 @@ ht-degree: 0%
 >
 > 本頁所述的功能在生產環境使用之前可能會有所變更。
 
-如需2017.3年度所有變更的清單，請參閱  [2017.3版本活動概覽](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-release-activity-overview.md).
+如需2017.3年度所有變更的清單，請參閱  [2017.3發行活動總覽](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-release-activity-overview.md)。
 
 2017.3 Beta 1版本包含適用於Workfront管理員和其他使用者的增強功能：
 
-**對於管理員：**
+管理員的&#x200B;**：**
 
-* [防止在記錄時數時刪除任務和問題](#prevent-tasks-and-issues-from-being-deleted-when-hours-are-logged)
-* [移除設定區域中的「搶先存取」設定](#removal-of-the-early-access-setting-from-the-setup-area)
+* [記錄時數時防止刪除任務和問題](#prevent-tasks-and-issues-from-being-deleted-when-hours-are-logged)
+* [從設定區域](#removal-of-the-early-access-setting-from-the-setup-area)移除「搶先存取」設定
 * [Workfront預設電子郵件地址變更](#workfront-default-email-address-change)
 
-**針對所有使用者：**
+所有使用者的&#x200B;**：**
 
 * [資源排程改善](#resource-scheduling-improvements)
 * [寬熒幕顯示器](#widescreen-display)
-* [調整報表和清單中的欄大小及重新排序](#resize-and-reorder-columns-in-reports-and-lists)
-* [複製任務和問題時清除自訂資料選項](#clear-custom-data-option-when-copying-tasks-and-issues)
+* [調整報表和清單中的欄大小並重新排序](#resize-and-reorder-columns-in-reports-and-lists)
+* 複製任務和問題時[清除自訂資料選項](#clear-custom-data-option-when-copying-tasks-and-issues)
 * [直接從範本建立專案](#create-a-project-directly-from-a-template)
-* [訂閱物件的應用程式內通知](#in-app-notification-for-subscribed-objects)
-* [預覽環境中目前沒有可用的@Tagging案](#tagging-currently-not-available-in-the-preview-environment)
+* 訂閱物件的[應用程式內通知](#in-app-notification-for-subscribed-objects)
+* 預覽環境中目前無法使用[@Tagging](#tagging-currently-not-available-in-the-preview-environment)
 * [在專案的使用率報告中包含使用者配置資訊](#include-user-allocation-information-in-the-utilization-report-on-a-project)
 
 ## 資源排程改善 {#resource-scheduling-improvements}
 
 >[!NOTE]
 >
->已棄用資源排程工具，並已從Workfront的23.1版本中移除。 如需有關使用工作負載平衡器排程資源的資訊，請參閱 [工作負載平衡器概覽](../../../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
+>已棄用資源排程工具，並已從Workfront的23.1版本中移除。 如需有關使用工作負載平衡器排程資源的資訊，請參閱[工作負載平衡器概覽](../../../../resource-mgmt/workload-balancer/overview-workload-balancer.md)。
 
 為團隊、專案或多個專案排程資源時，若以資源經理的身分，可使用下列資源排程改進：
 
 * [以全熒幕模式檢視排程區域](#view-scheduling-area-in-full-screen-mode)
-* [檢視資源排程區域的更多日期範圍選項](#more-date-range-options-for-viewing-the-resource-scheduling-area)
+* [更多檢視資源排程區域的日期範圍選項](#more-date-range-options-for-viewing-the-resource-scheduling-area)
 * [在排程時間表上檢視預計日期](#view-projected-dates-on-the-scheduling-timeline)
 
 ### 以全熒幕模式檢視排程區域 {#view-scheduling-area-in-full-screen-mode}
@@ -104,7 +104,7 @@ ht-degree: 0%
 
 此功能不適用於儀表板清單或報表，因為這些清單已在新的資料網格結構中重新設計。 所有其他清單都會在此版本中啟用此功能。
 
-如需有關調整欄大小和重新排序的詳細資訊，請參閱 [修改欄寬和順序](../../../../reports-and-dashboards/reports/reporting-elements/modify-column-width-order.md).
+如需重新調整欄位大小與重新排序的詳細資訊，請參閱[修改欄位寬度和順序](../../../../reports-and-dashboards/reports/reporting-elements/modify-column-width-order.md)。
 
 ## 複製任務和問題時清除自訂資料選項 {#clear-custom-data-option-when-copying-tasks-and-issues}
 
@@ -112,17 +112,17 @@ ht-degree: 0%
 
 在此變更之前，當您複製任務或問題時，自訂表單中包含的自訂資料也會複製到新專案。 
 
-如需有關複製工作的詳細資訊，請參閱 [複製和複製任務](../../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md).
+如需複製工作的詳細資訊，請參閱[複製和複製工作](../../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md)。
 
-如需有關複製問題的詳細資訊，請參閱 [複製問題](../../../../manage-work/issues/manage-issues/copy-issues.md).
+如需複製問題的詳細資訊，請參閱[複製問題](../../../../manage-work/issues/manage-issues/copy-issues.md)。
 
 ## 直接從範本建立專案 {#create-a-project-directly-from-a-template}
 
 您現在可以在範本層級從範本建立專案。
 
-在此變更之前，您只能在Workfront的「專案」區域的「專案」索引標籤上，使用範本建立專案 **透過範本新增專案** 選項。
+在此變更之前，您只能使用&#x200B;**從範本新增專案**&#x200B;選項，在Workfront的「專案」區域的「專案」索引標籤上，從範本建立專案。
 
-如需從範本建立專案的詳細資訊，請參閱 [使用範本建立專案](../../../../manage-work/projects/create-projects/create-project-from-template.md).
+如需從範本建立專案的詳細資訊，請參閱[使用範本建立專案](../../../../manage-work/projects/create-projects/create-project-from-template.md)。
 
 ## 防止在記錄時數時刪除任務和問題 {#prevent-tasks-and-issues-from-being-deleted-when-hours-are-logged}
 
@@ -130,11 +130,11 @@ ht-degree: 0%
 
 在此變更之前，當您刪除記錄時數的任務或問題時，時數會隨任務或問題刪除，或它們被移動到專案，具體取決於您的時程表和時數偏好設定。
 
-如需有關刪除工作的詳細資訊，請參閱 [刪除任務](../../../../manage-work/tasks/manage-tasks/delete-tasks.md).
+如需有關刪除工作的詳細資訊，請參閱[刪除工作](../../../../manage-work/tasks/manage-tasks/delete-tasks.md)。
 
-有關刪除問題的詳細資訊，請參閱 [刪除問題](../../../../manage-work/issues/manage-issues/delete-issues.md).
+如需有關刪除問題的詳細資訊，請參閱[刪除問題](../../../../manage-work/issues/manage-issues/delete-issues.md)。
 
-如需啟用系統設定以進行任務和問題刪除的詳細資訊，請參閱 [設定系統範圍的任務和問題偏好設定](../../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
+如需啟用系統設定以進行任務和問題刪除的詳細資訊，請參閱[設定系統範圍的任務和問題偏好設定](../../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md)。
 
 ## 移除設定區域中的「搶先存取」設定 {#removal-of-the-early-access-setting-from-the-setup-area}
 
@@ -144,7 +144,7 @@ ht-degree: 0%
 
 ## Workfront預設電子郵件地址變更 {#workfront-default-email-address-change}
 
-Workfront寄出郵件的預設電子郵件地址已從 [noreply@attask.com](mailto:noreply@attask.com) 至 [noreply@my.workfront.com](mailto:noreply@workfront.com).
+Workfront傳出郵件的預設電子郵件地址已從[noreply@attask.com](mailto:noreply@attask.com)變更為[noreply@my.workfront.com](mailto:noreply@workfront.com)。
 
 如果您目前篩選從Workfront傳送的電子郵件，則需要變更篩選器以反映新的預設地址。 
 
@@ -154,15 +154,15 @@ Workfront寄出郵件的預設電子郵件地址已從 [noreply@attask.com](mail
 
 ## 訂閱物件的應用程式內通知 {#in-app-notification-for-subscribed-objects}
 
-當使用者對您訂閱的專案、任務和問題發表評論時，您現在會收到應用程式內通知。 若要進一步瞭解訂閱應用程式內通知，請參閱 [檢視及管理應用程式內通知](../../../../workfront-basics/using-notifications/view-and-manage-in-app-notifications.md).
+當使用者對您訂閱的專案、任務和問題發表評論時，您現在會收到應用程式內通知。 若要深入瞭解訂閱應用程式內通知，請參閱[檢視及管理應用程式內通知](../../../../workfront-basics/using-notifications/view-and-manage-in-app-notifications.md)。
 
-根據您的Workfront管理員啟用的功能，您還可以收到訂閱專案的電子郵件通知。 您可以透過訂閱電子郵件上的連結，輕鬆取消訂閱專案，如所述 [Adobe Workfront通知](../../../../workfront-basics/using-notifications/wf-notifications.md).
+根據您的Workfront管理員啟用的功能，您還可以收到訂閱專案的電子郵件通知。 您可以透過訂閱電子郵件上的連結，輕鬆取消訂閱專案，如[Adobe Workfront通知](../../../../workfront-basics/using-notifications/wf-notifications.md)所述。
 
 在此變更之前，您一律會收到訂閱專案的電子郵件通知，並且沒有選項可接收應用程式內通知。
 
-雖然您可以停用訂閱電子郵件，但無法停用訂閱專案的應用程式內通知。 如需詳細資訊，請參閱 [為系統中的每個人設定事件通知](../../../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md).
+雖然您可以停用訂閱電子郵件，但無法停用訂閱專案的應用程式內通知。 如需詳細資訊，請參閱[為系統中的每個人設定事件通知](../../../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md)。
 
-若要進一步瞭解訂閱專案，請參閱 [訂閱Adobe Workfront中的專案](../../../../workfront-basics/using-notifications/subscribe-to-items-in-workfront.md).
+若要進一步瞭解訂閱專案，請參閱[在Adobe Workfront中訂閱專案](../../../../workfront-basics/using-notifications/subscribe-to-items-in-workfront.md)。
 
 ## 預覽環境中目前沒有可用的@Tagging案 {#tagging-currently-not-available-in-the-preview-environment}
 
@@ -173,16 +173,16 @@ Workfront寄出郵件的預設電子郵件地址已從 [noreply@attask.com](mail
 * 問題
 * 時程表
 
-您仍然可以按一下 **包括此更新的其他專案** 圖示。
+您仍然可以按一下&#x200B;**包含此更新中的其他人**&#x200B;圖示來標籤其他人。
 
-如需詳細資訊，請參閱 [標籤其他人的更新](../../../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
+如需詳細資訊，請參閱[標籤其他人的更新](../../../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md)。
 
 ## 在專案的使用率報告中包含使用者配置資訊 {#include-user-allocation-information-in-the-utilization-report-on-a-project}
 
 >[!NOTE]
 >
->已棄用資源排程工具，並已從Workfront的23.1版本中移除。 如需有關使用工作負載平衡器排程資源的資訊，請參閱 [工作負載平衡器概覽](../../../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
+>已棄用資源排程工具，並已從Workfront的23.1版本中移除。 如需有關使用工作負載平衡器排程資源的資訊，請參閱[工作負載平衡器概覽](../../../../resource-mgmt/workload-balancer/overview-workload-balancer.md)。
 
 專案的利用報告現在會考慮是否已將計畫時數重新分配給整個任務期間。 修改時數的使用者配置時（如「在排程區域中管理使用者配置」中所述），如果在使用率報表中選取的日期只包含任務的一部分，則可能會影響使用率報表中的資料。
 
-如需詳細資訊，請參閱 [資源使用率報表概要](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md).
+如需詳細資訊，請參閱[資源使用率報告概覽](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md)。

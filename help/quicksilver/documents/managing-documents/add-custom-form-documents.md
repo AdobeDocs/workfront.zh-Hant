@@ -1,21 +1,21 @@
 ---
 product-area: documents
 navigation-topic: manage-documents
-title: 向文檔添加或編輯自定義表單
-description: 您可以將自訂表單新增至檔案或檔案版本，以擷取資產專屬的其他資訊或中繼資料。
+title: 新增或編輯自訂表單至檔案
+description: 您可以將自訂表單新增到檔案或檔案版本中，以擷取特定於您資產的其他資訊或中繼資料。
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 6c974293-1f54-447b-8d42-8d039f7911f1
 source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
 workflow-type: tm+mt
-source-wordcount: '317'
-ht-degree: 0%
+source-wordcount: '318'
+ht-degree: 1%
 
 ---
 
-# 向文檔添加或編輯自定義表單
+# 新增或編輯自訂表單至檔案
 
-您可以將自訂表單新增至檔案或檔案版本，以擷取資產專屬的其他資訊或中繼資料。
+您可以將自訂表單新增到檔案或檔案版本中，以擷取特定於您資產的其他資訊或中繼資料。
 
 ## 存取需求
 
@@ -34,43 +34,43 @@ ht-degree: 0%
    <td> <p>要求或更高版本</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">訪問級別配置*</td> 
-   <td> <p>編輯對文檔的訪問</p> <p>注意：如果您仍無權存取，請洽詢您的Workfront管理員，他們是否在您的存取層級設定其他限制。 如需Workfront管理員如何修改您的存取層級的詳細資訊，請參閱 <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>.</p> </td> 
+   <td role="rowheader">存取層級設定*</td> 
+   <td> <p>編輯檔案的存取權</p> <p>注意：如果您還是沒有存取權，請詢問您的Workfront管理員，他們是否在您的存取層級中設定其他限制。 如需Workfront管理員如何修改存取層級的詳細資訊，請參閱<a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">物件權限</td> 
-   <td> <p>管理對文檔的訪問</p> <p>有關請求其他訪問的資訊，請參閱 <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">請求對對象的訪問 </a>.</p> </td> 
+   <td role="rowheader">物件許可權</td> 
+   <td> <p>管理對檔案的存取</p> <p>如需請求其他存取權的資訊，請參閱<a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">請求物件</a>的存取權。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;若要了解您擁有的計畫、授權類型或存取權，請聯絡您的Workfront管理員。
+&#42;若要瞭解您擁有的計畫、授權型別或存取權，請連絡您的Workfront管理員。
 
-## 必要條件
+## 先決條件
 
 * 自訂表單必須與您共用
 
-## 新增自訂表單
+## 新增自訂表格
 
-要向文檔添加自定義表單，請執行以下操作：
+若要新增自訂表單至檔案：
 
-1. 轉到包含文檔的項目、任務或問題，然後選擇 **檔案**.
-1. 查找所需的文檔。
+1. 前往包含檔案的專案、任務或問題，然後選取「**檔案**」。
+1. 尋找您需要的檔案。
 
-1. 按一下 **摘要** 圖示 ![](assets/summary-panel-icon.png)，然後找到 **詳細資料** 區段。
-1. 在 **新增自訂表單** 框中，開始鍵入並選擇自定義表單。 表單會自動儲存至檔案。
+1. 按一下&#x200B;**摘要**&#x200B;圖示![](assets/summary-panel-icon.png)，然後尋找&#x200B;**詳細資料**&#x200B;區段。
+1. 在&#x200B;**新增自訂表單**&#x200B;方塊中，開始輸入並選取自訂表單。 表單會自動儲存到檔案。
 
    >[!NOTE]
    >
-   >下拉式功能表中只會顯示作用中的自訂表單。 每份檔案最多可新增10個自訂表單。 如果您需要建立自訂表單，請參閱 [建立或編輯自訂表單](../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)
+   >下拉式選單中只會顯示作用中的自訂表單。 每個檔案最多可新增10個自訂表格。 如果您需要建立自訂表格，請參閱[建立或編輯自訂表格](../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)
 
 ## 編輯自訂表單
 
-1. 轉到包含文檔的項目、任務或問題，然後選擇 **檔案**.
-1. 查找所需的文檔。
+1. 前往包含檔案的專案、任務或問題，然後選取「**檔案**」。
+1. 尋找您需要的檔案。
 
-1. 按一下 **摘要** 圖示 ![](assets/summary-panel-icon.png)，然後找到 **詳細資料** 區段。
-1. 按一下 **編輯** 在右上角，展開所要的表單。
-1. 進行所需的變更，然後按一下 **儲存**.
+1. 按一下&#x200B;**摘要**&#x200B;圖示![](assets/summary-panel-icon.png)，然後在頂端附近找到&#x200B;**詳細資料**&#x200B;區段。
+1. 按一下右上角的&#x200B;**編輯**，然後展開所需的表單。
+1. 進行必要的變更，然後按一下[儲存]。****
 
    ![](assets/edit-custom-form-350x265.png)

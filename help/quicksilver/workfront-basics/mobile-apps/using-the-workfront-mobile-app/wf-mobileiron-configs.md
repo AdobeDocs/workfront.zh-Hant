@@ -1,7 +1,7 @@
 ---
 product-previous: mobile
 navigation-topic: use-the-workfront-mobile-app
-title: 設定 [!DNL Adobe Workfront] 適用於MobileIron
+title: 設定MobileIron的 [!DNL Adobe Workfront]
 description: 在適用於MobileIron應用程式的Adobe Workfront中，我們支援MobileIron為Android和iOS提供的預設設定。
 author: Nolan
 feature: Get Started with Workfront
@@ -13,26 +13,26 @@ ht-degree: 0%
 
 ---
 
-# 設定 [!DNL Adobe Workfront] 的 [!DNL MobileIron]
+# 為[!DNL MobileIron]設定[!DNL Adobe Workfront]
 
-在Adobe Workfront中用於 [!DNL MobileIron] 應用程式，我們支援由提供的預設設定 [!DNL MobileIron] 兩者 [!DNL Android] 和 [!DNL iOS].
+在[!DNL MobileIron]應用程式的Adobe Workfront中，我們支援[!DNL MobileIron]為[!DNL Android]和[!DNL iOS]提供的預設設定。
 
 ## Android
 
-進行設定 [!DNL Workfront] 的 [!DNL MobileIron] 的 [!DNL Android]：
+若要為[!DNL Android]設定[!DNL MobileIron]的[!DNL Workfront]：
 
-1. 在您的 [!DNL MobileIron Cloud] 執行個體，前往 **[!UICONTROL 設定]**，然後按一下 **[!UICONTROL 預設 [!DNL Android] AppConnect設定]**.
+1. 在您的[!DNL MobileIron Cloud]執行個體中，移至&#x200B;**[!UICONTROL 設定]**，然後按一下&#x200B;**[!UICONTROL 預設[!DNL Android] AppConnect設定]**。
 
-1. 按一下 **[!UICONTROL 編輯]**，然後選擇要使用的選項：
+1. 按一下&#x200B;**[!UICONTROL 編輯]**，然後選擇您要使用的選項：
 
    <table style="table-layout:auto">
     <tr>
         <td><strong>[！UICONTROL複製/貼上]</strong></td>
-        <td>啟用後，您可以選擇讓使用者貼上到其他安全應用程式中，或僅在 [!DNL Workfront] 的 [!DNL MobileIron] 應用程式。</td>
+        <td>啟用時，您可以選擇讓使用者貼上到其他安全應用程式，或僅在[!DNL MobileIron]應用程式的[!DNL Workfront]內貼上。</td>
     </tr>
     <tr>
-        <td><strong>[！UICONTROL Allow Camera]</strong></td>
-        <td>啟用此選項後，使用者便能從 [!DNL Workfront] 的 [!DNL MobileIron] 應用程式。</td>
+        <td><strong>[！UICONTROL允許相機]</strong></td>
+        <td>啟用此選項後，使用者即可在[!DNL Workfront]內為[!DNL MobileIron]應用程式拍照。</td>
     </tr>
     <tr>
         <td><strong>[！UICONTROL允許相簿]</strong></td>
@@ -40,37 +40,37 @@ ht-degree: 0%
     </tr>
     <tr>
         <td><strong>[！UICONTROL允許媒體播放器]</strong></td>
-        <td>啟用後，此選項可讓使用者從 [!DNL Workfront] 的 [!DNL MobileIron] 應用程式。</td>
+        <td>啟用此選項後，使用者可以從[!DNL MobileIron]應用程式的[!DNL Workfront]內播放媒體。</td>
     </tr>
     <tr>
         <td><strong>[！UICONTROL允許熒幕擷取]</strong></td>
-        <td>啟用後，此選項可讓使用者在 [!DNL Workfront] 的 [!DNL MobileIron] 應用程式。</td>
+        <td>啟用此選項後，使用者可以在[!DNL MobileIron]應用程式的[!DNL Workfront]內擷取熒幕擷取。</td>
     </tr>
     <tr>
-        <td><strong>[！UICONTROL允許網頁]</strong></td>
-        <td>啟用後，此選項可讓使用者從 [!DNL Workfront] 的 [!DNL MobileIron] 應用程式。</td>
+        <td><strong>[！UICONTROL允許Web]</strong></td>
+        <td>啟用時，此選項可讓使用者從[!DNL MobileIron]應用程式的[!DNL Workfront]內導覽至網頁瀏覽器。</td>
     </tr>
    </table>
 
 ## [!DNL iOS]
 
-進行設定 [!DNL Workfront] 的 [!DNL MobileIron] 的 [!DNL iOS]：
+若要為[!DNL iOS]設定[!DNL MobileIron]的[!DNL Workfront]：
 
-1. 在您的 [!DNL MobileIron Cloud] 執行個體，前往 **[!UICONTROL 設定]**，然後按一下 **[!UICONTROL 預設 [!DNL iOS] AppConnect設定]**.
+1. 在您的[!DNL MobileIron Cloud]執行個體中，移至&#x200B;**[!UICONTROL 設定]**，然後按一下&#x200B;**[!UICONTROL 預設[!DNL iOS] AppConnect設定]**。
 
-1. 按一下 **[!UICONTROL 編輯]**，然後選擇要使用的選項：
+1. 按一下&#x200B;**[!UICONTROL 編輯]**，然後選擇您要使用的選項：
 
    <table style="table-layout:auto">
     <tr>
         <td><strong>[！UICONTROL複製/貼上]</strong></td>
-        <td>啟用後，您可以選擇讓使用者貼上到其他安全應用程式中，或僅在Workfront for MobileIron應用程式中進行。</td>
+        <td>啟用後，您可以選擇讓使用者貼上到其他安全應用程式中，或僅貼到Workfront for MobileIron應用程式中。</td>
     </tr>
     <tr>
         <td><strong>[！UICONTROL允許列印]</strong></td>
-        <td>啟用後，此選項可讓使用者從以下連結到AirPrint： [!DNL Workfront for MobileIron] 應用程式。</td>
+        <td>啟用時，此選項可讓使用者從[!DNL Workfront for MobileIron]應用程式連線到AirPrint。</td>
     </tr>
     <tr>
         <td><strong>[！UICONTROL允許開放式]</strong></td>
-        <td>啟用後，此選項可讓使用者透過任何其他適用的應用程式開啟URL。</td>
+        <td>啟用後，此選項可讓使用者使用任何其他適用的應用程式開啟URL。</td>
     </tr>
    </table>

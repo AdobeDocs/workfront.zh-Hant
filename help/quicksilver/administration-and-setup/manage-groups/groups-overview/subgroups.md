@@ -3,63 +3,63 @@ user-type: administrator
 content-type: reference;overview
 product-area: system-administration;user-management
 navigation-topic: groups-overview
-title: 子組概述
-description: 在一個組下最多可以建立14個子組級別。 在任一級別上，可以建立不限數量的並行子組。
+title: 子群組概述
+description: 您最多可以在一個群組下建立14層子群組。 在這些層級的任一層級上，您可以建立不限數量的平行子群組。
 author: Caroline
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: a4280498-6719-4911-a69a-b715a5438eed
 source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
 workflow-type: tm+mt
-source-wordcount: '637'
+source-wordcount: '639'
 ht-degree: 0%
 
 ---
 
-# 子組概述
+# 子群組概述
 
-在一個組下最多可以建立14個子組級別。 在任一級別上，可以建立不限數量的並行子組。 如需指示，請參閱 [建立子組](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/create-a-subgroup.md).
+您最多可以在一個群組下建立14層子群組。 在這些層級的任一層級上，您可以建立不限數量的平行子群組。 如需指示，請參閱[建立子群組](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/create-a-subgroup.md)。
 
-如需群組的相關資訊，請參閱 [群組概觀](../../../administration-and-setup/manage-groups/groups-overview/groups.md).
+如需群組的相關資訊，請參閱[群組概述](../../../administration-and-setup/manage-groups/groups-overview/groups.md)。
 
-## 子組會繼承什麼？
+## 子群組會繼承哪些內容？
 
-子組將繼承其父組的成員資格。 因此，子組中的用戶和組與屬於它們共用的父組的用戶和組具有相同的可見性、權限和對所有對象的訪問權限。
+子群組會繼承其父群組的成員資格。 因此，子群組中的使用者和群組對於所有物件的可見度、許可權和存取權，與屬於他們共用之父群組的使用者和群組相同。
 
-此外，子組會自動繼承其頂級組的組管理員，但您也可以分配子組的成員作為其組管理員。
+此外，子群組會自動繼承其最上層群組的群組管理員，但您也可以指派子群組的成員擔任其群組管理員。
 
 >[!TIP]
 >
->有時候，您可能會想要使用子組向現有組添加多個用戶，以便他們可以訪問他們需要的對象。
+>有時候，您可能會想要使用子群組將多位使用者新增至現有群組，以便讓他們存取所需的物件。
 >
->例如，假設您有一組服務台技術人員和一組單獨的IT主管。 服務台組具有特定「請求隊列」的權限。 您想要將IT控制器添加到幫助台組，以便它們也擁有「請求隊列」的權限。 如果沒有子組功能，您必須手動將IT控制器添加到幫助台組中，這可能會效率低下且難以管理。 如果將IT控制器組添加到幫助台組中作為子組，則只需更改一次即可更快地完成此任務。
+>例如，假設您有一組服務檯技術人員和另一組IT主管。 服務檯群組擁有特定請求佇列的許可權。 您想要將IT主管新增至服務檯群組，讓他們也能擁有請求佇列的許可權。 如果沒有子群組功能，您必須手動將IT主管新增到服務檯群組，這樣可能會效率低下，而且難以管理。 如果您將IT主管群組作為子群組新增至服務檯群組，只需一次變更即可更快速地完成這項工作。
 
 >[!NOTE]
 >
->如果將用戶分別添加到子組和其父組，則從其中一個組中刪除該用戶並不會從另一個組中刪除該用戶。 如果您不希望用戶具有父組的訪問權限，則必須同時從子組和父組中刪除該用戶。
+>如果將使用者分別新增至子群組及其父群組，則從其中一個群組移除使用者並不會將該使用者從另一個群組移除。 如果您不想讓使用者擁有父群組的允許存取權，您必須將使用者從子群組和父群組中移除。
 
-## 公共和私有子組
+## 公開和私人子群組
 
-對於公用群組，任何具有編輯使用者存取權的使用者（進入或退出群組）都可將群組新增至其他使用者的設定檔。 他們無法為私人群組執行此操作。
+對於公用群組，任何擁有編輯使用者存取許可權的使用者（在群組內或群組外），都可以將該群組新增到其他使用者的設定檔中。 他們無法為私人群組執行此操作。
 
-您只能在具有多個層級之群組階層的上層父群組上編輯此選項。 父組的所有子組都會繼承其設定。
+您只能在具有多個層級的群組階層中的頂層父群組上編輯此選項。 父群組的所有子群組都會繼承其設定。
 
-如果在公用的組下建立子組，預設情況下，該子組也為公用。 如需建立群組並將其公開的詳細資訊，請參閱 [建立群組](../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md). 如需編輯使用者所需存取權的詳細資訊，請參閱 [授予使用者存取權](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
+如果您在公開群組下建立子群組，預設情況下該子群組也是公開的。 如需建立群組及公開群組的詳細資訊，請參閱[建立群組](../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md)。 如需編輯使用者所需存取許可權的詳細資訊，請參閱[授予使用者存取許可權](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md)。
 
-添加到現有組的任何組都會自動成為子組，不再是主組。 但是，除了屬於新父組的所有項目、任務和發放狀態之外，子組還保留其現有用戶以及與項目、問題和任務的任何關聯。
+您新增至現有群組的任何群組都會自動變成子群組，而不再是主要群組。 但是，除了屬於新父群組的所有專案、任務和問題狀態之外，子群組會保留其現有使用者，以及與專案、問題和任務的任何關聯。
 
-## 子組的組管理員
+## 子群組的群組管理員
 
 <!--
 Group Admins of a subgroup can't manage statuses or project preferences of the subgroup YET (Sprint 22/Oct 28, 2020)</p>
 -->
 
-在建立或編輯子組時，可以將子組成員作為組管理員分配給該子組。 如需指示，請參閱 [](../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md#create) 在文章中 [建立群組](../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md).
+建立或編輯子群組時，您可以將子群組成員指派為子群組的群組管理員。 如需指示，請參閱文章[建立群組](../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md)中的[](../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md#create)。
 
-或者，您也可以將子組的管理保留給分配給上面組的組管理員。 建立子組時，其上的組的組管理員可以自動訪問管理子組。
+或者，您也可以將子群組的管理權交給群組管理員，由他們指定給該子群組之上的群組。 建立子群組時，上方群組的群組管理員擁有管理子群組的自動存取權。
 
 >[!NOTE]
 >
->如果向子組添加用戶，並且該用戶是子組上方某個組的組管理員，則該用戶具有管理子組的管理權限，即使未被分配為該子組的組管理員。
+>如果您將使用者新增至子群組，並且該使用者是該子群組上任何位置的群組管理員，則該使用者具有管理該子群組的管理許可權，即使未被指派為該子群組的群組管理員。
 
-要了解管理Workfront系統的Adobe Workfront管理員、管理頂級組的組管理員和管理子組的組管理員可以執行哪些操作，請參閱 [允許對不同類型的管理員執行的操作](../../../administration-and-setup/manage-groups/group-roles/group-actions-allowed-different-types-admins.md).
+若要瞭解哪些動作適用於管理Workfront系統的Adobe Workfront管理員、管理最上層群組的群組管理員以及管理子群組的群組管理員，請參閱[不同型別的管理員允許的動作](../../../administration-and-setup/manage-groups/group-roles/group-actions-allowed-different-types-admins.md)。

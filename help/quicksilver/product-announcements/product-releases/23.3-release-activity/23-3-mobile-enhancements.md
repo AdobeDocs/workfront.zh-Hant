@@ -16,7 +16,7 @@ ht-degree: 0%
 
 本頁說明23.3版本的所有行動裝置增強功能。 這些增強功能已在2023年7月20日和21日的23.3版本中在生產環境中提供。
 
-如需23.3版本週期目前可用的所有變更清單，請參閱 [23.3版本總覽](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-release-overview.md).
+如需23.3發行週期中目前所有可用變更的清單，請參閱[23.3發行概觀](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-release-overview.md)。
 
 ## Workfront行動應用程式中的新校訂功能
 
@@ -24,10 +24,10 @@ ht-degree: 0%
 >
 >這些功能將於2023年6月21日在Apple App Store和Google Play商店正式推出。
 
-隨著23.4版的獨立Workfront校訂應用程式淘汰，主要Workfront行動應用程式已新增校訂功能，以便讓行動裝置上的校訂繼續進行。 新功能包括：
+隨著23.4版的獨立Workfront Proof應用程式淘汰，主要Workfront行動應用程式已新增校訂功能，以便讓行動裝置上的校訂繼續進行。 新功能包括：
 
 * Workfront行動應用程式現在支援校訂的所有靜態檔案型別
 * 您可以從行動應用程式中的檔案詳細資訊和校訂詳細資訊頁面檢視校訂狀態
-* 將使用者導覽至Workfront校訂應用程式的按鈕已移除
+* 將使用者導覽至Workfront Proof應用程式的按鈕已移除
 
-如需有關Workfront行動應用程式中校訂的詳細資訊，請參閱 [在Adobe Workfront行動應用程式中檢閱校訂並作出決定](/help/quicksilver/workfront-basics/mobile-apps/using-the-workfront-mobile-app/work-with-proofs-in-mobile-app.md).
+如需有關Workfront行動應用程式中校訂的詳細資訊，請參閱[在Adobe Workfront行動應用程式中檢閱並決定校訂](/help/quicksilver/workfront-basics/mobile-apps/using-the-workfront-mobile-app/work-with-proofs-in-mobile-app.md)。

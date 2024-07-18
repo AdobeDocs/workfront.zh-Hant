@@ -1,19 +1,19 @@
 ---
 product-area: enterprise-scenario-planner-product-area
 navigation-topic: enterprise-scenario-planner-navigation-topic
-title: 刪除方案計畫員中的計畫
+title: 刪除「情境規劃工具」中的計畫
 description: 您可以刪除您建立的計畫。 您無法刪除與您共用的計畫。
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: 74515723-3822-425a-aa9e-970af63f9189
 source-git-commit: 6c5be4dccff46abbed104f1f1b3c958aaf74d629
 workflow-type: tm+mt
-source-wordcount: '530'
-ht-degree: 1%
+source-wordcount: '533'
+ht-degree: 0%
 
 ---
 
-# 刪除 [!DNL Scenario Planner]
+# 刪除[!DNL Scenario Planner]中的計畫
 
 您可以刪除您建立的計畫。 您無法刪除與您共用的計畫。
 
@@ -26,40 +26,40 @@ ht-degree: 1%
  <col> 
  <tbody> 
   <tr> 
-   <td> <p>[!DNL Adobe Workfront]<b> 計劃*</b> </p> </td> 
-   <td>[!UICONTROL Business]或更高版本</td> 
+   <td> <p>[!DNL Adobe Workfront]<b>計畫*</b> </p> </td> 
+   <td>[！UICONTROL Business]或更高版本</td> 
   </tr> 
   <tr> 
-   <td> <p>[!DNL Adobe Workfront]<b> 授權*</b> </p> </td> 
-   <td> <p>[!UICONTROL Review]或更高版本</p> </td> 
+   <td> <p>[!DNL Adobe Workfront]<b>授權*</b> </p> </td> 
+   <td> <p>[！UICONTROL Review]或更高版本</p> </td> 
   </tr> 
   <tr> 
    <td><b>產品</b> </td> 
-   <td> <p>您必須為 [!DNL Adobe Workfront Scenario Planner] 存取本文所述功能。</p> <p>如需有關取得 [!DNL Workfront Scenario Planner]，請參閱 <a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">使用 [!DNL Scenario Planner]</a>. </p> </td> 
+   <td> <p>您必須為[!DNL Adobe Workfront Scenario Planner]購買額外的授權，才能存取本文所述的功能。</p> <p>如需有關取得[!DNL Workfront Scenario Planner]的資訊，請參閱<a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">使用[!DNL Scenario Planner]</a>所需的存取權。 </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td><strong>訪問級別配置*</strong> </td> 
-   <td> <p>[!UICONTROL Edit]或更高版本 [!DNL Scenario Planner]</p> <p>注意：如果您仍無法存取，請詢問您的 [!DNL Workfront] 管理員。 如需Workfront管理員如何變更您的存取層級的詳細資訊，請參閱 <a href="../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>.</p> </td> 
+   <td><strong>存取層級設定*</strong> </td> 
+   <td> <p>[！UICONTROL Edit]或以上版本的 [!DNL Scenario Planner]</p> <p>注意：如果您還是沒有存取權，請詢問您的[!DNL Workfront]管理員是否對您的存取層級設定了其他限制。 如需Workfront管理員如何變更存取層級的詳細資訊，請參閱<a href="../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>。</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><strong>物件權限</strong> </p> </td> 
-   <td> <p>計畫的[!UICONTROL管理]權限</p> <p>有關請求對計畫進行額外訪問的資訊，請參閱 <a href="../scenario-planner/request-access-to-plan.md" class="MCXref xref">在 [!DNL Scenario Planner]</a>.</p> </td> 
+   <td> <p><strong>物件許可權</strong> </p> </td> 
+   <td> <p>[！UICONTROL Manage]計畫的許可權</p> <p>如需有關請求對計畫的額外存取權的資訊，請參閱<a href="../scenario-planner/request-access-to-plan.md" class="MCXref xref">在[!DNL Scenario Planner]</a>中請求對計畫的存取權。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;若要了解您擁有的計畫、授權類型或存取權，請聯絡您的 [!DNL Workfront] 管理員。
+&#42;若要瞭解您擁有的計畫、授權型別或存取權，請連絡您的[!DNL Workfront]管理員。
 
 ## 刪除計劃
 
 >[!IMPORTANT]
 >
->您無法恢復已刪除的計畫。
+>您無法復原已刪除的計畫。
 
-您可以刪除計畫，也可以刪除計畫中的一個方案。
+您可以刪除計畫，也可以刪除計畫中的一個情境。
 
-* [刪除計劃](#delete-plans)
-* [刪除方案](#delete-scenarios)
+* [刪除計畫](#delete-plans)
+* [刪除情境](#delete-scenarios)
 
 ### 刪除計劃
 
@@ -67,47 +67,47 @@ ht-degree: 1%
 >
 >刪除計畫時，請考量下列事項：
 >
->* 也會刪除與計畫相關的所有資訊。 這包括與計畫相關聯的所有方案和計畫，包括有關職務和成本的資訊。 無法恢復此資訊。
->* 如果計畫包含已發佈的方案，則會保留連結到已刪除方案的項目，並 [!DNL Scenario Planner] 區域仍保留在 [!UICONTROL 專案詳細資料] 區段。
+>* 也會刪除與計畫相關的所有資訊。 其中包括與計畫相關的所有案例與方案，包括職位角色與成本的資訊。 此資訊無法復原。
+>* 如果計畫包含已發佈的案例，則會保留連結至已刪除方案的專案，且[!DNL Scenario Planner]區域仍保留在[!UICONTROL 專案詳細資料]區段中。
 >
->  如需將方案發佈至專案的相關資訊，請參閱 [更新或建立專案，方法是在 [!DNL Scenario Planner]](../scenario-planner/publish-scenarios-update-projects.md).
+>  如需將方案發佈至專案的資訊，請參閱[在 [!DNL Scenario Planner]](../scenario-planner/publish-scenarios-update-projects.md)中發佈方案以更新或建立專案。
 
-要刪除計畫，請執行以下操作：
+若要刪除計畫，請執行下列步驟：
 
-1. 按一下 **[!UICONTROL 主菜單]** 圖示 ![](assets/main-menu-icon.png)，然後按一下 [!UICONTROL 藍本].
+1. 按一下&#x200B;**[!UICONTROL 主功能表]**&#x200B;圖示![](assets/main-menu-icon.png)，然後按一下[!UICONTROL 案例]。
 
    計劃清單隨即顯示。
 
-1. 按一下計畫的名稱以開啟它。
-1. 按一下 **[!UICONTROL 更多功能表]** ![](assets/more-menu.png) 在計畫名稱的右側，然後按一下 **[!UICONTROL 刪除]** > **[!UICONTROL 是，刪除它]**.
+1. 按一下計畫名稱以開啟。
+1. 按一下計畫名稱右側的&#x200B;**[!UICONTROL 更多功能表]** ![](assets/more-menu.png)，然後按一下&#x200B;**[!UICONTROL 刪除]** > **[!UICONTROL 是，刪除它]**。
 
-   計畫被刪除，然後您返回計劃清單。
+   計畫即被刪除，您將返回計劃清單。
 
-### 刪除方案 {#delete-scenarios}
+### 刪除情境 {#delete-scenarios}
 
 >[!IMPORTANT]
 >
 >刪除案例時，請考量下列事項：
 >
->* 刪除方案會從方案中刪除所有方案及其資訊。 如果這些方案被複製到其他方案，則方案將保留在其他方案中。
->* 刪除方案時，後續方案會採用已刪除的方案數，並保留計數順序。 例如，如果刪除方案4，則方案5變為方案4。
->* 如果發佈了方案上的某些方案，則保留與方案連結的項目，並且方案規劃器區域仍保留在連結的項目上
->* 如果已發佈的方案存在於另一個方案上，則它們仍存在於該方案上，包括其與項目的連結。 從其他方案發佈這些方案會使用這些方案的新資訊更新連結的項目。
+>* 刪除情境將會從此情境中刪除所有行動方案及其資訊。 如果方案被複製到其他情境，則會保留在其他情境中。
+>* 刪除案例時，後續案例會採用已刪除案例的數量，並保留計數順序。 例如，如果您刪除案例4，案例5會變成案例4。
+>* 如果案例上的某些方案已發佈，則會保留連結至方案的專案，且「案例規劃工具」區域會保留在連結的專案上
+>* 如果發佈的行動方案存在於另一個情境中，則會停留在該情境中，包括其至專案的連結。 從其他情境發佈這些方案，會以來自這些情境的新資訊更新連結的專案。
 >
->  如需將方案發佈至專案的相關資訊，請參閱 [更新或建立專案，方法是在 [!DNL Scenario Planner]](../scenario-planner/publish-scenarios-update-projects.md).
+>  如需將方案發佈至專案的資訊，請參閱[在 [!DNL Scenario Planner]](../scenario-planner/publish-scenarios-update-projects.md)中發佈方案以更新或建立專案。
 
-若要刪除案例：
+若要刪除案例，請執行下列動作：
 
-1. 轉到要刪除方案的計畫。
+1. 移至您要刪除情境的計畫。
 
-   依預設，會顯示「初始」藍本。
+   依預設，會顯示初始案例。
 
-1. 按一下 **[!UICONTROL 比較方案]**.
-1. 從情境卡的右上角，按一下 **[!UICONTROL 更多]** 功能表 ![](assets/more-menu.png)，然後按一下 **[!UICONTROL 刪除]**.
+1. 按一下&#x200B;**[!UICONTROL 比較案例]**。
+1. 從情境卡的右上角，按一下&#x200B;**[!UICONTROL 更多]**&#x200B;功能表![](assets/more-menu.png)，然後按一下&#x200B;**[!UICONTROL 刪除]**。
 
-   會刪除案例。
+   情境已刪除。
 
-1. 按一下 **[!UICONTROL 保存計畫]** 來儲存變更。
+1. 按一下&#x200B;**[!UICONTROL 儲存計畫]**&#x200B;以儲存變更。
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

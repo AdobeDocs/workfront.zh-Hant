@@ -23,7 +23,7 @@ ht-degree: 8%
 >[!NOTE]
 >
 >「依團隊的活動」視覺效果的行為與此視覺效果類似，但「依團隊的活動」視覺效果顯示所有專案的主要團隊活動。\
->如需「依團隊的活動」視覺效果的資訊，請參閱 [在Enhanced Analytics中檢視依團隊的活動視覺效果](../enhanced-analytics/activity-by-team-overview.md).
+>如需依團隊的活動視覺效果的相關資訊，請參閱[在增強型分析中檢視依團隊的活動](../enhanced-analytics/activity-by-team-overview.md)。
 
 ## 存取需求
 
@@ -56,21 +56,21 @@ ht-degree: 8%
  </tbody> 
 </table>
 
-如需有關此表格的詳細資訊，請參閱 [Workfront檔案中的存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 ## 先決條件
 
-如需使用增強型Analytics的必要條件，請參閱 [增強型分析概述](../enhanced-analytics/enhanced-analytics-overview.md).
+如需使用增強型分析的先決條件，請參閱[增強型分析概觀](../enhanced-analytics/enhanced-analytics-overview.md)中的「先決條件」一節。
 
 ## 瞭解專案活動視覺效果
 
 專案活動會以不同顏色顯示，以隨著期間摘要出專案中的特定事件：
 
-* **使用者已登入**：紫色方塊顯示指派給專案的使用者當天登入。 顏色越深表示登入人數越多。
+* **登入的使用者**：紫色方塊顯示指派給專案的使用者於當天登入。 顏色越深表示登入人數越多。
 
   ![](assets/project-activity-users-logged-in.png)
 
-* **任務狀態變更**：粉紅色方塊顯示人員當天變更了專案任務的狀態。 顏色深表示發生狀態變更的任務數量較多。
+* **任務狀態變更**：粉紅色方塊顯示人員已於當天變更專案任務的狀態。 顏色深表示發生狀態變更的任務數量較多。
 
   ![](assets/project-activity-task-status-changes.png)
 
@@ -84,18 +84,18 @@ ht-degree: 8%
 
 * 特定專案的活動。
 * 比較一個專案與另一個專案的活動。
-* 哪些用戶正在處理項目以及頻率如何。
+* 哪些使用者正在處理項目以及頻率如何。
 
-若要瞭解如何針對此視覺效果取得最佳資料，請參閱 [增強型分析概述](../enhanced-analytics/enhanced-analytics-overview.md).
+若要瞭解如何取得此視覺效果的最佳資料，請參閱[增強型分析概述](../enhanced-analytics/enhanced-analytics-overview.md)。
 
 ## 檢視專案活動視覺效果
 
-1. 按一下主要功能表圖示 ![](assets/main-menu-icon-16x12.png)，然後選取 **Analytics**.
+1. 按一下主要功能表圖示![](assets/main-menu-icon-16x12.png)，然後選取&#x200B;**Analytics**。
 1. （可選）若要使用不同的日期範圍，請從日期範圍篩選器中選取新的開始和結束日期。
 
    ![](assets/filters-select-date-range-350x344.png)
 
-   如需有關使用日期範圍篩選的資訊，請參閱 [在增強型分析中套用篩選器](../enhanced-analytics/use-enhanced-analytics-filters.md).
+   如需有關使用日期範圍篩選的資訊，請參閱[在增強型分析中套用篩選](../enhanced-analytics/use-enhanced-analytics-filters.md)。
 
    >[!NOTE]
    >
@@ -103,7 +103,7 @@ ht-degree: 8%
 
 1. （視條件而定）如果您需要限制專案資料集，請選取並套用您要使用的篩選器。
 
-   如需在增強型分析中新增篩選器的詳細資訊，請參閱 [在增強型分析中套用篩選器](../enhanced-analytics/use-enhanced-analytics-filters.md).
+   如需在增強型分析中新增篩選器的詳細資訊，請參閱[在增強型分析中套用篩選器](../enhanced-analytics/use-enhanced-analytics-filters.md)。
 
    新增篩選器後，系統會顯示最多50個專案的資料，而且即使您離開頁面或登出Workfront，篩選器仍會保持作用中。
 
@@ -113,7 +113,7 @@ ht-degree: 8%
 
    ![](assets/timeframe-filter-350x220.png)
 
-1. （選用）若要變更專案的排序方式，請按一下 **排序依據：** 功能表，然後選取新的排序選項：
+1. （選擇性）若要變更專案的排序方式，請按一下&#x200B;**排序依據**&#x200B;功能表，然後選取新的排序選項：
 
    * **A - Z**
    * **Z - A**
@@ -136,8 +136,8 @@ ht-degree: 8%
 
    ![](assets/project-activity-activity-pop-up-350x137.png)
 
-1. （選用）若要匯出視覺效果資料，請按一下 **「匯出」圖示** ![](assets/export.png) 然後選取匯出格式：
+1. （選擇性）若要匯出視覺效果資料，請按一下視覺效果右上角的&#x200B;**匯出圖示** ![](assets/export.png)，然後選取匯出格式：
 
    * **圖表(PNG)**
-   * **資料表格(XSLX)**
+   * **資料表(XSLX)**
 

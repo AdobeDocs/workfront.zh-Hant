@@ -35,25 +35,25 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td role="rowheader">AdobeWorkfront授權*</td> 
-   <td> <p>計劃 </p> <p>您必須是群組的群組管理員或Workfront管理員。 如需詳細資訊，請參閱 <a href="../../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">群組管理員</a> 和 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">授予使用者完整管理存取權</a>.</p> </td> 
+   <td> <p>計劃 </p> <p>您必須是群組的群組管理員或Workfront管理員。 如需詳細資訊，請參閱<a href="../../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">群組管理員</a>和<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">授與使用者完整管理存取權</a>。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">物件許可權</td> 
-   <td> <p>投資組合必須與群組或其任何子群組相關聯。</p> <p>此外，您必須有許可權才能檢視投資組合，可能是因為您已建立投資組合，或是因為已與您共用。</p> <p>如需請求其他存取許可權的詳細資訊，請參閱 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">要求物件的存取權 </a>.</p> </td> 
+   <td> <p>投資組合必須與群組或其任何子群組相關聯。</p> <p>此外，您必須有許可權才能檢視投資組合，可能是因為您已建立投資組合，或是因為已與您共用。</p> <p>如需請求其他存取權的資訊，請參閱<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">請求物件</a>的存取權。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;如果您需要瞭解自己的計畫或授權型別，請聯絡Workfront管理員。
+&#42;如果您需要瞭解您擁有的計畫或授權型別，請連絡您的Workfront管理員。
 
 ## 從群組區域檢視、處理和建立群組的投資組合
 
-1. 按一下 **主要功能表** 圖示 ![](assets/main-menu-icon.png) (位於Adobe Workfront的右上角)，然後按一下 **設定** ![](assets/gear-icon-settings.png).
+1. 按一下Adobe Workfront右上角的&#x200B;**主要功能表**&#x200B;圖示![](assets/main-menu-icon.png)，然後按一下&#x200B;**設定** ![](assets/gear-icon-settings.png)。
 
-1. 在左側面板中，按一下 **群組** ![](assets/groups-icon.png).
+1. 在左側面板中，按一下&#x200B;**群組** ![](assets/groups-icon.png)。
 
 1. 按一下您要建立、檢視或使用投資組合的群組名稱。
-1. 在左側面板中，按一下 **Portfolio** 列出與群組（及其下方的任何子群組）相關聯的投資組合。
+1. 在左側面板中，按一下&#x200B;**Portfolio**&#x200B;以列出與群組（及其下方的任何子群組）相關聯的投資組合。
 1. 執行下列任一項作業：
 
    <table style="table-layout:auto"> 
@@ -64,24 +64,24 @@ ht-degree: 1%
       <td role="rowheader">新增投資組合</td> 
       <td> 
        <ol> 
-        <li value="1"> <p>按一下 <strong>新Portfolio</strong>.</p> </li> 
-        <li value="2">取代 <strong>未命名的Portfolio</strong> ，其名稱為您想要的投資組合。</li>
-        <li value="3"><p>按一下 <strong>Portfolio詳細資料</strong> 並視需要更新概述區域中的資訊。</p>
-        <p>如需有關組態選項的詳細資訊，請參閱 <a href="/help/quicksilver/manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md" class="MCXref xref">建立投資組合</a>.</p></li>
+        <li value="1"> <p>按一下<strong>新增Portfolio</strong>。</p> </li> 
+        <li value="2">將<strong>未命名的Portfolio</strong>取代為您要為投資組合設定的名稱。</li>
+        <li value="3"><p>按一下左側面板中的<strong>Portfolio詳細資料</strong>，並視需要更新總覽區域中的資訊。</p>
+        <p>如需組態選項的詳細資訊，請參閱<a href="/help/quicksilver/manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md" class="MCXref xref">建立投資組合</a>。</p></li>
         <li value="4">按一下瀏覽器的「上一步」按鈕，返回群組的Portfolio清單。</li> 
        </ol> </td>
      </tr> 
      <tr> 
       <td role="rowheader"> <p>編輯或刪除投資組合</p> </td> 
-      <td> <p>請至少選取一個您有權編輯的投資組合，然後使用工具列按鈕進行編輯 <img src="assets/edit-icon.png"> 或刪除 <img src="assets/delete.png"> it.</p> </td> 
+      <td> <p>請至少選取一個您有權編輯的投資組合，然後使用工具列按鈕來編輯<img src="assets/edit-icon.png">或刪除<img src="assets/delete.png">。</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">共用投資組合</td> 
-      <td>請至少選取一個您有權共用的投資組合，然後按一下共用圖示 <img src="assets/share-icon.png">.</td> 
+      <td>請至少選取一個您有權共用的投資組合，然後按一下共用圖示<img src="assets/share-icon.png">。</td> 
      </tr> 
      <tr> 
       <td role="rowheader"> <p>匯出投資組合清單</p> </td> 
-      <td>按一下 <strong>匯出</strong> <img src="assets/export.png">，然後選取您要用於匯出清單的檔案格式。</td> 
+      <td>按一下<strong>匯出</strong> <img src="assets/export.png">，然後選取您要用於匯出清單的檔案格式。</td> 
      </tr> 
     </tbody> 
    </table>

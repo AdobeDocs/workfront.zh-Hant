@@ -22,20 +22,20 @@ ht-degree: 0%
 >
 > 本頁所述的功能在生產環境使用之前可能會有所變更。
 
-如需2018.1年度所有變更的清單，請參閱  [2018.1版本活動概覽](../../../../product-announcements/product-releases/quarterly-release-archive/2018.1-release-activity/2018-1-release-activity-overview.md).
+如需2018.1年度所有變更的清單，請參閱  [2018.1發行活動總覽](../../../../product-announcements/product-releases/quarterly-release-archive/2018.1-release-activity/2018-1-release-activity-overview.md)。
 
-2018.1測試版最終版本包含適用於Workfront管理員和其他使用者的增強功能：
+2018.1 Beta最終版本包含適用於Workfront管理員和其他使用者的增強功能：
 
-**適用於管理員**
+管理員的&#x200B;****
 
 * [設定資源可用性與使用者配置，以根據使用者排程進行計算](#configure-resource-availability-and-user-allocations-to-calculate-based-on-the-user-schedule)
 
-**適用於所有使用者**
+**所有使用者**
 
 * [行動裝置增強功能](#mobile-enhancements)
 * [Jira整合](#jira-integration)
-* [校訂檢視器名稱的更新](#update-to-proofing-viewer-names)
-* [從校訂生產環境同步至預覽時變更為同步化步調](#change-to-synchronization-cadence-when-synchronizing-from-the-proofing-production-environment-to-preview)
+* [更新至校訂檢視器名稱](#update-to-proofing-viewer-names)
+* 從校訂生產環境同步到預覽時[變更為同步化步調](#change-to-synchronization-cadence-when-synchronizing-from-the-proofing-production-environment-to-preview)
 * [在資源規劃工具中達到2,000個料號限制時顯示警告訊息](#warning-message-displays-when-the-2-000-item-limit-is-reached-in-the-resource-planner)
 
 ## 行動裝置增強功能 {#mobile-enhancements}
@@ -59,26 +59,26 @@ iOS和Android平台均支援新功能。
 
 Workfront附加元件將適用於Jira的內部部署和隨選版本。 此附加元件免費且將於2018年3月初在Atlassian Marketplace中可供下載。
 
-如需適用於Jira的Workfront附加元件的詳細資訊，包括下載連結，請參閱 [搭配Jira使用Workfront。](https://support.workfront.com/hc/en-us/sections/115001130053)
+如需有關適用於Jira的Workfront附加元件的詳細資訊，包括下載連結，請參閱[搭配Jira使用Workfront。](https://support.workfront.com/hc/en-us/sections/115001130053)
 
 ## 校訂檢視器名稱的更新 {#update-to-proofing-viewer-names}
 
 在整個Workfront系統中，HTML5型校訂檢視器和Flash型校訂檢視器的名稱已重新命名。 先前和更新的名稱如下： 
 
-| **前一個名稱** | **已更新名稱** |
+| **先前名稱** | **已更新名稱** |
 |---|---|
 | HTML5校訂檢視器 | 新校訂檢視器 |
 | Flash校訂檢視器 | 舊版校訂檢視器 |
 
 {style="table-layout:auto"}
 
- 如需有關使用新校訂檢視器的詳細資訊，請參閱 [在校訂檢視器中檢閱校訂。](https://support.workfront.com/hc/en-us/sections/115000275214)
+ 如需有關使用新校訂檢視器的詳細資訊，請參閱[在校訂檢視器中檢閱校訂。](https://support.workfront.com/hc/en-us/sections/115000275214)
 
 ## 設定資源可用性與使用者配置，以根據使用者排程進行計算 {#configure-resource-availability-and-user-allocations-to-calculate-based-on-the-user-schedule}
 
 >[!NOTE]
 >
->已棄用資源排程工具，並已從Workfront的23.1版本中移除。 如需有關使用工作負載平衡器排程資源的資訊，請參閱 [工作負載平衡器概覽](../../../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
+>已棄用資源排程工具，並已從Workfront的23.1版本中移除。 如需有關使用工作負載平衡器排程資源的資訊，請參閱[工作負載平衡器概覽](../../../../resource-mgmt/workload-balancer/overview-workload-balancer.md)。
 
 Workfront管理員現在可以決定Workfront如何計算系統層級的資源可用性和使用者配置（考量時數及FTE可用性）。 Workfront管理員可設定要使用預設排程或使用者的排程來計算資源使用狀態和使用者配置。
 
@@ -92,7 +92,7 @@ Workfront管理員現在可以決定Workfront如何計算系統層級的資源�
 
 >[!NOTE]
 >
->已棄用資源排程工具，並已從Workfront的23.1版本中移除。 如需有關使用工作負載平衡器排程資源的資訊，請參閱 [工作負載平衡器概覽](../../../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
+>已棄用資源排程工具，並已從Workfront的23.1版本中移除。 如需有關使用工作負載平衡器排程資源的資訊，請參閱[工作負載平衡器概覽](../../../../resource-mgmt/workload-balancer/overview-workload-balancer.md)。
 
 
 ## 從校訂生產環境同步至預覽時變更為同步化步調 {#change-to-synchronization-cadence-when-synchronizing-from-the-proofing-production-environment-to-preview}
@@ -101,11 +101,11 @@ Workfront管理員現在可以決定Workfront如何計算系統層級的資源�
 >
 >此變更將於2018年2月11日生效。
 
-來自Workfront校訂生產環境的資料現在每週都會同步到Workfront校訂預覽環境。
+Workfront Proof生產環境中的資料現在每週都會同步至Workfront Proof預覽環境。
 
-在此變更之前，資料會每月從Workfront校訂生產環境同步到預覽環境，而來自Workfront生產環境的資料每週會同步到Workfront預覽環境。 在Workfront預覽環境中使用校訂功能時，這種差異會導致一些同步處理錯誤。 
+在此變更前，資料會每月從Workfront Proof生產環境同步到預覽環境，而來自Workfront生產環境的資料每週會同步到Workfront預覽環境。 在Workfront預覽環境中使用校訂功能時，這種差異會導致一些同步處理錯誤。 
 
-如需詳細資訊，請參閱 [預覽Sandbox測試環境 — Workfront Proof](../../../../workfront-proof/wp-getstarted/system-information/preview-sandbox.md). 
+如需詳細資訊，請參閱[預覽Sandbox測試環境 — Workfront Proof](../../../../workfront-proof/wp-getstarted/system-information/preview-sandbox.md)。 
 
 ## 在資源規劃工具中達到2,000個料號限制時顯示警告訊息 {#warning-message-displays-when-the-2-000-item-limit-is-reached-in-the-resource-planner}
 
@@ -117,7 +117,7 @@ Workfront管理員現在可以決定Workfront如何計算系統層級的資源�
 
 當資源規劃工具嘗試載入超過2,000個專案時，會顯示通知，提醒您只能顯示2,000個專案。
 
-有關這些限制以及它們如何影響資源規劃工具的更多資訊，請參閱 [資源規劃工具顯示限制](../../../../resource-mgmt/resource-planning/resource-planner-display-limitations.md).
+如需這些限制及其如何影響資源規劃工具的詳細資訊，請參閱[資源規劃工具顯示限制](../../../../resource-mgmt/resource-planning/resource-planner-display-limitations.md)。
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">To participate in our beta program for the Resource Planner performance, see <a href="../../../../product-announcements/betas/resource-planner-performance-beta.md" class="MCXref xref">Resource Planner performance beta </a>.</p>

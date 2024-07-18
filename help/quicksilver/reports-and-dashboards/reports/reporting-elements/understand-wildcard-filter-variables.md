@@ -38,12 +38,12 @@ ht-degree: 1%
 <table>
     <tr>
         <td>清單、報表和資源規劃工具中的篩選器</td>
-        <td>如需Workfront篩選器的相關資訊，請參閱文章 <a href="../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md">篩選器概觀</a>.
+        <td>如需Workfront篩選器的相關資訊，請參閱文章<a href="../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md">篩選總覽</a>。
 </td>
     </tr>
     <tr>
         <td>進階搜尋</td>
-        <td>如需進階搜尋的相關資訊，請參閱區段 <a href="../../../workfront-basics/navigate-workfront/search/search-workfront.md#using-advanced-search">使用進階搜尋</a> 在文章中 <a href="../../../workfront-basics/navigate-workfront/search/search-workfront.md">搜尋Adobe Workfront</a>.
+        <td>如需進階搜尋的相關資訊，請參閱<a href="../../../workfront-basics/navigate-workfront/search/search-workfront.md">搜尋Adobe Workfront</a>一文中的<a href="../../../workfront-basics/navigate-workfront/search/search-workfront.md#using-advanced-search">使用進階搜尋</a>一節。
     </tr>
     <tr>
         <td>檢視中的已計算欄</td>
@@ -51,20 +51,20 @@ ht-degree: 1%
     </tr>
     <tr>
         <td>檢視中的條件式格式</td>
-        <td>如需有關條件式格式的資訊，請參閱文章 <a href="../../../reports-and-dashboards/reports/reporting-elements/use-conditional-formatting-views.md">在檢視中使用條件式格式</a>.
+        <td>如需條件式格式的詳細資訊，請參閱文章<a href="../../../reports-and-dashboards/reports/reporting-elements/use-conditional-formatting-views.md">在檢視中使用條件式格式</a>。
     </tr>
     <tr>
         <td>已計算的自訂欄位</td>
         <td>在計算欄中參考巢狀集合時，不支援萬用字元篩選變數。
 
-如需有關計算的自訂欄位和欄的資訊，請參閱文章 <a hreft="../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-custom-fields-calculated-columns.md">計算自訂欄位與計算欄的比較</a>.
+如需有關計算自訂欄位和欄的資訊，請參閱文章<a hreft="../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-custom-fields-calculated-columns.md">計算自訂欄位與計算欄位的比較</a>。
 </td>
     </tr>
 </table>
 
 ## 以日期為基礎的萬用字元篩選變數
 
-日期型萬用字元選項可與任何日期篩選屬性結合使用。 如需有關新增日期型萬用字元至報表的資訊，請參閱文章 [使用日期型萬用字元來一般化報表](../../../reports-and-dashboards/reports/reporting-elements/use-date-based-wildcards-generalize-reports.md).
+日期型萬用字元選項可與任何日期篩選屬性結合使用。 如需有關新增日期型萬用字元至報表的資訊，請參閱文章[使用日期型萬用字元來一般化報表](../../../reports-and-dashboards/reports/reporting-elements/use-date-based-wildcards-generalize-reports.md)。
 
 >[!NOTE]
 >
@@ -78,11 +78,11 @@ ht-degree: 1%
  <tbody> 
   <tr valign="top"> 
    <td width="100" role="rowheader"> <p><strong>$$今天</strong> </p> </td> 
-   <td> <p>建議您使用此萬用字元建立日期敏感型篩選器，以免在明天、下週或下個月再次建立篩選器。</p> <p>例如，如果您想要顯示今天之前到期的所有任務，您可以在任務篩選中使用下列規則： <em>計劃開始日期少於$$TODAY</em>.</p> <p>$$TODAY一律等於當天的午夜。</p> </td> 
+   <td> <p>建議您使用此萬用字元建立日期敏感型篩選器，以免在明天、下週或下個月再次建立篩選器。</p> <p>例如，如果您想要顯示今天之前到期的所有任務，您可以在任務篩選中使用下列規則： <em>規劃開始日期小於$$TODAY</em>。</p> <p>$$TODAY一律等於當天的午夜。</p> </td> 
   </tr> 
   <tr valign="top"> 
-   <td width="100" role="rowheader"> <p><strong>$$NOW</strong> </p> </td> 
-   <td> <p>這類似於$$TODAY萬用字元，但包含目前的日期和時間。 $$NOW等於目前的日期和時間。</p> <p>例如，如果您想顯示截至目前時間提供的所有小時專案，可在小時篩選中使用下列規則來執行： <em>計劃開始日期少於$$NOW</em>.</p> <p>注意：資源規劃工具不支援這個萬用字元。</p> </td> 
+   <td width="100" role="rowheader"> <p><strong>$$現在</strong> </p> </td> 
+   <td> <p>這類似於$$TODAY萬用字元，但包含目前的日期和時間。 $$NOW等於目前的日期和時間。</p> <p>例如，如果您想要顯示截至目前時間提供的所有小時專案，您可以在小時篩選中使用下列規則來執行： <em>規劃開始日期小於$$NOW</em>。</p> <p>注意：資源規劃工具不支援這個萬用字元。</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -92,7 +92,7 @@ ht-degree: 1%
 | 屬性 |   |
 |---|---|
 | **q** | 行事曆季度 |
-| **h** | 小時 |
+| **小時** | 小時 |
 | **d** | 天 |
 | **w** | 週 |
 | **m** | 月 |
@@ -103,7 +103,7 @@ ht-degree: 1%
 | **限定詞** | |
 |---|---|
 | **b** | 期間開始（沒有指定屬性，預設為一週的開始：星期日） |
-| **è** | 期間結束（沒有指定屬性，預設為一週結束：星期六） |
+| **e** | 期間結束（沒有指定屬性，預設為一週結束：星期六） |
 
 {style="table-layout:auto"}
 
@@ -114,7 +114,7 @@ ht-degree: 1%
 
 {style="table-layout:auto"}
 
-例如，萬用字元 `$$TODAYb+2w` 是指「本週初起的2週」。 萬用字元*`$$NOW+2h` 是指「從現在起的2小時」。
+例如，萬用字元`$$TODAYb+2w`是指「從本週開始的2週」。 萬用字元*`$$NOW+2h`表示「從現在起的2小時」。
 
 ## 使用者型萬用字元篩選器變數
 
@@ -122,7 +122,7 @@ ht-degree: 1%
 >
 >如果篩選器或報表包含以使用者為基礎的萬用字元篩選器變數，結果一律會顯示依目前登入的使用者所篩選的資訊。 當您與其他使用者共用這類篩選器或報表時，萬用字元會擷取檢視報表之使用者的資訊。 這兩個使用者會看到不同的結果。
 >
->如需有關新增使用者型萬用字元至報表的資訊，請參閱文章 [使用以使用者為基礎的萬用字元來歸納報表](../../../reports-and-dashboards/reports/reporting-elements/use-user-based-wildcards-generalize-reports.md).
+>如需有關新增使用者型萬用字元到報告的資訊，請參閱文章[使用使用者型萬用字元來一般化報告](../../../reports-and-dashboards/reports/reporting-elements/use-user-based-wildcards-generalize-reports.md)。
 
 您可從下列使用者型變數中選擇：
 
@@ -134,7 +134,7 @@ ht-degree: 1%
    <td width="200" role="rowheader"> <p><strong>$$USER.ID</strong> </p> </td> 
    <td> <!--
      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: : should these be formatted with code?!) </p>
-    --> <p>最常見的使用者型變數為$$USER.ID。 系統會一律傳回登入使用者的ID。 此ID用於識別建立每個物件及其工作指派的使用者。</p> <p>在報告中使用時，此萬用字元會減少您需要在系統中建立的報告數量。 您可以建立一個報告並與多位使用者共用，而結果會根據登入並檢視報告的使用者而改變。</p> <p>例如，若要針對指派給已登入之使用者的所有問題建立報告，您可以在問題篩選器中使用以下規則： <em>指派至的ID等於$$USER.ID</em>.</p> <p>Workfront會在下列內建篩選器中使用此變數：</p> 
+    --> <p>最常見的使用者型變數為$$USER.ID。 系統會一律傳回登入使用者的ID。 此ID用於識別建立每個物件及其工作指派的使用者。</p> <p>在報告中使用時，此萬用字元會減少您需要在系統中建立的報告數量。 您可以建立一個報告並與多位使用者共用，而結果會根據登入並檢視報告的使用者而改變。</p> <p>例如，若要針對指派給已登入之使用者的所有問題建立報告，您可以在問題篩選器中使用下列規則： <em>指派給ID等於$$USER.ID</em>。</p> <p>Workfront會在下列內建篩選器中使用此變數：</p> 
     <ul> 
      <li>我的報告</li> 
      <li>我的專案</li> 
@@ -182,7 +182,7 @@ ht-degree: 1%
   </tr> 
   <tr valign="top"> 
    <td role="rowheader"> <p><strong>$$USER.homeGroupID</strong> </p> </td> 
-   <td> <p>$$USER.homeGroupID變數是指登入使用者主群組ID。 作為群組管理員，您可以使用此變數來僅篩選屬於主群組使用者的專案。</p> <p>例如，若要檢視財務群組中專案的所有未完成任務，請在任務篩選中使用下列篩選規則：<br><em>專案：群組識別碼等於$$USER.homeGroupID </em><br><em>完成百分比小於100</em></p> <p>若要檢視指派給特定群組（登入使用者的主群組）中個人的所有未完成任務，請在任務篩選中使用以下篩選規則：</p> <p><em>指派給：群組ID等於$$USER.homeGroupID<br>完成百分比小於100</em> </p> </td> 
+   <td> <p>$$USER.homeGroupID變數是指登入使用者主群組ID。 作為群組管理員，您可以使用此變數來僅篩選屬於主群組使用者的專案。</p> <p>例如，若要檢視財務群組中專案的所有未完成任務，請在任務篩選中使用下列篩選規則： <br><em>專案：群組識別碼等於$$USER.homeGroupID </em><br><em>完成百分比小於100</em></p> <p>若要檢視指派給特定群組（登入使用者的主群組）中個人的所有未完成任務，請在任務篩選中使用以下篩選規則：</p> <p><em>指派給：群組識別碼等於$$USER.homeGroupID<br>完成百分比小於100</em> </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td role="rowheader"> <p><strong>$$USER.otherGroupIDs</strong> </p> </td> 
@@ -198,11 +198,11 @@ ht-degree: 1%
   </tr> 
   <tr valign="top"> 
    <td role="rowheader"> <p><strong>$$USER.roleID</strong> </p> </td> 
-   <td> <p>$$USER.roleID變數是指登入使用者的主要角色。 使用此變數，您可以報告指派給特定工作角色的任務或問題。</p> <p>例如，若要檢視指派給登入使用者之主要角色的所有任務，您可以在任務篩選中使用以下篩選規則：</p> <p><em>任務：角色ID等於$$USER.roleID。</em> </p> </td> 
+   <td> <p>$$USER.roleID變數是指登入使用者的主要角色。 使用此變數，您可以報告指派給特定工作角色的任務或問題。</p> <p>例如，若要檢視指派給登入使用者之主要角色的所有任務，您可以在任務篩選中使用以下篩選規則：</p> <p><em>工作：角色ID等於$$USER.roleID。</em> </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td role="rowheader"><p><strong>$$USER.roleIDs</strong></p></td> 
-   <td> <p>$$USER.roleIDs變數是指與登入使用者相關聯的所有工作角色。 使用此變數，您可以報告指派給與登入使用者相關聯之任何工作角色的任務或問題。 </p> <p>例如，若要檢視指派給與登入使用者相關聯之任何角色的所有任務，您可以在任務篩選中使用以下篩選規則：</p> <p><i>任務：角色ID等於$$USERID.roleIDs<br></i> </p> <p>秘訣： <i>任務：角色ID等於$$USERID.roleIDs</i> 篩選器規則存在於內建篩選器中「我的角色中的未指派任務」和「我的角色中的未指派問題」。 </p> </td> 
+   <td> <p>$$USER.roleIDs變數是指與登入使用者相關聯的所有工作角色。 使用此變數，您可以報告指派給與登入使用者相關聯之任何工作角色的任務或問題。 </p> <p>例如，若要檢視指派給與登入使用者相關聯之任何角色的所有任務，您可以在任務篩選中使用以下篩選規則：</p> <p><i>工作：角色ID等於$$USERID.roleIDs<br></i> </p> <p>提示： <i>任務：角色ID等於$$USERID.roleIDs</i>篩選器規則存在於「我的角色」的「未指派任務」和「我的角色」的「未指派問題」內建篩選器中。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -222,7 +222,7 @@ ht-degree: 1%
      <p>$$OBJCODE變數是指物件的型別。 </p> 
      <p>在自訂表單中，當表單的選定物件型別與計算自訂欄位中參照的欄位不相容時，您可以使用此萬用字元來避免為這些物件型別建立重複表單的因應措施。</p> 
      <p>在計算自訂欄位中，做法是在IF運算式中加入萬用字元，讓計算可以為表單的每個物件型別輸出不同的值。 </p> 
-     <p>如需詳細資訊和範例，請參閱區段 <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md#calculat" class="MCXref xref">多物件自訂表單中的已計算自訂欄位</a> 在文章中 <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md" class="MCXref xref">新增計算資料至自訂表單</a>.</p> 
+     <p>如需詳細資訊和範例，請參閱文章<a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md" class="MCXref xref">將計算資料新增至自訂表單</a>中的<a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md#calculat" class="MCXref xref">多物件自訂表單中的計算自訂欄位</a>一節。</p> 
     </div> </td> 
   </tr> 
  </tbody> 

@@ -24,7 +24,7 @@ ht-degree: 2%
 
      或
 
-     適用於Prime或選取Adobe Workfront計畫的Adobe Workfront目標的其他授權。 如需詳細資訊，請參閱 [Adobe Workfront計畫](https://www.workfront.com/plans).
+     適用於Prime或選取Adobe Workfront計畫的Adobe Workfront目標的其他授權。 如需詳細資訊，請參閱[Adobe Workfront計畫](https://www.workfront.com/plans)。
 
 * 對於目前的計畫與授權結構：
 
@@ -41,7 +41,7 @@ Workfront管理員授與您存取Workfront目標的許可權後，您就可以�
 
 >[!TIP]
 >
->在一個區段中更新的篩選器會自動套用到「目標清單」、「圖表」和「目標校準」區段。 如此一來，您只能更新一次。 如需詳細資訊，請參閱 [在Adobe Workfront目標中篩選資訊](../../workfront-goals/goal-management/filter-information-wf-goals.md).
+>在一個區段中更新的篩選器會自動套用到「目標清單」、「圖表」和「目標校準」區段。 如此一來，您只能更新一次。 如需詳細資訊，請參閱[在Adobe Workfront目標中篩選資訊](../../workfront-goals/goal-management/filter-information-wf-goals.md)。
 
 以下簡要概述Workfront目標的各個區段以及可用於管理目標的選項。 如需您可以在Workfront目標的每個區段內執行之其他動作的詳細資訊，我們也建議閱讀下列文章：
 
@@ -54,7 +54,7 @@ Workfront管理員授與您存取Workfront目標的許可權後，您就可以�
 
 您可以使用「目標清單」來檢閱屬於您、您的團隊、群組或您的組織的目標。 您可以檢視任何狀態和任何時段中的目標。
 
-如需有關導覽目標清單和管理目標的資訊，請參閱 [管理Adobe Workfront目標之目標清單中的目標](../../workfront-goals/goal-review-and-workfront-goals-sections/manage-goals-in-goal-list.md).
+如需有關導覽目標清單和管理目標的資訊，請參閱Adobe Workfront目標清單中的[管理目標](../../workfront-goals/goal-review-and-workfront-goals-sections/manage-goals-in-goal-list.md)。
 
 ![](assets/goal-list-unshimmed.png)
 
@@ -64,11 +64,11 @@ Workfront管理員授與您存取Workfront目標的許可權後，您就可以�
 * 檢閱目標及其資訊（例如，名稱、擁有者、進度或條件）。
 * 新增目標。
 
-  如需詳細資訊，請參閱 [在Adobe Workfront目標中建立目標](../../workfront-goals/goal-management/create-goals.md).
+  如需詳細資訊，請參閱[在Adobe Workfront目標中建立目標](../../workfront-goals/goal-management/create-goals.md)。
 
 * 存取目標的頁面並編輯與更新目標、其結果或活動
 
-  如需詳細資訊，請參閱 [在Adobe Workfront目標中編輯目標](../../workfront-goals/goal-management/edit-goals.md).
+  如需詳細資訊，請參閱[在Adobe Workfront目標中編輯目標](../../workfront-goals/goal-management/edit-goals.md)。
 
 * 編輯目標。
 
@@ -76,7 +76,7 @@ Workfront管理員授與您存取Workfront目標的許可權後，您就可以�
 
 您可以使用圖表區段來取得屬於您或您的組織的目標健康狀況的整體檢視。 您可以在此段落中檢視任何狀態中任何時段的目標進度資訊。
 
-如需有關使用圖形區段的資訊，請參閱 [檢閱圖表以瞭解Adobe Workfront目標中的目標進度趨勢](../../workfront-goals/goal-review-and-workfront-goals-sections/review-goal-graphs.md).
+如需有關使用圖表區段的資訊，請參閱[檢閱圖表以瞭解Adobe Workfront目標中的目標進度趨勢](../../workfront-goals/goal-review-and-workfront-goals-sections/review-goal-graphs.md)。
 
 ![](assets/graphs-section-unshimmed.png)
 
@@ -90,11 +90,11 @@ Workfront管理員授與您存取Workfront目標的許可權後，您就可以�
 
 如果您的目標彼此對齊，您可以使用「目標對齊」區段來顯示和檢閱組織中的所有目標及其彼此的對齊。 對齊的目標會顯示在連線的卡片上，以說明彼此的對齊。 父目標會最先顯示，而子目標會棧疊在它們後面。 您可以在此段落中檢視任何狀態和任何時段中的目標。
 
-如需有關導覽「目標校準」區段以管理目標的資訊，請參閱 [導覽Adobe Workfront目標中的「目標校準」區段](../../workfront-goals/goal-alignment/navigate-goal-alignment-chart.md).
+如需有關導覽「目標校準」區段以管理目標的資訊，請參閱[導覽Adobe Workfront目標中的「目標校準」區段](../../workfront-goals/goal-alignment/navigate-goal-alignment-chart.md)。
 
 如需對齊目標的資訊，請參閱下列文章：
 
-* [透過在Adobe Workfront目標中連線目標來對齊目標](../../workfront-goals/goal-alignment/align-goals-by-connecting-them.md)
+* [在Adobe Workfront目標中連線目標以對齊目標](../../workfront-goals/goal-alignment/align-goals-by-connecting-them.md)
 * [透過將結果和活動轉換為目標來校準目標](../../workfront-goals/goal-alignment/align-goals-by-converting-results-activities.md)
 
 ![](assets/goal-alignment-section-unshimmed.png)

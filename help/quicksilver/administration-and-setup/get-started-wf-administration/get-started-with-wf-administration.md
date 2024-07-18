@@ -26,8 +26,8 @@ ht-degree: 0%
 本節包含下列文章：
 
 * [定義Adobe Workfront實作目標的概觀](../../administration-and-setup/get-started-wf-administration/define-wf-goals-objectives.md)
-* [管理系統中的可用授權](../../administration-and-setup/get-started-wf-administration/manage-available-licenses-in-your-system.md)
-* [設定系統的基本資訊](../../administration-and-setup/get-started-wf-administration/configure-basic-info.md)
+* [管理您系統中的可用授權](../../administration-and-setup/get-started-wf-administration/manage-available-licenses-in-your-system.md)
+* [設定您系統的基本資訊](../../administration-and-setup/get-started-wf-administration/configure-basic-info.md)
 * [防火牆概述](../../administration-and-setup/get-started-wf-administration/firewall-overview.md)
 * [設定防火牆的允許清單](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md)
 * [設定您的電子郵件允許清單](../../administration-and-setup/get-started-wf-administration/configure-your-email-allowlist.md)

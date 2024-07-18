@@ -19,7 +19,7 @@ ht-degree: 0%
 
 本頁提供在23.3發行時間範圍內發行到生產環境的Adobe Workfront Proof功能的相關資訊。
 
-如需23.3版週期中此時適用於Workfront所有區域的所有變更清單，請參閱 [23.3版本總覽](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-release-overview.md).
+如需23.3發行週期中此時適用於Workfront所有區域的所有可用變更清單，請參閱[23.3發行概觀](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-release-overview.md)。
 
 <table>
             <col style="width: 50%;" />
@@ -37,7 +37,7 @@ ht-degree: 0%
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/workfront-proof-release-activity/proof-23-3-release/proof-23-3-jul-17.md" class="MCXref xref" xrefformat="{para}">延後案頭校訂檢視器的更新</a> </p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/workfront-proof-release-activity/proof-23-3-release/proof-23-3-jul-17.md" class="MCXref xref" xrefformat="{para}">延遲案頭校訂檢視器的更新</a> </p>
                         <p>根據使用者意見反應，我們將新增選項以延後案頭校訂檢視器的更新。 使用者現在可以選擇延遲更新並繼續其工作，但每當他們開啟「案頭校訂檢視器」時，系統都會提醒他們有更新可用。</p>
                     </td>
                     <td><p><b>將於下列日期提供：</b></p>

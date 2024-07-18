@@ -49,42 +49,42 @@ ht-degree: 1%
  </tbody> 
 </table>
 
-如需有關此表格的詳細資訊，請參閱 [Workfront檔案中的存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
 ## 建立方案
 
-1. 按一下 **[!UICONTROL 主要功能表]** 圖示 ![主要功能表](/help/_includes/assets/main-menu-icon.png) 在Adobe Workfront的右上角，或（如果有的話）按一下 **[!UICONTROL 主要功能表]** 圖示 ![主要功能表](/help/_includes/assets/main-menu-icon-left-nav.png) 左上角。
+1. 按一下Adobe Workfront右上角的&#x200B;**[!UICONTROL 主功能表]**&#x200B;圖示![主功能表](/help/_includes/assets/main-menu-icon.png)，或（如果可用）按一下左上角的&#x200B;**[!UICONTROL 主功能表]**&#x200B;圖示![主功能表](/help/_includes/assets/main-menu-icon-left-nav.png)。
 
 1. 執行下列任一項作業。
 
-   * 從建立方案 [!UICONTROL 計畫] 區域：
+   * 從[!UICONTROL 程式]區域建立程式：
 
-      1. 按一下 **[!UICONTROL 計畫]** 在主要功能表中。
-      1. 按一下 **[!UICONTROL 新計畫]**.
-      1. 在顯示的方塊中，輸入現有Portfolio的名稱 **[!UICONTROL 選取Portfolio]** 欄位。
-      1. 在「 」中輸入新方案的名稱 **[!UICONTROL 名稱]** 欄位。
+      1. 按一下主功能表中的&#x200B;**[!UICONTROL 程式]**。
+      1. 按一下&#x200B;**[!UICONTROL 新增程式]**。
+      1. 在顯示的方塊中，在&#x200B;**[!UICONTROL 選取Portfolio]**&#x200B;欄位中輸入現有Portfolio的名稱。
+      1. 在&#x200B;**[!UICONTROL 名稱]**&#x200B;欄位中輸入新程式的名稱。
       1. 按一下「**[!UICONTROL 儲存]**」。
-   * 從建立方案 [!UICONTROL Portfolio] 區域：
+   * 從[!UICONTROL Portfolio]區域建立方案：
 
-      1. 按一下 **[!UICONTROL Portfolio]** 在 [!UICONTROL 主要功能表]，然後開啟投資組合。
-      1. 在左側面板中，按一下 **[!UICONTROL 計畫]**.
-      1. 按一下 **[!UICONTROL 新計畫]** 下拉式功能表，然後 **[!UICONTROL 新計畫]**.
+      1. 按一下[!UICONTROL 主功能表]中的&#x200B;**[!UICONTROL Portfolio]**，然後開啟投資組合。
+      1. 在左側面板中，按一下&#x200B;**[!UICONTROL 程式]**。
+      1. 按一下&#x200B;**[!UICONTROL 新程式]**&#x200B;下拉式功能表，然後&#x200B;**[!UICONTROL 新程式]**。
 
 
-1. （視條件而定）如果您是從投資組合建立方案，請在 **[!UICONTROL 未命名的計畫]** 欄位。
+1. （視條件而定）如果您是從投資組合建立方案，請在&#x200B;**[!UICONTROL 未命名方案]**&#x200B;欄位中指定方案的名稱。
 
    名稱最多可包含255個字元。
 
-1. （選用）按一下 **[!UICONTROL 計畫管理員]** 在計畫的標題中進行更新。
+1. （選擇性）按一下程式標題中的&#x200B;**[!UICONTROL 程式管理員]**&#x200B;以更新它。
 
    >[!TIP]
    >
    >作為方案的建立者，預設會將您設定為「方案管理員」。
 
-1. 按一下 **[!UICONTROL 計畫詳細資訊]** 在左側面板中。
-1. 連按兩下任何欄位以更新 **[!UICONTROL 概觀]** 區域。
+1. 按一下左側面板中的&#x200B;**[!UICONTROL 程式詳細資料]**。
+1. 連按兩下任何欄位以更新&#x200B;**[!UICONTROL 概觀]**&#x200B;區域中的資訊。
 
 您可以指定下列資訊：
 
@@ -108,7 +108,7 @@ ht-degree: 1%
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader">[！UICONTROL群組] </td> 
-      <td> <p>如果群組擁有方案或負責完成方案，請新增單一群組的名稱。 </p> <p>您可以暫留在正確的群組上，並按一下[！UICONTROL資訊]圖示，確定您選取的群組正確 <img src="assets/info-icon.png"> 隨即顯示。 這會顯示工具提示，列出群組的相關資訊，例如群組及其管理員上方的群組階層。</p> 
+      <td> <p>如果群組擁有方案或負責完成方案，請新增單一群組的名稱。 </p> <p>您可以暫留在群組上，並按一下旁邊顯示的[！UICONTROL資訊]圖示<img src="assets/info-icon.png">，確定您選取的群組正確。 這會顯示工具提示，列出群組的相關資訊，例如群組及其管理員上方的群組階層。</p> 
        <div data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
         <img src="assets/group-details-widget-programs-350x268.png" style="width: 350;height: 268;"> 
        </div> </td> 
@@ -116,7 +116,7 @@ ht-degree: 1%
     </tbody> 
    </table>
 
-1. （選擇性和條件性）按一下 **[!UICONTROL 新增自訂表格]** 方塊來選取投資組合的自訂表單並更新自訂欄位。
+1. （選擇性和條件性）在&#x200B;**[!UICONTROL 新增自訂表單]**&#x200B;方塊內按一下，為投資組合選取自訂表單並更新自訂欄位。
 
    >[!TIP]
    >
@@ -124,14 +124,14 @@ ht-degree: 1%
 
 1. （選擇性和條件性）如果您新增自訂表單，請按一下自訂表單上的任何欄位以更新該欄位中的資訊。
 1. 按一下「**[!UICONTROL 儲存變更]**」。
-1. 按一下 **[!UICONTROL 專案]** 在左側面板中，然後 **[!UICONTROL 新增專案]** 將專案新增至方案。
+1. 按一下左側面板中的「**[!UICONTROL 專案]**」，然後按一下「**[!UICONTROL 新增專案]**」以將專案新增至方案。
 
-   如需有關將專案新增至方案的資訊，請參閱 [將專案新增至方案](../../../manage-work/portfolios/create-and-manage-programs/add-project-to-program.md).
+   如需有關將專案新增至方案的資訊，請參閱[將專案新增至方案](../../../manage-work/portfolios/create-and-manage-programs/add-project-to-program.md)。
 
 1. 按一下「**[!UICONTROL 儲存變更]**」。
-1. （可選）按一下 **[!UICONTROL 更多選單]** ![](assets/more-icon.png) 在程式名稱旁邊，然後按一下 **[!UICONTROL 停用計畫]**.
+1. （選擇性）按一下程式名稱旁的&#x200B;**[!UICONTROL 更多功能表]** ![](assets/more-icon.png)，然後按一下&#x200B;**[!UICONTROL 停用程式]**。
 
-   停用方案時，當使用者嘗試將方案新增到專案時，方案不再顯示在方案清單中。 您仍然可以從以下位置存取該計畫： [!UICONTROL 計畫] 區域。
+   停用方案時，當使用者嘗試將方案新增到專案時，方案不再顯示在方案清單中。 您仍然可以從[!UICONTROL 程式]區域存取程式。
 
 ## 計畫標題總覽
 
@@ -164,7 +164,7 @@ ht-degree: 1%
    <td> <p>按一下下列任一項，以存取更多資訊或編輯程式的選項：</p> 
     <ul> 
      <li>星形圖示可將方案新增至您的最愛清單</li> 
-     <li> <p>[！UICONTROL更多]功能表 <img src="assets/qs-more-menu.png"> 執行下列任一項作業： </p> 
+     <li> <p>[！UICONTROL More]功能表<img src="assets/qs-more-menu.png">可執行下列任一項作業： </p> 
       <ul> 
        <li>編輯方案</li> 
        <li>停用它。 停用方案時，您無法再將其與專案層級的專案建立關聯。 </li> 
@@ -196,4 +196,4 @@ ht-degree: 1%
 
 您可以將現有方案新增至投資組合。 由於計畫不能存在於兩個不同的投資組合中，因此新增現有計畫會將其從一個投資組合永久移動到另一個投資組合。
 
-如需詳細資訊，請參閱 [將現有方案新增至投資組合](../../../manage-work/portfolios/create-and-manage-programs/move-program.md).
+如需詳細資訊，請參閱[將現有方案新增至投資組合](../../../manage-work/portfolios/create-and-manage-programs/move-program.md)。

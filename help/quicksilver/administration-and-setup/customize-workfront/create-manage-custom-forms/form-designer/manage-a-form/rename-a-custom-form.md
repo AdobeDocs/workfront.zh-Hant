@@ -45,22 +45,22 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-如需有關此表格的詳細資訊，請參閱 [Workfront檔案中的存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 ## 使用表單設計工具重新命名自訂表單
 
 {{step-1-to-setup}}
 
-1. 按一下 **自訂Forms** 在左側面板中。
+1. 按一下左側面板中的&#x200B;**自訂Forms**。
 
    在出現的檢視中，您可以檢閱為組織建立的所有自訂表單。 您也可以檢視每個表單的建立者、表單使用的物件型別，以及表單是否使用中。
 
-1. 選取您要重新命名的自訂表單，然後按一下 ![編輯圖示](assets/edit-icon2.png).
+1. 選取您要重新命名的自訂表單，然後按一下![編輯圖示](assets/edit-icon2.png)。
 1. 若要變更標題，請按一下表單名稱。
 1. 若要變更說明，請按一下說明文字方塊。
 
-1. 按一下 **儲存並關閉**.
+1. 按一下&#x200B;**儲存並關閉**。
 
    >[!TIP]
    >
-   >您可以按一下 **套用** 建立自訂表單時，隨時儲存變更並保持表單開啟。
+   >建立自訂表單時，您可以隨時按一下&#x200B;**套用**，以儲存變更並保持表單開啟。

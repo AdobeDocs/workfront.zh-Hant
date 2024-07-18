@@ -10,7 +10,7 @@ exl-id: fda4630a-2590-46f4-94ff-499a485367ee
 source-git-commit: bcafa607da733b89747f6b448dd295d9b906d060
 workflow-type: tm+mt
 source-wordcount: '265'
-ht-degree: 4%
+ht-degree: 3%
 
 ---
 
@@ -36,16 +36,16 @@ ht-degree: 4%
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定*</td> 
-   <td> <p>編輯報告、儀表板、行事曆的存取權</p> <p>注意：如果您還是沒有存取權，請詢問您的Workfront管理員，他們是否在您的存取層級中設定其他限制。 如需有關Workfront管理員如何修改您的存取層級的資訊，請參閱 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>.</p> </td> 
+   <td> <p>編輯報告、儀表板、行事曆的存取權</p> <p>注意：如果您還是沒有存取權，請詢問您的Workfront管理員，他們是否在您的存取層級中設定其他限制。 如需Workfront管理員如何修改存取層級的詳細資訊，請參閱<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">物件許可權</td> 
-   <td> <p>管理報表的許可權</p> <p>如需請求其他存取許可權的詳細資訊，請參閱 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">要求物件的存取權 </a>.</p> </td> 
+   <td> <p>管理報表的許可權</p> <p>如需請求其他存取權的資訊，請參閱<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">請求物件</a>的存取權。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;若要瞭解您擁有的計畫、授權型別或存取權，請聯絡您的Workfront管理員。
+&#42;若要瞭解您擁有的計畫、授權型別或存取權，請連絡您的Workfront管理員。
 
 ## 問題
 
@@ -64,12 +64,12 @@ ht-degree: 4%
 若要調整報表並檢視結果：
 
 1. 移至報表。
-1. 按一下 **報表動作** > **編輯** > **報表設定**.
+1. 按一下&#x200B;**報告動作** > **編輯** > **報告設定**。
 
-1. 在中指定作用中使用者的名稱 **透過以下存取許可權運行此報告：** 欄位。\
+1. 在&#x200B;**執行此報告的存取許可權欄位中，指定作用中使用者的名稱：**。\
    或\
-   離開 **透過以下存取許可權運行此報告：** 欄位空白。
+   將&#x200B;**以**&#x200B;欄位的存取許可權執行此報告，請保留空白。
 
-1. 按一下 **完成**.
-1. 按一下 **儲存+關閉**.\
+1. 按一下&#x200B;**完成**。
+1. 按一下「**儲存並關閉**」。\
    執行此報告時，錯誤不應再次出現。

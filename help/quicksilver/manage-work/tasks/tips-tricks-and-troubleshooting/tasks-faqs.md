@@ -2,36 +2,36 @@
 content-type: faq
 product-area: projects
 navigation-topic: tips-tricks-and-troubleshooting-tasks
-title: 任務常見問題集
-description: 預設情況下，任務請求者/分配者不會收到有關其分配給其他用戶的任務的更改的電子郵件通知。 對於經常分配大量任務的人來說，這些任務的通知量將非常大。
+title: 任務常見問答
+description: 依預設，任務請求者/指派者不會收到他們指派給其他使用者的任務變更的電子郵件通知。 對於定期指派大量任務的人來說，這些任務的通知量會非常大。
 author: Alina
 feature: Work Management
 exl-id: 6463efdd-02e0-42e1-8fe6-18a88f74db7b
 source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
 workflow-type: tm+mt
 source-wordcount: '204'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
-# 任務常見問題集
+# 任務常見問答
 
-## 將任務分配給其他用戶的用戶是否會收到有關其分配任務的更改或更新的通知？
+## 將任務指派給其他使用者的使用者是否會收到他們指派之任務的變更或更新通知？
 
-### 回答
+### 解答
 
-預設情況下，任務請求者/分配者不會收到有關其分配給其他用戶的任務的更改的電子郵件通知。 對於經常分配大量任務的人來說，這些任務的通知量將非常大。
+依預設，任務請求者/指派者不會收到他們指派給其他使用者的任務變更的電子郵件通知。 對於定期指派大量任務的人來說，這些任務的通知量會非常大。
 
-## 為什麼「子任務」部分沒有顯示「新任務」按鈕？
+## 為什麼「新任務」按鈕沒有顯示在「子任務」區段中？
 
-當主任務上有「批准」時，子任務部分中不會顯示「新任務」按鈕。
+當主要任務有核準時，新任務按鈕未顯示在子任務區段中。
 
-### 回答
+### 解答
 
-不顯示「新任務」按鈕，因為Adobe Workfront不允許具有「批准」的任務成為父任務。
+新任務按鈕不顯示，因為Adobe Workfront不允許具有核准的任務成為父系任務。
 
-## 分配日期為何？
+## 什麼是分配日期？
 
-### 回答
+### 解答
 
-分配日期是工作角色分配開始至任務的一週的第一天（星期日）。 如需詳細資訊，請參閱 [Adobe Workfront術語表](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
+「配置日期」是指開始將「工作角色」配置給任務的周中第一天（星期日）。 如需詳細資訊，請參閱[Adobe Workfront術語表](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md)。

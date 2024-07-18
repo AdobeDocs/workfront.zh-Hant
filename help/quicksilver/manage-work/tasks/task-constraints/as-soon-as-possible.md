@@ -2,8 +2,8 @@
 content-type: reference;how-to-procedural
 product-area: projects
 navigation-topic: task-constraints
-title: 「任務約束概述：盡快'
-description: 「盡快」是任務約束，使任務的開始時間盡可能接近項目的開始。
+title: 「任務限制總覽：儘快」
+description: 「儘快」是一種任務限制，可讓任務的開始時間儘可能接近專案開始。
 author: Alina
 feature: Work Management
 exl-id: 9cb232fe-bc74-4433-afac-88be69514c88
@@ -14,19 +14,19 @@ ht-degree: 0%
 
 ---
 
-# 任務約束概覽：盡快
+# 任務限制總覽：儘快
 
-「盡快」是任務約束，使任務的開始時間盡可能接近項目的開始。
+「儘快」是一種任務限制，可讓任務的開始時間儘可能接近專案開始。
 
-## 盡快使用約束的考量事項
+## 使用「儘快」限制的注意事項
 
-* 如果項目使用從起始日期開始的計畫模式，並且新任務的系統預設起始日期設定為基於項目計畫日期，則「盡快」是預設約束。
+* 如果專案使用從開始日期起排程的排程模式，且新任務的系統預設開始日期設定為「根據專案計畫日期」，則「儘快」為預設限制。
 
-* 如果項目使用從開始日期開始的計畫模式，並且系統或組將新任務的預設起始日期設定為今天，則預設任務約束為不早於開始。
+* 如果專案使用「從開始日期開始排程」的排程模式，且新作業的系統或群組預設「開始日期」設定為「今天」，則預設的「作業限制」為「開始時間不得早於」。
 
-   有關為新任務設定預設約束的位置的資訊，請參閱 [配置全系統任務和問題首選項](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
+  如需有關設定新任務的預設條件約束的詳細資訊，請參閱[設定全系統的任務和問題偏好設定](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md)。
 
-有關如何更新任務的任務約束的資訊，請參閱 [更新任務的任務約束](../../../manage-work/tasks/task-constraints/update-task-constraint-of-task.md).
+如需有關如何更新任務之任務限制的資訊，請參閱[更新任務的任務限制](../../../manage-work/tasks/task-constraints/update-task-constraint-of-task.md)。
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -42,24 +42,24 @@ ht-degree: 0%
 </div>
 -->
 
-## 最早可用時間與盡快之間的差異
+## 最早可用時間與儘快可用時間之間的差異
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: [! This section is duplicated in "Earliest Available Time"])&nbsp;</p>
 -->
 
-當存在以下所有條件時，「最早可用時間」約束與「盡快」約束不同：
+當以下所有條件存在時，「最早可用時間」限制與「儘快」限制會有所不同：
 
-* 已排程專案完成。
-* 項目中的任務具有前置關係。
-* 前置任務具有靈活的任務約束。
+* 專案已排定從完成日程。
+* 專案中的任務具有前置任務關係。
+* 前置任務具有彈性任務限制。
 
-在這種情況下：
+在此情況下：
 
-* **最早可用時間：** 對後繼任務使用最早可用時間約束將優先順序置於前置任務的靈活約束。
+* **最早可用時間：**&#x200B;在後續任務上使用最早可用時間限制，會優先處理前置任務的彈性限制。
 
-   例如，假設任務A是任務B的前身。任務B具有最早可用時間約束，任務A具有盡可能晚的約束。 在這種情況下，將盡可能在項目完成前安排任務。
+  例如，假設任務A是任務B的前置任務。任務B具有「最早可用時間」限制，而任務A具有「儘可能晚到」限制。 在此情況下，任務會排程在儘可能接近專案完成的時間。
 
-* **盡快：** 在此情況下，對後續任務使用盡快約束將優先順序分配給後續任務。
+* **儘快：**&#x200B;在此案例中，使用後續任務的「儘快」限制會將優先權給予後續任務。
 
-   例如，假設任務A是任務B的前身。任務B具有盡可能快的約束，任務A具有盡可能晚的約束。 在此情況下，會盡可能將任務安排在接近項目開始的位置。
+  例如，假設任務A是任務B的前置任務。任務B具有「儘快」限制，而任務A具有「儘快」限制。 在此情況下，任務會排程儘可能接近專案開始。

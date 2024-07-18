@@ -1,119 +1,118 @@
 ---
 product-area: programs
 navigation-topic: create and manage programs
-title: 編輯程式
-description: 您可以編輯已建立的程式，或其他用戶已建立的與您共用的程式的資訊。
+title: 編輯計畫
+description: 您可以編輯已建立或其他使用者已建立之程式的資訊（如果它們與您共用）。
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 7dcdfc5a-3fc1-48a8-ae28-a6a0a458732e
 source-git-commit: 93c36a87667097729e89a61f68cc17e9c861d547
 workflow-type: tm+mt
-source-wordcount: '1051'
-ht-degree: 1%
+source-wordcount: '1052'
+ht-degree: 0%
 
 ---
 
-# 編輯程式
+# 編輯計畫
 
-您可以編輯已建立的程式，或其他用戶已建立的與您共用的程式的資訊。
+您可以編輯已建立或其他使用者已建立之程式的資訊（如果它們與您共用）。
 
-您可以在程式頁中編輯程式，也可以在清單中編輯程式。
+您可以在計畫頁面中編輯計畫，或者可以在清單中編輯計畫。
 
 ## 存取需求
 
-您必須具備下列存取權，才能執行本文中的步驟：
+您必須具有下列存取權才能執行本文中的步驟：
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 計劃*</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] 計畫*</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 授權*</td> 
-   <td> <p>[!UICONTROL計畫] </p> </td> 
+   <td> <p>[！UICONTROL計畫] </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">存取層級*</td> 
-   <td> <p>[!UICONTROL編輯]對程式的訪問</p> <p>注意：如果您仍無法存取，請詢問您的 [!DNL Workfront] 管理員。 有關訪問級別中程式的資訊，請參見 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-programs.md" class="MCXref xref">授予方案的存取權</a>. 若要了解 [!DNL Workfront] 管理員可以更改您的訪問級別，請參閱 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>. </p> </td> 
+   <td> <p>[！UICONTROL Edit]程式存取權</p> <p>注意：如果您還是沒有存取權，請詢問您的[!DNL Workfront]管理員是否對您的存取層級設定了其他限制。 如需存取存取存取層級中程式的資訊，請參閱<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-programs.md" class="MCXref xref">授予程式存取權</a>。 如需[!DNL Workfront]管理員如何變更您的存取層級的詳細資訊，請參閱<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>。 </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">物件權限</td> 
-   <td> <p>程式的[!UICONTROL管理]權限</p> <p> 有關授予程式權限的資訊，請參閱 <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-program.md" class="MCXref xref">共用方案 </a>. </p> <p>如需要求其他權限的詳細資訊，請參閱 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">請求對對象的訪問 </a>.</p> </td> 
+   <td role="rowheader">物件許可權</td> 
+   <td> <p>[！UICONTROL Manage]方案許可權</p> <p> 如需授與程式許可權的詳細資訊，請參閱<a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-program.md" class="MCXref xref">共用程式</a>。 </p> <p>如需請求其他許可權的資訊，請參閱<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">請求物件</a>的存取權。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;若要了解您擁有的計畫、授權類型或存取權，請聯絡您的 [!DNL Workfront] 管理員。
+&#42;若要瞭解您擁有的計畫、授權型別或存取權，請連絡您的[!DNL Workfront]管理員。
 
-## 編輯程式
+## 編輯計畫
 
-1. 前往 **[!UICONTROL 主菜單]**.
-1. 按一下 **[!UICONTROL 方案]**，然後按一下程式的名稱以開啟它。
-
-   >[!TIP]
-   >
-   >您可以先前往產品組合，然後按一下，從與其相關聯的產品組合中存取方案 **[!UICONTROL 方案]** 中。 如需詳細資訊，請參閱 [建立方案](../../../manage-work/portfolios/create-and-manage-programs/create-program.md).
-
-1. （可選）要編輯有關程式的有限資訊，請按一下 **[!UICONTROL 方案詳細資訊]** 中。
+1. 移至&#x200B;**[!UICONTROL 主功能表]**。
+1. 按一下&#x200B;**[!UICONTROL 程式]**，然後按一下程式名稱以開啟。
 
    >[!TIP]
    >
-   >如果要編輯有關程式的所有資訊，請轉至步驟4。
+   >您可以先移至專案組合，然後按一下左側面板中的「**[!UICONTROL 程式]**」，從與其關聯的專案組合存取程式。 如需詳細資訊，請參閱[建立方案](../../../manage-work/portfolios/create-and-manage-programs/create-program.md)。
+
+1. （選擇性）若要編輯程式的有限資訊，請按一下左側面板中的&#x200B;**[!UICONTROL 程式詳細資料]**。
+
+   >[!TIP]
+   >
+   >如果您想要編輯有關計畫的所有資訊，請前往步驟4。
 
    ![](assets/program-details-with-a-custom-form-section-nwe-350x137.png)
 
    >[!NOTE]
    >
-   >視您的 [!DNL Workfront] 管理員或群組管理員已修改您的配置範本， [!UICONTROL 方案詳細資訊] 區域可能會重新排列或未顯示。 如需詳細資訊，請參閱 [自訂 [!UICONTROL 詳細資料] 使用版面範本檢視](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md).
+   >視您的[!DNL Workfront]管理員或群組管理員修改版面配置範本的方式而定，[!UICONTROL 方案詳細資料]區域中的欄位可能會重新排列或不顯示。 如需詳細資訊，請參閱[使用配置範本自訂[!UICONTROL 詳細資料]檢視](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md)。
 
    <!--
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: the above note will also come to the Edit Program box)</p>
    -->
 
-   若要編輯 [!UICONTROL 詳細資料] 部分，請執行以下操作：
+   若要編輯[!UICONTROL 詳細資料]區段中的資訊，請執行下列動作：
 
-   1. （選用）按一下 **[!UICONTROL 全部折疊]** 圖示來折疊所有區域。
-   1. （選用和條件性）收合區域時，按一下 **右箭頭** ![](assets/right-pointing-arrow.png) 展開要編輯的區域。
-   1. 如需 [!UICONTROL 方案詳細資訊] 部分，繼續編輯 [!UICONTROL 編輯方案] 框（如下所示）。
-   1. （可選）如果程式沒有附加自訂表單，請開始在 **[!UICONTROL 新增自訂表單]** 欄位，在清單中顯示時加以選取，然後按一下 **[!UICONTROL 儲存變更]**.
-   1. （選用）按一下 **[!UICONTROL 匯出]** 圖示 ![](assets/export.png) 要導出 [!UICONTROL 概述] 和自訂表單資訊至PDF檔案，然後按一下 **[!UICONTROL 匯出]**. 從以下項目中選取：
+   1. （選擇性）按一下右上角的&#x200B;**[!UICONTROL 全部收合]**&#x200B;圖示以收合所有區域。
+   1. （選擇性和條件性）當區域摺疊時，按一下每個區域旁的&#x200B;**向右箭頭** ![](assets/right-pointing-arrow.png)以展開您要編輯的區域。
+   1. 如需[!UICONTROL 程式詳細資料]區段中可見欄位的相關資訊，請繼續編輯[!UICONTROL 編輯程式]方塊中的程式，如下所述。
+   1. （選擇性）如果沒有自訂表單附加到程式，請在&#x200B;**[!UICONTROL 新增自訂表單]**&#x200B;欄位中開始輸入表單的名稱，在清單中顯示時選取它，然後按一下&#x200B;**[!UICONTROL 儲存變更]**。
+   1. （選擇性）按一下&#x200B;**[!UICONTROL 匯出]**&#x200B;圖示![](assets/export.png)，將[!UICONTROL 概述]和自訂表單資訊匯出至PDF檔案，然後按一下&#x200B;**[!UICONTROL 匯出]**。 從下列選項中選取：
 
-      * 全選（僅在至少附加一個自訂表單時顯示）
+      * 全選（至少附加一個自訂表單時顯示）
       * [!UICONTROL 總覽]
       * 一或多個自訂表單的名稱
 
-      PDF檔案下載至您的電腦。
+      PDF檔案會下載到您的電腦。
 
       ![](assets/export-portfolio-details-box-with-export-button-350x368.png)
 
-      如需詳細資訊，請參閱 [匯出自訂表單和物件詳細資訊](../../../workfront-basics/work-with-custom-forms/export-custom-forms-details.md).
+      如需詳細資訊，請參閱[匯出自訂表單和物件詳細資料](../../../workfront-basics/work-with-custom-forms/export-custom-forms-details.md)。
 
 
+1. 若要編輯一或多個程式的所有資訊，請執行下列其中一個動作：
 
-1. 要編輯有關一個或多個程式的所有資訊，請執行以下操作之一：
+   * 按一下程式名稱旁的&#x200B;**[!UICONTROL 更多]**&#x200B;功能表![](assets/more-icon.png)，然後&#x200B;**[!UICONTROL 編輯]。**
+   * 前往程式清單，並選取一或多個要編輯的程式，然後按一下清單頂端的&#x200B;**[!UICONTROL 編輯]**&#x200B;圖示![](assets/edit-icon.png)。
 
-   * 按一下 **[!UICONTROL 更多]** 功能表 ![](assets/more-icon.png) 在方案名稱旁邊，然&#x200B;後&#x200B;**[!UICONTROL 編輯].**
-   * 轉到程式清單，選擇要編輯的一個或多個程式，然後按一下 **[!UICONTROL 編輯]** 圖示 ![](assets/edit-icon.png) 清單頂端。
-
-   此 **[!UICONTROL 編輯方案]** 對話框。
+   **[!UICONTROL 編輯程式]**&#x200B;對話方塊隨即顯示。
 
    ![](assets/edit-program-box-nwe-350x236.png)
 
-   所有方案欄位皆可在 [!UICONTROL 編輯方案] 框中，並按左側面板中列出的區域分組。
+   所有程式欄位都可在[!UICONTROL 編輯程式]方塊中使用，並按左側面板中列出的區域分組。
 
-1. 請考慮在下列任何章節中指定資訊：
+1. 請考慮在下列任何一節中指定資訊：
 
    * [[!UICONTROL 總覽]](#overview)
    * [[!UICONTROL 自訂表單]](#Custom%C2%A0F)
-   * [[!UICONTROL 評論]](#comment)
+   * [[!UICONTROL 註解]](#comment)
 
 ### [!UICONTROL 總覽] {#overview}
 
-1. 按上述方式開始編輯程式。
-1. 按一下 **[!UICONTROL 概述]** 和指定下列欄位：
+1. 如上所述開始編輯方案。
+1. 按一下&#x200B;**[!UICONTROL 概述]**&#x200B;並指定下列欄位：
 
    <!--
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE:&nbsp;note below drafted for now)</p>
@@ -131,52 +130,52 @@ ht-degree: 1%
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">[!UICONTROL名稱]</td> 
-      <td> <p>更新程式的名稱。 </p> <p>提示：如果您選取了多個方案，則無法使用此功能。 </p> </td> 
+      <td role="rowheader">[！UICONTROL名稱]</td> 
+      <td> <p>更新方案的名稱。 </p> <p>提示：當您選取多個方案時，此選項不可用。 </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL描述]</td> 
-      <td> <p>輸入Portfolio的說明，以指出其獨特之處。 </p> </td> 
+      <td role="rowheader">[！UICONTROL說明]</td> 
+      <td> <p>輸入Portfolio的說明以指示其獨特性。 </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL程式管理器]</td> 
-      <td> <p>開始鍵入要作為程式管理器指明的用戶的名稱，然後在該名稱出現在清單中時將其選中。 這是可以監督方案項目中定義工作的人員。 </p> <p>重要：當您指定某個人作為方案管理員時，他們將自動獲得方案和方案中項目的[!UICONTROL管理]權限。 </p> <p>提示：您可以快速更新方案標題中的方案管理員。 </p> </td> 
+      <td role="rowheader">[！UICONTROL計畫管理員]</td> 
+      <td> <p>開始輸入您想指定做為方案管理員的使用者名稱，然後當它出現在清單中時選取它。 此人員可監督計畫專案中定義的工作。 </p> <p>重要：當您指定某人擔任方案管理員時，他會自動取得該方案和方案內專案的[！UICONTROL管理]許可權。 </p> <p>提示：您可以在方案標題中快速更新方案管理員。 </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL組]</td> 
-      <td> <p>如果組與方案關聯或有責任完成該方案，則添加單個組的名稱。 </p> <p>提示：  <p>從[!UICONTROL程式詳細資訊]頁訪問[!UICONTROL組]欄位時，請執行以下操作： </p> <p>您可以將游標移至群組上並按一下[!UICONTROL資訊]圖示，以確定您選取的是正確的群組 <img src="assets/info-icon.png"> 顯示於其旁。 此工具提示會列出群組的相關資訊，例如上方的群組階層及其管理員。</p> <p> <img src="assets/group-details-widget-programs-350x268.png" style="width: 350;height: 268;"> </p> <p>[!UICONTROL編輯程式]框中不提供此選項。 </p> </p> </td> 
+      <td role="rowheader">[！UICONTROL群組]</td> 
+      <td> <p>如果群組與方案相關聯或負責完成方案，請新增單一群組的名稱。 </p> <p>秘訣：  <p>從[！UICONTROL計畫詳細資訊]頁面存取[！UICONTROL群組]欄位時，請執行下列動作： </p> <p>您可以暫留在群組上，並按一下旁邊顯示的[！UICONTROL資訊]圖示<img src="assets/info-icon.png">，確定您選取的群組正確。 這會顯示工具提示，列出群組的相關資訊，例如群組及其管理員上方的群組階層。</p> <p> <img src="assets/group-details-widget-programs-350x268.png" style="width: 350;height: 268;"> </p> <p>此選項在[！UICONTROL編輯程式]方塊中無法使用。 </p> </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL處於活動狀態]</td> 
-      <td> <p> 如果希望程式處於活動狀態，請選中此複選框。 其他使用者可以找到作用中的方案，並將其附加至專案，或將其新增至產品組合。 不活動的方案不能附加到項目或產品組合。 預設會啟用。</p> </td> 
+      <td role="rowheader">[！UICONTROL作用中]</td> 
+      <td> <p> 如果您希望程式處於作用中狀態，請選取此核取方塊。 其他使用者可以找到使用中的計畫，並將它們附加到專案或新增到投資組合。 非作用中的計畫不能附加到專案或投資組合。 這預設為啟用。</p> </td> 
      </tr> 
     </tbody> 
    </table>
 
-1. 按一下 **[!UICONTROL 儲存變更]** 或繼續編輯以下部分。
+1. 按一下&#x200B;**[!UICONTROL 儲存變更]**&#x200B;或繼續編輯下列區段。
 
 ### [!UICONTROL 自訂表單]
 
-1. 按上述方式開始編輯程式。
-1. 按一下 **[!UICONTROL 新增Forms]** 下拉式功能表選取自訂表單，並將其新增至程式。
+1. 開始編輯計畫，如上所述。
+1. 按一下&#x200B;**[!UICONTROL 新增Forms]**&#x200B;下拉式功能表，選取自訂表單並將其新增至程式。
 
-   您必須先建立程式自訂表單，才可供新增。
+   您必須先建立程式自訂表單，才能加以新增。
 
    >[!NOTE]
    >
-   >視您的 [!DNL Workfront] 管理員為自訂表單中的區段設定權限，不是每個人都可以在指定的自訂表單上檢視或編輯相同欄位。 編輯自訂表單區段內欄位的權限，取決於您對程式本身擁有的權限。 如需在自訂表單的區段上設定權限的相關資訊，請參閱 [建立或編輯自訂表單](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
+   >根據您的[!DNL Workfront]管理員在您自訂表單中設定區段許可權的方式，不是每個人都可以檢視或編輯指定自訂表單上的相同欄位。 編輯自訂表單區段中欄位的許可權取決於您對計畫本身的許可權。 如需設定自訂表單區段許可權的相關資訊，請參閱[建立或編輯自訂表單](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)。
 
-1. 更新自訂表單中的任何欄位，然後按一下 **[!UICONTROL 儲存變更]** 或繼續下列章節。
+1. 更新自訂表單中的任何欄位，然後按一下&#x200B;**[!UICONTROL 儲存變更]**&#x200B;或繼續下列區段。
 
-### [!UICONTROL 評論] {#comment}
+### [!UICONTROL 註解] {#comment}
 
-1. 按上述方式開始編輯程式。
-1. 按一下 **[!UICONTROL 註解]**.
+1. 如上所述開始編輯方案。
+1. 按一下&#x200B;**[!UICONTROL 註解]**。
 
    ![](assets/comment-box-in-program-edit-box-classic-350x195.png)
 
-1. 在 **[!UICONTROL 將更新發佈到程式]** 欄位。
-1. （選用）按一下 **[!UICONTROL 人員]** 圖示來新增使用者或團隊至留言。
-1. （選用）按一下 **[!UICONTROL 鎖定]** 圖示來鎖定留言，並將留言設為僅供公司中的使用者使用。
+1. 在&#x200B;**[!UICONTROL Post中新增註解以更新程式]**&#x200B;欄位。
+1. （選用）按一下&#x200B;**[!UICONTROL 人員]**&#x200B;圖示以新增使用者或團隊至註解。
+1. （選擇性）按一下&#x200B;**[!UICONTROL 鎖定]**&#x200B;圖示以鎖定註解，並設為只有貴公司使用者才能使用。
 
-   儲存變更後，您新增的註解會顯示在方案的 [!UICONTROL 更新] 標籤，並傳送電子郵件給包含在其中的使用者。
+   儲存變更後，您新增的註解會顯示在程式的[!UICONTROL 更新]索引標籤中，並傳送電子郵件給包含在其中的使用者。

@@ -2,59 +2,59 @@
 content-type: overview
 product-area: documents
 navigation-topic: proofing-overview
-title: 自動化工作流階段概觀
-description: 證明階段是不同使用者檢閱證明的時間區段。 校樣從一個階段移至下一個階段時，Adobe Workfront會通知審核者該在何時處理校樣。
+title: 自動化工作流程階段概觀
+description: 校訂階段是不同使用者檢閱校訂的時間區段。 當校訂從一個階段移至下一個階段時，Adobe Workfront會通知檢閱者，讓他們知道何時需要處理。
 author: Courtney
 feature: Digital Content and Documents
 exl-id: a03d2cf2-edb3-43b7-a739-32600f2ae2a0
 source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
 workflow-type: tm+mt
-source-wordcount: '401'
+source-wordcount: '403'
 ht-degree: 0%
 
 ---
 
-# 自動化工作流階段概觀
+# 自動化工作流程階段概觀
 
-證明階段是不同使用者檢閱證明的時間區段。 校樣從一個階段移至下一個階段時，Adobe Workfront會通知審核者該在何時處理校樣。
+校訂階段是不同使用者檢閱校訂的時間區段。 當校訂從一個階段移至下一個階段時，Adobe Workfront會通知檢閱者，讓他們知道何時需要處理。
 
-![phates_diagram.png](assets/stages-diagram-350x63.png)
+![stages_diagram.png](assets/stages-diagram-350x63.png)
 
-階段分為兩種情況：
+階段會發生在兩種不同的情況中：
 
-* [使用自動化工作流程建立校樣](#create-a-proof-with-an-automated-workflow)
-* [為校樣的不同審核者指定截止時間](#assign-deadlines-for-different-reviewers-on-a-proof)
+* [使用自動化工作流程建立校訂](#create-a-proof-with-an-automated-workflow)
+* [為校樣上的不同稽核者指派截止日期](#assign-deadlines-for-different-reviewers-on-a-proof)
 
-## 使用自動化工作流程建立校樣 {#create-a-proof-with-an-automated-workflow}
+## 使用自動化工作流程建立校訂 {#create-a-proof-with-an-automated-workflow}
 
-將自動工作流添加到校樣時，您可以設定要進行的審閱工作階段。
+將自動化工作流程新增到校訂時，您可以設定希望發生的稽核工作階段。
 
-使用自動工作流設定校樣的階段時：
+當您使用自動工作流程設定校訂的階段時：
 
-* 可以配置階段以連續運行或同時運行。
-* 您可以將某些階段設定為只在完成前一階段後才會生效。
-* 您可以將某些階段設為私人。 例如，對於在向客戶共用證明之前審核證明，並且不希望客戶看到結果的注釋的機構，這很有用。
+* 您可以將階段設定為連續或同時執行。
+* 您可以將某些階段設定為僅在前一個階段完成後才啟用。
+* 您可以將某些階段設為私人。 例如，這對於在與使用者端共用校訂之前檢視校訂，並且不希望使用者端看到所產生的評論的機構非常有用。
 
-有關使用自動化工作流建立校樣階段的說明，請參閱 [使用自動化工作流程建立進階校樣](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-automated-proof-workflow.md).
+如需使用自動化工作流程建立校訂階段的相關指示，請參閱[使用自動化工作流程建立進階校訂](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-automated-proof-workflow.md)。
 
 >[!NOTE]
 >
->如果用戶未包含在任何階段中，但具有對文檔的訪問權並開啟校樣，則系統將建立一個稱為 *Workfront*.
+>如果使用者未包含在任何階段中，但擁有檔案的存取權並開啟校訂，則系統會建立名為&#x200B;*Workfront*&#x200B;的階段。
 >
->為開啟校樣的非收件者指派在「設定」 > 「檢閱和核准」 > 「角色」中指定的角色，供開啟檔案校樣的人使用。
+>開啟檔案校樣的使用者會被指派設定>檢閱和核准>開啟檔案校樣的非收件者角色中指定的角色。
 
-## 為校樣的不同審核者指定截止時間 {#assign-deadlines-for-different-reviewers-on-a-proof}
+## 為校樣上的不同稽核者指派截止日期 {#assign-deadlines-for-different-reviewers-on-a-proof}
 
-當您為校樣的審核者指定不同的校樣截止日期時，系統會為每個截止日期建立一個階段，並將相應階段中每個截止日期的審核者分組。 
+當您為校訂上的稽核者指派不同的校訂截止日期時，系統會為每個截止日期建立一個階段，並將稽核者分組到對應階段中的每個截止日期。 
 
-**範例：** 例如，如果您建立校樣，校樣由四位審核者組成：
+**範例：**&#x200B;例如，如果您建立有四名稽核者的校訂：
 
-* 對於評論家Olivia和Tony，您指定從現在起的14:00的截止時間。
-* 對於Aaron和Amy，你指定幾天後17:00的截止時間。
-* 你沒有為自己指定最後期限。
+* 對於稽核者Olivia和Tony，您指定從現在起數天後的14:00的截止日期。
+* 對於Aaron和Amy，您會在幾天後指定17:00的截止日期。
+* 您沒有指定自己的截止日期。
 
-該系統為以下三個「組」審閱者分別建立一個階段：
+系統會為每個檢閱者的「群組」建立一個階段：
 
-![png](assets/stages-350x239.png)
+![階段.png](assets/stages-350x239.png)
 
-如果您與其他審核者共用校樣，但未指定截止日期，Workfront會將使用者新增至沒有截止日期的階段3。 
+如果您與其他檢閱者共用校訂，但未指定截止日期，則Workfront會將使用者新增至沒有截止日期的階段3。 

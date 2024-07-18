@@ -20,7 +20,7 @@ ht-degree: 0%
 
 ## 需要登入
 
-需要登入以增強在您的帳戶中建立的校訂安全性。 您可以啟用帳戶層級所有校訂所需的登入，或視需要啟用它以用於個別校訂。 如需為您的帳戶啟用的詳細資訊，請參閱 [設定預設校訂設定](/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/configure-default-proof-settings.md).
+需要登入以增強在您的帳戶中建立的校訂安全性。 您可以啟用帳戶層級所有校訂所需的登入，或視需要啟用它以用於個別校訂。 如需有關為您的帳戶啟用的詳細資訊，請參閱[設定預設校訂設定](/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/configure-default-proof-settings.md)。
 
 >[!NOTE]
 >
@@ -39,7 +39,7 @@ ht-degree: 0%
 
 ## 電子簽章
 
-電子簽章可讓您增強校樣的安全性，並符合業界安全標準，例如ISO。 您可以在帳戶層級為所有校訂啟用電子簽章，也可以視需要為個別校訂啟用電子簽章。 如需詳細資訊，請參閱 [設定預設校訂設定](/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/configure-default-proof-settings.md).
+電子簽章可讓您增強校樣的安全性，並符合業界安全標準，例如ISO。 您可以在帳戶層級為所有校訂啟用電子簽章，也可以視需要為個別校訂啟用電子簽章。 如需詳細資訊，請參閱[設定預設校訂設定](/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/configure-default-proof-settings.md)。
 
 ## 以電子方式簽署證明
 

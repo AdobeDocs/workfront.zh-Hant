@@ -18,7 +18,7 @@ ht-degree: 0%
 
 本頁說明生產環境20.3版的所有敏捷增強功能。 這些增強功能已在2020年8月10日當週的生產環境中推出。
 
-如需20.3版所有可用變更的清單，請參閱 [20.3版本總覽](../../../product-announcements/product-releases/20.3-release-activity/20-3-release-overview.md).
+如需20.3版本可用的所有變更清單，請參閱[20.3版本總覽](../../../product-announcements/product-releases/20.3-release-activity/20-3-release-overview.md)。
 
 ## 選擇卡片在Kanban板上停留的時間
 
@@ -26,7 +26,7 @@ ht-degree: 0%
 
 先前，看板會在14天後從看板掉落。
 
-如需詳細資訊，請參閱 [設定Kanban](../../../agile/get-started-with-agile-in-workfront/configure-kanban.md).
+如需詳細資訊，請參閱[設定Kanban](../../../agile/get-started-with-agile-in-workfront/configure-kanban.md)。
 
 ## 敏捷展示板一次載入50個工作專案
 

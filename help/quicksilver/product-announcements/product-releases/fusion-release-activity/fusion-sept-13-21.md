@@ -1,6 +1,6 @@
 ---
-title: Workfront Fusion發行活動：&nbsp；2021年9月13日起一週
-description: Workfront Fusion發行活動：&nbsp；2021年9月13日起一週
+title: Workfront Fusion發行活動：&amp；nbsp；2021年9月13日起一週
+description: Workfront Fusion發行活動：&amp；nbsp；2021年9月13日起一週
 author: Luke
 draft: Probably
 feature: Product Announcements, Workfront Fusion
@@ -18,9 +18,9 @@ ht-degree: 0%
 
 本頁說明2021年9月23日當週在Adobe Workfront Fusion中所做的所有增強功能。
 
-如需所有最近變更的清單，請參閱 [Adobe Workfront Fusion發行活動](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
+如需所有最近變更的清單，請參閱[Adobe Workfront Fusion發行活動](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md)。
 
-如需Workfront Fusion中近期的錯誤修正清單，請參閱 [Workfront維護更新](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) 頁面，並檢查是否有任何標示為Workfront Fusion維護更新的更新。
+如需Workfront Fusion中最近的錯誤修正清單，請參閱[Workfront維護更新](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html)頁面，並檢查任何標示為Workfront Fusion維護更新的更新。
 
 ## 篩選及排序Workfront Fusion案例執行歷程記錄
 
@@ -41,7 +41,7 @@ ht-degree: 0%
 * 運算元
 * 已傳輸的資料量
 
-如需篩選及排序執行歷程記錄的詳細資訊，請參閱 [在Adobe Workfront Fusion中檢視案例的執行歷史記錄](../../../workfront-fusion/scenarios/view-scenario-execution-history.md).
+如需篩選及排序執行歷程記錄的詳細資訊，請參閱[在Adobe Workfront Fusion中檢視案例的執行歷程記錄](../../../workfront-fusion/scenarios/view-scenario-execution-history.md)。
 
 ## Fusion中的說明連結現在指向特定文章
 
@@ -57,7 +57,7 @@ ht-degree: 0%
 
 以前，所有執行都有一個詳細資訊按鈕，有時，使用者會按一下詳細資訊來僅發現沒有可用的詳細資訊。
 
-如需詳細資訊，請參閱 [在Adobe Workfront Fusion中檢視案例的執行歷史記錄](../../../workfront-fusion/scenarios/view-scenario-execution-history.md).
+如需詳細資訊，請參閱[在Adobe Workfront Fusion中檢視案例的執行歷程記錄](../../../workfront-fusion/scenarios/view-scenario-execution-history.md)。
 
 ## SDL Managed Translation聯結器逾時增加到120秒
 

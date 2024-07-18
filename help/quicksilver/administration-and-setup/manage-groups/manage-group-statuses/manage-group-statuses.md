@@ -24,10 +24,10 @@ ht-degree: 0%
 * [建立或編輯群組狀態](../../../administration-and-setup/manage-groups/manage-group-statuses/create-or-edit-a-group-status.md)
 * [重新排序群組狀態](../../../administration-and-setup/manage-groups/manage-group-statuses/reorder-group-statuses-from-groups-area.md)
 * [使用自訂狀態作為群組的預設狀態](../../../administration-and-setup/manage-groups/manage-group-statuses/use-custom-statuses-as-default-statuses-group.md)
-* [鎖定和未鎖定的群組狀態](../../../administration-and-setup/manage-groups/manage-group-statuses/lock-or-unlock-a-custom-group-status.md)
+* [鎖定與解除鎖定群組狀態](../../../administration-and-setup/manage-groups/manage-group-statuses/lock-or-unlock-a-custom-group-status.md)
 * [群組如何繼承狀態](../../../administration-and-setup/manage-groups/manage-group-statuses/how-groups-inherit-statuses.md)
 * [刪除群組狀態](../../../administration-and-setup/manage-groups/manage-group-statuses/delete-a-group-status.md)
-* [群組中已移動或刪除的自訂狀態](../../../administration-and-setup/manage-groups/manage-group-statuses/custom-statuses-in-group-moved-or-deleted.md)
+* 已移動或刪除的群組中的[自訂狀態](../../../administration-and-setup/manage-groups/manage-group-statuses/custom-statuses-in-group-moved-or-deleted.md)
 * [已移動或複製之任務或問題的自訂狀態](../../../administration-and-setup/manage-groups/manage-group-statuses/custom-statuses-on-a-task-or-issue-that-is-moved-or-copied.md)
 
-如需有關重新排序群組狀態的資訊，請參閱 [重新排序系統層次與群組狀態](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/reorder-system-statuses.md).
+如需重新排序群組狀態的資訊，請參閱[重新排序系統層級和群組狀態](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/reorder-system-statuses.md)。

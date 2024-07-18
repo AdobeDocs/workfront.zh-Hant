@@ -19,11 +19,11 @@ ht-degree: 0%
 
 前置任務是指其他任務需依賴完成的任務。 前置任務關係會影響任務的開始和完成日期，並最終影響專案的時間表。
 
-有關前置任務的資訊，請參閱 [前置任務概觀](../../../manage-work/tasks/use-prdcssrs/predecessors-overview.md).
+有關前置任務的資訊，請參閱[前置任務概觀](../../../manage-work/tasks/use-prdcssrs/predecessors-overview.md)。
 
 藉由設定任務之間的前置任務關係，您可以定義相依任務的開始或完成如何取決於其前置任務的開始或完成。 這是使用不同的相依性型別來完成的。
 
-如需有關相依性型別的資訊，請參閱 [作業相依性型別的概要](../../../manage-work/tasks/use-prdcssrs/task-dependency-types.md).
+如需相依性型別的相關資訊，請參閱[工作相依性型別的概觀](../../../manage-work/tasks/use-prdcssrs/task-dependency-types.md)。
 
 ## 強制前置任務概觀
 
@@ -68,31 +68,31 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-如需有關此表格的詳細資訊，請參閱 [Workfront檔案中的存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
 ## 在任務層級強制執行前置任務
 
 1. 移至您要執行其前置任務的後續任務。
-1. 按一下 **前置任務** 然後按一下「 」 **新增前置任務**. 您可能需要按一下 **顯示更多**，然後 **前置任務**.
-1. （視條件而定）如果您想要新增跨專案前置任務，請移除 **父級專案** 欄位並以其他專案取代。
-1. 指定前置任務或任務的名稱，在 **任務** 欄位。
-1. 指定 **相依性型別** 介於這兩個工作之間。
+1. 按一下左側面板中的&#x200B;**前置任務**，然後按一下&#x200B;**新增前置任務**。 您可能需要按一下&#x200B;**顯示更多**，然後按一下&#x200B;**前置任務**。
+1. （條件式）如果您想要新增跨專案前置任務，請移除&#x200B;**父專案**&#x200B;欄位中的專案名稱，並以其他專案取代。
+1. 在&#x200B;**任務**&#x200B;欄位中指定前置任務名稱。
+1. 指定這兩個工作之間的&#x200B;**相依性型別**。
 
-   預設 **相依性型別** 是 **完成 — 開始**.
+   預設&#x200B;**相依性型別**&#x200B;為&#x200B;**完成開始**。
 
-1. 選取 **強制** 要強制前置任務的欄位。
+1. 選取&#x200B;**強制**&#x200B;欄位以強制前置任務。
 1. 按一下「**儲存**」。
 
 ## 在任務清單中強制前置任務
 
 1. 前往專案上的工作清單。
-1. 從 **檢視** 下拉式功能表，選取 **標準檢視**.
+1. 從&#x200B;**檢視**&#x200B;下拉式功能表中，選取&#x200B;**標準檢視**。
 
 1. 對要指定為前置任務的工作數量做心理上的記事。
 1. 尋找您要執行其前置任務的後續任務。
-1. 在 **前置任務** 欄，開始輸入前置任務編號，然後輸入「e」。 例如，輸入「1e」將任務編號1新增為所選任務的前置任務。
+1. 在&#x200B;**前置任務**&#x200B;欄中，開始輸入前置任務編號，然後輸入&quot;e&quot;。 例如，輸入「1e」將任務編號1新增為所選任務的前置任務。
 1. 按一下Enter以儲存任務的前置任務資訊。
 
    ![前置任務_強制_in_list.png](assets/predecessor-enforced-in-list-350x308.png)

@@ -12,7 +12,7 @@ recommendations: noDisplay, noCatalog
 exl-id: a8be3e69-0e1d-4a9e-9da8-4cde9643ca25
 source-git-commit: 86a0a9ddf5be1515ed8f5c2a537b0e2ccd5a1b63
 workflow-type: tm+mt
-source-wordcount: '69'
+source-wordcount: '70'
 ht-degree: 2%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 2%
 * [設定驗證的密碼原則](../../../administration-and-setup/manage-workfront/security/configure-password-policies-authentication.md)
 * [移除各種單一登入選項](../../../administration-and-setup/manage-workfront/security/removal-various-sso-options.md)
 * [續約Adobe Workfront SAML 2.0中繼資料憑證](../../../administration-and-setup/manage-workfront/security/renew-wf-saml-2-certificate.md)
-* [防止重複使用者](../../../administration-and-setup/manage-workfront/security/prevent-duplicate-users.md)
+* [防止重複的使用者](../../../administration-and-setup/manage-workfront/security/prevent-duplicate-users.md)
 * [依IP位址限制對Adobe Workfront的存取](../../../administration-and-setup/manage-workfront/security/restrict-access-workfront-ip-address.md)
 * [檔案加密](../../../administration-and-setup/manage-workfront/security/file-encryption.md)
 * [變更您的Adobe Workfront網域](../../../administration-and-setup/manage-workfront/security/change-your-workfront-domain.md)

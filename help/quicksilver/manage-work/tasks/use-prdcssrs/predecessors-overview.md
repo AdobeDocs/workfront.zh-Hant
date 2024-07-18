@@ -22,7 +22,7 @@ ht-degree: 0%
 
 CONTEXT SENSITIVE HELP article. DO NOT CHANGE THE NAME OF THE ARTICLE/ DO NOT MOVE OR DELETE! -->
 
-前置任務是另一個任務（稱為後置任務或相依任務）所依賴的任務。 Adobe Workfront支援五種型別的前置任務相依性。 若要瞭解前置任務相依性，請參閱 [作業相依性型別的概要](../../../manage-work/tasks/use-prdcssrs/task-dependency-types.md).
+前置任務是另一個任務（稱為後置任務或相依任務）所依賴的任務。 Adobe Workfront支援五種型別的前置任務相依性。 若要瞭解前置任務相依性，請參閱[任務相依性型別概觀](../../../manage-work/tasks/use-prdcssrs/task-dependency-types.md)。
 
 ## 前置任務概觀
 
@@ -38,35 +38,35 @@ CONTEXT SENSITIVE HELP article. DO NOT CHANGE THE NAME OF THE ARTICLE/ DO NOT MO
 
 * 前置任務相依性
 * 延遲值與型別\
-  如需相依性和延遲的詳細資訊，請參閱 [任務清單中的前置任務值範例](#examples-of-predecessor-values-in-a-task-list).
+  如需相依性和延遲的詳細資訊，請參閱[工作清單中的前置任務值範例](#examples-of-predecessor-values-in-a-task-list)。
 
   例如，如果任務A是完成 — 開始關係中任務B的前置任務，而任務B具有儘快的任務限制，則Workfront會在任務A的計畫完成日期之後立即指派任務B的計劃開始日期，無論前置任務是否已強制執行。
 
 若要瞭解前置任務關係，您必須瞭解：
 
-* **相依性型別：** 前置任務由各種相依性型別連結。 如需相依性型別的詳細資訊，請參閱 [作業相依性型別的概要](../../../manage-work/tasks/use-prdcssrs/task-dependency-types.md).
+* **相依性型別：**&#x200B;前置任務由各種相依性型別連結。 如需相依性型別的詳細資訊，請參閱[工作相依性型別的概觀](../../../manage-work/tasks/use-prdcssrs/task-dependency-types.md)。
 
-* **強制前置任務：** 強制實施前置任務時，前置任務完成之前後置任務絕對不能開始。 後續任務會在前置任務完成後立即顯示為「開始」。
+* **強制前置任務：**&#x200B;強制前置任務時，前置任務完成之前無法開始後續任務。 後續任務會在前置任務完成後立即顯示為「開始」。
 
   當前置任務未完成（或已開始）且未強制執行時，後續任務可以開始，但專案時間表仍受前置任務和後續任務日期的影響。
 
   如果有強制的前置任務，Workfront不允許在前置任務完成之前，將後續任務標示為「進行中」或「完成」。
 
   但是，Workfront允許針對任務報告時數。\
-  如需強制前置任務的詳細資訊，請參閱 [強制執行前置任務](../../../manage-work/tasks/use-prdcssrs/enforced-predecessors.md).
+  如需強制前置任務的詳細資訊，請參閱[強制前置任務](../../../manage-work/tasks/use-prdcssrs/enforced-predecessors.md)。
 
-* **延遲：** 您可以在相依性中建立延遲，這會造成前置任務完成後以及後續任務開始之前必須發生的延遲。 延遲會影響專案的時間表。
+* **延遲：**&#x200B;您可以在相依性中建立延遲，這會造成必須在前置任務完成後以及後續任務開始之前發生的延遲。 延遲會影響專案的時間表。
 
-  若要瞭解延遲型別，請參閱 [延遲型別概觀](../../../manage-work/tasks/use-prdcssrs/lag-types.md).
+  若要瞭解延遲型別，請參閱[延遲型別概觀](../../../manage-work/tasks/use-prdcssrs/lag-types.md)。
 
 ## 建立前置任務關係
 
 若要建立前置任務，請參閱下列任一文章：
 
-* 若要使用任務的「前置任務」標籤來建立前置任務，請參閱 [使用前置任務區域建立前置任務關係](../../../manage-work/tasks/use-prdcssrs/create-predecessors-in-predecessors-area.md).
-* 若要在任務清單中建立前置任務，請參閱 [在任務清單上建立前置任務關係](../../../manage-work/tasks/use-prdcssrs/create-predecessors-on-task-list.md).
-* 若要透過鏈結任務來建立前置任務關係，請參閱 [透過鏈結任務建立前置任務關係](../../../manage-work/tasks/use-prdcssrs/create-predecessors-by-chaining-tasks.md).
-* 若要建立跨專案前置任務，請參閱 [建立跨專案前置任務](../../../manage-work/tasks/use-prdcssrs/cross-project-predecessors.md).
+* 若要使用任務的前置任務標籤建立前置任務，請參閱[使用前置任務區域建立前置任務關係](../../../manage-work/tasks/use-prdcssrs/create-predecessors-in-predecessors-area.md)。
+* 若要在任務清單中建立前置任務，請參閱[在任務清單上建立前置任務關係](../../../manage-work/tasks/use-prdcssrs/create-predecessors-on-task-list.md)。
+* 若要透過連結任務來建立前置任務關係，請參閱[透過連結任務來建立前置任務關係](../../../manage-work/tasks/use-prdcssrs/create-predecessors-by-chaining-tasks.md)。
+* 若要建立跨專案前置任務，請參閱[建立跨專案前置任務](../../../manage-work/tasks/use-prdcssrs/cross-project-predecessors.md)。
 
 ## 找出任務的前置任務 {#locate-the-predecessors-of-a-task}
 
@@ -75,18 +75,18 @@ CONTEXT SENSITIVE HELP article. DO NOT CHANGE THE NAME OF THE ARTICLE/ DO NOT MO
 * 前往您正在處理的專案，然後執行下列動作：
 
    1. 尋找您要尋找前置任務的工作，然後按一下該工作。
-   1. 按一下 **前置任務** 在左側面板中。 您可能需要按一下 **顯示更多**，然後 **前置任務**.
-   1. 前置任務所在的專案名稱會顯示在 **專案** 欄。
+   1. 按一下左側面板中的&#x200B;**前置任務**。 您可能需要按一下&#x200B;**顯示更多**，然後按一下&#x200B;**前置任務**。
+   1. 前置任務所在的專案名稱會顯示在&#x200B;**專案**&#x200B;欄中。
 
-      中的數字 **#** 欄顯示前置任務任務編號。 例如，「6」表示專案中的第六個任務。
+      **#**&#x200B;欄中的數字顯示前置任務編號。 例如，「6」表示專案中的第六個任務。
 
-      ![任務的前置任務區域](assets/predecessors-area-with-task-header.png)
+      ![前置任務區段](assets/predecessors-area-with-task-header.png)
 
 * 前往您正在處理的專案，然後執行下列動作：
 
-   1. 按一下 **任務** 標籤。
-   1. 選擇 **標準檢視** 位於工作清單頂端。
-   1. 此 **前置任務** 欄顯示前置任務任務編號。
+   1. 按一下「**任務**」標籤。
+   1. 選擇位於工作清單頂端的&#x200B;**標準檢視**。
+   1. **前置任務**&#x200B;欄顯示前置任務編號。
 
       對於跨專案前置任務，「前置任務」欄會顯示前置任務所屬專案的參考編號，以及以冒號分隔的任務編號。
 
@@ -94,25 +94,25 @@ CONTEXT SENSITIVE HELP article. DO NOT CHANGE THE NAME OF THE ARTICLE/ DO NOT MO
 
       將滑鼠指標暫留在此值上，即可取得前置任務、專案和日期的詳細資訊。
 
-      ![前置任務詳細資訊](assets/predecessor-details-in-task-list.png)
+      ![前置任務詳細資料](assets/predecessor-details-in-task-list.png)
 
 ## 任務清單中的前置任務值範例 {#examples-of-predecessor-values-in-a-task-list}
 
 當您在任務清單中檢視前置任務時，您可能會看到下列任何型別的前置任務及其各自的「相依性型別」和「延遲」金額：
 
-* **1fs -** 前置任務編號為1。 相依性型別為「完成 — 開始」。 在專案時間表中，此任務排程為任務1完成後立即開始。 儘管如此，仍可將其標籤為「進行中」或「完成」。
-* **1 -** 前置任務編號為1。 這與 **1fs**，因為 **fs** 是Workfront中的預設前置任務關係。
+* **1fs -**&#x200B;前置任務編號為1。 相依性型別為「完成 — 開始」。 在專案時間表中，此任務排程為任務1完成後立即開始。 儘管如此，仍可將其標籤為「進行中」或「完成」。
+* **1 -**&#x200B;前置任務編號為1。 這與&#x200B;**1fs**&#x200B;相同，因為&#x200B;**fs**&#x200B;是Workfront中的預設前置任務關聯性。
 
-* **1fse -** 前置任務編號為1。 相依性型別是Finish-Start-Enforced。 在專案時間表中，此任務會在任務1完成後立即開始顯示。 在任務1完成之前，Workfront不允許將其標籤為進行中或完成。 但是，Workfront允許針對任務報告時數。
-* **1fs+3d -** 前置任務編號為1。 相依性型別為「完成 — 開始」，延遲時間為3天。 在專案時間軸中，此任務會在任務1完成後3個工作日開始顯示。
-* **1fs-3d -** 前置任務編號為1。 相依性型別為「完成 — 開始」，延遲時間為3天。 在專案時間表中，此任務會顯示為前置任務完成前3個工作天的開始。
-* **1fs+3de**  — 前置任務編號為1。 相依性型別為「完成 — 開始 — 強制」，延遲時間為3天。 在專案時間軸中，此任務會在任務1完成後3個工作日開始顯示。 在任務1完成之前，Workfront不允許將其標籤為進行中或完成。 但是，Workfront允許針對任務報告時數。
+* **1fse -**&#x200B;前置任務編號為1。 相依性型別是Finish-Start-Enforced。 在專案時間表中，此任務會在任務1完成後立即開始顯示。 在任務1完成之前，Workfront不允許將其標籤為進行中或完成。 但是，Workfront允許針對任務報告時數。
+* **1fs+3d -**&#x200B;前置任務編號為1。 相依性型別為「完成 — 開始」，延遲時間為3天。 在專案時間軸中，此任務會在任務1完成後3個工作日開始顯示。
+* **1fs-3d -**&#x200B;前置任務編號為1。 相依性型別為「完成 — 開始」，延遲時間為3天。 在專案時間表中，此任務會顯示為前置任務完成前3個工作天的開始。
+* **1fs+3de** — 前置任務編號為1。 相依性型別為「完成 — 開始 — 強制」，延遲時間為3天。 在專案時間軸中，此任務會在任務1完成後3個工作日開始顯示。 在任務1完成之前，Workfront不允許將其標籤為進行中或完成。 但是，Workfront允許針對任務報告時數。
 
   >[!NOTE]
   >
-  >您必須新增強制值(**è**)，而不是前置任務。
+  >您必須將強制值(**e**)新增至Lag，而不是新增至前置任務。
 
-* **4515:2** 前置任務編號為2。  — 這是專案中前置任務的「完成開始」、非強制相依性及參考編號 **4515**.
+* **4515:2**&#x200B;前置任務編號為2。  — 這是專案中前置任務的「完成開始」非強制相依性，參考號碼為&#x200B;**4515**。
 
 ## 檢視前置任務資訊
 
@@ -120,11 +120,11 @@ CONTEXT SENSITIVE HELP article. DO NOT CHANGE THE NAME OF THE ARTICLE/ DO NOT MO
 
 * 在任務層級的「前置任務」區段。
 
-  如需在「前置任務」區段中檢視前置任務資訊的詳細資訊，請參閱區段 [找出任務的前置任務](#locate-the-predecessors-of-a-task) 本文章內容。
+  如需有關在[前置任務]區段中檢視前置任務資訊的資訊，請參閱本文中的[尋找前置任務](#locate-the-predecessors-of-a-task)區段。
 
 * 在甘特圖中。
 
-  如需有關在甘特圖中顯示前置任務的資訊，請參閱 [設定資訊在甘特圖上的顯示方式](../../../manage-work/gantt-chart/use-the-gantt-chart/configure-info-on-gantt-chart.md).
+  如需有關在甘特圖中顯示前置任務的資訊，請參閱[設定資訊在甘特圖上的顯示方式](../../../manage-work/gantt-chart/use-the-gantt-chart/configure-info-on-gantt-chart.md)。
 
 * 在任務清單中。
 
@@ -132,11 +132,11 @@ CONTEXT SENSITIVE HELP article. DO NOT CHANGE THE NAME OF THE ARTICLE/ DO NOT MO
 
    * 在工作清單中套用內建的標準檢視。
 
-     如需有關在「標準」檢視中檢視前置任務資訊的資訊，請參閱區段 [找出任務的前置任務](#locate-the-predecessors-of-a-task) 本文章內容。
+     如需有關在標準檢視中檢視前置任務資訊的資訊，請參閱本文中的[尋找前置任務](#locate-the-predecessors-of-a-task)一節。
 
    * 建立任務檢視或報告，並將「前置任務」欄新增到該檢視。
 
-     如需有關建立具有前置任務資訊之任務的自訂檢視的詳細資訊，請參閱 [檢視：前置任務詳細資訊](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-predecessor-details.md).
+     如需有關建立具有前置任務資訊之任務的自訂檢視的詳細資訊，請參閱[檢視：前置任務詳細資料](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-predecessor-details.md)。
 
 * 在存取任務時位於任務標題中。
 

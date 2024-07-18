@@ -17,15 +17,15 @@ ht-degree: 0%
 此頁面提供2024年第二季度版本中包含的功能相關資訊。 這些增強功能已在2024年4月10日和11日發行的24.4版本中，於生產環境中提供給所有客戶。
 
 <!--The 24.1 release webinar was on January 11, 2024. You can [register for the webinar to view an on-demand recording here](https://webinars.on24.com/adobe_workfront/whatsnewin241?partnerref=releaseoverview).-->
-我們邀請您來參加網路研討會以代替發行版研討會 [註冊Adobe Summit](https://summit.adobe.com/na/) 若要觀看下列Workfront研討會：
+我們邀請您[註冊Adobe Summit](https://summit.adobe.com/na/)以觀看下列Workfront研討會，以代替發行網路研討會：
 
-[Adobe Workfront的未來](https://reg.adobe.com/flow/adobe/as24/sessions/page/catalog?search=S302) 於2024年3月26日舉行，以窺探策略規劃及工作流程的未來。 瞭解Workfront團隊如何計畫在整個行銷生命週期中處理業務功能，而所有這一切都透過AI優先的方法來自動化工作、簡化使用者體驗並提高生產力。
+[Adobe Workfront的未來](https://reg.adobe.com/flow/adobe/as24/sessions/page/catalog?search=S302)於2024年3月26日舉行，以窺探策略規劃和工作流程的未來。 瞭解Workfront團隊如何計畫在整個行銷生命週期中處理業務功能，而所有這一切都透過AI優先的方法來自動化工作、簡化使用者體驗並提高生產力。
 
-[為端對端行銷活動規劃推出行銷行事曆和工具](https://reg.adobe.com/flow/adobe/as24/sessions/page/catalog?search=s304) 於2024年3月28日開始，瞭解新產品功能，其設計可讓您的組織管理端對端營運生命週期並以視覺化方式呈現。
+[在2024年3月28日隆重推出端對端行銷活動計畫的行銷行事曆和工具](https://reg.adobe.com/flow/adobe/as24/sessions/page/catalog?search=s304)，以瞭解設計的新產品功能，讓您組織能夠管理端對端營運生命週期並以視覺效果呈現。
 
-您也可以 [檢視PDF檔案](https://acrobat.adobe.com/id/urn:aaid:sc:US:1754831a-dbfe-471d-bca7-386264d90352){target="_blank"} 第24.4發行版本重點說明。
+您也可以[檢視PDF檔案](https://acrobat.adobe.com/id/urn:aaid:sc:US:1754831a-dbfe-471d-bca7-386264d90352){target="_blank"}，其中包含24.4版的摘要。
 
-<span class="preview">非週期功能（在2024年第二季度發行日期之前發佈到生產環境的功能）會以黃色醒目提示。</span>
+<span class="preview">週期外功能（在2024年第二季發行日期之前發佈到生產環境的功能）會以黃色標示。</span>
 
 >[!IMPORTANT]
 >
@@ -37,7 +37,7 @@ ht-degree: 0%
 >|----|----|
 >| <ul><li>24.2 （2024年2月15日）</li><li>24.3 （2024年3月14日）</li><li>24.4 （2024年4月11日）</li></ul> | <ul><li>24.4 （2024年4月11日）</li></ul> |
 >
->如需快速發行流程的詳細資訊，請參閱 [啟用或停用快速發行程式](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).
+>如需快速發行程式的詳細資訊，請參閱[啟用或停用快速發行程式](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。
 
 ## Adobe Workfront增強功能
 
@@ -118,7 +118,7 @@ ht-degree: 0%
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">表單設計工具Beta版提供Workfront原生欄位</a></p><p>[！BADGE In Production ]{type=Informative}</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">表單設計工具Beta版中有Workfront原生欄位可用</a></p><p>[！BADGE In Production ]{type=Informative}</p>
                         <p>Workfront原生欄位現在可讓您新增至自訂表單。 此新欄位型別可讓您以邏輯方式組織資料並將其呈現給使用者，而無需在自訂欄位中重新建立現有資料。</p>
                     </td>
                     <td><p><b>將於下列日期提供：</b></p>
@@ -137,7 +137,7 @@ ht-degree: 0%
                 </tr>                
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">屬性對應現在可供已移轉至Adobe IMS的組織使用</a></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">屬性對應現在可供移轉至Adobe IMS的組織使用</a></p>
                         <p>[！BADGE In Production ]{type=Informative}</p><p>Workfront系統管理員現在可以為已移轉至Adobe IMS的組織設定使用者屬性對應。 這可讓使用者資訊從組織的SSO （單一登入）提供者傳遞到Workfront，因此使用者的資料不必同時輸入到Workfront和SSO提供者。</p>
                     </td>
                     <td><p><b>將於下列日期提供：</b></p>
@@ -177,7 +177,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->中列出的功能 **檔案管理增強功能** 是分階段發行的一部分，僅供特定客戶使用。
+>**檔案管理增強功能**&#x200B;中列出的功能屬於分階段發行，僅供特定客戶使用。
 
 <table>
             <col style="width: 50%;" />
@@ -195,7 +195,7 @@ ht-degree: 0%
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">新增檔案稽核和核准的截止日期</a></p><p>[！BADGE In Production ]{type=Informative}</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">新增檔案稽核與核准的截止日期</a></p><p>[！BADGE In Production ]{type=Informative}</p>
                         <p>您現在可以指定使用者或專案團隊檢閱或核准檔案的截止日期。 稽核者和核准者在指定截止日期前72小時和之後24小時收到電子郵件通知。 截止日期也會反映在新首頁區域的核准Widget。</p>
                     </td>
                     <td><p><b>將於下列日期提供：</b></p>
@@ -236,7 +236,7 @@ ht-degree: 0%
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">一次檢視所有核准的相關資訊</a></p><p>[！BADGE In Production ]{type=Informative}</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">一次檢視您所有核准的相關資訊</a></p><p>[！BADGE In Production ]{type=Informative}</p>
                         <p>為協助您快速管理和分析核准請求，我們在「所有核准」小工具中新增了以下關鍵績效指標：
                         <ul>
                             <li>
@@ -286,7 +286,7 @@ ht-degree: 0%
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-home-enhancements.md" class="MCXref xref" xrefformat="{para}">使用版面配置範本針對新首頁新增至管理員控制項的欄選項</a></p><p>[！BADGE In Production ]{type=Informative}</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-home-enhancements.md" class="MCXref xref" xrefformat="{para}">欄選項已新增至使用配置範本的新首頁的管理員控制項</a></p><p>[！BADGE In Production ]{type=Informative}</p>
                         <p>管理員現在可以使用版面配置範本，自訂在特定新首頁Widget中哪些欄可供使用者使用。 選項包括隱藏或顯示預設欄，以及將現有欄位新增為新欄。</p>
                     </td>
                     <td><p><b>將於下列日期提供：</b></p>
@@ -359,7 +359,7 @@ ht-degree: 0%
                  </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-project-enhancements.md" class="MCXref xref" xrefformat="{para}">已將更相關的指派新增至「新任務」工作流程</a></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-project-enhancements.md" class="MCXref xref" xrefformat="{para}">更多相關指派已新增至新任務工作流程</a></p>
                         <p>[！BADGE In Production for Fast Release ]{type=Positive}</p>
                         <p>將任務新增至專案和專案任務清單時，我們已將相同功能新增至「新增任務」方塊的「工作總攬」欄位，以提供更相關的智慧指派。</p>
                     </td>
@@ -379,7 +379,7 @@ ht-degree: 0%
                  </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-project-enhancements.md" class="MCXref xref" xrefformat="{para}">更相關的智慧指派</a></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-project-enhancements.md" class="MCXref xref" xrefformat="{para}">更多相關的智慧指派</a></p>
                         <p>[！BADGE In Production for Fast Release ]{type=Positive}</p>
                         <p>我們已變更Workfront用來計算及建議智慧型任務指派的演演算法。 新演演算法適用於Workfront中指派任務的以下區域：任務清單、任務標題中的「工作」區域、「首頁」和「摘要」面板。</p>
                     </td>
@@ -418,7 +418,7 @@ ht-degree: 0%
                  </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-resource-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">工作負載平衡器中手動調整配置的指標</a></p><p>[！BADGE In Production ]{type=Informative}</p><p>為了更清楚地說明工作負載平衡器中手動調整或分佈，手動調整的每小時分配現在會顯示一個鉛筆圖示。</p>
+                        工作負載平衡器</a>中手動調整分配的<a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-resource-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">指標</p><p>[！BADGE In Production ]{type=Informative}</p><p>為了更清楚地說明工作負載平衡器中手動調整或分佈，手動調整的每小時分配現在會顯示一個鉛筆圖示。</p>
                     </td>
                     <td><p><b>將於下列日期提供：</b></p>
                         <ul>
@@ -455,7 +455,7 @@ ht-degree: 0%
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">新評論體驗已新增至疊代</a></p><p>[！BADGE In Production ]{type=Informative}</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">新註解體驗已新增至反複專案</a></p><p>[！BADGE In Production ]{type=Informative}</p>
                         <p>為了讓您在應用程式中擁有一致的體驗，我們為反複專案新增了新的評論體驗。 </p>
                     </td>
                     <td><p><b>將於下列日期提供：</b></p>
@@ -481,7 +481,7 @@ ht-degree: 0%
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">已移除對舊版評論區域的存取權</a></p><p>[！BADGE In Production ]{type=Informative}</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">對舊版評論區域的存取權已移除</a></p><p>[！BADGE In Production ]{type=Informative}</p>
                         <p>我們已移除專案、任務、問題和檔案更新區域中的「新註解」切換。 新註解現在是這些物件的預設和唯一選項。 經過此變更後，您將無法再回覆至舊版評論體驗。 此外，我們已移除使用者設定檔上的「更新狀態顯示完成百分比」設定。</p>
                     </td>
                     <td><p><b>將於下列日期提供：</b></p>
@@ -543,7 +543,7 @@ ht-degree: 0%
                 </tr>  
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">新評論體驗上的系統活動標籤支援唯讀評論</a></p><p>[！BADGE In Production ]{type=Informative}</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">新註解體驗上的系統活動索引標籤支援唯讀註解</a></p><p>[！BADGE In Production ]{type=Informative}</p>
                         <p>對舊版評論體驗中系統活動記錄所做的評論，現在會以唯讀形式填入新評論體驗的「系統活動」標籤中。 您無法回覆新評論體驗中的系統活動記錄。</p>
                     </td>
                     <td><p><b>將於下列日期提供：</b></p>
@@ -562,7 +562,7 @@ ht-degree: 0%
                 </tr> 
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">新的更新流索引標籤可擷取評論和系統活動專案</a></p><p>[！BADGE In Production ]{type=Informative}</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">新的更新資料流索引標籤，可擷取註解和系統活動專案</a></p><p>[！BADGE In Production ]{type=Informative}</p>
                         <p>為了讓您依時間順序呈現評論和系統活動記錄的檢視，我們將在所有物件的「更新」區域引入第三個標籤。 「全部」索引標籤會在一個內聚的串流中擷取使用者評論和系統活動評論。</p>
                     </td>
                     <td><p><b>將於下列日期提供：</b></p>
@@ -581,7 +581,7 @@ ht-degree: 0%
                 </tr>                
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">摘要面板中現在提供新的評論資料流</a></p><p>[！BADGE In Production ]{type=Informative}</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">摘要面板中現在有新的註解資料流</a></p><p>[！BADGE In Production ]{type=Informative}</p>
                         <p>我們現在已將新的評論功能新增到任務和問題清單的摘要面板。</p>
                     </td>
                     <td><p><b>將於下列日期提供：</b></p>
@@ -619,7 +619,7 @@ ht-degree: 0%
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-look-and-feel-updates.md" class="MCXref xref" xrefformat="{para}">2024年第二季時間範圍內的外觀和感覺更新</a></p><p>[！BADGE In Production ]{type=Informative}</p>
+                        在2024年第二季時間範圍內<a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-look-and-feel-updates.md" class="MCXref xref" xrefformat="{para}">外觀和感覺更新</a></p><p>[！BADGE In Production ]{type=Informative}</p>
                         <p>在2024年第二季時間範圍內，對Adobe Workfront應用程式的各個區域外觀和感覺進行了小幅更新。 檢閱特定發行日期的個別發行說明。</p>
                     </td>
                     <td><p><b>將於下列日期提供：</b></p>
@@ -642,15 +642,15 @@ ht-degree: 0%
 
 ### Workfront Fusion增強功能
 
-Workfront Fusion中的新功能可在2024年第二季發行排程之外的步調中推出。 如需最新功能的詳細資訊，請參閱 [Adobe Workfront Fusion發行活動](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
+Workfront Fusion中的新功能可在2024年第二季發行排程之外的步調中推出。 如需最新功能的詳細資訊，請參閱[Adobe Workfront Fusion發行活動](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md)。
 
 ### Workfront Scenario Planner增強功能
 
 此版本中目前沒有Scenario Planner更新。 在有更新可用時，此區域將會更新。
 
-### Workfront校訂增強功能
+### Workfront Proof增強功能
 
-此版本目前沒有Workfront校訂更新。 在有更新可用時，此區域將會更新。
+此版本目前沒有Workfront Proof更新。 在有更新可用時，此區域將會更新。
 
 ### Workfront目標增強功能
 
@@ -660,15 +660,15 @@ Workfront Fusion中的新功能可在2024年第二季發行排程之外的步調
 
 針對API版本18，我們已修改一些資源和端點。 有些變更支援新功能，有些則讓您更輕鬆地透過API使用可用資訊。
 
-如需新增功能和更新的詳細資訊，請參閱 [API 18版的新增功能](/help/quicksilver/wf-api/api/new-api-version-18.md).
+如需新增和更新的詳細資訊，請參閱[ API 18](/help/quicksilver/wf-api/api/new-api-version-18.md)版的新增功能。
 
-如需API版本的詳細資訊，請參閱 [API版本設定和支援排程](/help/quicksilver/wf-api/api/api-version-support-schedule.md).
+如需API版本的資訊，請參閱[API版本設定與支援排程](/help/quicksilver/wf-api/api/api-version-support-schedule.md)。
 
 ### Workfront 維護更新
 
-有關2024年第二季度版本期間進行的維護更新的資訊，請參閱 [Workfront維護更新](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
+如需2024年第二季期間所進行維護更新的相關資訊，請參閱[Workfront維護更新](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html)。
 
 ### 訓練更新
 
-探索每個Adobe Workfront產品版本的學習計畫、學習路徑、影片和指南的最新更新。 如需詳細資訊，請參閱 [WorkfrontTutorials頁面](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html).
+探索每個Adobe Workfront產品版本的學習計畫、學習路徑、影片和指南的最新更新。 如需詳細資訊，請參閱[WorkfrontTutorials頁面](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html)的「新增功能」一節。
 

@@ -1,7 +1,7 @@
 ---
 content-type: overview
 title: 頂端導覽列概觀
-description: 頂端導覽列 — 顯示在您的熒幕頂端，位於 [!DNL Adobe Workfront]  — 可讓您輕鬆尋找及導覽至平台的其他區域。
+description: 頂端導覽列（顯示在 [!DNL Adobe Workfront] 的熒幕頂端）可讓您輕鬆尋找並導覽至平台的其他區域。
 feature: Get Started with Workfront
 author: Nolan
 exl-id: 6262d0ff-4be0-41ac-b2e7-5eaa6b2795dc
@@ -16,73 +16,73 @@ ht-degree: 0%
 
 <!--Audited: 01/2024-->
 
-頂端導覽列 — 顯示在您的熒幕頂端，位於 [!DNL Adobe Workfront]  — 可讓您輕鬆尋找及導覽至平台的其他區域。
+頂端導覽列（顯示在[!DNL Adobe Workfront]的熒幕頂端）可讓您輕鬆尋找並導覽至平台的其他區域。
 
 ![頂端導覽列](assets/global-navigation-bar.png)
 
-## [!UICONTROL 首頁] 圖示
+## [!UICONTROL 首頁]圖示
 
-此 **[!UICONTROL 首頁]** 圖示 ![](assets/home-icon.png) 帶您前往 [!UICONTROL 首頁] 頁面，此為預設登陸頁面。
+**[!UICONTROL 首頁]**&#x200B;圖示![](assets/home-icon.png)會帶您前往[!UICONTROL 首頁]頁面，此頁面為預設登陸頁面。
 
-依預設，「首頁」圖示會開啟「首頁」區域。 如需首頁的詳細資訊，請參閱 [使用 [!UICONTROL 首頁] 區域](../../workfront-basics/using-home/using-the-home-area/use-the-home-area.md).
+依預設，「首頁」圖示會開啟「首頁」區域。 如需首頁的詳細資訊，請參閱[使用[!UICONTROL 首頁]區域](../../workfront-basics/using-home/using-the-home-area/use-the-home-area.md)。
 
-您的Workfront管理員可以自訂「首頁」圖示，透過建立版面配置範本並將其指派給您來開啟其他頁面。 如需詳細資訊，請參閱 [使用版面配置範本自訂登入頁面](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-landing-page.md).
+您的Workfront管理員可以自訂「首頁」圖示，透過建立版面配置範本並將其指派給您來開啟其他頁面。 如需詳細資訊，請參閱[使用配置範本自訂登入頁面](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-landing-page.md)。
 
 ## 釘選頁面
 
-您可以釘選經常造訪的頁面，讓它們顯示在頂端導覽列中。 若要深入瞭解釘選頁面，請參閱 [釘選頁面以自訂您的工作區](../../workfront-basics/the-new-workfront-experience/pin-pages.md).
+您可以釘選經常造訪的頁面，讓它們顯示在頂端導覽列中。 若要深入瞭解釘選頁面，請參閱[釘選頁面以自訂您的工作區](../../workfront-basics/the-new-workfront-experience/pin-pages.md)。
 
-## [!UICONTROL 說明] 功能表
+## [!UICONTROL 說明]功能表
 
-此 **[!UICONTROL 說明]** 功能表可讓您搜尋特定工作的說明，尋找有關使用的更多資訊 [!DNL Workfront]，檢視與您目前所在頁面相關的內容，或提交關於您體驗的意見回饋。
+**[!UICONTROL 說明]**&#x200B;功能表可讓您搜尋特定工作的說明、尋找有關使用[!DNL Workfront]的更多資訊、檢視與您目前所在頁面相關的內容，或提交關於您體驗的意見反應。
 
-若要進一步瞭解「說明」功能表，請參閱 [存取 [!DNL Adobe Workfront] 說明](../../workfront-basics/navigate-workfront/workfront-navigation/access-workfront-help.md).
+若要進一步瞭解[說明]功能表，請參閱[存取 [!DNL Adobe Workfront] 說明](../../workfront-basics/navigate-workfront/workfront-navigation/access-workfront-help.md)。
 
-## [!UICONTROL 通知] 功能表
+## [!UICONTROL 通知]功能表
 
-藍色編號方塊 ![](assets/notifications-icon.png) 在畫面的右上角，會開啟通知清單。
+畫面右上角的藍色編號方塊![](assets/notifications-icon.png)會開啟通知清單。
 
 您可以從「通知」功能表存取下列專案：
 
-* **通知**：這些是Workfront在滿足某些條件時產生的警報，可讓您知道可能需要注意的資訊。
+* **通知**：這些是Workfront在滿足某些條件時產生的警示，可讓您知道可能需要注意的資訊。
 
-* **公告**：您的Workfront管理員所傳送有關重要主題的公告。
+* **公告**：您的Workfront管理員所傳送的重要主題相關公告。
 
-若要進一步瞭解通知和公告，請參閱 [檢視及管理應用程式內通知](../../workfront-basics/using-notifications/view-and-manage-in-app-notifications.md).
+若要進一步瞭解通知和公告，請參閱[檢視和管理應用程式內通知](../../workfront-basics/using-notifications/view-and-manage-in-app-notifications.md)。
 
-## [!UICONTROL 我的最愛] 功能表
+## [!UICONTROL 我的最愛]功能表
 
-此 **[!UICONTROL 我的最愛]** 圖示 ![我的最愛](assets/favorites-icon-62x55.png) 在系統中開啟已標籤為我的最愛頁面的清單。 您可以從此功能表新增目前所在的頁面。
+**[!UICONTROL 我的最愛]**&#x200B;圖示![我的最愛](assets/favorites-icon-62x55.png)會開啟系統中您已標示為我的最愛的頁面清單。 您可以從此功能表新增目前所在的頁面。
 
-若要深入瞭解我的最愛，請參閱 [檢視和管理我的最愛](../../workfront-basics/navigate-workfront/recent-and-favorites/view-and-manage-favorites.md).
+若要深入瞭解我的最愛，請參閱[檢視和管理我的最愛](../../workfront-basics/navigate-workfront/recent-and-favorites/view-and-manage-favorites.md)。
 
-## [!UICONTROL 最近專案] 功能表
+## [!UICONTROL 最近]個功能表
 
-此 **[!UICONTROL 最近專案]** 圖示 ![[!UICONTROL 最近專案]](assets/recents-icon-40x43.png) 開啟您最近造訪過的頁面清單。
+**[!UICONTROL 最近]**&#x200B;圖示![[!UICONTROL 最近]](assets/recents-icon-40x43.png)會開啟您最近造訪過的頁面清單。
 
-若要深入瞭解最近專案，請參閱 [檢視最近專案](../../workfront-basics/navigate-workfront/recent-and-favorites/view-recent-items.md).
+若要深入瞭解最近專案，請參閱[檢視最近專案](../../workfront-basics/navigate-workfront/recent-and-favorites/view-recent-items.md)。
 
-## [!UICONTROL 搜尋] 功能表
+## [!UICONTROL 搜尋]功能表
 
-此 **[!UICONTROL 搜尋]** 圖示 ![](assets/search-icon.png) 在的右上角 [!DNL Workfront] 可讓您執行基本搜尋、將搜尋限制在特定物件中，或使用 [!UICONTROL 進階搜尋] 搜尋特定物件的關鍵字，並使用篩選器將搜尋限制在特定欄位。
+[!DNL Workfront]右上角的&#x200B;**[!UICONTROL 搜尋]**&#x200B;圖示![](assets/search-icon.png)可讓您執行基本搜尋、將搜尋限制在特定物件，或使用[!UICONTROL 進階搜尋]來搜尋特定物件的關鍵字，並使用篩選器將搜尋限制在特定欄位。
 
-若要進一步瞭解搜尋，請參閱 [搜尋 [!DNL Adobe Workfront]](../../workfront-basics/navigate-workfront/search/search-workfront.md).
+若要進一步瞭解搜尋，請參閱[搜尋 [!DNL Adobe Workfront]](../../workfront-basics/navigate-workfront/search/search-workfront.md)。
 
 ## [!UICONTROL 主要選單]
 
 >[!IMPORTANT]
 >
->此頁面中說明的「主要功能表」僅適用於尚未上線的組織 [!DNL Adobe Experience Cloud].
+>此頁面上說明的主要功能表僅適用於尚未上線到[!DNL Adobe Experience Cloud]的組織。
 >
-> 如果您的組織已上線 [!DNL Adobe Experience Cloud]，請參閱 [[!DNL Adobe Unified Experience] 的 [!DNL Workfront]](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
+> 如果您的組織已上線到[!DNL Adobe Experience Cloud]，請參閱 [!DNL Workfront]](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md)的[[!DNL Adobe Unified Experience] 。
 
-此 **[!UICONTROL 主要功能表]** 圖示 ![主要功能表](assets/main-menu-icon.png) 開啟 [!UICONTROL 主要功能表]，您可從中導覽至Workfront的其他區域。
+**[!UICONTROL 主功能表]**&#x200B;圖示![主功能表](assets/main-menu-icon.png)會開啟[!UICONTROL 主功能表]，您可以從中導覽至Workfront的其他區域。
 
-中可用的選項 [!UICONTROL 主要功能表] 取決於：
+[!UICONTROL 主要功能表]中可用的選項相依於：
 
-* **版面配置範本設定**：若要瞭解如何 [!DNL Workfront] 管理員可以修改 [!UICONTROL 主要功能表] 從版面範本，請參閱 [自訂 [!UICONTROL 主要功能表] 使用版面範本](../../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).
+* **配置範本設定**：若要瞭解[!DNL Workfront]系統管理員如何從配置範本修改[!UICONTROL 主功能表]，請參閱[使用配置範本自訂[!UICONTROL 主功能表]](../../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md)。
 
-* **授權型別**：若要瞭解不同授權型別的預設設定，請參閱 [瞭解檢閱授權使用者的導覽](../../workfront-basics/navigate-workfront/workfront-navigation/reviewer-global-navigation-bar.md) 或 [瞭解的導覽 [!UICONTROL 工作]-license使用者](../../workfront-basics/navigate-workfront/workfront-navigation/worker-global-navigation-bar.md).
+* **授權型別**：若要瞭解不同授權型別的預設設定，請參閱[瞭解Review-license使用者的導覽](../../workfront-basics/navigate-workfront/workfront-navigation/reviewer-global-navigation-bar.md)或[瞭解[!UICONTROL Work]-license使用者的導覽](../../workfront-basics/navigate-workfront/workfront-navigation/worker-global-navigation-bar.md)。
 
 ![主要功能表選項](assets/main-menu-options-350x481.png)
 
@@ -103,25 +103,25 @@ ht-degree: 0%
     <ul> 
      <li>[！UICONTROL首頁]： <a href="../../workfront-basics/using-home/using-the-home-area/use-the-home-area.md" class="MCXref xref">使用[！UICONTROL首頁]區域</a></li> 
      <li>[！UICONTROLPortfolio]： <a href="../../manage-work/portfolios/portfolio-management-overview.md" class="MCXref xref">Portfolio管理</a></li> 
-     <li>[！UICONTROL程式]： <a href="../../manage-work/portfolios/create-and-manage-programs/create-and-manage-programs.md" class="MCXref xref">建立和管理計畫 </a></li> 
+     <li>[！UICONTROL程式]： <a href="../../manage-work/portfolios/create-and-manage-programs/create-and-manage-programs.md" class="MCXref xref">建立和管理程式</a></li> 
      <li>[！UICONTROL專案]： <a href="../../manage-work/projects/projects-overview.md" class="MCXref xref">專案：文章索引</a></li> 
-     <li>[！UICONTROL報表]： <a href="../../reports-and-dashboards/reports/reports-overview.md" class="MCXref xref">報表</a></li> 
+     <li>[！UICONTROL報告]： <a href="../../reports-and-dashboards/reports/reports-overview.md" class="MCXref xref">報告</a></li> 
      <li>[！UICONTROL儀表板]： <a href="../../reports-and-dashboards/dashboards/dashboards-overview.md" class="MCXref xref">儀表板</a></li> 
      <li>[！UICONTROL行事曆]： <a href="../../reports-and-dashboards/reports/calendars/calendars.md" class="MCXref xref">行事曆：文章索引</a></li> 
-     <li>[！UICONTROL資源]： <a href="../../resource-mgmt/resource-mgmt-overview/resource-management-overview.md" class="MCXref xref">資源管理 </a></li> 
-     <li>[！UICONTROL團隊]： <a href="../../people-teams-and-groups/create-and-manage-teams/create-and-mange-teams.md" class="MCXref xref">建立及管理團隊</a></li> 
+     <li>[！UICONTROL Resourcing]： <a href="../../resource-mgmt/resource-mgmt-overview/resource-management-overview.md" class="MCXref xref">資源管理</a></li> 
+     <li>[！UICONTROL團隊]： <a href="../../people-teams-and-groups/create-and-manage-teams/create-and-mange-teams.md" class="MCXref xref">建立和管理團隊</a></li> 
      <li>[！UICONTROL使用者]： <a href="../../administration-and-setup/add-users/create-and-manage-users/create-and-manage-users.md" class="MCXref xref">建立和管理使用者</a></li> 
     </ul> </td> 
    <td> 
     <ul> 
-     <li>[！UICONTROL請求]： <a href="../../manage-work/requests/create-requests/create-requests.md" class="MCXref xref">建立請求</a></li> 
+     <li>[！UICONTROL要求]： <a href="../../manage-work/requests/create-requests/create-requests.md" class="MCXref xref">建立要求</a></li> 
      <li>[！UICONTROL時程表]： <a href="../../timesheets/timesheets-all.md" class="MCXref xref">時程表：文章索引</a></li> 
      <li>[！UICONTROL檔案]： <a href="../../documents/documents-overview.md" class="MCXref xref">檔案</a></li> 
-     <li>[！UICONTROL範本]： <a href="../../manage-work/projects/create-and-manage-templates/create-manage-templates.md" class="MCXref xref">建立及管理專案範本：文章索引</a></li> 
-     <li>[！UICONTROL Analytics]： <a href="../../enhanced-analytics/enhanced-analytics-overview.md" class="MCXref xref">增強型分析概述</a></li> 
-     <li>[！UICONTROL目標]： <a href="../../workfront-goals/goal-management/wf-goals-overview.md" class="MCXref xref">[!DNL Adobe Workfront Goals] 概述</a></li> 
-     <li>[！UICONTROL案例]： <a href="../../scenario-planner/scenario-planner-overview.md" class="MCXref xref">情境規劃工具概觀</a></li> 
-     <li>[！UICONTROL Proofing]： <a href="../../workfront-proof/workfront-proof.md" class="MCXref xref">[!DNL Workfront] 校訂：文章索引</a></li> 
+     <li>[！UICONTROL範本]： <a href="../../manage-work/projects/create-and-manage-templates/create-manage-templates.md" class="MCXref xref">建立和管理專案範本：文章索引</a></li> 
+     <li>[！UICONTROL Analytics]： <a href="../../enhanced-analytics/enhanced-analytics-overview.md" class="MCXref xref">增強型分析概觀</a></li> 
+     <li>[！UICONTROL目標]： <a href="../../workfront-goals/goal-management/wf-goals-overview.md" class="MCXref xref">[!DNL Adobe Workfront Goals]總覽</a></li> 
+     <li>[！UICONTROL案例]： <a href="../../scenario-planner/scenario-planner-overview.md" class="MCXref xref">案例規劃工具概觀</a></li> 
+     <li>[！UICONTROL Proofing]： <a href="../../workfront-proof/workfront-proof.md" class="MCXref xref">[!DNL Workfront]校訂：文章索引</a></li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -135,16 +135,16 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td> <p class="bold">[！UICONTROL設定]</p> </td> 
-   <td> <p>按一下 <b>[！UICONTROL設定]</b> 帶您前往[！UICONTROL設定]區域，您可在此設定您的 [!DNL Workfront] 帳戶。 根據您的存取設定，您可以設定的內容可能會受到限制。</p> <p>如需[！UICONTROL Setup]區域的詳細資訊，請參閱 <a href="../../administration-and-setup/administration-and-setup.md" class="MCXref xref">管理和設定：文章索引</a>.</p> </td> 
+   <td> <p>按一下<b>[！UICONTROL設定]</b>即可前往[！UICONTROL設定]區域，您可在此設定[!DNL Workfront]帳戶的不同層面。 根據您的存取設定，您可以設定的內容可能會受到限制。</p> <p>如需[！UICONTROL Setup]區域的詳細資訊，請參閱<a href="../../administration-and-setup/administration-and-setup.md" class="MCXref xref">管理與設定：文章索引</a>。</p> </td> 
   </tr> 
   <tr> 
    <td> <p class="bold">[！UICONTROL說明]</p> </td> 
-   <td> <p>按一下 <b>[！UICONTROL說明]</b> 帶您前往 [!DNL Adobe Experience League] 您可在此存取說明文章、尋找培訓、提交客戶支援票證等。</p> <p>如需詳細資訊，請參閱 [!DNL Experience League] 或其他取得說明的方法，請參閱 <a href="../../workfront-basics/tips-tricks-and-troubleshooting/guide-for-help-in-workfront.md" class="MCXref xref">您在Adobe Workfront中尋找說明的快速指南</a>.</p> </td> 
+   <td> <p>按一下<b>[！UICONTROL說明]</b>即可前往[!DNL Adobe Experience League]，存取說明文章、尋找訓練、提交客戶支援票證等等。</p> <p>如需有關[!DNL Experience League]或其他取得說明方法的詳細資訊，請參閱<a href="../../workfront-basics/tips-tricks-and-troubleshooting/guide-for-help-in-workfront.md" class="MCXref xref">在Adobe Workfront中尋找說明的快速指南</a>。</p> </td> 
   </tr>
 
 <tr> 
    <td> <p class="bold">[！UICONTROL登出]</p> </td> 
-   <td>按一下 <b>[！UICONTROL登出]</b> 將您登出 [!DNL Workfront].</td> 
+   <td>按一下<b>[！UICONTROL登出]</b>會將您登出[!DNL Workfront]。</td> 
   </tr> 
  </tbody> 
 </table>

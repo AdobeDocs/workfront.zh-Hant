@@ -24,7 +24,7 @@ ht-degree: 0%
 
 當您變更記錄預覽和頁面的版面時，變更會影響相同型別的所有記錄的預覽方塊和詳細資訊頁面。
 
-本文說明如何變更記錄預覽方塊或記錄頁面的版面配置和外觀。 如需有關編輯記錄的資訊，請參閱 [編輯記錄](/help/quicksilver/planning/records/edit-records.md).
+本文說明如何變更記錄預覽方塊或記錄頁面的版面配置和外觀。 如需有關編輯記錄的資訊，請參閱[編輯記錄](/help/quicksilver/planning/records/edit-records.md)。
 
 您必須先建立記錄型別和記錄，才能開始編輯記錄頁面。
 
@@ -78,20 +78,20 @@ ht-degree: 0%
   </tr>
 <tr>
    <td role="rowheader"><p>權限</p></td>
-   <td> <p>管理工作區的許可權</a> </p>  
+   <td> <p>管理工作區</a>的許可權 </p>  
    <p>系統管理員擁有所有工作區的許可權，包括他們未建立的工作區</p>
 </td>
   </tr>
 <tr>
    <td role="rowheader"><p>版面配置範本</p></td>
-   <td> <p>您的Workfront或群組管理員必須在版面配置範本中新增Planning區域。 如需詳細資訊，請參閱 <a href="/help/quicksilver/planning/access/access-overview.md">存取權總覽</a>. </p>  
+   <td> <p>您的Workfront或群組管理員必須在版面配置範本中新增Planning區域。 如需詳細資訊，請參閱<a href="/help/quicksilver/planning/access/access-overview.md">存取總覽</a>。 </p>  
 </td>
   </tr>
 
 </tbody>
 </table>
 
-*如需詳細資訊，請參閱 [Workfront檔案中的存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 ## 編輯記錄頁面的考量事項
 
@@ -108,7 +108,7 @@ ht-degree: 0%
 
 * 顯示在記錄預覽中所做的變更會立即顯示在記錄詳細資訊頁面中。 在記錄頁面中所做的變更也會顯示在記錄預覽方塊中。
 
-* 將封面影像或縮圖新增至記錄，不屬於記錄預覽或頁面的整體配置。 您可以新增唯一的封面影像或縮圖到每筆記錄。 如需詳細資訊，請參閱 [新增封面影像至記錄](/help/quicksilver/planning/records/add-a-cover-image-to-a-record.md) 和 [新增縮圖至記錄](/help/quicksilver/planning/records/add-thumbnails-to-records.md).
+* 將封面影像或縮圖新增至記錄，不屬於記錄預覽或頁面的整體配置。 您可以新增唯一的封面影像或縮圖到每筆記錄。 如需詳細資訊，請參閱[新增封面影像至記錄](/help/quicksilver/planning/records/add-a-cover-image-to-a-record.md)和[新增縮圖至記錄](/help/quicksilver/planning/records/add-thumbnails-to-records.md)。
 
 ## 新增區段到記錄預覽或頁面
 
@@ -116,7 +116,7 @@ ht-degree: 0%
 
 * 一個頁面上可以擁有的區段數沒有限制。
 * 不能有空白區段。 區段中必須至少有一個欄位。
-* 您可以將欄位從一個區段拖放至另一個區段。 如需詳細資訊，請參閱區段 [重新排列記錄預覽或詳細資訊頁面中的欄位](#rearrange-fields-in-the-record-preview-or-details-page) 本文章內容。
+* 您可以將欄位從一個區段拖放至另一個區段。 如需詳細資訊，請參閱本文中[重新排列記錄預覽或詳細資訊頁面](#rearrange-fields-in-the-record-preview-or-details-page)中的欄位。
 * 當您從區段移除所有欄位時，該區段會自動刪除且無法復原。
 
 若要將區段新增至記錄預覽或頁面：
@@ -135,46 +135,46 @@ ht-degree: 0%
 
    或
 
-   從表格檢視中，按一下 **開啟詳細資料** 圖示 ![](assets/open-details-icon-in-table-name-field.png) 在第一欄中。
+   從表格檢視中，按一下第一欄中的&#x200B;**開啟詳細資料**&#x200B;圖示![](assets/open-details-icon-in-table-name-field.png)。
 
    記錄的預覽會在檢視中開啟。
 
    ![](assets/details-box.png)
 
-1. （可選）按一下 **在新標籤中開啟** 圖示 ![](assets/open-details-in-a-new-tab-icon.png) 在記錄預覽的右上角，以在新索引標籤中開啟記錄頁面。
+1. （選擇性）按一下記錄預覽右上角的&#x200B;**在新索引標籤中開啟**&#x200B;圖示![](assets/open-details-in-a-new-tab-icon.png)，以在新索引標籤中開啟記錄的頁面。
 
    記錄頁面隨即開啟。
 
    ![](assets/details-page.png)
 
-1. 在記錄預覽或頁面中，暫留在欄位左側的空白區域上，然後按一下 **新增區段** 圖示 ![](assets/add-section-icon.png) 以新增區段。
-1. 在區段名稱內按一下並取代 **未命名的區段** 名稱，然後按一下Enter。 在區段下顯示的欄位會自動成為新區段的一部分。
-1. 開始將欄位拖放至新區段，如區段所述 [重新排列記錄預覽或詳細資訊頁面中的欄位](#rearrange-fields-in-the-record-preview-or-details-page) 本文章內容。
+1. 在記錄預覽或頁面中，將滑鼠移至欄位左側的空白區域，然後按一下&#x200B;**新增區段**&#x200B;圖示![](assets/add-section-icon.png)以新增區段。
+1. 按一下區段名稱內部，將&#x200B;**未命名的區段**&#x200B;取代為名稱，然後按一下[輸入]。 在區段下顯示的欄位會自動成為新區段的一部分。
+1. 開始將欄位拖放至新區段，如本文中記錄預覽或詳細資訊頁面](#rearrange-fields-in-the-record-preview-or-details-page)中的區段[重新排列欄位中所述。
 
-1. （可選）將游標停留在區段名稱上，然後按一下 **更多** 功能表 ![](assets/more-menu.png).
+1. （選擇性）將滑鼠停留在區段名稱上，然後按一下&#x200B;**更多**&#x200B;功能表![](assets/more-menu.png)。
 
    ![](assets/more-menu-options-for-section-on-record-page.png)
 1. （可選）執行下列任一項作業來編輯區段：
 
-   * 按一下 **重新命名** 重新命名截面
+   * 按一下&#x200B;**重新命名**&#x200B;以重新命名區段
 
      >[!TIP]
      >
      > 您可以按一下名稱，以內嵌方式重新命名截面。
 
-   * 按一下 **上移** 將區段向上移動一個位置
+   * 按一下&#x200B;**向上移動**，將區段向上移動一個位置
 
      或
 
-     按一下 **下移** 將區段下移一個位置。
+     按一下&#x200B;**下移**將區段下移一個位置。
 區段中的所有欄位會隨著區段移動。
 
-   * 按一下 **刪除** 以刪除區段。 該區段已刪除且無法復原。 所有存取此型別記錄的使用者將不再檢視已刪除的區段。
+   * 按一下&#x200B;**刪除**&#x200B;以刪除區段。 該區段已刪除且無法復原。 所有存取此型別記錄的使用者將不再檢視已刪除的區段。
 
 1. 按一下區段名稱左側的向下箭頭可將其摺疊，按一下向右箭頭可將其展開。
 依預設，所有截面都會展開。
 
-1. （可選）按一下 **抓取** 圖示 ![](assets/grab-icon.png) 將區段名稱左側，然後將其拖放到所需位置。
+1. （選擇性）按一下區段名稱左側的&#x200B;**抓取**&#x200B;圖示![](assets/grab-icon.png)，然後將其拖放到所需的位置。
 
    對於檢視記錄的所有使用者，區段的新位置會在相同型別的所有記錄預覽和頁面中更新。
 
@@ -196,19 +196,19 @@ ht-degree: 0%
 
    或
 
-   從表格檢視中，按一下 **開啟詳細資料** 圖示 ![](assets/open-details-icon-in-table-name-field.png) 在第一欄中。
+   從表格檢視中，按一下第一欄中的&#x200B;**開啟詳細資料**&#x200B;圖示![](assets/open-details-icon-in-table-name-field.png)。
 
    記錄的預覽會在檢視中開啟。
 
    ![](assets/details-box.png)
 
-1. （可選）按一下 **在新標籤中開啟** 圖示 ![](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> 在記錄預覽的右上角，以在新索引標籤中開啟記錄頁面。
+1. （選擇性）按一下記錄預覽右上角的&#x200B;**在新索引標籤中開啟**&#x200B;圖示![](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it-->，以在新索引標籤中開啟記錄的頁面。
 
    記錄頁面隨即開啟。
 
    ![](assets/details-page.png)
 
-1. 在記錄預覽或頁面中，按一下 **抓取** 圖示 ![](assets/grab-icon.png) 至欄位名稱的左側，然後將其拖放到所需的位置。 <!--You can drag and drop fields to another section. You must have at least one field in a section.-->
+1. 在記錄預覽或頁面中，按一下欄位名稱左側的&#x200B;**抓取**&#x200B;圖示![](assets/grab-icon.png)，然後將其拖放到所需的位置。<!--You can drag and drop fields to another section. You must have at least one field in a section.-->
 
    對於檢視記錄的所有使用者，相同型別的所有記錄預覽和頁面中的欄位新位置都會更新。
 

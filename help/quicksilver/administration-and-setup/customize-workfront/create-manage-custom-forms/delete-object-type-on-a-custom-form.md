@@ -47,7 +47,7 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-如需有關此表格的詳細資訊，請參閱 [Workfront檔案中的存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 ## 刪除自訂表單上的物件型別
 
@@ -63,11 +63,11 @@ ht-degree: 0%
 
 {{step-1-to-setup}}
 
-1. 按一下 **自訂Forms** 在左側面板中。
-1. 選取您要編輯的自訂表單，然後按一下 ![編輯圖示](assets/edit-icon.png).
-1. 按一下任何頁面上的X **物件型別** ，然後按一下「 」 **刪除** 在顯示的警告訊息上。
+1. 按一下左側面板中的&#x200B;**自訂Forms**。
+1. 選取您要編輯的自訂表單，然後按一下![編輯圖示](assets/edit-icon.png)。
+1. 在您要從表單刪除的任何&#x200B;**物件型別**&#x200B;上按一下X，然後在顯示的警告訊息上按一下&#x200B;**刪除**。
 
    ![](assets/click-x-object-types.jpg)
 
 1. （可選）針對您要從表單中移除的任何其他物件型別，重複上一步驟。
-1. 按一下 **完成**，然後按一下 **儲存並關閉**.
+1. 按一下&#x200B;**完成**，然後按一下&#x200B;**儲存並關閉**。

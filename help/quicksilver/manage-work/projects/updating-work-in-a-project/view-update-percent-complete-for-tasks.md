@@ -49,17 +49,17 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-*若要瞭解您擁有的計畫、授權型別或存取權，請聯絡您的Workfront管理員。 如需詳細資訊，請參閱 [Workfront檔案中的存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*若要瞭解您擁有的計畫、授權型別或存取權，請聯絡您的Workfront管理員。 如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 
 ## 您可以更新任務完成百分比的區域
 
 您可以在下列任一區域中更新任務的完成百分比：
 
-* **在工作清單中**：當顯示「完成百分比」欄時，您可以更新任務的完成百分比。\
-  如需內嵌編輯的詳細資訊，請參閱 [在Adobe Workfront中內嵌編輯清單中的專案](../../../workfront-basics/navigate-workfront/use-lists/inline-edit-objects.md).
+* **在任務清單中**：當顯示「完成百分比」欄時，您可以更新任務的完成百分比。\
+  如需內嵌編輯的詳細資訊，請參閱[在Adobe Workfront中內嵌編輯清單的專案](../../../workfront-basics/navigate-workfront/use-lists/inline-edit-objects.md)。
 
-* **在里程碑檢視中**：在專案清單或專案報告上使用里程碑檢視時，您可以更新任務的完成百分比。 如需詳細資訊，請參閱 [使用里程碑檢視](../../../reports-and-dashboards/reports/reporting-elements/use-milestone-view.md).
+* **在里程碑檢視中**：在專案清單或專案報告上使用里程碑檢視時，您可以更新任務的完成百分比。 如需詳細資訊，請參閱[使用里程碑檢視](../../../reports-and-dashboards/reports/reporting-elements/use-milestone-view.md)。
 
 <!--only in legacy commenting: 
 * **As you update the task**:  You can update the percent complete option of a task when adding an update to the task.
@@ -72,11 +72,11 @@ ht-degree: 0%
   >1. Go to the **Main** menu>your name>**More** icon next to your name >**Edit** > select **Show percent complete on update status**.   
   >![](assets/show-percent-complete-toggle-in-user-profile-350x243.png)  >-->
 
-* **在任務標題中**：您可以在任務標題中更新任務的完成百分比。 如需詳細資訊，請參閱 [編輯任務](../../tasks/manage-tasks/edit-tasks.md).
+* **在任務標題中**：您可以更新任務標題中任務的完成百分比。 如需詳細資訊，請參閱[編輯工作](../../tasks/manage-tasks/edit-tasks.md)。
 
   ![](assets/nwe-updatetaskpercentinheader-350x54.png)
 
-* **在任務的摘要面板中**：在下列區域中檢視任務時，您可以更新摘要面板頂端的任務完成百分比：
+* **在任務的摘要面板中**：您可以在檢視下列區域中的任務時，更新摘要面板頂端的任務完成百分比：
 
    * 任務清單或報告
    * 時程表
@@ -84,11 +84,11 @@ ht-degree: 0%
 
   ![](assets/update-percent-complete-in-task-summary-highlighted.png)
 
-  如需詳細資訊，請參閱 [摘要概觀](/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md)
+  如需詳細資訊，請參閱[摘要概觀](/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md)
 
 * **首頁**：您可以從「首頁」區域的「摘要」面板或「我的工作」Widget更新任務或問題的完成百分比。
 
-如需詳細資訊，請參閱  [新首頁快速入門](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md).
+如需詳細資訊，請參閱[開始使用新的首頁](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md)。
 
 ## 更新任務完成百分比的考量事項
 
@@ -97,7 +97,7 @@ ht-degree: 0%
    * 當專案的「摘要完成模式」設定為「自動」且子任務未完成時，您無法將父系任務的完成百分比更新為100%。
    * 當專案的「摘要完成模式」設定為「手動」，且子作業已完成或不完成時，您可以將父系作業的完成百分比更新為100%。
 
-  如需詳細資訊，請參閱 [編輯專案](../manage-projects/edit-projects.md).
+  如需詳細資訊，請參閱[編輯專案](../manage-projects/edit-projects.md)。
 
 ## 更新任務的完成百分比
 
@@ -106,18 +106,18 @@ ht-degree: 0%
    * 工作清單
    * 專案清單和應用里程碑檢視
    * 任務，透過存取任務頁面
-1. 找到 **完成百分比** 您要更新其完成百分比之任務的欄位。
+1. 找到您要更新其完成百分比的任務的&#x200B;**完成百分比**&#x200B;欄位。
 
    >[!TIP]
    >
    >  完成百分比欄位一律顯示在摘要面板頂端。
 
 
-1. 按一下 **完成百分比** 欄位並輸入介於0到100之間的數字
+1. 在&#x200B;**完成百分比**&#x200B;欄位內按一下，然後輸入介於0到100之間的數字
 
    或
 
-   按一下並拖曳 **完成百分比** 列至必要的數字，以指出您已完成多少工作（若有可用的話）。
+   按一下&#x200B;**完成百分比**&#x200B;並拖曳至必要的數字，以指出您完成了多少工作（可用時）。
 
    >[!NOTE]
    >

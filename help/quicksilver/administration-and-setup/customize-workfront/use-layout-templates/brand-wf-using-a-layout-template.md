@@ -3,14 +3,14 @@ title: 使用版面配置範本的品牌Adobe Workfront
 user-type: administrator
 product-area: system-administration;templates
 navigation-topic: layout-templates
-description: 身為Adobe Workfront管理員或群組管理員，您可以使用版面配置範本來自訂上層導覽區域以及特定群組、團隊、職務角色和使用者之主要功能表上的標誌。 這對於擁有自有品牌的大型組織中的群組特別有用。
+description: 身為Adobe Workfront管理員或群組管理員，您可以使用版面配置範本來自訂頂端導覽區域以及[主要]功能表中特定群組、團隊、工作角色和使用者的標誌。 這對於擁有品牌的大型組織中的群組特別有用。
 author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: ded9ab1e-c5f4-476b-ac81-0497dbe6b24d
 source-git-commit: 7ee96045e5673c51c3ce348f395226857686a923
 workflow-type: tm+mt
-source-wordcount: '558'
+source-wordcount: '562'
 ht-degree: 0%
 
 ---
@@ -19,17 +19,17 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->此頁面中說明的程式僅適用於尚未上線的組織 [!DNL Adobe Experience Cloud].
+>此頁面上說明的程式僅適用於尚未上線到[!DNL Adobe Experience Cloud]的組織。
 >
-> 如果您的組織已上線 [!DNL Adobe Experience Cloud]，品牌推廣無法使用。
+> 如果您的組織已上線到[!DNL Adobe Experience Cloud]，則無法使用品牌化。
 
-您可以使用版面配置範本來自訂上層導覽區域以及特定群組、團隊、職務角色和使用者之主要功能表中的標誌。 這對於擁有自有品牌的大型組織中的群組特別有用。
+您可以使用版面配置範本來自訂頂端導覽區域和[主要]功能表中特定群組、團隊、工作角色和使用者的標誌。 這對於擁有品牌的大型組織中的群組特別有用。
 
-如需有關群組版面配置範本的資訊，請參閱 [建立和修改群組的版面配置範本](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
+如需有關群組配置範本的資訊，請參閱[建立和修改群組的配置範本](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md)。
 
 >[!NOTE]
 >
->Workfront管理員可以在系統層級對整個組織進行相同的品牌自訂，如中所述 [品牌化Adobe Workfront執行個體](../../../administration-and-setup/customize-workfront/brand-workfront/brand-your-workfront-instance.md). 但版面配置範本中的品牌化會覆寫系統層級的品牌化。
+>Workfront管理員可在系統層級對整個組織進行相同的品牌自訂，如[品牌化您的Adobe Workfront執行個體](../../../administration-and-setup/customize-workfront/brand-workfront/brand-your-workfront-instance.md)中所述。 但版面配置範本中的品牌化會覆寫系統層級的品牌化。
 ><!--
 >Maybe add a section about deleting these 2 settings to revert to default branding?
 >-->
@@ -53,28 +53,28 @@ ht-degree: 0%
   <tr> 
    <td role="rowheader">存取層級設定</td> 
    <td> <p>若要在系統層級執行這些步驟，您需要系統管理員存取層級。
-若要為群組執行這些動作，您必須是該群組的管理員。</p> <p><b>注意</b>：如果您還是沒有存取權，請洽詢Workfront管理員，瞭解他們是否對您的存取層級設定其他限制。 如需有關Workfront管理員如何修改您的存取層級的資訊，請參閱 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>.</p> </td> 
+若要為群組執行這些動作，您必須是該群組的管理員。</p> <p><b>注意</b>：如果您還是沒有存取權，請詢問您的Workfront管理員是否對您的存取層級設定了其他限制。 如需Workfront管理員如何修改存取層級的詳細資訊，請參閱<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## 使用版面配置範本的品牌Adobe Workfront
 
-1. 開始使用版面範本，如所述 [建立和管理版面範本](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
-1. 按一下向下箭頭 ![](assets/dropdown-arrow.png) 在 **自訂使用者看到的內容**，然後按一下 **品牌化**.
-1. 進行下列任何變更，以針對指派此版面配置範本的使用者自訂Workfront品牌影像。
+1. 開始使用版面配置範本，如[建立和管理版面配置範本](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md)中所述。
+1. 按一下&#x200B;**自訂使用者看到的內容**&#x200B;下的向下箭頭![](assets/dropdown-arrow.png)，然後按一下&#x200B;**品牌**。
+1. 進行下列任何變更，以使用指派此版面配置範本的使用者品牌影像來自訂Workfront。
 
    <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader"> <p>品牌化首頁圖示 <span style="font-weight: normal;">（顯示在頂端導覽區域的最左側）</span></p> </td> 
-      <td> <p>在 <strong>頂端導覽區域</strong> 區段，在 <strong>首頁圖示</strong>，按一下方塊中的任意位置，然後尋找並選取您的標誌影像。 或將影像拖曳至方塊。</p> <p>若要裁切影像，請使用捲動控制項，並將影像拖曳至指定空間內您想要的位置。</p> <p>建議使用120 x 120影像。 其格式可以有下列任一：GIF、JPG、PNG、SVG。</p> <p>此圖示也會顯示在使用者匯出為PDF檔案的報告、清單、儀表板和傳遞的報告中。</p> </td> 
+      <td role="rowheader"> <p>品牌首頁圖示<span style="font-weight: normal;"> （顯示在頂端導覽區域的最左側）</span></p> </td> 
+      <td> <p>在<strong>上層導覽區域</strong>區段的<strong>首頁圖示</strong>下，按一下方塊中的任何位置，然後尋找並選取您的標誌影像。 或將影像拖曳至方塊。</p> <p>若要裁切影像，請使用捲動控制項，並將影像拖曳至您想要在指定空間內的位置。</p> <p>建議使用120 x 120影像。 其格式可為下列任一格式：GIF、JPG、PNG、SVG。</p> <p>此圖示也會顯示在使用者匯出為PDF檔案的報告、清單、控制面板以及傳遞的報告中。</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"> <p>標籤主要功能表 <img src="assets/main-menu-icon.png"> 標誌 <span style="font-weight: normal;">（顯示在主要功能表的右上角）</span></p> </td> 
-      <td> <p> <p> <p>在 <strong>頂端導覽區域</strong> 區段，在 <strong>主要功能表標誌</strong>，按一下方塊中的任意位置，然後尋找並選取您的標誌影像。 或將影像拖曳至方塊。</p> <p>若要裁切影像，請使用捲動控制項，並將影像拖曳至指定空間內您想要的位置。</p> <p>建議使用300 x 120畫素的影像。 其格式可以有下列任一：GIF、JPG、PNG、SVG。</p> </p> </p> </td> 
+      <td role="rowheader"> <p>標籤主要功能表<img src="assets/main-menu-icon.png">標誌<span style="font-weight: normal;"> （顯示在主要功能表的右上角）</span></p> </td> 
+      <td> <p> <p> <p>在<strong>頂端導覽區域</strong>區段的<strong>主功能表標誌</strong>下，按一下方塊中的任何位置，然後尋找並選取您的標誌影像。 或將影像拖曳至方塊。</p> <p>若要裁切影像，請使用捲動控制項，並將影像拖曳至您想要在指定空間內的位置。</p> <p>建議使用300 x 120畫素的影像。 其格式可為下列任一格式：GIF、JPG、PNG、SVG。</p> </p> </p> </td> 
      </tr> 
     </tbody> 
    </table>
@@ -83,12 +83,12 @@ ht-degree: 0%
 
    或
 
-   如果您已完成自訂，請按一下 **儲存**.
+   如果您已完成自訂，請按一下&#x200B;**儲存**。
 
    >[!TIP]
    >
-   >您可以隨時按一下「儲存」以儲存進度，然後繼續稍後修改範本。
+   >您可以隨時按一下「儲存」以儲存進度，然後繼續修改範本。
 
-1. 按一下&#x200B;**儲存**。
+1. 按一下「**儲存**」。
 
-如需版面配置範本的詳細資訊，請參閱 [建立和管理版面範本](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
+如需配置範本的詳細資訊，請參閱[建立和管理配置範本](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md)。

@@ -14,11 +14,11 @@ ht-degree: 1%
 
 ---
 
-# 群組與中的團隊 [!DNL Adobe Workfront]
+# [!DNL Adobe Workfront]中的群組與團隊
 
 <!-- Audited: 12/2023 -->
 
-群組及團隊為中的使用者集合 [!DNL Adobe Workfront].
+群組和團隊是[!DNL Adobe Workfront]中的使用者集合。
 
 雖然您只能為每個使用者指定一個主群組和一個主團隊，但每個使用者可以屬於不限數量的團隊或群組。 但是，為避免混淆，我們建議每個使用者屬於有限數量的團隊和群組。
 
@@ -30,7 +30,7 @@ ht-degree: 1%
 
 例如，您可能有一個財務群組，其中包含財務部門的使用者。 在財務部門，人員可能會組成彼此獨立工作的團隊。
 
-如需建立和管理群組的詳細資訊，請參閱 [建立群組](../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md) 和 [管理群組](../../administration-and-setup/manage-groups/create-and-manage-groups/manage-a-group.md).
+如需建立和管理群組的詳細資訊，請參閱[建立群組](../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md)和[管理群組](../../administration-and-setup/manage-groups/create-and-manage-groups/manage-a-group.md)。
 
 ## 使用「專案團隊」來表示部門內的工作結構
 
@@ -38,7 +38,7 @@ ht-degree: 1%
 
 例如，您可能會有「給薪小組」、「應付帳款」及「應收帳款」小組。 通常每個團隊中的人員會處理這些團隊中類似的專案、任務或問題。
 
-如需建立和管理專案團隊的詳細資訊，請參閱 [建立及管理團隊](../../people-teams-and-groups/create-and-manage-teams/create-and-mange-teams.md).
+如需建立和管理團隊的詳細資訊，請參閱[建立和管理團隊](../../people-teams-and-groups/create-and-manage-teams/create-and-mange-teams.md)。
 
 ## 群組與團隊功能比較
 
@@ -67,5 +67,5 @@ ht-degree: 1%
 | 指派版面範本 | ✓ (A) | ✓ (A) |
 | 任何擁有Plan授權的使用者都可以將其指派給其他使用者 |  | ✓ (A) |
 | 自訂狀態 | ✓ (A) |  |
-| 自訂 [!UICONTROL 完成] 按鈕 |  | ✓ (A) |
+| 自訂[!UICONTROL 完成]按鈕 |  | ✓ (A) |
 | 追蹤授權 | ✓ (A) |  |

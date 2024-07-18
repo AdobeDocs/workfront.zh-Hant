@@ -28,11 +28,11 @@ Workfront中的電子郵件（包括內部和外部電子郵件）是多樣且�
 本節包含下列文章：
 
 * [電子郵件通知頁面](../../../administration-and-setup/manage-workfront/emails/email-notifications-page.md)
-* [為系統中的每個人設定事件通知](../../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md)
+* [設定系統中每個人的事件通知](../../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md)
 * [事件通知型別](../../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md)
-* [解鎖或鎖定所有群組的事件通知設定](../../../administration-and-setup/manage-workfront/emails/unlock-configuration-of-event-notifications-for-groups.md)
+* [解除鎖定所有群組的事件通知設定](../../../administration-and-setup/manage-workfront/emails/unlock-configuration-of-event-notifications-for-groups.md)
 * [自訂事件通知的電子郵件主題](../../../administration-and-setup/manage-workfront/emails/custom-email-subjects-event-notification.md)
-* [修改多位使用者的電子郵件通知設定](../../../administration-and-setup/manage-workfront/emails/modify-email-notification-settings-user-profiles.md)
+* [修改多個使用者的電子郵件通知設定](../../../administration-and-setup/manage-workfront/emails/modify-email-notification-settings-user-profiles.md)
 * [設定提醒通知](../../../administration-and-setup/manage-workfront/emails/set-up-reminder-notifications.md)
 * [將提醒通知附加至物件](../../../workfront-basics/using-notifications/attach-reminder-notification-object.md)
 * [設定自動提醒](../../../administration-and-setup/manage-workfront/emails/setting-up-automatic-reminders.md)

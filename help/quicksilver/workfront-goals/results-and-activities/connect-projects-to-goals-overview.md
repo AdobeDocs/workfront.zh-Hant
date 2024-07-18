@@ -27,7 +27,7 @@ THIS MIGHT NEED TO BE RENAMED BECAUSE THERE WILL BE OTHER OBJECTS CONNECTED TO G
 
 >[!IMPORTANT]
 >
->在專案的業務案例區域中建立的專案層級目標未連結到Workfront目標中建立的策略目標。 如需業務案例專案目標的相關資訊，請參閱 [建立業務案例目標](../../manage-work/projects/define-a-business-case/create-business-case-goals.md).
+>在專案的業務案例區域中建立的專案層級目標未連結到Workfront目標中建立的策略目標。 如需業務案例專案目標的相關資訊，請參閱[建立業務案例目標](../../manage-work/projects/define-a-business-case/create-business-case-goals.md)。
 
 
 ## 存取需求
@@ -57,7 +57,7 @@ THIS MIGHT NEED TO BE RENAMED BECAUSE THERE WILL BE OTHER OBJECTS CONNECTED TO G
  <td>
  <p>新授權：投稿人或以上版本</p>
  或
- <p>目前授權：要求或以上</p> <p>如需詳細資訊，請參閱 <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront授權總覽</a>.</p> </td>
+ <p>目前授權：要求或以上</p> <p>如需詳細資訊，請參閱<a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront授權總覽</a>。</p> </td>
  </tr>
  <tr>
  <td role="rowheader">產品*</td>
@@ -67,7 +67,7 @@ THIS MIGHT NEED TO BE RENAMED BECAUSE THERE WILL BE OTHER OBJECTS CONNECTED TO G
 <li>Select或Prime Adobe Workfront計畫以及額外的Adobe Workfront目標授權。</li>
 <li>預設包含Workfront目標的Ultimate Workfront計畫。 </li></ul>
  <p>或</p>
- <p>目前產品需求： Adobe Workfront Goals的Workfront計畫和額外授權。 </p> <p>如需詳細資訊，請參閱 <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">使用Workfront目標的需求</a>. </p> </td>
+ <p>目前產品需求： Adobe Workfront Goals的Workfront計畫和額外授權。 </p> <p>如需詳細資訊，請參閱<a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">使用Workfront目標的需求</a>。 </p> </td>
  </tr>
  <tr>
  <td role="rowheader">存取層級</td>
@@ -79,7 +79,7 @@ THIS MIGHT NEED TO BE RENAMED BECAUSE THERE WILL BE OTHER OBJECTS CONNECTED TO G
   <div>
   <p>檢視目標或更高許可權以檢視它</p>
   <p>管理目標的許可權以編輯它</p>
-  <p>如需關於共用目標的資訊，請參閱 <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">在Workfront目標中共用目標</a>. </p>
+  <p>如需共用目標的相關資訊，請參閱<a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">在Workfront目標中共用目標</a>。 </p>
   </div> </td>
  </tr>
  <tr>
@@ -90,7 +90,7 @@ THIS MIGHT NEED TO BE RENAMED BECAUSE THERE WILL BE OTHER OBJECTS CONNECTED TO G
 </tbody>
 </table>
 
-*如需詳細資訊，請參閱 [Workfront檔案中的存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 ## 將專案連線至目標的相關考量事項
 
@@ -125,19 +125,19 @@ There is an indication on the goal list that the project no longer updates progr
 
 ## 將專案新增至目標
 
-1. 按一下 **主要功能表** ![](assets/main-menu-icon.png) (為Shell繪製此項：或按一下 **主要功能表** ![](assets/three-line-main-menu-icon.png) （如果有） ，則位於左上角 **目標**.
+1. 按一下&#x200B;**主功能表** ![](assets/main-menu-icon.png) (為Shell草稿：或按一下左上角的&#x200B;**主功能表** ![](assets/three-line-main-menu-icon.png) （如果有的話），然後&#x200B;**目標**。
 1. 從目標清單中，按一下目標的名稱以開啟目標頁面。
-1. 按一下 **進度指示器** 在左側面板中。
-1. 從 **新進度指示器** 下拉式功能表，按一下 **新增現有專案**.
+1. 按一下左側面板中的&#x200B;**進度指示器**。
+1. 從&#x200B;**新進度指示器**&#x200B;下拉式功能表，按一下&#x200B;**新增現有專案**。
 
    「將專案新增至目標」方塊隨即顯示。
-1. （可選）更新 **檢視**， **篩選**，或 **分組** 按一下清單右上角的個別圖示，即可修改專案清單的顯示方式。
-1. （可選）按一下 **搜尋** 圖示 ![](assets/search-icon.png) 並開始輸入專案名稱以在清單中快速找到。
-1. 選取您要新增至目標的專案，然後按一下 **新增**.
+1. （選擇性）按一下清單右上角的個別圖示，以修改專案清單的顯示方式，更新&#x200B;**檢視**、**篩選器**&#x200B;或&#x200B;**群組**。
+1. （選擇性）按一下&#x200B;**搜尋**&#x200B;圖示![](assets/search-icon.png)並開始輸入專案名稱以在清單中快速找到它。
+1. 選取您要新增至目標的專案，然後按一下[新增]。****
 
-   選取的專案會新增至目標，並顯示在目標頁面的「進度指示器」區段的 **專案** 分組。
+   選取的專案會新增至目標，並顯示在&#x200B;**專案**&#x200B;群組下的目標頁面進度指標區段。
 
-   啟動目標後，當專案進度更新時，目標的進度會自動更新。 如需啟用目標的詳細資訊，請參閱 [在Adobe Workfront目標中啟用目標](../goal-management/activate-goals.md).
+   啟動目標後，當專案進度更新時，目標的進度會自動更新。 如需啟用目標的相關資訊，請參閱[在Adobe Workfront目標中啟用目標](../goal-management/activate-goals.md)。
 
 ## 找到目標的專案資訊
 

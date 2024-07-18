@@ -20,7 +20,7 @@ ht-degree: 1%
 
 將問題轉換為任務或專案時，問題會成為任務或專案的可解析物件。
 
-您也可以手動將問題連結至解決物件，可以是任務、專案或問題。 如需詳細資訊，請參閱 [手動將問題的解決連結至其他問題、任務或專案](../../../manage-work/issues/convert-issues/manually-tie-resolution-of-issue-to-ptis.md).
+您也可以手動將問題連結至解決物件，可以是任務、專案或問題。 如需詳細資訊，請參閱[手動將問題的解決連結到其他問題、任務或專案](../../../manage-work/issues/convert-issues/manually-tie-resolution-of-issue-to-ptis.md)。
 
 在此案例中，原始問題會成為任務、專案或問題的可解析物件。
 
@@ -34,7 +34,7 @@ ht-degree: 1%
 >
 >可解析物件永遠是問題，其解析度和狀態取決於與其關聯的解析物件的解析度和狀態。 解析物件可以是問題、任務或專案。
 
-如需有關設定處理可解析物件的偏好設定的資訊，請參閱 [設定系統範圍的任務和問題偏好設定](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
+如需設定處理可解析物件的偏好設定的相關資訊，請參閱[設定全系統的任務和問題偏好設定](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md)。
 
 <!--WRITER
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -78,13 +78,13 @@ The default status of the issue is controlled by the status of the project or ta
 
 存在下列情況：
 
-* 如果Workfront或群組管理員擁有 **保持初始問題並將其解決方案連結至任務** 和 **保持初始問題並將其解決方案連結至專案** 已選取且 **允許在轉換期間變更這些設定** 取消選取後，您將問題轉換為任務或專案時無法變更這些設定。\
+* 如果Workfront或群組管理員擁有&#x200B;**保留原始問題並將其解決方案連結至任務**&#x200B;和&#x200B;**保留原始問題並將其解決方案連結至專案**&#x200B;已選取，且&#x200B;**允許在轉換期間變更這些設定**&#x200B;未選取，則您將問題轉換為任務或專案時無法變更這些設定。\
   ![](assets/qs-setup-project-preferences-issues-area-some-boxes-unselected-350x217.png)
 
-* 如果Workfront或群組管理員擁有 **保持初始問題並將其解決方案連結至任務** 和 **保持初始問題並將其解決方案連結至專案** 已選取或未選取，以及 **允許在轉換期間變更這些設定** 選取後，當您將問題轉換為任務或專案時，將可變更這些設定。\
+* 如果Workfront或群組管理員擁有&#x200B;**保留原始問題並將其解決方案連結至任務**&#x200B;和&#x200B;**保留原始問題並將其解決方案連結至專案** （選取或未選取），且&#x200B;**允許在轉換期間變更這些設定**&#x200B;已選取，則您將能夠在您將問題轉換為任務或專案時變更這些設定。\
   ![](assets/qs-options-to-keep-issue-when-coverting-it-inside-the-issue-350x113.png)
 
-如需將問題轉換為任務和專案的詳細資訊，請參閱 [在Adobe Workfront中轉換問題的概觀](../../../manage-work/issues/convert-issues/convert-issues.md).
+如需將問題轉換為任務和專案的詳細資訊，請參閱[在Adobe Workfront中轉換問題的總覽](../../../manage-work/issues/convert-issues/convert-issues.md)。
 
 <!--WRITER
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -115,7 +115,7 @@ One project, task, or issue may have multiple issues as Resolvable Objects.
 
 ## 將可解析物件的狀態與解析物件的狀態同步 {#synchronize-the-status-of-the-resolvable-object-with-that-of-the-resolving-object}
 
-* [當解析物件為問題時同步狀態](#synchronize-statuses-when-the-resolving-object-is-an-issue)
+* 當解析物件為問題時[同步狀態](#synchronize-statuses-when-the-resolving-object-is-an-issue)
 * [當解析物件是任務或專案時同步狀態](#synchronize-statuses-when-the-resolving-object-is-a-task-or-a-project)
 
 ### 當解析物件為問題時同步狀態 {#synchronize-statuses-when-the-resolving-object-is-an-issue}
@@ -148,7 +148,7 @@ One project, task, or issue may have multiple issues as Resolvable Objects.
 | 計畫 | 新增 |
 | 目前 | 進行中 |
 | 保留 | 保留 |
-| 請求日期 | 不會觸發問題狀態的變更 |
+| 已請求 | 不會觸發問題狀態的變更 |
 | 已核准 | 不會觸發問題狀態的變更 |
 | 已拒絕 | 不會觸發問題狀態的變更 |
 | 構想 | 不會觸發問題狀態的變更 |
@@ -163,15 +163,16 @@ One project, task, or issue may have multiple issues as Resolvable Objects.
 
 當您將任務或專案的狀態變更為自訂狀態時，僅當滿足以下兩個條件時，問題狀態才會變更為自訂問題狀態：
 
-* 已選取「當解析物件的狀態變更時自動更新可解析問題狀態」選項。 如需如何啟用此設定的詳細資訊，請參閱 [設定Adobe Workfront以處理可解析物件](#set-up-adobe-workfront-to-handle-resolvable-objects).
+* 已選取「當解析物件的狀態變更時自動更新可解析問題狀態」選項。 如需如何啟用此設定的詳細資訊，請參閱[設定Adobe Workfront以處理可解析物件](#set-up-adobe-workfront-to-handle-resolvable-objects)。
 
 * 專案或任務的自訂狀態與問題的自訂狀態具有相同的三個字母代碼。
 
 您可以針對問題和專案或任務建立具有相同索引鍵的自訂狀態。 當專案或任務（作為解決物件）變更為自訂狀態時，變更也會反映在問題的狀態上。 問題和專案或任務狀態的狀態索引鍵必須相同。
 
-例如，使用等於「目前」的三字母代碼「LCD」，建立名為「已啟動」的專案自訂狀態。 此外，建立名為「已啟動專案」的問題自訂狀態，且文字代碼為「LCD」，等於「進行中」。 當您將專案標籤為「已啟動」時，問題會自動將狀態變更為「已啟動專案」。 如果「當解決物件變更的狀態未啟用時自動更新可解決問題狀態」設定，則問題狀態將變更為「進行中」（預設狀態）。
+例如，使用等於「目前」的三字母代碼「LCD」，建立名為「已啟動」的專案自訂狀態。 此外，建立名為「已啟動專案」的問題自訂狀態，且文字代碼為「LCD」，等於「進行中」。 當您將專案標籤為「已啟動」時，問題會自動將狀態變更為「已啟動專案」。 若此&quot;
+當未啟用解析物件變更的狀態時，自動更新可解析問題狀態，問題狀態將變更為「進行中」（預設狀態）。
 
-如需建立自訂狀態的詳細資訊，請參閱 [建立或編輯狀態](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md).
+如需建立自訂狀態的詳細資訊，請參閱[建立或編輯狀態](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md)。
 
 ## 將解析物件的完成百分比與可解析物件的完成百分比同步
 
@@ -187,9 +188,9 @@ One project, task, or issue may have multiple issues as Resolvable Objects.
 對於任務和專案，找到相同的解析物件。
 
 1. 將問題轉換為專案或任務以導覽至您建立的專案或任務。
-1. 按一下 **專案詳細資訊** 或 **任務詳細資訊** 圖示並按一下以展開。
-1. 按一下 **概觀**.
-1. 在索引標籤底部，找到 **問題解決了** 欄位：此欄位中列出的問題是專案或任務的可解析物件。
+1. 按一下&#x200B;**專案詳細資料**&#x200B;或&#x200B;**任務詳細資料**&#x200B;圖示，然後按一下以展開它。
+1. 按一下&#x200B;**概觀**。
+1. 在索引標籤底部，找到&#x200B;**此已解決**&#x200B;欄位：此欄位中列出專案的可解決物件或任務的問題。
 
    >[!NOTE]
    >
@@ -197,7 +198,7 @@ One project, task, or issue may have multiple issues as Resolvable Objects.
 
 ## 識別清單中解析物件的問題
 
-在問題清單中，您可以透過狀態圖示找出以下位置，識別標示為透過解析物件的問題： **狀態圖示** 或 **旗標** 欄：
+在問題清單中，您可以在&#x200B;**狀態圖示**&#x200B;或&#x200B;**旗標**&#x200B;欄中找出此圖示，藉此識別標示為透過狀態圖示解析物件的問題：
 
 ![](assets/ro1.png)
 
@@ -213,7 +214,7 @@ One project, task, or issue may have multiple issues as Resolvable Objects.
  <col> 
  <thead> 
   <tr> 
-   <th><strong>檢視中的欄位</strong> </th> 
+   <th>檢視中的<strong>欄位</strong> </th> 
    <th><strong>問題檢視</strong> </th> 
    <th><strong>任務檢視</strong> </th> 
    <th><strong>專案檢視</strong> </th> 
@@ -221,37 +222,37 @@ One project, task, or issue may have multiple issues as Resolvable Objects.
  </thead> 
  <tbody> 
   <tr> 
-   <td><strong>具有可解析專案</strong>：顯示 <strong>真</strong> 值（如果專案或任務具有與其關聯的可解決問題），以及 <strong>假</strong> 如果沒有，則為值。</td> 
+   <td><strong>有可解析專案</strong>：如果專案或任務具有相關聯的可解析問題，則顯示<strong>True</strong>值，否則顯示<strong>False</strong>值。</td> 
    <td>✓ (A)</td> 
    <td>✓ (A)</td> 
    <td>✓ (A)</td> 
   </tr> 
   <tr> 
-   <td><strong>原始問題名稱、原始問題輸入日期、建立者名稱</strong>：顯示原始問題的名稱和輸入日期，以及在文字模式自訂檢視中建立問題的使用者名稱。<br>如需更多有關為專案或任務報告或清單建立文字模式自訂檢視以顯示原始問題相關資訊的資訊，請參閱 <a href="../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-original-issue-info-task-project-list.md" class="MCXref xref">檢視：顯示任務和專案清單上的原始問題資訊</a>.<br></td> 
+   <td><strong>原始問題名稱、原始問題輸入日期、建立者名稱</strong>：顯示原始問題的名稱和輸入日期，以及在文字模式自訂檢視中建立問題的使用者名稱。<br>如需有關為專案或任務報告或清單建立文字模式自訂檢視以顯示原始問題相關資訊的詳細資訊，請參閱<a href="../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-original-issue-info-task-project-list.md" class="MCXref xref">檢視：在任務和專案清單上顯示原始問題資訊</a>。<br></td> 
    <td> </td> 
    <td> ✓ (A)</td> 
    <td> ✓ (A)</td> 
   </tr> 
   <tr> 
-   <td> <p><strong>可解析專案：</strong> 以文字模式自訂檢視顯示專案或任務報告或清單的所有可解析物件清單。</p> <p>如需有關建立此檢視的詳細資訊，請參閱 <a href="../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-resolvable-objects-task-project-report.md" class="MCXref xref">檢視：任務或專案報告中的可解析物件</a></p> </td> 
+   <td> <p><strong>可解析專案：</strong>以文字模式自訂檢視顯示專案、工作報告或清單的所有可解析物件清單。</p> <p>如需建立此檢視的詳細資訊，請參閱<a href="../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-resolvable-objects-task-project-report.md" class="MCXref xref">檢視：任務或專案報告中的可解析物件</a></p> </td> 
    <td> </td> 
    <td>✓ (A)</td> 
    <td> ✓ (A)</td> 
   </tr> 
   <tr> 
-   <td><strong>轉換的問題建立者</strong>：顯示原本記錄問題（後來轉換為任務）之使用者的相關資訊。 </td> 
+   <td><strong>轉換的問題建立者</strong>：顯示最初記錄問題且後來轉換為任務之使用者的相關資訊。 </td> 
    <td> </td> 
    <td>✓ (A)</td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><strong>解析專案</strong>：顯示有關解決專案的資訊，其已從原始問題轉換為或手動指定為問題的解決物件。</td> 
+   <td><strong>解決專案</strong>：顯示解決專案的資訊，該專案已從原始問題轉換而來，或手動指定為問題的解決物件。</td> 
    <td>✓ (A)</td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><strong>解析任務</strong>：顯示有關解決任務的資訊，該資訊已從原始問題轉換為問題，或手動指定為問題的解決物件。</td> 
+   <td><strong>解決任務</strong>：顯示解決任務的相關資訊，該任務已從原始問題轉換，或手動指定為問題的解決物件。</td> 
    <td>✓ (A) </td> 
    <td> </td> 
    <td> </td> 

@@ -18,11 +18,11 @@ ht-degree: 0%
 
 您可以使用Workfront API搭配API工具(例如Postman)或簡單的cURL命令來上傳檔案。
 
-若要上傳檔案，請參閱 **正在上傳檔案** 在Workfront中 [貼文行為](/help/quicksilver/wf-api/general/api-basics.md#post-behavior). 您也可以對cURL請求使用這些相同的指示。
+若要上傳檔案，請參閱Workfront [Post行為](/help/quicksilver/wf-api/general/api-basics.md#post-behavior)中&#x200B;**上傳檔案**&#x200B;的說明。 您也可以對cURL請求使用這些相同的指示。
 
 **使用API工具上傳檔案時，請遵循下列准則：**
 
-* 使用API工具選項上傳檔案。 這些通常是 **選擇檔案** 按鈕。
+* 使用API工具選項上傳檔案。 這些通常是請求畫面上的&#x200B;**選擇檔案**&#x200B;按鈕。
 
 * 使用POSTHTTP方法提出上傳檔案的請求。
 

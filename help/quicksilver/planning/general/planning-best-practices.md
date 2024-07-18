@@ -26,13 +26,13 @@ ht-degree: 0%
 
 Workfront規劃模組是三個相異但連結的Workfront功能之一，這些功能共同建立行銷記錄系統。 這三項功能包括：
 
-* **規劃**：Workfront Planning包含的新進階功能。
+* **規劃**： Workfront規劃中包含的新進階功能。
 
 * **工作流程**：您目前在Workfront中使用的合作工作管理功能（專案管理、資源管理等）
 
-* **自動化與整合**：由Workfront Fusion支援的全面整合和自動化功能。
+* **自動化與整合**：由Workfront Fusion支援的全面整合與自動化功能。
 
-Workfront Planning是高度可自訂的。 如需Workfront Planning術語和重要概念的詳細資訊，請參閱 [Adobe Workfront規劃概觀](/help/quicksilver/planning/general/planning-overview.md).
+Workfront Planning是高度可自訂的。 如需Workfront Planning術語和關鍵概念的詳細資訊，請參閱[Adobe Workfront Planning概觀](/help/quicksilver/planning/general/planning-overview.md)。
 
 ## 設定Workfront Planning前須回答的問題
 
@@ -40,7 +40,7 @@ Workfront Planning是高度可自訂的。 如需Workfront Planning術語和重�
 
 當您設定Planning時，可能會問自己以下問題：
 
-* **是否要將工作區用於較大的組織群組？ 或者我應該鼓勵人們建立個人的？**
+* **我是否要將工作區用於較大的組織群組？ 或者我應該鼓勵人們設定個人的？**
 
   您可能會發現兩者都有很好的用途。 工作區可能會變得難以管理，且您的工作流程可能太分散，因此我們建議您不要使用太多工作區。
 
@@ -48,13 +48,13 @@ Workfront Planning是高度可自訂的。 如需Workfront Planning術語和重�
   >
   >    在一個Workfront例項中可以有1,000個工作區。
 
-* **應在每個工作區中建立哪些自訂記錄型別？**
+* **我應該在每個工作區中建立哪些自訂記錄型別？**
 
   記錄型別類似於Workfront的物件型別。 考慮您的工作流程，並決定哪些記錄型別（工作物件、人員物件、分類法等） 每個工作流程可能需要。
 
-  如需詳細資訊，請參閱 [建立記錄型別](/help/quicksilver/planning/architecture/create-record-types.md)
+  如需詳細資訊，請參閱[建立記錄型別](/help/quicksilver/planning/architecture/create-record-types.md)
 
-* **我要如何建立我的記錄？ 是否有外部清單或試算表已經包含我需要新增至Planning的記錄，可供我使用？ 會視需要逐步新增記錄嗎？ 還是會使用Fusion或自訂API整合來匯入？**
+* **我要如何建立我的記錄？ 是否有外部清單或試算表已經包含我需要新增至Planning的記錄，可供我使用？ 會視需要逐步新增記錄嗎？ 還是會使用Fusion或自訂API整合來匯入它們？**
 
   如需詳細資訊，請參閱：
 
@@ -63,15 +63,15 @@ Workfront Planning是高度可自訂的。 如需Workfront Planning術語和重�
 
 * **我需要為記錄建立哪些欄位？**
 
-  如需詳細資訊，請參閱 [建立欄位](/help/quicksilver/planning/fields/create-fields.md).
+  如需詳細資訊，請參閱[建立欄位](/help/quicksilver/planning/fields/create-fields.md)。
 
-* **我需要將哪些Workfront或AEM Assets物件型別連線至Workfront Planning記錄型別，才能顯示相依性並為我的組織建立順暢的工作流程？**
+* **我需要哪些Workfront或AEM Assets物件型別連線到Workfront Planning記錄型別，才能顯示相依性並為我的組織建立順暢的工作流程？**
 
-  如需詳細資訊，請參閱 [連線記錄型別](/help/quicksilver/planning/architecture/connect-record-types.md)
+  如需詳細資訊，請參閱[連線記錄型別](/help/quicksilver/planning/architecture/connect-record-types.md)
 
-* **我需要訴說哪些行銷行事曆和檢視活動？ 我可以將這些檢視提供給哪些利害關係人進行無縫合作？**
+* **我需要講述行銷活動故事的行銷日曆和檢視表為何？ 我可以將這些檢視提供給哪些利害關係人進行緊密的協同合作？**
 
-  如需詳細資訊，請參閱 [管理記錄檢視](/help/quicksilver/planning/views/manage-record-views.md).
+  如需詳細資訊，請參閱[管理記錄檢視](/help/quicksilver/planning/views/manage-record-views.md)。
 
 
 ## Workfront規劃最佳作法
@@ -149,7 +149,7 @@ Workfront Planning是高度可自訂的。 如需Workfront Planning術語和重�
 
 請建立並標示代表單一建構或名詞的記錄型別，例如「促銷活動」
 
-:no_entry_sign: 請勿建立較適合作為檢檢視層的記錄型別，例如「行事曆」對於記錄型別而言是不太好的選擇，因為它不是記錄型別本身，而是記錄的檢視。
+:no_entry_sign:請勿建立較適合作為檢視層顯示的記錄型別 — 例如，「行事曆」對於記錄型別而言是不好的選擇，因為它不是記錄型別本身，而是記錄的檢視。
 
 ### 我應該建立多少階層圖層？
 

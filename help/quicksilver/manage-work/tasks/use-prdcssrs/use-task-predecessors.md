@@ -20,11 +20,11 @@ ht-degree: 0%
 本節包含下列文章：
 
 * [前置任務概觀](../../../manage-work/tasks/use-prdcssrs/predecessors-overview.md)
-* [在任務清單上建立前置任務關係](../../../manage-work/tasks/use-prdcssrs/create-predecessors-on-task-list.md)
+* [在任務清單上建立前置任務關聯性](../../../manage-work/tasks/use-prdcssrs/create-predecessors-on-task-list.md)
 * [使用前置任務區域建立前置任務關係](../../../manage-work/tasks/use-prdcssrs/create-predecessors-in-predecessors-area.md)
 * [透過鏈結任務建立前置任務關係](../../../manage-work/tasks/use-prdcssrs/create-predecessors-by-chaining-tasks.md)
 * [建立跨專案前置任務](../../../manage-work/tasks/use-prdcssrs/cross-project-predecessors.md)
-* [作業相依性型別的概要](../../../manage-work/tasks/use-prdcssrs/task-dependency-types.md)
+* [任務相依性型別的概觀](../../../manage-work/tasks/use-prdcssrs/task-dependency-types.md)
 * [強制執行前置任務](../../../manage-work/tasks/use-prdcssrs/enforced-predecessors.md)
-* [延遲型別概觀](../../../manage-work/tasks/use-prdcssrs/lag-types.md)
+* [延遲型別總覽](../../../manage-work/tasks/use-prdcssrs/lag-types.md)
 * [任務相依性回圈概觀](../../../manage-work/tasks/use-prdcssrs/dependency-loop-overview.md)

@@ -17,13 +17,13 @@ ht-degree: 0%
 
 本頁說明在22.4版發行時間範圍內對Adobe Workfront應用程式的各個區域外觀和感覺所做的小幅更新。 這些增強功能將在發佈到「預覽」後至少2週內可在「生產」環境中使用。
 
-如需22.4版本所有可用變更的清單，請參閱 [22.4版本總覽](/help/quicksilver/product-announcements/product-releases/22.4-release-activity/22-4-release-overview.md).
+如需22.4版本可用的所有變更清單，請參閱[22.4版本總覽](/help/quicksilver/product-announcements/product-releases/22.4-release-activity/22-4-release-overview.md)。
 
 ## 授權頁面的外觀和感覺更新
 
 我們已將重要的授權資訊移至頁面右上角，並更新文字和按鈕的外觀以符合Workfront的其他區域。
 
-如需詳細資訊，請參閱 [管理系統中的可用授權](/help/quicksilver/administration-and-setup/get-started-wf-administration/manage-available-licenses-in-your-system.md).
+如需詳細資訊，請參閱[管理您系統中的可用授權](/help/quicksilver/administration-and-setup/get-started-wf-administration/manage-available-licenses-in-your-system.md)。
 
 ## 更新自訂Forms區域中的清單
 

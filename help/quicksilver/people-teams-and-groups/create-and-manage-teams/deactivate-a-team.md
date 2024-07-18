@@ -2,7 +2,7 @@
 product-area: agile-and-teams
 navigation-topic: create-and-manage-teams
 title: 停用團隊
-description: 您可以停用保留相關歷史資料時不再使用的團隊。 Adobe Workfront管理員可以隨時從「設定」的「團隊」區域重新啟用團隊。
+description: 您可以停用不再使用的團隊，同時保留關聯的歷史資料。 Adobe Workfront管理員可隨時從設定中的團隊區域重新啟用團隊。
 author: Lisa
 feature: People Teams and Groups
 exl-id: 634e4c0f-aa1d-4197-92e3-54f414344ac0
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 # 停用團隊
 
-您可以停用保留相關歷史資料時不再使用的團隊。 [!DNL Adobe Workfront] 管理員可以隨時從「設定」的「團隊」區域重新啟用團隊。 如果停用團隊，則團隊不再顯示於下列區域：
+您可以停用不再使用的團隊，同時保留關聯的歷史資料。 [!DNL Adobe Workfront]管理員可隨時從設定中的團隊區域重新啟用團隊。 如果您停用專案團隊，專案團隊將不再顯示在下列區域中：
 
 <table style="table-layout:auto"> 
  <col> 
@@ -27,31 +27,31 @@ ht-degree: 0%
      <li> <p>自訂表單中的預先輸入欄位</p> </li> 
     </ul> 
     <ul> 
-     <li> <p>對象共用對話框</p> </li> 
-     <li> <p>[!UICONTROL用戶配置檔案]*</p> </li> 
+     <li> <p>物件的共用對話方塊</p> </li> 
+     <li> <p>[！UICONTROL使用者設定檔]*</p> </li> 
     </ul> </td> 
    <td> 
     <ul> 
-     <li> <p>[!UICONTROL團隊]區域中的主選擇下拉菜單</p> </li> 
-     <li> <p>[!UICONTROL分配]類型</p> </li> 
-     <li> <p>項目中的[!UICONTROL添加到看板]板對話框</p> </li> 
+     <li> <p>[！UICONTROL團隊]區域中的主要選取下拉式功能表</p> </li> 
+     <li> <p>[！UICONTROL指派]自動提示</p> </li> 
+     <li> <p>專案中的[！UICONTROL新增到Kanban]展示板對話方塊</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
 </table>
 
-當您搜尋團隊時，已停用的團隊不會出現，但仍會顯示在 [!UICONTROL 主隊] 和「其他團隊」(Other Teams)。
+當您搜尋團隊時，已停用的團隊不會出現，但如果在停用之前已將使用者指派給團隊，則仍會顯示在[!UICONTROL 主團隊]和其他團隊中。
 
 ## 存取需求
 
-您必須具備下列存取權，才能執行本文中的步驟：
+您必須具有下列存取權才能執行本文中的步驟：
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] 計劃*</strong></td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] 計畫*</strong></td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
@@ -61,29 +61,29 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-&#42;若要了解您擁有的計畫或授權類型，請連絡您的 [!DNL Workfront] 管理員。
+&#42;若要瞭解您擁有的計畫或授權型別，請連絡您的[!DNL Workfront]系統管理員。
 
 ## 停用團隊
 
-在停用前分配給該團隊的任何工作仍被分配。 建議您先重新指派工作，然後再停用團隊。
+在停用之前指派給團隊的任何工作都會維持指派狀態。 建議您先重新指派工作，再停用團隊。
 
 >[!TIP]
 >
->您可以建立報表以篩選任何仍指派停用之團隊的工作或問題。
+>您可以建立報告，以篩選仍然指派已停用團隊的任何任務或問題。
 
-使用請求隊列時，如果禁用路由規則中指定為預設團隊的團隊，則團隊將保持不變，請求仍被路由到停用的團隊。 建議您先與作用中團隊更新路由規則，然後再停用團隊。
+使用請求佇列時，如果您停用在路由規則中指派為預設專案團隊的專案團隊，專案團隊會保留，請求仍會路由至已停用的專案團隊。 建議您先更新作用中團隊的路由規則，然後再停用團隊。
 
-1. 按一下 **[!UICONTROL 主菜單]** 圖示 ![](assets/main-menu-icon.png) 在Adobe Workfront的右上角，然後按一下 **[!UICONTROL 團隊]**.
-1. 按一下 **[!DNL Switch team]** 表徵圖，然後從下拉菜單中選擇新團隊，或在搜索欄中搜索團隊。
-1. 按一下 **[!UICONTROL 更多]** ，然後選取 **[!UICONTROL 編輯]**.
+1. 按一下Adobe Workfront右上角的&#x200B;**[!UICONTROL 主要功能表]**&#x200B;圖示![](assets/main-menu-icon.png)，然後按一下&#x200B;**[!UICONTROL 團隊]**。
+1. 按一下&#x200B;**[!DNL Switch team]**&#x200B;圖示，然後從下拉式選單中選取新專案團隊或在搜尋列中搜尋專案團隊。
+1. 按一下&#x200B;**[!UICONTROL 更多]**&#x200B;功能表，然後選取&#x200B;**[!UICONTROL 編輯]**。
 
    ![](assets/edit-team-settings-350x205.png)
 
-1. 清除 **[!UICONTROL 活動]** 框。
-1. 按一下 **[!UICONTROL 儲存變更]**.
+1. 清除「**[!UICONTROL 已啟用]**」核取方塊。
+1. 按一下&#x200B;**[!UICONTROL 儲存變更]**。
 
 ## 已知限制
 
-已停用的團隊會顯示在下列區域：
+已停用的團隊會顯示在下列區域中：
 
-* 中的「擁有者」欄位 [!DNL Workfront Goals]. 這需要額外的授權 [!DNL Adobe Workfront Goals]. 如需詳細資訊，請參閱 [開始使用 [!DNL Adobe Workfront Goals]](../../workfront-goals/goal-management/getting-started-with-wf-goals.md).
+* [!DNL Workfront Goals]中的擁有者欄位。 這需要[!DNL Adobe Workfront Goals]的額外授權。 如需詳細資訊，請參閱[開始使用 [!DNL Adobe Workfront Goals]](../../workfront-goals/goal-management/getting-started-with-wf-goals.md)。

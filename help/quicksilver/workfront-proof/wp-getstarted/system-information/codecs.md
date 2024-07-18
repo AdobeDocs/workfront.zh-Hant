@@ -3,32 +3,32 @@ content-type: reference
 product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: system-information
-title: 轉碼器 [!DNL Workfront Proof]
-description: 轉碼器 [!DNL Workfront Proof]
+title: ' [!DNL Workfront Proof]中的轉碼器'
+description: ' [!DNL Workfront Proof]中的轉碼器'
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: f760dbaf-edbb-49ec-a329-54727372bdc6
 source-git-commit: bf6c6c497d98d91ca78f892606a52f82ee4b5666
 workflow-type: tm+mt
-source-wordcount: '97'
-ht-degree: 3%
+source-wordcount: '100'
+ht-degree: 0%
 
 ---
 
-# 轉碼器 [!DNL Workfront Proof]
+# [!DNL Workfront Proof]中的轉碼器
 
 >[!IMPORTANT]
 >
->本文說明獨立產品中的功能 [!DNL Workfront Proof]. 有關內部校對的資訊 [!DNL Adobe Workfront]，請參閱 [校對](../../../review-and-approve-work/proofing/proofing.md).
+>本文提及獨立產品[!DNL Workfront Proof]中的功能。 有關[!DNL Adobe Workfront]內部校訂的資訊，請參閱[校訂](../../../review-and-approve-work/proofing/proofing.md)。
 
 ## 支援的轉碼器
 
 * [!DNL 3ivx]
 * [!DNL 4X Movie]
 * [!DNL Alaris VideoGramPiX]
-* [!DNL Alparysoft] 無損編解碼器
+* [!DNL Alparysoft]不失真的轉碼器
 * [!DNL American Laser Games MM Video]
-* [!UICONTROL AMV影片]
+* [!UICONTROL AMV視訊]
 * [!DNL Apple QuickDraw]
 * [!DNL ASUS] V1
 * [!DNL ASUS] V2
@@ -36,63 +36,63 @@ ht-degree: 3%
 * [!DNL ATI VCR1]
 * [!DNL Auravision AURA]
 * [!DNL Auravision Aura 2]
-* [!DNL Autodesk Animator Flic] 影片
+* [!DNL Autodesk Animator Flic]影片
 * [!DNL Autodesk RLE]
 * [!DNL Avid Meridien Uncompressed]
 * [!DNL AVImszh]
 * [!DNL AVIzlib]
-* AVS([!DNL Audio Video Standard])影片
+* AVS ([!DNL Audio Video Standard])視訊
 * [!DNL Beam Software VB]
-* [!DNL Bethesda VID] 影片
-* [!UICONTROL 賓克] 影片
+* [!DNL Bethesda VID]影片
+* [!UICONTROL 點按]視訊
 * [!DNL Blackmagic 10-bit]
 * [!DNL Broadway MPEG Capture Codec]
-* [!DNL Brooktree 411] 編解碼器
+* [!DNL Brooktree 411]轉碼器
 * [!DNL Brute Force & Ignorance]
 * [!DNL CamStudio]
 * [!DNL Camtasia Screen Codec]
 * [!DNL Canopus HQ Codec]
 * [!DNL Canopus Lossless Codec]
-* [!DNL CD Graphics] 影片
-* [!DNL Chinese AVS] 視頻([!DNL AVS1-P2], [!DNL JiZhun] 設定檔)
+* [!DNL CD Graphics]影片
+* [!DNL Chinese AVS]影片（[!DNL AVS1-P2]， [!DNL JiZhun]設定檔）
 * [!DNL Cinepak]
 * [!DNL Cirrus Logic AccuPak]
 * [!DNL Creative Labs Video Blaster Webcam]
 * [!DNL Creative YUV] (CYUV)
-* [!DNL Delphine Software International CIN] 影片
-* [!UICONTROL 豪華油漆動畫]
+* [!DNL Delphine Software International CIN]影片
+* [!UICONTROL 豪華繪圖動畫]
 * [!DNL DivX ;-)] ([!DNL MPEG-4])
 * [!DNL DNxHD] (VC3)
-* [!DNL DV] （數位視訊）
+* [!DNL DV] （數位影片）
 * [!DNL Feeble Files]/[!DNL ScummVM DXA]
-* [!DNL FFmpeg] 視頻編解碼器#1
+* [!DNL FFmpeg]視訊轉碼器#1
 * [!DNL Flash Screen Video]
-* [!DNL Flash Video] (FLV)/ [!DNL Sorenson Spark] / [!DNL Sorenson H.263]
+* [!DNL Flash Video] (FLV) / [!DNL Sorenson Spark] / [!DNL Sorenson H.263]
 * [!DNL Forward Uncompressed Video Codec]
 * [!DNL fox motion video]
 * [!DNL FRAPS: Realtime Video Capture]
 * [!DNL GeoVision Advanced MPEG-4]
-* [!DNL GoToMeeting] 編解碼器（v1和v2）
+* [!DNL GoToMeeting]轉碼器（v1和v2）
 * [!DNL H.261]
-* [!DNL H.263], [!DNL H.263+]
+* [!DNL H.263]，[!DNL H.263+]
 * [!DNL H.264] / [!DNL AVC] / [!DNL MPEG-4 AVC] / [!DNL MPEG-4 part 10]
 * [!DNL HuffYUV]
 * [!DNL I263]
 * [!DNL IBM Ultimotion]
 * [!DNL IBM UltiMotion]
-* [!DNL id Quake II CIN] 影片
-* [!DNL id RoQ] 影片
+* [!DNL id Quake II CIN]影片
+* [!DNL id RoQ]影片
 * [!DNL IFF ByteRun1]
 * [!DNL IFF ILBM]
-* [!DNL Independent JPEG Group's] 編解碼器
+* [!DNL Independent JPEG Group's]轉碼器
 * [!DNL Infinite Video PSI_V]
 * [!DNL Intel Indeo 2]
 * [!DNL Intel Indeo 3]
 * [!DNL Intel Indeo 4.1]
 * [!DNL Intel Indeo 5]
 * [!DNL Interplay C93]
-* [!DNL Interplay MVE] 影片
-* [!DNL Karl Morton]s視頻編解碼器
+* [!DNL Interplay MVE]影片
+* [!DNL Karl Morton]的視訊轉碼器
 * [!DNL Kega Game Video]
 * [!DNL kensington webcam]
 * [!DNL Lagarith Lossless Video Codec]
@@ -106,47 +106,47 @@ ht-degree: 3%
 * [!DNL Mimic]
 * [!DNL Miro VideoXL]
 * [!DNL MJPEG (Motion JPEG)]
-* [!DNL Motion Pixels] 影片
+* [!DNL Motion Pixels]影片
 * [!DNL Motion Wavelets]
 * [!DNL Moyea Flash to Video Converter]
-* [!DNL MPEG-1] 影片
-* [!DNL MPEG-2] 影片
+* [!DNL MPEG-1]影片
+* [!DNL MPEG-2]影片
 * [!DNL MPEG-4 part 2]
-* [!DNL MPEG-4 part 2] ([!DNL Microsoft] 變體1-3)
+* [!DNL MPEG-4 part 2] （[!DNL Microsoft]個變體1-3）
 * [!DNL MPEG-PES]
 * [!DNL MSS2]
 * [!DNL MSU Screen Capture Lossless Codec]
-* [!DNL Nintendo Gamecube THP] 影片
+* [!DNL Nintendo Gamecube THP]影片
 * [!DNL nokia eti camcorder eyecon]
 * [!DNL NuppelVideo/RTJPEG]
 * [!DNL On2 VP3]
 * [!DNL On2 VP4]
 * [!DNL On2 VP5]
 * [!DNL On2 VP6]
-* [!DNL On2 VP6A] ( [!DNL alpha channel])
+* [!DNL On2 VP6A] （含[!DNL alpha channel]）
 * [!DNL On2 VP7]
-* [!DNL Power VideoWorks] 影片
+* [!DNL Power VideoWorks]影片
 * [!DNL ProRes 422]
-* [!DNL Psygnosis YOP] 視訊
+* [!DNL Psygnosis YOP]影片
 * [!DNL Q-team QPEG]
 * [!DNL QPEG]
-* [!DNL QuickTime 8BPS] 影片
-* [!DNL QuickTime Animation (RLE)] 影片
+* [!DNL QuickTime 8BPS]影片
+* [!DNL QuickTime Animation (RLE)]影片
 * [!DNL QuickTime Graphics (SMC)]
-* [!DNL QuickTime] 視頻([!DNL RPZA])
+* [!DNL QuickTime]影片([!DNL RPZA])
 * [!DNL RealVideo 1.0]
 * [!DNL RealVideo 2.0]
 * [!DNL RealVideo 3.0]
 * [!DNL RealVideo 4.0]
-* [!DNL RL2] 影片
-* [!DNL Schrödinger] ([!DNL Schroedinger]), [!DNL Dirac]
-* [!DNL Sierra VMD] 影片
+* [!DNL RL2]影片
+* [!DNL Schrödinger] ([!DNL Schroedinger])，[!DNL Dirac]
+* [!DNL Sierra VMD]影片
 * [!DNL sif1 alpha4]
-* [!DNL Smacker] 影片
+* [!DNL Smacker]影片
 * [!DNL SMPTE VC-1]
 * [!DNL SMV2]
 * [!DNL Snow]
-* [!DNL SoftMedia ViVD V2] 編解碼器
+* [!DNL SoftMedia ViVD V2]轉碼器
 * [!DNL Sony Digital Video (DV)]
 * [!DNL Sony PlayStation MDEC (Motion DECoder)]
 * [!DNL Sorenson Vector Quantizer 1] / [!DNL Sorenson Video 1] / [!DNL SVQ1]
@@ -157,21 +157,21 @@ ht-degree: 3%
 * [!DNL SVQ3]
 * [!DNL Telegeny VDTZ]
 * [!DNL Theora]
-* [!DNL Tiertex Limited SEQ] 影片
+* [!DNL Tiertex Limited SEQ]影片
 * [!DNL TrueMotion 1.0]
 * [!DNL TrueMotion 2.0]
 * [!DNL UCOD-ClearVideo]
-* [!DNL VDOWave 3] 進階編碼器
-* [!DNL VDOWave] 編解碼器
+* [!DNL VDOWave 3]進階轉碼器
+* [!DNL VDOWave]轉碼器
 * [!DNL Verint Video Manager]
 * [!DNL Vianet Lsvx Video]
 * [!DNL VMware Screen Codec] / [!DNL VMware Video]
 * [!DNL VP8]
-* [!DNL VQA (Vector Quantized Animation)] 影片
+* [!DNL VQA (Vector Quantized Animation)]影片
 * [!DNL VSS Codec Light]
 * [!DNL VSS Wavelet Video Codec]
-* [!DNL WebTrain Communication] 無損螢幕記錄器
-* [!DNL wincam screen capture] 編解碼器
+* [!DNL WebTrain Communication]無損熒幕錄製器
+* [!DNL wincam screen capture]轉碼器
 * [!DNL Windows Media Screen Codec 2]
 * [!DNL Windows Media Video (WMV)]
 * [!DNL Windows Media Video (VC-1) Advanced Profile]
@@ -180,24 +180,24 @@ ht-degree: 3%
 * [!DNL Windows Media Video 9 (WMV 9, WMV3)]
 * [!DNL Windows Media Video Adv]
 * [!DNL Windows Screen Video]
-* [!DNL Winnov Videum winx] 編解碼器
-* [!DNL Winnov Videum wnv1] 編解碼器
+* [!DNL Winnov Videum winx]轉碼器
+* [!DNL Winnov Videum wnv1]轉碼器
 * [!DNL Winnov WNV1]
 * [!DNL WorldConnect Wavelet Video]
 * [!DNL XAN Video]
-* [!DNL xfire] 影片
+* [!DNL xfire]影片
 * [!DNL xiricam Veo PC Camera]
 * [!DNL Xvid (MPEG-4)]
 * [!DNL YUV]
 * [!DNL zdsoft screen recorder]
 * [!DNL Zip Motion Blocks Video]
 
-## 不支援的編解碼器
+## 不支援的轉碼器
 
 * [!DNL Apple Intermediate]
-* [!DNL ProRes 4444] ([!DNL ProRes 422] 支援)
+* [!DNL ProRes 4444] （支援[!DNL ProRes 422]）
 * [!DNL HDV 720p60]
 * [!DNL Go2Meeting3 (G2M3)]
 * [!DNL Go2Meeting4 (G2M4)]
-* [!DNL ER AAC LD] (誤差彈性，低延遲變型 [!DNL AAC])
+* [!DNL ER AAC LD] （錯誤復原，[!DNL AAC]的低延遲變體）
 * [!DNL REDCODE]

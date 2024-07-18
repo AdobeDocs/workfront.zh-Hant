@@ -31,4 +31,4 @@ ht-degree: 0%
 * 在資料集表格中新增或刪除列
 * 對MicrosoftPower BIAPI發出自訂API呼叫
 
-如需詳細資訊，請參閱 [MicrosoftPower BI模組](../../../workfront-fusion/apps-and-their-modules/powerbi-modules.md).
+如需詳細資訊，請參閱[MicrosoftPower BI模組](../../../workfront-fusion/apps-and-their-modules/powerbi-modules.md)。

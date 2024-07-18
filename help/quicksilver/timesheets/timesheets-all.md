@@ -20,7 +20,7 @@ ht-degree: 0%
 
 本節包含下列小節中的文章：
 
-* [時程表詳細資訊：文章索引](../timesheets/timesheets/timesheets.md)
+* [時程表詳細資料：文章索引](../timesheets/timesheets/timesheets.md)
 * [建立和管理時程表：文章索引](../timesheets/create-and-manage-timesheets/create-and-manage-timesheets.md)
-* [設定時間的記錄方式：文章索引](../timesheets/config-timesheet-prefs/configure-timesheet-preferences.md)
+* [設定記錄時間的方式：發行項索引](../timesheets/config-timesheet-prefs/configure-timesheet-preferences.md)
 * [秘訣、技巧和疑難排解：文章索引](../timesheets/tips-tricks-and-troubleshooting/tips-tricks-and-troubleshooting-timesheets.md)

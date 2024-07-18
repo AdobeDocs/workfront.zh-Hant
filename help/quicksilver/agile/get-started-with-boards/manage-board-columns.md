@@ -21,7 +21,7 @@ ht-degree: 0%
 
 欄設定包含原則，可讓您定義卡片移至該欄時會發生什麼的選項。
 
-如需在欄中排序卡片的相關資訊，請參閱 [在展示板中篩選和搜尋](/help/quicksilver/agile/get-started-with-boards/filter-search-in-board.md).
+如需在欄中排序卡片的相關資訊，請參閱[在展示板中篩選和搜尋](/help/quicksilver/agile/get-started-with-boards/filter-search-in-board.md)。
 
 ## 存取需求
 
@@ -46,28 +46,28 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-如需有關此表格的詳細資訊，請參閱 [Workfront檔案中的存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 ## 新增欄到展示板
 
 {{step1-to-boards}}
 
-1. 存取展示板。 如需詳細資訊，請參閱 [建立或編輯展示板](../../agile/get-started-with-boards/create-edit-board.md).
-1. 按一下 **[!UICONTROL 新增欄]** 位於現有欄的右側。
-1. 在新欄中輸入名稱，然後按一下 **[!UICONTROL 新增欄]**.
+1. 存取展示板。 如需詳細資訊，請參閱[建立或編輯展示板](../../agile/get-started-with-boards/create-edit-board.md)。
+1. 按一下現有資料行右邊的&#x200B;**[!UICONTROL 新增資料行]**。
+1. 在新欄中輸入名稱，然後按一下&#x200B;**[!UICONTROL 新增欄]**。
 
    ![新增欄](assets/boards-add-column.png)
 
 >[!TIP]
 >
->若要新增輸入欄，請參閱 [將輸入欄新增到展示板](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md).
+>若要新增輸入資料行，請參閱[將輸入資料行新增到展示板](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md)。
 
 ## 重新排序展示板上的欄
 
 1. 存取展示板。
 1. 將欄拖放至正確的順序。 在將欄拖到其他位置之前，請務必選擇欄的頂端。
 
-   ![拖放欄](assets/boards-dragdropcolumn.png)
+   ![拖放資料行](assets/boards-dragdropcolumn.png)
 
 ## 重新命名展示板欄
 
@@ -76,14 +76,14 @@ ht-degree: 0%
 
    或
 
-   按一下 **[!UICONTROL 更多]** 功能表 ![更多選單](assets/more-icon-spectrum.png) 在欄上並選取 **[!UICONTROL 編輯]**. 在「設定」區域中，於 **[!UICONTROL 欄名稱]** 欄位，然後按一下 **[!UICONTROL 關閉]**.
+   按一下欄上的&#x200B;**[!UICONTROL 更多]**&#x200B;功能表![更多功能表](assets/more-icon-spectrum.png)，然後選取&#x200B;**[!UICONTROL 編輯]**。 在[設定]區域中，在&#x200B;**[!UICONTROL 資料行名稱]**&#x200B;欄位中輸入新名稱，然後按一下&#x200B;**[!UICONTROL 關閉]**。
 
 ## 刪除展示板欄
 
 從展示板中刪除欄時，該欄無法復原。
 
 1. 存取展示板。
-1. 按一下 **[!UICONTROL 更多]** 功能表 ![更多選單](assets/more-icon-spectrum.png) ，然後選取「 」 **[!UICONTROL 刪除]**.
+1. 按一下欄上的&#x200B;**[!UICONTROL 更多]**&#x200B;功能表![更多功能表](assets/more-icon-spectrum.png)，然後選取&#x200B;**[!UICONTROL 刪除]**。
 
    >[!NOTE]
    >
@@ -93,18 +93,18 @@ ht-degree: 0%
 
 您可以使用組態設定來顯示每欄中的卡片數量。
 
-如果您在欄上使用WIP限制，則不會新增個別的卡片計數器。 如需在製品限制的詳細資訊，請參閱 [管理 [!UICONTROL 工作進行中] (WIP)主機板限制](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-wip-limit-on-board.md).
+如果您在欄上使用WIP限制，則不會新增個別的卡片計數器。 如需WIP限制的詳細資訊，請參閱[管理展示板上的[!UICONTROL 進行中工作] (WIP)限制](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-wip-limit-on-board.md)。
 
 1. 存取展示板。
-1. 按一下 **[!UICONTROL 設定]** ，以開啟「設定」面板。
-1. 展開 **[!UICONTROL 欄]**.
-1. 開啟 **[!UICONTROL 顯示欄卡片計數]**.
+1. 按一下主機板右側的&#x200B;**[!UICONTROL [設定]]**&#x200B;以開啟[設定]面板。
+1. 展開&#x200B;**[!UICONTROL 欄]**。
+1. 開啟&#x200B;**[!UICONTROL 顯示欄卡片計數]**。
 
    ![開啟卡片計數器](assets/display-card-count.png)
 
    卡片計數器會出現在每欄的頂端。
 
-1. 按一下 **[!UICONTROL 隱藏設定]** 以關閉 [!UICONTROL 設定] 面板。
+1. 按一下&#x200B;**[!UICONTROL 隱藏設定]**&#x200B;以關閉[!UICONTROL 設定]面板。
 
 ## 定義欄設定和原則
 
@@ -124,58 +124,58 @@ ht-degree: 0%
 >此外，對於所有展示板型別，如果您將卡片從一欄移動到另一欄具有相同狀態，當您重新整理展示板時，卡片將返回到原始欄。
 
 1. 存取展示板。
-1. 按一下 **[!UICONTROL 更多]** 功能表 ![更多選單](assets/more-icon-spectrum.png) ，然後選取「 」 **[!UICONTROL 編輯]**.
+1. 按一下欄上的&#x200B;**[!UICONTROL 更多]**&#x200B;功能表![更多功能表](assets/more-icon-spectrum.png)，然後選取&#x200B;**[!UICONTROL 編輯]**。
 
-   此 [!UICONTROL 設定] 區域隨即顯示。 此 **[!UICONTROL 欄名稱]** 讓您知道要為哪一欄定義設定。
+   [!UICONTROL 設定]區域出現。 **[!UICONTROL 資料行名稱]**&#x200B;可讓您知道您正為哪個資料行定義設定。
 
-1. 啟用 **[!UICONTROL 自動更新欄位值]** 將卡片移至此欄時自動變更特定欄位值的原則。
+1. 啟用&#x200B;**[!UICONTROL 自動更新欄位值]**&#x200B;原則，以在卡片移至此欄位時自動變更特定欄位值。
 
-   ![欄設定和原則](assets/boards-column-policies-enabled.png)
+   ![資料行設定與原則](assets/boards-column-policies-enabled.png)
 
 1. （選用）設定卡片狀態的值：
 
-   1. 選取 **[!UICONTROL 狀態]** 核取方塊。
+   1. 選取&#x200B;**[!UICONTROL 狀態]**&#x200B;核取方塊。
 
    1. 選取卡片移至此欄時要套用的狀態。
 
-      ![欄的狀態](assets/boards-column-status.png)
+      資料行](assets/boards-column-status.png)的![狀態
 
-      也會顯示已連線卡片的狀態轉譯選項。 （狀態轉譯不適用於臨時卡。） 這些選項決定套用至中任務或問題的自訂狀態 [!DNL Workfront] 將已連線的卡片移至此欄時。
+      也會顯示已連線卡片的狀態轉譯選項。 （狀態轉譯不適用於臨時卡。） 這些選項決定在連線的卡片移至此欄時，套用到[!DNL Workfront]中任務或問題的自訂狀態。
 
-   1. 選取 [!UICONTROL **自訂**] 要套用至任務卡和問題的狀態。
+   1. 選取&#x200B;[!UICONTROL **自訂**]&#x200B;狀態以套用至任務與問題的卡片。
 
-      將卡片移至此欄時， [!DNL Workfront] 會先嘗試套用自訂狀態（例如「已解決」）。 如果該卡片無法使用選取的自訂狀態，系統會提示您選擇與系統狀態相對應的其他狀態（從上面的步驟b）。 如需狀態的詳細資訊，請參閱 [狀態概觀](/help/quicksilver/administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/statuses-overview.md).
+      將卡片移至此欄時，[!DNL Workfront]會先嘗試套用自訂狀態（例如「已解決」）。 如果該卡片無法使用選取的自訂狀態，系統會提示您選擇與系統狀態相對應的其他狀態（從上面的步驟b）。 如需狀態的詳細資訊，請參閱[狀態概觀](/help/quicksilver/administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/statuses-overview.md)。
 
       此外，如果所連線任務或問題的狀態變更為欄原則中設定的自訂或系統狀態，卡片將自動移動到欄。
 
 1. （選用）為卡片受指派人設定值：
 
-   1. 選取 **[!UICONTROL 被指定者]** 核取方塊。
+   1. 選取&#x200B;**[!UICONTROL 被指定者]**&#x200B;核取方塊。
    1. 選取動作。
 
-      * **[!UICONTROL 新增至受指派人]：** 當您將受指派人移至此欄時，您選取的受指派人會新增至卡片上的現有受指派人清單中。
-      * **[!UICONTROL 覆寫受指派人]：** 您選取的受指派人會覆寫所有其他的受指派人，並在卡片移至此欄位時，成為卡片上的唯一受指派人。
+      * **[!UICONTROL 新增至受指派人]：**&#x200B;您選取的受指派人在卡片移至此欄位時，會新增至卡片上的現有受指派人清單。
+      * **[!UICONTROL 覆寫受指派人]：**&#x200B;您選取的受指派人覆寫所有其他受指派人，並在卡片移至此欄位時成為卡片上的唯一受指派人。
 
-   1. 按一下 [!UICONTROL **新增指定任務**] 和搜尋使用者。 從搜尋結果中選取受指派人。 所有Workfront使用者和團隊都可供選擇。
+   1. 按一下&#x200B;[!UICONTROL **新增工作分派**]&#x200B;並搜尋使用者。 從搜尋結果中選取受指派人。 所有Workfront使用者和團隊都可供選擇。
 
-      ![欄的受指派人](assets/boards-column-assignees.png)
+      ![欄](assets/boards-column-assignees.png)的被指定者
 
 1. （選用）設定卡片標籤的值：
 
-   1. 選取 **[!UICONTROL 卡片]** 核取方塊。
+   1. 選取&#x200B;**[!UICONTROL 卡片]**&#x200B;核取方塊。
    1. 選取動作。
 
-      * **[!UICONTROL 新增到標籤上]：** 當卡片移至此欄時，您選取的標籤會新增至卡片上的現有標籤清單中。
-      * **[!UICONTROL 覆寫標籤]：** 您選取的標籤會覆寫所有其他標籤，並在卡片移至此欄時，成為卡片上的唯一標籤。
+      * **[!UICONTROL 新增至標籤]：**&#x200B;當您選取的標籤移至此欄時，會新增至卡片上的現有標籤清單。
+      * **[!UICONTROL 覆寫標籤]：**&#x200B;您選取的標籤會覆寫所有其他標籤，並在卡片移至此欄位時成為卡片上的唯一標籤。
 
-   1. 從下拉式清單中選取標籤。 僅已在中建立的標籤 [!UICONTROL 標籤管理員] 可供選擇。 如需新增標籤的詳細資訊，請參閱 [新增標籤](/help/quicksilver/agile/get-started-with-boards/add-tags.md).
+   1. 從下拉式清單中選取標籤。 只有已在[!UICONTROL 標籤管理員]中建立的標籤才可供選擇。 如需新增標籤的相關資訊，請參閱[新增標籤](/help/quicksilver/agile/get-started-with-boards/add-tags.md)。
 
-      ![欄的標籤](assets/boards-column-tags.png)
+      資料行](assets/boards-column-tags.png)的![標籤
 
-1. 啟用 **[!UICONTROL 創作中的作品限制]** 限制可新增到欄中的卡片數量原則。 然後，在 **[!UICONTROL 設定限制]** 欄位。
+1. 啟用&#x200B;**[!UICONTROL 進行中工作限制]**&#x200B;原則以限制可新增到資料行的卡片數量。 然後，在&#x200B;**[!UICONTROL 設定限制]**&#x200B;欄位中輸入限制數字。
 
-   ![欄的WIP限制](assets/boards-wip-limit-in-column.png)
+   ![欄](assets/boards-wip-limit-in-column.png)的WIP限制
 
-   如需詳細資訊，請參閱 [管理展示板上的進行中工作(WIP)限制](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-wip-limit-on-board.md).
+   如需詳細資訊，請參閱[管理主機板上的進行中工作(WIP)限制](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-wip-limit-on-board.md)。
 
-1. 按一下 **[!UICONTROL 關閉]** 以結束「設定」區域並檢視欄及其卡片。
+1. 按一下&#x200B;**[!UICONTROL 關閉]**&#x200B;以結束[設定]區域並檢視資料行及其卡片。

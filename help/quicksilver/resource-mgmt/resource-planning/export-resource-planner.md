@@ -1,8 +1,8 @@
 ---
 product-area: resource-management
 navigation-topic: resource-planning
-title: 從資源計畫員導出資訊
-description: 您可以將資訊從資源規劃器的任何檢視匯出至儲存在電腦上的Excel(.xlsx)檔案。
+title: 從資源規劃工具匯出資訊
+description: 您可以從資源規劃工具的任何檢視中，將資訊匯出至儲存在電腦上的Excel (.xlsx)檔案。
 author: Alina
 feature: Resource Management
 exl-id: 07acd28a-5dc0-45b4-bdf2-20abbd5e098c
@@ -13,13 +13,13 @@ ht-degree: 3%
 
 ---
 
-# 從資源計畫員導出資訊
+# 從資源規劃工具匯出資訊
 
-您可以將資訊從資源規劃器的任何檢視匯出至儲存在電腦上的Excel(.xlsx)檔案。
+您可以從資源規劃工具的任何檢視中，將資訊匯出至儲存在電腦上的Excel (.xlsx)檔案。
 
 >[!IMPORTANT]
 >
->顯示的資訊以及可以從資源計畫器導出的資訊有限。 如需這些限制的詳細資訊，請參閱 [資源計畫器顯示限制](../../resource-mgmt/resource-planning/resource-planner-display-limitations.md)
+>顯示的資訊以及您可以從資源規劃工具匯出的資訊皆有限制。 如需這些限制的詳細資訊，請參閱[資源規劃工具顯示限制](../../resource-mgmt/resource-planning/resource-planner-display-limitations.md)
 
 ## 存取需求
 
@@ -31,96 +31,97 @@ ht-degree: 3%
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront計畫*</td> 
-   <td> <p>Pro及更高版本</p> </td> 
+   <td> <p>專業及更高版本</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront授權*</td> 
-   <td> <p>審核或更高版本 <!--
+   <td> <p>評論或以上 <!--
       <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
        (this seems to be the case in NWE only, not classic. Waiting on Vazgen's response for this)
       </MadCap:conditionalText>
      --></p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">訪問級別配置*</td> 
-   <td> <p>查看或更高權限訪問項目、用戶和資源管理</p> <p><b>附註</b>
+   <td role="rowheader">存取層級設定*</td> 
+   <td> <p>檢視專案、使用者和資源管理的許可權或更高的許可權</p> <p><b>附註</b>
 
-如果您仍無權存取，請洽詢您的Workfront管理員，他們是否在您的存取層級設定其他限制。 如需Workfront管理員如何變更您的存取層級的詳細資訊，請參閱 <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>.</p> </td>
+如果您還是沒有存取權，請詢問您的Workfront管理員，他們是否在您的存取層級中設定其他限制。 如需Workfront管理員如何變更存取層級的詳細資訊，請參閱<a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>。</p> </td>
 </tr> 
   <tr> 
-   <td role="rowheader">物件權限</td> 
-   <td> <p>檢視專案的權限或更高版本</p> <p>有關請求其他訪問的資訊，請參閱 <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">請求對對象的訪問 </a>.</p> </td> 
+   <td role="rowheader">物件許可權</td> 
+   <td> <p>檢視專案的許可權或更高版本</p> <p>如需請求其他存取權的資訊，請參閱<a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">請求物件</a>的存取權。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;若要了解您擁有的計畫、授權類型或存取權，請聯絡您的Workfront管理員。
+&#42;若要瞭解您擁有的計畫、授權型別或存取權，請連絡您的Workfront管理員。
 
-## 從資源計畫員導出資訊
+## 從資源規劃工具匯出資訊
 
-1. 按一下 **主菜單** 圖示 ![](assets/main-menu-icon.png) 在Adobe Workfront的右上角。
+1. 按一下Adobe Workfront右上角的&#x200B;**主要功能表**&#x200B;圖示![](assets/main-menu-icon.png)。
 
-1. 按一下 **資源**. 此 **計畫員** 預設顯示。
+1. 按一下「**資源**」。 依預設會顯示&#x200B;**規劃師**。
 
-1. 選擇計畫員視圖。 您可以選取下列其中一個選項：
+1. 選取供需規劃員的檢視。 您可以選取下列其中一個選項：
 
    * 依使用者檢視
    * 依專案檢視
    * 依角色檢視
 
-1. 按一下 **匯出**.
+1. 按一下&#x200B;**匯出**。
 
-   「導出選項」對話框隨即顯示。
+   「匯出選項」對話方塊隨即顯示。
 
    ![](assets/rp-export-options-box-350x421.png)
 
 1. 指定下列資訊：\
-   **開始日期**:匯出的開始日期。 匯出的檔案包含從一週的第一天開始的分配和可用性資訊，當中包含您在此指定的天。\
-   **期間數**:您要納入檔案的時段數。 預設為4個句號。\
-   **類型**:要在導出檔案（周、月或季）中顯示資訊的時段類型。\
-   以下是您可匯出的最大時段：
+   **開始日期**：您匯出的開始日期。 匯出的檔案包含從一週的第一天開始的配置和可用性資訊，其中包含您在此指定的日期。\
+   **週期數**：您要包含在檔案中的週期數。 預設值為4個期間。\
+   **型別**：您要在匯出檔案中顯示資訊的時間週期型別（周、月或季）。\
+   以下是您可以匯出的最長時段：
 
    * 52 週
    * 36 個月
-   * 12個季度
+   * 12季
 
-   **選擇以導出**:您可以根據所選的視圖選擇導出螢幕上列出的所有對象或特定對象的可用性和預算資訊。
+   **選取以匯出**：視您選取的檢視而定，您可以選取匯出畫面中列出的所有物件或特定物件的使用狀態和預算資訊。
 您可以選取匯出下列資訊：
 
-   * 在「項目視圖」中，選擇以導出：
+   * 在「專案檢視」中，選取以匯出：
 
       * 專案
       * 專案和角色
-      * 所有項目（此為預設選項）
-   * 在「用戶視圖」中，選擇以導出：
+      * 全部（這是預設選項）
+
+   * 在「使用者檢視」中，選取以匯出：
 
       * 使用者
       * 使用者和專案
-      * 所有項目（此為預設選項）
-   * 在「角色視圖」中，選擇以導出：
+      * 全部（這是預設選項）
+
+   * 在「角色檢視」中，選取以匯出：
 
       * 角色
       * 角色和專案
-      * 所有項目（此為預設選項）
+      * 全部（這是預設選項）
 
-   **資料格式**:視您希望Excel檔案的顯示方式而定，選取下列選項：
+   **資料格式**：根據您希望Excel檔案的顯示方式，選取下列選項：
 
-   * **原始**:選取「 」，在Excel檔案中顯示依其所屬物件取消分組的可用性和配置資訊。 （這是預設選項）
-   * **分組**:選擇以顯示按其所屬對象分組的可用性和分配資訊。 這會顯示匯出的資訊，如同它顯示在畫面上一樣。
+   * **原始**：選取此選項可顯示可用性與配置資訊，此資訊已按照Excel檔案中物件所屬的群組取消分組。 （這是預設選項）
+   * **已群組**：選取以顯示依其所屬物件分組的使用狀態和配置資訊。 這樣就會在熒幕上顯示匯出的資訊。
 
-   「導出選項」對話框中顯示了導出檔案中資訊外觀的示例。
+   「匯出選項」對話方塊中會顯示匯出檔案中資訊外觀的範例。
 
-1. 按一下 **匯出** 要從資源計畫器導出資訊，請執行以下操作：\
-   僅導出您保存的資訊。
+1. 按一下&#x200B;**匯出**&#x200B;以從資源規劃工具匯出資訊。\
+   只會匯出您儲存的資訊。
 
-1. （條件性）如果「角色」或「專案」檢視中有未儲存的「預算小時數」，請按一下 **保存並繼續。**
-Excel(.xlsx)檔案已下載至您的電腦。
-\
-   當檔案準備下載時，從資源規劃器導出不可用。\
-   （條件性）如果您匯出大量資料，您會收到一封電子郵件，內含您可下載檔案的連結。\
+1. （視條件而定）如果您在角色或專案檢視中有未儲存的預算時數，請按一下&#x200B;**儲存並繼續。**
+Excel (.xlsx)檔案會下載至您的電腦。\
+   當檔案準備下載時，無法從資源規劃工具匯出。\
+   （視條件而定）如果您匯出大量資料，您會收到一封電子郵件，其中包含您可下載檔案的連結。\
    ![RP_eamil_with_exported_planner_attached.png](assets/rp-eamil-with-exported-planner-attached-350x116.png)
 
-1. （條件性）收到含有匯出檔案的電子郵件時，請按一下 **下載** 下載檔案。\
-   這會帶您回到Workfront，以便下載檔案。\
+1. （視條件而定）當您收到含有匯出檔案的電子郵件時，請按一下[下載] ****&#x200B;下載檔案。\
+   這會帶您返回Workfront以下載檔案。\
    您必須登入Workfront才能完成下載。\
-   如果您在傳送檔案時未下載該檔案，則下載連結在您開始匯出後的7天內會保持作用中狀態。
+   如果您在傳送檔案時未下載檔案，下載連結會在您啟動匯出後的7天內保持作用中。

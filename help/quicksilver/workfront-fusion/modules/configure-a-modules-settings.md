@@ -2,7 +2,7 @@
 product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: modules
-title: 在中設定模組的設定 [!DNL Adobe Workfront Fusion]
+title: 在 [!DNL Adobe Workfront Fusion]中設定模組的設定
 description: 您必須為建立的每個模組進行設定。
 author: Becky
 feature: Workfront Fusion
@@ -14,11 +14,11 @@ ht-degree: 1%
 
 ---
 
-# 在中設定模組的設定 [!DNL Adobe Workfront Fusion]
+# 在[!DNL Adobe Workfront Fusion]中設定模組的設定
 
 您必須為建立的每個模組進行設定。
 
-例如， [[!DNL Dropbox] 模組](../../workfront-fusion/apps-and-their-modules/dropbox-modules.md) 模組需要您指定要上傳檔案的目標資料夾。 對於 [[!UICONTROL 電子郵件] 模組](../../workfront-fusion/apps-and-their-modules/email-modules.md) 模組，您必須輸入傳送電子郵件的電子郵件地址。
+例如，[[!DNL Dropbox] 模組](../../workfront-fusion/apps-and-their-modules/dropbox-modules.md)需要您指定要上傳檔案的目標資料夾。 對於[[!UICONTROL 電子郵件]模組](../../workfront-fusion/apps-and-their-modules/email-modules.md)模組，您必須輸入傳送電子郵件的電子郵件地址。
 
 >[!NOTE]
 >
@@ -43,25 +43,25 @@ ht-degree: 1%
   <tr> 
    <td role="rowheader">[！UICONTROL Adobe Workfront Fusion]授權**</td> 
    <td>
-   <p>目前授權需求：否 [!DNL Workfront Fusion] 授權需求。</p>
+   <p>目前授權需求：無[!DNL Workfront Fusion]授權需求。</p>
    <p>或</p>
-   <p>舊版授權需求： [！UICONTROL [!DNL Workfront Fusion] 適用於工作自動化與整合] </p>
+   <p>舊版授權需求：[！UICONTROL [!DNL Workfront Fusion] for Work Automation and Integration] </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">產品</td> 
    <td>
-   <p>目前產品需求：如果您有[！UICONTROL Select]或[！UICONTROL Prime] [!DNL Adobe Workfront] 計畫，您的組織必須購買 [!DNL Adobe Workfront Fusion] 以及 [!DNL Adobe Workfront] 以使用本文所述的功能。 [!DNL Workfront Fusion] 包含在[！UICONTROL Ultimate]中 [!DNL Workfront] 計畫。</p>
+   <p>目前產品需求：如果您有[！UICONTROL Select]或[！UICONTROL Prime] [!DNL Adobe Workfront]計畫，您的組織必須購買[!DNL Adobe Workfront Fusion]及[!DNL Adobe Workfront]，才能使用本文所述的功能。 [!DNL Workfront Fusion]包含在[！UICONTROL Ultimate] [!DNL Workfront]計畫中。</p>
    <p>或</p>
-   <p>舊版產品需求：貴組織必須購買 [!DNL Adobe Workfront Fusion] 以及 [!DNL Adobe Workfront] 以使用本文所述的功能。</p>
+   <p>舊版產品需求：您的組織必須購買[!DNL Adobe Workfront Fusion]及[!DNL Adobe Workfront]，才能使用本文所述的功能。</p>
    </td> 
   </tr>  
  </tbody> 
 </table>
 
-若要瞭解您擁有的計畫、授權型別或存取權，請聯絡您的 [!DNL Workfront] 管理員。
+若要瞭解您擁有的計畫、授權型別或存取權，請連絡您的[!DNL Workfront]管理員。
 
-有關的資訊 [!DNL Adobe Workfront Fusion] 授權，請參閱 [[!DNL Adobe Workfront Fusion] 授權](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+如需[!DNL Adobe Workfront Fusion]授權的相關資訊，請參閱[[!DNL Adobe Workfront Fusion] 授權](../../workfront-fusion/get-started/license-automation-vs-integration.md)。
 
 ## 設定模組的設定
 
@@ -69,17 +69,17 @@ ht-degree: 1%
 
    或
 
-   按一下案例編輯器中模組的圖示，如所述 [在中建立情境 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md).
+   按一下案例編輯器中模組的圖示，如[在 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md)中建立案例中所述。
 
-1. 若此模組需要，請建立 **[!UICONTROL 連線]** 至您針對該特定服務註冊的使用者帳戶，如所述 [連線總覽](../../workfront-fusion/connections/about-connecting-wf-fusion-to-app-or-service.md).
+1. 如果模組需要，請為特定服務建立與您的註冊使用者帳戶的&#x200B;**[!UICONTROL 連線]**，如[連線總覽](../../workfront-fusion/connections/about-connecting-wf-fusion-to-app-or-service.md)中所述。
 1. 在每個欄位中輸入適當的文字。
 
    或
 
-   按一下 **[!UICONTROL 地圖]** 如果專案出現在欄位右側，則從情境中的另一個模組對應專案。
+   如果專案出現在欄位右側，請按一下&#x200B;**[!UICONTROL 對應]**，然後對應案例中其他模組的專案。
 
    需要粗體引數。
 
-   有關不同專案資料型別的資訊 [!DNL Workfront Fusion] 可以辨識（例如日期、數字和文字），請參閱 [中的專案資料型別 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/item-data-types.md).
+   如需[!DNL Workfront Fusion]可以辨識的不同專案資料型別（例如日期、數字和文字）的相關資訊，請參閱 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/item-data-types.md)中的[專案資料型別。
 
-1. （視條件而定）如果模組有您要顯示及使用的進階選項，請選取 **[!UICONTROL 顯示進階設定]**.
+1. （視條件而定）如果模組有您想要顯示及使用的進階選項，請選取&#x200B;**[!UICONTROL 顯示進階設定]**。

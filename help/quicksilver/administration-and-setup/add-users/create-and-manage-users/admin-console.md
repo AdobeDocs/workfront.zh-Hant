@@ -18,9 +18,9 @@ ht-degree: 0%
 >
 >本文中的功能僅在您組織的Workfront執行個體已上線到Adobe業務平台時才能使用。
 >
->如需根據貴組織是否已加入Adobe Business Platform而有所差異的程式清單，請參閱 [平台型管理差異(Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
+>如需根據貴組織是否已加入Adobe Business Platform而有所差異的程式清單，請參閱[以平台為基礎的管理差異(Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md)。
 
-作為Adobe管理員，您可以使用Adobe Admin Console建立Adobe Workfront系統管理員。 主控台是管理整個組織中Adobe許可權的中央位置。 如需詳細資訊，請參閱 [Admin Console概觀](https://helpx.adobe.com/tw/enterprise/using/admin-console.html).
+作為Adobe管理員，您可以使用Adobe Admin Console建立Adobe Workfront系統管理員。 主控台是管理整個組織中Adobe許可權的中央位置。 如需詳細資訊，請參閱[Admin Console概觀](https://helpx.adobe.com/tw/enterprise/using/admin-console.html)。
 
 >[!NOTE]
 >
@@ -59,7 +59,7 @@ ht-degree: 0%
 
    或
 
-   如果您已有Adobe帳戶，請前往 [Adobe Admin Console頁面](https://adminconsole.adobe.com/).
+   如果您已有Adobe帳戶，請前往[Adobe Admin Console頁面](https://adminconsole.adobe.com/)。
 
 ## 有關Adobe Admin Console的其他詳細資料
 
@@ -69,7 +69,7 @@ ht-degree: 0%
   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">For information about deactivating a user in Workfront, see </p>
   -->
 
-* 使用者 **主群組** 是根據建立它們的使用者來決定。 無法從Admin Console內自訂。
+* 使用者&#x200B;**主群組**&#x200B;是根據建立它們的使用者來決定。 無法從Admin Console內自訂。
 * Workfront系統管理員存取層級只能從Adobe Admin Console內編輯。
 
   <!--
@@ -92,7 +92,7 @@ ht-degree: 0%
 
 ## 存取您的Workfront生產執行個體的使用者和管理區域 {#access-the-user-and-admin-area-for-your-production-instance-of-workfront}
 
-1. 從 [Adobe Admin Console頁面](https://adminconsole.adobe.com/)，選取 **產品** 索引標籤，然後選取 **Workfront**.
+1. 從[Adobe Admin Console頁面](https://adminconsole.adobe.com/)，選取頂端導覽列中的&#x200B;**產品**&#x200B;索引標籤，然後選取&#x200B;**Workfront**。
 
    <!--![](assets/admin-product-1.png)-->
 
@@ -104,12 +104,12 @@ ht-degree: 0%
 
    >[!TIP]
    >
-   >清單中的第二個連結（您的預覽執行個體）是複製您的即時生產環境的測試環境。 如需詳細資訊，請參閱 [Adobe Workfront預覽沙箱環境](../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md).
+   >清單中的第二個連結（您的預覽執行個體）是複製您的即時生產環境的測試環境。 如需詳細資訊，請參閱[Adobe Workfront預覽沙箱環境](../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md)。
    >
    >
-   >您也可能在清單中看到沙箱環境的連結。 如需詳細資訊，請參閱 [Adobe Workfront預覽沙箱環境](../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md).
+   >您也可能在清單中看到沙箱環境的連結。 如需詳細資訊，請參閱[Adobe Workfront預覽沙箱環境](../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md)。
 
-1. 在顯示的清單中，使用 **產品設定檔** 索引標籤已選取，按一下Workfront產品設定檔連結的名稱。
+1. 在顯示的清單中，選取&#x200B;**產品設定檔**&#x200B;索引標籤後，按一下Workfront產品設定檔連結的名稱。
 
    ![](assets/prod-profile-1.png)
 
@@ -132,10 +132,10 @@ ht-degree: 0%
 
 您必須先將使用者新增到Workfront的生產執行個體，然後才能將使用者設為Workfront系統管理員。
 
-1. 如區段所述，前往Admin Console中的使用者和管理員區域 [存取您的Workfront生產執行個體的使用者和管理區域](#access-the-user-and-admin-area-for-your-production-instance-of-workfront) 本文章內容。
-1. 選取 **管理員** 索引標籤的使用者清單上方。
-1. 選取 **新增管理員**.
-1. 在 **新增產品設定檔管理員** 方塊中，輸入您要新增的管理員電子郵件地址或名稱，然後選取 **儲存**.
+1. 依照本文中[存取您Workfront](#access-the-user-and-admin-area-for-your-production-instance-of-workfront)生產執行個體的使用者和管理區域一節中的說明，前往Admin Console的使用者和管理區域。
+1. 選取使用者清單上方的&#x200B;**管理員**&#x200B;索引標籤。
+1. 選取&#x200B;**新增管理員**。
+1. 在&#x200B;**新增產品設定檔管理員**&#x200B;方塊中，輸入您要新增的管理員電子郵件地址或名稱，然後選取&#x200B;**儲存**。
 
    ![](assets/add-admin-1.png)
 
@@ -157,9 +157,9 @@ ht-degree: 0%
 
 ### 直接在Adobe Admin Console的Workfront中建立使用者
 
-1. 如區段所述，前往Admin Console中的使用者和管理員區域 [存取您的Workfront生產執行個體的使用者和管理區域](#access-the-user-and-admin-area-for-your-production-instance-of-workfront) 本文章內容。
-1. 使用 **使用者** 標籤在清單上方選取，選取 **新增使用者**.
-1. 在 **將使用者新增至此產品設定檔** 方塊，輸入您要新增的使用者的電子郵件地址或名稱，然後選取 **儲存**.
+1. 依照本文中[存取您Workfront](#access-the-user-and-admin-area-for-your-production-instance-of-workfront)生產執行個體的使用者和管理區域一節中的說明，前往Admin Console的使用者和管理區域。
+1. 在清單上方選取&#x200B;**使用者**&#x200B;索引標籤後，選取&#x200B;**新增使用者**。
+1. 在&#x200B;**將使用者新增至此產品設定檔**&#x200B;方塊中，輸入您要新增的使用者的電子郵件地址或名稱，然後選取&#x200B;**儲存**。
 
    在Workfront中建立使用者，且具有請求者存取層級。
 
@@ -169,7 +169,7 @@ ht-degree: 0%
 
 1. 在Workfront中，變更使用者的存取層級。
 
-   如需有關Workfront管理員如何變更使用者存取層級的指示，請參閱 [編輯使用者設定檔](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
+   如需Workfront管理員如何變更使用者存取層級的指示，請參閱[編輯使用者設定檔](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md)。
 
 1. 重複步驟3和4以新增更多使用者。
 
@@ -189,7 +189,7 @@ ht-degree: 0%
 
 #### 在Workfront中建立使用者（群組管理員）
 
-如需在Workfront中建立使用者的指示，請參閱 [新增使用者](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/add-users.md).
+如需在Workfront中建立使用者的指示，請參閱[新增使用者](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/add-users.md)。
 
 #### 核准使用者(Workfront管理員)
 
@@ -197,13 +197,13 @@ ht-degree: 0%
 
 {{step-1-to-users}}
 
-1. 選取使用者，然後按一下 **更多** 圖示 ![](assets/more-icon.png).
+1. 選取使用者，然後按一下&#x200B;**更多**&#x200B;圖示![](assets/more-icon.png)。
 
-1. 若要核准使用者，請按一下 **核准**，然後按一下 **提交**.
+1. 若要核准使用者，請按一下[核准]。****，然後按一下[提交]。****
 
    或
 
-   若要拒絕使用者並從Workfront刪除他們，請按一下 **拒絕**，然後按一下 **提交**.
+   若要拒絕使用者並從Workfront刪除使用者，請按一下[拒絕] **，然後按一下[提交]****。**
 
    已核准的使用者會自動新增至Adobe Admin Console。
 

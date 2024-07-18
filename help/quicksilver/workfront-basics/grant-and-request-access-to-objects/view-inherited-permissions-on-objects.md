@@ -1,8 +1,8 @@
 ---
 product-area: projects
 navigation-topic: grant-and-request-access-to-objects
-title: 查看對象的繼承權限
-description: 您的Adobe Workfront管理員可在指派存取層級時，授予您檢視或編輯物件的存取權。 如需詳細資訊，請參閱授與專案的存取權。
+title: 檢視物件的繼承許可權
+description: 指派存取層級時，您的Adobe Workfront管理員可授予您檢視或編輯物件的存取權。 如需詳細資訊，請參閱授予專案存取權。
 author: Alina
 feature: Get Started with Workfront
 exl-id: 7025f097-ea99-41bf-965e-617b0f532ff7
@@ -13,15 +13,15 @@ ht-degree: 0%
 
 ---
 
-# 查看對象的繼承權限
+# 檢視物件的繼承許可權
 
-您的Adobe Workfront管理員可在指派存取層級時，授予您檢視或編輯物件的存取權。 如需詳細資訊，請參閱 [授予專案的存取權](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md).
+指派存取層級時，您的Adobe Workfront管理員可授予您檢視或編輯物件的存取權。 如需詳細資訊，請參閱[授予專案存取權](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md)。
 
-除了授予用戶的訪問級別之外，您還可以授予他們對您有權訪問共用的特定對象的權限。 如需存取層級和權限的詳細資訊，請參閱 [存取層級與權限如何搭配運作](../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md).
+除了授予使用者的存取層級之外，您也可以授予使用者對您有權共用之特定物件的許可權。 如需存取層級和許可權的詳細資訊，請參閱[存取層級和許可權如何搭配運作](../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md)。
 
-物件會繼承Adobe Workfront中父物件的權限。
+物件會繼承Adobe Workfront中父物件的許可權。
 
-如需Workfront中物件階層的相關資訊，請參閱 [了解Adobe Workfront中的物件](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
+如需Workfront中物件階層的相關資訊，請參閱[瞭解Adobe Workfront中的物件](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)。
 
 ## 存取需求
 
@@ -70,38 +70,38 @@ ht-degree: 0%
    <td> <p>工作或更高</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">訪問級別配置*</td> 
-   <td> <p>查看或更高訪問要查看權限的對象</p> <p>注意：如果您仍無權存取，請洽詢您的Workfront管理員，他們是否在您的存取層級設定其他限制。 如需Workfront管理員如何修改您的存取層級的詳細資訊，請參閱 <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>.</p> </td> 
+   <td role="rowheader">存取層級設定*</td> 
+   <td> <p>檢視您想要檢視許可權之物件的存取權或更高的存取權</p> <p>注意：如果您還是沒有存取權，請詢問您的Workfront管理員，他們是否在您的存取層級中設定其他限制。 如需Workfront管理員如何修改存取層級的詳細資訊，請參閱<a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">物件權限</td> 
-   <td> <p>查看要查看權限的對象的或更高權限</p> <p>有關請求其他訪問的資訊，請參閱 <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">請求對對象的訪問 </a>.</p> </td> 
+   <td role="rowheader">物件許可權</td> 
+   <td> <p>檢視您想要檢視其許可權的物件或以上許可權</p> <p>如需請求其他存取權的資訊，請參閱<a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">請求物件</a>的存取權。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;若要了解您擁有的計畫、授權類型或存取權，請聯絡您的Workfront管理員。
+&#42;若要瞭解您擁有的計畫、授權型別或存取權，請連絡您的Workfront管理員。
 
-## 查看對象的繼承權限
+## 檢視物件的繼承許可權
 
-查看繼承的權限對所有對象都相同。
+檢視所有物件的繼承許可權都相同。
 
-要查看項目的繼承權限，請執行以下操作：
+若要檢視專案的繼承許可權：
 
-1. 前往您要檢視其共用權限的專案。
-1. 按一下 **更多** 功能表 ![](assets/more-icon.png)，然後按一下 **共用**.
+1. 移至您要檢視其共用許可權的專案。
+1. 按一下&#x200B;**更多**&#x200B;功能表![](assets/more-icon.png)，然後按一下&#x200B;**共用**。
 
-1. 展開 **繼承的權限** 清單。
+1. 展開&#x200B;**繼承許可權**&#x200B;清單。
 
-   此清單顯示有權訪問項目所屬的產品組合或方案的用戶的名稱，以及有權訪問該項目的用戶的名稱。
+   此清單顯示具有專案所屬投資組合或方案存取權，且具有專案許可權的使用者名稱。
 
    ![](assets/remove-inherited-permissions-on-project-nwe-350x475.png)
 
-1. （可選）若要從物件移除繼承的權限，請參閱 [從對象中刪除權限](../../workfront-basics/grant-and-request-access-to-objects/remove-permissions-from-objects.md).
+1. （選擇性）若要移除物件繼承的許可權，請參閱[移除物件的許可權](../../workfront-basics/grant-and-request-access-to-objects/remove-permissions-from-objects.md)。
 
    >[!NOTE]
    >
-   >您必須對對象具有管理權限，才能刪除繼承的權限。
+   >您必須擁有物件的管理許可權，才能移除繼承的許可權。
 
  
 

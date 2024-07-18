@@ -32,4 +32,4 @@ ht-degree: 0%
 
 我們也新增了選擇您是否希望篩選器套用至欄位的舊狀態或新狀態的功能。 例如，如果您已選取監視欄位的舊狀態，並將篩選器設定為監視進行中的狀態，則當狀態從進行中變更為新狀態時，模組將觸發。
 
-如需Adobe Workfront模組的詳細資訊，請參閱 [Adobe Workfront模組](/help/quicksilver/workfront-fusion/apps-and-their-modules/workfront-modules.md).
+如需Adobe Workfront模組的詳細資訊，請參閱[Adobe Workfront模組](/help/quicksilver/workfront-fusion/apps-and-their-modules/workfront-modules.md)。

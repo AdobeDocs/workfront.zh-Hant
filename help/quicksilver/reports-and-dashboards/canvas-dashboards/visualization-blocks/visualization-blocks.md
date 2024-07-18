@@ -17,7 +17,7 @@ ht-degree: 0%
 本節包含下列文章：
 
 * [在報告畫布中新增或編輯視覺效果區塊](../../../reports-and-dashboards/reporting-canvas/visualization-blocks/add-or-edit-report-visualization.md)
-* [在報告畫布中設定橫條圖視覺效果](../../../reports-and-dashboards/reporting-canvas/visualization-blocks/configure-bar-visualization.md)
+* [在報告畫布中設定長條圖視覺效果](../../../reports-and-dashboards/reporting-canvas/visualization-blocks/configure-bar-visualization.md)
 * [在報告畫布中設定欄視覺效果](../../../reports-and-dashboards/reporting-canvas/visualization-blocks/configure-column-visualization.md)
 * [在報告畫布中設定圓形圖視覺效果](../../../reports-and-dashboards/reporting-canvas/visualization-blocks/configure-pie-visualization.md)
 * [在報告畫布中設定KPI視覺效果](../../../reports-and-dashboards/reporting-canvas/visualization-blocks/configure-kpi-visualization.md)

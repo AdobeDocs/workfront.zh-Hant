@@ -17,7 +17,7 @@ ht-degree: 0%
 
 本頁說明20.4版本對「預覽」環境所做的所有分析增強功能。 這些增強功能將在2020年11月9日當週的生產環境中提供。
 
-如需20.4版所有可用變更的清單，請參閱 [20.4版本總覽](../../../product-announcements/product-releases/20.4-release-activity/20-4-release-overview.md).
+如需20.4版本可用的所有變更清單，請參閱[20.4版本總覽](../../../product-announcements/product-releases/20.4-release-activity/20-4-release-overview.md)。
 
 ## 已新增分頁和排序至增強型分析
 
@@ -29,4 +29,4 @@ ht-degree: 0%
 
 之前，增強型分析區域限制您可以檢視的專案數量為50個。
 
-此功能現已包含在 [增強型分析，第1部分學習路徑](https://one.workfront.com/s/learningpath2/enhanced-analytics-part-1-overview-20Y0z000000bmgOEAQ) 在Workfront One上。
+此功能現已納入Workfront One上的[Enhanced Analytics，第1部分學習路徑](https://one.workfront.com/s/learningpath2/enhanced-analytics-part-1-overview-20Y0z000000bmgOEAQ)。

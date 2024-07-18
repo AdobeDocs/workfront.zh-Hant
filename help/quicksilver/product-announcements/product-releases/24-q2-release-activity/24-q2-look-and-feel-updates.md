@@ -16,7 +16,7 @@ ht-degree: 0%
 
 本頁說明在2024年第二季度發行時間範圍內對Adobe Workfront應用程式的各個區域外觀和感覺所做的小幅更新。
 
-如需2024年第二季版本所有可用變更的清單，請參閱 [2024年第二季版本總覽](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).
+如需2024年第二季版本的所有變更清單，請參閱[2024年第二季版本概觀](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md)。
 
 ## 兩個電子郵件範本的外觀更新
 
@@ -34,4 +34,4 @@ ht-degree: 0%
 
 我們已更新「設定>自訂Forms」區域中Forms、欄位和區段的標籤，使其成為與Workfront其他區域一致的更現代化設計。 您現在可從左側導覽功能表存取三個區域。 清單仍可使用篩選器、檢視和群組。 更新的設計適用於新表單設計人員和舊版表單產生器中建立的自訂表單、欄位和區段。
 
-如需詳細資訊，請參閱 [使用表單設計工具設計表單](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) 和 [使用舊版表單產生器建立或編輯自訂表單](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
+如需詳細資訊，請參閱[使用表單設計工具設計表單](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)和[使用舊版表單產生器建立或編輯自訂表單](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)。

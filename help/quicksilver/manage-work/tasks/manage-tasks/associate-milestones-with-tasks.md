@@ -41,11 +41,11 @@ ht-degree: 0%
    <td role="rowheader">存取層級設定*</td> 
    <td> <p>編輯任務的存取權</p> <p><b>附註</b>
 
-如果您沒有存取權，請洽詢Workfront管理員，瞭解他們是否在您的存取層級設定其他限制。 如需有關Workfront管理員如何修改您的存取層級的資訊，請參閱 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>.</p> </td>
+如果您沒有存取權，請洽詢Workfront管理員，瞭解他們是否在您的存取層級設定其他限制。 如需Workfront管理員如何修改存取層級的詳細資訊，請參閱<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>。</p> </td>
 </tr> 
   <tr> 
    <td role="rowheader">物件許可權</td> 
-   <td> <p>管理任務的許可權</p> <p>如需請求其他存取許可權的詳細資訊，請參閱 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">要求物件的存取權 </a>.</p> </td> 
+   <td> <p>管理任務的許可權</p> <p>如需請求其他存取權的資訊，請參閱<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">請求物件</a>的存取權。</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -58,11 +58,11 @@ ht-degree: 0%
 
 在您將里程碑與任務關聯之前，必須存在下列專案：
 
-* Workfront管理員必須建立里程碑路徑，如所述 [建立里程碑路徑](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md).
+* Workfront管理員必須建立里程碑路徑，如[建立里程碑路徑](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md)中所述。
 
 * 您必須將里程碑路徑關聯至專案。
 
-  如需詳細資訊，請參閱 [編輯專案](/help/quicksilver/manage-work/projects/manage-projects/edit-projects.md).
+  如需詳細資訊，請參閱[編輯專案](/help/quicksilver/manage-work/projects/manage-projects/edit-projects.md)。
 
 * 若要將里程碑路徑與專案產生關聯，專案必須處於「計畫」或「目前」狀態。
 
@@ -74,18 +74,18 @@ ht-degree: 0%
 
 里程碑路徑與專案相關聯後，任務可指派為里程碑。
 
-1. 前往工作，然後按一下 **更多** 圖示 ![](assets/more-icon.png) 在任務名稱的右側，然後 **編輯**.
+1. 前往工作，然後按一下工作名稱右側的&#x200B;**更多**&#x200B;圖示![](assets/more-icon.png)，然後&#x200B;**編輯**。
 
    任務和里程碑之間有1:1的關係。 您無法將相同的里程碑附加到多個任務。 每個任務都可以連結至單一里程碑，或者每個里程碑都可以對應至一個任務。
 
-1. 按一下 **設定**，然後選取中的里程碑 **里程碑** 任務的欄位。
+1. 按一下&#x200B;**設定**，然後在&#x200B;**里程碑**&#x200B;欄位中為任務選取里程碑。
 1. 按一下「**儲存**」。
-1. （可選）在工作清單中，新增 **狀態圖示** 欄以識別哪些任務具有里程碑。 里程碑菱形指示器會顯示在「狀態圖示」欄中。
+1. （選擇性）在工作清單中，新增&#x200B;**狀態圖示**&#x200B;欄，以識別哪些工作具有里程碑。 里程碑菱形指示器會顯示在「狀態圖示」欄中。
 
-   如需詳細資訊，請參閱 [在Adobe Workfront中建立或編輯檢視](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md).
+   如需詳細資訊，請參閱[在Adobe Workfront中建立或編輯檢視](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md)。
 
    ![](assets/amwt3.png)
 
-1. （可選）前往專案清單，選取 **里程碑** 檢視以識別里程碑任務的進度。
+1. （選擇性）前往專案清單，選取&#x200B;**里程碑**&#x200B;檢視以識別里程碑任務的進度。
 
    ![](assets/milestone-view-project-list.png)

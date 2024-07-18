@@ -1,69 +1,69 @@
 ---
 product-area: workfront-integrations;projects
 navigation-topic: workfront-for-outlook
-title: 將Outlook電子郵件添加為工作清單中的任務
-description: 您可以轉換 [!DNL Outlook] 電子郵件至 [!DNL Adobe Workfront] 任務。 轉換電子郵件後，該任務將可在「首頁」區域的「工作清單」中使用。
+title: 將Outlook電子郵件新增為工作清單
+description: 您可以將 [!DNL Outlook] 電子郵件轉換為 [!DNL Adobe Workfront] 個任務。 電子郵件轉換後，任務會顯示在首頁區域的工作清單中。
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: fcd02116-ffeb-43d3-8541-5e30e6cfdc5e
 source-git-commit: 16acba0f1981b75ca141a36d096fb6f5d37c40d1
 workflow-type: tm+mt
-source-wordcount: '355'
+source-wordcount: '352'
 ht-degree: 0%
 
 ---
 
-# 新增 [!DNL Outlook] 將電子郵件作為工作清單的任務
+# 將[!DNL Outlook]電子郵件新增為您的工作清單
 
-您可以轉換 [!DNL Outlook] 電子郵件至 [!DNL Adobe Workfront] 任務。 轉換電子郵件後，該任務即可在 [!UICONTROL 工作] 清單 [!UICONTROL 首頁] 的上界。
+您可以將[!DNL Outlook]封電子郵件轉換為[!DNL Adobe Workfront]個任務。 電子郵件轉換後，任務便可在[!UICONTROL 首頁]區域的[!UICONTROL 工作]清單中使用。
 
 ## 存取需求
 
-您必須具備下列存取權，才能執行本文中的步驟：
+您必須具有下列存取權才能執行本文中的步驟：
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 計劃*</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] 計畫*</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 授權*</td> 
-   <td> <p>[!UICONTROL工作], [!UICONTROL計畫]</p> </td> 
+   <td> <p>[！UICONTROL Work]， [！UICONTROL計畫]</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;若要了解您擁有的計畫、授權類型或存取權，請聯絡您的 [!DNL Workfront] 管理員。
+&#42;若要瞭解您擁有的計畫、授權型別或存取權，請連絡您的[!DNL Workfront]管理員。
 
-## 必要條件
+## 先決條件
 
-您的 [!DNL Workfront] 管理員必須啟用 [!DNL Outlook for Office] with [!DNL Workfront] 才能使用此整合。
+您的[!DNL Workfront]管理員必須以[!DNL Workfront]啟用[!DNL Outlook for Office]，您才能使用此整合。
 
-## 新增 [!DNL Outlook] 將電子郵件作為工作清單的任務
+## 將[!DNL Outlook]電子郵件新增為您的工作清單
 
-1. 在中選取電子郵件 [!DNL Outlook] 要轉換為任務的。
-1. 按一下 **[!DNL Workfront]** 圖示來顯示 [!DNL Workfront] 載入項。\
-   您可能需要按一下電子郵件右上方的向下箭頭，才能存取 [!DNL Workfront] 表徵圖。
+1. 在[!DNL Outlook]內選取要轉換為任務的電子郵件。
+1. 按一下電子郵件訊息右上角的&#x200B;**[!DNL Workfront]**&#x200B;圖示，以顯示[!DNL Workfront]增益集。\
+   您可能需要按一下電子郵件右上角的向下箭頭，才能存取[!DNL Workfront]圖示。
 
-1. 按一下 **[!UICONTROL 功能表]** ![o365_addin_menu_icon.png](assets/o365-addin-menu2-icon.png) 表徵圖以顯示可用清單 [!DNL Workfront] 選項。\
+1. 按一下&#x200B;**[!UICONTROL 功能表]** ![o365_addin_menu_icon.png](assets/o365-addin-menu2-icon.png)圖示以顯示可用[!DNL Workfront]選項清單。\
 
 
-1. 按一下 **[!UICONTROL 添加到工作]**.\
+1. 按一下&#x200B;**[!UICONTROL 新增至工作]**。\
 
-1. 取消選取 **[!UICONTROL 新增至專案]** 欄位。
-1. （選用）您可以先從電子郵件更新下列資訊，再儲存為任務：
+1. 取消選取&#x200B;**[!UICONTROL 新增至專案]**&#x200B;欄位。
+1. （選擇性）在儲存為任務之前，您可以從電子郵件更新下列資訊：
 
-   * **[!UICONTROL 任務名稱]:** 依預設，任務名稱與電子郵件主旨相同。 您可以視需要修改任務名稱。
-   * **[!UICONTROL 說明]:** 依預設，說明與電子郵件內文相同。 您可以視需要修改說明。
-   * **[!UICONTROL 附件]:** 任何電子郵件附件都會儲存至 [!UICONTROL 檔案] 任務的區域。 您可以在將電子郵件儲存為任務之前刪除任何附件。
+   * **[!UICONTROL 工作名稱]：**&#x200B;依預設，工作名稱與電子郵件主旨相同。 您可以視需要修改工作名稱。
+   * **[!UICONTROL 描述]：**&#x200B;依照預設，描述與電子郵件內文相同。 您可以視需要修改說明。
+   * **[!UICONTROL 附件]：**&#x200B;任何電子郵件附件都會儲存至任務的[!UICONTROL 檔案]區域。 您可以將電子郵件儲存為工作之前刪除任何附件。
 
-1. 按一下 **[!UICONTROL 新增]**.\
-   任務將添加到 [!UICONTROL 工作清單] 在沒有提交日期的家庭區域。
+1. 按一下&#x200B;**[!UICONTROL 新增]**。\
+   任務已新增到首頁區域的[!UICONTROL 工作清單]，但沒有認可日期。
 
-1. （選用）按一下 **[!UICONTROL 在Workfront中檢視]** 顯示 [!DNL Workfront] 應用程式。
+1. （選擇性）按一下[在Workfront中檢視] ****，在新標籤中顯示[!DNL Workfront]應用程式內的工作。
 
-1. （選用）導覽回 [!DNL Outlook]，然後選取原始電子郵件。\
-   在 [!DNL Workfront] 外掛程式面板中，請注意含有連結的確認，該連結會將電子郵件新增至Workfront作為任務。 連結包含轉換日期。\
+1. （選用）導覽回[!DNL Outlook]，並選取原始電子郵件。\
+   在[!DNL Workfront]增益集面板頂端，請注意含有連結的確認訊息，指出電子郵件已新增至Workfront作為工作。 連結包含轉換日期。\

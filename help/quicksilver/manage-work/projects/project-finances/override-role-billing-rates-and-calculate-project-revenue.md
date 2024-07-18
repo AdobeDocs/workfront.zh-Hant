@@ -2,13 +2,13 @@
 product-area: projects
 navigation-topic: financials
 title: 覆寫工作角色帳單費率與計算專案收入的概要
-description: 當您將專案收入乘以專案逗留時數時，可使用收費率來計算專案收入。 如需有關收費率和收入的詳細資訊，請參閱文章帳單和收入概觀。
+description: 當您將記帳費率乘以專案所花費的時數時，您可以使用記帳費率來計算專案的收入。 如需有關收費率和收入的詳細資訊，請參閱文章帳單和收入概觀。
 author: Alina, Lisa
 feature: Work Management
 exl-id: 63ba6758-ba62-48b4-89f4-d784e32a1bfa
 source-git-commit: 1517e3e28fe536a8a72d2802919c8b8819e9ea1a
 workflow-type: tm+mt
-source-wordcount: '3852'
+source-wordcount: '3860'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 {{highlighted-preview}}
 
-當您將專案收入乘以專案逗留時數時，可使用收費率來計算專案收入。 如需有關收費率和收入的詳細資訊，請參閱文章 [帳單與收入概要](../../../manage-work/projects/project-finances/billing-and-revenue-overview.md).
+當您將記帳費率乘以專案所花費的時數時，您可以使用記帳費率來計算專案的收入。 如需有關記帳費率和收入的詳細資訊，請參閱文章[記帳和收入概觀](../../../manage-work/projects/project-finances/billing-and-revenue-overview.md)。
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -56,66 +56,66 @@ If you still don't have access, ask your Workfront administrator if they set add
 ## 職務角色帳單費率與角色每小時收入型態概要
 
 身為Adobe Workfront管理員，您可以將收費率與使用者和職位角色建立關聯。\
-如需建立使用者及建立使用者與計費率關聯的詳細資訊，請參閱文章 [新增使用者](../../../administration-and-setup/add-users/create-and-manage-users/add-users.md). 如需有關建立職位角色並將其與計費率相關聯的詳細資訊，請參閱文章 [建立和管理職位角色](../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).
+如需有關建立使用者以及將使用者與計費率建立關聯的詳細資訊，請參閱文章[新增使用者](../../../administration-and-setup/add-users/create-and-manage-users/add-users.md)。 如需有關建立工作角色並將其與收費率關聯的詳細資訊，請參閱文章[建立和管理工作角色](../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md)。
 
-無法覆寫與使用者相關聯的計費費率。
+無法覆寫與使用者相關的收費率。
 
-與工作角色相關的計費率可在公司或專案層級覆寫。
+與工作角色相關的收費率可在公司或專案層級覆寫。
 
-若要根據職務角色的收費率計算專案收入，請 **收入型別** 專案上任務必須為下列其中一項：
+若要根據工作角色的收費率來計算專案的收入，專案上任務的&#x200B;**收入型別**&#x200B;必須是下列其中一項：
 
-* 角色小時
+* 角色每小時
 * 受限角色小時
 * 角色小時加固定
 
-如需有關的詳細資訊 **收入型別** 和收費率，請參閱 [帳單與收入概要](../../../manage-work/projects/project-finances/billing-and-revenue-overview.md).
+如需&#x200B;**收入型別**&#x200B;和記帳費率的詳細資訊，請參閱[記帳與收入概觀](../../../manage-work/projects/project-finances/billing-and-revenue-overview.md)。
 
 ## 計算收入時帳單費率覆寫的階層
 
-職務角色可以透過下列方式與其相關聯的計費率：
+職務角色可以透過下列方式與其產生相關的收費率：
 
 * 身為Workfront管理員，您可以在建立工作角色時，定義與工作角色相關聯的系統層級收費率。\
-  如需建立工作角色的詳細資訊，請參閱 [建立和管理職位角色](../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).
+  如需有關建立工作角色的詳細資訊，請參閱[建立和管理工作角色](../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md)。
 
 * 身為Workfront管理員，您可以在建立公司時，為相同職務角色定義公司層級的收費率。\
   當Workfront計算與此公司相關聯的專案收入時，當角色指派給任務時使用公司收費率，而不是此職務角色的系統層級收費率。\
-  在公司層級變更的工作角色費率將影響與該公司關聯的所有專案。
+  在公司層級變更的工作角色費率將影響與該公司相關聯的所有專案。
 
   >[!NOTE]
   >
-  >如果您需要更新公司收費率，專案費率不會自動更新。 您必須先從專案中移除公司、更新公司的費率，然後重新將公司附加至專案，新的公司費率才會對專案生效。 如需將公司附加至專案的指示，請參閱 [編輯專案](../../../manage-work/projects/manage-projects/edit-projects.md).
+  >如果您需要更新公司收費率，專案費率不會自動更新。 您必須先從專案中移除公司、更新公司的費率，然後將公司重新附加至專案，新公司費率才會對專案生效。 如需將公司附加到專案的指示，請參閱[編輯專案](../../../manage-work/projects/manage-projects/edit-projects.md)。
 
-  如需建立公司特定職務角色收費率的詳細資訊，請參閱 [建立和編輯公司](../../../administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md).
+  如需有關建立公司特定工作角色收費率的詳細資訊，請參閱[建立和編輯公司](../../../administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md)。
 
-* 身為Workfront管理員，您可以在編輯專案時啟用選項，以在使用者手動重新計算專案財務時，將變更套用至公司層級的計費費率至專案。\
-  如需詳細資訊，請參閱 [以公司層級的收費率覆寫專案層級的收費率](../../../manage-work/projects/project-finances/override-project-level-with-company-level-billing-rates.md).
+* 身為Workfront管理員，您可以在編輯專案時啟用選項，以在使用者手動重新計算專案財務時，將變更套用至專案的公司層級收費率。\
+  如需詳細資訊，請參閱[以公司層級的收費率覆寫專案層級的收費率](../../../manage-work/projects/project-finances/override-project-level-with-company-level-billing-rates.md)。
 
 <div class="preview">
 
-* 身為Workfront管理員，您可以根據位置與日期，定義每個角色擁有多個收費率的費率卡。 將費率卡附加至專案時，所有角色（如果使用了地點，則按地點）及其關聯的計費費率會新增至專案的計費費率區段。 附加費率卡會覆寫專案上任何現有的計費費率。
+* 身為Workfront管理員，您可以根據位置與日期，定義每個角色有多個收費率的費率卡。 將費率卡附加到專案時，所有角色（如果使用位置，則按位置）及其關聯的計費費率會新增到專案的計費費率區段。 附加費率卡會覆寫專案上任何現有的收費率。
 
-  如需詳細資訊，請參閱 [管理費率卡](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md) 和 [將費率卡附加至專案](/help/quicksilver/manage-work/projects/project-finances/attach-rate-card-to-project.md).
+  如需詳細資訊，請參閱[管理費率卡](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md)和[將費率卡附加至專案](/help/quicksilver/manage-work/projects/project-finances/attach-rate-card-to-project.md)。
 
 </div>
 
 * 身為專案經理，您可以在專案層次為相同職務角色定義收費率。\
-  專案上變更的工作角色費率只會影響該專案。
+  專案上工作角色費率的變更只會影響該專案。
 
-  如需有關覆寫專案角色比例的資訊，請參閱 [覆寫專案層次的工作角色收費率](../../../manage-work/projects/project-finances/override-job-role-billing-rates-at-the-project-level.md).
+  如需有關覆寫專案角色費率的資訊，請參閱專案層級](../../../manage-work/projects/project-finances/override-job-role-billing-rates-at-the-project-level.md)的[覆寫工作角色收費率。
 
 >[!IMPORTANT]
 >
->如果工作角色在系統層級、公司層級及專案層級與計費率相關聯，Workfront會在使用工作角色費率時，使用專案層級的工作角色計費率來計算任務的收入。 來自所有任務的收入累計至專案的收入。
+>如果工作角色在系統層級、公司層級和專案層級與計費率相關聯，Workfront會在使用工作角色費率時，使用專案層級的工作角色的計費率來計算任務的收入。 來自所有任務的收入將累計至專案的收入。
 
-## 覆寫專案層次的工作角色收費率
+## 覆寫專案層級的工作角色收費率
 
-身為專案經理，您可以指定特定專案上工作角色的收費率。 此專案層級的收費率會覆寫此職務角色之系統層級的收費率。 Workfront使用工作角色的專案層級收費率來計算收入，而不使用系統層級收費率。
+身為專案經理，您可以指定特定專案上工作角色的收費率。 此專案層級的收費率會覆寫此工作角色之系統層級的收費率。 Workfront使用工作角色的專案層級收費率來計算收入，而不使用系統層級收費率。
 
-<span class="preview">您也可以將費率卡附加至專案，這樣會將職務角色帳單費率從費率卡匯入專案。</span>
+<span class="preview">您也可以在專案中附加費率卡，這會從費率卡將工作角色收費率匯入專案。</span>
 
-如需如何在專案層次覆寫工作角色收費率的相關資訊，請參閱 [覆寫專案層次的工作角色收費率](../../../manage-work/projects/project-finances/override-job-role-billing-rates-at-the-project-level.md).
+若要瞭解如何在專案層級覆寫工作角色收費率，請參閱[在專案層級覆寫工作角色收費率](../../../manage-work/projects/project-finances/override-job-role-billing-rates-at-the-project-level.md)。
 
-如需有關哪個工作角色用於計算專案收入的詳細資訊，請參閱以下的「根據使用者和角色指派的任務收入計算」一節： [帳單與收入概要](../../../manage-work/projects/project-finances/billing-and-revenue-overview.md). <span class="preview">如需將費率卡附加至專案的詳細資訊，請參閱 [將費率卡附加至專案](/help/quicksilver/manage-work/projects/project-finances/attach-rate-card-to-project.md).</span>
+如需有關哪一個工作角色用於計算專案收入的詳細資訊，請參閱[帳單和收入概觀](../../../manage-work/projects/project-finances/billing-and-revenue-overview.md)中的「根據使用者和角色指派的任務收入計算」一節。 <span class="preview">如需有關將費率卡附加至專案的資訊，請參閱[將費率卡附加至專案](/help/quicksilver/manage-work/projects/project-finances/attach-rate-card-to-project.md)。</span>
 
 >[!NOTE]
 >
@@ -155,11 +155,11 @@ You cannot specify a
 
 ## 專案的「收費率」區段概要
 
-在您指定與專案相關之職務角色的覆寫收費率後，您便可以在 **收費率** 索引標籤中。
+在您指定與專案相關之職務角色的覆寫收費率後，即可在專案的&#x200B;**收費率**&#x200B;索引標籤中看到所有職務角色及其覆寫。
 
-請注意以下清單中的資訊 **收費率**：
+請注意&#x200B;**記帳費率**&#x200B;清單中的下列資訊：
 
-* [職務角色群組](#job-role-grouping)
+* [工作角色群組](#job-role-grouping)
 * [專案收費率值](#project-billing-rate-value)
 * [預設收費率值](#default-billing-rate-value)
 * [公司收費率值](#company-billing-rate-value)
@@ -167,145 +167,145 @@ You cannot specify a
 
 ### 職務角色群組 {#job-role-grouping}
 
-記帳費率會分組在 **收費率** 區域（按其各自的工作角色）。 <span class="preview">如果專案附加了費率卡，則職務角色也會依費率卡分組。 如果將位置套用至工作角色，則位置名稱會包含為工作角色名稱的一部分。 您可以為多個位置列出相同的工作角色。</span>
+記帳費率在&#x200B;**記帳費率**&#x200B;區域中依其各自的工作角色分組。 <span class="preview">如果專案附有評等卡，則職位角色也會依評等卡分組。 如果將位置套用至工作角色，則會將位置名稱納入工作角色名稱中。 您可以為多個位置列出相同的工作角色。</span>
 
 ### 專案收費率值 {#project-billing-rate-value}
 
-在與職務角色對應的群組明細行中，請注意中專案層次該職務角色的計費率。 **專案收費率** 欄。 如果職務角色有多個覆寫費率，則與目前日期對應的覆寫費率會顯示在 **專案收費率** 欄。
+在與工作角色相對應的群組行中，在&#x200B;**專案收費率**&#x200B;欄位中的專案層級，注意該工作角色的收費率。 如果工作角色有多個覆寫費率，則與目前日期對應的覆寫費率會顯示在&#x200B;**專案收費率**&#x200B;欄的群組明細行中。
 
 ### 預設收費率值 {#default-billing-rate-value}
 
-在職務角色的分組明細行中，請注意系統層次中該職務角色的計費費率。 **預設收費率** 欄。
+在工作角色的分組明細行中，在&#x200B;**預設收費率**&#x200B;欄位中，注意系統層級該工作角色的收費率。
 
 >[!NOTE]
 >
->如果工作角色有專案收費率，則 **預設收費率** 絕不會套用於計算專案的收入。 僅限 **專案收費率** 套用於計算收入。
+>如果工作角色有專案收費率，**預設收費率**&#x200B;絕不會套用於計算專案的收入。 只套用&#x200B;**專案收費率**&#x200B;來計算收入。
 
 ### 公司收費率值 {#company-billing-rate-value}
 
-在職務角色的分組明細行中，請注意中公司層次該職務角色的計費率。 **公司收費率** 欄。 這表示有公司與此專案相關聯，而且此工作角色對該公司有不同的收費率。 即使公司收費率與專案收費率相同，也會顯示公司收費率。
+在工作角色的分組明細行中，在&#x200B;**公司收費率**&#x200B;欄位中，注意該工作角色在公司層級的收費率。 這表示有一個公司與此專案相關聯，而且此工作角色對該公司有不同的收費率。 公司的收費率會顯示，即使它與專案費率相同。
 
 >[!NOTE]
 >
-><span class="preview">將費率卡附加至專案時， **公司收費率** 不會匯入帳單費率。 計算是以職務角色的費率卡費率或公司費率為基礎。</span>
+><span class="preview">將費率卡附加至專案時，**公司收費率**&#x200B;不會匯入收費率。 計算是以職務角色的費率卡費率或公司費率為基礎。</span>
 >
->如果工作角色有專案收費率，則 **公司收費率** 絕不會套用於計算專案的收入。 僅限 **專案收費率** 用於計算收入。
+>如果工作角色有專案收費率，**公司收費率**&#x200B;絕不會套用於計算專案的收入。 只套用&#x200B;**專案收費率**&#x200B;來計算收入。
 
 ### 多個收費率值和時間範圍 {#multiple-billing-rate-values-and-timeframes}
 
-如果您有多個覆寫特定職務角色的收費率，則會列在該職務角色的分組底下。 使用內聯編輯，您可以變更覆寫率和 **開始** **日期** 和 **結束日期** 此標籤上的覆寫收費率。
+如果您有多個覆寫特定工作角色的收費率，則會列在該工作角色的群組下方。 使用內嵌編輯，您可以在此標籤上變更覆寫收費率的&#x200B;**開始** **日期**&#x200B;和&#x200B;**結束日期**&#x200B;的覆寫收費率。
 
 >[!NOTE]
 >
->您無法指定 **開始日期** 對於首次覆寫率，您不能指定 **結束日期** 上次覆寫率的。 Workfront假設第一個覆寫率適用於日期早於以下日期的所有時數： **結束日期** ，且最後覆寫率適用於日期晚於以下時間的所有時數： **開始日期** 上次覆寫的。\
->如果在專案的計劃開始日期之前記錄了一個小時，則使用第一個收費率。\
->如果是在專案的計畫完成日期後記錄一小時，則使用最後一個收費率。
+>您不能為第一個覆寫率指定&#x200B;**開始日期**，也不能為最後一個覆寫率指定&#x200B;**結束日期**。 Workfront假設第一個覆寫率適用於日期早於第一個覆寫的&#x200B;**結束日期**&#x200B;的所有時數，而最後一個覆寫率適用於日期晚於最後一個覆寫的&#x200B;**開始日期**&#x200B;的所有時數。\
+>如果在專案的計劃開始日期之前記錄了一小時，則使用第一個收費率。\
+>如果是在專案的計畫完成日期後記錄一小時，則會使用最後一個收費率。
 
 ## 計算計畫收入
 
 * [根據一次性記帳費率覆寫計算計畫收入](#calculate-planned-revenue-based-on-a-one-time-billing-rate-override)
-* [根據多重記帳費率覆寫來計算計畫收入](#calculate-planned-revenue-based-on-multiple-billing-rate-overrides)
-* [整個任務持續期間的計畫時數分佈](#distribution-of-planned-hours-across-the-duration-of-a-task)
+* [根據多個記帳費率覆寫計算計畫收入](#calculate-planned-revenue-based-on-multiple-billing-rate-overrides)
+* [在任務期間中的計畫時數分佈](#distribution-of-planned-hours-across-the-duration-of-a-task)
 
 ### 根據一次性記帳費率覆寫計算計畫收入 {#calculate-planned-revenue-based-on-a-one-time-billing-rate-override}
 
-根據一次性記帳費率覆寫計算計畫收入時，請考量下列事項：
+根據一次性「收費率」覆寫計算「計畫收入」時，請考量下列事項：
 
-* 當 **收入型別** 任務的 **角色小時**，Workfront會將任務的計畫時數乘以與任務相關的工作角色的計費率，以計算任務的計畫收入。
+* 當任務的&#x200B;**收入型別**&#x200B;是&#x200B;**每小時角色數**&#x200B;時，Workfront會將任務的計畫時數乘以與任務相關聯之工作角色的計費率，以計算任務的計畫收入。
 
-* 當在專案層級覆寫工作角色的計費率時，Workfront會使用專案的覆寫率來計算計畫收入。
-* 當任務有多個指派時，計畫收入的計算方式是將每個指派的工作角色的計費率乘以它們各自的計畫時數分配。
+* 在專案層級覆寫工作角色的計費費率時，Workfront會使用專案的覆寫費率來計算計畫收入。
+* 當任務有多個指派時，計畫收入的計算方式為將每個指派的工作角色及其各自計畫時數配置的計費率相乘。
 
 >[!NOTE]
 >
->若有多個指派，則每個指派的計畫時數與任務的計畫時數不同。
+>在多個指派的情況下，每個指派的計畫時數與任務的計畫時數不同。
 
-如需有關哪一個職務角色用於計算計畫收入的詳細資訊，請參閱本文章的「瞭解根據使用者和角色指派的任務收入計算」一節 [帳單與收入概要](../../../manage-work/projects/project-finances/billing-and-revenue-overview.md).
+如需有關使用哪個工作角色來計算計畫收入的詳細資訊，請參閱文章[帳單和收入概觀](../../../manage-work/projects/project-finances/billing-and-revenue-overview.md)中的「瞭解根據使用者和角色指派的任務收入計算」一節。
 
-### 根據多重記帳費率覆寫來計算計畫收入 {#calculate-planned-revenue-based-on-multiple-billing-rate-overrides}
+### 根據多重記帳費率覆寫計算計畫收入 {#calculate-planned-revenue-based-on-multiple-billing-rate-overrides}
 
 根據多重記帳費率覆寫來計算計畫收入時，請考量下列事項：
 
-* 當 **收入型別** 任務的 **角色小時**，Workfront會將任務的計畫時數乘以與任務相關的工作角色的計費率，以計算任務的計畫收入。
+* 當任務的&#x200B;**收入型別**&#x200B;是&#x200B;**每小時角色數**&#x200B;時，Workfront會將任務的計畫時數乘以與任務相關聯之工作角色的計費率，以計算任務的計畫收入。
 
-  如需有關哪一個職務角色用於計算計畫收入的詳細資訊，請參閱本文章的「瞭解根據使用者和角色指派的任務收入計算」一節 [帳單與收入概要](../../../manage-work/projects/project-finances/billing-and-revenue-overview.md).
+  如需有關使用哪個工作角色來計算計畫收入的詳細資訊，請參閱文章[帳單和收入概觀](../../../manage-work/projects/project-finances/billing-and-revenue-overview.md)中的「瞭解根據使用者和角色指派的任務收入計算」一節。
 
-* 如果覆寫了多個計費費率，則計畫時數在任務持續期間所乘以的費率會變更。 根據預設，Workfront會在任務期間平均分配計畫時數，並為任務的每天分配相等的時數。 計算時 **計畫收入** 對於任務，Workfront會將每日計畫時數乘以當天的計費率。 若是多個收費率，該費率每天可能都不相同。
+* 如果覆寫了多個帳單費率，則計畫時數在任務持續期間所乘以的費率會變更。 依預設，Workfront會將計畫時數平均分配至任務的持續期間，並為任務的每天分配相等的時數。 計算任務的&#x200B;**計畫收入**&#x200B;時，Workfront會將每日計畫時數乘以當天的收費率。 若是多個收費率，該費率每天可能都不相同。
 
-  例如，您有一個任務具有每小時的角色 **收入型別**. 任務的持續時間為5天，計畫時數的值為40小時。 計畫每日時數為8小時。 將「專案經理」工作角色指派給任務，並覆寫此工作角色在任務最後3天的收費率，因此您在前兩天會有「費率1」的收費率，在此工作角色在任務剩餘的3天會有「費率2」的收費率。
+  例如，您有一個任務具有角色每小時&#x200B;**收入型別**。 該任務的工期為5天，而計畫時數的值為40小時。 每日計畫時數為8小時。 將「專案經理」工作角色指派給作業，並覆寫此工作角色在作業最後3天的收費率，因此您會擁有此工作角色在前兩天的費率1收費率，以及剩餘3天的費率2收費率。
 
-  計算下列專案的公式： **計畫收入** 此任務為：
+  計算此任務之&#x200B;**計畫收入**&#x200B;的公式為：
 
   ```
   Planned Revenue = (Rate 1) * (Planned Hours for Day 1) + (Rate 1) * (Planned hours for Day 2) + (Rate 2) * (Planned hours for Day 3) + (Rate 2) * (Planned hours for Day 4) + (Rate 2) * (Planned hours for Day 5)
   ```
 
-如需在Workfront中尋找每日計畫時數數量的詳細資訊，請參閱區段 [整個任務持續期間的計畫時數分佈](#distribution-of-planned-hours-across-the-duration-of-a-task) 本文章內容。
+如需在Workfront中尋找每日計畫時數數量的詳細資訊，請參閱本文章的[工作期間中計畫時數的分佈](#distribution-of-planned-hours-across-the-duration-of-a-task)一節。
 
 >[!NOTE]
 >
->如果任務有多個受指派人，則計畫時數會先分配給每個受指派人，然後在任務持續期間分配給每一天。 在此情況下，計畫收入的計算將考量每個受指派人的每日時數金額，以及每個工作角色的計費率，若有多個計費率，則計費率可能會在工作期間變更。
+>如果任務有多個受指派人，計畫時數會先分配給每個受指派人，然後在任務持續期間分配給每一天。 在此情況下，計畫收入的計算將考量每個受指派人的每日時數金額，以及每個職務角色的計費率，若有多個計費率，則會在任務持續期間變更。
 
-### 整個任務持續期間的計畫時數分佈 {#distribution-of-planned-hours-across-the-duration-of-a-task}
+### 在任務期間中的計畫時數分佈 {#distribution-of-planned-hours-across-the-duration-of-a-task}
 
-瞭解任務期間中計畫時數的分佈時，請考量下列事項：
+瞭解任務期間中計畫時數的分佈時，請考慮下列事項：
 
-* 依預設，Workfront會根據專案排程的可用性，將計畫時數平均分配給任務的期間，並為任務的每天分配相等數量的計畫時數。
+* 依預設，Workfront會根據專案排程的可用性，將計畫時數平均分配至任務的整個期間，並為任務的每一天分配相等的計畫時數。
 
-  如需瞭解跨任務期間計畫時數分佈的詳細資訊，請參閱文章中的「瞭解跨任務期間計畫時數分佈」一節 [計畫時數概觀](../../../manage-work/tasks/task-information/planned-hours.md).
+  如需瞭解跨任務期間之計畫時數分佈的詳細資訊，請參閱文章[計畫時數概觀](../../../manage-work/tasks/task-information/planned-hours.md)中的「瞭解跨任務期間之計畫時數分佈」一節。
 
   >[!NOTE]
   >
-  >「每日計畫時數」是在任務期間每天的計畫時數配置。 如果任務有一個指派，則此數字也代表每個指派的每日計畫時數。 如果任務有多個指派，則每個指派的每日計畫時數與任務的每日計畫時數不同。 對於具有多個指派的任務，Workfront中沒有每個指派的每日計畫時數視覺化表示法。
+  >每日計畫時數是任務期間每天的計畫時數配置。 如果任務有一個指派，則此數字也代表每個指派的每日計畫時數。 如果任務有多個指派，則每個指派的每日計畫時數與任務的每日計畫時數不同。 對於具有多個指派的任務，Workfront中沒有每日計畫時數每個指派的視覺化表示法。
   >
   >
-  >每日計畫時數乘以當天指派給任務的工作角色的收費率，以計算該任務的每日計畫收入。 以這種方式計算的所有每日計畫收入的總和等於該任務的計畫收入。
+  >每日計畫時數乘以當天指派給任務之工作角色的收費率，即可計算該任務的每日計畫收入。 以這種方式計算的所有每日計畫收入的總和等於該任務的計畫收入。
 
 ## 計算實際收入
 
-* [根據一次性記帳費率覆寫來計算實際收入](#calculate-actual-revenue-based-on-a-one-time-billing-rate-override)
-* [根據多重記帳費率覆寫來計算實際收入](#calculate-actual-revenue-based-on-multiple-billing-rate-overrides)
+* [根據一次性收費率覆寫計算實際收入](#calculate-actual-revenue-based-on-a-one-time-billing-rate-override)
+* [根據多重記帳費率覆寫計算實際收入](#calculate-actual-revenue-based-on-multiple-billing-rate-overrides)
 
-### 根據一次性記帳費率覆寫來計算實際收入 {#calculate-actual-revenue-based-on-a-one-time-billing-rate-override}
+### 根據一次性記帳費率覆寫計算實際收入 {#calculate-actual-revenue-based-on-a-one-time-billing-rate-override}
 
 根據一次性「收費率」覆寫計算「實際收入」時，請考量下列事項：
 
-* 當 **收入型別** 任務的 **角色小時**，Workfront會將 **實際小時** 按與要計算之任務相關之職務角色的收費率排列的任務金額 **實際收入** 在任務上。 實際時數是直接記錄至任務的時數。
+* 當任務的&#x200B;**收入型別**&#x200B;是&#x200B;**每小時角色數**&#x200B;時，Workfront會將任務的&#x200B;**實際小時數**&#x200B;乘以與任務相關聯之工作角色的收費率，以計算任務的&#x200B;**實際收入**。 實際時數是直接記錄至工作的時數。
 
-  有關使用哪個工作角色進行計算的詳細資訊 **實際收入**，請參閱文章中的「瞭解根據使用者和角色指派的任務收入計算」一節 [帳單與收入概要](../../../manage-work/projects/project-finances/billing-and-revenue-overview.md).
+  如需有關使用哪個工作角色來計算&#x200B;**實際收入**&#x200B;的詳細資訊，請參閱文章[帳單和收入概觀](../../../manage-work/projects/project-finances/billing-and-revenue-overview.md)中的「瞭解根據使用者和角色指派的任務收入計算」一節。
 
-* 如果已在專案層次覆寫工作角色的計費費率，Workfront會使用專案的覆寫費率來計算實際收入。 當您覆寫專案上工作角色的計費費率時， **實際收入** 會使用新的調整後費率自動重新計算專案的。
+* 如果在專案層次已覆寫工作角色的收費率，Workfront會使用專案的覆寫費率來計算實際收入。 當您覆寫專案上工作角色的收費率時，將會使用新調整後的費率自動重新計算專案的&#x200B;**實際收入**。
 
-  如需有關覆寫專案角色比例的資訊，請參閱 [覆寫專案層次的工作角色收費率](../../../manage-work/projects/project-finances/override-job-role-billing-rates-at-the-project-level.md).
+  如需有關覆寫專案角色費率的資訊，請參閱專案層級](../../../manage-work/projects/project-finances/override-job-role-billing-rates-at-the-project-level.md)的[覆寫工作角色收費率。
 
 >[!NOTE]
 >
->如果您想要保留在覆寫以原始費率計費的原始計費率之前已登入專案的時數，則必須將其納入 **付費記錄**，而且您必須標籤 **付費記錄** 作為 **已記帳**. 否則， **實際收入** 從覆寫專案的計費費率之前記錄的時數，將在重新計算專案的財務時使用新費率重新計算。\
->如需在付費記錄中包含時數並標示為的詳細資訊 **已記帳**，請參閱文章 [建立付費記錄](../../../manage-work/projects/project-finances/create-billing-records.md).
+>如果您想要保留在覆寫以原始費率記帳的原始記帳費率之前已登入專案的時數，您必須將其納入&#x200B;**記帳記錄**，並且您必須將&#x200B;**記帳記錄**&#x200B;標籤為&#x200B;**已記帳**。 否則，在覆寫專案的記帳費率之前記錄的時數的&#x200B;**實際收入**&#x200B;將在重新計算專案的財務時使用新的費率重新計算。\
+>如需在付費記錄中包含時數並標示為&#x200B;**已記帳**&#x200B;的詳細資訊，請參閱文章[建立付費記錄](../../../manage-work/projects/project-finances/create-billing-records.md)。
 
-### 根據多重記帳費率覆寫來計算實際收入 {#calculate-actual-revenue-based-on-multiple-billing-rate-overrides}
+### 根據多重記帳費率覆寫計算實際收入 {#calculate-actual-revenue-based-on-multiple-billing-rate-overrides}
 
-根據多重記帳費率修訂來計算實際收入時，請考量下列事項：
+根據多重記帳費率覆寫來計算實際收入時，請考量下列事項：
 
-* 當 **收入型別** 任務的 **角色小時**，Workfront會將 **實際小時** 具有指派給要計算之任務之職務角色計費率的任務上 **實際收入** 在任務上。 實際時數是直接記錄至任務的時數。
+* 當任務的&#x200B;**收入型別**&#x200B;是&#x200B;**每小時**&#x200B;角色時，Workfront會將任務的&#x200B;**實際時數**&#x200B;乘以指派給任務之工作角色的收費率，以計算任務的&#x200B;**實際收入**。 實際時數是直接記錄至工作的時數。
 
-* 若有多項帳單費率覆寫，則為下列專案的費率： **實際小時** 乘以計算 **實際收入** 在任務持續期間可能會變更。 Workfront使用時間範圍符合以下條件的工作角色的計費率： **輸入日期** 任務要計算的記錄時數 **實際收入。**
+* 如果覆寫了多個收費率，**實際時數**&#x200B;乘以計算&#x200B;**實際收入**&#x200B;的費率可能會在工作期間變更。 Workfront使用時間範圍符合任務所記錄時數之&#x200B;**輸入日期**&#x200B;的工作角色的收費率來計算&#x200B;**實際收入。**
 
-  例如，任務具有 **收入型別** 之 **角色小時** 和會指派給Project Manager的工作角色。 以6月19日至6月25日期間的費率1覆寫此職務角色的計費費率。 從6月26日開始，使用費率2覆寫收費率。 記錄6月20日的2小時，以及6月28日的3小時。
+  例如，任務具有&#x200B;**收入型別** （每小時&#x200B;**角色**），且已指派給專案經理的工作角色。 以1的費率覆寫此職務角色在6月19日至6月25日之間的收費率。 從6月26日開始，使用費率2覆寫收費率。 6月20日記錄2小時，6月28日記錄3小時。
 
-  Workfront計算 **實際收入** 對於此工作，請使用下列公式：
+  Workfront使用下列公式計算此任務的&#x200B;**實際收入**：
 
   ```
   Actual Revenue = 2 * Rate 1 + 3 * Rate 2
   ```
 
-  有關使用哪個工作角色進行計算的詳細資訊 **實際收入**，請參閱文章中的「瞭解根據使用者和角色指派的任務收入計算」一節 [帳單與收入概要](../../../manage-work/projects/project-finances/billing-and-revenue-overview.md).
+  如需有關使用哪個工作角色來計算&#x200B;**實際收入**&#x200B;的詳細資訊，請參閱文章[帳單和收入概觀](../../../manage-work/projects/project-finances/billing-and-revenue-overview.md)中的「瞭解根據使用者和角色指派的任務收入計算」一節。
 
-## 根據多個記帳費率計算收入時的時區影響
+## 根據多個收費率計算收入時時區的影響
 
-使用者與其他使用者相比，如果他們與Workfront中的其他實體之間發生時區差異，則他們可能會看到不同的每日計畫時數。 以下情況可能會將使用者的「每日計畫時數」資訊與其他使用者看到的資訊有所偏差：
+使用者與Workfront中的其他實體之間若發生時區差異，可看見與其他使用者不同的每日計畫時數。 以下情形可能會將使用者的每日計畫時數資訊與其他使用者看到的資訊有所偏差：
 
-* 這兩個使用者的電腦可能設定為兩個不同的時區
+* 兩個使用者可能將其電腦設定為兩個不同的時區
 * Workfront中的兩個使用者設定檔可能設定為兩個不同的時區
 * 與使用者設定檔相關聯的時區可能與Workfront中的系統時區不同
 * 與使用者設定檔相關聯的時區可能與專案排程的時區不同。
@@ -319,46 +319,47 @@ You cannot specify a
 
 >[!NOTE]
 >
->如果您讓不同時區的使用者處理相同的專案，我們建議您不要在當週變更專案的計費率覆寫。 這樣做可能會因為使用者排程中的時區與Workfront系統時區之間的時區差異，而導致您的專案顯示錯誤的計畫收入金額。 大多數排程允許將週末從計畫時數計算中排除。 如果工作角色的計費率覆寫發生變更，最好在週末進行，而不是在周中進行，因為這可能與任務期間的中間時間一致。
+>如果您讓不同時區的使用者處理相同的專案，我們建議您不要在該周變更專案的計費率覆寫。 這麼做可能會因為使用者排程的時區與Workfront系統時區之間的時區差異，而顯示錯誤的專案計畫收入金額。 大多數排程都允許將週末排除在計畫時數計算之外。 如果工作角色的計費率覆寫發生變更，最好在週末進行，而不是在周中進行，因為這可能與任務期間的中間時間一致。
 
-計算不同時區之使用者的計畫收入時，請考量下列事項：
+計算不同時區之使用者的計畫收入時，請考慮下列各項：
 
-* 針對具有下列專案的任務： **收入型別** 之 **角色小時** 和指派至職務角色， **計畫收入** 的計算方式為將 **計畫時數** 按工作角色的計費率排列的任務。
+* 對於具有&#x200B;**收入型別** （每小時&#x200B;**個角色**）並指派給工作角色的工作，**計畫收入**&#x200B;的計算方式為將任務的&#x200B;**計畫時數**&#x200B;乘以工作角色的計費率。
 
-* 此 **計畫時數** 平均分佈於 **持續時間** 任務的。
+* **計畫時數**&#x200B;平均分佈於任務的&#x200B;**期間**。
 
-* 此 **持續時間** 是介於以下時間之間的時段： **計劃開始** **日期** 和 **計畫完成日期** 任務的。 因為&#x200B;**計劃開始日期** 和 **計畫完成日期** 其中一項任務可能因檢視任務之使用者的時區而異，兩個使用者在兩個不同時區的每日計畫時數可能不同。
+* **期間**&#x200B;是介於任務的&#x200B;**計劃開始** **日期**&#x200B;和&#x200B;**計畫完成日期**&#x200B;之間的時段。 由於任務的&#x200B;**計劃開始日期**&#x200B;和&#x200B;**計畫完成日期**&#x200B;會根據檢視任務之使用者的時區而有所不同，因此兩個使用者在兩個不同時區的每日計畫時數可能會不同。
 
-* 若未變更工作角色的計費率或僅有一個計費率覆寫，則每日計畫時數金額不會變更專案的計畫收入。 在此情況下，即使來自兩個不同時區的兩名使用者看到不同的每日計畫時數，兩個使用者之間的專案整體計畫收入仍相同。
+* 若未變更工作角色的計費率或僅有一個計費率覆寫，每日計畫時數金額不會變更專案的計畫收入。 在此案例中，即使來自兩個不同時區的兩個使用者每天看到不同的規劃時數，兩個使用者之間的專案整體規劃收入仍相同。
 
-  不過，若有多個計費率覆寫，則整體的 **計畫收入** 兩個使用者在兩個不同時區中的專案可能會看起來不同，因為它依賴於每日計畫時數（兩個使用者可能不同）和計費率覆寫（當每個使用者在自己的時區檢視任務時，當天可能會不同）。
+  但是，若是多重計費率覆寫，則兩個不同時區的兩個使用者可能會覺得專案的整體&#x200B;**計畫收入**&#x200B;不同，因為它有賴於每日計畫時數的數量（兩個使用者可能不同）和計費率覆寫（當每個使用者在自己的時區中檢視任務時，當天可能會不同）。
 
-* 精確的 **計畫收入** amount是與Workfront執行個體時區具有相同時區的使用者所看到的數量。 您的Workfront管理員會在系統客戶資訊區域中定義Workfront時區。\
-  如需定義系統時區的詳細資訊，請參閱文章 [為您的系統設定基本資訊](../../../administration-and-setup/get-started-wf-administration/configure-basic-info.md).
+* 準確的&#x200B;**計畫收入**&#x200B;金額是與Workfront執行個體時區具有相同時區的使用者看到的金額。 您的Workfront管理員會在系統客戶資訊區域中定義Workfront時區。\
+  如需定義系統時區的詳細資訊，請參閱文章[設定系統的基本資訊](../../../administration-and-setup/get-started-wf-administration/configure-basic-info.md)。
 
 ### 計算不同時區使用者的實際收入 {#calculate-actual-revenue-for-users-in-different-time-zones}
 
-計算不同時區中使用者的實際收入時，請考量下列事項：
+計算不同時區使用者的實際收入時，請考慮下列事項：
 
-* 當 **收入型別** 任務的 **角色小時**，Workfront會將 **實際小時** 對具有指派給任務以計算之職務角色之收費率的任務而言 **實際收入**. 實際時數是直接記錄至任務的時數。
+* 當任務的&#x200B;**收入型別**&#x200B;是&#x200B;**每小時**&#x200B;角色時，Workfront會將任務的&#x200B;**實際時數**&#x200B;乘以指派給任務之工作角色的收費率，以計算&#x200B;**實際收入**。 實際時數是直接記錄至工作的時數。
 
-* 如果覆寫了多個收費率，Workfront會使用時間範圍符合以下條件的工作角色的收費率： **輸入日期** 任務要計算的記錄時數 **實際收入**.
+* 如果覆寫了多個收費率，Workfront會使用時間範圍符合任務所記錄時數之&#x200B;**輸入日期**&#x200B;的工作角色的收費率來計算&#x200B;**實際收入**。
 
-* 因為沒有時間戳記 **輸入日期** 時數，且多個計費率覆寫的日期範圍上沒有時間戳記， **實際收入** 計算不受與使用者相關聯的時區影響。
+* 由於在記錄時數的&#x200B;**輸入日期**&#x200B;沒有時間戳記，且多個收費率覆寫的日期範圍沒有時間戳記，因此&#x200B;**實際收入**&#x200B;計算不受與使用者相關聯的時區影響。
 
-有關使用哪個工作角色進行計算的詳細資訊 **實際收入**，請參閱文章中的「瞭解根據使用者和角色指派的任務收入計算」一節 [帳單與收入概要](../../../manage-work/projects/project-finances/billing-and-revenue-overview.md).
+如需有關使用哪個工作角色來計算&#x200B;**實際收入**&#x200B;的詳細資訊，請參閱文章[帳單和收入概觀](../../../manage-work/projects/project-finances/billing-and-revenue-overview.md)中的「瞭解根據使用者和角色指派的任務收入計算」一節。
 
 ## 重新計算專案財務
 
 當專案記錄的時數發生變更時，會在專案上計算財務。
 
-如果在專案存留期內費率已變更，您可以使用專案的「重新計算財務」選項，手動重新計算專案的成本和收入。 此外，某些動作會觸發自動重新計算。
+如果在專案存留期期間費率發生變更，您可以使用專案上的「重新計算財務」選項，手動重新計算專案的成本和收入。 此外，某些動作會觸發自動重新計算。
 
-如需重新計算專案財務的詳細資訊，請參閱文章 [重新計算專案財務](../../../manage-work/projects/project-finances/recalculate-project-finances.md).
+如需重新計算專案財務的詳細資訊，請參閱文章[重新計算專案財務](../../../manage-work/projects/project-finances/recalculate-project-finances.md)。
 
 ## 使用API新增收費率
 
-若要使用API為工作角色新增收費率，請執行 *setRatesForRole* 的動作 **評等** 物件 *PUT方法*.
-上的動作和日期欄位 **評等** 物件可在API 8.0版中使用。如果您已為專案中的工作角色定義了數個收費率，並且想要使用新的日期範圍為其新增新的收費率，則必須同時包含現有收費率和要新增在同一API呼叫中的收費率。 這類似於更新物件集合的方式。
+若要使用API為工作角色新增收費率，請使用&#x200B;*PUT方法*&#x200B;為&#x200B;**Rate**&#x200B;物件執行&#x200B;*setRatesForRole*動作。
+**Rate**物件上的動作和日期欄位可在API 8.0版中使用。
+如果您已為專案中的工作角色定義了數個收費率，並且想要使用新的日期範圍為其新增收費率，則必須在同一API呼叫中同時包含現有收費率和要新增的收費率。 這類似於更新物件上的集合的方式。
 
-以下API呼叫為範例，其中 **attachableID** 是 **專案ID** 要新增費率與優惠方案的專案 **角色ID** 是 **工作角色ID** 您正在為其新增計費費率。<pre>{</pre><pre>&quot;attachableID&quot;：&quot;593f01500000557d75fdd4fdfcc624f2&quot;，</pre><pre>&quot;attachableObjCode&quot;：&quot;PROJ&quot;，</pre><pre>&quot;roleID&quot;：&quot;544820df000014148cda5136d4b79d09&quot;， </pre><pre>&quot;rates&quot;：[</pre><pre>         {&quot;rateValue&quot;：&quot;0.00&quot;，&quot;startDate&quot;：null，&quot;endDate&quot;：&quot;2017-06-11&quot;}，</pre><pre>         {&quot;rateValue&quot;：&quot;45.00&quot;，&quot;startDate&quot;：&quot;2017-06-12&quot;，&quot;endDate&quot;：&quot;2017-06-17&quot;}，</pre><pre>         {&quot;rateValue&quot;：&quot;95.00&quot;，&quot;startDate&quot;：&quot;2017-06-21&quot;，&quot;endDate&quot;：null}</pre><pre>]</pre><pre>}</pre>如需使用Workfront API的詳細資訊，請參閱文章 [API基本需知](https://experience.workfront.com/s/article/API-Basics-638808549).
+下列API呼叫的範例中，**attachableID**&#x200B;是您新增收費率之專案的&#x200B;**專案識別碼**，**RoleID**&#x200B;是您新增收費率的&#x200B;**工作角色識別碼**。<pre>{</pre><pre>&quot;attachableID&quot;：&quot;593f01500000557d75fdd4fdfcc624f2&quot;，</pre><pre>&quot;attachableObjCode&quot;：&quot;PROJ&quot;，</pre><pre>&quot;roleID&quot;：&quot;544820df000014148cda5136d4b79d09&quot;， </pre><pre>&quot;rates&quot;：[</pre><pre>         {&quot;rateValue&quot;：&quot;0.00&quot;，&quot;startDate&quot;：null，&quot;endDate&quot;：&quot;2017-06-11&quot;}，</pre><pre>         {&quot;rateValue&quot;：&quot;45.00&quot;，&quot;startDate&quot;：&quot;2017-06-12&quot;，&quot;endDate&quot;：&quot;2017-06-17&quot;}，</pre><pre>         {&quot;rateValue&quot;：&quot;95.00&quot;，&quot;startDate&quot;：&quot;2017-06-21&quot;，&quot;endDate&quot;：null}</pre><pre>]</pre><pre>}</pre>如需使用Workfront API的詳細資訊，請參閱文章[API基本知識](https://experience.workfront.com/s/article/API-Basics-638808549)。

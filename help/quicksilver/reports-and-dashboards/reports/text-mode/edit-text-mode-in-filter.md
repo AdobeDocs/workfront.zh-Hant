@@ -23,7 +23,7 @@ ht-degree: 0%
 
 您可以使用文字模式在清單或報告中編輯篩選器，以存取標準介面中無法使用的欄位，並建立更複雜的篩選器。
 
-如需建立篩選時更多文字模式的範例，另請參閱區段 [自訂篩選器範例](../custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md#samples-of-custom-filters) 在文章中 [自訂檢視、篩選和分組範例：文章索引](../custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md).
+如需建立篩選時的更多文字模式範例，另請參閱文章[自訂檢視、篩選和群組範例：文章索引](../custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md)中的[自訂篩選範例](../custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md#samples-of-custom-filters)一節。
 
 ## 存取需求
 
@@ -56,7 +56,7 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-如需有關此表格的詳細資訊，請參閱 [Workfront檔案中的存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -78,18 +78,18 @@ ht-degree: 0%
 >
 >建議您在標準模式中建立儘可能多的篩選器，然後將篩選器轉換為文字模式以進行編輯。
 
-如需建立篩選器的詳細資訊，請參閱 [篩選器概觀](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+如需建立篩選的詳細資訊，請參閱[篩選總覽](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md)。
 
-如需建立報表的相關資訊，請參閱 [建立自訂報表](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+如需建立報告的詳細資訊，請參閱[建立自訂報告](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md)。
 
 1. 執行下列其中一項：
 
-   1. 若要從報表存取篩選器，請移至報表，然後按一下 **報表動作** > **編輯** > **篩選器** 標籤。
-   1. 若要從清單存取篩選器，請移至清單並從 **篩選** 選單，將滑鼠停留在您要修改的篩選器上，然後按一下 **編輯** 圖示 ![](assets/edit-icon.png).
+   1. 若要從報告存取篩選器，請移至報告，然後按一下&#x200B;**報告動作** > **編輯** > **篩選器**&#x200B;索引標籤。
+   1. 若要從清單存取篩選器，請移至清單，然後從&#x200B;**篩選器**&#x200B;功能表，將滑鼠停留在您要修改的篩選器上，然後按一下&#x200B;**編輯**&#x200B;圖示![](assets/edit-icon.png)。
 
       篩選產生器隨即開啟。
 
-1. 按一下 **新增篩選器規則** 若要開始新增篩選條件，請按一下 **文字模式** 或 **切換到文字模式** 在產生器的右側。
+1. 按一下&#x200B;**新增篩選規則**&#x200B;以開始新增篩選條件，然後按一下產生器右側的&#x200B;**文字模式**&#x200B;或&#x200B;**切換至文字模式**。
 1. 使用文字模式新增篩選陳述式。 每個篩選陳述式都可包含下列各行及其他資訊：
 
    <table style="table-layout:auto"> 
@@ -101,7 +101,7 @@ ht-degree: 0%
       <td><b>範例</b></td> 
      </tr> 
      <tr> 
-      <td> <p>欄位名稱及其在Workfront資料庫中顯示的值。</p> <p>此為必填欄位。</p> <p> 如需有關物件和欄位如何在資料庫中顯示的詳細資訊，請參閱 <a href="../../../wf-api/general/api-explorer.md" class="MCXref xref">API總管</a>.</p> </td> 
+      <td> <p>欄位名稱及其在Workfront資料庫中顯示的值。</p> <p>此為必填欄位。</p> <p> 如需有關物件和欄位如何在資料庫中顯示的詳細資訊，請參閱<a href="../../../wf-api/general/api-explorer.md" class="MCXref xref">API總管</a>。</p> </td> 
       <td> <p><code>&lt;field name in camel case&gt;=&lt;value&gt;</code> </p> <p>若要篩選狀態為「進行中」的任務，請使用以下行：</p> <p><code>status=INP</code> </p> <p><b>秘訣</b>
 
    篩選狀態時，您必須使用狀態的三個字母代碼，而不是名稱。</p> </td>
@@ -109,7 +109,7 @@ ht-degree: 0%
      <tr> 
       <td> <p>欄位名稱修飾元以及修飾元等於。 這表示您用來篩選的欄位必須符合哪些條件。</p> <p>此為必填欄位。</p> </td> 
       <td> <p><code>&lt;field name in camel case&gt;_Mod=&lt;modifier value&gt;</code> </p> <p>若要指出您篩選的任務狀態必須等於進行中，請使用上述行以外的下列行：</p> <p><code>status_Mod=in</code> </p> <p>如果修正因子為範圍，則有兩個明細行可表示修正因子。</p> 
-       <div> <span class="autonumber"><span><b>範例 </b></span></span> 
+       <div> <span class="autonumber"><span><b>範例</b></span></span> 
         <p>這是文字模式篩選器，會尋找進行中的任務、具有本月內計畫完成日期的任務，並指派給具有特定GUID的使用者：</p> 
         <p><code>assignedToID=580a55a4000701f4b2d7dee1e7a9d427</code> </p> 
         <p><code>assignedToID_Mod=in</code> </p> 
@@ -118,7 +118,7 @@ ht-degree: 0%
         <p><code>plannedCompletionDate=$$TODAYbm</code> </p> 
         <p><code>plannedCompletionDate_Mod=between</code> </p> 
         <p><code>plannedCompletionDate_Range=$$TODAYem</code> </p> 
-        <p>如需文字模式中篩選修飾元的完整清單，請參閱文章 <a href="../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md" class="MCXref xref">篩選和條件修飾元</a>.</p> 
+        <p>如需文字模式中篩選修飾元的完整清單，請參閱文章<a href="../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md" class="MCXref xref">篩選和條件修飾元</a>。</p> 
        </div> </td> 
      </tr> 
      <tr> 
@@ -128,7 +128,7 @@ ht-degree: 0%
          <li> <p>當您將運運算元從AND變更為OR時，清單專案的數量可能會增加。</p> </li> 
         </ul> </p> </td> 
       <td> <p><code>&lt;first field name in camel case&gt;=&lt;value&gt;</code> </p> <p><code>&lt;first field name in camel case&gt;_Mod=&lt;modifier value&gt;</code> </p> <p><code>OR:1:&lt;second field name in camel case&gt;=&lt;value&gt;</code> </p> <p><code>OR:1:&lt;second field name in camel case&gt;_Mod=&lt;modifier value&gt;</code> </p> 
-       <div> <span class="autonumber"><span><b>範例 </b></span></span> 
+       <div> <span class="autonumber"><span><b>範例</b></span></span> 
         <p>若要篩選處於進行中狀態或計畫完成日期為今天的任務，請使用下列專案： </p> 
         <p><code>status=INP</code> </p> 
         <p><code>status_Mod=in</code> </p> 
@@ -137,7 +137,7 @@ ht-degree: 0%
        </div> </td> 
      </tr> 
      <tr> 
-      <td> <p>萬用字元，可讓您一般化篩選器中的資訊，並參照目前時間或登入的使用者。</p> <p>萬用字元為選用。</p> <p>秘訣：   <p>建議您儘可能使用萬用字元，讓您的篩選器更動態，而且每個使用者或類似的時間範圍都不需重複相同的篩選器。</p> <p>如需有關篩選器萬用字元的資訊，請參閱 <a href="../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md" class="MCXref xref">萬用字元篩選器變數概觀</a>.</p> </p> </td> 
+      <td> <p>萬用字元，可讓您一般化篩選器中的資訊，並參照目前時間或登入的使用者。</p> <p>萬用字元為選用。</p> <p>秘訣：   <p>建議您儘可能使用萬用字元，讓您的篩選器更動態，而且每個使用者或類似的時間範圍都不需重複相同的篩選器。</p> <p>如需有關篩選萬用字元的資訊，請參閱<a href="../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md" class="MCXref xref">萬用字元篩選變數概觀</a>。</p> </p> </td> 
       <td> <p><code>&lt;first field name in camel case&gt;=&lt;wildcard&gt;</code> </p> <p><code>&lt;first field name in camel case&gt;_Mod=&lt;modifier value&gt;</code> </p> 
        <div class="example" data-mc-autonum="<b>Example: </b>"> <span class="autonumber"><span><b>範例</b></span></span> 
         <p>若要篩選指派給目前登入之使用者的工作，請使用下列專案：</p> 
@@ -150,17 +150,17 @@ ht-degree: 0%
 
 1. 若要新增由「OR」運運算元連線的篩選陳述式，請執行下列動作：
 
-   1. 新增一行程式碼並輸入OR:1: 後接您要篩選的物件或屬性，以及您想用來比較它的值。 若要參照任何狀態（「新增」除外）的任務，請使用下列行：
+   1. 新增一行程式碼和型別OR:1:，後面接著您要篩選的物件或屬性，以及您要用來比較的值。 若要參照任何狀態（「新增」除外）的任務，請使用下列行：
 
       `OR:1:status=NEW`
 
-   1. 新增第二行並輸入OR:1: 後面接著物件、修飾元和修飾元程式碼。 若要定義代碼明細行的修正因子，以參考除「新增」以外的所有作業狀態，請使用下列修正因子明細行：
+   1. 新增第二行並輸入OR:1:，後面接著物件、修飾元和修飾元程式碼。 若要定義代碼明細行的修正因子，以參考除「新增」以外的所有作業狀態，請使用下列修正因子明細行：
 
       `OR:1:status_Mod=notin`
 
-      新陳述式的每一行前面都必須加上「或：`<number>`：&quot;。
+      新陳述式的每一行前面都必須加上「OR：`<number>`：」。
 
-      如需有關在篩選中建立「OR」陳述式的資訊，請參閱 [在文字模式篩選器中建立「OR」陳述式](../../../reports-and-dashboards/reports/text-mode/create-or-statements-in-filters-text-mode.md).
+      如需有關在篩選中建立「OR」陳述式的資訊，請參閱[在文字模式篩選中建立「OR」陳述式](../../../reports-and-dashboards/reports/text-mode/create-or-statements-in-filters-text-mode.md)。
 
       >[!NOTE]
       >
@@ -175,7 +175,7 @@ ht-degree: 0%
       >`OR:2:plannedCompletionDate=$$TODAY`
       >`OR:2:plannedCompletionDate_Mod=eq`
 
-1. 按一下 **退出文字模式** 或 **完成** 以儲存文字模式變更，並繼續編輯報表或篩選器。
-1. 按一下 **儲存+關閉** 儲存報告或 **儲存篩選器** 將篩選器儲存在清單中。
+1. 按一下&#x200B;**結束文字模式**&#x200B;或&#x200B;**完成**&#x200B;以儲存您的文字模式變更，並繼續編輯報表或篩選器。
+1. 按一下&#x200B;**儲存+關閉**&#x200B;以儲存您的報告，或按一下&#x200B;**儲存篩選器**&#x200B;以將篩選器儲存在清單中。
 
 

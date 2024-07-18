@@ -3,7 +3,7 @@ content-type: reference
 product-area: user-management;agile-and-teams
 navigation-topic: people-teams-and-groups
 title: 管理工作和團隊請求
-description: 請求表示掛起的任務或問題分配。 會向個人提出工作請求，並向團隊提出團隊請求。
+description: 請求代表擱置任務或問題指派。 工作請求會向個人發出，而團隊請求則會向團隊發出。
 author: Lisa
 feature: People Teams and Groups, Work Management
 exl-id: ef96e520-0d5f-4180-a27a-1fbbffff8f2b
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 # 管理工作和團隊請求
 
-請求表示掛起的任務或問題分配。 會向個人提出工作請求，並向團隊提出團隊請求。
+請求代表擱置任務或問題指派。 工作請求會向個人發出，而團隊請求則會向團隊發出。
 
 >[!NOTE]
 >
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 ## 存取需求
 
-您必須具備下列存取權，才能執行本文中的步驟：
+您必須具有下列存取權才能執行本文中的步驟：
 
 <table style="table-layout:auto"> 
  <col> 
@@ -33,57 +33,57 @@ ht-degree: 0%
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] 計劃*</strong></td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] 計畫*</strong></td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] 授權*</strong></td> 
-   <td> <p>查看或更新以分配或處理請求；重新分配請求的工作或更高</p> </td> 
+   <td> <p>複查或更高以指派或處理請求；處理或更高以重新指派請求</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;若要了解您擁有的計畫或授權類型，請連絡您的 [!DNL Workfront] 管理員。
+&#42;若要瞭解您擁有的計畫或授權型別，請連絡您的[!DNL Workfront]系統管理員。
 
 ## 將請求指派給團隊 {#assign-a-request-to-a-team}
 
-項目經理和問題請求者在不知道哪個資源適合執行工作或誰完成工作並不重要時，可以將工作分配給團隊。
+當專案經理和問題請求者不知道哪一種資源適合做工作或誰完成工作並不重要時，可以將工作指派給團隊。
 
-指派給團隊的任務仍在 [!UICONTROL 團隊請求] 標籤，直到團隊中的使用者自願處理請求為止。
+指派給團隊的任務會保留在[!UICONTROL 團隊請求]標籤上，直到團隊中的使用者自願處理請求為止。
 
-將請求同時指派給非團隊成員的團隊和使用者時，請求會顯示在 [!UICONTROL 團隊請求] 頁簽和用戶的工作請求區域。 如果不在團隊中的使用者自願處理任務，任務仍會保留在 [!UICONTROL 團隊請求] 頁簽，直到團隊中的使用者自願處理它。
+當請求同時指派給團隊和非團隊成員的使用者時，該請求會顯示在[!UICONTROL 團隊請求]索引標籤和使用者的工作請求區域中。 如果不在團隊中的使用者自願處理該任務，則該任務仍保留在[!UICONTROL 團隊請求]索引標籤中，直到團隊中的使用者自願處理為止。
 
-可以以下列任何方式將團隊指派給任務和問題：
+團隊可以透過以下任何方式指派給任務和問題：
 
-* 透過 [!UICONTROL 甘特圖]
-* 從任務或問題清單（單獨或批量）
+* 透過[!UICONTROL 甘特圖]
+* 從任務或問題清單（個別或大量）
 * 建立或修改任務或問題時
-* 通過請求的路由規則（僅問題）
+* 透過請求的路由規則（僅限問題）
 
-如本節所述，您可以從團隊頁面手動指派請求給團隊。
+您可以從專案團隊頁面手動將請求指派給專案團隊，如本節所述。
 
-要從團隊頁手動將請求分配給團隊，請執行以下操作：
+若要從專案團隊頁面手動指派請求給專案團隊：
 
-1. 按一下 **[!UICONTROL 主菜單]** 圖示 ![](assets/main-menu-icon.png) 在 [!DNL Adobe Workfront]，然後按一下 **[!UICONTROL 團隊]**.
+1. 按一下[!DNL Adobe Workfront]右上角的&#x200B;**[!UICONTROL 主要功能表]**&#x200B;圖示![](assets/main-menu-icon.png)，然後按一下&#x200B;**[!UICONTROL 團隊]**。
 
-1. 按一下 **[!UICONTROL 交換組]** 圖示 ![切換團隊表徵圖](assets/switch-team-icon.png)，然後從下拉式選單中選取新團隊，或在搜尋列中搜尋團隊。
+1. 按一下&#x200B;**[!UICONTROL 切換群組]**&#x200B;圖示![切換群組圖示](assets/switch-team-icon.png)，然後從下拉式功能表中選取新群組或在搜尋列中搜尋群組。
 
-1. 按一下 **[!UICONTROL 更多]** 圖示 ![](assets/more-icon.png)，然後選取 **[!UICONTROL 發送工作請求]**.
+1. 按一下&#x200B;**[!UICONTROL 更多]**&#x200B;圖示![](assets/more-icon.png)，然後選取&#x200B;**[!UICONTROL 傳送工作要求]**。
 
    ![](assets/edit-team-settings-350x205.png)
 
 1. 在開啟的方塊中填入資訊。
-1. 按一下 **[!UICONTROL 傳送請求]**.\
-   現在會為團隊分配新任務，該任務將顯示在「團隊請求」(Team Requests)頁簽上。 此任務當前與項目無關，但可以移動，如 [移動任務](../../manage-work/tasks/manage-tasks/move-tasks.md).
+1. 按一下&#x200B;**[!UICONTROL 傳送要求]**。\
+   專案團隊現在會被指派新任務，該任務會顯示在「專案團隊請求」標籤上。 此任務目前未與專案關聯，但可以移動，如[移動任務](../../manage-work/tasks/manage-tasks/move-tasks.md)中所述。
 
-## 重新分配請求 {#reassign-requests}
+## 重新指派請求 {#reassign-requests}
 
-您可以重新指派已指派給您的團隊的請求：
+您可以重新指派已指派給團隊的要求：
 
-1. 按一下 **[!UICONTROL 主菜單]** 圖示 ![](assets/main-menu-icon.png) 在 [!DNL Adobe Workfront]，然後按一下 **[!UICONTROL 團隊]**.
-1. 按一下 **[!UICONTROL 交換組]** 圖示 ![切換團隊表徵圖](assets/switch-team-icon.png)，然後從下拉式選單中選取新團隊，或在搜尋列中搜尋團隊。
-1. 在左側導覽面板中，選取 **[!UICONTROL 團隊請求]**.
-1. 按一下 **[!UICONTROL 重新分配]** 表徵圖。
+1. 按一下[!DNL Adobe Workfront]右上角的&#x200B;**[!UICONTROL 主要功能表]**&#x200B;圖示![](assets/main-menu-icon.png)，然後按一下&#x200B;**[!UICONTROL 團隊]**。
+1. 按一下&#x200B;**[!UICONTROL 切換群組]**&#x200B;圖示![切換群組圖示](assets/switch-team-icon.png)，然後從下拉式功能表中選取新群組或在搜尋列中搜尋群組。
+1. 在左側導覽面板中，選取&#x200B;**[!UICONTROL 團隊要求]**。
+1. 按一下&#x200B;**[!UICONTROL 重新指派]**&#x200B;圖示。
 
-1. 開始鍵入要將請求重新分配給的用戶、組或團隊的名稱，然後按一下 **[!UICONTROL 指派]**.\
-   重新分配請求。
+1. 開始輸入您要重新指派請求的使用者、群組或團隊名稱，然後按一下[指派]。****\
+   請求已重新指派。

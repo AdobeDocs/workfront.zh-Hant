@@ -21,9 +21,9 @@ ht-degree: 0%
 
 本頁說明2021年2月1日當週在Adobe Workfront Fusion中所做的所有增強功能。
 
-如需所有最近變更的清單，請參閱 [Adobe Workfront Fusion發行活動](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
+如需所有最近變更的清單，請參閱[Adobe Workfront Fusion發行活動](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md)。
 
-如需Workfront Fusion中近期的錯誤修正清單，請參閱 [Workfront維護更新](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) 頁面，並檢查是否有任何標示為Workfront Fusion維護更新的更新。
+如需Workfront Fusion中最近的錯誤修正清單，請參閱[Workfront維護更新](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html)頁面，並檢查任何標示為Workfront Fusion維護更新的更新。
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -42,7 +42,7 @@ ht-degree: 0%
 * 執行查詢
 * 從表格中選取列
 
-如需詳細資訊，請參閱 [MariaDB模組](../../../workfront-fusion/apps-and-their-modules/mariadb-modules.md).
+如需詳細資訊，請參閱[MariaDB模組](../../../workfront-fusion/apps-and-their-modules/mariadb-modules.md)。
 
 ## Marketo聯結器和模組現已推出
 
@@ -56,7 +56,7 @@ ht-degree: 0%
 * 複製方案
 * 進行自訂API呼叫
 
-如需詳細資訊，請參閱 [Marketo模組](../../../workfront-fusion/apps-and-their-modules/marketo-modules.md).
+如需詳細資訊，請參閱[Marketo模組](../../../workfront-fusion/apps-and-their-modules/marketo-modules.md)。
 
 <!--
 

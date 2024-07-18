@@ -20,7 +20,7 @@ ht-degree: 4%
 本節包含下列文章：
 
 * [敏捷待執行工作圖表總覽](../../../agile/use-scrum-in-an-agile-team/burndown/burndown-chart-overview.md)
-* [反複專案完成狀態概觀](../../../agile/use-scrum-in-an-agile-team/burndown/iteration-completion-status-overview.md)
+* [反複專案完成狀態總覽](../../../agile/use-scrum-in-an-agile-team/burndown/iteration-completion-status-overview.md)
 * [調整待執行工作圖表的大小並收合](../../../agile/use-scrum-in-an-agile-team/burndown/resize-collapse-burndown-chart.md)
 * [同步化待執行工作圖表中的資料](../../../agile/use-scrum-in-an-agile-team/burndown/sync-the-burndown-chart.md)
 * [對待執行工作圖表使用替代的小組排程](../../../agile/use-scrum-in-an-agile-team/burndown/use-alt-team-schedule-burndown-charts.md)

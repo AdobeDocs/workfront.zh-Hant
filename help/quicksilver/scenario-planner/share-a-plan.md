@@ -1,26 +1,26 @@
 ---
 product-area: enterprise-scenario-planner-product-area
-keywords: 計畫，權限，共用，方案，方案，方案
+keywords: 計畫、許可權、共用、方案、案例、案例
 navigation-topic: enterprise-scenario-planner-navigation-topic
-title: 在方案計畫器中共用計畫
-description: 您可以與其他用戶共用在Adobe Workfront方案規劃器中建立的計畫。
+title: 在「情境規劃工具」中共用計畫
+description: 您可以將您在Adobe Workfront情境規劃工具中建立的計畫與其他使用者共用。
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: b8bbb533-4384-414c-8574-4e137962b8ca
 source-git-commit: 82a5102d28700368a094502dcd6026462c149eb1
 workflow-type: tm+mt
-source-wordcount: '916'
+source-wordcount: '927'
 ht-degree: 0%
 
 ---
 
-# 在 [!DNL Scenario Planner]
+# 在[!DNL Scenario Planner]中共用計畫
 
-您可以在 [!DNL Adobe Workfront Scenario Planner] 與其他使用者共同作業，讓他們能夠與您共同作業。
+您可以與其他使用者共用[!DNL Adobe Workfront Scenario Planner]中的計畫，讓他們可以在您執行的工作上共同作業。
 
 >[!TIP]
 >
->如果您將計畫連結傳送給其他人，您也必須與他們共用計畫，方便他們檢視。
+>如果您將計畫的連結傳送給其他人，您也必須與他們共用計畫，他們才能檢視它。
 
 ## 存取需求
 
@@ -31,113 +31,112 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td> <p>[!DNL Adobe Workfront]<b> 計劃*</b> </p> </td> 
-   <td>[!UICONTROL Business]或更高版本</td> 
+   <td> <p>[!DNL Adobe Workfront]<b>計畫*</b> </p> </td> 
+   <td>[！UICONTROL Business]或更高版本</td> 
   </tr> 
   <tr> 
-   <td> <p>[!DNL Adobe Workfront]<b> 授權*</b> </p> </td> 
-   <td> <p>[!UICONTROL Review]或更高版本</p> </td> 
+   <td> <p>[!DNL Adobe Workfront]<b>授權*</b> </p> </td> 
+   <td> <p>[！UICONTROL Review]或更高版本</p> </td> 
   </tr> 
   <tr> 
    <td><b>產品</b> </td> 
-   <td> <p>您必須為 [!DNL Adobe Workfront Scenario Planner] 存取本文所述功能。</p> <p>如需有關取得 [!DNL Workfront Scenario Planner]，請參閱 <a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">使用 [!DNL Scenario Planner]</a>. </p> </td> 
+   <td> <p>您必須為[!DNL Adobe Workfront Scenario Planner]購買額外的授權，才能存取本文所述的功能。</p> <p>如需有關取得[!DNL Workfront Scenario Planner]的資訊，請參閱<a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">使用[!DNL Scenario Planner]</a>所需的存取權。 </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td><strong>訪問級別配置*</strong> </td> 
-   <td> <p>[!UICONTROL編輯]對 [!DNL Scenario Planner]</p> <p>如果您仍無法存取，請詢問您的 [!DNL Workfront] 管理員。 若要了解 [!DNL Workfront] 管理員可以更改您的訪問級別，請參閱 <a href="../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>.</p> </td> 
+   <td><strong>存取層級設定*</strong> </td> 
+   <td> <p>[！UICONTROL Edit]對的存取權 [!DNL Scenario Planner]</p> <p>如果您仍然沒有存取權，請詢問您的[!DNL Workfront]管理員是否已在您的存取層級中設定其他限制。 如需[!DNL Workfront]管理員如何變更您的存取層級的詳細資訊，請參閱<a href="../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>。</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><strong>物件權限</strong> </p> </td> 
-   <td> <p> 計畫的[!UICONTROL管理]權限
-     <p>有關請求對計畫進行額外訪問的資訊，請參閱 <a href="../scenario-planner/request-access-to-plan.md" class="MCXref xref">[!UICONTROL要求]存取 [!DNL Scenario Planner]</a>.</p> </td> 
+   <td> <p><strong>物件許可權</strong> </p> </td> 
+   <td> <p> [！UICONTROL Manage]計畫的許可權
+     <p>如需有關請求對計畫的額外存取權的資訊，請參閱[!DNL Scenario Planner]</a>中計畫的<a href="../scenario-planner/request-access-to-plan.md" class="MCXref xref">[！UICONTROL要求]存取權。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*若要了解您擁有的計畫、授權類型或存取權，請聯絡您的Workfront管理員。
+*若要瞭解您擁有的計畫、授權型別或存取權，請聯絡您的Workfront管理員。
 
-## 必要條件
+## 先決條件
 
-* 授予計畫權限的使用者必須具有 [!DNL Scenario Planner] 區域，如 [!DNL Workfront] 管理員，以便接收計畫的權限。
+* 授予計畫許可權的使用者必須擁有存取層級（由您的[!DNL Workfront]管理員授予）中[!DNL Scenario Planner]區域的存取權，才能獲得計畫的許可權。
 
-   例如， [!UICONTROL 請求者] 無法查看、建立或編輯計畫。 與擁有申請者授權的使用者共用計畫時，請謹記這一點。
+  例如，[!UICONTROL 要求者]無法檢視、建立或編輯計畫。 您與擁有請求者授權的使用者共用計畫時，請記住這一點。
 
 <!--
   NOTE: ensure this stays this way and they don't restrict Workers from SP as well?? OR ensure you can even SEE Requestors as an option or they are not grayed out??)
   -->
 
-如需存取 [!DNL Scenario Planner] 有關各種許可證類型，請參見 [授予的存取權 [!DNL Scenario Planner]](../administration-and-setup/add-users/configure-and-grant-access/grant-access-sp.md).
+如需有關各種授權型別對[!DNL Scenario Planner]的存取權的詳細資訊，請參閱[授與 [!DNL Scenario Planner]](../administration-and-setup/add-users/configure-and-grant-access/grant-access-sp.md)的存取權。
 
-## 計畫共用的考量事項
+## 關於計畫共用的考量事項
 
-* 您可以共用單一計畫，也可以大量共用多個計畫。
-* 您無法查看未建立或未與您共用的計畫。
+* 您可以大量共用單一計畫或共用多個計畫。
+* 您無法檢視未建立或未與您共用的計畫。
 * 您只能與其他使用者共用計畫。 您無法與群組、團隊或公司共用計畫。
-* 您必須先儲存計畫，才能共用它。
-* 您可以與其他使用者共用計畫的URL。 如果使用者沒有至少可檢視計畫的權限，則在收到URL時，他們可向其他使用者要求存取計畫。 有關請求訪問計畫的資訊，請參閱 [在 [!DNL Scenario Planner]](../scenario-planner/request-access-to-plan.md).
-* 共用已與他人共用的多個計畫時，您共用的使用者不會取代，而是會新增至您所選每個計畫的現有使用者。
+* 您必須先儲存計畫，然後才能進行共用。
+* 您可以與其他使用者共用計畫的URL。 如果使用者沒有許可權至少檢視計畫，當他們收到URL時，可以向另一個使用者請求計畫的存取權。 如需有關請求計畫存取權的資訊，請參閱[在 [!DNL Scenario Planner]](../scenario-planner/request-access-to-plan.md)中請求計畫存取權。
+* 共用已與其他人共用的多個計畫時，您共用的使用者不會取代，但會新增至您選取之每個計畫的現有使用者。
 
 ## 共用計畫
 
-1. 按一下 **[!UICONTROL 主菜單]** 圖示 ![](assets/main-menu-icon.png) 在Workfront的右上角，然後按一下 **[!UICONTROL 藍本]**.
-1. 按一下計畫的名稱以開啟它
+1. 按一下Workfront右上角的&#x200B;**[!UICONTROL 主要功能表]**&#x200B;圖示![](assets/main-menu-icon.png)，然後按一下&#x200B;**[!UICONTROL 案例]**。
+1. 按一下計畫名稱以開啟
 
    或
 
-   選取數個要大量共用的計畫。
+   選取數個計畫以大量共用它們。
 
    >[!TIP]
    >
-   >您可以按一下與其共用計畫的用戶的變數，在計畫題頭的右上角共用計畫。
+   >您可以按一下計畫標題右上角與計畫共用的使用者頭像，以共用計畫。
 
-1. （條件性）如果您開啟計畫，請按一下 **[!UICONTROL 更多]** 圖示 ![](assets/more-icon.png) 至 [!UICONTROL 計畫] 名稱，然後按一下 **[!UICONTROL 共用]**
+1. （視條件而定）如果您開啟計畫，請按一下[!UICONTROL 計畫]名稱右側的&#x200B;**[!UICONTROL 更多]**&#x200B;圖示![](assets/more-icon.png)，然後按一下&#x200B;**[!UICONTROL 共用]**
 
    或
 
-   如果您選取了數個要大量共用的計畫，請按一下 **[!UICONTROL 共用]** 圖示 ![](assets/share-icon-26x26.png) 開啟 [!UICONTROL 計畫] 存取方塊。
+   如果您選取多個計畫來大量共用它們，請按一下計劃清單頂端的&#x200B;**[!UICONTROL 共用]**&#x200B;圖示![](assets/share-icon-26x26.png)以開啟[!UICONTROL 計畫]存取方塊。
 
    >[!TIP]
    >
-   >* 對您選取的所有計畫擁有權限的使用者會顯示在 [!UICONTROL 計畫] 存取方塊。
-   >* 任何其他用戶都將添加到，並且不會替換所有選定計畫上的現有用戶。
+   >* 擁有您選取之所有計畫許可權的使用者會顯示在[!UICONTROL 計畫]存取方塊中。
+   >* 任何其他使用者都會新增至，不會取代所有所選計畫上的現有使用者。
 
-
-1. 在 **[!UICONTROL 授予計畫存取權]** 欄位中，開始鍵入要與共用計畫的用戶的名稱，然後在清單中顯示時選擇這些用戶。
-1. 從用戶名右側的權限下拉菜單中，選擇要授予計畫的權限級別。
-1. 從以下項目中選取：
+1. 在&#x200B;**[!UICONTROL 將計畫存取權授予]**&#x200B;欄位中，開始輸入您要共用計畫的使用者名稱，然後在他們出現在清單中時選取他們。
+1. 從使用者名稱右側的許可權下拉式功能表中，選取您要授予計畫計畫的許可權層級。
+1. 從下列選項中選取：
 
    <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">[!UICONTROL視圖]</td> 
-      <td>您與共用計畫的使用者將擁有檢視計畫的權限。 他們無法編輯計畫、添加方案、方案或發佈方案的資訊。 </td> 
+      <td role="rowheader">[！UICONTROL檢視]</td> 
+      <td>您共用計畫的使用者將擁有檢視計畫的許可權。 他們無法編輯計畫、新增方案、案例或發佈案例的相關資訊。 </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL管理]</td> 
-      <td> <p>您共用計畫的用戶具有管理計畫的權限，包括編輯資訊、添加方案、方案和發佈計畫。 </p> </td> 
+      <td role="rowheader">[！UICONTROL管理]</td> 
+      <td> <p>您共用計畫的使用者具有管理計畫的許可權，包括編輯資訊、新增方案、情境和發佈計畫。 </p> </td> 
      </tr> 
     </tbody> 
    </table>
 
    >[!TIP]
    >
-   >只有在建立計畫時，才可以刪除計畫。 您無法刪除與您共用的計畫。
+   >您只能在建立計畫時刪除計畫。 您無法刪除與您共用的計畫。
 
-1. 按一下&#x200B;**[!UICONTROL 儲存]**。
+1. 按一下「**[!UICONTROL 儲存]**」。
 
-   此計畫現在已與您指定的用戶共用。
+   計畫現在會與您指定的使用者共用。
 
-   您可以在計劃清單或計畫標題右上角的「與我共用」列中查看具有計畫權限的用戶。
+   您可以在計劃清單的「與我共用」欄中或計畫標題右上角，檢視擁有計畫許可權的使用者。
 
    >[!TIP]
    >
-   >您可以透過套用 [!UICONTROL 與我共用] 篩選計劃清單。
+   >您可以在計劃清單中套用[!UICONTROL 與我共用]篩選器，以檢視與您共用的計畫。
 
-## 計畫權限選項
+## 計畫許可權選項
 
-下表列出了共用計畫時可授予的權限。 如需使用者根據其授權所取得存取權限的詳細資訊，請參閱 [授予的存取權 [!DNL Scenario Planner]](../administration-and-setup/add-users/configure-and-grant-access/grant-access-sp.md).
+下表列出您在共用計畫時可授與的許可權。 如需使用者根據其授權所取得存取權的詳細資訊，請參閱[授與 [!DNL Scenario Planner]](../administration-and-setup/add-users/configure-and-grant-access/grant-access-sp.md)的存取權。
 
 <table border="1" cellspacing="15" cellpadding="1"> 
  <col> 
@@ -146,73 +145,73 @@ ht-degree: 0%
  <thead> 
   <tr> 
    <th> <p><strong>動作</strong> </p> </th> 
-   <th> <p><strong>[!UICONTROL管理]</strong> </p> </th> 
-   <th> <p><strong>[!UICONTROL視圖]</strong> </p> </th> 
+   <th> <p><strong>[！UICONTROL管理]</strong> </p> </th> 
+   <th> <p><strong>[！UICONTROL檢視]</strong> </p> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>查看計畫 </p> </td> 
-   <td> <p>✓</p> </td> 
-   <td> <p>✓</p> </td> 
+   <td> <p>檢視計畫 </p> </td> 
+   <td> <p>✓ (A)</p> </td> 
+   <td> <p>✓ (A)</p> </td> 
   </tr> 
   <tr> 
-   <td> <p>查看方案 </p> </td> 
-   <td> <p>✓</p> </td> 
-   <td> <p>✓</p> </td> 
+   <td> <p>檢視方案 </p> </td> 
+   <td> <p>✓ (A)</p> </td> 
+   <td> <p>✓ (A)</p> </td> 
   </tr> 
   <tr> 
-   <td>查看方案</td> 
-   <td>✓</td> 
-   <td><span style="font-weight: normal;">✓</span> </td> 
+   <td>檢視案例</td> 
+   <td>✓ (A)</td> 
+   <td>✓ <span style="font-weight: normal;"></span> </td> 
   </tr> 
   <tr> 
-   <td>查看作業角色</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>檢視職位角色</td> 
+   <td>✓ (A)</td> 
+   <td>✓ (A)</td> 
   </tr> 
   <tr> 
-   <td>查看成本和預算資訊*</td> 
-   <td>✓</td> 
-   <td>✓ </td> 
+   <td>檢視成本和預算資訊*</td> 
+   <td>✓ (A)</td> 
+   <td>✓ (A) </td> 
   </tr> 
   <tr> 
-   <td>管理成本和預算資訊*</td> 
-   <td>✓</td> 
+   <td>管理成本與預算資訊*</td> 
+   <td>✓ (A)</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td> <p>建立方案</p> </td> 
-   <td> <p>✓</p> </td> 
+   <td> <p>✓ (A)</p> </td> 
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
-   <td> <p>建立藍本</p> </td> 
-   <td> <p>✓</p> </td> 
+   <td> <p>建立案例</p> </td> 
+   <td> <p>✓ (A)</p> </td> 
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
-   <td> <p>刪除方案或方案</p> </td> 
-   <td> <p>✓</p> </td> 
+   <td> <p>刪除行動方案或情境</p> </td> 
+   <td> <p>✓ (A)</p> </td> 
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
-   <td>複製方案</td> 
-   <td>✓ </td> 
+   <td>複製案例</td> 
+   <td>✓ (A) </td> 
    <td> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td>發佈案例**</td> 
-   <td>✓</td> 
+   <td>Publish案例**</td> 
+   <td>✓ (A)</td> 
    <td> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*您必須擁有財務資料的訪問權限，才能查看或管理計畫的財務資訊，即使您擁有計畫的管理權限。 如需存取金融資料的相關資訊，請參閱 [授予金融資料的存取權](../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).
+*您必須擁有財務資料的存取權，才能檢視或管理計畫的財務資訊，即使您擁有計畫的管理許可權。 如需有關存取財務資料的資訊，請參閱[授予財務資料的存取權](../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md)。
 
-**您必須有建立的存取權和管理專案的權限，才能發佈案例。
+**您必須擁有建立和管理專案的許可權，才能發佈情境。
 
-如需專案存取層級的相關資訊，請參閱 [授予專案的存取權](../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md).
+如需有關專案存取層級的資訊，請參閱[授與專案的存取權](../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md)。
 
-如需專案權限的相關資訊，請參閱 [在中共用專案 [!DNL Adobe Workfront]](../workfront-basics/grant-and-request-access-to-objects/share-a-project.md).
+如需有關專案許可權的資訊，請參閱[在 [!DNL Adobe Workfront]](../workfront-basics/grant-and-request-access-to-objects/share-a-project.md)中共用專案。

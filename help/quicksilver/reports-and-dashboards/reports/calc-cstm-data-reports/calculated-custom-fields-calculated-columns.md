@@ -19,12 +19,12 @@ ht-degree: 0%
 若要在Adobe Workfront中彙總數個欄位，並在新欄位中顯示該彙總值，您可以建立下列專案：
 
 * 自訂表單中的計算自訂欄位\
-  如需將計算自訂欄位新增至自訂表單的詳細資訊，請參閱區段 [新增計算欄位至自訂表單](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md#add-a-calculated-field-to-a-custom-form) 在文章中 [新增計算資料至自訂表單](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
+  如需將計算自訂欄位新增至自訂表單的詳細資訊，請參閱文章[將計算資料新增至自訂表單](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md)中的[將計算欄位新增至自訂表單](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md#add-a-calculated-field-to-a-custom-form)小節。
 
 * 檢視中的計算欄\
-  如需在檢視中使用計算的詳細資訊，請參閱區段 [在檢視中使用文字模式](../../../reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md#use-text-mode-in-views) 在文章中 [文字模式的常見用途概觀](../../../reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md).
+  如需有關在檢視中使用計算的詳細資訊，請參閱文章[文字模式常見用途概觀](../../../reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md)中的[在檢視中使用文字模式](../../../reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md#use-text-mode-in-views)一節。
 
-雖然您使用文字模式來建立計算欄位和計算欄，但建立它們的語法不同。 請參閱上方列出的文章，以瞭解如何建立計算欄位和計算欄。 如需有關計算資料運算式（例如計算自訂欄位和欄）中所使用不同語法的資訊，請參閱區段 [計算自訂欄位與計算自訂欄的語法](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-custom-fields-calculated-columns.md#syntax-of-calculated-custom-fields-vs-calculated-custom-columns) 本文章內容。
+雖然您使用文字模式來建立計算欄位和計算欄，但建立它們的語法不同。 請參閱上方列出的文章，以瞭解如何建立計算欄位和計算欄。 如需有關計算資料運算式（例如計算自訂欄位和欄）中所使用的不同語法的資訊，請參閱本文中的[計算自訂欄位與計算自訂欄位的語法](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-custom-fields-calculated-columns.md#syntax-of-calculated-custom-fields-vs-calculated-custom-columns)小節。
 
 您可以在計算欄位和計算欄中使用相同的計算。 不過，視您用於這些計算的目的而定，您可能會想要考慮建立其中一個。
 
@@ -61,21 +61,21 @@ ht-degree: 0%
    <td><strong>已計算的自訂報表元素</strong></td> 
   </tr> 
   <tr> 
-   <td> <p>使用在Workfront介面中顯示的欄位名稱。</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>範例： </b></span></span>計算自訂欄位中使用的欄位名稱範例： <code>Planned Completion Date</code>.</p> </td> 
-   <td> <p>使用物件或欄位出現在Workfront資料庫中的名稱。 如果物件和欄位是複合名稱，則以小寫或駝峰式大小寫拼寫。 </p> <p>如需所有Workfront物件和欄位在資料庫中顯示的詳細目錄，請參閱 <a href="../../../wf-api/general/api-explorer.md" class="MCXref xref">API總管</a>. </p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>範例： </b></span></span>用於計算自訂報表元素中的欄位名稱範例： <code>plannedCompletionDate</code>.</p> </td> 
+   <td> <p>使用在Workfront介面中顯示的欄位名稱。</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>範例： </b></span></span>計算自訂欄位中使用的欄位名稱範例： <code>Planned Completion Date</code>。</p> </td> 
+   <td> <p>使用物件或欄位出現在Workfront資料庫中的名稱。 如果物件和欄位是複合名稱，則以小寫或駝峰式大小寫拼寫。 </p> <p>如需所有Workfront物件和欄位在資料庫中顯示的詳細目錄，請參閱<a href="../../../wf-api/general/api-explorer.md" class="MCXref xref">API總管</a>。 </p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>範例： </b></span></span>計算自訂報表元素中使用的欄位名稱範例： <code>plannedCompletionDate</code>。</p> </td> 
   </tr> 
   <tr> 
    <td>以括弧或大括弧括住欄位名稱</td> 
-   <td> <p>在中使用欄位名稱時，請勿以方括弧或括弧括住欄位名稱 <code>valuefield </code>行。</p> <p>在欄位中使用欄位名稱時，請以大括弧括住欄位名稱 <code>valueexpression</code> 行。</p> </td> 
+   <td> <p>在<code>valuefield </code>行中使用欄位名稱時，請勿將其括在方括弧或括弧中。</p> <p>在<code>valueexpression</code>行中使用欄位名稱時，請將欄位名稱括在大括弧中。</p> </td> 
   </tr> 
   <tr> 
    <td>依句點分隔欄位</td> 
-   <td> <p>在中使用欄位時，請以冒號分隔欄位 <code>valuefield</code>行。</p> <p>在中使用欄位時，請依句號區隔欄位 <code>valueexpression</code>行。</p> </td> 
+   <td> <p>在<code>valuefield</code>行中使用欄位時，請以冒號分隔欄位。</p> <p>在<code>valueexpression</code>行中使用欄位時，請依句號分隔欄位。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-如需有關計算自訂欄中必須使用的語法的詳細資訊，請參閱 [文字模式概觀](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).
+如需有關計算自訂欄中必須使用的語法的詳細資訊，請參閱[文字模式概觀](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md)。
 
 ## 計算自訂欄位的使用時機
 
@@ -85,10 +85,10 @@ ht-degree: 0%
 
 ## 觸發計算自訂欄位更新的動作
 
-* 在物件的首頁面上，按一下「更多」圖示 ![](assets/more-icon.png)，然後按一下 **重新計算運算式**
+* 在物件的首頁面上按一下「更多」圖示![](assets/more-icon.png)，然後按一下&#x200B;**重新計算運算式**
 
-* 大量編輯多個物件，當 **重新計算自訂運算式** 已啟用
-* 編輯自訂表單時機 **更新先前的計算** 已針對計算自訂欄位啟用
+* 啟用&#x200B;**重新計算自訂運算式**&#x200B;時大量編輯多個物件
+* 為已計算的自訂欄位啟用&#x200B;**更新先前的計算**&#x200B;時編輯自訂表單
 
 ## 何時在檢視中使用計算欄
 
@@ -106,9 +106,9 @@ ht-degree: 0%
 
 ## 計算自訂欄位和欄的範例
 
-如需計算自訂欄位的範例，請參閱 [報表中計算的自訂資料](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-custom-data-reports.md).
+如需計算自訂欄位的範例，請參閱[報表中的計算自訂資料](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-custom-data-reports.md)。
 
 如需檢視中計算的自訂欄的範例，請參閱下列文章：
 
-* [文字模式的常見用途概觀](../../../reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md)
+* [文字模式的常見使用概述](../../../reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md)
 * [自訂檢視、篩選和分組範例：文章索引](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md)

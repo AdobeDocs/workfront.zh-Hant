@@ -17,7 +17,7 @@ ht-degree: 0%
 
 本頁說明23.2版對預覽環境所做的所有專案增強功能。 這些增強功能將在23.2版本的生產環境中提供。
 
-如需23.2版本週期目前可用的所有變更清單，請參閱 [23.2版本總覽](/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-release-overview.md).
+如需23.2發行週期中目前所有可用變更的清單，請參閱[23.2發行概觀](/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-release-overview.md)。
 
 ## 大量編輯專案時的新體驗
 
@@ -39,19 +39,19 @@ ht-degree: 0%
 
 * 我們已在大量編輯專案時取消重新計算計分卡選項。
 
-如需詳細資訊，請參閱 [編輯專案](/help/quicksilver/manage-work/projects/manage-projects/edit-projects.md).
+如需詳細資訊，請參閱[編輯專案](/help/quicksilver/manage-work/projects/manage-projects/edit-projects.md)。
 
 [觀看此功能的影片示範](https://video.tv.adobe.com/v/3416587/){target=_blank}
 
 ## Adobe Workfront一般會提供增強的篩選器體驗
 
-2022年8月，篩選器體驗的升級已發佈到專案、任務和問題清單的公開測試版。 大部分清單現在都提供增強型篩選器。 (若要檢閱所有這些清單，請參閱 [23.1外觀更新發行說明](/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-look-and-feel-updates.md).) 增強型篩選器體驗將正式推出，並於2023年3月2日成為預覽中的標準篩選器產生器。 「生產」中的分階段推出也將於3月2日開始，23.2版本將提供給所有客戶。
+2022年8月，篩選器體驗的升級已發佈到專案、任務和問題清單的公開測試版。 大部分清單現在都提供增強型篩選器。 （若要檢閱所有這些清單，請參閱[23.1外觀更新發行說明](/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-look-and-feel-updates.md)。） 增強型篩選器體驗將正式推出，並於2023年3月2日成為預覽中的標準篩選器產生器。 「生產」中的分階段推出也將於3月2日開始，23.2版本將提供給所有客戶。
 
 您仍然可以透過在篩選器面板中啟用清單中的舊版篩選器來存取這些篩選器。 舊版篩選器在未來將從清單中淘汰，但在報表中仍將可用，因為標準篩選器產生器無法在報表中使用。
 
-如需有關增強型篩選器和影片示範的詳細資訊，請參閱 [篩選公開測試版發行說明](/help/quicksilver/product-announcements/product-releases/22.4-release-activity/22-4-project-enhancements.md).
+如需有關增強型篩選器和影片示範的詳細資訊，請參閱[篩選器的公開測試版發行說明](/help/quicksilver/product-announcements/product-releases/22.4-release-activity/22-4-project-enhancements.md)。
 
-如需詳細資訊，請參閱 [在Adobe Workfront中建立或編輯篩選器](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-filters.md).
+如需詳細資訊，請參閱[在Adobe Workfront中建立或編輯篩選器](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-filters.md)。
 
 ## 複製專案時複製預算時數
 
@@ -61,6 +61,6 @@ ht-degree: 0%
 
 現在，您可以選擇在複製專案時複製業務案例或資源規劃工具資源預算區域中的預算時數。 在此增強功能之前，為專案編列的時數未傳輸到複製的專案。
 
-如需詳細資訊，請參閱 [複製專案](/help/quicksilver/manage-work/projects/manage-projects/copy-project.md).
+如需詳細資訊，請參閱[複製專案](/help/quicksilver/manage-work/projects/manage-projects/copy-project.md)。
 
 [觀看此功能的影片示範](https://video.tv.adobe.com/v/3415713/){target=_blank}

@@ -17,7 +17,7 @@ ht-degree: 0%
 
 此頁面說明20.4版對「預覽」環境所做的所有資源管理增強功能。 這些增強功能將在2020年11月9日當週的生產環境中提供。
 
-如需20.4版所有可用變更的清單，請參閱 [20.4版本總覽](../../../product-announcements/product-releases/20.4-release-activity/20-4-release-overview.md).
+如需20.4版本可用的所有變更清單，請參閱[20.4版本總覽](../../../product-announcements/product-releases/20.4-release-activity/20-4-release-overview.md)。
 
 ## 使用工作量而不是計畫時數計畫工作
 
@@ -30,21 +30,21 @@ ht-degree: 0%
 * 對於想要繼續使用計畫時數的使用者，請使用版面配置範本停用此設定。
 * 在任務清單或報告中顯示此新欄位的值。
 
-如需有關工作投入的資訊，請參閱 [工作投入概觀](../../../manage-work/tasks/task-information/work-effort.md).
+如需工作投入的相關資訊，請參閱[工作投入概觀](../../../manage-work/tasks/task-information/work-effort.md)。
 
-此功能現已包含在 [規劃基礎課程，第2部分學習路徑](https://one.workfront.com/s/learningpath3/planner-fundamentals-for-the-new-workfront-experience-part-2-plan-a-project-20Y0z000000bm79EAA) 在Workfront One上。
+此功能現已包含在Workfront One上的[規劃基礎課程第2部分學習路徑](https://one.workfront.com/s/learningpath3/planner-fundamentals-for-the-new-workfront-experience-part-2-plan-a-project-20Y0z000000bm79EAA)中。
 
 ## 工作負載平衡器中工作項的專案狀態型顏色
 
 為了更好地顯示和增加您在工作負載平衡器中的體驗的自訂，您現在可以變更專案及其工作項的顏色，以符合專案狀態的狀態。 顏色對應到群組層級或系統層級的專案狀態。 顯示的顏色可對應至系統和自訂專案狀態。
 
-如需有關在工作負載平衡器自訂檢視的資訊，請參閱 [瀏覽工作負載平衡器](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
+如需有關在工作負載平衡器中自訂檢視的資訊，請參閱[瀏覽工作負載平衡器](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md)。
 
 ## 使用工作負載平衡器中的百分比值調整使用者分配
 
 您現在可以在工作負載平衡器中使用百分比而不是小時管理使用者的配置。
 
-如需有關在工作負載平衡器管理配置方面的資訊，請參閱 [在工作負載平衡器中管理使用者配置](../../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md).
+如需有關在工作負載平衡器中管理配置的資訊，請參閱在工作負載平衡器中管理[使用者配置](../../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md)。
 
 ## 在工作負載平衡器中顯示或隱藏已完成的工作
 
@@ -52,7 +52,7 @@ ht-degree: 0%
 
 在此增強功能之前，已完成的工作項一律顯示在工作負載平衡器中。
 
-如需有關調整工作負載平衡器設定的詳細資訊，請參閱 [瀏覽工作負載平衡器](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
+如需有關在工作負載平衡器中調整設定的詳細資訊，請參閱[瀏覽工作負載平衡器](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md)。
 
 ## 工作負載平衡器中的可用性改善
 
@@ -68,19 +68,19 @@ ht-degree: 0%
 * 您可以使用鍵盤快速鍵來存取指派功能。 以前，您只能從「更多」選單中使用此功能。
 * 您可以按一下「載入更多」，以使用者名稱載入其餘的所有專案，而非僅載入下列20個專案。
 
-如需有關導覽工作負載平衡器的詳細資訊，請參閱 [瀏覽工作負載平衡器](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
+如需有關瀏覽工作負載平衡器的詳細資訊，請參閱[瀏覽工作負載平衡器](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md)。
 
 ## 工作負載平衡器中的使用者配置圖表
 
 為了讓您在指定的時間範圍內有使用者配置的高階視覺化表示，現在新的設定啟用圖表檢視，以瞭解配置在工作負載平衡器中如何顯示。 啟用此設定會在折線圖中顯示使用者的配置，以紅色區塊表示過度配置，並以藍色表示過度配置。
 
-如需有關在工作負載平衡器中配置設定的詳細資訊，請參閱 [瀏覽工作負載平衡器](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
+如需有關在工作負載平衡器中配置設定的詳細資訊，請參閱[瀏覽工作負載平衡器](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md)。
 
 ## 在工作負載平衡器中視覺化已完成的工作
 
 為了讓您輕鬆識別已完成的工作，以便您可以正確管理使用者指派，我們在工作負載平衡器中啟用視覺指示器，顯示所選時間範圍的專案已完成的時間。 您現在可以看到任務的綠色核取記號，即任務完成時所發生的問題。 當有工作專案在畫面上顯示的時間範圍內完成時，專案也會顯示綠色核取記號。
 
-如需有關在工作負載平衡器中檢視資訊的資訊，請參閱 [瀏覽工作負載平衡器](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
+如需有關在工作負載平衡器中檢視資訊的資訊，請參閱[瀏覽工作負載平衡器](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md)。
 
 ## 工作負載平衡器中已指派工作區域的新預設篩選器
 
@@ -88,7 +88,7 @@ ht-degree: 0%
 
 在此增強功能之前，您有權檢視的所有使用者都會顯示在此區域中。
 
-如需有關在工作負載平衡器中使用篩選器的資訊，請參閱 [管理工作負載平衡器中的篩選器](../../../resource-mgmt/workload-balancer/filter-information-workload-balancer.md).
+如需在工作負載平衡器中使用篩選器的相關資訊，請參閱在工作負載平衡器](../../../resource-mgmt/workload-balancer/filter-information-workload-balancer.md)中管理篩選器。[
 
 ## 新圖示可在時數和百分比值之間切換，或在工作負載平衡器中的已分配時間和剩餘時間
 
@@ -96,11 +96,11 @@ ht-degree: 0%
 
 這項改善可消除點按，並讓工作負載平衡器導覽更容易、更有效率。
 
-有關管理工作負載平衡器設定的資訊，請參閱 [瀏覽工作負載平衡器](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
+如需有關管理工作負載平衡器設定的資訊，請參閱[瀏覽工作負載平衡器](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md)。
 
 ## 工作負載平衡器的全新內建篩選器：專案上的使用者
 
 為了使您在工作負載平衡器中的篩選體驗更有效率，我們在已指派的工作區域中新增一個新的內建篩選器。 您現在可以套用專案上的使用者篩選器，該篩選器顯示指派給您指定專案中的任務和問題的使用者。
 
-如需有關在工作負載平衡器中使用篩選器的資訊，請參閱 [在工作負載平衡器中篩選資訊](../../../resource-mgmt/workload-balancer/filter-information-workload-balancer.md).
+如需有關在工作負載平衡器中使用篩選器的資訊，請參閱工作負載平衡器](../../../resource-mgmt/workload-balancer/filter-information-workload-balancer.md)中的[篩選資訊。
 

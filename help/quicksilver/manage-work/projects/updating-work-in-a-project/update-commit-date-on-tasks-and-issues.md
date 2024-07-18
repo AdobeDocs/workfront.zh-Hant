@@ -16,13 +16,13 @@ ht-degree: 0%
 
 # 更新任務和問題的認可日期
 
-<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它僅適用於所有客戶的預覽環境，或適用於啟用快速發行的客戶的生產環境。</span>
+<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它只能在「預覽」環境中供所有客戶使用，或在「生產」環境中供啟用快速發行的客戶使用。</span>
 
-<span class="preview">如需快速發行版本的相關資訊，請參閱 [啟用或停用組織的快速發行](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
+<span class="preview">如需快速發行資訊，請參閱[為您的組織啟用或停用快速發行](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
 
-<span class="preview">如需目前版本的相關資訊，請參閱 [2024年第三季度版本總覽](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).</span>
+<span class="preview">如需目前版本的相關資訊，請參閱[2024年第三季版本總覽](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md)。</span>
 
-您可以手動更新指派給您的任務或問題的認可日期。 如需Adobe Workfront中認可日期的詳細資訊，請參閱 [認可日期總覽](../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md).
+您可以手動更新指派給您的任務或問題的認可日期。 如需Adobe Workfront中認可日期的詳細資訊，請參閱[認可日期總覽](../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md)。
 
 ## 存取需求
 
@@ -65,7 +65,7 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-*若要瞭解您擁有的計畫、授權型別或存取權，請聯絡您的Workfront管理員。 如需詳細資訊，請參閱 [Workfront檔案中的存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*若要瞭解您擁有的計畫、授權型別或存取權，請聯絡您的Workfront管理員。 如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 ## 先決條件
 
@@ -79,8 +79,8 @@ ht-degree: 0%
 * 任務或問題的詳細資訊區段
 * <span class="preview">任務或問題標題</span>
 
-  <span class="preview">您的Workfront或群組管理員必須將認可日期新增到版面配置範本的任務或問題標題，以從任務或問題頁面檢視它。
-如需詳細資訊，請參閱 [使用版面配置範本自訂物件標頭](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md).</span>
+  <span class="preview">您的Workfront或群組管理員必須將認可日期新增至版面配置範本的任務或問題標題，才能從任務或問題頁面檢視該日期。
+如需詳細資訊，請參閱[使用配置範本自訂物件標頭](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md)。</span>
 
 更新認可日期對於任務和問題而言是相同的。
 
@@ -90,21 +90,21 @@ ht-degree: 0%
 >
 >如需詳細資訊，請參閱下列文章：
 >
->* [摘要概觀](/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md)
->* [使用版面配置範本自訂首頁和摘要](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md).
+>* [摘要概述](/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md)
+>* [使用配置範本自訂首頁和摘要](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md)。
 
 
-1. 前往指派給您的任務或問題 **所有者**.
+1. 前往指派您為&#x200B;**所有者**&#x200B;的任務或問題。
 
-   如需尋找問題或任務之任務負責人的詳細資訊，請參閱區段 [編輯任務](../../../manage-work/tasks/manage-tasks/edit-tasks.md#assignments) 在文章中 [編輯任務](../../../manage-work/tasks/manage-tasks/edit-tasks.md).
+   如需尋找問題或任務的任務擁有者的詳細資訊，請參閱文章[編輯任務](../../../manage-work/tasks/manage-tasks/edit-tasks.md)中的[編輯任務](../../../manage-work/tasks/manage-tasks/edit-tasks.md#assignments)小節。
 
-1. <span class="preview">（有條件且選用）如果您的Workfront或群組管理員將認可日期新增到您的任務或問題標題，請按一下 **認可日期** 欄位，然後從日曆中選取日期。 如果「認可日期」不在標題中，請繼續下列步驟。 </span>
+1. <span class="preview"> （條件式與選擇性）如果您的Workfront或群組管理員將認可日期新增到您的任務或問題標題，請按一下標題中的&#x200B;**認可日期**&#x200B;欄位，然後從日曆中選取日期。 如果「認可日期」不在標題中，請繼續下列步驟。</span>
 
    <span class="preview">![](assets/commit-date-task-header.png)</span>
 
-1. 按一下 **任務詳細資訊** 或 **問題詳細資訊** 在左側面板中。
-1. 按一下 **概觀** 以展開它。
-1. 更新 **認可日期** 欄位。
+1. 按一下左側面板中的&#x200B;**任務詳細資料**&#x200B;或&#x200B;**問題詳細資料**。
+1. 按一下「**概觀**」以展開它。
+1. 更新&#x200B;**認可日期**&#x200B;欄位。
 
    ![](assets/task-commit-date-edit-highlighted-details-page.png)
 
@@ -126,6 +126,6 @@ ht-degree: 0%
 
      <!--![](assets/project-owner-notification-update-stream-that-commit-date-affects-project-timeline-highlighted-nwe-350x139.png)-->
 
-     如需關於此變更所觸發的通知和更新的資訊，請參閱文章中的「變更認可日期所觸發的通知和更新」一節 [認可日期總覽](/help/quicksilver/manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md).
+     如需有關此變更所觸發的通知和更新的資訊，請參閱文章[認可日期概觀](/help/quicksilver/manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md)中的「變更認可日期所觸發的通知和更新」一節。
 
 <!--at the Production update stream when removing legacy - replace the last bullet with: The Project Owner is notified in the Systems Activity and the All tabs of the Updates section that you have suggested a new Commit Date. They can then update the Planned Completion Date accordingly by editing the task or the issue.-->

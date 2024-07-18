@@ -47,8 +47,8 @@ Adobe Workfront提供9個專案狀態、3個任務狀態和10個問題狀態。 
 
 ## 自訂狀態
 
-除了Workfront隨附的預設狀態之外，Workfront管理員還可以新增自訂專案、任務和問題狀態以符合您組織中的需求。 您可以建立Workfront例項中每個人都使用的系統層級狀態，或僅供特定群組使用的群組層級狀態。 如需詳細資訊，請參閱 [建立或編輯狀態](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md).
+除了Workfront隨附的預設狀態之外，Workfront管理員還可以新增自訂專案、任務和問題狀態以符合您組織中的需求。 您可以建立Workfront例項中每個人都使用的系統層級狀態，或僅供特定群組使用的群組層級狀態。 如需詳細資訊，請參閱[建立或編輯狀態](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md)。
 
 ## 群組狀態
 
-群組管理員可建立群組層級的自訂狀態，以符合其群組的需求。 如需詳細資訊，請參閱 [管理群組狀態](../../../administration-and-setup/manage-groups/manage-group-statuses/manage-group-statuses.md).
+群組管理員可建立群組層級的自訂狀態，以符合其群組的需求。 如需詳細資訊，請參閱[管理群組狀態](../../../administration-and-setup/manage-groups/manage-group-statuses/manage-group-statuses.md)。

@@ -49,7 +49,7 @@ ht-degree: 2%
  </tbody> 
 </table>
 
-*若要瞭解您擁有的計畫、授權型別或存取權，請聯絡您的Workfront管理員。 如需詳細資訊，請參閱 [Workfront檔案中的存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*若要瞭解您擁有的計畫、授權型別或存取權，請聯絡您的Workfront管理員。 如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 ## 問題狀態
 
@@ -86,8 +86,8 @@ ht-degree: 2%
 若要手動更新問題標題中的問題狀態：
 
 1. 移至您要更新其狀態的問題。
-1. 按一下 **狀態** 欄位並選取新狀態。
-1. 若要提供問題完成的視覺指示，請拖曳或按兩下方的泡泡 **完成百分比** 在問題的標題中
+1. 按一下問題標題中的&#x200B;**狀態**&#x200B;欄位並選取新狀態。
+1. 若要提供問題完成的視覺指示，請拖曳或按兩下問題標題中&#x200B;**完成百分比**&#x200B;下的泡泡
 
    或
 
@@ -97,12 +97,12 @@ ht-degree: 2%
 
 1. （可選）執行下列任一項作業，以提供有關更新的其他資訊：
 
-   * 若要新增更新的相關附註，請前往 **更新** 區段並按一下 **新註解**，然後輸入附註。
+   * 若要新增關於更新的備註，請移至&#x200B;**更新**&#x200B;區段，然後按一下&#x200B;**新增註解**，然後輸入備註。
 
      ![](assets/nwe-issue-update-stream-message-box-350x125.png)
 
-   * 若要通知特定使用者有關更新資訊，請在 **標籤人員或團隊** 輸入註解時顯示的欄位。 如需詳細資訊，請參閱 [標籤其他人的更新](../../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
-   * 若要更新問題的認可日期，請按一下 **問題詳細資訊**，然後編輯 **認可日期** 欄位。 如需詳細資訊，請參閱 [編輯問題](/help/quicksilver/manage-work/issues/manage-issues/edit-issues.md).
+   * 若要通知特定使用者有關更新，請在您輸入評論時顯示的&#x200B;**標籤人員或團隊**&#x200B;欄位中輸入其名稱。 如需詳細資訊，請參閱[標籤其他人的更新](../../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md)。
+   * 若要更新問題的認可日期，請按一下&#x200B;**問題詳細資料**，然後編輯&#x200B;**認可日期**&#x200B;欄位。 如需詳細資訊，請參閱[編輯問題](/help/quicksilver/manage-work/issues/manage-issues/edit-issues.md)。
 
 
    >[!IMPORTANT]
@@ -136,7 +136,7 @@ When you are updating an issue status, you can also add an explanation about the
 
 >[!NOTE]
 >
->下表中的狀態是預設的系統狀態。 您的Workfront管理員或群組管理員可重新命名Workfront執行個體中的狀態。 如需有關在Workfront中建立和管理狀態的資訊，請參閱 [建立或編輯狀態](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md).
+>下表中的狀態是預設的系統狀態。 您的Workfront管理員或群組管理員可重新命名Workfront執行個體中的狀態。 如需有關在Workfront中建立和管理狀態的資訊，請參閱[建立或編輯狀態](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md)。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -161,12 +161,12 @@ When you are updating an issue status, you can also add an explanation about the
   <tr> 
    <td>更新附加到問題的解析物件的狀態</td> 
    <td>各種狀態</td> 
-   <td> <p>各種狀態</p> <p>如需有關解析物件以及它們如何影響問題狀態的資訊，請參閱文章中的「將可解析物件的狀態與解析物件的狀態同步」一節 <a href="../../../manage-work/issues/convert-issues/resolving-and-resolvable-objects.md" class="MCXref xref">解析與可解析物件的概觀 </a>.</p> </td> 
+   <td> <p>各種狀態</p> <p>如需有關解析物件以及它們如何影響問題狀態的資訊，請參閱解析和可解析物件概覽<a href="../../../manage-work/issues/convert-issues/resolving-and-resolvable-objects.md" class="MCXref xref">一文中的「將可解析物件的狀態與解析物件的狀態同步」一節。</a></p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td><span>按一下「開始問題」按鈕以接受處理指派給您的問題</span> </td> 
+   <td><span>按一下[開始問題]按鈕以接受處理指派給您的問題</span> </td> 
    <td><span>新增</span> </td> 
-   <td> <p>任何與首頁團隊設定中開始問題按鈕相關的狀態。 </p> <p>有關將「處理它」按鈕替換為「開始問題」按鈕的資訊，請參閱 <span href="../../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md"><a href="../../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md" class="MCXref xref">將處理它按鈕取代為開始按鈕</a></span><span>.</span> </p> <p>提示：按一下 <span data-mc-conditions="QuicksilverOrClassic.Quicksilver">「復原」按鈕</span> 按一下「開始問題」後，狀態會回覆成「新增」。 </p> </td> 
+   <td> <p>任何與首頁團隊設定中開始問題按鈕相關的狀態。 </p> <p>有關將[處理它]按鈕取代為[開始問題]按鈕的資訊，請參閱<span href="../../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md"><a href="../../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md" class="MCXref xref">將[處理它]按鈕取代為[開始]按鈕</a></span><span>。</span> </p> <p>提示：按一下「開始問題」後按<span data-mc-conditions="QuicksilverOrClassic.Quicksilver">復原按鈕</span>會將狀態還原為「新增」。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

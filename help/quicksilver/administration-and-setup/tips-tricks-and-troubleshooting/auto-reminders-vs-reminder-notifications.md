@@ -4,7 +4,7 @@ content-type: reference
 product-area: system-administration
 navigation-topic: tips-tricks-troubleshooting-setup-admin
 title: 自動提醒與提醒通知
-description: 本文說明自動提醒和提醒通知之間的差異，並提供每種通知的案例。 有關所有資訊 [!DNL Adobe Workfront] 通知，請參閱Adobe [!DNL Workfront] 通知。
+description: 本文說明自動提醒與提醒通知之間的差異，並提供每種的案例。 如需所有 [!DNL Adobe Workfront] 通知的詳細資訊，請參閱Adobe [!DNL Workfront] 通知。
 author: Caroline
 feature: System Setup and Administration
 role: Admin
@@ -18,27 +18,27 @@ ht-degree: 0%
 
 # 自動提醒與提醒通知
 
-本文說明自動提醒和提醒通知之間的差異，並提供每種通知的案例。 有關所有資訊 [!DNL Adobe Workfront] 通知，請參閱 [[!DNL Adobe Workfront] 通知](../../workfront-basics/using-notifications/wf-notifications.md).
+本文說明自動提醒與提醒通知之間的差異，並提供每種的案例。 如需所有[!DNL Adobe Workfront]通知的詳細資訊，請參閱[[!DNL Adobe Workfront] 通知](../../workfront-basics/using-notifications/wf-notifications.md)。
 
 ## 自動提醒
 
-以下是自動提醒專屬的特性：
+下列特性專屬於自動提醒：
 
-* 只能由 [!DNL Workfront] 管理員
-* 在所有任務和問題到期、延遲或接近計畫完成日期時觸發
-* 只能發送給受託人、受託人的經理或直接經理的經理。
-* 不能將電子郵件模板附加到這些模板。
+* 只能由[!DNL Workfront]管理員開啟及編輯
+* 當所有任務和問題到期、延遲或接近計畫完成日期時，就會觸發這些任務和問題
+* 只能傳送給受指派人、受指派人的經理或直接經理的管理員。
+* 無法附加電子郵件範本。
 
-案例：如果您希望在整個系統的所有任務和問題上觸發提醒，請配置自動提醒設定。 如需詳細資訊，請參閱 [設定自動提醒](../../administration-and-setup/manage-workfront/emails/setting-up-automatic-reminders.md).
+情節：如果您想要在整個系統的所有任務和問題上觸發提醒，請設定自動提醒設定。 如需詳細資訊，請參閱[設定自動提醒](../../administration-and-setup/manage-workfront/emails/setting-up-automatic-reminders.md)。
 
 ## 提醒通知
 
-以下是提醒通知的特有特性：
+以下特性專用於提醒通知：
 
-* 可由管理員或任何具有計畫許可證和提醒通知管理訪問權限的用戶建立
-* 只能手動關聯到對象
-* 只能通知有關附加對象的資訊
-* 可以發送給各種對象利益相關方，如所有者、建立者、批准者或受託人
-* 可使用預設電子郵件，或使用附加的自訂電子郵件範本
+* 可由管理員建立，或任何擁有提醒通知的計畫授權和管理存取權的使用者
+* 只能手動關聯至物件
+* 只能通知有關附加物件的資訊
+* 可傳送給各種物件關係人，例如擁有者、建立者、核准者或受託人
+* 可以使用預設電子郵件或使用附加的自訂電子郵件範本
 
-案例：如果要為項目、時間表建立提醒，或要為任務和問題自定義提醒，請配置提醒通知。 如需詳細資訊，請參閱 [設定提醒通知](../../administration-and-setup/manage-workfront/emails/set-up-reminder-notifications.md).
+情節：如果您想要建立專案、時程表的提醒，或想要自訂任務和問題的提醒，請設定提醒通知。 如需詳細資訊，請參閱[設定提醒通知](../../administration-and-setup/manage-workfront/emails/set-up-reminder-notifications.md)。

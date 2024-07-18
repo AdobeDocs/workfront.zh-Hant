@@ -29,7 +29,7 @@ ht-degree: 3%
 
 ![](assets/nwe-full-screen-analytics-350x222.png)
 
-若要檢視使用案例，或進一步瞭解如何使用增強型分析來管理目前的工作和規劃未來的工作，請參閱 [增強型分析學習路徑](https://one.workfront.com/s/enhanced-analytics-program).
+若要檢視使用案例，或瞭解更多有關使用增強型分析管理目前工作和規劃未來工作的資訊，請參閱[增強型分析學習路徑](https://one.workfront.com/s/enhanced-analytics-program)。
 
 ## 先決條件
 
@@ -37,21 +37,21 @@ ht-degree: 3%
 
 * 擁有業務或企業計畫。
 
-  如需詳細資訊，請參閱 [Workfront計畫](https://www.workfront.com/plans).
+  如需詳細資訊，請參閱[Workfront計畫](https://www.workfront.com/plans)。
 
 * 請您的Workfront管理員將增強型分析新增至您的版面配置範本。
 
-  如需詳細資訊，請參閱 [增強型分析：新增分析至版面配置範本](https://one.workfront.com/s/managed-content-videos/enhanced-analytics-adding-analytics-to-layout-templates-MCH7URDSIXRREHHHF7TRTYYP2LTE).
+  如需詳細資訊，請參閱[增強型分析：新增分析至配置範本](https://one.workfront.com/s/managed-content-videos/enhanced-analytics-adding-analytics-to-layout-templates-MCH7URDSIXRREHHHF7TRTYYP2LTE)。
 
 若要檢視專案與任務的資訊，您必須：
 
 * 擁有存取層級中「專案」和「任務」區域的檢視許可權。
 
-  如需有關Workfront管理員如何修改您的存取層級的資訊，請參閱 [建立或修改自訂存取層級](../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+  如需Workfront管理員如何修改存取層級的詳細資訊，請參閱[建立或修改自訂存取層級](../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)。
 
 * 擁有特定任務和/或專案的檢視許可權。
 
-  如需請求其他存取許可權的詳細資訊，請參閱 [要求物件的存取權](../workfront-basics/grant-and-request-access-to-objects/request-access.md).
+  如需請求其他存取權的資訊，請參閱[請求物件的存取權](../workfront-basics/grant-and-request-access-to-objects/request-access.md)。
 
 ## 增強型分析的最佳作法
 
@@ -68,7 +68,7 @@ ht-degree: 3%
   >[!NOTE]
   >
   >如果您的團隊未使用計畫時數，您仍然可以看到一些基於專案持續時間的資料。\
-  >如需詳細資訊，請參閱區段 [期間檢視](#duration-view) 本文章內容。
+  >如需詳細資訊，請參閱本文中的[期間檢視](#duration-view)一節。
 
 * 專案名稱
 
@@ -112,16 +112,16 @@ ht-degree: 3%
 
   >[!NOTE]
   >
-  >8小時為的預設數字 **每工作日一般小時數**. Adobe Workfront管理員可更新 **每工作日一般小時數** 設定於 **設定** > **專案偏好設定** > **專案** > **時間表**.\
-  >若要深入瞭解，請參閱 [設定全系統專案偏好設定](../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+  >8小時是&#x200B;**每個工作日一般小時數**&#x200B;的預設值。 Adobe Workfront管理員可以在&#x200B;**設定** > **專案偏好設定** > **專案** > **時間表**&#x200B;下更新&#x200B;**每工作日一般時數**&#x200B;設定。\
+  >若要深入瞭解，請參閱[設定全系統的專案偏好設定](../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md)。
 
-如需計畫期間的資訊，請參閱 [專案期間概觀](../manage-work/projects/planning-a-project/project-duration.md).
+如需計畫期間的相關資訊，請參閱[專案期間概觀](../manage-work/projects/planning-a-project/project-duration.md)。
 
 ## 鍵盤快速鍵
 
 您可以在鍵盤上使用以下按鍵，導覽或完成增強型分析區域中的特定動作：
 
-| 密鑰 | 動作 |
+| 索引鍵 | 動作 |
 |---|---|
 | **標籤** | 導覽至頁面上的每個元素，以及未在頁面上顯示的每個視覺效果相關資訊的表格 |
 | **輸入** | 開啟行事曆Widget、刪除現有篩選器、開啟新增篩選器選項、選取/取消選取篩選器值、套用您已建立的篩選器、開啟每個視覺效果的匯出選項、開啟「待執行工作」、「執行中的任務」和「專案樹狀圖」視覺效果上的下拉式功能表 |
@@ -155,28 +155,28 @@ ht-degree: 3%
    <td> <p>特定時間範圍內所有專案的關鍵績效指標(KPI)位於畫面頂端。</p> </td> 
   </tr> 
   <tr> 
-   <td> <p><a href="../enhanced-analytics/flight-plan-overview.md" class="MCXref xref">在Enhanced Analytics中檢視小眾測試版計畫視覺效果</a> </p> </td> 
-   <td> <p>此 <b>小眾測試計畫</b> 視覺效果會顯示專案整個生命週期中的狀況已變更。 與視覺效果互動可為您提供有關特定日期的更多詳細資料。 選取專案會開啟「待執行工作」和「小眾測試版中的任務」視覺效果。</p> </td> 
+   <td> <p><a href="../enhanced-analytics/flight-plan-overview.md" class="MCXref xref">在增強型分析中檢視小眾測試版計畫視覺效果</a> </p> </td> 
+   <td> <p><b>小眾測試版計畫</b>視覺效果會顯示專案整個生命週期中的狀況已變更。 與視覺效果互動可為您提供有關特定日期的更多詳細資料。 選取專案會開啟「待執行工作」和「小眾測試版中的任務」視覺效果。</p> </td> 
   </tr> 
   <tr> 
    <td><a href="../enhanced-analytics/burndown-overview.md" class="MCXref xref">在增強型分析中檢視待執行工作視覺效果</a> </td> 
-   <td> <p>此 <b>待執行工作</b> 視覺效果會顯示專案相對於實際專案逗留時數的計畫速度。 與視覺效果互動可為您提供有關特定日期專案狀況的更多詳細資訊。</p> </td> 
+   <td> <p><b>待執行工作</b>視覺效果會顯示專案與專案實際逗留時數的比較計畫速度。 與視覺效果互動可為您提供有關特定日期專案狀況的更多詳細資訊。</p> </td> 
   </tr> 
   <tr> 
-   <td><a href="../enhanced-analytics/tasks-in-flight-overview.md" class="MCXref xref">在Enhanced Analytics中檢視小眾測試版中的任務視覺效果</a> </td> 
-   <td> <p>此 <b>小眾測試版中的任務</b> 視覺效果會顯示專案中每個任務的狀態。 與視覺效果互動可讓您快速輕鬆地變更任務。</p> </td> 
+   <td><a href="../enhanced-analytics/tasks-in-flight-overview.md" class="MCXref xref">在增強型分析中檢視小眾測試版中的任務視覺效果</a> </td> 
+   <td> <p>小眾測試版中的<b>任務</b>視覺效果會顯示專案中每個任務的狀態。 與視覺效果互動可讓您快速輕鬆地變更任務。</p> </td> 
   </tr> 
   <tr> 
    <td><a href="../enhanced-analytics/project-activity-overview.md" class="MCXref xref">在增強型分析中檢視專案活動視覺效果</a> </td> 
-   <td> <p>此 <b>專案活動</b> 視覺效果會顯示熱度圖，顯示指派至專案的使用者何時登入Workfront、變更該專案中任務的狀態，以及該專案中已完成的任務。 與視覺效果互動可讓您檢視每個使用者的這些詳細資訊。 您也可以檢視這些動作的特定日期，以及每個動作的完成次數。</p> </td> 
+   <td> <p><b>專案活動</b>視覺效果會顯示熱度圖，其中顯示指派給專案的使用者登入Workfront、變更該專案中任務的狀態，以及該專案中已完成任務的時間。 與視覺效果互動可讓您檢視每個使用者的這些詳細資訊。 您也可以檢視這些動作的特定日期，以及每個動作的完成次數。</p> </td> 
   </tr> 
   <tr> 
    <td><a href="../enhanced-analytics/project-treemap-overview.md" class="MCXref xref">在增強型分析中檢視專案樹狀圖視覺效果</a> </td> 
-   <td> <p>此 <b>專案樹狀圖</b> 視覺效果會顯示相較於其他專案，您在某些專案上花費了多少時間。 與視覺效果互動可提供專案狀況、計畫專案完成和實際專案完成的詳細資訊。</p> </td> 
+   <td> <p><b>專案樹狀圖</b>視覺效果會顯示某些專案相較於其他專案所花費的時間。 與視覺效果互動可提供專案狀況、計畫專案完成和實際專案完成的詳細資訊。</p> </td> 
   </tr> 
   <tr> 
-   <td><a href="../enhanced-analytics/activity-by-team-overview.md" class="MCXref xref">在Enhanced Analytics中檢視依團隊的活動視覺效果</a> </td> 
-   <td> <p>此 <b>依團隊的活動</b> 視覺效果會顯示熱度圖，顯示主團隊使用者何時登入Workfront、變更任務狀態及完成任務。 與視覺效果互動可讓您檢視每個使用者的這些詳細資訊。 您也可以檢視這些動作的特定日期，以及每個動作的完成次數。</p> </td> 
+   <td><a href="../enhanced-analytics/activity-by-team-overview.md" class="MCXref xref">在增強型分析中檢視依團隊視覺效果的活動</a> </td> 
+   <td> <p><b>依團隊的活動</b>視覺效果會顯示熱度圖，其中顯示主團隊的使用者登入Workfront、變更任務狀態及完成任務的時間。 與視覺效果互動可讓您檢視每個使用者的這些詳細資訊。 您也可以檢視這些動作的特定日期，以及每個動作的完成次數。</p> </td> 
   </tr> 
   <!-- Features permanently removed from Workfront
   <tr> 

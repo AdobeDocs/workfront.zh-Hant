@@ -31,7 +31,7 @@ ht-degree: 0%
 >
 >我們建議直接在Workfront中新增非系統管理員使用者。 您可以在Adobe Admin Console中新增使用者，但若在Workfront中新增使用者，您可於建立使用者時設定其存取層級，藉此節省您的時間。
 
-如需建立Workfront系統管理員的指示，請參閱 [在Adobe Admin Console中管理系統管理員](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/admin-console.md).
+如需建立Workfront系統管理員的指示，請參閱[在Adobe Admin Console中管理系統管理員](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/admin-console.md)。
 
 <!--
 <table style="table-layout:auto"> 
@@ -161,7 +161,7 @@ ht-degree: 0%
 
 ## 更新SAML憑證
 
-如需在Adobe Admin Console上續約SAML憑證的說明，請參閱中的「SAML回應中的數位簽章未驗證……」一節 [疑難排解Federated ID](https://helpx.adobe.com/enterprise/kb/tshoot-fed-id.html)
+如需在Adobe Admin Console上續約SAML憑證的說明，請參閱[疑難排解Federated ID](https://helpx.adobe.com/enterprise/kb/tshoot-fed-id.html)中的「SAML回應中的數位簽章未驗證……」一節
 
 <!--
 
@@ -186,9 +186,9 @@ ht-degree: 0%
 
 
 * [使用SAML 2.0設定Adobe Workfront](../../administration-and-setup/add-users/single-sign-on/configure-workfront-saml-2.md)
-* [使用ADFS以SAML 2.0設定Adobe Workfront](../../administration-and-setup/add-users/single-sign-on/configure-workfront-saml-2-adfs.md)
+* [使用ADFS設定Adobe Workfront的SAML 2.0](../../administration-and-setup/add-users/single-sign-on/configure-workfront-saml-2-adfs.md)
 * [在Adobe Workfront中停用單一登入](../../administration-and-setup/add-users/single-sign-on/deactivate-sso.md)
-* [更新身分提供者中的SAML 2.0中繼資料](../../administration-and-setup/add-users/single-sign-on/update-saml-2-metadata-ip.md)
+* [更新您的身分提供者中的SAML 2.0中繼資料](../../administration-and-setup/add-users/single-sign-on/update-saml-2-metadata-ip.md)
 * [更新單一登入的使用者](../../administration-and-setup/add-users/single-sign-on/update-users-sso.md)
 * [設定驗證的密碼原則](../../administration-and-setup/manage-workfront/security/configure-password-policies-authentication.md)
 * [設定系統安全性偏好設定](../../administration-and-setup/manage-workfront/security/configure-security-preferences.md)

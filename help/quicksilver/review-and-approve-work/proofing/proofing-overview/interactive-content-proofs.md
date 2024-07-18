@@ -48,7 +48,7 @@ ht-degree: 0%
 
 將互動式內容繫結在ZIP檔案以進行校訂時，請確定該檔案包含下列規格：
 
-* 所有資產（例如CSS、JavaScript、影片、聲音和影像）都應包含在套件檔案中。
+* 所有資產(例如CSS、JavaScript、影片、聲音和影像)都應包含在套件檔案中。
 * 互動式內容應包含主檔案(index.html、index.htm)。 如果此檔案未放置在根位置，則工具會自動搜尋資料夾以尋找它。 主檔案名稱不需是index.html/index.htm，不過主位置只能放置一個.html/.htm檔案。
 * 檔案必須至少包含一個靜態檔案網頁。
 * 最大套件大小為500 MB。
@@ -58,22 +58,22 @@ ht-degree: 0%
 
   使用「案頭校訂檢視器」時不需要如此。
 
-  如需詳細資訊，請參閱 [瞭解案頭校訂檢視器](../../../workfront-proof/wp-work-proofsfiles/review-proofs-dpv/destop-proofing-viewer.md).
+  如需詳細資訊，請參閱[瞭解案頭校訂檢視器](../../../workfront-proof/wp-work-proofsfiles/review-proofs-dpv/destop-proofing-viewer.md)。
 
 * 必須允許在iframe中檢視網站。
 
   使用「案頭校訂檢視器」時不需要如此。
 
-  如需詳細資訊，請參閱 [瞭解案頭校訂檢視器](../../../workfront-proof/wp-work-proofsfiles/review-proofs-dpv/destop-proofing-viewer.md).
+  如需詳細資訊，請參閱[瞭解案頭校訂檢視器](../../../workfront-proof/wp-work-proofsfiles/review-proofs-dpv/destop-proofing-viewer.md)。
 
 ## 關於建立互動式校樣
 
 準備ZIP套件組合檔案後，請建立互動式校訂。
 
-如需詳細資訊，請參閱 [在ZIP檔案中建立互動式內容的校訂](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/generate-proof-interactive-content.md).
+如需詳細資訊，請參閱[在ZIP檔案中建立互動式內容的校訂](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/generate-proof-interactive-content.md)。
 
-或者，如果您正在使用Workfront校訂，請參閱區段 [產生互動式內容的校訂](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md#generate-a-proof-for-interactive-content) 在文章中 [在Workfront Proof中產生校訂](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md).
+或者，如果您正在使用Workfront Proof，請參閱文章[在Workfront Proof中產生校訂](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md)中的[產生互動式內容的校訂](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md#generate-a-proof-for-interactive-content)小節。
 
 ## 關於檢閱互動式校樣
 
-我們建議您使用獨立的案頭校訂檢視器作為互動式校訂的預設檢視器。 但是，如果貴組織的原則不允許使用Desktop Proofing Viewer應用程式，您的Workfront管理員可以設定您的系統，以便您可以在Web Proofing Viewer中檢閱整合在ZIP封存檔案中的互動式內容。 如需有關「案頭校訂檢視器」和「網頁校訂檢視器」的比較資訊，請參閱 [網頁校訂檢視器與案頭校訂檢視器之間的差異概述](../../../review-and-approve-work/proofing/proofing-overview/understand-differences-between-web-viewer.md).
+我們建議您使用獨立的案頭校訂檢視器作為互動式校訂的預設檢視器。 但是，如果貴組織的原則不允許使用Desktop Proofing Viewer應用程式，您的Workfront管理員可以設定您的系統，以便您可以在Web Proofing Viewer中檢閱整合在ZIP封存檔案中的互動式內容。 如需有關案頭校訂檢視器和Web校訂檢視器的比較資訊，請參閱[Web校訂檢視器與案頭校訂檢視器之間的差異](../../../review-and-approve-work/proofing/proofing-overview/understand-differences-between-web-viewer.md)。

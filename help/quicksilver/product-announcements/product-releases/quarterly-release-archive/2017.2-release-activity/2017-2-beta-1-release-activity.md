@@ -2,7 +2,7 @@
 content-type: release-notes
 navigation-topic: product-releases-archive
 title: 2017.2 Beta 1發行活動
-description: 本頁說明2017.2 Beta 1版在預覽環境中可用的所有變更。 此頁面的功能已於2017年5月10日在預覽環境中推出。
+description: 本頁說明2017.2 Beta 1版本預覽環境中所有可用的變更。 此頁面的功能已於2017年5月10日在預覽環境中推出。
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
@@ -16,28 +16,28 @@ ht-degree: 0%
 
 # 2017.2 Beta 1發行活動
 
-本頁說明2017.2 Beta 1版在預覽環境中可用的所有變更。 此頁面的功能已於2017年5月10日在預覽環境中推出。
+本頁說明2017.2 Beta 1版本預覽環境中所有可用的變更。 此頁面的功能已於2017年5月10日在預覽環境中推出。
 
 >[!IMPORTANT]
 >
 >本頁所述的功能在生產環境使用之前可能會有所變更。
 
-2017.2 Beta 1版包含適用於Workfront管理員和其他使用者的增強功能：
+2017.2 Beta 1版本包含適用於Workfront管理員和其他使用者的增強功能：
 
-**對於管理員：**
+管理員的&#x200B;**：**
 
 * [還原檔案](#restore-documents)
-* [含有發行資訊的新的預覽橫幅](#new-preview-banner-with-release-information) 
+* [新預覽橫幅及發行資訊](#new-preview-banner-with-release-information) 
 * [API 7可用性](#api-7-availability)
 
-**針對所有使用者：**
+所有使用者的&#x200B;**：**
 
 * [訂閱任務和問題](#subscribe-to-tasks-and-issues)
 * [資源排程改善](#resource-scheduling-improvements)
-* [比較校訂](#compare-proofs)
-* [使用者和專案之資源集區的新欄位](#new-field-for-resource-pools-for-users-and-projects)
-* [已更新控制面板清單中的外觀](#updated-look-and-feel-in-the-dashboard-list)
-* [移除Workfront中的簽署功能](#removing-the-endorsements-functionality-in-workfront)
+* [比較校樣](#compare-proofs)
+* 使用者和專案的[新資源集區欄位](#new-field-for-resource-pools-for-users-and-projects)
+* [已更新儀表板清單的外觀](#updated-look-and-feel-in-the-dashboard-list)
+* [在Workfront中移除簽署功能](#removing-the-endorsements-functionality-in-workfront)
 * [使用拖放功能重新排序任何清單中的欄（即將移除功能）](#reorder-columns-in-any-list-with-drag-and-drop-functionality-is-being-removed)
 
 ## 還原檔案 {#restore-documents}
@@ -46,17 +46,17 @@ Workfront管理員現在可以還原過去30天內刪除的個別檔案。 
 
 在此變更之前，Workfront管理員只能還原專案、任務和問題（包括和已刪除的專案、任務或問題一起刪除的檔案）。
 
-如需詳細資訊，請參閱 [還原已刪除的專案](../../../../administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md).
+如需詳細資訊，請參閱[還原已刪除的專案](../../../../administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md)。
 
 ## 含有發行資訊的新的預覽橫幅 {#new-preview-banner-with-release-information}
 
-預覽沙箱環境頂端的藍色橫幅現在會顯示預覽環境的版本名稱和版本號碼。 按一下版本名稱會帶您前往說明網站文章，您可在此找到有關目前預覽版本的詳細資訊。 如需有關預覽沙箱環境的詳細資訊，請參閱 [Adobe Workfront預覽沙箱環境](../../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md) 
+預覽沙箱環境頂端的藍色橫幅現在會顯示預覽環境的版本名稱和版本號碼。 按一下版本名稱會帶您前往說明網站文章，您可在此找到有關目前預覽版本的詳細資訊。 如需有關預覽沙箱環境的詳細資訊，請參閱[Adobe Workfront預覽沙箱環境](../../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md) 
 
 ## API 7可用性 {#api-7-availability}
 
 API 7現已可用，並包含新的和更新的物件。
 
-如需詳細資訊，請參閱 [API 7版的新增功能](../../../../wf-api/api/new-api-version-7.md).
+如需詳細資訊，請參閱[ API版本7](../../../../wf-api/api/new-api-version-7.md)的新增功能。
 
 ## 訂閱任務和問題 {#subscribe-to-tasks-and-issues}
 
@@ -66,13 +66,13 @@ Workfront會傳送有關您指派給或擁有之專案的通知。
 
 您可以訂閱您至少有權檢視的問題和任務。 當您訂閱的問題或任務新增評論時，您將會收到有關該評論的電子郵件通知。
 
-如需訂閱問題和工作的詳細資訊，請參閱 [訂閱Adobe Workfront中的專案](../../../../workfront-basics/using-notifications/subscribe-to-items-in-workfront.md)
+如需訂閱問題和工作的詳細資訊，請參閱[在Adobe Workfront中訂閱專案](../../../../workfront-basics/using-notifications/subscribe-to-items-in-workfront.md)
 
 ## 資源排程改善 {#resource-scheduling-improvements}
 
 >[!NOTE]
 >
->已棄用資源排程工具，並已從Workfront的23.1版本中移除。 如需有關使用工作負載平衡器排程資源的資訊，請參閱 [工作負載平衡器概覽](../../../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
+>已棄用資源排程工具，並已從Workfront的23.1版本中移除。 如需有關使用工作負載平衡器排程資源的資訊，請參閱[工作負載平衡器概覽](../../../../resource-mgmt/workload-balancer/overview-workload-balancer.md)。
 
 排程資源時，有以下改良功能可使用：
 
@@ -88,7 +88,7 @@ Workfront會傳送有關您指派給或擁有之專案的通知。
 
 如果您決定在排程時間表上顯示每個任務和問題的專案名稱，則會展開每個任務和問題的垂直空間，以減少在單一檢視中顯示的任務和問題。
 
-如需排程資源的詳細資訊，請參閱「開始使用資源排程」。
+如需排程資源的詳細資訊，請參閱  開始使用資源排程。
 
 ### 設定專案名稱以在排程時間表上的任務和問題上顯示 {#configure-the-project-name-to-display-on-tasks-and-issues-on-the-scheduling-timeline}
 
@@ -118,7 +118,7 @@ Workfront會傳送有關您指派給或擁有之專案的通知。
 
 在此變更之前，角色名稱和使用者名稱會捲動到目前檢視之外。
 
-如需排程資源的詳細資訊，請參閱「開始使用資源排程」。
+如需排程資源的詳細資訊，請參閱  開始使用資源排程。
 
 ## 比較校訂 {#compare-proofs}
 
@@ -126,7 +126,7 @@ Workfront會傳送有關您指派給或擁有之專案的通知。
 
 這兩個校訂會顯示在檢閱和核准工具中，您可以校訂每個檔案，同時在並排檢視中比較它們。
 
-如需詳細資訊，請參閱 [比較校訂](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/compare-proofs.md).
+如需詳細資訊，請參閱[比較校樣](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/compare-proofs.md)。
 
 ## 使用者和專案之資源集區的新欄位 {#new-field-for-resource-pools-for-users-and-projects}
 
@@ -134,7 +134,7 @@ R1.5版本在「預覽」環境中引入「資源規劃」的新功能。 此功
 
 現在您可以將這些資源集區與專案及使用者建立關聯。 您現在會在專案和使用者物件上看到名為「資源集區」的新欄位。
 
-如需有關新的資源集區以及它們如何與專案和使用者關聯的詳細資訊，請參閱 [資源集區概觀](../../../../resource-mgmt/resource-planning/resource-pools/work-with-resource-pools.md)
+如需有關新的資源集區以及它們如何與專案和使用者關聯的詳細資訊，請參閱[資源集區概觀](../../../../resource-mgmt/resource-planning/resource-pools/work-with-resource-pools.md)
 
 ## 已更新控制面板清單中的外觀 {#updated-look-and-feel-in-the-dashboard-list}
 
@@ -142,7 +142,7 @@ R1.5版本在「預覽」環境中引入「資源規劃」的新功能。 此功
 
 此功能先前僅適用於已註冊提早存取的使用者。 預覽環境中的所有使用者現在都可以使用此功能。 2017.2版將提供給生產環境中的所有使用者。 
 
-如需儀表板的詳細資訊，請參閱 [建立儀表板](../../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-dashboard.md).
+如需儀表板的詳細資訊，請參閱[建立儀表板](../../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-dashboard.md)。
 
 ## 移除Workfront中的簽署功能 {#removing-the-endorsements-functionality-in-workfront}
 
@@ -161,4 +161,4 @@ R1.5版本在「預覽」環境中引入「資源規劃」的新功能。 此功
 
 在2017.2版的生產環境中，將欄從一個位置拖曳至另一個位置以變更任何清單中欄順序的功能，即將從「搶先存取」中移除，且任何使用者都無法再使用。 
 
-如需有關此功能的詳細資訊，請參閱 [修改欄寬和順序](../../../../reports-and-dashboards/reports/reporting-elements/modify-column-width-order.md).
+如需有關此功能的詳細資訊，請參閱[修改欄寬和順序](../../../../reports-and-dashboards/reports/reporting-elements/modify-column-width-order.md)。

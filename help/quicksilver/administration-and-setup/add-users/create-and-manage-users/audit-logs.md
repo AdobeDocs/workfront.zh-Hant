@@ -21,7 +21,7 @@ ht-degree: 3%
 
 身為Adobe Workfront管理員，您可以使用下述稽核記錄追蹤過去90天內系統中觸發的使用者變更。
 
-如需有關檢視和篩選您想要在這些稽核記錄中看到的內容的指示，請參閱 [檢視和匯出稽核記錄](../../../administration-and-setup/add-users/create-and-manage-users/view-and-export-audit-logs.md).
+如需有關檢視和篩選您想要在這些稽核記錄中檢視內容的指示，請參閱[檢視和匯出稽核記錄](../../../administration-and-setup/add-users/create-and-manage-users/view-and-export-audit-logs.md)。
 
 ## 您可以在稽核記錄檔中找到的資訊
 
@@ -56,7 +56,7 @@ ht-degree: 3%
    <td>此動作的其他詳細資料。 將滑鼠移到文字上以讀取完整訊息。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">IP位址</td> 
+   <td role="rowheader">IP 位址</td> 
    <td> <p>執行動作時執行動作之使用者的IP位址。</p> <p>某些系統動作無法使用IP位址。</p> </td> 
   </tr> 
  </tbody> 
@@ -66,17 +66,17 @@ ht-degree: 3%
 
 * [存取層級](#access-level)
 * [公司](#company)
-* [條件](#condition)
+* [狀況](#condition)
 * [自訂欄位](#custom-field)
 * [自訂表單](#custom-forms)
-* [自訂部分](#custom-section)
+* [自訂節](#custom-section)
 * [匯率](#exchange-rate)
 * [群組](#group)
-* [職位角色](#job-roles)
+* [工作角色](#job-roles)
 * [登入嘗試](#login-attempt)
 * [優先順序](#priority)
-* [專案偏好設定](#project-preference)
-* [嚴重程度](#severity)
+* [專案喜好設定](#project-preference)
+* [嚴重性](#severity)
 * [狀態](#status)
 * [任務和問題偏好設定](#tasks-issues-preferences)
 * [使用者](#user)
@@ -115,7 +115,7 @@ ht-degree: 3%
 
 * 刪除公司
 
-如需有關狀態的詳細資訊，請參閱 [狀態概觀](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/statuses-overview.md).
+如需有關狀態的詳細資訊，請參閱[狀態概觀](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/statuses-overview.md)。
 
 ### 狀況 {#condition}
 
@@ -132,7 +132,7 @@ ht-degree: 3%
 
 * 刪除條件
 
-有關設定工作角色的詳細資訊，請參閱 [建立或編輯自訂條件](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/create-edit-custom-conditions.md).
+如需設定工作角色的詳細資訊，請參閱[建立或編輯自訂條件](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/create-edit-custom-conditions.md)。
 
 ### 自訂欄位 {#custom-field}
 
@@ -192,7 +192,7 @@ ht-degree: 3%
 * 變更自訂區段的名稱或說明
 * 刪除自訂部分
 
-如需自訂表單中自訂區段的詳細資訊，請參閱 [建立或編輯自訂表單](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
+如需自訂表單中自訂區段的資訊，請參閱[建立或編輯自訂表單](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)。
 
 ### 匯率 {#exchange-rate}
 
@@ -207,7 +207,7 @@ ht-degree: 3%
 
 * 刪除匯率
 
-如需有關設定匯率的詳細資訊，請參閱 [設定匯率](../../../administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md).
+如需設定匯率的詳細資訊，請參閱[設定匯率](../../../administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md)。
 
 ### 群組 {#group}
 
@@ -234,7 +234,7 @@ ht-degree: 3%
 
 * 刪除工作角色
 
-有關設定工作角色的詳細資訊，請參閱 [建立和管理職位角色](../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).
+如需設定工作角色的詳細資訊，請參閱[建立和管理工作角色](../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md)。
 
 ### 登入嘗試 {#login-attempt}
 
@@ -265,7 +265,7 @@ Workfront管理員使用「登入身份」功能時，不會記錄登入嘗試�
 
 * 刪除優先順序
 
-如需有關設定優先順序的詳細資訊，請參閱 [建立和自訂優先順序](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-priorities.md).
+如需設定優先順序的詳細資訊，請參閱[建立及自訂優先順序](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-priorities.md)。
 
 ### 專案偏好設定 {#project-preference}
 
@@ -281,7 +281,7 @@ Workfront管理員使用「登入身份」功能時，不會記錄登入嘗試�
 
 * 刪除自訂季度
 
-如需有關專案偏好設定的詳細資訊，請參閱 [設定全系統專案偏好設定](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+如需有關專案偏好設定的詳細資訊，請參閱[設定全系統的專案偏好設定](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md)。
 
 ### 嚴重程度 {#severity}
 
@@ -298,7 +298,7 @@ Workfront管理員使用「登入身份」功能時，不會記錄登入嘗試�
 
 * 刪除問題嚴重程度
 
-有關設定工作角色的詳細資訊，請參閱 [建立或自訂問題嚴重程度](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-issue-severities.md).
+如需設定職位角色的詳細資訊，請參閱[建立或自訂問題嚴重程度](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-issue-severities.md)。
 
 ### 狀態 {#status}
 
@@ -315,7 +315,7 @@ Workfront管理員使用「登入身份」功能時，不會記錄登入嘗試�
 
 * 刪除系統或群組層級的狀態
 
-如需有關狀態的詳細資訊，請參閱 [狀態概觀](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/statuses-overview.md).
+如需有關狀態的詳細資訊，請參閱[狀態概觀](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/statuses-overview.md)。
 
 ### 任務和問題偏好設定 {#tasks-issues-preferences}
 
@@ -325,7 +325,7 @@ Workfront管理員使用「登入身份」功能時，不會記錄登入嘗試�
 * 變更偏好設定的設定
 * 變更任務、問題或請求的存取設定
 
-有關任務和問題偏好設定的詳細資訊，請參閱 [設定系統範圍的任務和問題偏好設定](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
+如需有關任務和問題偏好設定的詳細資訊，請參閱[設定全系統的任務和問題偏好設定](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md)。
 
 ### 使用者 {#user}
 

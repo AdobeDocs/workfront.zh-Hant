@@ -6,7 +6,8 @@ title: 將觸發程式模組新增至基本情境
 description: 瞭解如何新增觸發程式模組，以允許案例定期尋找新請求並將它們轉換為專案。
 author: Becky
 feature: Workfront Fusion
-source-git-commit: ea3f932e02ad8a9416747d4b9aefe89d087dd414
+exl-id: 067ee6a1-f4c1-4602-ac39-0283255cced8
+source-git-commit: 1196e2d7a6d6750944a7c6209222f07382abfee7
 workflow-type: tm+mt
 source-wordcount: '486'
 ht-degree: 0%
@@ -21,31 +22,31 @@ ht-degree: 0%
 
 在此範例中，您將新增每15分鐘執行一次的觸發程式模組，並在有任何請求已提交至特定佇列時啟動案例。 然後此情境會將這些請求轉換為專案。
 
-此範例修改中建立的案例 [建立基本情境](/help/quicksilver/workfront-fusion/get-started/build-practice-scenarios/create-simple-scenario.md).
+此範例修改在[建立基本案例](/help/quicksilver/workfront-fusion/get-started/build-practice-scenarios/create-simple-scenario.md)中建立的案例。
 
 ## 先決條件
 
-您必須建立中所述的情境 [建立基本情境](/help/quicksilver/workfront-fusion/get-started/build-practice-scenarios/create-simple-scenario.md) 然後再執行此程式。
+在執行此程式之前，您必須先建立[建立基本案例](/help/quicksilver/workfront-fusion/get-started/build-practice-scenarios/create-simple-scenario.md)中所述的案例。
 
 ## 新增及設定觸發程式模組
 
 ### 新增觸發程式模組
 
 1. 在案例編輯器中開啟案例。
-1. 在第一個（搜尋）模組上按一下滑鼠右鍵，然後選取 **刪除模組**.
+1. 在第一個（搜尋）模組上按一下滑鼠右鍵，然後選取&#x200B;**刪除模組**。
 
    模組已刪除，並保留空白預留位置。
 
-1. 按一下空白模組，然後選擇 **Adobe Workfront** 從應用程式清單中。
-1. 選取 **觀看記錄**.
+1. 按一下空白模組，然後從應用程式清單中選取&#x200B;**Adobe Workfront**。
+1. 選取&#x200B;**觀看記錄**。
 1. 確認模組使用與案例中其他模組相同的連線。
-1. 在「篩選」欄位中，選取 **僅限新記錄**.
-1. 在「輸出」方塊中，選取 `ID`， `Name`、和 `Project ID`.
-1. 按一下 **確定** 以儲存模組設定。
+1. 在篩選欄位中，選取&#x200B;**僅新增記錄**。
+1. 在[輸出]方塊中，選取`ID`、`Name`和`Project ID`。
+1. 按一下&#x200B;**確定**&#x200B;以儲存模組設定。
 
    「選擇開始位置」視窗會出現。
 
-1. 選取 **從現在起**.
+1. 從&#x200B;**開始選取**。
 
 ### 排程觸發程式模組
 
@@ -53,9 +54,9 @@ ht-degree: 0%
 
    「排程」設定視窗會開啟。
 
-1. 在執行案例欄位中，選取 **定期進行**.
+1. 在[執行]案例欄位中，選取&#x200B;**定期間隔**。
 
-1. 按一下 **確定**.
+1. 按一下&#x200B;**確定**。
 
 ### 更新第二個模組
 
@@ -64,17 +65,17 @@ ht-degree: 0%
 1. 開啟轉換物件模組。
 1. 在「問題ID」欄位中，刪除黑色ID區塊。 區塊為黑色，因為其對應來源模組已無法使用。
 1. 在第一個模組（觀看記錄）下方選取ID區塊，將其對應至第二個模組。
-1. 按一下 **確定**.
+1. 按一下&#x200B;**確定**。
 
 ### 測試並啟動
 
 1. 前往Fusion所連線的Workfront環境並新增問題。
-1. 按一下 **[!UICONTROL 執行一次]** 位於情境編輯器的左下角。
+1. 按一下案例編輯器左下角的&#x200B;**[!UICONTROL 執行一次]**。
 1. 檢查輸出，確保案例如預期般執行。
-1. 當您滿意情境如預期般運作時，請按一下 **正在排程** 在熒幕左下角切換為 **開啟**.
+1. 當您滿意情境如預期般運作時，請按一下畫面左下角的&#x200B;**排程**&#x200B;切換開關至&#x200B;**開啟**。
 
    這會啟用情境。
-1. 在 [!DNL Workfront Fusion]，按一下 **[!UICONTROL 儲存]** 靠近左下角，儲存情境的進度。
+1. 在[!DNL Workfront Fusion]中，按一下左下角附近的&#x200B;**[!UICONTROL 儲存]**，以儲存您的情境進度。
 
    >[!IMPORTANT]
    >
@@ -82,4 +83,4 @@ ht-degree: 0%
 
 ## 資源
 
-* 如需Webhook的詳細資訊，請參閱 [中的即時觸發器(webhook) [!DNL Adobe Workfront Fusion]](/help/quicksilver/workfront-fusion/webhooks/instant-triggers-webhooks.md).
+* 如需Webhook的詳細資訊，請參閱 [!DNL Adobe Workfront Fusion]](/help/quicksilver/workfront-fusion/webhooks/instant-triggers-webhooks.md)中的[即時觸發器(Webhook)。

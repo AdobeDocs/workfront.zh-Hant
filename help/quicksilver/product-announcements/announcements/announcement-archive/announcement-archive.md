@@ -19,8 +19,8 @@ ht-degree: 0%
 * [iOS和Android適用的更新行動應用程式（2017年8月初）](updated-mobile-app.md)
 * [Adobe Workfront中需要TLS 1.2](tls-1-disabled.md)
 * [Outlook 365增益集現已推出](../../outlook-365-add-in/outlook-365-add-in-now-available.md)
-* [取代Adobe Workfront中的Flash型工具](replace-flash-tools.md)
-* [全新Adobe Workfront管理系統，以21.1取代請求佇列的POP電子郵件](pop-removal-request-queue.md)
+* [取代Adobe Workfront中的Flash工具](replace-flash-tools.md)
+* [新的Adobe Workfront受管理系統以21.1](pop-removal-request-queue.md)取代請求佇列的POP電子郵件
 * [全新Adobe Workfront管理系統，以21.1取代請求佇列的POP電子郵件](pop-removal-request-queue.md)
 * [Adobe Workfront 21.1版本電子郵件的新IP位址](new-email-ip-21-1.md)
 * [電子郵件詐騙和POP回覆](email-spoofing-pop-reply-message.md)

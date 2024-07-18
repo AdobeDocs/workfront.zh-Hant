@@ -8,8 +8,8 @@ topic: Collaboration
 exl-id: 3d7581d0-e99c-4204-b1e5-04fde72251bb
 source-git-commit: 3a2745437e00ac968f2a4590be2637dbc01594ad
 workflow-type: tm+mt
-source-wordcount: '1380'
-ht-degree: 2%
+source-wordcount: '1381'
+ht-degree: 1%
 
 ---
 
@@ -68,18 +68,18 @@ ht-degree: 2%
    <td role="rowheader">存取層級設定*</td> 
    <td> <p>編輯問題的存取權</p> <p><b>附註</b>
 
-如果您沒有存取權，請洽詢Workfront管理員，瞭解他們是否在您的存取層級設定其他限制。 如需有關Workfront管理員如何修改您的存取層級的資訊，請參閱 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>.</p> </td>
+如果您沒有存取權，請洽詢Workfront管理員，瞭解他們是否在您的存取層級設定其他限制。 如需Workfront管理員如何修改存取層級的詳細資訊，請參閱<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>。</p> </td>
 </tr> 
   <tr> 
    <td role="rowheader">物件許可權</td> 
-   <td> <p>將請求新增至請求佇列的存取權</p> <p>檢視現有請求或更高的許可權</p> <p>如需有關設定請求佇列的資訊，請參閱 <a href="../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md" class="MCXref xref">建立請求佇列</a>. </p> </td> 
+   <td> <p>將請求新增至請求佇列的存取權</p> <p>檢視現有請求或更高的許可權</p> <p>如需設定要求佇列的資訊，請參閱<a href="../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md" class="MCXref xref">建立要求佇列</a>。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;若要瞭解您擁有的計畫、授權型別或存取權，請聯絡您的Workfront管理員。
+&#42;若要瞭解您擁有的計畫、授權型別或存取權，請連絡您的Workfront管理員。
 
-## 必要條件
+## 先決條件
 
 您必須要求您或您組織內的某人先前已提交，才能複製並重新提交。 如果請求屬於其他人，您必須至少具有「檢視」存取權，才能複製並提交為新請求。
 
@@ -88,7 +88,7 @@ ht-degree: 2%
 * 您只能複製並提交已提交的請求。 您無法複製草擬的請求。
 * 您可以複製並提交您最初提交的請求，或其他人提交的請求，而您至少可以存取檢視。
 * 除非有人將您的許可權移除，否則您一律可以複製並提交您自己的請求副本。
-* 當請求佇列的建立者啟用 **來自相同公司的人員將針對所有請求繼承相同許可權** 在「佇列詳細資訊」或「編輯專案」區域中。 停用此設定僅允許原始請求者檢視其自己的請求。
+* 當請求佇列的建立者啟用&#x200B;**來自相同公司的人員將會在「佇列詳細資料」或「編輯專案」區域中繼承所有請求的相同許可權**&#x200B;時，原本由其他人提交之複製及提交請求的存取權可能會自動授予相同公司的人員。 停用此設定僅允許原始請求者檢視其自己的請求。
 
   如需詳細資訊，請參閱下列文章：
 
@@ -105,12 +105,12 @@ ht-degree: 2%
      >
      >如果佇列主題是請求佇列中唯一的主題，您仍可以複製並提交請求，並將它儲存在請求佇列本身下。
 
-   * 此請求佇列不再作為說明請求佇列發佈。 如需詳細資訊，請參閱 [建立請求佇列](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
+   * 此請求佇列不再作為說明請求佇列發佈。 如需詳細資訊，請參閱[建立要求佇列](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md)。
    * 如果請求佇列沒有佇列主題，且原始請求是在2022年1月之前提交。
 
    * 與請求佇列關聯的專案狀態不再是目前。
 
-* 如果轉換過程中保留了請求，您可以複製並提交轉換請求的副本。 如需詳細資訊，請參閱 [在Adobe Workfront中轉換問題的概觀](../../../manage-work/issues/convert-issues/convert-issues.md).
+* 如果轉換過程中保留了請求，您可以複製並提交轉換請求的副本。 如需詳細資訊，請參閱[在Adobe Workfront中轉換問題的概觀](../../../manage-work/issues/convert-issues/convert-issues.md)。
 
   >[!TIP]
   >
@@ -118,8 +118,8 @@ ht-degree: 2%
 
 ## 複製並提交請求
 
-1. 按一下 **主要功能表** 圖示 ![](assets/main-menu-icon.png) (位於Adobe Workfront的右上角)，然後按一下 **請求**.
-1. （視條件而定）如果「已提交」區段預設未顯示，請按一下 **已提交** 在左側面板中。
+1. 按一下Adobe Workfront右上角的&#x200B;**主要功能表**&#x200B;圖示![](assets/main-menu-icon.png)，然後按一下&#x200B;**要求**。
+1. （視條件而定）如果「已提交」區段預設未顯示，請按一下左側面板中的&#x200B;**已提交**。
 
    >[!TIP]
    >
@@ -127,17 +127,17 @@ ht-degree: 2%
 
 1. 找到您要複製並提交為新內容的請求，然後執行下列任一項作業：
 
-   * 選取它，然後按一下 **複製** ![](assets/copy-and-submit-as-new-requests-area-nwe.png) （位於已提交請求清單的左上角）。
+   * 選取它，然後按一下[已提交請求]清單左上角的&#x200B;**複製** ![](assets/copy-and-submit-as-new-requests-area-nwe.png)。
 
    >[!TIP]
    >
    > 如果您未先選取請求，復製圖示會變暗。
 
-   * 按一下 **更多** 功能表 ![](assets/more-icon.png) 請求名稱右側，然後按一下 **複製並提交為新檔案**
+   * 按一下要求名稱右側的&#x200B;**更多**&#x200B;功能表![](assets/more-icon.png)，然後按一下&#x200B;**複製並送出為新專案**
 
      或
 
-     以滑鼠右鍵按一下選取的請求，然後按一下 **複製並提交為新檔案**.
+     在選取的請求上按一下滑鼠右鍵，然後按一下[複製]並送出為新請求&#x200B;**。**
 
      ![](assets/request-selected-more-menu-options-nwe-350x191.png)
 
@@ -148,13 +148,13 @@ ht-degree: 2%
 1. （選用）如有需要，請更新下列資訊：
 
    * **請求型別**：儲存所複製請求的請求佇列。 依預設，複製的請求會儲存至原始請求的請求佇列。
-   * **主題群組** 和 **佇列主題**，只要選取它們。 系統會針對您的環境自訂名稱或主題群組以及佇列主題。 依預設，複製的請求會儲存至主題群組和原始請求的佇列主題。
+   * 如果選取&#x200B;**主題群組**&#x200B;和&#x200B;**佇列主題**。 系統會針對您的環境自訂名稱或主題群組以及佇列主題。 依預設，複製的請求會儲存至主題群組和原始請求的佇列主題。
 
      >[!TIP]
      >
      >如果路徑從原始請求的路徑變更，則請求佇列的建立者會修改佇列。
 
-1. （選用）更新所複製請求的任何資訊。 根據請求佇列建立者在「 」中啟用的欄位 **新問題欄位** 的區段 **佇列詳細資訊** 您可以在此專案中找到下列任何欄位：
+1. （選用）更新所複製請求的任何資訊。 根據請求佇列建立者在專案的&#x200B;**佇列詳細資料**&#x200B;子標籤的&#x200B;**新問題欄位**&#x200B;區段中啟用的欄位，您可能會找到下列任何欄位：
 
    <table style="table-layout:auto"> 
     <col> 
@@ -162,7 +162,7 @@ ht-degree: 2%
     <tbody> 
      <tr> 
       <td role="rowheader"><strong>主旨</strong> </td> 
-      <td>顯示原始請求的名稱。 如有需要，請更新。 否則，Workfront會將複製的請求命名為 <b>副本 &lt;name of="" original="" request=""&gt;</b>. 此為必填欄位。</td> 
+      <td>顯示原始請求的名稱。 如有需要，請更新。 否則，Workfront會將複製的請求命名為<b> &lt;原始請求的名稱&gt;</b>的副本。 此為必填欄位。</td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>說明</strong> </td> 
@@ -184,7 +184,7 @@ ht-degree: 2%
        </ul> <p>您的Workfront管理員可以修改優先順序的名稱。</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>嚴重程度</strong> </td> 
+      <td role="rowheader"><strong>嚴重性</strong> </td> 
       <td> <p>指定要求的嚴重程度。 嚴重程度應該定義如果不能及時解決此請求對您工作的影響。 預設選項為：</p> 
        <ul> 
         <li>輕微</li> 
@@ -210,11 +210,11 @@ ht-degree: 2%
         </ul> </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>計畫小時</strong> </td> 
+      <td role="rowheader"><strong>規劃時數</strong> </td> 
       <td> <p>預估完成此請求所需的時間。</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>計畫開始日期</strong> </td> 
+      <td role="rowheader"><strong>計劃開始日期</strong> </td> 
       <td> <p>開始處理此請求的日期。</p> </td> 
      </tr> 
      <tr> 
@@ -241,6 +241,6 @@ ht-degree: 2%
    >* 附加到原始請求的所有自訂表單和自訂欄位中包含的值都會轉移到複製的請求。 這包括包含邏輯的欄位。
    >* 您無法從複製的請求中移除自訂表單。
 
-1. 按一下 **提交**.
+1. 按一下&#x200B;**提交**。
 
    複製的請求會在您指定的請求佇列中作為新請求提交。

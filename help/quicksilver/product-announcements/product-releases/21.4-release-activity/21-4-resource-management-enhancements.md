@@ -17,7 +17,7 @@ ht-degree: 0%
 
 此頁面說明21.4版本對「預覽」環境所做的所有資源管理增強功能。 這些增強功能將在2021年10月4日當週的生產環境中提供。
 
-如需21.4版本所有可用變更的清單，請參閱 [21.4版本總覽](../../../product-announcements/product-releases/21.4-release-activity/21-4-release-overview.md).
+如需21.4版本可用的所有變更清單，請參閱[21.4版本總覽](../../../product-announcements/product-releases/21.4-release-activity/21-4-release-overview.md)。
 
 ## 在工作負載平衡器中進行快速指派
 
@@ -25,7 +25,7 @@ ht-degree: 0%
 
 在此增強功能之前，您只能透過按一下任務或問題的更多選單，然後使用指派選項來指派專案。 現在，分配給使用者的計畫時數在拖曳任務時即時更新。
 
-有關在工作負載平衡器中指派工作專案的資訊，請參見 [在工作負載平衡器中指派工作的總覽](../../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md).
+有關在工作負載平衡器中指派工作專案的資訊，請參閱在工作負載平衡器中指派工作的概述[](../../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md)。
 
 ## 工作負載平衡器的新預設選項
 
@@ -44,9 +44,9 @@ ht-degree: 0%
 * 複製篩選器的功能
 * 與其他使用者共用篩選器
 
-如需詳細資訊，請參閱 [管理工作負載平衡器中的篩選器](../../../resource-mgmt/workload-balancer/filter-information-workload-balancer.md).
+如需詳細資訊，請參閱[在工作負載平衡器](../../../resource-mgmt/workload-balancer/filter-information-workload-balancer.md)中管理篩選器。
 
 >[!NOTE]
 >
->透過篩選器更新，我們已消除 **所有工作專案** 和 **此專案的工作專案** 專案的工作負載平衡器中的內建篩選器。
+>透過篩選器更新，我們已消除專案的工作負載平衡器中的&#x200B;**所有工作專案**&#x200B;和&#x200B;**此專案的工作專案**&#x200B;內建篩選器。
 

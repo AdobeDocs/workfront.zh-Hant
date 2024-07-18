@@ -45,15 +45,15 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-如需有關此表格的詳細資訊，請參閱 [Workfront檔案中的存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 ## 複製自訂表單以建立新表單
 
 {{step-1-to-setup}}
 
-1. 按一下 **自訂Forms。**
-1. 選取要作為新自訂表單基礎的自訂表單，然後按一下 ![復製圖示](assets/copy-icon.png).
-1. 在 **自訂表格複製** 在出現的方塊中，輸入下列資訊：
+1. 按一下&#x200B;**自訂Forms。**
+1. 選取要作為新自訂表單基礎的自訂表單，然後按一下![復製圖示](assets/copy-icon.png)。
+1. 在出現的&#x200B;**自訂表單復本**&#x200B;方塊中，輸入下列資訊：
 
    <table style="table-layout:auto"> 
     <col> 
@@ -65,7 +65,7 @@ ht-degree: 0%
      </tr> 
      <tr> 
       <td role="rowheader"> <p role="rowheader">表單型別 </p> </td> 
-      <td> <p>在 <b>表單型別</b> 方塊中，選取您要使用自訂表單的物件型別，然後按一下您要移除的任何型別旁的X。 已與此表單關聯的型別會在清單中停用。</p> 
+      <td> <p>在<b>表單型別</b>方塊中，選取您要使用自訂表單的物件型別，然後按一下您要移除的任何型別旁的X。 已與此表單關聯的型別會在清單中停用。</p> 
       <p><img src="assets/copy-form-obj-types-040524.png"></p> 
       <p>表單必須至少與一個物件型別相關聯。</p> 
       </td> 
@@ -73,14 +73,14 @@ ht-degree: 0%
     </tbody> 
    </table>
 
-1. 按一下 **複製**.
+1. 按一下&#x200B;**複製**。
 
    在原始表單中，如果計算欄位參考的欄位與您新增至新表單的物件型別不相容，則會出現一條訊息，提示您變更這些欄位中的計算。
 
    同樣地，如果原始表單上分割槽符號的存取選項與您新增到新表單的物件型別不相容，則會出現一則訊息，提示您調整選項。
 
-1. 選取您剛複製的表單，然後按一下 ![編輯圖示](assets/edit-icon.png).
-1. 對表單進行任何變更，如以下章節所述 [設計表單](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) 文章：
+1. 選取您剛複製的表單，然後按一下![編輯圖示](assets/edit-icon.png)。
+1. 如[設計表單](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)文章的下列章節所說明，對表單進行任何變更：
 
    * [重複使用已在其他自訂表單中使用的現有欄位或Widget](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md#reuse-an-existing-field-or-widget-already-used-in-another-custom-form)
       * [新增文字欄位](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md#add-text-fields)
@@ -90,4 +90,4 @@ ht-degree: 0%
       * [新增影像、PDF和影片](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md#add-images-pdfs-and-videos)
       * [新增Adobe XD檔案](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md#add-adobe-xd-files)
 
-1. （選擇性）按一下 **儲存+關閉**，將表單附加至您要使用的物件，如所述 [新增自訂表單至物件](/help/quicksilver/workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md).
+1. （選擇性）按一下&#x200B;**儲存+關閉**&#x200B;之後，將表單附加至您要使用它的物件，如[將自訂表單新增至物件](/help/quicksilver/workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md)中所述。

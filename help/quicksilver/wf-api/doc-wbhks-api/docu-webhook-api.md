@@ -10,8 +10,8 @@ role: Developer
 exl-id: 7ac2c6c8-1cb8-49df-8d63-a6b47ad02a13
 source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
 workflow-type: tm+mt
-source-wordcount: '3646'
-ht-degree: 3%
+source-wordcount: '3620'
+ht-degree: 2%
 
 ---
 
@@ -30,7 +30,7 @@ webhook型整合的使用者體驗將與現有檔案整合類似，例如Google 
 
 ## 參考實作
 
-為協助快速開始開發新的Webhook實作，Workfront提供參考實作。 此專案的程式碼可在下列位置找到： [https://github.com/Workfront/webhooks-app](https://github.com/Workfront/webhooks-app). 此實作以Java為基礎，可讓Workfront在網路檔案系統上連線檔案。
+為協助快速開始開發新的Webhook實作，Workfront提供參考實作。 您可以在[https://github.com/Workfront/webhooks-app](https://github.com/Workfront/webhooks-app)找到此專案的程式碼。 此實作以Java為基礎，可讓Workfront在網路檔案系統上連線檔案。
 
 ## 註冊Webhook整合
 
@@ -51,7 +51,7 @@ Workfront管理員可透過導覽至Workfront中的「設定>檔案>自訂整合
  </thead> 
  <tbody> 
   <tr> 
-   <td>名稱</td> 
+   <td>姓名</td> 
    <td>此整合的名稱。</td> 
   </tr> 
   <tr> 
@@ -108,7 +108,7 @@ OAuth2可讓Workfront代表使用者向webhook提供者發出授權的API呼叫�
 1. 使用者開始將webhook整合連線至其帳戶。 目前，若要這麼做，請按一下「新增檔案」下拉式清單>「新增服務」>自訂整合名稱。
 1. Workfront會導覽使用者驗證URL，這可能會提示使用者登入外部檔案提供者。 此頁面由webhook提供者或外部檔案管理系統託管。 Workfront這麼做時，會將「state」引數新增至驗證URL。 必須在下列步驟中，將相同的值附加至Workfront傳回URI，將此值傳回Workfront。
 1. 登入外部系統後（或如果使用者已登入），使用者將被帶到「驗證」頁面，此頁面說明Workfront正在請求存取權，以代表使用者執行一組動作。
-1. 如果使用者按一下「允許」按鈕，瀏覽器會重新導向至Workfront重新導向URI ，新增「code=`<code>`」到querystring。 根據OAuth2規格，此代號只會短暫有效。 查詢字串也必須具有下列「state=」`<sent_by_workfront>`「。
+1. 如果使用者按一下「允許」按鈕，瀏覽器會重新導向至Workfront重新導向URI ，並將「code=`<code>`」新增至querystring。 根據OAuth2規格，此代號只會短暫有效。 查詢字串也必須具有下列「state=`<sent_by_workfront>`」。
 1. Workfront處理此要求，並使用授權代碼對權杖端點URL進行API呼叫。
 1. 權杖端點URL會傳回重新整理權杖和存取權杖。
 1. Workfront會儲存這些Token並完整布建此使用者的webhook整合。
@@ -172,7 +172,7 @@ HTTP要求POST/any/url
 
 URL可設定，並與自訂整合設定頁面上的權杖端點URL值相對應。
 
-**查詢參數**
+**查詢引數**
 
 <table style="table-layout:auto"> 
  <col> 
@@ -180,7 +180,7 @@ URL可設定，並與自訂整合設定頁面上的權杖端點URL值相對應�
  <col> 
  <thead> 
   <tr> 
-   <th>名稱</th> 
+   <th>姓名</th> 
    <th>必要</th> 
    <th>說明</th> 
   </tr> 
@@ -224,8 +224,8 @@ URL可設定，並與自訂整合設定頁面上的權杖端點URL值相對應�
  <col> 
  <thead> 
   <tr> 
-   <th>名稱</th> 
-   <th>類型 </th> 
+   <th>姓名</th> 
+   <th>型別 </th> 
    <th>說明</th> 
   </tr> 
  </thead> 
@@ -277,9 +277,9 @@ client_secret=6asdf7a7a9a4af
 
 **URL**
 
-GET/metadata？id=[檔案或資料夾ID]
+/metadata？id=[檔案或資料夾識別碼]GET
 
-**查詢參數**
+**查詢引數**
 
 <table style="table-layout:auto"> 
  <col> 
@@ -309,13 +309,13 @@ GET/metadata？id=[檔案或資料夾ID]
  <thead> 
   <tr> 
    <th>名稱 </th> 
-   <th>類型 </th> 
+   <th>型別 </th> 
    <th>說明</th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td>title </td> 
+   <td>標題 </td> 
    <td>字串 </td> 
    <td>檔案或資料夾的名稱</td> 
   </tr> 
@@ -391,7 +391,7 @@ GET/metadata？id=[檔案或資料夾ID]
 
 GET/files
 
-**查詢參數**
+**查詢引數**
 
 | 名稱  | 說明 |
 |---|---|
@@ -442,7 +442,7 @@ GET/files
 
 GET/search
 
-**查詢參數**
+**查詢引數**
 
 <table style="table-layout:auto"> 
  <col> 
@@ -492,7 +492,7 @@ JSON，其中包含符合查詢的檔案和資料夾的中繼資料清單。 構
 
 GET/下載
 
-**查詢參數**
+**查詢引數**
 
 <table style="table-layout:auto"> 
  <col> 
@@ -527,7 +527,7 @@ GET/下載
 
 GET/thumbnail
 
-**查詢參數**
+**查詢引數**
 
 | 名稱  | 說明 |
 |---|---|
@@ -554,7 +554,7 @@ GET/thumbnail
 
 POST/uploadInit
 
-**查詢參數**
+**查詢引數**
 
 <table style="table-layout:auto"> 
  <col> 
@@ -595,7 +595,7 @@ POST/uploadInit
 
 **回應**
 
-`[file_metadata]` 包含檔案提供者使用的新檔案ID。
+`[file_metadata]`包含檔案提供者使用的新檔案識別碼。
 
 ### 上傳檔案 — 第2部分（共2部分）
 
@@ -605,7 +605,7 @@ POST/uploadInit
 
 PUT/upload
 
-**查詢參數**
+**查詢引數**
 
 | 名稱  | 說明 |
 |---|---|
@@ -634,7 +634,7 @@ PUT/upload
 }
 ```
 
-**範例：** `https://www.acme.com/api/upload?id=1234` *[更新流中包含的檔案位元組]*
+**範例：** `https://www.acme.com/api/upload?id=1234` *[包含在更新資料流中的檔案位元組]*
 
 **回應**
 
@@ -654,7 +654,7 @@ GET/serviceInfo
 
 查詢參數
 
-無. 此外，對此端點的呼叫不應需要驗證。
+無。 此外，對此端點的呼叫不應需要驗證。
 
 **回應**
 
@@ -666,8 +666,8 @@ GET/serviceInfo
  <col> 
  <thead> 
   <tr> 
-   <th>名稱</th> 
-   <th>類型 </th> 
+   <th>姓名</th> 
+   <th>型別 </th> 
    <th>說明</th> 
   </tr> 
  </thead> 
@@ -722,7 +722,7 @@ URL
 
 POST/createFolder
 
-**查詢參數**
+**查詢引數**
 
 | 名稱  | 說明 |
 |---|---|
@@ -770,7 +770,7 @@ URL
 
 PUT/delete
 
-**查詢參數**
+**查詢引數**
 
 | 名稱  | 說明 |
 |---|---|
@@ -808,7 +808,7 @@ URL
 
 PUT/重新命名
 
-**查詢參數**
+**查詢引數**
 
 | 名稱  | 說明 |
 |---|---|
@@ -819,11 +819,11 @@ PUT/重新命名
 
  
 
-個回應
+回應
 
 指示成功或失敗的JSON字串，如以下錯誤處理區段中所指定。
 
-**範例:**
+**範例：**
 
 `PUT https://www.acme.com/api/rename`
 
@@ -860,7 +860,7 @@ webhook提供者會將actions包含在customActions下的/serviceInfo回應中�
 
 GET/customAction
 
-**查詢參數**
+**查詢引數**
 
 <table style="table-layout:auto">
  <col>
@@ -929,7 +929,7 @@ GET/customAction
 
 若要驗證檔案webhook實作是否正常運作，請執行以下測試。 這些是透過Workfront網頁介面的手動測試，並間接點選webhook實施的端點。
 
-### 必要條件
+### 先決條件
 
 若要執行這些測試，您將需要下列專案：
 
@@ -1007,7 +1007,7 @@ GET/customAction
 測試下列端點： /thumbnail
 
 1. 將檔案連結至Workfront。
-1. 在清單中選取檔案。
+1. 選取清單中的文件。
 1. 確認縮圖出現在右側面板中。
 
 ### 測試9：取得內容位元組

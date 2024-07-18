@@ -51,26 +51,26 @@ ht-degree: 4%
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定*</td> 
-   <td> <p>計畫者或以上，具有提醒通知的管理存取權</p> <p>有關授予「計畫」使用者管理存取權的資訊，請參閱 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">授予使用者管理特定區域的存取權</a>.</p> </td> 
+   <td> <p>計畫者或以上，具有提醒通知的管理存取權</p> <p>如需有關授與計畫使用者管理存取權的資訊，請參閱<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">授與使用者對特定區域的管理存取權</a>。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;若要瞭解您擁有的計畫、授權型別或存取權，請聯絡您的Workfront管理員。
+&#42;若要瞭解您擁有的計畫、授權型別或存取權，請連絡您的Workfront管理員。
 
 ## 自訂事件通知的電子郵件主旨行 {#customize-email-subject-lines-for-event-notifications}
 
-1. 按一下 **主要功能表** 圖示 ![](assets/main-menu-icon.png) (位於Adobe Workfront的右上角)，然後按一下 **設定** ![](assets/gear-icon-settings.png).
+1. 按一下Adobe Workfront右上角的&#x200B;**主要功能表**&#x200B;圖示![](assets/main-menu-icon.png)，然後按一下&#x200B;**設定** ![](assets/gear-icon-settings.png)。
 
-1. 在左側面板中，按一下 **電子郵件** > **通知**.
+1. 在左側面板中，按一下&#x200B;**電子郵件** > **通知**。
 
-1. 按一下 **事件通知** 標籤。
-1. 按一下您要自訂之事件通知的名稱以開啟 **事件通知** 方塊。
-1. 在 **電子郵件主旨列** 方塊，變更電子郵件主旨中的文字和欄位，包括自訂欄位。
+1. 按一下「**事件通知**」標籤。
+1. 按一下您要自訂之事件通知的名稱以開啟&#x200B;**事件通知**&#x200B;方塊。
+1. 在&#x200B;**電子郵件主旨列**&#x200B;方塊中，變更電子郵件主旨中的文字和欄位，包括自訂欄位。
 
-   新增的欄位名稱必須符合資料庫結構的駝峰式大小寫語法。 <!--For more information about how our objects and their fields are named in the Workfront database, see the [Adobe Workfront API](../../../wf-api/workfront-api.md).-->
+   新增的欄位名稱必須符合資料庫結構的駝峰式大小寫語法。<!--For more information about how our objects and their fields are named in the Workfront database, see the [Adobe Workfront API](../../../wf-api/workfront-api.md).-->
 
-1. 按一下 **更新** 以儲存您電子郵件的新主旨列。
+1. 按一下&#x200B;**更新**&#x200B;以儲存您電子郵件的新主旨列。
 
 ## 自訂多物件電子郵件的電子郵件主旨行
 
@@ -84,7 +84,7 @@ ht-degree: 4%
 
 如果新增至專案交談，將會產生具有第二個主旨的電子郵件。 在此處，主旨列包含「topReferenceObject：name」，Workfront會再次識別參考的物件，並傳回該物件名稱，而非主旨中的「topReferenceObject：name」。 電子郵件主旨列看起來類似這樣：「對專案ABC發表評論」。
 
-若要編輯電子郵件主旨行並將其他欄位新增至主旨行，請參閱 [自訂事件通知的電子郵件主旨行](#customize-email-subject-lines-for-event-notifications) 本文章內容。
+若要編輯電子郵件主旨行並將其他欄位新增至主旨行，請參閱本文中的[自訂事件通知的電子郵件主旨行](#customize-email-subject-lines-for-event-notifications)。
 
 ## 自訂多動作電子郵件的電子郵件主旨列
 
@@ -94,4 +94,4 @@ ht-degree: 4%
 
 ![](assets/ev-not-mult-subj-lines-diff-actions.png)
 
-若要編輯電子郵件主旨行並將其他欄位新增至主旨行，請參閱 [自訂事件通知的電子郵件主旨行](#customize-email-subject-lines-for-event-notifications) 本文章內容。
+若要編輯電子郵件主旨行並將其他欄位新增至主旨行，請參閱本文中的[自訂事件通知的電子郵件主旨行](#customize-email-subject-lines-for-event-notifications)。

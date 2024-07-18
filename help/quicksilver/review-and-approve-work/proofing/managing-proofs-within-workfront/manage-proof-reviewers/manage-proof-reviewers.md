@@ -17,6 +17,6 @@ ht-degree: 0%
 
 # 管理校訂檢閱者
 
-* [設定校訂的存取權和訂閱設定](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/configure-access-subscription-settings-proof.md)
+* [設定校訂的存取和訂閱設定](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/configure-access-subscription-settings-proof.md)
 * [在Adobe Workfront中共用校訂](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md)
 * [傳送電子郵件訊息給校訂上的檢閱者](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/send-email-messages-to-users-proof.md)

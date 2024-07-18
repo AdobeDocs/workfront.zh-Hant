@@ -19,7 +19,7 @@ ht-degree: 0%
 
 Adobe Workfront提供設定時程表核准的功能，以支援此區域。
 
-如需有關提交時程表的資訊，請參閱 [提交時程表以供核准](../../timesheets/create-and-manage-timesheets/submit-timesheet-for-approval.md).
+如需有關提交時程表的資訊，請參閱[提交時程表以供核准](../../timesheets/create-and-manage-timesheets/submit-timesheet-for-approval.md)。
 
 ## 存取需求
 
@@ -50,23 +50,23 @@ Adobe Workfront提供設定時程表核准的功能，以支援此區域。
 
 時程表核准者會在建立時程表設定檔時定義。 您必須擁有計畫授權才能被指定為核准者。
 
-如需有關指定時程表核准者的詳細資訊，請參閱區段 [建立或編輯週期性時程表](../../timesheets/create-and-manage-timesheets/create-timesheet-profiles.md#create) 在文章中 [建立、編輯和指派週期性時程表](../../timesheets/create-and-manage-timesheets/create-timesheet-profiles.md).
+如需指定時程表核准者的詳細資訊，請參閱文章[建立、編輯和指派時程表設定檔](../../timesheets/create-and-manage-timesheets/create-timesheet-profiles.md)中的[建立或編輯時程表設定檔](../../timesheets/create-and-manage-timesheets/create-timesheet-profiles.md#create)小節。
 
 ## 核准時間表
 
-若您被指定為核准者，則您可核准任何已提交的時程表。 當時程表提交進行核準時，時程表會列在 **核准** 區域在您的 **首頁**  頁面。 如需詳細資訊，請參閱 [核准工作](../../review-and-approve-work/manage-approvals/approving-work.md).
+若您被指定為核准者，則您可核准任何已提交的時程表。 當時程表提交以供核準時，該時程表會列在您&#x200B;**首頁**&#x200B;上的&#x200B;**核准**&#x200B;區域中  頁面。 如需詳細資訊，請參閱[核准工作](../../review-and-approve-work/manage-approvals/approving-work.md)。
 
-如果Workfront管理員已啟用「使用者的時程表核准」和「使用者的時程表拒絕」事件處理常式，在核准或拒絕時程表後，您會收到通知。 如需啟用事件通知的詳細資訊，請參閱 [事件通知型別](../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md).
+如果Workfront管理員已啟用「使用者的時程表核准」和「使用者的時程表拒絕」事件處理常式，在核准或拒絕時程表後，您會收到通知。 如需啟用事件通知的詳細資訊，請參閱[事件通知型別](../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md)。
 
 若要核準時程表：
 
-1. 按一下 **主要功能表** 圖示 ![](assets/main-menu-icon.png) 在Adobe Workfront的右上角。
-1. 按一下 **時間表**.
-1. 選取 **我的時程表核准** 在頁面的右上角，僅檢視您核准的時程表
+1. 按一下Adobe Workfront右上角的&#x200B;**主要功能表**&#x200B;圖示![](assets/main-menu-icon.png)。
+1. 按一下&#x200B;**時程表**。
+1. 選取頁面右上角的&#x200B;**我的時程表核准**，僅檢視您核准的時程表
 
    或
 
-   選取 **我的時程表核准** 在時程表清單頂端篩選。
+   在時程表清單頂端選取&#x200B;**我的時程表核准**&#x200B;篩選器。
 
    ![](assets/my-timesheet-approvals-my-timesheets-pills-on-timesheets-list-nwe-350x58.png)
 
@@ -76,24 +76,24 @@ Adobe Workfront提供設定時程表核准的功能，以支援此區域。
    >
    >   
    >   
-   >   * [使用版面配置範本自訂篩選器、檢視和群組](../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)
+   >   * [使用配置範本自訂篩選器、檢視和群組](../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)
    >   
    >
 
-1. （可選）按一下 **搜尋** 圖示 ![](assets/search-icon.png) 在時程表清單頂端並輸入關鍵字，以找出特定時程表。 您可以搜尋時間範圍，或搜尋擁有者或核准者的名稱。
+1. （選擇性）按一下時程表清單頂端的&#x200B;**搜尋**&#x200B;圖示![](assets/search-icon.png)，然後輸入關鍵字以尋找特定時程表。 您可以搜尋時間範圍，或搜尋擁有者或核准者的名稱。
 1. 按一下您要核準時程表的時間範圍。 時程表隨即開啟。
 
    >[!TIP]
    >
-   >等待核准的時程表狀態為 [!UICONTROL 已提交].
+   >等待核准的時程表狀態為[!UICONTROL 已提交]。
 
 
-1. 按一下 **核准**
+1. 按一下&#x200B;**核准**
 
    或
 
-   如果您要拒絕時程表，請按一下 **拒絕** 在時程表的左下角。
+   若要拒絕時程表，請按一下時程表左下角的&#x200B;**拒絕**。
 
-   如果核准，時程表狀態會變更為 **已關閉**.
+   如果核准，時程表狀態會變更為&#x200B;**已關閉**。
 
-   如果拒絕，時程表狀態會變更為 **已拒絕**.
+   如果拒絕，時程表狀態會變更為&#x200B;**已拒絕**。

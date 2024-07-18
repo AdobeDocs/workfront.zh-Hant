@@ -19,5 +19,5 @@ ht-degree: 7%
 
 本節包含下列子章節：
 
-* [建立及管理請求佇列](../../manage-work/requests/create-and-manage-request-queues/create-manage-request-queues.md)
+* [建立和管理要求佇列](../../manage-work/requests/create-and-manage-request-queues/create-manage-request-queues.md)
 * [建立請求](../../manage-work/requests/create-requests/create-requests.md)

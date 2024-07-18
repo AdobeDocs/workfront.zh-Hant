@@ -10,8 +10,8 @@ role: Developer
 exl-id: 322f1525-d1d5-4845-a590-e34eb94ccdc2
 source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
-source-wordcount: '446'
-ht-degree: 1%
+source-wordcount: '441'
+ht-degree: 0%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 1%
 
 針對專案群組狀態：
 
->**範例:**
+>**範例：**
 
 ```
 /attask/api/<VERSION>/CSTEM/projectGroupStatuses?groupID=602d27640000bb3b779f770d5fb95d6d
@@ -37,7 +37,7 @@ ht-degree: 1%
 
 任務群組狀態：
 
->**範例:**
+>**範例：**
 
 ```
 /attask/api/<VERSION>/CSTEM/taskGroupStatuses?groupID=602d27640000bb3b779f770d5fb95d6d
@@ -45,17 +45,17 @@ ht-degree: 1%
 
 對於問題群組狀態：
 
->**範例:**
+>**範例：**
 
 ```
 /attask/api/<VERSION>/CSTEM/opTaskGroupStatuses?groupID=602d27640000bb3b779f770d5fb95d6d
 ```
 
-這三個端點都接受 **includeHidden=true** 引數，以擷取指定群組的隱藏專案/任務/問題狀態。 在這些最佳實務範例之後建立狀態搜尋查詢的模型，將確保每個回應中都包含所有群組狀態資訊。
+這三個端點都接受&#x200B;**includeHidden=true**&#x200B;引數，以擷取指定群組的隱藏專案/任務/問題狀態。 在這些最佳實務範例之後建立狀態搜尋查詢的模型，將確保每個回應中都包含所有群組狀態資訊。
 
-以下是向包含系統層級鎖定狀態的工作群組進行狀態搜尋查詢的範例 **Custom_1** 以及解除鎖定狀態 **Custom_2**：
+以下是正在對工作群組進行狀態搜尋查詢的範例，該工作群組包含系統層級的鎖定狀態&#x200B;**Custom_1**&#x200B;和解除鎖定狀態&#x200B;**Custom_2**：
 
->**範例:**
+>**範例：**
 
 ```
 /attask/api/<VERSION>/CSTEM/taskGroupStatuses?groupID=602d286d000004fc8f53942de697a868
@@ -116,7 +116,7 @@ ht-degree: 1%
 
 例如，此查詢（未遵循目前建議的最佳實務）：
 
->**範例:**
+>**範例：**
 
 ```
 /attask/api/<VERSION>/CSTEM/search?groupID=602d27640000bb3b779f770d5fb95d6d&enumClass=STATUS_TASK
@@ -177,7 +177,7 @@ ht-degree: 1%
 
 以下是更新舊版系統後，此過時請求結構傳回的範例：
 
->**範例:**
+>**範例：**
 
 ```
 /attask/api/<VERSION>/CSTEM/search?groupID=602d27640000bb3b779f770d5fb95d6d&enumClass=STATUS_TASK

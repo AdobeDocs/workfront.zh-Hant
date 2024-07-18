@@ -2,79 +2,80 @@
 product-area: projects
 navigation-topic: grant-and-request-access-to-objects
 title: 共用問題
-description: 您的Adobe Workfront管理員會授予使用者在指派存取層級時，可檢視或編輯問題的存取權。 有關授予對問題的訪問權限的詳細資訊，請參閱授予對問題的訪問權限。
+description: 當使用者指派存取層級時，您的Adobe Workfront管理員會授予他們檢視或編輯問題的存取權。 有關授予問題存取權的詳細資訊，請參閱授予問題存取權。
 author: Alina
 feature: Get Started with Workfront
 exl-id: 91ee72e0-20a9-4b06-9f80-a343dd4fbe06
 source-git-commit: dd7f61fcd92a43303be356dd3209ec6da6a063dd
 workflow-type: tm+mt
-source-wordcount: '670'
-ht-degree: 4%
+source-wordcount: '695'
+ht-degree: 2%
 
 ---
 
 # 共用問題
 
-您的Adobe Workfront管理員會授予使用者在指派存取層級時，可檢視或編輯問題的存取權。 如需授與問題存取權的詳細資訊，請參閱 [授予問題的存取權](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-issues.md).
+當使用者指派存取層級時，您的Adobe Workfront管理員會授予他們檢視或編輯問題的存取權。 如需授與問題存取權的詳細資訊，請參閱[授與問題存取權](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-issues.md)。
 
-除了授予使用者的存取層級之外，您也可以授予使用者檢視、貢獻或管理您有權存取之特定問題的權限。 如需存取層級和權限的詳細資訊，請參閱 [存取層級與權限如何搭配運作](../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md).
+除了授予使用者的存取層級之外，您還可以授予他們檢視、Contribute或管理您有權共用之特定問題的許可權。 如需存取層級和許可權的詳細資訊，請參閱[存取層級和許可權如何搭配運作](../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md)。
 
-權限是Workfront中一個項目專屬的權限，並定義可對該項目採取的動作。
+許可權專屬於Workfront中的一個專案，可定義使用者可對該專案執行的動作。
 
-## 共用問題的考量事項
+## 關於共用問題的考量事項
 
-除了下列考量事項外，另請參閱 [對象共用權限概述](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
+除了下列考量事項外，另請參閱[物件共用許可權概觀](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md)。
 
 >[!NOTE]
 >
->Workfront管理員可以為所有使用者新增或移除系統中任何項目的權限，而不是這些項目的擁有者。
+>Workfront管理員可以新增或移除系統中所有使用者的任何專案許可權，而無需擁有這些專案。
 
-* 問題的建立者預設具有「管理」權限。
-* 您可以個別分享問題，也可以一次分享其中幾個問題。 共用問題與在Workfront中共用其他項目相同。 如需在Workfront中共用項目的詳細資訊，請參閱 [共用物件](../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md).
-* 您可以授予問題下列權限： 
+* 依預設，問題的建立者擁有管理許可權。
+* 您可以個別共用問題，也可以一次共用數個問題。 共用問題等同於在Workfront中共用其他專案。 如需在Workfront中共用專案的詳細資訊，請參閱[共用物件](../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md)。
+* 您可以向問題授予下列許可權： 
 
    * 檢視
 
-      ![view_on_issue.png](assets/view-on-issue-221x216.png)
+     ![view_on_issue.png](assets/view-on-issue-221x216.png)
 
    * 管理
 
-      ![manage_on_issues.png](assets/manage-on-issues-179x199.png)
+     ![manage_on_issues.png](assets/manage-on-issues-179x199.png)
 
    * 參與\
-      ![contribute_on_issue.png](assets/contribute-on-issue-156x205.png)
+     ![contribute_on_issue.png](assets/contribute-on-issue-156x205.png)
 
-* 當您共用問題時，所有附加至問題的檔案都會繼承相同的權限。
+* 當您共用問題時，附加到問題的所有檔案都會繼承相同的許可權。
 
-   Workfront管理員可以指定文檔是否應繼承用戶訪問級別較高對象的權限。 有關限制對文檔繼承的權限的詳細資訊，請參見 [建立或修改自訂存取層級](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+  Workfront管理員可以指定檔案是否應該繼承使用者存取層級中較高物件的許可權。 如需有關限制檔案繼承許可權的詳細資訊，請參閱[建立或修改自訂存取層級](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)。
 
-* 您可以從問題中移除繼承的權限。 如需詳細資訊，請參閱 [從對象中刪除權限](../../workfront-basics/grant-and-request-access-to-objects/remove-permissions-from-objects.md).
+* 您可以從問題中移除繼承的許可權。 如需詳細資訊，請參閱[從物件移除許可權](../../workfront-basics/grant-and-request-access-to-objects/remove-permissions-from-objects.md)。
 
 ## 共用問題的方式
 
-* 手動，類似於在Workfront中共用任何其他物件。 如需如何在Workfront中共用物件的詳細資訊，請參閱 [共用物件](../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md).
-* 自動執行下列任一操作：
+* 手動，類似Workfront中的共用任何其他物件。 如需有關如何在Workfront中共用物件的詳細資訊，請參閱[共用物件](../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md)。
+* 執行下列任一項作業以自動執行：
 
-   * 指定問題任何父對象的權限：專案、方案或產品組合。 問題會繼承其父對象的權限。 有關查看對象繼承的權限的資訊，請參見 [查看對象的繼承權限](../../workfront-basics/grant-and-request-access-to-objects/view-inherited-permissions-on-objects.md).
-   * 在用於建立問題所在專案的範本上，將實體新增至專案共用。 如需從範本共用專案的相關資訊，請參閱 [共用範本](../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md).
+   * 指定問題之任何父系物件的許可權：專案、方案或投資組合。 問題會繼承其父物件的許可權。 如需有關檢視物件繼承許可權的資訊，請參閱[檢視物件的繼承許可權](../../workfront-basics/grant-and-request-access-to-objects/view-inherited-permissions-on-objects.md)。
+   * 在用來建立問題所在專案的範本上，將實體新增到專案共用。 如需從範本共用專案的詳細資訊，請參閱[共用範本](../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md)。
 
-   * 在編輯專案時，指定專案中所有問題的權限。 如需根據使用者對專案的權限管理專案上問題或要求的存取權限的相關資訊，請參閱 [](../../manage-work/projects/manage-projects/edit-projects.md#access) 文章一節 [編輯專案](../../manage-work/projects/manage-projects/edit-projects.md).
+   * 指定編輯專案時專案中所有問題的許可權。 如需有關根據使用者對專案的許可權來管理專案上問題或請求的存取許可權的資訊，請參閱文章[編輯專案](../../manage-work/projects/manage-projects/edit-projects.md)中的[](../../manage-work/projects/manage-projects/edit-projects.md#access)區段。
 
-      >[!TIP]
-      >
-      >如果您未指定將使用者指派給專案上的問題時，希望他們擁有的問題權限，依預設，他們會獲得與專案相同的權限。
+     >[!TIP]
+     >
+     >如果您未指定將使用者指派給專案問題的時候您希望使用者擁有哪些問題許可權，預設情況下，他們會獲得在專案上擁有的相同許可權。
 
-   * 指定使用者在建立請求佇列時，在請求佇列中提交的問題時收到的權限。 如需詳細資訊，請參閱 [建立請求佇列](../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
+   * 指定使用者在建立請求佇列時，針對在請求佇列中提交的問題所接收的許可權。 如需詳細資訊，請參閱[建立要求佇列](../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md)。
 
-      >[!IMPORTANT]
-      >
-      >根據專案是否以請求佇列發佈，授予的權限會有所不同：
-      >
-      >   
-      >   
-      >   * 當用戶將請求提交到發佈為請求隊列的項目時，「主要聯繫人」和「輸入者」將獲得指定的權限。
-      >   * 當用戶向未作為請求隊列發佈的項目提交請求時，主要聯繫人（如果與「輸入者」不同）將獲得指定的權限，而「輸入者」用戶則獲得該問題的「管理」權限。
-
+     >[!IMPORTANT]
+     >
+     >根據專案是否發佈為請求佇列，授予許可權的方式有所不同：
+     >
+     >   
+     >   
+     >   * 當使用者將請求提交到作為請求佇列發佈的專案時，主要聯絡人和輸入者使用者將被授予指定的許可權。
+     >   * 當使用者將請求提交到未作為請求佇列發佈的專案時，主要聯絡人（如果與「輸入者」使用者不同）被授予指定的許可權，並且「輸入者」使用者被授予該問題的管理許可權。
+     >   
+     >
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -131,9 +132,9 @@ ht-degree: 4%
 </div>
 -->
 
-## 問題權限
+## 問題許可權
 
-下表顯示允許使用者檢視、貢獻或管理問題時，您可授予哪些權限：
+下表顯示當允許使用者檢視、Contribute或管理問題時，您可以授予他們哪些許可權：
 
 <table style="table-layout:auto"> 
  <col> 
@@ -144,112 +145,112 @@ ht-degree: 4%
   <tr> 
    <td><strong>動作</strong> </td> 
    <td><strong>管理</strong> </td> 
-   <td><strong>參與</strong> </td> 
+   <td><strong>Contribute</strong> </td> 
    <td><strong>檢視</strong> </td> 
   </tr> 
   <tr> 
-   <td> <p>新增  個問題</p> </td> 
-   <td>✓</td> 
+   <td> <p>新增問題</p> </td> 
+   <td>✓ (A)</td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>刪除 </td> 
-   <td>✓</td> 
+   <td>✓ (A)</td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td>附加自訂表格</td> 
-   <td>✓</td> 
+   <td>附加自訂表單</td> 
+   <td>✓ (A)</td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>編輯自訂欄位</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ (A)</td> 
+   <td>✓ (A)</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>核准問題</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ (A)</td> 
+   <td>✓ (A)</td> 
+   <td>✓ (A)</td> 
   </tr> 
   <tr> 
-   <td>新增核准程式</td> 
-   <td>✓</td> 
+   <td>新增核准流程</td> 
+   <td>✓ (A)</td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>新增文件</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ (A)</td> 
+   <td>✓ (A)</td> 
+   <td>✓ (A)</td> 
   </tr> 
   <tr> 
    <td>複製問題*</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ (A)</td> 
+   <td>✓ (A)</td> 
+   <td>✓ (A)</td> 
   </tr> 
   <tr> 
    <td>移動問題</td> 
-   <td>✓</td> 
+   <td>✓ (A)</td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>記錄時數</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ (A)</td> 
+   <td>✓ (A)</td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td>轉換至專案*</td> 
-   <td>✓</td> 
+   <td>轉換為專案*</td> 
+   <td>✓ (A)</td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td>接受分配</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>接受指派</td> 
+   <td>✓ (A)</td> 
+   <td>✓ (A)</td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td>更新/注釋</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>更新/評論</td> 
+   <td>✓ (A)</td> 
+   <td>✓ (A)</td> 
+   <td>✓ (A)</td> 
   </tr> 
   <tr> 
    <td>修改計畫日期</td> 
-   <td>✓</td> 
+   <td>✓ (A)</td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>進行任務指派</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ (A)</td> 
+   <td>✓ (A)</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>共用</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ (A)</td> 
+   <td>✓ (A)</td> 
+   <td>✓ (A)</td> 
   </tr> 
   <tr> 
-   <td>共用系統範圍</td> 
+   <td>全系統共用</td> 
    <td> </td> 
    <td> </td> 
-   <td>✓</td> 
+   <td>✓ (A)</td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;由專案的存取層級和權限控制。
+&#42;由專案的存取層級和許可權所控制。

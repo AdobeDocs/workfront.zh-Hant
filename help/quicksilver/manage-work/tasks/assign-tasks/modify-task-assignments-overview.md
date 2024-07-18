@@ -30,12 +30,12 @@ ht-degree: 0%
 
 本文包含有關修改任務指派之影響的一般資訊。 如需如何指派工作的相關資訊，請參閱下列文章：
 
-* 如需指派工作的相關資訊，請參閱 [指派任務](../../../manage-work/tasks/assign-tasks/assign-tasks.md) 和 [修改任務清單中的多個使用者指派](../../../manage-work/tasks/assign-tasks/modify-multiple-assignments-in-task-list.md).
+* 如需指派工作的相關資訊，請參閱[指派工作](../../../manage-work/tasks/assign-tasks/assign-tasks.md)和[修改工作清單中的多個使用者指派](../../../manage-work/tasks/assign-tasks/modify-multiple-assignments-in-task-list.md)。
 
 * 如需有關在「排程」區域中修改多個任務指派的資訊，請參閱「在排程區域中修改多個使用者指派給任務」。
-* 如需有關使用工作負載平衡器指派任務的資訊，請參閱 [在工作負載平衡器中指派工作的總覽](../../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md).
+* 如需有關使用工作負載平衡器指派工作的資訊，請參閱在工作負載平衡器](../../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md)中指派工作的總覽。[
 
-本文中的部分資訊也適用於問題的指派。 有關指派問題和其他考量事項的詳細資訊，請參閱 [修改問題指派的概觀](../../../manage-work/issues/manage-issues/modify-issue-assignments-overview.md).
+本文中的部分資訊也適用於問題的指派。 如需指派問題及其他考量事項的詳細資訊，請參閱[修改問題指派的概觀](../../../manage-work/issues/manage-issues/modify-issue-assignments-overview.md)。
 
 ## 何時修改任務的使用者指派
 
@@ -46,7 +46,7 @@ ht-degree: 0%
 
   >[!NOTE]
   >
-  >指派使用者工作時，其根據排程的可用性會影響任務的計畫和預計日期。 如需排程的相關資訊，請參閱 [建立排程](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
+  >指派使用者工作時，其根據排程的可用性會影響任務的計畫和預計日期。 如需排程的相關資訊，請參閱[建立排程](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md)。
 
 * 特定角色或使用者被設定為多個任務的受指派人，而您想要快速修改要指派給不同使用者或角色的所有專案
 
@@ -54,7 +54,7 @@ ht-degree: 0%
 
 將多個資源指派給工作專案時，請考量下列事項：
 
-* 使用者可以有多個與其設定檔相關聯的工作角色。 如需將使用者與工作角色建立關聯的資訊，請參閱 [編輯使用者設定檔](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
+* 使用者可以有多個與其設定檔相關聯的工作角色。 如需將使用者與工作角色建立關聯的資訊，請參閱[編輯使用者的設定檔](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md)。
 
 * 任務或問題通常會先指派給一或多個工作角色或團隊。 當專案準備開始時，也需要將其指派給使用者。\
   如果將任務或問題指派給一個或多個角色，然後您也指派了使用者，Adobe Workfront會根據以下規則決定要將哪個工作角色與其他使用者（如果有）相關聯：
@@ -67,25 +67,25 @@ ht-degree: 0%
 
 ## 移除被指定者如何影響任務時數和分配百分比
 
-移除使用者可能會影響任務時數和分配百分比。 移除使用者對任務的影響，取決於為任務選取的「期間型別」。 如需持續時間型別的詳細資訊，請參閱 [任務期間與期間型別概觀](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
+移除使用者可能會影響任務時數和分配百分比。 移除使用者對任務的影響，取決於為任務選取的「期間型別」。 如需有關期間型別的資訊，請參閱[任務期間與期間型別的概觀](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md)。
 
 當您從具有以下期間型別的任務中刪除使用者時：
 
-* **簡單：** 指派給該使用者的計畫時數會從任務的計畫時數總計中扣除。
+* **簡單：**&#x200B;指派給該使用者的計畫時數會從任務的總計畫時數中扣除。
 
   >[!IMPORTANT]
   >
   >這可能會對您的專案計畫產生負面影響，因為它會變更任務和專案的總計畫時數。
 
-* **投入比導向：** 其他使用者的配置百分比不會變更。
-* **計算的任務指派：** 會調整其他使用者的配置百分比，使總計等於100%。
-* **已計算的工作：** 其他使用者的配置百分比不會變更。
+* **投入比導向：**&#x200B;其他使用者的配置百分比不會變更。
+* **計算的指派：**&#x200B;調整其他使用者的配置百分比，使總計等於100%。
+* **已計算的工作：**&#x200B;其他使用者的配置百分比不會變更。
 
 ## 取消指派工作的考量事項
 
 您可以一次移除一個任務中的指派，也可以大量移除多個任務中的指派。
 
-如需有關從大量任務中移除指派的詳細資訊，請參閱 [修改任務清單中的多個使用者指派](../../../manage-work/tasks/assign-tasks/modify-multiple-assignments-in-task-list.md).
+如需從大量工作移除指派的詳細資訊，請參閱[修改工作清單中的多個使用者指派](../../../manage-work/tasks/assign-tasks/modify-multiple-assignments-in-task-list.md)。
 
 從任務中移除指派時，請考量下列事項：
 

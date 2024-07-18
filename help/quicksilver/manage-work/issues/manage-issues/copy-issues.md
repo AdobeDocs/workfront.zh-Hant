@@ -8,7 +8,7 @@ feature: Work Management
 exl-id: a28adc22-825f-401e-9ed2-efddaa297b8d
 source-git-commit: e416a23cab139bff6d0d59b3816fb192c8f92b0b
 workflow-type: tm+mt
-source-wordcount: '1044'
+source-wordcount: '1046'
 ht-degree: 1%
 
 ---
@@ -46,16 +46,16 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td role="rowheader">存取層級*</td> 
-   <td> <p>編輯問題的存取權</p> <p>檢視專案和任務的或更高存取權</p> <p>注意：如果您還是沒有存取權，請詢問您的Workfront管理員，他們是否在您的存取層級中設定其他限制。 如需存取存取存取層級中問題的相關資訊，請參閱 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-issues.md" class="MCXref xref">授予問題的存取許可權</a>. 如需有關Workfront管理員如何變更您的存取層級的資訊，請參閱 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>. </p> </td> 
+   <td> <p>編輯問題的存取權</p> <p>檢視專案和任務的或更高存取權</p> <p>注意：如果您還是沒有存取權，請詢問您的Workfront管理員，他們是否在您的存取層級中設定其他限制。 如需存取您存取層級中問題的相關資訊，請參閱<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-issues.md" class="MCXref xref">授與問題的存取權</a>。 如需Workfront管理員如何變更存取層級的詳細資訊，請參閱<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>。 </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">物件許可權</td> 
-   <td> <p>管理問題的許可權</p> <p>將許可權貢獻給您要複製問題的專案，並具有「新增問題」功能。</p> <p> 有關授予問題許可權的資訊，請參閱 <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">共用問題 </a></p> <p>如需請求其他許可權的相關資訊，請參閱 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">要求物件的存取權 </a>.</p> </td> 
+   <td> <p>管理問題的許可權</p> <p>您要將問題複製到其中的專案的Contribute許可權，以及新增問題的功能。</p> <p> 如需授與問題許可權的相關資訊，請參閱<a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">共用問題</a></p> <p>如需請求其他許可權的資訊，請參閱<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">請求物件</a>的存取權。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;若要瞭解您擁有的計畫、授權型別或存取權，請聯絡您的Workfront管理員。
+&#42;若要瞭解您擁有的計畫、授權型別或存取權，請連絡您的Workfront管理員。
 
 ## 複製問題時的注意事項
 
@@ -66,7 +66,7 @@ ht-degree: 1%
 依預設，下列專案會複製到新問題：
 
 * 主要連絡人
-* 自訂表單. 只有在複製過程中選取「自訂資料」時，自訂欄位中的資訊才會複製到新問題。
+* 自訂表格。 只有在複製過程中選取「自訂資料」時，自訂欄位中的資訊才會複製到新問題。
 * 核准
 * 計劃開始與計畫完成日期
 
@@ -78,9 +78,9 @@ ht-degree: 1%
 
 複製包含檔案或與請求佇列關聯的問題時，請考量下列事項：
 
-* **當問題與請求佇列相關聯時：** 當您將問題複製到另一個物件且問題與請求佇列關聯時，複製的問題不再與第一個問題源自的原始佇列關聯。
-* **當檔案附加到問題時：** 當您將問題複製到另一個物件且問題附加有檔案時，檔案及其版本也會移至新問題。 與檔案關聯的任何校訂或核准都不會移動。
-* **將問題連結至檔案或資料夾時：** 當您複製具有連結至第三方服務(例如Google Drive)的檔案或資料夾的問題時，檔案的連結會轉移至複製的問題。
+* **當問題與請求佇列關聯時：**&#x200B;當您將問題複製到另一個物件且問題與請求佇列關聯時，複製的問題不再與第一個問題源自的原始佇列關聯。
+* **當檔案附加到問題時：**&#x200B;當您將問題複製到另一個物件且問題具有附加的檔案時，檔案及其版本也會移至新問題。 與檔案關聯的任何校訂或核准都不會移動。
+* **當問題連結至檔案或資料夾時：**&#x200B;當您複製具有連結至第三方服務(例如Google Drive)之檔案或資料夾的問題時，檔案連結會傳輸到已複製的問題。
 
 ## 複製清單中的問題
 
@@ -92,12 +92,12 @@ ht-degree: 1%
 
    前往問題報告。
 
-1. 如果您選取前往專案，請按一下 **問題** 在左側面板中。
-1. 選取您要複製的一個或多個問題，然後按一下 **更多選單** 在問題清單頂端，然後按一下 **複製到**.
+1. 如果您選擇前往專案，請按一下左側面板中的&#x200B;**問題**。
+1. 選取您要複製的問題並按一下問題清單頂端的&#x200B;**更多功能表**，然後按一下&#x200B;**複製到**。
 
    ![](assets/copy-issue-in-list-nwe-350x169.png)
 
-1. 繼續複製問題，如區段中所述 [複製單一問題](#copy-a-single-issue) 從步驟2開始。
+1. 繼續複製問題，如從步驟2開始的[複製單一問題](#copy-a-single-issue)一節中所述。
 
    <!--
    <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -109,30 +109,30 @@ ht-degree: 1%
 
 您可以在檢視時複製一個問題。
 
-1. 移至您要複製的問題，然後按一下 **更多** 功能表 ![](assets/more-icon.png) 問題名稱右側，然後 **複製** 到。
+1. 移至您要複製的問題，然後按一下問題名稱右側的&#x200B;**更多**&#x200B;功能表![](assets/more-icon.png)，然後按一下&#x200B;**複製**。
 
    ![](assets/nwe-copy-at-issue-level-highlighted-350x580.png)
 
-   此 **複製問題** 方塊隨即顯示。
+   顯示&#x200B;**複製問題**&#x200B;方塊。
 
    ![](assets/copy-issue-box-nwe-350x285.png)
 
-1. 在 **選取目標專案** 區段，指定您要複製問題的專案名稱。 預設會顯示目前專案的名稱。
+1. 在&#x200B;**選取目的地專案**&#x200B;區段中，指定您要複製問題的專案名稱。 預設會顯示目前專案的名稱。
 
    >[!TIP]
    >
    >清單中只會顯示100個專案。
 
-1. （視條件而定）按一下 **要求存取權** 如果您沒有將問題複製到專案的許可權。
+1. （視條件而定）如果您沒有將問題複製到專案的存取權，請按一下&#x200B;**要求存取權**。
 1. （視條件而定）如果您有權將問題新增至目的地專案上的任務之一，請繼續將問題複製到所選目的地專案，而不要求存取權。
 
    ![](assets/copy-issue-request-access-from-project-nwe-350x125.png)
 
    >[!TIP]
    >
-   >如果Workfront管理員防止將問題新增到這些專案中，所選專案處於未決核准、已完成或已終止狀態，則會顯示類似訊息。 如需詳細資訊，請參閱 [設定全系統專案偏好設定](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+   >如果Workfront管理員防止將問題新增到這些專案中，所選專案處於未決核准、已完成或已終止狀態，則會顯示類似訊息。 如需詳細資訊，請參閱[設定全系統的專案偏好設定](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md)。
 
-1. （選用）在 **選項** 部分，取消選取下表中列出的任何專案，以將其從新問題中移除。 依預設會選取所有選項。
+1. （選擇性）在&#x200B;**選項**&#x200B;區段中，取消選取下表所列的任何專案，以將其從新問題中移除。 依預設會選取所有選項。
 
    >[!NOTE]
    >
@@ -152,7 +152,7 @@ ht-degree: 1%
      </tr> 
      <tr> 
       <td role="rowheader">文件</td> 
-      <td><span style="line-height: 1.5;">移除檔案標籤中的所有專案，包括檔案版本、連結的檔案和資料夾。</span> <br>依預設，檔案校訂和核准無法複製到另一個問題。</td> 
+      <td><span style="line-height: 1.5;">移除檔案索引標籤中的所有專案，包括檔案版本、連結的檔案和資料夾。</span> <br>依預設，檔案校訂和核准無法複製到另一個問題。</td> 
      </tr> 
      <tr> 
       <td role="rowheader">權限</td> 
@@ -169,8 +169,8 @@ ht-degree: 1%
     </tbody> 
    </table>
 
-1. （選用）在 **選取任務** 區段，選取您要移動問題的任務。
-1. 按一下 **複製問題** 或 **複製問題** 如果您在清單中選取了多個問題。
+1. （選擇性）在&#x200B;**選取任務**&#x200B;區段中，選取您要移動問題的任務。
+1. 按一下「**複製問題**」，或如果您在清單中選取多個問題，請按一下「**複製問題**」。
 
    複製的問題會新增至指定的專案。
 

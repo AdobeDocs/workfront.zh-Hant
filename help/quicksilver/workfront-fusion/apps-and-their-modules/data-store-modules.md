@@ -4,7 +4,7 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: apps-and-their-modules
 title: 資料存放區模組
-description: 一個 [!DNL Adobe Workfront Fusion] 資料存放區（類似於資料庫或簡單表格）可以儲存案例的資料，以便在個別案例或案例執行之間傳輸資料。 您可以在同步期間使用資料存放區來儲存來自不同系統的新資料。
+description: ' [!DNL Adobe Workfront Fusion] 資料存放區（類似資料庫或簡單表格）可儲存案例的資料，因此可在個別案例或案例執行之間傳輸資料。 您可以在同步期間使用資料存放區來儲存來自不同系統的新資料。'
 author: Becky
 feature: Workfront Fusion
 exl-id: 1dc9cb88-d1b9-4a67-91fb-be980cc1ccd1
@@ -15,13 +15,13 @@ ht-degree: 0%
 
 ---
 
-# [!UICONTROL 資料存放區] 模組
+# [!UICONTROL 資料存放區]模組
 
-一個 [!DNL Adobe Workfront Fusion] 資料存放區（類似於資料庫或簡單表格）可以儲存案例的資料，以便在個別案例或案例執行之間傳輸資料。 您可以在同步期間使用資料存放區來儲存來自不同系統的新資料。
+[!DNL Adobe Workfront Fusion]資料存放區（類似資料庫或簡單表格）可以儲存案例的資料，因此可以在個別案例或案例執行之間傳輸資料。 您可以在同步期間使用資料存放區來儲存來自不同系統的新資料。
 
-資料存放區模組可讓您新增、取代、更新、擷取、刪除、搜尋或計算您的記錄數 [!DNL Adobe Workfront Fusion] 資料存放區。
+資料存放區模組可讓您新增、取代、更新、擷取、刪除、搜尋或計算[!DNL Adobe Workfront Fusion]資料存放區中的記錄。
 
-如需有關建立、編輯和疑難排解資料存放區的資訊，請參閱 [資料儲存位置 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/data-stores.md)
+如需有關建立、編輯和疑難排解資料存放區的資訊，請參閱[資料存放區位於 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/data-stores.md)
 
 如需有關Workfront Fusion中資料存放區的影片簡介，請參閱：
 
@@ -46,41 +46,41 @@ ht-degree: 0%
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] 授權**</td> 
    <td>
-   <p>目前授權需求：否 [!DNL Workfront Fusion] 授權需求。</p>
+   <p>目前授權需求：無[!DNL Workfront Fusion]授權需求。</p>
    <p>或</p>
-   <p>舊版授權需求： [！UICONTROL [!DNL Workfront Fusion] 工作自動化與整合]，請參閱[！UICONTROL [!DNL Workfront Fusion] 工作自動化專用]</p>
+   <p>舊版授權需求： [！UICONTROL [!DNL Workfront Fusion] for Work Automation and Integration]，[！UICONTROL [!DNL Workfront Fusion] for Work Automation]</p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">產品</td> 
    <td>
-   <p>目前產品需求：如果您有[！UICONTROL Select]或[！UICONTROL Prime] [!DNL Adobe Workfront] 計畫，您的組織必須購買 [!DNL Adobe Workfront Fusion] 以及 [!DNL Adobe Workfront] 以使用本文所述的功能。 [!DNL Workfront Fusion] 包含在[！UICONTROL Ultimate]中 [!DNL Workfront] 計畫。</p>
+   <p>目前產品需求：如果您有[！UICONTROL Select]或[！UICONTROL Prime] [!DNL Adobe Workfront]計畫，您的組織必須購買[!DNL Adobe Workfront Fusion]及[!DNL Adobe Workfront]，才能使用本文所述的功能。 [!DNL Workfront Fusion]包含在[！UICONTROL Ultimate] [!DNL Workfront]計畫中。</p>
    <p>或</p>
-   <p>舊版產品需求：貴組織必須購買 [!DNL Adobe Workfront Fusion] 以及 [!DNL Adobe Workfront] 以使用本文所述的功能。</p>
+   <p>舊版產品需求：您的組織必須購買[!DNL Adobe Workfront Fusion]及[!DNL Adobe Workfront]，才能使用本文所述的功能。</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-若要瞭解您擁有的計畫、授權型別或存取權，請聯絡您的 [!DNL Workfront] 管理員。
+若要瞭解您擁有的計畫、授權型別或存取權，請連絡您的[!DNL Workfront]管理員。
 
-有關的資訊 [!DNL Adobe Workfront Fusion] 授權，請參閱 [[!DNL Adobe Workfront Fusion] 授權](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+如需[!DNL Adobe Workfront Fusion]授權的相關資訊，請參閱[[!DNL Adobe Workfront Fusion] 授權](../../workfront-fusion/get-started/license-automation-vs-integration.md)。
 
 ## 先決條件
 
-使用 [!UICONTROL 資料存放區] 模組，您必須先建立資料存放區。
+若要使用[!UICONTROL 資料存放區]模組，您必須先建立資料存放區。
 
-如需建立資料存放區的詳細資訊，請參閱 [資料儲存位置 [!UICONTROL Adobe Workfront Fusion]](../../workfront-fusion/modules/data-stores.md)
+如需建立資料存放區的資訊，請參閱[!UICONTROL Adobe Workfront Fusion]](../../workfront-fusion/modules/data-stores.md)中的[資料存放區
 
-## [!UICONTROL 資料存放區] 模組及其欄位
+## [!UICONTROL 資料存放區]模組及其欄位
 
-當您設定資料存放區模組時， [!DNL Workfront Fusion] 顯示下列欄位。 除此之外，其他資料存放區欄位可能會顯示，端視您應用程式或服務中的存取層級等因素而定。 模組中的粗體標題表示必填欄位。
+當您設定資料存放區模組時，[!DNL Workfront Fusion]會顯示下列欄位。 除此之外，其他資料存放區欄位可能會顯示，端視您應用程式或服務中的存取層級等因素而定。 模組中的粗體標題表示必填欄位。
 
-如果您在欄位或函式上方看到對應按鈕，則可以使用它來設定該欄位的變數和函式。 如需詳細資訊，請參閱 [在中將資訊從一個模組對應到另一個模組 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
+如果您在欄位或函式上方看到對應按鈕，則可以使用它來設定該欄位的變數和函式。 如需詳細資訊，請參閱[在 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md)中將資訊從一個模組對應到另一個模組。
 
 ![](assets/map-toggle-350x74.png)
 
-全部 [!UICONTROL 資料存放區] 模組是動作型別模組。
+所有[!UICONTROL 資料存放區]模組都是動作型別模組。
 
 * [新增/取代記錄](#addreplace-a-record)
 * [更新記錄](#update-a-record)
@@ -101,7 +101,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->當您嘗試將已存在於資料存放區中的記錄以相同名稱新增時，模組會擲回錯誤， [!UICONTROL 覆寫現有記錄] 選項已停用。
+>當您嘗試以相同名稱新增資料存放區中的記錄時，模組擲回錯誤，且[!UICONTROL 覆寫現有記錄]選項已停用。
 
 當您設定此模組時，會顯示下列欄位。
 
@@ -271,7 +271,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td>[！UICONTROL限制]</td> 
-   <td> <p> 設定搜尋結果的最大數量 [!DNL Workfront Fusion] 在一個執行週期內傳回。</p> </td> 
+   <td> <p> 設定在一個執行週期內傳回的搜尋結果數目上限[!DNL Workfront Fusion]。</p> </td> 
   </tr> 
   <tr> 
    <td>[！UICONTROL即使模組未傳回任何結果，仍繼續執行路由]</td> 
@@ -280,7 +280,7 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-### [!UICONTROL 計算記錄]
+### [!UICONTROL 記錄數]
 
 此動作模組對資料存放區中的記錄進行編號。
 

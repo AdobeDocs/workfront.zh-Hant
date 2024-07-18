@@ -1,8 +1,8 @@
 ---
 product-area: projects
 navigation-topic: update-work-in-a-project
-title: 將狀態應用於與組關聯的工作
-description: 如果項目與組關聯，則可以將系統級狀態以及與該組關聯的自定義狀態應用到該項目、任務或問題。
+title: 將狀態套用至與群組相關聯的工作
+description: 如果專案與群組相關聯，您可以將系統層級狀態以及與該群組相關聯的自訂狀態套用至該專案上的專案、任務或問題。
 author: Alina
 feature: Work Management
 exl-id: 7564ab6a-8ddf-4e76-8e45-d59f9cf8d38b
@@ -13,17 +13,17 @@ ht-degree: 0%
 
 ---
 
-# 將狀態應用於與組關聯的工作
+# 將狀態套用至與群組相關聯的工作
 
 <!--
 Alina, I moved this out of an admin article about statuses (Create and customize statuses)
 -->
 
-如果項目與組關聯，則可以將系統級狀態以及與該組關聯的自定義狀態應用到項目，或將任務和項目問題應用到該項目。 如需Adobe Workfront中群組狀態的相關資訊，請參閱 [建立或編輯狀態](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md).
+如果專案與群組相關聯，您可以將系統層級狀態以及與該群組相關聯的自訂狀態套用至專案，或套用至該專案上的任務和問題。 如需Adobe Workfront中群組狀態的詳細資訊，請參閱[建立或編輯狀態](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md)。
 
 >[!TIP]
 >
->您只能將專案與群組建立關聯。 問題和任務會從組所屬的項目繼承組。
+>您只能將專案與群組建立關聯。 問題和任務會從他們所屬的專案繼承群組。
 
 ## 存取需求
 
@@ -58,7 +58,7 @@ Alina, I moved this out of an admin article about statuses (Create and customize
 </table>
 -->
 
-您必須具備下列存取權，才能執行本文中的步驟：
+您必須具有下列存取權才能執行本文中的步驟：
 
 <table style="table-layout:auto"> 
  <col> 
@@ -73,36 +73,37 @@ Alina, I moved this out of an admin article about statuses (Create and customize
    <td> <p>計劃 </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">訪問級別配置*</td> 
+   <td role="rowheader">存取層級設定*</td> 
    <td> <p>編輯專案的存取權</p> <p><b>附註</b>
 
-如果您仍無權存取，請洽詢您的Workfront管理員，他們是否在您的存取層級設定其他限制。 如需Workfront管理員如何修改您的存取層級的詳細資訊，請參閱 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>.</p> </td>
+如果您還是沒有存取權，請詢問您的Workfront管理員，他們是否在您的存取層級中設定其他限制。 如需Workfront管理員如何修改存取層級的詳細資訊，請參閱<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>。</p> </td>
 </tr> 
   <tr> 
-   <td role="rowheader">物件權限</td> 
-   <td> <p>管理專案的權限</p> <p>有關請求其他訪問的資訊，請參閱 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">請求對對象的訪問 </a>.</p> </td> 
+   <td role="rowheader">物件許可權</td> 
+   <td> <p>管理專案的許可權</p> <p>如需請求其他存取權的資訊，請參閱<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">請求物件</a>的存取權。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;若要了解您擁有的計畫、授權類型或存取權，請聯絡您的Workfront管理員。
+&#42;若要瞭解您擁有的計畫、授權型別或存取權，請連絡您的Workfront管理員。
 
-## 更新項目組和狀態
+## 更新專案群組和狀態
 
-更新項目的組時，任務、問題或項目狀態的可用選項將更改為與組匹配。
+當您更新專案的群組時，任務、問題或專案狀態可用的選項會變更為符合群組。
 
-1. 前往專案或建立新專案，如 [建立專案](../../../manage-work/projects/create-projects/create-project.md).
-1. 按一下 **更多** 圖示 ![](assets/more-icon.png)，然後按一下 **編輯**.
+1. 移至專案或建立新專案，如[建立專案](../../../manage-work/projects/create-projects/create-project.md)中所述。
+1. 按一下&#x200B;**更多**&#x200B;圖示![](assets/more-icon.png)，然後按一下&#x200B;**編輯**。
 
-1. 在 **編輯專案** 框，靠近 **概述** 區段中，選取 **群組** 下拉式功能表。
+1. 在顯示的&#x200B;**編輯專案**&#x200B;方塊中，在&#x200B;**概觀**&#x200B;區段底部附近，選取&#x200B;**群組**&#x200B;下拉式功能表中的群組。
 
-1. 在 **狀態** 下拉式功能表中，選取自訂狀態。
+1. 在&#x200B;**狀態**&#x200B;下拉式功能表中，選取自訂狀態。
 
    >[!NOTE]
    >
-   >若您在 **群組** 下拉式功能表、 **狀態** 功能表自動變更，以與新群組產生關聯。
+   >如果您在&#x200B;**群組**&#x200B;下拉式功能表中選取不同的群組，**狀態**&#x200B;功能表中的自訂狀態會自動變更，以便與新的群組建立關聯。
    >
    >
    >![](assets/status-drop-down-expanded-with-custom-statuses-for-project-nwe.png)   >
+   >
 
-1. 選取專案的狀態。 您建立並套用至該群組的自訂狀態會顯示在清單中。
+1. 選取專案狀態。 您建立並套用至該群組的自訂狀態會顯示在清單中。

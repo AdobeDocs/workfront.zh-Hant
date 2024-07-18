@@ -8,7 +8,8 @@ author: Becky
 feature: Workfront Fusion
 hide: true
 hidefromtoc: true
-source-git-commit: cb2dba1c74f1d33be0bb21a7e1cdd176a3577bb2
+exl-id: 899641a0-a104-4be9-b423-34a32e985b53
+source-git-commit: 0a01acd56b3ea10d1cccc31a21e434da55b1ec13
 workflow-type: tm+mt
 source-wordcount: '347'
 ht-degree: 1%
@@ -51,14 +52,14 @@ Fusion AI目前可以產生連線到以下應用程式的模組：
 
 ## 產生模組
 
-1. 新增模組並選取 **使用AI產生** 從應用程式清單中。
+1. 新增模組並從應用程式清單中選取&#x200B;**使用AI產生**。
 
    或
 
-   以滑鼠右鍵按一下案例編輯器的空白區域，然後選取 **使用AI產生**.
+   在案例編輯器的空白區域上按一下滑鼠右鍵，然後選取&#x200B;**使用AI產生**。
 1. 在方塊中輸入文字提示。
 
-   如需提示的相關資訊，請參閱 [建立文字提示的提示](#tips-for-creating-text-prompts) 本文章內容。
+   如需提示的相關提示，請參閱本文中的[建立文字提示的提示](#tips-for-creating-text-prompts)。
 1. 將應用程式的API Token新增至模組。
 1. 檢查模組，確保模組已針對適當的應用程式和動作進行設定。
 1. （視條件而定）如果模組未附加至您的案例，請將其拖曳至適當位置。
@@ -78,17 +79,14 @@ Fusion AI目前可以產生連線到以下應用程式的模組：
 >
 >* `Retrieve a list of my calendars from Google Calendar`
 >
->   這包括應用程式 `Google Calendar` 和動作 `Retrieve a list of my calendars`.
+>   這包括應用程式`Google Calendar`和動作`Retrieve a list of my calendars`。
 >
 >* `Retrieve popular songs from Spotify`
 >
->   這包括應用程式 `Spotify` 和動作 `Retrieve popular songs`.
+>   這包括應用程式`Spotify`和動作`Retrieve popular songs`。
 
 建立文字提示時，請考量下列事項：
 
 * 由於每個Fusion模組會執行單一動作，因此您的文字提示應說明一個特定動作。
 * 使用直接、簡單的語言。
 * 檢查並測試您的模組。 如果無法如預期執行，請調整您的提示，然後再試一次。
-
-
-

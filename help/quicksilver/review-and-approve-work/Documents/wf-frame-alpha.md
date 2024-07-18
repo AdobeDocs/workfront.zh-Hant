@@ -1,8 +1,8 @@
 ---
 product-area: documents
 navigation-topic: approvals
-title: Beta版計畫 — Workfront + Frame.io
-description: 我們很高興宣佈推出Workfront + Frame.io的Beta版計畫。 您將在這裡找到有關最新Beta版的資訊，以及入門的簡短影片逐步解說。
+title: Beta程式 — Workfront + Frame.io
+description: 我們很高興宣佈推出Workfront + Frame.io的Beta計畫。 您可以在這裡找到最新Beta版本的相關資訊，以及入門的簡短影片逐步解說。
 author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
@@ -14,18 +14,18 @@ ht-degree: 1%
 
 ---
 
-# Beta版計畫 — Workfront + Frame.io
+# Beta程式 — Workfront + Frame.io
 
 歡迎使用Workfront + Frame.io整合Beta版計畫！ 在此測試版中，您將可搶先使用我們的Workfront + Frame.io原生整合體驗，並能分享您的意見反應，這些意見反應最終將決定我們向更廣泛客戶群發佈的最終體驗。 透過這項整合，我們致力於在Workfront和Frame.io之間建立順暢的端對端工作流程，並專注於提供理想的統一檢閱和核准解決方案。
 
-您將在這裡找到有關最新Beta版的資訊，以及入門的簡短影片逐步解說。
+您可以在這裡找到最新Beta版本的相關資訊，以及入門的簡短影片逐步解說。
 
 >[!IMPORTANT]
 >
 >此Beta版現已關閉，我們不會再接受新的參與者。
 
 
-## 2024年5月： Workfront中的Beta版更新
+## 2024年5月： Workfront中的Beta版本更新
 
 此5月發行包含下列功能：  
 
@@ -48,7 +48,7 @@ ht-degree: 1%
 直接從檔案清單輕鬆追蹤任何檔案的核准狀態。 只要按一下整體狀態，即可存取核准流程中所有參與者的詳細細目，以及其個別狀態。 此外，只要按一下即可提醒任何未完成的核准者，進而簡化您的工作流程，確保及時回應並有效管理檔案。 
 
 
-## 2024年3月： Frame.io中的測試版更新
+## 2024年3月： Frame.io中的Beta版本更新
 
 +++ 展開以檢視2024年3月發行的功能
 
@@ -62,15 +62,15 @@ ht-degree: 1%
 
 >[!VIDEO](https://video.tv.adobe.com/v/3428213/)
 
-## 2024年3月： Workfront中的Beta版更新
+## 2024年3月： Workfront中的Beta版本更新
 
-在此測試版中，我們有：
+在此Beta版本中，我們有：
 
 ### 新增檔案稽核和核准的截止日期
 
 您現在可以指定使用者或專案團隊檢閱或核准檔案的截止日期。 稽核者和核准者在指定截止日期前72小時和之後24小時收到電子郵件通知。 截止日期也會反映在新首頁區域的核准Widget。
 
-如需詳細資訊，請參閱 [建立檔案稽核或核准請求](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md).
+如需詳細資訊，請參閱[建立檔案檢閱或核准要求](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)。
 
 ### 建立及使用核准範本
 
@@ -81,7 +81,7 @@ ht-degree: 1%
 
 建立檔案的核准流程時，您可以從檔案區域套用核准範本。
 
-如需詳細資訊，請參閱 [建立核准範本](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md).
+如需詳細資訊，請參閱[建立核准範本](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md)。
 
 ### 一次檢視所有核准的相關資訊
 
@@ -94,7 +94,7 @@ ht-degree: 1%
 
 您可以向下展開至上述類別，以取得更詳細的檢視。 所有核准Widget都可在新首頁和畫布儀表板中使用。
 
-如需詳細資訊，請參閱 [開始使用新首頁](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md).
+如需詳細資訊，請參閱[開始使用新首頁](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md)。
 
 ### 做出整體決定後鎖定您的檢閱和核准
 
@@ -112,11 +112,11 @@ ht-degree: 1%
 
 透過這項整合，我們的目標是讓創意人員留在他們選擇的工具（CC或Frame.io）中執行其內容建立和同行審閱，同時讓專案經理協調工作，並從Workfront內部初始化和監控正式稽核流程。 最佳化兩種解決方案結合使用，即可達成此目的：Workfront管理內容核准的新檔案核准，以及Frame.io提供的內容檢閱功能。 整體而言，新檔案核准和Frame.io將形成我們新的端對端內容稽核和核准體驗。 
 
-為了讓您輕鬆測試測試版計畫的新功能，我們已建立新的測試Frame.io帳戶，並將其連線至名為的新群組 `Frame.io testing` 在現有的Workfront預覽或沙箱環境中。
+為了讓您輕鬆測試Beta版計畫的新功能，我們已建立新的測試Frame.io帳戶，並將其連線到您現有Workfront預覽或沙箱環境中名為`Frame.io testing`的新群組。
 
 ### 詳細的測試指示
 
-對於想要測試其他功能的參與者，我們已建立更複雜的測試情境。 您可以在此處下載此詳細測試案例的指南： [WF + Frame.io詳細測試案例逐步說明](/help/quicksilver/review-and-approve-work/Documents/assets/WF-Frame-Detailed-Walk-Through-May-Release.pdf).
+對於想要測試其他功能的參與者，我們已建立更複雜的測試情境。 您可以在此下載此詳細測試案例的指南： [WF + Frame.io詳細測試案例逐步說明](/help/quicksilver/review-and-approve-work/Documents/assets/WF-Frame-Detailed-Walk-Through-May-Release.pdf)。
 
 
 ## 示範影片
@@ -127,4 +127,4 @@ ht-degree: 1%
 
 我們重視您的意見，並相信您的觀點對於協助我們打造最佳產品至關重要。
 
-由於您對貴公司在生產環境中採用此解決方案所需的內容有特定意見反應，請傳送至 [etienneb@adobe.com](mailto:etienneb@adobe.com).
+由於您對貴公司在生產環境中採用此解決方案所需事項有特定意見反應，請傳送至[etienneb@adobe.com](mailto:etienneb@adobe.com)。

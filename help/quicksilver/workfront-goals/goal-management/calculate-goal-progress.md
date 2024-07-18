@@ -23,7 +23,7 @@ ht-degree: 1%
 
      或
 
-     適用於Prime或選取Adobe Workfront計畫的Adobe Workfront目標的其他授權。 如需詳細資訊，請參閱 [Adobe Workfront計畫](https://www.workfront.com/plans).
+     適用於Prime或選取Adobe Workfront計畫的Adobe Workfront目標的其他授權。 如需詳細資訊，請參閱[Adobe Workfront計畫](https://www.workfront.com/plans)。
 
 * 對於目前的計畫與授權結構：
 
@@ -32,7 +32,7 @@ ht-degree: 1%
 
 請連絡您的Workfront客戶經理，以瞭解Workfront Goals授權。
 
-如需存取Workfront目標的其他資訊，請參閱 [使用Workfront目標的需求](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+如需存取Workfront目標的詳細資訊，請參閱[使用Workfront目標的需求](../../workfront-goals/goal-management/access-needed-for-wf-goals.md)。
 
 Adobe Workfront會根據其進度指示器，自動計算目標進度。
 
@@ -68,15 +68,15 @@ Workfront目標會根據目標進度指標的完成百分比平均數，自動�
 
 * 結果
 
-  如需將結果新增至目標的詳細資訊，請參閱 [在Adobe Workfront目標中新增結果](../../workfront-goals/results-and-activities/add-results-to-goals.md).
+  如需將結果新增至目標的詳細資訊，請參閱[在Adobe Workfront目標中新增結果](../../workfront-goals/results-and-activities/add-results-to-goals.md)。
 
 * 活動
 
-  如需新增活動（包括專案至目標）的相關資訊，請參閱 [將活動新增至Adobe Workfront目標中的目標](../../workfront-goals/results-and-activities/add-activities-to-goals.md).
+  如需新增活動（包括專案至目標）的相關資訊，請參閱[在Adobe Workfront目標中新增活動](../../workfront-goals/results-and-activities/add-activities-to-goals.md)。
 
 * 校準的子目標
 
-  如需有關父目標和子目標的資訊，請參閱 [透過在Adobe Workfront目標中連線目標來對齊目標](../../workfront-goals/goal-alignment/align-goals-by-connecting-them.md).
+  如需有關父目標和子目標的資訊，請參閱[在Adobe Workfront目標中連線目標以對齊目標](../../workfront-goals/goal-alignment/align-goals-by-connecting-them.md)。
 
   Workfront目標使用下列公式計算實際完成百分比：
 
@@ -137,13 +137,13 @@ Goal progress percentage = Actual percent complete * 100 / Expected percent comp
   </tr> 
   <tr> 
    <td>新增</td> 
-   <td> <p>目標是新建立的，尚未記錄進度。 目標進度會顯示為「新增」，直到有人首次更新其進度為止。 </p> <p>如需有關更新目標進度的資訊，請參閱 <a href="../../workfront-goals/goal-review-and-workfront-goals-sections/check-in-goals.md" class="MCXref xref">在Adobe Workfront目標中更新目標進度</a>.</p> </td> 
+   <td> <p>目標是新建立的，尚未記錄進度。 目標進度會顯示為「新增」，直到有人首次更新其進度為止。 </p> <p>如需有關更新目標進度的資訊，請參閱<a href="../../workfront-goals/goal-review-and-workfront-goals-sections/check-in-goals.md" class="MCXref xref">在Adobe Workfront目標中更新目標進度</a>。</p> </td> 
    <td>無百分比</td> 
    <td>無長條圖</td> 
    <td><img src="assets/new-goal-icon-condition.png" alt="new_goal_icon_condition.png"></td>
   </tr> 
   <tr> 
-   <td> <p><span>準時</span> </p> </td> 
+   <td> <p><span>在目標</span>上 </p> </td> 
    <td>目標正在如預期般執行，極有可能將準時完成。 </td> 
    <td>90-100%</td> 
    <td>綠色</td> 

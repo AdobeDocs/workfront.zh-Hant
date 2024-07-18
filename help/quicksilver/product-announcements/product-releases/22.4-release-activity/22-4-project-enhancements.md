@@ -17,13 +17,13 @@ ht-degree: 2%
 
 本頁說明22.4版對預覽環境所做的所有專案增強功能。 這些增強功能將在2022年10月3日當週提供。
 
-如需22.4版本所有可用變更的清單，請參閱 [22.4版本總覽](/help/quicksilver/product-announcements/product-releases/22.4-release-activity/22-4-release-overview.md).
+如需22.4版本可用的所有變更清單，請參閱[22.4版本總覽](/help/quicksilver/product-announcements/product-releases/22.4-release-activity/22-4-release-overview.md)。
 
 ## 前置任務詳細資料已可供參考
 
 若要檢視任務前置任務的詳細資訊，您現在可以將滑鼠游標停留在「前置任務」欄中的前置任務編號上。 詳細資訊方塊會顯示被參考的前置任務與專案、前置任務的計劃開始與結束日期，以及前置任務的前置任務與後置任務的數目。 您可以展開專案詳細資料以檢視有關專案的更多資訊。 其他資訊包含在跨專案前置任務中。
 
-如需詳細資訊，請參閱 [在任務清單上建立前置任務關係](/help/quicksilver/manage-work/tasks/use-prdcssrs/create-predecessors-on-task-list.md).
+如需詳細資訊，請參閱[在工作清單](/help/quicksilver/manage-work/tasks/use-prdcssrs/create-predecessors-on-task-list.md)上建立前置任務關係。
 
 ## 將多個團隊指派到一個任務或問題
 
@@ -33,7 +33,7 @@ ht-degree: 2%
 >
 >團隊區域的工作負載平衡器目前不提供此功能。
 
-如需詳細資訊，請參閱 [指派任務](/help/quicksilver/manage-work/tasks/assign-tasks/assign-tasks.md) 和 [指派問題](/help/quicksilver/manage-work/issues/manage-issues/assign-issues.md).
+如需詳細資訊，請參閱[指派任務](/help/quicksilver/manage-work/tasks/assign-tasks/assign-tasks.md)和[指派問題](/help/quicksilver/manage-work/issues/manage-issues/assign-issues.md)。
 
 ## 在「編輯」和「詳細資訊」區域中，為專案角色選取智慧使用者
 
@@ -47,11 +47,11 @@ ht-degree: 2%
 
 現在，當您在「編輯」或「詳細資訊」區域中新增使用者至這些欄位時，除了他們的名稱和顯示圖片之外，也會顯示其主要角色和電子郵件。 這有助於區分具有類似或相同名稱的多位使用者。
 
-如需詳細資訊，請參閱 [編輯專案](/help/quicksilver/manage-work/projects/manage-projects/edit-projects.md).
+如需詳細資訊，請參閱[編輯專案](/help/quicksilver/manage-work/projects/manage-projects/edit-projects.md)。
 
 注意：專案、任務和問題的其他使用者欄位將在未來版本中使用此功能進行更新。
 
-[觀看此功能的示範影片。](https://video.tv.adobe.com/v/3412390/){target=_blank}
+[觀看此功能的影片示範。](https://video.tv.adobe.com/v/3412390/){target=_blank}
 
 ## 計算的日期欄位一律根據世界協調時間(UTC)儲存
 
@@ -65,7 +65,7 @@ ht-degree: 2%
 
 * 如果有人編輯了物件且導致計算欄位運算式重新計算，則日期函式結果由使用者的當地時區決定。 此情境中的計算日期欄位結果也將根據UTC進行計算。
 
-如需詳細資訊，請參閱 [跨時區工作](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/working-across-timezones.md).
+如需詳細資訊，請參閱[跨時區工作](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/working-across-timezones.md)。
 
 ## 自訂表單增強功能：Adobe XD和快速篩選
 
@@ -73,15 +73,15 @@ ht-degree: 2%
 
 * 新增Adobe XD檔案，讓自訂表單更視覺化，並提供更多資訊。 當表單附加到物件時，使用物件的使用者可以從表單內檢視XD檔案並與其互動。
 
-  如需詳細資訊，請參閱 [在自訂表單中新增或編輯影像或其他資產Widget](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md).
+  如需詳細資訊，請參閱[在自訂表單中新增或編輯影像或其他資產Widget](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md)。
 
 * 使用快速篩選器輕鬆找出現代化自訂表單和欄位清單中的專案。 管理表單和欄位時，也能享受改善的外觀和感覺。
 
-  如需快速篩選的詳細資訊，請參閱 [將快速篩選套用至清單](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/apply-quick-filter-list.md).
+  如需快速篩選的詳細資訊，請參閱[將快速篩選套用至清單](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/apply-quick-filter-list.md)。
 
-[觀看此功能的示範影片。](https://video.tv.adobe.com/v/3412469/){target=_blank}
+[觀看此功能的影片示範。](https://video.tv.adobe.com/v/3412469/){target=_blank}
 
-## 公開測試版 — 專案、任務和問題的新篩選器體驗
+## 公開Beta — 專案、任務和問題的新篩選器體驗
 
 專案、任務和問題清單中的篩選已重新設計，以幫助您快速建立和共用篩選。 功能包括：
 
@@ -113,7 +113,7 @@ ht-degree: 2%
 
 ### 我們需要您的意見反應！
 
-有了此公開測試版，使用者只要按一下意見按鈕，就可以直接將意見提交至處理篩選器體驗的團隊。 我們期待您和您的使用者能分享公開測試版中新的篩選器體驗。 如果您的團隊想要直接與產品會面以提供其他意見反應，歡迎在這裡排程會議： https://calendly.com/wf-product-and-design-research/filtersfeedbackpublicbeta?month=2022-08&amp;date=2022-08-25
+有了此公共Beta，使用者可以按一下意見按鈕，直接將意見提交至處理篩選器體驗的團隊。 我們期待您和您的使用者能分享公開測試版中新的篩選器體驗。 如果您的團隊想要直接與產品會面以提供其他意見反應，歡迎在這裡排程會議： https://calendly.com/wf-product-and-design-research/filtersfeedbackpublicbeta?month=2022-08&amp;date=2022-08-25
 
 ### 接下來呢？
 
@@ -128,6 +128,6 @@ ht-degree: 2%
 
 我們希望以反複的方式為您提供價值，因此我們會在新體驗和其他區域準備就緒時繼續提供價值。 請繼續關注更令人興奮的更新消息。
 
-如需詳細資訊，請參閱 [篩選器概觀](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/filters-overview.md) 和 [在Adobe Workfront中建立或編輯篩選器](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-filters.md).
+如需詳細資訊，請參閱[篩選器總覽](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/filters-overview.md)和[在Adobe Workfront中建立或編輯篩選器](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-filters.md)。
 
-[觀看此功能的示範影片。](https://video.tv.adobe.com/v/3412391/)
+[觀看此功能的影片示範。](https://video.tv.adobe.com/v/3412391/)

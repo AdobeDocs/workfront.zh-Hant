@@ -1,6 +1,6 @@
 ---
-title: Workfront Fusion發行活動：&nbsp；2022年3月21日起一週
-description: Workfront Fusion發行活動：&nbsp；2022年3月21日起一週
+title: Workfront Fusion發行活動：&amp；nbsp；2022年3月21日起一週
+description: Workfront Fusion發行活動：&amp；nbsp；2022年3月21日起一週
 author: Luke
 draft: Probably
 feature: Product Announcements, Workfront Fusion
@@ -18,9 +18,9 @@ ht-degree: 0%
 
 本頁說明2022年3月21日當週在Adobe Workfront Fusion中所做的所有增強功能。
 
-如需所有最近變更的清單，請參閱 [Adobe Workfront Fusion發行活動](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
+如需所有最近變更的清單，請參閱[Adobe Workfront Fusion發行活動](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md)。
 
-如需Workfront Fusion中近期的錯誤修正清單，請參閱 [Workfront維護更新](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) 頁面，並檢查是否有任何標示為Workfront Fusion維護更新的更新。
+如需Workfront Fusion中最近的錯誤修正清單，請參閱[Workfront維護更新](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html)頁面，並檢查任何標示為Workfront Fusion維護更新的更新。
 
 ## 在Workfront Fusion Frame.io聯結器中使用OAuth2 PKCE連線
 
@@ -28,4 +28,4 @@ ht-degree: 0%
 
 先前，只有API權杖連線方法可用於Frame.io聯結器。
 
-如需詳細資訊，請參閱 [Frame.io模組](../../../workfront-fusion/apps-and-their-modules/frame-io-modules.md).
+如需詳細資訊，請參閱[Frame.io模組](../../../workfront-fusion/apps-and-their-modules/frame-io-modules.md)。

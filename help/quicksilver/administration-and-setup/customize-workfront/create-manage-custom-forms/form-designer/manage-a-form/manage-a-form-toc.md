@@ -4,7 +4,7 @@ user-type: administrator
 content-type: reference
 product-area: system-administration
 navigation-topic: customize-workfront
-description: 您可以使用表單設計工具來管理現有的自訂表單。
+description: 您可以使用表單Designer來管理現有的自訂表單。
 author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin

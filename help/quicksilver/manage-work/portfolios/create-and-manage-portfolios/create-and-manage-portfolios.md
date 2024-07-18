@@ -25,5 +25,5 @@ Portfolio是競爭相同資源、預算和排程的專案集合。 Portfolio中�
 * [刪除和停用投資組合](../../../manage-work/portfolios/create-and-manage-portfolios/delete-deactivate-portfolios.md)
 * [編輯投資組合](../../../manage-work/portfolios/create-and-manage-portfolios/edit-portfolios.md)
 * [將專案新增至投資組合](../../../manage-work/portfolios/create-and-manage-portfolios/add-projects-to-portfolios.md)
-* [從投資組合中移除專案](../../../manage-work/portfolios/create-and-manage-portfolios/remove-project-from-portfolio.md)
+* [從投資組合移除專案](../../../manage-work/portfolios/create-and-manage-portfolios/remove-project-from-portfolio.md)
 * [檢閱請求的專案](../../../manage-work/portfolios/create-and-manage-portfolios/review-requested-projects.md)

@@ -19,9 +19,9 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->如果您在檢視中選取預設貨幣以外的貨幣，您將不會再看到連結 **新增更多工** 和 **新增更多問題** 在專案清單底部。
+>如果您在檢視中選取預設貨幣以外的貨幣，您不會再在專案清單底部看到連結&#x200B;**新增更多工**&#x200B;和&#x200B;**新增更多問題**。
 
-如需有關如何變更指定專案預設貨幣的資訊，請參閱 [變更專案貨幣](../../../manage-work/projects/project-finances/change-project-currency.md).
+如需有關如何變更特定專案預設貨幣的資訊，請參閱[變更專案貨幣](../../../manage-work/projects/project-finances/change-project-currency.md)。
 
 如果報表中有單一貨幣的專案，則分組的總和也會以系統預設貨幣顯示。
 
@@ -43,27 +43,27 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定*</td> 
-   <td> <p>編輯報告、儀表板、行事曆的存取權</p> <p>編輯對篩選器、檢視、群組的存取權</p> <p>注意：如果您還是沒有存取權，請詢問您的Workfront管理員，他們是否在您的存取層級中設定其他限制。 如需有關Workfront管理員如何修改您的存取層級的資訊，請參閱 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>.</p> </td> 
+   <td> <p>編輯報告、儀表板、行事曆的存取權</p> <p>編輯對篩選器、檢視、群組的存取權</p> <p>注意：如果您還是沒有存取權，請詢問您的Workfront管理員，他們是否在您的存取層級中設定其他限制。 如需Workfront管理員如何修改存取層級的詳細資訊，請參閱<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">物件許可權</td> 
-   <td> <p>管理報表的許可權</p> <p>如需請求其他存取許可權的詳細資訊，請參閱 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">要求物件的存取權 </a>.</p> </td> 
+   <td> <p>管理報表的許可權</p> <p>如需請求其他存取權的資訊，請參閱<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">請求物件</a>的存取權。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;若要瞭解您擁有的計畫、授權型別或存取權，請聯絡您的Workfront管理員。
+&#42;若要瞭解您擁有的計畫、授權型別或存取權，請連絡您的Workfront管理員。
 
 ## 先決條件
 
-在您可以檢視本節所述的替代貨幣之前，Workfront管理員必須先在Workfront的「設定」區域中啟用並設定多種貨幣。 如需詳細資訊，請參閱 [設定匯率](../../../administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md).
+在您可以檢視本節所述的替代貨幣之前，Workfront管理員必須先在Workfront的「設定」區域中啟用並設定多種貨幣。 如需詳細資訊，請參閱[設定匯率](../../../administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md)。
 
 ## 套用財務值至報表 {#apply-financial-values-to-a-report}
 
 若要在使用報表時轉換幣別間的財務值，請執行下列動作：
 
 1. 移至您要轉換財務值為不同貨幣的報表。
-1. 按一下 **檢視** 下拉式清單，按一下 **變更貨幣**，然後選取下列其中一個要顯示財務值的貨幣：
+1. 按一下&#x200B;**檢視**&#x200B;下拉式清單，按一下&#x200B;**變更貨幣**，然後選取下列您要顯示財務值的貨幣之一：
 
    * 專案原始貨幣
    * 任何其他貨幣
@@ -96,7 +96,7 @@ ht-degree: 0%
 
 * 如果您建立的報表會從套用不同貨幣的兩個或多個專案中帶入財務資訊，則依預設，群組摘要會反映Workfront管理員所選取的系統預設貨幣。
 * 如果您為具有相同貨幣的兩個或多個專案建立報表，但它們與系統的預設貨幣不同，則使用系統預設貨幣顯示分組中的總和。
-* 如果您為兩個或多個專案建立報表，而這些專案具有與貨幣修訂相關聯的工作角色指派，則Workfront會將財務資訊從工作角色的修訂貨幣匯率轉換為專案的貨幣（當您在檢視中選取專案的原始貨幣時），或轉換為您在檢視報表時選取的任何其他貨幣。 如需有關覆寫工作角色貨幣的資訊，請參閱 [建立和管理職位角色](../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).
+* 如果您為兩個或多個專案建立報表，而這些專案具有與貨幣修訂相關聯的工作角色指派，則Workfront會將財務資訊從工作角色的修訂貨幣匯率轉換為專案的貨幣（當您在檢視中選取專案的原始貨幣時），或轉換為您在檢視報表時選取的任何其他貨幣。 如需有關覆寫工作角色的貨幣資訊，請參閱[建立和管理工作角色](../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md)。
 
 若要在報表中顯示兩個使用自訂貨幣的專案：
 
@@ -106,27 +106,27 @@ ht-degree: 0%
 
 1. 在兩個專案上記錄時數。
 
-   如需有關記錄時間的詳細資訊，請參閱 [記錄時間](../../../timesheets/create-and-manage-timesheets/log-time.md).
+   如需記錄時間的詳細資訊，請參閱[記錄時間](../../../timesheets/create-and-manage-timesheets/log-time.md)。
 
-1. 按一下 **主要功能表** 圖示 ![](assets/main-menu-icon.png)，然後按一下 **報告**.
-1. 按一下 **新報告**，然後 **專案報告**.
-1. 在 **欄（檢視）** 標籤，新增 **實際成本** 欄位並依據以下方式摘要： **Sum**.
+1. 按一下&#x200B;**主要功能表**&#x200B;圖示![](assets/main-menu-icon.png)，然後按一下&#x200B;**報表**。
+1. 按一下&#x200B;**新報告**，然後按一下&#x200B;**專案報告**。
+1. 在&#x200B;**欄（檢視）**&#x200B;索引標籤中，新增&#x200B;**實際成本**&#x200B;欄，並以&#x200B;**總和**&#x200B;加以彙總。
 
-   如需如何建立欄的詳細資訊，請參閱 [Adobe Workfront中的檢視概觀](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
+   如需有關如何建立欄的資訊，請參閱[Adobe Workfront中的檢視總覽](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md)。
 
-1. 在 **群組** 標籤，套用 **計畫完成日期** 分組。
+1. 在&#x200B;**群組**&#x200B;索引標籤中，套用&#x200B;**規劃完成日期**&#x200B;群組。
 
-   如需如何建立群組的詳細資訊，請參閱 [Adobe Workfront中的群組概觀](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
+   有關如何建立群組的資訊，請參閱Adobe Workfront中的[群組概觀](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md)。
 
-1. 在 **篩選器** 索引標籤，新增篩選器 **專案名稱** 並選取兩個使用不同貨幣的專案。
+1. 在&#x200B;**篩選器**&#x200B;索引標籤中，新增&#x200B;**專案名稱**&#x200B;的篩選器，並選取兩個使用不同貨幣的專案。
 
-   如需如何建立篩選的詳細資訊，請參閱 [篩選器概觀](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+   如需如何建立篩選的詳細資訊，請參閱[篩選總覽](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md)。
 
 1. 按一下「**儲存並關閉**」。
 
-   「 」的總計 **實際成本** 無論報表中的專案使用何種貨幣，都會以系統預設貨幣在「群組」中顯示。
+   **實際成本**&#x200B;的總計使用系統預設貨幣顯示在「群組」中，無論報告中的專案貨幣為何。
 
-   ![分組中顯示的貨幣](assets/qs-currency-displayed-in-groupings-2022-350x292.png)
+   ![貨幣顯示在群組中](assets/qs-currency-displayed-in-groupings-2022-350x292.png)
 
    如果兩個專案的幣別不同，系統預設幣別也會顯示在報表的「群組」中。
 
@@ -137,20 +137,20 @@ ht-degree: 0%
 1. 使用不同於系統預設貨幣的自訂貨幣建立專案。
 1. 前往專案，並確認其中包含已記錄任務的小時數。
 
-   如需有關記錄時間的詳細資訊，請參閱 [記錄時間](../../../timesheets/create-and-manage-timesheets/log-time.md).
+   如需記錄時間的詳細資訊，請參閱[記錄時間](../../../timesheets/create-and-manage-timesheets/log-time.md)。
 
    >[!NOTE]
    >
    >任務應指派給具有每小時費率成本費率的使用者或工作角色。
 
-1. 按一下 **任務**.
-1. 展開 **檢視** 下拉式功能表並選取 **新檢視**.
-1. 新增 **實際成本** 在新檢視中作為新欄，並以下列方式摘要 **Sum**.
-1. 按一下 **完成**，然後按一下 **儲存檢視**.
-1. 展開 **分組** 下拉式功能表並選取 **新群組**.
-1. 新增 **實際完成日期** 在新分組中作為新欄位，然後按一下 **儲存群組**.
+1. 按一下&#x200B;**工作**。
+1. 展開&#x200B;**檢視**&#x200B;下拉式功能表，然後選取&#x200B;**新增檢視**。
+1. 在新檢視中新增&#x200B;**實際成本**&#x200B;作為新欄，並以&#x200B;**總和**&#x200B;彙總。
+1. 按一下&#x200B;**完成**，然後按一下&#x200B;**儲存檢視**。
+1. 展開&#x200B;**群組**&#x200B;下拉式功能表，並選取&#x200B;**新增群組**。
+1. 將&#x200B;**實際完成日期**&#x200B;新增至新群組作為新欄位，然後按一下&#x200B;**儲存群組**。
 
-   此 **實際成本** 欄會在新的分組中彙總，並以專案的貨幣顯示總計。
+   **實際成本**&#x200B;欄彙總於新的群組中，並以專案的貨幣顯示總計。
 
 ## 編輯具有唯一貨幣的報告
 
@@ -163,12 +163,12 @@ ht-degree: 0%
    >[!NOTE]
    >
    >如果預設貨幣未在任何其他區域為清單顯示，您可以編輯檢視以顯示預設貨幣。\
-   >如需如何在檢視中變更貨幣的詳細資訊，請參閱本文章節 [套用財務值至報表](#apply-financial-values-to-a-report).
+   >如需如何在檢視中變更貨幣的相關資訊，請參閱本文[套用財務值至報表](#apply-financial-values-to-a-report)一節。
 
-1. 按一下 **報表動作**，然後選取 **編輯**.
-1. 按一下 **報表設定**.
-1. 按一下 **預設貨幣** 下拉式清單，然後選取 **專案原始貨幣**.
+1. 按一下&#x200B;**報告動作**，然後選取&#x200B;**編輯**。
+1. 按一下&#x200B;**報表設定**。
+1. 按一下&#x200B;**預設貨幣**&#x200B;下拉式清單，然後選取&#x200B;**專案的原始貨幣**。
 
    ![](assets/qs-report-settings-default-currency-350x370.png)
 
-1. 按一下 **完成**.
+1. 按一下&#x200B;**完成**。

@@ -1,8 +1,8 @@
 ---
 product-area: resource-management
 navigation-topic: resource-planning
-title: 資源池概述
-description: 作為資源管理器，可以通過向資源池添加用戶來管理資源。
+title: 資源集區概觀
+description: 作為資源管理員，您可以透過將使用者新增到資源集區來管理資源。
 author: Alina
 feature: Resource Management
 exl-id: f3fc65c8-e436-44a4-9e9d-5b4b138a9f21
@@ -13,24 +13,24 @@ ht-degree: 0%
 
 ---
 
-# 資源池概述
+# 資源集區概觀
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: Alina: *** The sections about how to add resource pools to users, templates, projects are duplicated from the articles listed in those sections (Creating Users, Editing Projects, Creating a Template, etc). These sections might be eliminated when the Resource Pools are not something new, and just a routine field to edit on these main objects.) </p>
 -->
 
-作為資源管理器，可以通過向資源池添加用戶來管理資源。
+作為資源管理員，您可以透過將使用者新增到資源集區來管理資源。
 
-如果不將資源池填充為用戶並將其附加到項目，則無法進行有效的資源管理。 這是使用資源規劃功能的先決條件。
+若未將使用者填入資源集區，並將他們附加至專案，就無法進行有效的資源管理。 這是使用「資源規劃」功能的先決條件。
 
-有關開始使用資源計畫之前所需先決條件的詳細資訊，請參閱 [資源計畫員概覽](../../../resource-mgmt/resource-planning/get-started-resource-planner.md).
+如需開始使用「資源規劃」前所需先決條件的詳細資訊，請參閱[資源規劃工具概觀](../../../resource-mgmt/resource-planning/get-started-resource-planner.md)中的「在資源規劃工具中工作的先決條件」一節。
 
-有關建立和管理資源池的資訊，請參閱以下文章：
+如需有關建立和管理資源集區的資訊，請參閱下列文章：
 
-* [建立資源池](../../../resource-mgmt/resource-planning/resource-pools/create-resource-pools.md)
-* [將資源池與項目和模板關聯](../../../resource-mgmt/resource-planning/resource-pools/associate-resource-pools-with-projects-and-templates.md)
-* [將資源池與用戶關聯](../../../resource-mgmt/resource-planning/resource-pools/associate-resource-pools-with-users.md)
-* [從資源池中刪除用戶](../../../resource-mgmt/resource-planning/resource-pools/remove-users-from-resource-pool.md)
+* [建立資源集區](../../../resource-mgmt/resource-planning/resource-pools/create-resource-pools.md)
+* [將資源集區與專案和範本建立關聯](../../../resource-mgmt/resource-planning/resource-pools/associate-resource-pools-with-projects-and-templates.md)
+* [將資源集區與使用者關聯](../../../resource-mgmt/resource-planning/resource-pools/associate-resource-pools-with-users.md)
+* [從資源集區中移除使用者](../../../resource-mgmt/resource-planning/resource-pools/remove-users-from-resource-pool.md)
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -66,30 +66,30 @@ If you still don't have access, ask your Workfront administrator if they set add
 </div>
 -->
 
-## 資源池概述
+## 資源集區概觀
 
-* 資源池是完成項目同時需要的用戶的集合。
-* 當資源池與方案和產品組合中的所有項目相關聯時，它可以在多個項目、項目群或產品組合之間共用。
-* 您可以建立資源池，並在建立資源池時用現有用戶填充該資源池，也可以建立資源池，並在建立或編輯用戶時將其與現有用戶或新用戶關聯。
-* 在將用戶填充到資源池後，您可以將它們與項目和模板關聯，並更高效地管理用戶對項目的分配。
-* 您可以根據需要將多個資源池與項目、模板或用戶關聯。
+* 資源集區是同時需要用來完成專案的使用者集合。
+* 當資源集區與計畫和投資組合中的所有專案相關聯時，它可以在多個專案、計畫或投資組合之間共用。
+* 您可以建立資源集區，並在其建立時以現有的使用者填入它，也可以建立資源集區，並在建立或編輯使用者時，將其與現有的使用者或新使用者建立關聯。
+* 在您將使用者填入資源集區後，您可以將它們與專案和範本建立關聯，並更有效地管理您對專案的使用者配置。
+* 您可以視需要為專案、範本或使用者建立儘可能多的資源集區關聯。
 
-## 將用戶與資源池關聯的條件
+## 將使用者與資源集區建立關聯的條件
 
-有幾種方式可構建資源池。
+有數種方式可建構您的資源集區。
 
-我們建議下列方法：
+我們建議使用下列方法：
 
-* 您可以將同一資源池中的所有用戶都屬於同一團隊。
+* 您可以讓同一資源集區中的所有使用者屬於同一團隊。
 
-   例如，如果您希望行銷團隊的所有使用者都可供專案使用，您會想要一個行銷資源池，讓您在其中新增該團隊中的所有使用者。 然後，您可以將行銷資源池與指派給該團隊成員的專案相關聯。
+  例如，如果您希望某個行銷團隊的所有使用者都可用於專案，則您會想要一個行銷資源集區，您可在此新增該團隊中的所有使用者。 然後，您就可以將行銷資源集區與該團隊成員被指派到的專案建立關聯。
 
-* 您可以讓同一資源池中的所有用戶履行類似的職責，尤其是如果職責需求高且必須單獨編入預算時。
+* 您可以讓相同資源集區中的所有使用者履行類似的角色，尤其是當角色需求量很大且必須單獨編列預算時。
 
-   例如，您可能有外部資源可作為顧問運作，而您想要不時為專案提供這些資源。 您可以為顧問建立一個資源池，並將其附加到您的項目，在該資源池中，您可以放置內部或外部顧問的兩個用戶。
+  例如，您可能有外部資源以顧問的身分運作，您希望不時讓這些資源可用於專案。 您可以為顧問建立資源集區，以將其附加至專案，您可以將內部或外部顧問的使用者置於其中。
 
-* 您也可以按部門或成本中心建立資源池。
-* 如果您有大量用戶，或者您一次為大量項目管理資源，則不建議將系統中的所有用戶添加到一個資源池。
+* 您也可以依部門或成本中心來建立「資源集區」。
+* 如果您有大量使用者，或您一次管理大量專案的資源，我們不建議將系統中的所有使用者新增到一個資源集區。
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

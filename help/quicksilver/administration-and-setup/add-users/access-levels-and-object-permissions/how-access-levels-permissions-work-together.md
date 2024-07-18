@@ -43,7 +43,7 @@ Adobe Workfront管理員會決定每個使用者應該具有的存取層級。 �
 * 請求者（附加到請求授權）
 * 外部使用者（附加至外部電子郵件授權）
 
-每個預設存取層級的Workfront授權會決定在存取層級中可用和可設定的專案。 如需Workfront授權的相關資訊，請參閱 [Adobe Workfront授權總覽](../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md).
+每個預設存取層級的Workfront授權會決定在存取層級中可用和可設定的專案。 如需Workfront授權的相關資訊，請參閱[Adobe Workfront授權概觀](../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md)。
 
 對於指派給該許可權的使用者，存取層級會定義他們在Workfront中可以看見及處理以下物件型別和區域的內容：
 
@@ -67,26 +67,26 @@ Adobe Workfront管理員會決定每個使用者應該具有的存取層級。 �
 >
 >我們強烈建議您維持內建的存取層級不變，以便在設定使用者後參考。 若要自訂存取層級，請複製預設存取層級並修改副本。 （除了系統管理員和外部使用者之外，您可以對每個存取層級執行此動作。）
 
-如需每個預設存取層級的詳細說明，請參閱 [內建存取層級](../../../administration-and-setup/add-users/access-levels-and-object-permissions/default-access-levels-in-workfront.md).
+如需每個預設存取層級的詳細說明，請參閱[內建存取層級](../../../administration-and-setup/add-users/access-levels-and-object-permissions/default-access-levels-in-workfront.md)。
 
-如需將存取層級指派給使用者的指示，請參閱 [編輯使用者設定檔](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
+如需指派存取層級給使用者的指示，請參閱[編輯使用者的設定檔](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md)。
 
 ## 權限
 
 與系統中的某人共用物件時，使用者可以將下列任何許可權授予收件者給該物件。
 
-* **檢視**：此許可權層級可讓收件者透過下列其中一種方式共用物件：
+* **檢視**：此許可權層級允許收件者以下列其中一種方式共用物件：
 
    * 系統範圍，讓所有使用者都能看見（不適用於所有物件）
    * 針對沒有Workfront授權的外部使用者（不適用於所有物件）
    * 含電子郵件地址（僅適用於檔案）
 
-* **Contribute**：（不適用於所有物件）
-* **管理**：當有人共用物件時，收件者對物件的許可權取決於收件者的存取層級與共用者所授予物件的許可權的組合。 該組合中可用的最低存取度決定了收件者可以對物件執行的操作。
+* **Contribute**： （不適用於所有物件）
+* **管理**：當某人共用物件時，收件者對該物件的許可權是由收件者的存取層級與共用者所授予之物件許可權的組合所決定。 該組合中可用的最低存取度決定了收件者可以對物件執行的操作。
 
   >[!INFO]
   >
-  >**範例：** 如果收件者的存取層級不允許編輯專案，即使共用者授予管理專案的許可權，該人員也無法編輯或刪除專案。
+  >**範例：**&#x200B;如果收件者的存取層級不允許編輯專案，即使共用者授予管理專案的許可權，該人員也無法編輯或刪除專案。
   >
   >或者，如果收件者的存取層級允許編輯專案，但共用者授予專案的僅限檢視許可權，則使用者無法編輯或刪除專案。
 

@@ -30,11 +30,11 @@ Adobe Workfront管理員可以在系統層級解除鎖定時程表和小時偏�
 
 * 已刪除的專案、任務和問題
 
-如需Workfront管理員如何解除鎖定時程表和小時偏好設定的相關資訊，請參閱區段 [解鎖群組的時程表和小時偏好設定](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md#lock) 在文章中 [設定時程表和小時偏好設定](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
+如需Workfront管理員如何解除鎖定時程表和小時偏好設定的相關資訊，請參閱[設定時程表和小時偏好設定](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md)一文中的[解除鎖定群組的時程表和小時偏好設定](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md#lock)小節。
 
 >[!TIP]
 >
->專案偏好設定、任務與問題偏好設定也可使用群組層級設定。 如需詳細資訊，請參閱 [設定群組的專案偏好設定](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-project-preferences-group.md) 和 [設定群組的任務和問題偏好設定](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-task-issue-preferences-group.md).
+>專案偏好設定、任務與問題偏好設定也可使用群組層級設定。 如需詳細資訊，請參閱[設定群組的專案偏好設定](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-project-preferences-group.md)和[設定群組的任務和問題偏好設定](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-task-issue-preferences-group.md)。
 
 ## 存取需求
 
@@ -52,12 +52,12 @@ Adobe Workfront管理員可以在系統層級解除鎖定時程表和小時偏�
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront授權*</td> 
-   <td> <p>計劃 </p> <p>您必須是群組的群組管理員或Workfront管理員。 如需詳細資訊，請參閱 <a href="../../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">群組管理員</a> 和 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">授予使用者完整管理存取權</a>.</p> </td> 
+   <td> <p>計劃 </p> <p>您必須是群組的群組管理員或Workfront管理員。 如需詳細資訊，請參閱<a href="../../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">群組管理員</a>和<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">授與使用者完整管理存取權</a>。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;如果您需要瞭解自己的計畫或授權型別，請聯絡Workfront管理員。
+&#42;如果您需要瞭解您擁有的計畫或授權型別，請連絡您的Workfront管理員。
 
 +++
 
@@ -73,7 +73,7 @@ Adobe Workfront管理員可以在系統層級解除鎖定時程表和小時偏�
   Add example here?
   -->
 
-* Workfront管理員在系統層級解除鎖定偏好設定，而您為群組設定該偏好設定後，您就可以鎖定該偏好設定，以確保在您下方的群組中的所有人都使用相同的設定。 此功能與Workfront管理員必須為系統中的每個人設定並鎖定偏好設定的功能平行。 如需詳細資訊，請參閱 [鎖定或解鎖群組時程表和小時偏好設定](../../../administration-and-setup/manage-groups/create-and-manage-groups/lock-or-unlock-a-group-timesheet-hour-preference.md).
+* Workfront管理員在系統層級解除鎖定偏好設定，而您為群組設定該偏好設定後，您就可以鎖定該偏好設定，以確保在您下方的群組中的所有人都使用相同的設定。 此功能與Workfront管理員必須為系統中的每個人設定並鎖定偏好設定的功能平行。 如需詳細資訊，請參閱[鎖定或解除鎖定群組時程表和小時喜好設定](../../../administration-and-setup/manage-groups/create-and-manage-groups/lock-or-unlock-a-group-timesheet-hour-preference.md)。
 
 ## 設定群組的解鎖時程表或小時偏好設定
 
@@ -81,14 +81,14 @@ Adobe Workfront管理員可以在系統層級解除鎖定時程表和小時偏�
 >
 >如果您是Workfront管理員，可以前往「設定>時程表和時數>偏好設定」，然後在頁面頂端的方塊中搜尋群組名稱，略過步驟1至4。
 
-1. 按一下 **主要功能表** 圖示 ![](assets/main-menu-icon.png) (位於Adobe Workfront的右上角)，然後按一下 **設定** ![](assets/gear-icon-settings.png).
+1. 按一下Adobe Workfront右上角的&#x200B;**主要功能表**&#x200B;圖示![](assets/main-menu-icon.png)，然後按一下&#x200B;**設定** ![](assets/gear-icon-settings.png)。
 
-1. 在左側面板中，按一下 **群組** ![](assets/groups-icon.png).
+1. 在左側面板中，按一下&#x200B;**群組** ![](assets/groups-icon.png)。
 
 1. 按一下要設定其時程表或小時偏好設定的群組名稱。
-1. 在左側面板中，按一下 **時程表和時數**.
+1. 在左側面板中，按一下&#x200B;**時程表和時數**。
 
-1. 在顯示的頁面上，在 **一般偏好設定** 區段，設定下列任一選項：
+1. 在顯示的頁面上，在&#x200B;**一般偏好設定**&#x200B;區段中，設定下列任一選項：
 
    >[!TIP]
    >
@@ -106,7 +106,7 @@ Adobe Workfront管理員可以在系統層級解除鎖定時程表和小時偏�
        <li>他們的時程表作為一般時間</li>
        </ul> 
        <p>當使用者計畫離開辦公室並想要預先記錄該時間時，此功能會很有用。</p> 
-       <p><b>注意</b>：您無法防止使用者記錄已關閉或取消的任務或問題的時間。 您只能防止使用者記錄完成或廢棄專案的時間。 建議您在任務和問題清單中使用篩選器，以排除已完成或取消的對使用者可見的任務和問題。</p> </td> 
+       <p><b>注意</b>：您無法防止使用者在已關閉或已取消的任務或問題上記錄時間。 您只能防止使用者記錄完成或廢棄專案的時間。 建議您在任務和問題清單中使用篩選器，以排除已完成或取消的對使用者可見的任務和問題。</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">從時程表新增費用</td> 
@@ -138,7 +138,7 @@ Adobe Workfront管理員可以在系統層級解除鎖定時程表和小時偏�
     </tbody> 
    </table>
 
-1. 在 **使用者可以記錄時間的位置** 區段，設定下列任一選項：
+1. 在&#x200B;**使用者可記錄時間**&#x200B;區段中，設定下列任一選項：
 
    <table style="table-layout:auto">
     <col>
@@ -163,14 +163,14 @@ Adobe Workfront管理員可以在系統層級解除鎖定時程表和小時偏�
    >
    >此偏好設定是根據使用者主群組偏好設定的設定套用。 如果在使用者的首頁群組偏好設定中啟用這些設定，則無論專案的群組偏好設定是否允許，他們都能直接在專案上記錄時間，包括已完成或廢棄的專案。
 
-1. 在 **預先填入時程表** 區段，設定下列任一選項：
+1. 在&#x200B;**預先填入時程表**&#x200B;區段中，設定下列任一選項：
 
    <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">在以下範圍內的工作： &lt;number of="" weeks=""&gt; 時程表的工作範圍</td> 
+      <td role="rowheader">在時程表工作範圍&lt;number of weeks&gt;內的工作</td> 
       <td> <p>定義包含指派給使用者的任務和問題日期的時程表日期範圍之前和之後的周數。 預設值為1週，您可以將此範圍延長至4週。 也就是說，如果您為範圍選取4週，則時程表已預先填入日期在時程表日期範圍前4週至時程表日期範圍後4週之間的任何時間任務和問題。 </p> </td> 
      </tr> 
      <tr> 

@@ -1,29 +1,29 @@
 ---
 product-area: calendars
 navigation-topic: calendars-navigation-topic
-title: 編輯現有的日曆報表
-description: 您可以新增或刪除專案的連結，以修改現有日曆。 您也可以修改與日曆報表相關聯的日曆分組。
+title: 編輯現有的行事曆報告
+description: 您可以透過新增或刪除專案的連結來修改現有行事曆。 您也可以修改與行事曆報告相關聯的行事曆群組。
 author: Lisa
 feature: Reports and Dashboards
 exl-id: 494d040c-bd1d-4356-824f-a75890803617
 source-git-commit: e5a3024b1657942cd7abdfff76a7a6795127a4f5
 workflow-type: tm+mt
-source-wordcount: '365'
+source-wordcount: '366'
 ht-degree: 0%
 
 ---
 
-# 編輯現有的日曆報表
+# 編輯現有的行事曆報告
 
-您可以新增或刪除專案的連結，以修改現有日曆。 您也可以修改與日曆報表相關聯的日曆分組。
+您可以透過新增或刪除專案的連結來修改現有行事曆。 您也可以修改與行事曆報告相關聯的行事曆群組。
 
 >[!NOTE]
 >
->日曆報表中最多只有15個分組。
+>行事曆報表最多只能包含15個群組。
 
 ## 存取需求
 
-您必須具備下列存取權，才能執行本文中的步驟：
+您必須具有下列存取權才能執行本文中的步驟：
 
 <table style="table-layout:auto"> 
  <col> 
@@ -37,45 +37,45 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] 授權*</strong></td> 
-   <td> <p>[!UICONTROL計畫] </p> </td> 
+   <td> <p>[！UICONTROL計畫] </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>訪問級別配置*</strong></td> 
-   <td> <p>[!UICONTROL編輯]對[!UICONTROL報表]、[!UICONTROL控制面板]和[!UICONTROL日曆]的訪問</p> <p>注意：如果您仍無法存取，請詢問您的 [!DNL Workfront] 管理員。 若要了解 [!DNL Workfront] 管理員可修改您的存取層級，請參閱 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>.</p> </td> 
+   <td role="rowheader"><strong>存取層級設定*</strong></td> 
+   <td> <p>[！UICONTROL Edit]對[！UICONTROL報告]、[！UICONTROL儀表板]和[！UICONTROL行事曆的存取權</p> <p>注意：如果您還是沒有存取權，請詢問您的[!DNL Workfront]管理員是否對您的存取層級設定了其他限制。 如需[!DNL Workfront]管理員如何修改存取層級的詳細資訊，請參閱<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>物件權限</strong></td> 
-   <td> <p>[!UICONTROL管理]對日曆報表的訪問</p> <p>有關請求其他訪問的資訊，請參閱 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">請求對對象的訪問 </a>.</p> </td> 
+   <td role="rowheader"><strong>物件許可權</strong></td> 
+   <td> <p>[！UICONTROL Manage]對行事曆報表的存取權</p> <p>如需請求其他存取權的資訊，請參閱<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">請求物件</a>的存取權。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;若要了解您擁有的計畫、授權類型或存取權，請聯絡您的 [!DNL Workfront] 管理員。
+&#42;若要瞭解您擁有的計畫、授權型別或存取權，請連絡您的[!DNL Workfront]管理員。
 
-## 編輯現有的日曆報表
+## 編輯現有的行事曆報告
 
-1. 按一下 **[!UICONTROL 主菜單]** 圖示 ![](assets/main-menu-icon.png) 在 [!DNL Adobe Workfront]，然後按一下 **[!UICONTROL 日曆]**.
+1. 按一下[!DNL Adobe Workfront]右上角的&#x200B;**[!UICONTROL 主要功能表]**&#x200B;圖示![](assets/main-menu-icon.png)，然後按一下&#x200B;**[!UICONTROL 行事曆]**。
 
-1. （可選）若要變更日曆報表的名稱，請按一下 [!UICONTROL 日曆名稱] 欄位，然後進行所需的變更。\
+1. （選擇性）若要變更行事曆報告的名稱，請按一下[!UICONTROL 行事曆名稱]欄位，然後進行所需的變更。\
    ![變更報表名稱](assets/titlechange-250x230.png)\
-   如果您已與其他使用者或團隊共用日曆報表，則修改的日曆名稱會在其日曆檢視中自動更新。
+   如果您已與其他使用者或團隊共用行事曆報告，則已修改的行事曆名稱會自動更新其行事曆檢視。
 
-1. （選用）若要新增專案至日曆報表：
+1. （選擇性）若要將專案新增至行事曆報表：
 
-   1. 按一下 **[!UICONTROL 添加到日曆].**
-   1. 在 **[!UICONTROL 專案名稱]** 欄位中，開始輸入要新增日曆事件的專案名稱，然後在下拉式清單中顯示名稱時按一下名稱。\
+   1. 按一下&#x200B;**[!UICONTROL 新增至行事曆].**
+   1. 在&#x200B;**[!UICONTROL 專案名稱]**&#x200B;欄位中，開始輸入您要新增行事曆事件的專案名稱，然後按一下該名稱以顯示在下拉式清單中。\
 
       ![選取專案名稱](assets/calendar-project-name.png)
-項目中的項目及其關聯的任務和問題將添加到日曆報告中。
+來自專案的專案及其相關任務和問題會新增到行事曆報告中。
 
-1. （可選）要添加日曆分組或修改現有日曆分組：
+1. （選擇性）若要新增行事曆群組或修改現有的行事曆群組：
 
-   1. 將滑鼠指標暫留在專案名稱上，按一下專案名稱旁的下拉式箭頭，然後按一下 **[!UICONTROL 編輯]**.\
+   1. 暫留在專案名稱上，按一下專案名稱旁邊的下拉箭頭，然後按一下&#x200B;**[!UICONTROL 編輯]**。\
 
-      ![編輯日曆分組](assets/editcalendergroup-350x126.png)
+      ![編輯行事曆群組](assets/editcalendergroup-350x126.png)
 
-   1. 選擇項目分組方式：
+   1. 選擇您要如何群組專案：
 
-      * [使用 [!UICONTROL 計畫日期] 在日曆報表中](../../../reports-and-dashboards/reports/calendars/use-planned-dates.md)
-      * [使用 [!UICONTROL 預計日期] 在日曆報表中](../../../reports-and-dashboards/reports/calendars/use-projected-dates.md)
-      * [在日曆報表中使用自訂日期欄位](../../../reports-and-dashboards/reports/calendars/use-custom-dates.md)
+      * [在行事曆報告中使用[!UICONTROL 計畫日期]](../../../reports-and-dashboards/reports/calendars/use-planned-dates.md)
+      * [在行事曆報告中使用[!UICONTROL 預計日期]](../../../reports-and-dashboards/reports/calendars/use-projected-dates.md)
+      * [在行事曆報告中使用自訂日期欄位](../../../reports-and-dashboards/reports/calendars/use-custom-dates.md)

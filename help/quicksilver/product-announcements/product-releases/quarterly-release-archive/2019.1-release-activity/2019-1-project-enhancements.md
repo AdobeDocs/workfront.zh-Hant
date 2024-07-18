@@ -24,26 +24,26 @@ ht-degree: 1%
 
 如需2019.1年進行的所有變更清單，請參閱「2019.1版本活動概覽」。
 
-**適用於管理員**
+管理員的&#x200B;****
 
 * [從資源回收筒還原範本](#restore-templates-from-the-recycle-bin)
-* [在首頁顯示日期欄位的時間戳記](#show-timestamps-for-date-fields-in-home)
+* [顯示首頁](#show-timestamps-for-date-fields-in-home)中日期欄位的時間戳記
 * [專案偏好設定下可用的所有期間型別](#all-duration-types-available-under-project-preferences)
 
-**適用於所有使用者**
+**所有使用者**
 
-* [敏捷功能改進](#agile-improvements)
+* [敏捷改善](#agile-improvements)
 * [從清單新增任務和問題至反複專案](#add-tasks-and-issues-from-a-list-to-an-iteration)
-* [甘特圖轉存的新紙張大小](#new-paper-sizes-for-gantt-chart-export)
+* [甘特圖匯出的新紙張大小](#new-paper-sizes-for-gantt-chart-export)
 * [在編輯模式中移除對甘特圖對話方塊的存取權](#removed-access-to-dialog-boxes-in-the-gantt-chart-while-in-edit-mode)
-* [在方案或Portfolio的專案清單甘特圖中檢視任務資訊](#view-task-information-in-the-project-list-gantt-chart-in-a-program-or-portfolio)
+* [檢視計畫或Portfolio中專案清單甘特圖中的任務資訊](#view-task-information-in-the-project-list-gantt-chart-in-a-program-or-portfolio)
 * [存取範本上的工作清單甘特圖](#access-the-task-list-gantt-chart-on-templates)
 * [已重新命名甘特圖上的專案檢視](#renamed-the-project-view-on-the-gantt-chart)
-* [工作清單甘特圖中的假設分析案例](#what-if-scenarios-in-the-task-list-gantt-chart)
-* [任務清單改善](#task-list-improvements)
+* [工作清單甘特圖中的假設分析藍本](#what-if-scenarios-in-the-task-list-gantt-chart)
+* [工作清單改善](#task-list-improvements)
 * [以全熒幕顯示清單](#display-lists-in-full-screen)
 * [其他區域的新清單](#new-lists-in-additional-areas)
-* [以XLSX格式傳送傳遞的報表](#send-a-delivered-report-in-xlsx-format)
+* [以XLSX格式傳送傳遞的報告](#send-a-delivered-report-in-xlsx-format)
 * [匯出稽核記錄](#export-audit-logs)
 
 ## 從資源回收筒還原範本 {#restore-templates-from-the-recycle-bin}
@@ -128,7 +128,7 @@ TSV
 
 ## 任務清單改善 {#task-list-improvements}
 
-[更新18.3 Beta 4，此版本已從中移除]
+[更新已從]移除的18.3 Beta 4
 
 在18.3 Beta 4版本中短暫移除後，重新設計的工作清單已重新啟用。 我們也在工作清單中引進了以下附加功能，這些功能不是原始版本的一部分：
 

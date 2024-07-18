@@ -22,9 +22,9 @@ ht-degree: 1%
 >
 >貴公司必須是Adobe統一體驗客戶，才能接收來自Workfront Planning的通知。
 >
->如需詳細資訊，請參閱 [Workfront的AdobeUnified Experience](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
+>如需詳細資訊，請參閱[Workfront的Adobe統一體驗](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md)。
 
-如需有關在記錄註解中標籤其他人的資訊，請參閱 [管理記錄註解](/help/quicksilver/planning/records/manage-record-comments.md).
+如需有關在記錄註解中標籤其他人的資訊，請參閱[管理記錄註解](/help/quicksilver/planning/records/manage-record-comments.md)。
 
 ## 存取需求
 
@@ -42,7 +42,7 @@ ht-degree: 1%
    <p> 產品</p> </td>
    <td>
    <p> Adobe Workfront</p> 
-   <p>為了接收來自Workfront Planning的通知，貴組織的Workfront執行個體必須上線到Adobe統一體驗。 如需詳細資訊，請參閱 <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Workfront的AdobeUnified Experience</a>.</p></td>
+   <p>為了接收來自Workfront Planning的通知，貴組織的Workfront執行個體必須上線到Adobe統一體驗。 如需詳細資訊，請參閱<a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Workfront的Adobe統一體驗</a>。</p></td>
   </tr>  
  <td role="rowheader"><p>Adobe Workfront合約</p></td>
    <td>
@@ -76,7 +76,7 @@ ht-degree: 1%
 
 <tr>
    <td role="rowheader"><p>版面配置範本</p></td>
-   <td> <p>您的Workfront或群組管理員必須在版面配置範本中新增Planning區域。 如需詳細資訊，請參閱 <a href="/help/quicksilver/planning/access/access-overview.md">存取權總覽</a>. </p>  
+   <td> <p>您的Workfront或群組管理員必須在版面配置範本中新增Planning區域。 如需詳細資訊，請參閱<a href="/help/quicksilver/planning/access/access-overview.md">存取總覽</a>。 </p>  
 </td>
   </tr>
  </tbody>
@@ -85,7 +85,7 @@ ht-degree: 1%
 
 ## 管理應用程式內通知
 
-1. （視條件而定）有人在記錄上的評論中為您標籤後，請前往應用程式內 **通知** 圖示 ![](assets/experience-cloud-notifications-icon.png) 在Adobe Experience Cloud中。
+1. （視條件而定）有人將您標籤為記錄中的評論後，請前往Adobe Experience Cloud中的應用程式內&#x200B;**通知**&#x200B;圖示![](assets/experience-cloud-notifications-icon.png)。
 
    ![](assets/in-app-notification-example.png)
 
@@ -93,5 +93,5 @@ ht-degree: 1%
 
    記錄詳細資訊頁面會在Workfront Planning中開啟。 您可以更新記錄或回覆註解。
 
-1. （選用）按一下 **全部標籤為已讀** 表示您已讀取所有通知。
-1. （選用）按一下 **檢視全部** 前往 **通知** Adobe Experience Cloud頁面。
+1. （選擇性）按一下&#x200B;**全部標示為已讀取**，表示您已讀取所有通知。
+1. （選擇性）按一下「檢視全部&#x200B;**」，移至Adobe Experience Cloud中的**&#x200B;通知&#x200B;**頁面。**

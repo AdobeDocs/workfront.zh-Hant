@@ -27,7 +27,7 @@ ht-degree: 0%
 
 首次建立任務時，計畫、預計和估計日期通常應該相符。 有些例外情況存在。 
 
-如需Adobe Workfront中專案、任務和問題日期的詳細資訊，請參閱 [Workfront中的專案、任務和問題日期概觀](../../../workfront-basics/navigate-workfront/workfront-navigation/definitions-pti-dates.md).
+如需Adobe Workfront中專案、任務和問題日期的詳細資訊，請參閱[Workfront中專案、任務和問題日期的概觀](../../../workfront-basics/navigate-workfront/workfront-navigation/definitions-pti-dates.md)。
 
 ## 計畫日期總覽
 
@@ -60,7 +60,7 @@ ht-degree: 0%
 
 * 「預估日期」只會考慮指定時間點上任務的實際進度。
 
-**範例：** 如果任務的計劃開始日期為9月20日，計畫完成日期為9月24日，且任務必須在限制時完成，則預計完成日期為9月24日。 此任務的工期為4天。
+**範例：**&#x200B;如果任務的計劃開始日期為9月20日，計畫完成日期為9月24日，且任務必須在限制時完成，即預計完成日期為9月24日。 此任務的工期為4天。
 
 預估完成日期是根據任務上工作的目前進度計算的。 因此，如果今天是9月23日，任務尚未開始，則估計完成日期是9月27日（假設工作今天開始，應在4天後完成）。
 
@@ -75,7 +75,7 @@ ht-degree: 0%
 
 * 當任務標示為完成時：
 
-  *預計日期=預計日期=實際日期*
+  *預計日期=估計日期=實際日期*
 
 * 當任務具有實際開始日期時：
 
@@ -85,17 +85,17 @@ ht-degree: 0%
 
   *預計開始日期=限制日期*
 
-  如需限制日期的詳細資訊，請參閱 [Adobe Workfront術語表](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
+  如需限制日期的詳細資訊，請參閱[Adobe Workfront術語表](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md)。
 
 * 當任務沒有實際開始日期且任務沒有強制限制日期時：
 
-  *預計開始日期=未來下一個可用日期（在工作排程內）*
+  *預計開始日期=未來工作排程中的下一個可用日期*
 
 * 當受指派人更新認可日期時：
 
   *預計完成日期=認可日期*
 
-  如需有關認可日期的資訊，請參閱 [認可日期總覽](../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md).
+  如需認可日期的相關資訊，請參閱[認可日期概觀](../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md)。
 
 * 當任務沒有更新的認可日期，並且任務具有未來計畫完成日期的強制限制（必須完成日期）時：
 
@@ -103,7 +103,7 @@ ht-degree: 0%
 
 * 當任務沒有更新的認可日期、強制限制日期在未來，或限制日期在過去：
 
-  *預計完成日期=系統根據目前進度和剩餘工作計算完成日期*
+  *預計完成日期=系統根據目前進度與未完成的工作計算完成日期*
 
 ### 瞭解任務的估計日期何時更新 {#understand-when-the-estimated-dates-update-on-tasks}
 

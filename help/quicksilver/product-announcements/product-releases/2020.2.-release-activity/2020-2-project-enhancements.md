@@ -18,7 +18,7 @@ ht-degree: 0%
 
 本頁說明2020.2版對生產環境所做的所有專案增強功能。 這些增強功能已在2020年5月11日當週的生產環境中推出。
 
-如需2020.2版所有可用變更的清單，請參閱 [2020.2版本總覽](../../../product-announcements/product-releases/2020.2.-release-activity/2020-2-release-overview.md).
+如需2020.2版所有可用變更的清單，請參閱[2020.2版總覽](../../../product-announcements/product-releases/2020.2.-release-activity/2020-2-release-overview.md)。
 
 ## 對於Workfront管理員：當新專案的專案狀態為隱藏或未鎖定時，新增故障保護
 
@@ -26,9 +26,9 @@ ht-degree: 0%
 
 為了確保新專案總是有狀態，即使管理員隱藏或解鎖為新專案設定的狀態，系統現在會將「狀態」清單中的第一個狀態指派給所有新專案，直到您再次為新專案設定新狀態為止。
 
-如需有關設定所有新專案狀態偏好設定的資訊，請參閱 [設定全系統專案偏好設定](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md) (或如果您使用Adobe Workfront Classic，請參閱 [設定專案偏好設定](https://one.workfront.com/s/article/Setting-Project-Preferences-1883392298))。
+如需有關設定所有新專案狀態喜好設定的資訊，請參閱[設定全系統的專案喜好設定](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md) (或者，如果您正在使用Adobe Workfront Classic，請參閱[設定專案喜好設定](https://one.workfront.com/s/article/Setting-Project-Preferences-1883392298))。
 
-**適用於下列環境：**
+**在以下環境中可用：**
 
 * Adobe Workfront Classic
 * 全新Adobe Workfront體驗
@@ -42,9 +42,9 @@ ht-degree: 0%
 * 如果您輸入無效數字給選項，例如「每工作日一般時數」，警告訊息會立即出現，而不是在您按一下「儲存」後出現。
 * 選項標籤會比對Workfront中其他位置的對應介面文字，例如詳細資訊區域和報表。
 
-如需「專案偏好設定」區域的詳細資訊，請參閱 [設定全系統專案偏好設定](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md) (或如果您使用Adobe Workfront Classic，請參閱 [設定專案偏好設定](https://one.workfront.com/s/article/Setting-Project-Preferences-1883392298))。
+如需「專案偏好設定」區域的詳細資訊，請參閱[設定全系統的專案偏好設定](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md) (或如果您使用Adobe Workfront Classic，請參閱[設定專案偏好設定](https://one.workfront.com/s/article/Setting-Project-Preferences-1883392298))。
 
-**適用於下列環境：**
+**在以下環境中可用：**
 
 * Adobe Workfront Classic
 * 全新Adobe Workfront體驗
@@ -55,7 +55,7 @@ ht-degree: 0%
 
 先前，當使用者將篩選、檢視或分組套用至報告清單，然後導覽離開該頁面後，預設的篩選、檢視或分組會在使用者下次導覽至該同一報告時顯示。
 
-**適用於下列環境：**
+**在以下環境中可用：**
 
 * 全新Adobe Workfront體驗
 * Adobe Workfront Classic
@@ -68,13 +68,13 @@ ht-degree: 0%
 
 在此變更之前，任務限制一律會儘快變更為。
 
-有關移動任務的資訊，請參閱， [移動任務](../../../manage-work/tasks/manage-tasks/move-tasks.md) (或如果您使用Adobe Workfront Classic，請參閱 [移動任務](https://one.workfront.com/s/article/Moving-Tasks-2081996259))。
+如需關於移動任務的資訊，請參閱[移動任務](../../../manage-work/tasks/manage-tasks/move-tasks.md) (或如果您使用Adobe Workfront Classic，請參閱[移動任務](https://one.workfront.com/s/article/Moving-Tasks-2081996259))。
 
-如需有關複製工作的資訊，請參閱 [複製和複製任務](../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md) (或如果您使用Adobe Workfront Classic，請參閱 [複製和複製任務](https://one.workfront.com/s/article/Copy-and-Duplicate-Tasks-218695605))。
+如需有關複製任務的資訊，請參閱[複製和複製任務](../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md) (或者如果您正在使用Adobe Workfront Classic，請參閱[複製和複製任務](https://one.workfront.com/s/article/Copy-and-Duplicate-Tasks-218695605))。
 
-如需所有任務限制的概觀，請參閱 [任務限制總覽](../../../manage-work/tasks/task-constraints/task-constraint-overview.md) (或如果您使用Adobe Workfront Classic，請參閱 [任務限制總覽](https://one.workfront.com/s/article/Task-Constraint-Overview-453396848))。
+如需所有任務限制的概觀，請參閱[任務限制概觀](../../../manage-work/tasks/task-constraints/task-constraint-overview.md) (或者，如果您正在使用Adobe Workfront Classic，請參閱[任務限制概觀](https://one.workfront.com/s/article/Task-Constraint-Overview-453396848))。
 
-**適用於下列環境：**
+**在以下環境中可用：**
 
 * Adobe Workfront Classic
 * 全新Adobe Workfront體驗
@@ -83,9 +83,9 @@ ht-degree: 0%
 
 為了防止當您在手動儲存變更時，在專案層級更新物件或任務清單中任務的詳細資訊頁面上的資訊時遺失資料，現在會顯示警告訊息，在您嘗試編輯標題中的資訊之前，通知您尚未儲存變更。 在儲存變更之前，只允許訂閱物件或將物件加入您的最愛。
 
-如需有關編輯清單中工作的資訊，請參閱 [編輯清單中的任務](../../../manage-work/tasks/manage-tasks/edit-tasks-in-a-list.md)
+如需有關編輯清單中任務的資訊，請參閱[編輯清單中的任務](../../../manage-work/tasks/manage-tasks/edit-tasks-in-a-list.md)
 
-**適用於下列環境：**
+**在以下環境中可用：**
 
 * 全新Adobe Workfront體驗
 

@@ -17,7 +17,7 @@ ht-degree: 2%
 
 ## 先決條件
 
-開始之前，您必須先註冊Reporting Canvas測試版。 如需詳細資訊，請參閱 [報告畫布Beta版：概觀](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/reporting-canvas-beta-overview.md).
+開始之前，您必須先註冊Reporting Canvas測試版。 如需詳細資訊，請參閱[報告畫布測試版：概觀](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/reporting-canvas-beta-overview.md)。
 
 ## 設定長條圖視覺效果
 
@@ -25,11 +25,11 @@ ht-degree: 2%
 >
 >當您建立和編輯報告中的區塊時，所有變更都會自動儲存。
 
-1. 首先，使用新增視覺效果區塊 **長條圖** 報表的視覺效果型別，如中所述 [在報告畫布中新增或編輯視覺效果區塊](../../../reports-and-dashboards/reporting-canvas/visualization-blocks/add-or-edit-report-visualization.md).
+1. 首先，將具有&#x200B;**長條圖**&#x200B;視覺效果型別的視覺效果區塊新增至報表，如[在報表畫布](../../../reports-and-dashboards/reporting-canvas/visualization-blocks/add-or-edit-report-visualization.md)中新增或編輯視覺效果區塊所說明。
 
-1. 按一下「編輯視覺效果」圖示 ![](assets/edit-icon.png) 然後執行下列任一項作業。
+1. 按一下視覺效果右上角的「編輯視覺效果」圖示![](assets/edit-icon.png)，然後執行下列任一項作業。
 
-   1. 在 **設定** 標籤：
+   1. 在&#x200B;**設定**&#x200B;標籤上：
 
       <table style="table-layout:auto">
        <col>
@@ -48,10 +48,10 @@ ht-degree: 2%
          <td><p>在左側下拉式選單中，選取您要沿著水平軸或X軸描繪的資料。 此軸上的專案會根據其值顯示為比較長條。</p><p>在右側的下拉式功能表中，選取您希望視覺效果如何沿著水平軸計算及顯示值：</p>
           <ul>
            <li><p><b>計數</b>：值的數量</p></li>
-           <li><p><b>Sum</b>：所有值的總數 </p></li>
+           <li><p><b>總和</b>：所有值的總數 </p></li>
            <li><p><b>平均</b>：所有值的平均值</p></li>
-           <li><p><b>最小值</b>：僅限最低值</p></li>
-           <li><p><b>最大值</b>：僅限最高值</p></li>
+           <li><p><b>最小值</b>：只有最小值</p></li>
+           <li><p><b>最大值</b>：只有最大值</p></li>
           </ul></td>
         </tr>
         <tr>
@@ -61,11 +61,11 @@ ht-degree: 2%
        </tbody>
       </table>
 
-   1. 在 **資料** 標籤：
+   1. 在&#x200B;**資料**&#x200B;索引標籤上：
 
       | 資料來源（下拉式功能表） | 將視覺效果的資料來源變更為報表畫布上的另一個表格。 |
       |---|---|
-      | 顯示資料來源 | 啟用此選項以在報表畫布上顯示視覺效果的來源表格，或停用隱藏來源表格的選項。 |
+      | 顯示資料Source | 啟用此選項以在報表畫布上顯示視覺效果的來源表格，或停用隱藏來源表格的選項。 |
 
       {style="table-layout:auto"}
 

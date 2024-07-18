@@ -19,7 +19,7 @@ ht-degree: 5%
 # 藍圖
 
 * [藍圖概觀](../../administration-and-setup/blueprints/blueprints-overview.md)
-* [設定對藍圖的存取權](../../administration-and-setup/blueprints/configure-access-to-blueprints.md)
+* [設定Blueprint的存取權](../../administration-and-setup/blueprints/configure-access-to-blueprints.md)
 * [安裝Blueprint](../../administration-and-setup/blueprints/blueprints-install.md)
 * [設定Blueprint](../../administration-and-setup/blueprints/configure-template-package.md)
 * [安裝Blueprint後要採取的動作](../../administration-and-setup/blueprints/best-next-actions-after-install.md)

@@ -15,7 +15,7 @@ ht-degree: 0%
 
 # 22.3其他增強功能
 
-本頁說明22.3版對預覽環境所做的所有其他增強功能。 這些增強功能已在2022年7月11日當週的生產環境中推出。 如需22.3版所有可用變更的清單，請參閱 [22.3版本總覽](../../../product-announcements/product-releases/22.3-release-activity/22-3-release-overview.md).
+本頁說明22.3版對預覽環境所做的所有其他增強功能。 這些增強功能已在2022年7月11日當週的生產環境中推出。 如需22.3版本可用的所有變更清單，請參閱[22.3版本總覽](../../../product-announcements/product-releases/22.3-release-activity/22-3-release-overview.md)。
 
 ## 已更新時程表
 
@@ -62,7 +62,7 @@ ht-degree: 0%
 
 先前，重新整理權杖會在自訂OAuth2應用程式設定中設定的一段時間後過期。
 
-如需詳細資訊，請參閱 [為Workfront整合建立OAuth2應用程式](/help/quicksilver/administration-and-setup/configure-integrations/create-oauth-application.md).
+如需詳細資訊，請參閱[為Workfront整合建立OAuth2應用程式](/help/quicksilver/administration-and-setup/configure-integrations/create-oauth-application.md)。
 
 ## 在單頁網頁應用程式的自訂OAuth2整合中使用PKCE
 
@@ -70,4 +70,4 @@ ht-degree: 0%
 
 之前，自訂OAuth2應用程式的可用選項是使用使用者的名稱和密碼或使用者端密碼。
 
-如需詳細資訊，請參閱 [為Workfront整合建立OAuth2應用程式](/help/quicksilver/administration-and-setup/configure-integrations/create-oauth-application.md).
+如需詳細資訊，請參閱[為Workfront整合建立OAuth2應用程式](/help/quicksilver/administration-and-setup/configure-integrations/create-oauth-application.md)。

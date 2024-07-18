@@ -57,7 +57,7 @@ ht-degree: 6%
  </tbody> 
 </table>
 
-如需有關此表格的詳細資訊，請參閱 [Workfront檔案中的存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -65,8 +65,8 @@ ht-degree: 6%
 
 {{step-1-to-setup}}
 
-1. 按一下 **存取層級** 在左側面板中。
-1. 選取您要複製及自訂的存取層級，然後按一下 **複製**.
+1. 按一下左側面板中的&#x200B;**存取層級**。
+1. 選取您要複製及自訂的存取層級，然後按一下[複製]。****
 
    或
 
@@ -80,7 +80,7 @@ ht-degree: 6%
     <tbody> 
      <tr> 
       <td role="rowheader">姓名</td> 
-      <td> <p>輸入存取層級的名稱。 </p> <p>如果您剛複製存取層級來建立新存取層級，預設名稱為存取層級名稱（複製），其中存取層級名稱是您複製的存取層級。</p> <p><strong>秘訣</strong>：我們建議您在副本的名稱中加入存取層級的原始名稱。 例如，在ACME公司，「標準」存取層級的復本可能命名為ACME Standard。</p> </td> 
+      <td> <p>輸入存取層級的名稱。 </p> <p>如果您剛複製存取層級來建立新存取層級，預設名稱為存取層級名稱（複製），其中存取層級名稱是您複製的存取層級。</p> <p><strong>提示</strong>：建議您在副本名稱中加入存取層級的原始名稱。 例如，在ACME公司，「標準」存取層級的復本可能命名為ACME Standard。</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">說明 </td> 
@@ -88,12 +88,12 @@ ht-degree: 6%
      </tr> 
      <tr> 
       <td role="rowheader">授權類型</td> 
-      <td>請確定此處選取的授權與您建立或編輯的存取層級型別最相關。 選取的授權決定存取層級可用的設定。 如需詳細資訊，請參閱 <a href="/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md" class="MCXref xref">新授權總覽</a> 或 <a href="/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md">授權總覽</a>.</td> 
+      <td>請確定此處選取的授權與您建立或編輯的存取層級型別最相關。 選取的授權決定存取層級可用的設定。 如需詳細資訊，請參閱<a href="/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md" class="MCXref xref">新授權概述</a>或<a href="/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md">授權概述</a>。</td> 
      </tr> 
     </tbody> 
    </table>
 
-1. （視條件而定） If **標準** 或 **計畫** 已選取的 **授權型別** 方塊，捲動至區段 **允許管理存取許可權：** 並為擁有此存取層級的人選取管理存取許可權。
+1. （視條件而定）如果在&#x200B;**授權型別**&#x200B;方塊中選取&#x200B;**標準**&#x200B;或&#x200B;**計畫**，請捲動至&#x200B;**允許**&#x200B;的系統管理存取許可權區段，並為擁有此存取層級的使用者選取系統管理存取許可權。
 
    <table style="table-layout:auto"> 
     <col> 
@@ -132,7 +132,7 @@ ht-degree: 6%
         <li>新增職位角色</li> 
         <li>編輯角色帳單和成本費率</li> 
        </ul> 
-       <p>有關對職位角色具有管理存取權的標準或規劃工具使用者可用以存取財務資料的重要資訊，請參閱 <a href="#standard-or-planner-users-with-administrative-access-to-job-roles">對職位角色具有管理存取權的標準或規劃工具使用者</a>.</p>
+       <p>有關對工作角色具有管理存取許可權的「標準」或「規劃」使用者可存取之財務資料的重要資訊，請參閱<a href="#standard-or-planner-users-with-administrative-access-to-job-roles">對工作角色具有管理存取許可權的「標準」或「規劃」使用者</a>。</p>
       </td> 
      </tr> 
      <tr> 
@@ -156,7 +156,7 @@ ht-degree: 6%
     </tbody> 
    </table>
 
-1. 按一下 **設定其他限制**，然後針對存取層級設定下列任一限制。
+1. 按一下&#x200B;**設定其他限制**，然後為存取層級設定下列任何限制。
 
    >[!IMPORTANT]
    >
@@ -168,7 +168,7 @@ ht-degree: 6%
     <tbody> 
      <tr> 
       <td role="rowheader">當專案已指派至任務或問題時，不要將存取權授予整個專案</td> 
-      <td> 防止指派給任務或問題的使用者也獲得上層專案的許可權，即使專案許可權允許這樣做。<p>如需關於設定專案許可權的詳細資訊，請參閱區段 <a href="../../../manage-work/projects/manage-projects/edit-projects.md#access" class="MCXref xref"></a> 在文章中 <a href="../../../manage-work/projects/manage-projects/edit-projects.md" class="MCXref xref">編輯專案</a>.</p></td> 
+      <td> 防止指派給任務或問題的使用者也獲得上層專案的許可權，即使專案許可權允許這樣做。<p>如需有關設定專案許可權的詳細資訊，請參閱文章<a href="../../../manage-work/projects/manage-projects/edit-projects.md" class="MCXref xref">編輯專案</a>中的<a href="../../../manage-work/projects/manage-projects/edit-projects.md#access" class="MCXref xref"></a>小節。</p></td> 
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader">不要從專案、任務、問題等繼承文件存取權...</td> 
@@ -176,15 +176,15 @@ ht-degree: 6%
      </tr> 
      <tr> 
       <td role="rowheader">僅檢視已加入交談的更新</td> 
-      <td> 讓使用者只能看見包含其名稱或團隊名稱的註解。 <p> <p><b>注意</b>：這可防止使用者訂閱Workfront中的專案。 如需訂閱專案的詳細資訊，請參閱 <a href="../../../workfront-basics/using-notifications/subscribe-to-items-in-workfront.md" class="MCXref xref">訂閱Adobe Workfront中的專案</a>.</p> </p> </td> 
+      <td> 讓使用者只能看見包含其名稱或團隊名稱的註解。 <p> <p><b>注意</b>：這可防止使用者訂閱Workfront中的專案。 如需訂閱專案的詳細資訊，請參閱<a href="../../../workfront-basics/using-notifications/subscribe-to-items-in-workfront.md" class="MCXref xref">在Adobe Workfront中訂閱專案</a>。</p> </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">永不允許使用者刪除註解 </td> 
-      <td> 防止使用者刪除對專案所做的註解。  <p><b>注意</b>：沒有人可以刪除其他使用者的評論。</p> </td> 
+      <td> 防止使用者刪除對專案所做的註解。  <p><b>附註</b>：沒有人可以刪除其他使用者的註解。</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">僅檢視他們所屬的公司、群組和小組</td> 
-      <td>僅允許使用者檢視專案並與他們所屬的公司、群組和團隊共用。<p><strong>注意</strong>：即使選取此選項，擁有請求者授權的使用者仍無法檢視他們不屬於的公司。</td> 
+      <td>僅允許使用者檢視專案並與他們所屬的公司、群組和團隊共用。<p><strong>注意</strong>：擁有請求者授權的使用者無法檢視他們不屬於的公司，即使選取此選項亦然。</td> 
      </tr> 
      <tr> 
       <td role="rowheader">絕對禁止顯示規劃時數或實際時數</td> 
@@ -192,27 +192,27 @@ ht-degree: 6%
      </tr> 
      <tr> 
       <td role="rowheader">永不允許使用者刪除宣告</td> 
-      <td>防止使用者刪除公告中心中的公告。 如需詳細資訊，請參閱 <a href="../../../administration-and-setup/get-started-wf-administration/view-send-announcements.md" class="MCXref xref">傳送宣告</a>.</td> 
+      <td>防止使用者刪除公告中心中的公告。 如需詳細資訊，請參閱<a href="../../../administration-and-setup/get-started-wf-administration/view-send-announcements.md" class="MCXref xref">傳送宣告</a>。</td> 
      </tr> 
     </tbody> 
    </table>
 
-1. （有條件且選用）如果您的Workfront系統設定為適用於屬於多個公司的使用者，請根據其他使用者在區段中屬於的公司來限制其他人看得見 **其他公司的人員應該只能從檢視使用者**.
+1. （條件式與選擇性）如果您的Workfront系統設定給屬於多個公司的使用者，請根據其他使用者在&#x200B;**區段中屬於哪個公司來限制其他使用者的可見度。其他公司的人員應該僅檢視來自**&#x200B;的使用者。
 
-   您可以限制使用者，使其只能看見自己公司或您指定為主要公司之公司的使用者。 主要公司通常代表您大部分使用者工作所在的Workfront帳戶。 如需主要公司的詳細資訊，請參閱 [建立和編輯公司](../../../administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md).
+   您可以限制使用者，使其只能看見自己公司或您指定為主要公司之公司的使用者。 主要公司通常代表您大部分使用者工作所在的Workfront帳戶。 如需主要公司的詳細資訊，請參閱[建立和編輯公司](../../../administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md)。
 
    >[!NOTE]
    >
    >如果兩個使用者屬於兩個不同的公司，但他們都可以看到來自主要公司的使用者，則他們可以看到與主要公司相關聯的「更新」區域。
 
-1. （選擇性）若要為您正在處理的存取層級中的其他物件與區域設定存取設定，請繼續下列其中一篇文章 [設定Adobe Workfront的存取權](../../../administration-and-setup/add-users/configure-and-grant-access/configure-access.md)，例如 [授與任務的存取權](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-tasks.md) 和 [授予財務資料的存取權](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).
+1. （選擇性）若要針對您正在處理的存取層級中的其他物件與區域設定存取設定，請繼續使用[設定對Adobe Workfront的存取權](../../../administration-and-setup/add-users/configure-and-grant-access/configure-access.md)中所列的文章之一，例如[授與對工作的存取權](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-tasks.md)和[授與對財務資料的存取權](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md)。
 1. 按一下「**儲存**」。
 
    建立存取層級後，您可以將其指派給使用者（除非它是系統管理員存取層級）。
 
-   如需詳細資訊，請參閱 [編輯使用者設定檔](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
+   如需詳細資訊，請參閱[編輯使用者的設定檔](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md)。
 
-   有關Adobe管理員如何為使用者指派系統管理員存取層級的資訊，請參閱 [授予使用者完整管理存取權](../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md).
+   如需Adobe管理員如何指派系統管理員存取層級給使用者的詳細資訊，請參閱[授與使用者完整管理存取權](../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md)。
 
 ## 對職位角色具有管理存取權的標準或規劃工具使用者 {#planner-users}
 
@@ -220,4 +220,4 @@ ht-degree: 6%
 
 稍後，如果您停用使用者對工作角色的管理存取權，則使用者仍可看見工作角色，因為編輯角色帳單與成本費率設定仍處於啟用狀態。
 
-如果發生此情況，並且您需要移除使用者檢視工作角色的存取權，您需要停用使用者的「編輯角色帳單和成本費率」許可權設定。 如需指示，請參閱 [授予財務資料的存取權](grant-access-financial.md).
+如果發生此情況，並且您需要移除使用者檢視工作角色的存取權，您需要停用使用者的「編輯角色帳單和成本費率」許可權設定。 如需指示，請參閱[授予財務資料的存取權](grant-access-financial.md)。

@@ -1,8 +1,8 @@
 ---
 product-area: timesheets;setup
 navigation-topic: configure-timesheet-preferences
-title: 配置時間是以小時還是天記錄
-description: 身為擁有計畫授權的使用者，您可以設定是否在數小時或數天內登入Adobe Workfront。 系統管理員可以為個別使用者或組織中的多位使用者設定此設定。 預設情況下，用戶以小時為單位登錄時間。
+title: 設定以小時或天記錄時間
+description: 身為擁有Plan授權的使用者，您可以設定以小時或天為單位登入Adobe Workfront的時間。 系統管理員可以為個別使用者或其組織中的多個使用者設定此設定。 依預設，使用者會以小時記錄時間。
 author: Alina
 feature: Timesheets
 exl-id: 4f801a13-182d-4e06-98ea-f6863f6a8edf
@@ -13,17 +13,17 @@ ht-degree: 1%
 
 ---
 
-# 配置時間是以小時還是天記錄
+# 設定以小時或天記錄時間
 
-您是擁有規劃員授權的使用者，可以設定是否以小時或天為單位登入Adobe Workfront。 系統管理員可以為個別使用者或組織中的多位使用者設定此設定。 預設情況下，用戶以小時為單位登錄時間。 如需如何在Workfront中登入時間的詳細資訊，請參閱 [記錄時間](../../timesheets/create-and-manage-timesheets/log-time.md).
+作為具有Planner授權的使用者，您可以設定您是否以小時或天為單位在Adobe Workfront中記錄時間。 系統管理員可以為個別使用者或其組織中的多個使用者設定此設定。 依預設，使用者會以小時記錄時間。 如需有關如何在Workfront中記錄時間的資訊，請參閱[記錄時間](../../timesheets/create-and-manage-timesheets/log-time.md)。
 
 >[!NOTE]
 >
->建議您在整個組織內以相同方式（小時或天）記錄時間，以確保報表正確無誤。
+>我們建議在整個組織內以相同的方式記錄時間（小時或天數），以確保報告準確性。
 
 ## 存取需求
 
-您必須具備下列存取權，才能執行本文中的步驟：
+您必須具有下列存取權才能執行本文中的步驟：
 
 <table style="table-layout:auto"> 
  <col> 
@@ -40,37 +40,37 @@ ht-degree: 1%
    <td> <p>計劃 </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">訪問級別配置*</td> 
-   <td> <p>規劃者可以為自己配置時間。 只有Workfront管理員可為其他使用者設定時間。</p> </td> 
+   <td role="rowheader">存取層級設定*</td> 
+   <td> <p>規劃人員可以自行設定時間。 只有Workfront管理員可以為其他使用者設定時間。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;若要了解您擁有的計畫、授權類型或存取權，請聯絡您的Workfront管理員。
+&#42;若要瞭解您擁有的計畫、授權型別或存取權，請連絡您的Workfront管理員。
 
-1. 根據您的目標和系統中的訪問級別，執行下列任一操作：
+1. 請根據您的目標和系統中的存取層級，執行下列任一項作業：
 
-   * **計畫員用戶為自己配置時間記錄：** 按一下 **主菜單** 圖示 ![](assets/main-menu-icon.png) 在Adobe Workfront的右上角，按一下個人資料圖片旁的您的使用者名稱。 然後，按一下 **更多** 圖示並選取 **編輯**.
+   * **為自己設定時間記錄的Planner使用者：**&#x200B;按一下Adobe Workfront右上角的&#x200B;**主功能表**&#x200B;圖示![](assets/main-menu-icon.png)，然後按一下您的個人資料圖片旁的使用者名稱。 然後，按一下您名稱旁的&#x200B;**更多**&#x200B;圖示，並選取&#x200B;**編輯**。
 
-   * **系統管理員為其他人配置時間記錄：** 開始編輯一個或多個用戶帳戶，如 [編輯使用者的設定檔](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
+   * **系統管理員設定其他人的時間記錄：**&#x200B;開始編輯一或多個使用者帳戶，如[編輯使用者的設定檔](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md)中所述。
 
-1. 在產生的對話方塊中， **資源規劃** 區段，找到 **登入時間** 選項。
+1. 在產生的對話方塊中，在&#x200B;**資源規劃**&#x200B;區段中，找到&#x200B;**在**&#x200B;中記錄時間選項。
 
    ![](assets/new-timesheet-log-hours-350x249.png)
 
-1. （條件性）如果您是同時編輯多個用戶的系統管理員，請選擇 **登入時間**.
-1. 從下列記錄時間選項中選取：
+1. （視條件而定）如果您是同時編輯多個使用者的系統管理員，請選取&#x200B;**在**&#x200B;中記錄時間。
+1. 從下列選項中選取記錄時間：
 
    | 選項 | 說明 |
    |---|---|
-   | **時數** | 使用者在Workfront中記錄時間時指定小時。 |
-   | **天** | 使用者可指定在Workfront中記錄時間的天數。 |
+   | **小時** | 使用者在Workfront中記錄時間時指定小時。 |
+   | **天** | 使用者可在Workfront中指定記錄時間。 |
 
-1. （條件性）若您選取以天為單位來記錄時間，請在 **完整Workday的等同小時數** 欄位，輸入等於一天的小時數。 用戶時間表上的某天等於您在此處輸入的小時數。
+1. （視條件而定）如果您選取以天為單位記錄時間，請在&#x200B;**完整Workday的同等時數**&#x200B;欄位中，輸入等於一整天的小時數。 在使用者的時程表上的一天等於您在此處輸入的小時數。
 
-   設定此設定時，請考量下列事項：
+   進行此設定時，請考量下列事項：
 
-   * 此選項在配置為以小時為單位記錄時間時不可用。
-   * 此選項僅用於記錄時間。 此選項與 **排程** 選項（編輯使用者時也可用）。 此 **排程** 計算時間軸時，會在Workfront的其他區域中使用選項。 (如需使用 **排程** 選項，請參閱 [建立排程](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).) 
+   * 設定為以小時記錄時間時，此選項無法使用。
+   * 此選項僅用於記錄時間。 此選項與編輯使用者時也可使用的&#x200B;**排程**&#x200B;選項無關。 **排程**&#x200B;選項用於計算時間表和Workfront的其他區域。 （如需使用&#x200B;**排程**&#x200B;選項的詳細資訊，請參閱[建立排程](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md)。） 
 
-1. 按一下 **儲存變更**.
+1. 按一下「**儲存變更**」。

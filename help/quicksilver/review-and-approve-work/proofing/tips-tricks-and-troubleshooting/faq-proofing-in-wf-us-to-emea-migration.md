@@ -3,7 +3,7 @@ content-type: tips-tricks-troubleshooting
 product-area: documents
 navigation-topic: tips-tricks-and-troubleshooting-proofing-within-workfront
 title: 「常見問題集：Adobe Workfront內部校訂 — 美國移轉至EMEA」
-description: Adobe Workfront會直接連絡受Workfront Proof美國影響的所有組織移轉至EMEA。
+description: Adobe Workfront會直接連絡所有受Workfront Proof美國影響的組織，以移轉至EMEA。
 author: Courtney
 feature: Digital Content and Documents
 exl-id: a6ac5738-8572-4d75-8212-5a2215ca8a8c
@@ -18,11 +18,11 @@ ht-degree: 0%
 
 ## 如何知道此變更是否會影響我的組織？ 
 
-Adobe Workfront會直接連絡受Workfront Proof美國影響的所有組織移轉至EMEA。
+Adobe Workfront會直接連絡所有受Workfront Proof美國影響的組織，以移轉至EMEA。
 
 ## 我是否需要執行任何準備工作來進行移轉？
 
-是. 移轉之前，請確定您將下列專案新增至貴組織的允許清單：\
+是。移轉之前，請確定您將下列專案新增至貴組織的允許清單：\
 **webcapture.proofhq.eu**
 
 ## 移轉我的帳戶需要多久的時間？

@@ -31,4 +31,4 @@ ht-degree: 0%
 * 現在選取時，會正確顯示連線至註解的標示。
 * 「校訂角色」和「電子郵件警報」的下拉式清單現在可如預期運作。
 
-如需有關下載更新的資訊，請參閱 [更新案頭校訂檢視器](/help/quicksilver/review-and-approve-work/proofing/use-the-desktop-proofing-viewer/update-the-desktop-proofing-viewer.md).
+如需有關下載更新的資訊，請參閱[更新案頭校訂檢視器](/help/quicksilver/review-and-approve-work/proofing/use-the-desktop-proofing-viewer/update-the-desktop-proofing-viewer.md)。

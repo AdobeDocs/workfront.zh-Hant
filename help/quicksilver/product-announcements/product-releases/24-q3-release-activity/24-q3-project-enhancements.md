@@ -16,7 +16,7 @@ ht-degree: 0%
 
 本頁說明2024年第三季度版本對預覽環境所做的所有專案增強功能。 如上所述，這些增強功能將於生產環境中提供。
 
-如需2024年第三季度發行週期中目前可用的所有變更清單，請參閱 [2024年第三季度版本總覽](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).
+如需2024年第三季度發行週期中目前可用的所有變更清單，請參閱[2024年第三季度發行概觀](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md)。
 
 
 ## 從標題或詳細資訊區段編輯任務和問題認可日期和條件
@@ -29,10 +29,10 @@ ht-degree: 0%
 
 如需有關更新「認可日期」和sCondition的資訊，請參閱下列文章：
 
-* [更新任務和問題的條件](/help/quicksilver/manage-work/projects/updating-work-in-a-project/update-condition-for-tasks-and-issues.md).
-* [更新任務和問題的認可日期](/help/quicksilver/manage-work/projects/updating-work-in-a-project/update-commit-date-on-tasks-and-issues.md).
+* [更新任務和問題的條件](/help/quicksilver/manage-work/projects/updating-work-in-a-project/update-condition-for-tasks-and-issues.md)。
+* [更新任務和問題的認可日期](/help/quicksilver/manage-work/projects/updating-work-in-a-project/update-commit-date-on-tasks-and-issues.md)。
 
-[觀看此功能的示範影片。](https://video.tv.adobe.com/v/3429471/){target=_blank}
+[觀看此功能的影片示範。](https://video.tv.adobe.com/v/3429471/){target=_blank}
 
 ## 更相關的智慧指派
 
@@ -56,4 +56,4 @@ ht-degree: 0%
 
 * 針對問題計算智慧型指派的方式沒有變更。 問題清單中的智慧指派清單名稱為「以下是一些建議」。
 
-如需詳細資訊，請參閱 [智慧指派總覽](/help/quicksilver/manage-work/tasks/assign-tasks/smart-assignments.md).
+如需詳細資訊，請參閱[智慧指派總覽](/help/quicksilver/manage-work/tasks/assign-tasks/smart-assignments.md)。

@@ -18,9 +18,9 @@ ht-degree: 1%
 >
 >此頁面中說明的程式僅適用於尚未加入Admin Console的組織。 如果您的組織已加入Adobe Admin Console，您必須透過Adobe Admin Console執行此動作。
 >
->如需在Adobe Admin Console中授與完整管理員存取權的指示，請參閱 [在Adobe Admin Console中管理系統管理員](../../../administration-and-setup/add-users/create-and-manage-users/admin-console.md).
+>如需在Adobe Admin Console中授與完整系統管理員存取權的指示，請參閱[在Adobe Admin Console中管理系統管理員](../../../administration-and-setup/add-users/create-and-manage-users/admin-console.md)。
 >
->如需根據貴組織是否已加入Adobe Admin Console而有所差異的程式清單，請參閱 [平台型管理差異(Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
+>如需根據貴組織是否已加入Adobe Admin Console而有所差異的程式清單，請參閱[以平台為基礎的管理差異(Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md)。
 
 作為Adobe Workfront管理員，您可以指派系統管理員存取層級來建立另一個Workfront管理員。 具有此存取層級的使用者對Workfront中的所有專案具有完整管理存取權，包括他們自己未建立的專案。
 
@@ -28,8 +28,8 @@ ht-degree: 1%
 >
 >這不同於使用存取層級來授與使用者對系統特定區域的管理存取權。 如需詳細資訊，請參閱下列內容：
 >
->* [授予使用者管理特定區域的存取權](../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md)
->* [Workfront管理員的存取權與具有管理許可權的計畫使用者的存取權](#access-of-a-workfront-administrator-vs-access-of-a-plan-user-with-administrative-rights) 本文章
+>* [授與使用者對特定區域的管理存取權](../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md)
+>* [Workfront管理員的存取權與具有系統管理許可權之Plan使用者的存取權](#access-of-a-workfront-administrator-vs-access-of-a-plan-user-with-administrative-rights)的比較（在本文中）
 >
 
 ## 存取需求
@@ -50,25 +50,25 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定</td> 
-   <td> <p>您必須是Workfront管理員。 如需詳細資訊，請參閱 <a href="#" class="MCXref xref selected">授予使用者完整管理存取權</a>.</p> <p><b>注意</b>：如果您還是沒有存取權，請詢問Workfront管理員是否對您的存取層級設定了其他限制。 如需有關Workfront管理員如何修改您的存取層級的資訊，請參閱 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>.</p> </td> 
+   <td> <p>您必須是Workfront管理員。 如需詳細資訊，請參閱<a href="#" class="MCXref xref selected">授予使用者完整管理存取權</a>。</p> <p><b>注意</b>：如果您還是沒有存取權，請詢問您的Workfront管理員是否對您的存取層級設定了其他限制。 如需Workfront管理員如何修改存取層級的詳細資訊，請參閱<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## 授予單一使用者完整的系統管理員存取權
 
-1. 按一下 **主要功能表** 圖示 ![](assets/main-menu-icon.png) (位於Adobe Workfront的右上角)，然後按一下 **使用者** ![](assets/users-icon-in-main-menu.png).
+1. 按一下Adobe Workfront右上角的&#x200B;**主要功能表**&#x200B;圖示![](assets/main-menu-icon.png)，然後按一下&#x200B;**使用者** ![](assets/users-icon-in-main-menu.png)。
 
 1. 按一下您要授予管理員許可權的使用者名稱。
-1. 按一下「更多」功能表 ![](assets/more-icon.png)，然後按一下 **編輯**.
+1. 按一下[更多]功能表![](assets/more-icon.png)，然後按一下[編輯]****。
 
-1. 在 **編輯人員** 方塊中，按一下 **存取**.
+1. 在出現的&#x200B;**編輯人員**&#x200B;方塊上，按一下&#x200B;**存取**。
 
-1. 在 **存取層級** 從下拉式清單中選取 **系統管理員** 存取層級。
+1. 在&#x200B;**存取等級**&#x200B;下拉式清單中，選取&#x200B;**系統管理員**&#x200B;存取等級。
 
    根據系統中進行的變更，此存取層級的名稱可能已變更。
 
-1. 按一下 **儲存變更。**
+1. 按一下&#x200B;**儲存變更。**
 
    使用者現在在系統中具有完整的系統管理員許可權。
 
@@ -82,7 +82,7 @@ Workfront管理員可以檢視系統中的所有物件（不論物件的建立�
 
 >[!NOTE]
 >
->擁有計畫授權且被指定為群組管理員的使用者可以執行一些允許Workfront管理員執行的動作。 他們只能為其管理的群組、其子群組以及這些群組和子群組中的使用者執行這些動作。 如需詳細資訊，請參閱 [群組管理員](../../../administration-and-setup/manage-groups/group-roles/group-administrators.md).
+>擁有計畫授權且被指定為群組管理員的使用者可以執行一些允許Workfront管理員執行的動作。 他們只能為其管理的群組、其子群組以及這些群組和子群組中的使用者執行這些動作。 如需詳細資訊，請參閱[群組管理員](../../../administration-and-setup/manage-groups/group-roles/group-administrators.md)。
 
 * [存取設定區域](#access-to-the-setup-area)
 * [存取物件](#access-to-objects)
@@ -179,7 +179,7 @@ Workfront管理員可以檢視系統中的所有物件（不論物件的建立�
   <tr> 
    <td>登入身份</td> 
    <td>完整存取權 </td> 
-   <td> <p>如果他們的群組管理存取權在其存取層級上已啟用，並且他們被指定為群組管理員，則他們可以以其所管理群組及其子群組中的使用者身分登入。 他們無法以系統管理員身分登入。<br>如需啟用使用者群組管理存取權的詳細資訊，請參閱 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">授予使用者存取許可權</a>.</p> </td> 
+   <td> <p>如果他們的群組管理存取權在其存取層級上已啟用，並且他們被指定為群組管理員，則他們可以以其所管理群組及其子群組中的使用者身分登入。 他們無法以系統管理員身分登入。<br>如需啟用使用者群組管理存取權的詳細資訊，請參閱<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">授予使用者存取權</a>。</p> </td> 
   </tr> 
   <tr> 
    <td>排程</td> 
@@ -411,7 +411,7 @@ Workfront管理員可以檢視系統中的所有物件（不論物件的建立�
   <tr> 
    <td>使用者</td> 
    <td>完整存取權</td> 
-   <td> <p>有限存取</p> <p>他們無法將群組指派給不是群組管理員的使用者或非公開群組。</p> <p>他們無法將存取層級指派給高於他們自己的存取層級的使用者。</p> <p>如果他們的群組管理存取權在其存取層級上已啟用，並且他們被指定為群組的群組管理員，則他們可以重設密碼，並以其管理的群組及其子群組中的使用者身分登入。 他們無法重設密碼或以系統管理員身分登入。<br>如需啟用使用者群組管理存取權的詳細資訊，請參閱 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">授予使用者存取許可權</a>.</p> </td> 
+   <td> <p>有限存取</p> <p>他們無法將群組指派給不是群組管理員的使用者或非公開群組。</p> <p>他們無法將存取層級指派給高於他們自己的存取層級的使用者。</p> <p>如果他們的群組管理存取權在其存取層級上已啟用，並且他們被指定為群組的群組管理員，則他們可以重設密碼，並以其管理的群組及其子群組中的使用者身分登入。 他們無法重設密碼或以系統管理員身分登入。<br>如需啟用使用者群組管理存取權的詳細資訊，請參閱<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">授予使用者存取權</a>。</p> </td> 
   </tr> 
  </tbody> 
 </table>

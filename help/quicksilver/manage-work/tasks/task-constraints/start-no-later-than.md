@@ -2,8 +2,8 @@
 content-type: reference;how-to-procedural
 product-area: projects
 navigation-topic: task-constraints
-title: 「任務約束概述：不晚於'
-description: 「開始日期不晚於」(SNLT)是任務約束，它將任務調度為在指定日期之前開始。
+title: 「任務限制總覽：開始時間不晚於」
+description: 「開始時間不晚於(SNLT)」是「作業限制」，可排定在指定日期之前開始作業。
 author: Alina
 feature: Work Management
 exl-id: 86139ce6-c6b1-4ac4-a5cb-fd4aa899a025
@@ -14,33 +14,34 @@ ht-degree: 0%
 
 ---
 
-# 任務約束概覽：不晚於
+# 任務限制總覽：開始時間不晚於
 
-「開始日期不晚於」(SNLT)是任務約束，它將任務調度為在指定日期之前開始。
+「開始時間不晚於(SNLT)」是「作業限制」，可排定在指定日期之前開始作業。
 
-使用SNLT約束時，請考慮以下事項：
+使用SNLT限制時，請考量下列事項：
 
-* 從完成日期排程專案時，您應使用「開始時間不晚於」限制。 在此情況下，您可以對任務提供軟約束，然後強制其他從屬任務顯示為「風險」。
-* 如果項目使用「從完成日期開始的計畫」計畫模式，並且任務的「開始日期」的系統或組預設值為「今天」，則預設約束為「不晚於」。 有關為新任務設定預設約束的位置的資訊，請參閱 [配置全系統任務和問題首選項](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
-* 將SNLT約束與「從開始日期開始的計畫」項目一起使用時，Adobe Workfront會按「盡快」任務的方式安排任務。
-* 將具有SNLT約束的任務移動或複製到另一個項目時，任務的約束或項目日期可能會根據約束日期以及項目的起始日期和完成日期而改變。 存在下列情況：
+* 從完成日期開始排程專案時，您應該使用開始時間不晚於限制。 在這種情況下，您可以在任務強制其他相依任務顯示為「有風險」之前提供軟性任務限制。
+* 如果專案使用「從完成日期開始排程」的排程模式，且作業「開始日期」的系統或群組預設值為「今天」，則「開始時間不晚於」為預設限制。 如需有關設定新任務的預設條件約束的詳細資訊，請參閱[設定全系統的任務和問題偏好設定](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md)。
+* 當您將SNLT限制與「從開始日期開始排程」專案搭配使用時，Adobe Workfront會以儘快排程作業的方式排程作業。
+* 當您將具有SNLT限制的任務移動或複製到另一個專案時，任務的限制或專案日期可能會根據限制日期以及專案的開始與完成日期而變更。 存在下列情況：
 
-   * 排程從開始時：
+   * 從開始排程目的地專案時：
 
-      * 當任務的約束日期早於項目計畫起始日期時，任務約束將盡快更改為。
-      * 當任務的約束日期晚於項目計畫完成日期時，項目計畫完成日期將更改以匹配任務的完成約束日期。
+      * 當任務的限制日期早於專案計劃開始日期時，任務限制會變更為「儘快」。
+      * 當任務的限制日期晚於專案計畫完成日期時，專案計畫完成日期會變更以符合任務的完成限制日期。
 
-      * 排程完成時：
+      * 當目標專案排程為從完成開始時：
 
-         * 當任務的約束日期晚於項目完成日期時，任務約束將變為盡可能晚。
-         * 當任務的約束日期早於項目的計畫起始日期時，項目計畫起始日期將更改以匹配任務的起始約束日期。
-      * 無論項目計畫如何，當任務的約束日期在項目的「開始」和「完成」日期內時，任務約束或項目日期均不會更改。
+         * 當任務的限制日期晚於「專案完成日期」時，任務限制會變更為「儘可能遲」。
+         * 當任務的限制日期早於專案的「計劃開始日期」時，專案的「計劃開始日期」會變更以符合任務的開始限制日期。
 
-   有關移動任務的資訊，請參閱 [移動任務](../../../manage-work/tasks/manage-tasks/move-tasks.md).
+      * 無論專案的排程為何，當任務的限制日期在專案的「開始」與「完成」日期內時，不會變更「任務限制」或專案日期。
 
-   有關複製任務的資訊，請參閱 [複製和複製任務](../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md).
+  如需關於移動任務的資訊，請參閱[移動任務](../../../manage-work/tasks/manage-tasks/move-tasks.md)。
 
-有關如何更新任務的任務約束的資訊，請參閱 [更新任務的任務約束](../../../manage-work/tasks/task-constraints/update-task-constraint-of-task.md).
+  如需複製工作的相關資訊，請參閱[複製和複製工作](../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md)。
+
+如需有關如何更新任務之任務限制的資訊，請參閱[更新任務的任務限制](../../../manage-work/tasks/task-constraints/update-task-constraint-of-task.md)。
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

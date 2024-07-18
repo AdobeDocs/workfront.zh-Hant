@@ -17,15 +17,15 @@ ht-degree: 0%
 
 您可以從Workfront傳送檔案至Experience Manager Assets或Assets Essentials。 從Workfront上傳並傳送至Assets Essentials的檔案仍會計入您的整體檔案儲存。 從Assets Essentials連結的Assets不計入整體儲存空間。
 
-透過此整合傳送至Experience Manager的Assets大小限製為 **5 GB**.
+透過此整合傳送給Experience Manager的Assets大小限製為&#x200B;**5 GB**。
 
-在預覽環境中，透過此整合傳送至Experience Manager的Assets大小限製為 **30 GB**.
+在預覽環境中，透過此整合傳送至Experience Manager的Assets有&#x200B;**30 GB**&#x200B;的大小限制。
 
-從Workfront傳送資產至Experience Manager Assets或Assets Essentials時，會先對應中繼資料欄位。 設定為對應父物件的任何中繼資料也會一併傳送。 如需設定中繼資料對應的詳細資訊，請參閱 [設定Experience Manager Assetsas a Cloud Service整合](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md) 或 [設定Experience Manager Assets Essentials整合](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md).
+從Workfront傳送資產至Experience Manager Assets或Assets Essentials時，會先對應中繼資料欄位。 設定為對應父物件的任何中繼資料也會一併傳送。 如需設定中繼資料對應的詳細資訊，請參閱[設定Experience Manager Assetsas a Cloud Service整合](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md)或[設定Experience Manager Assets Essentials整合](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md)。
 
 >[!INFO]
 >
->**範例** 第一次傳送附加到任務的資產時，任務中繼資料會對應至Experience Manager Assets或Assets Essentials，以及父物件（例如專案、專案組合和方案）的任何對應中繼資料。
+>**範例**&#x200B;當您第一次傳送附加至任務的資產時，任務中繼資料會對應至Experience Manager Assets或Assets Essentials，以及父物件（例如專案、投資組合和方案）的任何對應中繼資料。
 
 ## 存取需求
 
@@ -42,7 +42,7 @@ ht-degree: 0%
    <td> <p> 任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">舊版授權概觀</a>*</td> 
+   <td role="rowheader"><a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">舊版授權總覽</a>*</td> 
    <td> <p>要求或更高版本</p> </td> 
   </tr> 
   <tr> 
@@ -52,16 +52,16 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定*</td> 
-   <td> <p>編輯檔案的存取權</p> <p>注意：如果您還是沒有存取權，請詢問您的Workfront管理員，他們是否在您的存取層級中設定其他限制。 如需有關Workfront管理員如何修改您的存取層級的資訊，請參閱 <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>.</p> </td> 
+   <td> <p>編輯檔案的存取權</p> <p>注意：如果您還是沒有存取權，請詢問您的Workfront管理員，他們是否在您的存取層級中設定其他限制。 如需Workfront管理員如何修改存取層級的詳細資訊，請參閱<a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">物件許可權</td> 
-   <td> <p>檢視檔案的存取許可權或以上許可權</p> <p>如需請求其他存取許可權的詳細資訊，請參閱 <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">要求物件的存取權 </a>.</p> </td> 
+   <td> <p>檢視檔案的存取許可權或以上許可權</p> <p>如需請求其他存取權的資訊，請參閱<a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">請求物件</a>的存取權。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;若要瞭解您擁有的計畫、授權型別或存取權，請聯絡您的Workfront管理員。
+&#42;若要瞭解您擁有的計畫、授權型別或存取權，請連絡您的Workfront管理員。
 
 +++
 
@@ -69,17 +69,17 @@ ht-degree: 0%
 
 開始之前，
 
-* 您的Workfront管理員必須設定Experience Manager整合。 如需詳細資訊，請參閱 [設定Experience Manager Assetsas a Cloud Service整合](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md) 或 [設定Experience Manager Assets Essentials整合](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md).
+* 您的Workfront管理員必須設定Experience Manager整合。 如需詳細資訊，請參閱[設定Experience Manager Assetsas a Cloud Service整合](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md)或[設定Experience Manager Assets Essentials整合](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md)。
 
 
 ## 從Workfront傳送檔案
 
-當使用者將檔案從Workfront傳送到Experience Manager Assets或Assets Essentials時，對應的中繼資料會沿著檔案傳輸。 傳送檔案後，在Workfront中對檔案中繼資料所做的變更不會反映在Assets或Assets Essentials中。 如果Workfront中的對應欄位已變更，您必須將包含更新後中繼資料的新版檔案傳送至Assets或Assets Essentials。 若要設定或編輯中繼資料，請參閱 [設定Experience Manager Assetsas a Cloud Service整合](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md) 或 [設定Experience Manager Assets Essentials整合](../../documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md).
+當使用者將檔案從Workfront傳送到Experience Manager Assets或Assets Essentials時，對應的中繼資料會沿著檔案傳輸。 傳送檔案後，在Workfront中對檔案中繼資料所做的變更不會反映在Assets或Assets Essentials中。 如果Workfront中的對應欄位已變更，您必須將包含更新後中繼資料的新版檔案傳送至Assets或Assets Essentials。 若要設定或編輯中繼資料，請參閱[設定Experience Manager Assetsas a Cloud Service整合](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md)或[設定Experience Manager Assets Essentials整合](../../documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md)。
 
 若要傳送檔案：
 
-1. 前往 **檔案** Workfront區域，並選取您要傳送的檔案。
-1. 按一下 **傳送至**，然後選擇您的管理員所設定的Experience Manager整合。
+1. 前往Workfront中的&#x200B;**檔案**&#x200B;區域，並選取您要傳送的檔案。
+1. 按一下&#x200B;**傳送至**，然後選擇系統管理員設定的Experience Manager整合。
 
    >[!NOTE]
    >
@@ -87,12 +87,12 @@ ht-degree: 0%
 
    ![](assets/copy-of-send-to-in-toolbar-350x149.png)
 
-1. 選擇要將資產移至何處，然後按一下 **選取資料夾**.
-1. 當您找到想要的目的地，請按一下 **儲存**.
+1. 選擇要將資產移至何處，然後按一下&#x200B;**選取資料夾**。
+1. 當您找到想要的目的地，請按一下[儲存]。****
 
 ## 傳送新版本
 
-您可以將新版本新增至先前已上傳至Workfront的檔案。 如需詳細資訊，請參閱 [上傳檔案的新版本](../../documents/managing-documents/upload-new-document-version.md). 上傳最新版本後，即可傳送給Assets Essentials。 如果Workfront中的對應欄位已變更，新版本會在傳送時更新Assets Essentials中的中繼資料。
+您可以將新版本新增至先前已上傳至Workfront的檔案。 如需詳細資訊，請參閱[上傳檔案的新版本](../../documents/managing-documents/upload-new-document-version.md)。 上傳最新版本後，即可傳送給Assets Essentials。 如果Workfront中的對應欄位已變更，新版本會在傳送時更新Assets Essentials中的中繼資料。
 
 >[!IMPORTANT]
 >
@@ -100,8 +100,8 @@ ht-degree: 0%
 
 若要傳送最新版本：
 
-1. 前往 **檔案** Workfront區域，然後找到檔案。
-1. 選取 **傳送至**，然後選擇您的管理員所設定的Experience Manager整合。
+1. 前往Workfront中的&#x200B;**檔案**&#x200B;區域，然後找到檔案。
+1. 選取「**傳送至**」，然後選擇系統管理員設定的Experience Manager整合。
 
    >[!NOTE]
    >

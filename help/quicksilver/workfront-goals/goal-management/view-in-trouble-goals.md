@@ -19,7 +19,7 @@ ht-degree: 0%
 <p>(NOTE: the status of goals in "red" used to be called At Risk. Now, it is "in trouble") </p>
 -->
 
-出現問題的進度目標有無法實現的危險，在Adobe Workfront目標中有紅色進度列表示。 您應該經常檢閱您的目標，並瞭解進度滯後的原因。 如需目標進度的相關資訊，請參閱 [Adobe Workfront目標中的目標進度和條件概觀](../../workfront-goals/goal-management/calculate-goal-progress.md).
+出現問題的進度目標有無法實現的危險，在Adobe Workfront目標中有紅色進度列表示。 您應該經常檢閱您的目標，並瞭解進度滯後的原因。 如需目標進度的相關資訊，請參閱[Adobe Workfront目標中的目標進度和條件總覽](../../workfront-goals/goal-management/calculate-goal-progress.md)。
 
 ## 存取需求
 
@@ -48,7 +48,7 @@ ht-degree: 0%
  <td>
  <p>新授權：投稿人或以上版本</p>
  或
- <p>目前授權：要求或以上</p> <p>如需詳細資訊，請參閱 <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront授權總覽</a>.</p> </td>
+ <p>目前授權：要求或以上</p> <p>如需詳細資訊，請參閱<a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront授權總覽</a>。</p> </td>
  </tr>
  <tr>
  <td role="rowheader">產品*</td>
@@ -58,7 +58,7 @@ ht-degree: 0%
 <li>Select或Prime Adobe Workfront計畫以及額外的Adobe Workfront目標授權。</li>
 <li>預設包含Workfront目標的Ultimate Workfront計畫。 </li></ul>
  <p>或</p>
- <p>目前產品需求： Adobe Workfront Goals的Workfront計畫和額外授權。 </p> <p>如需詳細資訊，請參閱 <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">使用Workfront目標的需求</a>. </p> </td>
+ <p>目前產品需求： Adobe Workfront Goals的Workfront計畫和額外授權。 </p> <p>如需詳細資訊，請參閱<a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">使用Workfront目標的需求</a>。 </p> </td>
  </tr>
  <tr>
  <td role="rowheader">存取層級</td>
@@ -70,7 +70,7 @@ ht-degree: 0%
   <div>
   <p>檢視目標或更高許可權以檢視它</p>
   <p>管理目標的許可權以編輯它</p>
-  <p>如需關於共用目標的資訊，請參閱 <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">在Workfront目標中共用目標</a>. </p>
+  <p>如需共用目標的相關資訊，請參閱<a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">在Workfront目標中共用目標</a>。 </p>
   </div> </td>
  </tr>
  <tr>
@@ -81,11 +81,11 @@ ht-degree: 0%
 </tbody>
 </table>
 
-*如需詳細資訊，請參閱 [Workfront檔案中的存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 ## Recommendations可防止目標達成有問題的進度
 
-在目標達到「存在問題」的進度之前，您可以經常監控目標，並在目標達到「有風險」的進度時調整進度。 有風險的目標有陷入麻煩的危險。 如需目標進度的詳細資訊，請參閱 [Adobe Workfront目標中的目標進度和條件概觀](../../workfront-goals/goal-management/calculate-goal-progress.md)
+在目標達到「存在問題」的進度之前，您可以經常監控目標，並在目標達到「有風險」的進度時調整進度。 有風險的目標有陷入麻煩的危險。 如需目標進度的詳細資訊，請參閱[Adobe Workfront目標中的目標進度和條件總覽](../../workfront-goals/goal-management/calculate-goal-progress.md)
 
 在您的目標達到「存在問題」的進度之前，我們建議執行以下操作：
 
@@ -94,11 +94,11 @@ ht-degree: 0%
 
 ## 檢閱目標清單中的問題中目標
 
-您可以在Workfront目標的任何區段中檢閱目標。 如需「Workfront目標」區段的詳細資訊，請參閱 [Adobe Workfront目標區段概觀](../../workfront-goals/goal-review-and-workfront-goals-sections/overview-of-wf-goals-sections.md).
+您可以在Workfront目標的任何區段中檢閱目標。 如需Workfront目標區段的詳細資訊，請參閱[Adobe Workfront目標區段概覽](../../workfront-goals/goal-review-and-workfront-goals-sections/overview-of-wf-goals-sections.md)。
 
 本文說明如何檢閱目標清單中的目標。
 
-1. 按一下 **主要功能表** 圖示 ![](assets/main-menu-icon.png) > **目標** 位於右上角。
+1. 按一下右上角的&#x200B;**主要功能表**&#x200B;圖示![](assets/main-menu-icon.png) > **目標**。
 
    <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-management/assets/three-line-main-menu-icon.png) in the upper-left corner)
    -->
@@ -107,7 +107,7 @@ ht-degree: 0%
 
 1. （建議）針對「目標清單」區域調整下列篩選器，以檢閱有風險的目標：
 
-   * 按一下 **公司**，然後 **我的團隊**，然後 **我的群組**，然後 **個人** 這些目標是要檢視屬於您組織、您的團隊、群組，然後是您自己的目標的目標。
+   * 依序按一下「**公司**」、「**我的團隊**」、「**我的群組**」、「**個人**」目標，以檢視屬於您的組織、團隊、群組，以及您自己的目標。
 
      >[!TIP]
      >
@@ -116,12 +116,12 @@ ht-degree: 0%
      >
      >您無法使用此欄位來搜尋公司。 依預設，僅選取擁有Workfront執行個體的組織。
 
-   * 針對您在上方選取的每個組織單位，按一下 **新增篩選器** > **進度** > **存在問題** >**套用。**
+   * 針對您在上方選取的每個組織單位，按一下&#x200B;**新增篩選器** > **進度** > **發生問題** >**套用。**
    * （選用）選取您要檢視目標的時間段。
 
      目標清單中每個目標的進度列指標都會以紅色顯示。
 
-     如需使用右側面板中的所有其他條件篩選目標的詳細資訊，請參閱 [在Adobe Workfront目標中篩選資訊](../../workfront-goals/goal-management/filter-information-wf-goals.md).
+     如需使用右側面板中的所有其他條件篩選目標的詳細資訊，請參閱[在Adobe Workfront目標中篩選資訊](../../workfront-goals/goal-management/filter-information-wf-goals.md)。
 
 1. 將滑鼠停留在進度列指標上，可檢視當天的實際進度百分比和預期值。
 
@@ -131,9 +131,9 @@ ht-degree: 0%
 
    選定使用者的問題中目標會顯示在目標清單中。
 
-1. 按一下目標名稱以開啟目標頁面，然後按一下 **進度指示器** 在左側面板中。 檢視哪個進度指標導致目標落後，並在中更新指標的內嵌進度 **實際進度** 進度指示器清單的欄。
+1. 按一下目標名稱以開啟目標頁面，然後按一下左側面板中的&#x200B;**進度指示器**。 檢視哪個進度指標導致目標落後，並在進度指標清單的&#x200B;**實際進度**&#x200B;欄中更新內嵌指標的進度。
 
-   有關更新結果和活動的資訊，請參閱 [在Adobe Workfront目標中更新目標進度](../goal-review-and-workfront-goals-sections/check-in-goals.md)
+   如需有關更新結果和活動的資訊，請參閱[在Adobe Workfront目標中更新目標進度](../goal-review-and-workfront-goals-sections/check-in-goals.md)
 
    ![](assets/actual-progress-editable-column-in-indicator-list-unshimmed.png)
 

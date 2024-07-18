@@ -21,15 +21,15 @@ ht-degree: 0%
 
 本頁說明2021年5月3日當週在Adobe Workfront Fusion中所做的所有增強功能。
 
-如需所有最近變更的清單，請參閱 [Adobe Workfront Fusion發行活動](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
+如需所有最近變更的清單，請參閱[Adobe Workfront Fusion發行活動](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md)。
 
-如需Workfront Fusion中近期的錯誤修正清單，請參閱 [Workfront維護更新](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) 頁面，並檢查是否有任何標示為Workfront Fusion維護更新的更新。
+如需Workfront Fusion中最近的錯誤修正清單，請參閱[Workfront維護更新](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html)頁面，並檢查任何標示為Workfront Fusion維護更新的更新。
 
 ## Salesforce聯結器現在可以使用SOQL進行搜尋
 
 Salesforce > Search for records模組現在可選擇使用SOQL （Salesforce物件查詢語言）進行搜尋。 您也可以使用先前可用的選項（SOSL和簡單搜尋）進行搜尋。
 
-如需詳細資訊，請參閱 [Salesforce模組](../../../workfront-fusion/apps-and-their-modules/salesforce-modules.md).
+如需詳細資訊，請參閱[Salesforce模組](../../../workfront-fusion/apps-and-their-modules/salesforce-modules.md)。
 
 ## Azure DevOps聯結器中的新連線型別需要較少的領域
 
@@ -45,4 +45,4 @@ Salesforce > Search for records模組現在可選擇使用SOQL （Salesforce物�
 
 建議您在使用Azure DevOps的所有新情境中使用Azure DevOps連線型別。 我們也建議您變更現有案例中的任何Azure DevOps模組，以使用新的連線型別。 舊版Azure DevOps （要求所有範圍）連線型別不久將會被取代。
 
-如需詳細資訊，請參閱 [Azure DevOps模組](../../../workfront-fusion/apps-and-their-modules/azure-dev-ops.md).
+如需詳細資訊，請參閱[Azure DevOps模組](../../../workfront-fusion/apps-and-their-modules/azure-dev-ops.md)。

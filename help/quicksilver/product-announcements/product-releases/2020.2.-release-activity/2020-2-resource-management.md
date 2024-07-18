@@ -18,13 +18,13 @@ ht-degree: 0%
 
 本頁說明2020.2版對生產環境所做的所有資源管理增強功能。 這些增強功能已在2020年5月11日當週的生產環境中推出。
 
-如需2020.2版所有可用變更的清單，請參閱 [2020.2版本總覽](../../../product-announcements/product-releases/2020.2.-release-activity/2020-2-release-overview.md).
+如需2020.2版所有可用變更的清單，請參閱[2020.2版總覽](../../../product-announcements/product-releases/2020.2.-release-activity/2020-2-release-overview.md)。
 
 人員是第1級資產。 使用工作負載平衡器，您可以保護他們免於倦怠，並使其能夠完成最佳工作，同時使其與關鍵的公司策略保持一致。 推出重新想像的排程體驗，讓您以相同的檢視方式視覺化和管理人員的工作負荷和需求。 使用者介面可提供過度與使用不足的清晰視覺對應，並對所有利害關係人透明。 人員管理員可使用該資訊作為輸入，並從相同畫面透過時間表重新平衡工作，然後將其反映在Workfront平台的其餘部分中。
 
 >[!NOTE]
 >
->工作負載平衡器在2019.4版中開始以測試版發行。 所有工作負載平衡器增強功能通常在2020.2版本中提供。 此頁面上所述的增強功能已新增至2020.2版本。 如需工作負載平衡器的總覽，請參閱 [工作負載平衡器概覽](../../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
+>工作負載平衡器在2019.4版中開始以測試版發行。 所有工作負載平衡器增強功能通常在2020.2版本中提供。 此頁面上所述的增強功能已新增至2020.2版本。 如需工作負載平衡器的概觀，請參閱[工作負載平衡器的概觀](../../../resource-mgmt/workload-balancer/overview-workload-balancer.md)。
 
 ## 在工作負載平衡器中調整每日和每週分配
 
@@ -36,7 +36,7 @@ ht-degree: 0%
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(DO NOT ADD THIS, JUST ADD THE VIDEO FOR NOW: For information about managing allocations in the Workload Balancer, see /Content/Resource Mgmt/Workload Balancer/Manage hours in the Workload Balancer.htm.)</p>
 -->
 
-**適用於下列環境：**
+**在以下環境中可用：**
 
 * Adobe Workfront Classic
 * 全新Adobe Workfront體驗
@@ -45,7 +45,7 @@ ht-degree: 0%
 
 為了使工作負載平衡器中的資訊與您相關，您現在可以為工作負載平衡器的未指派工作和指派的工作區域建立篩選器，並儲存它們以供將來使用。 然後您可以編輯儲存的版本以進行小型變更，而不是從頭開始使用新的篩選器。
 
-如需有關在工作負載平衡器中進行篩選的資訊，請參閱 [管理工作負載平衡器中的篩選器](../../../resource-mgmt/workload-balancer/filter-information-workload-balancer.md)
+如需有關在工作負載平衡器中篩選的資訊，請參閱在工作負載平衡器中管理篩選器[](../../../resource-mgmt/workload-balancer/filter-information-workload-balancer.md)
 
 <!--
 <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -55,7 +55,7 @@ ht-degree: 0%
 
 。
 
-**適用於下列環境：**
+**在以下環境中可用：**
 
 * Adobe Workfront Classic
 * 全新Adobe Workfront體驗
@@ -64,9 +64,9 @@ ht-degree: 0%
 
 為協助您做出正確的指派決定，現在有一項新設定可讓您檢視使用者根據其排程可工作的時數與已分配至工作的時數（剩餘時數）之間的時數差異。 新設定現在可以在工作負載平衡器中使用。
 
-如需有關在工作負載平衡器中檢視資訊的資訊，請參閱 [瀏覽工作負載平衡器](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md) (或如果您使用Adobe Workfront Classic，請參閱 [瀏覽工作負載平衡器](https://one.workfront.com/s/article/Navigate-the-Workload-Balancer-1841453648).)
+如需有關在工作負載平衡器中檢視資訊的資訊，請參閱[瀏覽工作負載平衡器](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md) (或者，如果您正在使用Adobe Workfront Classic，請參閱[瀏覽工作負載平衡器](https://one.workfront.com/s/article/Navigate-the-Workload-Balancer-1841453648))。
 
-**適用於下列環境：**
+**在以下環境中可用：**
 
 * 全新Adobe Workfront體驗
 
@@ -76,9 +76,9 @@ ht-degree: 0%
 
 在此變更之前，此設定只會更新平衡器的已指派工作區域中的資訊。
 
-如需有關導覽工作負載平衡器的資訊，請參閱 [瀏覽工作負載平衡器](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md) (或如果您使用Adobe Workfront Classic，請參閱 [瀏覽工作負載平衡器](https://one.workfront.com/s/article/Navigate-the-Workload-Balancer-1841453648).)。
+如需有關導覽工作負載平衡器的資訊，請參閱[導覽工作負載平衡器](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md) (或者，如果您正在使用Adobe Workfront Classic，請參閱[導覽工作負載平衡器](https://one.workfront.com/s/article/Navigate-the-Workload-Balancer-1841453648)。)
 
-**適用於下列環境：**
+**在以下環境中可用：**
 
 * Adobe Workfront Classic
 * 全新Adobe Workfront體驗（先前僅供任務使用）
@@ -90,9 +90,9 @@ ht-degree: 0%
 * 依專案分組
 * 顯示您的任務和專案的已分配時數或剩餘時數。
 
-如需有關在工作負載平衡器中檢視資訊的資訊，請參閱 [瀏覽工作負載平衡器](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md) (或如果您使用Adobe Workfront Classic，請參閱 [瀏覽工作負載平衡器](https://one.workfront.com/s/article/Navigate-the-Workload-Balancer-1841453648).)。
+如需有關在工作負載平衡器中檢視資訊的資訊，請參閱[瀏覽工作負載平衡器](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md) (或者，如果您正在使用Adobe Workfront Classic，請參閱[瀏覽工作負載平衡器](https://one.workfront.com/s/article/Navigate-the-Workload-Balancer-1841453648)。)
 
-**適用於下列環境：**
+**在以下環境中可用：**
 
 * Adobe Workfront Classic
 * 全新Adobe Workfront體驗
@@ -101,9 +101,9 @@ ht-degree: 0%
 
 您現在可以將人員的工作負荷與主管分享，這樣他們就可以掌握您人員需求的相關情境。 為此，您現在可以透過與任何人共用工作負載平衡器的唯一URL來共用工作負載平衡器。
 
-如需有關導覽工作負載平衡器的資訊，請參閱 [瀏覽工作負載平衡器](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md) (或如果您使用Adobe Workfront Classic，請參閱 [瀏覽工作負載平衡器](https://one.workfront.com/s/article/Navigate-the-Workload-Balancer-1841453648))。
+如需有關導覽工作負載平衡器的資訊，請參閱[導覽工作負載平衡器](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md) (或如果您使用Adobe Workfront Classic，請參閱[導覽工作負載平衡器](https://one.workfront.com/s/article/Navigate-the-Workload-Balancer-1841453648))。
 
-**適用於下列環境：**
+**在以下環境中可用：**
 
 * Adobe Workfront Classic
 * 全新Adobe Workfront體驗
@@ -114,9 +114,9 @@ ht-degree: 0%
 
 在此增強功能之前，工作負載平衡器一律顯示從本週開始的資訊。
 
-如需有關導覽工作負載平衡器的資訊，請參閱 [瀏覽工作負載平衡器](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md) (或如果您使用Adobe Workfront Classic，請參閱 [瀏覽工作負載平衡器](https://one.workfront.com/s/article/Navigate-the-Workload-Balancer-1841453648))。
+如需有關導覽工作負載平衡器的資訊，請參閱[導覽工作負載平衡器](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md) (或如果您使用Adobe Workfront Classic，請參閱[導覽工作負載平衡器](https://one.workfront.com/s/article/Navigate-the-Workload-Balancer-1841453648))。
 
-**適用於下列環境：**
+**在以下環境中可用：**
 
 * Adobe Workfront Classic
 * 全新Adobe Workfront體驗（先前推出）
@@ -129,13 +129,13 @@ ht-degree: 0%
 
 在此變更之前，任務限制一律會儘快變更為。
 
-有關移動任務的資訊，請參閱， [移動任務](../../../manage-work/tasks/manage-tasks/move-tasks.md) (或如果您使用Adobe Workfront Classic，請參閱 [移動任務](https://one.workfront.com/s/article/Moving-Tasks-2081996259))。
+如需關於移動任務的資訊，請參閱[移動任務](../../../manage-work/tasks/manage-tasks/move-tasks.md) (或如果您使用Adobe Workfront Classic，請參閱[移動任務](https://one.workfront.com/s/article/Moving-Tasks-2081996259))。
 
-如需有關複製工作的資訊，請參閱 [複製和複製任務](../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md) (或如果您使用Adobe Workfront Classic，請參閱 [複製和複製任務](https://one.workfront.com/s/article/Copy-and-Duplicate-Tasks-218695605))。
+如需有關複製任務的資訊，請參閱[複製和複製任務](../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md) (或者如果您正在使用Adobe Workfront Classic，請參閱[複製和複製任務](https://one.workfront.com/s/article/Copy-and-Duplicate-Tasks-218695605))。
 
-如需所有任務限制的概觀，請參閱 [任務限制總覽](../../../manage-work/tasks/task-constraints/task-constraint-overview.md) (或如果您使用Adobe Workfront Classic，請參閱 [任務限制總覽](https://one.workfront.com/s/article/Task-Constraint-Overview-453396848))。
+如需所有任務限制的概觀，請參閱[任務限制概觀](../../../manage-work/tasks/task-constraints/task-constraint-overview.md) (或者，如果您正在使用Adobe Workfront Classic，請參閱[任務限制概觀](https://one.workfront.com/s/article/Task-Constraint-Overview-453396848))。
 
-**適用於下列環境：**
+**在以下環境中可用：**
 
 * Adobe Workfront Classic
 * 全新Adobe Workfront體驗
@@ -144,9 +144,9 @@ ht-degree: 0%
 
 為了防止當您在手動儲存變更時，在專案層級更新物件或任務清單中任務的詳細資訊頁面上的資訊時遺失資料，現在會顯示警告訊息，在您嘗試編輯標題中的資訊之前，通知您尚未儲存變更。 在儲存變更之前，只允許訂閱物件或將物件加入您的最愛。
 
-如需有關編輯清單中工作的資訊，請參閱 [編輯清單中的任務](../../../manage-work/tasks/manage-tasks/edit-tasks-in-a-list.md)
+如需有關編輯清單中任務的資訊，請參閱[編輯清單中的任務](../../../manage-work/tasks/manage-tasks/edit-tasks-in-a-list.md)
 
-**適用於下列環境：**
+**在以下環境中可用：**
 
 * 全新Adobe Workfront體驗
 
@@ -161,11 +161,11 @@ ht-degree: 0%
 * 為物件（專案、任務或問題）建立單次使用的核准流程，並以與使用該物件的群組相關聯的狀態為基礎。 這包括任何與群組相關聯的自訂狀態。
 * 建立全域核准流程，並僅供群組或系統中的所有人使用。
 
-對於具有核准流程管理存取權的使用者，有關設定核准流程的資訊，請參閱 [建立工作專案的核准流程](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md) (或如果您使用Adobe Workfront Classic，請參閱 [建立核准流程](https://one.workfront.com/s/article/Creating-Approval-Processes-1001577410))。
+對於具有核准程式之管理存取權的使用者，有關設定核准程式的資訊可在[建立工作專案的核准程式](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md)中取得(或者如果您使用Adobe Workfront Classic，請參閱[建立核准程式](https://one.workfront.com/s/article/Creating-Approval-Processes-1001577410))。
 
-對於使用者，有關將核准流程與工作專案關聯的資訊可在以下欄目中取得： [將新的或現有的核准流程與工作建立關聯](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md) (或如果您使用Adobe Workfront Classic，請參閱 [將新的或現有的核准流程與工作產生關聯](https://one.workfront.com/s/article/Associating-a-New-or-Existing-Approval-Process-with-Work-708455630))。
+使用者可在[將新的或現有的核准程式與工作建立關聯](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md) (或如果您使用Adobe Workfront Classic，請參閱[將新的或現有的核准程式與工作建立關聯](https://one.workfront.com/s/article/Associating-a-New-or-Existing-Approval-Process-with-Work-708455630))中取得有關將核准程式與工作專案建立關聯的資訊。
 
-**適用於下列環境：**
+**在以下環境中可用：**
 
 * Adobe Workfront Classic
 * 全新Adobe Workfront體驗
@@ -174,7 +174,7 @@ ht-degree: 0%
 
 為了更便於管理工作負載平衡器中工作專案的使用者配置，您現在可以按兩下工作專案。 您仍然可以使用現有的「編輯配置」功能表選項。 此外，您不再需要啟用顯示配置才能更新它們。
 
-如需有關在工作負載平衡器管理配置方面的資訊，請參閱 [在工作負載平衡器中管理使用者配置](../../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md).
+如需有關在工作負載平衡器中管理配置的資訊，請參閱在工作負載平衡器中管理[使用者配置](../../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md)。
 
 ## 在工作負載平衡器中更新任務計畫時數
 
@@ -184,10 +184,10 @@ ht-degree: 0%
 
 存取層級的「資源管理」區域中的新選項現在可讓具有此存取許可權的使用者從工作負載平衡器編輯規劃時數。 當您在工作負載平衡器中調整分配時，每日分配的總數不需要匹配任務的計畫時數。 儲存配置後，配置時數總計將成為任務的計畫時數。 這僅適用於具有簡單期間型別的任務。
 
-如需有關在工作負載平衡器管理配置方面的資訊，請參閱 [在工作負載平衡器中管理使用者配置](../../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md).
+如需有關在工作負載平衡器中管理配置的資訊，請參閱在工作負載平衡器中管理[使用者配置](../../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md)。
 
-如需授與資源管理的存取權的相關資訊，請參閱 [授與資源管理的存取權](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-resource-management.md).
+如需授與資源管理的存取許可權的相關資訊，請參閱[授與資源管理的存取許可權](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-resource-management.md)。
 
 ## 從工作負載平衡器移除「測試版」標籤
 
-在2020.2版中，工作負載平衡器將不再處於測試版狀態，您將能夠使用資源平衡器來檢閱和管理您的資源指派和配置。 已在預覽環境中移除「測試版」標籤。 20.2生產版本將進行相同的變更。 如需有關工作負載平衡器的資訊，請參閱 [工作負載平衡器概覽](../../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
+在2020.2版中，工作負載平衡器將不再處於測試版狀態，您將能夠使用資源平衡器來檢閱和管理您的資源指派和配置。 已在預覽環境中移除「測試版」標籤。 20.2生產版本將進行相同的變更。 如需有關工作負載平衡器的資訊，請參閱[工作負載平衡器概覽](../../../resource-mgmt/workload-balancer/overview-workload-balancer.md)。

@@ -19,4 +19,4 @@ ht-degree: 7%
 本節包含下列子章節：
 
 * [新首頁](../../workfront-basics/using-home/new-home/new-home.md)
-* [使用 [!UICONTROL 首頁] 區域](../../workfront-basics/using-home/using-the-home-area/use-the-home-area.md)
+* [使用[!UICONTROL 首頁]區域](../../workfront-basics/using-home/using-the-home-area/use-the-home-area.md)

@@ -19,9 +19,9 @@ ht-degree: 0%
 
 您可以使用欄中的文字模式，在報表或清單檢視中的兩個欄位之間顯示計算。 每一行會顯示報表或清單中每個物件的計算。
 
-例如，您可以在任務報告中針對每個任務，在名為「工作平衡」的第三欄中顯示實際時數與計畫時數之間的差異。 如需有關計算資料運算式的詳細資訊，請參閱 [計算資料運算式的概觀](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
+例如，您可以在任務報告中針對每個任務，在名為「工作平衡」的第三欄中顯示實際時數與計畫時數之間的差異。 如需有關計算資料運算式的詳細資訊，請參閱[計算資料運算式概觀](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md)。
 
-您可以透過將計算新增至來顯示分組中同一欄中多個已計算檢視專案的彙總值 `aggregator` 包含計算值的欄行。 例如，您可以彙總（顯示總計）報告分組或「工作平衡」欄清單中所有任務的「工作平衡」時數金額。 本文會介紹如何執行此動作。
+您可以將計算新增至包含計算值的欄的`aggregator`行，以在群組的相同欄中顯示多個計算檢視專案的彙總值。 例如，您可以彙總（顯示總計）報告分組或「工作平衡」欄清單中所有任務的「工作平衡」時數金額。 本文會介紹如何執行此動作。
 
 ## 存取需求
 
@@ -44,32 +44,32 @@ ht-degree: 0%
    <td role="rowheader">存取層級設定*</td> 
    <td> <p>編輯報告、儀表板、行事曆的存取權以修改報告</p> <p>編輯對篩選器、檢視、群組的存取權以修改群組</p> <p><b>附註</b>
 
-如果您還是沒有存取權，請詢問您的Workfront管理員，他們是否在您的存取層級中設定其他限制。 如需有關Workfront管理員如何修改您的存取層級的資訊，請參閱 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>.</p> </td>
+如果您還是沒有存取權，請詢問您的Workfront管理員，他們是否在您的存取層級中設定其他限制。 如需Workfront管理員如何修改存取層級的詳細資訊，請參閱<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>。</p> </td>
 </tr>  
   <tr> 
    <td role="rowheader">物件許可權</td> 
-   <td> <p>管理報表的許可權</p> <p>如需請求其他存取許可權的詳細資訊，請參閱 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">要求物件的存取權 </a>.</p> </td> 
+   <td> <p>管理報表的許可權</p> <p>如需請求其他存取權的資訊，請參閱<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">請求物件</a>的存取權。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;若要瞭解您擁有的計畫、授權型別或存取權，請聯絡您的Workfront管理員。
+&#42;若要瞭解您擁有的計畫、授權型別或存取權，請連絡您的Workfront管理員。
 
 ## 顯示群組內多個計算值的彙總結果
 
-1. 前往任務報告，按一下 **報表動作** > **編輯**.
-1. 在 **群組** 標籤，按一下 **新增群組**，並開始輸入 **專案名稱** 在 **將報告分組** > **首先由** 欄位，然後在其顯示在清單中時選取它。
+1. 前往工作報告，按一下&#x200B;**報告動作** > **編輯**。
+1. 在&#x200B;**群組**&#x200B;索引標籤中，按一下&#x200B;**新增群組**，然後開始在&#x200B;**您的報告群組** > **依**&#x200B;的欄位中輸入&#x200B;**專案名稱**，然後在它顯示在清單中時選取它。
 
-1. 在 **欄（檢視）** 標籤，按一下 **新增欄**，然後開始輸入 **計畫時數** 在 **顯示在此欄中** 欄位，然後在其顯示在清單中時選取它。
+1. 在&#x200B;**欄（檢視）**&#x200B;索引標籤中，按一下&#x200B;**新增欄**，然後在&#x200B;**顯示在此欄**&#x200B;欄位中開始輸入&#x200B;**計畫時數**，然後在它顯示在清單中時選取它。
 
    >[!TIP]
    >
    >在文字模式中編輯資訊之前，請一律開始使用「標準」介面新增儘可能多的資訊。 新增最接近或包含最多您嘗試計算之資訊量的欄位。
 
-1. 在 **此欄的摘要方式** 欄位，選取 **Sum**，然後按一下 **完成**.
-1. 按一下 **切換到文字模式** 在您新增的欄中。
-1. 暫留在文字模式區域上，然後按一下 **按一下以編輯文字**.
-1. 取代 `valuefield ` 和 `aggregator.valuefield` 在下列文字模式範例中反白的行：
+1. 在&#x200B;**依**&#x200B;摘要此欄位中，選取&#x200B;**總和**，然後按一下&#x200B;**完成**。
+1. 在您新增的欄中按一下&#x200B;**切換至文字模式**。
+1. 暫留在文字模式區域上，然後按一下&#x200B;**按一下以編輯文字**。
+1. 以下列文字模式範例中反白的行取代`valuefield `和`aggregator.valuefield`行：
 
    ```
    valueformat=compound
@@ -89,9 +89,9 @@ ht-degree: 0%
 
    >[!TIP]
    >
-   >若要取得群組中的彙總值，以顯示計畫時數與實際時數欄位之間的彙總差異，請將相同的方程式輸入至 `aggregator.valuefield` 行。 此 `aggregator.displayformat` 用於計畫時數欄將分鐘轉換為時數。 由於計畫時數欄位已用作預留位置，因此不需要調整此行。
+   >若要取得群組中的彙總值，以顯示計畫時數與實際時數欄位之間的彙總差異，請在`aggregator.valuefield`行中輸入相同的方程式。 用於計畫時數欄的`aggregator.displayformat`會將分鐘轉換為時數。 由於計畫時數欄位已用作預留位置，因此不需要調整此行。
    >
    >
-   >此 `minutesAsHoursString` 的定義 `aggregator.displayformat` 行表示不需要將每個欄位除以60，如同在 `valueexpression` 以取得結果。 在這個 `aggregator.valuefield=workRequired` 會變成： `aggregator.valueexpression=ROUND(({workRequired}-{actualWorkRequired}),2`.
+   >`aggregator.displayformat`行的`minutesAsHoursString`定義表示不需要像在`valueexpression`上做的那樣，將每個欄位除以60以取得結果。 在此`aggregator.valuefield=workRequired`中變成： `aggregator.valueexpression=ROUND(({workRequired}-{actualWorkRequired}),2`。
 
-1. 按一下 **儲存+關閉**.
+1. 按一下&#x200B;**儲存+關閉**。

@@ -2,8 +2,8 @@
 content-type: reference;how-to-procedural
 product-area: projects
 navigation-topic: task-constraints
-title: 「任務約束概述：盡可能遲」
-description: 「盡可能晚」(ALAP)是「Adobe Workfront任務約束」，它使任務的完成時間盡可能接近項目結束。
+title: 「任務限制總覽：儘可能遲」
+description: 儘可能延遲(ALAP)是Adobe Workfront任務限制，可將任務的完成時間儘可能置於專案結尾處。
 author: Alina
 feature: Work Management
 exl-id: 475427d0-020b-4851-a614-c9931659e07d
@@ -14,19 +14,19 @@ ht-degree: 0%
 
 ---
 
-# 任務約束概覽：盡可能晚
+# 任務限制總覽：儘可能遲
 
-「盡可能晚」(ALAP)是「Adobe Workfront任務約束」，它使任務的完成時間盡可能接近項目結束。
+儘可能延遲(ALAP)是Adobe Workfront任務限制，可將任務的完成時間儘可能置於專案結尾處。
 
-使用此約束可能導致重新計畫前置任務或從屬任務。
+使用此限制可能會導致前置任務或相依任務被重新排程。
 
-如需先前關係的詳細資訊，請參閱 [使用任務前置任務](../../../manage-work/tasks/use-prdcssrs/use-task-predecessors.md).
+如需前置任務關係的詳細資訊，請參閱[使用前置任務](../../../manage-work/tasks/use-prdcssrs/use-task-predecessors.md)。
 
-如果項目使用「從完成日期開始的計畫」計畫模式，並且任務起始日期的系統或組預設值為「基於項目計畫日期」，則「盡可能晚」為預設約束。
+如果專案使用的排程模式是「從完成日期開始排程」，且作業「開始日期」的系統或群組預設值為「根據專案計畫日期」，則「儘可能延遲」為預設限制。
 
-有關為新任務設定預設約束的位置的資訊，請參閱 [配置全系統任務和問題首選項](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
+如需有關設定新任務的預設條件約束的詳細資訊，請參閱[設定全系統的任務和問題偏好設定](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md)。
 
-有關如何更新任務的任務約束的資訊，請參閱 [更新任務的任務約束](../../../manage-work/tasks/task-constraints/update-task-constraint-of-task.md).
+如需有關如何更新任務之任務限制的資訊，請參閱[更新任務的任務限制](../../../manage-work/tasks/task-constraints/update-task-constraint-of-task.md)。
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -43,31 +43,31 @@ ht-degree: 0%
 </div>
 -->
 
-## 最新可用時間與盡可能晚之間的差異
+## 最新可用時間和儘可能晚可用時間之間的差異
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE:&nbsp;[! This section is duplicated in "Latest Available Time"] - inserted a snippet for both articles (Alina)) </p>
 -->
 
-當存在以下條件時，「最新可用時間」約束與「盡可能晚」約束不同：
+當存在下列條件時，「最新可用時間」限制與「儘可能晚到」限制不同：
 
-* 專案排程從開始日期開始
-* 項目中的任務具有前置關係
-* 後續任務具有靈活的任務約束
+* 從開始日期排程專案
+* 專案中的任務具有前置任務關係
+* 後續任務具有彈性任務限制
 
-在這種情況下：
+在此情況下：
 
-* **最新可用時間：** 在前置任務上使用「最新可用時間」約束將優先順序設定為後置任務的靈活約束。
+* **最新可用時間：**&#x200B;在前置任務上使用最新可用時間限制，會優先處理後置任務的彈性限制。
 
-   **範例：** 例如，任務A是任務B的前身。任務A具有最新的可用時間約束，任務B具有盡快的約束。 在此情況下，任務A將排程得盡可能靠近項目開始。
+  **範例：**&#x200B;例如，任務A是任務B的前置任務。任務A具有最新的可用時間限制，而任務B具有「儘快」限制。 在此情況下，任務A會儘可能安排在接近專案開始的時間。
 
-   ![](assets/latest-available-time-task-constraint-in-task-list-350x116.png)
+  ![](assets/latest-available-time-task-constraint-in-task-list-350x116.png)
 
-* **盡可能晚：** 在此情況下，對前置任務使用盡可能晚的約束將優先順序分配給前置任務。
+* **儘可能遲：**&#x200B;在此案例中，在前置任務上使用儘可能晚限制會將優先順序給予前置任務。
 
-   **範例：** 例如，任務A是任務B的前身。任務A具有盡可能晚的約束，任務B具有盡可能快的約束。 在此情況下，任務A將排程得盡可能接近專案結尾。
+  **範例：**&#x200B;例如，任務A是任務B的前置任務。任務A具有儘可能晚的限制，而任務B具有儘可能早的限制。 在此情況下，任務A會排程儘可能接近專案結尾。
 
-   ![](assets/as-late-as-possible-task-constraint-in-task-list-350x104.png)
+  ![](assets/as-late-as-possible-task-constraint-in-task-list-350x104.png)
 
  
 

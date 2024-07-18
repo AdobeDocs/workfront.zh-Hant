@@ -31,10 +31,10 @@ ht-degree: 0%
 
 如需如何在Workfront中建立、提交或透過電子郵件傳送請求的詳細資訊，請參閱下列文章：
 
-* [建立及提交Adobe Workfront請求](../../../manage-work/requests/create-requests/create-submit-requests.md)
+* [建立並提交Adobe Workfront請求](../../../manage-work/requests/create-requests/create-submit-requests.md)
 * [從草稿建立請求](../../../manage-work/requests/create-requests/create-requests-from-drafts.md)
 * [複製並提交請求](../../../manage-work/requests/create-requests/copy-and-submit-requests.md)
 * [讓使用者透過電子郵件將問題傳送到請求佇列專案](../../../manage-work/requests/create-requests/enable-email-issues-into-projects.md)
-* [找出已提交的請求](../../../manage-work/requests/create-requests/locate-submitted-requests.md)
-* [分享請求佇列的連結](../../../manage-work/requests/create-requests/share-link-to-request-queue.md)
+* [尋找已提交的請求](../../../manage-work/requests/create-requests/locate-submitted-requests.md)
+* [分享要求佇列的連結](../../../manage-work/requests/create-requests/share-link-to-request-queue.md)
 * [刪除請求草稿](../../../manage-work/requests/create-requests/delete-request-draft.md)

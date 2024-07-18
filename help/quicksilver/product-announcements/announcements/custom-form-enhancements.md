@@ -38,7 +38,7 @@ ht-degree: 0%
 * 物件的「編輯」方塊(如果它沒有新的Adobe Workfront體驗外觀) （例如「編輯費用」方塊）
 * Workfront&#x200B;行動應用程式
 
-如需新增介面工具至自訂表單的詳細資訊，請參閱 [在自訂表單中新增或編輯影像或其他資產Widget](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md).
+如需有關將Widget新增至自訂表單的詳細資訊，請參閱[在自訂表單中新增或編輯影像或其他資產Widget](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md)。
 
 ## 將自訂表單與多個物件型別建立關聯
 
@@ -68,7 +68,7 @@ ht-degree: 0%
 >
 >轉換發生時，自訂表單必須與您要轉換的物件型別相關聯。
 
-如需將資產Widget新增至自訂表單的說明，請參閱 [在自訂表單中新增或編輯影像或其他資產Widget](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md).
+如需將資產Widget新增至自訂表單的指示，請參閱[在自訂表單中新增或編輯影像或其他資產Widget](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md)。
 
 當您建立或編輯多物件自訂表單時，請考量下列事項：
 
@@ -90,19 +90,19 @@ ht-degree: 0%
 
 當您關聯使用與自訂表單上其他物件型別不同許可權選項的物件型別時，將會顯示一則訊息，允許您切換至用於表單的通用許可權選項集。 此變更將套用至所有欄位，即使它們不在分割槽符號下亦然。
 
-如需詳細資訊，請參閱 [新增分割槽符號至自訂表單](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-section-break-to-a-custom-form.md).
+如需詳細資訊，請參閱[新增分割槽符號至自訂表單](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-section-break-to-a-custom-form.md)。
 
 ### 計算的自訂欄位相容性
 
-在多物件自訂表單中，如果計算欄位參考的欄位可用於表單的所有關聯物件型別(例如 {name}， {description}、和 {entryDate}，可用於多種物件型別)，無論您將其附加至哪個物件，資料都會正確計算。
+在多物件自訂表單中，如果計算欄位參考的欄位可用於表單的所有關聯物件型別（例如{name}、{description}和{entryDate}，可用於多個物件型別），則無論您將資料附加至哪個物件，資料都會正確計算。
 
-例如，如果您有專案和問題的多物件表單，並且您新增了包含 {name} 運算式，當您新增表單至專案時，欄位會顯示專案名稱，而您的任務名稱則會將表單新增至任務。
+例如，如果您擁有專案和問題的多物件表單，並且您新增了包含{name}運算式的計算欄位，則當您新增表單至專案時，該欄位會顯示專案名稱，而您新增表單至任務的任務名稱。
 
 但是，如果表單中的計算欄位參照的欄位與表單的所有物件型別不相容，則會出現訊息提醒您進行調整。
 
 >[!INFO]
 >
->**範例：** 在與任務物件型別相關聯的自訂表單中，您可以建立參照內建欄位「指派至：名稱」的計算自訂欄位，以便在表單附加至任務時，顯示負責的主要受指派人名稱：
+>**範例：**&#x200B;在與任務物件型別相關聯的自訂表單中，您建立參照內建欄位「指派至：名稱」的計算自訂欄位，以便在表單附加至任務時，顯示負責的主要受指派人名稱：
 >
 >```
 >Assigned To: Name{assignedTo}.{name}
@@ -113,9 +113,9 @@ ht-degree: 0%
 發生此情況時，您可以執行下列任一項作業：
 
 * 從自訂表單中移除兩個不相容的專案之一：物件型別或參照的欄位。
-* 保留這兩個專案並使用萬用字元篩選器變數 `$$OBJCODE` 作為IF運算式中的條件，以建立兩個不同版本的In Charge欄位。 這允許欄位成功運作，無論表單附加到的物件型別為何。
+* 保留這兩個專案，並使用萬用字元篩選器變數`$$OBJCODE`作為IF運算式中的條件，以建立兩個不同版本的In Charge欄位。 這允許欄位成功運作，無論表單附加到的物件型別為何。
 
-  以上範例為例，雖然專案沒有內建的「指派至：名稱」欄位，但內建的「擁有者」欄位會自動填入建立專案者的名稱，除非有人手動變更此欄位。 因此，在您的自訂負責欄位中，您可以使用 `$$OBJCODE` 如下所示，當自訂表單附加到專案時，這是參考「所有者」欄位，而當表單附加到任務時，這是參考「指派給：名稱」欄位：
+  以上範例為例，雖然專案沒有內建的「指派至：名稱」欄位，但內建的「擁有者」欄位會自動填入建立專案者的名稱，除非有人手動變更此欄位。 因此，在自訂負責欄位中，當自訂表單附加到專案時，您可以使用如下所示`$$OBJCODE`來參考「所有者」欄位，而當表單附加到任務時，使用「指派至：名稱」欄位：
 
   ```
   IF($$OBJCODE="PROJ",{owner}.{name},{assignedTo}.{name})
@@ -123,11 +123,11 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->  如果您在欄位名稱前面新增物件型別，它會參照物件的父物件，因此您無法使用 `{project}.{name}` 用於專案，但您可以將其用於任務。
+>  如果您在欄位名稱前面新增物件型別，它會參考物件的父物件，因此您無法將`{project}.{name}`用於專案，但您可以將其用於任務。
 
-如需將計算自訂欄位新增至自訂表單的說明，請參閱 [新增計算資料至自訂表單](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
+如需將計算自訂欄位新增至自訂表單的指示，請參閱[將計算資料新增至自訂表單](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md)。
 
-如需變數的詳細資訊，例如 `$$OBJCODE`，請參閱 [萬用字元篩選器變數概觀](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
+如需`$$OBJCODE`等變數的詳細資訊，請參閱[萬用字元篩選變數概觀](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md)。
 
 ### 從自訂表單中刪除物件型別時請小心
 
@@ -135,4 +135,4 @@ ht-degree: 0%
 
 此外，沒有通知系統可提醒使用自訂表單的使用者該表單已被刪除。
 
-如需詳細資訊，請參閱 [從系統中刪除自訂欄位或Widget](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/delete-a-custom-field.md).
+如需詳細資訊，請參閱[從系統刪除自訂欄位或Widget](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/delete-a-custom-field.md)。

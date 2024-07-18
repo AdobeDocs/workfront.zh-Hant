@@ -10,8 +10,8 @@ role: Developer
 exl-id: b56ec13a-1ee1-4bef-b39b-e625d00e4952
 source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
 workflow-type: tm+mt
-source-wordcount: '82'
-ht-degree: 8%
+source-wordcount: '84'
+ht-degree: 5%
 
 ---
 
@@ -33,13 +33,13 @@ PUT/delete
 
 
 
-## 個回應
+## 回應
 
 指示成功或失敗的JSON字串，如以下錯誤處理區段中所指定。
 
 ### 範例
 
 PUThttps://www.example.com/api/delete­­­­­­­­­­­­­­­­­­­­­­­­­­­­­id=1234
-* 傳回 `status: "success"`
+* 傳回`status: "success"`
 
-* 傳回 `status: "failure", error: "File not found"`
+* 傳回`status: "failure", error: "File not found"`

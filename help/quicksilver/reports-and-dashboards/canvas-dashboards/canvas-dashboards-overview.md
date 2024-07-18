@@ -16,7 +16,7 @@ ht-degree: 0%
 
 # Canvas儀表板概觀
 
-畫布儀表板可讓您將各種報表型別新增到可自訂的畫布上，以輕鬆將Adobe Workfront資料視覺化。 如需使用畫布控制面板的基本指示，請從文章開始 [開始使用畫布儀表板](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/get-started-canvas-dashboards.md). 否則，請參閱下面的文章索引以取得特定主題的詳細資訊。
+畫布儀表板可讓您將各種報表型別新增到可自訂的畫布上，以輕鬆將Adobe Workfront資料視覺化。 如需有關使用畫布控制面板的基本指示，請從文章[開始使用畫布控制面板](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/get-started-canvas-dashboards.md)開始。 否則，請參閱下面的文章索引以取得特定主題的詳細資訊。
 
 ## 畫布控制面板：文章索引
 
@@ -26,7 +26,7 @@ ht-degree: 0%
    * [開始使用畫布儀表板](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/get-started-canvas-dashboards.md)
    * [在畫布控制面板中新增、移除或排列報表](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/add-remove-arrange-reports.md)
    * [共用畫布控制面板](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/share-canvas-dashboard.md)
-* [畫布控制面板報表型別](/help/quicksilver/reports-and-dashboards/canvas-dashboards/report-types/report-types-overview.md)
+* [畫布儀表板報告型別](/help/quicksilver/reports-and-dashboards/canvas-dashboards/report-types/report-types-overview.md)
    * [新增現有報表至畫布控制面板](/help/quicksilver/reports-and-dashboards/canvas-dashboards/report-types/add-existing-report.md)
    * [在畫布控制面板中建立KPI報告](/help/quicksilver/reports-and-dashboards/canvas-dashboards/report-types/build-kpi-report.md)
    * [在畫布儀表板中建立圖表報告](/help/quicksilver/reports-and-dashboards/canvas-dashboards/report-types/build-chart-report.md)

@@ -2,7 +2,7 @@
 content-type: reference
 product-area: projects
 navigation-topic: navigate-workfront
-title: 中的最近專案與我的最愛 [!DNL Adobe Workfront]
+title: ' [!DNL Adobe Workfront]中的最近專案與我的最愛'
 description: 請參閱下列文章以瞭解如何在Workfront中使用我的最愛和最近。
 feature: Get Started with Workfront
 author: Lisa
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 ---
 
-# 中的最近專案與我的最愛 [!DNL Adobe Workfront]
+# [!DNL Adobe Workfront]中的最近專案與我的最愛
 
 本節包含下列文章：
 

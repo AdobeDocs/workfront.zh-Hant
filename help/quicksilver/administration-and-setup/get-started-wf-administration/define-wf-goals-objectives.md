@@ -37,11 +37,11 @@ ht-degree: 0%
 
 * 建立Workfront請求佇列以管理組織內的特定請求。
 
-  如需請求佇列的詳細資訊，請參閱 [建立請求佇列](../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
+  如需請求佇列的詳細資訊，請參閱[建立請求佇列](../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md)。
 
 * 建立報告以顯示任何未在5天內關閉的未決問題。
 
-  如需建立報表的詳細資訊，請參閱 [建立自訂報表](../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+  如需建立報告的詳細資訊，請參閱[建立自訂報告](../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md)。
 
 ## 改善專案花費時間，並改善來年的預算支出
 
@@ -49,22 +49,22 @@ ht-degree: 0%
 
 * 為您的組織開發標準專案方法。 這包括識別負責建立和管理專案的使用者，以及授與任何核准。
 
-  如需建立專案的詳細資訊，請參閱 [建立專案](../../manage-work/projects/create-projects/create-project.md).
+  如需建立專案的詳細資訊，請參閱[建立專案](../../manage-work/projects/create-projects/create-project.md)。
 
-  如需有關建立核准流程的詳細資訊，請參閱 [建立工作專案的核准流程](../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
+  如需建立核准流程的詳細資訊，請參閱[建立工作專案的核准流程](../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md)。
 
 * 決定是否應在投資組合和方案中組織您的專案，以獲得更深入的預算和資源管理。
 
-  如需關於建立投資組合的詳細資訊，請參閱 [建立投資組合](../../manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md).
+  如需關於建立投資組合的詳細資訊，請參閱[建立投資組合](../../manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md)。
 
 * 納入最佳實務方法，以提升每個專案的品質。
 * 識別可用於建立範本的任何可重複專案。
 
-  如需建立範本的詳細資訊，請參閱 [建立專案範本](../../manage-work/projects/create-and-manage-templates/create-template.md).
+  如需建立範本的詳細資訊，請參閱[建立專案範本](../../manage-work/projects/create-and-manage-templates/create-template.md)。
 
 * 建立可顯示今年專案組合進度的控制面板。
 
-  如需建立儀表板的詳細資訊，請參閱 [建立儀表板](../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-dashboard.md).
+  如需有關建立儀表板的詳細資訊，請參閱[建立儀表板](../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-dashboard.md)。
 
 ## 透過更好的內部流程管理改善服務品質
 
@@ -72,7 +72,7 @@ ht-degree: 0%
 
 * 開發傳遞服務的程式，並使用Workfront來管理與任何每日或每週職責相關的工作。
 * 使用資源管理工具來檢視資源對任務的配置，以便您更瞭解如何改善生產力和傳遞品質。\
-  如需有關「資源規劃」的詳細資訊，請參閱 [資源規劃：文章索引](../../resource-mgmt/resource-planning/resource-planning-overview.md)
+  如需有關資源規劃的詳細資訊，請參閱[資源規劃：文章索引](../../resource-mgmt/resource-planning/resource-planning-overview.md)
 
 ## 定義成功標準
 

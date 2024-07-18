@@ -22,28 +22,28 @@ ht-degree: 0%
 >
 > 本頁所述的功能在生產環境使用之前可能會有所變更。
 
-如需2017.3年度所有變更的清單，請參閱  [2017.3版本活動概覽](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-release-activity-overview.md).
+如需2017.3年度所有變更的清單，請參閱  [2017.3發行活動總覽](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-release-activity-overview.md)。
 
 2017.3 Beta 4版本包含適用於Workfront管理員和其他使用者的增強功能：
 
-**適用於管理員**
+管理員的&#x200B;****
 
 * [在設定區域中新增資源管理喜好設定區域](#new-resource-management-preferences-area-in-the-setup-area)
 
-**適用於所有使用者**
+**所有使用者**
 
-* [複製任務](#duplicate-tasks)
-* [排程資源時自動化指派](#automate-assignments-when-scheduling-resources)
-* [在排程資源時修改多重作業的指派](#modify-assignments-for-multiple-tasks-when-scheduling-resources)
+* [重複的工作](#duplicate-tasks)
+* 在排程資源時[自動執行指派](#automate-assignments-when-scheduling-resources)
+* 在排程資源時[修改多項工作的指派](#modify-assignments-for-multiple-tasks-when-scheduling-resources)
 * [套用FTE分配至資源規劃工具](#apply-fte-distribution-to-the-resource-planner)
-* [使用者設定值的工作角色區段包含FTE可用性的百分比](#job-role-section-for-user-settings-includes-percentage-of-fte-availability)
+* 使用者設定的[工作角色區段包含FTE可用性的百分比](#job-role-section-for-user-settings-includes-percentage-of-fte-availability)
 * [儲存並管理專案使用報告中的篩選器](#save-and-manage-filters-in-the-utilization-report-on-a-project)
-* [使用率報表中的其他篩選選項](#additional-filtering-options-in-the-utilization-report)
-* [依方案或Portfolio檢視使用率報表](#view-the-utilization-report-by-program-or-portfolio)
-* [在專案和任務報告中顯示原始問題資訊](#show-original-issue-information-in-project-and-task-reports)
-* [更新流中的篩選器系統更新現在跨物件持續存在](#filter-system-updates-in-the-update-stream-is-now-persistent-across-objects)
-* [Workfront中主動校訂階段的報告](#report-on-active-proof-stages-within-workfront)
-* [將自訂Workfront校訂許可權設定檔指派給Workfront中的使用者](#assign-custom-workfront-proof-permission-profiles-to-users-within-workfront)
+* 使用率報告中[其他篩選選項](#additional-filtering-options-in-the-utilization-report)
+* [依方案或Portfolio檢視使用率報告](#view-the-utilization-report-by-program-or-portfolio)
+* [在專案與任務報告中顯示原始問題資訊](#show-original-issue-information-in-project-and-task-reports)
+* 更新資料流中的[篩選器系統更新現在跨物件持續存在](#filter-system-updates-in-the-update-stream-is-now-persistent-across-objects)
+* [報告Workfront中的作用中校訂階段](#report-on-active-proof-stages-within-workfront)
+* [指派自訂Workfront Proof許可權設定檔給Workfront中的使用者](#assign-custom-workfront-proof-permission-profiles-to-users-within-workfront)
 * [時數資源已新增到事件訂閱](#hour-resource-added-to-event-subscriptions)
 
 ## 複製任務 {#duplicate-tasks}
@@ -52,13 +52,13 @@ ht-degree: 0%
 
 在此變更之前，您可以將任務複製到新專案或現有專案，並在複製時修改部分資訊。
 
-如需有關複製任務的詳細資訊，請參閱 [複製和複製任務](../../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md).
+的  有關複製任務的詳細資訊，請參閱[複製和複製任務](../../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md)。
 
 ## 排程資源時自動化指派 {#automate-assignments-when-scheduling-resources}
 
 >[!NOTE]
 >
->已棄用資源排程工具，並已從Workfront的23.1版本中移除。 如需有關使用工作負載平衡器排程資源的資訊，請參閱 [工作負載平衡器概覽](../../../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
+>已棄用資源排程工具，並已從Workfront的23.1版本中移除。 如需有關使用工作負載平衡器排程資源的資訊，請參閱[工作負載平衡器概覽](../../../../resource-mgmt/workload-balancer/overview-workload-balancer.md)。
 
 您現在可以允許Workfront在排程多個專案的資源時（從「排程」標籤），或排程單一專案的資源時（從「人員配置」標籤），自動建議未指派的任務和問題的指派。
 
@@ -86,7 +86,7 @@ Workfront會分析所有可用使用者的目前工作指派，並為任何尚�
 
 在此變更之前，在「資源規劃工具」中顯示的使用者名稱僅針對「主要角色」，而且根據使用者的排程（100小時），使用者的完整可用性僅與「主要角色」相關聯。 只有當使用者被指派給該角色中的任務，且使用者在其他角色中的可用時數為零時，才會在「資源規劃工具」中顯示該使用者的其他角色。
 
-有關如何為資源規劃工具中的使用者和角色計算可用時數和可用FTE的更多資訊，請參閱 [計算資源規劃工具中使用者和角色的時數和FTE的概觀](../../../../resource-mgmt/resource-planning/calculate-hours-fte-for-users-roles-resource-planner.md).
+如需有關如何為資源規劃工具中的使用者和角色計算可用時數和可用FTE的詳細資訊，請參閱[計算資源規劃工具中使用者和角色的時數和可用FTE的概觀](../../../../resource-mgmt/resource-planning/calculate-hours-fte-for-users-roles-resource-planner.md)。
 
 ## 使用者設定值的工作角色區段包含FTE可用性的百分比 {#job-role-section-for-user-settings-includes-percentage-of-fte-availability}
 
@@ -98,7 +98,7 @@ Workfront會分析所有可用使用者的目前工作指派，並為任何尚�
 
 在此變更之前，您無法將特定數量的FTE配置給任何與使用者相關聯的工作角色。
 
-如需有關更新使用者職務角色之FTE可用性百分比的詳細資訊，請參閱 [編輯使用者設定檔](../../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md) 或 [設定我的設定](../../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md).
+如需有關更新使用者工作角色的FTE可用性百分比的詳細資訊，請參閱[編輯使用者的設定檔](../../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md)或[設定我的設定](../../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md)。
 
 ## 在設定區域中新增資源管理喜好設定區域 {#new-resource-management-preferences-area-in-the-setup-area}
 
@@ -107,7 +107,7 @@ Workfront會分析所有可用使用者的目前工作指派，並為任何尚�
 * 手動：除了使用者的個別FTE之外，還會使用系統的「預設排程」來決定使用者在「資源規劃工具」中的可用時數。 使用者的排程會被忽略。
 * 自動：使用者的排程是用來決定使用者在資源規劃工具中的可用時數。 FTE可用性是根據使用者的排程和預設排程來計算。 使用者FTE的值會被忽略。 
 
-有關為系統配置資源管理偏好設定的詳細資訊，請參閱 [設定資源管理喜好設定](../../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md).
+如需有關為系統設定資源管理偏好設定的詳細資訊，請參閱[設定資源管理偏好設定](../../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md)。
 
 ## 儲存並管理專案使用報告中的篩選器 {#save-and-manage-filters-in-the-utilization-report-on-a-project}
 
@@ -115,7 +115,7 @@ Workfront會分析所有可用使用者的目前工作指派，並為任何尚�
 
 以前，每次篩選「使用率」報告時，都必須指定個別的篩選選項。
 
-如需在「使用率」報告中儲存和管理篩選器的詳細資訊，請參閱 [資源使用率報表概要](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md) 在 [資源使用率報表概要](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md).
+如需有關在[使用率]報告中儲存和管理篩選器的詳細資訊，請參閱[資源使用率報告簡介](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md)中的[資源使用率報告簡介](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md)。
 
 ## 使用率報表中的其他篩選選項 {#additional-filtering-options-in-the-utilization-report}
 
@@ -123,7 +123,7 @@ Workfront會分析所有可用使用者的目前工作指派，並為任何尚�
 
 在此變更之前，您只能透過新增篩選規則來依投資組合、計畫和專案篩選。
 
-如需詳細資訊，請參閱 [資源使用率報表概要](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md) 在 [資源使用率報表概要](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md).
+如需詳細資訊，請參閱[資源使用狀況報告簡介](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md)中的[資源使用狀況報告簡介](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md)。
 
 ## 依方案或Portfolio檢視使用率報表 {#view-the-utilization-report-by-program-or-portfolio}
 
@@ -133,7 +133,7 @@ Workfront會分析所有可用使用者的目前工作指派，並為任何尚�
 
 在此變更之前，只能在專案中存取「使用報告」 。
 
-如需詳細資訊，請參閱  [資源使用率報表概要](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md). 
+如需詳細資訊，請參閱  [資源使用率報告概觀](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md)。 
 
 ## 在專案和任務報告中顯示原始問題資訊 {#show-original-issue-information-in-project-and-task-reports}
 
@@ -151,29 +151,29 @@ Workfront會分析所有可用使用者的目前工作指派，並為任何尚�
 
 在此變更之前，您無法報告此資訊。
 
-如需有關建立自訂文字模式檢視（從原始問題擷取資訊）的詳細資訊，請參閱 [檢視：顯示任務和專案清單上的原始問題資訊](../../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-original-issue-info-task-project-list.md).
+如需有關建立自訂文字模式檢視以擷取原始問題資訊的詳細資訊，請參閱[檢視：在任務和專案清單上顯示原始問題資訊](../../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-original-issue-info-task-project-list.md)。
 
 ## 更新流中的篩選器系統更新現在跨物件持續存在 {#filter-system-updates-in-the-update-stream-is-now-persistent-across-objects}
 
 >[!NOTE]
 >
->此功能未透過Beta 4發佈到預覽環境。 它將在10月上半月的預覽中提供。
+>此功能未透過Beta 4發行至預覽環境。 它將在10月上半月的預覽中提供。
 
 「篩選系統更新」選項現在持續存在於整個Workfront網站的物件中。 這可讓您隱藏系統更新，並只檢視一個物件上「更新流」中的使用者註解，而且當您瀏覽至其他物件時，該設定會保留。
 
 在此變更之前，您必須在瀏覽Workfront網站時選擇篩除每個物件的系統更新。
 
-如需詳細資訊，請參閱 [更新工作](../../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+如需詳細資訊，請參閱[更新工作](../../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md)。
 
 ## Workfront中主動校訂階段的報告 {#report-on-active-proof-stages-within-workfront}
 
 在Workfront中建立檔案版本報告時，現在有一個名為「主動校訂階段」的欄。 此欄可讓您檢視報告中每個檔案版本上目前有效的校訂階段。 階段的名稱會顯示在「主動校訂階段」欄中。 如果檔案版本上目前沒有作用中的階段，欄為空白。
 
-如需檢視和報告可用欄位的詳細資訊，請參閱 [Adobe Workfront術語表](../../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
+如需檢視與報表中可用欄位的詳細資訊，請參閱[Adobe Workfront術語辭彙表](../../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md)。
 
-## 將自訂Workfront校訂許可權設定檔指派給Workfront中的使用者 {#assign-custom-workfront-proof-permission-profiles-to-users-within-workfront}
+## 在Workfront中指派自訂Workfront Proof許可權設定檔給使用者 {#assign-custom-workfront-proof-permission-profiles-to-users-within-workfront}
 
-現在當您在Workfront中啟用使用者的校訂功能時，可以指派自訂Workfront校訂許可權設定檔。 
+現在當您在Workfront中啟用使用者的校訂功能時，可以指派自訂Workfront Proof許可權設定檔。 
 
 在此變更之前，只有下列許可權設定檔可用：監督員、管理員、管理員。
 
@@ -181,4 +181,4 @@ Workfront會分析所有可用使用者的目前工作指派，並為任何尚�
 
 使用新的時數資源，您現在可以建立事件訂閱，讓您的計費應用程式與Workfront保持同步。
 
-若要進一步瞭解事件訂閱，請參閱 [事件訂閱API](../../../../wf-api/general/event-subs-api.md).
+若要深入瞭解事件訂閱，請參閱[事件訂閱API](../../../../wf-api/general/event-subs-api.md)。

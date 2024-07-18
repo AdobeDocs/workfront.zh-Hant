@@ -21,7 +21,7 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->範本及其任務沒有實際日期，而是指出任務可能從哪一天（從未來專案可能開始的時間）開始，以及任務可能需要在哪一天完成。 使用範本來建立未來專案時，專案將收到實際日期。 如需詳細資訊，請參閱 [建立專案](../create-projects/create-project.md).
+>範本及其任務沒有實際日期，而是指出任務可能從哪一天（從未來專案可能開始的時間）開始，以及任務可能需要在哪一天完成。 使用範本來建立未來專案時，專案將收到實際日期。 如需詳細資訊，請參閱[建立專案](../create-projects/create-project.md)。
 
 
 您可以透過下列方式建立新範本：
@@ -29,13 +29,13 @@ ht-degree: 2%
 * 從頭開始，如本文所述。
 * 從現有專案，透過將專案另存為範本。
 
-  如需有關從現有專案建立範本的詳細資訊，請參閱 [將專案另存為範本](../../../manage-work/projects/manage-projects/save-project-as-template.md).
+  如需從現有專案建立範本的詳細資訊，請參閱[將專案另存為範本](../../../manage-work/projects/manage-projects/save-project-as-template.md)。
 
 * 透過從另一個範本複製它。
 
-  如需有關複製現有範本的詳細資訊，請參閱 [複製專案範本](../../../manage-work/projects/create-and-manage-templates/copy-template.md).
+  如需有關複製現有範本的詳細資訊，請參閱[複製專案範本](../../../manage-work/projects/create-and-manage-templates/copy-template.md)。
 
-* 透過匯入Blueprint。 您必須是Workfront管理員才能匯入Blueprint。 如需詳細資訊，請參閱 [設定Blueprint](../../../administration-and-setup/blueprints/configure-template-package.md).
+* 透過匯入Blueprint。 您必須是Workfront管理員才能匯入Blueprint。 如需詳細資訊，請參閱[設定Blueprint](../../../administration-and-setup/blueprints/configure-template-package.md)。
 
 ## 存取需求
 
@@ -66,49 +66,49 @@ ht-degree: 2%
  </tbody> 
 </table>
 
-如需有關此表格的詳細資訊，請參閱 [Workfront檔案中的存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
 ## 建立範本
 
-1. 按一下 **[!UICONTROL 主要功能表]** 圖示 ![主要功能表](/help/_includes/assets/main-menu-icon.png) 在Adobe Workfront的右上角，或（如果有的話）按一下 **[!UICONTROL 主要功能表]** 圖示 ![主要功能表](/help/_includes/assets/main-menu-icon-left-nav.png) 然後按一下「 」 **範本**.
+1. 按一下Adobe Workfront右上角的&#x200B;**[!UICONTROL 主功能表]**&#x200B;圖示![主功能表](/help/_includes/assets/main-menu-icon.png)，或（如果有的話）按一下左上角的&#x200B;**[!UICONTROL 主功能表]**&#x200B;圖示![主功能表](/help/_includes/assets/main-menu-icon-left-nav.png)，然後按一下&#x200B;**範本**。
 
-1. 按一下 **建立範本**.
+1. 按一下&#x200B;**新增範本**。
 
    範本未命名。
 
-   ![建立範本](assets/create-template-nwe-2022-350x102.png)
+   ![新範本](assets/create-template-nwe-2022-350x102.png)
 
-1. 在範本標題中指定新範本的名稱，然後按下 **輸入。**
-1. 按一下 **範本任務** 區段。
-1. 按一下 **開始新增範本任務**.
+1. 在範本標題中指定新範本的名稱，然後按&#x200B;**Enter。**
+1. 按一下左側面板中的&#x200B;**範本任務**&#x200B;區段。
+1. 按一下&#x200B;**開始新增範本工作**。
 
    或
 
-   按一下 **建立範本任務** 以開始將任務新增至範本。
+   按一下&#x200B;**新增範本任務**&#x200B;以開始新增任務至您的範本。
 
    將範本任務新增至範本與將任務新增至專案相同。
 
-   如需有關將任務新增至專案的詳細資訊，請參閱 [在專案中建立任務](../../../manage-work/tasks/create-tasks/create-tasks-in-project.md).
+   如需將任務新增至專案的詳細資訊，請參閱[在專案中建立任務](../../../manage-work/tasks/create-tasks/create-tasks-in-project.md)。
 
    >[!NOTE]
    >
    >您無法將週期性任務新增到範本。
 
-1. （可選）按一下 **甘特圖** 圖示以檢視範本工作清單的視覺化表示方式。
+1. （選擇性）按一下工作清單右上角的&#x200B;**甘特圖**&#x200B;圖示，檢視範本工作清單的視覺化表示法。
 
    >[!TIP]
    >
    >您無法直接從此甘特圖編輯任務。
 
-1. 若要新增資訊至新範本，請按一下 **更多** 功能表 ![](assets/more-icon.png)，然後按一下 **編輯**.
+1. 若要新增資訊到您的新範本，請按一下&#x200B;**更多**&#x200B;功能表![](assets/more-icon.png)，然後按一下&#x200B;**編輯**。
 
-   如需有關編輯範本的資訊，請參閱 [編輯專案範本](../../../manage-work/projects/create-and-manage-templates/edit-templates.md).
+   如需有關編輯範本的資訊，請參閱[編輯專案範本](../../../manage-work/projects/create-and-manage-templates/edit-templates.md)。
 
 1. 按一下「**儲存變更**」。
-1. （選用）如果要將其他專案新增至範本，請參閱區段 [新增其他專案至範本](../../../manage-work/projects/create-and-manage-templates/edit-templates.md#add-additional-items-to-a-template) 在文章中 [編輯專案範本](../../../manage-work/projects/create-and-manage-templates/edit-templates.md).
+1. （選擇性）如果您想要新增其他專案至範本，請參閱文章[編輯專案範本](../../../manage-work/projects/create-and-manage-templates/edit-templates.md)中的[新增其他專案至範本](../../../manage-work/projects/create-and-manage-templates/edit-templates.md#add-additional-items-to-a-template)小節。
 
 ## 由群組關聯決定的範本設定
 
-專案範本與群組（或缺少群組）的關聯會影響專案、任務和問題偏好設定如何決定範本中的某些設定。 如需詳細資訊，請參閱區段 [建立和修改群組的專案範本](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-templates.md#create-and-modify-a-groups-project-templates) 在文章中 [建立和修改群組的專案範本](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-templates.md).
+專案範本與群組（或缺少群組）的關聯會影響專案、任務和問題偏好設定如何決定範本中的某些設定。 如需詳細資訊，請參閱文章[建立及修改群組的專案範本](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-templates.md)中的[建立及修改群組的專案範本](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-templates.md#create-and-modify-a-groups-project-templates)小節。

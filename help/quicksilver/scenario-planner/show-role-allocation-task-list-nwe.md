@@ -1,8 +1,8 @@
 ---
 product-area: enterprise-scenario-planner-product-area
 navigation-topic: enterprise-scenario-planner-navigation-topic
-title: 在任務清單中顯示項目和方案的角色分配
-description: 在您連結專案和方案後，您可以並排管理其資源分配，確保兩者相符。 這可避免過度分配或利用這些資源。
+title: 顯示任務清單中專案和方案的角色分配
+description: 在連線專案和方案後，您可以並排管理其資源配置以確保它們相符。 這可避免過度配置或利用不足。
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: 77152e46-0b7b-4937-9d16-1a20c2a7fdf1
@@ -13,129 +13,129 @@ ht-degree: 0%
 
 ---
 
-# 在任務清單中顯示項目和方案的角色分配
+# 顯示任務清單中專案和方案的角色分配
 
 >[!IMPORTANT]
 >
->貴組織必須購買 [!DNL Adobe Workfront Scenario Planner] 以便您查看項目的計畫資訊。 如需有關取得 [!DNL Workfront Scenario Planner]，請參閱 [使用 [!DNL Scenario Planner]](../scenario-planner/access-needed-to-use-sp.md).
+>您的組織必須購買[!DNL Adobe Workfront Scenario Planner]的額外授權，才能檢視專案上的方案資訊。 如需有關取得[!DNL Workfront Scenario Planner]的資訊，請參閱[使用 [!DNL Scenario Planner]](../scenario-planner/access-needed-to-use-sp.md)所需的存取權。
 
-在您連結專案和方案後，您可以並排管理其資源分配，確保兩者相符。 這可避免過度分配或利用這些資源。
+在連線專案和方案後，您可以並排管理其資源配置以確保它們相符。 這可避免過度配置或利用不足。
 
-本文說明如何使用 [!UICONTROL 角色分配] 面板。
+本文說明如何使用專案工作清單中的[!UICONTROL 角色配置]面板來調解資源。
 
-有關協調項目和計畫之間的資源（包括先決條件）的一般資訊，請參見 [協調項目和舉措之間資源分配的概覽](../scenario-planner/overview-reconcile-allocations-between-projects-initiatives.md).
+如需有關協調專案與方案之間資源的一般資訊，包括先決條件，請參閱[協調專案與方案之間資源配置的概述](../scenario-planner/overview-reconcile-allocations-between-projects-initiatives.md)。
 
 ## 存取需求
 
-您需要遵循：
+您需要執行下列動作：
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td> <p>[!DNL Adobe Workfront]<b> 計劃*</b> </p> </td> 
-   <td>[!UICONTROL Business]或更高版本</td> 
+   <td> <p>[!DNL Adobe Workfront]<b>計畫*</b> </p> </td> 
+   <td>[！UICONTROL Business]或更高版本</td> 
   </tr> 
   <tr> 
-   <td> <p>[!DNL Adobe Workfront]<b> 授權*</b> </p> </td> 
-   <td> <p>[!UICONTROL Review]或更高版本</p> </td> 
+   <td> <p>[!DNL Adobe Workfront]<b>授權*</b> </p> </td> 
+   <td> <p>[！UICONTROL Review]或更高版本</p> </td> 
   </tr> 
   <tr> 
    <td><b>產品</b> </td> 
-   <td> <p>您必須為 [!DNL Adobe Workfront Scenario Planner] 存取本文所述功能。</p> <p>如需有關取得 [!DNL Workfront Scenario Planner]，請參閱 <a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">使用 [!DNL Scenario Planner]</a>. </p> </td> 
+   <td> <p>您必須為[!DNL Adobe Workfront Scenario Planner]購買額外的授權，才能存取本文所述的功能。</p> <p>如需有關取得[!DNL Workfront Scenario Planner]的資訊，請參閱<a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">使用[!DNL Scenario Planner]</a>所需的存取權。 </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td><strong>訪問級別配置*</strong> </td> 
-   <td> <p>[!UICONTROL視圖]或更高的項目訪問權限 </p> <p>注意：如果您仍無權存取，請詢問您的[!UICONTROL Workfront]管理員是否在您的存取層級設定了其他限制。 如需[!UICONTROL Workfront]管理員如何變更您的存取層級的詳細資訊，請參閱 <a href="../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>.</p> </td> 
+   <td><strong>存取層級設定*</strong> </td> 
+   <td> <p>[！UICONTROL檢視]或更高的專案存取權 </p> <p>注意：如果您還是沒有存取權，請詢問您的[！UICONTROL Workfront]管理員，他們是否對您的存取層級設定其他限制。 如需[！UICONTROL Workfront]管理員如何變更存取層級的詳細資訊，請參閱<a href="../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>。</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><strong>物件權限</strong> </p> </td> 
-   <td> <p>[!UICONTROL視圖]或更高的項目權限</p> <p>有關請求對計畫進行額外訪問的資訊，請參閱 <a href="../scenario-planner/request-access-to-plan.md" class="MCXref xref">在 [!DNL Scenario Planner]</a>.</p> <p>如需要求額外存取專案的詳細資訊，請參閱 <a href="../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">請求對對象的訪問 </a>. </p> </td> 
+   <td> <p><strong>物件許可權</strong> </p> </td> 
+   <td> <p>[！UICONTROL檢視]或更高的專案許可權</p> <p>如需有關請求對計畫的額外存取權的資訊，請參閱<a href="../scenario-planner/request-access-to-plan.md" class="MCXref xref">在[!DNL Scenario Planner]</a>中請求對計畫的存取權。</p> <p>如需有關要求額外存取專案的資訊，請參閱<a href="../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">要求物件</a>的存取權。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;若要了解您擁有的計畫、授權類型或存取權，請聯絡您的 [!DNL Workfront] 管理員。
+&#42;若要瞭解您擁有的計畫、授權型別或存取權，請連絡您的[!DNL Workfront]管理員。
 
-## 在任務清單中顯示項目和方案的角色分配
+## 顯示任務清單中專案和方案的角色分配
 
-如果貴公司已購買 [!DNL Workfront Scenario Planner] 許可證，您可以在計畫和連結到計畫的項目之間協調資源分配 [!UICONTROL 工作] 區段。
+如果您的公司已購買[!DNL Workfront Scenario Planner]授權，您可以在專案的[!UICONTROL 任務]區段中，調解方案與連結至該方案的專案之間的資源配置。
 
-1. （有條件）使用 [在任務清單中顯示項目和方案的角色分配](#Connect) 這篇文章。
+1. （視條件而定）使用本文的工作清單](#Connect)中的[顯示專案與行動方案的角色配置中所述的方法之一，將專案與行動方案連線。
 
    >[!IMPORTANT]
    >
-   >如果對方案的資源進行更改，則必須重新發佈方案所屬的方案，以便從方案獲取最新的資源資訊以更新項目。
+   >如果您對方案上的資源進行變更，則必須重新發佈方案所屬的情境，才能從方案取得最新的資源資訊以更新專案。
 
-1. 轉至項目，在該項目中複查項目以及關聯方案的職務分配。
-1. 按一下 **[!UICONTROL 工作]** 中。
-1. 按一下 **[!UICONTROL 顯示角色分配]** 圖示 ![](assets/show-role-allocation-icon.png) 的上角。
+1. 移至您要檢視專案以及相關方案之工作角色配置的專案。
+1. 按一下左側面板中的&#x200B;**[!UICONTROL 工作]**。
+1. 按一下工具列右上角的&#x200B;**[!UICONTROL 顯示角色配置]**&#x200B;圖示![](assets/show-role-allocation-icon.png)。
 
-   此 [!UICONTROL 角色分配] 面板隨即顯示。
+   [!UICONTROL 角色配置]面板隨即顯示。
 
    <!--
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: ensure this step stays 5 to match the mention of it in the section below)</p>
    -->
 
-1. 請參閱 **[!UICONTROL 專案總計]** 區域 [!UICONTROL 角色分配] 面板：
+1. 檢閱[!UICONTROL 角色配置]面板的&#x200B;**[!UICONTROL 專案總計]**&#x200B;區域中的下列資訊：
 
    <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">[!UICONTROL作業角色]</td> 
-      <td> <p>與以下任一項關聯的作業角色的名稱：</p> 
+      <td role="rowheader">[！UICONTROL工作角色]</td> 
+      <td> <p>與下列任一專案關聯的工作角色名稱：</p> 
        <ul> 
-        <li> <p>項目任務</p> </li> 
-        <li> <p>專案的問題</p> </li> 
-        <li> <p>與項目相關的倡議</p> </li> 
+        <li> <p>專案任務</p> </li> 
+        <li> <p>專案問題</p> </li> 
+        <li> <p>連結至專案的方案</p> </li> 
        </ul> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL計畫小時數]</td> 
-      <td>在計畫的總持續時間內與計畫上每個職務相關的所需小時數。 </td> 
+      <td role="rowheader">[！UICONTROL方案時數]</td> 
+      <td>在方案總期間內，與方案上每個工作角色相關聯的所需時數。 </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL計畫小時數]</td> 
-      <td>在項目的總期間內，與項目任務或問題中每個職務角色關聯的計畫小時數。 </td> 
+      <td role="rowheader">[！UICONTROL計畫時數]</td> 
+      <td>在專案總期間中，與專案上任務或問題中的每個工作角色關聯的計畫時數。 </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL變數]</td> 
-      <td> <p>計畫所需小時數與與項目工作相關的計畫小時數之間的差異。 [!DNL Workfront] 使用以下公式計算[!UICONTROL Variance]:</p> <p><code>Role Allocation Variance = Initiative Hours - Planned Hours</code> </p> <p>當計畫資源的時間超過計畫要求的時間時，[!UICONTROL差異]為負，以紅色顯示。 這表示您的資源被過度分配。 </p> </td> 
+      <td role="rowheader">[！UICONTROL變數]</td> 
+      <td> <p>方案所需時數與專案工作相關計畫時數之間的差異。 [!DNL Workfront]使用此公式計算[！UICONTROL變異數]：</p> <p><code>Role Allocation Variance = Initiative Hours - Planned Hours</code> </p> <p>當計畫資源的時數超過方案所需的時，該[！UICONTROL差異]為負數且以紅色顯示。 這表示您的資源配置過度。 </p> </td> 
      </tr> 
     </tbody> 
    </table>
 
    >[!TIP]
    >
-   >在下列情況中，不會顯示來自項目的計畫時數：
+   >專案的計畫時數未顯示在下列案例中：
    >
    >   
    >   
-   >   * 未將任務或問題指派給作業角色或具有與其相關聯的作業角色的使用者時。
+   >   * 當任務或問題未指派給工作角色時，或具有與其關聯的工作角色的使用者時。
    >   * 當任務或問題的持續時間為零時。
+   >   
+   >
 
 
 
+1. （選擇性）如果[!UICONTROL Variance]欄顯示您的資源過度配置，請調整下列其中一項：
 
-1. （選用）若 [!UICONTROL 變異數] 欄顯示資源被過度分配，請調整以下任一項：
-
-   * 減少顯示分配過多或向任務添加更多資源的某個任務角色的「計畫小時數」，並將更多「計畫小時數」分配給新資源。 您可以在編輯任務或問題時更新分配或計畫小時數。 如需詳細資訊，請參閱下列文章：
+   * 針對顯示過度配置的一個工作角色，降低其計畫時數或新增更多資源至任務，並將更多計畫時數分配至新資源。 您可以在編輯任務或問題時更新指派或計畫時數。 如需詳細資訊，請參閱下列文章：
 
       * [編輯任務](../manage-work/tasks/manage-tasks/edit-tasks.md)
       * [編輯問題](../manage-work/issues/manage-issues/edit-issues.md)
 
-      >[!NOTE]
-      >
-      >您必須有其他存取權和權限才能編輯工作和問題。
+     >[!NOTE]
+     >
+     >您必須有其他存取權和許可權才能編輯任務和問題。
 
-   * 增加顯示方案上超額分配的職責所需的小時數。 如需詳細資訊，請參閱 [在 [!DNL Adobe Workfront Scenario Planner]](create-and-edit-initiatives.md).
+   * 針對在方案上顯示過度配置的角色，增加所需時數。 如需詳細資訊，請參閱[在 [!DNL Adobe Workfront Scenario Planner]](create-and-edit-initiatives.md)中建立和編輯方案。
 
-      >[!NOTE]
-      >
-      >您必須有其他存取權和權限才能編輯計畫。
-
+     >[!NOTE]
+     >
+     >您必須擁有其他存取權和許可權才能編輯計畫。
 
 

@@ -1,7 +1,7 @@
 ---
 navigation-topic: use-lists
-title: 開始使用中的清單 [!DNL Adobe Workfront]
-description: 您可以檢視物件清單于 [!DNL Adobe Workfront] 以取得關於它們的資訊，例如它們的開始和到期日、指派給它們的使用者，以及與它們關聯的其他物件。
+title: 開始使用 [!DNL Adobe Workfront]中的清單
+description: 您可以檢視 [!DNL Adobe Workfront] 中的物件清單，以取得有關物件的資訊，例如它們的開始和到期日、指派給它們的使用者，以及與它們關聯的其他物件。
 feature: Get Started with Workfront
 author: Lisa
 exl-id: d4262b8e-bbe0-4ac2-8f1f-5d32541311c8
@@ -12,24 +12,24 @@ ht-degree: 0%
 
 ---
 
-# 開始使用中的清單 [!DNL Adobe Workfront]
+# 開始使用[!DNL Adobe Workfront]中的清單
 
 <!--
 {{highlighted-preview}}
 -->
 
-您可以檢視物件清單于 [!DNL Adobe Workfront] 以取得關於它們的資訊，例如它們的開始和到期日、指派給它們的使用者，以及與它們關聯的其他物件。
+您可以檢視[!DNL Adobe Workfront]中的物件清單，以取得它們的相關資訊，例如它們的開始和到期日、指派給它們的使用者，以及與它們關聯的其他物件。
 
-以下是中清單的一些特性 [!DNL Workfront]：
+以下是[!DNL Workfront]中清單的某些特性：
 
 * 清單每五分鐘自動重新整理一次，以更新系統中其他使用者在其他地方更新的資訊。
-* 中的某些區域 [!DNL Workfront] 已預先設定預設的物件清單。
+* [!DNL Workfront]中的某些區域已預先設定預設的物件清單。
 
   您可以自訂這些預先設定的清單中的大部分。
 
-* A [!DNL Workfront] 管理員可以建立自訂清單，以套用至各個區域 [!DNL Workfront].
+* [!DNL Workfront]管理員可以建立自訂清單，以套用至[!DNL Workfront]的各個區域。
 
-  如需有關建立系統層級清單的詳細資訊，請參閱文章 [建立、編輯和共用預設的篩選器、檢視和群組](../../../administration-and-setup/set-up-workfront/configure-system-defaults/create-and-share-default-fvgs.md).
+  如需有關建立系統層級清單的詳細資訊，請參閱文章[建立、編輯和共用預設篩選器、檢視和群組](../../../administration-and-setup/set-up-workfront/configure-system-defaults/create-and-share-default-fvgs.md)。
 
 ## 存取需求
 
@@ -49,20 +49,20 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader"><strong>存取層級設定*</strong></td> 
-   <td> <p>[！UICONTROL檢視]或更高的篩選器、檢視、群組存取權</p> <P>對於[！UICONTROL設定]區域中的專案，您需要該專案的管理存取權或[！UICONTROL系統管理員]存取層級。</P> <p>注意：如果您還是沒有存取權，請詢問您的 [!DNL Workfront] 管理員是否對您的存取層級設定其他限制。<br>如需瞭解如何 [!DNL Workfront] 管理員可以變更您的存取層級，請參閱 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>.</p> </td> 
+   <td> <p>[！UICONTROL檢視]或更高的篩選器、檢視、群組存取權</p> <P>對於[！UICONTROL設定]區域中的專案，您需要該專案的管理存取權或[！UICONTROL系統管理員]存取層級。</P> <p>注意：如果您還是沒有存取權，請詢問您的[!DNL Workfront]管理員是否對您的存取層級設定了其他限制。<br>如需[!DNL Workfront]管理員如何變更存取層級的詳細資訊，請參閱<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>物件許可權</strong></td> 
-   <td> <p>[！UICONTROL檢視]或具有共用存取權的更高許可權</p> <p>如需請求其他存取許可權的詳細資訊，請參閱 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">要求物件的存取權 </a>.</p> </td>
+   <td> <p>[！UICONTROL檢視]或具有共用存取權的更高許可權</p> <p>如需請求其他存取權的資訊，請參閱<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">請求物件</a>的存取權。</p> </td>
   </tr> 
  </tbody> 
 </table>
 
-若要瞭解您擁有的計畫、授權型別或存取權，請聯絡您的 [!DNL Workfront] 管理員。
+若要瞭解您擁有的計畫、授權型別或存取權，請連絡您的[!DNL Workfront]管理員。
 
 ## 物件清單
 
-以下是您可以找到的部分物件清單型別 [!DNL Workfront] 以及當您有權檢視物件時，預設會顯示這些區域的一些區域。
+以下是您可以在[!DNL Workfront]中找到的一些物件清單型別，以及當您有權檢視物件時，預設會顯示這些清單的一些區域。
 
 >[!NOTE]
 >
@@ -213,7 +213,7 @@ ht-degree: 0%
     <ul> 
      <li class="preview"> <p>[！UICONTROL安裝程式] &gt;[！UICONTROL自訂Forms]</p>
      <!--Remove the following note box when this goes to Production. Or do this when the Preview highlighting becomes available.-->
-     <p><b>注意</b>：這目前僅在預覽環境中可用</p> </li> 
+     <p><b>注意</b>：目前僅可在預覽環境中使用</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -255,7 +255,7 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-您無法自訂指定區域的清單。 A [!DNL Workfront] 管理員可以在系統層級建立自訂清單，或者，如果您的存取層級允許您編輯報告，則可以為此物件建立報告。
+您無法自訂指定區域的清單。 [!DNL Workfront]管理員可以在系統層級建立自訂清單，或者，如果您的存取層級允許您編輯報告，則可以為此物件建立報告。
 
 ## 清單元素
 
@@ -263,7 +263,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->當您從清單中選取新的篩選器、檢視或群組時，即使您登出，該選取專案仍會保留 [!DNL Workfront] 或關閉瀏覽器。
+>當您從清單中選取新的篩選器、檢視或群組時，即使您登出[!DNL Workfront]或關閉瀏覽器，該選取仍會保留。
 
 以下是清單的元素：
 
@@ -279,15 +279,15 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td><strong>[！UICONTROL篩選器]</strong></td> 
-   <td> <p>篩選器會根據您指定的條件，將不必要的資訊排除在清單之外。 </p> <p>如需詳細資訊，請參閱 <a href="../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md" class="MCXref xref">篩選器概觀</a>.</p> </td> 
+   <td> <p>篩選器會根據您指定的條件，將不必要的資訊排除在清單之外。 </p> <p>如需詳細資訊，請參閱<a href="../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md" class="MCXref xref">篩選器總覽</a>。</p> </td> 
   </tr> 
   <tr> 
    <td><strong>[！UICONTROL檢視]</strong></td> 
-   <td> <p>檢視會定義要在熒幕上顯示的欄位（欄）。</p> <p>如需詳細資訊，請參閱 <a href="../../../reports-and-dashboards/reports/reporting-elements/views-overview.md" class="MCXref xref">中的檢視總覽 [!DNL Adobe Workfront]</a>.</p> </td> 
+   <td> <p>檢視會定義要在熒幕上顯示的欄位（欄）。</p> <p>如需詳細資訊，請參閱[!DNL Adobe Workfront]</a>中的<a href="../../../reports-and-dashboards/reports/reporting-elements/views-overview.md" class="MCXref xref">檢視總覽。</p> </td> 
   </tr> 
   <tr> 
    <td><strong>[！UICONTROL群組]</strong></td> 
-   <td> <p>群組會根據您指定的條件，將清單中的物件區分為不同的區域。</p> <p>例如，清單中的問題可依狀態或優先順序顯示在區段中。</p> <p>在標準群組中最多可以有三層群組，如果您在文字模式中配置群組，則可以新增第四層。</p> <p>如需分組的詳細資訊，請參閱 <a href="../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md" class="MCXref xref">中的群組概述 [!DNL Adobe Workfront]</a>.</p> <p>如需文字模式的詳細資訊，請參閱 <a href="../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md" class="MCXref xref">文字模式概觀</a>.</p> </td> 
+   <td> <p>群組會根據您指定的條件，將清單中的物件區分為不同的區域。</p> <p>例如，清單中的問題可依狀態或優先順序顯示在區段中。</p> <p>在標準群組中最多可以有三層群組，如果您在文字模式中配置群組，則可以新增第四層。</p> <p>如需群組的詳細資訊，請參閱[!DNL Adobe Workfront]</a>中的<a href="../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md" class="MCXref xref">群組概觀。</p> <p>如需文字模式的詳細資訊，請參閱<a href="../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md" class="MCXref xref">文字模式概觀</a>。</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -298,12 +298,12 @@ ht-degree: 0%
 
 您可以自訂下列區域中的清單元素，並與其他使用者共用它們：
 
-* 在區段中找到的任何系統預設清單 [開始使用中的清單 [!DNL Adobe Workfront]](#default-workfront-lists) 本文章
+* 在文章的[開始使用 [!DNL Adobe Workfront]](#default-workfront-lists)中的清單一節中找到任何系統預設清單
 * 與您共用的任何報告
 
 清單的建置元素與報表的建置元素相同。
 
-如需有關建立和自訂清單和報告建置元素的詳細資訊，請參閱 [報表元素：篩選器、檢視和群組](../../../reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md).
+如需有關建立和自訂清單與報表的建置元素的詳細資訊，請參閱[報表元素：篩選器、檢視和群組](../../../reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md)。
 
 ## 列出動作
 
@@ -321,23 +321,23 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td><strong>內嵌編輯</strong> </td> 
-   <td> <p>直接在清單中編輯物件及其資訊。</p> <p>如需詳細資訊，請參閱 <a href="../../../workfront-basics/navigate-workfront/use-lists/inline-edit-objects.md" class="MCXref xref">在的清單中內聯編輯專案 [!DNL Adobe Workfront]</a>.</p> </td> 
+   <td> <p>直接在清單中編輯物件及其資訊。</p> <p>如需詳細資訊，請參閱<a href="../../../workfront-basics/navigate-workfront/use-lists/inline-edit-objects.md" class="MCXref xref">在[!DNL Adobe Workfront]</a>的清單中內嵌編輯專案。</p> </td> 
   </tr> 
   <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
-   <td><strong>使用[！UICONTROL摘要]更新</strong> </td> 
-   <td> <p>使用[！UICONTROL摘要]面板更新專案層級的任務和問題。</p> <p>提示： 「摘要」並非適用於所有物件，且無法在「任務」或「問題」報告中使用。</p> <p>如需詳細資訊，請參閱 <a href="../../../workfront-basics/the-new-workfront-experience/summary-overview.md" class="MCXref xref">摘要概觀</a>.</p> </td> 
+   <td><strong>更新為[！UICONTROL摘要]</strong> </td> 
+   <td> <p>使用[！UICONTROL摘要]面板更新專案層級的任務和問題。</p> <p>提示： 「摘要」並非適用於所有物件，且無法在「任務」或「問題」報告中使用。</p> <p>如需詳細資訊，請參閱<a href="../../../workfront-basics/the-new-workfront-experience/summary-overview.md" class="MCXref xref">摘要概觀</a>。</p> </td> 
   </tr> 
   <tr> 
    <td><strong>自訂清單顯示</strong> </td> 
-   <td> <p>自訂清單的外觀和感覺、欄的排列、專案的排序順序或顯示的專案數。</p> <p>附註：您對要在頁面上顯示的專案數量所做的變更會在您登出時還原 [!DNL Workfront] 或關閉瀏覽器。 變更也可能會在8小時後回覆。</p> <p>如需詳細資訊，請參閱 <a href="../../../workfront-basics/navigate-workfront/use-lists/modify-list-display.md" class="MCXref xref">修改清單的顯示方式</a>.</p> </td> 
+   <td> <p>自訂清單的外觀和感覺、欄的排列、專案的排序順序或顯示的專案數。</p> <p>注意：當您登出[!DNL Workfront]或關閉瀏覽器時，您對要在頁面上顯示的專案數所做的變更將會還原。 變更也可能會在8小時後回覆。</p> <p>如需詳細資訊，請參閱<a href="../../../workfront-basics/navigate-workfront/use-lists/modify-list-display.md" class="MCXref xref">修改清單的顯示方式</a>。</p> </td> 
   </tr> 
   <tr> 
    <td><strong>快速篩選</strong> </td> 
-   <td> <p>套用快速篩選以僅尋找對您重要的專案，以便您快速檢閱、更新或與他人共用這些專案。</p> <p>重要：您可以使用快速篩選來尋找包含搜尋字詞的專案，無論該專案是否顯示在您的熒幕上，或是在您捲動至頁面底部之後顯示。 使用瀏覽器的搜尋功能時，您只能找到畫面上已顯示的專案。 如果您的清單有多個頁面，快速篩選器只會尋找目前頁面上的專案。</p> <p>如需詳細資訊，請參閱 <a href="../../../workfront-basics/navigate-workfront/use-lists/apply-quick-filter-list.md" class="MCXref xref">將快速篩選套用至清單</a>.</p> </td> 
+   <td> <p>套用快速篩選以僅尋找對您重要的專案，以便您快速檢閱、更新或與他人共用這些專案。</p> <p>重要：您可以使用快速篩選來尋找包含搜尋字詞的專案，無論該專案是否顯示在您的熒幕上，或是在您捲動至頁面底部之後顯示。 使用瀏覽器的搜尋功能時，您只能找到畫面上已顯示的專案。 如果您的清單有多個頁面，快速篩選器只會尋找目前頁面上的專案。</p> <p>如需詳細資訊，請參閱<a href="../../../workfront-basics/navigate-workfront/use-lists/apply-quick-filter-list.md" class="MCXref xref">將快速篩選套用至清單</a>。</p> </td> 
   </tr> 
   <tr> 
    <td><strong>匯出</strong> </td> 
-   <td> <p>從匯出物件清單 [!DNL Workfront]. 當清單包含超過2000個專案時，匯出清單是檢閱一個頁面上所有專案的唯一方法。</p> <p>如需匯出清單的詳細資訊，請參閱 <a href="../../../workfront-basics/navigate-workfront/use-lists/export-lists.md" class="MCXref xref">匯出清單</a>. 如需匯出格式和限制的詳細資訊，請參閱 <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/export-data.md" class="MCXref xref">匯出資料</a>.</p> </td> 
+   <td> <p>從[!DNL Workfront]匯出物件清單。 當清單包含超過2000個專案時，匯出清單是檢閱一個頁面上所有專案的唯一方法。</p> <p>如需匯出清單的詳細資訊，請參閱<a href="../../../workfront-basics/navigate-workfront/use-lists/export-lists.md" class="MCXref xref">匯出清單</a>。 如需匯出格式和限制的詳細資訊，請參閱<a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/export-data.md" class="MCXref xref">匯出資料</a>。</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -419,7 +419,7 @@ ht-degree: 0%
   <tr> 
    <td> <img src="assets/qs-agile-icon-in-new-toolbar-task-list.png"> </td> 
    <td>[！UICONTROL敏捷檢視]</td> 
-   <td>在敏捷檢視中顯示清單。<br>這僅適用於任務。</td> 
+   <td>在敏捷檢視中顯示清單。<br>這僅適用於工作。</td> 
   </tr> 
   <tr> 
    <td> <img src="assets/qs-gantt-chart-icon-in-new-toolbar.png"> </td> 
@@ -444,17 +444,17 @@ ht-degree: 0%
   <tr data-mc-conditions=""> 
    <td> <img src="assets/qs-autosave-icon-in-new-toolbar-for-tasks.png"> </td> 
    <td> <p>[！UICONTROL計畫模式]</p> </td> 
-   <td> <p>選擇您要自動或手動儲存您在工作清單中所做的變更。 </p> <p>如需有關編輯清單中工作的資訊，請參閱 <a href="/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks-in-a-list.md" class="MCXref xref">編輯清單中的任務</a>. </p> <p>這僅適用於任務。</p> </td> 
+   <td> <p>選擇您要自動或手動儲存您在工作清單中所做的變更。 </p> <p>如需有關編輯清單中工作的資訊，請參閱<a href="/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks-in-a-list.md" class="MCXref xref">編輯清單中的工作</a>。 </p> <p>這僅適用於任務。</p> </td> 
   </tr> 
   <tr> 
    <td> <img src="assets/summary-panel-icon.png"> </td> 
    <td>[！UICONTROL摘要]</td> 
-   <td> <p>顯示或隱藏所選專案的[！UICONTROL摘要]方塊。</p> <p>這僅適用於任務和問題。</p> <p>如需有關新的「[！UICONTROL摘要]」面板的資訊 [!DNL Adobe Workfront] 體驗，請參閱 <a href="/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md" class="MCXref xref">摘要概觀</a>.</p> </td> 
+   <td> <p>顯示或隱藏所選專案的[！UICONTROL摘要]方塊。</p> <p>這僅適用於任務和問題。</p> <p>如需新[!DNL Adobe Workfront]體驗中[！UICONTROL摘要]面板的相關資訊，請參閱<a href="/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md" class="MCXref xref">摘要概觀</a>。</p> </td> 
   </tr> 
   <tr> 
    <td> <img src="assets/remove-icon---x-in-circle.png"> </td> 
    <td>[！UICONTROL移除]</td> 
-   <td>從清單中移除某些專案。 例如，作為管理群組或子群組成員資格的群組管理員，請依照中的說明移除群組成員 <a href="/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-groups/view-and-manage-a-groups-memberships.md" class="MCXref xref">檢視和管理群組的成員資格</a>.</td> 
+   <td>從清單中移除某些專案。 例如，作為管理群組或子群組成員資格的群組管理員，請依照<a href="/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-groups/view-and-manage-a-groups-memberships.md" class="MCXref xref">檢視和管理群組成員資格</a>中的說明移除群組成員。</td> 
   </tr> 
   <tr> 
    <td> <img src="assets/comment-icon.png"> </td> 
@@ -484,11 +484,11 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td> <p>任何人都能建立這些檔案</p> </td> 
-   <td><span>✓ (R)*</span> </td> 
+   <td>✓ <span>*</span> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> <p>僅a [!DNL Workfront] 管理員和擁有[！UICONTROL Plan]授權的使用者可以建立他們</p> </td> 
+   <td> <p>只有[!DNL Workfront]管理員和具有[！UICONTROL Plan]授權的使用者可以建立他們</p> </td> 
    <td> </td> 
    <td>✓ **</td> 
   </tr> 
@@ -523,7 +523,7 @@ ht-degree: 0%
    <td>✓ (A) </td> 
   </tr> 
   <tr> 
-   <td> <p>您可以匯出為.pdf， [!DNL Excel]和定位字元分隔格式</p> </td> 
+   <td> <p>您可以匯出為.pdf、[!DNL Excel]和Tab字元分隔格式</p> </td> 
    <td>✓ (A)</td> 
    <td> ✓ (A) </td> 
   </tr> 
@@ -565,9 +565,9 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-您必須有權存取篩選器、檢視和群組，才能建立它們。 如需詳細資訊，請參閱 [授予對篩選器、檢視和群組的存取權](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-fvg.md).
+您必須有權存取篩選器、檢視和群組，才能建立它們。 如需詳細資訊，請參閱[授予篩選器、檢視和群組的存取權](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-fvg.md)。
 
-您必須有權存取篩選器、檢視和群組以及報告、儀表板和行事曆，才能建立它們。 如需詳細資訊，請參閱 [授予對報告、儀表板和行事曆的存取權](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-reports-dashboards-calendars.md).
+您必須有權存取篩選器、檢視和群組以及報告、儀表板和行事曆，才能建立它們。 如需詳細資訊，請參閱[授予報告、儀表板和行事曆的存取權](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-reports-dashboards-calendars.md)。
 
 只有在報表建立者將清單元素設定為在控制面板上顯示時，您才能自訂置於控制面板上的報表清單。
 
@@ -575,11 +575,11 @@ ht-degree: 0%
 >
 >您必須先建立報表並將其新增至控制面板，才能將清單新增至控制面板。
 
-如需建立報表的詳細資訊，請參閱 [建立自訂報表](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md). 如需建立自訂區段的詳細資訊，請參閱 [建立自訂標籤或區段](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/create-custom-tabs.md).
+如需建立報告的詳細資訊，請參閱[建立自訂報告](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md)。 如需有關建立自訂區段的資訊，請參閱[建立自訂標籤或區段](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/create-custom-tabs.md)。
 
 ## 更新清單和舊版清單之間的差異
 
-中有兩種型別的清單 [!DNL Workfront]：
+[!DNL Workfront]中有兩種型別的清單：
 
 * 舊版清單
 
@@ -589,14 +589,14 @@ ht-degree: 0%
 
   ![](assets/updated-list-screen-shot-gray-groupings-350x71.png)
 
-這兩種清單都會顯示在 [!DNL Adobe Workfront].
+兩種型別的清單都出現在[!DNL Adobe Workfront]中。
 
-中的所有清單與報告 [!DNL Adobe Workfront] 都是更新清單，但下列專案除外：
+[!DNL Adobe Workfront]中的所有清單和報告都會更新，以下清單除外：
 
-* 中的清單 [!UICONTROL 設定] 區域
-* 中的清單 [!UICONTROL 報表] 區域
+* 在[!UICONTROL 設定]區域中的清單
+* 在[!UICONTROL 報表]區域中的清單
 
-下表顯示舊版和更新版清單之間的一些差異 [!DNL Workfront]：
+下表顯示[!DNL Workfront]中舊版與更新清單之間的部分差異：
 
 <!--
 <span style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode"> [Legacy does not equal Classic. Legacy lists appear in NWE and Classic. Updated lists appear in NWE and Classic.]</span>
@@ -619,16 +619,16 @@ ht-degree: 0%
    <td> <p>更快速的內嵌編輯</p> </td> 
   </tr> 
   <tr> 
-   <td> <p>顯示 <strong>100</strong> 個專案（預設）</p> </td> 
-   <td> <p>顯示 <strong>全部</strong> 或最多 <strong>2000</strong> 個專案（預設）</p> </td> 
+   <td> <p>依預設顯示<strong>100</strong>個專案</p> </td> 
+   <td> <p>依預設顯示<strong>所有</strong>或最多<strong>2000</strong>個專案</p> </td> 
   </tr> 
   <tr> 
    <td> <p>使用CTRL+F尋找清單中的專案</p> </td> 
-   <td> <p>使用快速篩選器快速尋找大型清單中的資訊</p> <p>如需在清單中使用快速篩選的詳細資訊，請參閱 <a href="../../../workfront-basics/navigate-workfront/use-lists/apply-quick-filter-list.md" class="MCXref xref">將快速篩選套用至清單</a>.</p> </td> 
+   <td> <p>使用快速篩選器快速尋找大型清單中的資訊</p> <p>如需有關在清單中使用快速篩選的資訊，請參閱<a href="../../../workfront-basics/navigate-workfront/use-lists/apply-quick-filter-list.md" class="MCXref xref">將快速篩選套用至清單</a>。</p> </td> 
   </tr> 
   <tr> 
    <td>您無法內嵌編輯具有RTF格式的自訂欄位。</td> 
-   <td> <p>自訂欄位中含格式的文字可設定為允許粗體、斜體、底線、專案符號、編號、超連結和區塊引號。</p> <p>如需詳細資訊，請參閱 <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref">建立或編輯自訂表單</a>.</p> </td> 
+   <td> <p>自訂欄位中含格式的文字可設定為允許粗體、斜體、底線、專案符號、編號、超連結和區塊引號。</p> <p>如需詳細資訊，請參閱<a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref">建立或編輯自訂表格</a>。</p> </td> 
   </tr> 
   <tr> 
    <td>條件式格式可以變更清單中連結的文字顏色</td> 

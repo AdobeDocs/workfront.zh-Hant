@@ -21,7 +21,7 @@ ht-degree: 0%
 您可以在Adobe Workfront Planning中將記錄與唯一縮圖建立關聯，以便輕鬆識別。
 
 您必須先建立記錄型別，才能開始建立和編輯記錄。
-如需詳細資訊，請參閱 [建立記錄型別](/help/quicksilver/planning/architecture/create-record-types.md).
+如需詳細資訊，請參閱[建立記錄型別](/help/quicksilver/planning/architecture/create-record-types.md)。
 
 ## 存取需求
 
@@ -75,14 +75,14 @@ ht-degree: 0%
   </tr>
 <tr>
    <td role="rowheader"><p>版面配置範本</p></td>
-   <td>  <p>必須為所有使用者(包括Workfront管理員)指派一個版面配置範本，該範本包含主功能表中的Planning區域。 </p> <p>如需詳細資訊，請參閱 <a href="/help/quicksilver/planning/access/access-overview.md">存取權總覽</a>. </p>  
+   <td>  <p>必須為所有使用者(包括Workfront管理員)指派一個版面配置範本，該範本包含主功能表中的Planning區域。 </p> <p>如需詳細資訊，請參閱<a href="/help/quicksilver/planning/access/access-overview.md">存取總覽</a>。 </p>  
 </td>
   </tr>
 
 </tbody>
 </table>
 
-*如需詳細資訊，請參閱 [Workfront檔案中的存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*如需詳細資訊，請參閱Workfornt檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 ## 有關記錄縮圖的考量事項
 
@@ -115,8 +115,8 @@ ht-degree: 0%
 1. 按一下您要新增縮圖之記錄的工作區，然後按一下記錄型別卡。
 
    這會開啟記錄型別頁面。
-1. 從中選擇表格檢視 **檢視** 下拉式功能表。 您所選取型別的所有記錄都會顯示在表格中。
-1. 暫留在主要欄位資訊上，按一下 **更多** 功能表 ![](assets/more-menu.png)，然後按一下 **縮圖**.
+1. 從&#x200B;**檢視**&#x200B;下拉式功能表中選取表格檢視。 您所選取型別的所有記錄都會顯示在表格中。
+1. 暫留在主要欄位資訊上，按一下&#x200B;**更多**&#x200B;功能表![](assets/more-menu.png)，然後按一下&#x200B;**縮圖**。
 
    ![](assets/record-more-menu-expanded.png)
 
@@ -124,9 +124,9 @@ ht-degree: 0%
    >
    >   主要欄位是顯示在表格檢視第一欄中的欄位。 主要欄位一律凍結，不能隱藏或重新定位。 主要欄位為公式欄位時，「更多」選單中的「縮圖」選項無法使用。
 
-   此 **上傳** 標籤預設會開啟，在 **錄製縮圖** 方塊。
+   **上傳**&#x200B;索引標籤預設會在&#x200B;**錄製縮圖**&#x200B;方塊中開啟。
 
-   如需上傳縮圖的詳細資訊，請參閱區段 [從詳細資訊頁面新增縮圖至記錄](#add-a-thumbnail-to-a-record-from-the-details-page) 在本文中，從步驟6開始。 <!--see if this is accurate-->
+   如需有關上傳縮圖的詳細資訊，請參閱本文章中[從詳細資訊頁面](#add-a-thumbnail-to-a-record-from-the-details-page)新增縮圖至記錄一節，從步驟6開始。<!--see if this is accurate-->
 
 <!--
    ![](assets/record-thumbnail-box-for-upload.png) 
@@ -164,12 +164,12 @@ ht-degree: 0%
 1. 從任何檢視中，按一下記錄以開啟它。
 
    詳細資訊預覽方塊隨即顯示。
-1. （可選）按一下 **在新標籤中開啟** 圖示 ![](assets/open-details-in-a-new-tab-icon.png) 位於右上角。
+1. （選擇性）按一下右上角的&#x200B;**在新索引標籤中開啟**&#x200B;圖示![](assets/open-details-in-a-new-tab-icon.png)。
 
    記錄的詳細資訊頁面隨即開啟。
-1. 暫留在縮圖影像或圖示上 ![](assets/record-thumbnail-icon-on-details-page.png)，然後按一下 **更多** 功能表 ![](assets/more-menu.png) > **編輯縮圖**.
+1. 暫留在縮圖影像或圖示![](assets/record-thumbnail-icon-on-details-page.png)上，然後按一下&#x200B;**更多**&#x200B;功能表![](assets/more-menu.png) > **編輯縮圖**。
 
-   此 **上傳** 標籤預設會開啟，在 **錄製縮圖** 方塊。
+   **上傳**&#x200B;索引標籤預設會在&#x200B;**錄製縮圖**&#x200B;方塊中開啟。
 
    ![](assets/record-thumbnail-box-for-upload.png)
 
@@ -177,25 +177,25 @@ ht-degree: 0%
 
    或
 
-   按一下 **瀏覽影像**，然後瀏覽以新增影像檔案。 檔案必須儲存在電腦上。
+   按一下&#x200B;**瀏覽影像**，然後瀏覽以新增影像檔案。 檔案必須儲存在電腦上。
 
-1. （選用）影像上傳至 **錄製縮圖** 方塊中，使用調整大小工具來裁切影像和調整影像大小。
-1. （可選）按一下 **上傳新影像** 圖示 ![](assets/upload-new-image-icon.png) 上傳另一個影像。
-1. （可選）按一下 **相簿** 標籤，然後按一下影像。 無法修改影像庫。
+1. （選擇性）在&#x200B;**錄製縮圖**&#x200B;方塊中上傳影像後，使用大小調整工具來裁切影像並調整影像大小。
+1. （選擇性）按一下&#x200B;**上傳新影像**&#x200B;圖示![](assets/upload-new-image-icon.png)以上傳另一個影像。
+1. （選擇性）按一下&#x200B;**相簿**&#x200B;標籤，然後按一下影像。 無法修改影像庫。
 
    ![](assets/record-thumbnail-box-for-gallery.png)
 
-1. （可選）若要在儲存縮圖之前移除縮圖，請按一下 **移除** 圖示 ![](assets/remove-image-icon.png) 影像右側。
+1. （選擇性）若要在儲存縮圖之前移除縮圖，請按一下影像右側的&#x200B;**移除**&#x200B;圖示![](assets/remove-image-icon.png)。
 
-1. 按一下 **使用影像** 將影像新增為縮圖。
-如此即會關閉 **錄製縮圖** 方塊。
+1. 按一下&#x200B;**使用影像**將影像新增為縮圖。
+這會關閉**錄製縮圖**方塊。
 縮圖會顯示在Workfront Planning中記錄顯示的區域中。
 
    >[!TIP]
    >
    >   您必須啟用表格檢視中的縮圖欄位，才能在此檢視中顯示縮圖。 預設為停用。
 
-1. （可選）若要在儲存縮圖後移除縮圖，請按一下任何檢視中的記錄以開啟詳細資訊頁面，然後將滑鼠指標暫留在縮圖影像上，然後按一下 **更多** 功能表 ![](assets/more-menu.png)> **移除** 圖示 ![](assets/remove-image-icon.png). 縮圖影像即會移除。
+1. （選擇性）若要在儲存縮圖後移除縮圖，請按一下任何檢視中的記錄以開啟詳細資料頁面，然後將滑鼠游標停留在縮圖影像上，然後按一下&#x200B;**更多**&#x200B;功能表![](assets/more-menu.png)> **移除**&#x200B;圖示![](assets/remove-image-icon.png)。 縮圖影像即會移除。
 
 
 

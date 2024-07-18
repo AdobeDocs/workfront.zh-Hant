@@ -15,7 +15,7 @@ ht-degree: 2%
 
 # 在Adobe Workfront目標中篩選資訊
 
-您可以檢視自己或其他任何新增至Adobe Workfront目標的目標。 如需建立目標的相關資訊，請參閱 [在Adobe Workfront目標中建立目標](../../workfront-goals/goal-management/create-goals.md). 檢視目標時，您可以篩選Workfront目標中的資訊，以僅檢視對您重要的目標。
+您可以檢視自己或其他任何新增至Adobe Workfront目標的目標。 如需建立目標的相關資訊，請參閱[在Adobe Workfront目標中建立目標](../../workfront-goals/goal-management/create-goals.md)。 檢視目標時，您可以篩選Workfront目標中的資訊，以僅檢視對您重要的目標。
 
 ## 存取需求
 
@@ -44,7 +44,7 @@ ht-degree: 2%
  <td>
  <p>新授權：投稿人或以上版本</p>
  或
- <p>目前授權：要求或以上</p> <p>如需詳細資訊，請參閱 <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront授權總覽</a>.</p> </td>
+ <p>目前授權：要求或以上</p> <p>如需詳細資訊，請參閱<a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront授權總覽</a>。</p> </td>
  </tr>
  <tr>
  <td role="rowheader">產品*</td>
@@ -54,7 +54,7 @@ ht-degree: 2%
 <li>Select或Prime Adobe Workfront計畫以及額外的Adobe Workfront目標授權。</li>
 <li>預設包含Workfront目標的Ultimate Workfront計畫。 </li></ul>
  <p>或</p>
- <p>目前產品需求： Adobe Workfront Goals的Workfront計畫和額外授權。 </p> <p>如需詳細資訊，請參閱 <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">使用Workfront目標的需求</a>. </p> </td>
+ <p>目前產品需求： Adobe Workfront Goals的Workfront計畫和額外授權。 </p> <p>如需詳細資訊，請參閱<a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">使用Workfront目標的需求</a>。 </p> </td>
  </tr>
  <tr>
  <td role="rowheader">存取層級</td>
@@ -66,7 +66,7 @@ ht-degree: 2%
   <div>
   <p>檢視目標或更高許可權以檢視它</p>
   <p>管理目標的許可權以編輯它</p>
-  <p>如需關於共用目標的資訊，請參閱 <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">在Workfront目標中共用目標</a>. </p>
+  <p>如需共用目標的相關資訊，請參閱<a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">在Workfront目標中共用目標</a>。 </p>
   </div> </td>
  </tr>
  <tr>
@@ -77,7 +77,7 @@ ht-degree: 2%
 </tbody>
 </table>
 
-*如需詳細資訊，請參閱 [Workfront檔案中的存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 ## Workfront目標中的篩選器概觀
 
@@ -91,7 +91,7 @@ ht-degree: 2%
 * 圖表
 * 目標校準
 
-如需有關目標區域各區段的資訊，請參閱 [Adobe Workfront目標區段概觀](../../workfront-goals/goal-review-and-workfront-goals-sections/overview-of-wf-goals-sections.md).
+如需有關目標區域區段的資訊，請參閱[Adobe Workfront目標區段概覽](../../workfront-goals/goal-review-and-workfront-goals-sections/overview-of-wf-goals-sections.md)。
 
 >[!IMPORTANT]
 >
@@ -113,7 +113,7 @@ ht-degree: 2%
 
 您可以在目標清單中使用快速篩選器，協助您僅找出對您而言重要的專案。 您無法儲存快速篩選，且這些篩選不是永久性的。 當您重新整理頁面時，Workfront會清除快速篩選的結果。
 
-如需詳細資訊，請參閱 [將快速篩選套用至清單](../../workfront-basics/navigate-workfront/use-lists/apply-quick-filter-list.md).
+如需詳細資訊，請參閱[將快速篩選套用至清單](../../workfront-basics/navigate-workfront/use-lists/apply-quick-filter-list.md)。
 
 ## 在Workfront目標中建立並套用篩選器
 
@@ -123,15 +123,15 @@ ht-degree: 2%
 
 1. 前往Workfront目標。
 
-   如需存取Workfront目標的相關資訊，請參閱 [在Adobe Workfront目標中存取和開啟目標](../../workfront-goals/goal-management/access-goals-in-wf-goals.md)
+   如需有關存取Workfront目標的資訊，請參閱[在Adobe Workfront目標中存取和開啟目標](../../workfront-goals/goal-management/access-goals-in-wf-goals.md)
 
    預設情況下，目標清單區段顯示。
 
-1. 按一下 **篩選** 在清單的右上角。
+1. 按一下清單右上角的&#x200B;**篩選器**。
 
    ![](assets/filter-icon-and-label.png)
 
-   依預設，Workfront會套用 **全部** 可顯示系統中所有目標的篩選器。
+   依預設，Workfront會套用&#x200B;**全部**&#x200B;篩選器，以顯示您系統中的所有目標。
 
    >[!TIP]
    >
@@ -167,15 +167,15 @@ ht-degree: 2%
        </tr> 
        <tr> 
         <td>公司</td> 
-        <td> <p>與您的組織相關聯的目標。 </p> <p><b>秘訣</b>
+        <td> <p>與您的組織相關聯的目標。 </p> <p><b>提示</b>
         <p>在Adobe Workfront目標中，「公司」篩選器會顯示您的組織被選為所有者的目標。 </p> <p>您無法使用此欄位來搜尋公司。 依預設，僅選取擁有Workfront執行個體的組織。 </p> </p> </td> 
        </tr> 
       </tbody> 
      </table>
 
-   * 暫留在篩選器的名稱上，然後按一下 **編輯** 圖示 ![](assets/edit-icon.png) 在其名稱旁邊，可自訂它並新增特定使用者、團隊、群組名稱或您的組織名稱，然後當他們出現在清單中時選取它。
+   * 暫留在篩選器名稱上，然後按一下篩選器名稱旁的&#x200B;**編輯**&#x200B;圖示![](assets/edit-icon.png)以自訂篩選器並新增特定使用者、團隊、群組名稱或您組織的名稱，然後在篩選器出現在清單中時選取篩選器。
 
-   * 按一下 **新增篩選器** 若要建立新篩選器，請從下列選項中選取，以自訂新篩選器：
+   * 按一下&#x200B;**新增篩選器**&#x200B;以建立新篩選器，然後從下列選項中選取以自訂新篩選器：
 
      <table style="table-layout:auto"> 
       <col> 
@@ -208,18 +208,18 @@ ht-degree: 2%
         <td role="rowheader">所有者</td> 
         <td> <p>開始輸入擁有者的名稱，然後當它出現在清單中時選取它。 </p> <p>您可以輸入使用者、專案團隊、群組或組織名稱，也可以從預先定義的選項中選取。 </p> <p>下列預先定義的篩選選項一律會參照目前登入的使用者： </p> 
          <ul> 
-          <li> <p><strong>我</strong>：顯示您擁有的目標。</p> </li> 
-          <li> <p><strong>我的主團隊</strong> 和 <strong>我的所有團隊</strong>：顯示您的主團隊或任何團隊被指定為擁有者的目標。 </p> <p>提示：當您未指派給任何團隊時，不會顯示任何目標。 </p> </li> 
-          <li> <p><strong>我的主群組</strong> 和 <strong>我的全部群組</strong>：顯示將您的主群組或任何群組指定為擁有者的目標。</p> </li> 
+          <li> <p><strong>我</strong>：顯示您是擁有者的目標。</p> </li> 
+          <li> <p><strong>我的主團隊</strong>和<strong>我的所有團隊</strong>：顯示您的主團隊或任何團隊被指定為擁有者的目標。 </p> <p>提示：當您未指派給任何團隊時，不會顯示任何目標。 </p> </li> 
+          <li> <p><strong>我的主群組</strong>和<strong>我的所有群組</strong>：顯示主群組或任何群組被指定為擁有者的目標。</p> </li> 
          </ul> </td> 
        </tr> 
       </tbody> 
      </table>
 
-1. （選用）按一下 **重設** 位於篩選方塊的右下角，用來清除所有已選取的欄位，並開始從頭開始建立篩選。
-1. （選用）按一下 **套用** 以套用篩選器而不儲存。
+1. （選擇性）按一下篩選器方塊右下角的&#x200B;**重設**，以清除所有您已選取的欄位，並從頭開始建立篩選器。
+1. （選擇性）按一下&#x200B;**套用**&#x200B;以套用篩選器而不儲存。
 
-   此篩選器會顯示在 **未儲存** 篩選器產生器的區域為 **新增篩選器**.
+   篩選器在篩選器產生器的&#x200B;**未儲存**&#x200B;區域顯示為&#x200B;**新篩選器**。
 
    您無法重新命名未儲存的篩選器。
 
@@ -229,26 +229,26 @@ ht-degree: 2%
    >
    >您一次只能有一個未儲存的新篩選器。
 
-1. 按一下 **儲存** 若要儲存篩選器以供稍後使用，請在中新增篩選器的名稱， **新增篩選器名稱** 欄位並按一下 **完成**.
+1. 按一下[儲存]****&#x200B;儲存篩選器以稍後使用，然後在[新增篩選器名稱]**欄位中新增篩選的名稱，然後按一下[完成]****。**
 
-   這會將篩選器儲存在 **已儲存** 區段。 您日後可以使用此篩選器。
+   這會將篩選器儲存在篩選器產生器的&#x200B;**已儲存**&#x200B;區段中。 您日後可以使用此篩選器。
 
    上次儲存並套用的篩選器會在您下次登入Workfront時預設顯示
 
-1. （可選）按一下 **向左箭頭** 旁邊 **新增篩選器** 以退出篩選產生器並返回篩選清單。
-1. （選用）將游標停留在自訂篩選器的名稱上，按一下 **更多** 功能表，然後按一下 **刪除**，然後 **刪除**. 這樣會刪除篩選器，且您無法復原它。
+1. （選擇性）按一下&#x200B;**新篩選器**&#x200B;旁的&#x200B;**向左箭號**，結束篩選器產生器並返回篩選器清單。
+1. （選擇性）將滑鼠停留在自訂篩選器的名稱上，按一下&#x200B;**更多**&#x200B;功能表，然後按一下&#x200B;**刪除**，再按一下&#x200B;**刪除**。 這樣會刪除篩選器，且您無法復原它。
 
    >[!TIP]
    >
    >您無法刪除任何預先定義的篩選器。
 
-1. 按一下 **X圖示** ，以關閉篩選產生器。
+1. 按一下篩選產生器右上角的&#x200B;**X圖示**&#x200B;以關閉篩選產生器。
 
    目前套用的篩選器名稱會顯示在目標清單右上角的「篩選器」圖示右側。
 
    目標清單會依您的篩選條件篩選。
 
-1. （選擇性和條件性）在「目標校準」區段中檢視目標時，請按一下 **顯示它們** 如果您想要檢視已篩選掉的目標。
+1. （選擇性和條件性）檢視「目標校準」區段中的目標時，如果您想要檢視篩選掉的目標，請按一下&#x200B;**顯示它們**。
 
    ![](assets/show-them-link-on-filtered-items-goal-list-350x109.png)
 
@@ -257,6 +257,6 @@ ht-degree: 2%
    ![](assets/filter-yellow-outline-next-to-reapply-filter-link-350x118.png)
 
 
-1. （選擇性和條件性）按一下 **重新套用篩選器** 以套用篩選，並省略您在上一步驟中顯示的專案。
+1. （選擇性和條件性）按一下&#x200B;**重新套用篩選器**&#x200B;以套用篩選器，並忽略您在上一步中顯示的專案。
 
 

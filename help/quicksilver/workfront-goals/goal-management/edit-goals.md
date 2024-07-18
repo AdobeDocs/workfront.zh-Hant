@@ -44,7 +44,7 @@ ht-degree: 1%
  <td>
  <p>新授權：投稿人或以上版本</p>
  或
- <p>目前授權：要求或以上</p> <p>如需詳細資訊，請參閱 <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront授權總覽</a>.</p> </td>
+ <p>目前授權：要求或以上</p> <p>如需詳細資訊，請參閱<a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront授權總覽</a>。</p> </td>
  </tr>
  <tr>
  <td role="rowheader">產品*</td>
@@ -54,7 +54,7 @@ ht-degree: 1%
 <li>Select或Prime Adobe Workfront計畫以及額外的Adobe Workfront目標授權。</li>
 <li>預設包含Workfront目標的Ultimate Workfront計畫。 </li></ul>
  <p>或</p>
- <p>目前產品需求： Adobe Workfront Goals的Workfront計畫和額外授權。 </p> <p>如需詳細資訊，請參閱 <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">使用Workfront目標的需求</a>. </p> </td>
+ <p>目前產品需求： Adobe Workfront Goals的Workfront計畫和額外授權。 </p> <p>如需詳細資訊，請參閱<a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">使用Workfront目標的需求</a>。 </p> </td>
  </tr>
  <tr>
  <td role="rowheader">存取層級</td>
@@ -66,7 +66,7 @@ ht-degree: 1%
   <div>
   <p>檢視目標或更高許可權以檢視它</p>
   <p>管理目標的許可權以編輯它</p>
-  <p>如需關於共用目標的資訊，請參閱 <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">在Workfront目標中共用目標</a>. </p>
+  <p>如需共用目標的相關資訊，請參閱<a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">在Workfront目標中共用目標</a>。 </p>
   </div> </td>
  </tr>
  <tr>
@@ -77,7 +77,7 @@ ht-degree: 1%
 </tbody>
 </table>
 
-*如需詳細資訊，請參閱 [Workfront檔案中的存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 ## 編輯目標的相關考量事項
 
@@ -145,7 +145,7 @@ Editing goals differs depending on what environment you use.
 
 -->
 
-1. 按一下 **主要功能表** 圖示 ![](assets/main-menu-icon.png)，然後按一下 **目標**.\
+1. 按一下&#x200B;**主要功能表**&#x200B;圖示![](assets/main-menu-icon.png)，然後按一下&#x200B;**目標**。\
    隨即顯示目標清單。
 1. 按一下目標。\
    目標頁面隨即顯示。
@@ -154,8 +154,8 @@ Editing goals differs depending on what environment you use.
 
 1. 執行下列任一項作業來編輯目標的資訊：
    * 按一下目標標題中顯示的欄位以進行更新。 並非標題中的所有欄位都可以編輯。
-   * 按一下 **「更多」圖示** ![](assets/more-icon.png) 在目標名稱的右側，然後按一下 **編輯**.
-   * 按一下 **目標詳細資料** 在左側面板中按一下 **編輯圖示** ![](assets/edit-icon.png) 按一下「 」 **編輯全部**. 開始更新「目標詳細資料」區段中的欄位。
+   * 按一下目標名稱右邊的&#x200B;**更多圖示** ![](assets/more-icon.png)，然後按一下&#x200B;**編輯**。
+   * 按一下左側面板中的&#x200B;**目標詳細資料**，然後按一下右上角的&#x200B;**編輯圖示** ![](assets/edit-icon.png)，然後按一下&#x200B;**全部編輯**。 開始更新「目標詳細資料」區段中的欄位。
 
      >[!IMPORTANT]
      >
@@ -164,28 +164,28 @@ Editing goals differs depending on what environment you use.
 1. （視條件而定）根據您在上一步驟中所選取的專案，更新以下有關目標的資訊：
 
    * 更新目標標題中的下列資訊，然後按Enter儲存變更：
-      * **目標名稱**：按一下目標的名稱並開始輸入新名稱。
-      * **所有者**：按一下擁有者的名稱，然後開始輸入使用者、團隊、群組或您的公司的名稱，然後在其顯示在清單中時選取它。 一個目標只能有一個擁有者。
-   * 在「編輯目標」方塊中更新下列資訊，然後按一下 **儲存**：
+      * **目標名稱**：按一下目標的名稱，然後開始輸入新名稱。
+      * **擁有者**：按一下擁有者的名稱，然後開始輸入使用者、團隊、群組或您公司的名稱，然後在清單中顯示時選取該名稱。 一個目標只能有一個擁有者。
+   * 在[編輯目標]方塊中更新下列資訊，然後按一下[儲存] ****：
       * **目標名稱**
-      * **期間**：按一下以更新目標的時段\
+      * **期間**：按一下以更新目標的期間\
         或\
-        選取 **啟用自訂日期** 若要指定目標的日期 **開始** 和 **結束日期**.
+        選取&#x200B;**啟用自訂日期**&#x200B;以指定目標的&#x200B;**開始**&#x200B;和&#x200B;**結束日期**&#x200B;的日期。
 
         >[!TIP]
         >
-        >取消選取 **啟用自訂日期** 以返回目標的原始時段。
+        >取消選取&#x200B;**啟用自訂日期**&#x200B;以返回目標的原始時段。
 
       * **目標所有者**
-      * **說明**：新增或更新目標的相關資訊。
-   * 更新或檢閱「目標詳細資料」區段中的資訊。 如需詳細資訊，請參閱 [更新「Adobe Workfront目標」中「目標詳細資料」區段中的目標](../goal-management/update-goals-in-goal-details-panel.md).
+      * **描述**：新增或更新目標的相關資訊。
+   * 更新或檢閱「目標詳細資料」區段中的資訊。 如需詳細資訊，請參閱Adobe Workfront目標](../goal-management/update-goals-in-goal-details-panel.md)中「目標詳細資料」一節的[更新目標。
 
    <!-- (should you update the title here after changing it at production??? - change it to Update goals in the goal Details section)-->
 
-1. （選用）按一下 **進度指示器** 以新增結果、活動或專案至目標。 新增進度指示器可確保您可以追蹤目標的進度。
+1. （選用）按一下左側面板中的&#x200B;**進度指示器**，將結果、活動或專案新增至目標。 新增進度指示器可確保您可以追蹤目標的進度。
 如需詳細資訊，請參閱下列文章：
    * [將活動新增至Adobe Workfront目標中的目標](../results-and-activities/add-activities-to-goals.md)
-   * [在Adobe Workfront目標中新增結果](../results-and-activities/add-results-to-goals.md).
-   * [在Adobe Workfront目標中新增專案](../results-and-activities/connect-projects-to-goals-overview.md).
+   * [將結果新增至Adobe Workfront目標中的目標](../results-and-activities/add-results-to-goals.md)。
+   * [在Adobe Workfront目標中新增專案](../results-and-activities/connect-projects-to-goals-overview.md)。
 
 </div>

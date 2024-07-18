@@ -2,7 +2,7 @@
 product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: email-alerts-workfront-proof
-title: 在中設定電子郵件通知設定 [!DNL Workfront Proof]
+title: 在 [!DNL Workfront Proof]中設定電子郵件通知設定
 description: 從Workfront Proof產生的電子郵件通知會通知共同作業人員有關校訂的最近活動，例如評論、回覆或決定。
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
@@ -14,43 +14,43 @@ ht-degree: 0%
 
 ---
 
-# 在中設定電子郵件通知設定 [!DNL Workfront Proof]
+# 在[!DNL Workfront Proof]中設定電子郵件通知設定
 
 <!--Audited: 01/2024-->
 
 >[!IMPORTANT]
 >
->本文提及獨立版產品中的功能 [!DNL Workfront Proof]. 有關內部校訂的資訊 [!DNL Adobe Workfront]，請參閱 [校訂](../../../review-and-approve-work/proofing/proofing.md).
+>本文提及獨立產品[!DNL Workfront Proof]中的功能。 有關[!DNL Adobe Workfront]內部校訂的資訊，請參閱[校訂](../../../review-and-approve-work/proofing/proofing.md)。
 
 電子郵件通知會通知共同作業人員有關校訂的最近活動，例如評論、回覆或決定。
 
 您可以在下列區域為檢閱者設定電子郵件通知：
 
-可在新校訂頁面上設定檢閱者的電子郵件通知， [!UICONTROL 新版本] 頁面，並在中管理 [!UICONTROL 工作流程] 的區段 [!UICONTROL 校訂詳細資訊] 頁面。 如需詳細資訊，請參閱 [產生校訂於 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md)
+可在新校訂頁面[!UICONTROL 新版本]頁面上設定檢閱者的電子郵件通知，並在[!UICONTROL 校訂詳細資料]頁面的[!UICONTROL 工作流程]區段中管理。 如需詳細資訊，請參閱[在 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md)中產生校樣
 
 * 新校訂頁面
-* 此 [!UICONTROL 新版本] 頁面
-* 此 [!UICONTROL 工作流程] 的區段 [!UICONTROL 校訂詳細資訊] 頁面。
+* [!UICONTROL 新版本]頁面
+* [!UICONTROL 校訂詳細資料]頁面的[!UICONTROL 工作流程]區段。
 
-如需詳細資訊，請參閱 [產生校訂於 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md)
+如需詳細資訊，請參閱[在 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md)中產生校樣
 
 
-* [產生校訂於 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md) [產生校訂於 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md)
+* [在 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md)中產生校訂[在 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md)中產生校訂
 
-* [在中管理校訂詳細資訊 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md).
+* [在 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md)中管理校訂詳細資訊。
 
 
 如果共同作業人員有自己的偏好設定或帳戶管理員對警報頻率有他們的建議，則每位使用者都可以設定自己的電子郵件警報設定，在與他們共用校訂時自動套用這些設定。 這可在使用者詳細資訊頁面上設定為校訂預設值。
 
-每個使用者也可以設定自己的電子郵件警報設定，這些設定將在與他們共用校訂時自動套用。 <!--If the collaborators have their preferences, or account administrators have their recommendation on alerts frequency. This can be set as a proof default on the users details pages.-->
+每個使用者也可以設定自己的電子郵件警報設定，這些設定將在與他們共用校訂時自動套用。<!--If the collaborators have their preferences, or account administrators have their recommendation on alerts frequency. This can be set as a proof default on the users details pages.-->
 
 >[!NOTE]
 >
 >使用者建立校樣並新增這些共同作業人員時，建議使用這些設定。 不過，這些只是建議，因此在稽核流程中可隨時調整，而變更會套用至變更後進行的所有活動。 校樣層級的設定會覆寫校樣預設設定。
 
-使用者 [!UICONTROL 管理員] 或 [!UICONTROL 帳單管理員] 設定檔也可在「帳戶」設定中，為其帳戶中的其他使用者設定校訂預設值。
+具有[!UICONTROL 管理員]或[!UICONTROL 帳單管理員]設定檔的使用者也可以在[帳戶]設定中，為其帳戶中的其他使用者設定校訂預設值。
 
-如需設定檔的相關資訊，請參閱 [中的校訂許可權設定檔 [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md).
+如需設定檔的相關資訊，請參閱 [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)中的[校訂許可權設定檔。
 
 ## 存取需求
 
@@ -67,24 +67,24 @@ ht-degree: 0%
 
 +++
 
-## 在個人設定中設定校訂預設值([!DNL Workfront Proof] 僅限使用者)
+## 在個人設定中設定校訂預設值（僅限[!DNL Workfront Proof]位使用者）
 
 您可以為您建立的校樣設定校樣設定。
 
 <!--For information about proof settings the [!DNL Workfront] administrator or [!DNL Workfront Proof] administrator can configure, see .-->
 
-1. 按一下 **[!UICONTROL 設定]** > **[!UICONTROL 個人設定]**.
+1. 按一下&#x200B;**[!UICONTROL 設定]** > **[!UICONTROL 個人設定]**。
 
-1. 按一下 **[!UICONTROL 校訂預設值]** 標籤。
-1. 按一下 **[!UICONTROL 預設電子郵件通知設定]** 以展開它。
+1. 按一下&#x200B;**[!UICONTROL 校訂預設值]**&#x200B;標籤。
+1. 按一下&#x200B;**[!UICONTROL 預設電子郵件通知設定]**&#x200B;以展開它。
 1. 在下列兩個設定右側的下拉式清單中，選取下表說明的其中一個選項。
 
-   * **[!UICONTROL 預設電子郵件警報]**：會影響與您共用的每個校訂。 此設定可在校訂層級覆寫。
-   * **[!UICONTROL 新訪客稽核者的預設電子郵件警報]**：影響您帳戶中先前未作為聯絡人存在的檢閱者。
+   * **[!UICONTROL 預設電子郵件警示]**：會影響與您共用的每個校訂。 此設定可在校訂層級覆寫。
+   * **[!UICONTROL 新訪客檢閱者的預設電子郵件警示]**：影響您帳戶中先前未作為連絡人存在的檢閱者。
 
    >[!NOTE]
    >
-   >如果您不選擇下列其中一個選項， [!DNL Workfront Proof] 會傳送校樣上有關活動的每日摘要給您。
+   >如果您未選擇下列其中一個選項，[!DNL Workfront Proof]會傳送有關校樣活動的每日摘要給您。
 
    <table style="table-layout:auto"> 
     <col> 
@@ -96,7 +96,7 @@ ht-degree: 0%
      </tr> 
      <tr> 
       <td role="rowheader">[！UICONTROL回覆我的意見]</td> 
-      <td>只有當某人明確回覆其評論時（這不包括他們自己的評論），才會傳送電子郵件給稽核者。 這表示如果校訂上的某人發表新評論，則不會通知檢閱者。<p>建議將此設定提供給校訂上的客戶，這樣他們就不會收到校訂上任何其他評論的通知，而只會在回覆他們自己的評論時收到通知。</p><p>雖然具有此電子郵件警報設定的檢閱者不會收到其他新評論的通知，但他們仍可在校訂檢視器中檢視校訂上的所有評論。</p><p>如需有關註解的資訊，請參閱 <a href="../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/view-proof-comments.md" class="MCXref xref">檢視並回覆校訂評論</a>.</p></td> 
+      <td>只有當某人明確回覆其評論時（這不包括他們自己的評論），才會傳送電子郵件給稽核者。 這表示如果校訂上的某人發表新評論，則不會通知檢閱者。<p>建議將此設定提供給校訂上的客戶，這樣他們就不會收到校訂上任何其他評論的通知，而只會在回覆他們自己的評論時收到通知。</p><p>雖然具有此電子郵件警報設定的檢閱者不會收到其他新評論的通知，但他們仍可在校訂檢視器中檢視校訂上的所有評論。</p><p>如需有關註解的資訊，請參閱<a href="../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/view-proof-comments.md" class="MCXref xref">檢視並回覆校訂註解</a>。</p></td> 
      </tr> 
      <tr> 
       <td role="rowheader">[！UICONTROL決策]</td> 
@@ -112,11 +112,11 @@ ht-degree: 0%
      </tr> 
      <tr> 
       <td role="rowheader">[！UICONTROL每日摘要]</td> 
-      <td>[!DNL Workfront] 只會在您擁有的活動以外的日期傳送一封電子郵件，其中包含列出的所有評論、回覆和決定。<p>此警報是檢視專案摘要的好方法，而不會在一天中忙於多次更新。</p><p>此摘要的範例使用案例是部門負責人，他想要監控專案的整體進度。</p><p>如需詳細資訊，請參閱 <a href="../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/manage-notifications-for-proof-comments.md" class="MCXref xref">管理校訂評論和決定的通知</a>.</p></td> 
+      <td>[!DNL Workfront] 只會在您擁有的活動以外的日期傳送一封電子郵件，其中包含列出的所有評論、回覆和決定。<p>此警報是檢視專案摘要的好方法，而不會在一天中忙於多次更新。</p><p>此摘要的範例使用案例是部門負責人，他想要監控專案的整體進度。</p><p>如需詳細資訊，請參閱<a href="../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/manage-notifications-for-proof-comments.md" class="MCXref xref">管理校訂評論和決定的通知</a>。</p></td> 
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader">[！UICONTROL無電子郵件]</td> 
-      <td>[!DNL Workfront] 不會傳送任何電子郵件警示。<br>這對於僅供參考而新增到校樣而無需通知任何變更的人非常有用。<p>系統預設為[！UICONTROL Daily summary] （亦稱為[！UICONTROL未設定]）。 如果您或您的稽核者未進行任何其他變更，則您的所有校樣都會具有此設定。</p></td> 
+      <td>[!DNL Workfront] 不會傳送任何電子郵件警示。<br>這對於僅供參考而新增到校訂中且不需要通知任何變更的人員非常有用。<p>系統預設為[！UICONTROL Daily summary] （亦稱為[！UICONTROL未設定]）。 如果您或您的稽核者未進行任何其他變更，則您的所有校樣都會具有此設定。</p></td> 
      </tr> 
     </tbody> 
    </table>
@@ -129,7 +129,7 @@ ht-degree: 0%
     <tbody> 
      <tr> 
       <td role="rowheader">[！UICONTROL校訂就緒時透過電子郵件確認]</td> 
-      <td>指定您是否要在建立校訂時接收[！UICONTROL Proof maked]電子郵件。 如需詳細資訊，請參閱 <a href="../../../workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/proof-made-email.md" class="MCXref xref">[！UICONTROL Proof Maked]電子郵件</a></td> 
+      <td>指定您是否要在建立校訂時接收[！UICONTROL Proof maked]電子郵件。 如需詳細資訊，請參閱<a href="../../../workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/proof-made-email.md" class="MCXref xref">製作的[！UICONTROL校訂]電子郵件</a></td> 
      </tr> 
      <tr> 
       <td role="rowheader">[！UICONTROL傳送給我的電子郵件格式] </td> 
@@ -139,46 +139,46 @@ ht-degree: 0%
     </tbody> 
    </table>
 
-1. 在 **[!UICONTROL 訊息設定]**，變更下列任一專案：
+1. 在&#x200B;**[!UICONTROL 訊息設定]**&#x200B;下，變更下列任一專案：
 
    | 校訂範本 | 說明 |
    |---|---|
    | **[!UICONTROL 校訂主旨範本]** | 顯示於新校訂頁面、新版本頁面、訊息頁面和提醒頁面。 可以在傳送前進行編輯。 |
-   | **[!UICONTROL 校樣訊息範本]** | 顯示於新校訂頁面、新版本頁面、訊息頁面和提醒頁面。 可以在傳送前進行編輯。 |
+   | **[!UICONTROL 校訂訊息範本]** | 顯示於新校訂頁面、新版本頁面、訊息頁面和提醒頁面。 可以在傳送前進行編輯。 |
 
 ## 變更收件者的電子郵件警示
 
 您可以在批次動作中變更特定收件者的電子郵件警示。
 
-1. 按一下 **[!UICONTROL 連絡人]** ，位於左側導覽面板中。
-1. 按一下 **[!UICONTROL 更多]** 功能表 ![](assets/more-button-small.png) 收件者的，然後按一下 **[!UICONTROL 檢視成員詳細資料]** 在下拉式功能表中。
+1. 按一下左側導覽面板中的&#x200B;**[!UICONTROL 連絡人]**。
+1. 按一下收件者的&#x200B;**[!UICONTROL 更多]**&#x200B;功能表![](assets/more-button-small.png)，然後在下拉式功能表中按一下&#x200B;**[!UICONTROL 檢視成員詳細資料]**。
 
-1. 開啟 **[!UICONTROL 共用專案]** 區段。
+1. 開啟&#x200B;**[!UICONTROL 共用專案]**&#x200B;區段。
 1. 選取您要變更電子郵件警示之每個專案左側的核取方塊。
-1. 按一下 **[!UICONTROL 更多]** 在共用專案清單上方，然後按一下 **[!UICONTROL 變更電子郵件警示]** 在下拉式功能表中。
+1. 按一下共用專案清單上方的&#x200B;**[!UICONTROL 更多]**，然後在下拉式功能表中按一下&#x200B;**[!UICONTROL 變更電子郵件警示]**。
 
-1. 變更電子郵件警示，然後按一下 **[!UICONTROL 提交]**.
+1. 變更電子郵件警示，然後按一下&#x200B;**[!UICONTROL 提交]**。
 
 ## 設定使用者的校訂預設值
 
-如果您是 [!DNL Workfront Proof] 管理員，您可以為您的帳戶中的使用者設定校訂預設值。
+如果您是[!DNL Workfront Proof]管理員，則可以為您帳戶中的使用者設定校訂預設值。
 
-1. 按一下 **[!UICONTROL 設定]** > **[!UICONTROL 帳戶設定]**.
+1. 按一下&#x200B;**[!UICONTROL 設定]** > **[!UICONTROL 帳戶設定]**。
 
-1. 開啟 **[!UICONTROL 使用者]** 標籤。
-1. 開啟 **[!UICONTROL 更多]** 功能表 ![More_button_small.png](assets/more-button-small.png) 位於使用者名稱右側。
+1. 開啟&#x200B;**[!UICONTROL 使用者]**&#x200B;標籤。
+1. 開啟使用者名稱右側的&#x200B;**[!UICONTROL More]**&#x200B;功能表![More_button_small.png](assets/more-button-small.png)。
 
-1. 按一下 **[!UICONTROL 檢視使用者詳細資訊]** 在下拉式功能表中。
-1. 在 **[!UICONTROL 設定]**，按一下 **[!UICONTROL 預設電子郵件警報設定]** 以展開它。
+1. 在下拉式功能表中按一下&#x200B;**[!UICONTROL 檢視使用者詳細資料]**。
+1. 在&#x200B;**[!UICONTROL 設定]**&#x200B;下，按一下&#x200B;**[!UICONTROL 預設電子郵件警示設定]**&#x200B;以展開它。
 
 1. 在下列兩個設定右側的下拉式清單中，選取下表說明的其中一個選項：
 
-   * **[!UICONTROL 預設電子郵件警報]**：會影響與您共用的每個校訂。 此設定可在校訂層級覆寫。
-   * **[!UICONTROL 新訪客稽核者的預設電子郵件警報]**：影響您帳戶中先前未作為聯絡人存在的檢閱者。
+   * **[!UICONTROL 預設電子郵件警示]**：會影響與您共用的每個校訂。 此設定可在校訂層級覆寫。
+   * **[!UICONTROL 新訪客檢閱者的預設電子郵件警示]**：影響您帳戶中先前未作為連絡人存在的檢閱者。
 
    >[!NOTE]
    >
-   >如果您沒有為使用者選擇下列其中一個選項， [!DNL Workfront Proof] 會傳送使用者有關其校樣活動的每日摘要。
+   >如果您沒有為使用者選擇下列其中一個選項，[!DNL Workfront Proof]會傳送每日有關使用者校樣活動的摘要。
 
    <table style="table-layout:auto">
     <col>
@@ -190,7 +190,7 @@ ht-degree: 0%
      </tr>
      <tr>
       <td role="rowheader">[！UICONTROL回覆我的意見]</td>
-      <td>只有當某人明確回覆其評論時（這不包括他們自己的評論），才會傳送電子郵件給稽核者。 這表示如果校訂上的某人發表新評論，則不會通知檢閱者。<p>建議將此設定提供給校訂上的客戶，這樣他們就不會收到校訂上任何其他評論的通知，而只會在回覆他們自己的評論時收到通知。</p><p>雖然具有此電子郵件警報設定的檢閱者不會收到其他新評論的通知，但他們仍可在校訂檢視器中檢視校訂上的所有評論。</p><p>如需有關註解的資訊，請參閱 <a href="../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/view-proof-comments.md" class="MCXref xref">檢視並回覆校訂評論</a>.</p></td>
+      <td>只有當某人明確回覆其評論時（這不包括他們自己的評論），才會傳送電子郵件給稽核者。 這表示如果校訂上的某人發表新評論，則不會通知檢閱者。<p>建議將此設定提供給校訂上的客戶，這樣他們就不會收到校訂上任何其他評論的通知，而只會在回覆他們自己的評論時收到通知。</p><p>雖然具有此電子郵件警報設定的檢閱者不會收到其他新評論的通知，但他們仍可在校訂檢視器中檢視校訂上的所有評論。</p><p>如需有關註解的資訊，請參閱<a href="../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/view-proof-comments.md" class="MCXref xref">檢視並回覆校訂註解</a>。</p></td>
      </tr>
      <tr>
       <td role="rowheader">[！UICONTROL決策]</td>
@@ -206,16 +206,16 @@ ht-degree: 0%
      </tr>
      <tr>
       <td role="rowheader">[！UICONTROL每日摘要]</td>
-      <td>[!DNL Workfront] 只會在您擁有的活動以外的日期傳送一封電子郵件，其中包含列出的所有評論、回覆和決定。<p>此警報是檢視專案摘要的好方法，而不會在一天中忙於多次更新。</p><p>此摘要的範例使用案例是部門負責人，他想要監控專案的整體進度。</p><p>如需詳細資訊，請參閱 <a href="../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/manage-notifications-for-proof-comments.md" class="MCXref xref">管理校訂評論和決定的通知</a>.</p></td>
+      <td>[!DNL Workfront] 只會在您擁有的活動以外的日期傳送一封電子郵件，其中包含列出的所有評論、回覆和決定。<p>此警報是檢視專案摘要的好方法，而不會在一天中忙於多次更新。</p><p>此摘要的範例使用案例是部門負責人，他想要監控專案的整體進度。</p><p>如需詳細資訊，請參閱<a href="../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/manage-notifications-for-proof-comments.md" class="MCXref xref">管理校訂評論和決定的通知</a>。</p></td>
      </tr>
      <tr data-mc-conditions="">
       <td role="rowheader">[！UICONTROL無電子郵件]</td>
-      <td>[!DNL Workfront] 不會傳送任何電子郵件警示。<br>這對於僅供參考而新增到校樣而無需通知任何變更的人非常有用。<p>系統預設為[！UICONTROL Daily summary] （亦稱為[！UICONTROL未設定]）。 如果您或您的稽核者未進行任何其他變更，則您的所有校樣都會具有此設定。</p></td>
+      <td>[!DNL Workfront] 不會傳送任何電子郵件警示。<br>這對於僅供參考而新增到校訂中且不需要通知任何變更的人員非常有用。<p>系統預設為[！UICONTROL Daily summary] （亦稱為[！UICONTROL未設定]）。 如果您或您的稽核者未進行任何其他變更，則您的所有校樣都會具有此設定。</p></td>
      </tr>
     </tbody>
    </table>
 
-1. 剩餘 **[!UICONTROL 預設電子郵件警報設定]**，變更下列任一專案：
+1. 在其餘&#x200B;**[!UICONTROL 預設電子郵件警示設定]**&#x200B;中，變更下列任一專案：
 
    <table style="table-layout:auto"> 
     <col> 
@@ -223,7 +223,7 @@ ht-degree: 0%
     <tbody> 
      <tr> 
       <td role="rowheader">[！UICONTROL校訂就緒時透過電子郵件確認]</td> 
-      <td>指定您是否要在建立校訂時接收[！UICONTROL Proof maked]電子郵件。 如需詳細資訊，請參閱 <a href="https://support.workfront.com/hc/en-us/article">[！UICONTROL Proof Maked]電子郵件。</a></td> 
+      <td>指定您是否要在建立校訂時接收[！UICONTROL Proof maked]電子郵件。 如需詳細資訊，請參閱<a href="https://support.workfront.com/hc/en-us/article">已做校訂]電子郵件</a></td> 
      </tr> 
      <tr> 
       <td role="rowheader">[！UICONTROL傳送給我的電子郵件格式] </td> 

@@ -1,8 +1,8 @@
 ---
 product-area: requests;user-management
 navigation-topic: create-and-manage-request-queues
-title: 提供對請求隊列的訪問
-description: 當您提供請求佇列的存取權時，可決定組織中的哪些人可以在Adobe Workfront的「請求」區域中檢視請求佇列。
+title: 提供請求佇列的存取權
+description: 提供請求佇列的存取權時，您可決定組織中的哪個人員可以在Adobe Workfront的「請求」區域中檢視請求佇列。
 author: Alina
 feature: Work Management
 exl-id: eb88c32a-f8b8-42d3-9a3a-72c62fd1dc3a
@@ -13,13 +13,13 @@ ht-degree: 0%
 
 ---
 
-# 提供對請求隊列的訪問
+# 提供請求佇列的存取權
 
-當您提供請求佇列的存取權時，可決定組織中的哪些人可以在Adobe Workfront的「請求」區域中檢視請求佇列。
+提供請求佇列的存取權時，您可決定組織中的哪個人員可以在Adobe Workfront的「請求」區域中檢視請求佇列。
 
-您可以根據不同的使用者是專案團隊、專案群組或專案公司的成員，提供「請求佇列」的不同存取權。 您也可以提供系統中每個人對請求佇列的存取權。 
+您可以根據使用者是專案團隊、專案群組或專案公司的一員，提供不同使用者對請求佇列的存取權。 您也可以讓系統中的每個人都能存取請求佇列。 
 
-在邀請外部利害關係人加入Workfront且希望限制使用者存取特定區域的組織中，這個用法很有用，在此情況下，請求佇列會僅開放給與公司或專案群組相關聯的使用者，而局限外部利害關係人可見。 讓任何人都能存取，讓內部和外部持份者都能查看要求。
+在邀請外部利益關係人加入Workfront並希望限制使用者對特定區域的存取的組織中，這會很有用；在此情況下，僅對與專案公司或群組相關聯的使用者開放的請求佇列會限制外部利益關係人的可見度。 將存取權授與任何人，會讓內部和外部利害關係人都看到請求。
 
 ## 存取需求
 
@@ -38,45 +38,45 @@ ht-degree: 0%
    <td> <p>計劃 </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">訪問級別配置*</td> 
-   <td> <p>編輯專案的存取權</p> <p>注意：如果您仍無權存取，請洽詢您的Workfront管理員，他們是否在您的存取層級設定其他限制。 如需Workfront管理員如何修改您的存取層級的詳細資訊，請參閱 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>.</p> </td> 
+   <td role="rowheader">存取層級設定*</td> 
+   <td> <p>編輯專案的存取權</p> <p>注意：如果您還是沒有存取權，請詢問您的Workfront管理員，他們是否在您的存取層級中設定其他限制。 如需Workfront管理員如何修改存取層級的詳細資訊，請參閱<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">物件權限</td> 
-   <td> <p> 管理專案的權限</p> <p>有關請求其他訪問的資訊，請參閱 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">請求對對象的訪問 </a>.</p> </td> 
+   <td role="rowheader">物件許可權</td> 
+   <td> <p> 管理專案的許可權</p> <p>如需請求其他存取權的資訊，請參閱<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">請求物件</a>的存取權。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;若要了解您擁有的計畫、授權類型或存取權，請聯絡您的Workfront管理員
+&#42;若要瞭解您擁有的計畫、授權型別或存取權，請連絡您的Workfront管理員
 
-## 必要條件
+## 先決條件
 
-在「請求」區域中的「請求佇列」可供使用者使用前，您必須先建立專案，並具備下列設定：
+在請求區域中使用者可以使用請求佇列之前，您必須建立具有以下設定的專案：
 
-* 將其指定為請求佇列。 如需建立請求佇列的詳細資訊，請參閱 [建立請求佇列](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
-* 將項目的狀態更新為當前狀態。
+* 將其指定為請求佇列。 如需有關建立請求佇列的詳細資訊，請參閱[建立請求佇列](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md)。
+* 將專案狀態更新為目前。
 
 ## 提供請求佇列的存取權
 
-1. 前往您要提供請求佇列存取權的專案。
+1. 前往您想要提供請求佇列存取權的專案。
 
    >[!NOTE]
    >
-   >「請求」區域中只會顯示狀態為「目前」的專案。
+   >請求區域中只會顯示具有目前狀態的專案。
 
-1. 按一下 **隊列詳細資訊** 中。 您可能需要按一下 **顯示更多**，然後 **隊列詳細資訊**.
-1. 選擇 **發佈為說明請求佇列** 將專案指定為「請求佇列」。
+1. 按一下左側面板中的&#x200B;**佇列詳細資料**。 您可能需要按一下&#x200B;**顯示更多**，然後按一下&#x200B;**佇列詳細資料**。
+1. 選取&#x200B;**Publish作為說明要求佇列**&#x200B;以將專案指定為要求佇列。
 1. 從下列選項中選取：
 
-   * **任何人**:任何使用者都可以檢視請求，以及將請求新增至請求佇列。
-   * **有權查看此項目的人員**：擁有專案檢視權限的使用者可以檢視請求，以及將請求新增至請求佇列。 
-   * **此項目公司的人員**：與專案公司相關聯的使用者可以檢視及新增請求。 與項目關聯的公司列在此選項旁的括弧中。 
-   * **此項目組中的人員**：與專案群組相關聯的使用者可以檢視及新增請求。 與項目關聯的組列在此選項旁的括弧中。
+   * **任何人**：任何使用者都可以檢視及新增要求至要求佇列。
+   * **擁有此專案檢視存取許可權的人員**：擁有專案檢視許可權的使用者可以檢視及新增要求佇列。 
+   * **此專案的公司中的人員**：與專案的公司相關聯的使用者可以檢視及新增要求。 與此專案相關聯的公司會列在此選項旁的括弧中。 
+   * **此專案群組的人員**：與專案群組相關聯的使用者可以檢視及新增要求。 與此專案關聯的群組會列在此選項旁的括弧中。
 
-      若有幾個部門共用Workfront帳戶以達成獨特的組織目標，群組佇列就十分實用。 每個部門可能都有自己的隊列，其他組的成員不能看到這些隊列。
+     當多個部門共用一個Workfront帳戶以實現獨特的組織目標時，群組佇列會很有用。 每個部門可能有自己的佇列，其他群組的成員應該看不到這些佇列。
 
-      如需誰擁有專案權限的相關資訊，請參閱 [在Adobe Workfront中共用專案](../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md).\
-      編輯專案時，群組和公司可與專案相關聯。 如需編輯專案的詳細資訊，請參閱 [編輯專案](../../../manage-work/projects/manage-projects/edit-projects.md).
+     如需關於誰擁有專案許可權的資訊，請參閱[在Adobe Workfront中共用專案](../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md)。\
+     編輯專案時，群組和公司可以與專案相關聯。 如需有關編輯專案的詳細資訊，請參閱[編輯專案](../../../manage-work/projects/manage-projects/edit-projects.md)。
 
-1. 按一下&#x200B;**儲存**。
+1. 按一下「**儲存**」。

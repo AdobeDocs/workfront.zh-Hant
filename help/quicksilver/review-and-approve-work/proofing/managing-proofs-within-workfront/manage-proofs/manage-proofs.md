@@ -23,4 +23,4 @@ ht-degree: 0%
 * [還原已封存的校訂](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/restore-archived-proof.md)
 * [在Adobe Workfront中檢視校訂上的活動](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/view-activity-on-proof-in-wf.md)
 * [使用校訂核准報告](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/proof-approval-report.md)
-* [從Adobe Workfront存取Workfront校訂](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/access-wf-proof-in-workfront.md)
+* [從Adobe Workfront存取Workfront Proof](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/access-wf-proof-in-workfront.md)

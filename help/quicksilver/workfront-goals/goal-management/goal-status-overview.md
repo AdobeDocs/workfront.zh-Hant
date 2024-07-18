@@ -24,7 +24,7 @@ ht-degree: 4%
 
      或
 
-     適用於Prime或選取Adobe Workfront計畫的Adobe Workfront目標的其他授權。 如需詳細資訊，請參閱 [Adobe Workfront計畫](https://www.workfront.com/plans).
+     適用於Prime或選取Adobe Workfront計畫的Adobe Workfront目標的其他授權。 如需詳細資訊，請參閱[Adobe Workfront計畫](https://www.workfront.com/plans)。
 
 * 對於目前的計畫與授權結構：
 
@@ -57,9 +57,9 @@ ht-degree: 4%
 
 ## Workfront目標中的目標狀態概觀
 
-如需建立Workfront目標的相關資訊，請參閱 [在Adobe Workfront目標中建立目標](../../workfront-goals/goal-management/create-goals.md).
+如需建立Workfront目標的相關資訊，請參閱[在Adobe Workfront目標中建立目標](../../workfront-goals/goal-management/create-goals.md)。
 
-如需啟用目標的詳細資訊，請參閱 [在Adobe Workfront目標中啟用目標](../../workfront-goals/goal-management/activate-goals.md).
+如需啟用目標的相關資訊，請參閱[在Adobe Workfront目標中啟用目標](../../workfront-goals/goal-management/activate-goals.md)。
 
 在Workfront目標中，目標可以有下列其中一種狀態：
 
@@ -70,7 +70,7 @@ ht-degree: 4%
 
 ### 草稿 {#draft}
 
-* 這是新建立目標的預設狀態。 如需建立目標的相關資訊，請參閱 [在Adobe Workfront目標中建立目標](../../workfront-goals/goal-management/create-goals.md).
+* 這是新建立目標的預設狀態。 如需建立目標的相關資訊，請參閱[在Adobe Workfront目標中建立目標](../../workfront-goals/goal-management/create-goals.md)。
 * Workfront目標不會記錄草擬目標的進度。
 * 您無法更新草擬目標的進度。
 * 草稿目標缺乏進度資訊，因此無法關閉或停用。
@@ -87,7 +87,7 @@ ht-degree: 4%
 
 ### 啟用中 {#active}
 
-* 您只能在草擬目標與結果、活動相關聯或將另一個目標與其對齊時，啟用草擬目標。 啟用目標會將其狀態變更為作用中。 如需啟用目標的詳細資訊，請參閱 [在Adobe Workfront目標中啟用目標](../../workfront-goals/goal-management/activate-goals.md).
+* 您只能在草擬目標與結果、活動相關聯或將另一個目標與其對齊時，啟用草擬目標。 啟用目標會將其狀態變更為作用中。 如需啟用目標的相關資訊，請參閱[在Adobe Workfront目標中啟用目標](../../workfront-goals/goal-management/activate-goals.md)。
 * Workfront目標會記錄作用中目標的進度。
 * 作用中目標有助於其他目標的進度計算，並在圖形中加以考慮。
 * 作用中目標會顯示在Workfront目標的下列區域中：
@@ -102,7 +102,7 @@ ht-degree: 4%
 
 * 當擁有者暫時或永久停止處理作用中目標時，您可以停用該目標。 您可以保留它以取得歷史資訊。 這會將目標的狀態更新為非作用中。
 
-  如需停用目標的相關資訊，請參閱文章中的「停用目標」一節 [刪除和停用Adobe Workfront目標中的目標](../../workfront-goals/goal-management/delete-and-deactivate-goals.md).
+  如需有關停用目標的資訊，請參閱文章[在Adobe Workfront目標中刪除及停用目標](../../workfront-goals/goal-management/delete-and-deactivate-goals.md)中的「停用目標」一節。
 
 * 您無法停用草擬或已關閉的目標。
 * 您可以重新啟用非作用中目標並繼續處理它。
@@ -117,7 +117,7 @@ ht-degree: 4%
 
 ### 已關閉 {#closed}
 
-* 當您想要指出您已達成目標，或您不再處理目標，且將來也不會進行時，可以關閉目標。 如需關於關閉目標的資訊，請參閱 [在Adobe Workfront目標中關閉並重新開啟目標](../../workfront-goals/goal-management/close-and-reopen-goals.md).
+* 當您想要指出您已達成目標，或您不再處理目標，且將來也不會進行時，可以關閉目標。 如需關閉目標的相關資訊，請參閱[在Adobe Workfront目標中關閉及重新開啟目標](../../workfront-goals/goal-management/close-and-reopen-goals.md)。
 
   >[!TIP]
   >

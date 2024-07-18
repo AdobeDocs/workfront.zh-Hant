@@ -21,7 +21,7 @@ ht-degree: 2%
 
 >[!IMPORTANT]
 >
->本文內容指的更新檔案核准功能僅適用於特定帳戶。 如需有關標準核准流程的資訊，請參閱下列文章： [工作核准](/help/quicksilver/review-and-approve-work/manage-approvals/manage-approvals.md).
+>本文內容指的更新檔案核准功能僅適用於特定帳戶。 如需有關標準核准程式的資訊，請參閱[工作核准](/help/quicksilver/review-and-approve-work/manage-approvals/manage-approvals.md)中列出的文章。
 
 ## 新功能和設計目標
 
@@ -30,7 +30,7 @@ ht-degree: 2%
 * **包容性的利害關係人參與**\
     新檔案核准允許在核准流程中包含個別貢獻者和整個團隊。 促進更廣泛的參與，可確保利害關係人的全面參與，並建立更明智、更合作的決策環境。
 
-* **差異化的稽核和核准角色**\
+* **已區分的檢閱和核准角色**\
     「新建檔案核准」的設計目的是識別並遵循核准流程中各種不同的角色。 藉由提供識別和指定稽核者（收到通知提供意見回饋但沒有決策許可權的使用者）的能力，意見回饋的品質得以提升，同時維持最終核准許可權的明確性。
 
 * **版本特定核准**\
@@ -47,9 +47,9 @@ ht-degree: 2%
 
 ## 使用新檔案核准
 
-若使用者希望建立或管理檔案核准，請參閱下列文章 [設定及管理資產和檔案核准：文章索引](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/set-up-and-manage-doc-asset-approvals-toc.md)
+若使用者希望建立或管理檔案核准，請參閱[設定及管理資產和檔案核准：文章索引](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/set-up-and-manage-doc-asset-approvals-toc.md)中列出的文章
 
-若使用者希望檢閱或核准其收到請求的檔案，請參閱下列文章 [核准和檢閱檔案：文章索引](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-documents-toc.md).
+若使用者希望檢閱或核准他們收到請求的檔案，請參閱[核准和檢閱檔案中列出的文章：文章索引](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-documents-toc.md)。
 
 >[!IMPORTANT]
 >

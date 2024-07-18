@@ -23,9 +23,9 @@ ht-degree: 0%
 
 本節包含下列文章：
 
-* [更新區段概觀](../../workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md)
+* [更新區段總覽](../../workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md)
 * [更新工作](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md)
-* [欄位中的字元限制](../../workfront-basics/updating-work-items-and-viewing-updates/character-limits-in-fields.md)
+* 欄位中的[字元限制](../../workfront-basics/updating-work-items-and-viewing-updates/character-limits-in-fields.md)
 * [回覆更新](../../workfront-basics/updating-work-items-and-viewing-updates/reply-to-updates.md)
 * [回覆電子郵件通知](../../workfront-basics/updating-work-items-and-viewing-updates/reply-to-email-notifications.md)
 * [標籤其他人的更新](../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md)

@@ -47,20 +47,20 @@ ht-degree: 0%
   <tr> 
    <td role="rowheader">產品</td> 
    <td>
-   <p>目前產品需求：如果您有[！UICONTROL Select]或[！UICONTROL Prime] [!DNL Adobe Workfront] 計畫，您的組織必須購買 [!DNL Adobe Workfront Fusion] 以及 [!DNL Adobe Workfront] 以使用本文所述的功能。 [!DNL Workfront Fusion] 包含在[！UICONTROL Ultimate]中 [!DNL Workfront] 計畫。</p>
+   <p>目前產品需求：如果您有[！UICONTROL Select]或[！UICONTROL Prime] [!DNL Adobe Workfront]計畫，您的組織必須購買[!DNL Adobe Workfront Fusion]及[!DNL Adobe Workfront]，才能使用本文所述的功能。 [!DNL Workfront Fusion]包含在[！UICONTROL Ultimate] [!DNL Workfront]計畫中。</p>
    <p>或</p>
-   <p>舊版產品需求：貴組織必須購買 [!DNL Adobe Workfront Fusion] 以及 [!DNL Adobe Workfront] 以使用本文所述的功能。</p>
+   <p>舊版產品需求：您的組織必須購買[!DNL Adobe Workfront Fusion]及[!DNL Adobe Workfront]，才能使用本文所述的功能。</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
-*若要瞭解您擁有的計畫、授權型別或存取權，請連絡 [!DNL Workfront Fusion] 管理員。
+*若要瞭解您擁有的計畫、授權型別或存取權，請連絡您的[!DNL Workfront Fusion]管理員。
 
-## 導覽 [!DNL Workfront Fusion]
+## 導覽[!DNL Workfront Fusion]
 
-此 [!UICONTROL 組織] 和 [!UICONTROL 團隊] 功能表位於Fusion的左側導覽面板中。 如果您是 [!DNL Workfront Fusion] 管理員，您的 [!UICONTROL 管理] 功能表也會顯示在這裡。
+[!UICONTROL 組織]與[!UICONTROL 團隊]功能表位於Fusion的左側導覽面板。 如果您是[!DNL Workfront Fusion]管理員，您的[!UICONTROL 管理]功能表也會顯示在這裡。
 
-若要切換團隊，請按一下頁面頂端的團隊名稱，然後選取團隊。 專案團隊選擇器只會出現在專屬於專案團隊的頁面上，例如案例產生器或 [!UICONTROL 連線] 頁面。
+若要切換團隊，請按一下頁面頂端的團隊名稱，然後選取團隊。 團隊選擇器只會出現在團隊的特定頁面上，例如案例產生器或[!UICONTROL 連線]頁面。
 
 若要切換組織，請按一下畫面右上方的組織名稱，然後選取組織。
 
@@ -71,10 +71,10 @@ ht-degree: 0%
 在您的設定檔下，您可以檢視下列標籤：
 
 * **[!UICONTROL 組織]**：檢視您所屬的Fusion組織。
-* **[!UICONTROL 時區選項]**：您可以在此處設定Fusion UI中使用的時區，以及個別案例使用的時區。
-* **[!UICONTROL API]**：您可以在這裡複製現有的API權杖或建立新權杖。
+* **[!UICONTROL 時區選項]**：在這裡，您可以設定Fusion UI中使用的時區，以及個別案例使用的時區。
+* **[!UICONTROL API]**：在這裡，您可以複製現有的API權杖或建立新權杖。
 
 
 ## 存取您的通知
 
-若要檢視您的通知，請按一下通知圖示 ![通知圖示](assets/notifications-icon.png) 靠近熒幕右上角。 通知圖示上的紅點表示您有未讀的通知或公告。
+若要檢視您的通知，請按一下畫面右上角附近的通知圖示![通知圖示](assets/notifications-icon.png)。 通知圖示上的紅點表示您有未讀的通知或公告。

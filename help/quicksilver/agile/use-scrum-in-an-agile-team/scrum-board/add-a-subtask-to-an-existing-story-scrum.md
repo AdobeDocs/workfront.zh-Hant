@@ -1,35 +1,35 @@
 ---
 product-area: agile-and-teams;projects
 navigation-topic: scrum-board
-title: 將子任務添加到Scrum板上的現有文章
-description: 為現有動態建立子任務時，請記住項目的「完成模式」設定，因為這會影響動態的更新方式。
+title: 將子任務新增到Scrum展示板上的現有劇本
+description: 建立現有內文的子任務時，請記得專案的「完成模式」設定，因為這會影響內文的更新方式。
 author: Lisa
 feature: Agile
 exl-id: 264e66e9-94c7-4904-baad-f733d39b4791
 source-git-commit: 6f817ca39c7489b85673ff601faf440fe51ab72c
 workflow-type: tm+mt
-source-wordcount: '656'
+source-wordcount: '661'
 ht-degree: 0%
 
 ---
 
-# 將子任務新增至 [!UICONTROL Scrum] 展示板
+# 將子任務新增至[!UICONTROL Scrum]展示板上的現有劇本
 
-為現有動態建立子任務時，請記住以下事項：
+建立現有內文的子任務時，請牢記以下事項：
 
-**當 [!UICONTROL 完成模式] 專案的設定設為 [!UICONTROL 手動]:**
+**專案的[!UICONTROL 完成模式]設定設為[!UICONTROL 手動]：**&#x200B;時
 
-* 將含有子任務的父文章移動到 [!UICONTROL 完成] 將父項動態更新為100%，且 [!UICONTROL 狀態] to [!UICONTROL 完成]. 未更新子任務。
-* 若要更新 [!UICONTROL 完成百分比] 對於故事，您必須從 [!UICONTROL 故事] 標籤或 [!UICONTROL 詳細資料] 頁。
+* 將具有子任務的父本文移動到[!UICONTROL 完成]會將父本文更新為100%，並將[!UICONTROL 狀態]更新為[!UICONTROL 完成]。 子任務未更新。
+* 若要更新內文的[!UICONTROL 完成百分比]，您必須從[!UICONTROL 內文]索引標籤或物件的[!UICONTROL 詳細資料]頁面進行更新。
 
-**當 [!UICONTROL 完成模式] 專案的設定設為 [!UICONTROL 自動]**:
+**當專案的[!UICONTROL 完成模式]設定設為[!UICONTROL 自動]**&#x200B;時：
 
-* 將含有子任務的父文章移動到 [!UICONTROL 完成] 將父項動態更新為100%，且 [!UICONTROL 狀態] to [!UICONTROL 完成]. 子任務也會更新為100%，而 [!UICONTROL 狀態] 更新為 [!UICONTROL 完成].
-* 若要更新 [!UICONTROL 完成百分比] 為了講故事，您必須更新 [!UICONTROL 完成百分比] 的子任務。 此 [!UICONTROL 完成百分比] 根據 [!UICONTROL 完成百分比] 所有子任務。
+* 將具有子任務的父本文移動到[!UICONTROL 完成]會將父本文更新為100%，並將[!UICONTROL 狀態]更新為[!UICONTROL 完成]。 子任務也更新為100%，且[!UICONTROL 狀態]更新為[!UICONTROL 完成]。
+* 若要更新內文的[!UICONTROL 完成百分比]，您必須更新任何子任務的[!UICONTROL 完成百分比]。 內文的[!UICONTROL 完成百分比]是根據所有子工作的[!UICONTROL 完成百分比]計算的。
 
 ## 存取需求
 
-您必須具備下列存取權，才能執行本文中的步驟：
+您必須具有下列存取權才能執行本文中的步驟：
 
 <table style="table-layout:auto"> 
  <col> 
@@ -38,47 +38,47 @@ ht-degree: 0%
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] 計劃*</strong></td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] 計畫*</strong></td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] 授權*</strong></td> 
-   <td> <p>[!UICONTROL工作]或更高版本</p> </td> 
+   <td> <p>[！UICONTROL Work]或更高版本</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>訪問級別配置*</strong></td> 
-   <td> <p>[!UICONTROL Worker]或更高版本</p> <p>注意：如果您仍無法存取，請詢問您的 [!DNL Workfront] 管理員。 若要了解 [!DNL Workfront] 管理員可修改您的存取層級，請參閱 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>.</p> </td> 
+   <td role="rowheader"><strong>存取層級設定*</strong></td> 
+   <td> <p>[！UICONTROL Worker]或更高版本</p> <p>注意：如果您還是沒有存取權，請詢問您的[!DNL Workfront]管理員是否對您的存取層級設定了其他限制。 如需[!DNL Workfront]管理員如何修改存取層級的詳細資訊，請參閱<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>物件權限</strong></td> 
-   <td> <p>[!UICONTROL Contribute]或[!UICONTROL Manage]對子任務所在任務的訪問</p> <p>有關請求其他訪問的資訊，請參閱 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">請求對對象的訪問 </a>.</p> </td> 
+   <td role="rowheader"><strong>物件許可權</strong></td> 
+   <td> <p>[！UICONTROL Contribute]或[！UICONTROL Manage]子任務所在任務的存取權</p> <p>如需請求其他存取權的資訊，請參閱<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">請求物件</a>的存取權。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;若要了解您擁有的計畫、授權類型或存取權，請聯絡您的 [!DNL Workfront] 管理員。
+&#42;若要瞭解您擁有的計畫、授權型別或存取權，請連絡您的[!DNL Workfront]管理員。
 
-## 將子任務添加到Scrum板上的現有文章
+## 將子任務新增到Scrum展示板上的現有劇本
 
-1. 按一下 **[!UICONTROL 主菜單]** 圖示 ![](assets/main-menu-icon.png) 在 [!DNL Adobe Workfront]，然後按一下 **[!UICONTROL 團隊]**.
+1. 按一下[!DNL Adobe Workfront]右上角的&#x200B;**[!UICONTROL 主要功能表]**&#x200B;圖示![](assets/main-menu-icon.png)，然後按一下&#x200B;**[!UICONTROL 團隊]**。
 
-1. （選用）按一下 **[!UICONTROL 交換組]** 圖示 ![切換團隊表徵圖](assets/switch-team-icon.png)，然後從下拉式選單中選取新的Scrum團隊，或在搜尋列中搜尋團隊。
+1. （選擇性）按一下&#x200B;**[!UICONTROL 切換群組]**&#x200B;圖示![切換群組圖示](assets/switch-team-icon.png)，然後從下拉式功能表中選取新的Scrum群組或在搜尋列中搜尋群組。
 
-1. 轉到包含要添加子任務的文章的敏捷小版本或項目。 有關如何導航到小版本的資訊，請參閱 [查看小版本](../../../agile/use-scrum-in-an-agile-team/iterations/view-iteration.md).
-1. 前往動態展示板上要新增子任務的動態圖磚。
-1. 按一下 **[!UICONTROL 添加子任務]** 在主文章卡片上，建立文章的子任務。
+1. 前往包含您要新增子任務之劇本的敏捷疊代或專案。 如需有關如何導覽至反複專案的資訊，請參閱[檢視反複專案](../../../agile/use-scrum-in-an-agile-team/iterations/view-iteration.md)。
+1. 移至您想要新增子任務的劇本面板上的劇本拼貼。
+1. 按一下主劇本卡片上的&#x200B;**[!UICONTROL 新增子任務]**，以建立該劇本的子任務。
 
-   ![添加子任務](assets/agile-story-addsubtask-NWE.png)
+   ![新增子任務](assets/agile-story-addsubtask-NWE.png)
 
    或
 
-   按一下 **[!UICONTROL 添加子任務]** 在子任務表徵圖上建立子任務。
+   按一下子任務圖示上的&#x200B;**[!UICONTROL 新增子任務]**，以建立子任務至子任務。
 
-   [!DNL Workfront] 支援無限層級的子任務，但敏捷動態展示板上只會顯示兩個層級（子任務的子任務）。
+   [!DNL Workfront]支援無限層級的子任務，但敏捷故事板上只顯示兩個層級（子任務的子任務）。
 
-   ![添加子任務](assets/agile-story-addsubtask2-NWE.png)
+   ![新增子任務](assets/agile-story-addsubtask2-NWE.png)
 
-   將子任務新增至目前沒有游泳道的動態時，父任務會提升至 [!UICONTROL 父項動態] 欄和子任務在泳道內移動。
+   將子任務新增至目前沒有泳道的內文時，父任務會提升至[!UICONTROL 父級內文]欄，而子任務會移至泳道內。
 
 1. 指定下列資訊：
 
@@ -87,31 +87,31 @@ ht-degree: 0%
     <col>
     <tbody>
      <tr>
-      <td role="rowheader"><strong>[!UICONTROL子任務名稱]</strong></td>
-      <td> 指定子任務的名稱。</td>
+      <td role="rowheader"><strong>[！UICONTROL子任務名稱]</strong></td>
+      <td> 指定子工作的名稱。</td>
      </tr>
      <tr>
-      <td role="rowheader"><strong>[!UICONTROL描述]</strong></td>
-      <td>指定子任務的說明。</td>
+      <td role="rowheader"><strong>[！UICONTROL說明]</strong></td>
+      <td>指定子工作的說明。</td>
      </tr>
      <tr>
-      <td role="rowheader"><strong>[!UICONTROL估計]</strong></td>
-      <td>指定子任務的估計值。<br><p>建立估計時，請記住以下事項：</p>
+      <td role="rowheader"><strong>[！UICONTROL估計]</strong></td>
+      <td>指定子任務的預估值。<br><p>建立預估時，請記得下列事項：</p>
        <ul>
-        <li>如果您的敏捷團隊已設定為以點數估計動態，則預設為1點等於8小時。 在文章中將預估值新增為[!UICONTROL計畫小時數]。</li>
-        <li>所有子任務的合併估計確定父項動態的估計。 如需詳細資訊，請參閱 <a href="../../../agile/use-scrum-in-an-agile-team/scrum-board/update-status-of-stories-and-subtasks.md" class="MCXref xref">更新Scrum板上的動態和子任務的狀態</a>.</li>
-        <li>建立新子任務時，已設定[!UICONTROL估計]欄位。 如果重置子任務的估計值，則將重置父層層層層的估計值（因為父層層層是其所有子任務的總和）。</li>
+        <li>如果您的敏捷團隊設定為以點為單位估計劇本，則預設的1點等於8小時。 預估會新增為內文上的[！UICONTROL計畫時數]。</li>
+        <li>所有子工作的合併估計會決定父劇本的估計值。 如需詳細資訊，請參閱<a href="../../../agile/use-scrum-in-an-agile-team/scrum-board/update-status-of-stories-and-subtasks.md" class="MCXref xref">更新Scrum展示板上內文和子工作的狀態</a>。</li>
+        <li>建立新的子任務時，[！UICONTROL預估]欄位已設定。 如果您重設子任務上的預估，就會重設父內文上的預估（因為父內文是其所有子任務的總和）。</li>
        </ul><br></td>
      </tr>
      <tr>
-      <td role="rowheader"><strong>[!UICONTROL計畫小時數]</strong></td>
-      <td> （僅適用於項目）指定任務的計畫小時數。</td>
+      <td role="rowheader"><strong>[！UICONTROL計畫時數]</strong></td>
+      <td> （僅適用於專案）指定任務的計畫時數。</td>
      </tr>
      <tr>
-      <td role="rowheader"><strong>[!UICONTROL分配]</strong></td>
-      <td>開始鍵入要分配子任務的團隊的名稱，然後在下拉清單中顯示該子任務時按一下它。</td>
+      <td role="rowheader"><strong>[！UICONTROL指定任務]</strong></td>
+      <td>開始輸入您要指派子任務的專案團隊名稱，然後在它出現在下拉式清單中時按一下它。</td>
      </tr>
     </tbody>
    </table>
 
-1. 按一下 **[!UICONTROL 建立]**。
+1. 按一下「**[!UICONTROL 建立]**」。

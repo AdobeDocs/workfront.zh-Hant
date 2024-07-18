@@ -21,7 +21,7 @@ ht-degree: 3%
 
 您可以新增特殊或條件式格式至報表檢視，以自訂報表的詳細資訊標籤。
 
-如需建立報表的詳細資訊，請參閱文章 [建立自訂報表](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+如需有關建立報告的詳細資訊，請參閱文章[建立自訂報告](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md)。
 
 您可以視條件格式化報表檢視中的欄，以設定影響報表顯示方式的規則。 當滿足這些條件或規則時，將套用特殊格式。
 
@@ -62,16 +62,16 @@ ht-degree: 3%
   </tr> 
   <tr> 
    <td role="rowheader"><strong>存取層級設定*</strong></td> 
-   <td> <p>編輯對篩選器、檢視、群組的存取權</p> <p>編輯報告、儀表板、行事曆的存取權，以編輯報告中的檢視</p> <p><b>附註</b></p> <p>如果您沒有存取權，請洽詢Workfront管理員，瞭解他們是否在您的存取層級設定其他限制。 如需有關Workfront管理員如何修改您的存取層級的資訊，請參閱 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>.</p> </td> 
+   <td> <p>編輯對篩選器、檢視、群組的存取權</p> <p>編輯報告、儀表板、行事曆的存取權，以編輯報告中的檢視</p> <p><b>附註</b></p> <p>如果您沒有存取權，請洽詢Workfront管理員，瞭解他們是否在您的存取層級設定其他限制。 如需Workfront管理員如何修改存取層級的詳細資訊，請參閱<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>物件許可權</strong></td> 
-   <td> <p>管理報表的許可權，以建立或編輯報表中的檢視</p> <p>管理檢視的許可權</p> <p>如需請求其他存取許可權的詳細資訊，請參閱 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">要求物件的存取權 </a>.</p> </td> 
+   <td> <p>管理報表的許可權，以建立或編輯報表中的檢視</p> <p>管理檢視的許可權</p> <p>如需請求其他存取權的資訊，請參閱<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">請求物件</a>的存取權。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;若要瞭解您擁有的計畫、授權型別或存取權，請聯絡您的Workfront管理員。
+&#42;若要瞭解您擁有的計畫、授權型別或存取權，請連絡您的Workfront管理員。
 
 +++
 
@@ -79,7 +79,7 @@ ht-degree: 3%
 
 您必須先建立報表，才能在其檢視中新增條件式格式。
 
-如需建立報表的詳細資訊，請參閱 [建立報告](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-report.md).
+如需建立報告的詳細資訊，請參閱[建立報告](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-report.md)。
 
 ## 建立條件式格式檢視
 
@@ -89,13 +89,13 @@ ht-degree: 3%
 
    或
 
-   按一下 **新報告**，然後選取物件型別以建置新報表。
+   按一下「**新增報表**」，然後選取物件型別以建立新報表。
 
-1. （視條件而定）如果您編輯現有報表，請按一下 **報表動作**，然後按一下 **編輯**.
+1. （視條件而定）如果您編輯現有報表，請按一下&#x200B;**報表動作**，然後按一下&#x200B;**編輯**。
 
-1. 在 **欄（檢視）** 標籤，按一下以選取現有欄，或按一下 **新增欄** 以建立欄。
-1. 在 **顯示在此欄中** 欄位在report builder的左上角，選取您要在新欄中顯示的欄位。
-1. 按一下 **進階選項**.
+1. 在&#x200B;**欄（檢視）**&#x200B;索引標籤中，按一下以選取現有的欄，或按一下&#x200B;**新增欄**&#x200B;以建立欄。
+1. 在Report Builder左上角的&#x200B;**顯示在此欄**&#x200B;欄位中，選取您要在新欄中顯示的欄位。
+1. 按一下&#x200B;**進階選項**。
 
 1. 指定下列資訊：
 
@@ -126,10 +126,10 @@ ht-degree: 3%
    </note>
    -->
 
-1. 在 **當：** 區段，設定欄的條件陳述式。
+1. 在&#x200B;**當：**&#x200B;區段中，設定資料行的條件陳述式。
 
    例如：「當任務完成百分比等於（區分大小寫） 50」。
-1. 在 **顯示欄位如下：** 區段會指定當上述定義的條件符合時，此欄位會是什麼樣子。
+1. 在&#x200B;**顯示如下的欄位：**&#x200B;區段中，指定當上述定義的條件符合時，此欄位會是什麼樣子。
 
    指定下列資訊：
 
@@ -159,7 +159,7 @@ ht-degree: 3%
      </tr> 
      <tr> 
       <td role="rowheader"><strong>顯示文字</strong></td> 
-      <td> <p>選擇此選項以顯示此欄的自訂標籤，而不是其實際值。 指定要顯示的文字，而不是提供的欄位中的值。</p> <p><b>重要</b></p> <p>選取 <strong>顯示文字</strong> 停用此欄文字的內嵌編輯功能。<br>此外，您無法變更「前置任務」欄的值，因為它包含內建邏輯。</p> </td> 
+      <td> <p>選擇此選項以顯示此欄的自訂標籤，而不是其實際值。 指定要顯示的文字，而不是提供的欄位中的值。</p> <p><b>重要</b></p> <p>選取<strong>顯示文字</strong>會停用內嵌編輯此欄文字的功能。<br>此外，您無法變更「前置任務」欄的值，因為它包含內建邏輯。</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>套用到整行</strong></td> 
@@ -168,7 +168,7 @@ ht-degree: 3%
     </tbody> 
    </table>
 
-1. 按一下 **新增規則**.\
+1. 按一下&#x200B;**新增規則**。\
    您可以將其他規則新增至相同欄，或將規則新增至其他欄。
 
    規則會依照其建立順序套用。 它們會合併，但不會互相覆寫，不過相同儲存格上的欄規則會優先於列規則。
@@ -189,6 +189,6 @@ ht-degree: 3%
    * 再次為延遲專案的紅色背景新增欄規則。
    * 當您儲存規則和檢視時，紅色背景不會套用至已取消的專案。
 
-1. 按一下 **完成**.
+1. 按一下&#x200B;**完成**。
 1. 按一下「**儲存並關閉**」。\
    在報表中，如果符合指定的條件，使用者會看到格式變更。

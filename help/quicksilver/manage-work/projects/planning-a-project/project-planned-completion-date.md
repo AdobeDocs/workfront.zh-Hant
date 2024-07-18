@@ -11,7 +11,7 @@ exl-id: 996398c5-de92-445e-8e86-36b2efdcf6b5
 source-git-commit: 79822d258642675331e1998dd3552e3078db41f8
 workflow-type: tm+mt
 source-wordcount: '558'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 專案的計畫完成日期是專案設定為完成的日期。
 
-專案的計劃開始日期和計畫完成日期取決於專案上任務的日期。 本文說明如何手動或自動設定專案的規劃完成日期。 有關任務的規劃完成日期的詳細資訊，請參閱 [任務計畫完成日期概要](../../../manage-work/tasks/task-information/task-planned-completion-date.md).
+專案的計劃開始日期和計畫完成日期取決於專案上任務的日期。 本文說明如何手動或自動設定專案的規劃完成日期。 如需有關任務計畫完成日期的詳細資訊，請參閱[任務計畫完成日期的總覽](../../../manage-work/tasks/task-information/task-planned-completion-date.md)。
 
 您可以手動或自動設定專案的「計畫完成日期」，視您是從「開始」還是從「完成日期」排程專案而定。
 
@@ -74,20 +74,20 @@ ht-degree: 0%
    <td role="rowheader">存取層級設定*</td> 
    <td> <p>編輯專案的存取權</p> <p><b>附註</b>
 
-如果您仍然沒有存取權，請詢問您的Workfront管理員是否對您的存取層級設定了其他限制。 如需有關Workfront管理員如何修改您的存取層級的資訊，請參閱 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>.</p> </td>
+如果您還是沒有存取權，請詢問您的Workfront管理員，他們是否在您的存取層級中設定其他限制。 如需Workfront管理員如何修改存取層級的詳細資訊，請參閱<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>。</p> </td>
 </tr> 
   <tr> 
    <td role="rowheader">物件許可權</td> 
-   <td> <p>管理專案的許可權</p> <p>如需請求其他存取許可權的詳細資訊，請參閱 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">要求物件的存取權 </a>.</p> </td> 
+   <td> <p>管理專案的許可權</p> <p>如需請求其他存取權的資訊，請參閱<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">請求物件</a>的存取權。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;若要瞭解您擁有的計畫、授權型別或存取權，請聯絡您的Workfront管理員。
+&#42;若要瞭解您擁有的計畫、授權型別或存取權，請連絡您的Workfront管理員。
 
 ## 手動設定專案的計畫完成日期
 
-當您從「完成日期」排程專案時，必須手動設定專案的「計畫完成日期」。
+當您從完成日期開始排程專案時，必須手動設定專案的「計畫完成日期」。
 
 >[!NOTE]
 >
@@ -96,45 +96,45 @@ ht-degree: 0%
 
 若要從「完成日期」排程專案，請執行下列步驟：
 
-1. 按一下 **主要功能表** 圖示 ![](assets/main-menu-icon.png) 然後按一下 **專案**.
+1. 按一下右上角的&#x200B;**主要功能表**&#x200B;圖示![](assets/main-menu-icon.png)，然後按一下&#x200B;**專案**。
 
-1. 按一下 **新增專案** 則&#x200B;**新增專案**.
+1. 按一下&#x200B;**新增專案**，然後按&#x200B;**新增專案**。
 
-   如需建立專案的詳細資訊，請參閱文章 [建立專案](../../../manage-work/projects/create-projects/create-project.md).
+   如需有關建立專案的詳細資訊，請參閱文章[建立專案](../../../manage-work/projects/create-projects/create-project.md)。
 
-1. 選取 **專案詳細資訊** 在左側面板中，然後按一下 **編輯專案** 圖示填入。
+1. 在左側面板中選取「**專案詳細資料**」，然後按一下右上角的「**編輯專案**」圖示。
 
-1. 在 **排程模式** 欄位，選取 **完成日期**.
+1. 在&#x200B;**排程模式**&#x200B;欄位中，選取&#x200B;**完成日期**。
 
-1. 指定 **計畫完成日期** 專案的。
-1. 按一下 **儲存變更**.
+1. 指定專案的&#x200B;**計畫完成日期**。
+1. 按一下「**儲存變更**」。
 
-   當您開始新增任務至專案時， **計劃開始日期** 會根據所有任務的總持續時間來計算。 
+   當您開始新增任務至專案時，專案的&#x200B;**計劃開始日期**&#x200B;會根據所有任務的總持續時間計算。 
 
 ## 自動設定專案的計畫完成日期
 
-當您從開始日期排程專案時，Workfront會自動計算專案的「計畫完成日期」。 
+當您從開始日期排程專案時，Workfront會自動計算專案的計畫完成日期。 
 
 若要從「開始日期」排程專案，請執行下列步驟：
 
-1. 按一下 **主要功能表** 圖示 ![](assets/main-menu-icon.png) 然後按一下 **專案**.
+1. 按一下右上角的&#x200B;**主要功能表**&#x200B;圖示![](assets/main-menu-icon.png)，然後按一下&#x200B;**專案**。
 
-1. 按一下 **新增專案** 則&#x200B;**新增專案**.
+1. 按一下&#x200B;**新增專案**，然後按&#x200B;**新增專案**。
 
-   如需建立專案的詳細資訊，請參閱文章 [建立專案](../../../manage-work/projects/create-projects/create-project.md).
+   如需有關建立專案的詳細資訊，請參閱文章[建立專案](../../../manage-work/projects/create-projects/create-project.md)。
 
-1. 選取 **專案詳細資訊** 在左側面板中，然後按一下 **編輯專案** 圖示填入。
+1. 在左側面板中選取「**專案詳細資料**」，然後按一下右上角的「**編輯專案**」圖示。
 
-1. 在 **排程模式** 欄位，選取 **開始日期**.
+1. 在&#x200B;**排程模式**&#x200B;欄位中，選取&#x200B;**開始日期**。
 
-1. 指定 **計劃開始日期** 專案的。
-1. 按一下 **儲存變更**.
+1. 指定專案的&#x200B;**計劃開始日期**。
+1. 按一下「**儲存變更**」。
 
-   當您開始新增任務至專案時， **計畫完成日期** 會根據所有任務的總持續時間來計算。 
+   當您開始新增任務至專案時，專案的&#x200B;**計畫完成日期**&#x200B;會根據所有任務的總持續時間計算。 
 
-   如需任務持續時間的詳細資訊，請參閱文章 [任務工期與工期型別概要](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
+   如需有關工作持續時間的詳細資訊，請參閱文章[工作持續時間和持續期間型別概觀](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md)。
 
-   專案的計畫完成日期與此專案上最後一個任務的計畫完成日期一致（在此情況下）。
+   專案的計畫完成日期與專案上最後一個任務的計畫完成日期一致（在此案例中為）。
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

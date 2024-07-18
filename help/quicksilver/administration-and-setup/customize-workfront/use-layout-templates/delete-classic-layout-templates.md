@@ -3,20 +3,21 @@ title: 刪除傳統版面範本
 user-type: administrator
 product-area: system-administration;templates;user-management
 navigation-topic: layout-templates
-description: 傳統Workfront體驗中的版面配置範本在Workfront介面中不再提供，但仍可能影響Workfront資料。 這可能會導致報表或儀表板上受版面配置範本影響的欄位不一致（例如「共用對象」）。
+description: 傳統 Workfront 體驗中的版面範本在 Workfront 介面中不再可用，但仍可能影響 Workfront 資料。 這可能會導致報告或儀表板上受版面範本 (例如共用對象) 影響的欄位出現不一致。
 author: Becky
 feature: System Setup and Administration
 role: Admin
-source-git-commit: c68b63230b07ea8c8475b710e256b5e0f049b1eb
+exl-id: c6d33d5d-da93-4aba-8897-f177c1171595
+source-git-commit: abb021a6857f8016d4f8b6bcf99fe818e47faea6
 workflow-type: tm+mt
-source-wordcount: '280'
-ht-degree: 0%
+source-wordcount: '281'
+ht-degree: 58%
 
 ---
 
 # 授予配置範本的管理存取權
 
-傳統Workfront體驗中的版面配置範本在Workfront介面中不再提供，但仍可能影響Workfront資料。 這可能會導致報表或儀表板上受版面配置範本影響的欄位不一致（例如「共用對象」）。
+傳統 Workfront 體驗中的版面範本在 Workfront 介面中不再可用，但仍可能影響 Workfront 資料。 這可能會導致報告或儀表板上受版面範本 (例如共用對象) 影響的欄位出現不一致。
 
 您可以刪除傳統版面配置範本，以解決這些不一致問題。 由於無法在Workfront介面中使用，因此使用必須使用Workfront API來刪除這些專案。
 
@@ -49,24 +50,21 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->無法刪除全域和系統配置範本。
+>全域和系統版面範本無法刪除。
 
 1. 登入Workfront。
-1. 使用下列API呼叫，找出您要刪除的版面配置範本：
+1. 使用以下 API 呼叫找出要刪除的版面範本：
    `https://{yourDomain}.com/attask/api/v16.0/LYTMPL/search`
-1. 記下要刪除的版面配置範本識別碼。
-1. 使用下列API呼叫找出您的工作階段ID：
+1. 記下要刪除之版面範本的 ID。
+1. 使用以下 API 呼叫找出您的工作階段 ID：
    `https://{yourDomain}.com/attask/api/v16.0/session`
 
    >[!IMPORTANT]
    >
-   >切勿與任何人共用您的工作階段ID。
+   >切勿與任何人共用您的工作階段 ID。
 
-1. 將版面配置範本ID和工作階段ID插入以下API呼叫：
+1. 將版面範本 ID 和工作階段 ID 插入以下 API 呼叫中：
    `https://{yourDomain}.com/attask/api/v16.0/LYTMPL?ID={layoutTemplateID}&method=delete&sessionID={yourSessionID}`
-1. 將步驟4的API呼叫貼到瀏覽器的URL列中，然後按Enter鍵。
+1. 將步驟 4 中的 API 呼叫貼入瀏覽器的 URL 列，然後按 Enter 鍵。
 
-   這將刪除版面配置範本。
-
-
-
+   這將刪除版面範本。

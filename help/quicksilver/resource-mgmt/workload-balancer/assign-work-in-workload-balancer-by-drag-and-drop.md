@@ -19,7 +19,7 @@ ht-degree: 0%
 
 您可以透過拖放工作專案給正確的使用者，使用Adobe Workfront工作負載平衡器指派工作專案。
 
-如需有關使用工作負載平衡器指派工作給使用者的一般資訊，請參閱 [在工作負載平衡器中指派工作的總覽](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md).
+如需使用工作負載平衡器指派工作給使用者的一般資訊，請參閱在工作負載平衡器](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md)中指派工作的總覽。[
 
 ## 存取需求
 
@@ -49,16 +49,16 @@ ht-degree: 0%
      <li> <p>問題</p> </li> 
     </ul> <p><b>附註</b>
 
-如果您還是沒有存取權，請詢問您的Workfront管理員，他們是否在您的存取層級中設定其他限制。 如需有關Workfront管理員如何變更您的存取層級的資訊，請參閱 <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>.</p> </td>
+如果您還是沒有存取權，請詢問您的Workfront管理員，他們是否在您的存取層級中設定其他限制。 如需Workfront管理員如何變更存取層級的詳細資訊，請參閱<a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>。</p> </td>
 </tr> 
   <tr> 
    <td role="rowheader">物件許可權</td> 
-   <td> <p>包含進行指派的專案、任務和問題的貢獻許可權或更高</p> <p>如需請求其他存取許可權的詳細資訊，請參閱 <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">要求物件的存取權 </a>.</p> </td> 
+   <td> <p>Contribute許可權或以上至專案、任務和問題，包括進行指派</p> <p>如需請求其他存取權的資訊，請參閱<a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">請求物件</a>的存取權。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;若要瞭解您擁有的計畫、授權型別或存取權，請聯絡您的Workfront管理員。
+&#42;若要瞭解您擁有的計畫、授權型別或存取權，請連絡您的Workfront管理員。
 
 ## 透過拖放方式指派專案
 
@@ -66,15 +66,15 @@ ht-degree: 0%
 
 1. 前往您要指派工作的工作負載平衡器。
 
-   您可以使用資源區域、專案或團隊層級的工作負載平衡器將工作指派給使用者。 如需有關工作負載平衡器在Workfront中的位置的詳細資訊，請參閱 [找到工作負載平衡器](../../resource-mgmt/workload-balancer/locate-workload-balancer.md).
+   您可以使用資源區域、專案或團隊層級的工作負載平衡器將工作指派給使用者。 如需有關工作負載平衡器在Workfront中的位置的詳細資訊，請參閱[找到工作負載平衡器](../../resource-mgmt/workload-balancer/locate-workload-balancer.md)。
 
-1. （可選）前往 **未指派的工作** 區域並套用篩選器以檢視未指派給使用者的任務和問題
+1. （選擇性）移至&#x200B;**未指派的工作**&#x200B;區域並套用篩選器以檢視未指派給使用者的任務和問題
 
    或
 
-   前往 **已指派的工作** 區域並展開使用者名稱，以檢視指派給他們的工作專案（如果您想要重新指派其專案）。
+   移至&#x200B;**指派的工作**&#x200B;區域，並展開使用者的名稱以檢視指派給他們的工作專案（如果您要重新指派其專案）。
 
-1. （視條件而定）在專案的工作負載平衡器中，按一下 **顯示所有使用者** 圖示 ![](assets/show-all-users-icon-project-workload-balancer.png) 以顯示所有Workfront使用者。
+1. （視條件而定）在專案的工作負載平衡器中，按一下&#x200B;**顯示所有使用者**&#x200B;圖示![](assets/show-all-users-icon-project-workload-balancer.png)以顯示所有Workfront使用者。
 
    這會顯示您有權檢視的所有使用者。
 
@@ -90,7 +90,7 @@ ht-degree: 0%
 
 
 
-1. 按一下工作專案列（表示計畫或預計的時間表），然後將其拖曳到中的使用者名稱上 **已指派** 區域。
+1. 按一下表示計畫或預計時間表的工作專案列，並將其拖曳至&#x200B;**已指派**&#x200B;區域中的使用者名稱上。
 
    將滑鼠懸停在上方以將工作專案放置到的使用者會醒目提示。
 
@@ -109,14 +109,14 @@ ht-degree: 0%
    >* 如果您在設定區域中啟用了「依專案分組」 ，則指派的任務會顯示在對應的專案下。 如果停用此設定，則指派的任務會顯示在使用者區域中。
    >
    >
-   >     專案會根據工作負載平衡器條件顯示以排序工作專案。 如需詳細資訊，請參閱 [瀏覽工作負載平衡器](../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
+   >     專案會根據工作負載平衡器條件顯示以排序工作專案。 如需詳細資訊，請參閱[瀏覽工作負載平衡器](../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md)。
    >
    >
-   >* 如果您啟用了在工作負載平衡器顯示專案的所有使用者，並將專案指派給之前未指派給專案專案的使用者，則該使用者會新增到專案團隊。 如需詳細資訊，請參閱 [管理專案團隊](../../manage-work/projects/planning-a-project/manage-project-team.md).
+   >* 如果您啟用了在工作負載平衡器顯示專案的所有使用者，並將專案指派給之前未指派給專案專案的使用者，則該使用者會新增到專案團隊。 如需詳細資訊，請參閱[管理專案團隊](../../manage-work/projects/planning-a-project/manage-project-team.md)。
 
 
 1. （選擇性）按一下已指派工作區域中的使用者名稱下的工作專案列，然後將其拖放到未指派工作區域上以取消指派。 使用者會取消指派此專案，但該專案可能仍會指派給工作角色，若是如此，該專案會顯示在「未指派的工作」區域中。 如果專案被指派給其他使用者，該專案會保留在「已指派工作」區域中，位於仍被指派的使用者名稱下。
-1. （可選）按一下 **顯示配置圖示** ![](assets/show-allocations-icon-small.png)，然後按一下 **更多選單** ![](assets/qs-more-menu.png) > **編輯配置**.
+1. （選擇性）按一下&#x200B;**顯示配置圖示** ![](assets/show-allocations-icon-small.png)，然後按一下&#x200B;**更多功能表** ![](assets/qs-more-menu.png) > **編輯配置**。
 
    <!--
    (make sure these are still called this, and that the icon has not changed)
@@ -125,7 +125,7 @@ ht-degree: 0%
 
    按兩下每日或每週配置，以修改將使用者配置給工作專案的時間量。
 
-   如需在工作負載平衡器中修改使用者配置的相關資訊，請參閱文章中的「修改使用者配置」一節 [在工作負載平衡器中管理使用者配置](../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md).
+   如需有關在工作負載平衡器中修改使用者配置的資訊，請參閱在工作負載平衡器](../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md)中管理使用者配置一文[中的「修改使用者配置」一節。
 
-   如需有關使用工作負載平衡器從工作專案移除指派的資訊，請參閱 [在工作負載平衡器中取消指派工作](../../resource-mgmt/workload-balancer/unassign-work-in-workload-balancer.md).
+   如需有關使用工作負載平衡器從工作專案移除指派的資訊，請參閱在工作負載平衡器](../../resource-mgmt/workload-balancer/unassign-work-in-workload-balancer.md)中取消指派工作。[
 

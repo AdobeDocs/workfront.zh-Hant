@@ -438,7 +438,7 @@ AccessRule物件代表自訂存取層級中的規則集，可決定使用者如�
              </p>
           </li>
           <li>
-            <p><b>物件型別</b>：
+            <p><b>objTypes</b>：
             </p>
             <p>已新增下列可能值：
             <ul>
@@ -726,7 +726,7 @@ OpTask物件通常稱為「問題」。 問題指工作專案，通常表示發�
             </p>
             <ul>
               <li>
-                <p><b>ID</b>
+                <p><b>識別碼</b>
                 </p>
               </li>
              </ul>
@@ -743,7 +743,7 @@ OpTask物件通常稱為「問題」。 問題指工作專案，通常表示發�
             </p>
             <ul>
               <li>
-                <p><b>ID</b>
+                <p><b>識別碼</b>
                 </p>
               </li>
              </ul>
@@ -996,7 +996,7 @@ TemplateTask物件代表屬於Template一部分的Task。 範本任務會成為�
             </p>
             <ul>
               <li>
-                <p><b>ID</b>
+                <p><b>識別碼</b>
                 </p>
               </li>
              </ul>
@@ -1013,7 +1013,7 @@ TemplateTask物件代表屬於Template一部分的Task。 範本任務會成為�
             </p>
             <ul>
               <li>
-                <p><b>ID</b>
+                <p><b>識別碼</b>
                 </p>
               </li>
              </ul>

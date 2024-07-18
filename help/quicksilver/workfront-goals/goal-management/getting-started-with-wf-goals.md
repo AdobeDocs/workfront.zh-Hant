@@ -22,7 +22,7 @@ ht-degree: 1%
 
      或
 
-     適用於Prime或選取Adobe Workfront計畫的Adobe Workfront目標的其他授權。 如需詳細資訊，請參閱 [Adobe Workfront計畫](https://www.workfront.com/plans).
+     適用於Prime或選取Adobe Workfront計畫的Adobe Workfront目標的其他授權。 如需詳細資訊，請參閱[Adobe Workfront計畫](https://www.workfront.com/plans)。
 
 * 對於目前的計畫與授權結構：
 
@@ -32,7 +32,7 @@ ht-degree: 1%
 
 請連絡您的Workfront客戶經理，以瞭解Workfront Goals授權。
 
-如需存取Workfront目標的其他資訊，請參閱 [使用Workfront目標的需求](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).
+如需存取Workfront目標的詳細資訊，請參閱[使用Workfront目標的需求](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md)。
 
 每個組織都需要設定並傳達明確的目標，讓團隊保持生產力、專注和參與。 真正瞭解工作如何與策略保持一致是成功的關鍵。 然而，如果沒有將您的策略和目標與組織內的工作聯絡起來的記錄系統，要達成一致可能真的很困難。
 
@@ -40,7 +40,7 @@ Workfront目標可協助您透過將策略與工作執行和交付連線起來�
 
 Workfront目標是核心Workfront工作管理平台的附加模組。 它旨在與Workfront平台搭配使用，並運用許多平台設定和設定實體，例如使用者、團隊、群組和專案。
 
-如需Workfront目標的相關資訊，請參閱 [Adobe Workfront目標總覽](../../workfront-goals/goal-management/wf-goals-overview.md).
+如需Workfront目標的相關資訊，請參閱[Adobe Workfront目標總覽](../../workfront-goals/goal-management/wf-goals-overview.md)。
 
 ## 為您的組織建立願景和策略
 
@@ -48,7 +48,7 @@ Workfront目標是核心Workfront工作管理平台的附加模組。 它旨在�
 
 我們已找出下列步驟，用於定義貴組織的願景和策略：
 
-* [定義並表達最終目標](#define-and-express-the-end-goal)
+* [定義並表達結束目標](#define-and-express-the-end-goal)
 * [圍繞企業和組織目標共同作業](#collaborate-around-enterprise-and-organizational-goals)
 * [讓群組和團隊與策略一致](#align-groups-and-teams-to-strategy)
 
@@ -118,7 +118,7 @@ Workfront目標是核心Workfront工作管理平台的附加模組。 它旨在�
   如需有關啟動、新增活動和更新目標的資訊，請參閱下列文章：
 
    * [在Adobe Workfront目標中啟用目標](../../workfront-goals/goal-management/activate-goals.md)
-   * [將活動新增至Adobe Workfront目標中的目標](../../workfront-goals/results-and-activities/add-activities-to-goals.md)
+   * [在Adobe Workfront目標中新增活動](../../workfront-goals/results-and-activities/add-activities-to-goals.md)
    * [在Adobe Workfront目標中更新目標進度](../../workfront-goals/goal-review-and-workfront-goals-sections/check-in-goals.md)
 
 ## 設定Workfront目標的准則
@@ -134,11 +134,11 @@ Workfront目標是核心Workfront工作管理平台的附加模組。 它旨在�
 >
 >在識別主要擁有者時，請考量您為企業結果設定策略目標，而非個人發展目標。
 
-如需設定Workfront目標存取權的相關資訊，請參閱 [使用Workfront目標的需求](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+如需設定Workfront目標存取權的相關資訊，請參閱[使用Workfront目標的需求](../../workfront-goals/goal-management/access-needed-for-wf-goals.md)。
 
 ## Workfront目標物件
 
-下表說明Workfront目標物件。 您可以修改版面配置範本並將其指派給使用者、專案團隊或群組，以自訂其名稱。 如需有關使用版面範本自訂物件名稱的資訊，請參閱 [使用版面配置範本自訂使用者介面術語](../../administration-and-setup/customize-workfront/use-layout-templates/customize-terminology.md).
+下表說明Workfront目標物件。 您可以修改版面配置範本並將其指派給使用者、專案團隊或群組，以自訂其名稱。 如需有關使用版面配置範本自訂物件名稱的資訊，請參閱[使用版面配置範本自訂使用者介面術語](../../administration-and-setup/customize-workfront/use-layout-templates/customize-terminology.md)。
 
 Workfront目標使用下列主要物件：
 

@@ -2,118 +2,118 @@
 product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: branding-workfront-proof
-title: 品牌 [!DNL Workfront] 校樣網站 — 進階
-description: Select和Premium計畫提供高級品牌，並包含在計畫成本中。
+title: 品牌化 [!DNL Workfront] 校訂網站 — 進階
+description: 進階品牌適用於Select與Premium計畫，並包含在計畫的成本中。
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: fd9e01ae-71c5-45fe-a874-4ee359fbe057
 source-git-commit: a6cd3fe793c197308105da27369191d84cb59377
 workflow-type: tm+mt
-source-wordcount: '784'
+source-wordcount: '773'
 ht-degree: 1%
 
 ---
 
-# 品牌 [!DNL Workfront Proof] 網站 — 進階
+# 品牌化[!DNL Workfront Proof]網站 — 進階
 
 >[!IMPORTANT]
 >
->本文說明獨立產品中的功能 [!DNL Workfront Proof]. 有關內部校對的資訊 [!DNL Adobe Workfront]，請參閱 [校對](../../../review-and-approve-work/proofing/proofing.md).
+>本文提及獨立產品[!DNL Workfront Proof]中的功能。 有關[!DNL Adobe Workfront]內部校訂的資訊，請參閱[校訂](../../../review-and-approve-work/proofing/proofing.md)。
 
-Select和Premium計畫提供高級品牌，並包含在計畫成本中。
+進階品牌適用於Select與Premium計畫，並包含在計畫的成本中。
 
-如需基本品牌推廣的相關資訊，包括登入頁面、電子郵件通知和校樣，請參閱 [品牌 [!DNL Workfront Proof] 網站](../../../workfront-proof/wp-acct-admin/branding/brand-wp-site.md).
+如需基本品牌化的相關資訊，包括登入頁面、電子郵件通知和校樣，請參閱[品牌化 [!DNL Workfront Proof] 網站](../../../workfront-proof/wp-acct-admin/branding/brand-wp-site.md)。
 
-進階品牌選項包括自訂下列區域：
+進階品牌選項包含下列區域的自訂：
 
-* 標題和文本顏色
-* Web應用程式標題
-* 菜單欄和文本顏色
+* 頁首與文字色彩
+* 網頁應用程式頁首
+* 選單列和文字色彩
 * 控制面板歡迎方塊和快速入門方塊
 * 頁尾文字
-* 法維翁
+* 法維孔
 * 頁面標題
 * 說明連結
 
-以下幾節將更詳細地說明進階品牌推廣：
+以下小節更詳細地說明進階品牌：
 
 ## 進階品牌概觀
 
-你會找到 [!UICONTROL 品牌化設定] 區段 [帳戶設定](https://support.workfront.com/hc/en-us/sections/115000912147-Account-Settings) 頁面。 若要將變更套用至您的帳戶，請確定「品牌」選項已設為 [!UICONTROL 已啟用] (1)。
+您會在[帳戶設定](https://support.workfront.com/hc/en-us/sections/115000912147-Account-Settings)頁面的標籤中找到[!UICONTROL 品牌組態]區段。 若要套用變更至您的帳戶，請確定品牌選項設定為[!UICONTROL 已啟用] (1)。
 ![Advanced_Branding.png](assets/advanced-branding-350x618.png)
 
-請參閱下節，以取得如何設定進階品牌選項(2-14)的詳細資訊。
+請參閱下節以取得如何設定「進階品牌選項」(2-14)的詳細資訊。
 
 ## 進階品牌設定
 
-您可以為下列區域加上品牌 [!DNL Workfront Proof]:
+您可以為[!DNL Workfront Proof]的下列區域建立品牌：
 
 * [網頁應用程式](#web-application)
 * [標題](#header)
-* [標題連結](#header-links)
+* [頁首連結](#header-links)
 * [側欄](#sidebar)
-* [歡迎框](#welcome-box)
+* [歡迎方塊](#welcome-box)
 * [區段標題](#section-headers)
 
 ### 網頁應用程式 {#web-application}
 
 ![Web_branding_image.png](assets/web-branding-image-350x181.png)
 
-Web應用程式標題(2)有三種品牌選項可供選擇：
+您可以在網頁應用程式標題(2)中選擇三個品牌選項：
 
-* 標題中的品牌影像
-* 標題中的帳戶名稱
-* 如果您停用品牌推廣 [!DNL Workfront Proof] 標誌將保留在網頁應用程式的標題中
+* 頁首中的品牌化影像
+* 您在標題中的帳戶名稱
+* 如果您停用品牌化，[!DNL Workfront Proof]標誌將保留在網頁應用程式的標頭中
 
-品牌影像 — 大小上限為550x90px。 您可以使用JPG、GIF或PNG，且支援透明背景。
+品牌影象 — 調整為最大尺寸550x90px。 您可以使用JPG、GIF或PNG，而且支援透明背景。
 
-帳戶名稱 — 取自您的帳戶詳細資訊，並以白字型顯示。 您的帳戶名稱最多可包含60個字元（包括空格和標點符號）。
+帳戶名稱 — 取自您的帳戶詳細資料，並以白字型顯示。 您的帳戶名稱最多可包含60個字元（包括空格和標點符號）。
 
 ### 標題 {#header}
 
-在此欄位(3)中，您可以設定標題的背景，也可以選擇實色或背景影像。
+在此欄位(3)中，您可以設定標頭的背景，也可以選擇純色或背景影像。
 
-顏色 — 在此，與色彩配置配置的所有其他品牌欄位一樣，您可以輸入所選的十六進位色彩值，或使用方便的檢色器（按一下文字欄位會開啟快顯視窗）。 預設的標題背景顏色為#232d2e。
+顏色 — 在這裡，如同在色彩配置設定的所有其他商標欄位中一樣，您可以輸入您所選擇的十六進位顏色值，或使用方便的檢色器（按一下文字欄位會開啟快顯視窗）。 預設的頁首背景顏色為#232d2e。
 
-![Branding_-_color_picker.png](assets/branding---color-picker-350x131.png)
+![品牌_-_color_picker.png](assets/branding---color-picker-350x131.png)
 
-背景影像 — 可與品牌影像結合。
+背景影像 — 可與品牌化影像結合。
 
-* 您可以使用JPG、GIF或PNG — 以白色背景顏色顯示具有透明度的檔案。
-* 標題的高度為96px，上傳的影像不會針對 [!UICONTROL 不重複] 選項。
-* 背景影像位於左上角。
+* 您可以使用JPG、GIF或PNG — 對於具有透明度的檔案，以白色背景顏色顯示。
+* 頁首的高度是96px，而且不會為[!UICONTROL 不重複]選項調整已上傳影像的大小。
+* 背景影像位於左上方。
 
-### 標題連結 {#header-links}
+### 頁首連結 {#header-links}
 
-在此欄位(4)中，您可以在帳戶右上角可見的「標題」功能表中修改連結的使用者名稱顏色和顏色。
+在此欄位(4)中，您可以在帳戶右上角顯示的「標題」選單中，修改連結的使用者名稱色彩和色彩。
 ![Header_links.png](assets/header-links-350x140.png)
 
 ### 側欄 {#sidebar}
 
-選擇菜單欄(5)和菜單字型(6)的顏色以自定義側欄
+選擇選單列(5)和選單字型(6)的顏色來自訂您的側欄
 
 ![Menu_bar.png](assets/menu-bar-350x490.png)
 
 >[!NOTE]
 >
->將恆定的十六進位值新增至您選取的功能表列顏色，以自動調整暫留顏色。
+>游標停留顏色會透過將恆定的十六進位值新增至您選取的「選單」列顏色來自動調整。
 
-無法自訂「新校樣」按鈕顏色。
+無法自訂新校樣按鈕顏色。
 
-### 歡迎框 {#welcome-box}
+### 歡迎方塊 {#welcome-box}
 
-在此欄位(7)中，您可以設定「控制面板」頁面上顯示的歡迎方塊顏色。
+在此欄位(7)中，您可以設定顯示在「控制面板」頁面上的「歡迎」方塊顏色。
 ![Welcome_box.png](assets/welcome-box-350x110.png)
 
 ### 區段標題 {#section-headers}
 
-這些欄位可讓您自訂區段標題的背景(8)和字型顏色(9)，位於 [[!UICONTROL 帳戶設定]](https://support.workfront.com/hc/en-us/sections/115000912147-Account-Settings) 頁面。
+這些欄位可讓您自訂[[!UICONTROL 帳戶設定]](https://support.workfront.com/hc/en-us/sections/115000912147-Account-Settings)頁面上區段標題的背景(8)和字型顏色(9)。
 ![Section_headers.png](assets/section-headers-350x138.png)
 
 **頁尾**
 
-在此「品牌設定」欄位(10)中，您可以撰寫頁尾，該頁尾會顯示在所有帳戶頁面的底部。 您可以使用內建的WYSIWYG編輯器，或直接貼上您自己的設計。
-![Footer.png](assets/footer-350x157.png)
+在品牌設定的此欄位(10)中，您可以撰寫將顯示在所有帳戶頁面底部的頁尾。 您可以使用內建的WYSIWYG編輯器，或直接貼上您自己的設計。
+![頁尾.png](assets/footer-350x157.png)
 
 >[!NOTE]
 >
@@ -121,29 +121,29 @@ Web應用程式標題(2)有三種品牌選項可供選擇：
 
 **Favicon和頁面標題**
 
-您可以自訂 [!DNL Workfront Proof] 頁面會透過設定您自己的favicon影像（.ICO檔案）(11)和頁面標題(12)來在瀏覽器中呈現 — 這些會顯示在瀏覽器的標籤/視窗標題中，供所有帳戶頁面使用。
+您可以設定您自己的Favicon影像（.ICO檔案） (11)和頁面標題(12)，自訂[!DNL Workfront Proof]頁面在瀏覽器中的顯示方式 — 這些將會顯示在所有帳戶頁面的瀏覽器索引標籤/視窗標題中。
 ![Favico_and_Page_title.png](assets/favico-and-page-title-350x95.png)
 
 >[!NOTE]
 >
->您的Favicon也會顯示在 [!DNL Workfront Proof] 檢視器視窗，檢視您帳戶上建立的所有校樣。
+>您的Favicon也會顯示在帳戶上建立的所有校訂的[!DNL Workfront Proof]檢視器視窗的標頭中。
 
 **說明連結**
 
-您可以自訂自己的說明連結，將使用者和審核者引導至您自己的內容。 若要啟用此設定，請 [!UICONTROL 說明連結] 選項(13)啟用，並在下一個欄位(14)中新增您的連結。 您最多可以設定四個連結，且可供使用：
+您可以自訂自己的說明連結，將您的使用者和檢閱者指向您自己的內容。 若要啟用此功能，請將[!UICONTROL 說明連結]選項(13)設定為「已啟用」，並在下一個欄位(14)中新增您的連結。 您最多可以設定四個連結，且這些連結將可供使用：
 
-* 在 [!UICONTROL 標題] 菜單 [!UICONTROL 說明] 連結
-   ![Help_links1.png](assets/help-links1-350x170.png)
+* 在[!UICONTROL 說明]連結下的[!UICONTROL 標題]功能表中
+  ![Help_links1.png](assets/help-links1-350x170.png)
 
-* 在 [!UICONTROL 說明] 面板 [!DNL Workfront Proof] [!UICONTROL 檢視器] 邊欄
-   ![Help_links2.png](assets/help-links2-350x532.png)
+* 在[!DNL Workfront Proof] [!UICONTROL 檢視器]側邊欄的[!UICONTROL 說明]面板中
+  ![Help_links2.png](assets/help-links2-350x532.png)
 
-企業計畫的客戶也可以選擇完全自訂以下項目，但需額外付費：
+若需額外付費，企業計畫客戶也可以選擇完全自訂下列專案：
 
-* 完全自訂登錄頁面（例如登入和登出頁面、忘記密碼頁面）
+* 完全自訂您的登入頁面（例如登入和登出頁面、忘記密碼頁面）
 * 完全自訂您的網域
 
-請透過sales.team@workfront.com與我們聯絡，以進一步了解其他品牌選項。
+請透過sales.team@workfront.com聯絡我們，以進一步瞭解其他品牌選項。
 
 <!--
 <h2 data-mc-conditions="QuicksilverOrClassic.Draft mode">Custom Domains</h2>

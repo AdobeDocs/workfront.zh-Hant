@@ -17,7 +17,7 @@ ht-degree: 0%
 
 本頁說明在22.2版發行時間範圍內對Adobe Workfront應用程式的各個區域外觀和感覺所做的小幅更新。 這些增強功能將在發佈到「預覽」後至少2週內可在「生產」環境中使用。
 
-如需22.2版所有可用變更的清單，請參閱 [22.2版本總覽](../../../product-announcements/product-releases/22.2-release-activity/22-2-release-overview.md).
+如需22.2版本可用的所有變更清單，請參閱[22.2版本概觀](../../../product-announcements/product-releases/22.2-release-activity/22-2-release-overview.md)。
 
 ## 已更新核准頁面
 
@@ -35,7 +35,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
-預覽版本： 2022年2月24日；預估生產版本：自3月9日起分階段推出，所有客戶在2022年3月18日前皆可使用。
+>預覽版本： 2022年2月24日；預估生產版本：自3月9日起分階段推出，所有客戶在2022年3月18日前皆可使用。
 
 我們已改善Workfront中檔案區域的效能。 現在，檔案頁面的載入速度明顯加快。
 
@@ -55,7 +55,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
-控制面板中這些相同報告的工具列也在生產環境中每週更新 [維護更新](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) 2022年3月3日。
+>儀表板中這些相同報告的工具列也隨著每週[維護更新](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html)在2022年3月3日更新。
 
 * 專案報告
 * 任務報告

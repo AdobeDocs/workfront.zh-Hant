@@ -9,7 +9,7 @@ role: Developer
 exl-id: 2971749d-1d34-42a4-9eda-411aa8c3a2ab
 source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
-source-wordcount: '435'
+source-wordcount: '437'
 ht-degree: 0%
 
 ---
@@ -26,15 +26,15 @@ ht-degree: 0%
 
 新版本的API會定期發佈，通常每年發佈兩次。 每個版本在發行日期後三年內都受到支援，但在有版本提供但不支援的已棄用狀態下，還會額外支援一年。
 
-如需Workfront API發行步調和淘汰排程的詳細資訊，請參閱 [API版本設定和支援排程](../../wf-api/api/api-version-support-schedule.md).
+如需Workfront API發行順序和淘汰排程的詳細資訊，請參閱[API版本設定和支援排程](../../wf-api/api/api-version-support-schedule.md)。
 
 >[!IMPORTANT]
 >
->* API的預設版本設定為最新版本。 任何未指定版本的API呼叫都將使用預設版本。 每當Workfront發行新版API時，預設版本都會更新至最新版本。 **因此，在發行新版本的Workfront API後，應檢查使用預設版本的任何API呼叫，以確定仍支援該功能。**
+>* API的預設版本設定為最新版本。 任何未指定版本的API呼叫都將使用預設版本。 每當Workfront發行新版API時，預設版本都會更新至最新版本。 **因此，在發行新版本的Workfront API之後，應該檢查使用預設版本的任何API呼叫，以確定仍然支援該功能。**
 >
 >* 如果您的組織目前正在使用預設API，您的Workfront管理員已收到Announcement Center訊息，提供有關預設API的更多說明。
 >
->若要檢視最新版的API，請參閱 [API版本設定和支援排程](../../wf-api/api/api-version-support-schedule.md).
+>若要檢視API的最新版本，請參閱[API版本設定與支援排程](../../wf-api/api/api-version-support-schedule.md)。
 
 
 ## 判斷您使用的API版本

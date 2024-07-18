@@ -9,8 +9,8 @@ role: Developer
 exl-id: 08e90754-5505-424c-ae67-015cc987b5df
 source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
-source-wordcount: '1351'
-ht-degree: 4%
+source-wordcount: '1353'
+ht-degree: 1%
 
 ---
 
@@ -114,7 +114,7 @@ ExternalDocument物件是位於Workfront外部的檔案儲存提供者中的檔�
       </td>
     </tr>
     <tr>
-      <td role="rowheader">作業</td>
+      <td role="rowheader">營運</td>
       <td>
         <ul>
           <li><p><b>SEARCH</b></p></li>
@@ -205,13 +205,13 @@ An AccessRule object represents a rule set in custom access levels that determin
 
 基準線是專案在指定時間的效能快照。 這類檔案會儲存專案的關鍵資訊，例如關鍵日期、進度、成本和收入值。
 
-Baseline物件已移除標幟 **INLINE_EDITABLE**.
+基準線物件已移除旗標&#x200B;**INLINE_EDITABLE**。
 
 ### 記帳記錄(BILL)
 
 BillingRecord物件會記錄可記帳的收入、時數或費用。 此資訊可用於在外部會計系統中建立商業發票。
 
-BillingRecord物件已移除標幟 **INLINE_EDITABLE**.
+BillingRecord物件已移除旗標&#x200B;**INLINE_EDITABLE**。
 
 <!--
 
@@ -234,7 +234,7 @@ Company物件代表由人員集合組成的組織。
       <td>
         <ul>
           <li>
-            <p><b>預設介面</b>
+            <p><b>defaultInterface</b>
             </p>
             <p>已移除</p>
           </li>
@@ -285,7 +285,7 @@ DocumentVersion物件代表檔案的特定版本（例如書面材料、影像�
             <p>已新增可能的值「Frame.io」(FRAMEIO)</p>
           </li>
           <li>
-            <p><b>檔案型別</b>
+            <p><b>fileType</b>
             </p>
             <p>新增可能的值「enum.filetype.site」(site)</p>
           </li>
@@ -317,7 +317,7 @@ ExchangeRate物件代表Workfront中設定的貨幣匯率。 ExchangeRate物件�
       <td>
         <ul>
           <li><p><b>getCustomerCurrencies</b></p></li>
-          <p>已新增.</p>
+          <p>已新增。</p>
        </ul>
       </td>
     </tr>
@@ -328,7 +328,7 @@ ExchangeRate物件代表Workfront中設定的貨幣匯率。 ExchangeRate物件�
 
 費用代表專案期限內可能產生的非人力成本。
 
-Expense物件已移除標幟 **INLINE_EDITABLE**.
+Expense物件已移除旗標&#x200B;**INLINE_EDITABLE**。
 
 ### 群組（群組）
 
@@ -343,7 +343,7 @@ Expense物件已移除標幟 **INLINE_EDITABLE**.
       <td>
         <ul>
           <li>
-            <p><b>預設介面</b>
+            <p><b>defaultInterface</b>
             </p>
             <p>已移除</p>
           </li>
@@ -357,13 +357,13 @@ Expense物件已移除標幟 **INLINE_EDITABLE**.
 
 Hour物件代表使用者在時程表上記錄的一小時。
 
-Hour物件已移除標幟 **INLINE_EDITABLE**.
+Hour物件已移除旗標&#x200B;**INLINE_EDITABLE**。
 
 ### 反複專案(ITRN)
 
 反複專案物件代表單一敏捷反複專案。 反複專案是用來規劃和完成敏捷內文的離散時段。
 
-反複專案物件已移除標幟 **INLINE_EDITABLE**.
+反複專案物件已移除旗標&#x200B;**INLINE_EDITABLE**。
 
 
 ### 日誌專案(JRNLE)
@@ -395,7 +395,7 @@ JournalEntry物件可設定為每次修改特定物件欄位時，記錄這些�
               <li>檢閱者已變更(ARC)</li>
               <li>檢閱完成(RDC)</li>
               <li>檢閱已撤銷(RDR)</li>
-              <li>發佈(PUB)</li>
+              <li>Publish (PUB)</li>
             </ul>
           </li>
         </ul>
@@ -408,7 +408,7 @@ JournalEntry物件可設定為每次修改特定物件欄位時，記錄這些�
 
 Kanban展示板用於追蹤敏捷環境中的任務。
 
-Kanban展示板物件已移除標幟 **INLINE_EDITABLE**.
+Kanban Board物件已移除旗標&#x200B;**INLINE_EDITABLE**。
 
 
 ### LinkedFolder (LNKFDR)
@@ -438,13 +438,13 @@ LinkedFolder物件代表連結自外部檔案提供者(例如Google Drive或Drop
 
 OpTask物件通常稱為「問題」。 問題指工作專案，通常表示發生問題而無法完成任務或專案。 問題也可以是服務檯請求。 變更單、請求和錯誤也是問題。
 
-問題物件已移除標幟 **INLINE_EDITABLE**.
+問題物件已移除旗標&#x200B;**INLINE_EDITABLE**。
 
 ### 專案（專案）
 
 專案是Workfront內的工作專案，也是Workfront協助人們完成工作的主要建置組塊。 Project物件代表具有共同特定目標的一組任務。
 
-Project物件已移除標幟 **INLINE_EDITABLE**.
+專案物件已移除旗標&#x200B;**INLINE_EDITABLE**。
 
 ### 專案使用者(PRTU)
 
@@ -459,9 +459,9 @@ ProjectUser物件代表與特定專案相關聯的使用者。
       <td>
         <ul>
           <li>
-            <p><b>ID</b>
+            <p><b>識別碼</b>
             </p>
-            <p>已新增.</p>
+            <p>已新增。</p>
           </li>
         </ul>
       </td>
@@ -471,9 +471,9 @@ ProjectUser物件代表與特定專案相關聯的使用者。
       <td>
         <ul>
           <li>
-            <p><b>ID</b>
+            <p><b>識別碼</b>
             </p>
-            <p>已新增.</p>
+            <p>已新增。</p>
           </li>
         </ul>
       </td>
@@ -493,7 +493,7 @@ A QueueDef object represents a Queue, which is a project that has been published
 
 Rate物件代表Workfront中的計費費率。
 
-Rate物件已移除旗標 **INLINE_EDITABLE**.
+Rate物件已移除旗標&#x200B;**INLINE_EDITABLE**。
 
 <table>
   <col/>
@@ -508,7 +508,7 @@ Rate物件已移除旗標 **INLINE_EDITABLE**.
           <li><p><b>getUsedClassifierIds</b></p></li>
           <li><p><b>setRatesFromRateCard</b></p></li>
         </ul>
-        <p>此 <b>setRatesForRole</b> 動作已修改為新增下列欄位：
+        <p>已修改<b>setRatesForRole</b>動作以新增下列欄位：
         <ul>
         <li>分類器ID</li>
         <li>currencyCode</li>
@@ -523,11 +523,11 @@ Rate物件已移除旗標 **INLINE_EDITABLE**.
 
 風險物件代表可能阻止專案按時完成或在預算內完成的事件。 在計畫階段中會為專案新增風險，以在核准任何工作之前識別潛在障礙。
 
-Risk物件已移除標幟 **INLINE_EDITABLE**.
+風險物件已移除旗標&#x200B;**INLINE_EDITABLE**。
 
 ### 角色/工作角色(ROLE)
 
-角色物件（工作角色）代表使用者可能填入的功能容量或技能集，例如設計師或產品經理。
+角色物件（工作角色）代表使用者可能填入的功能容量或技能集，例如Designer或產品經理。
 
 <table>
   <col/>
@@ -538,7 +538,7 @@ Risk物件已移除標幟 **INLINE_EDITABLE**.
       <td>
         <ul>
           <li>
-            <p><b>預設介面</b>
+            <p><b>defaultInterface</b>
             </p>
             <p>已移除</p>
           </li>
@@ -552,7 +552,7 @@ Risk物件已移除標幟 **INLINE_EDITABLE**.
 
 Task物件代表作為達成最終目標（完成專案）的步驟而必須執行的工作專案。
 
-Task物件已移除旗標 **INLINE_EDITABLE**.
+Task物件已移除旗標&#x200B;**INLINE_EDITABLE**。
 
 ### 團隊(TEAMOB)
 
@@ -567,7 +567,7 @@ Team物件是可指派至工作專案的「使用者」集合。
       <td>
         <ul>
           <li>
-            <p><b>預設介面</b>
+            <p><b>defaultInterface</b>
             </p>
             <p>已移除</p>
           </li>
@@ -590,9 +590,9 @@ TeamMember物件是與特定專案團隊相關聯的使用者。
       <td>
         <ul>
           <li>
-            <p><b>ID</b>
+            <p><b>識別碼</b>
             </p>
-            <p>已新增.</p>
+            <p>已新增。</p>
           </li>
         </ul>
       </td>
@@ -602,9 +602,9 @@ TeamMember物件是與特定專案團隊相關聯的使用者。
       <td>
         <ul>
           <li>
-            <p><b>ID</b>
+            <p><b>識別碼</b>
             </p>
-            <p>已新增.</p>
+            <p>已新增。</p>
           </li>
         </ul>
       </td>
@@ -623,9 +623,9 @@ TeamMember物件是與特定專案團隊相關聯的使用者。
       <td>
         <ul>
           <li>
-            <p><b>ID</b>
+            <p><b>識別碼</b>
             </p>
-            <p>已新增.</p>
+            <p>已新增。</p>
           </li>
         </ul>
       </td>
@@ -635,9 +635,9 @@ TeamMember物件是與特定專案團隊相關聯的使用者。
       <td>
         <ul>
           <li>
-            <p><b>ID</b>
+            <p><b>識別碼</b>
             </p>
-            <p>已新增.</p>
+            <p>已新增。</p>
           </li>
         </ul>
       </td>
@@ -712,7 +712,7 @@ Workfront中的工作專案可以更新，以隨時通知使用者目前的狀�
 
 使用者物件代表擁有Workfront帳戶的人員，該帳戶可以登入並與系統互動。
 
-User物件已移除標幟 **INLINE_EDITABLE**.
+使用者物件已移除旗標&#x200B;**INLINE_EDITABLE**。
 
 <table>
   <col/>
@@ -723,7 +723,7 @@ User物件已移除標幟 **INLINE_EDITABLE**.
       <td>
         <ul>
           <li>
-            <p><b>workTime</b>
+            <p><b>工作時間</b>
             </p>
             <p>此欄位已新增，是介於0和1之間的數字，代表使用者每天可花費在專案工作（非經常性工作）的時間百分比。 值1表示使用者可以將100%的時間花在專案工作上。</p>
           </li>
@@ -755,9 +755,9 @@ User物件已移除標幟 **INLINE_EDITABLE**.
       <td>
         <ul>
           <li>
-            <p><b>ID</b>
+            <p><b>識別碼</b>
             </p>
-            <p>已新增.</p>
+            <p>已新增。</p>
           </li>
         </ul>
       </td>
@@ -767,9 +767,9 @@ User物件已移除標幟 **INLINE_EDITABLE**.
       <td>
         <ul>
           <li>
-            <p><b>ID</b>
+            <p><b>識別碼</b>
             </p>
-            <p>已新增.</p>
+            <p>已新增。</p>
           </li>
         </ul>
       </td>
@@ -805,14 +805,14 @@ UserNote物件是通知。
               <li>檔案已核准(ADA)</li>
               <li>檔案已核准變更(ADC)</li>
               <li>檔案需求工作(ADN)</li>
-              <li>（使用者）已將（檔案）標示為已核准。 不再需要您的核准. (AAN)</li>
-              <li>（使用者）已將（檔案）標示為已核准，但有變更。 不再需要您的核准. (ACN)</li>
-              <li>（使用者）已將（檔案）標示為需要工作。 不再需要您的核准. (AWN)</li>
+              <li>（使用者）已將（檔案）標示為已核准。 不再需要您的核准。 (AAN)</li>
+              <li>（使用者）已將（檔案）標示為已核准，但有變更。 不再需要您的核准。 (ACN)</li>
+              <li>（使用者）已將（檔案）標示為需要工作。 不再需要您的核准。 (AWN)</li>
               <li>檔案需要您立即稽核而非核准(AAC)</li>
               <li>檔案現在需要您的核准而非稽核(ADN)</li>
               <li>檔案已檢閱(RDC)</li>
               <li>檔案已檢閱(TRC)</li>
-              <li>（使用者）已檢閱（檔案）為完成。 不再需要您的檢閱. (TRN)</li>
+              <li>（使用者）已檢閱（檔案）為完成。 不再需要您的評論。 (TRN)</li>
             </ul>
           </li>
         </ul>
@@ -832,9 +832,9 @@ UserNote物件是通知。
       <td>
         <ul>
           <li>
-            <p><b>ID</b>
+            <p><b>識別碼</b>
             </p>
-            <p>已新增.</p>
+            <p>已新增。</p>
           </li>
         </ul>
       </td>
@@ -844,9 +844,9 @@ UserNote物件是通知。
       <td>
         <ul>
           <li>
-            <p><b>ID</b>
+            <p><b>識別碼</b>
             </p>
-            <p>已新增.</p>
+            <p>已新增。</p>
           </li>
         </ul>
       </td>

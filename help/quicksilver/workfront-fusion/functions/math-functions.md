@@ -15,7 +15,7 @@ ht-degree: 1%
 
 ---
 
-# 中的數學函式 [!DNL Adobe Workfront Fusion]
+# [!DNL Adobe Workfront Fusion]中的數學函式
 
 <!--Audited: 4/2024-->
 
@@ -38,7 +38,7 @@ ht-degree: 1%
   <tr>  
    <td role="rowheader">[!DNL Adobe Workfront Fusion] 授權**</td>  
    <td> 
-   <p>目前：否 [!DNL Workfront Fusion] 授權需求。</p> 
+   <p>目前：無[!DNL Workfront Fusion]授權需求。</p> 
    <p>或</p> 
    <p>舊版：任何 </p> 
    </td>  
@@ -46,19 +46,19 @@ ht-degree: 1%
   <tr>  
    <td role="rowheader">產品</td>  
    <td> 
-   <p>新增：</p> <ul><li>[！UICONTROL Select]或[！UICONTROL Prime] [!DNL Workfront] 計畫：您的組織必須購買 [!DNL Adobe Workfront Fusion].</li><li>[！UICONTROL Ultimate] [!DNL Workfront] 計畫： [!DNL Workfront Fusion] 已包括在內。</li></ul> 
+   <p>新增：</p> <ul><li>[！UICONTROL Select]或[！UICONTROL Prime] [!DNL Workfront]計畫：您的組織必須購買[!DNL Adobe Workfront Fusion]。</li><li>已包含[！UICONTROL Ultimate] [!DNL Workfront]計畫： [!DNL Workfront Fusion]。</li></ul> 
    <p>或</p> 
-   <p>目前：您的組織必須購買 [!DNL Adobe Workfront Fusion].</p> 
+   <p>目前：您的組織必須購買[!DNL Adobe Workfront Fusion]。</p> 
    </td>  
   </tr> 
  </tbody>  
 </table>
 
-如需有關此表格的詳細資訊，請參閱 [Workfront檔案中的存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
-有關的資訊 [!DNL Adobe Workfront Fusion] 授權，請參閱 [[!DNL Adobe Workfront Fusion] 授權](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+如需[!DNL Adobe Workfront Fusion]授權的相關資訊，請參閱[[!DNL Adobe Workfront Fusion] 授權](../../workfront-fusion/get-started/license-automation-vs-integration.md)。
 
-## [!UICONTROL 平均([值陣列])平均值(value1； [value2]， ...)]
+## [!UICONTROL 平均值（[陣列值]） average(value1； [value2]， ...)]
 
 傳回特定陣列中數值的平均值，或個別輸入之數值的平均值。
 
@@ -78,7 +78,7 @@ ht-degree: 1%
 >
 >   傳回4
 
-## [!UICONTROL floor (number)]
+## [!UICONTROL 樓層（數字）]
 
 傳回小於或等於指定數字的最大整數。
 
@@ -98,15 +98,15 @@ ht-degree: 1%
 >
 >   傳回4
 
-## [!UICONTROL 最大([值陣列])， max(value1；value2； ...)]
+## [!UICONTROL 最大值（[個值陣列]），最大值(value1；value2； ...)]
 
 傳回指定陣列中的最大數字或個別輸入數字中的最大數字。
 
-## [!UICONTROL 分鐘([值陣列])， min(value1； value2； ...)]
+## [!UICONTROL 分鐘（[個值陣列]），分鐘(value1； value2； ...)]
 
 傳回指定陣列中的最小數字，或個別輸入數字中的最小數字。
 
-## [!UICONTROL round (number)]
+## [!UICONTROL 回合（數字）]
 
 將數值四捨五入至最接近的整數。
 
@@ -130,7 +130,7 @@ ht-degree: 1%
 >
 >   傳回2
 
-## [!UICONTROL sum ([值陣列])， sum(value1； value2； ...)]
+## [!UICONTROL sum （[個值陣列]）， sum(value1； value2； ...)]
 
 傳回指定陣列中值的總和，或個別輸入的數字總和。
 
@@ -138,7 +138,7 @@ ht-degree: 1%
 
 剖析包含數字的字串並傳回數字。 例如， parseNumber(1 756,456；，)
 
-## [!UICONTROL formatNumber (數字；decimalPOINTS； [decimalSeparator]； [千位分隔符號])]
+## [!UICONTROL formatNumber (number； decimalPOINTS； [decimalSeparator]； [thousandsSeparator])]
 
 傳回要求格式的數字。 依預設，小數點為逗號(，)，千分位分隔符號為句點(.)。
 

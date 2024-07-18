@@ -16,7 +16,7 @@ ht-degree: 0%
 
 本頁說明23.3版中所有Financial Management增強功能。
 
-如需23.3版本週期目前可用的所有變更清單，請參閱 [23.3版本總覽](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-release-overview.md).
+如需23.3發行週期中目前所有可用變更的清單，請參閱[23.3發行概觀](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-release-overview.md)。
 
 ## 日期有效成本與記帳費率
 
@@ -40,4 +40,4 @@ ht-degree: 0%
 
 新功能「費率卡」可讓您根據地點為每個工作角色定義多個收費率。 職務角色與地點的帳單費率也可包含有效日期。 評等卡可以附加到專案，以一次套用特定職務角色和地點的所有評等資訊。 也可以將基於位置的角色指派給任務，以在指派層次上覆寫其費率。
 
-如需詳細資訊，請參閱 [編輯使用者設定檔](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md)， [建立和管理職位角色](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md)， [管理費率卡](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md)、和 [帳單與收入概要](/help/quicksilver/manage-work/projects/project-finances/billing-and-revenue-overview.md).
+如需詳細資訊，請參閱[編輯使用者的設定檔](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md)、[建立及管理職位角色](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md)、[管理費率卡](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md)以及[帳單與收入概觀](/help/quicksilver/manage-work/projects/project-finances/billing-and-revenue-overview.md)。

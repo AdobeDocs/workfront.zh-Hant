@@ -50,7 +50,7 @@ ht-degree: 0%
    </td>
    <td>編輯檔案的存取權
 <p>
-<strong>注意： </strong>如果您還是沒有存取權，請詢問您的Workfront管理員，他們是否在您的存取層級中設定其他限制。 如需有關Workfront管理員如何修改您的存取層級的資訊，請參閱 <strong>建立或修改自訂存取層級</strong>.
+<strong>注意： </strong>如果您還是沒有存取權，請詢問您的Workfront管理員是否對您的存取層級設定了其他限制。 如需Workfront管理員如何修改存取層級的詳細資訊，請參閱<strong>建立或修改自訂存取層級</strong>。
    </td>
   </tr>
   <tr>
@@ -58,7 +58,7 @@ ht-degree: 0%
    </td>
    <td>管理專案存取許可權或以上許可權 
 <p>
-如需請求其他存取許可權的詳細資訊，請參閱 <strong>要求物件的存取權 </strong>.
+如需請求其他存取權的資訊，請參閱<strong>請求物件</strong>的存取權。
    </td>
   </tr>
 </table>
@@ -67,27 +67,27 @@ ht-degree: 0%
 
 開始之前，
 
-* 您的Workfront管理員必須在Adobe Experience Manager整合中設定工作流程。 如需詳細資訊，請參閱 [設定Experience Manager Assetsas a Cloud Service整合](../../administration-and-setup/configure-integrations/configure-aacs-integration.md#set-up-workflows-optional).
+* 您的Workfront管理員必須在Adobe Experience Manager整合中設定工作流程。 如需詳細資訊，請參閱[設定Experience Manager Assetsas a Cloud Service整合](../../administration-and-setup/configure-integrations/configure-aacs-integration.md#set-up-workflows-optional)。
 
 ## 將工作流程新增至範本
 
 您可以將工作流程新增至專案範本。 工作流程將套用至從範本建立的任何專案。
 
-1. 按一下以開啟範本 **範本** 在「主要功能表」中，然後從清單中選取範本。
-1. 按一下 **Experience Manager Assets** ，位於左側導覽面板中。
+1. 按一下主功能表中的&#x200B;**範本**，然後從清單中選取範本，以開啟範本。
+1. 按一下左側導覽面板中的&#x200B;**Experience Manager Assets**。
 
    >[!NOTE]
    >
-   >如果左側導覽中看不到Experience Manager Assets區段，表示您的Workfront管理員尚未為貴組織啟用工作流程。 <!--Is this right?-->
+   >如果左側導覽中看不到Experience Manager Assets區段，表示您的Workfront管理員尚未為貴組織啟用工作流程。<!--Is this right?-->
 
-1. 在 **選取自動化工作流程欄位的整合**，選取您要用於從此範本建立之專案的工作流程整合。
+1. 在&#x200B;**選取自動化工作流程整合欄位**&#x200B;中，選取您要用於從此範本建立之專案的工作流程整合。
 1. （選用）編輯您想要套用至從此範本建立之專案的任何工作流程值。
 
-   如需特定工作流程的指示，請參閱 [編輯專案中的工作流程值](#edit-workflow-values-in-a-project) 本文章內容。
+   如需特定工作流程的指示，請參閱本文中的[在專案中編輯工作流程值](#edit-workflow-values-in-a-project)。
 
    只有已在「設定」的Experience Manager區域中啟動的工作流程，才能用於範本或專案。
 
-1. 您的變更會自動儲存。 <!-- do they though??-->
+1. 您的變更會自動儲存。<!-- do they though??-->
 
 ## 將工作流程新增至專案
 
@@ -97,10 +97,10 @@ ht-degree: 0%
 
 1. 開始建立專案。
 
-   如需指示，請參閱 [使用範本建立專案](/help/quicksilver/manage-work/projects/create-projects/create-project-from-template.md).
+   如需指示，請參閱[使用範本](/help/quicksilver/manage-work/projects/create-projects/create-project-from-template.md)建立專案。
 
 1. 為專案選取範本時，請選取包含您要用於此專案的工作流程的範本。
-1. （選用）編輯專案的任何工作流程值，如所述 [編輯專案中的工作流程值](#edit-workflow-values-in-a-project).
+1. （選擇性）編輯專案的任何工作流程值，如[編輯專案的工作流程值](#edit-workflow-values-in-a-project)中所述。
 
    只有已在「設定」的Experience Manager區域中啟動的工作流程，才能用於範本或專案。
 
@@ -113,10 +113,10 @@ ht-degree: 0%
 
 1. 開始新增範本至專案。
 
-   如需指示，請參閱 [將範本附加至專案](/help/quicksilver/manage-work/projects/create-and-manage-templates/attach-template-to-project.md).
+   如需指示，請參閱[將範本附加至專案](/help/quicksilver/manage-work/projects/create-and-manage-templates/attach-template-to-project.md)。
 
 1. 為專案選取範本時，請選取包含您要用於此專案的工作流程的範本。
-1. （選用）編輯專案的任何工作流程值，如所述 [編輯專案中的工作流程值](#edit-workflow-values-in-a-project).
+1. （選擇性）編輯專案的任何工作流程值，如[編輯專案的工作流程值](#edit-workflow-values-in-a-project)中所述。
 
    只有已在「設定」的Experience Manager區域中啟動的工作流程，才能用於範本或專案。
 
@@ -147,30 +147,30 @@ ht-degree: 0%
 若要編輯連結資料夾的工作流程：
 
 
-1. 切換 **[!UICONTROL 建立連結的資料夾]** 視需要開啟或關閉。 如果您將其開啟，則可以編輯連結的資料夾組態。
+1. 視需要開啟或關閉&#x200B;**[!UICONTROL 建立連結資料夾]**。 如果您將其開啟，則可以編輯連結的資料夾組態。
 
-   如需連結資料夾組態的詳細資訊，請參閱 [建立Adobe Experience Manager連結資料夾](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md#create-adobe-experience-manager-linked-folders) 在文章中 [設定 [!UICONTROL Experience Manager Assetsas a Cloud Service] 整合](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md).
+   如需連結資料夾組態的詳細資訊，請參閱文章[設定[!UICONTROL Adobe Experience Manageras a Cloud Service]整合](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md)中的[建立Experience Manager Assets連結資料夾](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md#create-adobe-experience-manager-linked-folders)。
 
-1. （選擇性）如果您希望只有在附加到專案的自訂表單中存在某些值時才建置資料夾樹狀結構，請按一下 **套用篩選器** 針對該資料夾樹狀結構，然後選取包含欄位、欄位和欄位值的自訂表單。 如果附加到新專案的自訂表單上的欄位包含所選值，則會建立資料夾樹狀結構。
+1. （選擇性）如果您希望只有在附加到專案的自訂表單上有某些值時才建置資料夾樹狀結構，請按一下該資料夾樹狀結構的&#x200B;**套用篩選器**，然後選取包含欄位、欄位和欄位值的自訂表單。 如果附加到新專案的自訂表單上的欄位包含所選值，則會建立資料夾樹狀結構。
 1. （選擇性）設定資料夾名稱時，您可以從下列選項中選取：
 
    * **名稱**：輸入資料夾的名稱。
 
-   * **物件資料**：選取資料夾名稱的來源，如專案名稱。
+   * **物件資料**：選取資料夾名稱的來源，例如專案名稱。
 
-   * **自訂表單資料**：選取要當作資料夾名稱使用的自訂表單資料。
+   * **自訂表單資料**：選取要做為資料夾名稱的自訂表單資料。
 
      資料夾名稱使用自訂表單資料僅在範本層級可用，並且無法在整合層級設定。
 
      如果資料夾名稱設為自訂資料，而該資料夾不存在於附加到專案的自訂中，則會將隨機ID指派為資料夾名稱。
 
-1. 若要檢視資料夾樹狀結構，請按一下 **預覽** ![預覽圖示](assets/preview-icon.png) 圖示
+1. 若要檢視資料夾樹狀結構，請按一下&#x200B;**預覽** ![預覽圖示](assets/preview-icon.png)圖示
 1. 按一下「**[!UICONTROL 儲存]**」。
 
 #### 發佈資產
 
 若要編輯資產發佈的工作流程：
 
-1. 切換 **自動發佈資產** 視需要開啟或關閉。
+1. 視需要自動開啟或關閉&#x200B;**Publish資產**。
 1. （視條件而定）如果您正在啟用發佈，請選取您要發佈至發佈服務、Brand Portal或兩者。
 1. 按一下「**[!UICONTROL 儲存]**」。

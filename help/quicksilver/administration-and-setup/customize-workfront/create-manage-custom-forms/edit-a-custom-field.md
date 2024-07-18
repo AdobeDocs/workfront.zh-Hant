@@ -19,11 +19,11 @@ ht-degree: 0%
 
 {{highlighted-preview}}
 
-<span class="preview">您可以直接從Workfront中的欄位區域新增新的自訂欄位或Widget，而無需開啟自訂表單來建立欄位。</span>
+<span class="preview">您可以直接從Workfront的[欄位]區域新增自訂欄位或Widget，而不需開啟自訂表單來建立欄位。</span>
 
 您也可以編輯自訂表單中使用的自訂欄位、分割槽符號或Widget的屬性。 其中包括專案的標籤、名稱、指示等。
 
-如需自訂表單中自訂欄位和Widget的相關資訊，請參閱 [使用表單設計工具設計表單](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)， [新增自訂欄位至自訂表單](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md)、和 [在自訂表單中新增或編輯資產Widget](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md).
+如需自訂表單中自訂欄位和Widget的相關資訊，請參閱[使用表單設計工具設計表單](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)、[新增自訂欄位至自訂表單](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md)以及[在自訂表單中新增或編輯資產Widget](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md)。
 
 ## 存取需求
 
@@ -51,7 +51,7 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-如需有關此表格的詳細資訊，請參閱 [Workfront檔案中的存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 <div class="preview">
 
@@ -59,14 +59,14 @@ ht-degree: 0%
 
 {{step-1-to-setup}}
 
-1. 按一下 **自訂Forms**.
-1. 按一下 **欄位** 以開啟「欄位」區域。
-1. 按一下 **新增自訂欄位**.
+1. 按一下&#x200B;**自訂Forms**。
+1. 按一下&#x200B;**欄位**&#x200B;以開啟[欄位]區域。
+1. 按一下&#x200B;**新增自訂欄位**。
 1. 在顯示的方塊中，輸入您要新增之專案的必要和選用資訊。
 
    檢視這些選項的詳細資訊：
-   * 如果您使用表單設計工具，請參閱 [設計表單](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
-   * 如果您使用自訂表單產生器，請參閱 [新增自訂欄位至自訂表單](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md) 或 [在自訂表單中新增或編輯資產Widget](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md).
+   * 如果您正在使用表單設計工具，請參閱[設計表單](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。
+   * 如果您使用自訂表單產生器，請參閱[新增自訂欄位至自訂表單](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md)或[新增或編輯自訂表單中的資產Widget](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md)。
 
 1. 按一下「**建立**」。
 
@@ -76,13 +76,13 @@ ht-degree: 0%
 
 {{step-1-to-setup}}
 
-1. 按一下 **自訂Forms**.
-1. 按一下 **欄位** 以開啟「欄位」區域，或 **部分** 以開啟「截面」區域。
-1. 選取自訂欄位、分割槽符號或Widget，然後按一下 ![編輯圖示](assets/edit-icon.png).
+1. 按一下&#x200B;**自訂Forms**。
+1. 按一下&#x200B;**欄位**&#x200B;以開啟[欄位]區域，或按一下&#x200B;**區段**&#x200B;以開啟[區段]區域。
+1. 選取自訂欄位、分割槽符號或Widget，然後按一下![編輯圖示](assets/edit-icon.png)。
 1. 在顯示的方塊中，變更您正在編輯的專案可用的任何選項。
 
    檢視這些選項的詳細資訊：
-   * 如果您使用表單設計工具，請參閱 [設計表單](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
-   * 如果您使用自訂表單產生器，請參閱 [新增自訂欄位至自訂表單](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md) 或 [在自訂表單中新增或編輯資產Widget](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md).
+   * 如果您正在使用表單設計工具，請參閱[設計表單](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。
+   * 如果您使用自訂表單產生器，請參閱[新增自訂欄位至自訂表單](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md)或[新增或編輯自訂表單中的資產Widget](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md)。
 
-1. 完成後，按一下 **編輯**.
+1. 完成時，按一下[編輯]。****

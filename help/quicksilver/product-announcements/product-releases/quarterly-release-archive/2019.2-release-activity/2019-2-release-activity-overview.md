@@ -16,7 +16,7 @@ ht-degree: 1%
 
 # 2019.2版本活動概覽
 
-本頁提供2019.2版所含功能的相關資訊。 若要以PDF格式下載此內容，請前往 [此處](https://documentation.my.workfront.com/library/a/6626eb71-16b2-4460-bd81-9adcd4953eb5).
+本頁提供2019.2版所含功能的相關資訊。 若要以PDF格式下載此內容，請移至[這裡](https://documentation.my.workfront.com/library/a/6626eb71-16b2-4460-bd81-9adcd4953eb5)。
 
 >[!NOTE]
 >
@@ -24,7 +24,7 @@ ht-degree: 1%
 >
 >* *叢集2、4和6的Workfront生產環境 — 5月23日*
 >* *叢集1、3和5的Workfront生產環境 — 5月24日*
->* *Workfront校訂生產環境 — 5月21日*
+>* *Workfront Proof生產環境 — 5月21日*
 
 2019.2版包含系統管理員和其他使用者的增強功能。
 
@@ -88,13 +88,13 @@ ht-degree: 1%
 
   您現在可以設定預設自訂表單和核准流程，以便在您將任務新增到專案時附加到任務。
 
-* [自訂狀態時更快找到群組](../../../../product-announcements/product-releases/quarterly-release-archive/2019.2-release-activity/2019-2-project-enhancements.md#find)
+* 自訂狀態時[更快找到群組](../../../../product-announcements/product-releases/quarterly-release-archive/2019.2-release-activity/2019-2-project-enhancements.md#find)
 
   「設定」區域中「狀態」標籤上的下拉式功能表現在是預先輸入功能表。
 
 ### 整合增強功能
 
-* [已更新Workfront以進行Adobe Creative Cloud整合](../../../../product-announcements/product-releases/quarterly-release-archive/2019.2-release-activity/2019-2-project-enhancements.md#updated)
+* [已更新Adobe Creative Cloud整合的Workfront](../../../../product-announcements/product-releases/quarterly-release-archive/2019.2-release-activity/2019-2-project-enhancements.md#updated)
 
   適用於Adobe Creative Cloud的Workfront擴充功能現在包含與Workfront程式庫的整合。
 
@@ -126,14 +126,14 @@ ht-degree: 1%
 
 * 如果您有不再使用的物件，您現在可以停用它們以從清單中隱藏它們，以防止使用者將它們與其他物件產生關聯。
 
-* [自訂狀態時更快找到群組](../../../../product-announcements/product-releases/quarterly-release-archive/2019.2-release-activity/2019-2-project-enhancements.md#find)
+* 自訂狀態時[更快找到群組](../../../../product-announcements/product-releases/quarterly-release-archive/2019.2-release-activity/2019-2-project-enhancements.md#find)
 
   「設定」區域中「狀態」標籤上的下拉式功能表現在是預先輸入功能表。
 
 
 ## 公告
 
-* [Workfront資料庫現已推出](#workfront-library-now-available)
+* [Workfront資料庫現已可用](#workfront-library-now-available)
 * [不再支援API第3版](#api-version-3-no-longer-supported)
 * [TLS支援即將結束](#tls-support-is-ending)
 * [Flash應用程式移除](#flash-application-removal)
@@ -145,19 +145,19 @@ Workfront Library是企業數位內容中樞，可用來管理組織數位資產
 
 ### 不再支援API第3版 {#api-version-3-no-longer-supported}
 
-對API版本3的支援已於2018年11月終止。 如需Workfront API版本支援排程的詳細資訊，請參閱 [API版本設定和支援排程](../../../../wf-api/api/api-version-support-schedule.md).
+對API版本3的支援已於2018年11月終止。 如需有關Workfront API版本支援排程的詳細資訊，請參閱[API版本設定與支援排程](../../../../wf-api/api/api-version-support-schedule.md)。
 
 ### TLS支援即將結束 {#tls-support-is-ending}
 
 為了提供最佳安全性，Workfront要求所有使用TLS 1.0或較舊版本的整合和網頁流量，都必須升級為使用TLS 1.1或更新版本。 此變更已在預覽環境中生效。
 
-如需詳細資訊，請參閱 [Adobe Workfront中需要TLS 1.2](../../../../product-announcements/announcements/announcement-archive/tls-1-disabled.md).
+如需詳細資訊，請參閱Adobe Workfront](../../../../product-announcements/announcements/announcement-archive/tls-1-disabled.md)中所需的[TLS 1.2。
 
 ### Flash應用程式移除 {#flash-application-removal}
 
 自2018.3發行版本以來，Workfront已移除所有依賴Flash技術的功能，並更換為新解決方案。
 
-如需有關舊版Flash工具及其取代的詳細資訊，請參閱 [取代Adobe Workfront中的Flash型工具](../../../../product-announcements/announcements/announcement-archive/replace-flash-tools.md).
+如需有關舊版Flash工具及其取代的詳細資訊，請參閱[在Adobe Workfront中取代Flash工具](../../../../product-announcements/announcements/announcement-archive/replace-flash-tools.md)。
 
 ### 各種要移除的單一登入選項 {#various-single-sign-on-options-to-be-removed}
 
@@ -165,15 +165,15 @@ Workfront Library是企業數位內容中樞，可用來管理組織數位資產
 
 * LDAP
 
-  如需搭配Workfront使用LDAP的詳細資訊，請參閱 [使用LDAP設定Adobe Workfront](../../../../administration-and-setup/manage-workfront/security/removal-various-sso-options.md).
+  如需搭配Workfront使用LDAP的詳細資訊，請參閱[搭配LDAP使用Adobe Workfront](../../../../administration-and-setup/manage-workfront/security/removal-various-sso-options.md)。
 
 * 主動式目錄
 
-  如需搭配Workfront使用Active Directory的詳細資訊，請參閱 [使用Active Directory設定Adobe Workfront](../../../../administration-and-setup/manage-workfront/security/removal-various-sso-options.md).
+  如需將Active Directory與Workfront搭配使用的詳細資訊，請參閱[使用Active Directory設定Adobe Workfront](../../../../administration-and-setup/manage-workfront/security/removal-various-sso-options.md)。
 
 * SAML 1.1
 
-  如需將SAML 1.1與Workfront搭配使用的詳細資訊，請參閱 [使用SAML 1.1設定Adobe Workfront](../../../../administration-and-setup/manage-workfront/security/removal-various-sso-options.md).
+  如需有關將SAML 1.1與Workfront搭配使用的詳細資訊，請參閱[使用SAML 1.1設定Adobe Workfront](../../../../administration-and-setup/manage-workfront/security/removal-various-sso-options.md)。
 
 以下是這些SSO選項的移除時間表：
 
@@ -195,7 +195,7 @@ Workfront Library是企業數位內容中樞，可用來管理組織數位資產
 
 加入Workfront產品管理團隊，進一步瞭解我們的產品願景、2019年藍圖以及如何參與。
 
-若要檢視網路研討會影片，請參閱 [2019年第2季產品藍圖網路研討會](https://webinars.on24.com/workfront/q2roadmap?partnerref=Product).
+若要觀看網路研討會影片，請參閱[2019年第2季產品藍圖網路研討會](https://webinars.on24.com/workfront/q2roadmap?partnerref=Product)。
 
 ### Workfront產品藍圖網路研討會 — 2019年第1季
 

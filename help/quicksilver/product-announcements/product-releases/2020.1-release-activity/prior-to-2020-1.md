@@ -18,19 +18,19 @@ ht-degree: 4%
 
 下列功能在2020.1版發行至生產環境前已可供Workfront Classic生產環境使用。
 
-如需發行時間範圍和2020.1版所有可用功能的詳細資訊，請參閱 [2020.1版本總覽](../../../product-announcements/product-releases/2020.1-release-activity/2020-1-release-overview.md).
+如需發行時間範圍和2020.1版所有可用功能的相關資訊，請參閱[2020.1版總覽](../../../product-announcements/product-releases/2020.1-release-activity/2020-1-release-overview.md)。
 
 <table style="table-layout:auto"> 
  <col> 
  <tbody> 
   <tr data-mc-conditions=""> 
-   <td> 更新Workfront Cookie行為以維持與Chrome的相容性 <p>為了維持與即將推出的Google Chrome更新(Chrome v80)的相容性，我們已更新Workfront平台以確保適當地隨請求傳送Cookie。 </p> <p>此Chrome更新會變更SameSite Cookie屬性的預設值。 如果您想要測試Google Chrome更新後Workfront執行個體的行為，請調整Chrome中的標幟，並啟用下列選項： </p> 
+   <td> 更新Workfront Cookie行為以維持與Chrome的相容性 <p>為了與即將推出的Google Chrome更新(Chrome v80)保持相容性，我們已更新Workfront平台以確保可正確傳送包含請求的Cookie。 </p> <p>此Chrome更新會變更SameSite Cookie屬性的預設值。 如果您想要測試Workfront執行個體在Google Chrome更新後的行為，請調整Chrome中的標幟，並啟用下列選項： </p> 
     <ul> 
      <li>"預設SameSite Cookie" </li> 
      <li>「不含SameSite的Cookie必須是安全的」</li> 
     </ul> 
     <div class="workfront_plans"> 
-     <p><strong>適用於下列環境：</strong> </p> 
+     <p><strong>在以下環境中可用：</strong> </p> 
      <ul> 
       <li>Workfront Classic</li> 
       <li>全新 Workfront 體驗</li> 
@@ -51,9 +51,9 @@ ht-degree: 4%
      <li>複製更新的內文</li> 
      <li>將直接連結複製到更新對話串或單一更新</li> 
      <li>刪除更新</li> 
-    </ul> <p>如需詳細資訊，請參閱 <a href="../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md" class="MCXref xref" xrefformat="{para}">更新工作</a>.</p> 
+    </ul> <p>如需詳細資訊，請參閱<a href="../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md" class="MCXref xref" xrefformat="{para}">更新工作</a>。</p> 
     <div class="workfront_plans"> 
-     <p><strong>適用於下列環境：</strong> </p> 
+     <p><strong>在以下環境中可用：</strong> </p> 
      <ul> 
       <li>Workfront Classic</li> 
       <li>全新 Workfront 體驗</li> 
@@ -65,9 +65,9 @@ ht-degree: 4%
     </div> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td>更新區域中新的進度列 <p>更新區域中的完成百分比進度列有新外觀。 按一下並拖曳以更新百分比，或按兩下以手動輸入數字。</p> <p>如需詳細資訊，請參閱 <a href="../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md" class="MCXref xref" xrefformat="{para}">更新工作</a>.</p> 
+   <td>更新區域中新的進度列 <p>更新區域中的完成百分比進度列有新外觀。 按一下並拖曳以更新百分比，或按兩下以手動輸入數字。</p> <p>如需詳細資訊，請參閱<a href="../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md" class="MCXref xref" xrefformat="{para}">更新工作</a>。</p> 
     <div class="workfront_plans"> 
-     <p><strong>適用於下列環境：</strong> </p> 
+     <p><strong>在以下環境中可用：</strong> </p> 
      <ul> 
       <li>Workfront Classic</li> 
       <li>全新 Workfront 體驗</li> 
@@ -79,9 +79,9 @@ ht-degree: 4%
     </div> </td> 
   </tr> 
   <tr> 
-   <td> Workfront註解同步至Jira <p>適用於Jira整合的Workfront現在會將您的Workfront註解同步至Jira的原生註解流。</p> <p>之前，您可以將Jira的評論同步至Workfront，但不能將Workfront的評論同步至Jira。 </p> <p>如需詳細資訊，請參閱 <a href="../../../workfront-integrations-and-apps/use-workfront-with-jira/configure-workfront-for-jira.md" class="MCXref xref" xrefformat="{para}">設定Jira適用的Adobe Workfront</a>.</p> 
+   <td> Workfront註解同步至Jira <p>適用於Jira整合的Workfront現在會將您的Workfront註解同步至Jira的原生註解流。</p> <p>之前，您可以將Jira的評論同步至Workfront，但不能將Workfront的評論同步至Jira。 </p> <p>如需詳細資訊，請參閱<a href="../../../workfront-integrations-and-apps/use-workfront-with-jira/configure-workfront-for-jira.md" class="MCXref xref" xrefformat="{para}">設定Jira的Adobe Workfront</a>。</p> 
     <div class="workfront_plans"> 
-     <p><strong>適用於下列環境：</strong> </p> 
+     <p><strong>在以下環境中可用：</strong> </p> 
      <ul> 
       <li>Workfront Classic</li> 
       <li>全新 Workfront 體驗</li> 

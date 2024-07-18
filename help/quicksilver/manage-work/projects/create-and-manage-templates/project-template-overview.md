@@ -58,31 +58,31 @@ ht-degree: 1%
    * [任務期間與期間型別概觀](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md)
    * [專案期間概觀](../../../manage-work/projects/planning-a-project/project-duration.md)
 
-  如需有關計畫時數的資訊，請參閱 [計畫時數概觀](../../../manage-work/tasks/task-information/planned-hours.md).
+  如需計畫時數的詳細資訊，請參閱[計畫時數總覽](../../../manage-work/tasks/task-information/planned-hours.md)。
 
 * 當您對未來的專案計畫有完整的清晰瞭解時，在最後的任務之間新增前置任務關係。 將前置任務新增至範本任務與將前置任務新增至專案中的任務類似。
 
-  有關將前置任務新增至任務的資訊，請參閱 [前置任務概觀](../../../manage-work/tasks/use-prdcssrs/predecessors-overview.md).
+  如需有關將前置任務新增至任務的資訊，請參閱[前置任務概觀](../../../manage-work/tasks/use-prdcssrs/predecessors-overview.md)。
 
-* 指出該範本可供日後共用的對象，以及從該範本建立的專案可供共用的對象。 如需共用範本的相關資訊，請參閱 [共用專案範本](../../../manage-work/projects/create-and-manage-templates/share-project-template.md).
+* 指出該範本可供日後共用的對象，以及從該範本建立的專案可供共用的對象。 如需共用範本的相關資訊，請參閱[共用專案範本](../../../manage-work/projects/create-and-manage-templates/share-project-template.md)。
 * 使用全域核准流程，並儘可能將其新增至您的範本和範本任務。 這樣可節省任務或未來專案需要經過相同核准的時間。
 
-  如需關於建立核准的資訊，請參閱 [建立工作專案的核准流程](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
+  如需關於建立核准的資訊，請參閱[建立工作專案的核准程式](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md)。
 
-  有關將核准流程關聯至工作專案的資訊，請參閱 [將新的或現有的核准流程與工作建立關聯](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md).
+  如需將核准程式關聯至工作專案的資訊，請參閱[將新的或現有的核准程式與工作關聯](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md)。
 
 ## 建立範本的方法
 
 您可以透過下列方式建立新範本：
 
 * 從頭開始。\
-  如需從頭開始建立新範本的詳細資訊，請參閱 [建立專案範本](../../../manage-work/projects/create-and-manage-templates/create-template.md).
+  如需從頭開始建立新範本的詳細資訊，請參閱[建立專案範本](../../../manage-work/projects/create-and-manage-templates/create-template.md)。
 
 * 從現有專案，透過將專案另存為範本。\
-  如需有關從現有專案建立範本的詳細資訊，請參閱 [從專案建立範本](../../../manage-work/projects/create-and-manage-templates/create-template-from-project.md).
+  如需從現有專案建立範本的詳細資訊，請參閱[從專案建立範本](../../../manage-work/projects/create-and-manage-templates/create-template-from-project.md)。
 
 * 透過從另一個範本複製它。\
-  如需有關複製現有範本的詳細資訊，請參閱 [複製專案範本](../../../manage-work/projects/create-and-manage-templates/copy-template.md).
+  如需有關複製現有範本的詳細資訊，請參閱[複製專案範本](../../../manage-work/projects/create-and-manage-templates/copy-template.md)。
 
 * 使用範例範本。\
-  如需使用範例範本建立範本的詳細資訊，請參閱 [從範例建立專案範本](../../../manage-work/projects/create-and-manage-templates/create-templates-from-examples.md).
+  如需使用範例範本建立範本的詳細資訊，請參閱[從範例建立專案範本](../../../manage-work/projects/create-and-manage-templates/create-templates-from-examples.md)。

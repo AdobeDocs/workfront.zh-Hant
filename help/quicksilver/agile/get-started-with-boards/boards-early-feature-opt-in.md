@@ -2,7 +2,7 @@
 filename: boards-early-feature-opt-in
 content-type: reference
 navigation-topic: boards
-title: 的早期功能選擇加入 [!DNL Adobe Workfront] 展示板
+title: ' [!DNL Adobe Workfront] 面板的早期功能選擇加入'
 description: 閱讀本文章以瞭解 [!DNL Workfront Boards] 早期功能選擇加入。
 author: Lisa
 feature: Agile
@@ -14,13 +14,13 @@ ht-degree: 0%
 
 ---
 
-# 的早期功能選擇加入 [!DNL Adobe Workfront] [!UICONTROL 展示板]
+# [!DNL Adobe Workfront] [!UICONTROL 面板]的早期功能選擇加入
 
-適用於的早期功能選擇加入 [!DNL Adobe Workfront] [!UICONTROL 展示板] 於2022年7月推出。
+[!DNL Adobe Workfront] [!UICONTROL 面板]的早期功能選擇加入已於2022年7月啟動。
 
-[!DNL Adobe Workfront] [!UICONTROL 展示板] 是彈性的工具，可透過提供對包含欄和卡片的共用展示板的存取權來允許團隊共同作業。
+[!DNL Adobe Workfront] [!UICONTROL 看板]是彈性工具，可提供包含欄和卡片的共用看板的存取權，以允許團隊共同作業。
 
-如需有關面板的一般資訊，請參閱 [[!UICONTROL 展示板] 概述](/help/quicksilver/agile/boards-overview.md).
+如需面板的一般資訊，請參閱[[!UICONTROL 面板]概述](/help/quicksilver/agile/boards-overview.md)。
 
 ## 功能
 
@@ -49,7 +49,7 @@ ht-degree: 0%
    <td>已發行</td>
   </tr>
   <tr>
-   <td>建立已連線的卡片 [!DNL Workfront] 物件</td>
+   <td>建立連線到[!DNL Workfront]物件的卡片</td>
    <td>已發行</td>
   </tr>
   <tr>
@@ -191,40 +191,40 @@ ht-degree: 0%
 
 ### 選擇加入
 
-僅限 [!DNL Workfront] 管理員可以選擇加入展示板的早期功能。 當 [!DNL Workfront] 管理員會啟用早期功能，組織中的所有使用者都會選擇加入。
+只有[!DNL Workfront]個管理員可以選擇加入展示板的早期功能。 當[!DNL Workfront]管理員啟用早期功能時，組織中的所有使用者都會選擇加入。
 
 {{step1-to-boards}}
 
-1. 按一下 ![早期功能選擇加入](assets/early-feature-opt-in-not-enabled.png) ([!UICONTROL 早期功能選擇加入])。
-1. 按一下 **[!UICONTROL 啟用]**.
+1. 按一下控制面板畫面頂端的![早期功能選擇加入](assets/early-feature-opt-in-not-enabled.png) （[!UICONTROL 早期功能選擇加入]）。
+1. 按一下&#x200B;**[!UICONTROL 啟用]**。
 1. 開始使用面板的早期功能。
 
 ## 提交意見
 
-1. 在展示板中，按一下 **[!UICONTROL 意見反應]** 按鈕。
-1. 填寫表單，然後按一下 **[!UICONTROL 提交]**.
+1. 在展示板中，按一下&#x200B;**[!UICONTROL 意見反應]**&#x200B;按鈕。
+1. 填寫表單，然後按一下&#x200B;**[!UICONTROL 提交]**。
 
 ## 早期功能選擇加入常見問題集
 
 ### 我如何知道我的組織是否已選擇加入早期功能？
 
-連絡您的 [!DNL Workfront] 管理員以瞭解他們是否已為面板啟用早期功能。
+請連絡您的[!DNL Workfront]管理員，瞭解他們是否已啟用面板的早期功能。
 
 ### 僅能針對特定使用者啟用早期功能嗎？
 
-當 [!DNL Workfront] 管理員會為面板啟用早期功能，組織中的所有使用者都會選擇加入。
+當[!DNL Workfront]管理員啟用面板的早期功能時，組織中的所有使用者都會選擇加入。
 
-然而， [!DNL Workfront] 管理員可以從以下位置隱藏面板選項： [!UICONTROL 主要功能表] 適用於具有版面配置範本的個別使用者或使用者群組。 如需詳細資訊，請參閱 [自訂 [!UICONTROL 主要功能表] 使用版面範本](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).
+但是，[!DNL Workfront]管理員可以針對具有版面配置範本的個別使用者或使用者群組，從[!UICONTROL 主功能表]隱藏面板選項。 如需詳細資訊，請參閱[使用配置範本自訂[!UICONTROL 主功能表]](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md)。
 
 >[!NOTE]
 >
->這不會阻止使用者使用URL存取面板。 這只會防止他們看到 [!DNL Boards] 中的選項 [!UICONTROL 主要功能表].
+>這不會阻止使用者使用URL存取面板。 它只會防止他們在[!UICONTROL 主功能表]中看到[!DNL Boards]選項。
 
 ### 我加入後可以退出早期功能嗎？
 
-僅限 [!DNL Workfront] 管理員可以選擇退出接收早期功能。 如果 [!DNL Workfront] 管理員會停用早期功能，組織中的所有使用者都會選擇退出。
+只有[!DNL Workfront]個管理員可以選擇不接收早期功能。 如果[!DNL Workfront]管理員停用早期功能，組織中的所有使用者都會選擇退出。
 
 {{step1-to-boards}}
 
-1. 按一下 ![已啟用早期功能選擇加入](assets/early-feature-opt-in-enabled.png) ([!UICONTROL 已啟用早期功能選擇加入])。
-1. 按一下 **[!UICONTROL 停用]**.
+1. 按一下控制面板熒幕上方的![啟用早期功能選擇加入](assets/early-feature-opt-in-enabled.png) （[!UICONTROL 啟用早期功能選擇加入]）。
+1. 按一下&#x200B;**[!UICONTROL 停用]**。

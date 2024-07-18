@@ -16,17 +16,17 @@ ht-degree: 1%
 
 ---
 
-# [!DNL Adobe Workfront] 主機板模組
+# [!DNL Adobe Workfront]個主機板模組
 
 >[!NOTE]
 >
->此聯結器目前處於Beta版。
+>此聯結器目前在Beta中。
 
 Adobe Workfront展示板是彈性的工具，可讓團隊透過提供對包含欄和卡片的共用展示板的存取權進行共同作業。
 
 您可以使用Adobe Workfront面板模組來讀取或更新記錄、對Workfront面板API進行API呼叫，或當面板上發生動作時觸發情境。
 
-如需Workfront面板的一般資訊，請參閱 [展示板概述](/help/quicksilver/agile/boards-overview.md).
+如需Workfront面板的一般資訊，請參閱[面板概觀](/help/quicksilver/agile/boards-overview.md)。
 
 ## 存取需求
 
@@ -47,25 +47,25 @@ Adobe Workfront展示板是彈性的工具，可讓團隊透過提供對包含�
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] 授權</td> 
    <td>
-   <p>目前授權需求：否 [!DNL Workfront Fusion] 授權需求。</p>
+   <p>目前授權需求：無[!DNL Workfront Fusion]授權需求。</p>
    <p>或</p>
-   <p>舊版授權需求： [！UICONTROL [!DNL Workfront Fusion] 工作自動化與整合]，請參閱[！UICONTROL [!DNL Workfront Fusion] 工作自動化專用]</p>
+   <p>舊版授權需求： [！UICONTROL [!DNL Workfront Fusion] for Work Automation and Integration]，[！UICONTROL [!DNL Workfront Fusion] for Work Automation]</p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">產品</td> 
    <td>
-   <p>目前產品需求：如果您有[！UICONTROL Select]或[！UICONTROL Prime] [!DNL Adobe Workfront] 計畫，您的組織必須購買 [!DNL Adobe Workfront Fusion] 以及 [!DNL Adobe Workfront] 以使用本文所述的功能。 [!DNL Workfront Fusion] 包含在[！UICONTROL Ultimate]中 [!DNL Workfront] 計畫。</p>
+   <p>目前產品需求：如果您有[！UICONTROL Select]或[！UICONTROL Prime] [!DNL Adobe Workfront]計畫，您的組織必須購買[!DNL Adobe Workfront Fusion]及[!DNL Adobe Workfront]，才能使用本文所述的功能。 [!DNL Workfront Fusion]包含在[！UICONTROL Ultimate] [!DNL Workfront]計畫中。</p>
    <p>或</p>
-   <p>舊版產品需求：貴組織必須購買 [!DNL Adobe Workfront Fusion] 以及 [!DNL Adobe Workfront] 以使用本文所述的功能。</p>
+   <p>舊版產品需求：您的組織必須購買[!DNL Adobe Workfront Fusion]及[!DNL Adobe Workfront]，才能使用本文所述的功能。</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-如需有關此表格的詳細資訊，請參閱 [Workfront檔案中的存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
-有關的資訊 [!DNL Adobe Workfront Fusion] 授權，請參閱 [[!DNL Adobe Workfront Fusion] 授權](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+如需[!DNL Adobe Workfront Fusion]授權的相關資訊，請參閱[[!DNL Adobe Workfront Fusion] 授權](../../workfront-fusion/get-started/license-automation-vs-integration.md)。
 
 
 ## 先決條件
@@ -80,7 +80,7 @@ Adobe Workfront展示板是彈性的工具，可讓團隊透過提供對包含�
 
 若要建立Workfront面板連線：
 
-1. 在任何 [!DNL Adobe Workfront Boards] 模組，按一下 **[!UICONTROL 新增]** ，位於「連線」方塊旁。
+1. 在任何[!DNL Adobe Workfront Boards]模組中，按一下[連線]方塊旁的&#x200B;**[!UICONTROL 新增]**。
 
 1. 填寫下列欄位：
 
@@ -106,29 +106,29 @@ Adobe Workfront展示板是彈性的工具，可讓團隊透過提供對包含�
         </tr>
         <tr>
           <td role="rowheader">[！UICONTROL使用者端ID]<p>（可選）</p></td>
-          <td>輸入您的 [!DNL Adobe] [！UICONTROL使用者端識別碼]。 您可在的[！UICONTROL憑證詳細資料]區段中找到 [!DNL Adobe Developer Console].</td>
+          <td>輸入您的[!DNL Adobe] [！UICONTROL使用者端識別碼]。 這可以在[!DNL Adobe Developer Console]的[！UICONTROL認證詳細資料]區段中找到。</td>
         </tr>
         <tr>
           <td role="rowheader">[！UICONTROL使用者端密碼]<p>（可選）</p></td>
-          <td>輸入您的 [!DNL Adobe] [！UICONTROL使用者端密碼]。 您可在的[！UICONTROL憑證詳細資料]區段中找到 [!DNL Adobe Developer Console].
+          <td>輸入您的[!DNL Adobe] [！UICONTROL使用者端密碼]。 這可以在[!DNL Adobe Developer Console]的[！UICONTROL認證詳細資料]區段中找到。
         </tr>
         <tr>
           <td role="rowheader">[！UICONTROL驗證URL]<p>（可選）</p></td>
-          <td>輸入您的Workfront執行個體將用來驗證此連線的URL。 <p>預設值為 <code>https://oauth.my.workfront.com/integrations/oauth2</code>.</p>
+          <td>輸入您的Workfront執行個體將用來驗證此連線的URL。 <p>預設值為<code>https://oauth.my.workfront.com/integrations/oauth2</code>。</p>
         </tr>
         <tr>
           <td role="rowheader">[！UICONTROL主機前置詞]</td>
-          <td>輸入您的主機前置詞。<p>預設值為 <code>origin-</code>.</p>
+          <td>輸入您的主機前置詞。<p>預設值為<code>origin-</code>。</p>
         </tr>
       </tbody>
     </table>
-1. 按一下 **[!UICONTROL 繼續]** 以儲存連線並返回模組。
+1. 按一下&#x200B;**[!UICONTROL 繼續]**&#x200B;以儲存連線並返回模組。
 
 ## Adobe Workfront面板模組及其欄位
 
-當您設定Workfront面板模組時， [!DNL Workfront Fusion] 顯示下列欄位。 除此之外，可能還會顯示其他Workfront面板欄位，視您應用程式或服務中的存取層級等因素而定。 模組中的粗體標題表示必填欄位。
+當您設定Workfront面板模組時，[!DNL Workfront Fusion]會顯示下列欄位。 除此之外，可能還會顯示其他Workfront面板欄位，視您應用程式或服務中的存取層級等因素而定。 模組中的粗體標題表示必填欄位。
 
-如果您在欄位或函式上方看到對應按鈕，則可以使用它來設定該欄位的變數和函式。 如需詳細資訊，請參閱 [在中將資訊從一個模組對應到另一個模組 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
+如果您在欄位或函式上方看到對應按鈕，則可以使用它來設定該欄位的變數和函式。 如需詳細資訊，請參閱[在 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md)中將資訊從一個模組對應到另一個模組。
 
 ![](assets/map-toggle-350x74.png)
 
@@ -203,7 +203,7 @@ After the webhook is created, you can view the address of the endpoint that even
  <tbody> 
   <tr> 
    <td>[！UICONTROL Connection]</td> 
-      <td> <p>您可以使用現有的Workfront連線來連線至Workfront面板，或使用特定的Workfront面板連線。 </p><p>如需有關連線您的電腦的指示 [!DNL Workfront] 應用程式至 [!DNL Workfront Fusion]，請參閱 <a href="#create-a-connection-to-workfront-boards" class="MCXref xref">建立與Workfront展示板的連線</a> 本文章內容。</p> </td> 
+      <td> <p>您可以使用現有的Workfront連線來連線至Workfront面板，或使用特定的Workfront面板連線。 </p><p>如需有關將您的[!DNL Workfront]應用程式連線到[!DNL Workfront Fusion]的說明，請參閱本文中的<a href="#create-a-connection-to-workfront-boards" class="MCXref xref">建立與Workfront展示板的連線</a>。</p> </td> 
   </tr> 
   <tr> 
    <td>[！UICONTROL卡片ID]</td> 
@@ -226,7 +226,7 @@ After the webhook is created, you can view the address of the endpoint that even
  <tbody> 
   <tr> 
    <td>[！UICONTROL Connection]</td> 
-      <td> <p>您可以使用現有的Workfront連線來連線至Workfront面板，或使用特定的Workfront面板連線。 </p><p>如需有關連線您的電腦的指示 [!DNL Workfront] 應用程式至 [!DNL Workfront Fusion]，請參閱 <a href="#create-a-connection-to-workfront-boards" class="MCXref xref">建立與Workfront展示板的連線</a> 本文章內容。</p> </td> 
+      <td> <p>您可以使用現有的Workfront連線來連線至Workfront面板，或使用特定的Workfront面板連線。 </p><p>如需有關將您的[!DNL Workfront]應用程式連線到[!DNL Workfront Fusion]的說明，請參閱本文中的<a href="#create-a-connection-to-workfront-boards" class="MCXref xref">建立與Workfront展示板的連線</a>。</p> </td> 
   </tr> 
   <tr> 
    <td>[！UICONTROL父卡片ID]</td> 
@@ -253,7 +253,7 @@ After the webhook is created, you can view the address of the endpoint that even
  <tbody> 
   <tr> 
    <td>[！UICONTROL Connection]</td> 
-      <td> <p>您可以使用現有的Workfront連線來連線至Workfront面板，或使用特定的Workfront面板連線。 </p><p>如需有關連線您的電腦的指示 [!DNL Workfront] 應用程式至 [!DNL Workfront Fusion]，請參閱 <a href="#create-a-connection-to-workfront-boards" class="MCXref xref">建立與Workfront展示板的連線</a> 本文章內容。</p> </td> 
+      <td> <p>您可以使用現有的Workfront連線來連線至Workfront面板，或使用特定的Workfront面板連線。 </p><p>如需有關將您的[!DNL Workfront]應用程式連線到[!DNL Workfront Fusion]的說明，請參閱本文中的<a href="#create-a-connection-to-workfront-boards" class="MCXref xref">建立與Workfront展示板的連線</a>。</p> </td> 
   </tr> 
   <tr> 
    <td>[！UICONTROL展示板ID]</td> 
@@ -280,7 +280,7 @@ After the webhook is created, you can view the address of the endpoint that even
  <tbody> 
   <tr> 
    <td>[！UICONTROL Connection]</td> 
-      <td> <p>您可以使用現有的Workfront連線來連線至Workfront面板，或使用特定的Workfront面板連線。 </p><p>如需有關連線您的電腦的指示 [!DNL Workfront] 應用程式至 [!DNL Workfront Fusion]，請參閱 <a href="#create-a-connection-to-workfront-boards" class="MCXref xref">建立與Workfront展示板的連線</a> 本文章內容。</p> </td> 
+      <td> <p>您可以使用現有的Workfront連線來連線至Workfront面板，或使用特定的Workfront面板連線。 </p><p>如需有關將您的[!DNL Workfront]應用程式連線到[!DNL Workfront Fusion]的說明，請參閱本文中的<a href="#create-a-connection-to-workfront-boards" class="MCXref xref">建立與Workfront展示板的連線</a>。</p> </td> 
   </tr> 
   <tr> 
    <td>[！UICONTROL卡片ID]</td> 
@@ -311,7 +311,7 @@ After the webhook is created, you can view the address of the endpoint that even
  <tbody> 
   <tr> 
    <td>[！UICONTROL Connection]</td> 
-      <td> <p>您可以使用現有的Workfront連線來連線至Workfront面板，或使用特定的Workfront面板連線。 </p><p>如需有關連線您的電腦的指示 [!DNL Workfront] 應用程式至 [!DNL Workfront Fusion]，請參閱 <a href="#create-a-connection-to-workfront-boards" class="MCXref xref">建立與Workfront展示板的連線</a> 本文章內容。</p> </td> 
+      <td> <p>您可以使用現有的Workfront連線來連線至Workfront面板，或使用特定的Workfront面板連線。 </p><p>如需有關將您的[!DNL Workfront]應用程式連線到[!DNL Workfront Fusion]的說明，請參閱本文中的<a href="#create-a-connection-to-workfront-boards" class="MCXref xref">建立與Workfront展示板的連線</a>。</p> </td> 
   </tr> 
   <tr> 
    <td>[！UICONTROL卡片ID]</td> 
@@ -330,7 +330,7 @@ After the webhook is created, you can view the address of the endpoint that even
  <tbody> 
   <tr> 
    <td>[！UICONTROL Connection]</td> 
-      <td> <p>您可以使用現有的Workfront連線來連線至Workfront面板，或使用特定的Workfront面板連線。 </p><p>如需有關連線您的電腦的指示 [!DNL Workfront] 應用程式至 [!DNL Workfront Fusion]，請參閱 <a href="#create-a-connection-to-workfront-boards" class="MCXref xref">建立與Workfront展示板的連線</a> 本文章內容。</p> </td> 
+      <td> <p>您可以使用現有的Workfront連線來連線至Workfront面板，或使用特定的Workfront面板連線。 </p><p>如需有關將您的[!DNL Workfront]應用程式連線到[!DNL Workfront Fusion]的說明，請參閱本文中的<a href="#create-a-connection-to-workfront-boards" class="MCXref xref">建立與Workfront展示板的連線</a>。</p> </td> 
   </tr> 
   <tr> 
    <td>[！UICONTROL卡片ID]</td> 
@@ -366,7 +366,7 @@ After the webhook is created, you can view the address of the endpoint that even
  <tbody> 
   <tr> 
    <td>[！UICONTROL Connection]</td> 
-      <td> <p>您可以使用現有的Workfront連線來連線至Workfront面板，或使用特定的Workfront面板連線。 </p><p>如需有關連線您的電腦的指示 [!DNL Workfront] 應用程式至 [!DNL Workfront Fusion]，請參閱 <a href="#create-a-connection-to-workfront-boards" class="MCXref xref">建立與Workfront展示板的連線</a> 本文章內容。</p> </td> 
+      <td> <p>您可以使用現有的Workfront連線來連線至Workfront面板，或使用特定的Workfront面板連線。 </p><p>如需有關將您的[!DNL Workfront]應用程式連線到[!DNL Workfront Fusion]的說明，請參閱本文中的<a href="#create-a-connection-to-workfront-boards" class="MCXref xref">建立與Workfront展示板的連線</a>。</p> </td> 
   </tr> 
   <tr> 
    <td>[！UICONTROL展示板名稱]</td> 
@@ -389,7 +389,7 @@ After the webhook is created, you can view the address of the endpoint that even
  <tbody> 
   <tr> 
    <td>[！UICONTROL Connection]</td> 
-      <td> <p>您可以使用現有的Workfront連線來連線至Workfront面板，或使用特定的Workfront面板連線。 </p><p>如需有關連線您的電腦的指示 [!DNL Workfront] 應用程式至 [!DNL Workfront Fusion]，請參閱 <a href="#create-a-connection-to-workfront-boards" class="MCXref xref">建立與Workfront展示板的連線</a> 本文章內容。</p> </td> 
+      <td> <p>您可以使用現有的Workfront連線來連線至Workfront面板，或使用特定的Workfront面板連線。 </p><p>如需有關將您的[!DNL Workfront]應用程式連線到[!DNL Workfront Fusion]的說明，請參閱本文中的<a href="#create-a-connection-to-workfront-boards" class="MCXref xref">建立與Workfront展示板的連線</a>。</p> </td> 
   </tr> 
   <tr> 
    <td>[！UICONTROL展示板ID]</td> 
@@ -414,7 +414,7 @@ After the webhook is created, you can view the address of the endpoint that even
  <tbody> 
   <tr> 
    <td>[！UICONTROL Connection]</td> 
-      <td> <p>您可以使用現有的Workfront連線來連線至Workfront面板，或使用特定的Workfront面板連線。 </p><p>如需有關連線您的電腦的指示 [!DNL Workfront] 應用程式至 [!DNL Workfront Fusion]，請參閱 <a href="#create-a-connection-to-workfront-boards" class="MCXref xref">建立與Workfront展示板的連線</a> 本文章內容。</p> </td> 
+      <td> <p>您可以使用現有的Workfront連線來連線至Workfront面板，或使用特定的Workfront面板連線。 </p><p>如需有關將您的[!DNL Workfront]應用程式連線到[!DNL Workfront Fusion]的說明，請參閱本文中的<a href="#create-a-connection-to-workfront-boards" class="MCXref xref">建立與Workfront展示板的連線</a>。</p> </td> 
   </tr> 
   <tr> 
    <td>[！UICONTROL展示板ID]</td> 
@@ -445,7 +445,7 @@ After the webhook is created, you can view the address of the endpoint that even
  <tbody> 
   <tr> 
    <td>[！UICONTROL Connection]</td> 
-      <td> <p>您可以使用現有的Workfront連線來連線至Workfront面板，或使用特定的Workfront面板連線。 </p><p>如需有關連線您的電腦的指示 [!DNL Workfront] 應用程式至 [!DNL Workfront Fusion]，請參閱 <a href="#create-a-connection-to-workfront-boards" class="MCXref xref">建立與Workfront展示板的連線</a> 本文章內容。</p> </td> 
+      <td> <p>您可以使用現有的Workfront連線來連線至Workfront面板，或使用特定的Workfront面板連線。 </p><p>如需有關將您的[!DNL Workfront]應用程式連線到[!DNL Workfront Fusion]的說明，請參閱本文中的<a href="#create-a-connection-to-workfront-boards" class="MCXref xref">建立與Workfront展示板的連線</a>。</p> </td> 
   </tr> 
   <tr> 
    <td>[！UICONTROL展示板ID]</td> 
@@ -468,7 +468,7 @@ After the webhook is created, you can view the address of the endpoint that even
  <tbody> 
   <tr> 
    <td>[！UICONTROL Connection]</td> 
-      <td> <p>您可以使用現有的Workfront連線來連線至Workfront面板，或使用特定的Workfront面板連線。 </p><p>如需有關連線您的電腦的指示 [!DNL Workfront] 應用程式至 [!DNL Workfront Fusion]，請參閱 <a href="#create-a-connection-to-workfront-boards" class="MCXref xref">建立與Workfront展示板的連線</a> 本文章內容。</p> </td> 
+      <td> <p>您可以使用現有的Workfront連線來連線至Workfront面板，或使用特定的Workfront面板連線。 </p><p>如需有關將您的[!DNL Workfront]應用程式連線到[!DNL Workfront Fusion]的說明，請參閱本文中的<a href="#create-a-connection-to-workfront-boards" class="MCXref xref">建立與Workfront展示板的連線</a>。</p> </td> 
   </tr> 
   <tr> 
    <td>[！UICONTROL展示板ID]</td> 
@@ -496,7 +496,7 @@ After the webhook is created, you can view the address of the endpoint that even
  <tbody> 
   <tr> 
    <td>[！UICONTROL Connection]</td> 
-      <td> <p>您可以使用現有的Workfront連線來連線至Workfront面板，或使用特定的Workfront面板連線。 </p><p>如需有關連線您的電腦的指示 [!DNL Workfront] 應用程式至 [!DNL Workfront Fusion]，請參閱 <a href="#create-a-connection-to-workfront-boards" class="MCXref xref">建立與Workfront展示板的連線</a> 本文章內容。</p> </td> 
+      <td> <p>您可以使用現有的Workfront連線來連線至Workfront面板，或使用特定的Workfront面板連線。 </p><p>如需有關將您的[!DNL Workfront]應用程式連線到[!DNL Workfront Fusion]的說明，請參閱本文中的<a href="#create-a-connection-to-workfront-boards" class="MCXref xref">建立與Workfront展示板的連線</a>。</p> </td> 
   </tr> 
   <tr> 
    <td>[！UICONTROL卡片ID]</td> 
@@ -523,7 +523,7 @@ After the webhook is created, you can view the address of the endpoint that even
  <tbody> 
   <tr> 
    <td>[！UICONTROL Connection]</td> 
-      <td> <p>您可以使用現有的Workfront連線來連線至Workfront面板，或使用特定的Workfront面板連線。 </p><p>如需有關連線您的電腦的指示 [!DNL Workfront] 應用程式至 [!DNL Workfront Fusion]，請參閱 <a href="#create-a-connection-to-workfront-boards" class="MCXref xref">建立與Workfront展示板的連線</a> 本文章內容。</p> </td> 
+      <td> <p>您可以使用現有的Workfront連線來連線至Workfront面板，或使用特定的Workfront面板連線。 </p><p>如需有關將您的[!DNL Workfront]應用程式連線到[!DNL Workfront Fusion]的說明，請參閱本文中的<a href="#create-a-connection-to-workfront-boards" class="MCXref xref">建立與Workfront展示板的連線</a>。</p> </td> 
   </tr> 
   <tr> 
    <td>[！UICONTROL展示板ID]</td> 
@@ -555,7 +555,7 @@ After the webhook is created, you can view the address of the endpoint that even
  <tbody> 
   <tr> 
    <td>[！UICONTROL Connection]</td> 
-      <td> <p>您可以使用現有的Workfront連線來連線至Workfront面板，或使用特定的Workfront面板連線。 </p><p>如需有關連線您的電腦的指示 [!DNL Workfront] 應用程式至 [!DNL Workfront Fusion]，請參閱 <a href="#create-a-connection-to-workfront-boards" class="MCXref xref">建立與Workfront展示板的連線</a> 本文章內容。</p> </td> 
+      <td> <p>您可以使用現有的Workfront連線來連線至Workfront面板，或使用特定的Workfront面板連線。 </p><p>如需有關將您的[!DNL Workfront]應用程式連線到[!DNL Workfront Fusion]的說明，請參閱本文中的<a href="#create-a-connection-to-workfront-boards" class="MCXref xref">建立與Workfront展示板的連線</a>。</p> </td> 
   </tr> 
   <tr> 
    <td>[！UICONTROL卡片ID]</td> 
@@ -578,7 +578,7 @@ After the webhook is created, you can view the address of the endpoint that even
  <tbody> 
   <tr> 
    <td>[！UICONTROL Connection]</td> 
-      <td> <p>您可以使用現有的Workfront連線來連線至Workfront面板，或使用特定的Workfront面板連線。 </p><p>如需有關連線您的電腦的指示 [!DNL Workfront] 應用程式至 [!DNL Workfront Fusion]，請參閱 <a href="#create-a-connection-to-workfront-boards" class="MCXref xref">建立與Workfront展示板的連線</a> 本文章內容。</p> </td> 
+      <td> <p>您可以使用現有的Workfront連線來連線至Workfront面板，或使用特定的Workfront面板連線。 </p><p>如需有關將您的[!DNL Workfront]應用程式連線到[!DNL Workfront Fusion]的說明，請參閱本文中的<a href="#create-a-connection-to-workfront-boards" class="MCXref xref">建立與Workfront展示板的連線</a>。</p> </td> 
   </tr> 
   <tr> 
    <td>[！UICONTROL卡片ID]</td> 
@@ -603,15 +603,15 @@ After the webhook is created, you can view the address of the endpoint that even
  <tbody> 
   <tr> 
    <td role="rowheader">[！UICONTROL Connection]</td> 
-      <td> <p>您可以使用現有的Workfront連線來連線至Workfront面板，或使用特定的Workfront面板連線。 </p><p>如需有關連線您的電腦的指示 [!DNL Workfront] 應用程式至 [!DNL Workfront Fusion]，請參閱 <a href="#create-a-connection-to-workfront-boards" class="MCXref xref">建立與Workfront展示板的連線</a> 本文章內容。</p> </td> 
+      <td> <p>您可以使用現有的Workfront連線來連線至Workfront面板，或使用特定的Workfront面板連線。 </p><p>如需有關將您的[!DNL Workfront]應用程式連線到[!DNL Workfront Fusion]的說明，請參閱本文中的<a href="#create-a-connection-to-workfront-boards" class="MCXref xref">建立與Workfront展示板的連線</a>。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">URL</td> 
-   <td> <p>輸入相對於<code> https://&lt;WORKFRONT_DOMAIN&gt;/boards-service/graphql?</code>.</p> </td> 
+   <td> <p>輸入相對於<code> https://&lt;WORKFRONT_DOMAIN&gt;/boards-service/graphql?</code>的路徑。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL方法]</td> 
-   <td> <p>選取設定API呼叫所需的HTTP要求方法。 如需詳細資訊，請參閱 <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">中的HTTP要求方法 [!DNL Adobe Workfront Fusion]</a>.</p><p>對於大多數展示板呼叫，方法是POST的。 </td> 
+   <td> <p>選取設定API呼叫所需的HTTP要求方法。 如需詳細資訊，請參閱[!DNL Adobe Workfront Fusion]</a>中的<a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">HTTP要求方法。</p><p>對於大多數展示板呼叫，方法是POST的。 </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL Headers]</td> 
@@ -623,11 +623,11 @@ After the webhook is created, you can view the address of the endpoint that even
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL Body]</td> 
-   <td> <p>以JSON內嵌Graphql的形式，新增API呼叫的內文內容 </p> <p>範例：</p><p>此範例會更新欄名稱。 您可以包含 <code>boardId</code> 和 <code>columnId</code> 作為GUID，以硬式編碼或對映自先前的模組。<p><pre>{
+   <td> <p>以JSON內嵌Graphql的形式，新增API呼叫的內文內容 </p> <p>範例：</p><p>此範例會更新欄名稱。 您可以將<code>boardId</code>和<code>columnId</code>加入為GUID，以硬式編碼或對映自先前的模組。<p><pre>{
 
   &quot;query&quot;： &quot;mutation { updateColumn(boardId： \&quot;\&quot;， columnId： \&quot;\&quot;， updateColumnInput： { name： \&quot;\&quot; }) { id name }}&quot;
 
-}</pre><p>注意：  <p>使用條件陳述式時，例如 <code>如果</code> 在JSON中，將引號放在條件陳述式之外。</p>
+}</pre><p>注意：  <p>使用條件陳述式時，例如<code>if</code> 在JSON中，將引號放在條件陳述式之外。</p>
 <div class="example" data-mc-autonum="<b>Example: </b>">
 <p> <img src="assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p>
 </div> </p> </td>

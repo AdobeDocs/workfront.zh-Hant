@@ -1,8 +1,8 @@
 ---
 product-area: workfront-integrations;agile-and-teams;user-management
 navigation-topic: workfront-for-microsoft-teams
-title: 存取 [!DNL Adobe Workfront] 從 [!DNL Microsoft] 團隊
-description: 您可以存取 [!DNL Adobe Workfront] 從 [!DNL Microsoft Teams] 並在中執行數個動作 [!DNL Workfront] 在Workfront機器人頻道或任何其他團隊頻道中鍵入命令。
+title: 從 [!DNL Microsoft] 個團隊存取 [!DNL Adobe Workfront]
+description: 您可以從 [!DNL Microsoft Teams] 存取 [!DNL Adobe Workfront] ，並在 [!DNL Workfront] 中執行數個動作，方法是在Workfront機器人頻道或其他任何團隊頻道中輸入命令。
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: a12277e8-2c2e-4b53-990f-6ee9a6541492
@@ -13,7 +13,7 @@ ht-degree: 1%
 
 ---
 
-# 存取 [!DNL Adobe Workfront] 從 [!DNL Microsoft Teams]
+# 從[!DNL Microsoft Teams]存取[!DNL Adobe Workfront]
 
 <!--Audited: 01/2024-->
 
@@ -21,20 +21,20 @@ ht-degree: 1%
 >
 >適用於Microsoft Teams的Adobe Workfront整合目前僅支援傳統Microsoft Teams體驗。
 
-您可以存取 [!DNL Adobe Workfront] 從 [!DNL Microsoft Teams] 並在中執行數個動作 [!DNL Workfront] 只要在 [!DNL Workfront] 機器人頻道或任何其他團隊頻道。
+您可以從[!DNL Microsoft Teams]存取[!DNL Adobe Workfront]，並在[!DNL Workfront]中執行數個動作，方法是在[!DNL Workfront]機器人頻道或任何其他團隊頻道中輸入命令。
 
-您可在下列位置執行下列動作： [!DNL Workfront] 從 [!DNL Microsoft Teams]：
+您可以從[!DNL Microsoft Teams]在[!DNL Workfront]中執行下列動作：
 
 * 搜尋專案、任務或問題
 * 建立個人任務
 * 回應通知
 * 管理檔案核准
 
-您使用的指令 [!DNL Microsoft Teams] 若要執行這些動作，會因您要存取的管道而異 [!DNL Workfront] 從。
+您從[!DNL Microsoft Teams]執行這些動作的命令會因您想從哪個管道存取[!DNL Workfront]而有所不同。
 
 >[!NOTE]
 >
->[!DNL Microsoft Teams] 不再支援 [!DNL Internet Explorer]. 若要使用 [!DNL Adobe Workfront for Microsoft Teams integration]，您必須使用以外的網頁瀏覽器 [!DNL Internet Explorer].
+>[!DNL Microsoft Teams]不再支援[!DNL Internet Explorer]。 若要使用[!DNL Adobe Workfront for Microsoft Teams integration]，您必須使用[!DNL Internet Explorer]以外的網頁瀏覽器。
 
 ## 存取需求
 
@@ -58,67 +58,67 @@ ht-degree: 1%
  </tbody> 
 </table>
 
-*若要瞭解您擁有的計畫、授權型別或存取權，請連絡 [!DNL Workfront] 管理員。
+*若要瞭解您擁有的計畫、授權型別或存取權，請連絡您的[!DNL Workfront]管理員。
 
-*如需有關Workfront存取需求的詳細資訊，請參閱 [Workfront檔案中的存取要求概觀](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*如需Workfront存取需求的詳細資訊，請參閱Workfront檔案中的[存取需求概觀](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
 ## 先決條件
 
-您可以在中建立個人工作 [!DNL Adobe Workfront] 從 [!DNL Microsoft Teams] 如果符合下列條件：
+如果符合下列條件，您可以從[!DNL Microsoft Teams]在[!DNL Adobe Workfront]中建立個人工作：
 
-* 群組擁有者已安裝並設定 [!DNL Workfront for Microsoft Teams] 給您的團隊。
-* 您已登入 [!DNL Workfront] 從 [!DNL Microsoft Teams].
+* 團隊擁有者已為您的團隊安裝和設定[!DNL Workfront for Microsoft Teams]。
+* 您已從[!DNL Microsoft Teams]登入[!DNL Workfront]。
 
-## 存取 [!DNL Workfront] 從 [!DNL Workfront] 機器人聊天頻道
+## 從[!DNL Workfront]機器人聊天頻道存取[!DNL Workfront]
 
 您必須登入Workfront。
 
-1. 開啟 **[!DNL Workfront]** 機器人聊天頻道。
-1. 按一下 **[!DNL Workfront]** 圖示來顯示搜尋方塊。
+1. 開啟&#x200B;**[!DNL Workfront]**&#x200B;機器人聊天頻道。
+1. 按一下文字欄位下方的&#x200B;**[!DNL Workfront]**&#x200B;圖示以顯示搜尋方塊。
 
    ![teams_search_box_in_the_bot_channel.PNG](assets/teams-search-box-in-the-bot-channel-350x456.png)
 
 1. 開始輸入專案、任務或問題的名稱。
 
-   如需搜尋專案的相關資訊，請參閱區段 [搜尋並共用 [!DNL Adobe Workfront] 中的專案 [!DNL Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/search-for-and-share-wf-items-in-ms-teams.md) in the article [Search for and share [!DNL Adobe Workfront] 中的專案 [!DNL Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/search-for-and-share-wf-items-in-ms-teams.md).
+   如需搜尋專案的相關資訊，請參閱 [!DNL Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/search-for-and-share-wf-items-in-ms-teams.md)中 [!DNL Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/search-for-and-share-wf-items-in-ms-teams.md) in the article [Search for and share [!DNL Adobe Workfront] 個專案中的[搜尋和共用 [!DNL Adobe Workfront] 個專案。
 
-1. 按一下 **[!UICONTROL 在這裡輸入您的問題]** 欄位。
+1. 按一下&#x200B;**[!UICONTROL 在這裡輸入您的問題]**&#x200B;欄位。
 
    ![ms_teams_type_your_questions_here_and_what_can_I_do_fields.png](assets/ms-teams-type-your-questions-here-and-what-can-i-do-fields-350x71.png)
 
 1. 執行下列其中一項：
 
-   * 按一下 **[!UICONTROL 該怎麼辦？]**，然後 **[!UICONTROL 登入]** 或 **[!UICONTROL 登出]** 之 [!DNL Workfront]，建立 **[!UICONTROL 新任務]** （個人任務），在 [!DNL Workfront]，或取得 **[!UICONTROL 說明]** 透過列出可用命令。
+   * 按一下&#x200B;**[!UICONTROL 我該做什麼？]**，然後&#x200B;**[!UICONTROL 登入]**&#x200B;或&#x200B;**[!UICONTROL 登出[!DNL Workfront]的]**，在[!DNL Workfront]中建立&#x200B;**[!UICONTROL 新工作]** （個人工作），或透過列出可用命令取得&#x200B;**[!UICONTROL 說明]**。
 
-   * 存取 [!DNL Workfront] 直接輸入 **[!UICONTROL 在這裡輸入您的問題]** 欄位。
+   * 直接存取[!DNL Workfront]，方法是在&#x200B;**[!UICONTROL 在這裡輸入問題]**&#x200B;欄位。
 
      命令不區分大小寫。
 
-     此 [!DNL Workfront] 機器人會在以下位置回應您的請求： [!DNL Workfront] 機器人聊天頻道。
+     [!DNL Workfront]機器人會在[!DNL Workfront]機器人聊天頻道中回應您的請求。
 
-## 存取 [!DNL Workfront] 從團隊頻道
+## 從團隊頻道存取[!DNL Workfront]
 
 您必須登入Workfront。
 
-1. 開啟團隊管道並輸入 **@[!DNL Workfront]**，然後選取 **[!DNL Workfront].**
+1. 開啟團隊頻道並輸入&#x200B;**@[!DNL Workfront]**，然後選取&#x200B;**[!DNL Workfront].**
 
-1. 按一下 **[!UICONTROL 搜尋]** 以搜尋專案、任務或問題。
+1. 按一下「**[!UICONTROL 搜尋]**」以搜尋專案、任務或問題。
 
-   如需搜尋專案的相關資訊，請參閱 [搜尋並共用 [!DNL Adobe Workfront] 中的專案 [!DNL Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/search-for-and-share-wf-items-in-ms-teams.md) section in the [Search for and share [!DNL Adobe Workfront] 中的專案 [!DNL Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/search-for-and-share-wf-items-in-ms-teams.md) 文章。
+   如需搜尋專案的相關資訊，請參閱 [!DNL Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/search-for-and-share-wf-items-in-ms-teams.md)文章中 [!DNL Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/search-for-and-share-wf-items-in-ms-teams.md) section in the [Search for and share [!DNL Adobe Workfront] 專案的[搜尋和共用 [!DNL Adobe Workfront] 專案。
 
 1. 輸入下列任何命令以在Workfront中執行這些動作。\
    命令不區分大小寫：
 
-   * **[!UICONTROL 登入]** 以登入 [!DNL Workfront]
-   * **[!DNL Log out]** 登出Workfront
-   * **[!DNL New task]** 建立新的個人任務
+   * **[!UICONTROL 登入]**&#x200B;以登入[!DNL Workfront]
+   * **[!DNL Log out]**&#x200B;登出Workfront
+   * **[!DNL New task]**&#x200B;以建立新的個人任務
 
-     如需有關建立工作的資訊，請參閱 [!DNL Microsoft Teams]，請參閱 [建立 [!DNL Adobe Workfront] 任務來源 [!DNL Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/create-workfront-tasks-from-ms-teams.md).
+     如需有關從[!DNL Microsoft Teams]建立工作的資訊，請參閱[從 [!DNL Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/create-workfront-tasks-from-ms-teams.md)建立 [!DNL Adobe Workfront] 工作。
 
-   * **[!UICONTROL 說明]** 以檢視所有可用指令的清單。
+   * **[!UICONTROL 說明]**&#x200B;以檢視所有可用命令的清單。
 
-     此 [!DNL Workfront] 機器人會在以下位置回應您的請求： [!DNL Workfront] 機器人聊天頻道。
+     [!DNL Workfront]機器人會在[!DNL Workfront]機器人聊天頻道中回應您的請求。
 
-1. 前往 [!DNL Workfront] 要存取的機器人聊天頻道 [!DNL Workfront] 並完成您的要求。
+1. 移至[!DNL Workfront]機器人聊天頻道以存取[!DNL Workfront]並完成您的要求。

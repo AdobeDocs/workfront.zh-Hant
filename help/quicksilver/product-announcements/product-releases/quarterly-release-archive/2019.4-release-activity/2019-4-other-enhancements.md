@@ -18,13 +18,13 @@ ht-degree: 0%
 
 本頁說明2019.4版進行的各種增強功能。 它將在2019年11月11日當週的生產環境中提供。
 
-如需2019.4年所做所有變更的清單，請參閱 [2019.4版本總覽](../../../../product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019-4-release-activity-overview.md).
+如需2019.4年所有變更的清單，請參閱[2019.4版本總覽](../../../../product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019-4-release-activity-overview.md)。
 
 <table style="table-layout:auto"> 
  <col> 
  <tbody> 
   <tr> 
-   <td> <strong>從AdobeCC檔案啟動自動校訂工作流程</strong> <p>您不離開Adobe副本，即可為您已建立的Adobe副本檔案啟動自動化校訂工作流程。 如需詳細資訊，請參閱區段 <a href="../../../../documents/workfront-for-adobe-creative-cloud/use-wf-adobe-cc.md#generate" class="MCXref xref" xrefformat="{para}">從Illustrator或InDesign產生校訂</a> 在文章中 <a href="../../../../documents/workfront-for-adobe-creative-cloud/use-wf-adobe-cc.md" class="MCXref xref" xrefformat="{para}">使用適用於Illustrator和InDesign的Workfront擴充功能</a>.</p> </td> 
+   <td> <strong>從AdobeCC檔案啟動自動化校訂工作流程</strong> <p>您不離開Adobe副本，即可為您已建立的Adobe副本檔案啟動自動化校訂工作流程。 如需詳細資訊，請參閱文章<a href="../../../../documents/workfront-for-adobe-creative-cloud/use-wf-adobe-cc.md" class="MCXref xref" xrefformat="{para}">使用適用於Illustrator和InDesign的Workfront擴充功能</a>中的<a href="../../../../documents/workfront-for-adobe-creative-cloud/use-wf-adobe-cc.md#generate" class="MCXref xref" xrefformat="{para}">從Illustrator或InDesign產生校訂</a>一節。</p> </td> 
   </tr> 
   <!--
    <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
@@ -55,17 +55,17 @@ ht-degree: 0%
   <tr> 
    <td> 
     <div> 
-     <strong>自訂表單中預先輸入欄位可用的其他物件型別</strong> 
+     <strong>自訂表單中自動提示欄位可用的其他物件型別</strong> 
      <p>現在，當您建立「預先輸入」自訂欄位時，可以將下列物件型別與該欄位建立關聯：使用者、公司、群組、工作角色、Portfolio、方案、專案和範本。</p> 
      <p>之前，您只能將使用者物件型別與自動提示自訂欄位建立關聯。</p> 
-     <p>如需詳細資訊，請參閱區段 <a href="../../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#create" class="MCXref xref" xrefformat="{para}">建立或編輯自訂表單</a> 在文章中 <a href="../../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref" xrefformat="{para}">建立或編輯自訂表單</a>.</p> 
+     <p>如需詳細資訊，請參閱文章<a href="../../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref" xrefformat="{para}">建立或編輯自訂表單</a>中的<a href="../../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#create" class="MCXref xref" xrefformat="{para}">建立或編輯自訂表單</a>小節。</p> 
     </div> </td> 
   </tr> 
   <tr> 
-   <td> <strong>顯示之檔案的最新版本檔案名稱</strong> <p>現在，當您上傳檔案名稱與現有版本不同的檔案版本時，新檔案名稱會顯示在Workfront中。</p> <p>先前，當您新增具有不同檔案名稱的新版本時，先前版本的檔案名稱會繼續顯示在Workfront中。</p> <p>如需詳細資訊，請參閱 <a href="../../../../documents/managing-documents/upload-new-document-version.md" class="MCXref xref" xrefformat="{para}">上傳檔案的新版本</a>.</p> </td> 
+   <td> <strong>顯示檔案最新版本的檔案名稱</strong> <p>現在，當您上傳檔案名稱與現有版本不同的檔案版本時，新檔案名稱會顯示在Workfront中。</p> <p>先前，當您新增具有不同檔案名稱的新版本時，先前版本的檔案名稱會繼續顯示在Workfront中。</p> <p>如需詳細資訊，請參閱<a href="../../../../documents/managing-documents/upload-new-document-version.md" class="MCXref xref" xrefformat="{para}">上傳檔案的新版本</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td> <strong>新增篩選器至自訂表單中的預先輸入欄位</strong> <p>現在，當您將「預先輸入」欄位新增至自訂表單時，可以新增篩選器以限制有人使用欄位時可用的物件。 例如，您可以限制欄位，讓使用者只能選取您組織中行銷和銷售團隊的成員。</p> <p>如需詳細資訊，請參閱建立自訂Forms一文中的建立並新增欄位一節。</p> </td> 
+   <td> <strong>新增篩選器至自訂表單中的Typeahead欄位</strong> <p>現在，當您將「預先輸入」欄位新增至自訂表單時，可以新增篩選器以限制有人使用欄位時可用的物件。 例如，您可以限制欄位，讓使用者只能選取您組織中行銷和銷售團隊的成員。</p> <p>如需詳細資訊，請參閱建立自訂Forms一文中的建立並新增欄位一節。</p> </td> 
   </tr> 
   <tr> 
    <td> 
@@ -75,13 +75,13 @@ ht-degree: 0%
      <p>例如，如果您已建立「核取方塊」欄位，則可將其變更為「下拉式清單」欄位或「選項按鈕」欄位。 這三種欄位顯示型別可以互換。</p> 
      <p>或者，如果您已建立「單行文字欄位」，您可以將其變更為「段落文字欄位」。 這兩種欄位顯示型別可以互換。</p> 
      <p>之前，若要變更自訂欄位的顯示型別，您必須建立新欄位並刪除舊欄位。 這需要傳輸資料，而這通常很耗時。</p> 
-     <p>如需詳細資訊，請參閱 <a href="../../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#create" class="MCXref xref" xrefformat="{para}">建立或編輯自訂表單</a> 在文章中 <a href="../../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref" xrefformat="{para}">建立或編輯自訂表單</a></p> 
+     <p>如需詳細資訊，請參閱文章<a href="../../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref" xrefformat="{para}">建立或編輯自訂表單</a>中的<a href="../../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#create" class="MCXref xref" xrefformat="{para}">建立或編輯自訂表單</a></p> 
     </div> </td> 
   </tr> 
   <tr> 
    <td> 
     <div> 
-     <strong>建立休假行事曆和報告</strong> 
+     <strong>建立休假行事曆與報告</strong> 
      <p>您現在可以看到使用者的休假，以便進行更好的規劃和執行。 您也可以將新的休假報告和行事曆新增到您的儀表板，以即時檢視使用者可用性。</p> 
     </div> </td> 
   </tr> 

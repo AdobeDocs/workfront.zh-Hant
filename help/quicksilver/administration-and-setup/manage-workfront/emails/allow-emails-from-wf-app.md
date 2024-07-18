@@ -3,7 +3,7 @@ user-type: administrator
 product-area: system-administration
 navigation-topic: emails-administration
 title: 允許來自Adobe Workfront應用程式的電子郵件
-description: 如果您已將防火牆或郵件伺服器設定為僅允許訪問特定供應商，則需要將某些Adobe Workfront IP地址添加到防火牆允許清單。 有關說明，請參閱配置防火牆的允許清單。
+description: 如果您已將防火牆或郵件伺服器設定為僅允許特定廠商存取，則需要將特定Adobe Workfront IP位址新增至防火牆允許清單。 如需指示，請參閱設定防火牆的允許清單。
 author: Lisa, Caroline
 feature: System Setup and Administration
 role: Admin
@@ -17,4 +17,4 @@ ht-degree: 0%
 
 # 允許來自Adobe Workfront應用程式的電子郵件
 
-如果您已將防火牆或郵件伺服器設定為僅允許訪問特定供應商，則需要將某些Adobe Workfront IP地址添加到防火牆允許清單。 如需指示，請參閱 [配置防火牆的允許清單](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).
+如果您已將防火牆或郵件伺服器設定為僅允許特定廠商存取，則需要將特定Adobe Workfront IP位址新增至防火牆允許清單。 如需指示，請參閱[設定防火牆的允許清單](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md)。

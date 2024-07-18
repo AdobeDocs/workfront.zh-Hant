@@ -20,7 +20,7 @@ ht-degree: 0%
 本節包含下列文章：
 
 * [建立專案](../../../manage-work/projects/create-projects/create-project.md)
-* [請求專案](../../../manage-work/projects/create-projects/request-project.md)
+* [要求專案](../../../manage-work/projects/create-projects/request-project.md)
 * [使用範本建立專案](../../../manage-work/projects/create-projects/create-project-from-template.md)
 * [從Microsoft專案匯入專案](../../../manage-work/projects/create-projects/import-project-from-ms-project.md)
 * [建立專案基準線](../../../manage-work/projects/create-projects/create-baselines.md)

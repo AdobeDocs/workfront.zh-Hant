@@ -22,10 +22,10 @@ ht-degree: 0%
 >
 >本頁所述的功能在生產環境使用之前可能會有所變更。
 
-如需2019.2年度所有變更的清單，請參閱 [2019.2版本活動概覽](../../../../product-announcements/product-releases/quarterly-release-archive/2019.2-release-activity/2019-2-release-activity-overview.md).
+如需2019.2年度所有變更的清單，請參閱[2019.2年度發行活動概覽](../../../../product-announcements/product-releases/quarterly-release-archive/2019.2-release-activity/2019-2-release-activity-overview.md)。
 
 ## 指定小時專案的工作角色
 
 您現在可以在Workfront中記錄時間時指定工作角色。 若要使用此功能，您的Workfront管理員必須在「時程表和時數>偏好設定」下啟用設定。
 
-如需如何在記錄時間時指定工作角色的詳細資訊，請參閱文章 [記錄時間](../../../../timesheets/create-and-manage-timesheets/log-time.md).
+如需如何在記錄時間時指定工作角色的詳細資訊，請參閱文章[記錄時間](../../../../timesheets/create-and-manage-timesheets/log-time.md)。

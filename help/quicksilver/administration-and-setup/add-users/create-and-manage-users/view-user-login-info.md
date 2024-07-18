@@ -1,27 +1,27 @@
 ---
-title: 查看用戶登錄資訊
+title: 檢視使用者登入資訊
 user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: create-and-manage-users
-description: 您可以指出您要將這項資訊納入使用者清單的檢視中，或列在使用者的報表中，借此查看使用者登入Workfront的頻率以及上次登入的時間。
+description: 您可以藉由指定您要在使用者清單的檢視或使用者的報表中納入此資訊，來檢視使用者登入Workfront的頻率以及上次登入的時間。
 author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 7b37c34a-d628-4d9b-9688-e4b9f89c666b
 source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
 workflow-type: tm+mt
-source-wordcount: '570'
-ht-degree: 0%
+source-wordcount: '571'
+ht-degree: 1%
 
 ---
 
-# 查看用戶登錄資訊
+# 檢視使用者登入資訊
 
-您可以指出您要將這項資訊納入使用者清單的檢視中，或列在使用者的報表中，借此查看使用者登入Adobe Workfront的頻率以及上次登入的時間。
+您可以藉由指定您要在使用者清單的檢視或使用者的報表中納入此資訊，來檢視使用者登入Adobe Workfront的頻率以及上次登入的時間。
 
 ## 存取需求
 
-您必須具備下列條件才能執行本文所述步驟：
+您必須具備下列專案才能執行本文所述的步驟：
 
 <table style="table-layout:auto"> 
  <col> 
@@ -36,52 +36,52 @@ ht-degree: 0%
    <td> <p>計劃 </p>   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">訪問級別配置</td> 
+   <td role="rowheader">存取層級設定</td> 
    <td> <p>您必須具備下列其中一項：</p> 
     <ul> 
-     <li> <p>系統管理員訪問級別。 如需詳細資訊，請參閱 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">授予使用者完整的管理存取權</a>. </p> </li> 
-     <li> <p><b>使用者</b> 在您的存取層級中設定 <b>編輯</b> 存取，使用 <b>建立</b> 和兩者中的至少一個 <b>使用者管理</b> 選項 <b>微調您的設定</b> <img src="assets/gear-icon-in-access-levels.png">. </p> <p>在這兩個選項中，如果用戶 <b>管理員（群組使用者）</b> 啟用時，您必須是使用者所屬群組的群組管理員。</p> <p>如需 <b>使用者</b> 在存取層級中設定，請參閱 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">授予使用者存取權</a>.</p> </li> 
+     <li> <p>系統管理員存取層級。 如需詳細資訊，請參閱<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">授予使用者完整管理存取權</a>。 </p> </li> 
+     <li> <p>您的存取層級中的<b>使用者</b>設定已設定為<b>編輯</b>存取權，其中<b>建立</b>以及在<b>微調您的設定</b> <img src="assets/gear-icon-in-access-levels.png">下啟用的兩個<b>使用者管理員</b>選項中的至少一個。 </p> <p>在這兩個選項中，如果已啟用使用者<b>管理員（群組使用者）</b>，您必須是該使用者所屬群組的群組管理員。</p> <p>如需存取層級中<b>使用者</b>設定的詳細資訊，請參閱<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">授予使用者存取權</a>。</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## Workfront記錄登入資訊的方式
+## Workfront如何記錄登入資訊
 
-Workfront會記錄下列使用者登入系統的相關資訊：
+Workfront會記錄下列有關登入系統之使用者的資訊：
 
-* **登入計數**:Workfront會計算每24小時登入應用程式一次的使用者。 如果一個使用者使用不同的瀏覽器、電腦或行動裝置多次登入，Workfront會將一天中發生的所有登入都計為一次登入。 「登入計數」包含的資訊從建立使用者時開始。
-* **上次登入日期**:使用者上次登入的日期。 來自任何瀏覽器、行動裝置或其他應用程式的每次登入日期都會記錄在此欄位中。
+* **登入計數**： Workfront會將每24小時登入一次應用程式的使用者計數。 若一位使用者使用不同瀏覽器、電腦或行動裝置登入多次，Workfront會將一天內發生的所有登入計為單次登入。 「登入計數」包含從建立使用者時開始的資訊。
+* **上次登入日期**：使用者上次登入的日期。 每次從任何瀏覽器、行動裝置或其他應用程式登入的日期，都會記錄在此欄位中。
 
-以下列任一方式登入Workfront，即計為Workfront登入：
+以下列任一方式登入Workfront即會計為Workfront的登入：
 
-* Workfront Web應用程式
+* Workfront網頁應用程式
 * Workfront行動應用程式(iOS或Android裝置)
-* 任何支援的Workfront與其他協力廠商應用程式整合(Slack、Jira)
-* Workfront與其他協力廠商應用程式之間的任何自訂整合。
-* Workfront API
+* 任何受支援的Workfront與其他第三方應用程式(Slack、Jira)的整合
+* Workfront與其他第三方應用程式之間的任何自訂整合。
+* WORKFRONT API
 
-   >[!NOTE]
-   >
-   >透過Workfront API登入Workfront的功能，僅供尚未上線至Adobe商業平台的組織使用。
+  >[!NOTE]
+  >
+  >透過Workfront API登入Workfront，僅適用於尚未加入Adobe Business Platform的組織。
 
-## 在使用者清單或報表中顯示使用資訊
+## 在使用者清單或報告中顯示使用資訊
 
-您可以在使用者清單的檢視或使用者的報表中顯示「登入計數」和「上次登入日期」欄位。\
-如需建立報表的詳細資訊，請參閱 [建立自訂報表](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+您可以在使用者清單的檢視或使用者的報告中顯示「登入計數」和「上次登入日期」欄位。\
+如需建立報告的詳細資訊，請參閱[建立自訂報告](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md)。
 
-要在用戶清單視圖中顯示使用資訊，請執行以下操作：
+若要在使用者清單檢視中顯示使用資訊：
 
 1. 前往Workfront中的使用者清單。
-1. 從 **檢視** 下拉式功能表，選取 **新建視圖**.
+1. 從&#x200B;**檢視**&#x200B;下拉式功能表中，選取&#x200B;**新增檢視**。
 
-1. 按一下 **添加列** 靠近螢幕的右下角。
-1. 在 **顯示在此列中** 欄位，開始鍵入 **登入計數**，然後選取顯示於下方清單中的 **使用者**.
+1. 按一下熒幕右下角附近的&#x200B;**新增欄**。
+1. 在&#x200B;**顯示在此欄**&#x200B;欄位中，開始輸入&#x200B;**登入計數**，然後當它出現在&#x200B;**使用者**&#x200B;下的清單中時選取它。
 
-1. 按一下 **添加列** 。
-1. 在 **顯示在欄中** 欄位，開始鍵入 **上次登入日期**，然後選取顯示於下方清單中的 **使用者**.
+1. 再按一下「**新增欄**」。
+1. 在&#x200B;**顯示於欄**&#x200B;欄位中，開始輸入&#x200B;**上次登入日期**，然後當它出現在&#x200B;**使用者**&#x200B;下的清單中時選取它。
 
-1. （選用）按一下 **進階選項**，然後選取 **欄位格式** 從下拉式功能表，將上次登入的時間或星期幾納入欄中。
+1. （選擇性）按一下&#x200B;**進階選項**，然後從下拉式選單中選取&#x200B;**欄位格式**，以將上次登入的時間或一週中的某天包含在欄中。
 
-1. 按一下 **保存視圖**.\
-   檢視包含使用者登入次數及上次登入時間的相關資訊。
+1. 按一下「**儲存視圖**」。\
+   檢視包含使用者已登入次數和上次登入時間的相關資訊。

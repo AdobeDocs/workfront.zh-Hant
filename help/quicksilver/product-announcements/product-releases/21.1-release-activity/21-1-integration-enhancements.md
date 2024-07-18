@@ -19,7 +19,7 @@ ht-degree: 0%
 
 本頁說明21.1版對預覽環境所做的所有整合增強功能。 這些增強功能將在2021年2月15日當週的生產環境中提供。
 
-如需21.1版所有可用變更的清單，請參閱 [21.1版本總覽](../../../product-announcements/product-releases/21.1-release-activity/21-1-release-overview.md).
+如需21.1版本可用的所有變更清單，請參閱[21.1版本概觀](../../../product-announcements/product-releases/21.1-release-activity/21-1-release-overview.md)。
 
 ## Microsoft Teams中的Adobe Workfront通知增強功能
 
@@ -31,5 +31,5 @@ ht-degree: 0%
 
 若要使用此新功能，您必須再次登入您的Microsoft Teams帳戶。 您不需要採取任何其他動作。
 
-如需詳細資訊，請參閱 [在Microsoft Teams中管理Adobe Workfront通知](../../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/manage-wf-notifications-approval-requests-ms-teams.md).
+如需詳細資訊，請參閱[在Microsoft Teams中管理Adobe Workfront通知](../../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/manage-wf-notifications-approval-requests-ms-teams.md)。
 

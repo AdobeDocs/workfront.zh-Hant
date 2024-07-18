@@ -23,7 +23,7 @@ ht-degree: 0%
 
 本節包含下列子章節：
 
-* [校訂概述](../../review-and-approve-work/proofing/proofing-overview/proofing-basics.md)
+* [校訂總覽](../../review-and-approve-work/proofing/proofing-overview/proofing-basics.md)
 * [建立校樣](../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-proofs-in-wf.md)
 * [在Adobe Workfront中管理校樣](../../review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proofs-in-wf.md)
 * [在Adobe Workfront中檢閱校樣](../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-proofs-in-wf.md)

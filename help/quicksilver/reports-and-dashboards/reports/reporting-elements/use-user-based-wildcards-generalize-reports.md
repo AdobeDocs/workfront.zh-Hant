@@ -41,43 +41,43 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td role="rowheader"><strong>存取層級設定*</strong></td> 
-   <td> <p>編輯對篩選器、檢視、群組的存取權</p> <p>編輯報告、儀表板、行事曆的存取權，以編輯報告中的報告元素</p> <p>注意：如果您還是沒有存取權，請詢問您的Workfront管理員，他們是否在您的存取層級中設定其他限制。 如需有關Workfront管理員如何修改您的存取層級的資訊，請參閱 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>.</p> </td> 
+   <td> <p>編輯對篩選器、檢視、群組的存取權</p> <p>編輯報告、儀表板、行事曆的存取權，以編輯報告中的報告元素</p> <p>注意：如果您還是沒有存取權，請詢問您的Workfront管理員，他們是否在您的存取層級中設定其他限制。 如需Workfront管理員如何修改存取層級的詳細資訊，請參閱<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>物件許可權</strong></td> 
-   <td> <p>管理報表的許可權，以編輯報表中的報表元素</p> <p>管理檢視或篩選的許可權以編輯它們</p> <p>如需請求其他存取許可權的詳細資訊，請參閱 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">要求物件的存取權 </a>.</p> </td> 
+   <td> <p>管理報表的許可權，以編輯報表中的報表元素</p> <p>管理檢視或篩選的許可權以編輯它們</p> <p>如需請求其他存取權的資訊，請參閱<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">請求物件</a>的存取權。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;若要瞭解您擁有的計畫、授權型別或存取權，請聯絡您的Workfront管理員。
+&#42;若要瞭解您擁有的計畫、授權型別或存取權，請連絡您的Workfront管理員。
 
 ## 先決條件
 
 您必須先建立報表，才能在其中新增萬用字元變數。
 
-如需建立報表的指示，請參閱 [建立報告](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-report.md).
+如需建立報表的指示，請參閱[建立報表](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-report.md)。
 
 ## 操作步驟
 
 若要在報表中插入以使用者為基礎的萬用字元：
 
 1. 移至您要插入使用者型萬用字元的報表。
-1. 按一下 **報表動作**，然後 **編輯**.
+1. 按一下&#x200B;**報告動作**，然後按一下&#x200B;**編輯**。
 
-1. 按一下 **篩選器** 標籤。
-1. 按一下 **新增篩選器規則**.
+1. 按一下&#x200B;**篩選器**&#x200B;索引標籤。
+1. 按一下&#x200B;**新增篩選規則**。
 1. 開始輸入您要作為篩選依據的欄位名稱。\
    您必須輸入參考使用者物件或使用者相關資訊的欄位。
-1. 選取 **等於** ，此專案位於篩選器變數的下拉式功能表中。
+1. 在篩選變數的下拉式選單中選取&#x200B;**等於**。
 
    >[!TIP]
    >
-   >您必須一律選取 **等於** 在Adobe Workfront中使用萬用字元時篩選變數。
+   >在Adobe Workfront中使用萬用字元時，您必須一律選取&#x200B;**等於**&#x200B;篩選器變數。
 
-1. 在 **開始輸入名稱……** 方塊，輸入： `$$USER.ID` 或 `$$USER.name` 如果您希望報表能根據登入使用者的名稱顯示登入使用者相關資訊。 您可以插入參考登入使用者群組、團隊、公司或其他資訊的其他萬用字元。
+1. 在&#x200B;**開始輸入名稱……**&#x200B;方塊中，輸入： `$$USER.ID`或`$$USER.name` （如果您希望報告顯示登入的使用者資訊，根據其名稱）。 您可以插入參考登入使用者群組、團隊、公司或其他資訊的其他萬用字元。
 
-   如需使用者型萬用字元的完整清單，請參閱 [萬用字元篩選器變數概觀](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
+   如需使用者型萬用字元的完整清單，請參閱[萬用字元篩選變數概觀](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md)。
 
    ![](assets/user-based-wildcard-in-project-filter-350x74.png)
 
@@ -88,8 +88,8 @@ ht-degree: 1%
 另請參閱：
 
 <!--outdated: * [Basic Report Creation Program](https://one.workfront.com/s/basic-report-creation-program) -->
-* [萬用字元篩選器變數概觀](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md)
+* [萬用字元篩選器變數總覽](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md)
 * [在Adobe Workfront中建立或編輯篩選器](../../../reports-and-dashboards/reports/reporting-elements/create-filters.md)
-* [篩選器概觀](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md)
+* [篩選器總覽](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md)
 * [新增提示至報表](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md)
 * [在檢視中使用條件式格式](../../../reports-and-dashboards/reports/reporting-elements/use-conditional-formatting-views.md)

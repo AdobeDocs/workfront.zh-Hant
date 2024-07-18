@@ -18,7 +18,7 @@ ht-degree: 0%
 
 此頁面說明2019.1版包含的所有資源管理增強功能。 此功能現在可在生產環境中使用。
 
-如需2019.1年度所有變更的清單，請參閱 [2019.1版本活動概覽](../../../../product-announcements/product-releases/quarterly-release-archive/2019.1-release-activity/2019-1-release-activity-overview.md).
+如需2019.1年度所有變更的清單，請參閱[2019.1年度發行活動概觀](../../../../product-announcements/product-releases/quarterly-release-archive/2019.1-release-activity/2019-1-release-activity-overview.md)。
 
 ## 更新資源規劃工具中的預設篩選器
 
@@ -37,15 +37,15 @@ ht-degree: 0%
 * 狀態為「目前」或「計畫」。
 * 使用與已登入使用者之主群組相符的群組。
 
-如需將篩選器套用至資源規劃工具的相關資訊，請參閱 [在資源規劃工具中篩選資訊](../../../../resource-mgmt/resource-planning/filter-resource-planner.md).
+如需將篩選器套用至資源規劃工具的相關資訊，請參閱資源規劃工具中的[篩選器資訊](../../../../resource-mgmt/resource-planning/filter-resource-planner.md)。
 
 ## 使用萬用字元作為資源規劃工具篩選器
 
-現在當您在資源規劃工具中建立篩選器時，可以使用萬用字元。 例如，您可以使用$$USER.ID來篩選已登入之使用者的相關資訊，或使用$$USER.companyID來篩選與已登入之使用者屬於同一公司之所有使用者的相關資訊。 如需使用者型變數的完整清單，請參閱 [使用者型萬用字元篩選器變數](../../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md#user-based-variables) 中的區段 [萬用字元篩選器變數](../../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
+現在當您在資源規劃工具中建立篩選器時，可以使用萬用字元。 例如，您可以使用$$USER.ID來篩選已登入之使用者的相關資訊，或使用$$USER.companyID來篩選與已登入之使用者屬於同一公司之所有使用者的相關資訊。 如需使用者型變數的完整清單，請參閱[萬用字元篩選器變數](../../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md)中的[使用者型萬用字元篩選器變數](../../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md#user-based-variables)區段。
 
 以前，資源規劃工具篩選器沒有萬用字元。
 
-如需有關在資源規劃工具中篩選的資訊，請參閱 [在資源規劃工具中篩選資訊](../../../../resource-mgmt/resource-planning/filter-resource-planner.md).
+如需有關在資源規劃工具中篩選的資訊，請參閱資源規劃工具中的[篩選資訊](../../../../resource-mgmt/resource-planning/filter-resource-planner.md)。
 
 <!--
 <iframe class="mt-media" src="assets/290697527?title=0&byline=0&portrait=0" width="640px" height="360px" frameborder="0" allowfullscreen></iframe>
@@ -57,9 +57,9 @@ ht-degree: 0%
 
 在此增強功能之前，您只能使用以使用者為基礎的萬用字元篩選變數。
 
-如需有關在資源規劃工具中篩選的資訊，請參閱 [在資源規劃工具中篩選資訊](../../../../resource-mgmt/resource-planning/filter-resource-planner.md).
+如需有關在資源規劃工具中篩選的資訊，請參閱資源規劃工具中的[篩選資訊](../../../../resource-mgmt/resource-planning/filter-resource-planner.md)。
 
-如需萬用字元篩選變數的詳細資訊，請參閱 [萬用字元篩選器變數](../../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
+如需萬用字元篩選變數的詳細資訊，請參閱[萬用字元篩選變數](../../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md)。
 
 ## 資源規劃工具中角色檢視的匯出選項
 
@@ -71,7 +71,7 @@ ht-degree: 0%
 
 在此增強功能之前，所有層級的資訊都會匯出至角色檢視中。 這些選項已在先前版本的專案和使用者檢視中引入。
 
-如需有關從資源規劃工具匯出資訊的資訊，請參閱 [從資源規劃工具匯出資訊](../../../../resource-mgmt/resource-planning/export-resource-planner.md).
+如需有關從資源規劃工具匯出資訊的資訊，請參閱[從資源規劃工具匯出資訊](../../../../resource-mgmt/resource-planning/export-resource-planner.md)。
 
 ## 匯出資源規劃工具的資料格式選項
 
@@ -84,13 +84,13 @@ ht-degree: 0%
 
 在此增強功能之前，匯出的檔案中的資訊會顯示在Workfront中。
 
-如需有關從資源規劃工具匯出資訊的資訊，請參閱 [從資源規劃工具匯出資訊](../../../../resource-mgmt/resource-planning/export-resource-planner.md).
+如需有關從資源規劃工具匯出資訊的資訊，請參閱[從資源規劃工具匯出資訊](../../../../resource-mgmt/resource-planning/export-resource-planner.md)。
 
 ## 持續排程時間表
 
 >[!NOTE]
 >
->已棄用資源排程工具，並已從Workfront的23.1版本中移除。 如需有關使用工作負載平衡器排程資源的資訊，請參閱 [工作負載平衡器概覽](../../../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
+>已棄用資源排程工具，並已從Workfront的23.1版本中移除。 如需有關使用工作負載平衡器排程資源的資訊，請參閱[工作負載平衡器概覽](../../../../resource-mgmt/workload-balancer/overview-workload-balancer.md)。
 
 排程時間表現在會保留您重新整理時間表或離開頁面時選取的時間範圍。
 
@@ -120,7 +120,7 @@ ht-degree: 0%
 
 在此增強功能之前，依預設會匯出資源規劃工具之所有檢視中的所有資訊層級。
 
-如需有關從資源規劃工具匯出資訊的資訊，請參閱 [從資源規劃工具匯出資訊](../../../../resource-mgmt/resource-planning/export-resource-planner.md).
+如需有關從資源規劃工具匯出資訊的資訊，請參閱[從資源規劃工具匯出資訊](../../../../resource-mgmt/resource-planning/export-resource-planner.md)。
 
 ## 更新至資源規劃工具中的使用者檢視
 
@@ -130,4 +130,4 @@ ht-degree: 0%
 
 您可以使用以使用者為基礎的篩選器，將「使用者檢視」中顯示的使用者人數，減少至僅指派給您要顯示之專案的使用者人數。
 
-如需資源規劃工具中篩選器的相關資訊，請參閱 [在資源規劃工具中篩選資訊](../../../../resource-mgmt/resource-planning/filter-resource-planner.md).
+如需資源規劃工具中篩選器的相關資訊，請參閱資源規劃工具中的[篩選資訊](../../../../resource-mgmt/resource-planning/filter-resource-planner.md)。

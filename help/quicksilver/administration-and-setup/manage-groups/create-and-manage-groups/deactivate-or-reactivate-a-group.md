@@ -37,12 +37,12 @@ If Callisto adds the <b>Is active</b> checkbox to the Details page for groups yo
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront授權*</td> 
-   <td> <p>計劃 </p> <p>您必須是群組的群組管理員或Workfront管理員。 如需詳細資訊，請參閱 <a href="../../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">群組管理員</a> 和 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">授予使用者完整管理存取權</a>.</p> </td> 
+   <td> <p>計劃 </p> <p>您必須是群組的群組管理員或Workfront管理員。 如需詳細資訊，請參閱<a href="../../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">群組管理員</a>和<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">授與使用者完整管理存取權</a>。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;如果您需要瞭解自己的計畫或授權型別，請聯絡Workfront管理員。
+&#42;如果您需要瞭解您擁有的計畫或授權型別，請連絡您的Workfront管理員。
 
 ## 停用或重新啟用群組
 
@@ -52,38 +52,38 @@ If Callisto adds the <b>Is active</b> checkbox to the Details page for groups yo
 >
 >如果您需要重新啟用其中一個，可以執行下列任一項作業之後再啟用：
 >
->* 將其從父群組中移除。 如需詳細資訊，請參閱區段 [從子群組的父群組中移除子群組，並將其設為最上層群組](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/manage-subgroups.md#make) 在文章中 [管理子群組](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/manage-subgroups.md).
+>* 將其從父群組中移除。 如需詳細資訊，請參閱[管理子群組](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/manage-subgroups.md)一文中的[從父群組中移除子群組，並將其設為最上層群組](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/manage-subgroups.md#make)一節。
 >
->* 將其移至使用中群組的下方。 如需詳細資訊，請參閱區段 [建立、移動、檢視、編輯、複製、重新命名、匯出或刪除子群組](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/manage-subgroups.md#create) 在文章中 [管理子群組](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/manage-subgroups.md).
+>* 將其移至使用中群組的下方。 如需詳細資訊，請參閱文章[管理子群組](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/manage-subgroups.md)中的[建立、移動、檢視、編輯、複製、重新命名、匯出或刪除子群組](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/manage-subgroups.md#create)一節。
 >
 
-1. 按一下 **主要功能表** 圖示 ![](assets/main-menu-icon.png) (位於Adobe Workfront的右上角)，然後按一下 **設定** ![](assets/gear-icon-settings.png).
+1. 按一下Adobe Workfront右上角的&#x200B;**主要功能表**&#x200B;圖示![](assets/main-menu-icon.png)，然後按一下&#x200B;**設定** ![](assets/gear-icon-settings.png)。
 
-1. 在左側面板中，選取 **群組**.
+1. 在左側面板中，選取&#x200B;**群組**。
 
    在顯示的清單中，您可以看到您管理的群組及其擁有的任何子群組。 Adobe Workfront管理員可檢視所有群組。
 
 1. 按一下群組的名稱以開啟其頁面。
 
-1. 按一下「更多」功能表 ![](assets/more-icon.png) 在群組名稱旁，然後按一下 **停用** 或 **重新啟用**.
+1. 按一下群組名稱旁的[更多]功能表![](assets/more-icon.png)，然後按一下[停用] **或[重新啟用]** **。**
 
    >[!NOTE]
    >
    >如果群組是已停用群組的子群組，則無法使用作用中選項（預覽中的重新啟用選項）。 您必須先將其從父群組中移除，或將其移動到作用中群組的下方，才能重新啟用它，如上方的重要備註所述。
 
-1. （視條件而定）如果您要停用群組，請按一下 **停用** 在 **停用群組** 方塊顯示。
+1. （視條件而定）如果您正在停用群組，請在顯示的&#x200B;**停用群組**&#x200B;方塊中按一下&#x200B;**停用**。
 
 ## 非作用中群組的考量事項
 
-請針對您藉由停用「為作用中」選項而停用的群組，考慮下列事項（如一節中所述） [停用或重新啟用群組](#View) 本文章內容。
+請考量下列有關您透過停用[停用或重新啟用本文中群組](#View)一節中說明的[作用中]選項來停用的群組。
 
 * 停用群組也會停用其下方的所有子群組。 這包括您停用子群組後新增的子群組。
 
-  如需在此情況下重新啟用子群組的詳細資訊，請參閱 [關於重新啟用非作用中父群組下方的子群組](#about-reactivating-a-subgroup-below-an-inactive-parent-group) 本文章內容。
+  如需在此情況下重新啟用子群組的相關資訊，請參閱本文中的[關於重新啟用非作用中父群組](#about-reactivating-a-subgroup-below-an-inactive-parent-group)下的子群組。
 
-* 當您移至「設定」中的「群組」區域時，您只能在清單中看到作用中的群組，因為「作用中」是預設的篩選器 ![](assets/filter-nwepng.png) 為了它。 如果您想要檢視您管理的所有群組，包括非作用中的群組，可以使用「全部」篩選器。 或者，使用非使用中篩選器以僅列出非使用中篩選器。
+* 當您移至[設定]中的[群組]區域時，您只能在清單中看到作用中的群組，因為[作用中]是它的預設篩選器![](assets/filter-nwepng.png)。 如果您想要檢視您管理的所有群組，包括非作用中的群組，可以使用「全部」篩選器。 或者，使用非使用中篩選器以僅列出非使用中篩選器。
 
-  如需清單中篩選器的詳細資訊，請參閱 [篩選器概觀](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+  如需清單中篩選器的詳細資訊，請參閱[篩選器概觀](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md)。
 
 * 停用群組不會變更下列專案：
 
@@ -102,10 +102,10 @@ If Callisto adds the <b>Is active</b> checkbox to the Details page for groups yo
 
 停用群組也會停用其下方的所有子群組。 如果您需要重新啟用非使用中群組下的其中一個子群組，可以執行下列其中一項作業：
 
-* 將子群組移至使用中群組的下方。 然後為移動的群組啟用「作用中」選項，如一節所述 [停用或重新啟用群組](#View) 本文章內容。
+* 將子群組移至使用中群組的下方。 然後啟用已移動群組的[作用中]選項，如本文中[停用或重新啟用群組](#View)一節所述。
 
-  有關移動群組的說明，請參閱 [移動群組](../../../administration-and-setup/manage-groups/create-and-manage-groups/move-a-group.md).
+  如需移動群組的指示，請參閱[移動群組](../../../administration-and-setup/manage-groups/create-and-manage-groups/move-a-group.md)。
 
-* 從子群組的父群組中移除子群組（使子群組成為最上層群組）。 然後為移動的群組啟用「作用中」選項，如一節所述 [停用或重新啟用群組](#View) 本文章內容。
+* 從子群組的父群組中移除子群組（使子群組成為最上層群組）。 然後啟用已移動群組的[作用中]選項，如本文中[停用或重新啟用群組](#View)一節所述。
 
-  如需有關從父群組中移除子群組的說明，請參閱區段 [從子群組的父群組中移除子群組，並將其設為最上層群組](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/manage-subgroups.md#make) 在文章中 [管理子群組](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/manage-subgroups.md).
+  如需從父群組移除子群組的說明，請參閱[管理子群組](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/manage-subgroups.md)一文中的[從父群組移除子群組，並使其成為最上層群組](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/manage-subgroups.md#make)一節。

@@ -22,7 +22,7 @@ ht-degree: 0%
 >
 >此頁面中說明的程式僅適用於尚未加入Admin Console的組織。 如果您的組織已上線Adobe Admin Console，則不需要採取任何動作。
 >
->如需根據貴組織是否已加入Adobe Admin Console而有所差異的程式清單，請參閱 [平台型管理差異(Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
+>如需根據貴組織是否已加入Adobe Admin Console而有所差異的程式清單，請參閱[以平台為基礎的管理差異(Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md)。
 
 Adobe Workfront伺服器利用SAML 2.0通訊協定進行驗證和授權。 更新後，新憑證的有效期為一年。 當您需要更新身分提供者上的憑證時，您會在Workfront中收到警告，提醒您必須進行此變更。 身為Workfront管理員，您可以在系統層級管理此變更。
 
@@ -64,7 +64,7 @@ You must take action to update the metadata in your identity provider with the i
  </tbody> 
 </table>
 
-如需有關此表格的詳細資訊，請參閱 [Workfront檔案中的存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -72,13 +72,13 @@ You must take action to update the metadata in your identity provider with the i
 
 若要檢閱警告訊息並確認身分提供者中SAML 2.0中繼資料的更新：
 
-1. 按一下 **主要功能表** 圖示 ![](assets/main-menu-icon.png) (位於Adobe Workfront的右上角)，然後按一下 **設定** ![](assets/gear-icon-settings.png).
+1. 按一下Adobe Workfront右上角的&#x200B;**主要功能表**&#x200B;圖示![](assets/main-menu-icon.png)，然後按一下&#x200B;**設定** ![](assets/gear-icon-settings.png)。
 
-1. 按一下 **系統** > **單一登入**.
+1. 按一下&#x200B;**系統** > **單一登入**。
 
-1. 在 **型別** 下拉式功能表，選取 **SAML 2.0**.
+1. 在&#x200B;**型別**&#x200B;下拉式功能表中，選取&#x200B;**SAML 2.0**。
 
-1. 按一下 **下載SAML 2.0中繼資料**.
+1. 按一下&#x200B;**下載SAML 2.0中繼資料**。
 
    這將下載更新的Workfront SAML 2.0憑證，其中包含伺服器的正確中繼資料。
 
@@ -93,7 +93,7 @@ You must take action to update the metadata in your identity provider with the i
 
 1. 在您的身分提供者伺服器中，更新您下載的新憑證。
 1. （視條件而定）如果您的身分提供者中的判斷提示消費者服務(ACS) URL或回覆URL已變更，請將其變更回您在步驟5中複製的URL。
-1. 在Workfront中，於 **單一登入(SSO)頁面**，請確定已選取此選項： **新的Workfront憑證已上傳至身分提供者**.
+1. 在Workfront的&#x200B;**單一登入(SSO)頁面**&#x200B;上，確定已選取此選項： **新的Workfront憑證已上傳至身分提供者**。
 
    >[!NOTE]
    >
@@ -107,8 +107,8 @@ You must take action to update the metadata in your identity provider with the i
 
    警告訊息不再顯示，因為您已確認身分提供者伺服器上的SAML 2.0憑證續約。
 
-1. 按一下 **測試連線** 以測試您的設定。
+1. 按一下&#x200B;**測試連線**&#x200B;以測試您的組態。
 
    您應該會看到一則訊息，確認連線成功。
 
-如需詳細資訊或手動設定中繼資料的協助，請聯絡我們的支援團隊，如中所述 [聯絡客戶支援](../../../workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).
+如需詳細資訊或手動設定中繼資料的協助，請連絡我們的支援團隊，如[連絡客戶支援](../../../workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md)中所述。

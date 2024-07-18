@@ -18,11 +18,11 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->此頁面中說明的程式僅適用於尚未加入的組織。 [!DNL Adobe Admin Console]. 如果您的組織已上線至 [!DNL Adobe Admin Console]，您必須透過 [!DNL Adobe Admin Console].
+>本頁所述的程式僅適用於尚未上線到[!DNL Adobe Admin Console]的組織。 如果您的組織已加入[!DNL Adobe Admin Console]，您必須透過[!DNL Adobe Admin Console]執行此動作。
 >
->有關在中新增使用者的指示[!DNL  Adobe Admin Console]，請參閱文章中的「編輯使用者詳細資訊」一節 [個別管理使用者](https://helpx.adobe.com/enterprise/using/manage-users-individually.html) 或聯絡 [!UICONTROL Adobe Admin Console] 管理員。
+>如需在[!DNL  Adobe Admin Console]中新增使用者的指示，請參閱文章[個別管理使用者](https://helpx.adobe.com/enterprise/using/manage-users-individually.html)中的「編輯使用者詳細資訊」一節，或連絡您的[!UICONTROL Adobe Admin Console]系統管理員。
 >
->如需根據貴組織是否已加入Adobe Admin Console而有所差異的程式清單，請參閱 [平台型管理差異(Adobe Workfront Fusion/Adobe Business Platform)](../../../quicksilver/workfront-fusion/fusion-in-admin-console/fusion-in-admin-console.md).
+>如需根據貴組織是否已加入Adobe Admin Console而有所差異的程式清單，請參閱[以平台為基礎的管理差異(Adobe Workfront Fusion/Adobe Business Platform)](../../../quicksilver/workfront-fusion/fusion-in-admin-console/fusion-in-admin-console.md)。
 
 ## 存取需求
 
@@ -43,32 +43,32 @@ ht-degree: 0%
    <tr> 
    <td role="rowheader">[！UICONTROL Adobe Workfront Fusion]授權**</td> 
    <td>
-   <p>目前授權需求：否 [!DNL Workfront Fusion] 授權需求。</p>
+   <p>目前授權需求：無[!DNL Workfront Fusion]授權需求。</p>
    <p>或</p>
-   <p>舊版授權需求： [！UICONTROL [!DNL Workfront Fusion] 工作自動化與整合]，請參閱[！UICONTROL [!DNL Workfront Fusion] 工作自動化專用]</p>
+   <p>舊版授權需求： [！UICONTROL [!DNL Workfront Fusion] for Work Automation and Integration]，[！UICONTROL [!DNL Workfront Fusion] for Work Automation]</p>
    </td>
   </tr> 
   <tr> 
    <td role="rowheader">產品</td> 
    <td>
-   <p>目前產品需求：如果您有[！UICONTROL Select]或[！UICONTROL Prime] [!DNL Adobe Workfront] 計畫，您的組織必須購買 [!DNL Adobe Workfront Fusion] 以及 [!DNL Adobe Workfront] 以使用本文所述的功能。 [!DNL Workfront Fusion] 包含在[！UICONTROL Ultimate]中 [!DNL Workfront] 計畫。</p>
+   <p>目前產品需求：如果您有[！UICONTROL Select]或[！UICONTROL Prime] [!DNL Adobe Workfront]計畫，您的組織必須購買[!DNL Adobe Workfront Fusion]及[!DNL Adobe Workfront]，才能使用本文所述的功能。 [!DNL Workfront Fusion]包含在[！UICONTROL Ultimate] [!DNL Workfront]計畫中。</p>
    <p>或</p>
-   <p>舊版產品需求：貴組織必須購買 [!DNL Adobe Workfront Fusion] 以及 [!DNL Adobe Workfront] 以使用本文所述的功能。</p>
+   <p>舊版產品需求：您的組織必須購買[!DNL Adobe Workfront Fusion]及[!DNL Adobe Workfront]，才能使用本文所述的功能。</p>
    </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">存取層級設定*</td> 
    <td> 
-     <p>您必須是 [!DNL Workfront Fusion] 您組織的管理員。</p>
-     <p>您必須是 [!DNL Workfront Fusion] 您團隊的管理員。</p>
+     <p>您必須是組織的[!DNL Workfront Fusion]管理員。</p>
+     <p>您必須是團隊的[!DNL Workfront Fusion]管理員。</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-若要瞭解您擁有的計畫、授權型別或存取權，請聯絡您的 [!DNL Workfront] 管理員。
+若要瞭解您擁有的計畫、授權型別或存取權，請連絡您的[!DNL Workfront]管理員。
 
-有關的資訊 [!DNL Adobe Workfront Fusion] 授權，請參閱 [[!DNL Adobe Workfront Fusion] 授權](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+如需[!DNL Adobe Workfront Fusion]授權的相關資訊，請參閱[[!DNL Adobe Workfront Fusion] 授權](../../workfront-fusion/get-started/license-automation-vs-integration.md)。
 
 ## 將使用者新增至組織
 
@@ -94,19 +94,19 @@ ht-degree: 0%
 
 -->
 
-若要將使用者新增至組織，您必須是要新增使用者的組織的管理員。 如需角色的相關資訊，請參閱 [中的組織角色 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/organizations/organization-roles.md).
+若要將使用者新增至組織，您必須是要新增使用者的組織的管理員。 如需角色的相關資訊，請參閱 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/organizations/organization-roles.md)中的[組織角色。
 
 若要將使用者新增至組織：
 
-1. 瀏覽至 **[!UICONTROL 組織]** 在功能表中並選取您要新增使用者的組織。
-1. 開啟 **[!UICONTROL 使用者]** 標籤。
-1. 按一下 **[!UICONTROL 邀請新使用者]**，填寫表單（電子郵件、訊息、角色），然後按一下以傳送邀請 **[!UICONTROL 傳送]**.
+1. 導覽至功能表中的&#x200B;**[!UICONTROL 組織]**，並選取您要新增使用者的組織。
+1. 開啟儀表板中的&#x200B;**[!UICONTROL 使用者]**&#x200B;索引標籤。
+1. 按一下&#x200B;**[!UICONTROL 邀請新使用者]**，填寫表單（電子郵件、訊息、角色），然後按一下&#x200B;**[!UICONTROL 傳送]**&#x200B;來傳送邀請。
 
 >[!NOTE]
 >
 >   
->如果您沒有看到 [!UICONTROL 邀請新使用者] 按鈕，表示貴組織已上線 [!DNL Adobe Business Platform.]
+>如果您看不到[!UICONTROL 邀請新使用者]按鈕，表示貴組織已加入[!DNL Adobe Business Platform.]
 >
->  有關將使用者新增至已上線之組織的指示 [!DNL Adobe Business Platform]，請參閱 [將使用者新增至 [!DNL Adobe Workfront Fusion] 透過 [!DNL Adobe Admin Console]](/help/quicksilver/workfront-fusion/fusion-in-admin-console/add-fusion-users-admin-console.md)
+>  如需新增使用者至已加入[!DNL Adobe Business Platform]之組織的指示，請參閱[透過 [!DNL Adobe Admin Console]](/help/quicksilver/workfront-fusion/fusion-in-admin-console/add-fusion-users-admin-console.md)新增使用者至 [!DNL Adobe Workfront Fusion] 
 
 使用者會收到一封邀請電子郵件，讓他們可以接受邀請。

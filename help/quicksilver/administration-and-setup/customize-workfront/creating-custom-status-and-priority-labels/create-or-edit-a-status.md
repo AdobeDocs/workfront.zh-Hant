@@ -21,11 +21,11 @@ ht-degree: 2%
 
 <!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT THROUGH CONTEXT SENSITIVE HELP LINKS.-->
 
-作為Adobe Workfront管理員，您可以建立專案、任務和問題的自訂狀態。 這些選項適用於整個Workfront系統或特定群組或子群組的使用者。 如需有關狀態的詳細資訊，請參閱 [狀態概觀](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/statuses-overview.md).
+作為Adobe Workfront管理員，您可以建立專案、任務和問題的自訂狀態。 這些選項適用於整個Workfront系統或特定群組或子群組的使用者。 如需有關狀態的詳細資訊，請參閱[狀態概觀](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/statuses-overview.md)。
 
 >[!NOTE]
 >
->群組管理員也可以建立自己的群組狀態，僅供其群組使用。 如需詳細資訊，請參閱 [建立或編輯群組狀態](../../../administration-and-setup/manage-groups/manage-group-statuses/create-or-edit-a-group-status.md).
+>群組管理員也可以建立自己的群組狀態，僅供其群組使用。 如需詳細資訊，請參閱[建立或編輯群組狀態](../../../administration-and-setup/manage-groups/manage-group-statuses/create-or-edit-a-group-status.md)。
 
 ## 存取需求
 
@@ -56,7 +56,7 @@ ht-degree: 2%
  </tbody> 
 </table>
 
-如需有關此表格的詳細資訊，請參閱 [Workfront檔案中的存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -64,13 +64,13 @@ ht-degree: 2%
 
 您可以新增自訂狀態，以供整個組織或單一群組使用。
 
-當您建立整個組織的自訂狀態時，可以對其進行配置，以便系統中的所有群組都可以使用它而不需編輯它。 或者，您也可以進行設定，讓群組管理員可以為其群組修改此設定，如中所述 [建立或編輯群組狀態](../../../administration-and-setup/manage-groups/manage-group-statuses/create-or-edit-a-group-status.md).
+當您建立整個組織的自訂狀態時，可以對其進行配置，以便系統中的所有群組都可以使用它而不需編輯它。 或者，您可以進行設定，讓群組管理員可以修改其群組的設定，如[建立或編輯群組狀態](../../../administration-and-setup/manage-groups/manage-group-statuses/create-or-edit-a-group-status.md)中所述。
 
-1. 按一下 **[!UICONTROL 主要功能表]** 圖示 ![主要功能表](/help/_includes/assets/main-menu-icon.png) 在Adobe Workfront的右上角，或（如果有的話）按一下 **[!UICONTROL 主要功能表]** 圖示 ![主要功能表](/help/_includes/assets/main-menu-icon-left-nav.png) 然後按一下「 」 **[!UICONTROL 設定]** ![「設定」圖示](/help/_includes/assets/gear-icon-setup.png).
+1. 按一下Adobe Workfront右上角的&#x200B;**[!UICONTROL 主功能表]**&#x200B;圖示![主功能表](/help/_includes/assets/main-menu-icon.png)，或（如果有的話）按一下左上角的&#x200B;**[!UICONTROL 主功能表]**&#x200B;圖示![主功能表](/help/_includes/assets/main-menu-icon-left-nav.png)，然後按一下&#x200B;**[!UICONTROL 設定]** ![設定圖示](/help/_includes/assets/gear-icon-setup.png)。
 
-1. 在左側面板中，按一下 **專案偏好設定** > **狀態**.
+1. 在左側面板中，按一下&#x200B;**專案偏好設定** > **狀態**。
 
-1. （視條件而定）如果您要建立或編輯狀態以供系統範圍使用，請確定 **系統狀態** 會在右上角的方塊中選取。
+1. （視條件而定）如果您要建立或編輯全系統使用的狀態，請確定已在右上角的方塊中選取&#x200B;**系統狀態**。
 
    ![](assets/system-statuses-in-upper-rt-corner-new.jpg)
 
@@ -80,13 +80,13 @@ ht-degree: 2%
 
    ![](assets/system-statuses-in-upper-rt-corner-group.jpg)
 
-1. 選取物件型別的標籤(**專案**， **任務**，或 **問題**)建立關聯。
+1. 選取您想要與狀態關聯的物件型別（**專案**、**任務**&#x200B;或&#x200B;**問題**）的標籤。
 
-1. 如果您要建立新狀態，請按一下 **新增狀態**.
+1. 如果您正在建立新狀態，請按一下&#x200B;**新增狀態**。
 
    或
 
-   如果您正在編輯現有狀態，請將滑鼠游標停留在現有狀態上，然後按一下 **編輯** 圖示即會在最右側顯示。
+   如果您正在編輯現有狀態，請將滑鼠游標停留在現有狀態上，然後按一下顯示於最右側的&#x200B;**編輯**&#x200B;圖示。
 
    ![](assets/custom-status-edit.png)
 
@@ -113,7 +113,7 @@ ht-degree: 2%
       <td> <p>從清單中選取最能描述狀態功能的選項之一。 例如，如果狀態名稱為Done，則其對應的選項應為Complete。</p> <p>每個狀態都必須等同於其中一個選項，因為這會決定狀態如何運作。</p> <p>建立狀態後就無法修改此選項。</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">密鑰</td> 
+      <td role="rowheader">索引鍵</td> 
       <td> <p>如果您要建立新狀態，請輸入狀態的程式碼或縮寫，或使用為您產生的程式碼。 此索引鍵在Workfront中必須是唯一的，因為可用於報表用途。 如果您嘗試指定系統中已使用的金鑰，欄位會變成紅色。</p> <p>使用將可使用的人可辨識的縮寫可能有所助益。</p> <p>建立狀態後就無法修改此選項。</p> <p>您無法變更Planning、Current及Complete狀態的索引鍵代碼。 如果您以文字模式建立報表，這一點很重要。</p> </td> 
      </tr> 
      <tr> 
@@ -134,7 +134,7 @@ ht-degree: 2%
        <li>使用者開始編輯使用已解鎖狀態的核准流程。 訊息會提醒使用者解除鎖定的狀態，讓使用者評估重新鎖定或取代會是很好的做法。</li>
        <li>具有解鎖狀態的系統層級核准程式會附加至物件，且已針對指派給物件的群組刪除其狀態。 當群組成員前往物件的「核准」區段時，會出現一則訊息，說明無法為物件啟動核准流程。</li>
        </ul>
-       <p>如需鎖定狀態的詳細資訊，請參閱 <a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/lock-or-unlock-a-custom-system-level-status.md" class="MCXref xref">鎖定和未鎖定的系統層級狀態</a>.</p>
+       <p>如需有關鎖定狀態的詳細資訊，請參閱<a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/lock-or-unlock-a-custom-system-level-status.md" class="MCXref xref">鎖定與解除鎖定系統層級狀態</a>。</p>
        </div>
       </td>
      </tr> 
@@ -143,6 +143,6 @@ ht-degree: 2%
 
 1. 按一下「**儲存**」。
 
-   如需將此狀態設為預設狀態的指示，請參閱 [使用自訂狀態作為預設狀態](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/use-custom-statuses-as-default-statuses.md).
+   如需將此狀態設為預設狀態的指示，請參閱[使用自訂狀態做為預設狀態](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/use-custom-statuses-as-default-statuses.md)。
 
-如需有關重新排序群組狀態的資訊，請參閱 [重新排序系統層次與群組狀態](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/reorder-system-statuses.md).
+如需重新排序群組狀態的資訊，請參閱[重新排序系統層級和群組狀態](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/reorder-system-statuses.md)。

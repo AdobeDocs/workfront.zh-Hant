@@ -18,7 +18,7 @@ ht-degree: 0%
 
 您可以使用計分卡來測量專案與先前建立的專案組合准則的符合程度。 計分卡通常可反映組織的使命、價值和策略目標。
 
-如需計分卡及其建立方式的詳細資訊，請參閱 [建立計分卡](../../../administration-and-setup/set-up-workfront/configure-system-defaults/create-scorecard.md).
+如需有關計分卡及如何建立計分卡的詳細資訊，請參閱[建立計分卡](../../../administration-and-setup/set-up-workfront/configure-system-defaults/create-scorecard.md)。
 
 ## 存取需求
 
@@ -55,53 +55,53 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-如需有關此表格的詳細資訊，請參閱 [Workfront檔案中的存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
 ## 專案計分卡 {#project-scorecards}
 
-* [計分卡概觀](#scorecards-overview)
+* [計分卡總覽](#scorecards-overview)
 * [將計分卡套用至專案](#apply-a-scorecard-to-a-project)
 
 ### 計分卡概觀 {#scorecards-overview}
 
 通常，專案經理會完成計分卡資訊，以便為專案產生介於0到100之間的對齊值。 產品組合經理在審查產品組合最佳化工具中的專案以進行比較時，稍後會使用產生的值。
 
-如需產品組合最佳化的詳細資訊，請參閱 [Portfolio最佳化工具概觀](../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md).
+如需產品組合最佳化的詳細資訊，請參閱[Portfolio最佳化工具概觀](../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md)。
 
 ### 將計分卡套用至專案
 
 作為具有Standard或Plan授權和管理專案許可權的使用者，您可以附加計分卡到專案。
 
-如需有關專案許可權的詳細資訊，請參閱 [在Adobe Workfront中共用專案](../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md).
+如需有關專案許可權的詳細資訊，請參閱[在Adobe Workfront中共用專案](../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md)。
 
 您可以將計分卡新增至專案，作為建立專案業務案例的一部分。
 
-如需建立業務案例的詳細資訊，請參閱 [為專案建立業務案例](../../../manage-work/projects/define-a-business-case/create-business-case.md).
+如需建立業務案例的詳細資訊，請參閱[為專案建立業務案例](../../../manage-work/projects/define-a-business-case/create-business-case.md)。
 
-您的Adobe Workfront管理員或群組管理員必須在您的專案的業務案例區域中啟用計分卡區段，然後才能從業務案例存取計分卡。 有關設定專案偏好設定和啟用業務案例區域的資訊，請參閱 [設定全系統專案偏好設定](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+您的Adobe Workfront管理員或群組管理員必須在您的專案的業務案例區域中啟用計分卡區段，然後才能從業務案例存取計分卡。 如需有關設定專案偏好設定和啟用業務案例區域的資訊，請參閱[設定全系統的專案偏好設定](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md)。
 
 若要將計分卡套用至專案：
 
 1. 前往您要套用計分卡的專案。
-1. 按一下 **業務案例** 在左側面板中。
-1. 尋找 **計分卡** 業務案例的區段。\
-   您必須先建立計分卡，然後再執行 **計分卡** 區段會顯示在業務案例上。
+1. 按一下左側面板中的&#x200B;**業務案例**。
+1. 尋找業務案例的&#x200B;**計分卡**&#x200B;區段。\
+   您必須先建立計分卡，商務案例才會顯示&#x200B;**計分卡**&#x200B;區段。
 
-   如需建立計分卡的相關資訊，請參閱 [建立計分卡](../../../administration-and-setup/set-up-workfront/configure-system-defaults/create-scorecard.md).
+   如需建立計分卡的相關資訊，請參閱[建立計分卡](../../../administration-and-setup/set-up-workfront/configure-system-defaults/create-scorecard.md)。
 
 1. 從下拉式選單中選取計分卡。
 
-   ![新增計分卡](assets/new-scorecard.png)
+   ![新計分卡](assets/new-scorecard.png)
 
 1. 輸入計分卡中所有問題的答案。
 
    Workfront會對每個已回答的問題套用分數，並根據每個問題的個別分數計算整體專案分數。
 
-   如需有關產生專案整體對齊分數的詳細資訊，請參閱 [產生專案的對齊分數](#generate-an-alignment-score-for-a-project).
+   如需有關產生專案整體一致性分數的詳細資訊，請參閱[產生專案一致性分數](#generate-an-alignment-score-for-a-project)。
 
-1. 按一下 **儲存** 以儲存計分卡並對專案評分。
+1. 按一下&#x200B;**儲存**&#x200B;以儲存計分卡並對專案評分。
 
    計分卡現在與專案相關聯，且專案已評分。
 
@@ -135,7 +135,7 @@ ht-degree: 0%
 
 `Project Alignment Score = The sum of the question points from the scorecard met at a given time / The sum of the possible points on the scorecard`
 
-如需詳細資訊，請參閱 [建立計分卡](../../../administration-and-setup/set-up-workfront/configure-system-defaults/create-scorecard.md).
+如需詳細資訊，請參閱[建立計分卡](../../../administration-and-setup/set-up-workfront/configure-system-defaults/create-scorecard.md)。
 
 ### 產生投資組合的校準分數 {#generate-an-alignment-score-for-a-portfolio}
 
@@ -158,37 +158,37 @@ ht-degree: 0%
 
 ### 檢視專案上的對齊分數
 
-如果您擁有專案的貢獻許可權，則可以在專案層級檢視專案的對齊分數。
+如果您擁有專案的Contribute許可權，則可以在專案層級檢視專案的對齊分數。
 
 1. 前往您要檢視其對齊分數的專案。
-1. 按一下 **業務案例** 在左側面板中。
-1. 前往 **業務案例摘要** 在熒幕的右側。
+1. 按一下左側面板中的&#x200B;**業務案例**。
+1. 移至畫面右側的&#x200B;**業務案例摘要**。
 
-   一致性分數位於業務案例摘要中，位於 **已對齊** 值。
+   對齊分數位於業務案例摘要中，位於&#x200B;**對齊**&#x200B;值中。
 
-   ![專案上的一致性分數](assets/alignment-score-on-a-project.png)
+   專案上的![一致性分數](assets/alignment-score-on-a-project.png)
 
 ### 在Portfolio最佳化工具中檢視專案和專案組合的對齊分數
 
 如果您擁有專案組合的管理存取權，可以在Portfolio最佳化工具中檢視專案或專案組合的對齊分數。
 
-如需有關「Portfolio最佳化程式」中所顯示資訊的詳細資訊，請參閱 [Portfolio最佳化工具概觀](../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md).
+如需有關Portfolio最佳化工具中顯示之資訊的詳細資訊，請參閱[Portfolio最佳化工具概觀](../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md)。
 
 * [在Portfolio最佳化工具中找出專案的對齊分數](#locate-the-alignment-score-of-the-project-in-the-portfolio-optimizer)
 * [在Portfolio最佳化工具中找出專案組合的對齊分數](#locate-the-alignment-score-of-the-portfolio-in-the-portfolio-optimizer)
 
-  ![Portfolio最佳化工具中的一致性分數](assets/alignment-score-in-portfolio-optimizer.png)
+  Portfolio最佳化工具中的![一致性分數](assets/alignment-score-in-portfolio-optimizer.png)
 
 #### 在Portfolio最佳化工具中找出專案的對齊分數 {#locate-the-alignment-score-of-the-project-in-the-portfolio-optimizer}
 
 {{step1-to-portfolios}}
 
 1. 按一下投資組合的名稱。
-1. 按一下 **Portfolio最佳化** 在左側面板中。
+1. 按一下左側面板中的&#x200B;**Portfolio最佳化**。
 
    隨即顯示Portfolio最佳化工具。
 
-   專案的對齊方式分數會以百分比形式顯示於 **對齊方式** Portfolio最佳化處理程式的欄。
+   專案的對齊分數會在Portfolio最佳化工具的&#x200B;**對齊**&#x200B;欄中顯示為百分比。
 
    這是根據與專案相關聯計分卡的專案一致性分數。
 
@@ -197,12 +197,12 @@ ht-degree: 0%
 {{step1-to-portfolios}}
 
 1. 按一下投資組合的名稱。
-1. 按一下 **Portfolio最佳化** 在左側面板中。
-1. 在Portfolio最佳化工具頂端找到 **已對齊** 值，以及 **對齊方式** 量測計，表示投資組合的對齊分數。
+1. 按一下左側面板中的&#x200B;**Portfolio最佳化**。
+1. 在Portfolio最佳化工具頂端找到&#x200B;**Aligned**&#x200B;值，以及&#x200B;**Alignment**&#x200B;量規，表示投資組合的對齊分數。
 
    這是投資組合的對齊分數。
 
-   如需如何產生投資組合的對齊分數的相關資訊，請參閱 [產生投資組合的校準分數](#generate-an-alignment-score-for-a-portfolio).
+   如需如何產生投資組合的對齊分數的相關資訊，請參閱[產生投資組合的對齊分數](#generate-an-alignment-score-for-a-portfolio)。
 
 ## Portfolio最佳化工具分數概述
 
@@ -210,10 +210,10 @@ ht-degree: 0%
 
 專案的對齊分數是根據完成計分卡後獲得的點數來計算。 然後，會使用此分數來決定產品組合校準分數。 對齊分數會以百分比顯示。
 
-專案的對齊方式分數會顯示在 **對齊方式** Portfolio最佳化處理程式的欄。
+專案的對齊分數會顯示在Portfolio最佳化工具的&#x200B;**對齊**&#x200B;欄中。
 
-專案組合最佳化工具分數是在Portfolio最佳化工具中自動計算的排名，專案可依此排定優先順序。 專案組合最佳化工具分數會顯示為指標圖示並附上數字，且會顯示在 **分數** Portfolio最佳化處理程式的欄。 Portfolio最佳化工具分數只會在業務案例的所有區段（目標除外）完成後產生。
+專案組合最佳化工具分數是在Portfolio最佳化工具中自動計算的排名，專案可依此排定優先順序。 專案組合最佳化工具分數會顯示為指標圖示，並附上數字，且會顯示在Portfolio最佳化工具的&#x200B;**分數**&#x200B;欄中。 Portfolio最佳化工具分數只會在業務案例的所有區段（目標除外）完成後產生。
 
-如需為專案建立業務案例的詳細資訊，請參閱 [為專案建立業務案例](../../../manage-work/projects/define-a-business-case/create-business-case.md).
+如需為專案建立業務案例的詳細資訊，請參閱[為專案建立業務案例](../../../manage-work/projects/define-a-business-case/create-business-case.md)。
 
-如需有關計算專案之專案組合最佳化工具分數的詳細資訊，請參閱 [Portfolio最佳化工具分數概述](../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-score.md).
+如需有關計算專案之專案組合最佳化工具分數的詳細資訊，請參閱[Portfolio最佳化工具分數概覽](../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-score.md)。

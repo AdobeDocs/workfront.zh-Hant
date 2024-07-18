@@ -2,69 +2,69 @@
 content-type: reference
 product-area: resource-management;user-management
 navigation-topic: resource-planning
-title: 使用「用戶」視圖時，查看資源計畫員中的可用小時數、計畫小時數和實際小時數或FTE
-description: 在RP中使用User viewPlanning時查看資源計畫員中的可用小時數、計畫時數和實際小時數或FTE — 可能是「RP中的預算資源」或「RP中的管理資源」。 等…… — 或可能需要從其他POV中重新規劃?!)
+title: 使用使用者檢視時檢視資源規劃工具中的可用、計畫和實際時數或FTE
+description: 在RP中使用「使用者」檢視計畫時，在「資源規劃工具」中檢視可用、計畫及實際時數或FTE — 可能是「RP中的預算資源」或「RP中的管理資源」。 等等…… — 或可能需要從其他POV重新利用?!)」
 author: Alina
 feature: Resource Management
 exl-id: 6b532aa2-435f-4fda-b7ce-abe0a785638f
 source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
 workflow-type: tm+mt
-source-wordcount: '1738'
+source-wordcount: '1739'
 ht-degree: 1%
 
 ---
 
-# 使用「用戶」視圖時，查看資源計畫員中的可用小時數、計畫小時數和實際小時數或FTE
+# 使用使用者檢視時檢視資源規劃工具中的可用、計畫和實際時數或FTE
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: Consider renaming this article (probably split already) to something other than "Planning" in the RP" - maybe "budgeting resources in the RP" or "Managing Resources in the RP." etc... - or might need to be repurposed from another POV?!)</p>
 -->
 
-除了「項目」和「職責」視圖中的預算資源外，您還可以使用「Adobe Workfront資源計畫員」的「用戶視圖」來顯示有關項目和資源的「計畫」、「可用」和「實際小時數」或「FTE」值的資訊。
+除了在「專案」與「角色」檢視中編列資源預算外，您也可以使用Adobe Workfront資源規劃工具的「使用者檢視」，來顯示有關專案與資源的「計畫」、「可用」與「實際時數」或「約當全職人數」值的資訊。
 
-## 資源計畫員中的用戶視圖概覽
+## 資源規劃工具中的使用者檢視概要
 
-在資源計畫員中查看小時數或FTE資訊時，請考慮以下事項：
+在資源規劃工具中檢視時數或約當全職人數資訊時，請考量下列事項：
 
-* 您可以在資源計畫員的所有視圖中查看用戶、職務職責和項目的可用小時數和計畫小時數或FTE資訊。
+* 您可以在資源規劃工具的所有檢視中，檢視使用者、工作角色和專案的可用和計畫時數或FTE資訊。
 * 您只能在「使用者檢視」中檢視下列資訊：
 
-   * 計畫小時數或FTE數與可用小時數或FTE數之差。 然後，您可以在「專案」和「角色」檢視中，根據此差異，為使用者分配預算。
-   * 實際小時數或FTE。
+   * 計畫時數或約當全職人數與可用時數或約當全職人數之間的差額。 接著，您就可以根據專案和角色檢視中的這項差異，為使用者配置預算。
+   * 實際時數或FTE。
 
-* 您可以在「用戶」視圖中以數字或百分比值的形式顯示「用戶可用」與「計畫小時數」或「FTE」之間的差異。
-* 不能按成本在「用戶」視圖中顯示資訊。
-* Adobe Workfront會根據排程中與使用者相關聯的工作時間填入可用小時數或FTE。\
-   未與排程相關聯的使用者會根據預設排程顯示可用性。\
-   有關預設計畫的資訊，請參閱 [建立排程](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
+* 您可以在「使用者」檢視中，以數字或百分比值顯示「可用使用者」與「計畫時數」或「約當全職人數」之間的差異。
+* 您無法在使用者檢視中依成本顯示資訊。
+* Adobe Workfront會根據與使用者相關聯的工作時間在其排程中填入可用時數或FTE。\
+  未與排程關聯的使用者會根據預設排程顯示可用性。\
+  如需有關預設排程的資訊，請參閱[建立排程](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md)。
 
-* Workfront會從「計畫小時」資訊填入「計畫小時」或「FTE」，以了解專案上的工作和問題。
-* Workfront會以指派給工作和問題的使用者所記錄的實際時間填入實際小時數。 這包括專案上的登入時間。
-* 在「使用者」檢視中時，您可以執行下列動作：
+* Workfront會從計畫時數資訊中填入專案上任務和問題的計畫時數或FTE。
+* Workfront會將實際時間填入實際小時，實際時間由指派給它們的使用者記錄到任務和問題。 這包括專案的登入時間。
+* 在「使用者」檢視中，您可以執行下列動作：
 
-   * 展開每個使用者以顯示指派給該使用者的專案清單。
+   * 展開每位使用者以顯示指派該使用者的專案清單。
 
-      >[!NOTE]
-      >
-      >只有與篩選器中包含之專案相關聯的使用者才能展開。
+     >[!NOTE]
+     >
+     >只有與篩選器中所包含專案相關聯的使用者才能展開。
 
-   * 展開每個專案，以顯示使用者可在這些專案履行的工作角色清單。
-   * 展開每個角色以顯示指派給該角色中使用者的任務清單。
+   * 展開每個專案以顯示使用者可在這些專案中完成的工作角色清單。
+   * 展開每個角色，以顯示該角色中的使用者指派給該角色的任務清單。
 
-   如果用戶沒有與他們相關聯的職務角色，則其「可用」、「計畫」和「實際小時數」或「FTE」將列在 **無角色** 區段。\
-   有關在將用戶視圖應用於資源計畫員時顯示的欄位和物料的資訊，請參閱 [資源計畫員導航概覽](../../resource-mgmt/resource-planning/resource-planner-navigation.md).
+  如果使用者沒有關聯的工作角色，**無角色**&#x200B;區段中會列出他們的可用、計畫和實際時數或FTE。\
+  如需有關將使用者檢視套用至資源規劃工具時顯示哪些欄位和專案的資訊，請參閱[資源規劃工具導覽概觀](../../resource-mgmt/resource-planning/resource-planner-navigation.md)中的「專案/角色/使用者檢視選擇」一節。
 
-## 資源計畫員的「用戶視圖」中可見的欄位概覽
+## 在資源規劃工具的使用者檢視中可見的欄位概觀
 
-有關了解在「資源計畫員」的「用戶」視圖中顯示的資訊，請參閱下表。 資訊以小時或FTE值顯示。
+請參考下表以瞭解資源規劃工具「使用者」檢視中顯示的資訊。 資訊會以時數或FTE值顯示。
 
-* [AVL（可用）欄](#the-avl-available-column)
-* [「PLN（計畫）」列](#the-pln-planned-column)
-* [ACT（實際）列](#The%C2%A0ACT)
-* [DIF（差異）列](#the-dif-difference-column)
-* [%（計畫小時數分配百分比）列](#the-planned-hours-allocation-percentage-column)
+* [AVL （可用）資料行](#the-avl-available-column)
+* [計畫（計畫）資料行](#the-pln-planned-column)
+* [ACT （實際）資料行](#The%C2%A0ACT)
+* [DIF （差異）資料行](#the-dif-difference-column)
+* [% （計畫時數配置百分比）欄](#the-planned-hours-allocation-percentage-column)
 
-### AVL（可用）欄 {#the-avl-available-column}
+### AVL （可用）欄 {#the-avl-available-column}
 
 <table style="table-layout:auto"> 
  <col> 
@@ -76,15 +76,15 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td>使用者</td> 
-   <td>根據用戶的計畫，用戶的可用小時數或FTE總數。 </td> 
+   <td>使用者根據其排程的可用時數或FTE總數。 </td> 
   </tr> 
   <tr> 
    <td>專案</td> 
-   <td>將用戶視圖應用於資源計畫員時，此資訊不適用於項目。 </td> 
+   <td>將使用者檢視套用至資源規劃工具時，此資訊不適用於專案。 </td> 
   </tr> 
   <tr> 
    <td>角色</td> 
-   <td> <p>根據用戶和 <strong>FTE可用性百分比</strong> 角色。</p> </td> 
+   <td> <p>根據使用者的排程和角色的<strong>FTE可用性百分比</strong>，角色的可用時數或FTE總數。</p> </td> 
   </tr> 
   <tr> 
    <td>任務或問題</td> 
@@ -93,9 +93,9 @@ ht-degree: 1%
  </tbody> 
 </table>
 
-有關如何根據用戶計畫和角色的FTE可用性百分比計算用戶和角色可用性的詳細資訊，請參閱 [在資源計畫員中計算用戶和角色的小時數和FTE的概覽](../../resource-mgmt/resource-planning/calculate-hours-fte-for-users-roles-resource-planner.md).
+如需有關如何根據使用者的排程和角色的FTE可用性百分比計算使用者和角色可用性的詳細資訊，請參閱[計算資源規劃工具中使用者和角色的時數和FTE的概觀](../../resource-mgmt/resource-planning/calculate-hours-fte-for-users-roles-resource-planner.md)。
 
-### 「PLN（計畫）」列 {#the-pln-planned-column}
+### 計畫（計畫）欄 {#the-pln-planned-column}
 
 <table style="table-layout:auto"> 
  <col> 
@@ -107,55 +107,55 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td>使用者</td> 
-   <td> 所有項目上分配給用戶的所有任務或問題的計畫小時數或FTE總數。<br><p>這包括指派給使用者但與任何工作角色無關的任務和問題，以及您有權存取「管理」的專案上不相關的任務或問題。</p><p>使用工作負載平衡器修改小時的用戶分配時，如果所選日期僅包含任務或問題的一部分，則資源規劃器中的資料可能會受到影響。 有關修改用戶分配的資訊，請參閱 <a href="../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md" class="MCXref xref">在工作負載平衡器中管理用戶分配</a> . </p></td> 
+   <td> 從所有專案中指派給使用者的所有任務或問題的總計畫時數或FTE。<br><p>這包括指派給使用者但與任何工作角色沒有關聯的任務和問題，以及您無權管理之專案上的任務或問題。</p><p>當使用工作負載平衡器修改使用者時數分配時，如果所選的日期僅包含任務或問題的一部分，則資源規劃工具中的資料可能會受到影響。 如需有關修改使用者的配置資訊，請參閱在工作負載平衡器</a>中管理使用者配置。<a href="../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md" class="MCXref xref"> </p></td> 
   </tr> 
   <tr> 
    <td>專案</td> 
-   <td> 分配給項目上特定用戶的所有任務和問題的計畫小時數或FTE總數。<br><p>注意：這不包括未分配給任何用戶的任務或問題的計畫小時數或FTE。 </p></td> 
+   <td> 從所有任務和問題中指派給專案中特定使用者的總計畫時數或FTE。<br><p>注意：這不包括未指派給任何使用者的任務或問題的計畫時數或FTE。 </p></td> 
   </tr> 
   <tr> 
    <td>角色</td> 
-   <td> <p>分配給項目上此角色的用戶的所有任務和問題的計畫小時數或FTE總數。</p> <p> <p>注意：這不包括分配給此角色但不分配給此角色的此用戶的任務或問題的計畫小時數或FTE。 </p> </p> </td> 
+   <td> <p>從所有任務和問題中指派給專案中此角色之使用者的總計畫時數或FTE。</p> <p> <p>注意：這不包括計畫時數或來自指派給此角色但不指派給此角色中此使用者的任務或問題的FTE。 </p> </p> </td> 
   </tr> 
   <tr> 
    <td>任務或問題</td> 
-   <td>與任務或項目問題關聯的計畫小時數或FTE。</td> 
+   <td>與專案上的任務或問題關聯的計畫時數或FTE。</td> 
   </tr> 
  </tbody> 
 </table>
 
-檢視「計畫小時數」時，請考量下列事項：
+檢視計畫時數時，請考慮下列事項：
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: this is a snippet converted to text because there are difference from project/ role views and the user view (users with no pools DO show in user view)</p>
 -->
 
-* 針對分配給任務和問題的每個資源，計畫小時數在任務和問題持續時間內平均分配給每天。 任務或問題持續時間基於其計劃開始和完成日期，並包括該時段內的每個日曆日。\
-   Workfront在將「計畫時間」分發給使用者或專案時，會考量使用者或專案的排程。 在這種情況下，計畫小時數在任務的持續時間或問題（不包括週末、超時天數和計畫例外）內平均分配給每天。
+* 對於指派給它們的每個資源，計畫時數會平均分配給任務和問題期間內的每一天。 任務或問題期間以其計劃開始和完成日期為基礎，並包含該時段內的每個行事曆日。\
+  當向使用者或專案分配計畫時數時，Workfront會考慮使用者或專案的排程。 在這種情況下，計畫時數平均分配給任務或問題期間內的每一天，不包括週末、休假天和排程例外。
 
-   例如，如果按周顯示資源計畫員，並且您的任務跨越項目的多個周，則每週計畫小時數取決於該周內多少天屬於任務持續時間的一部分。 在按月或季度顯示資源計畫器以及任務跨越多個月或季度時，這同樣適用。\
-   此分配中不包括週末天數、排程例外和休假天數。
+  例如，如果您按周顯示「資源規劃工具」，而您有專案上跨越多個周的任務，則每週的計畫時數取決於該周內的多少天屬於任務「工期」。 當按月或季度顯示資源規劃工具，以及任務跨越多個月或季度時，其作用類似。\
+  週末天數、排程例外和休假天數會從此分佈中排除。
 
-* 計算每個資源的「計畫小時數」時包括以下任務類別：
+* 計算每個資源的計畫時數時，會包含下列任務類別：
 
-   * 分配給項目上資源池、作業角色或團隊中用戶的任務。
+   * 指派給資源集區、工作角色或專案團隊中使用者的任務。
 
-      >[!TIP]
-      >
-      >如果將任務指派給團隊，則其分配將顯示在 **無角色** 和 **無用戶** 區段。 您可以看到與團隊相關聯的計畫小時數，但無法預算小時數，因為沒有任何角色或用戶與任務相關聯。
+     >[!TIP]
+     >
+     >如果任務已指派給團隊，則其配置將顯示在&#x200B;**無角色**&#x200B;和&#x200B;**無使用者**&#x200B;區段下。 您可以檢視與團隊關聯的計畫時數，但無法預算時數，因為沒有任何角色或使用者與任務相關聯。
 
-* 資源計畫員中的計畫小時數不包含與以下項目關聯的計畫小時數：
+* 資源規劃工具中的計畫時數不包含與下列專案關聯的計畫時數：
 
-   * 上層任務
-   * 未分配的任務
-   * 問題，當 **包括來自問題的小時數** 設定已停用。
+   * 父系任務
+   * 未指派任務
+   * 問題，當&#x200B;**包含來自問題的時數**&#x200B;設定停用時。
 
-* 如果任務或發放持續時間為零，計畫小時數不會顯示在資源計畫器中。
-* 未顯示與停用的使用者相關聯的計畫小時數。
+* 如果任務或問題期間為零，則計畫時數未顯示在資源規劃工具。
+* 未顯示與已停用使用者相關的計畫時數。
 
-有關資源計畫員中計畫小時數和FTE的詳細資訊，請參閱 [資源計畫員的「項目」和「職責」視圖中的小時數、FTE和成本資訊概覽](../../resource-mgmt/resource-planning/overview-of-planner-hour-fte-cost-information-in-role-project-views.md).
+如需資源規劃工具中計畫時數和FTE的詳細資訊，請參閱資源規劃工具專案和角色檢視中的[時數概觀、FTE和成本資訊](../../resource-mgmt/resource-planning/overview-of-planner-hour-fte-cost-information-in-role-project-views.md)。
 
-### ACT（實際）列
+### ACT （實際）欄
 
 <table style="table-layout:auto"> 
  <col> 
@@ -167,71 +167,42 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td>使用者 </td> 
-   <td> <p>使用者針對指派給他們的所有工作或問題所記錄的時間。</p> <p>這包括下列項目：</p> 
+   <td> <p>使用者在指派給他們的所有任務或問題上記錄的時間。</p> <p>這包含下列專案：</p> 
     <ul> 
-     <li>已分配給用戶但未與任何作業角色關聯的任務和問題。</li> 
-     <li>您有權存取「管理」的專案上沒有的工作和問題。 </li> 
-    </ul> <p>這包括只有在將使用者指派給該專案的任務或問題時，才登入專案的時間。  </p> </td> 
+     <li>指派給使用者但不與任何工作角色相關聯的任務和問題。</li> 
+     <li>不在您有權管理的專案上的任務和問題。 </li> 
+    </ul> <p>這包括僅當使用者被指派至該專案上的任務或問題時登入專案的時間。  </p> </td> 
   </tr> 
   <tr> 
    <td>專案 </td> 
-   <td> <p>使用者在專案中針對指派給他們的所有工作和問題所記錄的時間。</p> <p>這包括使用者直接登入專案的任何時間。</p> <p>但不包括下列項目：</p> 
+   <td> <p>使用者在專案上記錄所有指派給他們的任務和問題的時間。</p> <p>這包括使用者直接登入專案的任何時間。</p> <p>這不包括下列專案：</p> 
     <ul> 
-     <li> <p>未指派給任何使用者的登入時間任務和問題。 </p> </li> 
-     <li> <p>登入父任務的時間。 </p> </li> 
+     <li> <p>登入未指派給任何使用者的任務和問題的時間。 </p> </li> 
+     <li> <p>父系任務的登入時間。 </p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td>角色</td> 
-   <td> <p>此角色中分配給用戶的所有任務或問題的登錄時間。 </p> <p>但不包括下列項目：</p> 
+   <td> <p>登入指派給此角色中使用者的所有任務或問題的時間。 </p> <p>這不包括下列專案：</p> 
     <ul> 
-     <li>分配給此角色但不分配給此角色的用戶的登錄任務和問題。</li> 
-     <li>直接記錄在項目或父任務上的時間。 </li> 
+     <li>登入指派給此角色但未指派給此角色之使用者的任務和問題的時間。</li> 
+     <li>直接在專案或父系任務上記錄的時間。 </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td>任務或問題 </td> 
-   <td> <p>也分配給任務和問題的用戶登錄的時間。 </p> </td> 
+   <td> <p>受指派的使用者登入任務和問題的時間。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!IMPORTANT]
 >
->記錄的時間會顯示在與小時錄入的「參加日期」對應的時間範圍中，而無論記錄小時的任務、問題或專案的時間範圍。
+>記錄的時間會以與時數專案的「輸入日期」對應的時間範圍顯示，無論記錄時數的任務、問題或專案的時間範圍為何。
 
-有關「實際小時數」的詳細資訊，請參閱 [查看實際小時數](../../manage-work/tasks/task-information/actual-hours.md).
+如需實際時數的詳細資訊，請參閱[檢視實際時數](../../manage-work/tasks/task-information/actual-hours.md)。
 
-### DIF（差異）列 {#the-dif-difference-column}
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td><strong>顯示者</strong> </td> 
-   <td> <p><strong>說明</strong> </p> </td> 
-  </tr> 
-  <tr> 
-   <td>使用者</td> 
-   <td> <p>用戶的可用小時數和計畫小時數或FTE之間的差值。 </p> <p>小時或FTE差異使用下列公式計算：</p> <p><code style="font-style: normal;">User Hour or FTE Difference = User Available Hours or FTE - User Planned Hours or FTE</code> </p> <p> <p>注意：如果值以負紅色數字顯示，則用戶會被過度分配。 </p> </p> </td> 
-  </tr> 
-  <tr> 
-   <td>專案</td> 
-   <td>此資訊不適用於項目。 </td> 
-  </tr> 
-  <tr> 
-   <td>角色</td> 
-   <td> <p>職務角色的可用小時數和計畫小時數或FTE之間的差值。 </p> <p>小時或FTE差異使用下列公式計算：</p> <p><code style="font-style: normal;">Role Hour or FTE Difference = Role Available Hours or FTE - Role Planned Hours or FTE</code> </p> <p> <p>注意：如果值以負紅色數字顯示，則角色會被過度分配。 </p> </p> </td> 
-  </tr> 
-  <tr> 
-   <td>任務或問題</td> 
-   <td>此資訊不適用於任務、問題或項目。 </td> 
-  </tr> 
- </tbody> 
-</table>
-
-### %（計畫小時數分配百分比）列 {#the-planned-hours-allocation-percentage-column}
+### DIF （差異）欄 {#the-dif-difference-column}
 
 <table style="table-layout:auto"> 
  <col> 
@@ -243,26 +214,55 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td>使用者</td> 
-   <td> <p>計畫小時數或FTE的分配，以可用小時數的百分比表示。 計畫小時數分配的百分比使用以下公式計算：</p> <p><code style="font-style: normal;">User Planned Hours Allocation Percentage = (User Planned Hours/ User Available Hours) * 100</code> </p> <p>FTE值使用的計算相同。 </p> </td> 
+   <td> <p>可用和計畫時數之間的差異，或使用者的FTE。 </p> <p>小時或FTE差異的計算公式如下：</p> <p><code style="font-style: normal;">User Hour or FTE Difference = User Available Hours or FTE - User Planned Hours or FTE</code> </p> <p> <p>備註：如果值以負數紅色顯示，則表示使用者過度配置。 </p> </p> </td> 
   </tr> 
   <tr> 
    <td>專案</td> 
-   <td>套用 <strong>按用戶查看</strong> 查看資源計畫員。</td> 
+   <td>此資訊不適用於專案。 </td> 
   </tr> 
   <tr> 
    <td>角色</td> 
-   <td> 計畫小時數或FTE的分配，以可用小時數的百分比表示。 <p>計畫小時數分配的百分比使用以下公式計算：</p><p><code style="font-style: normal;">Role Planned Hours Allocation Percentage = (Role Planned Hours/ Role Available Hours) * 100</code></p><p>FTE值使用的計算相同。</p></td> 
+   <td> <p>工作角色的可用和計畫時數或FTE之間的差異。 </p> <p>小時或FTE差異的計算公式如下：</p> <p><code style="font-style: normal;">Role Hour or FTE Difference = Role Available Hours or FTE - Role Planned Hours or FTE</code> </p> <p> <p>備註：如果值以負數顯示，則會過度配置角色。 </p> </p> </td> 
   </tr> 
   <tr> 
    <td>任務或問題</td> 
-   <td>此資訊不適用於任務、問題或項目。 </td> 
+   <td>任務、問題或專案無法提供此資訊。 </td> 
   </tr> 
  </tbody> 
 </table>
 
-如果計畫小時數或FTE的值為零，則百分比分配為0%。 如果可用小時數或FTE的值為零，則無法計算百分比分配。
+### % （計畫時數配置百分比）欄 {#the-planned-hours-allocation-percentage-column}
 
-有關計畫小時數和FTE以及它們在資源計畫員中的顯示方式的詳細資訊，請參閱 [使用「項目」和「職責」視圖在資源計畫器中使用預算資源](../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md).
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td><strong>顯示者</strong> </td> 
+   <td> <p><strong>說明</strong> </p> </td> 
+  </tr> 
+  <tr> 
+   <td>使用者</td> 
+   <td> <p>計畫時數或FTE的配置，以可用時數的百分比表示。 計畫時數配置的百分比使用下列公式計算：</p> <p><code style="font-style: normal;">User Planned Hours Allocation Percentage = (User Planned Hours/ User Available Hours) * 100</code> </p> <p>FTE值會使用相同的計算。 </p> </td> 
+  </tr> 
+  <tr> 
+   <td>專案</td> 
+   <td>將<strong>依使用者的檢視</strong>套用至資源規劃工具時，此資訊無法供專案使用。</td> 
+  </tr> 
+  <tr> 
+   <td>角色</td> 
+   <td> 計畫時數或FTE的配置，以可用時數的百分比表示。 <p>計畫時數配置的百分比使用下列公式計算：</p><p><code style="font-style: normal;">Role Planned Hours Allocation Percentage = (Role Planned Hours/ Role Available Hours) * 100</code></p><p>FTE值會使用相同的計算。</p></td> 
+  </tr> 
+  <tr> 
+   <td>任務或問題</td> 
+   <td>任務、問題或專案無法提供此資訊。 </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+如果計畫時數或FTE的值為零，則百分比配置為0%。 如果「可用時數」或「約當全職人數」的值為零，則無法計算「百分比配置」。
+
+如需計畫時數和FTE的詳細資訊，以及它們在「資源規劃工具」中的顯示方式，請參閱資源規劃工具中使用「專案」和「角色」檢視的[預算資源](../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md)。
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE:&nbsp;this table is ideal but it does not render in Markdown) </p>

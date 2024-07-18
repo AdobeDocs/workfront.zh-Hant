@@ -41,26 +41,26 @@ ht-degree: 2%
    <td role="rowheader">存取層級設定*</td> 
    <td> <p>編輯報告、儀表板、行事曆的存取權以修改報告</p> <p>編輯對篩選器、檢視、群組的存取權以修改檢視</p> <p><b>附註</b>
 
-如果您還是沒有存取權，請詢問您的Workfront管理員，他們是否在您的存取層級中設定其他限制。 如需有關Workfront管理員如何修改您的存取層級的資訊，請參閱 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>.</p> </td>
+如果您還是沒有存取權，請詢問您的Workfront管理員，他們是否在您的存取層級中設定其他限制。 如需Workfront管理員如何修改存取層級的詳細資訊，請參閱<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>。</p> </td>
 </tr>  
   <tr> 
    <td role="rowheader">物件許可權</td> 
-   <td> <p>管理報表的許可權</p> <p>如需請求其他存取許可權的詳細資訊，請參閱 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">要求物件的存取權 </a>.</p> </td> 
+   <td> <p>管理報表的許可權</p> <p>如需請求其他存取權的資訊，請參閱<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">請求物件</a>的存取權。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;若要瞭解您擁有的計畫、授權型別或存取權，請聯絡您的Workfront管理員。
+&#42;若要瞭解您擁有的計畫、授權型別或存取權，請連絡您的Workfront管理員。
 
 ## 透過縮排任務來顯示任務中的父子關係
 
 1. 前往含有您要匯出之工作清單的專案。
-1. 按一下 **檢視** 下拉式功能表，然後選取 **新檢視**.
+1. 按一下&#x200B;**檢視**&#x200B;下拉式功能表，然後選取&#x200B;**新增檢視**。
 
 1. 在熒幕左上角為篩選器命名。
-1. 按一下 **任務名稱** 欄標題。
+1. 在&#x200B;**工作名稱**&#x200B;欄標題中按一下。
 
-1. 選取 **切換到文字模式** 在右上角。
+1. 選取右上角的&#x200B;**切換至文字模式**。
 1. 按一下文字方塊中的任意位置以編輯文字，並移除所有現有文字。
 1. 貼上下列文字：
 

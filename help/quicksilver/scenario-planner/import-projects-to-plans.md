@@ -1,21 +1,21 @@
 ---
 product-area: enterprise-scenario-planner-product-area
 navigation-topic: enterprise-scenario-planner-navigation-topic
-title: 將項目導入方案計畫器中的計畫
-description: 您可以將現有專案匯入計畫中。 導入的項目將轉換為方案，您可以在計畫中管理它們，就像管理新方案一樣。 原項目仍與新倡議有聯繫。
+title: 將專案匯入至「案例規劃工具」中的計畫
+description: 您可以將現有專案匯入計畫。 匯入的專案會轉換為方案，您可以在計畫中管理它們，就像管理新方案一樣。 原始專案仍會連結至新方案。
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: 20429bb1-c158-433b-9790-325cd577248e
 source-git-commit: 844dddec944b6cfb0957eecf09c2980e9d0577cc
 workflow-type: tm+mt
-source-wordcount: '1699'
+source-wordcount: '1710'
 ht-degree: 0%
 
 ---
 
-# 將專案匯入至 [!DNL Scenario Planner]
+# 將專案匯入[!DNL Scenario Planner]中的計畫
 
-您可以將現有專案匯入計畫中。 導入的項目將轉換為方案，您可以在計畫中管理它們，就像管理新方案一樣。 原項目仍與新倡議有聯繫。
+您可以將現有專案匯入計畫。 匯入的專案會轉換為方案，您可以在計畫中管理它們，就像管理新方案一樣。 原始專案仍會連結至新方案。
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -34,51 +34,51 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td> <p>[!DNL Adobe Workfront]<b> 計劃*</b> </p> </td> 
-   <td>[!UICONTROL Business]或更高版本</td> 
+   <td> <p>[!DNL Adobe Workfront]<b>計畫*</b> </p> </td> 
+   <td>[！UICONTROL Business]或更高版本</td> 
   </tr> 
   <tr> 
-   <td> <p>[!DNL Adobe Workfront]<b> 授權*</b> </p> </td> 
-   <td> <p>[!UICONTROL Review]或更高版本</p> </td> 
+   <td> <p>[!DNL Adobe Workfront]<b>授權*</b> </p> </td> 
+   <td> <p>[！UICONTROL Review]或更高版本</p> </td> 
   </tr> 
   <tr> 
    <td><b>產品</b> </td> 
-   <td> <p>您必須為 [!DNL Adobe Workfront Scenario Planner] 存取本文所述功能。</p> <p>如需有關取得 [!DNL Workfront Scenario Planner]，請參閱 <a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">使用 [!DNL Scenario Planner]</a>. </p> </td> 
+   <td> <p>您必須為[!DNL Adobe Workfront Scenario Planner]購買額外的授權，才能存取本文所述的功能。</p> <p>如需有關取得[!DNL Workfront Scenario Planner]的資訊，請參閱<a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">使用[!DNL Scenario Planner]</a>所需的存取權。 </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td><strong>訪問級別配置*</strong> </td> 
-   <td> <p>[!UICONTROL Edit]或更高版本 [!DNL Scenario Planner]</p> <p>注意：如果您仍無法存取，請詢問您的 [!DNL Workfront] 管理員。 若要了解 [!DNL Workfront] 管理員可以更改您的訪問級別，請參閱 <a href="../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>.</p> </td> 
+   <td><strong>存取層級設定*</strong> </td> 
+   <td> <p>[！UICONTROL Edit]或以上版本的 [!DNL Scenario Planner]</p> <p>注意：如果您還是沒有存取權，請詢問您的[!DNL Workfront]管理員是否對您的存取層級設定了其他限制。 如需[!DNL Workfront]管理員如何變更您的存取層級的詳細資訊，請參閱<a href="../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>。</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><strong>物件權限</strong> </p> </td> 
-   <td> <p>計畫的[!UICONTROL管理]權限</p> <p>有關請求對計畫進行額外訪問的資訊，請參閱 <a href="../scenario-planner/request-access-to-plan.md" class="MCXref xref">請求方案計畫員中計畫的訪問權</a>.</p> </td> 
+   <td> <p><strong>物件許可權</strong> </p> </td> 
+   <td> <p>[！UICONTROL Manage]計畫的許可權</p> <p>如需請求對計畫的額外存取權的相關資訊，請參閱<a href="../scenario-planner/request-access-to-plan.md" class="MCXref xref">在Scenario Planner</a>中請求對計畫的存取權。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;若要了解您擁有的計畫、授權類型或存取權，請聯絡您的 [!DNL Workfront] 管理員。
+&#42;若要瞭解您擁有的計畫、授權型別或存取權，請連絡您的[!DNL Workfront]管理員。
 
-## 關於將項目作為新計畫導入計畫的考慮
+## 將專案匯入計畫中作為新方案的考量事項
 
-* 您必須先建立項目，才能將它們作為新方案導入計畫中。
+* 您必須先建立專案，才能將專案作為新方案匯入計畫。
 
-   <!--
+  <!--
   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: no caveats for project statuses yet, mentioned in the import steps as a tip) </p>
   -->
 
-* 你至少 [!UICONTROL 檢視] 項目的權限，以便將項目作為新計畫導入計畫。
-* 您可以將相同的專案匯入多個計畫。
-* 您要匯入的專案必須在計畫的時間範圍中包含日期。 您無法匯入具有 [!UICONTROL 計畫完成日期] 早於計劃開始或 [!UICONTROL 計劃開始日期] 遲於計畫結束。
-* 一次無法匯入超過100個專案。
-* 有些項目資訊也被導入計畫中，成為主動資訊。 有關將哪些項目資訊導入計畫並成為計畫資訊的資訊，請參見 [導入計畫的項目資訊](#project-information-imported-into-the-plan) 一節。
-* 在連結項目上發生的更改不會影響計畫上的舉措。
-* 計畫上的方案發生的更改不會自動影響連結的項目方案更改只有當您從計畫發佈方案時才會影響連結的項目。 如需發佈活動如何影響連結專案的相關資訊，請參閱 [更新或建立專案，方法是在 [!DNL Scenario Planner]](../scenario-planner/publish-scenarios-update-projects.md).
-* 刪除已通過導入項目建立的方案不會刪除項目。
-* 刪除連結到方案的項目不會刪除方案。
+* 您必須擁有專案至少[!UICONTROL 檢視]許可權，才能將其匯入計畫中作為新方案。
+* 您可以將相同專案匯入多個計畫。
+* 您要匯入的專案必須包含計畫時間範圍內的日期。 您無法匯入計劃開始日期為[!UICONTROL 計畫完成日期]或計畫結束日期為[!UICONTROL 計劃開始日期]的專案。
+* 您無法一次匯入超過100個專案。
+* 有些專案資訊也會匯入計畫，成為方案資訊。 如需有關哪些專案資訊已匯入計畫並成為方案資訊的資訊，請參閱本文章中匯入計畫](#project-information-imported-into-the-plan)的[專案資訊。
+* 連結專案上發生的變更不會影響計畫上的方案。
+* 發生在計畫上方案上的變更不會自動影響連結的專案。方案變更只有在您從計畫發佈方案時才會影響連結的專案。 如需有關發佈方案如何影響連結專案的資訊，請參閱[在 [!DNL Scenario Planner]](../scenario-planner/publish-scenarios-update-projects.md)中發佈方案以更新或建立專案。
+* 刪除透過匯入專案建立的方案不會刪除專案。
+* 刪除連結至方案的專案不會刪除方案。
 
-## 導入計畫的項目資訊 {#project-information-imported-into-the-plan}
+## 專案資訊已匯入計畫 {#project-information-imported-into-the-plan}
 
-將項目導入計畫時，也會將一些項目資訊導入計畫，並將其變為計畫資訊。 下表顯示了將項目導入計畫時，哪些項目資訊成為計畫資訊：
+將專案匯入計畫時，也會將某些專案資訊匯入計畫，使其成為方案資訊。 下表顯示將專案匯入計畫時，哪些專案資訊會成為方案資訊：
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: add what happens if you import a 5 year project to a 1 year plan - how does this display?) </p>
@@ -90,7 +90,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td>專案資訊</td> 
-   <td>計畫資訊 </td> 
+   <td>方案資訊 </td> 
   </tr> 
   <tr> 
    <td>專案名稱</td> 
@@ -98,29 +98,29 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td>專案計畫日期</td> 
-   <td> <p>計畫的開始和結束月份。</p> <p>如果項目在月中間開始或結束，則導入的日期將延長，以覆蓋計畫中的整個月。 例如，如果項目計畫日期為2020年3月20日至5月5日，則導入計畫的日期為2020年3月至5月。</p> <p>如果計畫起始日期或完成日期超出計畫的持續時間，則會顯示一個可視指示，即導入的計畫在計畫之前或之後開始或結束。 </p> </td> 
+   <td> <p>行動方案開始和結束月份。</p> <p>如果專案在月中開始或結束，匯入的日期會延長到涵蓋計畫中的整個月。 例如，如果專案計畫日期為2020年3月20日至5月5日，則匯入方案的日期為2020年3月至5月。</p> <p>如果「計劃開始日期」或「完成日期」超過計畫的期間，則會有視覺化指示表示匯入的方案在計畫之前或之後開始。 </p> </td> 
   </tr> 
   <tr> 
-   <td>指派給任務和問題的作業角色</td> 
-   <td> <p>計畫工作角色. </p> <p>備註:   <p>如果用戶在項目的生命期內更改了角色，則導入的角色取決於導入項目時分配的狀態。 存在下列情況：</p> 
+   <td>指派給任務和問題的職位角色</td> 
+   <td> <p>方案工作角色。 </p> <p>注意：   <p>如果使用者在專案生命週期中變更角色，則匯入的角色取決於您匯入專案時指派的狀態。 存在下列情況：</p> 
      <ul> 
-      <li> <p>如果分配給任務的用戶或問題在將其分配標籤為[!UICONTROL Done]後更改了其角色， [!DNL Workfront] 將用戶在將分配標籤為[!UICONTROL Done]之前履行的角色導入計畫。</p> </li> 
-      <li> <p>如果分配給某個任務或問題的用戶在項目的生命週期中更改了角色，但在導入項目時，其在任務或問題上的分配未標籤為[!UICONTROL Done], [!DNL Workfront] 僅匯入所指派使用者的目前角色。 </p> </li> 
-     </ul> <p>有關分配狀態的資訊，請參閱 <a href="../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md" class="MCXref xref">Adobe [!DNL Workfront] 術語</a>. </p> </p> </td> 
+      <li> <p>如果指派給任務或問題的使用者在將其指派標示為[！UICONTROL完成]之後變更了角色，則[!DNL Workfront]會將該使用者在將其指派標示為[！UICONTROL完成]之前所履行的角色匯入行動方案。</p> </li> 
+      <li> <p>如果指派給任務或問題的使用者在專案存留期間變更了角色，但他們在任務或問題上的指派未在匯入專案時標籤為[！UICONTROL完成]，則[!DNL Workfront]僅匯入指派使用者的目前角色。 </p> </li> 
+     </ul> <p>如需指派狀態的相關資訊，請參閱Adobe[!DNL Workfront]術語的<a href="../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md" class="MCXref xref">辭彙表</a>中的「指派狀態」。 </p> </p> </td> 
   </tr> 
   <tr> 
-   <td>與分配給任務或問題的作業角色關聯的項目[!UICONTROL計畫時數]</td> 
-   <td> <p><span>根據計畫設定為使用FTE還是小時，項目上任務的[!UICONTROL計畫小時數]將變為</span> [!UICONTROL必需FTE] <span>或計畫上的[!UICONTROL所需小時數]</span>. </p> <p>有關設定計畫以使用FTE或小時的資訊，請參閱 <a href="../scenario-planner/create-and-edit-plans.md" class="MCXref xref">在 [!DNL Scenario Planner]</a>. </p> <p>請考量下列事項：</p> 
+   <td>與指派給任務或問題的工作角色相關的專案[！UICONTROL計畫時數]</td> 
+   <td> <p><span>根據計畫是設定為使用FTE或時數，專案上任務的[！UICONTROL計畫時數]會在計畫</span>上變成</span> [！UICONTROL必要的FTE] <span>或[！UICONTROL需要時數]。 </p> <p>如需設定計畫以使用FTE或時數的詳細資訊，請參閱<a href="../scenario-planner/create-and-edit-plans.md" class="MCXref xref">在[!DNL Scenario Planner]</a>中建立和編輯計畫。 </p> <p>請考量下列事項：</p> 
     <ul> 
-     <li> <p>[!DNL Workfront] 使用分配給任務和問題的作業角色或分配給任務或問題的用戶在項目上關聯的作業角色，並將它們作為必需的作業角色轉移到新方案。 </p> </li> 
-     <li> <p>當計畫設定為使用FTE時，與項目任務和問題上的任務職責相關聯的計畫小時數將首先轉換為FTE。 然後，此FTE將分配給計畫的工作角色。 <span>計畫小時數在 [!DNL Workfront]. 如果任務或問題跨越多個月，則計畫期間內每個月的計畫小時數量將以每月FTE轉換，並轉移到計畫的每個月。</span></p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>範例： </b></span></span><span>例如，如果在9月將任務分配給80個計畫小時的職務職責，則導入的職務職責在9月為方案顯示0.5 FTE。</span> </p> </li> 
-     <li> <p>[!DNL Workfront] 使用以下公式計算與方案關聯的必需職務職責的FTE:</p> <p><code>Required Job Role FTE (initiative) = Job Role assignment Planned Hours (</code><code>from tasks and issues on the project)/ 160</code> </p> <p>提示：此 [!DNL Scenario Planner] 假設一個月內有160個工作小時。</p> <p>例如，如果項目的持續時間為1200分鐘，並且項目上的職務職責與600分鐘的計畫小時相關聯，則其FTE為0.5。導入項目時，新建立的方案的必需職務職責FTE為方案的每月0.5。 </p> </li> 
-     <li>當將任務職責分配給項目中計畫時數為零的任務時，預設情況下，方案的任務職責的必需FTE為零。 <!--
+     <li> <p>[!DNL Workfront] 使用指派給任務和問題的工作角色，或指派給任務或問題的使用者在專案上相關聯的工作角色，並將它們作為所需工作角色轉移到新方案。 </p> </li> 
+     <li> <p>當計畫設定為使用FTE時，與專案任務和問題上的工作角色關聯的計畫時數首先轉換為FTE。 然後會將此FTE指派給方案的工作角色。 <span>計畫時數在[!DNL Workfront]中平均分配。 如果任務或問題跨多個月，方案期間每個月的計畫時數金額會轉換為每月FTE，並傳輸到方案的每個月。</span></p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>範例： </b></span></span><span>例如，如果在9月將任務指派給工作角色80個計畫時數，則匯入的工作角色在9月為方案顯示0.5 FTE。</span> </p> </li> 
+     <li> <p>[!DNL Workfront] 使用下列公式計算與方案關聯的「必要職務」角色的FTE：</p> <p><code>Required Job Role FTE (initiative) = Job Role assignment Planned Hours (</code><code>from tasks and issues on the project)/ 160</code> </p> <p>提示： [!DNL Scenario Planner]假設一個月有160個工作小時。</p> <p>例如，如果專案具有1200分鐘的持續時間並且專案上的工作角色與600分鐘的規劃時數相關聯，則其FTE為0.5。匯入專案時，新建立方案上的必要工作角色FTE為方案每個月的0.5。 </p> </li> 
+     <li>當工作角色指派給專案上零計畫時數的任務時，方案工作角色的必要FTE預設為零。 <!--
        <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
          (NOTE: this used to be 1, not zero in Production) 
        </MadCap:conditionalText>
       --></li> 
-     <li>將任務角色分配給項目上的任務時，其持續時間為零[!UICONTROL Duration]，則為必需FTE <span>或小時</span> 對於方案的工作角色，預設情況下為零，即使任務具有計畫小時數。 </li> 
+     <li>當工作角色指派給具有零[！UICONTROL持續時間]專案上的任務時，行動方案工作角色的必要FTE <span>或時數</span>預設為零，即使任務具有計畫時數。 </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -128,30 +128,31 @@ ht-degree: 0%
 
 
 
-## 將項目導入計畫
+## 將專案匯入計畫
 
 >[!IMPORTANT]
 >
->將項目導入計畫後，這些項目就成為計畫的倡議。 雖然這兩個項目是連結的，但它們作為獨立實體存在，並且在更新時不會自動影響彼此。
+>將專案匯入計畫後，它們就會成為計畫中的方案。 雖然這兩個專案已連結，但它們作為獨立圖元存在，更新它們時不會自動相互影響。
 >
->發生以下情況：
+>會發生下列情況：
 >
->* 在將項目導入計畫後，對項目的更改不會影響計畫。這些更改包括對職務職責分配的更改。
+>* 將專案匯入計畫後，專案的變更絕不會影響方案。這些變更包括職位角色分配的變更。
 >
 >  <!--
 >  <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: this might change if projects will ever affect initiatives automatically) </p>>
 >  -->
 >
->* 計畫的更改會影響 [!DNL Scenario Planner] 區域時，才會將方案發佈到相應的項目。 否則，它們不會影響 [!UICONTROL 計畫小時數] 項目任務和問題的資訊。
+>* 只有當您發佈方案至對應的專案時，對方案所做的變更才會影響專案上[!DNL Scenario Planner]區域中的資訊。 否則，它們不會影響專案任務和問題的[!UICONTROL 計畫時數]資訊。
 >
->  如需發佈活動如何影響連結專案的詳細資訊，請參閱  [通過在方案計畫器中發佈方案來更新或建立項目](../scenario-planner/publish-scenarios-update-projects.md).
+>  如需有關發佈方案如何影響連結專案的資訊，請參閱[在Scenario Planner](../scenario-planner/publish-scenarios-update-projects.md)中發佈方案以更新或建立專案。
+>
 
-1. 按一下 **[!UICONTROL 主菜單]** ![](assets/main-menu-icon.png) 在 [!DNL Workfront]，然後按一下 [!DNL Scenarios] 若要存取 [!DNL Scenario Planner].
+1. 按一下[!DNL Workfront]右上角的&#x200B;**[!UICONTROL 主要功能表]** ![](assets/main-menu-icon.png)，然後按一下[!DNL Scenarios]以存取[!DNL Scenario Planner]。
 
-1. 按一下要導入項目的計畫的名稱。
-1. 按一下 **[!UICONTROL 新計畫]**，然後按一下 **[!UICONTROL 匯入專案]**.
+1. 按一下您要匯入專案之計畫的名稱。
+1. 按一下&#x200B;**[!UICONTROL 新方案]**，然後按一下&#x200B;**[!UICONTROL 匯入專案]**。
 
-   此 [!UICONTROL 匯入專案] 框。 計畫時間範圍內包含日期的專案會顯示在清單中。
+   [!UICONTROL 匯入專案]方塊隨即顯示。 日期包含在計畫時間範圍內的專案會顯示在清單中。
 
    ![](assets/project-import-ui-projects-selected-350x72.png)
 
@@ -163,63 +164,64 @@ ht-degree: 0%
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: the status of the projects in the import projects UI might change; right now it's ALL statuses)</p>
    -->
 
-1. （選用）按一下 **[!UICONTROL 篩選圖示]** ![](assets/filter-nwepng.png)並從清單中選取可用的篩選器，以減少清單中的專案數量。 依預設，專案清單會依使用者目前在專案清單中選取的專案篩選條件來篩選。
+1. （選擇性）按一下&#x200B;**[!UICONTROL 篩選圖示]** ![](assets/filter-nwepng.png)並從清單中選取可用的篩選，以減少清單上的專案數量。 依預設，專案清單是使用者目前選取的專案篩選器在專案清單中篩選。
 
-1. （選用）按一下 **[!UICONTROL 搜尋圖示]** ![](assets/search-icon.png) 和新增顯示在畫面上任何欄位上的關鍵字。 包含搜尋字的項目會自動顯示在清單中，且所有項目都會隱藏。
+1. （選擇性）按一下&#x200B;**[!UICONTROL 搜尋圖示]** ![](assets/search-icon.png)，然後新增顯示在熒幕上任何欄位的關鍵字。 包含搜尋字詞的專案會自動顯示在清單中，且所有專案都會隱藏。
 
-1. （條件性）按一下 **[!UICONTROL X圖示]** 移除搜尋並顯示所有專案。
-1. 選取最多100個專案，然後按一下 **[!UICONTROL 匯入]**.
+1. （視條件而定）按一下&#x200B;**[!UICONTROL X圖示]**&#x200B;以移除搜尋並顯示所有專案。
+1. 選取最多100個專案，然後按一下&#x200B;**[!UICONTROL 匯入]**。
 
-   這些項目作為新舉措導入。
+   專案會匯入為新方案。
 
    請注意下列事項：
 
-   * 專案圖示 ![](assets/project-icon-sp.png) 顯示在方案名稱的右側。
-   * 如果項目時間表超過計畫的持續時間，則計畫欄的結尾會向左（當起始日期早於計畫日期時）或向右（當終止日期晚於計畫日期時）指定的邊距。
+   * 方案名稱的右側會顯示專案圖示![](assets/project-icon-sp.png)。
+   * 如果專案時間表超過計畫的持續時間，方案列會在左側（當「開始日期」早於計畫日期時）或右側（當「結束日期」晚於計畫日期時）以尖角邊界結束。
 
-      ![](assets/project-bar-earlier-than-the-plan-start-date-350x39.png)
+     ![](assets/project-bar-earlier-than-the-plan-start-date-350x39.png)
 
-   * 已更新月數和工作角色，以符合專案的月數和工作角色。
+   * 月數和職位角色已更新以符合專案的月數和職位角色。
+
    >[!TIP]
    >
-   >與任務職責相關的成本在方案層更新，不會從項目導入。
+   >與工作角色相關的成本會在方案層級更新，且不會從專案匯入。
 
-1. 按一下代表新計畫的欄以開啟右側的計畫詳細資訊面板。
+1. 按一下代表新方案的列，開啟右側的方案詳細資訊面板。
 
    ![](assets/initiative-duration-with-project-duration-details-panel-350x292.png)
 
-   在 **[!UICONTROL 計畫持續時間]** 區域檢閱下列資訊：
+   在&#x200B;**[!UICONTROL 方案期間]**&#x200B;區域中，檢閱下列資訊：
 
    <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">[!UICONTROL計畫持續時間]</td> 
-      <td>這是計畫的持續時間（以月為單位）。 </td> 
+      <td role="rowheader">[！UICONTROL方案期間]</td> 
+      <td>這是行動方案的持續時間（月數）。 </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL計畫]</td> 
-      <td>計畫的開始和結束日期。 </td> 
+      <td role="rowheader">[！UICONTROL方案]</td> 
+      <td>方案的開始和結束日期。 </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL項目]</td> 
-      <td> <p>連結項目的[!UICONTROL計劃開始]和[!UICONTROL完成日期]。</p> <p>提示：如果缺少[!UICONTROL項目]資訊，則刪除了項目。</p> </td> 
+      <td role="rowheader">[！UICONTROL專案]</td> 
+      <td> <p>連結專案的[！UICONTROL計劃開始]和[！UICONTROL完成日期]。</p> <p>提示：如果[！UICONTROL專案]資訊遺失，專案就會被刪除。</p> </td> 
      </tr> 
     </tbody> 
    </table>
 
-1. 編輯方案的名稱。 依預設，它會符合專案的名稱。
-1. （選用）執行下列其中一項作業：
+1. 編輯方案名稱。 依預設，其會符合專案名稱。
+1. （可選）執行下列任一項作業：
 
-   * 更新作業角色(在 **[!UICONTROL 必需的作業角色]** 節
-   * 更新 **[!UICONTROL 固定成本]** 在 **[!UICONTROL 成本]** 節
+   * 更新&#x200B;**[!UICONTROL 必要工作角色]**&#x200B;區段中的工作角色
+   * 更新&#x200B;**[!UICONTROL 成本]**&#x200B;區段中的&#x200B;**[!UICONTROL 固定成本]**
 
-   * 按一下 **[!UICONTROL 更新可用作業角色]** 或 **[!UICONTROL 更新可用預算]** 解決新倡議與該計畫的其他倡議之間的衝突。
+   * 按一下&#x200B;**[!UICONTROL 更新可用的工作角色]**&#x200B;或&#x200B;**[!UICONTROL 更新可用的預算]**，以解決新方案與計畫上的其他方案之間的衝突。
 
-1. （有條件）按一下 **[!UICONTROL 套用]** 以保存對計畫的更改。
-1. 按一下 **[!UICONTROL 保存計畫]** 以儲存對您計畫的變更。
-1. （可選）要將您對方案所做的更改更新回從導入的項目，請從計畫發佈項目。 如需發佈計畫的相關資訊，請參閱 [更新或建立專案，方法是在 [!DNL Scenario Planner]](../scenario-planner/publish-scenarios-update-projects.md).
+1. （視條件而定）按一下&#x200B;**[!UICONTROL 套用]**，將變更儲存至您的方案。
+1. 按一下&#x200B;**[!UICONTROL 儲存計畫]**，將變更儲存至您的計畫。
+1. （可選）若要將您對方案所做的變更更新回其匯入來源專案，請從計畫發佈專案。 如需有關發佈計畫的資訊，請參閱[在 [!DNL Scenario Planner]](../scenario-planner/publish-scenarios-update-projects.md)中發佈方案以更新或建立專案。
 1. （選用）按一下專案圖示以存取連結的專案。
 
    ![](assets/project-icon-on-initiative-highlighted-350x49.png)

@@ -17,7 +17,7 @@ ht-degree: 0%
 
 # 21.2管理員增強功能
 
-本頁說明預覽環境的21.2版本的所有管理員增強功能。 這些增強功能將在2021年5月10日當週的生產環境中提供。 如需21.2版所有可用變更的清單，請參閱 [21.2版本總覽](../../../product-announcements/product-releases/21.2-release-activity/21-2-release-overview.md).
+本頁說明預覽環境的21.2版本的所有管理員增強功能。 這些增強功能將在2021年5月10日當週的生產環境中提供。 如需21.2版本可用的所有變更清單，請參閱[21.2版本概觀](../../../product-announcements/product-releases/21.2-release-activity/21-2-release-overview.md)。
 
 ## 管理員：檢視Workfront中其他許多區域的稽核記錄資訊
 
@@ -34,9 +34,9 @@ ht-degree: 0%
 * 變更專案偏好設定或建立或刪除自訂季度
 * 變更任務和問題偏好設定
 
-如需詳細資訊，請參閱 [稽核記錄](../../../administration-and-setup/add-users/create-and-manage-users/audit-logs.md).
+如需詳細資訊，請參閱[稽核記錄](../../../administration-and-setup/add-users/create-and-manage-users/audit-logs.md)。
 
-此功能現已包含在 [新Workfront體驗的管理基礎第2部分：專案設定](https://one.workfront.com/s/learningpath3/administrator-fundamentals-in-the-new-workfront-experience-part-1-project-workfl-MCTBVZ3Q3J5RHNLIPPZPFSQRLKUY) Workfront One的學習路徑。
+此功能現在包含在新Workfront體驗的[管理基礎中，第2部分：專案設定](https://one.workfront.com/s/learningpath3/administrator-fundamentals-in-the-new-workfront-experience-part-1-project-workfl-MCTBVZ3Q3J5RHNLIPPZPFSQRLKUY) Workfront One上的學習路徑。
 
 ## 對於群組管理員：改善子群組的移動控制項和更新的工具列
 
@@ -48,7 +48,7 @@ ht-degree: 0%
 
 * 為了讓您快速重新組織您管理的群組，我們新增了「新增子群組」工具列按鈕，可讓您建立新子群組並移動現有子群組。
 
-  如需詳細資訊，請參閱 [管理子群組](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/manage-subgroups.md).
+  如需詳細資訊，請參閱[管理子群組](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/manage-subgroups.md)。
 
 * 子群組區域中的工具列現在會提供和新Workfront體驗中其他現代化清單一致的清單。 當您選取群組時，圖示代表工具列中的可用功能。
 
@@ -60,7 +60,7 @@ ht-degree: 0%
 
 2個選項按鈕選項的標籤會分開，因此不會太長，每個標籤的第二部分現在會成為單獨一行的資訊訊息。
 
-如需時程表和時數偏好設定的相關資訊，請參閱 [設定時程表和小時偏好設定](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
+如需時程表和小時喜好設定的相關資訊，請參閱[設定時程表和小時喜好設定](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md)。
 
 ## 若為群組管理員： 「群組」區域的清單改善
 
@@ -73,9 +73,9 @@ ht-degree: 0%
 * 當您選取群組時，圖示代表工具列中的可用功能。
 * 在群組清單中，欄、排序和階層具有您在其他清單中慣用的較新外觀和風格。 此外，根據預設，清單在單一頁面上最多可顯示2,000個專案，而不是100個。
 
-如需整個Workfront現代化清單的相關資訊，請參閱 [修改清單的顯示方式](../../../workfront-basics/navigate-workfront/use-lists/modify-list-display.md).
+如需整個Workfront現代化清單的相關資訊，請參閱[修改清單的顯示方式](../../../workfront-basics/navigate-workfront/use-lists/modify-list-display.md)。
 
-有關「群組」區域的資訊，請參閱 [管理群組](../../../administration-and-setup/manage-groups/manage-groups.md).
+如需「群組」區域的詳細資訊，請參閱[管理群組](../../../administration-and-setup/manage-groups/manage-groups.md)。
 
 ## 對於群組管理員：從設定中的群組區域建立和編輯方案
 
@@ -85,7 +85,7 @@ ht-degree: 0%
 
 我們持續讓您更輕鬆地集中管理群組及其相關物件。 現在您可以從「設定」的「群組」區域檢視和使用群組的程式。 這可讓您無須前往「計畫」區域來管理群組的計畫。 而且它會將您正在使用的群組程式清單與系統中的其他程式分開。
 
-如需詳細資訊，請參閱 [建立、修改和檢視群組的程式](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-programs.md).
+如需詳細資訊，請參閱[建立、修改和檢視群組的程式](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-programs.md)。
 
 ## 對於管理員：在設定區域中重新整理標題
 
@@ -101,7 +101,7 @@ ht-degree: 0%
 
   ![](assets/updated-headers-in-setup-02-29-21-350x214.png)
 
-如需有關「設定」區域的詳細資訊，請參閱 [管理和設定](../../../administration-and-setup/administration-and-setup.md).
+如需有關設定區域的詳細資訊，請參閱[管理與設定](../../../administration-and-setup/administration-and-setup.md)。
 
 ## 若為群組管理員：從「群組」頁面檢視及管理更多群組物件
 
@@ -123,9 +123,9 @@ ht-degree: 0%
 
 到目前為止，需要啟用時程表和時數選項才能指派時程表設定檔。 但這可能不是每個群組管理員的理想選擇，因為它會授予系統中所有時程表和時數資訊的檢視和編輯存取權。 如果您不需要此存取層級，現在您可以管理群組的週期性時程表。
 
-如需詳細資訊，請參閱 [建立、編輯和指派週期性時程表](../../../timesheets/create-and-manage-timesheets/create-timesheet-profiles.md).
+如需詳細資訊，請參閱[建立、編輯和指派週期性時程表](../../../timesheets/create-and-manage-timesheets/create-timesheet-profiles.md)。
 
-如需存取層級中時程表和時數選項的相關資訊，請參閱 [授予使用者管理特定區域的存取權](../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
+如需有關存取層級中時程表和時數選項的資訊，請參閱[授予使用者對特定區域的管理存取權](../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md)。
 
 ## 對於管理員：設定使用者在物件清單中看到的篩選、檢視和群組
 
@@ -135,9 +135,9 @@ ht-degree: 0%
 
 以前這些預設值無法自訂，因此篩選器一律會設定為「全部」，檢視則設定為「標準」，群組則設定為「無」。 新功能的一個額外好處是，如果使用者不需要這三個設定，您可以隱藏這些設定，不讓使用者看到。
 
-如需詳細資訊，請參閱 [使用版面配置範本自訂篩選器、檢視和群組](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md).
+如需詳細資訊，請參閱[使用配置範本自訂篩選器、檢視和群組](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)。
 
-此功能現已包含在 [新Workfront體驗中的管理員基礎知識，第3部分：控制與介面體驗](https://one.workfront.com/s/learningpath3/administrator-fundamentals-control-and-interface-experience-MCNCSSMXLPDFEERGVEM4EWL2I4LI) Workfront One的學習路徑。
+此功能現已包含在Workfront One上的新Workfront Experience （第3部分：控制與介面體驗）學習路徑的[管理員基礎課程中](https://one.workfront.com/s/learningpath3/administrator-fundamentals-control-and-interface-experience-MCNCSSMXLPDFEERGVEM4EWL2I4LI)。
 
 ## 管理員的新增功能：輕鬆列出目前使用自訂欄位的報表
 
@@ -151,7 +151,7 @@ ht-degree: 0%
 
 先前如果沒有此欄，您必須使用文字模式手動建立報表，或使用其他因應措施找出報表中正在使用哪些自訂欄位。 如果您的組織使用許多自訂欄位，這會既困難又繁瑣。
 
-如需詳細資訊， [檢視使用特定自訂欄位或Widget的所有報表](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/view-all-reports-that-use-a-particular-custom-field.md).
+如需詳細資訊，[檢視使用特定自訂欄位或Widget](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/view-all-reports-that-use-a-particular-custom-field.md)的所有報表。
 
 ## 群組管理員：在一個位置檢視和管理群組及其物件
 
@@ -159,13 +159,13 @@ ht-degree: 0%
 >
 >此功能僅在新的Adobe Workfront體驗中可用
 
-現在，當您在「設定」的「群組」區域中檢視群組時，可以更輕鬆管理群組。 新的「更多」功能表可讓您快速編輯、複製或刪除群組，而無需返回「群組」頁面。 如需詳細資訊，請參閱 [管理群組](../../../administration-and-setup/manage-groups/create-and-manage-groups/manage-a-group.md).
+現在，當您在「設定」的「群組」區域中檢視群組時，可以更輕鬆管理群組。 新的「更多」功能表可讓您快速編輯、複製或刪除群組，而無需返回「群組」頁面。 如需詳細資訊，請參閱[管理群組](../../../administration-and-setup/manage-groups/create-and-manage-groups/manage-a-group.md)。
 
 您也可以從群組頁面檢視及使用群組的版面配置範本、排程、時程表設定檔及子群組成員。 如此一來，您就不必前往這些物件的各種「設定」頁面，即可管理群組的物件。 而且它會將您群組的物件清單與系統中其他群組的物件清單分開。
 
 如需詳細資訊，請參閱下列文章：
 
-* [建立和修改群組的版面配置範本](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md)
+* [建立和修改群組的配置範本](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md)
 * [建立和修改群組的排程](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-schedules.md)
 * [建立和管理群組的時程表設定檔](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-timesheet-profiles.md)
 * [檢視和管理子群組成員](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/view-and-manage-subgroup-members.md)
@@ -174,5 +174,5 @@ ht-degree: 0%
 
 當使用者在自訂表單欄位中輸入允許格式化的內容時，他們現在可以使用專案符號、編號、超連結和區塊引號，以及粗體、斜體和底線來組織文字。
 
-如需詳細資訊，請參閱 [建立或編輯自訂表單](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
+如需詳細資訊，請參閱[建立或編輯自訂表格](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)。
 

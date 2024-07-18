@@ -15,9 +15,9 @@ ht-degree: 3%
 
 # 更新問題優先順序
 
-您可以定義問題的優先順序，以指出問題的重要性。
+您可以定義問題的優先順序  以指出問題的重要性。
 
-您必須擁有問題的管理許可權才能修改問題的優先順序。  [更新問題的優先順序](#update-the-priority-of-an-issue).
+您必須擁有問題的管理許可權才能修改問題的優先順序。  [更新問題的優先順序](#update-the-priority-of-an-issue)。
 
 ## 存取需求
 
@@ -37,16 +37,16 @@ ht-degree: 3%
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定*</td> 
-   <td> <p>編輯問題的存取權</p> <p>注意：如果您還是沒有存取權，請詢問您的Workfront管理員，他們是否在您的存取層級中設定其他限制。 如需有關Workfront管理員如何修改您的存取層級的資訊，請參閱 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>.</p> </td> 
+   <td> <p>編輯問題的存取權</p> <p>注意：如果您還是沒有存取權，請詢問您的Workfront管理員，他們是否在您的存取層級中設定其他限制。 如需Workfront管理員如何修改存取層級的詳細資訊，請參閱<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">物件許可權</td> 
-   <td> <p>管理問題的許可權</p> <p>如需請求其他存取許可權的詳細資訊，請參閱 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">要求物件的存取權 </a>.</p> </td> 
+   <td> <p>管理問題的許可權</p> <p>如需請求其他存取權的資訊，請參閱<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">請求物件</a>的存取權。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;若要瞭解您擁有的計畫、授權型別或存取權，請聯絡您的Workfront管理員。
+&#42;若要瞭解您擁有的計畫、授權型別或存取權，請連絡您的Workfront管理員。
 
 ## 問題優先順序概觀
 
@@ -57,7 +57,7 @@ Adobe Workfront管理員可以在Workfront中修改優先順序標籤，也可�
 您應該熟悉組織中優先順序的編號順序。\
 例如，如果優先順序的標籤已修改，您的組織可能會使用數字1來指稱緊急任務。
 
-如需有關自訂執行個體中優先順序名稱的詳細資訊，請參閱 [建立和自訂優先順序](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-priorities.md).
+如需自訂執行個體中優先順序名稱的詳細資訊，請參閱[建立及自訂優先順序](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-priorities.md)。
 
 請參閱下表以瞭解每個預設優先順序標籤及其對應編號：
 
@@ -66,8 +66,8 @@ Adobe Workfront管理員可以在Workfront中修改優先順序標籤，也可�
  <col> 
  <thead> 
   <tr> 
-   <th>優先順序標籤 <br>（可以修改） </th> 
-   <th>優先順序號碼 <br>（無法修改） </th> 
+   <th>優先順序標籤<br> （可以修改） </th> 
+   <th>優先順序號碼<br> （無法修改） </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -97,15 +97,15 @@ Adobe Workfront管理員可以在Workfront中修改優先順序標籤，也可�
 ## 更新問題的優先順序 {#update-the-priority-of-an-issue}
 
 1. 移至您要修改其優先順序的問題。
-1. 按一下 **問題詳細資訊** 在左側面板中。
+1. 按一下左側面板中的&#x200B;**問題詳細資料**。
 
-   此 **概觀** 區段預設應顯示。
+   依預設，**概觀**&#x200B;區段應該會顯示。
 
-1. 按一下 **優先順序** 中的欄位 **基本資訊** 區域。
+1. 按一下&#x200B;**基本資訊**&#x200B;區域中的&#x200B;**優先順序**&#x200B;欄位。
 
    ![](assets/nwe-issue-priority-field-in-details-highlighted-350x126.png)
 
-1. 選取值 **優先順序** 欄位。
+1. 選取&#x200B;**優先順序**&#x200B;欄位的值。
 
    視您的Workfront管理員在系統中設定優先順序的方式而定，選項可能會有所不同。
 

@@ -20,7 +20,7 @@ ht-degree: 0%
 本節包含下列文章：
 
 * [建立問題](../../../manage-work/issues/manage-issues/create-issues.md)
-* [修改問題指派的概觀](../../../manage-work/issues/manage-issues/modify-issue-assignments-overview.md)
+* [修改問題指派的總覽](../../../manage-work/issues/manage-issues/modify-issue-assignments-overview.md)
 * [指派問題](../../../manage-work/issues/manage-issues/assign-issues.md)
 * [檢視問題](../../../manage-work/issues/manage-issues/view-issues.md)
 * [編輯問題](../../../manage-work/issues/manage-issues/edit-issues.md)

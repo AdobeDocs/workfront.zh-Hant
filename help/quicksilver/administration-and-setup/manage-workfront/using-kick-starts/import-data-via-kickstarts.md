@@ -20,7 +20,7 @@ ht-degree: 6%
 
 <!--Audited: 12/2023-->
 
-Kick-Start是特別格式化的Excel活頁簿，可填入您要匯入Workfront的資料。 Adobe Workfront提供您可用來執行此動作的Kick-Start範本，如中所述 [Kick-Start資料匯入工具](../../../administration-and-setup/manage-workfront/using-kick-starts/kick-starts-data-importer.md).
+Kick-Start是特別格式化的Excel活頁簿，可填入您要匯入Workfront的資料。 Adobe Workfront提供您可用來執行此動作的Kick-Start範本，如[Kick-Start資料匯入工具](../../../administration-and-setup/manage-workfront/using-kick-starts/kick-starts-data-importer.md)中所述。
 
 此程式分為3項主要工作：
 
@@ -58,7 +58,7 @@ Kick-Start是特別格式化的Excel活頁簿，可填入您要匯入Workfront�
  </tbody> 
 </table>
 
-如需有關此表格的詳細資訊，請參閱 [Workfront檔案中的存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -81,11 +81,11 @@ Kick-Start是特別格式化的Excel活頁簿，可填入您要匯入Workfront�
 <!--
 1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).  -->
 
-1. 按一下 **系統** > **匯入資料(Kick-Start)**.
+1. 按一下&#x200B;**系統** > **匯入資料(Kick-Starts)**。
 
 1. 選取您要包含的資訊型別。
 
-   您選取的每個選項代表匯出試算表中多個索引標籤的集合。 例如，如果您選取 **報告** 選項，建立報告的所有必要物件將包含在試算表中（檢視、篩選器、群組、報告）。
+   您選取的每個選項代表匯出試算表中多個索引標籤的集合。 例如，如果您選取&#x200B;**報表**&#x200B;選項，則建立報表所需的所有物件都會包含在試算表中（檢視、篩選器、群組、報表）。
 
    您可以使用下列所有物件型別，將資料匯入Workfront。 (唯一的例外是「存取層級」選項。 匯出中的「存取層級」資料表僅供參考之用，可讓您依ID將存取層級指派給新的使用者帳戶。)
 
@@ -99,7 +99,7 @@ Kick-Start是特別格式化的Excel活頁簿，可填入您要匯入Workfront�
      <tr> 
       <th> <p><strong>物件</strong> </p> </th> 
       <th> <p><strong>匯出為</strong> </p> </th> 
-      <th> <p><strong>匯出的試算表中的工作表</strong> </p> </th> 
+      <th> <p>匯出的試算表中有<strong>張工作表</strong> </p> </th> 
      </tr> 
     </thead> 
     <tbody> 
@@ -140,7 +140,7 @@ Kick-Start是特別格式化的Excel活頁簿，可填入您要匯入Workfront�
      </tr> 
      <tr> 
       <td> <p>使用者</p> </td> 
-      <td> <p>匯出為Excel檔案。 若要檢視完整的選項清單，請按一下 <strong>更多選項</strong>.</p> </td> 
+      <td> <p>匯出為Excel檔案。 若要檢視完整的選項清單，請按一下<strong>其他選項</strong>。</p> </td> 
       <td> <p>使用者</p> <p>偏好設定</p> </td> 
      </tr> 
      <tr> 
@@ -278,8 +278,8 @@ Kick-Start是特別格式化的Excel活頁簿，可填入您要匯入Workfront�
     </tbody> 
    </table>
 
-1. 按一下 **下載**.
-1. 繼續使用 [將您的資料填入試算表範本中](#populate-the-spreadsheet-template-with-your-data) 將您的資訊填入空白範本試算表中。
+1. 按一下&#x200B;**下載**。
+1. 繼續進行[將您的資料填入試算表範本中](#populate-the-spreadsheet-template-with-your-data)，將您的資訊填入空白的範本試算表中。
 
 ## 將您的資料填入試算表範本中 {#populate-the-spreadsheet-template-with-your-data}
 
@@ -293,7 +293,7 @@ Kick-Start是特別格式化的Excel活頁簿，可填入您要匯入Workfront�
 
 >[!TIP]
 >
->若要更清楚瞭解當您填入Kick-Start範本時如何需要格式化每個欄中的資訊，請考慮執行一個練習，使用您嘗試匯入物件上的現有Workfront資料匯出Kick-Start。 如需指示，請參閱 [透過Kick-Start從Adobe Workfront匯出資料](../../../administration-and-setup/manage-workfront/using-kick-starts/export-data-from-wf-via-kick-starts.md).
+>若要更清楚瞭解當您填入Kick-Start範本時如何需要格式化每個欄中的資訊，請考慮執行一個練習，使用您嘗試匯入物件上的現有Workfront資料匯出Kick-Start。 如需指示，請參閱[透過Kick-Starts從Adobe Workfront匯出資料](../../../administration-and-setup/manage-workfront/using-kick-starts/export-data-from-wf-via-kick-starts.md)。
 
 當您開啟空白的Kick-Start範本時，會有許多標籤（資料表）可供使用。 它們取決於您選取要下載的物件。 每一個都代表應用程式中的物件，例如專案、任務、小時、控制面板和使用者：
 
@@ -309,28 +309,28 @@ Kick-Start是特別格式化的Excel活頁簿，可填入您要匯入Workfront�
 >
 >     但是，如果必要欄位包含系統偏好設定中設定的預設值，則不需要填入該欄位。
 >
->     例如，在 **專案專案** 標籤， **setCondition** 和 **setConditionType** 欄位可留空，但 **setGroupID** 和 **setName** 欄不能。
+>     例如，在&#x200B;**PROJ專案**&#x200B;索引標籤上，**setCondition**&#x200B;和&#x200B;**setConditionType**&#x200B;欄位可以保留空白，但&#x200B;**setGroupID**&#x200B;和&#x200B;**setName**&#x200B;欄不能保留空白。
 >
->* 特定欄位，包括 **setResourceRevenue** 和 **setEnteredByID**&#x200B;由系統自動產生。 如果您在試算表中輸入這些欄位的資料，當您上傳試算表時，kick-start程式會覆寫資料。
+>* 系統會自動產生某些欄位，包括&#x200B;**setResourceRevenue**&#x200B;和&#x200B;**setEnteredByID**。 如果您在試算表中輸入這些欄位的資料，當您上傳試算表時，kick-start程式會覆寫資料。
 
 ### 匯入記錄  {#import-a-record}
 
 工作表的每一列都對應一個唯一物件。
 
-1. 在中新增資訊 **isNew** 欄：
+1. 在&#x200B;**isNew**&#x200B;欄中新增資訊：
 
-   * 如果您要匯入的物件是新的，請鍵入 **TRUE** 匯入列中的資料。 此值區分大小寫，且必須一律使用大寫字母
-   * 如果物件已存在於Workfront中，請輸入 **假** 在 **isNew** 欄以忽略列。 此值區分大小寫，且必須一律使用大寫字母
+   * 如果您要匯入的物件是新的，請輸入&#x200B;**TRUE**&#x200B;以匯入資料列中的資料。 此值區分大小寫，且必須一律使用大寫字母
+   * 如果物件已在Workfront中，請在&#x200B;**isNew**&#x200B;欄中輸入&#x200B;**FALSE**&#x200B;以忽略該列。 此值區分大小寫，且必須一律使用大寫字母
 
       * Workfront中已存在的記錄不會更新。
-      * 如果您從Workfront下載含有資料的範本，則現有物件已標籤有 **假**.
+      * 如果您從Workfront下載含有資料的範本，則現有物件已標示&#x200B;**FALSE**。
       * 如果您下載了空白範本，則不需要為現有物件新增列。
 
-1. 在中新增資訊 **ID** 欄，方法如下：
+1. 以下列其中一種方式在&#x200B;**ID**&#x200B;欄中新增資訊：
 
-   * 如果您要匯入的物件是新的(而且您鍵入了 **TRUE** 在 **isNew** 欄)，為ID輸入任何數字。 此數字在試算表中必須是唯一的。 例如，如果您匯入三個物件，您可以分別賦予它們ID 1、2、3。
+   * 如果您要匯入的物件是新的（而且您在&#x200B;**isNew**&#x200B;資料行中輸入&#x200B;**TRUE**），請為ID輸入任何數字。 此數字在試算表中必須是唯一的。 例如，如果您匯入三個物件，您可以分別賦予它們ID 1、2、3。
 
-   * 如果物件已存在於Workfront中(且 **假** 位於 **isNew** 欄)，而且您正在匯入關於現有物件的新資訊，則ID必須是該物件在Workfront中存在的英數字元GUID。
+   * 如果物件已存在於Workfront中（且&#x200B;**FALSE**&#x200B;位於&#x200B;**isNew**&#x200B;欄），而您正在匯入現有物件的相關新資訊，則ID必須是Workfront中該物件的英數字元GUID。
 
    >[!TIP]
    >
@@ -338,29 +338,29 @@ Kick-Start是特別格式化的Excel活頁簿，可填入您要匯入Workfront�
 
    * Workfront中已存在的記錄不會更新。
    * 如果您下載含有資料的範本，則現有物件已包含GUID作為ID。
-   * 您可以透過變更來根據現有物件匯入新物件 **假** 至 **TRUE** 在 **isNew** 欄，變更ID，並在匯入前進行必要的資料調整。
+   * 您可以在&#x200B;**isNew**&#x200B;資料行中將&#x200B;**FALSE**&#x200B;變更為&#x200B;**TRUE**、變更ID，並在匯入前進行必要的資料調整，以根據現有物件匯入新的物件。
 
    ![群組的範例ID](assets/kick-start-group-example.png)
 
    * 匯入專案時，您必須指定群組ID。
 
-      * 如果群組已存在於Workfront中，您必須將其唯一ID新增至 **setGroupID** 專案的欄位。
-      * 如果Workfront中沒有該群組，您可以新增 **群組群組** 將工作表放到匯入檔案中，設定 **isNew** 欄位至 **TRUE** 在「群組」工作表上，並在下列欄位中指定新群組的數值ID： **ID** 欄。 此 **setGroupID** 新專案的欄位必須與數值相符 **ID** 用於新群組。
+      * 如果群組已存在於Workfront中，您必須將其唯一識別碼新增至專案的&#x200B;**setGroupID**&#x200B;欄位。
+      * 如果Workfront中不存在群組，您可以將&#x200B;**群組群組**&#x200B;工作表新增至匯入檔案，將「群組」工作表上的&#x200B;**isNew**&#x200B;欄位設定為&#x200B;**TRUE**，並在&#x200B;**ID**&#x200B;欄位中指出新群組的數值ID。 新專案的&#x200B;**setGroupID**&#x200B;欄位必須與新群組的數值&#x200B;**ID**&#x200B;相符。
 
-     **範例：** 若為專案，此值顯示在 **setGroupID** 欄必須為下列其中一項：
+     **範例：**&#x200B;針對專案，**setGroupID**&#x200B;資料行中顯示的值必須是下列其中一項：
 
       * Workfront例項中現有群組的GUID
-      * 「 」上ID欄中的值（數字） **群組群組** 表（如果在匯入期間建立新群組）
+      * **群組群組**&#x200B;工作表上ID資料欄中的值（數字） （如果您在匯入期間建立新群組）
 
 1. 必要欄位的輸入值，以及您要在匯入期間填入的任何其他欄位。
 1. （選用）若要新增自訂資料：
 
    * 為您要納入匯入程式的每個自訂欄位建立新欄。
-   * 為其對應的自訂欄位命名每個新欄，如下所示： **DE：[顯示在Workfront中的自訂欄位名稱]**. 例如，您可以建立下列自訂欄位：&quot;DE： Departments&quot;。
-   * 在欄中 **setCategoryId**，鍵入此自訂欄位所在的現有自訂表單的GUID。 匯入自訂資料時，此欄位是必填欄位。
+   * 為對應自訂欄位命名每個新欄位，如下所示： **DE：[自訂欄位在Workfront中出現的名稱]**。 例如，您可以建立下列自訂欄位：&quot;DE： Departments&quot;。
+   * 在&#x200B;**setCategoryID**&#x200B;欄中，輸入此自訂欄位所在的現有自訂表單的GUID。 匯入自訂資料時，此欄位是必填欄位。
    * 如果您需要在自訂欄位中新增多個資料值（例如單選按鈕、核取方塊或清單），請使用「偏好設定」標籤中列出的垂直列自訂資料分隔符號「|」來分隔值。
 
-     **範例：** 在DE：Departments欄下輸入A|D以填入自訂表單中的部門A和部門D。
+     **範例：**&#x200B;在DE：Departments欄下輸入A|D以填入自訂表單中的部門A和部門D。
 
 ### 包含日期  {#include-dates}
 
@@ -403,36 +403,36 @@ Workfront也接受時間值做為日期的一部分。
  <tbody> 
   <tr> 
    <td> <p>$$今天</p> </td> 
-   <td> <p>當用於 <strong>setDate</strong> 欄位，此萬用字元會將日期設定為您匯入Kick-Start當天的午夜。</p> <p>您可以使用篩選器上允許搭配萬用字元的標準語法，來修改萬用字元。</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>範例： </b></span></span>如果您希望專案在匯入當週的星期一開始，無論您實際執行匯入的日期為何，都可使用 <strong>$$TODAYbw</strong>. 這會將您的專案計劃開始日期設定為星期日凌晨12:00。 由於專案排程此時可能不允許工作，因此將於星期一上午9:00開始。</p> </td> 
+   <td> <p>在<strong>setDate</strong>欄位上使用時，此萬用字元會將日期設定為您匯入Kick-Start當天的午夜。</p> <p>您可以使用篩選器上允許搭配萬用字元的標準語法，來修改萬用字元。</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>範例： </b></span></span>若您想要專案在匯入當週的星期一開始，無論您實際執行匯入的日期為何，都可以使用<strong>$$TODAYbw</strong>。 這會將您的專案計劃開始日期設定為星期日凌晨12:00。 由於專案排程此時可能不允許工作，因此將於星期一上午9:00開始。</p> </td> 
   </tr> 
   <tr> 
    <td> <p>$$NOW</p> </td> 
-   <td> <p>當用於 <strong>setDate</strong> 欄位，此萬用字元會根據您在Kick-Start匯入期間建立記錄的時刻來設定日期。</p> <p>您可以使用篩選器上允許搭配萬用字元的標準語法，來修改萬用字元。</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>範例： </b></span></span>如果您希望專案在匯入後3小時開始，您可使用 <strong>$$NOW+3h</strong>.</p> </td> 
+   <td> <p>在<strong>setDate</strong>欄位上使用時，此萬用字元會根據您在Kick-Start匯入期間建立記錄的時刻設定日期。</p> <p>您可以使用篩選器上允許搭配萬用字元的標準語法，來修改萬用字元。</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>範例： </b></span></span>如果您希望專案在匯入後3小時開始，可以使用<strong>$$NOW+3h</strong>。</p> </td> 
   </tr> 
   <tr> 
    <td> <p>$$USER.ID</p> </td> 
-   <td> <p>當用於 <strong>setAssignedToID</strong> 或其他以userID為基礎的欄位，此萬用字元會指派工作或以其他方式將記錄與執行匯入的個人建立關聯。</p> </td> 
+   <td> <p>在<strong>setAssignedToID</strong>或其他以使用者ID為基礎的欄位上使用時，此萬用字元會指派工作或以其他方式將記錄與執行匯入的個人建立關聯。</p> </td> 
   </tr> 
   <tr> 
    <td> <p>$$客戶</p> </td> 
-   <td> <p>這是特別為Kick-Start使用者匯入新增的萬用字元。 建立Workfront帳戶時，會建立具有系統管理員存取層級的使用者。 在帳戶中建立其他使用者時，指派給預設管理員的使用者名稱可以當做前置詞。</p> <p>由於使用者名稱在所有客戶中必須是唯一的，因此如果您有多個個人使用非常常見的使用者名稱，例如John Smith，他可能會有一個使用者名稱「jsmith」，這個選項會很有用。 在使用者名稱指派前面加上預設的管理員使用者名稱，可以保證每個使用者名稱都是唯一的(例如： <strong>$$CUSTOMER.jsmith</strong>)。</p> <p>提示：若要確保使用者名稱在整個系統內是唯一的，更輕鬆的方式是在以下位置輸入個人的電子郵件地址： <strong>設定使用者名稱</strong> 欄位。</p> </td> 
+   <td> <p>這是特別為Kick-Start使用者匯入新增的萬用字元。 建立Workfront帳戶時，會建立具有系統管理員存取層級的使用者。 在帳戶中建立其他使用者時，指派給預設管理員的使用者名稱可以當做前置詞。</p> <p>由於使用者名稱在所有客戶中必須是唯一的，因此如果您有多個個人使用非常常見的使用者名稱，例如John Smith，他可能會有一個使用者名稱「jsmith」，這個選項會很有用。 在使用者名稱指派前面加上預設的管理員使用者名稱，即可保證每個使用者名稱都是唯一的（例如： <strong>$$CUSTOMER.jsmith</strong>）。</p> <p>提示：若要確保使用者名稱在整個系統內是唯一的，更輕鬆的方式是在<strong>setUsername</strong>欄位中輸入個人的電子郵件地址。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ### ID的屬性名稱替代  {#attribute-name-substitution-for-ids}
 
-雖然最佳做法是儘可能使用ID，但有時在設定 **setattributeid** 值。 只要變更欄標題，您就可以依名稱參考值。
+雖然最佳做法是儘可能使用ID，但有時在設定&#x200B;**setAttributeID**&#x200B;值時，不方便將ID從一個工作表交叉參照到另一個工作表。 只要變更欄標題，您就可以依名稱參考值。
 
 **範例：**
 
 * **專案匯入**
 
-  匯入專案時，設定 **setGroupID** ，方法是前往 **群組群組** 工作表，記下個別群組ID，並將它們貼到正確的儲存格中(**setGroupID** 欄) **專案專案** 工作表。
+  匯入專案時，請移至&#x200B;**群組群組**&#x200B;工作表，記下個別群組識別碼，並將它們貼到&#x200B;**專案專案**&#x200B;工作表的正確儲存格（**setGroupID**&#x200B;欄）中，以設定專案的&#x200B;**setGroupID**。
 
   這在僅處理幾個群組和專案時是可行的，但如果您處理每個群組和專案，則不太現實。
 
-  若要對上述範例進行屬性名稱替代，請變更 **setGroupID** 欄標題至 **#setGroupID群組名稱**. 然後，您可以依名稱參照每個專案的群組。
+  若要對上述範例進行屬性名稱替代，請將&#x200B;**setGroupID**&#x200B;欄標題變更為&#x200B;**#setGroupID群組名稱**。 然後，您可以依名稱參照每個專案的群組。
 
   >[!NOTE]
   >
@@ -440,7 +440,7 @@ Workfront也接受時間值做為日期的一部分。
 
 * **使用者匯入**
 
-  匯入使用者時，請填寫 **setRoleID** 從 **角色角色** 標籤。
+  匯入使用者時，從&#x200B;**ROLE Role**&#x200B;索引標籤上的角色清單中填入&#x200B;**setRoleID**。
 
   有些角色ID是用於帳戶中已存在的記錄，而其他角色ID則在匯入期間建立。
 
@@ -448,9 +448,9 @@ Workfront也接受時間值做為日期的一部分。
 
   以下說明如何在相同的匯入檔案中使用這兩種方法：
 
-   * 在試算表左側新增一欄 **setRoleID** 欄。
-   * 命名新欄 **#setRoleID角色名稱**.
-   * 若要將角色指派給現有記錄，請在 **#setRoleID角色名稱** 欄。
+   * 在試算表中新增一欄至&#x200B;**setRoleID**&#x200B;欄的左側。
+   * 為新資料行&#x200B;**命名#setRoleID角色名稱**。
+   * 若要將角色指派給現有記錄，請在&#x200B;**#setRoleID ROLE name**&#x200B;欄位中輸入角色名稱。
 
      對於新角色記錄的角色指派，請在setRoleID中輸入您在ROLE Role工作表中指派的ID。
 
@@ -482,11 +482,11 @@ Kick-Start匯入支援下列檔案型別：
 
 {{step-1-to-setup}}
 
-1. 按一下 **系統** > **匯入資料(Kick-Start)**.
+1. 按一下&#x200B;**系統** > **匯入資料(Kick-Starts)**。
 
-1. 在 **使用Kick-Start試算表上傳資料** 區段，按一下 **選擇檔案**，然後瀏覽並選取填入的試算表。
+1. 在&#x200B;**使用Kick-Start試算表上傳資料**&#x200B;區段中，按一下&#x200B;**選擇檔案**，然後瀏覽並選取填入的試算表。
 
-1. 按一下 **上傳。**
+1. 按一下&#x200B;**上傳。**
 
    如果Excel檔案上傳至Workfront需要5分鐘以上的時間，應用程式會逾時，且Workfront無法上傳檔案。
 

@@ -3,7 +3,7 @@ content-type: reference
 product-area: user-management
 navigation-topic: get-started-with-workfront
 title: 管理您的帳戶和設定檔
-description: 請參閱本節中的文章，瞭解如何管理您的 [!DNL Workfront] 帳戶和使用者設定檔。
+description: 請參閱本節中的文章以瞭解如何管理您的 [!DNL Workfront] 帳戶和使用者設定檔。
 author: Lisa
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog

@@ -1,7 +1,7 @@
 ---
 content-type: release-notes
 navigation-topic: product-releases-archive
-title: 2018.3 Beta最終版
+title: 2018.3 Beta決賽
 description: 本頁說明2018.3 Beta最終版本預覽環境中最近可用的所有變更。 此功能將於2018年10月10日在預覽環境中提供。 它將於2018年11月在生產環境中提供。
 author: Luke
 feature: Product Announcements
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 ---
 
-# 2018.3 Beta最終版
+# 2018.3 Beta決賽
 
 本頁說明2018.3 Beta最終版本預覽環境中最近可用的所有變更。 此功能將於2018年10月10日在預覽環境中提供。 它將於2018年11月在生產環境中提供。
 
@@ -22,16 +22,16 @@ ht-degree: 0%
 >
 > 本頁所述的功能在生產環境使用之前可能會有所變更。
 
-如需2018.3年所有變更的清單，請參閱  [2018.3版本活動概覽](../../../../product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-release-activity-overview.md).
+如需2018.3年所有變更的清單，請參閱  [2018.3發行活動總覽](../../../../product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-release-activity-overview.md)。
 
-2018.3測試版最終包含下列增強功能：
+2018.3 Beta最終版本包含下列增強功能：
 
 * [首頁行事曆與Outlook行事曆之間的雙向同步](#two-way-sync-between-home-calendar-and-outlook-calendar)
-* [在首頁新增任務的更新](#updates-for-adding-new-tasks-in-home)
+* [新增新工作的更新（在首頁](#updates-for-adding-new-tasks-in-home)）
 * [校訂標籤工具現在預設為展開](#proofing-markup-tools-now-expanded-by-default)
 * [Microsoft OneDrive檔案整合](#microsoft-onedrive-document-integration)
-* [適用於Microsoft Teams整合的Workfront](#workfront-for-microsoft-teams-integration)
-* [已更新Workfront以進行Adobe Creative Cloud整合](#updated-workfront-for-adobe-creative-cloud-integration)
+* 用於Microsoft Teams整合的[Workfront](#workfront-for-microsoft-teams-integration)
+* [已更新Adobe Creative Cloud整合的Workfront](#updated-workfront-for-adobe-creative-cloud-integration)
 * [Workfront行動應用程式改良](#workfront-mobile-app-improvements)
 
 ## 首頁行事曆與Outlook行事曆之間的雙向同步 {#two-way-sync-between-home-calendar-and-outlook-calendar}
@@ -40,14 +40,14 @@ ht-degree: 0%
 
 以前您只能將Outlook行事曆中的專案同步處理到首頁行事曆。
 
-如需設定首頁行事曆以與Outlook同步的相關資訊，請參閱 [設定您的首頁行事曆檢視設定](../../../../workfront-basics/using-home/using-the-home-area/configure-home-calendar-view.md).
+如需設定您的首頁行事曆以與Outlook同步的相關資訊，請參閱[設定您的首頁行事曆檢視設定](../../../../workfront-basics/using-home/using-the-home-area/configure-home-calendar-view.md)。
 
 ## 在首頁新增任務的更新 {#updates-for-adding-new-tasks-in-home}
 
 * 您現在可以更新個人任務的規劃完成日期。
 * 您現在可以將團隊和角色指派給在首頁建立的請求和專案任務。
 
-如需上述更新的詳細資訊，請參閱  [從首頁區域建立工作專案](../../../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md).
+如需上述更新的詳細資訊，請參閱  [從首頁區域建立工作專案](../../../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md)。
 
 ## 校訂標籤工具現在預設為展開 {#proofing-markup-tools-now-expanded-by-default}
 
@@ -55,7 +55,7 @@ ht-degree: 0%
 
 之前，您必須按一下，才能在垂直功能表中展開這些工具。
 
-如需詳細資訊，請參閱  [設定校訂檢視器設定](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/configure-proofing-viewer-settings.md).
+如需詳細資訊，請參閱  [設定校訂檢視器設定](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/configure-proofing-viewer-settings.md)。
 
 ## Microsoft OneDrive檔案整合 {#microsoft-onedrive-document-integration}
 
@@ -68,7 +68,7 @@ ht-degree: 0%
 * Dropbox
 * WebDAM
 
-如需檔案整合的詳細資訊，請參閱 [設定檔案整合](../../../../administration-and-setup/configure-integrations/configure-document-integrations.md).
+如需檔案整合的相關資訊，請參閱[設定檔案整合](../../../../administration-and-setup/configure-integrations/configure-document-integrations.md)。
 
 ## 適用於Microsoft Teams整合的Workfront {#workfront-for-microsoft-teams-integration}
 
@@ -86,7 +86,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
-> 已修改下列影片中概述的某些整合區域。 如需Microsoft TeamsWorkfront的最新資訊，請參閱 [[!DNL Adobe Workfront for Microsoft Teams]：文章索引](../../../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/use-workfront-with-ms-teams.md) 區段。
+> 已修改下列影片中概述的某些整合區域。 如需Microsoft TeamsWorkfront的最新資訊，請參閱[[!DNL Adobe Workfront for Microsoft Teams]：文章索引](../../../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/use-workfront-with-ms-teams.md)區段。
 
 ## 已更新Workfront以進行Adobe Creative Cloud整合 {#updated-workfront-for-adobe-creative-cloud-integration}
 

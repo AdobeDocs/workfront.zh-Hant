@@ -19,10 +19,10 @@ ht-degree: 0%
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: this is for QS only. Rest of the article still OK for classic.)</p>
 -->
 
-身為Adobe Workfront管理員，您可以使用Blueprint下載Workfront執行個體中的數個預先設定的範本。 如需詳細資訊，請參閱 [設定Blueprint](../../../administration-and-setup/blueprints/configure-template-package.md).
+身為Adobe Workfront管理員，您可以使用Blueprint在Workfront執行個體中下載數個預先設定的範本。 如需詳細資訊，請參閱[設定藍圖](../../../administration-and-setup/blueprints/configure-template-package.md)。
 
-身為具有任何Workfront授權的使用者，您可以要求安裝Blueprint範本。 如需詳細資訊，請參閱 [瀏覽藍圖目錄並請求安裝藍圖](../../../administration-and-setup/blueprints/browse-catalog.md).
+作為具有任何Workfront授權的使用者，您可以請求安裝Blueprint範本。 如需詳細資訊，請參閱[瀏覽Blueprint目錄並要求Blueprint安裝](../../../administration-and-setup/blueprints/browse-catalog.md)。
 
-Blueprint提供了基本的構建塊，幫助您建立一個隨您而增長的工作管理系統。 您可以瀏覽藍圖目錄並安裝可供使用的項目模板。
+藍圖提供基本的建置組塊，協助您建立隨您成長的工作管理系統。 您可以瀏覽藍圖目錄並安裝現成的專案範本。
 
-每個模板都針對某個部門和特定的成熟級別，以幫助您更快地在系統中實施經驗證的最佳做法。
+每個範本都以部門和特定成熟度等級為目標，協助您更快在系統中實作經過驗證的最佳實務。

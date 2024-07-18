@@ -10,8 +10,8 @@ role: Developer
 exl-id: 2c5727ee-bf8f-4664-a9b1-c5da356d94f5
 source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
 workflow-type: tm+mt
-source-wordcount: '261'
-ht-degree: 5%
+source-wordcount: '264'
+ht-degree: 2%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 5%
 
 將檔案ID和檔案版本ID新增至本規格1.1版，可用來從Workfront擷取額外資訊。
 
-**範例：** 如果檔案管理系統需要檔案的額外資訊，webhook實作程式碼可以使用檔案ID，透過Workfront的RESTful API擷取該資訊。 好的實務是，此資訊可能來自檔案上的自訂資料欄位，並包含任務、問題或專案。
+**範例：**&#x200B;如果檔案管理系統需要檔案的額外資訊，webhook實作程式碼可能會使用檔案ID，透過Workfront的RESTful API擷取該資訊。 好的實務是，此資訊可能來自檔案上的自訂資料欄位，並包含任務、問題或專案。
 
 ## POST方法
 
@@ -61,11 +61,11 @@ POST/uploadInit
  </tbody> 
 </table>
 
-## 個回應
+## 回應
 
 由/metadata端點定義的檔案中繼資料。 這包括提供者使用的檔案ID。
 
-**範例:**
+**範例：**
 
 ```
 https://www.acme.com/api/uploadInit?parentId=12345&filename=new-file.png&documentId=511ea6e000023edb38d2effb2f4e6e3b&documentVersionId=511ea6e000023edb38d2e ffb2f4e6e3b

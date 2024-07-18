@@ -40,7 +40,7 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->外部授權不是付費授權。 它主要是為和不使用Workfront的人共用檔案而設計。 如需詳細資訊，請參閱 [存取層級概觀](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md).
+>外部授權不是付費授權。 它主要是為和不使用Workfront的人共用檔案而設計。 如需詳細資訊，請參閱[存取層級概觀](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md)。
 
 ## 授權如何定義存取層級
 
@@ -48,7 +48,7 @@ ht-degree: 2%
 
 您可以複製預設存取層級，並根據需要自訂使用者的副本。 在授權允許複製存取層級的功能範圍內，您可以調整存取設定以符合使用者的需求。
 
-如需詳細資訊，請參閱 [存取層級概觀](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md) 和 [建立或修改自訂存取層級](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+如需詳細資訊，請參閱[存取層級概觀](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md)和[建立或修改自訂存取層級](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)。
 
 ## 授權計數
 
@@ -56,6 +56,6 @@ ht-degree: 2%
 
 例如，如果您將「標準」存取層級指派給使用者，則您可用的「標準」授權數量會減少1。
 
-您可以檢視指派給使用者的授權和存取層級。 如需詳細資訊，請參閱 [列出使用者的存取層級和授權](../../../administration-and-setup/add-users/access-levels-and-object-permissions/list-access-levels-and-licenses-for-your-users.md).
+您可以檢視指派給使用者的授權和存取層級。 如需詳細資訊，請參閱[列出使用者的存取層級和授權](../../../administration-and-setup/add-users/access-levels-and-object-permissions/list-access-levels-and-licenses-for-your-users.md)。
 
-如需管理授權的相關資訊，請參閱 [管理系統中的可用授權](../../../administration-and-setup/get-started-wf-administration/manage-available-licenses-in-your-system.md).
+如需管理授權的相關資訊，請參閱[管理系統中的可用授權](../../../administration-and-setup/get-started-wf-administration/manage-available-licenses-in-your-system.md)。

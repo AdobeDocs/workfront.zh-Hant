@@ -21,15 +21,15 @@ ht-degree: 0%
 
 本頁說明2021年1月18日當週在Adobe Workfront Fusion中所做的所有增強功能。
 
-如需所有最近變更的清單，請參閱 [Adobe Workfront Fusion發行活動](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
+如需所有最近變更的清單，請參閱[Adobe Workfront Fusion發行活動](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md)。
 
-如需Workfront Fusion中近期的錯誤修正清單，請參閱 [Workfront維護更新](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) 頁面，並檢查是否有任何標示為Workfront Fusion維護更新的更新。
+如需Workfront Fusion中最近的錯誤修正清單，請參閱[Workfront維護更新](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html)頁面，並檢查任何標示為Workfront Fusion維護更新的更新。
 
 ## 使用Workfront Fusion DevTool除錯案例
 
 為了讓您更輕鬆地偵錯情境，我們已建立Workfront Fusion 2.0 DevTool Chrome擴充功能。 使用此擴充功能，您可以檢查案例的手動執行、檢閱所有已執行的操作，並檢視每個API呼叫的詳細資訊。 DevTool也提供可讓您修改情境的工具，而不需逐一修改模組或篩選器。
 
-如需說明以及下載Workfront Fusion 2.0 Devtool，請參閱 [使用Adobe Workfront Fusion DevTool除錯案例](../../../workfront-fusion/scenarios/debug-scenarios-with-dev-tool.md).
+如需說明及下載Workfront Fusion 2.0 Devtool，請參閱[使用Adobe Workfront Fusion DevTool偵錯案例](../../../workfront-fusion/scenarios/debug-scenarios-with-dev-tool.md)。
 
 ## Azure Active Directory聯結器和模組現已可用
 
@@ -41,7 +41,7 @@ ht-degree: 0%
 * 根據您指定的條件搜尋記錄。
 * 執行自訂API呼叫。
 
-如需詳細資訊，請參閱 [Azure Active Directory模組](../../../workfront-fusion/apps-and-their-modules/azure-ad-modules.md).
+如需詳細資訊，請參閱[Azure Active Directory模組](../../../workfront-fusion/apps-and-their-modules/azure-ad-modules.md)。
 
 ## Azure DevOps聯結器和模組現已推出
 
@@ -55,7 +55,7 @@ ht-degree: 0%
 * 擷取工作專案清單。
 * 執行自訂API呼叫。
 
-如需詳細資訊，請參閱 [Azure DevOps模組](../../../workfront-fusion/apps-and-their-modules/azure-dev-ops.md).
+如需詳細資訊，請參閱[Azure DevOps模組](../../../workfront-fusion/apps-and-their-modules/azure-dev-ops.md)。
 
 ## Qualtrics聯結器和模組現已推出
 
@@ -67,4 +67,4 @@ ht-degree: 0%
 * 透過電子郵件發佈調查。
 * 執行自訂API呼叫。
 
-如需詳細資訊，請參閱 [Qualtrics模組](../../../workfront-fusion/apps-and-their-modules/qualtrics-modules.md).
+如需詳細資訊，請參閱[Qualtrics模組](../../../workfront-fusion/apps-and-their-modules/qualtrics-modules.md)。

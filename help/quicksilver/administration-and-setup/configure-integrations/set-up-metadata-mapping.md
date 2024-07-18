@@ -3,25 +3,25 @@ title: 設定中繼資料對應
 user-type: administrator
 product-area: system-administration;workfront-integrations
 navigation-topic: administrator-integrations
-description: 元資料是與文檔相關聯的描述性資訊。 您可以設定 [!DNL Adobe Workfront] 包括元資料，並將文檔發送到 [!DNL Workfront] 應用程式。
+description: 中繼資料是與檔案相關聯的描述性資訊。 您可以設定 [!DNL Adobe Workfront] 以包含傳送至 [!DNL Workfront] 應用程式的檔案的中繼資料。
 author: Caroline
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 exl-id: 7cf4787d-7cff-489e-bd5b-69db3ff09f6e
 source-git-commit: ceda437684f565b91dbb8b02f6b03cbe8d27a70a
 workflow-type: tm+mt
-source-wordcount: '614'
-ht-degree: 0%
+source-wordcount: '616'
+ht-degree: 1%
 
 ---
 
 # 設定中繼資料對應
 
-元資料是與文檔相關聯的描述性資訊。 您可以設定 [!DNL Adobe Workfront] 包括元資料，並將文檔發送到 [!DNL Workfront] 應用程式。
+中繼資料是與檔案相關聯的描述性資訊。 您可以設定[!DNL Adobe Workfront]以包含中繼資料以及傳送至[!DNL Workfront]應用程式的檔案。
 
 ## 存取需求
 
-您必須具備下列存取權，才能執行本文中的步驟：
+您必須具有下列存取權才能執行本文中的步驟：
 
 <table style="table-layout:auto"> 
  <col> 
@@ -33,62 +33,62 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 授權</td> 
-   <td>[!UICONTROL計畫]</td> 
+   <td>[！UICONTROL計畫]</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">訪問級別配置</td> 
-   <td> <p>您必須是 [!DNL Workfront] 管理員。 如需詳細資訊，請參閱 <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">授予使用者完整的管理存取權</a>.</p> <p><b>注意</b>:如果您仍無法存取，請詢問您的 [!DNL Workfront] 管理員。 若要了解 [!DNL Workfront] 管理員可修改您的存取層級，請參閱 <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>.</p> </td> 
+   <td role="rowheader">存取層級設定</td> 
+   <td> <p>您必須是[!DNL Workfront]管理員。 如需詳細資訊，請參閱<a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">授予使用者完整管理存取權</a>。</p> <p><b>注意</b>：如果您仍然沒有存取權，請詢問您的[!DNL Workfront]管理員是否對您的存取層級設定了其他限制。 如需[!DNL Workfront]管理員如何修改存取層級的詳細資訊，請參閱<a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## 關於 [!DNL Workfront] 中繼資料
+## 關於[!DNL Workfront]中繼資料
 
-中文檔的元資料 [!DNL Workfront] 可包括相關項目名稱、任務說明或計畫完成日期等資訊。 As a [!DNL Workfront] 管理員，您可以 [!DNL Workfront] 包括從中發送的文檔的元資料 [!DNL Workfront] 變更為下列項目 [!DNL Workfront] 應用程式：
+[!DNL Workfront]中檔案的中繼資料可包含相關專案名稱、任務說明或規劃完成日期等資訊。 作為[!DNL Workfront]管理員，您可以將[!DNL Workfront]設定為包含中繼資料，以及從[!DNL Workfront]傳送至下列[!DNL Workfront]應用程式的檔案：
 
 * [!DNL Workfront DAM]
 
-在可以隨文檔一起發送元資料之前，您必須先指定或映射要包含的元資料。 您可以對應中使用的任何欄位 [!DNL Workfront]. 設定中繼資料對應後，所有上傳至 [!DNL Workfront] 應用程式將包含對應的中繼資料。
+您必須先指定或對應想要包含的中繼資料，才能隨檔案傳送中繼資料。 您可以對應[!DNL Workfront]中使用的任何欄位。 設定中繼資料對應後，所有上傳至[!DNL Workfront]應用程式的檔案都將包含對應的中繼資料。
 
-當用戶從 [!DNL Workfront] 到 [!DNL Workfront] 應用程式中，映射元資料沿文檔傳輸。 若 [!DNL Workfront] 應用程式連結至 [!DNL Workfront]，對中的文檔元資料所做的更改 [!DNL Workfront] 未反映在 [!DNL Workfront] 應用程式。 若 [!DNL Workfront] 更改後，您必須將包含更新元資料的新文檔版本發送到 [!DNL Workfront] 應用程式。
+當使用者將檔案從[!DNL Workfront]傳送到[!DNL Workfront]應用程式時，對應的中繼資料會隨檔案傳輸。 當[!DNL Workfront]應用程式中的檔案版本連結到[!DNL Workfront]時，在[!DNL Workfront]中對檔案中繼資料所做的變更不會反映在[!DNL Workfront]應用程式中的檔案中繼資料中。 如果[!DNL Workfront]中的對應欄位已變更，您必須將含有更新後中繼資料的新版檔案傳送到[!DNL Workfront]應用程式。
 
 >[!NOTE]
 >
->您只能將中繼資料對應至一個方向：從 [!DNL Workfront] to [!DNL Workfront DAM]. 連結到的文檔的元資料 [!DNL Workfront] 從 [!DNL Workfront DAM] 無法轉移至Workfront。
+>您只能在一個方向對應中繼資料：從[!DNL Workfront]到[!DNL Workfront DAM]。 從[!DNL Workfront DAM]連結至[!DNL Workfront]的檔案中繼資料無法傳輸至Workfront。
 
-您可以對應相同的 [!DNL Workfront] 欄位至 [!DNL Workfront DAM]，但您無法在任一應用程式中為多個 [!DNL Workfront] 中繼資料欄位。
+您可以將相同的[!DNL Workfront]欄位對應到[!DNL Workfront DAM]中的各種中繼資料欄位，但您無法在其中任一應用程式中使用中繼資料欄位來對應多個[!DNL Workfront]中繼資料欄位。
 
-配置多個 [!DNL Workfront] 要匯出至 [!DNL Workfront] 應用程式，首先在中建立計算的自訂欄位 [!DNL Workfront] 以顯示物件的所有個別自訂欄位。 然後，映射計算 [!DNL Workfront] 欄位至中繼資料欄位 [!DNL Workfront] 應用程式。 如需計算自訂欄位的詳細資訊，請參閱 [將計算資料新增至自訂表單](../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
+若要設定多個[!DNL Workfront]欄位以匯出至[!DNL Workfront]應用程式中的一個中繼資料欄位，請先在[!DNL Workfront]中建立計算自訂欄位，以顯示物件的所有個別自訂欄位。 然後，將計算的[!DNL Workfront]欄位對應到[!DNL Workfront]應用程式中的中繼資料欄位。 如需有關計算自訂欄位的詳細資訊，請參閱[將計算資料新增至自訂表單](../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md)。
 
-您必須先啟用應用程式，才能映射中繼資料對應程式的欄位 [!DNL Workfront]. 如需詳細資訊，請參閱 [配置文檔整合](../../administration-and-setup/configure-integrations/configure-document-integrations.md).
+您必須先在[!DNL Workfront]中啟用應用程式，才能對應中繼資料對應程式的欄位。 如需詳細資訊，請參閱[設定檔案整合](../../administration-and-setup/configure-integrations/configure-document-integrations.md)。
 
-## 設定 [!DNL Workfront] 傳送中繼資料
+## 設定[!DNL Workfront]以傳送中繼資料
 
-1. 按一下 **[!UICONTROL 主菜單]** 圖示 ![](assets/main-menu-icon.png) 在 [!DNL Adobe Workfront]，然後按一下 **[!UICONTROL 設定]** ![](assets/gear-icon-settings.png).
+1. 按一下[!DNL Adobe Workfront]右上角的&#x200B;**[!UICONTROL 主要功能表]**&#x200B;圖示![](assets/main-menu-icon.png)，然後按一下&#x200B;**[!UICONTROL 設定]** ![](assets/gear-icon-settings.png)。
 
-1. 在左側面板中，按一下 **[!UICONTROL 檔案]** > **[!UICONTROL 中繼資料對應]**.
+1. 在左側面板中，按一下&#x200B;**[!UICONTROL 檔案]** > **[!UICONTROL 中繼資料對應]**。
 
    ![](assets/metadata-mapping.png)
 
-1. 在 **[!UICONTROL 選擇要映射的源欄位]** 方塊中，開始輸入您要對應的Workfront欄位名稱 [!DNL Workfront DAM]，然後在清單中看到它時選取它。
-1. 在 **[!UICONTROL 選擇映射的目標欄位]** 框中，選擇要在所選欄位中填入資訊的欄位 [!DNL Workfront] 欄位。
+1. 在&#x200B;**[!UICONTROL 選取對應的Source欄位]**&#x200B;方塊中，開始輸入您要對應至[!DNL Workfront DAM]的Workfront欄位名稱，然後在清單中看到該欄位時選取它。
+1. 在&#x200B;**[!UICONTROL 選取對應目標欄位]**&#x200B;方塊中，選取要以所選[!DNL Workfront]欄位中的資訊填入的欄位。
 
-1. 按一下 **[!UICONTROL 新增對應]**.
+1. 按一下&#x200B;**[!UICONTROL 新增對應]**。
 
-   對應欄位會顯示在頁面底部列出的對應欄位中。
+   對應欄位會顯示在頁面底部所列的對應欄位中。
 
-1. 重複步驟5和6，直到您新增所有所需 [!DNL Workfront] 欄位及其對應 [!DNL Workfront DAM] 欄位。
+1. 重複步驟5和6，直到您新增所有所需的[!DNL Workfront]欄位及其對應的[!DNL Workfront DAM]欄位為止。
 
-## 刪除映射的欄位
+## 刪除對應的欄位
 
-1. 登入 [!DNL Workfront] 管理員。
-1. 按一下 **[!UICONTROL 主菜單]** 圖示 ![](assets/main-menu-icon.png) 在 [!DNL Adobe Workfront]，然後按一下 **[!UICONTROL 設定]** ![](assets/gear-icon-settings.png).
+1. 以系統管理員身分登入[!DNL Workfront]。
+1. 按一下[!DNL Adobe Workfront]右上角的&#x200B;**[!UICONTROL 主要功能表]**&#x200B;圖示![](assets/main-menu-icon.png)，然後按一下&#x200B;**[!UICONTROL 設定]** ![](assets/gear-icon-settings.png)。
 
-1. 在左側面板中，按一下 **[!UICONTROL 檔案]** > **[!UICONTROL 中繼資料對應]**.
+1. 在左側面板中，按一下&#x200B;**[!UICONTROL 檔案]** > **[!UICONTROL 中繼資料對應]**。
 
-1. 在映射欄位清單中，選擇要從元資料映射中刪除的欄位。
-1. 按一下 **[!UICONTROL 刪除]**.
+1. 在對映欄位清單中，選取要從中繼資料對應中移除的欄位。
+1. 按一下&#x200B;**[!UICONTROL 刪除]**。
 
-   指定的欄位不再對應。 現在，當使用者從 [!DNL Workfront] to [!DNL Workfront DAM]，刪除欄位中包含的中繼資料不會與檔案一併傳輸。
+   指定的欄位不再對應。 現在，當使用者將檔案從[!DNL Workfront]傳送到[!DNL Workfront DAM]時，已刪除欄位中包含的中繼資料未隨檔案一起傳輸。
 
-   在您刪除映射欄位之前發送的文檔將保留隨其發送的原始元資料，包括已刪除欄位的元資料。
+   在您刪除對應欄位之前傳送的檔案會保留隨之傳送的原始中繼資料，包括已刪除欄位的中繼資料。

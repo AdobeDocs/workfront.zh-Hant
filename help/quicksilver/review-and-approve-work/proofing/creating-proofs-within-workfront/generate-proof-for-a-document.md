@@ -39,7 +39,7 @@ If a proof fails to generate after following the steps described in the followin
    <td role="rowheader">Adobe Workfront計畫</td> 
    <td> 
    <p>新增：任何 </p>
-   <p>目前：Pro或更高</p> <p>舊版計畫：選擇或Premium</p> <p>如需有關校訂不同方案的存取許可權的詳細資訊，請參閱 <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">存取Workfront中的校訂功能</a>.</p> </td> 
+   <p>目前：Pro或更高</p> <p>舊版計畫：選擇或Premium</p> <p>如需有關不同方案的校訂存取許可權的詳細資訊，請參閱<a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">存取Workfront中的校訂功能</a>。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront授權</td> 
@@ -58,22 +58,22 @@ If a proof fails to generate after following the steps described in the followin
  </tbody> 
 </table>
 
-如需有關此表格的詳細資訊，請參閱 [Workfront檔案中的存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
 ## 上傳檔案並建立校訂
 
 1. 前往您要建立新校訂的專案、任務或問題。
-1. 按一下 **檔案** 標籤。
-1. 按一下檔案 ![](assets/document-icon.png) 在左側面板中。
-1. 按一下 **新增**，然後按一下 **證明** 在出現的選單中。
+1. 按一下「**檔案**」標籤。
+1. 按一下左側面板中的檔案![](assets/document-icon.png)。
+1. 按一下「新增&#x200B;**」**，然後在出現的功能表中按一下「校訂&#x200B;**」**。
 
    >[!TIP]
    >
-   >您可以啟用 **上傳檔案時自動產生校樣** 在您的使用者設定檔中設定，以自動化此程式。 如需詳細資訊，請參閱 [設定我的設定](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md) .
+   >您可以在使用者設定檔中啟用上傳檔案時自動產生校樣&#x200B;**設定**，以自動化此程式。 如需詳細資訊，請參閱[設定我的設定](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md) 。
 
-1. 在 **新校訂** 顯示的頁面，您可以
+1. 在出現的&#x200B;**新校訂**&#x200B;頁面中，您可以
 
    * [使用基本工作流程建立進階校訂](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/configure-basic-proof-workflow.md)
    * [使用自動化工作流程建立進階校訂](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-automated-proof-workflow.md)
@@ -81,10 +81,10 @@ If a proof fails to generate after following the steps described in the followin
 ## 上傳檔案並建立新版本的校訂
 
 1. 前往您要建立現有校訂新版本的專案、任務或問題。
-1. 按一下 **檔案** 標籤。
+1. 按一下「**檔案**」標籤。
 1. 選取您要新增新版本的檔案。
-1. 按一下 **新增** > **版本** > **證明**.
-1. 在 **新校訂版本** 顯示的頁面，您可以
+1. 按一下&#x200B;**新增** > **版本** > **校訂**。
+1. 在出現的&#x200B;**新校訂版本**&#x200B;頁面中，您可以
 
    * [使用基本工作流程建立進階校訂](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/configure-basic-proof-workflow.md)
    * [使用自動化工作流程建立進階校訂](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-automated-proof-workflow.md)
@@ -93,23 +93,23 @@ If a proof fails to generate after following the steps described in the followin
 
 您可以從檔案系統（例如案頭）拖放檔案，以建立新校訂或現有校訂的新版本。 校訂包含以下設定，視您建立新校訂還是新版本而定：
 
-* **新校訂：** 建立僅與您共用的簡單校訂。 您可以在建立校訂後修改共用設定，如所述 [編輯校訂設定](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/edit-proof-settings.md).
+* **新校訂：**&#x200B;建立僅與您共用的簡單校訂。 您可以在建立校訂後修改共用設定，如[編輯校訂設定](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/edit-proof-settings.md)中所述。
 
-* **現有校訂的新版本：** 使用與先前版本相同的校訂設定建立新版本。
+* **現有校訂的新版本：**&#x200B;使用與先前版本相同的校訂設定建立新版本。
 
 若要使用拖放方式來產生新校訂或新校訂版本：
 
 1. 確保校訂已設定為自動產生，如中所述。
-1. 繼續使用  [從您的檔案系統新增檔案至Adobe Workfront](../../../documents/adding-documents-to-workfront/add-documents-from-file-system.md)，說明新增檔案的拖放方法。 
+1. 繼續使用  [從您的檔案系統新增檔案至Adobe Workfront](../../../documents/adding-documents-to-workfront/add-documents-from-file-system.md)，說明新增檔案的拖放方式。 
 
 ## 為現有檔案建立校訂
 
-1. 前往您想要校訂的專案、任務或問題，然後按一下 **檔案** 區段。
-1. 將滑鼠停留在檔案上，然後按一下 **建立校訂** 出現在檔名稱下方的連結。
+1. 前往您要校訂的專案、任務或問題，然後按一下「**檔案**」區段。
+1. 暫留在檔案上，然後按一下出現在檔名稱下方的&#x200B;**建立校訂**&#x200B;連結。
 
    >[!NOTE]
    >
-   >如果您有 **上傳檔案時自動產生校樣** 在您的使用者設定檔中啟用，系統會自動建立簡單的校樣。
+   >如果您在使用者設定檔中啟用&#x200B;**上傳檔案時自動產生校訂**，則系統會自動建立簡易校訂。
 
 1. 選擇下列其中一項：
 
@@ -119,7 +119,7 @@ If a proof fails to generate after following the steps described in the followin
     <tbody> 
      <tr> 
       <td role="rowheader">簡單校訂</td> 
-      <td>此選項會建立未附加工作流程的校訂，並套用預設校訂設定。 您可以更新預設校訂設定，或在建立校訂後新增工作流程。 如需校訂設定的詳細資訊，請參閱 <a href="../../../review-and-approve-work/proofing/managing-proofs-within-workfront/edit-proof-settings.md" class="MCXref xref">編輯校訂設定</a>.</td> 
+      <td>此選項會建立未附加工作流程的校訂，並套用預設校訂設定。 您可以更新預設校訂設定，或在建立校訂後新增工作流程。 如需校訂設定的詳細資訊，請參閱<a href="../../../review-and-approve-work/proofing/managing-proofs-within-workfront/edit-proof-settings.md" class="MCXref xref">編輯校訂設定</a>。</td> 
      </tr> 
      <tr> 
       <td role="rowheader">進階校訂</td> 

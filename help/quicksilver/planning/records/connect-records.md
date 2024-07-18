@@ -36,9 +36,9 @@ hide: yes
 
 連線記錄類似於將記錄從另一個應用程式連線到物件。
 
-如需有關將記錄型別相互連線或從其他應用程式連線到物件型別的資訊，請參閱 [連線記錄型別](/help/quicksilver/planning/architecture/connect-record-types.md).
+如需有關將記錄型別相互連線或從其他應用程式連線到物件型別的資訊，請參閱[連線記錄型別](/help/quicksilver/planning/architecture/connect-record-types.md)。
 
-如需連線記錄型別的範例，請參閱 [連線記錄型別和記錄的範例](/help/quicksilver/planning/architecture/example-connect-record-types-and-records.md).
+如需連線記錄型別的範例，請參閱[連線記錄型別和記錄的範例](/help/quicksilver/planning/architecture/example-connect-record-types-and-records.md)。
 
 您可以連線下列專案：
 
@@ -77,7 +77,7 @@ hide: yes
 <td>產品</p> </td>
    <td>
    <p> Adobe Workfront</p> 
-   <p>若要將Adobe Workfront Planning記錄與Experience Manager Assets連線，您必須擁有Adobe Experience Manager Assets授權，且貴組織的Workfront執行個體必須上線至Adobe統一體驗。 如需詳細資訊，請參閱 <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Workfront的AdobeUnified Experience</a>.</p>
+   <p>若要將Adobe Workfront Planning記錄與Experience Manager Assets連線，您必須擁有Adobe Experience Manager Assets授權，且貴組織的Workfront執行個體必須上線至Adobe統一體驗。 如需詳細資訊，請參閱<a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Workfront的Adobe統一體驗</a>。</p>
    </td>
   </tr>  
  <td role="rowheader"><p>Adobe Workfront合約</p></td>
@@ -115,14 +115,14 @@ hide: yes
 
 <tr>
    <td role="rowheader"><p>版面配置範本</p></td>
-   <td> <p>您的Workfront或群組管理員必須在版面配置範本中新增Planning區域。 如需詳細資訊，請參閱 <a href="/help/quicksilver/planning/access/access-overview.md">存取權總覽</a>. </p>  
+   <td> <p>您的Workfront或群組管理員必須在版面配置範本中新增Planning區域。 如需詳細資訊，請參閱<a href="/help/quicksilver/planning/access/access-overview.md">存取總覽</a>。 </p>  
 </td>
   </tr>
 
 </tbody>
 </table>
 
-*如需詳細資訊，請參閱 [Workfront檔案中的存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 <!--Maybe enable this at GA - but Planning is not supposed to have Access controls in the Workfront Access Level: 
 >[!NOTE]
@@ -167,7 +167,7 @@ hide: yes
    * [建立記錄型別](/help/quicksilver/planning/architecture/create-record-types.md)
    * [建立記錄](/help/quicksilver/planning/records/create-records.md)
 
-* 記錄型別之間的連線，或記錄型別與其他應用程式物件之間的連線。 如需詳細資訊，請參閱 [連線記錄型別](/help/quicksilver/planning/architecture/connect-record-types.md).
+* 記錄型別之間的連線，或記錄型別與其他應用程式物件之間的連線。 如需詳細資訊，請參閱[連線記錄型別](/help/quicksilver/planning/architecture/connect-record-types.md)。
 
 ## 從Workfront Planning連線記錄
 
@@ -179,8 +179,8 @@ hide: yes
 
    工作區隨即開啟，且記錄型別會顯示為卡片。
 1. 按一下記錄型別的卡片以開啟記錄型別頁面。
-1. 選取 **表格** 從檢視 **檢視** 記錄型別頁面右上角的下拉式功能表。
-1. （選擇性）將記錄新增至表格的新列，以將記錄新增至您選取的記錄型別。 如需詳細資訊，請參閱 [建立記錄](/help/quicksilver/planning/records/create-records.md).
+1. 從記錄型別頁面右上角的&#x200B;**檢視**&#x200B;下拉式功能表中選取&#x200B;**表格**&#x200B;檢視。
+1. （選擇性）將記錄新增至表格的新列，以將記錄新增至您選取的記錄型別。 如需詳細資訊，請參閱[建立記錄](/help/quicksilver/planning/records/create-records.md)。
 1. （視條件而定）將選取的記錄型別與其他記錄型別連結後，請移至連結的記錄欄，然後按兩下要與其他記錄連結之記錄對應的儲存格。
 
    ![](assets/connect-other-records-smaller-box-in-table-view.png)
@@ -189,9 +189,9 @@ hide: yes
 
    * 從清單中按一下已連線的記錄名稱，將其新增至選取的記錄。 記錄會自動新增。
    * 開始輸入記錄的名稱，並在它顯示在清單中時按一下它。 記錄會自動新增。
-   * 按一下 **檢視全部** 以顯示所有記錄。
+   * 按一下&#x200B;**檢視全部**&#x200B;以顯示所有記錄。
 
-1. （視條件而定）如果您按一下 **全選** 在上一步中， **連線物件** 方塊隨即顯示。
+1. （視條件而定）如果您在上一步中按一下&#x200B;**全選**，會顯示&#x200B;**連線物件**&#x200B;方塊。
 
    ![](assets/connected-objects-table-for-records.png)
 
@@ -199,17 +199,17 @@ hide: yes
 
    或
 
-   在方塊中選取一或多個記錄的名稱，然後按一下 **連線物件** 在「連線物件」方塊的右上角。
+   在方塊中選取一或多個記錄的名稱，然後按一下[連線物件]方塊右上角的&#x200B;**連線物件**。
 
    >[!TIP]
    >
-   >    您可以開啟記錄的頁面、尋找連結的記錄欄位，然後按一下已連線的欄位（如果已經有連線的記錄），或按一下 **連線記錄** （如果欄位為空）以從連線的記錄或物件型別新增記錄。
+   >    您可以開啟記錄的頁面、尋找連結的記錄欄位，然後按一下連線的欄位（如果已經連線的記錄），或按一下&#x200B;**連線記錄** （如果欄位是空的）以從連線的記錄或物件型別新增記錄。
    >
    >![](assets/connect-records-from-record-page-field.png)
 
    新增下列專案：
 
-   * 連結的記錄會顯示在您在步驟6中選取之記錄的連結記錄欄位中。 <!--accurate?-->
+   * 連結的記錄會顯示在您在步驟6中選取之記錄的連結記錄欄位中。<!--accurate?-->
    * 如果您在連線記錄型別時新增連結查閱欄位，則連結欄位會填入來自連結記錄的資訊。
 
    更新連結的記錄會自動更新連結的記錄之連結欄位。 您無法手動編輯連結的欄位。
@@ -218,16 +218,16 @@ hide: yes
    >
    >* 我們會交替使用「連結欄位」和「查詢欄位」。
    >
-   >* 如果您已啟用 **允許多筆記錄** 設定當您連線記錄型別時，多個所選物件的欄位值會以逗號分隔顯示，或根據您選擇的彙總器彙總。
+   >* 如果您在連線記錄型別時啟用了&#x200B;**允許多筆記錄**&#x200B;設定，則多個選取物件的欄位值會以逗號分隔顯示，或根據您選擇的彙總器彙總。
 
 1. （可選）關閉記錄型別頁面，然後移至您選取的工作區。
 1. 按一下您所連結之記錄型別的卡片。
 
-   例如，如果您已連線 **Campaign** 含有產品記錄的記錄，按一下 **產品** 卡片。
+   例如，如果您已將&#x200B;**促銷活動**&#x200B;記錄與產品記錄連線，請按一下&#x200B;**產品**&#x200B;卡。
 
    記錄型別卡片應在「表格」檢視中開啟。 如果沒有，請選取表格檢視。
 
-   請注意 **Campaign** 連結的記錄欄位會顯示您在「產品記錄型別」頁面中連結至產品的行銷活動名稱。 更新行銷活動資訊會自動更新產品記錄型別的行銷活動連結記錄欄位。
+   請注意，**促銷活動**&#x200B;連結的記錄欄位會顯示您在「產品記錄型別」頁面中連結至產品的促銷活動名稱。 更新行銷活動資訊會自動更新產品記錄型別的行銷活動連結記錄欄位。
 
 ### 將Adobe Workfront Planning記錄連線至Workfront物件
 
@@ -246,9 +246,9 @@ hide: yes
 
    工作區隨即開啟，且記錄型別會顯示為卡片。
 1. 按一下記錄型別的卡片以開啟記錄型別頁面。
-1. 選取 **表格** 從檢視 **檢視** 下拉式功能表。
+1. 從&#x200B;**檢視**&#x200B;下拉式功能表中選取&#x200B;**表格**&#x200B;檢視。
 
-1. 按一下 **新記錄**  將個別記錄新增至您選取的記錄型別。 如需詳細資訊，請參閱 [建立記錄](/help/quicksilver/planning/records/create-records.md).
+1. 按一下&#x200B;**新增記錄**，將個別記錄新增至您選取的記錄型別。 如需詳細資訊，請參閱[建立記錄](/help/quicksilver/planning/records/create-records.md)。
 1. （視條件而定）將選取的記錄型別與Workfront物件型別連線後，請移至連結物件欄，然後按兩下您要與Workfront物件連結之記錄對應的儲存格。
 
    ![](assets/connect-projects-smaller-box-in-table-view.png)
@@ -257,9 +257,9 @@ hide: yes
 
    * 按一下清單中的物件，將其新增至選取的記錄。 物件按字母順序列出。 物件會自動新增。
    * 開始輸入物件的名稱，當物件顯示在清單中時，按一下該物件。 物件會自動新增。
-   * 按一下 **檢視全部** 顯示您至少擁有檢視許可權的所有物件。
+   * 按一下「檢視全部&#x200B;**」以顯示您至少擁有檢視許可權的所有物件。**
 
-1. （視條件而定）如果您按一下 **檢視全部** 在上一步中， **連線物件** 方塊隨即顯示。
+1. （視條件而定）如果您在上一步中按一下&#x200B;**檢視全部**，會顯示&#x200B;**連線物件**&#x200B;方塊。
 
    ![](assets/connect-objects-box-to-select-projects.png)
 
@@ -267,7 +267,7 @@ hide: yes
 
    或
 
-   在方塊中選取一或多個物件的名稱，然後按一下 **連線物件** 在「連線物件」方塊的右上角。
+   在方塊中選取一或多個物件的名稱，然後按一下「連線物件」方塊右上角的&#x200B;**連線物件**。
 
    >[!IMPORTANT]
    >
@@ -282,9 +282,9 @@ hide: yes
 
    >[!TIP]
    >
-   >您可以開啟記錄的頁面，找到連結的記錄欄位，然後按一下 **+** 圖示來從連線的物件型別新增物件。
+   >您可以開啟記錄的頁面、尋找連結的記錄欄位，然後按一下欄位中的&#x200B;**+**&#x200B;圖示，以從連線的物件型別新增物件。
 
-   如需有關將記錄型別與來自其他應用程式的物件連線的詳細資訊，請參閱 [連線記錄型別](/help/quicksilver/planning/architecture/connect-record-types.md).
+   如需有關連線記錄型別與另一個應用程式物件的詳細資訊，請參閱[連線記錄型別](/help/quicksilver/planning/architecture/connect-record-types.md)。
 
 1. （選擇性）在表格檢視的連結欄位中，或從記錄頁面中的連結欄位中，按一下連線至Workfront Planning記錄的Workfront物件名稱。
 
@@ -296,13 +296,13 @@ hide: yes
    >
    >* Workfront中的連結Workfront物件不會建立連結記錄欄位。
 
-1. （可選）在記錄型別的表格檢視中，暫留在連結Workfront物件的欄標題上，然後按一下下拉式功能表，然後按一下 **編輯查閱欄位**.
+1. （選擇性）從記錄型別的表格檢視中，暫留在連結Workfront物件的欄標題上，然後按一下下拉式功能表，然後按一下&#x200B;**編輯查閱欄位**。
 
-1. 從新增Workfront物件欄位 **未選取的欄位** 區域
+1. 從&#x200B;**未選取的欄位**&#x200B;區域新增Workfront物件欄位
 
    或
 
-   從移除Workfront物件欄位 **選取的欄位** 區域。
+   從&#x200B;**選取的欄位**&#x200B;區域移除Workfront物件欄位。
 
    這會新增或移除Workfront Planning記錄中的連結欄位。 與已移除欄位相關聯的資訊仍保留在Workfront中。
 
@@ -315,13 +315,13 @@ hide: yes
 >
 >您必須擁有Adobe Experience Manager Assets授權，且貴組織的Workfront執行個體必須上線至Adobe商業平台或Adobe Admin Console，才能將Workfront Planning記錄連線至Adobe Experience Manager Assets。
 >
->如果您對上線Adobe Admin Console有任何疑問，請參閱 [Adobe Unified Experience常見問題集](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/unified-experience-faq.md).
+>如果您對加入Adobe Admin Console有任何疑問，請參閱[Adobe統一體驗常見問題集](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/unified-experience-faq.md)。
 
 在記錄型別和Adobe Experience Manager Assets之間建立連線後，您可以將個別記錄連線到Experience Manager資產。 當您建立連線時，您從Experience Manager Assets連線的資產欄位會自動填入您連結的記錄型別中。
 
 >[!NOTE]
 >
->當您的Experience Manager Assets管理員透過Workfront與Workfront之間的整合設定中繼資料對應時，可從Adobe Experience Manager Assets存取Planning記錄及其欄位。 如需詳細資訊，請參閱 [設定Adobe Workfront和Experience Manager Assets之間的資產中繼資料對應](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping.html?lang=en).
+>當您的Experience Manager Assets管理員透過Workfront與Workfront之間的整合設定中繼資料對應時，可從Adobe Experience Manager Assets存取Planning記錄及其欄位。 如需詳細資訊，請參閱[設定Adobe Workfront與Experience Manager Assets之間的資產中繼資料對應](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping.html?lang=en)。
 
 
 {{step1-to-planning}}
@@ -330,16 +330,16 @@ hide: yes
 
    工作區隨即開啟，且記錄型別隨即顯示。
 1. 按一下記錄型別的卡片以開啟記錄型別頁面。
-1. 選取 **表格** 從檢視 **檢視** 記錄型別頁面右上角的下拉式功能表。
+1. 從記錄型別頁面右上角的&#x200B;**檢視**&#x200B;下拉式功能表中選取&#x200B;**表格**&#x200B;檢視。
 
-1. （選用）按一下 **新記錄** 以將新記錄新增至您選取的記錄型別。 如需詳細資訊，請參閱 [建立記錄](/help/quicksilver/planning/records/create-records.md).
-1. （視條件而定）將選取的記錄型別與Experience Manager Assets連線後，請移至連結物件欄，將游標停留在您要與Experience Manager中其他物件連結之記錄對應的儲存格上，然後按一下 **+** 圖示。
+1. （選擇性）按一下&#x200B;**新增記錄**&#x200B;以將新記錄新增至您選取的記錄型別。 如需詳細資訊，請參閱[建立記錄](/help/quicksilver/planning/records/create-records.md)。
+1. （視條件而定）將選取的記錄型別與Experience Manager Assets連線後，請移至連結物件欄，將游標停留在您要與Experience Manager中其他物件連結之記錄對應的儲存格上，然後按一下&#x200B;**+**&#x200B;圖示。
 
    >[!TIP]
    >
-   >  您可以新增，按一下 **+** 圖示將資產連結至記錄。
+   >  您可以在記錄頁面中的連結物件欄位中新增按一下&#x200B;**+**&#x200B;圖示，以將資產連線到記錄。
 
-   此 **選取Assets** 方塊隨即顯示。 <!--we might change this to Connect assets-->
+   **選取Assets**&#x200B;方塊隨即顯示。<!--we might change this to Connect assets-->
 
    ![](assets/select-assets-box-for-aem-record-connections.png)
 
@@ -354,7 +354,7 @@ hide: yes
    >
    > 您只能連線您有權在Experience Manager中檢視的資產。 連線之後，所有Workfront Planning使用者都能在Workfront Planning中檢視資產，無論他們在Experience Manager Assets中的存取權為何。
 
-1. 按一下 **選取**. <!-- we might change this to Connect-->
+1. 按一下&#x200B;**選取**。<!-- we might change this to Connect-->
 
    新增下列專案：
 
@@ -369,7 +369,7 @@ hide: yes
      >
      >* 連結至Workfront Planning連結記錄的連結記錄欄位不會在Experience Manager Assets應用程式中為連結的Experience Manager資產建立。
 
-1. （可選）前往您連結至Experience Manager Assets的記錄型別，然後在連結的記錄欄位中按一下資產名稱。 資產的Experience Manager詳細資訊會顯示在快顯視窗中。 <!--update screen shot with hi-rez picture-->
+1. （可選）前往您連結至Experience Manager Assets的記錄型別，然後在連結的記錄欄位中按一下資產名稱。 資產的Experience Manager詳細資訊會顯示在快顯視窗中。<!--update screen shot with hi-rez picture-->
 
    ![](assets/asset-pop-up-window-with-aem-details-and-thumbnail.png)
 
@@ -385,17 +385,17 @@ hide: yes
    * 建立日期
    * 修改日期
 
-1. （可選）若要以Experience Manager開啟Experience Manager資產記錄頁面，請前往您要連結之記錄的記錄型別頁面，在連結的記錄欄位中按一下資產名稱以開啟快顯視窗，然後按一下 **在AEM中開啟** 圖示 ![](assets/open-asset-icon.png) 以開啟資產。
+1. （選擇性）若要以Experience Manager開啟Experience Manager資產記錄頁面，請前往您連結來源記錄的記錄型別頁面，在連結的記錄欄位中按一下資產名稱以開啟快顯視窗，然後按一下&#x200B;**在AEM中開啟**&#x200B;圖示![](assets/open-asset-icon.png)以開啟資產。
 
    如此即會在Adobe Experience Manager Assets中開啟Experience Manager資產。
 
-1. （可選）在記錄型別的表格檢視中，暫留在連結Experience Manager資產的欄標題上，然後按一下下拉式功能表，然後按一下 **編輯查閱欄位**.
+1. （選擇性）在記錄型別的表格檢視中，暫留在連結Experience Manager資產的欄標題上，按一下下拉式功能表，然後按一下&#x200B;**編輯查閱欄位**。
 
-1. 從新增Experience Manager Assets物件欄位 **未選取的欄位** 區域
+1. 從&#x200B;**未選取的欄位**&#x200B;區域新增Experience Manager Assets物件欄位
 
    或
 
-   從移除Workfront物件欄位 **選取的欄位** 區域。
+   從&#x200B;**選取的欄位**&#x200B;區域移除Workfront物件欄位。
 
    這會新增或移除記錄中的連結欄位。 與已移除欄位相關的資訊仍保留在Adobe體驗Assets中。
 
@@ -407,4 +407,4 @@ hide: yes
 * 記錄和Workfront物件之間至少有一個連線。
 * 您的Workfront或群組管理員必須將Planning區段新增至可以連線至Planning記錄型別的Workfront物件型別。
 
-如需詳細資訊，請參閱 [在Adobe Workfront物件的Planning區段中管理記錄](/help/quicksilver/planning/records/manage-records-in-planning-section.md).
+如需詳細資訊，請參閱[在Adobe Workfront物件的Planning區段管理記錄](/help/quicksilver/planning/records/manage-records-in-planning-section.md)。

@@ -90,7 +90,7 @@ ht-degree: 0%
 
   我們增強了效能，並改善了其他區域中的專案和工作清單的外觀和感覺。
 
-* [以XLSX格式傳送傳遞的報表](https://support.workfront.com/hc/en-us/articles/360016246394#send-a-delivered-report)
+* [以XLSX格式傳送傳遞的報告](https://support.workfront.com/hc/en-us/articles/360016246394#send-a-delivered-report)
 
   除了目前的所有其他格式外，您現在可以排程報表以MS Excel (.xlsx)格式傳送。
 
@@ -98,29 +98,29 @@ ht-degree: 0%
 
   您現在可以將稽核記錄專案匯出至CSV檔案。 您一次最多可以將50,000個稽核記錄專案匯出至CSV檔案。
 
-* [以滑鼠右鍵按一下任務編號欄，將無法再使用任務清單上的WBS檢視](https://support.workfront.com/hc/en-us/articles/360016246394#wbs-view-from-the-task-list)
+* [以滑鼠右鍵按一下工作編號欄](https://support.workfront.com/hc/en-us/articles/360016246394#wbs-view-from-the-task-list)，將無法再使用工作清單上的WBS檢視
 
   您無法再以滑鼠右鍵按一下任務清單中的任務編號欄，以顯示專案的工作劃分結構(WBS)。
 
 ### 資源管理增強功能
 
-* [更新資源規劃工具中的預設篩選器](https://support.workfront.com/hc/en-us/articles/360016247594#updated-default-filter)
+* [已更新資源規劃工具中的預設篩選器](https://support.workfront.com/hc/en-us/articles/360016247594#updated-default-filter)
 
   資源規劃工具中的預設篩選器不再依專案群組進行篩選。
 
-* [使用萬用字元作為資源規劃工具篩選器](https://support.workfront.com/hc/en-us/articles/360016247594#using-wildcards-for-resource-planner-filters)
+* [對資源規劃工具篩選器使用萬用字元](https://support.workfront.com/hc/en-us/articles/360016247594#using-wildcards-for-resource-planner-filters)
 
   現在當您在資源規劃工具中建立篩選器時，可以使用萬用字元。
 
-* [支援資源規劃工具中以日期為基礎的萬用字元篩選變數](https://support.workfront.com/hc/en-us/articles/360016247594#support-for-date-based-wildcard-filter-vatiables)
+* [支援資源規劃工具中的日期型萬用字元篩選器變數](https://support.workfront.com/hc/en-us/articles/360016247594#support-for-date-based-wildcard-filter-vatiables)
 
   現在當您在資源規劃工具中建立篩選器時，可以使用任何版本的$$TODAY萬用字元篩選器變數。
 
-* [資源規劃工具中角色檢視的匯出選項](https://support.workfront.com/hc/en-us/articles/360016247594#export-options-for-the-role-view)
+* 資源規劃工具中角色檢視的[匯出選項](https://support.workfront.com/hc/en-us/articles/360016247594#export-options-for-the-role-view)
 
   您現在可以在「角色」檢視中，選取要從「資源規劃工具」匯出的資訊層次。
 
-* [匯出資源規劃工具的資料格式選項](https://support.workfront.com/hc/en-us/articles/360016247594#data-formatting-options-for-exporting-the-resource-planner)
+* 用於匯出資源規劃工具的[資料格式選項](https://support.workfront.com/hc/en-us/articles/360016247594#data-formatting-options-for-exporting-the-resource-planner)
 
   您現在可以選取從資源規劃工具匯出時，要如何在Excel檔案中顯示資訊。
 
@@ -138,19 +138,19 @@ ht-degree: 0%
 
 ### 校訂增強功能
 
-* [在網路校訂檢視器中校訂互動式內容](https://support.workfront.com/hc/en-us/articles/360016372633#proof-interactive-content-in-the-web-proofing-viewer)
+* [在網頁校訂檢視器中校訂互動式內容](https://support.workfront.com/hc/en-us/articles/360016372633#proof-interactive-content-in-the-web-proofing-viewer)
 
   如果貴組織的安全原則不允許使用獨立的案頭校訂檢視器應用程式，您的Workfront管理員現在可以在網頁校訂檢視器中啟用互動式內容。
 
-* [校訂檢視器中註釋的預設排序順序現在是「最舊至最新」](https://support.workfront.com/hc/en-us/articles/360016372633#default-sorting-order-for-comments)
+* [校訂檢視器中評論的預設排序順序現在為最舊到最新](https://support.workfront.com/hc/en-us/articles/360016372633#default-sorting-order-for-comments)
 
   在校樣檢視器中，校樣上評論的預設排序順序現在是「最舊至最新」，就像口頭交談一樣。
 
-* [已增強在與視訊範圍相關的校訂檢視器中評論的檢閱](https://support.workfront.com/hc/en-us/articles/360016372633#enhanced-reviewing-for-comments)
+* [在與視訊範圍相關的校訂檢視器中加強評論檢閱](https://support.workfront.com/hc/en-us/articles/360016372633#enhanced-reviewing-for-comments)
 
   當您在校訂檢視器中檢閱與一系列視訊素材關聯的註解時，現在可以按一下「播放」來檢視整個素材範圍。
 
-* [從校樣通知或校樣檢視器連結到檔案詳細資訊](https://support.workfront.com/hc/en-us/articles/360016372633#link-to-document-details)
+* [從校訂通知或校訂檢視器連結到檔案詳細資訊](https://support.workfront.com/hc/en-us/articles/360016372633#link-to-document-details)
 
   當您收到電子郵件邀請您檢閱校訂，或您正在校訂檢視器中檢閱校訂時，您現在可以快速存取校訂的檔案詳細資訊頁面。
 
@@ -162,7 +162,7 @@ ht-degree: 0%
 
   現在，您可以將「案頭校訂檢視器」的背景顏色，從預設的近黑色變更為白色。
 
-* [從校訂中清除快取的瀏覽器資料](https://support.workfront.com/hc/en-us/articles/360016372633#clear-cached-browser-data-from-a-proof)
+* [從校訂清除快取的瀏覽器資料](https://support.workfront.com/hc/en-us/articles/360016372633#clear-cached-browser-data-from-a-proof)
 
   現在您可以清除可能隨校訂一起儲存的瀏覽器快取資料，以便所有內容顯示在案頭校訂檢視器中，且稽核者可以檢視和評論。
 
@@ -174,31 +174,31 @@ ht-degree: 0%
 
 * [首頁是Workfront行動應用程式上的全新預設登陸頁面](https://support.workfront.com/hc/en-us/articles/360016374093#home-is-the-new-default)
 
-  首頁區域現在是Workfront行動應用程式新的預設登陸頁面。 iOS和Android裝置均支援此功能。
+  首頁區域現在是Workfront行動應用程式新的預設登陸頁面。 iOS和Android裝置皆支援此功能。
 
 * [在Workfront行動應用程式中組織清單的新選項](https://support.workfront.com/hc/en-us/articles/360016374093#new-options-for-organizing)
 
   您現在可以在Workfront行動應用程式中篩選、排序和排序清單。
 
-* [支援適用於iOS裝置的Workfront Beta版應用程式](https://support.workfront.com/hc/en-us/articles/360016374093#support-for-workfront-beta-app-for-ios)
+* [支援適用於iOS裝置的Workfront Beta App](https://support.workfront.com/hc/en-us/articles/360016374093#support-for-workfront-beta-app-for-ios)
 
   您現在可以從iOS裝置註冊Workfront行動應用程式的測試者。
 
-* [Android Beta版的簡單任務建立](https://support.workfront.com/hc/en-us/articles/360016374093#simple-task-creation-for-android-beta)
+* [為Android Beta建立簡單任務](https://support.workfront.com/hc/en-us/articles/360016374093#simple-task-creation-for-android-beta)
 
   您現在可以直接從專案、任務或從Android行動應用程式Beta版的「首頁」區域建立任務。
 
 * [適用於Android裝置的Workfront行動應用程式全新首次教學課程](https://support.workfront.com/hc/en-us/articles/360016374093#new-first-time-tutorial)
 
-  教學課程的外觀和操作方式已更新，當您首次在Android裝置上存取Workfront行動應用程式時就會顯示。
+  教學課程的外觀已經更新，其中顯示您第一次在Android裝置上存取Workfront行動應用程式時的情形。
 
 ### 協力廠商應用程式整合增強功能
 
-* [Workfront的Slack改良功能](https://support.workfront.com/hc/en-us/articles/360016374093#workfront-for-slack-improvements)
+* [Workfront的Slack改善專案](https://support.workfront.com/hc/en-us/articles/360016374093#workfront-for-slack-improvements)
 
   Workfront現在提供各種更新以供Slack，包括張貼您在Slack中做的評論作為Workfront中物件的評論、訂閱當有人對您的其中一項請求發表評論時在Slack中收到通知等功能。
 
-* [Jira增強功能的Workfront](https://support.workfront.com/hc/en-us/articles/360016374093#workfront-for-jira-enhancements)
+* [適用於Jira增強功能的Workfront](https://support.workfront.com/hc/en-us/articles/360016374093#workfront-for-jira-enhancements)
 
   適用於Jira整合的Workfront現在包含各種增強功能，包括整合何時在Jira中自動建立使用者、停用自動Workfront使用者建立的選項等。
 
@@ -209,7 +209,7 @@ ht-degree: 0%
 
 ### 不再支援API第4版
 
-對API版本4的支援將與2019.1版本一起終止。 如需Workfront API版本支援排程的詳細資訊，請參閱  [API版本設定和支援排程](../../../../wf-api/api/api-version-support-schedule.md).
+對API版本4的支援將與2019.1版本一起終止。 如需Workfront API版本支援排程的詳細資訊，請參閱  [API版本設定與支援排程](../../../../wf-api/api/api-version-support-schedule.md)。
 
 ### 敏捷工具更新
 
@@ -220,20 +220,20 @@ ht-degree: 0%
 
 ### API版本10現在可在預覽中使用 {#api-version-10-now-available-in-preview}
 
-API版本10現在可在預覽環境中使用。 它將在18.3版本的生產環境中提供。 如需詳細資訊，請參閱 [API 10版的新增功能。](https://support.workfront.com/hc/en-us/articles/360010455333) 
+API版本10現在可在預覽環境中使用。 它將在18.3版本的生產環境中提供。 如需詳細資訊，請參閱[ API 10版的新功能。](https://support.workfront.com/hc/en-us/articles/360010455333) 
 
 ### 各種要移除的單一登入選項 {#various-single-sign-on-options-to-be-removed}
 
 下列單一登入(SSO)選專案前僅在有限容量中才受支援；這些選項將於2019年下半年從產品中移除：
 
 * LDAP\
-  如需搭配Workfront使用LDAP的詳細資訊，請參閱 [使用LDAP設定Workfront。](https://support.workfront.com/hc/en-us/articles/217223517)
+  如需有關搭配Workfront使用LDAP的詳細資訊，請參閱[使用LDAP設定Workfront。](https://support.workfront.com/hc/en-us/articles/217223517)
 
 * 主動式目錄\
-  如需搭配Workfront使用Active Directory的詳細資訊，請參閱 [使用Active Directory設定Workfront。](https://support.workfront.com/hc/en-us/articles/217223547)
+  如需將Active Directory與Workfront搭配使用的詳細資訊，請參閱[使用Active Directory設定Workfront。](https://support.workfront.com/hc/en-us/articles/217223547)
 
 * SAML 1.1\
-  如需將SAML 1.1與Workfront搭配使用的詳細資訊，請參閱 [使用SAML 1.1設定Workfront。](https://support.workfront.com/hc/en-us/articles/217194887)
+  如需有關將SAML 1.1與Workfront搭配使用的詳細資訊，請參閱[使用SAML 1.1設定Workfront。](https://support.workfront.com/hc/en-us/articles/217194887)
 
 以下是這些SSO選項的移除時間表：
 
@@ -243,6 +243,6 @@ API版本10現在可在預覽環境中使用。 它將在18.3版本的生產環�
 * **淘汰：** 2019年1月 — 2019年8月\
   不支援。
 
-* **Workfront不再提供：** 2019年8月
+* **在Workfront中不再提供：** 2019年8月
 
-這些變更是為增強驗證體驗做準備，目前僅適用於有限數量的客戶。 如需這些近期變更的詳細資訊，請參閱 [開始使用加強的驗證體驗。](https://support.workfront.com/hc/en-us/articles/360008329033)
+這些變更是為增強驗證體驗做準備，目前僅適用於有限數量的客戶。 如需這些即將進行的變更的詳細資訊，請參閱[開始使用增強驗證體驗。](https://support.workfront.com/hc/en-us/articles/360008329033)

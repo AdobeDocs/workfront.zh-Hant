@@ -17,7 +17,7 @@ ht-degree: 2%
 
 ---
 
-# 移動物件 [!DNL Workfront] 使用環境 [!DNL Workfront] 環境升級API
+# 使用[!DNL Workfront]環境升級API在[!DNL Workfront]環境之間移動物件
 
 「環境升級」功能可讓您將組態相關的物件從一個環境移動到另一個環境。 您可以使用本文所述的Workfront API來移動這些物件。
 
@@ -33,13 +33,13 @@ ht-degree: 2%
 
 <table>
   <tr>
-   <td><strong>[!DNL Adobe Workfront] 計畫</strong>
+   <td><strong>[!DNL Adobe Workfront]計畫</strong>
    </td>
    <td> Prime或Ultimate （僅限新計畫）
    </td>
   </tr>
   <tr>
-   <td><strong>[!DNL Adobe Workfront] 授權</strong>
+   <td><strong>[!DNL Adobe Workfront]個授權</strong>
    </td>
    <td> [！UICONTROL標準]
    </td>
@@ -47,22 +47,22 @@ ht-degree: 2%
    <tr>
    <td>存取層級設定
    </td>
-   <td>您必須是 [!DNL Workfront] 管理員。
+   <td>您必須是[!DNL Workfront]管理員。
    </td>
   </tr>
 </table>
 
-如需有關此表格的詳細資訊，請參閱 [Workfront檔案中的存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 ## 先決條件
 
-「建立促銷活動套件」端點會假設您已設定來源環境。 此API呼叫需要手動建立 [!DNL Workfront] 物件程式碼和物件GUID。 此地圖的特定結構如下所述。
+「建立促銷活動套件」端點會假設您已設定來源環境。 此API呼叫需要手動建立[!DNL Workfront]物件程式碼與物件GUID的物件對應。 此地圖的特定結構如下所述。
 
 ## 環境推進的支援物件
 
 「環境升級」功能的目的是提供與組態相關的物件從一個環境移動到另一個環境的功能。 不支援移動異動物件的功能（只有少數例外）。
 
-如需可升級物件及其包含的可升級子物件的清單，請參閱 [環境推進的支援物件](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-in-wf.md#supported-objects-for-environment-promotion) 在文章中 [在Workfront環境之間移動物件的概觀](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-in-wf.md).
+如需可升級物件及其包含的可升級子物件的清單，請參閱[在Workfront環境之間移動物件的概觀](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-in-wf.md)一文中的[環境升級的支援物件](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-in-wf.md#supported-objects-for-environment-promotion)。
 
 ## 驗證
 
@@ -72,7 +72,7 @@ API會驗證每個請求，以確保使用者端有權檢視或修改請求的�
 
 ### 請求標頭驗證
 
-首選的驗證方法是傳遞包含工作階段權杖的名為SessionID的請求標頭。 其優點是可以安全抵禦 [跨網站請求偽造(CSRF)](https://en.wikipedia.org/wiki/Cross-site_request_forgery) 攻擊且不干擾URI以進行快取。
+首選的驗證方法是傳遞包含工作階段權杖的名為SessionID的請求標頭。 這樣的優點在於可以安全地抵禦[跨網站請求偽造(CSRF)](https://en.wikipedia.org/wiki/Cross-site_request_forgery)攻擊，並且不會為了快取目的而干擾URI。
 
 以下是請求標頭的範例：
 
@@ -108,18 +108,18 @@ SessionID: abc1234
 
 第一個步驟會建立狀態為「組裝」的空白促銷活動套件。
 
-第二個步驟使用 `objectCollections` POST主體中提供的陣列，用於從Workfront組合請求的記錄。 視要求的記錄數和Workfront設定而定，此步驟可能需要幾分鐘的時間才能完成。 在此程式結束時，空白的促銷活動套件會以更新 `packageEntities` 且狀態會自動設為「草稿」。
+第二個步驟使用POST本文中提供的`objectCollections`陣列來組合來自Workfront的請求記錄。 視要求的記錄數和Workfront設定而定，此步驟可能需要幾分鐘的時間才能完成。 此程式結束時，空白的促銷活動套件會以`packageEntities`更新，而狀態會自動設為「草稿」。
 
 
 >[!NOTE]
 >
->記下結構 `objectCollections`  陣列。
+>記下`objectCollections`陣列的結構。
 >
->陣列中的每個專案都包含 `objCode` 與Workfront API Explorer中記錄之物件程式碼對應的金鑰。
+>陣列中的每個專案都包含對應至Workfront API Explorer中記錄之物件程式碼的`objCode`金鑰。
 >
->每個專案也包含 `entities` 集合。 這預期 `ID` 欄位。 它也可以接受選填的 `name` 屬性，以便於瞭解 `ID` 表示。
+>每個專案也包含`entities`集合。 這需要`ID`欄位。 它也可以接受選用的`name`屬性，以便於瞭解`ID`代表什麼。
 >
->對於中請求的允許物件程式碼清單 `objectCollections` 清單，請參閱 [環境推進的支援物件](#supported-objects-for-environment-promotion) 一節。
+>若要在`objectCollections`清單中要求允許的物件程式碼清單，請參閱本文章的[環境升級支援的物件](#supported-objects-for-environment-promotion)區段。
 
 #### URL
 
@@ -274,7 +274,7 @@ _空白_
 }
 ```
 
-&lt;! — 檢查上面的「狀態」 — 是否新增？—>
+&lt;！ — 檢查上面的「狀態」 — 是否新增？—>
 
 ### 依ID取得套件
 
@@ -373,7 +373,7 @@ _空白_
 1. 說明（字串）
 1. 狀態（含值驗證的字串）
 
-如需可用狀態的詳細說明，請參閱 [環境升級狀態](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-in-wf.md#environment-promotion-statuses) 在文章中 [在Workfront環境之間移動物件的概觀](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-in-wf.md).
+如需可用狀態的詳細說明，請參閱文章[在Workfront環境之間移動物件的概觀](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-in-wf.md)中的[環境推進狀態](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-in-wf.md#environment-promotion-statuses)。
 
 
 #### URL
@@ -516,7 +516,7 @@ Deleted
 
 結果會產生JSON內文，用來識別是否可在目標環境中找到推進物件。
 
-針對每個推進物件，執行下列任一項作業 `actions`  將會設定：
+對於每個推進物件，將會設定下列`actions`之一：
 
 <table style="table-layout:auto"> 
  <col> 
@@ -524,24 +524,24 @@ Deleted
  <tbody> 
   <tr> 
    <td>建立</td> 
-   <td><p>在目標環境中找不到對應的記錄時，動作會設為CREATE。</p><p>此動作設定於 <code>translationmap</code> 提供給 <code>/install</code> 端點，安裝服務將建立記錄。</p></td> 
+   <td><p>在目標環境中找不到對應的記錄時，動作會設為CREATE。</p><p>當這個動作設定於提供給<code>/install</code>端點的<code>translationmap</code>中時，安裝服務將會建立記錄。</p></td> 
   </tr> 
   <tr> 
    <td>USEEXISTING</td> 
-   <td><p>在目標環境中找到對應的記錄時，該動作會設為USEEXISTING並且 <code>targetId</code> 也會擷取至 <code>translationmap</code>.</p><p>此動作設定於 <code>translationmap</code> 提供給 <code>/install</code> 端點，安裝服務將不會建立記錄。 但是，它會使用 <code>targetId</code> 包含在對應專案中，用於可能參照此記錄的其他物件。</p><p>例如，在部署套件的目標環境中可能會找到「預設群組」。 不可能有兩個「預設群組」記錄，所以安裝服務將在任何其他物件建立動作中使用現有群組的GUID，這些動作包括對「預設群組」的參照，例如專案、表單或與此群組相關的任何其他實體。</p><p><b>注意：</b> <ul><li><p>指派USEEXISTING動作時，不會修改目標環境中的現有記錄。 </p><p>例如，如果在建立套件的來源沙箱中「預設群組」的說明已變更，並且目標環境中的說明值不同，則在使用此專案安裝後，值將維持不變 <code>translationmap</code>.</li></ul></td> 
+   <td><p>在目標環境中找到對應的記錄時，動作會設為USEEXISTING，而且也會在<code>translationmap</code>中擷取<code>targetId</code>。</p><p>當這個動作設定於提供給<code>/install</code>端點的<code>translationmap</code>中時，安裝服務將不會建立記錄。 但是，它會使用對應專案中包含的<code>targetId</code>來尋找其他可能參考此記錄的物件。</p><p>例如，在部署套件的目標環境中可能會找到「預設群組」。 不可能有兩個「預設群組」記錄，所以安裝服務將在任何其他物件建立動作中使用現有群組的GUID，這些動作包括對「預設群組」的參照，例如專案、表單或與此群組相關的任何其他實體。</p><p><b>附註：</b> <ul><li><p>指派USEEXISTING動作時，不會修改目標環境中的現有記錄。 </p><p>例如，如果在建立套件的來源沙箱中「預設群組」的描述已變更，且描述值在目標環境中不同，則在使用此<code>translationmap</code>安裝後，值將維持不變。</li></ul></td> 
   </tr> 
   <tr> 
    <td>覆寫</td> 
-   <td><p>系統不會自動設定此動作。</p><p>此動作提供更新目標環境中存在的物件的功能。 它提供在執行之前手動覆寫指派的CREATE或USEEXISTING動作的功能 <code>/install</code> 呼叫。<ul><li>使用者可以更新測試環境中的物件，然後使用OVERWRITING動作更新目標環境中的該物件。</p></li><li><p>如果使用者一開始安裝一個推進封裝，而日後新（或更新的）封裝包含對初始封裝中物件的變更，則使用者可以使用「覆寫」來取代（覆寫）先前安裝的物件。 </p><p>如需覆寫的詳細資訊，請參閱本文中的[覆寫](#overwriting)一節。</li><ul></td> 
+   <td><p>系統不會自動設定此動作。</p><p>此動作提供更新目標環境中存在的物件的功能。 它提供在執行<code>/install</code>呼叫之前手動覆寫指派的CREATE或USEEXISTING動作的功能。<ul><li>使用者可以更新測試環境中的物件，然後使用OVERWRITING動作更新目標環境中的該物件。</p></li><li><p>如果使用者一開始安裝一個推進封裝，而日後新（或更新的）封裝包含對初始封裝中物件的變更，則使用者可以使用「覆寫」來取代（覆寫）先前安裝的物件。 </p><p>如需覆寫的詳細資訊，請參閱本文中的[覆寫](#overwriting)一節。</li><ul></td> 
   </tr> 
   <tr> 
    <td>忽略</td> 
-   <td><p>系統不會自動設定此動作。</p><p>它提供在執行之前手動覆寫指派的CREATE或USEEXISTING動作的功能 <code>/install</code> 呼叫。</p><p><b>附註： </b><ul><li><p>如果原本設定為CREATE的記錄設定為IGNORE，則任何子記錄也應設定為IGNORE。</p><p>例如，如果範本記錄已使用CREATE動作對應，而安裝使用者希望將其從部署中排除，他們可以將範本的動作設定為IGNORE。</p><p>在此情況下，如果安裝使用者未將範本任務、範本任務指派、範本任務前置任務、佇列定義、佇列主題、路由規則等也設定為IGNORE，則部署會導致安裝嘗試失敗。</p></li><li><p>如果原本設定為USEEXISTING的記錄設定為IGNORE，安裝過程中可能會產生一些不良影響。</p><p>例如，如果「群組」記錄是以USEEXISTING動作對應，而安裝使用者將動作變更為IGNORE，則對於需要群組的物件（例如，如果沒有指派群組，Project就無法存在），系統預設群組將被指派給該專案。</p></li><li><p>如果原本設定為USEEXISTING的記錄設為CREATE，則在安裝過程中可能會產生一些不良影響，因為許多Workfront實體都有唯一名稱限制。</p><p>例如，如果以USEEXISTING動作對應「Default Group」記錄，而安裝使用者將動作變更為CREATE，因為已經有「Default Group」，所以安裝嘗試將無法完成所有步驟。 群組名稱必須是唯一的。</p><p>某些實體沒有唯一名稱限制。 對於這些物件，進行此變更將會產生兩個名稱相同的記錄。 例如，範本、專案、檢視、篩選器、群組、報告和儀表板不需要唯一名稱限制。 最佳做法是為這些記錄指定唯一的名稱，但不會強制執行。</p></li></ul></p></td> 
+   <td><p>系統不會自動設定此動作。</p><p>它提供在執行<code>/install</code>呼叫之前手動覆寫指派的CREATE或USEEXISTING動作的功能。</p><p><b>附註： </b><ul><li><p>如果原本設定為CREATE的記錄設定為IGNORE，則任何子記錄也應設定為IGNORE。</p><p>例如，如果範本記錄已使用CREATE動作對應，而安裝使用者希望將其從部署中排除，他們可以將範本的動作設定為IGNORE。</p><p>在此情況下，如果安裝使用者未將範本任務、範本任務指派、範本任務前置任務、佇列定義、佇列主題、路由規則等也設定為IGNORE，則部署會導致安裝嘗試失敗。</p></li><li><p>如果原本設定為USEEXISTING的記錄設定為IGNORE，安裝過程中可能會產生一些不良影響。</p><p>例如，如果「群組」記錄是以USEEXISTING動作對應，而安裝使用者將動作變更為IGNORE，則對於需要群組的物件（例如，如果沒有指派群組，Project就無法存在），系統預設群組將被指派給該專案。</p></li><li><p>如果原本設定為USEEXISTING的記錄設為CREATE，則在安裝過程中可能會產生一些不良影響，因為許多Workfront實體都有唯一名稱限制。</p><p>例如，如果以USEEXISTING動作對應「Default Group」記錄，而安裝使用者將動作變更為CREATE，因為已經有「Default Group」，所以安裝嘗試將無法完成所有步驟。 群組名稱必須是唯一的。</p><p>某些實體沒有唯一名稱限制。 對於這些物件，進行此變更將會產生兩個名稱相同的記錄。 例如，範本、專案、檢視、篩選器、群組、報告和儀表板不需要唯一名稱限制。 最佳做法是為這些記錄指定唯一的名稱，但不會強制執行。</p></li></ul></p></td> 
   </tr> 
   </tbody> 
 </table>
 
-目前不支援更新 `action` 在此服務的alpha功能中。 允許更新的選項 `action` 是我們正在研究的專案。
+此服務的Alpha功能目前不支援UPDATE `action`。 允許UPDATE `action`的選項是我們正在研究的專案。
 
 #### URL
 
@@ -671,7 +671,7 @@ POST https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/p
 
 >[!NOTE]
 >
->執行安裝所需的ID為 `id` 欄位。 在此範例中， `id` 欄位在頂端的第三個位置，其值開頭為 `c0bc79bd`.
+>執行安裝所需的識別碼是`id`欄位。 在此範例中，`id`欄位是自上到下的第三個，其值以`c0bc79bd`開頭。
 
 ### 執行安裝
 
@@ -681,7 +681,7 @@ POST https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/p
 >
 >如果在執行預先執行後，對目的地環境（套件將部署到的環境）進行了任何變更，我們建議再次執行預先執行。 如果您未再次執行預先執行，您的執行可能無法正確完成，或是安裝可能失敗。
 >
->如需有關執行預先執行的指示，請參閱 [執行預先執行](#execute-a-pre-run).
+>如需有關執行預先執行的指示，請參閱[執行預先執行](#execute-a-pre-run)。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -837,15 +837,15 @@ _空白_
   </tbody> 
 </table>
 
-此呼叫將傳回最後 `translationMap` 由安裝服務針對特定安裝所產生。
+此呼叫將傳回安裝服務針對特定安裝所產生的最終`translationMap`。
 
-每筆記錄會說明規定的內容 `action` 以及該動作是否成功。
+每個記錄都會指出指定的`action`是什麼，以及該動作是否成功。
 
-對於具有CREATE的記錄 `action` 此 `targetId` 欄位將使用目標系統中新建立記錄的值來設定。 此外， `installationStatus` 欄位將設為INSTALLED。
+對於具有CREATE `action`的記錄，`targetId`欄位將使用目標系統中新建立記錄的值來設定。 此外，`installationStatus`欄位將設為INSTALLED。
 
-對於具有USEEXISTING的記錄 `action` 此 `targetId` 欄位也會設定，而 `installationStatus` 欄位將設為REGISTERED。 這表示對應程式已完成，且安裝服務確認已評估記錄，且沒有可執行的動作。
+對於具有USEEXISTING `action`的記錄，也會設定`targetId`欄位，且`installationStatus`欄位將設為REGISTERED。 這表示對應程式已完成，且安裝服務確認已評估記錄，且沒有可執行的動作。
 
-如果記錄有CREATE `action` 但無法成功建立記錄，則 `installationStatus` 將會設定為FAILED ，並且還會提供失敗的原因。
+如果記錄具有CREATE `action`，但無法成功建立記錄，則`installationStatus`將設為FAILED，並提供失敗的原因。
 
 #### URL
 
@@ -919,14 +919,14 @@ _空白_
 這是三個步驟的流程。
 
 1. 建立翻譯對應（類似於「準備安裝」階段）
-1. 編輯產生的翻譯對應，設定 `action` 和 `targetId` 要覆寫的任何物件的欄位。 動作應為 `OVERWRITING`，以及 `targetId` 應為應覆寫之物件的uuid
+1. 編輯產生的翻譯對應，針對任何要覆寫的物件設定`action`和`targetId`欄位。 動作應為`OVERWRITING`，且`targetId`應為應覆寫之物件的uuid
 1. 執行安裝。
 
 * [步驟1 — 建立翻譯對應](#step-1---create-a-translation-map)
 * [步驟2 — 修改翻譯對應](#step-2---modify-the-translation-map)
 * [步驟3 — 安裝](#step-3---install)
 
-### **步驟1 — 建立翻譯對應**
+### **步驟1 — 建立翻譯地圖**
 
 #### URL
 
@@ -940,7 +940,7 @@ POST https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/p
 
 #### 回應
 
-翻譯地圖，帶有 `202 - OK` 狀態
+具有`202 - OK`狀態的翻譯地圖
 
 ```json
 {
@@ -1017,13 +1017,13 @@ POST https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/p
 
 此步驟沒有端點。
 
-1. 在傳回的翻譯對應中 [步驟1 — 建立翻譯對應](#step-1---create-a-translation-map)，檢查將安裝的物件清單。
+1. 在[步驟1 — 建立翻譯對映](#step-1---create-a-translation-map)中傳回的翻譯對映中，檢查將安裝的物件清單。
 1. 將每個物件上的動作欄位更新為所需的安裝動作。
-1. 驗證 `targetId` 在每個物件上。 如果設定的動作為 `USEEXISTING` 或 `OVERWRITING`，則 `targetId` 應設為目標環境中目標物件的UUID。 對於任何其他動作，targetId應為空字串。
+1. 驗證每個物件上的`targetId`。 如果設定的動作是`USEEXISTING`或`OVERWRITING`，則`targetId`應該設定為目的地環境中目標物件的UUID。 對於任何其他動作，targetId應為空字串。
 
    >[!NOTE]
    >
-   >此 `targetId` 在偵測到衝突時已填入。
+   >如果已偵測到衝突，則會填入`targetId`。
 
 ### **步驟3 — 安裝**
 
@@ -1035,7 +1035,7 @@ POST https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/p
 
 #### 內文
 
-這是物件，只有單一欄位 `translationMap`，這應等於中修改的翻譯對應 [步驟2 — 修改翻譯對應](#step-2---modify-the-translation-map).
+此物件具有單一欄位`translationMap`，應等同於[步驟2 — 修改翻譯對映](#step-2---modify-the-translation-map)中修改的翻譯對映。
 
 ```json
 {
@@ -1114,7 +1114,7 @@ POST https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/p
 
 #### 回應
 
-回應包括 `{uuid of the created installation}` 和 `202 - ACCEPTED` 狀態。
+回應包含`{uuid of the created installation}`和`202 - ACCEPTED`狀態。
 
 範例： `b6aa0af8-3520-4b25-aca3-86793dff44a6`
 

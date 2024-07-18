@@ -9,7 +9,7 @@ role: Developer
 exl-id: ab7c76a9-16ce-41f9-b7af-5943eb2dfdff
 source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
 workflow-type: tm+mt
-source-wordcount: '90'
+source-wordcount: '93'
 ht-degree: 0%
 
 ---
@@ -31,4 +31,4 @@ ht-degree: 0%
 
 將正確的自訂表單新增至佇列主題。
 
-若要深入瞭解佇列主題，請參閱 [建立佇列主題](../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).
+若要深入瞭解佇列主題，請參閱[建立佇列主題](../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md)。

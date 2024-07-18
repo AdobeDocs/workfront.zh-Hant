@@ -2,7 +2,7 @@
 content-type: release-notes
 navigation-topic: product-releases-archive
 title: 2018.2 Beta 5發行活動
-description: 本頁說明2018.2 Beta 5版本預覽環境中最近可用的所有變更。 此功能將於2018年6月1日在預覽環境中提供。 Beta 5版本的校訂增強功能將於6月4日（星期一）在預覽環境中提供。 它將在2018年7月的生產環境中提供。
+description: 本頁說明2018.2 Beta 5版本預覽環境中最近可用的所有變更。 此功能將於2018年6月1日在預覽環境中提供。 Beta 5發行的校訂增強功能將於6月4日星期一在預覽環境中提供。 它將在2018年7月的生產環境中提供。
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
@@ -16,37 +16,37 @@ ht-degree: 1%
 
 # 2018.2 Beta 5發行活動
 
-本頁說明2018.2 Beta 5版本預覽環境中最近可用的所有變更。 此功能將於2018年6月1日在預覽環境中提供。 Beta 5版本的校訂增強功能將於6月4日（星期一）在預覽環境中提供。 它將在2018年7月的生產環境中提供。
+本頁說明2018.2 Beta 5版本預覽環境中最近可用的所有變更。 此功能將於2018年6月1日在預覽環境中提供。 Beta 5發行的校訂增強功能將於6月4日星期一在預覽環境中提供。 它將在2018年7月的生產環境中提供。
 
 >[!IMPORTANT]
 >
 > 本頁所述的功能在生產環境使用之前可能會有所變更。
 
-如需2018.2年度所有變更的清單，請參閱  [2018.2版本活動概覽](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-release-activity-overview.md).
+如需2018.2年度所有變更的清單，請參閱  [2018.2發行活動總覽](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-release-activity-overview.md)。
 
-2018.2 Beta 5版本包含適用於Workfront管理員和其他使用者的增強功能：
+2018.2 Beta 5版本包含Workfront管理員和其他使用者的增強功能：
 
-**適用於管理員**
+管理員的&#x200B;****
 
-* [使用稽核記錄檢視使用者觸發的變更](#view-user-triggered-changes-with-audit-logs)
+* [檢視使用者觸發的變更及稽核記錄](#view-user-triggered-changes-with-audit-logs)
 * [以群組管理員身分檢視授權資訊](#view-license-information-as-a-group-administrator)
 
-**適用於所有使用者**
+**所有使用者**
 
 * [首頁區域中的行事曆檢視](#calendar-view-in-the-home-area)
-* [首頁工作清單（左側面板）的其他更新](#additional-updates-to-the-work-list-left-panel-in-home)
+* 首頁](#additional-updates-to-the-work-list-left-panel-in-home)中工作清單（左側面板）的[其他更新
 * [設定自動資源排程的工作角色限制](#configure-job-role-limits-for-automated-resource-scheduling)
-* [資源規劃工具中的專案和角色檢視改善](#project-and-role-view-improvements-in-the-resource-planner)
+* 資源規劃工具中的[專案和角色檢視改善](#project-and-role-view-improvements-in-the-resource-planner)
 * [調整專案清單的欄寬](#resize-column-widths-for-project-lists)
-* [新專案清單的圖示支援](#icon-support-for-the-new-project-lists)
+* 新專案清單的[圖示支援](#icon-support-for-the-new-project-lists)
 * [在檔案檢視中新增「大型縮圖」欄位](#add-large-thumbnail-field-in-document-views)
 * [增加Excel匯出限制](#increase-excel-export-limit)
-* [專案清單的快速篩選](#quick-filters-for-project-lists)
-* [專案與任務報告中的參考問題集合](#reference-issue-collections-in-project-and-task-reports)
-* [在Workfront中新增檔案版本時，新增更強大的版本選單](#new-more-robust-version-menu-when-adding-new-document-versions-in-workfront)
-* [Android測試版行動應用程式中的行動裝置改良](#mobile-improvements-in-the-android-beta-mobile-app)
+* 專案清單的[快速篩選](#quick-filters-for-project-lists)
+* 專案與任務報告中的[參考問題集合](#reference-issue-collections-in-project-and-task-reports)
+* 在Workfront中新增檔案版本時，[新增更強大的版本功能表](#new-more-robust-version-menu-when-adding-new-document-versions-in-workfront)
+* Android Beta行動應用程式中的[行動裝置改良](#mobile-improvements-in-the-android-beta-mobile-app)
 * [校訂檢視器增強功能(Workfront和Workfront Proof)](#proofing-viewer-enhancements-workfront-and-workfront-proof)
-* [Workfront中的校訂增強功能](#proofing-enhancements-in-workfront)
+* Workfront中的[校訂增強功能](#proofing-enhancements-in-workfront)
 * [Workfront Proof中的校訂增強功能](#proofing-enhancements-in-workfront-proof)
 
 ## 首頁區域中的行事曆檢視 {#calendar-view-in-the-home-area}
@@ -60,7 +60,7 @@ ht-degree: 1%
 
 如果您使用Outlook中的行事曆，可以整合行事曆，以在[首頁行事曆]檢視中顯示Outlook事件。
 
-如需詳細資訊，請參閱 [首頁行事曆檢視](../../../../workfront-basics/using-home/using-the-home-area/home-calendar-view.md).
+如需詳細資訊，請參閱[首頁行事曆檢視](../../../../workfront-basics/using-home/using-the-home-area/home-calendar-view.md)。
 
 ## 首頁工作清單（左側面板）的其他更新 {#additional-updates-to-the-work-list-left-panel-in-home}
 
@@ -74,7 +74,7 @@ ht-degree: 1%
 
   以前會顯示過去3個月的已完成專案。
 
-  如需有關在「首頁」區域檢視已完成工作的資訊，請參閱 [在首頁區域的工作清單中顯示專案](../../../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md) 在文章中 [在首頁區域的工作清單中顯示專案](../../../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md).
+  如需有關檢視首頁區域已完成工作的資訊，請參閱文章[首頁區域工作清單顯示專案](../../../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md)首頁區域工作清單顯示專案[首頁區域工作清單](../../../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md)。
 
 * 新增持續時間欄位和指派欄位，以在首頁區域中選擇專案時顯示。
 
@@ -82,7 +82,7 @@ ht-degree: 1%
 
   如需有關新增欄位至首頁區域的資訊，請參閱建立及管理版面配置範本。
 
-如需有關使用「首頁」區域的詳細資訊，請參閱 [使用首頁區域](../../../../workfront-basics/using-home/using-the-home-area/use-the-home-area.md).
+如需有關使用主區域的詳細資訊，請參閱[使用主區域](../../../../workfront-basics/using-home/using-the-home-area/use-the-home-area.md)。
 
 ## 使用稽核記錄檢視使用者觸發的變更 {#view-user-triggered-changes-with-audit-logs}
 
@@ -95,7 +95,7 @@ ht-degree: 1%
 
 之前，無法追蹤系統內的變更。
 
-如需詳細資訊，請參閱 [檢視和匯出稽核記錄](../../../../administration-and-setup/add-users/create-and-manage-users/view-and-export-audit-logs.md).
+如需詳細資訊，請參閱[檢視和匯出稽核記錄](../../../../administration-and-setup/add-users/create-and-manage-users/view-and-export-audit-logs.md)。
 
 ## 以群組管理員身分檢視授權資訊 {#view-license-information-as-a-group-administrator}
 
@@ -103,13 +103,13 @@ ht-degree: 1%
 
 在此變更之前，群組管理員無法檢視授權資訊。
 
-如需詳細資訊，請參閱 [群組管理員](../../../../administration-and-setup/manage-groups/group-roles/group-administrators.md).
+如需詳細資訊，請參閱[群組管理員](../../../../administration-and-setup/manage-groups/group-roles/group-administrators.md)。
 
 ## 設定自動資源排程的工作角色限制 {#configure-job-role-limits-for-automated-resource-scheduling}
 
 >[!NOTE]
 >
->已棄用資源排程工具，並已從Workfront的23.1版本中移除。 如需有關使用工作負載平衡器排程資源的資訊，請參閱 [工作負載平衡器概覽](../../../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
+>已棄用資源排程工具，並已從Workfront的23.1版本中移除。 如需有關使用工作負載平衡器排程資源的資訊，請參閱[工作負載平衡器概覽](../../../../resource-mgmt/workload-balancer/overview-workload-balancer.md)。
 
 在自動資源排程設定中，您現在可以將限制指派給工作角色。 這可讓您以相同的角色控制被指派工作的資源數量。
 
@@ -133,7 +133,7 @@ ht-degree: 1%
 
 在這些改進之前，您報告資源規劃工具載入緩慢，並且您注意到顯示的資料中出現不一致。 透過這些改善功能，這些應該現已淘汰。
 
-如需詳細資訊以及瞭解資源規劃工具的新限制，請參閱 [資源規劃工具顯示限制](../../../../resource-mgmt/resource-planning/resource-planner-display-limitations.md)
+如需相關資訊，以及瞭解資源規劃工具的新限制，請參閱[資源規劃工具顯示限制](../../../../resource-mgmt/resource-planning/resource-planner-display-limitations.md)
 
 <!--
 <p dir="ltr" data-mc-conditions="QuicksilverOrClassic.Draft mode">To participate in our current beta program and give us feedback on the functionality of the Resource Planner, see <a href="../../../../product-announcements/betas/resource-planner-performance-beta.md" class="MCXref xref" xrefformat="{para}">Resource Planner performance beta </a></p>
@@ -155,9 +155,9 @@ ht-degree: 1%
 
 在此改進之前，調整大小欄右側的相鄰欄會按比例調整大小，以適合熒幕，而且您無法將欄的邊框拖曳過相鄰欄的右邊框。  
 
-如需有關重新排序清單中欄的資訊，請參閱 [修改欄寬和順序](../../../../reports-and-dashboards/reports/reporting-elements/modify-column-width-order.md).
+如需有關重新排序清單中資料行大小的資訊，請參閱[修改資料行寬度和順序](../../../../reports-and-dashboards/reports/reporting-elements/modify-column-width-order.md)。
 
-若要參與我們目前的測試版測試計畫以取得清單改善專案，請參閱 [新清單研究。](http://community.workfront.com/discussions/community-home/digestviewer/viewthread?GroupId=457&amp;MessageKey=6b135c15-33dd-4fa2-8bc3-7cd7f7740c57&amp;CommunityKey=0425cafc-f0ec-47fc-be20-a21dc073d520&amp;tab=digestviewer&amp;ReturnUrl=%2fdiscussions%2fcommunity-home%2fdigestviewer%3fCommunityKey%3d0425cafc-f0ec-47fc-be20-a21dc073d520) （需要登入）
+若要參與我們目前的清單改進測試計畫，請參閱[新清單研究。](http://community.workfront.com/discussions/community-home/digestviewer/viewthread?GroupId=457&amp;MessageKey=6b135c15-33dd-4fa2-8bc3-7cd7f7740c57&amp;CommunityKey=0425cafc-f0ec-47fc-be20-a21dc073d520&amp;tab=digestviewer&amp;ReturnUrl=%2fdiscussions%2fcommunity-home%2fdigestviewer%3fCommunityKey%3d0425cafc-f0ec-47fc-be20-a21dc073d520) （需要登入）
 
 ## 新專案清單的圖示支援 {#icon-support-for-the-new-project-lists}
 
@@ -169,7 +169,7 @@ ht-degree: 1%
 
 在此版本中，專案的專案清單或專案清單中的其他物件可以再次顯示狀態圖示。
 
-如需有關在清單中工作的資訊，請參閱 [開始使用Adobe Workfront中的清單](../../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).
+如需關於使用清單的資訊，請參閱[開始使用Adobe Workfront中的清單](../../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md)。
 
 ## 在檔案檢視中新增「大型縮圖」欄位 {#add-large-thumbnail-field-in-document-views}
 
@@ -177,7 +177,7 @@ ht-degree: 1%
 
 在此變更之前，您只能將「縮圖」欄位新增到檔案檢視，這會顯示檔案的33至66畫素寬縮圖。
 
-有關清單和報告中的欄位資訊，請參閱 [Adobe Workfront術語表](../../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
+如需有關清單與報表中欄位的資訊，請參閱[Adobe Workfront術語辭彙表](../../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md)。
 
 ## 增加Excel匯出限制 {#increase-excel-export-limit}
 
@@ -194,7 +194,7 @@ ht-degree: 1%
 
 在此改善之前，您只能在任何Excel檔案中匯出50,000列。
 
-如需有關從Workfront匯出資料的資訊，請參閱 [匯出資料](../../../../reports-and-dashboards/reports/creating-and-managing-reports/export-data.md).
+如需有關從Workfront匯出資料的資訊，請參閱[匯出資料](../../../../reports-and-dashboards/reports/creating-and-managing-reports/export-data.md)。
 
 ## 專案清單的快速篩選 {#quick-filters-for-project-lists}
 
@@ -208,7 +208,7 @@ ht-degree: 1%
 * 我擁有的專案
 * 所有專案
 
-如需快速篩選的詳細資訊，請參閱以下的「將快速篩選套用至清單」一節： [開始使用Adobe Workfront中的清單](../../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).
+如需快速篩選的詳細資訊，請參閱[開始使用Adobe Workfront](../../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md)中的清單中的「將快速篩選套用至清單」一節。
 
 ## 專案與任務報告中的參考問題集合 {#reference-issue-collections-in-project-and-task-reports}
 
@@ -216,13 +216,13 @@ ht-degree: 1%
 
 在此改善之前，您只能在專案檢視或篩選中參考一組任務。
 
-如需如何在報表中參考集合的相關資訊，請參閱 [報表中的參考集合](../../../../reports-and-dashboards/reports/text-mode/reference-collections-report.md).
+如需如何在報表中參考集合的相關資訊，請參閱[報表中的參考集合](../../../../reports-and-dashboards/reports/text-mode/reference-collections-report.md)。
 
-如需有關使用文字模式的資訊，請參閱  [文字模式的常見用途概觀](../../../../reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md).
+如需有關使用文字模式的資訊，請參閱  [文字模式的常見使用概述](../../../../reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md)。
 
 >[!NOTE]
 >
->在以下影片中，問題集合的範例文字模式不正確。 正確的範例文字模式適用於 [報表中的參考集合](../../../../reports-and-dashboards/reports/text-mode/reference-collections-report.md).
+>在以下影片中，問題集合的範例文字模式不正確。 報表](../../../../reports-and-dashboards/reports/text-mode/reference-collections-report.md)中的[參考集合中有正確的範例文字模式。
 
 ## 在Workfront中新增檔案版本時，新增更強大的版本選單 {#new-more-robust-version-menu-when-adding-new-document-versions-in-workfront}
 
@@ -238,14 +238,14 @@ ht-degree: 1%
 
 「新版本」功能表中提供下列選項，供您新增新版本的所有區域使用：
 
-* 證明
+* 校樣
 * 僅文件
 * 連結選項(從Dropbox、從Google Drive等)
 * 從剪貼簿貼上（這是新增版本時的新選項）
 
-如需詳細資訊，請參閱 [從您的檔案系統新增檔案至Adobe Workfront](../../../../documents/adding-documents-to-workfront/add-documents-from-file-system.md) 在文章中 [從您的檔案系統新增檔案至Adobe Workfront](../../../../documents/adding-documents-to-workfront/add-documents-from-file-system.md).
+如需詳細資訊，請參閱[從您的檔案系統新增檔案至Adobe Workfront](../../../../documents/adding-documents-to-workfront/add-documents-from-file-system.md)一文中的[從您的檔案系統新增檔案至Adobe Workfront](../../../../documents/adding-documents-to-workfront/add-documents-from-file-system.md)。
 
-## Android測試版行動應用程式中的行動裝置改良 {#mobile-improvements-in-the-android-beta-mobile-app}
+## Android Beta行動應用程式中的行動裝置改良 {#mobile-improvements-in-the-android-beta-mobile-app}
 
 在此版本發佈後不久，行動應用程式的Android Beta版本將會提供下列改善功能：
 
@@ -262,15 +262,15 @@ ht-degree: 1%
 
 * 檢視專案的「詳細資訊」標籤時的新外觀
 
-  在行動應用程式的Android測試版中檢視專案時，介面已變更，使其更易於編輯、完成或附加檔案。
+  在行動應用程式的Android Beta版本中檢視專案時，介面已變更，使其更易於編輯、完成或附加檔案。
 
 * 記錄時間的新體驗
 
   記錄時間比以往更快速、更輕鬆，記錄時間按鈕更易於存取，而記錄時數介面更簡化。
 
-在此版本中，這些改善功能僅適用於Workfront行動應用程式的Android測試版。 目前無法供iOS使用。
+在此版本中，這些改良功能僅適用於Workfront行動應用程式的Android Beta版本。 目前無法供iOS使用。
 
-如需如何註冊成為測試版以及下載Android Beta版Workfront行動應用程式的詳細資訊，請參閱。
+如需如何註冊成為測試版以及下載Android Beta版本的Workfront行動應用程式的詳細資訊，請參閱。
 
 ## 校訂檢視器增強功能(Workfront和Workfront Proof) {#proofing-viewer-enhancements-workfront-and-workfront-proof}
 
@@ -280,7 +280,7 @@ ht-degree: 1%
 * [在校訂檢視器中設定預設排序選項](#configure-default-sorting-options-in-the-proofing-viewer)
 * [在案頭校訂檢視器中檢視Workfront檔案核准](#view-workfront-document-approvals-in-the-desktop-proofing-viewer)
 * [設定在案頭校訂檢視器中開啟新標籤和視窗的連結](#configure-links-that-open-new-tabs-and-windows-to-open-within-the-desktop-proofing-viewer)
-* [校訂檢視器中的顯示狀態指示器](#presence-indicator-in-the-proofing-viewer)
+* 校訂檢視器中的[顯示狀態指標](#presence-indicator-in-the-proofing-viewer)
 * [篩選註解以在案頭校訂檢視器中顯示互動式URL校訂的單一頁面](#filter-comments-to-display-a-single-page-for-interactive-url-proofs-in-the-desktop-proofing-viewer)
 * [靜態與視訊內容的案頭校訂檢視器](#desktop-proofing-viewer-for-static-and-video-content)
 * [新增自訂裝置至您的系統](#add-custom-devices-to-your-system)
@@ -289,7 +289,7 @@ ht-degree: 1%
 
 「列印摘要」頁面已更新，具有新的外觀和風格，並改善功能。
 
-如需詳細資訊，請參閱 [在Adobe Workfront中列印校訂摘要](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/print-proof-summary-in-wf.md).
+如需詳細資訊，請參閱[在Adobe Workfront中列印校訂摘要](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/print-proof-summary-in-wf.md)。
 
 ### 直接從校訂檢視器將使用者新增到校訂 {#add-users-to-a-proof-directly-from-the-proofing-viewer}
 
@@ -297,7 +297,7 @@ ht-degree: 1%
 
 之前，您無法將個別使用者新增到校樣中。 您只能複製公開URL或內嵌程式碼。
 
-如需詳細資訊，請參閱 [新增使用者以共用校訂](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/share-a-proof-in-proofing-viewer.md#sharing-with-individual-users) 在文章中  [從校訂檢視器共用校訂](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/share-a-proof-in-proofing-viewer.md).
+如需詳細資訊，請參閱文章中的[新增使用者以共用校訂](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/share-a-proof-in-proofing-viewer.md#sharing-with-individual-users)  [從校訂檢視器共用校訂](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/share-a-proof-in-proofing-viewer.md)。
 
 ### 在校訂檢視器中顯示所有標籤工具 {#display-all-markup-tools-in-the-proofing-viewer}
 
@@ -305,7 +305,7 @@ ht-degree: 1%
 
 以前，標籤工具只能在下拉式選單中使用。
 
-如需有關配置此標示設定的詳細資訊，請參閱 [設定校訂檢視器設定](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/configure-proofing-viewer-settings.md).
+如需有關設定此標籤設定的詳細資訊，請參閱[設定校訂檢視器設定](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/configure-proofing-viewer-settings.md)。
 
 如需在檢閱校樣時使用標籤選項的詳細資訊，請參閱文章中的。
 
@@ -321,7 +321,7 @@ ht-degree: 1%
 
 之前，只有網頁校訂檢視器可讓您作出Workfront檔案核准決定。 
 
-如需詳細資訊，請參閱  [在校訂檢視器中對校訂做出決定](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/make-decisions-on-proof.md) 在文章中  [在校訂檢視器中對校訂做出決定](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/make-decisions-on-proof.md).
+如需詳細資訊，請參閱  [在文章的校訂檢視器中對校訂做出決定](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/make-decisions-on-proof.md)  [在校訂檢視器中對校訂做出決定](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/make-decisions-on-proof.md)。
 
 ### 設定在案頭校訂檢視器中開啟新標籤和視窗的連結 {#configure-links-that-open-new-tabs-and-windows-to-open-within-the-desktop-proofing-viewer}
 
@@ -329,13 +329,13 @@ ht-degree: 1%
 
 在舊版校訂檢視器中，在新標籤或新視窗中開啟的連結無法在校訂檢視器中檢閱。
 
-如需詳細資訊，請參閱 [設定校訂檢視器設定](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/configure-proofing-viewer-settings.md).
+如需詳細資訊，請參閱[設定校訂檢視器設定](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/configure-proofing-viewer-settings.md)。
 
 ### 校訂檢視器中的顯示狀態指示器 {#presence-indicator-in-the-proofing-viewer}
 
 現在，當在網路校訂檢視器或案頭校訂檢視器中檢視校訂時，您可以檢視目前檢視校訂的每個使用者的頭像都顯示在校訂檢視器的右上角。
 
-如需詳細資訊，請參閱 [與多位檢閱者同時檢閱校訂](../../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/review-proof-with-multiple-reviewers.md).
+如需詳細資訊，請參閱[與多位檢閱者同時檢閱校訂](../../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/review-proof-with-multiple-reviewers.md)。
 
 ### 篩選註解以在案頭校訂檢視器中顯示互動式URL校訂的單一頁面 {#filter-comments-to-display-a-single-page-for-interactive-url-proofs-in-the-desktop-proofing-viewer}
 
@@ -351,9 +351,9 @@ ht-degree: 1%
 
 先前僅支援互動式內容。
 
-如需有關設定靜態和視訊校樣以在案頭校樣檢視器中開啟的資訊，請參閱 [設定校訂檢視器設定](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/configure-proofing-viewer-settings.md).
+如需有關設定要在案頭校訂檢視器中開啟的靜態與視訊校訂的資訊，請參閱[設定校訂檢視器設定](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/configure-proofing-viewer-settings.md)。
 
-如需案頭校訂檢視器的詳細資訊，請參閱 [在案頭校訂檢視器中檢閱校訂。](https://support.workfront.com/hc/en-us/sections/360000686434)
+如需案頭校訂檢視器的詳細資訊，請參閱[在案頭校訂檢視器中檢閱校訂。](https://support.workfront.com/hc/en-us/sections/360000686434)
 
 ### 新增自訂裝置至您的系統 {#add-custom-devices-to-your-system}
 
@@ -363,7 +363,7 @@ ht-degree: 1%
 
 如需關於新增自訂裝置的資訊，請參閱中的
 
-如需有關使用者檢閱互動式內容時如何選取裝置的資訊，請參閱 [在校訂檢視器中變更互動式校訂解析度](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/view-interactive-content-as-it-appears-in-device.md).
+如需有關使用者在檢閱互動式內容時如何選取裝置的資訊，請參閱[在校訂檢視器中變更互動式校訂解析度](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/view-interactive-content-as-it-appears-in-device.md)。
 
 ## Workfront中的校訂增強功能 {#proofing-enhancements-in-workfront}
 
@@ -377,7 +377,7 @@ ht-degree: 1%
 
 在此變更之前，您只能在Workfront中複製校樣連結，並使用替代方法進行分發。
 
-如需詳細資訊，請參閱 [在Adobe Workfront中共用校訂](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md) 在文章中 [在Adobe Workfront中共用校訂](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md).
+如需詳細資訊，請參閱文章[在Adobe Workfront中共用校訂](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md)中的[在Adobe Workfront中共用校訂](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md)。
 
 >[!NOTE]
 >
@@ -395,11 +395,11 @@ ht-degree: 1%
 
   顯示校訂的決策狀態（待定、需要變更或已核准）。
 
-* 校訂名稱
+* 校樣名稱
 
   顯示校訂名稱。
 
-* 校訂頁面
+* 校樣頁面
 
   顯示校訂中包含的頁數。
 
@@ -407,7 +407,7 @@ ht-degree: 1%
 
   顯示校訂的進度狀態（已傳送、已開啟、已評論、已作出決定）。
 
-如需這些欄位的詳細資訊，請參閱  [Adobe Workfront術語表](../../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
+如需這些欄位的詳細資訊，請參閱  [Adobe Workfront術語辭彙表](../../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md)。
 
 ### 在Workfront中檢視校訂核准的歷史資料 {#view-historical-data-for-proof-approvals-in-workfront}
 
@@ -415,12 +415,12 @@ ht-degree: 1%
 
 在此變更前，在對校訂做出決定後，該決定無法再顯示在Workfront報告中。
 
-如需詳細資訊，請參閱  [Adobe Workfront術語表](../../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
+如需詳細資訊，請參閱  [Adobe Workfront術語辭彙表](../../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md)。
 
 ## Workfront Proof中的校訂增強功能 {#proofing-enhancements-in-workfront-proof}
 
 * [直接從校訂檢視器(Workfront Proof)建立新版本的校訂](#create-a-new-version-of-a-proof-directly-from-the-proofing-viewer-workfront-proof)
-* [校訂檢視器和案頭校訂檢視器中的新校訂詳細資訊連結(Workfront Proof)](#new-proof-details-link-in-the-proofing-viewer-and-desktop-proofing-viewer-workfront-proof)
+* [校訂檢視器和案頭校訂檢視器(Workfront Proof)中的新校訂詳細資訊連結](#new-proof-details-link-in-the-proofing-viewer-and-desktop-proofing-viewer-workfront-proof)
 
 ### 直接從校訂檢視器(Workfront Proof)建立新版本的校訂 {#create-a-new-version-of-a-proof-directly-from-the-proofing-viewer-workfront-proof}
 
@@ -428,9 +428,9 @@ ht-degree: 1%
 
 以前，此選項只能在舊版Flash檢視器中使用。
 
-如需詳細資訊，請參閱 [在Workfront Proof中複製校訂](../../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/copy-proofs.md) 在文章中  [在Workfront Proof中複製校訂](../../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/copy-proofs.md).
+如需詳細資訊，請參閱文章中的[在Workfront Proof中複製校樣](../../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/copy-proofs.md)  [在Workfront Proof中複製校樣](../../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/copy-proofs.md)。
 
-### 校訂檢視器和案頭校訂檢視器中的新校訂詳細資訊連結(Workfront Proof) {#new-proof-details-link-in-the-proofing-viewer-and-desktop-proofing-viewer-workfront-proof}
+### 校訂檢視器和案頭校訂檢視器(Workfront Proof)中的新校訂詳細資訊連結 {#new-proof-details-link-in-the-proofing-viewer-and-desktop-proofing-viewer-workfront-proof}
 
 在校訂檢視器中檢視校訂時，Workfront Proof使用者現在可以快速前往Workfront Proof中的校訂詳細資訊頁面。
 

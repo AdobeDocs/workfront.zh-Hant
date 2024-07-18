@@ -17,4 +17,4 @@ ht-degree: 0%
 
 # 在報表中參考自訂表單
 
-如需在報表中參考自訂表單的詳細資訊，請參閱 [在報表中參考自訂表單](../../../reports-and-dashboards/reports/creating-and-managing-reports/reference-custom-form-report.md).
+如需在報表中參考自訂表單的相關資訊，請參閱[在報表中參考自訂表單](../../../reports-and-dashboards/reports/creating-and-managing-reports/reference-custom-form-report.md)。

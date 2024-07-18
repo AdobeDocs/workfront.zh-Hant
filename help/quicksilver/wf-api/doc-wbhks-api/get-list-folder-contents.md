@@ -10,8 +10,8 @@ role: Developer
 exl-id: 9c9f9222-59ac-4643-8297-d4939bec7e64
 source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
 workflow-type: tm+mt
-source-wordcount: '100'
-ht-degree: 7%
+source-wordcount: '96'
+ht-degree: 3%
 
 ---
 
@@ -29,11 +29,11 @@ GET/files
 | 名稱  | 說明 |
 |---|---|
 | parentId  | 資料夾識別碼。 若要取得根目錄的中繼資料，請使用值&#39;/&#39;。 |
-| 最大  | 要傳回的專案數上限。 用於分頁。 |
+| max  | 要傳回的專案數上限。 用於分頁。 |
 | offset  |  頁面位移，與「最大值」搭配使用。 |
 
 
-## 個回應
+## 回應
 
 包含檔案和資料夾清單的JSON。 每個專案的中繼資料與/metadata端點傳回的中繼資料相同。
 

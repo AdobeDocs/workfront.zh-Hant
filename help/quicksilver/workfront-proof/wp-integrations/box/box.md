@@ -20,11 +20,11 @@ ht-degree: 4%
 
 >[!IMPORTANT]
 >
->本文提及獨立版產品中的功能 [!DNL Workfront Proof]. 有關內部校訂的資訊 [!DNL Adobe Workfront]，請參閱 [校訂](../../../review-and-approve-work/proofing/proofing.md).
+>本文提及獨立產品[!DNL Workfront Proof]中的功能。 有關[!DNL Adobe Workfront]內部校訂的資訊，請參閱[校訂](../../../review-and-approve-work/proofing/proofing.md)。
 
 本節包含下列文章：
 
-* [簡介 [!DNL Workfront Proof] 和 [!DNL Box] 整合](../../../workfront-proof/wp-integrations/box/introduction-to-box.md)
-* [透過您的建立校訂 [!DNL Box] 帳戶](../../../workfront-proof/wp-integrations/box/create-proof-box-account.md)
-* [同步 [!DNL Box] 資料夾 [!DNL Workfront Proof]](../../../workfront-proof/wp-integrations/box/sycn-box-folder.md)
-* [在中檢視校訂的原始檔案 [!DNL Box]](../../../workfront-proof/wp-integrations/box/view-proof-original-file-box.md)
+* [ [!DNL Workfront Proof] 與 [!DNL Box] 整合簡介](../../../workfront-proof/wp-integrations/box/introduction-to-box.md)
+* [透過您的 [!DNL Box] 帳戶建立證明](../../../workfront-proof/wp-integrations/box/create-proof-box-account.md)
+* [與 [!DNL Workfront Proof]同步 [!DNL Box] 資料夾](../../../workfront-proof/wp-integrations/box/sycn-box-folder.md)
+* [在 [!DNL Box]中檢視校訂的原始檔案](../../../workfront-proof/wp-integrations/box/view-proof-original-file-box.md)

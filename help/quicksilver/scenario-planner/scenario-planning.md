@@ -19,25 +19,25 @@ ht-degree: 0%
 
 本節包含下列文章：
 
-* [此 [!DNL Scenario Planner] 概述](../scenario-planner/scenario-planner-overview.md)
+* [該 [!DNL Scenario Planner] 總覽](../scenario-planner/scenario-planner-overview.md)
 * [開始使用 [!DNL Scenario Planner]](../scenario-planner/get-started-with-scenario-planning.md)
-* [使用所需的存取權 [!DNL Scenario Planner]](../scenario-planner/access-needed-to-use-sp.md)
-* [中的計畫總覽 [!DNL Scenario Planner]](../scenario-planner/plans-overview.md)
-* [在中建立和編輯計畫 [!DNL Scenario Planner]](../scenario-planner/create-and-edit-plans.md)
-* [在中建立和比較計畫案例 [!DNL Scenario Planner]](../scenario-planner/create-and-compare-scenarios-for-a-plan.md)
-* [刪除中的計畫 [!DNL Scenario Planner]](../scenario-planner/delete-plans.md)
-* [中的方案概觀 [!DNL Scenario Planner]](../scenario-planner/initiatives-overview.md)
-* [在中建立和編輯方案 [!DNL Scenario Planner]](../scenario-planner/create-and-edit-initiatives.md)
-* [複製中的方案 [!DNL Scenario Planner]](../scenario-planner/copy-initiatives.md)
-* [更新中的方案優先順序 [!DNL Scenario Planner]](../scenario-planner/prioritize-initiatives.md)
-* [刪除中的方案 [!DNL Scenario Planner]](../scenario-planner/delete-initiatives.md)
-* [解決中的方案衝突 [!DNL Scenario Planner]](../scenario-planner/resolve-conflicts-in-sp.md)
-* [將專案匯入至中的計畫 [!DNL Scenario Planner]](../scenario-planner/import-projects-to-plans.md)
-* [請求對中的計畫的存取權 [!DNL Scenario Planner]](../scenario-planner/request-access-to-plan.md)
-* [在中共用計畫 [!DNL Scenario Planner]](../scenario-planner/share-a-plan.md)
-* [透過發佈中的方案更新或建立專案 [!DNL Scenario Planner]](../scenario-planner/publish-scenarios-update-projects.md)
-* [協調專案與方案之間資源配置的概要](../scenario-planner/overview-reconcile-allocations-between-projects-initiatives.md)
-* [顯示任務清單中專案和方案的角色分配](../scenario-planner/show-role-allocation-task-list-nwe.md)
-* [在中顯示專案和方案的角色分配 [!UICONTROL 工作負載平衡器]](../scenario-planner/show-role-allocation-workload-balancer.md)
+* [使用 [!DNL Scenario Planner]](../scenario-planner/access-needed-to-use-sp.md)所需的存取權
+*  [!DNL Scenario Planner]](../scenario-planner/plans-overview.md)中的[計畫總覽
+* [在 [!DNL Scenario Planner]](../scenario-planner/create-and-edit-plans.md)中建立和編輯計畫
+* [在 [!DNL Scenario Planner]](../scenario-planner/create-and-compare-scenarios-for-a-plan.md)中建立和比較計畫案例
+* [刪除 [!DNL Scenario Planner]](../scenario-planner/delete-plans.md)中的計畫
+*  [!DNL Scenario Planner]](../scenario-planner/initiatives-overview.md)中的[方案總覽
+* [在 [!DNL Scenario Planner]](../scenario-planner/create-and-edit-initiatives.md)中建立和編輯方案
+* 在 [!DNL Scenario Planner]](../scenario-planner/copy-initiatives.md)中複製[方案
+* [更新 [!DNL Scenario Planner]](../scenario-planner/prioritize-initiatives.md)中的方案優先順序
+* [刪除 [!DNL Scenario Planner]](../scenario-planner/delete-initiatives.md)中的方案
+* [解決 [!DNL Scenario Planner]](../scenario-planner/resolve-conflicts-in-sp.md)中的方案衝突
+* [將專案匯入 [!DNL Scenario Planner]](../scenario-planner/import-projects-to-plans.md)中的計畫
+* [在 [!DNL Scenario Planner]](../scenario-planner/request-access-to-plan.md)中要求計畫的存取權
+* 在 [!DNL Scenario Planner]](../scenario-planner/share-a-plan.md)中[共用計畫
+* [在 [!DNL Scenario Planner]](../scenario-planner/publish-scenarios-update-projects.md)中發佈行動方案以更新或建立專案
+* [協調專案與行動方案之間的資源配置的概觀](../scenario-planner/overview-reconcile-allocations-between-projects-initiatives.md)
+* [顯示工作清單中專案和方案的角色分配](../scenario-planner/show-role-allocation-task-list-nwe.md)
+* [顯示[!UICONTROL 工作負載平衡器]中專案和行動方案的角色分配](../scenario-planner/show-role-allocation-workload-balancer.md)
 
  

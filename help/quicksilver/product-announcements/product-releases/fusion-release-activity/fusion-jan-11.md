@@ -21,9 +21,9 @@ ht-degree: 0%
 
 本頁說明2021年1月11日當週在Adobe Workfront Fusion中所做的所有增強功能。
 
-如需所有最近變更的清單，請參閱 [Adobe Workfront Fusion發行活動](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
+如需所有最近變更的清單，請參閱[Adobe Workfront Fusion發行活動](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md)。
 
-如需Workfront Fusion中近期的錯誤修正清單，請參閱 [Workfront維護更新](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) 頁面，並檢查是否有任何標示為Workfront Fusion維護更新的更新。
+如需Workfront Fusion中最近的錯誤修正清單，請參閱[Workfront維護更新](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html)頁面，並檢查任何標示為Workfront Fusion維護更新的更新。
 
 ## 現在提供加寬聯結器和模組
 
@@ -36,7 +36,7 @@ ht-degree: 0%
 * 擷取集合中的資產清單
 * 執行自訂API呼叫。
 
-如需詳細資訊，請參閱 [加寬模組](../../../workfront-fusion/apps-and-their-modules/widen-modules.md).
+如需詳細資訊，請參閱[加寬模組](../../../workfront-fusion/apps-and-their-modules/widen-modules.md)。
 
 ## Datadog聯結器和模組現已推出
 
@@ -44,10 +44,10 @@ ht-degree: 0%
 
 使用Datadog模組，您可以：
 
-* 發佈時間序列點
+* Post時間序列點
 * 執行自訂API呼叫
 
-如需Datadog模組的相關資訊，請參閱 [Datadog模組](../../../workfront-fusion/apps-and-their-modules/datadog-modules.md).
+如需Datadog模組的相關資訊，請參閱[Datadog模組](../../../workfront-fusion/apps-and-their-modules/datadog-modules.md)。
 
 ## 現已提供事件聯結器和模組
 
@@ -62,7 +62,7 @@ ht-degree: 0%
 * 更新或刪除連絡人
 * 進行自訂API呼叫
 
-如需有關可用的Cvent模組的資訊，請參閱 [事件模組](../../../workfront-fusion/apps-and-their-modules/cvent-modules.md).
+如需有關可用Cvent模組的資訊，請參閱[Cvent模組](../../../workfront-fusion/apps-and-their-modules/cvent-modules.md)。
 
 ## Microsoft Dynamics 365聯結器和模組現已推出
 
@@ -72,7 +72,7 @@ ht-degree: 0%
 * 建立、讀取、更新或刪除Microsoft Dynamics 365記錄
 * 執行自訂API呼叫
 
-如需可用Microsoft Dynamics 365模組的相關資訊，請參閱 [Microsoft Dynamics 365模組](../../../workfront-fusion/apps-and-their-modules/microsoft-dynamics-365-modules.md).
+如需有關可用Microsoft Dynamics 365模組的資訊，請參閱[Microsoft Dynamics 365模組](../../../workfront-fusion/apps-and-their-modules/microsoft-dynamics-365-modules.md)。
 
 ## DocuSign聯結器和模組現已推出
 
@@ -86,7 +86,7 @@ ht-degree: 0%
 * 將檔案上傳到信封
 * 執行自訂API呼叫
 
-如需詳細資訊，請參閱 [docussign模組](../../../workfront-fusion/apps-and-their-modules/docusign-modules.md).
+如需詳細資訊，請參閱[DocuSign模組](../../../workfront-fusion/apps-and-their-modules/docusign-modules.md)。
 
 ## 搜尋您的案例執行歷史記錄
 
@@ -94,7 +94,7 @@ ht-degree: 0%
 
 以前，要尋找特定的執行資訊，需要分別檢視每個執行。
 
-如需詳細資訊，請參閱 [在Adobe Workfront Fusion中檢視案例的執行歷史記錄](../../../workfront-fusion/scenarios/view-scenario-execution-history.md).
+如需詳細資訊，請參閱[在Adobe Workfront Fusion中檢視案例的執行歷程記錄](../../../workfront-fusion/scenarios/view-scenario-execution-history.md)。
 
 ## Fusion 2.0資料存放區的更新
 
@@ -104,13 +104,13 @@ ht-degree: 0%
 * 編輯單一儲存格
 * 新增多列
 
-如需資料存放區的詳細資訊，請參閱 [資料存放區模組](../../../workfront-fusion/apps-and-their-modules/data-store-modules.md).
+如需資料存放區的詳細資訊，請參閱[資料存放區模組](../../../workfront-fusion/apps-and-their-modules/data-store-modules.md)。
 
 ## 透過HTTP聯結器發出API金鑰授權請求
 
 為了增加您存取API方式的彈性，我們在HTTP聯結器中新增了一個模組。 現在，當您要存取的Web服務需要使用API金鑰時，您可以使用HTTP聯結器來提出要求。
 
-如需詳細資訊，請參閱 [http模組](../../../workfront-fusion/apps-and-their-modules/http-modules/http-modules-1.md).
+如需詳細資訊，請參閱[HTTP模組](../../../workfront-fusion/apps-and-their-modules/http-modules/http-modules-1.md)。
 
 ## 對應面板中可用的新函式
 
@@ -138,6 +138,6 @@ ht-degree: 0%
 
   函式為字串函式，可逸出文字中的所有Markdown標籤。
 
-如需省略和挑選函式的詳細資訊，請參閱 [Adobe Workfront Fusion中的一般函式](../../../workfront-fusion/functions/general-functions.md).
+如需省略和挑選函式的詳細資訊，請參閱[Adobe Workfront Fusion中的一般函式](../../../workfront-fusion/functions/general-functions.md)。
 
-如需escapeMarkdown函式的詳細資訊，請參閱 [Adobe Workfront Fusion中的字串函式](../../../workfront-fusion/functions/string-functions.md).
+如需有關escapeMarkdown函式的詳細資訊，請參閱Adobe Workfront Fusion中的[字串函式](../../../workfront-fusion/functions/string-functions.md)。

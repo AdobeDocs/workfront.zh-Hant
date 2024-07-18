@@ -9,7 +9,7 @@ role: Developer
 exl-id: 5fcdf07e-d077-4d6a-bc3f-973983877c7c
 source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
 workflow-type: tm+mt
-source-wordcount: '613'
+source-wordcount: '603'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ ht-degree: 0%
 
 ProofHQ API包含多種在Workfront API中無法用於校訂的動作。 使用這些動作，您可以比Workfront API更精確地修改或設定校訂。
 
-如需ProofHQ API的概觀，請參閱 [PoofHQ概述](../../proofhq-api/general/overview.md). 您也可以參閱 [ProofHQ檔案](https://api.proofhq.com/home.html).
+如需ProofHQ API的概觀，請參閱[PoofHQ概觀](../../proofhq-api/general/overview.md)。 您也可以參閱[ProofHQ檔案](https://api.proofhq.com/home.html)。
 
 >[!NOTE]
 >
@@ -41,11 +41,11 @@ ProofHQ API包含多種在Workfront API中無法用於校訂的動作。 使用�
 
 ### 使用進階校訂選項建立校訂
 
-1. 使用建立校訂 `Document createProof` Workfront動作。
+1. 使用Workfront API中的`Document createProof`動作建立校訂。
 
    >[!NOTE]
    >
-   建立校訂時，設定 `{}` 作為 `advancedProofingOptions` 引數。
+   >建立校訂時，將`{}`設定為`advancedProofingOptions`引數的值。
 
 1. 建立校訂後，使用ProofHQ API新增任何進階選項。
 
@@ -53,15 +53,15 @@ ProofHQ API包含多種在Workfront API中無法用於校訂的動作。 使用�
 
 本節顯示您可以使用ProofHQ API進行的一些更新範例。
 
-**範例:**
+**範例：**
 
-* [校訂可以下載、有訊息並公開共用](#proof-can-be-downloaded-has-a-message-and-is-shared-publicly)
-* [更新階段，讓它不是私人的、非強制的，並且只需要一次核准](#update-a-stage-so-that-it-is-not-private-not-mandatory-and-requires-only-one-approval)
+* [校訂可以下載、有訊息且已公開共用](#proof-can-be-downloaded-has-a-message-and-is-shared-publicly)
+* [更新階段，讓它不是私人的、不是強制性的，而且只需要一次核准](#update-a-stage-so-that-it-is-not-private-not-mandatory-and-requires-only-one-approval)
 * [將兩個收件者新增至沒有主要決策者的校訂](#add-two-recipients-to-a-proof-with-no-primary-decision-maker)
 
-**校訂可以下載、有訊息並公開共用**
+**校訂可以下載、有訊息且已公開共用**
 
-此端點的檔案可在以下網址找到： [ProofHQ API updateProof](https://api.proofhq.com/home/proofs/updateproof.html) 頁面。
+您可以在[ProofHQ API updateProof](https://api.proofhq.com/home/proofs/updateproof.html)頁面上找到此端點的檔案。
 
 <!-- [Copy](javascript:void(0);) -->
 
@@ -83,9 +83,9 @@ ProofHQ API包含多種在Workfront API中無法用於校訂的動作。 使用�
 </soapenv:Envelope>
 ```
 
-**更新階段，讓它不是私人的、非強制的，並且只需要一次核准**
+**更新階段，讓它不是私人的、不是強制性的，而且只需要一次核准**
 
-此端點的檔案可在以下網址找到： [ProofHQ API updateWorkflowProofStage](https://api.proofhq.com/updateworkflowproofstage.html) 頁面。
+您可以在[ProofHQ API updateWorkflowProofStage](https://api.proofhq.com/updateworkflowproofstage.html)頁面上找到此端點的檔案。
 
 <!-- [Copy](javascript:void(0);) -->
 
@@ -110,7 +110,7 @@ ProofHQ API包含多種在Workfront API中無法用於校訂的動作。 使用�
 
 **將兩個收件者新增至沒有主要決策者的校訂**
 
-此端點的檔案可在以下網址找到： [ProofHQ API addWorkflowProofReviewers](https://api.proofhq.com/addworkflowproofreviewers.html) 頁面。
+您可以在[ProofHQ API addWorkflowProofReviewers](https://api.proofhq.com/addworkflowproofreviewers.html)頁面上找到此端點的檔案。
 
 <!-- [Copy](javascript:void(0);) -->
 
@@ -149,19 +149,19 @@ ProofHQ API包含多種在Workfront API中無法用於校訂的動作。 使用�
 
 ### 使用進階校訂選項建立校訂
 
-您可以使用透過Workfront API建立校樣 `Document createProof` 動作。 此動作接受 `advancedProofingOptions` 引數，其值型別為 `string`. 若要在您的檔案中包含進階校訂選項 `createProof` 動作，您必須在 `advancedProofingOptions` JSON格式的引數。
+您可以使用`Document createProof`動作，透過Workfront API建立校樣。 此動作接受`advancedProofingOptions`引數，其值型別為`string`。 若要在`createProof`動作中加入進階校訂選項，您必須以JSON格式輸入`advancedProofingOptions`引數中的選項。
 
 >[!NOTE]
 >
-可能很難預測要包含在advancedProofingOptions JSON中的欄位。 在Workfront中使用進階校訂時，您可能會想要檢查組織的網路資料，並將JSON建立在組織常用的欄位和值上。
+>可能很難預測要包含在advancedProofingOptions JSON中的欄位。 在Workfront中使用進階校訂時，您可能會想要檢查組織的網路資料，並將JSON建立在組織常用的欄位和值上。
 >
-由於這些欄位可能很難預測，因此建議您使用Workfront API建立校訂，然後使用ProofHQ API更新它。 如需詳細資訊，請參閱 [使用Workfront和ProofHQ API建立校訂（建議）](#create-a-proof-using-the-workfront-and-proofhq-apis-recommended) 本文章
+>由於這些欄位可能很難預測，因此建議您使用Workfront API建立校訂，然後使用ProofHQ API更新它。 如需詳細資訊，請參閱本文中的[使用Workfront和ProofHQ API建立校訂（建議）](#create-a-proof-using-the-workfront-and-proofhq-apis-recommended)
 
 ### 範例
 
-此範例顯示當您為建立JSON時，可以使用的欄位和格式 `advancedProofingOptions` 引數。 您的 `advancedProofingOptions` JSON檔案的欄位可能會多於或少於此處顯示的欄位。
+此範例顯示當您為`advancedProofingOptions`引數建立JSON時，可以使用的欄位和格式。 您的`advancedProofingOptions` JSON檔案可以包含比此處顯示更多或更少的欄位。
 
-**範例:**
+**範例：**
 
 <!-- [Copy](javascript:void(0);) -->
 

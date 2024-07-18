@@ -2,8 +2,8 @@
 content-type: tips-tricks-troubleshooting
 product-area: timesheets
 navigation-topic: tips-tricks-and-troubleshooting-timesheets
-title: 防止在費率變化時重新計算財務活動影響歷史小時數
-description: 您需要更新用戶或職務角色的小時成本（由於加薪或其他情況），但您不希望此更改影響以前已登錄項目的小時數，或您希望它僅影響部分歷史小時。
+title: 避免重新計算財務動作在費率變更時影響歷史時數
+description: 您需要更新使用者或工作角色的每小時成本（由於加薪或其他情況），但您不希望此變更影響先前登入專案的時數，或僅希望其影響一部分歷史時數。
 author: Alina
 feature: Timesheets
 exl-id: 29d3124b-cf7a-4a47-95c4-cd5379489810
@@ -14,12 +14,12 @@ ht-degree: 0%
 
 ---
 
-# 防止在費率變化時重新計算財務活動影響歷史小時數
+# 避免重新計算財務動作在費率變更時影響歷史時數
 
 ## 問題
 
-您需要更新用戶或職務角色的小時成本（由於加薪或其他情況），但您不希望此更改影響以前已登錄項目的小時數，或您希望它僅影響部分歷史小時。
+您需要更新使用者或工作角色的每小時成本（由於加薪或其他情況），但您不希望此變更影響先前登入專案的時數，或僅希望其影響一部分歷史時數。
 
 ## 解決方案
 
-添加您不希望更改為項目上的計費記錄的小時數，並將計費記錄的狀態設定為「計費」。  這將鎖定在舊比率中，並將被「重新計算財務」操作忽略。  任何不屬於已開單開單記錄的小時，都按新費率計算。 如需詳細資訊，請參閱 [重新計算項目財務](../../manage-work/projects/project-finances/recalculate-project-finances.md).
+新增您不想變更至專案上記帳記錄的小時，並將記帳記錄的狀態設定為「已記帳」。  這會鎖定舊的比率，且會被重新計算財務動作忽略。  任何不屬於「已記帳」付費記錄的時數，都會以新費率計算。 如需詳細資訊，請參閱[重新計算專案財務](../../manage-work/projects/project-finances/recalculate-project-finances.md)。

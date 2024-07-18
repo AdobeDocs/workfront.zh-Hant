@@ -10,7 +10,7 @@ role: Admin
 exl-id: 2e4b18be-14bb-4d47-8e63-e2f4a5dc376f
 source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
-source-wordcount: '171'
+source-wordcount: '174'
 ht-degree: 0%
 
 ---
@@ -19,13 +19,13 @@ ht-degree: 0%
 
 如果專案、問題或任務等物件包含RTF文字，則會透過Workfront API將其儲存為引數值以供存取。
 
-可使用欄位從包含RTF文字的專案物件請求文字資訊 **parametervalues**.
+使用欄位&#x200B;**parameterValues**&#x200B;可以從包含RTF文字的專案物件要求文字資訊。
 
 例如，簡單的HTTP請求可能類似於以下內容：
 
 `https://your-company.workfront.com/attask/api/v11.0/project?ID=your-project-ID&fields=parameterValues:*`
 
-如果此範例專案包含具有3個自訂欄位的自訂表單：計算欄位、段落文字和RTF 1。 接著，上述要求會傳回類似以下的回應，其中欄位「rich 1」為RTF引數欄位，而文字值為「**您好** *世界！*「：
+如果此範例專案包含具有3個自訂欄位的自訂表單：計算欄位、段落文字和RTF 1。 接著，上述要求會傳回類似下列的回應，其中「rich 1」欄位是RTF引數欄位，而文字值為「**Hello** *World！*」：
 
 ```
 {
@@ -69,4 +69,4 @@ ht-degree: 0%
 }
 ```
 
-如需深入瞭解RTF資訊如何儲存以及可透過Adobe Workfront API擷取，請參閱 [Adobe Workfront API中的RTF文字欄位](../../../wf-api/general/rich-text-field-api.md).
+如需深入瞭解RTF資訊的儲存方式，以及透過Adobe Workfront API擷取的方式，請參閱Adobe Workfront API中的[RTF欄位](../../../wf-api/general/rich-text-field-api.md)。

@@ -28,13 +28,13 @@ ht-degree: 1%
 計畫工作在Adobe Workfront中以專案和任務表示。 不過，您可能會在一個環境中工作，在這種環境中，非計畫工作（以請求的形式）可以隨時進入。 Workfront透過使用請求佇列提供可容納這種環境型別的工作流程。
 
 在「請求佇列」中建立請求後，您可以將請求指派給完成者，或將其轉換為任務或專案。\
-如需將問題轉換為任務或專案的詳細資訊，請參閱文章 [在Adobe Workfront中轉換問題的概觀](../../../manage-work/issues/convert-issues/convert-issues.md).
+如需將問題轉換為任務或專案的詳細資訊，請參閱文章[在Adobe Workfront中轉換問題的概觀](../../../manage-work/issues/convert-issues/convert-issues.md)。
 
 您可以透過下列方式建立請求：
 
 * 從頭開始，如本文所述。
-* 從草稿。 如需詳細資訊，請參閱 [從草稿建立請求](../../../manage-work/requests/create-requests/create-requests-from-drafts.md).
-* 從現有請求，透過複製和提交副本。 如需詳細資訊，請參閱 [複製並提交請求](../../../manage-work/requests/create-requests/copy-and-submit-requests.md).
+* 從草稿。 如需詳細資訊，請參閱[從草稿建立請求](../../../manage-work/requests/create-requests/create-requests-from-drafts.md)。
+* 從現有請求，透過複製和提交副本。 如需詳細資訊，請參閱[複製並提交請求](../../../manage-work/requests/create-requests/copy-and-submit-requests.md)。
 
 ## 存取需求
 
@@ -64,7 +64,7 @@ ht-degree: 1%
  </tbody> 
 </table>
 
-如需有關此表格的詳細資訊，請參閱 [Workfront檔案中的存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -72,25 +72,25 @@ ht-degree: 1%
 
 Workfront管理員必須先建立請求佇列，並讓使用者可以使用此功能。 擁有規劃者授權和編輯專案存取權及管理特定專案許可權的使用者也可以建立請求佇列。
 
-如需有關如何建立請求佇列的資訊，請參閱文章 [建立請求佇列](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
+如需有關如何建立請求佇列的資訊，請參閱文章[建立請求佇列](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md)。
 
 Workfront管理員必須建立「請求佇列」的下列元件：
 
 * 處於目前狀態的專案，已發佈為說明請求佇列。
 * 佇列主題。\
-  如需詳細資訊，請參閱文章 [建立佇列主題](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).
+  如需詳細資訊，請參閱文章[建立佇列主題](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md)。
 
 * 路由規則。\
-  如需詳細資訊，請參閱文章 [建立路由規則](../../../manage-work/requests/create-and-manage-request-queues/create-routing-rules.md).
+  如需詳細資訊，請參閱文章[建立路由規則](../../../manage-work/requests/create-and-manage-request-queues/create-routing-rules.md)。
 
 * （選用）主題群組。\
-  如需詳細資訊，請參閱文章 [建立主題群組](../../../manage-work/requests/create-and-manage-request-queues/create-topic-groups.md).
+  如需詳細資訊，請參閱文章[建立主題群組](../../../manage-work/requests/create-and-manage-request-queues/create-topic-groups.md)。
 
 * （選用）要求自訂表格。\
-  如需詳細資訊，請參閱文章 [建立或編輯自訂表單](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
+  如需詳細資訊，請參閱文章[建立或編輯自訂表格](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)。
 
 * （選用）要求核准流程。\
-  如需詳細資訊，請參閱文章 [建立工作專案的核准流程](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
+  如需詳細資訊，請參閱文章[建立工作專案的核准程式](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md)。
 
 ## 在Workfront網頁應用程式中建立請求並產生草稿
 
@@ -106,27 +106,27 @@ Workfront管理員必須建立「請求佇列」的下列元件：
 >* 如果請求佇列的結構變更，您將無法再存取現有的草稿。 例如，如果移除佇列主題或新增主題群組，則無法再存取已儲存的草稿。
 >
 
-如需從現有草稿建立請求的相關資訊，請參閱 [從草稿建立請求](../../../manage-work/requests/create-requests/create-requests-from-drafts.md). 如需有關刪除請求草稿的資訊，另請參閱 [刪除請求草稿](../../../manage-work/requests/create-requests/delete-request-draft.md).
+如需有關從現有草稿建立要求的資訊，請參閱[從草稿建立要求](../../../manage-work/requests/create-requests/create-requests-from-drafts.md)。 如需有關刪除請求草稿的資訊，另請參閱[刪除請求草稿](../../../manage-work/requests/create-requests/delete-request-draft.md)。
 
 若要在Workfront網頁應用程式中建立請求：
 
-1. 按一下 **[!UICONTROL 主要功能表]** 圖示 ![主要功能表](/help/_includes/assets/main-menu-icon.png) 在Adobe Workfront的右上角，或（如果有的話）按一下 **[!UICONTROL 主要功能表]** 圖示 ![主要功能表](/help/_includes/assets/main-menu-icon-left-nav.png) 左上角。
+1. 按一下Adobe Workfront右上角的&#x200B;**[!UICONTROL 主功能表]**&#x200B;圖示![主功能表](/help/_includes/assets/main-menu-icon.png)，或（如果可用）按一下左上角的&#x200B;**[!UICONTROL 主功能表]**&#x200B;圖示![主功能表](/help/_includes/assets/main-menu-icon-left-nav.png)。
 
    <!--
    <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
    </MadCap:conditionalText>
    -->
 
-1. 按一下  **請求**，然後按一下 **新要求** 在頁面的右上角。
+1. 按一下&#x200B;**要求**，然後按一下頁面右上角的&#x200B;**新增要求**。
 
    >[!TIP]
    >
    >* 您可以從請求區域的任何區段存取新請求選項。
    >* 當您無權建立問題時，新請求選項會變暗。
 
-1. （視條件而定）在 **請求型別** 欄位並執行下列任一項作業：
+1. （視條件而定）在&#x200B;**要求型別**&#x200B;欄位內按一下，然後執行下列任一項作業：
 
-   * 從 **最近的路徑** 區段，選取您最近用來開啟請求佇列的路徑。 路徑包括請求佇列、主題群組，以及您最近提交的佇列主題。 依預設會顯示最後三個路徑。
+   * 從&#x200B;**最近使用的路徑**&#x200B;區段中，選取您最近用來開啟要求佇列的路徑。 路徑包括請求佇列、主題群組，以及您最近提交的佇列主題。 依預設會顯示最後三個路徑。
 
      >[!NOTE]
      >
@@ -134,7 +134,7 @@ Workfront管理員必須建立「請求佇列」的下列元件：
 
      ![](assets/list-of-recent-paths-and-request-queues-when-entering-new-request-nwe-350x295.png)
 
-   * 從 **請求佇列** 區段，選取請求佇列。
+   * 從&#x200B;**要求佇列**&#x200B;區段中，選取要求佇列。
    * 輸入屬於先前存取路徑的關鍵字，以搜尋請求佇列。
 
      例如，如果您有一個名為「服務檯」的請求佇列，其主題群組名為「位置」，佇列主題名為「遠端」，則您可以輸入「遠端」，並在其路徑顯示的任何元素中輸入「遠端」的所有請求佇列。
@@ -170,9 +170,9 @@ Workfront管理員必須建立「請求佇列」的下列元件：
    >* 請求佇列的名稱是已發佈為說明請求佇列的專案名稱。
    >* 設定為所選請求佇列的專案說明會顯示在請求佇列名稱的右側。
    >   
-   >有關如何將專案發佈為說明請求佇列的詳細資訊，請參閱文章 [建立請求佇列](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
+   >有關如何將專案發佈為說明請求佇列的詳細資訊，請參閱文章[建立請求佇列](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md)。
 
-1. 在 **新要求** 表單，執行下列任一項作業：
+1. 在&#x200B;**新要求**&#x200B;表單中，執行下列其中一項作業：
 
    * （視條件而定）從「請求型別」欄位下顯示的通知訊息中，選取可用的草稿。
 
@@ -197,13 +197,13 @@ Workfront管理員必須建立「請求佇列」的下列元件：
    >
 
    您的請求佇列中最多可包含10層主題群組。\
-   如需有關如何建立主題群組的詳細資訊，請參閱本文 [建立主題群組](../../../manage-work/requests/create-and-manage-request-queues/create-topic-groups.md). 如需有關建立佇列主題的詳細資訊，請參閱文章 [建立佇列主題](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).
+   如需有關如何建立主題群組的詳細資訊，請參閱文章[建立主題群組](../../../manage-work/requests/create-and-manage-request-queues/create-topic-groups.md)。 如需有關建立佇列主題的詳細資訊，請參閱文章[建立佇列主題](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md)。
 
    >[!TIP]
    >
    >如果您選取了草稿或之前的路徑，則會選取主題群組和佇列主題。 如有需要，您可以選取其他選項。
 
-1. 視Workfront管理員在欄位中啟用的而定 **新問題欄位** 的區段 **佇列詳細資訊** 提交新請求時，您可能會找到專案上下列任一欄位：
+1. 根據Workfront管理員在專案的&#x200B;**佇列詳細資料**&#x200B;子標籤的&#x200B;**新問題欄位**&#x200B;區段中啟用的欄位，當您提交新請求時，可能會發現以下任何欄位：
 
    <table style="table-layout:auto"> 
     <col> 
@@ -233,7 +233,7 @@ Workfront管理員必須建立「請求佇列」的下列元件：
        </ul> <p>您的系統管理員可以修改優先順序的名稱。</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>嚴重程度</strong> </td> 
+      <td role="rowheader"><strong>嚴重性</strong> </td> 
       <td> <p>指定要求的嚴重程度。 嚴重程度應該定義如果不能及時解決此請求對您工作的影響。 預設選項為：</p> 
        <ul> 
         <li>輕微</li> 
@@ -249,7 +249,7 @@ Workfront管理員必須建立「請求佇列」的下列元件：
      </tr> 
      <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
       <td role="rowheader"><strong>指派</strong> </td> 
-      <td> <p><span>指定請求應指派到的作用中使用者、工作角色或團隊的名稱。</span> </p> <p>您只能指定一個群組。</p>
+      <td> <p><span>指定應指派請求的使用中使用者、工作角色或團隊的名稱。</span> </p> <p>您只能指定一個群組。</p>
 
    <p> 視請求佇列的設定方式而定，您或許只能將一或兩種型別的資源指派給請求，而非全部三種（例如，您可能只能將請求指派給使用者）。</p>
 
@@ -261,7 +261,7 @@ Workfront管理員必須建立「請求佇列」的下列元件：
       <li> <p><a href="../../../manage-work/requests/create-and-manage-request-queues/create-routing-rules.md" class="MCXref xref">建立路由規則</a> <br> </p> </li> 
       </ul> </p>
 
-   <p><span>建議您使用請求佇列的路由規則，讓請求佇列可自動路由至適當的資源。</span> </p> </td> 
+   <p><span>我們建議您使用要求佇列的路由規則，以便自動路由至適當的資源。</span> </p> </td> 
      </tr>
 
    <tr> 
@@ -289,29 +289,29 @@ Workfront管理員必須建立「請求佇列」的下列元件：
 
 1. （選用）如果您的Workfront管理員將自訂表單與請求佇列或佇列主題相關聯，請指定自訂表單內的欄位。\
    每個Workfront例項的自訂表單都不同。
-1. （選擇性和條件性）在輸入請求期間，隨時按一下 [!UICONTROL **捨棄草稿**] 如果您想要刪除自動建立的草稿。 這將刪除無法復原的草稿。 系統會顯示確認訊息，確認您正在刪除草稿。
+1. （選擇性和條件性）在輸入請求期間，如果想要刪除自動建立的草稿，請按一下&#x200B;[!UICONTROL **捨棄草稿**]。 這將刪除無法復原的草稿。 系統會顯示確認訊息，確認您正在刪除草稿。
 
-1. （選用）按一下 [!UICONTROL **還原**] ，以回覆動作並保留草稿。
+1. （選擇性）如果要還原動作並保留草稿，請按一下確認訊息上的&#x200B;[!UICONTROL **還原**]。
 
 1. 執行下列其中一項：
 
-   * 按一下 **提交** 如果您已準備好提交請求。 請求會儲存在已提交區段中。 根據「請求佇列」的「路由規則」，此請求可能會路由至指定為「請求佇列」的不同專案。 如需有關路由規則的資訊，請參閱 [建立路由規則](../../../manage-work/requests/create-and-manage-request-queues/create-routing-rules.md).
+   * 如果您已準備好提交要求，請按一下&#x200B;**提交**。 請求會儲存在已提交區段中。 根據「請求佇列」的「路由規則」，此請求可能會路由至指定為「請求佇列」的不同專案。 如需路由規則的詳細資訊，請參閱[建立路由規則](../../../manage-work/requests/create-and-manage-request-queues/create-routing-rules.md)。
 
      或
 
-     按一下 **關閉** 如果您還沒準備好提交，稍後可能會回來完成。 您的請求會儲存在「草稿」區段，當您下次提交此請求佇列的請求時，即可使用此請求。
+     如果您尚未準備好提交，請按一下&#x200B;**關閉**，稍後可能會回來完成它。 您的請求會儲存在「草稿」區段，當您下次提交此請求佇列的請求時，即可使用此請求。
 
      ![](assets/nwe-submit-close-discard-draft-buttons-on-new-request-350x340.png)
 
    當您提交請求時，草稿會自動刪除且無法還原。
 
-   如需有關處理傳入請求的資訊，請參閱文章 [管理工作和團隊請求](../../../people-teams-and-groups/work-with-team-requests/manage-work-and-team-requests.md).
+   如需有關處理傳入請求的資訊，請參閱文章[管理工作和團隊請求](../../../people-teams-and-groups/work-with-team-requests/manage-work-and-team-requests.md)。
 
-   如需尋找已提交或草擬之請求的詳細資訊，請參閱 [找出已提交的請求](../../../manage-work/requests/create-requests/locate-submitted-requests.md).
+   如需尋找已提交或草擬之要求的詳細資訊，請參閱[尋找已提交的要求](../../../manage-work/requests/create-requests/locate-submitted-requests.md)。
 
 ## 從Workfront外部建立請求
 
-提交新請求時，您可以分享請求佇列的直接連結，並將其嵌入其他應用程式。 從網站或其他應用程式存取此連結的使用者也必須以有效的Workfront帳戶登入，才能存取此佇列並向其提交請求。 如需詳細資訊，請參閱 [分享請求佇列的連結](../../../manage-work/requests/create-requests/share-link-to-request-queue.md).
+提交新請求時，您可以分享請求佇列的直接連結，並將其嵌入其他應用程式。 從網站或其他應用程式存取此連結的使用者也必須以有效的Workfront帳戶登入，才能存取此佇列並向其提交請求。 如需詳細資訊，請參閱[分享要求佇列的連結](../../../manage-work/requests/create-requests/share-link-to-request-queue.md)。
 
 ## 透過傳送電子郵件至Workfront來建立請求
 
@@ -323,13 +323,13 @@ Workfront管理員必須建立「請求佇列」的下列元件：
 >
 >請求進入Workfront時，HTML格式會遭到移除，但簽名和現有的回覆對話串內容不會遭到移除，並會出現在請求說明中。
 
-如需如何啟用「請求佇列」以透過電子郵件接收請求的詳細資訊，請參閱 [讓使用者透過電子郵件將問題傳送到請求佇列專案](../../../manage-work/requests/create-requests/enable-email-issues-into-projects.md).
+如需有關如何啟用要求佇列以透過電子郵件接收要求的資訊，請參閱[讓使用者透過電子郵件將問題傳送到要求佇列專案](../../../manage-work/requests/create-requests/enable-email-issues-into-projects.md)。
 
 ## 使用Outlook使用者端建立請求
 
 您可以使用Outlook使用者端來提交要求。 您可以建立新請求，也可以將電子郵件轉換為請求。
 
-如需有關使用Outlook使用者端提交要求的資訊，請參閱文章 [從Outlook電子郵件建立Adobe Workfront請求](../../../workfront-integrations-and-apps/using-workfront-with-outlook/create-a-wf-request-from-an-outlook-email.md).
+如需使用Outlook使用者端提交要求的詳細資訊，請參閱文章[從Outlook電子郵件建立Adobe Workfront要求](../../../workfront-integrations-and-apps/using-workfront-with-outlook/create-a-wf-request-from-an-outlook-email.md)。
 
 ## 使用Workfront行動應用程式建立請求
 
@@ -337,7 +337,7 @@ Workfront管理員必須建立「請求佇列」的下列元件：
 
 如需透過行動應用程式提交請求的相關資訊，請參閱文章中的請求一節：
 
-* [適用於Android的Adobe Workfront](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-android.md#requests)
+* 適用於Android的[Adobe Workfront](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-android.md#requests)
 * [適用於iOS的Adobe Workfront](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-ios.md#requests)
 
 ## 從其他應用程式建立請求
@@ -345,11 +345,11 @@ Workfront管理員必須建立「請求佇列」的下列元件：
 您可以使用已與Workfront整合的任何應用程式來提交請求：
 
 * 您可以建立Workfront與其他應用程式之間的自訂整合，好讓您從其他應用程式提交請求至Workfront。\
-  如需自訂Workfront整合的詳細資訊，請參閱文章 [Adobe Workfront整合](../../../administration-and-setup/configure-integrations/workfront-integrations-1.md).
+  如需自訂Workfront整合的詳細資訊，請參閱文章[Adobe Workfront整合](../../../administration-and-setup/configure-integrations/workfront-integrations-1.md)。
 
 * 如果您已安裝適用於Salesforce的Workfront應用程式，即可從Salesforce提交請求。\
-  如需有關使用適用於Salesforce的Workfront應用程式從Salesforce提交請求的資訊，請參閱文章 [從Salesforce物件提交Adobe Workfront請求](../../../workfront-integrations-and-apps/using-workfront-with-salesforce/submit-workfront-requests-from-salesforce-objects.md).
+  如需有關使用適用於Salesforce的Workfront應用程式從Salesforce提交請求的資訊，請參閱文章[從Salesforce物件提交Adobe Workfront請求](../../../workfront-integrations-and-apps/using-workfront-with-salesforce/submit-workfront-requests-from-salesforce-objects.md)。
 
 ## 找出已提交的請求
 
-如需尋找已提交或草擬之請求的詳細資訊，請參閱 [找出已提交的請求](../../../manage-work/requests/create-requests/locate-submitted-requests.md).
+如需尋找已提交或草擬之要求的詳細資訊，請參閱[尋找已提交的要求](../../../manage-work/requests/create-requests/locate-submitted-requests.md)。

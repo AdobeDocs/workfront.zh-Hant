@@ -19,7 +19,7 @@ ht-degree: 0%
 <p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE:&nbsp;When updating POP account information here, also update information in these articles: Allowing users to reply to email notifications, Configuring Email Notifications, Understanding the Queue Details Tab in a Project )</p>
 -->
 
-您可以設定專案，讓使用者能透過電子郵件將問題新增至專案。 只有當專案被指定為「請求佇列」時，您才可允許以電子郵件將問題傳送到專案。 如需建立「請求佇列」專案的詳細資訊，請參閱 [建立請求佇列](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
+您可以設定專案，讓使用者能透過電子郵件將問題新增至專案。 只有當專案被指定為「請求佇列」時，您才可允許以電子郵件將問題傳送到專案。 如需有關建立請求佇列專案的詳細資訊，請參閱[建立請求佇列](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md)。
 
 ## 存取需求
 
@@ -43,7 +43,7 @@ ht-degree: 0%
    <td role="rowheader">存取層級設定*</td> 
    <td> <p>編輯問題的存取權</p> <p><b>附註</b>
 
-如果您還是沒有存取權，請詢問您的Workfront管理員，他們是否在您的存取層級中設定其他限制。 如需有關Workfront管理員如何變更您的存取層級的資訊，請參閱 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>.</p> </td>
+如果您還是沒有存取權，請詢問您的Workfront管理員，他們是否在您的存取層級中設定其他限制。 如需Workfront管理員如何變更存取層級的詳細資訊，請參閱<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>。</p> </td>
 </tr> <!--
    <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
     <td role="rowheader">Object permissions</td> 
@@ -53,7 +53,7 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-&#42;若要瞭解您擁有的計畫、授權型別或存取權，請聯絡您的Workfront管理員。
+&#42;若要瞭解您擁有的計畫、授權型別或存取權，請連絡您的Workfront管理員。
 
 ## 先決條件
 
@@ -80,12 +80,12 @@ ht-degree: 0%
 >我們建議您設定為透過電子郵件接收請求的專案不應有多個佇列主題。 如果提交的請求是針對不同的資源或專案，您應該在提交後手動路由或移動這些請求。
 
 1. 前往您要啟用的專案，透過電子郵件接收問題。
-1. 按一下 **佇列詳細資訊** 在左側面板中。 您可能需要按一下 **顯示更多** 第一。
-1. 在 **佇列型別** 區域，選取 **Publish作為說明請求佇列**.
+1. 按一下左側面板中的&#x200B;**佇列詳細資料**。 您可能需要先按一下&#x200B;**顯示更多**。
+1. 在&#x200B;**佇列型別**&#x200B;區域中，選取&#x200B;**Publish作為說明要求佇列**。
 
-1. 向下捲動至 **電子郵件佇列設定** 區域，然後選取 **啟用透過電子郵件要求錄取**.
+1. 向下捲動至&#x200B;**電子郵件佇列設定**&#x200B;區域，然後選取&#x200B;**啟用透過電子郵件要求錄取**。
 
-1. 在「 」中輸入電子郵件地址的開頭 **錄取電子郵件地址** 方塊。
+1. 在&#x200B;**錄取電子郵件地址**&#x200B;方塊中輸入電子郵件地址的開頭。
 
    您必須建立唯一的電子郵件地址。 建議您使用公司名稱作為錄取電子郵件地址的一部分。
 
@@ -98,7 +98,7 @@ ht-degree: 0%
    >This was the case previously, but it's not working this way anymore, since August 2022: * Emails forwarded to this email address are not added as issues to the project in&nbsp;Workfront. Only emails created from this email address are added as issues.
    -->
 
-1. （可選）選取 **轉寄所有無法透過電子郵件提交的問題**，然後在下列方塊中輸入轉寄電子郵件地址。
+1. （選擇性）選取&#x200B;**轉寄所有無法透過電子郵件提交的問題**，然後在下列方塊中輸入轉寄電子郵件地址。
 
    此電子郵件地址會接收無法提交至專案的電子郵件相關資訊。
 

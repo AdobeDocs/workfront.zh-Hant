@@ -1,47 +1,47 @@
 ---
-title: Adobe Workfront Scenario Planner 21.3版
-description: Adobe Workfront Scenario Planner 21.3版
+title: 含21.3版的Adobe Workfront Scenario Planner
+description: 含21.3版的Adobe Workfront Scenario Planner
 author: Luke
 draft: Probably
 feature: Product Announcements, Workfront Scenario Planner
 exl-id: 70e1b54b-2bf9-498a-8a77-9b220543e385
 source-git-commit: be4904f0b37870c1bfc8ec345e468d5fc283aa36
 workflow-type: tm+mt
-source-wordcount: '316'
+source-wordcount: '320'
 ht-degree: 0%
 
 ---
 
-# Adobe Workfront Scenario Planner 21.3版
+# 含21.3版的Adobe Workfront Scenario Planner
 
-Adobe Workfront方案規劃器僅適用於新的Adobe Workfront體驗。
+Adobe Workfront Scenario Planner僅適用於新的Adobe Workfront體驗。
 
-21.3版包含下列功能：
+第21.3發行版本包含下列功能：
 
-## 使用方案計畫員中的資訊來預算業務案例中的項目資源
-
->[!NOTE]
->
->此功能僅適用於新的Adobe Workfront體驗。
-
-為了在為項目預算資源時為使用Adobe Workfront方案計畫員的項目提供單一的真相來源，我們在項目的「業務案例」的「資源預算」區域中引入了一個設定，該設定允許您選擇是使用資源計畫員還是方案計畫員來為項目預算資源。 在選擇使用方案計畫員時，與項目連結的方案中的任務職責資訊將反映在業務案例的「資源預算」區域中，並計算項目的預算人工成本。
-
-這僅適用於已購買Adobe Workfront方案規劃器授權的客戶的新Adobe Workfront體驗。
-
-如需詳細資訊，請參閱 [使用方案計畫器在業務案例中的預算資源](../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-scenario-planner.md).
-
-## 在佈局模板中為方案規劃器和目標建立銷釘和登錄頁
+## 使用案例規劃工具中的資訊來預算業務案例中的專案資源
 
 >[!NOTE]
 >
->此功能僅適用於新的Adobe Workfront體驗。
+>此功能僅在新的Adobe Workfront體驗中可用。
 
-為了在存取「主功能表」中列出的Adobe Workfront的所有區域時保持一致，我們新增了Workfront或群組管理員在更新配置範本時，為「方案規劃器」和「目標」區域新增固定索引標籤和登錄頁面的功能。
+為了讓使用「Adobe Workfront案例規劃工具」的人在為其專案編列資源預算時擁有單一真實來源，我們已在專案之業務案例的「資源預算」區域中引入設定，可讓您選擇使用「資源規劃工具」或「案例規劃工具」，為專案編列資源預算。 當您選取使用「案例規劃工具」時，連結至專案的方案中的職務角色資訊會反映在「業務案例」的「資源預算」區域中，並計算專案的預算勞力成本。
 
-在此增強之前，您只能使用佈局模板將方案計畫程式和目標區域添加到主菜單中。
+這僅適用於已購買Adobe Workfront Scenario Planner授權的新版Adobe Workfront Experience客戶。
+
+如需詳細資訊，請參閱使用案例規劃工具](../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-scenario-planner.md)的業務案例中的[預算資源。
+
+## 為版面配置範本中的情境規劃工具和目標建立圖釘和登陸頁面
+
+>[!NOTE]
+>
+>此功能僅在新的Adobe Workfront體驗中可用。
+
+為了在存取主功能表所列的Adobe Workfront所有區域時保持一致，我們已新增Workfront或群組管理員在更新版面配置範本時，為「情境規劃工具」和「目標」區域新增釘選標籤和登陸頁面的功能。
+
+在此增強功能之前，您只能使用版面配置範本將「情境規劃工具」和「目標」區域新增到主功能表。
 
 如需詳細資訊，請參閱下列文章：
 
-* [使用版面範本自訂登錄頁面](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-landing-page.md)
-* [使用版面範本自訂已固定的頁面](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-pinned-pages.md)
+* [使用版面配置範本自訂登入頁面](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-landing-page.md)
+* [使用版面配置範本自訂釘選頁面](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-pinned-pages.md)
 

@@ -19,7 +19,7 @@ ht-degree: 0%
 
 {{important-admin-console-onboard}}
 
-Adobe Workfront正在變更使用者和密碼的系統管理。 這些變更將會在名為的分階段發行中推出 **增強型驗證** 體驗。 增強型驗證可在所有Workfront產品和服務中，為使用者提供更一致且安全的登入體驗。
+Adobe Workfront正在變更使用者和密碼的系統管理。 這些變更將以稱為&#x200B;**增強式驗證**&#x200B;體驗的分階段發行推出。 增強型驗證可在所有Workfront產品和服務中，為使用者提供更一致且安全的登入體驗。
 
 下表提供有關目前和未來功能的詳細資訊：
 
@@ -32,7 +32,7 @@ Adobe Workfront正在變更使用者和密碼的系統管理。 這些變更將�
   <tr> 
    <th> <p><strong>功能</strong> </p> </th> 
    <th><strong>舊版驗證</strong> </th> 
-   <th><strong>增強型驗證1.0</strong> </th> 
+   <th><strong>增強式驗證1.0</strong> </th> 
    <th> <p>增強型驗證2.0</p> </th> 
   </tr> 
  </thead> 

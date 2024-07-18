@@ -25,11 +25,11 @@ ht-degree: 0%
 
 ![](assets/object-header-fields.png)
 
-如需有關建立版面配置範本的資訊，請參閱 [建立及管理版面範本](../use-layout-templates/create-and-manage-layout-templates.md).
+如需有關建立版面配置範本的資訊，請參閱[建立和管理版面配置範本](../use-layout-templates/create-and-manage-layout-templates.md)。
 
-如需有關群組版面配置範本的資訊，請參閱 [建立和修改群組的版面配置範本](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
+如需有關群組配置範本的資訊，請參閱[建立和修改群組的配置範本](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md)。
 
-配置版面範本後，您必須將其指派給使用者，才能讓其他人看到您所做的變更。 如需有關指派配置範本給使用者的資訊，請參閱 [將使用者指派至版面配置範本](../use-layout-templates/assign-users-to-layout-template.md).
+配置版面範本後，您必須將其指派給使用者，才能讓其他人看到您所做的變更。 如需將配置範本指派給使用者的詳細資訊，請參閱[將使用者指派給配置範本](../use-layout-templates/assign-users-to-layout-template.md)。
 
 ## 存取需求
 
@@ -58,21 +58,21 @@ ht-degree: 0%
   </tr>
 </table>
 
-如果您還是沒有存取權，請詢問您的Workfront管理員，他們是否在您的存取層級中設定其他限制。 如需有關Workfront管理員如何修改您的存取層級的資訊，請參閱 [建立或修改自訂存取層級](../../add-users/configure-and-grant-access/create-modify-access-levels.md).
+如果您還是沒有存取權，請詢問您的Workfront管理員，他們是否在您的存取層級中設定其他限制。 如需Workfront管理員如何修改存取層級的詳細資訊，請參閱[建立或修改自訂存取層級](../../add-users/configure-and-grant-access/create-modify-access-levels.md)。
 
 ## 自訂物件標頭
 
-1. 開始使用版面範本，如所述 [建立及管理版面範本](../../customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
-1. 在 **自訂使用者看到的內容** 下拉式功能表，選取 **專案**， **任務**，或 **問題**.
+1. 開始使用版面配置範本，如[建立和管理版面配置範本](../../customize-workfront/use-layout-templates/create-and-manage-layout-templates.md)中所述。
+1. 在&#x200B;**自訂使用者看到的內容**&#x200B;下拉式功能表中，選取&#x200B;**專案**、**任務**&#x200B;或&#x200B;**問題**。
 
    <!--when this will be possible for more than 3 objects, at production, make this more general: update the sentence above to say "select an object you want to customize in the Customize what users see drop-down menu). -->
 
-1. 在 [!UICONTROL 標題欄位] 區段，將滑鼠移至顯示的欄位上，然後執行下列任一項作業：
-   * 按一下 **x** 圖示以移除欄位
+1. 在[!UICONTROL 標題欄位]區段中，將滑鼠移至顯示的欄位上，然後執行下列任一項作業：
+   * 按一下&#x200B;**x**&#x200B;圖示以移除欄位
 
      或
 
-   * 按一下並按住 **抓取** 圖示將欄位拖放到新位置。
+   * 按一下並按住&#x200B;**抓取**&#x200B;圖示，將欄位拖放到新位置。
 
    <!--(NOTE: make sure the default names of these fields have not changed; otherwise, update screen shot)-->
 
@@ -80,7 +80,7 @@ ht-degree: 0%
 
 1. 一個物件的標頭中最多可以有五個欄位。
 如果您已選取五個欄位，則必須先移除欄位，才能新增欄位。
-1. 在 **新增欄位** 方塊中，開始輸入您要新增的不可編輯Workfront欄位名稱，然後在其顯示在清單中時選取它。 該欄位會新增到「新增欄位」方塊的緊鄰右側，並將顯示為物件標題左上角的第一個欄位。
+1. 在&#x200B;**新增欄位**&#x200B;方塊中，開始輸入您要新增的不可編輯的Workfront欄位名稱，然後在其顯示在清單中時選取它。 該欄位會新增到「新增欄位」方塊的緊鄰右側，並將顯示為物件標題左上角的第一個欄位。
 
    >[!TIP]
    >
@@ -100,7 +100,7 @@ ht-degree: 0%
 
    或
 
-   如果您已完成自訂，請按一下 **儲存**.
+   如果您已完成自訂，請按一下&#x200B;**儲存**。
 
    >[!TIP]
    >
