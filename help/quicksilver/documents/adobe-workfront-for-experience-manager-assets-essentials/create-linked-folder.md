@@ -7,9 +7,9 @@ description: 在Workfront中，您可以建立與Experience Manager Assets或Ass
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: eb2b3b21-bc0b-45d3-85fa-1715cf927cb7
-source-git-commit: 1744e6f2b78c64ba2fa4856d9c6a0611404e4458
+source-git-commit: b87839d6c6dbfe978a3e14ef4b448560742f95c3
 workflow-type: tm+mt
-source-wordcount: '383'
+source-wordcount: '394'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,8 @@ ht-degree: 0%
 
 
 ## 存取需求
+
++++ 展開以檢視本文中功能的存取需求。
 
 您必須具備下列條件：
 
@@ -59,6 +61,7 @@ ht-degree: 0%
 
 *若要瞭解您擁有的計畫、授權型別或存取權，請聯絡您的Workfront管理員。
 
++++
 
 ## 先決條件
 
@@ -74,8 +77,6 @@ ht-degree: 0%
 連結資料夾的名稱會根據與其相關聯的Portfolio、方案、專案自動建立，且無法變更。 如果專案未與Portfolio或方案相關聯，則連結的資料夾將顯示專案名稱和建立日期。
 
 若要建立連結資料夾：
-
-
 
 1. 前往您想要資料夾的專案。
 1. 選取「**新增**」，然後前往管理員設定的Experience Manager整合。

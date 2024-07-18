@@ -6,9 +6,9 @@ description: 擁有檔案管理許可權的使用者可以將檔案移動到另�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 46039017-58b3-4e9d-8dcd-6e1f52d98d27
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 9aa6822c9c1ecade776d4c71b113c1afd997f40c
 workflow-type: tm+mt
-source-wordcount: '262'
+source-wordcount: '266'
 ht-degree: 0%
 
 ---
@@ -26,6 +26,8 @@ ht-degree: 0%
 * 檔案核准
 
 ## 存取需求
+
++++ 展開以檢視本文中功能的存取需求。
 
 您必須具備下列條件：
 
@@ -54,6 +56,8 @@ ht-degree: 0%
 
 &#42;若要瞭解您擁有的計畫、授權型別或存取權，請連絡您的Workfront管理員。
 
++++
+
 ## 移動檔案
 
 1. 前往包含檔案的專案、任務或問題，然後選取「**檔案**」。
@@ -66,4 +70,4 @@ ht-degree: 0%
 
 1. 按一下「**完成**」。
 
-您也可以從檔案詳細資訊頁面移動檔案。 如需詳細資訊，請參閱文章中的。
+您也可以從檔案詳細資訊頁面移動檔案。

@@ -6,9 +6,9 @@ description: 委派核准請求可讓您指派另一名使用者，在一段時�
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 01b76dd5-98cb-4f0d-97ff-7e665f843a9c
-source-git-commit: 45c0af640daa7bf0c4cb342e55a88a98a745cfc3
+source-git-commit: c6e3e3d8d4fd6b6916c8fd49983bc3572949acaa
 workflow-type: tm+mt
-source-wordcount: '1257'
+source-wordcount: '1262'
 ht-degree: 0%
 
 ---
@@ -35,6 +35,8 @@ ht-degree: 0%
 
 ## 存取需求
 
++++ 展開以檢視本文中功能的存取需求。
+
 您必須具有下列存取權才能執行本文中的步驟：
 
 <table style="table-layout:auto"> 
@@ -54,7 +56,9 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-&#42;若要瞭解您擁有的計畫或授權型別，請連絡您的Workfront管理員。
+若要瞭解您擁有的計畫或授權型別，請連絡您的Workfront管理員。
+
++++
 
 ## 瞭解受委派核准的使用者存取權
 
@@ -79,9 +83,7 @@ ht-degree: 0%
 
 ## 在首頁區域中委派核准請求
 
-* [將您的核准委派給其他使用者](#delegate-your-approvals-to-another-user)
-* [更新或停止核准委派](#update-or-stop-an-approval-delegation)
-* [檢視受委派的核准](#view-delegated-approvals)
+您可以從「首頁」區域委派核准請求。
 
 ### 將您的核准委派給其他使用者 {#delegate-your-approvals-to-another-user}
 

@@ -7,9 +7,9 @@ description: 您可以在檔案詳細資訊和摘要面板中檢視對應中繼�
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: cfad5855-033c-4a15-b5a2-7ff32ed65fe9
-source-git-commit: 8ecbca4d5d09b1f696f489148e960e0eeba2119e
+source-git-commit: b87839d6c6dbfe978a3e14ef4b448560742f95c3
 workflow-type: tm+mt
-source-wordcount: '364'
+source-wordcount: '375'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,8 @@ ht-degree: 0%
 您可以在檔案詳細資訊和摘要面板中檢視對應中繼資料的即時檢視。 從Workfront傳送資產至Experience Manager Assets或Assets Essentials時，會先對應中繼資料欄位。 如果您的Workfront管理員已啟用物件中繼資料同步，則欄位在任一應用程式中變更後仍會保持最新狀態。
 
 ## 存取需求
+
++++ 展開以檢視本文中功能的存取需求。
 
 您必須具備下列條件：
 
@@ -62,6 +64,7 @@ ht-degree: 0%
 
 *若要瞭解您擁有的計畫、授權型別或存取權，請聯絡您的Workfront管理員。
 
++++
 
 ## 先決條件
 
@@ -77,6 +80,7 @@ ht-degree: 0%
 1. 前往包含檔案的專案、任務或問題，然後選取「**檔案**」。
 1. 將滑鼠停留在您需要的檔案上，然後選取&#x200B;**檔案詳細資料**。
 1. 尋找並展開&#x200B;**中繼資料**&#x200B;區段。
+
    >[!NOTE]
    >
    >您無法編輯此節中的欄位。 它們是僅限檢視的。
@@ -91,6 +95,7 @@ ht-degree: 0%
 1. 前往包含檔案的專案、任務或問題，然後選取「**檔案**」。
 1. 尋找您需要的檔案。
 1. 按一下&#x200B;**摘要圖示** ![摘要圖示](assets/summary-panel-icon.png)，然後展開&#x200B;**中繼資料**&#x200B;區段。
+
    >[!NOTE]
    >
    >您無法編輯此節中的欄位。 它們是僅限檢視的。

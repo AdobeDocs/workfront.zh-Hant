@@ -6,9 +6,9 @@ description: 您可以出庫檔案，以防止其他使用者刪除檔案或上�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 15d9ea43-1cee-4cb1-9365-4374a291c090
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 9aa6822c9c1ecade776d4c71b113c1afd997f40c
 workflow-type: tm+mt
-source-wordcount: '673'
+source-wordcount: '684'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,8 @@ ht-degree: 0%
 您可以出庫檔案，以防止其他使用者刪除檔案或上傳檔案的新版本。 一次只能有一個使用者出庫檔案。 您可以簽出已上傳至Adobe Workfront的任何檔案，以及連結至協力廠商檔案提供者(Box、Dropbox、Google Drive、Webdam、Workfront DAM、SharePoint或任何其他自訂提供者)的檔案。 
 
 ## 存取需求
+
++++ 展開以檢視本文中功能的存取需求。
 
 您必須具有下列存取權才能執行本文中的步驟：
 
@@ -45,6 +47,8 @@ ht-degree: 0%
 </table>
 
 &#42;若要瞭解您擁有的計畫、授權型別或存取權，請連絡您的Workfront管理員。
+
++++
 
 ## 已取出檔案允許的動作
 

@@ -6,9 +6,9 @@ description: 您可以請求任何支援「檔案」之物件的檔案。
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 228b53ba-4a87-4edd-b478-501b216c4a1d
-source-git-commit: 73e6a62e4c4103d0a4dc7e3f58ddd68cbd145b8c
+source-git-commit: b87839d6c6dbfe978a3e14ef4b448560742f95c3
 workflow-type: tm+mt
-source-wordcount: '396'
+source-wordcount: '407'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,9 @@ ht-degree: 0%
 您可以請求任何支援「檔案」之物件的檔案。
 
 ## 存取需求
+
++++ 展開以檢視本文中功能的存取需求。
+
 
 您必須具備下列條件：
 
@@ -42,7 +45,9 @@ ht-degree: 0%
 
 &#42;若要瞭解您擁有的計畫、授權型別或存取權，請連絡您的Workfront管理員。
 
-## 要求檔案
++++
+
+## 請求檔案
 
 1. 移至您想要放置請求檔案的區域。
 1. 按一下「**檔案**」標籤。 

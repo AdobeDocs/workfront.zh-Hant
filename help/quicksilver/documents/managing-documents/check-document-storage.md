@@ -6,9 +6,9 @@ description: 雖然使用者可上傳至您的Workfront執行個體的個別檔�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: f5d1963e-b205-44b9-b2b6-b7de465c6977
-source-git-commit: 75c490ca4a85197f79ff59024725a51b19238496
+source-git-commit: 9aa6822c9c1ecade776d4c71b113c1afd997f40c
 workflow-type: tm+mt
-source-wordcount: '261'
+source-wordcount: '257'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,8 @@ ht-degree: 0%
 雖然使用者可上傳至您的Workfront執行個體的個別檔案型別和大小沒有限制，但您的Workfront計畫對Workfront執行個體使用的儲存空間總量有限制。 身為Adobe Workfront管理員，您可以從「設定」區域監控執行個體的檔案儲存。
 
 ## 存取需求
+
++++ 展開以檢視本文中功能的存取需求。
 
 您必須具備下列條件：
 
@@ -38,9 +40,12 @@ ht-degree: 0%
 
 &#42;若要瞭解您擁有的計畫、授權型別或存取權，請連絡您的Workfront管理員。
 
++++
+
 ## 檢查檔案儲存
 
-1. 按一下Adobe Workfront右上角的&#x200B;**主要功能表**&#x200B;圖示![](assets/main-menu-icon.png)，然後按一下&#x200B;**設定** ![](assets/gear-icon-settings.png)。
+{{step-1-to-setup}}
+
 1. 在左側面板中，按一下&#x200B;**系統** > **客戶資訊**。
 1. 在&#x200B;**基本資訊**&#x200B;區段中，尋找&#x200B;**儲存配額**。 在這裡，您可以檢視目前使用的儲存空間，以及Workfront計畫包含的總儲存空間。
 

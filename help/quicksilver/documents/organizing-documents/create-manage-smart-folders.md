@@ -6,9 +6,9 @@ description: 智慧型資料夾是用來管理專案、任務或問題之外的�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 62dfc6b9-72a4-4dd5-acd7-42269cd99b1b
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: b87839d6c6dbfe978a3e14ef4b448560742f95c3
 workflow-type: tm+mt
-source-wordcount: '553'
+source-wordcount: '564'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,8 @@ ht-degree: 0%
 第一次存取「檔案」區域時，預設有兩個智慧型資料夾可供使用：「所有檔案」和「最近」。 您可以編輯、重新命名或複製預設的智慧資料夾，但無法刪除它們。 您可以建立其他智慧資料夾，以符合其他資產管理需求。
 
 ## 存取需求
+
++++ 展開以檢視本文中功能的存取需求。
 
 您必須具有下列存取權才能執行本文中的步驟：
 
@@ -43,6 +45,8 @@ ht-degree: 0%
 </table>
 
 &#42;若要瞭解您擁有的計畫、授權型別或存取權，請連絡您的Workfront管理員。
+
++++
 
 ## 顯示智慧資料夾 
 
@@ -88,7 +92,7 @@ ht-degree: 0%
 
 1. 進行變更，然後按一下[儲存資料夾]。****
 
-## 刪除智慧資料夾 
+## 刪除智慧資料夾
 
 1. 移至包含您要刪除之智慧資料夾的&#x200B;**檔案**&#x200B;區域。
 1. 在&#x200B;**資料夾**&#x200B;欄中，按一下您要刪除的智慧資料夾旁的下拉箭頭。

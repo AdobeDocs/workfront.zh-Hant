@@ -6,9 +6,9 @@ description: 第一次從任何服務上傳檔案時，Adobe Workfront會向使�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: fce8e8aa-fc48-49e1-a71d-c3933a179cf5
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: b87839d6c6dbfe978a3e14ef4b448560742f95c3
 workflow-type: tm+mt
-source-wordcount: '410'
+source-wordcount: '421'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,8 @@ ht-degree: 0%
 由於檔案服務是允許連結至Workfront的許可權，Workfront無法移除檔案服務授與的許可權。 您必須從檔案服務應用程式內移除許可權，或者您必須致電我們的支援團隊，以從我們的伺服器移除此連結。
 
 ## 存取需求
+
++++ 展開以檢視本文中功能的存取需求。
 
 您必須具備下列條件：
 
@@ -45,6 +47,8 @@ ht-degree: 0%
 </table>
 
 &#42;若要瞭解您擁有的計畫、授權型別或存取權，請連絡您的Workfront管理員。
+
++++
 
 ## 移除Workfront與Dropbox之間的連結
 

@@ -6,9 +6,9 @@ description: 在Experience Manager Assets Essentials整合中使用工作流程
 author: Courtney, Becky
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 4c1e5ec1-3fd1-4527-ba8a-9db1a2350f69
-source-git-commit: 821e31b8c6023a9ec4e017cc5548bb9fd930983c
+source-git-commit: b87839d6c6dbfe978a3e14ef4b448560742f95c3
 workflow-type: tm+mt
-source-wordcount: '1042'
+source-wordcount: '1053'
 ht-degree: 0%
 
 ---
@@ -23,6 +23,8 @@ ht-degree: 0%
 
 
 ## 存取需求
+
++++ 展開以檢視本文中功能的存取需求。
 
 您必須具備下列條件：
 
@@ -62,6 +64,8 @@ ht-degree: 0%
    </td>
   </tr>
 </table>
+
++++
 
 ## 先決條件
 
@@ -145,7 +149,6 @@ ht-degree: 0%
 >由於連結資料夾是在建立專案時建立的，因此編輯現有專案上的連結資料夾工作流程會無效。 在建立專案時按預期編輯這些值。
 
 若要編輯連結資料夾的工作流程：
-
 
 1. 視需要開啟或關閉&#x200B;**[!UICONTROL 建立連結資料夾]**。 如果您將其開啟，則可以編輯連結的資料夾組態。
 
