@@ -74,7 +74,7 @@ Linked to Converting Issues.-->
 
    <!--
 <li class="preview" data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="#work-on-it" class="MCXref xref">處理它</a> </li>
-  —&gt;
+  -->
 
 * [[!UICONTROL 存取]](#access)
 
@@ -118,7 +118,7 @@ Linked to Converting Issues.-->
       </ul> </td> 
     </tr> 
     <tr> 
-    <td role="rowheader" [!UICONTROL>將問題轉換為任務時]</td> 
+    <td role="rowheader">[!UICONTROL 將問題轉換為任務時]</td> 
     <td> <p>本節中的設定會決定從問題轉換為任務期間會發生什麼情況：</p> 
       <ul> 
       <li> <p><strong>[！UICONTROL保留原始問題並將其解決方案連結至任務]</strong>：當您轉換問題時，在任務完成之前，它仍會被視為問題。 任務完成後，問題的狀態會自動變更為[！UICONTROL已關閉]。 取消選取時，問題即被刪除。</p> <p><b>附註</b>：  <p>無論此設定的狀態為何，沒有存取許可權或刪除問題的使用者在轉換問題時都將無法刪除問題。 如需問題的存取和許可權資訊，請參閱：</p> 
