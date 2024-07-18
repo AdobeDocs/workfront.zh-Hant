@@ -7,9 +7,9 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 08e0bd72-5979-449e-9fb2-c4d45f51119e
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
 workflow-type: tm+mt
-source-wordcount: '725'
+source-wordcount: '715'
 ht-degree: 0%
 
 ---
@@ -93,8 +93,6 @@ ht-degree: 0%
 您現在可以透過授與個別使用者、團隊、角色、群組或公司的存取權來控制誰可存取自訂表格。 
 
 在此變更之前，您只能將存取權授予群組。
-
-如需詳細資訊，請參閱[建立或編輯自訂表格](../../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)
 
 ## 與Adobe Creative Cloud整合
 

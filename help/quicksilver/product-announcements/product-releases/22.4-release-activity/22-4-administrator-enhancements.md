@@ -6,9 +6,9 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 1e62e7b3-14b6-4669-b3e1-ac6507343479
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: 0876d4d47aad701d5ffadc88868217ebae7e4790
 workflow-type: tm+mt
-source-wordcount: '880'
+source-wordcount: '869'
 ht-degree: 0%
 
 ---
@@ -102,8 +102,6 @@ ht-degree: 0%
 >此功能於22.3發行時間範圍內首次引入預覽環境。 它會在第22.4發行版本中發行至生產環境。
 
 編輯自訂欄位的計算現在更容易，並在計算中直接指示有用的錯誤資訊。 當您在自訂表單中建立計算欄位時，錯誤會以粉紅色反白顯示。 當您將滑鼠停留在醒目提示的部分上時，會顯示工具提示來說明問題所在。
-
-如需詳細資訊，請參閱[將計算資料新增至自訂表單](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md)。
 
 [觀看此功能的影片示範。](https://video.tv.adobe.com/v/3412387/){target=_blank}
 

@@ -7,9 +7,9 @@ description: 將表單附加到物件後，您可以編輯自訂表單上的資�
 author: Alina
 feature: Get Started with Workfront
 exl-id: c2b6afde-91a8-4e17-8e1a-3428b48e500a
-source-git-commit: 456310e460bae44183de390efc4be919fda3f36d
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
-source-wordcount: '1034'
+source-wordcount: '1036'
 ht-degree: 0%
 
 ---
@@ -43,7 +43,7 @@ ht-degree: 0%
    <td> 
     <ul> 
      <li> <p>針對您要編輯自訂表單的物件，使用Contribute或更高的許可權</p> </li> 
-     <li>檢視您要編輯之欄位的許可權。 如需自訂欄位許可權共用的相關資訊，請參閱<a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/configure-sharing-for-a-custom-field.md" class="MCXref xref">設定自訂欄位和Widget的共用</a>。</li> 
+     <li>檢視您要編輯之欄位的許可權。 如需自訂欄位許可權共用的相關資訊，請參閱<a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/manage-a-form/share-custom-fields.md" class="MCXref xref">設定自訂欄位和Widget的共用</a>。</li> 
      <li> <p>編輯表單上要編輯的欄位所在區段的許可權</p> </li> 
     </ul> <p>如需請求物件的其他存取許可權的相關資訊，請參閱<a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">請求物件</a>的存取許可權。</p> </td> 
   </tr> 
@@ -54,7 +54,7 @@ ht-degree: 0%
 
 ## 先決條件
 
-* 您的Workfront管理員或對自訂表單具有管理存取權的計畫使用者必須在您的環境中建立自訂表單。 如需詳細資訊，請參閱[建立或編輯自訂表格](../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)。
+* 您的Workfront管理員或對自訂表單具有管理存取權的計畫使用者必須在您的環境中建立自訂表單。 如需詳細資訊，請參閱[使用表單設計工具](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)設計表單。
 * 您必須將自訂表單附加至物件。
 
   如需如何將自訂表單套用至物件的詳細資訊，請參閱[新增自訂表單至物件](../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md)。
@@ -91,7 +91,7 @@ ht-degree: 0%
    * 只有當建立表單的使用者將文字欄位設定為「文字欄位」並輸入格式欄位時，您才能設定文字欄位的格式（粗體、斜體或底線）。 無法格式化單行文字欄位和段落文字欄位。
    * 只有在建立表單的使用者在建立欄位時已包含日期欄位型別中的時間，您才能更新該時間。
 
-   如需所有欄位型別的相關資訊，請參閱[建立或編輯自訂表格](../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)。
+   如需有關所有欄位型別的資訊，請參閱[使用表單設計工具設計表單](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。
 
 1. 按一下「**儲存變更**」。
 

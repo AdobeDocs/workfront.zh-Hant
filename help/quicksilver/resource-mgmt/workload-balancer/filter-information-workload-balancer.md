@@ -6,9 +6,9 @@ description: 為了有效地找到工作專案並專注於您管理的使用者�
 author: Lisa
 feature: Resource Management
 exl-id: f8ffb40e-4e71-45fe-bcae-801d45d75a21
-source-git-commit: c3cb97a36c29b90bbc9d8438d8811cc23266d894
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
-source-wordcount: '2496'
+source-wordcount: '2497'
 ht-degree: 0%
 
 ---
@@ -183,7 +183,7 @@ ht-degree: 0%
 
       >[!IMPORTANT]
       >
-      >當參考自訂欄位時，您必須輸入欄位名稱，而不是欄位標籤。 欄位標籤會顯示在附加至物件的自訂表單上。 如需標籤與自訂欄位名稱之間差異的詳細資訊，請參閱[建立或編輯自訂表單](../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)。
+      >當參考自訂欄位時，您必須輸入欄位名稱，而不是欄位標籤。 欄位標籤會顯示在附加至物件的自訂表單上。 如需標籤與自訂欄位名稱之間差異的詳細資訊，請參閱[使用表單設計工具設計表單](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。
 
    1. （視條件而定）如果您按一下&#x200B;**瀏覽欄位**，請在&#x200B;**搜尋**&#x200B;欄位中輸入欄位名稱，並在該欄位顯示在清單中時選取它。
 

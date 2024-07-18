@@ -2,9 +2,9 @@
 title: 新增顯示邏輯和略過邏輯至自訂表單
 description: 新增顯示邏輯和略過邏輯至自訂表單
 draft: Probably
-source-git-commit: c0722924d6621b382050a10e9aac549fc1204d72
+source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
 workflow-type: tm+mt
-source-wordcount: '1505'
+source-wordcount: '1475'
 ht-degree: 0%
 
 ---
@@ -38,7 +38,6 @@ ht-degree: 0%
   如果您新增許多這位使用者不需要看到的有關標誌、網站更新和小冊子的其他欄位，這會特別有用。
 跳過邏輯規則只能套用至自訂欄位，不能套用至Widget或區段。
 
-如需自訂表單中自訂欄位和Widget的相關資訊，請參閱[新增自訂欄位至自訂表單](../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md)和[新增或編輯自訂表單中的資產Widget](../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md)。
 
 ## 存取需求
 

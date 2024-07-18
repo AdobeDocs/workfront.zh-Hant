@@ -3,24 +3,24 @@ user-type: administrator
 product-area: system-administration
 keywords: 存取，共用，自訂，表單
 navigation-topic: create-and-manage-custom-forms
-title: 存取您要使用的共用自訂欄位
+title: 存取共用的自訂欄位
 description: 當某人共用具有「檢視」或「管理」存取權的自訂欄位時，可以設定數個其他設定以進一步定義該存取權。 如果您是欄位的收件者，這些設定會影響您可以對欄位執行的操作。 檢視欄位時，您可能會看到下列內容。
-author: Caroline
+author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 36172f4c-fe10-49d2-b10b-abb0cfce62c1
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
-source-wordcount: '400'
+source-wordcount: '395'
 ht-degree: 1%
 
 ---
 
-# 存取您要使用的共用自訂欄位
+# 存取共用的自訂欄位
 
 當某人共用具有「檢視」或「管理」存取權的自訂欄位時，可以設定數個其他設定以進一步定義該存取權。 如果您是欄位的收件者，這些設定會影響您可以對欄位執行的操作。 檢視欄位時，您可能會看到下列內容。
 
-如需有關使用者在共用自訂表單時如何設定共用設定的詳細資訊，請參閱[設定自訂欄位和Widget的共用](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/configure-sharing-for-a-custom-field.md)。
+如需有關使用者在共用自訂表單時如何設定共用設定的詳細資訊，請參閱[設定表單中自訂欄位和Widget的共用](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/manage-a-form/share-custom-fields.md)。
 
 <table style="table-layout:auto"> 
  <col> 

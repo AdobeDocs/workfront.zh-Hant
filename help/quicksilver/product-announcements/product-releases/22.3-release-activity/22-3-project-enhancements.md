@@ -6,9 +6,9 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 1235ad4a-72dd-45c5-8513-d073b3e9a2da
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: 0876d4d47aad701d5ffadc88868217ebae7e4790
 workflow-type: tm+mt
-source-wordcount: '1562'
+source-wordcount: '1538'
 ht-degree: 0%
 
 ---
@@ -73,8 +73,6 @@ ht-degree: 0%
 ## 自訂欄位計算的新語法
 
 為了準備好日後的增強功能，協助您將計算新增至自訂表單，我們已將您新增至計算的參考欄位語法標準化。 此新語法使用起來很容易，因為當您開始輸入欄位名稱並選取它時，系統會為您輸入它。
-
-如需詳細資訊，請參閱[將計算資料新增至自訂表單](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md)文章中的「為您計算的自訂欄位建立計算」一節。
 
 ## 當有兩位具有相同角色的使用者參與核准程式時，請保留精確資訊
 

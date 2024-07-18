@@ -8,9 +8,9 @@ author: Luke
 feature: Product Announcements, System Setup and Administration
 recommendations: noDisplay, noCatalog
 exl-id: 7ae5a04a-a9bc-4a85-8651-2b912f7fd7e4
-source-git-commit: ccba3a3d7c0cac50dbd29cae677b076811904a91
+source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
 workflow-type: tm+mt
-source-wordcount: '1531'
+source-wordcount: '1521'
 ht-degree: 0%
 
 ---
@@ -173,6 +173,4 @@ ht-degree: 0%
 ## 管理員的新增功能：自訂表單欄位中有更多文字格式選項
 
 當使用者在自訂表單欄位中輸入允許格式化的內容時，他們現在可以使用專案符號、編號、超連結和區塊引號，以及粗體、斜體和底線來組織文字。
-
-如需詳細資訊，請參閱[建立或編輯自訂表格](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)。
 

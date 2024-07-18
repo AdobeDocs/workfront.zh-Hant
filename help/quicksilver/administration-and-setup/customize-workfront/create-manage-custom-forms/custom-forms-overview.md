@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: b04ed2e8-c60e-4978-8a9d-b9e087987ef4
-source-git-commit: 286a5b40baced3bfd3e06a2b3f1c143839808018
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
-source-wordcount: '355'
-ht-degree: 7%
+source-wordcount: '366'
+ht-degree: 11%
 
 ---
 
@@ -29,10 +29,11 @@ ht-degree: 7%
 
 ## 如何建立自訂表格
 
-有兩個選項可在[!DNL Workfront]中建立自訂表格。 您可以使用舊版自訂表單產生器或新的表單設計工具：
+表單設計工具有一個畫布樣式的工作區，可讓您同時檢視欄位、畫布和欄位設定。 它也可讓您在設計表單時拖放區段內的欄位。
 
-* [舊版自訂表單產生器](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/use-the-custom-form-builder.md)
-* [表單設計工具](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/form-designer-toc.md)
+如需詳細資訊，請參閱[使用表單設計工具](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)設計表單。
+
+![範例表單設計工具](assets/form-designer-example.png)
 
 ## 自訂欄位和小工具
 
@@ -42,15 +43,17 @@ Workfront為每種物件型別提供許多內建欄位。
 
 您可以在Workfront中將下列型別的自訂欄位新增至自訂表單：
 
-* 表單設計工具中的單行文字欄位或單行文字
-* 表單設計工具中的段落文字欄位或段落文字
-* 在表單設計工具中有格式化的文字欄位或有格式化的文字
+* 單行文字
+* 段落文字
+* 含格式的文字
 * 下拉
-* 外部查詢 — 僅適用於表單設計工具
+* 多選下拉清單
+* 外部查詢
+* 原生欄位
 * 自動提示
 * 已計算
-* 表單設計工具中的日期或日期欄位
-* 核取方塊
+* 日期欄位
+* 核取方塊群組
 * 單選按鈕
 * 描述文字
 * 分節符號
@@ -58,6 +61,10 @@ Workfront為每種物件型別提供許多內建欄位。
 * 影像
 * PDF
 * 影片
+
+>[!NOTE]
+>
+>若要追蹤更新摘要中的欄位變更，請前往「設定>介面>更新摘要」 。 如需詳細資訊，請參閱[設定系統更新](/help/quicksilver/administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md)。
 
 ## 使用者可附加自訂表單的物件
 
@@ -81,5 +88,4 @@ Workfront為每種物件型別提供許多內建欄位。
 如需將自訂表單附加至物件的詳細資訊，請參閱[將自訂表單新增至物件](../../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md)。
 
 如需有關轉換物件時自訂表單所發生情況的資訊，請參閱[轉換物件時傳輸自訂表單資料](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/transfer-custom-form-data-larger-item.md)。
-
 

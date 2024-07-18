@@ -7,9 +7,9 @@ description: 只有在您建立其他計算欄位(擷取多選自訂欄位中所
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: cda77319-dce6-409d-8f59-53838820cafb
-source-git-commit: a2f0ef565b0f0dbcfec7f3f5b5fece4c7b4b1ec6
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
-source-wordcount: '1022'
+source-wordcount: '1024'
 ht-degree: 0%
 
 ---
@@ -86,7 +86,7 @@ ht-degree: 0%
 若要建置參照多選自訂欄位的計算欄位，您必須具備下列先決條件：
 
 * 自訂表單中的多選自訂欄位。\
-  如需有關建立自訂表單及新增自訂欄位的資訊，請參閱文章[建立或編輯自訂表單](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)。
+  如需建立自訂表單及新增自訂欄位的相關資訊，請參閱文章[使用表單設計工具](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)設計表單。
 
 * 具有附加到物件的多選自訂欄位的自訂表單。
 * 每個物件的多選自訂欄位值。
@@ -95,7 +95,7 @@ ht-degree: 0%
 
 1. 建立自訂表單或編輯現有表單。
 
-   如需建立自訂表單的相關資訊，請參閱[建立或編輯自訂表單](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)。
+   如需建立自訂表單的相關資訊，請參閱[使用表單設計工具設計表單](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。
 
 1. 選取您計畫與自訂表單搭配使用的一或多個物件。
 1. 按一下&#x200B;**新增欄位**，然後按&#x200B;**計算**，將多重選取自訂欄位新增至表單。

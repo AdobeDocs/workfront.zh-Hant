@@ -6,9 +6,9 @@ description: 當物件顯示在清單或報表中時，您可以內嵌編輯物�
 feature: Get Started with Workfront
 author: Lisa
 exl-id: a94b5aaf-71de-4fcd-946b-459ca3edf7e4
-source-git-commit: f0912e4ef29d682ae3e6dd0e543b8e77fb7f29b6
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
-source-wordcount: '746'
+source-wordcount: '747'
 ht-degree: 0%
 
 ---
@@ -88,8 +88,8 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >如果自訂欄位已設定為允許格式化，則可在內聯編輯更新清單中的欄位時以粗體、斜體或底線文字顯示。\
-   >如需設定自訂欄位格式的相關資訊，請參閱[建立或編輯自訂表單](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)。\
+   >如果自訂欄位已設定為允許格式化，則可在內聯編輯更新清單中的欄位時以粗體、斜體或底線文字顯示。
+   >如需設定自訂欄位格式的相關資訊，請參閱[使用表單設計工具設計表單](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。
    >如需更新清單的相關資訊，請參閱[開始使用 [!DNL Adobe Workfront]](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md)中的清單一文中的「更新清單和舊版清單的差異」一節。
 
 1. 按下[!UICONTROL Tab]以移至下一個可編輯的儲存格。

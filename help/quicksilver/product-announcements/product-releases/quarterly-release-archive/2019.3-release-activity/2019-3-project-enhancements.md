@@ -7,9 +7,9 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 127d695c-74e4-45f9-b5f6-55c1d05935cf
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
 workflow-type: tm+mt
-source-wordcount: '1369'
+source-wordcount: '1340'
 ht-degree: 0%
 
 ---
@@ -29,8 +29,6 @@ ht-degree: 0%
 或者，如果您已建立「單行文字欄位」，您可以將其變更為「段落文字欄位」。 這兩種欄位顯示型別可以互換。
 
 之前，若要變更自訂欄位的顯示型別，您必須建立新欄位並刪除舊欄位。 這需要傳輸資料，而這通常很耗時。
-
-如需詳細資訊，請參閱文章[建立或編輯自訂表單](../../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)中的[建立或編輯自訂表單](../../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#create)
 
 >[!NOTE]
 >
@@ -186,8 +184,6 @@ ht-degree: 0%
 我們已在自訂表單產生器中建立一個名為「自動提示」的新欄位型別。 此欄位可讓您將代表物件的欄位新增至自訂表單。 目前，使用者物件已啟用自動提示功能，未來將推出其他物件。
 
 以前，管理員必須在自訂表單下拉式選單中手動將使用者維持為個別選項。
-
-如需詳細資訊，請參閱[建立或編輯自訂表格](../../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)。
 
 >[!NOTE]
 >

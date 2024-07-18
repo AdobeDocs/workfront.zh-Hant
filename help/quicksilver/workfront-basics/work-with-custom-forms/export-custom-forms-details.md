@@ -5,7 +5,7 @@ author: Alina
 draft: Probably
 feature: Get Started with Workfront
 exl-id: 4dc32da0-9680-4b7f-a959-d4a0652618c5
-source-git-commit: 1670edf153e57152e51adcfbda052eb74541d931
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
 source-wordcount: '598'
 ht-degree: 1%
@@ -72,7 +72,7 @@ ht-degree: 1%
 
    具有附加自訂表單和編輯表單上資訊的正確存取權。
 
-如需建立自訂表單的相關資訊，請參閱[建立或編輯自訂表單](../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)。
+如需建立自訂表單的相關資訊，請參閱[使用表單設計工具設計表單](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。
 
 如需將表單附加至物件的相關資訊，請參閱[將自訂表單新增至物件](../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md)。
 
@@ -102,7 +102,7 @@ ht-degree: 1%
    >   * 當您的群組或Workfront管理員取消選取總覽區域中的所有欄位，並且物件有附加的自訂表單時，總覽區段不顯示。
    >   * 當您的群組或Workfront管理員取消選取總覽區域中的所有欄位，並且物件沒有附加自訂表單時，匯出下拉選單不可見。
    >   * 當物件沒有附加自訂表單時，您只能匯出概述區域。
-   >   * 邏輯落後且在表單上不可見的自訂欄位不會匯出。 如需將邏輯新增至自訂表單的相關資訊，請參閱[新增顯示邏輯並略過邏輯至自訂表單](../../administration-and-setup/customize-workfront/create-manage-custom-forms/display-or-skip-logic-custom-form.md)。
+   >   * 邏輯落後且在表單上不可見的自訂欄位不會匯出。 如需將邏輯新增至自訂表單的相關資訊，請參閱[新增顯示邏輯並略過邏輯至表單](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/display-skip-logic-form-designer.md)。
    >   
    >
 

@@ -6,9 +6,9 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9232e204-6813-40ec-b1ad-ae2c0b9e8cdc
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
 workflow-type: tm+mt
-source-wordcount: '200'
+source-wordcount: '180'
 ht-degree: 0%
 
 ---
@@ -26,8 +26,6 @@ ht-degree: 0%
 ## Workfront應用程式上的自訂表單支援RTF文字
 
 您現在可以在Workfront行動應用程式的自訂表單文字欄位中使用RTF格式。
-
-如需有關如何使用文字欄位建立自訂表單的詳細資訊，請參閱[建立或編輯自訂表單](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)。
 
 ## SSO使用者現在可以使用面容ID或指紋技術重新登入Workfront應用程式
 

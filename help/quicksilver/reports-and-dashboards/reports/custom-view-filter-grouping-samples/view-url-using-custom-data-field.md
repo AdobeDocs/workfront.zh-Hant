@@ -7,9 +7,9 @@ description: 您可以在任務檢視中使用名為「自訂URL」的計算自�
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: 5e402fed-71ce-438a-8da9-8f8d37550ea8
-source-git-commit: 661f925b4e485069122ef4278b2914d206387974
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
-source-wordcount: '658'
+source-wordcount: '655'
 ht-degree: 0%
 
 ---
@@ -60,7 +60,7 @@ ht-degree: 0%
 
 ## 建立「自訂URL」計算自訂欄位
 
-如需有關建立計算自訂欄位的資訊，請參閱文章[將計算資料新增至自訂表單](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md)。
+如需建立計算自訂欄位的詳細資訊，請參閱[新增計算欄位至表單](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md)。
 
 如果您有建立自訂表單的存取權，可以為稱為「自訂URL」的任務建立計算自訂欄位。 此欄位直接連結到&#x200B;**任務詳細資料**&#x200B;標籤內的&#x200B;**概觀**&#x200B;子標籤。
 

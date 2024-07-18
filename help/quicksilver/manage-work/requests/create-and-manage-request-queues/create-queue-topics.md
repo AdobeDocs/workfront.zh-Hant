@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management, Requests
 role: User, Admin
 exl-id: 65a74698-011f-4caa-9739-d7510faeb66f
-source-git-commit: 43afa8136e51332a0970b01fff36113d5bf42294
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
-source-wordcount: '846'
+source-wordcount: '848'
 ht-degree: 2%
 
 ---
@@ -93,7 +93,7 @@ ht-degree: 2%
 
    * [建立路由規則](../../../manage-work/requests/create-and-manage-request-queues/create-routing-rules.md)
    * [建立主題群組](../../../manage-work/requests/create-and-manage-request-queues/create-topic-groups.md)
-   * [建立或編輯自訂表單](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)
+   * [使用表單設計工具設計表單](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)
 
 1. 移至您選擇啟用為「說明要求佇列」的專案，以及您要建立新佇列主題的位置。\
    如需如何將專案指定為說明要求佇列的詳細資訊，請參閱[建立要求佇列](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md)。
@@ -128,7 +128,7 @@ ht-degree: 2%
      </tr> 
      <tr> 
       <td role="rowheader"><strong>自訂表單</strong> </td> 
-      <td>選取您要與佇列主題關聯的任何自訂表單。 您必須先建立問題的自訂表單，然後才能將其與佇列主題相關聯。 如需建立自訂表單的相關資訊，請參閱<a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref">建立或編輯自訂表單</a>。</td> 
+      <td>選取您要與佇列主題關聯的任何自訂表單。 您必須先建立問題的自訂表單，然後才能將其與佇列主題相關聯。 如需建立自訂表單的相關資訊，請參閱<a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md">使用表單設計工具設計表單</a>。</td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>預設核准</strong></td> 

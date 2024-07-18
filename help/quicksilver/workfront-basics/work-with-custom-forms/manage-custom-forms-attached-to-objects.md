@@ -6,7 +6,7 @@ description: 您可以更新附加至一個物件的自訂表單的顯示順序�
 author: Alina
 feature: Get Started with Workfront
 exl-id: e5570a09-32cb-43e3-9c1d-4421db42fa24
-source-git-commit: 78878fa3578e4f3a33baec3806298282d3909d8d
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
 source-wordcount: '1109'
 ht-degree: 0%
@@ -50,7 +50,7 @@ ht-degree: 0%
 
 ## 先決條件
 
-* 您的Workfront管理員或對自訂表單具有管理存取權的計畫使用者必須在您的環境中建立自訂表單。 如需詳細資訊，請參閱[建立或編輯自訂表格](../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)。
+* 您的Workfront管理員或對自訂表單具有管理存取權的計畫使用者必須在您的環境中建立自訂表單。 如需詳細資訊，請參閱[使用表單設計工具](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)設計表單。
 * 您必須將自訂表單附加至物件。
 
   如需如何將自訂表單套用至物件的詳細資訊，請參閱[新增自訂表單至物件](../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md)。
@@ -92,7 +92,7 @@ ht-degree: 0%
 
   對於附加到相同物件的不同表單上的相同欄位，不能有不同的值。
 
-* 如果在兩個不同的物件上有相同的計算欄位，它們的計算必須相同，以避免錯誤。 如需將計算欄位新增至包含多個表單的自訂表單的相關資訊，請參閱[將計算資料新增至自訂表單](../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md) 。
+* 如果在兩個不同的物件上有相同的計算欄位，它們的計算必須相同，以避免錯誤。 如需將計算欄位新增至包含多個表單的自訂表單的相關資訊，請參閱[將計算欄位新增至表單](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md)。
 
 ## 大量編輯物件時管理多個自訂表單
 

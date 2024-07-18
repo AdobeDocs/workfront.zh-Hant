@@ -7,9 +7,9 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: ed7488f1-2076-4160-97f3-a3da25cccd0f
-source-git-commit: e1bf5fbc7dc25bf8ce472b21b9a0906530f82cf0
+source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
 workflow-type: tm+mt
-source-wordcount: '627'
+source-wordcount: '587'
 ht-degree: 0%
 
 ---
@@ -58,7 +58,6 @@ ht-degree: 0%
      <strong>自訂表單中自動提示欄位可用的其他物件型別</strong> 
      <p>現在，當您建立「預先輸入」自訂欄位時，可以將下列物件型別與該欄位建立關聯：使用者、公司、群組、工作角色、Portfolio、方案、專案和範本。</p> 
      <p>之前，您只能將使用者物件型別與自動提示自訂欄位建立關聯。</p> 
-     <p>如需詳細資訊，請參閱文章<a href="../../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref" xrefformat="{para}">建立或編輯自訂表單</a>中的<a href="../../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#create" class="MCXref xref" xrefformat="{para}">建立或編輯自訂表單</a>小節。</p> 
     </div> </td> 
   </tr> 
   <tr> 
@@ -75,7 +74,6 @@ ht-degree: 0%
      <p>例如，如果您已建立「核取方塊」欄位，則可將其變更為「下拉式清單」欄位或「選項按鈕」欄位。 這三種欄位顯示型別可以互換。</p> 
      <p>或者，如果您已建立「單行文字欄位」，您可以將其變更為「段落文字欄位」。 這兩種欄位顯示型別可以互換。</p> 
      <p>之前，若要變更自訂欄位的顯示型別，您必須建立新欄位並刪除舊欄位。 這需要傳輸資料，而這通常很耗時。</p> 
-     <p>如需詳細資訊，請參閱文章<a href="../../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref" xrefformat="{para}">建立或編輯自訂表單</a>中的<a href="../../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#create" class="MCXref xref" xrefformat="{para}">建立或編輯自訂表單</a></p> 
     </div> </td> 
   </tr> 
   <tr> 

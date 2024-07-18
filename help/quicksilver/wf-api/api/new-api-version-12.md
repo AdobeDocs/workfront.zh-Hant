@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 1ffba3b5-ab24-4ca2-a1ef-f7e5b77e776c
-source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
+source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
 workflow-type: tm+mt
-source-wordcount: '2475'
+source-wordcount: '2422'
 ht-degree: 1%
 
 ---
@@ -176,8 +176,8 @@ AccessLevelPermissions物件代表存取、建立或修改Workfront物件的特�
      <li> <p><strong>coreAction</strong> </p> <p>已新增下列可能值：</p> 
       <ul> 
        <li> <p>PLANNED_HOURS_CONTOURING </p> <p>具有包含此許可權的存取層級的使用者可以在工作負載平衡器中更新規劃時數。</p> <p>如需詳細資訊，請參閱<a href="../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md" class="MCXref xref">在工作負載平衡器</a>中管理使用者指派時<a href="../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md#update" class="MCXref xref">更新任務計畫時數</a>。</p> </li> 
-       <li> <p>ADD_TO_CUSTOM_FORMS </p> <p>具有包含此許可權的存取層級的使用者可以將欄位新增到自訂表單。</p> <p>如需詳細資訊，請參閱<a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref">建立或編輯自訂表單</a>中的<a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#add2" class="MCXref xref"></a>。</p> </li> 
-       <li> <p>EDIT_SYSTEM範圍 </p> <p>具有包含此許可權的存取層級的使用者可以在系統範圍內以刪除存取權共用自訂欄位。</p> <p>如需詳細資訊，請參閱<a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/configure-sharing-for-a-custom-field.md" class="MCXref xref">設定自訂欄位和Widget的共用</a>。</p> </li> 
+       <li> <p>ADD_TO_CUSTOM_FORMS </p> <p>具有包含此許可權的存取層級的使用者可以將欄位新增到自訂表單。</p> <p>如需詳細資訊，請參閱<a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/create-and-manage-custom-forms.md" class="MCXref xref">建立或編輯自訂表格</a>。</p> </li> 
+       <li> <p>EDIT_SYSTEM範圍 </p> <p>具有包含此許可權的存取層級的使用者可以在系統範圍內以刪除存取權共用自訂欄位。</p> </li> 
       </ul> </li> 
      <li> <p><strong>forbiddenActions</strong> </p> <p>已新增下列可能值：</p> 
       <ul> 
@@ -247,8 +247,8 @@ AccessLevelPermissions物件代表存取、建立或修改Workfront物件的特�
      <li> <p style="font-weight: bold;">動作</p> <p>已新增下列可能值：</p> 
       <ul> 
        <li> <p>PLANNED_HOURS_CONTOURING </p> <p>具有包含此許可權的存取層級的使用者可以在工作負載平衡器中更新規劃時數。</p> <p>如需詳細資訊，請參閱<a href="../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md" class="MCXref xref">在工作負載平衡器</a>中管理使用者指派時<a href="../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md#update" class="MCXref xref">更新任務計畫時數</a>。</p> </li> 
-       <li> <p>ADD_TO_CUSTOM_FORMS </p> <p>具有包含此許可權的存取層級的使用者可以將欄位新增到自訂表單。</p> <p>如需詳細資訊，請參閱<a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref">建立或編輯自訂表單</a>中的<a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#add2" class="MCXref xref"></a>。</p> </li> 
-       <li> <p>EDIT_SYSTEM範圍 </p> <p>具有包含此許可權的存取層級的使用者可以在系統範圍內以刪除存取權共用自訂欄位。</p> <p>如需詳細資訊，請參閱<a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/configure-sharing-for-a-custom-field.md" class="MCXref xref">設定自訂欄位和Widget的共用</a>。</p> </li> 
+       <li> <p>ADD_TO_CUSTOM_FORMS </p> <p>具有包含此許可權的存取層級的使用者可以將欄位新增到自訂表單。</p> <p>如需詳細資訊，請參閱<a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/create-and-manage-custom-forms.md" class="MCXref xref">建立或編輯自訂表格</a>。</p> </li> 
+       <li> <p>EDIT_SYSTEM範圍 </p> <p>具有包含此許可權的存取層級的使用者可以在系統範圍內以刪除存取權共用自訂欄位。</p> </li> 
       </ul> </li> 
     </ul> </td> 
   </tr> 
@@ -270,8 +270,8 @@ AccessRule物件代表自訂存取層級中的規則集，可決定使用者如�
      <li><strong>coreAction</strong> <p>已新增下列可能值：</p> 
       <ul> 
        <li> <p>PLANNED_HOURS_CONTOURING </p> <p>具有包含此許可權的存取層級的使用者可以在工作負載平衡器中更新規劃時數。</p> <p>如需詳細資訊，請參閱<a href="../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md" class="MCXref xref">在工作負載平衡器</a>中管理使用者指派時<a href="../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md#update" class="MCXref xref">更新任務計畫時數</a>。</p> </li> 
-       <li> <p>ADD_TO_CUSTOM_FORMS </p> <p>具有包含此許可權的存取層級的使用者可以將欄位新增到自訂表單。</p> <p>如需詳細資訊，請參閱<a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref">建立或編輯自訂表單</a>中的<a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#add2" class="MCXref xref"></a>。</p> </li> 
-       <li> <p>EDIT_SYSTEM範圍 </p> <p>具有包含此許可權的存取層級的使用者可以在系統範圍內以刪除存取權共用自訂欄位。</p> <p>如需詳細資訊，請參閱<a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/configure-sharing-for-a-custom-field.md" class="MCXref xref">設定自訂欄位和Widget的共用</a>。</p> </li> 
+       <li> <p>ADD_TO_CUSTOM_FORMS </p> <p>具有包含此許可權的存取層級的使用者可以將欄位新增到自訂表單。</p> <p>如需詳細資訊，請參閱<a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/create-and-manage-custom-forms.md" class="MCXref xref">建立或編輯自訂表格</a>。</p> </li> 
+       <li> <p>EDIT_SYSTEM範圍 </p> <p>具有包含此許可權的存取層級的使用者可以在系統範圍內以刪除存取權共用自訂欄位。</p> </li> 
       </ul> </li> 
      <li> <p><strong>forbiddenActions</strong> </p> <p>已新增下列可能值：</p> 
       <ul> 
@@ -618,7 +618,7 @@ Parameter物件是自訂欄位。
 
 Parameter資源已新增可共用的標幟。
 
-如需自訂欄位的詳細資訊，請參閱[建立或編輯自訂表單](../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)中的[建立或編輯自訂表單](../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#create)。
+如需自訂欄位的詳細資訊，請參閱[建立或編輯自訂表單](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/create-and-manage-custom-forms.md)中的[建立或編輯自訂表單](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/create-and-manage-custom-forms.md)。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -725,9 +725,8 @@ QueueDef物件代表佇列，這是已發佈至服務檯區域的專案，可讓
      <li><strong>requestorCoreAction</strong> <p>已新增下列可能值：</p> 
       <ul> 
        <li> <p>PLANNED_HOURS_CONTOURING </p> <p>具有包含此許可權的存取層級的使用者可以在工作負載平衡器中更新規劃時數。</p> <p>如需詳細資訊，請參閱<a href="../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md" class="MCXref xref">在工作負載平衡器</a>中管理使用者指派時<a href="../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md#update" class="MCXref xref">更新任務計畫時數</a>。</p> </li> 
-       <li> <p>ADD_TO_CUSTOM_FORMS </p> <p>具有包含此許可權的存取層級的使用者可以將欄位新增到自訂表單。</p> <p>如需詳細資訊，請參閱<a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref">建立或編輯自訂表單</a>中的<a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#add2" class="MCXref xref"></a>。</p> </li> 
-       <li> <p>EDIT_SYSTEM範圍 </p> <p>具有包含此許可權的存取層級的使用者可以在系統範圍內以刪除存取權共用自訂欄位。</p> <p>如需詳細資訊，請參閱<a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/configure-sharing-for-a-custom-field.md" class="MCXref xref">設定自訂欄位和Widget的共用</a></p> </li> 
-      </ul> <li> <p><strong>requestorForbiddenActions</strong> </p> <p>已新增下列可能值：</p> 
+       <li> <p>ADD_TO_CUSTOM_FORMS </p> <p>具有包含此許可權的存取層級的使用者可以將欄位新增到自訂表單。</p> <p>如需詳細資訊，請參閱<a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/create-and-manage-custom-forms.md" class="MCXref xref">建立或編輯自訂表格</a>。</p> </li> 
+       <li> <p>EDIT_SYSTEM範圍 </p> <p>具有包含此許可權的存取層級的使用者可以在系統範圍內以刪除存取權共用自訂欄位。</p> </li>
        <ul> 
         <li> <p>PLANNED_HOURS_CONTOURING </p> </li> 
         <li> <p>ADD_TO_CUSTOM_FORMS </p> </li> 

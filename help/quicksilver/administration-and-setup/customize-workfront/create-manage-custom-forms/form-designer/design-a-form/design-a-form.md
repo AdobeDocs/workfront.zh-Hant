@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: 96653b1375afd49c09ea91cf3816107a302640d2
+source-git-commit: e52881a03f69d7c4d6a62dcdc9c6044f6f5dd016
 workflow-type: tm+mt
-source-wordcount: '6091'
+source-wordcount: '6101'
 ht-degree: 4%
 
 ---
@@ -71,7 +71,7 @@ ht-degree: 4%
    >
    >刪除自訂表單也會刪除與表單關聯的物件上的所有自訂資料。 已刪除的資料無法復原。 請考慮改為停用自訂表單 — 當停用您不再使用的自訂表單時，您可保留所有關聯的歷史資料。
    >
-   >如需詳細資訊，請參閱[刪除自訂表單上的物件型別](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/delete-object-type-on-a-custom-form.md)。
+   >如需詳細資訊，請參閱[從現有的自訂表單新增或刪除物件型別](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/manage-a-form/add-or-remove-objects-from-a-form.md)和[停用或重新啟用自訂表單](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/manage-a-form/activate-deactivate-form.md)。
 
 
 1. 接下來，您可以開始將欄位新增至自訂表單。 請參閱下列章節：

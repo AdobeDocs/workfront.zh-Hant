@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: cb709b2f-659e-4110-81ac-a1ef967d534c
-source-git-commit: bfaf566e556882078875649549c0dfadacd800b8
+source-git-commit: e52881a03f69d7c4d6a62dcdc9c6044f6f5dd016
 workflow-type: tm+mt
-source-wordcount: '2245'
+source-wordcount: '2246'
 ht-degree: 0%
 
 ---
@@ -209,7 +209,7 @@ ht-degree: 0%
        <p>如需資源集區的詳細資訊，請參閱<a href="../../../resource-mgmt/resource-planning/resource-pools/work-with-resource-pools.md" class="MCXref xref">資源集區概述</a>。</p> </li> 
        <li><b>每小時成本</b>：使用者每小時的成本金額。 </li> 
        <li><b>每小時計費</b>：使用者每小時的計費金額。</li> 
-       <li><b>自訂Forms</b>：將現有的使用者自訂表單與使用者建立關聯。 您必須先建立自訂表單，然後才能將其與使用者建立關聯。 清單中只會顯示作用中的自訂表單。 如需建立自訂表單的相關資訊，請參閱<a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref">建立或編輯自訂表單</a>。</li> 
+       <li><b>自訂Forms</b>：將現有的使用者自訂表單與使用者建立關聯。 您必須先建立自訂表單，然後才能將其與使用者建立關聯。 清單中只會顯示作用中的自訂表單。 如需建立自訂表單的相關資訊，請參閱<a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md">使用表單設計工具設計表單</a>。</li> 
        <li><b>註解</b>：在提供的欄位中輸入註解。 所有選取的使用者都會收到應用程式內通知以及包含您評論的電子郵件通知。 註解會顯示在使用者設定檔的更新索引標籤中。</li> 
        </ul> </td> 
      </tr> 

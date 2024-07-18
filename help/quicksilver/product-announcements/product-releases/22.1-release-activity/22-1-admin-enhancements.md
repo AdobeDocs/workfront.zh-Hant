@@ -6,9 +6,9 @@ draft: Probably
 feature: Product Announcements, System Setup and Administration
 recommendations: noDisplay, noCatalog
 exl-id: 63ff1334-aebe-4df4-a855-10011707808b
-source-git-commit: ccba3a3d7c0cac50dbd29cae677b076811904a91
+source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
 workflow-type: tm+mt
-source-wordcount: '1505'
+source-wordcount: '1452'
 ht-degree: 0%
 
 ---
@@ -57,8 +57,6 @@ For more information, see [Grant access to teams](../../../administration-and-se
 
 自訂Forms區域具有新外觀，可讓您與新Workfront體驗中的許多其他區域同步更新。
 
-如需建立自訂表單的相關資訊，請參閱[建立或編輯自訂表單](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)。
-
 ## 建立計算自訂欄位的多項增強功能
 
 現在，透過新計算編輯器中的這些新增內容，建立計算自訂欄位變得更加容易：
@@ -70,8 +68,6 @@ For more information, see [Grant access to teams](../../../administration-and-se
 * 您可以使用現有的物件來預覽計算結果，而不需離開計算編輯器。
 
 此外，在可自訂的「指示」中，將計算自訂欄位的文字暫留，您可以顯示或隱藏欄位的公式。 如果您認為填寫自訂表單的使用者不需要該資訊，這將很有用。
-
-如需建立計算自訂欄位的詳細資訊，請參閱[將計算資料新增至自訂表單](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md)。
 
 ## 檢視有關狀態和公司的稽核記錄資訊
 
@@ -108,8 +104,6 @@ For more information, see [Grant access to teams](../../../administration-and-se
 
 我們繼續讓您更輕鬆地在自訂表單中建立計算欄位。 現在，當您按一下「最大化」開啟新的「計算編輯器」時，您可以找到並選取所需的運算式和欄位。
 
-如需詳細資訊，請參閱[將計算資料新增至自訂表單](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md)。
-
 ## 群組可以設定自己的時程表和小時偏好設定
 
 >[!NOTE]
@@ -144,8 +138,6 @@ For more information, see [Grant access to teams](../../../administration-and-se
 ## 用於建立計算欄位的較大區域
 
 現在，在自訂表單中建立複雜的計算欄位變得更加容易。 按一下新的「最大化」按鈕，開啟一個大型編輯視窗以建立您的計算。 完成後，按一下「最小化」以繼續處理自訂表單。
-
-如需詳細資訊，請參閱[將計算資料新增至自訂表單](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md)。
 
 ## 新增自訂表單至群組
 

@@ -6,7 +6,7 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 46da311a-0e22-4def-9df8-e30b142c815d
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
 source-wordcount: '414'
 ht-degree: 0%
@@ -41,7 +41,7 @@ ht-degree: 0%
 
 * **變更描述性文字的大小**：您現在可以將小型、中型或大型指派給描述性文字欄位。 您也可以在相同列上與其他欄位搭配使用。 <span style="color: #ff0000;">變更描述性文字的大小已暫時延遲，但即將推出。</span></li>
 
-如需詳細資訊，請參閱[表單設計工具總覽](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/form-designer-overview.md)。
+如需詳細資訊，請參閱[自訂表格概觀](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/custom-forms-overview.md)。
 
 [觀看此功能的影片示範](https://video.tv.adobe.com/v/3416586/){target=_blank}
 

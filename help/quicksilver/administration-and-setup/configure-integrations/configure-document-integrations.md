@@ -8,9 +8,9 @@ author: Courtney, Becky
 feature: System Setup and Administration, Workfront Integrations and Apps, Digital Content and Documents
 role: Admin
 exl-id: cf5c4e3d-b45f-46cd-a938-22e412d1c491
-source-git-commit: e896d156854c6729e5ea0a82dcbc641fbfa9415e
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
-source-wordcount: '1117'
+source-wordcount: '1116'
 ht-degree: 1%
 
 ---
@@ -216,7 +216,7 @@ ht-degree: 1%
 您可以將相同的[!DNL Workfront]欄位對應到不同的[!DNL Workfront DAM]欄位，但您無法將相同的[!DNL Workfront DAM]欄位用於多個[!DNL Workfront]欄位。
 
 如果您必須設定多個[!DNL Workfront]欄位以匯出至一個[!DNL Workfront DAM]欄位，請先在[!DNL Workfront]中建立計算自訂欄位，以顯示物件的所有個別自訂欄位。 然後，將計算的[!DNL Workfront]欄位對應到一個[!DNL Workfront DAM]欄位。\
-如需有關計算自訂欄位的詳細資訊，請參閱[將計算資料新增至自訂表單](../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md)。
+如需有關計算自訂欄位的詳細資訊，請參閱[將計算欄位新增至表單](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md)。
 
 對應會影響任何使用者從[!DNL Workfront]上傳到[!UICONTROL Workfront] DAM的所有檔案。
 

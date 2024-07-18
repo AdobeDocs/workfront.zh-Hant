@@ -6,9 +6,9 @@ draft: Probably
 feature: Product Announcements, System Setup and Administration
 recommendations: noDisplay, noCatalog
 exl-id: 18f8f5ac-48a3-45fe-9bf0-12b4b402f85f
-source-git-commit: ccba3a3d7c0cac50dbd29cae677b076811904a91
+source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
 workflow-type: tm+mt
-source-wordcount: '367'
+source-wordcount: '334'
 ht-degree: 0%
 
 ---
@@ -48,8 +48,3 @@ Workfront管理員也可以（針對所有群組）執行這些操作。
 ## 管理員的新增功能：建立付費記錄自訂表單
 
 現在您可以建立付費記錄自訂表單，以改善使用者擷取付費資訊的方式。 使用者可以將自訂表單附加至計費記錄、填寫該記錄，然後執行在表單中包含資訊的報告。
-
-如需建立自訂表單的相關資訊，請參閱[建立或編輯自訂表單](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)。
-
-如需有關將付費記錄自訂表單附加到專案的資訊，請參閱[將自訂表單新增到物件](../../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md)。
-

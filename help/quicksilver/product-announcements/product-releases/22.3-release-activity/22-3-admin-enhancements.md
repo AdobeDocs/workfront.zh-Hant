@@ -6,9 +6,9 @@ draft: false
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 4607703a-d70e-432c-9fa2-bd43af5a870e
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
 workflow-type: tm+mt
-source-wordcount: '812'
+source-wordcount: '767'
 ht-degree: 0%
 
 ---
@@ -54,8 +54,6 @@ ht-degree: 0%
 
 我們持續協助您使用可新增的新資產小工具（例如影像和視訊），讓自訂表單更視覺化且資訊更豐富。 現在您可以將PDF檔案的連結新增至自訂表格。 當表單附加到物件時，使用物件的使用者可以從表單內檢視並與PDF互動。
 
-如需詳細資訊，請參閱[在自訂表單中新增或編輯影像或其他資產Widget](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md)。
-
 ## 自訂表單欄位計算編輯器顯示錯誤資訊
 
 >[!NOTE]
@@ -63,8 +61,6 @@ ht-degree: 0%
 >此功能暫時無法使用。 當此功能可用時，將會更新此頁面。
 
 編輯自訂欄位的計算現在更容易，並在計算中直接指示有用的錯誤資訊。 當您在自訂表單中建立計算欄位時，錯誤會以粉紅色反白顯示。 當您將滑鼠停留在醒目提示的部分上時，會顯示工具提示來說明問題所在。
-
-如需詳細資訊，請參閱[將計算資料新增至自訂表單](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md)。
 
 ## 專案標題自訂
 
@@ -111,6 +107,4 @@ ht-degree: 0%
 現在，您可以新增視訊，為自訂表單提供全新的資訊、視覺趣味和創意模式。 當表單附加到物件時，使用物件的使用者可以隨時播放視訊。
 
 以前，您只能將文字欄位和影像新增到自訂表單中。
-
-如需詳細資訊，請參閱[在自訂表單中新增或編輯影像或視訊資產Widget](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md)。
 
