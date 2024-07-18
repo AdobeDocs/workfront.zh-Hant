@@ -8,10 +8,10 @@ description: 除了Adobe Workfront授權，Adobe Workfront Fusion還需要Adobe 
 author: Becky
 feature: Workfront Fusion
 exl-id: cdf46eb1-46ba-4707-9063-b76899195a2c
-source-git-commit: 8c25835525cc58db0dbe9b22d4f286330e3cb001
+source-git-commit: ec5ed146456c2f75926820f5421bf4feee121399
 workflow-type: tm+mt
-source-wordcount: '570'
-ht-degree: 1%
+source-wordcount: '601'
+ht-degree: 0%
 
 ---
 
@@ -72,6 +72,7 @@ ht-degree: 1%
 ## 執行歷史記錄
 
 * 執行記錄檔的大小限製為&#x200B;**100 MB**。 如果執行歷程記錄超過此大小，則只會顯示前100 MB。
+* 如果案例有多個同時執行。 在「案例詳細資訊」頁面的「執行」區域中只顯示5個執行。 即使正在執行超過5個執行，也是如此。
 
 ## 未完成的執行
 
