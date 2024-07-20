@@ -6,9 +6,9 @@ description: 您可以將其他核准者或稽核者新增至已有待核准的�
 author: Nolan
 feature: Work Management, Digital Content and Documents
 exl-id: f3d94dff-a855-44ae-9e85-1dcbc4d417a0
-source-git-commit: d01a26eaa43b264d11faa88c750f48f0ef1272c4
+source-git-commit: 850d21fafcf2192600f9011ee936a9bc40f969a4
 workflow-type: tm+mt
-source-wordcount: '467'
+source-wordcount: '478'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,8 @@ ht-degree: 0%
 >本文內容指的更新檔案核准功能僅適用於特定帳戶。 如需有關標準核准程式的資訊，請參閱[工作核准](/help/quicksilver/review-and-approve-work/manage-approvals/manage-approvals.md)中列出的文章。
 
 ## 存取需求
+
++++ 展開以檢視本文中功能的存取需求。
 
 您必須具有下列存取權才能執行本文中的步驟：
 
@@ -49,6 +51,8 @@ ht-degree: 0%
 </table>
 
 &#42;若要瞭解您擁有的計畫、授權型別或存取權，請連絡您的Workfront管理員。
+
++++
 
 ## 從「檔案詳細資訊」頁面新增其他核准者或稽核者
 

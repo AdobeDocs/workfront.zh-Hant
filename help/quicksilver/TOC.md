@@ -3,9 +3,9 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文件、教學課程和其他資源，了解如何在您的組織中實施並有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: e52881a03f69d7c4d6a62dcdc9c6044f6f5dd016
+source-git-commit: ed708a98662c198e52b417ae53e165f3d5e9a524
 workflow-type: tm+mt
-source-wordcount: '14266'
+source-wordcount: '14298'
 ht-degree: 1%
 
 ---
@@ -1823,7 +1823,7 @@ ht-degree: 1%
    * 校訂{#proofing}
       * [校訂：文章索引](review-and-approve-work/proofing/proofing.md)
       * 校訂總覽{#proofing-overview}
-         * [校訂概述](review-and-approve-work/proofing/proofing-overview/proofing-basics.md)
+         * [校訂概觀：文章索引](review-and-approve-work/proofing/proofing-overview/proofing-basics.md)
          * [校訂許可權設定檔概述](review-and-approve-work/proofing/proofing-overview/permission-profiles.md)
          * [校訂角色總覽](review-and-approve-work/proofing/proofing-overview/proof-roles.md)
          * [自動化工作流程總覽](review-and-approve-work/proofing/proofing-overview/automated-workflow.md)
@@ -1836,7 +1836,7 @@ ht-degree: 1%
          * [校訂進度和狀態概觀](review-and-approve-work/proofing/proofing-overview/view-progress-status-proof.md)
          * [網頁校訂檢視器與案頭校訂檢視器之間的差異概述](review-and-approve-work/proofing/proofing-overview/understand-differences-between-web-viewer.md)
       * 建立校訂{#create-proofs}
-         * [建立校樣](review-and-approve-work/proofing/creating-proofs-within-workfront/create-proofs-in-wf.md)
+         * [建立校訂：文章索引](review-and-approve-work/proofing/creating-proofs-within-workfront/create-proofs-in-wf.md)
          * [設定個人校訂預設值](review-and-approve-work/proofing/creating-proofs-within-workfront/set-proof-defaults.md)
          * [建立多頁校訂](review-and-approve-work/proofing/creating-proofs-within-workfront/create-multi-page-proof.md)
          * [為網站或其他網頁內容建立互動式校樣](review-and-approve-work/proofing/creating-proofs-within-workfront/generate-interactive-proof-for-website-or-other-web-content.md)
@@ -1846,9 +1846,9 @@ ht-degree: 1%
          * [使用基本工作流程建立進階校訂](review-and-approve-work/proofing/creating-proofs-within-workfront/configure-basic-proof-workflow.md)
          * [使用自動化工作流程建立進階校訂](review-and-approve-work/proofing/creating-proofs-within-workfront/create-automated-proof-workflow.md)
       * 在Adobe Workfront {#manage-proofs-in-workfront}中管理校訂
-         * [在Adobe Workfront中管理校樣](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proofs-in-wf.md)
+         * [在Adobe Workfront中管理校訂：文章索引](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proofs-in-wf.md)
          * 管理校樣{#manage-proofs}
-            * [管理校樣](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proofs/manage-proofs.md)
+            * [管理校訂：文章索引](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proofs/manage-proofs.md)
             * [編輯校訂設定](review-and-approve-work/proofing/managing-proofs-within-workfront/edit-proof-settings.md)
             * [在Adobe Workfront中列印校訂摘要](review-and-approve-work/proofing/managing-proofs-within-workfront/print-proof-summary-in-wf.md)
             * [刪除校訂](review-and-approve-work/proofing/managing-proofs-within-workfront/remove-archiveg-proof.md)
@@ -1857,27 +1857,27 @@ ht-degree: 1%
             * [使用校訂核准報告](review-and-approve-work/proofing/managing-proofs-within-workfront/proof-approval-report.md)
             * [從Adobe Workfront存取Workfront Proof](review-and-approve-work/proofing/managing-proofs-within-workfront/access-wf-proof-in-workfront.md)
          * 管理校訂版本{#manage-proof-versions}
-            * [管理校訂版本](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-versions/manage-proof-versions.md)
+            * [管理校訂版本：文章索引](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-versions/manage-proof-versions.md)
             * [建立新版本的校訂](review-and-approve-work/proofing/managing-proofs-within-workfront/create-new-proof-version.md)
             * [檢視校訂版本](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-versions/view-proof-versions.md)
             * [檢視和管理校訂版本詳細資料](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-versions/view-version-details.md)
             * [下載校訂版本](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-versions/download-versions.md)
          * 管理校訂檢閱者{#manage-proof-reviewers}
-            * [管理校訂檢閱者](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-reviewers/manage-proof-reviewers.md)
+            * [管理校訂檢閱者：文章索引](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-reviewers/manage-proof-reviewers.md)
             * [設定校訂的存取權和訂閱設定](review-and-approve-work/proofing/managing-proofs-within-workfront/configure-access-subscription-settings-proof.md)
             * [在Adobe Workfront中共用校訂](review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md)
             * [傳送電子郵件訊息給校訂上的檢閱者](review-and-approve-work/proofing/managing-proofs-within-workfront/send-email-messages-to-users-proof.md)
          * 管理校訂通知{#manage-proof-notifications}
-            * [管理校訂通知](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-notifications/manage-proof-notifications.md)
+            * [管理校訂通知：文章索引](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-notifications/manage-proof-notifications.md)
             * [管理校訂評論和決定的通知](review-and-approve-work/proofing/reviewing-proofs-within-workfront/manage-notifications-for-proof-comments.md)
          * 管理校訂截止日期{#manage-proof-deadlines}
-            * [管理校訂截止日期](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-deadlines/manage-proof-deadlines.md)
+            * [管理校訂截止日期：文章索引](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-deadlines/manage-proof-deadlines.md)
             * [設定現有基本校訂的截止日期](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-deadlines/set-deadline-basic-proof.md)
             * [新增、編輯或刪除階段的截止日期](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-deadlines/add-edit-delete-deadline.md)
             * [設定個別檢閱者截止日期](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-deadlines/set-individual-deadlines.md)
             * [移除個別稽核者截止日期](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-deadlines/remove-individual-deadlines.md)
          * 管理自動化校樣{#manage-automated-proofs}
-            * [管理自動化校樣](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-automated-proofs/manage-automated-proofs.md)
+            * [管理自動化校訂：文章索引](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-automated-proofs/manage-automated-proofs.md)
             * [在校訂上檢視自動化工作流程階段](review-and-approve-work/proofing/managing-proofs-within-workfront/view-aw-stages-proof.md)
             * [檢視校訂上的使用中階段](review-and-approve-work/proofing/managing-proofs-within-workfront/view-active-stages-proof.md)
             * [建立或編輯現有校訂的自動化工作流程](review-and-approve-work/proofing/managing-proofs-within-workfront/create-edit-automated-workflow-existing-proof.md)
@@ -1885,16 +1885,16 @@ ht-degree: 1%
             * [將基本工作流程轉換為校訂上的自動化工作流程](review-and-approve-work/proofing/managing-proofs-within-workfront/convert-basic-automatic-workflow.md)
             * [將階段和使用者新增到校訂上的自動化工作流程](review-and-approve-work/proofing/managing-proofs-within-workfront/add-stages-users-to-automated-workflow-proof.md)
       * 使用案頭校訂檢視器{#use-the-desktop-proofing-viewer}
-         * [使用案頭校訂檢視器](review-and-approve-work/proofing/use-the-desktop-proofing-viewer/use-desktop-proofing-viewer.md)
+         * [使用案頭校訂檢視器：文章索引](review-and-approve-work/proofing/use-the-desktop-proofing-viewer/use-desktop-proofing-viewer.md)
          * [安裝案頭校訂檢視器](review-and-approve-work/proofing/use-the-desktop-proofing-viewer/installing-desktop-proofing-viewer.md)
          * [更新案頭校訂檢視器](review-and-approve-work/proofing/use-the-desktop-proofing-viewer/update-the-desktop-proofing-viewer.md)
          * [在案頭校訂檢視器中開啟校訂](review-and-approve-work/proofing/use-the-desktop-proofing-viewer/open-proofs-in-dpv.md)
          * [在案頭校訂檢視器中檢閱非互動式內容](review-and-approve-work/proofing/use-the-desktop-proofing-viewer/review-non-interactive-content-in-desktop-proofing-viewer.md)
          * [常見問題集 — 案頭校訂檢視器](review-and-approve-work/proofing/use-the-desktop-proofing-viewer/faq-desktop-proofing-viewer.md)
       * 在Adobe Workfront {#review-proofs-in-workfront}中檢閱校訂
-         * [在Adobe Workfront中檢閱校樣](review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-proofs-in-wf.md)
+         * [在Adobe Workfront中檢閱校訂：文章索引](review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-proofs-in-wf.md)
          * 檢閱校訂{#review-a-proof}
-            * [檢閱校訂](review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/review-a-proof.md)
+            * [檢閱校訂：文章索引](review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/review-a-proof.md)
             * [在校訂中檢視內容](review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/view-a-proof.md)
             * [測量校訂內的區域](review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/measure-an-area-proof.md)
             * [變更視訊校訂中時間軸的測量單位](review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/change-unit-of-measurement-video.md)
@@ -1911,7 +1911,7 @@ ht-degree: 1%
             * [在校訂檢視器中變更互動式校訂解析度](review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/view-interactive-content-as-it-appears-in-device.md)
             * [設定校訂檢視器設定](review-and-approve-work/proofing/reviewing-proofs-within-workfront/configure-proofing-viewer-settings.md)
          * 註解校訂{#comment-on-a-proof}
-            * [對校訂發表評論](review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/comment-on-proof.md)
+            * [校訂上的註解：文章索引](review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/comment-on-proof.md)
             * [對校訂進行評論](review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/comment-on-proof-1.md)
             * [檢視並回覆校訂評論](review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/view-proof-comments.md)
             * [搜尋、篩選和排序校訂評論](review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/search-filter-sort-comments.md)
@@ -1921,12 +1921,12 @@ ht-degree: 1%
             * [對校訂評論使用動作](review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/use-actions-on-comments-in-viewer.md)
             * [標籤要共用校訂的使用者](review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/tag-users-to-share-proof.md)
          * 對校訂{#make-decision-on-proof}做出決定
-            * [對校訂做出決定](review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/make-decision-on-proof.md)
+            * [對校訂做出決定：文章索引](review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/make-decision-on-proof.md)
             * [核准校訂](review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/approve-proof.md)
             * [在校訂檢視器中對校訂做出決定](review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/make-decisions-on-proof.md)
             * [變更校訂上的現有決定](review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/change-existing-decision.md)
       * Adobe Workfront {#ttt-proofing-in-workfront}校訂的提示、技巧和疑難排解
-         * [Adobe Workfront校訂的秘訣、技巧和疑難排解](review-and-approve-work/proofing/tips-tricks-and-troubleshooting/tips-tricks-troubleshooting-proofing.md)
+         * [Adobe Workfront校訂的秘訣、技巧和疑難排解：文章索引](review-and-approve-work/proofing/tips-tricks-and-troubleshooting/tips-tricks-troubleshooting-proofing.md)
          * [在Adobe Workfront中列出具有校訂授權的使用者](review-and-approve-work/proofing/tips-tricks-and-troubleshooting/report-which-users-have-proofing-license-in-wf.md)
          * [大量編輯校訂許可權設定檔欄位](review-and-approve-work/proofing/tips-tricks-and-troubleshooting/edit-proof-profile-bulk.md)
          * [停用透過公開URL或內嵌程式碼共用校訂](review-and-approve-work/proofing/tips-tricks-and-troubleshooting/disable-public-proofs.md)
@@ -1934,7 +1934,7 @@ ht-degree: 1%
          * [上傳後檔名稱已變更，且包含無效字元](review-and-approve-work/proofing/tips-tricks-and-troubleshooting/document-to-proof-name.md)
          * [校訂PowerPoint搭配內嵌視訊](review-and-approve-work/proofing/tips-tricks-and-troubleshooting/powerpoint-with-video.md)
    * 核准的秘訣、技巧和疑難排解{#ttt-approvals}
-      * [核准的秘訣、技巧和疑難排解](review-and-approve-work/tips-tricks-troubleshooting-approvals/tips-tricks-troubleshooting-approvals.md)
+      * [核准的秘訣、技巧和疑難排解：文章索引](review-and-approve-work/tips-tricks-troubleshooting-approvals/tips-tricks-troubleshooting-approvals.md)
       * [檢視所有使用者的校訂和檔案決策數量](review-and-approve-work/tips-tricks-troubleshooting-approvals/view-number-of-decisions-for-users.md)
 * 時程表{#timesheets}
    * [時程表：文章索引](timesheets/timesheets-all.md)

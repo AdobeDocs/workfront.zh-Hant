@@ -2,20 +2,20 @@
 content-type: reference
 product-area: documents
 navigation-topic: proofing-in-workfront-navigation-topic
-title: 校訂概述
+title: 「校訂概觀：文章索引」
 description: 校訂許可權設定檔概述
 author: Courtney
 feature: Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: d15819af-7860-489c-b722-0dbaf6d71e69
-source-git-commit: 95679dd71ef7e4991853e63573a387f26321159d
+source-git-commit: ed708a98662c198e52b417ae53e165f3d5e9a524
 workflow-type: tm+mt
-source-wordcount: '66'
+source-wordcount: '70'
 ht-degree: 0%
 
 ---
 
-# 校訂概述
+# 校訂概觀：文章索引
 
 * [校訂許可權設定檔總覽](../../../review-and-approve-work/proofing/proofing-overview/permission-profiles.md)
 * [校訂角色總覽](../../../review-and-approve-work/proofing/proofing-overview/proof-roles.md)

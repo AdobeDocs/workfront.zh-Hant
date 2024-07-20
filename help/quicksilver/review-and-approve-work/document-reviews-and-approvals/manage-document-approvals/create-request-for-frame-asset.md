@@ -6,7 +6,7 @@ title: 「建立Frame.io資產的檢閱或核准請求」
 description: 您可以建立Frame.io連線資產的檢閱或核准請求。
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
-source-git-commit: d01a26eaa43b264d11faa88c750f48f0ef1272c4
+source-git-commit: 796955fb073905337755fc04e9fb43dbc85b6450
 workflow-type: tm+mt
 source-wordcount: '330'
 ht-degree: 0%
@@ -65,7 +65,7 @@ You must have the following access to perform the steps in this article:
 
 1. 向下捲動至&#x200B;**核准**&#x200B;區段，然後按一下&#x200B;**新增**。
 
-![](assets/doc-summary-add-approvers.png)
+   ![](assets/doc-summary-add-approvers.png)
 
 1. （選用）設定核准的截止日期。 若在指定期限前72小時通知使用者和團隊。
 

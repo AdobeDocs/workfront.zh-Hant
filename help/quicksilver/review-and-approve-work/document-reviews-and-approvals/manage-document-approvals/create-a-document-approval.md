@@ -6,9 +6,9 @@ description: 您可以在Adobe Workfront中請求其他使用者的檔案核准�
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: a02699e1-3557-47f0-89b7-dbecb507a174
-source-git-commit: 66f3b53a06147d531e5e700857ca88219c2d4109
+source-git-commit: 796955fb073905337755fc04e9fb43dbc85b6450
 workflow-type: tm+mt
-source-wordcount: '478'
+source-wordcount: '489'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,9 @@ ht-degree: 0%
 >本文內容指的更新檔案核准功能僅適用於特定帳戶。 如需有關標準核准程式的資訊，請參閱[工作核准](/help/quicksilver/review-and-approve-work/manage-approvals/manage-approvals.md)中列出的文章。
 
 ## 存取需求
+
++++ 展開以檢視本文中功能的存取需求。
+
 
 您必須具有下列存取權才能執行本文中的步驟：
 
@@ -49,6 +52,8 @@ ht-degree: 0%
 </table>
 
 &#42;若要瞭解您擁有的計畫、授權型別或存取權，請連絡您的Workfront管理員。
+
++++
 
 ## 從檔案頁面建立檔案檢閱或核准請求
 

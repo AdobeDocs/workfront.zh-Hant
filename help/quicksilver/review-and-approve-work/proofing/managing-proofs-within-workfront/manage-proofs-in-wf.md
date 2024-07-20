@@ -2,20 +2,20 @@
 content-type: reference
 product-area: documents
 navigation-topic: proofing-in-workfront-navigation-topic
-title: 在Adobe Workfront中管理校樣
+title: 「在Adobe Workfront中管理校訂：文章索引」
 description: 瞭解如何在Adobe Workfront中管理校樣。
 author: Courtney
 feature: Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: dcd049e4-2e9f-49b9-adac-8b8e67187a3b
-source-git-commit: ae80999fc7ea7e35097560aa99baa435bcd31b74
+source-git-commit: ed708a98662c198e52b417ae53e165f3d5e9a524
 workflow-type: tm+mt
-source-wordcount: '41'
+source-wordcount: '45'
 ht-degree: 0%
 
 ---
 
-# 在Adobe Workfront中管理校樣
+# 在Adobe Workfront中管理校訂：文章索引
 
 本節包含下列文章：
 
