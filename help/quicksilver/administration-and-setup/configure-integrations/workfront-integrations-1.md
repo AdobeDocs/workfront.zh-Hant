@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 exl-id: 50aca40a-f971-42f2-b20f-fa4fff22335e
-source-git-commit: d07ccec3a11fbbee49fc55a86d44fa88e252700f
+source-git-commit: 5691d6253871efc8e61fa06fe904edc4a5953d62
 workflow-type: tm+mt
-source-wordcount: '1139'
+source-wordcount: '1154'
 ht-degree: 0%
 
 ---
@@ -260,7 +260,7 @@ ht-degree: 0%
      <li>在[!DNL Slack]中接收[!DNL Workfront]個通知 </li> 
      <li>在[!DNL Slack]中管理核准 </li> 
      <li>從[!DNL Slack]建立[!DNL Workfront]個任務和問題 </li> 
-     <li>Post對專案或任務的註解 [!DNL Slack]</li> 
+     <li>將註解張貼至專案或任務，從 [!DNL Slack]</li> 
     </ul> <p>如需詳細資訊，請參閱<a href="../../workfront-integrations-and-apps/using-workfront-with-slack/use-workfront-for-slack.md" class="MCXref xref">[!DNL Adobe Workfront for Slack]</a>。</p> </td> 
    <td> 
     <ul> 
@@ -306,9 +306,9 @@ Workfront與Experience Manager Assets或Assets Essentials之間的整合可讓�
 
 [!DNL Workfront]有許多合作夥伴整合，讓您的[!DNL Workfront]體驗更加豐富。
 
-現有合作夥伴方案的範例包括與[!DNL Salesforce.com]、[!DNL Oracle Responsys]和[!DNL Microsoft Visual Studio]的整合。
+Workfront有許多合作夥伴整合，讓您的Workfront體驗更為豐富。 現有合作夥伴方案的範例包括與Claravine、RWS Group等的整合。
 
-如需這些和其他合作夥伴整合的詳細資訊，請參閱[[!DNL Workfront] 市集](https://www.workfront.com/enterprise/marketplace/apps/)。
+如需這些和其他合作夥伴整合的詳細資訊，請參閱[Exchange市集](https://exchange.adobe.com/apps/browse/ec?page=1&amp;partnerLevel=All&amp;product=WRKFRNT&amp;sort=RELEVANCE)。
 
 ## [!DNL Workfront] API
 
