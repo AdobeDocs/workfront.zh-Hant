@@ -6,9 +6,9 @@ description: 您可以刪除您建立之計畫上的方案，或他人與您共�
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: 799ca02e-c513-4409-b327-1ce7d8eb19ae
-source-git-commit: 2ff32ba11f9ef214f16b11323386223792b0877e
+source-git-commit: ed179058cfec1332384ef76cb04598278109291b
 workflow-type: tm+mt
-source-wordcount: '513'
+source-wordcount: '505'
 ht-degree: 1%
 
 ---
@@ -96,9 +96,9 @@ ht-degree: 1%
 
 ### 大量刪除方案 {#delete-initiatives-in-bulk}
 
-1. 按一下&#x200B;**[!UICONTROL 主功能表]**&#x200B;圖示![](assets/main-menu-icon.png)，然後按一下[!UICONTROL 案例]。
+{{step1-to-scenario-planner}}
 
-   計劃清單隨即顯示。
+計劃清單隨即顯示。
 
 1. 按一下計畫的名稱以開啟計畫，然後找到您要刪除的方案。
 1. 選取您要刪除之方案左側的方塊，然後在計畫底部出現的功能表中按一下&#x200B;**[!UICONTROL [刪除]]**，然後按一下&#x200B;**[!UICONTROL [是，刪除]]**。

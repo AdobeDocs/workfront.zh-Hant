@@ -7,9 +7,9 @@ description: 延遲是指在強制前置任務完成後必須經過的時間量�
 author: Alina
 feature: Work Management
 exl-id: 9b3cac9a-1b8d-4697-b5d4-a2d669c790a9
-source-git-commit: 811d8076a0b344e863b25aa253a0fb1c102f0435
+source-git-commit: ed179058cfec1332384ef76cb04598278109291b
 workflow-type: tm+mt
-source-wordcount: '1463'
+source-wordcount: '1462'
 ht-degree: 0%
 
 ---
@@ -26,36 +26,6 @@ ht-degree: 0%
 
 +++ 展開以檢視本文中功能的存取需求。
 
-<!--drafted - replace table at P&P:
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
-   <td> <p>Any</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>Current license: Standard </p> 
-   Or
-   <p>Legacy license: Plan </p>
-   </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to Tasks and Projects</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Object permissions</td> 
-   <td> <p>Manage permissions to the tasks and the project</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
--->
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
@@ -71,7 +41,7 @@ ht-degree: 0%
        <p>目前：計畫 </p> </td>
   </tr> 
   <tr> 
-   <td role="rowheader">存取層級設定</td> 
+   <td role="rowheader">存取層級</td> 
    <td> <p>編輯任務與專案的存取權</p> </td> 
   </tr> 
   <tr> 
@@ -84,57 +54,6 @@ ht-degree: 0%
 *如需此表格中資訊的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
-
-## 指示任務的延遲和延遲型別
-
-當您定義前置任務關係時，可以在任務上指示延遲型別。
-
-### 在任務的前置任務區段中指示延遲型別 {#indicate-lag-types-in-the-predecessors-section-of-a-task}
-
-1. 移至您要定義前置任務與延遲型別的工作。
-1. 按一下左側面板中的&#x200B;**前置任務**。 您可能需要按一下&#x200B;**顯示更多**，然後按一下&#x200B;**前置任務**。
-1. 按一下&#x200B;**新增前置任務**。
-1. （選擇性）如果要新增跨專案前置任務，請將&#x200B;**父專案**&#x200B;名稱取代為其他專案。
-1. 開始輸入前置任務名稱，然後將其選取於清單中。
-1. 選取&#x200B;**相依性型別**。
-
-   如需前置任務相依性型別的詳細資訊，請參閱[任務相依性型別概觀](../../../manage-work/tasks/use-prdcssrs/task-dependency-types.md)。
-
-1. 使用數值指定&#x200B;**延遲**&#x200B;金額。 您可以指定負數來指示負延遲。
-1. 從下列選項中選取，以識別您要為前置任務指示的延遲型別：
-
-   * **天**
-   * **行事曆日**
-   * **百分比**
-   * 一週的&#x200B;**天**
-   * 一週的&#x200B;**天（非零）**
-
-     如需這些延遲型別及其計算方式的詳細資訊，請參閱本文章的[延遲型別](#lag-types)小節。
-
-1. 按一下「**儲存**」。
-
-### 指示工作清單中的延遲型別  {#indicate-lag-types-in-a-task-list}
-
-1. 移至工作清單，並選取&#x200B;**標準**&#x200B;檢視。
-
-1. 按一下與您要為其指定前置任務和延遲量的任務相對應的&#x200B;**前置任務**&#x200B;欄內。
-1. 輸入以下內容（不含空格）：
-
-   * 要指定為所選任務的前置任務之任務編號
-   * 您要在工作之間指示的相依性型別的縮寫
-
-     如需有關相依性型別縮寫的詳細資訊，請參閱[任務相依性型別概觀](../../../manage-work/tasks/use-prdcssrs/task-dependency-types.md)。
-
-   * 正延遲的&#x200B;**+**&#x200B;或負延遲的&#x200B;**-**
-
-   * 延遲的金額
-   * 您要使用的Lag Type縮寫
-
-     如需有關Lag型別縮寫的詳細資訊，請參閱本文章的[Lag型別](#lag-types)小節。
-
-   例如，若要指出某個任務具有前置任務且正延遲2天，您可在「前置任務」欄中輸入`1fs+2d`。
-
-1. 在鍵盤上按Enter鍵以儲存您工作的變更。
 
 ## 延遲型別 {#lag-types}
 
@@ -215,3 +134,54 @@ ht-degree: 0%
 
    * 設定任務之間的「完成 — 完成」前置任務關係。
    * 後續任務的持續時間應等於或超過任務之間的預期延遲天數。
+
+## 指示任務的延遲和延遲型別
+
+當您定義前置任務關係時，可以在任務上指示延遲型別。
+
+### 在任務的前置任務區段中指示延遲型別 {#indicate-lag-types-in-the-predecessors-section-of-a-task}
+
+1. 移至您要定義前置任務與延遲型別的工作。
+1. 按一下左側面板中的&#x200B;**前置任務**。 您可能需要按一下&#x200B;**顯示更多**，然後按一下&#x200B;**前置任務**。
+1. 按一下&#x200B;**新增前置任務**。
+1. （選擇性）如果要新增跨專案前置任務，請將&#x200B;**父專案**&#x200B;名稱取代為其他專案。
+1. 開始輸入前置任務名稱，然後將其選取於清單中。
+1. 選取&#x200B;**相依性型別**。
+
+   如需前置任務相依性型別的詳細資訊，請參閱[任務相依性型別概觀](../../../manage-work/tasks/use-prdcssrs/task-dependency-types.md)。
+
+1. 使用數值指定&#x200B;**延遲**&#x200B;金額。 您可以指定負數來指示負延遲。
+1. 從下列選項中選取，以識別您要為前置任務指示的延遲型別：
+
+   * **天**
+   * **行事曆日**
+   * **百分比**
+   * 一週的&#x200B;**天**
+   * 一週的&#x200B;**天（非零）**
+
+     如需這些延遲型別及其計算方式的詳細資訊，請參閱本文章的[延遲型別](#lag-types)小節。
+
+1. 按一下「**儲存**」。
+
+### 指示工作清單中的延遲型別  {#indicate-lag-types-in-a-task-list}
+
+1. 移至工作清單，並選取&#x200B;**標準**&#x200B;檢視。
+
+1. 按一下與您要為其指定前置任務和延遲量的任務相對應的&#x200B;**前置任務**&#x200B;欄內。
+1. 輸入以下內容（不含空格）：
+
+   * 要指定為所選任務的前置任務之任務編號
+   * 您要在工作之間指示的相依性型別的縮寫
+
+     如需有關相依性型別縮寫的詳細資訊，請參閱[任務相依性型別概觀](../../../manage-work/tasks/use-prdcssrs/task-dependency-types.md)。
+
+   * 正延遲的&#x200B;**+**&#x200B;或負延遲的&#x200B;**-**
+
+   * 延遲的金額
+   * 您要使用的Lag Type縮寫
+
+     如需有關Lag型別縮寫的詳細資訊，請參閱本文章的[Lag型別](#lag-types)小節。
+
+   例如，若要指出某個任務具有前置任務且正延遲2天，您可在「前置任務」欄中輸入`1fs+2d`。
+
+1. 在鍵盤上按Enter鍵以儲存您工作的變更。

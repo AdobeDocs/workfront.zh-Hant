@@ -5,18 +5,20 @@ product-area: system-administration;timesheets
 navigation-topic: configure-timesheets-and-schedules
 title: 管理小時型別
 description: 您可以將時數型別與時數專案建立關聯。 小時型別是您用來定義小時專案的標籤。
-author: Caroline
+author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: ad0d141b-3e56-4bb1-be24-4dd9203e7881
-source-git-commit: bfaf566e556882078875649549c0dfadacd800b8
+source-git-commit: ed179058cfec1332384ef76cb04598278109291b
 workflow-type: tm+mt
-source-wordcount: '808'
-ht-degree: 0%
+source-wordcount: '754'
+ht-degree: 1%
 
 ---
 
 # 管理小時型別
+
+<!--Audited: 07/2024-->
 
 <!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. 
 **Linked to Creating Billing Record-->
@@ -45,7 +47,7 @@ ht-degree: 0%
 
 ## 存取需求
 
-您必須具有下列存取權才能執行本文中的步驟：
++++ 展開以檢視本文中功能的存取需求。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -56,15 +58,20 @@ ht-degree: 0%
    <td>任何</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 授權</td> 
-   <td>[！UICONTROL計畫]</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] 授權*</td> 
+   <td> <p>新增：[！UICONTROL Standard]</p>
+   <p>目前： [！UICONTROL計畫]</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">存取層級設定</td> 
-   <td> <p>您必須是[!DNL Workfront]管理員。</p> <p><b>注意</b>：如果您仍然沒有存取權，請詢問您的[!DNL Workfront]管理員是否對您的存取層級設定了其他限制。 如需[!DNL Workfront]管理員如何修改存取層級的詳細資訊，請參閱<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>。</p> </td> 
+   <td role="rowheader">存取層級</td> 
+   <td> <p>您必須是[!DNL Workfront]管理員。</p> <p> </td> 
   </tr> 
  </tbody> 
 </table>
+
+*如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
++++
 
 ## 內建時數型別
 
@@ -85,7 +92,7 @@ Workfront隨附一組內建時數型別。 這些時數型別無法編輯且無�
 
 若要建立新的小時型別：
 
-1. 按一下[!DNL Adobe] Workfront右上角的&#x200B;**[!UICONTROL 主要功能表]**&#x200B;圖示![](assets/main-menu-icon.png)，然後按一下&#x200B;**[!UICONTROL 設定]** ![](assets/gear-icon-settings.png)。
+{{step-1-to-setup}}
 
 1. 按一下&#x200B;**[!UICONTROL 時程表和時數]** > **[!UICONTROL 時數型別]**。
 
@@ -131,7 +138,7 @@ Workfront隨附一組內建時數型別。 這些時數型別無法編輯且無�
 
 若要停用小時型別：
 
-1. 按一下全域導覽列上[!DNL Adobe Workfront]右上角附近的&#x200B;**[!UICONTROL 設定]**。
+{{step-1-to-setup}}
 
 1. 展開&#x200B;**[!UICONTROL 時程表和時數偏好設定]**，然後按一下&#x200B;**[!UICONTROL 時數型別]**。
 

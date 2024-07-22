@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 99fac041-a235-4991-b826-d19944164bc9
-source-git-commit: c0ef343e30dd87c0638f7f34161975b46de445b1
+source-git-commit: ed179058cfec1332384ef76cb04598278109291b
 workflow-type: tm+mt
-source-wordcount: '450'
+source-wordcount: '436'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,9 @@ ht-degree: 0%
 
 ## 存取需求
 
-+++ 展開以檢視本文中功能的存取需求。
+<!--update the Workfront plan below at GA to Ultimate and it is not available in the current plans-->
+
++++ 展開以檢視Workfront Planning的存取需求。
 
 <table style="table-layout:auto">
  <col>
@@ -52,14 +54,14 @@ ht-degree: 0%
   <tr>
    <td role="rowheader"><p>Adobe Workfront授權*</p></td>
    <td>
-   <p>任何</p>
+   <p>任一，若要檢視Workfront規劃資訊</p>
    <p>若要建立工作區，您必須擁有下列授權：</p>
    <ul>
    <li>
    新增：標準
    </li>
    <li>
-   目前：工作者或以上
+   目前：計畫
    </li>
    </ul>
   </td>
@@ -118,7 +120,7 @@ Workfront Planning沒有存取控制。
 
 擁有任何授權型別的使用者都可以存取Workfront Planning。
 
-如需在Workfront中授與存取權的相關資訊，請參閱[建立和修改自訂存取層級](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)。
+<!--For information about granting access in Workfront, see [Create and modify custom access levels](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md). -->
 
 ## 授予許可權
 
