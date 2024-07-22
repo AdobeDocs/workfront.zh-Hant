@@ -180,7 +180,7 @@ The following table contains information about dates associated with projects, t
   </tr> 
   <tr> 
    <td>Estimated Due Date</td> 
-   <td> <p> &nbsp;It is similar to the Projected Completion Date, and they are closest to the reality of when a task can complete, based on its progress, predecessor relationship, and work left to be completed.</p> <p>For more information about the Estimated Dates and how they are different than the Projected Dates, see <a href="../../../manage-work/tasks/task-information/differentiate-projected-estimated-dates.md" class="MCXref xref">Differentiate between Projected and Estimated Dates </a>.</p> </td> 
+   <td> <p> &nbsp;It is similar to the Projected Completion Date, and they are closest to the reality of when a task can complete, based on its progress, predecessor relationship, and work left to be completed.</p> <p>For more information about the Estimated Dates and how they are different than the Projected Dates, see <a href="../../../manage-work/tasks/task-information/differentiate-projected-estimated-dates.md" class="MCXref xref">Overview of Projected and Estimated Dates </a>.</p> </td> 
    <td> <p>This date applies to</p> 
     <ul> 
      <li>Projects</li> 
@@ -189,7 +189,7 @@ The following table contains information about dates associated with projects, t
   </tr> 
   <tr> 
    <td>Estimated Start Date</td> 
-   <td> <p> The Estimated Start Date is similar to the Projected Start Date, and they are closest to the reality of when a task can start, based on its progress, predecessor relationship, and work left to be completed.</p> <p>For more information about the Estimated Dates and how they are different than the Projected Dates, see <a href="../../../manage-work/tasks/task-information/differentiate-projected-estimated-dates.md" class="MCXref xref">Differentiate between Projected and Estimated Dates </a>.</p> </td> 
+   <td> <p> The Estimated Start Date is similar to the Projected Start Date, and they are closest to the reality of when a task can start, based on its progress, predecessor relationship, and work left to be completed.</p> <p>For more information about the Estimated Dates and how they are different than the Projected Dates, see <a href="../../../manage-work/tasks/task-information/differentiate-projected-estimated-dates.md" class="MCXref xref">Overview of Projected and Estimated Dates </a>.</p> </td> 
    <td> <p>This date applies to</p> 
     <ul> 
      <li>Projects</li> 
@@ -301,7 +301,7 @@ The following table contains information about dates associated with projects, t
   </tr> 
   <tr> 
    <td>Projected Completion Date</td> 
-   <td> <p>It is similar to the Estimated Completion Date, and they are closest to the reality of when a task can complete, based on its progress, predecessor relationship, and work left to be completed.</p> <p>For more information about the Projected Dates and how they are different than the Estimated Dates, see <a href="../../../manage-work/tasks/task-information/differentiate-projected-estimated-dates.md" class="MCXref xref">Differentiate between Projected and Estimated Dates </a>.&nbsp;&nbsp;</p> </td> 
+   <td> <p>It is similar to the Estimated Completion Date, and they are closest to the reality of when a task can complete, based on its progress, predecessor relationship, and work left to be completed.</p> <p>For more information about the Projected Dates and how they are different than the Estimated Dates, see <a href="../../../manage-work/tasks/task-information/differentiate-projected-estimated-dates.md" class="MCXref xref">Overview of Projected and Estimated Dates </a>.&nbsp;&nbsp;</p> </td> 
    <td> <p>This date applies to</p> 
     <ul> 
      <li>Projects</li> 
@@ -311,7 +311,7 @@ The following table contains information about dates associated with projects, t
   </tr> 
   <tr> 
    <td>Projected Start Date</td> 
-   <td> <p> It is similar to the Estimated Start Date, and they are closest to the reality of when a task can start, based on its progress, predecessor relationship, and work left to be completed.</p> <p>For more information about the Projected Dates and how they are different than the Estimated Dates, see <a href="../../../manage-work/tasks/task-information/differentiate-projected-estimated-dates.md" class="MCXref xref">Differentiate between Projected and Estimated Dates </a>.</p> </td> 
+   <td> <p> It is similar to the Estimated Start Date, and they are closest to the reality of when a task can start, based on its progress, predecessor relationship, and work left to be completed.</p> <p>For more information about the Projected Dates and how they are different than the Estimated Dates, see <a href="../../../manage-work/tasks/task-information/differentiate-projected-estimated-dates.md" class="MCXref xref">Overview of Projected and Estimated Dates </a>.</p> </td> 
    <td> <p>This date applies to</p> 
     <ul> 
      <li>Projects</li> 
