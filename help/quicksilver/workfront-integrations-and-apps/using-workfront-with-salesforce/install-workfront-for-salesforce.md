@@ -6,10 +6,10 @@ description: 若要在 [!DNL Salesforce] AppExchange提供應用程式之前安�
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 4fea9d8f-7729-4fee-86d3-1a986be29f74
-source-git-commit: c0e7340e2bf650b6f9931ae12aee07c5f7d5292b
+source-git-commit: b088c305cbd16aea1b6b79a9f3a9c5ac326cd0b8
 workflow-type: tm+mt
-source-wordcount: '941'
-ht-degree: 0%
+source-wordcount: '1026'
+ht-degree: 1%
 
 ---
 
@@ -197,3 +197,39 @@ ht-degree: 0%
 
    將[!DNL Workfront]區段新增至其[!UICONTROL 機會]或[!UICONTROL 帳戶]頁面配置後，[!UICONTROL Salesforce]使用者就可以使用[!DNL Workfront]應用程式。\
    如需有關為使用者設定[!DNL Workfront]區段的資訊，請參閱[為 [!DNL Salesforce] 使用者設定 [!DNL Adobe Workfront] 區段](../../workfront-integrations-and-apps/using-workfront-with-salesforce/configure-wf-section-for-salesforce-users.md)。
+
+## 設定Workfront的許可權以進行Salesforce整合
+
+### `workfront_business`的許可權
+
+1. 瀏覽至&#x200B;**設定** > **安全性** > **信任的URL**。
+1. 從清單中選取`workfront_business`。
+1. 按一下&#x200B;**編輯**。
+1. 在CSP指示下，勾選下列選項：
+
+   * connect-src （指令碼）
+   * font-src （字型）
+   * frame-src （iframe內容）
+   * img-src （影像）
+   * media-src （音訊和視訊）
+   * style-src （樣式表）
+
+1. 按一下「**儲存**」。
+
+
+### workfront_session的許可權
+
+1. 瀏覽至&#x200B;**設定** > **安全性** > **信任的URL**。
+1. 從清單中選取`workfront_session`。
+1. 按一下&#x200B;**編輯**。
+1. 在CSP指示下，勾選下列選項：
+
+   * connect-src （指令碼）
+   * font-src （字型）
+   * frame-src （iframe內容）
+   * img-src （影像）
+   * media-src （音訊和視訊）
+   * style-src （樣式表）
+
+1. 按一下「**儲存**」。
+
