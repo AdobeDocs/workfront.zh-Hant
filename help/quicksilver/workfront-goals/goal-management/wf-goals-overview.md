@@ -7,31 +7,29 @@ description: Workfront目標可協助您透過將策略與工作執行和交付�
 author: Alina
 feature: Workfront Goals
 exl-id: bc0451ba-d729-4e8a-bde3-a2609c667d50
-source-git-commit: 024c612d46848c55529e902a00d481588d261584
+source-git-commit: 811d8076a0b344e863b25aa253a0fb1c102f0435
 workflow-type: tm+mt
-source-wordcount: '521'
+source-wordcount: '501'
 ht-degree: 0%
 
 ---
 
 # Adobe Workfront目標總覽
 
-您的組織必須具備下列專案，才能使用本文所述的功能：
-
-* 對於新計畫和授權結構：
-
-   * 終極計畫
-
-     或
-
-     適用於Prime或選取Adobe Workfront計畫的Adobe Workfront目標的其他授權。 如需詳細資訊，請參閱[Adobe Workfront計畫](https://www.workfront.com/plans)。
-
-* 對於目前的計畫與授權結構：
-
-   * A Pro或更高版本
-   * 除了Adobe Workfront授權之外，還有Workfront目標授權。
-
-請連絡您的Workfront客戶經理，以瞭解Workfront Goals授權。
+>[!IMPORTANT]
+>
+>您的組織必須具備下列專案，才能使用本文所述的功能：
+>
+>* 對於新計畫和授權結構：
+>
+>   * Ultimate Workfront計畫
+>    
+>* 對於目前的計畫與授權結構：
+>
+>   * Pro或更高版本Workfront計畫
+>   * 除了Adobe Workfront授權之外，還有Workfront目標授權。
+>
+>請連絡您的Workfront客戶經理，以瞭解Workfront Goals授權。
 
 
 Workfront目標可協助您透過將策略與工作執行和交付連線起來，來定義、溝通和實現策略結果。 您可以將每個人的努力集中在真正重要的事情上，將進展變得可衡量，並讓團隊取得令人驚歎的結果。 人們可以盡最大努力工作，因為他們知道自己的貢獻會產生有意義的影響。

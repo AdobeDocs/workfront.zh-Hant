@@ -7,33 +7,24 @@ description: Scenario Planner需要Adobe Workfront的單獨授權和額外存取
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: d7f3c7fa-81aa-40c9-b506-fe1fe346e9ea
-source-git-commit: f0f6c2bee98c6cebf8ea9e18bf34262f3c1d6e3a
+source-git-commit: 99711cef67750a04f7a971538a978eff3656ff85
 workflow-type: tm+mt
-source-wordcount: '952'
+source-wordcount: '895'
 ht-degree: 0%
 
 ---
 
 # 使用[!DNL Scenario Planner]所需的存取權
 
-[!DNL Scenario Planner]需要額外的授權。 如需[!DNL Workfront Scenario Planner]的相關資訊，請參閱[ [!DNL Scenario Planner] 概觀](../scenario-planner/scenario-planner-overview.md)。
+<!--Audited: 04/2024-->
+
+[!DNL Scenario Planner]有額外的授權需求。 如需[!DNL Workfront Scenario Planner]的相關資訊，請參閱[ [!DNL Scenario Planner] 概觀](../scenario-planner/scenario-planner-overview.md)。
 
 <!--
 might need to add information about the permissions to plans/ initiatives if those will be coming later?
 -->
 
 若沒有正確的存取或許可權，您可能無法檢視[!DNL  Adobe Workfront]的[!UICONTROL 案例]區域，也無法管理組織的計畫或方案。 管理計畫和方案包括建立、編輯和刪除它們。
-
->[!IMPORTANT]
->
->存取[!UICONTROL 案例]時，您只能檢視和管理您建立的計畫。 如果要允許其他使用者檢視或管理您建立的計畫，您必須執行下列動作：
->
->* 傳送您計畫的連結給其他使用者
->* 與其他使用者共用計畫
->
->  如需共用計畫的詳細資訊，請參閱[在 [!DNL Scenario Planner]](../scenario-planner/share-a-plan.md)中共用計畫。
->
->停用使用者時，其計畫沒有擁有者，除非先前與連結共用，否則無法存取。
 
 ## 需要存取權才能檢視及使用[!DNL Adobe Workfront Scenario Planner]
 
@@ -43,15 +34,9 @@ might need to add information about the permissions to plans/ initiatives if tho
 
    視您使用新計畫或目前Workfront計畫而定，您的組織必須具備下列其中一項：
 
-   * 對於新計畫，您的組織必須具備下列其中一項：
+   * 針對新計畫，您的組織必須有[!UICONTROL Ultimate] [!DNL Workfront]計畫。 Scenario Planner僅包含在[!UICONTROL Ultimate]計畫中。
 
-      * [!UICONTROL Ultimate] [!DNL Workfront]計畫。 「情境規劃工具」包含在「最終計畫」中。
-
-        或
-
-      * 除了購買單獨的[!DNL Scenario Planner]授權之外，還需要[!UICONTROL Select]或[!UICONTROL Prime] [!DNL Workfront]計畫。
-
-   * 針對目前的Workfront計畫，您的組織必須具備下列兩個條件：
+   * 對於目前的Workfront計畫，您的組織必須同時具備下列兩個條件：
 
       * 您的組織必須購買[!DNL Workfront] [!UICONTROL 企業]或更新版本的[!DNL Workfront]計畫。 如需[!DNL Workfront]計畫的相關資訊，請參閱[Workfront計畫](https://workfront.com/plans)。
 
@@ -133,7 +118,20 @@ might need to add information about the permissions to plans/ initiatives if tho
 
 存取層級與[!DNL Workfront]中的許可權搭配使用，可讓您檢視未建立的計畫和方案。 除了擁有存取[!DNL Scenario Planner]的正確存取層級之外，如果您不是計畫的建立者，您還必須擁有您要檢視或管理的計畫的正確許可權。
 
-依預設，您只能存取您建立的計畫。 若要檢視其他使用者建立的計畫，他們必須與您共用他們的計畫。 如需共用計畫的詳細資訊，請參閱[在 [!DNL Scenario Planner]](../scenario-planner/share-a-plan.md)中共用計畫。
+所有使用者（包括系統管理員）都只能存取他們建立的計畫。
 
-如果使用者在不共用計畫的情況下共用計畫的連結，您可以要求計畫的許可權。 如需有關向計畫要求許可權的資訊，請參閱[在 [!DNL Scenario Planner]](../scenario-planner/request-access-to-plan.md)中要求計畫的存取權。
+若要檢視其他使用者建立的計畫，他們必須透過下列方式與您共用其計畫：
+
+* 與您共用計畫
+
+  如需共用計畫的詳細資訊，請參閱[在 [!DNL Scenario Planner]](../scenario-planner/share-a-plan.md)中共用計畫。
+
+* 傳送其所建立計畫的連結
+
+  如果使用者在不共用計畫的情況下共用計畫的連結，您可以要求計畫的許可權。 如需有關向計畫要求許可權的資訊，請參閱[在 [!DNL Scenario Planner]](../scenario-planner/request-access-to-plan.md)中要求計畫的存取權。
+
+>[!NOTE]
+>
+>停用使用者時，其計畫沒有擁有者，除非先前與連結共用，否則無法存取。
+
 

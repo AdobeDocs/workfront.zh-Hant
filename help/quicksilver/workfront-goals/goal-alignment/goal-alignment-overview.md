@@ -7,33 +7,28 @@ description: 目標校準可確保組織中的每個人透過將其目標彼此�
 author: Alina
 feature: Workfront Goals
 exl-id: e073cf10-2333-4095-b932-73d105f0c5a4
-source-git-commit: 330ee20ad14ea7409db1c6f627ed6aa0e0c5c014
+source-git-commit: 811d8076a0b344e863b25aa253a0fb1c102f0435
 workflow-type: tm+mt
-source-wordcount: '802'
+source-wordcount: '776'
 ht-degree: 1%
 
 ---
 
 # Adobe Workfront目標中的目標對齊方式概觀
 
->[!NOTE]
+>[!IMPORTANT]
 >
 >您的組織必須具備下列專案，才能使用本文所述的功能：
-> 
+>
 >* 對於新計畫和授權結構：
+>
+>   * Ultimate Workfront計畫
 >    
->   * 終極計畫
->        
->     或
->        
->   * 適用於Prime或選取Adobe Workfront計畫的Adobe Workfront目標的其他授權。
->       如需詳細資訊，請參閱[Adobe Workfront定價與封裝](https://www.workfront.com/plans)。
->      
 >* 對於目前的計畫與授權結構：
->    
->   * Pro （含）以上的[Adobe Workfront方案]
+>
+>   * Pro或更高版本Workfront計畫
 >   * 除了Adobe Workfront授權之外，還有Workfront目標授權。
->    
+>
 >請連絡您的Workfront客戶經理，以瞭解Workfront Goals授權。
 > 
 >如需存取Workfront目標的詳細資訊，請參閱[使用Workfront目標的需求](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md)。

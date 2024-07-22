@@ -7,9 +7,9 @@ description: 除了Adobe Workfront授權外，Scenario Planner還需要單獨的
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: ba3b3525-cba8-44fe-856d-8ba50cd3b524
-source-git-commit: 8764de907f49260908911ca393c1173b66dbb065
+source-git-commit: 2ff32ba11f9ef214f16b11323386223792b0877e
 workflow-type: tm+mt
-source-wordcount: '539'
+source-wordcount: '565'
 ht-degree: 5%
 
 ---
@@ -18,12 +18,16 @@ ht-degree: 5%
 
 <!-- Audited: 1/2024 -->
 
-除了[!DNL Adobe Workfront]授權之外，[!DNL Scenario Planner]還需要單獨的授權。
-如需有關使用[!DNL Workfront Scenario Planner]所需存取權的資訊，請參閱[使用 [!DNL Scenario Planner]](access-needed-to-use-sp.md)所需的存取權。
+使用 [!DNL Workfront Scenario Planner] 的目的在於促使組織層級計劃能夠加速執行，協助您做出重大決策，以利實現可預測、符合期望的業務成果。
+
+您必須有下列[!DNL Workfront]計畫才能存取[!DNL Workfront Scenario Planner]：
+
+* 對於新的Workfront計畫： [!UICONTROL Ultimate]計畫。
+* 對於目前的[!DNL Workfront]計畫：除了購買[!DNL Scenario Planner]授權外，您還必須擁有商務或更高的計畫。
+
+如需使用[!DNL Workfront Scenario Planner]所需存取權的詳細資訊，請參閱[使用 [!DNL Scenario Planner]](access-needed-to-use-sp.md)所需的存取權。
 
 ## [!DNL Scenario Planner]總覽
-
-使用 [!DNL Workfront Scenario Planner] 的目的在於促使組織層級計劃能夠加速執行，協助您做出重大決策，以利實現可預測、符合期望的業務成果。
 
 使用[!DNL Workfront Scenario Planner]，您可以建置概括貴公司整體策略成果的企業層級計畫。 您可以為計畫定義數個方案，並將其置於各種情境中，以找出執行計畫的最佳解決方案。
 

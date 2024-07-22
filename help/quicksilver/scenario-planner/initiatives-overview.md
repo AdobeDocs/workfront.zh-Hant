@@ -7,16 +7,15 @@ description: Scenario Planner僅在新的Adobe Workfront體驗中可用，並且
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: d67f51e5-7c5c-436b-b0c3-e5afbd7cebca
-source-git-commit: e152c20e7b987f4bef7ffd6ee534c059f7b9bf45
+source-git-commit: 2ff32ba11f9ef214f16b11323386223792b0877e
 workflow-type: tm+mt
-source-wordcount: '965'
+source-wordcount: '945'
 ht-degree: 0%
 
 ---
 
 # [!DNL Scenario Planner]中的方案總覽
 
-[!DNL Scenario Planner]僅在新的[!DNL Adobe Workfront]體驗中可用，而且需要額外的授權。 如需[!DNL Workfront Scenario Planner]的相關資訊，請參閱[ [!DNL Scenario Planner] 概觀](../scenario-planner/scenario-planner-overview.md)。
 身為業務經理，您可以在[!DNL Adobe Workfront Scenario Planner]中建立計畫的方案。 如需有關建立計畫的資訊，請參閱文章[在 [!DNL Scenario Planner]](../scenario-planner/create-and-edit-plans.md)中建立和編輯計畫。
 
 ## 行動方案概觀

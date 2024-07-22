@@ -7,7 +7,7 @@ description: Adobe Workfront會透過檢視任務在時間表中的進度來確�
 author: Alina
 feature: Work Management
 exl-id: 38e5f89e-bdfa-433c-9371-3c3003ada3a3
-source-git-commit: 70d173ca3781d8d143a66ce7e963dcaf66bece19
+source-git-commit: 811d8076a0b344e863b25aa253a0fb1c102f0435
 workflow-type: tm+mt
 source-wordcount: '777'
 ht-degree: 0%
@@ -52,7 +52,7 @@ Adobe Workfront會透過檢視任務在時間表中的進度來確定任務的�
   </tr> 
   <tr> 
    <td> <p><strong>落後</strong> </p> </td> 
-   <td> <p>當預估完成日期晚於或等於計畫完成日期，且早於預計完成日期時，任務會視為<strong>落後</strong>。</p> <p>預計完成日期是根據先前進度完成任務的即時檢視。 雖然任務開始較晚，但不會視為較晚，因為「計畫完成日期」與「預計完成日期」仍在未來，任務可能仍準時完成。</p> <p>注意： <strong>落後</strong>和<strong>有風險</strong>進度狀態幾乎相同。 但是，<strong>有風險</strong>表示計畫日期之一或兩者上有某些強制的任務限制（必須完成日期、必須開始日期、固定日期）。 如果作業沒有強制限制，則預計日期會與預估日期相同，並反映系統根據作業目前進度計算的「完成日期」。 任務尚未被視為延遲，因為「計畫完成日期」與「預計完成日期」仍在未來，任務可能仍準時完成。<br>如需預計日期和預估日期的詳細資訊，請參閱<a href="../../../manage-work/tasks/task-information/differentiate-projected-estimated-dates.md" class="MCXref xref">區分預計日期和預估日期</a>。</p> </td> 
+   <td> <p>當預估完成日期晚於或等於計畫完成日期，且早於預計完成日期時，任務會視為<strong>落後</strong>。</p> <p>預計完成日期是根據先前進度完成任務的即時檢視。 雖然任務開始較晚，但不會視為較晚，因為「計畫完成日期」與「預計完成日期」仍在未來，任務可能仍準時完成。</p> <p>注意： <strong>落後</strong>和<strong>有風險</strong>進度狀態幾乎相同。 但是，<strong>有風險</strong>表示計畫日期之一或兩者上有某些強制的任務限制（必須完成日期、必須開始日期、固定日期）。 如果作業沒有強制限制，則預計日期會與預估日期相同，並反映系統根據作業目前進度計算的「完成日期」。 任務尚未被視為延遲，因為「計畫完成日期」與「預計完成日期」仍在未來，任務可能仍準時完成。<br>如需有關預計和預計日期的詳細資訊，請參閱<a href="../../../manage-work/tasks/task-information/differentiate-projected-estimated-dates.md" class="MCXref xref">預計和預計日期總覽</a>。</p> </td> 
   </tr> 
   <tr valign="top"> 
    <td> <p><strong>延遲</strong> </p> </td> 

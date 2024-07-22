@@ -6,20 +6,22 @@ description: 使用Adobe Workfront Scenario Planner時，您可以在已建立�
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: a811bad0-d3c0-4cba-8b78-d9a14ffc8482
-source-git-commit: 3486a2523a038bdd83c3c2001001a119fd0508ad
+source-git-commit: 2ff32ba11f9ef214f16b11323386223792b0877e
 workflow-type: tm+mt
-source-wordcount: '1649'
+source-wordcount: '1618'
 ht-degree: 0%
 
 ---
 
 # 在[!DNL Scenario Planner]中建立和編輯方案
 
+<!--Audited: 07/2024-->
+
 使用[!UICONTROL Adobe Workfront Scenario Planner]時，您可以在已建立或已與您共用的計畫中建立方案。 透過建立方案，您可以顯示較小的組織單位對計畫的完成有何貢獻。 例如，如果貴組織有未來三年的計畫要擴展至新的市場，您可以在此計畫內為每個部門建立方案，以估計每個部門完成此計畫所需的人數和預算。
 
 ## 存取需求
 
-您必須具備下列條件：
++++ 展開以檢視本文中功能的存取需求。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -27,19 +29,24 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td> <p>[!DNL Adobe Workfront] 計畫*</p> </td> 
-   <td>[！UICONTROL Business]或更高版本</td> 
+   <td> <p>目前： [！UICONTROL Business]或更高版本</p>
+   <p>新增：Ultimate </p>
+   </td> 
   </tr> 
   <tr> 
-   <td> <p>[!DNL Adobe Workfront] 授權* </p> </td> 
-   <td> <p>[！UICONTROL Review]或更高版本</p> </td> 
+   <td> <p>[!DNL Adobe Workfront] 授權*</p> </td> 
+   <td> <p>新增：淺色或更高</p> 
+   <p>目前： [！UICONTROL Review]或以上</p> </td> 
   </tr> 
   <tr> 
-   <td>產品 </td> 
-   <td> <p>您必須為[!DNL Adobe Workfront Scenario Planner]購買額外的授權，才能存取本文所述的功能。 </p> <p>如需有關取得[!DNL Workfront Scenario Planner]的資訊，請參閱<a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">使用[!DNL Scenario Planner]</a>所需的存取權。 </p> </td> 
+   <td>產品*</td> 
+   <td> 
+   <p>針對目前的Workfront計畫： </p>
+   <p>您必須為[!DNL Adobe Workfront Scenario Planner]購買額外的授權，才能存取本文所述的功能。</p> <p>如需[!DNL Workfront Scenario Planner]的存取與許可權相關資訊，請參閱<a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">使用[!DNL Scenario Planner]</a>所需的存取權。 </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td>存取層級設定* </td> 
-   <td> <p>[！UICONTROL Edit]或以上版本的 [!DNL Scenario Planner]</p> <p>如果您仍然沒有存取權，請詢問您的[!DNL Workfront]管理員是否已在您的存取層級中設定其他限制。 如需[!DNL Workfront]管理員如何變更您的存取層級的詳細資訊，請參閱<a href="../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>。</p> </td> 
+   <td>存取層級 </td> 
+   <td> <p>[！UICONTROL Edit]對的存取權 [!DNL Scenario Planner]</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p>物件許可權 </p> </td> 
@@ -48,7 +55,9 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-*若要瞭解您擁有的計畫、授權型別或存取權，請連絡您的[!DNL Workfront]管理員。
+*如需詳細資訊，請參閱[Workfront檔案的存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
++++
 
 ## 先決條件
 
@@ -71,7 +80,7 @@ ht-degree: 0%
 
 若要從頭開始建立方案：
 
-1. 按一下&#x200B;**[!UICONTROL 主功能表]**&#x200B;圖示![](assets/main-menu-icon.png)，然後按一下[!UICONTROL 案例]。
+{{step1-to-scenario-planner}}
 
 1. 按一下要建立方案的計畫名稱。
 1. 按一下&#x200B;**[!UICONTROL 新行動方案]**&#x200B;左側的&#x200B;**+圖示**

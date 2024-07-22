@@ -7,9 +7,9 @@ description: 在存取Adobe Workfront目標之前，您的Adobe Workfront管理�
 author: Alina
 feature: Workfront Goals
 exl-id: 3c7c832b-3e00-4ced-8829-8b1c23fa3871
-source-git-commit: 330ee20ad14ea7409db1c6f627ed6aa0e0c5c014
+source-git-commit: 811d8076a0b344e863b25aa253a0fb1c102f0435
 workflow-type: tm+mt
-source-wordcount: '740'
+source-wordcount: '725'
 ht-degree: 0%
 
 ---
@@ -48,10 +48,7 @@ ht-degree: 0%
 
 視貴公司目前的Workfront計畫而定，會有以下情況：
 
-* 如果貴公司有新的Workfront計畫，您必須具備下列其中一項：
-
-   * 終極的Workfront計畫。 Workfront目標包含在此計畫中。
-   * 選取或更高版本Workfront計畫和單獨的Workfront目標授權。
+* 如果貴公司有新的Workfront計畫，您必須有Ultimate Workfront計畫。 Workfront目標僅包含在此計畫中。
 
 * 如果您的公司有目前的Workfront計畫，則貴組織除了Workfront授權外，還必須購買額外的授權，讓您的使用者能夠存取Workfront目標。
 

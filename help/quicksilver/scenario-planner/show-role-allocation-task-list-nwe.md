@@ -6,18 +6,16 @@ description: 在連線專案和方案後，您可以並排管理其資源配置�
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: 77152e46-0b7b-4937-9d16-1a20c2a7fdf1
-source-git-commit: 82a5102d28700368a094502dcd6026462c149eb1
+source-git-commit: 2ff32ba11f9ef214f16b11323386223792b0877e
 workflow-type: tm+mt
-source-wordcount: '750'
+source-wordcount: '663'
 ht-degree: 0%
 
 ---
 
 # 顯示任務清單中專案和方案的角色分配
 
->[!IMPORTANT]
->
->您的組織必須購買[!DNL Adobe Workfront Scenario Planner]的額外授權，才能檢視專案上的方案資訊。 如需有關取得[!DNL Workfront Scenario Planner]的資訊，請參閱[使用 [!DNL Scenario Planner]](../scenario-planner/access-needed-to-use-sp.md)所需的存取權。
+<!--Audited: 07/2024-->
 
 在連線專案和方案後，您可以並排管理其資源配置以確保它們相符。 這可避免過度配置或利用不足。
 
@@ -27,36 +25,43 @@ ht-degree: 0%
 
 ## 存取需求
 
-您需要執行下列動作：
++++ 展開以檢視本文中功能的存取需求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td> <p>[!DNL Adobe Workfront]<b>計畫*</b> </p> </td> 
-   <td>[！UICONTROL Business]或更高版本</td> 
+   <td> <p>[!DNL Adobe Workfront] 計畫*</p> </td> 
+   <td> <p>目前： [！UICONTROL Business]或更高版本</p>
+   <p>新增：Ultimate </p>
+   </td> 
   </tr> 
   <tr> 
-   <td> <p>[!DNL Adobe Workfront]<b>授權*</b> </p> </td> 
-   <td> <p>[！UICONTROL Review]或更高版本</p> </td> 
+   <td> <p>[!DNL Adobe Workfront] 授權*</p> </td> 
+   <td> <p>新增：淺色或更高</p> 
+   <p>目前： [！UICONTROL Review]或以上</p> </td> 
   </tr> 
   <tr> 
-   <td><b>產品</b> </td> 
-   <td> <p>您必須為[!DNL Adobe Workfront Scenario Planner]購買額外的授權，才能存取本文所述的功能。</p> <p>如需有關取得[!DNL Workfront Scenario Planner]的資訊，請參閱<a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">使用[!DNL Scenario Planner]</a>所需的存取權。 </p> </td> 
+   <td>產品* </td> 
+   <td> 
+   <p>針對目前的Workfront計畫： </p>
+   <p>您必須為[!DNL Adobe Workfront Scenario Planner]購買額外的授權，才能存取本文所述的功能。</p> <p>如需[!DNL Workfront Scenario Planner]的存取與許可權相關資訊，請參閱<a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">使用[!DNL Scenario Planner]</a>所需的存取權。 </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td><strong>存取層級設定*</strong> </td> 
-   <td> <p>[！UICONTROL檢視]或更高的專案存取權 </p> <p>注意：如果您還是沒有存取權，請詢問您的[！UICONTROL Workfront]管理員，他們是否對您的存取層級設定其他限制。 如需[！UICONTROL Workfront]管理員如何變更存取層級的詳細資訊，請參閱<a href="../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>。</p> </td> 
+   <td>存取層級 </td> 
+   <td> <p>[！UICONTROL檢視]或更高許可權的[！UICONTROL專案]</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><strong>物件許可權</strong> </p> </td> 
-   <td> <p>[！UICONTROL檢視]或更高的專案許可權</p> <p>如需有關請求對計畫的額外存取權的資訊，請參閱<a href="../scenario-planner/request-access-to-plan.md" class="MCXref xref">在[!DNL Scenario Planner]</a>中請求對計畫的存取權。</p> <p>如需有關要求額外存取專案的資訊，請參閱<a href="../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">要求物件</a>的存取權。 </p> </td> 
+   <td> <p>物件許可權 </p> </td> 
+   <td> <p>[！UICONTROL View]專案的許可權</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;若要瞭解您擁有的計畫、授權型別或存取權，請連絡您的[!DNL Workfront]管理員。
+*如需詳細資訊，請參閱[Workfront檔案的存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
++++
 
 ## 顯示任務清單中專案和方案的角色分配
 

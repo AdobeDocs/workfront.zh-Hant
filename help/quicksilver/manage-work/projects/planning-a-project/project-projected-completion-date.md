@@ -7,9 +7,9 @@ description: 預計完成日期是即時計算的指標，指出專案、任務�
 author: Alina
 feature: Work Management
 exl-id: dde400e6-189f-4431-8f2f-7142ce424826
-source-git-commit: d71ee30378c39975366f4f257e3f7b17aba0c0ae
+source-git-commit: 811d8076a0b344e863b25aa253a0fb1c102f0435
 workflow-type: tm+mt
-source-wordcount: '876'
+source-wordcount: '873'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 ## 存取需求
 
-您必須具有下列存取權才能執行本文中的步驟：
++++ 展開以檢視本文中功能的存取需求。
 
 
 <table style="table-layout:auto"> 
@@ -36,7 +36,7 @@ ht-degree: 0%
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront授權</td> 
+   <td role="rowheader">Adobe Workfront授權*</td> 
    <td> 
    <p>新增： 
    <ul><li><p>投稿人或以上人員可檢視報告中的預計完成日期</p></li> <li><p>建立報告的標準授權</p></li> </ul>
@@ -47,7 +47,7 @@ ht-degree: 0%
       </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">存取層級設定*</td> 
+   <td role="rowheader">存取層級</td> 
    <td> <p>檢視或更高專案存取權</p> <p>您必須擁有報告、儀表板、行事曆的編輯存取權，才能建立報告</p> <p>您必須擁有「篩選器」、「檢視」、「群組」的「編輯」存取權，才能建立報告或修改清單檢視</p>  </td> 
   </tr> 
   <tr> 
@@ -57,7 +57,9 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+*如需此表格中資訊的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
++++
 
 ## Adobe Workfront如何決定預計完成日期
 
@@ -85,7 +87,7 @@ ht-degree: 0%
   >當任務的前置任務具有實際完成日期時，相依任務會收到如下案例所述的預計完成日期：
   >
   >
-  >如果專案具有任務A、任務B和任務C，而任務B是任務A的後續任務，任務C是任務B的後續任務，並且任務A新增了實際完成日期，則會自動重新計算任務B的預計完成日期（假設專案的&#x200B;**更新型別**&#x200B;設定為「自動」和「變更時」），但不會重新計算任務C。目前，基於效能原因，Workfront會計算從更新的「任務」向上或向下一個層級之任務的預計完成日期。 
+  >如果專案具有任務A、任務B和任務C，而任務B是任務A的後續任務，任務C是任務B的後續任務，並且任務A新增了實際完成日期，則會自動重新計算任務B的預計完成日期（假設專案的&#x200B;**更新型別**&#x200B;設定為「自動」和「變更時」），但不會重新計算任務C。目前，基於效能原因，Workfront會計算從更新的「任務」向上或向下一個層級之任務的預計完成日期。
 
 * **問題：**&#x200B;問題預計完成日期最初設定為與問題計畫完成日期相符。
 
@@ -119,9 +121,9 @@ ht-degree: 0%
 1. 選取&#x200B;**欄（檢視）**&#x200B;標籤。
 1. 按一下&#x200B;**新增欄**，然後開始在&#x200B;**顯示在此欄：**&#x200B;欄位中輸入&#x200B;**預計完成日期**。
 
-1. 當它出現在清單中的&#x200B;**問題**&#x200B;物件下時，請選取它。 
+1. 當它出現在清單中的&#x200B;**問題**&#x200B;物件下時，請選取它。
 1. 按一下「**儲存並關閉**」。
 
-   已填入報告中的&#x200B;**預計完成日期**&#x200B;欄。 
+   已填入報告中的&#x200B;**預計完成日期**&#x200B;欄。
 
    ![](assets/issue-projected-completion-date-in-view-nwe-350x148.png)

@@ -2,19 +2,21 @@
 content-type: overview
 product-area: projects
 navigation-topic: task-information
-title: 區分預計日期和估計日期
+title: 預計日期與估計日期概要
 description: 有數種日期型別會顯示任務開始時間和完成時間之間的時間軸。
 author: Alina
 feature: Work Management
 exl-id: 7cc68fc4-5f79-4ce6-a404-737ea8959ec3
-source-git-commit: 040dd446ff2b347dabf8a139feb17fd1a7d50e4e
+source-git-commit: 811d8076a0b344e863b25aa253a0fb1c102f0435
 workflow-type: tm+mt
-source-wordcount: '990'
+source-wordcount: '924'
 ht-degree: 0%
 
 ---
 
-# 區分預計日期和估計日期
+# 預計日期與估計日期概要
+
+<!--Audited: 07/2024-->
 
 有數種日期型別會顯示任務開始時間和完成時間之間的時間軸。 以下是顯示任務時間表的一些日期：
 
@@ -25,7 +27,7 @@ ht-degree: 0%
 
 本文會說明專案的估計日期和預計日期之間的差異。
 
-首次建立任務時，計畫、預計和估計日期通常應該相符。 有些例外情況存在。 
+首次建立任務時，計畫、預計和估計日期通常應該相符。 有些例外情況存在。
 
 如需Adobe Workfront中專案、任務和問題日期的詳細資訊，請參閱[Workfront中專案、任務和問題日期的概觀](../../../workfront-basics/navigate-workfront/workfront-navigation/definitions-pti-dates.md)。
 
@@ -45,7 +47,7 @@ ht-degree: 0%
 
 * 您無法手動修改任務的預估日期或預計日期。 兩者皆由Adobe Workfront計算。
 * 當您建立任務時，「預計」和「預計」日期應該相同，並且應該說明任務可以開始或結束的實際時間。\
-  您對任務進行的特定更新會直接影響「預計日期」和「預計日期」的值。 
+  您對任務進行的特定更新會直接影響「預計日期」和「預計日期」的值。
 
   例如，如果使用者開始或完成任務，則任務會顯示影響任務的「預計日期」和「預估日期」的「實際開始日期」和「完成日期」。 此外，如果任務上的受分派者修改「認可日期」，此日期會影響任務的「預計日期」。
 
@@ -75,35 +77,35 @@ ht-degree: 0%
 
 * 當任務標示為完成時：
 
-  *預計日期=估計日期=實際日期*
+  `Projected Dates = Estimated Dates = Actual Dates`
 
 * 當任務具有實際開始日期時：
 
-  *預計開始日期=預計開始日期=實際開始日期*
+  `Projected Start Date = Estimated Start Date = Actual Start Date`
 
 * 當任務沒有實際開始日期，但對未來的「計劃開始日期」（必須開始於）有強制限制時：
 
-  *預計開始日期=限制日期*
+  `Projected Start Date = Constraint Date`
 
   如需限制日期的詳細資訊，請參閱[Adobe Workfront術語表](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md)。
 
 * 當任務沒有實際開始日期且任務沒有強制限制日期時：
 
-  *預計開始日期=未來工作排程中的下一個可用日期*
+  `Projected Start Date = the next available date in the future that falls within working schedule`
 
 * 當受指派人更新認可日期時：
 
-  *預計完成日期=認可日期*
+  `Projected Completion Date = Commit Date`
 
   如需認可日期的相關資訊，請參閱[認可日期概觀](../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md)。
 
 * 當任務沒有更新的認可日期，並且任務具有未來計畫完成日期的強制限制（必須完成日期）時：
 
-  *預計完成日期=限制日期*
+  `Projected Completion Date = Constraint Date`
 
 * 當任務沒有更新的認可日期、強制限制日期在未來，或限制日期在過去：
 
-  *預計完成日期=系統根據目前進度與未完成的工作計算完成日期*
+  `Projected Completion Date = system calculation for the Completion Date based on the current progress and the work left to be done`
 
 ### 瞭解任務的估計日期何時更新 {#understand-when-the-estimated-dates-update-on-tasks}
 
@@ -111,7 +113,7 @@ ht-degree: 0%
 
 ## 影響任務時間表的原因
 
-以下是一些會影響任務實際時間表的範例： 
+以下是一些會影響任務實際時間表的範例：
 
 * 與計畫日期和當天相關的任務進度
 * 目前任務完成百分比

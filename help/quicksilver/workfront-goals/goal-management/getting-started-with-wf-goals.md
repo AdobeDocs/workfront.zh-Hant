@@ -5,34 +5,31 @@ author: Alina
 draft: Probably
 feature: Workfront Goals
 exl-id: 9daa074e-94ce-4825-a058-722e53dbce51
-source-git-commit: 514c4ea3eb603bb7a614e4b37abec4272a5febc7
+source-git-commit: 811d8076a0b344e863b25aa253a0fb1c102f0435
 workflow-type: tm+mt
-source-wordcount: '1395'
+source-wordcount: '1374'
 ht-degree: 1%
 
 ---
 
 # 開始使用Adobe Workfront Goals
 
-您的組織必須具備下列專案，才能使用本文所述的功能：
-
-* 對於新計畫和授權結構：
-
-   * 終極計畫
-
-     或
-
-     適用於Prime或選取Adobe Workfront計畫的Adobe Workfront目標的其他授權。 如需詳細資訊，請參閱[Adobe Workfront計畫](https://www.workfront.com/plans)。
-
-* 對於目前的計畫與授權結構：
-
-   * A Pro或更高版本
-   * 除了Adobe Workfront授權之外，還有Workfront目標授權。
-
-
-請連絡您的Workfront客戶經理，以瞭解Workfront Goals授權。
-
-如需存取Workfront目標的詳細資訊，請參閱[使用Workfront目標的需求](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md)。
+>[!IMPORTANT]
+>
+>您的組織必須具備下列專案，才能使用本文所述的功能：
+>
+>* 對於新計畫和授權結構：
+>
+>   * Ultimate Workfront計畫
+>    
+>* 對於目前的計畫與授權結構：
+>
+>   * Pro或更高版本Workfront計畫
+>   * 除了Adobe Workfront授權之外，還有Workfront目標授權。
+>
+>請連絡您的Workfront客戶經理，以瞭解Workfront Goals授權。
+> 
+>如需存取Workfront目標的詳細資訊，請參閱[使用Workfront目標的需求](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md)。
 
 每個組織都需要設定並傳達明確的目標，讓團隊保持生產力、專注和參與。 真正瞭解工作如何與策略保持一致是成功的關鍵。 然而，如果沒有將您的策略和目標與組織內的工作聯絡起來的記錄系統，要達成一致可能真的很困難。
 
