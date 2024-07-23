@@ -3,9 +3,9 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文件、教學課程和其他資源，了解如何在您的組織中實施並有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: 238a1d8e7e1dd80f74a60b2b31301f082e377332
+source-git-commit: e2aef53f0ab8e76fb2c33aa91281fae0c4fece75
 workflow-type: tm+mt
-source-wordcount: '14320'
+source-wordcount: '14277'
 ht-degree: 1%
 
 ---
@@ -792,7 +792,6 @@ ht-degree: 1%
       * [為Workfront整合建立OAuth2應用程式](administration-and-setup/configure-integrations/create-oauth-application.md)
       * [檢視及管理自訂OAuth2應用程式](administration-and-setup/configure-integrations/manage-custom-oauth2-apps.md)
       * [設定JumpSeat整合](/help/quicksilver/administration-and-setup/configure-integrations/configure-jumpseat.md)
-      * [存取Adobe Workfront DAM的說明](administration-and-setup/configure-integrations/access-help-workfront-dam.md)
    * 藍圖{#blueprints}
       * [藍圖](administration-and-setup/blueprints/blueprints.md)
       * [藍圖概觀](administration-and-setup/blueprints/blueprints-overview.md)
@@ -1132,12 +1131,6 @@ ht-degree: 1%
       * [組織檔案](documents/organizing-documents/organize-documents.md)
       * [建立檔案資料夾](documents/organizing-documents/create-documents-folder.md)
       * [建立及管理智慧資料夾](documents/organizing-documents/create-manage-smart-folders.md)
-   * Adobe Workfront {#wf-dam-within-workfront}中的Workfront DAM
-      * [Adobe Workfront中的Workfront DAM](documents/workfront-dam-within-workfront/workfront-dam-in-workfrontt.md)
-      * [啟用Adobe Workfront DAM](documents/workfront-dam-within-workfront/enable-wf-dam.md)
-      * [使用Adobe Workfront DAM管理檔案](documents/workfront-dam-within-workfront/manage-docs-with-wf-dam.md)
-      * [Adobe Workfront授權角色型別與Adobe Workfront DAM角色型別的比較](documents/workfront-dam-within-workfront/difference-between-wf-dam-role-types.md)
-      * [存取Adobe Workfront DAM的說明](documents/workfront-dam-within-workfront/access-help-workfront-dam.md)
    * Workfront與Experience Manager Assets整合{#wf-aem-integrations}
       * [Workfront與Experience Manager Assets整合](documents/workfront-and-experience-manager-integrations/wf-experience-manager-integrations.md)
       * Experience Manager增強型聯結器{#wf-aem-enhanced-connector}的Workfront

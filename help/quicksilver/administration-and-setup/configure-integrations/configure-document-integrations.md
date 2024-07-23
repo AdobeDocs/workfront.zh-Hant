@@ -8,9 +8,9 @@ author: Courtney, Becky
 feature: System Setup and Administration, Workfront Integrations and Apps, Digital Content and Documents
 role: Admin
 exl-id: cf5c4e3d-b45f-46cd-a938-22e412d1c491
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: e2aef53f0ab8e76fb2c33aa91281fae0c4fece75
 workflow-type: tm+mt
-source-wordcount: '1116'
+source-wordcount: '1087'
 ht-degree: 1%
 
 ---
@@ -100,7 +100,7 @@ ht-degree: 1%
 
   對於目前的計畫，需要[!UICONTROL Pro] [!DNL Workfront]計畫或更新的計畫才能使用此功能。 對於新計畫，此功能可用於所有計畫。 如需各種可用計畫的詳細資訊，請參閱[Workfront計畫](https://www.workfront.com/plans)。
 
-此外，您還可以使用原生數位資產管理(DAM)系統或協力廠商DAM整合來增強您的[!DNL Workfront]檔案體驗。 管理員必須啟用這些功能，使用者才能將服務連結至其[!DNL Workfront]帳戶。 如需Workfront DAM的詳細資訊，請參閱[使用 [!DNL Adobe Workfront DAM]](../../documents/workfront-dam-within-workfront/manage-docs-with-wf-dam.md)管理檔案。
+此外，您還可以使用協力廠商DAM整合來增強您的[!DNL Workfront]檔案體驗。 管理員必須啟用這些功能，使用者才能將服務連結至其[!DNL Workfront]帳戶。
 
 ## 設定整合以管理檔案
 
@@ -197,8 +197,6 @@ ht-degree: 1%
 1. 按一下&#x200B;**[!UICONTROL 儲存]**&#x200B;以建立整合。
 
 ## 使用檔案整合
-
-如需使用者如何使用[!DNL Workfront DAM]的相關資訊，請參閱[使用 [!DNL Adobe Workfront DAM]](../../documents/workfront-dam-within-workfront/manage-docs-with-wf-dam.md)管理檔案。
 
 如需使用者如何使用校訂的相關資訊，請參閱[建立校訂](../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-proofs-in-wf.md)。
 
