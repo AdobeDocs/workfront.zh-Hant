@@ -7,7 +7,8 @@ description: 您可以選取想要每月或每季接收新的Workfront功能。
 author: Lisa
 feature: System Setup and Administration
 role: Admin
-source-git-commit: dd015fc356f65cc3d00a1c88ca0a8f2268283606
+exl-id: 780c996c-5cf1-42fe-898d-2cc208bbae7b
+source-git-commit: 7f747a61c22a8927b0cd58c3c85e79143e432b98
 workflow-type: tm+mt
 source-wordcount: '1051'
 ht-degree: 0%
@@ -75,7 +76,7 @@ ht-degree: 0%
 
 一些簡單的商業規則案例包括：
 
-* 使用者無法在2月的最後一週新增費用。 此公式可以表示為： `IF(AND(MONTH($$TODAY) = 2, DAYOFMONTH($$TODAY) >= 22), "You cannot add new expenses during the last week of February.")`
+* 使用者無法在2月的最後一週新增費用。 此公式可以表示為： `IF(MONTH($$TODAY) = 2 && DAYOFMONTH($$TODAY) >= 22, "You cannot add new expenses during the last week of February.")`
 * 使用者無法編輯處於完成狀態的專案。 此公式可以表示為： `IF({status} = "CPL", "You cannot edit this project because it is in Complete status.")`
 
 含有巢狀IF陳述式的案例是：
