@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 372aa2c2-5deb-49da-aadc-6e870bbd083a
-source-git-commit: f9ef12c5a91391dea4d25ceaa1cf648ae4baebf6
+source-git-commit: 76b44f3d5ff7d7747da801a051a457157e08ea4a
 workflow-type: tm+mt
-source-wordcount: '1813'
+source-wordcount: '1849'
 ht-degree: 0%
 
 ---
@@ -278,6 +278,7 @@ ht-degree: 0%
                                 <p>適用於所有客戶的生產版本：搭配24.7版（2024年7月18日）</p>
                             </li>
                         </ul>
+                        <p><span class="preview">此功能已暫時從生產環境中移除，以供不在快速發行排程中的客戶使用。</span></p>
                     </td>
                  </tr>
                    <tr>
@@ -298,6 +299,7 @@ ht-degree: 0%
                                 <p>適用於所有客戶的生產版本：搭配24.7版（2024年7月18日）</p>
                             </li>
                         </ul>
+                        <p><span class="preview">此功能已暫時從生產環境中移除，以供不在快速發行排程的客戶使用。</span>&lt;/
                     </td>
                  </tr>
                  <tr>
