@@ -7,9 +7,9 @@ description: 您可以在已建立的校樣上為不同的稽核者設定不同�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 8da49c52-295b-402e-b8cb-f4d1cff57aba
-source-git-commit: 49950895440fec8cebdf12ec81191c6e890383cf
+source-git-commit: f252e3562b8ea73486d407138251b3d15d4b9f3a
 workflow-type: tm+mt
-source-wordcount: '265'
+source-wordcount: '276'
 ht-degree: 2%
 
 ---
@@ -19,6 +19,8 @@ ht-degree: 2%
 您可以在已建立的校樣上為不同的稽核者設定不同的截止日期。 這需要為您要為其設定個別截止期的每個稽核者建立單獨的階段。
 
 ## 存取需求
+
++++ 展開以檢視本文中功能的存取需求。
 
 您必須具有下列存取權才能執行本文中的步驟：
 
@@ -50,6 +52,8 @@ ht-degree: 2%
 </table>
 
 &#42;若要瞭解您擁有的計畫、角色或校訂許可權設定檔，請連絡您的Workfront或Workfront Proof管理員。
+
++++
 
 ## 設定個別檢閱者截止日期
 

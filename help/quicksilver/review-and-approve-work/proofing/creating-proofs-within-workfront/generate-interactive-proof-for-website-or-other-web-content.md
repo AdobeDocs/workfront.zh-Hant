@@ -6,9 +6,9 @@ description: 您可以為網頁內容產生新的互動式校訂或現有互動�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 56e5eeea-1ab9-43c8-bc84-d10638171871
-source-git-commit: 35d76d3cb06c9e9b449844f304f1443e24a221d4
+source-git-commit: ac908d52d1538b1ffe7d9bfca94cb9921445633d
 workflow-type: tm+mt
-source-wordcount: '548'
+source-wordcount: '559'
 ht-degree: 0%
 
 ---
@@ -24,6 +24,8 @@ ht-degree: 0%
 >請確定檢閱者可存取該網站或互動式內容。 他們只能在校訂程式中存取，但前提是他們也能在網際網路上存取。
 
 ## 存取需求
+
++++ 展開以檢視本文中功能的存取需求。
 
 您必須具有下列存取權才能執行本文中的步驟：
 
@@ -51,6 +53,8 @@ ht-degree: 0%
 </table>
 
 &#42;若要瞭解您擁有的計畫、角色或校訂許可權設定檔，請連絡您的Workfront或Workfront Proof管理員。
+
++++
 
 ## 為網站或其他網頁內容建立互動式校樣
 

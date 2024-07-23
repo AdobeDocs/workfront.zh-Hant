@@ -6,9 +6,9 @@ description: 管理作品多個版本或修訂版本的意見回饋可能是一�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: ee0c859e-349b-4e7a-ac80-164740b950f0
-source-git-commit: 49950895440fec8cebdf12ec81191c6e890383cf
+source-git-commit: 7477b62cf0e2e61966f8e74cf268217e2ceb67ef
 workflow-type: tm+mt
-source-wordcount: '1723'
+source-wordcount: '1734'
 ht-degree: 0%
 
 ---
@@ -31,6 +31,8 @@ ht-degree: 0%
 >如果在Adobe Workfront中建立校訂，則該校訂建立的任何新版本也必須在Workfront中建立。 如果校訂是在Workfront Proof中建立，則無法在Workfront中建立新版本的校訂。
 
 ## 存取需求
+
++++ 展開以檢視本文中功能的存取需求。
 
 您必須具有下列存取權才能執行本文中的步驟：
 
@@ -58,6 +60,8 @@ ht-degree: 0%
 </table>
 
 &#42;若要瞭解您擁有的計畫、角色或校訂許可權設定檔，請連絡您的Workfront或Workfront Proof管理員。
+
++++
 
 ## 在Workfront中建立新版本的校訂
 
@@ -228,7 +232,7 @@ If the creator or owner of&nbsp;&nbsp;the proof has
 
   >[!NOTE]
   >
-  > 這不會受到您個人設定中儲存的任何預設自訂主旨/訊息的影響。
+  >這不會受到您個人設定中儲存的任何預設自訂主旨/訊息的影響。
 
 如果您在個人設定中儲存了預設主旨和訊息，這會影響「新版本」頁面上預設顯示的訊息：
 

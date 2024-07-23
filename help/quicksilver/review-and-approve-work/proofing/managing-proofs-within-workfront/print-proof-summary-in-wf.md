@@ -6,9 +6,9 @@ description: 您可以列印校樣摘要、將其儲存為PDF，或將其匯出�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 129c8e6b-5c66-445b-a5d0-7b1460aeabd6
-source-git-commit: 49950895440fec8cebdf12ec81191c6e890383cf
+source-git-commit: 1b85267e811f5832480316be5322ee819abaf190
 workflow-type: tm+mt
-source-wordcount: '747'
+source-wordcount: '758'
 ht-degree: 1%
 
 ---
@@ -18,6 +18,8 @@ ht-degree: 1%
 您可以列印校樣摘要、將其儲存為PDF，或將其匯出為針對Adobe Reader最佳化的XLS檔案或PDF檔案。
 
 ## 存取需求
+
++++ 展開以檢視本文中功能的存取需求。
 
 您必須具有下列存取權才能執行本文中的步驟：
 
@@ -45,6 +47,8 @@ ht-degree: 1%
 </table>
 
 &#42;若要瞭解您擁有的計畫、角色或校訂許可權設定檔，請連絡您的Workfront或Workfront Proof管理員。
+
++++
 
 ## 列印校訂摘要或儲存為PDF檔案
 

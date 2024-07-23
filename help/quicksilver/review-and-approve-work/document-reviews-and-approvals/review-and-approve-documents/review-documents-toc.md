@@ -2,20 +2,20 @@
 content-type: reference
 product-area: projects
 navigation-topic: projects-navigation-topic
-title: 「核准和檢閱檔案：文章索引」
+title: 「檢閱及核准檔案：文章索引」
 description: 本節包含在Adobe Workfront中檢閱檔案的相關文章。
 author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: cb4c2496-4219-4e37-9785-a8d224bc3936
-source-git-commit: 8949e61a92aa5899d6ed118c4dbe27d84a1d1e6d
+source-git-commit: b55e06fb9734d7abe203a139ed34ba7ec77f5f4c
 workflow-type: tm+mt
 source-wordcount: '67'
 ht-degree: 0%
 
 ---
 
-# 核准和檢閱檔案：文章索引
+# 檢閱和核准檔案：文章索引
 
 >[!IMPORTANT]
 >

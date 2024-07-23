@@ -7,9 +7,9 @@ description: 您可以直接從Adobe Workfront介面快速存取您的Workfront 
 author: Courtney
 feature: Digital Content and Documents
 exl-id: b4e07f8d-fa68-4c55-85d0-ca84163cbf15
-source-git-commit: ae80999fc7ea7e35097560aa99baa435bcd31b74
+source-git-commit: 8a388ffa2d30683c08637a4273f628c553e55fdb
 workflow-type: tm+mt
-source-wordcount: '266'
+source-wordcount: '260'
 ht-degree: 0%
 
 ---
@@ -34,11 +34,11 @@ ht-degree: 0%
 
 ## 從Workfront存取Workfront Proof {#access-workfront-proof-from-workfront}
 
-依預設，只有在Workfront中擁有管理許可權的使用者才能存取Workfront Proof，如本節所述。 
+依預設，只有在Workfront中擁有管理許可權的使用者才能存取Workfront Proof，如本節所述。
 
-1. 按一下主要功能表![](assets/main-menu-icon.png)中的校訂![](assets/proofing-main-menu.png)。
+{{step1-to-proofing}}
 
-   您會自動登入您的Workfront Proof Premium帳戶。
+您會自動登入您的Workfront Proof Premium帳戶。
 
 如需登入Workfront Proof Premium帳戶後可用功能的相關資訊，請參閱[Workfront說明網站](https://support.workfront.com)。
 
