@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 372aa2c2-5deb-49da-aadc-6e870bbd083a
-source-git-commit: 76b44f3d5ff7d7747da801a051a457157e08ea4a
+source-git-commit: 21ad93a3438962fd45a6b348960c37402c71a18a
 workflow-type: tm+mt
-source-wordcount: '1849'
+source-wordcount: '1830'
 ht-degree: 0%
 
 ---
@@ -58,7 +58,7 @@ ht-degree: 0%
                         </p>
                     </td>
                 </tr>
-                                <tr>
+                <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-administrator-enhancements.md">商業規則現已可用</a></p>
                         [！BADGE In Production ]{type=Informative}
@@ -74,6 +74,7 @@ ht-degree: 0%
                                 <p>適用於所有客戶的生產版本：搭配24.7版（2024年7月18日）</p>
                             </li>
                         </ul>
+                        <p><i>僅適用於使用新Ultimate計畫的組織。</i></p>
                     </td>
                 </tr>
                 <tr>
@@ -278,13 +279,12 @@ ht-degree: 0%
                                 <p>適用於所有客戶的生產版本：搭配24.7版（2024年7月18日）</p>
                             </li>
                         </ul>
-                        <p><span class="preview">此功能已暫時從生產環境中移除，以供不在快速發行排程中的客戶使用。</span></p>
                     </td>
                  </tr>
                    <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-project-enhancements.md" class="MCXref xref" xrefformat="{para}">更多相關指派已新增至新任務工作流程</a></p>
-                        [！BADGE In Production ]{type=Informative}
+                        [！BADGE In Production for Fast Release ]{type=Positive}
                         <p>將任務新增至專案和專案任務清單時，我們已將相同功能新增至「新增任務」方塊的「工作總攬」欄位，以提供更相關的智慧指派。</p>
                     </td>
                     <td><p><b>將於下列日期提供：</b></p>
@@ -296,16 +296,15 @@ ht-degree: 0%
                                 <p>快速發行生產：第24.5發行版本（2024年5月16日）</p>
                             </li>
                             <li>
-                                <p>適用於所有客戶的生產版本：搭配24.7版（2024年7月18日）</p>
+                                <p>適用於所有客戶的生產版本：24.10版本（2024年10月）</p>
                             </li>
                         </ul>
-                        <p><span class="preview">此功能已暫時從生產環境中移除，以供不在快速發行排程的客戶使用。</span>&lt;/
                     </td>
                  </tr>
                  <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-project-enhancements.md" class="MCXref xref" xrefformat="{para}">更多相關的智慧指派</a></p>
-                        [！BADGE In Production ]{type=Informative}
+                        [！BADGE In Production for Fast Release ]{type=Positive}
                         <p>我們已變更Workfront用來計算及建議智慧型任務指派的演演算法。 新演演算法適用於Workfront中指派任務的以下區域：任務清單、任務標題中的「工作」區域、「首頁」和「摘要」面板。</p>
                     </td>
                     <td><p><b>將於下列日期提供：</b></p>
@@ -317,7 +316,7 @@ ht-degree: 0%
                                 <p>快速發行生產：第24.5發行版本（2024年5月16日）</p>
                             </li>
                             <li>
-                                <p>適用於所有客戶的生產版本：搭配24.7版（2024年7月18日）</p>
+                                <p>適用於所有客戶的生產版本：24.10版本（2024年10月）</p>
                             </li>
                         </ul>
                     </td>

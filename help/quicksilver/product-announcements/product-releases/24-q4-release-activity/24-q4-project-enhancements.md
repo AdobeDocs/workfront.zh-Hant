@@ -1,38 +1,21 @@
 ---
-title: 2024年第三季度專案增強功能
-description: 2024年第三季度專案增強功能
+title: 2024年第四季專案增強功能
+description: 2024年第四季專案增強功能
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-exl-id: 27d479d1-338a-429c-9703-8e72ed8d5c95
 source-git-commit: 21ad93a3438962fd45a6b348960c37402c71a18a
 workflow-type: tm+mt
-source-wordcount: '483'
+source-wordcount: '329'
 ht-degree: 0%
 
 ---
 
-# 2024年第三季度專案增強功能
+# 2024年第四季專案增強功能
 
-本頁說明2024年第三季度版本對預覽環境所做的所有專案增強功能。 如上所述，這些增強功能將於生產環境中提供。
+本頁說明2024年第四季版本對預覽環境所做的所有專案增強功能。 如上所述，這些增強功能將於生產環境中提供。
 
-如需2024年第三季度發行週期中目前可用的所有變更清單，請參閱[2024年第三季度發行概觀](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md)。
-
-
-## 從標題或詳細資訊區段編輯任務和問題認可日期和條件
-
->[!NOTE]
->
->預覽版本： 2024年5月30日；快速版本的生產版：使用24.6版（2024年6月13日）；所有客戶的生產版：使用24.7版（2024年7月18日）。
-
-為了讓您更輕鬆地更新任務和問題，我們現在新增了提交日期和條件欄位，作為選項以新增到任務和問題標題和版面配置範本中的詳細資訊區段。 當使用者被指派給修改的版面配置範本時，他們現在可以從頁面的標題或詳細資訊區段更新這些欄位。 在此增強功能之前，當您自訂標題時，無法新增任務和問題的條件和認可日期。
-
-如需有關更新認可日期和條件的資訊，請參閱下列文章：
-
-* [更新任務和問題的條件](/help/quicksilver/manage-work/projects/updating-work-in-a-project/update-condition-for-tasks-and-issues.md)。
-* [更新任務和問題的認可日期](/help/quicksilver/manage-work/projects/updating-work-in-a-project/update-commit-date-on-tasks-and-issues.md)。
-
-[觀看此功能的影片示範。](https://video.tv.adobe.com/v/3429471/){target=_blank}
+如需2024年第四季版本週期目前可用的所有變更清單，請參閱[2024年第四季版本概觀](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-release-overview.md)。
 
 ## 已將更相關的指派新增至「新任務」工作流程
 

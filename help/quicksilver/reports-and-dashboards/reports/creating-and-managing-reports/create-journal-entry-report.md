@@ -5,9 +5,9 @@ author: Nolan
 draft: Probably
 feature: Reports and Dashboards
 exl-id: ecf947ce-54d8-4103-8903-f455b1d86c39
-source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
+source-git-commit: 21ad93a3438962fd45a6b348960c37402c71a18a
 workflow-type: tm+mt
-source-wordcount: '2758'
+source-wordcount: '2742'
 ht-degree: 4%
 
 ---
@@ -66,11 +66,9 @@ ht-degree: 4%
 
 您必須先確定下列事項，才能執行本文所述的動作：
 
-* 您想要報告的任何欄位會在Workfront中進行追蹤。 您只能報告來自已追蹤更新區域的資料。
+* 您要報告的任何欄位（包括自訂欄位）會在Workfront中進行追蹤。 您只能報告來自已追蹤更新區域的資料。
 
   若要瞭解如何新增您希望Workfront追蹤的欄位，請參閱[設定系統更新](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md)。
-
-* 您要報告的任何自訂欄位，其設定&#x200B;**在更新摘要中顯示欄位變更**&#x200B;已啟用。
 
 ## 分錄報表概觀
 
