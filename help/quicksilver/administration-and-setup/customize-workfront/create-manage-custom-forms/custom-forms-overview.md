@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: b04ed2e8-c60e-4978-8a9d-b9e087987ef4
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: efcffadba5dba15d7e521524865e5e5ac3836baa
 workflow-type: tm+mt
-source-wordcount: '366'
+source-wordcount: '383'
 ht-degree: 11%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 11%
 
 ## 如何建立自訂表格
 
-表單設計工具有一個畫布樣式的工作區，可讓您同時檢視欄位、畫布和欄位設定。 它也可讓您在設計表單時拖放區段內的欄位。
+表單設計工具有一個畫布樣式的工作區，可讓您同時檢視欄位、畫布和欄位設定。 它也可讓您在設計表單時拖放區段內的欄位。 您可以調整畫面右側的大小，為欄位選項提供更多空間。
 
 如需詳細資訊，請參閱[使用表單設計工具](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)設計表單。
 
