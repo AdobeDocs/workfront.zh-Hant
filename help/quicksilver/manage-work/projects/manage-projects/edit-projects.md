@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management, Projects
 role: User
 exl-id: a6a1f178-189a-4c41-835b-7726081a2b49
-source-git-commit: 70750dbd382ac1207c3aca1d34694e3adc695393
+source-git-commit: 2ca8539855c2b08d71f47ad2e1b698496456f022
 workflow-type: tm+mt
-source-wordcount: '7473'
+source-wordcount: '7513'
 ht-degree: 1%
 
 ---
@@ -242,11 +242,17 @@ ht-degree: 1%
       </tr> 
       <tr> 
          <td role="rowheader"><strong>專案組合</strong></td> 
-         <td>指出專案所屬的Portfolio。 您必須先建立Portfolio，它才會出現在下拉式清單中。 只有作用中的專案組合可以與專案相關聯。 如需關於建立投資組合的詳細資訊，請參閱<a href="../../../manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md" class="MCXref xref">建立投資組合</a>。</td> 
+         <td>指出專案所屬的Portfolio。 您必須先建立Portfolio，它才會出現在下拉式清單中。 只有作用中的專案組合可以與專案相關聯。 如需關於建立投資組合的詳細資訊，請參閱<a href="../../../manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md" class="MCXref xref">建立投資組合</a>。
+         <p><b>附註</b></p>
+         <p>您必須擁有投資組合的管理許可權，才能在專案中新增或移除投資組合。</p>
+      </td> 
       </tr> 
       <tr> 
          <td role="rowheader"><strong>方案</strong></td> 
-         <td> <p>如果您為專案選取了Portfolio，請為專案指定計畫。 某些Portfolio可能沒有計畫。 您必須先建立程式，它才會顯示在此下拉式清單中。 只有作用中的方案才能與專案建立關聯。 </p> <p>如需建立程式的詳細資訊，請參閱<a href="../../../manage-work/portfolios/create-and-manage-programs/create-program.md" class="MCXref xref">建立程式</a>。</p> </td> 
+         <td> <p>如果您為專案選取了Portfolio，請為專案指定計畫。 某些Portfolio可能沒有計畫。 您必須先建立程式，它才會顯示在此下拉式清單中。 只有作用中的方案才能與專案建立關聯。 </p> <p>如需建立程式的詳細資訊，請參閱<a href="../../../manage-work/portfolios/create-and-manage-programs/create-program.md" class="MCXref xref">建立程式</a>。</p> 
+      <p><b>附註</b></p>
+         <p>您必須擁有計畫的管理許可權，才能在專案中新增或移除計畫。</p>   
+      </td> 
       </tr> 
       <tr> 
          <td role="rowheader"><strong>群組</strong></td> 

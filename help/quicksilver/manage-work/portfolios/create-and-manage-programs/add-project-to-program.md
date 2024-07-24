@@ -6,14 +6,16 @@ description: 您可以將專案新增至投資組合中的方案，藉此組織�
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 1fecc4d1-4c24-495c-98f5-824e13967369
-source-git-commit: 93c36a87667097729e89a61f68cc17e9c861d547
+source-git-commit: 2ca8539855c2b08d71f47ad2e1b698496456f022
 workflow-type: tm+mt
-source-wordcount: '463'
+source-wordcount: '406'
 ht-degree: 0%
 
 ---
 
 # 將專案新增至方案
+
+<!--Audited: 7/2024-->
 
 您可以將專案新增至投資組合中的方案，藉此組織專案。 一個計畫內可以有多個專案，但您只能將一個計畫與專案建立關聯。
 
@@ -25,32 +27,35 @@ ht-degree: 0%
 
 ## 存取需求
 
-您必須具有下列存取權才能執行本文中的步驟：
++++ 展開以檢視本文中功能的存取需求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 計畫*</td> 
-   <td> <p>[！UICONTROL Team]或更高版本</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] 計劃</td> 
+   <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 授權*</td> 
-   <td> <p>[！UICONTROL計畫] </p> </td> 
+   <td><p>新增：標準</p> 
+   <p>目前： [！UICONTROL計畫] </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">存取層級設定*</td> 
-   <td> <p>[！UICONTROL View]對程式或更高版本的存取權</p> <p>[！UICONTROL Edit]專案的存取權</p> <p>注意：如果您還是沒有存取權，請詢問您的[!DNL Workfront]管理員是否對您的存取層級設定了其他限制。 如需[!DNL Workfront]管理員如何變更您的存取層級的詳細資訊，請參閱<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>。</p> </td> 
+   <td role="rowheader">存取層級</td> 
+   <td> <p>[！UICONTROL Edit]對程式或更高版本的存取權</p> <p>[！UICONTROL Edit]專案的存取權</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">物件許可權</td> 
-   <td> <p>[！UICONTROL View]計畫的許可權</p> <p>[！UICONTROL Manage]專案的許可權</p> <p>如需請求其他存取權的資訊，請參閱<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">請求物件</a>的存取權。</p> </td> 
+   <td> <p>[！UICONTROL Manage]程式許可權</p> <p>[！UICONTROL Manage]專案的許可權</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;若要瞭解您擁有的計畫、授權型別或存取權，請連絡您的[!DNL Workfront]管理員。
+*如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
++++
 
 ## 將專案新增至現有計畫
 
@@ -96,4 +101,4 @@ ht-degree: 0%
 1. （視條件而定）如果您選取&#x200B;**[!UICONTROL 現有專案]**，請執行下列動作：
 
    1. 在&#x200B;**[!UICONTROL 新增專案]**&#x200B;對話方塊中，在提供的欄位中輸入專案名稱，然後在其出現在清單中時選取它。 您可以一次新增多個專案。
-   1. 按一下&#x200B;**[!UICONTROL 新增專案]**。**{&#x200B;1}專案會出現在方案的**[!UICONTROL &#x200B;專案&#x200B;]**索引標籤中，且現在與方&#x200B;案和投資組合相關聯。 **
+   1. 按一下&#x200B;**[!UICONTROL 新增專案]**。**{&#x200B;1}專案會出現在方案的**[!UICONTROL &#x200B;專案&#x200B;]**索引標籤中，且現在與方&#x200B;案和投資組合相關聯。**

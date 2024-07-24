@@ -6,9 +6,9 @@ description: 我們建議您在啟動專案時，將專案新增至專案組合�
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 97f36c18-3ac8-45ac-b5bc-dfe8b1363faf
-source-git-commit: 49bd393af77a67aa1e3a443c4189569178e99ada
+source-git-commit: 7b0da61c301fe8f1f24aa27a469952fbd46987c5
 workflow-type: tm+mt
-source-wordcount: '376'
+source-wordcount: '378'
 ht-degree: 0%
 
 ---
@@ -33,8 +33,9 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 計劃</td> 
-   <td> <p>任何</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] 計畫*</td> 
+   <td> <p>新增：任何</p>
+   <p>目前：[！UICONTROL Business]或更高版本</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 授權*</td> 
@@ -42,12 +43,12 @@ ht-degree: 0%
    <p>目前：[！UICONTROL計畫] </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">存取層級設定</td> 
-   <td> <p>[！UICONTROL View]對Portfolio或更高版本的存取權</p> <p>[！UICONTROL Edit]專案的存取權</p> </td> 
+   <td role="rowheader">存取層級</td> 
+   <td> <p>[！UICONTROL Edit]存取Portfolio</p> <p>[！UICONTROL Edit]專案的存取權</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">物件許可權</td> 
-   <td> <p>投資組合的[！UICONTROL檢視]許可權</p> <p>[！UICONTROL Manage]專案的許可權</p>  </td> 
+   <td> <p>投資組合的[！UICONTROL Manage]許可權</p> <p>[！UICONTROL Manage]專案的許可權</p>  </td> 
   </tr> 
  </tbody> 
 </table>

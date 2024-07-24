@@ -7,7 +7,7 @@ author: Alina
 feature: Work Management, Tasks
 role: User
 exl-id: 611b136e-2c3f-4eac-9d75-e8c12e06148d
-source-git-commit: 070b0525f0cb2880d3c7daf88777ba48968ce759
+source-git-commit: 7b0da61c301fe8f1f24aa27a469952fbd46987c5
 workflow-type: tm+mt
 source-wordcount: '1985'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 
 <span class="preview">如需快速發行資訊，請參閱[為您的組織啟用或停用快速發行](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
 
-<span class="preview">如需目前版本的相關資訊，請參閱[2024年第三季版本總覽](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md)。</span>
+<span class="preview">如需目前版本的相關資訊，請參閱[2024年第四季版本總覽](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-release-overview.md)。</span>
 
 您可以將任務指派給使用者、工作角色或專案團隊，以指出負責完成任務的人員。 您可以一次將任務指派給多個資源。
 
@@ -55,6 +55,8 @@ ht-degree: 1%
 * [在工作負載平衡器中指派工作的總覽](../../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md)
 
 ## 存取需求
+
+<!-- Audited: 07/2024-->
 
 +++ 展開以檢視本文中功能的存取需求。
 
@@ -164,7 +166,7 @@ You cannot make a team be a Primary on a task/ issue. (Alina) -->
      ><span class="preview">新增工作角色指派時，您可以搜尋工作角色或位置。 從「工作角色」清單中選取角色，以使用指定之預設收費率，或從費率卡選取要使用收費率的「費率卡」工作角色。 如需費率卡的詳細資訊，請參閱[管理費率卡](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md)。</span>
 
 
-   * （視條件而定）顯示時，按一下&#x200B;**建議的指派**、**使用者和團隊**、**工作角色**&#x200B;或&#x200B;<span class="preview">**評等卡片角色**</span>&#x200B;清單中的其中一個名稱。 如需詳細資訊，請參閱[智慧指派總覽](../../../manage-work/tasks/assign-tasks/smart-assignments.md)。
+   * （視條件而定）顯示時，按一下&#x200B;<span class="preview">**建議的指派**</span>、**使用者和團隊**、**工作角色**&#x200B;或&#x200B;<span class="preview">**評等卡片角色**</span>&#x200B;清單中的其中一個名稱。 如需詳細資訊，請參閱[智慧指派總覽](../../../manage-work/tasks/assign-tasks/smart-assignments.md)。
 
      您可以開始鍵入要指派給任務的任何使用者、團隊或工作角色的名稱，然後當它顯示在清單中時選取它。
 

@@ -7,9 +7,9 @@ author: Alina
 feature: Timesheets
 role: User
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: 49bd393af77a67aa1e3a443c4189569178e99ada
+source-git-commit: 212dda4289e4d29dbfbff0dbdc55315215b5ad91
 workflow-type: tm+mt
-source-wordcount: '3553'
+source-wordcount: '3775'
 ht-degree: 0%
 
 ---
@@ -473,3 +473,36 @@ ht-degree: 0%
 
 您可以從Workfront行動應用程式記錄時間。
 如需詳細資訊，請參閱適用於Android的[Adobe Workfront](/help/quicksilver/workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-android.md)或適用於iOS的[Adobe Workfront](/help/quicksilver/workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-ios.md)。
+
+## 在清單和報告中編輯記錄時數
+
+您可以在下列區域編輯記錄時數：
+
+* 您在其中新增時數的所有區域，包括未完成的時程表
+* 小時清單和報告。
+
+在清單或報告中編輯小時專案時，可以編輯小時專案的下列元素：
+
+* 小時數
+* 時數類型
+* 與小時專案關聯的工作角色
+
+根據您編輯的小時專案型別，下列欄位可供編輯：
+
+* 編輯專案特定時數時：
+
+   * 您可以編輯小時數。
+   * 您只能將時數型別變更為專案特定型別。
+   * 只有在「設定」中啟用了工作角色指派時，您才能變更該小時。 如需詳細資訊，請參閱[設定時程表和小時喜好設定](/help/quicksilver/administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md)
+
+* 編輯一般時數時：
+
+   * 您可以編輯小時數。
+   * 您只能將時數型別變更為一般型別。
+   * 您無法變更工作角色指派的時數，因為一般時數無法與角色建立關聯。
+
+* 當您大量編輯一般和專案特定時數的組合時：
+
+   * 您可以編輯小時數。
+   * 您無法變更時數型別，因為一般時數型別無法變更為專案特定型別，且專案特定時數型別無法變更為一般型別。
+   * 您無法變更工作角色指派，因為一般時數無法與角色建立關聯。

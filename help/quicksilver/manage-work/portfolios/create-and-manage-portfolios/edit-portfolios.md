@@ -6,10 +6,10 @@ description: 您可以編輯已建立的投資組合資訊，或其他使用者�
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 0a2e18c3-1722-4fc6-8442-19e80eca9d47
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: 7b0da61c301fe8f1f24aa27a469952fbd46987c5
 workflow-type: tm+mt
-source-wordcount: '1063'
-ht-degree: 0%
+source-wordcount: '997'
+ht-degree: 1%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 ## 存取需求
 
-您必須具有下列存取權才能執行本文中的步驟：
++++ 展開以檢視本文中功能的存取需求。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -29,29 +29,35 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 計畫*</td> 
-   <td> <p>任何</p> </td> 
+   <td> <p>新增：任何</p>
+   <p>目前：[！UICONTROL Business]或更高版本</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe[!DNL Workfront]授權總覽*</td> 
-   <td> <p>[！UICONTROL計畫] </p> </td> 
+   <td role="rowheader">Adobe[!DNL Workfront]授權*</td> 
+   <td> <p>新增：標準</p>
+   <p>目前： [！UICONTROL計畫] </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">存取層級*</td> 
-   <td> <p>[！UICONTROL Edit]對Portfolio的存取權</p> <p>注意：如果您還是沒有存取權，請詢問您的[!DNL Workfront]管理員是否對您的存取層級設定了其他限制。 如需有關存取存取存取層級中投資組合的資訊，請參閱<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-portfolios.md" class="MCXref xref">授予投資組合的存取權</a>。 如需[!DNL Workfront]管理員如何變更您的存取層級的詳細資訊，請參閱<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>。 </p> </td> 
+   <td role="rowheader">存取層級</td> 
+   <td> <p>[！UICONTROL Edit]對Portfolio的存取權</p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">物件許可權</td> 
-   <td> <p>投資組合的[！UICONTROL Manage]許可權</p> <p> 如需授予投資組合許可權的相關資訊，請參閱<a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-portfolio.md" class="MCXref xref">共用投資組合</a>。 </p> <p>如需請求其他許可權的資訊，請參閱<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">請求物件</a>的存取權。</p> </td> 
+   <td> <p>投資組合的[！UICONTROL Manage]許可權</p>
+   <p> 管理投資組合中專案的許可權，以將其從投資組合中新增或移除</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-若要瞭解您擁有的計畫、授權型別或存取權，請連絡您的[!DNL Workfront]管理員。
+*如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
++++
 
 ## 編輯投資組合
 
-1. 移至&#x200B;**[!UICONTROL 主功能表]**。
-1. 按一下&#x200B;**[!UICONTROL Portfolio]**，然後按一下投資組合的名稱以開啟。
+{{step1-to-portfolios}}
+
+1. 按一下投資組合的名稱以開啟。
 1. （選擇性）若要編輯投資組合的有限資訊，請按一下左側面板中的&#x200B;**[!UICONTROL Portfolio詳細資料]**。
 
    ![](assets/portfolio-details-tab-nwe-350x163.png)

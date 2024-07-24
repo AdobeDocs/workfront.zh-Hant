@@ -7,14 +7,16 @@ description: 在管理任務和問題指派時，您可以使用智慧指派來�
 author: Alina
 feature: Work Management
 exl-id: 8d17eff6-5ff0-4985-b575-4934a3bb7c0b
-source-git-commit: 070b0525f0cb2880d3c7daf88777ba48968ce759
+source-git-commit: 7b0da61c301fe8f1f24aa27a469952fbd46987c5
 workflow-type: tm+mt
-source-wordcount: '1269'
+source-wordcount: '1247'
 ht-degree: 0%
 
 ---
 
 # 智慧指派總覽
+
+<!--Audited: 07/2024-->
 
 <!--keep the yellow around the Rate card job roles and the Preview intro for those-->
 
@@ -22,7 +24,7 @@ ht-degree: 0%
 
 <span class="preview">如需快速發行資訊，請參閱[為您的組織啟用或停用快速發行](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
 
-<span class="preview">如需目前版本的相關資訊，請參閱[2024年第三季版本總覽](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md)。</span>
+<span class="preview">如需目前版本的相關資訊，請參閱[2024年第四季版本總覽](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-release-overview.md)。</span>
 
 在管理任務和問題指派時，您可以使用智慧指派來識別誰是完成工作的最佳資源。 智慧型指派是Adobe Workfront在您根據演演算法將工作專案指派給資源時所顯示的建議，該演演算法會決定最適合工作的資源。 智慧指派可以是使用者、工作角色或團隊。
 
@@ -36,10 +38,10 @@ ht-degree: 0%
 
 使用智慧型指派時，請考量下列事項：
 
-* 演演算法可獨立處理任務和問題。 這表示問題的建議使用者清單可能與任務的建議使用者清單不同，因為Workfront會根據與問題和任務分別相關的准則來建立清單。
-* 智慧指派不建議職務角色或團隊。 相反地，他們是最適合完成任務或問題的使用者的建議。
-* 建議的指派一律為作用中的使用者。
-* 首先列出的使用者應該是此任務的最佳相符者。
+* <span class="preview">演演算法會針對任務和問題獨立運作。 這表示問題的建議使用者清單可能與任務的建議使用者清單不同，因為Workfront會根據與問題和任務分別相關的准則來建立清單。</span>
+<!--not sure this is accurate: * Smart assignments do not recommend job roles or teams. Instead, they are suggestions of users who are best fit to complete a task or an issue. -->
+* 建議的指派一律為作用中的使用者、工作角色或團隊。
+* 首先列出的資源應該是任務的最佳相符專案。
 
 ## 尋找智慧指派建議
 
@@ -51,11 +53,11 @@ ht-degree: 0%
 
 * 「工作總攬」欄中的任務清單或報告
 
-  ![](assets/smart-assignments-task-list.png)
+  <span class="preview">![](assets/smart-assignments-task-list.png)</span>
 
 * 工作列位中的任務標題
 
-  ![](assets/smart-assignments-task-header-nwe-350x302.png)
+  <span class="preview">![](assets/smart-assignments-task-header-nwe-350x302.png)</span>
 
 * 工作列位中的問題標題
 
@@ -67,7 +69,7 @@ ht-degree: 0%
 
 * 將任務新增至專案時，在「新增任務」方塊中的「工作總攬」欄位
 
-  ![](assets/smart-assignments-new-task-modal.png)
+  <span class="preview">![](assets/smart-assignments-new-task-modal.png)</span>
 
 <!--this is not possible in the new home  - we have Summary there: 
 * The Assignments field for an item listed in the Home area, when you open a task or issue
@@ -77,7 +79,7 @@ ht-degree: 0%
 
 * 當您指派任務或問題時，在「指派此給」區域的工作負載平衡器
 
-  ![](assets/smart-assignments-workload-balancer-bulk-assignments.png)
+  <span class="preview">![](assets/smart-assignments-workload-balancer-bulk-assignments.png)</span>
 
 
 ## 智慧指派條件
@@ -86,11 +88,13 @@ ht-degree: 0%
 
 ### 任務的智慧指派條件
 
-任務智慧型指派計算在兩個階段中運作，這兩個階段使用兩個不同的演演算法。
+工作智慧型指派計算在<span class="preview">兩個使用兩個不同演演算法的階段中運作。</span>
 
-根據尋找智慧指派的演演算法，指派會列在「指派」欄位的兩個獨立區段下。 如需詳細資訊，請參閱[進行智慧指派](/help/quicksilver/manage-work/tasks/assign-tasks/make-smart-assignments.md)。
+<span class="preview">根據哪一個演演算法找到智慧指派，指派會列在[指派]欄位的兩個不同區段下。</span>如需詳細資訊，請參閱[進行智慧指派](/help/quicksilver/manage-work/tasks/assign-tasks/make-smart-assignments.md)。
 
 ![](assets/smart-assignments-task-list.png)
+
+<div class="preview">
 
 #### 工作的智慧型指派計算的第一階段
 
@@ -127,6 +131,8 @@ ht-degree: 0%
 * 此階段中識別的指派會列在    任務指派欄位的&#x200B;**建議指派**&#x200B;區段。
 
 * 如果沒有符合使用此計算的專案，則智慧型指派的第二階段會使用不同的演演算法來開始計算。
+
+</div>
 
 #### 工作的智慧型指派計算的第二個階段
 

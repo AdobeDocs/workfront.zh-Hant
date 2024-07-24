@@ -7,14 +7,22 @@ author: Alina
 feature: Work Management, Resource Management
 role: User
 exl-id: 09780f78-4eb8-404d-859b-d066d462776d
-source-git-commit: 830ad0411084844ace1e1e543c3ebefcb558af80
+source-git-commit: 7b0da61c301fe8f1f24aa27a469952fbd46987c5
 workflow-type: tm+mt
-source-wordcount: '1110'
+source-wordcount: '1171'
 ht-degree: 0%
 
 ---
 
 # 建立進階任務指派
+
+<!-- Audited: 07/2024-->
+
+<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它只能在「預覽」環境中供所有客戶使用，或在「生產」環境中供啟用快速發行的客戶使用。</span>
+
+<span class="preview">如需快速發行資訊，請參閱[為您的組織啟用或停用快速發行](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
+
+<span class="preview">如需目前版本的相關資訊，請參閱[2024年第四季版本總覽](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-release-overview.md)。</span>
 
 您可以使用「進階指派」來管理任務或問題指派。
 
@@ -92,7 +100,7 @@ ht-degree: 0%
 
 1. 按一下&#x200B;**進階**。
 
-   ![按一下[進階]](assets/assignments-box-in-task-header.png)
+   <span class="preview">![按一下[進階]](assets/assignments-box-in-task-header.png)</span>
 
 1. 在&#x200B;**搜尋人員、角色和團隊**&#x200B;欄位中，開始輸入使用者、角色或團隊的名稱，然後在其出現在下拉式清單中時按一下該名稱。
 
@@ -138,15 +146,10 @@ ht-degree: 0%
      -->
 
      >[!TIP]
-     >
-     >
-     >   
      >   
      >   * 在您手動修改任務的指派分配後，任務的計畫時數可能會相應地更新。 如需詳細資訊，請參閱文章[計畫時數概觀](../../../manage-work/tasks/task-information/planned-hours.md)中的「管理使用者指派時更新任務計畫時數」一節。
      >   * 您無法手動修改問題的指派分配。
      >   * 您無法手動修改指派給任務的專案團隊的分配。
-     >   
-     >
 
    * **受指派人角色：**&#x200B;選取使用者完成此指派時應使用的角色。  預設會顯示使用者的主要角色。 按一下「受指派人的角色」方塊以選取其他角色。  當您先將任務或問題指派給角色，然後新增可以履行該角色的使用者作為第二個指派時，將會篩選建議使用者的清單，以顯示可以履行已指派給任務和問題的角色的使用者。
 

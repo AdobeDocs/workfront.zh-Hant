@@ -6,7 +6,7 @@ description: 您可以使用智慧指派來識別最佳使用者是何人來完�
 author: Alina
 feature: Work Management
 exl-id: 073a3234-3156-4b4f-a3e1-dbb32d61068a
-source-git-commit: 070b0525f0cb2880d3c7daf88777ba48968ce759
+source-git-commit: 7b0da61c301fe8f1f24aa27a469952fbd46987c5
 workflow-type: tm+mt
 source-wordcount: '547'
 ht-degree: 0%
@@ -23,15 +23,15 @@ ht-degree: 0%
 
 <span class="preview">如需快速發行資訊，請參閱[為您的組織啟用或停用快速發行](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
 
-<span class="preview">如需目前版本的相關資訊，請參閱[2024年第三季版本總覽](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md)。</span>
+<span class="preview">如需目前版本的相關資訊，請參閱[2024年第四季版本總覽](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-release-overview.md)。</span>
 
 您可以使用智慧指派來識別最佳使用者是何人來完成工作。
 
 智慧型指派是Adobe Workfront將工作專案指派給資源時，為您呈現的使用者、角色或團隊建議。 Workfront的建議以演演算法為基礎，而演演算法會決定最適合這項工作的資源。
 
-Workfront中有兩種不同的演演算法，可計算對任務和問題有不同處理方式的智慧型指派。
+<span class="preview">在Workfront中有兩種不同的演演算法，可計算在工作和問題中運作方式不同的智慧指派。</span>
 
-如需有關決定智慧指派所使用的條件的詳細資訊，請參閱[智慧指派總覽](../../../manage-work/tasks/assign-tasks/smart-assignments.md)。
+如需有關決定智慧指派所使用的條件的詳細資訊，請參閱[智慧指派總覽](/help/quicksilver/manage-work/tasks/assign-tasks/smart-assignments.md)。
 
 ## 存取需求
 
@@ -75,7 +75,7 @@ Workfront中有兩種不同的演演算法，可計算對任務和問題有不�
    * 任務、問題清單或報告
    * 任務或問題標題
    * 任務或問題摘要面板
-   * 新增任務或問題至專案時，顯示新任務或新問題方塊
+   * <span class="preview">新任務</span>或新問題方塊，當您新增<span class="preview">新任務</span>或問題至專案時
    * 「首頁」區域中列出之專案的「工作總攬」欄位
    * 工作負載平衡器中的任務或問題
 
@@ -90,14 +90,14 @@ Workfront中有兩種不同的演演算法，可計算對任務和問題有不�
 
    對於任務，智慧型指派會根據演演算法計算識別指派的階段，顯示在下列區段中：
 
-   * **建議的指派**：顯示任務智慧指派演演算法第一個階段中識別的指派。
+   * <span class="preview">**建議的指派**：顯示任務智慧指派演演算法第一個階段中識別的指派。</span>
    * **使用者和團隊**、**工作角色**，或&#x200B;<span class="preview">**評等卡片工作角色**</span>：在任務智慧指派演演算法計算的第二階段中識別的指派。
 
-   ![](assets/smart-assignments-task-list.png)
+   <span class="preview">![](assets/smart-assignments-task-list.png)</span>
 
    如需詳細資訊，請參閱[智慧指派總覽](../../../manage-work/tasks/assign-tasks/smart-assignments.md)。
 
-1. 按一下使用者名稱，在建議清單中選取使用者。
+1. 按一下資源名稱，在建議清單中選取資源。
 
 1. （選擇性）按一下&#x200B;**指派給我**&#x200B;以指派工作專案給您自己。
 

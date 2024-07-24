@@ -9,9 +9,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: ad0d141b-3e56-4bb1-be24-4dd9203e7881
-source-git-commit: ed179058cfec1332384ef76cb04598278109291b
+source-git-commit: 212dda4289e4d29dbfbff0dbdc55315215b5ad91
 workflow-type: tm+mt
-source-wordcount: '754'
+source-wordcount: '759'
 ht-degree: 1%
 
 ---
@@ -43,7 +43,9 @@ ht-degree: 1%
   >
   >如果您在[!DNL Workfront]系統中啟用任何特定專案小時型別，則必須在系統中的每個專案上啟用至少一個特定專案小時型別。 您無法在系統層級啟用特定專案小時型別，且在專案層級沒有可用的特定專案小時型別。
 
-* **一般時數型別**：一般時數無法與專案、任務或問題建立關聯，且會直接記錄到時程表中。 如需記錄時間的詳細資訊，請參閱[記錄時間](../../../timesheets/create-and-manage-timesheets/log-time.md)。
+* **一般時數型別**：一般時數無法與專案、任務或問題建立關聯，且會直接記錄到時程表中。
+
+如需有關記錄時數並將其與時數型別關聯的資訊，請參閱[記錄時間](/help/quicksilver/timesheets/create-and-manage-timesheets/log-time.md)。
 
 ## 存取需求
 

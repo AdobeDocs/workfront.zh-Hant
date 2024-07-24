@@ -6,9 +6,9 @@ description: 方案代表共用跨專案界限的共同策略、目標或目標�
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 6ec353c2-2241-47c2-8c59-1d8ddc43781e
-source-git-commit: 8769637342ab65f1e627107f7bfb41f9a3f61cca
+source-git-commit: 2ca8539855c2b08d71f47ad2e1b698496456f022
 workflow-type: tm+mt
-source-wordcount: '1038'
+source-wordcount: '1031'
 ht-degree: 1%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 1%
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 計劃</td>
 
-<td> <p>新增：任何</p><p>或</p><p>目前： [！UICONTROL Business]或更高版本</p> </td> 
+<td> <p>任何</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 授權</td> 
