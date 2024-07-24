@@ -6,9 +6,9 @@ description: ' [!DNL Workfront] 和Adobe Experience Cloud的一些功能不同�
 author: Nolan
 feature: Get Started with Workfront
 exl-id: b9076fe0-26d7-4f33-80a4-564875ea13ba
-source-git-commit: 019a1b61cd97d5d61f9a4fbf3f98eccab50809a8
+source-git-commit: 0cdd29a0fd58427197f1b9a4b4907089d3d86115
 workflow-type: tm+mt
-source-wordcount: '1288'
+source-wordcount: '1302'
 ht-degree: 0%
 
 ---
@@ -32,6 +32,7 @@ ht-degree: 0%
 | 「組織切換器」可讓您在[!DNL Workfront]組織和環境之間移動 | 「組織切換器」無法使用 |
 | 導覽除了包含[!DNL Workfront]導覽列之外，還包含[!DNL Adobe]產品、[!DNL Adobe]通知、說明和您的使用者設定檔的頂層導覽區域 | 導覽僅包含[!DNL Workfront]導覽列 |
 | 可透過[!UICONTROL 主功能表]和頂端導覽區域存取說明 | 可透過[!UICONTROL 主功能表]與[!DNL Workfront]導覽列存取說明 |
+| 校訂檢視器會在新標籤中開啟 | 校訂檢視器會在Workfront中開啟 |
 
 {style="table-layout:auto"}
 

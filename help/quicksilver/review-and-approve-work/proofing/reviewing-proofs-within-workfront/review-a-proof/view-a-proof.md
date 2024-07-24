@@ -6,16 +6,25 @@ description: 瞭解如何在校訂中檢視內容。
 author: Courtney
 feature: Digital Content and Documents
 exl-id: f44e191c-edce-4387-8ab0-7a014d094a29
-source-git-commit: ae80999fc7ea7e35097560aa99baa435bcd31b74
+source-git-commit: 0cdd29a0fd58427197f1b9a4b4907089d3d86115
 workflow-type: tm+mt
-source-wordcount: '856'
+source-wordcount: '897'
 ht-degree: 0%
 
 ---
 
 # 在校訂中檢視內容
 
+您可以使用校訂檢視器在Workfront中檢視和標示檔案。
+
+>[!NOTE]
+>
+>如果您的Workfront執行個體位於統一體驗上，則校訂檢視器會在新標籤中開啟。
+
+
 ## 存取需求
+
++++ 展開以檢視本文中功能的存取需求。
 
 您必須具有下列存取權才能執行本文中的步驟：
 
@@ -43,6 +52,8 @@ ht-degree: 0%
 </table>
 
 &#42;若要瞭解您擁有的計畫、角色或校訂許可權設定檔，請連絡您的Workfront或Workfront Proof管理員。
+
++++
 
 ## 變更校訂的檢視
 
