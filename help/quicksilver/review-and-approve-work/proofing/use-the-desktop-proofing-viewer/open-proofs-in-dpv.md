@@ -6,9 +6,9 @@ description: 如果您無法開啟如下所述的校訂，請聯絡您的Adobe W
 author: Courtney
 feature: Digital Content and Documents
 exl-id: bff8bf09-fca7-41cb-b6bc-813f08d3e18f
-source-git-commit: 69b1677835ea783aa9baf5026e782440395013f0
+source-git-commit: 21d4fb3bd2a6c08b390338d28e357a80f4befeae
 workflow-type: tm+mt
-source-wordcount: '241'
+source-wordcount: '252'
 ht-degree: 5%
 
 ---
@@ -18,6 +18,8 @@ ht-degree: 5%
 如果您無法開啟如下所述的校訂，請聯絡您的Adobe Workfront管理員或Workfront Proof管理員。
 
 ## 存取需求
+
++++ 展開以檢視本文中功能的存取需求。
 
 您必須具有下列存取權才能執行本文中的步驟：
 
@@ -43,6 +45,8 @@ ht-degree: 5%
   </tr> 
  </tbody> 
 </table>
+
++++
 
 {{latest-version}}
 

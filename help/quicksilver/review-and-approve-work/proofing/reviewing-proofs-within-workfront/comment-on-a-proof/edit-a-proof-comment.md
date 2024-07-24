@@ -6,9 +6,9 @@ description: 將回覆新增至評論後，便無法編輯評論。 此限制會
 author: Courtney
 feature: Digital Content and Documents
 exl-id: ae92fb7d-372f-4cae-b0c3-03801248ccdc
-source-git-commit: 49950895440fec8cebdf12ec81191c6e890383cf
+source-git-commit: 8af531868249f609113af6d2a8465af01edcbc3f
 workflow-type: tm+mt
-source-wordcount: '365'
+source-wordcount: '376'
 ht-degree: 1%
 
 ---
@@ -18,6 +18,8 @@ ht-degree: 1%
 將回覆新增至評論後，便無法編輯評論。 此限制會維持註解執行緒的完整性。 編輯註解時，建立註解的時間不受影響。
 
 ## 存取需求
+
++++ 展開以檢視本文中功能的存取需求。
 
 您必須具有下列存取權才能執行本文中的步驟：
 
@@ -50,6 +52,8 @@ ht-degree: 1%
 
 &#42;若要瞭解您擁有的計畫、角色或校訂許可權設定檔，請連絡您的Workfront或Workfront Proof管理員。
 
++++
+
 ## 編輯校訂評論
 
 您可以編輯對校樣所做的任何評論。 此外，下列使用者可以編輯其他使用者所做的註解：
@@ -69,7 +73,7 @@ ht-degree: 1%
 
 1. ![Edit_a_comment-More_icon.png](assets/edit-a-comment-more-icon.png)
 
-1. 在註解中進行任何變更，然後按一下&#x200B;**Post**。
+1. 在註解中進行任何變更，然後按一下&#x200B;**貼文**。
 
    >[!NOTE]
    >

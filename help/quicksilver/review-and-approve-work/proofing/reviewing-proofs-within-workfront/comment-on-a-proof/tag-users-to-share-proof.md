@@ -6,9 +6,9 @@ description: 當您在校訂檢視器中對校訂發表評論時，您可以標�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 4efbfdeb-3834-48dd-aa5b-515891bac519
-source-git-commit: 49950895440fec8cebdf12ec81191c6e890383cf
+source-git-commit: 8af531868249f609113af6d2a8465af01edcbc3f
 workflow-type: tm+mt
-source-wordcount: '710'
+source-wordcount: '721'
 ht-degree: 0%
 
 ---
@@ -23,6 +23,8 @@ ht-degree: 0%
 * 如果您是以外部使用者的身分新增到校訂中，並且您是另一個環境的成員，具有不同的校訂帳戶，則您只能標籤來自原始環境的那些使用者。<!--For more information, see [Proofing collaboration limitations with people outside of your organization](../../../../review-and-approve-work/proofing/tips-tricks-and-troubleshooting/collaboration-with-members-outside-of-your-organization.md)-->
 
 ## 存取需求 {#access-requirements}
+
++++ 展開以檢視本文中功能的存取需求。
 
 您必須具有下列存取權才能執行本文中的步驟：
 
@@ -55,6 +57,8 @@ ht-degree: 0%
 
 &#42;若要瞭解您擁有的計畫、角色或校訂許可權設定檔，請連絡您的Workfront或Workfront Proof管理員。
 
++++
+
 ## 標籤要共用校訂的使用者
 
 擁有上述[存取需求](#access-requirements)區段中概述之校訂許可權設定檔或校訂角色的使用者，預設可標籤使用者以共用校訂。 如果您是校訂擁有者或建立者，則無論校訂許可權設定檔或校訂角色為何，您都可以標籤使用者以共用校訂。 您可以讓擁有較低校訂許可權設定檔或校訂角色的使用者在建立校訂時標籤使用者以共用校訂。 如需詳細資訊，請參閱[使用基本工作流程建立進階校訂](../../../../review-and-approve-work/proofing/creating-proofs-within-workfront/configure-basic-proof-workflow.md)文章中的[設定工作流程並新增檢閱者](../../../../review-and-approve-work/proofing/creating-proofs-within-workfront/configure-basic-proof-workflow.md#configur)區段。
@@ -76,7 +80,7 @@ ht-degree: 0%
    >如果您要關閉下拉式清單而不選取任何人，可以按&#x200B;**Esc**&#x200B;鍵或按一下清單之外的任何位置。
 
 1. 對您要在註解中標籤的任何其他使用者重複步驟1至2。
-1. 完成註解，然後按一下&#x200B;**Post**。
+1. 完成註解，然後按一下&#x200B;**貼文**。
 1. （視條件而定）如果您已標籤尚未新增至校訂的任何人，請為顯示的方塊中列出的每個使用者指定&#x200B;**校訂角色**&#x200B;和&#x200B;**電子郵件警示**&#x200B;設定，然後按一下&#x200B;**新增人員並張貼評論**。
 
    ![](assets/add-people-to-proof-350x220.png)

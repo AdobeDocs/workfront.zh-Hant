@@ -6,9 +6,9 @@ description: 註解可讓您提供內容的意見回饋，並與校訂檢視器�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: b0386786-7f90-4d1c-bd3a-1cd545430de1
-source-git-commit: 49950895440fec8cebdf12ec81191c6e890383cf
+source-git-commit: 8af531868249f609113af6d2a8465af01edcbc3f
 workflow-type: tm+mt
-source-wordcount: '776'
+source-wordcount: '787'
 ht-degree: 0%
 
 ---
@@ -23,6 +23,8 @@ ht-degree: 0%
 * 如果您是以外部使用者的身分新增到校訂中，並且您是另一個環境的成員，具有不同的校訂帳戶，則您只能標籤來自原始環境的那些使用者。<!--For more information, see [Proofing collaboration limitations with people outside of your organization](../../../../review-and-approve-work/proofing/tips-tricks-and-troubleshooting/collaboration-with-members-outside-of-your-organization.md)-->
 
 ## 存取需求
+
++++ 展開以檢視本文中功能的存取需求。
 
 您必須具有下列存取權才能執行本文中的步驟：
 
@@ -55,6 +57,8 @@ ht-degree: 0%
 
 &#42;若要瞭解您擁有的計畫、角色或校訂許可權設定檔，請連絡您的Workfront或Workfront Proof管理員。
 
++++
+
 ## 對校訂進行評論
 
 1. 前往包含檔案的專案、任務或問題，然後選取「**檔案**」。
@@ -78,17 +82,17 @@ ht-degree: 0%
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader"><strong>Draw手繪線</strong> </td> 
+      <td role="rowheader"><strong>繪製手繪線</strong> </td> 
       <td> <img src="assets/freehand-line.png"> </td> 
       <td>可讓您在選取的區域新增手繪線。</td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>Draw一行</strong> </td> 
+      <td role="rowheader"><strong>繪製線條</strong> </td> 
       <td> <img src="assets/line.png"> </td> 
       <td>可讓您在選取的區域上繪製線條。</td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>Draw箭號</strong> </td> 
+      <td role="rowheader"><strong>繪製箭頭</strong> </td> 
       <td> <img src="assets/arrow.png"> </td> 
       <td>可讓您新增箭頭至您選取的區域。</td> 
      </tr> 
@@ -98,7 +102,7 @@ ht-degree: 0%
       <td>反白您選取的區域。</td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>Draw矩形</strong> </td> 
+      <td role="rowheader"><strong>繪製矩形</strong> </td> 
       <td> <img src="assets/rectangle.png"> </td> 
       <td>可讓您在區域周圍繪製矩形。</td> 
      </tr> 
