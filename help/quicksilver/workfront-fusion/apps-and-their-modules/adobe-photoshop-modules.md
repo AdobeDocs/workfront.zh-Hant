@@ -9,7 +9,7 @@ description: 透過Adobe Photoshop模組，您可以根據Adobe Photoshop帳戶�
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: f20192ea-e363-4fba-8bd2-b1d50443918d
-source-git-commit: 1de5018a13f1fbe4383ce9655bc3fe29612b1411
+source-git-commit: 5b2de063836c2cf668e14edfbc5a12f9321d26ca
 workflow-type: tm+mt
 source-wordcount: '3966'
 ht-degree: 0%
@@ -25,9 +25,9 @@ ht-degree: 0%
 
 如需模組的相關資訊，請參閱 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/modules.md)中的[模組。
 
-+++**展開以檢視本文中功能的存取需求。**
-
 ## 存取需求
+
++++**展開以檢視本文中功能的存取需求。**
 
 您必須具有下列存取權才能使用本文中的功能：
 
