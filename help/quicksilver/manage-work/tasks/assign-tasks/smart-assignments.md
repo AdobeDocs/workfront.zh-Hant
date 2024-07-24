@@ -7,7 +7,7 @@ description: 在管理任務和問題指派時，您可以使用智慧指派來�
 author: Alina
 feature: Work Management
 exl-id: 8d17eff6-5ff0-4985-b575-4934a3bb7c0b
-source-git-commit: 7b0da61c301fe8f1f24aa27a469952fbd46987c5
+source-git-commit: 758dae749d324326857a330c8a23954764e68fd1
 workflow-type: tm+mt
 source-wordcount: '1247'
 ht-degree: 0%
@@ -51,13 +51,13 @@ ht-degree: 0%
 
   ![](assets/smart-assignments-issue-list.png)
 
-* 「工作總攬」欄中的任務清單或報告
+* <span class="preview">工作分派資料行中的工作清單或報告</span>
 
-  <span class="preview">![](assets/smart-assignments-task-list.png)</span>
+  ![](assets/smart-assignments-task-list.png)
 
-* 工作列位中的任務標題
+* <span class="preview">工作分派欄位中的任務標題</span>
 
-  <span class="preview">![](assets/smart-assignments-task-header-nwe-350x302.png)</span>
+  ![](assets/smart-assignments-task-header-nwe-350x302.png)
 
 * 工作列位中的問題標題
 
@@ -67,9 +67,9 @@ ht-degree: 0%
 
   ![](assets/issue-assignments-summary-panel.png)
 
-* 將任務新增至專案時，在「新增任務」方塊中的「工作總攬」欄位
+* <span class="preview">將任務新增至專案時，[新增任務]方塊中的[工作總攬]欄位</span>
 
-  <span class="preview">![](assets/smart-assignments-new-task-modal.png)</span>
+  ![](assets/smart-assignments-new-task-modal.png)
 
 <!--this is not possible in the new home  - we have Summary there: 
 * The Assignments field for an item listed in the Home area, when you open a task or issue
@@ -77,9 +77,9 @@ ht-degree: 0%
   ![](assets/smart-assignments-in-home-nwe-350x216.png)
 -->
 
-* 當您指派任務或問題時，在「指派此給」區域的工作負載平衡器
+* 當您指派任務或問題時<span class="preview">在指派此給區域的工作負載平衡器</span>
 
-  <span class="preview">![](assets/smart-assignments-workload-balancer-bulk-assignments.png)</span>
+  ![](assets/smart-assignments-workload-balancer-bulk-assignments.png)
 
 
 ## 智慧指派條件
