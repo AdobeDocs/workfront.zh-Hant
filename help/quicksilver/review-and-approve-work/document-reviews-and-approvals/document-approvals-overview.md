@@ -6,22 +6,47 @@ description: 您可以將其他核准者或稽核者新增至已有待核准的�
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 32cb95c2-8d12-492b-ad89-b38e2a337fc5
-source-git-commit: 3fc398c4ce2283964982ac0dd00b9533f62c11c0
+source-git-commit: 3eb17c355f78e14924c8ef36570b76d5719e322e
 workflow-type: tm+mt
-source-wordcount: '486'
-ht-degree: 2%
+source-wordcount: '574'
+ht-degree: 1%
 
 ---
 
 # 新檔案核准總覽
 
-新檔案核准是目前正在為Adobe Workfront開發的現有核准流程的整體重新設計。 目前限量發行，旨在為需要全面利害關係人參與和特定版本檔案核准的企業提供實用而有效的解決方案。 其深思熟慮的設計和有目的的新功能有助於協同合作、角色清晰度以及核准流程中的版本控制，從而提高效率和加強問責制。
-
-請繼續閱讀下文，以取得新檔案核准的計畫功能和版本的詳細資訊。
-
 >[!IMPORTANT]
 >
 >本文內容指的更新檔案核准功能僅適用於特定帳戶。 如需有關標準核准程式的資訊，請參閱[工作核准](/help/quicksilver/review-and-approve-work/manage-approvals/manage-approvals.md)中列出的文章。
+
+新檔案核准是目前正在為Adobe Workfront開發的現有核准流程的整體重新設計。 目前限量發行，旨在為需要全面利害關係人參與和特定版本檔案核准的企業提供實用而有效的解決方案。 其深思熟慮的設計和有目的的新功能有助於協同合作、角色清晰度以及核准流程中的版本控制，從而提高效率和加強問責制。
+
+## 與校訂和舊版檔案核准的主要差異
+
+**校訂**
+
+* 校訂檢視器中無法使用檔案核准決定按鈕。 您可以在檔案摘要、Workfront首頁Widget或檔案詳細資訊頁面上做出決定。
+* 檔案核准參與者顯示在檔案「摘要」中，而不是校訂工作流程標籤中。
+* 目前報告工具不支援新檔案核准。 新首頁和畫布儀表板中可用的所有核准Widget提供以下有關新檔案核准的詳細資訊：
+
+   * 核准 (依決策區分)
+   * 平均核准時間
+   * 待處理的核准
+   * 逾期核准
+
+**舊版檔案核准**
+
+* 除了核准者之外，您還可以新增稽核者。
+* 您可以將整個Workfront團隊指定為稽核者或核准者。
+* 您可以設定稽核或核准的截止日期。
+* 您可以建立並重新使用核准範本。
+* 您可以在Workfront首頁Widget中檢視您核准的多個關鍵績效指標。
+
+## 使用新檔案核准
+
+若使用者希望建立或管理檔案核准，請參閱[設定及管理資產和檔案核准：文章索引](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/set-up-and-manage-doc-asset-approvals-toc.md)中列出的文章
+
+若使用者希望檢閱或核准他們收到請求的檔案，請參閱[核准和檢閱檔案中列出的文章：文章索引](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-documents-toc.md)。
 
 ## 新功能和設計目標
 
@@ -45,17 +70,4 @@ ht-degree: 2%
 
 如果您想要在生產環境中啟用新檔案核准，請聯絡您的客戶成功案例或策略客戶經理。
 
-## 使用新檔案核准
 
-若使用者希望建立或管理檔案核准，請參閱[設定及管理資產和檔案核准：文章索引](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/set-up-and-manage-doc-asset-approvals-toc.md)中列出的文章
-
-若使用者希望檢閱或核准他們收到請求的檔案，請參閱[核准和檢閱檔案中列出的文章：文章索引](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-documents-toc.md)。
-
->[!IMPORTANT]
->
->目前的報告工具不支援新檔案核准。 新首頁和畫布儀表板中可用的所有核准Widget提供以下有關新檔案核准的詳細資訊：
->
->* 核准 (依決策區分)
->* 平均核准時間
->* 待處理的核准
->* 逾期核准
