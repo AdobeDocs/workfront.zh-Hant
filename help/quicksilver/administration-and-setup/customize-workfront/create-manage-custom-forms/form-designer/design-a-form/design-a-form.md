@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: e52881a03f69d7c4d6a62dcdc9c6044f6f5dd016
+source-git-commit: 969231d27e1ef2f3f3cd2847664c22f1f21f1911
 workflow-type: tm+mt
-source-wordcount: '6101'
+source-wordcount: '6090'
 ht-degree: 4%
 
 ---
@@ -538,7 +538,6 @@ ht-degree: 4%
 
 >[!NOTE]
 >
->* 檔案自訂表單目前不支援外部查詢功能。
 >* 儀表板目前不支援來自自訂表單的外部查閱欄位。 您無法內嵌編輯欄位值，而且該欄位值在儀表板中可能無法正確顯示。 （畫布儀表板支援外部查詢欄位。）
 >* Outlook外掛程式不支援外部查閱欄位。
 >* 外部查詢欄位可在清單中使用，除非該欄位與其他欄位具有相依性。
