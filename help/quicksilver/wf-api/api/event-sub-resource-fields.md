@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 54859930-7619-4b93-8dff-29b10e43d6d5
-source-git-commit: a73e8b8f8107d9fe8cab44ceaff7e090b483069f
+source-git-commit: d1ebd0ddcbcb7464bcab563d1d8fb1e04eeb85ee
 workflow-type: tm+mt
-source-wordcount: '712'
+source-wordcount: '711'
 ht-degree: 10%
 
 ---
@@ -97,12 +97,12 @@ ht-degree: 10%
    <td> </td> 
    <td> </td> 
    <td> opTaskId </td> 
-  </tr> 
+  </tr><!-- 
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td> parametervalues </td> 
-  </tr> 
+   <td> parameterValues </td> 
+  </tr> -->
   <tr> 
    <td> </td> 
    <td> </td> 
