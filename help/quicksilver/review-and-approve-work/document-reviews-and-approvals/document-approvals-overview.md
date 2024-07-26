@@ -6,9 +6,9 @@ description: 您可以將其他核准者或稽核者新增至已有待核准的�
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 32cb95c2-8d12-492b-ad89-b38e2a337fc5
-source-git-commit: 3eb17c355f78e14924c8ef36570b76d5719e322e
+source-git-commit: 0b92e1b80aab05e1deb4651ef41f2a042d697e1e
 workflow-type: tm+mt
-source-wordcount: '574'
+source-wordcount: '589'
 ht-degree: 1%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 1%
 
 ## 與校訂和舊版檔案核准的主要差異
 
-**校訂**
+**與校訂的差異**
 
 * 校訂檢視器中無法使用檔案核准決定按鈕。 您可以在檔案摘要、Workfront首頁Widget或檔案詳細資訊頁面上做出決定。
 * 檔案核准參與者顯示在檔案「摘要」中，而不是校訂工作流程標籤中。
@@ -34,13 +34,17 @@ ht-degree: 1%
    * 待處理的核准
    * 逾期核准
 
-**舊版檔案核准**
+**與舊版檔案核准的差異**
 
-* 除了核准者之外，您還可以新增稽核者。
-* 您可以將整個Workfront團隊指定為稽核者或核准者。
-* 您可以設定稽核或核准的截止日期。
-* 您可以建立並重新使用核准範本。
-* 您可以在Workfront首頁Widget中檢視您核准的多個關鍵績效指標。
+有了新檔案核准，您可以
+
+* 除了核准者之外，還新增檢閱者
+* 將整個Workfront團隊指定為稽核者或核准者
+* 設定檢閱或核准的期限
+* 建立及重新使用核准範本
+* 利用新版本
+* 在Workfront首頁Widget中檢視您核准的多個關鍵績效指標
+* 使用畫布儀表板可檢視有關新檔案核准的報告詳細資訊
 
 ## 使用新檔案核准
 
