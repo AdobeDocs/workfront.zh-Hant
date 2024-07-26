@@ -6,9 +6,9 @@ description: 您可以刪除重複或建立有誤的任務。
 author: Alina
 feature: Work Management
 exl-id: aee5c293-e5fa-413e-9d9b-c62528941be7
-source-git-commit: 7c373707f6e5ec1431e38cc0e103e25cd8cf2309
+source-git-commit: 463fc65db6adb5cae6ecffb2e165155c89a63d6d
 workflow-type: tm+mt
-source-wordcount: '855'
+source-wordcount: '851'
 ht-degree: 1%
 
 ---
@@ -118,7 +118,7 @@ ht-degree: 1%
    1. （視條件而定）啟用&#x200B;**自動儲存**&#x200B;切換功能時：
 
       1. 選取您要刪除的工作，然後按一下&#x200B;**更多**
-      1. 按一下&#x200B;**刪除**，然後按&#x200B;**是，刪除它**&#x200B;以確認刪除。
+      1. 按一下&#x200B;**刪除**，然後按一下&#x200B;**刪除**&#x200B;以確認刪除。
 
          任務即被刪除。
 
@@ -149,7 +149,7 @@ ht-degree: 1%
    ![](assets/delete-tasks-task-level-nwe-350x225.png)
 
 1. 按一下&#x200B;**刪除工作**。
-1. 如果允許刪除，請按一下&#x200B;**是，刪除**。
+1. 如果允許刪除，請按一下&#x200B;**刪除**。
 
    您的Workfront管理員或群組管理員可能不允許刪除記錄時數的任務。
 
