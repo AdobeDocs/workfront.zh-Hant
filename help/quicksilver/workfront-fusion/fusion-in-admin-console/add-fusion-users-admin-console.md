@@ -8,9 +8,9 @@ description: 您可以將使用者新增到Adobe Admin Console並將他們指派
 author: Becky
 feature: Workfront Fusion
 exl-id: c8924e00-1154-4cf8-84e8-472251b5fc28
-source-git-commit: 8b4182ae2b32488a02cacc16fcb6a246fcb571fd
+source-git-commit: b7ceec2750ded516cae20d12b991b8fec94c6029
 workflow-type: tm+mt
-source-wordcount: '628'
+source-wordcount: '638'
 ht-degree: 1%
 
 ---
@@ -143,6 +143,6 @@ ht-degree: 1%
 
 ## 將[!DNL Adobe Admin Console]中的現有使用者指派給[!DNL Workfront Fusion]
 
-1. 開始編輯使用者，如[!DNL Adobe Admin Console]檔案中文章[個別管理使用者](https://helpx.adobe.com/enterprise/using/manage-users-individually.html)的「編輯使用者詳細資訊」一節中所述。
+您可以在Fusion中將現有使用者新增到團隊。 這會在Fusion中處理。
 
-1. 將&#x200B;**[!DNL Adobe Workfront Fusion]**&#x200B;新增至指派給使用者的產品。
+如需指示，請參閱在Adobe Workfront Fusion中將使用者新增至組織或團隊一文中的[將使用者新增至團隊](/help/quicksilver/workfront-fusion/organizations/add-user-to-an-organization.md#add-a-user-to-a-team)。

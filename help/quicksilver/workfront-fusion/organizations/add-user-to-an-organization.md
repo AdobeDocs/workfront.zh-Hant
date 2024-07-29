@@ -7,20 +7,20 @@ description: 您可以在Adobe Workfront Fusion中新增使用者至組織。
 author: Becky
 feature: Workfront Fusion
 exl-id: 98248cca-98f5-4eb5-b203-67e261df33f1
-source-git-commit: 447ab70566d5f9de3bc368933c9efdb94d2b9e7e
+source-git-commit: 1b4a6d2b2ad57ddf1afd5dadf8b1fed358f95b61
 workflow-type: tm+mt
-source-wordcount: '395'
+source-wordcount: '623'
 ht-degree: 0%
 
 ---
 
-# 在Adobe Workfront Fusion中新增使用者至組織
+# 在Adobe Workfront Fusion中新增使用者至組織或團隊
 
 >[!IMPORTANT]
 >
 >本頁所述的程式僅適用於尚未上線到[!DNL Adobe Admin Console]的組織。 如果您的組織已加入[!DNL Adobe Admin Console]，您必須透過[!DNL Adobe Admin Console]執行此動作。
 >
->如需在[!DNL  Adobe Admin Console]中新增使用者的指示，請參閱文章[個別管理使用者](https://helpx.adobe.com/enterprise/using/manage-users-individually.html)中的「編輯使用者詳細資訊」一節，或連絡您的[!UICONTROL Adobe Admin Console]系統管理員。
+>如需在貴組織移至[!DNL  Adobe Admin Console]和Adobe統一體驗後新增使用者的指示，請參閱[透過 [!DNL Adobe Admin Console]](/help/quicksilver/workfront-fusion/fusion-in-admin-console/add-fusion-users-admin-console.md)新增使用者至 [!DNL Adobe Workfront Fusion] 。
 >
 >如需根據貴組織是否已加入Adobe Admin Console而有所差異的程式清單，請參閱[以平台為基礎的管理差異(Adobe Workfront Fusion/Adobe Business Platform)](../../../quicksilver/workfront-fusion/fusion-in-admin-console/fusion-in-admin-console.md)。
 
@@ -100,13 +100,65 @@ ht-degree: 0%
 
 1. 導覽至功能表中的&#x200B;**[!UICONTROL 組織]**，並選取您要新增使用者的組織。
 1. 開啟儀表板中的&#x200B;**[!UICONTROL 使用者]**&#x200B;索引標籤。
-1. 按一下&#x200B;**[!UICONTROL 邀請新使用者]**，填寫表單（電子郵件、訊息、角色），然後按一下&#x200B;**[!UICONTROL 傳送]**&#x200B;來傳送邀請。
+1. 按一下&#x200B;**[!UICONTROL 邀請新使用者]**，並按一下&#x200B;**[!UICONTROL 傳送]**&#x200B;以傳送邀請。
 
->[!NOTE]
->
->   
->如果您看不到[!UICONTROL 邀請新使用者]按鈕，表示貴組織已加入[!DNL Adobe Business Platform.]
->
->  如需新增使用者至已加入[!DNL Adobe Business Platform]之組織的指示，請參閱[透過 [!DNL Adobe Admin Console]](/help/quicksilver/workfront-fusion/fusion-in-admin-console/add-fusion-users-admin-console.md)新增使用者至 [!DNL Adobe Workfront Fusion] 
+   >[!NOTE]
+   >
+   >   
+   >如果您看不到[!UICONTROL 邀請新使用者]按鈕，表示貴組織已加入[!DNL Adobe Business Platform.]
+   >
+   >  如需新增使用者至已加入[!DNL Adobe Business Platform]之組織的指示，請參閱[透過 [!DNL Adobe Admin Console]](/help/quicksilver/workfront-fusion/fusion-in-admin-console/add-fusion-users-admin-console.md)新增使用者至 [!DNL Adobe Workfront Fusion] 
+
+1. 填寫表單。
+
+   <table style="table-layout:auto">
+<col/>
+  <col/>
+  <tbody>
+    <tr>
+      <td role="rowheader">[！UICONTROL電子郵件地址]</td>
+      <td>
+        輸入使用者的電子郵件地址
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">[！UICONTROL名稱]</td>
+      <td>
+        <p>輸入使用者的全名</p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">[！UICONTROL角色] </td>
+      <td>選取使用者的角色。 如需角色說明，請參閱<a href="/help/quicksilver/workfront-fusion/organizations/organization-roles.md">組織和團隊角色。</a></p>
+   </td>
+    </tr>
+    <tr>
+      <td role="rowheader">團隊</td>
+      <td>選取您希望使用者成為其成員的所有團隊。</td>
+    </tr>
+    <tr>
+      <td role="rowheader">備註</td>
+      <td>輸入使用者的附註。 此附註會出現在使用者的邀請電子郵件中。</td>
+    </tr>
+  </tbody>
+</table>
 
 使用者會收到一封邀請電子郵件，讓他們可以接受邀請。
+
+## 新增使用者至團隊
+
+建立團隊時，會將您的使用者指派給團隊。 如果需要將現有使用者新增至團隊，您可以將他們新增至團隊的「使用者」頁面。
+
+系統會從該團隊的頁面處理將使用者新增至團隊的程式。
+
+1. 前往您要新增使用者的團隊，方法是選取左側面板中的&#x200B;**組織**，按一下組織頁面上的&#x200B;**團隊**&#x200B;索引標籤，然後選取團隊。
+
+   或
+
+   如果您在另一個團隊的頁面上，請按一下頁面頂端的團隊下拉式清單。
+
+1. 在團隊的頁面（頁面頂端有團隊名稱）上，選取&#x200B;**使用者**&#x200B;索引標籤。
+1. 在頁面上找出使用者。 您組織中的使用者即使不是團隊成員，也會出現在此頁面上。
+1. 按一下使用者名稱右邊的&#x200B;**無**，然後選取您希望他們在團隊中的角色。
+
+使用者會新增至團隊。
