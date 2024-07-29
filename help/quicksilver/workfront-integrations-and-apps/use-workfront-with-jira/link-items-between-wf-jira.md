@@ -6,9 +6,9 @@ description: 您可以自動或手動將 [!DNL Jira] 問題連結至 [!DNL Adobe
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 1c37f361-e866-4ac6-b672-408848a80ed6
-source-git-commit: f22a67cd3235a3111f7b874637ec05f8299de271
+source-git-commit: f2169acfbcbf6a1497bd35de01821a09c7b3d59c
 workflow-type: tm+mt
-source-wordcount: '1158'
+source-wordcount: '1229'
 ht-degree: 0%
 
 ---
@@ -136,18 +136,24 @@ ht-degree: 0%
 若要手動將[!DNL Jira]個問題連結至[!DNL Workfront]個專案：
 
 1. （視條件而定）登入[!DNL Workfront]並尋找您要連結至[!DNL Jira]問題的問題或任務。
-1. （條件式）從專案的位址列，複製Workfront中專案的&#x200B;**URL**。
+1. （視條件而定）從[!UICONTROL 詳細資料]區域，複製Workfront中專案的&#x200B;**[!UICONTROL 參考編號]**。
 
    或
 
-   從[!UICONTROL 詳細資料]區域，複製Workfront中專案的&#x200B;**[!UICONTROL 參考編號]**。
+   從專案的位址列，複製Workfront中專案的&#x200B;**URL**。
+
+   >[!IMPORTANT]
+   >
+   >如果您的組織已加入Adobe統一體驗，您必須使用&#x200B;**參考編號**&#x200B;將Workfront專案連結至Jira。 （URL選項可供使用，但如果您使用它，則會傳回錯誤。） 如需Unified Experience的相關資訊，請參閱[Workfront的AdobeUnified Experience](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md)。
+   >
+   >對於不在Adobe統一體驗中的組織，不建議使用URL選項，因為URL可能會變更。
 
    >[!NOTE]
    >
    >您必須擁有[!DNL Workfront]授權才能登入[!DNL Workfront]。 否則，[!DNL Workfront]使用者必須提供此資訊給您。
 
 1. 在[!DNL Jira]中，瀏覽至您要手動連結至[!DNL Workfront]專案的問題。
-1. 在[!DNL Workfront]右側面板中，貼上您要連結至之[!DNL Workfront]專案的&#x200B;**URL**&#x200B;或&#x200B;**[!UICONTROL 參考號碼]**。
+1. 在[!DNL Workfront]右側面板中，貼上您要連結至之[!DNL Workfront]專案的&#x200B;**[!UICONTROL 參考號碼]**&#x200B;或&#x200B;**URL**。
 
 1. 按一下&#x200B;**[!UICONTROL 連結]**。
 
