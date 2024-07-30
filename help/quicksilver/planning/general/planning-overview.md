@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: 49bd393af77a67aa1e3a443c4189569178e99ada
+source-git-commit: eac37369a79303c1477d95aeb9f560aa0089da75
 workflow-type: tm+mt
-source-wordcount: '1989'
+source-wordcount: '1994'
 ht-degree: 2%
 
 ---
@@ -101,6 +101,7 @@ Adobe Workfront規劃是Adobe Workfront的新產品。 Workfront Planning的目�
 | 從一個欄位複製資訊並貼上到另一個欄位 | ✓ (A) |                                  |                 |
 | 從Workfront物件存取Planning記錄 | ✓ (A) |                                  |                 |
 | 從Workfront物件連線Planning記錄 | ✓ (A) |                                  |                 |
+| Workfront規劃公開API | ✓ (A) |                                  |                 |
 
 ## 為您的Workfront例項中的使用者啟用Adobe Workfront Planning
 

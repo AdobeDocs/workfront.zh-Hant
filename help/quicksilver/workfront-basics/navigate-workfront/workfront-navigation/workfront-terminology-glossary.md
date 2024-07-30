@@ -6,9 +6,9 @@ description: ' [!DNL Adobe Workfront] 字彙表列出 [!DNL Adobe Workfront]. Yo
 author: Alina
 feature: Get Started with Workfront
 exl-id: 758072b3-775e-4771-9ae9-da0b38580c93
-source-git-commit: 49bd393af77a67aa1e3a443c4189569178e99ada
+source-git-commit: 6f1f669f7e2235637864a92a40aadbfb19b4310b
 workflow-type: tm+mt
-source-wordcount: '20310'
+source-wordcount: '20384'
 ht-degree: 0%
 
 ---
@@ -303,7 +303,7 @@ ht-degree: 0%
   <tr> 
    <td>[！UICONTROL預算完成日期]</td> 
    <td> <p>這是已被取代的欄位。 此欄位可能顯示的任何資訊都與[!DNL Workfront]已移除的功能有關。 無法更新此欄位。 </p>
-   <p> [！UICONTROL專案]和[！UICONTROL工作]報告和清單中仍會顯示此欄位。</p>  </td> 
+   <p> [！UICONTROL project]報表和清單中仍會顯示此欄位。</p>  </td> 
   </tr> 
   <tr> 
    <td>[！UICONTROL預算成本]</td>
@@ -443,7 +443,7 @@ ht-degree: 0%
    <td>[！UICONTROL預算開始日期]</td> 
   <td> <p>這是已被取代的欄位。 此欄位可能顯示的任何資訊都與[!DNL Workfront]已移除的功能有關。 無法更新此欄位。</p>
   <p>這些區域已從[!DNL Workfront]中移除。 </p> 
-  <p>該欄位在[！UICONTROL project]和[！UICONTROL task]報告和清單中仍然可見。</p>
+  <p>[！UICONTROL project]報表和清單中仍會顯示此欄位。</p>
    <!--
    <p>This field shows the date when the budgeting of resources starts, as defined in the Legacy Resource Estimates area of the Business Case of a project, or the Capacity Planner.</p>
    -->   
@@ -1540,6 +1540,19 @@ The designated full time equivalency for users. A full-time user should have 100
   <tr> 
    <td>[！UICONTROL計畫成本]</td> 
    <td> <p>專案的[！UICONTROL計畫勞力成本]與[！UICONTROL計畫費用成本]的總和。 這不包括專案上的[！UICONTROL計畫風險成本]。  </p> </td> 
+  </tr>
+
+
+
+<tr> 
+   <td>[！UICONTROL計畫日期對齊方式]</td> 
+   <td> <p>這是自動指標，可讓Workfront指派專案、任務和問題，以顯示相對於其計畫完成日期的專案完成時間。 </p>
+   <p>「計畫日期對齊方式」指標可能的值如下： </p>
+<ul>
+<li>將於計劃完成日期完成</li>
+<li>將於計劃完成日期前完成</li>
+<li>將於計劃完成日期後完成</li></ul>
+<p>計畫日期對齊會顯示在專案、任務、問題清單和報告中。 </p></td> 
   </tr> 
   <tr> 
    <td>[！UICONTROL計畫期間]</td> 
@@ -2417,7 +2430,7 @@ The designated full time equivalency for users. A full-time user should have 100
    <td>定義所有者和利害關係人，以管理指定問題、任務、專案、方案或投資組合的範圍、執行和核准。</td> 
   </tr> 
   <tr> 
-   <td>[！UICONTROL工作管理SLA]</td> 
+   <td>[！UICONTROL Work Management SLA]</td> 
    <td>所有利害關係人同意的可量化量度。</td> 
   </tr> 
   <tr> 

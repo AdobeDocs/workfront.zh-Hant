@@ -6,7 +6,7 @@ hide: true
 recommendations: noDisplay, noCatalog
 el-id: 698036a6-b3b4-44a9-91ee-63fdb6a646a1
 exl-id: 698036a6-b3b4-44a9-91ee-63fdb6a646a1
-source-git-commit: 402fb9d279fec258390535100e8f3d2c3c1b913b
+source-git-commit: 6f1f669f7e2235637864a92a40aadbfb19b4310b
 workflow-type: tm+mt
 source-wordcount: '692'
 ht-degree: 6%
@@ -41,14 +41,14 @@ ht-degree: 6%
 
 * 檢視
 
-  您必須授予使用者（包括系統管理員）存取檢視的許可權，而不授予其存取工作區的許可權。 如需詳細資訊，請參閱[共用檢視](/help/quicksilver/planning/access/share-views.md)。
+   * 您必須授予使用者（包括系統管理員）存取檢視的許可權，而不授予其存取工作區的許可權。 如需詳細資訊，請參閱[共用檢視](/help/quicksilver/planning/access/share-views.md)。
+     <!--* You can share a view publicly, with people outside your organization when you generate a public link for a view.People accessing the record page from a public link can view all records and their fields, including connected records and fields.-->
+     <!--move the link above to the end of this section-->
 
 您可以與下列實體共用工作區或檢視：
 
 * 使用者
 * 群組
-
-<!--* You can share a view publicly, with people outside your organization when you generate a public link for a view.People accessing the record page from a public link can view all records and their fields, including connected records and fields.-->
 
 ## 在Adobe Workfront Planning中共用物件的相關考量事項
 
@@ -60,6 +60,14 @@ ht-degree: 6%
 * 您可以與他人共用工作區的連結或檢視。
 
   收到連結的使用者必須是作用中使用者，並登入Workfront，才能存取所選檢視中顯示的工作區或記錄型別頁面。
+
+  <!--Replace the text from "users who receive ..." with the following when public sharing of views releases:
+    The following scenarios exist:
+        * Users who receive the link to a workspace must be active users and log in to Workfront to be able to access the workspace.
+        * Users who receive the link to a view can access the view in the following ways: 
+        
+            * Must be active users and log in to Workfront
+            * Can be external users to Workfront and access the view from a publicly shared link, without logging in to Workfront. -->
 
 ## 共用Adobe Workfront Planning物件的許可權
 
