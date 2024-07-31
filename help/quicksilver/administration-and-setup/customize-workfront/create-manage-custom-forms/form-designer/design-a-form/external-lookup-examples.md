@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 13880fcb-8523-45d2-9ac6-38453e8e2391
-source-git-commit: 101a5a80d00a8113ce31222b92f77300a5b0ce8a
+source-git-commit: 94957250387012738f2ef4c80864d51bdc2d792f
 workflow-type: tm+mt
-source-wordcount: '841'
+source-wordcount: '1046'
 ht-degree: 0%
 
 ---
@@ -21,11 +21,13 @@ ht-degree: 0%
 
 本文提供使用外部查詢欄位來呼叫Workfront或公用API的相同例項的範例。 您也可以使用外部查詢與外部系統（例如Jira、Salesforce或ServiceNow）通訊。
 
-外部查詢欄位僅在新的表單設計工具中可用，不能在舊版表單產生器中使用。 如需將外部查閱欄位新增至自訂表單的詳細資訊，以及外部查閱元件的其他定義，請參閱[使用表單設計工具設計表單](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。
+如需將外部查閱欄位新增至自訂表單的詳細資訊，以及外部查閱元件的其他定義，請參閱[使用表單設計工具設計表單](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。
 
 ## 為相同的Workfront執行個體設定外部查詢欄位
 
 您可以使用外部查詢，將Workfront例項的資料匯入自訂表單。
+
+### 在外部查詢中使用原生Workfront欄位值
 
 此範例說明如何呼叫Workfront API，並將現有「狀態查詢」欄位的資料匯入外部查詢欄位。
 
@@ -69,6 +71,43 @@ ht-degree: 0%
    ![具有外部查閱欄位的自訂表單](assets/external-lookup-project-status-example1.png)
 
    根據狀態的![外部查閱選項](assets/external-lookup-project-status-example2.png)
+
+### 在外部查詢中使用自訂欄位值
+
+此範例顯示如何呼叫Workfront API，並將自訂欄位的資料匯入外部查詢欄位。 範例自訂欄位稱為「自訂顏色」。
+
+1. 開啟自訂表單。
+1. 在熒幕左側，尋找&#x200B;**外部查詢**&#x200B;並將其拖曳至畫布上的區段。
+1. 輸入欄位的&#x200B;**標籤**&#x200B;和&#x200B;**名稱**。
+1. 選取欄位的&#x200B;**格式**。
+1. 在&#x200B;**基本API URL**&#x200B;欄位中輸入API URL呼叫。
+
+   **範例**
+   `$$HOST/attask/api/v18.0/PORT/search?ID={portfolioID}&fields=parameterValues`
+
+1. 檢閱此查詢欄位在API中參考的欄位的&#x200B;**相依性**。
+
+   相依性欄位可以是物件詳細資訊頁面中的任何自訂或原生欄位。
+
+1. 選取&#x200B;**HTTP方法**。
+
+   這很可能是&#x200B;**Get**。
+
+1. 輸入&#x200B;**JSON路徑**&#x200B;以取得API呼叫的結果。
+
+   **範例**
+   `$.data[*].parameterValues.["DE:Combo Colors"]`
+
+   * 「parameterValues」是指Workfront中您所在物件的任何自訂欄位。
+   * 在此範例中，「DE：組合顏色」是包含您要擷取之值的特定自訂欄位。
+
+   >[!NOTE]
+   >
+   >**標題**&#x200B;資訊不是呼叫相同Workfront執行個體的必要專案。
+
+1. 按一下&#x200B;**套用**。
+
+   將自訂表單新增至Workfront物件時，「組合顏色」欄位中的所有值都會出現在外部查詢欄位下拉式清單中。
 
 ## 設定公用API的外部查詢欄位
 
