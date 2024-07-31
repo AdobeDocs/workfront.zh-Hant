@@ -6,9 +6,9 @@ description: 您可以調整瀏覽器上的語言偏好設定和Adobe Workfront�
 feature: Get Started with Workfront
 author: Caroline
 exl-id: 0b76175f-5fe2-49df-b605-68e6e66b4366
-source-git-commit: 3d2e1dd5121b2495f984bed1ec1b9939de89f175
+source-git-commit: 02e1160cc56d92053c36d2aa19a8fc290467dd71
 workflow-type: tm+mt
-source-wordcount: '859'
+source-wordcount: '1022'
 ht-degree: 1%
 
 ---
@@ -32,7 +32,7 @@ Workfront支援下列語言：
 * 中文 — 簡體(zh-CN)
 * 中文 — 繁體(zh-TW)
 
-在瀏覽器中檢視Workfront所使用的語言是由瀏覽器語言設定所控制。 請確定您為瀏覽器選取語言，該語言會列在支援的語言清單中。
+如果您的組織未使用IMS，則瀏覽器中用於檢視Workfront的語言由瀏覽器語言設定控制，或者如果您的組織未使用IMS，則由您的Adobe Experience Cloud設定檔語言控制。 無論是哪種情況，請確定您選取的語言列在支援的語言清單中。
 
 若要以任何支援的語言顯示外寄電子郵件，請在Workfront中修改您的使用者電子郵件地區設定或客戶資訊設定。\
 您必須是Workfront管理員才能修改客戶資訊設定。\
@@ -97,22 +97,34 @@ Workfront中的Web Proof Viewer支援Workfront支援的大部分語言。
 
 您可以修改下列設定，以變更檢視Workfront的語言和傳出電子郵件的語言：
 
-* 瀏覽器上的語言
+* 瀏覽器上的語言（適用於不在IMS上的使用者）
+* AEM設定檔的主要和次要語言（適用於IMS上的使用者）
 * 您Workfront帳戶中的客戶資訊和使用者電子郵件地區設定。
 
 若要檢視所選語言的所有可用翻譯，Workfront地區設定和瀏覽器地區設定都應設為相同語言。
 
 * [變更瀏覽器語言](#change-the-browser-language)
+* [變更Adobe Experience Cloud語言](#change-the-adobe-experience-cloud-language)
 * [變更Workfront和使用者電子郵件地區設定](#change-the-workfront-and-user-locales)
 
 ### 變更瀏覽器語言 {#change-the-browser-language}
 
-當您變更瀏覽器語言時，您的Workfront介面會以該語言顯示。\
+如果貴組織不在IMS上，當您變更瀏覽器語言時，您的Workfront介面將會以該語言顯示。\
 如需Workfront支援哪些語言的詳細資訊，請參閱[Adobe Workfront支援的語言](#supported-languages)。
 
 瀏覽器語言必須依個別使用者變更。
 
 如需有關如何變更瀏覽器語言的特定資訊，請參閱瀏覽器的「說明」功能表。
+
+## 變更Adobe Experience Cloud語言
+
+如果貴組織使用IMS，您的Adobe Experience Cloud設定檔語言會決定Workfront中顯示的語言。
+
+1. 按一下Adobe Experience Cloud工具列最右端的個人資料圖片，然後按一下&#x200B;**偏好設定**。 Adobe Experience Cloud工具列位於Workfront主工具列的正上方。
+
+1. 在您的名稱和電子郵件地址下方的&#x200B;**設定檔**&#x200B;下，按一下目前選取語言的名稱。
+
+1. 在下拉式清單&#x200B;**第一語言**&#x200B;和&#x200B;**第二語言**&#x200B;中選取您偏好的語言。 第一種語言是您的預設語言選擇，而第二種語言只有在特定應用程式不支援第一種語言時才會顯示。
 
 ### 變更Workfront和使用者電子郵件地區設定 {#change-the-workfront-and-user-locales}
 
