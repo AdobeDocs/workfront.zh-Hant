@@ -6,7 +6,7 @@ description: 您可以建立核准範本以簡化核准流程。
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: c18d6c6d-1a09-47c5-af4e-027f7cc48cd7
-source-git-commit: 850d21fafcf2192600f9011ee936a9bc40f969a4
+source-git-commit: 67deb48ebc90dd4a93c2af1cb89442ee2486cb16
 workflow-type: tm+mt
 source-wordcount: '226'
 ht-degree: 2%
@@ -61,6 +61,7 @@ ht-degree: 2%
    |----------------------------|---|
    | **（選擇性）時間範圍** | 以天為單位輸入時間範圍。 範本套用至資產後，核准截止日期即會從此欄位計算。 |
    | **新增核准者或稽核者** | 開始輸入使用者或團隊的名稱，然後指定他們為檢閱者或核准者。 |
+
 1. 按一下「**儲存**」。
 
 

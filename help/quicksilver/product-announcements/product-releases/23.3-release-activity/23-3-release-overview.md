@@ -5,7 +5,7 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 441d84d6-6c40-4a03-967e-836cf78c8fc1
-source-git-commit: 84444753db0e5c496f013e0245988e62fddad585
+source-git-commit: 67deb48ebc90dd4a93c2af1cb89442ee2486cb16
 workflow-type: tm+mt
 source-wordcount: '2798'
 ht-degree: 0%
@@ -25,7 +25,7 @@ ht-degree: 0%
 >23.3版本包含將您的組織移至每月版本的選項。 因此，Workfront正在變更版本的編號方案，以兼顧每月和每季的發行追蹤。
 >
 >* 如果您使用&#x200B;**快速發行（每月）**&#x200B;路線，23.3之後的發行將會是2023年8月31日的&#x200B;**23.8**。
-> * 如果您在&#x200B;**每季**&#x200B;發行追蹤，23.3之後的發行將在2023年10月26日當週的&#x200B;**23.10**。
+>* 如果您在&#x200B;**每季**&#x200B;發行追蹤，23.3之後的發行將在2023年10月26日當週的&#x200B;**23.10**。
 > 
 > 每季發行將包含三個月發行的功能。 例如，23.10每季發行將包含23.8、23.9和23.10每月發行版本中的功能。
 >
