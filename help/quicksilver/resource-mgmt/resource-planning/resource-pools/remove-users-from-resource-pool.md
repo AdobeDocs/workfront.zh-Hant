@@ -3,17 +3,19 @@ product-area: resource-management
 navigation-topic: resource-pools
 title: 從資源集區中移除使用者
 description: 雖然資源集區中的使用者數量沒有限制，但使用者清單只會顯示前2000位使用者（按字母順序列出）。
-author: Alina
+author: Lisa
 feature: Resource Management
 exl-id: b888aa95-8d42-4cc3-8a99-6842435c84d2
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 00afc0cbc58fce34059302dfeb8847cfacb9c7e4
 workflow-type: tm+mt
-source-wordcount: '384'
+source-wordcount: '401'
 ht-degree: 1%
 
 ---
 
 # 從資源集區中移除使用者
+
+{{highlighted-preview}}
 
 雖然資源集區中的使用者數量沒有限制，但使用者清單只會顯示前2000位使用者（按字母順序列出）。
 
@@ -22,6 +24,8 @@ ht-degree: 1%
 如需資源集區的詳細資訊，請參閱[資源集區概觀](../../../resource-mgmt/resource-planning/resource-pools/work-with-resource-pools.md)。
 
 ## 存取需求
+
++++ 展開以檢視本文中功能的存取需求。
 
 您必須具備下列條件：
 
@@ -51,23 +55,30 @@ ht-degree: 1%
 
 &#42;若要瞭解您擁有的計畫、授權型別或存取權，請連絡您的Workfront管理員。
 
++++
+
 ## 從資源集區移除使用者
 
 當資源集區中不再需要這些使用者時，您可以從資源集區中移除這些使用者。
 
 若要從資源集區移除使用者：
 
-1. 按一下Adobe Workfront右上角的&#x200B;**主要功能表**&#x200B;圖示![](assets/main-menu-icon.png)。
+{{step1-to-resourcing}}
 
-1. 按一下「**資源**」。
 1. 按一下左側面板中的&#x200B;**資源集區**。
-1. 選取資源集區，然後按一下**編輯」。**或\
+1. 選取資源集區，然後按一下&#x200B;**編輯**。
+或\
    按一下資源集區的名稱。
 
 1. 開始在&#x200B;**搜尋此資源集區**&#x200B;欄位中輸入您要移除的使用者名稱。\
    或\
-   如果您想要移除與這些實體相關聯的所有使用者，請開始輸入公司、工作角色、團隊或群組的名稱。\
-   ![search_inside_NEW_resource_pool.png](assets/search-inside-new-resource-pool-350x314.png)
+   如果您想要移除與這些實體相關聯的所有使用者，請開始輸入公司、工作角色、團隊或群組的名稱。
+
+   <span class="preview">預覽環境中的範例影像：<span>
+   <span class="preview">![從資源集區移除使用者](assets/remove-users-from-resource-pool.png)<span>
+
+   生產環境中的影像範例：
+   ![搜尋資源集區](assets/search-inside-new-resource-pool-350x314.png)
 
 1. 按一下使用者層級的「x」圖示，從資源集區移除使用者。 它們會從所有出現的清單中移除。\
    或\
