@@ -6,9 +6,9 @@ description: 資源集區是使用者的集合，可協助您更輕鬆地在Adob
 author: Lisa
 feature: Resource Management
 exl-id: 4991634c-e400-466e-bcee-3b461b6662d8
-source-git-commit: ca882fbb8b29fc728d9c688c6c671cfdf677c2cb
+source-git-commit: beec2ea4cdfcb89bf8f786a7ab2edeb804a6fbad
 workflow-type: tm+mt
-source-wordcount: '612'
+source-wordcount: '602'
 ht-degree: 1%
 
 ---
@@ -93,14 +93,14 @@ ht-degree: 1%
     </tbody>
    </table>
 
-1. （選擇性）使用&#x200B;**還原**&#x200B;連結來移除透過群組、團隊、公司或工作角色新增的使用者。 <span class="preview">（「預覽」環境中暫時無法使用「復原」功能。）</span>
+1. （選擇性）使用&#x200B;**還原**&#x200B;連結來移除透過群組、團隊、公司或工作角色新增的使用者。
 
    >[!NOTE]
    >
    >資源集區中的使用者數量沒有限制。 不過，我們建議不要將太多使用者新增至資源集區，否則資源管理可能會變成一項挑戰。 使用者清單只會顯示資源集區中的前2,000名使用者，而且會依字母順序列出。
 
    <span class="preview">預覽環境中的範例影像：</span>
-   <span class="preview">![個使用者已新增至資源集區](assets/users-in-resource-pool.png)</span>
+   <span class="preview">![個使用者已新增至資源集區](assets/users-in-resource-pool2.png)</span>
 
    生產環境中的影像範例：
    ![個使用者已新增至資源集區](assets/resource-pools-new---undo-button-for-teams-groups-etc-350x113.png)
