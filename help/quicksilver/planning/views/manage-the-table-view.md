@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: 070b0525f0cb2880d3c7daf88777ba48968ce759
+source-git-commit: bda3dc43828032fd5a8862b12d851c56cf9b6cbd
 workflow-type: tm+mt
-source-wordcount: '2598'
+source-wordcount: '2630'
 ht-degree: 3%
 
 ---
@@ -135,9 +135,8 @@ hide: yes
 
 您可以在表格檢視中新增最多500個欄位（或欄）。
 
-1. 移至記錄型別頁面，並從檢視下拉式功能表中選取&#x200B;**表格**&#x200B;檢視。
+1. 移至記錄型別頁面，然後按一下表格檢視標籤，或按一下&#x200B;**+檢視**&#x200B;以新增檢視，然後選擇&#x200B;**表格**。
 
-   <!-- replace above with this when view redesign: Go to a record type page and click a table view tab, or click **+ View **to add a new view, then choose **Table**. -->
 1. 開始新增欄位（或欄），如文章[建立欄位](/help/quicksilver/planning/fields/create-fields.md)中所述。
 
    您新增的欄對存取記錄型別的所有使用者可見，並作為記錄頁面的新欄位新增。
@@ -213,9 +212,8 @@ hide: yes
 
 記錄型別最多可以有50,000筆記錄（或列）。
 
-1. 移至記錄型別頁面，並從檢視下拉式功能表中選取&#x200B;**表格**&#x200B;檢視。
+1. 移至記錄型別頁面，然後按一下表格檢視標籤，或按一下&#x200B;**+檢視**&#x200B;以新增檢視，然後選擇&#x200B;**表格**。
 
-<!-- replace above with this when view redesign: Go to a record type page and click a table view tab, or click **+ View **to add a new view, then choose **Table**. -->
 1. 開始新增記錄（或列），如文章[建立記錄](/help/quicksilver/planning/records/create-records.md)中所述。
 
    您在表格檢視中新增的記錄會立即儲存，且所有擁有工作區檢視或更高許可權的使用者皆可看到。
@@ -229,13 +227,8 @@ hide: yes
    >[!NOTE]
    >
    >如果您對表格檢視至少套用一種排序，則無法重新排序列。
-
-   <!-- this is not possible right now:
-
-    1. To reorder the rows, click the row header, drag and drop it in the desired location. 
-
-        The changes you make to the row order are permanent and visible to all users who access the record type
-    -->
+   >
+   >存取記錄型別的所有使用者都可以看到您對資料列順序所做的變更
 
 <!-- this section below links from the timeline view; consider splitting them if they become different-->
 
@@ -244,6 +237,7 @@ hide: yes
 篩選器可協助您減少熒幕上顯示的資訊量。
 
 在表格檢視中使用篩選器時，請考量下列事項：
+
 <!-- this list is almost identical to the one for the table view - update both-->
 
 * 您為表格檢視建立的篩選器在套用至相同記錄型別時，會與時間軸檢視中的篩選器分開運作。

@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 6f1f669f7e2235637864a92a40aadbfb19b4310b
+source-git-commit: bda3dc43828032fd5a8862b12d851c56cf9b6cbd
 workflow-type: tm+mt
-source-wordcount: '5528'
+source-wordcount: '5654'
 ht-degree: 0%
 
 ---
@@ -39,24 +39,12 @@ Workfront規劃程式已於2023年5月22日開始執行。 如需2023年期間�
 
 自2024年1月起，Workfront計畫已暫時從預覽和沙箱環境中移除。 本文中記錄的所有功能目前可在生產環境中使用。
 
-## 2024年7月29日起一週
-
-### Adobe Workfront規劃公用API現已推出
-
-生產： 2024年7月30日
-
-預覽：待定
-
-Adobe Workfront Planning公用API現已推出。
-
-如需詳細資訊，請參閱[Adobe Workfront Planning API基本知識](/help/quicksilver/planning/general/planning-api-basics.md)。
-
 <!--
 ### Share Workfront Planning views publicly
 
 (***************ensure this is available for *********ALL************** the views and not just the table---***********)
 
-Production: July 31, 2024 
+Production: <date>
 
 Preview: To be determined 
 
@@ -71,6 +59,38 @@ The following capabilities are included with this update:
 * People that access the view from the public link cannot create other views, edit the shared view, or add, delete, or edit record information.  
 
 For more information, see [Share views](/help/quicksilver/planning/access/share-views.md). -->
+
+## 2024年7月29日起一週
+
+### Adobe Workfront規劃公用API現已推出
+
+生產： 2024年7月30日
+
+預覽：待定
+
+Adobe Workfront Planning公用API現已推出。
+
+如需詳細資訊，請參閱[Adobe Workfront Planning API基本知識](/help/quicksilver/planning/general/planning-api-basics.md)。
+
+### 在表格檢視中插入和複製記錄
+
+生產： 2024年8月1日
+預覽：待定
+
+我們在處理表格檢視中的記錄時引進了下列功能：
+
+* 複製記錄：您可以複製現有記錄來快速建立記錄。  相同記錄隨即建立。 此功能僅在表格檢視中可用。
+
+* 您可以在表格檢視中現有記錄的上方或下方插入新記錄。 在此增強功能之前，您只能在表格檢視底部新增記錄。
+
+您可以從下列區域執行新功能：
+
+* 記錄的「更多」選單
+
+* 已新增到表格檢視中記錄頁面底部的新工具列
+
+如需詳細資訊，請參閱[建立記錄](/help/quicksilver/planning/records/create-records.md)
+
 
 ## 2024年7月8日當週
 

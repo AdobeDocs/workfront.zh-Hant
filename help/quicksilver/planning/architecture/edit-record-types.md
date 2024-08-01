@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7d6de742-9657-4286-968c-1fc78ebbb94e
-source-git-commit: 5c7b60ac5b78bd065ffc270588ec72ab3eb2f41d
+source-git-commit: bda3dc43828032fd5a8862b12d851c56cf9b6cbd
 workflow-type: tm+mt
 source-wordcount: '468'
 ht-degree: 1%
@@ -131,7 +131,7 @@ hide: yes
    >
    >   您可以重新命名標頭中的記錄型別。
 
-   ![](assets/more-menu-options-from-record-details-page.png)
+   ![](assets/more-menu-options-from-record-type-page.png)
 
    <!--check this screen shot - not sure this is valid ???-->
 

@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: 5c7b60ac5b78bd065ffc270588ec72ab3eb2f41d
+source-git-commit: bda3dc43828032fd5a8862b12d851c56cf9b6cbd
 workflow-type: tm+mt
-source-wordcount: '884'
+source-wordcount: '930'
 ht-degree: 0%
 
 ---
@@ -22,8 +22,9 @@ ht-degree: 0%
 
 您可以執行下列其中一項作業來建立記錄：
 
-* 手動為記錄型別建立它們
-* 從外部清單複製並貼上資訊，以建立記錄。
+* 從記錄型別頁面新增它們
+* 從外部清單複製並貼上記錄清單
+* 複製它們
 
 本文會介紹如何建立記錄。 如需有關管理表格或時間表檢視中的記錄的資訊，請參閱下列文章：
 
@@ -95,7 +96,7 @@ ht-degree: 0%
 >
 >If you don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see [Create or modify custom access levels](/help/quicksilver/planning/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md). -->
 
-## 手動將記錄新增至記錄型別<!--in a record type table (I don't think you can create them elsewhere right now)-->以建立記錄
+## 將記錄新增至記錄型別<!--in a record type table (I don't think you can create them elsewhere right now)-->以建立記錄
 
 您可以在記錄型別頁面的表格檢視中建立記錄。
 
@@ -118,7 +119,8 @@ ht-degree: 0%
 
       * 在表格的最後一列按一下&#x200B;**新增記錄**
 
-      * 在表格的任何欄或列按一下鍵盤上的&#x200B;**Shift + Enter**。 這會新增空白列。
+      * 在表格的任何欄或列按一下鍵盤上的&#x200B;**Shift + Enter**。 這會在您開始的記錄底下新增一個空白列。
+      * 暫留在記錄的主要欄位上，按一下欄位右邊的&#x200B;**更多**&#x200B;功能表![](assets/more-menu.png)，然後按一下&#x200B;**在上方插入記錄**&#x200B;或&#x200B;**在下方插入記錄**。
 
      ![](assets/adding-a-new-campaign-in-table-row.png)
 
@@ -179,7 +181,7 @@ You can import records from other applications by linking them to existing recor
    
 -->
 
-## 從外部清單複製並貼上資訊，以建立記錄
+## 從外部清單複製並貼上記錄，以建立記錄
 
 1. 開始在[資料表]檢視中建立記錄，如本文[將記錄手動新增至記錄型別](#create-records-by-manually-adding-them-to-a-record-type)以建立記錄一節中所述。
 
@@ -207,3 +209,8 @@ You can import records from other applications by linking them to existing recor
 
    * 列包含新記錄
    * 欄會填入記錄欄位的資訊。
+
+
+## 複製記錄以建立記錄
+
+如需複製記錄的資訊，請參閱[複製記錄](/help/quicksilver/planning/records/copy-or-duplicate-records.md)。
