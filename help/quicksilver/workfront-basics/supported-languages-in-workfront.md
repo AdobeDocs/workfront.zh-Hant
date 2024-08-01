@@ -6,16 +6,16 @@ description: 您可以調整瀏覽器上的語言偏好設定和Adobe Workfront�
 feature: Get Started with Workfront
 author: Caroline
 exl-id: 0b76175f-5fe2-49df-b605-68e6e66b4366
-source-git-commit: 02e1160cc56d92053c36d2aa19a8fc290467dd71
+source-git-commit: 2d2eac23d08b5dddfd1a3620f20f5a70b5c2821b
 workflow-type: tm+mt
-source-wordcount: '1022'
+source-wordcount: '1037'
 ht-degree: 1%
 
 ---
 
 # Adobe Workfront支援的語言
 
-您可以調整瀏覽器上的語言偏好設定和Adobe Workfront中的預設電子郵件地區設定，以變更顯示Workfront和來自Workfront之電子郵件的語言。
+您可以調整瀏覽器上的語言偏好設定（若不是IMS）或Adobe Workfront設定檔語言偏好設定（若是IMS），以及您在Workfront中的預設電子郵件地區設定，以變更顯示來自Adobe Experience Cloud和來自Workfront之電子郵件的語言。
 
 每次Workfront更新時，Workfront術語都會針對支援的語言進行更新。
 
