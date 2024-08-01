@@ -7,9 +7,9 @@ description: Adobe Workfront Fusion目前提供下列公用範本。
 author: Becky
 feature: Workfront Fusion
 exl-id: 29d95b93-ab54-416d-b0d5-ff12634951b2
-source-git-commit: e569469c2b5e0ba40569ef86043294acae7a6aa8
+source-git-commit: 3c22860b1a9bdc653a772a48ccfcbb4456b11c8c
 workflow-type: tm+mt
-source-wordcount: '1186'
+source-wordcount: '1257'
 ht-degree: 0%
 
 ---
@@ -29,6 +29,12 @@ Adobe Workfront Fusion目前提供下列公用範本。
 ### [!BADGE 新增！]{type=Informative}
 
 此Fusion範本會針對在計時基礎上輸入特定欄位的所有卡片建立標準檢查清單。
+
+### [!BADGE 新增！]{type=Informative}
+
+<!--new Aug 1. 2024-->
+
+此情境由正在建立的新專案觸發。 在此案例中，您可以建立以專案命名的展示板、根據您的需求重新命名或建立欄、建立自訂標籤，以及將輸入欄篩選器與原始專案建立關聯。  您可能會進行數千項其他變更，但從這裡開始，將可讓您瞭解為貴組織的主機板標準化建立起點的可能性。
 
 ### Workfront — 從CSV建立專案
 
