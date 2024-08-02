@@ -7,7 +7,7 @@ description: 本文說明為什麼作用中或停用案例在不同情況下很�
 author: Becky
 feature: Workfront Fusion
 exl-id: b3eea763-f0bf-4037-8d73-20d112dc5ac3
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 0f6d02733f091d7e548db6005eebb3a24087799a
 workflow-type: tm+mt
 source-wordcount: '291'
 ht-degree: 1%
@@ -76,6 +76,6 @@ ht-degree: 1%
 ## 啟用或停用案例：
 
 1. 按一下左側面板中的&#x200B;**[!UICONTROL 情境]** ![](assets/scenarios-icon.png)，然後按一下情境以開啟它。
-1. 在視窗的右上角，按一下&#x200B;**[!UICONTROL 開啟/關閉]**&#x200B;切換按鈕。
+1. 在視窗的左下角，按一下&#x200B;**[!UICONTROL 開啟/關閉]**&#x200B;切換按鈕。
 
    ![](assets/on-off-switch.jpg)
