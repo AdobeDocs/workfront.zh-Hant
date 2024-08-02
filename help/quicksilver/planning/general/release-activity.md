@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: bda3dc43828032fd5a8862b12d851c56cf9b6cbd
+source-git-commit: 78e9c4d4ddee8f44d6fafe218c6a9b8c2cb28bf5
 workflow-type: tm+mt
-source-wordcount: '5654'
+source-wordcount: '5786'
 ht-degree: 0%
 
 ---
@@ -38,27 +38,6 @@ Workfront規劃程式已於2023年5月22日開始執行。 如需2023年期間�
 已發行的功能會依其發行順序列出，最新的排在前。 參與Workfront Planning計畫的客戶可存取其生產環境中的所有功能。
 
 自2024年1月起，Workfront計畫已暫時從預覽和沙箱環境中移除。 本文中記錄的所有功能目前可在生產環境中使用。
-
-<!--
-### Share Workfront Planning views publicly
-
-(***************ensure this is available for *********ALL************** the views and not just the table---***********)
-
-Production: <date>
-
-Preview: To be determined 
-
-To work seamlessly with external stakeholders, you can now share record views with others from outside your organization. You can share a public link to the view you want others to have access to.  
-
-The following capabilities are included with this update: 
-
-* Share the view of a record type page with a public link that would expire on a specific date. 
-
-* The shared link is accessible by anyone outside of your company for a limited time, indicated by the expiration date. There is no login required to view the shared view.  
-
-* People that access the view from the public link cannot create other views, edit the shared view, or add, delete, or edit record information.  
-
-For more information, see [Share views](/help/quicksilver/planning/access/share-views.md). -->
 
 ## 2024年7月29日起一週
 
@@ -91,6 +70,23 @@ Adobe Workfront Planning公用API現已推出。
 
 如需詳細資訊，請參閱[建立記錄](/help/quicksilver/planning/records/create-records.md)
 
+### 公開共用Workfront Planning檢視
+
+生產： 2024年8月2日
+
+預覽：待定
+
+為了與外部利益關係人順暢地合作，您現在可以與組織外部的其他人分享錄製檢視。 您可以共用您想讓其他人存取之檢視的公開連結。
+
+此更新包含下列功能：
+
+* 使用將在特定日期到期的公開連結共用記錄型別頁面的檢視。
+
+* 在到期日所指示的限定時間內，您公司以外的任何人皆可存取共用連結。 不需要登入即可檢視共用檢視。
+
+* 從公用連結存取檢視的人員無法建立其他檢視、編輯共用檢視，也無法新增、刪除或編輯記錄資訊。
+
+如需詳細資訊，請參閱[共用檢視](/help/quicksilver/planning/access/share-views.md)。
 
 ## 2024年7月8日當週
 

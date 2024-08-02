@@ -6,9 +6,9 @@ hide: true
 recommendations: noDisplay, noCatalog
 el-id: 698036a6-b3b4-44a9-91ee-63fdb6a646a1
 exl-id: 698036a6-b3b4-44a9-91ee-63fdb6a646a1
-source-git-commit: 6f1f669f7e2235637864a92a40aadbfb19b4310b
+source-git-commit: 1ffd8a3dbb31154186dc37132c7e77c35de42ac3
 workflow-type: tm+mt
-source-wordcount: '692'
+source-wordcount: '800'
 ht-degree: 6%
 
 ---
@@ -37,15 +37,17 @@ ht-degree: 6%
 
 * 工作區
 
-  當您共用工作區時，也會共用與工作區相關聯的所有記錄型別、記錄和欄位。 檢視不會共用。
+   * 您可以和組織內部人員共用工作區。
+   * 當您共用工作區時，也會共用與工作區相關聯的所有記錄型別、記錄和欄位。 檢視不會共用。
 
 * 檢視
 
-   * 您必須授予使用者（包括系統管理員）存取檢視的許可權，而不授予其存取工作區的許可權。 如需詳細資訊，請參閱[共用檢視](/help/quicksilver/planning/access/share-views.md)。
-     <!--* You can share a view publicly, with people outside your organization when you generate a public link for a view.People accessing the record page from a public link can view all records and their fields, including connected records and fields.-->
-     <!--move the link above to the end of this section-->
+   * 您必須授予使用者（包括系統管理員）存取檢視的許可權，而不授予其存取工作區的許可權。
+   * 當您產生檢視的公開連結時，您可以與組織外部的人員公開共用檢視。透過公開連結存取記錄頁面的人員可以檢視所有記錄及其欄位，包括連線的記錄和欄位。
 
-您可以與下列實體共用工作區或檢視：
+  如需詳細資訊，請參閱[共用檢視](/help/quicksilver/planning/access/share-views.md)。
+
+在內部，您可以與下列Workfront實體共用工作區或檢視：
 
 * 使用者
 * 群組
@@ -59,15 +61,12 @@ ht-degree: 6%
 * 其他使用者（包括系統管理員）只能存取他們已建立或已與他們共用的檢視。 系統管理員只能獲得管理檢視的許可權。
 * 您可以與他人共用工作區的連結或檢視。
 
-  收到連結的使用者必須是作用中使用者，並登入Workfront，才能存取所選檢視中顯示的工作區或記錄型別頁面。
+  存在下列情況：
+   * 收到工作區連結的使用者必須是作用中使用者，並登入Workfront才能存取工作區。
+   * 使用者收到檢視的連結後，可透過下列方式存取檢視：
 
-  <!--Replace the text from "users who receive ..." with the following when public sharing of views releases:
-    The following scenarios exist:
-        * Users who receive the link to a workspace must be active users and log in to Workfront to be able to access the workspace.
-        * Users who receive the link to a view can access the view in the following ways: 
-        
-            * Must be active users and log in to Workfront
-            * Can be external users to Workfront and access the view from a publicly shared link, without logging in to Workfront. -->
+      * 如果檢視的連結為內部共用，則必須是作用中使用者並登入Workfront。
+      * 可以是Workfront的外部使用者，不需登入Workfront，即可從公開共用的連結存取檢視。
 
 ## 共用Adobe Workfront Planning物件的許可權
 
@@ -156,37 +155,25 @@ ht-degree: 6%
 * 列高
 * 設定
 
-
-<!--You can share views internally or publicly. -->
+您可以在內部或公開分享檢視。
 
 以下是檢視和檢視元素的許可權層級：
 
-|        | 管理（只有受邀者才能存取） | 檢視（只有受邀者才能存取） | 工作區中的所有人都可以檢視* |
+| 內部共用 | 管理（只有受邀者才能存取） | 檢視（只有受邀者才能存取） | 工作區中的所有人都可以檢視* |
 |--------|--------|-------|------------------------------|
 | 編輯 | ✓ (A) |       |                            |
 | 刪除 | ✓ (A) |       |                            |
 | 共用 | ✓ (A) |       |                           |
 | 檢視 | ✓ (A) | ✓ (A) | ✓ (A) |
-| 存取檢視 | ✓ (A) | ✓ (A) | ✓ (A) |
-| 套用臨時篩選器、群組、排序 | ✓ (A) | ✓ (A) | ✓ (A) |
+| 套用 | ✓ (A) | ✓ (A) | ✓ (A) |
+
+| 公開共用 | 檢視 |
+|--------|-------|
+| 檢視 | ✓ (A) |
+| 套用 | ✓ (A) |
 
 *使用者必須擁有工作區的檢視或更高許可權才能取得此檢視存取權。
 
-<!--Replace the table above with the following when public sharing releases: 
-
-|   Internal sharing     | Manage (Only invited people can access) | View (Only invited people can access)  |Everyone in the workspace can view*|
-|--------|--------|-------|------------------------------|
-| Edit   | ✓      |       |                            |
-| Delete | ✓      |       |                            |
-| Share  | ✓       |       |                           |
-| View   | ✓      | ✓     | ✓                         |
-| Apply  | ✓      | ✓     | ✓                          |
-
-|   Public sharing      | View  |
-|--------|-------|
-| View   | ✓     |
-| Apply  | ✓     |
--->
 
 
 <!--old view permissions, before sharing View permissions to a view through a workspace:
@@ -196,5 +183,15 @@ ht-degree: 6%
 | Delete | ✓      |       |                            
 | Share  | ✓       |       |                           
 | View   | ✓      | ✓     |                         
-| Apply  | ✓      | ✓     |    
+| Apply  | ✓      | ✓     |  
+
+
+|        | Manage (Only invited people can access) | View (Only invited people can access)  |Everyone in the workspace can view*|
+|--------|--------|-------|------------------------------|
+| Edit   | ✓      |       |                            |
+| Delete | ✓      |       |                            |
+| Share  | ✓       |       |                           |
+| View   | ✓      | ✓     | ✓                         |
+| Access the view  | ✓      | ✓     | ✓                          |
+| Apply temporary filters, groupings, sort  | ✓      | ✓     | ✓                          |
 -->

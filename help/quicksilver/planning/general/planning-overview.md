@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: eac37369a79303c1477d95aeb9f560aa0089da75
+source-git-commit: 1ffd8a3dbb31154186dc37132c7e77c35de42ac3
 workflow-type: tm+mt
-source-wordcount: '1994'
+source-wordcount: '2001'
 ht-degree: 2%
 
 ---
@@ -87,6 +87,7 @@ Adobe Workfront規劃是Adobe Workfront的新產品。 Workfront Planning的目�
 | 更新記錄頁面的版面 | ✓ (A) |                                 |                  |
 | 共用工作區 | ✓ (A) | |  |
 | 共用檢視 | ✓ (A) | |  |
+| 與外部資源公開共用檢視 | ✓ (A) | |  |
 | 重複檢視 | ✓ (A) | |  |
 | 提交請求 |                               |                                  | ✓ (A) |
 | 創意簡報 |                               |                                  | ✓ (A) |
