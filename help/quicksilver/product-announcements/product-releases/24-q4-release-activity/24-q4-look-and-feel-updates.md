@@ -5,7 +5,7 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8bd234b2-7bda-43f4-9b08-3cf064e1d2de
-source-git-commit: 2d2eac23d08b5dddfd1a3620f20f5a70b5c2821b
+source-git-commit: 8c8094dd34f90d51362b43820e1c6fa41ae5b7cd
 workflow-type: tm+mt
 source-wordcount: '336'
 ht-degree: 0%
@@ -28,6 +28,16 @@ ht-degree: 0%
 
 如需有關刪除和停用使用者的資訊，請參閱[刪除使用者](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/delete-a-user.md)和[停用或重新啟用使用者](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md)。
 
+## 「資源集區」頁面的外觀更新
+
+>[!NOTE]
+>
+>預覽版本： 2024年8月1日；快速發行生產：24.8版（2024年8月）；每季生產：24.10版（2024年10月）
+
+我們以與Workfront其他區域一致的更現代設計更新了「資源集區」頁面。
+
+如需詳細資訊，請參閱[建立資源集區](/help/quicksilver/resource-mgmt/resource-planning/resource-pools/create-resource-pools.md)。
+
 ## 刪除任務訊息的外觀更新
 
 >[!NOTE]
@@ -37,17 +47,6 @@ ht-degree: 0%
 刪除任務時，使用者看到的刪除任務確認訊息已更新為更現代的設計，與Workfront的其他區域一致。
 
 有關刪除任務的資訊，請參閱[刪除任務](/help/quicksilver/manage-work/tasks/manage-tasks/delete-tasks.md)。
-
-
-## 「資源集區」頁面的外觀更新
-
->[!NOTE]
->
->預覽版本： 2024年7月25日；快速發行生產：24.8版（2024年8月）；每季生產：24.10版（2024年10月）
-
-我們以與Workfront其他區域一致的更現代設計更新了「資源集區」頁面。
-
-如需詳細資訊，請參閱[建立資源集區](/help/quicksilver/resource-mgmt/resource-planning/resource-pools/create-resource-pools.md)。
 
 ## 「通知」頁面的外觀更新
 
