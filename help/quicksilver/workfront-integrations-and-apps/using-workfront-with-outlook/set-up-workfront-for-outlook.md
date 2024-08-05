@@ -6,9 +6,9 @@ description: ' [!DNL Adobe Workfront] [!DNL Outlook]增益集可讓您直接從O
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 57f0560b-68c2-4654-863e-bd728e76da29
-source-git-commit: 4cab7bed6cb4c25d96e70ccce2ece7f6d156f435
+source-git-commit: e4f722bab4c4024ca796af8413e7d6b69f6a89a7
 workflow-type: tm+mt
-source-wordcount: '738'
+source-wordcount: '684'
 ht-degree: 0%
 
 ---
@@ -140,12 +140,13 @@ Workfront支援下列[!DNL Outlook]版本：
 ## 從[!DNL Outlook]登入[!DNL Workfront]
 
 1. 在[!DNL Outlook]中，選取電子郵件訊息，然後按一下電子郵件標題中的&#x200B;**[!DNL Workfront]**&#x200B;圖示。
-1. 依照提示使用Enhanced Authentication、OAuth 2.0或您的安全性宣告標籤語言(SAML) URL登入[!DNL Workfront]。
+1. 在登入頁面上，按一下&#x200B;**登入Workfront**。
+1. 依照提示使用OAuth 2.0登入[!DNL Workfront]。<!--Enhanced Authentication or your Security Assertion Markup Language (SAML) URL.-->
 
-   在使用者可以使用SAML登入[!DNL Workfront]增益集之前，[!DNL Workfront]管理員必須先啟用[!DNL Office 365]增益集以使用SAML 2.0解決方案進行驗證。 如需詳細資訊，請參閱文章[使用SAML 2.0](../../administration-and-setup/add-users/single-sign-on/configure-workfront-saml-2.md)設定 [!DNL Adobe Workfront] 中的[使用SAML 2.0](../../administration-and-setup/add-users/single-sign-on/configure-workfront-saml-2.md#enable-saml-with-office-365)設定 [!DNL Adobe Workfront] 一節。
+   <!--Before users can log in to the [!DNL Workfront] add-in using SAML, a [!DNL Workfront] administrator must first enable [!DNL Office 365] add-ins to authenticate using a SAML 2.0 solution. For more information, see the section [Configure [!DNL Adobe Workfront] with SAML 2.0](../../administration-and-setup/add-users/single-sign-on/configure-workfront-saml-2.md#enable-saml-with-office-365) in the article [Configure [!DNL Adobe Workfront] with SAML 2.0](../../administration-and-setup/add-users/single-sign-on/configure-workfront-saml-2.md).-->
 
    >[!NOTE]
    >
-   >* 當系統提示您輸入[!DNL Workfront]帳戶的網域時，請使用此格式輸入它： *yourCompany&#39;sDomain.my.workfront.com*。 您公司的網域通常是您公司的名稱。
-   >* 增強式驗證必須由[!DNL Workfront]系統管理員針對這項整合啟用才能使用。
+   >* 如果系統提示您輸入[!DNL Workfront]帳戶的網域，請以此格式輸入： *yourCompany&#39;sDomain.my.workfront.com*。 您公司的網域通常是您公司的名稱。
 
+<!--ADDITIONAL BULLET REMOVED FROM NOTE BOX: Enhanced Authentication is not available until a Workfront administrator enables it for this integration.-->
