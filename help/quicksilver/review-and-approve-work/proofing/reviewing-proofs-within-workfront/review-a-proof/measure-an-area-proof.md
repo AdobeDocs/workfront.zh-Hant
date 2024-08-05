@@ -6,9 +6,9 @@ description: 您可以測量校樣中的區域。
 author: Courtney
 feature: Digital Content and Documents
 exl-id: c44de4f0-654e-4b1e-b3d6-2bd8f1ee9d8a
-source-git-commit: 8af531868249f609113af6d2a8465af01edcbc3f
+source-git-commit: 9d2c65516ca1fc612f5f7ee4ee4453019d836cb3
 workflow-type: tm+mt
-source-wordcount: '331'
+source-wordcount: '353'
 ht-degree: 1%
 
 ---
@@ -80,3 +80,7 @@ ht-degree: 1%
 1. （選擇性）如果您需要測量區域為精確大小，請輸入&#x200B;**選取範圍大小**&#x200B;值。
 1. （選擇性）如果您需要在區域中測量特定百分比，請核取計算百分比方塊。 會出現一個新方塊，讓您可加以調整\
    ![](assets/calculate-percentage-350x230.png)
+
+1. 按一下校訂檢視器頂端的&#x200B;**測量區域**&#x200B;圖示，可在完成時關閉工具。
+
+   ![measurement_tool_button.png](assets/measurement-tool-button-350x128.png)
