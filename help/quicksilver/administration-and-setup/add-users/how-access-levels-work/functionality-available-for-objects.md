@@ -10,9 +10,9 @@ author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: a419e4fe-7781-48ac-8765-bd605fa44bc9
-source-git-commit: ad74648a70bbb44e8093e30e111f75859d6baa68
+source-git-commit: 45890d5d9346baebe0984d581828c778d98eec5a
 workflow-type: tm+mt
-source-wordcount: '1601'
+source-wordcount: '1603'
 ht-degree: 11%
 
 ---
@@ -42,7 +42,7 @@ ht-degree: 11%
 | 新增文件 | ✓ (A) | ✓ (A) |   |   |
 | 新增問題 | ✓ (A) | ✓ (A) |   |   |
 | 新增任務 | ✓ (A) |   |   |   |
-| 提供更新/評論 | ✓ (A) | ✓ (A) |   |   |
+| 提供更新/評論 | ✓ (A) | ✓ (A) | ✓ (A) |   |
 | 變更狀態 | ✓ (A) |   |   |   |
 | 記錄時數 | ✓ (A) | ✓ (A) |   |   |
 | 編輯指派 | ✓ (A) |   |   |   |
@@ -89,7 +89,7 @@ ht-degree: 11%
 | 編輯財務 | ✓ (A) |   |   |   |
 | 新增/編輯費用 | ✓ (A) |   |   |   |
 | 檢視財務 | ✓ (A) | ✓ (A) |   |   |
-| 新增更新/註解 | ✓ (A) | ✓ (A) |   |   |
+| 新增更新/註解 | ✓ (A) | ✓ (A) | ✓ (A) |   |
 
 {style="table-layout:auto"}
 
