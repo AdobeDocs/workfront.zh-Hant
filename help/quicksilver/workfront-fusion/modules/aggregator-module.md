@@ -8,9 +8,9 @@ description: 彙總器模組是一種模組，旨在將數個資料套件合併�
 author: Becky
 feature: Workfront Fusion
 exl-id: cdc32842-8717-4e05-ab19-2661ee14c12c
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 948fe5fc249e0dcb04655f015c8e46493159c3ed
 workflow-type: tm+mt
-source-wordcount: '800'
+source-wordcount: '827'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,8 @@ ht-degree: 0%
 如需模組型別的詳細資訊，請參閱[模組型別](../../workfront-fusion/modules/module-types.md)。
 
 ## 存取需求
+
++++ 展開以檢視本文中功能的存取需求。
 
 您必須具有下列存取權才能使用本文中的功能：
 
@@ -60,7 +62,9 @@ ht-degree: 0%
 
 如需[!DNL Adobe Workfront Fusion]授權的相關資訊，請參閱[[!DNL Adobe Workfront Fusion] 授權](../../workfront-fusion/get-started/license-automation-vs-integration.md)。
 
-## [!UICONTROL 彙總]模組
++++
+
+## [!UICONTROL 彙總]模組總覽
 
 執行[!UICONTROL 彙總]模組時，它會執行下列動作：
 
@@ -77,16 +81,16 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td> <p>[！UICONTROL Source模組]</p> </td> 
-   <td> <p>套件組合彙總將從中開始的模組。 來源模組通常是輸出一系列組合的疊代器或搜尋模組。 當您設定彙總器的來源模組（並關閉彙總器的設定）時，來源模組與彙總器模組之間的路由會以灰色區域包圍，以便您可以清楚看到彙總的開始與結束。 
+   <td> <p>套件組合彙總開始的模組。 來源模組通常是輸出一系列組合的疊代器或搜尋模組。</p><p>當您設定彙總器的來源模組（並關閉彙總器的設定）時，來源模組與彙總器模組之間的路由會以灰色區域包圍，以便您可以清楚看到彙總的開始與結束。 
    </p> <p>如需迭代器的詳細資訊，請參閱[!DNL Adobe Workfront Fusion]</a>中的<a href="../../workfront-fusion/modules/iterator-module.md" class="MCXref xref">[！UICONTROL Iterator]模組</p> <p>如需搜尋模組的詳細資訊，請參閱<a href="../../workfront-fusion/modules/module-types.md" class="MCXref xref">模組型別</a>中的搜尋模組。</p> </td> 
   </tr> 
   <tr> 
    <td> <p>[！UICONTROL目標結構型別]</p> </td> 
-   <td> <p>（僅適用於[！UICONTROL陣列彙總]模組。） 資料應彙總到的目標結構。 預設選項[！UICONTROL自訂]可讓您選擇應彙總至A[！UICONTROL陣列彙總]之輸出套件組合的<code>Array </code>專案的專案：</p> <p> <img src="assets/output-bundle's-array-item-350x213.png" style="width: 350;height: 213;"> </p> <p>在[！UICONTROL陣列彙總]模組之後連線更多模組並返回模組的設定後，[！UICONTROL Target]結構型別下拉式清單將包含下列所有模組及其屬於集合陣列型別的欄位，如[!DNL Slack] &gt;[！UICONTROL建立訊息]模組的[！UICONTROL附件]欄位中所示：</p> <p> <img src="assets/array-aggregator-slack-350x253.png" style="width: 350;height: 253;"> </p> </td> 
+   <td> <p>（僅適用於[！UICONTROL陣列彙總]模組。） 彙總資料的目標結構。 預設選項[！UICONTROL自訂]可讓您選擇應彙總至[！UICONTROL陣列彙總]之輸出套件組合的<code>Array </code>專案的專案：</p> <p> <img src="assets/output-bundle's-array-item-350x213.png" style="width: 350;height: 213;"> </p> <p>在[！UICONTROL陣列彙總]模組之後連線更多模組並返回模組的設定後，[！UICONTROL Target]結構型別下拉式功能表將包含下列所有模組及其欄位的「集合陣列」型別，如[!DNL Slack] &gt;[！UICONTROL建立訊息]模組的[！UICONTROL附件]欄位中所示：</p> <p> <img src="assets/array-aggregator-slack-350x253.png" style="width: 350;height: 253;"> </p> </td> 
   </tr> 
   <tr> 
    <td>[！UICONTROL彙總欄位]</td> 
-   <td>選取要納入彙總器模組輸出的欄位。</td> 
+   <td>您要包含在彙總模組輸出中的欄位。</td> 
   </tr> 
   <tr> 
    <td> <p>[！UICONTROL Group by]</p> </td> 
@@ -108,22 +112,24 @@ ht-degree: 0%
 >來源模組與[!UICONTROL 彙總]模組之間模組產生的組合未由[!UICONTROL 彙總]模組輸出，因此在[!UICONTROL 彙總]之後，流程中的模組無法存取這些組合。 如果您需要來源模組與[!UICONTROL 彙總程式]模組之間模組輸出的任何套件組合資料，請務必在[!UICONTROL 彙總程式]模組的設定（如同[!UICONTROL 陣列彙總程式]模組設定中的[!UICONTROL 彙總欄位]欄位）中包含指定專案。
 
 
->[!INFO]
->
->**範例：**&#x200B;使用案例：壓縮所有電子郵件附件並將壓縮檔上傳至[!DNL Dropbox]
->
->下列案例顯示如何：
->
->* 觀看信箱中的傳入電子郵件： [!UICONTROL 電子郵件] >[!UICONTROL 觀看電子郵件]觸發器將會輸出包含專案`Attachments[]`的組合，該專案是包含所有電子郵件附件的陣列。
->
->* 反複處理電子郵件的附件： [!UICONTROL 電子郵件] >[!UICONTROL 反複處理附件]反複處理會逐一從`Attachments[]`陣列取得專案，然後以個別的套件組合進一步傳送。
->
->* 彙總[!UICONTROL 電子郵件] >[!UICONTROL 重複附件]模組輸出的組合： [!UICONTROL 封存] >[!UICONTROL 建立封存彙總]，彙總其接收的所有組合，並輸出包含ZIP檔案的單一組合。
->
->* 上傳產生的ZIP檔案至[!DNL Dropbox]： [!DNL Dropbox] > [!UICONTROL 上傳檔案]從[!UICONTROL 封存] > [!UICONTROL 建立封存]模組並上傳檔案至[!DNL Dropbox]，取得ZIP檔案。
->
->![](assets/dropbox-archive-350x87.png)
->
->以下是[!UICONTROL 封存] > [!UICONTROL 建立封存]彙總的範例設定：
->
->![](assets/archive-create-an-archive-350x484.png)
+## 彙總如何運作的範例案例
+
+此範例案例顯示如何壓縮所有電子郵件附件，以及將ZIP上傳至[!DNL Dropbox]。
+
+![](assets/dropbox-archive-350x87.png)
+
+下列案例顯示如何：
+
+* 第一個模組會監視信箱是否有傳入電子郵件： [!UICONTROL 電子郵件] >[!UICONTROL 監視電子郵件]觸發器將會輸出含有專案`Attachments[]`的組合，該專案是包含所有電子郵件附件的陣列。
+
+* 第二個模型會逐一迭代電子郵件的附件： [!UICONTROL 電子郵件] >[!UICONTROL 迭代附件]迭代器會逐一從`Attachments[]`陣列中取得專案，然後以個別的套件組合進一步傳送它們。
+
+* 第三個模組會彙總[!UICONTROL 電子郵件] >[!UICONTROL 重複附件]模組輸出的組合： [!UICONTROL 封存] >[!UICONTROL 建立封存彙總]，會彙總其收到的所有組合，並輸出包含ZIP檔案的單一組合。
+
+* 最後一個模組會將產生的ZIP檔案上傳至[!DNL Dropbox]： [!DNL Dropbox] > [!UICONTROL 上傳檔案]從[!UICONTROL 封存] > [!UICONTROL 建立封存]模組並上傳至[!DNL Dropbox]取得ZIP檔案。
+
+
+
+以下是[!UICONTROL 封存] > [!UICONTROL 建立封存]彙總的範例設定：
+
+![](assets/archive-create-an-archive-350x484.png)

@@ -7,9 +7,9 @@ description: 有些觸發程式模組可讓您選取要開始擷取套件的第�
 author: Becky
 feature: Workfront Fusion
 exl-id: 5ab7cac4-8d50-4be0-b26b-b832544f18f7
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 489ed23fe0d7945753b59810ff9da084bd3e92e4
 workflow-type: tm+mt
-source-wordcount: '375'
+source-wordcount: '386'
 ht-degree: 1%
 
 ---
@@ -23,6 +23,8 @@ ht-degree: 1%
 如需有關觸發模組的詳細資訊，請參閱文章[模組型別](../../workfront-fusion/modules/module-types.md)中的[觸發模組](../../workfront-fusion/modules/module-types.md#triggers)一節。
 
 ## 存取需求
+
++++ 展開以檢視本文中功能的存取需求。
 
 您必須具有下列存取權才能使用本文中的功能：
 
@@ -60,6 +62,8 @@ ht-degree: 1%
 若要瞭解您擁有的計畫、授權型別或存取權，請連絡您的[!DNL Workfront]管理員。
 
 如需[!DNL Adobe Workfront Fusion]授權的相關資訊，請參閱[[!DNL Adobe Workfront Fusion] 授權](../../workfront-fusion/get-started/license-automation-vs-integration.md)。
+
++++
 
 ## 選擇觸發程式模組的開始位置
 
