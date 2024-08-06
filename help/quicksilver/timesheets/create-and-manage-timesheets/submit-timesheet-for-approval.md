@@ -6,18 +6,22 @@ description: 提交您的時程表以供核准，讓您的經理可以檢視您�
 author: Alina
 feature: Timesheets
 exl-id: 253e20c8-58f8-4b23-a769-b0e36557066a
-source-git-commit: afbf2e2fbfcc2c527223da008518bc7632872c23
+source-git-commit: d5d517a0c9a1292c37e66db07f7ed17d0a9a59e1
 workflow-type: tm+mt
-source-wordcount: '894'
+source-wordcount: '860'
 ht-degree: 0%
 
 ---
 
 # 提交時程表以供核准
 
+<!--Audited: 8/2024-->
+
 提交您的時程表以供核准，讓您的經理可以檢視您的工作時間。 核准者可以確認所有記錄時間均已分配至正確的區域，且已為該時段記錄足夠的時數。
 
 ## 存取需求
+
++++ 展開以檢視本文中功能的存取需求。
 
 您必須具有下列存取權才能執行本文中的步驟：
 
@@ -26,25 +30,28 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront計畫*</td> 
+   <td role="rowheader">Adobe Workfront計畫</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront授權*</td> 
-   <td> <p>評論或以上</p> </td> 
+   <td role="rowheader">Adobe Workfront授權</td> 
+   <td> <p>新增：淺色或更高 </p>
+   <p>目前：檢閱或以上 </p>
   </tr> 
   <tr> 
-   <td role="rowheader">存取層級設定*</td> 
-   <td> <p>檢視任務或問題的存取權或以上許可權</p> <p>如果您還是沒有存取權，請詢問您的Workfront管理員，他們是否在您的存取層級中設定其他限制。 如需Workfront管理員如何修改存取層級的詳細資訊，請參閱<a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>。</p> </td> 
+   <td role="rowheader">存取層級設定</td> 
+   <td> <p>檢視或更高的任務和問題存取權 </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">物件許可權</td> 
-   <td> <p>檢視或更高的任務和問題許可權</p> <p>如需請求其他存取權的資訊，請參閱<a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">請求物件</a>的存取權。</p> </td> 
+   <td> <p>檢視或更高的時程表許可權</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*若要瞭解您擁有的計畫、授權型別或存取權，請聯絡您的Workfront管理員。
+如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
++++
 
 ## 提交時程表以供核准
 
@@ -59,7 +66,7 @@ ht-degree: 0%
 
 1. 移至已設定為擁有核准者的時程表。
 1. 記錄時間，如[記錄時間](../../timesheets/create-and-manage-timesheets/log-time.md)中所述。
-1. 按一下&#x200B;**提交核准**&#x200B;以啟動時程表核准流程。
+1. 按一下&#x200B;**提交以進行核准**&#x200B;以啟動時程表核准流程。
 
    ![](assets/submit-for-approval-button-on-timesheet-nwe.png)
 
@@ -68,7 +75,7 @@ ht-degree: 0%
    當您提交時程表以供核準時，核准者會在&#x200B;**首頁**&#x200B;頁面的&#x200B;**核准**&#x200B;區域中看到列出的時程表。 可能會發生下列情況：
 
    * 如果他們核准，**撤銷**&#x200B;按鈕將變更為&#x200B;**重新開啟**，而時程表狀態更新為&#x200B;**開啟**。
-   * 如果他們拒絕，則&#x200B;**提交以進行核准**&#x200B;按鈕會取代&#x200B;**撤銷**&#x200B;按鈕，而時程表狀態會更新為&#x200B;**已拒絕**。
+   * 如果他們拒絕它，則&#x200B;**提交以進行核准**&#x200B;按鈕會取代&#x200B;**撤銷**&#x200B;按鈕和時程表狀態更新為&#x200B;**已拒絕**。
 
 1. （選擇性）如果您需要重新開啟時程表並更新您的時間，請按一下&#x200B;**撤銷**。 如需詳細資訊，請參閱本文中的[撤回時間表](#recall-a-timesheet)區段。
 

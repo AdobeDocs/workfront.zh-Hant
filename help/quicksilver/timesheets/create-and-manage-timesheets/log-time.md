@@ -7,9 +7,9 @@ author: Alina
 feature: Timesheets
 role: User
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: 212dda4289e4d29dbfbff0dbdc55315215b5ad91
+source-git-commit: d5d517a0c9a1292c37e66db07f7ed17d0a9a59e1
 workflow-type: tm+mt
-source-wordcount: '3775'
+source-wordcount: '3856'
 ht-degree: 0%
 
 ---
@@ -47,12 +47,9 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront授權</td> 
-   <td> <p>新增： 
-   <ul><li>在時程表中記錄一般時數的淺色或更高</li>
-   <li>在專案、任務或問題上記錄時數的標準</li></ul>
-
-
-<p>目前： 
+   <td> <p>新增： </p>
+   <p>將專案、任務、問題或一般時數記錄到時程表上的小時數精簡或更高</p>
+   <p>目前： 
    <ul><li>檢閱或更高版本以在時程表中記錄一般時數</li>
    <li>在專案、任務或問題上記錄小時數的工作或更高</li></ul> </td> 
   </tr> 
@@ -476,6 +473,13 @@ ht-degree: 0%
 
 ## 在清單和報告中編輯記錄時數
 
+>[!CAUTION]
+>
+>* 您無法修改屬於已關閉時程表的小時輸入項。 您必須先重新開啟時程表，然後變更小時專案資訊。
+>* 當您將不計入收入的型別變更為計入收入的另一種型別時，也會發生專案財務的變更。 將時數型別從計入收入的型別變更為不計入收入的型別也會更新專案的財務。
+>
+>如需詳細資訊，請參閱[管理時數型別](/help/quicksilver/administration-and-setup/set-up-workfront/configure-timesheets-schedules/hour-types.md)。
+>
 您可以在下列區域編輯記錄時數：
 
 * 您在其中新增時數的所有區域，包括未完成的時程表

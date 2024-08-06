@@ -6,9 +6,9 @@ hide: true
 recommendations: noDisplay, noCatalog
 el-id: 698036a6-b3b4-44a9-91ee-63fdb6a646a1
 exl-id: 698036a6-b3b4-44a9-91ee-63fdb6a646a1
-source-git-commit: 1ffd8a3dbb31154186dc37132c7e77c35de42ac3
+source-git-commit: d5d517a0c9a1292c37e66db07f7ed17d0a9a59e1
 workflow-type: tm+mt
-source-wordcount: '800'
+source-wordcount: '846'
 ht-degree: 6%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 6%
 
 {{planning-important-intro}}
 
-您可以在Adobe Workfront Planning中共用或移除工作區或檢視的許可權。
+您可以共用或移除Adobe Workfront Planning工作區或檢視的許可權。
 
 本文說明Workfront Planning物件的許可權層級。
 
@@ -38,11 +38,16 @@ ht-degree: 6%
 * 工作區
 
    * 您可以和組織內部人員共用工作區。
-   * 當您共用工作區時，也會共用與工作區相關聯的所有記錄型別、記錄和欄位。 檢視不會共用。
+   * 當您共用工作區時，也會共用與工作區相關聯的所有記錄型別、記錄和欄位。
+
+     當您共用工作區時，檢視不會共用。 檢視會個別共用。
 
 * 檢視
 
    * 您必須授予使用者（包括系統管理員）存取檢視的許可權，而不授予其存取工作區的許可權。
+   * 當您共用檢視時，會共用所有檢視元素，包括篩選、分組、排序或設定。
+
+     當您共用檢視時，檢視中顯示的記錄不會共用。 記錄必須透過共用工作區來共用。
    * 當您產生檢視的公開連結時，您可以與組織外部的人員公開共用檢視。透過公開連結存取記錄頁面的人員可以檢視所有記錄及其欄位，包括連線的記錄和欄位。
 
   如需詳細資訊，請參閱[共用檢視](/help/quicksilver/planning/access/share-views.md)。
@@ -124,7 +129,7 @@ ht-degree: 6%
 
 |        | 管理 | 參與 | 檢視 |
 |--------|--------|------------|-------|
-| 建立 | ✓ (A) |            |       |
+| 建立 | ✓ (A) | ✓ (A) |       |
 | 刪除 | ✓ (A) | ✓ (A) |       |
 | 編輯 | ✓ (A) | ✓ (A) |       |
 | 檢視 | ✓ (A) | ✓ (A) | ✓ (A) |

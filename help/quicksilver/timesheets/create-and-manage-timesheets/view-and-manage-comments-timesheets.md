@@ -6,9 +6,9 @@ description: 您可以對時程表、時程表中包含的工作專案以及您�
 author: Alina
 feature: Timesheets
 exl-id: 6260d176-3cfb-4bc2-93cb-00687e030248
-source-git-commit: 18dfb67626982d73ad33871b8afce4a3f0d4cdb3
+source-git-commit: d5d517a0c9a1292c37e66db07f7ed17d0a9a59e1
 workflow-type: tm+mt
-source-wordcount: '847'
+source-wordcount: '848'
 ht-degree: 0%
 
 ---
@@ -24,6 +24,8 @@ ht-degree: 0%
 * 在個別專案上，例如任務或問題
 
 ## 存取需求
+
++++ 展開以檢視本文中功能的存取需求。
 
 您必須具有下列存取權才能執行本文中的步驟：
 
@@ -42,7 +44,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定</td> 
-   <td> <p>檢視任務或問題的存取權或以上許可權</p> </td> 
+   <td> <p>檢視或更高的任務與問題存取權</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">物件許可權</td> 
@@ -53,6 +55,8 @@ ht-degree: 0%
 
 *若要瞭解您擁有的計畫、授權型別或存取權，請聯絡您的Workfront管理員。 如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
++++
+
 ## 在時程表上檢視小時專案註解 {#view-hour-entry-comments-on-a-timesheet}
 
 您可以設定對要在時程表中顯示的個別小時專案所做的註解。 顯示和隱藏註解的選項不會影響整體時程表上的註解或個別專案上的註解。 如需詳細資訊，請參閱  [在時程表上加上註解](#make-comments-on-a-timesheet)。
@@ -61,9 +65,10 @@ ht-degree: 0%
 
 若要在時程表上顯示註解：
 
-1. 按一下Adobe Workfront右上角的&#x200B;**主要功能表**&#x200B;圖示![](assets/main-menu-icon.png)。
+{{step1-to-timesheets}}
 
-1. 按一下&#x200B;**時程表**。
+**時程表**&#x200B;區域隨即開啟。
+
 1. 開啟您要顯示註解的時程表。
 1. 按一下時程表右上角的&#x200B;**顯示註解**。
 註解會顯示在記錄時數專案與註解的專案下。
