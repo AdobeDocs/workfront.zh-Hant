@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: 969231d27e1ef2f3f3cd2847664c22f1f21f1911
+source-git-commit: 990b27821fcf5ae4f3ec954ddd3b58ed1b140319
 workflow-type: tm+mt
-source-wordcount: '6090'
+source-wordcount: '6252'
 ht-degree: 4%
 
 ---
@@ -53,10 +53,6 @@ ht-degree: 4%
 
 1. 按一下左側面板中的&#x200B;**自訂Forms**。
 
-   <!-- >[!TIP]
-    >
-    >In the view that appears, you can review all custom forms and custom fields that have been created for your organization. You can also see who created each form and the fields that are associated with it. -->
-
 1. 按一下&#x200B;**新增自訂表格。**
 1. 選取您要附加自訂表單的物件型別，然後按一下[繼續]。****
 
@@ -76,6 +72,7 @@ ht-degree: 4%
 
 1. 接下來，您可以開始將欄位新增至自訂表單。 請參閱下列章節：
    * [重複使用已在其他自訂表單中使用的現有欄位或Widget](#reuse-an-existing-field-or-widget-already-used-in-another-custom-form)
+   * [欄位名稱和標籤的附註](#notes-on-field-names-and-labels)
    * [新增文字欄位](#add-text-fields)
    * [新增計算欄位](#add-calculated-fields)
    * [新增選項按鈕、核取方塊群組和下拉式清單](#add-radio-buttons-checkboxes-and-dropdowns)
@@ -89,7 +86,7 @@ ht-degree: 4%
 
 在設計自訂表單時，您可以使用新的或現有的欄位。
 
-## 重複使用已在其他自訂表單中使用的現有欄位或Widget
+### 重複使用已在其他自訂表單中使用的現有欄位或Widget
 
 1. 在熒幕左上方，按一下&#x200B;**欄位程式庫**。
 
@@ -108,6 +105,39 @@ ht-degree: 4%
    或
 
    按一下&#x200B;**儲存並關閉**。
+
+### 欄位名稱和標籤的附註 {#notes-on-field-names-and-labels}
+
+**標籤**&#x200B;適用於大部分欄位。 這是自訂表單上欄位或Widget上方的描述性標籤。 您可以隨時變更標籤。
+
+>[!NOTE]
+>
+>請避免在此標籤中使用特殊字元。 它們在報表中無法正確顯示。
+
+每個欄位都需要&#x200B;**名稱**。 此名稱是系統識別欄位的方式。 當您首次設定欄位或Widget且輸入標籤時，會自動填入名稱欄位以和欄位相符。 但是「標籤」和「名稱」欄位不同步，這可讓您自由地變更使用者看到的標籤，而不必變更系統看到的名稱。
+
+>[!NOTE]
+>
+>雖然可以這樣做，但建議您不要在您或其他使用者開始使用Workfront中的自訂表單後變更此名稱。 如果這樣做，系統將不再識別現在可能在Workfront其他區域參考該欄位的自訂欄位。
+>例如，如果您新增自訂欄位至報表，之後又變更其名稱，Workfront將無法辨識報表中的自訂欄位，且除非您使用新名稱將其重新新增至報表，否則將無法正常運作。
+>
+>建議您不要輸入已用於內建Workfront欄位的名稱。
+>
+>建議您不要在自訂欄位名稱中使用句號/點字元，以防止在Workfront的不同區域使用欄位時發生錯誤。
+
+自訂欄位標籤和名稱不支援下列特殊字元。
+
+* \t
+* \n
+* \r
+* \f
+* `[`
+* `]`
+* (
+* )
+* ：
+* `{`
+* `}`
 
 ### 新增文字欄位
 
@@ -158,13 +188,13 @@ ht-degree: 4%
     <li>單行文字</li>
     <li>段落文字</li>
     <li>含格式的文字</li>
-    <li>描述文字 — 即將推出</li>
+    <li>描述文字</li>
     </ul></td>
     </tr>
     <tr>
     <td>標籤</td>
     <td><p>輸入要顯示在Widget上方的描述性標籤。 您可以隨時變更標籤。<p>
-    <p>重要：請避免在此標籤中使用特殊字元。 它們在報表中無法正確顯示。</p></td>
+    <p>重要：請避免在此標籤中使用特殊字元。 它們在報表中無法正確顯示。 如需詳細資訊，請參閱<a href="design-a-form.md#notes-on-field-names-and-labels">欄位名稱和標籤的附註</a>。</p></td>
     <td><ul>
     <li>單行文字</li>
     <li>段落文字</li>
@@ -174,11 +204,7 @@ ht-degree: 4%
     <tr>
      <td>姓名</td>
     <td><p>（必要）此名稱是系統識別欄位的方式。 當您第一次設定Widget且輸入標籤時，「名稱」欄位會自動填入以和相符。 但是「標籤」和「名稱」欄位不同步，這可讓您自由地變更使用者看到的標籤，而不必變更系統看到的名稱。</p>
-    <p><b>重要</b>：   
-      <ul> 
-      <li>雖然可以這樣做，但建議您不要在您或其他使用者開始使用Workfront中的自訂表單後變更此名稱。 如果這樣做，系統將不再識別現在可能在Workfront其他區域參考該欄位的自訂欄位。 <p>例如，如果您新增自訂欄位至報表，之後又變更其名稱，Workfront將無法辨識報表中的自訂欄位，且除非您使用新名稱將其重新新增至報表，否則將無法正常運作。</p> </li>
-      <li> <p>建議您不要輸入已用於內建Workfront欄位的名稱。</p> </li>
-      <li><p>建議您不要在自訂欄位名稱中使用句號/點字元，以防止在Workfront的不同區域使用欄位時發生錯誤。</p></li>
+    <p>如需詳細資訊，請參閱<a href="design-a-form.md#notes-on-field-names-and-labels">欄位名稱和標籤的附註</a>。</p>
     </td>
     <td><ul>
     <li>單行文字</li>
@@ -189,7 +215,7 @@ ht-degree: 4%
     </tr>
     <tr>
     <td>指示</td>
-    <td>輸入有關Widget的任何其他資訊。 當使用者填寫自訂表單時，可以將滑鼠指標暫留在問號圖示上，以檢視包含您在此處輸入資訊的工具提示。
+    <td>輸入有關欄位的任何其他資訊。 當使用者填寫自訂表單時，可以將滑鼠指標暫留在問號圖示上，以檢視包含您在此處輸入資訊的工具提示。
     <img src="assets/instructions-form-designer.png">
     </td>
     <td><ul>
