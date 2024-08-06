@@ -11,9 +11,9 @@ feature: Workfront Fusion
 exl-id: 2c1aea46-edbf-42a3-a6e9-f8aea042a48d
 hide: true
 hidefromtoc: true
-source-git-commit: 4c1b784442d000d189be076903c4c65fca42e68f
+source-git-commit: 357e8e5bb3c81790e503538d96e444fb4f1e0ad5
 workflow-type: tm+mt
-source-wordcount: '3659'
+source-wordcount: '3673'
 ht-degree: 0%
 
 ---
@@ -120,6 +120,10 @@ ht-degree: 0%
         <tr>
         <td role="rowheader">[！UICONTROL組織ID]</td>
         <td>輸入您的[!DNL Adobe] [！UICONTROL組織識別碼]。 您可在的[！UICONTROL Credentials]詳細資訊區段中找到 [!DNL Adobe Developer Console]</td>
+        </tr>
+        <tr>
+        <td role="rowheader">[！UICONTROL沙箱名稱]</td>
+        <td>輸入此連線將使用的沙箱名稱。</td>
         </tr>
       </tbody>
     </table>
