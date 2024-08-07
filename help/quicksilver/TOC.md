@@ -3,9 +3,9 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文件、教學課程和其他資源，了解如何在您的組織中實施並有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: 35ec37253655d05a8ce24a5c928b1d5377f7abef
+source-git-commit: 992a4b2c220664b660e871b3d464350d8f6f1a53
 workflow-type: tm+mt
-source-wordcount: '14301'
+source-wordcount: '14306'
 ht-degree: 1%
 
 ---
@@ -2113,6 +2113,7 @@ ht-degree: 1%
          * [將webhook新增至 [!DNL Adobe Workfront Fusion]中的基本案例](/help/quicksilver/workfront-fusion/get-started/build-practice-scenarios/add-a-webhook.md)
       * [在Adobe Workfront Fusion中建立實務自動化案例](workfront-fusion/get-started/create-a-practice-automation-scenario.md)
       * [在Adobe Workfront Fusion中建立實務整合情境](workfront-fusion/get-started/create-a-practice-scenario.md)
+      * [Workfront Fusion中的AI助理](/help/quicksilver/workfront-fusion/get-started/fusion-ai-assistant.md)
       * [Adobe Workfront Fusion效能護欄](workfront-fusion/get-started/fusion-performance-guardrails.md)
       * [用於存取Adobe Workfront Fusion的IP位址](workfront-fusion/get-started/ip-addresses-for-fusion.md)
       * [Adobe Workfront Fusion授權](workfront-fusion/get-started/license-automation-vs-integration.md)

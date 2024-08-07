@@ -9,9 +9,9 @@ author: Becky
 feature: Workfront Fusion
 recommendations: noDisplay, noCatalog
 exl-id: 91b07548-059f-4eb9-bf8f-69b0bc397097
-source-git-commit: 811f38da4f91695ef0589dd10122b29d09e4e09c
+source-git-commit: 10ff6535447bb314f08bd159132057f85e12ef71
 workflow-type: tm+mt
-source-wordcount: '70'
+source-wordcount: '75'
 ht-degree: 0%
 
 ---
@@ -29,6 +29,7 @@ ht-degree: 0%
 * [在 [!DNL Adobe Workfront Fusion]中建立簡單的實務案例](/help/quicksilver/workfront-fusion/get-started/build-practice-scenarios/create-practice-scenarios.md)
 * [在 [!DNL Adobe Workfront Fusion]中建立練習自動化案例](../../workfront-fusion/get-started/create-a-practice-automation-scenario.md)
 * [在 [!DNL Adobe Workfront Fusion]中建立練習整合情境](../../workfront-fusion/get-started/create-a-practice-scenario.md)
+* [Workfront Fusion中的AI助理](/help/quicksilver/workfront-fusion/get-started/fusion-ai-assistant.md)
 * [[!DNL Adobe Workfront Fusion]效能護欄](../../workfront-fusion/get-started/fusion-performance-guardrails.md)
 * [用於存取 [!DNL Adobe Workfront Fusion]的IP位址](../../workfront-fusion/get-started/ip-addresses-for-fusion.md)
 * [[!DNL Adobe Workfront Fusion]個授權](../../workfront-fusion/get-started/license-automation-vs-integration.md)
