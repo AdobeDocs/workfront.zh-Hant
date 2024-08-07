@@ -6,9 +6,9 @@ description: 核準時程表的程式可讓經理檢視其直接下屬的工作�
 author: Alina
 feature: Timesheets
 exl-id: b27b3307-f61b-456d-8076-590d1c391b4b
-source-git-commit: d5d517a0c9a1292c37e66db07f7ed17d0a9a59e1
+source-git-commit: 1a46fa3a8e87a5f345558cef57a4d66171320c9b
 workflow-type: tm+mt
-source-wordcount: '515'
+source-wordcount: '540'
 ht-degree: 0%
 
 ---
@@ -42,7 +42,13 @@ Adobe Workfront提供設定時程表核准的功能，以支援此區域。
   <tr> 
    <td role="rowheader"><p>Adobe Workfront授權*</p></td> 
    <td> <p>新增：標準</p>
-   <p>目前：計畫 </p> </td> 
+   <p>目前：計畫 </p> 
+   <tr> 
+   <td role="rowheader">存取層級設定</td> 
+   <td> <p>對時程表和時數的管理存取 </p> </td> 
+  </tr>
+
+</td> 
   </tr> 
  </tbody> 
 </table>
@@ -53,7 +59,7 @@ Adobe Workfront提供設定時程表核准的功能，以支援此區域。
 
 ## 指定時程表核准者
 
-時程表通常由功能經理或人力資源人員核准。 （專案經理通常不會核準時程表。）
+時程表通常由功能經理或人力資源人員核准。 專案經理通常不會核準時程表。 專案經理可核准登入專案的時間，但團隊或人力資源經理應核準時程表。
 
 時程表核准者會在建立時程表設定檔時定義。 您必須擁有計畫授權才能被指定為核准者。
 
