@@ -9,9 +9,9 @@ description: 透過Adobe Photoshop模組，您可以根據Adobe Photoshop帳戶�
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: f20192ea-e363-4fba-8bd2-b1d50443918d
-source-git-commit: 5b2de063836c2cf668e14edfbc5a12f9321d26ca
+source-git-commit: cfd13f8eb422401644f7a1abf54e909218b2e8bf
 workflow-type: tm+mt
-source-wordcount: '3966'
+source-wordcount: '4308'
 ht-degree: 0%
 
 ---
@@ -147,7 +147,7 @@ ht-degree: 0%
 
 ![](assets/map-toggle-350x74.png)
 
-* [套用Photoshop編輯](#apply-psd-edits)
+* [套用PSD編輯](#apply-psd-edits)
 * [自動色彩校正影像](#auto-color-correct-an-image)
 * [轉換影像格式](#convert-image-format)
 * [建立遮色片](#create-a-mask)
@@ -263,14 +263,14 @@ ht-degree: 0%
     <tr>
       <td role="rowheader">[！UICONTROL （輸出）儲存]</td>
       <td>
-        <p>選取您要儲存新檔案的檔案服務。</p>
+        <p>選取您要儲存新檔案的檔案服務。</p><p>選取Fusion內部儲存體可讓檔案供後續模組使用，但無法讓檔案在情境之外使用。</p>
       </td>
     </tr>
     <tr>
       <td role="rowheader">
         <p>[！UICONTROL （輸出）檔案位置]</p>
       </td>
-   <td> 輸入或對應將儲存新檔案的URL或路徑。 </td> 
+   <td> 輸入或對應將儲存新檔案的URL或路徑。 只有在您尚未為輸出儲存體選擇Fusion內部儲存體時，才需要這樣做。</td> 
     </tr>
     <tr>
       <td role="rowheader">
@@ -322,14 +322,14 @@ ht-degree: 0%
     <tr>
       <td role="rowheader">[！UICONTROL （輸出）儲存]</td>
       <td>
-        <p>選取您要儲存新檔案的檔案服務。</p>
+        <p>選取您要儲存新檔案的檔案服務。</p><p>選取Fusion內部儲存體可讓檔案供後續模組使用，但無法讓檔案在情境之外使用。</p>
       </td>
     </tr>
     <tr>
       <td role="rowheader">
         <p>[！UICONTROL （輸出）檔案位置]</p>
       </td>
-   <td> 輸入或對應將儲存新檔案的URL或路徑。 </td> 
+   <td> 輸入或對應將儲存新檔案的URL或路徑。 只有在您尚未為輸出儲存體選擇Fusion內部儲存體時，才需要這樣做。</td> 
     </tr>
     <tr>
       <td role="rowheader">
@@ -386,14 +386,14 @@ ht-degree: 0%
     <tr>
       <td role="rowheader">[！UICONTROL （輸出）儲存]</td>
       <td>
-        <p>選取您要儲存新檔案的檔案服務。</p>
+        <p>選取您要儲存新檔案的檔案服務。</p><p>選取Fusion內部儲存體可讓檔案供後續模組使用，但無法讓檔案在情境之外使用。</p>
       </td>
     </tr>
     <tr>
       <td role="rowheader">
         <p>[！UICONTROL （輸出）檔案位置]</p>
       </td>
-   <td> 輸入或對應將儲存新檔案的URL或路徑。 </td> 
+   <td> 輸入或對應將儲存新檔案的URL或路徑。 只有在您尚未為輸出儲存體選擇Fusion內部儲存體時，才需要這樣做。 </td> 
     </tr>
     <tr>
       <td role="rowheader">
@@ -445,14 +445,14 @@ ht-degree: 0%
     <tr>
       <td role="rowheader">[！UICONTROL （輸出）儲存]</td>
       <td>
-        <p>選取您要儲存遮罩檔案的檔案服務。</p>
+        <p>選取您要儲存遮罩檔案的檔案服務。</p><p>選取Fusion內部儲存體可讓檔案供後續模組使用，但無法讓檔案在情境之外使用。</p>
       </td>
     </tr>
     <tr>
       <td role="rowheader">
         <p>[！UICONTROL （輸出）檔案位置]</p>
       </td>
-   <td> 輸入或對應遮罩檔案儲存位置的URL或路徑。 </td> 
+   <td> 輸入或對應遮罩檔案儲存位置的URL或路徑。 只有在您尚未為輸出儲存體選擇Fusion內部儲存體時，才需要這樣做。</td> 
     </tr>
     <tr>
       <td role="rowheader">[！UICONTROL覆寫]</td>
@@ -575,6 +575,119 @@ ht-degree: 0%
    <td> 選取輸出檔案的壓縮等級。 </td> 
     </tr>
   </tbody>
+</table>
+
+
+
+### 執行Photoshop動作(JSON)
+
+此動作模組會使用JSON命令執行Photoshop動作。
+
+<table style="table-layout:auto"> 
+  <col/>
+  <col/>
+  <tbody>
+    <tr>
+      <td role="rowheader">[！UICONTROL Connection]</td>
+      <td>如需建立[!DNL Adobe Photoshop]連線的說明，請參閱本文中的<a href="#create-a-connection-to-adobe-photoshop" class="MCXref xref" >建立與[!DNL Adobe Photoshop]</a>的連線。</td>
+    </tr>
+    <tr>
+      <td role="rowheader">[！UICONTROL （輸入）儲存體]</td>
+      <td>
+        <p>選取儲存您要編輯之檔案的檔案服務。</p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">
+        <p>[！UICONTROL （輸入）檔案位置]</p>
+      </td>
+   <td> 輸入或對應您要編輯之檔案的URL或路徑。 </td> 
+    </tr>
+    <tr>
+      <td role="rowheader">[！UICONTROL動作JSON]</td>
+      <td>
+        <p>輸入您要執行動作的JSON命令。</p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">[！UICONTROL字型/圖案/筆刷/其他影像]</td>
+      <td>
+        <p>針對每一個要在此動作中使用的字型、圖樣、筆刷或其他影像，按一下「新增專案」，然後輸入專案的儲存和檔案位置。</p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">
+        <p>[！UICONTROL字型/模式/筆刷檔案URL]</p>
+      </td>
+   <td> 輸入或對應您要使用的檔案URL或路徑。 </td> 
+    </tr>
+    <tr>
+      <td role="rowheader">[！UICONTROL輸出檔案儲存]</td>
+      <td>
+        <p>選取要儲存編輯檔案的檔案服務。</p><p>選取Fusion內部儲存體可讓檔案供後續模組使用，但無法讓檔案在情境之外使用。</p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">
+        <p>[！UICONTROL輸出檔案URL]</p>
+      </td>
+   <td> 輸入或對應將儲存已編輯檔案的URL或路徑。  只有在您尚未為輸出儲存體選擇Fusion內部儲存體時，才需要這樣做。</td> 
+    </tr>
+    <tr>
+      <td role="rowheader">
+        <p>[！UICONTROL輸出檔案型別]</p>
+      </td>
+   <td> 選取已編輯檔案的檔案型別。 </td> 
+    </tr>
+    <tr>
+      <td role="rowheader">[！UICONTROL覆寫]</td>
+      <td>
+        <p>選取新編輯的檔案是否會覆寫任何已存在的輸出檔案。</p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">
+        <p>[！UICONTROL壓縮]</p>
+      </td>
+   <td> 選取輸出檔案的壓縮等級。 </td> 
+    </tr>
+    <tr>
+      <td role="rowheader">[！UICONTROL輸出]</td>
+      <td>
+        <p>針對每一個要建立的轉換檔案，按一下「新增專案」，然後輸入儲存體、位置及型別，如本表所列。</p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">[！UICONTROL （輸出）儲存]</td>
+      <td>
+        <p>選取您要儲存新檔案的檔案服務。</p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">
+        <p>[！UICONTROL （輸出）檔案位置]</p>
+      </td>
+   <td> 輸入或對應將儲存新檔案的URL或路徑。 </td> 
+    </tr>
+    <tr>
+      <td role="rowheader">
+        <p>[！UICONTROL （輸出）型別]</p>
+      </td>
+   <td>選取您要轉換檔案的檔案型別。 </td> 
+    </tr>
+    <tr>
+      <td role="rowheader">[！UICONTROL （輸出）覆寫]</td>
+      <td>
+        <p>選取新編輯的檔案是否會覆寫任何已存在的輸出檔案。 這僅適用於Adobe儲存體中的檔案。</p>
+      </td>
+    </tr>
+        <tr>
+      <td role="rowheader">
+        <p>[！UICONTROL傳回結果的最大數目]</p>
+      </td>
+   <td>輸入或對應您希望模組在每個案例執行週期中傳回的最大記錄數。</td> 
+    </tr>
+      </tbody>
 </table>
 
 ### 執行深度模糊
@@ -725,117 +838,6 @@ ht-degree: 0%
    <td> 選取輸出檔案的壓縮等級。 </td> 
     </tr>
   </tbody>
-</table>
-
-### 執行Photoshop動作(JSON)
-
-此動作模組會使用JSON命令執行Photoshop動作。
-
-<table style="table-layout:auto"> 
-  <col/>
-  <col/>
-  <tbody>
-    <tr>
-      <td role="rowheader">[！UICONTROL Connection]</td>
-      <td>如需建立[!DNL Adobe Photoshop]連線的說明，請參閱本文中的<a href="#create-a-connection-to-adobe-photoshop" class="MCXref xref" >建立與[!DNL Adobe Photoshop]</a>的連線。</td>
-    </tr>
-    <tr>
-      <td role="rowheader">[！UICONTROL （輸入）儲存體]</td>
-      <td>
-        <p>選取儲存您要編輯之檔案的檔案服務。</p>
-      </td>
-    </tr>
-    <tr>
-      <td role="rowheader">
-        <p>[！UICONTROL （輸入）檔案位置]</p>
-      </td>
-   <td> 輸入或對應您要編輯之檔案的URL或路徑。 </td> 
-    </tr>
-    <tr>
-      <td role="rowheader">[！UICONTROL動作JSON]</td>
-      <td>
-        <p>輸入您要執行動作的JSON命令。</p>
-      </td>
-    </tr>
-    <tr>
-      <td role="rowheader">[！UICONTROL字型/圖案/筆刷/其他影像]</td>
-      <td>
-        <p>針對每一個要在此動作中使用的字型、圖樣、筆刷或其他影像，按一下「新增專案」，然後輸入專案的儲存和檔案位置。</p>
-      </td>
-    </tr>
-    <tr>
-      <td role="rowheader">
-        <p>[！UICONTROL字型/模式/筆刷檔案URL]</p>
-      </td>
-   <td> 輸入或對應您要使用的檔案URL或路徑。 </td> 
-    </tr>
-    <tr>
-      <td role="rowheader">[！UICONTROL輸出檔案儲存]</td>
-      <td>
-        <p>選取要儲存編輯檔案的檔案服務。</p>
-      </td>
-    </tr>
-    <tr>
-      <td role="rowheader">
-        <p>[！UICONTROL輸出檔案URL]</p>
-      </td>
-   <td> 輸入或對應將儲存已編輯檔案的URL或路徑。 </td> 
-    </tr>
-    <tr>
-      <td role="rowheader">
-        <p>[！UICONTROL輸出檔案型別]</p>
-      </td>
-   <td> 選取已編輯檔案的檔案型別。 </td> 
-    </tr>
-    <tr>
-      <td role="rowheader">[！UICONTROL覆寫]</td>
-      <td>
-        <p>選取新編輯的檔案是否會覆寫任何已存在的輸出檔案。</p>
-      </td>
-    </tr>
-    <tr>
-      <td role="rowheader">
-        <p>[！UICONTROL壓縮]</p>
-      </td>
-   <td> 選取輸出檔案的壓縮等級。 </td> 
-    </tr>
-    <tr>
-      <td role="rowheader">[！UICONTROL輸出]</td>
-      <td>
-        <p>針對每一個要建立的轉換檔案，按一下「新增專案」，然後輸入儲存體、位置及型別，如本表所列。</p>
-      </td>
-    </tr>
-    <tr>
-      <td role="rowheader">[！UICONTROL （輸出）儲存]</td>
-      <td>
-        <p>選取您要儲存新檔案的檔案服務。</p>
-      </td>
-    </tr>
-    <tr>
-      <td role="rowheader">
-        <p>[！UICONTROL （輸出）檔案位置]</p>
-      </td>
-   <td> 輸入或對應將儲存新檔案的URL或路徑。 </td> 
-    </tr>
-    <tr>
-      <td role="rowheader">
-        <p>[！UICONTROL （輸出）型別]</p>
-      </td>
-   <td>選取您要轉換檔案的檔案型別。 </td> 
-    </tr>
-    <tr>
-      <td role="rowheader">[！UICONTROL （輸出）覆寫]</td>
-      <td>
-        <p>選取新編輯的檔案是否會覆寫任何已存在的輸出檔案。 這僅適用於Adobe儲存體中的檔案。</p>
-      </td>
-    </tr>
-        <tr>
-      <td role="rowheader">
-        <p>[！UICONTROL傳回結果的最大數目]</p>
-      </td>
-   <td>輸入或對應您希望模組在每個案例執行週期中傳回的最大記錄數。</td> 
-    </tr>
-      </tbody>
 </table>
 
 ### 執行產品裁切
@@ -1020,14 +1022,14 @@ ht-degree: 0%
     <tr>
       <td role="rowheader">[！UICONTROL （輸出）儲存]</td>
       <td>
-        <p>選取您要儲存新檔案的檔案服務。</p>
+        <p>選取您要儲存新檔案的檔案服務。</p><p>選取Fusion內部儲存體可讓檔案供後續模組使用，但無法讓檔案在情境之外使用。</p>
       </td>
     </tr>
     <tr>
       <td role="rowheader">
         <p>[！UICONTROL （輸出）檔案位置]</p>
       </td>
-   <td> 輸入或對應將儲存新檔案的URL或路徑。 </td> 
+   <td> 輸入或對應將儲存新檔案的URL或路徑。  只有在您尚未為輸出儲存體選擇Fusion內部儲存體時，才需要這樣做。</td> 
     </tr>
     <tr>
       <td role="rowheader">[！UICONTROL覆寫]</td>
@@ -1115,14 +1117,14 @@ ht-degree: 0%
     <tr>
       <td role="rowheader">[！UICONTROL （輸出）儲存]</td>
       <td>
-        <p>選取您要儲存新檔案的檔案服務。</p>
+        <p>選取您要儲存新檔案的檔案服務。</p><p>選取Fusion內部儲存體可讓檔案供後續模組使用，但無法讓檔案在情境之外使用。</p>
       </td>
     </tr>
     <tr>
       <td role="rowheader">
         <p>[！UICONTROL （輸出）檔案位置]</p>
       </td>
-   <td> 輸入或對應將儲存新檔案的URL或路徑。 </td> 
+   <td> 輸入或對應將儲存新檔案的URL或路徑。  只有在您尚未為輸出儲存體選擇Fusion內部儲存體時，才需要這樣做。</td> 
     </tr>
     <tr>
       <td role="rowheader">
@@ -1162,14 +1164,14 @@ ht-degree: 0%
     <tr>
       <td role="rowheader">[！UICONTROL儲存]</td>
       <td>
-        <p>選取要儲存檔案大小的檔案服務。</p>
+        <p>選取要儲存檔案大小的檔案服務。</p><p>選取Fusion內部儲存體可讓檔案供後續模組使用，但無法讓檔案在情境之外使用。</p>
       </td>
     </tr>
     <tr>
       <td role="rowheader">
         <p>[！UICONTROL檔案位置]</p>
       </td>
-   <td> 輸入或對應您要調整大小的檔案的URL或路徑。 </td> 
+   <td> 輸入或對應您要調整大小的檔案的URL或路徑。  只有在您尚未為輸出儲存體選擇Fusion內部儲存體時，才需要這樣做。</td> 
     </tr>
     <tr>
       <td role="rowheader">[！UICONTROL輸出]</td>
@@ -1269,18 +1271,17 @@ ht-degree: 0%
       </td>
    <td> 輸入或對應浮水印應該位於的距離影像頂端（以畫素為單位）。</td> 
     </tr>  
-    </tr>  
     <tr>
       <td role="rowheader">[！UICONTROL （輸出）儲存]</td>
       <td>
-        <p>選取要儲存浮水印檔案的檔案服務。</p>
+        <p>選取要儲存浮水印檔案的檔案服務。</p><p>選取Fusion內部儲存體可讓檔案供後續模組使用，但無法讓檔案在情境之外使用。</p>
       </td>
     </tr>
     <tr>
       <td role="rowheader">
         <p>[！UICONTROL （輸出）檔案位置]</p>
       </td>
-   <td> 輸入或對應要儲存浮水印檔案的URL或路徑。 </td> 
+   <td> 輸入或對應要儲存浮水印檔案的URL或路徑。 只有在您尚未為輸出儲存體選擇Fusion內部儲存體時，才需要這樣做。</td> 
     </tr>
     <tr>
       <td role="rowheader">
