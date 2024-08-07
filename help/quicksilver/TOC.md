@@ -3,9 +3,9 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文件、教學課程和其他資源，了解如何在您的組織中實施並有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: fa6028c04930e2daae7d139ec3863d694484a788
+source-git-commit: 35ec37253655d05a8ce24a5c928b1d5377f7abef
 workflow-type: tm+mt
-source-wordcount: '14294'
+source-wordcount: '14301'
 ht-degree: 1%
 
 ---
@@ -168,6 +168,7 @@ ht-degree: 1%
          * [21.1其他增強功能](product-announcements/product-releases/21.1-release-activity/21-1-other-enhancements.md)
       * Adobe Workfront Fusion發行活動{#fusion-release}
          * [Adobe Workfront Fusion發行活動](product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md)
+         * [Workfront Fusion發行活動： 2024年8月5日當週](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-8-5.md)
          * [Workfront Fusion發行活動： 2024年7月29日當週](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-7-29.md)
          * [Workfront Fusion發行活動： 2024年7月22日當週](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-7-22.md)
          * [Workfront Fusion發行活動： 2024年7月8日當週](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-7-11.md)
