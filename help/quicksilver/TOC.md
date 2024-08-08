@@ -3,10 +3,10 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文件、教學課程和其他資源，了解如何在您的組織中實施並有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: 2f11be5feac8ed94c2db52b6a1d329bd670702cd
+source-git-commit: 1b3e0ab2d8ee37b7583d0b8fb0472b2fc9623da0
 workflow-type: tm+mt
 source-wordcount: '14310'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
@@ -465,7 +465,7 @@ ht-degree: 1%
          * [專案時間表重新計算](administration-and-setup/set-up-workfront/configure-system-defaults/configure-timeline-recalculations-projects.md)
          * [專案的自訂季度](administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md)
          * [啟用或停用組織的快速發行](administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)
-         * [建立和編輯商業規則](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/business-rules.md)
+         * [建立和編輯業務規則](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/business-rules.md)
          * [設定位置](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-locations.md)
          * [管理費率卡](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md)
       * 設定時程表和時程表喜好設定{#configure-timesheets-schedules}
@@ -473,7 +473,7 @@ ht-degree: 1%
          * [排程總覽](administration-and-setup/set-up-workfront/configure-timesheets-schedules/schedules-overview.md)
          * [設定記錄時間型別](administration-and-setup/set-up-workfront/configure-timesheets-schedules/configure-users-log-time-in-hrs-or-days.md)
          * [時程表和小時偏好設定](administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md)
-         * [管理小時型別](administration-and-setup/set-up-workfront/configure-timesheets-schedules/hour-types.md)
+         * [管理時數類型](administration-and-setup/set-up-workfront/configure-timesheets-schedules/hour-types.md)
          * [建立排程](administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md)
       * 組織設定 {#organization-setup}
          * [組織設定](administration-and-setup/set-up-workfront/organizational-setup/organizational-setup.md)
@@ -486,8 +486,8 @@ ht-degree: 1%
          * [停用職位角色](administration-and-setup/set-up-workfront/organizational-setup/deactivate-job-roles.md)
          * [覆寫工作角色收費率](administration-and-setup/set-up-workfront/organizational-setup/override-job-role-billing-rates-company-level.md)
       * 系統追蹤的更新摘要{#system-tracked-updates}
-         * [系統追蹤更新](administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-updates-feeds.md)
-         * [系統追蹤更新](administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md)
+         * [系統追蹤的更新](administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-updates-feeds.md)
+         * [系統追蹤的更新](administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md)
          * [設定系統更新](administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md)
          * [設定使用者更新的偏好設定](administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-preferences-user-updates.md)
       * Adobe Workfront測試環境{#testing-environments}
@@ -577,11 +577,11 @@ ht-degree: 1%
       * Adobe Workfront {#custom-branding}中的自訂品牌
          * [自訂品牌](administration-and-setup/customize-workfront/brand-workfront/brand-workfront.md)
          * [品牌化您的執行個體](administration-and-setup/customize-workfront/brand-workfront/brand-your-workfront-instance.md)
-         * [設定自訂說明URL](administration-and-setup/customize-workfront/brand-workfront/configure-custom-help-url.md)
+         * [設定自訂說明 URL](administration-and-setup/customize-workfront/brand-workfront/configure-custom-help-url.md)
       * 版面配置範本 {#layout-templates}
          * [版面配置範本](administration-and-setup/customize-workfront/use-layout-templates/use-layout-templates-customize-ui.md)
          * [預設Workfront配置](administration-and-setup/customize-workfront/use-layout-templates/about-the-default-wf-layout.md)
-         * [建立及管理版面範本](administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md)
+         * [建立和管理版面配置範本](administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md)
          * [自訂主要功能表](administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md)
          * [使用版面配置範本自訂物件標頭](administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md)
          * [自訂左側面板](administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md)
@@ -600,7 +600,7 @@ ht-degree: 1%
          * [使用API呼叫刪除傳統版面配置範本](administration-and-setup/customize-workfront/use-layout-templates/delete-classic-layout-templates.md)
       * 自訂表單{#custom-forms}
          * [自訂表單：文章索引](administration-and-setup/customize-workfront/create-manage-custom-forms/create-and-manage-custom-forms.md)
-         * [自訂表單概述](administration-and-setup/customize-workfront/create-manage-custom-forms/custom-forms-overview.md)
+         * [自訂表單概觀](administration-and-setup/customize-workfront/create-manage-custom-forms/custom-forms-overview.md)
          * 設計自訂表單{#design-a-form}
             * [設計表單：文章索引](administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form-toc.md)
             * [使用表單設計工具設計表單](administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)
@@ -639,7 +639,7 @@ ht-degree: 1%
          * [使自訂狀態成為預設狀態](administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/use-custom-statuses-as-default-statuses.md)
          * [刪除自訂狀態](administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/delete-a-custom-status.md)
          * [使用特定狀態列出擱置物件](administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/list-objects-pending-approval-certain-status.md)
-         * [建立和自訂優先順序](administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-priorities.md)
+         * [建立和自訂優先等級](administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-priorities.md)
          * [建立及自訂問題嚴重程度](administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-issue-severities.md)
       * 核准程式和里程碑頁面{#approvals-milestones}
          * [核准程式和里程碑路徑](administration-and-setup/customize-workfront/configure-approval-milestone-processes/config-approval-milestone-paths.md)
@@ -695,7 +695,7 @@ ht-degree: 1%
          * [依IP位址限制Workfront存取](administration-and-setup/manage-workfront/security/restrict-access-workfront-ip-address.md)
          * [檔案加密](administration-and-setup/manage-workfront/security/file-encryption.md)
          * [變更您的Workfront網域](administration-and-setup/manage-workfront/security/change-your-workfront-domain.md)
-         * [管理API金鑰](administration-and-setup/manage-workfront/security/manage-api-keys.md)
+         * [管理 API 金鑰](administration-and-setup/manage-workfront/security/manage-api-keys.md)
          * [隱私權原則](administration-and-setup/manage-workfront/security/workfront-privacy-policy.md)
          * [增強型驗證概述](administration-and-setup/manage-workfront/security/get-started-enhanced-authentication.md)
          * [使用增強型驗證時更新IDP中的SAML 2.0中繼資料](administration-and-setup/add-users/single-sign-on/update-saml-2-metadata-ip-eauth.md)
@@ -704,7 +704,7 @@ ht-degree: 1%
          * [設定匯率](administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md)
       * 管理已刪除的項目 {#manage-deleted-items}
          * [管理已刪除的專案](administration-and-setup/manage-workfront/manage-deleted-items/manage-deleted-items.md)
-         * [還原已刪除的專案](administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md)
+         * [復原已刪除的項目](administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md)
          * [檢視還原的專案](administration-and-setup/manage-workfront/manage-deleted-items/view-restored-items.md)
          * [刪除的物件如何影響物件](administration-and-setup/manage-workfront/manage-deleted-items/configure-how-hours-affected-when-obj-deleted-restored.md)
          * [還原個別子物件](administration-and-setup/manage-workfront/manage-deleted-items/restoring-individual-child-objects.md)
@@ -784,18 +784,18 @@ ht-degree: 1%
       * [Adobe Workfront整合](administration-and-setup/configure-integrations/workfront-integrations-1.md)
       * [設定 [!DNL Workfront] 與 [!DNL Frame.io] 整合](administration-and-setup/configure-integrations/configure-wf-and-frame.md)
       * [設定Experience Manager Assetsas a Cloud Service整合](administration-and-setup/configure-integrations/configure-aacs-integration.md)
-      * [設定Experience Manager Assets Essentials整合](documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md)
+      * [設定 Experience Manager Assets Essentials 整合](documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md)
       * [使用Adobe Experience Manager舊版聯結器設定Workfront](administration-and-setup/configure-integrations/configure-workfront-aem.md)
       * [讓使用者能夠存取行動應用程式](administration-and-setup/configure-integrations/enable-users-access-mobile-app.md)
       * [啟用適用於Outlook的Adobe Workfront](administration-and-setup/configure-integrations/enable-workfront-for-outlook.md)
-      * [設定檔案整合](administration-and-setup/configure-integrations/configure-document-integrations.md)
+      * [設定文件整合](administration-and-setup/configure-integrations/configure-document-integrations.md)
       * [停用檔案整合](administration-and-setup/configure-integrations/disable-document-integrations.md)
       * [設定SharePoint整合](administration-and-setup/configure-integrations/configure-sharepoint-integration.md)
       * [設定中繼資料對應](administration-and-setup/configure-integrations/set-up-metadata-mapping.md)
       * [在Adobe Admin Console中為您的使用者建立Adobe WorkfrontCreative Cloud套件](/help/quicksilver/administration-and-setup/configure-integrations/create-plugin-only-packages.md)
       * [為Workfront整合建立OAuth2應用程式](administration-and-setup/configure-integrations/create-oauth-application.md)
       * [檢視及管理自訂OAuth2應用程式](administration-and-setup/configure-integrations/manage-custom-oauth2-apps.md)
-      * [設定JumpSeat整合](/help/quicksilver/administration-and-setup/configure-integrations/configure-jumpseat.md)
+      * [設定 JumpSeat 整合](/help/quicksilver/administration-and-setup/configure-integrations/configure-jumpseat.md)
    * 藍圖{#blueprints}
       * [藍圖](administration-and-setup/blueprints/blueprints.md)
       * [藍圖概觀](administration-and-setup/blueprints/blueprints-overview.md)
@@ -1945,7 +1945,7 @@ ht-degree: 1%
       * [時程表配置總覽](timesheets/timesheets/timesheet-layout.md)
    * 建立及管理時程表{#create-and-manage-timesheets-in-adobe-workfront}
       * [建立和管理時程表：文章索引](timesheets/create-and-manage-timesheets/create-and-manage-timesheets.md)
-      * [建立、編輯和指派週期性時程表](timesheets/create-and-manage-timesheets/create-timesheet-profiles.md)
+      * [建立、編輯和指派時程表設定檔](timesheets/create-and-manage-timesheets/create-timesheet-profiles.md)
       * [定義小時型別和可用性](timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md)
       * [建立單次使用時程表](timesheets/create-and-manage-timesheets/create-tmshts.md)
       * [編輯時程表資訊](timesheets/create-and-manage-timesheets/edit-timesheets.md)

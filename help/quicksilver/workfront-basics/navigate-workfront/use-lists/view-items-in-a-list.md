@@ -5,18 +5,14 @@ description: 您可以檢視 [!DNL Adobe Workfront] 中的物件清單，以取�
 feature: Get Started with Workfront
 author: Lisa
 exl-id: d4262b8e-bbe0-4ac2-8f1f-5d32541311c8
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: 7d43486ca566ae044fac1bbe20874bb45f833ef7
 workflow-type: tm+mt
-source-wordcount: '2398'
+source-wordcount: '2388'
 ht-degree: 0%
 
 ---
 
 # 開始使用[!DNL Adobe Workfront]中的清單
-
-<!--
-{{highlighted-preview}}
--->
 
 您可以檢視[!DNL Adobe Workfront]中的物件清單，以取得它們的相關資訊，例如它們的開始和到期日、指派給它們的使用者，以及與它們關聯的其他物件。
 
@@ -208,12 +204,10 @@ ht-degree: 0%
     </ul> </td> 
   </tr>
   <tr> 
-   <td class="preview">自訂表單清單</td> 
+   <td>自訂表單清單</td> 
    <td> 
     <ul> 
-     <li class="preview"> <p>[！UICONTROL安裝程式] &gt;[！UICONTROL自訂Forms]</p>
-     <!--Remove the following note box when this goes to Production. Or do this when the Preview highlighting becomes available.-->
-     <p><b>注意</b>：目前僅可在預覽環境中使用</p> </li> 
+     <li>[！UICONTROL安裝程式] &gt;[！UICONTROL自訂Forms] </li> 
     </ul> </td> 
   </tr> 
   <tr> 

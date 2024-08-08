@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: b2c5990c1ec1656c44c0621e854adf54b6bc19a3
+source-git-commit: 1b3e0ab2d8ee37b7583d0b8fb0472b2fc9623da0
 workflow-type: tm+mt
 source-wordcount: '5529'
 ht-degree: 5%
@@ -552,7 +552,7 @@ ht-degree: 5%
 
 外部查詢欄位會呼叫外部API，並在下拉式欄位中傳回值作為選項。 使用自訂表單附加至之物件的使用者可以從下拉式清單中選取一個或多個選項。 清單和報告中也提供外部查詢欄位。
 
-如需使用外部查詢欄位來呼叫相同Workfront執行個體或公用API的範例，請參閱自訂表單中的[外部查詢欄位範例](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/external-lookup-examples.md)。
+如需使用外部查詢欄位來呼叫相同Workfront執行個體或公用API的範例，請參閱[自訂表單中的外部查詢欄位範例](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/external-lookup-examples.md)。
 
 >[!NOTE]
 >
@@ -785,7 +785,7 @@ The Workfront Mobile app -->
 | 規劃時數 | ✓ (A) | ✓ (A) | ✓ (A) |   | ✓ (A) |   |   |   |
 | 規劃開始日期 | ✓ (A) |   |   |   |   |   |   |   |
 | 專案組合 | ✓ (A) |   |   | ✓ (A) |   |   | ✓ (A) |   |
-| 優先順序 | ✓ (A) | ✓ (A) | ✓ (A) | ✓ (A) | ✓ (A) |   |   |   |
+| 優先等級 | ✓ (A) | ✓ (A) | ✓ (A) | ✓ (A) | ✓ (A) |   |   |   |
 | 方案 | ✓ (A) |   |   | ✓ (A) |   |   |   |   |
 | 預計完成日期 | ✓ (A) | ✓ (A) |   |   |   |   |   |   |
 | 預計期間 (分鐘) |   | ✓ (A) |   |   |   |   |   |   |

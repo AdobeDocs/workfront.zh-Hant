@@ -3,21 +3,21 @@ title: 自訂表單中的外部查詢欄位範例
 user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
-description: 自訂表單中的外部查詢欄位會呼叫外部API，並在下拉式欄位中傳回值作為選項。 本文提供使用外部查詢欄位來呼叫Workfront或公用API的相同例項的範例。
+description: 自訂表單中的外部查詢欄位會呼叫外部API，並在下拉欄位中傳回值作為選項。 本文提供使用外部查詢欄位來呼叫Workfront或公用API的相同例項的範例。
 author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 13880fcb-8523-45d2-9ac6-38453e8e2391
-source-git-commit: 94957250387012738f2ef4c80864d51bdc2d792f
+source-git-commit: 1b3e0ab2d8ee37b7583d0b8fb0472b2fc9623da0
 workflow-type: tm+mt
-source-wordcount: '1046'
+source-wordcount: '1237'
 ht-degree: 0%
 
 ---
 
 # 自訂表單中的外部查詢欄位範例
 
-自訂表單中的外部查詢欄位會呼叫外部API，並在下拉式欄位中傳回值作為選項。 使用自訂表單附加至之物件的使用者可以從下拉式清單中選取一個或多個選項。
+自訂表單中的外部查詢欄位會呼叫外部API，並在下拉欄位中傳回值作為選項。 使用自訂表單附加至之物件的使用者可以從下拉式清單中選取一個或多個選項。
 
 本文提供使用外部查詢欄位來呼叫Workfront或公用API的相同例項的範例。 您也可以使用外部查詢與外部系統（例如Jira、Salesforce或ServiceNow）通訊。
 
@@ -25,7 +25,7 @@ ht-degree: 0%
 
 ## 為相同的Workfront執行個體設定外部查詢欄位
 
-您可以使用外部查詢，將Workfront例項的資料匯入自訂表單。
+您可以使用外部查詢功能，將Workfront例項的資料匯入自訂表單中。
 
 ### 在外部查詢中使用原生Workfront欄位值
 
@@ -167,3 +167,23 @@ ht-degree: 0%
    ![具有外部查閱欄位的自訂表單](assets/external-lookup-countries-example1.png)
 
    根據地區](assets/external-lookup-countries-example2.png)國家/地區的![外部查閱選項
+
+## 外部查詢欄位的其他使用案例
+
+建立外部查詢有許多其他使用案例。
+
+**使用案例：**取代自動提示欄位，因為這些欄位可能會導致報表發生問題。
+**解決方案：**&#x200B;使用系統現有物件的API呼叫。
+
+範本的基礎API URL範例，取代預先輸入欄位：
+`$$HOST/attask/api/v17.0/tmpl/search?isActive=true&name_Sort=asc`
+
+**使用案例：**建立包含更多功能的下拉式欄位（例如，外部eookup欄位中有換行字元）。
+**解決方案：**&#x200B;使用系統中現有物件的API呼叫，或建立新物件並使用這個物件的API呼叫。
+
+**使用案例：**定義使用者在自訂表格區域外維護其欄位的方法。 設定「外部查詢」欄位，您可以將使用者指定給組成該欄位的物件。 此選項適合用於高維護欄位和團隊。
+**解決方案：**&#x200B;建立新物件並使用這個物件的API呼叫。
+
+**使用案例：**與Workfront外部的物件整合。 例如，存取另一個系統以取得每個使用者的名稱，而不是被限制在預先輸入欄位中。
+**解決方案：** Webhook/Fusion Automation連線到其他系統。
+
