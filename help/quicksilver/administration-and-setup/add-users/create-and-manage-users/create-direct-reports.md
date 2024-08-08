@@ -4,13 +4,13 @@ user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: create-and-manage-users
 description: 您可以將使用者指定為其他使用者的直接下屬。 這可讓您建立顯示組織管理結構的組織圖。
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: dea77522-d89f-4baa-a701-aea124d2b3a5
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 20cb940de1d42057ed11e4e7d59f1875cdba38bb
 workflow-type: tm+mt
-source-wordcount: '250'
+source-wordcount: '261'
 ht-degree: 1%
 
 ---
@@ -20,6 +20,8 @@ ht-degree: 1%
 您可以將使用者指定為其他使用者的直接下屬。 這可讓您建立顯示組織管理結構的組織圖。 如需詳細資訊，請參閱[檢視組織圖](../../../people-teams-and-groups/work-directly-with-others/view-the-org-chart.md)。
 
 ## 存取需求
+
++++ 展開以檢視本文中功能的存取需求。
 
 您必須具備下列專案才能執行本文所述的步驟：
 
@@ -46,6 +48,8 @@ ht-degree: 1%
  </tbody> 
 </table>
 
++++
+
 ## 建立直接下屬
 
 1. 開始編輯使用者，如[編輯使用者的設定檔](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md)中所述。
@@ -54,6 +58,5 @@ ht-degree: 1%
    此欄位不得為空白。
 
 1. 在「**直接下屬**」欄位中，指定向正在編輯的使用者下屬的任何使用者。
-
 1. （選擇性）在&#x200B;**報告對象**&#x200B;欄位中，指定此使用者向其報告的使用者名稱。
 1. 按一下「**儲存變更**」。

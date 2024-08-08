@@ -4,14 +4,14 @@ content-type: tips-tricks-troubleshooting
 product-area: system-administration;user-management
 navigation-topic: create-and-manage-users
 title: 變更自動布建使用者的密碼
-description: 通常，當新使用者嘗試變更他們的臨時密碼時，他們會輸入他們的電子郵件地址並收到錯誤的使用者名稱。 他們必須輸入系統指派的使用者名稱，這是他們的全域唯一識別碼(GUID)。 由於GUID難以記憶和使用，建議您將Workfront郵件地址變更為新使用者的使用者名稱，然後允許他們變更密碼。
-author: Caroline
+description: 建議您將新使用者的使用者名稱變更為其Workfront郵件地址，然後允許他們變更密碼。
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 14124911-e5e1-4a4f-9b25-8b4fab0329e1
-source-git-commit: 7bd3d2252b124a07a112aaa2b7798063087e7cab
+source-git-commit: 20cb940de1d42057ed11e4e7d59f1875cdba38bb
 workflow-type: tm+mt
-source-wordcount: '524'
+source-wordcount: '487'
 ht-degree: 0%
 
 ---
@@ -41,6 +41,8 @@ ht-degree: 0%
 
 ## 存取需求
 
++++ 展開以檢視本文中功能的存取需求。
+
 您必須具有下列存取權才能執行本文中的步驟：
 
 <table style="table-layout:auto"> 
@@ -61,6 +63,8 @@ ht-degree: 0%
   </tr> 
  </tbody> 
 </table>
+
++++
 
 ## 變更自動布建使用者的密碼
 

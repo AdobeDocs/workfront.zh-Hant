@@ -8,10 +8,10 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: da57dea3-082b-4a86-ae13-5bf55401122e
-source-git-commit: b3717fc89e45983b80471fdd629c79b82086c6ff
+source-git-commit: 20cb940de1d42057ed11e4e7d59f1875cdba38bb
 workflow-type: tm+mt
-source-wordcount: '810'
-ht-degree: 0%
+source-wordcount: '807'
+ht-degree: 1%
 
 ---
 
@@ -34,6 +34,8 @@ ht-degree: 0%
 -->
 
 ## 存取需求
+
++++ 展開以檢視本文中功能的存取需求。
 
 您必須具備下列專案才能執行本文所述的步驟：
 
@@ -59,6 +61,8 @@ ht-degree: 0%
   </tr> 
  </tbody> 
 </table>
+
++++
 
 ## 刪除和停用使用者
 
@@ -118,9 +122,8 @@ ht-degree: 0%
 
 ## 刪除一或多個使用者
 
-1. 按一下Adobe Workfront右上角的&#x200B;**主要功能表**&#x200B;圖示![](assets/main-menu-icon.png)。
+{{step-1-to-users}}
 
-1. 按一下&#x200B;**使用者**。
 1. 請至少選取一個要刪除的使用者，按一下[更多]功能表![](assets/more-icon.png)，然後按一下[刪除]****。
 1. 在出現的方塊中，按一下&#x200B;**刪除**&#x200B;以確認刪除。
 

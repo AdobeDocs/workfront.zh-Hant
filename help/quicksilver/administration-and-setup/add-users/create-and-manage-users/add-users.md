@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: e95dbc32-915b-4ea7-a5ad-e1da99edfbe3
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: 20cb940de1d42057ed11e4e7d59f1875cdba38bb
 workflow-type: tm+mt
-source-wordcount: '1208'
+source-wordcount: '1157'
 ht-degree: 1%
 
 ---
@@ -40,6 +40,8 @@ As an Adobe administrator, you can add users in Adobe Workfront by adding them t
 
 ## 存取需求
 
++++ 展開以檢視本文中功能的存取需求。
+
 您必須具備下列專案才能執行本文所述的步驟：
 
 <table style="table-layout:auto"> 
@@ -67,6 +69,8 @@ As an Adobe administrator, you can add users in Adobe Workfront by adding them t
 
 如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
++++
+
 ## 先決條件
 
 在新增使用者之前，請收集下列使用者的相關資訊，並決定要與該使用者建立關聯的資訊：
@@ -93,7 +97,7 @@ As an Adobe administrator, you can add users in Adobe Workfront by adding them t
 
 ## 從頭開始建立使用者
 
-1. 按一下Adobe Workfront右上角的&#x200B;**[!UICONTROL 主功能表]**&#x200B;圖示![主功能表](/help/_includes/assets/main-menu-icon.png)，或（如果有的話）按一下左上角的&#x200B;**[!UICONTROL 主功能表]**&#x200B;圖示![主功能表](/help/_includes/assets/main-menu-icon-left-nav.png)，然後按一下&#x200B;**使用者** ![](assets/users-icon-in-main-menu.png)。
+{{step-1-to-users}}
 
 1. 按一下&#x200B;**新增使用者>新增使用者**，新增尚未新增至Workfront的使用者。
 
@@ -145,7 +149,8 @@ As an Adobe administrator, you can add users in Adobe Workfront by adding them t
 
 若要複製現有使用者來建立新使用者，請執行下列動作：
 
-1. 按一下Adobe Workfront右上角的&#x200B;**[!UICONTROL 主功能表]**&#x200B;圖示![主功能表](/help/_includes/assets/main-menu-icon.png)，或（如果有的話）按一下左上角的&#x200B;**[!UICONTROL 主功能表]**&#x200B;圖示![主功能表](/help/_includes/assets/main-menu-icon-left-nav.png)，然後按一下&#x200B;**使用者** ![](assets/users-icon-in-main-menu.png)。
+{{step-1-to-users}}
+
 1. 選取您要複製的使用者，然後按一下「複製」圖示![](assets/copy-icon.png)。
 1. 在顯示的&#x200B;**複製使用者**&#x200B;方塊中，編輯新使用者可用的欄位。
 

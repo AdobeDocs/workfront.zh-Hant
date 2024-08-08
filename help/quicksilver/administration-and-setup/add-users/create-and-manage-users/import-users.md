@@ -4,13 +4,13 @@ user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: create-and-manage-users
 description: 您可以將使用者從網路目錄服務（例如Active Directory或其他LDAP目錄）同步化來匯入使用者至Adobe Workfront網站，也可以使用試算表匯入檔案來匯入使用者。
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 3dd99d01-a32f-4af8-90e3-f8c0e9027651
-source-git-commit: 1949a0bb213553f1f1f252c4382a90514fcd0b5b
+source-git-commit: 20cb940de1d42057ed11e4e7d59f1875cdba38bb
 workflow-type: tm+mt
-source-wordcount: '494'
+source-wordcount: '490'
 ht-degree: 0%
 
 ---
@@ -34,6 +34,8 @@ ht-degree: 0%
 在建立新使用者之前，請先確定您已建立所有要與該使用者關聯的物件。 例如，如果您尚未建立排程，則無法將排程指派給新使用者，而且您用來關聯排程與新使用者的欄位不會出現在「新使用者」畫面中。
 
 ## 存取需求
+
++++ 展開以檢視本文中功能的存取需求。
 
 您必須具備下列專案才能執行本文所述的步驟：
 
@@ -60,9 +62,11 @@ ht-degree: 0%
  </tbody> 
 </table>
 
++++
+
 ## 使用試算表匯入檔案來匯入使用者
 
-1. 按一下Adobe Workfront右上角的&#x200B;**主要功能表**&#x200B;圖示![](assets/main-menu-icon.png)，然後按一下&#x200B;**使用者** ![](assets/users-icon-in-main-menu.png)。
+{{step-1-to-users}}
 
 1. 按一下&#x200B;**新增使用者**&#x200B;下拉式箭號，然後按一下&#x200B;**匯入使用者**。
 

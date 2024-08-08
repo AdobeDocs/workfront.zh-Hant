@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: aba243ba-46c2-4eb7-b704-4368bf0ae3cc
-source-git-commit: ece0275518169fd67708dce903b8bf46a9ee7b1b
+source-git-commit: 20cb940de1d42057ed11e4e7d59f1875cdba38bb
 workflow-type: tm+mt
-source-wordcount: '1170'
+source-wordcount: '1088'
 ht-degree: 0%
 
 ---
@@ -47,6 +47,8 @@ ht-degree: 0%
 
 ## 存取需求
 
++++ 展開以檢視本文中功能的存取需求。
+
 您必須具備下列專案才能執行本文所述的步驟：
 
 <table style="table-layout:auto"> 
@@ -72,6 +74,8 @@ ht-degree: 0%
  </tbody> 
 </table>
 
++++
+
 ## 先決條件
 
 在停用Workfront管理員或Standard或Plan授權使用者之前，您必須將其物件和活動與其他使用者建立關聯。
@@ -90,7 +94,7 @@ ht-degree: 0%
 
 若要停用使用者：
 
-1. 按一下Adobe Workfront右上角的&#x200B;**[!UICONTROL 主功能表]**&#x200B;圖示![主功能表](/help/_includes/assets/main-menu-icon.png)，或（如果有的話）按一下左上角的&#x200B;**[!UICONTROL 主功能表]**&#x200B;圖示![主功能表](/help/_includes/assets/main-menu-icon-left-nav.png)，然後按一下&#x200B;**使用者** ![](assets/users-icon-in-main-menu.png)。
+{{step-1-to-users}}
 
 1. 選取使用者，按一下&#x200B;**更多**&#x200B;圖示![](assets/more-icon.png)，然後按一下&#x200B;**停用**。
 
@@ -104,7 +108,7 @@ Workfront管理員和計畫授權使用者可在他們的使用者設定檔中�
 
 若要排程使用者停用，請執行下列動作：
 
-1. 按一下Adobe Workfront右上角的&#x200B;**[!UICONTROL 主功能表]**&#x200B;圖示![主功能表](/help/_includes/assets/main-menu-icon.png)，或（如果有的話）按一下左上角的&#x200B;**[!UICONTROL 主功能表]**&#x200B;圖示![主功能表](/help/_includes/assets/main-menu-icon-left-nav.png)，然後按一下&#x200B;**使用者** ![](assets/users-icon-in-main-menu.png)。
+{{step-1-to-users}}
 
 1. 選取使用者的名稱。
 
@@ -131,7 +135,7 @@ Workfront管理員和計畫授權使用者可在他們的使用者設定檔中�
 
 ## 重新啟用使用者
 
-1. 按一下Adobe Workfront右上角的&#x200B;**[!UICONTROL 主功能表]**&#x200B;圖示![主功能表](/help/_includes/assets/main-menu-icon.png)，或（如果有的話）按一下左上角的&#x200B;**[!UICONTROL 主功能表]**&#x200B;圖示![主功能表](/help/_includes/assets/main-menu-icon-left-nav.png)，然後按一下&#x200B;**使用者** ![](assets/users-icon-in-main-menu.png)。
+{{step-1-to-users}}
 
 1. 選取使用者，按一下[更多]圖示![](assets/more-icon.png)，然後按一下[啟動]****。
 

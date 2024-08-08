@@ -1,5 +1,5 @@
 ---
-title: 以另一位使用者身分登入
+title: 以其他使用者身分登入
 user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: create-and-manage-users
@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 2f8dd132-1086-4980-9b56-993a68231e96
-source-git-commit: 107b397cc103c8ef93996d9017390d301305a4f3
+source-git-commit: 20cb940de1d42057ed11e4e7d59f1875cdba38bb
 workflow-type: tm+mt
-source-wordcount: '748'
-ht-degree: 1%
+source-wordcount: '759'
+ht-degree: 0%
 
 ---
 
@@ -48,6 +48,8 @@ Some users, such as executives, need to be able to control which administrators 
 
 ## 存取需求
 
++++ 展開以檢視本文中功能的存取需求。
+
 您必須具備下列專案才能執行本文所述的步驟：
 
 <table style="table-layout:auto"> 
@@ -73,6 +75,8 @@ Some users, such as executives, need to be able to control which administrators 
 </table>
 
 *如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
++++
 
 ## 以其他使用者身分登入並執行動作
 
