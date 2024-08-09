@@ -4,20 +4,20 @@ product-area: system-administration;setup
 navigation-topic: start-with-workfront-administration
 title: 設定您的電子郵件允許清單
 description: 如果您的組織使用WorkfrontEnterprise計畫，您可以建立Workfront電子郵件允許清單，以控制允許哪些電子郵件網域接受來自Workfront的電子郵件，以及哪些電子郵件網域可位於使用者在其使用者設定檔中指定的電子郵件地址中。 如果您的組織安全原則限制使用者將Workfront中儲存的資料傳送至外部電子郵件地址，這很有用 — 您可以在允許清單中僅包含內部公司網域，以確保遵循此原則。
-author: Caroline
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 76b6acc4-c432-47b4-90bf-6e37e970625f
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: f036fbfc203f942fa5a22070860c3a20035a183b
 workflow-type: tm+mt
-source-wordcount: '511'
+source-wordcount: '508'
 ht-degree: 0%
 
 ---
 
 # 設定您的電子郵件允許清單
 
-如果您的組織使用WorkfrontEnterprise計畫，您可以建立Workfront電子郵件允許清單來控制：
+如果您的組織使用Workfront企業計畫，您可以建立Workfront電子郵件允許清單來控制：
 
 * 允許哪些電子郵件網域接受來自Workfront的電子郵件。
 * 使用者可在使用者設定檔中指定的電子郵件地址中包含哪些電子郵件網域。
@@ -31,14 +31,13 @@ ht-degree: 0%
 >所有來自Workfront的電子郵件都會從該地址傳送，以增加成功的電子郵件傳遞，並消除偽造電子郵件的行為。 這包括自動警報和使用者之間的通訊。
 >
 >例如，您從名為Joan Harris的使用者收到的Workfront電子郵件中的「寄件者」行如下所示：
->
-```
->Joan Harris <notifications@my.workfront.com>
->```
+>`Joan Harris <notifications@my.workfront.com>`
 
 如需有關設定組織防火牆以開啟環境與Adobe Workfront伺服器之間通訊的資訊，請參閱[設定防火牆允許清單](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md)。
 
 ## 存取需求
+
++++ 展開以檢視本文中功能的存取需求。
 
 您必須具有下列存取權才能執行本文中的步驟：
 
@@ -61,6 +60,8 @@ ht-degree: 0%
  </tbody> 
 </table>
 
++++
+
 ## 其他允許清單
 
 如果貴組織擁有企業計畫，您可以設定Adobe Workfront IP允許清單，將對Workfront的存取限製為您指定的45個IP位址或IP位址範圍。 這為Workfront應用程式提供額外的安全層。 如需詳細資訊，請參閱[依IP位址限制存取Adobe Workfront](../../administration-and-setup/manage-workfront/security/restrict-access-workfront-ip-address.md)。
@@ -69,12 +70,10 @@ ht-degree: 0%
 
 ## 設定您的電子郵件允許清單
 
-1. 按一下Adobe Workfront右上角的&#x200B;**主要功能表**&#x200B;圖示![](assets/main-menu-icon.png)，然後按一下&#x200B;**設定** ![](assets/gear-icon-settings.png)。
+{{step-1-to-setup}}
 
 1. 按一下&#x200B;**系統** > **客戶資訊**。
-
 1. 在&#x200B;**電子郵件允許清單**&#x200B;區段中，選取&#x200B;**啟用網域允許清單**，然後按一下&#x200B;**新增網域**。
 1. 在顯示的方塊中，輸入您要允許的網域，例如`ourcompany.com`，然後按一下&#x200B;**新增網域**。
-
 1. 重複上一步驟，新增您要允許的任何其他網域。
 1. 完成時，按一下&#x200B;**儲存**。

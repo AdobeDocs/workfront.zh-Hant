@@ -4,13 +4,13 @@ product-area: system-administration;setup
 navigation-topic: start-with-workfront-administration
 title: 設定防火牆的允許清單
 description: 如果您的防火牆或郵件伺服器設定為僅允許特定廠商存取，則必須將特定IP位址新增至其允許清單。 這樣會開啟您的環境與Adobe Workfront伺服器之間的通訊，並允許您的使用者從Workfront傳送訊息，以及透過Active Directory或LDAP使用SSO。
-author: Caroline
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 264eed40-6d90-498b-83cc-2500c8b19c84
-source-git-commit: 84444753db0e5c496f013e0245988e62fddad585
+source-git-commit: f036fbfc203f942fa5a22070860c3a20035a183b
 workflow-type: tm+mt
-source-wordcount: '1635'
+source-wordcount: '1621'
 ht-degree: 0%
 
 ---
@@ -59,7 +59,8 @@ ht-degree: 0%
 
 若要找出貴組織的叢集：
 
-1. 身為Workfront管理員，請按一下&#x200B;**主功能表**&#x200B;圖示![主功能表](assets/main-menu-icon.png)，然後按一下&#x200B;**設定**。
+{{step-1-to-setup}}
+
 1. 在左側導覽列中，按一下&#x200B;**系統**，然後選取&#x200B;**客戶資訊**。
 1. 在頁面的右上角找到&#x200B;**叢集設定**&#x200B;欄位。 此處列出您組織的叢集。
 

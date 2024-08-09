@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: a1ab60c4-4255-4d80-87f1-f36d325254c2
-source-git-commit: 6f041459caf040846ffdec5bc75e9d74c99e318b
+source-git-commit: e41b0df5ee0ce092f0811b18c57f6865bbb3abee
 workflow-type: tm+mt
-source-wordcount: '709'
+source-wordcount: '717'
 ht-degree: 0%
 
 ---
@@ -46,7 +46,7 @@ ht-degree: 0%
 
 * `client_id`：這是您在Workfront中建立OAuth2應用程式時產生的使用者端ID。
 
-* `redirect_uri`：這是您在建立應用程式時輸入的重新導向URL。 您的使用者在為其帳戶授權應用程式後，即會被導向此頁面。
+* `redirect_uri`：此URL必須與建立OAuth2應用程式時您在Workfront中輸入的重新導向URL相同。 您的使用者在為其帳戶授權應用程式後，即會被導向此頁面。
 
 * `response_type`：此值必須為`code`。
 

@@ -2,20 +2,20 @@
 user-type: administrator
 product-area: system-administration
 navigation-topic: configure-system-defaults
-title: 建立、編輯和共用預設的篩選器、檢視和群組
+title: 建立、編輯和共用預設篩選器、檢視和群組
 description: 您可以建立預設的篩選器、檢視和群組，然後讓貴組織中的使用者可以使用它們。
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 32eb825c-ba50-4820-a659-adc924a6ae52
-source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
+source-git-commit: f036fbfc203f942fa5a22070860c3a20035a183b
 workflow-type: tm+mt
-source-wordcount: '820'
-ht-degree: 0%
+source-wordcount: '831'
+ht-degree: 1%
 
 ---
 
-# 建立、編輯和共用預設的篩選器、檢視和群組
+# 建立、編輯和共用預設篩選器、檢視和分組
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">***DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. **</p>
@@ -26,6 +26,8 @@ ht-degree: 0%
 當您依照本文所述建立預設篩選器、檢視和群組時，與您共用這些篩選器和群組的使用者可在檢視其清單時運用它們。 使用者可以根據您建立的篩選器、檢視和群組建立自己的篩選器、檢視和群組，但他們無法直接變更您建立的篩選器、檢視和群組。
 
 ## 存取需求
+
++++ 展開以檢視本文中功能的存取需求。
 
 您必須具有下列存取權才能執行本文中的步驟：
 
@@ -47,6 +49,8 @@ ht-degree: 0%
   </tr> 
  </tbody> 
 </table>
+
++++
 
 ## 建立預設篩選器、檢視或群組
 

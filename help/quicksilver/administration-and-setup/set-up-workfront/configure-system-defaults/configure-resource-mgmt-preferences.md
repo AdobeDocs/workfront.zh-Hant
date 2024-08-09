@@ -4,13 +4,13 @@ product-area: system-administration;setup
 navigation-topic: configure-system-defaults
 title: 設定資源管理喜好設定
 description: 作為 [!DNL Adobe Workfront] 管理員，您可以設定系統的資源管理喜好設定。 這些「資源管理」偏好設定會決定如何計算 [!DNL Workfront] 資源排程與計畫工具的使用者可用性或產能與FTE。
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 7cde2238-cb34-4bee-baba-69d256a3912d
-source-git-commit: 921749caf6a61fa4f0efae9357c6e05c581421c5
+source-git-commit: f036fbfc203f942fa5a22070860c3a20035a183b
 workflow-type: tm+mt
-source-wordcount: '713'
+source-wordcount: '711'
 ht-degree: 0%
 
 ---
@@ -54,6 +54,8 @@ Edit the first part, once they add more settings in the Res Management Preferenc
 </table>
 -->
 
++++ 展開以檢視本文中功能的存取需求。
+
 您必須具備下列專案才能執行本文所述的步驟：
 
 <table style="table-layout:auto"> 
@@ -77,6 +79,8 @@ Edit the first part, once they add more settings in the Res Management Preferenc
  </tbody> 
 </table>
 
++++
+
 ## 計算使用者的容量時考慮的資訊
 
 計算使用者的容量時，Workfront會考量下列資訊：
@@ -97,7 +101,8 @@ Edit the first part, once they add more settings in the Res Management Preferenc
 >
 >因為這是全域設定，所以這個選擇會影響所有資源管理工具中整個系統、所有使用者的所有計算。
 
-1. 按一下[!DNL Workfront]右上角的&#x200B;**[!UICONTROL 主要功能表]**&#x200B;圖示![](assets/main-menu-icon.png)，然後按一下&#x200B;**[!UICONTROL 設定]** ![](assets/gear-icon-settings.png)。
+{{step-1-to-setup}}
+
 1. 按一下&#x200B;**[!UICONTROL 資源管理]**。
 1. 選取下列其中一個方法，以計算[!DNL Workfront]中使用者的可用性：
 

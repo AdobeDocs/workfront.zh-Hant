@@ -4,13 +4,13 @@ product-area: system-administration;projects;setup
 navigation-topic: configure-system-defaults
 title: 設定專案的時間表重新計算
 description: 重新計算時間表可讓管理員檢視專案外的力量如何影響專案的時間表。 專案的時間表是指專案的計畫和預計日期。
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 67028988-6ac3-48d4-957e-1b5202d33c48
-source-git-commit: 4705c3fc76c1544f8c71e70a773432f164282abb
+source-git-commit: f036fbfc203f942fa5a22070860c3a20035a183b
 workflow-type: tm+mt
-source-wordcount: '456'
+source-wordcount: '443'
 ht-degree: 0%
 
 ---
@@ -24,6 +24,8 @@ ht-degree: 0%
 本文說明您身為[!DNL Workfront]管理員，如何在[!UICONTROL 設定]區域中設定專案偏好設定，以決定[!DNL Workfront]自動計算專案時間表的方式和時間。
 
 ## 存取需求
+
++++ 展開以檢視本文中功能的存取需求。
 
 您必須具備下列專案才能執行本文所述的步驟：
 
@@ -46,11 +48,13 @@ ht-degree: 0%
  </tbody> 
 </table>
 
++++
+
 ## 設定自動重新計算
 
 作為[!DNL Adobe Workfront]管理員，您可以設定[!DNL Workfront]何時自動重新計算專案時間表。 [!DNL Workfront]可以每晚或專案範圍變更時重新計算專案時間表，或兩者皆重新計算。
 
-1. 按一下右上角的&#x200B;**[!UICONTROL 主功能表]**&#x200B;圖示![](assets/main-menu-icon.png)，或[!DNL Workfront]左上角的&#x200B;[!UICONTROL **主功能表**]&#x200B;圖示![](assets/lines-main-menu.png) （如果可用），然後按一下&#x200B;**[!UICONTROL 設定]** ![](assets/gear-icon-settings.png)。
+{{step-1-to-setup}}
 
 1. 按一下&#x200B;**[!UICONTROL 專案偏好設定]** > **[!UICONTROL 專案]。**
 

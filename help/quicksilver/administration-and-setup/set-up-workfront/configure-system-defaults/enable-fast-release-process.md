@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 71ef7a50-7a9f-43c4-b67c-8d9fc722569f
-source-git-commit: abb021a6857f8016d4f8b6bcf99fe818e47faea6
+source-git-commit: f036fbfc203f942fa5a22070860c3a20035a183b
 workflow-type: tm+mt
-source-wordcount: '376'
+source-wordcount: '368'
 ht-degree: 0%
 
 ---
@@ -47,7 +47,8 @@ Adobe Workfront有兩種發佈新功能和更新的模型。 您可以選擇每�
 
 若要啟用或停用快速核發處理，請執行下列步驟：
 
-1. 按一下&#x200B;**主功能表圖示**，然後按一下&#x200B;**設定**。
+{{step-1-to-setup}}
+
 1. 展開左側導覽中的&#x200B;**系統**，然後按一下&#x200B;**偏好設定**。
 1. 若要啟用快速發行，請核取&#x200B;**允許快速發行程式**&#x200B;核取方塊。
 

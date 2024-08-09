@@ -2,26 +2,28 @@
 user-type: administrator
 product-area: system-administration
 navigation-topic: configure-system-defaults
-title: 編輯和建立風險型別
+title: 編輯與建立風險型別
 description: 您可以在計畫階段為專案新增風險，以在核准任何工作之前識別潛在障礙。 風險是可能導致專案無法按時完成或無法在預算內完成的事件。
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: f929806f-9087-4b64-be4b-70bbceaaeab0
-source-git-commit: 2fd772ffc667c4f32c6a7b0de9c87676ee6dd65b
+source-git-commit: f036fbfc203f942fa5a22070860c3a20035a183b
 workflow-type: tm+mt
-source-wordcount: '459'
-ht-degree: 0%
+source-wordcount: '444'
+ht-degree: 2%
 
 ---
 
-# 編輯和建立風險型別
+# 編輯和建立風險類型
 
 <!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.-->
 
 您可以在計畫階段為專案新增風險，以在核准任何工作之前識別潛在障礙。 風險是可能導致專案無法按時完成或無法在預算內完成的事件。
 
 ## 存取需求
+
++++ 展開以檢視本文中功能的存取需求。
 
 您必須具有下列存取權才能執行本文中的步驟：
 
@@ -44,11 +46,13 @@ ht-degree: 0%
  </tbody> 
 </table>
 
++++
+
 ## 風險型別
 
 風險型別是可用於風險的標籤，可將其分類以用於報表用途。 它們由[!DNL Adobe Workfront]管理員在&#x200B;**[!UICONTROL 設定]**&#x200B;區域中建立。 在您的&#x200B;**[!UICONTROL 設定]**&#x200B;區域中建立風險型別後，這些風險型別對您的系統而言是通用的。 所有專案擁有者都可針對其專案使用相同的風險型別。
 
-## 編輯和建立風險型別
+## 編輯和建立風險類型
 
 某些風險型別預設已在[!DNL Workfront]中。 若要反映貴組織的需求，您可以編輯現有的風險型別，或建立新的風險型別。
 
@@ -57,7 +61,7 @@ ht-degree: 0%
 
 ### 編輯現有的風險型別 {#edit-existing-risk-types}
 
-1. 按一下[!DNL Adobe Workfront]右上角的&#x200B;**[!UICONTROL 主要功能表]**&#x200B;圖示![](assets/main-menu-icon.png)，然後按一下&#x200B;**[!UICONTROL 設定]** ![](assets/gear-icon-settings.png)。
+{{step-1-to-setup}}
 
 1. 按一下&#x200B;**[!UICONTROL 風險型別]**。
 1. 選取您要編輯的風險型別。
@@ -74,7 +78,7 @@ ht-degree: 0%
 
 若要建立新的風險型別，請執行下列步驟：
 
-1. 按一下[!DNL Adobe Workfront]右上角的&#x200B;**[!UICONTROL 主要功能表]**&#x200B;圖示![](assets/main-menu-icon.png)，然後按一下&#x200B;**[!UICONTROL 設定]** ![](assets/gear-icon-settings.png)。
+{{step-1-to-setup}}
 
 1. 按一下&#x200B;**[!UICONTROL 風險型別]**。
 1. 按一下&#x200B;**[!UICONTROL 新增風險型別]**。

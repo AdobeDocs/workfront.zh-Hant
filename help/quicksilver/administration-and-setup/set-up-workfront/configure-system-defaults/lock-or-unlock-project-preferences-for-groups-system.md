@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: f5a94eaf-ebb8-424b-80ff-ba40cc985a6e
-source-git-commit: 3e97df265df83965d094d8723fe76043ff4af80e
+source-git-commit: f036fbfc203f942fa5a22070860c3a20035a183b
 workflow-type: tm+mt
-source-wordcount: '551'
+source-wordcount: '549'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,8 @@ ht-degree: 0%
 當偏好設定已解除鎖定且群組管理員修改時，與群組關聯的專案會從群組層級設定（而非系統層級設定）取得該偏好設定的組態。
 
 ## 存取需求
+
++++ 展開以檢視本文中功能的存取需求。
 
 您必須具有下列存取權才能執行本文中的步驟：
 
@@ -44,6 +46,8 @@ ht-degree: 0%
  </tbody> 
 </table>
 
++++
+
 ## 關於鎖定和未鎖定的偏好設定
 
 鎖定已在系統層級設定的專案、任務或問題偏好設定，可確保每個人都使用該偏好設定的相同設定。 雖然您仍然可以重新設定您鎖定的喜好設定，但群組管理員無法為其群組重新設定它。
@@ -60,7 +64,7 @@ ht-degree: 0%
 
 ## 解鎖專案偏好設定，讓群組可以設定它
 
-1. 按一下[!DNL Adobe Workfront]右上角的&#x200B;**[!UICONTROL 主要功能表]**&#x200B;圖示![](assets/main-menu-icon.png)，然後按一下&#x200B;**[!UICONTROL 設定]** ![](assets/gear-icon-settings.png)。
+{{step-1-to-setup}}
 
 1. 按一下&#x200B;**[!UICONTROL 專案偏好設定]**，然後按一下&#x200B;**[!UICONTROL 專案]**。
 

@@ -4,13 +4,13 @@ product-area: system-administration;setup
 navigation-topic: configure-system-defaults
 title: 設定請求型別
 description: 處理專案時，您可能會發現發生未預期的事件。 您可以將這些非預期事件記錄為特定專案或任務的問題。 您也可以提交請求，這些請求會記錄為指定為「請求佇列」專案上的問題。 在Adobe Workfront中，問題和請求被視為可互換。
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 81e74a70-ea7e-4ed8-8b30-f01df0e73645
-source-git-commit: 2fd772ffc667c4f32c6a7b0de9c87676ee6dd65b
+source-git-commit: f036fbfc203f942fa5a22070860c3a20035a183b
 workflow-type: tm+mt
-source-wordcount: '486'
+source-wordcount: '484'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,8 @@ ht-degree: 0%
 如需在[!DNL Workfront]中建立問題的相關資訊，請參閱[建立問題](../../../manage-work/issues/manage-issues/create-issues.md)。 如需有關在[!DNL Workfront]中建立要求的資訊，請參閱[建立和提交 [!DNL Adobe Workfront] 要求](../../../manage-work/requests/create-requests/create-submit-requests.md)。 如需將請求型別與專案建立關聯的資訊，請參閱[定義專案的請求型別](../../../manage-work/requests/create-and-manage-request-queues/define-request-types-for-project.md)。
 
 ## 存取需求
+
++++ 展開以檢視本文中功能的存取需求。
 
 您必須具有下列存取權才能執行本文中的步驟：
 
@@ -43,6 +45,8 @@ ht-degree: 0%
   </tr> 
  </tbody> 
 </table>
+
++++
 
 <!--
 THIS IS DRAFTED IN FLARE
@@ -77,7 +81,7 @@ You must have at least one request type selected. You can select multiple reques
 
 若要自訂請求型別的名稱：
 
-1. 按一下[!DNL Adobe Workfront]右上角的&#x200B;**[!UICONTROL 主要功能表]**&#x200B;圖示![](assets/main-menu-icon.png)，然後按一下&#x200B;**[!UICONTROL 設定]** ![](assets/gear-icon-settings.png)。
+{{step-1-to-setup}}
 
 1. 按一下&#x200B;**[!UICONTROL 專案偏好設定]** > **[!UICONTROL 狀態]**。
 

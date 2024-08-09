@@ -2,20 +2,20 @@
 user-type: administrator
 product-area: system-administration;projects
 navigation-topic: configure-system-defaults
-title: 設定全系統專案偏好設定
+title: 設定全系統的專案偏好設定
 description: 作為 [!DNL Adobe Workfront] 管理員，您可以為在整個系統中建立的所有專案設定預設偏好設定。 這些偏好設定會影響專案、任務和問題行為。
 author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 1a1affed-1b06-442c-98b2-9f360eee767b
-source-git-commit: 93a2630ec5c21f03643a29a8730046c8458c795f
+source-git-commit: f036fbfc203f942fa5a22070860c3a20035a183b
 workflow-type: tm+mt
 source-wordcount: '2561'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
-# 設定全系統專案偏好設定
+# 設定整個系統的專案偏好設定
 
 <!--Audited: 12/2023-->
 

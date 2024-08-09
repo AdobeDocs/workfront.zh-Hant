@@ -4,18 +4,18 @@ product-area: system-administration
 navigation-topic: configure-system-defaults
 title: 建立自訂費用型別
 description: 作為 [!DNL Adobe Workfront] 管理員，您可以建立自訂費用型別，以定義及追蹤與您的任務和專案相關的費用。 費用是可與任務或專案相關聯的非人工成本。
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 7b76b9e8-fbb8-45a7-9e26-1ddc6d5176d8
-source-git-commit: 2fd772ffc667c4f32c6a7b0de9c87676ee6dd65b
+source-git-commit: f036fbfc203f942fa5a22070860c3a20035a183b
 workflow-type: tm+mt
-source-wordcount: '440'
-ht-degree: 1%
+source-wordcount: '431'
+ht-degree: 3%
 
 ---
 
-# 建立自訂費用型別
+# 建立自訂費用類型
 
 <!--**DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT THROUGH THE CONTEXT SENSITIVE HELP LINKS.-->
 
@@ -24,6 +24,8 @@ ht-degree: 1%
 您可以編輯或刪除您建立的任何費用型別。 您無法刪除或編輯內建[!DNL Workfront]費用型別。
 
 ## 存取需求
+
++++ 展開以檢視本文中功能的存取需求。
 
 您必須具有下列存取權才能執行本文中的步驟：
 
@@ -46,6 +48,8 @@ ht-degree: 1%
  </tbody> 
 </table>
 
++++
+
 ## 預設費用型別
 
 無法刪除或編輯預設為[!DNL Workfront]的費用型別，包括下列專案：
@@ -57,9 +61,10 @@ ht-degree: 1%
 * [!UICONTROL 材料]
 * [!UICONTROL 旅遊]
 
-## 建立自訂費用型別
+## 建立自訂費用類型
 
-1. 按一下[!DNL Adobe Workfront]右上角的&#x200B;**[!UICONTROL 主要功能表]**&#x200B;圖示![](assets/main-menu-icon.png)。
+{{step-1-to-setup}}
+
 1. 按一下&#x200B;**[!UICONTROL 費用型別]**。
 1. 按一下&#x200B;**[!UICONTROL 新增費用型別]**。
 1. 在顯示的&#x200B;**[!UICONTROL 新費用型別]**&#x200B;方塊中，指定下列資訊：
@@ -101,7 +106,8 @@ ht-degree: 1%
 
 ## 修改自訂費用型別
 
-1. 按一下[!DNL Adobe Workfront]右上角的&#x200B;**[!UICONTROL 主要功能表]**&#x200B;圖示![](assets/main-menu-icon.png)。
+{{step-1-to-setup}}
+
 1. 按一下&#x200B;**[!UICONTROL 費用型別]**。
 1. 選取您要修改的費用型別，然後按一下[編輯]。****
 

@@ -4,11 +4,11 @@ product-area: system-administration;setup
 navigation-topic: start-with-workfront-administration
 title: 平台型管理差異(Adobe Workfront/Adobe Business Platform)
 description: 如果您的組織已上線到Adobe Business Platform，您的使用者會使用Adobe Business Platform來存取Adobe Workfront。 這表示使用者管理主要透過Adobe Admin Console完成，而單一登入(SSO)是透過Adobe Business Platform處理，而非透過Workfront。 身為Adobe Workfront管理員，您的管理職責和程式會因貴組織是否已加入Adobe業務平台而有所不同。 本文列出必須以不同方式處理的程式，以及Workfront和Adobe Admin Console指示的連結。
-author: Caroline
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: a84a5a8d-7c2a-4b51-a614-91a6dc9aa4ed
-source-git-commit: 5d4434d090c4b6cdefc9c313fecccf6d6e9a510b
+source-git-commit: f036fbfc203f942fa5a22070860c3a20035a183b
 workflow-type: tm+mt
 source-wordcount: '406'
 ht-degree: 0%
