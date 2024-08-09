@@ -3,9 +3,9 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文件、教學課程和其他資源，了解如何在您的組織中實施並有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: 1b3e0ab2d8ee37b7583d0b8fb0472b2fc9623da0
+source-git-commit: 4fbeeffc48d47e04c00d9695b346cbed2633748e
 workflow-type: tm+mt
-source-wordcount: '14310'
+source-wordcount: '14317'
 ht-degree: 2%
 
 ---
@@ -1817,6 +1817,7 @@ ht-degree: 2%
          * [從資產或檔案中移除核准者或稽核者](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/remove-approvers-or-reviewers.md)
          * [建立資產和檔案的核准範本](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md)
          * [將Frame.io資產新增至已連線的Workfront專案](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/add-frame-asset-to-connected-project.md)
+         * [一起使用新檔案核准和校樣](review-and-approve-work/document-reviews-and-approvals/doc-approvals-and-proofing.md)
       * 檢閱及核准資產和檔案{#review-and-approve-documents}
          * [檢閱和核准檔案：文章索引](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-documents-toc.md)
          * [檢閱檔案](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-a-document.md)
