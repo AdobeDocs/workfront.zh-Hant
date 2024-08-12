@@ -9,7 +9,7 @@ description: 您可以使用Adobe Workfront Fusion Adobe Workfront聯結器在Wo
 author: Becky
 feature: Workfront Fusion, Workfront Integrations and Apps
 exl-id: b84d2d41-a983-4ea3-b331-0302bfcf8a2b
-source-git-commit: 7c00ea85b4a03346cdb39c937a1cef970d409ef0
+source-git-commit: 66cd6f7d231ab8442b08ddabefabc8e4069118d7
 workflow-type: tm+mt
 source-wordcount: '6280'
 ht-degree: 2%
@@ -145,12 +145,12 @@ ht-degree: 2%
 
 如果您在欄位或函式上方看到對應按鈕，則可以使用它來設定該欄位的變數和函式。 如需詳細資訊，請參閱[在 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md)中將資訊從一個模組對應到另一個模組。
 
+
+![](assets/map-toggle-350x74.png)
 >[!NOTE]
 >
 >* 如果您在Workfront模組中未看到最新欄位，可能是因為快取問題。 請等待一小時，然後再試一次。
 >* 來自Adobe Workfront的HTTP 429狀態程式碼不應導致停用，而會在案例中觸發短暫的執行暫停。
-
-![](assets/map-toggle-350x74.png)
 
 * [觸發器](#triggers)
 * [動作](#actions)
