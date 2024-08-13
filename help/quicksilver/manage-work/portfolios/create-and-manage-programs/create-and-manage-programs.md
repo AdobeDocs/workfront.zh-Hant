@@ -3,21 +3,22 @@ content-type: reference
 product-area: programs
 navigation-topic: portfolios-navigation-topic
 title: 建立和管理計畫
-description: 方案代表共用跨專案界限的共同策略、目標或目標的專案集合。 程式不能存在於投資組合之外。
+description: 方案代表共用跨專案界限的共同策略、目標或目標的專案集合。 計畫是投資組合的細分，它們不能存在於投資組合之外。
 author: Alina
 feature: Work Management, Strategic Planning
 recommendations: noDisplay, noCatalog
 exl-id: 3c796bab-b468-451a-adf8-8180f67546ee
-source-git-commit: b08377e539b04e896e84d17f46d2c941b0f66731
+source-git-commit: f3641e2207563f3fc9d9ed059d889ab6c22f05b1
 workflow-type: tm+mt
-source-wordcount: '88'
+source-wordcount: '102'
 ht-degree: 0%
 
 ---
 
 # 建立和管理計畫
 
-方案代表共用跨專案界限的共同策略、目標或目標的專案集合。 程式不能存在於投資組合之外。
+方案代表共用跨專案界限的共同策略、目標或目標的專案集合。
+計畫是投資組合的細分，它們不能存在於投資組合之外。
 
 本節包含下列文章：
 

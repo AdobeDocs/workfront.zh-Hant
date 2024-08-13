@@ -2,14 +2,14 @@
 product-area: projects
 navigation-topic: manage-tasks
 title: 編輯任務
-description: 您可以編輯已建立之工作，或您擁有Contribute或管理許可權的工作的相關資訊。
+description: 您可以編輯已建立之工作，或您擁有Contribute或管理許可權的工作的相關資訊。 本文說明如何搜尋、尋找及編輯工作（如果您有相關許可權）。
 author: Alina
 feature: Work Management, Tasks
 role: User
 exl-id: 572c6008-3a67-47ae-8f5d-6b871ef1f37b
-source-git-commit: 70750dbd382ac1207c3aca1d34694e3adc695393
+source-git-commit: f3641e2207563f3fc9d9ed059d889ab6c22f05b1
 workflow-type: tm+mt
-source-wordcount: '3663'
+source-wordcount: '3684'
 ht-degree: 3%
 
 ---
@@ -226,7 +226,7 @@ ht-degree: 3%
    您可以在任務標題中更新任務狀態。 </p> </td>
    </tr> 
      <tr> 
-      <td role="rowheader">優先順序</td> 
+      <td role="rowheader">優先等級</td> 
       <td> <p>這是視覺化標幟，可讓您排定工作的優先順序。 </p> <p>從下列選項中選取： </p> 
        <ul> 
       <li> <p> 無</p> </li> 

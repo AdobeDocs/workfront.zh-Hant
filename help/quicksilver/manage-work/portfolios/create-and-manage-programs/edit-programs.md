@@ -2,13 +2,13 @@
 product-area: programs
 navigation-topic: create and manage programs
 title: 編輯計畫
-description: 您可以編輯已建立或其他使用者已建立之程式的資訊（如果它們與您共用）。
+description: 您可以編輯已建立或其他使用者已建立之程式的資訊（如果它們與您共用）。 本文說明如果您有搜尋、尋找及編輯方案的許可權，應如何搜尋、尋找及編輯。
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 7dcdfc5a-3fc1-48a8-ae28-a6a0a458732e
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: f3641e2207563f3fc9d9ed059d889ab6c22f05b1
 workflow-type: tm+mt
-source-wordcount: '1053'
+source-wordcount: '1074'
 ht-degree: 0%
 
 ---
@@ -174,7 +174,7 @@ ht-degree: 0%
 
    ![](assets/comment-box-in-program-edit-box-classic-350x195.png)
 
-1. 在&#x200B;**[!UICONTROL Post中新增註解以更新程式]**&#x200B;欄位。
+1. 在&#x200B;**[!UICONTROL 發佈更新到程式]**&#x200B;欄位中新增註解。
 1. （選用）按一下&#x200B;**[!UICONTROL 人員]**&#x200B;圖示以新增使用者或團隊至註解。
 1. （選擇性）按一下&#x200B;**[!UICONTROL 鎖定]**&#x200B;圖示以鎖定註解，並設為只有貴公司使用者才能使用。
 

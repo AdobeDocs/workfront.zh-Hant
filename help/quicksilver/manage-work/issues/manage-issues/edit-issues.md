@@ -2,15 +2,15 @@
 product-area: projects
 navigation-topic: manage-issues
 title: 編輯問題
-description: 您可以編輯您已建立的問題資訊，或其他使用者已建立的問題（如果他們與您共用問題）的相關資訊。
+description: 您可以編輯您已建立的問題資訊，或其他使用者已建立的問題（如果他們與您共用問題）的相關資訊。 本文說明如果您有搜尋、尋找和編輯問題的許可權，該如何搜尋、尋找和編輯問題。
 author: Alina
 feature: Work Management
 topic: Collaboration
 role: User
 exl-id: 1449374a-ab0d-4c98-83cd-4e511467633a
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: f3641e2207563f3fc9d9ed059d889ab6c22f05b1
 workflow-type: tm+mt
-source-wordcount: '2508'
+source-wordcount: '2529'
 ht-degree: 2%
 
 ---
@@ -164,7 +164,7 @@ ht-degree: 2%
       <td> <p>選取問題的狀態。 如需問題狀態的詳細資訊，請參閱<a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/issue-statuses.md" class="MCXref xref">存取系統問題狀態清單</a>。 </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">優先順序</td> 
+      <td role="rowheader">優先等級</td> 
       <td> <p>這是視覺化標幟，可讓您排定問題的優先順序。</p> <p>從下列選項中選取：</p> 
        <ul> 
         <li> <p><strong>無</strong> </p> </li> 

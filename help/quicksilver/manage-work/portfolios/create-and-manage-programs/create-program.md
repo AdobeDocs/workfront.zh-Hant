@@ -1,14 +1,14 @@
 ---
 product-area: programs
 navigation-topic: create and manage programs
-title: 建立方案
-description: 方案代表共用跨專案界限的共同策略、目標或目標的專案集合。 程式不能存在於投資組合之外。
+title: 建立計畫
+description: 方案代表共用跨專案界限的共同策略、目標或目標的專案集合。 計畫是投資組合的細分，它們不能存在於投資組合之外。 計畫通常與同一投資組合中的其他計畫共用相同的資源。 當您的產品組合變得太大時，您可以建立計畫來組織它們。
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 6ec353c2-2241-47c2-8c59-1d8ddc43781e
-source-git-commit: 2ca8539855c2b08d71f47ad2e1b698496456f022
+source-git-commit: f3641e2207563f3fc9d9ed059d889ab6c22f05b1
 workflow-type: tm+mt
-source-wordcount: '1031'
+source-wordcount: '1143'
 ht-degree: 1%
 
 ---
@@ -17,7 +17,12 @@ ht-degree: 1%
 
 <!-- Audited: 1/2024 -->
 
-方案代表共用跨專案界限的共同策略、目標或目標的專案集合。 程式不能存在於投資組合之外。
+方案代表共用跨專案界限的共同策略、目標或目標的專案集合。
+計畫是投資組合的細分，它們不能存在於投資組合之外。 計畫通常與同一投資組合中的其他計畫共用相同的資源。
+
+當您的產品組合變得太大時，您可以建立計畫來組織它們。
+
+例如，您可以有包含行銷部門所有專案的「行銷會計年度2024」Portfolio。 您可能會想要考慮進一步將專案組織到會計季度中，並在「2024年行銷會計年度」Portfolio中新增「2024年行銷會計季度1-4」方案。
 
 ## 存取需求
 

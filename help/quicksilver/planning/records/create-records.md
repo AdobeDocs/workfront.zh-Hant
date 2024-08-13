@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: bda3dc43828032fd5a8862b12d851c56cf9b6cbd
+source-git-commit: f3641e2207563f3fc9d9ed059d889ab6c22f05b1
 workflow-type: tm+mt
 source-wordcount: '930'
 ht-degree: 0%
@@ -25,6 +25,7 @@ ht-degree: 0%
 * 從記錄型別頁面新增它們
 * 從外部清單複製並貼上記錄清單
 * 複製它們
+  <!--* Add them as you connect them from other records-->
 
 本文會介紹如何建立記錄。 如需有關管理表格或時間表檢視中的記錄的資訊，請參閱下列文章：
 
@@ -214,3 +215,27 @@ You can import records from other applications by linking them to existing recor
 ## 複製記錄以建立記錄
 
 如需複製記錄的資訊，請參閱[複製記錄](/help/quicksilver/planning/records/copy-or-duplicate-records.md)。
+
+<!--check the steps with the release of in-context record types epic: 
+
+## Create records by connecting them
+
+You can create records while you connect them from other records. 
+
+You must have the following before you can add new records by connecting them from existing records:
+
+* Connected record types. For information, see [Connect record types](/help/quicksilver/planning/architecture/connect-record-types.md).
+* Connected records. For information, see [Connect records](/help/quicksilver/planning/records/connect-records.md).
+
+To create records as you are connecting them from other records: 
+
+1. Start connecting Workfront Planning records, as described in the article [Connect records](/help/quicksilver/planning/records/connect-records.md). 
+1. (Conditional) If you cannot find a record when trying to add it from the connected record field of another record, search for a record, then click **+ Add**. The **+ Add** button is followed by the name of the record type you are connecting from. 
+
+    ![](assets/add-button-to-create-records-in-context-highlighted.png)
+
+    The record is created and added to the connected record field. 
+1. (Optional) Go to the table view of the record type whose record you created. A new record displays in the last row of the view. 
+1. (Optional) Start adding information for the new record in the table view, or click its name to open the details page and add information there. 
+
+-->

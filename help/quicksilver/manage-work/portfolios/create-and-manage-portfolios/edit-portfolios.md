@@ -2,13 +2,13 @@
 product-area: portfolios
 navigation-topic: create-and-manage-portfolios
 title: 編輯投資組合
-description: 您可以編輯已建立的投資組合資訊，或其他使用者已建立的資訊（若他們已共用給您）。
+description: 您可以編輯已建立的投資組合資訊，或其他使用者已建立的資訊（若他們已共用給您）。 本文說明如何搜尋、尋找及編輯產品組合（如果您有這樣做的許可權）。
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 0a2e18c3-1722-4fc6-8442-19e80eca9d47
-source-git-commit: 7b0da61c301fe8f1f24aa27a469952fbd46987c5
+source-git-commit: f3641e2207563f3fc9d9ed059d889ab6c22f05b1
 workflow-type: tm+mt
-source-wordcount: '997'
+source-wordcount: '1018'
 ht-degree: 1%
 
 ---
