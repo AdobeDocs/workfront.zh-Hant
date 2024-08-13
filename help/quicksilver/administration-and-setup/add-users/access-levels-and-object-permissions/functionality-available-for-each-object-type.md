@@ -4,15 +4,15 @@ content-type: reference
 product-area: system-administration
 keywords: 存取，模型，漏斗，圖表，層級，許可權
 navigation-topic: access-levels
-title: 適用於各種存取層級之每種物件型別的功能
+title: 各種存取層級中每種物件型別的可用功能
 description: 下表列出各種存取層級中每種物件型別的可用功能。
-author: Courtney
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 91b1b448-5a0b-4e64-a59e-458c8387ecbc
-source-git-commit: 8dbb48e6aa2df874caa816468cf2e3ad408ebf7e
+source-git-commit: 822c4e13ab62d129d0a7c603105251e52578576d
 workflow-type: tm+mt
-source-wordcount: '1883'
+source-wordcount: '1891'
 ht-degree: 10%
 
 ---
@@ -519,7 +519,7 @@ ht-degree: 10%
 |---|---|---|---|---|---|
 | 在規劃工具中編輯優先順序和預算 | ✓ &#42; |   |   |   |   |
 | 建立、編輯、刪除資源集區&#42;&#42; | ✓ &#42; |   |   |   |   |
-| `Update Planned Hours in the Workload Balancer`&#42;&#42;&#42; | `✓*` |   |   |   |   |
+| 更新工作負載平衡器&#42;&#42;&#42;中的計畫時數 | ✓ (R)* |   |   |   |   |
 | 在資源規劃工具中檢視專案優先順序 | ✓ &#42; |   |   |   |   |
 | 檢視資源計畫工具中的資源配置 | ✓ &#42; | ✓ &#42; | ✓ &#42; |   |   |
 | 檢視資源集區 | ✓ &#42; | ✓ &#42; | ✓ &#42; |   |   |

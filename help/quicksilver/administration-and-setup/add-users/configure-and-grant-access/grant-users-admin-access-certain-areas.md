@@ -1,13 +1,13 @@
 ---
-title: 授予使用者管理特定區域的存取權
+title: 授予使用者對特定區域的管理存取權
 description: 身為Adobe Workfront管理員，您可以使用存取層級，授予擁有計畫授權的使用者對系統特定區域的管理存取權。
-author: Caroline
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 9d12895d-cf7f-41c6-a2ac-bb731770c187
-source-git-commit: 253a116e04e0b3a729331f5d0a29405e82808390
+source-git-commit: c887569d59c7751210671cab97c492ee1752fffc
 workflow-type: tm+mt
-source-wordcount: '847'
+source-wordcount: '843'
 ht-degree: 2%
 
 ---
@@ -23,6 +23,8 @@ ht-degree: 2%
 >這與授與使用者Workfront的完整管理存取權（在[授與使用者完整管理存取權](../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md)中說明）不同&#x200B;。
 
 ## 存取需求
+
++++ 展開以檢視本文中功能的存取需求。
 
 您必須具有下列存取權才能執行本文中的步驟：
 
@@ -45,13 +47,15 @@ ht-degree: 2%
  </tbody> 
 </table>
 
++++
+
 ## 授予Plan使用者對Workfront特定區域的管理存取權
 
 >[!IMPORTANT]
 >
 >我們強烈建議您維持內建的存取層級不變，以便在設定使用者後參考。 若要自訂存取層級，請複製預設存取層級並修改副本。 （除了系統管理員和外部使用者之外，您可以對每個存取層級執行此動作。）
 
-1. 按一下Adobe Workfront右上角的&#x200B;**主要功能表**&#x200B;圖示![](assets/main-menu-icon.png)，然後按一下&#x200B;**設定** ![](assets/gear-icon-settings.png)。
+{{step-1-to-setup}}
 
 1. 在左側面板中，按一下&#x200B;**存取層級**。
 1. 按一下您要用來授予使用者對Workfront特定區域之管理存取權的存取層級名稱。

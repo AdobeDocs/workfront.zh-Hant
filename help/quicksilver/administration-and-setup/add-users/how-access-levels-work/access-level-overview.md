@@ -6,11 +6,11 @@ product-area: system-administration
 keywords: 存取，層級，系統，管理員，標準，輕量，參與者
 navigation-topic: access-levels
 description: 每位使用者都必須具備存取層級，才能登入及在Workfront中工作。 您可以使用存取層級來控制使用者可以檢視特定Workfront物件與區域的內容，以及對這些物件與區域執行的動作。
-author: Courtney
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: d297d8a4-5a4e-418f-983a-19545aeb0668
-source-git-commit: 528c264f613c0deb88c1cf52adb885ad4ead098b
+source-git-commit: 822c4e13ab62d129d0a7c603105251e52578576d
 workflow-type: tm+mt
 source-wordcount: '1745'
 ht-degree: 5%
@@ -46,7 +46,7 @@ Workfront有5個新的內建存取層級：
         <td>使用者可以檢閱和共用Workfront物件</td>
     </tr>
     <tr>
-        <td>無存取權限</td>
+        <td>無存取權</td>
         <td>使用者無法存取Workfront物件</td>
     </tr>
 </table>

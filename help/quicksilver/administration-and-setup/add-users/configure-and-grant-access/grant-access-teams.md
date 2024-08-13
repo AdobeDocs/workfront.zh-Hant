@@ -1,13 +1,13 @@
 ---
 title: 授予團隊存取權
 description: 作為Adobe Workfront管理員，您可以使用存取層級來定義使用者對Workfront中團隊的存取權
-author: Caroline
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 915d1520-f5c4-4e33-b645-cb219289383c
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: c887569d59c7751210671cab97c492ee1752fffc
 workflow-type: tm+mt
-source-wordcount: '685'
+source-wordcount: '696'
 ht-degree: 5%
 
 ---
@@ -17,6 +17,8 @@ ht-degree: 5%
 身為Adobe Workfront管理員，您可以使用存取層級來定義使用者對Workfront中團隊的存取權，如[存取層級概觀](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md)中所述。
 
 ## 存取需求
+
++++ 展開以檢視本文中功能的存取需求。
 
 您必須具有下列存取權才能執行本文中的步驟：
 
@@ -38,6 +40,8 @@ ht-degree: 5%
   </tr> 
  </tbody> 
 </table>
+
++++
 
 ## 設定使用者的存取權，以使用自訂存取層級編輯使用者
 

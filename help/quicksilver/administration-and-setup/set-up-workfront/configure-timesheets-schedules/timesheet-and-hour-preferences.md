@@ -2,20 +2,20 @@
 user-type: administrator
 product-area: system-administration;timesheets
 navigation-topic: configure-timesheets-and-schedules
-title: 設定時程表和小時偏好設定
+title: 設定時程表和小時喜好設定
 description: 作為 [!DNL Adobe Workfront] 管理員，您可以在 [!DNL Workfront] 中指定時程表和時數的偏好設定，以定義時程表可預先填入的專案以及使用者可記錄時間的專案。
 author: Alina and Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 8cc49dc2-b23f-4899-85dd-bd53d5242dbe
-source-git-commit: 66e6c96ca51a159f6e9a16178f06dd016217c7d8
+source-git-commit: 822c4e13ab62d129d0a7c603105251e52578576d
 workflow-type: tm+mt
-source-wordcount: '1409'
+source-wordcount: '1420'
 ht-degree: 0%
 
 ---
 
-# 設定時程表和小時偏好設定
+# 設定時程表和時數偏好設定
 
 <!--Audited: 01/2024-->
 
@@ -33,11 +33,11 @@ ht-degree: 0%
 >
 >如需詳細資訊，請參閱[記錄時間](../../../timesheets/create-and-manage-timesheets/log-time.md)和[時程表總覽](/help/quicksilver/timesheets/timesheets/timesheets-overview.md)。
 
-
-
 您對時程表所做的任何變更都會影響未來建立的所有時程表。
 
 ## 存取需求
+
++++ 展開以檢視本文中功能的存取需求。
 
 您必須具有下列存取權才能執行本文中的步驟：
 
@@ -64,6 +64,8 @@ ht-degree: 0%
 </table>
 
 *如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
++++
 
 ## 設定時程表和小時偏好設定
 

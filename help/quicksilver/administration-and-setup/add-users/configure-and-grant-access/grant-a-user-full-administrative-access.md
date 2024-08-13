@@ -1,13 +1,13 @@
 ---
 title: 授予使用者完整管理存取權
 description: 您可以授予使用者Workfront的完整管理存取權。
-author: Caroline
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 46bcb65a-1cb7-443b-88ba-6d0e516e3050
-source-git-commit: 5d4434d090c4b6cdefc9c313fecccf6d6e9a510b
+source-git-commit: c887569d59c7751210671cab97c492ee1752fffc
 workflow-type: tm+mt
-source-wordcount: '1583'
+source-wordcount: '1579'
 ht-degree: 1%
 
 ---
@@ -34,6 +34,8 @@ ht-degree: 1%
 
 ## 存取需求
 
++++ 展開以檢視本文中功能的存取需求。
+
 您必須具有下列存取權才能執行本文中的步驟：
 
 <table style="table-layout:auto"> 
@@ -55,9 +57,11 @@ ht-degree: 1%
  </tbody> 
 </table>
 
++++
+
 ## 授予單一使用者完整的系統管理員存取權
 
-1. 按一下Adobe Workfront右上角的&#x200B;**主要功能表**&#x200B;圖示![](assets/main-menu-icon.png)，然後按一下&#x200B;**使用者** ![](assets/users-icon-in-main-menu.png)。
+{{step-1-to-users}}
 
 1. 按一下您要授予管理員許可權的使用者名稱。
 1. 按一下[更多]功能表![](assets/more-icon.png)，然後按一下[編輯]****。

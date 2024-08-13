@@ -4,13 +4,13 @@ user-type: administrator
 product-area: system-administration;resource-management
 navigation-topic: configure-access-to-workfront
 description: 作為Adobe Workfront管理員，您可以使用存取層級來定義使用者對Workfront中資源管理的存取權。
-author: Caroline
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 14948e33-3dd7-4ef3-9307-51628dedd1f5
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: c887569d59c7751210671cab97c492ee1752fffc
 workflow-type: tm+mt
-source-wordcount: '512'
+source-wordcount: '523'
 ht-degree: 4%
 
 ---
@@ -20,6 +20,8 @@ ht-degree: 4%
 身為Adobe Workfront管理員，您可以使用存取層級來定義使用者對資源管理的存取權，如[存取層級概觀](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md)中所述。
 
 ## 存取需求
+
++++ 展開以檢視本文中功能的存取需求。
 
 您必須具有下列存取權才能執行本文中的步驟：
 
@@ -41,6 +43,8 @@ ht-degree: 4%
   </tr> 
  </tbody> 
 </table>
+
++++
 
 ## 使用自訂存取層級設定使用者對資源管理工具的存取權
 

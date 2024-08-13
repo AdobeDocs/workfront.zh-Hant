@@ -6,11 +6,11 @@ product-area: system-administration
 keywords: 存取，層級，系統，管理員，供需規劃員，工作者，檢閱者，請求者，外部，使用者
 navigation-topic: access-levels
 description: 每位使用者都必須具備存取層級，才能登入及在Workfront中工作。 您可以使用存取層級來控制使用者可以檢視特定Workfront物件與區域的內容，以及對這些物件與區域執行的動作。 六個內建存取層級分別附加至Workfront的五個授權之一，分別為計畫、工作、檢閱、要求和外部。
-author: Lisa
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 7c323af9-8c33-48ad-9aff-96758e96b40b
-source-git-commit: 9d2165cdc9399273a4f79b90d4049f50097cadee
+source-git-commit: 822c4e13ab62d129d0a7c603105251e52578576d
 workflow-type: tm+mt
 source-wordcount: '302'
 ht-degree: 0%

@@ -6,13 +6,13 @@ product-area: system-administration
 keywords: 存取，層級，授權
 navigation-topic: access-levels
 description: 您可以在使用者清單或報告中檢視指派給每個使用者的存取層級和授權。
-author: Caroline
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 5d85509d-276a-411e-813c-8b1fa2f512db
-source-git-commit: 02191d80ea58f80de2e7be2ff55f43663e415e31
+source-git-commit: 822c4e13ab62d129d0a7c603105251e52578576d
 workflow-type: tm+mt
-source-wordcount: '315'
+source-wordcount: '311'
 ht-degree: 1%
 
 ---
@@ -22,6 +22,8 @@ ht-degree: 1%
 您可以在使用者清單或報告中檢視指派給每個使用者的存取層級和授權。
 
 ## 存取需求
+
++++ 展開以檢視本文中功能的存取需求。
 
 您必須具備下列條件：
 
@@ -46,11 +48,13 @@ ht-degree: 1%
 
 &#42;若要瞭解您擁有的計畫、授權型別或存取權，請連絡您的Workfront管理員。
 
++++
+
 ## 列出使用者的存取層級和授權
 
-1. 按一下Adobe Workfront右上角的&#x200B;**主要功能表**&#x200B;圖示![](assets/main-menu-icon.png)，然後按一下&#x200B;**使用者**。
+{{step-1-to-users}}
 
-   依預設，所有被設定為「作用中」的使用者都會顯示在清單中。
+依預設，所有被設定為「作用中」的使用者都會顯示在清單中。
 
 1. 在&#x200B;**檢視**&#x200B;下拉式功能表中，選取&#x200B;**授權**。
 

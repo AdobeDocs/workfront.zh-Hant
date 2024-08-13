@@ -6,11 +6,11 @@ keywords: 存取，模型，漏斗，圖表，層級，許可權
 navigation-topic: access-levels
 title: 內建存取層級
 description: 目前內建的六個存取層級中的每一個層級都是為特定型別的使用者設計的，包括系統管理員、供需規劃員、工作者、檢閱者、請求者和外部使用者。 這些存取層級可讓您控制哪些使用者可以在系統中編輯和檢視。 如果您需要自訂存取層級，可以複製內建存取層級，並根據您想要它允許各種Workfront物件型別的存取量進行修改。
-author: Becky, Lisa
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 5cb42dd8-1557-4fa4-ab3d-8278ce9afd96
-source-git-commit: 9d2165cdc9399273a4f79b90d4049f50097cadee
+source-git-commit: 822c4e13ab62d129d0a7c603105251e52578576d
 workflow-type: tm+mt
 source-wordcount: '1685'
 ht-degree: 5%
@@ -49,7 +49,7 @@ ht-degree: 5%
         <td>使用者可以檢閱和共用Workfront物件</td>
     </tr>
     <tr>
-        <td>無存取權限</td>
+        <td>無存取權</td>
         <td>使用者無法存取Workfront物件</td>
     </tr>
 </table>

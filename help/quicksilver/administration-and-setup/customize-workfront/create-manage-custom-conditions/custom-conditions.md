@@ -5,15 +5,15 @@ content-type: reference
 product-area: system-administration
 navigation-topic: customize-workfront
 description: 條件是以視覺方式表示專案、任務或問題的進度。 作為Adobe Workfront管理員，您可以使用Workfront建立的條件來用於專案、任務和問題，或是建立自訂條件以更符合組織的需求。
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: bbe6f0a0-18bf-4229-a50a-aa7286b82626
-source-git-commit: 752caa1d94a09871b97a11400d83f28853118d33
+source-git-commit: a54200ceeaadfeaac6767f06676cb11814959601
 workflow-type: tm+mt
 source-wordcount: '176'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 

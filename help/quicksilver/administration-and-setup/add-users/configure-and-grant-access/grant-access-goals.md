@@ -4,13 +4,13 @@ user-type: administrator
 product-area: system-administration;documents
 navigation-topic: configure-access-to-workfront
 description: 作為Adobe Workfront管理員，您可以使用存取層級來定義使用者對Workfront目標的存取權。
-author: Caroline
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 8639da14-d545-4f9a-894b-12c29699b0db
-source-git-commit: d0ab54670d1767e2fa2a9cdf2e7eda1ce8940c7f
+source-git-commit: c887569d59c7751210671cab97c492ee1752fffc
 workflow-type: tm+mt
-source-wordcount: '324'
+source-wordcount: '335'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,8 @@ ht-degree: 0%
 身為Adobe Workfront管理員，您可以使用存取層級來定義使用者對Adobe Workfront目標的存取權，如[存取層級總覽](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md)所述。
 
 ## 存取需求
+
++++ 展開以檢視本文中功能的存取需求。
 
 您必須具備下列專案才能授與使用者存取Workfront目標的許可權：
 
@@ -49,6 +51,8 @@ ht-degree: 0%
 &#42;若要瞭解您擁有的計畫、授權型別或存取層級，請連絡您的Workfront管理員。
 
 如需存取Workfront目標的詳細資訊，請參閱[使用Workfront目標的需求](../../../workfront-goals/goal-management/access-needed-for-wf-goals.md)。
+
++++
 
 ## 使用自訂存取層級授與使用者對Workfront目標的存取權
 

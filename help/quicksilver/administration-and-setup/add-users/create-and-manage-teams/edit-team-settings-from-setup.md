@@ -1,13 +1,13 @@
 ---
 title: 從設定區域編輯團隊的設定
 description: 作為Adobe Workfront管理員，您可以從設定區域編輯團隊設定。 您可以將使用者新增至專案團隊、設定專案團隊的版面配置範本，以及設定當專案團隊完成工作專案時如何記錄狀態。
-author: Caroline, Courtney
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 648a36ce-5793-472f-9fee-9dedf71991ef
-source-git-commit: 7fa4791e19a84d7215e341e8bbde8dd4d4d8ccc6
+source-git-commit: 822c4e13ab62d129d0a7c603105251e52578576d
 workflow-type: tm+mt
-source-wordcount: '621'
+source-wordcount: '617'
 ht-degree: 3%
 
 ---
@@ -25,6 +25,8 @@ ht-degree: 3%
 >
 
 ## 存取需求
+
++++ 展開以檢視本文中功能的存取需求。
 
 您必須具有下列存取權才能執行本文中的步驟：
 
@@ -47,9 +49,11 @@ ht-degree: 3%
  </tbody> 
 </table>
 
++++
+
 ## 編輯團隊的設定
 
-1. 按一下Adobe Workfront右上角的&#x200B;**主要功能表**&#x200B;圖示![](assets/main-menu-icon.png)，然後按一下&#x200B;**設定** ![](assets/gear-icon-settings.png)。
+{{step-1-to-setup}}
 
 1. 按一下左側面板中的&#x200B;**團隊**。
 1. 選取團隊，然後按一下&#x200B;**編輯** ![](assets/edit-icon.png)。

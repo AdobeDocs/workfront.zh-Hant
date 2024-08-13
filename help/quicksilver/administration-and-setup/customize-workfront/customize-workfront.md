@@ -7,12 +7,13 @@ navigation-topic: administration-and-setup
 description: 作為Workfront管理員，您可以自訂元素（例如版面配置範本、自訂表單和狀態）來滿足組織中使用者的需求。
 feature: System Setup and Administration
 role: Admin
+author: Lisa
 recommendations: noDisplay, noCatalog
 exl-id: c9b16408-c02f-409e-91df-33288f3aae23
-source-git-commit: 0aed653b9e5f0123e6b4d6e494aaff563ae1a72d
+source-git-commit: a54200ceeaadfeaac6767f06676cb11814959601
 workflow-type: tm+mt
 source-wordcount: '60'
-ht-degree: 3%
+ht-degree: 6%
 
 ---
 

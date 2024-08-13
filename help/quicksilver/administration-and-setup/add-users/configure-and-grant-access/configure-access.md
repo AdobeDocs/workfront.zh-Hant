@@ -5,12 +5,12 @@ content-type: reference
 product-area: system-administration
 navigation-topic: add-users-to-workfront
 description: 身為Adobe Workfront管理員，可以授予使用者存取權，以指派存取層級給使用者來檢視或編輯物件。
-author: Caroline
+author: Becky
 feature: System Setup and Administration
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 150a7e52-d379-4909-b7e3-df8a0b0289d1
-source-git-commit: 86a0a9ddf5be1515ed8f5c2a537b0e2ccd5a1b63
+source-git-commit: c887569d59c7751210671cab97c492ee1752fffc
 workflow-type: tm+mt
 source-wordcount: '192'
 ht-degree: 0%

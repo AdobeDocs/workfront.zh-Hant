@@ -1,13 +1,13 @@
 ---
 title: 授予Scenario Planner的存取權
 description: 作為Adobe Workfront管理員，您可以使用存取層級來定義使用者對Scenario Planner的存取權。
-author: Caroline
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 4343f0ff-2f78-4556-801f-db9d94f80c95
-source-git-commit: 62d1b9563d83bd82b569e143f69e379e2f4ffbc2
+source-git-commit: c887569d59c7751210671cab97c492ee1752fffc
 workflow-type: tm+mt
-source-wordcount: '686'
+source-wordcount: '697'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,8 @@ ht-degree: 0%
 除了存取「案例規劃工具」之外，具有非系統管理員存取層次的使用者也必須具有財務資料的存取權，才能檢視計畫中包含的任何財務資訊，例如預算、成本及職務角色費率。 如需詳細資訊，請參閱[授予財務資料的存取權](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md)。
 
 ## 存取需求
+
++++ 展開以檢視本文中功能的存取需求。
 
 您必須具備下列條件：
 
@@ -50,6 +52,8 @@ ht-degree: 0%
 </table>
 
 &#42;若要瞭解您擁有的計畫、授權型別或存取權，請連絡您的Workfront管理員。
+
++++
 
 ## 使用自訂存取層級設定使用者對Scenario Planner的存取權
 

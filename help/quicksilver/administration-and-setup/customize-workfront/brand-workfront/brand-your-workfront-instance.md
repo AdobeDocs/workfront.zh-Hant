@@ -1,21 +1,21 @@
 ---
-title: 品牌化您的Adobe Workfront執行個體
+title: 品牌化Adobe Workfront執行個體
 user-type: administrator
 product-area: system-administration
 navigation-topic: brand-workfront
 description: 身為Workfront管理員，您可以將Workfront品牌與登入畫面、頂端導覽區和主功能表中的標誌搭配使用。 您也可以變更登入畫面的背景影像和顏色。
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 94603393-bdea-4673-9256-08da14f6916e
-source-git-commit: 7b5b0fd95e39f37153e36abb4e3b8e738ac26d21
+source-git-commit: a54200ceeaadfeaac6767f06676cb11814959601
 workflow-type: tm+mt
-source-wordcount: '916'
+source-wordcount: '912'
 ht-degree: 1%
 
 ---
 
-# 品牌化您的Adobe Workfront執行個體
+# 為您的 Adobe Workfront 執行個體建立品牌
 
 <!--
 **DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. **
@@ -57,6 +57,8 @@ ht-degree: 1%
 
 ## 存取需求
 
++++ 展開以檢視本文中功能的存取需求。
+
 您必須具有下列存取權才能執行本文中的步驟：
 
 <table style="table-layout:auto"> 
@@ -78,9 +80,11 @@ ht-degree: 1%
  </tbody> 
 </table>
 
++++
+
 ## 為登入畫面建立品牌
 
-1. 按一下Adobe Workfront右上角的&#x200B;**主要功能表**&#x200B;圖示![](assets/main-menu-icon.png)，然後按一下&#x200B;**設定** ![](assets/gear-icon-settings.png)。
+{{step-1-to-setup}}
 
 1. 按一下&#x200B;**系統** > **品牌**。
 

@@ -3,13 +3,13 @@ user-type: administrator
 content-type: reference
 product-area: system-administration
 navigation-topic: access-levels
-title: 依授權型別存取物件和區域
+title: 依許可證型別存取物件與區域
 description: 下表告訴您每個Adobe Workfront授權對於Workfront中的物件與區域允許的最高存取層級（編輯或檢視）。
-author: Courtney
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: d8f2a295-c053-4763-bf6e-6e836087a839
-source-git-commit: 880e82546ac0ca80be60f03db31b99ad1778c35a
+source-git-commit: 822c4e13ab62d129d0a7c603105251e52578576d
 workflow-type: tm+mt
 source-wordcount: '425'
 ht-degree: 20%
@@ -29,11 +29,11 @@ ht-degree: 20%
 
 |   | 計劃 | 工作 | 檢閱 | 請求 | 外部 |
 |---|---|---|---|---|---|
-| 專案 | 編輯 | 編輯（沒有「建立」許可權） | 檢視 | 檢視（僅限「詳細資訊」頁面） | 無存取權限 |
+| 專案 | 編輯 | 編輯（沒有「建立」許可權） | 檢視 | 檢視（僅限「詳細資訊」頁面） | 無存取權 |
 | 任務 | 編輯 | 編輯 | 檢視 | 檢視 | 檢視 |
-| 問題 | 編輯 | 編輯 | 編輯 | 編輯 | 無存取權限 |
-| 專案組合 | 編輯 | 檢視 | 檢視 | 無存取權限 | 無存取權限 |
-| 計劃 | 編輯 | 檢視 | 檢視 | 無存取權限 | 無存取權限 |
+| 問題 | 編輯 | 編輯 | 編輯 | 編輯 | 無存取權 |
+| 專案組合 | 編輯 | 檢視 | 檢視 | 無存取權 | 無存取權 |
+| 計劃 | 編輯 | 檢視 | 檢視 | 無存取權 | 無存取權 |
 | 報告、儀表板和行事曆 | 編輯 | 檢視 | 檢視 | 檢視&#42; | 檢視（僅限行事曆，無共用許可權） |
 | 篩選器、視圖和分組 | 編輯 | 編輯 | 編輯 | 編輯 | 無存取權 |
 | 文件 | 編輯 | 編輯 | 編輯 | 編輯 | 檢視（無共用許可權） |

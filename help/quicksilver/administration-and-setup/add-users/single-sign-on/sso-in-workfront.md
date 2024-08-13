@@ -3,13 +3,13 @@ user-type: administrator
 content-type: reference;overview
 product-area: system-administration
 navigation-topic: single-sign-on-in-workfront
-title: Adobe Workfront單一登入概觀
+title: Adobe Workfront中的單一登入概觀
 description: Workfront提供集中管理的單一登入(SSO)設定，可輕鬆將Workfront與您現有的企業SSO解決方案整合。 此設定易於設定和管理，適用於OnDemand和OnPremise Enterprise客戶。
 author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 87f1b6c0-6b74-4eac-87cd-899b1c74af25
-source-git-commit: 4e3cafafb121371249fb73f2f001477bdbad2d77
+source-git-commit: a54200ceeaadfeaac6767f06676cb11814959601
 workflow-type: tm+mt
 source-wordcount: '244'
 ht-degree: 0%

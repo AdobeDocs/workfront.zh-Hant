@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 6adb4146-42fd-4eda-b46f-c61d7ff71df6
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: 822c4e13ab62d129d0a7c603105251e52578576d
 workflow-type: tm+mt
 source-wordcount: '1465'
 ht-degree: 3%
@@ -250,7 +250,7 @@ Workfront管理員使用「登入身份」功能時，不會記錄登入嘗試�
 >
 >如果您的組織已上線Adobe Admin Console，則無法使用此功能。 如需詳細資訊，請洽詢您的網路或IT管理員。
 
-### 優先順序 {#priority}
+### 優先等級 {#priority}
 
 當使用者執行下列其中一個動作時，系統會產生「優先順序」稽核記錄專案：
 

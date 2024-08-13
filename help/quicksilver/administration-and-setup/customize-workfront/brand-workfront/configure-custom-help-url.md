@@ -4,18 +4,18 @@ user-type: administrator
 product-area: system-administration
 navigation-topic: brand-workfront
 description: 如果您建立自訂內部說明網站，其中包含有關您的組織如何使用Workfront的資訊，您可以設定主要功能表說明圖示移至該網站。 這不會影響主要功能表中的主要說明連結，以及整個Workfront中的內容相關說明連結，這些連結會將使用者帶往Workfront說明網站。
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: d2b63508-1943-4f9e-888e-8f1bfb54c33e
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: a54200ceeaadfeaac6767f06676cb11814959601
 workflow-type: tm+mt
-source-wordcount: '317'
-ht-degree: 0%
+source-wordcount: '313'
+ht-degree: 2%
 
 ---
 
-# 設定自訂說明URL
+# 設定自訂說明 URL
 
 如果您建立自訂內部說明網站，其中包含有關您的組織如何使用Workfront的資訊，您可以設定主要功能表說明圖示移至該網站。
 
@@ -28,6 +28,8 @@ ht-degree: 0%
 若要瞭解使用者如何存取您在Workfront中設定的自訂說明URL和一般Workfront說明網站，請參閱[存取新Adobe Workfront體驗中的Workfront說明](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/access-workfront-help.md)。
 
 ## 存取需求
+
++++ 展開以檢視本文中功能的存取需求。
 
 您必須具有下列存取權才能執行本文中的步驟：
 
@@ -50,9 +52,12 @@ ht-degree: 0%
  </tbody> 
 </table>
 
++++
+
 ## 設定自訂說明URL
 
-1. 按一下Adobe Workfront右上角的「主要功能表」圖示![](assets/main-menu-icon.png)，然後按一下「設定」。
+{{step-1-to-setup}}
+
 1. 按一下&#x200B;**系統** > **偏好設定**。
 1. 在&#x200B;**一般偏好設定**&#x200B;區段的&#x200B;**自訂說明URL**&#x200B;欄位中，輸入自訂說明網站所在的URL。
 
