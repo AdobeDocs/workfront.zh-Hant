@@ -1,5 +1,5 @@
 ---
-title: 將使用者指派至版面配置範本
+title: 將使用者指派至版面範本
 user-type: administrator
 product-area: system-administration;templates;user-management
 navigation-topic: layout-templates
@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: a2915f3a-071f-4e9f-88c9-338bf765f418
-source-git-commit: 7ee96045e5673c51c3ce348f395226857686a923
+source-git-commit: a8214d9e10363881afbc2bd71f78f46cb6a25880
 workflow-type: tm+mt
-source-wordcount: '933'
+source-wordcount: '944'
 ht-degree: 0%
 
 ---
@@ -30,6 +30,8 @@ ht-degree: 0%
 如需有關群組配置範本的資訊，請參閱[建立和修改群組的配置範本](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md)。
 
 ## 存取需求
+
++++ 展開以檢視本文中功能的存取需求。
 
 您必須具有下列存取權才能執行本文中的步驟：
 
@@ -52,6 +54,8 @@ ht-degree: 0%
   </tr> 
  </tbody> 
 </table>
+
++++
 
 ## 將版面配置範本指派給使用者
 

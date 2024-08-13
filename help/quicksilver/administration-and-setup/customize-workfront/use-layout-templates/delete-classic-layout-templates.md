@@ -8,10 +8,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: c6d33d5d-da93-4aba-8897-f177c1171595
-source-git-commit: abb021a6857f8016d4f8b6bcf99fe818e47faea6
+source-git-commit: a8214d9e10363881afbc2bd71f78f46cb6a25880
 workflow-type: tm+mt
-source-wordcount: '281'
-ht-degree: 58%
+source-wordcount: '292'
+ht-degree: 56%
 
 ---
 
@@ -22,6 +22,8 @@ ht-degree: 58%
 您可以刪除傳統版面配置範本，以解決這些不一致問題。 由於無法在Workfront介面中使用，因此使用必須使用Workfront API來刪除這些專案。
 
 ## 存取需求
+
++++ 展開以檢視本文中功能的存取需求。
 
 您必須具有下列存取權才能執行本文中的步驟：
 
@@ -43,6 +45,8 @@ ht-degree: 58%
   </tr> 
  </tbody> 
 </table>
+
++++
 
 ## 使用API呼叫刪除傳統版面配置範本
 

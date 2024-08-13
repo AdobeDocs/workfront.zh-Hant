@@ -8,9 +8,9 @@ author: Nolan
 feature: System Setup and Administration
 role: Admin
 exl-id: b9997e79-a893-49dd-8c90-290399b2d2f7
-source-git-commit: c915c282c6258300b01600dd5b6247e96bf45185
+source-git-commit: a8214d9e10363881afbc2bd71f78f46cb6a25880
 workflow-type: tm+mt
-source-wordcount: '829'
+source-wordcount: '840'
 ht-degree: 1%
 
 ---
@@ -41,6 +41,8 @@ ht-degree: 1%
 
 ## 存取需求
 
++++ 展開以檢視本文中功能的存取需求。
+
 您必須具有下列存取權才能執行本文中的步驟：
 
 <table style="table-layout:auto"> 
@@ -62,6 +64,8 @@ ht-degree: 1%
   </tr> 
  </tbody> 
 </table>
+
++++
 
 ## 使用版面配置範本自訂新首頁
 

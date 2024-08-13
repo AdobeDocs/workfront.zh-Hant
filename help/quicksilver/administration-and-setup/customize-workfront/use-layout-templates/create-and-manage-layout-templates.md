@@ -1,5 +1,5 @@
 ---
-title: 建立及管理版面範本
+title: 建立和管理版面範本
 user-type: administrator
 content-type: overview
 product-area: system-administration;templates
@@ -9,14 +9,14 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 53076920-3b13-4b65-85cb-38096cf2d04d
-source-git-commit: e896d156854c6729e5ea0a82dcbc641fbfa9415e
+source-git-commit: a8214d9e10363881afbc2bd71f78f46cb6a25880
 workflow-type: tm+mt
 source-wordcount: '532'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
-# 建立及管理版面範本
+# 建立和管理版面配置範本
 
 <!--Audited: 12/2023-->
 

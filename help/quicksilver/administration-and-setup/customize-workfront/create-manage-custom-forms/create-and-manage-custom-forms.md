@@ -1,5 +1,5 @@
 ---
-title: 「自訂表單：文章索引」
+title: 「自訂Forms：文章索引」
 user-type: administrator
 content-type: reference
 product-area: system-administration
@@ -10,10 +10,10 @@ feature: System Setup and Administration, Custom Forms
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: a732344d-aca5-4825-b360-a4b49076b4d0
-source-git-commit: e15b2866d8dd93d9d8cbc37b204da51d748523c8
+source-git-commit: a8214d9e10363881afbc2bd71f78f46cb6a25880
 workflow-type: tm+mt
 source-wordcount: '122'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
@@ -27,6 +27,6 @@ ht-degree: 0%
 
 本節包含下列文章和子章節：
 
-* [自訂表單概述](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/custom-forms-overview.md)
+* [自訂表單概觀](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/custom-forms-overview.md)
 * [設計自訂表單](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form-toc.md)
 * [管理自訂表單和欄位](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/manage-custom-forms-toc.md)
