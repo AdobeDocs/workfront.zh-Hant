@@ -3,9 +3,9 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文件、教學課程和其他資源，了解如何在您的組織中實施並有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: 4fbeeffc48d47e04c00d9695b346cbed2633748e
+source-git-commit: 9714e1cd0d9ed4c315ab4004deb4585422b85094
 workflow-type: tm+mt
-source-wordcount: '14317'
+source-wordcount: '14309'
 ht-degree: 2%
 
 ---
@@ -804,9 +804,6 @@ ht-degree: 2%
       * [設定Blueprint](administration-and-setup/blueprints/configure-template-package.md)
       * [安裝Blueprint後要採取的動作](administration-and-setup/blueprints/best-next-actions-after-install.md)
       * [可用藍圖清單](administration-and-setup/blueprints/list-of-available-blueprints.md)
-   * 管理員常見問題集{#admin-faq}
-      * [管理員常見問題集](administration-and-setup/administrator-faqs/adminstrator-faqs.md)
-      * [AtTask OnPremise支援原則](administration-and-setup/administrator-faqs/attask-onpremise-support-policy.md)
    * Adobe Admin Console {#admin-in-admin-console}中的管理
       * [Adobe Admin Console中的Workfront管理](administration-and-setup/adobe-admin-console/wf-admin-in-admin-console.md)
       * [準備Adobe Admin Console](administration-and-setup/adobe-admin-console/prep-for-admin-console.md)
