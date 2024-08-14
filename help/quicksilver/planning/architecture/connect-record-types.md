@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
-source-git-commit: d5d517a0c9a1292c37e66db07f7ed17d0a9a59e1
+source-git-commit: f252140e4fec01c7bb8092804532d79954cef618
 workflow-type: tm+mt
-source-wordcount: '2510'
+source-wordcount: '2507'
 ht-degree: 0%
 
 ---
@@ -38,6 +38,8 @@ You can use Adobe Workfront Planning to design fully-customizable workspaces tha
 本文說明如何將兩種Workfront Planning記錄型別(Workfront Planning記錄型別)與另一個應用程式的物件連線。
 
 建立記錄或物件型別之間的連線後，您可以將個別記錄連線至彼此，並在Workfront Planning記錄上顯示連結記錄或物件型別的欄位。
+
+<!-- uncomment out for the release close to GA: For general information about connection types, see [Connection record types overview](/help/quicksilver/planning/architecture/connect-record-types-overview.md).-->
 
 如需有關將Workfront Planning記錄連線到其他應用程式物件的資訊，請參閱[連線記錄](/help/quicksilver/planning/records/connect-records.md)。
 
@@ -194,7 +196,9 @@ You can use Adobe Workfront Planning to design fully-customizable workspaces tha
 
 1. 在&#x200B;**記錄型別**&#x200B;欄位中，搜尋記錄型別，或選取下列其中一項：
 
-   * 來自所選工作區區段的其他記錄型別
+   * 來自您選取之工作區的另一個記錄型別
+
+     <!--replace screen shot below-->
 
      ![](assets/new-connection-tab-fields-with-another-record-selected.png)
 
@@ -204,7 +208,15 @@ You can use Adobe Workfront Planning to design fully-customizable workspaces tha
      > 
      >如果您在選取的工作區中沒有其他記錄型別，工作區區段不會顯示。
 
+     <!--remove the first sentence in the tip above at GA-->
+
+     <!--FORMAT THE TIP BELOW AT RELEASE: * A record type from another workspace that was configured to connect from other workspaces. For information, see [Edit record types](/help/quicksilver/planning/architecture/edit-record-types.md). (*****add screen shot****)
+        [!TIP]
+         If there are no record types that are configured to connect from other workspace, the workspace section does not display.-->
+
    * 來自&#x200B;**Workfront物件型別**&#x200B;區段的&#x200B;**專案、Portfolio、方案、公司**&#x200B;或&#x200B;**群組**。
+
+     <!--replace screen shot below-->
 
      ![](assets/workfront-project-connection-selection.png)
 
@@ -221,7 +233,14 @@ You can use Adobe Workfront Planning to design fully-customizable workspaces tha
    >您可以有多個連線連線到相同的記錄或物件型別。 如果您不編輯已連線的欄位名稱，Workfront會在已連線記錄的名稱后新增一個數字，以表示相同名稱的已連線記錄型別數目。
 
    * **描述**：有關連線記錄欄位的額外資訊。 當您將滑鼠游標停留在表格中的欄位欄位上時，會顯示欄位說明。
-   * **允許多筆記錄**：選取此選項表示當連結的記錄型別欄位顯示在原始記錄上時，您可以允許使用者新增多筆記錄。 依預設會選取此選項。
+   * **允許多筆記錄**：選取此選項表示當連結的記錄型別欄位顯示在原始記錄上時，您可以允許使用者新增多筆記錄。 依預設會選取此選項。<!--This option is available only when connecting records from two different workspaces or a record and an AEM asset object type.-->
+   <!--* **Connection type**: This option is available only when connecting records from the same workspace or a record and a Workfront object type. Choose from the following connection types:
+        * One to one
+        * One to many
+        * Many to one
+        * Many to many
+        
+        For information about connection types, see [Connect record types overview](/help/quicksilver/planning/architecture/connect-record-types-overview.md). -->
    * **選取查詢欄位**：選取此選項以從選取的記錄型別新增欄位。 查閱欄位是與您要連結的記錄或物件型別相關聯的欄位。 連結它們會顯示您連結的記錄或物件在您所連結的記錄上的資訊。 依預設會選取此選項。
 
      >[!TIP]
@@ -245,7 +264,7 @@ You can use Adobe Workfront Planning to design fully-customizable workspaces tha
    >
    >您的Workfront管理員可以透過Workfront中的中繼資料對應，將Workfront Planning欄位對應至Experience Manager Assets欄位。 如需詳細資訊，請參閱[設定Adobe Workfront與Experience Manager Assets之間的資產中繼資料對應](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping.html?lang=en)。
 
-1. （視條件而定）如果您選取連線至Experience Manager Assets或Workfront Planning記錄型別，且不想在連結欄位中顯示連線記錄或資產的標題，請停用&#x200B;**記錄外觀**&#x200B;區域中的&#x200B;**標題**&#x200B;切換功能。 停用時，連結欄位中只會顯示記錄的縮圖。 沒有縮圖影像的記錄會顯示影像圖示。 切換預設為啟用。 在&#x200B;**記錄外觀**&#x200B;區域顯示連線記錄的範例。
+1. （視條件而定）如果您選取連線至Experience Manager Assets或Workfront Planning記錄型別，如果您不想在連結欄位中顯示連線記錄或資產的標題，請取消選取&#x200B;**記錄外觀**&#x200B;區域中的&#x200B;**標題**&#x200B;切換按鈕。 取消選取時，連結欄位中只會顯示記錄的縮圖。 沒有縮圖影像的記錄會顯示影像圖示。 依預設，會選取切換。 在&#x200B;**記錄外觀**&#x200B;區域顯示連線記錄的範例。
 
    >[!TIP]
    >

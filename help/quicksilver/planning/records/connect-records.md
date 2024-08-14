@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
-source-git-commit: f3641e2207563f3fc9d9ed059d889ab6c22f05b1
+source-git-commit: f252140e4fec01c7bb8092804532d79954cef618
 workflow-type: tm+mt
 source-wordcount: '2495'
 ht-degree: 1%
@@ -147,7 +147,6 @@ hide: yes
 * 有權存取Workfront Planning和「檢視」或擁有工作區較高許可權的所有人，都可以看見您在記錄之間或記錄與其他應用程式物件之間建立的連線。 無論連線至應用程式的許可權為何，使用者都可以檢視連線的記錄和物件。
 * 如果您對連線記錄所在的工作區具有管理許可權，則可以檢視及編輯其他人的連線。
 * 您可以將一個記錄連線到另一個應用程式的一個或多個物件。
-
 * 您可以在下列區域將物件從Workfront連結至Workfront Planning記錄：
    * 從Workfront Planning中的Planning記錄。
    * 從Workfront物件的Planning區段。

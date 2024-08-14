@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: 402fb9d279fec258390535100e8f3d2c3c1b913b
+source-git-commit: f252140e4fec01c7bb8092804532d79954cef618
 workflow-type: tm+mt
-source-wordcount: '1880'
+source-wordcount: '1888'
 ht-degree: 0%
 
 ---
@@ -128,7 +128,7 @@ role: User
 
 1. 執行下列任一項作業來瀏覽時間軸：
 
-   * 按一下左右圖示，或使用水準捲動在時間軸中前後移動。
+   * 按一下左右圖示，或使用水準捲動在時間軸中前後移動。 重新整理頁面會保留選取的時間範圍。
    * 按一下&#x200B;**今天**，將時間表置中到今天的日期。
    * 從時間範圍下拉式選單中選取下列其中一個選項，以更新時間增量：
 

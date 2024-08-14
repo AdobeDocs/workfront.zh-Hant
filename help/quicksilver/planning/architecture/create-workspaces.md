@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 604b84c1-4ec6-4d4a-b9f4-4223641ff2ea
-source-git-commit: 1a46fa3a8e87a5f345558cef57a4d66171320c9b
+source-git-commit: f252140e4fec01c7bb8092804532d79954cef618
 workflow-type: tm+mt
-source-wordcount: '723'
+source-wordcount: '521'
 ht-degree: 1%
 
 ---
@@ -21,6 +21,8 @@ ht-degree: 1%
 在Adobe Workfront Planning中，工作區是團隊規劃工作的集中位置。
 
 工作區是團隊使用的記錄型別集合，代表團隊的工作生命週期。 您可以在Adobe Workfront Planning中完全自訂工作區。
+
+如需工作區的一般資訊，請參閱[工作區概述](/help/quicksilver/planning/architecture/workspaces-overview.md)。
 
 ## 存取需求
 
@@ -95,27 +97,6 @@ ht-degree: 1%
 
 <!-- Notes for the table: for the "Workfront access" row: <p>For more information, see <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront licenses overview</a>.</p>-->
 
-## 關於工作區的考量事項
-
-* 您可以為組織內的特定組織單位建立工作區，以符合每個單位的獨特運作方式。
-* 根據您的Workfront授權，工作區會顯示在Planning區域的下列標籤中：
-
-   * 對於系統管理員，工作區會顯示在下列標籤中：
-
-      * **我的工作區**：顯示您建立的工作區。<!--Replace with: Workspaces I'm on: Displays workspaces you created or workspaces that are shared with you.-->
-      * **其他工作區**：顯示系統中所有其他工作區，包括與您共用的工作區。 &lt;！ — 取代為：其他工作區：顯示系統中的所有其他工作區。>
-
-   * 對於所有其他使用者，他們建立的工作區以及其他使用者共用的工作區會顯示在「工作區」區域中。
-
-* 工作區包含的記錄型別應反映組織單位的工作生命週期。
-* 當您建立工作區時，只有您才有權存取和管理您的工作區。 您必須與其他使用者共用，他們才能在相同空間中與您共同作業。 如需詳細資訊，請參閱[共用工作區](/help/quicksilver/planning/access/share-workspaces.md)。 系統管理員可以管理所有工作區，即使是他們未建立的工作區。
-* 您可以擁有下列專案：
-
-   * 一個工作區最多可包含50個區段。
-   * 一個工作區中所有區段最多總共1,000個記錄型別。 所有記錄型別對於每個工作區都是唯一的。<!--this might change-->
-   * 貴組織的Workfront例項中最多1,000個工作區。
-
-
 ## 建立工作區
 
 您可以建立工作區並在其中新增記錄型別，以在Workfront Planning中組織您的物件。 如需有關編輯工作區的詳細資訊，請參閱[編輯工作區](/help/quicksilver/planning/architecture/edit-workspaces.md)。
@@ -153,7 +134,7 @@ ht-degree: 1%
    * 名為&#x200B;**無標題Workspace**&#x200B;的空白工作區，當您從頭開始建立工作區時，可以在此處開始手動新增記錄型別。
    * 以您選取的範本命名並填入範例記錄型別的工作區。 您可以進一步自訂記錄型別和工作區。
 
-   若為Workfront管理員，新工作區會顯示在「**我的工作區**」索引標籤上。<!--replace this with: Workspaces I'm on tab-->
+   若為Workfront管理員，新工作區會顯示在「**我的工作區**」索引標籤上。<!--replace this with: **Workspaces I'm on** tab-->
 1. 在新工作區標題的工作區名稱內按一下以重新命名，然後按Enter鍵。
 
 1. （選擇性和條件式）如果您是從範本建立工作區，請在&#x200B;**作業記錄型別**&#x200B;或&#x200B;**分類**&#x200B;區段的名稱內按一下

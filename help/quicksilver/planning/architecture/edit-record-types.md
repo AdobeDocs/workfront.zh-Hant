@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7d6de742-9657-4286-968c-1fc78ebbb94e
-source-git-commit: bda3dc43828032fd5a8862b12d851c56cf9b6cbd
+source-git-commit: f252140e4fec01c7bb8092804532d79954cef618
 workflow-type: tm+mt
-source-wordcount: '468'
-ht-degree: 1%
+source-wordcount: '472'
+ht-degree: 2%
 
 ---
 
@@ -35,6 +35,8 @@ hide: yes
 ## 存取需求
 
 +++ 展開以檢視Workfront Planning的存取需求。
+
+<!--update the table to say that: Only system administrators can enable record types to connect from other workspaces.-->
 
 <table style="table-layout:auto">
  <col>
@@ -104,14 +106,16 @@ hide: yes
 
 1. 按一下您要編輯其記錄型別的工作區，
 
-   或
+   工作區頁面隨即開啟，且記錄型別隨即顯示。
+1. 執行下列其中一項：
 
-   從工作區中，展開現有工作區名稱右側的向下箭頭，搜尋工作區，然後在工作區顯示在清單中時選取該工作區。
-
-   工作區隨即開啟，且記錄型別隨即顯示。
-1. 暫留在記錄型別的卡片上，然後按一下記錄型別卡片右上角的&#x200B;**更多**&#x200B;功能表![](assets/more-menu.png)，然後按一下&#x200B;**編輯**。
+   * 暫留在記錄型別的卡片上，然後按一下記錄型別卡片右上角的&#x200B;**更多**&#x200B;功能表![](assets/more-menu.png)，然後按一下&#x200B;**編輯**
+或
+   * 按一下記錄型別卡片以開啟記錄型別頁面，按一下記錄型別名稱右側的&#x200B;**更多**&#x200B;功能表![](assets/more-menu.png)，然後按一下&#x200B;**編輯**。
 
    ![](assets/more-menu-options-from-record-type-card.png)
+
+   <!--replace everything below with the commented out text below-->
 
 1. 在&#x200B;**編輯記錄型別**&#x200B;方塊中，更新下列資訊：
 
@@ -136,3 +140,35 @@ hide: yes
    <!--check this screen shot - not sure this is valid ???-->
 
 1. （選擇性）若要編輯其他記錄型別，請展開記錄型別名稱右側的向下箭頭，搜尋記錄型別，然後在它顯示在清單中時選取它。
+
+<!--*******************For GA - replace the above with this:
+
+1. In the **Edit record type** box, click the **Appearance** tab and update the following information: (*******copy the screen shot above here and update it with the Appearance tab**********)
+
+    * Edit the record type name, if needed. (*****did they add a field label for this?******)
+    * **Description**: Edit or add a description for the record type with more information about it. 
+    * Edit the color and shape of the icon associated with the record type. Do the following: 
+        * Select a color to identify the record type. This is the color of the record type icon. Gray is selected by default.
+        * Select an icon from the list, or start typing the name of an icon to describe what it represents, then select it when it displays. This is the icon of the record type. A file icon is selected by default.
+
+        ![](assets/update-record-type-box.png)
+
+1. (Conditional) If you are a system administrator, click the **Advanced settings** tab in the **Edit record type** box and update the following information: 
+
+   * **Connect from other workspaces**: Select this toggle to allow users to connect to this record type from other workspaces. This is deselected by default.
+   * **System wide**: Select this option to allow users to connect to this record from all workspaces in the system.
+   * **Specific workspaces**: Select this option to restrict the workspaces from which users can connect to this record type, then expand the drop down menu and select the workspaces you want users to connect to this record type from. You can start typing the name of a workspace, and select it when it displays in the list. 
+
+   ![](assets/edit-record-type-box-advanced-settings-tab.png)
+
+   The record type card displays a connectivity icon ![](assets/connect-from-other-workspaces-icon.png) in the upper-right corner to indicate that the record is now accessible from other workspaces. 
+
+
+1. Click **Save**.
+1. (Optional) Click the record type card from the workspace area to open the record type's page, then rename the record type in the header.  
+
+1. (Optional) To edit another record type, from the record type page, expand the downward-pointing arrow to the right of a record type name, search for a record type, then select it when it displays in the list.
+
+   ![](assets/record-type-drop-down-on-record-type-page-with-search-box.png)
+
+   -->

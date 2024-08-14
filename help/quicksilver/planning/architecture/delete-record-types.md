@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 70fd3887-3871-45b5-9c21-f57da63662aa
-source-git-commit: 5c7b60ac5b78bd065ffc270588ec72ab3eb2f41d
+source-git-commit: f252140e4fec01c7bb8092804532d79954cef618
 workflow-type: tm+mt
-source-wordcount: '411'
+source-wordcount: '415'
 ht-degree: 2%
 
 ---
@@ -136,11 +136,11 @@ hide: yes
    工作區隨即開啟，且記錄型別隨即顯示。
 1. 執行下列其中一項：
 
-   * 將游標停留在記錄型別卡片上，按一下[更多]功能表，然後按一下&#x200B;**刪除**。
+   * 將游標停留在記錄型別卡片上，按一下&#x200B;**更多**&#x200B;功能表，然後&#x200B;**刪除**。
    * 按一下您要刪除之記錄型別的卡片，然後在記錄型別頁面中，按一下記錄型別名稱右側的&#x200B;**更多**&#x200B;功能表![](assets/more-menu.png)，然後按一下&#x200B;**刪除**。
 
    ![](assets/permanently-delete-record-type-confirmation.png)
 
 1. 在確認方塊中輸入&#x200B;**刪除**，然後按一下&#x200B;**永久刪除**。 不區分大小寫。
 
-   所選的記錄型別及其欄位、關聯的記錄和檢視都會被刪除。
+   所選的記錄型別及其欄位、關聯的記錄和檢視都會被刪除並且無法復原。

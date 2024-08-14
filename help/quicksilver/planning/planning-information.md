@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7a65d66e-a578-4016-805e-0cb04caaa18a
-source-git-commit: 6f1f669f7e2235637864a92a40aadbfb19b4310b
+source-git-commit: f252140e4fec01c7bb8092804532d79954cef618
 workflow-type: tm+mt
-source-wordcount: '514'
+source-wordcount: '535'
 ht-degree: 0%
 
 ---
@@ -40,15 +40,16 @@ hide: yes
 >
 >在功能發行至生產環境後的某個時間，將可使用以下各節中參考的檔案。
 
-## Adobe Workfront Planning概述
+## Adobe Workfront Planning的一般資訊
 
-存取下列文章，以概略瞭解新的Workfront Planning：
+存取下列文章以取得新Workfront Planning的一般資訊：
 
 <!--update the video when we have something better, especially after early access - remove it-->
 
 <!--* [View a video demonstration of Adobe Workfront Planning](https://video.tv.adobe.com/v/3424253/){target=_blank}-->
 
 * [Adobe Workfront計畫總覽](/help/quicksilver/planning/general/planning-overview.md)： Adobe Workfront計畫的高層級總覽，包括此解決方案特有的術語和概念。 建議您在這裡透過Workfront規劃開始您的歷程。
+* [Adobe Workfront Planning物件限制總覽](/help/quicksilver/planning/general/limitations-overview.md)：您可以在Workfront Planning中建立的物件數目限制清單。
 * [Adobe Workfront Planning目前發行活動](/help/quicksilver/planning/general/release-activity.md)：自2023年5月22日Adobe Workfront Planning方案啟動後已發行之所有功能的清單，包含確切發行日期及每項功能的簡短概觀。
 * [Adobe Workfront Planning AI Assistant總覽](/help/quicksilver/planning/general/planning-ai-assistant-overview.md)：使用Workfront AI Assistant for Planning，您可以使用命令來搜尋記錄，或建立、更新和刪除記錄，並讓助理為您工作。
 

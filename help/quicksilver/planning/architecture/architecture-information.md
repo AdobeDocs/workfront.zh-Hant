@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 0da08e30-51a8-4163-ae1e-821a099fac3b
-source-git-commit: 502ab27759749ed428f8adbf486e39165d61fcf0
+source-git-commit: f252140e4fec01c7bb8092804532d79954cef618
 workflow-type: tm+mt
-source-wordcount: '183'
+source-wordcount: '185'
 ht-degree: 0%
 
 ---
@@ -38,6 +38,7 @@ hide: yes
 
 以下幾節中的文章說明如何設定Adobe Workfront Planning工作區、定義記錄型別（這些工作區的建置組塊）並開始使用其功能：
 
+* [工作區概觀](/help/quicksilver/planning/architecture/workspaces-overview.md)
 * [建立工作區](/help/quicksilver/planning/architecture/create-workspaces.md)
 * [工作區範本清單](/help/quicksilver/planning/architecture/workspace-templates.md)
 * [記錄型別概觀](/help/quicksilver/planning/architecture/overview-of-record-types.md)

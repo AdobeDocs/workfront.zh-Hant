@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 78e9c4d4ddee8f44d6fafe218c6a9b8c2cb28bf5
+source-git-commit: f252140e4fec01c7bb8092804532d79954cef618
 workflow-type: tm+mt
-source-wordcount: '5786'
+source-wordcount: '5851'
 ht-degree: 0%
 
 ---
@@ -38,6 +38,55 @@ Workfront規劃程式已於2023年5月22日開始執行。 如需2023年期間�
 已發行的功能會依其發行順序列出，最新的排在前。 參與Workfront Planning計畫的客戶可存取其生產環境中的所有功能。
 
 自2024年1月起，Workfront計畫已暫時從預覽和沙箱環境中移除。 本文中記錄的所有功能目前可在生產環境中使用。
+
+<!--
+
+### Landing page improvements
+
+Production: <date> 
+
+Preview: To be determined 
+
+We have made the following improvements to the Planning area's main page: 
+
+* "Workfront Planning" displays in the landing page header, to make it clear for users what area of the application they are accessing. (*******************)--not seeing this anywhere – omit this!*************????)
+
+* We added a "More" menu for each workspace card to make it easier to edit or delete the workspace from the main page. 
+
+* We added "Show all" and "Show less" links to display more or fewer workspaces in case there are more than two rows of workspace cards listed on the main page.  
+
+* For system administrators, the workspaces that they did not create have been moved from the "Other workspaces" tab to the "Workspaces I'm on" tab. The "My workspaces" tab has been removed. 
+
+For information, see [Edit workspaces](/help/quicksilver/planning/architecture/edit-workspaces.md).
+
+
+### Connect record types across multiple workspaces
+
+ Production: <date>  
+
+ Preview: To be determined  
+
+ You can now connect record types that belong to different workspaces.  
+
+ System administrators can now configure record types to be connected from other workspaces. After this, a workspace manager can connect to these record types.  
+
+Prior to this enhancement, you could only connect record types that belonged to the same workspace, along with object types from other applications.   
+
+ For information, see Edit record types (help/quicksilver/planning/architecture/edit-record-types.md). 
+
+-->
+
+## 2024年8月12日起一週
+
+### 保留時間軸檢視中的上次檢視時間範圍
+
+生產： 2024年8月14日
+
+預覽：待定
+
+現在，當您開啟時間軸檢視並捲動到過去或未來的日期時，重新整理頁面後會保留您選取的日期。 在此增強功能之前，頁面將顯示今天的日期。
+
+如需詳細資訊，請參閱[管理時間表檢視](/help/quicksilver/planning/views/manage-the-timeline-view.md)。
 
 ## 2024年7月29日起一週
 

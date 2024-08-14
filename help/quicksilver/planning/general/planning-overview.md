@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: e65b57c903b08dc734e93b9690ce91407f1d08e0
+source-git-commit: f252140e4fec01c7bb8092804532d79954cef618
 workflow-type: tm+mt
-source-wordcount: '2001'
+source-wordcount: '1836'
 ht-degree: 2%
 
 ---
@@ -115,6 +115,8 @@ Adobe Workfront規劃是Adobe Workfront的新產品。 Workfront Planning的目�
 雖然Workfront Planning是Workfront的一部分，但隨附專有概念和術語。 開始為組織設定Workfront規劃前，請務必熟悉新概念。
 
 Workfront Planning的架構可完全自訂。 您可以建立所有記錄型別、其屬性以及與其相關聯的任何欄位，以符合您組織的確切需求。
+
+您可以建立的Workfront Planning物件數目存在限制。 如需詳細資訊，請參閱[Adobe Workfront Planning物件限制總覽](/help/quicksilver/planning/general/limitations-overview.md)。
 
 以下是主要的Workfront Planning物件和概念：
 
@@ -252,34 +254,6 @@ Workfront Planning的架構可完全自訂。 您可以建立所有記錄型別�
 
 
 如需詳細資訊，請參閱[管理記錄檢視](/help/quicksilver/planning/views/manage-record-views.md)。
-
-
-## Adobe Workfront Planning物件限制
-
-下表顯示您可以在Workfront Planning中建立多少物件的限制。 當我們進入下一個開發階段時，限制可能會有所變更。
-
-<!--consider making the table view a stand-alone article when we go to GA-->
-
-| Adobe Workfront計畫物件 | 限制 |
-|-------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------:|
-| 一個Workfront例項的工作區數 | 1,000 |
-| 一個工作區的區段數 | 50 |
-| 一個工作區的記錄型別數 | 1,000 （這包括來自所有區段的記錄型別，以及在使用工作區範本時建立的記錄型別） |
-| 一種記錄型別的記錄數 | 50,000 |
-| 一種記錄型別或分類法的欄位數 | 500 |
-| 文字欄位的字元數 | 1,000個字元 |
-| 您可以在記錄型別表格中貼上的檔案大小 | 1MB |
-| 您可以透過記錄型別表格的API匯入的檔案大小 | 1.5毫巴 |
-| 提出API要求的速率 | 每分鐘200個請求 |
-| 您可以匯入的Excel檔案CSV大小* | 5MB |
-| 單一使用者可為一個記錄型別建立的檢視次數 | 100 |
-
-<!--add to the table above: Maximum number of views created by one use 100 -->
-
->[!IMPORTANT]
->
->*此功能已暫時停用，將於稍後提供。
-
 
 ## 找到Adobe Workfront Planning
 
