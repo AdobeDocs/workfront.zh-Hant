@@ -7,7 +7,7 @@ description: '[!UICONTROL 未完成的執行]資料夾會儲存由於錯誤而�
 author: Becky
 feature: Workfront Fusion
 exl-id: 60fcda91-b725-4ada-a42c-5c05720d68c2
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 53582d36ef2256f6073705ce3eabe8cd61c9b2cc
 workflow-type: tm+mt
 source-wordcount: '626'
 ht-degree: 5%
@@ -65,9 +65,13 @@ ht-degree: 5%
 
 ## 檢視未完成的執行
 
-如果模組在操作期間遇到錯誤，則會將新的未完成執行新增到未完成執行資料夾。 每個未完成的執行都包含情境的藍圖，以及可對應到失敗模組的所有組合。 按一下案例詳細資訊頁面上的[!UICONTROL 未完成執行]索引標籤，即可開啟未完成執行清單：
+如果模組在操作期間遇到錯誤，則會將新的未完成執行新增到未完成執行資料夾。 每個未完成的執行都包含情境的藍圖，以及可對應到失敗模組的所有組合。 按一下案例詳細資訊頁面上的[!UICONTROL 未完成執行]索引標籤，即可開啟未完成執行清單。
+
+<!--
 
 ![](assets/incomplete-executions-tab-350x102.png)
+
+-->
 
 如需詳細資訊，請參閱[導致不完整執行的錯誤](#errors-resulting-into-incomplete-executions)。
 

@@ -7,7 +7,7 @@ description: 您可以顯示某個案例所有執行的相關資訊，也可以�
 author: Becky
 feature: Workfront Fusion
 exl-id: cc2c3f87-34dc-4a06-9f5f-1a7fb10a3b82
-source-git-commit: ae57c38149bf6db3bbbb471fad8f3567b7d712a7
+source-git-commit: 1b729960a23e43252bda16d9bfb7ca9656a115a1
 workflow-type: tm+mt
 source-wordcount: '958'
 ht-degree: 0%
@@ -70,8 +70,6 @@ ht-degree: 0%
    如果您正在案例編輯器中處理案例，請按一下視窗左上角附近的向左箭頭![](assets/exit-editing-arrow.png)。
 
 1. 檢視右側清單中的資訊。
-
-   ![](assets/open-history-tab-350x202.png)
 
    您也可以按一下，檢視此資訊的完整頁面檢視。 全頁檢視可讓您篩選歷史記錄，以檢視特定執行。
 

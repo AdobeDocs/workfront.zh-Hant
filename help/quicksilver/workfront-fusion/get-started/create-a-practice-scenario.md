@@ -7,7 +7,7 @@ description: 本文會說明如何使用Adobe Workfront Fusion建立整合案例
 author: Becky
 feature: Workfront Fusion
 exl-id: 643bb1d5-d7bc-402b-8ed1-9ca9a30e4560
-source-git-commit: f11af8d9d1e5fa65c2efb4d882d25f9e13784611
+source-git-commit: cb4edb02aad8a0738ea80f058fcc2bc016832ce1
 workflow-type: tm+mt
 source-wordcount: '2139'
 ht-degree: 0%
@@ -120,7 +120,7 @@ ht-degree: 0%
    案例編輯器隨即顯示，其中心包含一個空白模組、您預先載入的[!DNL Google Sheets]應用程式，以及底部工具列中的一些選項。
 
 <!--
-   ![](assets/scenario-editor-350x235.png)
+   ![](assets/scenario-editor.png)
 -->
 
 當您開始建立新情境時，最好從建立其名稱開始。

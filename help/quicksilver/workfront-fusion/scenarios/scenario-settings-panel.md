@@ -7,7 +7,7 @@ description: 本文說明在您的 [!DNL Adobe Workfront Fusion] 案例中，[!U
 author: Becky
 feature: Workfront Fusion
 exl-id: 64a7a39a-f450-4eba-b4db-f31dd22aefdc
-source-git-commit: 4d9832d0870c3fccf847c3932ad4f985a62b9672
+source-git-commit: 1b729960a23e43252bda16d9bfb7ca9656a115a1
 workflow-type: tm+mt
 source-wordcount: '1097'
 ht-degree: 0%
@@ -132,10 +132,7 @@ ht-degree: 0%
 >
 >![](assets/max-number-cycles-1-350x201.png)
 >
->[!UICONTROL Dropbox] >[!UICONTROL 監看檔案]模組中的[!UICONTROL 最大傳回檔案數]設定為`10`。
->
->![](assets/max-number-cycles-10-350x175.png)
->
+>[!UICONTROL Workfront] >[!UICONTROL 監看記錄]模組中的[!UICONTROL 傳回檔案數上限]設定為`10`。
 >如果將100個要求提交至[!DNL Workfront]，且[!UICONTROL 限制]欄位設為10，則在執行一個案例後仍有90個檔案未處理。 接下來10個檔案會在下一個排程案例執行中處理。
 >
 >### 最大循環數設為10

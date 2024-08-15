@@ -7,10 +7,10 @@ description: 在 [!DNL Adobe Workfront Fusion]中的案例詳細資料
 author: Becky
 feature: Workfront Fusion
 exl-id: 1d8a3492-d609-43c8-a486-a401a597f160
-source-git-commit: ae57c38149bf6db3bbbb471fad8f3567b7d712a7
+source-git-commit: 28b422b818cd3e6774c28aae994526a0e7d0420c
 workflow-type: tm+mt
-source-wordcount: '579'
-ht-degree: 1%
+source-wordcount: '603'
+ht-degree: 0%
 
 ---
 
@@ -74,6 +74,10 @@ ht-degree: 1%
      <tr> 
       <td role="rowheader">[！UICONTROL模組圖表] </td> 
       <td>此標籤會顯示情境的視覺化表示法。 此圖表與在案例編輯器中看到的相同</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">[！UICONTROL報表] （索引標籤） </td> 
+      <td> <p>開啟此標籤，檢視此案例在過去30天內執行的作業數圖形。</p>  </td> 
      </tr> 
      <tr> 
       <td role="rowheader">[！UICONTROL History] （索引標籤） </td> 
