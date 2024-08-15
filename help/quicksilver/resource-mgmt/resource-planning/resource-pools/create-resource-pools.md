@@ -6,7 +6,7 @@ description: 資源集區是使用者的集合，可協助您更輕鬆地在Adob
 author: Lisa
 feature: Resource Management
 exl-id: 4991634c-e400-466e-bcee-3b461b6662d8
-source-git-commit: beec2ea4cdfcb89bf8f786a7ab2edeb804a6fbad
+source-git-commit: f18bf59202ba524173774a0215f4071bd6e77432
 workflow-type: tm+mt
 source-wordcount: '602'
 ht-degree: 1%
@@ -15,7 +15,7 @@ ht-degree: 1%
 
 # 建立資源集區
 
-{{highlighted-preview}}
+{{preview-and-fast-release-Q424}}
 
 資源集區是使用者的集合，可協助您更輕鬆地在Adobe Workfront中管理資源。 如需資源集區的詳細資訊，請參閱[資源集區概觀](../../../resource-mgmt/resource-planning/resource-pools/work-with-resource-pools.md)。
 

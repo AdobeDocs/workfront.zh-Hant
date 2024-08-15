@@ -1,7 +1,7 @@
 ---
-source-git-commit: f3641e2207563f3fc9d9ed059d889ab6c22f05b1
+source-git-commit: f18bf59202ba524173774a0215f4071bd6e77432
 workflow-type: tm+mt
-source-wordcount: '2457'
+source-wordcount: '2524'
 ht-degree: 1%
 
 ---
@@ -18,6 +18,14 @@ ht-degree: 1%
 ## 全文文章的醒目提示預覽 {#highlighted-preview-article-level}
 
 <span class="preview">此頁面上的資訊是指尚未普遍提供的功能。 它只能在「預覽Sandbox」環境中使用。</span>
+
+## 2024年第4季預覽與快速發行 {#preview-and-fast-release-Q424}
+
+<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它只能在「預覽」環境中供所有客戶使用，或在「生產」環境中供啟用快速發行的客戶使用。</span>
+
+<span class="preview">如需快速發行資訊，請參閱[為您的組織啟用或停用快速發行](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
+
+<span class="preview">如需目前版本的相關資訊，請參閱[2024年第四季版本總覽](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-release-overview.md)。</span>
 
 ## 2023年第4季預覽與快速發行 {#preview-and-fast-release}
 

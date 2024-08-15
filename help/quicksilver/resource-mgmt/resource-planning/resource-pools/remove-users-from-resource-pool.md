@@ -6,7 +6,7 @@ description: 雖然資源集區中的使用者數量沒有限制，但使用者�
 author: Lisa
 feature: Resource Management
 exl-id: b888aa95-8d42-4cc3-8a99-6842435c84d2
-source-git-commit: dfafeaeeca5805c84ff646d8a7a98120d34d44d9
+source-git-commit: f18bf59202ba524173774a0215f4071bd6e77432
 workflow-type: tm+mt
 source-wordcount: '401'
 ht-degree: 1%
@@ -15,7 +15,7 @@ ht-degree: 1%
 
 # 從資源集區中移除使用者
 
-{{highlighted-preview}}
+{{preview-and-fast-release-Q424}}
 
 雖然資源集區中的使用者數量沒有限制，但使用者清單只會顯示前2000位使用者（按字母順序列出）。
 
@@ -75,6 +75,7 @@ ht-degree: 1%
    如果您想要移除與這些實體相關聯的所有使用者，請開始輸入公司、工作角色、團隊或群組的名稱。
 
    <span class="preview">預覽環境中的範例影像：<span>
+
    ![從資源集區移除使用者](assets/remove-users-from-resource-pool.png)
 
    生產環境中的影像範例：
