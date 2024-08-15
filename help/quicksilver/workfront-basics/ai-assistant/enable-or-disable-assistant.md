@@ -7,7 +7,7 @@ feature: Get Started with Workfront
 hide: true
 hidefromtoc: true
 exl-id: eec9f484-e29b-4256-b9ef-b45eb2e78eac
-source-git-commit: fdee3747716f22e291234a2e0ad626eb5a27feda
+source-git-commit: 132c701d8a00897ed7cd1704d8da2e6a24400393
 workflow-type: tm+mt
 source-wordcount: '244'
 ht-degree: 1%
@@ -52,14 +52,14 @@ ht-degree: 1%
 
 ## 啟用或停用Workfront中的AI助理
 
-AI助理預設為啟用。
+AI助理預設為停用。
 
-若要停用指定存取層級的AI小幫手：
+若要為指定的存取層級啟用AI助理：
 
 1. 按一下Adobe Workfront右上角的&#x200B;**[!UICONTROL 主功能表]**&#x200B;圖示![主功能表](/help/_includes/assets/main-menu-icon.png)，或（如果有的話）按一下左上角的&#x200B;**[!UICONTROL 主功能表]**&#x200B;圖示![主功能表](/help/_includes/assets/main-menu-icon-left-nav.png)，然後按一下&#x200B;**[!UICONTROL 設定]** ![設定圖示](/help/_includes/assets/gear-icon-setup.png)。
 1. 在左側導覽中選取&#x200B;**存取層級**。
 1. 選取您要停用AI助理的存取層級。
 1. 在「編輯存取層級」視窗中，向下捲動至視窗底部，然後按一下&#x200B;**設定其他限制……**。
-1. 在設定其他限制區域中，啟用選項&#x200B;**停用Workfront AI小幫手**。
+1. 在設定其他限制區域中，啟用選項&#x200B;**啟用Workfront AI小幫手**。
 1. 按一下「**儲存**」。
-1. 針對您想要停用AI助理的每個存取層級，重複步驟3到6。
+1. 對要啟用AI助理的每個存取層級重複步驟3至6。
