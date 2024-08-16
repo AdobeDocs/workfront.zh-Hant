@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 2d4d104a-1465-43e2-8184-83dd63d9681c
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: aee8673337b7e5294331bc2d571a6bee57114df5
 workflow-type: tm+mt
-source-wordcount: '404'
+source-wordcount: '415'
 ht-degree: 0%
 
 ---
@@ -27,6 +27,8 @@ ht-degree: 0%
 如需詳細資訊，請參閱[在Adobe Workfront中轉換問題的總覽](../../../manage-work/issues/convert-issues/convert-issues.md)或[在Adobe Workfront中轉換問題的總覽](../../../manage-work/issues/convert-issues/convert-issues.md)。
 
 ## 存取需求
+
++++ 展開以檢視本文中功能的存取需求。
 
 您必須具備下列專案才能執行本文所述的步驟：
 
@@ -53,6 +55,8 @@ ht-degree: 0%
 </table>
 
 如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
++++
 
 ## 第一：新增其他物件至自訂表單
 

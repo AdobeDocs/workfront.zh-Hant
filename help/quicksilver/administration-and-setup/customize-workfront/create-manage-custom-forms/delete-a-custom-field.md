@@ -2,15 +2,15 @@
 user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
-title: 從系統中刪除自訂欄位或Widget
+title: 從系統刪除自訂欄位或Widget
 description: 為了改善系統效能並使表單更易於使用者使用，您可能想要在不再使用自訂欄位和Widget時從系統中將其移除。
 author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: c22a7ced-da81-40b5-bb4d-69d59b855add
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: 3f7f4557c18bbb91ece850f910350d926a9e84bf
 workflow-type: tm+mt
-source-wordcount: '552'
+source-wordcount: '563'
 ht-degree: 0%
 
 ---
@@ -28,6 +28,8 @@ ht-degree: 0%
 >或者，為了因應措施，您可以避免遺失不再使用的欄位中的資料，請參閱[移除自訂欄位，而不會遺失使用者在此文章中輸入的資料](#remove-a-custom-field-without-losing-data-that-users-have-entered)。
 
 ## 存取需求
+
++++ 展開以檢視本文中功能的存取需求。
 
 您必須具備下列專案才能執行本文所述的步驟：
 
@@ -54,6 +56,8 @@ ht-degree: 0%
 </table>
 
 如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
++++
 
 ## 從系統中刪除自訂欄位或Widget
 

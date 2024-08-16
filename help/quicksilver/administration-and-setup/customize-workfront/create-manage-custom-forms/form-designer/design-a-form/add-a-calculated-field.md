@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 407aae49-4bc3-4364-a794-7e170a57a6d3
-source-git-commit: 420c26c22cb1e6c0eab0f4cb0e211922d9ed2350
+source-git-commit: 3f7f4557c18bbb91ece850f910350d926a9e84bf
 workflow-type: tm+mt
-source-wordcount: '2353'
+source-wordcount: '2319'
 ht-degree: 0%
 
 ---
@@ -40,6 +40,8 @@ ht-degree: 0%
 
 ## 存取需求
 
++++ 展開以檢視本文中功能的存取需求。
+
 您必須具備下列專案才能執行本文所述的步驟：
 
 <table style="table-layout:auto"> 
@@ -47,21 +49,26 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader"> <p>Adobe Workfront計畫*</p> </td> 
+   <td role="rowheader"> <p>Adobe Workfront計畫</p> </td> 
    <td>任何</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront授權*</td> 
-   <td>計劃</td> 
+   <td role="rowheader">Adobe Workfront授權</td> 
+   <td>
+   <p>新增：標準</p>
+   <p>或</p>
+   <p>目前：計畫</p></td>
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">存取層級設定*</td> 
-   <td> <p>管理自訂表單的存取權</p> <p>如需Workfront管理員如何授予此存取權的相關資訊，請參閱<a href="/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">授予使用者對特定區域的管理存取權</a>。</p> </td> 
-  </tr>  
+   <td role="rowheader">存取層級設定</td> 
+   <td> <p>管理自訂表單的存取權</p> </td> 
+  </tr> 
  </tbody> 
 </table>
 
-&#42;若要瞭解您擁有的計畫、授權型別或存取層級設定，請連絡您的Workfront管理員。
+如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
++++
 
 ## 在自訂表單中重複使用現有的計算自訂欄位
 
@@ -81,7 +88,7 @@ ht-degree: 0%
 
 若要重複使用現有的計算自訂欄位：
 
-1. 按一下Adobe Workfront右上角的&#x200B;**主要功能表**&#x200B;圖示![](assets/main-menu-icon.png)，然後按一下&#x200B;**設定** ![](assets/gear-icon-settings.png)。
+{{step-1-to-setup}}
 
 1. 按一下左側面板中的&#x200B;**自訂Forms**。
 
@@ -119,7 +126,7 @@ ht-degree: 0%
 >
 >在建立新的計算自訂欄位之前，請識別要包含的現有欄位，以確定Workfront中存在計算所需的資料。
 
-1. 按一下Adobe Workfront右上角的&#x200B;**主要功能表**&#x200B;圖示![](assets/main-menu-icon.png)，然後按一下&#x200B;**設定** ![](assets/gear-icon-settings.png)。
+{{step-1-to-setup}}
 
 1. 按一下左側面板中的&#x200B;**自訂Forms**。
 

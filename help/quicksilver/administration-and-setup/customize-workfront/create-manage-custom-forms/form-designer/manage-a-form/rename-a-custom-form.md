@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 8c49c2c8-4056-46a2-9ede-efb91ff237e5
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: c1bc2832d1c52885e737056172e7aec93a951e6c
 workflow-type: tm+mt
-source-wordcount: '194'
+source-wordcount: '205'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,8 @@ ht-degree: 0%
 您可以使用表單設計工具建立自訂表單後，隨時重新命名。
 
 ## 存取需求
+
++++ 展開以檢視本文中功能的存取需求。
 
 您必須具備下列專案才能執行本文所述的步驟：
 
@@ -46,6 +48,8 @@ ht-degree: 0%
 </table>
 
 如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
++++
 
 ## 使用表單設計工具重新命名自訂表單
 

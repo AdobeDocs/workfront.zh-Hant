@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: a264512f-54ab-426e-8dd7-5602ece81c57
-source-git-commit: 6c43d836c24f893d1b7d7d01c1dd0b1cc3fba357
+source-git-commit: c1bc2832d1c52885e737056172e7aec93a951e6c
 workflow-type: tm+mt
-source-wordcount: '1408'
+source-wordcount: '1419'
 ht-degree: 1%
 
 ---
@@ -20,6 +20,8 @@ ht-degree: 1%
 您可以設定自訂表單的存取權，以控制誰（人員、角色、群組、團隊、公司）可以檢視、共用及編輯該表單。
 
 ## 存取需求
+
++++ 展開以檢視本文中功能的存取需求。
 
 您必須具備下列專案才能執行本文所述的步驟：
 
@@ -46,6 +48,8 @@ ht-degree: 1%
 </table>
 
 如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
++++
 
 ## 存取自訂表格 {#access-to-custom-forms}
 

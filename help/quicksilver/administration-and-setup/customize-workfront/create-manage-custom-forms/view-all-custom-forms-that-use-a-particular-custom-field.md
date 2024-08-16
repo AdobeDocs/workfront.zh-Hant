@@ -2,15 +2,15 @@
 user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
-title: 檢視使用特定自訂欄位或Widget的所有自訂表單
+title: 檢視使用特定自訂欄位或Widget的所有自訂Forms
 description: 您可以找出哪些自訂表單正在使用您要變更或刪除的自訂欄位或Widget。 請務必評估這些自訂表單是否需要調整，才能在變更或刪除欄位或Widget後繼續正常運作。
 author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 40722f2b-f8b2-4dc5-805e-2b434a0d46c3
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: c1bc2832d1c52885e737056172e7aec93a951e6c
 workflow-type: tm+mt
-source-wordcount: '272'
+source-wordcount: '283'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,8 @@ ht-degree: 0%
 如需自訂表單中自訂欄位和Widget的相關資訊，請參閱[使用表單設計工具設計表單](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。
 
 ## 存取需求
+
++++ 展開以檢視本文中功能的存取需求。
 
 您必須具備下列專案才能執行本文所述的步驟：
 
@@ -48,6 +50,8 @@ ht-degree: 0%
 </table>
 
 如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
++++
 
 ## 瞭解哪些自訂表單使用特定自訂欄位或Widget
 

@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 6d9a409d-8d16-4c58-ad02-f60aa1ac1714
-source-git-commit: 35de4535970d5cd15fcd68f79bf849803f94a77e
+source-git-commit: c1bc2832d1c52885e737056172e7aec93a951e6c
 workflow-type: tm+mt
-source-wordcount: '356'
+source-wordcount: '367'
 ht-degree: 0%
 
 ---
@@ -24,6 +24,8 @@ ht-degree: 0%
 >如果自訂表單已停用，但仍屬於佇列主題或請求佇列定義，則會將其附加到新請求。 如果您不希望表單出現在請求中，則必須從請求佇列中手動將其移除。
 
 ## 存取需求
+
++++ 展開以檢視本文中功能的存取需求。
 
 您必須具備下列專案才能執行本文所述的步驟：
 
@@ -50,6 +52,8 @@ ht-degree: 0%
 </table>
 
 如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
++++
 
 ## 停用自訂表單
 

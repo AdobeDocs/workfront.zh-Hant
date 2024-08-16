@@ -1,5 +1,5 @@
 ---
-title: 使用表單設計工具設計表單
+title: 使用Designer表單設計表單
 user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: 1b3e0ab2d8ee37b7583d0b8fb0472b2fc9623da0
+source-git-commit: c1bc2832d1c52885e737056172e7aec93a951e6c
 workflow-type: tm+mt
-source-wordcount: '5529'
+source-wordcount: '5540'
 ht-degree: 5%
 
 ---
@@ -20,6 +20,8 @@ ht-degree: 5%
 您可以使用表單設計工具來設計自訂表單。 您可以將自訂表單附加至不同的Workfront物件，以擷取這些物件的相關資料。
 
 ## 存取需求
+
++++ 展開以檢視本文中功能的存取需求。
 
 您必須具備下列專案才能執行本文所述的步驟：
 
@@ -46,6 +48,8 @@ ht-degree: 5%
 </table>
 
 如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
++++
 
 ## 開始設計自訂表單
 

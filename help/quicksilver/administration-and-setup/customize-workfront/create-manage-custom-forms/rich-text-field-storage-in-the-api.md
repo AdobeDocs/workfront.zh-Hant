@@ -4,11 +4,11 @@ product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
 title: API中的RTF文字欄位儲存
 description: 如果專案、問題或任務等物件包含RTF文字，則會透過Workfront API將其儲存為引數值以供存取。
-author: Caroline
+author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 2e4b18be-14bb-4d47-8e63-e2f4a5dc376f
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+source-git-commit: 3f7f4557c18bbb91ece850f910350d926a9e84bf
 workflow-type: tm+mt
 source-wordcount: '174'
 ht-degree: 0%
