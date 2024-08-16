@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: 98ba6e1c1624639ba45ccf2cc3fd8e29bc716f89
+source-git-commit: 57e0fe65180cec3fab5cb10b3afbc0ac0a1dbb55
 workflow-type: tm+mt
-source-wordcount: '1855'
+source-wordcount: '1874'
 ht-degree: 2%
 
 ---
@@ -89,8 +89,9 @@ Adobe Workfront規劃是Adobe Workfront的新產品。 Workfront Planning的目�
 | 共用檢視 | ✓ (A) | |  |
 | 與外部資源公開共用檢視 | ✓ (A) | |  |
 | 重複檢視 | ✓ (A) | |  |
-| 提交請求 |                               |                                  | ✓ (A) |
-| 創意簡報 |                               |                                  | ✓ (A) |
+| 提交請求 |                               | ✓ (A) |                 |
+| 將記錄詳細資料匯出至Word |                               | ✓ (A) |                 |
+| 將記錄詳細資料匯出至PDF |                               |                                  | ✓ (A) |
 | 自訂記錄的顏色和圖示 | ✓ (A) |                                  |                 |
 | 新增註解至記錄 | ✓ (A) |                                  |                 |
 | 接收應用程式內通知 | ✓ (A) |                                  |                 |
@@ -104,8 +105,9 @@ Adobe Workfront規劃是Adobe Workfront的新產品。 Workfront Planning的目�
 | 從Workfront物件連線Planning記錄 | ✓ (A) |                                  |                 |
 | Workfront規劃公開API | ✓ (A) |                                  |                 |
 | Workfront Planning AI助理* | ✓ (A) |                                  |                 |
+| 報告Workfront Planning資訊（畫布控制面板） |                               | ✓ (A) |                 |
 
-*AI助理已暫時移除，並將在稍後返回。
+*AI助理已暫時移除，並將在稍後提供。
 
 ## 為您的Workfront例項中的使用者啟用Adobe Workfront Planning
 

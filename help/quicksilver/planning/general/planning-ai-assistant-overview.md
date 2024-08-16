@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53f57953-fb9f-47ef-be18-a7164c844682
-source-git-commit: 98ba6e1c1624639ba45ccf2cc3fd8e29bc716f89
+source-git-commit: 57e0fe65180cec3fab5cb10b3afbc0ac0a1dbb55
 workflow-type: tm+mt
-source-wordcount: '657'
+source-wordcount: '660'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
-><span class="preview">已暫時移除AI小幫手，並將在稍後返回。</span>
+><span class="preview">Workfront AI助理已暫時移除，並將在稍後提供。</span>
 >本文資訊請參考Adobe Workfront規劃和Workfront AI Assistant (beta)，這些都是Adobe Workfront的新產品。
 >
 >目前，Workfront規劃處於搶先使用階段，而Workfront AI Assistant則處於測試階段。

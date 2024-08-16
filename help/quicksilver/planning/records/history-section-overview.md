@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 8258589f-a7c3-4d77-9abe-c99e9184bd21
-source-git-commit: c593eab154a0942995b1f913e7189450913faac0
+source-git-commit: 57e0fe65180cec3fab5cb10b3afbc0ac0a1dbb55
 workflow-type: tm+mt
-source-wordcount: '472'
+source-wordcount: '462'
 ht-degree: 3%
 
 ---
@@ -42,8 +42,7 @@ ht-degree: 3%
 1. 按一下記錄型別卡。
 記錄型別頁面隨即開啟，並顯示該型別的所有記錄。
 
-1. 從&#x200B;**檢視**&#x200B;下拉式功能表中選擇表格檢視。
-1. 按一下表格檢視中的記錄名稱。
+1. 從任何檢視中，按一下記錄名稱。
 
    記錄的頁面隨即開啟。 「註解」區域預設會在右側面板中開啟。
 1. 按一下&#x200B;**顯示歷程記錄**&#x200B;圖示![](assets/show-history-icon.png)。 對記錄欄位所做的所有變更都會顯示在右側面板中，從最近的變更開始。
