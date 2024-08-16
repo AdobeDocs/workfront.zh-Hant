@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: d86cf3f9-cacc-4457-acb3-a5122ae91be8
-source-git-commit: 5c7b60ac5b78bd065ffc270588ec72ab3eb2f41d
+source-git-commit: d56a4721353f8b7db856eab5a3ae3b53396bd079
 workflow-type: tm+mt
-source-wordcount: '653'
+source-wordcount: '663'
 ht-degree: 1%
 
 ---
@@ -97,7 +97,9 @@ ht-degree: 1%
 
 ## 關於Workfront物件Planning區段的考量事項
 
-* 首先，您必須將記錄型別連線至Workfront物件型別，並將記錄連線至Workfront物件，才能在Workfront中檢視它們。
+* Workfront Planning記錄型別必須連線至Workfront物件型別。
+
+* 至少必須將一個記錄連線到一個Workfront物件，才能在Workfront中檢視記錄。
 
   如需詳細資訊，請參閱下列文章：
 

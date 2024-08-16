@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
-source-git-commit: 5c7b60ac5b78bd065ffc270588ec72ab3eb2f41d
+source-git-commit: d56a4721353f8b7db856eab5a3ae3b53396bd079
 workflow-type: tm+mt
-source-wordcount: '1055'
+source-wordcount: '1054'
 ht-degree: 0%
 
 ---
@@ -145,11 +145,11 @@ ht-degree: 0%
 
 1. （選擇性）按一下記錄預覽右上角的&#x200B;**在新索引標籤中開啟**&#x200B;圖示![](assets/open-details-in-a-new-tab-icon.png)，以在新索引標籤中開啟記錄的頁面。
 
-   記錄頁面隨即開啟。
+   記錄頁面隨即開啟。<!--The Details tab opens by default. -->
 
    ![](assets/details-page.png)
 
-1. 在記錄預覽或頁面中，將滑鼠移至欄位左側的空白區域，然後按一下&#x200B;**新增區段**&#x200B;圖示![](assets/add-section-icon.png)以新增區段。
+1. 在<!--**Details** tab of the-->記錄預覽或頁面中，暫留在欄位左側的空白區域上，然後按一下&#x200B;**新增區段**&#x200B;圖示![](assets/add-section-icon.png)以新增區段。
 1. 按一下區段名稱內部，將&#x200B;**未命名的區段**&#x200B;取代為名稱，然後按一下[輸入]。 在區段下顯示的欄位會自動成為新區段的一部分。
 1. 開始將欄位拖放至新區段，如本文中記錄預覽或詳細資訊頁面](#rearrange-fields-in-the-record-preview-or-details-page)中的區段[重新排列欄位中所述。
 
@@ -182,7 +182,13 @@ ht-degree: 0%
 
    對區段和欄位順序的所有變更會自動儲存。
 
-## 重新排列記錄預覽或詳細資訊頁面中的欄位
+<!--1. (Optional) Click the **Connections** tab. All records or objects that are connected to the selected record display under the names of the record type, or the application they belong to. 
+
+      ![](assets/connections-tab-on-record-in-workfront-planning.png)
+
+      For information about connecting records from the Connections tab, see [Connect records](/help/quicksilver/planning/records/connect-records.md). -->
+
+## 重新排列記錄預覽或頁面中的欄位
 
 {{step1-to-planning}}
 

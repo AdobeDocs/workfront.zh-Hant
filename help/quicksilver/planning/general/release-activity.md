@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: f252140e4fec01c7bb8092804532d79954cef618
+source-git-commit: 98ba6e1c1624639ba45ccf2cc3fd8e29bc716f89
 workflow-type: tm+mt
-source-wordcount: '5851'
+source-wordcount: '5891'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,40 @@ ht-degree: 0%
 # Adobe Workfront Planning目前發行活動
 
 <!--this article is linked to the WF Planning landing page - do not change URL or move it; send the team a new URL after we add the redirects for this page-->
+
+<!--
+At GA release, replace the Important below and all the text that follows before the weekly releases with this:
+
+(***********At GA - change the title to: Adobe Workfront Planning early access release activity during 2024*******)
+
+Also update the metadata: 
+
+Adobe Workfront Planning capabilities are currently available to all customers. You must purchase a Workfront Planning license, in addition to a Workfront license to be able to access these capabilities.
+
+
+>[!IMPORTANT]
+>
+>The information in this article refers to Adobe Workfront Planning, a new offering from Adobe Workfront. 
+>
+>You must purchase a Workfront Planning license, in addition to a Workfront license to be able to access and use the Workfront Planning capabilities. 
+>
+>For more information about Workfront Planning, see [Adobe Workfront Planning overview](/help/quicksilver/planning/general/planning-overview.md).
+>
+
+## Workfront Planning release timeline
+
+| Time               | Release                                 |
+|--------------------|-----------------------------------------|
+| 2023               | Workfront Planning beta release         |
+| First half of 2024 | Workfront Planning early release        |
+| August 28, 2024    | Workfront Planning general availability |
+
+The following articles describe the features released during the release for Workfront Planning: 
+
+* [Adobe Workfront Planning release activity archives for 2023](/help/quicksilver/planning/general/release-activity-archives-2023.md) lists features released during the beta release, in 2023.
+* This article lists the features that were released to Workfront Planning during the early access period in 2024.
+* `[]()` lists features released after the general availability release on August 28, 2024. 
+-->
 
 >[!IMPORTANT]
 >
@@ -74,9 +108,31 @@ Prior to this enhancement, you could only connect record types that belonged to 
 
  For information, see Edit record types (help/quicksilver/planning/architecture/edit-record-types.md). 
 
+
+### New Connections tab in the record details area
+
+Production: <date> 
+
+Preview: To be determined 
+
+We have added a new tab on the record's preview and page. Now, when you click the record name in a view, the record's preview and the record's page display the following tabs: 
+
+* **Details**: Displays all record fields, thumbnail, and cover image. 
+
+* **Connections**: Displays all record or object types and their records or objects that are connected to the selected record. You can add more records to the record or object types that already display connected records from the Connections tab.  
+
+For information, see [Connect records](/help/quicksilver/planning/records/connect-records.md).  
+
 -->
 
 ## 2024年8月12日起一週
+
+### AI助理已暫時移除
+
+生產： 2024年8月12日
+預覽：待定
+
+AI助理已暫時移除，並將在稍後返回。 如需AI助理的詳細資訊，請參閱[Adobe Workfront Planning AI助理概述](/help/quicksilver/planning/general/planning-ai-assistant-overview.md)。
 
 ### 保留時間軸檢視中的上次檢視時間範圍
 

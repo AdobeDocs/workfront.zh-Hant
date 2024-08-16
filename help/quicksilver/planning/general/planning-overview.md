@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: f252140e4fec01c7bb8092804532d79954cef618
+source-git-commit: 98ba6e1c1624639ba45ccf2cc3fd8e29bc716f89
 workflow-type: tm+mt
-source-wordcount: '1836'
+source-wordcount: '1855'
 ht-degree: 2%
 
 ---
@@ -103,6 +103,9 @@ Adobe Workfront規劃是Adobe Workfront的新產品。 Workfront Planning的目�
 | 從Workfront物件存取Planning記錄 | ✓ (A) |                                  |                 |
 | 從Workfront物件連線Planning記錄 | ✓ (A) |                                  |                 |
 | Workfront規劃公開API | ✓ (A) |                                  |                 |
+| Workfront Planning AI助理* | ✓ (A) |                                  |                 |
+
+*AI助理已暫時移除，並將在稍後返回。
 
 ## 為您的Workfront例項中的使用者啟用Adobe Workfront Planning
 

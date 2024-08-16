@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
-source-git-commit: f252140e4fec01c7bb8092804532d79954cef618
+source-git-commit: ec3c9668154cdfdd509d37e9621af717f1363d15
 workflow-type: tm+mt
-source-wordcount: '2495'
+source-wordcount: '2292'
 ht-degree: 1%
 
 ---
@@ -31,6 +31,8 @@ hide: yes
 {{planning-important-intro}}
 
 您可以將Adobe Workfront Planning記錄彼此連線，或從其他應用程式連線至物件。
+
+本文會介紹如何連線記錄。 如需有關連線記錄的一般資訊，請參閱[連線記錄概觀](/help/quicksilver/planning/records/connected-records-overview.md)。
 
 您必須先將兩個記錄型別彼此連線，或將記錄型別從另一個應用程式連線到物件型別。 這會建立連結的記錄欄位。 然後，您可以使用連結的記錄欄位，將記錄彼此連線，或將記錄從其他應用程式連線到其他物件。
 
@@ -131,33 +133,9 @@ hide: yes
 >
 >If you don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see [Create or modify custom access levels](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md). -->
 
-## 有關連線記錄的考量事項
+## 連線記錄的先決條件
 
-* 在您連線記錄型別之後，連線的記錄型別會在它們所連結的記錄型別表格中，以及在記錄的頁面上，顯示為連結的記錄欄位。
-* 您可以從連結記錄欄位中瀏覽並新增連結記錄的記錄和物件以及物件型別。
-* 您可以在連結的記錄型別表格中，新增連結的記錄型別的欄位（查詢欄位）。
-
-  您可以在要連結的記錄型別表格中，新增您要連結之記錄型別的欄位（查詢欄位）。
-
-  例如，如果您從促銷活動的記錄型別連結產品的記錄型別，則可以顯示促銷活動的產品欄位，以及產品的促銷活動欄位。
-* 您無法手動更新您連結之記錄中的查閱欄位值。
-
-  連結記錄的查閱欄位值會填入您從原始記錄或物件自動連結的Workfront Planning記錄。
-
-* 有權存取Workfront Planning和「檢視」或擁有工作區較高許可權的所有人，都可以看見您在記錄之間或記錄與其他應用程式物件之間建立的連線。 無論連線至應用程式的許可權為何，使用者都可以檢視連線的記錄和物件。
-* 如果您對連線記錄所在的工作區具有管理許可權，則可以檢視及編輯其他人的連線。
-* 您可以將一個記錄連線到另一個應用程式的一個或多個物件。
-* 您可以在下列區域將物件從Workfront連結至Workfront Planning記錄：
-   * 從Workfront Planning中的Planning記錄。
-   * 從Workfront物件的Planning區段。
-
-* 您可以在下列區域將Workfront Planning記錄連線至Experience Manager Assets：
-
-   * 從Workfront Planning中的Planning記錄
-
-## 連結記錄的先決條件
-
-若要將記錄與其他記錄或物件連結，您必須具備下列專案：
+若要將記錄與其他記錄或物件連線，您必須具備下列條件：
 
 * 至少一個工作區、記錄型別和記錄。
 
@@ -171,7 +149,15 @@ hide: yes
 
 ## 從Workfront Planning連線記錄
 
-### 連線Adobe Workfront Planning記錄
+您可以在下列區域中從Workfront Planning連線記錄：
+
+* 從Workfront Planning中，表格檢視中連線欄位的Planning記錄。
+* 從Workfront Planning中，記錄預覽或連線記錄欄位頁面的Planning記錄。
+  <!--
+  * From a Planning record in Workfront Planning in the record preview or page in the connected record fields on the Details tab.
+  * From a Planning record in the record's preview or page on the Connections tab.  -->
+
+### 從表格檢視或<!--Details tab of the-->記錄頁面連線Adobe Workfront Planning記錄
 
 {{step1-to-planning}}
 
@@ -232,7 +218,7 @@ hide: yes
 
    請注意，**促銷活動**&#x200B;連結的記錄欄位會顯示您在「產品記錄型別」頁面中連結至產品的促銷活動名稱。 更新行銷活動資訊會自動更新產品記錄型別的行銷活動連結記錄欄位。
 
-### 將Adobe Workfront Planning記錄連線至Workfront物件
+### 從表格檢視或<!--Details tab of the-->記錄頁面將Adobe Workfront Planning記錄連線至Workfront物件
 
 <!--when we will have more applications to link to from Planning, change the title to something like: Connect Workfront Planning records to objects from other applications-->
 
@@ -311,7 +297,7 @@ hide: yes
    這會新增或移除Workfront Planning記錄中的連結欄位。 與已移除欄位相關聯的資訊仍保留在Workfront中。
 
 
-### 將Workfront Planning記錄連線至Adobe Experience Manager物件
+### 從表格檢視或<!--Details tab of the-->記錄頁面將Workfront Planning記錄連線至Adobe Experience Manager物件
 
 <!--when we will have more applications to link to from Planning, change the title to something like: Connect Workfront Planning records to objects from other applications-->
 
@@ -327,6 +313,7 @@ hide: yes
 >
 >當您的Experience Manager Assets管理員透過Workfront與Workfront之間的整合設定中繼資料對應時，可從Adobe Experience Manager Assets存取Planning記錄及其欄位。 如需詳細資訊，請參閱[設定Adobe Workfront與Experience Manager Assets之間的資產中繼資料對應](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping.html?lang=en)。
 
+若要將記錄與AEM資產連線：
 
 {{step1-to-planning}}
 
@@ -403,12 +390,41 @@ hide: yes
 
    這會新增或移除記錄中的連結欄位。 與已移除欄位相關的資訊仍保留在Adobe體驗Assets中。
 
+<!--
+### Connect Workfront Planning records from the Connections tab of the record page
+
+1. Go to any view of a record type that has been connected to other record types or object types from other applications. 
+1. Follow the steps described in the previous subsections to find a record in the view that you want to connect with other records or objects. 
+1. Click the name of a record. 
+
+    The preview page opens. 
+1. (Optional) Click the **Open in new tab** icon ![](assets/open-details-in-a-new-tab-icon.png) to open the record's page. 
+1. Click the **Connections** tab in the record's preview or page. 
+
+    ![](assets/connections-tab-on-record-in-workfront-planning.png)
+
+    All record or object types that are linked to the selected record type display as sections. Connected records or objects display under their record or object type names on cards. 
+
+1. (Optional) Click the downward-pointing arrow to the left of a section to collapse it. 
+
+1. (Conditional) If there are records or objects connected to the selected record, click **Connect** to add more records or objects of the same type. 
+    The Connect button does not display if there are no records currently connected to the selected record. 
+1. Follow the steps describes in the previous sections to connect records from Workfront Planning or objects from Workfront or AEM Assets. 
+    The records and objects are added immediately.
+1. (Optional) Hover over the connected card of a record or object, then click the **Disconnect record** icon to disconnect it from the selected record. 
+
+    ![](assets/disconnect-record-icon-with-tooltip-on-connections-tab.png)
+
+    The record is immediately disconnected from all areas of Workfront Planning or from other applications where it might show as connected. Any lookup field values are also removed. 
+
+-->
+
 ## 從Workfront物件連線記錄
 
 您必須具備下列專案，才能從Workfront物件連線Workfront Planning記錄：
 
-* 記錄型別與Workfort物件型別之間的連線。
+* 在Workfront Planning中建立的記錄型別與Workfort物件型別之間的連線。
 * 記錄和Workfront物件之間至少有一個連線。
-* 您的Workfront或群組管理員必須將Planning區段新增至可以連線至Planning記錄型別的Workfront物件型別。
+* 您的Workfront或群組管理員必須將Planning區段新增至可以連線至配置範本中Planning記錄型別的Workfront物件型別。
 
 如需詳細資訊，請參閱[在Adobe Workfront物件的Planning區段管理記錄](/help/quicksilver/planning/records/manage-records-in-planning-section.md)。
