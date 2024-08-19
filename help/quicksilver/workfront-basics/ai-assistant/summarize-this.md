@@ -7,9 +7,9 @@ feature: Get Started with Workfront
 hide: true
 hidefromtoc: true
 exl-id: b7d4d9a5-cdc5-43a6-a58f-57480f702034
-source-git-commit: 6dd2fd4d688514540265fa3b0d2634194fb6a7ab
+source-git-commit: 513d33c653901394f35c342d8dbf89906017fb3f
 workflow-type: tm+mt
-source-wordcount: '186'
+source-wordcount: '234'
 ht-degree: 2%
 
 ---
@@ -32,6 +32,31 @@ AI助理可以總結下列物件：
 >AI Assistant摘要功能與「摘要」面板不同。
 >
 >如需Workfront中摘要面板的資訊，請參閱[摘要概觀](/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md)。
+
+## 存取需求
+
+您必須具有下列存取權才能執行本文中的步驟：
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront計畫</td> 
+   <td><p>新增：任何</p>
+       <p>或</p>
+       <p>目前：無法使用</p></td>
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront授權</td> 
+   <td><p>新增：標準</p>
+       <p>或</p>
+       <p>目前：無法使用</p></td>
+  </tr> 
+ </tbody> 
+</table>
+
+如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 ## 摘要物件
 

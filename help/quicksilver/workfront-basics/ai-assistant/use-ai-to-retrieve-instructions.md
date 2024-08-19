@@ -7,9 +7,9 @@ feature: Get Started with Workfront
 hide: true
 hidefromtoc: true
 exl-id: c7460e8f-a7ae-415a-8db0-29736e8be0f8
-source-git-commit: 32f2c7227ba5851f5a9de85bd350fe9093a5fc8f
+source-git-commit: 513d33c653901394f35c342d8dbf89906017fb3f
 workflow-type: tm+mt
-source-wordcount: '202'
+source-wordcount: '250'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,31 @@ ht-degree: 0%
 AI Assistant可以從Workfront檔案中尋找資訊，讓您無須造訪Adobe Experience League即可取得所需的協助。
 
 例如，如果您詢問AI助理「如何建立請求佇列」，它會傳回建立請求的指示，該指示是從文章[建立和管理請求佇列](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-request-queue.md)中提取。
+
+## 存取需求
+
+您必須具有下列存取權才能執行本文中的步驟：
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront計畫</td> 
+   <td><p>新增：任何</p>
+       <p>或</p>
+       <p>目前：無法使用</p></td>
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront授權</td> 
+   <td><p>新增：標準</p>
+       <p>或</p>
+       <p>目前：無法使用</p></td>
+  </tr> 
+ </tbody> 
+</table>
+
+如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 ## 從AI助理取得資訊
 

@@ -7,9 +7,9 @@ feature: Get Started with Workfront
 hide: true
 hidefromtoc: true
 exl-id: eec9f484-e29b-4256-b9ef-b45eb2e78eac
-source-git-commit: 132c701d8a00897ed7cd1704d8da2e6a24400393
+source-git-commit: 592041f8d53004a6261fd743ea65ea323624df69
 workflow-type: tm+mt
-source-wordcount: '244'
+source-wordcount: '265'
 ht-degree: 1%
 
 ---
@@ -27,19 +27,25 @@ ht-degree: 1%
 
 身為Workfront管理員，您可以控制組織中哪些使用者已啟用AI助理。 這項作業可透過存取層級來管理。
 
+## 存取需求
+
+您必須具有下列存取權才能執行本文中的步驟：
+
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront計畫</td> 
-   <td>任何</td> 
+   <td><p>新增：任何</p>
+       <p>或</p>
+       <p>目前：無法使用</p></td>
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront授權</td> 
    <td><p>新增：標準</p>
        <p>或</p>
-       <p>目前：計畫</p></td>
+       <p>目前：無法使用</p></td>
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定</td> 
