@@ -6,9 +6,9 @@ description: 您可以列印校樣摘要、將其儲存為PDF，或將其匯出�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 129c8e6b-5c66-445b-a5d0-7b1460aeabd6
-source-git-commit: 1b85267e811f5832480316be5322ee819abaf190
+source-git-commit: 918d51e3b832a3104777346cebd54a4830e2d826
 workflow-type: tm+mt
-source-wordcount: '758'
+source-wordcount: '765'
 ht-degree: 1%
 
 ---
@@ -56,7 +56,8 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->您無法同時從檔案清單列印多個校訂摘要。
+>* 不支援大於1 GB的摘要。
+>* 您無法同時從檔案清單列印多個校訂摘要。
 
 1. 在包含校樣的檔案清單中，將滑鼠移至包含檔案的列，然後按一下&#x200B;**列印摘要**。
 
