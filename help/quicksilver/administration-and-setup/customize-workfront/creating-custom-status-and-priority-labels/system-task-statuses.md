@@ -5,11 +5,11 @@ product-area: system-administration;projects
 navigation-topic: create-custom-status-and-priority-labels
 title: 系統任務狀態
 description: Workfront需要三種內建的系統任務狀態，這表示您可以解除鎖定、重新命名和重新排序這些狀態，但無法隱藏或刪除它們。 您也可以新增新的系統任務狀態，以符合組織中的需求。 變更任務狀態通常是手動程式，但有時任務狀態會根據系統中發生的其他因素自動變更。
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: b8c751c3-aed3-4836-a888-f3f8a5f08421
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: c3bfaf666fb0ceb43bcabda13949b27b567b5d08
 workflow-type: tm+mt
 source-wordcount: '406'
 ht-degree: 0%

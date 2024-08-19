@@ -4,13 +4,13 @@ product-area: system-administration;projects
 navigation-topic: create-custom-status-and-priority-labels
 title: 使用自訂狀態作為預設狀態
 description: 當自訂狀態設定為預設狀態時，新的預設狀態會以各種方式在整個系統中使用。 其使用方式取決於其設定為預設系統層級狀態，還是預設群組層級狀態。
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 5b137cee-e03a-4176-a683-b77f2b27f5ce
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: c3bfaf666fb0ceb43bcabda13949b27b567b5d08
 workflow-type: tm+mt
-source-wordcount: '834'
+source-wordcount: '830'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,8 @@ ht-degree: 0%
 當自訂狀態設定為預設狀態時，新的預設狀態會以各種方式在整個系統中使用。 其使用方式取決於其設定為預設系統層級狀態，還是預設群組層級狀態。
 
 ## 存取需求
+
++++ 展開以檢視本文中功能的存取需求。
 
 您必須具有下列存取權才能執行本文中的步驟：
 
@@ -41,6 +43,8 @@ ht-degree: 0%
   </tr> 
  </tbody> 
 </table>
+
++++
 
 ## 自訂預設系統層級狀態
 
@@ -76,7 +80,8 @@ ht-degree: 0%
 
 ## 將自訂狀態設定為預設狀態
 
-1. 按一下Adobe Workfront右上角的&#x200B;**主要功能表**&#x200B;圖示![](assets/main-menu-icon.png)，然後按一下&#x200B;**設定** ![](assets/gear-icon-settings.png)。
+{{step-1-to-setup}}
+
 1. 在左側面板中，按一下&#x200B;**專案偏好設定** > **狀態**。
 1. （視條件而定）如果您正在設定群組的預設狀態，請在右上角的選單中開始輸入群組的名稱，然後在其出現時選取它。
 1. 視您要設定為預設狀態的狀態型別而定，開啟&#x200B;**專案**、**任務**&#x200B;或&#x200B;**問題**&#x200B;標籤。

@@ -4,25 +4,25 @@ product-area: system-administration
 navigation-topic: create-custom-status-and-priority-labels
 title: 使用特定狀態列出具有未決核准流程的物件
 description: 如果您嘗試刪除狀態，則錯誤訊息可能會告訴您無法刪除該狀態，因為該狀態正用於系統中物件的未決核准流程。 如果您想要尋找並檢閱這些物件以決定您需要做什麼，您可以執行列出這些物件的報告。
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 52dd8750-9a6f-4ac6-9779-ba4ea9b6f4e0
-source-git-commit: e20934501c2117455ca7950834d868f78576dee7
+source-git-commit: c3bfaf666fb0ceb43bcabda13949b27b567b5d08
 workflow-type: tm+mt
-source-wordcount: '483'
+source-wordcount: '444'
 ht-degree: 0%
 
 ---
 
 # 使用特定狀態列出具有未決核准流程的物件
 
-如果您嘗試刪除狀態，則錯誤訊息可能會告訴您無法刪除該狀態，因為它在您的系統中至少有一個未決核准流程中。 您可以執行報告，列出物件在擱置核准程式中的位置，然後決定您需要為每個物件做什麼。
+如果您嘗試刪除狀態，則錯誤訊息可能會告訴您無法刪除該狀態，因為該狀態在您的系統中至少有一個未決核准流程。 您可以執行報告，列出物件在擱置核准程式中的位置，然後決定您需要為每個物件做什麼。
 
 ## 在標準模式中
 
-1. 前往全域導覽列中的&#x200B;**報表**&#x200B;區域，然後選取&#x200B;**報表**&#x200B;標籤。
-1. 按一下右上角的「主要功能表」圖示![](assets/main-menu-icon.png)，然後按一下&#x200B;**報表**。
+{{step1-to-reports}}
+
 1. 按一下&#x200B;**新報告**，然後選取&#x200B;**專案報告**、**任務報告**&#x200B;或&#x200B;**問題報告**。
 1. 開啟&#x200B;**篩選器**&#x200B;索引標籤。
 1. 按一下&#x200B;**新增篩選規則**，然後執行下列動作以設定規則：
@@ -42,7 +42,8 @@ ht-degree: 0%
 
 ## 在文字模式中
 
-1. 按一下右上角的「主要功能表」圖示![](assets/main-menu-icon.png)，然後按一下&#x200B;**報表**。
+{{step1-to-reports}}
+
 1. 按一下&#x200B;**新報告**，然後選取&#x200B;**專案報告**、**任務報告**&#x200B;或&#x200B;**問題報告**。
 1. 開啟&#x200B;**篩選器**&#x200B;索引標籤。
 1. 選取&#x200B;**切換到文字模式**。

@@ -4,18 +4,18 @@ user-type: administrator
 product-area: system-administration;projects
 navigation-topic: create-custom-status-and-priority-labels
 description: 您的使用者可使用嚴重程度來定義問題的嚴重程度。 您可以自訂Adobe Workfront中現有的五種預設嚴重程度，或為使用者建立新的嚴重程度。
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 0331be3c-a2d8-4788-a41a-5e971fb4bbe1
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: c3bfaf666fb0ceb43bcabda13949b27b567b5d08
 workflow-type: tm+mt
-source-wordcount: '592'
-ht-degree: 4%
+source-wordcount: '588'
+ht-degree: 5%
 
 ---
 
-# 建立或自訂問題嚴重程度
+# 建立或自訂問題嚴重性
 
 <!--
 DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.
@@ -30,6 +30,8 @@ Linked to Understanding Issue Severity.
 >任務和專案沒有嚴重性。
 
 ## 存取需求
+
++++ 展開以檢視本文中功能的存取需求。
 
 您必須具有下列存取權才能執行本文中的步驟：
 
@@ -51,6 +53,8 @@ Linked to Understanding Issue Severity.
   </tr> 
  </tbody> 
 </table>
+
++++
 
 ## 內建問題嚴重程度
 
@@ -85,7 +89,7 @@ Workfront有五個內建問題嚴重性：
 
 身為Workfront管理員，您可以根據使用者的需求建立和編輯問題嚴重程度。
 
-1. 按一下Adobe Workfront右上角的&#x200B;**主要功能表**&#x200B;圖示![](assets/main-menu-icon.png)，然後按一下&#x200B;**設定** ![](assets/gear-icon-settings.png)。
+{{step-1-to-setup}}
 
 1. 在左側面板中，按一下&#x200B;**專案偏好設定** > **嚴重程度**。
 

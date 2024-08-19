@@ -4,13 +4,13 @@ product-area: system-administration;projects
 navigation-topic: create-custom-status-and-priority-labels
 title: 重新排序系統層次與群組狀態
 description: 作為Workfront管理員，您可以變更系統中每個人或單一群組的專案、任務和問題狀態的順序。
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 6fee45a6-1a55-4351-8b08-88244c742ed5
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: c3bfaf666fb0ceb43bcabda13949b27b567b5d08
 workflow-type: tm+mt
-source-wordcount: '520'
+source-wordcount: '516'
 ht-degree: 6%
 
 ---
@@ -35,6 +35,8 @@ ht-degree: 6%
 
 ## 存取需求
 
++++ 展開以檢視本文中功能的存取需求。
+
 您必須具備下列專案才能執行本文所述的步驟：
 
 <table style="table-layout:auto"> 
@@ -53,6 +55,8 @@ ht-degree: 6%
 </table>
 
 &#42;如果您需要瞭解您擁有的計畫或授權型別，請連絡您的Workfront管理員。
+
++++
 
 ## 預設狀態順序
 
@@ -108,7 +112,7 @@ ht-degree: 6%
 
 ## 重新排序全系統或群組的任務和專案狀態
 
-1. 按一下Adobe Workfront右上角的&#x200B;**主要功能表**&#x200B;圖示![](assets/main-menu-icon.png)，然後按一下&#x200B;**設定** ![](assets/gear-icon-settings.png)。
+{{step-1-to-setup}}
 
 1. 在左側面板中，按一下&#x200B;**專案偏好設定>狀態**。
 1. （視條件而定）如果您要重新排序群組的狀態，請在右上角的方塊中開始輸入群組的名稱，然後在其出現時按一下名稱。

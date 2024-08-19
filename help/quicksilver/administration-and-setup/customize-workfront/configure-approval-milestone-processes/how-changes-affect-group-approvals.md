@@ -1,15 +1,15 @@
 ---
-title: 群組和核准流程變更如何影響指派的核准流程
+title: 群組及核准流程變更對指定核准流程的影響
 user-type: administrator
 content-type: reference
 product-area: system-administration;projects
 navigation-topic: configure-approval-and-milestone-processes
 description: 本文會說明當Workfront管理員（或擁有核准流程管理存取權的使用者）變更其與群組的關聯時，使用核准流程的情況。
-author: Alina, Caroline
+author: Alina, Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 77b2dce2-1523-4262-a659-0d301059a54c
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: ea1ac823fc414608f5205ac5bd9f29c1209fb7dc
 workflow-type: tm+mt
 source-wordcount: '1495'
 ht-degree: 1%

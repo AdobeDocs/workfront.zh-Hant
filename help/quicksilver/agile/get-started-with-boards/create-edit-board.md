@@ -6,9 +6,9 @@ description: 您可以從[!UICONTROL 展示板]儀表板建立新展示板或編
 author: Lisa
 feature: Agile
 exl-id: 5f755177-c8ea-4509-a34f-57ffcfd8ba7f
-source-git-commit: 3f7f4557c18bbb91ece850f910350d926a9e84bf
+source-git-commit: efe636e14964cc8705839c9f534a9947327803d7
 workflow-type: tm+mt
-source-wordcount: '813'
+source-wordcount: '824'
 ht-degree: 1%
 
 ---
@@ -74,7 +74,7 @@ ht-degree: 1%
 
       >[!NOTE]
       >
-      >動態主機板的卡片限製為700個任務和700個問題，總共1,400張卡片。 主機板上的卡片數量過多可能會影響主機板效能。
+      >動態主機板的卡片限製為700個任務和700個問題，總共1,400張卡片。 主機板上的卡片數量過多可能會影響主機板效能。 所有封存的卡片（包括隱藏和可見的）都會計入此限制。
 
    1. （選擇性）選取&#x200B;[!UICONTROL **不要封存已完成的卡片**]，以將已完成的任務和問題作為可見卡片帶入展示板（在「已完成」欄中）。 未選取此選項時，建立展示板時完成的卡片會作為封存卡片帶入展示板上。
 

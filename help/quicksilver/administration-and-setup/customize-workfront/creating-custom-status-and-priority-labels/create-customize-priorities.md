@@ -1,18 +1,18 @@
 ---
-title: 建立和自訂優先順序
+title: 建立及自訂優先順序
 description: 您可以在Workfront的「設定」區域中控制專案、任務和問題的優先順序。 優先順序可強調您在Adobe Workfront中的專案、任務或問題。
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 6e7952cf-f07a-412b-9f9a-623cdba46849
-source-git-commit: e20934501c2117455ca7950834d868f78576dee7
+source-git-commit: c3bfaf666fb0ceb43bcabda13949b27b567b5d08
 workflow-type: tm+mt
-source-wordcount: '735'
+source-wordcount: '731'
 ht-degree: 2%
 
 ---
 
-# 建立和自訂優先順序
+# 建立和自訂優先等級
 
 <!--
 DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.
@@ -21,6 +21,8 @@ DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH T
 您可以在Workfront的「設定」區域中控制專案、任務和問題的優先順序。 優先順序可強調您在Adobe Workfront中的專案、任務或問題。
 
 ## 存取需求
+
++++ 展開以檢視本文中功能的存取需求。
 
 您必須具有下列存取權才能執行本文中的步驟：
 
@@ -42,6 +44,8 @@ DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH T
   </tr> 
  </tbody> 
 </table>
+
++++
 
 ## 自訂現有的優先順序
 
@@ -87,7 +91,7 @@ DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH T
 
 除了Workfront提供的預設優先順序之外，您還可以新增自己的優先順序以反映組織的需求。
 
-1. 按一下Adobe Workfront右上角的&#x200B;**主要功能表**&#x200B;圖示![](assets/main-menu-icon.png)，然後按一下&#x200B;**設定** ![](assets/gear-icon-settings.png)。
+{{step-1-to-setup}}
 
 1. 在左側面板中，按一下&#x200B;**專案偏好設定** > **優先順序**。
 
