@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: 57e0fe65180cec3fab5cb10b3afbc0ac0a1dbb55
+source-git-commit: ded6db27fa3fba9195e2133134f60bcadb0f897a
 workflow-type: tm+mt
-source-wordcount: '1874'
+source-wordcount: '1880'
 ht-degree: 2%
 
 ---
@@ -78,11 +78,11 @@ Adobe Workfront規劃是Adobe Workfront的新產品。 Workfront Planning的目�
 | 在時間軸檢視中排序記錄 |                               | ✓ (A) |                  |
 | 在表格檢視中排序群組 |                               | ✓ (A) |                  |
 | 在時間軸檢視中排序群組 |                               | ✓ (A) |                  |
-| 連線工作區 |                               | ✓ (A) |                  |
 | 在表格檢視中搜尋記錄 | ✓ (A) |   |
 | 在時間軸檢視中搜尋記錄 | ✓ (A) |   |
 | 將Workfront Planning記錄連線至Workfront專案、方案、投資組合、公司、群組 | ✓ (A) |                                 |                  |
 | 將Workfront Planning記錄連線至Adobe Experience Manager資產 | ✓ (A) |                                  |                 |
+| 從不同的工作區連線Planning記錄 | ✓ (A) |                                  |                 |
 | 包含詳細資訊的記錄頁面 | ✓ (A) |                                  |                  |
 | 更新記錄頁面的版面 | ✓ (A) |                                 |                  |
 | 共用工作區 | ✓ (A) | |  |
@@ -282,10 +282,10 @@ Workfront Planning的架構可完全自訂。 您可以建立所有記錄型別�
 
 
 1. （條件式與選用式）如果您是Workfront管理員，請按一下下列其中一個標籤：
-   * **我的工作區**：顯示您建立的工作區。<!--Replace with: Workspaces I'm on: Displays workspaces you created or workspaces that are shared with you.-->
-   * **其他工作區**：顯示系統中所有其他工作區，包括與您共用的工作區。<!--Replace with: Other workspaces: Displays all other workspaces in the system.-->
+   * **我所在的工作區**：顯示您建立的工作區或與您共用的工作區。
+   * **其他工作區**：顯示系統中的所有其他工作區。
 
-   對於所有其他使用者，他們建立或與他們共用的所有工作區都會顯示在&#x200B;**工作區**&#x200B;區域中。
+   對於所有其他使用者，他們建立或與他們共用的工作區都會顯示在&#x200B;**工作區**&#x200B;區域中。
 
 1. （選用且建議使用）繼續下列部分動作，以建置您的工作結構：
 

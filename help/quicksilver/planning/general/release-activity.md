@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 57e0fe65180cec3fab5cb10b3afbc0ac0a1dbb55
+source-git-commit: ded6db27fa3fba9195e2133134f60bcadb0f897a
 workflow-type: tm+mt
-source-wordcount: '5894'
+source-wordcount: '6116'
 ht-degree: 0%
 
 ---
@@ -75,40 +75,6 @@ Workfront規劃程式已於2023年5月22日開始執行。 如需2023年期間�
 
 <!--
 
-### Landing page improvements
-
-Production: <date> 
-
-Preview: To be determined 
-
-We have made the following improvements to the Planning area's main page: 
-
-* "Workfront Planning" displays in the landing page header, to make it clear for users what area of the application they are accessing. (*******************)--not seeing this anywhere – omit this!*************????)
-
-* We added a "More" menu for each workspace card to make it easier to edit or delete the workspace from the main page. 
-
-* We added "Show all" and "Show less" links to display more or fewer workspaces in case there are more than two rows of workspace cards listed on the main page.  
-
-* For system administrators, the workspaces that they did not create have been moved from the "Other workspaces" tab to the "Workspaces I'm on" tab. The "My workspaces" tab has been removed. 
-
-For information, see [Edit workspaces](/help/quicksilver/planning/architecture/edit-workspaces.md).
-
-
-### Connect record types across multiple workspaces
-
- Production: <date>  
-
- Preview: To be determined  
-
- You can now connect record types that belong to different workspaces.  
-
- System administrators can now configure record types to be connected from other workspaces. After this, a workspace manager can connect to these record types.  
-
-Prior to this enhancement, you could only connect record types that belonged to the same workspace, along with object types from other applications.   
-
- For information, see Edit record types (help/quicksilver/planning/architecture/edit-record-types.md). 
-
-
 ### New Connections tab in the record details area
 
 Production: <date> 
@@ -157,7 +123,79 @@ Preview: To be determined
 
 You can now view Workfront Planning information in a report using the Workfront Canvas Dashboard. For information, see [Get started with canvas dashboards](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/get-started-canvas-dashboards.md).
 
+### Define format for formula field values
+
+Production: <date> 
+
+Preview: To be determined 
+
+As a workspace manager, you can now define the format for the values displayed in a formula field. You can choose from the following formats: 
+
+* Single-line text 
+* Number 
+* Percentage 
+* Currency 
+* Date
+* Tags
+
+For information, see the "Formula" section of the article [Create fields](/help/quicksilver/planning/fields/create-fields.md). 
+
+### Add connection type options
+
+Production: <date> 
+Preview: To be determined 
+
+Now, when you configure a connection between two record types, you can define whether users can connect single or multiple records in each of the record types of the connection. This ensures that you can reliably design your team's workflows and ensure that users only select the information expected according to their processes.  
+
+For example, you can now choose from the following types of connections when you link two record types:  
+
+* Many to many. When you select this connection type, it is not possible to change it after you save it 
+* One to many 
+* One to one 
+* Many to one 
+ 
+This allows you to define how many records of the connected record types users can connect after a connection is established.  
+
+The new connection types are not supported for the following record type connections: 
+ 
+* When you connect record types with AEM assets 
+* When you connect record types that don't belong to the same workspace (**********ensure this feature was released before you post this release note; otherwise, hide**********) 
+
+For information, see [Connect record types overview](/help/quicksilver/planning/architecture/connect-record-types-overview.md). 
+
 -->
+
+## 2024年8月19日起一週
+
+### Workfront Planning首頁面改進
+
+生產： 2024年8月20日
+
+預覽：待定
+
+我們已對「規劃」區域的首頁進行下列改良：
+
+* 對於系統管理員，他們未建立的工作區已從「其他工作區」標籤移至「我所在的工作區」標籤。 已移除「我的工作區」索引標籤。
+
+* 我們為每個工作區卡片新增了「更多」選單，以便更輕鬆地從首頁面編輯或刪除工作區。
+
+* 我們已新增「全部顯示」和「減少顯示」連結，以控制首頁面上顯示的工作區數量。 當首頁面上列出超過兩列的工作區卡片時，會顯示「全部顯示」連結，讓您視需要顯示所有工作區。
+
+如需詳細資訊，請參閱[編輯工作區](/help/quicksilver/planning/architecture/edit-workspaces.md)。
+
+### 跨多個工作區連線記錄型別
+
+生產： 2024年8月20日
+
+預覽：待定
+
+您現在可以連線屬於不同工作區的記錄型別。
+
+系統管理員現在可以將記錄型別設定為從其他工作區連線。 之後，工作區管理員可以從指定的工作區或系統中的所有工作區連線到這些記錄型別。
+
+在此增強功能之前，您只能連線屬於相同工作區的記錄型別，以及其他應用程式的物件型別。
+
+如需詳細資訊，請參閱[編輯記錄型別](/help/quicksilver/planning/architecture/edit-record-types.md)。
 
 ## 2024年8月12日起一週
 

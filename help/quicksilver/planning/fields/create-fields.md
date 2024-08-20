@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: 5c7b60ac5b78bd065ffc270588ec72ab3eb2f41d
+source-git-commit: a2062658110792689c0a15dd1c616c58ebf7e07a
 workflow-type: tm+mt
 source-wordcount: '3390'
 ht-degree: 2%
@@ -394,6 +394,24 @@ recommendations: noDisplay, noCatalog
    >
    >* 您可以參考與目前記錄型別相距最多4個層級的欄位。 例如，如果您正在建立「活動」記錄型別的公式欄位，且「活動」已連線至「產品」記錄型別，而該記錄型別已連線至「行銷活動」記錄型別，而該記錄型別已連線至「Workfront專案」，則您可以在針對「活動」記錄型別建立的公式中參考專案的「預算」。
 
+<!--1. In the **Format** field, select from the following choices to identify the format of the result displayed in the formula-type field:
+
+    * **Text**: The result of the formula field displays as plain text. 
+    * **Number**: The result of the formula field displays as a number. 
+    * **Percent**: The result of the formula field displays as a number followed by a percentage symbol.  
+    * **Currency**: The result of the formula field displays as a number preceded or followed by a currency symbol.  
+    * **Tags**: The result of the formula field displays as a tag with the object's name. 
+    * **Date**: The result of the formula field displays as a date. 
+
+        A preview of what the result will look like displays under the **Format** field. 
+
+        ![](assets/formula-field-formats-list-with-tag-selected-highlighted.png)
+
+        >[!WARNING]
+        >
+        >If the result of the formula does not match the selected format, the field will show an error message where it displays. 
+
+-->
 1. 按一下「**建立**」。
 
    新的公式欄位會新增為記錄型別的欄，其值可以與記錄相關聯。

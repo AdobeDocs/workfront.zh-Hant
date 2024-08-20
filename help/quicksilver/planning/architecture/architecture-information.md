@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 0da08e30-51a8-4163-ae1e-821a099fac3b
-source-git-commit: f252140e4fec01c7bb8092804532d79954cef618
+source-git-commit: ded6db27fa3fba9195e2133134f60bcadb0f897a
 workflow-type: tm+mt
-source-wordcount: '185'
+source-wordcount: '189'
 ht-degree: 0%
 
 ---
@@ -44,6 +44,7 @@ hide: yes
 * [記錄型別概觀](/help/quicksilver/planning/architecture/overview-of-record-types.md)
 * [建立記錄型別](/help/quicksilver/planning/architecture/create-record-types.md)
 * [編輯記錄型別](/help/quicksilver/planning/architecture/edit-record-types.md)
+* [連線記錄型別概觀](/help/quicksilver/planning/architecture/connect-record-types-overview.md)
 * [連線記錄型別](/help/quicksilver/planning/architecture/connect-record-types.md)
 * [連線記錄型別和記錄的範例](/help/quicksilver/planning/architecture/example-connect-record-types-and-records.md)
 * [刪除工作區](/help/quicksilver/planning/architecture/delete-workspaces.md)

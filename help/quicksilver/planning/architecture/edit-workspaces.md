@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 374b6d9c-69a9-4a73-8708-51c14a78c7c9
-source-git-commit: f252140e4fec01c7bb8092804532d79954cef618
+source-git-commit: ded6db27fa3fba9195e2133134f60bcadb0f897a
 workflow-type: tm+mt
-source-wordcount: '575'
+source-wordcount: '620'
 ht-degree: 0%
 
 ---
@@ -91,28 +91,20 @@ ht-degree: 0%
 
 {{step1-to-planning}}
 
-1. （視條件而定）如果您是Workfront管理員，請按一下&#x200B;**我的工作區**&#x200B;以存取您建立的工作區，或按一下&#x200B;**其他工作區**&#x200B;以存取其他人與您共用的工作區。<!--replace My workspaces with **Workspaces I'm on**-->
+1. （視條件而定）如果您是Workfront管理員，請按一下「**我所在的工作區**」以存取您建立的工作區，或按一下「**其他工作區**」以存取其他人與您共用的工作區。
 
-<!--***********Replace the steps from the next below till the "Update the following information in the Edit workspace box:" (but keep this last step)*******
+<!--***********Replace the steps from the next below till the "Update the following information in the Edit workspace box:" (but keep this last step)*******-->
 
-1. (Optional) Click **Show more** to display additional workspaces. The **Show more** link displays only when you have more than two rows of workspace cards.
-1. (Optional) ClicK **Show less** to limit the number of workspaces that display on the screen. 
-1. To edit a workspace, do one of the following:
+1. （選擇性）按一下「**全部顯示**」以顯示其他工作區。 **顯示全部**&#x200B;連結只有在您有兩列以上的工作區卡片時才會顯示。
+1. （選用） ClicK **顯示較少**&#x200B;以限制熒幕上顯示的工作區數目。
+1. 若要編輯工作區，請執行下列任一項作業：
 
-   * Hover over the workspace card, then click the **More** menu ![](assets/more-menu.png) in the upper-right corner of the card
-      Or
-   * Click a workspace card to open the workspace, then click **More** to the right of the workspace name. 
-1. Click **Edit**.
+   * 將滑鼠停留在工作區卡片上，然後按一下卡片右上角的&#x200B;**更多**&#x200B;功能表![](assets/more-menu.png)
+或
+   * 按一下工作區卡以開啟工作區，然後按一下工作區名稱右側的&#x200B;**更多**&#x200B;功能表![](assets/more-menu.png)。
+1. 按一下&#x200B;**編輯**。
 
-   ![](assets/edit-workspace-box.png)
-   -->
-
-1. 按一下工作區卡以開啟工作區。
-
-   工作區頁面隨即開啟。
-
-1. 按一下新工作區標題中工作區的名稱以重新命名，然後按&#x200B;**Enter**。
-1. 按一下標題中工作區名稱右側的&#x200B;**更多**&#x200B;功能表![](assets/more-menu.png)，然後按一下&#x200B;**編輯**。
+   會顯示&#x200B;**編輯工作區**&#x200B;方塊。
 
    ![](assets/edit-workspace-box.png)
 

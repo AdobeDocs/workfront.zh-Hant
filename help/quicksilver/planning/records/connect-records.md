@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
-source-git-commit: 57e0fe65180cec3fab5cb10b3afbc0ac0a1dbb55
+source-git-commit: a2062658110792689c0a15dd1c616c58ebf7e07a
 workflow-type: tm+mt
-source-wordcount: '2292'
+source-wordcount: '2281'
 ht-degree: 1%
 
 ---
@@ -428,7 +428,6 @@ hide: yes
 您必須具備下列專案，才能從Workfront物件連線Workfront Planning記錄：
 
 * 在Workfront Planning中建立的記錄型別與Workfort物件型別之間的連線。
-* 記錄和Workfront物件之間至少有一個連線。
 * 您的Workfront或群組管理員必須將Planning區段新增至可以連線至配置範本中Planning記錄型別的Workfront物件型別。
 
 如需詳細資訊，請參閱[在Adobe Workfront物件的Planning區段管理記錄](/help/quicksilver/planning/records/manage-records-in-planning-section.md)。

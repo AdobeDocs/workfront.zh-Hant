@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 5027d611-916e-492d-9a44-841bdde11c94
-source-git-commit: 5c7b60ac5b78bd065ffc270588ec72ab3eb2f41d
+source-git-commit: a2062658110792689c0a15dd1c616c58ebf7e07a
 workflow-type: tm+mt
 source-wordcount: '430'
 ht-degree: 8%
@@ -110,6 +110,17 @@ recommendations: noDisplay, noCatalog
 * 儲存公式欄位後，您無法變更其欄位型別。
 * 儲存公式欄位後，您可以更新公式欄位的計算，而計算結果會自動更新相同型別的所有記錄。
 * 您必須在Workfront Planning介面中顯示的公式中，新增您參考的欄位。
+<!--* You can format the result of a formula calculation by choosing from the following options:
+
+   * Text
+   * Number
+   * Percent
+   * Currency
+   * Tags
+   * Date
+
+   For more information, see the "Formula" section in the article [Create fields](/help/quicksilver/planning/fields/create-fields.md). -->
+
 
 ## 支援的公式
 

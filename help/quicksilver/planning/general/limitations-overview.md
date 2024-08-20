@@ -4,7 +4,7 @@ description: Adobe Workfront Planning限制您可在執行個體中建立的物�
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: f252140e4fec01c7bb8092804532d79954cef618
+source-git-commit: a2062658110792689c0a15dd1c616c58ebf7e07a
 workflow-type: tm+mt
 source-wordcount: '256'
 ht-degree: 1%
@@ -12,7 +12,7 @@ ht-degree: 1%
 ---
 
 
-<!--udpate the metadata with real information when making this avilable in TOC and in the left nav-->
+<!--update the metadata with real information when making this available in TOC and in the left nav-->
 
 # Adobe Workfront Planning物件限制總覽
 

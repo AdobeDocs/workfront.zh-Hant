@@ -4,9 +4,9 @@ description: 工作區是團隊使用的記錄型別集合，代表團隊的工�
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: f252140e4fec01c7bb8092804532d79954cef618
+source-git-commit: ded6db27fa3fba9195e2133134f60bcadb0f897a
 workflow-type: tm+mt
-source-wordcount: '365'
+source-wordcount: '367'
 ht-degree: 0%
 
 ---
@@ -40,8 +40,8 @@ ht-degree: 0%
 
    * 對於系統管理員，工作區會顯示在下列標籤中：
 
-      * **我的工作區**：顯示您建立的工作區。<!--Replace with: **Workspaces I'm on**: Displays workspaces you created or workspaces that are shared with you.-->
-      * **其他工作區**：顯示系統中所有其他工作區，包括與您共用的工作區。<!--Replace with: **Other workspaces**: Displays all other workspaces in the system.-->
+      * **我所在的工作區**：顯示您建立的工作區或與您共用的工作區。
+      * **其他工作區**：顯示系統中的所有其他工作區。
 
    * 對於所有其他使用者，他們建立的工作區以及其他使用者共用的工作區會顯示在「工作區」區域中。
 
@@ -55,6 +55,7 @@ ht-degree: 0%
   系統管理員可以管理所有工作區，即使是他們未建立的工作區。
 
 <!--make this live with the GA: * There is no limit for how many workspaces you can create in your environment. However, we recommend not to have too many workspaces, as they could become hard to manage and your workflows might be too fragmented.-->
+
 * 您可以在Workfront Planning例項中建立的工作區物件數目有所限制。 如需詳細資訊，請參閱[Adobe Workfront Planning物件限制總覽](/help/quicksilver/planning/general/limitations-overview.md)。
 
 
