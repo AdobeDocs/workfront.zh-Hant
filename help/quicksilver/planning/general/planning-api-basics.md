@@ -1,16 +1,16 @@
 ---
-title: 「Adobe Workfront規劃API基本需知」
+title: Adobe Workfront Planning API基本需知
 description: Adobe Workfront Planning API的目標是引入透過HTTP運作的REST-ful架構，簡化與Planning的整合建置。 本檔案假設您熟悉REST和JSON回應，並說明Planning API所採取的方法。
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: ebdcb8ee2a6efe96c77f863e85f8911d20ab1dd4
+exl-id: afb58d04-fa75-4eb7-9c19-2a8c1748fbc2
+source-git-commit: 83ea00f63f597731f808673d45b6103522995fb1
 workflow-type: tm+mt
 source-wordcount: '939'
 ht-degree: 2%
 
 ---
-
 
 # Adobe Workfront Planning API基本需知
 
@@ -98,13 +98,13 @@ Workfront Planning支援下列搜尋修飾元：
         <td>$greaterThanOrEqual </td>
         <td><code>"fieldId": { "$greaterThanOrEqual": 10 } </code> </td>
         <td>傳回欄位值大於或等於篩選器的記錄  </td>
-        <td><ul><li>10</li><li>20</li><ul><li>25</li> </td>
+        <td><ul><li>10</li><li>20</li><li>25</li> </ul></td>
     </tr>
     <tr>
         <td>$lessThan </td>
         <td><code>"fieldId": { "$lessThan": 10 } </code> </td>
         <td>傳回欄位值小於篩選器的記錄  </td>
-        <td><ul><li>5</li><li>9</li><ul> </td>
+        <td><ul><li>5</li><li>9</li></td></ul> 
     </tr>
     <tr>
         <td>$lessThanOrEqual </td>
@@ -355,6 +355,3 @@ Workfront Planning支援下列搜尋修飾元：
 為確保結果正確分頁，請使用排序引數。 如此可讓結果以相同順序傳回，因此分頁不會重複或略過結果。
 
 如需排序的詳細資訊，請參閱本文中的[在API中排序查詢結果](#sorting-query-results-in-the-api)。
-
-
-
