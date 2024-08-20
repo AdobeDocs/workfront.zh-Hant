@@ -6,14 +6,18 @@ description: 將您的資料顯示為可設定表格的表格報告可以新增�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: a7aa8614-6e80-4fc1-88ff-d952d87ddcbc
-source-git-commit: 893f41011159ff14410edf50bf1b3d24d787a85a
+source-git-commit: 9f975b2128e4ead84ccef8cda30dcb9f29f96e25
 workflow-type: tm+mt
-source-wordcount: '166'
+source-wordcount: '191'
 ht-degree: 0%
 
 ---
 
 # 在畫布儀表板中建立表格報告
+
+>[!IMPORTANT]
+>
+>本頁說明僅供已註冊畫布控制面板已關閉測試版的使用者使用的功能。 請參閱[Canvas儀表板Beta版資訊](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md)以瞭解更多資訊。
 
 將您的資料顯示為可設定表格的表格報告可以新增到畫布控制面板。
 

@@ -7,14 +7,18 @@ author: Nolan
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: 3e36ddc8-2552-4449-9c3a-3720e0af590b
-source-git-commit: 893f41011159ff14410edf50bf1b3d24d787a85a
+source-git-commit: 9f975b2128e4ead84ccef8cda30dcb9f29f96e25
 workflow-type: tm+mt
-source-wordcount: '37'
+source-wordcount: '62'
 ht-degree: 0%
 
 ---
 
 # 管理畫布控制面板：文章索引
+
+>[!IMPORTANT]
+>
+>本頁說明僅供已註冊畫布控制面板已關閉測試版的使用者使用的功能。 請參閱[Canvas儀表板Beta版資訊](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md)以瞭解更多資訊。
 
 本節包含下列文章：
 

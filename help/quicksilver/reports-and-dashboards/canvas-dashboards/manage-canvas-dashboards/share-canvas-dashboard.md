@@ -6,14 +6,18 @@ description: 您可以與其他Adobe Workfront使用者共用畫布控制面板�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 5cb03113-35b0-49aa-86ec-ec800cd3f4dc
-source-git-commit: 893f41011159ff14410edf50bf1b3d24d787a85a
+source-git-commit: 9f975b2128e4ead84ccef8cda30dcb9f29f96e25
 workflow-type: tm+mt
-source-wordcount: '318'
+source-wordcount: '343'
 ht-degree: 0%
 
 ---
 
 # 共用畫布控制面板
+
+>[!IMPORTANT]
+>
+>本頁說明僅供已註冊畫布控制面板已關閉測試版的使用者使用的功能。 請參閱[Canvas儀表板Beta版資訊](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md)以瞭解更多資訊。
 
 您可以與其他Adobe Workfront使用者共用畫布控制面板，讓他們可以檢視或編輯。
 

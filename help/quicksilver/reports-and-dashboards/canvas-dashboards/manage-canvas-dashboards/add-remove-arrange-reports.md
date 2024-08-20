@@ -6,14 +6,18 @@ description: 建立「畫布控制面板」後，您可以新增報表，以各�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 840f2e1f-592f-44c1-b2e9-7201e424209a
-source-git-commit: 893f41011159ff14410edf50bf1b3d24d787a85a
+source-git-commit: 9f975b2128e4ead84ccef8cda30dcb9f29f96e25
 workflow-type: tm+mt
-source-wordcount: '548'
+source-wordcount: '573'
 ht-degree: 0%
 
 ---
 
 # 在畫布控制面板中新增、移除或排列報表
+
+>[!IMPORTANT]
+>
+>本頁說明僅供已註冊畫布控制面板已關閉測試版的使用者使用的功能。 請參閱[Canvas儀表板Beta版資訊](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md)以瞭解更多資訊。
 
 建立「畫布控制面板」後，您可以新增報表，以各種格式顯示您的Adobe Workfront資料。 您可以視需要在畫布上移動這些報表及調整其大小。 如需有關建立畫布控制面板的資訊，請參閱[開始使用畫布控制面板](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/get-started-canvas-dashboards.md)。
 

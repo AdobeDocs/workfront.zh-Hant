@@ -6,14 +6,18 @@ description: 透過Adobe Workfront報告工具建立的報告可以新增到畫�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: f77990ab-da7a-4dcb-89fa-f65ed2b79522
-source-git-commit: 893f41011159ff14410edf50bf1b3d24d787a85a
+source-git-commit: 9f975b2128e4ead84ccef8cda30dcb9f29f96e25
 workflow-type: tm+mt
-source-wordcount: '171'
+source-wordcount: '196'
 ht-degree: 0%
 
 ---
 
 # 新增現有報表至畫布控制面板
+
+>[!IMPORTANT]
+>
+>本頁說明僅供已註冊畫布控制面板已關閉測試版的使用者使用的功能。 請參閱[Canvas儀表板Beta版資訊](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md)以瞭解更多資訊。
 
 透過Adobe Workfront報告工具建立的報告可以新增到畫布控制面板。 如需建立報告的詳細資訊，請參閱[開始使用報告](/help/quicksilver/reports-and-dashboards/reports/reporting/get-started-reports-workfront.md)。
 

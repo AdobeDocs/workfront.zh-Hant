@@ -6,14 +6,18 @@ description: 包括有關您未決和過去核准決策的資料的未決核准�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 8378524a-7139-4842-bd2c-037195e8ddd8
-source-git-commit: 893f41011159ff14410edf50bf1b3d24d787a85a
+source-git-commit: 9f975b2128e4ead84ccef8cda30dcb9f29f96e25
 workflow-type: tm+mt
-source-wordcount: '175'
+source-wordcount: '200'
 ht-degree: 0%
 
 ---
 
 # 將擱置核准報告新增至畫布控制面板
+
+>[!IMPORTANT]
+>
+>本頁說明僅供已註冊畫布控制面板已關閉測試版的使用者使用的功能。 請參閱[Canvas儀表板Beta版資訊](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md)以瞭解更多資訊。
 
 包括有關您未決和過去核准決策的資料的未決核准報告可以新增到畫布控制面板。
 

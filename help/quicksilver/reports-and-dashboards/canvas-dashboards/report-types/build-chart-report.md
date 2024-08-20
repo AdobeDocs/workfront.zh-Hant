@@ -6,14 +6,18 @@ description: 可將您的資料視覺化為橫條、欄、折線圖或圓餅圖�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 4262cae8-602f-416d-94b9-409eb9d6241c
-source-git-commit: 893f41011159ff14410edf50bf1b3d24d787a85a
+source-git-commit: 9f975b2128e4ead84ccef8cda30dcb9f29f96e25
 workflow-type: tm+mt
-source-wordcount: '174'
+source-wordcount: '199'
 ht-degree: 0%
 
 ---
 
 # 在畫布儀表板中建立圖表報告
+
+>[!IMPORTANT]
+>
+>本頁說明僅供已註冊畫布控制面板已關閉測試版的使用者使用的功能。 請參閱[Canvas儀表板Beta版資訊](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md)以瞭解更多資訊。
 
 可將您的資料視覺化為橫條、欄、折線圖或圓餅圖的圖表報表，可新增至畫布控制面板。
 

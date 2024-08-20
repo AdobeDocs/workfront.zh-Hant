@@ -6,14 +6,18 @@ description: 使用畫布控制面板的基本指示，包括如何導覽至您�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 43456634-f891-4262-93be-bdb9e7d58c77
-source-git-commit: 893f41011159ff14410edf50bf1b3d24d787a85a
+source-git-commit: 9f975b2128e4ead84ccef8cda30dcb9f29f96e25
 workflow-type: tm+mt
-source-wordcount: '586'
+source-wordcount: '611'
 ht-degree: 0%
 
 ---
 
 # 開始使用畫布控制面板
+
+>[!IMPORTANT]
+>
+>本頁說明僅供已註冊畫布控制面板已關閉測試版的使用者使用的功能。 請參閱[Canvas儀表板Beta版資訊](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md)以瞭解更多資訊。
 
 畫布儀表板可讓您將各種報表型別新增到可自訂的畫布上，以輕鬆將Adobe Workfront資料視覺化。 本頁提供使用「畫布控制面板」的基本指示，包括如何導覽至您的「畫布控制面板」清單，以及如何建立和編輯清單。
 
