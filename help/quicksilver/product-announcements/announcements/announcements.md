@@ -7,10 +7,10 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 3fe99aec-1489-4434-b787-cc3f940c9062
-source-git-commit: 92ebfc6e2f33c15865b824c99546c8856d4f8edd
+source-git-commit: 8dac7959919014d7bfbbbd39d193d026ca31c4b2
 workflow-type: tm+mt
-source-wordcount: '42'
-ht-degree: 4%
+source-wordcount: '39'
+ht-degree: 5%
 
 ---
 
@@ -18,11 +18,9 @@ ht-degree: 4%
 
 以下是您可能想要熟悉的公告：
 
-* [自訂表單增強功能](../../product-announcements/announcements/custom-form-enhancements.md)
 * [維護期間常見問題集](../../product-announcements/announcements/maintenance-window-faq.md)
 * [取消訂閱宣告中心訊息](unsubscribe-from-ac-messages.md)
 * [將校樣新增至允許清單所需變更](proofhq-domain-change-workfront.md)
-
 
 
 如需較舊的宣告，請參閱[宣告封存](announcement-archive/announcement-archive.md)。

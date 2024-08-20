@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: c22a7ced-da81-40b5-bb4d-69d59b855add
-source-git-commit: 3f7f4557c18bbb91ece850f910350d926a9e84bf
+source-git-commit: 8dac7959919014d7bfbbbd39d193d026ca31c4b2
 workflow-type: tm+mt
-source-wordcount: '563'
+source-wordcount: '581'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 >[!CAUTION]
 >
->刪除自訂欄位也會在填寫附加到物件的自訂表單時刪除使用者在欄位中輸入的所有自訂資料。 已刪除的資料無法復原。
+>刪除自訂欄位也會在填寫附加到物件的自訂表單時刪除使用者在欄位中輸入的所有自訂資料。 已刪除的資料無法復原。 此外，沒有通知系統可提醒使用自訂表單的使用者該表單已被刪除。
 >
 >您可以檢視使用您要刪除之自訂欄位的所有自訂表單和報表，以評估可能造成的影響。 如需詳細資訊，請參閱[檢視使用特定自訂欄位或Widget的所有自訂表單](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/view-all-custom-forms-that-use-a-particular-custom-field.md)和[檢視使用特定自訂欄位或Widget的所有報表](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/view-all-reports-that-use-a-particular-custom-field.md)。
 >

@@ -8,10 +8,10 @@ author: Courtney
 feature: System Setup and Administration, Digital Content and Documents
 role: Admin
 exl-id: cfccb120-8759-49f2-8b7b-dabcd57d4fda
-source-git-commit: f391f43e96add70f8a5aeed259eee1259ed786a3
+source-git-commit: 5676910e53f1c4f49cab196e42bfbce8704887ca
 workflow-type: tm+mt
-source-wordcount: '587'
-ht-degree: 6%
+source-wordcount: '557'
+ht-degree: 7%
 
 ---
 
@@ -53,7 +53,8 @@ ht-degree: 6%
 
 ## 設定新校訂預設設定
 
-1. 按一下Adobe Workfront右上角的&#x200B;**主要功能表**&#x200B;圖示![](assets/main-menu-icon.png)，然後按一下&#x200B;**設定**。
+{{step-1-to-setup}}
+
 1. 在左側面板中，按一下&#x200B;**校訂** > **校訂設定**。
 1. 在&#x200B;**新校訂預設值**&#x200B;區段中，設定下列設定：
 
@@ -113,7 +114,8 @@ ht-degree: 6%
 
 若要設定校訂決定：
 
-1. 按一下Adobe Workfront右上角的&#x200B;**主要功能表**&#x200B;圖示![](assets/main-menu-icon.png)，然後按一下&#x200B;**設定**。
+{{step-1-to-setup}}
+
 1. 在左側面板中，按一下&#x200B;**校訂** > **校訂設定**。
 1. 在&#x200B;**決定**&#x200B;區段中，您可以
 

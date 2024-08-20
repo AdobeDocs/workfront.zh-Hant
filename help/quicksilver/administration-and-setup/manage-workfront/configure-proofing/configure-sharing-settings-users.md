@@ -8,9 +8,9 @@ author: Courtney
 feature: System Setup and Administration, Digital Content and Documents
 role: Admin
 exl-id: 505c183b-6252-4367-898f-2429824860be
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: ab774e937a15aaa04704e872579df880a9b80aaf
 workflow-type: tm+mt
-source-wordcount: '607'
+source-wordcount: '579'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,8 @@ ht-degree: 0%
 身為Adobe Workfront管理員或Workfront Proof管理員，您可以設定可共用校樣的使用者帳戶、使用者是否可以檢視所有版本的校樣，以及使用者取得共用專案存取權的時間。
 
 ## 存取需求
+
++++ 展開以檢視本文中功能的存取需求。
 
 您必須具備下列條件：
 
@@ -44,9 +46,11 @@ ht-degree: 0%
 
 &#42;若要瞭解您擁有的計畫、授權型別或存取權，請連絡您的Workfront管理員。
 
++++
+
 ## 設定與其他帳戶的共用
 
-1. 在Workfront中，按一下主要功能表![](assets/main-menu-icon.png)，然後按一下校樣![](assets/proofing-in-main-menu.png)以存取Workfront Proof。
+{{step1-to-proofing}}
 
 1. 按一下「**設定**」>「**帳戶設定**」，然後按一下「**設定**」標籤。
 
@@ -57,7 +61,7 @@ ht-degree: 0%
 
 ## 設定共用校訂所有版本的可見度
 
-1. 在Workfront中，按一下主要功能表![](assets/main-menu-icon.png)，然後按一下校樣![](assets/proofing-in-main-menu.png)以存取Workfront Proof。
+{{step1-to-proofing}}
 
 1. 按一下「**設定**」>「**帳戶設定**」，然後按一下「**設定**」標籤。
 
@@ -75,7 +79,7 @@ ht-degree: 0%
 
 若要設定使用者何時可看到具有自動化工作流程的校樣：
 
-1. 在Workfront中，按一下主要功能表![](assets/main-menu-icon.png)，然後按一下校樣![](assets/proofing-in-main-menu.png)以存取Workfront Proof。
+{{step1-to-proofing}}
 
 1. 按一下「**設定**」>「**帳戶設定**」，然後按一下「**設定**」標籤。
 

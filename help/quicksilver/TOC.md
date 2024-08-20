@@ -3,7 +3,7 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文件、教學課程和其他資源，了解如何在您的組織中實施並有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: a06df1c4006b06e4fe5c730c1894fcc5122f68f5
+source-git-commit: 5676910e53f1c4f49cab196e42bfbce8704887ca
 workflow-type: tm+mt
 source-wordcount: '14334'
 ht-degree: 2%
@@ -406,13 +406,13 @@ ht-degree: 2%
             * [R1發行網路研討會](product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-release-webinars.md)
    * 公告{#announcements}
       * [公告](product-announcements/announcements/announcements.md)
-      * [自訂表單增強功能](product-announcements/announcements/custom-form-enhancements.md)
       * [不再支援的功能排程](product-announcements/announcements/feature-removal-timeline.md)
       * [維護期間常見問題集](product-announcements/announcements/maintenance-window-faq.md)
       * [將校樣新增至允許清單所需變更](product-announcements/announcements/proofhq-domain-change-workfront.md)
       * [在新的Adobe Workfront體驗中取消訂閱公告中心訊息](product-announcements/announcements/unsubscribe-from-ac-messages.md)
       * 宣告封存{#announcement-archive}
          * [宣告封存](product-announcements/announcements/announcement-archive/announcement-archive.md)
+         * [自訂表單增強功能](product-announcements/announcements/announcement-archive/custom-form-enhancements.md)
          * [iOS和Android適用的更新行動應用程式（2017年8月初）](product-announcements/announcements/announcement-archive/updated-mobile-app.md)
          * [Adobe Workfront中需要TLS 1.2](product-announcements/announcements/announcement-archive/tls-1-disabled.md)
          * [Outlook 365增益集現已推出](product-announcements/outlook-365-add-in/outlook-365-add-in-now-available.md)

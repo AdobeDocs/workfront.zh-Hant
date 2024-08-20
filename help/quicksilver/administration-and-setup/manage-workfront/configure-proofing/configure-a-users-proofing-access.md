@@ -8,9 +8,9 @@ author: Courtney
 feature: System Setup and Administration, Digital Content and Documents
 role: Admin
 exl-id: 98c90139-f31a-41bc-af0b-577dd8b254e3
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: ab774e937a15aaa04704e872579df880a9b80aaf
 workflow-type: tm+mt
-source-wordcount: '1244'
+source-wordcount: '1240'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,8 @@ ht-degree: 0%
 如需可用於基本與整合校訂之校訂功能的相關資訊，請參閱[存取Workfront中的校訂功能](../../../administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md)。
 
 ## 存取需求
+
++++ 展開以檢視本文中功能的存取需求。
 
 您必須具有下列存取權才能執行本文中的步驟：
 
@@ -46,6 +48,8 @@ ht-degree: 0%
 
 &#42;若要瞭解您擁有的計畫、授權型別或存取權，請連絡您的Workfront管理員。
 
++++
+
 ## 為使用者啟用和停用校訂（僅限舊版計畫） {#enable-and-disable-proofing-for-a-user-legacy-plans-only}
 
 如果您的組織使用舊版Select或Premium Workfront計畫，您作為Workfront管理員，可以為使用者啟用和停用校訂功能。
@@ -63,7 +67,8 @@ ht-degree: 0%
 
 您選取的許可權設定檔會針對組織內存在的每個校訂授予使用者。
 
-1. 按一下Adobe Workfront右上角的&#x200B;**主要功能表**&#x200B;圖示![](assets/main-menu-icon.png)，然後按一下&#x200B;**使用者** ![](assets/users-icon-in-main-menu.png)。
+{{step-1-to-users}}
+
 1. 選取一或多個使用者，然後按一下[編輯]。****
 
 1. 在&#x200B;**存取**&#x200B;區段中，按一下&#x200B;**校訂許可權設定檔**&#x200B;下拉式功能表中的下列Workfront Proof許可權選項之一：

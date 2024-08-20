@@ -3,15 +3,15 @@ user-type: administrator
 product-area: system-administration
 navigation-topic: emails-administration
 title: 設定自動提醒
-description: 設定自動提醒
+description: 您可以設定自動提醒，以在所有任務或問題到期、延遲或接近計畫完成日期時觸發電子郵件通知。
 author: Nolan
 feature: System Setup and Administration
 role: Admin
 exl-id: 37ad04a1-d3c8-48b2-aed8-fe40456196ec
-source-git-commit: 1c0a656f2603c5decabd2bb4e88da1b9530f9e1c
+source-git-commit: ab774e937a15aaa04704e872579df880a9b80aaf
 workflow-type: tm+mt
-source-wordcount: '611'
-ht-degree: 4%
+source-wordcount: '627'
+ht-degree: 3%
 
 ---
 
@@ -35,6 +35,8 @@ ht-degree: 4%
 
 ## 存取需求
 
++++ 展開以檢視本文中功能的存取需求。
+
 您必須具有下列存取權才能執行本文中的步驟：
 
 <table style="table-layout:auto"> 
@@ -56,11 +58,13 @@ ht-degree: 4%
  </tbody> 
 </table>
 
++++
+
 ## 設定自動提醒
 
-1. 按一下Adobe Workfront右上角的&#x200B;**主要功能表**&#x200B;圖示![](assets/main-menu-icon.png)，然後按一下&#x200B;**設定** ![](assets/gear-icon-settings.png)。
+{{step-1-to-setup}}
 
-1. 按一下&#x200B;**電子郵件** >**自動提醒**。
+1. 按一下&#x200B;**電子郵件** > **自動提醒**。
 
 1. 在&#x200B;**傳送延遲通知至**&#x200B;區域中，選取下列任一選項：
 
@@ -85,7 +89,7 @@ ht-degree: 4%
         <td>（在<b>傳送期限提醒給</b>區域。） 如果您希望指派給任務或問題的使用者收到臨近到期日的工作專案通知，請選取此選項。</td>
         <td></td>
     </tr>
-</table>
+   </table>
 
 1. 選取工作專案到期日之前或之後的時間量，以選取自動提醒的傳送時間。
 

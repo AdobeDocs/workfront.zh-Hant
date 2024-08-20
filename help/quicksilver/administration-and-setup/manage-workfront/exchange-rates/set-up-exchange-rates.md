@@ -6,11 +6,12 @@ title: 設定匯率
 description: 身為Adobe Workfront管理員，您可以在Workfront中設定貨幣匯率。
 feature: System Setup and Administration
 role: Admin
+author: Lisa
 exl-id: 149c08de-fd3a-465a-afd1-0b53012d30d8
-source-git-commit: b0cf0a5ec6b932267c8714b966638d8da93331b8
+source-git-commit: ab774e937a15aaa04704e872579df880a9b80aaf
 workflow-type: tm+mt
-source-wordcount: '560'
-ht-degree: 3%
+source-wordcount: '556'
+ht-degree: 2%
 
 ---
 
@@ -41,6 +42,8 @@ ht-degree: 3%
 
 ## 存取需求
 
++++ 展開以檢視本文中功能的存取需求。
+
 您必須具有下列存取權才能執行本文中的步驟：
 
 <table style="table-layout:auto"> 
@@ -62,9 +65,11 @@ ht-degree: 3%
  </tbody> 
 </table>
 
++++
+
 ## 設定匯率
 
-1. 按一下Adobe Workfront右上角的&#x200B;**主要功能表**&#x200B;圖示![](assets/main-menu-icon.png)，然後按一下&#x200B;**設定** ![](assets/gear-icon-settings.png)。
+{{step-1-to-setup}}
 
 1. 按一下&#x200B;**專案偏好設定** > **匯率。**
 

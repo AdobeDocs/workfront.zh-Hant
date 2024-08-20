@@ -2,15 +2,15 @@
 user-type: administrator
 product-area: system-administration;setup
 navigation-topic: configure-proofing-functionality
-title: 為您的組織設定校訂設定
+title: 設定組織的校訂設定
 description: 身為Adobe Workfront管理員或Workfront Proof管理員，您可以為貴組織自訂預設校訂設定。 這些設定包含預設共用選項、品牌化等。
 author: Courtney
 feature: System Setup and Administration, Digital Content and Documents
 role: Admin
 exl-id: 29405172-c3dd-431f-a242-fd38b53a307d
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: ab774e937a15aaa04704e872579df880a9b80aaf
 workflow-type: tm+mt
-source-wordcount: '1262'
+source-wordcount: '1221'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,8 @@ ht-degree: 0%
 身為Adobe Workfront管理員或Workfront Proof管理員，您可以為貴組織自訂預設校訂設定。 這些設定包含預設共用選項、品牌化等。
 
 ## 存取需求
+
++++ 展開以檢視本文中功能的存取需求。
 
 您必須具備下列條件：
 
@@ -44,6 +46,8 @@ ht-degree: 0%
 
 &#42;若要瞭解您擁有的計畫、授權型別或存取權，請連絡您的Workfront管理員。
 
++++
+
 ## 設定動作
 
 如需有關在校訂檢視器中使用動作的資訊，請參閱[對校訂評論使用動作](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/use-actions-on-comments-in-viewer.md)。
@@ -56,7 +60,7 @@ ht-degree: 0%
 
 ### 新增或重新命名動作 {#add-or-rename-an-action}
 
-1. 在Workfront中，按一下主要功能表![](assets/main-menu-icon.png)，然後按一下校樣![](assets/proofing-in-main-menu.png)以存取Workfront Proof。
+{{step1-to-proofing}}
 
 1. 按一下Workfront Proof介面右上角的&#x200B;**設定** > **帳戶設定**，然後按一下&#x200B;**設定**&#x200B;標籤。
 
@@ -73,7 +77,7 @@ ht-degree: 0%
 
 ### 停用或重新啟用動作 {#deactivate-or-reactivate-an-action}
 
-1. 在Workfront中，按一下主要功能表![](assets/main-menu-icon.png)，然後按一下校樣![](assets/proofing-in-main-menu.png)以存取Workfront Proof。
+{{step1-to-proofing}}
 
 1. 按一下Workfront Proof介面右上角的&#x200B;**設定** > **帳戶設定**，然後按一下&#x200B;**設定**&#x200B;標籤。
 
@@ -82,7 +86,7 @@ ht-degree: 0%
 
 ### 重新排序動作 {#reorder-actions}
 
-1. 在Workfront中，按一下主要功能表![](assets/main-menu-icon.png)，然後按一下校樣![](assets/proofing-in-main-menu.png)以存取Workfront Proof。
+{{step1-to-proofing}}
 
 1. 按一下Workfront Proof介面右上角的&#x200B;**設定** > **帳戶設定**，然後按一下&#x200B;**設定**&#x200B;標籤。
 
@@ -98,7 +102,7 @@ ht-degree: 0%
 
 若要新增自訂裝置：
 
-1. 在Workfront中，按一下主要功能表![](assets/main-menu-icon.png)，然後按一下校樣![](assets/proofing-in-main-menu.png)以存取Workfront Proof。
+{{step1-to-proofing}}
 
 1. 按一下Workfront Proof介面右上角的&#x200B;**設定** > **帳戶設定**，然後按一下&#x200B;**設定**&#x200B;標籤。
 

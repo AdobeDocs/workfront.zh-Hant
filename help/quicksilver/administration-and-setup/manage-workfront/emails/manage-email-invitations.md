@@ -8,9 +8,9 @@ author: Nolan
 feature: System Setup and Administration
 role: Admin
 exl-id: e13e3479-391f-4aec-b998-e9b6057f256b
-source-git-commit: 1c0a656f2603c5decabd2bb4e88da1b9530f9e1c
+source-git-commit: ab774e937a15aaa04704e872579df880a9b80aaf
 workflow-type: tm+mt
-source-wordcount: '948'
+source-wordcount: '929'
 ht-degree: 0%
 
 ---
@@ -44,6 +44,8 @@ ht-degree: 0%
 
 ## 存取需求
 
++++ 展開以檢視本文中功能的存取需求。
+
 您必須具有下列存取權才能執行本文中的步驟：
 
 <table style="table-layout:auto"> 
@@ -65,6 +67,8 @@ ht-degree: 0%
  </tbody> 
 </table>
 
++++
+
 ## 產生電子郵件邀請 {#generate-email-invitations}
 
 在下列情況下會產生電子郵件邀請：
@@ -80,7 +84,8 @@ ht-degree: 0%
 
 若要手動產生電子郵件邀請給現有的未註冊使用者：
 
-1. 按一下Adobe Workfront右上角的&#x200B;**主要功能表**&#x200B;圖示![](assets/main-menu-icon.png)，然後按一下&#x200B;**使用者** ![](assets/users-icon-in-main-menu.png)。
+{{step-1-to-users}}
+
 1. 選取在其名稱后面顯示&#x200B;**已取消註冊**&#x200B;標籤的使用者。
 
    ![](assets/unreg-user-qs-350x221.png)
@@ -101,7 +106,7 @@ ht-degree: 0%
 
 身為Workfront管理員，您可以設定新使用者的電子郵件邀請所包含的訊息。
 
-1. 按一下Adobe Workfront右上角的&#x200B;**主要功能表**&#x200B;圖示![](assets/main-menu-icon.png)，然後按一下&#x200B;**設定** ![](assets/gear-icon-settings.png)。
+{{step-1-to-setup}}
 
 1. 在左邊的清單中，按一下&#x200B;**電子郵件** > **邀請**。
 

@@ -3,13 +3,13 @@ user-type: administrator
 content-type: reference;overview
 product-area: system-administration;documents
 navigation-topic: configure-proofing-functionality
-title: Adobe Workfront與Workfront Proof之間的使用者同步
+title: Adobe Workfront和Workfront Proof之間的使用者同步
 description: 使用者資訊會從Adobe Workfront同步至Workfront Proof，而不會從Workfront Proof同步至Workfront。 因此，無論您何時建立或修改使用者，都必須在Workfront中進行這些變更。 您無法在Workfront Proof中變更使用者。
 author: Courtney
 feature: System Setup and Administration, Digital Content and Documents
 role: Admin
 exl-id: 4c88a249-b156-45c9-a44c-32f906bfa8a2
-source-git-commit: b310e36c9eb148db631e7a3552a35dcccc652d60
+source-git-commit: ab774e937a15aaa04704e872579df880a9b80aaf
 workflow-type: tm+mt
 source-wordcount: '332'
 ht-degree: 0%
