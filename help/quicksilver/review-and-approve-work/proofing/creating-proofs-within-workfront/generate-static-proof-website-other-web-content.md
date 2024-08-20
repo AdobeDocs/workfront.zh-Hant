@@ -6,7 +6,7 @@ description: 您可以為網頁內容產生新的靜態校樣或現有靜態校�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 1c0511f6-c60b-4a81-bfff-55b6f866add6
-source-git-commit: ac908d52d1538b1ffe7d9bfca94cb9921445633d
+source-git-commit: 0a7cdf217d3c8227c569831b16f09c0b1d9c7111
 workflow-type: tm+mt
 source-wordcount: '776'
 ht-degree: 0%
@@ -75,7 +75,7 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   > URL必須少於1,000個字元。
+   > URL必須少於2,000個字元。
 
 1. 按一下您新增的URL。
 

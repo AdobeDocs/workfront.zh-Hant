@@ -8,16 +8,48 @@ author: Courtney
 feature: System Setup and Administration, Digital Content and Documents
 role: Admin
 exl-id: cfccb120-8759-49f2-8b7b-dabcd57d4fda
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: f391f43e96add70f8a5aeed259eee1259ed786a3
 workflow-type: tm+mt
-source-wordcount: '513'
-ht-degree: 7%
+source-wordcount: '587'
+ht-degree: 6%
 
 ---
 
 # 設定預設校訂設定
 
 這些設定允許您設定適用於使用者建立的所有新校樣的預設值。 但是，使用者可以在建立校訂時覆寫這些設定中的大部分。
+
+## 存取需求
+
++++ 展開以檢視本文中功能的存取需求。
+
+您必須具有下列存取權才能執行本文中的步驟：
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront計畫*</td> 
+   <td>任何</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront授權*</td> 
+   <td>
+   <p>新增：標準</p>
+   或
+   <p>目前：計畫</p></td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">存取層級設定*</td> 
+   <td> <p>您必須是Workfront管理員。 如需Workfront管理員的相關資訊，請參閱<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">授予使用者完整管理存取權</a>。</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+&#42;若要瞭解您擁有的計畫、授權型別或存取權，請連絡您的Workfront管理員。
+
++++
 
 ## 設定新校訂預設設定
 
