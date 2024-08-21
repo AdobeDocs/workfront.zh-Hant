@@ -4,20 +4,24 @@ user-type: administrator
 content-type: reference
 product-area: system-administration;user-management
 navigation-topic: administration-and-setup
-description: Workfront管理員可建立與您的部門結構一致的使用者群組。 群組與類似，但與團隊和公司不同。 Workfront管理員會授予群組對其需要工作和溝通的Workfront區域的存取權。 然後，每個群組都可以將其Workfront資訊（例如，使用者、範本和自訂表格）和專案與其他部門的資訊分開。
-author: Caroline
+description: 群組與類似，但與團隊和公司不同。 Workfront管理員會授予群組對其需要工作和溝通的Workfront區域的存取權。
+author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: bda8d47c-5ec7-4654-b7bd-c6fb854c3084
-source-git-commit: 86a0a9ddf5be1515ed8f5c2a537b0e2ccd5a1b63
+source-git-commit: 01487bb9cb195d6fa89bbe0fbdb7678254642714
 workflow-type: tm+mt
-source-wordcount: '95'
+source-wordcount: '123'
 ht-degree: 0%
 
 ---
 
 # 管理群組
+
+Workfront管理員可建立與您的部門結構一致的使用者群組。 群組與類似，但與團隊和公司不同。
+
+Workfront管理員會授予群組對其需要工作和溝通的Workfront區域的存取權。 然後，每個群組都可以將其Workfront資訊（例如，使用者、範本和自訂表格）和專案與其他部門的資訊分開。
 
 本節包含下列子章節：
 

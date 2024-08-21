@@ -2,23 +2,25 @@
 user-type: administrator
 product-area: system-administration
 navigation-topic: manage-deleted-items
-title: 設定刪除和還原物件時的影響時間
+title: 設定刪除和還原物件時數上的效果
 description: 您可以設定在有人刪除專案、任務或時數記錄所針對的問題時，時數會發生什麼情況。 您選擇的選項也會決定在稍後還原專案、任務或問題時發生的小時數。 (如需有關在Workfront中還原專案的詳細資訊，請參閱還原已刪除的專案。)
 feature: System Setup and Administration
 role: Admin
 exl-id: 466c3972-8108-49a6-98f6-f65f5fcc3617
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 01487bb9cb195d6fa89bbe0fbdb7678254642714
 workflow-type: tm+mt
-source-wordcount: '412'
+source-wordcount: '408'
 ht-degree: 0%
 
 ---
 
-# 設定刪除和還原物件時的影響時間
+# 設定刪除和還原物件時數上的效果
 
 您可以設定在有人刪除專案、任務或時數記錄所針對的問題時，時數會發生什麼情況。 您選擇的選項也會決定在稍後還原專案、任務或問題時發生的小時數。 (如需有關在Workfront中還原專案的詳細資訊，請參閱[還原已刪除的專案](../../../administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md)。)
 
 ## 存取需求
+
++++ 展開以檢視本文中功能的存取需求。
 
 您必須具有下列存取權才能執行本文中的步驟：
 
@@ -41,9 +43,11 @@ ht-degree: 0%
  </tbody> 
 </table>
 
++++
+
 ## 設定刪除和還原專案時如何管理小時
 
-1. 按一下Adobe Workfront右上角的&#x200B;**主要功能表**&#x200B;圖示![](assets/main-menu-icon.png)，然後按一下&#x200B;**設定** ![](assets/gear-icon-settings.png)。
+{{step-1-to-setup}}
 
 1. 展開&#x200B;**時程表和時數**，然後按一下&#x200B;**偏好設定**。
 

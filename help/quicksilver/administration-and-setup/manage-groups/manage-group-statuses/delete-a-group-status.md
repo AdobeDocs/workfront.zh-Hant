@@ -4,13 +4,13 @@ product-area: system-administration;user-management
 navigation-topic: manage-group-statuses
 title: 刪除群組狀態
 description: 作為群組管理員，您可以刪除您管理的群組的狀態（如果未在系統層級上設定為必要或鎖定狀態），或是刪除階層中較高群組的狀態。
-author: Caroline
+author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: bfce0325-fe6e-459f-96ca-9a5c94c61ed3
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: bd1a66950c6e16ef7eb05d385bd99fc2d3be35cc
 workflow-type: tm+mt
-source-wordcount: '573'
+source-wordcount: '569'
 ht-degree: 0%
 
 ---
@@ -29,6 +29,8 @@ ht-degree: 0%
 >* 至少有一個與群組或其子群組相關聯的物件處於未決核准狀態。
 
 ## 存取需求
+
++++ 展開以檢視本文中功能的存取需求。
 
 您必須具備下列專案才能執行本文所述的步驟：
 
@@ -49,9 +51,11 @@ ht-degree: 0%
 
 &#42;如果您需要瞭解您擁有的計畫或授權型別，請連絡您的Workfront管理員。
 
++++
+
 ## 刪除群組狀態
 
-1. 按一下Adobe Workfront右上角的&#x200B;**主要功能表**&#x200B;圖示![](assets/main-menu-icon.png)，然後按一下&#x200B;**設定** ![](assets/gear-icon-settings.png)。
+{{step-1-to-setup}}
 
 1. 在左側面板中，按一下&#x200B;**群組**。
 1. 按一下最上層群組的名稱。

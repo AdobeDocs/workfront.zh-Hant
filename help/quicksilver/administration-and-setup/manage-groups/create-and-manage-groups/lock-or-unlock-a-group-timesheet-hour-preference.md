@@ -2,15 +2,15 @@
 user-type: administrator
 product-area: system-administration;user-management;setup
 navigation-topic: create-and-manage-groups
-title: 鎖定或解鎖群組時程表和小時偏好設定
+title: 鎖定或解除鎖定群組時程表和小時喜好設定
 description: 如果您是群組管理員，可以在Workfront管理員在系統層級解除鎖定您的群組後，設定並鎖定該群組的時程表和小時偏好設定。
-author: Caroline
+author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 5b36106f-d521-4cc1-9f1f-647415c282b4
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: bd1a66950c6e16ef7eb05d385bd99fc2d3be35cc
 workflow-type: tm+mt
-source-wordcount: '629'
+source-wordcount: '625'
 ht-degree: 0%
 
 ---
@@ -43,9 +43,10 @@ Unlike other Lock/Unlock articles that start just like this one, we need the ste
 >* 如果您將群組移動到具有已解除鎖定偏好設定的群組下，則已移動的群組不受該偏好設定影響。
 >
 >  如果移動時鎖定了已移動群組中的偏好設定，則該偏好設定會維持鎖定狀態，但群組管理員現在可以將其解鎖，因為已為父群組解除鎖定。
->
 
 ## 存取需求
+
++++ 展開以檢視本文中功能的存取需求。
 
 您必須具備下列專案才能執行本文所述的步驟：
 
@@ -66,13 +67,15 @@ Unlike other Lock/Unlock articles that start just like this one, we need the ste
 
 &#42;如果您需要瞭解您擁有的計畫或授權型別，請連絡您的Workfront管理員。
 
++++
+
 ## 鎖定或解鎖群組時程表和小時偏好設定
 
 >[!TIP]
 >
 >如果您是Workfront管理員，可以前往「設定>時程表和時數>偏好設定」，然後在頁面頂端的方塊中搜尋群組名稱，略過步驟1至4。
 
-1. 按一下Adobe Workfront右上角的&#x200B;**主要功能表**&#x200B;圖示![](assets/main-menu-icon.png)，然後按一下&#x200B;**設定** ![](assets/gear-icon-settings.png)。
+{{step-1-to-setup}}
 
 1. 在左側面板中，按一下&#x200B;**群組**。
 1. 按一下您要鎖定或解除鎖定時程表和時數偏好設定的群組名稱。

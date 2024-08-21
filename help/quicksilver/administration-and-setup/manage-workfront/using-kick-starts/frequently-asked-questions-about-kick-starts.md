@@ -6,11 +6,11 @@ keywords: kickstart，kick-start，kickstart，kick-start
 navigation-topic: use-kick-starts
 title: 關於Kick-Start的常見問題
 description: 尋找有關使用Kick-Starts匯入和匯出Workfront資料的常見問題解答。
-author: Caroline
+author: LIsa
 feature: System Setup and Administration
 role: Admin
 exl-id: f286e03e-93a8-43f5-8c2d-2c36203776a8
-source-git-commit: 1ebdb3797e30a7e06f4dfd4a7e0e5f540351c126
+source-git-commit: 01487bb9cb195d6fa89bbe0fbdb7678254642714
 workflow-type: tm+mt
 source-wordcount: '412'
 ht-degree: 0%

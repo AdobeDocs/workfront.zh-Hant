@@ -4,13 +4,13 @@ product-area: system-administration;user-management
 navigation-topic: create-and-manage-subgroups
 title: 建立子群組
 description: 您可以在管理的群組下建立子群組，以組織使用者和專案，以及在Adobe Workfront中指派存取許可權。 通常，群組管理員會管理群組和子群組。 他們可以利用「群組」頁面，集中管理群組和子群組。
-author: Caroline
+author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: b59b1491-9a78-49c0-89c9-ab1ce0099e0b
-source-git-commit: 02191d80ea58f80de2e7be2ff55f43663e415e31
+source-git-commit: bd1a66950c6e16ef7eb05d385bd99fc2d3be35cc
 workflow-type: tm+mt
-source-wordcount: '883'
+source-wordcount: '879'
 ht-degree: 3%
 
 ---
@@ -24,6 +24,8 @@ ht-degree: 3%
 不過，通常群組管理員會管理群組和子群組。 他們可以利用「群組」頁面，集中管理群組和子群組。 若要瞭解群組與子群組在Workfront中的運作方式，請參閱[群組總覽](../../../administration-and-setup/manage-groups/groups-overview/groups.md)與[子群組總覽](../../../administration-and-setup/manage-groups/groups-overview/subgroups.md)。
 
 ## 存取需求
+
++++ 展開以檢視本文中功能的存取需求。
 
 您必須具備下列專案才能執行本文所述的步驟：
 
@@ -44,9 +46,11 @@ ht-degree: 3%
 
 &#42;如果您需要瞭解您擁有的計畫或授權型別，請連絡您的Workfront管理員。
 
++++
+
 ## 新增子群組
 
-1. 按一下Adobe Workfront右上角的&#x200B;**主要功能表**&#x200B;圖示![](assets/main-menu-icon.png)，然後按一下&#x200B;**設定** ![](assets/gear-icon-settings.png)。
+{{step-1-to-setup}}
 
 1. 按一下&#x200B;**群組**。
 

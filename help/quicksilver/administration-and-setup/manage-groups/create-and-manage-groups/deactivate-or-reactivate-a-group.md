@@ -4,13 +4,13 @@ product-area: system-administration;user-management;setup
 navigation-topic: create-and-manage-groups
 title: 停用或重新啟用群組
 description: 您可以停用您不再使用的管理群組。
-author: Caroline
+author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 99b81090-8d09-4130-a746-44ed1d76f971
-source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
+source-git-commit: bd1a66950c6e16ef7eb05d385bd99fc2d3be35cc
 workflow-type: tm+mt
-source-wordcount: '776'
+source-wordcount: '772'
 ht-degree: 0%
 
 ---
@@ -24,6 +24,8 @@ If Callisto adds the <b>Is active</b> checkbox to the Details page for groups yo
 您可以停用您不再使用的管理群組。
 
 ## 存取需求
+
++++ 展開以檢視本文中功能的存取需求。
 
 您必須具備下列專案才能執行本文所述的步驟：
 
@@ -44,6 +46,8 @@ If Callisto adds the <b>Is active</b> checkbox to the Details page for groups yo
 
 &#42;如果您需要瞭解您擁有的計畫或授權型別，請連絡您的Workfront管理員。
 
++++
+
 ## 停用或重新啟用群組
 
 >[!IMPORTANT]
@@ -55,9 +59,8 @@ If Callisto adds the <b>Is active</b> checkbox to the Details page for groups yo
 >* 將其從父群組中移除。 如需詳細資訊，請參閱[管理子群組](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/manage-subgroups.md)一文中的[從父群組中移除子群組，並將其設為最上層群組](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/manage-subgroups.md#make)一節。
 >
 >* 將其移至使用中群組的下方。 如需詳細資訊，請參閱文章[管理子群組](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/manage-subgroups.md)中的[建立、移動、檢視、編輯、複製、重新命名、匯出或刪除子群組](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/manage-subgroups.md#create)一節。
->
 
-1. 按一下Adobe Workfront右上角的&#x200B;**主要功能表**&#x200B;圖示![](assets/main-menu-icon.png)，然後按一下&#x200B;**設定** ![](assets/gear-icon-settings.png)。
+{{step-1-to-setup}}
 
 1. 在左側面板中，選取&#x200B;**群組**。
 

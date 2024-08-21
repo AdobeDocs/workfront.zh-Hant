@@ -1,13 +1,13 @@
 ---
 title: 使用增強型驗證時更新IDP中的SAML 2.0中繼資料
 description: 身為Adobe Workfront管理員，您可以整合Workfront單一登入(SSO)與任何支援安全性宣告標籤語言(SAML) 2.0通訊協定的身分提供者。
-author: Caroline
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 55d7d8a8-0dfe-45bc-a23a-47111347e9ca
-source-git-commit: f783e3033a67b4702e4e2d80214cbb0c4591b922
+source-git-commit: 206ea3ad1398849e26dea7fe77f6d7c027825b6f
 workflow-type: tm+mt
-source-wordcount: '942'
+source-wordcount: '938'
 ht-degree: 0%
 
 ---
@@ -26,6 +26,8 @@ ht-degree: 0%
 
 
 ## 存取需求
+
++++ 展開以檢視本文中功能的存取需求。
 
 您必須具有下列存取權才能執行本文中的步驟：
 
@@ -47,6 +49,8 @@ ht-degree: 0%
   </tr> 
  </tbody> 
 </table>
+
++++
 
 ## 使用Okta作為身分提供者
 
@@ -120,7 +124,8 @@ Okta是支援SAML 2.0的身分提供者範例。本節說明如何使用Okta作�
    1. 複製瀏覽器URL欄位中顯示的URL。
 
 1. 以Workfront管理員身分登入Workfront。
-1. 按一下Adobe Workfront右上角的&#x200B;**主要功能表**&#x200B;圖示![](assets/main-menu-icon.png)，然後按一下&#x200B;**設定** ![](assets/gear-icon-settings.png)。
+
+{{step-1-to-setup}}
 
 1. 在左側面板中，按一下&#x200B;**系統** > **單一登入(SSO)**。
 

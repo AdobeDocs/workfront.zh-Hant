@@ -5,13 +5,13 @@ keywords: 管理，子群組，編輯
 navigation-topic: create-and-manage-subgroups
 title: 管理子群組
 description: 身為子群組的群組管理員，您可以建立、移動、檢視、編輯、複製、重新命名、匯出及刪除子群組。 您也可以將子群組從父群組中移除，使其成為最上層群組。
-author: Caroline
+author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 5186d266-fa9f-445d-9dcc-bc07eb147b60
-source-git-commit: 02191d80ea58f80de2e7be2ff55f43663e415e31
+source-git-commit: bd1a66950c6e16ef7eb05d385bd99fc2d3be35cc
 workflow-type: tm+mt
-source-wordcount: '1272'
+source-wordcount: '1253'
 ht-degree: 1%
 
 ---
@@ -27,6 +27,8 @@ ht-degree: 1%
 如需子群組的詳細資訊，請參閱[子群組總覽](../../../administration-and-setup/manage-groups/groups-overview/subgroups.md)。
 
 ## 存取需求
+
++++ 展開以檢視本文中功能的存取需求。
 
 您必須具備下列專案才能執行本文所述的步驟：
 
@@ -47,9 +49,11 @@ ht-degree: 1%
 
 &#42;如果您需要瞭解您擁有的計畫或授權型別，請連絡您的Workfront管理員。
 
++++
+
 ## 建立、移動、檢視、編輯、複製、重新命名、匯出或刪除子群組
 
-1. 按一下Adobe Workfront右上角的&#x200B;**主要功能表**&#x200B;圖示![](assets/main-menu-icon.png)，然後按一下&#x200B;**設定** ![](assets/gear-icon-settings.png)。
+{{step-1-to-setup}}
 
 1. 在左側面板中，按一下&#x200B;**群組** ![](assets/groups-icon.png)。
 
@@ -125,9 +129,7 @@ ht-degree: 1%
 >
 >在Workfront中，此行銷部門由稱為行銷的群組表示，有3個稱為現場行銷、產品行銷和數位行銷的子群組。 若要列出屬於整個行銷部門（全部4個群組）的專案，您可以使用以下篩選規則為專案區域建立篩選：
 >
->```
->Group: Top Parent ID > Equal > Marketing
->```
+>`Group: Top Parent ID > Equal > Marketing`
 >
 >您也可以使用「頂層父項名稱」欄位來識別與頂層群組相關聯的資料，但僅限於在「檢視」中，而不適用於「篩選器」或「群組」。
 
@@ -141,7 +143,7 @@ ht-degree: 1%
 >
 >如需停用及重新啟用群組的說明，請參閱文章[檢視及管理群組詳細資料](../../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-manage-a-groups-details.md)中的[檢視及管理群組詳細資料](../../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-manage-a-groups-details.md#view)及[檢視及管理群組詳細資料](../../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-manage-a-groups-details.md#inactive)小節。
 
-1. 按一下Adobe Workfront右上角的&#x200B;**主要功能表**&#x200B;圖示![](assets/main-menu-icon.png)，然後按一下&#x200B;**設定** ![](assets/gear-icon-settings.png)。
+{{step-1-to-setup}}
 
 1. 在左側面板中，按一下&#x200B;**群組** ![](assets/groups-icon.png)。
 
@@ -159,8 +161,6 @@ ht-degree: 1%
 
 * 如果您複製的子群組有自己的子群組，它們會包含在複製中，其名稱的格式如下：
 
-  ```
-  Original subgroup name (Copy)
-  ```
+  `Original subgroup name (Copy)`
 
 * 屬於公用群組的任何子群組也是公用的，因此任何具有編輯 — 使用者存取權的使用者（在群組內或群組外）都可以將使用者新增至子群組。

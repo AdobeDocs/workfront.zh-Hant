@@ -3,20 +3,20 @@ user-type: administrator
 product-area: system-administration
 keywords: kickstart，kick-start，kickstart，kick-start
 navigation-topic: use-kick-starts
-title: 透過Kick-Start從Adobe Workfront匯出資料
+title: 透過Kick-Start從Workfront匯出資料
 description: 身為Adobe Workfront管理員，您可以使用Kick-Starts資料匯出工具，從Workfront匯出資料。
 author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 7f56b63e-a674-43e4-bef6-d276898e2074
-source-git-commit: 8e076e9c89ad208aa94ddefead4b8c6105992542
+source-git-commit: 01487bb9cb195d6fa89bbe0fbdb7678254642714
 workflow-type: tm+mt
-source-wordcount: '1013'
-ht-degree: 7%
+source-wordcount: '1011'
+ht-degree: 8%
 
 ---
 
-# 透過Kick-Start從Adobe Workfront匯出資料
+# 透過Kick-Start從Workfront匯出資料
 
 <!-- Audited: 2/2024 -->
 

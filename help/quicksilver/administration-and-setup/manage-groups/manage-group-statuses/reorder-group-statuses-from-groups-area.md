@@ -4,13 +4,13 @@ product-area: system-administration;user-management
 navigation-topic: manage-group-statuses
 title: 重新排序群組狀態
 description: 作為群組管理員，您可以變更您管理之群組的專案、任務和問題狀態的順序。
-author: Caroline
+author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 0cdb4d10-7792-4140-8dec-ef805f668f90
-source-git-commit: 5d36c2c959dbfd00920eaf0a16409102b99de042
+source-git-commit: bd1a66950c6e16ef7eb05d385bd99fc2d3be35cc
 workflow-type: tm+mt
-source-wordcount: '506'
+source-wordcount: '487'
 ht-degree: 6%
 
 ---
@@ -38,6 +38,8 @@ The system version of this snippet mentions a single group because a sysadmin ca
 
 ## 存取需求
 
++++ 展開以檢視本文中功能的存取需求。
+
 您必須具備下列專案才能執行本文所述的步驟：
 
 <table style="table-layout:auto"> 
@@ -56,6 +58,8 @@ The system version of this snippet mentions a single group because a sysadmin ca
 </table>
 
 &#42;如果您需要瞭解您擁有的計畫或授權型別，請連絡您的Workfront管理員。
+
++++
 
 ## 預設狀態順序
 
@@ -108,7 +112,7 @@ The system version of this snippet mentions a single group because a sysadmin ca
 
 ## 在您管理的群組中重新排序任務和專案狀態
 
-1. 按一下Adobe Workfront右上角的&#x200B;**主要功能表**&#x200B;圖示![](assets/main-menu-icon.png)，然後按一下&#x200B;**設定** ![](assets/gear-icon-settings.png)。
+{{step-1-to-setup}}
 
 1. 在左側面板中，按一下&#x200B;**群組**，然後按一下群組的名稱。
 1. 在左側面板中，按一下&#x200B;**狀態**。
@@ -122,7 +126,7 @@ The system version of this snippet mentions a single group because a sysadmin ca
 
 ## 重新排序問題的狀態
 
-1. 按一下Adobe Workfront右上角的&#x200B;**主要功能表**&#x200B;圖示![](assets/main-menu-icon.png)，然後按一下&#x200B;**設定** ![](assets/gear-icon-settings.png)。
+{{step-1-to-setup}}
 
 1. 在左側面板中，按一下&#x200B;**群組**，然後按一下群組的名稱。
 1. 在左側面板中，按一下&#x200B;**狀態**。

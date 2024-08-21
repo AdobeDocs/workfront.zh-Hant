@@ -9,9 +9,9 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 86c120de-16b8-4ca8-a7a1-76ece70c0505
-source-git-commit: 0afd578ebaa55d911c04a1d08fbcadddc1d05bbc
+source-git-commit: 01487bb9cb195d6fa89bbe0fbdb7678254642714
 workflow-type: tm+mt
-source-wordcount: '1319'
+source-wordcount: '1315'
 ht-degree: 0%
 
 ---
@@ -29,6 +29,8 @@ Though this might not seem that helpful because it is more of a catalog/TOC, it'
 >當您被指派為群組的管理員時，您將繼承其下任何子群組的群組管理員角色。 唯一可以管理子群組的使用者是上方最上層群組的群組管理員，以及任何指派給子群組的群組管理員。
 
 ## 存取需求
+
++++ 展開以檢視本文中功能的存取需求。
 
 您必須具備下列專案才能執行本文所述的步驟：
 
@@ -48,6 +50,8 @@ Though this might not seem that helpful because it is more of a catalog/TOC, it'
 </table>
 
 &#42;如果您需要瞭解您擁有的計畫或授權型別，請連絡您的Workfront管理員。
+
++++
 
 ## 管理群組的成員資格
 
@@ -71,7 +75,7 @@ Add this at end of 2nd-to-last sentence in this^ paragraph when they add the **I
 
 您無需離開所檢視群組的首頁面，即可快速編輯、複製或刪除群組。
 
-1. 按一下Adobe Workfront右上角的&#x200B;**主要功能表**&#x200B;圖示![](assets/main-menu-icon.png)，然後按一下&#x200B;**設定** ![](assets/gear-icon-settings.png)。
+{{step-1-to-setup}}
 
 1. 按一下&#x200B;**群組**。
 

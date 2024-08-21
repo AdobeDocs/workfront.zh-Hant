@@ -2,20 +2,20 @@
 user-type: administrator
 product-area: system-administration;user-management;setup
 navigation-topic: security
-title: 設定驗證的密碼原則
+title: 設定用於驗證的密碼原則
 description: 身為Adobe Workfront管理員，您可以設定密碼原則選項，以自訂Workfront系統的驗證體驗。
-author: Caroline
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 7832986b-a5e8-4f14-8802-d3b8e32b14bc
-source-git-commit: 970cc86b00dc1afe0473ac3a387e7ce47e4a2433
+source-git-commit: 206ea3ad1398849e26dea7fe77f6d7c027825b6f
 workflow-type: tm+mt
-source-wordcount: '724'
-ht-degree: 1%
+source-wordcount: '705'
+ht-degree: 2%
 
 ---
 
-# 設定驗證的密碼原則
+# 設定用於驗證的密碼原則
 
 {{important-admin-console-onboard}}
 
@@ -26,6 +26,8 @@ ht-degree: 1%
 改進的密碼管理功能即將推出，或可能已經提供給您的組織使用。 視您的組織是否具備新驗證體驗的存取權而定，請使用下列任一章節。
 
 ## 存取需求
+
++++ 展開以檢視本文中功能的存取需求。
 
 您必須具有下列存取權才能執行本文中的步驟：
 
@@ -48,13 +50,15 @@ ht-degree: 1%
  </tbody> 
 </table>
 
++++
+
 ## 設定驗證（適用於所有客戶） {#configure-authentication-available-for-all-customers}
 
 所有客戶皆會顯示驗證選項。 已改善的密碼管理功能即將推出，或可能已經提供給您的組織使用，如本文的[設定增強驗證)](#configure-enhanced-authentication-coming-soon)一節所述。
 
 若要設定驗證偏好設定：
 
-1. 按一下Adobe Workfront右上角的&#x200B;**主要功能表**&#x200B;圖示![](assets/main-menu-icon.png)，然後按一下&#x200B;**設定** ![](assets/gear-icon-settings.png)。
+{{step-1-to-setup}}
 
 1. 按一下&#x200B;**系統** > **驗證**。
 
@@ -97,7 +101,7 @@ ht-degree: 1%
 
 若要設定增強的驗證偏好設定：
 
-1. 按一下Adobe Workfront右上角的&#x200B;**主要功能表**&#x200B;圖示![](assets/main-menu-icon.png)，然後按一下&#x200B;**設定** ![](assets/gear-icon-settings.png)。
+{{step-1-to-setup}}
 
 1. 按一下&#x200B;**系統** > **增強式驗證**。
 1. 在&#x200B;**密碼長度**&#x200B;方塊中，輸入有效密碼所需的最小字元數。

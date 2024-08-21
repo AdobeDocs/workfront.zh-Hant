@@ -9,9 +9,9 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: a815aeb1-3403-4491-a8ad-7e47c519905c
-source-git-commit: afbf2e2fbfcc2c527223da008518bc7632872c23
+source-git-commit: bd1a66950c6e16ef7eb05d385bd99fc2d3be35cc
 workflow-type: tm+mt
-source-wordcount: '558'
+source-wordcount: '551'
 ht-degree: 0%
 
 ---
@@ -32,6 +32,8 @@ Workfront管理員也可以為任何群組執行此動作。
 
 ## 存取需求
 
++++ 展開以檢視本文中功能的存取需求。
+
 您必須具備下列專案才能執行本文所述的步驟：
 
 <table style="table-layout:auto"> 
@@ -51,10 +53,15 @@ Workfront管理員也可以為任何群組執行此動作。
 
 &#42;如果您需要瞭解您擁有的計畫或授權型別，請連絡您的Workfront管理員。
 
++++
+
 ## 檢視及設定群組的事件通知
 
-1. （條件式與選擇性）如果您是Workfront管理員，而且您已經在電子郵件通知頁面（「設定>電子郵件>通知」），您可以執行下列動作，然後跳至步驟6：刪除清單上方方塊中的&#x200B;**系統事件通知**，開始在方塊中輸入群組名稱，然後在其出現時按一下。
-1. 按一下Adobe Workfront右上角的&#x200B;**主要功能表**&#x200B;圖示![](assets/main-menu-icon.png)，然後按一下&#x200B;**設定** ![](assets/gear-icon-settings.png)。
+>[!TIP]
+>
+>如果您是Workfront管理員，而且您已在「電子郵件通知」頁面（「設定>電子郵件>通知」），您可以執行下列動作，然後跳至步驟6：刪除清單上方方塊中的&#x200B;**系統事件通知**，開始在方塊中輸入群組名稱，然後在其出現時按一下。
+
+{{step-1-to-setup}}
 
 1. 在左側面板中，按一下&#x200B;**群組** ![](assets/groups-icon.png)。
 

@@ -3,14 +3,14 @@ user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: manage-group-statuses
 title: 鎖定和未鎖定的群組狀態
-description: 鎖定群組的自訂狀態是確保群組及其子群組中的人員在其工作流程中使用相同處理序的方法。 鎖定群組狀態時，該群組和較低群組中的所有使用者都可使用該群組。 雖然您(或Workfront管理員)可以編輯或刪除您鎖定的狀態，但下列子群組的管理員無法為這些群組執行此操作。 相反地，解鎖群組的自訂狀態可讓較低子群組的管理員在管理工作流程上有更大的彈性。 他們可以變更解除鎖定狀態的屬性，或刪除其群組的屬性。
-author: Caroline
+description: 鎖定群組的自訂狀態是確保群組及其子群組中的人員在其工作流程中使用相同處理序的方法。 鎖定群組狀態時，該群組和較低群組中的所有使用者都可使用該群組。
+author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 3463e4cb-7336-49b7-b81a-c2acef72f61d
-source-git-commit: d67de32fcbe4706cf8a1fc6f5bb8ec9d08b07119
+source-git-commit: bd1a66950c6e16ef7eb05d385bd99fc2d3be35cc
 workflow-type: tm+mt
-source-wordcount: '343'
+source-wordcount: '286'
 ht-degree: 0%
 
 ---

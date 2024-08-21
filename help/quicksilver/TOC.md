@@ -3,7 +3,7 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文件、教學課程和其他資源，了解如何在您的組織中實施並有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: 38f103eea19fa85104f40fa368b975673fc74d9d
+source-git-commit: b61879975732bd8e9b6c94143c2134bfe023f7ea
 workflow-type: tm+mt
 source-wordcount: '14337'
 ht-degree: 2%
@@ -707,8 +707,8 @@ ht-degree: 2%
       * 管理已刪除的項目 {#manage-deleted-items}
          * [管理已刪除的專案](administration-and-setup/manage-workfront/manage-deleted-items/manage-deleted-items.md)
          * [復原已刪除的項目](administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md)
-         * [檢視還原的專案](administration-and-setup/manage-workfront/manage-deleted-items/view-restored-items.md)
-         * [刪除的物件如何影響物件](administration-and-setup/manage-workfront/manage-deleted-items/configure-how-hours-affected-when-obj-deleted-restored.md)
+         * [檢視已復原的項目](administration-and-setup/manage-workfront/manage-deleted-items/view-restored-items.md)
+         * [刪除的物件如何影響小時](administration-and-setup/manage-workfront/manage-deleted-items/configure-how-hours-affected-when-obj-deleted-restored.md)
          * [還原個別子物件](administration-and-setup/manage-workfront/manage-deleted-items/restoring-individual-child-objects.md)
       * 診斷{#diagnostics}
          * [診斷](administration-and-setup/manage-workfront/run-diagnostics/diagnostics.md)

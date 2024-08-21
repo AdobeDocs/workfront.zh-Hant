@@ -3,14 +3,14 @@ user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: manage-group-statuses
 title: 使用自訂狀態作為群組的預設狀態
-description: 作為群組管理員，您可以將自訂狀態設定為您管理的群組或子群組的預設狀態。 當系統需要自動將Workfront狀態指派給專案、任務或問題時，這將很有用。 專案、任務或問題一律會顯示您設定為預設狀態的自訂狀態，而不是顯示其所對應的Workfront狀態。
-author: Caroline
+description: 作為群組管理員，您可以將自訂狀態設定為您管理的群組或子群組的預設狀態。
+author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 51018635-cd9a-402d-a136-c5bec4707cda
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: bd1a66950c6e16ef7eb05d385bd99fc2d3be35cc
 workflow-type: tm+mt
-source-wordcount: '728'
+source-wordcount: '678'
 ht-degree: 0%
 
 ---
@@ -31,6 +31,8 @@ ht-degree: 0%
 
 ## 存取需求
 
++++ 展開以檢視本文中功能的存取需求。
+
 您必須具備下列專案才能執行本文所述的步驟：
 
 <table style="table-layout:auto"> 
@@ -50,6 +52,8 @@ ht-degree: 0%
 
 &#42;如果您需要瞭解您擁有的計畫或授權型別，請連絡您的Workfront管理員。
 
++++
+
 ## 問題狀態
 
 如果自訂狀態是問題狀態，則必須為其啟用所有四種問題型別（錯誤報告、變更順序、問題和請求）。 例如，在下方顯示的問題狀態中，由於未選取「變更單」問題型別，因此「重新開啟」狀態無法作為預設狀態：
@@ -58,7 +62,8 @@ ht-degree: 0%
 
 ## 將自訂狀態設定為群組的預設狀態
 
-1. 按一下Adobe Workfront右上角的&#x200B;**主要功能表**&#x200B;圖示![](assets/main-menu-icon.png)，然後按一下&#x200B;**設定** ![](assets/gear-icon-settings.png)。
+{{step-1-to-setup}}
+
 1. 在左側面板中，按一下&#x200B;**群組** ![](assets/groups-icon.png)，然後按一下您要建立或自訂狀態的群組名稱。
 1. 在左側面板中，按一下&#x200B;**狀態** ![](assets/gear-icon-settings.png)。
 1. 視您要設定為預設狀態的狀態型別而定，開啟&#x200B;**專案**、**任務**&#x200B;或&#x200B;**問題**&#x200B;標籤。

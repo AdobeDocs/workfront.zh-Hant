@@ -2,16 +2,16 @@
 user-type: administrator
 product-area: system-administration;user-management;setup
 navigation-topic: create-and-manage-groups
-title: 不同型別的管理員允許的動作
+title: 允許群組管理員執行的動作
 description: 此表格會比較管理Workfront系統的Adobe Workfront管理員、管理最上層群組的群組管理員以及管理子群組的群組管理員可用的管理活動。
 author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: f556aa0b-71c5-48a9-8a84-72f1fbb2c86e
-source-git-commit: 9dcd8dbe0474bdbb1fd50bb1f2525e03cd350559
+source-git-commit: bd1a66950c6e16ef7eb05d385bd99fc2d3be35cc
 workflow-type: tm+mt
-source-wordcount: '539'
-ht-degree: 2%
+source-wordcount: '537'
+ht-degree: 3%
 
 ---
 
@@ -98,7 +98,7 @@ ht-degree: 2%
    <td>✓ **</td> 
   </tr> 
   <tr> 
-   <td>建立及管理版面範本</td> 
+   <td>建立和管理版面配置範本</td> 
    <td>✓ (A) </td> 
    <td>✓ (A)</td> 
    <td>✓ (A)</td> 

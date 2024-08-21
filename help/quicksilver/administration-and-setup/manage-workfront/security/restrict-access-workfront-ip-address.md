@@ -4,14 +4,14 @@ product-area: system-administration
 navigation-topic: security
 title: 依IP位址限制對Adobe Workfront的存取
 description: 您可以設定Adobe Workfront IP允許清單，將對Workfront的存取限製為您指定的45個IP位址或IP位址範圍。 這為Workfront應用程式提供額外的安全層。
-author: Caroline
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: aed65b42-d534-453a-885d-f922114987bc
-source-git-commit: 7bd3d2252b124a07a112aaa2b7798063087e7cab
+source-git-commit: 206ea3ad1398849e26dea7fe77f6d7c027825b6f
 workflow-type: tm+mt
-source-wordcount: '451'
-ht-degree: 1%
+source-wordcount: '447'
+ht-degree: 2%
 
 ---
 
@@ -22,6 +22,8 @@ ht-degree: 1%
 這些IP位址或IP位址範圍應由您的網路管理員提供。
 
 ## 存取需求
+
++++ 展開以檢視本文中功能的存取需求。
 
 您必須具備下列專案才能執行本文所述的步驟：
 
@@ -44,6 +46,8 @@ ht-degree: 1%
  </tbody> 
 </table>
 
++++
+
 ## 其他允許清單
 
 如果您的防火牆或郵件伺服器設定為僅允許特定廠商存取，則必須將特定IP位址新增至其允許清單。 這可在您的環境與Adobe Workfront伺服器之間開啟通訊。 如需相關資訊，請參閱[設定防火牆的允許清單](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md)。
@@ -54,7 +58,7 @@ ht-degree: 1%
 
 將IP位址新增至Workfront允許清單後，只能使用這些IP位址來存取Workfront。 嘗試從其他IP位址存取Workfront的使用者會收到錯誤訊息，指出其IP位址遭到封鎖。
 
-1. 按一下Adobe Workfront右上角的&#x200B;**主要功能表**&#x200B;圖示![](assets/main-menu-icon.png)，然後按一下&#x200B;**設定** ![](assets/gear-icon-settings.png)。
+{{step-1-to-setup}}
 
 1. 按一下&#x200B;**系統** > **客戶資訊。**
 

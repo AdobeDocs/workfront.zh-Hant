@@ -4,13 +4,13 @@ product-area: system-administration;user-management
 navigation-topic: security
 title: 防止重複使用者
 description: 在Adobe Workfront中建立新使用者時，您無法再使用已由其他使用者使用的電子郵件地址，即使電子郵件地址依大小寫而異(例如JohnDoe@example.com和johndoe@example.com)。 此外，為了準備迎接未來的驗證增強功能，請確保所有使用者在Workfront執行個體中具有唯一的電子郵件地址。
-author: Caroline
+author: Becky, Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 84d9a752-e894-42cf-9b40-375e35f02c97
-source-git-commit: 8bcc2859b3b6ce7a264c8f234536a93b7761ab6b
+source-git-commit: 206ea3ad1398849e26dea7fe77f6d7c027825b6f
 workflow-type: tm+mt
-source-wordcount: '610'
+source-wordcount: '607'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,8 @@ ht-degree: 0%
 在Adobe Workfront中建立新使用者時，您無法再使用已由其他使用者使用的電子郵件地址，即使電子郵件地址依大小寫而異(例如JohnDoe@example.com和johndoe@example.com)。 此外，為了準備迎接未來的驗證增強功能，請確保所有使用者在Workfront執行個體中具有唯一的電子郵件地址。
 
 ## 存取需求
+
++++ 展開以檢視本文中功能的存取需求。
 
 您必須具有下列存取權才能執行本文中的步驟：
 
@@ -42,6 +44,8 @@ ht-degree: 0%
  </tbody> 
 </table>
 
++++
+
 ## 建立具有唯一電子郵件地址的使用者
 
 從2019.4版開始，在Workfront中建立新使用者時，您無法再使用已由其他使用者使用的電子郵件地址，即使電子郵件地址會依大小寫而異。 例如，如果另一個使用者的電子郵件地址為JohnDoe@example.com，則您無法以johndoe@example.com的電子郵件地址建立另一個使用者。
@@ -53,7 +57,7 @@ ht-degree: 0%
 
 1. 檢查任何重複的使用者，並決定不再需要哪個使用者。
 
-   1. 按一下Workfront右上角的&#x200B;**主要功能表**&#x200B;圖示![](assets/main-menu-icon.png)，然後按一下&#x200B;**使用者**。![](assets/users-icon-in-main-menu.png)
+   {{step-1-to-users}}
 
    1. 在&#x200B;**篩選器**&#x200B;功能表中，選取&#x200B;**全部**。
 

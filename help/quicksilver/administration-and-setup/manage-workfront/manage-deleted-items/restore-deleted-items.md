@@ -3,19 +3,19 @@ user-type: administrator
 product-area: system-administration
 navigation-topic: manage-deleted-items
 title: 還原已刪除的專案
-description: 如果您是Workfront管理員，可以在Adobe Workfront中還原在過去30天內刪除的專案、任務、問題、檔案和範本。 30天後，這些專案會永久刪除且無法還原。 當您還原物件時，也會還原其所有子物件和欄位。 例如，如果您還原專案，專案中的所有任務、問題、檔案、小時、附註、指派和自訂資料也會還原。items
+description: 如果您是Workfront管理員，可以在Adobe Workfront中還原在過去30天內刪除的專案、任務、問題、檔案和範本。 30天後，這些專案會永久刪除且無法還原。
 feature: System Setup and Administration
 author: Lisa
 role: Admin
 exl-id: e5b63652-ce16-44a9-a806-a41f19970ee1
-source-git-commit: 43afa8136e51332a0970b01fff36113d5bf42294
+source-git-commit: 01487bb9cb195d6fa89bbe0fbdb7678254642714
 workflow-type: tm+mt
-source-wordcount: '1082'
-ht-degree: 1%
+source-wordcount: '1044'
+ht-degree: 2%
 
 ---
 
-# 還原已刪除的專案
+# 復原已刪除的項目
 
 <!--Audited: 12/2023-->
 

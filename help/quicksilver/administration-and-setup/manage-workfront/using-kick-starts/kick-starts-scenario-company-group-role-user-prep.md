@@ -9,18 +9,20 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: b83e2e35-dd9d-4d98-b8d4-2f8718b3c6c1
-source-git-commit: 5d36c2c959dbfd00920eaf0a16409102b99de042
+source-git-commit: 01487bb9cb195d6fa89bbe0fbdb7678254642714
 workflow-type: tm+mt
-source-wordcount: '1104'
+source-wordcount: '1100'
 ht-degree: 2%
 
 ---
 
-# Kick-Start情境：公司、群組、角色和使用者Kick-Start準備
+# Kick-Starts情境：公司、群組、角色和使用者Kick-Starts準備
 
 開始實作Adobe Workfront時，您可以匯入客戶清單、內部部門、職位角色和使用者資訊，而不是手動輸入資料。
 
 ## 存取需求
+
++++ 展開以檢視本文中功能的存取需求。
 
 您必須具有下列存取權才能執行本文中的步驟：
 
@@ -42,6 +44,8 @@ ht-degree: 2%
   </tr> 
  </tbody> 
 </table>
+
++++
 
 ## 您可以匯入的內容
 
@@ -67,7 +71,7 @@ ht-degree: 2%
  </tbody> 
 </table>
 
-角色名稱必須是唯一的，無法匯入現有職位角色。
+角色名稱必須是唯一的。 無法匯入現有職位角色。
 
 下表顯示要匯入的使用者以及每個使用者的數個使用者屬性：
 
@@ -157,7 +161,7 @@ ht-degree: 2%
 
 ## 下載Kick-Start范
 
-1. 按一下Adobe Workfront右上角的&#x200B;**主要功能表**&#x200B;圖示![](assets/main-menu-icon.png)，然後按一下&#x200B;**設定** ![](assets/gear-icon-settings.png)。
+{{step-1-to-setup}}
 
 1. 按一下&#x200B;**系統** > **Kick-Starts** > **匯入資料。**
 
@@ -299,4 +303,4 @@ ht-degree: 2%
 1. 視需要填寫其他使用者詳細資訊，然後儲存檔案。
 1. 匯入Excel檔案。
 
-   請依照本文&#x200B;**匯入Kick Start檔案**&#x200B;章節中提供的指示進行。
+   遵循[使用Kick-Start範本將資料匯入Adobe Workfront](/help/quicksilver/administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md)中提供的指示。

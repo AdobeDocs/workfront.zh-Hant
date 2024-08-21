@@ -3,20 +3,20 @@ user-type: administrator
 product-area: system-administration
 keywords: kickstart，kick-start，kickstart，kick-start
 navigation-topic: use-kick-starts
-title: 使用Kick-Start範本將資料匯入Adobe Workfront
+title: 使用Kick-Start範本將資料匯入Workfront
 description: Kick-Start是特別格式化的Excel活頁簿，可填入您要匯入Workfront的資料。 Adobe Workfront提供了一個Kick-Start範本，您可以使用它來執行此操作，如Kick-Start資料匯入工具中所述。
 author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 25813946-e338-4dd9-b02c-d20fa18c539c
-source-git-commit: 8e076e9c89ad208aa94ddefead4b8c6105992542
+source-git-commit: 01487bb9cb195d6fa89bbe0fbdb7678254642714
 workflow-type: tm+mt
-source-wordcount: '2755'
+source-wordcount: '2753'
 ht-degree: 6%
 
 ---
 
-# 使用Kick-Start範本將資料匯入Adobe Workfront
+# 使用Kick-Start範本將資料匯入Workfront
 
 <!--Audited: 12/2023-->
 

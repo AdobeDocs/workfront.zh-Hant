@@ -3,26 +3,26 @@ user-type: administrator
 product-area: system-administration;projects
 keywords: kickstart，kick-start，kickstart，kick-start
 navigation-topic: use-kick-starts
-title: Kick-Starts情境 — 簡單的專案和任務匯入準備
+title: 「Kick-Starts情境：簡單的專案和任務匯入準備」
 description: 詳細說明使用Kick Start方法匯入基本專案和任務的可用設定和控制項。
 author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: c095ce9d-b189-449b-bd13-2633837697ed
-source-git-commit: 101a5a80d00a8113ce31222b92f77300a5b0ce8a
+source-git-commit: 01487bb9cb195d6fa89bbe0fbdb7678254642714
 workflow-type: tm+mt
-source-wordcount: '1476'
+source-wordcount: '1475'
 ht-degree: 9%
 
 ---
 
 # Kick-Starts情境：簡單的專案和任務匯入準備
 
-詳細說明使用Kick Start方法匯入基本專案和任務的可用設定和控制項。
+詳細說明使用Kick-Start方法匯入基本專案和任務的可用設定和控制項。
 
 ## 情境
 
-實作團隊寧可匯入使用中專案的專案與任務資訊，也不用手動將此資料輸入系統。
+實作團隊寧可匯入使用中專案的專案與任務資訊，也不願手動將此資料輸入系統中。
 
 * [專案](#projects)
 * [任務清單](#task-list)

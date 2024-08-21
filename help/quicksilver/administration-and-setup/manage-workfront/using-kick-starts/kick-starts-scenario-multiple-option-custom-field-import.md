@@ -3,15 +3,15 @@ user-type: administrator
 product-area: system-administration;user-management
 keywords: kickstart，kick-start，kickstart，kick-start
 navigation-topic: use-kick-starts
-title: 「Kick-Starts案例：將多個選項自訂欄位匯入Workfront」
+title: 「Kick-Starts情境：將多個選項自訂欄位匯入Workfront」
 description: 您可以使用Kick-Start功能，在Adobe Workfront中匯入具有多個選項的自訂欄位。
-author: Courtney
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 70f3dac7-f449-4dc8-9d7d-a5284b37f9ec
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: 01487bb9cb195d6fa89bbe0fbdb7678254642714
 workflow-type: tm+mt
-source-wordcount: '2128'
+source-wordcount: '2096'
 ht-degree: 0%
 
 ---
@@ -51,8 +51,9 @@ ht-degree: 0%
 
 若要從Workfront匯出現有資料：
 
-1. 按一下Workfront介面右上角的&#x200B;**主要功能表>設定**。
-1. 向左展開&#x200B;**系統**&#x200B;功能表，然後按一下&#x200B;**匯出資料(Kick-Starts)**。
+{{step-1-to-setup}}
+
+1. 展開左側功能表中的&#x200B;**系統**，然後按一下&#x200B;**匯出資料(Kick-Starts)**。
 
    ![](assets/export-data-kick-starts-link-in-setup.png)
 
@@ -88,9 +89,9 @@ ht-degree: 0%
 
 掃描系統中現有自訂欄位的相關資訊後，您可以下載新的快速啟動範本進行匯入。
 
-1. 按一下Workfront介面右上角的&#x200B;**主要功能表>設定**。
+{{step-1-to-setup}}
 
-1. 向左展開&#x200B;**系統**&#x200B;功能表。
+1. 展開左側功能表中的&#x200B;**系統**。
 
 1. 按一下&#x200B;**匯入資料(Kick-Starts)**。
 
@@ -129,9 +130,6 @@ ht-degree: 0%
    >如需Workfront資料庫中物件名稱的相關資訊，請參閱[API總管](../../../wf-api/general/api-explorer.md)。
    >
    >![](assets/sheets-included-in-custom-data-export-kick-start-file.png)
-
-
-
 
 
 1. 請確認下列資訊的格式正確：
@@ -245,7 +243,9 @@ ht-degree: 0%
 
 執行前述各節所述的步驟後，繼續下列步驟，將新欄位和表單上傳至Workfront：
 
-1. 按一下&#x200B;**主要功能表>設定>系統**&#x200B;功能表下的**0}匯入資料&#x200B;****(Kick-Starts)。**
+{{step-1-to-setup}}
+
+1. 按一下&#x200B;**系統>匯入資料(Kick-Starts)**。
 
 1. 按一下&#x200B;**使用Kick-Start試算表上傳資料**&#x200B;區段下的&#x200B;**選擇檔案**。
 

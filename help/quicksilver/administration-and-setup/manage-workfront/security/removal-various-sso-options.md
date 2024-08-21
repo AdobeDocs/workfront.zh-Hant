@@ -5,14 +5,14 @@ product-area: system-administration;user-management
 navigation-topic: security
 title: 移除各種單一登入選項
 description: Adobe Workfront正在移除對各種單一登入(SSO)選項的支援。 最終結果是所有Workfront產品和服務獲得一致且更安全的登入體驗。
-author: Caroline
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 03f3ef0d-8b55-4127-b205-cf259d221290
-source-git-commit: 74721e843129994a0524b4a5573da41c07deed51
+source-git-commit: 206ea3ad1398849e26dea7fe77f6d7c027825b6f
 workflow-type: tm+mt
 source-wordcount: '99'
-ht-degree: 5%
+ht-degree: 11%
 
 ---
 
