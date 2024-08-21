@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: ded6db27fa3fba9195e2133134f60bcadb0f897a
+source-git-commit: 1ad86cd55459d92650ac7a24c41765e579f8bb94
 workflow-type: tm+mt
 source-wordcount: '1880'
 ht-degree: 2%
@@ -66,7 +66,7 @@ Adobe Workfront規劃是Adobe Workfront的新產品。 Workfront Planning的目�
 | 建立工作區 | ✓ (A) |                                  |                  |
 | 建立記錄型別 | ✓ (A) |                                  |                  |
 | 建立記錄自訂欄位 | ✓ (A) |                                  |                  |
-| 使用Excel或CSV檔案匯入記錄型別和欄位* | ✓ (A) |                                  |                  |
+| 使用Excel或CSV檔案匯入記錄型別和欄位 |                              | ✓ (A) |                  |
 | 連結記錄 | ✓ (A) |                                  |                  |
 | 檢視表格中的記錄 | ✓ (A) |                                  |                  |
 | 在時間軸中檢視記錄 | ✓ (A) |                                  |                  |

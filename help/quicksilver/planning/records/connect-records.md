@@ -1,13 +1,13 @@
 ---
-title: 連接記錄
+title: 連線記錄
 description: 在記錄型別之間建立連線後，可以將個別記錄彼此連線。
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
-source-git-commit: a2062658110792689c0a15dd1c616c58ebf7e07a
+source-git-commit: 1ad86cd55459d92650ac7a24c41765e579f8bb94
 workflow-type: tm+mt
-source-wordcount: '2281'
+source-wordcount: '2287'
 ht-degree: 1%
 
 ---
@@ -151,11 +151,11 @@ hide: yes
 
 您可以在下列區域中從Workfront Planning連線記錄：
 
-* 從Workfront Planning中，表格檢視中連線欄位的Planning記錄。
+* 從Workfront Planning中，表格檢視中連線記錄欄位的Planning記錄。
 * 從Workfront Planning中，記錄預覽或連線記錄欄位頁面的Planning記錄。
   <!--
   * From a Planning record in Workfront Planning in the record preview or page in the connected record fields on the Details tab.
-  * From a Planning record in the record's preview or page on the Connections tab.  -->
+  * From a Planning record in the record's preview or page on the Connections tab.-->
 
 ### 從表格檢視或<!--Details tab of the-->記錄頁面連線Adobe Workfront Planning記錄
 
@@ -211,7 +211,7 @@ hide: yes
    >
    >* 我們會交替使用「連結欄位」和「查詢欄位」。
    >
-   >* 如果您在連線記錄型別時啟用了&#x200B;**允許多筆記錄**&#x200B;設定，則多個選取物件的欄位值會以逗號分隔顯示，或根據您選擇的彙總器彙總。
+   >* 當您選擇在連線記錄型別時連線多個記錄時，來自多個物件的欄位值會以逗號分隔顯示，或根據您選擇的彙總器彙總。
 
 1. （可選）關閉記錄型別頁面，然後移至您選取的工作區。
 1. 按一下您所連結之記錄型別的卡片。
@@ -286,7 +286,7 @@ hide: yes
 
    >[!TIP]
    >
-   >* 當您啟用「允許多筆記錄」設定時，查閱欄位的值會以逗號分隔顯示，或根據您選擇的彙總器進行彙總。
+   >* 當您選擇在連線記錄型別時連線多個記錄時，查閱欄位的值會以逗號分隔顯示，或根據您選擇的彙總器進行彙總。
    >
    >* Workfront中的連結Workfront物件不會建立連結記錄欄位。
 
@@ -360,7 +360,7 @@ hide: yes
 
      >[!TIP]
      >
-     >* 如果您啟用「允許多筆記錄」設定，則多個物件的值會以逗號區隔，或根據您選擇的彙總器彙總。
+     >* 當您選擇在連線記錄型別時連線多個記錄時，多個物件的值會以逗號分隔或根據您選擇的彙總器彙總。
      >
      >* 連結至Workfront Planning連結記錄的連結記錄欄位不會在Experience Manager Assets應用程式中為連結的Experience Manager資產建立。
 
@@ -408,6 +408,12 @@ hide: yes
     ![](assets/connections-tab-on-record-in-workfront-planning.png)
 
     All record or object types that are linked to the selected record type display as sections. Connected records or objects display under their record or object type names on cards. 
+
+    >[!TIP]
+    >
+    >    Only connected records that have individual records connected display by default.
+
+1. (Optional) Click **Show all connections** to show all connected record types, including the ones without connected records. 
 
 1. (Optional) Click the downward-pointing arrow to the left of a section to collapse it. 
 

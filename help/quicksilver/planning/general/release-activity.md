@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: ded6db27fa3fba9195e2133134f60bcadb0f897a
+source-git-commit: 1ad86cd55459d92650ac7a24c41765e579f8bb94
 workflow-type: tm+mt
 source-wordcount: '6116'
 ht-degree: 0%
@@ -75,6 +75,24 @@ Workfront規劃程式已於2023年5月22日開始執行。 如需2023年期間�
 
 <!--
 
+### Break down connected records in the timeline view
+
+Production: <date> 
+
+Preview: To be determined 
+
+As a Timeline view manager, you can now view the relationships between connected records by breaking down records into visual hierarchies in the timeline view.  
+
+For example, when you are viewing Campaigns in the timeline view which are linked to Products, and Products have associations with Projects, you can now break down the campaigns visually by Products first, and further break down Products by Projects.  
+
+This allows you to seamlessly navigate through multiple levels of relationships, all within the same timeline view.  
+
+This is not an actual hierarchy (no object is higher than another). It is a visual hierarchy that displays connected record types in one timeline view.  
+
+You can display up to 5 levels of record types in the same timeline for one record.  
+
+For information, see [Manage the timeline view](/help/quicksilver/planning/views/manage-the-timeline-view.md). 
+
 ### New Connections tab in the record details area
 
 Production: <date> 
@@ -121,7 +139,7 @@ Production: August 28, 2024
 
 Preview: To be determined 
 
-You can now view Workfront Planning information in a report using the Workfront Canvas Dashboard. For information, see [Get started with canvas dashboards](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/get-started-canvas-dashboards.md).
+You can now view Workfront Planning information in a report using the Workfront Canvas Dashboard. For information, see [Get started with Canvas Dashboards](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/get-started-canvas-dashboards.md).
 
 ### Define format for formula field values
 
@@ -842,13 +860,13 @@ UNIQUE運運算元適用於下列欄位型別以外的所有欄位型別：
 
 如需詳細資訊，請參閱[編輯記錄](/help/quicksilver/planning/records/edit-records.md)。
 
-### 記錄型別Excel匯入暫時停用
+### 記錄型別Excel匯入會暫時移除
 
 生產： 2024年3月21日
 
 預覽：待定
 
-我們正在暫時停用使用Excel或CSV檔案匯入記錄型別。 此功能將在稍後提供。
+我們正在暫時移除使用Excel或CSV檔案匯入的記錄型別。 此功能將在稍後提供。
 
 ## 2024年3月11日起一週
 

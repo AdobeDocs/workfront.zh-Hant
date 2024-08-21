@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 99fac041-a235-4991-b826-d19944164bc9
-source-git-commit: c355d4706fd1fad8629ec6ed19f63f134ee679a1
+source-git-commit: 1ad86cd55459d92650ac7a24c41765e579f8bb94
 workflow-type: tm+mt
 source-wordcount: '440'
 ht-degree: 0%
@@ -92,7 +92,7 @@ ht-degree: 0%
 
 *如需Workfront存取需求的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
-<!-- replace the table above with the following table at Planning GA release: 
+<!--replace the table above with the following table at Planning GA release: 
 ## Access requirements
 
 ********************do not collapse this table because this is part of the main information in this article*********
@@ -116,7 +116,7 @@ You must have the following to be able to access Workfront Planning:
  <tr>
    <td role="rowheader"><p>Adobe Workfront plan*</p></td>
    <td>
-<p>Any of the following new Workfront plans:</p>
+<p>Any of the following Workfront plans:</p>
 <ul><li>Select</li>
 <li>Prime</li>
 <li>Ultimate</li></ul>

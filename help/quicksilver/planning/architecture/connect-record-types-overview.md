@@ -4,9 +4,9 @@ description: 指示個別記錄型別如何彼此關聯的一種方法是連線�
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: ded6db27fa3fba9195e2133134f60bcadb0f897a
+source-git-commit: 1ad86cd55459d92650ac7a24c41765e579f8bb94
 workflow-type: tm+mt
-source-wordcount: '818'
+source-wordcount: '830'
 ht-degree: 0%
 
 ---
@@ -62,26 +62,26 @@ ht-degree: 0%
      >
      >如果您對加入Adobe Admin Console有任何疑問，請參閱[Adobe統一體驗常見問題集](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/unified-experience-faq.md)。
 
-* 為記錄型別建立個別記錄後，您可以從連結的記錄型別欄位中選取連線的記錄。 如需詳細資訊，請參閱[連線記錄](/help/quicksilver/planning/records/connect-records.md)。
+* 為連線的記錄型別建立記錄後，您可以透過連線的記錄欄位將它們相互連結。  如需詳細資訊，請參閱[連線記錄](/help/quicksilver/planning/records/connect-records.md)。
 
 * 將記錄型別與另一個記錄型別或另一個應用程式的物件型別連線後，就會出現下列情況：
 
-   * **當您連線兩個記錄型別時**：連結的記錄欄位會在您連線的記錄型別上建立。 類似的連結記錄欄位會在您連線的記錄型別上建立。
+   * **當您連線兩個Planning記錄型別時**：連結的記錄欄位會在您連線的記錄型別上建立。 類似的連結記錄欄位會在您連線的記錄型別上建立。
 
-     例如，如果您將「促銷活動」記錄型別與「產品」記錄型別連結，您命名為「連結的產品」的連結記錄欄位就會建立在「促銷活動」記錄型別上。 系統會在產品記錄型別上建立自動命名為「Campaign」的連結記錄型別。
+     例如，如果您將「Campaign」記錄型別與「Product」記錄型別連結，您命名為「Linked Product」的連結記錄欄位（連線欄位）會在Campaign記錄型別上建立。 系統會在產品記錄型別上建立自動命名為「Campaign」的連結記錄型別。
 
    * **當您從另一個應用程式連線具有物件型別的記錄型別時**：
 
       * 連結的記錄欄位會在您連線的記錄型別上建立。 不會在其他應用程式的物件型別上自動建立任何連結的記錄欄位。
-
       * 無法從Workfront物件存取規劃記錄欄位。
       * 當您的Workfront管理員透過Workfront與Adobe Experience Manager Assets之間的整合設定中繼資料對應時，可從Experience Manager資產存取規劃記錄欄位。 如需詳細資訊，請參閱[設定Adobe Workfront與Experience Manager Assets之間的資產中繼資料對應](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping.html?lang=en)。
+      * Planning記錄會顯示於Workfront物件的Planning標籤中。 如需詳細資訊，請參閱[在Adobe Workfront物件的Planning區段管理記錄](/help/quicksilver/planning/records/manage-records-in-planning-section.md)。
 
-   * **當您從連線的記錄或物件加入連結（或查詢）欄位時**：除了建立連結的記錄欄位之外，您也可以從連線的記錄或物件型別連線到稱為查詢欄位的欄位。 連結（或查詢欄位）的資訊，來自於您所連線的記錄，顯示在您所連線的記錄上。
+   * **當您從您連線的記錄或物件加入查閱欄位時**：除了建立連結的記錄欄位之外，您還可以從連線的記錄或物件型別連線到稱為查閱欄位的欄位。 連結（或查詢欄位）的資訊，來自於您所連線的記錄，顯示在您所連線的記錄上。
 
      您可以將其他記錄型別或其他應用程式物件的欄位連線到Workfront Planning記錄型別。
 
-     連結欄位是唯讀的，當您連線記錄或物件時，連結欄位會自動顯示已連線記錄或物件的資訊。
+     連結欄位是唯讀的，會自動顯示連線記錄的資訊。
 
      您可以在公式、篩選器或群組中參照其他記錄或物件型別的查閱欄位。
 
@@ -111,17 +111,17 @@ Depending on how many records you can add to a connected record field, the follo
 >These options are not available when connecting the following: 
 >* Two records from different workspaces
 >
->* A record type and AEM assets
+>* A record type and Experience Manager assets
 
 ### Many-to-many connection type
 
 ![](assets/many-to-many-connection-picker.png)
 
-When you select the many-to-many connection type between record types, you can later connect many records with multiple records you're connecting to. 
+When you create a many-to-many connection between record types, you can then select multiple records in the connection field from both record types. 
 
-For example, if you connect campaigns with projects and you choose this type of connection, you can connect several campaigns with multiple projects. You can also connect the same projects you are connecting to the campaigns to more than one campaign. 
+For example, if you create a many-to-many connection between campaigns and projects, you can select multiple projects for each campaign, and multiple campaigns for each project. 
 
-A real-life example of a many-to-many relationship type is the relationship between customers and products: customers can purchase multiple products; and those products can also be purchased by many other customers. 
+A real-life example of a many-to-many relationship type is the relationship between movies and actors. Each movie can have multiple actors, and each actor can play in multiple movies. 
 
 When you select this connection type, you cannot change the connection type after you save it. 
 
@@ -129,19 +129,21 @@ When you select this connection type, you cannot change the connection type afte
 
 ![](assets/one-to-many-connection-picker.png)
 
-When you select the one-to-many connection type between record types, you can later connect one record with multiple records you're connecting to. 
 
-For example, if you connect campaigns with projects and you choose this type of connection, you can connect one campaign with multiple projects. But one of the projects you're connecting to the campaigns can be connected only to one campaign at a time. 
+When you create a one-to-many connection between record types, you can then select multiple records in the connection field in the current record type, but the corresponding connection field in the record type you connect to will allow selecting only one record. The connected record field that is automatically created on the second record type is automatically set to a many-to-one relationship type. 
+
+For example, if you create a one-to-many connection between campaigns and projects, you can select multiple projects for each campaign, but each project can be connected to only one campaign.
 
 A real-life example of a one-to-many relationship type is the relationship between libraries and books: a library has many books in its inventory; but one particular book can only be in one library at a given point in time. 
 
 When you select this connection type, you can later change it only to a many-to-many connection type. 
- 
+
 ### Many-to-one connection type
 
 ![](assets/many-to-one-connection-picker.png)
 
-When you select the many-to-one connection type between record types, you can later connect many records with only one record you're connecting to. 
+
+When you create a many-to-one connection between record types, you can then connect each record in the current record type with only one record from the connected record type. The connected record field that is automatically created on the second record type is automatically set to a one-to-many relationship type. 
 
 For example, if you connect campaigns with projects and you choose this type of connection, you can add only one project to a campaign. But you can add multiple campaigns to one project. 
 
@@ -153,7 +155,7 @@ When you select this connection type, you can later change it only to a many-to-
 
 ![](assets/one-to-one-connection-picker.png)
 
-When you select the one-to-one connection type between record types, you can later connect one record with one other record that you're connecting to. 
+When you create a one-to-one connection between record types, in both record types you can connect each record only with one record from the other record type.
 
 For example, if you connect campaigns with projects and you choose this type of connection, you can connect one campaign with one project. One project can be connected only to one campaign. 
 

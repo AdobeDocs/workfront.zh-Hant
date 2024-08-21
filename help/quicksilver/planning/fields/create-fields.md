@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: a2062658110792689c0a15dd1c616c58ebf7e07a
+source-git-commit: 1ad86cd55459d92650ac7a24c41765e579f8bb94
 workflow-type: tm+mt
-source-wordcount: '3390'
+source-wordcount: '3361'
 ht-degree: 2%
 
 ---
@@ -43,9 +43,9 @@ recommendations: noDisplay, noCatalog
 
 * 從頭開始
 * 透過連線記錄型別
-* 使用Excel或CSV檔案匯入記錄型別
 * 藉由建立記錄型別
 * 從範本建立工作區
+  <!--* By importing record types using an Excel or CSV file-->
 
 如需Workfront Planning欄位的詳細資訊，請參閱[欄位概觀](/help/quicksilver/planning/fields/fields-overview.md)。
 
@@ -401,7 +401,13 @@ recommendations: noDisplay, noCatalog
     * **Percent**: The result of the formula field displays as a number followed by a percentage symbol.  
     * **Currency**: The result of the formula field displays as a number preceded or followed by a currency symbol.  
     * **Tags**: The result of the formula field displays as a tag with the object's name. 
+    
+        >[!TIP]
+        >
+        >Tags is the perfect format for fields that show arrays. In this case, each array member displays as a separate tag.
+
     * **Date**: The result of the formula field displays as a date. 
+
 
         A preview of what the result will look like displays under the **Format** field. 
 
@@ -545,9 +551,9 @@ recommendations: noDisplay, noCatalog
 
 如需有關連線Workfront Planning記錄型別的資訊，請參閱[連線記錄型別](/help/quicksilver/planning/architecture/connect-record-types.md)
 
-## 使用Excel或CSV檔案匯入記錄型別來建立欄位
+<!--## Create fields by importing record types using an Excel or CSV file
 
-如需詳細資訊，請參閱[建立記錄型別](/help/quicksilver/planning/architecture/create-record-types.md)。
+For more information, see [Create record types](/help/quicksilver/planning/architecture/create-record-types.md).-->
 
 ## 建立記錄型別以建立欄位
 

@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: ec48db42-2395-4439-97ae-e4f5242170b7
-source-git-commit: 5c7b60ac5b78bd065ffc270588ec72ab3eb2f41d
+source-git-commit: 1ad86cd55459d92650ac7a24c41765e579f8bb94
 workflow-type: tm+mt
-source-wordcount: '347'
+source-wordcount: '407'
 ht-degree: 0%
 
 ---
@@ -40,7 +40,13 @@ recommendations: noDisplay, noCatalog
 * 您只能在記錄型別表格檢視中刪除欄位。
 * 您無法刪除記錄的主要欄位。
 * 儲存在欄位中的任何資訊都會被刪除且無法復原。
-* 當您刪除連結的記錄欄位時，所有連結的查閱欄位也會從您連結的記錄型別中刪除。 您連結到的記錄型別的連結記錄欄位不會被刪除。
+* 當您刪除連線的記錄欄位時，所有連線的查閱欄位也會從您連線的記錄型別中刪除。 您所連線之記錄型別的連線記錄欄位也會從您所連線的記錄中刪除。
+
+  例如，當您將行銷活動連結到另一個記錄型別「產品」，並從行銷活動刪除「已連結產品」欄位和「產品狀態」查詢欄位時，以下專案即被刪除：
+
+   * 來自行銷活動的已連線產品欄位
+   * 來自行銷活動的產品狀態查詢欄位
+   * 產品中的「已連線促銷活動」欄位。
 
   如需詳細資訊，請參閱[連線記錄型別](/help/quicksilver/planning/architecture/connect-record-types.md)。
 

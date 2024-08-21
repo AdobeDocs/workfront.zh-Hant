@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: ed1c4954-b338-4865-a7a9-5ba0192e7b37
-source-git-commit: 5c7b60ac5b78bd065ffc270588ec72ab3eb2f41d
+source-git-commit: f713e8fa72c98b6df2509e71acd7080d4df46a3a
 workflow-type: tm+mt
-source-wordcount: '1276'
+source-wordcount: '810'
 ht-degree: 1%
 
 ---
@@ -102,11 +102,11 @@ ht-degree: 1%
 
         如需詳細資訊，請參閱[建立工作區](/help/quicksilver/planning/architecture/create-workspaces.md)。
 
-      * 當您使用Excel或CSV檔案匯入時。
+     <!--* When you import them using an Excel or CSV file. 
 
-        >[!IMPORTANT]
-        >
-        >此功能自2024年3月21日起已暫時停用。 這會在稍後啟用。
+            >[!IMPORTANT]
+            >
+            >This functionality has been temporarily removed since March 21, 2024. It will be enabled at a later date.-->
 
      <!--this should not ne known anymore: * When you add objects from another application to a linked record field of a record. This creates a read-only record type in Workfront Planning which is connected to object types from the original application. 
         For information about connecting record types with object types from another application, see [Connect record types](/help/quicksilver/planning/architecture/connect-record-types.md).
@@ -145,7 +145,9 @@ ht-degree: 1%
    從工作區中，展開現有工作區名稱右側的向下箭頭，搜尋工作區，然後在工作區顯示在清單中時選取該工作區。
 1. （選擇性）按一下&#x200B;**新增區段**&#x200B;以新增區段至工作區。
 1. 按一下&#x200B;**新增記錄型別**。
-1. （視條件而定）啟用匯入Excel或CSV檔案來建立記錄型別時，請按一下[從頭開始] ****。 否則，**新增記錄型別**&#x200B;方塊會開啟。
+
+   「新增記錄型別」方塊開啟。
+   <!--1. (Conditional) When creating record types by importing an Excel or CSV file is enabled, click **From scratch**. Otherwise, the **Add record type** box opens. -->
 
    ![](assets/add-record-type-box-with-appearance-options.png)
 
@@ -171,9 +173,7 @@ ht-degree: 1%
 
    記錄型別頁面預設會顯示在表格檢視中。 表格的欄是與新記錄型別相關聯的欄位。 每一列都是您必須新增的唯一記錄。
 
-   >[!TIP]
-   >
-   >    如果您從Excel或CSV檔案匯入記錄型別，也會匯入記錄。
+   <!--TIP: If you import a record type from an Excel or CSV file, records are also imported.-->
 
    依預設，下列欄位會顯示在作業記錄型別的表格檢視欄中：
 
@@ -207,86 +207,69 @@ ht-degree: 1%
    * [編輯記錄型別](/help/quicksilver/planning/architecture/edit-record-types.md)
    * [管理記錄檢視](/help/quicksilver/planning/views/manage-record-views.md)
 
-## 匯入Excel或CSV檔案來建立記錄型別
+<!--
+## Create record types by importing an Excel or CSV file
 
 >[!IMPORTANT]
 >
->此功能自2024年3月21日起已暫時停用。 這會在稍後啟用。
+>This functionality has been temporarily removed since March 21, 2024. It will be enabled at a later date.
 
-使用Excel或CSV檔案匯入記錄型別時，請考量下列事項：
+Consider the following when importing record types using an Excel or CSV file: 
 
-* Excel檔案的每一頁都會變成記錄型別。
-* 每個工作表的欄會成為與每個記錄型別相關聯的欄位。
-* 欄位對於其各自的記錄型別來說都是唯一的。
-* 每個工作表中的每一列都會成為與其個別記錄型別相關聯的唯一記錄。
-* 每個Excel檔案工作表不應超過下列專案：
-   * 50,000列
-   * 500欄
-* Excel檔案不應大於5MB。
-* 不支援空白工作表。
+* Each sheet of the Excel file becomes a record type. 
+* The columns of each sheet become the fields associated with each record type. 
+* Fields are unique for their respective record types. 
+* Each row in each sheet becomes a unique record associated with its respective record type. 
+* Each sheet of the Excel file should not exceed the following: 
+    * 50,000 rows
+    * 500 columns
+* The Excel file should not be larger than 5MB.
+* Empty sheets are not supported. 
 
-若要使用Excel檔案匯入記錄型別：
+To import record types using an Excel file: 
 
 {{step1-to-planning}}
 
-1. 按一下您要建立記錄型別的工作區，
+1. Click the workspace where you want to create record types, 
 
-   或
+    Or
 
-   從工作區中，展開現有工作區名稱右側的向下箭頭，搜尋工作區，然後在工作區顯示在清單中時選取該工作區。
-1. 按一下&#x200B;**新增記錄型別**。
-1. 按一下&#x200B;**Excel/CSV**。
-1. 拖放先前儲存在電腦上的Excel或CSV檔案，或按一下&#x200B;**選取CSV或Excel檔案**&#x200B;以瀏覽檔案。
-1. 按一下&#x200B;**檢閱您的資料**。
-
-   「預覽和編輯」方塊會顯示下列資訊：
-
-   * 工作表或未來記錄型別的名稱會顯示在左側面板中。 根據預設，Workfront Planning會選取每個新記錄型別的圖示和顏色。
-   * 選擇第一個工作表或記錄型別，並且與其關聯的欄位名稱顯示為欄標題。 依預設，會選取每個欄位的型別。
-   * 每一列代表新記錄。 只有前10筆記錄會顯示在「預覽與編輯」方塊中。
-
-   ![](assets/preview-and-edit-box.png)
-
-1. （選擇性）按一下左側面板中每個工作表的名稱，以檢閱其中包含的資訊。
-
-   >[!NOTE]
-   >
-   >    不支援空白的頁面，這些頁面會變暗。
-
-
-1. （選擇性）按一下&#x200B;**選取要匯入的工作表**&#x200B;下拉式功能表，並取消選取您不想要匯入的工作表。
-
-   ![](assets/select-sheets-to-import-drop-down-with-unselected.png)
-
-   取消選取的頁面會以灰色背景顯示。
-
-1. 當您準備好匯入您的檔案時，請按一下[匯入]。****
-
-   下列資訊會匯入Workfront Planning中：
-
-   * 新記錄型別
-   * 與每個記錄型別關聯的新欄位
-   * 與每個記錄型別關聯的新記錄
-
-   您可以開始管理記錄型別頁面上的欄位和記錄。
-
-   所有有權存取Workfront Planning的人員現在都能檢視及編輯匯入的記錄型別及其資訊。<!--this will change with permissions-->
-
-<!--## Connect record types with object types from another application
-
-You can connect a record type and an object type from another application. This creates a read-only record type in Workfront Planning that corresponds to the object type in the other application. 
-
-For example, you can create record types by connecting Workfront Planning record types with Workfront projects. As a result, the Workfront project object type is imported into Workfront Planning as a read-only record type. By default, the record type is named "Workfront Project." (********************)has this name changed? Lusine wanted to change it at some point***********)
+    From a workspace, expand the downward-pointing arrow to the right of an existing workspace name, search for a workspace, then select it when it displays in the list.
+1. Click **Add record type**. 
+1. Click **Excel/CSV**.
+1. Drag and drop an Excel or CSV file previously saved on your computer, or click **Select a CSV or Excel file** to browse for one. 
+1. Click **Review your data**.
     
-You can import the following objects from the following applications: 
+    The Preview and edit box displays with the following information: 
 
-* From Workfront:
+    * The names of the sheets or of the future record types display in the left panel. Workfront Planning selects an icon and a color for each new record type by default.
+    * The first sheet or record type is selected and the names of the fields associated with it display as the column headers. The type of each field is selected by default. 
+    * Each row represents a new record. Only the first 10 records display in the Preview and edit box. 
 
-    * Projects
-    * Portfolios
-    * Programs
-    * Company
-    * Group
+    ![](assets/preview-and-edit-box.png)
 
-For more information, see [Connect record types](/help/quicksilver/planning/architecture/connect-record-types.md). 
--->
+1. (Optional) Click the name of each sheet in the left panel to review the information it contains. 
+
+    >[!NOTE]
+    >
+    >    Sheets that are empty are not supported and are dimmed. 
+
+
+1. (Optional) Click the **Select sheets to import** drop-down menu and deselect the sheets that you don't want to import. 
+
+    ![](assets/select-sheets-to-import-drop-down-with-unselected.png)
+
+    Sheets you deselected display with a gray background. 
+
+1. Click **Import** when you are ready to import your file. 
+
+    The following information imports in to Workfront Planning:
+
+    * New record types
+    * New fields associated with each record type
+    * New records associated with each record type
+
+    You can start managing fields and records on the record types pages. 
+    
+    Everyone with access to Workfront Planning can now view and edit the imported record types and their information.-->
+

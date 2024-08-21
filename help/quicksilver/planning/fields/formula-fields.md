@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 5027d611-916e-492d-9a44-841bdde11c94
-source-git-commit: a2062658110792689c0a15dd1c616c58ebf7e07a
+source-git-commit: 1ad86cd55459d92650ac7a24c41765e579f8bb94
 workflow-type: tm+mt
-source-wordcount: '430'
+source-wordcount: '462'
 ht-degree: 8%
 
 ---
@@ -106,10 +106,12 @@ recommendations: noDisplay, noCatalog
 
 ## 有關公式欄位的考量事項
 
-* 公式欄位參考屬於相同記錄型別的欄位。 建立公式欄位時，您無法參考其他記錄型別的欄位。<!--is this still accurate??-->
+* 公式欄位參考屬於相同記錄型別的欄位。
+* 只有在您將其他記錄型別連線到要為其建立公式欄位的記錄型別時，才能引用其他記錄型別的欄位。
 * 儲存公式欄位後，您無法變更其欄位型別。
 * 儲存公式欄位後，您可以更新公式欄位的計算，而計算結果會自動更新相同型別的所有記錄。
 * 您必須在Workfront Planning介面中顯示的公式中，新增您參考的欄位。
+* 您只能參考顯示在記錄型別表格檢視或記錄詳細資訊頁面上的欄位。
 <!--* You can format the result of a formula calculation by choosing from the following options:
 
    * Text
