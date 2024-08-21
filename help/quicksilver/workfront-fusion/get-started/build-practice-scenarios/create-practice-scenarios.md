@@ -7,14 +7,14 @@ description: 請依照下列範例瞭解如何在Adobe Workfront Fusion中建立
 author: Becky
 feature: Workfront Fusion
 exl-id: cd00008a-833c-46dd-a82d-22f27809493e
-source-git-commit: f843dca1190a0b55d00280e83b5bf28edfa5c8af
+source-git-commit: 83974e67d6322c0ec0179c5be9cc9de0e1495161
 workflow-type: tm+mt
-source-wordcount: '70'
+source-wordcount: '72'
 ht-degree: 0%
 
 ---
 
-# 在[!DNL Adobe Workfront Fusion]中建立實務案例
+# 在[!DNL Adobe Workfront Fusion]中建立實務案例：文章索引
 
 本節包含下列文章：
 
