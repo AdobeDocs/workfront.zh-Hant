@@ -7,9 +7,9 @@ description: 本文說明在您的 [!DNL Adobe Workfront Fusion] 案例中，[!U
 author: Becky
 feature: Workfront Fusion
 exl-id: 64a7a39a-f450-4eba-b4db-f31dd22aefdc
-source-git-commit: 1b729960a23e43252bda16d9bfb7ca9656a115a1
+source-git-commit: b9914daa1e176d115226019d6ddf02b0953bc4d6
 workflow-type: tm+mt
-source-wordcount: '1097'
+source-wordcount: '1206'
 ht-degree: 0%
 
 ---
@@ -70,7 +70,30 @@ ht-degree: 0%
 
 ## [!UICONTROL 循序處理]
 
-此選項決定當發生錯誤且案例的執行移至[檢視並解決 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/view-and-resolve-incomplete-executions.md)中的未完成執行時，[!DNL Workfront Fusion]如何進行。 如果[!UICONTROL 循序處理]選項已啟用，Workfront Fusion會完全停止處理工作順序，直到解決所有未完成的執行為止。 如果[!UICONTROL 循序處理]選項已停用，則情境會根據其排程繼續執行，並伴隨重複嘗試重新執行未完成的執行。
+此選項會強制所有執行按順序進行，並且主要與Webhook和未完成執行相關。
+
+啟用循序處理時，將停用案例的平行執行。
+
+### 即時Webhook
+
+如果webhook觸發程式設定為`instant`且已啟用「循序處理」，則所有即時webhook裝載都會依其到達的順序排入佇列並進行處理。 以精確順序處理來自外部系統的事件時，這會很有用。
+
+>[!NOTE]
+>
+>在下一個裝載開始之前，每個裝載都會經過處理，因此會有自動處理延遲。
+
+### 不完整的執行
+
+如果還啟用了「不完整的執行」，則如果在執行情境期間發生錯誤，則情境會暫停。 接著會發生下列其中一項：
+
+* 如果「循序處理」選項為&#x200B;**已啟用**，Workfront Fusion會停止處理預先存在的序列，直到解決所有未完成的執行為止。
+* 如果循序處理選項為&#x200B;**已停用**，則情境會根據其排程繼續執行，並伴隨重複嘗試重新執行未完成的執行。
+
+如需不完整執行的詳細資訊，請參閱[在Adobe Workfront Fusion中檢視並解決不完整的執行](/help/quicksilver/workfront-fusion/scenarios/view-and-resolve-incomplete-executions.md)。
+
+<!--
+
+This option determines how [!DNL Workfront Fusion] proceeds if an error occurs and the execution of a scenario is moved to the [View and resolve incomplete executions in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/view-and-resolve-incomplete-executions.md). If the [!UICONTROL Sequential processing] option is enabled, Workfront Fusion stops processing the task sequence altogether until all incomplete executions are resolved. If the [!UICONTROL Sequential processing] option is disabled, the scenario continues to run according to its schedule, accompanied by repeated attempts to rerun the incomplete executions.-->
 
 >[!NOTE]
 >
