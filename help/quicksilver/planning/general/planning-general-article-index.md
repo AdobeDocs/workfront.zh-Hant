@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 8c4e4fbb-2f21-43a1-bfb0-d23ac1a33705
-source-git-commit: f252140e4fec01c7bb8092804532d79954cef618
+source-git-commit: 2742594d4f835bb2b81b314075ab374f22074d87
 workflow-type: tm+mt
-source-wordcount: '157'
+source-wordcount: '163'
 ht-degree: 0%
 
 ---
@@ -24,6 +24,7 @@ ht-degree: 0%
 * [Adobe Workfront Planning物件限制總覽](/help/quicksilver/planning/general/limitations-overview.md)
 * [Adobe Workfront Planning目前發行活動](/help/quicksilver/planning/general/release-activity.md)
 * [2023年Adobe Workfront Planning發行活動封存](/help/quicksilver/planning/general/release-activity-archives-2023.md)
+* [Adobe Workfront Planning物件限制總覽](/help/quicksilver/planning/general/limitations-overview.md)
 
 
 

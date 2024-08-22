@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: 1ad86cd55459d92650ac7a24c41765e579f8bb94
+source-git-commit: 2742594d4f835bb2b81b314075ab374f22074d87
 workflow-type: tm+mt
-source-wordcount: '1880'
+source-wordcount: '1900'
 ht-degree: 2%
 
 ---
@@ -17,10 +17,6 @@ ht-degree: 2%
 <!--this article is linked to the WF Planning landing page - do not change URL or move it; send the team a new URL after we add the redirects for this page-->
 
 <!--update the metadata with real information when making this available in TOC and in the left nav-->
-
-<!-- remove the references to closed beta from the entire article-->
-
-<!--update the video in the IMPORTANT below, when we have something better, especially after Open Beta - remove it-->
 
 >[!IMPORTANT]
 >
@@ -34,7 +30,6 @@ ht-degree: 2%
 >
 >如需檔案Workfront Planning之所有章節和文章的完整清單，請參閱[Adobe Workfront Planning：文章索引](/help/quicksilver/planning/planning-information.md)。
 
-<!--[View a video demonstration of Adobe Workfront Planning capabilities.](https://video.tv.adobe.com/v/3424253/){target=_blank}-->
 
 ## Adobe Workfront規劃簡介
 
@@ -56,6 +51,8 @@ Adobe Workfront規劃是Adobe Workfront的新產品。 Workfront Planning的目�
 * 從其他系統連結到物件型別，為所有流程建立一致的架構。
 
 ## 目前可用的Adobe Workfront規劃功能
+
+<!--for GA just make a list of what features ARE included in Planning and eliminate the last 2 columns-->
 
 下表說明Workfront Planning中可用的主要功能，及其可用性的時間表。 此清單並未包含所有功能。
 
@@ -90,7 +87,7 @@ Adobe Workfront規劃是Adobe Workfront的新產品。 Workfront Planning的目�
 | 與外部資源公開共用檢視 | ✓ (A) | |  |
 | 重複檢視 | ✓ (A) | |  |
 | 提交請求 |                               | ✓ (A) |                 |
-| 將記錄詳細資料匯出至Word |                               | ✓ (A) |                 |
+| 將記錄詳細資料匯出至Word | ✓ (A) |                                  |                 |
 | 將記錄詳細資料匯出至PDF |                               |                                  | ✓ (A) |
 | 自訂記錄的顏色和圖示 | ✓ (A) |                                  |                 |
 | 新增註解至記錄 | ✓ (A) |                                  |                 |
@@ -203,9 +200,9 @@ Workfront Planning的架構可完全自訂。 您可以建立所有記錄型別�
    * 上次修改者
    * 上次修改日期
 
-* **連結的記錄型別**、**連結的記錄**&#x200B;和&#x200B;**連結的記錄欄位**&#x200B;或&#x200B;**連線的記錄型別**、**連線的記錄**&#x200B;和&#x200B;**連線的欄位**：您可以在Workfront Planning中的下列實體之間建立連線：
+* **連線的記錄型別**、**連線的記錄**&#x200B;和&#x200B;**連線的欄位**：您可以在Workfront Planning中的下列實體之間建立連線：
 
-   * 兩種記錄型別。
+   * 兩種Workfront Planning記錄型別。
    * 記錄型別和Workfront專案、方案、投資組合、公司或群組物件型別。
    * 記錄型別和Adobe Experience Manager資產或資料夾。
 
@@ -224,7 +221,7 @@ Workfront Planning的架構可完全自訂。 您可以建立所有記錄型別�
 
   >[!TIP]
   >
-  > 您無法新增下列欄位型別做為查閱欄位：
+  > 您無法從連線的記錄或物件型別將下列欄位型別新增為查閱欄位：
   >
   >* 人員
   >* 建立者
@@ -246,11 +243,11 @@ Workfront Planning的架構可完全自訂。 您可以建立所有記錄型別�
 
   以下是您可以套用至記錄型別頁面的檢視型別：
 
-   * **表格檢視**：以表格格式顯示記錄及其欄位。 表格的列是個別記錄，欄是記錄欄位。 這是預設檢視。
+   * **表格檢視**：以表格格式顯示記錄及其欄位，包括已連線和查詢欄位。 表格的列是個別記錄，欄是記錄欄位。 這是預設檢視。
 
      ![](assets/table-view-example.png)
 
-   * **時間表檢視**：在時間軸中顯示至少有兩個日期型別欄位的記錄。
+   * **時間表檢視**：在時間軸中顯示至少有兩個日期型別欄位的記錄。 您最多可以在時間軸檢視中顯示5個連線的記錄型別及其記錄。
 
      ![](assets/grouping-applied-in-timeline-view.png)
 
@@ -279,7 +276,6 @@ Workfront Planning的架構可完全自訂。 您可以建立所有記錄型別�
    >[!TIP]
    >
    >    您的Workfront管理員可以將「規劃」區域新增至版面配置範本中的「選取登陸頁面」選項，以便您登入Workfront後立即開啟「規劃」。 如需詳細資訊，請參閱[使用版面配置範本自訂登入頁面](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-landing-page.md)。
-
 
 1. （條件式與選用式）如果您是Workfront管理員，請按一下下列其中一個標籤：
    * **我所在的工作區**：顯示您建立的工作區或與您共用的工作區。

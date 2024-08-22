@@ -3,9 +3,9 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文件、教學課程和其他資源，了解如何在您的組織中實施並有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: 3c862954e36dadb5b26438bb4bc42c75c46f08f5
+source-git-commit: e2a930c1ba45c14965d124d98e17025f3a03a23a
 workflow-type: tm+mt
-source-wordcount: '14341'
+source-wordcount: '14345'
 ht-degree: 2%
 
 ---
@@ -2043,10 +2043,10 @@ ht-degree: 2%
       * [Adobe Workfront Planning一般資訊：文章索引](planning/general/planning-general-article-index.md)
       * [Adobe Workfront規劃概觀](planning/general/planning-overview.md)
       * [Adobe Workfront Planning API基本需知](planning/general/planning-api-basics.md)
-      * [Adobe Workfront Planning物件限制總覽](planning/general/limitations-overview.md)
       * [Adobe Workfront Planning AI Assistant概觀](planning/general/planning-ai-assistant-overview.md)
       * [Adobe Workfront Planning目前發行活動](planning/general/release-activity.md)
       * [2023年Adobe Workfront Planning發行活動封存](planning/general/release-activity-archives-2023.md)
+      * [Adobe Workfront Planning物件限制總覽](planning/general/limitations-overview.md)
    * Adobe Workfront規劃架構{#adobe-workfront-planning-architecture}
       * [架構：文章索引](planning/architecture/architecture-information.md)
       * [工作區概觀](planning/architecture/workspaces-overview.md)
@@ -2091,6 +2091,7 @@ ht-degree: 2%
       * [新增封面影像至記錄](planning/records/add-a-cover-image-to-a-record.md)
       * [管理記錄頁面配置](planning/records/manage-the-record-page.md)
       * [在Adobe Workfront物件的Planning區段中管理記錄](planning/records/manage-records-in-planning-section.md)
+      * [匯出記錄的詳細資料](/help/quicksilver/planning/records/export-the-record-page.md)
    * Adobe Workfront Planning檢視{#adobe-workfront-planning-views}
       * [檢視：文章索引](planning/views/views-information.md)
       * [管理記錄檢視](planning/views/manage-record-views.md)

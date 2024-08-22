@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7f32ebab-b8dd-496d-b510-99055924b0c7
-source-git-commit: d56a4721353f8b7db856eab5a3ae3b53396bd079
+source-git-commit: e2a930c1ba45c14965d124d98e17025f3a03a23a
 workflow-type: tm+mt
-source-wordcount: '115'
+source-wordcount: '119'
 ht-degree: 1%
 
 ---
@@ -44,3 +44,4 @@ hide: yes
 * [新增縮圖至記錄](/help/quicksilver/planning/records/add-thumbnails-to-records.md)
 * [新增封面影像至記錄](/help/quicksilver/planning/records/add-a-cover-image-to-a-record.md)
 * [管理記錄頁面配置](/help/quicksilver/planning/records/manage-the-record-page.md)
+* [匯出記錄的詳細資料](/help/quicksilver/planning/records/export-the-record-page.md)
