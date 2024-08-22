@@ -6,9 +6,9 @@ author: Becky
 feature: Get Started with Workfront
 hide: true
 hidefromtoc: true
-source-git-commit: 2a6de1325895bc36527ab83b1d0b47910636b9b9
+source-git-commit: b61f021fe52e5a15afc4bc7e1b9545da97fb03d2
 workflow-type: tm+mt
-source-wordcount: '392'
+source-wordcount: '419'
 ht-degree: 0%
 
 ---
@@ -64,6 +64,10 @@ Workfront的AI助理可在自然語言對話中提供應用程式內資訊和建
 
   如需詳細資訊，請參閱[啟用或停用AI助理](/help/quicksilver/workfront-basics/ai-assistant/enable-or-disable-assistant.md)。
 
+* Workfront Planning AI Assistant與Workfront AI Assistant的功能不同。
+
+  如需Workfront規劃中AI助理的詳細資訊，請參閱[Adobe Workfront規劃AI助理概述](/help/quicksilver/planning/general/planning-ai-assistant-overview.md)。
+
 
 ## AI助理中可用的功能
 
@@ -85,7 +89,7 @@ AI助理目前提供下列功能：
 
   如需詳細資訊，請參閱[使用AI助理產生或修訂計算欄位公式](/help/quicksilver/workfront-basics/ai-assistant/use-ai-assistant-to-check-formulas.md)。
 
-## ##存取AI助理
+## 存取AI助理
 
 1. 在任何Workfront頁面頂端，按一下AI助理圖示![](/help/quicksilver/workfront-basics/ai-assistant/assets/ai-assistant-icon.png)。
 1. 在熒幕右側的面板中輸入您的問題或提示。
