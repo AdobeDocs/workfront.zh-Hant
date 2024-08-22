@@ -3,9 +3,9 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文件、教學課程和其他資源，了解如何在您的組織中實施並有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: e2a930c1ba45c14965d124d98e17025f3a03a23a
+source-git-commit: 21411f9d68b0142c13f8ff92c4f55ad6fe0bb457
 workflow-type: tm+mt
-source-wordcount: '14345'
+source-wordcount: '14295'
 ht-degree: 2%
 
 ---
@@ -434,8 +434,6 @@ ht-degree: 2%
          * [新的評論體驗](product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md)
          * [新的評論體驗發行活動](product-announcements/betas/new-commenting-experience-beta/new-commenting-beta-experience-release-activity.md)
          * [新的評論體驗常見問題集](product-announcements/betas/new-commenting-experience-beta/new-commenting-faq.md)
-      * Workfront與Frame.io整合beta {#frame-io-wf-integration-beta}
-         * [Adobe Workfront和Frame.io原生整合Beta版](review-and-approve-work/Documents/wf-frame-alpha.md)
       * Workfront data lake beta {#data-lake-beta}
          * [Workfront data lake beta版資訊](/help/quicksilver/product-announcements/betas/data-lake-beta/data-lake-beta-information.md)
 * 管理和設定 {#administration-and-setup}
@@ -785,7 +783,6 @@ ht-degree: 2%
    * 設定整合{#configure-integrations}
       * [設定整合](administration-and-setup/configure-integrations/workfront-integrations.md)
       * [Adobe Workfront整合](administration-and-setup/configure-integrations/workfront-integrations-1.md)
-      * [設定 [!DNL Workfront] 與 [!DNL Frame.io] 整合](administration-and-setup/configure-integrations/configure-wf-and-frame.md)
       * [設定Experience Manager Assetsas a Cloud Service整合](administration-and-setup/configure-integrations/configure-aacs-integration.md)
       * [設定 Experience Manager Assets Essentials 整合](documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md)
       * [使用Adobe Experience Manager舊版聯結器設定Workfront](administration-and-setup/configure-integrations/configure-workfront-aem.md)
@@ -1198,7 +1195,6 @@ ht-degree: 2%
          * [使用範本建立專案](manage-work/projects/create-projects/create-project-from-template.md)
          * [從Microsoft專案匯入專案](manage-work/projects/create-projects/import-project-from-ms-project.md)
          * [建立專案基準線](manage-work/projects/create-projects/create-baselines.md)
-         * [建立與Frame.io連線的專案](manage-work/projects/create-projects/create-frame-connected-project.md)
       * 更新專案{#update-work-on-a-project}上的工作
          * [更新專案上的工作：文章索引](manage-work/projects/updating-work-in-a-project/update-work-on-project.md)
          * [將狀態套用至與群組相關聯的工作](manage-work/projects/updating-work-in-a-project/apply-custom-status-work-assigned-to-group.md)
@@ -1809,15 +1805,12 @@ ht-degree: 2%
       * [資產和檔案檢閱和核准：文章索引](review-and-approve-work/document-reviews-and-approvals/document-reviews-and-approvals.md)
       * [檔案核准概觀](review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md)
       * [檔案決定狀態概觀](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/document-approval-status.md)
-      * [開始使用Frame.io進行資產檢閱和核准](review-and-approve-work/document-reviews-and-approvals/frame-wf-get-started.md)
       * 設定及管理資產和檔案核准{#manage-asset-review-and-approval}
          * [設定及管理資產和檔案核准：文章索引](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/set-up-and-manage-doc-asset-approvals-toc.md)
          * [建立檔案稽核或核准請求](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)
-         * [建立Frame.io資產的檢閱或核准請求](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-request-for-frame-asset.md)
          * [將其他檢閱者或核准者新增至資產或檔案](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/add-additional-reviewers-or-approvers.md)
          * [從資產或檔案中移除核准者或稽核者](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/remove-approvers-or-reviewers.md)
          * [建立資產和檔案的核准範本](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md)
-         * [將Frame.io資產新增至已連線的Workfront專案](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/add-frame-asset-to-connected-project.md)
          * [一起使用新檔案核准和校樣](review-and-approve-work/document-reviews-and-approvals/doc-approvals-and-proofing.md)
       * 檢閱及核准資產和檔案{#review-and-approve-documents}
          * [檢閱和核准檔案：文章索引](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-documents-toc.md)

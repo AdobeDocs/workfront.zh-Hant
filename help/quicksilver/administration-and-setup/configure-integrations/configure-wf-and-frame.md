@@ -7,8 +7,10 @@ description: 身為 [!DNL Adobe Workfront] 管理員，您可以整合 [!DNL Wor
 author: Courtney
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
+hide: true
+hidefromtoc: true
 exl-id: 7d909976-d3ff-4e60-9158-c3bffe498e6e
-source-git-commit: 55c8a3e5d0041a0e975bfd979a2d2e38930fea8d
+source-git-commit: 321ffac87bd694325dfb05e4019b25479f58684a
 workflow-type: tm+mt
 source-wordcount: '428'
 ht-degree: 0%

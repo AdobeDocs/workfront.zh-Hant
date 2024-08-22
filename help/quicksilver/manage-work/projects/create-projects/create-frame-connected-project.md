@@ -5,8 +5,10 @@ title: 建立與Frame.io連線的專案
 description: 專案是Adobe Workfront中的大型工作單位。 您可以從頭開始建立專案、使用範本，或將問題或任務轉換為專案。
 author: Courtney
 feature: Work Management
+hide: true
+hidefromtoc: true
 exl-id: 230d8e62-a3c9-4e38-9b26-5ba1c4f56391
-source-git-commit: 49bd393af77a67aa1e3a443c4189569178e99ada
+source-git-commit: 60eefed6b3931f681aa86ab2c533662e76793744
 workflow-type: tm+mt
 source-wordcount: '1169'
 ht-degree: 1%

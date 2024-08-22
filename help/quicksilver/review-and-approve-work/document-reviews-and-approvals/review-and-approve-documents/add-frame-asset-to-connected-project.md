@@ -5,8 +5,10 @@ title: 將Frame.io資產新增至已連線的Workfront專案
 description: 創意人員可以將需要稽核的資產新增至Frame.io，並傳送至Workfront進行正式稽核和核准。
 author: Courtney
 feature: Work Management, Digital Content and Documents
+hide: true
+hidefromtoc: true
 exl-id: f196e56f-6e67-4d54-b36d-83bb4a3ae681
-source-git-commit: 850d21fafcf2192600f9011ee936a9bc40f969a4
+source-git-commit: 60eefed6b3931f681aa86ab2c533662e76793744
 workflow-type: tm+mt
 source-wordcount: '309'
 ht-degree: 0%

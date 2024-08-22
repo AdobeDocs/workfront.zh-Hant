@@ -2,17 +2,19 @@
 content-type: reference
 product-area: projects
 navigation-topic: projects-navigation-topic
-title: 「建立Frame.io資產的檢閱或核准請求」
+title: 建立Frame.io資產的檢閱或核准請求
 description: 您可以建立Frame.io連線資產的檢閱或核准請求。
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
-source-git-commit: 796955fb073905337755fc04e9fb43dbc85b6450
+hide: true
+hidefromtoc: true
+exl-id: d80d7ea1-698a-4b78-bf65-bad6bbdfc423
+source-git-commit: 60eefed6b3931f681aa86ab2c533662e76793744
 workflow-type: tm+mt
 source-wordcount: '330'
 ht-degree: 0%
 
 ---
-
 
 # 建立Frame.io資產的檢閱或核准請求
 

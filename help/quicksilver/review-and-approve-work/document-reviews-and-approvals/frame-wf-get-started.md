@@ -6,8 +6,10 @@ description: 進一步瞭解使用Workfront和Frame.io時的正式稽核和核�
 author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
+hide: true
+hidefromtoc: true
 exl-id: 68b91aad-af76-473f-861d-da846fdfb84c
-source-git-commit: 4f54504cc0efdee532df49aacaf7c651178847e6
+source-git-commit: 60eefed6b3931f681aa86ab2c533662e76793744
 workflow-type: tm+mt
 source-wordcount: '1152'
 ht-degree: 0%

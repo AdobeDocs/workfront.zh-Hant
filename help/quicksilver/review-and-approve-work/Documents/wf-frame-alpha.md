@@ -6,8 +6,10 @@ description: 我們很高興宣佈推出Workfront + Frame.io的Beta計畫。 您
 author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
+hide: true
+hidefromtoc: true
 exl-id: 23d1e241-ea5b-43f5-b097-8d96e13cb267
-source-git-commit: 9768756ac444bfe5fc21f20c3431c9cb1235a5f4
+source-git-commit: 60eefed6b3931f681aa86ab2c533662e76793744
 workflow-type: tm+mt
 source-wordcount: '978'
 ht-degree: 1%
