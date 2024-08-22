@@ -5,13 +5,13 @@ user-type: administrator
 product-area: system-administration;workfront-integrations
 navigation-topic: administrator-integrations
 description: 您可以啟用或停用對 [!DNL Adobe Workfront] 行動應用程式的存取。
-author: Lisa
+author: Nolan
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 exl-id: cd09e78c-bd2a-4712-9c35-8acbf1a3729d
-source-git-commit: f7e3182776e6b62103cd755b2fbd5057efc95394
+source-git-commit: 55c8a3e5d0041a0e975bfd979a2d2e38930fea8d
 workflow-type: tm+mt
-source-wordcount: '211'
+source-wordcount: '209'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,8 @@ ht-degree: 0%
 您可以啟用或停用對[!DNL Adobe Workfront]行動應用程式的存取。
 
 ## 存取需求
+
++++ 展開以檢視本文中功能的存取需求。
 
 您必須具有下列存取權才能執行本文中的步驟：
 
@@ -43,9 +45,11 @@ ht-degree: 0%
  </tbody> 
 </table>
 
++++
+
 ## 讓使用者能夠存取行動應用程式
 
-1. 按一下[!DNL Adobe Workfront]右上角的&#x200B;**[!UICONTROL 主要功能表]**&#x200B;圖示![](assets/main-menu-icon.png)，然後按一下&#x200B;**[!UICONTROL 設定]** ![](assets/gear-icon-settings.png)。
+{{step-1-to-setup}}
 
 1. 按一下位於頁面右上角的&#x200B;**[!UICONTROL 設定]，**。
 

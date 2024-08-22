@@ -2,23 +2,26 @@
 user-type: administrator
 product-area: system-administration;workfront-integrations;setup
 navigation-topic: administrator-integrations
-title: 設定JumpSeat整合
+title: 設定 JumpSeat 整合
 description: 您可以整合 [!DNL JumpSeat] 與 [!DNL Workfront] 以建立自訂的產品內指南。
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
+author: Nolan, Becky
 exl-id: 23edb48b-8cad-47be-8ace-5238a5869677
-source-git-commit: 530c4451f4720a1710350f8e822e343794b63e87
+source-git-commit: 55c8a3e5d0041a0e975bfd979a2d2e38930fea8d
 workflow-type: tm+mt
-source-wordcount: '260'
-ht-degree: 1%
+source-wordcount: '258'
+ht-degree: 4%
 
 ---
 
-# 設定JumpSeat整合
+# 設定 JumpSeat 整合
 
 您可以整合[!DNL JumpSeat]與[!DNL Workfront]，以建立自訂的產品內指南。
 
 ## 存取需求
+
++++ 展開以檢視本文中功能的存取需求。
 
 您必須具有下列存取權才能執行本文中的步驟：
 
@@ -27,25 +30,27 @@ ht-degree: 1%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] 計畫*</strong></td> 
+   <td role="rowheader">[!DNL Adobe Workfront] 計畫*</td> 
    <td> <p>[！UICONTROL Enterprise] </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] 授權*</strong></td> 
+   <td role="rowheader">[!DNL Adobe Workfront] 授權*</td> 
    <td>[！UICONTROL計畫]</td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>產品</strong></td> 
+   <td role="rowheader">產品</td> 
    <td>您必須擁有使用中的[!DNL JumpSeat]計畫。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>存取層級設定*</strong></td> 
+   <td role="rowheader">存取層級設定*</td> 
    <td> <p> 您必須是[!DNL Workfront]管理員。 如需[!DNL Workfront]管理員的相關資訊，請參閱<a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">授予使用者完整管理存取權</a>。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 &#42;若要瞭解您擁有的計畫、授權型別或存取權，請連絡您的[!DNL Workfront]管理員。
+
++++
 
 ## 先決條件
 
@@ -63,7 +68,8 @@ ht-degree: 1%
 
 若要設定[!DNL JumpSeat]整合：
 
-1. 按一下[!DNL Adobe Workfront]右上角的&#x200B;**[!UICONTROL 主要功能表]**&#x200B;圖示![](assets/main-menu-icon.png)，然後按一下&#x200B;**[!UICONTROL 設定]**。
+{{step-1-to-setup}}
+
 1. 在左側面板中，按一下&#x200B;**[!UICONTROL 系統]** > **[!UICONTROL [!DNL JumpSeat]整合]**。
 1. 輸入您的&#x200B;**[!UICONTROL [!DNL JumpSeat]URL]**，您可在[!DNL JumpSeat]中的擴充功能圖示上找到。
 

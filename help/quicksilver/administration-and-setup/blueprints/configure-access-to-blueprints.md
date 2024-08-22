@@ -4,13 +4,13 @@ product-area: system-administration;workfront-integrations
 navigation-topic: best-practices-catalog
 title: 設定對藍圖的存取權
 description: 作為系統管理員，您可以透過設定請求佇列來儲存請求，從而為使用者啟用請求安裝藍圖的存取權。 在那裡，您只有一個位置可追蹤和更新請求。
-author: Lisa
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: d85f363f-2ab4-45cb-b851-a7f33e1ca905
-source-git-commit: d46eb98c443a421f340b1021972ddb89eda1966b
+source-git-commit: 55c8a3e5d0041a0e975bfd979a2d2e38930fea8d
 workflow-type: tm+mt
-source-wordcount: '510'
+source-wordcount: '527'
 ht-degree: 0%
 
 ---
@@ -34,6 +34,8 @@ ht-degree: 0%
 
 ## 存取需求
 
++++ 展開以檢視本文中功能的存取需求。
+
 您必須具有下列存取權才能執行本文中的步驟：
 
 <table style="table-layout:auto"> 
@@ -41,19 +43,26 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] 計劃</strong></td> 
-   <td> <p> 任何</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] 計劃</td> 
+   <td>任何</td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Adobe[!DNL Workfront]授權</strong></td> 
-   <td>[！UICONTROL計畫]</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] 授權</td> 
+   <td>
+   <p>新增：標準</p>
+   <p>或</p>
+   <p>目前：計畫</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>存取層級設定</strong></td> 
-   <td> <p>[！UICONTROL系統管理員]</p> </td> 
+   <td role="rowheader">存取層級設定</td> 
+   <td>您必須是[!DNL Workfront]管理員。 </td> 
   </tr> 
  </tbody> 
 </table>
+
+如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
++++
 
 ## 先決條件 {#prerequisites}
 
@@ -68,7 +77,8 @@ ht-degree: 0%
 
 您必須先為這些請求選取請求佇列，使用者才能要求您為其安裝Blueprint。 在定義請求佇列之前，使用者只能瀏覽Blueprint目錄。
 
-1. 按一下[!DNL Adobe Workfront]右上角的&#x200B;**[!UICONTROL 主功能表]**&#x200B;圖示![](assets/main-menu-icon.png)，然後按一下&#x200B;**[!UICONTROL 藍圖]**。
+{{step1-to-blueprints}}
+
 1. 按一下目錄畫面右上角的&#x200B;**[!UICONTROL 設定Blueprint要求]**。
 
    <!--

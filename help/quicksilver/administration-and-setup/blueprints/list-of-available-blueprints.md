@@ -4,11 +4,11 @@ product-area: system-administration;workfront-integrations
 navigation-topic: administration-and-setup
 title: 可用藍圖清單
 description: 列出的 [!DNL Adobe Workfront] 藍圖可供系統管理員安裝。
-author: Lisa
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: a5cdcb89-71c0-43f0-a5cf-dc99fac542ba
-source-git-commit: 93c50eb6ad2e9693cd9fd104efed2763e07cd418
+source-git-commit: 55c8a3e5d0041a0e975bfd979a2d2e38930fea8d
 workflow-type: tm+mt
 source-wordcount: '2019'
 ht-degree: 0%
@@ -87,7 +87,7 @@ ht-degree: 0%
 
 此藍圖包含包含12個報表的單一控制面板，讓人員管理員可檢視其直接下屬的工作。
 
-**[!UICONTROL Post — 實作：新使用案例轉出]**
+**[!UICONTROL 實作後：新使用案例轉出]**
 此Blueprint包含單一範本，可組織[!DNL Workfront]客戶在初始實施後管理擴充至下一個流程所需完成的工作。
 
 **[!UICONTROL 列印資產製作] （整合）**

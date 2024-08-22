@@ -4,14 +4,14 @@ user-type: administrator
 product-area: system-administration;workfront-integrations
 navigation-topic: administrator-integrations
 description: 中繼資料是與檔案相關聯的描述性資訊。 您可以設定 [!DNL Adobe Workfront] 以包含傳送至 [!DNL Workfront] 應用程式的檔案的中繼資料。
-author: Caroline
+author: Courtney, Becky
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 exl-id: 7cf4787d-7cff-489e-bd5b-69db3ff09f6e
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: 55c8a3e5d0041a0e975bfd979a2d2e38930fea8d
 workflow-type: tm+mt
-source-wordcount: '615'
-ht-degree: 1%
+source-wordcount: '600'
+ht-degree: 0%
 
 ---
 
@@ -20,6 +20,8 @@ ht-degree: 1%
 中繼資料是與檔案相關聯的描述性資訊。 您可以設定[!DNL Adobe Workfront]以包含中繼資料以及傳送至[!DNL Workfront]應用程式的檔案。
 
 ## 存取需求
+
++++ 展開以檢視本文中功能的存取需求。
 
 您必須具有下列存取權才能執行本文中的步驟：
 
@@ -41,6 +43,8 @@ ht-degree: 1%
   </tr> 
  </tbody> 
 </table>
+
++++
 
 ## 關於[!DNL Workfront]中繼資料
 
@@ -64,7 +68,7 @@ ht-degree: 1%
 
 ## 設定[!DNL Workfront]以傳送中繼資料
 
-1. 按一下[!DNL Adobe Workfront]右上角的&#x200B;**[!UICONTROL 主要功能表]**&#x200B;圖示![](assets/main-menu-icon.png)，然後按一下&#x200B;**[!UICONTROL 設定]** ![](assets/gear-icon-settings.png)。
+{{step-1-to-setup}}
 
 1. 在左側面板中，按一下&#x200B;**[!UICONTROL 檔案]** > **[!UICONTROL 中繼資料對應]**。
 
@@ -82,7 +86,8 @@ ht-degree: 1%
 ## 刪除對應的欄位
 
 1. 以系統管理員身分登入[!DNL Workfront]。
-1. 按一下[!DNL Adobe Workfront]右上角的&#x200B;**[!UICONTROL 主要功能表]**&#x200B;圖示![](assets/main-menu-icon.png)，然後按一下&#x200B;**[!UICONTROL 設定]** ![](assets/gear-icon-settings.png)。
+
+{{step-1-to-setup}}
 
 1. 在左側面板中，按一下&#x200B;**[!UICONTROL 檔案]** > **[!UICONTROL 中繼資料對應]**。
 

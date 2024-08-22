@@ -5,11 +5,11 @@ product-area: system-administration;workfront-integrations
 navigation-topic: best-practices-catalog
 title: 安裝Blueprint後要採取的動作
 description: 本文概述您在 [!DNL Adobe Workfront] 中安裝Blueprint後，應該做什麼，才能將該Blueprint完全部署給您的系統使用者。
-author: Lisa
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 6e5da58f-105a-4edf-8fc1-65e8762d43c6
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: 55c8a3e5d0041a0e975bfd979a2d2e38930fea8d
 workflow-type: tm+mt
 source-wordcount: '1138'
 ht-degree: 0%

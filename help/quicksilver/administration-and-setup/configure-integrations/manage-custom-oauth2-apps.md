@@ -6,10 +6,11 @@ title: 檢視及管理自訂OAuth2應用程式
 description: 身為Adobe Workfront管理員，您可以檢視及管理您Workfront執行個體的OAuth2應用程式，此應用程式可讓其他應用程式存取Workfront。
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
+author: Becky
 exl-id: 158430e5-8857-4bd8-86a6-2ba106b1638c
-source-git-commit: 6f041459caf040846ffdec5bc75e9d74c99e318b
+source-git-commit: 55c8a3e5d0041a0e975bfd979a2d2e38930fea8d
 workflow-type: tm+mt
-source-wordcount: '720'
+source-wordcount: '666'
 ht-degree: 0%
 
 ---
@@ -29,6 +30,8 @@ ht-degree: 0%
 * 如需使用PKCE設定及使用OAuth2應用程式的指示，請參閱[使用PKCE流程設定及使用您組織的自訂OAuth2應用程式](../../wf-api/api/oauth-app-pkce-flow.md)。
 
 ## 存取需求
+
++++ 展開以檢視本文中功能的存取需求。
 
 您必須具有下列存取權才能執行本文中的步驟：
 
@@ -55,6 +58,8 @@ ht-degree: 0%
 
 &#42;若要瞭解您擁有的計畫、授權型別或存取權，請連絡您的[!DNL Workfront]管理員。
 
++++
+
 ## 先決條件
 
 您必須先為您的組織建立[!UICONTROL OAuth2]應用程式，才能檢視或管理這些應用程式。
@@ -68,7 +73,7 @@ ht-degree: 0%
 
 ### 檢視和編輯自訂OAuth2應用程式 {#view-and-edit-custom-oauth2-applications}
 
-1. 按一下[!DNL Adobe Workfront]右上角的&#x200B;**[!UICONTROL 主要功能表]**&#x200B;圖示![](assets/main-menu-icon.png)，然後按一下&#x200B;**[!UICONTROL 設定]** ![](assets/gear-icon-settings.png)。
+{{step-1-to-setup}}
 
 1. 在左側導覽面板中，按一下&#x200B;**[!UICONTROL 系統]**，然後選取&#x200B;**[!UICONTROL OAuth應用程式]**。
 1. 按一下&#x200B;**[!UICONTROL 建立應用程式整合]**。
@@ -79,7 +84,7 @@ ht-degree: 0%
 
 ### 刪除自訂OAuth2應用程式 {#delete-custom-oauth2-applications}
 
-1. 按一下[!DNL Adobe Workfront]右上角的&#x200B;**[!UICONTROL 主要功能表]**&#x200B;圖示![](assets/main-menu-icon.png)，然後按一下&#x200B;**[!UICONTROL 設定]** ![](assets/gear-icon-settings.png)。
+{{step-1-to-setup}}
 
 1. 在左側導覽面板中，按一下&#x200B;**[!UICONTROL 系統]**，然後選取&#x200B;**[!UICONTROL OAuth應用程式]**。
 1. 按一下** **。
@@ -101,9 +106,7 @@ ht-degree: 0%
 >* 若要建立新的使用者端密碼，請參閱[在[建立OAuth2應用程式](../../administration-and-setup/configure-integrations/create-oauth-application.md)整合的OAuth2應用程式](../../administration-and-setup/configure-integrations/create-oauth-application.md#create)。 [!DNL Workfront] 
 >
 
-
-
-1. 按一下[!DNL Adobe Workfront]右上角的&#x200B;*[!UICONTROL *主功能表]**圖示![](assets/main-menu-icon.png)，然後按一下&#x200B;**[!UICONTROL 設定]** ![](assets/gear-icon-settings.png)。
+{{step-1-to-setup}}
 
 1. 在左側導覽面板中，按一下&#x200B;**[!UICONTROL 系統]**，然後選取&#x200B;**[!UICONTROL OAuth應用程式]**。
 1. 將滑鼠停留在應用程式上，然後按一下&#x200B;**[!UICONTROL 編輯]**&#x200B;圖示（當它出現在最右邊時）。
@@ -117,7 +120,7 @@ ht-degree: 0%
 
 ### 新增或編輯使用者端密碼的附註 {#add-or-edit-notes-for-client-secret}
 
-1. 按一下[!DNL Adobe Workfront]右上角的&#x200B;**[!UICONTROL 主要功能表]**&#x200B;圖示![](assets/main-menu-icon.png)，然後按一下&#x200B;**[!UICONTROL 設定]** ![](assets/gear-icon-settings.png)。
+{{step-1-to-setup}}
 
 1. 在左側導覽面板中，按一下&#x200B;**[!UICONTROL 系統]**，然後選取&#x200B;**[!UICONTROL OAuth應用程式]**。
 1. 按一下&#x200B;**[!UICONTROL 建立應用程式整合]**。
@@ -135,7 +138,7 @@ ht-degree: 0%
 
 ### 刪除使用者端密碼 {#delete-client-secret}
 
-1. 按一下[!DNL Adobe Workfront]右上角的&#x200B;**[!UICONTROL 主要功能表]**&#x200B;圖示![](assets/main-menu-icon.png)，然後按一下&#x200B;**[!UICONTROL 設定]** ![](assets/gear-icon-settings.png)。
+{{step-1-to-setup}}
 
 1. 在左側導覽面板中，按一下&#x200B;**[!UICONTROL 系統]**，然後選取&#x200B;**[!UICONTROL OAuth應用程式]**。
 1. 按一下&#x200B;**[!UICONTROL 建立應用程式整合]**。

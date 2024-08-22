@@ -1,5 +1,5 @@
 ---
-title: 設定 [!DNL Workfront] 與 [!DNL Adobe Experience Manager] 舊聯結器
+title: 使用 [!DNL Adobe Experience Manager] 舊版聯結器設定 [!DNL Workfront]
 user-type: administrator
 product-area: system-administration;workfront-integrations;setup
 navigation-topic: administrator-integrations
@@ -8,9 +8,9 @@ author: Courtney
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 exl-id: 024b8606-a9b7-413a-b393-8e5cdff37dd4
-source-git-commit: 2f840ea68c9efb78acb4c24346c6775671ed0334
+source-git-commit: 55c8a3e5d0041a0e975bfd979a2d2e38930fea8d
 workflow-type: tm+mt
-source-wordcount: '1890'
+source-wordcount: '1875'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,8 @@ ht-degree: 0%
 作為[!DNL Adobe Workfront]管理員，您可以整合[!DNL Workfront]與[!UICONTROL Adobe Experience Manager (AEM) Assets]，並為您的組織提供完整的內容管理解決方案，以建立、共用及維護工作流程中的資產。
 
 ## 存取需求
+
++++ 展開以檢視本文中功能的存取需求。
 
 您必須具有下列存取權才能執行本文中的步驟：
 
@@ -43,6 +45,8 @@ ht-degree: 0%
 </table>
 
 &#42;若要瞭解您擁有的計畫、授權型別或存取權，請連絡您的[!DNL Workfront]管理員。
+
++++
 
 ## [!DNL Workfront for AEM Assets]
 
@@ -149,7 +153,8 @@ ht-degree: 0%
       若要擷取您的[!DNL Workfront] API金鑰：
 
       1. 開啟瀏覽器索引標籤，並以[!DNL Workfront]管理員身分登入您的[!DNL Workfront]帳戶。
-      1. 按一下[!DNL Adobe Workfront]右上角的&#x200B;**[!UICONTROL 主要功能表]**&#x200B;圖示![](assets/main-menu-icon.png)，然後按一下&#x200B;**[!UICONTROL 設定]** ![](assets/gear-icon-settings.png)。
+
+      {{step-1-to-setup}}
 
       1. 按一下&#x200B;**[!UICONTROL 系統]** >**[!UICONTROL 客戶資訊]**。
 
@@ -256,7 +261,7 @@ ht-degree: 0%
    >
    >[!UICONTROL Workfront]建議建立專屬於您AEM整合的[!UICONTROL Workfront]管理員。 如需將[!UICONTROL Workfront]管理員存取層級指派給使用者的詳細資訊，請參閱[授予使用者對特定區域的管理存取權](../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md)。
 
-1. 按一下[!DNL Adobe Workfront]右上角的&#x200B;**[!UICONTROL 主要功能表]**&#x200B;圖示![](assets/main-menu-icon.png)，然後按一下&#x200B;**[!UICONTROL 設定]** ![](assets/gear-icon-settings.png)。
+{{step-1-to-setup}}
 
 1. 按一下&#x200B;**[!UICONTROL 檔案]**> **[!UICONTROL 自訂整合]。**
 

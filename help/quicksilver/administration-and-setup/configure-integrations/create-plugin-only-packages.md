@@ -6,8 +6,9 @@ navigation-topic: administrator-integrations
 description: Adobe Admin Console管理員可建立輕量且僅限外掛程式的套件。 透過分發這些預先設定的套件，管理員可確保使用者擁有這些外掛程式，而不依賴使用者自行尋找外掛程式。 我們建議使用這些輕量型外掛程式，將Adobe Workfront的Creative Cloud外掛程式分配給您組織中的使用者。
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
+author: Becky
 exl-id: 99c40201-815e-447d-b791-dd026af55ec1
-source-git-commit: abb021a6857f8016d4f8b6bcf99fe818e47faea6
+source-git-commit: 55c8a3e5d0041a0e975bfd979a2d2e38930fea8d
 workflow-type: tm+mt
 source-wordcount: '205'
 ht-degree: 4%

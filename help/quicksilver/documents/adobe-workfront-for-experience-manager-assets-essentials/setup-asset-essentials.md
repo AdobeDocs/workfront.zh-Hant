@@ -6,14 +6,14 @@ description: 在Experience Manager Assets Essentials中將您的工作與您的�
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: abaa76e2-bbf1-47d0-8bdc-4e950df4f7ea
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: 55c8a3e5d0041a0e975bfd979a2d2e38930fea8d
 workflow-type: tm+mt
-source-wordcount: '635'
-ht-degree: 0%
+source-wordcount: '626'
+ht-degree: 1%
 
 ---
 
-# 設定Experience Manager Assets Essentials整合
+# 設定 Experience Manager Assets Essentials 整合
 
 在Experience Manager Assets Essentials&#x200B;中將您的工作與內容連線起來：
 
@@ -27,48 +27,51 @@ ht-degree: 0%
 
 ## 存取需求
 
-您必須具備下列條件：
++++ 展開以檢視本文中功能的存取需求。
+
+您必須具有下列存取權才能執行本文中的步驟：
 
 <table>
   <tr>
-   <td><strong>Adobe Workfront計畫*</strong>
+   <td>[!DNL Adobe Workfront] 計劃
    </td>
    <td>任何
    </td>
   </tr>
   <tr>
-   <td><strong>Adobe Workfront授權*</strong>
+   <td>[!DNL Adobe Workfront] 授權
    </td>
-   <td>計劃
+   <td><p>目前： [！UICONTROL計畫]</p>
+   <p>新增：[！UICONTROL Standard]</p></td>
+  </tr>
+  <tr>
+   <td>[!DNL Experience Manager] 授權
+   </td>
+   <td>[！UICONTROL標準]
    </td>
   </tr>
   <tr>
-   <td><strong>Experience Manager授權</strong>
-   </td>
-   <td>標準
-   </td>
-  </tr>
-  <tr>
-   <td><strong>產品</strong>
+   <td>產品
    </td>
    <td>您必須擁有Experience Manager Assets Essentials，並且您必須在Admin Console中作為使用者新增到產品中。
    </td>
   </tr>
   <tr>
-   <td><strong>存取層級設定</strong>
+   <td>存取層級設定
    </td>
-   <td>您必須是Workfront管理員。 如需Workfront管理員的相關資訊，請參閱<strong>授予使用者完整管理存取權</strong>。
+   <td>您必須是[!DNL Workfront]管理員。
    </td>
   </tr>
 </table>
 
+如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
-*若要瞭解您擁有的計畫、授權型別或存取權，請聯絡您的Workfront管理員。
-
++++
 
 ## 設定整合
 
-1. 按一下Adobe Workfront右上角的&#x200B;**主要功能表**&#x200B;圖示，然後按一下&#x200B;**設定**。
+{{step-1-to-setup}}
+
 1. 在左側面板中選取&#x200B;**檔案** ![檔案圖示](assets/document-icon.png)，然後選取&#x200B;**Experience Manager整合**。
 1. 選取&#x200B;**新增Experience Manager整合**。
 1. 指定下列專案：
@@ -126,20 +129,21 @@ Look for essentials article
 For more information on keywords in Experience Manager Assets, including how to create and manage keywords, see [Administering Tags]( https://experienceleague.adobe.com/docs/experience-manager-64/administering/contentmanagement/tags.html?lang=en).
 -->
 
-+++
-
 
 ### 資產
 
 中繼資料會在第一次從Workfront推送資產時進行對應。 具有內建或自訂欄位的檔案，在首次將資產傳送到Experience Manager Assets Essentials時會自動對應到指定的欄位。
 
 1. 在&#x200B;**Workfront欄位**&#x200B;欄位中，選擇內建或自訂Workfront欄位。
+
    >[!NOTE]
    >
    >您可以將單一Workfront欄位對應至多個Experience Manager Assets欄位。 您無法將多個Workfront欄位對應至單一Experience Manager Assets欄位。
+
 1. 在&#x200B;**Experience Manager**&#x200B;欄位中，選擇Experience Manager Assets欄位。
 
    若要將Workfront欄位對應至Experience Manager Assets標籤，請選取「`xcm:keywords`」。
+
 1. 視需要重複步驟1和2。
    ![啟用中繼資料](assets/metadata-assets-essentials.png)
 1. 按一下&#x200B;**儲存**&#x200B;或移至本文中的[設定連結資料夾（選用）](#set-up-linked-folders-optional)區段。

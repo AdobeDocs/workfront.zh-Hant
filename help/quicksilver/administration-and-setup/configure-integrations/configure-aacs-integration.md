@@ -6,9 +6,9 @@ description: 您可以在 [!DNL Experience Manager Assets]中將您的工作與�
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: bc58cc77-a177-417f-a5a4-eec51e305219
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: 55c8a3e5d0041a0e975bfd979a2d2e38930fea8d
 workflow-type: tm+mt
-source-wordcount: '1679'
+source-wordcount: '1687'
 ht-degree: 0%
 
 ---
@@ -39,36 +39,35 @@ ht-degree: 0%
 
 +++ 展開以檢視本文中功能的存取需求。
 
-您必須具備下列條件：
+您必須具有下列存取權才能執行本文中的步驟：
 
 <table>
   <tr>
-   <td><strong>[!DNL Adobe Workfront]計畫</strong>
+   <td>[!DNL Adobe Workfront] 計劃
    </td>
    <td>任何
    </td>
   </tr>
   <tr>
-   <td><strong>[!DNL Adobe Workfront]個授權</strong>
+   <td>[!DNL Adobe Workfront] 授權
    </td>
-   <td>目前： [！UICONTROL計畫] <br>
-   新增：[！UICONTROL Standard]
-   </td>
+   <td><p>目前： [！UICONTROL計畫]</p>
+   <p>新增：[！UICONTROL Standard]</p></td>
   </tr>
   <tr>
-   <td><strong>[!DNL Experience Manager]授權</strong>
+   <td>[!DNL Experience Manager] 授權
    </td>
    <td>[！UICONTROL標準]
    </td>
   </tr>
   <tr>
-   <td><strong>產品</strong>
+   <td>產品
    </td>
    <td>您必須有[!DNL Experience Manager Assets as a Cloud Service]，而且您必須以使用者的身分新增到產品中。
    </td>
   </tr>
   <tr>
-   <td>存取層級設定*
+   <td>存取層級設定
    </td>
    <td>您必須是[!DNL Workfront]管理員。
    </td>
@@ -78,7 +77,6 @@ ht-degree: 0%
 如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
-
 
 ## 先決條件
 

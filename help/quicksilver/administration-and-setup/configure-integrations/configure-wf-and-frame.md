@@ -8,9 +8,9 @@ author: Courtney
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 exl-id: 7d909976-d3ff-4e60-9158-c3bffe498e6e
-source-git-commit: 0d737bc410f3db4eeff52fa8954acdb8a0eb1a6e
+source-git-commit: 55c8a3e5d0041a0e975bfd979a2d2e38930fea8d
 workflow-type: tm+mt
-source-wordcount: '409'
+source-wordcount: '428'
 ht-degree: 0%
 
 ---
@@ -26,25 +26,23 @@ Workfront管理員可啟用Workfront與Frame.io之間的整合，方法是在「
 >
 >此功能僅適用於已加入[!DNL Adobe Admin Console]的組織。
 
-您必須具備下列條件：
++++ 展開以檢視本文中功能的存取需求。
+
+您必須具有下列存取權才能執行本文中的步驟：
 
 <table>
   <tr>
-   <td><strong>[!DNL Adobe Workfront]計畫</strong>
-   </td>
-   <td>任何
-   </td>
+   <td>[!DNL Adobe Workfront] 計劃</td>
+   <td>任何</td>
   </tr>
   <tr>
-   <td><strong>[!DNL Adobe Workfront]個授權</strong>
+   <td>[!DNL Adobe Workfront] 授權
    </td>
-   <td>目前： [！UICONTROL計畫] <br>
-   新增：[！UICONTROL Standard]
-   </td>
+   <td><p>目前： [！UICONTROL計畫]</p>
+   <p>新增：[！UICONTROL Standard]</p></td>
   </tr>
-
-<tr>
-   <td><strong>存取層級設定</strong>
+  <tr>
+   <td>存取層級設定
    </td>
    <td>您必須是[!DNL Workfront]管理員。
    </td>
@@ -54,6 +52,7 @@ Workfront管理員可啟用Workfront與Frame.io之間的整合，方法是在「
 
 如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
++++
 
 ## 設定預設[!DNL Frame.io]帳戶[!BADGE 即將推出]{type=Informative}
 
