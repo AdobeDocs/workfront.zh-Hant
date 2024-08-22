@@ -6,9 +6,9 @@ description: 您可以共用或移除您所建立之物件或與您共用之物�
 author: Alina
 feature: Get Started with Workfront
 exl-id: 7c14702e-ac55-4266-88a7-f31618f84218
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+source-git-commit: 7f59cc0a7a10bb8405acad2fa2300e653e5ad78c
 workflow-type: tm+mt
-source-wordcount: '1165'
+source-wordcount: '1182'
 ht-degree: 1%
 
 ---
@@ -140,7 +140,7 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td role="rowheader"><strong>設為於系統範圍中可見</strong></td> 
-   <td> <p>擁有Workfront帳戶的任何人都可以在搜尋中找到和檢視物件。</p> </td> 
+   <td> <p>擁有Workfront帳戶的使用者可以在搜尋和檢視中找到物件。</p><p><b>注意&gt;/b&gt;：擁有貢獻者或請求者授權的使用者無法檢視專案，即使此設定已啟用亦然。 </td> 
   </tr> 
  </tbody> 
 </table>
