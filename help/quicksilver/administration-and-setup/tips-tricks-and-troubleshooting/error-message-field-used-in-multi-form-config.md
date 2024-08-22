@@ -3,15 +3,15 @@ user-type: administrator
 content-type: tips-tricks-troubleshooting
 product-area: system-administration
 navigation-topic: tips-tricks-troubleshooting-setup-admin
-title: 「錯誤訊息：發生輕微問題。 該欄位用於多表單設定
+title: 「錯誤訊息：發生輕微問題。 該欄位用於多表單設定」
 description: 當您在自訂表單的計算自訂欄位中變更計算時，出現一則錯誤訊息，告知您該欄位用於多表單設定時，您需要將該欄位取代為包含您要使用計算的新欄位。
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 43668525-5572-4d82-8eed-0e320249f296
-source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
+source-git-commit: c389b4829f16bf82a5851a597f5dd358d9c96999
 workflow-type: tm+mt
-source-wordcount: '1252'
+source-wordcount: '1239'
 ht-degree: 0%
 
 ---
@@ -43,7 +43,7 @@ ht-degree: 0%
 
 ## 尋找已附加自訂表單的物件 {#find-the-object-where-the-custom-forms-are-attached}
 
-1. 按一下[!DNL Adobe Workfront]右上角的&#x200B;**[!UICONTROL 主要功能表]**&#x200B;圖示![](assets/main-menu-icon.png)，然後按一下&#x200B;**[!UICONTROL 使用者]** ![](assets/users-icon-in-main-menu.png)。
+{{step-1-to-setup}}
 
 1. 按一下&#x200B;**[!UICONTROL 自訂Forms]** > **[!UICONTROL 欄位]**。
 1. 套用&#x200B;**[!UICONTROL 欄位清單]**&#x200B;檢視以尋找您嘗試修改的計算欄位，並記下使用它的每個自訂表單（例如，表單1、表單2、表單3） 。

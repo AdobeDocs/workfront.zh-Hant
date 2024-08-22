@@ -4,14 +4,14 @@ content-type: reference
 product-area: system-administration
 navigation-topic: tips-tricks-troubleshooting-setup-admin
 title: 自動提醒與提醒通知
-description: 本文說明自動提醒與提醒通知之間的差異，並提供每種的案例。 如需所有 [!DNL Adobe Workfront] 通知的詳細資訊，請參閱Adobe [!DNL Workfront] 通知。
-author: Caroline
+description: 本文說明自動提醒與提醒通知之間的差異，並提供每種的案例。
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 26c6fa2c-5c3a-4f53-bd7e-e49a623ff60d
-source-git-commit: c2bf6441e4ac8520a56d4005b3e87c48370dc065
+source-git-commit: c389b4829f16bf82a5851a597f5dd358d9c96999
 workflow-type: tm+mt
-source-wordcount: '255'
+source-wordcount: '247'
 ht-degree: 0%
 
 ---

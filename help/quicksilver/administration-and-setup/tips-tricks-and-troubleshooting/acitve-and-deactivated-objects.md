@@ -5,11 +5,11 @@ product-area: system-administration
 navigation-topic: tips-tricks-troubleshooting-setup-admin
 title: 使用中及已停用的物件
 description: 作為 [!DNL Adobe Workfront] 管理員，您可以啟動或停用系統內的物件。 我們建議您永遠不要刪除可以停用的物件。 您應該直接停用物件以防止將來使用，並從其他物件的下拉式選單中移除它。
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: a0617270-e233-4ebe-a5ee-8df7a8a85823
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: c389b4829f16bf82a5851a597f5dd358d9c96999
 workflow-type: tm+mt
 source-wordcount: '750'
 ht-degree: 2%

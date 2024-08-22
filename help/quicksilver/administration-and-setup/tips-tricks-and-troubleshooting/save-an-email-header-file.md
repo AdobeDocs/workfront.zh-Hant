@@ -5,11 +5,11 @@ product-area: system-administration
 navigation-topic: tips-tricks-troubleshooting-setup-admin
 title: 儲存電子郵件標題檔案
 description: 有時， [!DNL Adobe Workfront] 支援人員可能會要求電子郵件標題檔案。 每個電子郵件應用程式都有各自的取得此檔案的方式。 以下是一些不同的電子郵件應用程式指示，以找出並儲存標題。 [!DNL Outlook]
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: ee048fc8-63cc-4905-b5e2-f5870bcc6cb2
-source-git-commit: c2bf6441e4ac8520a56d4005b3e87c48370dc065
+source-git-commit: c389b4829f16bf82a5851a597f5dd358d9c96999
 workflow-type: tm+mt
 source-wordcount: '193'
 ht-degree: 0%
