@@ -7,9 +7,9 @@ author: Nolan
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: 5fbcd807-e152-4e93-a895-2028ed089f72
-source-git-commit: 9f975b2128e4ead84ccef8cda30dcb9f29f96e25
+source-git-commit: 3c862954e36dadb5b26438bb4bc42c75c46f08f5
 workflow-type: tm+mt
-source-wordcount: '432'
+source-wordcount: '440'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 0%
 
 **Beta狀態**
 
-畫布儀表板目前處於封閉測試階段，因此只能透過邀請特定客戶使用。
+畫布儀表板目前處於公開測試階段，因此可能會經常變更。 如需如何註冊Beta版的說明，請參閱下文。
 
 ## 參與測試版
 

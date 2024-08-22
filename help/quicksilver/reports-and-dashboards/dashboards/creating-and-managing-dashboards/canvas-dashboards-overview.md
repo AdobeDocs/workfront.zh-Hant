@@ -1,14 +1,11 @@
 ---
-product-area: dashboards
-navigation-topic: creating-and-managing-dashboards
 title: Canvas儀表板概觀
 description: 您可以建立整合報告畫布視覺效果與傳統報告並具備新版面配置選項的畫布控制面板。
-author: Nolan
-feature: Reports and Dashboards
 hidefromtoc: true
 hide: true
+recommendations: noDisplay, noCatalog
 exl-id: b02ca181-e3c3-41e9-ab45-b1b606909127
-source-git-commit: 9f975b2128e4ead84ccef8cda30dcb9f29f96e25
+source-git-commit: 3c862954e36dadb5b26438bb4bc42c75c46f08f5
 workflow-type: tm+mt
 source-wordcount: '628'
 ht-degree: 0%
