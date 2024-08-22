@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 6cc67488-1ba9-4455-9152-366aaabf0939
-source-git-commit: 5138321543175cac3e51cc21c8309cbefd8bc1e8
+source-git-commit: 716db8e2d6411495d1809dd320c9c3cca86e2659
 workflow-type: tm+mt
-source-wordcount: '1072'
+source-wordcount: '1121'
 ht-degree: 0%
 
 ---
@@ -34,9 +34,10 @@ ht-degree: 0%
 
 ## Adobe Workfront增強功能
 
-* [管理員增強功能]
-* [專案增強功能](#project-enhancements)
+* [管理員增強功能](#administrator-enhancements)
 * [整合增強功能](#integration-enhancements)
+* [專案增強功能](#project-enhancements)
+* [校訂增強功能](#proofing-enhancements)
 * [其他增強功能](#other-enhancements)
 
 ### 管理員增強功能
@@ -73,6 +74,41 @@ ht-degree: 0%
                             </li>
                         </ul>
                         <p><i>此功能屬於分階段發行的一部分，並將於9月提供給有限數量的客戶。</i></p>
+                    </td>
+                </tr>
+           </tbody>
+        </table>
+
+### 整合增強功能
+
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 50%;" />
+            <tbody>
+                <tr>
+                    <td>
+                        <p><span class="bold">功能</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">發行日期</span>
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Outlook整合登入體驗增強功能</a></p>
+                        <p>Outlook整合的登入體驗已簡化，因此所有客戶無論已啟用IMS，都可看見相同的按鈕來登入Workfront。 IMS和非IMS執行個體的後續登入步驟會有所不同，但所有使用者的初始頁面都相同。</p>
+                    </td>
+                    <td><p><b>將於下列日期提供：</b></p>
+                        <ul>
+                            <li>
+                                <p>預覽版本： 2024年8月6日</p>
+                            </li>
+                            <li>
+                                <p><span class="preview">所有客戶的生產版本： 2024年8月6日</span></p>
+                            </li>
+                        </ul>
                     </td>
                 </tr>
            </tbody>
@@ -137,7 +173,7 @@ ht-degree: 0%
            </tbody>
         </table>
 
-### 整合增強功能
+### 校訂增強功能
 
 <table>
             <col style="width: 50%;" />
@@ -155,23 +191,22 @@ ht-degree: 0%
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Outlook整合登入體驗增強功能</a></p>
-                        <p>Outlook整合的登入體驗已簡化，因此所有客戶無論已啟用IMS，都可看見相同的按鈕來登入Workfront。 IMS和非IMS執行個體的後續登入步驟會有所不同，但所有使用者的初始頁面都相同。</p>
+                        案頭校訂檢視器的<a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-proofing-enhancements.md" class="MCXref xref" xrefformat="{para}">Chromium更新</a></p>
+                        <p>我們正升級案頭校訂檢視器以支援Chromium 126.0.6478.127，其將解決互動式校訂中的UI元素問題。</p>
                     </td>
                     <td><p><b>將於下列日期提供：</b></p>
                         <ul>
                             <li>
-                                <p>預覽版本： 2024年8月6日</p>
+                                <p>預覽版本： 2024年8月29日</p>
                             </li>
                             <li>
-                                <p><span class="preview">所有客戶的生產版本： 2024年8月6日</span></p>
+                                <p><span class="preview">所有客戶的生產版本： 2024年8月29日</span></p>
                             </li>
                         </ul>
                     </td>
                 </tr>
            </tbody>
         </table>
-
 
 ### 其他增強功能
 
