@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: 2742594d4f835bb2b81b314075ab374f22074d87
+source-git-commit: 61cad7dc76ba04ea84ff0bd5052182f040f7b4d9
 workflow-type: tm+mt
-source-wordcount: '1900'
+source-wordcount: '1909'
 ht-degree: 2%
 
 ---
@@ -22,14 +22,13 @@ ht-degree: 2%
 >
 >本文資訊旨在說明Adobe Workfront的新產品Adobe Workfront Planning。
 >
->目前Workfront Planning處於搶先使用階段，僅開放給有限數量的客戶使用。
+>您必須是Workfront客戶，且您的組織必須購買Adobe Workfront計畫以及Workfront計畫，才能存取Workfront計畫的功能。<!--Workfront Planning has been available for purchase for all Workfront customers since August 28, 2024. -->
+>如需有關取得Workfront Planning存取權的詳細資訊，請參閱[存取權概觀](/help/quicksilver/planning/access/access-overview.md)。
 >
->您必須是Workfront客戶才能使用這些功能。
->
->若您在此階段，您的客戶代表會通知您。
->
->如需檔案Workfront Planning之所有章節和文章的完整清單，請參閱[Adobe Workfront Planning：文章索引](/help/quicksilver/planning/planning-information.md)。
 
+本文包含有關Workfront Planning的一般資訊。
+
+如需包含Workfront Planning檔案的完整文章清單，請參閱[Adobe Workfront Planning：文章索引](/help/quicksilver/planning/planning-information.md)。
 
 ## Adobe Workfront規劃簡介
 
@@ -52,11 +51,16 @@ Adobe Workfront規劃是Adobe Workfront的新產品。 Workfront Planning的目�
 
 ## 目前可用的Adobe Workfront規劃功能
 
-<!--for GA just make a list of what features ARE included in Planning and eliminate the last 2 columns-->
+<!--for GA just make a list of what features ARE included in Planning and eliminate the last 2 columns; also update the title of this section-->
 
 下表說明Workfront Planning中可用的主要功能，及其可用性的時間表。 此清單並未包含所有功能。
 
+<!--at GA: update the link below to the new place for release notes-->
+
 如需新功能及其發行時間的詳細資訊，請參閱[Adobe Workfront Planning目前發行活動](/help/quicksilver/planning/general/release-activity.md)。
+
+<!-- at GA: remove the table below, and instead make a bullet list with the available features in Planning-->
+
 
 | 功能 | 現在可用 | 即將推出 | 研究中 |
 |----------------------------------------------------|:-----------------------------:|:--------------------------------:|:----------------:|

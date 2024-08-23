@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 2742594d4f835bb2b81b314075ab374f22074d87
+source-git-commit: 61cad7dc76ba04ea84ff0bd5052182f040f7b4d9
 workflow-type: tm+mt
 source-wordcount: '6694'
 ht-degree: 0%
@@ -33,7 +33,7 @@ Adobe Workfront Planning capabilities are currently available to all customers. 
 >
 >You must purchase a Workfront Planning license, in addition to a Workfront license to be able to access and use the Workfront Planning capabilities. 
 >
->For more information about Workfront Planning, see [Adobe Workfront Planning overview](/help/quicksilver/planning/general/planning-overview.md).
+>For more information about access to Workfront Planning, see [Access overview](/help/quicksilver/planning/access/access-overview.md).
 >-->
 
 >[!IMPORTANT]

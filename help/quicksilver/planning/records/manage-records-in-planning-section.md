@@ -1,13 +1,13 @@
 ---
 title: 在Adobe Workfront物件的Planning區段中管理記錄
-description: 您可以在左側面板的Adobe Workfront物件的Planning區段中，顯示連線至Workfront物件的記錄。
+description: 您可以在左側面板的Workfront物件的Planning區段中，顯示連線至Adobe Workfront物件的Workfront Planning記錄。
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: d86cf3f9-cacc-4457-acb3-a5122ae91be8
-source-git-commit: a2062658110792689c0a15dd1c616c58ebf7e07a
+source-git-commit: 61cad7dc76ba04ea84ff0bd5052182f040f7b4d9
 workflow-type: tm+mt
-source-wordcount: '644'
+source-wordcount: '756'
 ht-degree: 1%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 1%
 
 {{planning-important-intro}}
 
-您可以在左側面板的Adobe Workfront物件的Planning區段中，顯示連線至Workfront物件的記錄。
+您可以在左側面板的Workfront物件的Planning區段中，顯示連線至Adobe Workfront物件的Workfront Planning記錄。
 
 「規劃」區段適用於下列Workfront物件：
 
@@ -35,7 +35,11 @@ ht-degree: 1%
 
 ## 存取需求
 
+<!--Updated for GA-->
+
 +++ 展開以檢視Workfront Planning的存取需求。
+
+您必須具備下列專案才能存取Workfront Planning：
 
 <table style="table-layout:auto">
  <col>
@@ -48,50 +52,64 @@ ht-degree: 1%
 <td>
    <p> 產品</p> </td>
    <td>
-   <p> Adobe Workfront</p> </td>
+   <ul><li><p> Adobe Workfront</p></li>
+   <li><p> Adobe Workfront規劃<p></li></ul></td>
   </tr>  
- <td role="rowheader"><p>Adobe Workfront合約</p></td>
+ <tr>
+   <td role="rowheader"><p>Adobe Workfront計畫*</p></td>
    <td>
-<p>您的組織必須處於Workfront Planning的早期存取階段中註冊 </p>
+<p>下列任一Workfront計畫：</p>
+<ul><li>選取</li>
+<li>Prime</li>
+<li>Ultimate</li></ul>
+<p>舊版Workfront計畫不提供Workfront計畫</p>
    </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront計畫</p></td>
+
+<tr>
+   <td role="rowheader"><p>Adobe Workfront規劃計畫*</p></td>
    <td>
 <p>任何</p>
+<p>如需每個Workfront Planning計畫包含哪些專案的詳細資訊，請參閱<a href="https://business.adobe.com/products/workfront/pricing.html">Adobe Workfront定價與封裝</a>。 </p>
    </td>
+
+<tr>
+   <td role="rowheader"><p>Adobe Workfront平台</p></td>
+   <td>
+<p>貴組織的Workfront例項必須加入Adobe統一體驗，才能存取Workfront規劃的所有功能。</p>
+<p>如需詳細資訊，請參閱<a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Workfront的Adobe統一體驗</a>。 </p>
+   </td>
+
+</tr>
   </tr>
   <tr>
    <td role="rowheader"><p>Adobe Workfront授權*</p></td>
    <td>
-   <p>新增：標準</p>
-   或
-   <p>目前：計畫</p> 
+   <p>標準</p>
+   <p>Workfront計畫不適用於舊版Workfront授權</p>
   </td>
   </tr>
-
-<tr>
+  <tr>
    <td role="rowheader"><p>存取層級設定</p></td>
    <td> <p>檢視專案、方案和Portfolio的或更高存取權</p>  
 </td>
   </tr>
 <tr>
-   <td role="rowheader"><p>權限</p></td>
-   <td> <p>在Workfront中，檢視專案、投資組合或方案的或更高許可權</a> </p> 
+   <td role="rowheader"><p>物件許可權</p></td>
+   <td>
+   <p>在Workfront中，檢視專案、投資組合或方案的或更高許可權</a> </p> 
    <p>在Workfront Planning中，使用Contribute或更高的工作區許可權</a> </p>  
-   <p>系統管理員擁有所有Workfront Planning工作區的許可權，包括他們未建立的工作區</p>
-</td>
+   <p>系統管理員擁有所有Workfront Planning工作區的許可權，包括他們未建立的工作區</p> 
+  </td>
   </tr>
 <tr>
    <td role="rowheader"><p>版面配置範本</p></td>
-   <td> <p>您的Workfront或群組管理員必須在主功能表中新增Planning區域，並在左側面板中新增Planning區段至您的版面配置範本。 如需詳細資訊，請參閱<a href="/help/quicksilver/planning/access/access-overview.md">存取總覽</a>。 </p>  
+   <td> <p>必須為所有使用者(包括Workfront管理員)指派一個版面配置範本，該範本包含主功能表中的「規劃」區域，以及專案、投資組合和方案的「規劃」區域。 </p> 如需詳細資訊，請參閱<a href="/help/quicksilver/planning/access/access-overview.md">存取總覽</a>。 </p>  </p>  
 </td>
   </tr>
-
-</tbody>
+ </tbody>
 </table>
 
-*如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+*如需Workfront存取需求的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -135,6 +153,7 @@ ht-degree: 1%
 
    ![](assets/planning-section-on-project.png)
 
+1. （選擇性）按一下[顯示所有連線]****&#x200B;以顯示所有連線的記錄型別，包括沒有連線記錄的記錄型別。 依預設，不顯示沒有連線記錄的記錄型別。
 1. 按一下記錄卡以顯示有關記錄的更多資訊。 記錄預覽方塊隨即顯示。
 1. （選用）開始修改記錄預覽方塊中的欄位。 您的變更會自動儲存。
 1. （選擇性）按一下預覽方塊右上角的&#x200B;**在新索引標籤中開啟**&#x200B;圖示![](assets/open-details-in-a-new-tab-icon.png)以開啟記錄的詳細資訊頁面。 記錄的詳細資訊頁面會在Workfront Planning中開啟。
@@ -143,16 +162,12 @@ ht-degree: 1%
    * 記錄不再連線至Workfront物件。
    * Workfront物件也會從Workfront Planning的記錄連線欄位中移除。
    * 連線至Planning記錄的Workfront查閱欄位值也會一併刪除。
-1. 按一下&#x200B;**連線**&#x200B;以連線更多記錄。
+1. 按一下&#x200B;**連線**，為連線的記錄型別連線更多記錄。 如需詳細資訊，請參閱[連線記錄](/help/quicksilver/planning/records/connect-records.md)。
 
-   >[!NOTE]
-   >
-   >   「連線」按鈕只會在您擁有Contribute許可權的工作區中顯示。<!--they might replace this with one button at the top of the page. Rephrase-->
-
-1. 按一下您要連線的記錄。 會發生下列情況：
+   會發生下列情況：
 
    * 記錄會立即連線至Workfront物件，並顯示在Planning區段中。
    * Workfront物件會新增至Workfront Planning記錄的已連線欄位。
    * 與Planning記錄連線之Workfront查詢欄位的值會填入Workfront Planning中。
 
-<!--add more steps here for what happens after clicking Connect-->
+

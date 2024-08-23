@@ -4,20 +4,17 @@ description: 指示個別記錄型別如何彼此關聯的一種方法是連線�
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 1ad86cd55459d92650ac7a24c41765e579f8bb94
+source-git-commit: 45134c538465a25767de1863d99a10c23bb8edf0
 workflow-type: tm+mt
-source-wordcount: '830'
-ht-degree: 0%
+source-wordcount: '1438'
+ht-degree: 1%
 
 ---
 
 
 <!--update metadata at GA-->
-<!--add mini TOC when live, already added to big TOC to get the link-->
 
 # 連線記錄型別概觀
-
-<!--REMOVE THE CONTENT BELOW FROM THE "CONNECT RECORD TYPES" ARTICLE WHEN YOU TURN THIS ARTICLE LIVE- THIS IS THE SAME CONTENT AS THERE, DUPLICATED-->
 
 您可以透過連線個別記錄型別來指示它們彼此相關，或與來自其他應用程式的物件相關。
 
@@ -95,75 +92,76 @@ ht-degree: 0%
 
      連結的欄位前面有識別欄位型別的圖示。 例如，連結（或查詢）欄位前面有圖示，表示欄位是數字、段落或日期。
 
-<!--## Connection types
+## 連線型別
 
-After you establish a connection between two record types or between a record and an object type from another application, you can add records in the connected record fields. 
+在兩個記錄型別之間或記錄與來自另一個應用程式的物件型別之間建立連線後，您可以在連線的記錄欄位中新增記錄。
 
-Depending on how many records you can add to a connected record field, the following are the connection types you can choose from when connecting record types: 
+根據您可將多少筆記錄新增至已連線的記錄欄位，在連線記錄型別時，您可以選擇下列連線型別：
 
-* [Many to many](#many-to-many-connection-type)
-* [One to many](#one-to-many-connection-type)
-* [Many to one](#many-to-one-connection-type)
-* [One to one](#many-to-one-connection-type)
+* [多對多](#many-to-many-connection-type)
+* [一對多](#one-to-many-connection-type)
+* [多對一](#many-to-one-connection-type)
+* [一對一](#many-to-one-connection-type)
 
 >[!WARNING]
 >
->These options are not available when connecting the following: 
->* Two records from different workspaces
+>連線下列專案時，無法使用這些選項：
 >
->* A record type and Experience Manager assets
+>* 來自不同工作區的兩個記錄
+>
+>* 記錄型別和Experience Manager資產
 
-### Many-to-many connection type
+### 多對多連線型別
 
 ![](assets/many-to-many-connection-picker.png)
 
-When you create a many-to-many connection between record types, you can then select multiple records in the connection field from both record types. 
+當您在記錄型別之間建立多對多連線時，您可以從兩種記錄型別中選取連線欄位中的多個記錄。
 
-For example, if you create a many-to-many connection between campaigns and projects, you can select multiple projects for each campaign, and multiple campaigns for each project. 
+例如，如果您在行銷活動和專案之間建立多對多連線，您可以為每個行銷活動選取多個專案，並為每個專案選取多個行銷活動。
 
-A real-life example of a many-to-many relationship type is the relationship between movies and actors. Each movie can have multiple actors, and each actor can play in multiple movies. 
+電影和演員之間的關係是現實生活中多對多關係型別的一個例子。 每部電影可以有多位演員，每位演員都可以在多部電影中播放。
 
-When you select this connection type, you cannot change the connection type after you save it. 
+當您選取此連線型別時，您無法在儲存後變更連線型別。
 
-### One-to-many connection type
+### 一對多連線型別
 
 ![](assets/one-to-many-connection-picker.png)
 
 
-When you create a one-to-many connection between record types, you can then select multiple records in the connection field in the current record type, but the corresponding connection field in the record type you connect to will allow selecting only one record. The connected record field that is automatically created on the second record type is automatically set to a many-to-one relationship type. 
+當您在記錄型別之間建立一對多連線時，您接著可以在目前記錄型別的連線欄位中選取多個記錄，但您連線的記錄型別中對應的連線欄位將只允許選取一個記錄。 在第二個記錄型別上自動建立的已連線記錄欄位會自動設定為多對一關係型別。
 
-For example, if you create a one-to-many connection between campaigns and projects, you can select multiple projects for each campaign, but each project can be connected to only one campaign.
+例如，如果您在行銷活動和專案之間建立一對多連線，您可以為每個行銷活動選取多個專案，但每個專案只能連線至一個行銷活動。
 
-A real-life example of a one-to-many relationship type is the relationship between libraries and books: a library has many books in its inventory; but one particular book can only be in one library at a given point in time. 
+現實中一對多關係型態的一個範例是圖書館與書籍之間的關係：圖書館的詳細目錄中有許多書籍；但在特定時間點，一個特定書籍只能位於一個圖書館中。
 
-When you select this connection type, you can later change it only to a many-to-many connection type. 
+當您選取此連線型別時，您稍後可以將其變更為多對多連線型別。
 
-### Many-to-one connection type
+### 多對一連線型別
 
 ![](assets/many-to-one-connection-picker.png)
 
 
-When you create a many-to-one connection between record types, you can then connect each record in the current record type with only one record from the connected record type. The connected record field that is automatically created on the second record type is automatically set to a one-to-many relationship type. 
+當您在記錄型別之間建立多對一連線時，您就可以只用所連線記錄型別中的一個記錄來連線目前記錄型別中的每個記錄。 在第二個記錄型別上自動建立的已連線記錄欄位會自動設定為一對多關係型別。
 
-For example, if you connect campaigns with projects and you choose this type of connection, you can add only one project to a campaign. But you can add multiple campaigns to one project. 
+例如，如果您將行銷活動與專案連線，並選擇這種連線型別，您只能將一個專案新增至行銷活動。 但您可以將多個行銷活動新增至一個專案。
 
-A real-life example of a many-to-one relationship type is the relationship between many movies and one actor: one actor can be in many movies, but each movie can only have a specific actor once in its cast. 
+現實生活中，許多電影與一個演員之間的關係就是多對一關係的例子：一個演員可以出現在許多電影中，但每部電影的演員中只能有一個特定的演員。
 
-When you select this connection type, you can later change it only to a many-to-many connection type.
+當您選取此連線型別時，您稍後可以將其變更為多對多連線型別。
 
-### One-to-one connection type
+### 一對一連線型別
 
 ![](assets/one-to-one-connection-picker.png)
 
-When you create a one-to-one connection between record types, in both record types you can connect each record only with one record from the other record type.
+當您在記錄型別之間建立一對一連線時，在這兩種記錄型別中，您只能將每筆記錄與另一記錄型別中的一個記錄連線。
 
-For example, if you connect campaigns with projects and you choose this type of connection, you can connect one campaign with one project. One project can be connected only to one campaign. 
+例如，如果您將行銷活動與專案連線，並選擇這種連線型別，您就可以將一個行銷活動與一個專案連線。 一個專案只能連線至一個行銷活動。
 
-A real-life example of a one-to-one relationship is the one existing between a person and their country's unique identifier (like a Social Security Number, Passport ID, local identification ID): each person has only one unique identifier for a country and each unique identifier can be linked to only one person. 
+一對一關係的實際例子，是個人與其國家/地區的唯一識別碼（例如社會保險號碼、護照ID、當地識別碼ID）之間存在的關係：每個人/地區只有一個唯一識別碼，每個唯一識別碼只能連結至一個人。
 
-When you select this connection type, you can later change it to any other connection type. 
+當您選取此連線型別時，您稍後可以將其變更為任何其他連線型別。
 
--->
+
 
 
 
