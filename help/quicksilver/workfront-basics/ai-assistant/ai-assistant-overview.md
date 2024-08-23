@@ -6,9 +6,9 @@ author: Becky
 feature: Get Started with Workfront
 hide: true
 hidefromtoc: true
-source-git-commit: e1ac95e8be0f6059700ddacb120b08c7c7b683b1
+source-git-commit: 1517f7480bbe481bc918876441d1b70b09963a97
 workflow-type: tm+mt
-source-wordcount: '603'
+source-wordcount: '620'
 ht-degree: 0%
 
 ---
@@ -56,6 +56,8 @@ Workfront的AI助理可在自然語言對話中提供應用程式內資訊和建
 * 必須啟用Adobe統一體驗
 * 貴組織必須有Select、Prime或Ultimate Workfront計畫
 * Adobe必須有已簽署的檔案AdobeGen AI合約
+
+  如需簽署合約的詳細資訊，請參閱本文中的[簽署AdobeGen AI合約](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#sign-the-adobe-gen-ai-agreement)。
 
 ## AI助理的考量事項
 
