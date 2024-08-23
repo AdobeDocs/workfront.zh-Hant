@@ -4,11 +4,11 @@ product-area: requests
 navigation-topic: requests-navigation-topic
 title: 建立請求
 description: 請求和問題在Adobe Workfront中可互換。 您可以在Workfront中提交請求、在其他應用程式中提交請求，或以電子郵件將請求傳送到設定為請求佇列的專案中，藉此建立請求。
-author: Alina
+author: Lisa
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: de161674-5b61-4853-a16a-c70db10a1c95
-source-git-commit: b08377e539b04e896e84d17f46d2c941b0f66731
+source-git-commit: 067a5bd54f794574f5f2d1ad98ad29b6e02ab297
 workflow-type: tm+mt
 source-wordcount: '157'
 ht-degree: 0%

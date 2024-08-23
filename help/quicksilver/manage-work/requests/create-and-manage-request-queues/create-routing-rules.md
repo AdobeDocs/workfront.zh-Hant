@@ -3,12 +3,12 @@ product-area: requests
 navigation-topic: create-and-manage-request-queues
 title: 建立路由規則
 description: 路由規則可控制Adobe Workfront在將問題提交至「請求佇列」時如何處理問題。 如需有關建立請求佇列的詳細資訊，請參閱建立請求佇列。
-author: Alina
+author: Lisa
 feature: Work Management, Requests
 topic: Collaboration
 role: User, Admin
 exl-id: 640f9054-f2f8-4594-9311-e93518f58453
-source-git-commit: 43afa8136e51332a0970b01fff36113d5bf42294
+source-git-commit: 067a5bd54f794574f5f2d1ad98ad29b6e02ab297
 workflow-type: tm+mt
 source-wordcount: '522'
 ht-degree: 1%
@@ -75,12 +75,12 @@ ht-degree: 1%
     <p>目前：計畫</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">存取層級設定</td> 
+   <td role="rowheader">存取層級設定</td>
    <td> <p>編輯專案的存取權</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">物件許可權</td> 
-   <td> <p> 管理專案的許可權</p> </td> 
+   <td> <p> 管理專案的許可權</p> </td>
   </tr> 
  </tbody> 
 </table>

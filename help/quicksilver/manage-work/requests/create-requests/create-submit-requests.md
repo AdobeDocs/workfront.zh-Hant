@@ -1,19 +1,19 @@
 ---
 product-area: requests
 navigation-topic: create-requests
-title: 建立及提交Adobe Workfront請求
+title: 建立並提交請求
 description: 計畫工作在Adobe Workfront中以專案和任務表示。 不過，您可能會在一個環境中工作，其中未計畫的工作（以隨機請求的形式）可以隨時進入。 Workfront透過使用請求佇列提供可容納這種環境型別的工作流程。
-author: Alina
+author: Lisa
 feature: Work Management
 exl-id: 8b023a3d-326d-4d63-9e1e-8171553a9e23
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: 067a5bd54f794574f5f2d1ad98ad29b6e02ab297
 workflow-type: tm+mt
-source-wordcount: '2339'
+source-wordcount: '2303'
 ht-degree: 1%
 
 ---
 
-# 建立及提交Adobe Workfront請求
+# 建立及提交請求
 
 <!--Audited: 12/2023-->
 
@@ -47,18 +47,18 @@ ht-degree: 1%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront計畫*</td> 
+   <td role="rowheader">Adobe Workfront計畫</td> 
    <td> <p>任何 </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront授權*</td> 
+   <td role="rowheader">Adobe Workfront授權</td> 
    <td> <p>新增：投稿人或更高版本</p>
    或
    <p>目前：要求或以上</p>
     </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">存取層級設定*</td> 
+   <td role="rowheader">存取層級設定</td> 
    <td> <p>編輯問題的存取權</p>  </td> 
   </tr> 
  </tbody> 
@@ -110,14 +110,9 @@ Workfront管理員必須建立「請求佇列」的下列元件：
 
 若要在Workfront網頁應用程式中建立請求：
 
-1. 按一下Adobe Workfront右上角的&#x200B;**[!UICONTROL 主功能表]**&#x200B;圖示![主功能表](/help/_includes/assets/main-menu-icon.png)，或（如果可用）按一下左上角的&#x200B;**[!UICONTROL 主功能表]**&#x200B;圖示![主功能表](/help/_includes/assets/main-menu-icon-left-nav.png)。
+{{step1-to-requests}}
 
-   <!--
-   <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
-   </MadCap:conditionalText>
-   -->
-
-1. 按一下&#x200B;**要求**，然後按一下頁面右上角的&#x200B;**新增要求**。
+1. 按一下頁面右上角的&#x200B;**新要求**。
 
    >[!TIP]
    >
