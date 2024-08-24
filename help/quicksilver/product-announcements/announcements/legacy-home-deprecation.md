@@ -5,9 +5,9 @@ title: 舊版首頁淘汰指南
 description: 本頁包含即將淘汰舊版首頁的資訊。
 author: Nolan
 feature: Product Announcements
-source-git-commit: 3c862954e36dadb5b26438bb4bc42c75c46f08f5
+source-git-commit: 3f1882b555658b2095d99258900f3bba28246c3f
 workflow-type: tm+mt
-source-wordcount: '789'
+source-wordcount: '784'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ Adobe Workfront社群，我們有新聞了 — 我們很快就會淘汰舊版首
 
 ![](assets/legacy-home-worklist-view.png)
 
-此頁面將在24.10版（計畫於2024年10月17日發行）期間淘汰。 屆時您必須改用新的首頁體驗。 如果您使用舊版首頁來管理您的工作，請不要擔心！ 除了持續改進新首頁之外，我們一直忙於打造稱為「我的優先順序」的簡化工作管理體驗。
+此頁面將在24.10版（計畫於2024年10月17日發行）期間淘汰。 屆時您必須改用新的首頁體驗。 如果您使用舊版首頁來管理您的工作，請不要擔心！ 除了持續改進新首頁之外，我們一直忙於打造稱為「優先順序」的簡化工作管理體驗。
 不過，我們知道這樣的變更可能會造成干擾，我們想盡一切可能協助您進行轉換。 此頁面包含確切會變更之專案的相關資訊、轉換準備的相關建議，以及一些常見問題的解答。
 
 ## 淘汰資訊
@@ -35,7 +35,7 @@ Adobe Workfront社群，我們有新聞了 — 我們很快就會淘汰舊版首
 
 * 新首頁已經作為替代頁面提供。 請參閱[開始使用新首頁](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md)，以取得有關使用新首頁的詳細資訊。 使用者可透過個人化選項自訂，管理員則可透過版面配置範本自訂。
 
-* 我的優先順序正在開發中，將作為Adobe Workfront簡化工作管理體驗的另一個元素。
+* 優先順序正在開發中，將作為Adobe Workfront簡化工作管理體驗的另一個元素。
 
 ## 準備淘汰
 
@@ -57,7 +57,7 @@ Adobe Workfront社群，我們有新聞了 — 我們很快就會淘汰舊版首
 
 ### 隨著首頁開發的體驗進行
 
-我們也建議隨時更新最新的發行說明（請參閱[產品版本](/help/quicksilver/product-announcements/product-releases/product-releases.md)），以瞭解首頁體驗的任何變更，因為我們即將淘汰版本。 此外，請繼續閱讀我的優先順序，以更加瞭解我們對Adobe Workfront中工作管理未來的願景（即將提供更多資訊）。
+我們也建議隨時更新最新的發行說明（請參閱[產品版本](/help/quicksilver/product-announcements/product-releases/product-releases.md)），以瞭解首頁體驗的任何變更，因為我們即將淘汰版本。 此外，請繼續閱讀「優先順序」，以更加瞭解我們對Adobe Workfront中工作管理未來的願景（即將提供更多資訊）。
 
 ### 請求協助
 
@@ -70,7 +70,7 @@ Adobe Workfront社群，我們有新聞了 — 我們很快就會淘汰舊版首
 不會，會從應用程式中完全移除。
 +++
 
-+++ 舊版「首頁」的每個功能都可以在新「首頁」中使用（或最終在「我的優先順序」中使用）嗎？
++++ 舊版「首頁」（或最終在「優先順序」）中的所有功能都可供使用嗎？
 
 幾乎，以下除外：
 
@@ -78,7 +78,7 @@ Adobe Workfront社群，我們有新聞了 — 我們很快就會淘汰舊版首
 
 * 目前無法顯示物件到期日的時間戳記。
 
-* 目前無法在更新摘要中顯示認可日期。 不過，有個可用的因應措施：透過版面配置範本在標題自訂中顯示認可日期。
+* 目前無法在更新摘要中顯示認可日期。 不過，有個可用的因應措施：透過版面配置範本自訂，在標題中顯示認可日期。
 +++
 
 +++如何規範使用者在新首頁有權存取的Widget？
@@ -102,5 +102,5 @@ Adobe Workfront社群，我們有新聞了 — 我們很快就會淘汰舊版首
 
 +++我可以提交意見回饋嗎？
 
-是！ 若要這麼做，請按一下您新首頁上的應用程式內&#x200B;**提供意見回饋**&#x200B;按鈕、即將推出的「我的優先順序」頁面，或是[Workfront Ideas論壇](https://experienceleaguecommunities.adobe.com/t5/workfront-ideas/idb-p/workfront-ideas)。
+是！ 若要這麼做，請按一下您新首頁上的應用程式內&#x200B;**提供意見回饋**&#x200B;按鈕、即將推出的「優先順序」頁面，或是[Workfront Ideas論壇](https://experienceleaguecommunities.adobe.com/t5/workfront-ideas/idb-p/workfront-ideas)。
 +++
