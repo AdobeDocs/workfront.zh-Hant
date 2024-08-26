@@ -1,22 +1,31 @@
 ---
 title: 管理Adobe Workfront Planning電子郵件通知
-description: 當有人在記錄評論中標籤您時，您會收到該標籤的電子郵件通知。
-hidefromtoc: true
-hide: true
+description: 當有人在Adobe Workfront Planning的記錄評論中為您標籤時，您會收到該標籤的電子郵件通知。
+author: Alina
+feature: Workfront Planning
+role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 3c505b3a-cda7-4e7b-b497-28b820e9bb8f
-source-git-commit: 5c7b60ac5b78bd065ffc270588ec72ab3eb2f41d
+source-git-commit: f8ad026582be5b4c89939af8f135151ffaabccfe
 workflow-type: tm+mt
-source-wordcount: '296'
+source-wordcount: '363'
 ht-degree: 1%
 
 ---
+
 
 # 管理Adobe Workfront Planning電子郵件通知
 
 {{planning-important-intro}}
 
-當有人在記錄評論中標籤您時，您會收到該標籤的電子郵件通知。
+當存在以下情況時，您可以從Workfront Planning接收電子郵件通知：
+
+* 有人在記錄註解中為您加上標籤
+<!--
+* Someone asks for your permission to access a view or a workspace
+* Someone confirms your access has been granted for a view or a workspace
+* Someone has denied your access for a view or a workspace. -->
+
 
 >[!IMPORTANT]
 >
@@ -30,6 +39,73 @@ ht-degree: 1%
 
 +++ 展開以檢視Workfront Planning的存取需求。
 
+<table style="table-layout:auto"> 
+<col> 
+</col> 
+<col> 
+</col> 
+<tbody> 
+    <tr> 
+<tr> 
+<td> 
+   <p> 產品</p> </td> 
+   <td> 
+   <ul><li><p> Adobe Workfront</p></li> 
+   <li><p> Adobe Workfront規劃<p></li></ul></td> 
+  </tr>   
+<tr> 
+   <td role="rowheader"><p>Adobe Workfront計畫*</p></td> 
+   <td> 
+<p>下列任一Workfront計畫：</p> 
+<ul><li>選取</li> 
+<li>Prime</li> 
+<li>Ultimate</li></ul> 
+<p>舊版Workfront計畫不提供Workfront計畫</p> 
+   </td> 
+<tr> 
+   <td role="rowheader"><p>Adobe Workfront規劃計畫*</p></td> 
+   <td> 
+<p>任何 </p> 
+<p>如需每個Workfront Planning計畫包含哪些專案的詳細資訊，請參閱<a href="https://business.adobe.com/products/workfront/pricing.html">Adobe Workfront定價與封裝</a>。 </p> 
+   </td> 
+ <tr> 
+   <td role="rowheader"><p>Adobe Workfront平台</p></td> 
+   <td> 
+<p>貴組織的Workfront例項必須加入Adobe統一體驗，才能存取Workfront規劃的所有功能。</p> 
+<p>如需詳細資訊，請參閱<a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Workfront的Adobe統一體驗</a>。 </p> 
+   </td> 
+   </tr> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Adobe Workfront授權*</p></td> 
+   <td><p> 標準、光源或貢獻者</p>
+   <p>Workfront計畫不適用於舊版Workfront授權</p> 
+  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>存取層級設定</p></td> 
+   <td> <p>Adobe Workfront Planning沒有存取層級控制</p>   
+</td> 
+  </tr> 
+<tr> 
+   <td role="rowheader"><p>物件許可權</p></td> 
+   <td>   <p>檢視或更高的工作區許可權</a> </p>  
+   <p>系統管理員擁有所有工作區的許可權，包括他們未建立的工作區</p> </td> 
+  </tr> 
+<tr> 
+   <td role="rowheader"><p>版面配置範本</p></td> 
+   <td> <p>必須為所有使用者(包括Workfront管理員)指派一個版面配置範本，該範本包含主功能表中的Planning區域。 </p> </td> 
+  </tr> 
+</tbody> 
+</table>
+
+*如需Workfront存取需求的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
++++
+
+<!--
+OLD: 
+
 <table style="table-layout:auto">
  <col>
  </col>
@@ -39,52 +115,52 @@ ht-degree: 1%
     <tr>
 <tr>
 <td>
-   <p> 產品</p> </td>
+   <p> Product</p> </td>
    <td>
    <p> Adobe Workfront</p> 
-   <p>為了接收來自Workfront Planning的通知並管理通知偏好設定，貴組織的Workfront執行個體必須上線到Adobe統一體驗。 如需詳細資訊，請參閱<a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Workfront的Adobe統一體驗</a>。</p></td>
+   <p>In order to receive notifications from Workfront Planning and manage notification preferences, your organization's instance of Workfront must be onboarded to the Adobe Unified Experience. For information, see <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience for Workfront</a>.</p></td>
   </tr>  
- <td role="rowheader"><p>Adobe Workfront合約</p></td>
+ <td role="rowheader"><p>Adobe Workfront agreement</p></td>
    <td>
-<p>您的組織必須處於Workfront Planning的早期存取階段中註冊 </p>
+<p>Your organization must be enrolled in the early access stage for Workfront Planning </p>
    </td>
   </tr>
   <tr>
-   <td role="rowheader"><p>Adobe Workfront計畫</p></td>
+   <td role="rowheader"><p>Adobe Workfront plan</p></td>
    <td>
-<p>任何</p>
+<p>Any</p>
    </td>
   </tr>
   <tr>
-   <td role="rowheader"><p>Adobe Workfront授權</p></td>
+   <td role="rowheader"><p>Adobe Workfront license</p></td>
    <td>
-   <p>任何</p> 
+   <p>Any</p> 
   </td>
   </tr>
-
-<tr>
-   <td role="rowheader"><p>存取層級設定</p></td>
-   <td> <p>Workfront Planning中沒有存取層級控制項。 </p>  
+  
+  <tr>
+   <td role="rowheader"><p>Access level configuration</p></td>
+   <td> <p>There are no access level controls in Workfront Planning. </p>  
 </td>
   </tr>
 <tr>
-   <td role="rowheader"><p>權限</p></td>
-   <td> <p>檢視或更高的工作區許可權</a> </p>  
-   <p>系統管理員擁有所有工作區的許可權，包括他們未建立的工作區</p>
+   <td role="rowheader"><p>Permissions</p></td>
+   <td> <p>View or higher permissions to a workspace</a> </p>  
+   <p>System Administrators have permissions to all workspaces, including the ones they did not create</p>
 </td>
   </tr>
 
 <tr>
-   <td role="rowheader"><p>版面配置範本</p></td>
-   <td> <p>您的Workfront或群組管理員必須在版面配置範本中新增Planning區域。 如需詳細資訊，請參閱<a href="/help/quicksilver/planning/access/access-overview.md">存取總覽</a>。 </p>  
+   <td role="rowheader"><p>Layout template</p></td>
+   <td> <p>Your Workfront or group administrator must add the Planning area in your layout template. For information, see <a href="/help/quicksilver/planning/access/access-overview.md">Access overview</a>. </p>  
 </td>
   </tr>
  </tbody>
 </table>
+-->
 
-+++
 
-## 管理電子郵件通知
+## 管理電子郵件通知<!--when someone tags you in a comment-->
 
 1. （視條件而定）有人在記錄上的評論中標籤您後，請移至通知您標籤和評論的電子郵件通知。 電子郵件的寄件者為Adobe Experience Cloud。
 
@@ -96,3 +172,9 @@ ht-degree: 1%
 
 1. （視條件而定）如果可用，請按一下&#x200B;**檢視所有通知**。 <!--check with Lilit - do non-IMS users have this button??-->
 **通知**&#x200B;頁面會在Adobe Experience Cloud中開啟。 會顯示所有Adobe Experience Cloud應用程式的所有通知。
+
+<!--
+## Manage email notifications when requesting, granting, or denying permissions to a view or a workspace
+
+For information about requesting, granting, or denying permissions to a view or a workspace, see [Request permissions to a view or a workspace](/help/quicksilver/planning/access/request-permissions.md). 
+-->

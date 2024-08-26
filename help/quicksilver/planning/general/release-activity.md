@@ -1,78 +1,73 @@
 ---
-title: Adobe Workfront Planning目前發行活動
-description: Adobe Workfront規劃功能目前可供特定Workfront客戶使用。 請經常閱讀本文章，瞭解最近針對規劃功能發行的功能。
-hidefromtoc: true
-hide: true
+title: 2024年Adobe Workfront計畫發行活動
+description: Adobe Workfront規劃功能目前可供所有客戶使用。 除了Workfront授權之外，您必須購買Workfront計畫授權才能存取這些功能。
+author: Alina
+feature: Workfront Planning
+role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 61cad7dc76ba04ea84ff0bd5052182f040f7b4d9
+source-git-commit: 18183b53c783366f467e7330159923372b51deb6
 workflow-type: tm+mt
-source-wordcount: '6694'
+source-wordcount: '6729'
 ht-degree: 0%
 
 ---
 
 
-# Adobe Workfront Planning目前發行活動
+# 2024年Adobe Workfront計畫發行活動
 
 <!--this article is linked to the WF Planning landing page - do not change URL or move it; send the team a new URL after we add the redirects for this page-->
-
-<!--
-At GA release, replace the Important below and all the text that follows before the weekly releases with this:
-
-(***********At GA - change the title to: Adobe Workfront Planning early access release activity during 2024*******)
-
-Also update the metadata: 
-
-Adobe Workfront Planning capabilities are currently available to all customers. You must purchase a Workfront Planning license, in addition to a Workfront license to be able to access these capabilities.
-
-
->[!IMPORTANT]
->
->The information in this article refers to Adobe Workfront Planning, a new offering from Adobe Workfront. 
->
->You must purchase a Workfront Planning license, in addition to a Workfront license to be able to access and use the Workfront Planning capabilities. 
->
->For more information about access to Workfront Planning, see [Access overview](/help/quicksilver/planning/access/access-overview.md).
->-->
 
 >[!IMPORTANT]
 >
 >本文資訊旨在說明Adobe Workfront的新產品Adobe Workfront Planning。
 >
->目前Workfront Planning處於搶先使用階段，僅開放給有限數量的客戶使用。
+>除了Workfront計畫之外，您必須購買Workfront計畫才能存取及使用Workfront計畫功能。
 >
->您必須是Workfront客戶才能使用這些功能。
+>如需存取Workfront Planning的完整需求清單，請參閱[存取總覽](/help/quicksilver/planning/access/access-overview.md)。
+>如需Workfront Planning的概觀，請參閱[Adobe Workfront Planning概觀](/help/quicksilver/planning/general/planning-overview.md)。
 >
->如果您屬於此階段，您的客戶代表將會通知您。
->
->如需詳細資訊，請參閱[Adobe Workfront規劃總覽](/help/quicksilver/planning/general/planning-overview.md)。
->
->在某些情況下，將記錄的功能發佈到生產環境後，可能會提供以下章節中參考的檔案。
 
-<!--Not sure if we should enable this - Richard: 
+<!--[!IMPORTANT]
+>
+>The information in this article refers to Adobe Workfront Planning, a new offering from Adobe Workfront. 
+>
+>Currently, Workfront Planning is in an early access stage which is open to a limited number of customers. 
+>
+>You must be a Workfront customer to use these capabilities. 
+>
+>Your account representative will inform you if you are part of this stage.
+>
+>For more information, see [Adobe Workfront Planning overview](/help/quicksilver/planning/general/planning-overview.md).
+>
+>In some cases, the documentation referenced in the sections below might be available after the features documented are released to Production. -->
 
-## Workfront Planning release timeline
+本文列出2024年早期存取期間發行給Workfront Planning的功能。
 
-| Time               | Release                                 |
+已發行的功能會依其發行順序列出，最新的排在前。 參與Workfront Planning計畫的客戶可存取其生產環境中的所有功能。
+
+另請參閱下列文章以取得針對Workfront Planning發行的更多功能：
+
+* [Adobe Workfront 2023年規劃發行活動](/help/quicksilver/planning/general/release-activity-archives-2023.md)列出2023年期間在Beta版發行期間發行的功能。
+* [Adobe Workfront Planning發行活動：文章索引](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)列出目前發行至Workfront Planning的功能，此功能已於2024年8月28日全面推出後。
+
+## Workfront Planning發行時間表
+
+下表顯示Workfront Planning發行的時間表，並於2023年推出測試版：
+
+| 時間 | 版本 |
 |--------------------|-----------------------------------------|
-| August - December 2023               | Workfront Planning beta release         |
-| January - August 2024 | Workfront Planning early release        |
-| August 28, 2024    | Workfront Planning general availability |-->
+| 2023年8月至12月 | Workfront Planning測試版* |
+| 2024年1月至8月 | Workfront計畫搶鮮版* |
+| 2024年8月28日 | Workfront Planning正式發行 |
 
-以下文章說明Workfront Planning發行期間所發行的功能：
+*測試版和早期發行階段僅向有限的客戶提供。
 
-* [2023年Adobe Workfront Planning發行活動封存](/help/quicksilver/planning/general/release-activity-archives-2023.md)列出了2023年期間在Beta版發行期間發行的功能。
-* 本文列出2024年早期存取期間發行給Workfront Planning的功能。
-
-  已發行的功能會依其發行順序列出，最新的排在前。 參與Workfront Planning計畫的客戶可存取其生產環境中的所有功能。
-
-<!--* See the current release overview documentation for features that were released after the general availability release on August 28, 2024. 
--->
-
-自2024年1月起，Workfront計畫已暫時從預覽和沙箱環境中移除。 本文中記錄的所有功能目前可在生產環境中使用。
+<!--Workfront Planning has temporarily been removed from the Preview and Sandbox environments since January 2024. All features documented in this articles are currently available in Production.  -->
 
 <!--
+
+## Week of August 26, 2024
 
 ### Reporting capabilities for Workfront Planning with the Canvas Dashboard 
 
@@ -98,6 +93,38 @@ As a workspace manager, you can now define the format for the values displayed i
 * Tags
 
 For information, see the "Formula" section of the article [Create fields](/help/quicksilver/planning/fields/create-fields.md). 
+
+### AI Assistant has been re-enabled
+
+Production and Preview: August 28, 2024
+
+The Workfront AI Assistant has been re-enabled for the Workfront Planning area. 
+
+For more information about the AI Assistant, see [Adobe Workfront Planning AI Assistant overview](/help/quicksilver/planning/general/planning-ai-assistant-overview.md).
+
+### New Settings menu in the Calendar view
+
+Preview and Production: August 28, 2024 
+
+There is a new Settings option with which you can personalize the look and feel of the record bars in the Calendar view. You can do the following: 
+
+* Update the date and time of the records  
+
+* Update the bar style 
+
+* Change the color of the record bars or their groupings to match one of the following:  
+
+    * The color of the record type 
+
+    * The color of a field that you select 
+
+    * The color of the grouping 
+
+    * No color (the default) 
+
+ When matching colors to a certain field, you can select only fields with color-coded options. 
+
+ For more information, see [Manage the calendar view](/help/quicksilver/planning/views/manage-the-calendar-view.md). 
 
 -->
 
@@ -185,7 +212,7 @@ For information, see the "Formula" section of the article [Create fields](/help/
 
 如需詳細資訊，請參閱[建立記錄](/help/quicksilver/planning/records/create-records.md)。
 
-## 將記錄詳細資料匯出至Word
+### 將記錄詳細資料匯出至Word
 
 生產： 2024年8月22日
 

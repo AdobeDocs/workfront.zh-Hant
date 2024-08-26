@@ -1,16 +1,18 @@
 ---
-title: 「Adobe Workfront規劃通知：文章索引」
+title: 'Adobe Workfront規劃通知：文章索引'
 description: 當有人在記錄評論中標籤您時，您可能會收到該標籤的電子郵件或應用程式內通知。 您收到的通知型別取決於您的公司是否為Adobe Unified Experience客戶。 下列文章說明您可能會收到的Workfront Planning通知型別，以及如何管理您的偏好設定。
-hidefromtoc: true
-hide: true
+author: Alina
+feature: Workfront Planning
+role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 9c2f5b14-77c5-42fd-83ad-acbe7da801bd
-source-git-commit: 502ab27759749ed428f8adbf486e39165d61fcf0
+source-git-commit: f8ad026582be5b4c89939af8f135151ffaabccfe
 workflow-type: tm+mt
 source-wordcount: '146'
 ht-degree: 0%
 
 ---
+
 
 # Adobe Workfront規劃通知：文章索引
 

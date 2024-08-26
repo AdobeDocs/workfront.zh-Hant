@@ -1,20 +1,24 @@
 ---
 title: Adobe Workfront Planning物件限制總覽
 description: Adobe Workfront Planning限制您可在執行個體中建立的物件數目。 物件限制已生效，可改善產品效能並增強您對Workfront規劃的體驗。
-hidefromtoc: true
-hide: true
+author: Alina
+feature: Workfront Planning
+role: User, Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 1ad86cd55459d92650ac7a24c41765e579f8bb94
+source-git-commit: f9abcd9ff4c80376bed229a1d65e0efcbfc332b0
 workflow-type: tm+mt
-source-wordcount: '231'
-ht-degree: 2%
+source-wordcount: '316'
+ht-degree: 1%
 
 ---
 
 
-<!--update the metadata with real information when making this available in TOC and in the left nav-->
+<!--check the workfront.com/plans article linked below to see if there is content in there about Planning - after August 28, 2024-->
 
 # Adobe Workfront Planning物件限制總覽
+
+{{planning-important-intro}}
+
 
 Adobe Workfront Planning限制您可在執行個體中建立的物件數目。 物件限制已生效，可改善產品效能並增強您對Workfront規劃的體驗。
 
@@ -22,10 +26,12 @@ Adobe Workfront Planning限制您可在執行個體中建立的物件數目。 �
 
 | Adobe Workfront計畫物件 | 限制 |
 |-------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------:|
-| 一個Workfront例項的工作區數 | 1,000 |
+| 一個Workfront例項的工作區數 | 無限制* |
 | 一個工作區的區段數 | 50 |
 | 一個工作區的記錄型別數 | 1,000 （這包括來自所有區段的記錄型別，以及在使用工作區範本時建立的記錄型別） |
-| 一種記錄型別的記錄數 | 50,000 |
+| 一種記錄型別的記錄數 | 25,000 |
+| 一個工作區的記錄數 | 25,000適用於計畫計畫為<br>的客戶500,000適用於計畫為加號計畫的客戶 |
+| 一個Workfront Planning型別例項的總記錄數 | 500,000 （針對計畫計畫為<br>2百萬的客戶），針對計畫為「計畫加上」的客戶 |
 | 一種記錄型別或分類法的欄位數 | 500 |
 | 文字欄位的字元數 | 1,000個字元 |
 | 您可以在記錄型別表格中貼上的檔案大小 | 1MB |
@@ -33,22 +39,25 @@ Adobe Workfront Planning限制您可在執行個體中建立的物件數目。 �
 | 提出API要求的速率 | 每分鐘200個請求 |
 | 單一使用者可為一個記錄型別建立的檢視次數 | 100 |
 
-<!--| Size of CSV of Excel file you can import* | 5MB |-->
+*我們建議您不要有太多工作區，因為這些工作區可能會變得難以管理，而且您的工作流程可能太分散。
 
-<!--[!IMPORTANT]
->
->*This functionality has been temporarily removed and it will be available at a later date.-->
+如需Workfront Planning定價與封裝的相關資訊，請參閱[Adobe Workfront定價與封裝](https://business.adobe.com/products/workfront/pricing.html)。
 
-<!--At GA, replace the table above with this:
+<!--
+****************KEEP THIS COMMENTED OUT:
+| Size of CSV of Excel file you can import** | 5MB |
+**This functionality has been temporarily removed and it will be available at a later date.**********************
+-->
+
+
+<!--OLD limitations (before GA:)
 
 |       Adobe Workfront Planning  object                                                          |                                                        Limit                                                    |
 |-------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------:|
-|     Number of Workspaces for one Workfront instance                                      |   unlimited*                                                                                                        |
+|     Number of Workspaces for one Workfront instance                                      |   1,000                                                                                                         |
 |     Number of sections for one workspace                                      |   50                                                                                                         |
 |     Number of Record Types for one workspace                                            |   1,000 (this includes record types from all sections and those that are created when using a workspace template)  |
-|     Number of records for one record type                                               |   25,000                                                                                                        |
-|     Number of records for one workspace                                               |   25,000 for customers with the Planning plan <br> 500,000 for customers with the Planning Plus  plan                                                                                                         |
-|     Number of total records for one instance of Workfront Planning type                                               |   500,000 for customers with the Planning plan <br>2 million for customers with the Planning Plus plan                                                                                                        |
+|     Number of records for one record type                                               |   50,000                                                                                                        |
 |     Number of fields for one record type or taxonomy                            |   500                                                                                                           |
 |     Number of characters for a text field                                                               |   1,000 characters                                                                                              |
 |     Size of file that you can paste in a record type table                    |   1MB                                                                                                           |
@@ -56,9 +65,10 @@ Adobe Workfront Planning限制您可在執行個體中建立的物件數目。 �
 |     The rate at which API requests can be made                                    |   200 requests per minute                                                                                       |
 | Number of views one user can create for one record type | 100 |
 
-*We recommend not to have too many workspaces, as they could become hard to manage and your workflows might be too fragmented.
-
-****************KEEP THIS COMMENTED OUT:
-| Size of CSV of Excel file you can import** | 5MB |
-**This functionality has been temporarily removed and it will be available at a later date.**********************
 -->
+<!--| Size of CSV of Excel file you can import* | 5MB |-->
+
+<!--[!IMPORTANT]
+>
+>*This functionality has been temporarily removed and it will be available at a later date.-->
+

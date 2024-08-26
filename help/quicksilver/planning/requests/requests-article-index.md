@@ -4,9 +4,9 @@ description: 您可以為每個記錄型別建立請求表單，與使用者共�
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: bfaf566e556882078875649549c0dfadacd800b8
+source-git-commit: 80d9fc7f8cf28de8dbb8f1c53835940142681906
 workflow-type: tm+mt
-source-wordcount: '83'
+source-wordcount: '85'
 ht-degree: 0%
 
 ---
@@ -19,5 +19,5 @@ ht-degree: 0%
 
 本節包含下列文章：
 
-* [在Adobe Workfront Planning中建立請求表單](/help/quicksilver/planning/requests/create-request-form.md)
+* [在Adobe Workfront Planning中建立和管理請求表單](/help/quicksilver/planning/requests/create-request-form.md)
 * [提交Adobe Workfront規劃請求](/help/quicksilver/planning/requests/submit-requests.md)

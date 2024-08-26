@@ -1,23 +1,25 @@
 ---
-title: 在Adobe Workfront Planning中建立請求表單
-description: 在Adobe Workfront Planning區域中選取記錄型別後，您可以建立與該記錄型別相關聯的請求表單，並與其他內部或外部使用者共用與其的連結。
+title: 在Adobe Workfront Planning中建立和管理請求表單
+description: 在Adobe Workfront Planning區域中選取記錄型別後，您可以建立請求表單，並將其與該記錄型別建立關聯。 然後，您可以與其他內部或外部使用者共用與其的連結。 具有表單連結的使用者可以填寫其上的欄位值，透過提交它，他們可以為與其關聯的記錄型別新增記錄。
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 1ad86cd55459d92650ac7a24c41765e579f8bb94
+source-git-commit: 80d9fc7f8cf28de8dbb8f1c53835940142681906
 workflow-type: tm+mt
-source-wordcount: '646'
+source-wordcount: '1101'
 ht-degree: 2%
 
 ---
 
-# 在Adobe Workfront Planning中建立請求表單
+# 在Adobe Workfront Planning中建立和管理請求表單
 
 <!--update the metadata with real information when making this available in TOC and in the left nav-->
 
 {{planning-important-intro}}
 
 在Adobe Workfront Planning區域中選取記錄型別後，您可以建立請求表單，並將其與該記錄型別建立關聯。 然後，您可以與其他內部或外部使用者共用與其的連結。<!--double-check on the external part of it-->
+
+具有表單連結的使用者可以填寫其上的欄位值，透過提交它，他們可以為與其關聯的記錄型別新增記錄。
 
 ## 存取需求
 
@@ -52,7 +54,8 @@ ht-degree: 2%
 <tr>
    <td role="rowheader"><p>Adobe Workfront規劃計畫*</p></td>
    <td>
-<p>任何 </p>   </td>
+<p>任何 </p>  
+<p>如需每個Workfront Planning計畫包含哪些專案的詳細資訊，請參閱<a href="https://business.adobe.com/products/workfront/pricing.html">Adobe Workfront定價與封裝</a>。 </td>
 
 <tr>
    <td role="rowheader"><p>Adobe Workfront平台</p></td>
@@ -118,31 +121,76 @@ ht-degree: 2%
 
 1. 按一下 **建立**。所選記錄型別的請求表單隨即開啟。
 
+   ![](assets/campaigns-request-form-edit-mode.png)
+
    依預設，請求表單包含下列資訊：
 
+   * 所選記錄型別的表格檢視中可用的所有記錄欄位。
    * **預設的分節**：這是Workfront套用至要求表單的預設分割槽符號。 無法重新命名或移除「預設」區段。
    * **主旨**&#x200B;欄位：將在Workfront中識別要求的欄位。 此功能尚未提供。
    * 與記錄型別關聯的所有欄位。
 
    向此記錄型別提交請求的所有人均可看到請求表單中包含的欄位。
 
-1. （選用）移除&#x200B;**主旨**&#x200B;欄位，因為此欄位不會顯示在Workfront Planning中。<!--remove this step when we connect intake with the Requests area in Workfront-->
-1. 將滑鼠懸停在您要移除的表單上任何欄位上。 它們已新增至表單左側的&#x200B;**欄位**&#x200B;索引標籤。
-1. 按一下任何欄位，然後使用表單右側的控制項來定義下列任何有關欄位的資訊：
+1. （選擇性）將滑鼠停留在您要移除的表單上任何欄位上，然後按一下&#x200B;**x**&#x200B;圖示以移除它們。 已將它們新增至表單左側的&#x200B;**欄位**&#x200B;索引標籤。
+
+   例如，移除&#x200B;**主旨**&#x200B;欄位，因為在Workfront Planning中看不到此欄位。<!--remove this step when we connect intake with the Requests area in Workfront-->
+1. 按一下任何欄位，然後使用表單右側的控制項來定義其大小，或以下任何有關欄位的資訊：
 
    * **標籤**：這是欄位在要求表單上顯示的名稱。 這不會變更記錄欄位的名稱。
    * **指示**：新增欄位的詳細資訊。
    * **建立必要欄位**：選取時，該欄位必須具有值。 否則，無法提交表單。
    * **新增邏輯**：定義必須符合哪些條件才能顯示或隱藏欄位。
 
-1. 按一下表單右側的「內容元素」索引標籤，然後新增下列任何元素：
+1. （選擇性）按一下表單左側的&#x200B;**Content elements**&#x200B;標籤，然後新增下列任一元素：
 
-   * 描述文字
-   * 分節符號
+   * **描述文字**
+   * **分割槽符號**
 
    如需建立自訂表單的詳細資訊，請參閱[使用表單設計工具設計表單](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。
 
+1. （選擇性）按一下&#x200B;**預覽**&#x200B;以檢視其他使用者使用表單提交新記錄時表單的顯示方式。
+1. 按一下&#x200B;**Publish**&#x200B;以發佈表單並取得其唯一連結。
 
+   會發生下列情況：
+
+   * Publish按鈕已移除。
+   * **取消發佈**&#x200B;按鈕已新增至表單。 按一下此按鈕，表單將無法存取。
+   * **共用**&#x200B;按鈕已新增至表單。
+
+1. 按一下&#x200B;**共用**&#x200B;以與其他人共用表單。
+
+   ![](assets/share-box-for-request-form.png)
+
+1. 從下列選項中選取，指示哪些型別的使用者可以存取此表單：
+
+   * 對工作區具有檢視或更高權限的任何人
+   * 對工作區具有貢獻或更高權限的任何人
+   * 擁有此連結的任何人
+
+   >[!IMPORTANT]
+   >
+   >當您選取「具有連結的任何人」時，任何人，甚至組織外沒有Workfront帳戶的人，都可以存取表單並提交新記錄。
+
+1. （視條件而定）如果您在上一步選取了&#x200B;**任何擁有連結**&#x200B;的人，請從可用的行事曆中選取&#x200B;**連結到期日**。 連結過期後人員會收到錯誤，您必須先更新連結日期，才能再次存取表單。 <!--add info here about how long the expiration date should be; logged bug-->
+
+1. 按一下&#x200B;**儲存並複製連結**&#x200B;以儲存表單的共用詳細資料。
+
+   表單共用選項會儲存且連結會複製到您的剪貼簿。 您現在可以與其他人共用。
+
+   如需使用要求表單的連結來建立記錄的相關資訊，請參閱[提交Adobe Workfront Planning要求](/help/quicksilver/planning/requests/submit-requests.md)。
+
+1. 按一下熒幕右下角的&#x200B;**儲存**&#x200B;以儲存表單。
+1. 按一下頁首中表單名稱左側的向左箭頭以關閉表單。
+
+   記錄型別頁面隨即開啟。
+1. （選擇性）按一下標題中記錄型別名稱右側的&#x200B;**更多**&#x200B;功能表![](assets/more-menu.png)，然後執行下列任一項作業：
+   * 按一下&#x200B;**更新要求表單**&#x200B;以變更要求表單。
+   * 按一下&#x200B;**複製要求表單的連結**&#x200B;以與其他人共用表單的連結。
+
+   >[!TIP]
+   >
+   >如果是這種情況，表示連結已公開共用。
 
 
 

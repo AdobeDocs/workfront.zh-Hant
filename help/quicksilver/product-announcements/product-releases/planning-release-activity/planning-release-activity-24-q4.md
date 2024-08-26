@@ -1,34 +1,17 @@
 ---
+content-type: release-notes
 title: 「24.10版的Adobe Workfront規劃發行活動」
-description: 這是Adobe Workfront規劃產品在2024年第四季Workfront發行期間的發行活動。
+description: 這是2024年第四季度Adobe Workfront規劃產品的發行活動。
+author: Alina
+feature: Product Announcements
 recommendations: noDisplay, noCatalog
-hidefromtoc: true
-hide: true
-source-git-commit: 61cad7dc76ba04ea84ff0bd5052182f040f7b4d9
+source-git-commit: f9abcd9ff4c80376bed229a1d65e0efcbfc332b0
 workflow-type: tm+mt
 source-wordcount: '191'
 ht-degree: 0%
 
 ---
 
-
-<!--update metadata:
-
----
-content-type: release-notes
-title: "Adobe Workfront Planning Release Activity for the 24.10 Release"
-description: This is the release activity for the Adobe Workfront Planning product. 
-author: Alina
-feature: Product Announcements
-recommendations: noDisplay, noCatalog
-hidefromtoc: yes
-hide: yes
---- -->
-
-
-<!--add to TOC and miniTOC-->
-
-<!-- send Nolan a link to this article for the 24.10 (q4) release overview page-->
 
 # Adobe Workfront Planning 2024年第四季發行活動
 
@@ -47,15 +30,15 @@ hide: yes
 本文介紹2024年第四季版本中針對Workfront Planning發行的功能。
 
 <!--keep the sentence below for all future quarterly release pages-->
+<!--remove the general activity mention after fourth quarter 2024 is released-->
 
-如需針對Adobe Workfront Planning發行之所有功能的清單，請參閱[Adobe Workfront Planning發行活動：文章索引](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)。
+如需2024年8月28日一般可用性發行後Adobe Workfront Planning所發行之所有功能的清單，請參閱[Adobe Workfront Planning發行活動：文章索引](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)。
 
 ## Adobe Workfront Planning正式發行
 
 >[!NOTE]
 >
->預覽版本：待定；生產版本：2024年8月28日
-
+>預覽和生產版本： 2024年8月28日
 
 除了其Workfront授權外，所有已購買Workfront Planning授權的客戶都可使用Workfront Planning。 如需有關Workfront規劃的詳細資訊，請聯絡您的客戶代表。
 

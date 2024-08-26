@@ -1,18 +1,20 @@
 ---
-title: 2023年Adobe Workfront Planning發行活動封存
+title: 2023年Adobe Workfront計畫發行活動
 description: Adobe Workfront規劃功能目前可供特定Workfront客戶使用。 請經常閱讀本文章，瞭解最近針對規劃功能發行的功能。
-hidefromtoc: true
-hide: true
+author: Alina
+feature: Workfront Planning
+role: User, Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 52e8ce6dd5146d72f698583b531b3db6bc5dbf25
+exl-id: 8a3830e8-0d9a-4ede-a1b6-b80dd4686bc6
+source-git-commit: f9abcd9ff4c80376bed229a1d65e0efcbfc332b0
 workflow-type: tm+mt
-source-wordcount: '2988'
+source-wordcount: '2950'
 ht-degree: 0%
 
 ---
 
 
-# 2023年Adobe Workfront Planning發行活動封存
+# 2023年Adobe Workfront計畫發行活動
 
 <!--this article is linked to the WF Planning landing page - do not change URL or move it; send the team a new URL after we add the redirects for this page-->
 
@@ -20,24 +22,21 @@ ht-degree: 0%
 >
 >本文資訊旨在說明Adobe Workfront的新產品Adobe Workfront Planning。
 >
->目前Workfront Planning處於搶先使用階段，僅開放給有限數量的客戶使用。
+>除了Workfront計畫之外，您必須購買Workfront計畫才能存取及使用Workfront計畫功能。
 >
->您必須是Workfront客戶才能使用這些功能。
->
->如果您屬於此階段，您的客戶代表將會通知您。
->
->如需詳細資訊，請參閱[Adobe Workfront規劃總覽](/help/quicksilver/planning/general/planning-overview.md)。
+>如需存取Workfront Planning的完整需求清單，請參閱[存取總覽](/help/quicksilver/planning/access/access-overview.md)。
+>如需Workfront Planning的概觀，請參閱[Adobe Workfront Planning概觀](/help/quicksilver/planning/general/planning-overview.md)。
 >
 
-本文列出2023年5月22日Adobe Workfront規劃方案（2023年）推出後所發行的功能。
+本文列有在2023年5月22日Adobe Workfront計畫啟動後，於2023年發行的功能。
 
-如需2024年期間發行的功能相關資訊，請參閱[Adobe Workfront Planning目前的發行活動](/help/quicksilver/planning/general/release-activity.md)。
+如需發行活動的詳細資訊，另請參閱下列文章：
 
-已發行的功能會依其發行順序列出，最新的排在前。 參與Workfront Planning計畫的客戶可存取其生產環境中的所有功能。
+* [Adobe Workfront Planning發行活動：文章索引](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)：關於Workfront Planning目前發行活動的資訊。
 
-在2023年5月至2023年12月期間，本文中的所有功能均已發佈到「預覽」和「生產」環境。
+* [2024年Adobe Workfront Planning發行活動](/help/quicksilver/planning/general/release-activity.md)：如需2024年期間發行的功能相關資訊，請於2024年8月28日正式發行。
 
-自2024年1月起，Workfront計畫已暫時從預覽和沙箱環境中移除。 本文中記錄的所有功能目前可在生產環境中使用。
+已發行的功能會依其發行順序列出，最新的排在前。
 
 ## 2023年12月25日當週
 

@@ -1,20 +1,20 @@
 ---
 title: 管理記錄檢視
 description: 使用Adobe Workfront Planning時，您可以在表格、時間軸或行事曆檢視中顯示記錄。
-hidefromtoc: true
-hide: true
+author: Alina
+feature: Workfront Planning
+role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: 61cad7dc76ba04ea84ff0bd5052182f040f7b4d9
+source-git-commit: f8ad026582be5b4c89939af8f135151ffaabccfe
 workflow-type: tm+mt
-source-wordcount: '1209'
+source-wordcount: '1212'
 ht-degree: 1%
 
 ---
 
-# 管理記錄檢視
 
-<!--update the metadata with real information when making this available in TOC and in the left nav-->
+# 管理記錄檢視
 
 {{planning-important-intro}}
 
@@ -41,8 +41,6 @@ ht-degree: 1%
 
 
 ## 存取需求
-
-<!--Updated for GA-->
 
 +++ 展開以檢視本文中功能的存取需求。
 
@@ -87,7 +85,7 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td role="rowheader"><p>Adobe Workfront授權*</p></td> 
-   <td> <ul><li><p>任一，若要檢視Workfront Planning資訊</p></li>
+   <td> <ul><li><p>標準、光源或貢獻者，用於檢視Workfront Planning資訊</p></li>
    <li><p>Standard，建立工作區</p></li></ul>
    <p>Workfront計畫不適用於舊版Workfront授權</p> 
   </td> 

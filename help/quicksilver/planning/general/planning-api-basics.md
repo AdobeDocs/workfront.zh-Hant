@@ -1,18 +1,22 @@
 ---
-title: Adobe Workfront Planning API基本需知
+title: Adobe Workfront規劃API基本需知
 description: Adobe Workfront Planning API的目標是引入透過HTTP運作的REST-ful架構，簡化與Planning的整合建置。 本檔案假設您熟悉REST和JSON回應，並說明Planning API所採取的方法。
-hidefromtoc: true
-hide: true
+author: Becky
+feature: Workfront Planning
+role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: afb58d04-fa75-4eb7-9c19-2a8c1748fbc2
-source-git-commit: 83ea00f63f597731f808673d45b6103522995fb1
+source-git-commit: f9abcd9ff4c80376bed229a1d65e0efcbfc332b0
 workflow-type: tm+mt
 source-wordcount: '939'
 ht-degree: 2%
 
 ---
 
+
 # Adobe Workfront Planning API基本需知
+
+{{planning-important-intro}}
 
 Adobe Workfront Planning API的目標是引入透過HTTP運作的REST-ful架構，簡化與Planning的整合建置。 本檔案假設您熟悉REST和JSON回應，並說明Planning API所採取的方法。
 
