@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 13880fcb-8523-45d2-9ac6-38453e8e2391
-source-git-commit: 1b3e0ab2d8ee37b7583d0b8fb0472b2fc9623da0
+source-git-commit: bcc0054f761101ac19d1ced241329fce95be4e99
 workflow-type: tm+mt
-source-wordcount: '1237'
+source-wordcount: '1308'
 ht-degree: 0%
 
 ---
@@ -108,6 +108,16 @@ ht-degree: 0%
 1. 按一下&#x200B;**套用**。
 
    將自訂表單新增至Workfront物件時，「組合顏色」欄位中的所有值都會出現在外部查詢欄位下拉式清單中。
+
+## 設定Workfront Planning API的外部查詢欄位
+
+[Workfront Planning API](/help/quicksilver/planning/general/planning-api-basics.md)中有端點可透過Get方法依記錄型別ID搜尋記錄。 您可以使用此端點來參考外部查閱欄位中的Planning記錄。
+
+* **基礎API URL：** `$$HOST/maestro/api/v1/records/search?recordTypeId={recordTypeID}`
+* **HTTP方法：** Get
+* **JSON路徑：** `$.records[*].data.{fieldID}`
+
+  **{fieldID}**&#x200B;是要在使用者自訂表單的外部查詢搜尋結果中顯示的欄位。
 
 ## 設定公用API的外部查詢欄位
 
