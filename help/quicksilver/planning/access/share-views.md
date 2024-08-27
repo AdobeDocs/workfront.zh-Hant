@@ -224,9 +224,8 @@ This article describes how you can share a view with others. For information abo
 
    檢視會以人員圖示![](assets/view-shared-with-others-people-icon.png)更新，表示檢視現在已與其他使用者共用。
 
-   >>
-   [!TIP]
-   >>
+   >[!TIP]
+   >
    沒有人員或全域圖示的檢視是您建立的檢視，不會與他人共用。 非共用檢視僅對您可見。
 
 1. 與他人共用複製的連結。 收到連結的使用者必須是作用中使用者，並登入Workfront，才能存取記錄型別頁面並在選取的檢視中顯示該頁面。
@@ -268,8 +267,7 @@ This article describes how you can share a view with others. For information abo
 
    檢視會以全域圖示![](assets/public-shared-view-icon-highlighted.png)更新，表示檢視已公開共用。
 
-   >>
-   [!TIP]
+   >[!TIP]
    >
    >沒有人員或全域圖示的檢視是您建立的檢視，不會與他人共用。 非共用檢視僅對您可見。
 
