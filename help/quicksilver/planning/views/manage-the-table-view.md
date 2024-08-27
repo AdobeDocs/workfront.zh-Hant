@@ -1,30 +1,19 @@
 ---
 title: 管理表格檢視
 description: 存取Adobe Workfront Planning中的記錄型別頁面時，您可以在表格檢視中顯示記錄及其欄位。
-hidefromtoc: true
-hide: true
+feature: Workfront Planning
+role: User
+author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: bda3dc43828032fd5a8862b12d851c56cf9b6cbd
+source-git-commit: cf42511263ec1cffd90d1e4bdcd43521b7fe6a30
 workflow-type: tm+mt
-source-wordcount: '2630'
+source-wordcount: '2708'
 ht-degree: 3%
 
 ---
 
 # 管理表格檢視
-
-<!--
-title: Manage the table view
-description: You can display records in a table view when using Adobe Workfront Planning. 
-hidefromtoc: yes
-author: Alina
-feature: Work Management
-role: User
-hide: yes
--->
-
-<!--update the metadata with real information when making this available in TOC and in the left nav-->
 
 {{planning-important-intro}}
 
@@ -34,9 +23,77 @@ hide: yes
 
 ## 存取需求
 
-您必須具有下列存取權才能執行本文中的步驟：
++++ 展開以檢視Workfront Planning的存取需求。
 
-<!--at GA the plan below will change to Prime, Select and Ultimate only-->
+您必須具備下列專案才能存取Workfront Planning：
+
+<table style="table-layout:auto"> 
+<col> 
+</col> 
+<col> 
+</col> 
+<tbody> 
+    <tr> 
+<tr> 
+<td> 
+   <p> 產品</p> </td> 
+   <td> 
+   <ul><li><p> Adobe Workfront</p></li> 
+   <li><p> Adobe Workfront規劃<p></li></ul></td> 
+  </tr>   
+<tr> 
+   <td role="rowheader"><p>Adobe Workfront計畫*</p></td> 
+   <td> 
+<p>下列任一Workfront計畫：</p> 
+<ul><li>選取</li> 
+<li>Prime</li> 
+<li>Ultimate</li></ul> 
+<p>舊版Workfront計畫不提供Workfront計畫</p> 
+   </td> 
+<tr> 
+   <td role="rowheader"><p>Adobe Workfront規劃計畫*</p></td> 
+   <td> 
+<p>任何 </p> 
+<p>如需每個Workfront Planning計畫包含哪些專案的詳細資訊，請參閱<a href="https://business.adobe.com/products/workfront/pricing.html">Adobe Workfront定價與封裝</a>。 </p> 
+   </td> 
+ <tr> 
+   <td role="rowheader"><p>Adobe Workfront平台</p></td> 
+   <td> 
+<p>貴組織的Workfront例項必須加入Adobe統一體驗，才能存取Workfront規劃的所有功能。</p> 
+<p>如需詳細資訊，請參閱<a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Workfront的Adobe統一體驗</a>。 </p> 
+   </td> 
+   </tr> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Adobe Workfront授權*</p></td> 
+   <td><p> 標準 </p>
+   <p>Workfront計畫不適用於舊版Workfront授權</p> 
+  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>存取層級設定</p></td> 
+   <td> <p>Adobe Workfront Planning沒有存取層級控制</p>   
+</td> 
+  </tr> 
+<tr> 
+   <td role="rowheader"><p>物件許可權</p></td> 
+   <td>   <p>管理檢視的許可權</p>  
+   <p>檢視許可權以暫時變更檢視設定</p> </td> 
+  </tr> 
+<tr> 
+   <td role="rowheader"><p>版面配置範本</p></td> 
+   <td> <p>必須為所有使用者(包括Workfront管理員)指派一個版面配置範本，該範本包含主功能表中的Planning區域。 </p> </td> 
+  </tr> 
+</tbody> 
+</table>
+
+*如需Workfront存取需求的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
++++
+
+
+<!--
+OLD:
 
 <table style="table-layout:auto">
  <col>
@@ -47,52 +104,52 @@ hide: yes
     <tr>
 <tr>
 <td>
-   <p> 產品</p> </td>
+   <p> Product</p> </td>
    <td>
    <p> Adobe Workfront</p> </td>
   </tr>  
- <td role="rowheader"><p>Adobe Workfront合約</p></td>
+ <td role="rowheader"><p>Adobe Workfront agreement</p></td>
    <td>
-<p>您的組織必須處於Workfront Planning的早期存取階段中註冊 </p>
+<p>Your organization must be enrolled in the early access stage for Workfront Planning </p>
    </td>
   </tr>
   <tr>
-   <td role="rowheader"><p>Adobe Workfront計畫</p></td>
+   <td role="rowheader"><p>Adobe Workfront plan</p></td>
    <td>
-<p>任何</p>
+<p>Any</p>
    </td>
   </tr>
   <tr>
-   <td role="rowheader"><p>Adobe Workfront授權*</p></td>
+   <td role="rowheader"><p>Adobe Workfront license*</p></td>
    <td>
-   <p>新增：標準</p>
-   或
-   <p>目前：計畫 </p> 
+   <p>New: Standard</p>
+   Or
+   <p>Current: Plan </p> 
   </td>
   </tr>
+  
+  <tr>
+   <td role="rowheader"><p>Access level configurations</p></td>
+   <td> There are no access controls for Adobe Workfront Planning</p>  
+</td>
+  </tr>
 
-<tr>
-   <td role="rowheader"><p>存取層級設定</p></td>
-   <td> Adobe Workfront Planning沒有存取控制</p>  
+  <tr>
+   <td role="rowheader"><p>Permissions</p></td>
+   <td> <p>Manage permissions to a view</p>  
+   <p>View permissions to a view to temporarily change the view settings</p>
 </td>
   </tr>
 
 <tr>
-   <td role="rowheader"><p>權限</p></td>
-   <td> <p>管理檢視的許可權</p>  
-   <p>檢視許可權以暫時變更檢視設定</p>
-</td>
-  </tr>
-
-<tr>
-   <td role="rowheader"><p>版面配置範本</p></td>
-   <td> <p>必須為所有使用者(包括Workfront管理員)指派一個版面配置範本，該範本包含主功能表中的Planning區域。 </p> <p>如需詳細資訊，請參閱<a href="/help/quicksilver/planning/access/access-overview.md">存取總覽</a>。 </p> 
+   <td role="rowheader"><p>Layout template</p></td>
+   <td> <p>All users, including Workfront administrators,  must be assigned a layout template that includes the Planning area in the Main Menu. </p> <p>For information, see <a href="/help/quicksilver/planning/access/access-overview.md">Access overview</a>. </p> 
 </td>
   </tr>
  </tbody>
 </table>
 
-*如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+*For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).-->
 
 ## 使用表格檢視編輯記錄
 

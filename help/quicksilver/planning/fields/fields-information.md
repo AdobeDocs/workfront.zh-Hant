@@ -1,30 +1,20 @@
 ---
 title: 「欄位：文章索引」
 description: 您可以在Adobe Workfront Planning中新增反映組織生命週期的欄位。 欄位是記錄型別的屬性。
-hidefromtoc: true
-hide: true
+feature: Workfront Planning
+role: User, Admin
+author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: d06028d9-9230-4a6c-a227-20618067192c
-source-git-commit: f5430d81f1914a3717130de3af54b4b84e0e2d06
+source-git-commit: 83c716dea3815ed9a2ce4c3d0598ef42b128de87
 workflow-type: tm+mt
 source-wordcount: '102'
 ht-degree: 0%
 
 ---
 
+
 # 欄位：文章索引
-
-<!--
-title: Fields: article index
-description: You can add new fields in Adobe Workfront Planning that reflect your organization's lifecycle. Fields are attributes of record types. 
-hidefromtoc: yes
-author: Alina
-feature: Work Management (***************WE NEED A NEW ONE HERE***********)
-role: User, Admin
-hide: yes
--->
-
-<!--update the metadata with real information when making this available in TOC and in the left nav-->
 
 {{planning-important-intro}}
 

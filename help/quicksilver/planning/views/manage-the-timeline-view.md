@@ -1,30 +1,19 @@
 ---
 title: 管理時間表檢視
 description: 在Adobe Workfront Planning記錄型別頁面的時間軸檢視中，存取及編輯記錄。 使用篩選器、群組和設定自訂時間軸。 使用「劃分」功能來顯示連線的記錄。
-hidefromtoc: true
-hide: true
+feature: Workfront Planning
+role: User
+author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: 61cad7dc76ba04ea84ff0bd5052182f040f7b4d9
+source-git-commit: cf42511263ec1cffd90d1e4bdcd43521b7fe6a30
 workflow-type: tm+mt
-source-wordcount: '2636'
+source-wordcount: '2621'
 ht-degree: 0%
 
 ---
 
 # 管理時間表檢視
-
-<!--
-title: Manage the timeline view 
-description: You can display records in a timeline view, when accessing the record type page in Adobe Workfront Planning. 
-hidefromtoc: yes
-hide: yes
-author: Alina
-feature: Work Management
-role: User
--->
-
-<!--update the metadata with real information when making this available in TOC and in the left nav-->
 
 {{planning-important-intro}}
 
@@ -34,11 +23,9 @@ role: User
 
 ## 存取需求
 
-<!--Updated for GA-->
++++ 展開以檢視Workfront Planning的存取需求。
 
-+++ 展開以檢視本文中功能的存取需求。
-
-您必須具有下列存取權才能執行本文中的步驟：
+您必須具備下列專案才能存取Workfront Planning：
 
 <table style="table-layout:auto"> 
 <col> 
@@ -79,8 +66,7 @@ role: User
   </tr> 
   <tr> 
    <td role="rowheader"><p>Adobe Workfront授權*</p></td> 
-   <td> <ul><li><p>任一，若要檢視Workfront Planning資訊</p></li>
-   <li><p>Standard，建立工作區</p></li></ul>
+   <td><p> 標準 </p>
    <p>Workfront計畫不適用於舊版Workfront授權</p> 
   </td> 
   </tr> 
@@ -92,7 +78,7 @@ role: User
 <tr> 
    <td role="rowheader"><p>物件許可權</p></td> 
    <td>   <p>管理檢視的許可權</p>  
-   <p>檢視或更高的檢視許可權可暫時變更檢視設定</p> </td> 
+   <p>檢視許可權以暫時變更檢視設定</p> </td> 
   </tr> 
 <tr> 
    <td role="rowheader"><p>版面配置範本</p></td> 
@@ -102,6 +88,8 @@ role: User
 </table>
 
 *如需Workfront存取需求的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
++++
 
 <!--OLD: 
 
@@ -161,7 +149,6 @@ role: User
 
 *For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).-->
 
-+++
 
 ## 管理時間表檢視 {#manage-a-timeline-view}
 

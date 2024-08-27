@@ -1,33 +1,19 @@
 ---
 title: 公式欄位概觀
 description: 在Adobe Workfront Planning中，您可以建立公式欄位，這些欄位使用函式和現有欄位來計算新的自訂值。
-hidefromtoc: true
-hide: true
+feature: Workfront Planning
+role: User, Admin
+author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 5027d611-916e-492d-9a44-841bdde11c94
-source-git-commit: 1ad86cd55459d92650ac7a24c41765e579f8bb94
+source-git-commit: 83c716dea3815ed9a2ce4c3d0598ef42b128de87
 workflow-type: tm+mt
-source-wordcount: '462'
-ht-degree: 8%
+source-wordcount: '553'
+ht-degree: 7%
 
 ---
 
 # 公式欄位概觀
-
-<!--update the metadata with real information when making this available in TOC and in the left nav - below-->
-
-<!--this article is linked to the UI in the formula box, "Learn more..."-->
-
-<!---
-title: Formula fields overview
-description: In Adobe Workfront Planning, you can create formula fields that use functions and existing  fields to calculate a new custom value. 
-hidefromtoc: yes
-hide: yes
-author: Alina
-feature: (*******************WE NEED A NEW ONE*******************)
-role: User, Administrator (************is this right???************)
-recommendations: noDisplay, noCatalog
---->
 
 <!--when we release permissions to RECORDS and we release referring lookup fields in a formula field, update considerations to say that lookup fields from linked records depends on the permissions to the record; if they have no permissions to view a linked record, they won't be able to use that records's lookup fields in a formula-->
 
@@ -43,6 +29,75 @@ recommendations: noDisplay, noCatalog
 
 +++ 展開以檢視Workfront Planning的存取需求。
 
+您必須具備下列專案才能存取Workfront Planning：
+
+<table style="table-layout:auto"> 
+<col> 
+</col> 
+<col> 
+</col> 
+<tbody> 
+    <tr> 
+<tr> 
+<td> 
+   <p> 產品</p> </td> 
+   <td> 
+   <ul><li><p> Adobe Workfront</p></li> 
+   <li><p> Adobe Workfront規劃<p></li></ul></td> 
+  </tr>   
+<tr> 
+   <td role="rowheader"><p>Adobe Workfront計畫*</p></td> 
+   <td> 
+<p>下列任一Workfront計畫：</p> 
+<ul><li>選取</li> 
+<li>Prime</li> 
+<li>Ultimate</li></ul> 
+<p>舊版Workfront計畫不提供Workfront計畫</p> 
+   </td> 
+<tr> 
+   <td role="rowheader"><p>Adobe Workfront規劃計畫*</p></td> 
+   <td> 
+<p>任何 </p> 
+<p>如需每個Workfront Planning計畫包含哪些專案的詳細資訊，請參閱<a href="https://business.adobe.com/products/workfront/pricing.html">Adobe Workfront定價與封裝</a>。 </p> 
+   </td> 
+ <tr> 
+   <td role="rowheader"><p>Adobe Workfront平台</p></td> 
+   <td> 
+<p>貴組織的Workfront例項必須加入Adobe統一體驗，才能存取Workfront規劃的所有功能。</p> 
+<p>如需詳細資訊，請參閱<a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Workfront的Adobe統一體驗</a>。 </p> 
+   </td> 
+   </tr> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Adobe Workfront授權*</p></td> 
+   <td><p> 標準</p>
+   <p>Workfront計畫不適用於舊版Workfront授權</p> 
+  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>存取層級設定</p></td> 
+   <td> <p>Adobe Workfront Planning沒有存取層級控制</p>   
+</td> 
+  </tr> 
+<tr> 
+   <td role="rowheader"><p>物件許可權</p></td> 
+   <td>   <p>管理工作區</a>的許可權 </p>  
+   <p>系統管理員擁有所有工作區的許可權，包括他們未建立的工作區</p> </td> 
+  </tr> 
+<tr> 
+   <td role="rowheader"><p>版面配置範本</p></td> 
+   <td> <p>必須為所有使用者(包括Workfront管理員)指派一個版面配置範本，該範本包含主功能表中的Planning區域。 </p> </td> 
+  </tr> 
+</tbody> 
+</table>
+
+*如需Workfront存取需求的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
++++
+
+<!--
+
+OLD:
 <table style="table-layout:auto">
  <col>
  </col>
@@ -52,57 +107,52 @@ recommendations: noDisplay, noCatalog
     <tr>
 <tr>
 <td>
-   <p> 產品</p> </td>
+   <p> Product</p> </td>
    <td>
    <p> Adobe Workfront</p> </td>
   </tr>  
- <td role="rowheader"><p>Adobe Workfront合約</p></td>
+ <td role="rowheader"><p>Adobe Workfront agreement</p></td>
    <td>
-<p>您的組織必須處於Workfront Planning的早期存取階段中註冊 </p>
+<p>Your organization must be enrolled in the early access stage for Workfront Planning </p>
    </td>
   </tr>
   <tr>
-   <td role="rowheader"><p>Adobe Workfront計畫</p></td>
+   <td role="rowheader"><p>Adobe Workfront plan</p></td>
    <td>
-<p>任何</p>
+<p>Any</p>
    </td>
   </tr>
   <tr>
-   <td role="rowheader"><p>Adobe Workfront授權*</p></td>
+   <td role="rowheader"><p>Adobe Workfront license*</p></td>
    <td>
-   <p>新增：標準</p>
-   <p>目前：計畫</p> 
+   <p>New: Standard</p>
+   <p>Current: Plan</p> 
   </td>
   </tr>
+  
+  <tr>
+   <td role="rowheader"><p>Access level configuration</p></td>
+   <td> <p>There are no access controls for Workfornt planining</p>  
+</td>
+  </tr>
+<tr>
+   <td role="rowheader"><p>Permissions</p></td>
+   <td> <p>Manage permissions to a workspace</a> </p>  
+   <p>System Administrators have permissions to all workspaces, including the ones they did not create</p>
+</td>
+  </tr>
+<tr>
+   <td role="rowheader"><p>Layout template</p></td>
+   <td> <p>Your Workfront or group administrator must add the Planning area in your layout template. For information, see <a href="/help/quicksilver/planning/access/access-overview.md">Access overview</a>. </p>  
+</td>
+  </tr>
 
-<tr>
-   <td role="rowheader"><p>存取層級設定</p></td>
-   <td> <p>Workforce計畫沒有存取控制</p>  
-</td>
-  </tr>
-<tr>
-   <td role="rowheader"><p>權限</p></td>
-   <td> <p>管理工作區</a>的許可權 </p>  
-   <p>系統管理員擁有所有工作區的許可權，包括他們未建立的工作區</p>
-</td>
-  </tr>
-<tr>
-   <td role="rowheader"><p>版面配置範本</p></td>
-   <td> <p>您的Workfront或群組管理員必須在版面配置範本中新增Planning區域。 如需詳細資訊，請參閱<a href="/help/quicksilver/planning/access/access-overview.md">存取總覽</a>。 </p>  
-</td>
-  </tr>
-
-</tbody>
+ </tbody>
 </table>
 
-*如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+*For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
 
-+++
-
-<!-- Notes to add for the table: for the "Workfront plans" row: the above is only for closed beta; when going to GA - activate the following plans:    
-<p>Current plan: Prime and Ultimate</p>
-<p>Legacy plan: Enterprise</p>-->
-
+-->
 
 ## 有關公式欄位的考量事項
 

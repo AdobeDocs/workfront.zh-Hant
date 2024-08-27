@@ -1,18 +1,17 @@
 ---
 title: 記錄型別概觀
 description: 記錄型別是Adobe Workfront Planning工作區的建置組塊。
-hidefromtoc: true
-hide: true
+feature: Workfront Planning
+role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 1de095b3-78d9-44df-a678-51f4238deb91
-source-git-commit: 3856e56036a9845387d7dc6498a6f20728c8234a
+source-git-commit: 83c716dea3815ed9a2ce4c3d0598ef42b128de87
 workflow-type: tm+mt
 source-wordcount: '274'
 ht-degree: 0%
 
 ---
 
-<!--udpate the metadata with real information when making this avilable in TOC and in the left nav-->
 
 # 記錄型別概觀
 

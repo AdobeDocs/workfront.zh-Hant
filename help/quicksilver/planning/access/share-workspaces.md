@@ -5,7 +5,7 @@ author: Alina
 feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: f8ad026582be5b4c89939af8f135151ffaabccfe
+source-git-commit: 83c716dea3815ed9a2ce4c3d0598ef42b128de87
 workflow-type: tm+mt
 source-wordcount: '490'
 ht-degree: 2%
@@ -185,6 +185,30 @@ OLD:
 1. 按一下&#x200B;**複製連結**&#x200B;以將工作區的連結複製到剪貼簿。
 1. 與他人共用複製的連結。 收到連結的使用者必須是作用中使用者，並登入Workfront才能存取工作區。
 1. 按一下「**儲存**」。
+
+<!--
+## Grant permissions to a workspace from a permission request
+
+Users who access a link to a workspace to which they do not have permissions can request permissions to the workspace. All users with Manage permissions to the workspace receive the permission request and can grant or deny the permissions. 
+
+1. (Conditional) If you are are the manager of a workspace, you might receive a request from another user to access the view in the following areas:
+   
+   * An in-app notification
+      ![](assets/in-app-notification-for-access-request.png)
+   * An email notification
+      ![](assets/email-notification-for-access-request.png)
+1. (Conditional) From the notification area in Workfront, click the in-app notification
+   Or
+   From the email notification, click **View all notifications**, then click the notification in the list.
+
+   The **Pending access requests** box displays. 
+
+      ![](assets/notifications-list-approval-box.png)
+1. Select the user for whom you want to approve or deny the permission, then click **Approve all** or **Deny all**. 
+1. Click the left-pointing arrow to the left of **Pending access requests**, then click **Save**.
+
+   If you approved the request, the users are added to the sharing box of the workspace. 
+-->
 
 
 ## 移除工作區的許可權

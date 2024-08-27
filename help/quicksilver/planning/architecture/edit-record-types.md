@@ -1,30 +1,17 @@
 ---
 title: 編輯記錄型別
 description: 記錄型別儲存後，您可以編輯記錄型別。 記錄型別是Adobe Workfront Planning的物件型別。
-hidefromtoc: true
-hide: true
+feature: Workfront Planning
+role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 7d6de742-9657-4286-968c-1fc78ebbb94e
-source-git-commit: ded6db27fa3fba9195e2133134f60bcadb0f897a
+source-git-commit: 83c716dea3815ed9a2ce4c3d0598ef42b128de87
 workflow-type: tm+mt
-source-wordcount: '628'
-ht-degree: 1%
+source-wordcount: '679'
+ht-degree: 2%
 
 ---
 
-<!--update the metadata with real information when making this available in TOC and in the left nav
----
-title: Edit record types
-description: You can edit record types after they have been saved. Record types are the object types of Adobe Workfront Planning.
-author: Alina
-role: User
-feature: Work Management 
-topic: Architecture
-hidefromtoc: yes
-hide: yes
----
-
--->
 
 # 編輯記錄型別
 
@@ -36,6 +23,76 @@ hide: yes
 
 +++ 展開以檢視Workfront Planning的存取需求。
 
+您必須具備下列專案才能存取Workfront Planning：
+
+<table style="table-layout:auto"> 
+<col> 
+</col> 
+<col> 
+</col> 
+<tbody> 
+    <tr> 
+<tr> 
+<td> 
+   <p> 產品</p> </td> 
+   <td> 
+   <ul><li><p> Adobe Workfront</p></li> 
+   <li><p> Adobe Workfront規劃<p></li></ul></td> 
+  </tr>   
+<tr> 
+   <td role="rowheader"><p>Adobe Workfront計畫*</p></td> 
+   <td> 
+<p>下列任一Workfront計畫：</p> 
+<ul><li>選取</li> 
+<li>Prime</li> 
+<li>Ultimate</li></ul> 
+<p>舊版Workfront計畫不提供Workfront計畫</p> 
+   </td> 
+<tr> 
+   <td role="rowheader"><p>Adobe Workfront規劃計畫*</p></td> 
+   <td> 
+<p>任何 </p> 
+<p>如需每個Workfront Planning計畫包含哪些專案的詳細資訊，請參閱<a href="https://business.adobe.com/products/workfront/pricing.html">Adobe Workfront定價與封裝</a>。 </p> 
+   </td> 
+ <tr> 
+   <td role="rowheader"><p>Adobe Workfront平台</p></td> 
+   <td> 
+<p>貴組織的Workfront例項必須加入Adobe統一體驗，才能存取Workfront規劃的所有功能。</p> 
+<p>如需詳細資訊，請參閱<a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Workfront的Adobe統一體驗</a>。 </p> 
+   </td> 
+   </tr> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Adobe Workfront授權*</p></td> 
+   <td><p> 標準 </p>
+   <p>Workfront計畫不適用於舊版Workfront授權</p> 
+  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>存取層級設定</p></td> 
+   <td> <p>Adobe Workfront Planning沒有存取層級控制</p>   
+</td> 
+  </tr> 
+<tr> 
+   <td role="rowheader"><p>物件許可權</p></td> 
+   <td>   <p>管理工作區</a>的許可權 </p>  
+   <p>系統管理員擁有所有工作區的許可權，包括他們未建立的工作區</p>
+   <p>只有系統管理員可以啟用記錄型別以從其他工作區連線</p> </td> 
+  </tr> 
+<tr> 
+   <td role="rowheader"><p>版面配置範本</p></td> 
+   <td> <p>必須為所有使用者(包括Workfront管理員)指派一個版面配置範本，該範本包含主功能表中的Planning區域。 </p> </td> 
+  </tr> 
+</tbody> 
+</table>
+
+*如需Workfront存取需求的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
++++
+
+<!--
+OLD:
+
 <table style="table-layout:auto">
  <col>
  </col>
@@ -45,59 +102,52 @@ hide: yes
     <tr>
 <tr>
 <td>
-   <p> 產品</p> </td>
+   <p> Product</p> </td>
    <td>
-   <p> Adobe Workfront</p> <p>若要將Adobe Workfront Planning記錄型別與Experience Manager Assets連線，您必須擁有Adobe Experience Manager Assets授權，且貴組織的Workfront執行個體必須上線至Adobe Business Platform或Adobe Admin Console。</p> </td>
+   <p> Adobe Workfront</p> <p>To connect Adobe Workfront Planning record types with Experience Manager Assets, you must have an Adobe Experience Manager Assets license and your organization's instance of Workfront must be onboarded to the Adobe Business Platform or the Adobe Admin Console.</p> </td>
   </tr>  
- <td role="rowheader"><p>Adobe Workfront合約</p></td>
+ <td role="rowheader"><p>Adobe Workfront agreement</p></td>
    <td>
-<p>您的組織必須處於Workfront Planning的早期存取階段中註冊 </p>
+<p>Your organization must be enrolled in the early access stage for Workfront Planning </p>
    </td>
   </tr>
   <tr>
-   <td role="rowheader"><p>Adobe Workfront計畫</p></td>
+   <td role="rowheader"><p>Adobe Workfront plan</p></td>
    <td>
-<p>任何</p>
+<p>Any</p>
    </td>
   </tr>
   <tr>
-   <td role="rowheader"><p>Adobe Workfront授權*</p></td>
+   <td role="rowheader"><p>Adobe Workfront license*</p></td>
    <td>
-   <p>新增：標準</p>
-   <p>目前：計畫</p> 
+   <p>New: Standard</p>
+   <p>Current: Plan</p> 
   </td>
   </tr>
-
-<tr>
-   <td role="rowheader"><p>存取層級設定</p></td>
-   <td> <p>Workfront Planning沒有存取層級控制</p>  
+  
+  <tr>
+   <td role="rowheader"><p>Access level configurations</p></td>
+   <td> <p>There are no access level controls for Workfront Planning</p>  
 </td>
   </tr>
 
-<tr>
-   <td role="rowheader"><p>權限</p></td>
-   <td> <p>管理工作區</a>的許可權 </p>  
-   <p>系統管理員擁有所有工作區的許可權，包括他們未建立的工作區</p>
-   <p>只有系統管理員可以啟用記錄型別以從其他工作區連線</p>
+  <tr>
+   <td role="rowheader"><p>Permissions</p></td>
+   <td> <p>Manage permissions to a workspace</a> </p>  
+   <p>System Administrators have permissions to all workspaces, including the ones they did not create</p>
+   <p>Only system administrators can enable record types to connect from other workspaces</p>
 </td>
   </tr>
 <tr>
-   <td role="rowheader"><p>版面配置範本</p></td>
-   <td> <p>您的Workfront或群組管理員必須在版面配置範本中新增Planning區域。 如需詳細資訊，請參閱<a href="/help/quicksilver/planning/access/access-overview.md">存取總覽</a>。 </p>  
+   <td role="rowheader"><p>Layout template</p></td>
+   <td> <p>Your Workfront or group administrator must add the Planning area in your layout template. For information, see <a href="/help/quicksilver/planning/access/access-overview.md">Access overview</a>. </p>  
 </td>
   </tr>
 
-</tbody>
+ </tbody>
 </table>
 
-*如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
-
-+++
-
-<!--Maybe enable this at GA - but Planning is not supposed to have Access controls in the Workfront Access Level: 
->[!NOTE]
->
->If you don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see [Create or modify custom access levels](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md). -->
+*For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).-->
 
 ## 編輯記錄型別
 

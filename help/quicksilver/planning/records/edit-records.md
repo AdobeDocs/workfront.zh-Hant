@@ -1,11 +1,12 @@
 ---
 title: 編輯記錄
 description: 您可以在Adobe Workfront Planning中編輯記錄資訊。 您必須先建立記錄型別，才能開始建立和編輯記錄。
-hidefromtoc: true
-hide: true
+feature: Workfront Planning
+role: User
+author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: 61cad7dc76ba04ea84ff0bd5052182f040f7b4d9
+source-git-commit: cf42511263ec1cffd90d1e4bdcd43521b7fe6a30
 workflow-type: tm+mt
 source-wordcount: '1833'
 ht-degree: 0%
@@ -29,8 +30,6 @@ ht-degree: 0%
 &lt;！ — 在此提及，詳細資訊檢視中的欄位與表格檢視中的欄位相同 — 本文從「管理記錄」檢視連結，其中一個參考此資訊 — >
 
 ## 存取需求
-
-<!--Updated for GA-->
 
 +++ 展開以檢視Workfront Planning的存取需求。
 

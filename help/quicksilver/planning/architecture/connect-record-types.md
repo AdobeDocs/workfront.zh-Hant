@@ -1,28 +1,17 @@
 ---
 title: 連線記錄型別
 description: 指示個別記錄型別如何彼此關聯的一種方法是連線它們。 此外，您可以將Adobe Workfront Planning記錄型別與其他應用程式的物件型別連線起來，以增強您的使用者體驗，並將他們的焦點放在一個應用程式中。
-hidefromtoc: true
-hide: true
-recommendations: noDisplay, noCatalog
+feature: Workfront Planning
+role: User
+author: Alina
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
-source-git-commit: 61cad7dc76ba04ea84ff0bd5052182f040f7b4d9
+source-git-commit: 743dbef27149f42ee2328e45a76be660657a75bb
 workflow-type: tm+mt
 source-wordcount: '2137'
 ht-degree: 1%
 
 ---
 
-<!-----
-title: Connect record types
-description: A way to indicate how individual record types relate to one another is to connect them. Also, you can connect Adobe Workfront Planning record types with object types from other applications to enhance your users' experience and keep their focus in one application.
-hidefromtoc: yes
-hide: yes
-feature: Work management
-role: User
-author: Alina
---->
-
-<!--update the metadata with real information when making this avilable in TOC and in the left nav-->
 
 # 連線記錄型別
 
@@ -46,8 +35,6 @@ You can use Adobe Workfront Planning to design fully-customizable workspaces tha
 <!--ensure this last linked article is right; the title and the link should have changed-->
 
 ## 存取需求
-
-<!--Updated for GA-->
 
 +++ 展開以檢視Workfront Planning的存取需求。
 

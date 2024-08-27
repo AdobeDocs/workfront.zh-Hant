@@ -5,9 +5,9 @@ author: Alina
 feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: f9abcd9ff4c80376bed229a1d65e0efcbfc332b0
+source-git-commit: 83c716dea3815ed9a2ce4c3d0598ef42b128de87
 workflow-type: tm+mt
-source-wordcount: '316'
+source-wordcount: '309'
 ht-degree: 1%
 
 ---
@@ -30,8 +30,8 @@ Adobe Workfront Planning限制您可在執行個體中建立的物件數目。 �
 | 一個工作區的區段數 | 50 |
 | 一個工作區的記錄型別數 | 1,000 （這包括來自所有區段的記錄型別，以及在使用工作區範本時建立的記錄型別） |
 | 一種記錄型別的記錄數 | 25,000 |
-| 一個工作區的記錄數 | 25,000適用於計畫計畫為<br>的客戶500,000適用於計畫為加號計畫的客戶 |
-| 一個Workfront Planning型別例項的總記錄數 | 500,000 （針對計畫計畫為<br>2百萬的客戶），針對計畫為「計畫加上」的客戶 |
+| 一個工作區的記錄數 | 25,000適用於計畫為<br>的客戶500,000適用於計畫為Planning Plus的客戶 |
+| Workfront Planning單一例項的總記錄數 | 500,000 （針對計畫計畫為<br>200,000）的客戶（針對計畫為Planning Plus的客戶） |
 | 一種記錄型別或分類法的欄位數 | 500 |
 | 文字欄位的字元數 | 1,000個字元 |
 | 您可以在記錄型別表格中貼上的檔案大小 | 1MB |

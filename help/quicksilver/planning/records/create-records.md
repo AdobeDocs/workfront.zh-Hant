@@ -1,11 +1,12 @@
 ---
 title: 建立記錄
 description: 使用Adobe Workfront Planning時，記錄是記錄型別的例項。 您可以在Workfront Planning中為每個記錄型別建立唯一的記錄，方法是手動將它們新增至表格檢視、從清單匯入它們、複製它們，或在將它們連線至其他記錄時建立它們。
-hidefromtoc: true
-hide: true
+feature: Workfront Planning
+role: User, Admin
+author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: 80d9fc7f8cf28de8dbb8f1c53835940142681906
+source-git-commit: cf42511263ec1cffd90d1e4bdcd43521b7fe6a30
 workflow-type: tm+mt
 source-wordcount: '1336'
 ht-degree: 0%
@@ -36,8 +37,6 @@ ht-degree: 0%
 * [管理時間表檢視](/help/quicksilver/planning/views/manage-the-timeline-view.md)
 
 ## 存取需求
-
-<!--Updated for GA-->
 
 +++ 展開以檢視Workfront Planning的存取需求。
 

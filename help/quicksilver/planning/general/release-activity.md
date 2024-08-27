@@ -6,7 +6,7 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 18183b53c783366f467e7330159923372b51deb6
+source-git-commit: cf42511263ec1cffd90d1e4bdcd43521b7fe6a30
 workflow-type: tm+mt
 source-wordcount: '6729'
 ht-degree: 0%
@@ -69,6 +69,46 @@ ht-degree: 0%
 
 ## Week of August 26, 2024
 
+### General availability of Adobe Workfront Planning
+
+Preview and Production release: August 28, 2024
+
+Workfront Planning is available for all customers who purchased a Workfront Planning license, in addition to their Workfront license. Contact your account representative for more information about purchasing Workfront Planning.
+
+For information about features released after August 28, 2024 to Workfront Planning, see [Adobe Workfront Planning release activity: article index](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
+
+### New Adobe Workfront Planning packages and object limitations 
+
+Preview and Production: August 28, 2024 
+
+We have implemented new limitations for Workfront Planning objects, according to the following two packages:  
+
+* Workfront Planning allows you to have: 
+
+    * Unlimited workspaces 
+
+    * 25,000 records per workspace 
+
+    * 500,000 total records for your instance 
+
+* Workfront Planning Plus allows you to have: 
+
+    * Unlimited workspaces 
+
+    * 500,000 records per workspace 
+
+    * 2 million total records for your instance. 
+
+For more information, see [Adobe Workfront Planning object limitation overview](/help/quicksilver/planning/general/limitations-overview.md). 
+
+### Enable Workfront Planning notifications for access requests  
+
+Production and Preview: August 28, 2024 
+
+When you request access to a workspace or a view, the user you request access from receives  an email notification about the request. After the request is granted, you receive an email notification with a confirmation or a denial of your request. You can access the view or workspace from the email notification, when the permission has been granted.  
+
+For information, see [Request permissions to a view or a workspace](/help/quicksilver/planning/access/request-permissions.md).  
+
 ### Reporting capabilities for Workfront Planning with the Canvas Dashboard 
 
 Production: August 28, 2024 
@@ -125,7 +165,14 @@ There is a new Settings option with which you can personalize the look and feel 
  When matching colors to a certain field, you can select only fields with color-coded options. 
 
  For more information, see [Manage the calendar view](/help/quicksilver/planning/views/manage-the-calendar-view.md). 
+ 
+### Real-time presence indicators in the table view 
 
+Preview and Production: August, 2024
+
+To understand what information is edited by other users when working in the table view, we have introduced user real-time presence indicators for this area of Workfront planning. The field edited by another user will now be highlighted and the other user's avatar will be visible to you in the upper-right corner of the table view. 
+
+For information, see [Manage the table view](/help/quicksilver/planning/views/manage-the-table-view.md). 
 -->
 
 ## 2024年8月19日起一週

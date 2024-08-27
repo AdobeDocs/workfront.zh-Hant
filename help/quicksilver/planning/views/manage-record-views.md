@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: f8ad026582be5b4c89939af8f135151ffaabccfe
+source-git-commit: cf42511263ec1cffd90d1e4bdcd43521b7fe6a30
 workflow-type: tm+mt
-source-wordcount: '1212'
+source-wordcount: '1194'
 ht-degree: 1%
 
 ---
@@ -42,9 +42,9 @@ ht-degree: 1%
 
 ## 存取需求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以檢視Workfront Planning的存取需求。
 
-您必須具有下列存取權才能執行本文中的步驟：
+您必須具備下列專案才能存取Workfront Planning：
 
 <table style="table-layout:auto"> 
 <col> 
@@ -85,8 +85,7 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td role="rowheader"><p>Adobe Workfront授權*</p></td> 
-   <td> <ul><li><p>標準、光源或貢獻者，用於檢視Workfront Planning資訊</p></li>
-   <li><p>Standard，建立工作區</p></li></ul>
+   <td><p> 標準 </p>
    <p>Workfront計畫不適用於舊版Workfront授權</p> 
   </td> 
   </tr> 
@@ -98,7 +97,7 @@ ht-degree: 1%
 <tr> 
    <td role="rowheader"><p>物件許可權</p></td> 
    <td>   <p>管理檢視的許可權</p>  
-   <p>檢視或更高的檢視許可權可暫時變更檢視設定</p> </td> 
+   <p>檢視許可權以暫時變更檢視設定</p> </td> 
   </tr> 
 <tr> 
    <td role="rowheader"><p>版面配置範本</p></td> 

@@ -1,17 +1,16 @@
 ---
 title: Workspaces概述
 description: 工作區是團隊使用的記錄型別集合，代表團隊的工作生命週期。 您可以在Adobe Workfront Planning中完全自訂工作區，以符合組織單位的工作流程。
-hidefromtoc: true
-hide: true
+feature: Workfront Planning
+role: User, Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: ded6db27fa3fba9195e2133134f60bcadb0f897a
+source-git-commit: 83c716dea3815ed9a2ce4c3d0598ef42b128de87
 workflow-type: tm+mt
 source-wordcount: '367'
 ht-degree: 0%
 
 ---
 
-<!--udpate the metadata with real information when making this avilable in TOC and in the left nav-->
 
 # 工作區概觀
 
@@ -19,7 +18,6 @@ ht-degree: 0%
 
 工作區是組織單位使用的記錄型別集合，代表單位的工作生命週期與處理。 您可以在Adobe Workfront Planning中完全自訂工作區。
 
-<!--replace shot below with new tab name for Workspaces I'm on-->
 
 ![](assets/workspaces-landing-page-admin-account.png)
 
