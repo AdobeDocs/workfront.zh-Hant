@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 6cc67488-1ba9-4455-9152-366aaabf0939
-source-git-commit: 3f1882b555658b2095d99258900f3bba28246c3f
+source-git-commit: 32107381545777cbe7a6696f7a384287ef781a1a
 workflow-type: tm+mt
-source-wordcount: '1127'
+source-wordcount: '1216'
 ht-degree: 0%
 
 ---
@@ -216,16 +216,14 @@ ht-degree: 0%
             <tbody>
                 <tr>
                     <td>
-                        在2024年第四季時間範圍內<a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-look-and-feel-updates.md" class="MCXref xref" xrefformat="{para}">外觀和感覺更新</a></p>
-                        <p>在2024年第四季時間範圍內，對Adobe Workfront應用程式的各個區域外觀和感覺進行了小幅更新。 檢閱特定發行日期的個別發行說明。</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-24-q4.md" class="MCXref xref" xrefformat="{para}">Adobe Workfront Planning一般可用性</a></p>
+                        <p>除了其Workfront授權外，所有已購買Workfront Planning授權的客戶都可使用Workfront Planning。 如需有關Workfront規劃的詳細資訊，請聯絡您的客戶代表。</p>
+                        <p>如需每季最新的Workfront Planning發行資訊，請參閱下方的<a href="#workfront-planning-enhancements">Workfront Planning增強功能</a>區段。</p>
                     </td>
                     <td><p><b>將於下列日期提供：</b></p>
                         <ul>
                             <li>
-                                <p>預覽版本：在整個2024年第四季版本時間範圍</p>
-                            </li>
-                            <li>
-                                <p><span class="preview">生產版本：檢閱特定日期的發行說明</span></p>
+                                <p><span class="preview">所有客戶的生產版本： 2024年8月28日</span></p>
                             </li>
                         </ul>
                     </td>
@@ -251,6 +249,22 @@ ht-degree: 0%
                             </li>
                         </ul>
                     </td>
+                </tr>
+                <tr>
+                    <td>
+                        在2024年第四季時間範圍內<a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-look-and-feel-updates.md" class="MCXref xref" xrefformat="{para}">外觀和感覺更新</a></p>
+                        <p>在2024年第四季時間範圍內，對Adobe Workfront應用程式的各個區域外觀和感覺進行了小幅更新。 檢閱特定發行日期的個別發行說明。</p>
+                    </td>
+                    <td><p><b>將於下列日期提供：</b></p>
+                        <ul>
+                            <li>
+                                <p>預覽版本：在整個2024年第四季版本時間範圍</p>
+                            </li>
+                            <li>
+                                <p><span class="preview">生產版本：檢閱特定日期的發行說明</span></p>
+                            </li>
+                        </ul>
+                    </td>
                 </tr>                            
            </tbody>
         </table>
@@ -260,6 +274,10 @@ ht-degree: 0%
 ### Workfront Fusion增強功能
 
 Workfront Fusion中的新功能可在2024年第四季發行排程之外的步調中推出。 如需最新功能的詳細資訊，請參閱[Adobe Workfront Fusion發行活動](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md)。
+
+### Workfront規劃增強功能
+
+Workfront Planning的新功能可在生產環境中使用。 如需最新功能的詳細資訊，請參閱[Adobe Workfront規劃2024年第四季發行活動](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-24-q4.md)。
 
 ### Workfront Scenario Planner增強功能
 
