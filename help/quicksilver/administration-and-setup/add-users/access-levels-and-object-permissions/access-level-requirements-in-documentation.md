@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 39ea0d53-ec31-4644-b772-cfe260b8e013
-source-git-commit: 822c4e13ab62d129d0a7c603105251e52578576d
+source-git-commit: 85e27a1e7979eadf2731be9aaca9279a82587bbf
 workflow-type: tm+mt
-source-wordcount: '924'
+source-wordcount: '939'
 ht-degree: 0%
 
 ---
@@ -38,7 +38,7 @@ Workfront檔案how-to文章包含一個表格，說明該程式所需的存取�
    <td role="rowheader">Adobe Workfront計畫</td> 
    <td> Adobe Workfront計畫會參考貴組織已購買的一組功能。 大部分的Workfront功能都可在所有計畫中使用，只有少數例外，大多與策略規劃及企業控制有關。 
    <ul><li>若需瞭解貴組織使用哪種Adobe Workfront計畫，包括貴組織使用的新封裝模式或目前封裝模式，請聯絡您的Workfront管理員。</li>
-   <li>如需Workfront管理員如何找到您組織的Workfront計畫的指示，請參閱<a href="/help/quicksilver/administration-and-setup/get-started-wf-administration/firewall-overview.md#view-your-organizations-cluster-and-workfront-plan" class="MCXref xref">檢視您組織的叢集和Workfront計畫</a>。</li></ul> </td> 
+   <li>如需Workfront管理員如何找到您組織的Workfront計畫的指示，請參閱<a href="/help/quicksilver/administration-and-setup/get-started-wf-administration/firewall-overview.md#view-your-organizations-cluster-and-workfront-plan" class="MCXref xref">檢視您組織的叢集和Workfront計畫</a>。</li><li>如需有關新Workfront計畫的詳細資訊，請參閱<a href="https://business.adobe.com/products/workfront/pricing.html">Adobe Workfront定價與封裝</a>。</li></ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront授權</td> 
