@@ -9,10 +9,10 @@ description: 您可以使用Adobe Workfront面板聯結器在Workfront面板中�
 author: Becky
 feature: Workfront Fusion, Workfront Integrations and Apps
 exl-id: 0b4a25f7-a8f1-47f4-8929-7eff82f1dfdc
-source-git-commit: 7003ea4b6daba68957ef0ec501ecfd4a8d750d4c
+source-git-commit: 0b7b63df57c9e99fb782c59af55d1165283dd634
 workflow-type: tm+mt
-source-wordcount: '2591'
-ht-degree: 1%
+source-wordcount: '2631'
+ht-degree: 0%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->此聯結器目前在Beta中。
+>主機板Fusion聯結器處於測試版狀態。 因此，此聯結器的支援有限，而且可能會因主機板的未來開發而變更。 此外，GraphQL API可能會有所變更，恕不另行通知，這可能會影響您的Fusion聯結器程式。
 
 Adobe Workfront展示板是彈性的工具，可讓團隊透過提供對包含欄和卡片的共用展示板的存取權進行共同作業。
 

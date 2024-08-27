@@ -2,19 +2,19 @@
 filename: boards-video-demonstrations
 content-type: reference
 navigation-topic: boards
-title: Adobe Workfront主機板影片示範
+title: Workfront主機板影片示範
 description: 這些影片會向您介紹Adobe Workfront中可用的各種版面，並示範如何在日常工作中使用版面。
 author: Lisa
 feature: Agile
 exl-id: 54a5fe37-7a0a-45b1-a0bb-c5e345d3f34d
-source-git-commit: 9ce75ec2daded7f53975857707a39d42a179ba0f
+source-git-commit: df4c2a73b5eb2498564bbf27aa92a297388562cd
 workflow-type: tm+mt
-source-wordcount: '347'
+source-wordcount: '345'
 ht-degree: 1%
 
 ---
 
-# Adobe Workfront主機板影片示範
+# Workfront主機板影片示範
 
 <!--Audited: 12/2023-->
 

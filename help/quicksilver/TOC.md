@@ -3,9 +3,9 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文件、教學課程和其他資源，了解如何在您的組織中實施並有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: f9abcd9ff4c80376bed229a1d65e0efcbfc332b0
+source-git-commit: bcabc57ace3c10f471139ebfb23be472758750be
 workflow-type: tm+mt
-source-wordcount: '14318'
+source-wordcount: '14317'
 ht-degree: 2%
 
 ---
@@ -1017,7 +1017,7 @@ ht-degree: 2%
    * [展示板概述](agile/boards-overview.md)
    * 開始使用Adobe Workfront {#boards-in-workfront}中的展示板
       * [開始使用面板：文章索引](agile/get-started-with-boards/get-started-with-boards.md)
-      * [Adobe Workfront主機板影片示範](/help/quicksilver/agile/get-started-with-boards/boards-video-demonstrations.md)
+      * [Workfront主機板影片示範](/help/quicksilver/agile/get-started-with-boards/boards-video-demonstrations.md)
       * [展示板早期功能選擇加入](agile/get-started-with-boards/boards-early-feature-opt-in.md)
       * [使用面板儀表板](agile/get-started-with-boards/use-boards-page.md)
       * [建立或編輯展示板](agile/get-started-with-boards/create-edit-board.md)

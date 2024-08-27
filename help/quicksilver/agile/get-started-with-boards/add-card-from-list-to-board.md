@@ -1,19 +1,19 @@
 ---
 product-area: agile-and-teams
 navigation-topic: get-started-with-boards
-title: 將現有任務或問題新增到Adobe Workfront展示板或工作流程
+title: 將現有任務或問題新增到Workfront展示板
 description: 您可以從清單或報告檢視將任何任務或問題新增到Adobe Workfront中的展示板。
 author: Lisa
 feature: Agile
 exl-id: 5e6fd681-8068-4091-9f42-0364b17e0465
-source-git-commit: 4e5bff5ad62dce8766072e04e3a2b89371a90f03
+source-git-commit: df4c2a73b5eb2498564bbf27aa92a297388562cd
 workflow-type: tm+mt
-source-wordcount: '619'
+source-wordcount: '600'
 ht-degree: 0%
 
 ---
 
-# 將現有任務或問題新增到[!DNL Adobe Workfront]展示板或工作流程
+# 將現有任務或問題新增到[!DNL Workfront]展示板
 
 >[!IMPORTANT]
 >
@@ -23,6 +23,8 @@ ht-degree: 0%
 
 ## 存取需求
 
++++ 展開以檢視本文中功能的存取需求。
+
 您必須具有下列存取權才能執行本文中的步驟：
 
 <table style="table-layout:auto">
@@ -30,25 +32,32 @@ ht-degree: 0%
  <col>
  <tbody>
   <tr>
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] 計畫*</strong></td>
+   <td role="rowheader">[!DNL Adobe Workfront] 計劃</td>
    <td> <p>任何</p> </td>
   </tr>
   <tr>
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] 授權*</strong></td>
-   <td> <p>[！UICONTROL Work]或更高版本</p> </td>
+   <td role="rowheader">[!DNL Adobe Workfront] 授權</td>
+   <td>
+   <p>新增：[！UICONTROL Standard]</p> 
+   <p>或</p>
+   <p>目前： [！UICONTROL Work]或更高版本</p>
+   </td>
   </tr>
   <tr>
-   <td role="rowheader"><strong>物件許可權</strong></td>
-   <td> <p>[！UICONTROL檢視]或更高的任務或問題許可權</p> <p>如需請求其他存取權的資訊，請參閱<a href="/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">請求物件</a>的存取權。</p> </td>
+   <td role="rowheader">物件許可權</td>
+   <td>[！UICONTROL檢視]或更高的任務或問題許可權 </td>
   </tr>
  </tbody>
 </table>
 
-&#42;若要瞭解您擁有的計畫、授權型別或存取權，請連絡您的[!DNL Workfront]管理員。
+如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
++++
 
 ## 從清單將現有任務或問題新增到展示板或工作流程
 
-1. 按一下[!DNL Adobe Workfront]右上角的&#x200B;**[!UICONTROL 主要功能表]**&#x200B;圖示![](assets/main-menu-icon.png)。
+{{step1-click-main-menu}}
+
 1. 選擇下列其中一項： **[!UICONTROL 專案]**、**[!UICONTROL 報告]**&#x200B;或&#x200B;**[!UICONTROL 儀表板]**。
 1. 前往專案、報告或儀表板，其中包含您要新增到展示板或工作流程的任務或問題。
 1. 選取一或多個任務或問題。
@@ -70,7 +79,8 @@ ht-degree: 0%
 
 ## 從物件詳細資料將現有任務或問題新增到展示板或工作流程
 
-1. 按一下[!DNL Adobe Workfront]右上角的&#x200B;**[!UICONTROL 主要功能表]**&#x200B;圖示![](assets/main-menu-icon.png)。
+{{step1-click-main-menu}}
+
 1. 按一下&#x200B;[!UICONTROL **專案**]，然後按一下專案名稱以開啟。
 1. 按一下左側面板中的&#x200B;[!UICONTROL **任務**]&#x200B;或&#x200B;[!UICONTROL **問題**]。
 1. 按一下要新增至展示板或工作流程的任務、子任務或問題。

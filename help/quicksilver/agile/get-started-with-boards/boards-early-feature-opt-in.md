@@ -2,19 +2,19 @@
 filename: boards-early-feature-opt-in
 content-type: reference
 navigation-topic: boards
-title: ' [!DNL Adobe Workfront] 面板的早期功能選擇加入'
+title: ' [!DNL Workfront] 面板的早期功能選擇加入'
 description: 閱讀本文章以瞭解 [!DNL Workfront Boards] 早期功能選擇加入。
 author: Lisa
 feature: Agile
 exl-id: c4a6b045-b0f3-4d4d-994c-c03ef7ad25c8
-source-git-commit: 3706921e4705a05d9d1fa18a3d242632b5e0616b
+source-git-commit: df4c2a73b5eb2498564bbf27aa92a297388562cd
 workflow-type: tm+mt
 source-wordcount: '626'
 ht-degree: 0%
 
 ---
 
-# [!DNL Adobe Workfront] [!UICONTROL 面板]的早期功能選擇加入
+# [!DNL Workfront] [!UICONTROL 面板]的早期功能選擇加入
 
 [!DNL Adobe Workfront] [!UICONTROL 面板]的早期功能選擇加入已於2022年7月啟動。
 
