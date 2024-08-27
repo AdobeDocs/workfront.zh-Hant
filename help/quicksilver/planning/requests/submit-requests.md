@@ -1,19 +1,18 @@
 ---
 title: 提交Adobe Workfront規劃請求
 description: 有人與您從Adobe Workfront Planning的記錄型別頁面共用請求表單的連結後，您可以新增請求以建立與請求表單相關聯記錄型別的記錄。
-hidefromtoc: true
-hide: true
+feature: Workfront Planning
+role: User, Admin
+author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: 18183b53c783366f467e7330159923372b51deb6
+source-git-commit: bffa5992a530761afe57ec62b4cbba2bf03ad1e6
 workflow-type: tm+mt
-source-wordcount: '612'
+source-wordcount: '659'
 ht-degree: 1%
 
 ---
 
 # 提交Adobe Workfront Planning請求以建立記錄
-
-<!--update the metadata with real information when making this available in TOC and in the left nav-->
 
 <!--update title when there will be more functionality added to the Planning requests, besides creating records-->
 
@@ -22,6 +21,10 @@ ht-degree: 1%
 有人與您從Adobe Workfront Planning的記錄型別頁面共用請求表單的連結後，您可以新增請求以建立與請求表單相關聯記錄型別的記錄。
 
 Workfront使用者與外部使用者可以提交請求給Planning記錄型別並建立記錄。<!--double check on the external users-->
+
+本文說明如何提交請求，將新記錄新增至記錄型別。
+
+如需工作區管理員如何建立請求表單並將其與記錄型別關聯的資訊，請參閱[在Adobe Workfront Planning中建立和管理請求表單](/help/quicksilver/planning/requests/create-request-form.md)。
 
 ## 存取需求
 
@@ -57,7 +60,6 @@ Workfront使用者與外部使用者可以提交請求給Planning記錄型別並
    <td>
 <p>任何 </p>  
 <p>如需每個Workfront Planning計畫包含哪些專案的詳細資訊，請參閱<a href="https://business.adobe.com/products/workfront/pricing.html">Adobe Workfront定價與封裝</a>。 </td>
-
 <tr>
    <td role="rowheader"><p>Adobe Workfront平台</p></td>
    <td>
@@ -110,7 +112,7 @@ Workfront使用者與外部使用者可以提交請求給Planning記錄型別並
 * 請求表單必須以您可以存取的方式與連結共用。 存在下列情況：
 
    * 如果您有Workfront帳戶，連結僅與內部人員共用，而您可以存取工作區。 Workfront以外的人員無法存取內部共用的連結。
-   * 如果您沒有Workfront帳戶，連結已和外部人員共用。 Workfront使用者也可以使用與外部人員共用的連結。
+   * 如果您沒有Workfront帳戶，連結已和外部人員共用。 Workfront使用者也可以存取與外部人員共用的連結。
 
 * 表單的連結不可過期。
 

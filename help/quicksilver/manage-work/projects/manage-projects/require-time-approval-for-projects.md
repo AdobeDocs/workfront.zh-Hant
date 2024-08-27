@@ -6,18 +6,16 @@ description: 專案需要時間核准
 author: Alina
 feature: Work Management
 exl-id: e4a27640-9f5c-4a9f-82cc-3384694594af
-source-git-commit: dc3461803e23f61877c31efa2c52fffdc7bd79bf
+source-git-commit: bffa5992a530761afe57ec62b4cbba2bf03ad1e6
 workflow-type: tm+mt
-source-wordcount: '758'
+source-wordcount: '761'
 ht-degree: 0%
 
 ---
 
 # 專案需要時間核准
 
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: THIS IS LINKED TO THE UI IN A TOOLTIP IN THE EDIT PROJECT MODAL) </p>
--->
+<!--audited: 08/2024-->
 
 您可以設定專案，要求專案擁有者核准針對專案記錄的時數。 若以此方式設定，時數必須先由專案所有者核准，然後才能有資格用於計費記錄。\
 如需有關付費記錄的詳細資訊，請參閱文章[建立付費記錄](../../../manage-work/projects/project-finances/create-billing-records.md)。
@@ -40,19 +38,22 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront授權*</td> 
-   <td> <p>專案需要核准時間的計畫</p>
-   <p>審查或更高以核准專案上記錄的時數</p>
+   <td> <p>若要在專案上要求核准時間：</p>
+   <ul><li>新增：標準</li>
+   <li>目前：計畫</li></ul>
+
+<p>若要核准專案上記錄的時數：</p>
+   <ul><li>新增：淺色或更高</li>
+   <li>評論或以上</li>
     </td> 
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定*</td> 
-   <td> <p>編輯專案或更高版本的存取權</p> <p><b>附註</b>
-
-如果您還是沒有存取權，請詢問您的Workfront管理員，他們是否在您的存取層級中設定其他限制。 如需Workfront管理員如何變更存取層級的詳細資訊，請參閱<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>。</p> </td>
-</tr> 
+   <td> <p>編輯專案或更高版本的存取權</p>  </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">物件許可權</td> 
-   <td> <p>檢視專案或以上版本的許可權</p> <p>如需請求其他存取權的資訊，請參閱<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">請求物件</a>的存取權。</p> </td> 
+   <td> <p>檢視專案或以上版本的許可權</p>
   </tr> 
   <tr> 
    <td role="rowheader">其他存取權</td> 
@@ -63,7 +64,7 @@ ht-degree: 0%
        <li>如果您擁有專案的管理許可權，您可以核准或拒絕任何其他使用者在專案上記錄的時數。</li>
        <li> 如果您擁有Contribute或專案的檢視存取權，則只能核准或拒絕您或任何其他回報您的使用者所記錄的時數。<br></li>
       </ul></li> 
-     <li>您擁有對時程表和時數具有管理存取權的計畫授權。 在此案例中：
+     <li>您擁有對時程表和時數具有管理存取權的計畫授權。 在此案例中：
       <ul>
        <li>您可以核准或拒絕您至少擁有檢視許可權之專案的任何時數。 </li>
       </ul></li> 
@@ -72,7 +73,7 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-&#42;若要瞭解您擁有的計畫、授權型別或存取權，請連絡您的Workfront管理員。
+*如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 ## 專案需要時間核准
 
@@ -90,22 +91,27 @@ ht-degree: 0%
 
 作為專案經理，您可以核准或拒絕為任務、問題或專案記錄的小時數。
 
-在專案層級核準時數，並不會對記錄時數之任何使用者的時程表造成任何影響。 例如，專案中的時數可能由專案經理核准，但時程表尚未由使用者的經理或時程表核准者核准。 
+在專案層級核準時數，並不會對記錄時數之任何使用者的時程表造成任何影響。 例如，專案中的時數可能由專案經理核准，但時程表尚未由使用者的經理或時程表核准者核准。
 
 如果您將專案設定為需要核准記錄的時數，專案經理必須核準時數，才能將其納入專案的計費記錄中。 如需有關建立付費記錄的詳細資訊，請參閱文章[建立付費記錄](../../../manage-work/projects/project-finances/create-billing-records.md)。
 
 若要核准或拒絕專案的時數：
 
 1. 前往專案。
-1. 按一下左側面板中的&#x200B;**小時**&#x200B;區域。 這可能位於&#x200B;**顯示更多**&#x200B;區域下。
+1. 按一下左側面板中的&#x200B;**小時**&#x200B;區域。 這可能位於&#x200B;**顯示更多**&#x200B;區域下。
 
 1. 為問題、任務和專案顯示所記錄的時數，其狀態應為&#x200B;**已提交**。\
    按一下小時專案左側的方塊，以選取您要核准的小時。
 
-1. 按一下&#x200B;**核准**。\
+1. 按一下小時清單頂端的&#x200B;**核准**&#x200B;圖示![](assets/approve-hours-icon.png)。\
    時數的狀態變更為&#x200B;**已核准**。\
    如果您稍後拒絕核准的時數，時數的狀態會變更為&#x200B;**未核准**。\
    當您在付費記錄中包含核准的時數時，時數的狀態會變更為&#x200B;**已付費和已核准**。 無法刪除新增到計費記錄的時數。 如需有關建立付費記錄的詳細資訊，請參閱文章[建立付費記錄](../../../manage-work/projects/project-finances/create-billing-records.md)
 
-1. （選擇性）按一下&#x200B;**拒絕**&#x200B;以拒絕專案上的時間專案。\
+1. （選擇性）按一下&#x200B;**拒絕**&#x200B;圖示![](assets/reject-hours-icon.png)以拒絕專案上的時間專案。\
    時數的狀態變更為&#x200B;**已拒絕**。
+
+   >[!NOTE]
+   >
+   >   如果您選取的時數包含在已標示為「已記帳」或「已記帳且已核准」的記帳記錄中，則不會顯示「核准」和「拒絕」圖示。 您只能核准計費記錄中未計費的時數。
+

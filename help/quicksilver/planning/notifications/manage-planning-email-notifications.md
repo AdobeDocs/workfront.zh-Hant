@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 3c505b3a-cda7-4e7b-b497-28b820e9bb8f
-source-git-commit: f8ad026582be5b4c89939af8f135151ffaabccfe
+source-git-commit: bffa5992a530761afe57ec62b4cbba2bf03ad1e6
 workflow-type: tm+mt
-source-wordcount: '363'
+source-wordcount: '418'
 ht-degree: 1%
 
 ---
@@ -21,19 +21,11 @@ ht-degree: 1%
 當存在以下情況時，您可以從Workfront Planning接收電子郵件通知：
 
 * 有人在記錄註解中為您加上標籤
-<!--
-* Someone asks for your permission to access a view or a workspace
-* Someone confirms your access has been granted for a view or a workspace
-* Someone has denied your access for a view or a workspace. -->
 
-
->[!IMPORTANT]
->
->貴公司必須是Adobe統一體驗客戶，才能接收來自Workfront Planning的通知。
->
->如需詳細資訊，請參閱[Workfront的Adobe統一體驗](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md)。
-
-如需有關在記錄註解中標籤其他人的資訊，請參閱[管理記錄註解](/help/quicksilver/planning/records/manage-record-comments.md)。
+  如需有關在記錄註解中標籤其他人的資訊，請參閱[管理記錄註解](/help/quicksilver/planning/records/manage-record-comments.md)。
+* 有人向您要求存取檢視或工作區的許可權
+* 有人確認已授予您檢視或工作區的存取權<!--verify this-->
+* 有人已拒絕您對檢視或工作區的存取權。<!--verify this-->
 
 ## 存取需求
 
@@ -160,7 +152,7 @@ OLD:
 -->
 
 
-## 管理電子郵件通知<!--when someone tags you in a comment-->
+## 當有人在評論中標籤您時管理電子郵件通知
 
 1. （視條件而定）有人在記錄上的評論中標籤您後，請移至通知您標籤和評論的電子郵件通知。 電子郵件的寄件者為Adobe Experience Cloud。
 
@@ -173,8 +165,6 @@ OLD:
 1. （視條件而定）如果可用，請按一下&#x200B;**檢視所有通知**。 <!--check with Lilit - do non-IMS users have this button??-->
 **通知**&#x200B;頁面會在Adobe Experience Cloud中開啟。 會顯示所有Adobe Experience Cloud應用程式的所有通知。
 
-<!--
-## Manage email notifications when requesting, granting, or denying permissions to a view or a workspace
+## 請求、授與或拒絕檢視或工作區的許可權時管理電子郵件通知
 
-For information about requesting, granting, or denying permissions to a view or a workspace, see [Request permissions to a view or a workspace](/help/quicksilver/planning/access/request-permissions.md). 
--->
+如需有關要求、授與或拒絕檢視或工作區許可權的資訊，請參閱[要求檢視或工作區的許可權](/help/quicksilver/planning/access/request-permissions.md)。

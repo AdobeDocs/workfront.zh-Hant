@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: cf42511263ec1cffd90d1e4bdcd43521b7fe6a30
+source-git-commit: bffa5992a530761afe57ec62b4cbba2bf03ad1e6
 workflow-type: tm+mt
-source-wordcount: '2708'
+source-wordcount: '2786'
 ht-degree: 3%
 
 ---
@@ -180,6 +180,7 @@ OLD:
    * [篩選器](#add-filters)
    * [分組](#add-groupings)
    * [排序](#add-a-sort)
+   * [啟用即時顯示狀態指示器](#enable-the-real-time-presence-indicator)
 
 
 ### 新增欄（或欄位） {#add-columns}
@@ -523,3 +524,11 @@ To sort grouped records:
 1. ************************* add steps here for sorting grouped records****************
 
 -->
+
+### 啟用即時顯示狀態指示器
+
+根據預設，當您編輯記錄資訊的同時，其他使用者的頭像會顯示在所有記錄檢視的右上角。
+
+當您顯示表格檢視時，也可以檢視另一個使用者在您檢視記錄時正在編輯的欄位。
+
+如需詳細資訊，請參閱文章[管理記錄檢視](/help/quicksilver/planning/views/manage-record-views.md)中的「啟用即時顯示狀態指示器」一節。

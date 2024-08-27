@@ -5,9 +5,9 @@ author: Alina
 feature: Workfront Planning
 role: User, Admin
 exl-id: 7a65d66e-a578-4016-805e-0cb04caaa18a
-source-git-commit: 3fe348250dae1af6cbb74c3704bc396d90ac378a
+source-git-commit: bffa5992a530761afe57ec62b4cbba2bf03ad1e6
 workflow-type: tm+mt
-source-wordcount: '559'
+source-wordcount: '594'
 ht-degree: 0%
 
 ---
@@ -83,12 +83,10 @@ ht-degree: 0%
    * 共用記錄
    * Workfront物件的Workfront規劃區段
 
-<!--
-* [Adobe Workfront Planning Requests: article index](/help/quicksilver/planning/requests/requests-article-index.md) contains the following information:
+* [Adobe Workfront規劃要求：文章索引](/help/quicksilver/planning/requests/requests-article-index.md)包含下列資訊：
 
-    * How to create a request form for a record type.
-    * How users can submit a request to a record type request form and create records. 
--->
+   * 如何建立記錄型別的請求表單。
+   * 使用者如何將請求提交至記錄型別請求表單並建立記錄。
 
 * [檢視：文章索引](/help/quicksilver/planning/views/views-information.md)包含下列資訊：
 

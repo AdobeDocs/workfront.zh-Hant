@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: 83c716dea3815ed9a2ce4c3d0598ef42b128de87
+source-git-commit: bffa5992a530761afe57ec62b4cbba2bf03ad1e6
 workflow-type: tm+mt
-source-wordcount: '3451'
+source-wordcount: '3609'
 ht-degree: 2%
 
 ---
@@ -449,34 +449,31 @@ OLD:
    >
    >* 您可以參考與目前記錄型別相距最多4個層級的欄位。 例如，如果您正在建立「活動」記錄型別的公式欄位，且「活動」已連線至「產品」記錄型別，而該記錄型別已連線至「行銷活動」記錄型別，而該記錄型別已連線至「Workfront專案」，則您可以在針對「活動」記錄型別建立的公式中參考專案的「預算」。
 
-<!--1. In the **Format** field, select from the following choices to identify the format of the result displayed in the formula-type field:
+1. 在&#x200B;**格式**&#x200B;欄位中，從下列選項中選取，以識別公式型別欄位中顯示結果的格式：
 
-    * **Text**: The result of the formula field displays as plain text. 
-    * **Number**: The result of the formula field displays as a number. 
-    * **Percent**: The result of the formula field displays as a number followed by a percentage symbol.  
-    * **Currency**: The result of the formula field displays as a number preceded or followed by a currency symbol.  
-    * **Tags**: The result of the formula field displays as a tag with the object's name. 
-    
-        >[!TIP]
-        >
-        >Tags is the perfect format for fields that show arrays. In this case, each array member displays as a separate tag.
+   * **文字**：公式欄位的結果顯示為純文字。
+   * **數字**：公式欄位的結果顯示為數字。
+   * **百分比**：公式欄位的結果顯示為後面跟著百分比符號的數字。
+   * **貨幣**：公式欄位的結果顯示為前面或後面跟著貨幣符號的數字。
+   * **標籤**：公式欄位的結果會以標籤與物件名稱一起顯示。
 
-    * **Date**: The result of the formula field displays as a date. 
+     >[!TIP]
+     >
+     >我們建議將標籤用於顯示陣列的欄位。 在這種情況下，每個陣列成員都會顯示為個別標籤。
 
+     ![](assets/formula-field-formats-list-with-tag-selected-highlighted.png)
 
-        A preview of what the result will look like displays under the **Format** field. 
+   * **日期**：公式欄位的結果顯示為日期。
 
-        ![](assets/formula-field-formats-list-with-tag-selected-highlighted.png)
+     結果預覽會顯示在&#x200B;**格式**&#x200B;欄位下。
 
-        >[!WARNING]
-        >
-        >If the result of the formula does not match the selected format, the field will show an error message where it displays. 
+     >[!WARNING]
+     >
+     >如果公式的結果不符合所選的格式，則欄位將顯示錯誤訊息。
 
--->
 1. 按一下「**建立**」。
 
    新的公式欄位會新增為記錄型別的欄，其值可以與記錄相關聯。
-
 
 ### 人員
 

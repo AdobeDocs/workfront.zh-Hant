@@ -5,9 +5,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: a6eb8c7c-a34d-4c84-a45c-7e7f050a4302
-source-git-commit: f8ad026582be5b4c89939af8f135151ffaabccfe
+source-git-commit: bffa5992a530761afe57ec62b4cbba2bf03ad1e6
 workflow-type: tm+mt
-source-wordcount: '355'
+source-wordcount: '413'
 ht-degree: 1%
 
 ---
@@ -17,15 +17,14 @@ ht-degree: 1%
 
 {{planning-important-intro}}
 
-當有人在記錄評論中標籤您時，您可能會收到該標籤的應用程式內通知。
+當存在以下情況時，您可以從Workfront Planning接收應用程式內通知：
 
->[!IMPORTANT]
->
->貴公司必須是Adobe統一體驗客戶，才能接收來自Workfront Planning的通知。
->
->如需詳細資訊，請參閱[Workfront的Adobe統一體驗](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md)。
+* 有人在記錄註解中為您加上標籤
 
-如需有關在記錄註解中標籤其他人的資訊，請參閱[管理記錄註解](/help/quicksilver/planning/records/manage-record-comments.md)。
+  如需有關在記錄註解中標籤其他人的資訊，請參閱[管理記錄註解](/help/quicksilver/planning/records/manage-record-comments.md)。
+* 有人向您要求存取檢視或工作區的許可權
+* 有人確認已授予您檢視或工作區的存取權<!--verify this-->
+* 有人已拒絕您對檢視或工作區的存取權。<!--verify this-->
 
 ## 存取需求
 
@@ -158,7 +157,7 @@ OLD:
 +++
 -->
 
-## 管理應用程式內通知
+## 當有人在評論中標籤您時管理應用程式內通知
 
 1. （視條件而定）有人將您標籤為記錄中的評論後，請前往Adobe Experience Cloud中的應用程式內&#x200B;**通知**&#x200B;圖示![](assets/experience-cloud-notifications-icon.png)。
 
@@ -170,3 +169,8 @@ OLD:
 
 1. （選擇性）按一下&#x200B;**全部標示為已讀取**，表示您已讀取所有通知。
 1. （選擇性）按一下「檢視全部&#x200B;**」，移至Adobe Experience Cloud中的**&#x200B;通知&#x200B;**頁面。**
+
+
+## 要求、授與或拒絕檢視或工作區的許可權時，管理應用程式內通知
+
+如需有關要求、授與或拒絕檢視或工作區許可權的資訊，請參閱[要求檢視或工作區的許可權](/help/quicksilver/planning/access/request-permissions.md)。

@@ -1,10 +1,11 @@
 ---
 title: 「Adobe Workfront規劃請求：文章索引」
 description: 您可以為每個記錄型別建立請求表單，與使用者共用，他們可以通過填寫並提交表單來新增記錄。
-hidefromtoc: true
-hide: true
+feature: Workfront Planning
+role: User, Admin
+author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: 80d9fc7f8cf28de8dbb8f1c53835940142681906
+source-git-commit: bffa5992a530761afe57ec62b4cbba2bf03ad1e6
 workflow-type: tm+mt
 source-wordcount: '85'
 ht-degree: 0%
@@ -14,8 +15,6 @@ ht-degree: 0%
 # Adobe Workfront規劃請求：文章索引
 
 您可以為每個記錄型別建立請求表單，與使用者共用，他們可以通過填寫並提交表單來新增記錄。
-
-<!--update the metadata with real information when making this available in TOC and in the left nav-->
 
 本節包含下列文章：
 

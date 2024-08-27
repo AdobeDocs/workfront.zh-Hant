@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 5027d611-916e-492d-9a44-841bdde11c94
-source-git-commit: 83c716dea3815ed9a2ce4c3d0598ef42b128de87
+source-git-commit: bffa5992a530761afe57ec62b4cbba2bf03ad1e6
 workflow-type: tm+mt
-source-wordcount: '553'
+source-wordcount: '590'
 ht-degree: 7%
 
 ---
@@ -162,17 +162,16 @@ OLD:
 * 儲存公式欄位後，您可以更新公式欄位的計算，而計算結果會自動更新相同型別的所有記錄。
 * 您必須在Workfront Planning介面中顯示的公式中，新增您參考的欄位。
 * 您只能參考顯示在記錄型別表格檢視或記錄詳細資訊頁面上的欄位。
-<!--* You can format the result of a formula calculation by choosing from the following options:
+* 您可以從下列格式選項中選擇，以定義公式計算值的格式：
 
-   * Text
-   * Number
-   * Percent
-   * Currency
-   * Tags
-   * Date
+   * 文字
+   * 數字
+   * 百分比
+   * 貨幣
+   * 標記
+   * 日期
 
-   For more information, see the "Formula" section in the article [Create fields](/help/quicksilver/planning/fields/create-fields.md). -->
-
+  如需詳細資訊，請參閱文章[建立欄位](/help/quicksilver/planning/fields/create-fields.md)中的「公式」一節。
 
 ## 支援的公式
 

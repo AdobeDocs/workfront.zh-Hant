@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: cf42511263ec1cffd90d1e4bdcd43521b7fe6a30
+source-git-commit: bffa5992a530761afe57ec62b4cbba2bf03ad1e6
 workflow-type: tm+mt
-source-wordcount: '1194'
+source-wordcount: '1368'
 ht-degree: 1%
 
 ---
@@ -37,6 +37,7 @@ ht-degree: 1%
 * [建立及編輯檢視](#create-or-edit-record-views)
 * [刪除檢視](#delete-views)
 * [複製檢視](#duplicate-views)
+* [在檢視中啟用即時狀態指示器](#enable-the-real-time-presence-indicator-in-a-view)
   <!--* [Add a view as a favorite](#add-a-view-as-a-favorite) - not possible yet-->
 
 
@@ -343,3 +344,22 @@ ht-degree: 1%
 
    檢視重複，新檢視的名稱遵循下列模式： `Original view's name (Copy)`。 新的檢視標籤會顯示在所有檢視標籤的末尾。
 
+## 在檢視中啟用即時顯示狀態指示器
+
+根據預設，當您編輯記錄資訊的同時，其他使用者的頭像會顯示在所有記錄檢視的右上角。
+
+當您顯示表格檢視時，也可以檢視另一個使用者在您檢視記錄時正在編輯的欄位。
+
+1. 移至記錄型別頁面並開啟任何檢視。
+1. （視條件而定）如果有其他使用者同時編輯所選型別的記錄，則其頭像會顯示在檢視的右上角。
+1. 按一下頭像旁的下拉式功能表，選取「**顯示共同作業人員**」切換按鈕。 依預設，會選取切換。
+
+   ![](assets/show-collaborators-toggle-selected.png)
+
+1. （視條件而定）開啟表格檢視，其他人正在編輯的欄位會以與其在表格檢視中頭像輪廓相對應的顏色外框。
+
+   ![](assets/real-time-indicator-table-field-and-avatar-connection.png)
+
+   >[!TIP]
+   >
+   >您可以從任何檢視中選取&#x200B;**顯示共同作業人員**&#x200B;切換按鈕。 已編輯的欄位僅會在表格檢視中外框。

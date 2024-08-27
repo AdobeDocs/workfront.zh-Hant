@@ -4,10 +4,11 @@ title: 「24.10版的Adobe Workfront規劃發行活動」
 description: 這是2024年第四季度Adobe Workfront規劃產品的發行活動。
 author: Alina
 feature: Product Announcements
+role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: f9abcd9ff4c80376bed229a1d65e0efcbfc332b0
+source-git-commit: eeebc09c16c2c0d5a624dc57ae8603fb525d29c1
 workflow-type: tm+mt
-source-wordcount: '191'
+source-wordcount: '291'
 ht-degree: 0%
 
 ---
@@ -40,6 +41,16 @@ ht-degree: 0%
 >
 >預覽和生產版本： 2024年8月28日
 
-除了其Workfront授權外，所有已購買Workfront Planning授權的客戶都可使用Workfront Planning。 如需有關Workfront規劃的詳細資訊，請聯絡您的客戶代表。
+Adobe Workfront規劃是Adobe Workfront的新產品。 Workfront Planning的目的在於全面掌握組織的營運細節，並回答工作管理生命週期各階段的關鍵業務問題。
+
+以下是Adobe Workfront Planning的部分主要功能：
+
+* 解決跨所有階段以及參與工作流程的所有利害關係人計畫工作的問題。
+
+* 完全自訂您的工作流程，從決定您的組織使用哪些物件型別（或記錄型別），到設定這些物件的相互連線方式。
+
+* 從其他系統連線到物件型別，為所有處理程式建立一致的架構。
 
 如需Workfront Planning的詳細資訊，請參閱[Adobe Workfront Planning概觀](/help/quicksilver/planning/general/planning-overview.md)。
+
+如需在此項啟動之前發行給Workfront Planning之功能的相關資訊，另請參閱[Adobe Workfront Planning 2024年發行活動](/help/quicksilver/planning/general/release-activity.md)。

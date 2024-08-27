@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: cf42511263ec1cffd90d1e4bdcd43521b7fe6a30
+source-git-commit: bffa5992a530761afe57ec62b4cbba2bf03ad1e6
 workflow-type: tm+mt
-source-wordcount: '1336'
+source-wordcount: '1450'
 ht-degree: 0%
 
 ---
@@ -23,11 +23,11 @@ ht-degree: 0%
 
 您可以執行下列其中一項作業來建立記錄：
 
-* 從表格檢視中的記錄型別頁面新增它們
+* 從表格檢視中的記錄型別頁面新增記錄
 * 從外部清單複製並貼上記錄清單
-* 複製它們
-* 當您從其他記錄連線它們時建立它們
-  <!--* Create them by submitting a request form-->
+* 從表格檢視複製記錄
+* 從其他記錄連線記錄時建立記錄
+* 透過提交請求表單到記錄型別來建立它們
 
 本文會介紹如何建立記錄。
 
@@ -165,8 +165,7 @@ ht-degree: 0%
 
 +++
 
-
-## 將記錄新增至記錄型別<!--in a record type table (I don't think you can create them elsewhere right now)-->以建立記錄
+## 將記錄新增至記錄型別表格中的記錄型別以建立記錄
 
 您可以在記錄型別頁面的表格檢視中建立記錄。
 
@@ -311,13 +310,12 @@ You can import records from other applications by linking them to existing recor
 或
 按一下其名稱以開啟詳細資訊頁面並在其中新增資訊。
 
-<!--
-## Create records by submitting a request form
+## 透過向記錄型別提交請求表單來建立記錄
 
-After someone creates a request form for a record type and shares a link to it with you, you can submit a request which creates a record for that record type. 
+當有人建立記錄型別的請求表單並與您共用連結後，您可以提交建立該記錄型別記錄的請求。
 
-For information, see [Create and manage a request form in Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
+如需詳細資訊，請參閱[在Adobe Workfront Planning中建立和管理要求表單](/help/quicksilver/planning/requests/create-request-form.md)。
 
-Both Workfront users and users external to your organization can submit requests to Planning record types and create records, if they have a link to the request form.
+如果您的Workfront使用者與組織外部的使用者具有請求表單的連結，則他們皆可提交請求給Planning記錄型別並建立記錄。
 
-For information, see [Submit Adobe Workfront Planning requests to create records](/help/quicksilver/planning/requests/submit-requests.md). -->
+如需詳細資訊，請參閱[提交Adobe Workfront Planning要求以建立記錄](/help/quicksilver/planning/requests/submit-requests.md)。

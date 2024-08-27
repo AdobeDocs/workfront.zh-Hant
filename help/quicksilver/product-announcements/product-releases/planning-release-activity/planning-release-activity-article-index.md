@@ -4,8 +4,9 @@ title: 「Adobe Workfront規劃發行活動：文章索引」
 description: 這是Adobe Workfront Planning產品的發行活動。
 author: Alina
 feature: Product Announcements
+role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: f8ad026582be5b4c89939af8f135151ffaabccfe
+source-git-commit: eeebc09c16c2c0d5a624dc57ae8603fb525d29c1
 workflow-type: tm+mt
 source-wordcount: '145'
 ht-degree: 0%

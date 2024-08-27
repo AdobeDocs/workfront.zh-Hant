@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: cf42511263ec1cffd90d1e4bdcd43521b7fe6a30
+source-git-commit: bffa5992a530761afe57ec62b4cbba2bf03ad1e6
 workflow-type: tm+mt
-source-wordcount: '1833'
+source-wordcount: '1868'
 ht-degree: 0%
 
 ---
@@ -187,6 +187,10 @@ ht-degree: 0%
 * [從Planning區段中的Workfront物件](#edit-a-record-from-a-workfront-object-in-the-planning-section)
 
 ### 在記錄型別的表格檢視中編輯內嵌記錄
+
+當您從表格檢視編輯記錄時，會顯示您檢視記錄時其他使用者正在編輯哪個欄位。
+
+如需詳細資訊，請參閱[管理記錄檢視](/help/quicksilver/planning/views/manage-record-views.md)。
 
 {{step1-to-planning}}
 

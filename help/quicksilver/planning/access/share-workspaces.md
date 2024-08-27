@@ -5,9 +5,9 @@ author: Alina
 feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 83c716dea3815ed9a2ce4c3d0598ef42b128de87
+source-git-commit: bffa5992a530761afe57ec62b4cbba2bf03ad1e6
 workflow-type: tm+mt
-source-wordcount: '490'
+source-wordcount: '668'
 ht-degree: 2%
 
 ---
@@ -186,29 +186,27 @@ OLD:
 1. 與他人共用複製的連結。 收到連結的使用者必須是作用中使用者，並登入Workfront才能存取工作區。
 1. 按一下「**儲存**」。
 
-<!--
-## Grant permissions to a workspace from a permission request
+## 透過許可權請求向工作區授予許可權
 
-Users who access a link to a workspace to which they do not have permissions can request permissions to the workspace. All users with Manage permissions to the workspace receive the permission request and can grant or deny the permissions. 
+使用者若存取連結至沒有許可權的工作區，可以要求存取工作區的許可權。 所有具有工作區管理許可權的使用者都會收到許可權要求，並可授予或拒絕許可權。
 
-1. (Conditional) If you are are the manager of a workspace, you might receive a request from another user to access the view in the following areas:
-   
-   * An in-app notification
-      ![](assets/in-app-notification-for-access-request.png)
-   * An email notification
-      ![](assets/email-notification-for-access-request.png)
-1. (Conditional) From the notification area in Workfront, click the in-app notification
-   Or
-   From the email notification, click **View all notifications**, then click the notification in the list.
+1. （視條件而定）如果您是工作區的管理員，您可能會收到其他使用者存取下列區域檢視的請求：
 
-   The **Pending access requests** box displays. 
+   * 應用程式內通知
+     ![](assets/in-app-notification-for-access-request.png)
+   * 電子郵件通知
+     ![](assets/email-notification-for-access-request.png)
+1. （視條件而定）從Workfront的通知區域，按一下應用程式內通知
+或
+在電子郵件通知中，按一下**檢視所有通知**，然後按一下清單中的通知。
 
-      ![](assets/notifications-list-approval-box.png)
-1. Select the user for whom you want to approve or deny the permission, then click **Approve all** or **Deny all**. 
-1. Click the left-pointing arrow to the left of **Pending access requests**, then click **Save**.
+   顯示&#x200B;**擱置中的存取要求**&#x200B;方塊。
 
-   If you approved the request, the users are added to the sharing box of the workspace. 
--->
+   ![](assets/notifications-list-approval-box.png)
+1. 選取您要核准或拒絕許可權的使用者，然後按一下&#x200B;**全部核准**&#x200B;或&#x200B;**全部拒絕**。
+1. 按一下&#x200B;**擱置存取要求**&#x200B;左側的向左箭頭，然後按一下&#x200B;**儲存**。
+
+   如果您已核准請求，使用者會新增至工作區的共用方塊。 請求許可權的使用者會收到一封電子郵件，確認其請求已核准。<!--will they also get an in-app notification??-->
 
 
 ## 移除工作區的許可權

@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User
 recommendations: noDisplay, noCatalog
 exl-id: ec549a61-095c-433f-80e2-1be5c0a05180
-source-git-commit: f8ad026582be5b4c89939af8f135151ffaabccfe
+source-git-commit: bffa5992a530761afe57ec62b4cbba2bf03ad1e6
 workflow-type: tm+mt
-source-wordcount: '363'
+source-wordcount: '431'
 ht-degree: 1%
 
 ---
@@ -18,7 +18,11 @@ ht-degree: 1%
 
 {{planning-important-intro}}
 
-當有人將您新增至記錄頁面中的評論時，您會收到應用程式內以及有關評論的電子郵件通知。
+Workfront Planning中發生下列動作時，您可能會收到應用程式內或電子郵件通知：
+
+* 有人將您新增至記錄頁面上的註解
+* 某人要求存取檢視或工作區的許可權
+* 有人授予或拒絕您存取檢視或工作區<!--test this - could not test before GA-->的許可權
 
 ## 存取需求
 
@@ -90,6 +94,12 @@ ht-degree: 1%
 
 +++
 
+
+如需Workfront Planning通知的詳細資訊，另請參閱下列文章：
+
+* 如需有關記錄的註解資訊，請參閱[管理記錄註解](/help/quicksilver/planning/records/manage-record-comments.md)。
+* 如需有關來自Workfront Planning的應用程式內通知的資訊，請參閱[管理Adobe Workfront Planning的應用程式內通知](/help/quicksilver/planning/notifications/manage-planning-in-app-notifications.md)。
+* 如需Workfront Planning電子郵件通知的相關資訊，請參閱[管理Adobe Workfront Planning的電子郵件通知](/help/quicksilver/planning/notifications/manage-planning-email-notifications.md)。
 <!--
 
 OLD: 
@@ -152,16 +162,18 @@ OLD:
 
 1. 使用您的Adobe Experience Cloud憑證登入Workfront。
 1. 按一下熒幕右上角的&#x200B;**帳戶功能表**&#x200B;圖示![](assets/account-menu-icon-on-experience-cloud.png)，然後按一下&#x200B;**偏好設定**。
-1. 在&#x200B;**通知**&#x200B;區段下，按一下&#x200B;**Workfront**，然後依照下列文章中的步驟管理您的Workfront Planning通知偏好設定：
-   [帳戶偏好設定和通知](https://experienceleague.adobe.com/en/docs/core-services/interface/features/account-preferences)。
+1. 在&#x200B;**通知**&#x200B;區段下，按一下&#x200B;**Workfront**。
+1. 選取您要收到的通知。
+或
+取消選取您要停止接收的通知。
 
-如需Workfront Planning通知的詳細資訊，另請參閱下列文章：
+   ![](assets/adobe-experience-cloud-notifications-panel-for-workfront-planning.png)
+1. Workfront提供下列通知：
 
-* 如需有關記錄的註解資訊，請參閱[管理記錄註解](/help/quicksilver/planning/records/manage-record-comments.md)。
-* 如需有關來自Workfront Planning的應用程式內通知的資訊，請參閱[管理Adobe Workfront Planning的應用程式內通知](/help/quicksilver/planning/notifications/manage-planning-in-app-notifications.md)。
-* 如需Workfront Planning電子郵件通知的相關資訊，請參閱[管理Adobe Workfront Planning的電子郵件通知](/help/quicksilver/planning/notifications/manage-planning-email-notifications.md)。
+   * **提及**：當有人在Workfront Planning的評論中為您加上標籤時，您會收到通知
+   * **請求**：當有人請求Workfront規劃物件的許可權時，您會收到通知
 
-
+   如需有關管理通知的詳細資訊，請參閱[帳戶偏好設定和通知](https://experienceleague.adobe.com/en/docs/core-services/interface/features/account-preferences)。
 
 <!--OLD: notifications are not available to non-IMS customers: 
 

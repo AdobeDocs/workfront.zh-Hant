@@ -1,12 +1,13 @@
 ---
 title: 在Adobe Workfront Planning中建立和管理請求表單
 description: 在Adobe Workfront Planning區域中選取記錄型別後，您可以建立請求表單，並將其與該記錄型別建立關聯。 然後，您可以與其他內部或外部使用者共用與其的連結。 具有表單連結的使用者可以填寫其上的欄位值，透過提交它，他們可以為與其關聯的記錄型別新增記錄。
-hidefromtoc: true
-hide: true
+feature: Workfront Planning
+role: User, Admin
+author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: 80d9fc7f8cf28de8dbb8f1c53835940142681906
+source-git-commit: bffa5992a530761afe57ec62b4cbba2bf03ad1e6
 workflow-type: tm+mt
-source-wordcount: '1101'
+source-wordcount: '1138'
 ht-degree: 2%
 
 ---
@@ -17,9 +18,13 @@ ht-degree: 2%
 
 {{planning-important-intro}}
 
-在Adobe Workfront Planning區域中選取記錄型別後，您可以建立請求表單，並將其與該記錄型別建立關聯。 然後，您可以與其他內部或外部使用者共用與其的連結。<!--double-check on the external part of it-->
+您可以建立請求表單，並將其與Adobe Workfront Planning中的記錄型別建立關聯。 然後，您可以與其他內部或外部使用者共用與其的連結。
 
-具有表單連結的使用者可以填寫其上的欄位值，透過提交它，他們可以為與其關聯的記錄型別新增記錄。
+具有表單連結的使用者可以更新其欄位值，並透過提交來新增記錄。
+
+本文說明工作區管理員如何建立與記錄型別相關聯的請求表單。
+
+如需有關將請求提交至記錄型別以建立記錄的資訊，請參閱[提交Adobe Workfront Planning請求以建立記錄](/help/quicksilver/planning/requests/submit-requests.md)。
 
 ## 存取需求
 
@@ -170,9 +175,11 @@ ht-degree: 2%
 
    >[!IMPORTANT]
    >
-   >當您選取「具有連結的任何人」時，任何人，甚至組織外沒有Workfront帳戶的人，都可以存取表單並提交新記錄。
+   >當您選取&#x200B;**擁有連結的任何人**&#x200B;時，任何人都可以存取表單並提交新記錄，甚至組織外沒有Workfront帳戶的人也可以。
 
-1. （視條件而定）如果您在上一步選取了&#x200B;**任何擁有連結**&#x200B;的人，請從可用的行事曆中選取&#x200B;**連結到期日**。 連結過期後人員會收到錯誤，您必須先更新連結日期，才能再次存取表單。 <!--add info here about how long the expiration date should be; logged bug-->
+1. （視條件而定）如果您在上一步選取了&#x200B;**任何擁有連結**&#x200B;的人，請從可用的行事曆中選取&#x200B;**連結到期日**。 連結過期後人員會收到錯誤，您必須先更新連結日期，才能再次存取表單。
+
+   您可以從目前日期起180天內選取未來日期。
 
 1. 按一下&#x200B;**儲存並複製連結**&#x200B;以儲存表單的共用詳細資料。
 
@@ -191,6 +198,7 @@ ht-degree: 2%
    >[!TIP]
    >
    >如果是這種情況，表示連結已公開共用。
+   >![](assets/publicly-shared-link-to-form-on-record-type-menu-highlighted.png)
 
 
 

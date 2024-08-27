@@ -1,11 +1,13 @@
 ---
 title: 要求檢視或Workspace的許可權
 description: 您可以請求其他人傳送連結給您但先前未與您共用的檢視或工作區的許可權。
-hidefrontoc: true
-hide: true
-source-git-commit: 83c716dea3815ed9a2ce4c3d0598ef42b128de87
+feature: Workfront Planning
+role: User, Admin
+author: Alina
+recommendations: noDisplay, noCatalog
+source-git-commit: bffa5992a530761afe57ec62b4cbba2bf03ad1e6
 workflow-type: tm+mt
-source-wordcount: '504'
+source-wordcount: '506'
 ht-degree: 1%
 
 ---
@@ -130,6 +132,6 @@ role: User, Admin
 
    * [共用檢視](/help/quicksilver/planning/access/share-views.md)
    * [共用工作區](/help/quicksilver/planning/access/share-workspaces.md)
-1. （視條件而定）當檢視或工作區管理員授予您檢視或工作區的許可權時，您會收到電子郵件通知，確認已授予或拒絕許可權。<!--check this - I was not able to test this-->
+1. （視條件而定）當檢視或工作區管理員授予您檢視或工作區的許可權時，您會收到電子郵件通知和應用程式內通知，其中包含已授予許可權的確認。<!--check this - I was not able to test this-->
 
 
