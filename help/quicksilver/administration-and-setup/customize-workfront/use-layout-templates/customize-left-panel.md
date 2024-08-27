@@ -8,7 +8,7 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: b100ea35-e045-4021-b5be-2c9071b381da
-source-git-commit: a8214d9e10363881afbc2bd71f78f46cb6a25880
+source-git-commit: 51b8e474cefe63b4db8c42e480990ca0ba431a4d
 workflow-type: tm+mt
 source-wordcount: '1037'
 ht-degree: 0%
@@ -202,10 +202,10 @@ ht-degree: 0%
    >[!NOTE]
    >
    >**[!UICONTROL 自訂使用者看到的專案]**&#x200B;下拉式清單（[!UICONTROL 清單]、[!UICONTROL 首頁和摘要]以及[!UICONTROL 品牌]）中的最後3個專案是用於設定左側面板以外的區域。 如需其相關資訊，請參閱下列文章：
->   >   
-* [使用配置範本自訂篩選器、檢視和群組](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)
->* [使用配置範本自訂[!UICONTROL 首頁]和[!UICONTROL 摘要]](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md)
-* 使用版面配置範本的[品牌Adobe [!DNL Workfront] ](../../../administration-and-setup/customize-workfront/use-layout-templates/brand-wf-using-a-layout-template.md)
+   >
+   >* [使用配置範本自訂篩選器、檢視和群組](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)
+   >* [使用配置範本自訂[!UICONTROL 首頁]和[!UICONTROL 摘要]](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md)
+   >* 使用版面配置範本的[品牌Adobe [!DNL Workfront] ](../../../administration-and-setup/customize-workfront/use-layout-templates/brand-wf-using-a-layout-template.md)
 
 
 1. （選擇性）如果您想要新增連結至您組織其中一個儀表板的左側面板專案，請按一下「**[!UICONTROL 新增自訂區段]**」，為專案輸入「**[!UICONTROL 自訂區段標題]**」，然後新增儀表板。
@@ -214,7 +214,7 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   使用者可以將自訂儀表板專案新增到自己的左側面板。 當您在版面配置範本中新增自訂儀表板專案時，您的專案會與其合併，而不會覆寫或重設它們。 如果您將使用者指派給具有自訂儀表板專案的新配置範本，也會發生這種情況。 若要瞭解使用者如何自訂左側面板，請參閱[建立自訂標籤或區段](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/create-custom-tabs.md)。
+   >使用者可以將自訂儀表板專案新增到自己的左側面板。 當您在版面配置範本中新增自訂儀表板專案時，您的專案會與其合併，而不會覆寫或重設它們。 如果您將使用者指派給具有自訂儀表板專案的新配置範本，也會發生這種情況。 若要瞭解使用者如何自訂左側面板，請參閱[建立自訂標籤或區段](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/create-custom-tabs.md)。
 
    如需儀表板的詳細資訊，請參閱[儀表板](../../../reports-and-dashboards/dashboards/dashboards-overview.md)。
 
@@ -226,4 +226,4 @@ ht-degree: 0%
 
    >[!TIP]
    >
-   您可以隨時按一下[儲存]來儲存進度，然後再繼續修改範本。
+   >您可以隨時按一下[儲存]來儲存進度，然後再繼續修改範本。

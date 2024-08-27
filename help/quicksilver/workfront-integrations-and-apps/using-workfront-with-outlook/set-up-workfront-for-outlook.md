@@ -6,9 +6,9 @@ description: ' [!DNL Adobe Workfront] [!DNL Outlook]增益集可讓您直接從O
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 57f0560b-68c2-4654-863e-bd728e76da29
-source-git-commit: e4f722bab4c4024ca796af8413e7d6b69f6a89a7
+source-git-commit: bcf03609e0503a5db0384fd573066467a1feb341
 workflow-type: tm+mt
-source-wordcount: '684'
+source-wordcount: '682'
 ht-degree: 0%
 
 ---
@@ -79,7 +79,7 @@ ht-degree: 0%
 Workfront支援下列[!DNL Outlook]版本：
 
 * [!DNL Outlook 2013]或更新於[!DNL Windows]
-*[!DNL Windows]上的[!DNL  Outlook 2016]或更新版本
+* [!DNL Outlook 2016]或更新於[!DNL Windows]
 * [!DNL Outlook]於[!DNL Mac] ([!DNL Microsoft 365])
 * [!DNL Outlook]於[!DNL Windows] ([!DNL Microsoft 365])
 * 網路[!DNL Outlook]
@@ -90,7 +90,7 @@ Workfront支援下列[!DNL Outlook]版本：
 
 * [!DNL Exchange]
 * [!DNL Office 365]
-* [!DNL Outlook.com]{&#x200B;1}{&#x200B; &#x200B;2}如果使用者端設定為連線至POP3或IMAP，則無法載入[!DNL Workfront]增益集。****
+* [!DNL Outlook.com]如果使用者端設定為連線至POP3或IMAP，則無法載入[!DNL Workfront]增益集。
 
 ### 郵件伺服器需求 {#mail-server-requirements}
 

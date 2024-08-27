@@ -9,9 +9,9 @@ description: 使用 [!DNL Adobe Workfront Fusion] Figma模組，您可以擷取�
 author: Becky
 feature: Workfront Fusion
 exl-id: d88db592-32d4-4765-952f-9ffb58cf1720
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+source-git-commit: df4ac2c7fdf319fd8e2e8383cd395e8826e19df0
 workflow-type: tm+mt
-source-wordcount: '2312'
+source-wordcount: '2313'
 ht-degree: 0%
 
 ---
@@ -95,7 +95,7 @@ ht-degree: 0%
 
 * [列出註解](#list-comments)
 
-* [Post註解](#post-a-comment)
+* [發表評論](#post-a-comment)
 
 
 #### [!UICONTROL 刪除註解]
@@ -156,7 +156,7 @@ ht-degree: 0%
 </table>
 
 
-#### [!UICONTROL Post註解]
+#### [!UICONTROL 張貼註解]
 
 此動作模組會將註解張貼至Figma檔案。
 
@@ -363,7 +363,7 @@ ht-degree: 0%
       <td>選取您要傳回JSON的來源檔案。</td>
     </tr>
     <tr>
-      <td role="rowheader" [!UICONTROL>節點ID</td>
+      <td role="rowheader">[！UICONTROL節點ID]</td>
       <td>
         <p>輸入您希望模組呈現的節點。</p>
         <p>針對您要呈現的每個節點，按一下<b>[！UICONTROL新增]</b>並輸入節點的文字。</p>

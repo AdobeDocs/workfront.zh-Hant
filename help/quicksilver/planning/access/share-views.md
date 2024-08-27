@@ -6,7 +6,7 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 673dd888-3135-48b0-8198-c8d6d6706ddf
-source-git-commit: f8ad026582be5b4c89939af8f135151ffaabccfe
+source-git-commit: 4c675fc5cbe82c27182b8f442bec9a6c2d9634fa
 workflow-type: tm+mt
 source-wordcount: '1200'
 ht-degree: 1%
@@ -226,7 +226,7 @@ This article describes how you can share a view with others. For information abo
 
    >[!TIP]
    >
-   沒有人員或全域圖示的檢視是您建立的檢視，不會與他人共用。 非共用檢視僅對您可見。
+   >沒有人員或全域圖示的檢視是您建立的檢視，不會與他人共用。 非共用檢視僅對您可見。
 
 1. 與他人共用複製的連結。 收到連結的使用者必須是作用中使用者，並登入Workfront，才能存取記錄型別頁面並在選取的檢視中顯示該頁面。
 
@@ -236,7 +236,7 @@ This article describes how you can share a view with others. For information abo
 
 >[!IMPORTANT]
 >
-只有具有工作區管理許可權的使用者才能公開共用工作區的檢視。
+>只有具有工作區管理許可權的使用者才能公開共用工作區的檢視。
 
 
 若要在Workfront Planning中公開共用檢視：

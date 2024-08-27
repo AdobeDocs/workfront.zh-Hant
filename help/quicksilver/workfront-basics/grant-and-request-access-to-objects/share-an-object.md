@@ -6,9 +6,9 @@ description: 當使用者指派存取層級時，您的Adobe Workfront管理員�
 author: Alina, Nolan
 feature: Get Started with Workfront
 exl-id: 27a1beb9-e83a-4ef6-bf5f-ad52575a993c
-source-git-commit: 81f8477dd26b828c4255c678b36d98789cd81ff8
+source-git-commit: 310935c7ad1cc97a7d26fc2ff40d2d68d192bb39
 workflow-type: tm+mt
-source-wordcount: '1966'
+source-wordcount: '1954'
 ht-degree: 0%
 
 ---
@@ -99,7 +99,7 @@ ht-degree: 0%
 
 1. 在&#x200B;**授予&lt;物件名稱>存取權**&#x200B;方塊中，開始輸入您要共用物件的使用者、團隊、角色、群組或公司的名稱，然後當名稱出現在下拉式清單中時按一下該名稱。
 
-   ![](assets/new-share-button-add-people.png) {width=&quot;350&quot; }
+   ![](assets/new-share-button-add-people.png){width="350"}
 
    >[!TIP]
    >
@@ -132,7 +132,8 @@ ht-degree: 0%
 
    ![](assets/new-share-advanced-permissions-dropdown.png)
 
-   「檢視」、「管理」和「Contribute」有不同的進階選項，視選取的物件而定。\
+   「檢視」、「管理」和「Contribute」有不同的進階選項，視選取的物件而定。
+
    如需許可權層級的詳細資訊，請參閱[物件共用許可權總覽](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md)。
 
 1. （選擇性）若要讓此物件可供系統內的所有使用者使用，請按一下&#x200B;**擁有存取權**&#x200B;下方的下拉式功能表，然後在下拉式功能表中按一下&#x200B;**系統內的每個人都可以檢視**。
@@ -187,7 +188,7 @@ ht-degree: 0%
 
 1. 在&#x200B;**授予&lt;物件名稱>存取權**&#x200B;方塊中，開始輸入您要共用物件的使用者、團隊、角色、群組或公司的名稱，然後當名稱出現在下拉式清單中時按一下該名稱。
 
-   ![](assets/list-share-add-people.png) {width=&quot;350&quot; }
+   ![](assets/list-share-add-people.png){width="350"}
 
    >[!TIP]
    >
@@ -234,7 +235,7 @@ ht-degree: 0%
    >
    >此選項並非適用於所有物件。
 
-   ![](assets/make-public-system-wide-settings-sharing-box-on-document-nwe-350x481.png) {width=&quot;350&quot; }
+   ![](assets/make-public-system-wide-settings-sharing-box-on-document-nwe-350x481.png){width="350"}
 
 1. （視條件而定）如果您將物件公開給外部使用者，請按一下&#x200B;**複製連結**，然後將連結發佈給外部使用者。
 
@@ -254,11 +255,11 @@ ht-degree: 0%
 
 1. 按一下您要共用之物件旁的核取方塊，然後按一下頁面頂端的&#x200B;**共用圖示** ![](assets/share-icon.png)。
 
-   ![](assets/list-share-object-select.png) {width=&quot;350&quot; }
+   ![](assets/list-share-object-select.png){width="350"}
 
 1. 在&#x200B;**&lt; Object > Access**&#x200B;視窗出現時，開始在&#x200B;**編輯&lt;物件名稱>存取**&#x200B;方塊中輸入您要共用物件的使用者、團隊、角色、群組或公司的名稱，然後當名稱出現在下拉式清單中時按一下該名稱。
 
-   ![](assets/list-share-add-people.png) {width=&quot;350&quot; }
+   ![](assets/list-share-add-people.png){width="350"}
 
    >[!TIP]
    >
@@ -286,10 +287,10 @@ ht-degree: 0%
      >
      >您只能將Contribute許可權授與下列物件：
      >
-     >   * 專案
-     >   * 任務
-     >   * 問題
-     >  
+     >* 專案
+     >* 任務
+     >* 問題
+     >
 
    * **管理：**&#x200B;使用者擁有物件的完整存取權，但沒有管理許可權（在存取層級授與許可權）。 此外，他們還有所有「檢視」和「Contribute」許可權。
 
@@ -328,7 +329,7 @@ ht-degree: 0%
    >
    >此選項並非適用於所有物件。
 
-   ![](assets/make-public-system-wide-settings-sharing-box-on-document-nwe-350x481.png) {width=&quot;350&quot; }
+   ![](assets/make-public-system-wide-settings-sharing-box-on-document-nwe-350x481.png){width="350"}
 
 1. （視條件而定）如果您將物件公開給外部使用者，請按一下&#x200B;**複製連結**，然後將連結發佈給外部使用者。
 
