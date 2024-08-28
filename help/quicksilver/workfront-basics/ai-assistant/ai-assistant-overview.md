@@ -4,18 +4,14 @@ content-type: reference
 description: AI助理總覽
 author: Becky
 feature: Get Started with Workfront
-source-git-commit: d261fd9eb9b8b649ebe413e35161543db1db8412
+source-git-commit: 3db36df88d4bb716cf4c37cd76b6d058a5a6f9b6
 workflow-type: tm+mt
-source-wordcount: '620'
+source-wordcount: '607'
 ht-degree: 0%
 
 ---
 
 # AI助理總覽
-
->[!IMPORTANT]
->
->Workfront AI助理已暫時移除，並將在稍後提供。
 
 Workfront的AI助理可在自然語言對話中提供應用程式內資訊和建議，協助您完成工作。 AI助理可以透過以下方式為您提供更流暢的工作體驗
 
@@ -47,6 +43,8 @@ Workfront的AI助理可在自然語言對話中提供應用程式內資訊和建
 </table>
 
 如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。## AI助理的必要條件
+
+## AI助理的必要條件
 
 若要為您的組織啟用AI助理，必須套用下列&#x200B;**所有**：
 
