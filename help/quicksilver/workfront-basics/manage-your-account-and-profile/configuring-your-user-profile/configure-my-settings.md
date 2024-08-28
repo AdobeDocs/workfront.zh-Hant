@@ -6,9 +6,9 @@ description: 您的 [!DNL Adobe Workfront] 個人資料包含有關您的資訊�
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 0199bf74-0611-48f0-9c05-da6afac85033
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: ecf0aba451d530fa3be258d954f827e7cfc6b198
 workflow-type: tm+mt
-source-wordcount: '3276'
+source-wordcount: '3319'
 ht-degree: 1%
 
 ---
@@ -221,7 +221,7 @@ ht-degree: 1%
 
 * [基本資訊](#basic-info)
 * [工作資訊](#job-info)
-* [連絡資訊](#contact-info)
+* [聯絡資訊](#contact-info)
 
 #### [!UICONTROL 基本資訊]
 
@@ -339,7 +339,8 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[！UICONTROL電子郵件地區設定]</strong> </td> 
-   <td>在這裡指定您偏好的語言。 這會控制外寄電子郵件中所使用的語言、日期和數字格式。</td> 
+   <td><p>在這裡指定您偏好的語言。 這會控制外寄電子郵件中所使用的語言、日期和數字格式。</p>
+   <p><strong>注意：</strong>當您的組織使用Adobe統一體驗時，語言偏好設定會儲存在您的Adobe設定檔中，而且不會使用電子郵件地區設定。 如需詳細資訊，請參閱文章<a href="/help/quicksilver/workfront-basics/supported-languages-in-workfront.md">Adobe Workfront支援的語言</a>中的<a href="/help/quicksilver/workfront-basics/supported-languages-in-workfront.md#change-the-adobe-experience-cloud-language">變更Adobe Experience Cloud語言</a>。</p></td> 
   </tr>
 
 <tr> 
