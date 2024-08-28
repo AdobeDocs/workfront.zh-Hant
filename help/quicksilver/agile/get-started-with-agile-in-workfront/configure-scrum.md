@@ -6,9 +6,9 @@ description: 您可以在團隊建立期間或之後，為Scrum敏捷團隊設�
 author: Lisa
 feature: Agile
 exl-id: 7509608e-96af-4601-80d4-791ee29046da
-source-git-commit: 3c5bcb85080a882a8b69bffcd01563a0479f98a5
+source-git-commit: 452f8ddc5268a0d67e32090d166199f2fad7dbc7
 workflow-type: tm+mt
-source-wordcount: '1793'
+source-wordcount: '1739'
 ht-degree: 0%
 
 ---
@@ -32,6 +32,8 @@ ht-degree: 0%
 
 ## 存取需求
 
++++ 展開以檢視本文中功能的存取需求。
+
 您必須具有下列存取權才能執行本文中的步驟：
 
 <table style="table-layout:auto"> 
@@ -41,26 +43,28 @@ ht-degree: 0%
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 計畫*</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] 計劃</td> 
    <td> <p>任何</p> </td> 
   </tr>
 
 <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 授權*</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] 授權</td> 
    <td> <p>新增：[！UICONTROL Standard]</p> 
    或
    <p>目前： [！UICONTROL Work]或更高版本</p> </td> 
   </tr>
 
 <tr> 
-   <td role="rowheader">存取層級</td> 
+   <td role="rowheader">存取層級設定</td> 
    <td> <p>編輯團隊的存取權</p>  </td> 
   </tr>
 
 </tbody> 
 </table>
 
-*若要瞭解您擁有的計畫或授權型別，請連絡您的[!DNL Workfront]管理員。
+如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
++++
 
 ## 設定是否要以點或小時為單位估計劇本
 
@@ -72,13 +76,13 @@ ht-degree: 0%
 
 若要設定如何估計敏捷團隊的故事：
 
-1. 按一下[!UICONTROL Workfront]右上角的&#x200B;**[!UICONTROL 主要功能表]**&#x200B;圖示![](assets/main-menu-icon.png)，然後按一下&#x200B;**[!UICONTROL 團隊]**。
+{{step1-to-team}}
 
 1. 按一下「**[!UICONTROL 切換群組]**」圖示，然後從下拉式功能表中選取新群組或在搜尋列中搜尋群組。
 1. 選取您要管理的敏捷團隊。
 1. 按一下&#x200B;**[!UICONTROL 更多]**&#x200B;功能表，然後選取&#x200B;**[!UICONTROL 編輯]**。
 
-   只有擁有[!UICONTROL 計畫]或[!UICONTROL 工作]授權的團隊成員才能看到此選項。\
+   只有擁有[!UICONTROL 標準]、[!UICONTROL 計畫]或[!UICONTROL 工作]授權的團隊成員才能看到此選項。
    ![編輯團隊](assets/edit-team-settings-350x205.png)
 
 1. 在&#x200B;**[!UICONTROL 敏捷]**&#x200B;區段的&#x200B;**[!UICONTROL 預估劇本在]**&#x200B;區域，選取您想使用點或小時來預估劇本的大小（工作負載）。 如果您選取「點」，請指定多少小時等於1點。 （預設值為1點= 8小時。） 這是新增到劇本的計畫時數。
@@ -100,7 +104,7 @@ ht-degree: 0%
 
 若要定義與敏捷團隊相關劇本面板可用的狀態：
 
-1. 按一下[!DNL Workfront]右上角的&#x200B;**[!UICONTROL 主要功能表]**&#x200B;圖示![](assets/main-menu-icon.png)，然後按一下&#x200B;**[!UICONTROL 團隊]**。
+{{step1-to-team}}
 
 1. 按一下&#x200B;**[!UICONTROL 切換群組]**&#x200B;圖示![切換群組圖示](assets/switch-team-icon.png)，然後從下拉式功能表中選取新群組或在搜尋列中搜尋群組。
 
@@ -158,13 +162,13 @@ ht-degree: 0%
 
 若要設定指派給敏捷團隊的內文卡以顯示其他欄位：
 
-1. 按一下[!UICONTROL Workfront]右上角的&#x200B;**[!UICONTROL 主要功能表]**&#x200B;圖示![](assets/main-menu-icon.png)，然後按一下&#x200B;**[!UICONTROL 團隊]**。
+{{step1-to-team}}
 
 1. 按一下&#x200B;**[!UICONTROL 切換群組]**&#x200B;圖示![切換群組圖示](assets/switch-team-icon.png)，然後從下拉式功能表中選取新群組或在搜尋列中搜尋群組。
 
 1. 選取您要管理的敏捷團隊。
-1. 按一下&#x200B;**[!UICONTROL 更多]**&#x200B;功能表，然後選取&#x200B;**[!UICONTROL 編輯]**。\
-   只有擁有[!UICONTROL 計畫]或[!UICONTROL 工作]授權的團隊成員才能看到此選項。
+1. 按一下&#x200B;**[!UICONTROL 更多]**&#x200B;功能表，然後選取&#x200B;**[!UICONTROL 編輯]**。
+只有擁有[!UICONTROL 計畫]或[!UICONTROL 工作]授權的團隊成員才能看到此選項。
 
    ![編輯團隊](assets/edit-team-settings-350x205.png)
 
@@ -182,7 +186,7 @@ ht-degree: 0%
 
 若要變更將顏色指派給敏捷團隊內文的行為：
 
-1. 按一下[!DNL Workfront]右上角的&#x200B;**[!UICONTROL 主要功能表]**&#x200B;圖示![](assets/main-menu-icon.png)，然後按一下&#x200B;**[!UICONTROL 團隊]**。
+{{step1-to-team}}
 
 1. 按一下&#x200B;**[!UICONTROL 切換群組]**&#x200B;圖示![切換群組圖示](assets/switch-team-icon.png)，然後從下拉式功能表中選取新群組或在搜尋列中搜尋群組。
 
@@ -201,7 +205,7 @@ ht-degree: 0%
 
       * 高=紅色
       * Medium =黃色
-      * 低=綠色\
+      * 低=綠色
 
         如果您的系統管理員已設定您[!DNL Workfront]系統的自訂優先順序，則最高優先順序為紅色，第二高為黃色，第三高為綠色。
    * **[!UICONTROL 工作擁有者]**：所有具有相同主要受指派人的劇本都是相同的色彩。 主要受指派人是首次受指派工作的使用者。
@@ -213,15 +217,16 @@ ht-degree: 0%
 
 根據預設，當您將工作專案新增到Scrum反複專案時，會修改工作專案上的計劃開始日期和計畫完成日期，以符合反複專案的開始和結束日期。 您可以選擇保留團隊所有工作專案的原始日期。
 
-1. 按一下[!DNL Adobe] Workfront右上角的&#x200B;**[!UICONTROL 主要功能表]**&#x200B;圖示![](assets/main-menu-icon.png)，然後按一下&#x200B;**[!UICONTROL 團隊]**。
+{{step1-to-team}}
+
 1. （選擇性）按一下&#x200B;**[!UICONTROL 切換群組]**&#x200B;圖示![切換群組圖示](assets/switch-team-icon.png)，然後從下拉式功能表中選取新的Scrum群組或在搜尋列中搜尋群組。
-1. 按一下&#x200B;**[!UICONTROL 更多]**&#x200B;功能表，然後選取&#x200B;**[!UICONTROL 編輯]**。\
-   只有擁有[!UICONTROL 計畫]或[!UICONTROL 工作]授權的團隊成員才能看到此選項。
+1. 按一下&#x200B;**[!UICONTROL 更多]**&#x200B;功能表，然後選取&#x200B;**[!UICONTROL 編輯]**。
+只有擁有[!UICONTROL 計畫]或[!UICONTROL 工作]授權的團隊成員才能看到此選項。
 1. 在[!UICONTROL 敏捷]區段中，在[!UICONTROL 當工作專案新增到疊代]區域時，從下列選項中選取：
 
-   * **[!UICONTROL 修改規劃開始日期和規劃完成日期以符合反複專案的開始日期和結束日期]**：當工作專案新增到反複專案時，工作專案日期會變更為反複專案日期。\
+   * **[!UICONTROL 修改規劃開始日期和規劃完成日期以符合反複專案的開始日期和結束日期]**：當工作專案新增到反複專案時，工作專案日期會變更為反複專案日期。
 
-     如需如何修改日期的詳細資訊，請參閱[將劇本新增至現有反複專案](../../agile/use-scrum-in-an-agile-team/iterations/add-stories-to-existing-iteration.md)一文中的[瞭解新增劇本如何影響任務日期](../../agile/use-scrum-in-an-agile-team/iterations/add-stories-to-existing-iteration.md#understa)一節。
+     如需如何修改日期的詳細資訊，請參閱[將劇本新增至現有反複專案](../../agile/use-scrum-in-an-agile-team/iterations/add-stories-to-existing-iteration.md)一文中的[瞭解新增劇本如何影響任務日期](../../agile/use-scrum-in-an-agile-team/iterations/add-stories-to-existing-iteration.md#understand-how-adding-stories-affects-task-dates)一節。
    * **[!UICONTROL 請勿修改規劃開始日期和規劃完成日期以符合反複專案的開始日期和結束日期]**：當工作專案新增到反複專案時，工作專案會保留其原始日期。
 
    如果您變更日期選項，則不會調整已在反複專案上的工作專案日期。

@@ -2,13 +2,13 @@
 product-area: agile-and-teams;setup
 navigation-topic: get-started-with-agile-in-workfront
 title: 設定Kanban
-description: 您在 [!DNL Adobe Workfront]中建立Kanban或Scrum敏捷團隊。
+description: 您可以在團隊建立期間或之後，為Kanban敏捷團隊設定以下選項。
 author: Lisa
 feature: Agile
 exl-id: b4c417a6-64c8-43e0-bace-b73572247b3e
-source-git-commit: 43afa8136e51332a0970b01fff36113d5bf42294
+source-git-commit: 452f8ddc5268a0d67e32090d166199f2fad7dbc7
 workflow-type: tm+mt
-source-wordcount: '1487'
+source-wordcount: '1498'
 ht-degree: 1%
 
 ---
@@ -46,26 +46,26 @@ ht-degree: 1%
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 計畫*</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] 計劃</td> 
    <td> <p>任何</p> </td> 
   </tr>
 
 <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 授權*</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] 授權</td> 
    <td> <p>新增：[！UICONTROL Standard]</p> 
    或
    <p>目前： [！UICONTROL Work]或更高版本</p> </td> 
   </tr>
 
 <tr> 
-   <td role="rowheader">存取層級</td> 
+   <td role="rowheader">存取層級設定</td> 
    <td> <p>編輯團隊的存取權</p>  </td> 
   </tr>
 
 </tbody> 
 </table>
 
-*若要瞭解您擁有的計畫或授權型別，請連絡您的[!DNL Workfront]管理員。
+如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -148,7 +148,7 @@ ht-degree: 1%
 1. 按一下&#x200B;**[!UICONTROL 切換團隊]**&#x200B;圖示![切換團隊圖示](assets/switch-team-icon.png)，然後從下拉式選單中選取新團隊或在搜尋列中搜尋團隊。
 
 1. 選取您要管理的敏捷團隊。
-1. 按一下&#x200B;**[!UICONTROL 更多]**&#x200B;功能表，然後選取&#x200B;**[!UICONTROL 編輯]**。\
+1. 按一下&#x200B;**[!UICONTROL 更多]**&#x200B;功能表，然後選取&#x200B;**[!UICONTROL 編輯]**。
 
    ![編輯團隊](assets/edit-team-settings-350x205.png)
 
@@ -179,9 +179,9 @@ ht-degree: 1%
 
 1. 在&#x200B;**[!UICONTROL 敏捷]**&#x200B;區段的&#x200B;**[!UICONTROL 方法]**&#x200B;區段中，確定已選取Kanban。
 
-1. 在&#x200B;**[!UICONTROL 故事板]**&#x200B;區段的&#x200B;**[!UICONTROL WIP限制]**&#x200B;欄位中，指定[!UICONTROL Kanban]敏捷故事板每個欄中允許的專案數目上限。 您可以為每個欄設定不同的限制。 您可以為每個欄設定的最大限製為100。\
-   設定後，每當超過故事板上任何欄的限制，WIP限制會在[!UICONTROL Kanban]敏捷故事板上顯示警告訊息。 此警告訊息只會在第一次超過WIP限制時顯示。 此警告訊息不會顯示在任何狀態等於[!UICONTROL 完成]的資料行上。\
-   WIP限制只是視覺上的警告，不會限制您的團隊在單一欄中有超過您設定的限制以上的專案。
+1. 在&#x200B;**[!UICONTROL 故事板]**&#x200B;區段的&#x200B;**[!UICONTROL WIP限制]**&#x200B;欄位中，指定[!UICONTROL Kanban]敏捷故事板每個欄中允許的專案數目上限。 您可以為每個欄設定不同的限制。 您可以為每個欄設定的最大限製為100。
+設定後，每當超過故事板上任何欄的限制，WIP限制會在[!UICONTROL Kanban]敏捷故事板上顯示警告訊息。 此警告訊息只會在第一次超過WIP限制時顯示。 此警告訊息不會顯示在任何狀態等於[!UICONTROL 完成]的資料行上。
+WIP限制只是視覺上的警告，不會限制您的團隊在單一欄中有超過您設定的限制以上的專案。
 
    ![在製品限制](assets/wip-limit-350x193.png)
 

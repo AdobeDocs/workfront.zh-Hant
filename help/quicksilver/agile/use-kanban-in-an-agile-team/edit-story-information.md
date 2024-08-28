@@ -6,9 +6,9 @@ description: 在Kanban板上檢視內文拼貼時，可以直接從內文拼貼�
 author: Lisa
 feature: Agile
 exl-id: a22a7b61-b331-4c98-9421-e7fccedcd096
-source-git-commit: 9da0c8234f563a0202cd15017b37a341476f7406
+source-git-commit: 452f8ddc5268a0d67e32090d166199f2fad7dbc7
 workflow-type: tm+mt
-source-wordcount: '448'
+source-wordcount: '408'
 ht-degree: 0%
 
 ---
@@ -71,32 +71,36 @@ ht-degree: 0%
 
 ## 存取需求
 
++++ 展開以檢視本文中功能的存取需求。
+
 您必須具有下列存取權才能執行本文中的步驟：
 
 <table style="table-layout:auto"> 
  <col> 
+ </col> 
  <col> 
+ </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] 計畫*</strong></td> 
+   <td role="rowheader">[!DNL Adobe Workfront] 計劃</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] 授權*</strong></td> 
-   <td> <p>[！UICONTROL Work]或更高版本</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"><strong>存取層級設定*</strong></td> 
-   <td> <p>[！UICONTROL Worker]或更高版本</p> <p>注意：如果您還是沒有存取權，請詢問您的[!DNL Workfront]管理員是否對您的存取層級設定了其他限制。 如需[!DNL Workfront]管理員如何變更您的存取層級的詳細資訊，請參閱<a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>。</p> </td> 
-  </tr> 
+   <td role="rowheader">[!DNL Adobe Workfront] 授權</td> 
+   <td> <p>新增：[！UICONTROL Standard]</p> 
+   或
+   <p>目前： [！UICONTROL Work]或更高版本</p> </td> 
+  </tr>
  </tbody> 
 </table>
 
-&#42;若要瞭解您擁有的計畫、授權型別或存取權，請連絡您的[!DNL Workfront]管理員。
+如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
++++
 
 ## 檢視和編輯內文拼貼上的資訊
 
-1. 按一下[!DNL Adobe Workfront]右上角的&#x200B;*[!UICONTROL *主功能表]**圖示![](assets/main-menu-icon.png)，然後按一下&#x200B;**[!UICONTROL 團隊]**。
+{{step1-to-team}}
 
 1. （選擇性）按一下&#x200B;**[!UICONTROL 切換團隊]**&#x200B;圖示![切換團隊圖示](assets/switch-team-icon.png)，然後從下拉式選單中選取新的Kanban團隊或在搜尋列中搜尋團隊。
 
@@ -105,9 +109,9 @@ ht-degree: 0%
 
    ![](assets/story-expanded-on-kanban-board-2021-350x405.png)
 
-1. （可選）若要編輯欄位，請按一下該欄位，然後進行任何變更。\
-   您必須擁有任務或問題的[!UICONTROL 編輯]許可權，才能編輯劇本拼貼。\
-   如需每個欄位及其是否可以編輯的詳細資訊，請參閱[瞭解哪些資訊可以檢視和編輯](#understand-what-information-can-be-viewed-and-edited)。
+1. （可選）若要編輯欄位，請按一下該欄位，然後進行任何變更。
+您必須擁有任務或問題的[!UICONTROL 編輯]許可權，才能編輯劇本拼貼。
+如需每個欄位及其是否可以編輯的詳細資訊，請參閱[瞭解哪些資訊可以檢視和編輯](#understand-what-information-can-be-viewed-and-edited)。
 
 >[!NOTE]
 >

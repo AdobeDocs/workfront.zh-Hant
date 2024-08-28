@@ -6,9 +6,9 @@ description: 反複專案是Scrum敏捷團隊規劃工作容量的關鍵元件�
 author: Lisa
 feature: Agile
 exl-id: a25cdd4a-f2e3-4b8a-a7f4-3757940b635e
-source-git-commit: ddff70b61a2c3b3479e278bb3bb8628ac83f5c97
+source-git-commit: d660707dd69fab78095eed1414092a7c909ba174
 workflow-type: tm+mt
-source-wordcount: '1057'
+source-wordcount: '1051'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,8 @@ ht-degree: 0%
 
 ## 存取需求
 
++++ 展開以檢視本文中功能的存取需求。
+
 您必須具有下列存取權才能執行本文中的步驟：
 
 <table style="table-layout:auto"> 
@@ -28,27 +30,31 @@ ht-degree: 0%
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] 計畫*</strong></td> 
+   <td role="rowheader">[!DNL Adobe Workfront] 計劃</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] 授權*</strong></td> 
-   <td> <p>[！UICONTROL Review]或更高版本</p> </td> 
-  </tr> 
+   <td role="rowheader">[!DNL Adobe Workfront] 授權</td> 
+   <td> <p>新增：[！UICONTROL Light]或以上</p> 
+   或
+   <p>目前： [！UICONTROL Review]或以上</p> </td> 
+  </tr>
  </tbody> 
 </table>
 
-&#42;若要瞭解您擁有的計畫或授權型別，請連絡您的[!DNL Workfront]系統管理員。
+如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
++++
 
 ## 新增反複專案
 
 使用[!UICONTROL 新增反複專案]功能來快速建立反複專案，並在稍後新增任務和問題。
 
-1. 按一下[!DNL Adobe Workfront]右上角的&#x200B;**[!UICONTROL 主要功能表]**&#x200B;圖示![](assets/main-menu-icon.png)，然後按一下&#x200B;**[!UICONTROL 團隊]**。
+{{step1-to-team}}
 
 1. （選擇性）按一下&#x200B;**[!UICONTROL 切換群組]**&#x200B;圖示![切換群組圖示](assets/switch-team-icon.png)，然後從下拉式功能表中選取新的Scrum群組或在搜尋列中搜尋群組。
 
-1. 在&#x200B;**[!UICONTROL 反複專案]**&#x200B;索引標籤上，按一下&#x200B;**[!UICONTROL 新增反複專案]**。\
+1. 在&#x200B;**[!UICONTROL 反複專案]**&#x200B;索引標籤上，按一下&#x200B;**[!UICONTROL 新增反複專案]**。
    ![](assets/add-iteration-adobe-350x275.png)
 
 1. 指定下列專案：
@@ -90,7 +96,7 @@ ht-degree: 0%
 
 使用[!UICONTROL 計畫反複專案]功能，以使用待處理專案上的任務來建立反複專案。
 
-1. 按一下[!DNL Adobe Workfront]右上角的&#x200B;**[!UICONTROL 主要功能表]**&#x200B;圖示![](assets/main-menu-icon.png)，然後按一下&#x200B;**[!UICONTROL 團隊]**。
+{{step1-to-team}}
 
 1. （選擇性）按一下&#x200B;**[!UICONTROL 切換群組]**&#x200B;圖示![切換群組圖示](assets/switch-team-icon.png)，然後從下拉式功能表中選取新的Scrum群組或在搜尋列中搜尋群組。
 
@@ -129,10 +135,10 @@ ht-degree: 0%
     </tbody> 
    </table>
 
-1. （可選）選取劇本以立即將其新增至疊代，或者您可以略過此步驟，稍後將劇本新增至疊代。 待處理專案最上方的劇本優先順序較高。 符合容量大小的內文會以綠色反白顯示；若不符合，則會以紅色反白顯示。\
-   您可以將任務和問題新增至單一反複專案：
+1. （可選）選取劇本以立即將其新增至疊代，或者您可以略過此步驟，稍後將劇本新增至疊代。 待處理專案最上方的劇本優先順序較高。 符合容量大小的內文會以綠色反白顯示；若不符合，則會以紅色反白顯示。
+您可以將任務和問題新增至單一反複專案：
 
-   * **若要新增工作至反複專案：**&#x200B;在&#x200B;**[!UICONTROL 待處理專案]**&#x200B;索引標籤上，請確定已選取&#x200B;**[!UICONTROL 內文]**&#x200B;索引標籤（檢視待處理專案時，預設會選取此索引標籤）。 選取您要新增至反複專案的劇本。\
+   * **若要新增工作至反複專案：**&#x200B;在&#x200B;**[!UICONTROL 待處理專案]**&#x200B;索引標籤上，請確定已選取&#x200B;**[!UICONTROL 內文]**&#x200B;索引標籤（檢視待處理專案時，預設會選取此索引標籤）。 選取您要新增至反複專案的劇本。
 
      將任務新增至疊代時，任務的開始日期會依照[[!UICONTROL 瞭解]中所述計算任務開始日期的方式新增至疊代](#understand-how-task-start-dates-are-calculated-when-added-to-an-iteration)時，任務的開始日期。
 
@@ -151,4 +157,4 @@ ht-degree: 0%
 
 使用[!UICONTROL 專案結束日期]，而非   如果專案開始日期在反複專案開始日期之後，而專案結束日期在反複專案結束日期之後。
 
-您可以設定個別Scrum團隊以預設使用專案日期，而不是反複專案日期。 如需詳細資訊，請參閱[設定Scrum](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md)一文中的[設定將工作專案新增至疊代](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configur5)時如何套用日期一節。
+您可以設定個別Scrum團隊以預設使用專案日期，而不是反複專案日期。 如需詳細資訊，請參閱[設定Scrum](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md)一文中的[設定將工作專案新增至疊代](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configure-how-dates-are-applied-when-adding-work-items-to-an-iteration)時如何套用日期一節。

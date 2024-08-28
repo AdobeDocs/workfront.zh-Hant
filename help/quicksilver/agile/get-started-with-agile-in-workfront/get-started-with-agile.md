@@ -3,13 +3,13 @@ content-type: reference
 product-area: agile-and-teams
 keywords: 敏捷
 navigation-topic: agile-navigation-topic
-title: 開始使用 [!DNL Adobe Workfront]中的 [!DNL agile]
+title: 開始使用 [!DNL Adobe Workfront]中的 [!DNL Agile]
 description: 檢閱這些文章，以開始使用Workfront中的敏捷功能。
 author: Lisa
 feature: Agile
 recommendations: noDisplay, noCatalog
 exl-id: 151aec93-3ccb-475f-b894-61be20a8544a
-source-git-commit: 752caa1d94a09871b97a11400d83f28853118d33
+source-git-commit: 452f8ddc5268a0d67e32090d166199f2fad7dbc7
 workflow-type: tm+mt
 source-wordcount: '33'
 ht-degree: 12%

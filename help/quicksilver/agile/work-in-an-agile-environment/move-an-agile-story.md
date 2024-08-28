@@ -6,9 +6,9 @@ description: 您可以將敏捷內文移至不同反複專案（適用於Scrum�
 author: Lisa
 feature: Agile
 exl-id: 0058792e-66b8-4e54-8ce3-50171adff875
-source-git-commit: 11009f24cd482e83319ed9f1ecf3f7a2f4e79d52
+source-git-commit: 452f8ddc5268a0d67e32090d166199f2fad7dbc7
 workflow-type: tm+mt
-source-wordcount: '389'
+source-wordcount: '350'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,8 @@ ht-degree: 0%
 
 ## 存取需求
 
++++ 展開以檢視本文中功能的存取需求。
+
 您必須具有下列存取權才能執行本文中的步驟：
 
 <table style="table-layout:auto"> 
@@ -28,25 +30,25 @@ ht-degree: 0%
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] 計畫*</strong></td> 
+   <td role="rowheader">[!DNL Adobe Workfront] 計劃</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] 授權*</strong></td> 
-   <td> <p>[！UICONTROL Work]或更高版本</p> </td> 
-  </tr> 
+   <td role="rowheader">[!DNL Adobe Workfront] 授權</td> 
+   <td> <p>新增：[！UICONTROL Standard]</p> 
+   或
+   <p>目前： [！UICONTROL Work]或更高版本</p> </td> 
+  </tr>
   <tr> 
-   <td role="rowheader"><strong>存取層級設定*</strong></td> 
-   <td> <p>[！UICONTROL Worker]或更高版本</p> <p>注意：如果您還是沒有存取權，請詢問您的[!DNL Workfront]管理員是否對您的存取層級設定了其他限制。 如需[!DNL Workfront]管理員如何修改存取層級的詳細資訊，請參閱<a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>。</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"><strong>物件許可權</strong></td> 
-   <td> <p>[！UICONTROL Manage]內文存取權</p> <p>如需請求其他存取權的資訊，請參閱<a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">請求物件</a>的存取權。</p> </td> 
+   <td role="rowheader">物件許可權</td> 
+   <td>[！UICONTROL Manage]內文存取權</td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;若要瞭解您擁有的計畫、授權型別或存取權，請連絡您的[!DNL Workfront]管理員。
+如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
++++
 
 ## 將劇本從反複專案或Kanban面板移至待處理專案
 
@@ -59,8 +61,8 @@ ht-degree: 0%
 
    ![移動內文對話方塊](assets/iteration-story-move.png)
 
-1. 選取&#x200B;*team_name*&#x200B;的待處理專案。\
-   在上述範例中，團隊名稱&#x200B;為&#x200B;**行銷。**
+1. 選取&#x200B;**team_name的待處理專案**。
+在上述範例中，團隊名稱為**行銷**。
 
 1. 按一下&#x200B;**[!UICONTROL 移動劇本]**。
 
@@ -85,6 +87,6 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >工作專案[!UICONTROL 計劃開始日期]和[!UICONTROL 計畫完成日期]受[!UICONTROL 編輯團隊]頁面上的設定影響。 如需詳細資訊，請參閱[設定Scrum](../../agile/get-started-with-agile-in-workfront/configure-scrum.md)一文中的[[!UICONTROL 設定將工作專案新增至疊代](../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configur5)時如何套用日期]一節。
+   >工作專案[!UICONTROL 計劃開始日期]和[!UICONTROL 計畫完成日期]受[!UICONTROL 編輯團隊]頁面上的設定影響。 如需詳細資訊，請參閱[設定Scrum](../../agile/get-started-with-agile-in-workfront/configure-scrum.md)一文中的[[!UICONTROL 設定將工作專案新增至疊代](../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configure-how-dates-are-applied-when-adding-work-items-to-an-iteration)時如何套用日期]一節。
 
 1. 按一下&#x200B;**[!UICONTROL 移動劇本]**。

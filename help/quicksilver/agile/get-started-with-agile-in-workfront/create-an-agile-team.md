@@ -6,9 +6,9 @@ description: Adobe Workfront可讓敏捷團隊以漸進式、有條理的方式�
 author: Lisa
 feature: Agile
 exl-id: 3afd16db-7829-4c9c-a981-461990c9dbc8
-source-git-commit: e896d156854c6729e5ea0a82dcbc641fbfa9415e
+source-git-commit: 452f8ddc5268a0d67e32090d166199f2fad7dbc7
 workflow-type: tm+mt
-source-wordcount: '1012'
+source-wordcount: '1001'
 ht-degree: 1%
 
 ---
@@ -40,11 +40,11 @@ ht-degree: 1%
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] 計畫*</strong></td> 
+   <td role="rowheader">[!DNL Adobe Workfront] 計劃</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] 授權*</strong></td> 
+   <td role="rowheader">[!DNL Adobe Workfront] 授權</td> 
    <td> <p>新增：標準</p>
    目前： 
    <ul><li><p>[！UICONTROL計畫]以建立新的敏捷團隊</p></li> 
@@ -53,7 +53,7 @@ ht-degree: 1%
  </tbody> 
 </table>
 
-若要瞭解您擁有的計畫或授權型別，請連絡您的[!DNL Workfront]管理員。
+如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -71,14 +71,14 @@ ht-degree: 1%
 
 下列功能支援此方法：
 
-* 在[!DNL Kanban]敏捷劇本板上顯示待處理專案。\
-   如需詳細資訊，請參閱[將待處理專案新增至[!UICONTROL Kanban]展示板](../../agile/use-kanban-in-an-agile-team/view-the-backlog-on-the-kanban-board.md)。
+* 在[!DNL Kanban]敏捷劇本板上顯示待處理專案。
+如需詳細資訊，請參閱[將待處理專案新增至[!UICONTROL Kanban]展示板](../../agile/use-kanban-in-an-agile-team/view-the-backlog-on-the-kanban-board.md)。
 
-* 設定待處理專案上的專案，以便在其他專案移至等同於完成的狀態時，自動新增至[!UICONTROL Kanban]敏捷故事板。\
-   如需詳細資訊，請參閱文章[設定Kanban](../../agile/get-started-with-agile-in-workfront/configure-kanban.md)中的[設定要自動從待處理專案新增的劇本](../../agile/get-started-with-agile-in-workfront/configure-kanban.md#configur5)一節。
+* 設定待處理專案上的專案，以便在其他專案移至等同於完成的狀態時，自動新增至[!UICONTROL Kanban]敏捷故事板。
+如需詳細資訊，請參閱文章[設定Kanban](../../agile/get-started-with-agile-in-workfront/configure-kanban.md)中的[設定要自動從待處理專案新增的劇本](../../agile/get-started-with-agile-in-workfront/configure-kanban.md#configur5)一節。
 
-* 設定要在[!UICONTROL Kanban]敏捷故事板上顯示的進行中工作(WIP)限制。\
-   如需詳細資訊，請參閱[在Kanban展示板上管理進行中的工作(WIP)限制](../../agile/use-kanban-in-an-agile-team/work-in-progress-limit-on-the-kanban-board.md)。
+* 設定要在[!UICONTROL Kanban]敏捷故事板上顯示的進行中工作(WIP)限制。
+如需詳細資訊，請參閱[在Kanban展示板上管理進行中的工作(WIP)限制](../../agile/use-kanban-in-an-agile-team/work-in-progress-limit-on-the-kanban-board.md)。
 
 ### 在[!DNL Workfront]中使用Scrum的好處
 
@@ -89,8 +89,8 @@ ht-degree: 1%
 * 在[!UICONTROL Scrum]故事板上包含問題
 * 包括敏捷團隊待處理專案上的問題
 * 子任務可以顯示在[!UICONTROL Scrum]故事板上
-* 檢視待執行工作圖表，以檢視反複專案期間內文的進度\
-   如需詳細資訊，請參閱[敏捷待執行工作圖表總覽](../../agile/use-scrum-in-an-agile-team/burndown/burndown-chart-overview.md)。
+* 檢視待執行工作圖表，以檢視反複專案期間內文的進度
+如需詳細資訊，請參閱[敏捷待執行工作圖表總覽](../../agile/use-scrum-in-an-agile-team/burndown/burndown-chart-overview.md)。
 
 ## 建立敏捷團隊
 
@@ -150,19 +150,21 @@ ht-degree: 1%
 
 您可以將現有團隊轉換為敏捷團隊：
 
-1. 按一下[!DNL Adobe Workfront]右上角的&#x200B;**[!UICONTROL 主要功能表]**&#x200B;圖示![](assets/main-menu-icon.png)，然後按一下&#x200B;**[!UICONTROL 團隊]**。
+{{step1-to-team}}
+
 1. 按一下&#x200B;**[!UICONTROL 切換群組]**&#x200B;圖示![切換群組圖示](assets/switch-team-icon.png)，然後從下拉式功能表中選取新群組或在搜尋列中搜尋群組。
 
 1. 選取您要轉換為敏捷團隊的團隊。
-1. 按一下&#x200B;**[!UICONTROL 更多]**&#x200B;功能表，然後選取&#x200B;**[!UICONTROL 編輯]**。\
-   只有擁有[!UICONTROL 計畫]或[!UICONTROL 工作]授權的團隊成員才能看到此選項。\
+1. 按一下&#x200B;**[!UICONTROL 更多]**&#x200B;功能表，然後選取&#x200B;**[!UICONTROL 編輯]**。
+
+   只有擁有[!UICONTROL 標準]、[!UICONTROL 計畫]或[!UICONTROL 工作]授權的團隊成員才能看到此選項。
    ![](assets/edit-team-settings-350x205.png)
 
 1. 在&#x200B;**[!UICONTROL Agile]**&#x200B;區段中，選取&#x200B;**[!UICONTROL 這是一個Agile團隊]**。
 
 1. 在&#x200B;**[!UICONTROL 方法]**&#x200B;區段中，選取團隊將使用&#x200B;**[!UICONTROL Scrum]**&#x200B;或&#x200B;**[!UICONTROL Kanban]**&#x200B;敏捷方法。
 
-1. 按一下&#x200B;**儲存變更。**
+1. 按一下「**儲存變更**」。
 
    團隊會儲存為敏捷團隊。 編輯團隊時，您可以將新團隊設定為Scrum或Kanban團隊。
 

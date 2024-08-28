@@ -6,9 +6,9 @@ description: 任務和問題可以指派給敏捷團隊，並根據團隊使用�
 author: Lisa
 feature: Agile
 exl-id: 59660840-7ab8-482e-8b43-96b4a1ecc538
-source-git-commit: 8769637342ab65f1e627107f7bfb41f9a3f61cca
+source-git-commit: 452f8ddc5268a0d67e32090d166199f2fad7dbc7
 workflow-type: tm+mt
-source-wordcount: '1371'
+source-wordcount: '1360'
 ht-degree: 0%
 
 ---
@@ -39,20 +39,18 @@ ht-degree: 0%
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] 計劃</strong></td> 
+   <td role="rowheader">[!DNL Adobe Workfront] 計劃</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] 授權</strong></td> 
-   <td> <p>新增：[！UICONTROL Standard]</p><p>或</p><p>目前： [！UICONTROL Work]或更高版本</p> </td> 
-  </tr> 
+   <td role="rowheader">[!DNL Adobe Workfront] 授權</td> 
+   <td> <p>新增：[！UICONTROL Standard]</p> 
+   或
+   <p>目前： [！UICONTROL Work]或更高版本</p> </td> 
+  </tr>
   <tr> 
-   <td role="rowheader"><strong>存取層級設定</strong></td> 
-   <td> <p>新增：[！UICONTROL Standard]</p><p>或</p><p>目前： [！UICONTROL Worker]或更高版本</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"><strong>物件許可權</strong></td> 
-   <td> <p>[！UICONTROL Manage]內文所在專案的存取權</p>  </td> 
+   <td role="rowheader">物件許可權</td> 
+   <td>[！UICONTROL Manage]內文所在專案的存取權 </td> 
   </tr> 
  </tbody> 
 </table>
@@ -78,7 +76,7 @@ ht-degree: 0%
    >
    >如果任務或問題指派給敏捷團隊，且專案未處於等於目前狀態，則它們不會顯示在待辦專案中。 不過，它們仍會影響「訂單」欄中的待處理專案計數。
 
-1. 選取一或多個劇本，然後將這些劇本拖曳到您要它們顯示在待處理專案中的順序。\
+1. 選取一或多個劇本，然後將這些劇本拖曳到您要它們顯示在待處理專案中的順序。
    ![拖放待處理專案](assets/agile-backlog-drag-and-drop.png)
 
 ### 劃分劇本 {#break-down-stories}
@@ -96,8 +94,8 @@ ht-degree: 0%
 若要劃分劇本，請執行下列動作：
 
 1. 移至包含您要劃分之劇本的待處理專案。
-1. 選取您要分解的內文，然後按一下&#x200B;**[!UICONTROL 分解內文]**。\
-   顯示[!UICONTROL 分解劇本]對話方塊。\
+1. 選取您要分解的內文，然後按一下&#x200B;**[!UICONTROL 分解內文]**。
+顯示[!UICONTROL 分解劇本]對話方塊。
    ![分解劇本對話方塊](assets/backlog-breakdown-dialog.png)
 
 1. 指定內文的名稱和預估，然後選取內文是否準備就緒。
@@ -186,12 +184,10 @@ ht-degree: 0%
 1. （選用）刪除任何現有的受指派人。
 1. 按一下&#x200B;**[!UICONTROL 新增被指定者]**。
 1. 開始輸入您要指派給任務或問題的敏捷團隊名稱，然後按一下出現在下拉清單中的團隊名稱。
-1. 按一下「**[!UICONTROL 儲存變更]**」。\
-   團隊待處理專案現在提供任務或問題。
+1. 按一下&#x200B;**[!UICONTROL 儲存變更]**。
+團隊待處理專案現在提供任務或問題。
 
 ## 將劇本移入或移出待處理專案
-
-{#move-stories-from-the-backlog-to-an-iteration-or-kanban-board}
 
 * [將內文從待處理專案移至反複專案或+展示板](#move-stories-from-the-backlog-to-an-iteration-or--board)
 * [將現有劇本移至待處理專案](#move-existing-stories-to-the-backlog)
@@ -200,9 +196,9 @@ ht-degree: 0%
 ### 將內文從待處理專案移至反複專案或+展示板
 
 1. 前往敏捷團隊的待辦專案。
-1. 選取您要移至疊代或Kanban面板的內文，然後按一下「**[!UICONTROL 更多]** > **[!UICONTROL 移至]**」。\
-   如果將劇本移至[!UICONTROL Kanban]面板，則會顯示[!UICONTROL 將劇本移至Kanban]面板。\
-   如果將內文移至反複專案，會顯示[!UICONTROL 將內文移至反複專案]對話方塊。\
+1. 選取您要移至疊代或Kanban面板的內文，然後按一下「**[!UICONTROL 更多]** > **[!UICONTROL 移至]**」。
+如果將劇本移至[!UICONTROL Kanban]面板，則會顯示[!UICONTROL 將劇本移至Kanban]面板。
+如果將內文移至反複專案，會顯示[!UICONTROL 將內文移至反複專案]對話方塊。
    ![移動內文對話方塊](assets/agile-backlog-addtoiteration.png)
 
 1. 執行下列任一項作業：
