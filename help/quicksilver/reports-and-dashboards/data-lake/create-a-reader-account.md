@@ -1,25 +1,25 @@
 ---
 content-type: reference
 product-area: reports and dashboards
-navigation-topic: data lake
+navigation-topic: data connect
 title: 建立用於Snowflake的讀取器（服務）帳戶
-description: 若要存取Workfront Data Lake中的資料，您必須先建立讀取器帳戶以進行Snowflake。
+description: 若要存取Data Connect資料，您必須先建立Snowflake讀取器帳戶。
 author: Nolan
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: 70d83a10-f926-4229-ac10-7659f2ca5e7a
-source-git-commit: e5bd25315062ad15ccd3448e008dfe94f1b616da
+source-git-commit: 16809b2d1801dd7aa4ab1f452e4687601fc1ac59
 workflow-type: tm+mt
-source-wordcount: '469'
+source-wordcount: '464'
 ht-degree: 0%
 
 ---
 
 # 建立用於Snowflake的讀取器（服務）帳戶
 
-若要存取Workfront Data Lake資料，您必須先為每個新連線建立Snowflake讀取器（或服務）帳戶。 建立連線後，您可以在&#x200B;**現有連線**&#x200B;標籤下的&#x200B;**資料存取**&#x200B;頁面（**主功能表** > **設定** > **系統** > **資料存取**）上按一下連線，以找到其相關聯的URL和使用者名稱。
+若要存取Data Connect資料，您必須先為每個新連線建立Snowflake讀取器（或服務）帳戶。 建立連線後，您可以在&#x200B;**現有連線**&#x200B;標籤下的&#x200B;**資料存取**&#x200B;頁面（**主功能表** > **設定** > **系統** > **資料存取**）上按一下連線，以找到其相關聯的URL和使用者名稱。
 
-如需將新建立的連線與外部產品搭配使用的詳細資訊，請參閱[建立與Workfront資料湖的連線](/help/quicksilver/reports-and-dashboards/data-lake/share-data-externally.md)。
+如需有關使用新建立的外部產品連線的資訊，請參閱[建立與Workfront Data Connect的連線](/help/quicksilver/reports-and-dashboards/data-lake/share-data-externally.md)。
 
 ## 存取需求
 
@@ -68,7 +68,7 @@ ht-degree: 0%
 
    ![重設Snowflake密碼](/help/quicksilver/reports-and-dashboards/data-lake/assets/reset-snowflake-password.png) {width="300"}
 
-1. 您現在可以使用使用者名稱和新密碼，在Snowflake或您選擇的業務視覺化工具中存取您的Workfront Data Lake。
+1. 您現在可以使用使用者名稱和新密碼，在Snowflake或您選擇的商業視覺化工具中存取您的Data Connect Data Lake。
 
 ## 撤銷Reader帳戶
 

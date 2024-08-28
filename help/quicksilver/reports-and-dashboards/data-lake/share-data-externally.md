@@ -1,25 +1,25 @@
 ---
 content-type: overview;reference
 product-area: reports and dashboards
-navigation-topic: data lake
+navigation-topic: data connect
 title: 建立與Workfront資料湖的連線
 description: Workfront data lake可讓您將組織的Workfront資料與熱門的商業智慧工具搭配使用，或將其儲存在外部資料倉儲中。
 author: Nolan
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: 8348f5ff-c1f8-4608-b683-15f6407c6128
-source-git-commit: 91371c862be6f3b99f0450ff359f601dc913dc0c
+source-git-commit: 16809b2d1801dd7aa4ab1f452e4687601fc1ac59
 workflow-type: tm+mt
 source-wordcount: '532'
 ht-degree: 1%
 
 ---
 
-# 建立與Workfront資料湖的連線
+# 建立與Workfront資料連線的連線
 
-Workfront data lake可讓您透過商業智慧工具使用組織的Workfront資料，或將其儲存在外部資料倉儲中。
+Workfront Data Connect可讓您將組織的Workfront資料與商業智慧工具搭配使用，或將其儲存在外部資料倉儲中。
 
-若要將您的Workfront Data Lake資料與外部產品連線，您必須先將任何必要的IP新增至允許清單，如下文[新增IP至允許清單](#add-ips-to-the-allowlist)所述。 此外，大部分產品在建立連線時，都需要您提供資料湖的其他相關資訊：
+若要將您的Data Connect資料湖連線到外部產品，您必須先將任何必要的IP新增到允許清單，如下文[將IP新增到允許清單](#add-ips-to-the-allowlist)中所述。 此外，大部分產品在建立連線時，都需要您提供資料湖的其他相關資訊：
 
 | 欄位名稱 | 值 |
 |---------------|-------------|
@@ -32,14 +32,13 @@ Workfront data lake可讓您透過商業智慧工具使用組織的Workfront資�
 | 使用者名稱 | 建立連線時選擇的使用者名稱(可在Workfront的&#x200B;**資料存取**&#x200B;頁面上找到*) |
 | 密碼 | 首次Snowflake登入時選擇的密碼* |
 
-*如需在何處尋找包含您的資料湖連線的&#x200B;**資料存取**&#x200B;頁面的詳細資訊，請參閱[為Snowflake建立讀取器（服務）帳戶](/help/quicksilver/reports-and-dashboards/data-lake/create-a-reader-account.md)。
+*如需在何處尋找包含您的Data Connect連線的&#x200B;**資料存取**&#x200B;頁面的詳細資訊，請參閱[為Snowflake建立讀取器（服務）帳戶](/help/quicksilver/reports-and-dashboards/data-lake/create-a-reader-account.md)。
 
 >[!IMPORTANT]
 >
 >將一個專案新增到IP允許清單後，將不再允許所有其他IP位址。 在嘗試使用視覺化工具之前，請確定您已輸入所有必要的IP位址（包括建置和讀取視覺化工具的體驗）。 否則，您可能會遇到有關無效認證的錯誤。
 >
 >如果您的允許清單中未包含任何IP位址，但連線至BI工具時仍有問題，請檢查BI工具的Proxy伺服器設定。
-
 
 ## 將IP新增至允許清單
 

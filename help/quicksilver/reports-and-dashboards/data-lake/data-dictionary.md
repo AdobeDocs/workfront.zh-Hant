@@ -1,31 +1,31 @@
 ---
 content-type: reference
 product-area: reports and dashboards
-navigation-topic: data lake
-title: 資料湖資料字典
-description: 此頁面包含Workfront Data Lake中資料的結構與內容相關資訊。
+navigation-topic: data connect
+title: Workfront Data Connect資料字典
+description: 本頁包含有關Workfront Data Connect中資料結構和內容的資訊。
 author: Nolan
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: 57985404-554e-4289-b871-b02d3427aa5c
-source-git-commit: 81f8477dd26b828c4255c678b36d98789cd81ff8
+source-git-commit: 16809b2d1801dd7aa4ab1f452e4687601fc1ac59
 workflow-type: tm+mt
-source-wordcount: '725'
+source-wordcount: '726'
 ht-degree: 5%
 
 ---
 
-# Workfront data lake資料字典
+# Workfront Data Connect資料字典
 
-此頁面包含Workfront Data Lake中資料的結構與內容相關資訊。
+本頁包含有關Workfront Data Connect中資料結構和內容的資訊。
 
 >[!NOTE]
 >
->Workfront Data Lake中的資料每四小時會重新整理一次，因此最近的變更可能不會立即顯示。
+>Data Connect中的資料每四小時會重新整理一次，因此最近的變更可能不會立即顯示。
 
 ## 表格型別
 
-您可以透過多種表格型別，提供最深入的分析來檢視Workfront資料。
+在「資料連線」中您可以運用許多表格型別，以提供最深入分析的方式檢視您的Workfront資料。
 
 * **目前的資料表**
 
@@ -43,9 +43,9 @@ ht-degree: 5%
 
 ## 實體關係圖
 
-Workfront中的物件（以及您資料湖中的物件）不僅是由其個別值所定義，也是由其與其他物件的關係所定義。 下列實體關係圖表提供Workfront資料湖中物件關係的高層級對應。 您可以使用下列連結來檢視和下載圖表：
+Workfront中的物件（以及您的Data Connect資料湖中的物件）不僅是由其個別值所定義，也是由其與其他物件的關係所定義。 下面的實體關係圖提供資料連線中物件關係的高階對應。 您可以使用下列連結來檢視和下載圖表：
 
-[Workfront data lake實體關係圖](/help/quicksilver/reports-and-dashboards/data-lake/assets/Workfront-data-lake_entity-relationship-diagram.pdf)
+[資料連線實體關係圖](/help/quicksilver/reports-and-dashboards/data-lake/assets/Workfront-data-lake_entity-relationship-diagram.pdf)
 
 >[!IMPORTANT]
 >
@@ -62,7 +62,7 @@ Workfront中的物件（以及您資料湖中的物件）不僅是由其個別�
 
 ## 術語表
 
-下表將Workfront中的物件名稱（及其在介面和API中的名稱）與其在資料湖中的對等名稱建立關聯。
+下表將Workfront中的物件名稱（及其在介面和API中的名稱）與其在Data Connect中的對等名稱建立關聯。
 
 <table>
 <thead>
