@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: eeebc09c16c2c0d5a624dc57ae8603fb525d29c1
+source-git-commit: d4aa6bee72ac1f17884ae38d24bd094c0b62336a
 workflow-type: tm+mt
-source-wordcount: '7338'
+source-wordcount: '7432'
 ht-degree: 0%
 
 ---
@@ -28,28 +28,14 @@ ht-degree: 0%
 >如需Workfront Planning的概觀，請參閱[Adobe Workfront Planning概觀](/help/quicksilver/planning/general/planning-overview.md)。
 >
 
-<!--[!IMPORTANT]
->
->The information in this article refers to Adobe Workfront Planning, a new offering from Adobe Workfront. 
->
->Currently, Workfront Planning is in an early access stage which is open to a limited number of customers. 
->
->You must be a Workfront customer to use these capabilities. 
->
->Your account representative will inform you if you are part of this stage.
->
->For more information, see [Adobe Workfront Planning overview](/help/quicksilver/planning/general/planning-overview.md).
->
->In some cases, the documentation referenced in the sections below might be available after the features documented are released to Production. -->
-
 本文列出2024年早期存取期間發行給Workfront Planning的功能。
 
-已發行的功能會依其發行順序列出，最新的排在前。 參與Workfront Planning計畫的客戶可存取其生產環境中的所有功能。
+已發行的功能會依其發行順序列出，最新的排在前。
 
 另請參閱下列文章以取得針對Workfront Planning發行的更多功能：
 
-* [Adobe Workfront 2023年規劃發行活動](/help/quicksilver/planning/general/release-activity-archives-2023.md)列出2023年期間在Beta版發行期間發行的功能。
-* [Adobe Workfront Planning發行活動：文章索引](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)列出目前發行至Workfront Planning的功能，此功能已於2024年8月28日全面推出後。
+* 針對2023年期間Beta版期間發行的功能，[Adobe Workfront 2023年規劃發行活動](/help/quicksilver/planning/general/release-activity-archives-2023.md)。
+* [Adobe Workfront Planning發行活動：目前發行至Workfront Planning之功能的文章索引](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)，於2024年8月28日全面推出後。
 
 ## Workfront Planning發行時間表
 
@@ -130,14 +116,6 @@ ht-degree: 0%
 
 如需詳細資訊，請參閱文章[建立欄位](/help/quicksilver/planning/fields/create-fields.md)的「公式」一節。
 
-### 為存取請求啟用Workfront Planning通知
-
-預覽和生產： 2024年8月28日
-
-當您請求存取工作區時，您請求存取權的使用者會收到有關請求的電子郵件通知。 請求被授權後，您會收到電子郵件通知，其中包含確認或拒絕您的請求。 當許可權被授予時，您可以從電子郵件通知存取檢視或工作區。
-
-如需詳細資訊，請參閱[要求檢視或工作區的許可權](/help/quicksilver/planning/access/request-permissions.md)。
-
 ### 記錄檢視中的即時狀態指示器
 
 預覽和生產： 2024年8月28日
@@ -175,48 +153,43 @@ ht-degree: 0%
 * [自訂表單中的外部查閱欄位範例](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/external-lookup-examples.md)
 * [Adobe Workfront Planning API基本需知](/help/quicksilver/planning/general/planning-api-basics.md)
 
-<!--
-### New Settings menu in the Calendar view
+### 在行事曆檢視中新增設定功能表
 
-Preview and Production: August 28, 2024 
+預覽和生產： 2024年8月28日
 
-There is a new Settings option with which you can personalize the look and feel of the record bars in the Calendar view. You can do the following: 
+有一個新的「設定」選項，您可以使用它在「行事曆」檢視中個人化錄製列的外觀和風格。 您可以執行下列動作：
 
-* Update the date and time of the records  
+* 更新記錄的日期和時間
 
-* Update the bar style 
+* 更新橫條樣式
 
-* Change the color of the record bars or their groupings to match one of the following:  
+* 變更記錄列或其群組的顏色，以符合下列其中一項：
 
-    * The color of the record type 
+   * 記錄型別的顏色
 
-    * The color of a field that you select 
+   * 您選取的欄位顏色
 
-    * The color of the grouping 
+   * 群組的顏色
 
-    * No color (the default) 
+   * 無顏色（預設）
 
- When matching colors to a certain field, you can select only fields with color-coded options. 
+將顏色與特定欄位比對時，您只能選取具有顏色編碼選項的欄位。
 
- For more information, see [Manage the calendar view](/help/quicksilver/planning/views/manage-the-calendar-view.md). 
+如需詳細資訊，請參閱[管理行事曆檢視](/help/quicksilver/planning/views/manage-the-calendar-view.md)。
 
+### 已為Workfront Planning重新啟用AI助理
 
-### The AI Assistant has been re-enabled for Workfront Planning
+生產與預覽： 2024年8月28日
 
-Production and Preview: August 28, 2024
+Workfront AI助理已針對Workfront規劃區域重新啟用。
 
-The Workfront AI Assistant has been re-enabled for the Workfront Planning area. 
+如需Workfront Planning AI助理的詳細資訊，請參閱[Adobe Workfront Planning AI助理概述](/help/quicksilver/planning/general/planning-ai-assistant-overview.md)。
 
-For more information about the Workfront Planning AI Assistant, see [Adobe Workfront Planning AI Assistant overview](/help/quicksilver/planning/general/planning-ai-assistant-overview.md).
- 
+### 使用畫布控制面板的Workfront Planning的報告功能
 
-### Reporting capabilities for Workfront Planning with the Canvas Dashboard 
+生產與生產： 2024年8月28日
 
-Production and Production: August 28, 2024 
-
-You can now view Workfront Planning information in a report using the Workfront Canvas Dashboard. For information, see [Get started with Canvas Dashboards](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/get-started-canvas-dashboards.md).
-
--->
+您現在可以使用Workfront Canvas Dashboard在報表中檢視Workfront Planning資訊。 如需詳細資訊，請參閱[開始使用畫布儀表板](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/get-started-canvas-dashboards.md)。
 
 ## 2024年8月19日起一週
 
