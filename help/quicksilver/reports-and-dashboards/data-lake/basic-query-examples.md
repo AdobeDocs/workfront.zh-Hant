@@ -8,9 +8,9 @@ author: Nolan
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: f2da081c-bdce-4012-9797-75be317079ef
-source-git-commit: 16809b2d1801dd7aa4ab1f452e4687601fc1ac59
+source-git-commit: 84f7f80314e4acafb0414b806f7b1e1e4b2845fc
 workflow-type: tm+mt
-source-wordcount: '250'
+source-wordcount: '246'
 ht-degree: 0%
 
 ---
@@ -25,11 +25,11 @@ ht-degree: 0%
 
 ### 案例：
 
-您的組織PeopleSoft會使用名為Finance Integration的自訂表單。 此表單會附加至每個專案，並包含下列欄位：
+您的組織使用名為Finance Integration的自訂表單。 此表單會附加至每個專案，並包含下列欄位：
 
-* **PeopleSoft業務單位** — 包含字串的自訂欄位。
-* **PeopleSoft ProjectID** — 包含數字字串的自訂欄位。
-* **展開的專案名稱** — 將PeopleSoft Business Unit、PeopleSoft ProjectID的值及原生Workfront專案名稱串連為單一字串的計算自訂資料欄位。
+* **業務單位** — 包含字串的自訂欄位。
+* **ProjectID** — 包含數字字串的自訂欄位。
+* **展開的專案名稱** — 將商業單位、專案ID和原生Workfront專案名稱的值串連為單一字串的計算自訂資料欄位。
 
 您需要將此資訊包含在針對Data Connect的查詢的回應中。 資料湖中記錄的自訂資料值包含在標題為`parameterValues`的欄中。 此欄會儲存為JSON物件。
 
@@ -40,8 +40,8 @@ SELECT
     projectid,
     parametervalues,
     name,
-    parametervalues:"DE:PeopleSoft Business Unit" :: int as PeopleSoftBusinessUnit,
-    parametervalues:"DE:PeopleSoft Project ID" :: int as PeopleSoftProjectID,
+    parametervalues:"DE:Business Unit" :: int as BusinessUnit,
+    parametervalues:"DE:Project ID" :: int as ProjectID,
     parametervalues:"DE:Expanded Project Name" :: text as ExpandedProjectName
 FROM PROJECTS_CURRENT
 WHERE ExpandedProjectName is not null
@@ -54,8 +54,8 @@ WHERE ExpandedProjectName is not null
 * `projectid` — 原生Workfront專案ID
 * `parametervalues` — 儲存JSON物件的欄
 * `name` — 原生Workfront專案名稱
-* `PeopleSoft Business Unit` - `parametervalues`物件中包含的自訂資料值
-* `PeopleSoft Project ID` - `parametervalues`物件中包含的自訂資料值
+* `Business Unit` - `parametervalues`物件中包含的自訂資料值
+* `Project ID` - `parametervalues`物件中包含的自訂資料值
 * `Expanded Project Name` - `parametervalues`物件中包含的自訂資料值
 
 <!--## Task query 

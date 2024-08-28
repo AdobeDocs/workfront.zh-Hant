@@ -5,9 +5,9 @@ title: 舊版首頁淘汰指南
 description: 本頁包含即將淘汰舊版首頁的資訊。
 author: Nolan
 feature: Product Announcements
-source-git-commit: 3f1882b555658b2095d99258900f3bba28246c3f
+source-git-commit: 84f7f80314e4acafb0414b806f7b1e1e4b2845fc
 workflow-type: tm+mt
-source-wordcount: '784'
+source-wordcount: '808'
 ht-degree: 0%
 
 ---
@@ -53,7 +53,7 @@ Adobe Workfront社群，我們有新聞了 — 我們很快就會淘汰舊版首
 
 1. 將其他使用者重新指派給新的首頁版面配置。
 
-如此一來，您的使用者就能儘快適應新體驗，並自訂新首頁，以最符合個人需求。
+如此一來，您的使用者就能儘快適應新體驗，並自訂新首頁，以最符合個人需求。 請參閱新首頁](/help/quicksilver/workfront-basics/using-home/new-home/add-edit-remove-widgets-in-new-home.md)中的[移除、新增和重新排列Widget，瞭解使用者如何在自己的新首頁上自訂這些Widget。
 
 ### 隨著首頁開發的體驗進行
 
@@ -74,7 +74,7 @@ Adobe Workfront社群，我們有新聞了 — 我們很快就會淘汰舊版首
 
 幾乎，以下除外：
 
-* 行事曆，目前位於我們新首頁的藍圖上。
+* 行事曆，目前在我們優先順序的藍圖上。
 
 * 目前無法顯示物件到期日的時間戳記。
 

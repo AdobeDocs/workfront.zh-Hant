@@ -2,22 +2,22 @@
 content-type: overview;reference
 product-area: reports and dashboards
 navigation-topic: data connect
-title: Workfront data lake概觀
-description: Workfront Data Lake功能概述
+title: Workfront Data Connect概觀
+description: Workfront Data Connect概述
 author: Nolan
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: 5224c12a-7879-491b-87ec-6173bcf9525c
-source-git-commit: 16809b2d1801dd7aa4ab1f452e4687601fc1ac59
+source-git-commit: 84f7f80314e4acafb0414b806f7b1e1e4b2845fc
 workflow-type: tm+mt
 source-wordcount: '159'
 ht-degree: 0%
 
 ---
 
-# Data Connect概述
+# Workfront Data Connect概觀
 
-Data Connect可讓您使用Snowflake技術前所未有地存取Workfront資料，讓您回答業務關鍵問題並評估流程的價值。 此功能可讓企業客戶直接從Workfront資料湖使用資料視覺化工具詢問其資料，或將Workfront資料匯出至客戶擁有的資料倉儲。
+Workfront Data Connect可讓您使用Snowflake技術前所未有地存取Workfront資料，解答業務關鍵問題並評估流程價值。 此功能可讓企業客戶直接從Workfront資料湖使用資料視覺化工具詢問其資料，或將Workfront資料匯出至客戶擁有的資料倉儲。
 
 訂閱者可自行選擇商務智慧工具(Tableau、Power BI、Domo、Looker等) 使用Data Connect建立具有以下資料型別的資料視覺效果：
 
