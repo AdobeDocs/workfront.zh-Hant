@@ -4,9 +4,7 @@ content-type: reference
 description: AI助理總覽
 author: Becky
 feature: Get Started with Workfront
-hide: true
-hidefromtoc: true
-source-git-commit: 1517f7480bbe481bc918876441d1b70b09963a97
+source-git-commit: d261fd9eb9b8b649ebe413e35161543db1db8412
 workflow-type: tm+mt
 source-wordcount: '620'
 ht-degree: 0%

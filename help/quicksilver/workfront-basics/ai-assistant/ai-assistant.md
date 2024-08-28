@@ -4,10 +4,8 @@ content-type: reference
 description: 檢視有關Workfront中AI助理的可用文章清單
 author: Becky
 feature: Get Started with Workfront
-hide: true
-hidefromtoc: true
 exl-id: 3f83dd91-d7de-4050-89b7-f53cbc4389a0
-source-git-commit: 2a6de1325895bc36527ab83b1d0b47910636b9b9
+source-git-commit: d261fd9eb9b8b649ebe413e35161543db1db8412
 workflow-type: tm+mt
 source-wordcount: '49'
 ht-degree: 0%

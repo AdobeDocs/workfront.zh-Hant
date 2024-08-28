@@ -4,10 +4,8 @@ content-type: reference
 description: 您可以使用「摘要」這項功能，快速摘要工作專案和檔案。
 author: Becky
 feature: Get Started with Workfront
-hide: true
-hidefromtoc: true
 exl-id: c7460e8f-a7ae-415a-8db0-29736e8be0f8
-source-git-commit: 513d33c653901394f35c342d8dbf89906017fb3f
+source-git-commit: d261fd9eb9b8b649ebe413e35161543db1db8412
 workflow-type: tm+mt
 source-wordcount: '250'
 ht-degree: 0%

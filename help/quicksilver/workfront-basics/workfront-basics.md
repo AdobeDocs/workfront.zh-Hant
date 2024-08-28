@@ -7,10 +7,10 @@ author: Nolan
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: c0b25ec2-38a5-4499-9366-be3b71ae62a2
-source-git-commit: 4f63bca8634663c4106be0175851af0b982d3408
+source-git-commit: d261fd9eb9b8b649ebe413e35161543db1db8412
 workflow-type: tm+mt
-source-wordcount: '82'
-ht-degree: 17%
+source-wordcount: '86'
+ht-degree: 16%
 
 ---
 
@@ -29,4 +29,5 @@ ht-degree: 17%
 * [授與物件並要求物件的許可權](../workfront-basics/grant-and-request-access-to-objects/grant-and-request-access-to-objects.md)
 * [管理您的帳戶和設定檔](../workfront-basics/manage-your-account-and-profile/manage-your-account-and-profile.md)
 * [行動應用程式](../workfront-basics/mobile-apps/mobile-apps.md)
+* [Workfront中的AI助理](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant.md)
 * [Adobe Workfront基本功能的提示、秘訣和疑難排解](../workfront-basics/tips-tricks-and-troubleshooting/tips-tricks-troubleshooting-basics.md)

@@ -4,10 +4,8 @@ content-type: reference
 description: 您可以使用AI助理來解決計算欄位中無效自訂運算式的錯誤。
 author: Becky
 feature: Get Started with Workfront
-hide: true
-hidefromtoc: true
 exl-id: 5f144a6f-5c2a-42fc-a961-ab9066432d93
-source-git-commit: 513d33c653901394f35c342d8dbf89906017fb3f
+source-git-commit: d261fd9eb9b8b649ebe413e35161543db1db8412
 workflow-type: tm+mt
 source-wordcount: '298'
 ht-degree: 0%
