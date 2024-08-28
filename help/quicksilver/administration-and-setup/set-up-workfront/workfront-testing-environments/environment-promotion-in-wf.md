@@ -8,9 +8,8 @@ description: 「環境升級」功能的目的是提供與組態相關的物件�
 author: Becky
 feature: System Setup and Administration
 role: Admin
-recommendations: noDisplay, noCatalog
 exl-id: 8b4c04f5-f519-44e9-8429-0ce80c2d7c5b
-source-git-commit: 706c27e611b1bd1e1c06eb3fd2e59ad0f55a6157
+source-git-commit: e9df34c206dd65ccc2edec00087248eb4ed16f54
 workflow-type: tm+mt
 source-wordcount: '1009'
 ht-degree: 1%

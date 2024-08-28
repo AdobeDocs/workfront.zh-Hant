@@ -8,10 +8,10 @@ description: 探索關於Workfront環境升級的常見問題。
 author: Becky
 feature: System Setup and Administration
 role: Admin
-recommendations: noDisplay, noCatalog
-source-git-commit: e2150f344ddc8626389afaaccc7c394f61c2dbc9
+exl-id: e9794262-80cc-4641-a5c6-7130cf008ba2
+source-git-commit: 2bbfd449d913a5134c9c36b1ee10567973c56eaa
 workflow-type: tm+mt
-source-wordcount: '300'
+source-wordcount: '301'
 ht-degree: 3%
 
 ---
@@ -30,7 +30,7 @@ ht-degree: 3%
 
 ### 解答
 
-否。環境升級適用於啟用IMS和非IMSorkfront的執行個體。
+否。「環境升級」適用於啟用IMS和非IMS Workfront執行個體。
 
 ## 如何知道我們的Workfront執行個體是否位於Prime或Ultimate授權上？
 
@@ -73,4 +73,3 @@ ht-degree: 3%
 * 「使用現有」等同於「略過」或忽略部署，因為它對應到目標環境中的現有物件，而且不會進行任何變更。
 * 若要略過物件，建議移除
 不想從推進套件或直接從來源環境安裝的任何物件。 移除物件後，重新組裝封裝。
-
