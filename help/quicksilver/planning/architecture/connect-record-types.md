@@ -5,7 +5,7 @@ feature: Workfront Planning
 role: User
 author: Alina
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
-source-git-commit: 743dbef27149f42ee2328e45a76be660657a75bb
+source-git-commit: a3006a05b7003e638596c2754b77e914083a5643
 workflow-type: tm+mt
 source-wordcount: '2137'
 ht-degree: 1%
@@ -191,6 +191,8 @@ You can use Adobe Workfront Planning to design fully-customizable workspaces tha
 
 
    * 來自另一個工作區的記錄型別，該記錄型別被設定為從其他工作區連線。 如需詳細資訊，請參閱[編輯記錄型別](/help/quicksilver/planning/architecture/edit-record-types.md)。
+
+     ![](assets/connect-record-from-another-workspace-new-connection-tab.png)
 
      >[!TIP]
      >

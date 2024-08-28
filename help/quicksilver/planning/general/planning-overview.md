@@ -6,10 +6,10 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: bffa5992a530761afe57ec62b4cbba2bf03ad1e6
+source-git-commit: a3006a05b7003e638596c2754b77e914083a5643
 workflow-type: tm+mt
-source-wordcount: '1986'
-ht-degree: 1%
+source-wordcount: '1989'
+ht-degree: 2%
 
 ---
 
@@ -174,8 +174,6 @@ Workfront Planning的架構可完全自訂。 您可以建立所有記錄型別�
 
 * **Workspace**：定義特定組織作業生命週期的記錄型別集合。 工作區是組織單位的工作框架。
 
-  一個Workfront例項最多可以有1,000個工作區。
-
   ![](assets/marketing-workspace-with-record-type-taxonomies-opening-page.png)
 
   如需詳細資訊，請參閱[建立工作區](/help/quicksilver/planning/architecture/create-workspaces.md)。
@@ -204,9 +202,15 @@ Workfront Planning的架構可完全自訂。 您可以建立所有記錄型別�
 
   ![](assets/workspaces-page-with-templates-thumbnails.png)
 
-  Adobe Workfront計畫隨附銷售、行銷和產品管理工作區範本。
+  Adobe Workfront Planning包含下列範本：
 
-  如需詳細資訊，請參閱[建立工作區](/help/quicksilver/planning/architecture/create-workspaces.md)。
+   * 基本：行銷管理
+   * 進階：行銷管理
+   * 企業：行銷管理
+   * 銷售管理
+   * 產品管理
+
+  如需詳細資訊，請參閱[工作區範本清單](/help/quicksilver/planning/architecture/workspace-templates.md)。
 
 * **欄位**：欄位是您可以新增到記錄型別的屬性。 欄位包含有關記錄型別的資訊。<!--check the shot below, "Connection" needs to be in lowercase-->
 
@@ -293,7 +297,7 @@ Workfront Planning的架構可完全自訂。 您可以建立所有記錄型別�
 
   以下是您可以套用至記錄型別頁面的檢視型別：
 
-   * **表格檢視**：以表格格式顯示記錄及其欄位，包括已連線和查詢欄位。 表格的列是個別記錄，欄是記錄欄位。 這是預設檢視。
+   * **資料表檢視**：以資料表格式顯示記錄及其欄位，包括連線和查詢欄位。 表格的列是個別記錄，欄是記錄欄位。 表格檢視是預設的檢視。
 
      ![](assets/table-view-example.png)
 

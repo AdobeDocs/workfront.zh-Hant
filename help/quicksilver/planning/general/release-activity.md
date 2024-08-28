@@ -6,7 +6,7 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: d4aa6bee72ac1f17884ae38d24bd094c0b62336a
+source-git-commit: a3006a05b7003e638596c2754b77e914083a5643
 workflow-type: tm+mt
 source-wordcount: '7432'
 ht-degree: 0%
@@ -179,7 +179,7 @@ ht-degree: 0%
 
 ### 已為Workfront Planning重新啟用AI助理
 
-生產與預覽： 2024年8月28日
+預覽和生產： 2024年8月28日
 
 Workfront AI助理已針對Workfront規劃區域重新啟用。
 
@@ -187,7 +187,7 @@ Workfront AI助理已針對Workfront規劃區域重新啟用。
 
 ### 使用畫布控制面板的Workfront Planning的報告功能
 
-生產與生產： 2024年8月28日
+預覽和生產： 2024年8月28日
 
 您現在可以使用Workfront Canvas Dashboard在報表中檢視Workfront Planning資訊。 如需詳細資訊，請參閱[開始使用畫布儀表板](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/get-started-canvas-dashboards.md)。
 

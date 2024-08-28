@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
-source-git-commit: 61cad7dc76ba04ea84ff0bd5052182f040f7b4d9
+source-git-commit: a3006a05b7003e638596c2754b77e914083a5643
 workflow-type: tm+mt
-source-wordcount: '2710'
+source-wordcount: '2714'
 ht-degree: 1%
 
 ---
@@ -225,7 +225,7 @@ hide: yes
 
    工作區隨即開啟，且記錄型別會顯示為卡片。
 1. 按一下記錄型別的卡片以開啟記錄型別頁面。
-1. 按一下&#x200B;**表格**&#x200B;檢視的名稱以開啟。
+1. 按一下表格檢視的名稱以開啟它。
 1. （選擇性）將記錄新增至表格的新列，以將記錄新增至您選取的記錄型別。 如需詳細資訊，請參閱[建立記錄](/help/quicksilver/planning/records/create-records.md)。
 1. （視條件而定）將選取的記錄型別與其他記錄型別連結後，請移至連結的記錄欄，然後按兩下要與其他記錄連結之記錄對應的儲存格。
 
@@ -240,7 +240,7 @@ hide: yes
 
    >[!TIP]
    >
-   >    您可以在表格檢視中執行下列動作，開啟記錄的頁面：
+   >    您可以在表格檢視中執行下列動作，開啟記錄的頁面並連線其他記錄：
    >1. 按一下檢視中的記錄名稱。
    >1. 找到連結的記錄欄位，然後按兩下該欄位（如果已經有連線的記錄）
    >或

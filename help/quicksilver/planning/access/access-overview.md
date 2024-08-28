@@ -6,9 +6,9 @@ feature: Workfront Planning
 recommendations: noDisplay, noCatalog
 role: User, Admin
 exl-id: 99fac041-a235-4991-b826-d19944164bc9
-source-git-commit: f8ad026582be5b4c89939af8f135151ffaabccfe
+source-git-commit: a3006a05b7003e638596c2754b77e914083a5643
 workflow-type: tm+mt
-source-wordcount: '665'
+source-wordcount: '661'
 ht-degree: 1%
 
 ---
@@ -102,7 +102,7 @@ ht-degree: 1%
    <ul>
    <li><p>檢視您未建立的工作區和檢視的更高許可權，以存取工作區及其物件。</p></li>
    <li><p>Contribute或您未建立之工作區的更高許可權，無法編輯工作區和建立、編輯或刪除記錄型別和記錄。</p></li>
-   <li><p>非建立檢視的Contribute或更高許可權，可執行編輯、刪除和共用等操作</p>
+   <li><p>Contribute或您未建立之檢視的更高許可權，可編輯、刪除和共用檢視</p>
    </li>
     <li><p>系統管理員可以管理他們未建立的工作區。 </p></li>
     <li><p>系統管理員無法存取他們未建立的檢視。 </p></li></ul>
@@ -221,11 +221,11 @@ Workfront Planning沒有Workfront存取控制。
 
 ## 授予許可權
 
-您必須授予使用者Workfront Planning工作區和您建立之檢視的許可權，使用者才能加以存取。
+您必須授予使用者許可權，讓使用者存取您為其建立的Workfront Planning工作區和檢視。
 
 如需詳細資訊，請參閱[在Adobe Workfront Planning中共用許可權的總覽](/help/quicksilver/planning/access/sharing-permissions-overview.md)。
 
-您的Adobe Workfront授權型別會與您的Workfront Planning許可權搭配使用，提供您檢視、貢獻或管理Workfront Planning物件的存取權。
+您的Adobe Workfront授權型別與Workfront Planning許可權搭配使用，可讓您檢視、貢獻或管理Workfront Planning物件。
 
 如需授權型別如何影響Workfront Planning物件許可權等級的資訊，請參閱[使用Adobe Workfront Planning時的授權型別概觀](/help/quicksilver/planning/access/license-type-overview.md)。
 

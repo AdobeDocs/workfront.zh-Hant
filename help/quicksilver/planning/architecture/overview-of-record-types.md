@@ -5,9 +5,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 1de095b3-78d9-44df-a678-51f4238deb91
-source-git-commit: 83c716dea3815ed9a2ce4c3d0598ef42b128de87
+source-git-commit: a3006a05b7003e638596c2754b77e914083a5643
 workflow-type: tm+mt
-source-wordcount: '274'
+source-wordcount: '260'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ Workfront Planning物件型別稱為「記錄型別」，只有在使用者建�
 * 當您在從頭開始建立的工作區中建立記錄型別時，可以將記錄型別置於您在工作區中建立的任何區段中。
 * 當您建立記錄型別時，只有您和您授予存取工作區許可權的人可以檢視記錄型別。
 * 您必須先建立工作區，才能為工作區建立記錄型別。
-* 一個工作區中總共可有1,000種記錄型別，無論工作區有多少區段皆然。 這包括您從頭建立的記錄型別，或使用範本時建立的記錄型別。
+* 如需一個工作區或Workfront執行個體中可以擁有多少記錄型別的限制，請參閱[Adobe Workfront Planning物件限制概觀](/help/quicksilver/planning/general/limitations-overview.md)。
 
 
 <!--
