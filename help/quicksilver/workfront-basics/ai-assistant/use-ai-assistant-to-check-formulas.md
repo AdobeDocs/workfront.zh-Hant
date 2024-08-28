@@ -5,7 +5,7 @@ description: 您可以使用AI助理來解決計算欄位中無效自訂運算�
 author: Becky
 feature: Get Started with Workfront
 exl-id: 5f144a6f-5c2a-42fc-a961-ab9066432d93
-source-git-commit: d261fd9eb9b8b649ebe413e35161543db1db8412
+source-git-commit: 09c05db7c6a5db7db74dd95ca323415f4318489d
 workflow-type: tm+mt
 source-wordcount: '298'
 ht-degree: 0%
@@ -68,3 +68,4 @@ AI助理可以協助您將公式修訂為有效的計算欄位運算式。
 >我們建議測試計算欄位，以確保其會擷取預期結果。
 
 如需Workfront中計算欄位的詳細資訊，請參閱[將計算欄位新增至表單](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md)。
+

@@ -4,7 +4,7 @@ content-type: reference
 description: AI助理總覽
 author: Becky
 feature: Get Started with Workfront
-source-git-commit: 3db36df88d4bb716cf4c37cd76b6d058a5a6f9b6
+source-git-commit: 09c05db7c6a5db7db74dd95ca323415f4318489d
 workflow-type: tm+mt
 source-wordcount: '607'
 ht-degree: 0%
@@ -113,4 +113,5 @@ AI助理目前提供下列功能：
 1. 輸入貴組織將簽署AdobeGen AI合約之個人的名稱和電子郵件地址。
 
    合約將傳送給此人簽署。 簽署並傳回之後，就會為貴組織啟用AI小幫手。
+
 

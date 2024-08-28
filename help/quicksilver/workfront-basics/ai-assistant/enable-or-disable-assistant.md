@@ -5,7 +5,7 @@ description: 您可以控制組織中哪些存取層級有權存取AI助理。
 author: Becky
 feature: Get Started with Workfront
 exl-id: eec9f484-e29b-4256-b9ef-b45eb2e78eac
-source-git-commit: eee21282e894137df32e3d23e7affcc0f43abd02
+source-git-commit: 09c05db7c6a5db7db74dd95ca323415f4318489d
 workflow-type: tm+mt
 source-wordcount: '228'
 ht-degree: 1%
@@ -58,3 +58,4 @@ AI助理預設為停用。
 1. 在設定其他限制區域中，啟用選項&#x200B;**啟用Workfront AI小幫手**。
 1. 按一下「**儲存**」。
 1. 對要啟用AI助理的每個存取層級重複步驟3至6。
+

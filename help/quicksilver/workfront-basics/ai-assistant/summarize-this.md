@@ -5,7 +5,7 @@ description: 您可以使用「摘要」這項功能，快速摘要工作專案�
 author: Becky
 feature: Get Started with Workfront
 exl-id: b7d4d9a5-cdc5-43a6-a58f-57480f702034
-source-git-commit: d261fd9eb9b8b649ebe413e35161543db1db8412
+source-git-commit: 09c05db7c6a5db7db74dd95ca323415f4318489d
 workflow-type: tm+mt
 source-wordcount: '234'
 ht-degree: 2%
@@ -67,3 +67,4 @@ AI助理可以總結下列物件：
    AI Assistant可能需要一些時間才能產生摘要，端視物件的大小或複雜程度而定。
 
 1. 在AI助理面板中檢視AI摘要。
+

@@ -5,7 +5,7 @@ description: 您可以使用「摘要」這項功能，快速摘要工作專案�
 author: Becky
 feature: Get Started with Workfront
 exl-id: c7460e8f-a7ae-415a-8db0-29736e8be0f8
-source-git-commit: d261fd9eb9b8b649ebe413e35161543db1db8412
+source-git-commit: 09c05db7c6a5db7db74dd95ca323415f4318489d
 workflow-type: tm+mt
 source-wordcount: '250'
 ht-degree: 0%
@@ -55,3 +55,4 @@ AI Assistant可以從Workfront檔案中尋找資訊，讓您無須造訪Adobe Ex
 1. 在AI助理面板中檢視回應。
 1. （選擇性）如果回應未包含您所需的資訊，請調整您的回應，然後再試一次。
 1. （選擇性和條件性）如果回應包含Adobe Experience League文章的連結，請按一下連結，在新視窗中開啟文章。
+
