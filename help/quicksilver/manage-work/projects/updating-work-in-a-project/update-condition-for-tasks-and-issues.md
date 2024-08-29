@@ -6,7 +6,7 @@ description: 任務或問題的條件是在其上放置標誌以指示進展情�
 author: Alina
 feature: Work Management
 exl-id: 5d970af6-5996-4781-9b97-de02063dc32c
-source-git-commit: 070b0525f0cb2880d3c7daf88777ba48968ce759
+source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
 workflow-type: tm+mt
 source-wordcount: '1020'
 ht-degree: 1%
@@ -59,7 +59,7 @@ ht-degree: 1%
   <tr> 
    <td role="rowheader">物件許可權</td> 
    <td> <p>檢視任務或問題的許可權以檢視其狀態</p>
-   <p>管理任務和問題的許可權以更新條件</p>
+   <p>任務和問題的Contribute許可權以更新條件</p>
   </td> 
   </tr> 
  </tbody> 

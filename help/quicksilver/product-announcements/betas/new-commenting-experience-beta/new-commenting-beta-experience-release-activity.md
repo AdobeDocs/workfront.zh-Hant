@@ -9,7 +9,7 @@ hide: true
 hidefromtoc: true
 role: User, Admin
 exl-id: 276b28f0-3955-4a0e-aa31-604b291f2f14
-source-git-commit: 3bb0baa2e8831827f32156b1772fa9ee33694950
+source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
 workflow-type: tm+mt
 source-wordcount: '1867'
 ht-degree: 0%
@@ -33,9 +33,9 @@ ht-degree: 0%
 >
 >新評論體驗的Beta版計畫從2023年4月開始，於2023年10月結束，並於2023年10月發行。
 > 
+>自2024年4月11日起，生產環境中的所有客戶都可以使用新評論體驗中包含的所有功能。
 >如需詳細資訊，請參閱[新的註解體驗](../../betas/new-commenting-experience-beta/unified-commenting-experience.md)。
 >
->自2024年4月11日起，生產環境中的所有客戶都可以使用新評論體驗中包含的所有功能。
 
 ## 新的評論體驗位置和發行時間表
 

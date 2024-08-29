@@ -3,9 +3,10 @@ title: 工作區範本清單
 description: 工作區是團隊使用的記錄型別集合，代表團隊的工作生命週期。 Adobe Workfront Planning隨附一組範本，可讓您在建立工作區時開始使用基本記錄型別和欄位。
 feature: Workfront Planning
 role: User, Admin
+author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c4758b87-45dc-4ffd-b086-5e2e907bdf34
-source-git-commit: 83c716dea3815ed9a2ce4c3d0598ef42b128de87
+source-git-commit: 425c3d3afb892ac83a10bbd36efb4c7d9712c4dc
 workflow-type: tm+mt
 source-wordcount: '531'
 ht-degree: 0%

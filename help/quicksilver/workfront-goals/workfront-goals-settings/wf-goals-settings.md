@@ -8,9 +8,9 @@ author: Alina
 feature: Workfront Goals
 recommendations: noDisplay, noCatalog
 exl-id: 7cdef9d5-e37b-4f1f-9293-39c79781590a
-source-git-commit: 811d8076a0b344e863b25aa253a0fb1c102f0435
+source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
 workflow-type: tm+mt
-source-wordcount: '137'
+source-wordcount: '123'
 ht-degree: 0%
 
 ---
@@ -33,8 +33,6 @@ ht-degree: 0%
 >請連絡您的Workfront客戶經理，以瞭解Workfront Goals授權。
 > 
 >如需存取Workfront目標的詳細資訊，請參閱[使用Workfront目標的需求](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md)。
-
-如需存取Workfront目標的詳細資訊，請參閱[使用Workfront目標的需求](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md)。
 
 本節包含下列文章：
 

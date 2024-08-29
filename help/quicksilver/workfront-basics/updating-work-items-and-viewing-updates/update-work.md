@@ -6,9 +6,9 @@ description: 您可以在Adobe Workfront物件（專案、任務或問題）上�
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: 67deb48ebc90dd4a93c2af1cb89442ee2486cb16
+source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
 workflow-type: tm+mt
-source-wordcount: '2984'
+source-wordcount: '3007'
 ht-degree: 0%
 
 ---
@@ -378,7 +378,7 @@ You can add updates to the following objects:
    1. 在更新中按一下您要插入連結的位置。
    1. 在&#x200B;**RTF**&#x200B;工具列上，按一下&#x200B;**超連結**&#x200B;圖示![](assets/link-icon.png)。
 
-   1. 在出現的&#x200B;**建立連結**&#x200B;方塊中，在&#x200B;**URL**&#x200B;下，輸入或貼上您要連結之來源的URL。
+   1. 在&#x200B;**建立連結**&#x200B;方塊的&#x200B;**URL**&#x200B;下，輸入或貼上您要連結之來源的URL。
 
    1. 在&#x200B;**要顯示的文字**&#x200B;下，輸入或貼上連結文字。
    1. 按一下「**儲存**」。
@@ -386,7 +386,7 @@ You can add updates to the following objects:
 1. （可選）若要將影像附加到更新中，請執行下列任一項作業：
 
    * 將影像儲存在電腦上，然後將其拖放到「新增註解」區域。
-   * 從電腦複製熒幕擷圖，然後貼到註解中。<!-- This is not available in the legacy commenting experience.-->
+   * 從電腦複製熒幕擷圖，然後貼到註解中。
    * 按一下&#x200B;**新增影像**&#x200B;圖示![](assets/add-image-mountain-with-plus-icon.png)並瀏覽至您電腦上的影像。
 
 
@@ -399,7 +399,8 @@ You can add updates to the following objects:
    >* 您的Workfront管理員必須先在Workfront介面區域的更新摘要偏好設定區段中啟用新增影像，您才能看到影像或新增附件圖示。 如需詳細資訊，請參閱[設定使用者更新的偏好設定](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-preferences-user-updates.md)。
    >* 影像檔案大小上限為7 MB。 支援的影像檔案型別為.jpg、.gif和.png。
    >* 可從物件的「更新」區段存取影像，也可從主功能表下的「檔案」區域存取影像。
-   >* 您可以在新的註解中按一下滑鼠右鍵，或在鍵盤上按Windows適用的CTRL + V (或Mac適用的⌘ + V )以貼上影像。
+   >您可以使用鍵盤組合或Print Screen功能（在Windows電腦上）從您的電腦複製熒幕擷圖。
+   >* 您可以在新的註解中按一下滑鼠右鍵，然後按一下&#x200B;**貼上**，或在鍵盤上按Windows適用的CTRL + V (或Mac適用的⌘ + V )，以貼上影像。
    >* 您可以傳送包含影像且不含文字的更新。
    >* 當您刪除包含影像的註解時，該影像會從「更新」區段及「檔案」區域移除。 當您編輯註解並刪除影像時，也會從「檔案」區域刪除影像。
    >* 當有人從「檔案」區域刪除附加至註解的影像時，該影像也會從註解中移除。

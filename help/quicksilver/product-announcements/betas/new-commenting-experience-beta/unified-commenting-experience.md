@@ -9,9 +9,9 @@ role: User
 hide: true
 hidefromtoc: true
 exl-id: f750b35b-8021-4cc1-81d6-e1ece2530438
-source-git-commit: 3bb0baa2e8831827f32156b1772fa9ee33694950
+source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
 workflow-type: tm+mt
-source-wordcount: '1092'
+source-wordcount: '1091'
 ht-degree: 1%
 
 ---
@@ -30,7 +30,7 @@ ht-degree: 1%
 
 >[!IMPORTANT]
 >
->本文資訊是指已發行給新評論體驗的功能。
+>本文資訊是指發行給新評論體驗的功能。
 >
 >新評論體驗的Beta版計畫從2023年4月開始，於2023年10月結束，並於2023年10月發行。
 >

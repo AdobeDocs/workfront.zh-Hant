@@ -6,9 +6,9 @@ description: 本文說明如何在Adobe Workfront中尋找和管理目標。
 author: Alina
 feature: Workfront Goals
 exl-id: a729f334-6ca4-4cf5-a3ef-01a7effb7153
-source-git-commit: 024c612d46848c55529e902a00d481588d261584
+source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
 workflow-type: tm+mt
-source-wordcount: '479'
+source-wordcount: '463'
 ht-degree: 1%
 
 ---
@@ -32,9 +32,8 @@ ht-degree: 1%
    <td role="rowheader">Adobe Workfront計畫*</td> 
    <td> 
    <p>對於新計畫和授權結構：
-  <ul><li>終極計畫 </li>
-  或
-  <li>適用於Prime或選取Adobe Workfront計畫的Adobe Workfront目標的其他授權。 </li></ul> </p>
+  <ul><li>終極計畫 </li></ul>
+   </p>
 <p>對於目前的計畫與授權結構： 
 <ul><li> A Pro或更高版本 </li>
   <li>除了Adobe Workfront授權之外，還有Workfront目標授權。</li></ul></p>

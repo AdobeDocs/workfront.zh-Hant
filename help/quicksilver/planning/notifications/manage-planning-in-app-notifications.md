@@ -3,11 +3,12 @@ title: 管理Adobe Workfront Planning應用程式內通知
 description: 當有人在記錄評論中標籤您時，您會收到該標籤的電子郵件通知。
 feature: Workfront Planning
 role: User, Admin
+author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: a6eb8c7c-a34d-4c84-a45c-7e7f050a4302
-source-git-commit: bffa5992a530761afe57ec62b4cbba2bf03ad1e6
+source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
 workflow-type: tm+mt
-source-wordcount: '413'
+source-wordcount: '416'
 ht-degree: 1%
 
 ---
@@ -23,8 +24,7 @@ ht-degree: 1%
 
   如需有關在記錄註解中標籤其他人的資訊，請參閱[管理記錄註解](/help/quicksilver/planning/records/manage-record-comments.md)。
 * 有人向您要求存取檢視或工作區的許可權
-* 有人確認已授予您檢視或工作區的存取權<!--verify this-->
-* 有人已拒絕您對檢視或工作區的存取權。<!--verify this-->
+* 有人確認已授予您檢視或工作區的存取權<!--Isk confirmed there is no notification for denying permissions - did not test-->
 
 ## 存取需求
 
@@ -64,7 +64,7 @@ ht-degree: 1%
  <tr> 
    <td role="rowheader"><p>Adobe Workfront平台</p></td> 
    <td> 
-<p>貴組織的Workfront例項必須加入Adobe統一體驗，才能存取Workfront規劃的所有功能。</p> 
+<p>貴組織的Workfront執行個體必須上線至Adobe統一體驗。</p> 
 <p>如需詳細資訊，請參閱<a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Workfront的Adobe統一體驗</a>。 </p> 
    </td> 
    </tr> 
@@ -170,7 +170,10 @@ OLD:
 1. （選擇性）按一下&#x200B;**全部標示為已讀取**，表示您已讀取所有通知。
 1. （選擇性）按一下「檢視全部&#x200B;**」，移至Adobe Experience Cloud中的**&#x200B;通知&#x200B;**頁面。**
 
+## 請求和授與許可權時管理應用程式內通知
 
-## 要求、授與或拒絕檢視或工作區的許可權時，管理應用程式內通知
+有人要求或授予您檢視或工作區的許可權時，您會收到應用程式內通知。
 
 如需有關要求、授與或拒絕檢視或工作區許可權的資訊，請參閱[要求檢視或工作區的許可權](/help/quicksilver/planning/access/request-permissions.md)。
+
+如需有關管理Workfront Planning通知的資訊，請參閱[管理Adobe Workfront Planning通知偏好設定](/help/quicksilver/planning/notifications/manage-notification-preferences.md)。

@@ -7,14 +7,31 @@ description: Adobe Workfront目標隨附一組預先定義的事件通知，您�
 author: Alina
 feature: Workfront Goals
 exl-id: 40f9b9a3-c829-480b-9897-099b68389cd4
-source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
+source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
 workflow-type: tm+mt
-source-wordcount: '148'
+source-wordcount: '223'
 ht-degree: 0%
 
 ---
 
 # 啟用Adobe Workfront目標通知
+
+>[!IMPORTANT]
+>
+>您的組織必須具備下列專案，才能使用本文所述的功能：
+>
+>* 對於新計畫和授權結構：
+>
+>   * Ultimate Workfront計畫
+>    
+>* 對於目前的計畫與授權結構：
+>
+>   * Pro或更高版本Workfront計畫
+>   * 除了Adobe Workfront授權之外，還有Workfront目標授權。
+>
+>請連絡您的Workfront客戶經理，以瞭解Workfront Goals授權。
+> 
+>如需存取Workfront目標的詳細資訊，請參閱[使用Workfront目標的需求](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md)。
 
 Adobe Workfront目標隨附一組事件通知，您可以為您的帳戶啟用這些通知。 每次符合事件定義的條件時，這些事件通知都會觸發電子郵件通訊。
 

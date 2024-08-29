@@ -8,29 +8,30 @@ author: Alina
 feature: Workfront Goals
 recommendations: noDisplay, noCatalog
 exl-id: cba07613-9912-4929-bda4-50f503faa3e1
-source-git-commit: 514c4ea3eb603bb7a614e4b37abec4272a5febc7
+source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
 workflow-type: tm+mt
-source-wordcount: '288'
+source-wordcount: '273'
 ht-degree: 0%
 
 ---
 
 # Adobe Workfront目標中的目標管理
 
-您的組織必須具備下列專案，才能使用本文所述的功能：
-
-* 對於新計畫和授權結構：
-
-   * 終極計畫
-
-     或
-
-     適用於Prime或選取Adobe Workfront計畫的Adobe Workfront目標的其他授權。 如需詳細資訊，請參閱[Adobe Workfront計畫](https://www.workfront.com/plans)。
-
-* 對於目前的計畫與授權結構：
-
-   * A Pro或更高版本
-   * 除了Adobe Workfront授權之外，還有Workfront目標授權。
+>[!IMPORTANT]
+>
+>您的組織必須具備下列專案，才能使用本文所述的功能：
+>
+>* 對於新計畫與授權結構*：
+>
+>   * 終極計畫
+>    
+>* 對於目前的計畫與授權結構：
+>
+>   * A Pro或更高版本
+>   * 除了Adobe Workfront授權之外，還有Workfront目標授權。
+>
+>*如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+>
 
 請連絡您的Workfront客戶經理，以瞭解Workfront Goals授權。
 

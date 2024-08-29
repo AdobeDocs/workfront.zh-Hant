@@ -6,10 +6,10 @@ description: 目標進度是由活動、結果或子目標等進度指標所驅�
 author: Alina
 feature: Workfront Goals
 exl-id: 3050f7ff-a579-4fb8-82fd-bef850f27c20
-source-git-commit: 024c612d46848c55529e902a00d481588d261584
+source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
 workflow-type: tm+mt
-source-wordcount: '856'
-ht-degree: 1%
+source-wordcount: '834'
+ht-degree: 0%
 
 ---
 
@@ -35,12 +35,6 @@ ht-degree: 1%
 如需存取Workfront目標的詳細資訊，請參閱[使用Workfront目標的需求](../../workfront-goals/goal-management/access-needed-for-wf-goals.md)。
 
 Adobe Workfront會根據其進度指示器，自動計算目標進度。
-
-## 先決條件
-
-開始之前，您必須具備下列條件：
-
-* 包含主功能表中目標區域的版面配置範本。
 
 ## 目標進度和臨界值概觀
 

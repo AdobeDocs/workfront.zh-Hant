@@ -6,35 +6,31 @@ description: Workfront或群組管理員可以自訂Workfront目標中的物件�
 author: Alina
 feature: Workfront Goals
 exl-id: a3b3e61e-c385-429b-856b-7579b02c9946
-source-git-commit: 514c4ea3eb603bb7a614e4b37abec4272a5febc7
+source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
 workflow-type: tm+mt
-source-wordcount: '247'
+source-wordcount: '221'
 ht-degree: 1%
 
 ---
 
 # 自訂Adobe Workfront目標術語
 
-您的組織必須具備下列專案，才能使用本文所述的功能：
-
-* 對於目前的計畫與授權結構：
-
-   * Pro或更高[Adobe Workfront方案](https://www.workfront.com/plans)。
-   * 除了Adobe Workfront授權之外，還有Workfront目標授權。
-
-* 對於新計畫和授權結構：
-
-   * 終極計畫
-
-     或
-
-     適用於Prime或選取Adobe Workfront計畫的Adobe Workfront目標的其他授權。
-
-請連絡您的Workfront客戶經理，以瞭解Workfront Goals授權。
-
-如需存取Workfront目標的詳細資訊，請參閱[使用Workfront目標的需求](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md)。
-
-如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+>[!IMPORTANT]
+>
+>您的組織必須具備下列專案，才能使用本文所述的功能：
+>
+>* 對於新計畫和授權結構：
+>
+>   * Ultimate Workfront計畫
+>    
+>* 對於目前的計畫與授權結構：
+>
+>   * Pro或更高版本Workfront計畫
+>   * 除了Adobe Workfront授權之外，還有Workfront目標授權。
+>
+>請連絡您的Workfront客戶經理，以瞭解Workfront Goals授權。
+> 
+>如需存取Workfront目標的詳細資訊，請參閱[使用Workfront目標的需求](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md)。
 
 Workfront或群組管理員可以自訂Workfront目標中的物件名稱，以更符合您組織的術語。
 

@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User
 recommendations: noDisplay, noCatalog
 exl-id: ec549a61-095c-433f-80e2-1be5c0a05180
-source-git-commit: bffa5992a530761afe57ec62b4cbba2bf03ad1e6
+source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
 workflow-type: tm+mt
-source-wordcount: '431'
+source-wordcount: '421'
 ht-degree: 1%
 
 ---
@@ -22,7 +22,7 @@ Workfront Planning中發生下列動作時，您可能會收到應用程式內�
 
 * 有人將您新增至記錄頁面上的註解
 * 某人要求存取檢視或工作區的許可權
-* 有人授予或拒絕您存取檢視或工作區<!--test this - could not test before GA-->的許可權
+* 有人授予您存取檢視或工作區<!--I could not test this but Isk confirmed-->的許可權
 
 ## 存取需求
 
@@ -62,7 +62,7 @@ Workfront Planning中發生下列動作時，您可能會收到應用程式內�
  <tr> 
    <td role="rowheader"><p>Adobe Workfront平台</p></td> 
    <td> 
-<p>貴組織的Workfront例項必須加入Adobe統一體驗，才能存取Workfront規劃的所有功能。</p> 
+<p>貴組織的Workfront執行個體必須上線至Adobe統一體驗。</p> 
 <p>如需詳細資訊，請參閱<a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Workfront的Adobe統一體驗</a>。 </p> 
    </td> 
    </tr> 
@@ -171,7 +171,7 @@ OLD:
 1. Workfront提供下列通知：
 
    * **提及**：當有人在Workfront Planning的評論中為您加上標籤時，您會收到通知
-   * **請求**：當有人請求Workfront規劃物件的許可權時，您會收到通知
+   * **請求**：當有人請求或授予您Workfront規劃物件的許可權時，您會收到通知
 
    如需有關管理通知的詳細資訊，請參閱[帳戶偏好設定和通知](https://experienceleague.adobe.com/en/docs/core-services/interface/features/account-preferences)。
 

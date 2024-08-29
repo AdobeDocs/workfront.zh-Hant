@@ -6,9 +6,9 @@ description: 當您開始處理目標且它在您的組織中變得無關時，�
 author: Alina
 feature: Workfront Goals
 exl-id: 3089adeb-3e56-492a-82fe-536f57079b73
-source-git-commit: 024c612d46848c55529e902a00d481588d261584
+source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
 workflow-type: tm+mt
-source-wordcount: '684'
+source-wordcount: '668'
 ht-degree: 0%
 
 ---
@@ -31,9 +31,8 @@ ht-degree: 0%
    <td role="rowheader">Adobe Workfront計畫*</td> 
    <td> 
    <p>對於新計畫和授權結構：
-  <ul><li>終極計畫 </li>
-  或
-  <li>適用於Prime或選取Adobe Workfront計畫的Adobe Workfront目標的其他授權。 </li></ul> </p>
+  <ul><li>終極計畫 </li></ul>
+   </p>
 <p>對於目前的計畫與授權結構： 
 <ul><li> A Pro或更高版本 </li>
   <li>除了Adobe Workfront授權之外，還有Workfront目標授權。</li></ul></p>

@@ -1,42 +1,35 @@
 ---
 title: 要求檢視或Workspace的許可權
-description: 您可以請求其他人傳送連結給您但先前未與您共用的檢視或工作區的許可權。
+description: 當有人與您無權存取的檢視或工作區共用連結時，您可以要求開啟該連結的許可權。 本文說明當您遇到無法開啟的共用連結時，請求存取檢視或工作區的步驟。
 feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: bffa5992a530761afe57ec62b4cbba2bf03ad1e6
+source-git-commit: 04b0ada9b97445b9b05602b39a6d7ebce7d0cee9
 workflow-type: tm+mt
-source-wordcount: '506'
+source-wordcount: '562'
 ht-degree: 1%
 
 ---
 
 
-<!-- update metadata when released: 
-
----
-title: Request Permissions to a View or a Workspace
-description: You can request permissions to a view or a workspace that others sent you a link to which has not been previously shared with you. 
-author: Alina
-feature: Workfront Planning
-role: User, Admin
----
--->
-
-<!--add this to miniTOC and TOC-->
-
 # 要求檢視或工作區的許可權
 
-您可以請求其他人傳送連結給您但先前未與您共用的檢視或工作區的許可權。
+當有人與您共用您無權存取之檢視或工作區的連結時，您可以要求檢視或工作區的許可權。
 
 向檢視要求許可權與向工作區要求許可權類似。
+
+本文介紹當有人與您共用連結而您無法存取共用頁面時，如何要求存取檢視或工作區。
+
+如需授予檢視和工作區許可權的相關資訊，請參閱下列文章：
+
+* [共用檢視](/help/quicksilver/planning/access/share-views.md)
+* [共用工作區](/help/quicksilver/planning/access/share-workspaces.md)
+
 
 ## 存取需求
 
 +++ 展開以檢視Workfront Planning的存取需求。
-
-<!--at GA, check that the Workfront plans article linked below has Planning info-->
 
 您必須具備下列專案才能存取Workfront Planning：
 
@@ -128,10 +121,6 @@ role: User, Admin
    * 電子郵件通知
      ![](assets/email-notification-for-access-request.png)
 
-   如需授予檢視和工作區許可權的相關資訊，請參閱下列文章：
-
-   * [共用檢視](/help/quicksilver/planning/access/share-views.md)
-   * [共用工作區](/help/quicksilver/planning/access/share-workspaces.md)
-1. （視條件而定）當檢視或工作區管理員授予您檢視或工作區的許可權時，您會收到電子郵件通知和應用程式內通知，其中包含已授予許可權的確認。<!--check this - I was not able to test this-->
+1. （視條件而定）當檢視或工作區管理員授予您檢視或工作區的許可權時，您會收到電子郵件通知和應用程式內通知，其中包含已授予許可權的確認。<!--check this - I was not able to test this, but Isk confirmed.-->
 
 

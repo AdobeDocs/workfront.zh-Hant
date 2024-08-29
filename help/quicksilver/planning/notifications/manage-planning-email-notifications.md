@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 3c505b3a-cda7-4e7b-b497-28b820e9bb8f
-source-git-commit: bffa5992a530761afe57ec62b4cbba2bf03ad1e6
+source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
 workflow-type: tm+mt
-source-wordcount: '418'
+source-wordcount: '421'
 ht-degree: 1%
 
 ---
@@ -24,8 +24,8 @@ ht-degree: 1%
 
   如需有關在記錄註解中標籤其他人的資訊，請參閱[管理記錄註解](/help/quicksilver/planning/records/manage-record-comments.md)。
 * 有人向您要求存取檢視或工作區的許可權
-* 有人確認已授予您檢視或工作區的存取權<!--verify this-->
-* 有人已拒絕您對檢視或工作區的存取權。<!--verify this-->
+* 有人確認已授予您檢視或工作區的存取權<!--Isk confirmed that there is nno email for denying access but did not test-->
+
 
 ## 存取需求
 
@@ -63,7 +63,7 @@ ht-degree: 1%
  <tr> 
    <td role="rowheader"><p>Adobe Workfront平台</p></td> 
    <td> 
-<p>貴組織的Workfront例項必須加入Adobe統一體驗，才能存取Workfront規劃的所有功能。</p> 
+<p>貴組織的Workfront執行個體必須上線至Adobe統一體驗。</p> 
 <p>如需詳細資訊，請參閱<a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Workfront的Adobe統一體驗</a>。 </p> 
    </td> 
    </tr> 
@@ -165,6 +165,10 @@ OLD:
 1. （視條件而定）如果可用，請按一下&#x200B;**檢視所有通知**。 <!--check with Lilit - do non-IMS users have this button??-->
 **通知**&#x200B;頁面會在Adobe Experience Cloud中開啟。 會顯示所有Adobe Experience Cloud應用程式的所有通知。
 
-## 請求、授與或拒絕檢視或工作區的許可權時管理電子郵件通知
+## 請求和授與許可權時管理電子郵件通知
+
+當有人要求或授予您檢視或工作區的許可權時，您會收到電子郵件通知。
 
 如需有關要求、授與或拒絕檢視或工作區許可權的資訊，請參閱[要求檢視或工作區的許可權](/help/quicksilver/planning/access/request-permissions.md)。
+
+如需有關管理Workfront Planning通知的資訊，請參閱[管理Adobe Workfront Planning通知偏好設定](/help/quicksilver/planning/notifications/manage-notification-preferences.md)。

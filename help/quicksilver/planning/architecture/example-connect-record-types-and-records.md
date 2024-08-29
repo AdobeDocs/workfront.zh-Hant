@@ -3,9 +3,10 @@ title: 連線記錄型別和記錄的範例
 description: 本文說明如何在Adobe Workfront Planning記錄型別與Workfront專案物件型別之間建立連線的範例。 本檔案也說明如何將Workfront Planning記錄與連結至個別專案。
 feature: Workfront Planning
 role: User, Admin
+author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 38509572-72a4-4fce-b3ec-2cb31bb4669a
-source-git-commit: a3006a05b7003e638596c2754b77e914083a5643
+source-git-commit: 425c3d3afb892ac83a10bbd36efb4c7d9712c4dc
 workflow-type: tm+mt
 source-wordcount: '1949'
 ht-degree: 0%

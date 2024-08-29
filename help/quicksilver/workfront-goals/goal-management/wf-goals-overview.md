@@ -7,9 +7,9 @@ description: Workfront目標可協助您透過將策略與工作執行和交付�
 author: Alina
 feature: Workfront Goals
 exl-id: bc0451ba-d729-4e8a-bde3-a2609c667d50
-source-git-commit: 811d8076a0b344e863b25aa253a0fb1c102f0435
+source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
 workflow-type: tm+mt
-source-wordcount: '501'
+source-wordcount: '512'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,8 @@ ht-degree: 0%
 >   * 除了Adobe Workfront授權之外，還有Workfront目標授權。
 >
 >請連絡您的Workfront客戶經理，以瞭解Workfront Goals授權。
-
+> 
+>如需存取Workfront目標的詳細資訊，請參閱[使用Workfront目標的需求](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md)。
 
 Workfront目標可協助您透過將策略與工作執行和交付連線起來，來定義、溝通和實現策略結果。 您可以將每個人的努力集中在真正重要的事情上，將進展變得可衡量，並讓團隊取得令人驚歎的結果。 人們可以盡最大努力工作，因為他們知道自己的貢獻會產生有意義的影響。
 
@@ -42,9 +43,9 @@ Workfront目標是核心Workfront工作管理平台的附加模組。 它旨在�
 >
 >您使用Workfront目標管理的策略目標，不應與專案業務案例中的專案層級目標混淆。 如需專案層級目標的相關資訊，請參閱[建立業務案例目標](../../manage-work/projects/define-a-business-case/create-business-case-goals.md)。
 
-## Workfront Goals包含的功能
+## Workfront Goals功能
 
-Workfront目標目前包含下列功能：
+Workfront目標中包括下列功能：
 
 * 建立每季或每年目標，並將其指派給使用者、團隊、群組或您的組織。 您也可以自訂目標時間表。
 

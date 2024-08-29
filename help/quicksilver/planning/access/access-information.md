@@ -1,14 +1,14 @@
 ---
 title: 「Adobe Workfront計畫存取資訊：文章索引」
-description: 身為Workfront管理員，您必須將存取權授與使用者，才能使用Adobe Workfront Planning。 以下文章包含有關使用Workfront Planning時使用者所需存取許可權的資訊。
+description: 身為Workfront管理員，您必須將存取權授與使用者，才能使用Adobe Workfront Planning。 下列文章包含有關使用Workfront Planning的使用者需要哪些存取權，以及在使用者無權存取時如何請求和授與許可權的資訊。
 author: Alina
 feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 98ca7d04-35c2-420a-a87c-50c00939853c
-source-git-commit: bffa5992a530761afe57ec62b4cbba2bf03ad1e6
+source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
 workflow-type: tm+mt
-source-wordcount: '107'
+source-wordcount: '121'
 ht-degree: 0%
 
 ---

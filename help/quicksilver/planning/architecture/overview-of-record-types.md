@@ -3,9 +3,10 @@ title: 記錄型別概觀
 description: 記錄型別是Adobe Workfront Planning工作區的建置組塊。
 feature: Workfront Planning
 role: User, Admin
+author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 1de095b3-78d9-44df-a678-51f4238deb91
-source-git-commit: a3006a05b7003e638596c2754b77e914083a5643
+source-git-commit: 425c3d3afb892ac83a10bbd36efb4c7d9712c4dc
 workflow-type: tm+mt
 source-wordcount: '260'
 ht-degree: 0%
