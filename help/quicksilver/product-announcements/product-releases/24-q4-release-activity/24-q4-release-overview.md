@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 6cc67488-1ba9-4455-9152-366aaabf0939
-source-git-commit: 32107381545777cbe7a6696f7a384287ef781a1a
+source-git-commit: ffa599ff0e25ba960ce01f3f492482ee2e747122
 workflow-type: tm+mt
-source-wordcount: '1216'
+source-wordcount: '1300'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 0%
 >
 >| 每月發行 | 每季發行 |
 >|----|----|
->| <ul><li>24.8 （2024年8月）</li><li>24.9 （2024年9月）</li><li>24.10 （2024年10月）</li></ul> | <ul><li>24.10 （2024年10月）</li></ul> |
+>| <ul><li>24.8 （2024年8月15日）</li><li>24.9 （2024年9月12日）</li><li>24.10 （2024年10月）</li></ul> | <ul><li>24.10 （2024年10月）</li></ul> |
 >
 >請注意，對於每季的最終發行（本季24.10版），快速發行排程中的使用者將提前一天收到發行。
 >
@@ -58,6 +58,25 @@ ht-degree: 0%
                 </tr>
                 <tr>
                     <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">復原環境升級套件</a></p>
+                        <p>為了讓環境升級更靈活且更易於使用，我們啟用了復原功能。 現在，您可以在24小時內復原套件，讓您更輕鬆地還原受環境促銷活動套件影響的先前設定。</p>
+                    </td>
+                    <td><p><b>將於下列日期提供：</b></p>
+                        <ul>
+                            <li>
+                                <p>預覽版本： 2024年8月29日</p>
+                            </li>
+                            <li>
+                                <p>快速發行生產：24.9版（2024年9月12日）</p>
+                            </li>
+                            <li>
+                                <p>適用於所有客戶的生產版本：24.10版本（2024年10月）</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
                         自訂表單設計工具上的<a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">配置按鈕允許兩或三欄</a></p>
                         <p>自訂表單設計器上的「版面配置」按鈕可讓您從兩欄或三欄式工作區中進行選擇。 原始表單設計工具使用三欄，而欄位設定會顯示在最右邊的欄中。 如果您選取兩欄，欄位設定會顯示在最左欄的欄位程式庫旁邊。</p>
                     </td>
@@ -67,7 +86,7 @@ ht-degree: 0%
                                 <p>預覽版本： 2024年8月12日</p>
                             </li>
                             <li>
-                                <p>快速發行生產：24.9版（2024年9月）</p>
+                                <p>快速發行生產：24.9版（2024年9月12日）</p>
                             </li>
                             <li>
                                 <p>適用於所有客戶的生產版本：待定</p>
@@ -192,6 +211,7 @@ ht-degree: 0%
                 <tr>
                     <td>
                         案頭校訂檢視器的<a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-proofing-enhancements.md" class="MCXref xref" xrefformat="{para}">Chromium更新</a></p>
+                        [！BADGE In Production ]{type=Informative}
                         <p>我們正升級案頭校訂檢視器以支援Chromium 126.0.6478.127，其將解決互動式校訂中的UI元素問題。</p>
                     </td>
                     <td><p><b>將於下列日期提供：</b></p>
@@ -217,6 +237,7 @@ ht-degree: 0%
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-24-q4.md" class="MCXref xref" xrefformat="{para}">Adobe Workfront Planning一般可用性</a></p>
+                        [！BADGE In Production ]{type=Informative}
                         <p>除了其Workfront授權外，所有已購買Workfront Planning授權的客戶都可使用Workfront Planning。 如需有關Workfront規劃的詳細資訊，請聯絡您的客戶代表。</p>
                         <p>如需每季最新的Workfront Planning發行資訊，請參閱下方的<a href="#workfront-planning-enhancements">Workfront Planning增強功能</a>區段。</p>
                     </td>
@@ -231,6 +252,7 @@ ht-degree: 0%
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Workfront中可用的AdobeAI小幫手</a></p>
+                        [！BADGE In Production ]{type=Informative}
                         <p>為了讓您更輕鬆地完成工作，我們已將Adobe的AI助理新增至Workfront。 AI助理可以透過以下方式協助您：</p>
                         <ul>
                             <li>摘要工作專案和檔案，讓您快速大致瞭解任務、專案和資產。</li>

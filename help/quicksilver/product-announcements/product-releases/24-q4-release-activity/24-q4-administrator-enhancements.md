@@ -4,9 +4,9 @@ description: 2024年第四季管理員增強功能
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 5138321543175cac3e51cc21c8309cbefd8bc1e8
+source-git-commit: ffa599ff0e25ba960ce01f3f492482ee2e747122
 workflow-type: tm+mt
-source-wordcount: '195'
+source-wordcount: '290'
 ht-degree: 0%
 
 ---
@@ -17,11 +17,24 @@ ht-degree: 0%
 
 如需2024年第四季版本週期目前可用的所有變更清單，請參閱[2024年第四季版本概觀](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-release-overview.md)。
 
+## 復原環境促銷活動套件
+
+>[!NOTE]
+>
+>預覽版本： 2024年8月29日；快速發行生產：24.9版（2024年9月12日）；每季發行生產：24.10版（2024年10月）
+>
+
+為了讓環境升級更靈活且更易於使用，我們啟用了復原功能。 現在，您可以在24小時內復原套件，讓您更輕鬆地還原受環境促銷活動套件影響的先前設定。
+
+以前，設定是手動還原，或透過另一個環境升級套件還原。
+
+如需有關復原環境升級套件的詳細資訊，請參閱[復原環境升級套件](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-rollback.md)。
+
 ## 自訂表單設計工具上的「版面」按鈕允許兩或三欄
 
 >[!NOTE]
 >
->預覽版本： 2024年8月12日；24.9版本快速發行的生產（2024年9月）；每季發行的生產：待定
+>預覽版本： 2024年8月12日；生產版本快速發行：24.9版（2024年9月12日）；生產版本每季發行：待定
 >
 >_此功能屬於分階段發行的一部分，並將於9月提供給有限數量的客戶。 收集意見反應時，它將在[預覽]環境中保留較長的時間。_
 

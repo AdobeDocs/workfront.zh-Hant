@@ -1,12 +1,11 @@
 ---
-navigation-topic: data-connect-beta
 title: Workfront Data Connect測試版資訊
 description: Workfront Data Connect測試版的一般資訊
-author: Nolan
-feature: Reports and Dashboards
+hide: true
+hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: 2daf7617-5b3e-49f7-b93b-4210b1b2ea49
-source-git-commit: 16809b2d1801dd7aa4ab1f452e4687601fc1ac59
+source-git-commit: ffa599ff0e25ba960ce01f3f492482ee2e747122
 workflow-type: tm+mt
 source-wordcount: '383'
 ht-degree: 12%
