@@ -7,9 +7,9 @@ description: 您可以與檢閱者共用及檢閱各種型別的檔案，即使�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 647edda3-de52-4bb9-b202-36c5cf832fb0
-source-git-commit: 6d2144732e5f47b670c2281d042a2dc950a2928f
+source-git-commit: 0a9bc92df7360565318d7776dae73b414c054fc2
 workflow-type: tm+mt
-source-wordcount: '1067'
+source-wordcount: '1052'
 ht-degree: 0%
 
 ---
@@ -181,11 +181,8 @@ Workfront有下列限制：
 > * PPSX - Microsoft PowerPoint投影片
 > * XLT - Microsoft Excel範本
 > * xltx - Microsoft Excel範本
-
->[!WARNING]
-> 由於安全性問題，我們暫時不支援下列靜態檔案型別：
->
 > * EPS — 封裝式PostScript
+
 
 * AI - Adobe Illustrator圖稿
 * AIT - Adobe Illustrator範本
