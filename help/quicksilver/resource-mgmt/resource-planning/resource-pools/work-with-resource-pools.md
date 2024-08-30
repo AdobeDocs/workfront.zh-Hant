@@ -6,7 +6,7 @@ description: 作為資源管理員，您可以透過將使用者新增到資源�
 author: Lisa
 feature: Resource Management
 exl-id: f3fc65c8-e436-44a4-9e9d-5b4b138a9f21
-source-git-commit: 36599722aafadcbbc630650a94005fd73b3e517e
+source-git-commit: a9d507bfcc0a602e71bcdd3142d63cc40175ebf4
 workflow-type: tm+mt
 source-wordcount: '474'
 ht-degree: 0%

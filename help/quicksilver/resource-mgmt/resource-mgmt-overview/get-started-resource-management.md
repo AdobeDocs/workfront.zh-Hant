@@ -4,12 +4,12 @@ product-area: resource-management
 navigation-topic: resource-management-overview
 title: 開始使用資源管理
 description: 「資源管理」可讓您設定系統，以根據資源的可用性來準確預測資源的使用，使必須完成的工作能準時且按預算完成。
-author: Alina
+author: Lisa
 feature: Resource Management
 exl-id: b10ef503-60ea-4450-b63e-b2918e9bcc11
-source-git-commit: c80d9b0b7eb2a638af9e0a11ca3038ed99ecf1ee
+source-git-commit: a9d507bfcc0a602e71bcdd3142d63cc40175ebf4
 workflow-type: tm+mt
-source-wordcount: '1167'
+source-wordcount: '1173'
 ht-degree: 0%
 
 ---
@@ -137,11 +137,11 @@ Workfront有幾組用於管理資源的工具。 每個工具都有個別的範�
 您必須是下列使用者之一，且具備下列存取許可權才能存取資源管理工具：
 
 * 系統管理員。
-* 擁有Plan授權的使用者。
+* 擁有Standard或Plan授權的使用者。
 
   擁有工作授權的使用者可以使用專案的工作負載平衡器並管理指派和配置。
 
-  除了擁有工作或更高的授權，您還必須具備下列專案才能使用特定的資源管理工具：
+  除了擁有工作或更高的授權（或標準授權）之外，您還必須擁有下列專案才能使用特定的資源管理工具：
 
    * 編輯對資源管理的存取權（在工作負載平衡器中進行指派時不需要）
    * 編輯財務資料的存取權以在資源規劃工具中顯示成本資訊
@@ -168,7 +168,6 @@ Workfront有幾組用於管理資源的工具。 每個工具都有個別的範�
 如需Workfront中每個資源管理工具的需求相關資訊，請參閱下列內容：
 
 * 文章[資源規劃工具概觀](../../resource-mgmt/resource-planning/get-started-resource-planner.md)中的[在資源規劃工具](../../resource-mgmt/resource-planning/get-started-resource-planner.md#prerequisites-for-working-in-the-resource-planner)中工作的先決條件。
-  <!--remove this at production: * The section "Prerequisites" in the article [Get started with Resource Scheduling](../../resource-mgmt/resource-scheduling/get-started-resource-scheduling.md).-->
 * 在文章[工作負載平衡器總覽](../../resource-mgmt/workload-balancer/overview-workload-balancer.md)中的[使用工作負載平衡器](../../resource-mgmt/workload-balancer/overview-workload-balancer.md#best-practices-for-using-the-workload-balancer)的最佳實務區段。
 * [在Adobe Workfront中預算資源所需的存取權](../../resource-mgmt/resource-planning/access-needed-to-budget-resources.md)。
 * [在工作負載平衡器](../../resource-mgmt/workload-balancer/access-needed-manage-resources-balancer.md)中管理資源所需的存取權。

@@ -6,9 +6,9 @@ description: 雖然資源集區中的使用者數量沒有限制，但使用者�
 author: Lisa
 feature: Resource Management
 exl-id: b888aa95-8d42-4cc3-8a99-6842435c84d2
-source-git-commit: f18bf59202ba524173774a0215f4071bd6e77432
+source-git-commit: a9d507bfcc0a602e71bcdd3142d63cc40175ebf4
 workflow-type: tm+mt
-source-wordcount: '401'
+source-wordcount: '378'
 ht-degree: 1%
 
 ---
@@ -27,33 +27,32 @@ ht-degree: 1%
 
 +++ 展開以檢視本文中功能的存取需求。
 
-您必須具備下列條件：
+您必須具有下列存取權才能執行本文中的步驟：
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront計畫*</td> 
-   <td> <p>專業及更高版本</p> </td> 
+   <td role="rowheader">Adobe Workfront計畫</td> 
+   <td><p>新增：任何</p>
+       <p>或</p>
+       <p>最新：Pro和更高版本</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront授權*</td> 
-   <td> <p>計劃 </p> </td> 
+   <td role="rowheader">Adobe Workfront授權</td> 
+   <td><p>新增：標準</p>
+       <p>或</p>
+       <p>目前：計畫</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">存取層級設定*</td> 
-   <td> <p>編輯對資源管理的存取權，包括管理資源集區的存取權</p> <p>檢視或更高的使用者存取權</p> <p>注意：如果您還是沒有存取權，請詢問您的Workfront管理員，他們是否在您的存取層級中設定其他限制。 如需Workfront管理員如何變更存取層級的詳細資訊，請參閱<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>。</p> </td> 
-  </tr> <!--
-   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-    <td role="rowheader">Object permissions</td> 
-    <td> <p>(NOTE:&nbsp;I don't think this is needed for removing users from the pool)</p> <p>Manage permissions for the projects, templates, and users you associate the Resource Pools with</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
-   </tr>
-  --> 
+   <td role="rowheader">存取層級設定</td> 
+   <td> <p>編輯對資源管理的存取權，包括管理資源集區的存取權</p> <p>檢視或更高的使用者存取權</p></td> 
+  </tr> 
  </tbody> 
 </table>
 
-&#42;若要瞭解您擁有的計畫、授權型別或存取權，請連絡您的Workfront管理員。
+如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 

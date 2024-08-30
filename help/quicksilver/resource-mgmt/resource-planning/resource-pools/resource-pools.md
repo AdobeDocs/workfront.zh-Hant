@@ -7,7 +7,7 @@ author: Lisa
 feature: Resource Management
 recommendations: noDisplay, noCatalog
 exl-id: aaf8e6ab-2958-44ad-96ca-0f3d842dd800
-source-git-commit: 36599722aafadcbbc630650a94005fd73b3e517e
+source-git-commit: a9d507bfcc0a602e71bcdd3142d63cc40175ebf4
 workflow-type: tm+mt
 source-wordcount: '72'
 ht-degree: 5%
@@ -16,7 +16,7 @@ ht-degree: 5%
 
 # 資源集區
 
-資源集區是使用者的集合，可協助您管理Adobe Workfront中的資源。
+資源集區是協助您管理Adobe Workfront中的資源的使用者集合。
 
 下列文章說明在Adobe Workfront中使用資源集區管理專案時的功能。
 

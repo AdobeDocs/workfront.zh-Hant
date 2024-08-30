@@ -6,9 +6,9 @@ description: 您必須先建立資源集區，然後才能將其與使用者建�
 author: Lisa
 feature: Resource Management
 exl-id: 0816a2d6-2a45-4e01-8ca2-6d0d190b2568
-source-git-commit: 36599722aafadcbbc630650a94005fd73b3e517e
+source-git-commit: a9d507bfcc0a602e71bcdd3142d63cc40175ebf4
 workflow-type: tm+mt
-source-wordcount: '512'
+source-wordcount: '464'
 ht-degree: 1%
 
 ---
@@ -33,38 +33,45 @@ ht-degree: 1%
 
 ## 存取需求
 
-您必須具備下列條件：
++++ 展開以檢視本文中功能的存取需求。
+
+您必須具有下列存取權才能執行本文中的步驟：
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront計畫*</td> 
-   <td> <p>專業及更高版本</p> </td> 
+   <td role="rowheader">Adobe Workfront計畫</td> 
+   <td><p>新增：任何</p>
+       <p>或</p>
+       <p>最新：Pro和更高版本</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront授權*</td> 
-   <td> <p>計劃 </p> </td> 
+   <td role="rowheader">Adobe Workfront授權</td> 
+   <td><p>新增：標準</p>
+       <p>或</p>
+       <p>目前：計畫</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">存取層級設定*</td> 
-   <td> <p>編輯對資源管理的存取權，包括管理資源集區的存取權</p> <p>編輯專案、範本和使用者的存取權</p> <p>注意：如果您還是沒有存取權，請詢問您的Workfront管理員，他們是否在您的存取層級中設定其他限制。 如需Workfront管理員如何變更存取層級的詳細資訊，請參閱<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>。</p> </td> 
+   <td role="rowheader">存取層級設定</td> 
+   <td> <p>編輯對資源管理的存取權，包括管理資源集區的存取權</p> <p>編輯專案、範本和使用者的存取權</p></td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">物件許可權</td> 
-   <td> <p>管理您與資源集區建立關聯的專案、範本和使用者的許可權</p> <p>如需請求其他存取權的資訊，請參閱<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">請求物件</a>的存取權。</p> </td> 
+   <td>管理您要與資源集區建立關聯的專案、範本和使用者的許可權</td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;若要瞭解您擁有的計畫、授權型別或存取權，請連絡您的Workfront管理員。
+如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
++++
 
 ## 將資源集區與一個使用者建立關聯
 
-1. 按一下Adobe Workfront右上角的&#x200B;**主要功能表**&#x200B;圖示![](assets/main-menu-icon.png)。
+{{step-1-to-users}}
 
-1. 按一下&#x200B;**使用者**。
 1. 勾選清單中使用者名稱旁的方塊，然後按一下&#x200B;**編輯**。
 1. 按一下&#x200B;**資源規劃**。
 1. 在&#x200B;**資源集區**&#x200B;欄位中，開始輸入您想要與使用者建立關聯的資源集區名稱，然後在其出現時從清單中選取它。\
@@ -83,9 +90,8 @@ ht-degree: 1%
 
 若要將資源集區與數個使用者大量關聯：
 
-1. 按一下Adobe Workfront右上角的&#x200B;**主要功能表**&#x200B;圖示![](assets/main-menu-icon.png)。
+{{step-1-to-users}}
 
-1. 按一下&#x200B;**使用者**。
 1. 選取清單上的數個使用者，然後按一下[編輯]。****
 1. 按一下&#x200B;**資源規劃**。
 1. 開始在&#x200B;**資源集區**&#x200B;欄位中輸入您想要與使用者關聯的資源集區名稱，然後在其出現時從清單中選取它。\
