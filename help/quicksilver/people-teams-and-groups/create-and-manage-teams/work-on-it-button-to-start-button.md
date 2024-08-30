@@ -1,14 +1,14 @@
 ---
 product-area: agile-and-teams
 navigation-topic: create-and-manage-teams
-title: 將處理它按鈕取代為開始按鈕
+title: 用開始按鈕取代處理它按鈕
 description: Adobe Workfront的預設設定包含處理它的一個按鈕，用於顯示已指派給您的專案的任務和問題。
 author: Lisa
 feature: People Teams and Groups
 exl-id: 9387c5ae-2835-4d8f-80ec-22fcd16c5b6e
-source-git-commit: 24bb9b5c0836196a1c6e15f828eb47bbd489ef25
+source-git-commit: dfd5c7423b65e6065ab9c2094578443b81189abd
 workflow-type: tm+mt
-source-wordcount: '800'
+source-wordcount: '793'
 ht-degree: 0%
 
 ---
@@ -25,26 +25,31 @@ ht-degree: 0%
 
 ## 存取需求
 
++++ 展開以檢視本文中功能的存取需求。
+
 您必須具有下列存取權才能執行本文中的步驟：
 
 <table style="table-layout:auto"> 
  <col> 
- </col> 
  <col> 
- </col> 
  <tbody> 
-  <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] 計畫*</strong></td> 
-   <td> <p>任何</p> </td> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader"> <p>Adobe Workfront計畫</p> </td> 
+   <td>任何</td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] 授權*</strong></td> 
-   <td> <p>計劃</p> </td> 
+   <td role="rowheader">Adobe Workfront授權</td> 
+   <td>
+   <p>新增：標準</p>
+   <p>或</p>
+   <p>目前：計畫</p></td>
   </tr> 
  </tbody> 
 </table>
 
-&#42;若要瞭解您擁有的計畫或授權型別，請連絡您的[!DNL Workfront]系統管理員。
+如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
++++
 
 ## 設定[!UICONTROL 啟動]按鈕
 
@@ -66,7 +71,7 @@ ht-degree: 0%
 
 設定[開始]按鈕：
 
-1. 按一下Adobe Workfront右上角的&#x200B;**[!UICONTROL 主要功能表]**&#x200B;圖示![](assets/main-menu-icon.png)，然後按一下&#x200B;**[!UICONTROL 團隊]**。
+{{step1-to-team}}
 
 1. 在&#x200B;**[!UICONTROL 團隊]**&#x200B;下拉式功能表中，選取團隊。\
    或\
@@ -87,9 +92,9 @@ ht-degree: 0%
 
 若要將使用者與主團隊建立關聯：
 
-1. 按一下[!DNL Adobe Workfront]右上角的&#x200B;**[!UICONTROL 主要功能表]**&#x200B;圖示![](assets/main-menu-icon.png)。
+{{step-1-to-users}}
 
-1. 按一下&#x200B;**[!UICONTROL 使用者]**，然後選取您要與主團隊建立關聯的一或多個使用者。
+1. 選取您想要與主團隊建立關聯的一個或多個使用者。
 1. 按一下&#x200B;**[!UICONTROL 更多]**&#x200B;功能表，然後選取&#x200B;**[!UICONTROL 編輯]**。\
    ![](assets/user-settings-nwe-350x291.png)
 

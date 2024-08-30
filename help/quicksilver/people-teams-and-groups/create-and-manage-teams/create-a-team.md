@@ -6,9 +6,9 @@ description: 建立團隊時，預設會成為團隊所有者。
 author: Lisa
 feature: People Teams and Groups
 exl-id: 4bef734c-de86-4c58-a0e8-fbb3c5785f4c
-source-git-commit: 24bb9b5c0836196a1c6e15f828eb47bbd489ef25
+source-git-commit: dfd5c7423b65e6065ab9c2094578443b81189abd
 workflow-type: tm+mt
-source-wordcount: '482'
+source-wordcount: '487'
 ht-degree: 0%
 
 ---
@@ -23,30 +23,35 @@ ht-degree: 0%
 
 ## 存取需求
 
++++ 展開以檢視本文中功能的存取需求。
+
 您必須具有下列存取權才能執行本文中的步驟：
 
 <table style="table-layout:auto"> 
  <col> 
- </col> 
  <col> 
- </col> 
  <tbody> 
-  <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] 計畫*</strong></td> 
-   <td> <p>任何</p> </td> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader"> <p>Adobe Workfront計畫</p> </td> 
+   <td>任何</td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] 授權*</strong></td> 
-   <td> <p>[！UICONTROL計畫] </p> </td> 
+   <td role="rowheader">Adobe Workfront授權</td> 
+   <td>
+   <p>新增：標準</p>
+   <p>或</p>
+   <p>目前：計畫</p></td>
   </tr> 
  </tbody> 
 </table>
 
-&#42;若要瞭解您擁有的計畫或授權型別，請連絡您的[!DNL Workfront]系統管理員。
+如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
++++
 
 ## 建立團隊
 
-1. 按一下Adobe Workfront右上角的&#x200B;**[!UICONTROL 主要功能表]**&#x200B;圖示![](assets/main-menu-icon.png)，然後按一下&#x200B;**[!UICONTROL 團隊]**。
+{{step1-to-team}}
 
 1. 按一下&#x200B;**[!UICONTROL 切換團隊]**&#x200B;圖示![切換團隊圖示](assets/switch-team-icon.png)，然後按一下&#x200B;**[!UICONTROL 建立新團隊]**。
 

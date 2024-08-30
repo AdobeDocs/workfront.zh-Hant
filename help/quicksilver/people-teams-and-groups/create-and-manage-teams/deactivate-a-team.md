@@ -6,9 +6,9 @@ description: 您可以停用不再使用的團隊，同時保留關聯的歷史�
 author: Lisa
 feature: People Teams and Groups
 exl-id: 634e4c0f-aa1d-4197-92e3-54f414344ac0
-source-git-commit: 24bb9b5c0836196a1c6e15f828eb47bbd489ef25
+source-git-commit: dfd5c7423b65e6065ab9c2094578443b81189abd
 workflow-type: tm+mt
-source-wordcount: '338'
+source-wordcount: '344'
 ht-degree: 0%
 
 ---
@@ -44,24 +44,31 @@ ht-degree: 0%
 
 ## 存取需求
 
++++ 展開以檢視本文中功能的存取需求。
+
 您必須具有下列存取權才能執行本文中的步驟：
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
-  <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] 計畫*</strong></td> 
-   <td> <p>任何</p> </td> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader"> <p>Adobe Workfront計畫</p> </td> 
+   <td>任何</td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] 授權*</strong></td> 
-   <td> <p>計劃</p> </td> 
+   <td role="rowheader">Adobe Workfront授權</td> 
+   <td>
+   <p>新增：標準</p>
+   <p>或</p>
+   <p>目前：計畫</p></td>
   </tr> 
  </tbody> 
 </table>
 
-&#42;若要瞭解您擁有的計畫或授權型別，請連絡您的[!DNL Workfront]系統管理員。
+如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
++++
 
 ## 停用團隊
 
@@ -73,7 +80,8 @@ ht-degree: 0%
 
 使用請求佇列時，如果您停用在路由規則中指派為預設專案團隊的專案團隊，專案團隊會保留，請求仍會路由至已停用的專案團隊。 建議您先更新作用中團隊的路由規則，然後再停用團隊。
 
-1. 按一下Adobe Workfront右上角的&#x200B;**[!UICONTROL 主要功能表]**&#x200B;圖示![](assets/main-menu-icon.png)，然後按一下&#x200B;**[!UICONTROL 團隊]**。
+{{step1-to-team}}
+
 1. 按一下&#x200B;**[!DNL Switch team]**&#x200B;圖示，然後從下拉式選單中選取新專案團隊或在搜尋列中搜尋專案團隊。
 1. 按一下&#x200B;**[!UICONTROL 更多]**&#x200B;功能表，然後選取&#x200B;**[!UICONTROL 編輯]**。
 

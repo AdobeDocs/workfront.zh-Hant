@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: 1a2f6e95b5b229f9b749290fcb1767ff794ddd6d
+source-git-commit: ad5d49baddcacaf59c0194fcd3335e71448ae5f7
 workflow-type: tm+mt
 source-wordcount: '5546'
 ht-degree: 5%
@@ -304,7 +304,7 @@ ht-degree: 5%
    * 下拉
    * 多選下拉清單
 
-   ![將欄位拖曳到畫布上](assets/drag-field-to-section-041524.png)
+   ![將欄位拖曳到畫布上](assets/drag-field-to-section.png)
 
 1. 在畫面的右側，設定您新增之自訂欄位型別的可用選項：
 
@@ -579,7 +579,7 @@ ht-degree: 5%
      </tr> 
      <tr> 
       <td role="rowheader">姓名</td> 
-      <td> <p>（必要）此名稱是系統識別欄位的方式。 當您第一次設定Widget且輸入標籤時，「名稱」欄位會自動填入以和相符。 但是「標籤」和「名稱」欄位不同步，這可讓您自由地變更使用者看到的標籤，而不必變更系統看到的名稱。</p> 
+      <td> <p>（必要）此名稱是系統識別欄位的方式。 當您第一次設定Widget且輸入標籤時，「名稱」欄位會自動填入以和相符。 但是「標籤」和「名稱」欄位不同步，這可讓您自由地變更使用者看到的標籤，而不必變更系統看到的名稱。</p>
       <p>如需詳細資訊，請參閱<a href="design-a-form.md#notes-on-field-names-and-labels">欄位名稱和標籤的附註</a>。</p> </td>
      </tr> 
       <td role="rowheader">指示</td> 

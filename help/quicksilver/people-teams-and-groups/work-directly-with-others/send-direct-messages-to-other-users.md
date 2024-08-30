@@ -7,9 +7,9 @@ description: Adobe Workfront可讓您快速輕鬆地將與任何工作專案無�
 author: Lisa
 feature: People Teams and Groups
 exl-id: 82a1c304-176a-48c5-809d-40663ee768b7
-source-git-commit: 4f63bca8634663c4106be0175851af0b982d3408
+source-git-commit: dfd5c7423b65e6065ab9c2094578443b81189abd
 workflow-type: tm+mt
-source-wordcount: '354'
+source-wordcount: '411'
 ht-degree: 0%
 
 ---
@@ -47,6 +47,34 @@ ht-degree: 0%
 </table>
 
 &#42;若要瞭解您擁有的計畫或授權型別，請連絡您的[!DNL Workfront]系統管理員。
+
+## 存取需求
+
++++ 展開以檢視本文中功能的存取需求。
+
+您必須具有下列存取權才能執行本文中的步驟：
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader"> <p>Adobe Workfront計畫</p> </td> 
+   <td>任何</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront授權</td> 
+   <td>
+   <p>新增：淺色或更高</p>
+   <p>或</p>
+   <p>目前：檢閱或以上</p></td>
+  </tr> 
+ </tbody> 
+</table>
+
+如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
++++
 
 ## 將與工作專案無關的訊息傳送給其他使用者
 

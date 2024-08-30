@@ -6,45 +6,50 @@ description: Workfront管理員和擁有計畫或工作授權的使用者可以�
 author: Lisa
 feature: People Teams and Groups
 exl-id: b6761188-8630-446e-bc70-70fe272881ce
-source-git-commit: 24bb9b5c0836196a1c6e15f828eb47bbd489ef25
+source-git-commit: dfd5c7423b65e6065ab9c2094578443b81189abd
 workflow-type: tm+mt
-source-wordcount: '487'
+source-wordcount: '494'
 ht-degree: 0%
 
 ---
 
 # 編輯團隊設定
 
-作為[!DNL Adobe Workfront]系統管理員或具有[!UICONTROL 計畫]或[!UICONTROL 工作]授權的使用者，您可以編輯[!UICONTROL 團隊設定]。
+作為[!DNL Adobe Workfront]系統管理員或具有[!UICONTROL 標準]、[!UICONTROL 計畫]或[!UICONTROL 工作]授權的使用者，您可以編輯[!UICONTROL 團隊設定]。
 
 您可以將使用者新增至專案團隊、設定專案團隊版面配置範本，以及設定當專案團隊完成工作專案時記錄狀態的方式。
 
 ## 存取需求
 
++++ 展開以檢視本文中功能的存取需求。
+
 您必須具有下列存取權才能執行本文中的步驟：
 
 <table style="table-layout:auto"> 
  <col> 
- </col> 
  <col> 
- </col> 
  <tbody> 
-  <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] 計畫*</strong></td> 
-   <td> <p>任何</p> </td> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader"> <p>Adobe Workfront計畫</p> </td> 
+   <td>任何</td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] 授權*</strong></td> 
-   <td> <p>工作或更高</p> </td> 
+   <td role="rowheader">Adobe Workfront授權</td> 
+   <td>
+   <p>新增：標準</p>
+   <p>或</p>
+   <p>目前：工作或以上</p></td>
   </tr> 
  </tbody> 
 </table>
 
-&#42;若要瞭解您擁有的計畫或授權型別，請連絡您的[!DNL Workfront]系統管理員。
+如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
++++
 
 ## 編輯團隊設定
 
-1. 按一下Adobe Workfront右上角的&#x200B;**[!UICONTROL 主要功能表]**&#x200B;圖示![](assets/main-menu-icon.png)，然後按一下&#x200B;**[!UICONTROL 團隊]**。
+{{step1-to-team}}
 
 1. 按一下&#x200B;**[!UICONTROL 切換群組]**&#x200B;圖示![切換群組圖示](assets/switch-team-icon.png)，然後從下拉式功能表中選取新群組或在搜尋列中搜尋群組。
 

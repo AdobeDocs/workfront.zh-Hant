@@ -6,9 +6,9 @@ description: 完成按鈕可以自動設定任務或問題的狀態。 依預設
 author: Lisa
 feature: People Teams and Groups
 exl-id: 2e72854a-2d49-4665-b307-b88f660b141e
-source-git-commit: 1f749ba9a54ce75a917e4b1e95713ac7abeaa66b
+source-git-commit: dfd5c7423b65e6065ab9c2094578443b81189abd
 workflow-type: tm+mt
-source-wordcount: '1169'
+source-wordcount: '1170'
 ht-degree: 1%
 
 ---
@@ -28,36 +28,41 @@ ht-degree: 1%
 
 ## 存取需求
 
++++ 展開以檢視本文中功能的存取需求。
+
 您必須具有下列存取權才能執行本文中的步驟：
 
 <table style="table-layout:auto"> 
  <col> 
- </col> 
  <col> 
- </col> 
  <tbody> 
-  <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] 計畫*</strong></td> 
-   <td> <p>任何</p> </td> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader"> <p>Adobe Workfront計畫</p> </td> 
+   <td>任何</td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] 授權*</strong></td> 
-   <td> <p>[！UICONTROL計畫] </p> </td> 
+   <td role="rowheader">Adobe Workfront授權</td> 
+   <td>
+   <p>新增：標準</p>
+   <p>或</p>
+   <p>目前：計畫</p></td>
   </tr> 
-  <tr> 
-   <td role="rowheader"><strong>存取層級設定*</strong></td> 
-   <td>刪除[！UICONTROL已解決]狀態時，需要系統管理員存取權才能設定[！UICONTROL完成]按鈕</td> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader">存取層級設定</td> 
+   <td> <p>當刪除已解析狀態時，需要系統管理員存取權才能設定完成按鈕</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;若要瞭解您擁有的計畫、授權型別或存取權，請連絡您的Workfront管理員。
+如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
++++
 
 ## 設定團隊的[!UICONTROL 完成]按鈕
 
 您可以使用[!UICONTROL 完成]按鈕變更套用到工作專案的狀態。 您也可以設定多個狀態，並允許使用者選擇適當的狀態。
 
-1. 按一下Adobe Workfront右上角的&#x200B;**[!UICONTROL 主要功能表]**&#x200B;圖示![](assets/main-menu-icon.png)，然後按一下&#x200B;**[!UICONTROL 團隊]**。
+{{step1-to-team}}
 
 1. 按一下「**[!UICONTROL 切換群組]**」圖示，然後從下拉式功能表中選取新群組或在搜尋列中搜尋群組。
 1. 按一下&#x200B;**[!UICONTROL 更多]**&#x200B;功能表，然後按一下&#x200B;**[!UICONTROL 編輯]**。

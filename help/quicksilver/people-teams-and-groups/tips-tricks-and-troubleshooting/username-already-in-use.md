@@ -7,9 +7,9 @@ description: 當您收到使用者名稱已被使用的錯誤時，請閱讀這�
 author: Lisa
 feature: People Teams and Groups
 exl-id: dc9accf0-7ef4-4555-9b1c-d69b2110f3da
-source-git-commit: 24bb9b5c0836196a1c6e15f828eb47bbd489ef25
+source-git-commit: dfd5c7423b65e6065ab9c2094578443b81189abd
 workflow-type: tm+mt
-source-wordcount: '302'
+source-wordcount: '318'
 ht-degree: 1%
 
 ---
@@ -18,26 +18,35 @@ ht-degree: 1%
 
 ## 存取需求
 
++++ 展開以檢視本文中功能的存取需求。
+
 您必須具有下列存取權才能執行本文中的步驟：
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
-  <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] 計劃</strong></td> 
-   <td> <p>任何</p> </td> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader"> <p>Adobe Workfront計畫</p> </td> 
+   <td>任何</td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] 授權</strong></td> 
-   <td> <p>[！UICONTROL計畫]</p> </td> 
+   <td role="rowheader">Adobe Workfront授權</td> 
+   <td>
+   <p>新增：標準</p>
+   <p>或</p>
+   <p>目前：計畫</p></td>
   </tr> 
-  <tr> 
-   <td role="rowheader"><strong>存取層級設定</strong></td> 
-   <td> <p>[！UICONTROL系統管理員]</p> </td> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader">存取層級設定</td> 
+   <td> <p>系統管理員</p> </td> 
   </tr> 
  </tbody> 
 </table>
+
+如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
++++
 
 ## 問題
 
@@ -57,7 +66,8 @@ ht-degree: 1%
 
 確認使用者名稱和電子郵件地址在目前的[!DNL Workfront]執行個體中是唯一的：
 
-1. 以[!DNL Workfront]系統管理員的身分，按一下[!DNL Adobe Workfront]右上角的&#x200B;**[!UICONTROL 主功能表]**&#x200B;圖示![](assets/main-menu-icon.png)，然後按一下&#x200B;**[!UICONTROL 使用者]**。
+{{step-1-to-users}}
+
 1. 在人員清單中，檢視&#x200B;**[!UICONTROL 電子郵件]**&#x200B;欄，確保沒有重複的電子郵件。
 1. 在檢視中新增使用者名稱欄。
 
