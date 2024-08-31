@@ -4,8 +4,9 @@ description: 您可以在Adobe Workfront Planning中新增反映組織生命週�
 author: Alina
 feature: Workfront Planning
 role: User, Admin
+recommendations: noDisplay, noCatalog
 exl-id: a1ad5ada-5010-4dec-934e-a49a3e28aa5f
-source-git-commit: f8ad026582be5b4c89939af8f135151ffaabccfe
+source-git-commit: 78a54ec94dd5a5746144e99e14c622e8b3a7ea71
 workflow-type: tm+mt
 source-wordcount: '420'
 ht-degree: 2%

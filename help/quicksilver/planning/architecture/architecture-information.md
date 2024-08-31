@@ -4,8 +4,9 @@ description: 以下文章說明如何設定Adobe Workfront Planning的架構。 
 author: Alina
 feature: Workfront Planning
 role: User, Admin
+recommendations: noDisplay, noCatalog
 exl-id: 0da08e30-51a8-4163-ae1e-821a099fac3b
-source-git-commit: f8ad026582be5b4c89939af8f135151ffaabccfe
+source-git-commit: 78a54ec94dd5a5746144e99e14c622e8b3a7ea71
 workflow-type: tm+mt
 source-wordcount: '189'
 ht-degree: 0%

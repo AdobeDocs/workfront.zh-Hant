@@ -6,9 +6,9 @@ description: 您可以檢視自己或其他任何新增至Adobe Workfront目標�
 author: Alina
 feature: Workfront Goals
 exl-id: ec9b6789-fffe-425c-8316-eefe670ad0d6
-source-git-commit: 024c612d46848c55529e902a00d481588d261584
+source-git-commit: 78a54ec94dd5a5746144e99e14c622e8b3a7ea71
 workflow-type: tm+mt
-source-wordcount: '1382'
+source-wordcount: '1366'
 ht-degree: 2%
 
 ---
@@ -31,9 +31,8 @@ ht-degree: 2%
    <td role="rowheader">Adobe Workfront計畫*</td> 
    <td> 
    <p>對於新計畫和授權結構：
-  <ul><li>終極計畫 </li>
-  或
-  <li>適用於Prime或選取Adobe Workfront計畫的Adobe Workfront目標的其他授權。 </li></ul> </p>
+  <ul><li>終極計畫 </li> </ul>
+
 <p>對於目前的計畫與授權結構： 
 <ul><li> A Pro或更高版本 </li>
   <li>除了Adobe Workfront授權之外，還有Workfront目標授權。</li></ul></p>

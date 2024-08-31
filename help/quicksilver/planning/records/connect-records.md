@@ -1,31 +1,17 @@
 ---
 title: 連線記錄
 description: 在記錄型別之間建立連線後，可以將個別記錄彼此連線。
-hidefromtoc: true
-hide: true
 recommendations: noDisplay, noCatalog
 feature: Workfront Planning
 role: User, Admin
 author: Alina
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
-source-git-commit: 425c3d3afb892ac83a10bbd36efb4c7d9712c4dc
+source-git-commit: 78a54ec94dd5a5746144e99e14c622e8b3a7ea71
 workflow-type: tm+mt
 source-wordcount: '2714'
 ht-degree: 1%
 
 ---
-
-<!--when you make this live, update the metadata above to this: 
----
-title: Connect records and objects
-description: In addition to connecting records to one another, you can also connect records to objects from other applications.  
-topic: Architecture
-role: User
-hidefromtoc: yes
-hide: yes
----
--->
-<!--update the metadata with real information when making this available in TOC and in the left nav-->
 
 
 # 連接記錄

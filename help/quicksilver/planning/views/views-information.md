@@ -4,8 +4,9 @@ description: 您可以在表格、時間表或行事曆檢視中顯示Adobe Work
 author: Alina
 feature: Workfront Planning
 role: User, Admin
+recommendations: noDisplay, noCatalog
 exl-id: 0f93014b-d0f7-4ea3-9b11-3314b46f1ef3
-source-git-commit: f8ad026582be5b4c89939af8f135151ffaabccfe
+source-git-commit: 78a54ec94dd5a5746144e99e14c622e8b3a7ea71
 workflow-type: tm+mt
 source-wordcount: '80'
 ht-degree: 0%

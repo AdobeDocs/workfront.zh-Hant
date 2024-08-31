@@ -5,7 +5,8 @@ author: Alina
 feature: Workfront Planning
 role: User, Admin
 exl-id: 7a65d66e-a578-4016-805e-0cb04caaa18a
-source-git-commit: bffa5992a530761afe57ec62b4cbba2bf03ad1e6
+recommendations: noDisplay, noCatalog
+source-git-commit: 78a54ec94dd5a5746144e99e14c622e8b3a7ea71
 workflow-type: tm+mt
 source-wordcount: '594'
 ht-degree: 0%
