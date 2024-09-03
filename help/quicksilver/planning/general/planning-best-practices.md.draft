@@ -61,7 +61,7 @@ Some questions you might ask yourself as you set up Planning are:
 
     For information, see [Create fields](/help/quicksilver/planning/fields/create-fields.md). 
 
-* **What Workfront or AEM Assets object types do I need to connect to Workfront Planning record types to be able to show dependencies and to create a seamless workflow for my organization?** 
+* **What Workfront object or Experience Manager asset types do I need to connect to Workfront Planning record types to be able to show dependencies and to create a seamless workflow for my organization?** 
 
     For information, see [Connect record types](/help/quicksilver/planning/architecture/connect-record-types.md)
 
