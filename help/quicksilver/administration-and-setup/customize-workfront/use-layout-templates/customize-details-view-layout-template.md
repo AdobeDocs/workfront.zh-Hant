@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 1474e1dd-9b10-476e-9526-6577efa8d1c2
-source-git-commit: a8214d9e10363881afbc2bd71f78f46cb6a25880
+source-git-commit: 21c873d617187518bdbfe54a7a1ee5f1119ed8fd
 workflow-type: tm+mt
-source-wordcount: '569'
+source-wordcount: '604'
 ht-degree: 0%
 
 ---
@@ -104,11 +104,13 @@ or billing record
 1. 在&#x200B;**詳細資料**&#x200B;區段中，執行下列任一項作業以自訂使用者在「詳細資料」檢視中看到的內容：
 
    * 拖曳任何區段標題![](assets/move-icon---dots.png)以變更其順序。
-   * 啟用或停用&#x200B;**總覽**&#x200B;和&#x200B;**自訂Forms**&#x200B;下的選項以顯示或隱藏它們。
+   * 啟用或停用不同區域(例如&#x200B;**總覽**、**財務**&#x200B;和&#x200B;**自訂Forms**)下的選項以顯示或隱藏它們。
 
      如果您隱藏其中一個區段中的所有欄位，則會隱藏整個區段。
 
-     預設會啟用所有欄位。
+     預設會啟用所有欄位。 您可以選取或清除區域中的&#x200B;**全選**&#x200B;核取方塊，以顯示或隱藏該區域中的所有欄位。
+
+   ![配置範本中的詳細資料檢視](assets/layout-template-details-view.png)
 
 1. 繼續自訂版面範本。
 
