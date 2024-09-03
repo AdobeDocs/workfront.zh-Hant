@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: bffa5992a530761afe57ec62b4cbba2bf03ad1e6
+source-git-commit: 1e62d5c7eff86432b4914793d75cdf4f835f3d5d
 workflow-type: tm+mt
-source-wordcount: '3609'
+source-wordcount: '3622'
 ht-degree: 2%
 
 ---
@@ -225,7 +225,7 @@ OLD:
 
 ### 單行文字 {#single-line-text}
 
-單行文字欄位會擷取有限的英數字元資訊。 例如，您可以在單行文字欄位中擷取「擁有者」、「利害關係人」、「團隊」或「組織」單位資訊。 單行文字欄位的內容最多可包含250個字元。<!-- asked Lilit if we can change this to "Single-line" since this can have numbers and text.-->
+單行文字欄位會擷取有限的英數字元資訊。 例如，您可以在單行文字欄位中擷取「擁有者」、「利害關係人」、「團隊」或「組織」單位資訊。 單行文字欄位的內容最多可包含1,000個字元。<!-- used to be 250 but just tested with 1000 and it allowed this as a maximum. -->
 
 1. 依照本文中[從頭開始建立欄位](#create-fields-from-scratch)一節的說明開始建立欄位，然後選取&#x200B;**單行文字**&#x200B;欄位型別。
 
@@ -245,9 +245,12 @@ OLD:
 
 >[!TIP]
 >
->* 段落欄位的內容最多可包含1,000個字元。
+>* 一個記錄型別最多可以有20個段落欄位。
 >
+>* 段落欄位的內容最多可包含100,000個字元。
 >* 當段落欄位顯示在表格檢視或記錄的詳細資訊頁面時，您可以使用RTF格式來增強段落欄位的內容。 如需詳細資訊，請參閱[編輯記錄](/help/quicksilver/planning/records/edit-records.md)。
+>
+
 
 1. 依照本文中[從頭開始建立欄位](#create-fields-from-scratch)一節的說明開始建立欄位，然後選取&#x200B;**段落**&#x200B;欄位型別。
 

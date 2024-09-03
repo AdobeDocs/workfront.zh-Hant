@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: bffa5992a530761afe57ec62b4cbba2bf03ad1e6
+source-git-commit: 1e62d5c7eff86432b4914793d75cdf4f835f3d5d
 workflow-type: tm+mt
-source-wordcount: '1368'
+source-wordcount: '1392'
 ht-degree: 1%
 
 ---
@@ -356,10 +356,12 @@ ht-degree: 1%
 
    ![](assets/show-collaborators-toggle-selected.png)
 
-1. （視條件而定）開啟表格檢視，其他人正在編輯的欄位會以與其在表格檢視中頭像輪廓相對應的顏色外框。
+1. （視條件而定）開啟表格檢視，另一個人正在主動編輯的欄位會以對應表格檢視中其顯示圖片外框的顏色反白。
+
+   如果頭像的醒目提示顏色是灰色，使用者將在30秒前停止主動編輯記錄。
 
    ![](assets/real-time-indicator-table-field-and-avatar-connection.png)
 
    >[!TIP]
    >
-   >您可以從任何檢視中選取&#x200B;**顯示共同作業人員**&#x200B;切換按鈕。 已編輯的欄位僅會在表格檢視中外框。
+   >您可以從任何檢視中選取&#x200B;**顯示共同作業人員**&#x200B;切換按鈕。 目前由其他人編輯的欄位僅在表格檢視中列出。

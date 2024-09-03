@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: a3006a05b7003e638596c2754b77e914083a5643
+source-git-commit: 1e62d5c7eff86432b4914793d75cdf4f835f3d5d
 workflow-type: tm+mt
-source-wordcount: '7432'
+source-wordcount: '7462'
 ht-degree: 0%
 
 ---
@@ -98,6 +98,11 @@ ht-degree: 0%
 當您請求存取工作區或檢視時，您請求存取權的使用者會收到有關請求的電子郵件通知。 在請求被授予後，您會收到電子郵件通知，確認您的請求已被核准。
 
 當許可權被授予時，您可以從電子郵件通知存取檢視或工作區。 <!--see if they also get an in-app notification-->
+
+>[!NOTE]
+>
+>您的組織必須加入Adobe統一體驗，使用者才能透過許可權請求請求向檢視或工作區請求和授予許可權。
+
 
 如需詳細資訊，請參閱[要求檢視或工作區的許可權](/help/quicksilver/planning/access/request-permissions.md)。
 

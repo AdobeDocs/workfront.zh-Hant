@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: cf42511263ec1cffd90d1e4bdcd43521b7fe6a30
+source-git-commit: 1e62d5c7eff86432b4914793d75cdf4f835f3d5d
 workflow-type: tm+mt
-source-wordcount: '2621'
+source-wordcount: '2622'
 ht-degree: 0%
 
 ---
@@ -403,7 +403,7 @@ this is not possible right now; if this is the same functionality as the table v
 * 您可以在時間軸檢視中選取的記錄型別記錄下顯示連線的記錄或物件。
 * 您可以使用「劃分」功能，在時間軸檢視中顯示下列專案：
    * Workfront Planning記錄已連線至選取的記錄型別。
-   * 連線到所選記錄型別的Workfront (*************&#x200B;或AEM Assets *************)物件型別。
+   * Workfront物件型別或連線到所選記錄型別的Experience Manager資產。
    * Workfront Planning記錄或其他應用程式的物件，這些記錄或其他應用程式已連線至連線至所選記錄型別的記錄。
 
      例如，您可以將行銷活動連結至產品組合。 此外，您可以連線其他記錄型別、產品、專案以及行銷活動。 建立行銷活動時間表檢視時，您可以依產品組合、產品和專案劃分行銷活動。

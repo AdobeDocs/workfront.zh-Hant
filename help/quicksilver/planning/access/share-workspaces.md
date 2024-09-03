@@ -5,9 +5,9 @@ author: Alina
 feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: bffa5992a530761afe57ec62b4cbba2bf03ad1e6
+source-git-commit: 1e62d5c7eff86432b4914793d75cdf4f835f3d5d
 workflow-type: tm+mt
-source-wordcount: '668'
+source-wordcount: '725'
 ht-degree: 2%
 
 ---
@@ -65,7 +65,8 @@ This article describes how you can share a view with others. For information abo
  <tr> 
    <td role="rowheader"><p>Adobe Workfront平台</p></td> 
    <td> 
-<p>貴組織的Workfront例項必須加入Adobe統一體驗，才能存取Workfront規劃的所有功能。</p> 
+<p>貴組織的Workfront例項必須加入Adobe統一體驗，才能存取Workfront規劃的所有功能。</p>
+<p>您的組織必須加入Adobe統一體驗，使用者才能透過許可權請求向工作區請求和授予許可權。 </p> 
 <p>如需詳細資訊，請參閱<a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Workfront的Adobe統一體驗</a>。 </p> 
    </td> 
    </tr> 
@@ -203,6 +204,11 @@ OLD:
    顯示&#x200B;**擱置中的存取要求**&#x200B;方塊。
 
    ![](assets/notifications-list-approval-box.png)
+
+1. （選擇性）對於您要核准其許可權的使用者，從使用者名稱右側的下拉式功能表中選取下列選項之一：
+   * **檢視**
+   * **Contribute**
+   * **管理**
 1. 選取您要核准或拒絕許可權的使用者，然後按一下&#x200B;**全部核准**&#x200B;或&#x200B;**全部拒絕**。
 1. 按一下&#x200B;**擱置存取要求**&#x200B;左側的向左箭頭，然後按一下&#x200B;**儲存**。
 

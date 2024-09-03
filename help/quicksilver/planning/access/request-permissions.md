@@ -5,15 +5,22 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: 04b0ada9b97445b9b05602b39a6d7ebce7d0cee9
+source-git-commit: 1e62d5c7eff86432b4914793d75cdf4f835f3d5d
 workflow-type: tm+mt
-source-wordcount: '562'
-ht-degree: 1%
+source-wordcount: '615'
+ht-degree: 0%
 
 ---
 
 
 # 要求檢視或工作區的許可權
+
+>[!IMPORTANT]
+>
+>本文中說明的功能僅在您的組織已上線到Adobe統一體驗時可用。
+>
+>如需詳細資訊，請參閱[Workfront的Adobe統一體驗](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md)。
+
 
 當有人與您共用您無權存取之檢視或工作區的連結時，您可以要求檢視或工作區的許可權。
 
@@ -66,6 +73,8 @@ ht-degree: 1%
    <td role="rowheader"><p>Adobe Workfront平台</p></td> 
    <td> 
 <p>貴組織的Workfront例項必須加入Adobe統一體驗，才能存取Workfront規劃的所有功能。</p> 
+<p><b>重要</b></p>
+<p>只有當您的組織加入Adobe統一體驗時，您組織中的使用者才能請求檢視和工作區的許可權。 </p>
 <p>如需詳細資訊，請參閱<a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Workfront的Adobe統一體驗</a>。 </p> 
    </td> 
    </tr> 

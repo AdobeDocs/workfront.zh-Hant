@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: a6eb8c7c-a34d-4c84-a45c-7e7f050a4302
-source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
+source-git-commit: 1e62d5c7eff86432b4914793d75cdf4f835f3d5d
 workflow-type: tm+mt
-source-wordcount: '416'
+source-wordcount: '437'
 ht-degree: 1%
 
 ---
@@ -65,6 +65,7 @@ ht-degree: 1%
    <td role="rowheader"><p>Adobe Workfront平台</p></td> 
    <td> 
 <p>貴組織的Workfront執行個體必須上線至Adobe統一體驗。</p> 
+<p>只有當您的組織加入Adobe統一體驗時，您組織中的使用者才會從Workfront Planning接收通知。 </p>
 <p>如需詳細資訊，請參閱<a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Workfront的Adobe統一體驗</a>。 </p> 
    </td> 
    </tr> 
