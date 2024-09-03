@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 6cc67488-1ba9-4455-9152-366aaabf0939
-source-git-commit: ffa599ff0e25ba960ce01f3f492482ee2e747122
+source-git-commit: 621e208a17a3a285dda0dc97cbe83638af2de1a5
 workflow-type: tm+mt
-source-wordcount: '1300'
+source-wordcount: '1361'
 ht-degree: 0%
 
 ---
@@ -206,6 +206,24 @@ ht-degree: 0%
                     <td>
                         <p><span class="bold">發行日期</span>
                         </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        案頭校訂檢視器Windows使用者的<a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-proofing-enhancements.md" class="MCXref xref" xrefformat="{para}">空白熒幕修正</a></p>
+                        [！BADGE In Production ]{type=Informative}
+                        <p>已修正新的2.1.36案頭校訂檢視器版本造成部分Windows使用者在開啟檢視器後看到空白畫面的問題。 </p>
+                        <p>Windows使用者的新版本： 2.1.37</p>
+                    </td>
+                    <td><p><b>將於下列日期提供：</b></p>
+                        <ul>
+                            <li>
+                                <p>預覽版本： 2024年8月30日</p>
+                            </li>
+                            <li>
+                                <p><span class="preview">所有客戶的生產版本： 2024年8月30日</span></p>
+                            </li>
+                        </ul>
                     </td>
                 </tr>
                 <tr>

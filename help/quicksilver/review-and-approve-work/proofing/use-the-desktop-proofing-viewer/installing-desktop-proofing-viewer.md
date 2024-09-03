@@ -6,7 +6,7 @@ description: 案頭校訂檢視器是必須安裝在本機電腦上的應用程�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 4441cf7f-13c7-4bd5-a971-2c9c0302d309
-source-git-commit: d0940962d0e64079dadc8c93f5503a01afd9fb8b
+source-git-commit: fef88c495fc7a634a70db4db767a9e380eff6228
 workflow-type: tm+mt
 source-wordcount: '569'
 ht-degree: 0%
@@ -63,8 +63,8 @@ ht-degree: 0%
 
 1. 執行下列任一項作業來下載應用程式：
 
-   * 如果您使用生產環境，請按一下案頭校訂檢視器的[Mac生產下載。](https://assets.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof-2.1.35.pkg)
-   * 如果您使用預覽環境，請按一下案頭校訂檢視器的[Mac預覽下載。](https://assets.preview.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof+Preview-2.1.35.pkg)
+   * 如果您使用生產環境，請按一下案頭校訂檢視器的[Mac生產下載。](https://assets.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof-2.1.36.pkg)
+   * 如果您使用預覽環境，請按一下案頭校訂檢視器的[Mac預覽下載。](https://assets.preview.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof+Preview-2.1.36.pkg)
 
 1. 開啟您剛下載的檔案，開始安裝。
 1. 在出現的安裝方塊上，按一下[繼續]****，然後按一下[安裝]****。
@@ -87,8 +87,8 @@ ht-degree: 0%
 
 1. 執行下列任一項作業來下載應用程式：
 
-   * 在生產環境中，按一下案頭校訂檢視器的[Windows生產下載。](https://assets.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof+Setup+2.1.35.exe)
-   * 在預覽環境中，按一下案頭校訂檢視器的[Windows預覽下載](https://assets.preview.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof+Preview+Setup+2.1.35.exe)
+   * 在生產環境中，按一下案頭校訂檢視器的[Windows生產下載。](https://assets.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof+Setup+2.1.37.exe)
+   * 在預覽環境中，按一下案頭校訂檢視器的[Windows預覽下載](https://assets.preview.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof+Preview+Setup+2.1.37.exe)
 
 1. 開啟您剛下載的檔案，開始安裝。
 1. 在出現的安裝方塊中，開啟您剛下載的檔案以開始安裝。
