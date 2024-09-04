@@ -9,9 +9,9 @@ description: 在 [!DNL Adobe Workfront Fusion] 案例中，您可以自動化使
 author: Becky
 feature: Workfront Fusion
 exl-id: ecaa93c9-47bb-4fe1-87b4-d2e117cc68ae
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: ed7ea1d3409c39caea5fe8b107b7b2907dc87d76
 workflow-type: tm+mt
-source-wordcount: '1777'
+source-wordcount: '1776'
 ht-degree: 0%
 
 ---
@@ -127,13 +127,13 @@ ht-degree: 0%
 
 ### 動作
 
-* [自訂API呼叫](#custom-api-call)
-* [讀取記錄](#read-record)
 * [建立記錄](#create-a-record)
+* [自訂API呼叫](#custom-api-call)
+* [下載附件](#download-an-attachment)
+* [連結工作專案](#link-work-items)
+* [讀取記錄](#read-record)
 * [更新工作專案](#update-a-work-item)
 * [[!UICONTROL 上傳附件]](#upload-an-attachment)
-* [下載附件](#download-an-attachment)
-* [連結工作專案]([!UICONTROL #link-work-items])
 
 #### [!UICONTROL 自訂API呼叫]
 
@@ -183,43 +183,6 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-#### [!UICONTROL 讀取記錄]
-
-此動作模組從[!DNL Azure DevOps]中的單一記錄讀取資料。
-
-您指定記錄的ID。
-
-模組會傳回記錄ID及任何關聯欄位，連同連線存取的任何自訂欄位和值。 您可以在情境中的後續模組中對應此資訊。
-
-當您設定此模組時，會顯示下列欄位。
-
-<table style="table-layout:auto">
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">[！UICONTROL Connection]</td> 
-   <td> <p>如需有關將您的[!DNL Azure DevOps]帳戶連線到[!DNL Workfront Fusion]的說明，請參閱本文中的<a href="#connect-azure-devops-to-workfront-fusion" class="MCXref xref">將[!DNL Azure DevOps]連線到[！UICONTROL Workfront Fusion]</a>。</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[！UICONTROL記錄型別]</td> 
-   <td> <p>選取您要讀取專案或工作專案</p> 
-    <ul> 
-     <li> <p><strong>[！UICONTROL專案]</strong>：選取您要讀取的專案。</p> </li> 
-     <li> <p><strong>[！UICONTROL工作專案]</strong>：選取包含您要讀取之工作專案的專案，然後選取工作專案型別。</p> </li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[！UICONTROL輸出]</td> 
-   <td>選取要包含在此模組輸出組合中的資訊。 可用欄位取決於工作專案型別。</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[！UICONTROL ID]</td> 
-   <td>輸入或對應您要讀取之記錄的ID。</td> 
-  </tr> 
- </tbody> 
-</table>
-
 #### [!UICONTROL 建立記錄]
 
 此動作模組會建立新專案或工作專案。
@@ -253,6 +216,99 @@ ht-degree: 0%
        <li> <p><strong>[！UICONTROL其他欄位]</strong>：在這些欄位中，輸入您想要工作專案對於指定屬性具有的值。 可用欄位取決於工作專案型別。</p> </li> 
       </ul> </li> 
     </ul> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### [!UICONTROL 下載附件]
+
+此動作模組會下載附件。
+
+模組會傳回附件的檔案內容。
+
+<table style="table-layout:auto">
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[！UICONTROL Connection]</td> 
+   <td> <p>如需有關將您的[!DNL Azure DevOps]帳戶連線到[!DNL Workfront Fusion]的說明，請參閱本文中的<a href="#connect-azure-devops-to-workfront-fusion" class="MCXref xref">將[!DNL Azure DevOps]連線到[！UICONTROL Workfront Fusion]</a>。</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[！UICONTROL附件URL]</td> 
+   <td> <p>輸入或對應您要下載之附件的URL。</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### [!UICONTROL 連結工作專案]
+
+此動作模組連結兩個工作專案並定義它們之間的關係。
+
+模組會傳回主要工作專案的ID及任何關聯欄位，以及連線存取的任何自訂欄位和值。 您可以在情境中的後續模組中對應此資訊。
+
+當您設定此模組時，會顯示下列欄位。
+
+<table style="table-layout:auto">
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[！UICONTROL Connection]</td> 
+   <td> <p>如需有關將您的[!DNL Azure DevOps]帳戶連線到[!DNL Workfront Fusion]的說明，請參閱本文中的<a href="#connect-azure-devops-to-workfront-fusion" class="MCXref xref">將[!DNL Azure DevOps]連線到[！UICONTROL Workfront Fusion]</a>。</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[！UICONTROL工作專案ID]</td> 
+   <td>輸入或對應您要連結其他工作專案的主要工作專案專案ID。</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[！UICONTROL連結的工作專案ID]</td> 
+   <td>輸入或對應您要連結至主要工作專案的工作專案ID。</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[！UICONTROL連結型別]</td> 
+   <td> <p>定義您要連結之工作專案之間的關係。</p> <p>如需詳細資訊，請參閱[！UICONTROL Azure DevOps]檔案中的<a href="https://docs.microsoft.com/en-us/azure/devops/boards/queries/link-type-reference?view=azure-devops">連結型別參考</a>。</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[！UICONTROL註解]</td> 
+   <td>輸入或對應註解的文字。 這對於說明連結的推理或意圖很有用。</td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### [!UICONTROL 讀取記錄]
+
+此動作模組從[!DNL Azure DevOps]中的單一記錄讀取資料。
+
+您指定記錄的ID。
+
+模組會傳回記錄ID及任何關聯欄位，連同連線存取的任何自訂欄位和值。 您可以在情境中的後續模組中對應此資訊。
+
+當您設定此模組時，會顯示下列欄位。
+
+<table style="table-layout:auto">
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[！UICONTROL Connection]</td> 
+   <td> <p>如需有關將您的[!DNL Azure DevOps]帳戶連線到[!DNL Workfront Fusion]的說明，請參閱本文中的<a href="#connect-azure-devops-to-workfront-fusion" class="MCXref xref">將[!DNL Azure DevOps]連線到[！UICONTROL Workfront Fusion]</a>。</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[！UICONTROL記錄型別]</td> 
+   <td> <p>選取您要讀取專案或工作專案</p> 
+    <ul> 
+     <li> <p><strong>[！UICONTROL專案]</strong>：選取您要讀取的專案。</p> </li> 
+     <li> <p><strong>[！UICONTROL工作專案]</strong>：選取包含您要讀取之工作專案的專案，然後選取工作專案型別。</p> </li> 
+    </ul> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[！UICONTROL輸出]</td> 
+   <td>選取要包含在此模組輸出組合中的資訊。 可用欄位取決於工作專案型別。</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[！UICONTROL ID]</td> 
+   <td>輸入或對應您要讀取之記錄的ID。</td> 
   </tr> 
  </tbody> 
 </table>
@@ -319,62 +375,6 @@ ht-degree: 0%
   <tr> 
    <td role="rowheader">[！UICONTROL Source檔案] </td> 
    <td>從先前的模組中選取來源檔案，或輸入或對應來源檔案的名稱和內容。</td> 
-  </tr> 
- </tbody> 
-</table>
-
-#### [!UICONTROL 下載附件]
-
-此動作模組會下載附件。
-
-模組會傳回附件的檔案內容。
-
-<table style="table-layout:auto">
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">[！UICONTROL Connection]</td> 
-   <td> <p>如需有關將您的[!DNL Azure DevOps]帳戶連線到[!DNL Workfront Fusion]的說明，請參閱本文中的<a href="#connect-azure-devops-to-workfront-fusion" class="MCXref xref">將[!DNL Azure DevOps]連線到[！UICONTROL Workfront Fusion]</a>。</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[！UICONTROL附件URL]</td> 
-   <td> <p>輸入或對應您要下載之附件的URL。</p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-#### [!UICONTROL 連結工作專案]
-
-此動作模組連結兩個工作專案並定義它們之間的關係。
-
-模組會傳回主要工作專案的ID及任何關聯欄位，以及連線存取的任何自訂欄位和值。 您可以在情境中的後續模組中對應此資訊。
-
-當您設定此模組時，會顯示下列欄位。
-
-<table style="table-layout:auto">
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">[！UICONTROL Connection]</td> 
-   <td> <p>如需有關將您的[!DNL Azure DevOps]帳戶連線到[!DNL Workfront Fusion]的說明，請參閱本文中的<a href="#connect-azure-devops-to-workfront-fusion" class="MCXref xref">將[!DNL Azure DevOps]連線到[！UICONTROL Workfront Fusion]</a>。</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[！UICONTROL工作專案ID]</td> 
-   <td>輸入或對應您要連結其他工作專案的主要工作專案專案ID。</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[！UICONTROL連結的工作專案ID]</td> 
-   <td>輸入或對應您要連結至主要工作專案的工作專案ID。</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[！UICONTROL連結型別]</td> 
-   <td> <p>定義您要連結之工作專案之間的關係。</p> <p>如需詳細資訊，請參閱[！UICONTROL Azure DevOps]檔案中的<a href="https://docs.microsoft.com/en-us/azure/devops/boards/queries/link-type-reference?view=azure-devops">連結型別參考</a>。</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[！UICONTROL註解]</td> 
-   <td>輸入或對應註解的文字。 這對於說明連結的推理或意圖很有用。</td> 
   </tr> 
  </tbody> 
 </table>

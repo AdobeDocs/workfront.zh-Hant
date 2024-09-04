@@ -8,9 +8,9 @@ description: webhook是由事件觸發的HTTP呼叫。 您可以使用Webhook來
 author: Becky
 feature: Workfront Fusion
 exl-id: 987544a4-5840-40d4-9438-41a000aa22ee
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 558ca6a1935d33e2c3c7ea3f4c1bd90a493ef8ff
 workflow-type: tm+mt
-source-wordcount: '1447'
+source-wordcount: '1449'
 ht-degree: 0%
 
 ---
@@ -134,7 +134,7 @@ webhook是由事件觸發的HTTP呼叫。 您可以使用Webhook來啟動即時�
 
    webhook的專案現在可以在對應面板中使用，以便與案例中的後續模組一起使用。
 
-## 佇列
+## webhook佇列
 
 如果webhook收到資料，而且沒有作用中案例需要該資料，則資料會儲存在佇列中。 啟用情境後，它會依序處理佇列中等待的所有組合。
 

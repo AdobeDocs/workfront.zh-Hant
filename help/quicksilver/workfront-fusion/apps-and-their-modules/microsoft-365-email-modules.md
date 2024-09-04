@@ -9,7 +9,7 @@ description: 在 [!DNL Adobe Workfront Fusion] 案例中，您可以自動執行
 author: Becky
 feature: Workfront Fusion
 exl-id: 29b69e8c-a889-441e-a052-287f1db2052d
-source-git-commit: a09116572d4f9101740fa976f1d334e99fac3010
+source-git-commit: 7e7294e52622a6b8164fc69bbb4be576cc113f63
 workflow-type: tm+mt
 source-wordcount: '2699'
 ht-degree: 0%
@@ -656,6 +656,7 @@ ht-degree: 0%
 ### 其他
 
 * [[!UICONTROL 新增附件]](#add-an-attachment)
+  <!--Create and send a message-->
 * [[!UICONTROL 進行API呼叫]](#make-an-api-call)
 
 #### [!UICONTROL 新增附件]

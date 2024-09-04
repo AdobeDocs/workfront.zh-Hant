@@ -5,7 +5,7 @@ author: Becky
 draft: Probably
 feature: Workfront Fusion
 exl-id: 6437fe98-2c2b-4b49-97e2-f94b23da93fd
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: ed7ea1d3409c39caea5fe8b107b7b2907dc87d76
 workflow-type: tm+mt
 source-wordcount: '2072'
 ht-degree: 1%
@@ -282,8 +282,8 @@ ht-degree: 1%
 ### 動作
 
 * [[!UICONTROL 新增問題至衝刺]](#add-issue-to-sprint)
-* [[!UICONTROL 自訂API呼叫]](#custom-api-call)
 * [[!UICONTROL 建立記錄]](#create-a-record)
+* [[!UICONTROL 自訂API呼叫]](#custom-api-call)
 * [[!UICONTROL 刪除記錄]](#delete-a-record)
 * [[!UICONTROL 下載附件]](#download-an-attachment)
 * [[!UICONTROL 讀取記錄]](#read-a-record)

@@ -9,9 +9,9 @@ description: 在 [!DNL Adobe Workfront Fusion] 案例中，您可以自動執行
 author: Becky
 feature: Workfront Fusion
 exl-id: 16d49031-06d2-4c86-bac4-f58cd9b2f1f5
-source-git-commit: 8b4182ae2b32488a02cacc16fcb6a246fcb571fd
+source-git-commit: ed7ea1d3409c39caea5fe8b107b7b2907dc87d76
 workflow-type: tm+mt
-source-wordcount: '2850'
+source-wordcount: '2859'
 ht-degree: 0%
 
 ---
@@ -651,6 +651,10 @@ ht-degree: 0%
 </table>
 
 ### 其他
+
+* [取得變更](#get-changes)
+* [進行API呼叫](#make-an-api-call)
+* [觀看活動](#watch-events)
 
 #### 取得變更
 

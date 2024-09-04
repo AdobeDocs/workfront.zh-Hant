@@ -10,9 +10,9 @@ description: 使用 [!DNL Adobe Workfront Fusion], you can start a scenario base
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: 0749f230-8cab-464f-863c-9cb4870125d1
-source-git-commit: e06ca7c05867c12940df487fe4bc4e34744e2f1f
+source-git-commit: 558ca6a1935d33e2c3c7ea3f4c1bd90a493ef8ff
 workflow-type: tm+mt
-source-wordcount: '1609'
+source-wordcount: '1647'
 ht-degree: 0%
 
 ---
@@ -190,6 +190,15 @@ ht-degree: 0%
 
 ![](assets/map-toggle-350x74.png)
 
+* [複製資料夾或資產](#copy-a-folder-or-asset)
+* [建立記錄](#create-a-record)
+* [刪除資料夾、資產或轉譯](#delete-a-folder-asset-or-rendition)
+* [取得資料夾清單](#get-a-folder-listing)
+* [進行自訂API呼叫](#make-a-custom-api-call)
+* [行動資料夾或資產](#move-a-folder-or-asset)
+* [更新記錄](#update-a-record)
+* [上傳資產](#upload-an-asset)
+
 ### [!UICONTROL 複製資料夾或資產]
 
 此動作模組會將資料夾或資產複製到Adobe Experience Manager Assets帳戶中的其他位置。
@@ -260,7 +269,7 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-### [!UICONTROL 刪除記錄]
+### [!UICONTROL 刪除資料夾、資產或轉譯]
 
 此動作模組會刪除資料夾、資產或轉譯。
 

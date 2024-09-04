@@ -10,9 +10,9 @@ description: 除了Adobe Workfront授權，Adobe Workfront Fusion還需要Adobe 
 author: Becky
 feature: Workfront Fusion
 exl-id: 01405f5f-6821-4c38-b34c-373922f63004
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+source-git-commit: 8dbb29b297d4f8840d5ecb81f819e89b5325f62c
 workflow-type: tm+mt
-source-wordcount: '2398'
+source-wordcount: '2471'
 ht-degree: 0%
 
 ---
@@ -73,11 +73,23 @@ ht-degree: 0%
 
 ![](assets/map-toggle-350x74.png)
 
+* [儀表板](#dashboards)
+* [報告](#reports)
+* [資料集](#dataset)
+* [應用程式](#apps)
+* [其他](#other)
+
 ### 儀表板
 
-#### [!UICONTROL 清單儀表板]
+* [建立控制面板](#create-a-dashboard)
+* [取得儀表板](#get-a-dashboard)
+* [取得儀表板動態磚](#get-a-dashboard-tile)
+* [清單控制面板圖磚](#list-dashboard-tiles)
+* [清單儀表板](#list-dashboards)
 
-此搜尋模組會擷取控制面板清單。
+#### [!UICONTROL 建立儀表板]
+
+此動作模組會建立新的控制面板。
 
 <table>
   <col/>
@@ -88,55 +100,14 @@ ht-degree: 0%
    <td> <p>如需有關將您的[!DNL Power BI]帳戶連線到[!DNL Workfront Fusion]的指示，請參閱<a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與Adobe[!DNL Workfront Fusion]的連線 — 基本指示</a></p> </td> 
     </tr>
     <tr>
-      <td role="rowheader">[！UICONTROL群組ID]  </td>
-      <td>
-        <p>選取或對應擁有您要列出之控制面板的群組ID。</p>
-      </td>
+      <td role="rowheader">[！UICONTROL名稱]</td>
+      <td>輸入或對應控制面板的名稱。</td>
     </tr>
     <tr>
-      <td role="rowheader">[！UICONTROL限制]  </td>
-      <td>
-        <p>輸入或對應您希望模組在每個案例執行週期中傳回的最大記錄數。</p>
-      </td>
+      <td role="rowheader">[！UICONTROL群組ID]  </td>
+      <td>選取或對應將擁有新儀表板的群組ID。</td>
     </tr>
   </tbody>
-</table>
-
-#### [!UICONTROL 列出儀表板圖磚]
-
-此搜尋模組會擷取控制面板圖磚清單。
-
-<table>
-<col/>
-<col/>
-<tbody>
-  <tr>
-    <td role="rowheader">[！UICONTROL Connection]</td>
-   <td> <p>如需有關將您的[!DNL Power BI]帳戶連線到[!DNL Workfront Fusion]的指示，請參閱<a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與Adobe[!DNL Workfront Fusion]的連線 — 基本指示</a></p> </td> 
-  </tr>
-  <tr>
-    <td role="rowheader">[！UICONTROL輸入儀表板ID]</td>
-    <td>
-      <p>選取或對應選項，以選擇要列出圖磚的控制面板。</p>
-    </td>
-  </tr>
-  <tr>
-    <td role="rowheader">[！UICONTROL儀表板ID]</td>
-    <td>
-      <p>輸入或對應包含您要列出之圖磚之控制面板的ID。</p>
-    </td>
-  </tr>
-  <tr>
-    <td role="rowheader">[！UICONTROL群組ID]  </td>
-    <td>選取或對應擁有控制面板的群組ID，控制面板包含您要列出的圖磚。</td>
-  </tr>
-  <tr>
-    <td role="rowheader">[！UICONTROL限制]  </td>
-    <td>
-      <p>輸入或對應您希望模組在每個案例執行週期中傳回的最大記錄數。</p>
-    </td>
-  </tr>
-</tbody>
 </table>
 
 #### [!UICONTROL 取得儀表板]
@@ -205,34 +176,46 @@ ht-degree: 0%
   </tbody>
 </table>
 
-#### [!UICONTROL 建立儀表板]
+#### [!UICONTROL 列出儀表板圖磚]
 
-此動作模組會建立新的控制面板。
+此搜尋模組會擷取控制面板圖磚清單。
 
 <table>
-  <col/>
-  <col/>
-  <tbody>
-    <tr>
-      <td role="rowheader">[！UICONTROL Connection]</td>
+<col/>
+<col/>
+<tbody>
+  <tr>
+    <td role="rowheader">[！UICONTROL Connection]</td>
    <td> <p>如需有關將您的[!DNL Power BI]帳戶連線到[!DNL Workfront Fusion]的指示，請參閱<a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與Adobe[!DNL Workfront Fusion]的連線 — 基本指示</a></p> </td> 
-    </tr>
-    <tr>
-      <td role="rowheader">[！UICONTROL名稱]</td>
-      <td>輸入或對應控制面板的名稱。</td>
-    </tr>
-    <tr>
-      <td role="rowheader">[！UICONTROL群組ID]  </td>
-      <td>選取或對應將擁有新儀表板的群組ID。</td>
-    </tr>
-  </tbody>
+  </tr>
+  <tr>
+    <td role="rowheader">[！UICONTROL輸入儀表板ID]</td>
+    <td>
+      <p>選取或對應選項，以選擇要列出圖磚的控制面板。</p>
+    </td>
+  </tr>
+  <tr>
+    <td role="rowheader">[！UICONTROL儀表板ID]</td>
+    <td>
+      <p>輸入或對應包含您要列出之圖磚之控制面板的ID。</p>
+    </td>
+  </tr>
+  <tr>
+    <td role="rowheader">[！UICONTROL群組ID]  </td>
+    <td>選取或對應擁有控制面板的群組ID，控制面板包含您要列出的圖磚。</td>
+  </tr>
+  <tr>
+    <td role="rowheader">[！UICONTROL限制]  </td>
+    <td>
+      <p>輸入或對應您希望模組在每個案例執行週期中傳回的最大記錄數。</p>
+    </td>
+  </tr>
+</tbody>
 </table>
 
-### 報告
+#### [!UICONTROL 清單儀表板]
 
-#### [!UICONTROL 清單報告]
-
-此搜尋模組會擷取報表清單。
+此搜尋模組會擷取控制面板清單。
 
 <table>
   <col/>
@@ -245,7 +228,7 @@ ht-degree: 0%
     <tr>
       <td role="rowheader">[！UICONTROL群組ID]  </td>
       <td>
-        <p>選取或對應擁有您要列出之報告的群組ID。</p>
+        <p>選取或對應擁有您要列出之控制面板的群組ID。</p>
       </td>
     </tr>
     <tr>
@@ -257,36 +240,12 @@ ht-degree: 0%
   </tbody>
 </table>
 
-#### [!UICONTROL 取得報表]
+### 報告
 
-此動作模組會擷取指定報表的中繼資料。
-
-<table>
-  <col/>
-  <col/>
-  <tbody>
-    <tr>
-      <td role="rowheader">[！UICONTROL Connection]</td>
-   <td> <p>如需有關將您的[!DNL Power BI]帳戶連線到[!DNL Workfront Fusion]的指示，請參閱<a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與Adobe[!DNL Workfront Fusion]的連線 — 基本指示</a></p> </td> 
-    </tr>
-    <tr>
-      <td role="rowheader">[！UICONTROL輸入報表ID]</td>
-      <td>
-        <p>選取或對應選項，以選擇要擷取中繼資料的報表。</p>
-      </td>
-    </tr>
-    <tr>
-      <td role="rowheader">[！UICONTROL報表ID]</td>
-      <td>
-        <p>輸入或對應您要擷取中繼資料之報表的ID。</p>
-      </td>
-    </tr>
-    <tr>
-      <td role="rowheader">[！UICONTROL群組ID]  </td>
-      <td>選取或對應擁有您要擷取中繼資料之報表的群組ID。</td>
-    </tr>
-  </tbody>
-</table>
+* [複製報告](#copy-a-report)
+* [刪除報告](#delete-a-report)
+* [取得報表](#get-a-report)
+* [清單報告](#list-reports)
 
 #### [!UICONTROL 複製報告]
 
@@ -354,36 +313,9 @@ ht-degree: 0%
   </tbody>
 </table>
 
-### 資料集
+#### [!UICONTROL 取得報表]
 
-#### [!UICONTROL 列出資料集]
-
-此搜尋模組會擷取資料集清單。
-
-<table>
-  <col/>
-  <col/>
-  <tbody>
-    <tr>
-      <td role="rowheader">[！UICONTROL Connection]</td>
-   <td> <p>如需有關將您的[!DNL Power BI]帳戶連線到[!DNL Workfront Fusion]的指示，請參閱<a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與Adobe[!DNL Workfront Fusion]的連線 — 基本指示</a></p> </td> 
-    </tr>
-    <tr>
-      <td role="rowheader">[！UICONTROL群組ID]  </td>
-      <td>選取或對應擁有您要擷取中繼資料之報表的群組ID。</td>
-    </tr>
-    <tr>
-      <td role="rowheader">[！UICONTROL限制]</td>
-      <td>
-        <p>在每個案例執行週期中，輸入或對應您要模組至[action]的最大記錄數量。</p>
-      </td>
-    </tr>
-  </tbody>
-</table>
-
-#### [!UICONTROL 取得資料集]
-
-此動作模組會擷取指定資料集的中繼資料。
+此動作模組會擷取指定報表的中繼資料。
 
 <table>
   <col/>
@@ -402,12 +334,132 @@ ht-degree: 0%
     <tr>
       <td role="rowheader">[！UICONTROL報表ID]</td>
       <td>
-        <p>輸入或對應您要擷取中繼資料之資料集的ID。</p>
+        <p>輸入或對應您要擷取中繼資料之報表的ID。</p>
       </td>
     </tr>
     <tr>
       <td role="rowheader">[！UICONTROL群組ID]  </td>
-      <td>選取或對應擁有您要擷取中繼資料之資料集的群組ID。</td>
+      <td>選取或對應擁有您要擷取中繼資料之報表的群組ID。</td>
+    </tr>
+  </tbody>
+</table>
+
+#### [!UICONTROL 清單報告]
+
+此搜尋模組會擷取報表清單。
+
+<table>
+  <col/>
+  <col/>
+  <tbody>
+    <tr>
+      <td role="rowheader">[！UICONTROL Connection]</td>
+   <td> <p>如需有關將您的[!DNL Power BI]帳戶連線到[!DNL Workfront Fusion]的指示，請參閱<a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與Adobe[!DNL Workfront Fusion]的連線 — 基本指示</a></p> </td> 
+    </tr>
+    <tr>
+      <td role="rowheader">[！UICONTROL群組ID]  </td>
+      <td>
+        <p>選取或對應擁有您要列出之報告的群組ID。</p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">[！UICONTROL限制]  </td>
+      <td>
+        <p>輸入或對應您希望模組在每個案例執行週期中傳回的最大記錄數。</p>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+
+### 資料集
+
+* [在資料集表格中新增/刪除列](#add-or-delete-rows-in-a-dataset-table)
+* [建立資料集](#create-a-dataset)
+* [刪除資料集](#delete-a-dataset)
+* [取得資料集](#get-a-dataset)
+* [清單資料集](#list-datasets)
+* [重新整理資料集](#refresh-a-dataset)
+
+#### [!UICONTROL 新增或刪除資料集資料表中的資料列]
+
+此動作模組會新增或刪除指定推送資料集表格的列。
+
+<table>
+  <col/>
+  <col/>
+  <tbody>
+    <tr>
+      <td role="rowheader">[！UICONTROL Connection]</td>
+   <td> <p>如需有關將您的[!DNL Power BI]帳戶連線到[!DNL Workfront Fusion]的指示，請參閱<a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與Adobe[!DNL Workfront Fusion]的連線 — 基本指示</a></p> </td> 
+    </tr>
+    <tr>
+      <td role="rowheader">[！UICONTROL輸入表格]</td>
+      <td>選取或對應選項以選取包含您要調整之表格的資料集。</td>
+    </tr>
+    <tr>
+      <td role="rowheader">[！UICONTROL資料集ID]</td>
+      <td>輸入或對應包含您要新增或刪除之列的資料集ID。</td>
+    </tr>
+    <tr>
+      <td role="rowheader">[！UICONTROL資料表名稱]  </td>
+      <td>
+        <p>輸入或對應包含您要新增或刪除之資料列的表格名稱。</p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">[！UICONTROL群組ID]  </td>
+      <td>輸入或對應擁有資料集之群組的ID。</td>
+    </tr>
+    <tr>
+      <td role="rowheader">[！UICONTROL選取動作]</td>
+      <td>
+        <p>選取或對應您要執行的動作。</p>
+        <ul>
+          <li>
+            <p>[！UICONTROL新增列]</p>
+          </li>
+          <li>
+            <p>[！UICONTROL Delete All Rows]</p>
+          </li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">[！UICONTROL列]</td>
+      <td>
+        <p>新增列欄位。</p>
+        <ul>
+          <li>
+            <p><b>[！UICONTROL索引鍵]</b>
+            </p>
+            <p>輸入或對應金鑰名稱。</p>
+          </li>
+          <li>
+            <p><b>[！UICONTROL欄位型別]</b>
+            </p>
+            <p>選取或對應欄位型別：</p>
+            <ul>
+              <li>
+                <p>布林值</p>
+              </li>
+              <li>
+                <p>日期</p>
+              </li>
+              <li>
+                <p>文字</p>
+              </li>
+              <li>
+                <p>數字</p>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <p>[！UICONTROL值]</p>
+            <p>輸入或對應索引鍵值。</p>
+          </li>
+        </ul>
+      </td>
     </tr>
   </tbody>
 </table>
@@ -583,9 +635,9 @@ ht-degree: 0%
   </tbody>
 </table>
 
-#### [!UICONTROL 新增或刪除資料集資料表中的資料列]
+#### [!UICONTROL 刪除資料集]
 
-此動作模組會新增或刪除指定推送資料集表格的列。
+此動作模組會刪除資料集。
 
 <table>
   <col/>
@@ -596,71 +648,75 @@ ht-degree: 0%
    <td> <p>如需有關將您的[!DNL Power BI]帳戶連線到[!DNL Workfront Fusion]的指示，請參閱<a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與Adobe[!DNL Workfront Fusion]的連線 — 基本指示</a></p> </td> 
     </tr>
     <tr>
-      <td role="rowheader">[！UICONTROL輸入表格]</td>
-      <td>選取或對應選項以選取包含您要調整之表格的資料集。</td>
-    </tr>
-    <tr>
-      <td role="rowheader">[！UICONTROL資料集ID]</td>
-      <td>輸入或對應包含您要新增或刪除之列的資料集ID。</td>
-    </tr>
-    <tr>
-      <td role="rowheader">[！UICONTROL資料表名稱]  </td>
+      <td role="rowheader">[！UICONTROL輸入報表ID]</td>
       <td>
-        <p>輸入或對應包含您要新增或刪除之資料列的表格名稱。</p>
+        <p>選取或對應選項，以選擇要刪除的資料集。</p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">[！UICONTROL報表ID]</td>
+      <td>
+        <p>輸入或對應您要刪除之資料集的ID。</p>
       </td>
     </tr>
     <tr>
       <td role="rowheader">[！UICONTROL群組ID]  </td>
-      <td>輸入或對應擁有資料集之群組的ID。</td>
+      <td>選取或對應擁有您要刪除之資料集的群組ID。</td>
+    </tr>
+  </tbody>
+</table>
+
+#### [!UICONTROL 取得資料集]
+
+此動作模組會擷取指定資料集的中繼資料。
+
+<table>
+  <col/>
+  <col/>
+  <tbody>
+    <tr>
+      <td role="rowheader">[！UICONTROL Connection]</td>
+   <td> <p>如需有關將您的[!DNL Power BI]帳戶連線到[!DNL Workfront Fusion]的指示，請參閱<a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與Adobe[!DNL Workfront Fusion]的連線 — 基本指示</a></p> </td> 
     </tr>
     <tr>
-      <td role="rowheader">[！UICONTROL選取動作]</td>
+      <td role="rowheader">[！UICONTROL輸入報表ID]</td>
       <td>
-        <p>選取或對應您要執行的動作。</p>
-        <ul>
-          <li>
-            <p>[！UICONTROL新增列]</p>
-          </li>
-          <li>
-            <p>[！UICONTROL Delete All Rows]</p>
-          </li>
-        </ul>
+        <p>選取或對應選項，以選擇要擷取中繼資料的報表。</p>
       </td>
     </tr>
     <tr>
-      <td role="rowheader">[！UICONTROL列]</td>
+      <td role="rowheader">[！UICONTROL報表ID]</td>
       <td>
-        <p>新增列欄位。</p>
-        <ul>
-          <li>
-            <p><b>[！UICONTROL索引鍵]</b>
-            </p>
-            <p>輸入或對應金鑰名稱。</p>
-          </li>
-          <li>
-            <p><b>[！UICONTROL欄位型別]</b>
-            </p>
-            <p>選取或對應欄位型別：</p>
-            <ul>
-              <li>
-                <p>布林值</p>
-              </li>
-              <li>
-                <p>日期</p>
-              </li>
-              <li>
-                <p>文字</p>
-              </li>
-              <li>
-                <p>數字</p>
-              </li>
-            </ul>
-          </li>
-          <li>
-            <p>[！UICONTROL值]</p>
-            <p>輸入或對應索引鍵值。</p>
-          </li>
-        </ul>
+        <p>輸入或對應您要擷取中繼資料之資料集的ID。</p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">[！UICONTROL群組ID]  </td>
+      <td>選取或對應擁有您要擷取中繼資料之資料集的群組ID。</td>
+    </tr>
+  </tbody>
+</table>
+
+#### [!UICONTROL 列出資料集]
+
+此搜尋模組會擷取資料集清單。
+
+<table>
+  <col/>
+  <col/>
+  <tbody>
+    <tr>
+      <td role="rowheader">[！UICONTROL Connection]</td>
+   <td> <p>如需有關將您的[!DNL Power BI]帳戶連線到[!DNL Workfront Fusion]的指示，請參閱<a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與Adobe[!DNL Workfront Fusion]的連線 — 基本指示</a></p> </td> 
+    </tr>
+    <tr>
+      <td role="rowheader">[！UICONTROL群組ID]  </td>
+      <td>選取或對應擁有您要擷取中繼資料之報表的群組ID。</td>
+    </tr>
+    <tr>
+      <td role="rowheader">[！UICONTROL限制]</td>
+      <td>
+        <p>在每個案例執行週期中，輸入或對應您要模組至[action]的最大記錄數量。</p>
       </td>
     </tr>
   </tbody>
@@ -716,9 +772,19 @@ ht-degree: 0%
   </tbody>
 </table>
 
-#### [!UICONTROL 刪除資料集]
+### 應用程式
 
-此動作模組會刪除資料集。
+* [取得應用程式](#get-an-app)
+* [取得應用程式的儀表板](#get-an-apps-dashboard)
+* [取得應用程式的報表](#get-an-apps-report)
+* [列出應用程式的儀表板](#list-apps-dashboards)
+* [清單應用程式的報表](#list-apps-reports)
+* [列出應用程式](#list-apps)
+* [Watch應用程式](#watch-apps)
+
+#### [!UICONTROL 取得應用程式]
+
+此動作模組會擷取指定應用程式的中繼資料。
 
 <table>
   <col/>
@@ -729,29 +795,44 @@ ht-degree: 0%
    <td> <p>如需有關將您的[!DNL Power BI]帳戶連線到[!DNL Workfront Fusion]的指示，請參閱<a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與Adobe[!DNL Workfront Fusion]的連線 — 基本指示</a></p> </td> 
     </tr>
     <tr>
-      <td role="rowheader">[！UICONTROL輸入報表ID]</td>
+      <td role="rowheader">[！UICONTROL應用程式ID]  </td>
       <td>
-        <p>選取或對應選項，以選擇要刪除的資料集。</p>
+        <p>選取或對應您要擷取的應用程式ID。</p>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+#### [!UICONTROL 取得應用程式的儀表板]
+
+此動作模組會擷取指定應用程式控制面板的中繼資料。
+
+<table>
+  <col/>
+  <col/>
+  <tbody>
+    <tr>
+      <td role="rowheader">[！UICONTROL Connection]</td>
+   <td> <p>如需有關將您的[!DNL Power BI]帳戶連線到[!DNL Workfront Fusion]的指示，請參閱<a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與Adobe[!DNL Workfront Fusion]的連線 — 基本指示</a></p> </td> 
+    </tr>
+    <tr>
+      <td role="rowheader">[！UICONTROL應用程式ID]  </td>
+      <td>
+        <p>選取或對應包含您要擷取之控制面板的應用程式ID。</p>
       </td>
     </tr>
     <tr>
       <td role="rowheader">[！UICONTROL報表ID]</td>
       <td>
-        <p>輸入或對應您要刪除之資料集的ID。</p>
+        <p>  選取或對應您要擷取之控制面板的ID。</p>
       </td>
-    </tr>
-    <tr>
-      <td role="rowheader">[！UICONTROL群組ID]  </td>
-      <td>選取或對應擁有您要刪除之資料集的群組ID。</td>
     </tr>
   </tbody>
 </table>
 
-### 應用程式
+#### [!UICONTROL 取得應用程式的報表]
 
-#### [!UICONTROL 觀看應用程式]
-
-此觸發模組會在應用程式更新時啟動案例。
+此動作模組會擷取指定應用程式報表的中繼資料。
 
 <table>
   <col/>
@@ -762,9 +843,15 @@ ht-degree: 0%
    <td> <p>如需有關將您的[!DNL Power BI]帳戶連線到[!DNL Workfront Fusion]的指示，請參閱<a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與Adobe[!DNL Workfront Fusion]的連線 — 基本指示</a></p> </td> 
     </tr>
     <tr>
-      <td role="rowheader">[！UICONTROL限制]  </td>
+      <td role="rowheader">[！UICONTROL應用程式ID]  </td>
       <td>
-        <p>輸入或對應您希望模組在每個案例執行週期中傳回的最大記錄數。</p>
+        <p>選取或對應包含您要擷取之報表的應用程式ID。</p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">[！UICONTROL報表ID]</td>
+      <td>
+        <p>  選取或對應您要擷取之報表的ID。</p>
       </td>
     </tr>
   </tbody>
@@ -781,31 +868,6 @@ ht-degree: 0%
     <tr>
       <td role="rowheader">[！UICONTROL Connection]</td>
    <td> <p>如需有關將您的[!DNL Power BI]帳戶連線到[!DNL Workfront Fusion]的指示，請參閱<a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與Adobe[!DNL Workfront Fusion]的連線 — 基本指示</a></p> </td> 
-    </tr>
-    <tr>
-      <td role="rowheader">[！UICONTROL限制]  </td>
-      <td>
-        <p>輸入或對應您希望模組在每個案例執行週期中傳回的最大記錄數。</p>
-      </td>
-    </tr>
-  </tbody>
-</table>
-
-#### [!UICONTROL 列出應用程式的報表]
-
-此搜尋模組會從指定的應用程式擷取所有報表的清單。
-
-<table>
-  <col/>
-  <col/>
-  <tbody>
-    <tr>
-      <td role="rowheader">[！UICONTROL Connection]</td>
-   <td> <p>如需有關將您的[!DNL Power BI]帳戶連線到[!DNL Workfront Fusion]的指示，請參閱<a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與Adobe[!DNL Workfront Fusion]的連線 — 基本指示</a></p> </td> 
-    </tr>
-    <tr>
-      <td role="rowheader">[！UICONTROL應用程式ID]</td>
-      <td>選取或對應您要從中列出報表之應用程式的ID。</td>
     </tr>
     <tr>
       <td role="rowheader">[！UICONTROL限制]  </td>
@@ -841,9 +903,9 @@ ht-degree: 0%
   </tbody>
 </table>
 
-#### [!UICONTROL 取得應用程式]
+#### [!UICONTROL 列出應用程式的報表]
 
-此動作模組會擷取指定應用程式的中繼資料。
+此搜尋模組會從指定的應用程式擷取所有報表的清單。
 
 <table>
   <col/>
@@ -854,44 +916,21 @@ ht-degree: 0%
    <td> <p>如需有關將您的[!DNL Power BI]帳戶連線到[!DNL Workfront Fusion]的指示，請參閱<a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與Adobe[!DNL Workfront Fusion]的連線 — 基本指示</a></p> </td> 
     </tr>
     <tr>
-      <td role="rowheader">[！UICONTROL應用程式ID]  </td>
+      <td role="rowheader">[！UICONTROL應用程式ID]</td>
+      <td>選取或對應您要從中列出報表之應用程式的ID。</td>
+    </tr>
+    <tr>
+      <td role="rowheader">[！UICONTROL限制]  </td>
       <td>
-        <p>選取或對應您要擷取的應用程式ID。</p>
+        <p>輸入或對應您希望模組在每個案例執行週期中傳回的最大記錄數。</p>
       </td>
     </tr>
   </tbody>
 </table>
 
-#### [!UICONTROL 取得應用程式的報表]
+#### [!UICONTROL 觀看應用程式]
 
-此動作模組會擷取指定應用程式報表的中繼資料。
-
-<table>
-  <col/>
-  <col/>
-  <tbody>
-    <tr>
-      <td role="rowheader">[！UICONTROL Connection]</td>
-   <td> <p>如需有關將您的[!DNL Power BI]帳戶連線到[!DNL Workfront Fusion]的指示，請參閱<a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與Adobe[!DNL Workfront Fusion]的連線 — 基本指示</a></p> </td> 
-    </tr>
-    <tr>
-      <td role="rowheader">[！UICONTROL應用程式ID]  </td>
-      <td>
-        <p>選取或對應包含您要擷取之報表的應用程式ID。</p>
-      </td>
-    </tr>
-    <tr>
-      <td role="rowheader">[！UICONTROL報表ID]</td>
-      <td>
-        <p>  選取或對應您要擷取之報表的ID。</p>
-      </td>
-    </tr>
-  </tbody>
-</table>
-
-#### [!UICONTROL 取得應用程式的儀表板]
-
-此動作模組會擷取指定應用程式控制面板的中繼資料。
+此觸發模組會在應用程式更新時啟動案例。
 
 <table>
   <col/>
@@ -902,15 +941,9 @@ ht-degree: 0%
    <td> <p>如需有關將您的[!DNL Power BI]帳戶連線到[!DNL Workfront Fusion]的指示，請參閱<a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與Adobe[!DNL Workfront Fusion]的連線 — 基本指示</a></p> </td> 
     </tr>
     <tr>
-      <td role="rowheader">[！UICONTROL應用程式ID]  </td>
+      <td role="rowheader">[！UICONTROL限制]  </td>
       <td>
-        <p>選取或對應包含您要擷取之控制面板的應用程式ID。</p>
-      </td>
-    </tr>
-    <tr>
-      <td role="rowheader">[！UICONTROL報表ID]</td>
-      <td>
-        <p>  選取或對應您要擷取之控制面板的ID。</p>
+        <p>輸入或對應您希望模組在每個案例執行週期中傳回的最大記錄數。</p>
       </td>
     </tr>
   </tbody>

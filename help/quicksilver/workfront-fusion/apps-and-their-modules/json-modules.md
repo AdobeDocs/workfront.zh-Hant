@@ -8,9 +8,9 @@ description: Adobe Workfront Fusion JSON應用程式提供可處理JSON格式資
 author: Becky
 feature: Workfront Fusion
 exl-id: 60540608-9d2e-4e10-9fb2-5388dda64784
-source-git-commit: 0290772c26ca82af31f14d101b4dde99377d6ce4
+source-git-commit: 558ca6a1935d33e2c3c7ea3f4c1bd90a493ef8ff
 workflow-type: tm+mt
-source-wordcount: '1205'
+source-wordcount: '1214'
 ht-degree: 0%
 
 ---
@@ -88,7 +88,7 @@ ht-degree: 0%
 >       "name" : "Peter",
 >
 >    
->   "ID" : 1
+   "ID" : 1
 >}
 >```
 >
@@ -108,7 +108,7 @@ ht-degree: 0%
 >   },
 >
 >  
-> {
+ {
 >       "name" : "Mike",
 >       "ID" : 2
 >   }
@@ -125,13 +125,14 @@ ht-degree: 0%
 
 ![](assets/map-toggle-350x74.png)
 
-* [彙總至JSON](#aggregate-to-json)
 * [將JSON轉換為XML](#convert-json-to-xml)
 * [剖析JSON](#parse-json)
 * [建立JSON](#create-json)
 * [轉換JSON](#transform-json)
 
-### [!UICONTROL 彙總至JSON]
+### 彙總
+
+#### [!UICONTROL 彙總至JSON]
 
 此彙總模組會將先前模組的輸出彙總至JSON。
 
@@ -162,7 +163,14 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-### [!UICONTROL 將JSON轉換為XML]
+### 轉換器
+
+* [將JSON轉換為XML](#convert-json-to-xml)
+* [建立JSON](#create-json)
+* [剖析JSON](#parse-json)
+* [轉換JSON](#transform-json)
+
+#### [!UICONTROL 將JSON轉換為XML]
 
 此動作模組會將JSON字串轉換為XML。
 
@@ -177,7 +185,22 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-### [!UICONTROL 剖析JSON]
+#### [!UICONTROL 建立JSON]
+
+此動作模組會從資料結構建立JSON。
+
+<table style="table-layout:auto"> 
+ <col data-mc-conditions=""> 
+ <col data-mc-conditions=""> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">資料結構</td> 
+   <td> <p>選取您要用來建立JSON的資料結構。 如需詳細資訊，請參閱本文中的<a href="#data-structure" class="MCXref xref">資料結構</a>。</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### [!UICONTROL 剖析JSON]
 
 此動作模組會將JSON字串剖析為資料結構，好讓您存取JSON字串內的資料。
 
@@ -196,22 +219,7 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-### [!UICONTROL 建立JSON]
-
-此動作模組會從資料結構建立JSON。
-
-<table style="table-layout:auto"> 
- <col data-mc-conditions=""> 
- <col data-mc-conditions=""> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">資料結構</td> 
-   <td> <p>選取您要用來建立JSON的資料結構。 如需詳細資訊，請參閱本文中的<a href="#data-structure" class="MCXref xref">資料結構</a>。</p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-### [!UICONTROL 轉換JSON]
+#### [!UICONTROL 轉換JSON]
 
 此動作模組會將物件轉換為JSON字串。
 
@@ -238,28 +246,27 @@ ht-degree: 0%
 >
 1. 在[!UICONTROL 陣列彙總]模組之後連線[!UICONTROL JSON] > [!UICONTROL 建立JSON]模組。 模組的設定需要說明JSON格式的資料結構。 按一下&#x200B;**[!UICONTROL 新增]**&#x200B;以開啟資料結構設定。 建立此資料結構的最簡單方法是，自動從JSON範例產生此資料結構。 按一下&#x200B;**[!UICONTROL 產生器]**&#x200B;並將您的JSON範例貼到&#x200B;**[!UICONTROL 範例資料]**&#x200B;欄位：
 >
->     **範例：**
+**範例：**
 >
->     ```
->     {
->     
->     "books": [
->     
->     {
->     
->     "id": "ID",
->     
->     "title": "Title",
->     
->     "author": "Author"
->     
->     }
->     
->     ]
->     
->     }
->     
->     ```
+```
+{
+
+"books": [
+
+{
+
+"id": "ID",
+
+"title": "Title",
+
+"author": "Author"
+
+}
+
+]
+
+}
+```
 >
 1. 按一下「**[!UICONTROL 儲存]**」。資料結構中的[!UICONTROL 規格]欄位現在包含產生的結構。
 1. 將您的資料結構名稱變更為更具體的名稱，然後按一下[儲存]。**** 對應至根陣列屬性的欄位會顯示為JSON模組設定中的可對應欄位。

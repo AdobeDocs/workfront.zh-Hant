@@ -9,7 +9,7 @@ description: 在 [!DNL Adobe Workfront Fusion] 案例中，您可以自動化使
 author: Becky
 feature: Workfront Fusion, Workfront Proof, Digital Content and Documents
 exl-id: f5c6fb08-880d-4432-aef1-57db13b3ecdb
-source-git-commit: 614fd206ea2c5fe103beb5be8f5ff99c8a45a502
+source-git-commit: 558ca6a1935d33e2c3c7ea3f4c1bd90a493ef8ff
 workflow-type: tm+mt
 source-wordcount: '3099'
 ht-degree: 0%
@@ -637,8 +637,31 @@ ht-degree: 0%
 
 ### 搜尋
 
-* [[!UICONTROL 搜尋]](#search)
 * [[!UICONTROL 列出工作流程範本]](#list-workflow-templates)
+* [[!UICONTROL 搜尋]](#search)
+
+#### [!UICONTROL 列出工作流程範本]
+
+此搜尋模組會列出所有可用的工作流程範本。
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td>[!DNL Connection]</td> 
+   <td> <p>如需有關將您的[!DNL Workfront Proof]帳戶連線到[!DNL Workfront Fusion]的指示，請參閱<a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與[!DNL Adobe Workfront Fusion]的連線 — 基本指示</a></p> </td> 
+  </tr> 
+  <tr> 
+   <td>[！UICONTROL輸出]</td> 
+   <td> <p>選取要包含在此模組輸出組合中的資訊。</p> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td>[！UICONTROL限制]</td> 
+   <td> <p>輸入或對應您希望模組在每個案例執行週期中傳回的最大範本數量。</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
 
 #### [!UICONTROL 搜尋]
 
@@ -677,29 +700,6 @@ ht-degree: 0%
   <tr data-mc-conditions=""> 
    <td>[！UICONTROL排序方向]</td> 
    <td> <p>選取您要以遞增或遞減方式排序結果。</p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-#### [!UICONTROL 列出工作流程範本]
-
-此搜尋模組會列出所有可用的工作流程範本。
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td>[!DNL Connection]</td> 
-   <td> <p>如需有關將您的[!DNL Workfront Proof]帳戶連線到[!DNL Workfront Fusion]的指示，請參閱<a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與[!DNL Adobe Workfront Fusion]的連線 — 基本指示</a></p> </td> 
-  </tr> 
-  <tr> 
-   <td>[！UICONTROL輸出]</td> 
-   <td> <p>選取要包含在此模組輸出組合中的資訊。</p> </td> 
-  </tr> 
-  <tr data-mc-conditions=""> 
-   <td>[！UICONTROL限制]</td> 
-   <td> <p>輸入或對應您希望模組在每個案例執行週期中傳回的最大範本數量。</p> </td> 
   </tr> 
  </tbody> 
 </table>
