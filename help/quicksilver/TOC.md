@@ -3,9 +3,9 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文件、教學課程和其他資源，了解如何在您的組織中實施並有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: dfd5c7423b65e6065ab9c2094578443b81189abd
+source-git-commit: a5317e3126939d4c648977635af2dbc6add02780
 workflow-type: tm+mt
-source-wordcount: '14363'
+source-wordcount: '14362'
 ht-degree: 2%
 
 ---
@@ -1756,7 +1756,7 @@ ht-degree: 2%
          * [將資源集區與使用者建立關聯](resource-mgmt/resource-planning/resource-pools/associate-resource-pools-with-users.md)
          * [從資源集區中移除使用者](resource-mgmt/resource-planning/resource-pools/remove-users-from-resource-pool.md)
       * [開始使用資源規劃](resource-mgmt/resource-planning/get-started-resource-planning.md)
-      * [在Adobe Workfront中預算資源所需的存取權](resource-mgmt/resource-planning/access-needed-to-budget-resources.md)
+      * [在Workfront中預算資源所需的存取權](resource-mgmt/resource-planning/access-needed-to-budget-resources.md)
       * [資源規劃工具概觀](resource-mgmt/resource-planning/get-started-resource-planner.md)
       * [找到資源規劃工具](resource-mgmt/resource-planning/locate-resource-planner.md)
       * [資源規劃工具導覽概觀](resource-mgmt/resource-planning/resource-planner-navigation.md)

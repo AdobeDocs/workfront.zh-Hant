@@ -6,7 +6,7 @@ description: 資源集區是使用者的集合，可協助您更輕鬆地在Adob
 author: Lisa
 feature: Resource Management
 exl-id: 4991634c-e400-466e-bcee-3b461b6662d8
-source-git-commit: a9d507bfcc0a602e71bcdd3142d63cc40175ebf4
+source-git-commit: a5317e3126939d4c648977635af2dbc6add02780
 workflow-type: tm+mt
 source-wordcount: '569'
 ht-degree: 2%
@@ -33,7 +33,7 @@ ht-degree: 2%
    <td role="rowheader">Adobe Workfront計畫</td> 
    <td><p>新增：任何</p>
        <p>或</p>
-       <p>最新：Pro和更高版本</p> </td> 
+       <p>目前：Pro或更高</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront授權</td> 

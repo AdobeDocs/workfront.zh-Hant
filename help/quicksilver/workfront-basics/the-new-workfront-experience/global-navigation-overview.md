@@ -5,9 +5,9 @@ description: 頂端導覽列（顯示在 [!DNL Adobe Workfront] 的熒幕頂端�
 feature: Get Started with Workfront
 author: Nolan
 exl-id: 6262d0ff-4be0-41ac-b2e7-5eaa6b2795dc
-source-git-commit: dda00a43c5122a233ce2849d828d2e5e4555d2d9
+source-git-commit: 692f3be1d7d3c3099e822440872ebdf3af3e04d1
 workflow-type: tm+mt
-source-wordcount: '744'
+source-wordcount: '698'
 ht-degree: 0%
 
 ---
@@ -32,11 +32,13 @@ ht-degree: 0%
 
 您可以釘選經常造訪的頁面，讓它們顯示在頂端導覽列中。 若要深入瞭解釘選頁面，請參閱[釘選頁面以自訂您的工作區](../../workfront-basics/the-new-workfront-experience/pin-pages.md)。
 
-## [!UICONTROL 說明]功能表
+<!--
+## [!UICONTROL Help] menu
 
-**[!UICONTROL 說明]**&#x200B;功能表可讓您搜尋特定工作的說明、尋找有關使用[!DNL Workfront]的更多資訊、檢視與您目前所在頁面相關的內容，或提交關於您體驗的意見反應。
+The **[!UICONTROL Help]** menu allows you to search for help with a specific task, find more information on using [!DNL Workfront], view content related to the page you are currently on, or submit feedback about your experience.
 
-若要進一步瞭解[說明]功能表，請參閱[存取 [!DNL Adobe Workfront] 說明](../../workfront-basics/navigate-workfront/workfront-navigation/access-workfront-help.md)。
+To learn more about the Help menu, see [Access [!DNL Adobe Workfront] help](../../workfront-basics/navigate-workfront/workfront-navigation/access-workfront-help.md).
+-->
 
 ## [!UICONTROL 通知]功能表
 

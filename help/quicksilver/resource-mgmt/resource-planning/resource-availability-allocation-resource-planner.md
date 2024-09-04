@@ -1,14 +1,14 @@
 ---
 product-area: resource-management
 navigation-topic: resource-planning
-title: 使用Adobe Workfront資源規劃工具檢閱資源可用性和配置
+title: 使用Adobe Workfront資源規劃工具複查資源可用性與配置
 description: 您可以在資源規劃工具中檢視資源的可用性，以及專案的計畫或預算工作量。 這些值會以「時數」、「約當全職人數」或「成本」金額顯示，並以欄位組織。
-author: Alina
+author: Lisa
 feature: Resource Management
 exl-id: 5b3e52a6-af9b-4e68-8d6e-43a5151a2a2c
-source-git-commit: 24cc3ece515fd778a9bc9e8afbcd534f48b24230
+source-git-commit: a5317e3126939d4c648977635af2dbc6add02780
 workflow-type: tm+mt
-source-wordcount: '1266'
+source-wordcount: '1237'
 ht-degree: 4%
 
 ---
@@ -19,6 +19,8 @@ ht-degree: 4%
 
 ## 存取需求
 
++++ 展開以檢視本文中功能的存取需求。
+
 您必須具有下列存取權才能執行本文中的步驟：
 
 <table style="table-layout:auto"> 
@@ -26,39 +28,37 @@ ht-degree: 4%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront計畫*</td> 
-   <td> <p>專業及更高版本</p> </td> 
+   <td role="rowheader">Adobe Workfront計畫</td> 
+   <td><p>新增：任何</p>
+       <p>或</p>
+       <p>目前：Pro或更高</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront授權*</td> 
-   <td> <p>評論或以上 </p> </td> 
+   <td role="rowheader">Adobe Workfront授權</td> 
+   <td><p>新增：淺色或更高</p>
+       <p>或</p>
+       <p>目前：檢閱或以上</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">存取層級設定*</td> 
+   <td role="rowheader">存取層級設定</td> 
    <td> <p>檢視以下專案或更高存取權：</p> 
     <ul> 
      <li> <p>資源管理</p> </li> 
      <li> <p>財務資料</p> </li> 
      <li> <p>使用者</p> </li> 
      <li> <p>專案</p> </li> 
-    </ul> <p><b>附註</b>
-
-如果您還是沒有存取權，請詢問您的Workfront管理員，他們是否在您的存取層級中設定其他限制。 如需Workfront管理員如何變更存取層級的詳細資訊，請參閱<a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>。</p> </td>
-</tr> 
+    </ul> </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">物件許可權</td> 
-   <td> <p>檢視或更高許可權給您要在資源規劃工具中檢視的專案</p> <p>如需請求其他存取權的資訊，請參閱<a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">請求物件</a>的存取權。</p> </td> 
+   <td> <p>檢視或更高許可權給您要在資源規劃工具中檢視的專案</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*若要瞭解您擁有的計畫、授權型別或存取權，請聯絡您的Workfront管理員。
+如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
-<!--note from the table about the license: Review or higher: 
-      <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
-       (waiting on Vazgen to confirm - working differenly in classic)
-      </MadCap:conditionalText>
-     -->
++++
 
 ## 先決條件
 
@@ -173,9 +173,7 @@ ht-degree: 4%
 
    選取此選項時，Workfront會使用下列公式計算淨值：
 
-   ```
-   Net = Available - Planned
-   ```
+   `Net = Available - Planned`
 
    >[!TIP]
    >

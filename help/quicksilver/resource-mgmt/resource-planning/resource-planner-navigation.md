@@ -4,10 +4,10 @@ product-area: resource-management
 navigation-topic: resource-planning
 title: 資源規劃工具導覽概觀
 description: 使用Adobe Workfront資源規劃工具，您可以輕鬆瞭解資源的可用性，以及完成專案工作所需的計畫時間。 然後，您可以管理使用者配置及其在指派給他們的專案中的工作角色。
-author: Alina
+author: Lisa
 feature: Resource Management
 exl-id: 5a1be723-e3ac-443a-9c09-85e8839fcbef
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: a5317e3126939d4c648977635af2dbc6add02780
 workflow-type: tm+mt
 source-wordcount: '2621'
 ht-degree: 1%

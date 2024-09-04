@@ -1,14 +1,14 @@
 ---
 product-area: resource-management
 navigation-topic: resource-planning
-title: 使用專案和角色檢視的資源規劃工具中的預算資源
+title: 使用專案與角色檢視的資源規劃工具中的預算資源
 description: 您可以在Adobe Workfront資源規劃工具中使用專案和角色檢視來預算資源。 您不能使用資源規劃工具中的使用者檢視來編列預算資源。
-author: Alina
+author: Lisa
 feature: Resource Management
 exl-id: b1b48529-68e7-4aee-aaa1-d78e91fbb39c
-source-git-commit: 3486a2523a038bdd83c3c2001001a119fd0508ad
+source-git-commit: a5317e3126939d4c648977635af2dbc6add02780
 workflow-type: tm+mt
-source-wordcount: '2165'
+source-wordcount: '2121'
 ht-degree: 0%
 
 ---
@@ -33,6 +33,8 @@ ht-degree: 0%
 
 ## 存取需求
 
++++ 展開以檢視本文中功能的存取需求。
+
 您必須具有下列存取權才能執行本文中的步驟：
 
 <table style="table-layout:auto"> 
@@ -40,27 +42,31 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront計畫*</td> 
-   <td> <p>專業及更高版本</p> </td> 
+   <td role="rowheader">Adobe Workfront計畫</td> 
+    <td><p>新增：任何</p>
+       <p>或</p>
+       <p>目前：Pro或更高</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront授權*</td> 
-   <td> <p>計劃 </p> </td> 
+   <td role="rowheader">Adobe Workfront授權</td> 
+   <td><p>新增：標準</p>
+       <p>或</p>
+       <p>目前：計畫</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">存取層級設定*</td> 
-   <td> <p>編輯對資源管理的存取權，包括存取資源規劃工具中的編輯優先順序和預算時數</p> <p>按Cost編輯預算資源的財務資料存取權</p> <p>編輯專案和使用者的存取權</p> <p><b>附註</b>
-
-如果您還是沒有存取權，請詢問您的Workfront管理員，他們是否在您的存取層級中設定其他限制。 如需Workfront管理員如何變更存取層級的詳細資訊，請參閱<a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>。</p> </td>
-</tr> 
+   <td role="rowheader">存取層級設定</td> 
+   <td> <p>編輯對資源管理的存取權，包括存取資源規劃工具中的編輯優先順序和預算時數</p> <p>編輯財務資料的存取權，以按成本預算資源</p> <p>編輯專案和使用者的存取權</p></td> 
+  </tr> 
   <tr> 
    <td role="rowheader">物件許可權</td> 
-   <td> <p>管理您要編列預算資訊之專案的許可權</p> <p>如需請求其他存取權的資訊，請參閱<a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">請求物件</a>的存取權。</p> </td> 
+   <td> <p>管理您要編列預算資訊之專案的許可權</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;若要瞭解您擁有的計畫、授權型別或存取權，請連絡您的Workfront管理員。
+如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
++++
 
 ## 資源規劃工具中的預算資源
 
@@ -74,9 +80,8 @@ ht-degree: 0%
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: this section is linked to the Budgeting Project Resources in the Business Case article)</p>
 -->
 
-1. 按一下Adobe Workfront右上角的&#x200B;**主要功能表**&#x200B;圖示![](assets/main-menu-icon.png)。
+{{step1-to-resourcing}}
 
-1. 按一下「**資源**」。
 1. 依預設會顯示&#x200B;**規劃師**。
 1. （視條件而定）選取&#x200B;**依專案檢視**&#x200B;檢視。
 1. 展開專案和工作角色，以管理專案、工作角色或使用者的配置。
@@ -87,9 +92,7 @@ ht-degree: 0%
    * 按一下使用者工作角色的&#x200B;**更多**&#x200B;功能表，然後按一下&#x200B;**將使用者的計畫時數設定為預算**。\
      每個使用者的預算時數使用下列公式計算：
 
-     ```
-     User Budgeted Hours = User Planned Hours
-     ```
+     `User Budgeted Hours = User Planned Hours`
 
 1. 若要配置職位角色的預算，請執行下列其中一項作業：
 
@@ -102,17 +105,13 @@ ht-degree: 0%
    * （視條件而定）如果您已為使用者編列預算時數，請按一下工作角色的&#x200B;**更多**&#x200B;功能表，然後按一下角色的&#x200B;**使用者預算時數總計**。\
      每個角色的預算時數使用下列公式計算：
 
-     ```
-     Role Budgeted Hours = SUM(User Budgeted Hours)
-     ```
+     `Role Budgeted Hours = SUM(User Budgeted Hours)`
 
    * 按一下專案的&#x200B;**更多**&#x200B;功能表，然後按一下&#x200B;**將角色的計畫時數設定為預算**。\
      每個角色的預算時數使用下列公式計算：\
      *
 
-     ```
-     Role Budgeted Hours = Role Planned Hours
-     ```
+     `Role Budgeted Hours = Role Planned Hours`
 
      >[!NOTE]
      >   
@@ -132,9 +131,7 @@ ht-degree: 0%
    * 為專案下的角色編列預算，如步驟7所述。\
      專案已編列預算時數的計算公式如下：
 
-     ```
-     Project Budgeted Hours = SUM(Role Budgeted Hours)
-     ```
+     `Project Budgeted Hours = SUM(Role Budgeted Hours)`
 
    * 在&#x200B;**BDG**&#x200B;欄中，手動指定專案的預算時數、FTE或成本。\
      這會更新角色預算時數，如步驟7所述。\
@@ -175,9 +172,7 @@ ht-degree: 0%
    * 按一下專案的&#x200B;**更多**&#x200B;功能表，然後按一下&#x200B;**將使用者的計畫時數設定為預算**。\
      每個使用者的預算時數使用下列公式計算：
 
-     ```
-     User Budgeted Hours = User Planned Hours
-     ```
+     `User Budgeted Hours = User Planned Hours`
 
 1. 若要配置職位角色的預算，請執行下列其中一項作業：
 
@@ -187,15 +182,11 @@ ht-degree: 0%
    * 按一下工作角色的&#x200B;**更多**&#x200B;功能表，然後按一下**將專案的計畫時數設定為預算」。**角色預算時數使用下列公式計算：\
      *
 
-     ```
-     Role Budgeted Hours = SUM(Project Budgeted Hours)
-     ```
+     `Role Budgeted Hours = SUM(Project Budgeted Hours)`
 
      *專案預算時數使用下列公式計算：
 
-     ```
-     Project Budgeted Hours = Project Planned Hours
-     ```
+     `Project Budgeted Hours = Project Planned Hours`
 
    * 在&#x200B;**BDG**&#x200B;欄中，手動指定工作角色下列出專案的預算時數、FTE或成本。\
      這會將專案預算時數新增至角色。
@@ -213,24 +204,20 @@ ht-degree: 0%
    * 按一下工作角色的&#x200B;**更多**&#x200B;功能表，然後按一下&#x200B;**將專案的計畫時數設定為預算**。\
      專案已編列預算時數的計算公式如下：
 
-     ```
-     Project Budgeted Hours = Project Planned Hours
-     ```
+     `Project Budgeted Hours = Project Planned Hours`
 
      專案預算時數已新增至角色預算時數。
 
    * （視條件而定）如果您已為使用者編列時數預算，請按一下專案的&#x200B;**更多**&#x200B;功能表，然後按一下專案的&#x200B;**使用者預算時數總計**。\
      專案預算時數使用下列公式計算：
 
-     ```
-     Project Budgeted Hours = SUM(User Budgeted Hours)
-     ```
+     `Project Budgeted Hours = SUM(User Budgeted Hours)`
 
      ![budget_by_role.png](assets/budget-by-role-350x181.png)
 
 1. 按一下「**儲存**」。\
-   在資源規劃工具中編列資源預算後，資源的預算時數及與其相關聯的任何成本會列在每個專案的業務案例中。\
-   如需有關瞭解業務案例的資源預算編列區域的詳細資訊，請參閱文章[業務案例中的預算資源](../../manage-work/projects/define-a-business-case/budget-resources-in-business-case.md)。
+   在資源規劃工具中編列資源預算後，資源的預算時數及與其相關聯的任何成本會列在每個專案的業務案例中。
+如需有關瞭解業務案例的資源預算編列區域的詳細資訊，請參閱文章[業務案例中的預算資源](../../manage-work/projects/define-a-business-case/budget-resources-in-business-case.md)。
 
 1. （選擇性）選取&#x200B;**依使用者檢視**&#x200B;檢視，以注意每個使用者的可用和計畫時數之間是否有使用者過度配置或利用不足。 「依使用者檢視」檢視中看不到已編列預算時數。
 

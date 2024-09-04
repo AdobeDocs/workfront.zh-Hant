@@ -4,10 +4,10 @@ product-area: resource-management
 navigation-topic: resource-planning
 title: 開始使用資源規劃
 description: 您可以使用資源計畫工具來管理您的職務角色、其可用性，以及根據此可用性的一般專案配置。
-author: Alina
+author: Lisa
 feature: Resource Management
 exl-id: 0db9fbb3-4e94-47bd-b272-00b3ca4decaf
-source-git-commit: 59c3a57e334d1660e3e59da480a90060b1ba81b7
+source-git-commit: a5317e3126939d4c648977635af2dbc6add02780
 workflow-type: tm+mt
 source-wordcount: '555'
 ht-degree: 0%

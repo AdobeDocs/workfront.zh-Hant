@@ -2,19 +2,19 @@
 content-type: reference
 product-area: resource-management
 navigation-topic: resource-planning
-title: 在Adobe Workfront中預算資源所需的存取權
+title: 在Workfront中預算資源所需的存取權
 description: 當您擁有工作專案、使用者、工作角色和團隊的特定存取層級設定和許可權時，您可以針對您有權檢視的專案檢視和管理有關資源計畫的資訊。
-author: Alina
+author: Lisa
 feature: Resource Management
 exl-id: d2bfc411-188a-4f8b-8180-0e984f01b5ab
-source-git-commit: d3172a681ef6ac8b7bde44c680ad7febc3f26121
+source-git-commit: a5317e3126939d4c648977635af2dbc6add02780
 workflow-type: tm+mt
-source-wordcount: '390'
+source-wordcount: '346'
 ht-degree: 0%
 
 ---
 
-# 在Adobe Workfront中預算資源所需的存取權
+# 在Workfront中預算資源所需的存取權
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -37,15 +37,19 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront計畫*</td> 
-   <td> <p>Pro或更高</p> </td> 
+   <td role="rowheader">Adobe Workfront計畫</td> 
+   <td><p>新增：任何</p>
+       <p>或</p>
+       <p>目前：Pro或更高</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront授權*</td> 
-   <td> <p>計劃 </p> </td> 
-  </tr> 
+   <td role="rowheader">Adobe Workfront授權</td> 
+   <td><p>新增：標準</p>
+       <p>或</p>
+       <p>目前：計畫</p></td>
+  </tr>  
   <tr> 
-   <td role="rowheader">存取層級設定*</td> 
+   <td role="rowheader">存取層級設定</td> 
    <td> 
     <ul> 
      <li> <p>編輯存取層級中「資源管理」的存取權，包括：</p> 
@@ -55,15 +59,12 @@ ht-degree: 0%
       </ul> <p>如需有關資源管理存取層級的資訊，請參閱文章<a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-resource-management.md" class="MCXref xref">授予資源管理的存取權</a>。</p> </li> 
      <li> <p>編輯專案和使用者的存取權。 </p> </li> 
      <li> <p> 如果您需要依成本檢視或管理資訊，請在存取層級中編輯財務資料的存取權。</p> <p>如需財務資料存取層級的詳細資訊，請參閱文章<a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md" class="MCXref xref">授予財務資料的存取權</a>。</p> </li> 
-    </ul>
-
-<p><b>附註</b> </p>
-
-<p> 如果您還是沒有存取權，請詢問您的Workfront管理員，他們是否在您的存取層級中設定其他限制。 如需Workfront管理員如何修改存取層級的詳細資訊，請參閱<a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>。</p> </td> 
+    </ul> 
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">物件許可權</td> 
-   <td> <p>管理專案的許可權，包括管理財務許可權。</p> <p>如需有關專案許可權的資訊，請參閱文章<a href="../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md" class="MCXref xref">在Adobe Workfront中共用專案</a>。</p> <p>如需有關專案財務許可權的資訊，請參閱文章<a href="../../workfront-basics/grant-and-request-access-to-objects/share-financial-permissions-object.md"><a href="../../workfront-basics/grant-and-request-access-to-objects/share-financial-permissions-object.md" class="MCXref xref">共用物件的財務許可權</a></a>。</p> <p>如需請求其他存取權的資訊，請參閱<a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md">請求物件</a>的存取權。</p>
+   <td> <p>管理專案的許可權，包括管理財務許可權。</p> <p>如需有關專案許可權的資訊，請參閱文章<a href="../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md" class="MCXref xref">在Adobe Workfront中共用專案</a>。</p> <p>如需有關專案財務許可權的資訊，請參閱文章<a href="../../workfront-basics/grant-and-request-access-to-objects/share-financial-permissions-object.md"><a href="../../workfront-basics/grant-and-request-access-to-objects/share-financial-permissions-object.md" class="MCXref xref">共用物件的財務許可權</a></a>。</p>
 
 <p><b>附註</b>
 
@@ -72,4 +73,4 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-*若要瞭解您擁有的計畫、授權型別或存取權，請聯絡您的Workfront管理員。
+如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。

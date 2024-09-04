@@ -6,7 +6,7 @@ description: 雖然資源集區中的使用者數量沒有限制，但使用者�
 author: Lisa
 feature: Resource Management
 exl-id: b888aa95-8d42-4cc3-8a99-6842435c84d2
-source-git-commit: a9d507bfcc0a602e71bcdd3142d63cc40175ebf4
+source-git-commit: a5317e3126939d4c648977635af2dbc6add02780
 workflow-type: tm+mt
 source-wordcount: '378'
 ht-degree: 1%
@@ -37,7 +37,7 @@ ht-degree: 1%
    <td role="rowheader">Adobe Workfront計畫</td> 
    <td><p>新增：任何</p>
        <p>或</p>
-       <p>最新：Pro和更高版本</p> </td> 
+       <p>目前：Pro或更高</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront授權</td> 
