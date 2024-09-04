@@ -4,9 +4,9 @@ description: 2024年第四季管理員增強功能
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: ffa599ff0e25ba960ce01f3f492482ee2e747122
+source-git-commit: 95726a46a0f18353cfee67b69cc94d39d85f111f
 workflow-type: tm+mt
-source-wordcount: '290'
+source-wordcount: '395'
 ht-degree: 0%
 
 ---
@@ -17,12 +17,21 @@ ht-degree: 0%
 
 如需2024年第四季版本週期目前可用的所有變更清單，請參閱[2024年第四季版本概觀](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-release-overview.md)。
 
+## 版面配置範本中現在提供「全選」選項
+
+>[!NOTE]
+>
+>預覽版本： 2024年8月29日；適用於所有客戶的生產版本： 2024年8月29日
+
+為了協助您更輕鬆地使用版面配置範本顯示和隱藏欄位，在版面配置範本中，詳細資訊檢視的[概述]和[財務]區域新增了&#x200B;**全選**&#x200B;核取方塊。 當您在&#x200B;**自訂使用者看到的內容**&#x200B;下選取專案、任務、問題、Portfolio或計畫時，此選項可供使用。 請注意，並非所有物件都會顯示財務區域，每個區域中的欄位會因物件而異。
+
+如需詳細資訊，請參閱[使用配置範本自訂詳細資料檢視](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md)。
+
 ## 復原環境促銷活動套件
 
 >[!NOTE]
 >
 >預覽版本： 2024年8月29日；快速發行生產：24.9版（2024年9月12日）；每季發行生產：24.10版（2024年10月）
->
 
 為了讓環境升級更靈活且更易於使用，我們啟用了復原功能。 現在，您可以在24小時內復原套件，讓您更輕鬆地還原受環境促銷活動套件影響的先前設定。
 

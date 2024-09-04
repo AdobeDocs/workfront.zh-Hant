@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 6cc67488-1ba9-4455-9152-366aaabf0939
-source-git-commit: 621e208a17a3a285dda0dc97cbe83638af2de1a5
+source-git-commit: 95726a46a0f18353cfee67b69cc94d39d85f111f
 workflow-type: tm+mt
-source-wordcount: '1361'
+source-wordcount: '1447'
 ht-degree: 0%
 
 ---
@@ -54,6 +54,23 @@ ht-degree: 0%
                     <td>
                         <p><span class="bold">發行日期</span>
                         </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">配置範本中現在提供「全選」選項</a></p>
+                        [！BADGE In Production ]{type=Informative}
+                        <p>為了協助您更輕鬆地顯示和隱藏包含版面配置範本的欄位，在版面配置範本中，詳細資訊檢視的「概觀」和「財務」區域新增了「全選」核取方塊。 當您在「自訂使用者所看到內容」底下選取專案、任務、問題、Portfolio或計畫時，此選項可供使用。</p>
+                    </td>
+                    <td><p><b>將於下列日期提供：</b></p>
+                        <ul>
+                            <li>
+                                <p>預覽版本： 2024年8月29日</p>
+                            </li>
+                            <li>
+                                <p><span class="preview">所有客戶的生產版本： 2024年8月6日</span></p>
+                            </li>
+                        </ul>
                     </td>
                 </tr>
                 <tr>
@@ -117,6 +134,7 @@ ht-degree: 0%
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Outlook整合登入體驗增強功能</a></p>
+                        [！BADGE In Production ]{type=Informative}
                         <p>Outlook整合的登入體驗已簡化，因此所有客戶無論已啟用IMS，都可看見相同的按鈕來登入Workfront。 IMS和非IMS執行個體的後續登入步驟會有所不同，但所有使用者的初始頁面都相同。</p>
                     </td>
                     <td><p><b>將於下列日期提供：</b></p>
