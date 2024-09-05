@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: c3646a5d-42f4-4af8-9dd0-e84977506b79
-source-git-commit: c08bd3311892d24a9bd40af138169957f5ea2ca4
+source-git-commit: d92dc8581bef1f5fdbef7a853ac27ffc3fa7ddbe
 workflow-type: tm+mt
-source-wordcount: '2147'
+source-wordcount: '2157'
 ht-degree: 3%
 
 ---
@@ -452,6 +452,12 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/<SUBSCRIPTI
 * 將多個篩選器套用至單一訂閱的作法等同於使用&#x200B;**AND**&#x200B;邏輯運運算元。
 * 只要每個事件訂閱之間有一或多個事件訂閱欄位引數不同，就可以將多個事件訂閱套用至單一物件。
 * 將多個事件訂閱指派給單一物件時，與該物件相關聯的所有事件訂閱都可以傳回至單一端點。 此實務可做為邏輯運運算元&#x200B;**OR**&#x200B;的同等替代使用，而此邏輯運運算元無法使用篩選引數設定。
+* 下列欄位無法篩選：
+
+   * DOCU.groups
+   * RECORD.data
+   * RECORD_TYPE.data
+   * RECORD_TYPE.欄位
 
 ### 使用比較運運算元
 
