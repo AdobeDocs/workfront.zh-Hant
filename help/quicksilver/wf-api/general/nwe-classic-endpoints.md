@@ -4,7 +4,7 @@ description: 新 — 傳統 — 端點
 author: Becky
 draft: Probably
 role: Developer
-source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
+source-git-commit: b67965fc5f6754a0a7b6f2aadc986435ed4d8aa4
 workflow-type: tm+mt
 source-wordcount: '146'
 ht-degree: 0%
@@ -80,7 +80,6 @@ ht-degree: 0%
 <p style="text-align: center;background-color: #c0c0c0;color: #000000;" data-mc-conditions="QuicksilverOrClassic.Draft mode"><strong>Delete this box before publishing</strong> <br>Repeat the title of the article if you have only one section. Enter a small intro paragraph if needed; otherwise, proceed with steps. If you have multiple tasks, create a new section for each task. </p>
 -->
 
-1.  
 
 <!--
 <h2 data-mc-conditions="QuicksilverOrClassic.Draft mode">Video walk-through - Leave this section drafted for now</h2>
