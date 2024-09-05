@@ -5,9 +5,9 @@ author: Becky
 draft: Probably
 feature: Workfront Fusion
 exl-id: 6437fe98-2c2b-4b49-97e2-f94b23da93fd
-source-git-commit: ed7ea1d3409c39caea5fe8b107b7b2907dc87d76
+source-git-commit: 3abfa92e6ad33243a1cdd19de25bbe04a8e81425
 workflow-type: tm+mt
-source-wordcount: '2072'
+source-wordcount: '2087'
 ht-degree: 1%
 
 ---
@@ -96,7 +96,7 @@ ht-degree: 1%
 1. 在[!DNL Workfront Fusion]中，將[!DNL Jira]模組新增至情境以開啟&#x200B;**[!UICONTROL 建立連線]**&#x200B;方塊。
 1. 指定下列資訊：
 
-   * **[!UICONTROL 服務URL]**
+   * **[!UICONTROL 服務URL]：**&#x200B;這是您用來存取Jira帳戶的基本URL。 範例： `yourorganization.atlassian.net`
    * **[!UICONTROL 使用者名稱]**
    * **[!UICONTROL API Token]：**&#x200B;這是您在本文章的[在 [!DNL Jira]](#create-an-api-token-in-jira)區段中建立API Token所建立的API Token。
 
@@ -231,7 +231,7 @@ ht-degree: 1%
      </tr> 
      <tr> 
       <td role="rowheader">[!DNL Service URL]</td> 
-      <td>輸入您的[!DNL Jira]執行個體URL。 </td> 
+      <td>輸入您的[!DNL Jira]執行個體URL。 範例： <code>yourorganization.atlassian.net</code></td> 
      </tr> 
     </tbody> 
    </table>
@@ -378,9 +378,7 @@ ht-degree: 1%
   <tr> 
    <td role="rowheader">[！UICONTROL Body]</td> 
    <td> <p>以標準JSON物件的形式新增API呼叫的內文內容。</p> <p>注意：  <p>在JSON中使用條件陳述式（例如<code>if</code>）時，請將引號放在條件陳述式之外。</p> 
-     <div class="example" data-mc-autonum="<b>Example: </b>"> 
-      <p> <img src="assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
-     </div> </p> </td> 
+     <img src="assets/quotes-in-json-350x120.png">  </td> 
   </tr> 
  </tbody> 
 </table>
