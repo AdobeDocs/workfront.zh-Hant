@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
-source-git-commit: bd202821687453288c96147933331c8a7a6b3acb
+source-git-commit: 1768c0610eb459148ff3e51ed08c115053c7d8f7
 workflow-type: tm+mt
-source-wordcount: '1354'
+source-wordcount: '1357'
 ht-degree: 0%
 
 ---
@@ -216,7 +216,7 @@ ht-degree: 0%
    * Workfront物件也會從Workfront Planning的記錄連線欄位中移除。
    * 連線至Planning記錄的Workfront查閱欄位值也會一併刪除。
 
-## 重新排列記錄預覽或頁面中的欄位
+## 重新排列記錄詳細資訊索引標籤中的欄位
 
 {{step1-to-planning}}
 
@@ -240,11 +240,11 @@ ht-degree: 0%
 
 1. （選擇性）按一下記錄預覽右上角的&#x200B;**在新索引標籤中開啟**&#x200B;圖示![](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it-->，以在新索引標籤中開啟記錄的頁面。
 
-   記錄頁面隨即開啟。
+   記錄的&#x200B;**詳細資料**&#x200B;索引標籤預設會開啟。
 
    ![](assets/details-page.png)
 
-1. 在記錄預覽或頁面中，按一下欄位名稱左側的&#x200B;**抓取**&#x200B;圖示![](assets/grab-icon.png)，然後將其拖放到所需的位置。<!--You can drag and drop fields to another section. You must have at least one field in a section.-->
+1. 在記錄&#x200B;**詳細資料**&#x200B;索引標籤中，按一下欄位名稱左側的&#x200B;**抓取**&#x200B;圖示![](assets/grab-icon.png)，然後將其拖放到所要的位置。<!--You can drag and drop fields to another section. You must have at least one field in a section.-->
 
    對於檢視記錄的所有使用者，相同型別的所有記錄預覽和頁面中的欄位新位置都會更新。
 

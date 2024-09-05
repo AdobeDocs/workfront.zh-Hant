@@ -6,9 +6,9 @@ feature: Workfront Planning
 recommendations: noDisplay, noCatalog
 role: User, Admin
 exl-id: 99fac041-a235-4991-b826-d19944164bc9
-source-git-commit: bd202821687453288c96147933331c8a7a6b3acb
+source-git-commit: 3232676a77c8e9fcb58e97374a4e7686620136da
 workflow-type: tm+mt
-source-wordcount: '659'
+source-wordcount: '666'
 ht-degree: 1%
 
 ---
@@ -22,15 +22,15 @@ ht-degree: 1%
 >
 >本文資訊旨在說明Adobe Workfront的新產品Adobe Workfront Planning。
 >
->您必須具備下列專案才能存取Workfront Planning：
+>貴公司必須購買Workfront Planning的額外授權，才能存取其功能。
 >
->* 新的Workfront計畫和授權。 舊版Workfront計畫或授權無法使用Workfront計畫。
->* Workfront Planning的額外授權。
->* 貴組織的Workfront執行個體必須上線至Adobe統一體驗。
+>如需詳細資訊，請聯絡您的客戶經理
 >
 >如需Workfront Planning的詳細資訊，請參閱[Adobe Workfront Planning概觀](/help/quicksilver/planning/general/planning-overview.md)。
 
 使用Adobe Workfront Planning時，有授權和共用許可權限制。
+
+本文說明使用Workfront Planning功能所需的存取權和設定。
 
 ## 存取需求
 
@@ -112,7 +112,12 @@ ht-degree: 1%
   </tr>
 <tr>
    <td role="rowheader"><p>版面配置範本</p></td>
-   <td> <p>必須為所有使用者(包括Workfront管理員)指派一個版面配置範本，該範本包含主功能表中的Planning區域，以及可連線至Workfront Planning之物件的Planning區域：專案、投資組合及方案。 </p> <p>如需詳細資訊，請參閱<a href="../../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md">使用配置範本自訂主功能表</a>和<a href="../../administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md">將使用者指派給配置範本</a>。 </p>  
+   <td> <p>必須為所有使用者(包括Workfront管理員)指派一個版面配置範本，該範本包含以下區域的Planning選項：</p>
+   <ul><li>主要功能表</li>
+   <li>專案、投資組合和方案的左側面板</li>
+   <li>登陸頁面</li>
+   <li>圖釘</li></ul>
+   <p>如需詳細資訊，請參閱<a href="/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md">建立及管理配置範本</a>。</p> 
 </td>
   </tr>
  </tbody>
@@ -189,19 +194,24 @@ You must have the following to be able to access Workfront Planning:
 
 *For more information about Workfront access requirements, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).  -->
 
-
-
-## 與其他共用主功能表中的Planning區域
+## 使用版面配置範本共用Planning區域
 
 <!--First, contact your account manager to obtain access to the current Workfront Planning program.-->
 
-您的組織註冊Workfront Planning方案後，您可以使用版面配置範本，將「計畫」區域新增至所有使用者的主功能表。
+貴組織購買額外的Workfront Planning授權後，系統管理員可以將Planning選項新增至下列區域，方法是修改並指派給版面配置範本：
+
+* 主功能表
+* 登陸頁面
+* 專案、投資組合和計畫的左側面板
+* 圖釘
+
+若要將Workfront Planning區域新增至Workfront例項：
 
 1. 以Workfront管理員身分登入&#x200B;**Workfront**。
 
-1. 使用&#x200B;**配置範本**&#x200B;將&#x200B;**Planning**&#x200B;圖示![](assets/planning-icon.png)新增至&#x200B;**主功能表**。
+1. 移至&#x200B;**主功能表** > **設定** > **介面** > **配置範本**，然後開啟或建立配置範本。
 
-   如需詳細資訊，請參閱[使用配置範本自訂主功能表](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md)。
+   如需有關自訂版面配置範本的資訊，請參閱[建立和管理版面配置範本](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md)。
 
 1. 將版面配置範本指派給您要存取Workfront Planning的使用者。
 

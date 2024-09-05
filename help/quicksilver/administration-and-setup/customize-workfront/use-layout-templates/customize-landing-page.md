@@ -8,16 +8,21 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 57a1046a-434a-4453-a101-c5f0a16e079e
-source-git-commit: a8214d9e10363881afbc2bd71f78f46cb6a25880
+source-git-commit: 1768c0610eb459148ff3e51ed08c115053c7d8f7
 workflow-type: tm+mt
-source-wordcount: '387'
-ht-degree: 0%
+source-wordcount: '442'
+ht-degree: 5%
 
 ---
 
 # 使用版面配置範本自訂登入頁面
 
 身為Adobe Workfront管理員，您可以使用版面配置範本來指定使用者每次登入Workfront時想要看到的區域。
+
+使用者可以開啟下列其中一項：
+
+* 指定的Workfront區域
+* 自訂儀表板。
 
 如需有關建立版面配置範本的資訊，請參閱[建立和管理版面配置範本](../use-layout-templates/create-and-manage-layout-templates.md)。
 
@@ -62,9 +67,38 @@ ht-degree: 0%
 1. 開始使用版面配置範本，如[建立和管理版面配置範本](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md)中所述。
 1. 在&#x200B;**上層導覽區域**&#x200B;中，按一下&#x200B;**選取登陸頁面**，然後選取使用者登入時您想要看到的區域。
 
+   從下列區域選取，或新增自訂儀表板：
+
+   * 分析
+   * 行事曆
+   * 儀表板
+   * 文件
+   * 目標
+   * 首頁
+   * 我的更新
+   * 專案組合
+   * 計劃
+   * 專案
+   * 報告
+   * 請求
+   * 資源分配
+   * 情境
+   * 團隊
+   * 範本
+   * 時程表
+   * 使用者
+   * 藍圖
+   * 計畫
+
    >[!IMPORTANT]
    >
-   >若要檢視「情境和目標」區域，需要額外的授權。 如需Workfront目標的相關資訊，請參閱[Adobe Workfront目標總覽](../../../workfront-goals/goal-management/wf-goals-overview.md)，或如需Workfront情境規劃工具的相關資訊，請參閱[情境規劃工具總覽](../../../scenario-planner/scenario-planner-overview.md)。
+   >若要檢視「案例」、「目標」和「規劃」區域，需要額外的授權。
+   >
+   >* 如需Workfront目標的相關資訊，請參閱[Adobe Workfront目標總覽](../../../workfront-goals/goal-management/wf-goals-overview.md)。
+   >
+   >* 如需Workfront Scenario Planner的相關資訊，請參閱[Scenario Planner概觀](../../../scenario-planner/scenario-planner-overview.md)。
+   >
+   >* 如需Workfront Planning的相關資訊，請參閱[Adobe Workfront Planning概觀](/help/quicksilver/planning/general/planning-overview.md)。
 
 1. 繼續自訂版面範本。
 

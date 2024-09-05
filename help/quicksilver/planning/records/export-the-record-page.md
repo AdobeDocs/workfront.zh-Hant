@@ -5,15 +5,17 @@ feature: Workfront Planning
 role: User
 author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: bd202821687453288c96147933331c8a7a6b3acb
+exl-id: 8de68b70-dd87-4aad-9137-980ea9fc0d69
+source-git-commit: 3823afdc14aaf5646d8edc60f5ad633e48336af7
 workflow-type: tm+mt
-source-wordcount: '437'
+source-wordcount: '499'
 ht-degree: 1%
 
 ---
 
-
 # 匯出記錄的詳細資料
+
+<span class="preview">此頁面上的資訊是指尚未普遍提供的功能。 它只能在「預覽Sandbox」環境中使用。</span>
 
 若要與可能沒有Workfront帳戶的其他人更有效率地共同作業，您可以將記錄的詳細資料匯出至檔案並與他們共用。
 
@@ -149,7 +151,7 @@ ht-degree: 1%
 * 您可以將記錄的詳細資訊匯出為下列檔案格式：
 
    * .docx Word
-   * .pdf
+   * <span class="preview">.pdf</span>
 
 * 您可以匯出記錄頁面的「詳細資訊」標籤。 您無法匯出[連線]索引標籤。
 
@@ -177,12 +179,18 @@ ht-degree: 1%
 1. 在預覽或記錄頁面中按一下&#x200B;**匯出**&#x200B;圖示![](assets/export-icon-in-record-details-page.png)，然後按一下下列其中一項：
 
    * **Microsoft Word**
-   * **Adobe PDF**
+   * <span class="preview">**Adobe PDF**</span>
 
-   Word (.docx)或PDf檔案會下載並儲存至您的電腦。
+   Word (.docx) <span class="preview">或PDF</span>檔案已下載並儲存到您的電腦。
 
    匯出的檔案的名稱是記錄的「主要」欄位。
 
    ![](assets/exported-word-file.png)
 
+   >[!NOTE]
+   >
+   >    不會顯示在頁面上，且只有在按一下「詳細資訊」標籤上的「顯示更多」後才會顯示的其他資訊，不會顯示在匯出的PDF檔案中。 匯出的檔案中只會顯示頁面上顯示的資訊。
+
+
 1. （選擇性）移至下載的檔案，開啟檔案並加以編輯（如果是Word檔案），或與其他人共用。
+

@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: bd202821687453288c96147933331c8a7a6b3acb
+source-git-commit: 1768c0610eb459148ff3e51ed08c115053c7d8f7
 workflow-type: tm+mt
-source-wordcount: '7446'
+source-wordcount: '7484'
 ht-degree: 0%
 
 ---
@@ -45,7 +45,7 @@ ht-degree: 0%
 |--------------------|-----------------------------------------|
 | 2023年8月至12月 | Workfront Planning測試版* |
 | 2024年1月至8月 | Workfront計畫搶鮮版* |
-| 2024年8月28日 | Workfront Planning正式發行 |
+| 2024 年 8 月 28 日 | Workfront Planning正式發行 |
 
 *測試版和早期發行階段僅向有限的客戶提供。
 
@@ -144,6 +144,13 @@ ht-degree: 0%
 * 身為工作區管理員，您可以建立請求表單並將其與記錄型別建立關聯。 您可以與其他人（包括外部使用者）共用此表單的連結。
 
 * 當使用者存取表單、完成表單並提交請求時，會為與請求表單關聯的記錄型別建立記錄。
+
+* 視其設定方式而定，請求表單可能會顯示記錄型別的所有欄位，但以下型別的欄位除外：
+
+   * 人員
+   * 連線的欄位(包括與Experience Manager資產的連線)
+   * 已連線的查閱欄位
+   * 公式
 
 如需詳細資訊，請參閱[在Adobe Workfront Planning中建立和管理要求表單](/help/quicksilver/planning/requests/create-request-form.md)。
 

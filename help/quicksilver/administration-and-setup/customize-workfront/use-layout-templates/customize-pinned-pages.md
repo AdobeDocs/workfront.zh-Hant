@@ -8,10 +8,10 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 55cc75c5-8b8c-48e7-b114-b41fe3d545d8
-source-git-commit: a8214d9e10363881afbc2bd71f78f46cb6a25880
+source-git-commit: 1768c0610eb459148ff3e51ed08c115053c7d8f7
 workflow-type: tm+mt
-source-wordcount: '485'
-ht-degree: 0%
+source-wordcount: '516'
+ht-degree: 4%
 
 ---
 
@@ -64,11 +64,38 @@ ht-degree: 0%
 
 1. 在出現的下拉式功能表中，執行下列任一項作業：
 
-   * 按一下主要功能表專案。
+   * 從下列區域選取：
 
-     >[!IMPORTANT]
-     >
-     >若要檢視「情境和目標」區域，需要額外的授權。 如需Workfront目標的相關資訊，請參閱[Adobe Workfront目標總覽](../../../workfront-goals/goal-management/wf-goals-overview.md)，或如需Workfront情境規劃工具的相關資訊，請參閱[情境規劃工具總覽](../../../scenario-planner/scenario-planner-overview.md)。
+      * 分析
+      * 行事曆
+      * 儀表板
+      * 文件
+      * 目標
+      * 首頁
+      * 我的更新
+      * 專案組合
+      * 計劃
+      * 專案
+      * 報告
+      * 請求
+      * 資源分配
+      * 情境
+      * 團隊
+      * 範本
+      * 時程表
+      * 使用者
+      * 藍圖
+      * 計畫
+
+   >[!IMPORTANT]
+   >
+   >若要檢視「案例」、「目標」和「規劃」區域，需要額外的授權。
+   >
+   >* 如需Workfront目標的相關資訊，請參閱[Adobe Workfront目標總覽](../../../workfront-goals/goal-management/wf-goals-overview.md)。
+   >
+   >* 如需Workfront Scenario Planner的相關資訊，請參閱[Scenario Planner概觀](../../../scenario-planner/scenario-planner-overview.md)。
+   >
+   >* 如需Workfront Planning的相關資訊，請參閱[Adobe Workfront Planning概觀](/help/quicksilver/planning/general/planning-overview.md)。
 
    * 按一下&#x200B;**新增儀表板**，然後輸入描述性&#x200B;**自訂區段標題**&#x200B;並新增儀表板。
 

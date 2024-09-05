@@ -6,10 +6,10 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: a3006a05b7003e638596c2754b77e914083a5643
+source-git-commit: 1768c0610eb459148ff3e51ed08c115053c7d8f7
 workflow-type: tm+mt
-source-wordcount: '1989'
-ht-degree: 2%
+source-wordcount: '2039'
+ht-degree: 1%
 
 ---
 
@@ -154,13 +154,13 @@ Adobe Workfront規劃是Adobe Workfront的新產品。 Workfront Planning的目�
 |     Reporting on Workfront Planning information (Canvas Dashboard)                              |                               |       ✓                           |                 |
 -->
 
-
-
 ## 為您的Workfront例項中的使用者啟用Workfront Planning
 
-貴組織必須先註冊Adobe Workfront計畫程式，才能存取其功能。 如果您符合資格，您的客戶代表應該提供您註冊此方案的相關資訊。
+貴組織購買Workfront Planning的授權後，必須先具備下列條件，您才能存取Workfront Planning：
 
-如需授與存取權給其他人以及允許其他人使用Workfront Planning的詳細資訊，請參閱[存取權概觀](/help/quicksilver/planning/access/access-overview.md)。
+* 您的Workfront管理員必須將您指派給配置範本，該範本包含主功能表中的Planning。 如需詳細資訊，請參閱[使用配置範本自訂主功能表](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md)和[將使用者指派給配置範本](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md)。
+
+* 您的Workfront管理員必須為您指派Workfront授權和Workfront Planning許可權，以允許您在Workfront Planning中檢視或建立物件。 如需授與存取權給其他人以及允許其他人使用Workfront Planning的詳細資訊，請參閱[存取權概觀](/help/quicksilver/planning/access/access-overview.md)。
 
 ## Workfront規劃術語
 

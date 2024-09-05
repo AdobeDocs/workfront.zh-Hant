@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: b100ea35-e045-4021-b5be-2c9071b381da
-source-git-commit: 51b8e474cefe63b4db8c42e480990ca0ba431a4d
+source-git-commit: 1768c0610eb459148ff3e51ed08c115053c7d8f7
 workflow-type: tm+mt
-source-wordcount: '1037'
+source-wordcount: '1077'
 ht-degree: 0%
 
 ---
@@ -89,7 +89,7 @@ ht-degree: 0%
      <tr> 
       <td>[！UICONTROL專案]</td> 
       <td>專案名稱</td> 
-      <td>[！UICONTROL任務]， [！UICONTROL專案詳細資料]， [！UICONTROL業務案例]， [！UICONTROL更新]， [！UICONTROL檔案]， [！UICONTROL問題]， [！UICONTROL風險]， [！UICONTROL核准]， [！UICONTROL基準]， [！UICONTROL計費費率]，[！UICONTROL計費記錄]， [！UICONTROL trol費用]、[！UICONTROL小時數]、[！UICONTROL工作負載均衡器]、[！UICONTROL人員]、[！UICONTROL利用率]、[！UICONTROL隊列詳細資訊]、[！UICONTROL路由規則]、[！UICONTROL隊列主題]、[！UICONTROL主題組]、[！UICONTROL量度]</td> 
+      <td>[！UICONTROL任務]， [！UICONTROL專案詳細資料]， [！UICONTROL業務案例]， [！UICONTROL更新]， [！UICONTROL檔案]， [！UICONTROL問題]， [！UICONTROL風險]， [！UICONTROL核准]， [！UICONTROL基準]， [！UICONTROL計費費率]，[！UICONTROL計費記錄]， [！UICONTROL trol支出]、[！UICONTROL小時數]、[！UICONTROL工作負載均衡器]、[！UICONTROL人員]、[！UICONTROL利用率]、[！UICONTROL隊列詳細資訊]、[！UICONTROL路由規則]、[！UICONTROL隊列主題]、[！UICONTROL主題組]、[！UICONTROL量度]、[！UICONTROL規劃]*</td> 
      </tr> 
      <tr> 
       <td>[！UICONTROL任務]</td> 
@@ -104,12 +104,12 @@ ht-degree: 0%
      <tr> 
       <td>[！UICONTROLPortfolio]</td> 
       <td>投資組合的名稱</td> 
-      <td>[！UICONTROL專案]， [！UICONTROL計畫]， [！UICONTROLPortfolio詳細資訊]， [！UICONTROLPortfolio] [！UICONTROL最佳化]， [！UICONTROL檔案]， [！UICONTROL更新]</td> 
+      <td>[！UICONTROL專案]， [！UICONTROL計畫]， [！UICONTROLPortfolio詳細資訊]， [！UICONTROLPortfolio] [！UICONTROL最佳化]， [！UICONTROL檔案]， [！UICONTROL更新]， [！UICONTROL規劃]*</td> 
      </tr> 
      <tr> 
       <td>[！UICONTROL Program]</td> 
       <td>方案的名稱</td> 
-      <td>[！UICONTROL專案]， [！UICONTROL計畫詳細資料]， [！UICONTROL更新]， [！UICONTROL檔案]</td> 
+      <td>[！UICONTROL專案]、[！UICONTROL計畫詳細資料]、[！UICONTROL更新]、[！UICONTROL檔案]、[！UICONTROL計畫]*</td> 
      </tr> 
      <tr> 
       <td>[！UICONTROL範本]</td> 
@@ -198,6 +198,8 @@ ht-degree: 0%
      --> 
     </tbody> 
    </table>
+
+   *貴公司必須購買Workfront Planning的額外授權，才能將此區域新增至專案、產品組合和計畫的左側面板。 如需詳細資訊，請參閱[Adobe Workfront規劃總覽](/help/quicksilver/planning/general/planning-overview.md)
 
    >[!NOTE]
    >

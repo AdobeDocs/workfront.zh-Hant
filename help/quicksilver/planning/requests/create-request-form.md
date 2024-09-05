@@ -5,9 +5,10 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: bd202821687453288c96147933331c8a7a6b3acb
+exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
+source-git-commit: 3823afdc14aaf5646d8edc60f5ad633e48336af7
 workflow-type: tm+mt
-source-wordcount: '1136'
+source-wordcount: '1159'
 ht-degree: 2%
 
 ---
@@ -130,7 +131,17 @@ ht-degree: 2%
 
    依預設，請求表單包含下列資訊：
 
-   * 所選記錄型別的表格檢視中可用的所有記錄欄位。
+   * 所選記錄型別的表格檢視中可用的記錄欄位。<!--they are working on removing the limitation below-->
+
+     >[!IMPORTANT]
+     >
+     >   下列型別的欄位不會顯示在請求表單中：
+     >
+     >    * 人員
+     >    * 連線的欄位(包括與Experience Manager資產的連線)
+     >    * 已連線的查閱欄位
+     >    * 公式
+
    * **預設的分節**：這是Workfront套用至要求表單的預設分割槽符號。 無法重新命名或移除「預設」區段。
    * **主旨**&#x200B;欄位：將在Workfront中識別要求的欄位。 此功能尚未提供。
    * 與記錄型別關聯的所有欄位。
@@ -199,6 +210,3 @@ ht-degree: 2%
    >
    >如果是這種情況，表示連結已公開共用。
    >![](assets/publicly-shared-link-to-form-on-record-type-menu-highlighted.png)
-
-
-
