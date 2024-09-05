@@ -5,9 +5,9 @@ feature: Workfront Planning
 role: User
 author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: cf42511263ec1cffd90d1e4bdcd43521b7fe6a30
+source-git-commit: bd202821687453288c96147933331c8a7a6b3acb
 workflow-type: tm+mt
-source-wordcount: '404'
+source-wordcount: '437'
 ht-degree: 1%
 
 ---
@@ -15,11 +15,7 @@ ht-degree: 1%
 
 # 匯出記錄的詳細資料
 
-若要與可能沒有Workfront帳戶的其他人更有效率地共同作業，您可以將記錄的詳細資料匯出至Word檔案並與他們共用。
-
-<!--replace the above with this, when we release export to PDF:
-
-To collaborate more efficiently with others that might not have a Workfront account, you can export a record's details to a file and share it with them.-->
+若要與可能沒有Workfront帳戶的其他人更有效率地共同作業，您可以將記錄的詳細資料匯出至檔案並與他們共用。
 
 ## 存取需求
 
@@ -54,7 +50,7 @@ To collaborate more efficiently with others that might not have a Workfront acco
    <td role="rowheader"><p>Adobe Workfront規劃計畫*</p></td> 
    <td> 
 <p>任何 </p> 
-<p>如需每個Workfront Planning計畫包含哪些專案的詳細資訊，請參閱<a href="https://business.adobe.com/products/workfront/pricing.html">Adobe Workfront定價與封裝</a>。 </p> 
+<p>如需每個Workfront計畫包含內容的詳細資訊，請聯絡您的Workfront客戶經理。 </p> 
    </td> 
  <tr> 
    <td role="rowheader"><p>Adobe Workfront平台</p></td> 
@@ -150,16 +146,12 @@ To collaborate more efficiently with others that might not have a Workfront acco
 
 ## 匯出記錄詳細資訊的考量事項：
 
-* 您可以將記錄的詳細資訊匯出至Word檔案。
+* 您可以將記錄的詳細資訊匯出為下列檔案格式：
 
-<!--replace the first bullet with this, when it's possible:
+   * .docx Word
+   * .pdf
 
-* You can export a record's details to the following file formats:
-
-    * Word
-    * PDF -->
-
-* 您可以匯出記錄頁面的「詳細資訊」頁面。 您無法匯出[連線]索引標籤。
+* 您可以匯出記錄頁面的「詳細資訊」標籤。 您無法匯出[連線]索引標籤。
 
 * 匯出的檔案會保留記錄頁面的版面，包括縮圖和封面影像。
 
@@ -182,10 +174,15 @@ To collaborate more efficiently with others that might not have a Workfront acco
 
 1. 選擇&#x200B;**詳細資料**&#x200B;標籤。 詳細資訊標籤預設為開啟。
 
-1. 在預覽或記錄頁面中按一下&#x200B;**匯出**&#x200B;圖示![](assets/export-icon-in-record-details-page.png)。
+1. 在預覽或記錄頁面中按一下&#x200B;**匯出**&#x200B;圖示![](assets/export-icon-in-record-details-page.png)，然後按一下下列其中一項：
 
-   Word檔案(.docx)會下載並儲存到您的電腦。
+   * **Microsoft Word**
+   * **Adobe PDF**
+
+   Word (.docx)或PDf檔案會下載並儲存至您的電腦。
+
+   匯出的檔案的名稱是記錄的「主要」欄位。
 
    ![](assets/exported-word-file.png)
 
-1. （選用）前往下載的檔案，開啟檔案並加以編輯或與其他人共用。
+1. （選擇性）移至下載的檔案，開啟檔案並加以編輯（如果是Word檔案），或與其他人共用。

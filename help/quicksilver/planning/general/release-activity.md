@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 1e62d5c7eff86432b4914793d75cdf4f835f3d5d
+source-git-commit: bd202821687453288c96147933331c8a7a6b3acb
 workflow-type: tm+mt
-source-wordcount: '7462'
+source-wordcount: '7446'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,8 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
+><span class="preview">本文列出2024年8月28日正式發行前，Workfront規劃初期所發行的功能。</span>
+>
 >本文資訊旨在說明Adobe Workfront的新產品Adobe Workfront Planning。
 >
 >除了Workfront計畫之外，您必須購買Workfront計畫才能存取及使用Workfront計畫功能。
@@ -28,18 +30,16 @@ ht-degree: 0%
 >如需Workfront Planning的概觀，請參閱[Adobe Workfront Planning概觀](/help/quicksilver/planning/general/planning-overview.md)。
 >
 
-本文列出2024年早期存取期間發行給Workfront Planning的功能。
-
-已發行的功能會依其發行順序列出，最新的排在前。
-
-另請參閱下列文章以取得針對Workfront Planning發行的更多功能：
+如需Workfront Planning版本的詳細資訊，另請參閱下列文章：
 
 * 針對2023年期間Beta版期間發行的功能，[Adobe Workfront 2023年規劃發行活動](/help/quicksilver/planning/general/release-activity-archives-2023.md)。
 * [Adobe Workfront Planning發行活動：目前發行至Workfront Planning之功能的文章索引](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)，於2024年8月28日全面推出後。
 
 ## Workfront Planning發行時間表
 
-下表顯示Workfront Planning發行的時間表，並於2023年推出測試版：
+<!-- this section is also duplicated in the 2023 release notes article-->
+
+下表顯示Workfront Planning發行的時間表：
 
 | 時間 | 版本 |
 |--------------------|-----------------------------------------|
