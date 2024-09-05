@@ -7,9 +7,9 @@ author: Nolan
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: 5fbcd807-e152-4e93-a895-2028ed089f72
-source-git-commit: 3c862954e36dadb5b26438bb4bc42c75c46f08f5
+source-git-commit: 0c37044aaffbe6ebb22af3877c93d5c65d40de98
 workflow-type: tm+mt
-source-wordcount: '440'
+source-wordcount: '524'
 ht-degree: 0%
 
 ---
@@ -23,9 +23,15 @@ ht-degree: 0%
 
 **Beta狀態**
 
-畫布儀表板目前處於公開測試階段，因此可能會經常變更。 如需如何註冊Beta版的說明，請參閱下文。
+畫布儀表板目前處於封閉的測試階段，因此可能會經常變更。 如需如何註冊Beta版的說明，請參閱下文。
 
 ## 參與測試版
+
+>[!IMPORTANT]
+>
+>畫布儀表板目前是封閉測試版，因此僅適用於特定組織。 我們持續直接邀請有興趣的組織從輪候表中加入Beta版。 您可以提交[此Adobe回饋方案表單](https://www.feedbackprogram.adobe.com/c/r/Workfront-Canvas-Dashboards-Visualizations-Beta)，將您的組織新增至輪候表。 此外，已購買Workfront Planning作為其套件一部分的組織已獲得測試版存取權，以測試跨產品報告功能。
+>
+>最後，我們會改用公開測試版，屆時所有組織都可使用註冊程式。
 
 ### 註冊
 
@@ -33,11 +39,7 @@ ht-degree: 0%
 
 1. 按一下Adobe Workfront右上角的&#x200B;**[!UICONTROL 主功能表]**&#x200B;圖示![主功能表](/help/_includes/assets/main-menu-icon.png)，或（如果有的話）按一下左上角的&#x200B;**[!UICONTROL 主功能表]**&#x200B;圖示![主功能表](/help/_includes/assets/main-menu-icon-left-nav.png)，然後按一下&#x200B;**儀表板**。
 
-1. 按一下頁面右上角的&#x200B;**加入畫布控制面板beta版**&#x200B;測試版按鈕。
-
-   >[!NOTE]
-   >
-   >您的組織已接受封閉式測試版後，才能使用此按鈕。 當開放Beta版開始時，所有組織都可使用此功能。
+1. 按一下頁面右上角的&#x200B;**加入畫布控制面板beta版**&#x200B;測試版按鈕。 請注意，只有在貴組織受邀參加封閉式測試版時，才能使用此按鈕。
 
 1. 閱讀條款，然後按一下&#x200B;**接受**。 您現在已註冊Beta版；但請注意，您的Workfront資料需要幾分鐘才能在Canvas儀表板中完全存取。
 
