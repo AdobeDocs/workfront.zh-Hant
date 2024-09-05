@@ -10,9 +10,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 91b1b448-5a0b-4e64-a59e-458c8387ecbc
-source-git-commit: 822c4e13ab62d129d0a7c603105251e52578576d
+source-git-commit: 5113771baf269405e758307d11a392f95ee870fe
 workflow-type: tm+mt
-source-wordcount: '1891'
+source-wordcount: '1919'
 ht-degree: 10%
 
 ---
@@ -357,7 +357,7 @@ ht-degree: 10%
   </tr> 
   <tr> 
    <td>編輯、刪除、停用、登入身份或重設任何使用者的密碼</td> 
-   <td>✓ (R)*</td> 
+   <td>✓ (R)*<p><b>注意</b>：您無法作為系統管理員的任何使用者登入。</p></td> 
    <td> </td> 
    <td> </td> 
    <td> </td> 
@@ -365,7 +365,7 @@ ht-degree: 10%
   </tr> 
   <tr> 
    <td>編輯、刪除、停用、登入身份或重設其管理的群組之任何使用者的密碼</td> 
-   <td>✓ (R)*</td> 
+   <td>✓ (R)*<p><b>注意</b>：您無法作為系統管理員的任何使用者登入。</p></td> 
    <td> </td> 
    <td> </td> 
    <td> </td> 

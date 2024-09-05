@@ -5,9 +5,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 5e87cad4-4a5d-4cb2-848f-7c97ff11d0e8
-source-git-commit: c887569d59c7751210671cab97c492ee1752fffc
+source-git-commit: 5113771baf269405e758307d11a392f95ee870fe
 workflow-type: tm+mt
-source-wordcount: '779'
+source-wordcount: '793'
 ht-degree: 1%
 
 ---
@@ -95,7 +95,7 @@ ht-degree: 1%
       <td> <p>允許使用者為Workfront中的任何使用者執行下列動作：</p> 
        <ul> 
         <li>編輯、刪除或停用使用者</li> 
-        <li>以使用者身分登入</li> 
+        <li>以使用者身分登入<p><b>注意</b>：您無法作為系統管理員的任何使用者登入。</p></li> 
         <li>重設使用者密碼</li> 
        </ul> <p>此選項預設為停用。</p> </td> 
      </tr> 
