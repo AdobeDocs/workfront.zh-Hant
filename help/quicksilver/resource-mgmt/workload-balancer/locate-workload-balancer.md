@@ -7,15 +7,14 @@ description: 您可以使用工作負載平衡器來排程工作資源，或檢�
 author: Lisa
 feature: Resource Management
 exl-id: 88029c9d-b588-4d33-801a-04f49b12a6e8
-source-git-commit: 2c4fe48ef969741ba792e37c28adba86ffdcba9a
+source-git-commit: db0aab0e6e7e896a8e7c0afe2da709de7c3c2a4e
 workflow-type: tm+mt
-source-wordcount: '764'
+source-wordcount: '708'
 ht-degree: 0%
 
 ---
 
 # 找到工作負載平衡器
-
 
 您可以使用工作負載平衡器來排程工作資源，或檢閱其使用狀態和目前配置。
 
@@ -36,9 +35,10 @@ ht-degree: 0%
 >* [瀏覽工作負載平衡器](../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md)
 >* [在工作負載平衡器](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md)中指派工作的總覽
 >* [在工作負載平衡器](../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md)中管理使用者配置
->
 
 ## 存取需求
+
++++ 展開以檢視本文中功能的存取需求。
 
 您必須具有下列存取權才能執行本文中的步驟：
 
@@ -47,35 +47,35 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront計畫*</td> 
+   <td role="rowheader">Adobe Workfront計畫</td> 
    <td> <p>任何 </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront授權*</td> 
-   <td> <p>計畫，在資源區域使用工作負載平衡器</p>
-   <p>工作，使用團隊或專案的工作負載平衡器時</p>
- </td> 
+   <td role="rowheader">Adobe Workfront授權</td> 
+   <td><p>新增：標準</p>
+       <p>或</p>
+       <p>目前：計畫，在資源區域使用工作負載平衡器時；</br>
+       工作，使用團隊或專案的工作負載平衡器時</p></td>
   </tr> 
-  <tr> 
-   <td role="rowheader">存取層級*</td> 
+   <td role="rowheader">存取層級設定</td> 
    <td> <p>檢視以下專案或更高存取權：</p> 
     <ul> 
-     <li> <p>資源管理</p> </li> 
-     <li> <p>專案</p> </li> 
-     <li> <p>任務</p> </li> 
-     <li> <p>問題</p> </li> 
-    </ul> <p><b> 附註</b>
-
-如果您還是沒有存取權，請詢問您的Workfront管理員，他們是否在您的存取層級中設定其他限制。 如需Workfront管理員如何變更存取層級的詳細資訊，請參閱<a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>。</p> </td>
-</tr> 
+     <li>資源管理</li> 
+     <li>專案</li> 
+     <li>任務</li> 
+     <li>問題</li> 
+    </ul> </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">物件許可權</td> 
-   <td> <p>檢視專案、任務和問題的許可權或更高 </p> <p>如需請求其他存取權的資訊，請參閱<a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">請求物件</a>的存取權。</p> </td> 
+   <td>檢視專案、任務和問題的許可權或更高</td> 
   </tr> 
  </tbody> 
 </table>
 
-*若要瞭解您擁有的計畫、授權型別或存取權，請聯絡您的Workfront管理員。
+如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
++++
 
 ## 在預先定義的區域中存取工作負載平衡器
 
@@ -83,7 +83,8 @@ ht-degree: 0%
 
 ### 存取工作負載平衡器資源區域中的多個專案
 
-1. 按一下&#x200B;**主要功能表**&#x200B;圖示![](assets/main-menu-icon.png)，然後按一下&#x200B;**資源**。
+{{step1-to-resourcing}}
+
 1. 按一下左側面板中的&#x200B;**工作負載平衡器**。
 
    ![](assets/nwe-balancer-global.png)
@@ -97,27 +98,27 @@ ht-degree: 0%
 
 ### 存取團隊的工作負載平衡器
 
-1. 按一下&#x200B;**主要功能表**&#x200B;圖示![](assets/main-menu-icon.png)，然後按一下[團隊]。
+{{step1-to-team}}
+
 您的主團隊頁面隨即顯示。
 
-   預設會顯示團隊的工作負載平衡器。
-
-   ![](assets/nwe-balancer-team-350x172.png)
-
-   依預設，團隊的工作負載平衡器顯示以下資訊：
-
-   * **未指派的工作**：指派給團隊且未指派給使用者的專案。
-   * **已指派的工作**：團隊的所有成員及其所有指派。
-
-     >[!TIP]
-     >
-     >團隊成員可能被指派給同時被指派給團隊或指派給其他團隊或角色的工作。
-
-
+    按一下左側面板中的**工作負載平衡器**。
+    
+    ！[](assets/nwe-balancer-team-350x172.png)
+    
+    團隊的工作負載平衡器預設會顯示下列資訊： 
+    
+    * **未指派的工作**：指派給團隊且未指派給使用者的專案。
+    * **指派的工作**：團隊的所有成員及其所有指派。
+    
+    >[！TIP]
+    >
+    >團隊成員可能會被指派給同時被指派給團隊的工作或指派給其他團隊或角色的工作。
 
 ### 存取專案的工作負載平衡器
 
-1. 按一下&#x200B;**主要功能表**&#x200B;圖示![](assets/main-menu-icon.png)，然後按一下&#x200B;**專案**。
+{{step1-to-projects}}
+
 1. 按一下專案名稱以開啟專案頁面。
 1. 按一下左側面板中的&#x200B;**工作負載平衡器**。 您可能需要按一下&#x200B;**顯示更多**，然後按一下&#x200B;**工作負載平衡器**。
 

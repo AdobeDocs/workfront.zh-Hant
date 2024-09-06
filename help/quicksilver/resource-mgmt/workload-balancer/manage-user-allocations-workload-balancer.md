@@ -6,7 +6,7 @@ description: 身為資源管理員，您可以指派工作給使用者，並從�
 author: Lisa
 feature: Resource Management
 exl-id: 9649e482-af24-4516-9a69-ef12b2f1d579
-source-git-commit: dd015fc356f65cc3d00a1c88ca0a8f2268283606
+source-git-commit: db0aab0e6e7e896a8e7c0afe2da709de7c3c2a4e
 workflow-type: tm+mt
 source-wordcount: '2898'
 ht-degree: 0%
@@ -23,7 +23,7 @@ ht-degree: 0%
 
 +++ 展開以檢視本文中功能的存取需求。
 
-您必須具備下列條件：
+您必須具有下列存取權才能執行本文中的步驟：
 
 <table style="table-layout:auto"> 
  <col> 
@@ -35,26 +35,21 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront授權</td> 
-   <td>
-   <p>在資源區域使用工作負載平衡器時，您需要：</p>
-   <p>新增：標準</p>
-   <p>或</p>
-   <p>目前：計畫</p>
-   <p>使用團隊或專案的工作負載平衡器時，您需要：</p>
-   <p>新增：標準</p>
-   <p>或</p>
-   <p>目前：工作</p>
- </td> 
-  </tr> 
+   <td><p>新增：標準</p>
+       <p>或</p>
+       <p>目前：計畫，在資源區域使用工作負載平衡器時；</br>
+       工作，使用團隊或專案的工作負載平衡器時</p></td>
+  </tr>
   <tr> 
    <td role="rowheader">存取層級設定</td> 
    <td> <p>編輯下列專案的存取權：</p> 
     <ul> 
-     <li> <p>資源管理</p> </li> 
-     <li> <p>專案</p> </li> 
-     <li> <p>任務</p> </li> 
-     <li> <p>問題</p> </li> 
-    </ul> </td> 
+     <li>資源管理</li> 
+     <li>專案</li> 
+     <li>任務</li> 
+     <li>問題</li> 
+    </ul>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">物件許可權</td> 

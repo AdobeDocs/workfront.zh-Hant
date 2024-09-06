@@ -9,14 +9,14 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: ed40984f-602a-46e9-a72b-141936de8fcb
-source-git-commit: 55c8a3e5d0041a0e975bfd979a2d2e38930fea8d
+source-git-commit: db0aab0e6e7e896a8e7c0afe2da709de7c3c2a4e
 workflow-type: tm+mt
-source-wordcount: '557'
+source-wordcount: '565'
 ht-degree: 0%
 
 ---
 
-# 從[!DNL Adobe Workfron]t匯出歷史資料：優點與缺點
+# 從[!DNL Adobe Workfront]匯出歷史資料：優點與缺點
 
 本文說明可用來從[!DNL Workfront]匯出歷史資料的四個選項的優缺點。
 
@@ -32,11 +32,11 @@ ht-degree: 0%
 
 ## 向我們的資料庫團隊要求[!DNL Postgres]資料傾印檔案
 
-您的帳戶主管可以向我們的資料庫團隊提交請求，以匯出包含您資料的資料庫傾印檔案（.dmp [!DNL Postgres]檔案）。 我們的AOS團隊將收到其他請求，要求擷取您所有儲存的檔案。
+您必須向我們的客戶支援團隊提交請求，然後客戶支援團隊會向我們的資料庫團隊提交請求，以匯出包含您資料的資料庫傾印檔案（.dmp [!DNL Postgres]檔案）。 我們將會向我們的NOC團隊提出其他要求，以擷取您所有儲存的檔案。
 
 * **優點**：您可獲得整個資料載入，包括自訂欄位，以及儲存在系統中的檔案。
 
-* **缺點**：資料庫檔案難以讀取：除非您將其上載至[!DNL Postgres]資料庫並重新建立資料表之間的關係，否則無法讀取此檔案。 檔案儲存在單獨的檔案伺服器上，必須由AOS小組使用單獨的程式來分別擷取。 這樣做時，檔案沒有組織，且全部由其GUID參考。
+* **缺點**：資料庫檔案難以讀取：除非您將其上載至[!DNL Postgres]資料庫並重新建立資料表之間的關係，否則無法讀取此檔案。 檔案儲存在單獨的檔案伺服器上，必須由NOC小組使用單獨的程式來分別擷取。 這樣做時，檔案沒有組織，且全部由其GUID參考。
 
 * **成本**：此下載會產生成本，視團隊建立檔案所需的時間而定。 請洽詢您的AE/CAE以取得詳細資訊，或開始此程式。
 

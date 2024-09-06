@@ -6,20 +6,16 @@ description: 您可以使用Adobe Workfront工作負載平衡器大量指派資�
 author: Lisa
 feature: Resource Management
 exl-id: fb0f80d3-7da4-4f5f-857d-3fb518ba12e2
-source-git-commit: 49bd393af77a67aa1e3a443c4189569178e99ada
+source-git-commit: db0aab0e6e7e896a8e7c0afe2da709de7c3c2a4e
 workflow-type: tm+mt
-source-wordcount: '1499'
-ht-degree: 2%
+source-wordcount: '1521'
+ht-degree: 1%
 
 ---
 
 # 使用工作負載平衡器大量指派工作
 
 <!--Audited: 07/2024-->
-
-<!--drafted
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> 
--->
 
 您可以使用Adobe Workfront工作負載平衡器大量指派資源給多個任務和問題。
 
@@ -28,6 +24,8 @@ ht-degree: 2%
 ## 存取需求
 
 +++ 展開以檢視本文中功能的存取需求。
+
+您必須具有下列存取權才能執行本文中的步驟：
 
 <table style="table-layout:auto"> 
  <col> 
@@ -38,36 +36,31 @@ ht-degree: 2%
    <td> <p>任何 </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront授權*</td> 
-   <td> 
-   <p>新增：標準</p>
-   <p>目前：</p>
-   <ul>
-   <li><p>計畫，在資源區域使用工作負載平衡器</p></li>
-   <li><p>工作，使用團隊或專案的工作負載平衡器時</p></li></ul>
-
-</td> 
-  </tr> 
+   <td role="rowheader">Adobe Workfront授權</td> 
+   <td><p>新增：標準</p>
+       <p>或</p>
+       <p>目前：計畫，在資源區域使用工作負載平衡器時；</br>
+       工作，使用團隊或專案的工作負載平衡器時</p></td>
+  </tr>
   <tr> 
-   <td role="rowheader">存取層級</td> 
+   <td role="rowheader">存取層級設定</td> 
    <td> <p>編輯下列專案的存取權：</p> 
     <ul> 
-     <li> <p>資源管理</p> </li> 
-     <li> <p>專案</p> </li> 
-     <li> <p>任務</p> </li> 
-     <li> <p>問題</p> </li> 
+     <li>資源管理</li> 
+     <li>專案</li> 
+     <li>任務</li> 
+     <li>問題</li> 
     </ul>
-
-</td> 
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">物件許可權</td> 
-   <td> <p>Contribute許可權或以上至專案、任務和問題，包括進行指派</p> </td> 
+   <td>Contribute許可權或以上至專案、任務和問題，包括進行指派</td> 
   </tr> 
  </tbody> 
 </table>
 
-*如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -100,27 +93,27 @@ ht-degree: 2%
 
 1. （視條件而定）如果您要從「資源」區域或團隊存取「工作負載平衡器」，請展開「**專案：名稱**」下拉式功能表，並使用篩選修飾元來選取要指派給您的一或多個專案。 您可以依名稱（此為預設選項）或狀態來選取專案。
 
-如需Workfront篩選修飾元的資訊，請參閱[篩選和條件修飾元](../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md)。
+   如需Workfront篩選修飾元的資訊，請參閱[篩選和條件修飾元](../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md)。
 
->[!NOTE]
->
->存取專案的工作負載平衡器時，預設會選取專案名稱。
+   >[!NOTE]
+   >
+   >存取專案的工作負載平衡器時，預設會選取專案名稱。
 
-![](assets/project-name-status-dropdown-bulk-assignments-wb-nwe-350x133.png)
+   ![](assets/project-name-status-dropdown-bulk-assignments-wb-nwe-350x133.png)
 
 1. （選擇性）按一下&#x200B;**選取專案任務**&#x200B;以選取要指派給您的任務，然後在&#x200B;**任務：名稱**&#x200B;下拉式功能表中，依名稱（此為預設選項）或狀態選取任務，並使用篩選修飾元來搜尋特定任務。
 
-如需Workfront篩選修飾元的資訊，請參閱[篩選和條件修飾元](../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md)。
+   如需Workfront篩選修飾元的資訊，請參閱[篩選和條件修飾元](../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md)。
 
->[!NOTE]
->
->您無法選取處於完成狀態的任務。
+   >[!NOTE]
+   >
+   >您無法選取處於完成狀態的任務。
 
-![](assets/task-name-status-dropdown-bulk-assignments-wb-nwe-350x102.png)
+   ![](assets/task-name-status-dropdown-bulk-assignments-wb-nwe-350x102.png)
 
->[!TIP]
->
->如果您想要對問題和任務進行批次指派，請將此選取項保留空白。
+   >[!TIP]
+   >
+   >如果您想要對問題和任務進行批次指派，請將此選取項保留空白。
 
 1. （選擇性）按一下其中一個選取條件旁的&#x200B;**刪除**&#x200B;圖示![](assets/delete.png)
 

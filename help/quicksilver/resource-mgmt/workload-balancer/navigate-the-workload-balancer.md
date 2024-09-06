@@ -6,9 +6,9 @@ description: 使用工作負載平衡器瞭解資源的可用性，並將工作�
 author: Lisa
 feature: Resource Management
 exl-id: 60dabfc5-6a2e-4368-9dac-db48d0307895
-source-git-commit: 2c4fe48ef969741ba792e37c28adba86ffdcba9a
+source-git-commit: db0aab0e6e7e896a8e7c0afe2da709de7c3c2a4e
 workflow-type: tm+mt
-source-wordcount: '4146'
+source-wordcount: '4068'
 ht-degree: 0%
 
 ---
@@ -21,47 +21,9 @@ ht-degree: 0%
 
 如需工作負載平衡器所在位置的詳細資訊，請參閱[找到工作負載平衡器](https://experienceleague.adobe.com/docs/workfront/using/manage-resources/the-workload-balancer/locate-workload-balancer.html?lang=en)。
 
-
 ## 存取需求
 
-<!--drafted - replace table for P&P:
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
-   <td> <p>Any </p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
-<td><p>Current license: Standard </p>
-    Or 
-<p>Legacy license:</p>
-    <ul>
-    <li><p>Plan, when using the Workload Balancer for a team or in the Resourcing area </p></li>
-    <li><p>Work, when using the Workload Balancer of a project </p></li>
-    </ul>
- </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Access level configurations*</td> 
-   <td> <p>View or higher access to the following:</p> 
-    <ul> 
-     <li> <p>Resource Management</p> </li> 
-     <li> <p>Projects</p> </li> 
-     <li> <p>Tasks</p> </li> 
-     <li> <p>Issues</p> </li> 
-    </ul> <p>If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Object permissions</td> 
-   <td> <p>View or higher permissions to the projects, tasks, and issues </p> <p>For information on requesting additional access, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
--->
++++ 展開以檢視本文中功能的存取需求。
 
 您必須具有下列存取權才能執行本文中的步驟：
 
@@ -70,33 +32,37 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront計畫*</td> 
+   <td role="rowheader">Adobe Workfront計畫</td> 
    <td> <p>任何 </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront授權*</td> 
-   <td> <p>計畫，在資源區域使用工作負載平衡器</p>
-   <p>工作，使用團隊或專案的工作負載平衡器時</p>
- </td> 
-  </tr> 
+   <td role="rowheader">Adobe Workfront授權</td> 
+   <td><p>新增：標準</p>
+       <p>或</p>
+       <p>目前：計畫，在資源區域使用工作負載平衡器時；</br>
+       工作，使用團隊或專案的工作負載平衡器時</p></td>
+  </tr>
   <tr> 
-   <td role="rowheader">存取層級設定*</td> 
+   <td role="rowheader">存取層級設定</td> 
    <td> <p>檢視以下專案或更高存取權：</p> 
     <ul> 
-     <li> <p>資源管理</p> </li> 
-     <li> <p>專案</p> </li> 
-     <li> <p>任務</p> </li> 
-     <li> <p>問題</p> </li> 
-    </ul> <p>如果您還是沒有存取權，請詢問您的Workfront管理員，他們是否在您的存取層級中設定其他限制。 如需Workfront管理員如何變更存取層級的詳細資訊，請參閱<a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>。</p> </td> 
+     <li>資源管理</li> 
+     <li>專案</li> 
+     <li>任務</li> 
+     <li>問題</li> 
+    </ul>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">物件許可權</td> 
-   <td> <p>檢視專案、任務和問題的許可權或更高 </p> <p>如需請求其他存取權的資訊，請參閱<a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">請求物件</a>的存取權。</p> </td> 
+   <td>檢視專案、任務和問題的許可權或更高</td> 
   </tr> 
  </tbody> 
 </table>
 
-*若要瞭解您擁有的計畫、授權型別或存取權，請聯絡您的Workfront管理員。
+如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
++++
 
 ## 檢視工作負載平衡器中專案的考量事項
 
@@ -156,7 +122,8 @@ ht-degree: 0%
 
 若要導覽多個專案的工作負載平衡器：
 
-1. 按一下Workfront右上角的&#x200B;**主要功能表**&#x200B;圖示![](assets/main-menu-icon.png)，然後按一下&#x200B;**資源**。
+{{step1-to-resourcing}}
+
 1. 按一下左側面板中的&#x200B;**工作負載平衡器**。
 
    ![工作量平衡工具](assets/nwe-balancer-global.png)
@@ -433,9 +400,11 @@ ht-degree: 0%
 
 瀏覽團隊的工作負載平衡器類似於瀏覽多個專案的工作負載平衡器。 如需詳細資訊，請參閱本文中的[瀏覽多個專案的工作負載平衡器](#navigate-the-workload-balancer-for-multiple-projects-in-the-resourcing-area)一節。
 
-1. 按一下&#x200B;**主功能表**&#x200B;圖示![主功能表](assets/main-menu-icon.png)，然後按一下&#x200B;**團隊**。
+{{step1-to-team}}
+
 依預設，會顯示您的主團隊頁面。
-1. 按一下左側面板中的&#x200B;**工作負載平衡器**。 團隊的工作負載平衡器預設應該顯示。
+
+1. 按一下左側面板中的&#x200B;**工作負載平衡器**。
 
    ![團隊的工作負載平衡器](assets/nwe-balancer-team-350x172.png)
 
@@ -448,7 +417,8 @@ ht-degree: 0%
 
 ## 瀏覽單一專案的工作負載平衡器
 
-1. 按一下&#x200B;**主功能表**&#x200B;圖示![主功能表](assets/main-menu-icon.png)，然後按一下&#x200B;**專案**。
+{{step1-to-projects}}
+
 1. 按一下專案名稱以開啟專案頁面。
 1. 按一下左側面板中的&#x200B;**工作負載平衡器**。 您可能需要按一下&#x200B;**顯示更多**，然後按一下&#x200B;**工作負載平衡器**。
 
