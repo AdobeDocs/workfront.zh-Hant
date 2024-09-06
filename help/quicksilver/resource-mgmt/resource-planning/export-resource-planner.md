@@ -3,13 +3,13 @@ product-area: resource-management
 navigation-topic: resource-planning
 title: 從資源規劃工具匯出資訊
 description: 您可以從資源規劃工具的任何檢視中，將資訊匯出至儲存在電腦上的Excel (.xlsx)檔案。
-author: Alina
+author: Lisa
 feature: Resource Management
 exl-id: 07acd28a-5dc0-45b4-bdf2-20abbd5e098c
-source-git-commit: d3172a681ef6ac8b7bde44c680ad7febc3f26121
+source-git-commit: 3c3175c347431b10aed1a6034df6c756056399b3
 workflow-type: tm+mt
-source-wordcount: '661'
-ht-degree: 3%
+source-wordcount: '626'
+ht-degree: 4%
 
 ---
 
@@ -23,44 +23,46 @@ ht-degree: 3%
 
 ## 存取需求
 
-您必須具備下列條件：
++++ 展開以檢視本文中功能的存取需求。
+
+您必須具有下列存取權才能執行本文中的步驟：
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront計畫*</td> 
-   <td> <p>專業及更高版本</p> </td> 
+   <td role="rowheader">Adobe Workfront計畫</td> 
+   <td><p>新增：任何</p>
+       <p>或</p>
+       <p>目前：Pro或更高</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront授權*</td> 
-   <td> <p>評論或以上 <!--
-      <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
-       (this seems to be the case in NWE only, not classic. Waiting on Vazgen's response for this)
-      </MadCap:conditionalText>
-     --></p> </td> 
+   <td role="rowheader">Adobe Workfront授權</td> 
+   <td><p>新增：淺色或更高</p>
+       <p>或</p>
+       <p>目前：檢閱或以上</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">存取層級設定*</td> 
-   <td> <p>檢視專案、使用者和資源管理的許可權或更高的許可權</p> <p><b>附註</b>
-
-如果您還是沒有存取權，請詢問您的Workfront管理員，他們是否在您的存取層級中設定其他限制。 如需Workfront管理員如何變更存取層級的詳細資訊，請參閱<a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>。</p> </td>
-</tr> 
+   <td role="rowheader">存取層級設定</td> 
+   <td> <p>檢視專案、使用者和資源管理的存取權或以上許可權</p> </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">物件許可權</td> 
-   <td> <p>檢視專案的許可權或更高版本</p> <p>如需請求其他存取權的資訊，請參閱<a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">請求物件</a>的存取權。</p> </td> 
+   <td> <p>檢視專案的許可權或更高版本</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;若要瞭解您擁有的計畫、授權型別或存取權，請連絡您的Workfront管理員。
+如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
++++
 
 ## 從資源規劃工具匯出資訊
 
-1. 按一下Adobe Workfront右上角的&#x200B;**主要功能表**&#x200B;圖示![](assets/main-menu-icon.png)。
+{{step1-to-resourcing}}
 
-1. 按一下「**資源**」。 依預設會顯示&#x200B;**規劃師**。
+依預設會顯示&#x200B;**規劃師**。
 
 1. 選取供需規劃員的檢視。 您可以選取下列其中一個選項：
 

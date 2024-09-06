@@ -3,10 +3,10 @@ product-area: resource-management;reporting
 navigation-topic: resource-planning
 title: 資源規劃工具預算時數報告
 description: 您可以使用資源規劃工具，為您的專案編列資源預算。 如需有關使用Adobe Workfront資源規劃工具編列資源預算的資訊，請參閱使用專案和角色檢視的資源規劃工具中的預算資源一文。
-author: Alina
+author: Lisa
 feature: Resource Management
 exl-id: 6adf11a4-3c33-484f-80cc-c5d96a7c7112
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 3c3175c347431b10aed1a6034df6c756056399b3
 workflow-type: tm+mt
 source-wordcount: '155'
 ht-degree: 0%

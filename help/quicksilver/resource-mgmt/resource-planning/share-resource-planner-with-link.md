@@ -3,12 +3,12 @@ product-area: resource-management
 navigation-topic: resource-planning
 title: 使用連結共用資源規劃工具使用者檢視
 description: Adobe Workfront可以為資源規劃工具的使用者檢視產生唯一的URL，您可將該URL作為外部頁面嵌入到儀表板中，或在新的瀏覽器標籤中單獨將其開啟。 當與可能沒有資源區域的直接存取許可權的使用者共用資源規劃工具資訊時，這會很有幫助。
-author: Alina
+author: Lisa
 feature: Resource Management
 exl-id: feb2ec26-f1a6-4581-9e1d-be948a2170c3
-source-git-commit: d3172a681ef6ac8b7bde44c680ad7febc3f26121
+source-git-commit: 3c3175c347431b10aed1a6034df6c756056399b3
 workflow-type: tm+mt
-source-wordcount: '690'
+source-wordcount: '651'
 ht-degree: 0%
 
 ---
@@ -21,32 +21,40 @@ Adobe Workfront可以為資源規劃工具的使用者檢視產生唯一的URL�
 
 ## 存取需求
 
-您必須具備下列條件：
++++ 展開以檢視本文中功能的存取需求。
+
+您必須具有下列存取權才能執行本文中的步驟：
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront計畫*</td> 
-   <td> <p>專業及更高版本</p> </td> 
+   <td role="rowheader">Adobe Workfront計畫</td> 
+    <td><p>新增：任何</p>
+       <p>或</p>
+       <p>目前：Pro或更高</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront授權*</td> 
-   <td> <p>計劃 </p> </td> 
+   <td role="rowheader">Adobe Workfront授權</td> 
+   <td><p>新增：標準</p>
+       <p>或</p>
+       <p>目前：計畫</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">存取層級設定*</td> 
-   <td> <p>檢視或更高的資源管理、專案和使用者存取權</p> <p>檢視財務資料的存取權以檢視成本資訊 </p> <p><b>注意</b>如果您還是沒有存取權，請詢問您的Workfront管理員是否對您的存取層級設定了其他限制。 如需Workfront管理員如何變更存取層級的詳細資訊，請參閱<a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>。</p> </td> 
+   <td role="rowheader">存取層級設定</td> 
+   <td> <p>檢視或更高的資源管理、專案和使用者存取權</p> <p>檢視財務資料的存取權以檢視成本資訊</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">物件許可權</td> 
-   <td> <p>檢視或更高許可權給您要在資源規劃工具中顯示的專案</p> <p>如需請求其他存取權的資訊，請參閱<a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">請求物件</a>的存取權。</p> </td> 
+   <td> <p>檢視或更高許可權給您要在資源規劃工具中顯示的專案</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;若要瞭解您擁有的計畫、授權型別或存取權，請連絡您的Workfront管理員。
+如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
++++
 
 
 為資源規劃工具的使用者檢視產生唯一URL時，請考量下列事項：
@@ -62,10 +70,9 @@ Adobe Workfront可以為資源規劃工具的使用者檢視產生唯一的URL�
 
 若要在資源規劃工具的使用者檢視中取得唯一URL並與其他使用者共用：
 
-1. 按一下Adobe Workfront右上角的&#x200B;**主要功能表**&#x200B;圖示![](assets/main-menu-icon.png)。
+{{step1-to-resourcing}}
 
-1. 按一下「**資源**」。
-1. 在中，選取&#x200B;**依使用者檢視**。
+1. 選取&#x200B;**依使用者檢視**。
 1. （選擇性）選取您要在資源規劃工具中檢視資訊的時間範圍。 從下列選項中選取：
 
    * 週

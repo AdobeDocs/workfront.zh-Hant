@@ -2,13 +2,13 @@
 product-area: resource-management
 navigation-topic: resource-planning
 title: 在資源規劃工具中篩選資訊
-description: '(AL：*本文上的反複專案：依自訂資料篩選。 其他增強功能？ 特殊字元注意事項可能會改變 — 請跟著故事以瞭解何時改變。 它最初是在Beta 3 17.3中推出。)'
-author: Alina
+description: 使用篩選條件，您可以從儲存在系統中的所有資訊修改顯示在「資源規劃工具」中的資訊。
+author: Lisa
 feature: Resource Management
 exl-id: 7186cae5-1e16-421e-b26d-afb50aa7f6eb
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: 3c3175c347431b10aed1a6034df6c756056399b3
 workflow-type: tm+mt
-source-wordcount: '2416'
+source-wordcount: '2374'
 ht-degree: 0%
 
 ---
@@ -23,38 +23,40 @@ ht-degree: 0%
 
 ## 存取需求
 
-您必須具備下列條件：
++++ 展開以檢視本文中功能的存取需求。
+
+您必須具有下列存取權才能執行本文中的步驟：
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront計畫*</td> 
-   <td> <p>專業及更高版本</p> </td> 
+   <td role="rowheader">Adobe Workfront計畫</td> 
+   <td><p>新增：任何</p>
+       <p>或</p>
+       <p>目前：Pro或更高</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront授權*</td> 
-   <td> <p>評論或以上<!--
-      <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
-        (this seems to be the case in NWE only, not classic. Waiting on Vazgen's response for this)
-      </MadCap:conditionalText>
-     --></p> </td> 
+   <td role="rowheader">Adobe Workfront授權</td> 
+   <td><p>新增：淺色或更高</p>
+       <p>或</p>
+       <p>目前：檢閱或以上</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">存取層級設定*</td> 
-   <td> <p>檢視專案、使用者和資源管理的許可權或更高的許可權 </p> <p><b>附註</b>
-
-如果您還是沒有存取權，請詢問您的Workfront管理員，他們是否在您的存取層級中設定其他限制。 如需Workfront管理員如何變更存取層級的詳細資訊，請參閱<a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>。</p> </td>
-</tr> 
+   <td role="rowheader">存取層級設定</td> 
+   <td> <p>檢視專案、使用者和資源管理的存取權或以上許可權</p> </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">物件許可權</td> 
-   <td> <p>檢視專案的許可權或更高版本</p> <p>如需請求其他存取權的資訊，請參閱<a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">請求物件</a>的存取權。</p> </td> 
+   <td> <p>檢視專案的許可權或更高版本</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*若要瞭解您擁有的計畫、授權型別或存取權，請聯絡您的Workfront管理員。
+如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
++++
 
 ## 資源規劃工具篩選器概要
 
@@ -117,18 +119,16 @@ ht-degree: 0%
 
 若要在資源規劃工具中建立篩選器：
 
-1. 按一下Adobe Workfront右上角的&#x200B;**主要功能表**&#x200B;圖示![](assets/main-menu-icon.png)。
+{{step1-to-resourcing}}
 
-1. 按一下「**資源**」。
+依預設會顯示&#x200B;**規劃師**。
 
-   依預設會顯示&#x200B;**規劃師**。
+根據預設，第一次存取資源規劃工具時，會套用<strong>預設篩選器</strong>。<br>如需預設篩選的詳細資訊，請參閱本文的「資源規劃工具」中的<a href="#overview-of-the-default-filter-in-the-resource-planner" class="MCXref xref">預設篩選概述</a>一節。
 
-   根據預設，第一次存取資源規劃工具時，會套用<strong>預設篩選器</strong>。<br>如需預設篩選的詳細資訊，請參閱本文的「資源規劃工具」中的<a href="#overview-of-the-default-filter-in-the-resource-planner" class="MCXref xref">預設篩選概述</a>一節。
-
-1. 在的左上角，按一下&#x200B;**篩選器**&#x200B;圖示。\
-   ![filter_icon.png](assets/filter-icon.png)\
-   或\
-   展開&#x200B;**篩選器**&#x200B;下拉式功能表並按一下&#x200B;**新增篩選器**。\
+1. 在的左上角，按一下&#x200B;**篩選器**圖示。
+   ![filter_icon.png](assets/filter-icon.png)
+或
+展開**篩選器**&#x200B;下拉式功能表，然後按一下&#x200B;**新增篩選器**。
    ![](assets/rp-filter-dropdown-expanded-with-default-filter-selected-350x283.png)
 
 1. 若要使用內建條件建立篩選器，請指定下列任一欄位：

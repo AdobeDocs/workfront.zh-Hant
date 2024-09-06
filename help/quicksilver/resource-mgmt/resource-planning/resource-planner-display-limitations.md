@@ -4,10 +4,10 @@ product-area: resource-management
 navigation-topic: resource-planning
 title: 資源規劃工具顯示限制
 description: 為了改善效能，Adobe Workfront會限制您可以顯示的資訊量，以及您可以從資源規劃工具匯出的資訊量。
-author: Alina
+author: Lisa
 feature: Resource Management
 exl-id: 12f56f11-59fb-4318-b43a-5ac695ca1e7e
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 3c3175c347431b10aed1a6034df6c756056399b3
 workflow-type: tm+mt
 source-wordcount: '948'
 ht-degree: 0%

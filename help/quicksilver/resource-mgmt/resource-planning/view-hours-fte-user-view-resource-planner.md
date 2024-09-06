@@ -4,10 +4,10 @@ product-area: resource-management;user-management
 navigation-topic: resource-planning
 title: 使用使用者檢視時檢視資源規劃工具中的可用、計畫和實際時數或FTE
 description: 在RP中使用「使用者」檢視計畫時，在「資源規劃工具」中檢視可用、計畫及實際時數或FTE — 可能是「RP中的預算資源」或「RP中的管理資源」。 等等…… — 或可能需要從其他POV重新利用?!)」
-author: Alina
+author: LIsa
 feature: Resource Management
 exl-id: 6b532aa2-435f-4fda-b7ce-abe0a785638f
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 3c3175c347431b10aed1a6034df6c756056399b3
 workflow-type: tm+mt
 source-wordcount: '1739'
 ht-degree: 1%

@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 780c996c-5cf1-42fe-898d-2cc208bbae7b
-source-git-commit: f036fbfc203f942fa5a22070860c3a20035a183b
+source-git-commit: 0a50e3aef47720d78e798f6111ee503389dde984
 workflow-type: tm+mt
-source-wordcount: '1078'
+source-wordcount: '1152'
 ht-degree: 0%
 
 ---
@@ -74,10 +74,17 @@ ht-degree: 0%
 
 商業規則中也提供API萬用字元。 您只能在UI或API中使用`$$ISAPI`來觸發規則。
 
+在運算式中使用`$$BEFORE_STATE`和`$$AFTER_STATE`萬用字元來存取任何編輯前後物件的欄位值。
+
+* 這兩個萬用字元都可用於編輯觸發器。 編輯觸發器的預設狀態（如果運算式中未包含任何狀態）為`$$AFTER_STATE`。
+* 物件建立觸發程式只允許`$$AFTER_STATE`，因為之前狀態不存在。
+* 物件刪除觸發程式只允許`$$BEFORE_STATE`，因為after狀態不存在。
+
+
 一些簡單的商業規則案例包括：
 
 * 使用者無法在2月的最後一週新增費用。 此公式可以表示為： `IF(MONTH($$TODAY) = 2 && DAYOFMONTH($$TODAY) >= 22, "You cannot add new expenses during the last week of February.")`
-* 使用者無法編輯處於完成狀態的專案。 此公式可以表示為： `IF({status} = "CPL", "You cannot edit this project because it is in Complete status.")`
+* 使用者無法編輯處於完成狀態的專案名稱。 此公式可以表示為： `IF({status} = "CPL" && {name} != $$BEFORE_STATE.{name}, "You cannot edit the project name.")`
 
 含有巢狀IF陳述式的案例是：
 

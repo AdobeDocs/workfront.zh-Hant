@@ -6,9 +6,9 @@ description: 您可以在Adobe Workfront資源規劃工具中使用成本值（�
 author: Lisa
 feature: Resource Management
 exl-id: 2f3ca8c2-51b3-4282-af8b-7f433365d386
-source-git-commit: f66a6c340d8789db447c860d995d9836a30eeeb0
+source-git-commit: 3c3175c347431b10aed1a6034df6c756056399b3
 workflow-type: tm+mt
-source-wordcount: '1458'
+source-wordcount: '1421'
 ht-degree: 0%
 
 ---
@@ -34,34 +34,40 @@ ht-degree: 0%
 
 ## 存取需求
 
-您必須具備下列條件：
++++ 展開以檢視本文中功能的存取需求。
+
+您必須具有下列存取權才能執行本文中的步驟：
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront計畫*</td> 
-   <td> <p>專業及更高版本</p> </td> 
+   <td role="rowheader">Adobe Workfront計畫</td> 
+    <td><p>新增：任何</p>
+       <p>或</p>
+       <p>目前：Pro或更高</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront授權*</td> 
-   <td> <p>計劃 </p> </td> 
+   <td role="rowheader">Adobe Workfront授權</td> 
+   <td><p>新增：標準</p>
+       <p>或</p>
+       <p>目前：計畫</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">存取層級設定*</td> 
-   <td> <p>編輯對資源管理的存取權，包括存取資源規劃工具中的編輯優先順序和預算時數</p> <p>編輯財務資料、專案和使用者的存取權</p> <p><b>附註</b>
-
-如果您還是沒有存取權，請詢問您的Workfront管理員，他們是否在您的存取層級中設定其他限制。 如需Workfront管理員如何變更存取層級的詳細資訊，請參閱<a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>。</p> </td>
-</tr> 
+   <td role="rowheader">存取層級設定</td> 
+   <td> <p>編輯對資源管理的存取權，包括存取資源規劃工具中的編輯優先順序和預算時數</p> <p>編輯財務資料、專案和使用者的存取權</p></td> 
+  </tr> 
   <tr> 
    <td role="rowheader">物件許可權</td> 
-   <td> <p>管理您要為其編列預算資訊之專案的許可權，並具備管理財務的能力</p> <p>如需請求其他存取權的資訊，請參閱<a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">請求物件</a>的存取權。</p> </td> 
+   <td> <p>管理您要為其編列預算資訊之專案的許可權，並具備管理財務的能力</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;若要瞭解您擁有的計畫、授權型別或存取權，請連絡您的Workfront管理員。
+如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
++++
 
 ## 在資源規劃工具（依成本）中顯示資訊
 
@@ -69,9 +75,8 @@ ht-degree: 0%
 
 若要在資源規劃工具中依成本顯示可用、計畫和預算資訊：
 
-1. 按一下Adobe Workfront右上角的&#x200B;**主要功能表**&#x200B;圖示![](assets/main-menu-icon.png)。
+{{step1-to-resourcing}}
 
-1. 按一下「**資源**」。
 1. 前往資源規劃工具。
 1. （視條件而定）選取&#x200B;**依專案檢視**&#x200B;或&#x200B;**依角色檢視**。\
    預設會選取&#x200B;**依專案檢視**。\
