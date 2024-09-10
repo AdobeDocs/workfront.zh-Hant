@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 3972f498-c461-4535-82c6-ad1b60d3ed86
-source-git-commit: f036fbfc203f942fa5a22070860c3a20035a183b
+source-git-commit: caaba90f4cdd835e1a1fddf16bcefa30995cca0d
 workflow-type: tm+mt
-source-wordcount: '691'
+source-wordcount: '667'
 ht-degree: 0%
 
 ---
@@ -37,14 +37,14 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 授權</td> 
-   <td><p>新計畫： [！UICONTROL Standard] </p>
-       <p>或</p> 
-       <p>目前計畫： [！UICONTROL計畫] </p>
-   </td>    
+   <td><p>新增：[！UICONTROL Standard]</p>
+   或
+   <p>目前： [！UICONTROL計畫]</p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定</td> 
-   <td> <p>編輯對[！UICONTROL財務資料]的存取權</p> <p><b>注意</b>：如果您仍然沒有存取權，請詢問您的[!DNL Workfront]管理員是否對您的存取層級設定了其他限制。 如需[!DNL Workfront]管理員如何修改存取層級的詳細資訊，請參閱<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>。</p> </td> 
+   <td>編輯對[！UICONTROL財務資料]的存取權</td> 
   </tr> 
   <tr> 
    <td role="rowheader">物件許可權</td> 
@@ -52,6 +52,8 @@ ht-degree: 0%
   </tr> 
  </tbody> 
 </table>
+
+如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 

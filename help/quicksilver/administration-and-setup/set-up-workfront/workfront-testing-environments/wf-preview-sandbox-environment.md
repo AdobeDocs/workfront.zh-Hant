@@ -5,13 +5,13 @@ product-area: system-administration
 navigation-topic: workfront-testing-environments
 title: ' [!DNL Adobe Workfront] 預覽沙箱環境'
 description: 預覽沙箱是測試環境，可作為即時環境的復本。 Workfront每週末都會重新整理。 星期五新增到您即時環境的資料會在下星期一之前顯示在您的預覽沙箱中。 所有支援套件皆可存取此沙箱。
-author: Lisa
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: e5c02b8c-854e-4c42-a599-f680443f425d
-source-git-commit: ca4da5302198d8fffc8b706baa3b3aeaa1f738e3
+source-git-commit: 439303273239549bb326c171be44eea321f5bb5f
 workflow-type: tm+mt
-source-wordcount: '1189'
+source-wordcount: '1176'
 ht-degree: 0%
 
 ---
@@ -88,7 +88,7 @@ ht-degree: 0%
 
 若要存取「預覽沙箱」：
 
-1. 按一下[!DNL Adobe Workfront]右上角的&#x200B;**[!UICONTROL 主要功能表]**&#x200B;圖示![](assets/main-menu-icon.png)，然後按一下&#x200B;**[!UICONTROL 設定]** ![](assets/gear-icon-settings.png)。
+{{step-1-to-setup}}
 
 1. 按一下&#x200B;**[!UICONTROL 系統]** > **[!UICONTROL 偏好設定]**。
 

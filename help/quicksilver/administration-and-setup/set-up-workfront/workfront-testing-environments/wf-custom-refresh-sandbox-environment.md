@@ -5,13 +5,13 @@ product-area: system-administration
 navigation-topic: workfront-testing-environments
 title: ' [!DNL Adobe Workfront] 自訂重新整理沙箱環境'
 description: 自訂重新整理沙箱是一個環境，您可在其中使用生產環境中的資料進行測試和工作。 此外，也非常適合用於執行培訓及判斷設定功能。
-author: Caroline
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: e18c005b-e6ff-4a1e-a589-63132f3a8ad2
-source-git-commit: 84c5772d130be78d9f9b9aef342c57183d5ec985
+source-git-commit: 439303273239549bb326c171be44eea321f5bb5f
 workflow-type: tm+mt
-source-wordcount: '1623'
+source-wordcount: '1639'
 ht-degree: 0%
 
 ---
@@ -31,12 +31,11 @@ ht-degree: 0%
 >
 >  如需有關預覽沙箱的詳細資訊，請參閱[預覽沙箱環境 [!DNL Adobe Workfront] ](../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md)。
 
-
 ## 存取需求
 
 +++ 展開以檢視本文中功能的存取需求。
 
-您必須具備下列專案才能執行本文所述的步驟：
+您必須具有下列存取權才能執行本文中的步驟：
 
 <table style="table-layout:auto"> 
  <col> 
@@ -56,6 +55,8 @@ ht-degree: 0%
   </tr> 
  </tbody> 
 </table>
+
+如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 

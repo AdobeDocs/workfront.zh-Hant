@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 54fc3f77-57d1-47f1-8e16-73626a6733ec
-source-git-commit: c2c09486756db021b6edaf380c5a54d531ffa723
+source-git-commit: 439303273239549bb326c171be44eea321f5bb5f
 workflow-type: tm+mt
-source-wordcount: '889'
+source-wordcount: '881'
 ht-degree: 7%
 
 ---
@@ -36,6 +36,8 @@ ht-degree: 7%
 
 ## 存取需求
 
++++ 展開以檢視本文中功能的存取需求。
+
 您必須具有下列存取權才能執行本文中的步驟：
 
 <table style="table-layout:auto"> 
@@ -48,14 +50,21 @@ ht-degree: 7%
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 授權</td> 
-   <td>[！UICONTROL計畫]</td> 
-  </tr> 
+   <td><p>新增：[！UICONTROL Standard]</p>
+   或
+   <p>目前： [！UICONTROL計畫]</p>
+   </td> 
+  </tr>  
   <tr> 
    <td role="rowheader">存取層級設定</td> 
-   <td> <p>您必須是[!DNL Workfront]管理員。</p> <p><b>注意</b>：如果您仍然沒有存取權，請詢問您的[!DNL Workfront]管理員是否對您的存取層級設定了其他限制。 如需[!DNL Workfront]管理員如何修改存取層級的詳細資訊，請參閱<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>。</p> </td> 
+   <td>[！UICONTROL系統管理員]</td>
   </tr> 
  </tbody> 
 </table>
+
+如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
++++
 
 ## 決定物件型別要追蹤哪些欄位[!DNL Workfront]
 

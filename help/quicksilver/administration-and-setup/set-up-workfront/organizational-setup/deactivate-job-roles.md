@@ -4,14 +4,14 @@ product-area: system-administration;user-management
 navigation-topic: organization-setup
 title: 停用職位角色
 description: 作為 [!DNL Adobe Workfront] 管理員或具有工作角色管理存取許可權的使用者，您可以停用系統中已作廢的工作角色。 當您停用而非刪除工作角色時，您可以保留與其相關聯的任何歷史資訊。
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 934cef1a-8157-45db-b000-24a08a94dd18
-source-git-commit: 9c0160dc5e43f36b65d9f2d4a3498a9c5f39f6f1
+source-git-commit: 439303273239549bb326c171be44eea321f5bb5f
 workflow-type: tm+mt
-source-wordcount: '692'
-ht-degree: 0%
+source-wordcount: '661'
+ht-degree: 1%
 
 ---
 
@@ -23,28 +23,35 @@ ht-degree: 0%
 
 ## 存取需求
 
-您必須具備下列條件：
++++ 展開以檢視本文中功能的存取需求。
+
+您必須具有下列存取權才能執行本文中的步驟：
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[！UICONTROL Adobe Workfront]計畫*</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] 計劃</td> 
    <td> <p>任何 </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL Adobe Workfront]授權*</td> 
-   <td>[！UICONTROL計畫]</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] 授權</td> 
+   <td>
+   <p>新增：[！UICONTROL Standard]</p>
+   <p>或</p>
+   <p>目前： [！UICONTROL計畫]</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">存取層級設定*</td> 
-   <td> <p>職位角色的管理存取權</p> <p><b>注意</b>：如果您仍然沒有存取權，請詢問您的[!DNL Workfront]管理員是否對您的存取層級設定了其他限制。 如需[!DNL Workfront]管理員如何修改存取層級的詳細資訊，請參閱<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>。</p> </td> 
+   <td role="rowheader">存取層級設定</td> 
+   <td>工作角色的管理存取權</td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;若要瞭解您擁有的計畫、授權型別或存取權，請連絡您的[!DNL Workfront]管理員。
+如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
++++
 
 ## 停用工作角色的影響
 
@@ -95,12 +102,12 @@ ht-degree: 0%
 
   如需有關建立核准程式與路由規則的資訊，請參閱下列文章：
 
-   * [建立工作專案的核准流程](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md)
+   * [為工作項目建立核准流程](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md)
    * [建立路由規則](../../../manage-work/requests/create-and-manage-request-queues/create-routing-rules.md)
 
 ## 停用工作角色
 
-1. 按一下[!DNL Adobe Workfront]右上角的&#x200B;**[!UICONTROL 主要功能表]**&#x200B;圖示![](assets/main-menu-icon.png)，然後按一下&#x200B;**[!UICONTROL 設定]** ![](assets/gear-icon-settings.png)。
+{{step-1-to-setup}}
 
 1. 在左側面板中，按一下&#x200B;**[!UICONTROL 工作角色].**
 1. （選擇性）在&#x200B;**[!UICONTROL 篩選器]**&#x200B;下拉式功能表中，選取&#x200B;**[!UICONTROL 作用中]**&#x200B;以僅顯示作用中的工作角色。

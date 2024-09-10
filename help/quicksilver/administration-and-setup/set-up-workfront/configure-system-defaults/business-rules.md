@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 780c996c-5cf1-42fe-898d-2cc208bbae7b
-source-git-commit: 0a50e3aef47720d78e798f6111ee503389dde984
+source-git-commit: caaba90f4cdd835e1a1fddf16bcefa30995cca0d
 workflow-type: tm+mt
 source-wordcount: '1152'
 ht-degree: 0%
@@ -80,7 +80,6 @@ ht-degree: 0%
 * 物件建立觸發程式只允許`$$AFTER_STATE`，因為之前狀態不存在。
 * 物件刪除觸發程式只允許`$$BEFORE_STATE`，因為after狀態不存在。
 
-
 一些簡單的商業規則案例包括：
 
 * 使用者無法在2月的最後一週新增費用。 此公式可以表示為： `IF(MONTH($$TODAY) = 2 && DAYOFMONTH($$TODAY) >= 22, "You cannot add new expenses during the last week of February.")`
@@ -92,7 +91,7 @@ ht-degree: 0%
 
 ```
 IF(
-    {status}="CPL",
+    $$AFTER_STATE.{status}="CPL",
     "You cannot edit a completed project",
     IF(
         MONTH({plannedCompletionDate})=3,

@@ -4,11 +4,11 @@ product-area: system-administration;user-management
 navigation-topic: organization-setup
 title: 工作角色總覽
 description: 職務角色代表使用者可能填入的功能容量或技能集。 本文說明Adobe Workfront中工作角色的各種用法。
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: dead6081-dfd2-4b1a-8be2-32a0ba813bc3
-source-git-commit: b6f6964bb80f172849434c669df2b0ecd735a590
+source-git-commit: 439303273239549bb326c171be44eea321f5bb5f
 workflow-type: tm+mt
 source-wordcount: '479'
 ht-degree: 3%

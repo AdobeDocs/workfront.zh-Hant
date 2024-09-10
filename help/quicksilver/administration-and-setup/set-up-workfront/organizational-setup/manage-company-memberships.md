@@ -8,9 +8,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: f0efd985-76e3-435e-bf19-87008f6a5e9d
-source-git-commit: b6f6964bb80f172849434c669df2b0ecd735a590
+source-git-commit: 439303273239549bb326c171be44eea321f5bb5f
 workflow-type: tm+mt
-source-wordcount: '910'
+source-wordcount: '872'
 ht-degree: 1%
 
 ---
@@ -23,44 +23,53 @@ ht-degree: 1%
 
 ## 存取需求
 
-若要管理[!DNL Workfront]中的公司，您必須具備下列條件：
++++ 展開以檢視本文中功能的存取需求。
 
-<table style="table-layout:auto"> 
- <col data-mc-conditions=""> 
- <col data-mc-conditions=""> 
+您必須具有下列存取權才能執行本文中的步驟：
+
+<table style="table-layout:auto">
  <tbody> 
   <tr> 
-   <td role="rowheader"> <p>[!DNL Workfront] 計畫*</p> </td> 
-   <td>[！UICONTROL Team]或更高版本</td> 
+   <td role="rowheader"> <p>[!DNL Workfront] 計劃</p> </td> 
+   <td><p>目前： [！UICONTROL Team]或更高版本</p>
+   <p>或</p>
+   <p>新增：任何</p>
+   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[!DNL Adobe Workfront] 授權*</p> </td> 
-   <td>[！UICONTROL計畫]</td> 
-  </tr> 
+   <td role="rowheader"> <p>[!DNL Adobe Workfront] 授權</p> </td> 
+   <td><p>目前： [！UICONTROL計畫]</p>
+   <p>或</p>
+   <p>新增：[！UICONTROL Standard]</p>
+   </td> 
+  </tr>
   <tr data-mc-conditions=""> 
-   <td role="rowheader"><strong>存取層級設定*</strong> </td> 
+   <td role="rowheader"><strong>存取層級設定</strong> </td> 
    <td> <p>下列其中一項：</p> 
     <ul> 
-     <li> <p>[！UICONTROL系統管理員]存取層級，可讓您編輯系統中的任何公司。 如需詳細資訊，請參閱<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">授予使用者完整管理存取權</a>。 </p> </li> 
-     <li> <p>管理公司的管理存取權，可讓您編輯系統中的任何公司。 如需詳細資訊，請參閱<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">授予使用者對特定區域的管理存取權</a>。</p> </li> 
+     <li> <p>[！UICONTROL系統管理員]存取層級，可讓您編輯系統中的任何公司。</p> </li> 
+     <li> <p>管理公司的管理存取權，可讓您編輯系統中的任何公司。</p> </li> 
     </ul> <p><b>附註</b>：  
      <ul> 
       <li> <p>您也可以管理與您被指派為群組管理員的任何群組相關聯的公司。</p> </li> 
       <li> <p>若要在[!DNL Workfront]系統中新增和移除使用者，您必須具備下列其中一項：</p> 
        <ul> 
-        <li> <p>[！UICONTROL系統管理員]存取層級。 如需詳細資訊，請參閱<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">授予使用者完整管理存取權</a>。 </p> </li> 
+        <li> <p>[！UICONTROL系統管理員]存取層級。</p> </li> 
         <li> <p>在您的存取層級中，必須為[！UICONTROL使用者]設定選取[！UICONTROL編輯] 。 此外，針對[！UICONTROL使用者]設定，在[！UICONTROL微調您的設定] <img src="assets/gear-icon-in-access-levels.png">下，必須啟用[！UICONTROL建立]選項以及兩個[！UICONTROL使用者管理]選項中的至少一個。 </p> <p> <img src="assets/access-req-users.png"> </p> <p>如果您使用[！UICONTROL使用者管理員（群組使用者）]選項，您必須是使用者所屬群組的群組管理員。</p> </li> 
-       </ul> <p>如需存取層級中[使用者]設定的相關資訊，請參閱<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">授予使用者存取權</a>。</p> </li> 
+       </ul>
+       </li> 
      </ul> </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;若要瞭解您擁有的計畫、授權型別或存取層級設定，請連絡您的[!DNL Workfront]管理員。
+如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
++++
 
 ## 管理公司成員資格
 
-1. 按一下[!DNL Adobe Workfront]右上角的&#x200B;**[!UICONTROL 主要功能表]**&#x200B;圖示![](assets/main-menu-icon.png)，然後按一下&#x200B;**[!UICONTROL 設定]** ![](assets/gear-icon-settings.png)。
+{{step-1-to-setup}}
 
 1. 按一下&#x200B;**[!UICONTROL 公司]**。
 1. 按一下公司名稱。

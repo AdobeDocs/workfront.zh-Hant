@@ -4,13 +4,13 @@ product-area: system-administration;setup
 navigation-topic: system-tracked-update-feeds
 title: 設定使用者更新的偏好設定
 description: 當使用者在物件的[!UICONTROL 更新]區域新增註解時，您可以設定存取特定功能的偏好設定。
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: d6d18423-d13c-42e8-b8ee-43e6842b6481
-source-git-commit: fd876089c964d57224452023b4656cd6df40b5a3
+source-git-commit: 439303273239549bb326c171be44eea321f5bb5f
 workflow-type: tm+mt
-source-wordcount: '289'
+source-wordcount: '283'
 ht-degree: 1%
 
 ---
@@ -20,6 +20,8 @@ ht-degree: 1%
 當使用者在物件的[!UICONTROL 更新]區域新增註解時，您可以設定讓使用者存取特定功能的偏好設定。
 
 ## 存取需求
+
++++ 展開以檢視本文中功能的存取需求。
 
 您必須具有下列存取權才能執行本文中的步驟：
 
@@ -33,14 +35,21 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 授權</td> 
-   <td>[！UICONTROL計畫]</td> 
-  </tr> 
+   <td><p>新增：[！UICONTROL Standard]</p>
+   或
+   <p>目前： [！UICONTROL計畫]</p>
+   </td> 
+  </tr>  
   <tr> 
    <td role="rowheader">存取層級設定</td> 
-   <td> <p>若要在系統層級執行這些步驟，您需要[！UICONTROL系統管理員]存取層級。</p><p>若要為群組執行這些動作，您必須是該群組的管理員。</p> <p><b>注意</b>：如果您仍然沒有存取權，請詢問您的[!DNL Workfront]管理員是否對您的存取層級設定了其他限制。 如需[!DNL Workfront]管理員如何修改存取層級的詳細資訊，請參閱<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>。</p> </td> 
+   <td><p>若要在系統層級執行這些步驟，您需要[！UICONTROL系統管理員]存取層級。</p><p>若要為群組執行這些動作，您必須是該群組的管理員。</p></td>
   </tr> 
  </tbody> 
 </table>
+
+如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
++++
 
 ## 允許使用者在更新中新增影像
 

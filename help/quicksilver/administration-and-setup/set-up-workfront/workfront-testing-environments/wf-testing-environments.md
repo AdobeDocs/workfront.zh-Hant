@@ -5,12 +5,12 @@ product-area: system-administration
 navigation-topic: set-up-workfront
 title: Adobe Workfront測試環境
 description: 您可以使用兩個 [!DNL Workfront] 測試環境來復寫 [!DNL Workfront] 生產環境。 Workfront會在每個週末重新整理預覽沙箱。 星期五新增到您即時環境的資料會在下星期一之前顯示在您的預覽沙箱中。 自訂重新整理沙箱是獨立的測試環境，由您手動重新整理。 取得自訂重新整理沙箱需要額外付費。
-author: Caroline
+author: Becky
 feature: System Setup and Administration
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 3d362be8-89c2-4699-a984-59c9234b4a0c
-source-git-commit: 84573688765f7e4d88c941ac8a4d95386bf202de
+source-git-commit: 439303273239549bb326c171be44eea321f5bb5f
 workflow-type: tm+mt
 source-wordcount: '128'
 ht-degree: 0%

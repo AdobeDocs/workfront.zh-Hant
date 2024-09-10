@@ -5,15 +5,15 @@ product-area: system-administration;setup
 navigation-topic: set-up-workfront
 title: 組織設定
 description: 在 [!DNL Adobe Workfront]中組織使用者時，您可以將使用者與工作角色或公司建立關聯。
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 82204f86-be52-49df-b070-66003c528dd4
-source-git-commit: 86a0a9ddf5be1515ed8f5c2a537b0e2ccd5a1b63
+source-git-commit: 439303273239549bb326c171be44eea321f5bb5f
 workflow-type: tm+mt
 source-wordcount: '79'
-ht-degree: 6%
+ht-degree: 13%
 
 ---
 
