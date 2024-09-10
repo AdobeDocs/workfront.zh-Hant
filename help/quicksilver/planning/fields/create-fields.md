@@ -6,7 +6,7 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: bd202821687453288c96147933331c8a7a6b3acb
+source-git-commit: 3097aca9b8fd856bbf3f91a354b5083fa7b23830
 workflow-type: tm+mt
 source-wordcount: '3620'
 ht-degree: 2%
@@ -247,7 +247,7 @@ OLD:
 >
 >* 一個記錄型別最多可以有20個段落欄位。
 >
->* 段落欄位的內容最多可包含100,000個字元。
+>* 段落欄位的內容最多可包含10,000個字元。
 >* 當段落欄位顯示在表格檢視或記錄的詳細資訊頁面時，您可以使用RTF格式來增強段落欄位的內容。 如需詳細資訊，請參閱[編輯記錄](/help/quicksilver/planning/records/edit-records.md)。
 >
 

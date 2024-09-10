@@ -6,20 +6,24 @@ description: Portfolio或專案Portfolio管理(PPM)是排定專案清單優先�
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 26fb28ce-0957-4db6-a275-174b1d149180
-source-git-commit: cf044c8cff6b1172ec460ae232cd07c9b7c808b7
+source-git-commit: 3097aca9b8fd856bbf3f91a354b5083fa7b23830
 workflow-type: tm+mt
-source-wordcount: '621'
+source-wordcount: '646'
 ht-degree: 1%
 
 ---
 
 # Portfolio管理概觀
 
-<!--Audited: 12/2023-->
+<!--Audited: 09/2024-->
 
 ## 專案Portfolio管理(PPM)概要
 
-Portfolio或專案Portfolio管理(PPM)是排定專案清單優先順序並加以管理的程式，以便達成特定的業務目標。 因此，投資組合就是具有共同業務目標的專案集合。 有效PPM方法的結果可讓高階主管：
+Portfolio或專案Portfolio管理(PPM)是排定專案清單優先順序並加以管理的程式，以便達成特定的業務目標。
+
+本文說明投資組合管理的一般概念。 如需Adobe Workfront投資組合管理的一般資訊，請參閱[Adobe WorkfrontPortfolio概觀](/help/quicksilver/manage-work/portfolios/portfolios-overview/portfolio-overview.md)。
+
+投資組合是具有共同業務目標的專案集合。 有效PPM方法的結果可讓高階主管：
 
 * 識別投資組合中的所有專案。
 * 瞭解每個專案對資源、成本和收入的影響。
@@ -40,12 +44,12 @@ Portfolio或專案Portfolio管理(PPM)是排定專案清單優先順序並加以
 
 下圖說明[!DNL Workfront]中PPM程式的高階概觀：
 
-![](assets/pm1-350x88.png)
+![](assets/project-portfolio-management-process-diagram.png)
 
 * [專案請求](#project-request)
 * [專案評論](#project-review)
 * [投資組合最佳化](#portfolio-optimization)
-* [資源規劃](#resource-planning)
+* [資源管理](#resource-management)
 * [專案執行](#project-execution)
 * [專案事後分析](#project-postmortem)
 
@@ -59,7 +63,7 @@ Portfolio或專案Portfolio管理(PPM)是排定專案清單優先順序並加以
 
 提交專案請求後，Portfolio經理或執行團隊會進行稽核，並決定是否核准專案。 如果他們核准了專案，則會為公司專案Portfolio選擇專案。
 
-如需投資組合的詳細資訊，請參閱 [!DNL Adobe Workfront]](../../../manage-work/portfolios/portfolios-overview/portfolio-overview.md)中的[Portfolio概觀。如需核准業務案例的詳細資訊，請參閱[核准業務案例](../../../manage-work/projects/define-a-business-case/approve-business-case.md)。
+如需投資組合的詳細資訊，請參閱 [!DNL Adobe Workfront]](../../../manage-work/portfolios/portfolios-overview/portfolio-overview.md)中的[Portfolio概觀。 如需核准業務案例的詳細資訊，請參閱[核准業務案例](../../../manage-work/projects/define-a-business-case/approve-business-case.md)。
 
 ### 投資組合最佳化 {#portfolio-optimization}
 
@@ -67,7 +71,7 @@ Portfolio或專案Portfolio管理(PPM)是排定專案清單優先順序並加以
 
 如需有關專案組合最佳化的詳細資訊，請參閱[在Portfolio最佳化工具中最佳化專案](../../../manage-work/portfolios/portfolio-optimizer/optimize-projects-in-portfolio-optimizer.md)。
 
-### 資源規劃 {#resource-planning}
+### 資源管理 {#resource-management}
 
 除了最佳化投資組合的效能並排定專案的優先順序之外，資源管理員還可以確保將適當的資源配置給專案。 他們使用[!DNL Workfront]中可用的資源管理工具來評估資源的使用狀態和配置。
 
@@ -79,7 +83,8 @@ Portfolio或專案Portfolio管理(PPM)是排定專案清單優先順序並加以
 
 在收到Portfolio管理員的專案核准以及資源管理員的資源驗證後，您就可以將專案置於[!UICONTROL 目前]狀態，並且您的使用者可以開始工作以完成專案。 我們建議您在此階段中擷取專案的基準線，讓專案在原始狀態下有一個參考點。
 
-如需有關在[!DNL Workfront]中管理專案的詳細資訊，請參閱[管理專案：文章索引](../../../manage-work/projects/manage-projects/manage-projects-overview.md)。\
+如需有關在[!DNL Workfront]中管理專案的詳細資訊，請參閱[管理專案：文章索引](../../../manage-work/projects/manage-projects/manage-projects-overview.md)。
+
 如需有關在專案上建立基準的詳細資訊，請參閱[建立專案基準線](../../../manage-work/projects/create-projects/create-baselines.md)。
 
 ### 專案事後分析 {#project-postmortem}

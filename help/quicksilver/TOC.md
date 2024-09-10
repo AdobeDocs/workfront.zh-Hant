@@ -3,9 +3,9 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文件、教學課程和其他資源，了解如何在您的組織中實施並有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: a5317e3126939d4c648977635af2dbc6add02780
+source-git-commit: d43bc45ca400846307958fc15e04e16ef37eff11
 workflow-type: tm+mt
-source-wordcount: '14362'
+source-wordcount: '14372'
 ht-degree: 2%
 
 ---
@@ -172,6 +172,7 @@ ht-degree: 2%
          * [21.1其他增強功能](product-announcements/product-releases/21.1-release-activity/21-1-other-enhancements.md)
       * Adobe Workfront Fusion發行活動{#fusion-release}
          * [Adobe Workfront Fusion發行活動](product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md)
+         * [Workfront Fusion發行活動： 2024年8月19日起一週](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-8-19.md)
          * [Workfront Fusion發行活動： 2024年8月5日當週](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-8-5.md)
          * [Workfront Fusion發行活動： 2024年7月29日當週](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-7-29.md)
          * [Workfront Fusion發行活動： 2024年7月22日當週](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-7-22.md)
@@ -645,7 +646,7 @@ ht-degree: 2%
          * [使自訂狀態成為預設狀態](administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/use-custom-statuses-as-default-statuses.md)
          * [刪除自訂狀態](administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/delete-a-custom-status.md)
          * [使用特定狀態列出擱置物件](administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/list-objects-pending-approval-certain-status.md)
-         * [建立和自訂優先等級](administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-priorities.md)
+         * [建立和自訂優先順序](administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-priorities.md)
          * [建立及自訂問題嚴重程度](administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-issue-severities.md)
       * 核准程式和里程碑頁面{#approvals-milestones}
          * [核准程式和里程碑路徑](administration-and-setup/customize-workfront/configure-approval-milestone-processes/config-approval-milestone-paths.md)
@@ -711,7 +712,7 @@ ht-degree: 2%
       * 管理已刪除的項目 {#manage-deleted-items}
          * [管理已刪除的專案](administration-and-setup/manage-workfront/manage-deleted-items/manage-deleted-items.md)
          * [復原已刪除的項目](administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md)
-         * [檢視已復原的項目](administration-and-setup/manage-workfront/manage-deleted-items/view-restored-items.md)
+         * [檢視已還原的項目](administration-and-setup/manage-workfront/manage-deleted-items/view-restored-items.md)
          * [刪除的物件如何影響小時](administration-and-setup/manage-workfront/manage-deleted-items/configure-how-hours-affected-when-obj-deleted-restored.md)
          * [還原個別子物件](administration-and-setup/manage-workfront/manage-deleted-items/restoring-individual-child-objects.md)
       * 診斷{#diagnostics}
@@ -1450,6 +1451,7 @@ ht-degree: 2%
          * [從投資組合中移除專案](manage-work/portfolios/create-and-manage-portfolios/remove-project-from-portfolio.md)
          * [檢閱請求的專案](manage-work/portfolios/create-and-manage-portfolios/review-requested-projects.md)
       * 建立和管理程式{#create-and-manage-programs}
+         * [在 [!DNL Adobe Workfront]中的程式總覽](manage-work/portfolios/create-and-manage-programs/programs-overview.md)
          * [建立和管理計畫](manage-work/portfolios/create-and-manage-programs/create-and-manage-programs.md)
          * [建立方案](manage-work/portfolios/create-and-manage-programs/create-program.md)
          * [編輯計畫](manage-work/portfolios/create-and-manage-programs/edit-programs.md)

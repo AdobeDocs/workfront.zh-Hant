@@ -7,16 +7,18 @@ description: 建立範本後，您可以編輯有關範本任務的資訊。 使
 author: Alina
 feature: Work Management
 exl-id: 2df8522e-7eee-4440-be0f-f7483c5acdb0
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: 3097aca9b8fd856bbf3f91a354b5083fa7b23830
 workflow-type: tm+mt
-source-wordcount: '2385'
+source-wordcount: '2409'
 ht-degree: 4%
 
 ---
 
 # 編輯範本任務
 
-建立範本後，您可以編輯有關範本任務的資訊。 使用範本建立專案或將範本附加到專案後，您在範本任務上更新的資訊會與專案任務相關聯。
+<!--Audited: 09/2024-->
+
+建立範本後，您可以編輯範本任務的資訊。 使用範本建立專案或將範本附加到專案後，您在範本任務上更新的資訊會與專案任務相關聯。
 
 如需建立範本的相關資訊，請參閱[建立專案範本](../../../manage-work/projects/create-and-manage-templates/create-template.md)。
 
@@ -28,6 +30,8 @@ ht-degree: 4%
 
 
 ## 存取需求
+
++++ 展開以檢視本文中功能的存取需求。
 
 您必須具有下列存取權才能執行本文中的步驟：
 
@@ -55,7 +59,9 @@ ht-degree: 4%
  </tbody> 
 </table>
 
-*若要瞭解您擁有的計畫、授權型別或存取層級，請聯絡您的Workfront管理員。 如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+*如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
++++
 
 ## 先決條件
 
@@ -88,7 +94,7 @@ ht-degree: 4%
 
    >[!TIP]
    >
-   >如需詳細資訊區域中顯示的所有欄位相關資訊，請使用下方的「編輯範本任務」方塊繼續編輯所有欄位。
+   >如需詳細資訊區域中顯示的所有欄位相關資訊，請使用「編輯範本任務」方塊繼續編輯所有欄位，如下所述。
 
 1. （視條件而定）若要編輯範本任務的所有相關資訊，請按一下範本任務名稱旁的&#x200B;**更多**&#x200B;功能表![](assets/qs-more-icon-on-an-object.png)，然後按一下&#x200B;**編輯**。
 
@@ -212,7 +218,7 @@ ht-degree: 4%
 
 ### 財務 {#finance}
 
-1. 如上所述開始編輯任務。
+1. 如上所述，開始編輯範本任務。
 1. 按一下&#x200B;**財務**。
 
    ![edit_task_finance.png](assets/edit-task-finance-350x216.png)
@@ -259,7 +265,7 @@ ht-degree: 4%
 
 ### 設定 {#settings}
 
-1. 如上所述開始編輯任務。
+1. 如上所述，開始編輯範本任務。
 1. 按一下&#x200B;**設定**。
 
    ![](assets/edit-template-tasks-settings-classic-350x231.png)
@@ -319,7 +325,7 @@ ht-degree: 4%
 
 ### 指派 {#assignments}
 
-1. 如上所述開始編輯任務。
+1. 如上所述，開始編輯範本任務。
 1. 按一下&#x200B;**指派**。
 
    ![assignments_edit_tasks.png](assets/assignments-edit-tasks-350x87.png)
@@ -343,14 +349,22 @@ ht-degree: 4%
 
 ### 自訂表單 {#custom-forms}
 
-您可以定義預設自訂表單，以在任務新增至專案時自動附加至任務。 如需有關設定專案以包含預設任務自訂表單的資訊，請參閱文章[編輯專案](../../../manage-work/projects/manage-projects/edit-projects.md)中的「任務」一節。
+您可以定義自訂表單，當任務新增至專案時，預設會自動附加至任務。 如需關於設定專案以包含預設任務自訂表單的資訊，請參閱文章[編輯專案](../../../manage-work/projects/manage-projects/edit-projects.md)中的[任務]區段。
 
-1. 如上所述開始編輯任務。 測試
+您也可以新增自訂表單至範本任務，以在從範本建立專案時新增自訂表單至專案的未來任務。
+
+1. 如上所述，開始編輯範本任務。
 1. 按一下&#x200B;**自訂Forms**。
 
    ![custom_forms_edit_task.png](assets/custom-forms-edit-task-350x136.png)
 
-1. 選取您想要與範本任務建立關聯的一或多個自訂表單。 您必須先建置自訂表單，才能在此欄位中選取它們。 清單中只會顯示作用中的自訂表單。 如需建立自訂表單的詳細資訊，請參閱[使用表單設計工具設計表單](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。 您最多可以將十個自訂表單新增到範本任務中。 表單會自動新增至從範本建立的任務。
+1. 選取您想要與範本任務建立關聯的一或多個自訂表單。
+
+   您必須先建置自訂表單，才能在此欄位中選取它們。
+清單中只會顯示作用中的自訂表單。
+如需建立自訂表單的詳細資訊，請參閱[使用表單設計工具設計表單](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。
+您最多可以將十個自訂表單新增到範本任務中。
+表單會自動新增至從範本建立的任務。
 1. （條件式與選擇性）如果您將自訂表單附加到範本任務，請編輯表單上的任何欄位。 您必須指定所有必填欄位，然後才能儲存範本任務。
 
    >[!NOTE]
@@ -368,14 +382,12 @@ ht-degree: 4%
 
 ### 評論 {#comment}
 
-1. 如上所述開始編輯任務。
+1. 如上所述，開始編輯範本任務。
 1. 按一下&#x200B;**註解**。
 
    ![comment_edit_task.png](assets/comment-edit-task-350x138.png)
 
 1. 指定要在可用欄位中範本任務的更新資料流中顯示的註解。 每個人都可以看見此註解，只要他們擁有範本和範本任務的檢視存取權，以及檢視註解的存取權。
 1. 按一下「**儲存變更**」。
-
-   您的變更將會針對此範本任務提交。
 
    當您或其他使用者從此範本建立專案時，您套用至範本任務的所有設定都會成為專案任務的設定。
