@@ -6,9 +6,9 @@ description: ' [!DNL Workfront] 和Adobe Experience Cloud的一些功能不同�
 author: Nolan
 feature: Get Started with Workfront
 exl-id: b9076fe0-26d7-4f33-80a4-564875ea13ba
-source-git-commit: 0cdd29a0fd58427197f1b9a4b4907089d3d86115
+source-git-commit: b3837dc83c56cb3d7796b8bee39e8bab78e35415
 workflow-type: tm+mt
-source-wordcount: '1302'
+source-wordcount: '1314'
 ht-degree: 0%
 
 ---
@@ -33,6 +33,7 @@ ht-degree: 0%
 | 導覽除了包含[!DNL Workfront]導覽列之外，還包含[!DNL Adobe]產品、[!DNL Adobe]通知、說明和您的使用者設定檔的頂層導覽區域 | 導覽僅包含[!DNL Workfront]導覽列 |
 | 可透過[!UICONTROL 主功能表]和頂端導覽區域存取說明 | 可透過[!UICONTROL 主功能表]與[!DNL Workfront]導覽列存取說明 |
 | 校訂檢視器會在新標籤中開啟 | 校訂檢視器會在Workfront中開啟 |
+| 用來存取Workfront的URL為`experience.adobe.com` | 用來存取Workfront的URL為`(CompanyName).my.workfront.com` |
 
 {style="table-layout:auto"}
 

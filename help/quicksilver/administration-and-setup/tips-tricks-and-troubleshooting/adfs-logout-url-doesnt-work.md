@@ -9,9 +9,9 @@ author: Becky, Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 4d868625-e976-47b4-9e80-f1eca84a2768
-source-git-commit: c389b4829f16bf82a5851a597f5dd358d9c96999
+source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
 workflow-type: tm+mt
-source-wordcount: '252'
+source-wordcount: '241'
 ht-degree: 0%
 
 ---
@@ -50,11 +50,12 @@ ht-degree: 0%
    <td role="rowheader">Adobe[!DNL Workfront]授權</td> 
    <td> 
    <p>新增：標準</p>
+   或
    <p>目前：計畫</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定</td> 
-   <td> <p>您必須是[!DNL Workfront]管理員。 如需詳細資訊，請參閱<a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">授予使用者完整管理存取權</a>。</p>  </td> 
+   <td>[！UICONTROL系統管理員]</td>  
   </tr> 
  </tbody> 
 </table>

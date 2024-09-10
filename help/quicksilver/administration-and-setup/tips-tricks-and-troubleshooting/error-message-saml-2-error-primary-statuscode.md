@@ -9,9 +9,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 1ec18638-97b8-4307-9cea-05b28395eaee
-source-git-commit: c389b4829f16bf82a5851a597f5dd358d9c96999
+source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
 workflow-type: tm+mt
-source-wordcount: '374'
+source-wordcount: '359'
 ht-degree: 1%
 
 ---
@@ -29,8 +29,6 @@ ht-degree: 1%
 >如果您建立了成功的測試連線，但仍遇到問題，則屬性對應可能不正確，或是同盟ID有問題。 如有疑問，請聯絡客戶支援。
 
 ## 存取需求
-
-您必須具有下列存取權才能執行本文中的步驟：
 
 +++ 展開以檢視本文中功能的存取需求。
 
@@ -53,7 +51,7 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定</td> 
-   <td>您必須是[!DNL Workfront]管理員。 </td> 
+   <td>[！UICONTROL系統管理員]</td> 
   </tr> 
  </tbody> 
 </table>

@@ -9,10 +9,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: c4c70532-de4f-4264-b661-2d30cefd403c
-source-git-commit: c389b4829f16bf82a5851a597f5dd358d9c96999
+source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
 workflow-type: tm+mt
-source-wordcount: '215'
-ht-degree: 0%
+source-wordcount: '200'
+ht-degree: 1%
 
 ---
 
@@ -33,8 +33,6 @@ ht-degree: 0%
 ADFS伺服器上的宣告不正確。
 
 ## 存取需求
-
-您必須具有下列存取權才能執行本文中的步驟：
 
 +++ 展開以檢視本文中功能的存取需求。
 
@@ -57,7 +55,7 @@ ADFS伺服器上的宣告不正確。
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定</td> 
-   <td>您必須是[!DNL Workfront]管理員。 </td> 
+   <td>[！UICONTROL系統管理員]</td>
   </tr> 
  </tbody> 
 </table>

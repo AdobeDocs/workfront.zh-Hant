@@ -6,9 +6,9 @@ description: 透過Adobe Experience Cloud存取 [!DNL Workfront] 可讓您以順
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 458631a2-d77d-46d6-8d6b-7008237e5154
-source-git-commit: ca74ef02b83a76fad92d2bc8b1a9afc3927693ec
+source-git-commit: 84b63191d2f288b2c280a2634d551d89d594a9f6
 workflow-type: tm+mt
-source-wordcount: '539'
+source-wordcount: '538'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 透過[!DNL Adobe Experience Cloud]存取[!DNL Workfront]可讓您以順暢、統一的體驗管理所有[!DNL Adobe]應用程式。 單一身分管理可為您提供一個登入位置，不需要多個URL或登入ID。
 
-若要判斷您的組織是否位在Adobe統一體驗，請檢查您用來存取Workfront的URL。
+如果您的組織在AdobeUnified Experience，您用來存取Workfront的URL會以`experience.adobe.com`開頭。
 
 | URL | Adobe體驗 |
 |------------|------------|
@@ -109,3 +109,4 @@ ht-degree: 0%
 [請參閱這篇文章以變更您的Adobe密碼。](https://helpx.adobe.com/manage-account/using/change-or-reset-password.html){target="_blank"}
 
 如需變更密碼的詳細資訊，請連絡管理員。
+

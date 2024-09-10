@@ -9,9 +9,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 70f3dac7-f449-4dc8-9d7d-a5284b37f9ec
-source-git-commit: 01487bb9cb195d6fa89bbe0fbdb7678254642714
+source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
 workflow-type: tm+mt
-source-wordcount: '2096'
+source-wordcount: '2155'
 ht-degree: 0%
 
 ---
@@ -38,6 +38,37 @@ ht-degree: 0%
 >1. 填入Excel Kick-Start試算表
 >1. 將Excel試算表上傳至Workfront
 
+## 存取需求
+
++++ 展開以檢視本文中功能的存取需求。
+
+您必須具有下列存取權才能執行本文中的步驟：
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront計畫</td> 
+   <td>任何</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront授權</td> 
+   <td>
+   <p> 新增：標準</p>
+   或
+   <p>目前：計畫</p></td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">存取層級設定</td> 
+   <td>[！UICONTROL系統管理員]</td> 
+  </tr> 
+ </tbody> 
+</table>
+
+如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
++++
 
 ## 從Workfront匯出現有的自訂資料（選擇性步驟）
 

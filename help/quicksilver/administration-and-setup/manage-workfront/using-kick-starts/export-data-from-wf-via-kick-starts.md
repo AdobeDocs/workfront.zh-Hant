@@ -9,9 +9,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 7f56b63e-a674-43e4-bef6-d276898e2074
-source-git-commit: 01487bb9cb195d6fa89bbe0fbdb7678254642714
+source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
 workflow-type: tm+mt
-source-wordcount: '1011'
+source-wordcount: '1008'
 ht-degree: 8%
 
 ---
@@ -52,7 +52,7 @@ ht-degree: 8%
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定</td> 
-   <td> <p>您必須是Workfront管理員。</p></td> 
+   <td>[！UICONTROL系統管理員]</td>
   </tr> 
  </tbody> 
 </table>

@@ -3,21 +3,21 @@ user-type: administrator
 product-area: system-administration
 navigation-topic: manage-deleted-items
 title: 還原個別子物件
-description: 本檔案說明如何取得協助，以復原在少於30天前從Adobe Workfront生產或預覽環境中刪除的個別子物件。
+description: 本文說明如何取得協助，以復原在少於30天前從Adobe Workfront生產或預覽環境刪除的個別子物件。
 feature: System Setup and Administration
 role: Admin
 author: Lisa
 exl-id: e2e4fbb7-5433-4d88-8e36-d82f4cc8a194
-source-git-commit: 01487bb9cb195d6fa89bbe0fbdb7678254642714
+source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
 workflow-type: tm+mt
-source-wordcount: '582'
+source-wordcount: '641'
 ht-degree: 0%
 
 ---
 
 # 還原個別子物件
 
-本檔案說明如何取得協助，以復原在少於30天前從Adobe Workfront生產或預覽環境中刪除的個別子物件。
+本文說明如何取得協助，以復原在少於30天前從Adobe Workfront生產或預覽環境刪除的個別子物件。
 
 Workfront管理員可以還原每個Workfront執行個體中的專案、工作、問題和檔案，如[還原已刪除的專案](../../../administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md)中所述。 但只有Workfront資料庫團隊可以恢復物件，例如任務、問題、檔案、自訂表單、時數和附註，而不受其父物件的影響。
 
@@ -42,6 +42,39 @@ Workfront管理員可以還原每個Workfront執行個體中的專案、工作�
 >[!IMPORTANT]
 >
 >檔案是這些還原方法的例外情況。 您可以從預覽環境中手動下載，然後重新上傳至生產環境。 如果您想要大量下載和上傳檔案，必須向Workfront請求資料還原。
+
+## 存取需求
+
++++ 展開以檢視本文中功能的存取需求。
+
+您必須具有下列存取權才能執行本文中的步驟：
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront計畫</td> 
+   <td>任何</td> 
+  </tr> 
+  <tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront授權</td> 
+   <td><p>新增：標準</p>
+       <p>或</p>
+       <p>目前：計畫</p></td>
+  </tr> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">存取層級設定</td> 
+   <td>[！UICONTROL系統管理員]</td>
+  </tr> 
+ </tbody> 
+</table>
+
+如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
++++
 
 ## 資料還原所需的資訊
 

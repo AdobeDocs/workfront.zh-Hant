@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 2f8dd132-1086-4980-9b56-993a68231e96
-source-git-commit: 0bc2817255b8879de377c3916bb36be760f28f4c
+source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
 workflow-type: tm+mt
 source-wordcount: '738'
 ht-degree: 0%
@@ -69,7 +69,7 @@ Some users, such as executives, need to be able to control which administrators 
   <tr> 
    <td role="rowheader">存取層級設定</td> 
    <td> <p>使用「系統管理員」存取層級，您可以以任何身分登入。</p> <p>如果存取層級中的<b>使用者</b>設定設定為<b>編輯</b>存取，且在<b>微調您的設定</b> <img src="assets/gear-icon-in-access-levels.png">中啟用<b>建立</b>以及兩個<b>使用者管理員</b>選項中的至少一個，則使用標準或規劃師存取層級，您可以以授權層級較低的使用者身分登入。 </p> 
-   <p><b>注意</b>：在這兩個選項中，如果使用者<b>管理員（群組使用者）</b>已啟用，您必須是使用者所屬群組的群組管理員。</p></td> 
+   <p><b>注意</b>：在這兩個選項中，如果已啟用<b>使用者管理員（群組使用者）</b>，您必須是使用者所屬群組的群組管理員。</p></td>
   </tr> 
  </tbody> 
 </table>

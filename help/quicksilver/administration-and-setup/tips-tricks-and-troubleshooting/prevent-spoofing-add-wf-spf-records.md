@@ -9,9 +9,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: e93e3334-d72a-4f7b-9379-358f498c873b
-source-git-commit: c389b4829f16bf82a5851a597f5dd358d9c96999
+source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
 workflow-type: tm+mt
-source-wordcount: '293'
+source-wordcount: '278'
 ht-degree: 0%
 
 ---
@@ -23,8 +23,6 @@ ht-degree: 0%
 如果使用者沒有收到[!DNL Adobe Workfront]電子郵件通知，您必須將[!DNL Workfront]個SPF記錄新增至防火牆。 您必須與IT團隊合作，才能新增SPF記錄。
 
 ## 存取需求
-
-您必須具有下列存取權才能執行本文中的步驟：
 
 +++ 展開以檢視本文中功能的存取需求。
 
@@ -47,7 +45,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定</td> 
-   <td>您必須是[!DNL Workfront]管理員。 </td> 
+   <td>[！UICONTROL系統管理員]</td> 
   </tr> 
  </tbody> 
 </table>

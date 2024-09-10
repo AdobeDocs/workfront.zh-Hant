@@ -7,9 +7,9 @@ description: 您可以將 [!DNL Adobe Workfront] 與協力廠商應用程式整�
 feature: Workfront Integrations and Apps
 author: Becky
 exl-id: ca51cb23-9332-4ce5-aefb-f333455cfc7c
-source-git-commit: 84444753db0e5c496f013e0245988e62fddad585
+source-git-commit: ac349d205d7526b03bebc497883f9ed1682191ad
 workflow-type: tm+mt
-source-wordcount: '476'
+source-wordcount: '550'
 ht-degree: 3%
 
 ---
@@ -45,6 +45,17 @@ Workfront目前提供下列內建整合。
      </ul>
      <li><p>從<a href="https://exchange.adobe.com/apps/browse/cc?page=1&amp;product=All&amp;q=workfront&amp;sort=RELEVANCE" class="MCXref xref">Adobe Exchange</a>下載/安裝。</p></li></ul>
      <p>如需資訊與指示，請參閱<a href="https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-integrations/workfront-for-creative-cloud/install-wf-cc/wf-cc-install-toc.html" class="MCXref xref">安裝[!DNL Creative Cloud]應用程式的[!DNL Adobe Workfront]外掛程式</a>。</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"> <p>Adobe Experience Manager Assets與Assets Essentials </p>  </p> </td> 
+   <td> 
+    <ul> 
+     <li>自動建立在Workfront和Adobe Experience Manager之間連結的資料夾 
+      <li>同步現有連結資產的中繼資料</p></li>
+      <li>在Workfront中變更專案組合、方案、專案、任務、問題和檔案中繼資料時，自動更新這些中繼資料。</li>
+      <li>將多個Experience Manager Assets存放庫順利連線到一個Workfront環境，或多個Workfront環境連線到跨組織ID的一個Experience Manager Assets存放庫</li></ul>
+     <p>如需詳細資訊與指示，請參閱<a href="/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/aem-asset-integrations.md" class="MCXref xref">Adobe Experience Manager Assets整合概述</a></p> 
+     </td>
   </tr> 
   <tr> 
    <td role="rowheader"> <p>方塊</p> <p> <img src="assets/box,-inc.-logo.png"> </p> </td> 
@@ -142,7 +153,7 @@ Workfront目前提供下列內建整合。
      <li>在[!DNL Slack]中接收[!DNL Workfront]個通知 </li> 
      <li>在Slack中管理核准 </li> 
      <li>從[!DNL Slack]建立[!DNL Workfront]個任務和問題 </li> 
-     <li>Post對Slack中的專案或任務加上註解</li> 
+     <li>從Slack將註解張貼至專案或任務</li> 
     </ul> </td> 
   </tr> 
   <tr> 
