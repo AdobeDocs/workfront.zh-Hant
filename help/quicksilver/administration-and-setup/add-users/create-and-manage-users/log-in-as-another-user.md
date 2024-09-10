@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 2f8dd132-1086-4980-9b56-993a68231e96
-source-git-commit: 20cb940de1d42057ed11e4e7d59f1875cdba38bb
+source-git-commit: 0bc2817255b8879de377c3916bb36be760f28f4c
 workflow-type: tm+mt
-source-wordcount: '759'
+source-wordcount: '738'
 ht-degree: 0%
 
 ---
@@ -61,20 +61,20 @@ Some users, such as executives, need to be able to control which administrators 
    <td>任何</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront授權*</td> 
+   <td role="rowheader">Adobe Workfront授權</td> 
    <td> <p>新增：標準</p>
+   <p>或</p>
    <p>目前：計畫</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定</td> 
-   <td> <p>使用「系統管理員」存取層級，您可以以任何身分登入。 如需有關這個存取層級的資訊，請參閱<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">授與使用者完整的管理存取權</a>。 </p> <p>如果存取層級中的<b>使用者</b>設定設定為<b>編輯</b>存取，且在<b>微調您的設定</b> <img src="assets/gear-icon-in-access-levels.png">中啟用<b>建立</b>以及兩個<b>使用者管理員</b>選項中的至少一個，則您可以使用規劃者存取層級以授權層級較低的使用者身分登入。 </p> 
-   <p><b>注意</b>：在這兩個選項中，如果使用者<b>管理員（群組使用者）</b>已啟用，您必須是使用者所屬群組的群組管理員。</p> 
-   <p>如需存取層級中<b>使用者</b>設定的詳細資訊，請參閱<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">授予使用者存取權</a>。</p> </td> 
+   <td> <p>使用「系統管理員」存取層級，您可以以任何身分登入。</p> <p>如果存取層級中的<b>使用者</b>設定設定為<b>編輯</b>存取，且在<b>微調您的設定</b> <img src="assets/gear-icon-in-access-levels.png">中啟用<b>建立</b>以及兩個<b>使用者管理員</b>選項中的至少一個，則使用標準或規劃師存取層級，您可以以授權層級較低的使用者身分登入。 </p> 
+   <p><b>注意</b>：在這兩個選項中，如果使用者<b>管理員（群組使用者）</b>已啟用，您必須是使用者所屬群組的群組管理員。</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-*如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 

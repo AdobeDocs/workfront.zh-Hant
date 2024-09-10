@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration, Approvals
 role: Admin
 exl-id: 1709e285-51a5-49a1-a03a-743a334fbe4d
-source-git-commit: ea1ac823fc414608f5205ac5bd9f29c1209fb7dc
+source-git-commit: 0bc2817255b8879de377c3916bb36be760f28f4c
 workflow-type: tm+mt
-source-wordcount: '2174'
+source-wordcount: '2180'
 ht-degree: 1%
 
 ---
@@ -44,7 +44,7 @@ ht-degree: 1%
 
 +++ 展開以檢視本文中功能的存取需求。
 
-您必須具備下列條件：
+您必須具有下列存取權才能執行本文中的步驟：
 
 <table style="table-layout:auto"> 
  <col> 
@@ -56,14 +56,14 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront授權</td> 
-   <td> <p>新計畫：標準 </p>
+   <td> <p>新增：標準 </p>
  <p>或</p> 
-<p>目前計畫：計畫 </p> 
+<p>目前：計畫 </p> 
 </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">存取層級設定*</td> 
-   <td> <p>如果您是Workfront管理員或具有核准流程的管理存取權，則可以為特定群組建立系統層級核准流程，或群組層級核准流程。</p> 
+   <td role="rowheader">存取層級設定</td> 
+   <td> <p>如果您是系統管理員或您擁有核准流程的管理存取權，則可以為特定群組建立系統層級核准流程，或群組層級核准流程。</p> 
    <p>如果您是群組管理員，您可以為您管理的群組建立群組層級核准流程。</p> </td> 
   </tr> 
  </tbody> 

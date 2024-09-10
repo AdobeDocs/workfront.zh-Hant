@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 52dd8750-9a6f-4ac6-9779-ba4ea9b6f4e0
-source-git-commit: c3bfaf666fb0ceb43bcabda13949b27b567b5d08
+source-git-commit: 0bc2817255b8879de377c3916bb36be760f28f4c
 workflow-type: tm+mt
-source-wordcount: '444'
+source-wordcount: '523'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,43 @@ ht-degree: 0%
 # 使用特定狀態列出具有未決核准流程的物件
 
 如果您嘗試刪除狀態，則錯誤訊息可能會告訴您無法刪除該狀態，因為該狀態在您的系統中至少有一個未決核准流程。 您可以執行報告，列出物件在擱置核准程式中的位置，然後決定您需要為每個物件做什麼。
+
+## 存取需求
+
++++ 展開以檢視本文中功能的存取需求。
+
+您必須具有下列存取權才能執行本文中的步驟：
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront計畫</td> 
+   <td>任何</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront授權</td> 
+   <td>
+     <p>新增：標準</p>
+     <p>或</p>
+     <p>目前：計畫</p>
+   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">存取層級設定</td> 
+   <td><p>編輯報告、儀表板、行事曆的存取權</p><p>編輯對篩選器、檢視、群組的存取權</p></td>
+  </tr>
+  <tr> 
+   <td role="rowheader">物件許可權</td> 
+   <td>您可取得所建立報告的「管理」許可權。</td>
+  </tr>
+ </tbody> 
+</table>
+
+如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
++++
 
 ## 在標準模式中
 
