@@ -5,18 +5,26 @@ author: Courtney
 draft: Probably
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 35c80f6a-419b-4237-8139-f59ab7bbd5c7
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: dd8718b00a310bee6caa13db7644b86174b476f4
 workflow-type: tm+mt
-source-wordcount: '543'
+source-wordcount: '582'
 ht-degree: 0%
 
 ---
+
 
 # 使用增強型聯結器連結資產和資料夾
 
 您可以從Experience Manager Assets將資產或資料夾連結至支援檔案的任何Workfront物件。 從Experience Manager Assets傳送的Assets不會計入Workfront的整體檔案儲存中。 從Workfront上傳並傳送至Experience Manager Assets的檔案確實會計入整體儲存空間。
 
+
+>[!NOTE]
+>
+>在Workfront中無法預覽透過增強型聯結器連結的Excel檔案。 您必須下載檔案才能存取。
+
 ## 存取需求
+
++++ 展開以檢視本文中功能的存取需求。
 
 您必須具有下列存取權才能執行本文中的步驟：
 
@@ -30,7 +38,9 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront授權*</td> 
-   <td> <p>要求或更高版本</p> </td> 
+   <td> <p>目前：要求或以上</p> 
+   或
+   <p>新增：投稿人或更高版本</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">產品</td> 
@@ -48,6 +58,7 @@ ht-degree: 0%
 </table>
 
 &#42;若要瞭解您擁有的計畫、授權型別或存取權，請連絡您的Workfront管理員。
++++
 
 ## 先決條件
 
