@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 6cc67488-1ba9-4455-9152-366aaabf0939
-source-git-commit: 0c37044aaffbe6ebb22af3877c93d5c65d40de98
+source-git-commit: 57c08a06a57bebfaa81035e4fe801f3077e6a829
 workflow-type: tm+mt
-source-wordcount: '1447'
+source-wordcount: '1588'
 ht-degree: 0%
 
 ---
@@ -38,7 +38,9 @@ ht-degree: 0%
 * [整合增強功能](#integration-enhancements)
 * [專案增強功能](#project-enhancements)
 * [校訂增強功能](#proofing-enhancements)
+* [報表與控制面板增強功能](#report-and-dashboard-enhancements)
 * [其他增強功能](#other-enhancements)
+
 
 ### 管理員增強功能
 
@@ -259,6 +261,39 @@ ht-degree: 0%
                                 <p><span class="preview">所有客戶的生產版本： 2024年8月29日</span></p>
                             </li>
                         </ul>
+                    </td>
+                </tr>
+           </tbody>
+        </table>
+
+### 報表與控制面板增強功能
+
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 50%;" />
+            <tbody>
+                <tr>
+                    <td>
+                        <p><span class="bold">功能</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">發行日期</span>
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-report-and-dashboard-enhancements.md" class="MCXref xref" xrefformat="{para}">可用於新計畫的Workfront Data Connect</a></p>
+                        <p>Workfront Data Connect將可供使用其中一個新Workfront計畫的組織使用。 Data Connect可讓組織透過安全且可擴充的資料湖存取其資料，資料湖可使用商業智慧工具進行分析和視覺化，或儲存在外部。 此外，組織可以使用Data Connect來檢視先前無法使用的資料分析，例如時間型趨勢分析、變數對應，以及結合Workfront資料的外部系統資料分析。</p>
+                    </td>
+                    <td><p><b>將於下列日期提供：</b></p>
+                        <ul>
+                            <li>
+                                <p><span class="preview">適用於所有客戶的生產版本：24.10版本（2024年10月）</span></p>
+                            </li>
+                        </ul>
+                        <p><i>僅適用於其中一個新Adobe Workfront計畫的組織。 Data Connect包含在Ultimate計畫中，或可作為Prime和Select計畫的附加元件購買。</i></p>
                     </td>
                 </tr>
            </tbody>
