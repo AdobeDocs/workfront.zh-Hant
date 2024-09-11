@@ -4,9 +4,9 @@ description: 2024年第四季報表與控制面板增強功能
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 57c08a06a57bebfaa81035e4fe801f3077e6a829
+source-git-commit: 2c6d01d009e3dc09b65d7c414e1a3d8536d384e0
 workflow-type: tm+mt
-source-wordcount: '230'
+source-wordcount: '231'
 ht-degree: 0%
 
 ---
@@ -27,4 +27,4 @@ ht-degree: 0%
 
 使用其中一個新Workfront計畫的客戶將可使用Workfront Data Connect。 Data Connect可讓組織透過安全且可擴充的資料湖存取其資料，資料湖可使用商業智慧工具進行分析和視覺化，或儲存在外部。 此外，組織可以使用Data Connect來檢視先前無法使用的資料分析，例如時間型趨勢分析、變數對應，以及結合Workfront資料的外部系統資料分析。
 
-如需目前的Adobe Workfront計畫以及如何購買附加元件的詳細資訊，請聯絡您的客戶代表。 如需Workfront Data Connect的詳細資訊，請參閱[自訂表單概觀](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/custom-forms-overview.md)。
+如需目前的Adobe Workfront計畫以及如何購買附加元件的詳細資訊，請聯絡您的客戶代表。 如需Workfront Data Connect的詳細資訊，請參閱[Workfront Data Connect概觀](/help/quicksilver/reports-and-dashboards/data-lake/data-lake-overview.md)。

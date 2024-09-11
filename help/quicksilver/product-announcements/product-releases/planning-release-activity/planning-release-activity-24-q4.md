@@ -1,18 +1,18 @@
 ---
 content-type: release-notes
-title: 「24.10版的Adobe Workfront規劃發行活動」
+title: 24.10版的Adobe Workfront規劃發行活動
 description: 這是2024年第四季度Adobe Workfront規劃產品的發行活動。
 author: Alina
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 95726a46a0f18353cfee67b69cc94d39d85f111f
+exl-id: d27f937b-e179-4f67-aebd-ed351440cb0f
+source-git-commit: 2c6d01d009e3dc09b65d7c414e1a3d8536d384e0
 workflow-type: tm+mt
-source-wordcount: '356'
+source-wordcount: '450'
 ht-degree: 0%
 
 ---
-
 
 # Adobe Workfront Planning 2024年第四季發行活動
 
@@ -37,6 +37,22 @@ ht-degree: 0%
 <!--remove the general activity mention after fourth quarter 2024 is released-->
 
 如需2024年8月28日一般可用性發行後Adobe Workfront Planning所發行之所有功能的清單，請參閱[Adobe Workfront Planning發行活動：文章索引](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)。
+
+## 顯示連線記錄的選項
+
+>[!NOTE]
+>
+>預覽版本： 2024年9月9日；適用於所有客戶的生產版本：搭配24.10版（2024年10月）
+
+我們重新設計了連線記錄型別時的記錄外觀區域。 現在，當決定連線記錄在連線欄位中的顯示方式時，您可以從下列選項中選擇：
+
+* 姓名
+* 名稱和影像
+* 影像
+
+在此增強功能之前，您可以選取或取消選取「標題」切換按鈕，以顯示記錄名稱或僅顯示圖示或縮圖。 已移除標題切換。
+
+如需詳細資訊，請參閱[連線記錄型別](/help/quicksilver/planning/architecture/connect-record-types.md)。
 
 ## 將記錄詳細資料匯出至PDF
 
@@ -67,4 +83,3 @@ Adobe Workfront規劃是Adobe Workfront的新產品。 Workfront Planning的目�
 * 從其他系統連線到物件型別，為所有處理程式建立一致的架構。
 
 如需Workfront Planning的詳細資訊，請參閱[Adobe Workfront Planning概觀](/help/quicksilver/planning/general/planning-overview.md)。
-
