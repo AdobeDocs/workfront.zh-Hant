@@ -2,20 +2,20 @@
 content-type: overview;reference
 product-area: portfolios
 navigation-topic: projects-navigation-topic
-title: 投資組合管理
-description: 請在下列章節中瞭解有關投資組合管理的資訊。
+title: 「Portfolio管理：文章索引」
+description: Portfolio是具有統一特性的專案集合。 請在下列章節中瞭解有關投資組合管理的資訊。
 author: Alina
 feature: Work Management, Strategic Planning
 recommendations: noDisplay, noCatalog
 exl-id: 89f572a8-f585-4eee-a346-9e3188496c6d
-source-git-commit: b08377e539b04e896e84d17f46d2c941b0f66731
+source-git-commit: 2bfb6d03f3d0f792180a67ade8a704e4c899a671
 workflow-type: tm+mt
-source-wordcount: '35'
-ht-degree: 14%
+source-wordcount: '50'
+ht-degree: 2%
 
 ---
 
-# 投資組合管理
+# Portfolio管理：文章索引
 
 本節包含下列子章節：
 

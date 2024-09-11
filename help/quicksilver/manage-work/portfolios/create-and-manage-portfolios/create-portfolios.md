@@ -6,10 +6,10 @@ description: Portfolio是競爭相同資源、預算和排程的專案集合。 
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: fdaed68d-d9cc-4514-8f80-b169cdd739bd
-source-git-commit: 49bd393af77a67aa1e3a443c4189569178e99ada
+source-git-commit: 2bfb6d03f3d0f792180a67ade8a704e4c899a671
 workflow-type: tm+mt
-source-wordcount: '534'
-ht-degree: 2%
+source-wordcount: '668'
+ht-degree: 1%
 
 ---
 
@@ -31,8 +31,7 @@ Portfolio是競爭相同資源、預算和排程的專案集合。 Portfolio中�
  <tbody> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 計畫*</td> 
-   <td> <p>新增：任何</p>
-   <p>目前：[！UICONTROL Business]或更高版本</p> </td> 
+   <td> <p>任何</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 授權*</td> 
@@ -53,6 +52,27 @@ Portfolio是競爭相同資源、預算和排程的專案集合。 Portfolio中�
 *如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
+
+## 建立產品組合的方式
+
+您可以使用下列其中一種方法，在Workfront中建立產品組合：
+
+* 從主要功能表的Portfolio區域開始從頭開始建立投資組合。 本文會介紹如何從頭開始建立產品組合。
+
+* 使用kick-start匯入投資組合。
+
+  作為Workfront管理員，您可以使用kick-start匯入產品組合。
+
+  如需有關在Workfront中使用Kick-Start匯入資料的資訊，請參閱[使用Kick-Start範本將資料匯入Adobe Workfront](/help/quicksilver/administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md)。
+
+* 當您從Workfront Planning中的記錄型別連結投資組合時新增投資組合。
+
+  您必須擁有新的Workfront授權和適用於Workfront的額外Workfront規劃授權。
+
+  如需有關存取Workfront Planning的資訊，請參閱[存取總覽](/help/quicksilver/planning/access/access-overview.md)。
+
+  如需透過將專案組合新增至記錄來建立專案組合的資訊，請參閱[建立記錄](/help/quicksilver/planning/records/create-records.md)一文中的「連線時建立記錄」一節。
+
 
 ## 建立專案組合
 

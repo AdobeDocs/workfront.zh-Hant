@@ -6,10 +6,10 @@ description: 方案代表共用跨專案界限的共同策略、目標或目標�
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 6ec353c2-2241-47c2-8c59-1d8ddc43781e
-source-git-commit: f3641e2207563f3fc9d9ed059d889ab6c22f05b1
+source-git-commit: 2bfb6d03f3d0f792180a67ade8a704e4c899a671
 workflow-type: tm+mt
-source-wordcount: '1143'
-ht-degree: 1%
+source-wordcount: '1228'
+ht-degree: 0%
 
 ---
 
@@ -57,6 +57,18 @@ ht-degree: 1%
 如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
+
+## 建立計畫的方法
+
+您可以使用下列其中一種方法，在Workfront中建立方案：
+
+* 從頭開始在主功能表的計畫區域或投資組合的計畫區段中建立計畫。 本文會介紹如何從頭開始建立計畫。
+
+* 使用kick-starts匯入程式。
+
+  身為Workfront管理員，您可以使用kick-start匯入計畫。
+
+  如需有關在Workfront中使用Kick-Start匯入資料的資訊，請參閱[使用Kick-Start範本將資料匯入Adobe Workfront](/help/quicksilver/administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md)。
 
 ## 建立方案
 

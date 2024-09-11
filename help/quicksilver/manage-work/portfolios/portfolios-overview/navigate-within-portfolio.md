@@ -6,9 +6,9 @@ description: 在投資組合中導覽
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 6c1795ab-422f-419c-b5e9-1f1323800b39
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+source-git-commit: 2bfb6d03f3d0f792180a67ade8a704e4c899a671
 workflow-type: tm+mt
-source-wordcount: '637'
+source-wordcount: '598'
 ht-degree: 0%
 
 ---
@@ -25,6 +25,9 @@ ht-degree: 0%
 
 ## 存取需求
 
+
++++ 展開以檢視本文中功能的存取需求。
+
 您必須具有下列存取權才能執行本文中的步驟：
 
 <table style="table-layout:auto"> 
@@ -32,25 +35,28 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 計畫*</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] 計劃</td> 
    <td> <p>任何 </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 授權*</td> 
-   <td> <p>[！UICONTROL計畫] </p> </td> 
+   <td> <p>新增：[！UICONTROL Standard] </p>
+   <p>目前： [！UICONTROL計畫] </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">存取層級設定*</td> 
-   <td> <p>[！UICONTROL Edit]專案和Portfolio的存取權</p> <p>注意：如果您還是沒有存取權，請詢問您的[!DNL Workfront]管理員是否對您的存取層級設定了其他限制。 如需[!DNL Workfront]管理員如何修改存取層級的詳細資訊，請參閱<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>。</p> </td> 
+   <td role="rowheader">存取層級設定</td> 
+   <td> <p>[！UICONTROL Edit]專案和Portfolio的存取權</p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">物件許可權</td> 
-   <td> <p>投資組合的[！UICONTROL Manage]許可權</p> <p>檢視專案或更高許可權</p> <p>如需請求其他存取權的資訊，請參閱<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">請求物件</a>的存取權。</p> </td> 
+   <td> <p>投資組合的[！UICONTROL Manage]許可權</p> <p>檢視專案或更高許可權</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;若要瞭解您擁有的計畫、授權型別或存取權，請連絡您的[!DNL Workfront]管理員。
+*如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
++++
 
 ## 在投資組合中導覽
 
@@ -60,15 +66,15 @@ ht-degree: 0%
 1. 從&#x200B;**[!UICONTROL 篩選器]**&#x200B;下拉式功能表中，選取下列專案：
 
    * **[!UICONTROL 我擁有的Portfolio]**：包含您被指定為[!UICONTROL Portfolio管理員]的投資組合清單。
-   * **[!UICONTROL 全部]**：包含您至少擁有檢視許可權的所有投資組合。\
+   * **[!UICONTROL 全部]**：包含您至少擁有檢視許可權的所有投資組合。
 
-     如需有關存取Portfolio的詳細資訊，請參閱[存取層級概觀](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md)。\
-      如需Portfolio許可權的詳細資訊，請參閱[共用投資組合](../../../workfront-basics/grant-and-request-access-to-objects/share-a-portfolio.md)。
+     如需有關存取Portfolio的詳細資訊，請參閱[存取層級概觀](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md)。
+如需Portfolio許可權的詳細資訊，請參閱[共用投資組合](../../../workfront-basics/grant-and-request-access-to-objects/share-a-portfolio.md)。
 
      若要新增投資組合，請參閱[建立投資組合](../../../manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md)。
 
-1. 按一下投資組合的名稱以存取它。\
-   下列投資組合績效指標會顯示在投資組合內的[!UICONTROL Portfolio詳細資料]區域中：
+1. 按一下投資組合的名稱以存取它。
+下列投資組合績效指標會顯示在投資組合內的[!UICONTROL Portfolio詳細資料]區域中：
 
    * 投資組合是否為[!UICONTROL 準時]
    * 投資組合是否為[!UICONTROL 預算]
@@ -96,8 +102,8 @@ ht-degree: 0%
      如需建立篩選的詳細資訊，請參閱[篩選總覽](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md)。
 
 
-1. 按一下左側面板中的&#x200B;**[!UICONTROL 程式]**，在投資組合中建立程式或管理現有的程式。\
-   如需有關計畫的資訊，請參閱[建立和管理計畫](../../../manage-work/portfolios/create-and-manage-programs/create-and-manage-programs.md)區段。
+1. 按一下左側面板中的&#x200B;**[!UICONTROL 程式]**，在投資組合中建立程式或管理現有的程式。
+如需有關計畫的資訊，請參閱[建立和管理計畫](../../../manage-work/portfolios/create-and-manage-programs/create-and-manage-programs.md)區段。
 
 1. （選擇性）展開左側面板中的&#x200B;**[!UICONTROL Portfolio詳細資料]**&#x200B;區域，然後按一下&#x200B;**[!UICONTROL 總覽]**&#x200B;或&#x200B;**[!UICONTROL 自訂Forms]**&#x200B;以編輯投資組合的相關資訊。
 

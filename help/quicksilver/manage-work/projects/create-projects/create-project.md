@@ -6,9 +6,9 @@ description: 專案是Adobe Workfront中的大型工作單位。 您可以從頭
 author: Alina
 feature: Work Management
 exl-id: d4e28fa6-25f9-4765-b051-8960c8873d5a
-source-git-commit: 49bd393af77a67aa1e3a443c4189569178e99ada
+source-git-commit: 2bfb6d03f3d0f792180a67ade8a704e4c899a671
 workflow-type: tm+mt
-source-wordcount: '1207'
+source-wordcount: '1299'
 ht-degree: 1%
 
 ---
@@ -112,7 +112,22 @@ ht-degree: 1%
 
   如需有關使用Kick-Start匯入專案的資訊，請參閱[Kick-Start情境：簡單專案和任務匯入準備](../../../administration-and-setup/manage-workfront/using-kick-starts/kick-starts-scenario-simple-project-task-import-prep.md)。
 
-* 從「Adobe Workfront情境規劃工具」中的情境Publish方案。 Scenario Planner需要額外的授權。 如需Workfront Scenario Planner的相關資訊，請參閱[Scenario Planner概觀](../../../scenario-planner/scenario-planner-overview.md)。 如需有關透過發佈行動方案建立專案的資訊，請參閱[在Scenario Planner](../../../scenario-planner/publish-scenarios-update-projects.md)中發佈行動方案以更新或建立專案。
+* 從「Adobe Workfront情境規劃工具」中的情境Publish方案。
+
+  「情境規劃工具」需要下列其中一項：
+
+   * 目前Workfront授權結構的額外授權。
+   * 新Workfront授權結構的最終授權。
+
+  如需Workfront Scenario Planner的相關資訊，請參閱[Scenario Planner概觀](../../../scenario-planner/scenario-planner-overview.md)。 如需有關透過發佈行動方案建立專案的資訊，請參閱[在Scenario Planner](../../../scenario-planner/publish-scenarios-update-projects.md)中發佈行動方案以更新或建立專案。
+
+* 當您從Workfront Planning中的記錄型別連結專案時，請新增專案。 您只能從Workfront Planning建立沒有範本的專案。
+
+  您必須擁有新的Workfront授權和適用於Workfront的額外Workfront規劃授權。
+
+  如需有關存取Workfront Planning的資訊，請參閱[存取總覽](/help/quicksilver/planning/access/access-overview.md)。
+
+  如需有關將專案新增至記錄來建立專案的資訊，請參閱[建立記錄](/help/quicksilver/planning/records/create-records.md)一文中的「連線時建立記錄」一節。
 
 ## 先決條件
 

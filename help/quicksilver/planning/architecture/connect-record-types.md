@@ -6,15 +6,17 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
-source-git-commit: bd202821687453288c96147933331c8a7a6b3acb
+source-git-commit: 969f7c609afcc0029fa9ba054de113904a10917b
 workflow-type: tm+mt
-source-wordcount: '2135'
+source-wordcount: '2197'
 ht-degree: 1%
 
 ---
 
 
 # 連線記錄型別
+
+<span class="preview">此頁面上的資訊是指尚未普遍提供的功能。 它只能在「預覽Sandbox」環境中使用。</span>
 
 {{planning-important-intro}}
 
@@ -183,8 +185,7 @@ You can use Adobe Workfront Planning to design fully-customizable workspaces tha
 
    * 來自您選取之工作區的另一個記錄型別
 
-     ![](assets/new-connection-tab-fields-with-another-record-selected.png)
-
+     <span class="preview">![](assets/many-to-many-connection-picker.png)</span>
      >[!TIP]
      >
      > 
@@ -193,7 +194,7 @@ You can use Adobe Workfront Planning to design fully-customizable workspaces tha
 
    * 來自另一個工作區的記錄型別，該記錄型別被設定為從其他工作區連線。 如需詳細資訊，請參閱[編輯記錄型別](/help/quicksilver/planning/architecture/edit-record-types.md)。
 
-     ![](assets/connect-record-from-another-workspace-new-connection-tab.png)
+     <span class="preview">![](assets/new-connection-allow-multiple-records-box.png)</span>
 
      >[!TIP]
      >
@@ -206,7 +207,7 @@ You can use Adobe Workfront Planning to design fully-customizable workspaces tha
 
    * 來自&#x200B;**Adobe應用程式**&#x200B;區段的&#x200B;**Experience Manager Assets**。
 
-     ![](assets/aem-assets-connection-selection.png)
+     <span class="preview">![](assets/aem-assets-connection-selection.png)</span>
 
 1. 更新下列資訊：
 
@@ -221,7 +222,7 @@ You can use Adobe Workfront Planning to design fully-customizable workspaces tha
 
      只有在連線來自兩個不同工作區的記錄或記錄和Adobe Experience Manager資產物件時，才能使用此選項。
 
-     ![](assets/new-connection-allow-multiple-records-box.png)
+     <span class="preview">![](assets/new-connection-allow-multiple-records-box.png)</span>
 
    * **連線型別**：選取下列其中一個選項，以指出它們可以連線到多少筆記錄，以及可從多少筆記錄連線：
 
@@ -232,7 +233,7 @@ You can use Adobe Workfront Planning to design fully-customizable workspaces tha
 
      此選項僅在連線來自相同工作區的記錄或記錄和Workfront物件型別時可用。
 
-     ![](assets/many-to-many-connection-picker.png)
+     <span class="preview">![](assets/many-to-many-connection-picker.png)</span>
 
      如需連線型別的詳細資訊，請參閱[連線記錄型別概觀](/help/quicksilver/planning/architecture/connect-record-types-overview.md)。
 
@@ -259,13 +260,21 @@ You can use Adobe Workfront Planning to design fully-customizable workspaces tha
    >
    >您的Workfront管理員可以透過Workfront中的中繼資料對應，將Workfront Planning欄位對應至Experience Manager Assets欄位。 如需詳細資訊，請參閱[設定Adobe Workfront與Experience Manager Assets之間的資產中繼資料對應](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping.html?lang=en)。
 
-1. （視條件而定）如果您選取連線至Experience Manager Assets或Workfront Planning記錄型別，如果您不想在連結欄位中顯示連線記錄或資產的標題，請取消選取&#x200B;**記錄外觀**&#x200B;區域中的&#x200B;**標題**&#x200B;切換按鈕。 取消選取時，連結欄位中只會顯示記錄的縮圖。 沒有縮圖影像的記錄會顯示影像圖示。 依預設，會選取切換。 在&#x200B;**記錄外觀**&#x200B;區域顯示連線記錄的範例。
+1. （視條件而定）如果您選取連線至Experience Manager Assets或Workfront Planning記錄型別，請在&#x200B;**記錄外觀**&#x200B;區域中選取下列其中一個選項：
+
+   * <span class="preview">**名稱和影像**：連線記錄的名稱和縮圖或圖示都會顯示在連線記錄欄位中。 這是預設選項。</span>
+   * <span class="preview">**名稱**：連線的記錄欄位中只會顯示連線記錄的名稱。</span>
+   * <span class="preview">**影像**：連線記錄欄位中只會顯示連線記錄的縮圖或圖示。</span>
+
+   沒有縮圖影像的記錄會改為顯示記錄型別圖示。 在&#x200B;**記錄外觀**&#x200B;區域顯示連線記錄的範例。
 
    >[!TIP]
    >
    >    當您允許連結多個記錄時，只顯示縮圖可能會節省較小區域（例如記錄檢視）的空間。
    >
-   >記錄的標題是記錄的主要欄位。 如需詳細資訊，請參閱[主要欄位概述](/help/quicksilver/planning/fields/primary-field-overview.md)。
+   >記錄的名稱是記錄的主要欄位。 如需詳細資訊，請參閱[主要欄位概述](/help/quicksilver/planning/fields/primary-field-overview.md)。
+   >
+   >選取Workfront物件型別時，無法選取記錄外觀。
 
 1. 按一下「**建立**」。
 
@@ -286,7 +295,7 @@ You can use Adobe Workfront Planning to design fully-customizable workspaces tha
    >    擁有工作區檢視或更高許可權的所有人都可以檢視連結欄位中的資訊，無論其在連結物件型別應用程式中的許可權或存取層級為何。
 
 
-1. （選擇性）按一下&#x200B;**跳過**&#x200B;以跳過從連結的記錄或物件型別新增欄位。 連結記錄的&#x200B;**Name**&#x200B;或&#x200B;**Title**&#x200B;是您連線之記錄型別的資料表檢視中唯一可見的欄位。
+1. （選擇性）按一下&#x200B;**跳過**&#x200B;以跳過從連結的記錄或物件型別新增欄位。 連結記錄的名稱或主要欄位是您連線之記錄型別的表格檢視中唯一可見的欄位。
 
 1. （選擇性和條件性）如果您選取連結數字、貨幣、百分比或日期型別欄位，請同時選取彙總值以彙總多個值。 當使用者在連結的記錄欄位中選取多個連結的記錄時，連結欄位的值會根據您選擇的彙總器，以逗號分隔或顯示為摘要值。
 
