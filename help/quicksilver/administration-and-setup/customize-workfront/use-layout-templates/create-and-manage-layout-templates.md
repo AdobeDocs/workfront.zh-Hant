@@ -9,9 +9,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 53076920-3b13-4b65-85cb-38096cf2d04d
-source-git-commit: a8214d9e10363881afbc2bd71f78f46cb6a25880
+source-git-commit: a79e4146ce6d076ef0e3707416a9c21d643b96e1
 workflow-type: tm+mt
-source-wordcount: '532'
+source-wordcount: '502'
 ht-degree: 1%
 
 ---
@@ -52,20 +52,20 @@ ht-degree: 1%
    <td>任何</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront授權</td> 
+   <td role="rowheader">Adobe Workfront授權*</td> 
    <td><p>新增：標準</p>
-   或
-   <p>目前：計畫</p></td> 
+  <p> 目前：計畫</p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定</td> 
-   <td> <p>若要在系統層級執行這些步驟，您需要系統管理員存取層級。</p>
-<p>若要為群組執行這些動作，您必須是該群組的管理員。</p> <p><b>附註</b>：</p> <p>如果您沒有存取權，請洽詢Workfront管理員，瞭解他們是否在您的存取層級設定其他限制。
-
-如需Workfront管理員如何修改存取層級的詳細資訊，請參閱<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>。</p> </td>
-</tr> 
+   <td> <p>若要在系統層級執行這些步驟，您需要系統管理員存取層級。
+若要為群組執行這些動作，您必須是該群組的管理員。</p> </td> 
+  </tr> 
  </tbody> 
 </table>
+
+*如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -108,7 +108,7 @@ ht-degree: 1%
 
 1. 繼續測試您的版面配置範本，並提供給使用者使用，如下文所述：
 
-   * [正在測試新的配置範本](../../../administration-and-setup/customize-workfront/use-layout-templates/test-a-layout-template.md)
+   * [測試新的配置範本](../../../administration-and-setup/customize-workfront/use-layout-templates/test-a-layout-template.md)
    * [授與配置範本的管理存取權](../../../administration-and-setup/customize-workfront/use-layout-templates/grant-admin-access-layout-template.md)
    * [將使用者指派至版面配置範本](../../../administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md)
 

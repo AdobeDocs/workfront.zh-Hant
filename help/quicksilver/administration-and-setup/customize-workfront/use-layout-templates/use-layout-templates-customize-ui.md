@@ -10,7 +10,7 @@ feature: System Setup and Administration
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: f8961140-948f-4bea-956b-a8126008b8cb
-source-git-commit: a8214d9e10363881afbc2bd71f78f46cb6a25880
+source-git-commit: a79e4146ce6d076ef0e3707416a9c21d643b96e1
 workflow-type: tm+mt
 source-wordcount: '160'
 ht-degree: 1%
@@ -35,7 +35,7 @@ ht-degree: 1%
 * [使用配置範本自訂篩選器、檢視和群組](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)
 * [使用版面配置範本自訂使用者介面術語](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-terminology.md)
 * [使用版面配置範本自訂登入頁面](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-landing-page.md)
-* [正在測試新的配置範本](../../../administration-and-setup/customize-workfront/use-layout-templates/test-a-layout-template.md)
+* [測試新的配置範本](../../../administration-and-setup/customize-workfront/use-layout-templates/test-a-layout-template.md)
 * [授與配置範本的管理存取權](../../../administration-and-setup/customize-workfront/use-layout-templates/grant-admin-access-layout-template.md)
 * [將使用者指派給配置範本](../../../administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md)
 * [復製版面範本](../../../administration-and-setup/customize-workfront/use-layout-templates/copy-a-layout-template.md)

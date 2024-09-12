@@ -8,16 +8,16 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 8786648a-3630-4aa9-8e85-9df47a9e4609
-source-git-commit: a8214d9e10363881afbc2bd71f78f46cb6a25880
+source-git-commit: a79e4146ce6d076ef0e3707416a9c21d643b96e1
 workflow-type: tm+mt
-source-wordcount: '166'
+source-wordcount: '165'
 ht-degree: 0%
 
 ---
 
 # 測試新版面範本
 
-在將新範本或版面配置範本指派給使用者之前，請務必對其進行測試。
+在將新建立的版面配置範本指派給使用者之前，測試該範本是很重要的事。
 
 如需配置範本的詳細資訊，請參閱[建立和管理配置範本](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md)。
 

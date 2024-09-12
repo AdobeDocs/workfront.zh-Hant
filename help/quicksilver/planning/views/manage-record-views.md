@@ -1,14 +1,14 @@
 ---
 title: 管理記錄檢視
-description: 使用Adobe Workfront Planning時，您可以在表格、時間軸或行事曆檢視中顯示記錄。
+description: 使用Adobe Workfront Planning時，您可以在表格、時間軸或行事曆檢視中顯示記錄。 本文說明如何建立檢視，以及如何編輯或刪除現有檢視。
 author: Alina
 feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: bd202821687453288c96147933331c8a7a6b3acb
+source-git-commit: a79e4146ce6d076ef0e3707416a9c21d643b96e1
 workflow-type: tm+mt
-source-wordcount: '1390'
+source-wordcount: '1406'
 ht-degree: 1%
 
 ---

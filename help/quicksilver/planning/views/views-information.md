@@ -1,14 +1,14 @@
 ---
 title: 「檢視：文章索引」
-description: 您可以在表格、時間表或行事曆檢視中顯示Adobe Workfront Planning記錄。 以下文章說明如何建立和管理Adobe Workfront Planning記錄檢視。
+description: 您可以在表格、時間表或行事曆檢視中顯示Adobe Workfront Planning記錄。 本文包含文章連結，說明如何建立檢視以及編輯或刪除現有檢視。
 author: Alina
 feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 0f93014b-d0f7-4ea3-9b11-3314b46f1ef3
-source-git-commit: 78a54ec94dd5a5746144e99e14c622e8b3a7ea71
+source-git-commit: a79e4146ce6d076ef0e3707416a9c21d643b96e1
 workflow-type: tm+mt
-source-wordcount: '80'
+source-wordcount: '84'
 ht-degree: 0%
 
 ---

@@ -6,9 +6,9 @@ description: 在連線專案和方案後，您可以並排管理其資源配置�
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: 77152e46-0b7b-4937-9d16-1a20c2a7fdf1
-source-git-commit: 2ff32ba11f9ef214f16b11323386223792b0877e
+source-git-commit: a79e4146ce6d076ef0e3707416a9c21d643b96e1
 workflow-type: tm+mt
-source-wordcount: '663'
+source-wordcount: '672'
 ht-degree: 0%
 
 ---
@@ -33,8 +33,10 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td> <p>[!DNL Adobe Workfront] 計畫*</p> </td> 
-   <td> <p>目前： [！UICONTROL Business]或更高版本</p>
-   <p>新增：Ultimate </p>
+   <td> <ul></li>
+   <li><p>新增：Ultimate </p></li>
+   <p>新的Workfront Select或Workfront計畫無法使用「情境規劃工具」。 </p>
+   <li><p>目前： [！UICONTROL Business]或更高版本</p></ul>
    </td> 
   </tr> 
   <tr> 
@@ -44,17 +46,19 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td>產品* </td> 
-   <td> 
-   <p>針對目前的Workfront計畫： </p>
-   <p>您必須為[!DNL Adobe Workfront Scenario Planner]購買額外的授權，才能存取本文所述的功能。</p> <p>如需[!DNL Workfront Scenario Planner]的存取與許可權相關資訊，請參閱<a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">使用[!DNL Scenario Planner]</a>所需的存取權。 </p> </td> 
+   <td> <ul><li><p>針對新的Workfront計畫：</p><p> Adobe Workfront</li></p>
+   <li><p>針對目前的Workfront計畫： </p>
+   <p>Adobe Workfront</p> <p>Adobe Workfront情境規劃工具</p></li></ul>
+
+<p>如需詳細資訊，請參閱<a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">使用[!DNL Scenario Planner]</a>所需的存取權。 </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>存取層級 </td> 
-   <td> <p>[！UICONTROL檢視]或更高許可權的[！UICONTROL專案]</p> </td> 
+   <td> <p>檢視或更高的專案存取權。</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p>物件許可權 </p> </td> 
-   <td> <p>[！UICONTROL View]專案的許可權</p> </td> 
+   <td> <p> 檢視專案或更高許可權。</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -67,7 +71,7 @@ ht-degree: 0%
 
 如果您的公司已購買[!DNL Workfront Scenario Planner]授權，您可以在專案的[!UICONTROL 任務]區段中，調解方案與連結至該方案的專案之間的資源配置。
 
-1. （視條件而定）使用本文的工作清單](#Connect)中的[顯示專案與行動方案的角色配置中所述的方法之一，將專案與行動方案連線。
+1. （視條件而定）專案必須使用本文[顯示專案與方案之角色配置工作清單](#show-role-allocation-for-projects-and-initiatives-in-the-task-list)中所述的方法之一來與方案連線。
 
    >[!IMPORTANT]
    >

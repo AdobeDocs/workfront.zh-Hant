@@ -1,14 +1,14 @@
 ---
 title: 管理行事曆檢視
-description: 您可以在行事曆檢視中顯示記錄及其欄位。
+description: 您可以在行事曆檢視中顯示記錄及其欄位。 本文說明如何建立行事曆檢視，以及如何編輯或刪除現有檢視。
 feature: Workfront Planning
 role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 45b5be81-703c-45d5-a08c-60cb8ec5b103
-source-git-commit: bd202821687453288c96147933331c8a7a6b3acb
+source-git-commit: a79e4146ce6d076ef0e3707416a9c21d643b96e1
 workflow-type: tm+mt
-source-wordcount: '695'
+source-wordcount: '712'
 ht-degree: 1%
 
 ---

@@ -9,16 +9,16 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: a68bca5e-1cec-432d-bb38-14b426a9c051
-source-git-commit: a8214d9e10363881afbc2bd71f78f46cb6a25880
+source-git-commit: a79e4146ce6d076ef0e3707416a9c21d643b96e1
 workflow-type: tm+mt
-source-wordcount: '309'
+source-wordcount: '307'
 ht-degree: 6%
 
 ---
 
 # 關於預設Adobe Workfront配置
 
-預設版面配置是主要功能表![](assets/main-menu-icon.png)、左側面板，以及Adobe Workfront管理員使用版面配置範本進行任何變更之前的檢視、群組和篩選器的排列。
+預設版面配置是主要功能表![](assets/main-menu-icon.png)或主要功能表![](assets/lines-main-menu.png) （如果可用）的排列、左側面板，以及Adobe Workfront管理員使用版面配置範本進行任何變更之前的檢視、群組和篩選器。
 
 如需有關Workfront管理員如何藉由指派配置範本來修改使用者的預設配置的資訊，請參閱[將使用者指派給配置範本](../../../administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md)。
 
@@ -30,7 +30,7 @@ ht-degree: 6%
 
 每個使用者的預設版面配置取決於其存取層級。 視指派給使用者的存取層級而定，某些使用者可能不會在主功能表或某些左側面板專案中看到某些區域。
 
-下表顯示預設為每個存取層級顯示的左側面板專案。 也會指出每個存取層級的預設登陸區域：
+下表顯示預設登陸區域，以及針對每個存取層級顯示的左側面板專案：
 
 <table style="table-layout:auto"> 
  <col> 
@@ -45,8 +45,8 @@ ht-degree: 6%
   <tr> 
    <th>區域</th> 
    <th> 左側面板專案 </th> 
-   <th> <p>系統管理員</p> </th> 
-   <th> <p>規劃工具</p> </th> 
+   <th> 系統管理員</th> 
+   <th> 規劃工具 </th> 
    <th>工作者</th> 
    <th>檢閱者</th> 
    <th>請求者</th> 
@@ -150,7 +150,7 @@ ht-degree: 6%
   </tr> 
   <tr> 
    <td rowspan="3"><strong>要求</strong> </td> 
-   <td><strong>新要求</strong> </td> 
+   <td>新請求 </td> 
    <td>✔ </td> 
    <td>✔ </td> 
    <td>✔ </td> 

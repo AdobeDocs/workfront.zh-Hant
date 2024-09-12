@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: cbeaa0d7-a61a-4806-a871-96663d9ce124
-source-git-commit: a8214d9e10363881afbc2bd71f78f46cb6a25880
+source-git-commit: a79e4146ce6d076ef0e3707416a9c21d643b96e1
 workflow-type: tm+mt
-source-wordcount: '523'
+source-wordcount: '517'
 ht-degree: 0%
 
 ---
@@ -38,29 +38,29 @@ ht-degree: 0%
 您必須具有下列存取權才能執行本文中的步驟：
 
 
-<table>
-  <tr>
-   <td><strong>Adobe Workfront計畫</strong>
-   </td>
-   <td>任何
-   </td>
-  </tr>
-  <tr>
-   <td><strong>Adobe Workfront授權</strong>
-   </td>
-   <td>計劃
-   </td>
-  </tr>
-  <tr>
-   <td><strong>存取層級設定</strong>
-   </td>
-   <td>您必須是Workfront或群組管理員。
-<p>
-   </td>
-  </tr>
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront計畫</td> 
+   <td>任何</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront授權*</td> 
+   <td><p>新增：標準</p>
+  <p> 目前：計畫</p>
+   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">存取層級設定</td> 
+   <td> <p>若要在系統層級執行這些步驟，您需要系統管理員存取層級。
+若要為群組執行這些動作，您必須是該群組的管理員。</p> </td> 
+  </tr> 
+ </tbody> 
 </table>
 
-如果您還是沒有存取權，請詢問您的Workfront管理員，他們是否在您的存取層級中設定其他限制。 如需Workfront管理員如何修改存取層級的詳細資訊，請參閱[建立或修改自訂存取層級](../../add-users/configure-and-grant-access/create-modify-access-levels.md)。
+*如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 

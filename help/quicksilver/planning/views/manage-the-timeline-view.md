@@ -1,14 +1,14 @@
 ---
 title: 管理時間表檢視
-description: 在Adobe Workfront Planning記錄型別頁面的時間軸檢視中，存取及編輯記錄。 使用篩選器、群組和設定自訂時間軸。 使用「劃分」功能來顯示連線的記錄。
+description: 在Adobe Workfront Planning記錄型別頁面的時間軸檢視中，存取及編輯記錄。 本文說明如何建立時間表檢視，以及如何編輯或刪除現有的時間表檢視。 使用篩選器、群組和設定自訂時間軸。 使用「劃分」功能來顯示連線的記錄。
 feature: Workfront Planning
 role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: bd202821687453288c96147933331c8a7a6b3acb
+source-git-commit: a79e4146ce6d076ef0e3707416a9c21d643b96e1
 workflow-type: tm+mt
-source-wordcount: '2620'
+source-wordcount: '2637'
 ht-degree: 0%
 
 ---

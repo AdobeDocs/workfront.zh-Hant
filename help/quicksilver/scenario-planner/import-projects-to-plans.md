@@ -6,9 +6,9 @@ description: 您可以將現有專案匯入計畫。 匯入的專案會轉換為
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: 20429bb1-c158-433b-9790-325cd577248e
-source-git-commit: 2ff32ba11f9ef214f16b11323386223792b0877e
+source-git-commit: a79e4146ce6d076ef0e3707416a9c21d643b96e1
 workflow-type: tm+mt
-source-wordcount: '1670'
+source-wordcount: '1689'
 ht-degree: 0%
 
 ---
@@ -29,14 +29,17 @@ ht-degree: 0%
 
 +++ 展開以檢視本文中功能的存取需求。
 
+
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
    <td> <p>[!DNL Adobe Workfront] 計畫*</p> </td> 
-   <td> <p>目前： [！UICONTROL Business]或更高版本</p>
-   <p>新增：Ultimate </p>
+   <td> <ul></li>
+   <li><p>新增：Ultimate </p></li>
+   <p>新的Workfront Select或Workfront計畫無法使用「情境規劃工具」。 </p>
+   <li><p>目前： [！UICONTROL Business]或更高版本</p></ul>
    </td> 
   </tr> 
   <tr> 
@@ -46,17 +49,19 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td>產品* </td> 
-   <td> 
-   <p>針對目前的Workfront計畫： </p>
-   <p>您必須為[!DNL Adobe Workfront Scenario Planner]購買額外的授權，才能存取本文所述的功能。</p> <p>如需[!DNL Workfront Scenario Planner]的存取與許可權相關資訊，請參閱<a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">使用[!DNL Scenario Planner]</a>所需的存取權。 </p> </td> 
+   <td> <ul><li><p>針對新的Workfront計畫：</p><p> Adobe Workfront</li></p>
+   <li><p>針對目前的Workfront計畫： </p>
+   <p>Adobe Workfront</p> <p>Adobe Workfront情境規劃工具</p></li></ul>
+
+<p>如需詳細資訊，請參閱<a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">使用[!DNL Scenario Planner]</a>所需的存取權。 </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>存取層級 </td> 
-   <td> <p>[！UICONTROL Edit]對的存取權 [!DNL Scenario Planner]</p> </td> 
+   <td> <p>[！UICONTROL Edit]對的存取權 [!DNL Scenario Planner]</p> <p>檢視或更高的專案存取權。</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p>物件許可權 </p> </td> 
-   <td> <p>[！UICONTROL Manage]計畫的許可權</p> <p>如需有關請求對計畫的額外存取權的資訊，請參閱<a href="../scenario-planner/request-access-to-plan.md" class="MCXref xref">在[!DNL Scenario Planner]</a>中請求對計畫的存取權。</p> </td> 
+   <td> <p>[！UICONTROL Manage]計畫的許可權</p> <p>檢視專案或更高的許可權。</p><p>如需有關請求對計畫的額外存取權的資訊，請參閱<a href="../scenario-planner/request-access-to-plan.md" class="MCXref xref">在[!DNL Scenario Planner]</a>中請求對計畫的存取權。</p> </td> 
   </tr> 
  </tbody> 
 </table>

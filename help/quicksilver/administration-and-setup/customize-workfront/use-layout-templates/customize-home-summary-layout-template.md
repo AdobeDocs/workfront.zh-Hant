@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 8f64c009-09ad-45f6-8b59-5c1b4024532e
-source-git-commit: a8214d9e10363881afbc2bd71f78f46cb6a25880
+source-git-commit: a79e4146ce6d076ef0e3707416a9c21d643b96e1
 workflow-type: tm+mt
-source-wordcount: '1006'
+source-wordcount: '977'
 ht-degree: 2%
 
 ---
@@ -49,16 +49,20 @@ ht-degree: 2%
    <td>任何</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront授權</td> 
-   <td>計劃</td> 
+   <td role="rowheader">Adobe Workfront授權*</td> 
+   <td><p>新增：標準</p>
+  <p> 目前：計畫</p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定</td> 
    <td> <p>若要在系統層級執行這些步驟，您需要系統管理員存取層級。
-若要為群組執行這些動作，您必須是該群組的管理員。</p> <p><b>注意</b>：如果您還是沒有存取權，請詢問您的Workfront管理員是否對您的存取層級設定了其他限制。 如需Workfront管理員如何修改存取層級的詳細資訊，請參閱<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>。</p> </td> 
+若要為群組執行這些動作，您必須是該群組的管理員。</p> </td> 
   </tr> 
  </tbody> 
 </table>
+
+*如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -139,7 +143,7 @@ ht-degree: 2%
         <li>規劃完成日期</li>
         <li>認可日期</li>
         <li>提交日期</li>
-       </ul><p><b>注意</b>：啟用此選項時，過期的工作專案會僅根據日期而非時間移至首頁工作清單中的延遲群組。</p></td> 
+       </ul><p><b>附註</b>：</p> <p> 當啟用此選項時，過期的工作專案僅會根據日期而不是時間移至首頁工作清單中的延遲群組。</p></td> 
      </tr> 
     </tbody> 
    </table>

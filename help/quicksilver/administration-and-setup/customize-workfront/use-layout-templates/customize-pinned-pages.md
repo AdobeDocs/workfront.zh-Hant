@@ -8,16 +8,16 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 55cc75c5-8b8c-48e7-b114-b41fe3d545d8
-source-git-commit: 1768c0610eb459148ff3e51ed08c115053c7d8f7
+source-git-commit: a79e4146ce6d076ef0e3707416a9c21d643b96e1
 workflow-type: tm+mt
-source-wordcount: '516'
+source-wordcount: '495'
 ht-degree: 4%
 
 ---
 
 # 使用版面配置範本自訂釘選頁面
 
-在版面配置範本中，您可以在Adobe Workfront頂端釘選希望使用者始終可用的頁面。 這些可能是透過主要功能表![](assets/main-menu-icon.png)或儀表板存取的頁面。
+在版面配置範本中，您可以在Adobe Workfront頂端釘選希望使用者始終可用的頁面。 這些可能是透過主要功能表![](assets/main-menu-icon.png)或主要功能表![](assets/lines-main-menu.png) （可用時）存取的頁面，或是儀表板。
 
 使用者自行新增的任何圖釘都會顯示在您在版面配置範本中新增的圖釘的右側。
 
@@ -44,16 +44,20 @@ ht-degree: 4%
    <td>任何</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront授權</td> 
-   <td>計劃</td> 
+   <td role="rowheader">Adobe Workfront授權*</td> 
+   <td><p>新增：標準</p>
+  <p> 目前：計畫</p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定</td> 
    <td> <p>若要在系統層級執行這些步驟，您需要系統管理員存取層級。
-若要為群組執行這些動作，您必須是該群組的管理員。</p> <p><b>注意</b>：如果您還是沒有存取權，請詢問您的Workfront管理員是否對您的存取層級設定了其他限制。 如需Workfront管理員如何修改存取層級的詳細資訊，請參閱<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>。</p> </td> 
+若要為群組執行這些動作，您必須是該群組的管理員。</p> </td> 
   </tr> 
  </tbody> 
 </table>
+
+*如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 

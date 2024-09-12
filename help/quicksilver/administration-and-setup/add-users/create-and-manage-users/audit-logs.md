@@ -4,13 +4,13 @@ user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: create-and-manage-users
 description: 作為Adobe Workfront管理員，您可以使用稽核記錄來追蹤過去90天期間在系統中觸發的使用者變更。
-author: Lisa
+author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 6adb4146-42fd-4eda-b46f-c61d7ff71df6
-source-git-commit: 822c4e13ab62d129d0a7c603105251e52578576d
+source-git-commit: a79e4146ce6d076ef0e3707416a9c21d643b96e1
 workflow-type: tm+mt
-source-wordcount: '1465'
+source-wordcount: '1530'
 ht-degree: 3%
 
 ---
@@ -65,6 +65,7 @@ ht-degree: 3%
 ## 稽核記錄型別和觸發它們的動作
 
 * [存取層級](#access-level)
+* [業務規則](#business-rules)
 * [公司](#company)
 * [狀況](#condition)
 * [自訂欄位](#custom-field)
@@ -97,6 +98,21 @@ ht-degree: 3%
      >系統不會記錄對財務資料或以下存取型別的任何許可權變更：檢視和編輯。
      >
      >例如，如果使用者將「規劃工具」存取型別從「檢視」變更為「編輯」，則系統不會顯示「微調您的設定」下拉式選單中所包含的資訊。
+
+### 業務規則
+
+Business Rules僅適用於已購買Ultimate Workfront計畫的客戶。 如需詳細資訊，請參閱[建立和編輯商業規則](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/business-rules.md)。
+
+當使用者執行下列其中一項作業時，系統會產生「商業規則」稽核記錄專案：
+
+* 建立商業規則
+* 編輯商業規則：
+
+   * 重新命名
+   * 新增或移除運算式
+   * 變更觸發器
+
+* 刪除商業規則
 
 ### 公司 {#company}
 
@@ -160,7 +176,7 @@ ht-degree: 3%
 * 刪除自訂欄位
 * 共用自訂欄位
 
-### 自訂表單 {#custom-forms}
+### 自訂表單 {#custom-form}
 
 當使用者執行下列其中一項動作時，系統會產生自訂Forms稽核記錄專案：
 

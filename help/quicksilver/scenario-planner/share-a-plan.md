@@ -7,10 +7,10 @@ description: 您可以將您在Adobe Workfront情境規劃工具中建立的計�
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: b8bbb533-4384-414c-8574-4e137962b8ca
-source-git-commit: 2ff32ba11f9ef214f16b11323386223792b0877e
+source-git-commit: a79e4146ce6d076ef0e3707416a9c21d643b96e1
 workflow-type: tm+mt
-source-wordcount: '903'
-ht-degree: 0%
+source-wordcount: '910'
+ht-degree: 1%
 
 ---
 
@@ -34,8 +34,10 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td> <p>[!DNL Adobe Workfront] 計畫*</p> </td> 
-   <td> <p>目前： [！UICONTROL Business]或更高版本</p>
-   <p>新增：Ultimate </p>
+   <td> <ul></li>
+   <li><p>新增：Ultimate </p></li>
+   <p>新的Workfront Select或Workfront計畫無法使用「情境規劃工具」。 </p>
+   <li><p>目前： [！UICONTROL Business]或更高版本</p></ul>
    </td> 
   </tr> 
   <tr> 
@@ -45,9 +47,11 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td>產品* </td> 
-   <td> 
-   <p>針對目前的Workfront計畫： </p>
-   <p>您必須為[!DNL Adobe Workfront Scenario Planner]購買額外的授權，才能存取本文所述的功能。</p> <p>如需[!DNL Workfront Scenario Planner]的存取與許可權相關資訊，請參閱<a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">使用[!DNL Scenario Planner]</a>所需的存取權。 </p> </td> 
+   <td> <ul><li><p>針對新的Workfront計畫：</p><p> Adobe Workfront</li></p>
+   <li><p>針對目前的Workfront計畫： </p>
+   <p>Adobe Workfront</p> <p>Adobe Workfront情境規劃工具</p></li></ul>
+
+<p>如需詳細資訊，請參閱<a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">使用[!DNL Scenario Planner]</a>所需的存取權。 </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>存取層級 </td> 
