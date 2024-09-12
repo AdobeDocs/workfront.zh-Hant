@@ -4,9 +4,10 @@ description: 2024年第四季管理員增強功能
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 95726a46a0f18353cfee67b69cc94d39d85f111f
+exl-id: 4f4694dd-a6cb-46b7-b2cf-fe24ed9419f5
+source-git-commit: c3e18716aa74ed91e21e542437a017586a58d0b3
 workflow-type: tm+mt
-source-wordcount: '395'
+source-wordcount: '402'
 ht-degree: 0%
 
 ---
@@ -38,6 +39,8 @@ ht-degree: 0%
 以前，設定是手動還原，或透過另一個環境升級套件還原。
 
 如需有關復原環境升級套件的詳細資訊，請參閱[復原環境升級套件](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-rollback.md)。
+
+[觀看此功能的影片示範。](https://video.tv.adobe.com/v/3434025/){target=_blank}
 
 ## 自訂表單設計工具上的「版面」按鈕允許兩或三欄
 

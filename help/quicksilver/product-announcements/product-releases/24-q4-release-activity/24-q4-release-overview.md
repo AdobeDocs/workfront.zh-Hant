@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 6cc67488-1ba9-4455-9152-366aaabf0939
-source-git-commit: 57c08a06a57bebfaa81035e4fe801f3077e6a829
+source-git-commit: c3e18716aa74ed91e21e542437a017586a58d0b3
 workflow-type: tm+mt
-source-wordcount: '1588'
+source-wordcount: '1606'
 ht-degree: 0%
 
 ---
@@ -40,7 +40,7 @@ ht-degree: 0%
 * [校訂增強功能](#proofing-enhancements)
 * [報表與控制面板增強功能](#report-and-dashboard-enhancements)
 * [其他增強功能](#other-enhancements)
-
+* [即將從Workfront移除的功能](#functionality-soon-to-be-removed-from-workfront)
 
 ### 管理員增強功能
 
@@ -78,6 +78,7 @@ ht-degree: 0%
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">復原環境升級套件</a></p>
+                        [！BADGE In Production for Fast Release ]{type=Positive}
                         <p>為了讓環境升級更靈活且更易於使用，我們啟用了復原功能。 現在，您可以在24小時內復原套件，讓您更輕鬆地還原受環境促銷活動套件影響的先前設定。</p>
                     </td>
                     <td><p><b>將於下列日期提供：</b></p>
@@ -192,7 +193,7 @@ ht-degree: 0%
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-project-enhancements.md" class="MCXref xref" xrefformat="{para}">更多相關的智慧指派</a></p>
-                        [！BADGE In Production ]{type=Informative}
+                        [！BADGE In Production for Fast Release ]{type=Positive}
                         <p>我們已變更Workfront用來計算及建議智慧型任務指派的演演算法。 新演演算法適用於Workfront中指派任務的以下區域：任務清單、任務標題中的「工作」區域、「首頁」和「摘要」面板。</p>
                     </td>
                     <td><p><b>將於下列日期提供：</b></p>
@@ -362,6 +363,14 @@ ht-degree: 0%
            </tbody>
         </table>
 
+### 即將從Workfront移除的功能
+
+下列功能即將從Workfront中移除：
+
+#### 使用24.10取代舊版首頁體驗
+
+我們將正式淘汰24.10版本的舊版家用體驗。 建議使用者開始使用新的首頁，在棄用之前，此首頁將繼續以其他功能來增強。 如需轉換的詳細資訊，包括使用者與管理員可以準備哪些工作的建議，請參閱[舊版首頁淘汰指南](/help/quicksilver/product-announcements/announcements/legacy-home-deprecation.md)。
+
 ## 公告
 
 ### Workfront Fusion增強功能
@@ -399,11 +408,3 @@ Workfront Planning的新功能可在生產環境中使用。 如需最新功能�
 ### 訓練更新
 
 探索每個Adobe Workfront產品版本的學習計畫、學習路徑、影片和指南的最新更新。 如需詳細資訊，請參閱[WorkfrontTutorials頁面](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html)的「新增功能」一節。
-
-### 即將從Workfront移除的功能
-
-下列功能即將從Workfront中移除：
-
-#### 使用24.10取代舊版首頁體驗
-
-我們將正式淘汰24.10版本的舊版家用體驗。 建議使用者開始使用新的首頁，在棄用之前，此首頁將繼續以其他功能來增強。 如需轉換的詳細資訊，包括使用者與管理員可以準備哪些工作的建議，請參閱[舊版首頁淘汰指南](/help/quicksilver/product-announcements/announcements/legacy-home-deprecation.md)。

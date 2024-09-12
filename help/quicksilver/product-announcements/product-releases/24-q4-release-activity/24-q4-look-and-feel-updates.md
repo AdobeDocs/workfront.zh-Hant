@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8bd234b2-7bda-43f4-9b08-3cf064e1d2de
-source-git-commit: 5138321543175cac3e51cc21c8309cbefd8bc1e8
+source-git-commit: c3e18716aa74ed91e21e542437a017586a58d0b3
 workflow-type: tm+mt
-source-wordcount: '388'
+source-wordcount: '387'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->預覽版本： 2024年7月18日；快速發行生產：24.9版（2024年9月）；每季生產：24.10版（2024年10月）
+>預覽版本： 2024年7月18日；快速發行生產：24.9版（2024年9月12日）；每季發行生產：24.10版（2024年10月）
 
 我們已將「設定>系統>偏好設定」頁面更新為更現代的設計，與Workfront的其他區域一致。
 
