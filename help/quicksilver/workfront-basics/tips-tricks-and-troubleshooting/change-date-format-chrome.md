@@ -6,9 +6,9 @@ title: 變更 [!DNL Adobe Workfront]中日期的格式
 description: 若要變更 [!DNL Adobe Workfront] 中日期的日期格式，您必須變更瀏覽器中的語言設定。
 feature: Get Started with Workfront
 exl-id: 9fac92fb-e3d1-4537-b324-4b35447cef28
-source-git-commit: e9a96b6952ca3f128cc723df68787f40c8dcf604
+source-git-commit: ba67bb2a77247a1cbface139e3ec0afeced65aa3
 workflow-type: tm+mt
-source-wordcount: '360'
+source-wordcount: '416'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,11 @@ ht-degree: 0%
 # 變更[!DNL Adobe Workfront]中日期的格式
 
 <!--this article used to be called "Change the date format in Adobe Workfront when using Chrome". The team decieded to make it more generic and hide the steps. Also see drafted content below-->
+
+>[!IMPORTANT]
+>
+> 本文資訊僅適用於尚未上線到Adobe統一體驗的組織。
+> 如果您的組織已加入Adobe統一體驗，您的日期偏好設定由您在Adobe統一命令介面中設定的語言偏好設定控制。 預設語言設定（因此也是預設日期設定）是`en-US`。
 
 您可以在[!DNL Adobe Workfront]中變更日期的日期格式，例如[!UICONTROL 計畫完成日期]、[!UICONTROL 實際完成日期]或[!UICONTROL 預計完成日期]。
 
