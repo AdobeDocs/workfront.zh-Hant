@@ -1,10 +1,11 @@
 ---
 title: Adobe Workfront規劃最佳作法
 description: 身為行銷營運領導者，您可以使用Adobe Workfront Planning來組織所有團隊在行銷生命週期中的工作。 這些是我們從Workfront Planning開始建議的一些最佳實務。
-hidefromtoc: true
-hide: true
+feature: Workfront Planning
+role: User, Admin
+author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: ae10d35c61bf40c9e6f0422bd670b9733ad62aae
+source-git-commit: bbc3ac852dae3d9a503b4585dfc229d43c9aed28
 workflow-type: tm+mt
 source-wordcount: '3225'
 ht-degree: 0%

@@ -6,9 +6,9 @@ description: 當排定貴公司較高層級策略的優先順序時，您可以�
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: 15c0e519-0164-449d-84f3-470d0d4eb795
-source-git-commit: a79e4146ce6d076ef0e3707416a9c21d643b96e1
+source-git-commit: bbc3ac852dae3d9a503b4585dfc229d43c9aed28
 workflow-type: tm+mt
-source-wordcount: '2396'
+source-wordcount: '2397'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ ht-degree: 0%
    <td> <p>[!DNL Adobe Workfront] 計畫*</p> </td> 
    <td> <ul></li>
    <li><p>新增：Ultimate </p></li>
-   <p>新的Workfront Select或Workfront計畫無法使用「情境規劃工具」。 </p>
+   <p>新的Workfront Select或Workfront Prime計畫無法使用「情境規劃工具」。 </p>
    <li><p>目前： [！UICONTROL Business]或更高版本</p></ul>
    </td> 
   </tr> 

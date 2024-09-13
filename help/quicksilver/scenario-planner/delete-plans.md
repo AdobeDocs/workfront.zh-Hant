@@ -6,9 +6,9 @@ description: 您可以刪除您建立的計畫。 您無法刪除與您共用的
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: 74515723-3822-425a-aa9e-970af63f9189
-source-git-commit: a79e4146ce6d076ef0e3707416a9c21d643b96e1
+source-git-commit: bbc3ac852dae3d9a503b4585dfc229d43c9aed28
 workflow-type: tm+mt
-source-wordcount: '507'
+source-wordcount: '508'
 ht-degree: 1%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 1%
    <td> <p>[!DNL Adobe Workfront] 計畫*</p> </td> 
    <td> <ul></li>
    <li><p>新增：Ultimate </p></li>
-   <p>新的Workfront Select或Workfront計畫無法使用「情境規劃工具」。 </p>
+   <p>新的Workfront Select或Workfront Prime計畫無法使用「情境規劃工具」。 </p>
    <li><p>目前： [！UICONTROL Business]或更高版本</p></ul>
    </td> 
   </tr> 

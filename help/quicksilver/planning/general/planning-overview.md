@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: 1768c0610eb459148ff3e51ed08c115053c7d8f7
+source-git-commit: bbc3ac852dae3d9a503b4585dfc229d43c9aed28
 workflow-type: tm+mt
-source-wordcount: '2039'
+source-wordcount: '2102'
 ht-degree: 1%
 
 ---
@@ -18,6 +18,12 @@ ht-degree: 1%
 <!--this article is linked to the WF Planning landing page - do not change URL or move it; send the team a new URL after we add the redirects for this page-->
 
 <!--do not use the snippet for IMPORTANT as it links to this article-->
+
+<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它只能在「預覽」環境中供所有客戶使用，或在「生產」環境中供啟用快速發行的客戶使用。</span>
+
+<span class="preview">如需快速發行資訊，請參閱[為您的組織啟用或停用快速發行](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
+
+<span class="preview">如需目前版本的相關資訊，請參閱[2023年第四季版本總覽](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md)。</span>
 
 >[!IMPORTANT]
 >
@@ -89,8 +95,7 @@ Adobe Workfront規劃是Adobe Workfront的新產品。 Workfront Planning的目�
 * 與外部資源公開共用檢視
 * 重複檢視
 * 提交請求以建立記錄
-* 將記錄詳細資料匯出至Word\
-  <!--* Export record details to PDF-->
+* 將記錄詳細資料匯出至Word <span class="preview">和PDF。</span>
 * 新增註解至記錄
 * 接收應用程式內通知
 * 接收電子郵件通知
