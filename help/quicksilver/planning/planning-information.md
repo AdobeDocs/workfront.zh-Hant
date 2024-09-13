@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 exl-id: 7a65d66e-a578-4016-805e-0cb04caaa18a
 recommendations: noDisplay, noCatalog
-source-git-commit: bbc3ac852dae3d9a503b4585dfc229d43c9aed28
+source-git-commit: 8b087b69a671852d7a71e1bb3fa4491bbac1b770
 workflow-type: tm+mt
-source-wordcount: '612'
+source-wordcount: '611'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ ht-degree: 0%
 * [Adobe Workfront計畫總覽](/help/quicksilver/planning/general/planning-overview.md)： Adobe Workfront計畫的高層級總覽，包括此解決方案特有的術語和概念。 建議您在這裡透過Workfront規劃開始您的歷程。
 * [Adobe Workfront Planning物件限制總覽](/help/quicksilver/planning/general/limitations-overview.md)：您可以在Workfront Planning中建立的物件數目限制清單。
 * [2024年Adobe Workfront Planning發行活動](/help/quicksilver/planning/general/release-activity.md)： 2024年Workfront Planning初期發行的所有功能清單。 其中包括自2023年5月22日Adobe Workfront Planning測試版計畫推出以來所發生之先前版本的連結。
-* [Adobe Workfront Planning最佳作法](/help/quicksilver/planning/general/planning-best-practices.md)：使用Workfront Planning的最佳作法和常見問題集。
+* [Adobe Workfront Planning最佳作法](/help/quicksilver/planning/general/planning-best-practices.md)：使用Workfront Planning的常見問題和最佳作法集合。
 
 ## Workfront Planning可用的其他功能
 
