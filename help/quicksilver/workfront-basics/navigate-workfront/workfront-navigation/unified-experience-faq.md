@@ -6,7 +6,7 @@ description: ' [!DNL Workfront] 和Adobe Experience Cloud的一些功能不同�
 author: Nolan
 feature: Get Started with Workfront
 exl-id: b9076fe0-26d7-4f33-80a4-564875ea13ba
-source-git-commit: b4c1f9c29dd6ad1e07acc741ab52e95a7bae7f67
+source-git-commit: be60ec38495a7c25d88e325cf4ba96decf083ea3
 workflow-type: tm+mt
 source-wordcount: '1352'
 ht-degree: 0%
@@ -34,7 +34,7 @@ ht-degree: 0%
 | 可透過[!UICONTROL 主功能表]和頂端導覽區域存取說明 | 可透過[!UICONTROL 主功能表]與[!DNL Workfront]導覽列存取說明 |
 | 校訂檢視器會在新標籤中開啟 | 校訂檢視器會在Workfront中開啟 |
 | 用來存取Workfront的URL為`experience.adobe.com` | 用來存取Workfront的URL為`(CompanyName).my.workfront.com` |
-| 日期格式（例如YYYY/MM/DD）是根據瀏覽器偏好設定 | 日期格式（例如YYYY/MM/DD）是以Unified Experience語言設定為基礎。 如果使用者尚未更新其語言設定，則會使用`en-US`設定。 |
+| 日期格式（例如YYYY/MM/DD）是以Unified Experience語言設定為基礎。 如果使用者尚未更新其語言設定，則會使用`en-US`設定。 | 日期格式（例如YYYY/MM/DD）是根據瀏覽器偏好設定 |
 
 {style="table-layout:auto"}
 
