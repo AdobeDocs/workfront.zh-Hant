@@ -3,9 +3,9 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文件、教學課程和其他資源，了解如何在您的組織中實施並有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: 541b2048800b53b6f2302eaafe0598761a1f619b
+source-git-commit: 6d32b7c7427f1f8f9d1858724574cdd13b89fa1f
 workflow-type: tm+mt
-source-wordcount: '14390'
+source-wordcount: '14398'
 ht-degree: 2%
 
 ---
@@ -1017,6 +1017,7 @@ ht-degree: 2%
       * [首頁工作清單中顯示的重複核准流程](workfront-basics/tips-tricks-and-troubleshooting/duplicate-apprval-processes-home.md)
       * [篩選器按鈕未顯示在頁首中](workfront-basics/tips-tricks-and-troubleshooting/filter-buttons-do-not-display-in-page-headers.md)
       * [我參與的專案篩選器包含未預期的結果](workfront-basics/tips-tricks-and-troubleshooting/projects-im-on-filter-including-unexpected-results.md)
+      * [多個瀏覽器分頁導致Workfront登出](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/multiple-browser-tabs-cause-logout.md)
 * 敏捷 {#agile}
    * [敏捷](agile/agile.md)
    * [展示板概述](agile/boards-overview.md)
