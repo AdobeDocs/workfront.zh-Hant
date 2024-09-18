@@ -7,9 +7,9 @@ description: 「專案樹狀圖」視覺效果是在特定時段內工作的小�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 6216465e-c3bb-4f2f-b71c-766ad0c2ed40
-source-git-commit: 4e928defe9b6271cef64f6554e91af4fc31ddeca
+source-git-commit: 364b668f23f5437e5cca0c4cc4793b17d444fb56
 workflow-type: tm+mt
-source-wordcount: '815'
+source-wordcount: '828'
 ht-degree: 2%
 
 ---
@@ -24,7 +24,9 @@ ht-degree: 2%
 
 ## 存取需求
 
-您必須具備下列條件：
++++ 展開以檢視存取需求。
+
+您必須具有下列存取權才能執行本文中的步驟：
 
 <table style="table-layout:auto"> 
  <col> 
@@ -54,6 +56,8 @@ ht-degree: 2%
 </table>
 
 如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
++++
 
 ## 先決條件
 

@@ -7,9 +7,9 @@ description: 依團隊的活動視覺效果會顯示在主團隊的特定時間�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: c4f9886c-ce76-43a8-bd43-cb64fff27e79
-source-git-commit: 4e928defe9b6271cef64f6554e91af4fc31ddeca
+source-git-commit: 364b668f23f5437e5cca0c4cc4793b17d444fb56
 workflow-type: tm+mt
-source-wordcount: '688'
+source-wordcount: '701'
 ht-degree: 7%
 
 ---
@@ -29,7 +29,9 @@ ht-degree: 7%
 
 ## 存取需求
 
-您必須具備下列條件：
++++ 展開以檢視存取需求。
+
+您必須具有下列存取權才能執行本文中的步驟：
 
 <table style="table-layout:auto"> 
  <col> 
@@ -60,6 +62,8 @@ ht-degree: 7%
 </table>
 
 如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
++++
 
 ## 先決條件
 
