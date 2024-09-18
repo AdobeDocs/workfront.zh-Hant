@@ -6,9 +6,9 @@ description: 透過Adobe Experience Cloud存取 [!DNL Workfront] 可讓您以順
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 458631a2-d77d-46d6-8d6b-7008237e5154
-source-git-commit: 84b63191d2f288b2c280a2634d551d89d594a9f6
+source-git-commit: ef85b267b3417dddd0c9cc4a2b916b83dc416e14
 workflow-type: tm+mt
-source-wordcount: '538'
+source-wordcount: '574'
 ht-degree: 0%
 
 ---
@@ -57,6 +57,10 @@ ht-degree: 0%
 1. 在[!UICONTROL 登入]畫面上，輸入您的電子郵件地址並按一下&#x200B;**[!UICONTROL 繼續]**。
 
    ![登入[!DNL Adobe Experience Cloud]](assets/aec-login-page.png)
+
+>[!NOTE]
+>
+>如果您已開啟Workfront的頁面中的瀏覽器分頁工作階段到期，且另一個瀏覽器分頁中有作用中的Workfront工作階段，您可以重新載入過期的分頁以重新開啟Workfront頁面。
 
 ## 存取[!DNL Workfront]
 
