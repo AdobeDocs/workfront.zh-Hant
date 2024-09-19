@@ -5,9 +5,10 @@ title: 舊版首頁淘汰指南
 description: 本頁包含即將淘汰舊版首頁的資訊。
 author: Nolan
 feature: Product Announcements
-source-git-commit: 84f7f80314e4acafb0414b806f7b1e1e4b2845fc
+exl-id: 1fef08c9-624d-4783-a0bd-8009413fc2bd
+source-git-commit: 629fc09ded495e9add5f24144c4fdffc31e40552
 workflow-type: tm+mt
-source-wordcount: '808'
+source-wordcount: '853'
 ht-degree: 0%
 
 ---
@@ -79,6 +80,10 @@ Adobe Workfront社群，我們有新聞了 — 我們很快就會淘汰舊版首
 * 目前無法顯示物件到期日的時間戳記。
 
 * 目前無法在更新摘要中顯示認可日期。 不過，有個可用的因應措施：透過版面配置範本自訂，在標題中顯示認可日期。
+* 新首頁目前不支援我已提交的核准。 如果您需要此功能，請在下列社群貼文中投票或發表評論：
+   * [新增「我已提交的核准」Widget](https://experienceleaguecommunities.adobe.com/t5/workfront-ideas/add-quot-approvals-i-submitted-quot-widget-to-new-home/idc-p/704664#M25269)
+   * [新增[我已提交的核准]至新首頁](https://experienceleaguecommunities.adobe.com/t5/workfront-ideas/add-quot-approvals-i-submitted-quot-widget-to-new-home/idc-p/704664#M25269)
+
 +++
 
 +++如何規範使用者在新首頁有權存取的Widget？

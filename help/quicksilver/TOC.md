@@ -3,7 +3,7 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文件、教學課程和其他資源，了解如何在您的組織中實施並有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: 2f731d1ee8381df6a9d0d767743dc8b5b52f4a1b
+source-git-commit: d996e2777060ccd7d264af7f61261737b36a616b
 workflow-type: tm+mt
 source-wordcount: '14404'
 ht-degree: 2%
@@ -414,10 +414,10 @@ ht-degree: 2%
    * 公告{#announcements}
       * [公告](product-announcements/announcements/announcements.md)
       * [不再支援的功能排程](product-announcements/announcements/feature-removal-timeline.md)
+      * [舊版首頁淘汰指南](product-announcements/announcements/legacy-home-deprecation.md)
       * [維護期間常見問題集](product-announcements/announcements/maintenance-window-faq.md)
       * [將校樣新增至允許清單所需變更](product-announcements/announcements/proofhq-domain-change-workfront.md)
       * [在新的Adobe Workfront體驗中取消訂閱公告中心訊息](product-announcements/announcements/unsubscribe-from-ac-messages.md)
-      * [舊版首頁淘汰指南](product-announcements/announcements/legacy-home-deprecation.md)
       * 宣告封存{#announcement-archive}
          * [宣告封存](product-announcements/announcements/announcement-archive/announcement-archive.md)
          * [自訂表單增強功能](product-announcements/announcements/announcement-archive/custom-form-enhancements.md)
