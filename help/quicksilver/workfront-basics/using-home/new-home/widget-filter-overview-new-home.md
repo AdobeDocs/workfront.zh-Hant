@@ -5,9 +5,10 @@ title: 新首頁Widget篩選器概觀
 description: 您可以從多個Widget中進行選擇，以自訂首頁上顯示的內容。 這些Widget可以在首頁上調整大小和排列。
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: a1fcaaa9695fb059ffa9dc670ae4fe3e5609aa23
+exl-id: 58f79e81-df6b-456f-9e91-4e00a1c2a8a2
+source-git-commit: 6fe37148bbb242f3a954a4fd26284fd7e70a5cdf
 workflow-type: tm+mt
-source-wordcount: '610'
+source-wordcount: '742'
 ht-degree: 14%
 
 ---
@@ -19,6 +20,7 @@ ht-degree: 14%
 * [我的專案](#my-projects)
 * [我的任務](#my-tasks)
 * [我的問題](#my-issues)
+* [我的工作]
 
 ## 我的專案
 
@@ -229,4 +231,52 @@ ht-degree: 14%
     <td>我的角色中的未指派</td>
     <td>顯示所有未指派主要使用者但已指派角色的問題 </td>
   </tr>
+</table>
+
+## 我的工作
+
+您可以在「我的工作」Widget中使用下列篩選器：
+
+<table>
+  <tbody>
+    <tr>
+      <td>正在處理</td>
+      <td>顯示您目前正在處理的專案</td>
+    </tr>
+    <tr>
+      <td>已就緒可開始</td>
+      <td>顯示專案與 
+      <ul>
+      <li>沒有未完成的前置任務或任務限制</li>
+      <li>計劃開始日期是過去或未來最多兩週</li>
+      </ul>
+      </td>
+    </tr>
+    <tr>
+      <td>尚未就緒</td>
+      <td>顯示具有
+       <ul>
+      <li>未完成的前置任務或無法處理專案的任務限制</li>
+      或
+      <li>超過兩週的計劃開始日期</li>
+      </ul>
+       </td>
+    </tr>
+    <tr>
+      <td>已請求</td>
+      <td>顯示您尚未開始處理的問題</td>
+    </tr>
+    <tr>
+      <td>由我委派</td>
+      <td>顯示您已委派給其他使用者的專案</td>
+    </tr>
+    <tr>
+      <td>已委派給我</td>
+      <td>顯示使用者委派給您的專案</td>
+    </tr>
+    <tr>
+      <td>已完成</td>
+      <td>顯示過去兩週內完成的工作。 此篩選選項不包含核准。</td>
+    </tr>
+  </tbody>
 </table>
