@@ -5,9 +5,9 @@ author: Nolan
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 89a1ac84-123b-487e-8c91-615a36e246c3
-source-git-commit: 7375a6ed1d0bdea3e6df3ef564c325e0cef65f98
+source-git-commit: e6688408c3316a3f99fdb051adeb306f359057d1
 workflow-type: tm+mt
-source-wordcount: '88'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
