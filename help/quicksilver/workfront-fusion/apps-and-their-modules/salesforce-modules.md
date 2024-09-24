@@ -5,11 +5,11 @@ product-area: workfront-integrations
 keywords: 聯結器
 navigation-topic: apps-and-their-modules
 title: Salesforce模組
-description: 在Adobe Workfront Fusion案例中，您可以自動化使用Salesforce的工作流程，並將其連線到多個第三方應用程式和服務。
+description: 在Adobe Workfront Fusion案例中，您可以自動化使用Salesforce的工作流程，並將其連結到多個協力廠商應用程式和服務。
 author: Becky
 feature: Workfront Fusion
 exl-id: 3c8adcd9-fb5f-400d-9edd-6d9fc30cc728
-source-git-commit: c51169c18bef8ac8126a04c08deb88d830517b0b
+source-git-commit: 16cd5dee183153540bcccea8ce469a461d0e8562
 workflow-type: tm+mt
 source-wordcount: '2740'
 ht-degree: 0%
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 在Adobe Workfront Fusion案例中，您可以自動化使用[!DNL Salesforce]的工作流程，並將其連線至多個協力廠商應用程式和服務。
 
-如需Salesforce聯結器的影片簡介，請參閱：
+如需Salesforce聯結器的簡介影片，請參閱：
 
 * [Salesforce](https://video.tv.adobe.com/v/3427027/){target=_blank}
 
@@ -111,7 +111,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td>[！UICONTROL Connection]</td> 
-   <td> <p>如需有關將您的[!DNL Salesforce]帳戶連線到[!DNL Workfront Fusion]的指示，請參閱<a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與[!DNL Adobe Workfront Fusion]的連線 — 基本指示</a></p> </td> 
+   <td> <p>如需有關將您的[!DNL Salesforce]帳戶連線到[!DNL Workfront Fusion]的指示，請參閱<a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與[!DNL Adobe Workfront Fusion]的連線 — 基本指示</a>。</p> </td> 
   </tr> 
   <tr> 
    <td>[！UICONTROL型別] </td> 
@@ -191,7 +191,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td>[！UICONTROL Connection]</td> 
-   <td> <p>如需有關將您的[!DNL Salesforce]帳戶連線到[!DNL Workfront Fusion]的指示，請參閱<a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與[!DNL Adobe Workfront Fusion]的連線 — 基本指示</a></p> </td> 
+   <td> <p>如需有關將您的[!DNL Salesforce]帳戶連線到[!DNL Workfront Fusion]的指示，請參閱<a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與[!DNL Adobe Workfront Fusion]的連線 — 基本指示</a>。</p> </td> 
   </tr> 
   <tr> 
    <td>[！UICONTROL記錄型別] </td> 
@@ -233,7 +233,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td>[！UICONTROL Connection]</td> 
-   <td> <p>如需有關將您的[!DNL Salesforce]帳戶連線到[!DNL Workfront Fusion]的指示，請參閱<a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與[!DNL Adobe Workfront Fusion]的連線 — 基本指示</a></p> </td> 
+   <td> <p>如需有關將您的[!DNL Salesforce]帳戶連線到[!DNL Workfront Fusion]的指示，請參閱<a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與[!DNL Adobe Workfront Fusion]的連線 — 基本指示</a>。</p> </td> 
   </tr> 
   <tr> 
    <td> <p>[！UICONTROL記錄型別] </p> </td> 
@@ -262,7 +262,7 @@ ht-degree: 0%
  <tbody> 
   <tr>
     <td>[！UICONTROL Connection]</td>
-   <td> <p>如需有關將您的[!DNL Salesforce]帳戶連線到[!DNL Workfront Fusion]的指示，請參閱<a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與[!DNL Adobe Workfront Fusion]的連線 — 基本指示</a></p> </td> 
+   <td> <p>如需有關將您的[!DNL Salesforce]帳戶連線到[!DNL Workfront Fusion]的指示，請參閱<a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與[!DNL Adobe Workfront Fusion]的連線 — 基本指示</a>。</p> </td> 
   </tr> 
   <tr>
     <td>[！UICONTROL記錄型別]</td>
@@ -295,7 +295,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td>[！UICONTROL Connection]</td> 
-   <td> <p>如需有關將您的[!DNL Salesforce]帳戶連線到[!DNL Workfront Fusion]的指示，請參閱<a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與[!DNL Adobe Workfront Fusion]的連線 — 基本指示</a></p> </td> 
+   <td> <p>如需有關將您的[!DNL Salesforce]帳戶連線到[!DNL Workfront Fusion]的指示，請參閱<a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與[!DNL Adobe Workfront Fusion]的連線 — 基本指示</a>。</p> </td> 
   </tr> 
   <tr> 
    <td>[！UICONTROL記錄型別] </td> 
@@ -329,7 +329,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">[！UICONTROL Connection]</td> 
-   <td> <p>如需有關將您的[!DNL Salesforce]帳戶連線到[!DNL Workfront Fusion]的指示，請參閱<a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與[!DNL Adobe Workfront Fusion]的連線 — 基本指示</a></p> </td> 
+   <td> <p>如需有關將您的[!DNL Salesforce]帳戶連線到[!DNL Workfront Fusion]的指示，請參閱<a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與[!DNL Adobe Workfront Fusion]的連線 — 基本指示</a>。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[！UICONTROL URL]</p> </td> 
@@ -392,7 +392,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td>[！UICONTROL Connection]</td> 
-   <td> <p>如需有關將您的[!DNL Salesforce]帳戶連線到[!DNL Workfront Fusion]的指示，請參閱<a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與[!DNL Adobe Workfront Fusion]的連線 — 基本指示</a></p> </td> 
+   <td> <p>如需有關將您的[!DNL Salesforce]帳戶連線到[!DNL Workfront Fusion]的指示，請參閱<a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與[!DNL Adobe Workfront Fusion]的連線 — 基本指示</a>。</p> </td> 
   </tr> 
   <tr> 
    <td>[！UICONTROL上傳型別]</td> 
@@ -429,7 +429,7 @@ ht-degree: 0%
  <tbody> 
   <tr>
     <td>[！UICONTROL Connection]</td>
-   <td> <p>如需有關將您的[!DNL Salesforce]帳戶連線到[!DNL Workfront Fusion]的指示，請參閱<a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與[!DNL Adobe Workfront Fusion]的連線 — 基本指示</a></p> </td> 
+   <td> <p>如需有關將您的[!DNL Salesforce]帳戶連線到[!DNL Workfront Fusion]的指示，請參閱<a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與[!DNL Adobe Workfront Fusion]的連線 — 基本指示</a>。</p> </td> 
   </tr> 
   <tr>
     <td>[！UICONTROL下載型別]</td>
@@ -464,7 +464,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td>[！UICONTROL Connection]</td> 
-   <td> <p>如需有關將您的[!DNL Salesforce]帳戶連線到[!DNL Workfront Fusion]的指示，請參閱<a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與[!DNL Adobe Workfront Fusion]的連線 — 基本指示</a></p> </td> 
+   <td> <p>如需有關將您的[!DNL Salesforce]帳戶連線到[!DNL Workfront Fusion]的指示，請參閱<a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與[!DNL Adobe Workfront Fusion]的連線 — 基本指示</a>。</p> </td> 
   </tr> 
   <tr> 
    <td>[！UICONTROL ID]</td> 
@@ -495,15 +495,15 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td>[！UICONTROL Connection]</td> 
-   <td> <p>如需有關將您的[!DNL Salesforce]帳戶連線到[!DNL Workfront Fusion]的指示，請參閱<a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與[!DNL Adobe Workfront Fusion]的連線 — 基本指示</a></p> </td> 
+   <td> <p>如需有關將您的[!DNL Salesforce]帳戶連線到[!DNL Workfront Fusion]的指示，請參閱<a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與[!DNL Adobe Workfront Fusion]的連線 — 基本指示</a>。</p> </td> 
   </tr> 
   <tr> 
    <td>[！UICONTROL搜尋型別]</td> 
    <td> <p>選取您要模組執行的搜尋型別：</p> 
     <ul> 
      <li> <p>[！UICONTROL Simple]</p> </li> 
-     <li> <p>使用SOSL （Salesforce物件搜尋語言）的[！UICONTROL]</p> </li> 
-     <li> <p>使用SOQL （Salesforce物件查詢語言）的[！UICONTROL]</p> </li> 
+     <li> <p>使用SOSL (Salesforce物件搜尋語言)的[！UICONTROL]</p> </li> 
+     <li> <p>使用SOQL (Salesforce物件查詢語言)的[！UICONTROL]</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
