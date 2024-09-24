@@ -5,9 +5,9 @@ title: 使用「我的工作」Widget管理您的工作
 description: 「我的工作」Widget會集中顯示您所有指派的任務、問題和請求。 在這裡，您可以篩選及組織您的工作、記錄時間、進行更新並將工作專案標籤為完成。
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: c96169186af3bc83b823ec8870173911cf546091
+source-git-commit: 09dd8d24d021e8a25b3a7a63fe93d074f8a8ee0c
 workflow-type: tm+mt
-source-wordcount: '703'
+source-wordcount: '704'
 ht-degree: 5%
 
 ---
@@ -74,6 +74,7 @@ ht-degree: 5%
       <td>顯示專案與 
       <ul>
       <li>沒有未完成的前置任務或任務限制</li>
+      <p>和</p>
       <li>計劃開始日期是過去或未來最多兩週</li>
       </ul>
       </td>
@@ -83,7 +84,7 @@ ht-degree: 5%
       <td>顯示具有
        <ul>
       <li>未完成的前置任務或無法處理專案的任務限制</li>
-      或
+      <p>或</p>
       <li>超過兩週的計劃開始日期</li>
       </ul>
        </td>
@@ -156,7 +157,7 @@ ht-degree: 5%
 * 新增更新
 * 瀏覽至檔案區域以上傳檔案
 * 檢視工作專案詳細資料和更新自訂欄位
-Workfront管理員可以自訂哪些欄位會出現在版面配置範本的摘要中。 如需詳細資訊，請參閱[使用配置範本自訂首頁和摘要](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md)。
+Workfront管理員可以自訂哪些欄位會顯示在版面配置範本的摘要中。 如需詳細資訊，請參閱[使用配置範本自訂首頁和摘要](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md)。
 * 變更工作專案狀態
 * 檢視子任務
 * 記錄時間

@@ -7,9 +7,9 @@ author: Lisa
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 246e3f71-6403-4381-866c-fa693fb9944d
-source-git-commit: 34ce6492e14399926aed910bf9ed4d8688904341
+source-git-commit: b9a01dd8b46a4af195c00858ed91ad3b4995d51b
 workflow-type: tm+mt
-source-wordcount: '120'
+source-wordcount: '127'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,7 @@ ht-degree: 0%
 本節包含下列文章：
 
 * [開始使用[!UICONTROL 首頁]](../../../workfront-basics/using-home/using-the-home-area/get-started-with-home.md)
+* [從舊版首頁移至新首頁](/help/quicksilver/workfront-basics/using-home/new-home/move-to-new-home.md)
 * [使用[!UICONTROL 我的更新]區域](../../../workfront-basics/using-home/using-the-home-area/my-updates-area.md)
 * [在[!UICONTROL 首頁]區域的[!UICONTROL 工作清單]中顯示專案](../../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md)
 * [優先處理[!UICONTROL 首頁]區域中的工作](../../../workfront-basics/using-home/using-the-home-area/prioritize-work-in-home.md)
