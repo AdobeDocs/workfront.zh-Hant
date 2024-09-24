@@ -8,7 +8,7 @@ author: Courtney
 feature: System Setup and Administration, Digital Content and Documents
 role: Admin
 exl-id: a9f182c0-11cb-4e94-be86-b19ba5102faa
-source-git-commit: ab774e937a15aaa04704e872579df880a9b80aaf
+source-git-commit: 7a2cfddf4683b5b49121bbe3987498297b963ffa
 workflow-type: tm+mt
 source-wordcount: '2075'
 ht-degree: 0%
@@ -28,7 +28,7 @@ ht-degree: 0%
 使用自動化工作流程範本時，請考量下列事項：
 
 1. 自動化工作流程範本的設定會決定您可以使用自動化工作流程做哪些事來校訂。 例如，如果範本中停用「新增階段」按鈕，當您使用校訂的「自動化工作流程」設定時，將無法看到該按鈕。
-1. 當有人在自動化工作流程範本中新增到頁面，但已經在校樣上作為稽核者出現時，套用範本會從階段中移除稽核者。 如果您未將其他稽核者新增至階段，則會出現一則訊息，提示您新增稽核者。
+1. 將人員新增至自動化工作流程範本中的階段時，但同時也以稽核者身分出現在校樣中，套用範本會從階段中移除稽核者。 如果您未將其他稽核者新增至階段，則會出現一則訊息，提示您新增稽核者。
 1. 您修改自動化工作流程範本的能力取決於Workfront管理員設定的範本設定，如所述。 如果修改範本的功能已停用，則只有範本的擁有者可以修改它。
 
 如需有關自動化工作流程的資訊，請參閱[自動化工作流程概觀](../../../review-and-approve-work/proofing/proofing-overview/automated-workflow.md)。
