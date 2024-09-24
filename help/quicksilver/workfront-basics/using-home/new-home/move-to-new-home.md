@@ -5,9 +5,9 @@ title: 從舊版首頁移至新首頁
 description: 舊版首頁將於2017年第4季版本中從Workfront移除。 本文提供新首頁將可使用哪些功能的相關資訊，以及將使用者移至「新首頁」體驗的建議。
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: 69b264ac060a7c76a151536df622011b5eeb7953
+source-git-commit: 8666870341227f2bdcd08ad77753a28748ed9847
 workflow-type: tm+mt
-source-wordcount: '1596'
+source-wordcount: '1632'
 ht-degree: 5%
 
 ---
@@ -185,7 +185,7 @@ Workfront管理員可使用版面配置範本自訂「新首頁」中可用的Wi
 
 +++
 
-  ![](assets/widgets-menu.png)
+![](assets/widgets-menu.png)
 
 ### 檢視適用於每種授權型別的Widget
 
@@ -262,3 +262,17 @@ Workfront管理員可使用版面配置範本自訂「新首頁」中可用的Wi
 1. 將其他使用者重新指派到「新首頁」版面配置。
 
 如此一來，您的使用者就能儘快適應新體驗，並自訂新首頁，以最符合個人需求。 請參閱新首頁](/help/quicksilver/workfront-basics/using-home/new-home/add-edit-remove-widgets-in-new-home.md)中的[移除、新增和重新排列Widget，瞭解使用者如何在自己的新首頁上自訂這些Widget。
+
+### 適用於使用者的資源
+
+**說明文章**
+
+* [使用「我的工作」Widget管理您的工作](/help/quicksilver/workfront-basics/using-home/new-home/move-to-new-home.md)
+
+**培訓**
+
+* [Adobe Workfront中的Worker基礎知識](https://adobe-ats.sabacloud.com/Saba/Web_spf/PRODTNT100/app/me/learningeventdetail/cours000000000098821?regId=regdw000000001250612)
+
+>[!IMPORTANT]
+>
+>此為免費課程，但您必須登入並註冊才能存取。
