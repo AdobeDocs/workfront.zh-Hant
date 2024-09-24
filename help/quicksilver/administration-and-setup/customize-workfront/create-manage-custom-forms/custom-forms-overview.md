@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: b04ed2e8-c60e-4978-8a9d-b9e087987ef4
-source-git-commit: 8e6caabfaa347f0595657078e2d08ce70c0cb697
+source-git-commit: 8d9a9d8356f195d1e1fcbf0ae6c9b08f20ba4bbf
 workflow-type: tm+mt
 source-wordcount: '441'
 ht-degree: 9%
@@ -33,7 +33,7 @@ ht-degree: 9%
 
 表單設計工具有一個畫布樣式的工作區，可讓您同時檢視欄位、畫布和欄位設定。 它也可讓您在設計表單時拖放區段內的欄位。 您可以調整畫面右側的大小，為欄位選項提供更多空間。
 
-<span class="preview"> **配置**&#x200B;按鈕（未顯示在此影像中）可讓您從兩欄或三欄式工作區中進行選擇。 按鈕會指出目前選取的配置。 三欄式佈局在最右欄中顯示欄位設定。 在兩欄配置中，欄位設定會顯示在最左欄的欄位程式庫旁。</span>
+<span class="preview">配置按鈕（未顯示在此影像中）可讓您從兩欄或三欄式工作區中進行選擇。 按鈕會指出目前選取的配置。 三欄式佈局在最右欄中顯示欄位設定。 在兩欄配置中，欄位設定會顯示在最左欄的欄位程式庫旁。</span>
 
 如需詳細資訊，請參閱[使用表單設計工具](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)設計表單。
 
@@ -48,19 +48,19 @@ Workfront為每種物件型別提供許多內建欄位。
 您可以在Workfront中將下列型別的自訂欄位新增至自訂表單：
 
 * 單行文字
-* 段落文字
+* 段落
 * 含格式的文字
-* 下拉
-* 多選下拉清單
+* 單選下拉式清單
+* 多選下拉式清單
 * 外部查詢
-* 原生欄位
+* 原生欄位參考
 * 自動提示
 * 已計算
-* 日期欄位
+* 日期
 * 核取方塊群組
 * 單選按鈕
 * 描述文字
-* 分節符號
+* 分區符號
 * Adobe XD
 * 影像
 * PDF

@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: ad5d49baddcacaf59c0194fcd3335e71448ae5f7
+source-git-commit: 9a8498adb51f5bc18747667865ebf4b248e57bb5
 workflow-type: tm+mt
-source-wordcount: '5546'
+source-wordcount: '5541'
 ht-degree: 5%
 
 ---
@@ -152,7 +152,7 @@ ht-degree: 5%
 +++ **展開以檢視可用文字欄位的說明**
 
 * **單行文字欄位**：允許使用者在欄位中輸入單行文字。
-* **段落文字欄位**：允許使用者在欄位中輸入多行文字。
+* **段落欄位**：允許使用者在欄位中輸入多行文字。
 * **含格式的文字欄位**：可讓使用者在欄位中輸入多行文字，並以粗體、斜體、底線、專案符號、編號、超連結和區塊引號來格式化文字。 15,000的字元限制可提供大量的文字和格式。
 
   清單和報告上的篩選器不支援此自訂欄位型別。
@@ -172,8 +172,8 @@ ht-degree: 5%
 1. 在熒幕左側，找到下列其中一個文字欄位，並將其拖曳至畫布上的區段：
 
    * 單行文字
-   * 段落文字
-   * 含格式的文字欄位
+   * 段落
+   * 含格式的文字
    * 描述文字
 
    ![](assets/drag-field-to-section.png)
@@ -192,7 +192,7 @@ ht-degree: 5%
    </td>
     <td><ul>
     <li>單行文字</li>
-    <li>段落文字</li>
+    <li>段落</li>
     <li>含格式的文字</li>
     <li>描述文字</li>
     </ul></td>
@@ -203,7 +203,7 @@ ht-degree: 5%
     <p>重要：請避免在此標籤中使用特殊字元。 它們在報表中無法正確顯示。 如需詳細資訊，請參閱<a href="design-a-form.md#notes-on-field-names-and-labels">欄位名稱和標籤的附註</a>。</p></td>
     <td><ul>
     <li>單行文字</li>
-    <li>段落文字</li>
+    <li>段落</li>
     <li>含格式的文字</li>
     </ul></td>
     </tr>
@@ -214,7 +214,7 @@ ht-degree: 5%
     </td>
     <td><ul>
     <li>單行文字</li>
-    <li>段落文字</li>
+    <li>段落</li>
     <li>含格式的文字</li>
     <li>描述文字</li>
     </ul></td>
@@ -226,7 +226,7 @@ ht-degree: 5%
     </td>
     <td><ul>
     <li>單行文字</li>
-    <li>段落文字</li>
+    <li>段落</li>
     <li>含格式的文字</li>
     </ul></td>
     </tr>
@@ -240,7 +240,7 @@ ht-degree: 5%
      </ul></p></td> </td>
     <td><ul>
     <li>單行文字</li>
-    <li>段落文字</li>
+    <li>段落</li>
     </ul></td>
     </tr>
     <tr>
@@ -248,7 +248,7 @@ ht-degree: 5%
     <td>在單行與段落文字欄位之間切換。</td>
     <td><ul>
     <li>單行文字</li>
-    <li>段落文字</li>
+    <li>段落</li>
     </ul></td>
     </tr>
     <tr>
@@ -286,7 +286,7 @@ ht-degree: 5%
 
 * **選項按鈕**：要求使用者只選取一個選項。
 * **核取方塊群組**：允許使用者選取多個選項。
-* **下拉式清單**：提供下拉式清單選項清單。
+* **單選下拉式清單**：提供下拉式清單選項清單。
 * **多重選取下拉式清單**：可讓使用者從下拉式清單中選取多個選項。
 
 +++
@@ -301,8 +301,8 @@ ht-degree: 5%
 
    * 單選按鈕
    * 核取方塊群組
-   * 下拉
-   * 多選下拉清單
+   * 單選下拉式清單
+   * 多選下拉式清單
 
    ![將欄位拖曳到畫布上](assets/drag-field-to-section.png)
 
@@ -321,8 +321,8 @@ ht-degree: 5%
      <td><ul>
     <li>單選按鈕</li>
     <li>核取方塊群組</li>
-    <li>下拉</li>
-    <li>多選下拉清單</li>
+    <li>單選下拉式清單</li>
+    <li>多選下拉式清單</li>
     </ul></td>
      </tr> 
      <tr> 
@@ -332,8 +332,8 @@ ht-degree: 5%
      <td><ul>
     <li>單選按鈕</li>
     <li>核取方塊群組</li>
-    <li>下拉</li>
-    <li>多選下拉清單</li>
+    <li>單選下拉式清單</li>
+    <li>多選下拉式清單</li>
     </ul></td>
     </tr> 
     <tr> 
@@ -344,8 +344,8 @@ ht-degree: 5%
     <td><ul>
     <li>單選按鈕</li>
     <li>核取方塊群組</li>
-    <li>下拉</li>
-    <li>多選下拉清單</li>
+    <li>單選下拉式清單</li>
+    <li>多選下拉式清單</li>
     </ul></td>
     </tr> 
     <tr> 
@@ -359,18 +359,18 @@ ht-degree: 5%
      <td><ul>
     <li>單選按鈕</li>
     <li>核取方塊群組</li>
-    <li>下拉</li>
-    <li>多選下拉清單</li>
+    <li>單選下拉式清單</li>
+    <li>多選下拉式清單</li>
     </ul></td>
     </tr> 
     <tr> 
      <td role="rowheader">顯示類型</td> 
-    <td>在欄位的選項按鈕、核取方塊群組、下拉式清單或多選下拉式清單之間切換。</td> 
+    <td>在欄位的選項按鈕、核取方塊群組、單選下拉式清單或多選下拉式清單之間切換。</td> 
     <td><ul>
     <li>單選按鈕</li>
     <li>核取方塊群組</li>
-    <li>下拉</li>
-    <li>多選下拉清單</li>
+    <li>單選下拉式清單</li>
+    <li>多選下拉式清單</li>
     </ul></td>
     </tr> 
      <tr> 
@@ -379,8 +379,8 @@ ht-degree: 5%
     <td><ul>
     <li>單選按鈕</li>
     <li>核取方塊群組</li>
-    <li>下拉</li>
-    <li>多選下拉清單</li>
+    <li>單選下拉式清單</li>
+    <li>多選下拉式清單</li>
     </ul></td>
      </tr> 
     <tr> 
@@ -404,8 +404,8 @@ ht-degree: 5%
     <td><ul>
     <li>單選按鈕</li>
     <li>核取方塊群組</li>
-    <li>下拉</li>
-    <li>多選下拉清單</li>
+    <li>單選下拉式清單</li>
+    <li>多選下拉式清單</li>
     </ul></td>
      </tr> 
     </tbody> 
@@ -441,7 +441,7 @@ ht-degree: 5%
    * 團隊
    * 範本
    * 公司
-* **日期欄位**：顯示一個行事曆，使用者可以在其中選取日期和時間。
+* **日期**：顯示一個行事曆，使用者可以在其中選取日期和時間。
 
 +++
 
@@ -450,7 +450,7 @@ ht-degree: 5%
 1. 在畫面的左側，找到下列其中一個欄位，並將其拖曳至畫布上的區段。
 
    * 自動提示
-   * 日期欄位
+   * 日期
 
    ![](assets/drag-field-to-section.png)
 
@@ -468,7 +468,7 @@ ht-degree: 5%
       <td> <p>（必要）輸入描述性標籤，以在自訂欄位上方顯示。 您可以隨時變更標籤。</p> <p><b>重要</b>：請避免在此標籤中使用特殊字元。 它們在報表中無法正確顯示。 如需詳細資訊，請參閱<a href="design-a-form.md#notes-on-field-names-and-labels">欄位名稱和標籤的附註</a>。</p> </td> 
        <td><ul>
     <li>自動提示</li>
-    <li>日期欄位</li>
+    <li>日期</li>
     </ul></td>
      </tr> 
      <tr> 
@@ -477,7 +477,7 @@ ht-degree: 5%
       <p>如需詳細資訊，請參閱<a href="design-a-form.md#notes-on-field-names-and-labels">欄位名稱和標籤的附註</a>。</p> </td>
     <td><ul>
     <li>自動提示</li>
-    <li>日期欄位</li>
+    <li>日期</li>
     </ul></td>
      </tr> 
      <tr> 
@@ -487,14 +487,14 @@ ht-degree: 5%
       </td> 
          <td><ul>
     <li>自動提示</li>
-    <li>日期欄位</li>
+    <li>日期</li>
     </ul></td>
      </tr> 
      <tr> 
       <td role="rowheader">顯示當日時間</td> 
       <td>如果您要在欄位中顯示一天中的時間和日期，請選取此選項。</td> 
          <td><ul>
-    <li>日期欄位</li>
+    <li>日期</li>
     </ul></td>
      </tr> 
      <tr> 
@@ -532,7 +532,7 @@ ht-degree: 5%
       <td>如果您希望欄位是使用者完成自訂表單的必要欄位，請選取此選項。 </td> 
        <td><ul>
     <li>自動提示</li>
-    <li>日期欄位</li>
+    <li>日期</li>
     </ul></td>
      </tr> 
     </tbody> 
@@ -807,7 +807,7 @@ The Workfront Mobile app -->
 
 +++
 
-1. 在熒幕左側，尋找&#x200B;**原生欄位**&#x200B;並將其拖曳至畫布上的區段。
+1. 在熒幕左側，尋找&#x200B;**原生欄位參考**&#x200B;並將其拖曳至畫布上的區段。
 1. 在畫面右側，設定自訂欄位的選項：
 
    <table style="table-layout:auto"> 
