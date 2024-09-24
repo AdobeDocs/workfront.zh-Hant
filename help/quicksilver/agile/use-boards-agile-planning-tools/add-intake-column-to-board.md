@@ -7,9 +7,9 @@ description: 您可以選擇將輸入欄新增到您的展示板，在任務與�
 author: Lisa
 feature: Agile
 exl-id: 4991f4f7-6f3d-4e15-ae8d-96433ed46557
-source-git-commit: df4c2a73b5eb2498564bbf27aa92a297388562cd
+source-git-commit: 0c0c1f538cfd12e18c504fcb42ee424789d1cde8
 workflow-type: tm+mt
-source-wordcount: '1094'
+source-wordcount: '1126'
 ht-degree: 3%
 
 ---
@@ -41,6 +41,8 @@ ht-degree: 3%
 >[!IMPORTANT]
 >
 >如果有多位使用者同時使用主機板，建議經常重新整理主機板。 重新整理頁面有助於將展示板上的視覺變更保持最新，並防止重複卡片從引入欄移至展示板之類的問題。
+>
+>若要與Workfront同步並將新任務和問題帶入展示板或輸入資料行，請按一下展示板名稱旁的&#x200B;**[!UICONTROL 更多]**&#x200B;功能表![[!UICONTROL 更多]](assets/more-icon-spectrum.png)，並選取&#x200B;**[!UICONTROL 同步處理連線的專案]**。
 
 如需欄的詳細資訊，請參閱[管理面板欄](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md)。 如需有關已連線卡片的資訊，請參閱[使用主機板上的已連線卡片](/help/quicksilver/agile/get-started-with-boards/connected-cards.md)。
 

@@ -8,9 +8,9 @@ author: Lisa and Alina
 feature: Get Started with Workfront
 role: User
 exl-id: cfda6702-1a9a-4645-b031-8b2f201ac0af
-source-git-commit: a634e29df16d401812fb87ea53521d5028f7fd20
+source-git-commit: f5632af0fb87739fc41c4e2f41dc8ebab0f8be8b
 workflow-type: tm+mt
-source-wordcount: '782'
+source-wordcount: '816'
 ht-degree: 0%
 
 ---
@@ -21,9 +21,14 @@ ht-degree: 0%
 
 使用內容按鈕來接受或完成工作專案，您可以讓Adobe Workfront更新專案上的多個欄位，而無需自行手動更新。
 
+具有下列條件的使用者可看見處理它和完成按鈕：
+
+* 標準授權（新），或計畫或工作授權（目前）
+* 有限制的編輯存取權或任務或問題的較高許可權
+
 ## 處理它和完成按鈕名稱
 
-根據您從哪個Workfront區域存取您的任務或問題，處理它或完成按鈕可以變更名稱，如以下案例所述： 
+根據您從哪個Workfront區域存取您的任務或問題，處理它或完成按鈕可以變更名稱，如以下案例所述：
 
 * 當任務或問題首次指派給您且狀態為新建時，按鈕顯示為其上的工作。
 
@@ -33,7 +38,7 @@ ht-degree: 0%
   >
   >您可以使用開始按鈕取代處理它按鈕。 如需有關將[處理它]按鈕取代為[開始]按鈕的資訊，請參閱[將[處理它]按鈕取代為[開始]按鈕](../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md)。
 
-* 在您按一下「處理它接受」後，按鈕會變更為「標示為完成」或「完成」 ，視您在Workfront中存取任務或問題的位置而定。 有關您可以在何處存取「處理它」按鈕的資訊，請參閱本文中的[尋找處理它並完成按鈕](#locate-the-work-on-it-and-done-button)小節。
+* 在您按一下「處理它接受」後，按鈕會依據您在Workfront中存取任務或問題的位置而變更為「標示為完成」或「完成」 。 有關您可以在何處存取「處理它」按鈕的資訊，請參閱本文中的[尋找處理它並完成按鈕](#locate-the-work-on-it-and-done-button)小節。
 
   ![](assets/nwe-mark-as-done-button-350x122.png)
 

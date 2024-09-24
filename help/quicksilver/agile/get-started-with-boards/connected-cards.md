@@ -6,9 +6,9 @@ description: 您可以在展示板上新增卡片，該卡片會連線至Workfro
 author: Lisa
 feature: Agile
 exl-id: c6d979dd-e4a4-48a5-a91b-b31d7ef848d1
-source-git-commit: df4c2a73b5eb2498564bbf27aa92a297388562cd
+source-git-commit: 0c0c1f538cfd12e18c504fcb42ee424789d1cde8
 workflow-type: tm+mt
-source-wordcount: '1461'
+source-wordcount: '1483'
 ht-degree: 0%
 
 ---
@@ -29,6 +29,8 @@ ht-degree: 0%
 * [!UICONTROL 估計] / [!UICONTROL 劇本點]
 * [!UICONTROL 子任務]
 * [!UICONTROL 文件]
+
+若要將連線的卡片與Workfront同步，請按一下主機板名稱旁的&#x200B;**[!UICONTROL 更多]**&#x200B;功能表![[!UICONTROL 更多]](assets/more-icon-spectrum.png)，並選取&#x200B;**[!UICONTROL 同步連線的專案]**。
 
 >[!NOTE]
 >

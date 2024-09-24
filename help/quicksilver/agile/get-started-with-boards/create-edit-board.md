@@ -6,9 +6,9 @@ description: 您可以從[!UICONTROL 展示板]儀表板建立新展示板或編
 author: Lisa
 feature: Agile
 exl-id: 5f755177-c8ea-4509-a34f-57ffcfd8ba7f
-source-git-commit: efe636e14964cc8705839c9f534a9947327803d7
+source-git-commit: 0c0c1f538cfd12e18c504fcb42ee424789d1cde8
 workflow-type: tm+mt
-source-wordcount: '824'
+source-wordcount: '858'
 ht-degree: 1%
 
 ---
@@ -107,6 +107,8 @@ ht-degree: 1%
 
 1. 在控制面板上，選取要開啟的面板。
 1. 視需要編輯展示板。 您可以按一下電路板名稱來重新命名。
+
+   若要將已連線的卡片與Workfront同步並將新任務和問題帶入展示板或輸入資料行，請按一下展示板名稱旁的&#x200B;**[!UICONTROL 更多]**&#x200B;功能表![[!UICONTROL 更多]](assets/more-icon-spectrum.png)，並選取&#x200B;**[!UICONTROL 同步已連線專案]**。
 
    如需詳細資訊，請參閱[從展示板新增或移除成員](../../agile/get-started-with-boards/add-members-to-board.md)、[管理展示板欄](../../agile/get-started-with-boards/manage-board-columns.md)以及[將卡片新增到展示板](../../agile/get-started-with-boards/add-card-to-board.md)。
 
