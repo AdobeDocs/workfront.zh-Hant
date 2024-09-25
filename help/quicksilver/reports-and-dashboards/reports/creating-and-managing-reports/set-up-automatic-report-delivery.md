@@ -6,9 +6,9 @@ description: 排程自動報告傳送
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 5b8e382c-bfe8-43aa-aa09-a2aa0c4d56cc
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 4bd88c0e4a3d27e30580fefea993224fe5446e32
 workflow-type: tm+mt
-source-wordcount: '1165'
+source-wordcount: '1172'
 ht-degree: 2%
 
 ---
@@ -130,7 +130,7 @@ ht-degree: 2%
      </tr> 
      <tr> 
       <td role="rowheader"> <p>時間</p> </td> 
-      <td> <p>選取一天中要傳送傳遞的時間。</p> <p>提示：由於系統載入會影響報表傳送時間，因此排程時間與實際傳送時間之間可能會有延遲。 如果您需要在特定時間之前傳送報表，建議在需要的時間之前排程傳送。 例如，我們建議將傳送排程在所需日期的前一天。</p> </td> 
+      <td> <p>選取一天中要傳送傳遞的時間。</p> <p>提示：由於系統載入會影響報表傳送時間，因此排程時間與實際傳送時間之間最多可能有24小時的延遲。 如果您需要在特定時間之前傳送報表，建議在需要的時間之前排程傳送。 一般而言，我們建議將傳送排程至少早於所需日期一天。</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"> <p>重覆於</p> </td> 

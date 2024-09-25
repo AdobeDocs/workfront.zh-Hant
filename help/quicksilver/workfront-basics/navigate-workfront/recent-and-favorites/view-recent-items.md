@@ -6,16 +6,16 @@ description: '[!UICONTROL Recents]功能表位於上方導覽列。 此功能表
 feature: Get Started with Workfront
 author: Lisa
 exl-id: 531b6b77-bf54-4ab3-a757-5c59fc0586a6
-source-git-commit: 1ab76287062598a526dcf2420845498f8f749453
+source-git-commit: 4bd88c0e4a3d27e30580fefea993224fe5446e32
 workflow-type: tm+mt
-source-wordcount: '185'
+source-wordcount: '210'
 ht-degree: 0%
 
 ---
 
 # 檢視最近專案
 
-[!UICONTROL Recents]功能表位於上方導覽列。 此功能表會顯示最近檢視的專案、報告、控制面板、任務、問題等。
+[!UICONTROL Recents]功能表位於上方導覽列。 此功能表會顯示最近檢視的專案、報告、控制面板、任務、問題等。 只包含過去兩週內檢視的物件，每種物件型別最多二十個，並依照最近檢視的順序列出。
 
 ## 存取需求
 

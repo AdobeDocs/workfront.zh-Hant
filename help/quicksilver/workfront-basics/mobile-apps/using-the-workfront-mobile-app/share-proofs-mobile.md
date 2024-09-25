@@ -6,9 +6,9 @@ description: 您可以直接從行動應用程式與內部和外部收件者共�
 author: Nolan
 feature: Get Started with Workfront
 exl-id: a97ddd1e-1cae-49a8-b3a4-7c9850169179
-source-git-commit: 854eb3c0e4ee49315c36e00c7012e0baf2d98c37
+source-git-commit: 4bd88c0e4a3d27e30580fefea993224fe5446e32
 workflow-type: tm+mt
-source-wordcount: '584'
+source-wordcount: '597'
 ht-degree: 0%
 
 ---
@@ -77,7 +77,7 @@ ht-degree: 0%
 
 ## 下載證明
 
-您可以將校樣檔案的復本下載到行動裝置。
+您可以將校樣檔案的復本下載到行動裝置。 請注意，雖然您無法預覽視訊檔案，但您仍可下載它們。
 
 1. 開啟檔案校訂，然後選取檔案右上角的&#x200B;**[!UICONTROL 更多]**&#x200B;功能表![更多功能表](assets/mobile-verticalmoremenu-20x33.png)。 然後，選取&#x200B;**[!UICONTROL 更多]**。
 1. 選取&#x200B;**[!UICONTROL 下載]**。
