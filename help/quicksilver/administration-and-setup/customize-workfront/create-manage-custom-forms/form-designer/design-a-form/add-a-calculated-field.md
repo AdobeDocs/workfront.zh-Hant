@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 407aae49-4bc3-4364-a794-7e170a57a6d3
-source-git-commit: 8dac7959919014d7bfbbbd39d193d026ca31c4b2
+source-git-commit: 0e7651389a8762a2b09b0bcf87bf08c7be72adee
 workflow-type: tm+mt
-source-wordcount: '2319'
+source-wordcount: '2353'
 ht-degree: 0%
 
 ---
@@ -279,6 +279,8 @@ ht-degree: 0%
 +++
 
    1. 按一下大型文字方塊，然後按一下&#x200B;**運算式**&#x200B;和&#x200B;**欄位**，這些欄位可用來新增至您的計算。
+
+      展開&#x200B;**欄位**&#x200B;下的物件名稱，檢視該物件可用的所有欄位。 清單限製為200個專案。 如果您知道欄位名稱，則可以搜尋它。
 
       您也可以開始在大型文字方塊中輸入運算式或欄位，然後在顯示時選取該運算式或欄位。 每個專案在欄位中顯示為「F」，在運算式中顯示為「E」。
 
