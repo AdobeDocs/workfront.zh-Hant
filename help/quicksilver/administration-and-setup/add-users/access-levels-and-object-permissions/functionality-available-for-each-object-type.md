@@ -10,9 +10,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 91b1b448-5a0b-4e64-a59e-458c8387ecbc
-source-git-commit: 5113771baf269405e758307d11a392f95ee870fe
+source-git-commit: 56f59e901e4c20159cd8b40cea0cbbe24271099b
 workflow-type: tm+mt
-source-wordcount: '1919'
+source-wordcount: '1953'
 ht-degree: 10%
 
 ---
@@ -24,6 +24,10 @@ ht-degree: 10%
 下表列出各種存取層級中每種物件型別的可用功能。
 
 它也會指出Workfront管理員可使用存取層級停用或啟用哪些動作。
+
+>[!NOTE]
+>
+>本文會說明在目前Workfront計畫模型中可用於存取層級的功能。 若要檢視新計畫模型中可用的功能，請參閱[新存取層級中每個物件型別可用的功能](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/functionality-available-for-objects.md)。
 
 ## 專案
 
