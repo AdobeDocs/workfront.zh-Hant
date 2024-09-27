@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 4f4694dd-a6cb-46b7-b2cf-fe24ed9419f5
-source-git-commit: c3e18716aa74ed91e21e542437a017586a58d0b3
+source-git-commit: b0b56dfb8d50fbbd40e2a1de82f95352c182615a
 workflow-type: tm+mt
-source-wordcount: '402'
+source-wordcount: '381'
 ht-degree: 0%
 
 ---
@@ -46,9 +46,9 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->預覽版本： 2024年8月12日；生產版本快速發行：24.9版（2024年9月12日）；生產版本每季發行：待定
+>預覽版本：~~2024年8月12日~~；快速版本的生產：不適用；每季發行的生產：不適用
 >
->_此功能屬於分階段發行的一部分，並將於9月提供給有限數量的客戶。 收集意見反應時，它將在[預覽]環境中保留較長的時間。_
+>_此功能已從[預覽]中移除，未來任何發行版本都不會發行此功能。_
 
 自訂表單設計器上的「版面配置」按鈕可讓您從兩欄或三欄式工作區中進行選擇。 原始表單設計工具使用三欄，而欄位設定會顯示在最右邊的欄中。 如果您選取兩欄，欄位設定會顯示在最左欄的欄位程式庫旁邊。
 
