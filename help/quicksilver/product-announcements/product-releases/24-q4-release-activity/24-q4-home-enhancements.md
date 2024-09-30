@@ -4,9 +4,9 @@ description: 2024年第四季首頁增強功能
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: d07aea784f69d7b2d499b9bc7f9bce3dbbb4444c
+source-git-commit: c32d08a0b32c6695a29ef45400a7eb1e10e665fd
 workflow-type: tm+mt
-source-wordcount: '173'
+source-wordcount: '174'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 ## 透過優先順序簡化任務擁有者的Workfront體驗
 
-隆重推出優先順序：為任務擁有者提供更簡單、簡化且直覺式的Workfront體驗。
+推出優先順序：為任務擁有者提供更簡單、簡化且更直覺的Workfront體驗。
 
 優先順序可加強關注度與生產力，協助客戶在更短的時間內完成更多工作。
 

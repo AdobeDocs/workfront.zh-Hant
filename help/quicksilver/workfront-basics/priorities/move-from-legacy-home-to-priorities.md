@@ -5,9 +5,9 @@ description: 舊版首頁將於2017年第4季版本中從Workfront移除。 本�
 author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
-source-git-commit: 3b530431ea9db318e03ac1f348e40cfbdedefc01
+source-git-commit: e0eeb62dc1e29849258fa7b111ccce6480767812
 workflow-type: tm+mt
-source-wordcount: '563'
+source-wordcount: '564'
 ht-degree: 3%
 
 ---
@@ -49,9 +49,7 @@ ht-degree: 3%
 
 #### 委派工作
 
-使用者目前無法在優先順序中委派或檢視委派的工作。
-
-使用者仍然可以在以下Widget中從「新首頁」委派工作：
+使用者目前無法在優先順序中委派或檢視委派的工作。 不過，使用者仍然可以在下列Widget中從「新首頁」委派工作：
 
 * 我的工作
 * 我的任務
