@@ -7,10 +7,10 @@ author: Nolan
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: c0b25ec2-38a5-4499-9366-be3b71ae62a2
-source-git-commit: d261fd9eb9b8b649ebe413e35161543db1db8412
+source-git-commit: fe7ed0282a857fb8b7e0c2cfefb2accd17d88def
 workflow-type: tm+mt
-source-wordcount: '86'
-ht-degree: 16%
+source-wordcount: '89'
+ht-degree: 15%
 
 ---
 
@@ -22,6 +22,7 @@ ht-degree: 16%
 * [Adobe Workfront瀏覽器需求](../workfront-basics/workfront-browser-requirements.md)
 * 在Adobe Workfront中支援[語言](../workfront-basics/supported-languages-in-workfront.md)
 * [導覽Adobe Workfront：文章索引](../workfront-basics/navigate-workfront/navigate-workfront.md)
+* [優先順序：文章索引](/help/quicksilver/workfront-basics/priorities/priorities-toc.md)
 * [首頁](../workfront-basics/using-home/home.md)
 * [更新工作專案並檢視更新：文章索引](../workfront-basics/updating-work-items-and-viewing-updates/update-work-items-and-view-updates.md)
 * [使用自訂表格](../workfront-basics/work-with-custom-forms/work-with-custom-forms.md)
