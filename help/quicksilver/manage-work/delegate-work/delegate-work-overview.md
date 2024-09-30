@@ -7,9 +7,9 @@ description: 當您計畫短期不在辦公室時，您可以暫時將您的工�
 author: Lisa
 feature: Work Management
 exl-id: aec2ce78-278f-48d2-af8c-e4e5b31ac856
-source-git-commit: 49bd393af77a67aa1e3a443c4189569178e99ada
+source-git-commit: 70e20df7c9738f33496e37b31b6e11caf0ac2f0f
 workflow-type: tm+mt
-source-wordcount: '887'
+source-wordcount: '886'
 ht-degree: 1%
 
 ---
@@ -28,11 +28,11 @@ ht-degree: 1%
 
 * 指派給您的任務
 * 指派給您的問題
-* 指派給您的專案、任務、問題、檔案核准。
+* 指派給您的專案、任務或問題核准。
 
 本文包含委派任務和問題的一般資訊。
 
-如需有關委派專案、任務、問題和檔案核准的資訊，請參閱[委派核准要求](../../review-and-approve-work/manage-approvals/delegate-approval-requests.md)。
+如需有關委派專案、任務和問題核准的資訊，請參閱[委派核准要求](../../review-and-approve-work/manage-approvals/delegate-approval-requests.md)。
 
 有關如何委派任務和問題的資訊，請參閱[委派任務和問題](../../manage-work/delegate-work/how-to-delegate-work.md)。
 
@@ -43,6 +43,7 @@ ht-degree: 1%
 * 您的[!DNL Workfront]或群組管理員必須在[!UICONTROL 設定]區域中啟用「委派」偏好設定，然後才能將您的工作委派給其他人。
 
   如需詳細資訊，請參閱[設定全系統的任務和問題偏好設定](../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md)。
+
 * 您只能從[!UICONTROL 首頁]區域委派任務和問題。
 * 下列授權型別存在例外：
 
