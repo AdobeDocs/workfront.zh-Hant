@@ -6,9 +6,9 @@ description: 重新計算時間表可讓經理檢視與專案相關的不同因�
 author: Alina
 feature: Work Management
 exl-id: ec5d9a07-e45a-4aa2-9f41-9421ca5d5920
-source-git-commit: dc3461803e23f61877c31efa2c52fffdc7bd79bf
+source-git-commit: 7c2d6d1960752a109c02039c1af8d1d1850bcb8c
 workflow-type: tm+mt
-source-wordcount: '1021'
+source-wordcount: '1058'
 ht-degree: 0%
 
 ---
@@ -94,6 +94,11 @@ ht-degree: 0%
 
 * [自動重新計算專案時間表](#automatic-recalculation-of-project-timelines)
 * [觸發自動重新計算專案時程表的動作](#actions-that-trigger-an-automatic-recalculation-of-project-timelines)
+
+
+>[!IMPORTANT]
+>
+>針對「預覽」和「自訂重新整理沙箱」環境，會停用每晚重新計算，且不會自動重新計算專案時間表。 您必須手動重新計算預覽和自訂重新整理沙箱環境的專案時間表。
 
 ### 自動重新計算專案時間表 {#automatic-recalculation-of-project-timelines}
 

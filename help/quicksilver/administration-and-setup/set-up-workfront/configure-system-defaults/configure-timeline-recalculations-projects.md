@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 67028988-6ac3-48d4-957e-1b5202d33c48
-source-git-commit: caaba90f4cdd835e1a1fddf16bcefa30995cca0d
+source-git-commit: 7c2d6d1960752a109c02039c1af8d1d1850bcb8c
 workflow-type: tm+mt
-source-wordcount: '426'
+source-wordcount: '469'
 ht-degree: 0%
 
 ---
@@ -77,6 +77,11 @@ ht-degree: 0%
 1. 按一下「**[!UICONTROL 儲存]**」。
 
    系統會根據每個專案的更新型別，自動重新計算系統中所有專案的時間表。
+
+>[!IMPORTANT]
+>
+>針對「預覽」和「自訂重新整理沙箱」環境，會停用每晚重新計算，且不會自動重新計算專案時間表。 您必須手動重新計算預覽和自訂重新整理沙箱環境的專案時間表。 如需詳細資訊，請參閱[重新計算專案時間表](/help/quicksilver/manage-work/projects/manage-projects/recalculate-project-timeline.md)。
+
 
 ## 重新計算整個[!DNL Workfront]執行個體的時間表
 

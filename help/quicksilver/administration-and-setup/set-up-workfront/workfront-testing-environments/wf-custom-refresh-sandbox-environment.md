@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: e18c005b-e6ff-4a1e-a589-63132f3a8ad2
-source-git-commit: 439303273239549bb326c171be44eea321f5bb5f
+source-git-commit: 7c2d6d1960752a109c02039c1af8d1d1850bcb8c
 workflow-type: tm+mt
-source-wordcount: '1639'
+source-wordcount: '1749'
 ht-degree: 0%
 
 ---
@@ -199,6 +199,16 @@ If you are a Workfront Goals customer, Workfront Goals data does not transfer to
 >[!NOTE]
 >
 >如果您組織的[!DNL Workfront]執行個體已啟用Adobe IMS，則無法使用此選項。 如需詳細資訊，請洽詢您的網路或IT管理員。
+
+## 自動重新計算專案時間表
+
+重新計算時間表可讓管理員檢視專案外的力量如何影響專案的時間表。 專案的時間表是指專案的計畫和預計日期。
+
+身為Workfront管理員，您可以設定Workfront何時自動重新計算專案時間表。 Workfront可每晚或專案範圍變更時，或同時於兩者，重新計算專案時間表。
+
+如需詳細資訊，請參閱[設定專案的時間表重新計算](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-timeline-recalculations-projects.md)。
+
+在「自訂重新整理沙箱」環境中，會停用每晚重新計算，且不會自動重新計算專案時間表。 您必須手動重新計算「自訂重新整理沙箱」環境的專案時間表。 如需詳細資訊，請參閱[重新計算專案時間表](/help/quicksilver/manage-work/projects/manage-projects/recalculate-project-timeline.md)。
 
 ## 預期用途與可用性
 
