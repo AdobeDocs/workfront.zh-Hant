@@ -2,16 +2,16 @@
 product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: scenarios
-title: 使用AI產生模組
+title: 使用AI產生案例區段
 description: 您可以輸入文字提示，以建立設定為提示的HTTP模組。
 author: Becky
 feature: Workfront Fusion
 hide: true
 hidefromtoc: true
 exl-id: 899641a0-a104-4be9-b423-34a32e985b53
-source-git-commit: 67e1d158b09ca339d25473ebedf8851155b2c1c0
+source-git-commit: 7013c8a88f047c5c8e769a4d7b71f2033c767b4a
 workflow-type: tm+mt
-source-wordcount: '408'
+source-wordcount: '409'
 ht-degree: 0%
 
 ---
@@ -93,6 +93,7 @@ Fusion AI目前可以產生連線到以下應用程式的模組：
 >這包括應用程式`Workfront Planning`和動作`get field details`。
 >
 >下列範例不正確：
+>
 >* `Generate an image in Adobe Firefly and upload it to Dropbox`
 >
 >    此範例不正確，因為它包含多個應用程式
