@@ -8,9 +8,9 @@ description: 除了Adobe Workfront授權，Adobe Workfront Fusion還需要Adobe 
 author: Becky
 feature: Workfront Fusion
 exl-id: 2169dc2e-2135-47e0-a615-3de12cd120a9
-source-git-commit: f11af8d9d1e5fa65c2efb4d882d25f9e13784611
+source-git-commit: eb39c26b076e89acb8bc4eef1a459b6ef8cd389b
 workflow-type: tm+mt
-source-wordcount: '828'
+source-wordcount: '858'
 ht-degree: 0%
 
 ---
@@ -101,6 +101,10 @@ ht-degree: 0%
   <tr> 
    <td role="rowheader"> <p>情境</p> </td> 
    <td> <p>使用者建立的一系列自動化步驟，每個步驟都由模組表示和執行。 案例的目的是移動及操控資料。</p> <p> <img src="assets/scenario-350x178.jpg" style="width: 350;height: 178;"> </p> <p> 如需詳細資訊，請參閱<a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">在[！UICONTROL Adobe Workfront Fusion]</a>中建立情境。</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"> <p>案例區段</p> </td> 
+   <td> <p> 由一系列模組組成且全都連線至相同應用程式的情境區段。 案例區段通常代表應用程式中的簡短工作流程。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>交易</p> </td> 
